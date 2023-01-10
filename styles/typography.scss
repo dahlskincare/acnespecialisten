@@ -1,14 +1,7 @@
+@import "mixins";
 @import "sizes";
 
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Inter:wght@400;600&display=swap');
 
-@mixin font-style($family, $serif, $size, $line-height, $letter-spacing, $weight) {
-    font-family: $family, $serif;
-    font-size: $size;
-    line-height: $line-height;
-    letter-spacing: $letter-spacing;
-    font-weight: $weight;
-}
 
 
 // MOBILE //
@@ -59,16 +52,6 @@ p.p100 {
     @include font-style("Inter", sans-serif, 14px, 21px, -0.02em, 400);
 }
 
-.b200 {
-    @include font-style("Inter", sans-serif, 16px, 24px, -0.02em, 600);
-}
-
-button,
-div.button,
-.b100 {
-    @include font-style("Inter", sans-serif, 14px, 21px, -0.02em, 600);
-}
-
 .l200 {
     @include font-style("Inter", sans-serif, 16px, 24px, -0.02em, 600);
 }
@@ -79,9 +62,6 @@ a,
 }
 
 // END MOBILE //
-
-
-
 
 
 @media only screen and (min-width: $desktop) {
@@ -131,15 +111,6 @@ a,
     p,
     p.p100 {
         @include font-style("Inter", sans-serif, 14px, 21px, -0.02em, 400);
-    }
-
-    .b200 {
-        @include font-style("Inter", sans-serif, 16px, 24px, -0.02em, 600);
-    }
-
-    button,
-    .b100 {
-        @include font-style("Inter", sans-serif, 14px, 21px, -0.02em, 600);
     }
 
     .l200 {
