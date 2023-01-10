@@ -5,3 +5,11 @@
 @import "typography";
 @import "bulma/sass/utilities/_all.sass";
 @import "bulma/sass/grid/columns.sass";
+
+.elevation-low {
+    @include elevation-low();
+}
+
+.elevation-medium {
+    @include elevation-medium();
+}

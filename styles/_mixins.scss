@@ -5,3 +5,11 @@
     letter-spacing: $letter-spacing;
     font-weight: $weight;
 }
+
+@mixin elevation-low() {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.06);
+}
+
+@mixin elevation-medium() {
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.08);
+}
