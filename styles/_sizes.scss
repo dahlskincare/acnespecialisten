@@ -1,3 +1,26 @@
-$mobile: 600px;
-$tablet: 768px;
-$desktop: 992px;
+$v-xxs: 4px;
+$v-xs: 8px;
+$v-s: 12px;
+$v-m: 16px;
+$v-l: 20px;
+$v-xl: 24px;
+$v-xxl: 32px;
+$v-3xl: 40px;
+$v-4xl: 56px;
+$v-5xl: 80px;
+
+$h-xxs: 4px;
+$h-xs: 8px;
+$h-s: 12px;
+$h-m: 16px;
+$h-l: 20px;
+$h-xl: 24px;
+$h-xxl: 32px;
+$h-3xl: 40px;
+$h-4xl: 56px;
+$h-5xl: 80px;
+
+$column-gap: $v-s;
+$tablet: 769px;
+$desktop: 960px + (2 * $column-gap);
+$widescreen: 1152px + (2 * $column-gap);

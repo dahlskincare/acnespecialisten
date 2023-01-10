@@ -6,10 +6,16 @@
 </head>
 
 <body>
-    <?php
-    include('includes/header.php');
-    ?>
-    <h1 class="big">Hello</h1>
+    <?php include('includes/header.php'); ?>
+    <div class="columns">
+        <div class="column is-three-quarters">
+            <p>hej</p>
+        </div>
+        <div class="column">
+            <p>hej</p>
+        </div>
+    </div>
+
 
 
 </body>
