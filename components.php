@@ -4,10 +4,6 @@
     <title>Acnespecialisten</title>
     <?php include('includes/head.php'); ?>
     <style>
-        body {
-            margin: 0;
-        }
-
         h2 {
             margin-bottom: 4px;
         }
@@ -25,6 +21,25 @@
 </head>
 
 <body>
+    <h1>Textfields</h1>
+    <div class="section">
+        <h2>Regular</h2>
+        <div class="textfield">
+            <?php icon("placeholder") ?>
+            <input type="text"
+                   placeholder="Placeholder text" />
+            <?php icon("placeholder") ?>
+        </div>
+        <h2>Dense</h2>
+        <div class="textfield dense">
+            <input type="text"
+                   placeholder="Hello!">
+        </div>
+    </div>
+    <div class="section">
+
+    </div>
+
     <h1>Buttons</h1>
     <div class="section">
         <h2>Regular</h2>

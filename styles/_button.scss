@@ -20,7 +20,7 @@ input[type=submit],
     border-style: solid;
     color: $white-500;
     cursor: pointer;
-    border-radius: 4px;
+    border-radius: $radius-s;
     padding: 10px 16px;
     min-width: 64px;
     display: inline-flex;
@@ -28,11 +28,11 @@ input[type=submit],
     justify-content: center;
 
     .icon:last-child {
-        margin-left: 8px;
+        margin-left: $v-xs;
     }
 
     .icon:first-child {
-        margin-right: 8px;
+        margin-right: $v-xs;
     }
 
     .icon>svg {

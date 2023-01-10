@@ -12,6 +12,10 @@ p {
     margin: 0;
 }
 
+* {
+    font-family: "Inter", sans-serif;
+}
+
 
 h1,
 .h300 {
@@ -91,6 +95,21 @@ input[type=submit].b50,
     @include font-style("Inter", sans-serif, 14px, 21px, -0.02em, 600);
 }
 
+
+input[type=text],
+input[type=search],
+input[type=phone],
+input[type=email] {
+    @include font-style("Inter", sans-serif, 14px, 20px, inherit, 400);
+}
+
+input[type=text]::placeholder,
+input[type=search]::placeholder,
+input[type=phone]::placeholder,
+input[type=email]::placeholder {
+    @include font-style("Inter", sans-serif, 14px, 20px, inherit, 400);
+}
+
 // END MOBILE //
 
 
@@ -154,6 +173,7 @@ input[type=submit].b50,
 
     button,
     .button,
+    input[type=submit],
     .b100 {
         @include font-style("Inter", sans-serif, 14px, 21px, -0.02em, 600);
     }
@@ -165,7 +185,4 @@ input[type=submit].b50,
     .b200 {
         @include font-style("Inter", sans-serif, 16px, 24px, -0.02em, 600);
     }
-
-
-
 }
