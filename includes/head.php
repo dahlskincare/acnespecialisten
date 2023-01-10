@@ -1,7 +1,8 @@
 <?php
 include('util/functions.php');
 ?>
-
+<meta name="viewport"
+      content="width=device-width, user-scalable=no" />
 <base href="/">
 <link rel="preconnect"
       href="https://fonts.googleapis.com">
