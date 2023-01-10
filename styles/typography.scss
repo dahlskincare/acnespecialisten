@@ -64,6 +64,7 @@ p.p100 {
 }
 
 button,
+div.button,
 .b100 {
     @include font-style("Inter", sans-serif, 14px, 21px, -0.02em, 600);
 }
