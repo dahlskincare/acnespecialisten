@@ -1,0 +1,153 @@
+@import "sizes";
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Inter:wght@400;600&display=swap');
+
+@mixin font-style($family, $serif, $size, $line-height, $letter-spacing, $weight) {
+    font-family: $family, $serif;
+    font-size: $size;
+    line-height: $line-height;
+    letter-spacing: $letter-spacing;
+    font-weight: $weight;
+}
+
+
+// MOBILE //
+h1,
+.h300 {
+    @include font-style("Inter", sans-serif, 20px, 28px, -0.02em, 600);
+}
+
+h2,
+.h200 {
+    @include font-style("Inter", sans-serif, 16px, 24px, -0.02em, 600);
+}
+
+h3,
+.h100 {
+    @include font-style("Inter", sans-serif, 14px, 21px, -0.02em, 600);
+}
+
+h1.big,
+.h600 {
+    @include font-style("DM Serif Text", serif, 52px, 60px, -0.02em, 400);
+}
+
+h2.big,
+.h500 {
+    @include font-style("DM Serif Text", serif, 32px, 40px, -0.02em, 400);
+}
+
+h3.big,
+.h400 {
+    @include font-style("DM Serif Text", serif, 24px, 32px, -0.02em, 400);
+}
+
+p.p400 {
+    @include font-style("Inter", sans-serif, 24px, 36px, -0.02em, 400);
+}
+
+p.p300 {
+    @include font-style("Inter", sans-serif, 20px, 28px, -0.02em, 400);
+}
+
+p.p200 {
+    @include font-style("Inter", sans-serif, 16px, 24px, -0.02em, 400);
+}
+
+p,
+p.p100 {
+    @include font-style("Inter", sans-serif, 14px, 21px, -0.02em, 400);
+}
+
+.b200 {
+    @include font-style("Inter", sans-serif, 16px, 24px, -0.02em, 600);
+}
+
+button,
+.b100 {
+    @include font-style("Inter", sans-serif, 14px, 21px, -0.02em, 600);
+}
+
+.l200 {
+    @include font-style("Inter", sans-serif, 16px, 24px, -0.02em, 600);
+}
+
+a,
+.l100 {
+    @include font-style("Inter", sans-serif, 14px, 21px, -0.02em, 600);
+}
+
+// END MOBILE //
+
+
+
+
+
+@media only screen and (min-width: $desktop) {
+
+    h1,
+    .h300 {
+        @include font-style("Inter", sans-serif, 20px, 28px, -0.02em, 600);
+    }
+
+    h2,
+    .h200 {
+        @include font-style("Inter", sans-serif, 16px, 24px, -0.02em, 600);
+    }
+
+    h3,
+    .h100 {
+        @include font-style("Inter", sans-serif, 14px, 21px, -0.02em, 600);
+    }
+
+    h1.big,
+    .h600 {
+        @include font-style("DM Serif Text", serif, 92px, 104px, -0.02em, 400);
+    }
+
+    h2.big,
+    .h500 {
+        @include font-style("DM Serif Text", serif, 40px, 48px, -0.02em, 400);
+    }
+
+    h3.big,
+    .h400 {
+        @include font-style("DM Serif Text", serif, 32px, 40, -0.02em, 400);
+    }
+
+    p.p400 {
+        @include font-style("Inter", sans-serif, 24px, 36px, -0.02em, 400);
+    }
+
+    p.p300 {
+        @include font-style("Inter", sans-serif, 20px, 28px, -0.02em, 400);
+    }
+
+    p.p200 {
+        @include font-style("Inter", sans-serif, 16px, 24px, -0.02em, 400);
+    }
+
+    p,
+    p.p100 {
+        @include font-style("Inter", sans-serif, 14px, 21px, -0.02em, 400);
+    }
+
+    .b200 {
+        @include font-style("Inter", sans-serif, 16px, 24px, -0.02em, 600);
+    }
+
+    button,
+    .b100 {
+        @include font-style("Inter", sans-serif, 14px, 21px, -0.02em, 600);
+    }
+
+    .l200 {
+        @include font-style("Inter", sans-serif, 16px, 24px, -0.02em, 600);
+    }
+
+    a,
+    .l100 {
+        @include font-style("Inter", sans-serif, 14px, 21px, -0.02em, 600);
+    }
+
+}

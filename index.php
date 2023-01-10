@@ -2,13 +2,17 @@
 
 <head>
     <title>Acnespecialisten</title>
+    <base href="/">
     <link rel="stylesheet"
-          href="normalize.css">
+          href="styles/normalize.css">
     <link rel="stylesheet"
-          href="style.css">
+          href="styles/style.css">
 </head>
 
 <body>
+    <?php
+    include('includes/header.php')
+        ?>
     <h1>Hello</h1>
 </body>
 
