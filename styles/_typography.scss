@@ -2,9 +2,17 @@
 @import "sizes";
 
 
-
-
 // MOBILE //
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin: 0;
+}
+
+
 h1,
 .h300 {
     @include font-style("Inter", sans-serif, 20px, 28px, -0.02em, 600);
@@ -58,6 +66,28 @@ p.p100 {
 
 a,
 .l100 {
+    @include font-style("Inter", sans-serif, 14px, 21px, -0.02em, 600);
+}
+
+
+button,
+input[type=submit],
+.button,
+.b100 {
+    @include font-style("Inter", sans-serif, 14px, 21px, -0.02em, 600);
+}
+
+button.b200,
+input[type=submit].b200,
+.button.b200,
+.b200 {
+    @include font-style("Inter", sans-serif, 16px, 24px, -0.02em, 600);
+}
+
+button.b50,
+input[type=submit].b50,
+.button.b50,
+.b50 {
     @include font-style("Inter", sans-serif, 14px, 21px, -0.02em, 600);
 }
 
@@ -121,5 +151,21 @@ a,
     .l100 {
         @include font-style("Inter", sans-serif, 14px, 21px, -0.02em, 600);
     }
+
+    button,
+    .button,
+    .b100 {
+        @include font-style("Inter", sans-serif, 14px, 21px, -0.02em, 600);
+    }
+
+    .b50 {
+        @include font-style("Inter", sans-serif, 14px, 21px, -0.02em, 600);
+    }
+
+    .b200 {
+        @include font-style("Inter", sans-serif, 16px, 24px, -0.02em, 600);
+    }
+
+
 
 }

@@ -2,15 +2,218 @@
 @import "mixins";
 @import "sizes";
 
-.b200 {
-    @include font-style("Inter", sans-serif, 16px, 24px, -0.02em, 600);
-}
 
 button,
-div.button,
-.b100 {
-    @include font-style("Inter", sans-serif, 14px, 21px, -0.02em, 600);
+input[type=submit],
+.button {
+    transition: background-color 200ms ease, color 200ms ease, border-color 200ms ease;
+    user-select: none;
+
+    .icon>svg {
+        transition: stroke 200ms ease;
+    }
+
+    box-sizing: content-box;
+    background-color: $deep-sea-400;
+    border-color: $deep-sea-400;
+    border-width: 1px;
+    border-style: solid;
+    color: $white-500;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 10px 16px;
+    min-width: 64px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    .icon:last-child {
+        margin-left: 8px;
+    }
+
+    .icon:first-child {
+        margin-right: 8px;
+    }
+
+    .icon>svg {
+        stroke: $white-500;
+    }
+}
+
+button:hover,
+.button:hover {
+    background-color: $deep-sea-300;
+
+}
+
+button:active,
+input[type=submit]:active,
+.button:active,
+button.active,
+input[type=submit].active,
+.button.active {
+    background-color: $deep-sea-500;
+}
+
+button.outline,
+input[type=submit].outline,
+.button.outline {
+    background-color: $white-500;
+    border-color: $deep-sea-400;
+    color: $deep-sea-400;
+
+    .icon>svg {
+        stroke: $deep-sea-400;
+    }
+}
+
+button.outline:hover,
+input[type=submit].outline:hover,
+.button.outline:hover {
+    background-color: $deep-sea-400;
+    color: $white-500;
+
+    .icon>svg {
+        stroke: $white-500;
+    }
+}
+
+button.outline:active,
+input[type=submit]:active,
+.button.outline:active,
+button.outline.active,
+input[type=submit].active,
+.button.outline.active {
+    background-color: $deep-sea-500;
+    color: $white-500;
+
+    .icon>svg {
+        stroke: $white-500;
+    }
+}
+
+button.text,
+input[type=submit].text,
+.button.text {
+    background-color: transparent;
+    border-color: transparent;
+    color: $deep-sea-400;
+
+    .icon>svg {
+        stroke: $deep-sea-400;
+    }
+}
+
+button.text:disabled,
+input[type=submit].text:disabled,
+.button.text:disabled,
+button.text.disabled,
+.button.text.disabled {
+    background-color: transparent;
+    border-color: transparent;
+    color: $dark-25;
+
+    .icon>svg {
+        stroke: $dark-25;
+    }
+}
+
+button:disabled,
+input[type=submit]:disabled,
+.button:disabled,
+button.disabled,
+input[type=submit].disabled,
+.button.disabled {
+    background-color: $light-200;
+    border-color: $light-200;
+    color: $dark-50;
+
+    .icon>svg {
+        stroke: $dark-50;
+    }
 }
 
 
-@media only screen and (min-width: $desktop) {}
+button.white,
+input[type=submit].white,
+.button.white {
+    background-color: $white-500;
+    border-color: $white-500;
+    color: $black-500;
+
+    .icon>svg {
+        stroke: $black-500;
+    }
+}
+
+button.white:hover:not(:active):not(:disabled):not(.disabled),
+input[type=submit].white:hover:not(:active):not(:disabled):not(.disabled),
+.button.white:hover:not(:active):not(:disabled):not(.disabled) {
+    background-color: $white-500;
+    color: $deep-sea-400;
+
+    .icon>svg {
+        stroke: $deep-sea-400;
+    }
+}
+
+button.white:disabled,
+input[type=submit].white:disabled,
+.button.white:disabled,
+button.white.disabled,
+input[type=submit].white.disabled,
+.button.white.disabled {
+    background-color: $light-200;
+    color: $dark-50;
+
+    .icon>svg {
+        stroke: $dark-50;
+    }
+}
+
+button.grey,
+input[type=submit].grey,
+.button.grey {
+    background-color: $light-200;
+    border-color: $light-200;
+    color: $black-500;
+
+    .icon>svg {
+        stroke: $black-500;
+    }
+}
+
+button.grey:hover:not(:active):not(:disabled):not(.disabled),
+input[type=submit].grey:hover:not(:active):not(:disabled):not(.disabled),
+.button.grey:hover:not(:active):not(:disabled):not(.disabled) {
+    background-color: $light-50;
+    border-color: $light-50;
+}
+
+button.grey:disabled,
+input[type=submit].grey:disabled .button.grey:disabled,
+button.grey.disabled,
+input[type=submit].grey.disabled,
+.button.grey.disabled {
+    color: $dark-50;
+
+    .icon>svg {
+        stroke: $dark-50;
+    }
+}
+
+
+
+button.b200,
+input[type=submit].b200,
+.button.b200 {
+    padding: 14px 16px;
+    min-width: 64px;
+}
+
+button.b50,
+input[type=submit].b50,
+.button.b50 {
+    padding: 6px 16px;
+    min-width: 48px;
+}
