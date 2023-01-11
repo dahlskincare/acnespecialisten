@@ -95,6 +95,11 @@ input[type=submit].b50,
     @include font-style("Inter", sans-serif, 14px, 21px, -0.02em, 600);
 }
 
+button.thin,
+input[type=submit].thin,
+.button.light {
+    font-weight: 400;
+}
 
 input[type=text],
 input[type=search],

@@ -2,12 +2,37 @@
 @import "mixins";
 @import "sizes";
 
+@mixin button-text-color($color) {
+    color: $color;
+    @include spinner-color($color);
 
+    .icon>svg {
+        stroke: $color;
+    }
+}
+
+button.b200,
+input[type=submit].b200,
+.button.b200 {
+    padding: 13px 16px;
+    min-width: 64px;
+}
+
+button.b50,
+input[type=submit].b50,
+.button.b50 {
+    padding: 6.5px 16px;
+    min-width: 48px;
+}
+
+// DEFAULT BUTTON
 button,
 input[type=submit],
 .button {
     transition: background-color 200ms ease, color 200ms ease, border-color 200ms ease;
     user-select: none;
+
+    @include spinner(21px, 18px, 2px, $white-500);
 
     .icon>svg {
         transition: stroke 200ms ease;
@@ -21,7 +46,7 @@ input[type=submit],
     color: $white-500;
     cursor: pointer;
     border-radius: $radius-s;
-    padding: 10px 16px;
+    padding: 10.5px 16px;
     min-width: 64px;
     display: inline-flex;
     align-items: center;
@@ -40,7 +65,10 @@ input[type=submit],
     }
 }
 
+
+
 button:hover,
+input[type=submit]:hover,
 .button:hover {
     background-color: $deep-sea-300;
 
@@ -55,69 +83,6 @@ input[type=submit].active,
     background-color: $deep-sea-500;
 }
 
-button.outline,
-input[type=submit].outline,
-.button.outline {
-    background-color: $white-500;
-    border-color: $deep-sea-400;
-    color: $deep-sea-400;
-
-    .icon>svg {
-        stroke: $deep-sea-400;
-    }
-}
-
-button.outline:hover,
-input[type=submit].outline:hover,
-.button.outline:hover {
-    background-color: $deep-sea-400;
-    color: $white-500;
-
-    .icon>svg {
-        stroke: $white-500;
-    }
-}
-
-button.outline:active,
-input[type=submit]:active,
-.button.outline:active,
-button.outline.active,
-input[type=submit].active,
-.button.outline.active {
-    background-color: $deep-sea-500;
-    color: $white-500;
-
-    .icon>svg {
-        stroke: $white-500;
-    }
-}
-
-button.text,
-input[type=submit].text,
-.button.text {
-    background-color: transparent;
-    border-color: transparent;
-    color: $deep-sea-400;
-
-    .icon>svg {
-        stroke: $deep-sea-400;
-    }
-}
-
-button.text:disabled,
-input[type=submit].text:disabled,
-.button.text:disabled,
-button.text.disabled,
-.button.text.disabled {
-    background-color: transparent;
-    border-color: transparent;
-    color: $dark-25;
-
-    .icon>svg {
-        stroke: $dark-25;
-    }
-}
-
 button:disabled,
 input[type=submit]:disabled,
 .button:disabled,
@@ -126,36 +91,38 @@ input[type=submit].disabled,
 .button.disabled {
     background-color: $light-200;
     border-color: $light-200;
-    color: $dark-50;
-
-    .icon>svg {
-        stroke: $dark-50;
-    }
+    @include button-text-color($dark-50);
 }
 
 
+
+// WHITE BUTTON
 button.white,
 input[type=submit].white,
 .button.white {
     background-color: $white-500;
     border-color: $white-500;
-    color: $black-500;
-
-    .icon>svg {
-        stroke: $black-500;
-    }
+    @include button-text-color($black-500);
 }
 
-button.white:hover:not(:active):not(:disabled):not(.disabled),
-input[type=submit].white:hover:not(:active):not(:disabled):not(.disabled),
-.button.white:hover:not(:active):not(:disabled):not(.disabled) {
+button.white:hover,
+input[type=submit].white:hover,
+.button.white:hover {
     background-color: $white-500;
-    color: $deep-sea-400;
-
-    .icon>svg {
-        stroke: $deep-sea-400;
-    }
+    @include button-text-color($deep-sea-400);
 }
+
+button.white:active,
+input[type=submit].white:active,
+.button.white:active,
+button.white.active,
+input[type=submit].white.active,
+.button.white.active {
+    background-color: $white-500;
+    border-color: $white-500;
+    @include button-text-color($black-500);
+}
+
 
 button.white:disabled,
 input[type=submit].white:disabled,
@@ -163,57 +130,221 @@ input[type=submit].white:disabled,
 button.white.disabled,
 input[type=submit].white.disabled,
 .button.white.disabled {
-    background-color: $light-200;
-    color: $dark-50;
-
-    .icon>svg {
-        stroke: $dark-50;
-    }
+    background-color: $white-500;
+    @include button-text-color($dark-50);
 }
 
+
+
+// GREY BUTTON
 button.grey,
 input[type=submit].grey,
 .button.grey {
     background-color: $light-200;
     border-color: $light-200;
-    color: $black-500;
-
-    .icon>svg {
-        stroke: $black-500;
-    }
+    @include button-text-color($black-500);
 }
 
-button.grey:hover:not(:active):not(:disabled):not(.disabled),
-input[type=submit].grey:hover:not(:active):not(:disabled):not(.disabled),
-.button.grey:hover:not(:active):not(:disabled):not(.disabled) {
+button.grey:hover,
+input[type=submit].grey:hover,
+.button.grey:hover {
     background-color: $light-50;
     border-color: $light-50;
 }
 
+button.grey:active,
+input[type=submit].grey:active,
+.button.grey:active,
+button.grey.active,
+input[type=submit].grey.active,
+.button.grey.active {
+    background-color: $light-300;
+    border-color: $light-300;
+}
+
 button.grey:disabled,
-input[type=submit].grey:disabled .button.grey:disabled,
+input[type=submit].grey:disabled,
+.button.grey:disabled,
 button.grey.disabled,
 input[type=submit].grey.disabled,
 .button.grey.disabled {
-    color: $dark-50;
+    background-color: $light-200;
+    @include button-text-color($dark-50);
+}
 
-    .icon>svg {
-        stroke: $dark-50;
+// OUTLINE BUTTON
+button.outline,
+input[type=submit].outline,
+.button.outline {
+    background-color: transparent;
+    border-color: $deep-sea-400;
+    @include button-text-color($deep-sea-400);
+}
+
+button.outline:hover,
+input[type=submit].outline:hover,
+.button.outline:hover {
+    background-color: $deep-sea-400;
+    @include button-text-color($white-500);
+}
+
+button.outline:active,
+input[type=submit].outline:active,
+.button.outline:active,
+button.outline.active,
+input[type=submit].outline.active,
+.button.outline.active {
+    background-color: $deep-sea-500;
+    @include button-text-color($white-500);
+}
+
+button.outline:disabled,
+input[type=submit].outline:disabled,
+.button.outline:disabled,
+button.outline.disabled,
+input[type=submit].outline.disabled,
+.button.outline.disabled {
+    background-color: $light-200;
+    border-color: $light-200;
+    @include button-text-color($dark-50);
+}
+
+// OUTLINE WHITE
+button.outline.white,
+input[type=submit].outline.white,
+.button.outline.white {
+    background-color: transparent;
+    border-color: $white-500;
+    @include button-text-color($white-500);
+}
+
+button.outline.white:hover,
+input[type=submit].outline.white:hover,
+.button.outline.white:hover {
+    background-color: $white-500;
+    @include button-text-color($deep-sea-400);
+}
+
+button.outline.white:active,
+input[type=submit].outline.white:active,
+.button.outline.white:active,
+button.outline.white.active,
+input[type=submit].white.active,
+.button.outline.white.active {
+    background-color: $white-500;
+    @include button-text-color($deep-sea-400);
+}
+
+button.outline.white:disabled,
+input[type=submit].outline.white:disabled,
+.button.outline.white:disabled,
+button.outline.white.disabled,
+input[type=submit].outline.white.disabled,
+.button.outline.white.disabled {
+    background-color: $light-200;
+    border-color: $light-200;
+    @include button-text-color($dark-50);
+}
+
+// TEXT BUTTON
+button.text,
+input[type=submit].text,
+.button.text {
+    background-color: transparent;
+    border-color: transparent;
+    @include button-text-color($deep-sea-500);
+}
+
+button.text:hover,
+input[type=submit].text:hover,
+.button.text:hover {
+    @include button-text-color($deep-sea-300);
+}
+
+button.text:disabled,
+input[type=submit].text:disabled,
+.button.text:disabled,
+button.text.disabled,
+input[type=submit].text.disabled,
+.button.text.disabled {
+    background-color: transparent;
+    border-color: transparent;
+    @include button-text-color($dark-25);
+}
+
+/// TEXT GREY BUTTON
+button.text.grey,
+input[type=submit].text.grey,
+.button.text.grey {
+    background-color: transparent;
+    border-color: transparent;
+    @include button-text-color($dark-200);
+}
+
+button.text.grey:hover,
+input[type=submit].text.grey:hover,
+.button.text.grey:hover {
+    @include button-text-color($dark-100);
+}
+
+button.text.grey:disabled,
+input[type=submit].text.grey:disabled,
+.button.text.grey:disabled,
+button.text.grey.disabled,
+input[type=submit].text.grey.disabled,
+.button.text.grey.disabled {
+    background-color: transparent;
+    border-color: transparent;
+    @include button-text-color($dark-25);
+}
+
+.round-large {
+    border-radius: 100%;
+    min-width: 16px;
+    max-width: 16px;
+    overflow: hidden;
+    padding: 16px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+
+    .icon:first-child,
+    .icon:last-child {
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 
+.round-medium {
+    border-radius: 100%;
+    min-width: 16px;
+    max-width: 16px;
+    overflow: hidden;
+    padding: 12px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
 
-
-button.b200,
-input[type=submit].b200,
-.button.b200 {
-    padding: 14px 16px;
-    min-width: 64px;
+    .icon:first-child,
+    .icon:last-child {
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 
-button.b50,
-input[type=submit].b50,
-.button.b50 {
-    padding: 6px 16px;
-    min-width: 48px;
+.round-small {
+    border-radius: 100%;
+    min-width: 16px;
+    max-width: 16px;
+    overflow: hidden;
+    padding: 8px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+
+    .icon:first-child,
+    .icon:last-child {
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
