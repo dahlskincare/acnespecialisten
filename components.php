@@ -4,6 +4,10 @@
     <title>Acnespecialisten</title>
     <?php include('includes/head.php'); ?>
     <style>
+        body {
+            min-width: 800px;
+        }
+
         h1 {
             margin-left: 24px;
             margin-top: 32px;
