@@ -2,9 +2,15 @@
 @import "mixins";
 @import "sizes";
 
+@mixin button-background-color($color) {
+    @include spinner-background-color($color);
+    background-color: $color;
+    border-color: $color;
+}
+
 @mixin button-text-color($color) {
-    color: $color;
     @include spinner-color($color);
+    color: $color;
 
     .icon>svg {
         stroke: $color;
@@ -30,9 +36,15 @@ button,
 input[type=submit],
 .button {
     transition: background-color 200ms ease, color 200ms ease, border-color 200ms ease;
+
+    .spinner:before,
+    .spinner::after {
+        transition: background-color 200ms ease;
+    }
+
     user-select: none;
 
-    @include spinner(21px, 18px, 2px, $white-500);
+    @include spinner(21px, $white-500, $deep-sea-400);
 
     box-sizing: content-box;
     background-color: $deep-sea-400;
@@ -73,7 +85,7 @@ input[type=submit],
 button:hover,
 input[type=submit]:hover,
 .button:hover {
-    background-color: $deep-sea-300;
+    @include button-background-color($deep-sea-300);
 
 }
 
@@ -83,7 +95,7 @@ input[type=submit]:active,
 button.active,
 input[type=submit].active,
 .button.active {
-    background-color: $deep-sea-500;
+    @include button-background-color($deep-sea-500)
 }
 
 button:disabled,
@@ -92,9 +104,8 @@ input[type=submit]:disabled,
 button.disabled,
 input[type=submit].disabled,
 .button.disabled {
-    background-color: $light-200;
-    border-color: $light-200;
     @include button-text-color($dark-50);
+    @include button-background-color($light-200);
 }
 
 
@@ -103,16 +114,15 @@ input[type=submit].disabled,
 button.white,
 input[type=submit].white,
 .button.white {
-    background-color: $white-500;
-    border-color: $white-500;
     @include button-text-color($black-500);
+    @include button-background-color($white-500);
 }
 
 button.white:hover,
 input[type=submit].white:hover,
 .button.white:hover {
-    background-color: $white-500;
     @include button-text-color($deep-sea-400);
+    @include button-background-color($white-500);
 }
 
 button.white:active,
@@ -121,9 +131,8 @@ input[type=submit].white:active,
 button.white.active,
 input[type=submit].white.active,
 .button.white.active {
-    background-color: $white-500;
-    border-color: $white-500;
     @include button-text-color($black-500);
+    @include button-background-color($white-500);
 }
 
 
@@ -133,8 +142,8 @@ input[type=submit].white:disabled,
 button.white.disabled,
 input[type=submit].white.disabled,
 .button.white.disabled {
-    background-color: $white-500;
     @include button-text-color($dark-50);
+    @include button-background-color($white-500);
 }
 
 
@@ -143,16 +152,14 @@ input[type=submit].white.disabled,
 button.grey,
 input[type=submit].grey,
 .button.grey {
-    background-color: $light-200;
-    border-color: $light-200;
     @include button-text-color($black-500);
+    @include button-background-color($light-200);
 }
 
 button.grey:hover,
 input[type=submit].grey:hover,
 .button.grey:hover {
-    background-color: $light-50;
-    border-color: $light-50;
+    @include button-background-color($light-50);
 }
 
 button.grey:active,
@@ -161,8 +168,7 @@ input[type=submit].grey:active,
 button.grey.active,
 input[type=submit].grey.active,
 .button.grey.active {
-    background-color: $light-300;
-    border-color: $light-300;
+    @include button-background-color($light-300);
 }
 
 button.grey:disabled,
@@ -171,8 +177,8 @@ input[type=submit].grey:disabled,
 button.grey.disabled,
 input[type=submit].grey.disabled,
 .button.grey.disabled {
-    background-color: $light-200;
     @include button-text-color($dark-50);
+    @include button-background-color($light-200);
 }
 
 // OUTLINE BUTTON
@@ -180,6 +186,7 @@ button.outline,
 input[type=submit].outline,
 .button.outline {
     background-color: transparent;
+    @include spinner-background-color($white-500);
     border-color: $deep-sea-400;
     @include button-text-color($deep-sea-400);
 }
@@ -187,8 +194,8 @@ input[type=submit].outline,
 button.outline:hover,
 input[type=submit].outline:hover,
 .button.outline:hover {
-    background-color: $deep-sea-400;
     @include button-text-color($white-500);
+    @include button-background-color($deep-sea-400);
 }
 
 button.outline:active,
@@ -197,8 +204,8 @@ input[type=submit].outline:active,
 button.outline.active,
 input[type=submit].outline.active,
 .button.outline.active {
-    background-color: $deep-sea-500;
     @include button-text-color($white-500);
+    @include button-background-color($deep-sea-500);
 }
 
 button.outline:disabled,
@@ -207,9 +214,8 @@ input[type=submit].outline:disabled,
 button.outline.disabled,
 input[type=submit].outline.disabled,
 .button.outline.disabled {
-    background-color: $light-200;
-    border-color: $light-200;
     @include button-text-color($dark-50);
+    @include button-background-color($light-200);
 }
 
 // OUTLINE WHITE
@@ -218,7 +224,9 @@ input[type=submit].outline.white,
 .button.outline.white {
     background-color: transparent;
     border-color: $white-500;
+    @include spinner-background-color($deep-sea-500);
     @include button-text-color($white-500);
+
 }
 
 button.outline.white:hover,
@@ -226,6 +234,7 @@ input[type=submit].outline.white:hover,
 .button.outline.white:hover {
     background-color: $white-500;
     @include button-text-color($deep-sea-400);
+    @include spinner-background-color($white-500);
 }
 
 button.outline.white:active,
@@ -234,8 +243,8 @@ input[type=submit].outline.white:active,
 button.outline.white.active,
 input[type=submit].white.active,
 .button.outline.white.active {
-    background-color: $white-500;
     @include button-text-color($deep-sea-400);
+    @include button-background-color($white-500);
 }
 
 button.outline.white:disabled,
@@ -244,9 +253,8 @@ input[type=submit].outline.white:disabled,
 button.outline.white.disabled,
 input[type=submit].outline.white.disabled,
 .button.outline.white.disabled {
-    background-color: $light-200;
-    border-color: $light-200;
     @include button-text-color($dark-50);
+    @include button-background-color($light-200);
 }
 
 // TEXT BUTTON
@@ -302,6 +310,13 @@ input[type=submit].text.grey.disabled,
 }
 
 .round-large {
+    @include spinner-size(24px);
+
+    .spinner {
+        margin-left: -4px;
+        margin-top: -4px;
+    }
+
     border-radius: 100%;
     min-width: 16px;
     max-width: 16px;
@@ -323,6 +338,13 @@ input[type=submit].text.grey.disabled,
 }
 
 .round-medium {
+    @include spinner-size(20px);
+
+    .spinner {
+        margin-left: -2px;
+        margin-top: -2px;
+    }
+
     border-radius: 100%;
     min-width: 16px;
     max-width: 16px;
@@ -344,6 +366,7 @@ input[type=submit].text.grey.disabled,
 }
 
 .round-small {
+    @include spinner-size(16px);
     border-radius: 100%;
     min-width: 16px;
     max-width: 16px;
