@@ -171,6 +171,9 @@
             <?php icon("placeholder") ?>
         </div>
         <div class="button text elevation-medium">Elevated</div>
+        <div class="button text">
+            <div class="spinner"></div>
+        </div>
     </div>
     <h2>Text Grey</h2>
     <div class="section">
