@@ -5,11 +5,11 @@
       <!-- TODO: Set title and meta tags -->
       <title>Acnespecialisten</title>
       <meta name="description"
-            content="">
+            content="Acnespecialisten is the best etc...">
       <meta name="title"
-            content="">
+            content="Acnespecialisten">
       <meta name="keywords"
-            content="">
+            content="Acne, specialisten">
 
       <?php include('includes/head.php'); ?>
 
