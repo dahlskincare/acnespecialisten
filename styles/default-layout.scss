@@ -1,7 +1,10 @@
+@import "util/sizes";
+@import "util/colors";
+
 html {
     body {
         overflow-x: hidden;
-        overflow-y: scroll;
+        overflow-y: aut;
         display: flex;
         align-items: stretch;
         flex-direction: column;
@@ -14,8 +17,73 @@ html {
 
         header {
             position: sticky;
+            background-color: $white-500;
             top: 0;
+
+            #header-small {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                height: $xl4;
+                padding: 0 $m;
+            }
+
+
+            #header-large {
+                display: none;
+                align-items: center;
+                justify-content: space-between;
+                height: 72px;
+
+                div#left {
+                    display: flex;
+
+                    nav {
+                        margin-left: $xl3;
+
+                        ul {
+                            padding: 0;
+                            margin: 0;
+
+                            li {
+                                cursor: pointer;
+                                display: inline;
+                                padding: 0;
+                                list-style-type: none;
+                                margin-right: $xxl;
+                            }
+                        }
+                    }
+                }
+
+                div#actions {
+                    display: flex;
+                    align-items: center;
+
+                    .button {
+                        margin-right: $xxl;
+                    }
+
+                    .icon {
+                        margin-right: $xxl;
+                        cursor: pointer;
+                    }
+
+                }
+            }
+
+            @media screen and (min-width: $widescreen) {
+                #header-small {
+                    display: none;
+                }
+
+                #header-large {
+                    display: flex;
+                }
+            }
         }
+
+
 
         main {
             flex: auto;

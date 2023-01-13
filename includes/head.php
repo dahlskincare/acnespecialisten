@@ -18,3 +18,11 @@ include('util/functions.php');
       href="styles/normalize.css">
 <link rel="stylesheet"
       href="styles/style.css">
+<link rel="icon"
+      href="favicon.png"
+      type="image/png" />
+
+<!-- Preload important resources -->
+<link rel="preload"
+      as="image"
+      href="images/logo-green.svg">

@@ -1,29 +1,18 @@
-$v-xxs: 4px;
-$v-xs: 8px;
-$v-s: 12px;
-$v-m: 16px;
-$v-l: 20px;
-$v-xl: 24px;
-$v-xxl: 32px;
-$v-3xl: 40px;
-$v-4xl: 56px;
-$v-5xl: 80px;
-
-$h-xxs: 4px;
-$h-xs: 8px;
-$h-s: 12px;
-$h-m: 16px;
-$h-l: 20px;
-$h-xl: 24px;
-$h-xxl: 32px;
-$h-3xl: 40px;
-$h-4xl: 56px;
-$h-5xl: 80px;
+$xxs: 4px;
+$xs: 8px;
+$s: 12px;
+$m: 16px;
+$l: 20px;
+$xl: 24px;
+$xxl: 32px;
+$xl3: 40px;
+$xl4: 56px;
+$xl5: 80px;
 
 $radius-s: 4px;
 $radius-l: 8px;
 
-$column-gap: $v-s;
+$column-gap: $s;
 
 $tablet: 769px;
 $desktop: 960px + (2 * $column-gap);

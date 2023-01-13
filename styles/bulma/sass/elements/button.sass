@@ -347,11 +347,11 @@ $button-responsive-sizes: ("mobile": ("small": ($size-small * 0.75), "normal": (
 
 @each $bp-name, $bp-sizes in $button-responsive-sizes
   +breakpoint($bp-name)
-    @each $size, $value in $bp-sizes
+    @each $size, $alue in $bp-sizes
       @if $size != "normal"
         .button.is-responsive.is-#{$size}
-          font-size: $value
+          font-size: $alue
       @else
         .button.is-responsive,
         .button.is-responsive.is-normal
-          font-size: $value
+          font-size: $alue
