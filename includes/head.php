@@ -12,8 +12,17 @@ include('util/functions.php');
 <link rel="preconnect"
       href="https://fonts.gstatic.com"
       crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Inter:wght@400;600&display=swap"
-      rel="stylesheet">
+<!-- Google fonts deferred -->
+<link rel="preload"
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Inter:wght@400;600&display=swap"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+      <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Inter:wght@400;600&display=swap">
+</noscript>
+<!-- End google fonts deferred -->
+
 <link rel="stylesheet"
       href="styles/normalize.css">
 <link rel="stylesheet"
