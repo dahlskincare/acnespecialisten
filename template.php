@@ -15,7 +15,7 @@
     <!-- Default imports (metadata, style, fonts, google analytics etc) -->
     <?php include('includes/head.php'); ?>
 
-    <!-- This should be included only on pages with default style and layout. -->
+    <!-- This stylesheet should be included only on pages with the default style and layout. -->
     <link rel="stylesheet"
           href="default-layout.css">
 </head>

@@ -7,27 +7,6 @@
 
 html {
     body {
-        overflow-x: hidden;
-        overflow-y: scroll;
-        display: flex;
-        align-items: stretch;
-        flex-direction: column;
-        min-height: 100%;
-
-        header,
-        footer {
-            flex: 0;
-        }
-
-        header {
-            position: sticky;
-            top: 0;
-        }
-
-        main {
-            flex: auto;
-        }
-
         .elevation-low {
             @include elevation-low;
         }
@@ -36,5 +15,4 @@ html {
             @include elevation-medium;
         }
     }
-
 }
