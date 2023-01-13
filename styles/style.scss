@@ -6,10 +6,11 @@
 @import "bulma/sass/grid/columns.sass";
 @import "bulma/sass/elements/container.sass";
 
+
+
 html {
     body {
         background-color: $white-500;
-
 
         .elevation-low {
             @include elevation-low;

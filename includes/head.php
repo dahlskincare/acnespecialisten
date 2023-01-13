@@ -2,25 +2,25 @@
 include('util/functions.php');
 ?>
 <meta name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+      content="width=340, initial-scale=1" />
 <meta charset="UTF-8">
 <meta name="author"
       content="Acnespecialisten Sverige AB">
 <base href="/">
-<link rel="preconnect"
+<!-- <link rel="preconnect"
       href="https://fonts.googleapis.com">
 <link rel="preconnect"
       href="https://fonts.gstatic.com"
-      crossorigin>
+      crossorigin> -->
 <!-- Google fonts deferred -->
-<link rel="preload"
+<!-- <link rel="preload"
       href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Inter:wght@400;600&display=swap"
       as="style"
       onload="this.onload=null;this.rel='stylesheet'">
 <noscript>
       <link rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Inter:wght@400;600&display=swap">
-</noscript>
+</noscript> -->
 <!-- End google fonts deferred -->
 
 <link rel="stylesheet"
