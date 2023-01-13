@@ -20,9 +20,9 @@
             href="styles/default-layout.css">
 
       <!-- 
-            TODO: Create a .css file with custom styles specific to the new page. 
-            The css file should be have the same name and be put in the same folder 
-            as the php file (my-folder/my-new-page.php -> my-new-page.css, etc).
+            TODO: Create a .scss file with custom styles specific to the new page. 
+            The scss file should be have the same name and be put in the same folder 
+            as the php file (my-folder/my-new-page.php -> my-new-page.scss, etc).
       -->
       <link rel="stylesheet"
             href="/[FOLDER NAME HERE]/[FILENAME HERE].css">
