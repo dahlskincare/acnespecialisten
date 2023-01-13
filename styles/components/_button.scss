@@ -1,6 +1,6 @@
-@import "colors";
-@import "mixins";
-@import "sizes";
+@import "../util/colors";
+@import "../util/mixins";
+@import "../util/sizes";
 
 @mixin button-background-color($color) {
     @include spinner-background-color($color);
@@ -36,6 +36,7 @@ button,
 input[type=submit],
 .button {
     transition: background-color 200ms ease, color 200ms ease, border-color 200ms ease;
+    text-decoration: none;
 
     .spinner:before,
     .spinner::after {

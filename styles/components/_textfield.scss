@@ -1,6 +1,6 @@
-@import "colors";
-@import "mixins";
-@import "sizes";
+@import "../util/colors";
+@import "../util/mixins";
+@import "../util/sizes";
 
 div.textfield {
     background-color: #e9e9e9;

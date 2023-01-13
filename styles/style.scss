@@ -1,16 +1,40 @@
-@import "icon";
-@import "button";
-@import "textfield";
-@import "sizes";
-@import "typography";
-
+@import "components/icon";
+@import "components/button";
+@import "components/textfield";
+@import "util/typography";
 @import "bulma/sass/utilities/_all.sass";
 @import "bulma/sass/grid/columns.sass";
 
-.elevation-low {
-    @include elevation-low();
-}
+html {
+    body {
+        overflow-x: hidden;
+        overflow-y: scroll;
+        display: flex;
+        align-items: stretch;
+        flex-direction: column;
+        min-height: 100%;
 
-.elevation-medium {
-    @include elevation-medium();
+        header,
+        footer {
+            flex: 0;
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+        }
+
+        main {
+            flex: auto;
+        }
+
+        .elevation-low {
+            @include elevation-low;
+        }
+
+        .elevation-medium {
+            @include elevation-medium;
+        }
+    }
+
 }
