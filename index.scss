@@ -1,0 +1,91 @@
+@import "styles/util/sizes";
+@import "styles/util/colors";
+
+
+#banner {
+    padding: 190px 0 74px 0;
+    background-image: url("images/banner-mobile.jpg");
+    background-size: cover;
+    background-position: center center;
+
+    h1.big {
+        width: 228px;
+        color: $white-500;
+    }
+}
+
+.banner-bar {
+    background-color: $deep-sea-400;
+    color: white;
+    border-radius: $radius-l;
+
+    #banner-bar-cols {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .icon-trustpilot {
+            svg {
+                stroke: $white-500;
+                fill: $white-500;
+            }
+        }
+    }
+}
+
+#banner-bar-small {
+    margin-top: -50px;
+    padding: $xl;
+    box-shadow: 0px 11px 15px -8px rgba(135, 142, 141, 0.41);
+
+    button {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #banner-bar-cols {
+        margin-top: $m;
+
+        .icon-trustpilot {
+            margin-left: $s;
+        }
+    }
+}
+
+#banner-bar-large {
+    display: none;
+    margin-top: -58px;
+    padding: $xxl;
+    box-shadow: 0px 12px 20px -8px rgba(0, 0, 0, 0.15);
+
+    #banner-bar-cols {
+        .flex-aligner {
+            display: flex;
+
+            .h500 {
+                margin-right: $s;
+            }
+        }
+    }
+
+}
+
+@media screen and (min-width: $desktop) {
+    #banner-bar-small {
+        display: none;
+    }
+
+    #banner-bar-large {
+        display: block;
+    }
+
+}
+
+@media screen and (min-width: $desktop) {
+    #banner {
+        padding: 258px 0 106px 0;
+        background-image: url("images/banner-desktop.jpg");
+    }
+
+
+}

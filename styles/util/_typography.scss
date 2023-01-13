@@ -49,15 +49,15 @@ h3.big,
     @include font-style("DM Serif Text", serif, 24px, 32px, -0.02em, 400);
 }
 
-p.p400 {
+.p400 {
     @include font-style("Inter", sans-serif, 24px, 36px, -0.02em, 400);
 }
 
-p.p300 {
+.p300 {
     @include font-style("Inter", sans-serif, 20px, 28px, -0.02em, 400);
 }
 
-p.p200 {
+.p200 {
     @include font-style("Inter", sans-serif, 16px, 24px, -0.02em, 400);
 }
 
@@ -73,6 +73,7 @@ p.p100 {
 a,
 .l100 {
     @include font-style("Inter", sans-serif, 14px, 21px, -0.02em, 600);
+    text-decoration: none;
 }
 
 
@@ -149,7 +150,7 @@ input[type=email]::placeholder {
 
     h3.big,
     .h400 {
-        @include font-style("DM Serif Text", serif, 32px, 40, -0.02em, 400);
+        @include font-style("DM Serif Text", serif, 32px, 40px, -0.02em, 400);
     }
 
     p.p400 {
