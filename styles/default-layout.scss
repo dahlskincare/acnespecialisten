@@ -3,6 +3,7 @@
 
 @import "util/sizes";
 @import "util/colors";
+@import "util/mixins";
 
 html {
     body {
@@ -87,6 +88,96 @@ html {
 
         main {
             flex: auto;
+        }
+
+        footer {
+            #footer-small {
+                #brands {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    border-bottom: 1px solid $light-200;
+                    padding: $xl 0;
+                }
+
+                #contact {
+                    margin-top: $xl3;
+
+                    div#phoneDotEmail {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+
+                        div.dot {
+                            width: $xs;
+                            height: $xs;
+                            border-radius: $xs;
+                            background-color: $light-500;
+                        }
+                    }
+
+                    div#buttons {
+                        margin-top: $s;
+                        display: flex;
+
+                        button {
+                            //width: 100%;
+                            flex: 1;
+                            //  box-sizing: border-box;
+                        }
+
+                        button:first-child {
+                            margin-right: calc($s / 2);
+                        }
+
+                        button:last-child {
+                            margin-left: calc($s /2);
+                        }
+                    }
+                }
+
+                #salon-cards {
+                    margin-top: $xl;
+
+                    .salon-card {
+                        padding: $xl;
+                        margin-top: $s;
+                        border-radius: $radius-l;
+                        border: 1px solid $light-200;
+                        @include elevation-low();
+
+                        .flex-aligner {
+                            display: flex;
+                            align-items: center;
+
+                            img {
+                                border-radius: $radius-s;
+                                margin-right: $m;
+                            }
+                        }
+
+                        button {
+                            margin-top: $m;
+                            width: 100%;
+                            box-sizing: border-box;
+                        }
+                    }
+                }
+            }
+
+            #footer-large {
+                display: none;
+            }
+
+            @media screen and (min-width: $widescreen) {
+                #footer-small {
+                    display: none;
+                }
+
+                #footer-large {
+                    display: initial;
+                }
+            }
         }
     }
 }
