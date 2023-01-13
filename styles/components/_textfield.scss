@@ -10,7 +10,7 @@ div.textfield {
     border-radius: $radius-s;
     display: inline-flex;
     align-items: center;
-    padding: $s $hm;
+    padding: $s $m;
     border: 1px solid transparent;
 
     input[type=text],
@@ -35,16 +35,16 @@ div.textfield {
     }
 
     .icon:first-child {
-        margin-right: $hxs;
+        margin-right: $xs;
     }
 
     .icon:last-child {
-        margin-left: $hxs;
+        margin-left: $xs;
     }
 }
 
 div.textfield.dense {
-    padding: $hxs $hm;
+    padding: $xs $m;
 }
 
 div.textfield:focus-within {
