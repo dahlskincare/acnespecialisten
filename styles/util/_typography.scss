@@ -153,20 +153,20 @@ input[type=email]::placeholder {
         @include font-style("DM Serif Text", serif, 32px, 40px, -0.02em, 400);
     }
 
-    p.p400 {
+    .p400 {
         @include font-style("Inter", sans-serif, 24px, 36px, -0.02em, 400);
     }
 
-    p.p300 {
+    .p300 {
         @include font-style("Inter", sans-serif, 20px, 28px, -0.02em, 400);
     }
 
-    p.p200 {
+    .p200 {
         @include font-style("Inter", sans-serif, 16px, 24px, -0.02em, 400);
     }
 
     p,
-    p.p100 {
+    .p100 {
         @include font-style("Inter", sans-serif, 14px, 21px, -0.02em, 400);
     }
 
