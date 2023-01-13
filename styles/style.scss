@@ -8,7 +8,7 @@
 
 html {
     body {
-        background-color: #ccc;
+        background-color: $white-500;
 
         .elevation-low {
             @include elevation-low;
@@ -16,6 +16,10 @@ html {
 
         .elevation-medium {
             @include elevation-medium;
+        }
+
+        .container {
+            padding: 0 $m;
         }
     }
 }
