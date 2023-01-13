@@ -29,7 +29,7 @@
                         </div>
                   </div>
                   <div class="container">
-                        <div class="banner-bar"
+                        <div class="banner-bar elevation-medium"
                              id="banner-bar-small">
                               <a href="https://dahlskincare.com/skin-consultation"
                                  target="_blank">
@@ -54,7 +54,7 @@
                                     </div>
                               </div>
                         </div>
-                        <div class="banner-bar"
+                        <div class="banner-bar elevation-medium"
                              id="banner-bar-large">
                               <div id="banner-bar-cols">
                                     <div class="flex-aligner">
