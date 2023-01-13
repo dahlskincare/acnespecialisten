@@ -18,6 +18,14 @@
       <!-- This stylesheet should be included only on pages with the default style and layout. -->
       <link rel="stylesheet"
             href="styles/default-layout.css">
+
+      <!-- 
+            TODO: Create a .css file with custom styles specific to the new page. 
+            The css file should be have the same name and be put in the same folder 
+            as the php file (my-folder/my-new-page.php -> my-new-page.css, etc).
+      -->
+      <link rel="stylesheet"
+            href="/[FOLDER NAME HERE]/[FILENAME HERE].css">
 </head>
 
 <body>

@@ -10,14 +10,13 @@
       <meta name="keywords"
             content="">
 
-      <!-- Optional: Set canonical version of this page (https://support.google.com/webmasters/answer/10347851) -->
-
-      <!-- Default imports (metadata, style, fonts, google analytics etc) -->
       <?php include('includes/head.php'); ?>
 
-      <!-- This stylesheet should be included only on pages with the default style and layout. -->
       <link rel="stylesheet"
             href="styles/default-layout.css">
+
+      <link rel="stylesheet"
+            href="/index.css">
 </head>
 
 <body>
