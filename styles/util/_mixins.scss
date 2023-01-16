@@ -1,5 +1,7 @@
 /// IMPORTANT: 
 /// Don't edit this file unless you know what you are doing!
+@import "sizes";
+
 
 @mixin font-style($family, $serif, $size, $line-height, $letter-spacing, $weight) {
     font-family: $family, $serif;
@@ -8,6 +10,107 @@
     letter-spacing: $letter-spacing;
     font-weight: $weight;
 }
+
+/// MOBILE
+@mixin h600 {
+    @include font-style("DM Serif Text", serif, 52px, 60px, -0.02em, 400);
+}
+
+@mixin h500 {
+    @include font-style("DM Serif Text", serif, 32px, 40px, -0.02em, 400);
+}
+
+@mixin h400 {
+    @include font-style("DM Serif Text", serif, 24px, 32px, -0.02em, 400);
+}
+
+@mixin h300 {
+    @include font-style("Inter", sans-serif, 20px, 28px, -0.02em, 600);
+}
+
+@mixin h200 {
+    @include font-style("Inter", sans-serif, 16px, 24px, -0.02em, 600);
+}
+
+@mixin h100 {
+    @include font-style("Inter", sans-serif, 14px, 21px, -0.02em, 600);
+}
+
+@mixin p400 {
+    @include font-style("Inter", sans-serif, 24px, 36px, -0.02em, 400);
+}
+
+@mixin p300 {
+    @include font-style("Inter", sans-serif, 20px, 28px, -0.02em, 400);
+}
+
+@mixin p200 {
+    @include font-style("Inter", sans-serif, 16px, 24px, -0.02em, 400);
+}
+
+@mixin p100 {
+    @include font-style("Inter", sans-serif, 14px, 21px, -0.02em, 400);
+}
+
+@mixin l200 {
+    @include font-style("Inter", sans-serif, 16px, 24px, -0.02em, 600);
+}
+
+/// END MOBILE
+
+
+/// DESKTOP
+@media only screen and (min-width: $desktop) {
+    @mixin h600 {
+        @include font-style("DM Serif Text", serif, 92px, 104px, -0.02em, 400);
+    }
+
+    @mixin h500 {
+        @include font-style("DM Serif Text", serif, 40px, 48px, -0.02em, 400);
+    }
+
+    @mixin h400 {
+        @include font-style("DM Serif Text", serif, 32px, 40px, -0.02em, 400);
+    }
+
+    @mixin h300 {
+        @include font-style("Inter", sans-serif, 20px, 28px, -0.02em, 600);
+    }
+
+    @mixin h200 {
+        @include font-style("Inter", sans-serif, 16px, 24px, -0.02em, 600);
+    }
+
+    @mixin h100 {
+        @include font-style("Inter", sans-serif, 14px, 21px, -0.02em, 600);
+    }
+
+    @mixin p400 {
+        @include font-style("Inter", sans-serif, 24px, 36px, -0.02em, 400);
+    }
+
+    @mixin p300 {
+        @include font-style("Inter", sans-serif, 20px, 28px, -0.02em, 400);
+    }
+
+    @mixin p200 {
+        @include font-style("Inter", sans-serif, 16px, 24px, -0.02em, 400);
+    }
+
+    @mixin p100 {
+        @include font-style("Inter", sans-serif, 14px, 21px, -0.02em, 400);
+    }
+
+    @mixin l200 {
+        @include font-style("Inter", sans-serif, 16px, 24px, -0.02em, 600);
+    }
+
+    @mixin l100 {
+        @include font-style("Inter", sans-serif, 14px, 21px, -0.02em, 600);
+    }
+}
+
+/// END DESKTOP'
 
 @mixin elevation-low() {
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.06);

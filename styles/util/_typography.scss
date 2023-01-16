@@ -58,7 +58,6 @@
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-// MOBILE //
 h1,
 h2,
 h3,
@@ -75,86 +74,85 @@ p {
 
 h1,
 .h300 {
-    @include font-style("Inter", sans-serif, 20px, 28px, -0.02em, 600);
+    @include h300;
 }
 
 h2,
 .h200 {
-    @include font-style("Inter", sans-serif, 16px, 24px, -0.02em, 600);
+    @include h200;
 }
 
 h3,
 .h100 {
-    @include font-style("Inter", sans-serif, 14px, 21px, -0.02em, 600);
+    @include h100;
 }
 
 h1.big,
 .h600 {
-    @include font-style("DM Serif Text", serif, 52px, 60px, -0.02em, 400);
+    @include h600;
 }
 
 h2.big,
 .h500 {
-    @include font-style("DM Serif Text", serif, 32px, 40px, -0.02em, 400);
+    @include h500;
 }
 
 h3.big,
 .h400 {
-    @include font-style("DM Serif Text", serif, 24px, 32px, -0.02em, 400);
+    @include h400;
 }
 
 .p400 {
-    @include font-style("Inter", sans-serif, 24px, 36px, -0.02em, 400);
+    @include p400;
 }
 
 .p300 {
-    @include font-style("Inter", sans-serif, 20px, 28px, -0.02em, 400);
+    @include p300;
 }
 
 .p200 {
-    @include font-style("Inter", sans-serif, 16px, 24px, -0.02em, 400);
+    @include p200;
 }
 
 p,
-p.p100 {
-    @include font-style("Inter", sans-serif, 14px, 21px, -0.02em, 400);
+.p100 {
+    @include p100;
 }
 
 .l200 {
-    @include font-style("Inter", sans-serif, 16px, 24px, -0.02em, 600);
+    @include l200;
 }
 
 a,
 .l100 {
-    @include font-style("Inter", sans-serif, 14px, 21px, -0.02em, 600);
+    @include p100;
     text-decoration: none;
+    color: inherit;
 }
 
-
-button,
-input[type=submit],
-.button,
-.b100 {
-    @include font-style("Inter", sans-serif, 14px, 21px, -0.02em, 600);
-}
 
 button.b200,
 input[type=submit].b200,
 .button.b200,
 .b200 {
-    @include font-style("Inter", sans-serif, 16px, 24px, -0.02em, 600);
+    @include h200;
+}
+
+button,
+input[type=submit],
+.button,
+.b100 {
+    @include h100;
 }
 
 button.b50,
 input[type=submit].b50,
 .button.b50,
 .b50 {
-    @include font-style("Inter", sans-serif, 14px, 21px, -0.02em, 600);
+    @include h100;
 }
 
-button.thin,
-input[type=submit].thin,
-.button.light {
+.light {
     font-weight: 400;
 }
 
@@ -170,81 +168,4 @@ input[type=search]::placeholder,
 input[type=phone]::placeholder,
 input[type=email]::placeholder {
     @include font-style("Inter", sans-serif, 14px, 20px, inherit, 400);
-}
-
-// END MOBILE //
-
-
-@media only screen and (min-width: $desktop) {
-
-    h1,
-    .h300 {
-        @include font-style("Inter", sans-serif, 20px, 28px, -0.02em, 600);
-    }
-
-    h2,
-    .h200 {
-        @include font-style("Inter", sans-serif, 16px, 24px, -0.02em, 600);
-    }
-
-    h3,
-    .h100 {
-        @include font-style("Inter", sans-serif, 14px, 21px, -0.02em, 600);
-    }
-
-    h1.big,
-    .h600 {
-        @include font-style("DM Serif Text", serif, 92px, 104px, -0.02em, 400);
-    }
-
-    h2.big,
-    .h500 {
-        @include font-style("DM Serif Text", serif, 40px, 48px, -0.02em, 400);
-    }
-
-    h3.big,
-    .h400 {
-        @include font-style("DM Serif Text", serif, 32px, 40px, -0.02em, 400);
-    }
-
-    .p400 {
-        @include font-style("Inter", sans-serif, 24px, 36px, -0.02em, 400);
-    }
-
-    .p300 {
-        @include font-style("Inter", sans-serif, 20px, 28px, -0.02em, 400);
-    }
-
-    .p200 {
-        @include font-style("Inter", sans-serif, 16px, 24px, -0.02em, 400);
-    }
-
-    p,
-    .p100 {
-        @include font-style("Inter", sans-serif, 14px, 21px, -0.02em, 400);
-    }
-
-    .l200 {
-        @include font-style("Inter", sans-serif, 16px, 24px, -0.02em, 600);
-    }
-
-    a,
-    .l100 {
-        @include font-style("Inter", sans-serif, 14px, 21px, -0.02em, 600);
-    }
-
-    button,
-    .button,
-    input[type=submit],
-    .b100 {
-        @include font-style("Inter", sans-serif, 14px, 21px, -0.02em, 600);
-    }
-
-    .b50 {
-        @include font-style("Inter", sans-serif, 14px, 21px, -0.02em, 600);
-    }
-
-    .b200 {
-        @include font-style("Inter", sans-serif, 16px, 24px, -0.02em, 600);
-    }
 }

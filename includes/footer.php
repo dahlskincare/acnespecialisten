@@ -74,7 +74,9 @@
                             <p class="p200">Sturegatan 32, 172 31 Sundbyberg</p>
                         </div>
                     </div>
-                    <button class="grey">Book a visit</button>
+                    <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-sundbyberg-19300"
+                       target="_blank"
+                       class="button grey expand">Book a visit</a>
                 </div>
                 <div class="salon-card">
                     <div class="flex-aligner">
@@ -87,7 +89,9 @@
                             <p class="p200">Strandvägen 7, 114 51 Stockholm</p>
                         </div>
                     </div>
-                    <button class="grey">Book a visit</button>
+                    <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559"
+                       target="_blank"
+                       class="button grey expand">Book a visit</a>
                 </div>
                 <div class="salon-card">
                     <div class="flex-aligner">
@@ -100,9 +104,118 @@
                             <p class="p200">Hornsgatan 47, 118 49 Stockholm</p>
                         </div>
                     </div>
-                    <button class="grey">Book a visit</button>
+                    <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-s%C3%B6dermalm-19301"
+                       target="_blank"
+                       class="button grey expand">Book a visit</a>
                 </div>
             </div>
+            <div id="footer-links">
+                <div class="columns is-mobile is-gapless">
+                    <div class="column">
+                        <h2>Discover</h2>
+                        <ul>
+                            <li>
+                                <a href="https://dahlskincare.com/skin-consultation"
+                                   target="_blank">Free consultation</a>
+                            </li>
+                            <li>
+                                <a href="problems.php">Problems</a>
+                            </li>
+                            <li>
+                                <a href="services.php">Services</a>
+                            </li>
+                            <li>
+                                <a href="brands.php">Brands</a>
+                            </li>
+                            <li>
+                                <a href="prices.php">Prices</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <h2>Company</h2>
+                        <ul>
+                            <li>
+                                <a href="about.php">About us</a>
+                            </li>
+                            <li>
+                                <a href="our-approach.php">Our approach</a>
+                            </li>
+                            <li>
+                                <a href="specialists.php">Specialists</a>
+                            </li>
+                            <li>
+                                <a href="career.php">Career</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="columns is-mobile is-gapless">
+                    <div class="column">
+                        <h2>Support</h2>
+                        <ul>
+                            <li>
+                                <a href="faq.php">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="cancellation.php">Cancellation</a>
+                            </li>
+                            <li>
+                                <a href="glossary.php">Glossary</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <h2>Community</h2>
+                        <ul>
+                            <li>
+                                <a href="results.php">Clients results</a>
+                            </li>
+                            <li>
+                                <a href="giftcards.php">Gift cards</a>
+                            </li>
+                            <li>
+                                <a href="login.php">Login</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="footer-bottom">
+                <div class="copy-n-cookies">
+                    <div id="copyright">&copy; <?php echo date('Y') ?> Acnespecialisten</div>
+                    <a id="cookie-policy"
+                       href="cookie-policy.php"
+                       target="_blank">Cookie policy</a>
+                    <div id="language-selector">
+                        <?php icon("intl") ?>
+                        <span>English</span>
+                    </div>
+                </div>
+                <a href="https://www.dahlskincare.com/skin-consultation"
+                   id="consultation-button"
+                   target="_blank"
+                   class="button expand">
+                    <span>Get a free consultation</span>
+                    <?php icon('link-external') ?>
+                </a>
+                <div id="legends">
+                    <div>
+                        <?php icon("trustpilot") ?>
+                        <strong>4.8</strong>
+                        <span>Trustpilot score</span>
+                    </div>
+                    <div>
+                        <strong>30+</strong>
+                        <span>years</span>
+                    </div>
+                    <div>
+                        <strong>200k+</strong>
+                        <span>clients</span>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
         <!-- Desktop footer -->

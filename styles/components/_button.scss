@@ -78,6 +78,13 @@ input[type=submit],
     }
 }
 
+button.expand,
+input[type=submit].expand,
+.button.expand {
+    box-sizing: border-box;
+    width: 100%;
+}
+
 
 
 button:hover,

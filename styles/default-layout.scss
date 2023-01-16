@@ -122,9 +122,7 @@ html {
                         display: flex;
 
                         button {
-                            //width: 100%;
                             flex: 1;
-                            //  box-sizing: border-box;
                         }
 
                         button:first-child {
@@ -157,10 +155,78 @@ html {
                             }
                         }
 
-                        button {
+                        .button {
                             margin-top: $m;
-                            width: 100%;
-                            box-sizing: border-box;
+                        }
+                    }
+                }
+
+                #footer-links {
+                    .columns {
+                        margin-top: $xl3;
+
+                        ul {
+                            margin: 0;
+                            padding: 0;
+
+                            li {
+                                margin-top: $m;
+                                list-style-type: none;
+
+                                a {
+                                    @include p200;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                #footer-bottom {
+                    margin-top: $xl3;
+                    border-top: 1px solid $light-300;
+                    padding: $xl 0 $m 0;
+
+                    .copy-n-cookies {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+
+                        #copyright {
+                            @include p100;
+                        }
+
+                        #cookie-policy,
+                        #language-selector {
+                            color: $deep-sea-400;
+                            display: flex;
+                            @include h100;
+                        }
+
+                        #language-selector {
+                            .icon {
+                                margin-right: $xxs;
+
+                                svg {
+                                    stroke: $deep-sea-400;
+                                    fill: $deep-sea-400;
+                                }
+                            }
+                        }
+                    }
+
+                    #consultation-button {
+                        margin-top: $xl3;
+                    }
+
+                    #legends {
+                        margin-top: $s;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        @include p100;
+
+                        .icon {
+                            vertical-align: top;
                         }
                     }
                 }
