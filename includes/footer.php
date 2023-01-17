@@ -220,14 +220,14 @@ IMPORTANT:
             </div>
             <div id="footer-bottom">
                 <div class="copy-n-cookies">
-                    <div id="copyright">&copy; <?php echo date('Y') ?> Acnespecialisten</div>
+                    <p>&copy; <?php echo date('Y') ?> Acnespecialisten</p>
                     <a id="cookie-policy"
                        href="cookie-policy.php"
                        target="_blank"
-                       class="l10n">Cookie policy</a>
+                       class="button b100 compact text l10n">Cookie policy</a>
                     <div id="language-selector">
                         <?php icon("intl") ?>
-                        <span class="l10n">English</span>
+                        <span class="button b100 compact text l10n">English</span>
                     </div>
                 </div>
                 <a href="https://www.dahlskincare.com/skin-consultation"

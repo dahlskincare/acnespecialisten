@@ -200,15 +200,9 @@ html {
                         align-items: center;
                         justify-content: space-between;
 
-                        #copyright {
-                            @include p100;
-                        }
-
                         #cookie-policy,
                         #language-selector {
-                            color: $deep-sea-400;
                             display: flex;
-                            @include h100;
                         }
 
                         #language-selector {
