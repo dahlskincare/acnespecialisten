@@ -24,25 +24,29 @@
                          width="40"
                          height="40" />
                 </a>
-                <a href="https://www.swish.nu">
+                <a href="https://www.swish.nu"
+                   target="_blank">
                     <img src="images/brands/brand-icon-swish.png"
                          alt="swish"
                          width="40"
                          height="40" />
                 </a>
-                <a href="https://www.if.se">
+                <a href="https://www.if.se"
+                   target="_blank">
                     <img src="images/brands/brand-icon-if.png"
                          alt="if"
                          width="40"
                          height="40" />
                 </a>
-                <a href="https://www.shr.nu">
+                <a href="https://www.shr.nu"
+                   target="_blank">
                     <img src="images/brands/brand-icon-shr.png"
                          alt="shr"
                          width="40"
                          height="40" />
                 </a>
-                <a href="https://ww.bokadirekt.se">
+                <a href="https://ww.bokadirekt.se"
+                   target="_blank">
                     <img src="images/brands/brand-icon-bokadirekt.png"
                          alt="bokadirekt"
                          width="40"
