@@ -246,6 +246,31 @@ html {
 
             #footer-large {
                 display: none;
+                margin-top: $xl5;
+
+                div.footer-banner {
+                    color: $white-500;
+                    background-color: $deep-sea-400;
+                    padding: $xl3;
+
+                    .icon {
+                        width: $xl3;
+                        height: $xl3;
+                    }
+
+                    .icon>svg {
+                        stroke: $white-500;
+                        fill: $white-500;
+                    }
+
+                    div.aligner {
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-end;
+                        justify-content: space-between;
+                    }
+                }
             }
 
             @media screen and (min-width: $widescreen) {
@@ -254,7 +279,7 @@ html {
                 }
 
                 #footer-large {
-                    display: initial;
+                    display: block;
                 }
             }
         }
