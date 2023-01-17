@@ -74,7 +74,7 @@ IMPORTANT:
                 <h2>Acnespecialisten</h2>
                 <div class="p200"
                      id="phone-dot-email">
-                    <a>+46 (0) 8-29 61 01</a>
+                    <a href="tel:+4608296101">+46 (0) 8-29 61 01</a>
                     <div class="dot"></div>
                     <a class="l10n"
                        href="mailto:kund@acnespecialisten.se">kund@acnespecialisten.se</a>
@@ -389,7 +389,8 @@ IMPORTANT:
                         <h2>Acnespecialisten</h2>
                         <div class="flex-row"
                              id="phone-dot-email-large">
-                            <a class="button b200 compact text">+46 (0) 8-29 61 01</a>
+                            <a href="tel:+4608296101"
+                               class="button b200 compact text">+46 (0) 8-29 61 01</a>
                             <div class="dot"></div>
                             <a class="button b200 compact text l10n"
                                href="mailto:kund@acnespecialisten.se">kund@acnespecialisten.se</a>
