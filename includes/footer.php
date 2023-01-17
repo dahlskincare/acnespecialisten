@@ -6,6 +6,12 @@
             <div class="container">
                 <h2 class="big l10n">Ready to get started?</h2>
                 <p class="p200 l10n">Book a meeting with your personal esthetician.</p>
+                <a href="https://dahlskincare.com/skin-consultation"
+                   class="button white expand l10n"
+                   target="_blank">
+                    <span>Get a free consultation</span>
+                    <?php icon('link-external') ?>
+                </a>
             </div>
         </div>
         <div class="container">

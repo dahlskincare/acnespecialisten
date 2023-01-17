@@ -93,10 +93,16 @@ html {
 
         footer {
             #footer-small {
+                margin-top: $xl5;
+
                 #footer-consultation-banner {
                     color: $white-500;
                     background-color: $deep-sea-400;
                     padding: $xl3 0;
+
+                    a.button {
+                        margin-top: $xl;
+                    }
                 }
 
                 #footer-brands {
