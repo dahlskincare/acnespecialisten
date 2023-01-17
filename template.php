@@ -1,15 +1,19 @@
 <!DOCTYPE html>
+<!-- TODO: Set language -->
 <html lang="en">
 
 <head>
       <!-- TODO: Set title and meta tags -->
-      <title>Acnespecialisten</title>
+      <title class="l10n">Acnespecialisten</title>
       <meta name="description"
-            content="">
+            content=""
+            class="l10n">
       <meta name="title"
-            content="">
+            content=""
+            class="l10n">
       <meta name="keywords"
-            content="">
+            content=""
+            class="l10n">
 
       <!-- Optional: Set canonical version of this page (https://support.google.com/webmasters/answer/10347851) -->
 
