@@ -386,6 +386,7 @@ IMPORTANT:
             <div id="footer-large-links">
                 <div class="columns is-gapless">
                     <div class="column">
+                        <h2>Acnespecialisten</h2>
                         <div class="flex-row"
                              id="phone-dot-email-large">
                             <a class="button b200 compact text">+46 (0) 8-29 61 01</a>
@@ -443,7 +444,106 @@ IMPORTANT:
                         </div>
                     </div>
                     <div class="column is-two-thirds">
-                        <p>hej</p>
+                        <div id="footer-links-large">
+                            <div class="columns is-gapless">
+                                <div class="column">
+                                    <h2>Discover</h2>
+                                    <ul>
+                                        <li>
+                                            <a href="https://dahlskincare.com/skin-consultation"
+                                               target="_blank"
+                                               class="l10n">Free consultation</a>
+                                        </li>
+                                        <li>
+                                            <a href="problems.php"
+                                               class="l10n">Problems</a>
+                                        </li>
+                                        <li>
+                                            <a href="services.php"
+                                               class="l10n">Services</a>
+                                        </li>
+                                        <li>
+                                            <a href="brands.php"
+                                               class="l10n">Brands</a>
+                                        </li>
+                                        <li>
+                                            <a href="prices.php"
+                                               class="l10n">Prices</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="column">
+                                    <h2 class="l10n">Company</h2>
+                                    <ul>
+                                        <li>
+                                            <a href="about.php"
+                                               class="l10n">About us</a>
+                                        </li>
+                                        <li>
+                                            <a href="our-approach.php"
+                                               class="l10n">Our approach</a>
+                                        </li>
+                                        <li>
+                                            <a href="specialists.php"
+                                               class="l10n">Specialists</a>
+                                        </li>
+                                        <li>
+                                            <a href="career.php"
+                                               class="l10n">Career</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="column">
+                                    <h2>Support</h2>
+                                    <ul>
+                                        <li>
+                                            <a href="faq.php"
+                                               class="l10n">FAQ</a>
+                                        </li>
+                                        <li>
+                                            <a href="cancellation.php"
+                                               class="l10n">Cancellation</a>
+                                        </li>
+                                        <li>
+                                            <a href="glossary.php"
+                                               class="l10n">Glossary</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="column">
+                                    <h2>Community</h2>
+                                    <ul>
+                                        <li>
+                                            <a href="results.php"
+                                               class="l10n">Clients results</a>
+                                        </li>
+                                        <li>
+                                            <a href="giftcards.php"
+                                               class="l10n">Gift cards</a>
+                                        </li>
+                                        <li>
+                                            <a href="login.php"
+                                               class="l10n">Login</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="footer-large-bottom">
+                <div class="flex-row justify-space-between">
+                    <p>&copy; <?php echo date('Y') ?> Acnespecialisten</p>
+                    <div class="flex-row">
+                        <a id="cookie-policy"
+                           href="cookie-policy.php"
+                           target="_blank"
+                           class="button b100 compact text l10n">Cookie policy</a>
+                        <div id="language-selector">
+                            <?php icon("intl") ?>
+                            <span class="button b100 compact text l10n">English</span>
+                        </div>
                     </div>
                 </div>
             </div>

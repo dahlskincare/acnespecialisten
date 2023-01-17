@@ -64,6 +64,10 @@ input[type=submit],
     align-items: center;
     justify-content: center;
 
+    .icon {
+        height: 21px;
+    }
+
     .icon:last-child {
         margin-left: $xs;
     }

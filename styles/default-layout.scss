@@ -227,10 +227,6 @@ html {
                         align-items: center;
                         justify-content: space-between;
                         @include p100;
-
-                        .icon {
-                            vertical-align: top;
-                        }
                     }
                 }
             }
@@ -284,6 +280,8 @@ html {
                     margin-top: 72px;
 
                     #phone-dot-email-large {
+                        $margin-top: $xxs;
+
                         .dot {
                             margin: 0 $s;
                         }
@@ -297,6 +295,41 @@ html {
 
                             img {
                                 margin-right: $s;
+                            }
+                        }
+                    }
+
+                    ul {
+                        margin: 0;
+                        padding: 0;
+
+                        li {
+                            margin-top: $m;
+                            list-style-type: none;
+
+                            a {
+                                @include p200;
+                            }
+                        }
+                    }
+                }
+
+                #footer-large-bottom {
+                    margin-top: 72px;
+                    border-top: 1px solid $light-300;
+                    padding: $xl 0 $xl4 0;
+
+
+                    #language-selector {
+                        display: flex;
+                        margin-left: $l;
+
+                        .icon {
+                            margin-right: $xxs;
+
+                            svg {
+                                stroke: $deep-sea-400;
+                                fill: $deep-sea-400;
                             }
                         }
                     }
