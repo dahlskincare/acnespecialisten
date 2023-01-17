@@ -200,12 +200,10 @@ html {
                         align-items: center;
                         justify-content: space-between;
 
-                        #cookie-policy,
-                        #language-selector {
-                            display: flex;
-                        }
 
                         #language-selector {
+                            display: flex;
+
                             .icon {
                                 margin-right: $xxs;
 

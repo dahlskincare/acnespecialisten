@@ -221,8 +221,7 @@ IMPORTANT:
             <div id="footer-bottom">
                 <div class="copy-n-cookies">
                     <p>&copy; <?php echo date('Y') ?> Acnespecialisten</p>
-                    <a id="cookie-policy"
-                       href="cookie-policy.php"
+                    <a href="cookie-policy.php"
                        target="_blank"
                        class="button b100 compact text l10n">Cookie policy</a>
                     <div id="language-selector">
@@ -537,8 +536,7 @@ IMPORTANT:
                 <div class="flex-row justify-space-between">
                     <p>&copy; <?php echo date('Y') ?> Acnespecialisten</p>
                     <div class="flex-row">
-                        <a id="cookie-policy"
-                           href="cookie-policy.php"
+                        <a href="cookie-policy.php"
                            target="_blank"
                            class="button b100 compact text l10n">Cookie policy</a>
                         <div id="language-selector">
