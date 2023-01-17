@@ -21,6 +21,9 @@ include('util/functions.php');
 
 <!-- Preload important resources -->
 <link rel="preload"
+      as="style"
+      href="styles/default-layout.css">
+<link rel="preload"
       as="image"
       href="images/logo-green.svg">
 <link rel="preload"
