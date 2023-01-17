@@ -257,6 +257,58 @@ IMPORTANT:
 
     <!-- Desktop footer -->
     <div id="footer-large">
-        LARGE FOOTER HERE
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <div class="footer-banner">
+                        <div class="columns">
+                            <div class="column">
+                                <h2 class="big l10n">Ready to start treatment?</h2>
+                                <p class="p200 l10n">
+                                    In a personal meeting with a skin specialist, your skin type is examined
+                                    and identified.
+                                </p>
+                            </div>
+                            <div class="column">
+                                <div class="aligner">
+                                    <?php icon('pin') ?>
+                                    <div>
+                                        <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559"
+                                           target="_blank"
+                                           class="button white l10n">Book a clinic visit</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="footer-banner">
+                        <div class="columns">
+                            <div class="column">
+                                <h2 class="big l10n">Too far to<br />the clinic?</h2>
+                                <p class="p200 l10n">
+                                    In a personal meeting with a skin specialist, your skin type is
+                                    examined and identified.
+                                </p>
+                            </div>
+                            <div class="column">
+                                <div class="aligner">
+                                    <img src="images/brands/zoom.svg"
+                                         alt="zoom"
+                                         width="92"
+                                         height="21" />
+                                    <div>
+                                        <a href="#"
+                                           target="_blank"
+                                           class="button white l10n">Book an online call</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </footer>
