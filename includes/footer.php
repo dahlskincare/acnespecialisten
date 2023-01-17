@@ -1,5 +1,9 @@
-<footer>
+<!--
+IMPORTANT: 
+ Don't edit this file unless you know what you are doing!
+-->
 
+<footer>
     <!-- Mobile footer -->
     <div id="footer-small">
         <div id="footer-consultation-banner">

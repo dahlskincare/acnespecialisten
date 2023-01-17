@@ -1,3 +1,7 @@
+<!--
+IMPORTANT: 
+ Don't edit this file unless you know what you are doing!
+-->
 <header>
     <div class="container">
         <div id="header-small">
