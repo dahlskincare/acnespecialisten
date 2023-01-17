@@ -12,6 +12,21 @@ html {
     body {
         background-color: $white-500;
 
+        /// UTILITY CLASSES
+        /// Colors
+        .color-deep-sea-300 {
+            @include text-color($deep-sea-300);
+        }
+
+        .color-deep-sea-400 {
+            @include text-color($deep-sea-400);
+        }
+
+        .color-deep-sea-500 {
+            @include text-color($deep-sea-500);
+        }
+
+        /// Elevations 
         .elevation-low {
             @include elevation-low;
         }
@@ -20,8 +35,33 @@ html {
             @include elevation-medium;
         }
 
+        /// Bulma hack
         .container {
             padding: 0 $m;
         }
+
+        /// Flex utility
+        .flex-row {
+            display: flex;
+            align-items: center;
+        }
+
+        .flex-col {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .justify-end {
+            justify-content: flex-end;
+        }
+
+        .justify-space-between {
+            justify-content: space-between;
+        }
+
+
+        /// END UTILITY CLASSES
+
     }
 }

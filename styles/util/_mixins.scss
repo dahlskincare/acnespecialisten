@@ -2,6 +2,15 @@
 /// Don't edit this file unless you know what you are doing!
 @import "sizes";
 
+/// Text and svg icon color
+@mixin text-color($color) {
+    color: $color;
+
+    .icon>svg {
+        stroke: $color;
+        fill: $color;
+    }
+}
 
 @mixin font-style($family, $serif, $size, $line-height, $letter-spacing, $weight) {
     font-family: $family, $serif;

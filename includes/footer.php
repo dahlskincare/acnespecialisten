@@ -72,11 +72,12 @@ IMPORTANT:
             </div>
             <div id="footer-contact">
                 <h2>Acnespecialisten</h2>
-                <div id="phoneDotEmail"
-                     class="p200">
-                    <span>+46 (0) 8-29 61 01</span>
+                <div class="p200"
+                     id="phone-dot-email">
+                    <a>+46 (0) 8-29 61 01</a>
                     <div class="dot"></div>
-                    <span class="l10n">kund@acnespecialisten.se</span>
+                    <a class="l10n"
+                       href="mailto:kund@acnespecialisten.se">kund@acnespecialisten.se</a>
                 </div>
                 <div id="buttons">
                     <button class="grey l10n">Call us</button>
@@ -85,7 +86,7 @@ IMPORTANT:
             </div>
             <div id="footer-salon-cards">
                 <div class="salon-card">
-                    <div class="flex-aligner">
+                    <div class="flex-row">
                         <img src="images/salons/profile-sundbyberg.jpg"
                              alt="Sundbyberg"
                              width="102"
@@ -100,7 +101,7 @@ IMPORTANT:
                        class="button grey expand l10n">Book a visit</a>
                 </div>
                 <div class="salon-card">
-                    <div class="flex-aligner">
+                    <div class="flex-row">
                         <img src="images/salons/profile-ostermalm.jpg"
                              alt="Östermalm"
                              width="102"
@@ -115,7 +116,7 @@ IMPORTANT:
                        class="button grey expand l10n">Book a visit</a>
                 </div>
                 <div class="salon-card">
-                    <div class="flex-aligner">
+                    <div class="flex-row">
                         <img src="images/salons/profile-sodermalm.jpg"
                              alt="Södermalm"
                              width="102"
@@ -260,7 +261,7 @@ IMPORTANT:
         <div class="container">
             <div class="columns">
                 <div class="column">
-                    <div class="footer-banner">
+                    <div class="footer-large-banner">
                         <div class="columns">
                             <div class="column">
                                 <h2 class="big l10n">Ready to start treatment?</h2>
@@ -283,7 +284,7 @@ IMPORTANT:
                     </div>
                 </div>
                 <div class="column">
-                    <div class="footer-banner">
+                    <div class="footer-large-banner">
                         <div class="columns">
                             <div class="column">
                                 <h2 class="big l10n">Too far to<br />the clinic?</h2>
@@ -309,6 +310,142 @@ IMPORTANT:
                     </div>
                 </div>
             </div>
+            <div id="footer-large-brands">
+                <div class="flex-row justify-space-between">
+                    <div>
+                        <div class="flex-row">
+                            <span class="h200 l10n">Payment solutions</span>
+                            <a href="https://www.klarna.com"
+                               target="_blank">
+                                <img src="images/brands/brand-icon-klarna.png"
+                                     alt="klarna"
+                                     width="40"
+                                     height="40" />
+                            </a>
+                            <a href="https://www.amex.com"
+                               target="_blank">
+                                <img src="images/brands/brand-icon-amex.png"
+                                     alt="amex"
+                                     width="40"
+                                     height="40" />
+                            </a>
+                            <a href="https://www.qliro.com/sv-se"
+                               target="_blank">
+                                <img src="images/brands/brand-icon-qliro.png"
+                                     alt="qliro"
+                                     width="40"
+                                     height="40" />
+                            </a>
+                            <a href="https://www.swish.nu"
+                               target="_blank">
+                                <img src="images/brands/brand-icon-swish.png"
+                                     alt="swish"
+                                     width="40"
+                                     height="40" />
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex-row justify-end">
+                            <span class="h200 l10n">Business insurance</span>
+                            <a href="https://www.if.se"
+                               target="_blank">
+                                <img src="images/brands/brand-icon-if.png"
+                                     alt="if"
+                                     width="40"
+                                     height="40" />
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex-row justify-end">
+                            <span class="h200 l10n">Skin therapists organization</span>
+                            <a href="https://www.shr.nu"
+                               target="_blank">
+                                <img src="images/brands/brand-icon-shr.png"
+                                     alt="shr"
+                                     width="40"
+                                     height="40" />
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex-row justify-end">
+                            <span class="h200 l10n">Booking marketplace</span>
+                            <a href="https://ww.bokadirekt.se"
+                               target="_blank">
+                                <img src="images/brands/brand-icon-bokadirekt.png"
+                                     alt="bokadirekt"
+                                     width="40"
+                                     height="40" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="footer-large-links">
+                <div class="columns is-gapless">
+                    <div class="column">
+                        <div class="flex-row"
+                             id="phone-dot-email-large">
+                            <a class="button b200 compact text">+46 (0) 8-29 61 01</a>
+                            <div class="dot"></div>
+                            <a class="button b200 compact text l10n"
+                               href="mailto:kund@acnespecialisten.se">kund@acnespecialisten.se</a>
+                        </div>
+                        <div id="footer-salon-cards-large">
+                            <div class="salon-card">
+                                <div class="flex-row">
+                                    <img src="images/salons/profile-sundbyberg.jpg"
+                                         alt="Sundbyberg"
+                                         width="72"
+                                         height="72">
+                                    <div>
+                                        <h2>Sundbyberg</h2>
+                                        <p class="p200">Sturegatan 32, 172 31 Sundbyberg</p>
+                                        <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-sundbyberg-19300"
+                                           target="_blank"
+                                           class="button b200 compact text l10n">Book a visit</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="salon-card">
+                                <div class="flex-row">
+                                    <img src="images/salons/profile-ostermalm.jpg"
+                                         alt="Östermalm"
+                                         width="72"
+                                         height="72">
+                                    <div>
+                                        <h2>Östermalm</h2>
+                                        <p class="p200">Strandvägen 7, 114 51 Stockholm</p>
+                                        <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559"
+                                           target="_blank"
+                                           class="button b200 compact text l10n">Book a visit</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="salon-card">
+                                <div class="flex-row">
+                                    <img src="images/salons/profile-sodermalm.jpg"
+                                         alt="Södermalm"
+                                         width="72"
+                                         height="72">
+                                    <div>
+                                        <h2>Södermalm</h2>
+                                        <p class="p200">Hornsgatan 47, 118 49 Stockholm</p>
+                                        <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-s%C3%B6dermalm-19301"
+                                           target="_blank"
+                                           class="button b200 compact text l10n">Book a visit</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-two-thirds">
+                        <p>hej</p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
 </footer>

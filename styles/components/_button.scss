@@ -85,6 +85,14 @@ input[type=submit].expand,
     width: 100%;
 }
 
+button.compact,
+input[type=submit].compact,
+.button.compact {
+    padding: 0;
+    min-width: 0;
+}
+
+
 
 
 button:hover,

@@ -92,6 +92,14 @@ html {
         }
 
         footer {
+
+            div.dot {
+                width: $xs;
+                height: $xs;
+                border-radius: $xs;
+                background-color: $light-500;
+            }
+
             #footer-small {
                 margin-top: $xl5;
 
@@ -116,17 +124,11 @@ html {
                 #footer-contact {
                     margin-top: $xl3;
 
-                    div#phoneDotEmail {
+                    div#phone-dot-email {
                         display: flex;
                         align-items: center;
                         justify-content: space-between;
 
-                        div.dot {
-                            width: $xs;
-                            height: $xs;
-                            border-radius: $xs;
-                            background-color: $light-500;
-                        }
                     }
 
                     div#buttons {
@@ -157,14 +159,9 @@ html {
                         border: 1px solid $light-200;
                         @include elevation-low();
 
-                        .flex-aligner {
-                            display: flex;
-                            align-items: center;
-
-                            img {
-                                border-radius: $radius-s;
-                                margin-right: $m;
-                            }
+                        img {
+                            border-radius: $radius-s;
+                            margin-right: $m;
                         }
 
                         .button {
@@ -246,9 +243,9 @@ html {
 
             #footer-large {
                 display: none;
-                margin-top: $xl5;
+                margin-top: 72px;
 
-                div.footer-banner {
+                .footer-large-banner {
                     color: $white-500;
                     background-color: $deep-sea-400;
                     padding: $xl3;
@@ -264,13 +261,54 @@ html {
                         fill: $white-500;
                     }
 
-                    div.aligner {
+                    .aligner {
                         height: 100%;
                         display: flex;
                         flex-direction: column;
                         align-items: flex-end;
                         justify-content: space-between;
                     }
+                }
+
+                #footer-large-brands {
+                    margin-top: 72px;
+                    border-top: 1px solid $light-200;
+                    border-bottom: 1px solid $light-200;
+                    padding: $xxl 0;
+
+                    span.h200 {
+                        margin-right: $xs;
+                    }
+
+                    a {
+                        line-height: 0;
+                        margin-left: $xs;
+                    }
+                }
+
+                #footer-large-links {
+                    margin-top: 72px;
+
+                    #phone-dot-email-large {
+                        color: $deep-sea-400;
+
+                        .dot {
+                            margin: 0 $s;
+                        }
+                    }
+
+                    #footer-salon-cards-large {
+                        margin-top: $xxl;
+
+                        .salon-card {
+                            margin-top: $xl;
+
+                            img {
+                                margin-right: $s;
+                            }
+                        }
+                    }
+
                 }
             }
 
