@@ -6,7 +6,7 @@ IMPORTANT:
 include('util/functions.php');
 ?>
 <meta name="viewport"
-      content="width=340, initial-scale=1" />
+      content="width=380, initial-scale=1" />
 <meta charset="UTF-8">
 <meta name="author"
       content="Acnespecialisten Sverige AB">
