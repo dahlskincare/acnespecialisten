@@ -8,7 +8,7 @@
 - Put your html content between the \<main> tags only
 - Put your style content inside the new css file only
 - Custom javascript is added manually
-- Use lighthouse (built in to chrome devtools) to analyze the new page before deploying
+- Use Lighthouse (built in to chrome devtools) to analyze the new page before deploying
 
 ## Localization
 - Localized content should have the **l10n** class, for example; **\<p class="l10n">Hasta la vista\</p>**
