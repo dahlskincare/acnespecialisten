@@ -93,7 +93,13 @@ html {
 
         footer {
             #footer-small {
-                #brands {
+                #footer-consultation-banner {
+                    color: $white-500;
+                    background-color: $deep-sea-400;
+                    padding: $xl3 0;
+                }
+
+                #footer-brands {
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
@@ -101,7 +107,7 @@ html {
                     padding: $xl 0;
                 }
 
-                #contact {
+                #footer-contact {
                     margin-top: $xl3;
 
                     div#phoneDotEmail {
@@ -135,7 +141,7 @@ html {
                     }
                 }
 
-                #salon-cards {
+                #footer-salon-cards {
                     margin-top: $xl;
 
                     .salon-card {

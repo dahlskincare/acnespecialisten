@@ -3,13 +3,16 @@
 
 <head>
       <!-- TODO: Set title and meta tags -->
-      <title>Acnespecialisten</title>
+      <title class="l10n">Acnespecialisten</title>
       <meta name="description"
-            content="Acnespecialisten is the best etc...">
+            content="Acnespecialisten is the best etc..."
+            class="l10n">
       <meta name="title"
-            content="Acnespecialisten">
+            content="Acnespecialisten"
+            class="l10n">
       <meta name="keywords"
-            content="Acne, specialisten">
+            content="Acne, specialisten"
+            class="l10n">
 
       <?php include('includes/head.php'); ?>
 
@@ -26,7 +29,7 @@
             <section>
                   <div id="banner">
                         <div class="container">
-                              <h1 class="big">Skin specialists</h1>
+                              <h1 class="big l10n">Skin specialists</h1>
                         </div>
                   </div>
                   <div class="container">
@@ -35,7 +38,7 @@
                               <a href="https://dahlskincare.com/skin-consultation"
                                  target="_blank">
                                     <button class="white">
-                                          <span>Get a free consultation</span>
+                                          <span class="l10n">Get a free consultation</span>
                                           <?php icon('link-external') ?>
                                     </button>
                               </a>
@@ -43,15 +46,15 @@
                                     <div>
                                           <span class="h500">4,8</span>
                                           <?php icon('trustpilot') ?>
-                                          <div class="p200">on Trustpilot</div>
+                                          <div class="p200 l10n">on Trustpilot</div>
                                     </div>
                                     <div>
                                           <span class="h500">30+</span>
-                                          <div class="p200">years</div>
+                                          <div class="p200 l10n">years</div>
                                     </div>
                                     <div>
                                           <span class="h500">200k+</span>
-                                          <div class="p200">clients</div>
+                                          <div class="p200 l10n">clients</div>
                                     </div>
                               </div>
                         </div>
@@ -66,27 +69,27 @@
                                                 <?php icon('trustpilot') ?>
                                                 <?php icon('trustpilot') ?>
                                                 <?php icon('trustpilot') ?>
-                                                <div class="p200">Trustpilot score</div>
+                                                <div class="p200 l10n">Trustpilot score</div>
                                           </div>
                                     </div>
                                     <div class="flex-aligner">
                                           <span class="h500">30+</span>
                                           <div>
-                                                <div class="h400">years</div>
-                                                <div class="p200">on the market</div>
+                                                <div class="h400 l10n">years</div>
+                                                <div class="p200 l10n">on the market</div>
                                           </div>
                                     </div>
                                     <div class="flex-aligner">
-                                          <span class="h500">200k+</span>
+                                          <span class="h500 l10n">200k+</span>
                                           <div>
-                                                <div class="h400">clients</div>
-                                                <div class="p200">were satisfied</div>
+                                                <div class="h400 l10n">clients</div>
+                                                <div class="p200 l10n">were satisfied</div>
                                           </div>
                                     </div>
                                     <a href="https://dahlskincare.com/skin-consultation"
                                        target="_blank">
                                           <button class="white">
-                                                <span>Get a free consultation</span>
+                                                <span class="l10n">Get a free consultation</span>
                                                 <?php icon('link-external') ?>
                                           </button>
                                     </a>
