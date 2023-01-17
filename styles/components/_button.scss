@@ -157,7 +157,7 @@ input[type=submit].white.disabled,
 button.grey,
 input[type=submit].grey,
 .button.grey {
-    @include button-text-color($black-500);
+    @include button-text-color($dark-400);
     @include button-background-color($light-200);
 }
 
