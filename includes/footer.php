@@ -139,23 +139,23 @@ IMPORTANT:
                             <li>
                                 <a href="https://dahlskincare.com/skin-consultation"
                                    target="_blank"
-                                   class="l10n">Free consultation</a>
+                                   class="button text grey compact l10n">Free consultation</a>
                             </li>
                             <li>
                                 <a href="problems.php"
-                                   class="l10n">Problems</a>
+                                   class="button text grey compact l10n">Problems</a>
                             </li>
                             <li>
                                 <a href="services.php"
-                                   class="l10n">Services</a>
+                                   class="button text grey compact l10n">Services</a>
                             </li>
                             <li>
                                 <a href="brands.php"
-                                   class="l10n">Brands</a>
+                                   class="button text grey compact l10n">Brands</a>
                             </li>
                             <li>
                                 <a href="prices.php"
-                                   class="l10n">Prices</a>
+                                   class="button text grey compact l10n">Prices</a>
                             </li>
                         </ul>
                     </div>
@@ -164,19 +164,19 @@ IMPORTANT:
                         <ul>
                             <li>
                                 <a href="about.php"
-                                   class="l10n">About us</a>
+                                   class="button text grey compact l10n">About us</a>
                             </li>
                             <li>
                                 <a href="our-approach.php"
-                                   class="l10n">Our approach</a>
+                                   class="button text grey compact l10n">Our approach</a>
                             </li>
                             <li>
                                 <a href="specialists.php"
-                                   class="l10n">Specialists</a>
+                                   class="button text grey compact l10n">Specialists</a>
                             </li>
                             <li>
                                 <a href="career.php"
-                                   class="l10n">Career</a>
+                                   class="button text grey compact l10n">Career</a>
                             </li>
                         </ul>
                     </div>
@@ -187,15 +187,15 @@ IMPORTANT:
                         <ul>
                             <li>
                                 <a href="faq.php"
-                                   class="l10n">FAQ</a>
+                                   class="button text grey compact l10n">FAQ</a>
                             </li>
                             <li>
                                 <a href="cancellation.php"
-                                   class="l10n">Cancellation</a>
+                                   class="button text grey compact l10n">Cancellation</a>
                             </li>
                             <li>
                                 <a href="glossary.php"
-                                   class="l10n">Glossary</a>
+                                   class="button text grey compact l10n">Glossary</a>
                             </li>
                         </ul>
                     </div>
@@ -204,15 +204,15 @@ IMPORTANT:
                         <ul>
                             <li>
                                 <a href="results.php"
-                                   class="l10n">Clients results</a>
+                                   class="button text grey compact l10n">Clients results</a>
                             </li>
                             <li>
                                 <a href="giftcards.php"
-                                   class="l10n">Gift cards</a>
+                                   class="button text grey compact l10n">Gift cards</a>
                             </li>
                             <li>
                                 <a href="login.php"
-                                   class="l10n">Login</a>
+                                   class="button text grey compact l10n">Login</a>
                             </li>
                         </ul>
                     </div>
@@ -452,23 +452,23 @@ IMPORTANT:
                                         <li>
                                             <a href="https://dahlskincare.com/skin-consultation"
                                                target="_blank"
-                                               class="l10n">Free consultation</a>
+                                               class="button text grey compact l10n">Free consultation</a>
                                         </li>
                                         <li>
                                             <a href="problems.php"
-                                               class="l10n">Problems</a>
+                                               class="button text grey compact l10n">Problems</a>
                                         </li>
                                         <li>
                                             <a href="services.php"
-                                               class="l10n">Services</a>
+                                               class="button text grey compact l10n">Services</a>
                                         </li>
                                         <li>
                                             <a href="brands.php"
-                                               class="l10n">Brands</a>
+                                               class="button text grey compact l10n">Brands</a>
                                         </li>
                                         <li>
                                             <a href="prices.php"
-                                               class="l10n">Prices</a>
+                                               class="button text grey compact l10n">Prices</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -477,19 +477,19 @@ IMPORTANT:
                                     <ul>
                                         <li>
                                             <a href="about.php"
-                                               class="l10n">About us</a>
+                                               class="button text grey compact l10n">About us</a>
                                         </li>
                                         <li>
                                             <a href="our-approach.php"
-                                               class="l10n">Our approach</a>
+                                               class="button text grey compact l10n">Our approach</a>
                                         </li>
                                         <li>
                                             <a href="specialists.php"
-                                               class="l10n">Specialists</a>
+                                               class="button text grey compact l10n">Specialists</a>
                                         </li>
                                         <li>
                                             <a href="career.php"
-                                               class="l10n">Career</a>
+                                               class="button text grey compact l10n">Career</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -498,15 +498,15 @@ IMPORTANT:
                                     <ul>
                                         <li>
                                             <a href="faq.php"
-                                               class="l10n">FAQ</a>
+                                               class="button text grey compact l10n">FAQ</a>
                                         </li>
                                         <li>
                                             <a href="cancellation.php"
-                                               class="l10n">Cancellation</a>
+                                               class="button text grey compact l10n">Cancellation</a>
                                         </li>
                                         <li>
                                             <a href="glossary.php"
-                                               class="l10n">Glossary</a>
+                                               class="button text grey compact l10n">Glossary</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -515,15 +515,15 @@ IMPORTANT:
                                     <ul>
                                         <li>
                                             <a href="results.php"
-                                               class="l10n">Clients results</a>
+                                               class="button text grey compact l10n">Clients results</a>
                                         </li>
                                         <li>
                                             <a href="giftcards.php"
-                                               class="l10n">Gift cards</a>
+                                               class="button text grey compact l10n">Gift cards</a>
                                         </li>
                                         <li>
                                             <a href="login.php"
-                                               class="l10n">Login</a>
+                                               class="button text grey compact l10n">Login</a>
                                         </li>
                                     </ul>
                                 </div>
