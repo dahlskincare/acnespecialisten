@@ -5,21 +5,6 @@
 @import "../util/mixins";
 @import "../util/sizes";
 
-@mixin button-background-color($color) {
-    @include spinner-background-color($color);
-    background-color: $color;
-    border-color: $color;
-}
-
-@mixin button-text-color($color) {
-    @include spinner-color($color);
-    color: $color;
-
-    .icon>svg {
-        stroke: $color;
-    }
-}
-
 button.b200,
 input[type=submit].b200,
 .button.b200 {

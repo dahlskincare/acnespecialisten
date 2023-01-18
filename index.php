@@ -33,7 +33,7 @@
                         </div>
                   </div>
                   <div class="container">
-                        <div class="banner-bar elevation-medium is-hidden-desktop"
+                        <div class="banner-bar elevation-medium is-hidden-widescreen"
                              id="banner-bar-small">
                               <a href="https://dahlskincare.com/skin-consultation"
                                  target="_blank">
@@ -97,8 +97,8 @@
                         </div>
                   </div>
             </section>
-            <section class="is-hidden-desktop"
-                     id="problems-mobile">
+            <section class="is-hidden-widescreen"
+                     id="problems-small">
                   <div class="container">
                         <h2 class="big l10n">Problems</h2>
                         <div class="columns is-mobile">
@@ -106,6 +106,8 @@
                                     <a href="problems/acne.php">
                                           <div class="problem-card">
                                                 <img src="images/problems/small/acne.jpg"
+                                                     width="114"
+                                                     height="140"
                                                      alt="Acne">
                                                 <div class="button text compact black l10n">Acne</div>
                                           </div>
@@ -115,6 +117,8 @@
                                     <a href="problems/acne-scars.php">
                                           <div class="problem-card">
                                                 <img src="images/problems/small/acne-scars.jpg"
+                                                     width="114"
+                                                     height="140"
                                                      alt="Acne scars">
                                                 <div class="button text compact black l10n">Acne scars</div>
                                           </div>
@@ -124,6 +128,8 @@
                                     <a href="problems/rosacea.php">
                                           <div class="problem-card">
                                                 <img src="images/problems/small/rosacea.jpg"
+                                                     width="114"
+                                                     height="140"
                                                      alt="Rosacea">
                                                 <div class="button text compact black l10n">Rosacea</div>
                                           </div>
@@ -135,6 +141,8 @@
                                     <a href="problems/pigmentation.php">
                                           <div class="problem-card">
                                                 <img src="images/problems/small/pigmentation.jpg"
+                                                     width="114"
+                                                     height="140"
                                                      alt="Pigmentation">
                                                 <div class="button text compact black l10n">Pigmentation</div>
                                           </div>
@@ -144,6 +152,8 @@
                                     <a href="problems/large-pores.php">
                                           <div class="problem-card">
                                                 <img src="images/problems/small/large-pores.jpg"
+                                                     width="114"
+                                                     height="140"
                                                      alt="Large pores">
                                                 <div class="button text compact black l10n">Large pores</div>
                                           </div>
@@ -153,6 +163,8 @@
                                     <a href="problems/mature-skin.php">
                                           <div class="problem-card">
                                                 <img src="images/problems/small/mature-skin.jpg"
+                                                     width="114"
+                                                     height="140"
                                                      alt="Mature skin">
                                                 <div class="button text compact black l10n">Mature skin</div>
                                           </div>
@@ -164,6 +176,68 @@
                               <span class="l10n">View all problems</span>
                               <?php icon('link-external') ?>
                         </a>
+                  </div>
+            </section>
+            <section class="is-hidden-touch"
+                     id="problems-large">
+                  <div class="container">
+                        <h2 class="big l10n">Problems</h2>
+                        <div class="mt-xl"
+                             id="problem-cards">
+                              <a href="problems/acne.php"
+                                 class="problem-card">
+                                    <div class="button white text black">
+                                          <span class="l10n">Acne</span>
+                                          <?php icon('link-external') ?>
+                                    </div>
+                                    <div class="background-image image-acne"></div>
+                              </a>
+                              <a href="problems/acne-scars.php"
+                                 class="problem-card">
+                                    <div class="button white text black">
+                                          <span class="l10n">Acne scars</span>
+                                          <?php icon('link-external') ?>
+                                    </div>
+                                    <div class="background-image image-acne-scars"></div>
+                              </a>
+                              <a href="problems/rosacea.php"
+                                 class="problem-card">
+                                    <div class="button white text black">
+                                          <span class="l10n">Rosacea</span>
+                                          <?php icon('link-external') ?>
+                                    </div>
+                                    <div class="background-image image-rosacea"></div>
+                              </a>
+                              <a href="problems/pigmentation.php"
+                                 class="problem-card">
+                                    <div class="button white text black">
+                                          <span class="l10n">Pigmentation</span>
+                                          <?php icon('link-external') ?>
+                                    </div>
+                                    <div class="background-image image-pigmentation"></div>
+                              </a>
+                              <a href="problems/large-pores.php"
+                                 class="problem-card">
+                                    <div class="button white text black">
+                                          <span class="l10n">Large pores</span>
+                                          <?php icon('link-external') ?>
+                                    </div>
+                                    <div class="background-image image-large-pores"></div>
+                              </a>
+                              <a href="problems.php"
+                                 class="problem-card"
+                                 id="problem-card-other">
+                                    <div class="button white text black">
+                                          <span class="l10n">View all problems</span>
+                                          <?php icon('link-external') ?>
+                                    </div>
+                                    <div class="background-image image-other">
+                                          <div>+17</div>
+                                    </div>
+                              </a>
+                              <div class="image-frame image-frame1"></div>
+                              <div class="image-frame image-frame2"></div>
+                        </div>
                   </div>
             </section>
       </main>

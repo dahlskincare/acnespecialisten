@@ -2,6 +2,22 @@
 /// Don't edit this file unless you know what you are doing!
 @import "sizes";
 
+@mixin button-background-color($color) {
+    @include spinner-background-color($color);
+    background-color: $color;
+    border-color: $color;
+}
+
+@mixin button-text-color($color) {
+    @include spinner-color($color);
+    color: $color;
+
+    .icon>svg {
+        stroke: $color;
+    }
+}
+
+
 /// Text and svg icon color
 @mixin text-color($color) {
     color: $color;
