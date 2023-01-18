@@ -337,7 +337,7 @@ input[type=submit].text.black,
 button.text.black:hover,
 input[type=submit].text.black:hover,
 .button.text.black:hover {
-    @include button-text-color($black-500);
+    @include button-text-color($deep-sea-400);
 }
 
 button.text.black:disabled,
