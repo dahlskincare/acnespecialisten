@@ -114,6 +114,10 @@ section#problems-large {
             padding-right: $xs;
             z-index: 1;
 
+            .button {
+                white-space: nowrap;
+            }
+
             .background-image {
                 height: $image-height;
                 border-radius: $radius-l;
