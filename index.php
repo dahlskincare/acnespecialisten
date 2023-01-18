@@ -33,7 +33,7 @@
                         </div>
                   </div>
                   <div class="container">
-                        <div class="banner-bar elevation-medium"
+                        <div class="banner-bar elevation-medium is-hidden-desktop"
                              id="banner-bar-small">
                               <a href="https://dahlskincare.com/skin-consultation"
                                  target="_blank">
@@ -58,7 +58,7 @@
                                     </div>
                               </div>
                         </div>
-                        <div class="banner-bar elevation-medium"
+                        <div class="banner-bar elevation-medium is-hidden-touch"
                              id="banner-bar-large">
                               <div id="banner-bar-cols">
                                     <div class="flex-aligner">
@@ -97,7 +97,8 @@
                         </div>
                   </div>
             </section>
-            <section id="problems">
+            <section class="is-hidden-desktop"
+                     id="problems-mobile">
                   <div class="container">
                         <h2 class="big l10n">Problems</h2>
                         <div class="columns is-mobile">

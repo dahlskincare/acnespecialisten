@@ -54,7 +54,6 @@ section#banner {
     }
 
     #banner-bar-large {
-        display: none;
         margin-top: -58px;
         padding: $xxl;
 
@@ -71,7 +70,7 @@ section#banner {
     }
 }
 
-section#problems {
+section#problems-mobile {
     margin-top: $xxl;
 
     .columns {
@@ -101,14 +100,6 @@ section#problems {
         #banner-background {
             padding: 258px 0 106px 0;
             background-image: url("images/banner-desktop.jpg");
-
-            #banner-bar-small {
-                display: none;
-            }
-
-            #banner-bar-large {
-                display: block;
-            }
         }
     }
 }
