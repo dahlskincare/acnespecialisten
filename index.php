@@ -26,8 +26,8 @@
 <body>
       <?php include('includes/header.php'); ?>
       <main>
-            <section>
-                  <div id="banner">
+            <section id="banner">
+                  <div id="banner-background">
                         <div class="container">
                               <h1 class="big l10n">Skin specialists</h1>
                         </div>
@@ -96,6 +96,73 @@
                               </div>
                         </div>
                   </div>
+            </section>
+            <section id="problems">
+                  <div class="container">
+                        <h2 class="big l10n">Problems</h2>
+                        <div class="columns is-mobile">
+                              <div class="column is-one-third">
+                                    <a href="problems/acne.php">
+                                          <div class="problem-card">
+                                                <img src="images/problems/small/acne.jpg"
+                                                     alt="Acne">
+                                                <div class="button text compact black l10n">Acne</div>
+                                          </div>
+                                    </a>
+                              </div>
+                              <div class="column is-one-third">
+                                    <a href="problems/acne-scars.php">
+                                          <div class="problem-card">
+                                                <img src="images/problems/small/acne-scars.jpg"
+                                                     alt="Acne scars">
+                                                <div class="button text compact black l10n">Acne scars</div>
+                                          </div>
+                                    </a>
+                              </div>
+                              <div class="column is-one-third">
+                                    <a href="problems/rosacea.php">
+                                          <div class="problem-card">
+                                                <img src="images/problems/small/rosacea.jpg"
+                                                     alt="Rosacea">
+                                                <div class="button text compact black l10n">Rosacea</div>
+                                          </div>
+                                    </a>
+                              </div>
+                        </div>
+                        <div class="columns is-mobile">
+                              <div class="column is-one-third">
+                                    <a href="problems/pigmentation.php">
+                                          <div class="problem-card">
+                                                <img src="images/problems/small/pigmentation.jpg"
+                                                     alt="Pigmentation">
+                                                <div class="button text compact black l10n">Pigmentation</div>
+                                          </div>
+                                    </a>
+                              </div>
+                              <div class="column is-one-third">
+                                    <a href="problems/large-pores.php">
+                                          <div class="problem-card">
+                                                <img src="images/problems/small/large-pores.jpg"
+                                                     alt="Large pores">
+                                                <div class="button text compact black l10n">Large pores</div>
+                                          </div>
+                                    </a>
+                              </div>
+                              <div class="column is-one-third">
+                                    <a href="problems/mature-skin.php">
+                                          <div class="problem-card">
+                                                <img src="images/problems/small/mature-skin.jpg"
+                                                     alt="Mature skin">
+                                                <div class="button text compact black l10n">Mature skin</div>
+                                          </div>
+                                    </a>
+                              </div>
+                        </div>
+                        <a href="problems.php"
+                           class="mt-xl button outline expand">
+                              <span class="l10n">View all problems</span>
+                              <?php icon('link-external') ?>
+                        </a>
                   </div>
             </section>
       </main>

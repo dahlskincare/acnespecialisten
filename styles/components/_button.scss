@@ -163,8 +163,6 @@ input[type=submit].white.disabled,
     @include button-background-color($white-500);
 }
 
-
-
 // GREY BUTTON
 button.grey,
 input[type=submit].grey,
@@ -327,6 +325,33 @@ input[type=submit].text.grey.disabled,
     @include button-text-color($dark-25);
 }
 
+/// TEXT BLACK BUTTON
+button.text.black,
+input[type=submit].text.black,
+.button.text.black {
+    background-color: transparent;
+    border-color: transparent;
+    @include button-text-color($black-500);
+}
+
+button.text.black:hover,
+input[type=submit].text.black:hover,
+.button.text.black:hover {
+    @include button-text-color($black-500);
+}
+
+button.text.black:disabled,
+input[type=submit].text.black:disabled,
+.button.text.black:disabled,
+button.text.black.disabled,
+input[type=submit].text.black.disabled,
+.button.text.black.disabled {
+    background-color: transparent;
+    border-color: transparent;
+    @include button-text-color($black-500);
+}
+
+/// ROUND BUTTONS
 .round-large {
     @include spinner-size(24px);
 

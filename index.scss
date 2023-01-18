@@ -1,89 +1,114 @@
 @import "styles/util/sizes";
 @import "styles/util/colors";
+@import "styles/util/mixins";
 
 
-#banner {
-    padding: 190px 0 74px 0;
-    background-image: url("images/banner-mobile.jpg");
-    background-size: cover;
-    background-position: center center;
+section#banner {
+    #banner-background {
+        padding: 190px 0 74px 0;
+        background-image: url("images/banner-mobile.jpg");
+        background-size: cover;
+        background-position: center center;
 
-    h1.big {
-        width: 228px;
-        color: $white-500;
-    }
-}
-
-.banner-bar {
-    background-color: $deep-sea-400;
-    color: white;
-    border-radius: $radius-l;
-
-    #banner-bar-cols {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-
-        .icon-trustpilot {
-            svg {
-                stroke: $white-500;
-                fill: $white-500;
-            }
+        h1.big {
+            width: 228px;
+            color: $white-500;
         }
     }
-}
 
-#banner-bar-small {
-    margin-top: -50px;
-    padding: $xl;
+    .banner-bar {
+        background-color: $deep-sea-400;
+        color: white;
+        border-radius: $radius-l;
 
-    button {
-        width: 100%;
-        box-sizing: border-box;
-    }
-
-    #banner-bar-cols {
-        margin-top: $m;
-
-        .icon-trustpilot {
-            margin-left: $s;
-        }
-    }
-}
-
-#banner-bar-large {
-    display: none;
-    margin-top: -58px;
-    padding: $xxl;
-
-    #banner-bar-cols {
-        .flex-aligner {
+        #banner-bar-cols {
             display: flex;
+            align-items: center;
+            justify-content: space-between;
 
-            .h500 {
-                margin-right: $s;
+            .icon-trustpilot {
+                svg {
+                    stroke: $white-500;
+                    fill: $white-500;
+                }
             }
         }
     }
 
-}
-
-@media screen and (min-width: $desktop) {
     #banner-bar-small {
-        display: none;
+        margin-top: -50px;
+        padding: $xl;
+
+        button {
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        #banner-bar-cols {
+            margin-top: $m;
+
+            .icon-trustpilot {
+                margin-left: $s;
+            }
+        }
     }
 
     #banner-bar-large {
-        display: block;
+        display: none;
+        margin-top: -58px;
+        padding: $xxl;
+
+        #banner-bar-cols {
+            .flex-aligner {
+                display: flex;
+
+                .h500 {
+                    margin-right: $s;
+                }
+            }
+        }
+
+    }
+}
+
+section#problems {
+    margin-top: $xxl;
+
+    .columns {
+        margin-top: $xl;
     }
 
+    .problem-card {
+        background-color: $white-500;
+        @include elevation-low();
+        border: 1px solid $light-200;
+        border-radius: $radius-l;
+        overflow: hidden;
+        text-align: center;
+
+        img {
+            width: 100%;
+        }
+
+        .button {
+            padding: 11px 0 $s 0;
+        }
+    }
 }
 
 @media screen and (min-width: $desktop) {
-    #banner {
-        padding: 258px 0 106px 0;
-        background-image: url("images/banner-desktop.jpg");
+    section#banner {
+        #banner-background {
+            padding: 258px 0 106px 0;
+            background-image: url("images/banner-desktop.jpg");
+
+            #banner-bar-small {
+                display: none;
+            }
+
+            #banner-bar-large {
+                display: block;
+            }
+        }
     }
-
-
 }

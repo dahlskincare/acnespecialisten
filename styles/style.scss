@@ -26,6 +26,63 @@ html {
             @include text-color($deep-sea-500);
         }
 
+        // Margins        
+        .mt-xxs {
+            margin-top: $xxs;
+        }
+
+        .mt-xs {
+            margin-top: $xs;
+        }
+
+        .mt-s {
+            margin-top: $s;
+        }
+
+        .mt-m {
+            margin-top: $m;
+        }
+
+        .mt-l {
+            margin-top: $l;
+        }
+
+        .mt-xl {
+            margin-top: $xl;
+        }
+
+        .mt-xxl {
+            margin-top: $xxl;
+        }
+
+        .mb-xxs {
+            margin-top: $xxs;
+        }
+
+        .mb-xs {
+            margin-bottom: $xs;
+        }
+
+        .mb-s {
+            margin-bottom: $s;
+        }
+
+        .mb-m {
+            margin-bottom: $m;
+        }
+
+        .mb-l {
+            margin-bottom: $l;
+        }
+
+        .mb-xl {
+            margin-bottom: $xl;
+        }
+
+        .mb-xxl {
+            margin-bottom: $xxl;
+        }
+
         /// Elevations 
         .elevation-low {
             @include elevation-low;
@@ -40,11 +97,14 @@ html {
             padding: 0 $m;
         }
 
-        .column {
-            box-sizing: border-box;
-            padding-top: 0 !important;
-            padding-bottom: 0 !important;
+        .columns {
+            margin-bottom: 0 !important;
 
+            .column {
+                box-sizing: border-box;
+                padding-top: 0 !important;
+                padding-bottom: 0 !important;
+            }
         }
 
         /// Flex utility
