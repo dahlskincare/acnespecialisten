@@ -324,6 +324,88 @@
                         </a>
                   </div>
             </section>
+            <section id="results">
+                  <div class="container">
+                        <div class="flex-row align-end justify-space-between">
+                              <h2 class="big l10n">Results</h2>
+                              <a href="results.php"
+                                 class="button compact text is-hidden-mobile">
+                                    <span class="l10n">View all treatment results</span>
+                                    <?php icon('navigate-next') ?>
+                              </a>
+                        </div>
+                  </div>
+            </section>
+            <section id="reviews">
+                  <div class="container">
+                        <div class="flex-row align-end justify-space-between">
+                              <h2 class="big l10n">Reviews</h2>
+                              <a href="reviews.php"
+                                 class="button compact text is-hidden-mobile">
+                                    <span class="l10n">View all reviews</span>
+                                    <?php icon('navigate-next') ?>
+                              </a>
+                        </div>
+                  </div>
+            </section>
+            <section id="services">
+                  <div class="container">
+                        <h2 class="big l10n">Services</h2>
+                  </div>
+            </section>
+            <section id="faq">
+                  <div class="container">
+                        <div class="flex-row align-end justify-space-between">
+                              <h2 class="big l10n">Questions & answers</h2>
+                              <a href="faq.php"
+                                 class="button compact text is-hidden-mobile">
+                                    <span class="l10n">View all questions</span>
+                                    <?php icon('navigate-next') ?>
+                              </a>
+                        </div>
+                  </div>
+            </section>
+            <section id="skin-guide">
+                  <div class="container">
+                        <div class="flex-row align-end justify-space-between">
+                              <h2 class="big l10n">Skin guide</h2>
+                              <a href="skin-guide.php"
+                                 class="button compact text is-hidden-mobile">
+                                    <span class="l10n">View all articles</span>
+                                    <?php icon('navigate-next') ?>
+                              </a>
+                        </div>
+                  </div>
+            </section>
+            <section id="about-us">
+                  <div class="container">
+                        <h2 class="big l10n">About us</h2>
+                  </div>
+            </section>
+            <section id="specialists">
+                  <div class="container">
+                        <div class="flex-row align-end justify-space-between">
+                              <h2 class="big l10n">Our specialists</h2>
+                              <a href="specialists.php"
+                                 class="button compact text is-hidden-mobile">
+                                    <span class="l10n">View all specialists</span>
+                                    <?php icon('navigate-next') ?>
+                              </a>
+                        </div>
+                  </div>
+            </section>
+            <section id="brands">
+                  <div class="container">
+                        <div class="flex-row align-end justify-space-between">
+                              <h2 class="big l10n">Brands we use</h2>
+                              <a href="brands.php"
+                                 class="button compact text is-hidden-mobile">
+                                    <span class="l10n">View all brands</span>
+                                    <?php icon('navigate-next') ?>
+                              </a>
+                        </div>
+                  </div>
+            </section>
       </main>
       <?php include('includes/footer.php'); ?>
 </body>

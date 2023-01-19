@@ -3,6 +3,8 @@
 @import "styles/util/mixins";
 
 
+$section-margin-top: 104px;
+
 section#banner {
     #banner-background {
         padding: 190px 0 74px 0;
@@ -263,7 +265,7 @@ section#our-approach {
     }
 
     @media screen and (min-width: $widescreen) {
-        margin-top: 104px;
+        margin-top: $section-margin-top;
 
         .approach-card {
             padding: $xl3 0;
@@ -283,4 +285,64 @@ section#our-approach {
 
 section#results {
     margin-top: $xl5;
+
+    @media screen and (min-width: $widescreen) {
+        margin-top: $section-margin-top;
+    }
+}
+
+section#reviews {
+    margin-top: $xl5;
+
+    @media screen and (min-width: $widescreen) {
+        margin-top: $section-margin-top;
+    }
+}
+
+section#services {
+    margin-top: $xl5;
+
+    @media screen and (min-width: $widescreen) {
+        margin-top: $section-margin-top;
+    }
+}
+
+section#faq {
+    margin-top: $xl5;
+
+    @media screen and (min-width: $widescreen) {
+        margin-top: $section-margin-top;
+    }
+}
+
+section#skin-guide {
+    margin-top: $xl5;
+
+    @media screen and (min-width: $widescreen) {
+        margin-top: $section-margin-top;
+    }
+}
+
+section#about-us {
+    margin-top: $xl5;
+
+    @media screen and (min-width: $widescreen) {
+        margin-top: $section-margin-top;
+    }
+}
+
+section#specialists {
+    margin-top: $xl5;
+
+    @media screen and (min-width: $widescreen) {
+        margin-top: $section-margin-top;
+    }
+}
+
+section#brands {
+    margin-top: $xl5;
+
+    @media screen and (min-width: $widescreen) {
+        margin-top: $section-margin-top;
+    }
 }
