@@ -280,6 +280,10 @@ input[type=submit].text,
     border-color: transparent;
     @include button-text-color($deep-sea-500);
     @include spinner-background-color($white-500);
+
+    .icon:last-child {
+        margin-left: $xxs;
+    }
 }
 
 button.text:hover,

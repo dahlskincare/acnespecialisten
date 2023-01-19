@@ -56,6 +56,19 @@ html {
             margin-top: $xxl;
         }
 
+        .mt-xl3 {
+            margin-top: $xl3;
+        }
+
+        .mt-xl4 {
+            margin-top: $xl4;
+        }
+
+        .mt-xl5 {
+            margin-top: $xl5;
+
+        }
+
         .mb-xxs {
             margin-top: $xxs;
         }
@@ -82,6 +95,18 @@ html {
 
         .mb-xxl {
             margin-bottom: $xxl;
+        }
+
+        .mb-xl3 {
+            margin-top: $xl3;
+        }
+
+        .mb-xl4 {
+            margin-top: $xl4;
+        }
+
+        .mb-xl5 {
+            margin-top: $xl5;
         }
 
         /// Elevations 
@@ -118,6 +143,10 @@ html {
             display: flex;
             flex-direction: column;
             align-items: center;
+        }
+
+        .align-end {
+            align-items: flex-end;
         }
 
         .justify-end {

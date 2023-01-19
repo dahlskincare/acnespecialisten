@@ -95,7 +95,7 @@
                   </div>
             </section>
             <section id="problems">
-                  <div class="is-hidden-widescreen"
+                  <div class="is-hidden-desktop"
                        id="problems-small">
                         <div class="container">
                               <h2 class="big l10n">Problems</h2>
@@ -238,10 +238,84 @@
             </section>
             <section id="our-approach">
                   <div class="container">
-                        <h2 class="big l10n">Our approach</h2>
-                        <div class="columns">
+                        <div class="flex-row align-end justify-space-between">
+                              <h2 class="big l10n">Our approach</h2>
+                              <a href="our-approach.php"
+                                 class="button compact text is-hidden-mobile">
+                                    <span class="l10n">Read more about or approach</span>
+                                    <?php icon('navigate-next') ?>
+                              </a>
+                        </div>
+                        <div class="columns is-gapless">
                               <div class="column">
-
+                                    <div class="approach-card">
+                                          <div class="card-title">
+                                                <div class="circle">01</div>
+                                                <h3 class="h300 l10n">Define</h3>
+                                          </div>
+                                          <div class="p200 l10n">
+                                                In a personal meeting with a skin specialist, your skin type is examined
+                                                and identified. We take pre-photos of your skin, recommend.
+                                          </div>
+                                          <a href="https://www.dahlskincare.com/skin-consultation"
+                                             target="_blank"
+                                             class="button compact text l10n is-hidden-mobile">
+                                                Get a free consultation
+                                          </a>
+                                          <a href="https://www.dahlskincare.com/skin-consultation"
+                                             class="button grey expand l10n is-hidden-tablet">
+                                                Get a free consultation
+                                          </a>
+                                    </div>
+                              </div>
+                              <div class="column">
+                                    <div class="approach-card">
+                                          <div class="card-title">
+                                                <div class="circle">02</div>
+                                                <h3 class="h300 l10n">Treat</h3>
+                                          </div>
+                                          <div class="p200 l10n">
+                                                In a personal meeting with a skin specialist, your skin type is examined
+                                                and identified. We take pre-photos of your skin, recommend.
+                                          </div>
+                                          <a href="treatments.php"
+                                             class="button compact text l10n is-hidden-mobile">View treatments</a>
+                                          <a href="treatments.php"
+                                             class="button grey expand l10n is-hidden-tablet">View treatments</a>
+                                    </div>
+                              </div>
+                              <div class="column">
+                                    <div class="approach-card">
+                                          <div class="card-title">
+                                                <div class="circle">03</div>
+                                                <h3 class="h300 l10n">Prevent</h3>
+                                          </div>
+                                          <div class="p200 l10n">
+                                                In a personal meeting with a skin specialist, your skin type is examined
+                                                and identified. We take pre-photos of your skin, recommend.
+                                          </div>
+                                          <a href="https://www.dahlskincare.com"
+                                             target="_blank"
+                                             class="button compact text l10n is-hidden-mobile">View products</a>
+                                          <a href="products.php"
+                                             class="button grey expand l10n is-hidden-tablet">View products</a>
+                                    </div>
+                              </div>
+                              <div class="column">
+                                    <div class="approach-card">
+                                          <div class="card-title">
+                                                <div class="circle">04</div>
+                                                <h3 class="h300 l10n">Repair</h3>
+                                          </div>
+                                          <div class="p200 l10n">
+                                                In a personal meeting with a skin specialist, your skin type is examined
+                                                and identified. We take pre-photos of your skin, recommend.
+                                          </div>
+                                          <a href="treatments.php"
+                                             class="button compact text l10n is-hidden-mobile">View treatments</a>
+                                          <a href="treatments.php"
+                                             class="button grey expand l10n is-hidden-tablet">View treatments</a>
+                                    </div>
                               </div>
                         </div>
                   </div>
