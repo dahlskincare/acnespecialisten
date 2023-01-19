@@ -318,8 +318,11 @@
                                     </div>
                               </div>
                         </div>
+                        <a href="our-approach.php"
+                           class="button outline expand mt-xl l10n is-hidden-desktop">
+                              Read more about our approach
+                        </a>
                   </div>
-
             </section>
       </main>
       <?php include('includes/footer.php'); ?>
