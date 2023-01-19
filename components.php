@@ -58,6 +58,8 @@
     <hr>
     <h2>Regular</h2>
     <div class="section">
+        <div class="button b300">XL</div>
+        <div class="button b300 small-text">XL (small-text)</div>
         <div class="button b200">Large</div>
         <div class="button">Normal</div>
         <div class="button b50">Small</div>
@@ -78,6 +80,8 @@
     </div>
     <h2>White</h2>
     <div class="section green">
+        <div class="button white b300">XL</div>
+        <div class="button white b300 small-text">XL (small-text)</div>
         <div class="button white b200">
             <span>Large</span>
         </div>
@@ -102,6 +106,8 @@
     </div>
     <h2>Grey</h2>
     <div class="section">
+        <div class="button grey b300">XL</div>
+        <div class="button grey b300 small-text">XL (small-text)</div>
         <div class="button grey b200">
             <span>Large</span>
         </div>
@@ -127,6 +133,8 @@
 
     <h2>Outline Green</h2>
     <div class="section">
+        <div class="button outline b300">XL</div>
+        <div class="button outline b300 small-text">XL (small-text)</div>
         <div class="button outline b200">Large</div>
         <div class="button outline">Normal</div>
         <div class="button outline b50">Small</div>
@@ -145,6 +153,8 @@
     </div>
     <h2>Outline White</h2>
     <div class="section green">
+        <div class="button outline white b300">XL</div>
+        <div class="button outline white b300 small-text">XL (small-text)</div>
         <div class="button outline white b200">Large</div>
         <div class="button outline white">Normal</div>
         <div class="button outline white b50">Small</div>

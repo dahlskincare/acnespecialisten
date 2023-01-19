@@ -136,6 +136,20 @@ a,
 }
 
 
+button.b300,
+input[type=submit].b300,
+.button.b300,
+.b300 {
+    @include h200;
+}
+
+button.b300.small-text,
+input[type=submit].b300.small-text,
+.button.b300.small-text,
+.b300.small-text {
+    @include h100;
+}
+
 button.b200,
 input[type=submit].b200,
 .button.b200,

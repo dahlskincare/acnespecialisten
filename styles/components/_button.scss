@@ -5,17 +5,30 @@
 @import "../util/mixins";
 @import "../util/sizes";
 
+button.b300,
+input[type=submit].b300,
+.button.b300 {
+    padding: 17px 15px;
+    min-width: 64px;
+}
+
+button.b300.small-text,
+input[type=submit].b300.small-text,
+.button.b300.small-text {
+    padding: 18.5px 15px;
+}
+
 button.b200,
 input[type=submit].b200,
 .button.b200 {
-    padding: 13px 16px;
+    padding: 13px 15px;
     min-width: 64px;
 }
 
 button.b50,
 input[type=submit].b50,
 .button.b50 {
-    padding: 6.5px 16px;
+    padding: 6.5px 11px;
     min-width: 48px;
 }
 
@@ -43,7 +56,7 @@ input[type=submit],
     color: $white-500;
     cursor: pointer;
     border-radius: $radius-s;
-    padding: 10.5px 16px;
+    padding: 10.5px 15px;
     min-width: 64px;
     display: inline-flex;
     align-items: center;
@@ -80,6 +93,8 @@ input[type=submit].compact,
     padding: 0;
     min-width: 0;
 }
+
+
 
 
 
