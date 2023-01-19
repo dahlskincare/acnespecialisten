@@ -106,7 +106,10 @@
     </div>
     <h2>Grey</h2>
     <div class="section">
-        <div class="button grey b300">XL</div>
+        <div class="button grey b300">
+            <?php icon('placeholder') ?>
+            <span>XL</span>
+        </div>
         <div class="button grey b300 small-text">XL (small-text)</div>
         <div class="button grey b200">
             <span>Large</span>
