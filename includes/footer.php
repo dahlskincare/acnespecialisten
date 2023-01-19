@@ -14,8 +14,7 @@ IMPORTANT:
                 <a href="https://dahlskincare.com/skin-consultation"
                    class="button white expand l10n"
                    target="_blank">
-                    <span>Get a free consultation</span>
-                    <?php icon('link-external') ?>
+                    Get a free consultation
                 </a>
             </div>
         </div>
@@ -233,9 +232,8 @@ IMPORTANT:
                 <a href="https://www.dahlskincare.com/skin-consultation"
                    id="consultation-button"
                    target="_blank"
-                   class="button expand">
-                    <span class="l10n">Get a free consultation</span>
-                    <?php icon('link-external') ?>
+                   class="button expand l10n">
+                    Get a free consultation
                 </a>
                 <div id="legends">
                     <div>

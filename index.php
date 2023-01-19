@@ -39,7 +39,6 @@
                                  target="_blank">
                                     <button class="white">
                                           <span class="l10n">Get a free consultation</span>
-                                          <?php icon('link-external') ?>
                                     </button>
                               </a>
                               <div id="banner-bar-cols">
@@ -87,11 +86,9 @@
                                           </div>
                                     </div>
                                     <a href="https://dahlskincare.com/skin-consultation"
-                                       target="_blank">
-                                          <button class="white">
-                                                <span class="l10n">Get a free consultation</span>
-                                                <?php icon('link-external') ?>
-                                          </button>
+                                       target="_blank"
+                                       class="button white l10n">
+                                          Get a free consultation
                                     </a>
                               </div>
                         </div>
@@ -173,10 +170,7 @@
                                     </div>
                               </div>
                               <a href="problems.php"
-                                 class="mt-xl button outline expand">
-                                    <span class="l10n">View all problems</span>
-                                    <?php icon('link-external') ?>
-                              </a>
+                                 class="mt-xl button outline expand l10n">View all problems</a>
                         </div>
                   </div>
                   <div class="is-hidden-touch"
@@ -189,7 +183,7 @@
                                        class="problem-card">
                                           <div class="button white text black">
                                                 <span class="l10n">Acne</span>
-                                                <?php icon('link-external') ?>
+                                                <?php icon('navigate-next') ?>
                                           </div>
                                           <div class="background-image image-acne"></div>
                                     </a>
@@ -197,7 +191,7 @@
                                        class="problem-card">
                                           <div class="button white text black">
                                                 <span class="l10n">Acne scars</span>
-                                                <?php icon('link-external') ?>
+                                                <?php icon('navigate-next') ?>
                                           </div>
                                           <div class="background-image image-acne-scars"></div>
                                     </a>
@@ -205,7 +199,7 @@
                                        class="problem-card">
                                           <div class="button white text black">
                                                 <span class="l10n">Rosacea</span>
-                                                <?php icon('link-external') ?>
+                                                <?php icon('navigate-next') ?>
                                           </div>
                                           <div class="background-image image-rosacea"></div>
                                     </a>
@@ -213,7 +207,7 @@
                                        class="problem-card">
                                           <div class="button white text black">
                                                 <span class="l10n">Pigmentation</span>
-                                                <?php icon('link-external') ?>
+                                                <?php icon('navigate-next') ?>
                                           </div>
                                           <div class="background-image image-pigmentation"></div>
                                     </a>
@@ -221,7 +215,7 @@
                                        class="problem-card">
                                           <div class="button white text black">
                                                 <span class="l10n">Large pores</span>
-                                                <?php icon('link-external') ?>
+                                                <?php icon('navigate-next') ?>
                                           </div>
                                           <div class="background-image image-large-pores"></div>
                                     </a>
@@ -230,7 +224,7 @@
                                        id="problem-card-other">
                                           <div class="button white text black">
                                                 <span class="l10n">View all problems</span>
-                                                <?php icon('link-external') ?>
+                                                <?php icon('navigate-next') ?>
                                           </div>
                                           <div class="background-image image-other">
                                                 <div>+17</div>
@@ -241,6 +235,17 @@
                               </div>
                         </div>
                   </div>
+            </section>
+            <section id="our-approach">
+                  <div class="container">
+                        <h2 class="big l10n">Our approach</h2>
+                        <div class="columns">
+                              <div class="column">
+
+                              </div>
+                        </div>
+                  </div>
+
             </section>
       </main>
       <?php include('includes/footer.php'); ?>
