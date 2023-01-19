@@ -68,6 +68,14 @@ section#banner {
         }
 
     }
+
+    @media screen and (min-width: $desktop) {
+        #banner-background {
+            padding: 258px 0 106px 0;
+            background-image: url("images/banner-desktop.jpg");
+        }
+
+    }
 }
 
 div#problems-small {
@@ -272,11 +280,7 @@ section#our-approach {
     }
 }
 
-@media screen and (min-width: $desktop) {
-    section#banner {
-        #banner-background {
-            padding: 258px 0 106px 0;
-            background-image: url("images/banner-desktop.jpg");
-        }
-    }
+
+section#results {
+    margin-top: $xl5;
 }
