@@ -34,10 +34,10 @@ html {
 
 
             #header-large {
-                display: none;
                 align-items: center;
                 justify-content: space-between;
                 height: 72px;
+                display: flex;
 
                 div#left {
                     display: flex;
@@ -73,16 +73,6 @@ html {
                         cursor: pointer;
                     }
 
-                }
-            }
-
-            @media screen and (min-width: $widescreen) {
-                #header-small {
-                    display: none;
-                }
-
-                #header-large {
-                    display: flex;
                 }
             }
         }
@@ -230,7 +220,6 @@ html {
             }
 
             #footer-large {
-                display: none;
                 margin-top: 72px;
 
                 .footer-large-banner {
@@ -332,16 +321,6 @@ html {
                         }
                     }
 
-                }
-            }
-
-            @media screen and (min-width: $widescreen) {
-                #footer-small {
-                    display: none;
-                }
-
-                #footer-large {
-                    display: block;
                 }
             }
         }

@@ -5,7 +5,8 @@ IMPORTANT:
 
 <footer>
     <!-- Mobile footer -->
-    <div id="footer-small">
+    <div class="is-hidden-widescreen"
+         id="footer-small">
         <div id="footer-consultation-banner">
             <div class="container">
                 <h2 class="big l10n">Ready to get started?</h2>
@@ -256,7 +257,8 @@ IMPORTANT:
     </div>
 
     <!-- Desktop footer -->
-    <div id="footer-large">
+    <div class="is-hidden-touch is-hidden-desktop-only"
+         id="footer-large">
         <div class="container">
             <div class="columns">
                 <div class="column">

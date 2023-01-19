@@ -4,7 +4,8 @@ IMPORTANT:
 -->
 <header>
     <div class="container">
-        <div id="header-small">
+        <div class="is-hidden-desktop"
+             id="header-small">
             <?php icon("search") ?>
             <a href="/">
                 <img id="logo"
@@ -15,7 +16,8 @@ IMPORTANT:
             </a>
             <?php icon("bars") ?>
         </div>
-        <div id="header-large">
+        <div class="is-hidden-touch"
+             id="header-large">
             <div id="left">
                 <a href="/">
                     <img id="logo"
