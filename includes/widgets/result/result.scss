@@ -1,0 +1,12 @@
+div.result-widget {
+    position: relative;
+    height: 416px;
+
+    .before,
+    .after {
+        position: absolute;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+}
