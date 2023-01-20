@@ -20,7 +20,7 @@ onUp = () => {
 
 onMove = (event) => {
     if (Result.anchor !== null) {
-        event.stopPropagation();
+        event.preventDefault();
         let clientX = event.touches == undefined ? event.clientX : event.touches[0].clientX;
         let left = Math.min(Result.bounds.width, Math.max(0, -(Result.bounds.left - clientX)));
         Result.divider.style.left = `${left}px`;
@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let anchor = widget.querySelector('.drag-anchor');
         anchor.addEventListener('mousedown', onDown, { passive: true });
         anchor.addEventListener('touchstart', onDown, { passive: true });
-        widget.addEventListener('mousemove', onMove, { passive: true });
-        widget.addEventListener('touchmove', onMove, { passive: true });
+        widget.addEventListener('mousemove', onMove, { passive: false });
+        widget.addEventListener('touchmove', onMove, { passive: false });
     }
 }, false);
