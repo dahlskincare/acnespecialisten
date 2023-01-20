@@ -1,0 +1,18 @@
+.carousel {
+    display: flex;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+
+    .slide {
+        //box-sizing: border-box;
+        //width: 100%;
+        flex: 1 0 100%;
+    }
+}
+
+.carousel::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}

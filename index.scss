@@ -3,7 +3,13 @@
 @import "styles/util/mixins";
 
 
-$section-margin-top: 104px;
+.slider-wrapper {
+    margin: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+$section-margin-top: $xl + $xl5;
 
 section#banner {
     #banner-background {
@@ -286,13 +292,33 @@ section#our-approach {
 section#results {
     margin-top: $xl5;
 
+    .carousel {
+        padding-bottom: $xl;
+    }
+
+    #result-step-buttons {
+        button {
+            margin-left: $s;
+        }
+    }
+
+    .result-widget {
+        margin-top: $l;
+    }
+
+    @media screen and (min-width: $tablet) {
+        .result-widget {
+            margin-top: $xl;
+        }
+    }
+
     @media screen and (min-width: $widescreen) {
         margin-top: $section-margin-top;
     }
 }
 
 section#reviews {
-    margin-top: $xl5;
+    margin-top: $xl5 - $xl; // -xl because results has padding-bottom $xl
 
     @media screen and (min-width: $widescreen) {
         margin-top: $section-margin-top;

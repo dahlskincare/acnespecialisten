@@ -14,6 +14,16 @@
             content="Acne, specialisten"
             class="l10n">
 
+      <!-- Result widget (before and after images) -->
+      <link rel="stylesheet"
+            href="includes/widgets/result/result.css" />
+      <script src="includes/widgets/result/result.js"></script>
+
+      <!-- Carousel used in sections 'Results' and 'Reviews' -->
+      <link rel="stylesheet"
+            href="util/carousel/carousel.css" />
+      <script src="util/carousel/carousel.js"></script>
+
       <?php include('includes/head.php'); ?>
 
       <link rel="stylesheet"
@@ -325,14 +335,91 @@
                   </div>
             </section>
             <section id="results">
-                  <div class="container">
+                  <div class="is-hidden-tablet">
+                        <div class="container">
+                              <div class="flex-row justify-space-between">
+                                    <h2 class="big l10n">Results</h2>
+                                    <div class="flex-row"
+                                         id="result-step-buttons">
+                                          <button class="round-large grey"
+                                                  onclick="Carousel.prev('#results-carousel')">
+                                                <?php icon('arrow-left') ?>
+                                          </button>
+                                          <button class="round-large grey"
+                                                  onclick="Carousel.next('#results-carousel')">
+                                                <?php icon('arrow-right') ?>
+                                          </button>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="carousel"
+                             id="results-carousel">
+                              <div class="slide">
+                                    <div class="container l10n">
+                                          <?php
+                                          $before = 'images/results/acne-before.webp';
+                                          $after = 'images/results/acne-after.webp';
+                                          $label = 'After two months of <a href="treatments/acne.php">acne treatment</a>';
+                                          include('includes/widgets/result/result.php');
+                                          ?>
+                                    </div>
+                              </div>
+                              <div class="slide">
+                                    <div class="container l10n">
+                                          <?php
+                                          $before = 'images/results/rosacea-before.webp';
+                                          $after = 'images/results/rosacea-after.webp';
+                                          $label = 'After two months of <a href="treatments/rosacea.php">rosacea treatment</a>';
+                                          include('includes/widgets/result/result.php');
+                                          ?>
+                                    </div>
+                              </div>
+                              <div class="slide">
+                                    <div class="container l10n">
+                                          <?php
+                                          $before = 'images/results/comedones-before.webp';
+                                          $after = 'images/results/comedones-after.webp';
+                                          $label = 'After two months of <a href="treatments/comedones.php">comedones treatment</a>';
+                                          include('includes/widgets/result/result.php');
+                                          ?>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="container is-hidden-mobile">
                         <div class="flex-row align-end justify-space-between">
                               <h2 class="big l10n">Results</h2>
                               <a href="results.php"
-                                 class="button compact text is-hidden-mobile">
+                                 class="button compact text">
                                     <span class="l10n">View all treatment results</span>
                                     <?php icon('navigate-next') ?>
                               </a>
+                        </div>
+                        <div class="columns is-3 is-variable">
+                              <div class="column l10n">
+                                    <?php
+                                    $before = 'images/results/acne-before.webp';
+                                    $after = 'images/results/acne-after.webp';
+                                    $label = 'After two months of <a href="treatments/acne.php">acne treatment</a>';
+                                    include('includes/widgets/result/result.php');
+                                    ?>
+                              </div>
+                              <div class="column l10n">
+                                    <?php
+                                    $before = 'images/results/rosacea-before.webp';
+                                    $after = 'images/results/rosacea-after.webp';
+                                    $label = 'After two months of <a href="treatments/rosacea.php">rosacea treatment</a>';
+                                    include('includes/widgets/result/result.php');
+                                    ?>
+                              </div>
+                              <div class="column l10n">
+                                    <?php
+                                    $before = 'images/results/comedones-before.webp';
+                                    $after = 'images/results/comedones-after.webp';
+                                    $label = 'After two months of <a href="treatments/comedones.php">comedones treatment</a>';
+                                    include('includes/widgets/result/result.php');
+                                    ?>
+                              </div>
                         </div>
                   </div>
             </section>
