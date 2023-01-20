@@ -1,7 +1,5 @@
 <div class="result-widget">
-    <div class="images-container"
-         ontouchmove="Result.onMouseMove(event)"
-         onmousemove="Result.onMouseMove(event)">
+    <div class="images-container">
         <div class="before"
              style="background-image: url('<?php echo $before ?>')"></div>
         <div class="after"
