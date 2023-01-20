@@ -5,9 +5,7 @@
         <div class="after"
              style="background-image: url('<?php echo $after ?>')"></div>
         <div class="divider">
-            <div class="drag-anchor"
-                 ontouchstart="Result.onAnchorMouseDown(this)"
-                 onmousedown="Result.onAnchorMouseDown(this)">
+            <div class="drag-anchor">
                 <div class="arrow-left"></div>
                 <div class="arrow-right"></div>
             </div>
