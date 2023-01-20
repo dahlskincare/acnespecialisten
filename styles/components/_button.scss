@@ -368,13 +368,14 @@ input[type=submit].text.black.disabled,
     min-width: 16px;
     max-width: 16px;
     overflow: hidden;
-    padding: 16px;
+    padding: 15px;
     width: 16px;
     height: 16px;
     display: inline-block;
 
     .icon {
         height: 16px;
+        vertical-align: baseline;
     }
 
     .icon:first-child,
@@ -396,13 +397,14 @@ input[type=submit].text.black.disabled,
     min-width: 16px;
     max-width: 16px;
     overflow: hidden;
-    padding: 12px;
+    padding: 11px;
     width: 16px;
     height: 16px;
     display: inline-block;
 
     .icon {
         height: 16px;
+        vertical-align: baseline;
     }
 
     .icon:first-child,
@@ -418,13 +420,14 @@ input[type=submit].text.black.disabled,
     min-width: 16px;
     max-width: 16px;
     overflow: hidden;
-    padding: 8px;
+    padding: 7px;
     width: 16px;
     height: 16px;
     display: inline-block;
 
     .icon {
         height: 16px;
+        vertical-align: baseline;
     }
 
     .icon:first-child,
