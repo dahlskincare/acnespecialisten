@@ -14,6 +14,10 @@
             content="Acne, specialisten"
             class="l10n">
 
+      <!-- Accordion widget -->
+      <link rel="stylesheet"
+            href="includes/widgets/accordion/accordion.css" />
+
       <!-- Result widget (before and after images) -->
       <link rel="stylesheet"
             href="includes/widgets/result/result.css" />
@@ -109,145 +113,21 @@
                   </div>
             </section>
             <section id="problems">
-                  <div class="is-hidden-desktop"
-                       id="problems-small">
-                        <div class="container">
-                              <h2 class="big l10n">Problems</h2>
-                              <div class="columns is-mobile">
-                                    <div class="column is-one-third">
-                                          <a href="problems/acne.php">
-                                                <div class="problem-card">
-                                                      <img src="images/problems/small/acne.jpg"
-                                                           width="114"
-                                                           height="140"
-                                                           alt="Acne">
-                                                      <div class="button text compact black l10n">Acne</div>
-                                                </div>
-                                          </a>
-                                    </div>
-                                    <div class="column is-one-third">
-                                          <a href="problems/acne-scars.php">
-                                                <div class="problem-card">
-                                                      <img src="images/problems/small/acne-scars.jpg"
-                                                           width="114"
-                                                           height="140"
-                                                           alt="Acne scars">
-                                                      <div class="button text compact black l10n">Acne scars</div>
-                                                </div>
-                                          </a>
-                                    </div>
-                                    <div class="column is-one-third">
-                                          <a href="problems/rosacea.php">
-                                                <div class="problem-card">
-                                                      <img src="images/problems/small/rosacea.jpg"
-                                                           width="114"
-                                                           height="140"
-                                                           alt="Rosacea">
-                                                      <div class="button text compact black l10n">Rosacea</div>
-                                                </div>
-                                          </a>
-                                    </div>
-                              </div>
-                              <div class="columns is-mobile">
-                                    <div class="column is-one-third">
-                                          <a href="problems/pigmentation.php">
-                                                <div class="problem-card">
-                                                      <img src="images/problems/small/pigmentation.jpg"
-                                                           width="114"
-                                                           height="140"
-                                                           alt="Pigmentation">
-                                                      <div class="button text compact black l10n">Pigmentation</div>
-                                                </div>
-                                          </a>
-                                    </div>
-                                    <div class="column is-one-third">
-                                          <a href="problems/large-pores.php">
-                                                <div class="problem-card">
-                                                      <img src="images/problems/small/large-pores.jpg"
-                                                           width="114"
-                                                           height="140"
-                                                           alt="Large pores">
-                                                      <div class="button text compact black l10n">Large pores</div>
-                                                </div>
-                                          </a>
-                                    </div>
-                                    <div class="column is-one-third">
-                                          <a href="problems/mature-skin.php">
-                                                <div class="problem-card">
-                                                      <img src="images/problems/small/mature-skin.jpg"
-                                                           width="114"
-                                                           height="140"
-                                                           alt="Mature skin">
-                                                      <div class="button text compact black l10n">Mature skin</div>
-                                                </div>
-                                          </a>
-                                    </div>
-                              </div>
-                              <a href="problems.php"
-                                 class="mt-xl button outline expand l10n">View all problems</a>
-                        </div>
-                  </div>
-                  <div class="is-hidden-touch"
-                       id="problems-large">
-                        <div class="container">
-                              <h2 class="big l10n">Problems</h2>
-                              <div class="mt-xl"
-                                   id="problem-cards">
-                                    <a href="problems/acne.php"
-                                       class="problem-card">
-                                          <div class="button white text black">
-                                                <span class="l10n">Acne</span>
-                                                <?php icon('navigate-next') ?>
-                                          </div>
-                                          <div class="background-image image-acne"></div>
-                                    </a>
-                                    <a href="problems/acne-scars.php"
-                                       class="problem-card">
-                                          <div class="button white text black">
-                                                <span class="l10n">Acne scars</span>
-                                                <?php icon('navigate-next') ?>
-                                          </div>
-                                          <div class="background-image image-acne-scars"></div>
-                                    </a>
-                                    <a href="problems/rosacea.php"
-                                       class="problem-card">
-                                          <div class="button white text black">
-                                                <span class="l10n">Rosacea</span>
-                                                <?php icon('navigate-next') ?>
-                                          </div>
-                                          <div class="background-image image-rosacea"></div>
-                                    </a>
-                                    <a href="problems/pigmentation.php"
-                                       class="problem-card">
-                                          <div class="button white text black">
-                                                <span class="l10n">Pigmentation</span>
-                                                <?php icon('navigate-next') ?>
-                                          </div>
-                                          <div class="background-image image-pigmentation"></div>
-                                    </a>
-                                    <a href="problems/large-pores.php"
-                                       class="problem-card">
-                                          <div class="button white text black">
-                                                <span class="l10n">Large pores</span>
-                                                <?php icon('navigate-next') ?>
-                                          </div>
-                                          <div class="background-image image-large-pores"></div>
-                                    </a>
-                                    <a href="problems.php"
-                                       class="problem-card"
-                                       id="problem-card-other">
-                                          <div class="button white text black">
-                                                <span class="l10n">View all problems</span>
-                                                <?php icon('navigate-next') ?>
-                                          </div>
-                                          <div class="background-image image-other">
-                                                <div>+17</div>
-                                          </div>
-                                    </a>
-                                    <div class="image-frame image-frame1"></div>
-                                    <div class="image-frame image-frame2"></div>
-                              </div>
-                        </div>
+                  <div class="container">
+                        <h2 class="big l10n">Problems</h2>
+                        <?php
+                        include('includes/widgets/accordion/accordion_item.php');
+                        $accordion = array();
+                        $accordion[] = new AccordionItem('Acne', 'images/problems/small/acne.jpg', 'images/problems/large/acne.jpg', 'problems/acne.php', true, true);
+                        $accordion[] = new AccordionItem('Acne scars', 'images/problems/small/acne-scars.jpg', 'images/problems/large/acne-scars.jpg', 'problems/acne-scars.php', true, true);
+                        $accordion[] = new AccordionItem('Rosacea', 'images/problems/small/rosacea.jpg', 'images/problems/large/rosacea.jpg', 'problems/rosacea.php', true, true);
+                        $accordion[] = new AccordionItem('Pigmentation', 'images/problems/small/pigmentation.jpg', 'images/problems/large/pigmentation.jpg', 'problems/pigmentation.php', true, true);
+                        $accordion[] = new AccordionItem('Large pores', 'images/problems/small/large-pores.jpg', 'images/problems/large/large-pores.jpg', 'problems/large-pores.php', true, true);
+                        $accordion[] = new AccordionItem('Mature skin', 'images/problems/small/mature-skin.jpg', 'images/problems/large/mature-skin.jpg', 'problems/mature-skin.php', false, true);
+                        $accordion[] = new AccordionItem('View all problems', 'images/problems/small/other.jpg', 'images/problems/large/other.jpg', 'problems.php', true, true);
+                        $more_count = 17;
+                        include('includes/widgets/accordion/accordion.php')
+                              ?>
                   </div>
             </section>
             <section id="our-approach">

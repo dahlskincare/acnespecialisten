@@ -1,0 +1,120 @@
+@import '../../../styles/util/colors';
+@import '../../../styles/util/sizes';
+@import '../../../styles/util/mixins';
+
+
+div.accordion-widget {
+    div#accordion-small {
+        .accordion-card {
+            margin-top: $xl;
+            background-color: $white-500;
+            @include elevation-low();
+            border: 1px solid $light-200;
+            border-radius: $radius-l;
+            overflow: hidden;
+            text-align: center;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+
+            .button {
+                padding: 11px 0 $s 0;
+            }
+        }
+    }
+
+    div#accordion-large {
+        $image-height: 348px;
+
+        #accordion-cards {
+            display: flex;
+            justify-content: flex-start;
+            position: relative;
+
+            .accordion-card {
+                text-align: center;
+                flex: 1;
+                transition: flex 300ms cubic-bezier(0.58, 0, 0.29, 1);
+                padding-right: $xs;
+                z-index: 1;
+
+                .button {
+                    white-space: nowrap;
+                }
+
+                .background-image {
+                    height: $image-height;
+                    border-radius: $radius-l;
+                    background-position: center center;
+                    background-size: cover;
+                }
+            }
+
+            .accordion-card-last {
+                padding-right: 0;
+
+                div.background-image {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 38px;
+                    line-height: 57px;
+                    color: white;
+                    letter-spacing: -0.03em;
+                    font-weight: 600;
+                }
+
+            }
+
+            .image-frame {
+                position: absolute;
+                height: $image-height;
+                background-size: cover;
+                bottom: 0;
+                width: 120px;
+                transition: transform 300ms cubic-bezier(0.58, 0, 0.29, 1);
+                border-radius: $radius-l;
+            }
+
+            .image-frame1 {
+                transform: perspective(4cm) translate3d(32px, 0, -20px);
+                opacity: 0.25;
+                right: 0;
+            }
+
+            .image-frame2 {
+                transform: perspective(4cm) translate3d(16px, 0, -10px);
+                opacity: 0.5;
+                right: 0;
+            }
+
+            .accordion-card:hover {
+                .button {
+                    @include button-text-color($deep-sea-400);
+                }
+
+                flex: 2;
+            }
+
+            .accordion-card:hover~.image-frame1 {
+                transform: perspective(4cm) translate3d(24px, 0, -20px);
+            }
+
+            .accordion-card:hover~.image-frame2 {
+                transform: perspective(4cm) translate3d(12px, 0, -10px);
+            }
+
+            .accordion-card-last:hover~.image-frame1 {
+                transform: perspective(4cm) translate3d(48px, 0, -20px);
+            }
+
+            .accordion-card-last:hover~.image-frame2 {
+                transform: perspective(4cm) translate3d(24px, 0, -10px);
+            }
+
+
+        }
+    }
+}

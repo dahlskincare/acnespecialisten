@@ -1,0 +1,25 @@
+<?php
+class AccordionItem
+{
+    public function __construct($label, $image_small, $image_large, $url, $show_on_large, $show_on_small)
+    {
+        $this->label = $label;
+        $this->image_small = $image_small;
+        $this->image_large = $image_large;
+        $this->url = $url;
+        $this->show_on_large = $show_on_large;
+        $this->show_on_small = $show_on_small;
+    }
+
+    public $label;
+    public $image_small;
+    public $image_large;
+    public $url;
+    public $show_on_large;
+    public $show_on_small;
+
+
+}
+
+
+?>
