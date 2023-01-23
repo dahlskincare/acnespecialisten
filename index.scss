@@ -2,6 +2,14 @@
 @import "styles/util/colors";
 @import "styles/util/mixins";
 
+.step-buttons {
+    font-size: 0;
+
+    button {
+        margin-left: $s;
+    }
+}
+
 
 .slider-wrapper {
     margin: 1rem;
@@ -294,12 +302,6 @@ section#results {
 
     .carousel {
         padding-bottom: $xl;
-    }
-
-    #result-step-buttons {
-        button {
-            margin-left: $s;
-        }
     }
 
     .result-widget {

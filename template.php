@@ -23,6 +23,11 @@
       <script type="javascript"
               src="includes/widgets/result/result.js"></script>
       -->
+      <!-- Reviews widget -->
+      <!--
+      <link rel="stylesheet"
+            href="includes/widgets/reviews/reviews.css" />      
+      -->
 
       <!-- Optional: Set canonical version of this page (https://support.google.com/webmasters/answer/10347851) -->
 

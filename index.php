@@ -19,6 +19,10 @@
             href="includes/widgets/result/result.css" />
       <script src="includes/widgets/result/result.js"></script>
 
+      <!-- Reviews widget -->
+      <link rel="stylesheet"
+            href="includes/widgets/reviews/reviews.css" />
+
       <!-- Carousel used in sections 'Results' and 'Reviews' -->
       <link rel="stylesheet"
             href="util/carousel/carousel.css" />
@@ -339,8 +343,7 @@
                         <div class="container">
                               <div class="flex-row justify-space-between">
                                     <h2 class="big l10n">Results</h2>
-                                    <div class="flex-row"
-                                         id="result-step-buttons">
+                                    <div class="step-buttons">
                                           <button class="round-large grey"
                                                   onclick="Carousel.prev('#results-carousel')">
                                                 <?php icon('arrow-left') ?>
@@ -427,12 +430,26 @@
                   <div class="container">
                         <div class="flex-row align-end justify-space-between">
                               <h2 class="big l10n">Reviews</h2>
-                              <a href="reviews.php"
-                                 class="button compact text is-hidden-mobile">
-                                    <span class="l10n">View all reviews</span>
-                                    <?php icon('navigate-next') ?>
-                              </a>
+                              <div class="flex-row">
+                                    <div class="step-buttons">
+                                          <button class="round-large grey"
+                                                  onclick="Carousel.prev('#reviews-carousel')">
+                                                <?php icon('arrow-left') ?>
+                                          </button>
+                                          <button class="round-large grey"
+                                                  onclick="Carousel.next('#reviews-carousel')">
+                                                <?php icon('arrow-right') ?>
+                                          </button>
+                                    </div>
+                                    <a href="reviews.php"
+                                       class="ml-l button compact text is-hidden-mobile">
+                                          <span class="l10n">View all reviews</span>
+                                          <?php icon('navigate-next') ?>
+                                    </a>
+                              </div>
+
                         </div>
+                        <?php include('includes/widgets/reviews/reviews.php'); ?>
                   </div>
             </section>
             <section id="services">
