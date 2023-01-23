@@ -430,7 +430,7 @@
                   <div class="container">
                         <div class="flex-row align-end justify-space-between">
                               <h2 class="big l10n">Reviews</h2>
-                              <div class="flex-row">
+                              <div class="flex-row is-hidden-mobile">
                                     <div class="step-buttons">
                                           <button class="round-large grey"
                                                   onclick="Carousel.prev('#reviews-carousel')">
@@ -442,7 +442,7 @@
                                           </button>
                                     </div>
                                     <a href="reviews.php"
-                                       class="ml-l button compact text is-hidden-mobile">
+                                       class="ml-l button compact text">
                                           <span class="l10n">View all reviews</span>
                                           <?php icon('navigate-next') ?>
                                     </a>
@@ -450,6 +450,8 @@
 
                         </div>
                         <?php include('includes/widgets/reviews/reviews.php'); ?>
+                        <a class="l10n button outline expand is-hidden-tablet"
+                           href="reviews.php">View all reviews</a>
                   </div>
             </section>
             <section id="services">
