@@ -3,54 +3,130 @@
 @import '../../../styles/util/mixins';
 
 .reviews-widget {
-    padding-bottom: $m;
+    .carousel {
+        // Make room for box shadow    
+        padding-bottom: $m;
 
-    .review-box {
-        margin-top: $xl;
-        border: 1px solid $light-200;
-        border-radius: $radius-l;
-        @include elevation-low;
-        padding: $xl;
-        display: flex;
-        flex-direction: column;
-        margin-right: $m;
+        // Allow horizontal overflow on small screen.
+        // This value should always be the same as .container's vertical padding
+        margin-left: -$m;
+        margin-right: -$m;
+        padding-left: $m;
+        padding-right: $m;
 
-        // Override flex of .slide to specify a custom width
-        flex: 1 0 302px;
-        height: 326px;
+        .review-box {
+            margin-top: $xl;
+            border: 1px solid $light-200;
+            border-radius: $radius-l;
+            @include elevation-low;
+            padding: $xl;
+            display: flex;
+            flex-direction: column;
+            margin-right: $m;
 
-        .review-box-top {
+            // Override flex of .slide to specify a custom width
+            flex: 1 0 302px;
+            height: 326px;
+
+            .review-box-top {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .review-box-title {
+                margin-top: $m;
+            }
+
+            .review-box-text {
+                margin-top: $xxs;
+                overflow-y: auto;
+                flex: 1;
+            }
+
+            .review-box-signature {
+                margin-top: $m;
+                color: $dark-100;
+            }
+        }
+
+        @media screen and (min-width: $desktop) {
+
+            margin-left: 0;
+            margin-right: 0;
+            padding: 0;
+
+            .review-box {
+                border-radius: 0;
+                border-right: 0;
+                box-shadow: none;
+                margin-right: 0;
+                height: 300px;
+                flex: 1 0 330px;
+            }
+
+            .review-box:first-child {
+                border-top-left-radius: $radius-l;
+                border-bottom-left-radius: $radius-l;
+            }
+
+            .review-box:last-child {
+                border-top-right-radius: $radius-l;
+                border-bottom-right-radius: $radius-l;
+                border-right: 1px solid $light-200;
+            }
+        }
+    }
+
+    .review-brands {
+        margin-top: $xs;
+        border-bottom: 1px solid $light-200;
+        display: block;
+
+        .review-brand {
+            height: 85px;
             display: flex;
             align-items: center;
             justify-content: space-between;
-        }
-
-        .review-box-title {
-            margin-top: $m;
-        }
-
-        .review-box-text {
-            margin-top: $xxs;
-            overflow-y: auto;
+            box-sizing: content-box;
             flex: 1;
+            border-top: 1px solid $light-200;
+
+            .review-brand-right {
+                text-align: right;
+
+                p {
+                    color: $dark-200;
+                }
+            }
         }
 
-        .review-box-signature {
-            margin-top: $m;
-            color: $dark-100;
+        @media screen and (min-width: $desktop) {
+            display: flex;
+            margin-top: $xl;
+            padding: $xl;
+            border: 1px solid $light-200;
+            border-radius: $radius-l;
+
+            .review-brand {
+                height: 45px;
+                border: none;
+            }
+
+            .review-brand:first-child {
+                padding-right: $xl;
+            }
+
+            .review-brand:nth-child(2) {
+                padding: 0 $xl;
+                border-left: 1px solid $light-200;
+                border-right: 1px solid $light-200;
+            }
+
+            .review-brand:last-child {
+                padding-left: $xl;
+            }
         }
     }
 
-    @media screen and (min-width: $desktop) {
-
-        padding-bottom: 0;
-
-        .review-box {
-            border-radius: 0;
-            box-shadow: none;
-            margin-right: 0;
-            height: 300px;
-            flex: 1 0 330px;
-        }
-    }
 }

@@ -450,7 +450,7 @@
 
                         </div>
                         <?php include('includes/widgets/reviews/reviews.php'); ?>
-                        <a class="l10n button outline expand is-hidden-tablet"
+                        <a class="mt-xl button outline expand is-hidden-tablet l10n"
                            href="reviews.php">View all reviews</a>
                   </div>
             </section>
