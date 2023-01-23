@@ -19,7 +19,7 @@
       <!-- Accordion widget -->
       <!--
       <link rel="stylesheet"
-            href="includes/widgets/accordion/accordion.css" />
+            href="includes/widgets/accordion/accordion.css" />      
       -->
       <!-- Result widget (before and after images) -->
       <!--

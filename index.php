@@ -116,7 +116,6 @@
                   <div class="container l10n">
                         <h2 class="big">Problems</h2>
                         <?php
-                        include('includes/widgets/accordion/accordion_item.php');
                         $accordion = array();
                         $accordion[] = new AccordionItem('Acne', 'images/problems/small/acne.jpg', 'images/problems/large/acne.jpg', 'problems/acne.php', true, true);
                         $accordion[] = new AccordionItem('Acne scars', 'images/problems/small/acne-scars.jpg', 'images/problems/large/acne-scars.jpg', 'problems/acne-scars.php', true, true);
@@ -337,8 +336,22 @@
                   </div>
             </section>
             <section id="services">
-                  <div class="container">
-                        <h2 class="big l10n">Services</h2>
+                  <div class="container l10n">
+                        <h2 class="big">Services</h2>
+                        <?php
+                        $accordion = array();
+                        $accordion[] = new AccordionItem('Acne', 'images/problems/small/acne.jpg', 'images/problems/large/acne.jpg', 'problems/acne.php', true, true);
+                        $accordion[] = new AccordionItem('Acne scars', 'images/problems/small/acne-scars.jpg', 'images/problems/large/acne-scars.jpg', 'problems/acne-scars.php', true, true);
+                        $accordion[] = new AccordionItem('Rosacea', 'images/problems/small/rosacea.jpg', 'images/problems/large/rosacea.jpg', 'problems/rosacea.php', true, true);
+                        $accordion[] = new AccordionItem('Pigmentation', 'images/problems/small/pigmentation.jpg', 'images/problems/large/pigmentation.jpg', 'problems/pigmentation.php', true, true);
+                        $accordion[] = new AccordionItem('Large pores', 'images/problems/small/large-pores.jpg', 'images/problems/large/large-pores.jpg', 'problems/large-pores.php', true, true);
+                        $accordion[] = new AccordionItem('Mature skin', 'images/problems/small/mature-skin.jpg', 'images/problems/large/mature-skin.jpg', 'problems/mature-skin.php', false, true);
+                        $accordion[] = new AccordionItem('View all problems', 'images/problems/small/other.jpg', 'images/problems/large/other.jpg', 'problems.php', true, false);
+                        $more_count = 17;
+                        include('includes/widgets/accordion/accordion.php')
+                              ?>
+                        <a href="problems.php"
+                           class="mt-xl button outline is-hidden-desktop expand">View all problems</a>
                   </div>
             </section>
             <section id="faq">

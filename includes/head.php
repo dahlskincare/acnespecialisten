@@ -34,3 +34,6 @@ include('util/functions.php');
       as="image"
       href="images/banner-mobile.jpg"
       media="(max-width: 983px)">
+
+<!-- Always include this to keep things simple -->
+<?php include('includes/widgets/accordion/accordion_item.php'); ?>
