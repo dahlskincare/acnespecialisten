@@ -37,6 +37,9 @@ if ($lang == 'sv') {
     $frequently_asked_questions[] = new Question('How do I get rid of my acne fast?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
     $frequently_asked_questions[] = new Question('Do I have acne even if I only have one pimple?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
 
+    $payment_and_invoice[] = new Question('Blablabla?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
+    $payment_and_invoice[] = new Question('Or is it?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
+
     $faq_categories['Frequently asked questions'] = $frequently_asked_questions;
     $faq_categories['Payment and invoice'] = $payment_and_invoice;
     $faq_categories['Cancellation'] = $cancellation;
