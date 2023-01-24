@@ -5,10 +5,10 @@ Please note this widget depends on carousel.js and carousel.css
 
 
 <?php
-function msg_reviews($locale)
+function msg_reviews($lang)
 {
-    switch ($locale) {
-        case 'sv_SE':
+    switch ($lang) {
+        case 'sv':
             return 'omdömen';
         default:
             return 'reviews';
@@ -60,7 +60,9 @@ function msg_reviews($locale)
             <div class="review-brand-right">
                 <?php icon('star') ?>
                 <span class="ml-xs h200">5.0 / 5</span>
-                <p>96 <?php echo msg_reviews('sv_SE') ?></p>
+                <p>96
+                    <?php echo msg_reviews($lang) ?>
+                </p>
             </div>
 
         </div>
@@ -72,7 +74,9 @@ function msg_reviews($locale)
             <div class="review-brand-right">
                 <?php icon('star') ?>
                 <span class="ml-xs h200">4.7 / 5</span>
-                <p>492 <?php echo msg_reviews('sv_SE') ?></p>
+                <p>492
+                    <?php echo msg_reviews($lang) ?>
+                </p>
             </div>
         </div>
         <div class="review-brand">
@@ -83,7 +87,9 @@ function msg_reviews($locale)
             <div class="review-brand-right">
                 <?php icon('star') ?>
                 <span class="ml-xs h200">4.7 / 5</span>
-                <p>8240 <?php echo msg_reviews('sv_SE') ?></p>
+                <p>8240
+                    <?php echo msg_reviews($lang) ?>
+                </p>
             </div>
         </div>
     </div>

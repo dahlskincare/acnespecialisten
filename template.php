@@ -1,6 +1,7 @@
+<?php include_once('config.php'); ?>
+
 <!DOCTYPE html>
-<!-- TODO: Set language -->
-<html lang="en">
+<html lang="<?php echo $lang ?>">
 
 <head>
       <!-- TODO: Set title and meta tags -->
