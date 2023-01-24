@@ -1,6 +1,5 @@
 namespace FAQ {
-    export function selectCategory(event: Event, name: String): void {
-        let target = event.target as Element;
+    export function selectCategory(target: Element, name: String): void {
         let parent = target.parentElement;
         let host = parent.parentElement;
         let targetIndex = -1;
@@ -19,8 +18,7 @@ namespace FAQ {
             questionCategories[targetIndex].classList.remove('is-hidden');
         }
     }
-    export function toggleQuestionExpanded(event: Event): void {
-        let target = event.target as Element;
+    export function toggleQuestionExpanded(target: Element): void {
         let textElement = target.parentElement.children[1];
         if (textElement.classList.contains('is-hidden')) {
             textElement.classList.remove('is-hidden');

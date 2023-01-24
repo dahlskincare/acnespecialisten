@@ -1,7 +1,6 @@
 var FAQ;
 (function (FAQ) {
-    function selectCategory(event, name) {
-        var target = event.target;
+    function selectCategory(target, name) {
         var parent = target.parentElement;
         var host = parent.parentElement;
         var targetIndex = -1;
@@ -21,8 +20,7 @@ var FAQ;
         }
     }
     FAQ.selectCategory = selectCategory;
-    function toggleQuestionExpanded(event) {
-        var target = event.target;
+    function toggleQuestionExpanded(target) {
         var textElement = target.parentElement.children[1];
         if (textElement.classList.contains('is-hidden')) {
             textElement.classList.remove('is-hidden');

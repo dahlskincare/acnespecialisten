@@ -2,6 +2,77 @@
 @import '../../../styles/util/sizes';
 @import '../../../styles/util/mixins';
 
+.faq-large {
+    margin-top: $xl;
+    display: flex;
+
+    .faq-large-left {
+        width: 312px;
+
+        .faq-category {
+            display: flex;
+            align-items: center;
+            padding: $l $m;
+            background-color: $light-100;
+            border-radius: $radius-s;
+            margin-top: $xs;
+            border: 1px solid $light-100;
+            cursor: pointer;
+
+            span {
+                pointer-events: none;
+            }
+
+            .faq-category-label {
+                @include p200;
+                margin-left: $s;
+            }
+        }
+
+        .faq-category:first-child {
+            margin-top: 0;
+        }
+
+        .faq-category.selected {
+            background-color: transparent;
+
+            .faq-category-label {
+                @include h200;
+            }
+        }
+    }
+
+    .faq-large-right {
+        margin-left: $xl;
+        flex: 1;
+
+        .faq-question {
+            border-top: 1px solid $light-200;
+            padding: $xl 0;
+
+            .faq-question-header {
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                span {
+                    pointer-events: none;
+                }
+            }
+
+            .faq-question-content {
+                margin-top: $s;
+                color: $dark-200;
+            }
+        }
+
+        .faq-question:last-child {
+            border-bottom: 1px solid $light-200;
+        }
+    }
+}
+
 .faq-small {
     .faq-categories-small {
         margin-top: $xl;
