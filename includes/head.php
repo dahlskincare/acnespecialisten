@@ -4,6 +4,7 @@ IMPORTANT:
 -->
 <?php
 // PHP utility
+include_once('includes/models.php');
 function icon($name)
 {
       echo '<span class="icon icon-' . $name . '">' . file_get_contents('icons/' . $name . '.svg') . '</span>';
@@ -38,8 +39,6 @@ function icon($name)
       as="image"
       href="images/banner-mobile.jpg"
       media="(max-width: 983px)">
-
-<?php include_once('includes/models.php'); ?>
 
 <!-- Always include this as it's used by lots of widgets (KISS) -->
 <style>
