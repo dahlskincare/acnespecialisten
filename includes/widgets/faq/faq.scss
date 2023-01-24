@@ -13,6 +13,7 @@
             margin-right: $xl;
             padding-bottom: $xs;
             border-bottom: 3px solid transparent;
+            cursor: pointer;
         }
 
         .faq-category.selected {
@@ -32,6 +33,7 @@
                 background-color: $light-50;
 
                 .faq-question-header {
+                    cursor: pointer;
                     display: flex;
                     align-items: center;
                     justify-content: space-between;

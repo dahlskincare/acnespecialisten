@@ -49,7 +49,7 @@ if ($lang == 'sv') {
     <div class="faq-categories-small carousel">
         <?php foreach (array_keys($faq_categories) as $category) { ?>
             <div class="faq-category b200 slide"
-                 ontouchstart="FAQ.selectCategory(event, '<?php echo $category ?>')">
+                 onclick="FAQ.selectCategory(event, '<?php echo $category ?>')">
                 <?php echo $category ?>
             </div>
         <?php } ?>
@@ -60,7 +60,7 @@ if ($lang == 'sv') {
                 <?php foreach ($faq_categories[$category] as $question) { ?>
                     <div class="faq-question">
                         <div class="faq-question-header"
-                             ontouchstart="FAQ.toggleQuestionExpanded(event)">
+                             onclick="FAQ.toggleQuestionExpanded(event)">
                             <span class="p200">
                                 <?php echo $question->title ?>
                             </span>
@@ -76,4 +76,8 @@ if ($lang == 'sv') {
         <a href="questions.php"
            class="mt-xl button outline expand l10n">View all questions</a>
     </div>
+</div>
+
+<div class="faq-large is-hidden-mobile">
+    <p>hello</p>
 </div>
