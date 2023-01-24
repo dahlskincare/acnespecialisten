@@ -1,0 +1,54 @@
+<?php
+class Question
+{
+    public function __construct($title, $text)
+    {
+        $this->title = $title;
+        $this->text = $text;
+    }
+    public $title;
+    public $text;
+}
+
+$faq_categories = array();
+$frequently_asked_questions = array();
+$payment_and_invoice = array();
+$cancellation = array();
+$other = array();
+$treatment = array();
+
+if ($lang == 'sv') {
+
+    $frequently_asked_questions[] = new Question('Hur många behandlingar behövs?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
+    $frequently_asked_questions[] = new Question('Kommer aknen tillbaka?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
+    $frequently_asked_questions[] = new Question('Hur blir jag snabbt av med akne?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
+    $frequently_asked_questions[] = new Question('Har jag akne även om det bara är en finne?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
+
+    $faq_categories['Vanliga frågor'] = $frequently_asked_questions;
+    $faq_categories['Betalning och fakturafrågor'] = $payment_and_invoice;
+    $faq_categories['Ångerrätt'] = $cancellation;
+    $faq_categories['Behandling'] = $treatment;
+    $faq_categories['Övriga frågor och kommentarer'] = $other;
+} else {
+    $frequently_asked_questions[] = new Question('How many treatments are needed?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
+    $frequently_asked_questions[] = new Question('Can my acne come back?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
+    $frequently_asked_questions[] = new Question('How do I get rid of my acne fast?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
+    $frequently_asked_questions[] = new Question('Do I have acne even if I only have one pimple?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
+
+    $faq_categories['Frequently asked questions'] = $frequently_asked_questions;
+    $faq_categories['Payment and invoice'] = $payment_and_invoice;
+    $faq_categories['Cancellation'] = $cancellation;
+    $faq_categories['Treatment'] = $treatment;
+    $faq_categories['Other'] = $other;
+}
+?>
+
+<div class="faq">
+    <div class="faq-categories-small is-hidden-tablet">
+        <?php foreach (array_keys($faq_categories) as $category) { ?>
+            <div class="faq-category">
+                <?php echo $category ?>
+            </div>
+        <?php } ?>
+    </div>
+</div>

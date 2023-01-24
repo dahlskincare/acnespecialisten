@@ -29,10 +29,10 @@
       <link rel="stylesheet"
             href="includes/widgets/reviews/reviews.css" />
 
-      <!-- Carousel used in sections 'Results' and 'Reviews' -->
+      <!-- FAQ widget -->
       <link rel="stylesheet"
-            href="util/carousel/carousel.css" />
-      <script src="util/carousel/carousel.js"></script>
+            href="includes/widgets/faq/faq.css" />
+      <script src="includes/widgets/faq/faq.js"></script>
 
       <?php include('includes/head.php'); ?>
 
@@ -366,6 +366,7 @@
                                     <?php icon('navigate-next') ?>
                               </a>
                         </div>
+                        <?php include('includes/widgets/faq/faq.php'); ?>
                   </div>
             </section>
             <section id="skin-guide">

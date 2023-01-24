@@ -3,7 +3,11 @@ IMPORTANT:
  Don't edit this file unless you know what you are doing!
 -->
 <?php
-include('util/functions.php');
+// PHP utility
+function icon($name)
+{
+      echo '<span class="icon icon-' . $name . '">' . file_get_contents('icons/' . $name . '.svg') . '</span>';
+}
 ?>
 <meta name="viewport"
       content="width=360, initial-scale=1" />
@@ -35,5 +39,38 @@ include('util/functions.php');
       href="images/banner-mobile.jpg"
       media="(max-width: 983px)">
 
-<!-- Always include this to keep things simple -->
 <?php include_once('includes/models.php'); ?>
+
+<!-- Always include this as it's used by lots of widgets (KISS) -->
+<style>
+      .carousel {
+            display: flex;
+            overflow: scroll;
+            scroll-behavior: smooth;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+      }
+
+      .carousel .slide {
+            flex: 1 0 100%;
+      }
+
+      .carousel::-webkit-scrollbar {
+            width: 0;
+            height: 0;
+      }
+</style>
+<script>
+      Carousel = {
+            prev: (carouselId) => {
+                  const carousel = document.querySelector(carouselId);
+                  let child = carousel.children[0];
+                  carousel.scrollLeft -= child.getBoundingClientRect().width;
+            },
+            next: (carouselId) => {
+                  const carousel = document.querySelector(carouselId);
+                  let child = carousel.children[0];
+                  carousel.scrollLeft += child.getBoundingClientRect().width;
+            }
+      }
+</script>

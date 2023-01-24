@@ -1,0 +1,15 @@
+@import '../../../styles/util/colors';
+@import '../../../styles/util/sizes';
+@import '../../../styles/util/mixins';
+
+.faq {
+    .faq-categories-small {
+        .faq-category {
+            font-family: 'Inter';
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+            color: $dark-200;
+        }
+    }
+}
