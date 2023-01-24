@@ -2,3 +2,5 @@
 *.css*
 
 Dockerfile
+
+node_modules
