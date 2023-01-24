@@ -128,13 +128,13 @@
                               $accordion[] = new AccordionItem('Åldrande hy', 'images/problems/small/mature-skin.jpg', 'images/problems/large/mature-skin.jpg', 'problems/mature-skin.php', false, true);
                               $accordion[] = new AccordionItem('Visa alla problem', 'images/problems/small/other.jpg', 'images/problems/large/other.jpg', 'problems.php', true, false);
                         } else {
-                              $accordion[] = new AccordionItem('Facials', 'images/services/small/facials.jpg', 'images/services/large/facials.jpg', 'services/facials.php', true, true);
-                              $accordion[] = new AccordionItem('IPL', 'images/services/small/ipl.jpg', 'images/services/large/ipl.jpg', 'services/ipl.php', true, true);
-                              $accordion[] = new AccordionItem('Laser', 'images/services/small/laser.jpg', 'images/services/large/laser.jpg', 'services/laser.php', true, true);
-                              $accordion[] = new AccordionItem('Dermabration', 'images/services/small/dermabration.jpg', 'images/services/large/dermabration.jpg', 'services/dermabration.php', true, true);
-                              $accordion[] = new AccordionItem('Microneedling', 'images/services/small/microneedling.jpg', 'images/services/large/microneedling.jpg', 'services/microneedling.php', true, true);
-                              $accordion[] = new AccordionItem('Injections ', 'images/services/small/injections.jpg', 'images/services/large/injections.jpg', 'services/injection.php', false, true);
-                              $accordion[] = new AccordionItem('View all services', 'images/services/small/other.jpg', 'images/services/large/other.jpg', 'services.php', true, false);
+                              $accordion[] = new AccordionItem('Acne', 'images/problems/small/acne.jpg', 'images/problems/large/acne.jpg', 'problems/acne.php', true, true);
+                              $accordion[] = new AccordionItem('Acne scars', 'images/problems/small/acne-scars.jpg', 'images/problems/large/acne-scars.jpg', 'problems/acne-scars.php', true, true);
+                              $accordion[] = new AccordionItem('Rosacea', 'images/problems/small/rosacea.jpg', 'images/problems/large/rosacea.jpg', 'problems/rosacea.php', true, true);
+                              $accordion[] = new AccordionItem('Pigmentation', 'images/problems/small/pigmentation.jpg', 'images/problems/large/pigmentation.jpg', 'problems/pigmentation.php', true, true);
+                              $accordion[] = new AccordionItem('Comedones', 'images/problems/small/large-pores.jpg', 'images/problems/large/large-pores.jpg', 'problems/large-pores.php', true, true);
+                              $accordion[] = new AccordionItem('Aging skin', 'images/problems/small/mature-skin.jpg', 'images/problems/large/mature-skin.jpg', 'problems/mature-skin.php', false, true);
+                              $accordion[] = new AccordionItem('View all problems', 'images/problems/small/other.jpg', 'images/problems/large/other.jpg', 'problems.php', true, false);
                         }
                         $more_count = 17;
                         include('includes/widgets/accordion/accordion.php')
