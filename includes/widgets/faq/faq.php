@@ -18,11 +18,13 @@ $other = array();
 $treatment = array();
 
 if ($lang == 'sv') {
-
     $frequently_asked_questions[] = new Question('Hur många behandlingar behövs?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
     $frequently_asked_questions[] = new Question('Kommer aknen tillbaka?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
     $frequently_asked_questions[] = new Question('Hur blir jag snabbt av med akne?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
     $frequently_asked_questions[] = new Question('Har jag akne även om det bara är en finne?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
+
+    $payment_and_invoice[] = new Question('Blablabla?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
+    $payment_and_invoice[] = new Question('Eller?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
 
     $faq_categories['Vanliga frågor'] = $frequently_asked_questions;
     $faq_categories['Betalning och fakturafrågor'] = $payment_and_invoice;
@@ -43,12 +45,35 @@ if ($lang == 'sv') {
 }
 ?>
 
-<div class="faq">
-    <div class="faq-categories-small is-hidden-tablet">
+<div class="faq-small is-hidden-tablet">
+    <div class="faq-categories-small carousel">
         <?php foreach (array_keys($faq_categories) as $category) { ?>
-            <div class="faq-category">
+            <div class="faq-category b200 slide"
+                 ontouchstart="FAQ.selectCategory(event, '<?php echo $category ?>')">
                 <?php echo $category ?>
             </div>
         <?php } ?>
+    </div>
+    <div class="faq-questions-small">
+        <?php foreach (array_keys($faq_categories) as $category) { ?>
+            <div class="faq-question-category is-hidden">
+                <?php foreach ($faq_categories[$category] as $question) { ?>
+                    <div class="faq-question">
+                        <div class="faq-question-header"
+                             ontouchstart="FAQ.toggleQuestionExpanded(event)">
+                            <span class="p200">
+                                <?php echo $question->title ?>
+                            </span>
+                            <?php icon('expand') ?>
+                        </div>
+                        <div class="faq-question-content is-hidden">
+                            <?php echo $question->text ?>
+                        </div>
+                    </div>
+                <?php } ?>
+            </div>
+        <?php } ?>
+        <a href="questions.php"
+           class="mt-xl button outline expand l10n">View all questions</a>
     </div>
 </div>

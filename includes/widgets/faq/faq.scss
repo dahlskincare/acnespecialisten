@@ -2,14 +2,51 @@
 @import '../../../styles/util/sizes';
 @import '../../../styles/util/mixins';
 
-.faq {
+.faq-small {
     .faq-categories-small {
+        margin-top: $xl;
+
         .faq-category {
-            font-family: 'Inter';
-            font-size: 16px;
-            font-weight: 400;
-            line-height: 26px;
             color: $dark-200;
+            flex: 1;
+            white-space: nowrap;
+            margin-right: $xl;
+            padding-bottom: $xs;
+            border-bottom: 3px solid transparent;
         }
+
+        .faq-category.selected {
+            font-weight: 600;
+            color: $black-500;
+            border-bottom-color: $deep-sea-400;
+        }
+    }
+
+    .faq-questions-small {
+        margin-top: $xl;
+
+        .faq-question-category {
+            .faq-question {
+                margin-top: 2px;
+                padding: $m;
+                background-color: $light-50;
+
+                .faq-question-header {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    span {
+                        pointer-events: none;
+                    }
+                }
+
+                .faq-question-content {
+                    margin-top: $s;
+                }
+            }
+        }
+
+
     }
 }
