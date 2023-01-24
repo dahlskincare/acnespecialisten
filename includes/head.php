@@ -36,4 +36,4 @@ include('util/functions.php');
       media="(max-width: 983px)">
 
 <!-- Always include this to keep things simple -->
-<?php include('includes/widgets/accordion/accordion_item.php'); ?>
+<?php include_once('includes/models.php'); ?>
