@@ -18,4 +18,5 @@ class AccordionItem
     public $show_on_large;
     public $show_on_small;
 }
+
 ?>
