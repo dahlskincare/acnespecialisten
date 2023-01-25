@@ -16,24 +16,6 @@
             content="Acne, specialisten"
             class="l10n">
 
-      <!-- Accordion widget -->
-      <link rel="stylesheet"
-            href="includes/widgets/accordion/accordion.css" />
-
-      <!-- Result widget (before and after images) -->
-      <link rel="stylesheet"
-            href="includes/widgets/result/result.css" />
-      <script src="includes/widgets/result/result.js"></script>
-
-      <!-- Reviews widget -->
-      <link rel="stylesheet"
-            href="includes/widgets/reviews/reviews.css" />
-
-      <!-- FAQ widget -->
-      <link rel="stylesheet"
-            href="includes/widgets/faq/faq.css" />
-      <script src="includes/widgets/faq/faq.js"></script>
-
       <?php include('includes/head.php'); ?>
 
       <link rel="stylesheet"
@@ -423,6 +405,9 @@
                                     <?php icon('navigate-next') ?>
                               </a>
                         </div>
+                  </div>
+                  <div class="container">
+                        <?php include('includes/widgets/skin_guide/skin_guide.php'); ?>
                   </div>
             </section>
             <section id="about-us">

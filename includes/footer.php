@@ -1,8 +1,3 @@
-<!--
-IMPORTANT: 
- Don't edit this file unless you know what you are doing!
--->
-
 <footer>
     <!-- Mobile footer -->
     <div class="is-hidden-widescreen"
@@ -220,7 +215,9 @@ IMPORTANT:
             </div>
             <div id="footer-bottom">
                 <div class="copy-n-cookies">
-                    <p>&copy; <?php echo date('Y') ?> Acnespecialisten</p>
+                    <p>&copy;
+                        <?php echo date('Y') ?> Acnespecialisten
+                    </p>
                     <a href="cookie-policy.php"
                        target="_blank"
                        class="button b100 compact text l10n">Cookie policy</a>
@@ -534,7 +531,9 @@ IMPORTANT:
             </div>
             <div id="footer-large-bottom">
                 <div class="flex-row justify-space-between">
-                    <p>&copy; <?php echo date('Y') ?> Acnespecialisten</p>
+                    <p>&copy;
+                        <?php echo date('Y') ?> Acnespecialisten
+                    </p>
                     <div class="flex-row">
                         <a href="cookie-policy.php"
                            target="_blank"

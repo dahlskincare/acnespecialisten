@@ -1,8 +1,7 @@
-<!--
-IMPORTANT: 
- Don't edit this file unless you know what you are doing!
--->
 <?php
+// IMPORTANT: 
+// Don't edit this file unless you know what you are doing!
+
 // PHP utility
 include_once('includes/models.php');
 function icon($name)
@@ -40,7 +39,7 @@ function icon($name)
       href="images/banner-mobile.jpg"
       media="(max-width: 983px)">
 
-<!-- Always include this as it's used by lots of widgets (KISS) -->
+<!-- Common styles -->
 <style>
       .carousel {
             display: flex;
@@ -73,3 +72,21 @@ function icon($name)
             }
       }
 </script>
+
+<!-- Accordion widget -->
+<link rel="stylesheet"
+      href="includes/widgets/accordion/accordion.css" />
+<!-- Result widget (before and after images) -->
+<link rel="stylesheet"
+      href="includes/widgets/result/result.css" />
+<script src="includes/widgets/result/result.js"></script>
+<!-- Reviews widget -->
+<link rel="stylesheet"
+      href="includes/widgets/reviews/reviews.css" />
+<!-- FAQ widget -->
+<link rel="stylesheet"
+      href="includes/widgets/faq/faq.css" />
+<script src="includes/widgets/faq/faq.js"></script>
+<!-- Skin guide widget -->
+<link rel="stylesheet"
+      href="includes/widgets/skin_guide/skin_guide.css" />

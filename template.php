@@ -16,30 +16,6 @@
             content=""
             class="l10n">
 
-      <!-- TODO: uncomment code for any widgets to be used on this page -->
-      <!-- Accordion widget -->
-      <!--
-      <link rel="stylesheet"
-            href="includes/widgets/accordion/accordion.css" />      
-      -->
-      <!-- Result widget (before and after images) -->
-      <!--
-      <link rel="stylesheet"
-            href="includes/widgets/result/result.css" />
-      <script src="includes/widgets/result/result.js"></script>
-      -->
-      <!-- Reviews widget -->
-      <!--
-      <link rel="stylesheet"
-            href="includes/widgets/reviews/reviews.css" />      
-      -->
-      <!-- FAQ widget -->
-      <!--
-      <link rel="stylesheet"
-            href="includes/widgets/faq/faq.css" />
-      <script src="includes/widgets/faq/faq.js"></script>
-      -->
-
       <!-- Optional: Set canonical version of this page (https://support.google.com/webmasters/answer/10347851) -->
 
       <!-- Default imports (metadata, style, fonts, google analytics etc) -->
