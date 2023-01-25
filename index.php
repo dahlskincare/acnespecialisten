@@ -410,7 +410,86 @@
             </section>
             <section id="about-us">
                   <div class="container">
-                        <h2 class="big l10n">About us</h2>
+                        <div id="about-text-wrapper">
+                              <div id="about-text">
+                                    <h2 class="big l10n">About us</h2>
+                                    <h3 class="h200 mt-m l10n">
+                                          This is a treatment adapted for acne skin and pimples and gives a
+                                          really good start to the treatment of the skin.
+                                    </h3>
+                                    <picture class="is-hidden-tablet">
+                                          <source media="(max-width: 799px)"
+                                                  srcset="images/about-mobile.jpg">
+                                          <source media="(min-width: 800px)"
+                                                  srcset="images/about-desktop.jpg">
+                                          <img src="images/about-mobile.jpg"
+                                               alt="About us"
+                                               width="364"
+                                               height="364" />
+                                    </picture>
+                                    <div class="columns is-4 is-variable">
+                                          <div class="column">
+                                                <div class="flex-row about-header">
+                                                      <?php icon('about-bullet') ?>
+                                                      <h3 class="h200 l10n">25 years of experience</h3>
+                                                </div>
+                                                <p class="p200 mt-xxs l10n">
+                                                      In a personal meeting with a skin specialist,
+                                                      your skin type is examined and identified.
+                                                </p>
+                                                <div class="divider"></div>
+                                          </div>
+                                          <div class="column">
+                                                <div class="flex-row about-header">
+                                                      <?php icon('about-bullet') ?>
+                                                      <h3 class="h200 l10n">Unique solution</h3>
+                                                </div>
+                                                <p class="p200 mt-xxs l10n">
+                                                      In a personal meeting with a skin specialist,
+                                                      your skin type is examined and identified.
+                                                </p>
+                                                <div class="divider"></div>
+                                          </div>
+                                    </div>
+                                    <div class="columns is-4 is-variable">
+                                          <div class="column">
+                                                <div class="flex-row about-header">
+                                                      <?php icon('about-bullet') ?>
+                                                      <h3 class="h200 l10n">Unique solution</h3>
+                                                </div>
+                                                <p class="p200 mt-xxs l10n">
+                                                      In a personal meeting with a skin specialist,
+                                                      your skin type is examined and identified.
+                                                </p>
+                                                <div class="divider"></div>
+                                          </div>
+                                          <div class="column">
+                                                <div class="flex-row about-header">
+                                                      <?php icon('about-bullet') ?>
+                                                      <h3 class="h200 l10n">25 years of experience</h3>
+                                                </div>
+                                                <p class="p200 mt-xxs l10n">
+                                                      In a personal meeting with a skin specialist,
+                                                      your skin type is examined and identified.
+                                                </p>
+                                          </div>
+                                    </div>
+                                    <a href="about.php"
+                                       class="button b200 outline expand l10n">View more about us</a>
+                              </div>
+                        </div>
+                        <div id="about-image-desktop">
+                              <picture>
+                                    <source media="(max-width: 799px)"
+                                            srcset="images/about-mobile.jpg">
+                                    <source media="(min-width: 800px)"
+                                            srcset="images/about-desktop.jpg">
+                                    <img src="images/about-desktop.jpg"
+                                         alt="About us"
+                                         width="632"
+                                         height="632" />
+                              </picture>
+                        </div>
                   </div>
             </section>
             <section id="specialists">

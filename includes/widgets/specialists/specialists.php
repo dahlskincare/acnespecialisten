@@ -2,10 +2,16 @@
     <div class="specialists-small carousel is-hidden-tablet">
         <?php foreach ($specialists as $specialist) { ?>
             <div class="specialist slide">
-                <img src="<?php echo $specialist->image_small ?>"
-                     alt="<?php echo $specialist->name ?>"
-                     width="240"
-                     height="240" />
+                <picture>
+                    <source media="(max-width: 799px)"
+                            srcset="<?php echo $specialist->image_small ?>">
+                    <source media="(min-width: 800px)"
+                            srcset="<?php echo $specialist->image_large ?>">
+                    <img src="<?php echo $specialist->image_small ?>"
+                         alt="<?php echo $specialist->name ?>"
+                         width="240"
+                         height="240" />
+                </picture>
                 <h3>
                     <?php echo $specialist->name ?>
                 </h3>
@@ -19,10 +25,16 @@
         <?php foreach ($specialists as $specialist) { ?>
             <div class="column">
                 <div class="specialist">
-                    <img src="<?php echo $specialist->image_large ?>"
-                         alt="<?php echo $specialist->name ?>"
-                         width="312"
-                         height="312" />
+                    <picture>
+                        <source media="(max-width: 799px)"
+                                srcset="<?php echo $specialist->image_small ?>">
+                        <source media="(min-width: 800px)"
+                                srcset="<?php echo $specialist->image_large ?>">
+                        <img src="<?php echo $specialist->image_large ?>"
+                             alt="<?php echo $specialist->name ?>"
+                             width="312"
+                             height="312" />
+                    </picture>
                     <h3>
                         <?php echo $specialist->name ?>
                     </h3>
