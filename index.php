@@ -405,8 +405,6 @@
                                     <?php icon('navigate-next') ?>
                               </a>
                         </div>
-                  </div>
-                  <div class="container l10n">
                         <?php include('includes/widgets/skin_guide/skin_guide.php'); ?>
                   </div>
             </section>
