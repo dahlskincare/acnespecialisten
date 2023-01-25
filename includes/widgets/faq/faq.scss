@@ -77,6 +77,12 @@
     .faq-categories-small {
         margin-top: $xl;
 
+        // Allow .container overflow
+        margin-left: -$m;
+        margin-right: -$m;
+        padding-left: $m;
+        padding-right: $m;
+
         .faq-category {
             color: $dark-200;
             flex: 1;
