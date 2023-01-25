@@ -21,6 +21,15 @@
             margin-right: $m;
         }
 
+        h3 {
+            @include h200;
+        }
+
+        p {
+            margin-top: $xxs;
+            @include p200;
+        }
+
         .skin-guide-category {
             color: $dark-200;
         }
@@ -41,13 +50,12 @@
                 margin: 0;
             }
 
-            h2 {
+            h3 {
                 margin-top: $m;
             }
 
-            p {
-                margin-top: $xxs;
-            }
+
+
         }
     }
 }

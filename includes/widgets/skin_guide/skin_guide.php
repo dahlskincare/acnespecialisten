@@ -53,10 +53,10 @@ if ($lang == 'sv') {
                              height="328" />
                     </picture>
                     <div>
-                        <h2 class="h200">
+                        <h3>
                             <?php echo $article->title ?>
-                        </h2>
-                        <p class="p200 skin-guide-category">
+                        </h3>
+                        <p class="skin-guide-category">
                             <?php echo $article->category ?>
                         </p>
                     </div>

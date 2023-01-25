@@ -90,3 +90,6 @@ function icon($name)
 <!-- Skin guide widget -->
 <link rel="stylesheet"
       href="includes/widgets/skin_guide/skin_guide.css" />
+<!-- Specialists widget -->
+<link rel="stylesheet"
+      href="includes/widgets/specialists/specialists.css" />

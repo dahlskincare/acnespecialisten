@@ -19,4 +19,20 @@ class AccordionItem
     public $show_on_small;
 }
 
+class Specialist
+{
+    public function __construct($name, $title, $image_small, $image_large)
+    {
+        $this->name = $name;
+        $this->title = $title;
+        $this->image_small = $image_small;
+        $this->image_large = $image_large;
+    }
+
+    public $name;
+    public $title;
+    public $image_small;
+    public $image_large;
+}
+
 ?>

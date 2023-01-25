@@ -1,0 +1,58 @@
+@import '../../../styles/util/colors';
+@import '../../../styles/util/sizes';
+@import '../../../styles/util/mixins';
+
+.specialists-widget {
+    margin-top: $xl;
+
+    .specialists-small {
+        // Allow .container overflow
+        margin-left: -$m;
+        margin-right: -$m;
+        padding-left: $m;
+        padding-right: $m;
+
+        .specialist {
+            flex: 1 0 240px;
+            margin-right: $m;
+
+            img {
+                border-radius: $radius-l;
+            }
+
+            h3 {
+                margin-top: $m;
+                @include h200;
+            }
+
+            p {
+                margin-top: $xxs;
+                @include p200;
+                color: $dark-200;
+            }
+        }
+
+        .specialist:last-child {
+            margin-right: 0;
+        }
+    }
+
+    .specialists-large {
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: $radius-l;
+        }
+
+        h3 {
+            margin-top: $m;
+            @include h200;
+        }
+
+        p {
+            margin-top: $xxs;
+            @include p200;
+            color: $dark-200;
+        }
+    }
+}
