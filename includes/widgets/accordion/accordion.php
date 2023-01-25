@@ -43,7 +43,7 @@
                     <a href="<?php echo $accordion[$i]->url ?>"
                        class="accordion-card accordion-card-last">
                         <div class="button white text black l10n">
-                            <?php echo $accordion[$i]->label ?>
+                            <?php echo $accordion[$i]->name ?>
                             <?php icon('navigate-next') ?>
                         </div>
                         <div class="background-image"
