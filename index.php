@@ -1,5 +1,3 @@
-<?php include_once('config.php'); ?>
-
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
 
@@ -16,7 +14,7 @@
             content="Acne, specialisten"
             class="l10n">
 
-      <?php include('includes/head.php'); ?>
+      <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
 
       <link rel="preload"
             as="image"
@@ -28,14 +26,14 @@
             media="(max-width: 983px)">
 
       <link rel="stylesheet"
-            href="styles/default-layout.css">
+            href="/styles/default-layout.css">
 
       <link rel="stylesheet"
             href="/index.css">
 </head>
 
 <body>
-      <?php include('includes/header.php'); ?>
+      <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
       <main>
             <section id="banner">
                   <div id="banner-background">
@@ -128,7 +126,7 @@
                               $accordion[] = new AccordionItem('View all problems', 'images/problems/small/other.jpg', 'images/problems/large/other.jpg', 'problems.php', true, false);
                         }
                         $more_count = 17;
-                        include('includes/widgets/accordion/accordion.php')
+                        include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/accordion/accordion.php')
                               ?>
                         <a href="problems.php"
                            class="mt-xl button outline is-hidden-desktop expand">View all problems</a>
@@ -251,7 +249,7 @@
                                           } else {
                                                 $label = 'After two months of <a href="treatments/acne.php">acne treatment</a>';
                                           }
-                                          include('includes/widgets/result/result.php');
+                                          include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
                                           ?>
                                     </div>
                               </div>
@@ -265,7 +263,7 @@
                                           } else {
                                                 $label = 'After two months of <a href="treatments/rosacea.php">rosacea treatment</a>';
                                           }
-                                          include('includes/widgets/result/result.php');
+                                          include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
                                           ?>
                                     </div>
                               </div>
@@ -279,7 +277,7 @@
                                           } else {
                                                 $label = 'After two months of <a href="treatments/comedones.php">comedones treatment</a>';
                                           }
-                                          include('includes/widgets/result/result.php');
+                                          include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
                                           ?>
                                     </div>
                               </div>
@@ -304,7 +302,7 @@
                                     } else {
                                           $label = 'After two months of <a href="treatments/acne.php">acne treatment</a>';
                                     }
-                                    include('includes/widgets/result/result.php');
+                                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
                                     ?>
                               </div>
                               <div class="column l10n">
@@ -316,7 +314,7 @@
                                     } else {
                                           $label = 'After two months of <a href="treatments/rosacea.php">rosacea treatment</a>';
                                     }
-                                    include('includes/widgets/result/result.php');
+                                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
                                     ?>
                               </div>
                               <div class="column l10n">
@@ -328,7 +326,7 @@
                                     } else {
                                           $label = 'After two months of <a href="treatments/comedones.php">comedones treatment</a>';
                                     }
-                                    include('includes/widgets/result/result.php');
+                                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
                                     ?>
                               </div>
                         </div>
@@ -357,7 +355,7 @@
                               </div>
 
                         </div>
-                        <?php include('includes/widgets/reviews/reviews.php'); ?>
+                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
                         <a class="mt-xl button outline expand is-hidden-tablet l10n"
                            href="reviews.php">View all reviews</a>
                   </div>
@@ -385,7 +383,7 @@
                               $accordion[] = new AccordionItem('View all services', 'images/services/small/other.jpg', 'images/services/large/other.jpg', 'services.php', true, false);
                         }
                         $more_count = 17;
-                        include('includes/widgets/accordion/accordion.php')
+                        include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/accordion/accordion.php')
                               ?>
                         <a href="problems.php"
                            class="mt-xl button outline is-hidden-desktop expand">View all services</a>
@@ -401,7 +399,7 @@
                                     <?php icon('navigate-next') ?>
                               </a>
                         </div>
-                        <?php include('includes/widgets/faq/faq.php'); ?>
+                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
                   </div>
             </section>
             <section id="skin-guide">
@@ -414,7 +412,7 @@
                                     <?php icon('navigate-next') ?>
                               </a>
                         </div>
-                        <?php include('includes/widgets/skin_guide/skin_guide.php'); ?>
+                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php'); ?>
                   </div>
             </section>
             <section id="about-us">
@@ -517,7 +515,7 @@
                         $specialists[] = new Specialist('Anette Black', 'Skincare specialists since 2010', 'images/specialists/small/specialist-2.jpg', 'images/specialists/large/specialist-2.jpg');
                         $specialists[] = new Specialist('Anette Black', 'Skincare specialists since 2010', 'images/specialists/small/specialist-3.jpg', 'images/specialists/large/specialist-3.jpg');
                         $specialists[] = new Specialist('Anette Black', 'Skincare specialists since 2010', 'images/specialists/small/specialist-4.jpg', 'images/specialists/large/specialist-4.jpg');
-                        include('includes/widgets/specialists/specialists.php');
+                        include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
                         ?>
                         <a class="mt-xl button outline expand is-hidden-tablet l10n"
                            href="specialists.php">View all specialists</a>
@@ -536,7 +534,7 @@
                   </div>
             </section>
       </main>
-      <?php include('includes/footer.php'); ?>
+      <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
 </body>
 
 </html>

@@ -2,12 +2,16 @@
 // IMPORTANT: 
 // Don't edit this file unless you know what you are doing!
 
+
+
 // PHP utility
-include_once('includes/models.php');
+include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
+include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 function icon($name)
 {
-      echo '<span class="icon icon-' . $name . '">' . file_get_contents('icons/' . $name . '.svg') . '</span>';
+      echo '<span class="icon icon-' . $name . '">' . file_get_contents($_SERVER['DOCUMENT_ROOT'] . '/icons/' . $name . '.svg') . '</span>';
 }
+
 ?>
 <meta name="viewport"
       content="width=360, initial-scale=1" />
@@ -67,24 +71,24 @@ function icon($name)
 
 <!-- Accordion widget -->
 <link rel="stylesheet"
-      href="includes/widgets/accordion/accordion.css" />
+      href="/includes/widgets/accordion/accordion.css" />
 <!-- Result widget (before and after images) -->
 <link rel="stylesheet"
-      href="includes/widgets/result/result.css" />
-<script src="includes/widgets/result/result.js"></script>
+      href="/includes/widgets/result/result.css" />
+<script src="/includes/widgets/result/result.js"></script>
 <!-- Reviews widget -->
 <link rel="stylesheet"
-      href="includes/widgets/reviews/reviews.css" />
+      href="/includes/widgets/reviews/reviews.css" />
 <!-- FAQ widget -->
 <link rel="stylesheet"
-      href="includes/widgets/faq/faq.css" />
+      href="/includes/widgets/faq/faq.css" />
 <script src="includes/widgets/faq/faq.js"></script>
 <!-- Skin guide widget -->
 <link rel="stylesheet"
-      href="includes/widgets/skin_guide/skin_guide.css" />
+      href="/includes/widgets/skin_guide/skin_guide.css" />
 <!-- Specialists widget -->
 <link rel="stylesheet"
-      href="includes/widgets/specialists/specialists.css" />
+      href="/includes/widgets/specialists/specialists.css" />
 <!-- Breadcrumbs widget -->
 <link rel="stylesheet"
-      href="includes/widgets/breadcrumbs/breadcrumbs.css" />
+      href="/includes/widgets/breadcrumbs/breadcrumbs.css" />

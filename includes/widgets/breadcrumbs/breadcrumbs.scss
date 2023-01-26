@@ -1,0 +1,35 @@
+@import '../../../styles/util/colors';
+@import '../../../styles/util/sizes';
+@import '../../../styles/util/mixins';
+
+.breadcrumbs-widget {
+    padding: $m 0;
+    display: flex;
+    align-items: center;
+
+    .segment {
+        text-transform: capitalize;
+        white-space: nowrap;
+        color: $white-500;
+        margin-right: 6px;
+        cursor: pointer;
+        opacity: 0.7;
+
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .segment.active {
+        opacity: 1;
+    }
+
+    .separator {
+        width: $xxs;
+        height: $xxs;
+        border-radius: $xxs;
+        background-color: $white-500;
+        margin-right: 6px;
+        opacity: 0.7;
+
+    }
+}
