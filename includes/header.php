@@ -1,7 +1,3 @@
-<!--
-IMPORTANT: 
- Don't edit this file unless you know what you are doing!
--->
 <header>
     <div class="container">
         <div class="is-hidden-desktop"
@@ -27,17 +23,22 @@ IMPORTANT:
                          height="28" />
                 </a>
                 <nav>
-                    <ul class="b100">
-                        <li>Problems</li>
-                        <li>Services</li>
-                        <li>Brands</li>
-                        <li>Prices</li>
-                        <li>Contact</li>
+                    <ul>
+                        <li><a href="problems.php"
+                               class="h100 l10n">Problems</a></li>
+                        <li><a href="services.php"
+                               class="h100 l10n">Services</a></li>
+                        <li><a href="brands.php"
+                               class="h100 l10n">Brands</a></li>
+                        <li><a href="prices.php"
+                               class="h100 l10n">Prices</a></li>
+                        <li><a href="contact.php"
+                               class="h100 l10n">Contact</a></li>
                     </ul>
                 </nav>
             </div>
             <div id="actions">
-                <a class="button text"
+                <a class="button text l10n"
                    href="https://dahlskincare.com/skin-consultation"
                    target="_blank">Get a free consultation</a>
                 <?php icon("search") ?>
