@@ -5,7 +5,7 @@
 
 <head>
       <!-- TODO: Set title and meta tags -->
-      <title class="l10n">Acnespecialisten</title>
+      <title class="l10n">Acnespecialisten | Home</title>
       <meta name="description"
             content="Acnespecialisten is the best etc..."
             class="l10n">
@@ -17,6 +17,15 @@
             class="l10n">
 
       <?php include('includes/head.php'); ?>
+
+      <link rel="preload"
+            as="image"
+            href="images/banner-desktop.jpg"
+            media="(min-width: 984px)">
+      <link rel="preload"
+            as="image"
+            href="images/banner-mobile.jpg"
+            media="(max-width: 983px)">
 
       <link rel="stylesheet"
             href="styles/default-layout.css">

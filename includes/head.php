@@ -30,14 +30,6 @@ function icon($name)
 <link rel="preload"
       as="image"
       href="images/logo-green.svg">
-<link rel="preload"
-      as="image"
-      href="images/banner-desktop.jpg"
-      media="(min-width: 984px)">
-<link rel="preload"
-      as="image"
-      href="images/banner-mobile.jpg"
-      media="(max-width: 983px)">
 
 <!-- Common styles -->
 <style>
@@ -93,3 +85,6 @@ function icon($name)
 <!-- Specialists widget -->
 <link rel="stylesheet"
       href="includes/widgets/specialists/specialists.css" />
+<!-- Breadcrumbs widget -->
+<link rel="stylesheet"
+      href="includes/widgets/breadcrumbs/breadcrumbs.css" />
