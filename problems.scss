@@ -4,6 +4,89 @@
 
 
 section#banner {
-    background-color: $deep-sea-400;
-    @include p100;
+    #banner-green {
+        background-color: $deep-sea-400;
+        color: $white-500;
+        padding-bottom: $xl;
+        @include p100;
+
+        .underline {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+
+        .chips {
+            display: flex;
+            justify-content: space-between;
+
+            .chip {
+                display: flex;
+                align-items: center;
+                background-color: $deep-sea-500;
+                border-radius: $xl4;
+                padding: 5.5px $s;
+                margin-right: 6px;
+
+                @include button-text-color($white-500);
+
+                span.icon {
+                    margin-right: 6px;
+                }
+            }
+        }
+    }
+
+    #banner-problem-area-filters {
+        // allow container overflow
+        margin-left: -$m;
+        margin-right: -$m;
+        padding-left: $m;
+        padding-right: $m;
+        margin-top: $xl;
+
+
+        // Make room for shadow
+        padding-bottom: $m;
+
+        .banner-problem-area {
+            background-color: $white-500;
+            @include elevation-medium();
+            height: 96px;
+            box-sizing: border-box;
+            flex: 1 0 88px;
+            border-top: 1px solid $light-200;
+            border-bottom: 1px solid $light-200;
+            border-left: 1px solid $light-200;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            user-select: none;
+
+            div {
+                text-transform: capitalize;
+                margin-top: $xs;
+            }
+        }
+
+        .banner-problem-area:first-child {
+            border-top-left-radius: $radius-l;
+            border-bottom-left-radius: $radius-l;
+        }
+
+        .banner-problem-area:last-child {
+            border-right: 1px solid $light-200;
+            border-top-right-radius: $radius-l;
+            border-bottom-right-radius: $radius-l;
+        }
+    }
+
+    #banner-problem-areas {
+        margin-top: $xxs;
+
+        .button {
+            margin-top: $xxs;
+        }
+    }
 }
