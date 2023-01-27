@@ -74,7 +74,7 @@ if ($lang == 'sv') {
       $problems['stretch-marks'] = new Problem('Strech marks', 'problems/stretch-marks.php');
       $problems['operational-scars'] = new Problem('Operational scars', 'problems/operational-scars.php');
       $problems['unwanted-hair'] = new Problem('Unwanted hair', 'problems/unwanted-hair.php');
-      $problems['scars-from-pimples'] = new Problem('Scars from pipmles', 'problems/scars-from-pimples.php');
+      $problems['scars-from-pimples'] = new Problem('Scars from pimples', 'problems/scars-from-pimples.php');
       $problem_areas[] = new ProblemArea('Face', 'images/problem-areas/face.png', array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-inperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples'));
       $problem_areas[] = new ProblemArea('Body', 'images/problem-areas/body.png', array('acne', 'acne-scars', 'comedones'));
       $problem_areas[] = new ProblemArea('Chest', 'images/problem-areas/chest.png', array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-inperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples'));
@@ -289,12 +289,16 @@ if ($lang == 'sv') {
                                     </div>
                               <?php } ?>
                         </div>
-                        <div id="banner-problem-areas">
+                        <div class="columns is-multiline"
+                             id="banner-problem-areas">
                               <?php foreach ($problems as $id => $problem) { ?>
-                                    <a href="<?php echo $problem->url ?>"
-                                       class="button b200 grey expand is-hidden l10n"
-                                       data-id="<?php echo $id ?>"><?php echo $problem->label ?></a>
+                                    <div class="column is-one-fifth is-hidden"
+                                         data-id="<?php echo $id ?>">
+                                          <a href="<?php echo $problem->url ?>"
+                                             class="button b200 grey expand l10n"><?php echo $problem->label ?></a>
+                                    </div>
                               <?php } ?>
+
                         </div>
                   </div>
             </section>

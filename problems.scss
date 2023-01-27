@@ -34,20 +34,6 @@ section#banner {
                 }
             }
         }
-
-
-        @media screen and (min-width: $desktop) {
-            padding-bottom: $m;
-
-            #banner-green-desktop {
-                padding-bottom: $xl5;
-
-                #skin-problems-header-column {
-                    flex: 1 0 425px;
-                }
-            }
-
-        }
     }
 
     #banner-problem-area-filters {
@@ -116,5 +102,46 @@ section#banner {
         .button {
             margin-top: $xxs;
         }
+    }
+
+
+    @media screen and (min-width: $desktop) {
+        #banner-green {
+            padding-bottom: $m;
+
+            #banner-green-desktop {
+                padding-bottom: $xl5;
+
+                #skin-problems-header-column {
+                    flex: 1 0 425px;
+                }
+            }
+        }
+
+        #banner-problem-area-filters {
+            margin-top: -2*$xl;
+            padding-bottom: $xl3 - $xs;
+        }
+
+        #banner-problem-areas {
+            margin-top: $xs;
+
+            .button {
+                margin-top: $xs;
+            }
+
+            .column.first {
+                .button {
+                    border-top-left-radius: $radius-l;
+                }
+            }
+
+            .column.last {
+                .button {
+                    border-bottom-right-radius: $radius-l;
+                }
+            }
+        }
+
     }
 }

@@ -5,14 +5,25 @@ function onReadMoreClick() {
 }
 function showProblems(problems) {
     var problemIds = problems.split(',');
-    var buttons = document.querySelector('#banner-problem-areas').children;
-    for (var i = 0; i < buttons.length; i++) {
-        var button = buttons[i];
-        if (problems === 'ALL' || problemIds.indexOf(button.dataset.id) >= 0) {
-            buttons[i].classList.remove('is-hidden');
+    var columns = document.querySelector('#banner-problem-areas').children;
+    for (var i = 0; i < columns.length; i++) {
+        var column = columns[i];
+        var index = problemIds.indexOf(column.dataset.id);
+        if (problems === 'ALL' || index >= 0) {
+            columns[i].classList.remove('is-hidden');
+            columns[i].classList.remove('first');
+            columns[i].classList.remove('last');
+            if (index == 0) {
+                columns[i].classList.add('first');
+            }
+            if (index == problemIds.length - 1) {
+                columns[i].classList.add('last');
+            }
         }
         else {
-            buttons[i].classList.add('is-hidden');
+            columns[i].classList.add('is-hidden');
+            columns[i].classList.remove('first');
+            columns[i].classList.remove('last');
         }
     }
 }
