@@ -104,8 +104,6 @@ if ($lang == 'sv') {
             content=""
             class="l10n">
 
-      <!-- Optional: Set canonical version of this page (https://support.google.com/webmasters/answer/10347851) -->
-
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="stylesheet"
             href="/styles/default-layout.css">
@@ -120,62 +118,157 @@ if ($lang == 'sv') {
             <section id="banner">
                   <div id="banner-green">
                         <div class="container l10n">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
-                              <h2 class="big mt-xs l10n">Skin problems</h2>
-                              <p class="p200 mt-xs">
-                                    <span id="problems-banner-collapsed"
-                                          class="l10n">
-                                          In a personal meeting with a skin specialist, your skin type is examined and
-                                          identified. We take pre-photos of your skin, recommend. In a personal meeting
-                                          with a
-                                          skin specialist, your skin type is examined and identified. We take pre-photos
-                                          of
-                                          your skin, recommend. In a personal meeting with a skin specialist, your skin
-                                          type
-                                          is examined and identified In a personal meeting with a skin specialist, your
-                                          skinonal...
-                                          <span class="l10n underline"
-                                                onclick="onReadMoreClick()">read more</span>
-                                    </span>
-                                    <span id="problems-banner-expanded"
-                                          class="l10n is-hidden">
-                                          In a personal meeting with a skin specialist, your skin type is
-                                          examined and identified. We take pre-photos of your skin, recommend. In a
-                                          personal
-                                          meeting with a skin specialist, your skin type is examined and identified. We
-                                          take
-                                          pre-photos of your skin, recommend. In a personal meeting with a skin
-                                          specialist,
-                                          your
-                                          skin type is examined and identified In a personal meeting with a skin
-                                          specialist,
-                                          your
-                                          skinonal.
+                              <div class="is-hidden-desktop">
+                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
+                                    <h1 class="h600 mt-xs l10n">Skin problems</h2>
+                                          <p class="p200 mt-xs">
+                                                <span id="problems-banner-collapsed"
+                                                      class="l10n">
+                                                      In a personal meeting with a skin specialist, your skin type is
+                                                      examined
+                                                      and
+                                                      identified. We take pre-photos of your skin, recommend. In a
+                                                      personal
+                                                      meeting
+                                                      with a
+                                                      skin specialist, your skin type is examined and identified. We
+                                                      take
+                                                      pre-photos
+                                                      of
+                                                      your skin, recommend. In a personal meeting with a skin
+                                                      specialist, your
+                                                      skin
+                                                      type
+                                                      is examined and identified In a personal meeting with a skin
+                                                      specialist,
+                                                      your
+                                                      skinonal...
+                                                      <span class="l10n underline"
+                                                            onclick="onReadMoreClick()">read more</span>
+                                                </span>
+                                                <span id="problems-banner-expanded"
+                                                      class="l10n is-hidden">
+                                                      In a personal meeting with a skin specialist, your skin type is
+                                                      examined and identified. We take pre-photos of your skin,
+                                                      recommend. In
+                                                      a
+                                                      personal
+                                                      meeting with a skin specialist, your skin type is examined and
+                                                      identified. We
+                                                      take
+                                                      pre-photos of your skin, recommend. In a personal meeting with a
+                                                      skin
+                                                      specialist,
+                                                      your
+                                                      skin type is examined and identified In a personal meeting with a
+                                                      skin
+                                                      specialist,
+                                                      your
+                                                      skinonal.
 
-                                          In a personal meeting with a skin specialist, your skin type is examined and
-                                          identified. We take pre-photos of your skin, recommend. In a personal meeting
-                                          with a
-                                          skin specialist, your skin type is examined and identified. We take pre-photos
-                                          of
-                                          your skin, recommend. In a personal meeting with a skin specialist, your skin
-                                          type
-                                          is examined and identified In a personal meeting with a skin specialist, your
-                                          skinonal.
-                                    </span>
-                              </p>
-                              <a href="https://dahlskincare.com/skin-consultation"
-                                 target="_blank"
-                                 class="button b200 white expand mt-xl l10n">Get a free consultation</a>
-                              <div class="chips mt-xl">
-                                    <div class="chip">
-                                          <?php icon('trustpilot') ?>
-                                          <span class="l10n">4,8 on Trustpilot</span>
+                                                      In a personal meeting with a skin specialist, your skin type is
+                                                      examined
+                                                      and
+                                                      identified. We take pre-photos of your skin, recommend. In a
+                                                      personal
+                                                      meeting
+                                                      with a
+                                                      skin specialist, your skin type is examined and identified. We
+                                                      take
+                                                      pre-photos
+                                                      of
+                                                      your skin, recommend. In a personal meeting with a skin
+                                                      specialist, your
+                                                      skin
+                                                      type
+                                                      is examined and identified In a personal meeting with a skin
+                                                      specialist,
+                                                      your
+                                                      skinonal.
+                                                </span>
+                                          </p>
+                                          <a href="https://dahlskincare.com/skin-consultation"
+                                             target="_blank"
+                                             class="button b200 white expand mt-xl l10n">Get a free consultation</a>
+                                          <div class="chips mt-xl">
+                                                <div class="chip">
+                                                      <?php icon('trustpilot') ?>
+                                                      <span class="l10n">4,8 on Trustpilot</span>
+                                                </div>
+                                                <div class="chip">
+                                                      <span class="l10n">30 years</span>
+                                                </div>
+                                                <div class="chip">
+                                                      <span class="l10n">200k+ clients</span>
+                                                </div>
+                                          </div>
+                              </div>
+                              <div class="is-hidden-touch"
+                                   id="banner-green-desktop">
+                                    <div class="flex-row justify-space-between">
+                                          <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
+                                          <div class="chips mt-xl">
+                                                <div class="chip">
+                                                      <?php icon('trustpilot') ?>
+                                                      <span class="l10n">4,8 on Trustpilot</span>
+                                                </div>
+                                                <div class="chip">
+                                                      <span class="l10n">30 years</span>
+                                                </div>
+                                                <div class="chip">
+                                                      <span class="l10n">200k+ clients</span>
+                                                </div>
+                                          </div>
                                     </div>
-                                    <div class="chip">
-                                          <span class="l10n">30 years</span>
-                                    </div>
-                                    <div class="chip">
-                                          <span class="l10n">200k+ clients</span>
+                                    <div class="flex-row align-end">
+                                          <div id="skin-problems-header-column">
+                                                <h1 class="h600 mt-xs l10n">Skin<br />problems</h1>
+                                                <a href="https://dahlskincare.com/skin-consultation"
+                                                   class="button b200 white mt-xl">Get a free consultation</a>
+                                          </div>
+                                          <div class="l10n">
+                                                In a personal meeting with a skin specialist, your skin type is
+                                                examined
+                                                and
+                                                identified. We take pre-photos of your skin, recommend. In a
+                                                personal
+                                                meeting
+                                                with a
+                                                skin specialist, your skin type is examined and identified. We
+                                                take
+                                                pre-photos
+                                                of
+                                                your skin, recommend. In a personal meeting with a skin
+                                                specialist, your
+                                                skin
+                                                type
+                                                is examined and identified In a personal meeting with a skin
+                                                specialist,
+                                                your
+                                                skinonal
+                                          </div>
+                                          <div class="ml-xl4 l10n">
+                                                In a personal meeting with a skin specialist, your skin type is
+                                                examined
+                                                and
+                                                identified. We take pre-photos of your skin, recommend. In a
+                                                personal
+                                                meeting
+                                                with a
+                                                skin specialist, your skin type is examined and identified. We
+                                                take
+                                                pre-photos
+                                                of
+                                                your skin, recommend. In a personal meeting with a skin
+                                                specialist, your
+                                                skin
+                                                type
+                                                is examined and identified In a personal meeting with a skin
+                                                specialist,
+                                                your
+                                                skinonal
+                                          </div>
+
                                     </div>
                               </div>
                         </div>

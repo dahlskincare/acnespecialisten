@@ -34,6 +34,20 @@ section#banner {
                 }
             }
         }
+
+
+        @media screen and (min-width: $desktop) {
+            padding-bottom: $m;
+
+            #banner-green-desktop {
+                padding-bottom: $xl5;
+
+                #skin-problems-header-column {
+                    flex: 1 0 425px;
+                }
+            }
+
+        }
     }
 
     #banner-problem-area-filters {

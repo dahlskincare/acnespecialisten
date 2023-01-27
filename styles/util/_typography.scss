@@ -88,6 +88,11 @@ h3,
 }
 
 h1.big,
+.h700 {
+    @include h700;
+}
+
+h1,
 .h600 {
     @include h600;
 }

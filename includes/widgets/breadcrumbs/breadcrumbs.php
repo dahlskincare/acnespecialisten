@@ -1,23 +1,4 @@
 <?php
-class PathSegment
-{
-    public function __construct($name, $url = null)
-    {
-        if (strpos($name, '.') > 0) {
-            $this->name = substr($name, 0, strpos($name, '.'));
-            $this->url = $name;
-        } else {
-            $this->name = $name;
-            $this->url = $name . '.php';
-        }
-        if ($url != null) {
-            $this->url = $url;
-        }
-    }
-
-    public $name;
-    public $url;
-}
 
 $segments = array();
 if ($lang == 'sv') {

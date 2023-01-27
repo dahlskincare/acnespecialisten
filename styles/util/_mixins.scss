@@ -42,11 +42,19 @@
     }
 }
 
-@mixin h600 {
+@mixin h700 {
     @include font-style("DM Serif Text", serif, 52px, 60px, -0.02em, 400);
 
     @include desktop {
         @include font-style("DM Serif Text", serif, 92px, 104px, -0.02em, 400);
+    }
+}
+
+@mixin h600 {
+    @include font-style("DM Serif Text", serif, 40px, 48px, -0.02em, 400);
+
+    @include desktop {
+        @include font-style("DM Serif Text", serif, 56px, 64px, -0.02em, 400);
     }
 }
 
