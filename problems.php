@@ -16,13 +16,23 @@ class ProblemArea
 
 class Problem
 {
-      public function __construct($label, $url)
+      public function __construct($label, $url, $consultation_url, $booking_url, $image_small, $image_large, $info)
       {
             $this->label = $label;
             $this->url = $url;
+            $this->consultation_url = $consultation_url;
+            $this->booking_url = $booking_url;
+            $this->image_small = $image_small;
+            $this->image_large = $image_large;
+            $this->info = $info;
       }
       public string $label;
       public string $url;
+      public string $consultation_url;
+      public string $booking_url;
+      public string $image_small;
+      public string $image_large;
+      public string $info;
 }
 
 if ($lang == 'sv') {

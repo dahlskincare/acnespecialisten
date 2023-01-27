@@ -110,21 +110,21 @@
                         <?php
                         $accordion = array();
                         if ($lang == 'sv') {
-                              $accordion[] = new AccordionItem('Akne', 'images/problems/small/acne.jpg', 'images/problems/large/acne.jpg', 'problems/acne.php', true, true);
-                              $accordion[] = new AccordionItem('Akneärr', 'images/problems/small/acne-scars.jpg', 'images/problems/large/acne-scars.jpg', 'problems/acne-scars.php', true, true);
-                              $accordion[] = new AccordionItem('Rosacea', 'images/problems/small/rosacea.jpg', 'images/problems/large/rosacea.jpg', 'problems/rosacea.php', true, true);
-                              $accordion[] = new AccordionItem('Pigmentering', 'images/problems/small/pigmentation.jpg', 'images/problems/large/pigmentation.jpg', 'problems/pigmentation.php', true, true);
-                              $accordion[] = new AccordionItem('Pormaskar', 'images/problems/small/large-pores.jpg', 'images/problems/large/large-pores.jpg', 'problems/large-pores.php', true, true);
-                              $accordion[] = new AccordionItem('Åldrande hy', 'images/problems/small/mature-skin.jpg', 'images/problems/large/mature-skin.jpg', 'problems/mature-skin.php', false, true);
-                              $accordion[] = new AccordionItem('Visa alla problem', 'images/problems/small/other.jpg', 'images/problems/large/other.jpg', 'problems.php', true, false);
+                              $accordion[] = new AccordionItem('Akne', 'images/problems/carousel/small/acne.jpg', 'images/problems/carousel/large/acne.jpg', 'problems/acne.php', true, true);
+                              $accordion[] = new AccordionItem('Akneärr', 'images/problems/carousel/small/acne-scars.jpg', 'images/problems/carousel/large/acne-scars.jpg', 'problems/acne-scars.php', true, true);
+                              $accordion[] = new AccordionItem('Rosacea', 'images/problems/carousel/small/rosacea.jpg', 'images/problems/large/carousel/rosacea.jpg', 'problems/rosacea.php', true, true);
+                              $accordion[] = new AccordionItem('Pigmentering', 'images/problems/carousel/small/pigmentation.jpg', 'images/problems/carousel/large/pigmentation.jpg', 'problems/pigmentation.php', true, true);
+                              $accordion[] = new AccordionItem('Pormaskar', 'images/problems/carousel/small/large-pores.jpg', 'images/problems/carousel/large/large-pores.jpg', 'problems/large-pores.php', true, true);
+                              $accordion[] = new AccordionItem('Åldrande hy', 'images/problems/carousel/small/mature-skin.jpg', 'images/problems/carousel/large/mature-skin.jpg', 'problems/mature-skin.php', false, true);
+                              $accordion[] = new AccordionItem('Visa alla problem', 'images/problems/carousel/small/other.jpg', 'images/problems/carousel/large/other.jpg', 'problems.php', true, false);
                         } else {
-                              $accordion[] = new AccordionItem('Acne', 'images/problems/small/acne.jpg', 'images/problems/large/acne.jpg', 'problems/acne.php', true, true);
-                              $accordion[] = new AccordionItem('Acne scars', 'images/problems/small/acne-scars.jpg', 'images/problems/large/acne-scars.jpg', 'problems/acne-scars.php', true, true);
-                              $accordion[] = new AccordionItem('Rosacea', 'images/problems/small/rosacea.jpg', 'images/problems/large/rosacea.jpg', 'problems/rosacea.php', true, true);
-                              $accordion[] = new AccordionItem('Pigmentation', 'images/problems/small/pigmentation.jpg', 'images/problems/large/pigmentation.jpg', 'problems/pigmentation.php', true, true);
-                              $accordion[] = new AccordionItem('Comedones', 'images/problems/small/large-pores.jpg', 'images/problems/large/large-pores.jpg', 'problems/large-pores.php', true, true);
-                              $accordion[] = new AccordionItem('Aging skin', 'images/problems/small/mature-skin.jpg', 'images/problems/large/mature-skin.jpg', 'problems/mature-skin.php', false, true);
-                              $accordion[] = new AccordionItem('View all problems', 'images/problems/small/other.jpg', 'images/problems/large/other.jpg', 'problems.php', true, false);
+                              $accordion[] = new AccordionItem('Acne', 'images/problems/carousel/small/acne.jpg', 'images/problems/carousel/large/acne.jpg', 'problems/acne.php', true, true);
+                              $accordion[] = new AccordionItem('Acne scars', 'images/problems/carousel/small/acne-scars.jpg', 'images/problems/carousel/large/acne-scars.jpg', 'problems/acne-scars.php', true, true);
+                              $accordion[] = new AccordionItem('Rosacea', 'images/problems/carousel/small/rosacea.jpg', 'images/problems/carousel/large/rosacea.jpg', 'problems/rosacea.php', true, true);
+                              $accordion[] = new AccordionItem('Pigmentation', 'images/problems/carousel/small/pigmentation.jpg', 'images/problems/carousel/large/pigmentation.jpg', 'problems/pigmentation.php', true, true);
+                              $accordion[] = new AccordionItem('Comedones', 'images/problems/carousel/small/large-pores.jpg', 'images/problems/carousel/large/large-pores.jpg', 'problems/large-pores.php', true, true);
+                              $accordion[] = new AccordionItem('Aging skin', 'images/problems/carousel/small/mature-skin.jpg', 'images/problems/carousel/large/mature-skin.jpg', 'problems/mature-skin.php', false, true);
+                              $accordion[] = new AccordionItem('View all problems', 'images/carousel/problems/small/other.jpg', 'images/problems/carousel/large/other.jpg', 'problems.php', true, false);
                         }
                         $more_count = 17;
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/accordion/accordion.php')
