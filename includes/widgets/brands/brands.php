@@ -1,0 +1,1 @@
+<div class="brands-widget">hello</div>
