@@ -223,7 +223,9 @@
                        class="button b100 compact text l10n">Cookie policy</a>
                     <div id="language-selector">
                         <?php icon("intl") ?>
-                        <span class="button b100 compact text l10n">English</span>
+                        <span class="button b100 compact text l10n">
+                            <?php echo $lang == 'sv' ? 'Svenska' : 'English' ?>
+                        </span>
                     </div>
                 </div>
                 <a href="https://www.dahlskincare.com/skin-consultation"
