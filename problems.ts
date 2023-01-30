@@ -10,7 +10,7 @@ function showProblems(problems: String) {
     let cards = document.querySelectorAll('.problem-area-card');
     for (var i = 0; i < columns.length; i++) {
         let column = columns[i] as HTMLElement;
-        let card = cards[i] as HTMLElement;
+        let card = cards[i].parentElement as HTMLElement;
         let index = problemIds.indexOf(column.dataset.id);
         if (problems === 'ALL' || index >= 0) {
             column.classList.remove('is-hidden');

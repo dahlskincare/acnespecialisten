@@ -9,7 +9,7 @@ function showProblems(problems) {
     var cards = document.querySelectorAll('.problem-area-card');
     for (var i = 0; i < columns.length; i++) {
         var column = columns[i];
-        var card = cards[i];
+        var card = cards[i].parentElement;
         var index = problemIds.indexOf(column.dataset.id);
         if (problems === 'ALL' || index >= 0) {
             column.classList.remove('is-hidden');
