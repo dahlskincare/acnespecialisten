@@ -328,14 +328,14 @@ if ($lang == 'sv') {
                                                             <a href="<?php echo $problem->url ?>"
                                                                class="mt-m button text compact l10n">Read more</a>
                                                             <hr>
-                                                            <div class="columns">
-                                                                  <div class="column">
+                                                            <div class="columns is-multiline">
+                                                                  <div class="column mt-xxs is-full is-half-widescreen">
                                                                         <a href="https://www.dahlskincare.com/skin-consultation"
                                                                            target="_blank"
                                                                            class="button expand l10n">Get a free
                                                                               consultation</a>
                                                                   </div>
-                                                                  <div class="column">
+                                                                  <div class="column mt-xxs is-full is-half-widescreen">
                                                                         <!-- TODO: procedure link -->
                                                                         <a href="#"
                                                                            target="_blank"

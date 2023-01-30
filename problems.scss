@@ -150,7 +150,7 @@ section#banner {
 }
 
 section#cards {
-    div.problem-area-card {
+    .problem-area-card {
         border: 1px solid $light-200;
         border-radius: $radius-l;
         overflow: hidden;
@@ -177,6 +177,8 @@ section#cards {
         margin-top: $m;
 
         .problem-area-card {
+            box-shadow: none;
+
             .problem-area-card-content {
                 hr {
                     @media screen and (min-width: $tablet) {
