@@ -355,6 +355,214 @@ if ($lang == 'sv') {
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/consultation_banner/consultation_banner.php'); ?>
                   </div>
             </section>
+            <section id="results">
+                  <div class="is-hidden-tablet">
+                        <div class="container">
+                              <div class="flex-row justify-space-between">
+                                    <h2 class="big l10n">Results</h2>
+                                    <div class="step-buttons">
+                                          <button class="round-large grey"
+                                                  onclick="Carousel.prev('#results-carousel')">
+                                                <?php icon('arrow-left') ?>
+                                          </button>
+                                          <button class="round-large grey"
+                                                  onclick="Carousel.next('#results-carousel')">
+                                                <?php icon('arrow-right') ?>
+                                          </button>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="carousel"
+                             id="results-carousel">
+                              <div class="slide">
+                                    <div class="container l10n">
+                                          <?php
+                                          $before = 'images/results/acne-before.webp';
+                                          $after = 'images/results/acne-after.webp';
+                                          if ($lang == 'sv') {
+                                                $label = 'Efter två månaders <a href="treatments/acne.php">aknebehandling</a>';
+                                          } else {
+                                                $label = 'After two months of <a href="treatments/acne.php">acne treatment</a>';
+                                          }
+                                          include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
+                                          ?>
+                                    </div>
+                              </div>
+                              <div class="slide">
+                                    <div class="container l10n">
+                                          <?php
+                                          $before = 'images/results/rosacea-before.webp';
+                                          $after = 'images/results/rosacea-after.webp';
+                                          if ($lang == 'sv') {
+                                                $label = 'Efter två månaders <a href="treatments/rosacea.php">rosaceabehandling</a>';
+                                          } else {
+                                                $label = 'After two months of <a href="treatments/rosacea.php">rosacea treatment</a>';
+                                          }
+                                          include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
+                                          ?>
+                                    </div>
+                              </div>
+                              <div class="slide">
+                                    <div class="container l10n">
+                                          <?php
+                                          $before = 'images/results/comedones-before.webp';
+                                          $after = 'images/results/comedones-after.webp';
+                                          if ($lang == 'sv') {
+                                                $label = 'Efter två månaders <a href="treatments/comedones.php">pormaskbehandling</a>';
+                                          } else {
+                                                $label = 'After two months of <a href="treatments/comedones.php">comedones treatment</a>';
+                                          }
+                                          include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
+                                          ?>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="container">
+                              <a class="button outline expand l10n"
+                                 href="results.php">View all treatment results</a>
+                        </div>
+                  </div>
+                  <div class="container is-hidden-mobile">
+                        <div class="flex-row align-end justify-space-between">
+                              <h2 class="big l10n">Results</h2>
+                              <a href="results.php"
+                                 class="button compact text">
+                                    <span class="l10n">View all treatment results</span>
+                                    <?php icon('navigate-next') ?>
+                              </a>
+                        </div>
+                        <div class="columns is-3 is-variable">
+                              <div class="column l10n">
+                                    <?php
+                                    $before = 'images/results/acne-before.webp';
+                                    $after = 'images/results/acne-after.webp';
+                                    if ($lang == 'sv') {
+                                          $label = 'Efter två månaders <a href="treatments/acne.php">aknebehandling</a>';
+                                    } else {
+                                          $label = 'After two months of <a href="treatments/acne.php">acne treatment</a>';
+                                    }
+                                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
+                                    ?>
+                              </div>
+                              <div class="column l10n">
+                                    <?php
+                                    $before = 'images/results/rosacea-before.webp';
+                                    $after = 'images/results/rosacea-after.webp';
+                                    if ($lang == 'sv') {
+                                          $label = 'Efter två månaders <a href="treatments/rosacea.php">rosaceabehandling</a>';
+                                    } else {
+                                          $label = 'After two months of <a href="treatments/rosacea.php">rosacea treatment</a>';
+                                    }
+                                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
+                                    ?>
+                              </div>
+                              <div class="column l10n">
+                                    <?php
+                                    $before = 'images/results/comedones-before.webp';
+                                    $after = 'images/results/comedones-after.webp';
+                                    if ($lang == 'sv') {
+                                          $label = 'Efter två månaders <a href="treatments/comedones.php">pormaskbehandling</a>';
+                                    } else {
+                                          $label = 'After two months of <a href="treatments/comedones.php">comedones treatment</a>';
+                                    }
+                                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
+                                    ?>
+                              </div>
+                        </div>
+                  </div>
+            </section>
+            <section id="reviews">
+                  <div class="container">
+                        <div class="flex-row align-end justify-space-between">
+                              <h2 class="big l10n">Reviews</h2>
+                              <div class="flex-row is-hidden-mobile">
+                                    <div class="step-buttons">
+                                          <button class="round-large grey"
+                                                  onclick="Carousel.prev('#reviews-carousel')">
+                                                <?php icon('arrow-left') ?>
+                                          </button>
+                                          <button class="round-large grey"
+                                                  onclick="Carousel.next('#reviews-carousel')">
+                                                <?php icon('arrow-right') ?>
+                                          </button>
+                                    </div>
+                                    <a href="reviews.php"
+                                       class="ml-l button compact text">
+                                          <span class="l10n">View all reviews</span>
+                                          <?php icon('navigate-next') ?>
+                                    </a>
+                              </div>
+
+                        </div>
+                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
+                        <a class="mt-xl button outline expand is-hidden-tablet l10n"
+                           href="reviews.php">View all reviews</a>
+                  </div>
+            </section>
+            <section id="faq">
+                  <div class="container">
+                        <div class="flex-row align-end justify-space-between">
+                              <h2 class="big l10n">Questions & answers</h2>
+                              <a href="faq.php"
+                                 class="button compact text is-hidden-mobile">
+                                    <span class="l10n">View all questions</span>
+                                    <?php icon('navigate-next') ?>
+                              </a>
+                        </div>
+                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
+                  </div>
+            </section>
+            <section id="skin-guide">
+                  <div class="container">
+                        <div class="flex-row align-end justify-space-between">
+                              <h2 class="big l10n">Skin guide</h2>
+                              <a href="skin-guide.php"
+                                 class="button compact text is-hidden-mobile">
+                                    <span class="l10n">View all articles</span>
+                                    <?php icon('navigate-next') ?>
+                              </a>
+                        </div>
+                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php'); ?>
+                        <a class="mt-xl button outline expand is-hidden-tablet l10n"
+                           href="skin-guide.php">View all articles</a>
+                  </div>
+            </section>
+            <section id="specialists">
+                  <div class="container">
+                        <div class="flex-row align-end justify-space-between">
+                              <h2 class="big l10n">Our specialists</h2>
+                              <a href="specialists.php"
+                                 class="button compact text is-hidden-mobile">
+                                    <span class="l10n">View all specialists</span>
+                                    <?php icon('navigate-next') ?>
+                              </a>
+                        </div>
+                        <?php
+                        $specialists = array();
+                        $specialists[] = new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-1.jpg', 'images/specialists/large/specialist-1.jpg');
+                        $specialists[] = new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-2.jpg', 'images/specialists/large/specialist-2.jpg');
+                        $specialists[] = new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-3.jpg', 'images/specialists/large/specialist-3.jpg');
+                        $specialists[] = new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-4.jpg', 'images/specialists/large/specialist-4.jpg');
+                        include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
+                        ?>
+                        <a class="mt-xl button outline expand is-hidden-tablet l10n"
+                           href="specialists.php">View all specialists</a>
+                  </div>
+            </section>
+            <section id="brands">
+                  <div class="container">
+                        <div class="flex-row align-end justify-space-between">
+                              <h2 class="big l10n">Brands we use</h2>
+                              <a href="brands.php"
+                                 class="button compact text is-hidden-mobile">
+                                    <span class="l10n">View all brands</span>
+                                    <?php icon('navigate-next') ?>
+                              </a>
+                        </div>
+                        <a class="mt-xl button outline expand is-hidden-tablet l10n"
+                           href="brands.php">View all brands</a>
+                  </div>
+            </section>
       </main>
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
       <script>showProblems('ALL')</script>

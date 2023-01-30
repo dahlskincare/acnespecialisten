@@ -284,7 +284,7 @@
                               </div>
                         </div>
                         <div class="container">
-                              <a class="button outline expand is-hidden-tablet l10n"
+                              <a class="button outline expand l10n"
                                  href="results.php">View all treatment results</a>
                         </div>
                   </div>
@@ -418,6 +418,8 @@
                               </a>
                         </div>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php'); ?>
+                        <a class="mt-xl button outline expand is-hidden-tablet l10n"
+                           href="skin-guide.php">View all articles</a>
                   </div>
             </section>
             <section id="about-us">
@@ -536,6 +538,8 @@
                                     <?php icon('navigate-next') ?>
                               </a>
                         </div>
+                        <a class="mt-xl button outline expand is-hidden-tablet l10n"
+                           href="brands.php">View all brands</a>
                   </div>
             </section>
       </main>

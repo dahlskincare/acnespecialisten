@@ -195,6 +195,62 @@ section#consultation-banner {
 
     @media screen and (min-width: $tablet) {
         margin-top: $xl5 + $xl;
+    }
+}
 
+section#results {
+    margin-top: 72px;
+
+    .carousel {
+        padding-bottom: $xl;
+    }
+
+    .result-widget {
+        margin-top: $l;
+    }
+
+    @media screen and (min-width: $tablet) {
+        margin-top: 104px;
+    }
+}
+
+section#reviews {
+    margin-top: 72px;
+
+    @media screen and (min-width: $tablet) {
+        margin-top: 104px;
+    }
+}
+
+
+section#faq {
+    margin-top: 72px;
+
+    @media screen and (min-width: $tablet) {
+        margin-top: 104px;
+    }
+}
+
+section#skin-guide {
+    margin-top: 72px;
+
+    @media screen and (min-width: $tablet) {
+        margin-top: 104px;
+    }
+}
+
+section#specialists {
+    margin-top: 72px;
+
+    @media screen and (min-width: $tablet) {
+        margin-top: 104px;
+    }
+}
+
+section#brands {
+    margin-top: 72px;
+
+    @media screen and (min-width: $tablet) {
+        margin-top: 104px;
     }
 }
