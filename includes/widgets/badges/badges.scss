@@ -1,0 +1,23 @@
+@import '../../../styles/util/colors';
+@import '../../../styles/util/sizes';
+@import '../../../styles/util/mixins';
+
+.badges-widget {
+    display: flex;
+    justify-content: space-between;
+
+    .badge {
+        display: flex;
+        align-items: center;
+        background-color: $deep-sea-500;
+        border-radius: $xl4;
+        padding: 5.5px $s;
+        margin-right: 6px;
+
+        @include button-text-color($white-500);
+
+        span.icon {
+            margin-right: 6px;
+        }
+    }
+}

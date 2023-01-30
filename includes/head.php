@@ -92,3 +92,6 @@ function icon($name)
 <!-- Consultation banner -->
 <link rel="stylesheet"
       href="/includes/widgets/consultation_banner/consultation_banner.css" />
+<!-- Badges -->
+<link rel="stylesheet"
+      href="/includes/widgets/badges/badges.css" />
