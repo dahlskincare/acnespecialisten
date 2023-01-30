@@ -17,7 +17,6 @@ function icon($name)
 <meta charset="UTF-8">
 <meta name="author"
       content="Acnespecialisten Sverige AB">
-<base href="/">
 <link rel="stylesheet"
       href="styles/normalize.css">
 <link rel="stylesheet"
