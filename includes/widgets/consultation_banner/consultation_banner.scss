@@ -10,7 +10,11 @@ div.consultation-banner-widget {
     padding: $xl;
 
     .columns {
-        .column.first-child {
+        .column:first-child {
+            h2 {
+                max-width: 200px;
+            }
+
             p {
                 margin-top: $xs;
             }
@@ -30,7 +34,11 @@ div.consultation-banner-widget {
         padding: $xl3;
 
         .columns {
-            .column.first-child {
+            .column:first-child {
+                h2 {
+                    max-width: none;
+                }
+
                 p {
                     margin-top: $xxs;
                 }
