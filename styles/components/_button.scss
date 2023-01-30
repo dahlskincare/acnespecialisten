@@ -84,6 +84,13 @@ input[type=submit],
     }
 }
 
+button.bright,
+input[type=submit].bright,
+.button.bright {
+    background-color: $deep-sea-300;
+    border-color: $deep-sea-300;
+}
+
 button.expand,
 input[type=submit].expand,
 .button.expand {
@@ -97,11 +104,6 @@ input[type=submit].compact,
     padding: 0;
     min-width: 0;
 }
-
-
-
-
-
 
 button:hover,
 input[type=submit]:hover,
