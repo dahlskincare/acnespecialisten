@@ -187,3 +187,12 @@ section#cards {
         }
     }
 }
+
+section#consultation-banner {
+    margin-top: $xl;
+
+    @media screen and (min-width: $tablet) {
+        margin-top: $xl5 + $xl;
+
+    }
+}

@@ -350,6 +350,11 @@ if ($lang == 'sv') {
                         </div>
                   </div>
             </section>
+            <section id="consultation-banner">
+                  <div class="container">
+                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/consultation_banner/consultation_banner.php'); ?>
+                  </div>
+            </section>
       </main>
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
       <script>showProblems('ALL')</script>

@@ -90,3 +90,6 @@ function icon($name)
 <!-- Breadcrumbs widget -->
 <link rel="stylesheet"
       href="/includes/widgets/breadcrumbs/breadcrumbs.css" />
+<!-- Consultation banner -->
+<link rel="stylesheet"
+      href="/includes/widgets/consultation_banner/consultation_banner.css" />

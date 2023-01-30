@@ -4,16 +4,12 @@
     <title>Acnespecialisten</title>
     <?php include('includes/head.php'); ?>
     <style>
-        body {
-            min-width: 800px;
-        }
-
-        h1 {
+        h1.section-title {
             margin-left: 24px;
             margin-top: 32px;
         }
 
-        h2 {
+        h2.section-title {
             margin-left: 24px;
             margin-top: 32px;
         }
@@ -36,9 +32,14 @@
 </head>
 
 <body>
-    <h1>Textfields</h1>
+    <h1 class="section-title">Consultation banner</h1>
     <hr>
-    <h2>Regular</h2>
+    <div class="section">
+        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/consultation_banner/consultation_banner.php'); ?>
+    </div>
+    <h1 class="section-title">Textfields</h1>
+    <hr>
+    <h2 class="section-title">Regular</h2>
     <div class="section">
         <div class="textfield">
             <?php icon("placeholder") ?>
@@ -47,16 +48,16 @@
             <?php icon("placeholder") ?>
         </div>
     </div>
-    <h2>Dense</h2>
+    <h2 class="section-title">Dense</h2>
     <div class="section">
         <div class="textfield dense">
             <input type="text"
                    placeholder="Hello!">
         </div>
     </div>
-    <h1>Buttons</h1>
+    <h1 class="section-title">Buttons</h1>
     <hr>
-    <h2>Regular</h2>
+    <h2 class="section-title">Regular</h2>
     <div class="section">
         <div class="button b300">XL</div>
         <div class="button b300 small-text">XL (small-text)</div>
@@ -78,7 +79,7 @@
             <div class="spinner"></div>
         </div>
     </div>
-    <h2>White</h2>
+    <h2 class="section-title">White</h2>
     <div class="section green">
         <div class="button white b300">XL</div>
         <div class="button white b300 small-text">XL (small-text)</div>
@@ -104,7 +105,7 @@
             <div class="spinner"></div>
         </div>
     </div>
-    <h2>Grey</h2>
+    <h2 class="section-title">Grey</h2>
     <div class="section">
         <div class="button grey b300">
             <?php icon('placeholder') ?>
@@ -134,7 +135,7 @@
         </div>
     </div>
 
-    <h2>Outline Green</h2>
+    <h2 class="section-title">Outline Green</h2>
     <div class="section">
         <div class="button outline b300">XL</div>
         <div class="button outline b300 small-text">XL (small-text)</div>
@@ -154,7 +155,7 @@
             <div class="spinner"></div>
         </div>
     </div>
-    <h2>Outline White</h2>
+    <h2 class="section-title">Outline White</h2>
     <div class="section green">
         <div class="button outline white b300">XL</div>
         <div class="button outline white b300 small-text">XL (small-text)</div>
@@ -174,7 +175,7 @@
             <div class="spinner"></div>
         </div>
     </div>
-    <h2>Text</h2>
+    <h2 class="section-title">Text</h2>
     <div class="section">
         <div class="button text b200">Large</div>
         <div class="button text">Normal</div>
@@ -192,7 +193,7 @@
             <div class="spinner"></div>
         </div>
     </div>
-    <h2>Text Grey</h2>
+    <h2 class="section-title">Text Grey</h2>
     <div class="section">
         <div class="button text grey b200">Large</div>
         <div class="button text grey">Normal</div>
@@ -206,7 +207,7 @@
             <?php icon("placeholder") ?>
         </div>
     </div>
-    <h2>Text Light</h2>
+    <h2 class="section-title">Text Light</h2>
     <div class="section">
         <div class="button text light b200">Large</div>
         <div class="button text light">Normal</div>
@@ -220,7 +221,7 @@
             <?php icon("placeholder") ?>
         </div>
     </div>
-    <h2>Text Light Grey</h2>
+    <h2 class="section-title">Text Light Grey</h2>
     <div class="section">
         <div class="button text light grey b200">Large</div>
         <div class="button text light grey">Normal</div>
@@ -234,7 +235,7 @@
             <?php icon("placeholder") ?>
         </div>
     </div>
-    <h2>Regular Round</h2>
+    <h2 class="section-title">Regular Round</h2>
     <div class="section">
         <div class="button round-large">
             <?php icon("placeholder") ?>
@@ -264,7 +265,7 @@
             <div class="spinner"></div>
         </div>
     </div>
-    <h2>Grey Round</h2>
+    <h2 class="section-title">Grey Round</h2>
     <div class="section">
         <div class="button grey round-large">
             <?php icon("placeholder") ?>
@@ -294,7 +295,7 @@
             <div class="spinner"></div>
         </div>
     </div>
-    <h2>White Round</h2>
+    <h2 class="section-title">White Round</h2>
     <div class="section green">
         <div class="button white round-large">
             <?php icon("placeholder") ?>
