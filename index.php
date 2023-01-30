@@ -283,6 +283,10 @@
                                     </div>
                               </div>
                         </div>
+                        <div class="container">
+                              <a class="button outline expand is-hidden-tablet l10n"
+                                 href="results.php">View all treatment results</a>
+                        </div>
                   </div>
                   <div class="container is-hidden-mobile">
                         <div class="flex-row align-end justify-space-between">
