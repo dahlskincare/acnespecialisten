@@ -2,6 +2,9 @@
 @import 'styles/util/sizes';
 @import 'styles/util/mixins';
 
+html {
+    scroll-behavior: smooth;
+}
 
 section#banner {
     #banner-green {
@@ -143,5 +146,44 @@ section#banner {
             }
         }
 
+    }
+}
+
+section#cards {
+    div.problem-area-card {
+        border: 1px solid $light-200;
+        border-radius: $radius-l;
+        overflow: hidden;
+        margin-top: $xl;
+        @include elevation-low();
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        .problem-area-card-content {
+            padding: $xl;
+
+            hr {
+                margin: $m 0;
+                border: 0;
+                border-top: 1px solid $light-200;
+            }
+        }
+    }
+
+    @media screen and (min-width: $tablet) {
+        margin-top: $m;
+
+        .problem-area-card {
+            .problem-area-card-content {
+                hr {
+                    @media screen and (min-width: $tablet) {
+                        margin: $xl 0;
+                    }
+                }
+            }
+        }
     }
 }

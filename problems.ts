@@ -7,24 +7,28 @@ function onReadMoreClick() {
 function showProblems(problems: String) {
     let problemIds = problems.split(',');
     let columns = document.querySelector('#banner-problem-areas').children;
+    let cards = document.querySelectorAll('.problem-area-card');
     for (var i = 0; i < columns.length; i++) {
         let column = columns[i] as HTMLElement;
+        let card = cards[i] as HTMLElement;
         let index = problemIds.indexOf(column.dataset.id);
         if (problems === 'ALL' || index >= 0) {
-            columns[i].classList.remove('is-hidden');
-            columns[i].classList.remove('first');
-            columns[i].classList.remove('last');
+            column.classList.remove('is-hidden');
+            column.classList.remove('first');
+            column.classList.remove('last');
             if (index == 0) {
-                columns[i].classList.add('first');
+                column.classList.add('first');
             }
             if (index == problemIds.length - 1) {
-                columns[i].classList.add('last');
+                column.classList.add('last');
             }
+            card.classList.remove('is-hidden');
         }
         else {
-            columns[i].classList.add('is-hidden');
-            columns[i].classList.remove('first');
-            columns[i].classList.remove('last');
+            column.classList.add('is-hidden');
+            column.classList.remove('first');
+            column.classList.remove('last');
+            card.classList.add('is-hidden');
         }
     }
 }
