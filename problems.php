@@ -202,34 +202,16 @@ if ($lang == 'sv') {
                                     <a href="https://dahlskincare.com/skin-consultation"
                                        target="_blank"
                                        class="button b200 white expand mt-xl l10n">Get a free consultation</a>
-                                    <div class="chips mt-xl">
-                                          <div class="chip">
-                                                <?php icon('trustpilot') ?>
-                                                <span class="l10n">4,8 on Trustpilot</span>
-                                          </div>
-                                          <div class="chip">
-                                                <span class="l10n">30 years</span>
-                                          </div>
-                                          <div class="chip">
-                                                <span class="l10n">200k+ clients</span>
-                                          </div>
+                                    <div class="mt-xl">
+                                          <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
                                     </div>
                               </div>
                               <div class="is-hidden-touch"
                                    id="banner-green-desktop">
                                     <div class="flex-row justify-space-between">
                                           <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
-                                          <div class="chips mt-xl mb-xs">
-                                                <div class="chip">
-                                                      <?php icon('trustpilot') ?>
-                                                      <span class="l10n">4,8 on Trustpilot</span>
-                                                </div>
-                                                <div class="chip">
-                                                      <span class="l10n">30 years</span>
-                                                </div>
-                                                <div class="chip">
-                                                      <span class="l10n">200k+ clients</span>
-                                                </div>
+                                          <div class="mt-xl mb-xs">
+                                                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
                                           </div>
                                     </div>
                                     <div class="flex-row align-end">
