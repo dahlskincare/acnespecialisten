@@ -1,3 +1,7 @@
+<?php
+$lang = 'en';
+?>
+
 <html>
 
 <head>
