@@ -13,7 +13,7 @@ function icon($name)
 
 ?>
 <meta name="viewport"
-      content="width=360, initial-scale=1" />
+      content="width=390, initial-scale=1" />
 <meta charset="UTF-8">
 <meta name="author"
       content="Acnespecialisten Sverige AB">
