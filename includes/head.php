@@ -2,8 +2,6 @@
 // IMPORTANT: 
 // Don't edit this file unless you know what you are doing!
 
-
-
 // PHP utility
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 function icon($name)
@@ -12,6 +10,7 @@ function icon($name)
 }
 
 ?>
+<base href="/">
 <meta name="viewport"
       content="width=390, initial-scale=1" />
 <meta charset="UTF-8">
