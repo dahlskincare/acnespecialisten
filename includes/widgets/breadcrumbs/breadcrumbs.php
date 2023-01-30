@@ -1,5 +1,6 @@
 <?php
 
+
 $segments = array();
 if ($lang == 'sv') {
     $segments[0] = new PathSegment('hem', '/');
@@ -14,12 +15,6 @@ foreach ($url_segments as $segment) {
 }
 
 $last_index = count($segments) - 1;
-/*
-$ext_pos = strpos($segments[$last_index]->name, '.');
-if ($ext_pos > 0) {
-$segments[$last_index]->name = substr($segments[$last_index]->name, 0, $ext_pos);
-}*/
-
 ?>
 
 <div class="breadcrumbs-widget">
