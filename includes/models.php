@@ -39,10 +39,10 @@ class PathSegment
     public function __construct($name, $url = null)
     {
         if (strpos($name, '.') > 0) {
-            $this->name = substr($name, 0, strpos($name, '.'));
-            $this->url = $name;
+            $this->name = substr($this->format_name($name), 0, strpos($name, '.'));
+            $this->url = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
         } else {
-            $this->name = $name;
+            $this->name = $this->format_name($name);
             $this->url = $name . '.php';
         }
         if ($url != null) {
@@ -52,6 +52,12 @@ class PathSegment
 
     public $name;
     public $url;
+
+    function format_name(string $s)
+    {
+        return ucfirst(str_replace('-', ' ', $s));
+    }
+
 }
 
 ?>
