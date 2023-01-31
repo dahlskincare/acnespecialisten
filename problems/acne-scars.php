@@ -179,21 +179,26 @@ if ($lang == 'sv') {
                         </div>
                   </div>
             </section>
-            <section id="content">
-                  <div class="container">
-                        <div id="left">
-                              <h1>Hello!</h1>
-                              <h1>Hello!</h1>
-                              <h1>Hello!</h1>
-                              <h1>Hello!</h1>
-                              <h1>Hello!</h1>
-                              <h1>Hello!</h1>
-                              <h1>Hello!</h1>
-                              <h1>Hello!</h1>
-                        </div>
-                  </div>
 
-            </section>
+            <div class="container">
+                  <div id="content">
+                        <section id="nav-buttons">
+                              <a class="button grey l10n">Overview</a>
+                              <a class="button grey l10n">Treatment approach</a>
+                              <a class="button grey l10n">Types & symptoms</a>
+                              <a class="button grey l10n">Define problem</a>
+                              <a class="button grey l10n">Treatment solutions</a>
+                              <a class="button grey l10n">Risk factors</a>
+                              <a class="button grey l10n">When to visit a doctor</a>
+                              <a class="button grey l10n">Cases</a>
+                              <a class="button grey l10n">Reviews</a>
+                              <a class="button grey l10n">FAQ</a>
+                              <a class="button grey l10n">Skin guide</a>
+                              <a class="button grey l10n">Specialists</a>
+                              <a class="button grey l10n">Related problems</a>
+                        </section>
+                  </div>
+            </div>
       </main>
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
       <script src="problems/problems.js"></script>

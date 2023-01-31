@@ -100,25 +100,41 @@ section#header {
     }
 }
 
-section#content {
-    .container {
-        #left {
-            border: 1px solid black;
-        }
+.container {
+    #content {
+        section#nav-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: $l;
 
-    }
-
-    @media screen and (min-width: $widescreen) {
-        .container {
-            #left {
-
-                max-width: 872px;
+            .button {
+                margin-top: $xs;
+                margin-right: $xs;
             }
         }
     }
 }
 
-#footer-large {
-    position: relative;
-    z-index: 2;
+@media screen and (min-width: $widescreen) {
+    .container {
+        #content {
+            max-width: 750px;
+
+            section#nav-buttons {
+
+                .button {
+                    margin-top: $xxs;
+                    margin-right: $xxs;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1408px) {
+    .container {
+        #content {
+            max-width: 872px;
+        }
+    }
 }
