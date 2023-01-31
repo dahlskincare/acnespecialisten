@@ -52,7 +52,7 @@ if ($lang == 'sv') {
       <div class="is-hidden-touch is-hidden-desktop-only"
            id="floater">
             <div class="container">
-                  <div id="picture"
+                  <div id="floating-picture"
                        style="background-image: url('images/problems/carousel/large/<?php echo $image ?>')">
                         <div id="overlay">
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
@@ -196,6 +196,9 @@ if ($lang == 'sv') {
                               <a class="button grey l10n">Skin guide</a>
                               <a class="button grey l10n">Specialists</a>
                               <a class="button grey l10n">Related problems</a>
+                        </section>
+                        <section id="about">
+
                         </section>
                   </div>
             </div>

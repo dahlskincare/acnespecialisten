@@ -16,14 +16,14 @@ div#floater {
         text-align: right;
         height: 0;
 
-        div#picture {
+        div#floating-picture {
             text-align: left;
             position: relative;
             display: inline-block;
             overflow: hidden;
             @include elevation-low();
             transform-origin: center left;
-            transition: filter 0.5s ease;
+            transition: filter 0.5s ease, opacity 0.5s ease;
             border-radius: $radius-l;
 
             flex-direction: column;
@@ -64,7 +64,7 @@ div#floater {
 
         }
 
-        div#picture.faded {
+        div#floating-picture.faded {
             filter: saturate(0.7);
 
             div#overlay {
@@ -72,6 +72,10 @@ div#floater {
                 height: 528px;
                 background-color: rgba(43, 43, 43, 0.5);
             }
+        }
+
+        div#floating-picture.hidden {
+            opacity: 0;
         }
     }
 }
@@ -111,6 +115,10 @@ section#header {
                 margin-top: $xs;
                 margin-right: $xs;
             }
+        }
+
+        section#about {
+            height: 50vh;
         }
     }
 }
