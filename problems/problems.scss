@@ -1,0 +1,124 @@
+@import "../styles/util/colors";
+@import "../styles/util/mixins";
+@import "../styles/util/sizes";
+
+.underline {
+    text-decoration: underline;
+}
+
+div#floater {
+    position: sticky;
+    height: 0;
+    top: 72px + $xl5; /// 72px: height of navbar
+    z-index: 1;
+
+    div.container {
+        text-align: right;
+        height: 0;
+
+        div#picture {
+            text-align: left;
+            position: relative;
+            display: inline-block;
+            overflow: hidden;
+            @include elevation-low();
+            transform-origin: center left;
+            transition: filter 0.5s ease;
+            border-radius: $radius-l;
+
+            flex-direction: column;
+            justify-content: space-between;
+            background-size: cover;
+
+            div#overlay {
+                opacity: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                width: 424px;
+                height: 456px;
+                padding: $xl $xxl $xxl $xxl;
+                box-sizing: border-box;
+                transition: opacity 0.5s ease, height 0.5s ease, background-color 0.5s ease;
+                color: $white-500;
+
+                .badges-widget {
+                    .badge {
+                        background-color: rgba(255, 255, 255, 0.2);
+                        margin-right: 4px;
+                    }
+
+                    .badge:last-child {
+                        margin-right: 0;
+                    }
+                }
+
+                .h600 {
+                    width: 131px;
+                }
+
+                p.aka {
+                    width: 283px;
+                }
+            }
+
+        }
+
+        div#picture.faded {
+            filter: saturate(0.7);
+
+            div#overlay {
+                opacity: 1;
+                height: 528px;
+                background-color: rgba(43, 43, 43, 0.5);
+            }
+        }
+    }
+}
+
+section#header {
+    #green-header-small {
+        background-color: $deep-sea-400;
+        color: $white-500;
+        padding-bottom: $m;
+    }
+
+    #green-header-large {
+        background-color: $deep-sea-400;
+        color: $white-500;
+
+        #green-header-large-text {
+            width: 648px;
+            padding-bottom: 62px;
+
+            #book-buttons {
+                .button {
+                    margin-right: $s;
+                }
+            }
+        }
+    }
+}
+
+section#content {
+    .container {
+        #left {
+            border: 1px solid black;
+        }
+
+    }
+
+    @media screen and (min-width: $widescreen) {
+        .container {
+            #left {
+
+                max-width: 872px;
+            }
+        }
+    }
+}
+
+#footer-large {
+    position: relative;
+    z-index: 2;
+}
