@@ -143,6 +143,18 @@ section#header {
 
         section#approach {
             margin-top: $xl3;
+
+            hr {
+                border: none;
+                border-top: 1px solid $light-200;
+            }
+
+            @media screen and (min-width: $tablet) {
+
+                margin-top: $xl5 + $xs;
+
+
+            }
         }
     }
 }

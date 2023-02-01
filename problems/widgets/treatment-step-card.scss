@@ -1,0 +1,52 @@
+@import '../../styles/util/colors';
+@import '../../styles/util/mixins';
+@import '../../styles/util/sizes';
+
+.treatment-step-card-widget {
+    margin-top: $xl;
+    padding: $xl;
+    border: 1px solid $light-200;
+    border-radius: $radius-l;
+    @include elevation-low();
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    .treatment-step-title {
+        @include h300;
+        display: flex;
+        align-items: center;
+
+        .index-circle {
+            width: 52px;
+            height: 52px;
+            border-radius: 52px;
+            background-color: $deep-sea-400;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: $white-500;
+            margin-right: $m;
+        }
+    }
+
+    .treatment-step-content {
+        margin-top: $m;
+        @include p200;
+    }
+
+    .button {
+        margin-top: $m;
+    }
+
+
+    @media screen and (min-width: $tablet) {
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+        border-radius: 0;
+        border: none;
+    }
+}
