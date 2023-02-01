@@ -2,13 +2,18 @@
 @import "../styles/util/mixins";
 @import "../styles/util/sizes";
 
-.underline {
-    text-decoration: underline;
+html {
+    scroll-behavior: smooth;
+
+    .underline {
+        text-decoration: underline;
+    }
+
+    .lowercase {
+        text-transform: lowercase;
+    }
 }
 
-.lowercase {
-    text-transform: lowercase;
-}
 
 div#floater {
     position: sticky;

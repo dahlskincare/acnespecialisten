@@ -1,12 +1,30 @@
 @import '../../styles/util/colors';
+@import '../../styles/util/mixins';
 @import '../../styles/util/sizes';
 
 div.problem-trivia-card-widget {
-    .prefix {
+    .trivia-prefix {
         padding: $xxs $xs;
         background-color: $deep-sea-400;
         color: $white-500;
         border-radius: $radius-s;
         margin-right: $xs;
+    }
+
+    .trivia-icons {
+        display: flex;
+
+        .trivia-icon {
+            @include h200;
+            display: flex;
+            align-items: center;
+            margin-right: $xl3;
+
+            .icon {
+                margin-right: $xs;
+                width: $xxl;
+                height: $xxl;
+            }
+        }
     }
 }
