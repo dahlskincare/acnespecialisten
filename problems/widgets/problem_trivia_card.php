@@ -8,27 +8,34 @@
         </span>
     </h3>
     <?php if (sizeof($trivia->icons) > 0) { ?>
-        <div class="trivia-icons mt-m">
-            <?php foreach ($trivia->icons as $icon => $label) { ?>
-                <div class="trivia-icon">
-                    <?php
-                    icon($icon);
-                    echo '<span>' . $label . '</span>';
-                    ?>
-                </div>
-            <?php } ?>
+        <div class="mt-m">
+            <div class="columns is-gapless is-mobile is-multiline">
+                <?php foreach ($trivia->icons as $icon => $label) { ?>
+                    <div class="column is-one-fifth-tablet is-half-mobile trivia-icon">
+                        <?php
+                        icon($icon);
+                        echo '<span>' . $label . '</span>';
+                        ?>
+                    </div>
+                <?php } ?>
+            </div>
         </div>
     <?php } ?>
-    <p class="p200 mt-m">
+    <div class="p200 mt-m">
         <?php echo $trivia->content ?>
-    </p>
-    <button class="mt-m text b200 compact"
+    </div>
+    <button class="mt-m text b200 compact is-hidden-mobile"
             onclick="showExtendedContent(this)">
         <span class="l10n">Read more</span>
         <?php icon('arrow-down') ?>
     </button>
-    <p class="p200 mt-m is-hidden"
-       id="extended-content">
+    <button class="mt-m grey b200 expand is-hidden-tablet"
+            onclick="showExtendedContent(this)">
+        <span class="l10n">Read more</span>
+        <?php icon('arrow-down') ?>
+    </button>
+    <div class="p200 mt-m is-hidden"
+         id="extended-content">
         <?php echo $trivia->extended_content ?>
-    </p>
+    </div>
 </div>

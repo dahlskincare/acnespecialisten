@@ -11,14 +11,12 @@ div.problem-trivia-card-widget {
         margin-right: $xs;
     }
 
-    .trivia-icons {
-        display: flex;
+    .columns {
 
         .trivia-icon {
             @include h200;
             display: flex;
             align-items: center;
-            margin-right: $xl3;
 
             .icon {
                 margin-right: $xs;
