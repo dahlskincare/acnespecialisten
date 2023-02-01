@@ -6,6 +6,10 @@
     text-decoration: underline;
 }
 
+.lowercase {
+    text-transform: lowercase;
+}
+
 div#floater {
     position: sticky;
     height: 0;
@@ -118,7 +122,17 @@ section#header {
         }
 
         section#about {
-            height: 50vh;
+            .h500 {
+                margin-top: $xl5 + $xs;
+                margin-bottom: -$xs;
+            }
+
+            hr {
+                margin-top: $xxl;
+                margin-bottom: $xxl;
+                border: none;
+                border-top: 1px solid $light-200;
+            }
         }
     }
 }

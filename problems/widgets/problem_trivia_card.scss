@@ -1,0 +1,12 @@
+@import '../../styles/util/colors';
+@import '../../styles/util/sizes';
+
+div.problem-trivia-card-widget {
+    .prefix {
+        padding: $xxs $xs;
+        background-color: $deep-sea-400;
+        color: $white-500;
+        border-radius: $radius-s;
+        margin-right: $xs;
+    }
+}

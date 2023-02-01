@@ -1,5 +1,6 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
+include_once('widgets/problem_trivia.php');
 
 // Image filename (must be in folder "images/problems/large/")
 $image = 'acne-scars.jpg';
@@ -10,11 +11,24 @@ if ($lang == 'sv') {
       $description = 'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat.';
       $akas = ['post-inflammatory-hyperpigmentation' => 'Post-inflammatory hyperpigmentation', 'athropic-scars' => 'Atrophic scars'];
       $booking_url = 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922';
+      $trivias = array(
+            new ProblemTrivia('What', 'is acne scars', 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. 
+This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a...', 'mooore', array()),
+            new ProblemTrivia('Why', 'do acne scars happen', 'blabla <strong>hej</strong>', 'mooore', array('infants' => 'Infants', 'teenagers' => 'Teenagers', 'adults' => 'Adults', 'elders' => 'Elders')),
+            new ProblemTrivia('Who', 'gets acne scars', 'blabla <strong>hej</strong>', 'mooore', array('infants' => 'Infants', 'teenagers' => 'Teenagers', 'adults' => 'Adults', 'elders' => 'Elders')),
+            new ProblemTrivia('Where', 'acne scars is', 'blabla <strong>hej</strong>', 'mooore', array('infants' => 'Infants', 'teenagers' => 'Teenagers', 'adults' => 'Adults', 'elders' => 'Elders')),
+      );
 } else {
       $title = 'Acne scars';
       $description = 'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat.';
       $akas = ['post-inflammatory-hyperpigmentation' => 'Post-inflammatory hyperpigmentation', 'athropic-scars' => 'Atrophic scars'];
       $booking_url = 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922';
+      $trivias = array(
+            new ProblemTrivia('What', 'is acne scars', '<p>Lorem ipsum dolor sit amet, <a href="#" class="b200 underline">consectetur</a> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p class="mt-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>', 'more', array()),
+            new ProblemTrivia('Why', 'do acne scars happen', '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p class="mt-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>', 'more', array('infants' => 'Infants', 'teenagers' => 'Teenagers', 'adults' => 'Adults', 'elders' => 'Elders')),
+            new ProblemTrivia('Who', 'gets acne scars', '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p class="mt-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>', 'more', array('infants' => 'Infants', 'teenagers' => 'Teenagers', 'adults' => 'Adults', 'elders' => 'Elders')),
+            new ProblemTrivia('Where', 'acne scars is', '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p class="mt-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>', 'more', array('infants' => 'Infants', 'teenagers' => 'Teenagers', 'adults' => 'Adults', 'elders' => 'Elders')),
+      );
 }
 ?>
 
@@ -45,6 +59,8 @@ if ($lang == 'sv') {
 
       <link rel="stylesheet"
             href="problems/problems.css">
+      <link rel="stylesheet"
+            href="problems/widgets/problem_trivia_card.css">
 </head>
 
 <body>
@@ -106,7 +122,9 @@ if ($lang == 'sv') {
                               <h3 class="mt-m h200 l10n">Also known as</h3>
                               <?php foreach ($akas as $key => $aka) { ?>
                                     <a href="glossary.php?keyword=<?php echo $key ?>"
-                                       class="mt-xs button bright"><?php echo $aka ?></a>
+                                       class="mt-xs button bright">
+                                          <?php echo $aka ?>
+                                    </a>
                               <?php } ?>
                               <p class="mt-m">
                                     <?php echo $description ?>
@@ -198,7 +216,16 @@ if ($lang == 'sv') {
                               <a class="button grey l10n">Related problems</a>
                         </section>
                         <section id="about">
-
+                              <h2 class="h500 l10n">
+                                    <span class="l10n">About</span>
+                                    <span class="lowercase">
+                                          <?php echo $title ?>
+                                    </span>
+                              </h2>
+                              <?php foreach ($trivias as $trivia) { ?>
+                                    <hr>
+                                    <?php include('widgets/problem_trivia_card.php') ?>
+                              <?php } ?>
                         </section>
                   </div>
             </div>
