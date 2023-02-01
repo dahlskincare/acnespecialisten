@@ -1,1 +1,0 @@
-{"version":3,"file":"problem_trivia_card.js","sourceRoot":"","sources":["problem_trivia_card.ts"],"names":[],"mappings":"AAAA,SAAS,mBAAmB,CAAC,MAAe;IACxC,MAAM,CAAC,SAAS,CAAC,GAAG,CAAC,WAAW,CAAC,CAAC;IAClC,MAAM,CAAC,aAAa,CAAC,aAAa,CAAC,mBAAmB,CAAC,CAAC,SAAS,CAAC,MAAM,CAAC,WAAW,CAAC,CAAC;AAC1F,CAAC"}

@@ -1,6 +1,6 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
-include_once('widgets/problem_trivia.php');
+include_once('widgets/problem-trivia.php');
 
 // Image filename (must be in folder "images/problems/large/")
 $image = 'acne-scars.jpg';
@@ -59,8 +59,8 @@ if ($lang == 'sv') {
       <link rel="stylesheet"
             href="problems/problems.css">
       <link rel="stylesheet"
-            href="problems/widgets/problem_trivia_card.css">
-      <script src="problems/widgets/problem_trivia_card.js"></script>
+            href="problems/widgets/problem-trivia-card.css">
+      <script src="problems/widgets/problem-trivia-card.js"></script>
 </head>
 
 <body>
@@ -224,9 +224,12 @@ if ($lang == 'sv') {
                               </h2>
                               <?php foreach ($trivias as $trivia) {
                                     echo '<hr>';
-                                    include('widgets/problem_trivia_card.php');
+                                    include('widgets/problem-trivia-card.php');
                               } ?>
                               <hr>
+                        </section>
+                        <section id="approach">
+                              <h2 class="h500 l10n">Treatment approach</h2>
                         </section>
                   </div>
             </div>

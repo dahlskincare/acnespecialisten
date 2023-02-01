@@ -127,8 +127,9 @@ section#header {
         }
 
         section#about {
+            margin-top: $xl5 + $xs;
+
             .h500 {
-                margin-top: $xl5 + $xs;
                 margin-bottom: -$xs;
             }
 
@@ -138,6 +139,10 @@ section#header {
                 border: none;
                 border-top: 1px solid $light-200;
             }
+        }
+
+        section#approach {
+            margin-top: $xl3;
         }
     }
 }
