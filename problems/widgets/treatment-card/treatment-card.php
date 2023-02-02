@@ -1,25 +1,46 @@
 <div class="treatment-card-widget">
-    <picture class="is-hidden-tablet">
-        <source media="(max-width: 799px)"
-                srcset="<?php echo $treatment->image_large ?>">
-        <source media="(min-width: 800px)"
-                srcset="<?php echo $treatment->image_large ?>">
-        <img src="<?php echo $treatment->image_large ?>"
-             alt="<?php echo $treatment->title ?>"
-             width="102"
-             height="102" />
-    </picture>
-
-    <h3 class="h200">
-        <?php echo $treatment->title ?>
-    </h3>
-    <div class="treatment-info">
-        <div class="p200">
-            <?php echo $treatment->duration ?>
+    <div class="is-hidden-tablet"
+         id="mobile">
+        <div class="flex-row">
+            <picture>
+                <source media="(max-width: 799px)"
+                        srcset="<?php echo $treatment->image_small ?>">
+                <source media="(min-width: 800px)"
+                        srcset="<?php echo $treatment->image_large ?>">
+                <img src="<?php echo $treatment->image_large ?>"
+                     alt="<?php echo $treatment->title ?>"
+                     width="102"
+                     height="102" />
+            </picture>
+            <div class="ml-m">
+                <h3 class="h200">
+                    <?php echo $treatment->title ?>
+                </h3>
+                <div class="treatment-info">
+                    <div class="p200">
+                        <?php echo $treatment->duration ?>
+                    </div>
+                    <div class="treatment-dot"></div>
+                    <div class="p200">
+                        <?php echo $treatment->price ?>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="treatment-dot"></div>
-        <div class="p200">
-            <?php echo $treatment->price ?>
-        </div>
+        <p class="mt-m p200">
+            <?php echo $treatment->content ?>
+        </p>
+        <div class="mt-m button outline expand l10n">Read more</div>
+        <hr />
+        <?php if (isset($treatment->consultation_url)) { ?>
+            <a href="<?php echo $treatment->consultation_url ?>"
+               target="_blank"
+               class="mt-m button expand l10n">Get a free consultation</a>
+        <?php } ?>
+        <?php if (isset($treatment->booking_url)) { ?>
+            <a href="<?php echo $treatment->booking_url ?>"
+               target="_blank"
+               class="mt-s button expand l10n">Book a procedure</a>
+        <?php } ?>
     </div>
 </div>

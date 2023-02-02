@@ -3,28 +3,41 @@
 @import '../../../styles/util/sizes';
 
 div.treatment-card-widget {
+    margin-top: $xl;
     padding: $xl;
     border-radius: $radius-l;
     border: 1px solid $light-200;
     @include elevation-low();
 
-    img {
-        width: 102px;
-        height: auto;
-    }
+    #mobile {
+        img {
+            width: 102px;
+            height: auto;
+            border-radius: $radius-s;
+            overflow: hidden;
+        }
 
-    .treatment-info {
-        display: flex;
-        align-items: center;
-        color: $dark-25;
+        .treatment-info {
+            display: flex;
+            align-items: center;
+            color: $dark-25;
 
-        .treatment-dot {
-            width: 5px;
-            height: 5px;
-            border-radius: 5px;
-            background-color: $dark-25;
-            margin: 0 $xs;
+            .treatment-dot {
+                width: 5px;
+                height: 5px;
+                border-radius: 5px;
+                background-color: $dark-25;
+                margin: 0 $xs;
+            }
+        }
+
+        hr {
+            margin-top: $m;
+            margin-bottom: 0;
+            border: 0;
+            border-top: 1px solid $light-200;
         }
     }
+
 
 }
