@@ -73,9 +73,9 @@
                     <?php echo $treatment->content ?>
                 </p>
                 <a href="treatments/<?php echo $treatment->id ?>.php"
-                   class="mt-xs button text compact l10n">Read more</a>
+                   class="mt-xs button b200 text compact l10n">Read more</a>
             </div>
-            <div class="ml-xl">
+            <div class="ml-xl buttons">
                 <?php if (isset($treatment->consultation_url)) { ?>
                     <a href="<?php echo $treatment->consultation_url ?>"
                        target="_blank"

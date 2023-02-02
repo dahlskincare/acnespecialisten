@@ -39,11 +39,11 @@ div.treatment-card-widget {
     }
 
     @media screen and (min-width: $tablet) {
-        padding: $xxl 0;
+        margin-top: 0;
+        padding: 0;
         border-radius: 0;
+        border: none;
         box-shadow: none;
-        border-left: none;
-        border-right: none;
 
         img {
             width: 200px;
@@ -51,11 +51,15 @@ div.treatment-card-widget {
         }
 
         .middle {
-            flex: 1;
+            flex: auto;
 
             .treatment-content {
                 max-width: 412px;
             }
+        }
+
+        .buttons {
+            flex: 1;
         }
     }
 

@@ -32,7 +32,12 @@ if ($lang == 'sv') {
             new Symptom('atrophic-rolling-scars', 'Atrophic rolling scars', 'scars stains', 'images/symptoms/small/atrophic-rolling-scars.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.'),
             new Symptom('hypertrophic-keloid', 'Hypertrophic keloid', 'scars stains', 'images/symptoms/small/hypertrophic-keloid.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.'),
       );
-      $treatment = new Treatment('acne-scars-consultation', 'Consultation', '30 min', '1295 kr', 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ', 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ', 'images/service-categories/small/consultation.jpg', 'images/service-categories/large/consultation.jpg', 'https://dahlskincare.com/skin-consultation', null);
+      $treatment = new Treatment('acne-scars-consultation', 'Consultation', '30 min', '1295 kr', 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ', 'images/service-categories/small/consultation.jpg', 'images/service-categories/large/consultation.jpg', 'https://dahlskincare.com/skin-consultation', null);
+      $treatments = array(
+            new Treatment('acne-scars-microneedling', 'Microneedling for acne scars', '30 min', '1295 kr', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears...', 'images/service-categories/small/microneedling.jpg', 'images/service-categories/large/microneedling.jpg', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922'),
+            new Treatment('acne-scars-laser', 'Laser for acne scars', '30 min', '1295 kr', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears...', 'images/service-categories/small/laser-problem-skin.jpg', 'images/service-categories/large/laser-problem-skin.jpg', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922'),
+            new Treatment('acne-scars-chemical-peeling', 'Chemical peeling for acne scars', '30 min', '1295 kr', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears...', 'images/service-categories/small/chemical-peeling.jpg', 'images/service-categories/large/chemical-peeling.jpg', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922'),
+      );
 } else {
       $title = 'Acne scars';
       $description = 'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat.';
@@ -57,6 +62,11 @@ if ($lang == 'sv') {
             new Symptom('hypertrophic-keloid', 'Hypertrophic keloid', 'scars stains', 'images/symptoms/small/hypertrophic-keloid.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.'),
       );
       $treatment = new Treatment('acne-scars-consultation', 'Consultation', '30 min', '1295 kr', 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ', 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ', 'images/service-categories/small/consultation.jpg', 'images/service-categories/large/consultation.jpg', 'https://dahlskincare.com/skin-consultation', null);
+      $treatments = array(
+            new Treatment('acne-scars-microneedling', 'Microneedling for acne scars', '30 min', '1295 kr', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears...', 'images/service-categories/small/microneedling.jpg', 'images/service-categories/large/microneedling.jpg', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922'),
+            new Treatment('acne-scars-laser', 'Laser for acne scars', '30 min', '1295 kr', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears...', 'images/service-categories/small/laser-problem-skin.jpg', 'images/service-categories/large/laser-problem-skin.jpg', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922'),
+            new Treatment('acne-scars-chemical-peeling', 'Chemical peeling for acne scars', '30 min', '1295 kr', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears...', 'images/service-categories/small/chemical-peeling.jpg', 'images/service-categories/large/chemical-peeling.jpg', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922'),
+      );
 }
 ?>
 
@@ -333,13 +343,27 @@ if ($lang == 'sv') {
                         </section>
                         <section id="define">
                               <h2>
-                                    <span class="h500 l10n">Define</span>
+                                    <span class="h500 l10n">Define</span>&nbsp;
                                     <span class="h500 lowercase">
                                           <?php echo $title ?>
                                     </span>
                               </h2>
+                              <hr class="is-hidden-mobile mt-xl mb-xxl">
                               <?php include('widgets/treatment-card/treatment-card.php') ?>
-
+                              <hr class="is-hidden-mobile mt-xxl">
+                        </section>
+                        <section id="treatments">
+                              <h2>
+                                    <span class="h500">
+                                          <?php echo $title ?>
+                                    </span>
+                                    <span class="h500 l10n">treatment solution</span>
+                              </h2>
+                              <hr class="is-hidden-mobile mt-xl mb-xxl">
+                              <?php foreach ($treatments as $treatment) { ?>
+                                    <?php include('widgets/treatment-card/treatment-card.php'); ?>
+                                    <hr class="is-hidden-mobile mt-xxl mb-xxl">
+                              <?php } ?>
                         </section>
                   </div>
             </div>
