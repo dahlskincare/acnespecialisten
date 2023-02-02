@@ -225,6 +225,19 @@ if ($lang == 'sv') {
 
             <div class="container">
                   <div id="content">
+                        <section id="image"
+                                 class="mt-xl is-hidden-desktop">
+                              <picture class="is-hidden-tablet">
+                                    <source media="(max-width: 449px)"
+                                            srcset="images/problems/medium/<?php echo $image ?>">
+                                    <source media="(min-width: 450px)"
+                                            srcset="images/problems/large/<?php echo $image ?>">
+                                    <img src="images/problems/<?php echo $image ?>"
+                                         alt="<?php echo $title ?>"
+                                         width="358"
+                                         height="274" />
+                              </picture>
+                        </section>
                         <section id="nav-buttons">
                               <a class="button grey l10n">Overview</a>
                               <a class="button grey l10n">Treatment approach</a>

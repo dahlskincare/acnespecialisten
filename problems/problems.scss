@@ -120,10 +120,17 @@ section#header {
 
 .container {
     #content {
+        section#image {
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+
         section#nav-buttons {
             display: flex;
             flex-wrap: wrap;
-            margin-top: $l;
+            margin-top: $m;
 
             .button {
                 margin-top: $xs;
