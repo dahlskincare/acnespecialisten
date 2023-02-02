@@ -12,6 +12,8 @@ div.symptom-card-widget {
     img {
         width: 102px;
         height: auto;
+        border-radius: $radius-s;
+        overflow: hidden;
     }
 
     #aka {
