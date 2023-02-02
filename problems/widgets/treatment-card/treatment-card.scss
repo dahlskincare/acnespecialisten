@@ -1,0 +1,30 @@
+@import '../../../styles/util/colors';
+@import '../../../styles/util/mixins';
+@import '../../../styles/util/sizes';
+
+div.treatment-card-widget {
+    padding: $xl;
+    border-radius: $radius-l;
+    border: 1px solid $light-200;
+    @include elevation-low();
+
+    img {
+        width: 102px;
+        height: auto;
+    }
+
+    .treatment-info {
+        display: flex;
+        align-items: center;
+        color: $dark-25;
+
+        .treatment-dot {
+            width: 5px;
+            height: 5px;
+            border-radius: 5px;
+            background-color: $dark-25;
+            margin: 0 $xs;
+        }
+    }
+
+}

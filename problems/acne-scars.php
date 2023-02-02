@@ -3,6 +3,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once('widgets/problem-trivia.php');
 include_once('widgets/treatment-step.php');
 include_once('widgets/symptom.php');
+include_once('widgets/treatment-card/treatment.php');
 
 // Image filename (must be in folder "images/problems/large/")
 $image = 'acne-scars.jpg';
@@ -31,6 +32,7 @@ if ($lang == 'sv') {
             new Symptom('atrophic-rolling-scars', 'Atrophic rolling scars', 'scars stains', 'images/symptoms/small/atrophic-rolling-scars.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.'),
             new Symptom('hypertrophic-keloid', 'Hypertrophic keloid', 'scars stains', 'images/symptoms/small/hypertrophic-keloid.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.'),
       );
+      $treatment = new Treatment('consultation', 'Consultation', '30 min', '1295 kr', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears...', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears...', 'images/services/small/facials.jpg', 'images/services/large/facials.jpg', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922');
 } else {
       $title = 'Acne scars';
       $description = 'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat.';
@@ -54,6 +56,7 @@ if ($lang == 'sv') {
             new Symptom('atrophic-rolling-scars', 'Atrophic rolling scars', 'scars stains', 'images/symptoms/small/atrophic-rolling-scars.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.'),
             new Symptom('hypertrophic-keloid', 'Hypertrophic keloid', 'scars stains', 'images/symptoms/small/hypertrophic-keloid.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.'),
       );
+      $treatment = new Treatment('consultation', 'Consultation', '30 min', '1295 kr', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears...', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears...', 'images/services/small/facials.jpg', 'images/services/large/facials.jpg', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922');
 }
 ?>
 
@@ -239,19 +242,32 @@ if ($lang == 'sv') {
                               </picture>
                         </section>
                         <section id="nav-buttons">
-                              <a class="button grey l10n">Overview</a>
-                              <a class="button grey l10n">Treatment approach</a>
-                              <a class="button grey l10n">Types & symptoms</a>
-                              <a class="button grey l10n">Define problem</a>
-                              <a class="button grey l10n">Treatment solutions</a>
-                              <a class="button grey l10n">Risk factors</a>
-                              <a class="button grey l10n">When to visit a doctor</a>
-                              <a class="button grey l10n">Cases</a>
-                              <a class="button grey l10n">Reviews</a>
-                              <a class="button grey l10n">FAQ</a>
-                              <a class="button grey l10n">Skin guide</a>
-                              <a class="button grey l10n">Specialists</a>
-                              <a class="button grey l10n">Related problems</a>
+                              <a href="javascript:;"
+                                 class="button grey l10n">Overview</a>
+                              <a href="javascript:;"
+                                 class="button grey l10n">Treatment approach</a>
+                              <a href="javascript:;"
+                                 class="button grey l10n">Types & symptoms</a>
+                              <a href="javascript:;"
+                                 class="button grey l10n">Define problem</a>
+                              <a href="javascript:;"
+                                 class="button grey l10n">Treatment solutions</a>
+                              <a href="javascript:;"
+                                 class="button grey l10n">Risk factors</a>
+                              <a href="javascript:;"
+                                 class="button grey l10n">When to visit a doctor</a>
+                              <a href="javascript:;"
+                                 class="button grey l10n">Cases</a>
+                              <a href="javascript:;"
+                                 class="button grey l10n">Reviews</a>
+                              <a href="javascript:;"
+                                 class="button grey l10n">FAQ</a>
+                              <a href="javascript:;"
+                                 class="button grey l10n">Skin guide</a>
+                              <a href="javascript:;"
+                                 class="button grey l10n">Specialists</a>
+                              <a href="javascript:;"
+                                 class="button grey l10n">Related problems</a>
                         </section>
                         <section id="about">
                               <h2>
@@ -293,7 +309,7 @@ if ($lang == 'sv') {
                                     <span class="h500">
                                           <?php echo $title ?>
                                     </span>
-                                    <span class="l10n h500">types & symptoms</span>
+                                    <span class="h500 l10n">types & symptoms</span>
                               </h2>
                               <div class="mt-m is-hidden-tablet"
                                    id="symptom-buttons">
@@ -316,6 +332,13 @@ if ($lang == 'sv') {
                               </div>
                         </section>
                         <section id="define">
+                              <h2>
+                                    <span class="h500 l10n">Define</span>
+                                    <span class="h500 lowercase">
+                                          <?php echo $title ?>
+                                    </span>
+                              </h2>
+                              <?php include('widgets/treatment-card/treatment-card.php') ?>
 
                         </section>
                   </div>
