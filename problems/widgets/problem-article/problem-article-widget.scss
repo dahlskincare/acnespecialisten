@@ -1,6 +1,22 @@
+@import '../../../styles/util/colors';
+@import '../../../styles/util/mixins';
+@import '../../../styles/util/sizes';
+
 div.problem-article-widget {
+    margin-top: $xxl*2;
+
     img {
+        margin-top: $xl;
         width: 100%;
         height: auto;
+    }
+
+    div.problem-article-content {
+        margin-top: $xl;
+    }
+
+    @media screen and (min-width: $tablet) {
+        margin-top: $xl5 + $xs;
+
     }
 }
