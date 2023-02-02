@@ -6,6 +6,7 @@
 @import "widgets/symptom-card/symptom-card";
 @import "widgets/treatment-step-card/treatment-step-card";
 @import "widgets/treatment-card/treatment-card";
+@import "widgets/problem-article/problem-article-widget";
 
 
 html {
@@ -229,6 +230,14 @@ section#header {
                     border: none;
                     border-top: 1px solid $light-200;
                 }
+            }
+        }
+
+        section#articles {
+            margin-top: 72px;
+
+            @media screen and (min-width: $tablet) {
+                margin-top: $xl5 + $xs;
             }
         }
     }
