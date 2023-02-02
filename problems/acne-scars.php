@@ -253,9 +253,11 @@ if ($lang == 'sv') {
                                     } ?>
                               </div>
                               <hr class="mt-xl3 is-hidden-mobile">
-                              <a href="treatments.php"
-                                 class="mt-xl button b200 outline expand is-hidden-tablet l10n">Read more about
-                                    treatment</a>
+                              <a href="treatments/acne-scars.php"
+                                 class="mt-xl button b200 outline expand l10n"
+                                 id="approach-link">
+                                    Read more about treatment
+                              </a>
                         </section>
                   </div>
             </div>

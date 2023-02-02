@@ -150,10 +150,12 @@ section#header {
             }
 
             @media screen and (min-width: $tablet) {
-
                 margin-top: $xl5 + $xs;
 
-
+                a#approach-link {
+                    width: auto;
+                    box-sizing: content-box;
+                }
             }
         }
     }
