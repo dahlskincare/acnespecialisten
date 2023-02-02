@@ -1,0 +1,25 @@
+@import '../../styles/util/colors';
+@import '../../styles/util/mixins';
+@import '../../styles/util/sizes';
+
+div.symptom-card-widget {
+    margin-top: $xl;
+    padding: 24px;
+    border: 1px solid $light-200;
+    border-radius: $radius-l;
+    @include elevation-low();
+
+    img {
+        width: 102px;
+        height: auto;
+    }
+
+    #aka {
+        color: $dark-200;
+    }
+
+    @media screen and (min-width: $tablet) {
+        box-shadow: none;
+
+    }
+}

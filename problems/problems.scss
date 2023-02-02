@@ -2,6 +2,11 @@
 @import "../styles/util/mixins";
 @import "../styles/util/sizes";
 
+@import "widgets/problem-trivia-card";
+@import "widgets/symptom-card";
+@import "widgets/treatment-step-card";
+
+
 html {
     scroll-behavior: smooth;
 
@@ -177,6 +182,16 @@ section#header {
 
         section#symptoms {
             margin-top: 72px;
+
+            #symptom-buttons {
+                display: flex;
+                flex-wrap: wrap;
+
+                a.button {
+                    margin-top: $xs;
+                    margin-right: $xs;
+                }
+            }
 
             @media screen and (min-width: $tablet) {
                 margin-top: $xl5 + $xs;
