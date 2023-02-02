@@ -266,10 +266,10 @@ if ($lang == 'sv') {
                         </section>
                         <section id="symptoms">
                               <h2>
-                                    <spa class="h500">
+                                    <span class="h500">
                                           <?php echo $title ?>
-                                          </span>
-                                          <span class="l10n h500">types & symptoms</span>
+                                    </span>
+                                    <span class="l10n h500">types & symptoms</span>
                               </h2>
                         </section>
                   </div>
