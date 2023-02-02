@@ -230,9 +230,9 @@ if ($lang == 'sv') {
                               <a class="button grey l10n">Related problems</a>
                         </section>
                         <section id="about">
-                              <h2 class="h500 l10n">
-                                    <span class="l10n">About</span>
-                                    <span class="lowercase">
+                              <h2>
+                                    <span class="h500 l10n">About</span>
+                                    <span class="h500 lowercase">
                                           <?php echo $title ?>
                                     </span>
                               </h2>
@@ -243,7 +243,12 @@ if ($lang == 'sv') {
                               <hr>
                         </section>
                         <section id="approach">
-                              <h2 class="h500 l10n">Treatment approach</h2>
+                              <h2>
+                                    <span class="h500">
+                                          <?php echo $title ?>
+                                    </span>
+                                    <span class="h500 l10n">treatment approach</span>
+                              </h2>
                               <hr class="mt-xl mb-xl3 is-hidden-mobile">
                               <div class="columns is-variable is-2">
                                     <?php for ($i = 0; $i < sizeof($treatment_steps); $i++) {
@@ -258,6 +263,14 @@ if ($lang == 'sv') {
                                  id="approach-link">
                                     Read more about treatment
                               </a>
+                        </section>
+                        <section id="symptoms">
+                              <h2>
+                                    <spa class="h500">
+                                          <?php echo $title ?>
+                                          </span>
+                                          <span class="l10n h500">types & symptoms</span>
+                              </h2>
                         </section>
                   </div>
             </div>

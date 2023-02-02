@@ -127,7 +127,7 @@ section#header {
         }
 
         section#about {
-            margin-top: $xl5 + $xs;
+            margin-top: $xl3 + $xs;
 
             .h500 {
                 margin-bottom: -$xs;
@@ -139,10 +139,20 @@ section#header {
                 border: none;
                 border-top: 1px solid $light-200;
             }
+
+            @media screen and (min-width: $tablet) {
+                margin-top: $xl5 + $xs;
+            }
         }
 
         section#approach {
-            margin-top: $xl3;
+            margin-top: 72px;
+
+            h2 {
+                span {
+                    display: block;
+                }
+            }
 
             hr {
                 border: none;
@@ -152,10 +162,24 @@ section#header {
             @media screen and (min-width: $tablet) {
                 margin-top: $xl5 + $xs;
 
+                h2 {
+                    span {
+                        display: initial;
+                    }
+                }
+
                 a#approach-link {
                     width: auto;
                     box-sizing: content-box;
                 }
+            }
+        }
+
+        section#symptoms {
+            margin-top: 72px;
+
+            @media screen and (min-width: $tablet) {
+                margin-top: $xl5 + $xs;
             }
         }
     }
@@ -177,6 +201,7 @@ section#header {
     }
 }
 
+// Ensures floater is never above content
 @media screen and (min-width: 1408px) {
     .container {
         #content {
