@@ -371,21 +371,21 @@
                         <?php
                         $accordion = array();
                         if ($lang == 'sv') {
-                              $accordion[] = new AccordionItem('Ansiktsbehandlingar', 'images/services/small/facials.jpg', 'images/services/large/facials.jpg', 'services/facials.php', true, true);
-                              $accordion[] = new AccordionItem('IPL', 'images/services/small/ipl.jpg', 'images/services/large/ipl.jpg', 'services/ipl.php', true, true);
-                              $accordion[] = new AccordionItem('Laser', 'images/services/small/laser.jpg', 'images/services/large/laser.jpg', 'services/laser.php', true, true);
-                              $accordion[] = new AccordionItem('Dermabration', 'images/services/small/dermabration.jpg', 'images/services/large/dermabration.jpg', 'services/dermabration.php', true, true);
-                              $accordion[] = new AccordionItem('Microneedling', 'images/services/small/microneedling.jpg', 'images/services/large/microneedling.jpg', 'services/microneedling.php', true, true);
-                              $accordion[] = new AccordionItem('Injections ', 'images/services/small/injections.jpg', 'images/services/large/injections.jpg', 'services/injection.php', false, true);
-                              $accordion[] = new AccordionItem('Visa alla tjänster', 'images/services/small/other.jpg', 'images/services/large/other.jpg', 'services.php', true, false);
+                              $accordion[] = new AccordionItem('Ansiktsbehandlingar', 'images/service-categories/small/facials.jpg', 'images/service-categories/large/facials.jpg', 'services/facials.php', true, true);
+                              $accordion[] = new AccordionItem('IPL', 'images/service-categories/small/ipl.jpg', 'images/service-categories/large/ipl.jpg', 'services/ipl.php', true, true);
+                              $accordion[] = new AccordionItem('Laser', 'images/service-categories/small/laser-problem-skin.jpg', 'images/service-categories/large/laser-problem-skin.jpg', 'services/laser.php', true, true);
+                              $accordion[] = new AccordionItem('Dermabration', 'images/service-categories/small/dermabration.jpg', 'images/service-categories/large/dermabration.jpg', 'services/dermabration.php', true, true);
+                              $accordion[] = new AccordionItem('Microneedling', 'images/service-categories/small/microneedling.jpg', 'images/service-categories/large/microneedling.jpg', 'services/microneedling.php', true, true);
+                              $accordion[] = new AccordionItem('Injections ', 'images/service-categories/small/injections.jpg', 'images/service-categories/large/injections.jpg', 'services/injection.php', false, true);
+                              $accordion[] = new AccordionItem('Visa alla tjänster', 'images/service-categories/small/luxury.jpg', 'images/service-categories/large/luxury.jpg', 'services.php', true, false);
                         } else {
-                              $accordion[] = new AccordionItem('Facials', 'images/services/small/facials.jpg', 'images/services/large/facials.jpg', 'services/facials.php', true, true);
-                              $accordion[] = new AccordionItem('IPL', 'images/services/small/ipl.jpg', 'images/services/large/ipl.jpg', 'services/ipl.php', true, true);
-                              $accordion[] = new AccordionItem('Laser', 'images/services/small/laser.jpg', 'images/services/large/laser.jpg', 'services/laser.php', true, true);
-                              $accordion[] = new AccordionItem('Dermabration', 'images/services/small/dermabration.jpg', 'images/services/large/dermabration.jpg', 'services/dermabration.php', true, true);
-                              $accordion[] = new AccordionItem('Microneedling', 'images/services/small/microneedling.jpg', 'images/services/large/microneedling.jpg', 'services/microneedling.php', true, true);
-                              $accordion[] = new AccordionItem('Injections ', 'images/services/small/injections.jpg', 'images/services/large/injections.jpg', 'services/injection.php', false, true);
-                              $accordion[] = new AccordionItem('View all services', 'images/services/small/other.jpg', 'images/services/large/other.jpg', 'services.php', true, false);
+                              $accordion[] = new AccordionItem('Facials', 'images/service-categories/small/facials.jpg', 'images/service-categories/large/facials.jpg', 'services/facials.php', true, true);
+                              $accordion[] = new AccordionItem('IPL', 'images/service-categories/small/ipl.jpg', 'images/service-categories/large/ipl.jpg', 'services/ipl.php', true, true);
+                              $accordion[] = new AccordionItem('Laser', 'images/service-categories/small/laser-problem-skin.jpg', 'images/service-categories/large/laser-problem-skin.jpg', 'services/laser.php', true, true);
+                              $accordion[] = new AccordionItem('Dermabration', 'images/service-categories/small/dermabration.jpg', 'images/service-categories/large/dermabration.jpg', 'services/dermabration.php', true, true);
+                              $accordion[] = new AccordionItem('Microneedling', 'images/service-categories/small/microneedling.jpg', 'images/service-categories/large/microneedling.jpg', 'services/microneedling.php', true, true);
+                              $accordion[] = new AccordionItem('Injections ', 'images/service-categories/small/injections.jpg', 'images/service-categories/large/injections.jpg', 'services/injection.php', false, true);
+                              $accordion[] = new AccordionItem('View all services', 'images/service-categories/small/luxury.jpg', 'images/service-categories/large/luxury.jpg', 'services.php', true, false);
                         }
                         $more_count = 17;
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/accordion/accordion.php')
