@@ -2,9 +2,9 @@
 @import "../styles/util/mixins";
 @import "../styles/util/sizes";
 
-@import "widgets/problem-trivia-card";
-@import "widgets/symptom-card";
-@import "widgets/treatment-step-card";
+@import "widgets/problem-trivia-card/problem-trivia-card";
+@import "widgets/symptom-card/symptom-card";
+@import "widgets/treatment-step-card/treatment-step-card";
 @import "widgets/treatment-card/treatment-card";
 
 

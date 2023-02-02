@@ -1,8 +1,8 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
-include_once('widgets/problem-trivia.php');
-include_once('widgets/treatment-step.php');
-include_once('widgets/symptom.php');
+include_once('widgets/problem-trivia-card/problem-trivia.php');
+include_once('widgets/treatment-step-card/treatment-step.php');
+include_once('widgets/symptom-card/symptom.php');
 include_once('widgets/treatment-card/treatment.php');
 
 // Image filename (must be in folder "images/problems/large/")
@@ -97,7 +97,7 @@ if ($lang == 'sv') {
 
       <link rel="stylesheet"
             href="problems/problems.css">
-      <script src="problems/widgets/problem-trivia-card.js"></script>
+      <script src="problems/widgets/problem-trivia-card/problem-trivia-card.js"></script>
 
 </head>
 
@@ -288,7 +288,7 @@ if ($lang == 'sv') {
                               </h2>
                               <?php foreach ($trivias as $trivia) {
                                     echo '<hr>';
-                                    include('widgets/problem-trivia-card.php');
+                                    include('widgets/problem-trivia-card/problem-trivia-card.php');
                               } ?>
                               <hr>
                         </section>
@@ -303,7 +303,7 @@ if ($lang == 'sv') {
                               <div class="columns is-variable is-2">
                                     <?php for ($i = 0; $i < sizeof($treatment_steps); $i++) {
                                           echo '<div class="column">';
-                                          include('widgets/treatment-step-card.php');
+                                          include('widgets/treatment-step-card/treatment-step-card.php');
                                           echo '</div>';
                                     } ?>
                               </div>
@@ -336,7 +336,7 @@ if ($lang == 'sv') {
                                     <?php foreach ($symptoms as $symptom) { ?>
                                           <div class="column is-half"
                                                id="<?php echo $symptom->id ?>">
-                                                <?php include('widgets/symptom-card.php'); ?>
+                                                <?php include('widgets/symptom-card/symptom-card.php'); ?>
                                           </div>
                                     <?php } ?>
                               </div>
