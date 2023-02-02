@@ -1,8 +1,9 @@
 <?php
 class Symptom
 {
-    public function __construct($name, $aka, $image, $content)
+    public function __construct($id, $name, $aka, $image, $content)
     {
+        $this->id = $id;
         $this->name = $name;
         $this->aka = $aka;
         $this->image = $image;
@@ -11,6 +12,7 @@ class Symptom
 
     }
 
+    public $id;
     public $name;
     public $aka;
     public $image;

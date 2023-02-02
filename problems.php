@@ -263,7 +263,7 @@ if ($lang == 'sv') {
                                     <div class="column is-one-fifth is-hidden"
                                          data-id="<?php echo $id ?>">
                                           <a href="javascript:;"
-                                             onclick="document.location.hash='card-<?php echo $id ?>';"
+                                             onclick="scrollToElement('#card-<?php echo $id ?>')"
                                              class="button b200 grey expand l10n"><?php echo $problem->label ?></a>
                                     </div>
                               <?php } ?>

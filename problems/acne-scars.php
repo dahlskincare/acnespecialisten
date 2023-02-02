@@ -25,11 +25,11 @@ if ($lang == 'sv') {
             new TreatmentStep('Prevent', 'Lorem ipsum dolor sit amet, <a href="#" class="b200 underline">consectetur</a> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'https://www.dahlskincare.com', 'View products'),
       );
       $symptoms = array(
-            new Symptom('Post inflammatory hyperpigmentation', 'scars stains', 'images/symptoms/small/post-inflammatory-hyperpigmentation.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.'),
-            new Symptom('Atrophic icepick scars', 'scars stains', 'images/symptoms/small/atrophic-icepick-scars.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.'),
-            new Symptom('Atrophic boxcar scars', 'scars stains', 'images/symptoms/small/atrophic-boxcar-scars.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.'),
-            new Symptom('Atrophic rolling scars', 'scars stains', 'images/symptoms/small/atrophic-rolling-scars.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.'),
-            new Symptom('Hypertrophic keloid', 'scars stains', 'images/symptoms/small/hypertrophic-keloid.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.'),
+            new Symptom('post-inflammatory-hyperpigmentaion', 'Post inflammatory hyperpigmentation', 'scars stains', 'images/symptoms/small/post-inflammatory-hyperpigmentation.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.'),
+            new Symptom('atrophic-icepick-scars', 'Atrophic icepick scars', 'scars stains', 'images/symptoms/small/atrophic-icepick-scars.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.'),
+            new Symptom('atrophic-boxcar-scars', 'Atrophic boxcar scars', 'scars stains', 'images/symptoms/small/atrophic-boxcar-scars.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.'),
+            new Symptom('atrophic-rolling-scars', 'Atrophic rolling scars', 'scars stains', 'images/symptoms/small/atrophic-rolling-scars.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.'),
+            new Symptom('hypertrophic-keloid', 'Hypertrophic keloid', 'scars stains', 'images/symptoms/small/hypertrophic-keloid.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.'),
       );
 } else {
       $title = 'Acne scars';
@@ -48,11 +48,11 @@ if ($lang == 'sv') {
             new TreatmentStep('Prevent', 'Lorem ipsum dolor sit amet, <a href="#" class="b200 underline">consectetur</a> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'https://www.dahlskincare.com', 'View products'),
       );
       $symptoms = array(
-            new Symptom('Post inflammatory hyperpigmentation', 'scars stains', 'images/symptoms/small/post-inflammatory-hyperpigmentation.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.'),
-            new Symptom('Atrophic icepick scars', 'scars stains', 'images/symptoms/small/atrophic-icepick-scars.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.'),
-            new Symptom('Atrophic boxcar scars', 'scars stains', 'images/symptoms/small/atrophic-boxcar-scars.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.'),
-            new Symptom('Atrophic rolling scars', 'scars stains', 'images/symptoms/small/atrophic-rolling-scars.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.'),
-            new Symptom('Hypertrophic keloid', 'scars stains', 'images/symptoms/small/hypertrophic-keloid.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.'),
+            new Symptom('post-inflammatory-hyperpigmentaion', 'Post inflammatory hyperpigmentation', 'scars stains', 'images/symptoms/small/post-inflammatory-hyperpigmentation.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.'),
+            new Symptom('atrophic-icepick-scars', 'Atrophic icepick scars', 'scars stains', 'images/symptoms/small/atrophic-icepick-scars.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.'),
+            new Symptom('atrophic-boxcar-scars', 'Atrophic boxcar scars', 'scars stains', 'images/symptoms/small/atrophic-boxcar-scars.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.'),
+            new Symptom('atrophic-rolling-scars', 'Atrophic rolling scars', 'scars stains', 'images/symptoms/small/atrophic-rolling-scars.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.'),
+            new Symptom('hypertrophic-keloid', 'Hypertrophic keloid', 'scars stains', 'images/symptoms/small/hypertrophic-keloid.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.'),
       );
 }
 ?>
@@ -285,7 +285,8 @@ if ($lang == 'sv') {
                               <div class="mt-m is-hidden-tablet"
                                    id="symptom-buttons">
                                     <?php foreach ($symptoms as $symptom) { ?>
-                                          <a href="#"
+                                          <a href="javascript:;"
+                                             onclick="scrollToElement('#<?php echo $symptom->id ?>')"
                                              class="button grey">
                                                 <?php echo $symptom->name ?>
                                           </a>
@@ -294,11 +295,15 @@ if ($lang == 'sv') {
                               <div class="columns is-multiline is-variable is-3"
                                    id="symptom-cards">
                                     <?php foreach ($symptoms as $symptom) { ?>
-                                          <div class="column is-half">
+                                          <div class="column is-half"
+                                               id="<?php echo $symptom->id ?>">
                                                 <?php include('widgets/symptom-card.php'); ?>
                                           </div>
                                     <?php } ?>
                               </div>
+                        </section>
+                        <section id="define">
+
                         </section>
                   </div>
             </div>

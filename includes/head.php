@@ -64,6 +64,13 @@ function icon($name)
                   carousel.scrollLeft += child.getBoundingClientRect().width;
             }
       }
+      /// Scroll the window to a selector, taking the navbar height into consideration
+      var scrollToElement = (selector) => {
+            var element = document.querySelector(selector);
+            let box = element.getBoundingClientRect();
+            /// 72: navbar height
+            window.scrollTo(0, box.top + window.scrollY - 72);
+      }
 </script>
 
 <!-- Accordion widget -->
