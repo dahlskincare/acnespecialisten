@@ -120,8 +120,8 @@ if ($lang == 'sv') {
       <link rel="stylesheet"
             href="/styles/default-layout.css">
       <link rel="stylesheet"
-            href="problems.css">
-      <script src="problems.js"></script>
+            href="problems/problems.css">
+      <script src="problems/problems.js"></script>
 </head>
 
 <body>

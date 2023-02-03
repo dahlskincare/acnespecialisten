@@ -130,7 +130,7 @@ if ($lang == 'sv') {
             href="/styles/default-layout.css">
 
       <link rel="stylesheet"
-            href="problems/problems.css">
+            href="problems/problem.css">
       <script src="problems/widgets/problem-trivia-card/problem-trivia-card.js"></script>
 
 </head>
@@ -551,7 +551,7 @@ if ($lang == 'sv') {
             </div>
       </main>
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
-      <script src="problems/problems.js"></script>
+      <script src="problems/problem.js"></script>
 </body>
 
 </html>
