@@ -382,6 +382,79 @@ if ($lang == 'sv') {
                                     <?php include('widgets/problem-article/problem-article-widget.php'); ?>
                               <?php } ?>
                         </section>
+                        <section id="results">
+
+                              <div class="container">
+                                    <div class="flex-row justify-space-between">
+                                          <h2 class="big l10n">Results</h2>
+                                          <div class="step-buttons">
+                                                <button class="round-large grey"
+                                                        onclick="Carousel.prev('#results-carousel')">
+                                                      <?php icon('arrow-left') ?>
+                                                </button>
+                                                <button class="round-large grey"
+                                                        onclick="Carousel.next('#results-carousel')">
+                                                      <?php icon('arrow-right') ?>
+                                                </button>
+                                          </div>
+                                    </div>
+                              </div>
+                              <div class="carousel"
+                                   id="results-carousel">
+                                    <div class="slide">
+                                          <div class="container l10n">
+                                                <?php
+                                                $before = 'images/results/acne-before.webp';
+                                                $after = 'images/results/acne-after.webp';
+                                                if ($lang == 'sv') {
+                                                      $label = 'Efter två månaders <a href="treatments/acne.php">aknebehandling</a>';
+                                                } else {
+                                                      $label = 'After two months of <a href="treatments/acne.php">acne treatment</a>';
+                                                }
+                                                include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
+                                                ?>
+                                          </div>
+                                    </div>
+                                    <div class="slide">
+                                          <div class="container l10n">
+                                                <?php
+                                                $before = 'images/results/rosacea-before.webp';
+                                                $after = 'images/results/rosacea-after.webp';
+                                                if ($lang == 'sv') {
+                                                      $label = 'Efter två månaders <a href="treatments/rosacea.php">rosaceabehandling</a>';
+                                                } else {
+                                                      $label = 'After two months of <a href="treatments/rosacea.php">rosacea treatment</a>';
+                                                }
+                                                include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
+                                                ?>
+                                          </div>
+                                    </div>
+                                    <div class="slide">
+                                          <div class="container l10n">
+                                                <?php
+                                                $before = 'images/results/comedones-before.webp';
+                                                $after = 'images/results/comedones-after.webp';
+                                                if ($lang == 'sv') {
+                                                      $label = 'Efter två månaders <a href="treatments/comedones.php">pormaskbehandling</a>';
+                                                } else {
+                                                      $label = 'After two months of <a href="treatments/comedones.php">comedones treatment</a>';
+                                                }
+                                                include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
+                                                ?>
+                                          </div>
+                                    </div>
+                              </div>
+                              <div class="container">
+                                    <a class="button outline l10n"
+                                       href="results.php">View all treatment results</a>
+                              </div>
+                        </section>
+                        <section id="reviews"></section>
+                        <section id="faq"></section>
+                        <section id="skin-guide"></section>
+                        <section id="specialists"></section>
+                        <section id="related-problems"></section>
+                        <section id="brands"></section>
                   </div>
             </div>
       </main>
