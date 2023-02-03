@@ -396,145 +396,129 @@ if ($lang == 'sv') {
                               <?php } ?>
                         </section>
                         <section id="results">
-                              <div class="container">
-                                    <div class="flex-row justify-space-between">
-                                          <h2 class="big l10n">Results</h2>
-                                          <div class="step-buttons">
-                                                <button class="round-large grey"
-                                                        onclick="Carousel.prev('#results-carousel')">
-                                                      <?php icon('arrow-left') ?>
-                                                </button>
-                                                <button class="round-large grey"
-                                                        onclick="Carousel.next('#results-carousel')">
-                                                      <?php icon('arrow-right') ?>
-                                                </button>
-                                          </div>
+                              <div class="flex-row justify-space-between">
+                                    <h2 class="big l10n">Results</h2>
+                                    <div class="step-buttons">
+                                          <button class="round-large grey"
+                                                  onclick="Carousel.prev('#results-carousel')">
+                                                <?php icon('arrow-left') ?>
+                                          </button>
+                                          <button class="round-large grey"
+                                                  onclick="Carousel.next('#results-carousel')">
+                                                <?php icon('arrow-right') ?>
+                                          </button>
                                     </div>
                               </div>
                               <div class="carousel"
                                    id="results-carousel">
-                                    <div class="slide">
-                                          <div class="container l10n">
-                                                <?php
-                                                $before = 'images/results/acne-before.webp';
-                                                $after = 'images/results/acne-after.webp';
-                                                if ($lang == 'sv') {
-                                                      $label = 'Efter två månaders <a href="treatments/acne.php">aknebehandling</a>';
-                                                } else {
-                                                      $label = 'After two months of <a href="treatments/acne.php">acne treatment</a>';
-                                                }
-                                                include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
-                                                ?>
-                                          </div>
+                                    <div class="slide l10n">
+                                          <?php
+                                          $before = 'images/results/acne-before.webp';
+                                          $after = 'images/results/acne-after.webp';
+                                          if ($lang == 'sv') {
+                                                $label = 'Efter två månaders <a href="treatments/acne.php">aknebehandling</a>';
+                                          } else {
+                                                $label = 'After two months of <a href="treatments/acne.php">acne treatment</a>';
+                                          }
+                                          include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
+                                          ?>
                                     </div>
-                                    <div class="slide">
-                                          <div class="container l10n">
-                                                <?php
-                                                $before = 'images/results/rosacea-before.webp';
-                                                $after = 'images/results/rosacea-after.webp';
-                                                if ($lang == 'sv') {
-                                                      $label = 'Efter två månaders <a href="treatments/rosacea.php">rosaceabehandling</a>';
-                                                } else {
-                                                      $label = 'After two months of <a href="treatments/rosacea.php">rosacea treatment</a>';
-                                                }
-                                                include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
-                                                ?>
-                                          </div>
+                                    <div class="slide l10n">
+                                          <?php
+                                          $before = 'images/results/rosacea-before.webp';
+                                          $after = 'images/results/rosacea-after.webp';
+                                          if ($lang == 'sv') {
+                                                $label = 'Efter två månaders <a href="treatments/rosacea.php">rosaceabehandling</a>';
+                                          } else {
+                                                $label = 'After two months of <a href="treatments/rosacea.php">rosacea treatment</a>';
+                                          }
+                                          include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
+                                          ?>
                                     </div>
-                                    <div class="slide">
-                                          <div class="container l10n">
-                                                <?php
-                                                $before = 'images/results/comedones-before.webp';
-                                                $after = 'images/results/comedones-after.webp';
-                                                if ($lang == 'sv') {
-                                                      $label = 'Efter två månaders <a href="treatments/comedones.php">pormaskbehandling</a>';
-                                                } else {
-                                                      $label = 'After two months of <a href="treatments/comedones.php">comedones treatment</a>';
-                                                }
-                                                include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
-                                                ?>
-                                          </div>
+                                    <div class="slide l10n">
+                                          <?php
+                                          $before = 'images/results/comedones-before.webp';
+                                          $after = 'images/results/comedones-after.webp';
+                                          if ($lang == 'sv') {
+                                                $label = 'Efter två månaders <a href="treatments/comedones.php">pormaskbehandling</a>';
+                                          } else {
+                                                $label = 'After two months of <a href="treatments/comedones.php">comedones treatment</a>';
+                                          }
+                                          include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
+                                          ?>
                                     </div>
                               </div>
-                              <div class="container">
-                                    <a class="button outline l10n"
-                                       href="results.php">View all treatment results</a>
-                              </div>
+                              <a class="button outline l10n"
+                                 href="results.php">View all treatment results</a>
                         </section>
                         <section id="reviews">
-                              <div class="container">
-                                    <div class="flex-row align-end justify-space-between">
-                                          <h2 class="big l10n">Reviews</h2>
-                                          <div class="flex-row is-hidden-mobile">
-                                                <div class="step-buttons">
-                                                      <button class="round-large grey"
-                                                              onclick="Carousel.prev('#reviews-carousel')">
-                                                            <?php icon('arrow-left') ?>
-                                                      </button>
-                                                      <button class="round-large grey"
-                                                              onclick="Carousel.next('#reviews-carousel')">
-                                                            <?php icon('arrow-right') ?>
-                                                      </button>
-                                                </div>
-                                                <a href="reviews.php"
-                                                   class="ml-l button compact text">
-                                                      <span class="l10n">View all reviews</span>
-                                                      <?php icon('navigate-next') ?>
-                                                </a>
+                              <div class="flex-row align-end justify-space-between">
+                                    <h2 class="big l10n">Reviews</h2>
+                                    <div class="flex-row is-hidden-mobile">
+                                          <div class="step-buttons">
+                                                <button class="round-large grey"
+                                                        onclick="Carousel.prev('#reviews-carousel')">
+                                                      <?php icon('arrow-left') ?>
+                                                </button>
+                                                <button class="round-large grey"
+                                                        onclick="Carousel.next('#reviews-carousel')">
+                                                      <?php icon('arrow-right') ?>
+                                                </button>
                                           </div>
-
+                                          <a href="reviews.php"
+                                             class="ml-l button compact text">
+                                                <span class="l10n">View all reviews</span>
+                                                <?php icon('navigate-next') ?>
+                                          </a>
                                     </div>
-                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                                    <a class="mt-xl button outline expand is-hidden-tablet l10n"
-                                       href="reviews.php">View all reviews</a>
+
                               </div>
+                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
+                              <a class="mt-xl button outline expand is-hidden-tablet l10n"
+                                 href="reviews.php">View all reviews</a>
                         </section>
                         <section id="faq">
-                              <div class="container">
-                                    <div class="flex-row align-end justify-space-between">
-                                          <h2 class="big l10n">Questions & answers</h2>
-                                          <a href="faq.php"
-                                             class="button compact text is-hidden-mobile">
-                                                <span class="l10n">View all questions</span>
-                                                <?php icon('navigate-next') ?>
-                                          </a>
-                                    </div>
-                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
+                              <div class="flex-row align-end justify-space-between">
+                                    <h2 class="big l10n">Questions & answers</h2>
+                                    <a href="faq.php"
+                                       class="button compact text is-hidden-mobile">
+                                          <span class="l10n">View all questions</span>
+                                          <?php icon('navigate-next') ?>
+                                    </a>
                               </div>
+                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
                         </section>
                         <section id="skin-guide">
-                              <div class="container">
-                                    <div class="flex-row align-end justify-space-between">
-                                          <h2 class="big l10n">Skin guide</h2>
-                                          <a href="skin-guide.php"
-                                             class="button compact text is-hidden-mobile">
-                                                <span class="l10n">View all articles</span>
-                                                <?php icon('navigate-next') ?>
-                                          </a>
-                                    </div>
-                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php'); ?>
-                                    <a class="mt-xl button outline expand is-hidden-tablet l10n"
-                                       href="skin-guide.php">View all articles</a>
+                              <div class="flex-row align-end justify-space-between">
+                                    <h2 class="big l10n">Skin guide</h2>
+                                    <a href="skin-guide.php"
+                                       class="button compact text is-hidden-mobile">
+                                          <span class="l10n">View all articles</span>
+                                          <?php icon('navigate-next') ?>
+                                    </a>
                               </div>
+                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php'); ?>
+                              <a class="mt-xl button outline expand is-hidden-tablet l10n"
+                                 href="skin-guide.php">View all articles</a>
                         </section>
                         <section id="specialists">
-                              <div class="container">
-                                    <div class="flex-row align-end justify-space-between">
-                                          <h2 class="big l10n">Our specialists</h2>
-                                          <a href="specialists.php"
-                                             class="button compact text is-hidden-mobile">
-                                                <span class="l10n">View all specialists</span>
-                                                <?php icon('navigate-next') ?>
-                                          </a>
-                                    </div>
-                                    <?php
-                                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
-                                    ?>
-                                    <a class="mt-xl button outline expand is-hidden-tablet l10n"
-                                       href="specialists.php">View all specialists</a>
+                              <div class="flex-row align-end justify-space-between">
+                                    <h2 class="big l10n">Our specialists</h2>
+                                    <a href="specialists.php"
+                                       class="button compact text is-hidden-mobile">
+                                          <span class="l10n">View all specialists</span>
+                                          <?php icon('navigate-next') ?>
+                                    </a>
                               </div>
+                              <?php
+                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
+                              ?>
+                              <a class="mt-xl button outline expand is-hidden-tablet l10n"
+                                 href="specialists.php">View all specialists</a>
                         </section>
-                        <section id="related-problems"></section>
+                        <section id="related-problems">
+
+                        </section>
                         <section id="brands">
                               <div class="container">
                                     <div class="flex-row align-end justify-space-between">
