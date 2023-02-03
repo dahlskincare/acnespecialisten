@@ -5,6 +5,7 @@ include_once('widgets/treatment-step-card/treatment-step.php');
 include_once('widgets/symptom-card/symptom.php');
 include_once('widgets/treatment-card/treatment.php');
 include_once('widgets/problem-article/problem-article.php');
+include_once('widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 // Image filename (must be in folder "images/problems/large/")
@@ -52,6 +53,9 @@ if ($lang == 'sv') {
             new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-1.jpg', 'images/specialists/large/specialist-3.jpg'),
             new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-1.jpg', 'images/specialists/large/specialist-4.jpg'),
       );
+      $related_problems = array(
+            new RelatedProblem('acne', 'Acne', 'scars stains', 'images/problems/small/acne.jpg')
+      );
 
 } else {
       $title = 'Acne scars';
@@ -91,6 +95,11 @@ if ($lang == 'sv') {
             new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-1.jpg', 'images/specialists/large/specialist-2.jpg'),
             new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-1.jpg', 'images/specialists/large/specialist-3.jpg'),
             new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-1.jpg', 'images/specialists/large/specialist-4.jpg'),
+      );
+      $related_problems = array(
+            new RelatedProblem('acne', 'Acne', 'scars stains', 'images/problems/small/acne.jpg'),
+            new RelatedProblem('acne', 'Acne', 'scars stains', 'images/problems/small/acne.jpg'),
+            new RelatedProblem('acne', 'Acne', 'scars stains', 'images/problems/small/acne.jpg'),
       );
 }
 ?>
@@ -517,21 +526,26 @@ if ($lang == 'sv') {
                                  href="specialists.php">View all specialists</a>
                         </section>
                         <section id="related-problems">
-
+                              <h2 class="big l10n">Related problems</h2>
+                              <dig class="columns is-variable is-0-mobile is-3-tablet is-multiline">
+                                    <?php foreach ($related_problems as $problem) { ?>
+                                          <div class="column is-half">
+                                                <?php include('widgets/related-problem-card/related-problem-card.php'); ?>
+                                          </div>
+                                    <?php } ?>
+                              </dig>
                         </section>
                         <section id="brands">
-                              <div class="container">
-                                    <div class="flex-row align-end justify-space-between">
-                                          <h2 class="big l10n">Brands we use</h2>
-                                          <a href="brands.php"
-                                             class="button compact text is-hidden-mobile">
-                                                <span class="l10n">View all brands</span>
-                                                <?php icon('navigate-next') ?>
-                                          </a>
-                                    </div>
-                                    <a class="mt-xl button outline expand is-hidden-tablet l10n"
-                                       href="brands.php">View all brands</a>
+                              <div class="flex-row align-end justify-space-between">
+                                    <h2 class="big l10n">Brands we use</h2>
+                                    <a href="brands.php"
+                                       class="button compact text is-hidden-mobile">
+                                          <span class="l10n">View all brands</span>
+                                          <?php icon('navigate-next') ?>
+                                    </a>
                               </div>
+                              <a class="mt-xl button outline expand is-hidden-tablet l10n"
+                                 href="brands.php">View all brands</a>
                         </section>
                   </div>
             </div>

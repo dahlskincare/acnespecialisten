@@ -7,6 +7,7 @@
 @import "widgets/treatment-step-card/treatment-step-card";
 @import "widgets/treatment-card/treatment-card";
 @import "widgets/problem-article/problem-article-widget";
+@import "widgets/related-problem-card/related-problem-card";
 
 
 html {
@@ -268,6 +269,18 @@ section#header {
                 a.button.outline {
                     width: auto;
                     box-sizing: initial;
+                }
+            }
+        }
+
+        section#related-problems {
+            .related-problem-card-widget {
+                margin-top: $m;
+            }
+
+            @media screen and (min-width: $tablet) {
+                .related-problem-card-widget {
+                    margin-top: $xl;
                 }
             }
         }
