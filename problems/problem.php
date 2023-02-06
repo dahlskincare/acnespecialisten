@@ -57,7 +57,6 @@ if ($lang == 'sv') {
       $related_problems = array(
             new RelatedProblem('acne', 'Acne', 'scars stains', 'images/problems/small/acne.jpg')
       );
-
 } else {
       $title = 'Acne scars';
       $description = 'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat.';
@@ -114,35 +113,25 @@ if ($lang == 'sv') {
             Acnespecialisten |
             <?php echo $title ?>
       </title>
-      <meta name="description"
-            content=""
-            class="l10n">
-      <meta name="title"
-            content=""
-            class="l10n">
-      <meta name="keywords"
-            content=""
-            class="l10n">
+      <meta name="description" content="" class="l10n">
+      <meta name="title" content="" class="l10n">
+      <meta name="keywords" content="" class="l10n">
 
       <!-- Optional: Set canonical version of this page (https://support.google.com/webmasters/answer/10347851) -->
 
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
-      <link rel="stylesheet"
-            href="/styles/default-layout.css">
+      <link rel="stylesheet" href="/styles/default-layout.css">
 
-      <link rel="stylesheet"
-            href="problems/problem.css">
+      <link rel="stylesheet" href="problems/problem.css">
       <script src="problems/widgets/problem-trivia-card/problem-trivia-card.js"></script>
 
 </head>
 
 <body>
-      <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>      
-      <div class="is-hidden-touch is-hidden-desktop-only"
-           id="floater">
+      <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
+      <div class="is-hidden-touch is-hidden-desktop-only" id="floater">
             <div class="container">
-                  <div id="floating-picture"
-                       style="background-image: url('images/problems/carousel/large/<?php echo $image ?>')">
+                  <div id="floating-picture" style="background-image: url('images/problems/carousel/large/<?php echo $image ?>')">
                         <div id="overlay">
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
                               <div>
@@ -167,14 +156,10 @@ if ($lang == 'sv') {
                                           <?php } ?>
                                     <div class="mt-xl columns is-2 is-variable">
                                           <div class="column">
-                                                <a href="https://www.dahlskincare.com/skin-consultation"
-                                                   target="_blank"
-                                                   class="button white expand l10n">Get a free consultation</a>
+                                                <a href="https://www.dahlskincare.com/skin-consultation" target="_blank" class="button white expand l10n">Get a free consultation</a>
                                           </div>
                                           <div class="column">
-                                                <a href="<?php echo $booking_url ?>"
-                                                   target="_blank"
-                                                   class="button white expand l10n">Book a treatment</a>
+                                                <a href="<?php echo $booking_url ?>" target="_blank" class="button white expand l10n">Book a treatment</a>
                                           </div>
                                     </div>
                                     </p>
@@ -183,10 +168,9 @@ if ($lang == 'sv') {
                   </div>
             </div>
       </div>
-      <main>      
+      <main>
             <section id="header">
-                  <div id="green-header-small"
-                       class="is-hidden-tablet">
+                  <div id="green-header-small" class="is-hidden-tablet">
                         <div class="container">
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
                               <h1 class="mt-xs h600">
@@ -194,8 +178,7 @@ if ($lang == 'sv') {
                               </h1>
                               <h3 class="mt-m h200 l10n">Also known as</h3>
                               <?php foreach ($akas as $key => $aka) { ?>
-                                    <a href="glossary?keyword=<?php echo $key ?>"
-                                       class="mt-xs button bright">
+                                    <a href="glossary?keyword=<?php echo $key ?>" class="mt-xs button bright">
                                           <?php echo $aka ?>
                                     </a>
                               <?php } ?>
@@ -204,14 +187,10 @@ if ($lang == 'sv') {
                               </p>
                               <div class="mt-xl columns is-mobile">
                                     <div class="column is-half">
-                                          <a href="https://dahlskincare.com/skin-consultation"
-                                             target="_blank"
-                                             class="button b200 white expand l10n">Free consultation</a>
+                                          <a href="https://dahlskincare.com/skin-consultation" target="_blank" class="button b200 white expand l10n">Free consultation</a>
                                     </div>
                                     <div class="column is-half">
-                                          <a href="<?php echo $booking_url ?>"
-                                             target="_blank"
-                                             class="button b200 white expand l10n">Book a treatment</a>
+                                          <a href="<?php echo $booking_url ?>" target="_blank" class="button b200 white expand l10n">Book a treatment</a>
                                     </div>
                               </div>
                               <div class="mt-xl">
@@ -219,8 +198,7 @@ if ($lang == 'sv') {
                               </div>
                         </div>
                   </div>
-                  <div id="green-header-large"
-                       class="is-hidden-mobile">
+                  <div id="green-header-large" class="is-hidden-mobile">
                         <div class="container">
                               <div class="columns">
                                     <div class="column is-half">
@@ -230,8 +208,7 @@ if ($lang == 'sv') {
                                           <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
                                     </div>
                               </div>
-                              <div id="green-header-large-text"
-                                   class="mt-xxs">
+                              <div id="green-header-large-text" class="mt-xxs">
                                     <h1 class="h600">
                                           <?php echo $title ?>
                                     </h1>
@@ -255,14 +232,9 @@ if ($lang == 'sv') {
                                     <p class="mt-s p200">
                                           <?php echo $description ?>
                                     </p>
-                                    <div class="mt-xl flex-row"
-                                         id="book-buttons">
-                                          <a href="https://www.dahlskincare.com/skin-consultation"
-                                             target="_blank"
-                                             class="button b200 white l10n">Get a free consultation</a>
-                                          <a href="<?php echo $booking_url ?>"
-                                             target="_blank"
-                                             class="button b200 white l10n">Book a treatment</a>
+                                    <div class="mt-xl flex-row" id="book-buttons">
+                                          <a href="https://www.dahlskincare.com/skin-consultation" target="_blank" class="button b200 white l10n">Get a free consultation</a>
+                                          <a href="<?php echo $booking_url ?>" target="_blank" class="button b200 white l10n">Book a treatment</a>
                                     </div>
 
 
@@ -272,47 +244,28 @@ if ($lang == 'sv') {
             </section>
 
             <div class="container">
-                  <div id="content">                        
-                        <section id="image"
-                                 class="mt-xl is-hidden-desktop">
+                  <div id="content">
+                        <section id="image" class="mt-xl is-hidden-desktop">
                               <picture class="is-hidden-tablet">
-                                    <source media="(max-width: 449px)"
-                                            srcset="images/problems/medium/<?php echo $image ?>">
-                                    <source media="(min-width: 450px)"
-                                            srcset="images/problems/large/<?php echo $image ?>">
-                                    <img src="images/problems/<?php echo $image ?>"
-                                         alt="<?php echo $title ?>"
-                                         width="358"
-                                         height="274" />
+                                    <source media="(max-width: 449px)" srcset="images/problems/medium/<?php echo $image ?>">
+                                    <source media="(min-width: 450px)" srcset="images/problems/large/<?php echo $image ?>">
+                                    <img src="images/problems/<?php echo $image ?>" alt="<?php echo $title ?>" width="358" height="274" />
                               </picture>
                         </section>
-                        <section id="nav-buttons">                              
-                              <a href="javascript:;"
-                                 class="button grey l10n">Overview</a>
-                              <a href="javascript:;"
-                                 class="button grey l10n">Treatment approach</a>
-                              <a href="javascript:;"
-                                 class="button grey l10n">Types & symptoms</a>
-                              <a href="javascript:;"
-                                 class="button grey l10n">Define problem</a>
-                              <a href="javascript:;"
-                                 class="button grey l10n">Treatment solutions</a>
-                              <a href="javascript:;"
-                                 class="button grey l10n">Risk factors</a>
-                              <a href="javascript:;"
-                                 class="button grey l10n">When to visit a doctor</a>
-                              <a href="javascript:;"
-                                 class="button grey l10n">Cases</a>
-                              <a href="javascript:;"
-                                 class="button grey l10n">Reviews</a>
-                              <a href="javascript:;"
-                                 class="button grey l10n">FAQ</a>
-                              <a href="javascript:;"
-                                 class="button grey l10n">Skin guide</a>
-                              <a href="javascript:;"
-                                 class="button grey l10n">Specialists</a>
-                              <a href="javascript:;"
-                                 class="button grey l10n">Related problems</a>
+                        <section id="nav-buttons">
+                              <a href="javascript:;" onclick="scrollToElement('#about')" class="button grey l10n">Overview</a>
+                              <a href="javascript:;" onclick="scrollToElement('#approach')" class="button grey l10n">Treatment approach</a>
+                              <a href="javascript:;" onclick="scrollToElement('#symptoms')" class="button grey l10n">Types & symptoms</a>
+                              <a href="javascript:;" onclick="scrollToElement('#define')" class="button grey l10n">Define problem</a>
+                              <a href="javascript:;" onclick="scrollToElement('#treatments')" class="button grey l10n">Treatment solutions</a>
+                              <a href="javascript:;" onclick="scrollToElement('#articles')" class="button grey l10n">Risk factors</a>
+                              <a href="javascript:;" onclick="scrollToElement('#articles')" class="button grey l10n">When to visit a doctor</a>
+                              <a href="javascript:;" onclick="scrollToElement('#results')" class="button grey l10n">Cases</a>
+                              <a href="javascript:;" onclick="scrollToElement('#reviews')" class="button grey l10n">Reviews</a>
+                              <a href="javascript:;" onclick="scrollToElement('#faq')" class="button grey l10n">FAQ</a>
+                              <a href="javascript:;" onclick="scrollToElement('#skin-guide')" class="button grey l10n">Skin guide</a>
+                              <a href="javascript:;" onclick="scrollToElement('#specialists')" class="button grey l10n">Specialists</a>
+                              <a href="javascript:;" onclick="scrollToElement('#related-problems')" class="button grey l10n">Related problems</a>
                         </section>
                         <section id="about">
                               <h2>
@@ -343,9 +296,7 @@ if ($lang == 'sv') {
                                     } ?>
                               </div>
                               <hr class="mt-xl3 is-hidden-mobile">
-                              <a href="treatments/acne-scars"
-                                 class="mt-xl button b200 outline expand l10n"
-                                 id="approach-link">
+                              <a href="treatments/acne-scars" class="mt-xl button b200 outline expand l10n" id="approach-link">
                                     Read more about treatment
                               </a>
                         </section>
@@ -356,21 +307,16 @@ if ($lang == 'sv') {
                                     </span>
                                     <span class="h500 l10n">types & symptoms</span>
                               </h2>
-                              <div class="mt-m is-hidden-tablet"
-                                   id="symptom-buttons">
+                              <div class="mt-m is-hidden-tablet" id="symptom-buttons">
                                     <?php foreach ($symptoms as $symptom) { ?>
-                                          <a href="javascript:;"
-                                             onclick="scrollToElement('#<?php echo $symptom->id ?>')"
-                                             class="button grey">
+                                          <a href="javascript:;" onclick="scrollToElement('#<?php echo $symptom->id ?>')" class="button grey">
                                                 <?php echo $symptom->name ?>
                                           </a>
                                     <?php } ?>
                               </div>
-                              <div class="columns is-multiline is-variable is-3"
-                                   id="symptom-cards">
+                              <div class="columns is-multiline is-variable is-3" id="symptom-cards">
                                     <?php foreach ($symptoms as $symptom) { ?>
-                                          <div class="column is-half"
-                                               id="<?php echo $symptom->id ?>">
+                                          <div class="column is-half" id="<?php echo $symptom->id ?>">
                                                 <?php include('widgets/symptom-card/symptom-card.php'); ?>
                                           </div>
                                     <?php } ?>
@@ -409,18 +355,15 @@ if ($lang == 'sv') {
                               <div class="flex-row justify-space-between">
                                     <h2 class="big l10n">Results</h2>
                                     <div class="step-buttons">
-                                          <button class="round-large grey"
-                                                  onclick="Carousel.prev('#results-carousel')">
+                                          <button class="round-large grey" onclick="Carousel.prev('#results-carousel')">
                                                 <?php icon('arrow-left') ?>
                                           </button>
-                                          <button class="round-large grey"
-                                                  onclick="Carousel.next('#results-carousel')">
+                                          <button class="round-large grey" onclick="Carousel.next('#results-carousel')">
                                                 <?php icon('arrow-right') ?>
                                           </button>
                                     </div>
                               </div>
-                              <div class="carousel"
-                                   id="results-carousel">
+                              <div class="carousel" id="results-carousel">
                                     <div class="slide l10n">
                                           <?php
                                           $before = 'images/results/acne-before.webp';
@@ -458,25 +401,21 @@ if ($lang == 'sv') {
                                           ?>
                                     </div>
                               </div>
-                              <a class="button outline l10n"
-                                 href="results">View all treatment results</a>
+                              <a class="button outline l10n" href="results">View all treatment results</a>
                         </section>
                         <section id="reviews">
                               <div class="flex-row align-end justify-space-between">
                                     <h2 class="big l10n">Reviews</h2>
                                     <div class="flex-row is-hidden-mobile">
                                           <div class="step-buttons">
-                                                <button class="round-large grey"
-                                                        onclick="Carousel.prev('#reviews-carousel')">
+                                                <button class="round-large grey" onclick="Carousel.prev('#reviews-carousel')">
                                                       <?php icon('arrow-left') ?>
                                                 </button>
-                                                <button class="round-large grey"
-                                                        onclick="Carousel.next('#reviews-carousel')">
+                                                <button class="round-large grey" onclick="Carousel.next('#reviews-carousel')">
                                                       <?php icon('arrow-right') ?>
                                                 </button>
                                           </div>
-                                          <a href="reviews"
-                                             class="ml-l button compact text">
+                                          <a href="reviews" class="ml-l button compact text">
                                                 <span class="l10n">View all reviews</span>
                                                 <?php icon('navigate-next') ?>
                                           </a>
@@ -484,14 +423,12 @@ if ($lang == 'sv') {
 
                               </div>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                              <a class="mt-xl button outline expand is-hidden-tablet l10n"
-                                 href="reviews">View all reviews</a>
+                              <a class="mt-xl button outline expand is-hidden-tablet l10n" href="reviews">View all reviews</a>
                         </section>
                         <section id="faq">
                               <div class="flex-row align-end justify-space-between">
                                     <h2 class="big l10n">Questions & answers</h2>
-                                    <a href="faq"
-                                       class="button compact text is-hidden-mobile">
+                                    <a href="faq" class="button compact text is-hidden-mobile">
                                           <span class="l10n">View all questions</span>
                                           <?php icon('navigate-next') ?>
                                     </a>
@@ -501,21 +438,18 @@ if ($lang == 'sv') {
                         <section id="skin-guide">
                               <div class="flex-row align-end justify-space-between">
                                     <h2 class="big l10n">Skin guide</h2>
-                                    <a href="skin-guide"
-                                       class="button compact text is-hidden-mobile">
+                                    <a href="skin-guide" class="button compact text is-hidden-mobile">
                                           <span class="l10n">View all articles</span>
                                           <?php icon('navigate-next') ?>
                                     </a>
                               </div>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php'); ?>
-                              <a class="mt-xl button outline expand is-hidden-tablet l10n"
-                                 href="skin-guide">View all articles</a>
+                              <a class="mt-xl button outline expand is-hidden-tablet l10n" href="skin-guide">View all articles</a>
                         </section>
                         <section id="specialists">
                               <div class="flex-row align-end justify-space-between">
                                     <h2 class="big l10n">Our specialists</h2>
-                                    <a href="specialists"
-                                       class="button compact text is-hidden-mobile">
+                                    <a href="specialists" class="button compact text is-hidden-mobile">
                                           <span class="l10n">View all specialists</span>
                                           <?php icon('navigate-next') ?>
                                     </a>
@@ -523,8 +457,7 @@ if ($lang == 'sv') {
                               <?php
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
                               ?>
-                              <a class="mt-xl button outline expand is-hidden-tablet l10n"
-                                 href="specialists">View all specialists</a>
+                              <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialists">View all specialists</a>
                         </section>
                         <section id="related-problems">
                               <h2 class="big l10n">Related problems</h2>
@@ -539,14 +472,12 @@ if ($lang == 'sv') {
                         <section id="brands">
                               <div class="flex-row align-end justify-space-between">
                                     <h2 class="big l10n">Brands we use</h2>
-                                    <a href="brands"
-                                       class="button compact text is-hidden-mobile">
+                                    <a href="brands" class="button compact text is-hidden-mobile">
                                           <span class="l10n">View all brands</span>
                                           <?php icon('navigate-next') ?>
                                     </a>
                               </div>
-                              <a class="mt-xl button outline expand is-hidden-tablet l10n"
-                                 href="brands">View all brands</a>
+                              <a class="mt-xl button outline expand is-hidden-tablet l10n" href="brands">View all brands</a>
                         </section>
                   </div>
             </div>
