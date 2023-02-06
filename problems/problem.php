@@ -8,6 +8,7 @@ include_once('widgets/problem-article/problem-article.php');
 include_once('widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
+
 // Image filename (must be in folder "images/problems/large/")
 $image = 'acne-scars.jpg';
 
@@ -136,7 +137,7 @@ if ($lang == 'sv') {
 </head>
 
 <body>
-      <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
+      <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>      
       <div class="is-hidden-touch is-hidden-desktop-only"
            id="floater">
             <div class="container">
@@ -182,7 +183,7 @@ if ($lang == 'sv') {
                   </div>
             </div>
       </div>
-      <main>
+      <main>      
             <section id="header">
                   <div id="green-header-small"
                        class="is-hidden-tablet">
@@ -271,7 +272,7 @@ if ($lang == 'sv') {
             </section>
 
             <div class="container">
-                  <div id="content">
+                  <div id="content">                        
                         <section id="image"
                                  class="mt-xl is-hidden-desktop">
                               <picture class="is-hidden-tablet">
@@ -286,6 +287,7 @@ if ($lang == 'sv') {
                               </picture>
                         </section>
                         <section id="nav-buttons">
+                              <p>WHATSUP ID: <?php echo $_GET['id'] ?></p>
                               <a href="javascript:;"
                                  class="button grey l10n">Overview</a>
                               <a href="javascript:;"
