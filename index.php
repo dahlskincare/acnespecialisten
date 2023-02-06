@@ -361,7 +361,7 @@
                                     <?php icon('navigate-next') ?>
                               </a>
                         </div>
-                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq'); ?>
+                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
                   </div>
             </section>
             <section id="skin-guide">
