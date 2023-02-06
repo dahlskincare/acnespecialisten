@@ -138,10 +138,34 @@ section#header {
             margin-top: 48px;
         }
 
+        section#define {
+            margin-top: 72px;
+
+            .button {
+                width: 100%;
+                box-sizing: border-box;
+            }
+
+        }
+
         @media screen and (min-width: $tablet) {
             section#about {
                 margin-top: 88px;
             }
+
+            section#define {
+                margin-top: 88px;
+
+                .button {
+                    width: auto;
+                    box-sizing: initial;
+                }
+            }
+        }
+
+        img.step-image {
+            width: 100%;
+            height: auto;
         }
     }
 
