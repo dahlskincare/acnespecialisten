@@ -3,7 +3,6 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once('widgets/problem-trivia-card/problem-trivia.php');
 include_once('widgets/treatment-step-card/treatment-step.php');
 include_once('widgets/symptom-card/symptom.php');
-include_once('widgets/service-card/service.php');
 include_once('widgets/problem-article/problem-article.php');
 include_once('widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
