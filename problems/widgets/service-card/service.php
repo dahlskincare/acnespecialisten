@@ -1,5 +1,5 @@
 <?php
-class Treatment
+class Service
 {
     public function __construct(
         $id,
@@ -11,8 +11,7 @@ class Treatment
         $image_large,
         $consultation_url,
         $booking_url
-    )
-    {
+    ) {
         $this->id = $id;
         $this->title = $title;
         $this->duration = $duration;
@@ -24,15 +23,13 @@ class Treatment
         $this->booking_url = $booking_url;
     }
 
-    public $id;
-    public $title;
-    public $duration;
-    public $price;
-    public $image_small;
-    public $image_large;
-    public $content;
-    public $consultation_url;
-    public $booking_url;
-
+    public string $id;
+    public string $title;
+    public string $duration;
+    public string $price;
+    public string $image_small;
+    public string $image_large;
+    public string $content;
+    public string $consultation_url;
+    public string $booking_url;
 }
-?>

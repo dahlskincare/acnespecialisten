@@ -15,7 +15,7 @@
                 <nav>
                     <ul>
                         <li><a href="problems" class="h100 l10n">Problems</a></li>
-                        <li><a href="treatments" class="h100 l10n">Services</a></li>
+                        <li><a href="services" class="h100 l10n">Services</a></li>
                         <li><a href="brands" class="h100 l10n">Brands</a></li>
                         <li><a href="prices" class="h100 l10n">Prices</a></li>
                         <li><a href="contact" class="h100 l10n">Contact</a></li>

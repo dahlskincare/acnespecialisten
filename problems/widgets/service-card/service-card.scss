@@ -2,7 +2,7 @@
 @import '../../../styles/util/mixins';
 @import '../../../styles/util/sizes';
 
-div.treatment-card-widget {
+div.service-card-widget {
     margin-top: $xl;
     padding: $xl;
     border-radius: $radius-l;
@@ -17,12 +17,12 @@ div.treatment-card-widget {
         overflow: hidden;
     }
 
-    .treatment-info {
+    .service-info {
         display: flex;
         align-items: center;
         color: $dark-25;
 
-        .treatment-dot {
+        .service-dot {
             width: 5px;
             height: 5px;
             border-radius: 5px;
@@ -53,7 +53,7 @@ div.treatment-card-widget {
         .middle {
             flex: auto;
 
-            .treatment-content {
+            .service-content {
                 max-width: 412px;
             }
         }
