@@ -133,7 +133,18 @@ section#header {
                 margin-right: $xs;
             }
         }
+
+        section#about {
+            margin-top: 48px;
+        }
+
+        @media screen and (min-width: $tablet) {
+            section#about {
+                margin-top: 88px;
+            }
+        }
     }
+
 }
 
 @media screen and (min-width: $widescreen) {

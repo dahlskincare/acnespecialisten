@@ -3,16 +3,27 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 
-$image_large = 'images/services/large/facials.jpg';
-$image_small = 'images/services/small/facials.jpg';
+
+$image_large = 'images/treatments/large/acne-scars.jpg';
+$image_small = 'images/treatments/small/acne-scars.jpg';
 
 // l10n
 if ($lang == 'sv') {
-    $title = 'Ansiktsbehandling';
+    $title = 'Behandling av akneärr';
     $description = 'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we.';
+    $about_title = 'What is acne scars treatment?';
+    $about_content = '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-xl">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p>';
+    $steps = array(
+        new TreatmentStep('01. Define acne scars', 'https://via.placeholder.com/358x272.jpg', 'https://via.placeholder.com/872x456.jpg', '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p>', 'https://dahlskincare.com/skin-consultaton', null, null),
+        new TreatmentStep('02. Treat acne scars', 'https://via.placeholder.com/358x272.jpg', 'https://via.placeholder.com/872x456.jpg', '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p>', 'https://dahlskincare.com/skin-consultaton', null, null),
+
+    );
 } else {
-    $title = 'Facial';
+    $title = 'Acne scars treatment';
     $description = 'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we.';
+    $about_title = 'What is acne scars treatment?';
+    $about_content = '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-xl">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p>';
+    $steps = array();
 }
 ?>
 
@@ -70,12 +81,6 @@ if ($lang == 'sv') {
                     <h1 class="mt-xs h600">
                         <?php echo $title ?>
                     </h1>
-                    <h3 class="mt-m h200 l10n">Also known as</h3>
-                    <?php foreach ($akas as $key => $aka) { ?>
-                        <a href="glossary?keyword=<?php echo $key ?>" class="mt-xs button bright">
-                            <?php echo $aka ?>
-                        </a>
-                    <?php } ?>
                     <p class="mt-m">
                         <?php echo $description ?>
                     </p>
@@ -126,7 +131,7 @@ if ($lang == 'sv') {
                     <picture class="is-hidden-tablet">
                         <source media="(max-width: 449px)" srcset="<?php echo $image_small ?>">
                         <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
-                        <img src="images/services/large/<?php echo $image_large ?>" alt="<?php echo $title ?>" width="358" height="274" />
+                        <img src="<?php echo $image_small ?>" alt="<?php echo $title ?>" width="358" height="274" />
                     </picture>
                 </section>
                 <section id="nav-buttons">
@@ -138,6 +143,13 @@ if ($lang == 'sv') {
                     <a href="javascript:;" onclick="scrollToElement('#faq')" class="button grey l10n">FAQ</a>
                     <a href="javascript:;" onclick="scrollToElement('#skin-guide')" class="button grey l10n">Skin guide</a>
                     <a href="javascript:;" onclick="scrollToElement('#specialists')" class="button grey l10n">Specialists</a>
+                </section>
+                <section id="about">
+                    <h2 class="h500"><?php echo $about_title; ?></h2>
+                    <div class="mt-xl"><?php echo $about_content ?></div>
+                </section>
+                <section id="steps">
+
                 </section>
             </div>
         </div>
