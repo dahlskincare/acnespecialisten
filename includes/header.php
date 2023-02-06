@@ -24,15 +24,15 @@
                 </a>
                 <nav>
                     <ul>
-                        <li><a href="problems.php"
+                        <li><a href="problems"
                                class="h100 l10n">Problems</a></li>
-                        <li><a href="services.php"
+                        <li><a href="services"
                                class="h100 l10n">Services</a></li>
-                        <li><a href="brands.php"
+                        <li><a href="brands"
                                class="h100 l10n">Brands</a></li>
-                        <li><a href="prices.php"
+                        <li><a href="prices"
                                class="h100 l10n">Prices</a></li>
-                        <li><a href="contact.php"
+                        <li><a href="contact"
                                class="h100 l10n">Contact</a></li>
                     </ul>
                 </nav>

@@ -137,19 +137,19 @@
                                    class="button text grey compact l10n">Free consultation</a>
                             </li>
                             <li>
-                                <a href="problems.php"
+                                <a href="problems"
                                    class="button text grey compact l10n">Problems</a>
                             </li>
                             <li>
-                                <a href="services.php"
+                                <a href="services"
                                    class="button text grey compact l10n">Services</a>
                             </li>
                             <li>
-                                <a href="brands.php"
+                                <a href="brands"
                                    class="button text grey compact l10n">Brands</a>
                             </li>
                             <li>
-                                <a href="prices.php"
+                                <a href="prices"
                                    class="button text grey compact l10n">Prices</a>
                             </li>
                         </ul>
@@ -158,19 +158,19 @@
                         <h2 class="l10n">Company</h2>
                         <ul>
                             <li>
-                                <a href="about.php"
+                                <a href="about"
                                    class="button text grey compact l10n">About us</a>
                             </li>
                             <li>
-                                <a href="our-approach.php"
+                                <a href="our-approach"
                                    class="button text grey compact l10n">Our approach</a>
                             </li>
                             <li>
-                                <a href="specialists.php"
+                                <a href="specialists"
                                    class="button text grey compact l10n">Specialists</a>
                             </li>
                             <li>
-                                <a href="career.php"
+                                <a href="career"
                                    class="button text grey compact l10n">Career</a>
                             </li>
                         </ul>
@@ -181,15 +181,15 @@
                         <h2>Support</h2>
                         <ul>
                             <li>
-                                <a href="faq.php"
+                                <a href="faq"
                                    class="button text grey compact l10n">FAQ</a>
                             </li>
                             <li>
-                                <a href="cancellation.php"
+                                <a href="cancellation"
                                    class="button text grey compact l10n">Cancellation</a>
                             </li>
                             <li>
-                                <a href="glossary.php"
+                                <a href="glossary"
                                    class="button text grey compact l10n">Glossary</a>
                             </li>
                         </ul>
@@ -198,15 +198,15 @@
                         <h2>Community</h2>
                         <ul>
                             <li>
-                                <a href="results.php"
+                                <a href="results"
                                    class="button text grey compact l10n">Clients results</a>
                             </li>
                             <li>
-                                <a href="giftcards.php"
+                                <a href="giftcards"
                                    class="button text grey compact l10n">Gift cards</a>
                             </li>
                             <li>
-                                <a href="login.php"
+                                <a href="login"
                                    class="button text grey compact l10n">Login</a>
                             </li>
                         </ul>
@@ -218,7 +218,7 @@
                     <p>&copy;
                         <?php echo date('Y') ?> Acnespecialisten
                     </p>
-                    <a href="cookie-policy.php"
+                    <a href="cookie-policy"
                        target="_blank"
                        class="button b100 compact text l10n">Cookie policy</a>
                     <div id="language-selector">
@@ -454,19 +454,19 @@
                                                class="button text grey compact l10n">Free consultation</a>
                                         </li>
                                         <li>
-                                            <a href="problems.php"
+                                            <a href="problems"
                                                class="button text grey compact l10n">Problems</a>
                                         </li>
                                         <li>
-                                            <a href="services.php"
+                                            <a href="services"
                                                class="button text grey compact l10n">Services</a>
                                         </li>
                                         <li>
-                                            <a href="brands.php"
+                                            <a href="brands"
                                                class="button text grey compact l10n">Brands</a>
                                         </li>
                                         <li>
-                                            <a href="prices.php"
+                                            <a href="prices"
                                                class="button text grey compact l10n">Prices</a>
                                         </li>
                                     </ul>
@@ -475,19 +475,19 @@
                                     <h2 class="l10n">Company</h2>
                                     <ul>
                                         <li>
-                                            <a href="about.php"
+                                            <a href="about"
                                                class="button text grey compact l10n">About us</a>
                                         </li>
                                         <li>
-                                            <a href="our-approach.php"
+                                            <a href="our-approach"
                                                class="button text grey compact l10n">Our approach</a>
                                         </li>
                                         <li>
-                                            <a href="specialists.php"
+                                            <a href="specialists"
                                                class="button text grey compact l10n">Specialists</a>
                                         </li>
                                         <li>
-                                            <a href="career.php"
+                                            <a href="career"
                                                class="button text grey compact l10n">Career</a>
                                         </li>
                                     </ul>
@@ -496,15 +496,15 @@
                                     <h2>Support</h2>
                                     <ul>
                                         <li>
-                                            <a href="faq.php"
+                                            <a href="faq"
                                                class="button text grey compact l10n">FAQ</a>
                                         </li>
                                         <li>
-                                            <a href="cancellation.php"
+                                            <a href="cancellation"
                                                class="button text grey compact l10n">Cancellation</a>
                                         </li>
                                         <li>
-                                            <a href="glossary.php"
+                                            <a href="glossary"
                                                class="button text grey compact l10n">Glossary</a>
                                         </li>
                                     </ul>
@@ -513,15 +513,15 @@
                                     <h2>Community</h2>
                                     <ul>
                                         <li>
-                                            <a href="results.php"
+                                            <a href="results"
                                                class="button text grey compact l10n">Clients results</a>
                                         </li>
                                         <li>
-                                            <a href="giftcards.php"
+                                            <a href="giftcards"
                                                class="button text grey compact l10n">Gift cards</a>
                                         </li>
                                         <li>
-                                            <a href="login.php"
+                                            <a href="login"
                                                class="button text grey compact l10n">Login</a>
                                         </li>
                                     </ul>
@@ -537,7 +537,7 @@
                         <?php echo date('Y') ?> Acnespecialisten
                     </p>
                     <div class="flex-row">
-                        <a href="cookie-policy.php"
+                        <a href="cookie-policy"
                            target="_blank"
                            class="button b100 compact text l10n">Cookie policy</a>
                         <div id="language-selector">

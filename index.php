@@ -110,26 +110,26 @@
                         <?php
                         $accordion = array();
                         if ($lang == 'sv') {
-                              $accordion[] = new AccordionItem('Akne', 'images/problems/carousel/small/acne.jpg', 'images/problems/carousel/large/acne.jpg', 'problems/acne.php', true, true);
+                              $accordion[] = new AccordionItem('Akne', 'images/problems/carousel/small/acne.jpg', 'images/problems/carousel/large/acne.jpg', 'problems/acne', true, true);
                               $accordion[] = new AccordionItem('Akneärr', 'images/problems/carousel/small/acne-scars.jpg', 'images/problems/carousel/large/acne-scars.jpg', 'problems/acne-scars.php', true, true);
-                              $accordion[] = new AccordionItem('Rosacea', 'images/problems/carousel/small/rosacea.jpg', 'images/problems/large/carousel/rosacea.jpg', 'problems/rosacea.php', true, true);
-                              $accordion[] = new AccordionItem('Pigmentering', 'images/problems/carousel/small/pigmentation.jpg', 'images/problems/carousel/large/pigmentation.jpg', 'problems/pigmentation.php', true, true);
-                              $accordion[] = new AccordionItem('Pormaskar', 'images/problems/carousel/small/large-pores.jpg', 'images/problems/carousel/large/large-pores.jpg', 'problems/large-pores.php', true, true);
-                              $accordion[] = new AccordionItem('Åldrande hy', 'images/problems/carousel/small/mature-skin.jpg', 'images/problems/carousel/large/mature-skin.jpg', 'problems/mature-skin.php', false, true);
-                              $accordion[] = new AccordionItem('Visa alla problem', 'images/problems/carousel/small/other.jpg', 'images/problems/carousel/large/other.jpg', 'problems.php', true, false);
+                              $accordion[] = new AccordionItem('Rosacea', 'images/problems/carousel/small/rosacea.jpg', 'images/problems/large/carousel/rosacea.jpg', 'problems/rosacea', true, true);
+                              $accordion[] = new AccordionItem('Pigmentering', 'images/problems/carousel/small/pigmentation.jpg', 'images/problems/carousel/large/pigmentation.jpg', 'problems/pigmentation', true, true);
+                              $accordion[] = new AccordionItem('Pormaskar', 'images/problems/carousel/small/large-pores.jpg', 'images/problems/carousel/large/large-pores.jpg', 'problems/large-pores', true, true);
+                              $accordion[] = new AccordionItem('Åldrande hy', 'images/problems/carousel/small/mature-skin.jpg', 'images/problems/carousel/large/mature-skin.jpg', 'problems/mature-skin', false, true);
+                              $accordion[] = new AccordionItem('Visa alla problem', 'images/problems/carousel/small/other.jpg', 'images/problems/carousel/large/other.jpg', 'problems', true, false);
                         } else {
-                              $accordion[] = new AccordionItem('Acne', 'images/problems/carousel/small/acne.jpg', 'images/problems/carousel/large/acne.jpg', 'problems/acne.php', true, true);
-                              $accordion[] = new AccordionItem('Acne scars', 'images/problems/carousel/small/acne-scars.jpg', 'images/problems/carousel/large/acne-scars.jpg', 'problems/acne-scars.php', true, true);
-                              $accordion[] = new AccordionItem('Rosacea', 'images/problems/carousel/small/rosacea.jpg', 'images/problems/carousel/large/rosacea.jpg', 'problems/rosacea.php', true, true);
-                              $accordion[] = new AccordionItem('Pigmentation', 'images/problems/carousel/small/pigmentation.jpg', 'images/problems/carousel/large/pigmentation.jpg', 'problems/pigmentation.php', true, true);
-                              $accordion[] = new AccordionItem('Comedones', 'images/problems/carousel/small/large-pores.jpg', 'images/problems/carousel/large/large-pores.jpg', 'problems/large-pores.php', true, true);
-                              $accordion[] = new AccordionItem('Aging skin', 'images/problems/carousel/small/mature-skin.jpg', 'images/problems/carousel/large/mature-skin.jpg', 'problems/mature-skin.php', false, true);
-                              $accordion[] = new AccordionItem('View all problems', 'images/carousel/problems/small/other.jpg', 'images/problems/carousel/large/other.jpg', 'problems.php', true, false);
+                              $accordion[] = new AccordionItem('Acne', 'images/problems/carousel/small/acne.jpg', 'images/problems/carousel/large/acne.jpg', 'problems/acne', true, true);
+                              $accordion[] = new AccordionItem('Acne scars', 'images/problems/carousel/small/acne-scars.jpg', 'images/problems/carousel/large/acne-scars.jpg', 'problems/acne-scars', true, true);
+                              $accordion[] = new AccordionItem('Rosacea', 'images/problems/carousel/small/rosacea.jpg', 'images/problems/carousel/large/rosacea.jpg', 'problems/rosacea', true, true);
+                              $accordion[] = new AccordionItem('Pigmentation', 'images/problems/carousel/small/pigmentation.jpg', 'images/problems/carousel/large/pigmentation.jpg', 'problems/pigmentation', true, true);
+                              $accordion[] = new AccordionItem('Comedones', 'images/problems/carousel/small/large-pores.jpg', 'images/problems/carousel/large/large-pores.jpg', 'problems/large-pores', true, true);
+                              $accordion[] = new AccordionItem('Aging skin', 'images/problems/carousel/small/mature-skin.jpg', 'images/problems/carousel/large/mature-skin.jpg', 'problems/mature-skin', false, true);
+                              $accordion[] = new AccordionItem('View all problems', 'images/carousel/problems/small/other.jpg', 'images/problems/carousel/large/other.jpg', 'problems', true, false);
                         }
                         $more_count = 17;
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/accordion/accordion.php')
                               ?>
-                        <a href="problems.php"
+                        <a href="problems"
                            class="mt-xl button outline is-hidden-desktop expand">View all problems</a>
                   </div>
             </section>
@@ -137,7 +137,7 @@
                   <div class="container">
                         <div class="flex-row align-end justify-space-between">
                               <h2 class="big l10n">Our approach</h2>
-                              <a href="our-approach.php"
+                              <a href="our-approach"
                                  class="button compact text is-hidden-mobile">
                                     <span class="l10n">Read more about or approach</span>
                                     <?php icon('navigate-next') ?>
@@ -175,9 +175,9 @@
                                                 In a personal meeting with a skin specialist, your skin type is examined
                                                 and identified. We take pre-photos of your skin, recommend.
                                           </div>
-                                          <a href="treatments.php"
+                                          <a href="treatments"
                                              class="button compact text l10n is-hidden-mobile">View treatments</a>
-                                          <a href="treatments.php"
+                                          <a href="treatments"
                                              class="button grey expand l10n is-hidden-tablet">View treatments</a>
                                     </div>
                               </div>
@@ -194,7 +194,7 @@
                                           <a href="https://www.dahlskincare.com"
                                              target="_blank"
                                              class="button compact text l10n is-hidden-mobile">View products</a>
-                                          <a href="products.php"
+                                          <a href="products"
                                              class="button grey expand l10n is-hidden-tablet">View products</a>
                                     </div>
                               </div>
@@ -208,14 +208,14 @@
                                                 In a personal meeting with a skin specialist, your skin type is examined
                                                 and identified. We take pre-photos of your skin, recommend.
                                           </div>
-                                          <a href="treatments.php"
+                                          <a href="treatments"
                                              class="button compact text l10n is-hidden-mobile">View treatments</a>
-                                          <a href="treatments.php"
+                                          <a href="treatments"
                                              class="button grey expand l10n is-hidden-tablet">View treatments</a>
                                     </div>
                               </div>
                         </div>
-                        <a href="our-approach.php"
+                        <a href="our-approach"
                            class="button outline expand mt-xl l10n is-hidden-desktop">
                               Read more about our approach
                         </a>
@@ -246,11 +246,11 @@
                                           $before = 'images/results/acne-before.webp';
                                           $after = 'images/results/acne-after.webp';
                                           if ($lang == 'sv') {
-                                                $label = 'Efter två månaders <a href="treatments/acne.php">aknebehandling</a>';
+                                                $label = 'Efter två månaders <a href="treatments/acne">aknebehandling</a>';
                                           } else {
-                                                $label = 'After two months of <a href="treatments/acne.php">acne treatment</a>';
+                                                $label = 'After two months of <a href="treatments/acne">acne treatment</a>';
                                           }
-                                          include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
+                                          include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result');
                                           ?>
                                     </div>
                               </div>
@@ -260,9 +260,9 @@
                                           $before = 'images/results/rosacea-before.webp';
                                           $after = 'images/results/rosacea-after.webp';
                                           if ($lang == 'sv') {
-                                                $label = 'Efter två månaders <a href="treatments/rosacea.php">rosaceabehandling</a>';
+                                                $label = 'Efter två månaders <a href="treatments/rosacea">rosaceabehandling</a>';
                                           } else {
-                                                $label = 'After two months of <a href="treatments/rosacea.php">rosacea treatment</a>';
+                                                $label = 'After two months of <a href="treatments/rosacea">rosacea treatment</a>';
                                           }
                                           include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
                                           ?>
@@ -274,24 +274,24 @@
                                           $before = 'images/results/comedones-before.webp';
                                           $after = 'images/results/comedones-after.webp';
                                           if ($lang == 'sv') {
-                                                $label = 'Efter två månaders <a href="treatments/comedones.php">pormaskbehandling</a>';
+                                                $label = 'Efter två månaders <a href="treatments/comedones">pormaskbehandling</a>';
                                           } else {
-                                                $label = 'After two months of <a href="treatments/comedones.php">comedones treatment</a>';
+                                                $label = 'After two months of <a href="treatments/comedones">comedones treatment</a>';
                                           }
-                                          include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
+                                          include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result');
                                           ?>
                                     </div>
                               </div>
                         </div>
                         <div class="container">
                               <a class="button outline expand l10n"
-                                 href="results.php">View all treatment results</a>
+                                 href="results">View all treatment results</a>
                         </div>
                   </div>
                   <div class="container is-hidden-mobile">
                         <div class="flex-row align-end justify-space-between">
                               <h2 class="big l10n">Results</h2>
-                              <a href="results.php"
+                              <a href="results"
                                  class="button compact text">
                                     <span class="l10n">View all treatment results</span>
                                     <?php icon('navigate-next') ?>
@@ -303,9 +303,9 @@
                                     $before = 'images/results/acne-before.webp';
                                     $after = 'images/results/acne-after.webp';
                                     if ($lang == 'sv') {
-                                          $label = 'Efter två månaders <a href="treatments/acne.php">aknebehandling</a>';
+                                          $label = 'Efter två månaders <a href="treatments/acne">aknebehandling</a>';
                                     } else {
-                                          $label = 'After two months of <a href="treatments/acne.php">acne treatment</a>';
+                                          $label = 'After two months of <a href="treatments/acne">acne treatment</a>';
                                     }
                                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
                                     ?>
@@ -315,11 +315,11 @@
                                     $before = 'images/results/rosacea-before.webp';
                                     $after = 'images/results/rosacea-after.webp';
                                     if ($lang == 'sv') {
-                                          $label = 'Efter två månaders <a href="treatments/rosacea.php">rosaceabehandling</a>';
+                                          $label = 'Efter två månaders <a href="treatments/rosacea">rosaceabehandling</a>';
                                     } else {
-                                          $label = 'After two months of <a href="treatments/rosacea.php">rosacea treatment</a>';
+                                          $label = 'After two months of <a href="treatments/rosacea">rosacea treatment</a>';
                                     }
-                                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
+                                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result');
                                     ?>
                               </div>
                               <div class="column l10n">
@@ -327,9 +327,9 @@
                                     $before = 'images/results/comedones-before.webp';
                                     $after = 'images/results/comedones-after.webp';
                                     if ($lang == 'sv') {
-                                          $label = 'Efter två månaders <a href="treatments/comedones.php">pormaskbehandling</a>';
+                                          $label = 'Efter två månaders <a href="treatments/comedones">pormaskbehandling</a>';
                                     } else {
-                                          $label = 'After two months of <a href="treatments/comedones.php">comedones treatment</a>';
+                                          $label = 'After two months of <a href="treatments/comedones">comedones treatment</a>';
                                     }
                                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
                                     ?>
@@ -352,7 +352,7 @@
                                                 <?php icon('arrow-right') ?>
                                           </button>
                                     </div>
-                                    <a href="reviews.php"
+                                    <a href="reviews"
                                        class="ml-l button compact text">
                                           <span class="l10n">View all reviews</span>
                                           <?php icon('navigate-next') ?>
@@ -362,7 +362,7 @@
                         </div>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
                         <a class="mt-xl button outline expand is-hidden-tablet l10n"
-                           href="reviews.php">View all reviews</a>
+                           href="reviews">View all reviews</a>
                   </div>
             </section>
             <section id="services">
@@ -371,26 +371,26 @@
                         <?php
                         $accordion = array();
                         if ($lang == 'sv') {
-                              $accordion[] = new AccordionItem('Ansiktsbehandlingar', 'images/service-categories/small/facials.jpg', 'images/service-categories/large/facials.jpg', 'services/facials.php', true, true);
-                              $accordion[] = new AccordionItem('IPL', 'images/service-categories/small/ipl.jpg', 'images/service-categories/large/ipl.jpg', 'services/ipl.php', true, true);
-                              $accordion[] = new AccordionItem('Laser', 'images/service-categories/small/laser-problem-skin.jpg', 'images/service-categories/large/laser-problem-skin.jpg', 'services/laser.php', true, true);
-                              $accordion[] = new AccordionItem('Dermabration', 'images/service-categories/small/dermabration.jpg', 'images/service-categories/large/dermabration.jpg', 'services/dermabration.php', true, true);
-                              $accordion[] = new AccordionItem('Microneedling', 'images/service-categories/small/microneedling.jpg', 'images/service-categories/large/microneedling.jpg', 'services/microneedling.php', true, true);
-                              $accordion[] = new AccordionItem('Injections ', 'images/service-categories/small/injections.jpg', 'images/service-categories/large/injections.jpg', 'services/injection.php', false, true);
-                              $accordion[] = new AccordionItem('Visa alla tjänster', 'images/service-categories/small/luxury.jpg', 'images/service-categories/large/luxury.jpg', 'services.php', true, false);
+                              $accordion[] = new AccordionItem('Ansiktsbehandlingar', 'images/service-categories/small/facials.jpg', 'images/service-categories/large/facials.jpg', 'services/facials', true, true);
+                              $accordion[] = new AccordionItem('IPL', 'images/service-categories/small/ipl.jpg', 'images/service-categories/large/ipl.jpg', 'services/ipl', true, true);
+                              $accordion[] = new AccordionItem('Laser', 'images/service-categories/small/laser-problem-skin.jpg', 'images/service-categories/large/laser-problem-skin.jpg', 'services/laser', true, true);
+                              $accordion[] = new AccordionItem('Dermabration', 'images/service-categories/small/dermabration.jpg', 'images/service-categories/large/dermabration.jpg', 'services/dermabration', true, true);
+                              $accordion[] = new AccordionItem('Microneedling', 'images/service-categories/small/microneedling.jpg', 'images/service-categories/large/microneedling.jpg', 'services/microneedling', true, true);
+                              $accordion[] = new AccordionItem('Injections ', 'images/service-categories/small/injections.jpg', 'images/service-categories/large/injections.jpg', 'services/injection', false, true);
+                              $accordion[] = new AccordionItem('Visa alla tjänster', 'images/service-categories/small/luxury.jpg', 'images/service-categories/large/luxury.jpg', 'services', true, false);
                         } else {
-                              $accordion[] = new AccordionItem('Facials', 'images/service-categories/small/facials.jpg', 'images/service-categories/large/facials.jpg', 'services/facials.php', true, true);
-                              $accordion[] = new AccordionItem('IPL', 'images/service-categories/small/ipl.jpg', 'images/service-categories/large/ipl.jpg', 'services/ipl.php', true, true);
-                              $accordion[] = new AccordionItem('Laser', 'images/service-categories/small/laser-problem-skin.jpg', 'images/service-categories/large/laser-problem-skin.jpg', 'services/laser.php', true, true);
-                              $accordion[] = new AccordionItem('Dermabration', 'images/service-categories/small/dermabration.jpg', 'images/service-categories/large/dermabration.jpg', 'services/dermabration.php', true, true);
-                              $accordion[] = new AccordionItem('Microneedling', 'images/service-categories/small/microneedling.jpg', 'images/service-categories/large/microneedling.jpg', 'services/microneedling.php', true, true);
-                              $accordion[] = new AccordionItem('Injections ', 'images/service-categories/small/injections.jpg', 'images/service-categories/large/injections.jpg', 'services/injection.php', false, true);
-                              $accordion[] = new AccordionItem('View all services', 'images/service-categories/small/luxury.jpg', 'images/service-categories/large/luxury.jpg', 'services.php', true, false);
+                              $accordion[] = new AccordionItem('Facials', 'images/service-categories/small/facials.jpg', 'images/service-categories/large/facials.jpg', 'services/facials', true, true);
+                              $accordion[] = new AccordionItem('IPL', 'images/service-categories/small/ipl.jpg', 'images/service-categories/large/ipl.jpg', 'services/ipl', true, true);
+                              $accordion[] = new AccordionItem('Laser', 'images/service-categories/small/laser-problem-skin.jpg', 'images/service-categories/large/laser-problem-skin.jpg', 'services/laser', true, true);
+                              $accordion[] = new AccordionItem('Dermabration', 'images/service-categories/small/dermabration.jpg', 'images/service-categories/large/dermabration.jpg', 'services/dermabration', true, true);
+                              $accordion[] = new AccordionItem('Microneedling', 'images/service-categories/small/microneedling.jpg', 'images/service-categories/large/microneedling.jpg', 'services/microneedling', true, true);
+                              $accordion[] = new AccordionItem('Injections ', 'images/service-categories/small/injections.jpg', 'images/service-categories/large/injections.jpg', 'services/injection', false, true);
+                              $accordion[] = new AccordionItem('View all services', 'images/service-categories/small/luxury.jpg', 'images/service-categories/large/luxury.jpg', 'services', true, false);
                         }
                         $more_count = 17;
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/accordion/accordion.php')
                               ?>
-                        <a href="problems.php"
+                        <a href="problems"
                            class="mt-xl button outline is-hidden-desktop expand">View all services</a>
                   </div>
             </section>
@@ -398,20 +398,20 @@
                   <div class="container">
                         <div class="flex-row align-end justify-space-between">
                               <h2 class="big l10n">Questions & answers</h2>
-                              <a href="faq.php"
+                              <a href="faq"
                                  class="button compact text is-hidden-mobile">
                                     <span class="l10n">View all questions</span>
                                     <?php icon('navigate-next') ?>
                               </a>
                         </div>
-                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
+                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq'); ?>
                   </div>
             </section>
             <section id="skin-guide">
                   <div class="container">
                         <div class="flex-row align-end justify-space-between">
                               <h2 class="big l10n">Skin guide</h2>
-                              <a href="skin-guide.php"
+                              <a href="skin-guide"
                                  class="button compact text is-hidden-mobile">
                                     <span class="l10n">View all articles</span>
                                     <?php icon('navigate-next') ?>
@@ -419,7 +419,7 @@
                         </div>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php'); ?>
                         <a class="mt-xl button outline expand is-hidden-tablet l10n"
-                           href="skin-guide.php">View all articles</a>
+                           href="skin-guide">View all articles</a>
                   </div>
             </section>
             <section id="about-us">
@@ -488,7 +488,7 @@
                                                 </p>
                                           </div>
                                     </div>
-                                    <a href="about.php"
+                                    <a href="about"
                                        class="button b200 outline expand l10n">View more about us</a>
                               </div>
                         </div>
@@ -510,7 +510,7 @@
                   <div class="container">
                         <div class="flex-row align-end justify-space-between">
                               <h2 class="big l10n">Our specialists</h2>
-                              <a href="specialists.php"
+                              <a href="specialists"
                                  class="button compact text is-hidden-mobile">
                                     <span class="l10n">View all specialists</span>
                                     <?php icon('navigate-next') ?>
@@ -525,21 +525,21 @@
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
                         ?>
                         <a class="mt-xl button outline expand is-hidden-tablet l10n"
-                           href="specialists.php">View all specialists</a>
+                           href="specialists">View all specialists</a>
                   </div>
             </section>
             <section id="brands">
                   <div class="container">
                         <div class="flex-row align-end justify-space-between">
                               <h2 class="big l10n">Brands we use</h2>
-                              <a href="brands.php"
+                              <a href="brands"
                                  class="button compact text is-hidden-mobile">
                                     <span class="l10n">View all brands</span>
                                     <?php icon('navigate-next') ?>
                               </a>
                         </div>
                         <a class="mt-xl button outline expand is-hidden-tablet l10n"
-                           href="brands.php">View all brands</a>
+                           href="brands">View all brands</a>
                   </div>
             </section>
       </main>

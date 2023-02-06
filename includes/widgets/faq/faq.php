@@ -86,7 +86,7 @@ if ($lang == 'sv') {
             <?php
             $index++;
         } ?>
-        <a href="questions.php"
+        <a href="questions"
            class="mt-xl button outline expand l10n">View all questions</a>
     </div>
 </div>

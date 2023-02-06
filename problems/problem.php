@@ -156,12 +156,12 @@ if ($lang == 'sv') {
                                           $values = array_values($akas);
                                           $keys = array_keys($akas);
                                           for ($i = 0; $i < $length; $i++) { ?>
-                                                <!-- TODO (Patrick) create page glossary.php -->
+                                                <!-- TODO (Patrick) create page glossary -->
                                                 <?php
                                                 if ($i == $length - 1) {
-                                                      echo '<a href="glossary.php?keyword=' . $keys[$i] . '" class="b200 underline">' . $values[$i] . '</a>.';
+                                                      echo '<a href="glossary?keyword=' . $keys[$i] . '" class="b200 underline">' . $values[$i] . '</a>.';
                                                 } else {
-                                                      echo '<a href="glossary.php?keyword=' . $keys[$i] . '" class="b200 underline">' . $values[$i] . '</a>,';
+                                                      echo '<a href="glossary?keyword=' . $keys[$i] . '" class="b200 underline">' . $values[$i] . '</a>,';
                                                 }
                                                 ?>
                                           <?php } ?>
@@ -194,7 +194,7 @@ if ($lang == 'sv') {
                               </h1>
                               <h3 class="mt-m h200 l10n">Also known as</h3>
                               <?php foreach ($akas as $key => $aka) { ?>
-                                    <a href="glossary.php?keyword=<?php echo $key ?>"
+                                    <a href="glossary?keyword=<?php echo $key ?>"
                                        class="mt-xs button bright">
                                           <?php echo $aka ?>
                                     </a>
@@ -242,12 +242,12 @@ if ($lang == 'sv') {
                                           $values = array_values($akas);
                                           $keys = array_keys($akas);
                                           for ($i = 0; $i < $length; $i++) { ?>
-                                                <!-- TODO (Patrick) create page glossary.php -->
+                                                <!-- TODO (Patrick) create page glossary -->
                                                 <?php
                                                 if ($i == $length - 1) {
-                                                      echo '<a href="glossary.php?keyword=' . $keys[$i] . '" class="b200 underline">' . $values[$i] . '</a>.';
+                                                      echo '<a href="glossary?keyword=' . $keys[$i] . '" class="b200 underline">' . $values[$i] . '</a>.';
                                                 } else {
-                                                      echo '<a href="glossary.php?keyword=' . $keys[$i] . '" class="b200 underline">' . $values[$i] . '</a>,';
+                                                      echo '<a href="glossary?keyword=' . $keys[$i] . '" class="b200 underline">' . $values[$i] . '</a>,';
                                                 }
                                                 ?>
                                           <?php } ?>
@@ -286,8 +286,7 @@ if ($lang == 'sv') {
                                          height="274" />
                               </picture>
                         </section>
-                        <section id="nav-buttons">
-                              <p>WHATSUP ID: <?php echo $_GET['id'] ?></p>
+                        <section id="nav-buttons">                              
                               <a href="javascript:;"
                                  class="button grey l10n">Overview</a>
                               <a href="javascript:;"
@@ -344,7 +343,7 @@ if ($lang == 'sv') {
                                     } ?>
                               </div>
                               <hr class="mt-xl3 is-hidden-mobile">
-                              <a href="treatments/acne-scars.php"
+                              <a href="treatments/acne-scars"
                                  class="mt-xl button b200 outline expand l10n"
                                  id="approach-link">
                                     Read more about treatment
@@ -427,9 +426,9 @@ if ($lang == 'sv') {
                                           $before = 'images/results/acne-before.webp';
                                           $after = 'images/results/acne-after.webp';
                                           if ($lang == 'sv') {
-                                                $label = 'Efter två månaders <a href="treatments/acne.php">aknebehandling</a>';
+                                                $label = 'Efter två månaders <a href="treatments/acne">aknebehandling</a>';
                                           } else {
-                                                $label = 'After two months of <a href="treatments/acne.php">acne treatment</a>';
+                                                $label = 'After two months of <a href="treatments/acne">acne treatment</a>';
                                           }
                                           include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
                                           ?>
@@ -439,9 +438,9 @@ if ($lang == 'sv') {
                                           $before = 'images/results/rosacea-before.webp';
                                           $after = 'images/results/rosacea-after.webp';
                                           if ($lang == 'sv') {
-                                                $label = 'Efter två månaders <a href="treatments/rosacea.php">rosaceabehandling</a>';
+                                                $label = 'Efter två månaders <a href="treatments/rosacea">rosaceabehandling</a>';
                                           } else {
-                                                $label = 'After two months of <a href="treatments/rosacea.php">rosacea treatment</a>';
+                                                $label = 'After two months of <a href="treatments/rosacea">rosacea treatment</a>';
                                           }
                                           include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
                                           ?>
@@ -451,16 +450,16 @@ if ($lang == 'sv') {
                                           $before = 'images/results/comedones-before.webp';
                                           $after = 'images/results/comedones-after.webp';
                                           if ($lang == 'sv') {
-                                                $label = 'Efter två månaders <a href="treatments/comedones.php">pormaskbehandling</a>';
+                                                $label = 'Efter två månaders <a href="treatments/comedones">pormaskbehandling</a>';
                                           } else {
-                                                $label = 'After two months of <a href="treatments/comedones.php">comedones treatment</a>';
+                                                $label = 'After two months of <a href="treatments/comedones">comedones treatment</a>';
                                           }
                                           include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
                                           ?>
                                     </div>
                               </div>
                               <a class="button outline l10n"
-                                 href="results.php">View all treatment results</a>
+                                 href="results">View all treatment results</a>
                         </section>
                         <section id="reviews">
                               <div class="flex-row align-end justify-space-between">
@@ -476,7 +475,7 @@ if ($lang == 'sv') {
                                                       <?php icon('arrow-right') ?>
                                                 </button>
                                           </div>
-                                          <a href="reviews.php"
+                                          <a href="reviews"
                                              class="ml-l button compact text">
                                                 <span class="l10n">View all reviews</span>
                                                 <?php icon('navigate-next') ?>
@@ -486,12 +485,12 @@ if ($lang == 'sv') {
                               </div>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
                               <a class="mt-xl button outline expand is-hidden-tablet l10n"
-                                 href="reviews.php">View all reviews</a>
+                                 href="reviews">View all reviews</a>
                         </section>
                         <section id="faq">
                               <div class="flex-row align-end justify-space-between">
                                     <h2 class="big l10n">Questions & answers</h2>
-                                    <a href="faq.php"
+                                    <a href="faq"
                                        class="button compact text is-hidden-mobile">
                                           <span class="l10n">View all questions</span>
                                           <?php icon('navigate-next') ?>
@@ -502,7 +501,7 @@ if ($lang == 'sv') {
                         <section id="skin-guide">
                               <div class="flex-row align-end justify-space-between">
                                     <h2 class="big l10n">Skin guide</h2>
-                                    <a href="skin-guide.php"
+                                    <a href="skin-guide"
                                        class="button compact text is-hidden-mobile">
                                           <span class="l10n">View all articles</span>
                                           <?php icon('navigate-next') ?>
@@ -510,12 +509,12 @@ if ($lang == 'sv') {
                               </div>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php'); ?>
                               <a class="mt-xl button outline expand is-hidden-tablet l10n"
-                                 href="skin-guide.php">View all articles</a>
+                                 href="skin-guide">View all articles</a>
                         </section>
                         <section id="specialists">
                               <div class="flex-row align-end justify-space-between">
                                     <h2 class="big l10n">Our specialists</h2>
-                                    <a href="specialists.php"
+                                    <a href="specialists"
                                        class="button compact text is-hidden-mobile">
                                           <span class="l10n">View all specialists</span>
                                           <?php icon('navigate-next') ?>
@@ -525,7 +524,7 @@ if ($lang == 'sv') {
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
                               ?>
                               <a class="mt-xl button outline expand is-hidden-tablet l10n"
-                                 href="specialists.php">View all specialists</a>
+                                 href="specialists">View all specialists</a>
                         </section>
                         <section id="related-problems">
                               <h2 class="big l10n">Related problems</h2>
@@ -540,14 +539,14 @@ if ($lang == 'sv') {
                         <section id="brands">
                               <div class="flex-row align-end justify-space-between">
                                     <h2 class="big l10n">Brands we use</h2>
-                                    <a href="brands.php"
+                                    <a href="brands"
                                        class="button compact text is-hidden-mobile">
                                           <span class="l10n">View all brands</span>
                                           <?php icon('navigate-next') ?>
                                     </a>
                               </div>
                               <a class="mt-xl button outline expand is-hidden-tablet l10n"
-                                 href="brands.php">View all brands</a>
+                                 href="brands">View all brands</a>
                         </section>
                   </div>
             </div>

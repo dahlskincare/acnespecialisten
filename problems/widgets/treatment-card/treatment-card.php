@@ -30,7 +30,7 @@
         <p class="mt-m p200">
             <?php echo $treatment->content ?>
         </p>
-        <a href="treatments/<?php echo $treatment->id ?>.php"
+        <a href="treatments/<?php echo $treatment->id ?>"
            class="mt-m button outline expand l10n">Read more</a>
         <hr />
         <?php if (isset($treatment->consultation_url)) { ?>
@@ -72,7 +72,7 @@
                 <p class="mt-xs p200 treatment-content">
                     <?php echo $treatment->content ?>
                 </p>
-                <a href="treatments/<?php echo $treatment->id ?>.php"
+                <a href="treatments/<?php echo $treatment->id ?>"
                    class="mt-xs button b200 text compact l10n">Read more</a>
             </div>
             <div class="ml-xl buttons">
