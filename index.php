@@ -3,34 +3,21 @@
 <html lang="<?php echo $lang ?>">
 
 <head>
+
       <!-- TODO: Set title and meta tags -->
       <title class="l10n">Acnespecialisten | Home</title>
-      <meta name="description"
-            content="Acnespecialisten is the best etc..."
-            class="l10n">
-      <meta name="title"
-            content="Acnespecialisten"
-            class="l10n">
-      <meta name="keywords"
-            content="Acne, specialisten"
-            class="l10n">
+      <meta name="description" content="Acnespecialisten is the best etc..." class="l10n">
+      <meta name="title" content="Acnespecialisten" class="l10n">
+      <meta name="keywords" content="Acne, specialisten" class="l10n">
 
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
 
-      <link rel="preload"
-            as="image"
-            href="images/banner-desktop.jpg"
-            media="(min-width: 984px)">
-      <link rel="preload"
-            as="image"
-            href="images/banner-mobile.jpg"
-            media="(max-width: 983px)">
+      <link rel="preload" as="image" href="images/banner-desktop.jpg" media="(min-width: 984px)">
+      <link rel="preload" as="image" href="images/banner-mobile.jpg" media="(max-width: 983px)">
 
-      <link rel="stylesheet"
-            href="/styles/default-layout.css">
+      <link rel="stylesheet" href="/styles/default-layout.css">
 
-      <link rel="stylesheet"
-            href="/index.css">
+      <link rel="stylesheet" href="/index.css">
 </head>
 
 <body>
@@ -43,10 +30,8 @@
                         </div>
                   </div>
                   <div class="container">
-                        <div class="banner-bar elevation-medium is-hidden-desktop"
-                             id="banner-bar-small">
-                              <a href="https://dahlskincare.com/skin-consultation"
-                                 target="_blank">
+                        <div class="banner-bar elevation-medium is-hidden-desktop" id="banner-bar-small">
+                              <a href="https://dahlskincare.com/skin-consultation" target="_blank">
                                     <button class="white">
                                           <span class="l10n">Get a free consultation</span>
                                     </button>
@@ -67,8 +52,7 @@
                                     </div>
                               </div>
                         </div>
-                        <div class="banner-bar elevation-medium is-hidden-touch"
-                             id="banner-bar-large">
+                        <div class="banner-bar elevation-medium is-hidden-touch" id="banner-bar-large">
                               <div id="banner-bar-cols">
                                     <div class="flex-aligner">
                                           <span class="h500">4,8</span>
@@ -95,9 +79,7 @@
                                                 <div class="p200 l10n">were satisfied</div>
                                           </div>
                                     </div>
-                                    <a href="https://dahlskincare.com/skin-consultation"
-                                       target="_blank"
-                                       class="button white l10n">
+                                    <a href="https://dahlskincare.com/skin-consultation" target="_blank" class="button white l10n">
                                           Get a free consultation
                                     </a>
                               </div>
@@ -128,17 +110,15 @@
                         }
                         $more_count = 17;
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/accordion/accordion.php')
-                              ?>
-                        <a href="problems.php"
-                           class="mt-xl button outline is-hidden-desktop expand">View all problems</a>
+                        ?>
+                        <a href="problems.php" class="mt-xl button outline is-hidden-desktop expand">View all problems</a>
                   </div>
             </section>
             <section id="our-approach">
                   <div class="container">
                         <div class="flex-row align-end justify-space-between">
                               <h2 class="big l10n">Our approach</h2>
-                              <a href="our-approach.php"
-                                 class="button compact text is-hidden-mobile">
+                              <a href="our-approach.php" class="button compact text is-hidden-mobile">
                                     <span class="l10n">Read more about or approach</span>
                                     <?php icon('navigate-next') ?>
                               </a>
@@ -154,13 +134,10 @@
                                                 In a personal meeting with a skin specialist, your skin type is examined
                                                 and identified. We take pre-photos of your skin, recommend.
                                           </div>
-                                          <a href="https://www.dahlskincare.com/skin-consultation"
-                                             target="_blank"
-                                             class="button compact text l10n is-hidden-mobile">
+                                          <a href="https://www.dahlskincare.com/skin-consultation" target="_blank" class="button compact text l10n is-hidden-mobile">
                                                 Get a free consultation
                                           </a>
-                                          <a href="https://www.dahlskincare.com/skin-consultation"
-                                             class="button grey expand l10n is-hidden-tablet">
+                                          <a href="https://www.dahlskincare.com/skin-consultation" class="button grey expand l10n is-hidden-tablet">
                                                 Get a free consultation
                                           </a>
                                     </div>
@@ -175,10 +152,8 @@
                                                 In a personal meeting with a skin specialist, your skin type is examined
                                                 and identified. We take pre-photos of your skin, recommend.
                                           </div>
-                                          <a href="treatments.php"
-                                             class="button compact text l10n is-hidden-mobile">View treatments</a>
-                                          <a href="treatments.php"
-                                             class="button grey expand l10n is-hidden-tablet">View treatments</a>
+                                          <a href="treatments.php" class="button compact text l10n is-hidden-mobile">View treatments</a>
+                                          <a href="treatments.php" class="button grey expand l10n is-hidden-tablet">View treatments</a>
                                     </div>
                               </div>
                               <div class="column">
@@ -191,11 +166,8 @@
                                                 In a personal meeting with a skin specialist, your skin type is examined
                                                 and identified. We take pre-photos of your skin, recommend.
                                           </div>
-                                          <a href="https://www.dahlskincare.com"
-                                             target="_blank"
-                                             class="button compact text l10n is-hidden-mobile">View products</a>
-                                          <a href="products.php"
-                                             class="button grey expand l10n is-hidden-tablet">View products</a>
+                                          <a href="https://www.dahlskincare.com" target="_blank" class="button compact text l10n is-hidden-mobile">View products</a>
+                                          <a href="products.php" class="button grey expand l10n is-hidden-tablet">View products</a>
                                     </div>
                               </div>
                               <div class="column">
@@ -208,15 +180,12 @@
                                                 In a personal meeting with a skin specialist, your skin type is examined
                                                 and identified. We take pre-photos of your skin, recommend.
                                           </div>
-                                          <a href="treatments.php"
-                                             class="button compact text l10n is-hidden-mobile">View treatments</a>
-                                          <a href="treatments.php"
-                                             class="button grey expand l10n is-hidden-tablet">View treatments</a>
+                                          <a href="treatments.php" class="button compact text l10n is-hidden-mobile">View treatments</a>
+                                          <a href="treatments.php" class="button grey expand l10n is-hidden-tablet">View treatments</a>
                                     </div>
                               </div>
                         </div>
-                        <a href="our-approach.php"
-                           class="button outline expand mt-xl l10n is-hidden-desktop">
+                        <a href="our-approach.php" class="button outline expand mt-xl l10n is-hidden-desktop">
                               Read more about our approach
                         </a>
                   </div>
@@ -227,19 +196,16 @@
                               <div class="flex-row justify-space-between">
                                     <h2 class="big l10n">Results</h2>
                                     <div class="step-buttons">
-                                          <button class="round-large grey"
-                                                  onclick="Carousel.prev('#results-carousel')">
+                                          <button class="round-large grey" onclick="Carousel.prev('#results-carousel')">
                                                 <?php icon('arrow-left') ?>
                                           </button>
-                                          <button class="round-large grey"
-                                                  onclick="Carousel.next('#results-carousel')">
+                                          <button class="round-large grey" onclick="Carousel.next('#results-carousel')">
                                                 <?php icon('arrow-right') ?>
                                           </button>
                                     </div>
                               </div>
                         </div>
-                        <div class="carousel"
-                             id="results-carousel">
+                        <div class="carousel" id="results-carousel">
                               <div class="slide">
                                     <div class="container l10n">
                                           <?php
@@ -287,8 +253,7 @@
                   <div class="container is-hidden-mobile">
                         <div class="flex-row align-end justify-space-between">
                               <h2 class="big l10n">Results</h2>
-                              <a href="results.php"
-                                 class="button compact text">
+                              <a href="results.php" class="button compact text">
                                     <span class="l10n">View all treatment results</span>
                                     <?php icon('navigate-next') ?>
                               </a>
@@ -339,17 +304,14 @@
                               <h2 class="big l10n">Reviews</h2>
                               <div class="flex-row is-hidden-mobile">
                                     <div class="step-buttons">
-                                          <button class="round-large grey"
-                                                  onclick="Carousel.prev('#reviews-carousel')">
+                                          <button class="round-large grey" onclick="Carousel.prev('#reviews-carousel')">
                                                 <?php icon('arrow-left') ?>
                                           </button>
-                                          <button class="round-large grey"
-                                                  onclick="Carousel.next('#reviews-carousel')">
+                                          <button class="round-large grey" onclick="Carousel.next('#reviews-carousel')">
                                                 <?php icon('arrow-right') ?>
                                           </button>
                                     </div>
-                                    <a href="reviews.php"
-                                       class="ml-l button compact text">
+                                    <a href="reviews.php" class="ml-l button compact text">
                                           <span class="l10n">View all reviews</span>
                                           <?php icon('navigate-next') ?>
                                     </a>
@@ -357,8 +319,7 @@
 
                         </div>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                        <a class="mt-xl button outline expand is-hidden-tablet l10n"
-                           href="reviews.php">View all reviews</a>
+                        <a class="mt-xl button outline expand is-hidden-tablet l10n" href="reviews.php">View all reviews</a>
                   </div>
             </section>
             <section id="services">
@@ -385,17 +346,15 @@
                         }
                         $more_count = 17;
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/accordion/accordion.php')
-                              ?>
-                        <a href="problems.php"
-                           class="mt-xl button outline is-hidden-desktop expand">View all services</a>
+                        ?>
+                        <a href="problems.php" class="mt-xl button outline is-hidden-desktop expand">View all services</a>
                   </div>
             </section>
             <section id="faq">
                   <div class="container">
                         <div class="flex-row align-end justify-space-between">
                               <h2 class="big l10n">Questions & answers</h2>
-                              <a href="faq.php"
-                                 class="button compact text is-hidden-mobile">
+                              <a href="faq.php" class="button compact text is-hidden-mobile">
                                     <span class="l10n">View all questions</span>
                                     <?php icon('navigate-next') ?>
                               </a>
@@ -407,8 +366,7 @@
                   <div class="container">
                         <div class="flex-row align-end justify-space-between">
                               <h2 class="big l10n">Skin guide</h2>
-                              <a href="skin-guide.php"
-                                 class="button compact text is-hidden-mobile">
+                              <a href="skin-guide.php" class="button compact text is-hidden-mobile">
                                     <span class="l10n">View all articles</span>
                                     <?php icon('navigate-next') ?>
                               </a>
@@ -426,14 +384,9 @@
                                           really good start to the treatment of the skin.
                                     </h3>
                                     <picture class="is-hidden-tablet">
-                                          <source media="(max-width: 799px)"
-                                                  srcset="images/about-mobile.jpg">
-                                          <source media="(min-width: 800px)"
-                                                  srcset="images/about-desktop.jpg">
-                                          <img src="images/about-mobile.jpg"
-                                               alt="About us"
-                                               width="364"
-                                               height="364" />
+                                          <source media="(max-width: 799px)" srcset="images/about-mobile.jpg">
+                                          <source media="(min-width: 800px)" srcset="images/about-desktop.jpg">
+                                          <img src="images/about-mobile.jpg" alt="About us" width="364" height="364" />
                                     </picture>
                                     <div class="columns is-4 is-variable">
                                           <div class="column">
@@ -482,20 +435,14 @@
                                                 </p>
                                           </div>
                                     </div>
-                                    <a href="about.php"
-                                       class="button b200 outline expand l10n">View more about us</a>
+                                    <a href="about.php" class="button b200 outline expand l10n">View more about us</a>
                               </div>
                         </div>
                         <div id="about-image-desktop">
                               <picture>
-                                    <source media="(max-width: 799px)"
-                                            srcset="images/about-mobile.jpg">
-                                    <source media="(min-width: 800px)"
-                                            srcset="images/about-desktop.jpg">
-                                    <img src="images/about-desktop.jpg"
-                                         alt="About us"
-                                         width="632"
-                                         height="632" />
+                                    <source media="(max-width: 799px)" srcset="images/about-mobile.jpg">
+                                    <source media="(min-width: 800px)" srcset="images/about-desktop.jpg">
+                                    <img src="images/about-desktop.jpg" alt="About us" width="632" height="632" />
                               </picture>
                         </div>
                   </div>
@@ -504,8 +451,7 @@
                   <div class="container">
                         <div class="flex-row align-end justify-space-between">
                               <h2 class="big l10n">Our specialists</h2>
-                              <a href="specialists.php"
-                                 class="button compact text is-hidden-mobile">
+                              <a href="specialists.php" class="button compact text is-hidden-mobile">
                                     <span class="l10n">View all specialists</span>
                                     <?php icon('navigate-next') ?>
                               </a>
@@ -518,20 +464,19 @@
                         $specialists[] = new Specialist('Anette Black', 'Skincare specialists since 2010', 'images/specialists/small/specialist-4.jpg', 'images/specialists/large/specialist-4.jpg');
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
                         ?>
-                        <a class="mt-xl button outline expand is-hidden-tablet l10n"
-                           href="specialists.php">View all specialists</a>
+                        <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialists.php">View all specialists</a>
                   </div>
             </section>
             <section id="brands">
                   <div class="container">
                         <div class="flex-row align-end justify-space-between">
                               <h2 class="big l10n">Brands we use</h2>
-                              <a href="brands.php"
-                                 class="button compact text is-hidden-mobile">
+                              <a href="brands.php" class="button compact text is-hidden-mobile">
                                     <span class="l10n">View all brands</span>
                                     <?php icon('navigate-next') ?>
                               </a>
                         </div>
+                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
                   </div>
             </section>
       </main>

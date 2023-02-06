@@ -1,1 +1,20 @@
- .brands-widget {}
+ .brands-widget {
+
+   margin-top: 16px;
+
+   .column {
+
+
+
+     #img {
+       background-color: rgb(231, 236, 238);
+       height: 20px;
+       padding: 20px;
+       border-radius: 5px;
+       width: 70px;
+       margin: 8px;
+     }
+   }
+
+
+ }
