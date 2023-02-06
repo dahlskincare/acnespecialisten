@@ -1,7 +1,7 @@
 <?php
 class Service
 {
-    public function __construct($title, $image_small, $image_large, $content, $consultation_url, $booking_url, $service_url)
+    public function __construct($title, $image_small, $image_large, $content, $consultation_url, $booking_url, $service_url, $icons = array())
     {
         $this->title = $title;
         $this->image_small = $image_small;
@@ -10,6 +10,7 @@ class Service
         $this->consultation_url = $consultation_url;
         $this->booking_url = $booking_url;
         $this->service_url = $service_url;
+        $this->icons = $icons;
     }
 
     public string $title;
@@ -19,4 +20,5 @@ class Service
     public string $consultation_url;
     public string $booking_url;
     public string $service_url;
+    public array $icons;
 }
