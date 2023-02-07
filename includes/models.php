@@ -106,7 +106,7 @@ class Product
         $price,
         $content,
         $image_small,
-        $image_large,
+        $image_large
     ) {
         $this->id = $id;
         $this->price = $price;
