@@ -71,7 +71,7 @@ class Service
         $consultation_url,
         $booking_url,
         $icons = array(),
-        $short_title = null,
+        $short_title = null
     ) {
         $this->id = $id;
         $this->title = $title;
