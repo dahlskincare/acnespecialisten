@@ -214,11 +214,23 @@ if ($lang == 'sv') {
                 <?php } ?>
                 <?php if (isset($repair_title) && isset($repair_content) && isset($repair_image_small) && isset($repair_image_large) && isset($repair_url)) { ?>
                     <section id="repair">
-
+                        <h2 class="h500 l10n">04. Repair</h2>
+                        <picture>
+                            <source media="(max-width: 799px)" srcset="<?php echo $repair_image_small ?>">
+                            <source media="(min-width: 800px)" srcset="<?php echo $repair_image_large ?>">
+                            <img src="<?php echo $repair_image_large ?>" alt="<?php echo $repair_title ?>" class="mt-xl" width="872" height="456" />
+                        </picture>
+                        <div class="mt-xl"><?php echo $repair_content ?></div>
+                        <a href="<?php echo $repair_url ?>" class="mt-xl button outline b200 expand is-hidden-tablet l10n">
+                            View treatment
+                        </a>
+                        <a href="<?php echo $repair_url ?>" class="mt-xl button compact text b200 is-hidden-mobile">
+                            <span class="l10n">View treatment</span>
+                            <?php icon('navigate-next'); ?>
+                        </a>
                     </section>
                 <?php } ?>
                 <section id="results">
-
                 </section>
             </div>
         </div>

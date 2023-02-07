@@ -155,9 +155,19 @@ section#header {
             }
         }
 
+        section#repair {
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+
+
         section#define,
         section#treat,
-        section#prevent {
+        section#prevent,
+        section#repair {
             margin-top: 72px;
         }
 
@@ -172,7 +182,8 @@ section#header {
             section#about,
             section#define,
             section#treat,
-            section#prevent {
+            section#prevent,
+            section#repair {
                 margin-top: 88px;
             }
         }
