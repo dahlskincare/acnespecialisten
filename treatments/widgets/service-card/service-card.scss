@@ -1,0 +1,61 @@
+@import '../../../styles/util/colors';
+@import '../../../styles/util/sizes';
+@import '../../../styles/util/mixins';
+
+
+div.service-card-widget {
+    margin-top: $xl;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .service-info {
+        color: $dark-200;
+
+        .dot {
+            width: 5px;
+            height: 5px;
+            border-radius: 5px;
+            background-color: $dark-25;
+        }
+    }
+
+    .service-icons {
+        .service-icon {
+            padding: $s 0;
+            display: flex;
+            align-items: center;
+
+            .icon {
+                margin-right: $xs;
+                width: $xxl;
+                height: $xxl;
+            }
+
+        }
+    }
+
+    .mobile-buttons {
+        hr {
+            margin-top: $m;
+            margin-bottom: 0;
+            border: 0;
+            border-top: 1px solid $light-200;
+        }
+    }
+
+    .desktop-buttons {
+        a.button {
+            .icon {
+                margin-left: $xs;
+
+            }
+        }
+    }
+
+    @media screen and (min-width: $tablet) {
+        margin-top: 88px;
+    }
+}

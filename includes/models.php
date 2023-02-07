@@ -69,7 +69,9 @@ class Service
         $image_small,
         $image_large,
         $consultation_url,
-        $booking_url
+        $booking_url,
+        $icons = array(),
+        $short_title = null,
     ) {
         $this->id = $id;
         $this->title = $title;
@@ -80,6 +82,8 @@ class Service
         $this->image_large = $image_large;
         $this->consultation_url = $consultation_url;
         $this->booking_url = $booking_url;
+        $this->icons = $icons;
+        $this->short_title = $short_title;
     }
 
     public string $id;
@@ -89,6 +93,8 @@ class Service
     public string $image_small;
     public string $image_large;
     public string $content;
-    public string $consultation_url;
-    public string $booking_url;
+    public ?string $consultation_url;
+    public ?string $booking_url;
+    public ?array $icons;
+    public ?string $short_title;
 }

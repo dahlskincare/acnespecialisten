@@ -1,7 +1,7 @@
 @import "../styles/util/colors";
 @import "../styles/util/mixins";
 @import "../styles/util/sizes";
-
+@import "widgets/service-card/service-card";
 
 html {
     scroll-behavior: smooth;
@@ -148,6 +148,16 @@ section#header {
 
         }
 
+        section#treat {
+            margin-top: 72px;
+
+            #service-buttons {
+                button:not(:last-child) {
+                    margin-right: $xs;
+                }
+            }
+        }
+
         @media screen and (min-width: $tablet) {
             section#about {
                 margin-top: 88px;
@@ -160,6 +170,10 @@ section#header {
                     width: auto;
                     box-sizing: initial;
                 }
+            }
+
+            section#treat {
+                margin-top: 88px;
             }
         }
 
