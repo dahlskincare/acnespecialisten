@@ -98,3 +98,26 @@ class Service
     public ?array $icons;
     public ?string $short_title;
 }
+
+class Product
+{
+    public function __construct(
+        $id,
+        $price,
+        $content,
+        $image_small,
+        $image_large,
+    ) {
+        $this->id = $id;
+        $this->price = $price;
+        $this->content = $content;
+        $this->image_small = $image_small;
+        $this->image_large = $image_large;
+    }
+
+    public string $id;
+    public string $price;
+    public string $content;
+    public string $image_small;
+    public string $image_large;
+}

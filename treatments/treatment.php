@@ -20,6 +20,9 @@ if ($lang == 'sv') {
         new Service('laser-acne-scars', 'Laser for acne scars', '30-60 min', '1295 kr', '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p>', 'https://placeholder.com/358x274.jpg', 'https://placeholder.com/852x456.jpg', 'https://www.dahlskincare.com/skin-consultation', null, array('who-infants' => 'Infants', 'who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults'), 'Laser'),
         new Service('chemical-peeling-acne-scars', 'Chemical peeling for acne scars', '30-60 min', '1295 kr', '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p>', 'https://placeholder.com/358x274.jpg', 'https://placeholder.com/852x456.jpg', 'https://www.dahlskincare.com/skin-consultation', null, array('who-infants' => 'Infants', 'who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults'), 'Chemical peeling'),
     );
+    $products = array(
+        new Product('balancing-cleanser', '995 kr', '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>', 'https://placeholder.com/358x274.jpg', 'https://placeholder.com/872x456.jpg'),
+    );
 } else {
     $problem = 'acne scars';
     $title = 'Acne scars treatment';
@@ -33,6 +36,15 @@ if ($lang == 'sv') {
         new Service('laser-acne-scars', 'Laser for acne scars', '30-60 min', '1295 kr', '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p>', 'https://placeholder.com/358x274.jpg', 'https://placeholder.com/852x456.jpg', 'https://www.dahlskincare.com/skin-consultation', null, array('who-infants' => 'Infants', 'who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults'), 'Laser'),
         new Service('chemical-peeling-acne-scars', 'Chemical peeling for acne scars', '30-60 min', '1295 kr', '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p>', 'https://placeholder.com/358x274.jpg', 'https://placeholder.com/852x456.jpg', 'https://www.dahlskincare.com/skin-consultation', null, array('who-infants' => 'Infants', 'who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults'), 'Chemical peeling'),
     );
+    $products = array(
+        new Product('balancing-cleanser', '995 kr', '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>', 'https://placeholder.com/358x274.jpg', 'https://placeholder.com/872x456.jpg'),
+    );
+
+    $repair_title = '04. Repair post acne';
+    $repair_content = '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>';
+    $repair_image_small = 'https://placeholder.com/358x274.jpg';
+    $repair_image_large = 'https://placeholder.com/872x456.jpg';
+    $repair_url = 'treatments/acne';
 }
 ?>
 
@@ -133,7 +145,6 @@ if ($lang == 'sv') {
                 </div>
             </div>
         </section>
-
         <div class="container">
             <div id="content">
                 <section id="image" class="mt-xl is-hidden-desktop">
@@ -147,6 +158,12 @@ if ($lang == 'sv') {
                     <a href="javascript:;" onclick="scrollToElement('#about')" class="button grey l10n">Overview</a>
                     <a href="javascript:;" onclick="scrollToElement('#define')" class="button grey l10n">Define problem</a>
                     <a href="javascript:;" onclick="scrollToElement('#treat')" class="button grey l10n">Treatment solutions</a>
+                    <?php if (sizeof($products) > 0) { ?>
+                        <a href="javascript:;" onclick="scrollToElement('#prevent')" class="button grey l10n">Prevent problem</a>
+                    <?php } ?>
+                    <?php if (isset($repair_title) && isset($repair_content) && isset($repair_image_small) && isset($repair_image_large) && isset($repair_url)) { ?>
+                        <a href="javascript:;" onclick="scrollToElement('#repair')" class="button grey l10n">Repair</a>
+                    <?php } ?>
                     <a href="javascript:;" onclick="scrollToElement('#results')" class="button grey l10n">Cases</a>
                     <a href="javascript:;" onclick="scrollToElement('#reviews')" class="button grey l10n">Reviews</a>
                     <a href="javascript:;" onclick="scrollToElement('#faq')" class="button grey l10n">FAQ</a>
@@ -159,9 +176,7 @@ if ($lang == 'sv') {
                 </section>
                 <section id="define">
                     <h2>
-                        <span class="h500">01.</span>&nbsp;&nbsp;
-                        <span class="h500 l10n">Define</span>
-                        <span class="h500 lowercase"><?php echo $problem ?></span>
+                        <span class="h500">01.</span>&nbsp;&nbsp;<span class="h500 l10n">Define&nbsp;</span><span class="h500 lowercase"><?php echo $problem ?></span>
                     </h2>
                     <picture>
                         <source media="(max-width: 799px)" srcset="images/service-categories/medium/consultation.jpg">
@@ -173,9 +188,7 @@ if ($lang == 'sv') {
                 </section>
                 <section id="treat">
                     <h2>
-                        <span class="h500">02.</span>&nbsp;&nbsp;
-                        <span class="h500 l10n">Treat</span>
-                        <span class="h500 lowercase"><?php echo $problem ?></span>
+                        <span class="h500">02.&nbsp;&nbsp;</span><span class="h500 l10n">Treat&nbsp;</span><span class="h500 lowercase"><?php echo $problem ?></span>
                     </h2>
                     <p class="mt-xs l10n">
                         Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.
@@ -188,6 +201,24 @@ if ($lang == 'sv') {
                     <?php foreach ($services as $service) {
                         include('widgets/service-card/service-card.php');
                     } ?>
+                </section>
+                <?php if (sizeof($products) > 0) { ?>
+                    <section id="prevent">
+                        <h2>
+                            <span class="h500 l10n">03.&nbsp;&nbsp;Prevent</span>
+                        </h2>
+                        <?php foreach ($products as $product) {
+                            include('widgets/product-card/product-card.php');
+                        } ?>
+                    </section>
+                <?php } ?>
+                <?php if (isset($repair_title) && isset($repair_content) && isset($repair_image_small) && isset($repair_image_large) && isset($repair_url)) { ?>
+                    <section id="repair">
+
+                    </section>
+                <?php } ?>
+                <section id="results">
+
                 </section>
             </div>
         </div>

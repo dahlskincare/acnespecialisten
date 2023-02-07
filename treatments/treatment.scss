@@ -2,6 +2,7 @@
 @import "../styles/util/mixins";
 @import "../styles/util/sizes";
 @import "widgets/service-card/service-card";
+@import "widgets/product-card/product-card";
 
 html {
     scroll-behavior: smooth;
@@ -139,8 +140,6 @@ section#header {
         }
 
         section#define {
-            margin-top: 72px;
-
             .button {
                 width: 100%;
                 box-sizing: border-box;
@@ -149,8 +148,6 @@ section#header {
         }
 
         section#treat {
-            margin-top: 72px;
-
             #service-buttons {
                 button:not(:last-child) {
                     margin-right: $xs;
@@ -158,21 +155,24 @@ section#header {
             }
         }
 
+        section#define,
+        section#treat,
+        section#prevent {
+            margin-top: 72px;
+        }
+
         @media screen and (min-width: $tablet) {
-            section#about {
-                margin-top: 88px;
-            }
-
             section#define {
-                margin-top: 88px;
-
                 .button {
                     width: auto;
                     box-sizing: initial;
                 }
             }
 
-            section#treat {
+            section#about,
+            section#define,
+            section#treat,
+            section#prevent {
                 margin-top: 88px;
             }
         }
