@@ -195,7 +195,7 @@ if ($lang == 'sv') {
                     </p>
                     <div id="service-buttons" class="mt-m flex-row is-hidden-tablet">
                         <?php foreach ($services as $service) { ?>
-                            <button class="grey"><?php echo $service->short_title ?></button>
+                            <button class="grey" onclick="scrollToElement('#service-card-<?php echo $service->id ?>')"><?php echo $service->short_title ?></button>
                         <?php } ?>
                     </div>
                     <?php foreach ($services as $service) {

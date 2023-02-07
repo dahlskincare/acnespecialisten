@@ -1,4 +1,4 @@
-<div class="service-card-widget">
+<div class="service-card-widget" id="service-card-<?php echo $service->id ?>">
     <picture>
         <source media="(max-width: 799px)" srcset="<?php echo $service->image_small ?>">
         <source media="(min-width: 800px)" srcset="<?php echo $service->image_large ?>">
