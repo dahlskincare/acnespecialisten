@@ -25,21 +25,21 @@
             <section id="banner">
                   <div id="banner-background">
                         <div class="container">
-                              <h1 class="big l10n">Skin specialists</h1>
+                              <h1 class="big l10n">Hudspecialister</h1>
                         </div>
                   </div>
                   <div class="container">
                         <div class="banner-bar elevation-medium is-hidden-desktop" id="banner-bar-small">
                               <a href="https://dahlskincare.com/skin-consultation" target="_blank">
                                     <button class="white">
-                                          <span class="l10n">Get a free consultation</span>
+                                          <span class="l10n">Gratis Hudkonsultation</span>
                                     </button>
                               </a>
                               <div id="banner-bar-cols">
                                     <div>
                                           <span class="h500">4,8</span>
                                           <?php icon('trustpilot') ?>
-                                          <div class="p200 l10n">on Trustpilot</div>
+                                          <div class="p200 l10n">Trustpilot</div>
                                     </div>
                                     <div>
                                           <span class="h500">30+</span>
