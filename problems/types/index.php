@@ -50,6 +50,7 @@ if ($lang == 'sv') {
                         <h2 class="h600">
                             <?php echo $header_title ?>
                         </h2>
+                        <p class="p200 mt-m"><?php echo $header_description ?></p>
                         <div class="mt-xl columns is-2 is-variable">
                             <div class="column">
                                 <a href="https://www.dahlskincare.com/skin-consultation" target="_blank" class="button white expand l10n">Get a free consultation</a>
@@ -141,6 +142,7 @@ if ($lang == 'sv') {
                 </section>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
+    <script src="problems/problem.js"></script>
 </body>
 
 </html>

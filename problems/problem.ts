@@ -6,7 +6,6 @@ let footerLarge = document.querySelector('#footer-large');
 function onScroll(event: Event) {
     let distanceToBottom = document.documentElement.scrollHeight - document.documentElement.clientHeight - document.documentElement.scrollTop;
 
-
     if (distanceToBottom - footerLarge.clientHeight < -0.5 * picture.clientHeight) {
         picture.classList.add('hidden');
     }
