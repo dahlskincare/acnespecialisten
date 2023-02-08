@@ -162,12 +162,50 @@ section#header {
             }
         }
 
+        section#results {
+            .carousel {
+                padding-bottom: $xl;
+            }
 
+            .result-widget {
+                margin-top: $l;
+            }
+
+            a.button.outline {
+                width: 100%;
+                box-sizing: border-box;
+            }
+
+            @media screen and (min-width: $tablet) {
+                .carousel {
+                    .slide {
+                        flex: 1 0 50%;
+                        box-sizing: border-box;
+                        padding-left: $s;
+                        padding-right: $s;
+                    }
+
+                    .slide:first-child {
+                        padding-left: 0;
+                    }
+
+                    .slide:last-child {
+                        padding-right: 0;
+                    }
+                }
+
+                a.button.outline {
+                    width: auto;
+                    box-sizing: initial;
+                }
+            }
+        }
 
         section#define,
         section#treat,
         section#prevent,
-        section#repair {
+        section#repair,
+        section#results {
             margin-top: 72px;
         }
 
@@ -183,7 +221,8 @@ section#header {
             section#define,
             section#treat,
             section#prevent,
-            section#repair {
+            section#repair,
+            section#results {
                 margin-top: 88px;
             }
         }
