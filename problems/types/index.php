@@ -5,13 +5,19 @@ $image_small = 'https://via.placeholder.com/358x274.jpg';
 $image_large = 'https://via.placeholder.com/424x456.jpg';
 
 if ($lang == 'sv') {
-    $title = 'Olika typer av akneärr';
-    $description = 'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat.';
+    $problem_name = 'Akneärr';
+    $header_title = 'Olika typer av akneärr';
+    $header_description = 'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat.';
     $booking_url = '';
+    $about_title = 'What is acne scar types?';
+    $about_description = '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="mt-m p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>';
 } else {
-    $title = 'Different type of acne scars';
-    $description = 'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat.';
+    $problem_name = 'Acne scars';
+    $header_title = 'Different type of acne scars';
+    $header_description = 'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat.';
     $booking_url = '';
+    $about_title = 'What is acne scar types?';
+    $about_description = '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="mt-m p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>';
 }
 ?>
 
@@ -42,10 +48,8 @@ if ($lang == 'sv') {
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
                     <div>
                         <h2 class="h600">
-                            <?php echo $title ?>
+                            <?php echo $header_title ?>
                         </h2>
-                        <p class="mt-m">
-                            hello
                         <div class="mt-xl columns is-2 is-variable">
                             <div class="column">
                                 <a href="https://www.dahlskincare.com/skin-consultation" target="_blank" class="button white expand l10n">Get a free consultation</a>
@@ -66,10 +70,10 @@ if ($lang == 'sv') {
                 <div class="container">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
                     <h1 class="mt-xs h600">
-                        <?php echo $title ?>
+                        <?php echo $header_title ?>
                     </h1>
                     <p class="mt-m">
-                        <?php echo $description ?>
+                        <?php echo $header_description ?>
                     </p>
                     <div class="mt-xl columns is-mobile">
                         <div class="column is-half">
@@ -96,17 +100,15 @@ if ($lang == 'sv') {
                     </div>
                     <div id="green-header-large-text" class="mt-xxs">
                         <h1 class="h600">
-                            <?php echo $title ?>
+                            <?php echo $header_title ?>
                         </h1>
                         <p class="mt-s p200">
-                            <?php echo $description ?>
+                            <?php echo $header_description ?>
                         </p>
                         <div class="mt-xl flex-row" id="book-buttons">
                             <a href="https://www.dahlskincare.com/skin-consultation" target="_blank" class="button b200 white l10n">Get a free consultation</a>
                             <a href="<?php echo $booking_url ?>" target="_blank" class="button b200 white l10n">Book a treatment</a>
                         </div>
-
-
                     </div>
                 </div>
             </div>
@@ -117,8 +119,25 @@ if ($lang == 'sv') {
                     <picture class="is-hidden-tablet">
                         <source media="(max-width: 449px)" srcset="<?php echo $image_small ?>">
                         <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
-                        <img src="<?php echo $image_large ?>" alt="<?php echo $title ?>" width="358" height="274" />
+                        <img src="<?php echo $image_large ?>" alt="<?php echo $header_title ?>" width="358" height="274" />
                     </picture>
+                </section>
+                <section id="nav-buttons">
+                    <a href="javascript:;" onclick="scrollToElement('#about')" class="button b50 grey l10n">Overview</a>
+                    <a href="javascript:;" onclick="scrollToElement('#define')" class="button b50 grey l10n">Define problem</a>
+                    <a href="javascript:;" onclick="scrollToElement('#treatments')" class="button b50 grey l10n">Treatment solutions</a>
+                    <a href="javascript:;" onclick="scrollToElement('#prevent')" class="button b50 grey l10n">Prevent problem</a>
+                    <a href="javascript:;" onclick="scrollToElement('#repair')" class="button b50 grey l10n">Repair</a>
+                    <a href="javascript:;" onclick="scrollToElement('#cases')" class="button b50 grey l10n">Cases</a>
+                    <a href="javascript:;" onclick="scrollToElement('#reviews')" class="button b50 grey l10n">Reviews</a>
+                    <a href="javascript:;" onclick="scrollToElement('#faq')" class="button b50 grey l10n">Questions and answers</a>
+                    <a href="javascript:;" onclick="scrollToElement('#skin-guide')" class="button b50 grey l10n">Skin guide</a>
+                    <a href="javascript:;" onclick="scrollToElement('#specialists')" class="button b50 grey l10n">Specialists</a>
+                    <a href="javascript:;" onclick="scrollToElement('#related-problems')" class="button b50 grey l10n">Related problems</a>
+                </section>
+                <section id="about">
+                    <h2 class="h500"><?php echo $about_title ?></h2>
+                    <div class="mt-xl"><?php echo $about_description ?></div>
                 </section>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>

@@ -125,20 +125,27 @@ section#header {
 .container {
     #content {
         section#image {
+            font-size: 0;
+
             img {
                 width: 100%;
                 height: auto;
+                border-radius: $radius-l;
             }
         }
 
         section#nav-buttons {
+            margin-top: $xs;
             display: flex;
             flex-wrap: wrap;
-            margin-top: $m;
 
             .button {
                 margin-top: $xs;
                 margin-right: $xs;
+            }
+
+            @media screen and (min-width: $tablet) {
+                margin-top: $m;
             }
         }
 

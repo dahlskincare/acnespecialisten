@@ -117,20 +117,27 @@ section#header {
 .container {
     #content {
         section#image {
+            font-size: 0;
+
             img {
+                border-radius: $radius-l;
                 width: 100%;
                 height: auto;
             }
         }
 
         section#nav-buttons {
+            margin-top: $xs;
             display: flex;
             flex-wrap: wrap;
-            margin-top: $m;
 
             .button {
-                margin-top: $xs;
-                margin-right: $xs;
+                margin-top: $xxs;
+                margin-right: $xxs;
+            }
+
+            @media screen and (min-width: $tablet) {
+                margin-top: $s;
             }
         }
 
