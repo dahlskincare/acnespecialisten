@@ -23,6 +23,12 @@ if ($lang == 'sv') {
     $products = array(
         new Product('balancing-cleanser', '995 kr', '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>', 'https://via.placeholder.com/358x274.jpg', 'https://via.placeholder.com/872x456.jpg'),
     );
+    $specialists = array(
+        new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-1.jpg', 'images/specialists/large/specialist-1.jpg'),
+        new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-1.jpg', 'images/specialists/large/specialist-2.jpg'),
+        new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-1.jpg', 'images/specialists/large/specialist-3.jpg'),
+        new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-1.jpg', 'images/specialists/large/specialist-4.jpg'),
+    );
 } else {
     $problem = 'acne scars';
     $title = 'Acne scars treatment';
@@ -39,7 +45,12 @@ if ($lang == 'sv') {
     $products = array(
         new Product('balancing-cleanser', '995 kr', '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>', 'https://via.placeholder.com/358x274.jpg', 'https://via.placeholder.com/872x456.jpg'),
     );
-
+    $specialists = array(
+        new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-1.jpg', 'images/specialists/large/specialist-1.jpg'),
+        new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-1.jpg', 'images/specialists/large/specialist-2.jpg'),
+        new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-1.jpg', 'images/specialists/large/specialist-3.jpg'),
+        new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-1.jpg', 'images/specialists/large/specialist-4.jpg'),
+    );
     $repair_title = '04. Repair post acne';
     $repair_content = '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>';
     $repair_image_small = 'https://via.placeholder.com/358x274.jpg';
@@ -281,6 +292,72 @@ if ($lang == 'sv') {
                         </div>
                     </div>
                     <a class="button outline l10n" href="results">View all treatment results</a>
+                </section>
+                <section id="reviews">
+                    <div class="flex-row align-end justify-space-between">
+                        <h2 class="big l10n">Reviews</h2>
+                        <div class="flex-row is-hidden-mobile">
+                            <div class="step-buttons">
+                                <button class="round-large grey" onclick="Carousel.prev('#reviews-carousel')">
+                                    <?php icon('arrow-left') ?>
+                                </button>
+                                <button class="round-large grey" onclick="Carousel.next('#reviews-carousel')">
+                                    <?php icon('arrow-right') ?>
+                                </button>
+                            </div>
+                            <a href="reviews" class="ml-l button compact text">
+                                <span class="l10n">View all reviews</span>
+                                <?php icon('navigate-next') ?>
+                            </a>
+                        </div>
+
+                    </div>
+                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
+                    <a class="mt-xl button outline expand is-hidden-tablet l10n" href="reviews">View all reviews</a>
+                </section>
+                <section id="faq">
+                    <div class="flex-row align-end justify-space-between">
+                        <h2 class="big l10n">Questions & answers</h2>
+                        <a href="faq" class="button compact text is-hidden-mobile">
+                            <span class="l10n">View all questions</span>
+                            <?php icon('navigate-next') ?>
+                        </a>
+                    </div>
+                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
+                </section>
+                <section id="skin-guide">
+                    <div class="flex-row align-end justify-space-between">
+                        <h2 class="big l10n">Skin guide</h2>
+                        <a href="skin-guide" class="button compact text is-hidden-mobile">
+                            <span class="l10n">View all articles</span>
+                            <?php icon('navigate-next') ?>
+                        </a>
+                    </div>
+                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php'); ?>
+                    <a class="mt-xl button outline expand is-hidden-tablet l10n" href="skin-guide">View all articles</a>
+                </section>
+                <section id="specialists">
+                    <div class="flex-row align-end justify-space-between">
+                        <h2 class="big l10n">Our specialists</h2>
+                        <a href="specialists" class="button compact text is-hidden-mobile">
+                            <span class="l10n">View all specialists</span>
+                            <?php icon('navigate-next') ?>
+                        </a>
+                    </div>
+                    <?php
+                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
+                    ?>
+                    <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialists">View all specialists</a>
+                </section>
+                <section id="brands">
+                    <div class="flex-row align-end justify-space-between">
+                        <h2 class="big l10n">Brands we use</h2>
+                        <a href="brands" class="button compact text is-hidden-mobile">
+                            <span class="l10n">View all brands</span>
+                            <?php icon('navigate-next') ?>
+                        </a>
+                    </div>
+                    <a class="mt-xl button outline expand is-hidden-tablet l10n" href="brands">View all brands</a>
                 </section>
             </div>
         </div>
