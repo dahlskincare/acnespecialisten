@@ -1,6 +1,38 @@
 <?php include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php'); ?>
 
 <?php
+class BasedProblemCategory
+{
+    public function __construct($title, $content, $problems)
+    {
+        $this->title = $title;
+        $this->content = $content;
+        $this->problems = $problems;
+    }
+
+    public string $title;
+    public string $content;
+    public array $problems;
+}
+
+class BasedProblem
+{
+    public function __construct($image_url, $title, $subtitle, $content, $url)
+    {
+        $this->image_url = $image_url;
+        $this->title = $title;
+        $this->subtitle = $subtitle;
+        $this->content = $content;
+        $this->url = $url;
+    }
+
+    public string $image_url;
+    public string $title;
+    public string $subtitle;
+    public string $content;
+    public string $url;
+}
+
 $image_small = 'https://via.placeholder.com/358x274.jpg';
 $image_large = 'https://via.placeholder.com/424x456.jpg';
 
@@ -11,6 +43,7 @@ if ($lang == 'sv') {
     $booking_url = '';
     $about_title = 'What is acne scar types?';
     $about_description = '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="mt-m p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>';
+    $based_problem_categories = array();
 } else {
     $problem_name = 'Acne scars';
     $header_title = 'Different type of acne scars';
@@ -18,6 +51,16 @@ if ($lang == 'sv') {
     $booking_url = '';
     $about_title = 'What is acne scar types?';
     $about_description = '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="mt-m p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>';
+    $based_problem_categories = array(
+        new BasedProblemCategory(
+            'Based on age',
+            '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>',
+            array(
+                new BasedProblem('https://via.placeholder.com/102x102.jpg', 'Adult acne', 'Also called scars stains', '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>', ''),
+                new BasedProblem('https://via.placeholder.com/102x102.jpg', 'Teen acne', 'Also called scars stains', '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>', ''),
+            )
+        )
+    );
 }
 ?>
 
@@ -140,6 +183,12 @@ if ($lang == 'sv') {
                     <h2 class="h500"><?php echo $about_title ?></h2>
                     <div class="mt-xl"><?php echo $about_description ?></div>
                 </section>
+                <?php foreach ($based_problem_categories as $category) { ?>
+                    <section class="based">
+                        <h2 class="h500"><?php echo $category->title ?></h2>
+                        <div class="mt-xs"><?php echo $category->content ?></div>
+                    </section>
+                <?php } ?>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
     <script src="problems/problem.js"></script>
