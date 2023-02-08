@@ -38,20 +38,17 @@ class PathSegment
 {
     public function __construct($name, $url = null)
     {
-        if (strpos($name, '.') > 0) {
-            $this->name = substr($this->format_name($name), 0, strpos($name, '.'));
-            $this->url = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+        $this->name = $this->format_name($name);
+        if ($url == null) {
+            $parsed_url = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+            $this->url = substr($parsed_url, 0, strpos($parsed_url, $name) + strlen($name));
         } else {
-            $this->name = $this->format_name($name);
-            $this->url = $name . '.php';
-        }
-        if ($url != null) {
             $this->url = $url;
         }
     }
 
-    public $name;
-    public $url;
+    public string $name;
+    public string $url;
 
     function format_name(string $s)
     {
