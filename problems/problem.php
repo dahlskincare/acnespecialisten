@@ -249,7 +249,7 @@ $related_problems = array(
                                     } ?>
                               </div>
                               <hr class="mt-xl3 is-hidden-mobile">
-                              <a href="treatments/acne-scars" class="mt-xl button b200 outline expand l10n" id="approach-link">
+                              <a href="treatments/acne-scars" class="mt-xl button b200 outline expand auto-width l10n">
                                     Read more about treatment
                               </a>
                         </section>
@@ -321,11 +321,7 @@ $related_problems = array(
                                           <?php
                                           $before = 'images/results/acne-before.webp';
                                           $after = 'images/results/acne-after.webp';
-                                          if ($lang == 'sv') {
-                                                $label = 'Efter två månaders <a href="treatments/acne">aknebehandling</a>';
-                                          } else {
-                                                $label = 'After two months of <a href="treatments/acne">acne treatment</a>';
-                                          }
+                                          $label = 'After two months of <a href="treatments/acne">acne treatment</a>';
                                           include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
                                           ?>
                                     </div>
@@ -333,11 +329,7 @@ $related_problems = array(
                                           <?php
                                           $before = 'images/results/rosacea-before.webp';
                                           $after = 'images/results/rosacea-after.webp';
-                                          if ($lang == 'sv') {
-                                                $label = 'Efter två månaders <a href="treatments/rosacea">rosaceabehandling</a>';
-                                          } else {
-                                                $label = 'After two months of <a href="treatments/rosacea">rosacea treatment</a>';
-                                          }
+                                          $label = 'After two months of <a href="treatments/rosacea">rosacea treatment</a>';
                                           include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
                                           ?>
                                     </div>
@@ -345,11 +337,7 @@ $related_problems = array(
                                           <?php
                                           $before = 'images/results/comedones-before.webp';
                                           $after = 'images/results/comedones-after.webp';
-                                          if ($lang == 'sv') {
-                                                $label = 'Efter två månaders <a href="treatments/comedones">pormaskbehandling</a>';
-                                          } else {
-                                                $label = 'After two months of <a href="treatments/comedones">comedones treatment</a>';
-                                          }
+                                          $label = 'After two months of <a href="treatments/comedones">comedones treatment</a>';
                                           include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
                                           ?>
                                     </div>
@@ -368,49 +356,27 @@ $related_problems = array(
                                                       <?php icon('arrow-right') ?>
                                                 </button>
                                           </div>
-                                          <a href="reviews" class="ml-l button compact text">
-                                                <span class="l10n">View all reviews</span>
-                                                <?php icon('navigate-next') ?>
-                                          </a>
                                     </div>
-
                               </div>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                              <a class="mt-xl button outline expand is-hidden-tablet l10n" href="reviews">View all reviews</a>
+                              <a class="mt-xl button outline expand auto-width l10n" href="reviews">View all reviews</a>
                         </section>
                         <section id="faq">
-                              <div class="flex-row align-end justify-space-between">
-                                    <h2 class="big l10n">Questions & answers</h2>
-                                    <a href="faq" class="button compact text is-hidden-mobile">
-                                          <span class="l10n">View all questions</span>
-                                          <?php icon('navigate-next') ?>
-                                    </a>
-                              </div>
+                              <h2 class="big l10n">Questions & answers</h2>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
+                              <a class="mt-xl button outline expand auto-width l10n" href="faq">View all questions</a>
                         </section>
                         <section id="skin-guide">
-                              <div class="flex-row align-end justify-space-between">
-                                    <h2 class="big l10n">Skin guide</h2>
-                                    <a href="skin-guide" class="button compact text is-hidden-mobile">
-                                          <span class="l10n">View all articles</span>
-                                          <?php icon('navigate-next') ?>
-                                    </a>
-                              </div>
+                              <h2 class="big l10n">Skin guide</h2>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php'); ?>
-                              <a class="mt-xl button outline expand is-hidden-tablet l10n" href="skin-guide">View all articles</a>
+                              <a class="mt-xl button outline expand auto-width l10n" href="skin-guide">View all articles</a>
                         </section>
                         <section id="specialists">
-                              <div class="flex-row align-end justify-space-between">
-                                    <h2 class="big l10n">Our specialists</h2>
-                                    <a href="specialists" class="button compact text is-hidden-mobile">
-                                          <span class="l10n">View all specialists</span>
-                                          <?php icon('navigate-next') ?>
-                                    </a>
-                              </div>
+                              <h2 class="big l10n">Our specialists</h2>
                               <?php
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
                               ?>
-                              <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialists">View all specialists</a>
+                              <a class="mt-xl button outline expand auto-width l10n" href="specialists">View all specialists</a>
                         </section>
                         <section id="related-problems">
                               <h2 class="big l10n">Related problems</h2>
@@ -423,14 +389,8 @@ $related_problems = array(
                               </dig>
                         </section>
                         <section id="brands">
-                              <div class="flex-row align-end justify-space-between">
-                                    <h2 class="big l10n">Brands we use</h2>
-                                    <a href="brands" class="button compact text is-hidden-mobile">
-                                          <span class="l10n">View all brands</span>
-                                          <?php icon('navigate-next') ?>
-                                    </a>
-                              </div>
-                              <a class="mt-xl button outline expand is-hidden-tablet l10n" href="brands">View all brands</a>
+                              <h2 class="big l10n">Brands we use</h2>
+                              <a class="mt-xl button outline expand auto-width l10n" href="brands">View all brands</a>
                         </section>
                   </div>
             </div>
