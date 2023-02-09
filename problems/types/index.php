@@ -203,15 +203,13 @@ $specialists = array(
                 <section id="nav-buttons">
                     <a href="javascript:;" onclick="scrollToElement('#about')" class="button b50 grey l10n">Overview</a>
                     <a href="javascript:;" onclick="scrollToElement('.based')" class="button b50 grey l10n">Define problem</a>
-                    <a href="javascript:;" onclick="scrollToElement('#treatments')" class="button b50 grey l10n">Treatment solutions</a>
-                    <a href="javascript:;" onclick="scrollToElement('#prevent')" class="button b50 grey l10n">Prevent problem</a>
-                    <a href="javascript:;" onclick="scrollToElement('#repair')" class="button b50 grey l10n">Repair</a>
-                    <a href="javascript:;" onclick="scrollToElement('#cases')" class="button b50 grey l10n">Cases</a>
+                    <a href="javascript:;" onclick="scrollToElement('#approach')" class="button b50 grey l10n">Treatment approach</a>
+                    <a href="javascript:;" onclick="scrollToElement('#results')" class="button b50 grey l10n">Cases</a>
                     <a href="javascript:;" onclick="scrollToElement('#reviews')" class="button b50 grey l10n">Reviews</a>
                     <a href="javascript:;" onclick="scrollToElement('#faq')" class="button b50 grey l10n">Questions and answers</a>
                     <a href="javascript:;" onclick="scrollToElement('#skin-guide')" class="button b50 grey l10n">Skin guide</a>
                     <a href="javascript:;" onclick="scrollToElement('#specialists')" class="button b50 grey l10n">Specialists</a>
-                    <a href="javascript:;" onclick="scrollToElement('#related-problems')" class="button b50 grey l10n">Related problems</a>
+                    <a href="javascript:;" onclick="scrollToElement('#brands')" class="button b50 grey l10n">Brands</a>
                 </section>
                 <section id="about">
                     <h2 class="h500"><?php echo $about_title ?></h2>
