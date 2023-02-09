@@ -229,29 +229,27 @@ $specialists = array(
                     </section>
                 <?php } ?>
                 <section id="approach">
-                    <div class="container">
-                        <h2 class="h500 l10n">Treatment approach</h2>
-                        <?php
-                        $approach_cards = array(
-                            new ApproachCard('01', 'Define', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.', 'Get a free consultation', 'https://www.dahlskincare.com/skin-consultation'),
-                            new ApproachCard('02', 'Treat', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.', 'View treatments', 'treatments'),
-                            new ApproachCard('03', 'Prevent', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.', 'View products', 'products'),
-                            new ApproachCard('04', 'Repair', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.', 'View treatments', 'treatments')
-                        );
-                        ?>
-                        <div class="columns is-gapless">
-                            <?php foreach ($approach_cards as $approach_card) { ?>
-                                <div class="column">
-                                    <?php
-                                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/approach_card/approach_card.php')
-                                    ?>
-                                </div>
-                            <?php } ?>
-                        </div>
-                        <a href="our-approach" class="auto-width button outline expand mt-xl l10n">
-                            Read more about our approach
-                        </a>
+                    <h2 class="h500 l10n">Treatment approach</h2>
+                    <?php
+                    $approach_cards = array(
+                        new ApproachCard('01', 'Define', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.', 'Get a free consultation', 'https://www.dahlskincare.com/skin-consultation'),
+                        new ApproachCard('02', 'Treat', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.', 'View treatments', 'treatments'),
+                        new ApproachCard('03', 'Prevent', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.', 'View products', 'products'),
+                        new ApproachCard('04', 'Repair', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.', 'View treatments', 'treatments')
+                    );
+                    ?>
+                    <div class="columns is-gapless">
+                        <?php foreach ($approach_cards as $approach_card) { ?>
+                            <div class="column">
+                                <?php
+                                include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/approach_card/approach_card.php')
+                                ?>
+                            </div>
+                        <?php } ?>
                     </div>
+                    <a href="our-approach" class="auto-width button outline expand mt-xl l10n">
+                        Read more about our approach
+                    </a>
                 </section>
                 <section id="results">
                     <div class="flex-row justify-space-between">
