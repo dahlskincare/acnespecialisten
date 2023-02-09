@@ -154,7 +154,6 @@ section#header {
         }
 
         section#approach {
-            margin-top: 72px;
 
             h2 {
                 span {
@@ -167,8 +166,14 @@ section#header {
                 border-top: 1px solid $light-200;
             }
 
+            /// Hack approach card widget
+            div.approach-card {
+                div.p200 {
+                    padding-right: 1em;
+                }
+            }
+
             @media screen and (min-width: $tablet) {
-                margin-top: $xl5 + $xs;
 
                 h2 {
                     span {
@@ -223,6 +228,7 @@ section#header {
         }
 
         section.based,
+        section#approach,
         section#results,
         section#reviews,
         section#faq,

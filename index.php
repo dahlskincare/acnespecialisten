@@ -89,24 +89,15 @@
                   <div class="container l10n">
                         <h2 class="big">Problems</h2>
                         <?php
-                        $accordion = array();
-                        if ($lang == 'sv') {
-                              $accordion[] = new AccordionItem('Akne', 'images/problems/carousel/small/acne.jpg', 'images/problems/carousel/large/acne.jpg', 'problems/acne', true, true);
-                              $accordion[] = new AccordionItem('Akneärr', 'images/problems/carousel/small/acne-scars.jpg', 'images/problems/carousel/large/acne-scars.jpg', 'problems/acne-scars.php', true, true);
-                              $accordion[] = new AccordionItem('Rosacea', 'images/problems/carousel/small/rosacea.jpg', 'images/problems/large/carousel/rosacea.jpg', 'problems/rosacea', true, true);
-                              $accordion[] = new AccordionItem('Pigmentering', 'images/problems/carousel/small/pigmentation.jpg', 'images/problems/carousel/large/pigmentation.jpg', 'problems/pigmentation', true, true);
-                              $accordion[] = new AccordionItem('Pormaskar', 'images/problems/carousel/small/large-pores.jpg', 'images/problems/carousel/large/large-pores.jpg', 'problems/large-pores', true, true);
-                              $accordion[] = new AccordionItem('Åldrande hy', 'images/problems/carousel/small/mature-skin.jpg', 'images/problems/carousel/large/mature-skin.jpg', 'problems/mature-skin', false, true);
-                              $accordion[] = new AccordionItem('Visa alla problem', 'images/problems/carousel/small/other.jpg', 'images/problems/carousel/large/other.jpg', 'problems', true, false);
-                        } else {
-                              $accordion[] = new AccordionItem('Acne', 'images/problems/carousel/small/acne.jpg', 'images/problems/carousel/large/acne.jpg', 'problems/acne', true, true);
-                              $accordion[] = new AccordionItem('Acne scars', 'images/problems/carousel/small/acne-scars.jpg', 'images/problems/carousel/large/acne-scars.jpg', 'problems/acne-scars', true, true);
-                              $accordion[] = new AccordionItem('Rosacea', 'images/problems/carousel/small/rosacea.jpg', 'images/problems/carousel/large/rosacea.jpg', 'problems/rosacea', true, true);
-                              $accordion[] = new AccordionItem('Pigmentation', 'images/problems/carousel/small/pigmentation.jpg', 'images/problems/carousel/large/pigmentation.jpg', 'problems/pigmentation', true, true);
-                              $accordion[] = new AccordionItem('Comedones', 'images/problems/carousel/small/large-pores.jpg', 'images/problems/carousel/large/large-pores.jpg', 'problems/large-pores', true, true);
-                              $accordion[] = new AccordionItem('Aging skin', 'images/problems/carousel/small/mature-skin.jpg', 'images/problems/carousel/large/mature-skin.jpg', 'problems/mature-skin', false, true);
-                              $accordion[] = new AccordionItem('View all problems', 'images/carousel/problems/small/other.jpg', 'images/problems/carousel/large/other.jpg', 'problems', true, false);
-                        }
+                        $accordion = array(
+                              new AccordionItem('Acne', 'images/problems/carousel/small/acne.jpg', 'images/problems/carousel/large/acne.jpg', 'problems/acne', true, true),
+                              new AccordionItem('Acne scars', 'images/problems/carousel/small/acne-scars.jpg', 'images/problems/carousel/large/acne-scars.jpg', 'problems/acne-scars', true, true),
+                              new AccordionItem('Rosacea', 'images/problems/carousel/small/rosacea.jpg', 'images/problems/carousel/large/rosacea.jpg', 'problems/rosacea', true, true),
+                              new AccordionItem('Pigmentation', 'images/problems/carousel/small/pigmentation.jpg', 'images/problems/carousel/large/pigmentation.jpg', 'problems/pigmentation', true, true),
+                              new AccordionItem('Comedones', 'images/problems/carousel/small/large-pores.jpg', 'images/problems/carousel/large/large-pores.jpg', 'problems/large-pores', true, true),
+                              new AccordionItem('Aging skin', 'images/problems/carousel/small/mature-skin.jpg', 'images/problems/carousel/large/mature-skin.jpg', 'problems/mature-skin', false, true),
+                              new AccordionItem('View all problems', 'images/carousel/problems/small/other.jpg', 'images/problems/carousel/large/other.jpg', 'problems', true, false)
+                        );
                         $more_count = 17;
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/accordion/accordion.php')
                         ?>
@@ -116,73 +107,28 @@
             <section id="our-approach">
                   <div class="container">
                         <div class="flex-row align-end justify-space-between">
-                              <h2 class="big l10n">Our approach</h2>
+                              <h2 class="h500 l10n">Our approach</h2>
                               <a href="our-approach" class="button compact text is-hidden-mobile">
-                                    <span class="l10n">Read more about or approach</span>
+                                    <span class="l10n">Read more about our approach</span>
                                     <?php icon('navigate-next') ?>
                               </a>
                         </div>
+                        <?php
+                        $approach_cards = array(
+                              new ApproachCard('01', 'Define', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.', 'Get a free consultation', 'https://www.dahlskincare.com/skin-consultation'),
+                              new ApproachCard('02', 'Treat', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.', 'View treatments', 'treatments'),
+                              new ApproachCard('03', 'Prevent', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.', 'View products', 'products'),
+                              new ApproachCard('04', 'Repair', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.', 'View treatments', 'treatments')
+                        );
+                        ?>
                         <div class="columns is-gapless">
-                              <div class="column">
-                                    <div class="approach-card">
-                                          <div class="card-title">
-                                                <div class="circle">01</div>
-                                                <h3 class="h300 l10n">Define</h3>
-                                          </div>
-                                          <div class="p200 l10n">
-                                                In a personal meeting with a skin specialist, your skin type is examined
-                                                and identified. We take pre-photos of your skin, recommend.
-                                          </div>
-                                          <a href="https://www.dahlskincare.com/skin-consultation" target="_blank" class="button compact text l10n is-hidden-mobile">
-                                                Get a free consultation
-                                          </a>
-                                          <a href="https://www.dahlskincare.com/skin-consultation" class="button grey expand l10n is-hidden-tablet">
-                                                Get a free consultation
-                                          </a>
+                              <?php foreach ($approach_cards as $approach_card) { ?>
+                                    <div class="column">
+                                          <?php
+                                          include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/approach_card/approach_card.php')
+                                          ?>
                                     </div>
-                              </div>
-                              <div class="column">
-                                    <div class="approach-card">
-                                          <div class="card-title">
-                                                <div class="circle">02</div>
-                                                <h3 class="h300 l10n">Treat</h3>
-                                          </div>
-                                          <div class="p200 l10n">
-                                                In a personal meeting with a skin specialist, your skin type is examined
-                                                and identified. We take pre-photos of your skin, recommend.
-                                          </div>
-                                          <a href="treatments" class="button compact text l10n is-hidden-mobile">View treatments</a>
-                                          <a href="treatments" class="button grey expand l10n is-hidden-tablet">View treatments</a>
-                                    </div>
-                              </div>
-                              <div class="column">
-                                    <div class="approach-card">
-                                          <div class="card-title">
-                                                <div class="circle">03</div>
-                                                <h3 class="h300 l10n">Prevent</h3>
-                                          </div>
-                                          <div class="p200 l10n">
-                                                In a personal meeting with a skin specialist, your skin type is examined
-                                                and identified. We take pre-photos of your skin, recommend.
-                                          </div>
-                                          <a href="https://www.dahlskincare.com" target="_blank" class="button compact text l10n is-hidden-mobile">View products</a>
-                                          <a href="products" class="button grey expand l10n is-hidden-tablet">View products</a>
-                                    </div>
-                              </div>
-                              <div class="column">
-                                    <div class="approach-card">
-                                          <div class="card-title">
-                                                <div class="circle">04</div>
-                                                <h3 class="h300 l10n">Repair</h3>
-                                          </div>
-                                          <div class="p200 l10n">
-                                                In a personal meeting with a skin specialist, your skin type is examined
-                                                and identified. We take pre-photos of your skin, recommend.
-                                          </div>
-                                          <a href="treatments" class="button compact text l10n is-hidden-mobile">View treatments</a>
-                                          <a href="treatments" class="button grey expand l10n is-hidden-tablet">View treatments</a>
-                                    </div>
-                              </div>
+                              <?php } ?>
                         </div>
                         <a href="our-approach" class="button outline expand mt-xl l10n is-hidden-desktop">
                               Read more about our approach
@@ -210,11 +156,7 @@
                                           <?php
                                           $before = 'images/results/acne-before.webp';
                                           $after = 'images/results/acne-after.webp';
-                                          if ($lang == 'sv') {
-                                                $label = 'Efter två månaders <a href="treatments/acne">aknebehandling</a>';
-                                          } else {
-                                                $label = 'After two months of <a href="treatments/acne">acne treatment</a>';
-                                          }
+                                          $label = 'After two months of <a href="treatments/acne">acne treatment</a>';
                                           include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
                                           ?>
                                     </div>
@@ -224,11 +166,7 @@
                                           <?php
                                           $before = 'images/results/rosacea-before.webp';
                                           $after = 'images/results/rosacea-after.webp';
-                                          if ($lang == 'sv') {
-                                                $label = 'Efter två månaders <a href="treatments/rosacea">rosaceabehandling</a>';
-                                          } else {
-                                                $label = 'After two months of <a href="treatments/rosacea">rosacea treatment</a>';
-                                          }
+                                          $label = 'After two months of <a href="treatments/rosacea">rosacea treatment</a>';
                                           include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
                                           ?>
                                     </div>
@@ -238,11 +176,7 @@
                                           <?php
                                           $before = 'images/results/comedones-before.webp';
                                           $after = 'images/results/comedones-after.webp';
-                                          if ($lang == 'sv') {
-                                                $label = 'Efter två månaders <a href="treatments/comedones">pormaskbehandling</a>';
-                                          } else {
-                                                $label = 'After two months of <a href="treatments/comedones">comedones treatment</a>';
-                                          }
+                                          $label = 'After two months of <a href="treatments/comedones">comedones treatment</a>';
                                           include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
                                           ?>
                                     </div>
@@ -265,11 +199,7 @@
                                     <?php
                                     $before = 'images/results/acne-before.webp';
                                     $after = 'images/results/acne-after.webp';
-                                    if ($lang == 'sv') {
-                                          $label = 'Efter två månaders <a href="treatments/acne">aknebehandling</a>';
-                                    } else {
-                                          $label = 'After two months of <a href="treatments/acne">acne treatment</a>';
-                                    }
+                                    $label = 'After two months of <a href="treatments/acne">acne treatment</a>';
                                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
                                     ?>
                               </div>
@@ -277,11 +207,7 @@
                                     <?php
                                     $before = 'images/results/rosacea-before.webp';
                                     $after = 'images/results/rosacea-after.webp';
-                                    if ($lang == 'sv') {
-                                          $label = 'Efter två månaders <a href="treatments/rosacea">rosaceabehandling</a>';
-                                    } else {
-                                          $label = 'After two months of <a href="treatments/rosacea">rosacea treatment</a>';
-                                    }
+                                    $label = 'After two months of <a href="treatments/rosacea">rosacea treatment</a>';
                                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
                                     ?>
                               </div>
@@ -289,11 +215,7 @@
                                     <?php
                                     $before = 'images/results/comedones-before.webp';
                                     $after = 'images/results/comedones-after.webp';
-                                    if ($lang == 'sv') {
-                                          $label = 'Efter två månaders <a href="treatments/comedones">pormaskbehandling</a>';
-                                    } else {
-                                          $label = 'After two months of <a href="treatments/comedones">comedones treatment</a>';
-                                    }
+                                    $label = 'After two months of <a href="treatments/comedones">comedones treatment</a>';
                                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
                                     ?>
                               </div>
@@ -328,24 +250,16 @@
                   <div class="container l10n">
                         <h2 class="big">Services</h2>
                         <?php
-                        $accordion = array();
-                        if ($lang == 'sv') {
-                              $accordion[] = new AccordionItem('Ansiktsbehandlingar', 'images/service-categories/small/facials.jpg', 'images/service-categories/large/facials.jpg', 'services/facials', true, true);
-                              $accordion[] = new AccordionItem('IPL', 'images/service-categories/small/ipl.jpg', 'images/service-categories/large/ipl.jpg', 'services/ipl', true, true);
-                              $accordion[] = new AccordionItem('Laser', 'images/service-categories/small/laser-problem-skin.jpg', 'images/service-categories/large/laser-problem-skin.jpg', 'services/laser', true, true);
-                              $accordion[] = new AccordionItem('Dermabration', 'images/service-categories/small/dermabration.jpg', 'images/service-categories/large/dermabration.jpg', 'services/dermabration', true, true);
-                              $accordion[] = new AccordionItem('Microneedling', 'images/service-categories/small/microneedling.jpg', 'images/service-categories/large/microneedling.jpg', 'services/microneedling', true, true);
-                              $accordion[] = new AccordionItem('Injections ', 'images/service-categories/small/injections.jpg', 'images/service-categories/large/injections.jpg', 'services/injection', false, true);
-                              $accordion[] = new AccordionItem('Visa alla tjänster', 'images/service-categories/small/luxury.jpg', 'images/service-categories/large/luxury.jpg', 'services', true, false);
-                        } else {
-                              $accordion[] = new AccordionItem('Facials', 'images/service-categories/small/facials.jpg', 'images/service-categories/large/facials.jpg', 'services/facials', true, true);
-                              $accordion[] = new AccordionItem('IPL', 'images/service-categories/small/ipl.jpg', 'images/service-categories/large/ipl.jpg', 'services/ipl', true, true);
-                              $accordion[] = new AccordionItem('Laser', 'images/service-categories/small/laser-problem-skin.jpg', 'images/service-categories/large/laser-problem-skin.jpg', 'services/laser', true, true);
-                              $accordion[] = new AccordionItem('Dermabration', 'images/service-categories/small/dermabration.jpg', 'images/service-categories/large/dermabration.jpg', 'services/dermabration', true, true);
-                              $accordion[] = new AccordionItem('Microneedling', 'images/service-categories/small/microneedling.jpg', 'images/service-categories/large/microneedling.jpg', 'services/microneedling', true, true);
-                              $accordion[] = new AccordionItem('Injections ', 'images/service-categories/small/injections.jpg', 'images/service-categories/large/injections.jpg', 'services/injection', false, true);
-                              $accordion[] = new AccordionItem('View all services', 'images/service-categories/small/luxury.jpg', 'images/service-categories/large/luxury.jpg', 'services', true, false);
-                        }
+                        $accordion = array(
+                              new AccordionItem('Facials', 'images/service-categories/small/facials.jpg', 'images/service-categories/large/facials.jpg', 'services/facials', true, true),
+                              new AccordionItem('IPL', 'images/service-categories/small/ipl.jpg', 'images/service-categories/large/ipl.jpg', 'services/ipl', true, true),
+                              new AccordionItem('Laser', 'images/service-categories/small/laser-problem-skin.jpg', 'images/service-categories/large/laser-problem-skin.jpg', 'services/laser', true, true),
+                              new AccordionItem('Dermabration', 'images/service-categories/small/dermabration.jpg', 'images/service-categories/large/dermabration.jpg', 'services/dermabration', true, true),
+                              new AccordionItem('Microneedling', 'images/service-categories/small/microneedling.jpg', 'images/service-categories/large/microneedling.jpg', 'services/microneedling', true, true),
+                              new AccordionItem('Injections ', 'images/service-categories/small/injections.jpg', 'images/service-categories/large/injections.jpg', 'services/injection', false, true),
+                              new AccordionItem('View all services', 'images/service-categories/small/luxury.jpg', 'images/service-categories/large/luxury.jpg', 'services', true, false)
+                        );
+
                         $more_count = 17;
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/accordion/accordion.php')
                         ?>
