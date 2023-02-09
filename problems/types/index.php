@@ -250,7 +250,7 @@ $specialists = array(
                                 </div>
                             <?php } ?>
                         </div>
-                        <a href="our-approach" id="approach-link" class="button outline expand mt-xl l10n">
+                        <a href="our-approach" class="auto-width button outline expand mt-xl l10n">
                             Read more about our approach
                         </a>
                     </div>
@@ -305,7 +305,7 @@ $specialists = array(
                             ?>
                         </div>
                     </div>
-                    <a class="button outline l10n" href="results">View all treatment results</a>
+                    <a class="button outline expand auto-width l10n" href="results">View all treatment results</a>
                 </section>
                 <section id="reviews">
                     <div class="flex-row align-end justify-space-between">
@@ -319,59 +319,31 @@ $specialists = array(
                                     <?php icon('arrow-right') ?>
                                 </button>
                             </div>
-                            <a href="reviews" class="ml-l button compact text">
-                                <span class="l10n">View all reviews</span>
-                                <?php icon('navigate-next') ?>
-                            </a>
                         </div>
-
                     </div>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                    <a class="mt-xl button outline expand is-hidden-tablet l10n" href="reviews">View all reviews</a>
+                    <a class="mt-xl button outline expand auto-width l10n" href="reviews">View all reviews</a>
                 </section>
                 <section id="faq">
-                    <div class="flex-row align-end justify-space-between">
-                        <h2 class="big l10n">Questions & answers</h2>
-                        <a href="faq" class="button compact text is-hidden-mobile">
-                            <span class="l10n">View all questions</span>
-                            <?php icon('navigate-next') ?>
-                        </a>
-                    </div>
+                    <h2 class="big l10n">Questions & answers</h2>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
+                    <a href="questions" class="mt-xl button outline expand auto-width l10n">View all questions</a>
                 </section>
                 <section id="skin-guide">
-                    <div class="flex-row align-end justify-space-between">
-                        <h2 class="big l10n">Skin guide</h2>
-                        <a href="skin-guide" class="button compact text is-hidden-mobile">
-                            <span class="l10n">View all articles</span>
-                            <?php icon('navigate-next') ?>
-                        </a>
-                    </div>
+                    <h2 class="big l10n">Skin guide</h2>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php'); ?>
-                    <a class="mt-xl button outline expand is-hidden-tablet l10n" href="skin-guide">View all articles</a>
+                    <a class="mt-xl button outline expand auto-width l10n" href="skin-guide">View all articles</a>
                 </section>
                 <section id="specialists">
-                    <div class="flex-row align-end justify-space-between">
-                        <h2 class="big l10n">Our specialists</h2>
-                        <a href="specialists" class="button compact text is-hidden-mobile">
-                            <span class="l10n">View all specialists</span>
-                            <?php icon('navigate-next') ?>
-                        </a>
-                    </div>
+                    <h2 class="big l10n">Our specialists</h2>
                     <?php
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
                     ?>
-                    <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialists">View all specialists</a>
+                    <a class="mt-xl button outline expand auto-width l10n" href="specialists">View all specialists</a>
                 </section>
                 <section id="brands">
-                    <div class="flex-row align-end justify-space-between">
-                        <h2 class="big l10n">Brands we use</h2>
-                        <a href="brands" class="button compact text is-hidden-mobile">
-                            <span class="l10n">View all brands</span>
-                            <?php icon('navigate-next') ?>
-                        </a>
-                    </div>
-                    <a class="mt-xl button outline expand is-hidden-tablet l10n" href="brands">View all brands</a>
+                    <h2 class="big l10n">Brands we use</h2>
+                    <a class="mt-xl button outline expand auto-width l10n" href="brands">View all brands</a>
                 </section>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>

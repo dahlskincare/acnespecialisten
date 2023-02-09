@@ -13,6 +13,14 @@ html {
     .lowercase {
         text-transform: lowercase;
     }
+
+    @media screen and (min-width: $tablet) {
+        a.auto-width {
+            width: auto !important;
+            box-sizing: content-box;
+        }
+
+    }
 }
 
 
@@ -154,7 +162,6 @@ section#header {
         }
 
         section#approach {
-
             h2 {
                 span {
                     display: block;
@@ -180,11 +187,6 @@ section#header {
                         display: initial;
                     }
                 }
-
-                a#approach-link {
-                    width: auto;
-                    box-sizing: content-box;
-                }
             }
         }
 
@@ -195,11 +197,6 @@ section#header {
 
             .result-widget {
                 margin-top: $l;
-            }
-
-            a.button.outline {
-                width: 100%;
-                box-sizing: border-box;
             }
 
             @media screen and (min-width: $tablet) {
@@ -218,11 +215,6 @@ section#header {
                     .slide:last-child {
                         padding-right: 0;
                     }
-                }
-
-                a.button.outline {
-                    width: auto;
-                    box-sizing: initial;
                 }
             }
         }
