@@ -291,20 +291,22 @@ $related_problems = array(
                                           </span>
                                           <span class="h500 l10n">types</span>
                                     </h2>
-                                    <div class="mt-m mb-xxl is-hidden-tablet"">
+                                    <div class="mt-m mb-xxl is-hidden-tablet" id="type-category-buttons">
                                           <?php foreach ($type_categories as $type_category) { ?>
                                                 <a href=" javascript:;" onclick="scrollToElement('#<?php echo $type_category->id ?>')" class="button grey">
-                                          <?php echo $type_category->title ?>
-                                          </a>
-                                    <?php } ?>
+                                                      <?php echo $type_category->title ?>
+                                                </a>
+                                          <?php } ?>
                                     </div>
                                     <?php foreach ($type_categories as $type_category) { ?>
                                           <div class="type-category" id="<?php echo $type_category->id ?>">
                                                 <h3 class="h300"><?php echo $type_category->title ?></h3>
-                                                <p class="p200 mb-xs"><?php echo $type_category->content ?></p>
-                                                <?php foreach ($type_category->types as $type) {
-                                                      include('widgets/type-card/type-card.php');
-                                                } ?>
+                                                <div><?php echo $type_category->content ?></div>
+                                                <div class="type-category-cards">
+                                                      <?php foreach ($type_category->types as $type) {
+                                                            include('widgets/type-card/type-card.php');
+                                                      } ?>
+                                                </div>
                                           </div>
                                     <?php } ?>
                               </section>

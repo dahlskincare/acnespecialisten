@@ -6,9 +6,9 @@
 @import "widgets/service-card/service-card";
 @import "widgets/symptom-card/symptom-card";
 @import "widgets/treatment-step-card/treatment-step-card";
-@import "widgets/treatment-card/treatment-card";
 @import "widgets/problem-article/problem-article-widget";
 @import "widgets/related-problem-card/related-problem-card";
+@import "widgets/type-card/type-card";
 
 
 html {
@@ -201,9 +201,23 @@ section#header {
         }
 
         section#types {
+            #type-category-buttons {
+                display: flex;
+                flex-wrap: wrap;
+
+                a.button {
+                    margin-top: $xs;
+                    margin-right: $xs;
+                }
+            }
+
             div.type-category {
                 border-top: 1px solid $light-200;
                 padding: $xl3 0;
+
+                div.type-category-cards {
+                    padding-top: $xs;
+                }
             }
 
             div.type-category:last-child {
