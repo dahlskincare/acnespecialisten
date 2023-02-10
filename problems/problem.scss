@@ -9,6 +9,7 @@
 @import "widgets/problem-article/problem-article-widget";
 @import "widgets/related-problem-card/related-problem-card";
 @import "widgets/type-card/type-card";
+@import "widgets/type-card/type-card-large";
 
 
 html {
@@ -222,6 +223,14 @@ section#header {
 
             div.type-category:last-child {
                 border-bottom: 1px solid $light-200;
+            }
+
+            div.type-category-large {
+                margin-top: 48px;
+            }
+
+            div.type-category-large:first-child {
+                margin-top: $xxl;
             }
         }
 

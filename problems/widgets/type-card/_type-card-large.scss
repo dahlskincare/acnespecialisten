@@ -3,14 +3,19 @@
 @import '../../../styles/util/sizes';
 
 .type-card-widget {
-    margin-top: $m;
+    display: block;
+    margin-top: $xl;
     padding: $xl;
     border: 1px solid $light-200;
     border-radius: $radius-l;
-    @include elevation-low();
 
     img {
         border-radius: $radius-s;
+    }
+
+    .icon {
+        width: $m;
+        height: $m;
     }
 
     .p200 {
