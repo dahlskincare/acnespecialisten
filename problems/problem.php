@@ -7,9 +7,9 @@ include_once('widgets/problem-article/problem-article.php');
 include_once('widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-
-// Image filename (must be in folder "images/problems/large/")
-$image = 'acne-scars.jpg';
+$floating_image = 'images/problems/carousel/large/acne-scars.jpg';
+$image_small = 'images/problems/medium/acne-scars.jpg';
+$image_large = 'images/problems/large/acne-scars.jpg';
 
 $title = 'Acne scars';
 $description = 'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat.';
@@ -27,11 +27,11 @@ $treatment_steps = array(
       new TreatmentStep('Prevent', 'Lorem ipsum dolor sit amet, <a href="#" class="b200 underline">consectetur</a> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'https://www.dahlskincare.com', 'View products'),
 );
 $symptoms = array(
-      new Symptom('post-inflammatory-hyperpigmentaion', 'Post inflammatory hyperpigmentation', 'scars stains', 'images/symptoms/small/post-inflammatory-hyperpigmentation.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.'),
-      new Symptom('atrophic-icepick-scars', 'Atrophic icepick scars', 'scars stains', 'images/symptoms/small/atrophic-icepick-scars.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.'),
-      new Symptom('atrophic-boxcar-scars', 'Atrophic boxcar scars', 'scars stains', 'images/symptoms/small/atrophic-boxcar-scars.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.'),
-      new Symptom('atrophic-rolling-scars', 'Atrophic rolling scars', 'scars stains', 'images/symptoms/small/atrophic-rolling-scars.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.'),
-      new Symptom('hypertrophic-keloid', 'Hypertrophic keloid', 'scars stains', 'images/symptoms/small/hypertrophic-keloid.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.'),
+      new Symptom('post-inflammatory-hyperpigmentaion', 'Post inflammatory hyperpigmentation', 'scars stains', 'images/symptoms/small/post-inflammatory-hyperpigmentation.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.', 'hypertrophic-keloid'),
+      new Symptom('atrophic-icepick-scars', 'Atrophic icepick scars', 'scars stains', 'images/symptoms/small/atrophic-icepick-scars.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.', 'hypertrophic-keloid'),
+      new Symptom('atrophic-boxcar-scars', 'Atrophic boxcar scars', 'scars stains', 'images/symptoms/small/atrophic-boxcar-scars.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.', 'hypertrophic-keloid'),
+      new Symptom('atrophic-rolling-scars', 'Atrophic rolling scars', 'scars stains', 'images/symptoms/small/atrophic-rolling-scars.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.', 'hypertrophic-keloid'),
+      new Symptom('hypertrophic-keloid', 'Hypertrophic keloid', 'scars stains', 'images/symptoms/small/hypertrophic-keloid.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.', 'hypertrophic-keloid'),
 );
 $service = new Service('acne-scars-consultation', 'Consultation', '30 min', '1295 kr', 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ', 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ', 'images/service-categories/small/consultation.jpg', 'images/service-categories/large/consultation.jpg', 'https://dahlskincare.com/skin-consultation', null);
 $services = array(
@@ -84,7 +84,7 @@ $related_problems = array(
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
       <div class="is-hidden-touch is-hidden-desktop-only" id="floater">
             <div class="container">
-                  <div id="floating-picture" style="background-image: url('images/problems/carousel/large/<?php echo $image ?>')">
+                  <div id="floating-picture" style="background-image: url('<?php echo $floating_image ?>')">
                         <div id="overlay">
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
                               <div>
@@ -200,9 +200,9 @@ $related_problems = array(
                   <div id="content">
                         <section id="image" class="mt-xl is-hidden-desktop">
                               <picture class="is-hidden-tablet">
-                                    <source media="(max-width: 449px)" srcset="images/problems/medium/<?php echo $image ?>">
-                                    <source media="(min-width: 450px)" srcset="images/problems/large/<?php echo $image ?>">
-                                    <img src="images/problems/<?php echo $image ?>" alt="<?php echo $title ?>" width="358" height="274" />
+                                    <source media="(max-width: 449px)" srcset="<?php echo $image_small ?>">
+                                    <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
+                                    <img src="<?php echo $image_large ?>" alt="<?php echo $title ?>" width="358" height="274" />
                               </picture>
                         </section>
                         <section id="nav-buttons">

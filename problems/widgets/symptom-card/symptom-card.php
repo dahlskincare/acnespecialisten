@@ -1,16 +1,11 @@
 <div class="symptom-card-widget">
     <div class="flex-row align-center">
-        <img class="mr-m"
-             src="<?php echo $symptom->image ?>"
-             alt="<?php echo $symptom->name ?>"
-             width="102"
-             height="102" />
+        <img class="mr-m" src="<?php echo $symptom->image ?>" alt="<?php echo $symptom->name ?>" width="102" height="102" />
         <div>
             <h3 class="h200">
                 <?php echo $symptom->name ?>
             </h3>
-            <p class="p200"
-               id="aka">
+            <p class="p200" id="aka">
                 <span class="l10n">Also called</span>
                 <span>
                     <?php echo $symptom->aka ?>
@@ -21,5 +16,5 @@
     <div class="mt-m p200">
         <?php echo $symptom->content ?>
     </div>
-
+    <a href="<?php echo $symptom->url ?>" class="mt-m button compact text l10n">Read more</a>
 </div>
