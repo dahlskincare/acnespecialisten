@@ -201,8 +201,6 @@ section#header {
         }
 
         section#symptoms {
-            margin-top: 72px;
-
             #symptom-buttons {
                 display: flex;
                 flex-wrap: wrap;
@@ -212,17 +210,11 @@ section#header {
                     margin-right: $xs;
                 }
             }
-
-            @media screen and (min-width: $tablet) {
-                margin-top: $xl5 + $xs;
-            }
         }
 
         section#define {
-            margin-top: 72px;
 
             @media screen and (min-width: $tablet) {
-                margin-top: $xl5 + $xs;
 
                 hr {
                     border: none;
@@ -232,10 +224,8 @@ section#header {
         }
 
         section#treatments {
-            margin-top: 72px;
 
             @media screen and (min-width: $tablet) {
-                margin-top: $xl5 + $xs;
 
                 hr {
                     border: none;
@@ -295,6 +285,10 @@ section#header {
             }
         }
 
+        section#define,
+        section#treatments,
+        section#types,
+        section#symptoms,
         section#articles,
         section#results,
         section#reviews,

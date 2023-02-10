@@ -16,5 +16,5 @@
     <div class="mt-m p200">
         <?php echo $symptom->content ?>
     </div>
-    <a href="<?php echo $symptom->url ?>" class="mt-m button compact text l10n">Read more</a>
+    <a href="<?php echo $_SERVER['REQUEST_URI'] . '/types/' . $symptom->id ?>" class="mt-m button compact text l10n">Read more</a>
 </div>

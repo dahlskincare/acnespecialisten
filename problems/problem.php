@@ -26,12 +26,13 @@ $treatment_steps = array(
       new TreatmentStep('Treat', 'Lorem ipsum dolor sit amet, <a href="#" class="b200 underline">consectetur</a> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922', 'View treatments'),
       new TreatmentStep('Prevent', 'Lorem ipsum dolor sit amet, <a href="#" class="b200 underline">consectetur</a> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'https://www.dahlskincare.com', 'View products'),
 );
+$types = array();
 $symptoms = array(
-      new Symptom('post-inflammatory-hyperpigmentaion', 'Post inflammatory hyperpigmentation', 'scars stains', 'images/symptoms/small/post-inflammatory-hyperpigmentation.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.', 'hypertrophic-keloid'),
-      new Symptom('atrophic-icepick-scars', 'Atrophic icepick scars', 'scars stains', 'images/symptoms/small/atrophic-icepick-scars.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.', 'hypertrophic-keloid'),
-      new Symptom('atrophic-boxcar-scars', 'Atrophic boxcar scars', 'scars stains', 'images/symptoms/small/atrophic-boxcar-scars.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.', 'hypertrophic-keloid'),
-      new Symptom('atrophic-rolling-scars', 'Atrophic rolling scars', 'scars stains', 'images/symptoms/small/atrophic-rolling-scars.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.', 'hypertrophic-keloid'),
-      new Symptom('hypertrophic-keloid', 'Hypertrophic keloid', 'scars stains', 'images/symptoms/small/hypertrophic-keloid.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.', 'hypertrophic-keloid'),
+      new Symptom('post-inflammatory-hyperpigmentaion', 'Post inflammatory hyperpigmentation', 'scars stains', 'images/symptoms/small/post-inflammatory-hyperpigmentation.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.'),
+      new Symptom('atrophic-icepick-scars', 'Atrophic icepick scars', 'scars stains', 'images/symptoms/small/atrophic-icepick-scars.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.'),
+      new Symptom('atrophic-boxcar-scars', 'Atrophic boxcar scars', 'scars stains', 'images/symptoms/small/atrophic-boxcar-scars.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.'),
+      new Symptom('atrophic-rolling-scars', 'Atrophic rolling scars', 'scars stains', 'images/symptoms/small/atrophic-rolling-scars.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.'),
+      new Symptom('hypertrophic-keloid', 'Hypertrophic keloid', 'scars stains', 'images/symptoms/small/hypertrophic-keloid.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.'),
 );
 $service = new Service('acne-scars-consultation', 'Consultation', '30 min', '1295 kr', 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ', 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ', 'images/service-categories/small/consultation.jpg', 'images/service-categories/large/consultation.jpg', 'https://dahlskincare.com/skin-consultation', null);
 $services = array(
@@ -253,28 +254,55 @@ $related_problems = array(
                                     Read more about treatment
                               </a>
                         </section>
-                        <section id="symptoms">
-                              <h2>
-                                    <span class="h500">
-                                          <?php echo $title ?>
-                                    </span>
-                                    <span class="h500 l10n">types & symptoms</span>
-                              </h2>
-                              <div class="mt-m is-hidden-tablet" id="symptom-buttons">
-                                    <?php foreach ($symptoms as $symptom) { ?>
-                                          <a href="javascript:;" onclick="scrollToElement('#<?php echo $symptom->id ?>')" class="button grey">
-                                                <?php echo $symptom->name ?>
-                                          </a>
-                                    <?php } ?>
-                              </div>
-                              <div class="columns is-multiline is-variable is-3" id="symptom-cards">
-                                    <?php foreach ($symptoms as $symptom) { ?>
-                                          <div class="column is-half" id="<?php echo $symptom->id ?>">
-                                                <?php include('widgets/symptom-card/symptom-card.php'); ?>
-                                          </div>
-                                    <?php } ?>
-                              </div>
-                        </section>
+                        <?php if (sizeof($types) > 0) { ?>
+                              <section id="types">
+                                    <h2>
+                                          <span class="h500">
+                                                <?php echo $title ?>
+                                          </span>
+                                          <span class="h500 l10n">types</span>
+                                    </h2>
+                                    <div class="mt-m is-hidden-tablet" id="symptom-buttons">
+                                          <?php foreach ($types as $type) { ?>
+                                                <a href="javascript:;" onclick="scrollToElement('#<?php echo $symptom->id ?>')" class="button grey">
+                                                      <?php echo $symptom->name ?>
+                                                </a>
+                                          <?php } ?>
+                                    </div>
+                                    <div class="columns is-multiline is-variable is-3" id="symptom-cards">
+                                          <?php foreach ($types as $type) { ?>
+                                                <div class="column is-half" id="<?php echo $type->id ?>">
+                                                      <?php //include('widgets/symptom-card/symptom-card.php'); 
+                                                      ?>
+                                                </div>
+                                          <?php } ?>
+                                    </div>
+                              </section>
+                        <?php } ?>
+                        <?php if (sizeof($symptoms) > 0) { ?>
+                              <section id="symptoms">
+                                    <h2>
+                                          <span class="h500">
+                                                <?php echo $title ?>
+                                          </span>
+                                          <span class="h500 l10n">symptoms</span>
+                                    </h2>
+                                    <div class="mt-m is-hidden-tablet" id="symptom-buttons">
+                                          <?php foreach ($symptoms as $symptom) { ?>
+                                                <a href="javascript:;" onclick="scrollToElement('#<?php echo $symptom->id ?>')" class="button grey">
+                                                      <?php echo $symptom->name ?>
+                                                </a>
+                                          <?php } ?>
+                                    </div>
+                                    <div class="columns is-multiline is-variable is-3" id="symptom-cards">
+                                          <?php foreach ($symptoms as $symptom) { ?>
+                                                <div class="column is-half" id="<?php echo $symptom->id ?>">
+                                                      <?php include('widgets/symptom-card/symptom-card.php'); ?>
+                                                </div>
+                                          <?php } ?>
+                                    </div>
+                              </section>
+                        <?php } ?>
                         <section id="define">
                               <h2>
                                     <span class="h500 l10n">Define</span>&nbsp;
