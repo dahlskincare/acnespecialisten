@@ -1,0 +1,1 @@
+<p><?php echo $type->title ?></p>

@@ -200,6 +200,17 @@ section#header {
             }
         }
 
+        section#types {
+            div.type-category {
+                border-top: 1px solid $light-200;
+                padding: $xl3 0;
+            }
+
+            div.type-category:last-child {
+                border-bottom: 1px solid $light-200;
+            }
+        }
+
         section#symptoms {
             #symptom-buttons {
                 display: flex;

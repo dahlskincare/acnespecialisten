@@ -26,7 +26,36 @@ $treatment_steps = array(
       new TreatmentStep('Treat', 'Lorem ipsum dolor sit amet, <a href="#" class="b200 underline">consectetur</a> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922', 'View treatments'),
       new TreatmentStep('Prevent', 'Lorem ipsum dolor sit amet, <a href="#" class="b200 underline">consectetur</a> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'https://www.dahlskincare.com', 'View products'),
 );
-$types = array();
+$type_categories = array(
+      new BasedTypeCategory('category-age', 'Based on age', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.', array(
+            new BasedType('adult-acne', 'https://via.placeholder.com/102x102.jpg', 'Adult acne', 'Also called scars stains', '', ''),
+            new BasedType('teen-acne', 'https://via.placeholder.com/102x102.jpg', 'Teen acne', 'Also called scars stains', '', ''),
+            new BasedType('kids-acne', 'https://via.placeholder.com/102x102.jpg', 'Kids acne', 'Also called scars stains', '', ''),
+      )),
+      new BasedTypeCategory(
+            'category-reason',
+            'Based on reason',
+            '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>',
+            array(
+                  new BasedType('mallorca-acne', 'https://via.placeholder.com/102x102.jpg', 'Mallorca acne', 'Also called scars stains', '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'),
+                  new BasedType('hormonal-acne', 'https://via.placeholder.com/102x102.jpg', 'Hormonal acne', 'Also called scars stains', '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'),
+                  new BasedType('cosmetic-acne', 'https://via.placeholder.com/102x102.jpg', 'Cosmetic acne', 'Also called scars stains', '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'),
+                  new BasedType('acne-exoriee', 'https://via.placeholder.com/102x102.jpg', 'Acne exoriee', 'Also called scars stains', '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'),
+                  new BasedType('acne-mechanics', 'https://via.placeholder.com/102x102.jpg', 'Acne mechanics', 'Also called scars stains', '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'),
+                  new BasedType('acne-medicamentosa', 'https://via.placeholder.com/102x102.jpg', 'Acne medicamentosa', 'Also called scars stains', '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'),
+                  new BasedType('fungal-acne', 'https://via.placeholder.com/102x102.jpg', 'Fungal acne', 'Also called scars stains', '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>')
+            )
+      ),
+      new BasedTypeCategory(
+            'category-area',
+            'Based on area',
+            '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>',
+            array(
+                  new BasedType('acne-on-face', 'https://via.placeholder.com/102x102.jpg', 'Acne on face', 'Also called scars stains', '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'),
+                  new BasedType('acne-on-body', 'https://via.placeholder.com/102x102.jpg', 'Acne on body', 'Also called scars stains', '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>')
+            )
+      )
+);
 $symptoms = array(
       new Symptom('post-inflammatory-hyperpigmentaion', 'Post inflammatory hyperpigmentation', 'scars stains', 'images/symptoms/small/post-inflammatory-hyperpigmentation.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.'),
       new Symptom('atrophic-icepick-scars', 'Atrophic icepick scars', 'scars stains', 'images/symptoms/small/atrophic-icepick-scars.jpg', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.'),
@@ -254,7 +283,7 @@ $related_problems = array(
                                     Read more about treatment
                               </a>
                         </section>
-                        <?php if (sizeof($types) > 0) { ?>
+                        <?php if (sizeof($type_categories) > 0) { ?>
                               <section id="types">
                                     <h2>
                                           <span class="h500">
@@ -262,21 +291,22 @@ $related_problems = array(
                                           </span>
                                           <span class="h500 l10n">types</span>
                                     </h2>
-                                    <div class="mt-m is-hidden-tablet" id="symptom-buttons">
-                                          <?php foreach ($types as $type) { ?>
-                                                <a href="javascript:;" onclick="scrollToElement('#<?php echo $symptom->id ?>')" class="button grey">
-                                                      <?php echo $symptom->name ?>
-                                                </a>
-                                          <?php } ?>
+                                    <div class="mt-m mb-xxl is-hidden-tablet"">
+                                          <?php foreach ($type_categories as $type_category) { ?>
+                                                <a href=" javascript:;" onclick="scrollToElement('#<?php echo $type_category->id ?>')" class="button grey">
+                                          <?php echo $type_category->title ?>
+                                          </a>
+                                    <?php } ?>
                                     </div>
-                                    <div class="columns is-multiline is-variable is-3" id="symptom-cards">
-                                          <?php foreach ($types as $type) { ?>
-                                                <div class="column is-half" id="<?php echo $type->id ?>">
-                                                      <?php //include('widgets/symptom-card/symptom-card.php'); 
-                                                      ?>
-                                                </div>
-                                          <?php } ?>
-                                    </div>
+                                    <?php foreach ($type_categories as $type_category) { ?>
+                                          <div class="type-category" id="<?php echo $type_category->id ?>">
+                                                <h3 class="h300"><?php echo $type_category->title ?></h3>
+                                                <p class="p200 mb-xs"><?php echo $type_category->content ?></p>
+                                                <?php foreach ($type_category->types as $type) {
+                                                      include('widgets/type-card/type-card.php');
+                                                } ?>
+                                          </div>
+                                    <?php } ?>
                               </section>
                         <?php } ?>
                         <?php if (sizeof($symptoms) > 0) { ?>
