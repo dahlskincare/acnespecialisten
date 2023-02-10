@@ -326,6 +326,11 @@ $related_problems = array(
                                                 </div>
                                           <?php } ?>
                                     </div>
+                                    <a href="<?php echo $_SERVER['REQUEST_URI'] . '/types' ?>" class="mt-xl button outline expand l10n is-hidden-tablet">Read more about types</a>
+                                    <a href="<?php echo $_SERVER['REQUEST_URI'] . '/types' ?>" class="mt-xl button outline l10n is-hidden-mobile">
+                                          <span>Read more about types</span>
+                                          <?php icon('link-external'); ?>
+                                    </a>
                               </section>
                         <?php } ?>
                         <?php if (sizeof($symptoms) > 0) { ?>
