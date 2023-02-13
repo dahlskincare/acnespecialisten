@@ -1,8 +1,8 @@
 <div class="brands-widget">
   <div class="flex-container">
 
-    <div class="flex-item flex-item-top-left flex-item-img-top-left">
-      <img id="img"
+    <div class="flex-item-top-left flex-item">
+      <img id="img" 
            src="images/brands/powerlite.svg"
            alt="">
     </div>
@@ -31,12 +31,12 @@
            src="images/brands/prxt.svg"
            alt="">
     </div>
-    <div class="flex-item flex-item-bottom-left flex-item-other">
+    <div class="flex-item flex-item-bottom-left">
       <img id="img"
            src="images/brands/hydrafacial.svg"
            alt="">
     </div>
-    <div class="flex-item flex-item-bottom-right flex-item-other">
+    <div class="flex-item flex-item-bottom-right">
       <img id="img"
            src="images/brands/ipinfusion.svg"
            alt="">
