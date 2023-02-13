@@ -470,11 +470,12 @@ $related_problems = array(
                                     <?php } ?>
                               </dig>
                         </section>
-                        <section id="brands">
-                              <h2 class="big l10n">Brands we use</h2>
-                              <a class="mt-xl button outline expand auto-width l10n" href="brands">View all brands</a>
-                        </section>
                   </div>
+                  <section id="brands">
+                        <h2 class="big l10n">Brands we use</h2>
+                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
+                        <a class="mt-xl button outline expand auto-width l10n" href="brands">View all brands</a>
+                  </section>
             </div>
       </main>
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
