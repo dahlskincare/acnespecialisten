@@ -7,6 +7,13 @@ $image_small = 'https://via.placeholder.com/358x274.jpg';
 $image_large = 'https://via.placeholder.com/424x456.jpg';
 $about_title = 'What is acne scar types?';
 $about_description = '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="mt-m p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>';
+$area_icons = array(
+    'area-face' => 'Face',
+    'area-chest' => 'Chest',
+    'area-shoulders' => 'Shoulders',
+    'area-back' => 'Back',
+
+);
 $areas_text = '<p class="p200">This is a treatment adapted for acne skin and <a class="h200 underline">pimples</a> and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-xl">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the <a class="h200 underline">acne treatment</a>, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>';
 ?>
 <!DOCTYPE html>
@@ -150,30 +157,14 @@ $areas_text = '<p class="p200">This is a treatment adapted for acne skin and <a 
                             <span class="h500"><?php echo $type_name ?>&nbsp;</span><span class="h500">areas</span>
                         </h2>
                         <div class="columns is-mobile is-multiline area-icons mt-s">
-                            <div class="column is-half-mobile">
-                                <div class="area-icon">
-                                    <?php icon('who-infants') ?>
-                                    <p class="h200">Infants</p>
+                            <?php foreach ($area_icons as $area_icon => $label) { ?>
+                                <div class="column is-half-mobile">
+                                    <div class="area-icon">
+                                        <?php icon($area_icon) ?>
+                                        <p class="h200"><?php echo $label ?></p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="column is-half-mobile">
-                                <div class="area-icon">
-                                    <?php icon('who-infants') ?>
-                                    <p class="h200">Infants</p>
-                                </div>
-                            </div>
-                            <div class="column is-half-mobile">
-                                <div class="area-icon">
-                                    <?php icon('who-infants') ?>
-                                    <p class="h200">Infants</p>
-                                </div>
-                            </div>
-                            <div class="column is-half-mobile">
-                                <div class="area-icon">
-                                    <?php icon('who-infants') ?>
-                                    <p class="h200">Infants</p>
-                                </div>
-                            </div>
+                            <?php } ?>
                         </div>
                         <div class="areas-text"><?php echo $areas_text ?></div>
                     </section>
