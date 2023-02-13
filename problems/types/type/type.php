@@ -1,21 +1,4 @@
-<?php
-include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
-$type_name = 'Sun spots';
-$header_title = 'Sun spots';
-$header_description = 'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat.';
-$image_small = 'https://via.placeholder.com/358x274.jpg';
-$image_large = 'https://via.placeholder.com/424x456.jpg';
-$about_title = 'What is acne scar types?';
-$about_description = '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="mt-m p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>';
-$area_icons = array(
-    'area-face' => 'Face',
-    'area-chest' => 'Chest',
-    'area-shoulders' => 'Shoulders',
-    'area-back' => 'Back',
-
-);
-$areas_text = '<p class="p200">This is a treatment adapted for acne skin and <a class="h200 underline">pimples</a> and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-xl">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the <a class="h200 underline">acne treatment</a>, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>';
-?>
+<?php include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php'); ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
 
@@ -31,6 +14,25 @@ $areas_text = '<p class="p200">This is a treatment adapted for acne skin and <a 
     <link rel="stylesheet" href="/styles/default-layout.css">
     <link rel="stylesheet" href="problems/types/type/type.css">
 </head>
+
+<?php
+$type_name = 'Sun spots';
+$header_title = 'Sun spots';
+$header_description = 'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat.';
+$image_small = 'https://via.placeholder.com/358x274.jpg';
+$image_large = 'https://via.placeholder.com/424x456.jpg';
+$about_title = 'What is acne scar types?';
+$about_description = '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="mt-m p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>';
+$area_icons = array(
+    'area-face' => 'Face',
+    'area-chest' => 'Chest',
+    'area-shoulders' => 'Shoulders',
+    'area-back' => 'Back',
+
+);
+$areas_text = '<p class="p200">This is a treatment adapted for acne skin and <a class="h200 underline">pimples</a> and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-xl">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the <a class="h200 underline">acne treatment</a>, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>';
+$service = new Service('sun-spots-consultation', 'Consultation', '30 min', '1295 kr', 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',  'images/service-categories/small/consultation.jpg', 'images/service-categories/large/consultation.jpg', 'https://dahlskincare.com/skin-consultation', null);
+?>
 
 <body>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
@@ -121,6 +123,8 @@ $areas_text = '<p class="p200">This is a treatment adapted for acne skin and <a 
                         <a href="javascript:;" onclick="scrollToElement('#about')" class="button b50 grey l10n">Overview</a>
                         <a href="javascript:;" onclick="scrollToElement('#approach')" class="button b50 grey l10n">Treatment approach</a>
                         <a href="javascript:;" onclick="scrollToElement('#areas')" class="button b50 grey l10n">Areas</a>
+                        <a href="javascript:;" onclick="scrollToElement('#articles')" class="button b50 grey l10n">Articles</a>
+                        <a href="javascript:;" onclick="scrollToElement('#define')" class="button b50 grey l10n">Define</a>
                         <a href="javascript:;" onclick="scrollToElement('#results')" class="button b50 grey l10n">Cases</a>
                         <a href="javascript:;" onclick="scrollToElement('#reviews')" class="button b50 grey l10n">Reviews</a>
                         <a href="javascript:;" onclick="scrollToElement('#faq')" class="button b50 grey l10n">Questions and answers</a>
@@ -155,7 +159,7 @@ $areas_text = '<p class="p200">This is a treatment adapted for acne skin and <a 
                     </section>
                     <section id="areas">
                         <h2>
-                            <span class="h500"><?php echo $type_name ?>&nbsp;</span><span class="h500">areas</span>
+                            <span class="h500"><?php echo $type_name ?>&nbsp;</span><span class="h500 l10n">areas</span>
                         </h2>
                         <div class="columns is-mobile is-multiline area-icons mt-s">
                             <?php foreach ($area_icons as $area_icon => $label) { ?>
@@ -179,6 +183,17 @@ $areas_text = '<p class="p200">This is a treatment adapted for acne skin and <a 
                         foreach ($articles as $article) {
                             include($_SERVER['DOCUMENT_ROOT'] . '/problems/widgets/problem-article/problem-article-widget.php');
                         } ?>
+                    </section>
+                    <section id="define">
+                        <h2>
+                            <span class="h500 l10n">Define</span>&nbsp;
+                            <span class="h500 lowercase">
+                                <?php echo $type_name ?>
+                            </span>
+                        </h2>
+                        <hr class="is-hidden-mobile mt-xl mb-xxl">
+                        <?php include('../../widgets/service-card/service-card.php') ?>
+                        <hr class="is-hidden-mobile mt-xxl">
                     </section>
                 </div>
             </div>

@@ -2,6 +2,7 @@
 @import "../../../styles/util/mixins";
 @import "../../../styles/util/sizes";
 @import "../../widgets/problem-article/problem-article-widget";
+@import "../../widgets/service-card/service-card";
 
 html {
     scroll-behavior: smooth;
@@ -154,10 +155,21 @@ section#header {
 
         }
 
+        section#define {
+            @media screen and (min-width: $tablet) {
+
+                hr {
+                    border: none;
+                    border-top: 1px solid $light-200;
+                }
+            }
+        }
+
         section#about,
         section#approach,
         section#areas,
-        section#articles {
+        section#articles,
+        section#define {
             margin-top: $xl*2;
         }
     }
@@ -180,7 +192,8 @@ section#header {
             section#about,
             section#approach,
             section#areas,
-            section#articles {
+            section#articles,
+            section#define {
                 margin-top: $xl5 + $xs;
             }
         }
