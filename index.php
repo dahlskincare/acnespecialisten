@@ -3,6 +3,7 @@
 <html lang="<?php echo $lang ?>">
 
 <head>
+
       <!-- TODO: Set title and meta tags -->
       <title class="l10n">Acnespecialisten | Home</title>
       <meta name="description" content="Acnespecialisten is the best etc..." class="l10n">
@@ -395,6 +396,7 @@
                               </a>
                         </div>
                         <a class="mt-xl button outline expand is-hidden-tablet l10n" href="brands">View all brands</a>
+                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
                   </div>
             </section>
       </main>

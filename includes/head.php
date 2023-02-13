@@ -85,3 +85,5 @@ function icon($name)
 <link rel="stylesheet" href="/includes/widgets/approach_card/approach_card.css" />
 <!-- Badges -->
 <link rel="stylesheet" href="/includes/widgets/badges/badges.css" />
+<!-- Brands widget -->
+<link rel="stylesheet" href="/includes/widgets/brands/brands.css" />
