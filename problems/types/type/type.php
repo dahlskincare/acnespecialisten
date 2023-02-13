@@ -120,6 +120,7 @@ $areas_text = '<p class="p200">This is a treatment adapted for acne skin and <a 
                     <section id="nav-buttons">
                         <a href="javascript:;" onclick="scrollToElement('#about')" class="button b50 grey l10n">Overview</a>
                         <a href="javascript:;" onclick="scrollToElement('#approach')" class="button b50 grey l10n">Treatment approach</a>
+                        <a href="javascript:;" onclick="scrollToElement('#areas')" class="button b50 grey l10n">Areas</a>
                         <a href="javascript:;" onclick="scrollToElement('#results')" class="button b50 grey l10n">Cases</a>
                         <a href="javascript:;" onclick="scrollToElement('#reviews')" class="button b50 grey l10n">Reviews</a>
                         <a href="javascript:;" onclick="scrollToElement('#faq')" class="button b50 grey l10n">Questions and answers</a>
@@ -167,6 +168,17 @@ $areas_text = '<p class="p200">This is a treatment adapted for acne skin and <a 
                             <?php } ?>
                         </div>
                         <div class="areas-text"><?php echo $areas_text ?></div>
+                    </section>
+                    <section id="articles">
+                        <?php
+                        include($_SERVER['DOCUMENT_ROOT'] . '/problems/widgets/problem-article/problem-article.php');
+                        $articles = array(
+                            new ProblemArticle('pigmentation-causes-and-risk-factors', 'Acne scars causes and risks factors', '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>'),
+                            new ProblemArticle('when-to-see-your-pigmentation-specialist', 'When to see your acne scars specialist?', '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>'),
+                        );
+                        foreach ($articles as $article) {
+                            include($_SERVER['DOCUMENT_ROOT'] . '/problems/widgets/problem-article/problem-article-widget.php');
+                        } ?>
                     </section>
                 </div>
             </div>

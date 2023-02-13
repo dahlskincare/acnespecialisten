@@ -1,6 +1,7 @@
 @import "../../../styles/util/colors";
 @import "../../../styles/util/mixins";
 @import "../../../styles/util/sizes";
+@import "../../widgets/problem-article/problem-article-widget";
 
 html {
     scroll-behavior: smooth;
@@ -155,7 +156,8 @@ section#header {
 
         section#about,
         section#approach,
-        section#areas {
+        section#areas,
+        section#articles {
             margin-top: $xl*2;
         }
     }
@@ -177,7 +179,8 @@ section#header {
 
             section#about,
             section#approach,
-            section#areas {
+            section#areas,
+            section#articles {
                 margin-top: $xl5 + $xs;
             }
         }
