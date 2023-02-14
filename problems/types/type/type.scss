@@ -112,69 +112,138 @@ section#header {
 
 
 .container {
-    #content {
-        section#image {
-            font-size: 0;
 
-            img {
-                border-radius: $radius-l;
-                width: 100%;
-                height: auto;
+    section#image {
+        font-size: 0;
+
+        img {
+            border-radius: $radius-l;
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    section#nav-buttons {
+        margin-top: $xs;
+        display: flex;
+        flex-wrap: wrap;
+
+        .button {
+            margin-top: $xs;
+            margin-right: $xs;
+        }
+    }
+
+    section#areas {
+        .area-icons {
+            .area-icon {
+                margin-top: $xl;
+                display: flex;
+                align-items: center;
+
+                .icon {
+                    width: $xxl;
+                    height: $xxl;
+                    margin-right: $xs;
+                }
             }
         }
 
-        section#nav-buttons {
-            margin-top: $xs;
+        .areas-text {
+            margin-top: $xl + $s;
+        }
+
+    }
+
+    section#solutions {
+        div.solution-buttons {
             display: flex;
             flex-wrap: wrap;
 
             .button {
-                margin-top: $xs;
                 margin-right: $xs;
+                margin-top: $xs;
             }
         }
+    }
 
-        section#areas {
-            .area-icons {
-                .area-icon {
-                    margin-top: $xl;
-                    display: flex;
-                    align-items: center;
+    section#results {
+        .carousel {
+            padding-bottom: $xl;
+        }
 
-                    .icon {
-                        width: $xxl;
-                        height: $xxl;
-                        margin-right: $xs;
-                    }
+        .result-widget {
+            margin-top: $l;
+        }
+
+        a.button.outline {
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        @media screen and (min-width: $tablet) {
+            .carousel {
+                .slide {
+                    flex: 1 0 50%;
+                    box-sizing: border-box;
+                    padding-left: $s;
+                    padding-right: $s;
+                }
+
+                .slide:first-child {
+                    padding-left: 0;
+                }
+
+                .slide:last-child {
+                    padding-right: 0;
                 }
             }
 
-            .areas-text {
-                margin-top: $xl + $s;
-            }
-
-        }
-
-        section#solutions {
-            div.solution-buttons {
-                display: flex;
-                flex-wrap: wrap;
-
-                .button {
-                    margin-right: $xs;
-                    margin-top: $xs;
-                }
+            a.button.outline {
+                width: auto;
+                box-sizing: initial;
             }
         }
+    }
 
-        section#define,
-        section#solutions {
-            @media screen and (min-width: $tablet) {
+    section#define,
+    section#solutions {
+        @media screen and (min-width: $tablet) {
 
-                hr {
-                    border: none;
-                    border-top: 1px solid $light-200;
-                }
+            hr {
+                border: none;
+                border-top: 1px solid $light-200;
+            }
+        }
+    }
+
+    section#about,
+    section#approach,
+    section#areas,
+    section#articles,
+    section#define,
+    section#solutions,
+    section#results,
+    section#reviews,
+    section#faq,
+    section#skin-guide,
+    section#specialists,
+    section#brands {
+        margin-top: $xl*2;
+    }
+}
+
+@media screen and (min-width: $widescreen) {
+    .container {
+
+        max-width: 750px;
+
+        section#nav-buttons {
+            margin-top: $s;
+
+            .button {
+                margin-top: $xxs;
+                margin-right: $xxs;
             }
         }
 
@@ -183,35 +252,16 @@ section#header {
         section#areas,
         section#articles,
         section#define,
-        section#solutions {
-            margin-top: $xl*2;
+        section#solutions,
+        section#results,
+        section#reviews,
+        section#faq,
+        section#skin-guide,
+        section#specialists,
+        section#brands {
+            margin-top: $xl5 + $xs;
         }
-    }
-}
 
-@media screen and (min-width: $widescreen) {
-    .container {
-        #content {
-            max-width: 750px;
-
-            section#nav-buttons {
-                margin-top: $s;
-
-                .button {
-                    margin-top: $xxs;
-                    margin-right: $xxs;
-                }
-            }
-
-            section#about,
-            section#approach,
-            section#areas,
-            section#articles,
-            section#define,
-            section#solutions {
-                margin-top: $xl5 + $xs;
-            }
-        }
     }
 }
 

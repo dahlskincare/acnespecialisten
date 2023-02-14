@@ -38,7 +38,13 @@ $solutions = array(
     new Service('ipl-pigmentation', 'IPL', '30 min', '1295 kr', 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',  'https://via.placeholder.com/102x102.jpg', 'https://via.placeholder.com/200x200.jpg', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/'),
     new Service('freezetreat-pigmentation', 'FreezeTreat', '30 min', '1295 kr', 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',  'https://via.placeholder.com/102x102.jpg', 'https://via.placeholder.com/200x200.jpg', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/')
 
-)
+);
+$specialists = array(
+    new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-1.jpg', 'images/specialists/large/specialist-1.jpg'),
+    new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-1.jpg', 'images/specialists/large/specialist-2.jpg'),
+    new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-1.jpg', 'images/specialists/large/specialist-3.jpg'),
+    new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-1.jpg', 'images/specialists/large/specialist-4.jpg'),
+);
 ?>
 
 <body>
@@ -218,7 +224,86 @@ $solutions = array(
                             </div>
                         <?php } ?>
                     </section>
+                    <section id="results">
+                        <div class="flex-row justify-space-between">
+                            <h2 class="big l10n">Results</h2>
+                            <div class="step-buttons">
+                                <button class="round-large grey" onclick="Carousel.prev('#results-carousel')">
+                                    <?php icon('arrow-left') ?>
+                                </button>
+                                <button class="round-large grey" onclick="Carousel.next('#results-carousel')">
+                                    <?php icon('arrow-right') ?>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="carousel" id="results-carousel">
+                            <div class="slide l10n">
+                                <?php
+                                $before = 'images/results/acne-before.webp';
+                                $after = 'images/results/acne-after.webp';
+                                $label = 'After two months of <a href="treatments/acne">acne treatment</a>';
+                                include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
+                                ?>
+                            </div>
+                            <div class="slide l10n">
+                                <?php
+                                $before = 'images/results/rosacea-before.webp';
+                                $after = 'images/results/rosacea-after.webp';
+                                $label = 'After two months of <a href="treatments/rosacea">rosacea treatment</a>';
+                                include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
+                                ?>
+                            </div>
+                            <div class="slide l10n">
+                                <?php
+                                $before = 'images/results/comedones-before.webp';
+                                $after = 'images/results/comedones-after.webp';
+                                $label = 'After two months of <a href="treatments/comedones">comedones treatment</a>';
+                                include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
+                                ?>
+                            </div>
+                        </div>
+                        <a class="button outline l10n" href="results">View all treatment results</a>
+                    </section>
+                    <section id="reviews">
+                        <div class="flex-row align-end justify-space-between">
+                            <h2 class="big l10n">Reviews</h2>
+                            <div class="flex-row is-hidden-mobile">
+                                <div class="step-buttons">
+                                    <button class="round-large grey" onclick="Carousel.prev('#reviews-carousel')">
+                                        <?php icon('arrow-left') ?>
+                                    </button>
+                                    <button class="round-large grey" onclick="Carousel.next('#reviews-carousel')">
+                                        <?php icon('arrow-right') ?>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
+                        <a class="mt-xl button outline expand auto-width l10n" href="reviews">View all reviews</a>
+                    </section>
+                    <section id="faq">
+                        <h2 class="big l10n">Questions & answers</h2>
+                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
+                        <a class="mt-xl button outline expand auto-width l10n" href="faq">View all questions</a>
+                    </section>
+                    <section id="skin-guide">
+                        <h2 class="big l10n">Skin guide</h2>
+                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php'); ?>
+                        <a class="mt-xl button outline expand auto-width l10n" href="skin-guide">View all articles</a>
+                    </section>
+                    <section id="specialists">
+                        <h2 class="big l10n">Our specialists</h2>
+                        <?php
+                        include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
+                        ?>
+                        <a class="mt-xl button outline expand auto-width l10n" href="specialists">View all specialists</a>
+                    </section>
                 </div>
+                <section id="brands">
+                    <h2 class="big l10n">Brands we use</h2>
+                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
+                    <a class="mt-xl button outline expand auto-width l10n" href="brands">View all brands</a>
+                </section>
             </div>
         </main>
         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
