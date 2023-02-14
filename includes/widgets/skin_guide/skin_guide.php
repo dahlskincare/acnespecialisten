@@ -22,16 +22,16 @@ class SkinGuideArticle
 $skin_guide_articles = array();
 
 if ($lang == 'sv') {
-    $skin_guide_articles[] = new SkinGuideArticle('Hur påverkar hormoner?', 'Problemhy', 'skin-guide/hormones-effect.php', 'images/skin-guide/small/hormones.jpg', 'images/skin-guide/large/hormones.jpg');
-    $skin_guide_articles[] = new SkinGuideArticle('Hur påverkar hormoner?', 'Problemhy', 'skin-guide/can-makeup-harm.php', 'images/skin-guide/small/makeup.jpg', 'images/skin-guide/large/makeup.jpg');
-    $skin_guide_articles[] = new SkinGuideArticle('Hur påverkar hormoner?', 'Problemhy', 'skin-guide/routine-how-to.php', 'images/skin-guide/small/routine.jpg', 'images/skin-guide/large/routine.jpg');
-    $skin_guide_articles[] = new SkinGuideArticle('Hur påverkar hormoner?', 'Problemhy', 'skin-guide/skin-care-tips.php', 'images/skin-guide/small/tips.jpg', 'images/skin-guide/large/tips.jpg');
+    $skin_guide_articles[] = new SkinGuideArticle('Hur påverkar hormoner?', 'Problemhy', 'skin-guide/hormones-effect', 'images/skin-guide/small/hormones.jpg', 'images/skin-guide/large/hormones.jpg');
+    $skin_guide_articles[] = new SkinGuideArticle('Hur påverkar hormoner?', 'Problemhy', 'skin-guide/can-makeup-harm', 'images/skin-guide/small/makeup.jpg', 'images/skin-guide/large/makeup.jpg');
+    $skin_guide_articles[] = new SkinGuideArticle('Hur påverkar hormoner?', 'Problemhy', 'skin-guide/routine-how-to', 'images/skin-guide/small/routine.jpg', 'images/skin-guide/large/routine.jpg');
+    $skin_guide_articles[] = new SkinGuideArticle('Hur påverkar hormoner?', 'Problemhy', 'skin-guide/skin-care-tips', 'images/skin-guide/small/tips.jpg', 'images/skin-guide/large/tips.jpg');
 
 } else {
-    $skin_guide_articles[] = new SkinGuideArticle('How hormones affect?', 'Problem skin', 'skin-guide/hormones-effect.php', 'images/skin-guide/small/hormones.jpg', 'images/skin-guide/large/hormones.jpg');
-    $skin_guide_articles[] = new SkinGuideArticle('Can makeup harm your skin?', 'Problem skin', 'skin-guide/can-makeup-harm.php', 'images/skin-guide/small/makeup.jpg', 'images/skin-guide/large/makeup.jpg');
-    $skin_guide_articles[] = new SkinGuideArticle('How to build a skin care routine', 'Problem skin', 'skin-guide/routine-how-to.php', 'images/skin-guide/small/routine.jpg', 'images/skin-guide/large/routine.jpg');
-    $skin_guide_articles[] = new SkinGuideArticle('Skin care tips dermatologists use', 'Problem skin', 'skin-guide/skin-care-tips.php', 'images/skin-guide/small/tips.jpg', 'images/skin-guide/large/tips.jpg');
+    $skin_guide_articles[] = new SkinGuideArticle('How hormones affect?', 'Problem skin', 'skin-guide/hormones-effect', 'images/skin-guide/small/hormones.jpg', 'images/skin-guide/large/hormones.jpg');
+    $skin_guide_articles[] = new SkinGuideArticle('Can makeup harm your skin?', 'Problem skin', 'skin-guide/can-makeup-harm', 'images/skin-guide/small/makeup.jpg', 'images/skin-guide/large/makeup.jpg');
+    $skin_guide_articles[] = new SkinGuideArticle('How to build a skin care routine', 'Problem skin', 'skin-guide/routine-how-to', 'images/skin-guide/small/routine.jpg', 'images/skin-guide/large/routine.jpg');
+    $skin_guide_articles[] = new SkinGuideArticle('Skin care tips dermatologists use', 'Problem skin', 'skin-guide/skin-care-tips', 'images/skin-guide/small/tips.jpg', 'images/skin-guide/large/tips.jpg');
 }
 
 ?>

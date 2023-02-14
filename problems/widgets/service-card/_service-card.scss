@@ -1,0 +1,66 @@
+@import '../../../styles/util/colors';
+@import '../../../styles/util/mixins';
+@import '../../../styles/util/sizes';
+
+div.service-card-widget {
+    margin-top: $xl;
+    padding: $xl;
+    border-radius: $radius-l;
+    border: 1px solid $light-200;
+    @include elevation-low();
+
+
+    img {
+        width: 102px;
+        height: auto;
+        border-radius: $radius-s;
+        overflow: hidden;
+    }
+
+    .service-info {
+        display: flex;
+        align-items: center;
+        color: $dark-25;
+
+        .service-dot {
+            width: 5px;
+            height: 5px;
+            border-radius: 5px;
+            background-color: $dark-25;
+            margin: 0 $xs;
+        }
+    }
+
+    hr {
+        margin-top: $m;
+        margin-bottom: 0;
+        border: 0;
+        border-top: 1px solid $light-200;
+    }
+
+    @media screen and (min-width: $tablet) {
+        margin-top: 0;
+        padding: 0;
+        border-radius: 0;
+        border: none;
+        box-shadow: none;
+
+        img {
+            width: 200px;
+            height: auto;
+        }
+
+        .middle {
+            flex: auto;
+
+            .service-content {
+                max-width: 412px;
+            }
+        }
+
+        .buttons {
+            flex: 1;
+        }
+    }
+
+}

@@ -1,0 +1,24 @@
+@import '../../../styles/util/colors';
+@import '../../../styles/util/mixins';
+@import '../../../styles/util/sizes';
+
+.type-card-widget {
+    display: block;
+    margin-top: $xl;
+    padding: $xl;
+    border: 1px solid $light-200;
+    border-radius: $radius-l;
+
+    img {
+        border-radius: $radius-s;
+    }
+
+    .icon {
+        width: $m;
+        height: $m;
+    }
+
+    .p200 {
+        color: $dark-200;
+    }
+}

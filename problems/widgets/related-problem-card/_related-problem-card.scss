@@ -1,0 +1,34 @@
+@import '../../../styles/util/colors';
+@import '../../../styles/util/mixins';
+@import '../../../styles/util/sizes';
+
+.related-problem-card-widget {
+    padding: $xl;
+    border: 1px solid $light-200;
+    border-radius: $radius-l;
+    display: flex;
+    align-items: center;
+    @include elevation-low();
+
+    img {
+        width: 102px;
+        height: auto;
+        border-radius: $radius-s;
+        overflow: hidden;
+    }
+
+    .text {
+        margin-left: $m;
+
+        h3 {
+            @include h200;
+        }
+
+        div.aka {
+            span {
+                @include p200;
+                color: $dark-200;
+            }
+        }
+    }
+}

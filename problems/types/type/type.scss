@@ -1,0 +1,275 @@
+@import "../../../styles/util/colors";
+@import "../../../styles/util/mixins";
+@import "../../../styles/util/sizes";
+@import "../../widgets/problem-article/problem-article-widget";
+@import "../../widgets/service-card/service-card";
+
+html {
+    scroll-behavior: smooth;
+
+    .underline {
+        text-decoration: underline;
+    }
+
+    @media screen and (min-width: $tablet) {
+        a.auto-width {
+            width: auto !important;
+            box-sizing: content-box;
+        }
+    }
+}
+
+
+div#floater {
+    position: sticky;
+    height: 0;
+    top: 72px + $xl5; /// 72px: height of navbar
+    z-index: 1;
+
+    div.container {
+        text-align: right;
+        height: 0;
+
+        div#floating-picture {
+            text-align: left;
+            position: relative;
+            display: inline-block;
+            overflow: hidden;
+            @include elevation-low();
+            transform-origin: center left;
+            transition: filter 0.5s ease, opacity 0.5s ease;
+            border-radius: $radius-l;
+
+            flex-direction: column;
+            justify-content: space-between;
+            background-size: cover;
+
+            div#overlay {
+                opacity: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                width: 424px;
+                height: 456px;
+                padding: $xl $xxl $xxl $xxl;
+                box-sizing: border-box;
+                transition: opacity 0.5s ease, height 0.5s ease, background-color 0.5s ease;
+                color: $white-500;
+
+                .badges-widget {
+                    .badge {
+                        background-color: rgba(255, 255, 255, 0.2);
+                        margin-right: 4px;
+                    }
+
+                    .badge:last-child {
+                        margin-right: 0;
+                    }
+                }
+            }
+
+        }
+
+        div#floating-picture.faded {
+            filter: saturate(0.7);
+
+            div#overlay {
+                opacity: 1;
+                height: 528px;
+                background-color: rgba(43, 43, 43, 0.5);
+            }
+        }
+
+        div#floating-picture.hidden {
+            opacity: 0;
+        }
+    }
+}
+
+section#header {
+    #green-header-small {
+        background-color: $deep-sea-400;
+        color: $white-500;
+        padding-bottom: $m;
+    }
+
+    #green-header-large {
+        background-color: $deep-sea-400;
+        color: $white-500;
+
+        #green-header-large-text {
+            width: 648px;
+            padding-bottom: 62px;
+
+            #book-buttons {
+                .button {
+                    margin-right: $s;
+                }
+            }
+        }
+    }
+}
+
+
+.container {
+
+    section#image {
+        font-size: 0;
+
+        img {
+            border-radius: $radius-l;
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    section#nav-buttons {
+        margin-top: $xs;
+        display: flex;
+        flex-wrap: wrap;
+
+        .button {
+            margin-top: $xs;
+            margin-right: $xs;
+        }
+    }
+
+    section#areas {
+        .area-icons {
+            .area-icon {
+                margin-top: $xl;
+                display: flex;
+                align-items: center;
+
+                .icon {
+                    width: $xxl;
+                    height: $xxl;
+                    margin-right: $xs;
+                }
+            }
+        }
+
+        .areas-text {
+            margin-top: $xl + $s;
+        }
+
+    }
+
+    section#solutions {
+        div.solution-buttons {
+            display: flex;
+            flex-wrap: wrap;
+
+            .button {
+                margin-right: $xs;
+                margin-top: $xs;
+            }
+        }
+    }
+
+    section#results {
+        .carousel {
+            padding-bottom: $xl;
+        }
+
+        .result-widget {
+            margin-top: $l;
+        }
+
+        a.button.outline {
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        @media screen and (min-width: $tablet) {
+            .carousel {
+                .slide {
+                    flex: 1 0 50%;
+                    box-sizing: border-box;
+                    padding-left: $s;
+                    padding-right: $s;
+                }
+
+                .slide:first-child {
+                    padding-left: 0;
+                }
+
+                .slide:last-child {
+                    padding-right: 0;
+                }
+            }
+
+            a.button.outline {
+                width: auto;
+                box-sizing: initial;
+            }
+        }
+    }
+
+    section#define,
+    section#solutions {
+        @media screen and (min-width: $tablet) {
+
+            hr {
+                border: none;
+                border-top: 1px solid $light-200;
+            }
+        }
+    }
+
+    section#about,
+    section#approach,
+    section#areas,
+    section#articles,
+    section#define,
+    section#solutions,
+    section#results,
+    section#reviews,
+    section#faq,
+    section#skin-guide,
+    section#specialists,
+    section#brands {
+        margin-top: $xl*2;
+    }
+}
+
+@media screen and (min-width: $widescreen) {
+    .container {
+
+        max-width: 750px;
+
+        section#nav-buttons {
+            margin-top: $s;
+
+            .button {
+                margin-top: $xxs;
+                margin-right: $xxs;
+            }
+        }
+
+        section#about,
+        section#approach,
+        section#areas,
+        section#articles,
+        section#define,
+        section#solutions,
+        section#results,
+        section#reviews,
+        section#faq,
+        section#skin-guide,
+        section#specialists,
+        section#brands {
+            margin-top: $xl5 + $xs;
+        }
+
+    }
+}
+
+// Ensures floater is never above content
+@media screen and (min-width: 1408px) {
+    .container {
+        #content {
+            max-width: 872px;
+        }
+    }
+}

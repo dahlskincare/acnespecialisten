@@ -54,11 +54,10 @@ if ($lang == 'sv') {
         $index = 0;
         foreach (array_keys($faq_categories) as $category) { ?>
             <div class="faq-category b200 slide <?php if ($index == 0)
-                echo 'selected' ?>"
-                     onclick="FAQ.selectCategory(event.target, '<?php echo $category ?>')">
+                                                    echo 'selected' ?>" onclick="FAQ.selectCategory(event.target, '<?php echo $category ?>')">
                 <?php echo $category ?>
             </div>
-            <?php
+        <?php
             $index++;
         } ?>
     </div>
@@ -67,11 +66,10 @@ if ($lang == 'sv') {
         $index = 0;
         foreach (array_keys($faq_categories) as $category) { ?>
             <div class="faq-question-category <?php if ($index > 0)
-                echo 'is-hidden' ?>">
+                                                    echo 'is-hidden' ?>">
                 <?php foreach ($faq_categories[$category] as $question) { ?>
                     <div class="faq-question">
-                        <div class="faq-question-header"
-                             onclick="FAQ.toggleQuestionExpanded(event.target)">
+                        <div class="faq-question-header" onclick="FAQ.toggleQuestionExpanded(event.target)">
                             <span class="p200">
                                 <?php echo $question->title ?>
                             </span>
@@ -83,11 +81,11 @@ if ($lang == 'sv') {
                     </div>
                 <?php } ?>
             </div>
-            <?php
+        <?php
             $index++;
         } ?>
-        <a href="questions.php"
-           class="mt-xl button outline expand l10n">View all questions</a>
+        <!-- <a href="questions"
+           class="mt-xl button outline expand l10n">View all questions</a> -->
     </div>
 </div>
 
@@ -97,14 +95,13 @@ if ($lang == 'sv') {
         $index = 0;
         foreach (array_keys($faq_categories) as $category) { ?>
             <div class="faq-category <?php if ($index == 0)
-                echo 'selected' ?>"
-                     onclick="FAQ.selectCategory(event.target, '<?php echo $category ?>')">
+                                            echo 'selected' ?>" onclick="FAQ.selectCategory(event.target, '<?php echo $category ?>')">
                 <?php icon('question-category') ?>
                 <span class="faq-category-label">
                     <?php echo $category ?>
                 </span>
             </div>
-            <?php
+        <?php
             $index++;
         } ?>
     </div>
@@ -113,11 +110,10 @@ if ($lang == 'sv') {
         $index = 0;
         foreach (array_keys($faq_categories) as $category) { ?>
             <div class="faq-question-category <?php if ($index > 0)
-                echo 'is-hidden' ?>">
+                                                    echo 'is-hidden' ?>">
                 <?php foreach ($faq_categories[$category] as $question) { ?>
                     <div class="faq-question">
-                        <div class="faq-question-header"
-                             onclick="FAQ.toggleQuestionExpanded(event.target)">
+                        <div class="faq-question-header" onclick="FAQ.toggleQuestionExpanded(event.target)">
                             <span class="p200">
                                 <?php echo $question->title ?>
                             </span>
@@ -129,7 +125,7 @@ if ($lang == 'sv') {
                     </div>
                 <?php } ?>
             </div>
-            <?php
+        <?php
             $index++;
         } ?>
     </div>

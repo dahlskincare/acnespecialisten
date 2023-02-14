@@ -39,6 +39,10 @@ input[type=submit],
     transition: background-color 200ms ease, color 200ms ease, border-color 200ms ease;
     text-decoration: none;
 
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
     .spinner:before,
     .spinner::after {
         transition: background-color 200ms ease;
@@ -80,6 +84,13 @@ input[type=submit],
     }
 }
 
+button.bright,
+input[type=submit].bright,
+.button.bright {
+    background-color: $deep-sea-300;
+    border-color: $deep-sea-300;
+}
+
 button.expand,
 input[type=submit].expand,
 .button.expand {
@@ -90,14 +101,9 @@ input[type=submit].expand,
 button.compact,
 input[type=submit].compact,
 .button.compact {
-    padding: 0;
+    padding: 0 !important;
     min-width: 0;
 }
-
-
-
-
-
 
 button:hover,
 input[type=submit]:hover,
@@ -276,20 +282,52 @@ input[type=submit].outline.white.disabled,
 button.text,
 input[type=submit].text,
 .button.text {
+    display: inline-block;
+    position: relative;
+    border-radius: 0;
     background-color: transparent;
     border-color: transparent;
-    @include button-text-color($deep-sea-500);
+    @include button-text-color($deep-sea-400);
     @include spinner-background-color($white-500);
 
     .icon:last-child {
         margin-left: $xxs;
+        margin-right: 0;
     }
+
+    padding-bottom: 8.5px;
+}
+
+button.b200.text,
+input[type=submit].b200.text,
+.button.b200.text {
+    padding-bottom: 11px;
+}
+
+button.text::after,
+input[type=submit].text::after,
+.button.text:after {
+    width: 0%;
+    display: block;
+    content: '';
+    height: 2px;
+    background: transparent;
+    transition: width 300ms ease, background-color 300ms ease;
+    background-color: transparent;
 }
 
 button.text:hover,
 input[type=submit].text:hover,
 .button.text:hover {
     @include button-text-color($deep-sea-300);
+}
+
+button.text:hover::after,
+input[type=submit].text:hover::after,
+.button.text:hover:after {
+    width: 100%;
+    background-color: $deep-sea-300;
+
 }
 
 button.text:disabled,

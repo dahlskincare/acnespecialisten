@@ -1,0 +1,32 @@
+@import '../../../../styles/util/colors';
+@import '../../../../styles/util/mixins';
+@import '../../../../styles/util/sizes';
+
+div.type-card-widget {
+    cursor: pointer;
+    margin-top: $xl;
+    border: 1px solid $light-200;
+    padding: $xl;
+    border-radius: $radius-l;
+    transition: box-shadow 300ms ease;
+    @include elevation-low();
+
+    img {
+        border-radius: $radius-s;
+        width: 102px;
+        height: auto;
+    }
+
+    p.type-card-widget-subtitle {
+        color: $dark-200;
+    }
+
+    @media screen and (min-width: $tablet) {
+        box-shadow: none;
+
+    }
+}
+
+div.type-card-widget:hover {
+    @include elevation-medium();
+}

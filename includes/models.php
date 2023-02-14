@@ -1,4 +1,21 @@
 <?php
+class ApproachCard
+{
+    public function __construct($number, $title, $content, $button_label, $button_url)
+    {
+        $this->number = $number;
+        $this->title = $title;
+        $this->content = $content;
+        $this->button_label = $button_label;
+        $this->button_url = $button_url;
+    }
+    public string $number;
+    public string $title;
+    public string $content;
+    public string $button_label;
+    public string $button_url;
+}
+
 class AccordionItem
 {
     public function __construct($label, $image_small, $image_large, $url, $show_on_large, $show_on_small)
@@ -17,6 +34,40 @@ class AccordionItem
     public $url;
     public $show_on_large;
     public $show_on_small;
+}
+
+class BasedTypeCategory
+{
+    public function __construct($id, $title, $content, $types)
+    {
+        $this->id = $id;
+        $this->title = $title;
+        $this->content = $content;
+        $this->types = $types;
+    }
+
+    public string $id;
+    public string $title;
+    public string $content;
+    public array $types;
+}
+
+class BasedType
+{
+    public function __construct($id, $image_url, $title, $subtitle, $content)
+    {
+        $this->id = $id;
+        $this->image_url = $image_url;
+        $this->title = $title;
+        $this->subtitle = $subtitle;
+        $this->content = $content;
+    }
+
+    public string $id;
+    public string $image_url;
+    public string $title;
+    public string $subtitle;
+    public string $content;
 }
 
 class Specialist
@@ -38,20 +89,83 @@ class PathSegment
 {
     public function __construct($name, $url = null)
     {
-        if (strpos($name, '.') > 0) {
-            $this->name = substr($name, 0, strpos($name, '.'));
-            $this->url = $name;
+        $this->name = $this->format_name($name);
+        if ($url == null) {
+            $parsed_url = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+            $this->url = substr($parsed_url, 0, strpos($parsed_url, $name) + strlen($name));
         } else {
-            $this->name = $name;
-            $this->url = $name . '.php';
-        }
-        if ($url != null) {
             $this->url = $url;
         }
     }
 
-    public $name;
-    public $url;
+    public string $name;
+    public string $url;
+
+    function format_name(string $s)
+    {
+        return ucfirst(str_replace('-', ' ', $s));
+    }
+}
+class Service
+{
+    public function __construct(
+        $id,
+        $title,
+        $duration,
+        $price,
+        $content,
+        $image_small,
+        $image_large,
+        $consultation_url,
+        $booking_url,
+        $icons = array(),
+        $short_title = null
+    ) {
+        $this->id = $id;
+        $this->title = $title;
+        $this->duration = $duration;
+        $this->price = $price;
+        $this->content = $content;
+        $this->image_small = $image_small;
+        $this->image_large = $image_large;
+        $this->consultation_url = $consultation_url;
+        $this->booking_url = $booking_url;
+        $this->icons = $icons;
+        $this->short_title = $short_title;
+    }
+
+    public string $id;
+    public string $title;
+    public string $duration;
+    public string $price;
+    public string $image_small;
+    public string $image_large;
+    public string $content;
+    public ?string $consultation_url;
+    public ?string $booking_url;
+    public ?array $icons;
+    public ?string $short_title;
 }
 
-?>
+class Product
+{
+    public function __construct(
+        $id,
+        $price,
+        $content,
+        $image_small,
+        $image_large
+    ) {
+        $this->id = $id;
+        $this->price = $price;
+        $this->content = $content;
+        $this->image_small = $image_small;
+        $this->image_large = $image_large;
+    }
+
+    public string $id;
+    public string $price;
+    public string $content;
+    public string $image_small;
+    public string $image_large;
+}

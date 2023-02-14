@@ -1,0 +1,19 @@
+@import '../../../styles/util/colors';
+@import '../../../styles/util/mixins';
+@import '../../../styles/util/sizes';
+
+.type-card-widget {
+    margin-top: $m;
+    padding: $xl;
+    border: 1px solid $light-200;
+    border-radius: $radius-l;
+    @include elevation-low();
+
+    img {
+        border-radius: $radius-s;
+    }
+
+    .p200 {
+        color: $dark-200;
+    }
+}

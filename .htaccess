@@ -1,0 +1,9 @@
+RewriteEngine On
+# Internally rewrite requests for URLs without the .php extension to the corresponding URL with the .php extension
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [NC,L]
+
+# Externally redirect requests for URLs with the .php extension to the equivalent URL without the .php extension.
+RewriteCond %{THE_REQUEST} \.php[/\s?] [NC]
+RewriteRule ^(.*)\.php$ /$1 [NC,L,R=301]
