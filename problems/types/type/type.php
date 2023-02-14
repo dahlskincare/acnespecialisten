@@ -31,7 +31,14 @@ $area_icons = array(
 
 );
 $areas_text = '<p class="p200">This is a treatment adapted for acne skin and <a class="h200 underline">pimples</a> and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-xl">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the <a class="h200 underline">acne treatment</a>, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>';
-$service = new Service('sun-spots-consultation', 'Consultation', '30 min', '1295 kr', 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',  'images/service-categories/small/consultation.jpg', 'images/service-categories/large/consultation.jpg', 'https://dahlskincare.com/skin-consultation', null);
+$service = new Service('sun-spots-consultation', 'Consultation', '30 min', '1295 kr', 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',  'https://via.placeholder.com/102x102.jpg', 'https://via.placeholder.com/200x200.jpg', 'https://dahlskincare.com/skin-consultation', null);
+$solutions = array(
+    new Service('chemical-peeling-pigmentation', 'Chemical peeling for pigmentation', '30 min', '1295 kr', 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',  'https://via.placeholder.com/102x102.jpg', 'https://via.placeholder.com/200x200.jpg', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/'),
+    new Service('laser-pigmentation', 'Laser for pigmentation', '30 min', '1295 kr', 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',  'https://via.placeholder.com/102x102.jpg', 'https://via.placeholder.com/200x200.jpg', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/'),
+    new Service('ipl-pigmentation', 'IPL for pigmentation', '30 min', '1295 kr', 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',  'https://via.placeholder.com/102x102.jpg', 'https://via.placeholder.com/200x200.jpg', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/'),
+    new Service('freezetreat-pigmentation', 'FreezeTreat for pigmentation', '30 min', '1295 kr', 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',  'https://via.placeholder.com/102x102.jpg', 'https://via.placeholder.com/200x200.jpg', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/')
+
+)
 ?>
 
 <body>
@@ -125,6 +132,7 @@ $service = new Service('sun-spots-consultation', 'Consultation', '30 min', '1295
                         <a href="javascript:;" onclick="scrollToElement('#areas')" class="button b50 grey l10n">Areas</a>
                         <a href="javascript:;" onclick="scrollToElement('#articles')" class="button b50 grey l10n">Articles</a>
                         <a href="javascript:;" onclick="scrollToElement('#define')" class="button b50 grey l10n">Define</a>
+                        <a href="javascript:;" onclick="scrollToElement('#solutions')" class="button b50 grey l10n">Solutions</a>
                         <a href="javascript:;" onclick="scrollToElement('#results')" class="button b50 grey l10n">Cases</a>
                         <a href="javascript:;" onclick="scrollToElement('#reviews')" class="button b50 grey l10n">Reviews</a>
                         <a href="javascript:;" onclick="scrollToElement('#faq')" class="button b50 grey l10n">Questions and answers</a>
@@ -186,14 +194,23 @@ $service = new Service('sun-spots-consultation', 'Consultation', '30 min', '1295
                     </section>
                     <section id="define">
                         <h2>
-                            <span class="h500 l10n">Define</span>&nbsp;
-                            <span class="h500 lowercase">
-                                <?php echo $type_name ?>
-                            </span>
+                            <span class="h500 l10n">Define</span>&nbsp;<span class="h500 lowercase"><?php echo $type_name ?></span>
                         </h2>
                         <hr class="is-hidden-mobile mt-xl mb-xxl">
                         <?php include('../../widgets/service-card/service-card.php') ?>
                         <hr class="is-hidden-mobile mt-xxl">
+                    </section>
+                    <section id="solutions">
+                        <h2>
+                            <span class="h500"><?php echo $type_name ?>&nbsp;</span><span class="h500 l10n">treatment solutions</span>
+                        </h2>
+                        <hr class="is-hidden-mobile mt-xl">
+                        <?php foreach ($solutions as $service) { ?>
+                            <div class="mt-xxl">
+                                <?php include('../../widgets/service-card/service-card.php') ?>
+                                <hr class="is-hidden-mobile mt-xxl">
+                            </div>
+                        <?php } ?>
                     </section>
                 </div>
             </div>

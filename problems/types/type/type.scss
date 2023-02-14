@@ -155,7 +155,8 @@ section#header {
 
         }
 
-        section#define {
+        section#define,
+        section#solutions {
             @media screen and (min-width: $tablet) {
 
                 hr {
@@ -169,7 +170,8 @@ section#header {
         section#approach,
         section#areas,
         section#articles,
-        section#define {
+        section#define,
+        section#solutions {
             margin-top: $xl*2;
         }
     }
@@ -193,7 +195,8 @@ section#header {
             section#approach,
             section#areas,
             section#articles,
-            section#define {
+            section#define,
+            section#solutions {
                 margin-top: $xl5 + $xs;
             }
         }
