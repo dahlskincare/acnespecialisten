@@ -155,6 +155,18 @@ section#header {
 
         }
 
+        section#solutions {
+            div.solution-buttons {
+                display: flex;
+                flex-wrap: wrap;
+
+                .button {
+                    margin-right: $xs;
+                    margin-top: $xs;
+                }
+            }
+        }
+
         section#define,
         section#solutions {
             @media screen and (min-width: $tablet) {
