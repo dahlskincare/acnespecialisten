@@ -1,5 +1,6 @@
-<?php include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php'); ?>
 <?php
+include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
+include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 class ProblemArea
 {
     public function __construct($label, $icon, $problem_ids)
@@ -24,6 +25,76 @@ $problem_areas[] = new ProblemArea('Rygg', 'images/problem-areas/back.png', arra
 $problem_areas[] = new ProblemArea('Axlar', 'images/problem-areas/shoulders.png', array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples'));
 $problem_areas[] = new ProblemArea('Käklinje', 'images/problem-areas/neckline.png', array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples'));
 $problem_areas[] = new ProblemArea('Nacke', 'images/problem-areas/neck.png', array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples'));
+
+class ServiceCategory
+{
+    public function __construct($id, $label, $services)
+    {
+        $this->id = $id;
+        $this->label = $label;
+        $this->services = $services;
+    }
+    public string $id;
+    public string $label;
+    public array $services;
+}
+/*
+class Service
+{
+    public function __construct($id, $label)
+    {
+        $this->id = $id;
+        $this->label = $label;
+    }
+
+    public string $id;
+    public string $label;
+}*/
+
+$service_categories = array(
+    new ServiceCategory('problem-skin-facials', 'Problem skin facials', array(
+        new Service('acne-treatment', 'Acne treatment', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', '200x200.jpg', '424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
+        new Service('pore cleanse', 'Pore cleanse', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', '200x200.jpg', '424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
+        new Service('milier-treatment', 'Milier treatment', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', '200x200.jpg', '424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
+        new Service('rosacea-treatment', 'Rosacea treatment', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', '200x200.jpg', '424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
+    )),
+    new ServiceCategory('classic-facials', 'Classic facials', array(
+        new Service('skin-therapist-choice', 'Skin therapist choice', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', '200x200.jpg', '424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
+    )),
+    new ServiceCategory('microneedling', 'Microneedling', array(
+        new Service('dermapen', 'Dermapen', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', '200x200.jpg', '424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
+        new Service('micro-injector', 'Micro injector', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', '200x200.jpg', '424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
+    )),
+    new ServiceCategory('injections', 'Injections', array(
+        new Service('botox', 'Botox', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', '200x200.jpg', '424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
+        new Service('fillers', 'Fillers', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', '200x200.jpg', '424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
+    )),
+    new ServiceCategory('freeze-treat', 'FreezeTreat', array(
+        new Service('cryopen', 'Cryopen', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', '200x200.jpg', '424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
+    )),
+    new ServiceCategory('ipl', 'IPL', array(
+        new Service('alma-rejuve', 'Alma Rejuve', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', '200x200.jpg', '424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
+        new Service('photonova', 'PhotoNova / Powerlight', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', '200x200.jpg', '424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
+    )),
+    new ServiceCategory('laser-for-hair-removal', 'Laser for hair removal', array(
+        new Service('soprano-ice', 'Soprano Ice', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', '200x200.jpg', '424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
+        new Service('splendor-x', 'Splendor X', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', '200x200.jpg', '424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
+    )),
+    new ServiceCategory('laser-for-problem-skin', 'Laser for problem skin', array(
+        new Service('alma-hybrid', 'Alma Hybrid', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', '200x200.jpg', '424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
+    )),
+    new ServiceCategory('chemical peeling', 'Chemical peeling', array(
+        new Service('skintech', 'Skintech', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', '200x200.jpg', '424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
+        new Service('prx-t33', 'PRX-T33', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', '200x200.jpg', '424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
+    )),
+    new ServiceCategory('dermabration', 'Dermabration', array(
+        new Service('hydrafacial', 'Hydrafacial', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', '200x200.jpg', '424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
+    )),
+    new ServiceCategory('skinbooster', 'Skinbooster', array(
+        new Service('infuzion', 'Infuzion', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', '200x200.jpg', '424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
+    )),
+);
+
 ?>
 
 <!DOCTYPE html>
@@ -155,8 +226,8 @@ $problem_areas[] = new ProblemArea('Nacke', 'images/problem-areas/neck.png', arr
             <div class="container">
                 <div id="banner-filters" class="carousel l10n">
                     <?php foreach ($problem_areas as $problem_area) { ?>
-                        <div class="banner-problem-area" onclick="showProblems('<?php echo join(',', $problem_area->problem_ids) ?>'); highlight(this); ">
-                            <img src="<?php echo $problem_area->icon ?>" alt="icon" width="32" height="32">
+                        <div class="banner-problem-area">
+                            <img src=" <?php echo $problem_area->icon ?>" alt="icon" width="32" height="32">
                             <div class="b100 l10n">
                                 <?php echo $problem_area->label ?>
                             </div>
@@ -165,9 +236,18 @@ $problem_areas[] = new ProblemArea('Nacke', 'images/problem-areas/neck.png', arr
                 </div>
             </div>
         </section>
-        <section id="filters">
+        <section id="links">
             <div class="container">
-                <p>hello</p>
+                <div id="item-container">
+                    <?php for ($i = 0; $i < count($service_categories); $i++) { ?>
+                        <div class="item" id="item-<?php echo $i ?>">
+                            <p><a href="services/<?php echo $service_categories[$i]->id ?>" class="h200"><?php echo $service_categories[$i]->label ?></a></p>
+                            <?php foreach ($service_categories[$i]->services as $service) { ?>
+                                <p class="p200 service-label"><a href="services/<?php echo $service_categories[$i]->id ?>/<?php echo $service->id ?>"><?php echo $service->title ?></a></p>
+                            <?php } ?>
+                        </div>
+                    <?php } ?>
+                </div>
             </div>
         </section>
         <section id="consultation-banner">
@@ -371,9 +451,6 @@ $problem_areas[] = new ProblemArea('Nacke', 'images/problem-areas/neck.png', arr
         </section>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
-    <script>
-        showProblems('ALL')
-    </script>
 </body>
 
 </html>
