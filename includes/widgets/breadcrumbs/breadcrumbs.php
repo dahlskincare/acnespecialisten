@@ -1,10 +1,6 @@
 <?php
 $segments = array();
-if ($lang == 'sv') {
-    $segments[0] = new PathSegment('hem', '/');
-} else {
-    $segments[0] = new PathSegment('home', '/');
-}
+$segments[0] = new PathSegment('home', '/');
 
 $url_segments = explode('/', parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
 array_shift($url_segments);

@@ -288,11 +288,7 @@ $problem_areas[] = new ProblemArea('Neck', 'images/problem-areas/neck.png', arra
                                           <?php
                                           $before = 'images/results/acne-before.webp';
                                           $after = 'images/results/acne-after.webp';
-                                          if ($lang == 'sv') {
-                                                $label = 'Efter två månaders <a href="treatments/acne">aknebehandling</a>';
-                                          } else {
-                                                $label = 'After two months of <a href="treatments/acne">acne treatment</a>';
-                                          }
+                                          $label = 'After two months of <a href="treatments/acne">acne treatment</a>';
                                           include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
                                           ?>
                                     </div>
@@ -302,11 +298,7 @@ $problem_areas[] = new ProblemArea('Neck', 'images/problem-areas/neck.png', arra
                                           <?php
                                           $before = 'images/results/rosacea-before.webp';
                                           $after = 'images/results/rosacea-after.webp';
-                                          if ($lang == 'sv') {
-                                                $label = 'Efter två månaders <a href="treatments/rosacea">rosaceabehandling</a>';
-                                          } else {
-                                                $label = 'After two months of <a href="treatments/rosacea">rosacea treatment</a>';
-                                          }
+                                          $label = 'After two months of <a href="treatments/rosacea">rosacea treatment</a>';
                                           include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
                                           ?>
                                     </div>
@@ -316,11 +308,7 @@ $problem_areas[] = new ProblemArea('Neck', 'images/problem-areas/neck.png', arra
                                           <?php
                                           $before = 'images/results/comedones-before.webp';
                                           $after = 'images/results/comedones-after.webp';
-                                          if ($lang == 'sv') {
-                                                $label = 'Efter två månaders <a href="treatments/comedones">pormaskbehandling</a>';
-                                          } else {
-                                                $label = 'After two months of <a href="treatments/comedones">comedones treatment</a>';
-                                          }
+                                          $label = 'After two months of <a href="treatments/comedones">comedones treatment</a>';
                                           include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
                                           ?>
                                     </div>
@@ -343,11 +331,7 @@ $problem_areas[] = new ProblemArea('Neck', 'images/problem-areas/neck.png', arra
                                     <?php
                                     $before = 'images/results/acne-before.webp';
                                     $after = 'images/results/acne-after.webp';
-                                    if ($lang == 'sv') {
-                                          $label = 'Efter två månaders <a href="treatments/acne">aknebehandling</a>';
-                                    } else {
-                                          $label = 'After two months of <a href="treatments/acne">acne treatment</a>';
-                                    }
+                                    $label = 'After two months of <a href="treatments/acne">acne treatment</a>';
                                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
                                     ?>
                               </div>
@@ -355,11 +339,7 @@ $problem_areas[] = new ProblemArea('Neck', 'images/problem-areas/neck.png', arra
                                     <?php
                                     $before = 'images/results/rosacea-before.webp';
                                     $after = 'images/results/rosacea-after.webp';
-                                    if ($lang == 'sv') {
-                                          $label = 'Efter två månaders <a href="treatments/rosacea">rosaceabehandling</a>';
-                                    } else {
-                                          $label = 'After two months of <a href="treatments/rosacea">rosacea treatment</a>';
-                                    }
+                                    $label = 'After two months of <a href="treatments/rosacea">rosacea treatment</a>';
                                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
                                     ?>
                               </div>
@@ -367,11 +347,7 @@ $problem_areas[] = new ProblemArea('Neck', 'images/problem-areas/neck.png', arra
                                     <?php
                                     $before = 'images/results/comedones-before.webp';
                                     $after = 'images/results/comedones-after.webp';
-                                    if ($lang == 'sv') {
-                                          $label = 'Efter två månaders <a href="treatments/comedones">pormaskbehandling</a>';
-                                    } else {
-                                          $label = 'After two months of <a href="treatments/comedones">comedones treatment</a>';
-                                    }
+                                    $label = 'After two months of <a href="treatments/comedones">comedones treatment</a>';
                                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
                                     ?>
                               </div>
