@@ -15,84 +15,84 @@ class ProblemArea
     public array $problem_ids;
 }
 
-$problem_areas[] = new ProblemArea('Ansikte', 'images/problem-areas/face.png', array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples'));
-$problem_areas[] = new ProblemArea('Kropp', 'images/problem-areas/body.png', array('acne', 'acne-scars', 'comedones'));
-$problem_areas[] = new ProblemArea('Bröst', 'images/problem-areas/chest.png', array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples'));
-$problem_areas[] = new ProblemArea('Ögon', 'images/problem-areas/eyes.png', array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples'));
-$problem_areas[] = new ProblemArea('Läppar', 'images/problem-areas/lips.png', array('unwanted-hair'));
-$problem_areas[] = new ProblemArea('Hår', 'images/problem-areas/hair.png', array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples'));
-$problem_areas[] = new ProblemArea('Rygg', 'images/problem-areas/back.png', array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples'));
-$problem_areas[] = new ProblemArea('Axlar', 'images/problem-areas/shoulders.png', array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples'));
-$problem_areas[] = new ProblemArea('Käklinje', 'images/problem-areas/neckline.png', array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples'));
-$problem_areas[] = new ProblemArea('Nacke', 'images/problem-areas/neck.png', array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples'));
+$problem_areas = array(
+    new ProblemArea('Ansikte', 'images/problem-areas/face.png', array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples')),
+    new ProblemArea('Kropp', 'images/problem-areas/body.png', array('acne', 'acne-scars', 'comedones')),
+    new ProblemArea('Bröst', 'images/problem-areas/chest.png', array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples')),
+    new ProblemArea('Ögon', 'images/problem-areas/eyes.png', array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples')),
+    new ProblemArea('Läppar', 'images/problem-areas/lips.png', array('unwanted-hair')),
+    new ProblemArea('Hår', 'images/problem-areas/hair.png', array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples')),
+    new ProblemArea('Rygg', 'images/problem-areas/back.png', array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples')),
+    new ProblemArea('Axlar', 'images/problem-areas/shoulders.png', array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples')),
+    new ProblemArea('Käklinje', 'images/problem-areas/neckline.png', array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples')),
+    new ProblemArea('Nacke', 'images/problem-areas/neck.png', array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples'))
+);
 
 class ServiceCategory
 {
-    public function __construct($id, $label, $services)
+    public function __construct($id, $label, $content, $image_small, $image_large, $services, $booking_url, $consultation_url)
     {
         $this->id = $id;
         $this->label = $label;
+        $this->content = $content;
+        $this->image_small = $image_small;
+        $this->image_large = $image_large;
         $this->services = $services;
+        $this->booking_url = $booking_url;
+        $this->consultation_url = $consultation_url;
     }
     public string $id;
     public string $label;
+    public string $content;
+    public string $image_small;
+    public string $image_large;
     public array $services;
+    public string $booking_url;
+    public string $consultation_url;
 }
-/*
-class Service
-{
-    public function __construct($id, $label)
-    {
-        $this->id = $id;
-        $this->label = $label;
-    }
-
-    public string $id;
-    public string $label;
-}*/
 
 $service_categories = array(
-    new ServiceCategory('problem-skin-facials', 'Problem skin facials', array(
-        new Service('acne-treatment', 'Acne treatment', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', '200x200.jpg', '424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
-        new Service('pore cleanse', 'Pore cleanse', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', '200x200.jpg', '424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
-        new Service('milier-treatment', 'Milier treatment', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', '200x200.jpg', '424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
-        new Service('rosacea-treatment', 'Rosacea treatment', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', '200x200.jpg', '424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
-    )),
-    new ServiceCategory('classic-facials', 'Classic facials', array(
-        new Service('skin-therapist-choice', 'Skin therapist choice', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', '200x200.jpg', '424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
-    )),
-    new ServiceCategory('microneedling', 'Microneedling', array(
-        new Service('dermapen', 'Dermapen', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', '200x200.jpg', '424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
-        new Service('micro-injector', 'Micro injector', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', '200x200.jpg', '424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
-    )),
-    new ServiceCategory('injections', 'Injections', array(
-        new Service('botox', 'Botox', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', '200x200.jpg', '424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
-        new Service('fillers', 'Fillers', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', '200x200.jpg', '424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
-    )),
-    new ServiceCategory('freeze-treat', 'FreezeTreat', array(
-        new Service('cryopen', 'Cryopen', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', '200x200.jpg', '424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
-    )),
-    new ServiceCategory('ipl', 'IPL', array(
-        new Service('alma-rejuve', 'Alma Rejuve', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', '200x200.jpg', '424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
-        new Service('photonova', 'PhotoNova / Powerlight', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', '200x200.jpg', '424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
-    )),
-    new ServiceCategory('laser-for-hair-removal', 'Laser for hair removal', array(
-        new Service('soprano-ice', 'Soprano Ice', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', '200x200.jpg', '424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
-        new Service('splendor-x', 'Splendor X', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', '200x200.jpg', '424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
-    )),
-    new ServiceCategory('laser-for-problem-skin', 'Laser for problem skin', array(
-        new Service('alma-hybrid', 'Alma Hybrid', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', '200x200.jpg', '424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
-    )),
-    new ServiceCategory('chemical peeling', 'Chemical peeling', array(
-        new Service('skintech', 'Skintech', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', '200x200.jpg', '424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
-        new Service('prx-t33', 'PRX-T33', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', '200x200.jpg', '424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
-    )),
-    new ServiceCategory('dermabration', 'Dermabration', array(
-        new Service('hydrafacial', 'Hydrafacial', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', '200x200.jpg', '424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
-    )),
-    new ServiceCategory('skinbooster', 'Skinbooster', array(
-        new Service('infuzion', 'Infuzion', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', '200x200.jpg', '424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
-    )),
+    new ServiceCategory('problem-skin-facials', 'Problem skin facials', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', 'https://via.placeholder.com/200x200', 'https://via.placeholder.com/424x324.jpg', array(
+        new Service('acne-treatment', 'Acne treatment', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', 'https://via.placeholder.com/200x200.jpg', 'https://via.placeholder.com/424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
+        new Service('pore-cleanse', 'Pore cleanse', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', 'https://via.placeholder.com/200x200.jpg', 'https://via.placeholder.com/424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
+        new Service('milier-treatment', 'Milier treatment', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', 'https://via.placeholder.com/200x200.jpg', 'https://via.placeholder.com/424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
+        new Service('rosacea-treatment', 'Rosacea treatment', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', 'https://via.placeholder.com/200x200.jpg', 'https://via.placeholder.com/424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
+    ), 'bokadirekt.se', 'bokadirekt.se/consultation'),
+    new ServiceCategory('classic-facials', 'Classic facials', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', 'https://via.placeholder.com/200x200', 'https://via.placeholder.com/424x324.jpg', array(
+        new Service('skin-therapist-choice', 'Skin therapist choice', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', 'https://via.placeholder.com/200x200.jpg', 'https://via.placeholder.com/424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
+    ), 'bokadirekt.se', 'bokadirekt.se/consultation'),
+    new ServiceCategory('microneedling', 'Microneedling', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', 'https://via.placeholder.com/200x200', 'https://via.placeholder.com/424x324.jpg', array(
+        new Service('dermapen', 'Dermapen', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', 'https://via.placeholder.com/200x200.jpg', 'https://via.placeholder.com/424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
+        new Service('micro-injector', 'Micro injector', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', 'https://via.placeholder.com/200x200.jpg', 'https://via.placeholder.com/424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
+    ), 'bokadirekt.se', 'bokadirekt.se/consultation'),
+    new ServiceCategory('injections', 'Injections', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', 'https://via.placeholder.com/200x200', 'https://via.placeholder.com/424x324.jpg', array(
+        new Service('botox', 'Botox', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', 'https://via.placeholder.com/200x200.jpg', 'https://via.placeholder.com/424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
+        new Service('fillers', 'Fillers', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', 'https://via.placeholder.com/200x200.jpg', 'https://via.placeholder.com/424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
+    ), 'bokadirekt.se', 'bokadirekt.se/consultation'),
+    new ServiceCategory('freeze-treat', 'FreezeTreat', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', 'https://via.placeholder.com/200x200', 'https://via.placeholder.com/424x324.jpg', array(
+        new Service('cryopen', 'Cryopen', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', 'https://via.placeholder.com/200x200.jpg', 'https://via.placeholder.com/424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
+    ), 'bokadirekt.se', 'bokadirekt.se/consultation'),
+    new ServiceCategory('ipl', 'IPL', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', 'https://via.placeholder.com/200x200', 'https://via.placeholder.com/424x324.jpg', array(
+        new Service('alma-rejuve', 'Alma Rejuve', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', 'https://via.placeholder.com/200x200.jpg', 'https://via.placeholder.com/424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
+        new Service('photonova', 'PhotoNova / Powerlight', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', 'https://via.placeholder.com/200x200.jpg', 'https://via.placeholder.com/424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
+    ), 'bokadirekt.se', 'bokadirekt.se/consultation'),
+    new ServiceCategory('laser-for-hair-removal', 'Laser for hair removal', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', 'https://via.placeholder.com/200x200', 'https://via.placeholder.com/424x324.jpg', array(
+        new Service('soprano-ice', 'Soprano Ice', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', 'https://via.placeholder.com/200x200.jpg', 'https://via.placeholder.com/424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
+        new Service('splendor-x', 'Splendor X', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', 'https://via.placeholder.com/200x200.jpg', 'https://via.placeholder.com/424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
+    ), 'bokadirekt.se', 'bokadirekt.se/consultation'),
+    new ServiceCategory('laser-for-problem-skin', 'Laser for problem skin', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', 'https://via.placeholder.com/200x200', 'https://via.placeholder.com/424x324.jpg', array(
+        new Service('alma-hybrid', 'Alma Hybrid', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', 'https://via.placeholder.com/200x200.jpg', 'https://via.placeholder.com/424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
+    ), 'bokadirekt.se', 'bokadirekt.se/consultation'),
+    new ServiceCategory('chemical peeling', 'Chemical peeling', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', 'https://via.placeholder.com/200x200', 'https://via.placeholder.com/424x324.jpg', array(
+        new Service('skintech', 'Skintech', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', 'https://via.placeholder.com/200x200.jpg', 'https://via.placeholder.com/424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
+        new Service('prx-t33', 'PRX-T33', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', 'https://via.placeholder.com/200x200.jpg', 'https://via.placeholder.com/424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
+    ), 'bokadirekt.se', 'bokadirekt.se/consultation'),
+    new ServiceCategory('dermabration', 'Dermabration', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', 'https://via.placeholder.com/200x200', 'https://via.placeholder.com/424x324.jpg', array(
+        new Service('hydrafacial', 'Hydrafacial', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', 'https://via.placeholder.com/200x200.jpg', 'https://via.placeholder.com/424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
+    ), 'bokadirekt.se', 'bokadirekt.se/consultation'),
+    new ServiceCategory('skinbooster', 'Skinbooster', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', 'https://via.placeholder.com/200x200', 'https://via.placeholder.com/424x324.jpg', array(
+        new Service('infuzion', 'Infuzion', '50 min', '100 kr', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...', 'https://via.placeholder.com/200x200.jpg', 'https://via.placeholder.com/424x324.jpg', 'https://dahlskincare.com/skin-consultation', 'https://bokadirekt.se'),
+    ), 'bokadirekt.se', 'bokadirekt.se/consultation'),
 );
 
 ?>
@@ -124,65 +124,12 @@ $service_categories = array(
                         <h1 class="h600 mt-xs l10n">Services we provide</h1>
                         <p class="p200 mt-xs">
                             <span id="problems-banner-collapsed" class="l10n">
-                                In a personal meeting with a skin specialist, your skin type is
-                                examined
-                                and
-                                identified. We take pre-photos of your skin, recommend. In a
-                                personal
-                                meeting
-                                with a
-                                skin specialist, your skin type is examined and identified. We
-                                take
-                                pre-photos
-                                of
-                                your skin, recommend. In a personal meeting with a skin
-                                specialist, your
-                                skin
-                                type
-                                is examined and identified In a personal meeting with a skin
-                                specialist,
-                                your
-                                skinonal...
+                                In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified In a personal meeting with a skin specialist, your skinonal...
                                 <span class="l10n underline" onclick="onReadMoreClick()">read more</span>
                             </span>
                             <span id="problems-banner-expanded" class="l10n is-hidden">
-                                In a personal meeting with a skin specialist, your skin type is
-                                examined and identified. We take pre-photos of your skin,
-                                recommend. In
-                                a
-                                personal
-                                meeting with a skin specialist, your skin type is examined and
-                                identified. We
-                                take
-                                pre-photos of your skin, recommend. In a personal meeting with a
-                                skin
-                                specialist,
-                                your
-                                skin type is examined and identified In a personal meeting with a
-                                skin
-                                specialist,
-                                your
-                                skinonal.
-
-                                In a personal meeting with a skin specialist, your skin type is
-                                examined
-                                and
-                                identified. We take pre-photos of your skin, recommend. In a
-                                personal
-                                meeting
-                                with a
-                                skin specialist, your skin type is examined and identified. We
-                                take
-                                pre-photos
-                                of
-                                your skin, recommend. In a personal meeting with a skin
-                                specialist, your
-                                skin
-                                type
-                                is examined and identified In a personal meeting with a skin
-                                specialist,
-                                your
-                                skinonal.
+                                In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified In a personal meeting with a skin specialist, your skinonal...
+                                In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified In a personal meeting with a skin specialist, your skinonal...
                             </span>
                         </p>
                         <a href="https://dahlskincare.com/skin-consultation" target="_blank" class="button b200 white expand mt-xl l10n">Get a free consultation</a>
@@ -203,20 +150,10 @@ $service_categories = array(
                                 <a href="https://dahlskincare.com/skin-consultation" class="button b200 white mt-xl">Get a free consultation</a>
                             </div>
                             <div class="l10n">
-                                In a personal meeting with a skin specialist, your skin type is examined
-                                and identified. We take pre-photos of your skin, recommend. In a
-                                personal meeting with a skin specialist, your skin type is examined and
-                                identified. We take pre-photos of your skin, recommend. In a personal
-                                meeting with a skin specialist, your skin type is examined and
-                                identified In a personal meeting with a skin specialist, your skinonal
+                                In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified In a personal meeting with a skin specialist, your skinonal...
                             </div>
                             <div class="ml-xl4 l10n">
-                                In a personal meeting with a skin specialist, your skin type is examined
-                                and identified. We take pre-photos of your skin, recommend. In a
-                                personal meeting with a skin specialist, your skin type is examined and
-                                identified. We take pre-photos of your skin, recommend. In a personal
-                                meeting with a skin specialist, your skin type is examined and
-                                identified In a personal meeting with a skin specialist, your skinonal
+                                In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified In a personal meeting with a skin specialist, your skinonal...
                             </div>
 
                         </div>
@@ -252,10 +189,10 @@ $service_categories = array(
         </section>
         <section id="cards">
             <div class="container">
-                <div class="columns is-multiline">
+                <div class="columns is-multiline is-variable is-3">
                     <?php foreach ($service_categories as $category) { ?>
                         <div class="column is-one-third">
-                            <p><?php echo $category->label ?></p>
+                            <?php include('widgets/service-category-card/service-category-card.php') ?>
                         </div>
                     <?php } ?>
                 </div>

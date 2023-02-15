@@ -1,6 +1,7 @@
 @import '../styles/util/colors';
 @import '../styles/util/sizes';
 @import '../styles/util/mixins';
+@import 'widgets/service-category-card/service-category-card';
 
 html {
     scroll-behavior: smooth;
@@ -129,46 +130,7 @@ section#banner {
     }
 }
 
-section#cards {
-    .problem-area-card {
-        border: 1px solid $light-200;
-        border-radius: $radius-l;
-        overflow: hidden;
-        margin-top: $xl;
-        @include elevation-low();
-
-        img {
-            width: 100%;
-            height: auto;
-        }
-
-        .problem-area-card-content {
-            padding: $xl;
-
-            hr {
-                margin: $m 0;
-                border: 0;
-                border-top: 1px solid $light-200;
-            }
-        }
-    }
-
-    @media screen and (min-width: $tablet) {
-        margin-top: $m;
-
-        .problem-area-card {
-            box-shadow: none;
-
-            .problem-area-card-content {
-                hr {
-                    @media screen and (min-width: $tablet) {
-                        margin: $xl 0;
-                    }
-                }
-            }
-        }
-    }
-}
+section#cards {}
 
 section#consultation-banner {
     margin-top: $xl;
