@@ -250,6 +250,17 @@ $service_categories = array(
                 </div>
             </div>
         </section>
+        <section id="cards">
+            <div class="container">
+                <div class="columns is-multiline">
+                    <?php foreach ($service_categories as $category) { ?>
+                        <div class="column is-one-third">
+                            <p><?php echo $category->label ?></p>
+                        </div>
+                    <?php } ?>
+                </div>
+            </div>
+        </section>
         <section id="consultation-banner">
             <div class="container">
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/consultation_banner/consultation_banner.php'); ?>
