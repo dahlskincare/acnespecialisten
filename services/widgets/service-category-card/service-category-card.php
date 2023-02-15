@@ -20,7 +20,7 @@
         </p>
         <div class="is-hidden-tablet">
             <a href="services/<?php echo $category->id ?>" class="mt-m button outline expand l10n">
-                View problem details
+                Read more
             </a>
             <hr>
             <a href="<?php echo $category->consultation_url ?>" target="_blank" class="button expand l10n">Get a free consultation</a>
