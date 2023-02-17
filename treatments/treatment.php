@@ -87,7 +87,7 @@ $repair_url = 'treatments/acne';
                     <h1 class="mt-xs h600">
                         <?php echo $title ?>
                     </h1>
-                    <p class="mt-m">
+                    <p class="mt-xs">
                         <?php echo $description ?>
                     </p>
                     <div class="mt-xl columns is-mobile">
