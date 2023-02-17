@@ -94,71 +94,15 @@ $problem_areas[] = new ProblemArea('Neck', 'images/problem-areas/neck.png', arra
                                     <h1 class="h600 l10n">Skin problems</h1>
                                     <p class="p200 mt-xs">
                                           <span id="problems-banner-collapsed" class="l10n">
-                                                In a personal meeting with a skin specialist, your skin type is
-                                                examined
-                                                and
-                                                identified. We take pre-photos of your skin, recommend. In a
-                                                personal
-                                                meeting
-                                                with a
-                                                skin specialist, your skin type is examined and identified. We
-                                                take
-                                                pre-photos
-                                                of
-                                                your skin, recommend. In a personal meeting with a skin
-                                                specialist, your
-                                                skin
-                                                type
-                                                is examined and identified In a personal meeting with a skin
-                                                specialist,
-                                                your
-                                                skinonal...
+                                                In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified In a personal meeting with a skin specialist, your skinonal...
                                                 <span class="l10n underline" onclick="onReadMoreClick()">read more</span>
                                           </span>
                                           <span id="problems-banner-expanded" class="l10n is-hidden">
-                                                In a personal meeting with a skin specialist, your skin type is
-                                                examined and identified. We take pre-photos of your skin,
-                                                recommend. In
-                                                a
-                                                personal
-                                                meeting with a skin specialist, your skin type is examined and
-                                                identified. We
-                                                take
-                                                pre-photos of your skin, recommend. In a personal meeting with a
-                                                skin
-                                                specialist,
-                                                your
-                                                skin type is examined and identified In a personal meeting with a
-                                                skin
-                                                specialist,
-                                                your
-                                                skinonal.
-
-                                                In a personal meeting with a skin specialist, your skin type is
-                                                examined
-                                                and
-                                                identified. We take pre-photos of your skin, recommend. In a
-                                                personal
-                                                meeting
-                                                with a
-                                                skin specialist, your skin type is examined and identified. We
-                                                take
-                                                pre-photos
-                                                of
-                                                your skin, recommend. In a personal meeting with a skin
-                                                specialist, your
-                                                skin
-                                                type
-                                                is examined and identified In a personal meeting with a skin
-                                                specialist,
-                                                your
-                                                skinonal.
+                                                In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified In a personal meeting with a skin specialist, your skinonal...
+                                                In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified In a personal meeting with a skin specialist, your skinonal...
                                           </span>
                                     </p>
                                     <a href="https://dahlskincare.com/skin-consultation" target="_blank" class="button b200 white expand mt-xl l10n">Get a free consultation</a>
-                                    <div class="mt-xl">
-                                          <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                                    </div>
                               </div>
                               <div class="is-hidden-touch" id="banner-green-desktop">
                                     <div class="flex-row justify-end">
@@ -193,6 +137,9 @@ $problem_areas[] = new ProblemArea('Neck', 'images/problem-areas/neck.png', arra
                         </div>
                   </div>
                   <div class="container">
+                        <div class="mt-m is-hidden-desktop">
+                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
+                        </div>
                         <div id="banner-problem-area-filters" class="carousel l10n">
                               <?php foreach ($problem_areas as $problem_area) { ?>
                                     <div class="banner-problem-area" onclick="showProblems('<?php echo join(',', $problem_area->problem_ids) ?>'); highlight(this); ">

@@ -132,9 +132,6 @@ $service_categories = array(
                             </span>
                         </p>
                         <a href="https://dahlskincare.com/skin-consultation" target="_blank" class="button b200 white expand mt-xl l10n">Get a free consultation</a>
-                        <div class="mt-xl">
-                            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                        </div>
                     </div>
                     <div class="is-hidden-touch" id="banner-green-desktop">
                         <div class="flex-row justify-space-between">
@@ -160,6 +157,9 @@ $service_categories = array(
                 </div>
             </div>
             <div class="container">
+                <div class="mt-m is-hidden-desktop">
+                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
+                </div>
                 <div id="banner-filters" class="carousel l10n">
                     <?php foreach ($problem_areas as $problem_area) { ?>
                         <div class="banner-problem-area">

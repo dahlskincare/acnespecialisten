@@ -235,8 +235,10 @@ section#header {
 
 @media screen and (min-width: $widescreen) {
     .container {
+        #content {
 
-        max-width: 750px;
+            max-width: 750px;
+        }
 
         section#nav-buttons {
             margin-top: $s;

@@ -76,7 +76,7 @@ $specialists = array(
         </div>
         <main>
             <section id="header">
-                <div id="green-header-small" class="is-hidden-tablet">
+                <div id="green-header-small" class="is-hidden-desktop">
                     <div class="container">
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
                         <h1 class="mt-xs h600">
@@ -93,12 +93,9 @@ $specialists = array(
                                 <a href="<?php echo $booking_url ?>" target="_blank" class="button b200 white expand l10n">Book a treatment</a>
                             </div>
                         </div>
-                        <div class="mt-xl">
-                            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                        </div>
                     </div>
                 </div>
-                <div id="green-header-large" class="is-hidden-mobile">
+                <div id="green-header-large" class="is-hidden-touch">
                     <div class="container">
                         <div class="columns">
                             <div class="column is-half">
@@ -125,8 +122,11 @@ $specialists = array(
             </section>
             <div class="container">
                 <div id="content">
-                    <section id="image" class="mt-xl is-hidden-desktop">
-                        <picture class="is-hidden-tablet">
+                    <section id="badges" class="mt-m is-hidden-desktop">
+                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
+                    </section>
+                    <section id="image" class="mt-m is-hidden-desktop">
+                        <picture>
                             <source media="(max-width: 449px)" srcset="<?php echo $image_small ?>">
                             <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
                             <img src="<?php echo $image_large ?>" alt="<?php echo $header_title ?>" width="358" height="274" />

@@ -9,15 +9,15 @@
     .badge {
         display: flex;
         align-items: center;
-        background-color: $deep-sea-300;
         border-radius: $xl4;
         padding: 5.5px $s;
         margin-right: 6px;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
-
-        @include button-text-color($white-500);
+        /// Trustpilot
+        @include button-text-color(#00B67A);
+        color: $black-500;
 
         span.icon {
             margin-right: 6px;
@@ -26,5 +26,15 @@
 
     .badge:last-child {
         margin-right: 0;
+    }
+}
+
+@media screen and (min-width: $desktop) {
+    .badges-widget {
+        .badge {
+            background-color: $deep-sea-300;
+            color: $white-500;
+            @include button-text-color($white-500);
+        }
     }
 }
