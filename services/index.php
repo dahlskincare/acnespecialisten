@@ -120,7 +120,6 @@ $service_categories = array(
             <div id="banner-green">
                 <div class="container l10n">
                     <div class="is-hidden-desktop">
-                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
                         <h1 class="h600 mt-xs l10n">Services we provide</h1>
                         <p class="p200 mt-xs">
                             <span id="problems-banner-collapsed" class="l10n">
@@ -139,7 +138,7 @@ $service_categories = array(
                     </div>
                     <div class="is-hidden-touch" id="banner-green-desktop">
                         <div class="flex-row justify-space-between">
-                            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
+                            <div></div>
                             <div class="mt-xl mb-xs">
                                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
                             </div>

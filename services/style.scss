@@ -11,6 +11,7 @@ section#banner {
     #banner-green {
         background-color: $deep-sea-400;
         color: $white-500;
+        padding-top: $xl;
         padding-bottom: $xl;
         @include p100;
 
@@ -91,6 +92,7 @@ section#banner {
 
     @media screen and (min-width: $desktop) {
         #banner-green {
+            padding-top: 0;
             padding-bottom: $m;
 
             #banner-green-desktop {

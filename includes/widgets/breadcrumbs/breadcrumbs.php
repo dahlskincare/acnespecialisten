@@ -1,9 +1,10 @@
 <?php
 $segments = array();
-$segments[0] = new PathSegment('home', '/');
 
 $url_segments = explode('/', parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
 array_shift($url_segments);
+array_pop($url_segments);
+
 foreach ($url_segments as $segment) {
     if ($segment != '') {
         $segments[] = new PathSegment($segment);
