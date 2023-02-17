@@ -161,8 +161,7 @@ $problem_areas[] = new ProblemArea('Neck', 'images/problem-areas/neck.png', arra
                                     </div>
                               </div>
                               <div class="is-hidden-touch" id="banner-green-desktop">
-                                    <div class="flex-row justify-space-between">
-                                          <div></div>
+                                    <div class="flex-row justify-end">
                                           <div class="mt-xl mb-xs">
                                                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
                                           </div>
