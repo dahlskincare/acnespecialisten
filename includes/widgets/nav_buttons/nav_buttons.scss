@@ -1,0 +1,28 @@
+@import '../../../styles/util/colors';
+@import '../../../styles/util/sizes';
+@import '../../../styles/util/mixins';
+
+.nav-buttons-widget {
+    border-bottom: 1px solid $light-200;
+    padding-top: $l;
+
+
+    .slide {
+        // Override flex of .slide to specify a custom width
+        flex: 1 0 auto;
+        margin-right: $xl;
+        border-bottom: 2px solid transparent;
+        padding-bottom: $l - 2px;
+        color: $dark-200;
+    }
+
+    .slide:last-child {
+        margin-right: 0;
+    }
+
+    .slide:hover {
+        color: $black-500;
+        border-bottom: 2px solid $black-500;
+    }
+
+}

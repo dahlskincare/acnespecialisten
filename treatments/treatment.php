@@ -4,10 +4,21 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $image_large = 'images/treatments/large/acne-scars.jpg';
 $image_small = 'images/treatments/small/acne-scars.jpg';
-
 $problem = 'acne scars';
 $title = 'Acne scars treatment';
 $description = 'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we.';
+$nav_buttons = array(
+    'about' => 'Overview',
+    'define' => 'Define problem',
+    'treat' => 'Treatment solutions',
+    'prevent' => 'Prevent problem',
+    'repair' => 'Repair',
+    'results' => 'Cases',
+    'reviews' => 'Reviews',
+    'faq' => 'Questions and answers',
+    'skin-guide' => 'Skin guide',
+    'specialists' => 'Specialists'
+);
 $about_title = 'What is acne scars treatment?';
 $about_content = '<p class="p200">This is a treatment adapted for acne skin and <a class="b200 underline">pimples</a> and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-xl">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p>';
 $define_content = '<p class="p200">This is a treatment adapted for acne skin and <a class="b200 underline">pimples</a> and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-xl">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p>';
@@ -140,20 +151,7 @@ $repair_url = 'treatments/acne';
                     </picture>
                 </section>
                 <section id="nav-buttons">
-                    <a href="javascript:;" onclick="scrollToElement('#about')" class="button grey l10n">Overview</a>
-                    <a href="javascript:;" onclick="scrollToElement('#define')" class="button grey l10n">Define problem</a>
-                    <a href="javascript:;" onclick="scrollToElement('#treat')" class="button grey l10n">Treatment solutions</a>
-                    <?php if (sizeof($products) > 0) { ?>
-                        <a href="javascript:;" onclick="scrollToElement('#prevent')" class="button grey l10n">Prevent problem</a>
-                    <?php } ?>
-                    <?php if (isset($repair_title) && isset($repair_content) && isset($repair_image_small) && isset($repair_image_large) && isset($repair_url)) { ?>
-                        <a href="javascript:;" onclick="scrollToElement('#repair')" class="button grey l10n">Repair</a>
-                    <?php } ?>
-                    <a href="javascript:;" onclick="scrollToElement('#results')" class="button grey l10n">Cases</a>
-                    <a href="javascript:;" onclick="scrollToElement('#reviews')" class="button grey l10n">Reviews</a>
-                    <a href="javascript:;" onclick="scrollToElement('#faq')" class="button grey l10n">FAQ</a>
-                    <a href="javascript:;" onclick="scrollToElement('#skin-guide')" class="button grey l10n">Skin guide</a>
-                    <a href="javascript:;" onclick="scrollToElement('#specialists')" class="button grey l10n">Specialists</a>
+                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about">
                     <h2 class="h500"><?php echo $about_title; ?></h2>

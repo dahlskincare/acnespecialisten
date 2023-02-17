@@ -123,17 +123,6 @@ section#header {
         }
     }
 
-    section#nav-buttons {
-        margin-top: $xs;
-        display: flex;
-        flex-wrap: wrap;
-
-        .button {
-            margin-top: $xs;
-            margin-right: $xs;
-        }
-    }
-
     section#areas {
         .area-icons {
             .area-icon {
@@ -238,15 +227,6 @@ section#header {
         #content {
 
             max-width: 750px;
-        }
-
-        section#nav-buttons {
-            margin-top: $s;
-
-            .button {
-                margin-top: $xxs;
-                margin-right: $xxs;
-            }
         }
 
         section#about,

@@ -15,6 +15,21 @@ $title = 'Acne scars';
 $description = 'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat.';
 $akas = ['post-inflammatory-hyperpigmentation' => 'Post-inflammatory hyperpigmentation', 'athropic-scars' => 'Atrophic scars'];
 $booking_url = 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922';
+$nav_buttons = array(
+      'about' => 'Overview',
+      'approach' => 'Treatment approach',
+      'symptoms' => 'Types & Symptoms',
+      'define' => 'Define problem',
+      'treatments' => 'Treatment solutions',
+      'articles' => 'Risk factors',
+      'articles' => 'When to visit a doctor',
+      'results' => 'Cases',
+      'reviews' => 'Reviews',
+      'faq' => 'FAQ',
+      'skin-guide' => 'Skin guide',
+      'specialists' => 'Specialists',
+      'related-problems' => 'Related problems'
+);
 $trivias = array(
       new ProblemTrivia('What', 'is acne scars', '<p class="p200">Lorem ipsum dolor sit amet, <a href="#" class="b200 underline">consectetur</a> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p class="p200 mt-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>', '<p class="p200">Lorem ipsum dolor sit amet, <a href="#" class="b200 underline">consectetur</a> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>', array()),
       new ProblemTrivia('Why', 'do acne scars happen', '<p class="p200">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p class="p200 mt-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>', '<p class="p200">Lorem ipsum dolor sit amet, <a href="#" class="b200 underline">consectetur</a> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>', array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders')),
@@ -84,7 +99,6 @@ $related_problems = array(
       new RelatedProblem('acne', 'Acne', 'scars stains', 'images/problems/small/acne.jpg'),
       new RelatedProblem('acne', 'Acne', 'scars stains', 'images/problems/small/acne.jpg'),
 );
-
 ?>
 
 <!DOCTYPE html>
@@ -225,7 +239,6 @@ $related_problems = array(
                         </div>
                   </div>
             </section>
-
             <div class="container">
                   <div id="content">
                         <section id="badges" class="mt-m is-hidden-desktop">
@@ -239,19 +252,7 @@ $related_problems = array(
                               </picture>
                         </section>
                         <section id="nav-buttons">
-                              <a href="javascript:;" onclick="scrollToElement('#about')" class="button grey l10n">Overview</a>
-                              <a href="javascript:;" onclick="scrollToElement('#approach')" class="button grey l10n">Treatment approach</a>
-                              <a href="javascript:;" onclick="scrollToElement('#symptoms')" class="button grey l10n">Types & symptoms</a>
-                              <a href="javascript:;" onclick="scrollToElement('#define')" class="button grey l10n">Define problem</a>
-                              <a href="javascript:;" onclick="scrollToElement('#treatments')" class="button grey l10n">Treatment solutions</a>
-                              <a href="javascript:;" onclick="scrollToElement('#articles')" class="button grey l10n">Risk factors</a>
-                              <a href="javascript:;" onclick="scrollToElement('#articles')" class="button grey l10n">When to visit a doctor</a>
-                              <a href="javascript:;" onclick="scrollToElement('#results')" class="button grey l10n">Cases</a>
-                              <a href="javascript:;" onclick="scrollToElement('#reviews')" class="button grey l10n">Reviews</a>
-                              <a href="javascript:;" onclick="scrollToElement('#faq')" class="button grey l10n">FAQ</a>
-                              <a href="javascript:;" onclick="scrollToElement('#skin-guide')" class="button grey l10n">Skin guide</a>
-                              <a href="javascript:;" onclick="scrollToElement('#specialists')" class="button grey l10n">Specialists</a>
-                              <a href="javascript:;" onclick="scrollToElement('#related-problems')" class="button grey l10n">Related problems</a>
+                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                         </section>
                         <section id="about">
                               <h2>

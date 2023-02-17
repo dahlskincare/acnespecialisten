@@ -124,17 +124,6 @@ section#header {
         }
     }
 
-    section#nav-buttons {
-        display: flex;
-        flex-wrap: wrap;
-        margin-top: $m;
-
-        .button {
-            margin-top: $xs;
-            margin-right: $xs;
-        }
-    }
-
     section#about {
         margin-top: 48px;
     }
@@ -247,13 +236,6 @@ section#header {
     .container {
         #content {
             max-width: 750px;
-
-            section#nav-buttons {
-                .button {
-                    margin-top: $xxs;
-                    margin-right: $xxs;
-                }
-            }
         }
     }
 }

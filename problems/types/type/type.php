@@ -21,6 +21,20 @@ $header_title = 'Sun spots';
 $header_description = 'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat.';
 $image_small = 'https://via.placeholder.com/358x274.jpg';
 $image_large = 'https://via.placeholder.com/424x456.jpg';
+$nav_buttons = array(
+    'about' => 'Overview',
+    'approach' => 'Treatment approach',
+    'areas' => 'Areas',
+    'articles' => 'Articles',
+    'define' => 'Define problem',
+    'solutions' => 'Solutions',
+    'results' => 'Cases',
+    'reviews' => 'Reviews',
+    'faq' => 'Questions and answers',
+    'skin-guide' => 'Skin guide',
+    'specialists' => 'Specialists',
+    'brands' => 'Brands'
+);
 $about_title = 'What is acne scar types?';
 $about_description = '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="mt-m p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>';
 $area_icons = array(
@@ -133,18 +147,7 @@ $specialists = array(
                         </picture>
                     </section>
                     <section id="nav-buttons">
-                        <a href="javascript:;" onclick="scrollToElement('#about')" class="button b50 grey l10n">Overview</a>
-                        <a href="javascript:;" onclick="scrollToElement('#approach')" class="button b50 grey l10n">Treatment approach</a>
-                        <a href="javascript:;" onclick="scrollToElement('#areas')" class="button b50 grey l10n">Areas</a>
-                        <a href="javascript:;" onclick="scrollToElement('#articles')" class="button b50 grey l10n">Articles</a>
-                        <a href="javascript:;" onclick="scrollToElement('#define')" class="button b50 grey l10n">Define</a>
-                        <a href="javascript:;" onclick="scrollToElement('#solutions')" class="button b50 grey l10n">Solutions</a>
-                        <a href="javascript:;" onclick="scrollToElement('#results')" class="button b50 grey l10n">Cases</a>
-                        <a href="javascript:;" onclick="scrollToElement('#reviews')" class="button b50 grey l10n">Reviews</a>
-                        <a href="javascript:;" onclick="scrollToElement('#faq')" class="button b50 grey l10n">Questions and answers</a>
-                        <a href="javascript:;" onclick="scrollToElement('#skin-guide')" class="button b50 grey l10n">Skin guide</a>
-                        <a href="javascript:;" onclick="scrollToElement('#specialists')" class="button b50 grey l10n">Specialists</a>
-                        <a href="javascript:;" onclick="scrollToElement('#brands')" class="button b50 grey l10n">Brands</a>
+                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                     </section>
                     <section id="about">
                         <h2 class="h500"><?php echo $about_title ?></h2>

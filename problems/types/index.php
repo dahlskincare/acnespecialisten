@@ -7,6 +7,17 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 <?php
 $image_small = 'https://via.placeholder.com/358x274.jpg';
 $image_large = 'https://via.placeholder.com/424x456.jpg';
+$nav_buttons = array(
+    'about' => 'Overview',
+    'define' => 'Define problem',
+    'approach' => 'Treatment approach',
+    'results' => 'Cases',
+    'reviews' => 'Reviews',
+    'faq' => 'FAQ',
+    'skin-guide' => 'Skin guide',
+    'specialists' => 'Specialists',
+    'brands' => 'Brands'
+);
 
 $problem_name = 'Acne scars';
 $header_title = 'Different type of acne scars';
@@ -173,33 +184,27 @@ $specialists = array(
                     </picture>
                 </section>
                 <section id="nav-buttons">
-                    <a href="javascript:;" onclick="scrollToElement('#about')" class="button b50 grey l10n">Overview</a>
-                    <a href="javascript:;" onclick="scrollToElement('.based')" class="button b50 grey l10n">Define problem</a>
-                    <a href="javascript:;" onclick="scrollToElement('#approach')" class="button b50 grey l10n">Treatment approach</a>
-                    <a href="javascript:;" onclick="scrollToElement('#results')" class="button b50 grey l10n">Cases</a>
-                    <a href="javascript:;" onclick="scrollToElement('#reviews')" class="button b50 grey l10n">Reviews</a>
-                    <a href="javascript:;" onclick="scrollToElement('#faq')" class="button b50 grey l10n">Questions and answers</a>
-                    <a href="javascript:;" onclick="scrollToElement('#skin-guide')" class="button b50 grey l10n">Skin guide</a>
-                    <a href="javascript:;" onclick="scrollToElement('#specialists')" class="button b50 grey l10n">Specialists</a>
-                    <a href="javascript:;" onclick="scrollToElement('#brands')" class="button b50 grey l10n">Brands</a>
+                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about">
                     <h2 class="h500"><?php echo $about_title ?></h2>
                     <div class="mt-xl"><?php echo $about_description ?></div>
                 </section>
-                <?php foreach ($based_type_categories as $category) { ?>
-                    <section class="based">
-                        <h2 class="h500"><?php echo $category->title ?></h2>
-                        <div class="mt-xs mb-xs"><?php echo $category->content ?></div>
-                        <div class="columns is-3 is-variable is-multiline">
-                            <?php foreach ($category->types as $type) { ?>
-                                <div class="column is-half">
-                                    <?php include('widgets/type-card/type-card.php') ?>
-                                </div>
-                            <?php } ?>
-                        </div>
-                    </section>
-                <?php } ?>
+                <div id="define">
+                    <?php foreach ($based_type_categories as $category) { ?>
+                        <section class="based">
+                            <h2 class="h500"><?php echo $category->title ?></h2>
+                            <div class="mt-xs mb-xs"><?php echo $category->content ?></div>
+                            <div class="columns is-3 is-variable is-multiline">
+                                <?php foreach ($category->types as $type) { ?>
+                                    <div class="column is-half">
+                                        <?php include('widgets/type-card/type-card.php') ?>
+                                    </div>
+                                <?php } ?>
+                            </div>
+                        </section>
+                    <?php } ?>
+                </div>
                 <section id="approach">
                     <h2 class="h500 l10n">Treatment approach</h2>
                     <?php

@@ -125,21 +125,6 @@ section#header {
         }
     }
 
-    section#nav-buttons {
-        margin-top: $xs;
-        display: flex;
-        flex-wrap: wrap;
-
-        .button {
-            margin-top: $xxs;
-            margin-right: $xxs;
-        }
-
-        @media screen and (min-width: $tablet) {
-            margin-top: $s;
-        }
-    }
-
     section#about {
         margin-top: $xl3 + $xs;
 
@@ -237,13 +222,6 @@ section#header {
     .container {
         #content {
             max-width: 750px;
-
-            section#nav-buttons {
-                .button {
-                    margin-top: $xxs;
-                    margin-right: $xxs;
-                }
-            }
         }
     }
 }
