@@ -105,21 +105,23 @@ section#header {
     #green-header-small {
         background-color: $deep-sea-400;
         color: $white-500;
-        padding-bottom: $m;
+        padding-bottom: $xl;
 
         .procedures {
             overflow: hidden;
-            border-radius: $radius-l;
 
             .procedure {
                 display: flex;
                 justify-content: space-between;
-                background-color: $deep-sea-500;
-                padding: $m;
+                padding: $m 0;
             }
 
-            .procedure:not(:first-child) {
-                margin-top: 1px;
+            .procedure {
+                border-bottom: 1px solid $white-200;
+            }
+
+            .procedure:first-child {
+                border-top: 1px solid $white-200;
             }
         }
     }

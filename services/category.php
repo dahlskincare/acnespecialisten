@@ -70,7 +70,7 @@ $procedures = array(
                     <h1 class="mt-xs h600">
                         <?php echo $title ?>
                     </h1>
-                    <h3 class="mt-m p200 l10n">Duration: <?php echo $duration ?></h3>
+                    <h3 class="mt-xs p200 l10n">Duration: <?php echo $duration ?></h3>
                     <div class="procedures mt-xl">
                         <div class="procedure">
                             <p class="p200 l10n">1 procedure</p>
@@ -116,15 +116,13 @@ $procedures = array(
                         <h1 class="h600">
                             <?php echo $title ?>
                         </h1>
-                        <div class="mt-s">
+                        <div class="mt-xs">
                             <span class="p200 l10n">Duration: <?php echo $duration ?></span>
                         </div>
                         <div class="mt-xl flex-row" id="book-buttons">
                             <a href="https://www.dahlskincare.com/skin-consultation" target="_blank" class="button b200 white l10n">Get a free consultation</a>
                             <a href="<?php echo $booking_url ?>" target="_blank" class="button b200 white l10n">Book a treatment</a>
                         </div>
-
-
                     </div>
                 </div>
             </div>
