@@ -159,12 +159,15 @@ $related_problems = array(
                               <h1 class="mt-xs h600">
                                     <?php echo $title ?>
                               </h1>
-                              <h3 class="mt-m h200 l10n">Also known as</h3>
+                              <h3 class="mt-xs p200 l10n">Also known as</h3>
                               <?php foreach ($akas as $key => $aka) { ?>
-                                    <a href="glossary?keyword=<?php echo $key ?>" class="mt-xs button bright">
-                                          <?php echo $aka ?>
-                                    </a>
+                                    <div>
+                                          <a href="glossary?keyword=<?php echo $key ?>" class="mt-xs button bright">
+                                                <?php echo $aka ?>
+                                          </a>
+                                    </div>
                               <?php } ?>
+                              <hr class="mt-xl" />
                               <p class="mt-m">
                                     <?php echo $description ?>
                               </p>
