@@ -122,7 +122,7 @@ $specialists = array(
                     <h1 class="mt-xs h600">
                         <?php echo $header_title ?>
                     </h1>
-                    <p class="mt-m">
+                    <p class="mt-xs">
                         <?php echo $header_description ?>
                     </p>
                     <div class="mt-xl columns is-mobile">
