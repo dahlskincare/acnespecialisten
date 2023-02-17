@@ -5,7 +5,7 @@
 .nav-buttons-widget {
     border-bottom: 1px solid $light-200;
     padding-top: $l;
-
+    position: relative;
 
     .slide {
         // Override flex of .slide to specify a custom width
@@ -14,6 +14,7 @@
         border-bottom: 2px solid transparent;
         padding-bottom: $l - 2px;
         color: $dark-200;
+        text-align: center;
     }
 
     .slide:last-child {
@@ -23,6 +24,23 @@
     .slide:hover {
         color: $black-500;
         border-bottom: 2px solid $black-500;
+    }
+
+    .scroll-button {
+        position: absolute;
+        top: $s;
+        display: none;
+        width: 80px;
+        background: rgb(255, 255, 255);
+        right: 0;
+        text-align: right;
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 50%);
+    }
+
+    @media screen and (min-width: $desktop) {
+        .scroll-button.visible {
+            display: block;
+        }
     }
 
 }
