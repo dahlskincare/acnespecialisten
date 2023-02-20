@@ -17,8 +17,7 @@ function msg_reviews($lang)
 ?>
 
 <div class="reviews-widget">
-    <div class="carousel"
-         id="reviews-carousel">
+    <div class="carousel" id="reviews-carousel">
         <?php for ($x = 0; $x < 10; $x++) { ?>
             <div class="review-box">
                 <div class="review-box-top">
@@ -29,10 +28,7 @@ function msg_reviews($lang)
                         <?php icon('star') ?>
                         <?php icon('star') ?>
                     </div>
-                    <img src="images/brands/trustpilot.svg"
-                         width="102"
-                         height="26"
-                         alt="Trustpilot">
+                    <img src="images/brands/trustpilot.svg" width="102" height="26" alt="Trustpilot">
                 </div>
                 <h3 class="review-box-title h200">
                     Got rid of my pigment spots on
@@ -53,10 +49,7 @@ function msg_reviews($lang)
     </div>
     <div class="review-brands">
         <div class="review-brand">
-            <img src="images/brands/google.svg"
-                 alt="Google"
-                 width="80"
-                 height="26">
+            <img src="images/brands/google.svg" alt="Google" width="80" height="26">
             <div class="review-brand-right">
                 <?php icon('star') ?>
                 <span class="ml-xs h200">5.0 / 5</span>
@@ -67,10 +60,7 @@ function msg_reviews($lang)
 
         </div>
         <div class="review-brand">
-            <img src="images/brands/trustpilot.svg"
-                 alt="Trustpilot"
-                 width="107"
-                 height="27">
+            <img src="images/brands/trustpilot.svg" alt="Trustpilot" width="107" height="27">
             <div class="review-brand-right">
                 <?php icon('star') ?>
                 <span class="ml-xs h200">4.7 / 5</span>
@@ -80,10 +70,7 @@ function msg_reviews($lang)
             </div>
         </div>
         <div class="review-brand">
-            <img src="images/brands/bokadirekt.svg"
-                 alt="Bokadirekt"
-                 width="128"
-                 height="19">
+            <img src="images/brands/bokadirekt.svg" alt="Bokadirekt" width="128" height="19">
             <div class="review-brand-right">
                 <?php icon('star') ?>
                 <span class="ml-xs h200">4.7 / 5</span>

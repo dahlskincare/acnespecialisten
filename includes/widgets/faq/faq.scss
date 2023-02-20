@@ -12,7 +12,7 @@
         .faq-category {
             display: flex;
             align-items: center;
-            padding: $l $m;
+            padding: 19px $m;
             background-color: $light-100;
             border-radius: $radius-s;
             margin-top: $xs;
@@ -48,9 +48,9 @@
 
         .faq-question {
             border-top: 1px solid $light-200;
-            padding: $xl 0;
 
             .faq-question-header {
+                padding: $xl 0;
                 cursor: pointer;
                 user-select: none;
                 display: flex;
@@ -63,8 +63,9 @@
             }
 
             .faq-question-content {
-                margin-top: $s;
+
                 color: $dark-200;
+                padding-bottom: $xl;
             }
         }
 
@@ -127,6 +128,7 @@
 
                 .faq-question-content {
                     margin-top: $s;
+
                 }
             }
         }

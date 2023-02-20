@@ -52,28 +52,28 @@
 
         @media screen and (min-width: $desktop) {
 
+            margin-top: $xl;
             margin-left: 0;
             margin-right: 0;
             padding: 0;
+            border: 1px solid $light-200;
+            border-radius: $radius-l;
 
             .review-box {
+                margin-top: 0;
+                margin-right: 0;
                 border-radius: 0;
                 border-right: 0;
+                border: 0;
+                border-left: 1px solid $light-200;
                 box-shadow: none;
-                margin-right: 0;
-                height: 300px;
-                flex: 1 0 330px;
+                height: 310px;
+                box-sizing: border-box;
+                flex: 1 0 25%;
             }
 
             .review-box:first-child {
-                border-top-left-radius: $radius-l;
-                border-bottom-left-radius: $radius-l;
-            }
-
-            .review-box:last-child {
-                border-top-right-radius: $radius-l;
-                border-bottom-right-radius: $radius-l;
-                border-right: 1px solid $light-200;
+                border-left: 0;
             }
         }
     }

@@ -249,7 +249,10 @@ section#about-us {
             display: none;
             flex: 1;
 
+            margin-left: $l;
+
             img {
+                width: 100%;
                 margin: 0;
                 border-radius: $radius-l;
             }
