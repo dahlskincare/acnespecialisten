@@ -37,9 +37,11 @@ section#banner {
     }
 
     .banner-bar {
-        background-color: $deep-sea-400;
+        background: $deep-sea-400;
         color: white;
         border-radius: $radius-l;
+        cursor: pointer;
+
 
         #banner-bar-cols {
             display: flex;
@@ -75,18 +77,31 @@ section#banner {
 
     #banner-bar-large {
         margin-top: -58px;
-        padding: $xxl;
+        padding: $xl $xxl;
 
         #banner-bar-cols {
+            .label-large {
+                font-size: 60px;
+                line-height: 68px;
+                font-family: "DM Serif Text";
+                font-weight: 400;
+                margin-right: $s;
+            }
+
             .flex-aligner {
                 display: flex;
+                align-items: center;
+            }
 
-                .h500 {
-                    margin-right: $s;
-                }
+            .button {
+                padding-top: 14.5px;
+                padding-bottom: 14.5px;
             }
         }
+    }
 
+    #banner-bar-large:hover {
+        background: linear-gradient(270.44deg, #219174 0%, #1B8066 100%);
     }
 
     @media screen and (min-width: $desktop) {
