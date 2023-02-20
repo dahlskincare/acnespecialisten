@@ -42,6 +42,11 @@ html {
                 div#left {
                     display: flex;
 
+
+                    a#logo {
+                        height: 52px;
+                    }
+
                     nav {
                         margin-left: $xl3;
 
