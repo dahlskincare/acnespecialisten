@@ -25,6 +25,8 @@
       <main>
             <section id="banner">
                   <div id="banner-background">
+                        <video autoplay muted loop id="banner-video">
+                        </video>
                         <div class="container">
                               <h1 class="big l10n">Hudspecialister</h1>
                         </div>
@@ -53,6 +55,7 @@
                               </div>
                         </div>
                         <div class="banner-bar elevation-medium is-hidden-touch" id="banner-bar-large">
+                              
                               <div id="banner-bar-cols">
                                     <div class="flex-aligner">
                                           <span class="h500">4,8</span>
@@ -401,6 +404,7 @@
             </section>
       </main>
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
+      <script src="index.js"></script>
 </body>
 
 </html>

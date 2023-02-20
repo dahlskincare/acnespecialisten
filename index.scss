@@ -26,6 +26,10 @@ section#banner {
         background-size: cover;
         background-position: center center;
 
+        video {
+            display: none;
+        }
+
         h1.big {
             width: 228px;
             color: $white-500;
@@ -87,8 +91,27 @@ section#banner {
 
     @media screen and (min-width: $desktop) {
         #banner-background {
-            padding: 258px 0 106px 0;
+            position: relative;
+            height: 564px;
+            box-sizing: border-box;
             background-image: url("images/banner-desktop.jpg");
+            overflow: hidden;
+            padding: 0;
+            display: flex;
+            align-items: flex-end;
+
+            video {
+                position: absolute;
+                top: 0;
+                width: 100%;
+                display: block;
+                padding-top: 50%;
+                transform: translateY(-50%);
+            }
+
+            .container {
+                padding-bottom: 106px;
+            }
         }
 
     }
