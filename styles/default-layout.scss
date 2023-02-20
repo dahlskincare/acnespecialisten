@@ -41,14 +41,17 @@ html {
 
                 div#left {
                     display: flex;
+                    align-items: center;
 
 
                     a#logo {
-                        height: 52px;
+                        img {
+                            padding: $s $m;
+                        }
                     }
 
                     nav {
-                        margin-left: $xl3;
+                        margin-left: $xs;
 
                         ul {
                             padding: 0;
@@ -56,10 +59,10 @@ html {
 
                             li {
                                 cursor: pointer;
-                                display: inline;
-                                padding: 0;
+                                display: inline-block;
+                                padding: 26px $m;
                                 list-style-type: none;
-                                margin-right: $xxl;
+
                             }
                         }
                     }
@@ -70,12 +73,14 @@ html {
                     align-items: center;
 
                     .button {
+                        padding: 14px $m;
                         margin-right: $xxl;
                     }
 
                     .icon {
-                        margin-right: $xxl;
+                        margin-right: $xxs;
                         cursor: pointer;
+                        padding: $m;
                     }
 
                 }
