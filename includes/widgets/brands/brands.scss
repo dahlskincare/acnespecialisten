@@ -3,78 +3,38 @@
 
 .brands-widget {
   margin-top: $m;
-  height: auto;
 
   .flex-container {
     display: flex;
     flex-wrap: wrap;
-    height: auto;
+    overflow: hidden;
+    border-radius: $radius-l;
 
     .flex-item {
       display: flex;
       align-items: center;
       justify-content: center;
       background-color: $light-25;
-      margin: $xxs;
-      flex: 1;
       box-sizing: border-box;
+      flex: 1;
       text-align: center;
-      height: 80px;
-      border-radius: $radius-l;
+      height: $xl5;
       padding: $l;
+      margin: 1px;
 
       img {
-        border-radius: $radius-s;
-        width: 70px;
         margin: $xs;
         flex: 1;
       }
     }
   }
-}
 
-/*
-@media (max-width: $tablet) {
-
-  .brands-widget {
-    .flex-item {
-      flex: 40%;
-      margin: 1px;
-      height: 80px;
-    }
-
-    .flex-item-top-left {
-      border-top-right-radius: 0px;
-      border-bottom-left-radius: 0px;
-      border-bottom-right-radius: 0px;
-      border-top-left-radius: 10px;
-    }
-
-    .flex-item-top-right {
-      border-top-right-radius: 10px;
-      border-bottom-left-radius: 0px;
-      border-bottom-right-radius: 0px;
-      border-top-left-radius: 0px;
-      height: 80px;
-    }
-
-    .flex-item-bottom-left {
-      border-bottom-left-radius: 10px;
-      border-bottom-right-radius: 0px;
-      border-top-left-radius: 0px;
-      border-top-right-radius: 0px;
-    }
-
-    .flex-item-bottom-right {
-      border-bottom-right-radius: 10px;
-      border-bottom-left-radius: 0px;
-      border-top-left-radius: 0px;
-      border-top-right-radius: 0px;
-    }
-
-    .flex-item-other {
-      height: 80px;
-      border-radius: 0px;
+  @media screen and (min-width: $tablet) {
+    .flex-container {
+      .flex-item {
+        margin: $xxs;
+        border-radius: $radius-l;
+      }
     }
   }
-}*/
+}
