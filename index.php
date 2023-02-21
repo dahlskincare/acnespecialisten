@@ -134,7 +134,7 @@
                                     </div>
                               <?php } ?>
                         </div>
-                        <a href="our-approach" class="button outline expand mt-xl l10n is-hidden-desktop">
+                        <a href="our-approach" class="button b200 outline expand mt-xl l10n is-hidden-desktop">
                               Read more about our approach
                         </a>
                   </div>
@@ -187,7 +187,7 @@
                               </div>
                         </div>
                         <div class="container">
-                              <a class="button outline expand l10n" href="results">View all treatment results</a>
+                              <a class="button b200 outline expand l10n" href="results">View all treatment results</a>
                         </div>
                   </div>
                   <div class="container is-hidden-mobile">
@@ -247,7 +247,7 @@
 
                         </div>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                        <a class="mt-xl button outline expand is-hidden-tablet l10n" href="reviews">View all reviews</a>
+                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="reviews">View all reviews</a>
                   </div>
             </section>
             <section id="services">
@@ -255,19 +255,19 @@
                         <h2 class="big">Services</h2>
                         <?php
                         $accordion = array(
-                              new AccordionItem('Facials', 'images/service-categories/small/facials.jpg', 'images/service-categories/large/facials.jpg', 'services/facials', true, true),
-                              new AccordionItem('IPL', 'images/service-categories/small/ipl.jpg', 'images/service-categories/large/ipl.jpg', 'services/ipl', true, true),
-                              new AccordionItem('Laser', 'images/service-categories/small/laser-problem-skin.jpg', 'images/service-categories/large/laser-problem-skin.jpg', 'services/laser', true, true),
-                              new AccordionItem('Dermabration', 'images/service-categories/small/dermabration.jpg', 'images/service-categories/large/dermabration.jpg', 'services/dermabration', true, true),
-                              new AccordionItem('Microneedling', 'images/service-categories/small/microneedling.jpg', 'images/service-categories/large/microneedling.jpg', 'services/microneedling', true, true),
-                              new AccordionItem('Injections ', 'images/service-categories/small/injections.jpg', 'images/service-categories/large/injections.jpg', 'services/injection', false, true),
-                              new AccordionItem('View all services', 'images/service-categories/small/luxury.jpg', 'images/service-categories/large/luxury.jpg', 'services', true, false)
+                              new AccordionItem('Facials', 'https://via.placeholder.com/114x140.jpg', 'images/service-categories/large/facials.jpg', 'services/facials', true, true),
+                              new AccordionItem('IPL', 'https://via.placeholder.com/114x140.jpg', 'images/service-categories/large/ipl.jpg', 'services/ipl', true, true),
+                              new AccordionItem('Laser', 'https://via.placeholder.com/114x140.jpg', 'images/service-categories/large/laser-problem-skin.jpg', 'services/laser', true, true),
+                              new AccordionItem('Dermabration', 'https://via.placeholder.com/114x140.jpg', 'images/service-categories/large/dermabration.jpg', 'services/dermabration', true, true),
+                              new AccordionItem('Microneedling', 'https://via.placeholder.com/114x140.jpg', 'images/service-categories/large/microneedling.jpg', 'services/microneedling', true, true),
+                              new AccordionItem('Injections ', 'https://via.placeholder.com/114x140.jpg', 'images/service-categories/large/injections.jpg', 'services/injection', false, true),
+                              new AccordionItem('View all services', 'https://via.placeholder.com/114x140.jpg', 'images/service-categories/large/luxury.jpg', 'services', true, false)
                         );
 
                         $more_count = 17;
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/accordion/accordion.php')
                         ?>
-                        <a href="problems" class="mt-xl button outline is-hidden-desktop expand">View all services</a>
+                        <a href="problems" class="mt-xl button b200 outline is-hidden-desktop expand">View all services</a>
                   </div>
             </section>
             <section id="faq">
@@ -280,7 +280,7 @@
                               </a>
                         </div>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                        <a class="mt-xl button outline expand is-hidden-tablet l10n" href="faq">View all questions</a>
+                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="faq">View all questions</a>
                   </div>
             </section>
             <section id="skin-guide">
@@ -293,7 +293,7 @@
                               </a>
                         </div>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php'); ?>
-                        <a class="mt-xl button outline expand is-hidden-tablet l10n" href="skin-guide">View all articles</a>
+                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="skin-guide">View all articles</a>
                   </div>
             </section>
             <section id="about-us">
@@ -386,7 +386,7 @@
                         $specialists[] = new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-4.jpg', 'images/specialists/large/specialist-4.jpg');
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
                         ?>
-                        <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialists">View all specialists</a>
+                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="specialists">View all specialists</a>
                   </div>
             </section>
             <section id="brands">
@@ -399,7 +399,7 @@
                               </a>
                         </div>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                        <a class="mt-xl button outline expand is-hidden-tablet l10n" href="brands">View all brands</a>
+                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="brands">View all brands</a>
                   </div>
             </section>
       </main>
