@@ -236,10 +236,12 @@ html {
                 z-index: 2;
 
                 .footer-large-banner {
+                    display: block;
                     color: $white-500;
-                    background-color: $deep-sea-400;
+                    background: linear-gradient(270.44deg, $deep-sea-400 0%, $deep-sea-400 100%);
                     padding: $xl3;
                     border-radius: $radius-l;
+                    cursor: pointer;
 
                     .icon {
                         width: $xl3;
@@ -258,6 +260,26 @@ html {
                         align-items: flex-end;
                         justify-content: space-between;
                     }
+
+                    h2 {
+                        font-size: 40px;
+                        line-height: 50px;
+                        letter-spacing: -0.02em;
+                        font-weight: 400;
+                        font-family: "DM Serif Text";
+                    }
+
+                    p {
+                        font-size: 16px;
+                        line-height: 26px;
+                        letter-spacing: -0.03em;
+                        font-weight: 400;
+                        font-family: "Inter";
+                    }
+                }
+
+                .footer-large-banner:hover {
+                    background: linear-gradient(270.44deg, #219174 0%, $deep-sea-400 100%);
                 }
 
                 #footer-large-brands {
