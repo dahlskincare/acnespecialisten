@@ -232,10 +232,10 @@
                               <h2 class="big l10n">Reviews</h2>
                               <div class="flex-row is-hidden-mobile">
                                     <div class="step-buttons">
-                                          <button class="round-large grey" onclick="Carousel.prev('#reviews-carousel')">
+                                          <button class="round-large grey" onclick="Carousel.prev('#reviews-carousel', -1)">
                                                 <?php icon('arrow-left') ?>
                                           </button>
-                                          <button class="round-large grey" onclick="Carousel.next('#reviews-carousel')">
+                                          <button class="round-large grey" onclick="Carousel.next('#reviews-carousel', 1)">
                                                 <?php icon('arrow-right') ?>
                                           </button>
                                     </div>

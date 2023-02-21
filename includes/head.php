@@ -43,15 +43,15 @@ function icon($name)
 </style>
 <script>
       Carousel = {
-            prev: (carouselId) => {
+            prev: (carouselId, offset = 0) => {
                   const carousel = document.querySelector(carouselId);
                   let child = carousel.children[0];
-                  carousel.scrollLeft -= child.getBoundingClientRect().width;
+                  carousel.scrollLeft -= (child.getBoundingClientRect().width + offset);
             },
-            next: (carouselId) => {
+            next: (carouselId, offset = 0) => {
                   const carousel = document.querySelector(carouselId);
                   let child = carousel.children[0];
-                  carousel.scrollLeft += child.getBoundingClientRect().width;
+                  carousel.scrollLeft += (child.getBoundingClientRect().width + offset);
             }
       }
       /// Scroll the window to a selector, taking the navbar height into consideration
