@@ -56,16 +56,16 @@ $problems['stretch-marks'] = new Problem('Stretch marks', 'problems/stretch-mark
 $problems['operational-scars'] = new Problem('Operational scars', 'problems/operational-scars', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se', 'images/problems/small/operational-scars.jpg', 'images/problems/medium/operational-scars.jpg', 'images/problems/large/operational-scars.jpg', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...');
 $problems['unwanted-hair'] = new Problem('Unwanted hair', 'problems/unwanted-hair', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se', 'images/problems/small/unwanted-hair.jpg', 'images/problems/medium/unwanted-hair.jpg', 'images/problems/large/unwanted-hair.jpg', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...');
 $problems['scars-from-pimples'] = new Problem('Scars from pimples', 'problems/scars-from-pimples', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se', 'images/problems/small/scars-from-pimples.jpg', 'images/problems/medium/scars-from-pimples.jpg', 'images/problems/large/scars-from-pimples.jpg', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...');
-$problem_areas[] = new ProblemArea('Face', 'images/problem-areas/face.png', array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples'));
-$problem_areas[] = new ProblemArea('Body', 'images/problem-areas/body.png', array('acne', 'acne-scars', 'comedones'));
-$problem_areas[] = new ProblemArea('Chest', 'images/problem-areas/chest.png', array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples'));
-$problem_areas[] = new ProblemArea('Eyes', 'images/problem-areas/eyes.png', array('rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples'));
-$problem_areas[] = new ProblemArea('Lips', 'images/problem-areas/lips.png', array('unwanted-hair'));
-$problem_areas[] = new ProblemArea('Hair', 'images/problem-areas/hair.png', array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples'));
-$problem_areas[] = new ProblemArea('Back', 'images/problem-areas/back.png', array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples'));
-$problem_areas[] = new ProblemArea('Shoulders', 'images/problem-areas/shoulders.png', array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples'));
-$problem_areas[] = new ProblemArea('Neckline', 'images/problem-areas/neckline.png', array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples'));
-$problem_areas[] = new ProblemArea('Neck', 'images/problem-areas/neck.png', array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples'));
+$problem_areas[] = new ProblemArea('Face', 'area-face', array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples'));
+$problem_areas[] = new ProblemArea('Body', 'area-face', array('acne', 'acne-scars', 'comedones'));
+$problem_areas[] = new ProblemArea('Chest', 'area-face', array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples'));
+$problem_areas[] = new ProblemArea('Eyes', 'area-face', array('rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples'));
+$problem_areas[] = new ProblemArea('Lips', 'area-face', array('unwanted-hair'));
+$problem_areas[] = new ProblemArea('Hair', 'area-face', array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples'));
+$problem_areas[] = new ProblemArea('Back', 'area-face', array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples'));
+$problem_areas[] = new ProblemArea('Shoulders', 'area-face', array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples'));
+$problem_areas[] = new ProblemArea('Neckline', 'area-face', array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples'));
+$problem_areas[] = new ProblemArea('Neck', 'area-face', array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples'));
 ?>
 
 <!DOCTYPE html>
@@ -81,7 +81,6 @@ $problem_areas[] = new ProblemArea('Neck', 'images/problem-areas/neck.png', arra
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="stylesheet" href="/styles/default-layout.css">
       <link rel="stylesheet" href="problems/problems.css">
-      <script src="problems/problems.js"></script>
 </head>
 
 <body>
@@ -140,15 +139,27 @@ $problem_areas[] = new ProblemArea('Neck', 'images/problem-areas/neck.png', arra
                         <div class="mt-m is-hidden-desktop">
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
                         </div>
-                        <div id="banner-problem-area-filters" class="carousel l10n">
-                              <?php foreach ($problem_areas as $problem_area) { ?>
-                                    <div class="banner-problem-area" onclick="showProblems('<?php echo join(',', $problem_area->problem_ids) ?>'); highlight(this); ">
-                                          <img src="<?php echo $problem_area->icon ?>" alt="icon" width="32" height="32">
-                                          <div class="b100 l10n">
-                                                <?php echo $problem_area->label ?>
+                        <div id="filters-desktop" class="mt-m is-hidden-touch">
+                              <div id="filter-items">
+                                    <?php foreach ($problem_areas as $problem_area) { ?>
+                                          <div class="filter-item" onclick="showProblems('<?php echo join(',', $problem_area->problem_ids) ?>'); highlight(this); ">
+                                                <?php icon($problem_area->icon) ?>
+                                                <div class="b100 filter-item-label l10n">
+                                                      <?php echo $problem_area->label ?>
+                                                </div>
                                           </div>
-                                    </div>
-                              <?php } ?>
+                                    <?php } ?>
+                              </div>
+                              <div class="filter-button is-hidden" id="filter-button-previous">
+                                    <button class="round-large grey">
+                                          <?php icon('arrow-left') ?>
+                                    </button>
+                              </div>
+                              <div class="filter-button is-hidden" id="filter-button-next">
+                                    <button class="round-large grey">
+                                          <?php icon('arrow-right') ?>
+                                    </button>
+                              </div>
                         </div>
                         <div class="columns is-multiline" id="banner-problem-areas">
                               <?php foreach ($problems as $id => $problem) { ?>
@@ -384,9 +395,7 @@ $problem_areas[] = new ProblemArea('Neck', 'images/problem-areas/neck.png', arra
             </section>
       </main>
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
-      <script>
-            showProblems('ALL')
-      </script>
+      <script src="problems/problems.js"></script>
 </body>
 
 </html>
