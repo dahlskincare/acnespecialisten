@@ -33,11 +33,13 @@ $skin_guide_articles[] = new SkinGuideArticle('Skin care tips dermatologists use
         <?php foreach ($skin_guide_articles as $article) { ?>
             <div class="column">
                 <a href="<?php echo $article->url ?>" class="skin-guide-article">
-                    <picture>
-                        <source media="(max-width: 799px)" srcset="<?php echo $article->image_small ?>">
-                        <source media="(min-width: 800px)" srcset="<?php echo $article->image_large ?>">
-                        <img src="<?php echo $article->image_large ?>" alt="<?php echo $article->title ?>" width="312" height="328" />
-                    </picture>
+                    <div class="image-container">
+                        <picture>
+                            <source media="(max-width: 799px)" srcset="<?php echo $article->image_small ?>">
+                            <source media="(min-width: 800px)" srcset="<?php echo $article->image_large ?>">
+                            <img src="<?php echo $article->image_large ?>" alt="<?php echo $article->title ?>" width="312" height="328" />
+                        </picture>
+                    </div>
                     <div>
                         <h3>
                             <?php echo $article->title ?>
