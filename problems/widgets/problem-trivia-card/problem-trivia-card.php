@@ -1,11 +1,6 @@
 <div class="problem-trivia-card-widget">
     <h3 class="h300">
-        <span class="trivia-prefix">
-            <?php echo $trivia->prefix ?>
-        </span>
-        <span>
-            <?php echo $trivia->title ?>
-        </span>
+        <span class="trivia-prefix"><?php echo $trivia->prefix ?></span><span><?php echo $trivia->title ?></span>
     </h3>
     <?php if (sizeof($trivia->icons) > 0) { ?>
         <div class="mt-m">
@@ -24,18 +19,15 @@
     <div class="p200 mt-m">
         <?php echo $trivia->content ?>
     </div>
-    <button class="mt-m text b200 compact is-hidden-mobile"
-            onclick="showExtendedContent(this)">
+    <button class="mt-m text b200 compact is-hidden-mobile" onclick="showExtendedContent(this)">
         <span class="l10n">Read more</span>
         <?php icon('arrow-down') ?>
     </button>
-    <button class="mt-m grey b200 expand is-hidden-tablet"
-            onclick="showExtendedContent(this)">
+    <button class="mt-m grey b200 expand is-hidden-tablet" onclick="showExtendedContent(this)">
         <span class="l10n">Read more</span>
         <?php icon('arrow-down') ?>
     </button>
-    <div class="p200 mt-m is-hidden"
-         id="extended-content">
+    <div class="p200 mt-m is-hidden" id="extended-content">
         <?php echo $trivia->extended_content ?>
     </div>
 </div>
