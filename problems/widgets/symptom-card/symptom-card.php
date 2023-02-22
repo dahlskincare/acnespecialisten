@@ -1,6 +1,8 @@
-<div class="symptom-card-widget">
+<a href="<?php echo $_SERVER['REQUEST_URI'] . '/types/' . $symptom->id ?>" class="symptom-card-widget">
     <div class="flex-row align-center">
-        <img class="mr-m" src="<?php echo $symptom->image ?>" alt="<?php echo $symptom->name ?>" width="102" height="102" />
+        <div class="image mr-m">
+            <img src="<?php echo $symptom->image ?>" alt="<?php echo $symptom->name ?>" width="102" height="102" />
+        </div>
         <div>
             <h3 class="h200">
                 <?php echo $symptom->name ?>
@@ -16,6 +18,6 @@
     <div class="mt-m p200">
         <?php echo $symptom->content ?>
     </div>
-    <a href="<?php echo $_SERVER['REQUEST_URI'] . '/types/' . $symptom->id ?>" class="mt-m is-hidden-mobile button b200 compact text l10n">Read more</a>
-    <a href="<?php echo $_SERVER['REQUEST_URI'] . '/types/' . $symptom->id ?>" class="mt-m is-hidden-tablet button expand outline l10n">Read more</a>
-</div>
+    <button class="mt-m is-hidden-mobile b200 compact text l10n">Read more</button>
+    <button class="mt-m is-hidden-tablet expand outline l10n">Read more</button>
+</a>
