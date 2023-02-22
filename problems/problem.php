@@ -201,8 +201,10 @@ $related_problems = array(
                                     <div class="column is-half">
                                           <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
                                     </div>
-                                    <div class="column is-half flex-row align-end justify-end">
-                                          <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
+                                    <div class="column is-half flex-row justify-end">
+                                          <div class="mt-xl">
+                                                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
+                                          </div>
                                     </div>
                               </div>
                               <div id="green-header-large-text" class="mt-xxs">
