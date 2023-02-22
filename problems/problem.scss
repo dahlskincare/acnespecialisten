@@ -115,6 +115,10 @@ section#header {
         }
 
         section#types {
+            .type-category-content {
+                color: $dark-400;
+            }
+
             #type-category-buttons {
                 display: flex;
                 flex-wrap: wrap;

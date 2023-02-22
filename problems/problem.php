@@ -42,7 +42,7 @@ $treatment_steps = array(
       new TreatmentStep('Prevent', 'Lorem ipsum dolor sit amet, <a href="#" class="b200 underline">consectetur</a> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'https://www.dahlskincare.com', 'View products'),
 );
 $type_categories = array(
-      new BasedTypeCategory('category-age', 'Based on age', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.', array(
+      new BasedTypeCategory('category-age', 'Based on age', '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>', array(
             new BasedType('adult-acne', 'https://via.placeholder.com/102x102.jpg', 'Adult acne', 'Also called scars stains', '', ''),
             new BasedType('teen-acne', 'https://via.placeholder.com/102x102.jpg', 'Teen acne', 'Also called scars stains', '', ''),
             new BasedType('kids-acne', 'https://via.placeholder.com/102x102.jpg', 'Kids acne', 'Also called scars stains', '', ''),
@@ -308,7 +308,7 @@ $related_problems = array(
                                           <?php foreach ($type_categories as $type_category) { ?>
                                                 <div class="type-category" id="<?php echo $type_category->id ?>">
                                                       <h3 class="h300"><?php echo $type_category->title ?></h3>
-                                                      <div class="mt-xxs"><?php echo $type_category->content ?></div>
+                                                      <div class="mt-xxs type-category-content"><?php echo $type_category->content ?></div>
                                                       <div class="type-category-cards">
                                                             <?php foreach ($type_category->types as $type) {
                                                                   include('widgets/type-card/type-card.php');
@@ -321,7 +321,7 @@ $related_problems = array(
                                           <?php foreach ($type_categories as $type_category) { ?>
                                                 <div class="type-category-large" id="<?php echo $type_category->id ?>">
                                                       <h3 class="h300"><?php echo $type_category->title ?></h3>
-                                                      <div class="mt-xxs"><?php echo $type_category->content ?></div>
+                                                      <div class="mt-xxs type-category-content"><?php echo $type_category->content ?></div>
                                                       <div class="columns is-3 is-variable is-multiline type-category-large-cards">
                                                             <?php foreach ($type_category->types as $type) { ?>
                                                                   <div class="column is-one-third">
