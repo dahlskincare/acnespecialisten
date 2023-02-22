@@ -178,7 +178,7 @@ $problem_areas[] = new ProblemArea('Neck', 'area-face', array('acne', 'acne-scar
                         <div class="columns is-multiline" id="banner-problem-areas">
                               <?php foreach ($problems as $id => $problem) { ?>
                                     <div class="column is-one-fifth is-hidden" data-id="<?php echo $id ?>">
-                                          <a href="javascript:;" onclick="scrollToElement('#card-<?php echo $id ?>')" class="button b200 grey expand l10n"><?php echo $problem->label ?></a>
+                                          <a href="<?php echo $problem->url ?>" class="button b200 grey expand l10n"><?php echo $problem->label ?></a>
                                     </div>
                               <?php } ?>
                         </div>
@@ -190,14 +190,16 @@ $problem_areas[] = new ProblemArea('Neck', 'area-face', array('acne', 'acne-scar
                               <?php foreach ($problems as $id => $problem) { ?>
                                     <div class="column is-one-third">
                                           <div class="problem-area-card" id="card-<?php echo $id ?>">
-                                                <picture>
-                                                      <source media="(max-width: 799px)" srcset="<?php echo $problem->image_medium ?>">
-                                                      <source media="(min-width: 800px)" srcset="<?php echo $problem->image_large ?>">
-                                                      <img src="<?php echo $problem->image_large ?>" alt="<?php echo $problem->label ?>" width="424" height="324" />
-                                                </picture>
+                                                <div class="picture">
+                                                      <picture>
+                                                            <source media="(max-width: 799px)" srcset="<?php echo $problem->image_medium ?>">
+                                                            <source media="(min-width: 800px)" srcset="<?php echo $problem->image_large ?>">
+                                                            <img src="<?php echo $problem->image_large ?>" alt="<?php echo $problem->label ?>" width="424" height="324" />
+                                                      </picture>
+                                                </div>
                                                 <div class="problem-area-card-content">
-                                                      <h3 class="h300">
-                                                            <?php echo $problem->label ?>
+                                                      <h3>
+                                                            <a href="<?php echo $problem->url ?>" class="h300"><?php echo $problem->label ?></a>
                                                       </h3>
                                                       <p class="mt-xs">
                                                             <?php echo $problem->info ?>

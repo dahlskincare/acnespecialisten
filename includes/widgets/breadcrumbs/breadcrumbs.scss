@@ -9,24 +9,23 @@
 
     .segment {
         white-space: nowrap;
-        color: $white-500;
+        color: $white-800;
         margin-right: 6px;
         cursor: pointer;
-        opacity: 0.8;
 
         overflow: hidden;
         text-overflow: ellipsis;
     }
 
-    .segment.active {
-        opacity: 1;
+    .segment:hover {
+        color: $white-500;
     }
 
     .separator {
         width: $xxs;
         height: $xxs;
         border-radius: $xxs;
-        background-color: $white-500;
+        background-color: $white-800;
         margin-right: 6px;
         opacity: 0.8;
 

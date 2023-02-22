@@ -8,6 +8,7 @@ div.consultation-banner-widget {
     border-radius: $radius-s;
     display: block;
     padding: $xl;
+    cursor: pointer;
 
     .columns {
         .column:first-child {
@@ -55,4 +56,8 @@ div.consultation-banner-widget {
         }
 
     }
+}
+
+div.consultation-banner-widget:hover {
+    background: linear-gradient(270.44deg, #219174 0%, $deep-sea-400 100%);
 }
