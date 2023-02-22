@@ -325,7 +325,7 @@ $repair_url = 'treatments/acne';
         </div>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
-    <script src="problems/problem.js"></script>
+    <script src="scripts/floating-image.js"></script>
 </body>
 
 </html>

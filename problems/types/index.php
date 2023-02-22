@@ -311,8 +311,7 @@ $specialists = array(
         </div>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
-    <!-- Floater image logic -->
-    <script src="problems/problem.js"></script>
+    <script src="scripts/floating-image.js"></script>
 </body>
 
 </html>

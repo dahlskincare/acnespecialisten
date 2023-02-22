@@ -132,6 +132,7 @@ $procedures = array(
         </section>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
+    <script src="scripts/floating-image.js"></script>
 </body>
 
 </html>
