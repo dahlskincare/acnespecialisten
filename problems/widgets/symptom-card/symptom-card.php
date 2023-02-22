@@ -16,6 +16,6 @@
     <div class="mt-m p200">
         <?php echo $symptom->content ?>
     </div>
-    <a href="<?php echo $_SERVER['REQUEST_URI'] . '/types/' . $symptom->id ?>" class="mt-m is-hidden-mobile button compact text l10n">Read more</a>
+    <a href="<?php echo $_SERVER['REQUEST_URI'] . '/types/' . $symptom->id ?>" class="mt-m is-hidden-mobile button b200 compact text l10n">Read more</a>
     <a href="<?php echo $_SERVER['REQUEST_URI'] . '/types/' . $symptom->id ?>" class="mt-m is-hidden-tablet button expand outline l10n">Read more</a>
 </div>

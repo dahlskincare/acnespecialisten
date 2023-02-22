@@ -9,8 +9,24 @@
     border-radius: $radius-l;
     @include elevation-low();
 
-    img {
-        border-radius: $radius-s;
+    div.image {
+        position: relative;
+
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: $radius-s;
+        }
+    }
+
+    div.image:after {
+        box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.05);
+        content: '';
+        display: block;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        width: 100%;
     }
 
     .p200 {

@@ -332,11 +332,8 @@ $related_problems = array(
                                                 </div>
                                           <?php } ?>
                                     </div>
-                                    <a href="<?php echo $_SERVER['REQUEST_URI'] . '/types' ?>" class="mt-xl button outline expand l10n is-hidden-tablet">Read more about types</a>
-                                    <a href="<?php echo $_SERVER['REQUEST_URI'] . '/types' ?>" class="mt-xl button outline l10n is-hidden-mobile">
-                                          <span>Read more about types</span>
-                                          <?php icon('link-external'); ?>
-                                    </a>
+                                    <a href="<?php echo $_SERVER['REQUEST_URI'] . '/types' ?>" class="mt-xl button b200 outline expand l10n is-hidden-tablet">Read more about types</a>
+                                    <a href="<?php echo $_SERVER['REQUEST_URI'] . '/types' ?>" class="mt-xl button b200 outline l10n is-hidden-mobile">Read more about types</a>
                               </section>
                         <?php } ?>
                         <?php if (sizeof($symptoms) > 0) { ?>
@@ -430,7 +427,7 @@ $related_problems = array(
                                           ?>
                                     </div>
                               </div>
-                              <a class="button outline l10n" href="results">View all treatment results</a>
+                              <a class="button b200 outline l10n" href="results">View all treatment results</a>
                         </section>
                         <section id="reviews">
                               <div class="flex-row align-end justify-space-between">
@@ -450,24 +447,24 @@ $related_problems = array(
                               $reviews_narrow = true;
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                               ?>
-                              <a class="mt-xl button outline expand auto-width l10n" href="reviews">View all reviews</a>
+                              <a class="mt-xl button b200 outline expand auto-width l10n" href="reviews">View all reviews</a>
                         </section>
                         <section id="faq">
                               <h2 class="big l10n">Questions & answers</h2>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                              <a class="mt-xl button outline expand auto-width l10n" href="faq">View all questions</a>
+                              <a class="mt-xl button b200 outline expand auto-width l10n" href="faq">View all questions</a>
                         </section>
                         <section id="skin-guide">
                               <h2 class="big l10n">Skin guide</h2>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php'); ?>
-                              <a class="mt-xl button outline expand auto-width l10n" href="skin-guide">View all articles</a>
+                              <a class="mt-xl button b200 outline expand auto-width l10n" href="skin-guide">View all articles</a>
                         </section>
                         <section id="specialists">
                               <h2 class="big l10n">Our specialists</h2>
                               <?php
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
                               ?>
-                              <a class="mt-xl button outline expand auto-width l10n" href="specialists">View all specialists</a>
+                              <a class="mt-xl button b200 outline expand auto-width l10n" href="specialists">View all specialists</a>
                         </section>
                         <section id="related-problems">
                               <h2 class="big l10n">Related problems</h2>
@@ -483,7 +480,7 @@ $related_problems = array(
                   <section id="brands">
                         <h2 class="big l10n">Brands we use</h2>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                        <a class="mt-xl button outline expand auto-width l10n" href="brands">View all brands</a>
+                        <a class="mt-xl button b200 outline expand auto-width l10n" href="brands">View all brands</a>
                   </section>
             </div>
       </main>
