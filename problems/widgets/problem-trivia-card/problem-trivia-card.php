@@ -3,17 +3,15 @@
         <span class="trivia-prefix"><?php echo $trivia->prefix ?></span><span><?php echo $trivia->title ?></span>
     </h3>
     <?php if (sizeof($trivia->icons) > 0) { ?>
-        <div class="mt-m">
-            <div class="columns is-gapless is-mobile is-multiline">
-                <?php foreach ($trivia->icons as $icon => $label) { ?>
-                    <div class="column is-one-fifth-tablet is-half-mobile trivia-icon">
-                        <?php
-                        icon($icon);
-                        echo '<span>' . $label . '</span>';
-                        ?>
-                    </div>
-                <?php } ?>
-            </div>
+        <div class="flex-row">
+            <?php foreach ($trivia->icons as $icon => $label) { ?>
+                <div class="trivia-icon">
+                    <?php
+                    icon($icon);
+                    echo '<span>' . $label . '</span>';
+                    ?>
+                </div>
+            <?php } ?>
         </div>
     <?php } ?>
     <div class="p200 mt-m">
