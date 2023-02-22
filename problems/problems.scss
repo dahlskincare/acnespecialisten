@@ -20,52 +20,70 @@ section#banner {
         }
     }
 
-    /*
-    #banner-problem-area-filters {
-        margin-top: $m;
-        border-radius: $radius-l;
-        border: 1px solid $light-200;
+    #filters-touch-container {
+        overflow-x: scroll;
+        //margin-right: -$m;
+        padding-bottom: $m;
 
-        .banner-problem-area {
+        #filters-touch {
+            border: 1px solid $light-200;
+            border-radius: $radius-l;
             background-color: $white-500;
-            height: 96px;
-            box-sizing: border-box;
-            flex: 1 0 25%;
-            border-left: 1px solid $light-200;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            user-select: none;
-            box-sizing: border-box;
+            @include elevation-medium();
 
-            img {
-                transition: transform 200ms ease;
+            display: inline-flex;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+
+            #filters-touch::-webkit-scrollbar {
+                width: 0;
+                height: 0;
             }
 
-            div {
-                text-transform: capitalize;
-                margin-top: $xs;
-                color: $deep-sea-500;
+
+            .filter-item {
+                padding: 17.5px 0;
+                //flex: 1 0 104px;
+                flex: 1;
+                width: 104px;
+                text-align: center;
+                cursor: pointer;
+                border-left: 1px solid $light-200;
+
+                .icon {
+                    width: $xxl;
+                    height: $xxl;
+                }
+
+                .filter-item-label {
+                    margin-top: $xs;
+                    color: $deep-sea-500;
+                }
+            }
+
+            .filter-item:not(.highlight):hover {
+                .filter-item-label {
+                    color: $deep-sea-300;
+                }
+            }
+
+            .filter-item.highlight {
+                background-color: $light-25;
+
+                .filter-item-label {
+                    color: $black-500;
+                }
+            }
+
+            .filter-item:first-child {
+                border-left: 1px solid transparent;
             }
         }
+    }
 
-        .banner-problem-area.highlight {
-            background-color: $light-25;
-
-            div {
-                color: $black-500;
-            }
-        }
-
-        .banner-problem-area:first-child {
-            border-left: 0;
-        }
-    }*/
 
     #banner-problem-areas {
-        margin-top: $xxs;
+        margin-top: $xl - $m;
 
         .button {
             margin-top: $xxs;
@@ -129,8 +147,6 @@ section#banner {
                 padding-left: $xl*2;
                 right: 0;
             }
-
-
 
             .filter-item {
                 padding: 17.5px 0;

@@ -135,11 +135,25 @@ $problem_areas[] = new ProblemArea('Neck', 'area-face', array('acne', 'acne-scar
                               </div>
                         </div>
                   </div>
-                  <div class="container">
-                        <div class="mt-m is-hidden-desktop">
+                  <div class="mt-m is-hidden-desktop">
+                        <div class="container">
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
                         </div>
-                        <div id="filters-desktop" class="mt-m is-hidden-touch">
+                        <div class="container" id="filters-touch-container">
+                              <div id="filters-touch" class="mt-m">
+                                    <?php foreach ($problem_areas as $problem_area) { ?>
+                                          <div class=" filter-item" onclick="showProblems('<?php echo join(',', $problem_area->problem_ids) ?>'); highlight(this); ">
+                                                <?php icon($problem_area->icon) ?>
+                                                <div class="b100 filter-item-label l10n">
+                                                      <?php echo $problem_area->label ?>
+                                                </div>
+                                          </div>
+                                    <?php } ?>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="container">
+                        <div id="filters-desktop" class="is-hidden-touch">
                               <div id="filter-items">
                                     <?php foreach ($problem_areas as $problem_area) { ?>
                                           <div class="filter-item" onclick="showProblems('<?php echo join(',', $problem_area->problem_ids) ?>'); highlight(this); ">
