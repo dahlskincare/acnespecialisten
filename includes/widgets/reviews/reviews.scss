@@ -69,7 +69,14 @@
                 box-shadow: none;
                 height: 310px;
                 box-sizing: border-box;
+            }
+
+            .review-box-quarter {
                 flex: 1 0 25%;
+            }
+
+            .review-box-half {
+                flex: 1 0 50%;
             }
 
             .review-box:first-child {
