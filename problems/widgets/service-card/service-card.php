@@ -29,7 +29,7 @@
         <a href="services/<?php echo $service->id ?>" class="mt-m button outline expand l10n">Read more</a>
         <hr />
         <?php if (isset($service->consultation_url)) { ?>
-            <a href="<?php echo $service->consultation_url ?>" target="_blank" class="mt-m button expand l10n">Get a free consultation</a>
+            <a href="<?php echo $service->consultation_url ?>" target="_blank" class="mt-xl button expand l10n">Get a free consultation</a>
         <?php } ?>
         <?php if (isset($service->booking_url)) { ?>
             <a href="<?php echo $service->booking_url ?>" target="_blank" class="mt-s button expand l10n">Book a procedure</a>
@@ -64,7 +64,7 @@
             </div>
             <div class="ml-xl buttons">
                 <?php if (isset($service->consultation_url)) { ?>
-                    <a href="<?php echo $service->consultation_url ?>" target="_blank" class="mt-m button expand l10n">Get a free consultation</a>
+                    <a href="<?php echo $service->consultation_url ?>" target="_blank" class="button expand l10n">Get a free consultation</a>
                 <?php } ?>
                 <?php if (isset($service->booking_url)) { ?>
                     <a href="<?php echo $service->booking_url ?>" target="_blank" class="mt-s button expand l10n">Book a procedure</a>

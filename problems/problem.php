@@ -311,7 +311,7 @@ $related_problems = array(
                                     <div class="is-hidden-tablet">
                                           <div class="mt-m mb-xxl" id="type-category-buttons">
                                                 <?php foreach ($type_categories as $type_category) { ?>
-                                                      <a href=" javascript:;" onclick="scrollToElement('#<?php echo $type_category->id ?>')" class="button grey">
+                                                      <a href=" javascript:;" onclick="scrollToElement('#<?php echo $type_category->id ?>')" class="button b50 grey">
                                                             <?php echo $type_category->title ?>
                                                       </a>
                                                 <?php } ?>
@@ -357,7 +357,7 @@ $related_problems = array(
                                     </h2>
                                     <div class="mt-m is-hidden-tablet" id="symptom-buttons">
                                           <?php foreach ($symptoms as $symptom) { ?>
-                                                <a href="javascript:;" onclick="scrollToElement('#<?php echo $symptom->id ?>')" class="button grey">
+                                                <a href="javascript:;" onclick="scrollToElement('#<?php echo $symptom->id ?>')" class="button b50 grey">
                                                       <?php echo $symptom->name ?>
                                                 </a>
                                           <?php } ?>

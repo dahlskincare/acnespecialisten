@@ -21,7 +21,7 @@
         <span class="l10n">Read more</span>
         <?php icon('arrow-down') ?>
     </button>
-    <button class="mt-m grey b200 expand is-hidden-tablet" onclick="showExtendedContent(this)">
+    <button class="mt-m grey b100 expand is-hidden-tablet" onclick="showExtendedContent(this)">
         <span class="l10n">Read more</span>
         <?php icon('arrow-down') ?>
     </button>
