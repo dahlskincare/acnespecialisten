@@ -25,9 +25,15 @@ section#banner {
         background-image: url("images/banner-mobile.jpg");
         background-size: cover;
         background-position: center center;
+        position: relative;
 
         video {
-            display: none;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            display: block;
+            top: 50%;
+            transform: translateY(-50%);
         }
 
         h1.big {
@@ -117,15 +123,6 @@ section#banner {
             padding: 0;
             display: flex;
             align-items: flex-end;
-
-            video {
-                position: absolute;
-                top: 0;
-                width: 100%;
-                display: block;
-                padding-top: 50%;
-                transform: translateY(-50%);
-            }
 
             .container {
                 padding-bottom: 106px;
