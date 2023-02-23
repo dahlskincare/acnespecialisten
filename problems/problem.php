@@ -106,9 +106,9 @@ $specialists = array(
       new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-1.jpg', 'images/specialists/large/specialist-4.jpg'),
 );
 $related_problems = array(
-      new RelatedProblem('acne', 'Acne', 'scars stains', 'images/problems/small/acne.jpg'),
-      new RelatedProblem('acne', 'Acne', 'scars stains', 'images/problems/small/acne.jpg'),
-      new RelatedProblem('acne', 'Acne', 'scars stains', 'images/problems/small/acne.jpg'),
+      new RelatedProblem('acne', 'Acne', 'scars stains', 'https://via.placeholder.com/102x102.webp'),
+      new RelatedProblem('acne', 'Acne', 'scars stains', 'https://via.placeholder.com/102x102.webp'),
+      new RelatedProblem('acne', 'Acne', 'scars stains', 'https://via.placeholder.com/102x102.webp'),
 );
 ?>
 
@@ -489,9 +489,15 @@ $related_problems = array(
                         </section>
                   </div>
                   <section id="brands">
-                        <h2 class="big l10n">Brands we use</h2>
+                        <div class="flex-row align-end justify-space-between">
+                              <h2 class="big l10n">Brands we use</h2>
+                              <a href="brands" class="button compact text is-hidden-mobile">
+                                    <span class="l10n">View all brands</span>
+                                    <?php icon('navigate-next') ?>
+                              </a>
+                        </div>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                        <a class="mt-xl button b200 outline expand auto-width l10n" href="brands">View all brands</a>
+                        <a class="mt-xl button b200 outline expand auto-width is-hidden-desktop l10n" href="brands">View all brands</a>
                   </section>
             </div>
       </main>

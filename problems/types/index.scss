@@ -133,6 +133,12 @@ section#header {
         }
     }
 
+    section#brands {
+        position: relative;
+        z-index: 2;
+        background-color: $white-500;
+    }
+
     section.based,
     section#approach,
     section#results,

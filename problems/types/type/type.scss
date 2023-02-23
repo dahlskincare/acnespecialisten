@@ -227,6 +227,12 @@ section#header {
             max-width: 750px;
         }
 
+        section#brands {
+            position: relative;
+            z-index: 2;
+            background-color: $white-500;
+        }
+
         section#about,
         section#approach,
         section#areas,

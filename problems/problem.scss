@@ -268,7 +268,10 @@ section#header {
     }
 
     section#brands {
+        position: relative;
         margin-top: 72px;
+        z-index: 2;
+        background-color: $white-500;
 
         @media screen and (min-width: $tablet) {
             margin-top: $xl5 + $xs;

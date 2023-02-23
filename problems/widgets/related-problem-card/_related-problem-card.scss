@@ -8,13 +8,28 @@
     border-radius: $radius-l;
     display: flex;
     align-items: center;
-    @include elevation-low();
+    transition: box-shadow 300ms ease;
 
-    img {
-        width: 102px;
-        height: auto;
+    div.image {
+        font-size: 0;
+        position: relative;
         border-radius: $radius-s;
         overflow: hidden;
+
+        img {
+            width: 102px;
+            height: auto;
+        }
+    }
+
+    div.image:after {
+        box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.05);
+        content: '';
+        display: block;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        width: 100%;
     }
 
     .text {
@@ -22,6 +37,7 @@
 
         h3 {
             @include h200;
+            transition: color 300ms ease;
         }
 
         div.aka {
@@ -29,6 +45,16 @@
                 @include p200;
                 color: $dark-200;
             }
+        }
+    }
+}
+
+.related-problem-card-widget:hover {
+    @include elevation-low();
+
+    .text {
+        h3 {
+            color: $deep-sea-400;
         }
     }
 }
