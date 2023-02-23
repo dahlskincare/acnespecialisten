@@ -146,7 +146,7 @@ $related_problems = array(
                                     <h2 class="h600">
                                           <?php echo $title ?>
                                     </h2>
-                                    <p class="mt-m aka">
+                                    <div class="mt-m aka">
                                           <span class="p200 l10n">Also known as</span>
                                           <?php
                                           $length = sizeof(($akas));
@@ -162,15 +162,15 @@ $related_problems = array(
                                                 }
                                                 ?>
                                           <?php } ?>
-                                    <div class="mt-xl columns is-2 is-variable">
-                                          <div class="column">
-                                                <a href="https://www.dahlskincare.com/skin-consultation" target="_blank" class="button white expand l10n">Get a free consultation</a>
-                                          </div>
-                                          <div class="column">
-                                                <a href="<?php echo $booking_url ?>" target="_blank" class="button white expand l10n">Book a treatment</a>
+                                          <div class="mt-xl columns is-2 is-variable">
+                                                <div class="column">
+                                                      <a href="https://www.dahlskincare.com/skin-consultation" target="_blank" class="button white expand l10n">Get a free consultation</a>
+                                                </div>
+                                                <div class="column">
+                                                      <a href="<?php echo $booking_url ?>" target="_blank" class="button white expand l10n">Book a treatment</a>
+                                                </div>
                                           </div>
                                     </div>
-                                    </p>
                               </div>
                         </div>
                   </div>
@@ -184,16 +184,16 @@ $related_problems = array(
                               <h1 class="mt-xs h600">
                                     <?php echo $title ?>
                               </h1>
-                              <h3 class="mt-xs p200 l10n">Also known as</h3>
+                              <h3 class="mt-xs p100 l10n">Also known as</h3>
                               <?php foreach ($akas as $key => $aka) { ?>
                                     <div>
-                                          <a href="glossary?keyword=<?php echo $key ?>" class="mt-xs button bright">
+                                          <a href="glossary?keyword=<?php echo $key ?>" class="mt-xs button b50 bright">
                                                 <?php echo $aka ?>
                                           </a>
                                     </div>
                               <?php } ?>
                               <hr class="mt-xl" />
-                              <p class="mt-m">
+                              <p class="mt-m p200">
                                     <?php echo $description ?>
                               </p>
                               <div class="mt-xl columns is-mobile">
@@ -254,10 +254,10 @@ $related_problems = array(
             </section>
             <div class="container">
                   <div id="content">
-                        <section id="badges" class="mt-m is-hidden-desktop">
+                        <section id="badges" class="is-hidden-desktop mt-s mb-s">
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
                         </section>
-                        <section id="image" class="mt-m is-hidden-desktop">
+                        <section id="image" class="is-hidden-desktop">
                               <picture>
                                     <source media="(max-width: 449px)" srcset="<?php echo $image_small ?>">
                                     <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
