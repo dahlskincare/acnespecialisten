@@ -181,3 +181,21 @@ class Question
     public $title;
     public $text;
 }
+
+class SkinGuideArticle
+{
+    public function __construct($title, $category, $url, $image_small, $image_large)
+    {
+        $this->title = $title;
+        $this->category = $category;
+        $this->url = $url;
+        $this->image_small = $image_small;
+        $this->image_large = $image_large;
+    }
+
+    public $title;
+    public $category;
+    public $url;
+    public $image_small;
+    public $image_large;
+}

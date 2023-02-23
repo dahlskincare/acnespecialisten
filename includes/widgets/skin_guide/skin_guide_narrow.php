@@ -13,9 +13,9 @@ if (!isset($skin_guide_articles)) {
 ?>
 
 <div class="skin-guide-widget">
-    <div class="columns is-3 is-variable">
+    <div class="columns is-2 is-variable">
         <?php foreach ($skin_guide_articles as $article) { ?>
-            <div class="column is-one-quarter">
+            <div class="column is-one-third">
                 <a href="<?php echo $article->url ?>" class="skin-guide-article">
                     <div class="image-container">
                         <picture>
