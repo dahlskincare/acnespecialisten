@@ -8,6 +8,7 @@
 
     .faq-large-left {
         width: 312px;
+        margin-right: $xl;
 
         .faq-category {
             display: flex;
@@ -43,7 +44,6 @@
     }
 
     .faq-large-right {
-        margin-left: $xl;
         flex: 1;
 
         .faq-question {

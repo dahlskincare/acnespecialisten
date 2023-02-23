@@ -169,3 +169,15 @@ class Product
     public string $image_small;
     public string $image_large;
 }
+
+
+class Question
+{
+    public function __construct($title, $text)
+    {
+        $this->title = $title;
+        $this->text = $text;
+    }
+    public $title;
+    public $text;
+}
