@@ -367,9 +367,9 @@ $related_problems = array(
                                           <?php echo $title ?>
                                     </span>
                               </h2>
-                              <hr class="is-hidden-mobile mt-xl mb-xxl">
+                              <hr class="is-hidden-mobile">
                               <?php include('widgets/service-card/service-card.php') ?>
-                              <hr class="is-hidden-mobile mt-xxl">
+                              <hr class="is-hidden-mobile">
                         </section>
                         <section id="treatments">
                               <h2>
@@ -378,10 +378,10 @@ $related_problems = array(
                                     </span>
                                     <span class="h500 l10n">treatment solution</span>
                               </h2>
-                              <hr class="is-hidden-mobile mt-xl mb-xxl">
+                              <hr class="is-hidden-mobile mt-xl">
                               <?php foreach ($services as $service) { ?>
                                     <?php include('widgets/service-card/service-card.php'); ?>
-                                    <hr class="is-hidden-mobile mt-xxl mb-xxl">
+                                    <hr class="is-hidden-mobile mb-xxl">
                               <?php } ?>
                         </section>
                         <section id="articles">

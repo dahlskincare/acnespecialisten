@@ -167,9 +167,14 @@ section#header {
 
             @media screen and (min-width: $tablet) {
 
+                h2 {
+                    margin-bottom: $xl;
+                }
+
                 hr {
                     border: none;
                     border-top: 1px solid $light-200;
+                    margin: 0;
                 }
             }
         }
@@ -178,9 +183,14 @@ section#header {
 
             @media screen and (min-width: $tablet) {
 
+                h2 {
+                    margin-bottom: $xl;
+                }
+
                 hr {
                     border: none;
                     border-top: 1px solid $light-200;
+                    margin: 0;
                 }
             }
         }
