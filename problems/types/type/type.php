@@ -294,13 +294,13 @@ $specialists = array(
                     </section>
                     <section id="skin-guide">
                         <h2 class="big l10n">Skin guide</h2>
-                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php'); ?>
+                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide_narrow.php'); ?>
                         <a class="mt-xl button outline expand auto-width l10n" href="skin-guide">View all articles</a>
                     </section>
                     <section id="specialists">
                         <h2 class="big l10n">Our specialists</h2>
                         <?php
-                        include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
+                        include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php');
                         ?>
                         <a class="mt-xl button outline expand auto-width l10n" href="specialists">View all specialists</a>
                     </section>
