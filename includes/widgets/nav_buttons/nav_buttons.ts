@@ -1,4 +1,4 @@
-if (document.body.clientWidth > 800) {
+if (document.body.clientWidth >= 1024) {
     let _scrollStep = 200;
     let _widget = document.querySelector('.nav-buttons-widget');
     let _carousel = _widget.querySelector('#nav-buttons-carousel');
@@ -33,7 +33,10 @@ if (document.body.clientWidth > 800) {
         });
     }
 } else {
+    // small screen
     let header = document.querySelector('header') as HTMLElement;
     header.style.position = 'relative';
+
+
 
 }
