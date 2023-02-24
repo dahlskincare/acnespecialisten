@@ -12,7 +12,6 @@ function onScroll(event) {
     if (distanceToBottom - offset < _picture.offsetHeight) {
         _floater.classList.add('attached-bottom');
         _floater.style.top = "".concat(document.body.offsetHeight - offset - _picture.offsetHeight, "px");
-        //`${ _brands.getBoundingClientRect().top + window.scrollY - brandsMargin - _picture.clientHeight } px`;
     }
     else {
         _floater.style.top = null;
