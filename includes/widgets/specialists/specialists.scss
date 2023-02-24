@@ -38,6 +38,11 @@
     }
 
     .specialists-large {
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+
         img {
             width: 100%;
             height: auto;
@@ -54,5 +59,10 @@
             @include p200;
             color: $dark-200;
         }
+    }
+
+    .specialists-large::-webkit-scrollbar {
+        width: 0;
+        height: 0;
     }
 }

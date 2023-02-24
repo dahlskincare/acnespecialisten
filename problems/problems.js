@@ -58,7 +58,6 @@ if (window.document.body.clientWidth > 800) {
         else {
             buttonPrevious_1.classList.add('is-hidden');
         }
-        //console.log(filterItems.scrollLeft);
     });
     buttonPrevious_1.addEventListener('click', function () {
         filterItems_1.scrollBy(-133, 0);
@@ -68,7 +67,6 @@ if (window.document.body.clientWidth > 800) {
     });
     if (filterItems_1.scrollWidth > filterItems_1.clientWidth) {
         buttonNext_1.classList.remove('is-hidden');
-        // initialize buttons
     }
 }
 showProblems('ALL');

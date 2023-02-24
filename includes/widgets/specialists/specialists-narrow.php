@@ -16,9 +16,9 @@
             </div>
         <?php } ?>
     </div>
-    <div class="specialists-large columns is-3 is-variable is-hidden-mobile">
+    <div class="specialists-large columns is-2 is-variable is-hidden-mobile">
         <?php foreach ($specialists as $specialist) { ?>
-            <div class="column is-one-quarter">
+            <div class="column is-one-third">
                 <div class="specialist">
                     <picture>
                         <source media="(max-width: 799px)" srcset="<?php echo $specialist->image_small ?>">
@@ -36,6 +36,7 @@
         <?php } ?>
     </div>
 </div>
+
 <script>
     function scrollSpecialists(distance) {
         let container = document.querySelector('.specialists-large');

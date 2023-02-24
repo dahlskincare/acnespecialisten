@@ -63,8 +63,6 @@ if (window.document.body.clientWidth > 800) {
         } else {
             buttonPrevious.classList.add('is-hidden');
         }
-
-        //console.log(filterItems.scrollLeft);
     });
 
     buttonPrevious.addEventListener('click', () => {
@@ -78,8 +76,6 @@ if (window.document.body.clientWidth > 800) {
 
     if (filterItems.scrollWidth > filterItems.clientWidth) {
         buttonNext.classList.remove('is-hidden');
-
-        // initialize buttons
     }
 }
 

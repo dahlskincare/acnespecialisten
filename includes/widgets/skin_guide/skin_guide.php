@@ -1,5 +1,4 @@
 <?php
-
 if (!isset($skin_guide_articles)) {
     $skin_guide_articles = array(
         new SkinGuideArticle('How hormones affect?', 'Problem skin', 'skin-guide/hormones-effect', 'images/skin-guide/small/hormones.jpg', 'images/skin-guide/large/hormones.jpg'),
@@ -8,8 +7,6 @@ if (!isset($skin_guide_articles)) {
         new SkinGuideArticle('Skin care tips dermatologists use', 'Problem skin', 'skin-guide/skin-care-tips', 'images/skin-guide/small/tips.jpg', 'images/skin-guide/large/tips.jpg')
     );
 }
-
-
 ?>
 
 <div class="skin-guide-widget">
@@ -40,3 +37,10 @@ if (!isset($skin_guide_articles)) {
 
     </div>
 </div>
+<script>
+    function scrollSkinGuide(distance) {
+        let widget = document.querySelector('.skin-guide-widget');
+        let item = widget.querySelector('.column');
+        widget.scrollBy(distance * item.getBoundingClientRect().width, 0);
+    }
+</script>
