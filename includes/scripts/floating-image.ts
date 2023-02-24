@@ -1,17 +1,25 @@
 window.addEventListener('scroll', onScroll, { passive: true });
-let _floater = document.querySelector("#floater");
-let _picture = _floater.querySelector('#floating-picture');
-let _footerLarge = document.querySelector('#footer-large');
+let _floater = document.querySelector("#floater") as HTMLElement;
+let _picture = _floater.querySelector('#floating-picture') as HTMLElement;
+let _footerLarge = document.querySelector('#footer-large') as HTMLElement;
+let _brands = document.querySelector('#brands') as HTMLElement;
 
 function onScroll(event: Event) {
-    let distanceToBottom = document.documentElement.scrollHeight - document.documentElement.clientHeight - document.documentElement.scrollTop;
+    const brandsMargin = 88;
+    const footerMargin = 104;
+    const headerOffset = -86;
+    let distanceToBottom = document.documentElement.scrollHeight + headerOffset - document.documentElement.scrollTop;
+    let offset = _footerLarge.offsetHeight + footerMargin + _brands.offsetHeight + brandsMargin;
 
-    /// +250 to include brands
-    if (distanceToBottom - _footerLarge.clientHeight < -0.5 * _picture.clientHeight + 350) {
-        _picture.classList.add('hidden');
+    if (distanceToBottom - offset < _picture.offsetHeight) {
+        _floater.classList.add('attached-bottom');
+        _floater.style.top = `${document.body.offsetHeight - offset - _picture.offsetHeight}px`;
+
+        //`${ _brands.getBoundingClientRect().top + window.scrollY - brandsMargin - _picture.clientHeight } px`;
     }
     else {
-        _picture.classList.remove('hidden');
+        _floater.style.top = null;
+        _floater.classList.remove('attached-bottom');
     }
 
     if (document.documentElement.scrollTop > 0) {

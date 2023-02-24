@@ -8,7 +8,6 @@ div#floater {
     top: $xl5 + 72px; /// 72px: height of navbar
     z-index: 1;
 
-    transition: top 500ms ease;
 
     div.container {
         text-align: right;
@@ -21,7 +20,7 @@ div#floater {
             overflow: hidden;
             @include elevation-low();
             transform-origin: center left;
-            transition: filter 0.5s ease, opacity 0.5s ease;
+            transition: filter 0.5s ease;
             border-radius: $radius-l;
 
             flex-direction: column;
@@ -53,11 +52,11 @@ div#floater {
             }
 
         }
-
-        div#floating-picture.hidden {
-            opacity: 0;
-        }
     }
+}
+
+div#floater.transition {
+    //   transition: top 500ms ease;
 }
 
 div#floater.detached {
@@ -74,4 +73,9 @@ div#floater.detached {
             }
         }
     }
+}
+
+div#floater.attached-bottom {
+    position: absolute;
+    width: 100%;
 }

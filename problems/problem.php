@@ -145,7 +145,7 @@ $related_problems = array(
 
 <body>
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
-      <div class="is-hidden-touch is-hidden-desktop-only" id="floater">
+      <div class="is-hidden-touch is-hidden-desktop-only transition" id="floater">
             <div class="container">
                   <div id="floating-picture" style="background-image: url('<?php echo $floating_image ?>')">
                         <div id="overlay">
