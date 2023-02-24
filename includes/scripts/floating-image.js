@@ -1,9 +1,12 @@
-window.addEventListener('scroll', _onScroll, { passive: true });
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.onScroll = void 0;
+window.addEventListener('scroll', onScroll, { passive: true });
 var _floater = document.querySelector("#floater");
 var _picture = _floater.querySelector('#floating-picture');
 var _footerLarge = document.querySelector('#footer-large');
 var _brands = document.querySelector('#brands');
-function _onScroll(event) {
+function onScroll(event) {
     var brandsMargin = 88;
     var footerMargin = 104;
     var headerOffset = -86;
@@ -24,4 +27,5 @@ function _onScroll(event) {
         _floater.classList.remove('detached');
     }
 }
+exports.onScroll = onScroll;
 //# sourceMappingURL=floating-image.js.map

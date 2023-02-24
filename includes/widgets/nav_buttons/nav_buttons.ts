@@ -39,9 +39,9 @@ if (document.body.clientWidth >= 1024) {
 }
 
 
-window.addEventListener('scroll', _onScroll, { passive: true });
+window.addEventListener('scroll', onScroll, { passive: true });
 
 
-function _onScroll(event: Event) {
+export function onScroll(event: Event) {
     console.log(event);
 }

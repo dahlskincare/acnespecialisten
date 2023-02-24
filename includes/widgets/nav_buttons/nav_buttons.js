@@ -1,3 +1,6 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.onScroll = void 0;
 if (document.body.clientWidth >= 1024) {
     var _scrollStep_1 = 200;
     var _widget = document.querySelector('.nav-buttons-widget');
@@ -37,8 +40,9 @@ else {
     var header = document.querySelector('header');
     header.style.position = 'relative';
 }
-window.addEventListener('scroll', _onScroll, { passive: true });
-function _onScroll(event) {
+window.addEventListener('scroll', onScroll, { passive: true });
+function onScroll(event) {
     console.log(event);
 }
+exports.onScroll = onScroll;
 //# sourceMappingURL=nav_buttons.js.map
