@@ -40,22 +40,6 @@ namespace NavButtons {
         header.style.position = 'relative';
     }
 
-    /*
-    window.addEventListener('scroll', evaluateActiveButton, { passive: true });
-    function evaluateActiveButton() {
-        for (var i = 0; i < _carousel.children.length; i++) {
-            let id = (_carousel.children[i] as HTMLElement).dataset['id'];
-            let t = document.querySelector(`#${id}`) as HTMLElement;
-            if (t != undefined) {
-                if (document.scrollingElement.scrollTop >= window.scrollY + t.getBoundingClientRect().top) {
-                    setActive(_carousel.children[i]);
-                }
-            }
-        }
-    }
-    */
-
-
     export function setActive(button: HTMLElement) {
         let target = document.querySelector(`#${button.dataset['id']}`);
         let offset = document.body.clientWidth >= 1024 ? 150 : 72;
