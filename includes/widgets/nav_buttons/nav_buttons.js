@@ -37,4 +37,8 @@ else {
     var header = document.querySelector('header');
     header.style.position = 'relative';
 }
+window.addEventListener('scroll', _onScroll, { passive: true });
+function _onScroll(event) {
+    console.log(event);
+}
 //# sourceMappingURL=nav_buttons.js.map

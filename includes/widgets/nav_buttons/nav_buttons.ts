@@ -36,7 +36,12 @@ if (document.body.clientWidth >= 1024) {
     // small screen
     let header = document.querySelector('header') as HTMLElement;
     header.style.position = 'relative';
+}
 
 
+window.addEventListener('scroll', _onScroll, { passive: true });
 
+
+function _onScroll(event: Event) {
+    console.log(event);
 }

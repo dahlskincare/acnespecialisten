@@ -1,9 +1,9 @@
-window.addEventListener('scroll', onScroll, { passive: true });
+window.addEventListener('scroll', _onScroll, { passive: true });
 var _floater = document.querySelector("#floater");
 var _picture = _floater.querySelector('#floating-picture');
 var _footerLarge = document.querySelector('#footer-large');
 var _brands = document.querySelector('#brands');
-function onScroll(event) {
+function _onScroll(event) {
     var brandsMargin = 88;
     var footerMargin = 104;
     var headerOffset = -86;
