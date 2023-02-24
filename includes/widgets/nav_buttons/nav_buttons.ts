@@ -1,5 +1,4 @@
 if (document.body.clientWidth > 800) {
-
     let _scrollStep = 200;
     let _widget = document.querySelector('.nav-buttons-widget');
     let _carousel = _widget.querySelector('#nav-buttons-carousel');
@@ -33,4 +32,8 @@ if (document.body.clientWidth > 800) {
             }
         });
     }
+} else {
+    let header = document.querySelector('header') as HTMLElement;
+    header.style.position = 'relative';
+
 }

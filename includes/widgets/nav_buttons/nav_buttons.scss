@@ -4,10 +4,11 @@
 
 section#nav-buttons {
     position: sticky;
-    background-color: white;
     z-index: 2;
+    top: 0;
 
     .nav-buttons-widget {
+        background-color: $white-500;
         border-bottom: 1px solid $light-200;
         padding-top: $l;
         position: relative;

@@ -32,4 +32,8 @@ if (document.body.clientWidth > 800) {
         });
     }
 }
+else {
+    var header = document.querySelector('header');
+    header.style.position = 'relative';
+}
 //# sourceMappingURL=nav_buttons.js.map
