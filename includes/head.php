@@ -54,12 +54,11 @@ function icon($name)
                   carousel.scrollLeft += (child.getBoundingClientRect().width + offset);
             }
       }
-      /// Scroll the window to a selector, taking the navbar height into consideration
-      var scrollToElement = (selector) => {
+      /// Scroll the window to a selector, 72: navbar height
+      var scrollToElement = (selector, offset = 72) => {
             var element = document.querySelector(selector);
             let box = element.getBoundingClientRect();
-            /// 72: navbar height
-            window.scrollTo(0, box.top + window.scrollY - 72);
+            window.scrollTo(0, box.top + window.scrollY - offset);
       }
 </script>
 
