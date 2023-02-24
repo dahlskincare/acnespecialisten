@@ -162,22 +162,24 @@
                         </span>
                     </div>
                 </div>
-                <a href="https://www.dahlskincare.com/skin-consultation" id="consultation-button" target="_blank" class="button expand l10n">
-                    Get a free consultation
-                </a>
-                <div id="legends">
-                    <div>
-                        <?php icon("trustpilot") ?>
-                        <strong>4.8</strong>
-                        <span class="l10n">Trustpilot score</span>
-                    </div>
-                    <div>
-                        <strong>30+</strong>
-                        <span class="l10n">years</span>
-                    </div>
-                    <div>
-                        <strong>200k+</strong>
-                        <span class="l10n">clients</span>
+                <div id="footer-consultation-button-container">
+                    <a href="https://www.dahlskincare.com/skin-consultation" id="consultation-button" target="_blank" class="button expand l10n">
+                        Get a free consultation
+                    </a>
+                    <div id="legends">
+                        <div>
+                            <?php icon("trustpilot") ?>
+                            <strong>4.8</strong>
+                            <span class="l10n">Trustpilot score</span>
+                        </div>
+                        <div>
+                            <strong>30+</strong>
+                            <span class="l10n">years</span>
+                        </div>
+                        <div>
+                            <strong>200k+</strong>
+                            <span class="l10n">clients</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -409,3 +411,27 @@
             </div>
         </div>
 </footer>
+
+<script>
+    if (document.body.clientWidth <= 800) {
+        var header = document.querySelector('.sticky-badges-target');
+        if (header != undefined) {
+            var offset_1 = header.offsetTop + header.offsetHeight;
+            window.addEventListener('scroll', setSticky, {
+                passive: true
+            });
+
+            function setSticky() {
+                var flag = window.scrollY > offset_1;
+                var container = document.querySelector('#footer-consultation-button-container');
+                if (flag == true) {
+                    container.classList.add('fixed');
+                    document.body.style.paddingBottom = "".concat(container.offsetHeight, "px");
+                } else {
+                    container.classList.remove('fixed');
+                    document.body.style.paddingBottom = null;
+                }
+            }
+        }
+    }
+</script>

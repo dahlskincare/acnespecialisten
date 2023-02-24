@@ -112,6 +112,7 @@ html {
                     background-color: $deep-sea-400;
                     padding: $xl3 0;
 
+
                     a.button {
                         margin-top: $xl;
                     }
@@ -223,17 +224,35 @@ html {
                         }
                     }
 
-                    #consultation-button {
-                        margin-top: $xl3;
+                    #footer-consultation-button-container {
+                        background-color: $white-500;
+                        box-sizing: border-box;
+
+                        #consultation-button {
+                            margin-top: $xl3;
+                        }
+
+                        #legends {
+                            margin-top: $s;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            @include p100;
+                        }
                     }
 
-                    #legends {
-                        margin-top: $s;
-                        display: flex;
-                        align-items: center;
-                        justify-content: space-between;
-                        @include p100;
+                    #footer-consultation-button-container.fixed {
+                        position: fixed;
+                        left: 0;
+                        bottom: 0;
+                        padding: $s $m $m $m;
+                        width: 100%;
+
+                        #consultation-button {
+                            margin-top: 0;
+                        }
                     }
+
                 }
             }
 

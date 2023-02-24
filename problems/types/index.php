@@ -126,7 +126,7 @@ $specialists = array(
         </div>
     </div>
     <main>
-        <section id="header">
+        <section id="header" class="sticky-badges-target">
             <div id="green-header-small" class="is-hidden-desktop">
                 <div class="container">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>

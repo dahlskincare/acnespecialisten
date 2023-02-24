@@ -86,7 +86,7 @@ $problem_areas[] = new ProblemArea('Neck', 'area-face', array('acne', 'acne-scar
 <body>
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
       <main>
-            <section id="banner">
+            <section id="banner" class="sticky-badges-target">
                   <div id="banner-green">
                         <div class="container l10n">
                               <div class="is-hidden-desktop">
