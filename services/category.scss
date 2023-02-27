@@ -166,6 +166,14 @@ section#header {
             }
         }
 
+        section#services {
+            hr {
+                border: 0;
+                border-top: 1px solid $light-200;
+                margin: 0;
+            }
+        }
+
         section#about,
         section#articles,
         section#services,

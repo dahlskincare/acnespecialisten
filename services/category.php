@@ -190,12 +190,12 @@ $services = array(
                     <?php } ?>
                 </section>
                 <section id="services">
-                    <h2 class="h500"><?php echo $services_title; ?></h2>
+                    <h2 class="h500 mb-xl"><?php echo $services_title; ?></h2>
                     <?php foreach ($services as $service) { ?>
-                        <div class="mt-xxl">
-                            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
-                        </div>
+                        <hr class="is-hidden-touch" />
+                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
                     <?php } ?>
+                    <hr class="is-hidden-touch" />
                 </section>
                 <section id="aftercare">
                     <?php
