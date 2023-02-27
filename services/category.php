@@ -14,15 +14,27 @@ class Procedure
 
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 $title = 'Problem skin facials';
-$floating_image = 'https://via.placeholder.com/424x456.jpg';
+$image_small = 'https://via.placeholder.com/358x274.webp';
+$image_large = 'https://via.placeholder.com/424x456.webp';
 $booking_url = '';
 $consultation_url = '';
 $duration = '50 min';
 $procedures = array(
     '1' => new Procedure(null, '£1 995'),
     '3' => new Procedure('£3 885', '£2 595'),
-    '5' => new Procedure('£6 475', '£3 995'),
-)
+    '5' => new Procedure('£6 475', '£3 995')
+);
+$nav_buttons = array(
+    'about' => 'Overview',
+    'preparing' => 'Preparing',
+);
+
+$description_title = 'What is problem skin facials?';
+$description_text = '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>';
+$articles = array(
+    new ProblemArticle('pigmentation-causes-and-risk-factors', 'Acne scars causes and risks factors', 'https://via.placeholder.com/358x272.webp', 'https://via.placeholder.com/872x456.webp', '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>'),
+    new ProblemArticle('when-to-see-your-pigmentation-specialist', 'When to see your acne scars specialist?', 'https://via.placeholder.com/358x272.webp', 'https://via.placeholder.com/872x456.webp', '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>'),
+);
 
 ?>
 <!DOCTYPE html>
@@ -47,7 +59,7 @@ $procedures = array(
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
     <div class="is-hidden-touch is-hidden-desktop-only" id="floater">
         <div class="container">
-            <div id="floating-picture" style="background-image: url('<?php echo $floating_image ?>')">
+            <div id="floating-picture" style="background-image: url('<?php echo $image_large ?>')">
                 <div id="overlay">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
                     <div>
@@ -141,9 +153,32 @@ $procedures = array(
                 </div>
             </div>
         </section>
-        <section id="badges" class="mt-m is-hidden-desktop">
-            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-        </section>
+        <div class="container">
+            <div id="content">
+                <section id="badges" class="mt-m mb-s is-hidden-desktop">
+                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
+                </section>
+                <section id="image" class="is-hidden-desktop">
+                    <picture>
+                        <source media="(max-width: 449px)" srcset="<?php echo $image_small ?>">
+                        <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
+                        <img src="<?php echo $image_large ?>" alt="<?php echo $title ?>" width="358" height="274" />
+                    </picture>
+                </section>
+                <section id="nav-buttons">
+                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
+                </section>
+                <section id="about">
+                    <h2 class="h500"><?php echo $description_title ?></h2>
+                    <div class="mt-xl"><?php echo $description_text ?></div>
+                </section>
+                <section id="articles">
+                    <?php foreach ($articles as $article) { ?>
+                        <?php include('widgets/problem-article/problem-article-widget.php'); ?>
+                    <?php } ?>
+                </section>
+            </div>
+        </div>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
     <script src="includes/scripts/floating-image.js"></script>
