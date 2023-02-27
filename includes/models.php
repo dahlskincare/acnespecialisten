@@ -149,8 +149,8 @@ class Service
 
     public string $id;
     public string $title;
-    public string $duration;
-    public string $price;
+    public ?string $duration;
+    public ?string $price;
     public string $image_small;
     public string $image_large;
     public string $content;

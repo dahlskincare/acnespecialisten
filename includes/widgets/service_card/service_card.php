@@ -12,15 +12,17 @@
                 <h3 class="h200">
                     <?php echo $service->title ?>
                 </h3>
-                <div class="service-info">
-                    <div class="p200">
-                        <?php echo $service->duration ?>
+                <?php if (isset($service->duration) && isset($service->price)) { ?>
+                    <div class="service-info">
+                        <div class="p200">
+                            <?php echo $service->duration ?>
+                        </div>
+                        <div class="service-dot"></div>
+                        <div class="p200">
+                            <?php echo $service->price ?>
+                        </div>
                     </div>
-                    <div class="service-dot"></div>
-                    <div class="p200">
-                        <?php echo $service->price ?>
-                    </div>
-                </div>
+                <?php } ?>
             </div>
         </div>
         <p class="mt-m p200">
@@ -48,15 +50,17 @@
                 <h3 class="h200">
                     <?php echo $service->title ?>
                 </h3>
-                <div class="service-info">
-                    <div class="p200">
-                        <?php echo $service->duration ?>
+                <?php if (isset($service->duration) && isset($service->price)) { ?>
+                    <div class="service-info">
+                        <div class="p200">
+                            <?php echo $service->duration ?>
+                        </div>
+                        <div class="service-dot"></div>
+                        <div class="p200">
+                            <?php echo $service->price ?>
+                        </div>
                     </div>
-                    <div class="service-dot"></div>
-                    <div class="p200">
-                        <?php echo $service->price ?>
-                    </div>
-                </div>
+                <?php } ?>
                 <p class="mt-xs p200 service-content">
                     <?php echo $service->content ?>
                 </p>

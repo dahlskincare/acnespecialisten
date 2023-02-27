@@ -60,9 +60,11 @@
         border: none;
         box-shadow: none;
 
-        img {
-            width: 200px;
-            height: auto;
+        div.image {
+            img {
+                width: 200px;
+                height: auto;
+            }
         }
 
         .middle {
