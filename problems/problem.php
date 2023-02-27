@@ -387,7 +387,7 @@ $related_problems = array(
                                     </span>
                               </h2>
                               <hr class="is-hidden-mobile">
-                              <?php include('widgets/service-card/service-card.php') ?>
+                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
                               <hr class="is-hidden-mobile">
                         </section>
                         <section id="treatments">
@@ -399,7 +399,7 @@ $related_problems = array(
                               </h2>
                               <hr class="is-hidden-mobile mt-xl">
                               <?php foreach ($services as $service) { ?>
-                                    <?php include('widgets/service-card/service-card.php'); ?>
+                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
                                     <hr class="is-hidden-mobile mb-xxl">
                               <?php } ?>
                         </section>

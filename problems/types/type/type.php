@@ -207,7 +207,7 @@ $specialists = array(
                             <span class="h500 l10n">Define</span>&nbsp;<span class="h500 lowercase"><?php echo $type_name ?></span>
                         </h2>
                         <hr class="is-hidden-mobile mt-xl mb-xxl">
-                        <?php include('../../widgets/service-card/service-card.php') ?>
+                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
                         <hr class="is-hidden-mobile mt-xxl">
                     </section>
                     <section id="solutions">
@@ -223,7 +223,7 @@ $specialists = array(
                         <hr class="is-hidden-mobile mt-xl">
                         <?php foreach ($solutions as $service) { ?>
                             <div class="mt-xxl" id="service-<?php echo $service->id ?>">
-                                <?php include('../../widgets/service-card/service-card.php') ?>
+                                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
                                 <hr class="is-hidden-mobile mt-xxl">
                             </div>
                         <?php } ?>
