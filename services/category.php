@@ -119,6 +119,20 @@ $procedures = array(
                         <div class="mt-xs">
                             <span class="p200 l10n">Duration: <?php echo $duration ?></span>
                         </div>
+                        <div class="mt-xl large-procedures flex-row">
+                            <div class="large-procedure">
+                                <div class="p200 l10n">1 procedure</div>
+                                <div class="h200"><?php echo $procedures['1']->price ?></div>
+                            </div>
+                            <div class="large-procedure">
+                                <div class="p200 l10n">3 procedures</div>
+                                <div class="h200"><?php echo $procedures['3']->price ?></div>
+                            </div>
+                            <div class="large-procedure">
+                                <div class="p200 l10n">5 procedures</div>
+                                <div class="h200"><?php echo $procedures['5']->price ?></div>
+                            </div>
+                        </div>
                         <div class="mt-xl flex-row" id="book-buttons">
                             <a href="https://www.dahlskincare.com/skin-consultation" target="_blank" class="button b200 white l10n">Get a free consultation</a>
                             <a href="<?php echo $booking_url ?>" target="_blank" class="button b200 white l10n">Book a treatment</a>
