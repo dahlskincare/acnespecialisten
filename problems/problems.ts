@@ -41,7 +41,7 @@ function highlight(element: HTMLElement) {
     element.classList.add('highlight');
 }
 
-if (window.document.body.clientWidth > 800) {
+if (document.body.clientWidth > 800) {
     let filters = document.querySelector('#filters-desktop');
     let filterItems = filters.querySelector('#filter-items');
     let buttonPrevious = filters.querySelector('#filter-button-previous');

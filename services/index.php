@@ -110,7 +110,6 @@ $service_categories = array(
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
     <link rel="stylesheet" href="services/style.css">
-    <script src="problems/problems.js"></script>
 </head>
 
 <body>

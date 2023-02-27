@@ -38,7 +38,7 @@ function highlight(element) {
     }
     element.classList.add('highlight');
 }
-if (window.document.body.clientWidth > 800) {
+if (document.body.clientWidth > 800) {
     var filters = document.querySelector('#filters-desktop');
     var filterItems_1 = filters.querySelector('#filter-items');
     var buttonPrevious_1 = filters.querySelector('#filter-button-previous');
