@@ -304,7 +304,7 @@ $related_problems = array(
                                     } ?>
                               </div>
                               <hr class="mt-xl3 is-hidden-mobile">
-                              <a href="treatments/acne-scars" class="mt-xl button b200 outline expand auto-width l10n">
+                              <a href="problems/acne-scars/treatment" class="mt-xl button b200 outline expand auto-width l10n">
                                     Read more about treatment
                               </a>
                         </section>
@@ -425,7 +425,7 @@ $related_problems = array(
                                           <?php
                                           $before = 'images/results/acne-before.webp';
                                           $after = 'images/results/acne-after.webp';
-                                          $label = 'After two months of <a href="treatments/acne">acne treatment</a>';
+                                          $label = 'After two months of <a href="problems/acne/treatment">acne treatment</a>';
                                           include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
                                           ?>
                                     </div>
@@ -433,7 +433,7 @@ $related_problems = array(
                                           <?php
                                           $before = 'images/results/rosacea-before.webp';
                                           $after = 'images/results/rosacea-after.webp';
-                                          $label = 'After two months of <a href="treatments/rosacea">rosacea treatment</a>';
+                                          $label = 'After two months of <a href="problems/rosacea/treatment">rosacea treatment</a>';
                                           include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
                                           ?>
                                     </div>
@@ -441,7 +441,7 @@ $related_problems = array(
                                           <?php
                                           $before = 'images/results/comedones-before.webp';
                                           $after = 'images/results/comedones-after.webp';
-                                          $label = 'After two months of <a href="treatments/comedones">comedones treatment</a>';
+                                          $label = 'After two months of <a href="problems/comedeons/treatment">comedones treatment</a>';
                                           include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
                                           ?>
                                     </div>
