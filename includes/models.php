@@ -106,6 +106,19 @@ class PathSegment
         return ucfirst(str_replace('-', ' ', $s));
     }
 }
+
+class Brand
+{
+    public function __construct($label, $image)
+    {
+        $this->label = $label;
+        $this->image = $image;
+    }
+
+    public string $label;
+    public string $image;
+}
+
 class Service
 {
     public function __construct(
