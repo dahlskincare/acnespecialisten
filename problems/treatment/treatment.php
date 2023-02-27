@@ -62,7 +62,7 @@ $repair_url = 'treatments/acne';
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
 
-    <link rel="stylesheet" href="treatments/treatment.css">
+    <link rel="stylesheet" href="problems/treatment/treatment.css">
 </head>
 
 <body>
