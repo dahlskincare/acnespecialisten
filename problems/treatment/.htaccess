@@ -1,0 +1,4 @@
+#RewriteEngine on
+#RewriteBase /treatments/
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^([^/]+)/?$ treatment.php?id=$1 [L,QSA]
