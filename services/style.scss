@@ -21,73 +21,67 @@ section#banner {
         }
     }
 
-    #banner-filters {
-        // allow container overflow
-        margin-left: -$m;
-        margin-right: -$m;
-        padding-left: $m;
-        padding-right: $m;
-        margin-top: $m;
 
-
-        // Make room for shadow
+    #filters-touch-container {
+        overflow-x: scroll;
         padding-bottom: $m;
 
-        .banner-problem-area {
+        #filters-touch {
+            border: 1px solid $light-200;
+            border-radius: $radius-l;
             background-color: $white-500;
             @include elevation-medium();
-            height: 96px;
-            box-sizing: border-box;
-            flex: 1 0 88px;
-            border-top: 1px solid $light-200;
-            border-bottom: 1px solid $light-200;
-            border-left: 1px solid $light-200;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            user-select: none;
 
-            img {
-                transition: transform 200ms ease;
+            display: inline-flex;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+
+            #filters-touch::-webkit-scrollbar {
+                width: 0;
+                height: 0;
             }
 
-            div {
-                text-transform: capitalize;
-                margin-top: $xs;
+
+            .filter-item {
+                padding: 17.5px 0;
+                flex: 1;
+                width: 104px;
+                text-align: center;
+                cursor: pointer;
+                border-left: 1px solid $light-200;
+
+                .icon {
+                    width: $xxl;
+                    height: $xxl;
+                }
+
+                .filter-item-label {
+                    margin-top: $xs;
+                    color: $deep-sea-500;
+                }
             }
-        }
 
-        .banner-problem-area.highlight {
-            img {
-                transform: scale(1.5, 1.5);
+            .filter-item:not(.highlight):hover {
+                .filter-item-label {
+                    color: $deep-sea-300;
+                }
             }
 
-            div {
-                text-decoration: underline;
+            .filter-item.highlight {
+                background-color: $light-25;
+
+                .filter-item-label {
+                    color: $black-500;
+                }
             }
-        }
 
-        .banner-problem-area:first-child {
-            border-top-left-radius: $radius-l;
-            border-bottom-left-radius: $radius-l;
-        }
-
-        .banner-problem-area:last-child {
-            border-right: 1px solid $light-200;
-            border-top-right-radius: $radius-l;
-            border-bottom-right-radius: $radius-l;
+            .filter-item:first-child {
+                border-left: 1px solid transparent;
+            }
         }
     }
 
-    #banner-problem-areas {
-        margin-top: $xxs;
 
-        .button {
-            margin-top: $xxs;
-        }
-    }
 
 
     @media screen and (min-width: $desktop) {
@@ -104,35 +98,96 @@ section#banner {
             }
         }
 
-        #banner-filters {
+        #filters-desktop {
+            position: relative;
+            border: 1px solid $light-200;
+            border-radius: $radius-l;
+            overflow: hidden;
             margin-top: -2*$xl;
-            padding-bottom: $xl3 - $xs;
-        }
+            background-color: $white-500;
+            @include elevation-medium();
 
-        #banner-problem-areas {
-            margin-top: $xs;
-
-            .button {
-                margin-top: $xs;
+            div#filter-items {
+                position: relative;
+                display: flex;
+                overflow-y: auto;
+                scroll-behavior: smooth;
+                scrollbar-width: none;
+                -ms-overflow-style: none;
             }
 
-            .column.first {
-                .button {
-                    border-top-left-radius: $radius-l;
+            div#filter-items::-webkit-scrollbar {
+                width: 0;
+                height: 0;
+            }
+
+            div.filter-button {
+                background-color: $white-500;
+                position: absolute;
+                top: 0;
+                height: 100%;
+                padding: $xl;
+                box-sizing: border-box;
+            }
+
+            div.filter-button#filter-button-previous {
+                background: linear-gradient(90deg, $white-500 70%, rgba(255, 255, 255, 0) 100%);
+                padding-right: $xl*2;
+            }
+
+            div.filter-button#filter-button-next {
+                background: linear-gradient(270deg, $white-500 70%, rgba(255, 255, 255, 0) 100%);
+                padding-left: $xl*2;
+                right: 0;
+            }
+
+            .filter-item {
+                padding: 17.5px 0;
+                flex: 1 0 132px;
+                text-align: center;
+                cursor: pointer;
+                border-left: 1px solid $light-200;
+
+                .icon {
+                    width: $xxl;
+                    height: $xxl;
+                }
+
+                .filter-item-label {
+                    margin-top: $xs;
+                    color: $deep-sea-500;
                 }
             }
 
-            .column.last {
-                .button {
-                    border-bottom-right-radius: $radius-l;
+            .filter-item:not(.highlight):hover {
+                .filter-item-label {
+                    color: $deep-sea-300;
                 }
+            }
+
+            .filter-item.highlight {
+                background-color: $light-25;
+
+                .filter-item-label {
+                    color: $black-500;
+                }
+            }
+
+            .filter-item:first-child {
+                border-left: 1px solid transparent;
             }
         }
 
     }
 }
 
-section#cards {}
+section#links {
+    margin-top: $xl;
+
+    @include desktop {
+        margin-top: $xl3;
+    }
+}
 
 section#consultation-banner {
     margin-top: $xl;
