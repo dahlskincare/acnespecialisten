@@ -30,9 +30,13 @@ $nav_buttons = array(
     'preparing' => 'Preparing',
     'procedure-process' => 'Process',
     'services' => 'Types',
-    'aftercare' => 'Aftercare'
+    'aftercare' => 'Aftercare',
+    'results' => 'Results',
+    'reviews' => 'Reviews',
+    'faq' => 'FAQ',
+    'skin-guide' => 'Skin guide',
+    'specialists' => 'Facials specialists',
 );
-
 $description_title = 'What is problem skin facials?';
 $description_text = '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>';
 $articles = array(
@@ -45,6 +49,29 @@ $services = array(
     new Service('laser-pigmentation', 'Laser', null, null, 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',  'https://via.placeholder.com/102x102.jpg', 'https://via.placeholder.com/200x200.jpg', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/'),
     new Service('ipl-pigmentation', 'IPL', null, null, 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',  'https://via.placeholder.com/102x102.jpg', 'https://via.placeholder.com/200x200.jpg', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/'),
     new Service('freezetreat-pigmentation', 'FreezeTreat', null, null, 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',  'https://via.placeholder.com/102x102.jpg', 'https://via.placeholder.com/200x200.jpg', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/')
+);
+$faq_categories = array(
+    '' => array(
+        new Question('How many treatments are needed?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+        new Question('Can my acne come back?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+        new Question('How do I get rid of my acne fast?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+        new Question('Do I have acne even if I only have one pimple?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.')
+    )
+);
+$skin_guide_articles = array(
+    new SkinGuideArticle('How hormones affect?', 'Problem skin', 'skin-guide/hormones-effect', 'images/skin-guide/small/hormones.jpg', 'images/skin-guide/large/hormones.jpg'),
+    new SkinGuideArticle('Can makeup harm your skin?', 'Problem skin', 'skin-guide/can-makeup-harm', 'images/skin-guide/small/makeup.jpg', 'images/skin-guide/large/makeup.jpg'),
+    new SkinGuideArticle('How to build a skin care routine', 'Problem skin', 'skin-guide/routine-how-to', 'images/skin-guide/small/routine.jpg', 'images/skin-guide/large/routine.jpg'),
+    new SkinGuideArticle('How to build a skin care routine', 'Problem skin', 'skin-guide/routine-how-to', 'images/skin-guide/small/routine.jpg', 'images/skin-guide/large/routine.jpg'),
+    new SkinGuideArticle('How to build a skin care routine', 'Problem skin', 'skin-guide/routine-how-to', 'images/skin-guide/small/routine.jpg', 'images/skin-guide/large/routine.jpg'),
+    new SkinGuideArticle('How to build a skin care routine', 'Problem skin', 'skin-guide/routine-how-to', 'images/skin-guide/small/routine.jpg', 'images/skin-guide/large/routine.jpg')
+);
+$specialists = array(
+    new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-1.jpg', 'images/specialists/large/specialist-1.jpg'),
+    new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-1.jpg', 'images/specialists/large/specialist-2.jpg'),
+    new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-1.jpg', 'images/specialists/large/specialist-3.jpg'),
+    new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-1.jpg', 'images/specialists/large/specialist-1.jpg'),
+    new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-1.jpg', 'images/specialists/large/specialist-2.jpg')
 );
 ?>
 <!DOCTYPE html>
@@ -203,7 +230,115 @@ $services = array(
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
                     ?>
                 </section>
+                <section id="results">
+                    <div class="flex-row justify-space-between">
+                        <h2 class="big l10n">Results</h2>
+                        <div class="step-buttons">
+                            <button class="round-large grey" onclick="Carousel.prev('#results-carousel')">
+                                <?php icon('arrow-left') ?>
+                            </button>
+                            <button class="round-large grey" onclick="Carousel.next('#results-carousel')">
+                                <?php icon('arrow-right') ?>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="carousel" id="results-carousel">
+                        <div class="slide l10n">
+                            <?php
+                            $before = 'images/results/acne-before.webp';
+                            $after = 'images/results/acne-after.webp';
+                            $label = 'After two months of <a href="problems/acne/treatment">acne treatment</a>';
+                            include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
+                            ?>
+                        </div>
+                        <div class="slide l10n">
+                            <?php
+                            $before = 'images/results/rosacea-before.webp';
+                            $after = 'images/results/rosacea-after.webp';
+                            $label = 'After two months of <a href="problems/rosacea/treatment">rosacea treatment</a>';
+                            include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
+                            ?>
+                        </div>
+                        <div class="slide l10n">
+                            <?php
+                            $before = 'images/results/comedones-before.webp';
+                            $after = 'images/results/comedones-after.webp';
+                            $label = 'After two months of <a href="problems/comedeons/treatment">comedones treatment</a>';
+                            include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
+                            ?>
+                        </div>
+                    </div>
+                    <a class="button b200 outline l10n" href="results">View all treatment results</a>
+                </section>
+                <section id="reviews">
+                    <div class="flex-row align-end justify-space-between">
+                        <h2 class="big l10n">Reviews</h2>
+                        <div class="flex-row is-hidden-mobile">
+                            <div class="step-buttons">
+                                <button class="round-large grey" onclick="Carousel.prev('#reviews-carousel', -1)">
+                                    <?php icon('arrow-left') ?>
+                                </button>
+                                <button class="round-large grey" onclick="Carousel.next('#reviews-carousel', 1)">
+                                    <?php icon('arrow-right') ?>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <?php
+                    $reviews_narrow = true;
+                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
+                    ?>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" href="reviews">View all reviews</a>
+                </section>
+                <section id="faq">
+                    <h2 class="big l10n">Questions & answers</h2>
+                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" href="faq">View all questions</a>
+                </section>
+                <section id="skin-guide">
+                    <div class="flex-row justify-space-between">
+                        <h2 class="big l10n">Skin guide</h2>
+                        <div class="is-hidden-touch">
+                            <button class="round-large grey" onclick="scrollSkinGuide(-1)">
+                                <?php icon('arrow-left') ?>
+                            </button>
+                            <button class="round-large grey" onclick="scrollSkinGuide(1)">
+                                <?php icon('arrow-right') ?>
+                            </button>
+                        </div>
+                    </div>
+                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide_narrow.php'); ?>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" href="skin-guide">View all articles</a>
+                </section>
+                <section id="specialists">
+                    <div class="flex-row justify-space-between">
+                        <h2 class="big l10n">Our specialists</h2>
+                        <div class="is-hidden-touch">
+                            <button class="round-large grey" onclick="scrollSpecialists(-1)">
+                                <?php icon('arrow-left') ?>
+                            </button>
+                            <button class="round-large grey" onclick="scrollSpecialists(1)">
+                                <?php icon('arrow-right') ?>
+                            </button>
+                        </div>
+                    </div>
+                    <?php
+                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php');
+                    ?>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" href="specialists">View all specialists</a>
+                </section>
             </div>
+            <section id="brands">
+                <div class="flex-row align-end justify-space-between">
+                    <h2 class="big l10n">Brands we use</h2>
+                    <a href="brands" class="button compact text is-hidden-mobile">
+                        <span class="l10n">View all brands</span>
+                        <?php icon('navigate-next') ?>
+                    </a>
+                </div>
+                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
+                <a class="mt-xl button b200 outline expand auto-width is-hidden-desktop l10n" href="brands">View all brands</a>
+            </section>
         </div>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
