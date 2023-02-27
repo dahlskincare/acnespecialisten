@@ -1,0 +1,45 @@
+@import '../../../styles/util/colors';
+@import '../../../styles/util/mixins';
+@import '../../../styles/util/sizes';
+
+div.article-widget {
+    margin-top: $xxl*2;
+
+    img {
+        margin-top: $xl;
+        width: 100%;
+        height: auto;
+    }
+
+    div.article-tags {
+        display: flex;
+        flex-wrap: wrap;
+
+        div.article-tag {
+            margin-top: $xl;
+            flex: 1 0 50%;
+            display: flex;
+            align-items: center;
+
+            .icon {
+                margin-right: $s;
+                width: $xxl;
+                height: $xxl;
+            }
+
+            @include desktop {
+                flex: 0;
+                margin-right: $xxl;
+            }
+        }
+    }
+
+    div.article-content {
+        margin-top: $xl;
+    }
+
+    @media screen and (min-width: $tablet) {
+        margin-top: $xl5 + $xs;
+
+    }
+}

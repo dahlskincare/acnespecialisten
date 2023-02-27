@@ -195,6 +195,36 @@ class Question
     public $text;
 }
 
+class Article
+{
+    public function __construct($id, $title, $image_small, $image_large, $content, $tags = array())
+    {
+        $this->id = $id;
+        $this->title = $title;
+        $this->image_small = $image_small;
+        $this->image_large = $image_large;
+        $this->content = $content;
+        $this->tags = $tags;
+    }
+    public string $id;
+    public string $title;
+    public string $image_small;
+    public string $image_large;
+    public string $content;
+    public array $tags;
+}
+
+class ArticleTag
+{
+    public function __construct($icon, $label)
+    {
+        $this->icon = $icon;
+        $this->label = $label;
+    }
+    public $icon;
+    public $label;
+}
+
 class SkinGuideArticle
 {
     public function __construct($title, $category, $url, $image_small, $image_large)
