@@ -13,7 +13,10 @@ namespace FloatingImage {
             const footerMargin = 104;
             const headerOffset = -86;
             let distanceToBottom = document.documentElement.scrollHeight + headerOffset - document.documentElement.scrollTop;
-            let offset = _footerLarge.offsetHeight + footerMargin + _brands.offsetHeight + brandsMargin;
+            let offset = _footerLarge.offsetHeight + footerMargin;
+            if (_brands != undefined) {
+                offset += _brands.offsetHeight + brandsMargin;
+            }
 
             if (distanceToBottom - offset < _picture.offsetHeight) {
                 _floater.classList.add('attached-bottom');

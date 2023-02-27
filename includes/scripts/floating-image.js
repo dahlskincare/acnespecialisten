@@ -11,7 +11,10 @@ var FloatingImage;
             var footerMargin = 104;
             var headerOffset = -86;
             var distanceToBottom = document.documentElement.scrollHeight + headerOffset - document.documentElement.scrollTop;
-            var offset = _footerLarge_1.offsetHeight + footerMargin + _brands_1.offsetHeight + brandsMargin;
+            var offset = _footerLarge_1.offsetHeight + footerMargin;
+            if (_brands_1 != undefined) {
+                offset += _brands_1.offsetHeight + brandsMargin;
+            }
             if (distanceToBottom - offset < _picture_1.offsetHeight) {
                 _floater_1.classList.add('attached-bottom');
                 _floater_1.style.top = "".concat(document.body.offsetHeight - offset - _picture_1.offsetHeight, "px");
