@@ -24,6 +24,20 @@ html {
     }
 }
 
+#floating-procedures {
+    border-radius: $radius-l;
+    overflow: hidden;
+
+    div.floating-procedure {
+        background-color: $white-200;
+        margin-bottom: 1px;
+        padding: $m;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
 section#header {
     #green-header-small {
         background-color: $deep-sea-400;

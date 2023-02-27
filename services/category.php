@@ -2,12 +2,14 @@
 
 class Procedure
 {
-    public function __construct($full_price, $price)
+    public function __construct($label, $full_price, $price)
     {
+        $this->label = $label;
         $this->full_price = $full_price;
         $this->price = $price;
     }
 
+    public string $label;
     public ?string $full_price;
     public string $price;
 }
@@ -21,9 +23,9 @@ $booking_url = '';
 $consultation_url = '';
 $duration = '50 min';
 $procedures = array(
-    '1' => new Procedure(null, '£1 995'),
-    '3' => new Procedure('£3 885', '£2 595'),
-    '5' => new Procedure('£6 475', '£3 995')
+    new Procedure('1 procedure', null, '£1 995'),
+    new Procedure('3 procedures', '£3 885', '£2 595'),
+    new Procedure('5 procedures', '£6 475', '£3 995')
 );
 $nav_buttons = array(
     'about' => 'Overview',
@@ -103,9 +105,31 @@ $specialists = array(
                         <h2 class="h600">
                             <?php echo $title ?>
                         </h2>
-                        <p class="mt-m">
+                        <div class="mt-m">
                             <span class="p200 l10n">Duration: <?php echo $duration ?></span>
-                        </p>
+                        </div>
+                        <div id="floating-procedures" class="mt-xl">
+                            <?php foreach ($procedures as $procedure) { ?>
+                                <div class="floating-procedure">
+                                    <div class="p200">
+                                        <?php echo $procedure->label ?>
+                                    </div>
+                                    <div class="floating-procedure-price">
+                                        <span class="p200 strikethrough mr-xs"><?php echo $procedure->full_price ?></span>
+                                        <span class="h200"><?php echo $procedure->price ?></span>
+                                    </div>
+                                </div>
+                            <?php } ?>
+                        </div>
+                        <div class="mt-xl columns is-2 is-variable">
+                            <div class="column">
+                                <a href="<?php echo $consultation_url ?>" target="_blank" class="button white expand l10n">Get a free consultation</a>
+                            </div>
+                            <div class="column">
+                                <a href="<?php echo $booking_url ?>" target="_blank" class="button white expand l10n">Book a treatment</a>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -121,24 +145,15 @@ $specialists = array(
                     </h1>
                     <h3 class="mt-xs p200 l10n">Duration: <?php echo $duration ?></h3>
                     <div class="procedures mt-xl">
-                        <div class="procedure">
-                            <div class="p200 l10n">1 procedure</div>
-                            <div class="h200"><?php echo $procedures['1']->price ?></div>
-                        </div>
-                        <div class="procedure">
-                            <div class="p200 l10n">3 procedures</div>
-                            <div>
-                                <span class="p200 strikethrough mr-xs"><?php echo $procedures['3']->full_price ?></span>
-                                <span class="h200"><?php echo $procedures['3']->price ?></span>
+                        <?php foreach ($procedures as $procedure) { ?>
+                            <div class="procedure">
+                                <div class="p200 l10n"><?php echo $procedure->label ?></div>
+                                <div>
+                                    <span class="p200 strikethrough mr-xs"><?php echo $procedure->full_price ?></span>
+                                    <span class="h200"><?php echo $procedure->price ?></span>
+                                </div>
                             </div>
-                        </div>
-                        <div class="procedure">
-                            <div class="p200 l10n">5 procedures</div>
-                            <div>
-                                <span class="p200 strikethrough mr-xs"><?php echo $procedures['5']->full_price ?></span>
-                                <span class="h200"><?php echo $procedures['5']->price ?></span>
-                            </div>
-                        </div>
+                        <?php } ?>
                     </div>
 
                     <div class="mt-xl columns is-mobile">
@@ -169,27 +184,18 @@ $specialists = array(
                             <span class="p200 l10n">Duration: <?php echo $duration ?></span>
                         </div>
                         <div class="mt-xl large-procedures flex-row">
-                            <div class="large-procedure">
-                                <div class="p200 l10n">1 procedure</div>
-                                <div class="h200"><?php echo $procedures['1']->price ?></div>
-                            </div>
-                            <div class="large-procedure">
-                                <div class="p200 l10n">3 procedures</div>
-                                <div>
-                                    <span class="p200 strikethrough mr-xs"><?php echo $procedures['3']->full_price ?></span>
-                                    <span class="h200"><?php echo $procedures['3']->price ?></span>
+                            <?php foreach ($procedures as $procedure) { ?>
+                                <div class="large-procedure">
+                                    <div class="p200 l10n"><?php echo $procedure->label ?></div>
+                                    <div>
+                                        <span class="p200 strikethrough mr-xs"><?php echo $procedure->full_price ?></span>
+                                        <span class="h200"><?php echo $procedure->price ?></span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="large-procedure">
-                                <div class="p200 l10n">5 procedures</div>
-                                <div>
-                                    <span class="p200 strikethrough mr-xs"><?php echo $procedures['5']->full_price ?></span>
-                                    <span class="h200"><?php echo $procedures['5']->price ?></span>
-                                </div>
-                            </div>
+                            <?php } ?>
                         </div>
                         <div class="mt-xl flex-row" id="book-buttons">
-                            <a href="https://www.dahlskincare.com/skin-consultation" target="_blank" class="button b200 white l10n">Get a free consultation</a>
+                            <a href="<?php echo $consultation_url ?>" target="_blank" class="button b200 white l10n">Get a free consultation</a>
                             <a href="<?php echo $booking_url ?>" target="_blank" class="button b200 white l10n">Book a treatment</a>
                         </div>
                     </div>
