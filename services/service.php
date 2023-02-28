@@ -1,6 +1,7 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 $title = 'Sun spots';
+$header_text = 'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we.';
 $image_small = 'https://via.placeholder.com/358x274.webp';
 $image_large = 'https://via.placeholder.com/424x456.webp';
 $booking_url = '';
@@ -8,6 +9,9 @@ $consultation_url = '';
 $nav_buttons = array(
     'about' => 'Overview'
 );
+
+$about_title = 'What is sun spots?';
+$about_text = '<p>This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>';
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
@@ -38,6 +42,9 @@ $nav_buttons = array(
                         <h2 class="h600">
                             <?php echo $title ?>
                         </h2>
+                        <p class="p200 mt-m">
+                            <?php echo $header_text; ?>
+                        </p>
                         <div class="mt-xl columns is-2 is-variable">
                             <div class="column">
                                 <a href="<?php echo $consultation_url ?>" target="_blank" class="button white expand l10n">Get a free consultation</a>
@@ -60,6 +67,9 @@ $nav_buttons = array(
                     <h1 class="mt-xs h600">
                         <?php echo $title ?>
                     </h1>
+                    <p class="p200 mt-s">
+                        <?php echo $header_text ?>
+                    </p>
 
                     <div class="mt-xl columns is-mobile">
                         <div class="column is-half">
@@ -85,6 +95,9 @@ $nav_buttons = array(
                         <h1 class="h600">
                             <?php echo $title ?>
                         </h1>
+                        <p class="p200 mt-s">
+                            <?php echo $header_text ?>
+                        </p>
                         <div class="mt-xl flex-row" id="book-buttons">
                             <a href="<?php echo $consultation_url ?>" target="_blank" class="button b200 white l10n">Get a free consultation</a>
                             <a href="<?php echo $booking_url ?>" target="_blank" class="button b200 white l10n">Book a treatment</a>
@@ -109,11 +122,16 @@ $nav_buttons = array(
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about">
+                    <h2 class="h500"><?php echo $about_title ?></h2>
+                    <div class="mt-xl">
+                        <?php echo $about_text ?>
+                    </div>
                 </section>
             </div>
         </div>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
+    <script src="includes/scripts/floating-image.js"></script>
 </body>
 
 </html>

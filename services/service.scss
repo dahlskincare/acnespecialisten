@@ -80,5 +80,30 @@ section#header {
                 border-radius: $radius-l;
             }
         }
+
+        section#about {
+            margin-top: 48px;
+        }
+    }
+}
+
+@media screen and (min-width: $widescreen) {
+    .container {
+        #content {
+            max-width: 750px;
+
+            section#about {
+                margin-top: 88px;
+            }
+        }
+    }
+}
+
+// Ensures floater is never above content
+@media screen and (min-width: 1408px) {
+    .container {
+        #content {
+            max-width: 872px;
+        }
     }
 }
