@@ -55,10 +55,6 @@ div#floater {
     }
 }
 
-div#floater.transition {
-    //   transition: top 500ms ease;
-}
-
 div#floater.detached {
     top: $xl + 72px;
 
