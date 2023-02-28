@@ -1,4 +1,14 @@
-<?php include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php'); ?>
+<?php
+include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
+$title = 'Sun spots';
+$image_small = 'https://via.placeholder.com/358x274.webp';
+$image_large = 'https://via.placeholder.com/424x456.webp';
+$booking_url = '';
+$consultation_url = '';
+$nav_buttons = array(
+    'about' => 'Overview'
+);
+?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
 
@@ -14,13 +24,94 @@
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
 
     <link rel="stylesheet" href="/styles/default-layout.css">
-    <link rel="stylesheet" href="/services/category.css">
+    <link rel="stylesheet" href="/services/service.css">
 </head>
 
 <body>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
+    <div class="is-hidden-touch is-hidden-desktop-only" id="floater">
+        <div class="container">
+            <div id="floating-picture" style="background-image: url('<?php echo $image_large ?>')">
+                <div id="overlay">
+                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
+                    <div>
+                        <h2 class="h600">
+                            <?php echo $title ?>
+                        </h2>
+                        <div class="mt-xl columns is-2 is-variable">
+                            <div class="column">
+                                <a href="<?php echo $consultation_url ?>" target="_blank" class="button white expand l10n">Get a free consultation</a>
+                            </div>
+                            <div class="column">
+                                <a href="<?php echo $booking_url ?>" target="_blank" class="button white expand l10n">Book a treatment</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <main>
-        <h1>hello service <?php echo $_GET['id'] ?></h1>
+        <section id="header">
+            <div id="green-header-small" class="is-hidden-desktop">
+                <div class="container">
+                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
+                    <h1 class="mt-xs h600">
+                        <?php echo $title ?>
+                    </h1>
+
+                    <div class="mt-xl columns is-mobile">
+                        <div class="column is-half">
+                            <a href="<?php echo $consultation_url ?>" target="_blank" class="button b200 white expand l10n">Free consultation</a>
+                        </div>
+                        <div class="column is-half">
+                            <a href="<?php echo $booking_url ?>" target="_blank" class="button b200 white expand l10n">Book a treatment</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="green-header-large" class="is-hidden-touch">
+                <div class="container">
+                    <div class="columns">
+                        <div class="column is-half">
+                            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
+                        </div>
+                        <div class="column is-half flex-row align-end justify-end">
+                            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
+                        </div>
+                    </div>
+                    <div id="green-header-large-text" class="mt-xxs">
+                        <h1 class="h600">
+                            <?php echo $title ?>
+                        </h1>
+                        <div class="mt-xl flex-row" id="book-buttons">
+                            <a href="<?php echo $consultation_url ?>" target="_blank" class="button b200 white l10n">Get a free consultation</a>
+                            <a href="<?php echo $booking_url ?>" target="_blank" class="button b200 white l10n">Book a treatment</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container">
+            <div id="content">
+                <section id="badges" class="mt-m mb-s is-hidden-desktop">
+                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
+                </section>
+                <section id="image" class="is-hidden-desktop">
+                    <picture>
+                        <source media="(max-width: 449px)" srcset="<?php echo $image_small ?>">
+                        <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
+                        <img src="<?php echo $image_large ?>" alt="<?php echo $title ?>" width="358" height="274" />
+                    </picture>
+                </section>
+                <section id="nav-buttons">
+                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
+                </section>
+                <section id="about">
+                </section>
+            </div>
+        </div>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
 </body>
