@@ -23,6 +23,10 @@
         border-bottom-right-radius: $radius-l;
         border-top: 0;
 
+        .service-card-title {
+            @include h200;
+        }
+
         .service-card-icons {
             display: flex;
             flex-wrap: wrap;
@@ -40,7 +44,13 @@
                     height: $xxl;
                     margin-right: 6px;
                 }
+
+                @include h200;
             }
+        }
+
+        .service-card-content {
+            margin-top: $m;
         }
 
         hr {
@@ -54,24 +64,91 @@
             @include p200;
         }
 
-        .procedure {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: $m 0;
+        .service-card-procedures {
+            margin-top: $m;
 
-            .procedure-label {
-                @include p200;
-                color: $dark-200;
+            .procedure {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: $m 0;
+
+                .procedure-label {
+                    @include p200;
+                    color: $dark-200;
+                }
+
+                .full-price {
+                    color: $dark-200;
+                    text-decoration: line-through;
+                }
+
+                .price {
+                    @include h200;
+                }
+
+            }
+        }
+
+        .book-button {
+            box-sizing: border-box;
+            width: 100%;
+            margin-top: $m;
+        }
+    }
+
+    @include desktop {
+        box-shadow: none;
+        border-radius: 0;
+
+        .service-card-image {
+            img {
+                border-radius: $radius-l;
             }
 
-            .full-price {
-                color: $dark-200;
-                text-decoration: line-through;
+        }
+
+        .service-card-big-content {
+            border: 0;
+            padding: 0;
+            margin-top: $xl;
+
+            .service-card-title {
+                @include h300;
             }
 
-            .price {
-                @include h200;
+            .service-card-icons {
+                .service-card-icon {
+                    flex: 0;
+                    margin-right: $xl3;
+                }
+            }
+
+            .service-card-content {
+                margin-top: $xl;
+            }
+
+            .service-card-procedures {
+                margin-top: $xl;
+
+                .procedure {
+                    margin-top: $s;
+                    border: 1px solid $light-200;
+                    border-radius: $radius-l;
+                    padding: $xl;
+
+                    .procedure-price {
+                        flex: auto;
+                        text-align: right;
+                        margin-right: $m;
+                    }
+                }
+            }
+
+            .book-button {
+                width: initial;
+                box-sizing: initial;
+                margin-top: $xl;
             }
         }
     }

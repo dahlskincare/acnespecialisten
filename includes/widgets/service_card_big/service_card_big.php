@@ -7,7 +7,7 @@
         </picture>
     </div>
     <div class="service-card-big-content">
-        <div class="h200"><?php echo $service->title ?></div>
+        <div class="service-card-title"><?php echo $service->title ?></div>
         <?php if (isset($service->duration)) { ?>
             <div class="service-duration"><?php echo $service->duration ?></div>
         <?php } ?>
@@ -16,16 +16,16 @@
                 <?php foreach ($service->icons as $key => $label) { ?>
                     <div class="service-card-icon">
                         <?php icon($key) ?>
-                        <div class="h200"><?php echo $label ?></div>
+                        <span><?php echo $label ?></span>
                     </div>
                 <?php } ?>
             </div>
         <?php } ?>
-        <div class="mt-m">
+        <div class="service-card-content">
             <?php echo $service->content ?>
         </div>
         <?php if (isset($service->procedures) && sizeof($service->procedures) > 0) { ?>
-            <div class="mt-m">
+            <div class="service-card-procedures is-hidden-desktop">
                 <?php foreach ($service->procedures as $procedure) { ?>
                     <hr />
                     <div class="procedure">
@@ -43,9 +43,23 @@
                 <?php } ?>
                 <hr />
             </div>
+            <div class="service-card-procedures is-hidden-touch">
+                <?php foreach ($service->procedures as $procedure) { ?>
+                    <div class="procedure">
+                        <div class="procedure-label"><?php echo $procedure->label ?></div>
+                        <div class="procedure-price">
+                            <span class="full-price"><?php echo $procedure->full_price ?></span>
+                            <span class="price"><?php echo $procedure->price ?></span>
+                        </div>
+                        <?php if (isset($procedure->booking_url)) { ?>
+                            <a href="<?php echo $procedure->booking_url ?>" target="_blank" class="button l10n">Book</a>
+                        <?php } ?>
+                    </div>
+                <?php } ?>
+            </div>
         <?php } ?>
         <?php if (isset($service->consultation_url)) { ?>
-            <a href="<?php echo $service->consultation_url ?>" target="_blank" class="mt-m button expand l10n">Book a free consultation</a>
+            <a href="<?php echo $service->consultation_url ?>" target="_blank" class="button book-button l10n">Book a free consultation</a>
         <?php } ?>
     </div>
 </div>

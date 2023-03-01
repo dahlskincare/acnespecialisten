@@ -189,6 +189,10 @@ section#header {
 
             .big-type {
                 margin-top: $xl;
+
+                @media screen and (min-width: $desktop) {
+                    margin-top: $xl4;
+                }
             }
         }
 
