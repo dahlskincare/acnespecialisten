@@ -122,16 +122,18 @@ class Brand
 
 class Procedure
 {
-    public function __construct($label, $full_price, $price)
+    public function __construct($label, $full_price, $price, $booking_url = null)
     {
         $this->label = $label;
         $this->full_price = $full_price;
         $this->price = $price;
+        $this->booking_url = $booking_url;
     }
 
     public string $label;
     public ?string $full_price;
     public string $price;
+    public ?string $booking_url;
 }
 
 class Service

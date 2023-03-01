@@ -42,5 +42,37 @@
                 }
             }
         }
+
+        hr {
+            border: 0;
+            border-top: 1px solid $light-200;
+        }
+
+        .service-duration {
+            margin-top: $xxs;
+            color: $dark-200;
+            @include p200;
+        }
+
+        .procedure {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: $m 0;
+
+            .procedure-label {
+                @include p200;
+                color: $dark-200;
+            }
+
+            .full-price {
+                color: $dark-200;
+                text-decoration: line-through;
+            }
+
+            .price {
+                @include h200;
+            }
+        }
     }
 }

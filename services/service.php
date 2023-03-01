@@ -9,9 +9,9 @@ $booking_url = '';
 $consultation_url = '';
 $duration = '50 min';
 $procedures = array(
-    new Procedure('1 procedure', null, '£1 995'),
-    new Procedure('3 procedures', '£3 885', '£2 595'),
-    new Procedure('5 procedures', '£6 475', '£3 995')
+    new Procedure('1 procedure', null, '£1 995', 'https://bokadirekt.se'),
+    new Procedure('3 procedures', '£3 885', '£2 595', 'https://bokadirekt.se'),
+    new Procedure('5 procedures', '£6 475', '£3 995', 'https://bokadirekt.se')
 );
 $nav_buttons = array(
     'about' => 'Overview',
@@ -41,10 +41,26 @@ $types = array(
 );
 */
 $big_types = array(
-    new Service('classic', 'Classic', null, null, 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',  'https://via.placeholder.com/358x274.webp', 'https://via.placeholder.com/872x456.webp', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/', array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders')),
-    new Service('skin-therapists-choice', "The skin therapist's choice", null, null, 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',  'https://via.placeholder.com/358x274.webp', 'https://via.placeholder.com/872x456.webp', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/', array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders')),
-    new Service('peel-boost-glow', 'Peel, Boost & Glow', null, null, 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',  'https://via.placeholder.com/358x274.webp', 'https://via.placeholder.com/872x456.webp', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/', array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders')),
-    new Service('luxury', 'Luxury', null, null, 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',  'https://via.placeholder.com/358x274.webp', 'https://via.placeholder.com/872x456.webp', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/', array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'))
+    new Service('classic', 'Classic', '60 min', null, 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',  'https://via.placeholder.com/358x274.webp', 'https://via.placeholder.com/872x456.webp', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/', array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'), null, array(
+        new Procedure('1 procedure', null, '£1 995', 'https://www.bokadirekt.se'),
+        new Procedure('3 procedures', '£3 885', '£2 595', 'https://www.bokadirekt.se'),
+        new Procedure('5 procedures', '£6 475', '£3 995', 'https://www.bokadirekt.se')
+    )),
+    new Service('skin-therapists-choice', "The skin therapist's choice", '60 min', null, 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',  'https://via.placeholder.com/358x274.webp', 'https://via.placeholder.com/872x456.webp', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/', array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'), null, array(
+        new Procedure('1 procedure', null, '£1 995', 'https://www.bokadirekt.se'),
+        new Procedure('3 procedures', '£3 885', '£2 595', 'https://www.bokadirekt.se'),
+        new Procedure('5 procedures', '£6 475', '£3 995', 'https://www.bokadirekt.se')
+    )),
+    new Service('peel-boost-glow', 'Peel, Boost & Glow', '60 min', null, 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',  'https://via.placeholder.com/358x274.webp', 'https://via.placeholder.com/872x456.webp', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/', array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'), null, array(
+        new Procedure('1 procedure', null, '£1 995', 'https://www.bokadirekt.se'),
+        new Procedure('3 procedures', '£3 885', '£2 595', 'https://www.bokadirekt.se'),
+        new Procedure('5 procedures', '£6 475', '£3 995', 'https://www.bokadirekt.se')
+    )),
+    new Service('luxury', 'Luxury', '60 min', null, 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',  'https://via.placeholder.com/358x274.webp', 'https://via.placeholder.com/872x456.webp', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/', array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'), null, array(
+        new Procedure('1 procedure', null, '£1 995', 'https://www.bokadirekt.se'),
+        new Procedure('3 procedures', '£3 885', '£2 595', 'https://www.bokadirekt.se'),
+        new Procedure('5 procedures', '£6 475', '£3 995', 'https://www.bokadirekt.se')
+    ))
 );
 $faq_categories = array(
     '' => array(
@@ -267,7 +283,7 @@ $specialists = array(
                         <?php } ?>
                         <?php if (isset($big_types)) { ?>
                             <?php foreach ($big_types as $service) { ?>
-                                <div>
+                                <div class="big-type">
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card_big/service_card_big.php') ?>
                                 </div>
                             <?php } ?>
