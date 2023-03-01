@@ -1,18 +1,13 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
-$title = 'Problem skin facials';
-// $header_text = '<p class="p200">Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we.</p>';
-$image_small = 'https://via.placeholder.com/358x274.webp';
-$image_large = 'https://via.placeholder.com/424x456.webp';
-$booking_url = '';
-$consultation_url = '';
-$duration = '50 min';
-$procedures = array(
+
+$model = new Service('problem-skin-facials', 'Problem skin facials', '50 min', null, '', 'https://via.placeholder.com/358x274.webp', 'https://via.placeholder.com/424x456.webp', '', '', null, null, array(
     new Procedure('1 procedure', null, '£1 995', 'https://bokadirekt.se'),
     new Procedure('3 procedures', '£3 885', '£2 595', 'https://bokadirekt.se'),
     new Procedure('5 procedures', '£6 475', '£3 995', 'https://bokadirekt.se')
-);
+));
+
 $nav_buttons = array(
     'about' => 'Overview',
     'preparing' => 'Preparing',
@@ -91,7 +86,7 @@ $specialists = array(
 
 <head>
     <!-- TODO: Set title and meta tags -->
-    <title class="l10n">Acnespecialisten | <?php echo $title ?></title>
+    <title class="l10n">Acnespecialisten | <?php echo $model->title ?></title>
     <meta name="description" content="" class="l10n">
     <meta name="title" content="" class="l10n">
     <meta name="keywords" content="" class="l10n">
@@ -108,24 +103,24 @@ $specialists = array(
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
     <div class="is-hidden-touch is-hidden-desktop-only" id="floater">
         <div class="container">
-            <div id="floating-picture" style="background-image: url('<?php echo $image_large ?>')">
+            <div id="floating-picture" style="background-image: url('<?php echo $model->image_large ?>')">
                 <div id="overlay">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
                     <div>
                         <h2 class="h600">
-                            <?php echo $title ?>
+                            <?php echo $model->title ?>
                         </h2>
-                        <?php if (isset($duration)) { ?>
+                        <?php if (isset($model->duration)) { ?>
                             <div class="mt-m">
-                                <span class="p200 l10n">Duration: <?php echo $duration ?></span>
+                                <span class="p200 l10n">Duration: <?php echo $model->duration ?></span>
                             </div>
                         <?php } ?>
-                        <?php if (isset($header_text)) { ?>
-                            <div class="mt-m"><?php echo $header_text ?></div>
+                        <?php if (strlen($model->content) > 0) { ?>
+                            <div class="mt-m"><?php echo $model->content ?></div>
                         <?php } ?>
-                        <?php if (isset($procedures)) { ?>
+                        <?php if (isset($model->procedures)) { ?>
                             <div id="floating-procedures" class="mt-xl">
-                                <?php foreach ($procedures as $procedure) { ?>
+                                <?php foreach ($model->procedures as $procedure) { ?>
                                     <div class="floating-procedure">
                                         <div class="p200">
                                             <?php echo $procedure->label ?>
@@ -140,10 +135,10 @@ $specialists = array(
                         <?php } ?>
                         <div class="mt-xl columns is-2 is-variable">
                             <div class="column">
-                                <a href="<?php echo $consultation_url ?>" target="_blank" class="button white expand l10n">Get a free consultation</a>
+                                <a href="<?php echo $model->consultation_url ?>" target="_blank" class="button white expand l10n">Get a free consultation</a>
                             </div>
                             <div class="column">
-                                <a href="<?php echo $booking_url ?>" target="_blank" class="button white expand l10n">Book a treatment</a>
+                                <a href="<?php echo $model->booking_url ?>" target="_blank" class="button white expand l10n">Book a treatment</a>
                             </div>
 
                         </div>
@@ -158,17 +153,17 @@ $specialists = array(
                 <div class="container">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
                     <h1 class="mt-xs h600">
-                        <?php echo $title ?>
+                        <?php echo $model->title ?>
                     </h1>
-                    <?php if (isset($duration)) { ?>
-                        <h3 class="mt-xs p200 l10n">Duration: <?php echo $duration ?></h3>
+                    <?php if (isset($model->duration)) { ?>
+                        <h3 class="mt-xs p200 l10n">Duration: <?php echo $model->duration ?></h3>
                     <?php } ?>
-                    <?php if (isset($header_text)) { ?>
-                        <div class="mt-xs"><?php echo $header_text ?></div>
+                    <?php if (strlen($model->content) > 0) { ?>
+                        <div class="mt-xs"><?php echo $model->content ?></div>
                     <?php } ?>
-                    <?php if (isset($procedures)) { ?>
+                    <?php if (isset($model->procedures)) { ?>
                         <div class="procedures mt-xl">
-                            <?php foreach ($procedures as $procedure) { ?>
+                            <?php foreach ($model->procedures as $procedure) { ?>
                                 <div class="procedure">
                                     <div class="p200 l10n"><?php echo $procedure->label ?></div>
                                     <div>
@@ -181,10 +176,10 @@ $specialists = array(
                     <?php } ?>
                     <div class="mt-xl columns is-mobile">
                         <div class="column is-half">
-                            <a href="<?php echo $consultation_url ?>" target="_blank" class="button b200 white expand l10n">Free consultation</a>
+                            <a href="<?php echo $model->consultation_url ?>" target="_blank" class="button b200 white expand l10n">Free consultation</a>
                         </div>
                         <div class="column is-half">
-                            <a href="<?php echo $booking_url ?>" target="_blank" class="button b200 white expand l10n">Book a treatment</a>
+                            <a href="<?php echo $model->booking_url ?>" target="_blank" class="button b200 white expand l10n">Book a treatment</a>
                         </div>
                     </div>
                 </div>
@@ -201,19 +196,19 @@ $specialists = array(
                     </div>
                     <div id="green-header-large-text" class="mt-xxs">
                         <h1 class="h600">
-                            <?php echo $title ?>
+                            <?php echo $model->title ?>
                         </h1>
-                        <?php if (isset($duration)) { ?>
+                        <?php if (isset($model->duration)) { ?>
                             <div class="mt-xs">
-                                <span class="p200 l10n">Duration: <?php echo $duration ?></span>
+                                <span class="p200 l10n">Duration: <?php echo $model->duration ?></span>
                             </div>
                         <?php } ?>
-                        <?php if (isset($header_text)) { ?>
-                            <div class="mt-s"><?php echo $header_text ?></div>
+                        <?php if (strlen($model->content) > 0) { ?>
+                            <div class="mt-s"><?php echo $model->content ?></div>
                         <?php } ?>
-                        <?php if (isset($procedures)) { ?>
+                        <?php if (isset($model->procedures)) { ?>
                             <div class="mt-xl large-procedures flex-row">
-                                <?php foreach ($procedures as $procedure) { ?>
+                                <?php foreach ($model->procedures as $procedure) { ?>
                                     <div class="large-procedure">
                                         <div class="p200 l10n"><?php echo $procedure->label ?></div>
                                         <div>
@@ -225,8 +220,8 @@ $specialists = array(
                             </div>
                         <?php } ?>
                         <div class="mt-xl flex-row" id="book-buttons">
-                            <a href="<?php echo $consultation_url ?>" target="_blank" class="button b200 white l10n">Get a free consultation</a>
-                            <a href="<?php echo $booking_url ?>" target="_blank" class="button b200 white l10n">Book a treatment</a>
+                            <a href="<?php echo $model->consultation_url ?>" target="_blank" class="button b200 white l10n">Get a free consultation</a>
+                            <a href="<?php echo $model->booking_url ?>" target="_blank" class="button b200 white l10n">Book a treatment</a>
                         </div>
                     </div>
                 </div>
@@ -239,9 +234,9 @@ $specialists = array(
                 </section>
                 <section id="image" class="is-hidden-desktop">
                     <picture>
-                        <source media="(max-width: 449px)" srcset="<?php echo $image_small ?>">
-                        <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
-                        <img src="<?php echo $image_large ?>" alt="<?php echo $title ?>" width="358" height="274" />
+                        <source media="(max-width: 449px)" srcset="<?php echo $model->image_small ?>">
+                        <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
+                        <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->title ?>" width="358" height="274" />
                     </picture>
                 </section>
                 <section id="nav-buttons">
