@@ -59,6 +59,10 @@ section#header {
     }
 
     section#treat {
+        .service-card-big-widget {
+            margin-top: $xl;
+        }
+
         #service-buttons {
             button:not(:last-child) {
                 margin-right: $xs;
@@ -136,6 +140,12 @@ section#header {
             .button {
                 width: auto;
                 box-sizing: initial;
+            }
+        }
+
+        section#treat {
+            .service-card-big-widget {
+                margin-top: $xl4;
             }
         }
 

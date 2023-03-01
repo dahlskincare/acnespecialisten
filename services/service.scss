@@ -187,10 +187,10 @@ section#header {
                 margin: 0;
             }
 
-            .big-type {
+            .service-card-big-widget {
                 margin-top: $xl;
 
-                @media screen and (min-width: $desktop) {
+                @media screen and (min-width: $tablet) {
                     margin-top: $xl4;
                 }
             }
