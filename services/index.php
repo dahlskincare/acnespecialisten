@@ -202,9 +202,9 @@ $service_categories = array(
                 <div id="item-container">
                     <?php for ($i = 0; $i < count($service_categories); $i++) { ?>
                         <div class="item" id="item-<?php echo $i ?>">
-                            <p><a href="services/<?php echo $service_categories[$i]->id ?>" class="h200"><?php echo $service_categories[$i]->label ?></a></p>
+                            <p class="h200"><?php echo $service_categories[$i]->label ?></p>
                             <?php foreach ($service_categories[$i]->services as $service) { ?>
-                                <p class="p200 service-label"><a href="services/<?php echo $service_categories[$i]->id ?>/<?php echo $service->id ?>"><?php echo $service->title ?></a></p>
+                                <p class="p200 service-label"><a href="services/<?php echo $service->id ?>"><?php echo $service->title ?></a></p>
                             <?php } ?>
                         </div>
                     <?php } ?>
