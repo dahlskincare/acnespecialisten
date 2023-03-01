@@ -1,22 +1,8 @@
 <?php
-
-class Procedure
-{
-    public function __construct($label, $full_price, $price)
-    {
-        $this->label = $label;
-        $this->full_price = $full_price;
-        $this->price = $price;
-    }
-
-    public string $label;
-    public ?string $full_price;
-    public string $price;
-}
-
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 $title = 'Problem skin facials';
+// $header_text = '<p class="p200">Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we.</p>';
 $image_small = 'https://via.placeholder.com/358x274.webp';
 $image_large = 'https://via.placeholder.com/424x456.webp';
 $booking_url = '';
@@ -30,8 +16,8 @@ $procedures = array(
 $nav_buttons = array(
     'about' => 'Overview',
     'preparing' => 'Preparing',
-    'procedure-process' => 'Process',
-    'services' => 'Types',
+    'process' => 'Process',
+    'types' => 'Types',
     'aftercare' => 'Aftercare',
     'results' => 'Results',
     'reviews' => 'Reviews',
@@ -41,16 +27,24 @@ $nav_buttons = array(
 );
 $description_title = 'What is problem skin facials?';
 $description_text = '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>';
-$articles = array(
-    new Article('preparing', 'Preparing for problem skin facials', 'https://via.placeholder.com/358x272.webp', 'https://via.placeholder.com/872x456.webp', '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>', array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))),
-    new Article('procedure-process', 'Procedure process', 'https://via.placeholder.com/358x272.webp', 'https://via.placeholder.com/872x456.webp', '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>', array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))),
-);
-$services_title = 'Problem facials we provide';
-$services = array(
+$article_preparing = new Article('preparing', 'Preparing for problem skin facials', 'https://via.placeholder.com/358x272.webp', 'https://via.placeholder.com/872x456.webp', '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>', array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing')));
+$article_process = new Article('procedure-process', 'Procedure process', 'https://via.placeholder.com/358x272.webp', 'https://via.placeholder.com/872x456.webp', '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>', array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing')));
+$article_after_care = new Article('aftercare', 'Aftercare and maintenance', 'https://via.placeholder.com/358x272.webp', 'https://via.placeholder.com/872x456.webp', '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>', array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing')));
+$types_title = 'Problem facials we provide';
+$types_description = 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.';
+/*
+$types = array(
     new Service('chemical-peeling-pigmentation', 'Chemical peeling', null, null, 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',  'https://via.placeholder.com/102x102.jpg', 'https://via.placeholder.com/200x200.jpg', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/'),
     new Service('laser-pigmentation', 'Laser', null, null, 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',  'https://via.placeholder.com/102x102.jpg', 'https://via.placeholder.com/200x200.jpg', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/'),
     new Service('ipl-pigmentation', 'IPL', null, null, 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',  'https://via.placeholder.com/102x102.jpg', 'https://via.placeholder.com/200x200.jpg', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/'),
     new Service('freezetreat-pigmentation', 'FreezeTreat', null, null, 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',  'https://via.placeholder.com/102x102.jpg', 'https://via.placeholder.com/200x200.jpg', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/')
+);
+*/
+$big_types = array(
+    new Service('classic', 'Classic', null, null, 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',  'https://via.placeholder.com/358x274.webp', 'https://via.placeholder.com/872x456.webp', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/', array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders')),
+    new Service('skin-therapists-choice', "The skin therapist's choice", null, null, 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',  'https://via.placeholder.com/358x274.webp', 'https://via.placeholder.com/872x456.webp', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/', array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders')),
+    new Service('peel-boost-glow', 'Peel, Boost & Glow', null, null, 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',  'https://via.placeholder.com/358x274.webp', 'https://via.placeholder.com/872x456.webp', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/', array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders')),
+    new Service('luxury', 'Luxury', null, null, 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',  'https://via.placeholder.com/358x274.webp', 'https://via.placeholder.com/872x456.webp', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/', array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'))
 );
 $faq_categories = array(
     '' => array(
@@ -105,22 +99,29 @@ $specialists = array(
                         <h2 class="h600">
                             <?php echo $title ?>
                         </h2>
-                        <div class="mt-m">
-                            <span class="p200 l10n">Duration: <?php echo $duration ?></span>
-                        </div>
-                        <div id="floating-procedures" class="mt-xl">
-                            <?php foreach ($procedures as $procedure) { ?>
-                                <div class="floating-procedure">
-                                    <div class="p200">
-                                        <?php echo $procedure->label ?>
+                        <?php if (isset($duration)) { ?>
+                            <div class="mt-m">
+                                <span class="p200 l10n">Duration: <?php echo $duration ?></span>
+                            </div>
+                        <?php } ?>
+                        <?php if (isset($header_text)) { ?>
+                            <div class="mt-m"><?php echo $header_text ?></div>
+                        <?php } ?>
+                        <?php if (isset($procedures)) { ?>
+                            <div id="floating-procedures" class="mt-xl">
+                                <?php foreach ($procedures as $procedure) { ?>
+                                    <div class="floating-procedure">
+                                        <div class="p200">
+                                            <?php echo $procedure->label ?>
+                                        </div>
+                                        <div class="floating-procedure-price">
+                                            <span class="p200 strikethrough mr-xs"><?php echo $procedure->full_price ?></span>
+                                            <span class="h200"><?php echo $procedure->price ?></span>
+                                        </div>
                                     </div>
-                                    <div class="floating-procedure-price">
-                                        <span class="p200 strikethrough mr-xs"><?php echo $procedure->full_price ?></span>
-                                        <span class="h200"><?php echo $procedure->price ?></span>
-                                    </div>
-                                </div>
-                            <?php } ?>
-                        </div>
+                                <?php } ?>
+                            </div>
+                        <?php } ?>
                         <div class="mt-xl columns is-2 is-variable">
                             <div class="column">
                                 <a href="<?php echo $consultation_url ?>" target="_blank" class="button white expand l10n">Get a free consultation</a>
@@ -143,19 +144,25 @@ $specialists = array(
                     <h1 class="mt-xs h600">
                         <?php echo $title ?>
                     </h1>
-                    <h3 class="mt-xs p200 l10n">Duration: <?php echo $duration ?></h3>
-                    <div class="procedures mt-xl">
-                        <?php foreach ($procedures as $procedure) { ?>
-                            <div class="procedure">
-                                <div class="p200 l10n"><?php echo $procedure->label ?></div>
-                                <div>
-                                    <span class="p200 strikethrough mr-xs"><?php echo $procedure->full_price ?></span>
-                                    <span class="h200"><?php echo $procedure->price ?></span>
+                    <?php if (isset($duration)) { ?>
+                        <h3 class="mt-xs p200 l10n">Duration: <?php echo $duration ?></h3>
+                    <?php } ?>
+                    <?php if (isset($header_text)) { ?>
+                        <div class="mt-xs"><?php echo $header_text ?></div>
+                    <?php } ?>
+                    <?php if (isset($procedures)) { ?>
+                        <div class="procedures mt-xl">
+                            <?php foreach ($procedures as $procedure) { ?>
+                                <div class="procedure">
+                                    <div class="p200 l10n"><?php echo $procedure->label ?></div>
+                                    <div>
+                                        <span class="p200 strikethrough mr-xs"><?php echo $procedure->full_price ?></span>
+                                        <span class="h200"><?php echo $procedure->price ?></span>
+                                    </div>
                                 </div>
-                            </div>
-                        <?php } ?>
-                    </div>
-
+                            <?php } ?>
+                        </div>
+                    <?php } ?>
                     <div class="mt-xl columns is-mobile">
                         <div class="column is-half">
                             <a href="<?php echo $consultation_url ?>" target="_blank" class="button b200 white expand l10n">Free consultation</a>
@@ -180,20 +187,27 @@ $specialists = array(
                         <h1 class="h600">
                             <?php echo $title ?>
                         </h1>
-                        <div class="mt-xs">
-                            <span class="p200 l10n">Duration: <?php echo $duration ?></span>
-                        </div>
-                        <div class="mt-xl large-procedures flex-row">
-                            <?php foreach ($procedures as $procedure) { ?>
-                                <div class="large-procedure">
-                                    <div class="p200 l10n"><?php echo $procedure->label ?></div>
-                                    <div>
-                                        <span class="p200 strikethrough mr-xs"><?php echo $procedure->full_price ?></span>
-                                        <span class="h200"><?php echo $procedure->price ?></span>
+                        <?php if (isset($duration)) { ?>
+                            <div class="mt-xs">
+                                <span class="p200 l10n">Duration: <?php echo $duration ?></span>
+                            </div>
+                        <?php } ?>
+                        <?php if (isset($header_text)) { ?>
+                            <div class="mt-s"><?php echo $header_text ?></div>
+                        <?php } ?>
+                        <?php if (isset($procedures)) { ?>
+                            <div class="mt-xl large-procedures flex-row">
+                                <?php foreach ($procedures as $procedure) { ?>
+                                    <div class="large-procedure">
+                                        <div class="p200 l10n"><?php echo $procedure->label ?></div>
+                                        <div>
+                                            <span class="p200 strikethrough mr-xs"><?php echo $procedure->full_price ?></span>
+                                            <span class="h200"><?php echo $procedure->price ?></span>
+                                        </div>
                                     </div>
-                                </div>
-                            <?php } ?>
-                        </div>
+                                <?php } ?>
+                            </div>
+                        <?php } ?>
                         <div class="mt-xl flex-row" id="book-buttons">
                             <a href="<?php echo $consultation_url ?>" target="_blank" class="button b200 white l10n">Get a free consultation</a>
                             <a href="<?php echo $booking_url ?>" target="_blank" class="button b200 white l10n">Book a treatment</a>
@@ -221,28 +235,54 @@ $specialists = array(
                     <h2 class="h500"><?php echo $description_title ?></h2>
                     <div class="mt-xl"><?php echo $description_text ?></div>
                 </section>
-                <section id="articles">
-                    <?php foreach ($articles as $article) { ?>
-                        <div id="<?php echo $article->id ?>">
-                            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php'); ?>
-                        </div>
-                    <?php } ?>
-                </section>
-                <section id="services">
-                    <h2 class="h500 mb-xl"><?php echo $services_title; ?></h2>
-                    <?php foreach ($services as $service) { ?>
-                        <hr class="is-hidden-touch" />
-                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
-                    <?php } ?>
-                    <hr class="is-hidden-touch" />
-                </section>
-                <section id="aftercare">
-                    <?php
-                    $article = new Article('aftercare', 'Aftercare and maintenance', 'https://via.placeholder.com/358x272.webp', 'https://via.placeholder.com/872x456.webp', '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>', array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing')));
-                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
-                    ?>
-                </section>
-                <section id="results">
+                <?php if (isset($article_preparing)) { ?>
+                    <section id="preparing">
+                        <?php
+                        $article = $article_preparing;
+                        include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
+                        ?>
+                    </section>
+                <?php } ?>
+                <?php if (isset($article_process)) { ?>
+                    <section id="process">
+                        <?php
+                        $article = $article_process;
+                        include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
+                        ?>
+                    </section>
+                <?php } ?>
+                <?php if (isset($types_title)) { ?>
+                    <section id="types" class="large-margin">
+                        <h2 class="h500"><?php echo $types_title; ?></h2>
+                        <?php if (isset($types_description)) { ?>
+                            <p class="p200 mt-xs"><?php echo $types_description ?></p>
+                        <?php } ?>
+                        <div class="mt-xl"></div>
+                        <?php if (isset($types)) { ?>
+                            <?php foreach ($types as $service) { ?>
+                                <hr class="is-hidden-touch" />
+                                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
+                            <?php } ?>
+                            <hr class="is-hidden-touch" />
+                        <?php } ?>
+                        <?php if (isset($big_types)) { ?>
+                            <?php foreach ($big_types as $service) { ?>
+                                <div>
+                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card_big/service_card_big.php') ?>
+                                </div>
+                            <?php } ?>
+                        <?php } ?>
+                    </section>
+                <?php } ?>
+                <?php if (isset($article_after_care)) { ?>
+                    <section id="aftercare">
+                        <?php
+                        $article = $article_after_care;
+                        include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
+                        ?>
+                    </section>
+                <?php } ?>
+                <section id="results" class="large-margin">
                     <div class="flex-row justify-space-between">
                         <h2 class="big l10n">Results</h2>
                         <div class="step-buttons">
@@ -282,7 +322,7 @@ $specialists = array(
                     </div>
                     <a class="button b200 outline l10n" href="results">View all treatment results</a>
                 </section>
-                <section id="reviews">
+                <section id="reviews" class="large-margin">
                     <div class="flex-row align-end justify-space-between">
                         <h2 class="big l10n">Reviews</h2>
                         <div class="flex-row is-hidden-mobile">
@@ -302,12 +342,12 @@ $specialists = array(
                     ?>
                     <a class="mt-xl button b200 outline expand auto-width l10n" href="reviews">View all reviews</a>
                 </section>
-                <section id="faq">
+                <section id="faq" class="large-margin">
                     <h2 class="big l10n">Questions & answers</h2>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
                     <a class="mt-xl button b200 outline expand auto-width l10n" href="faq">View all questions</a>
                 </section>
-                <section id="skin-guide">
+                <section id="skin-guide" class="large-margin">
                     <div class="flex-row justify-space-between">
                         <h2 class="big l10n">Skin guide</h2>
                         <div class="is-hidden-touch">
@@ -322,7 +362,7 @@ $specialists = array(
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide_narrow.php'); ?>
                     <a class="mt-xl button b200 outline expand auto-width l10n" href="skin-guide">View all articles</a>
                 </section>
-                <section id="specialists">
+                <section id="specialists" class="large-margin">
                     <div class="flex-row justify-space-between">
                         <h2 class="big l10n">Our specialists</h2>
                         <div class="is-hidden-touch">

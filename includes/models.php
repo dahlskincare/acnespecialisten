@@ -119,6 +119,21 @@ class Brand
     public string $image;
 }
 
+
+class Procedure
+{
+    public function __construct($label, $full_price, $price)
+    {
+        $this->label = $label;
+        $this->full_price = $full_price;
+        $this->price = $price;
+    }
+
+    public string $label;
+    public ?string $full_price;
+    public string $price;
+}
+
 class Service
 {
     public function __construct(
@@ -132,7 +147,8 @@ class Service
         $consultation_url,
         $booking_url,
         $icons = array(),
-        $short_title = null
+        $short_title = null,
+        $procedures = array()
     ) {
         $this->id = $id;
         $this->title = $title;
@@ -145,6 +161,7 @@ class Service
         $this->booking_url = $booking_url;
         $this->icons = $icons;
         $this->short_title = $short_title;
+        $this->procedures = $procedures;
     }
 
     public string $id;
@@ -158,6 +175,7 @@ class Service
     public ?string $booking_url;
     public ?array $icons;
     public ?string $short_title;
+    public ?array $procedures;
 }
 
 class Product

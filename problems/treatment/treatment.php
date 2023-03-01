@@ -182,7 +182,7 @@ $repair_url = 'treatments/acne';
                         <?php } ?>
                     </div>
                     <?php foreach ($services as $service) {
-                        include($_SERVER['DOCUMENT_ROOT'] . 'includes/widgets/service_card/service_card.php');
+                        include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card_big/service_card_big.php');
                     } ?>
                 </section>
                 <?php if (sizeof($products) > 0) { ?>
