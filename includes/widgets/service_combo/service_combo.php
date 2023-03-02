@@ -1,4 +1,4 @@
-<div class="service-combo-widget">
+<a href="<?php echo $combo->booking_url ?>" target="_blank" class="service-combo-widget">
     <div class="service-combo-small is-hidden-tablet">
         <div class="image">
             <picture>
@@ -21,7 +21,7 @@
                     <span class="service-combo-full-price"><?php echo $combo->full_price ?></span><span class="service-combo-price"><?php echo $combo->price ?></span>
                 </div>
             </div>
-            <a href="<?php $combo->booking_url ?>" target="_blank" class="mt-m button expand l10n">Book a combination</a>
+            <button class="mt-m expand l10n">Book a combination</button>
         </div>
     </div>
     <div class="service-combo-large is-hidden-mobile">
@@ -46,9 +46,9 @@
                 </div>
                 <div>
                     <span class="service-combo-full-price"><?php echo $combo->full_price ?></span><span class="service-combo-price"><?php echo $combo->price ?></span>
-                    <a href="<?php $combo->booking_url ?>" target="_blank" class="button l10n">Book a combination</a>
+                    <button class="l10n">Book a combination</button>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</a>
