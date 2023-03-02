@@ -16,7 +16,7 @@
                         <img src="<?php echo $item->image ?>" alt="<?php echo $area->title ?>" width="102" height="102" />
                     </div>
                     <div class="area-item-info">
-                        <div class=" h200"><?php echo $item->title ?></div>
+                        <div class="h200 title"><?php echo $item->title ?></div>
                         <div class="price-duration">
                             <div><?php echo $item->price ?></div>
                             <div class="dot ml-xs mr-xs"></div>
@@ -28,9 +28,48 @@
                     </div>
                 </div>
             <?php } ?>
-
         </div>
-        <div class="treatment-area-large is-hidden-mobile"></div>
+        <div class="treatment-area-large is-hidden-mobile">
+            <div class="image">
+                <picture>
+                    <source media="(max-width: 799px)" srcset="<?php echo $area->image_small ?>">
+                    <source media="(min-width: 800px)" srcset="<?php echo $area->image_large ?>">
+                    <img src="<?php echo $area->image_large ?>" alt="<?php echo $area->title ?>" width="872" height="456" />
+                </picture>
+            </div>
+            <div class="mt-xl h300"><?php echo $area->title ?></div>
+            <div class="mt-xxs"><?php echo $area->description ?></div>
+            <div class="columns is-3 is-variable is-multiline">
+                <?php foreach ($area->items as $item) { ?>
+                    <div class="column <?php
+                                        if (isset($item->image)) {
+                                            echo 'is-half';
+                                        } else {
+                                            echo 'is-one-third';
+                                        }
+                                        ?>">
+                        <div class="area-item-card">
+                            <?php if (isset($item->image)) { ?>
+                                <div class="image">
+                                    <img src="<?php echo $item->image ?>" alt="<?php echo $area->title ?>" width="102" height="102" />
+                                </div>
+                            <?php } ?>
+                            <div class="area-item-info">
+                                <div class="h200 title"><?php echo $item->title ?></div>
+                                <div class="price-duration">
+                                    <div><?php echo $item->price ?></div>
+                                    <div class="dot ml-xs mr-xs"></div>
+                                    <div><?php echo $item->duration ?></div>
+                                </div>
+                            </div>
+                            <div class="area-item-icon">
+                                <?php icon('add') ?>
+                            </div>
+                        </div>
+                    </div>
+                <?php } ?>
+            </div>
+        </div>
 
     <?php } ?>
     <script src="includes/widgets/treatment_areas/treatment_areas.js"></script>

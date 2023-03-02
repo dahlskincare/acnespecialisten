@@ -46,9 +46,9 @@ $treatment_areas = array(
         new TreatmentAreaItem(image: 'https://via.placeholder.com/102x102.webm', title: 'Chest', duration: '30 min', price: '1295 kr')
     )),
     new TreatmentArea(image_small: 'https://via.placeholder.com/361x274.webm', image_large: 'https://via.placeholder.com/872x456.webm', title: 'Intimate', description: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin.</p>', items: array(
-        new TreatmentAreaItem(image: 'https://via.placeholder.com/102x102.webm', title: 'Bikini line', duration: '30 min', price: '1295 kr'),
-        new TreatmentAreaItem(image: 'https://via.placeholder.com/102x102.webm', title: 'String', duration: '30 min', price: '1295 kr'),
-        new TreatmentAreaItem(image: 'https://via.placeholder.com/102x102.webm', title: 'Brazilian', duration: '30 min', price: '1295 kr')
+        new TreatmentAreaItem(image: null, title: 'Bikini line', duration: '30 min', price: '1295 kr'),
+        new TreatmentAreaItem(image: null, title: 'String', duration: '30 min', price: '1295 kr'),
+        new TreatmentAreaItem(image: null, title: 'Brazilian', duration: '30 min', price: '1295 kr')
     ))
 );
 $treatment_areas_text = '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>';

@@ -10,6 +10,7 @@
         img {
             width: 100%;
             height: auto;
+            border-radius: $radius-l;
         }
     }
 
@@ -23,65 +24,89 @@
         width: 100%;
     }
 
-
-    .treatment-area-small {
-        margin-top: $xl3;
+    .area-item-card {
+        display: flex;
+        padding: $xl;
+        border: 1px solid $light-200;
+        border-radius: $radius-l;
 
         .image {
+            width: 102px;
+            border-radius: $radius-s;
+            overflow: hidden;
+            margin-right: $m;
+
             img {
-                border-radius: $radius-l;
+                border-radius: $radius-s;
             }
         }
 
-        .area-item-card {
-            margin-top: $m;
-            display: flex;
-            padding: $xl;
-            border: 1px solid $light-200;
-            border-radius: $radius-l;
-            @include elevation-low;
+        .area-item-info {
+            align-self: center;
+            flex: 1;
 
-            .image {
-                width: 102px;
-                border-radius: $radius-s;
-                overflow: hidden;
+            .price-duration {
+                margin-top: $xxs;
+                display: flex;
+                align-items: center;
 
-                img {
-                    border-radius: $radius-s;
+                div {
+                    color: $dark-200;
+                    @include p200;
+                }
+
+                .dot {
+                    background-color: $dark-25;
+                    width: 5px;
+                    height: 5px;
+                    border-radius: 50%;
                 }
             }
+        }
 
-            .area-item-info {
-                align-self: center;
-                margin-left: $m;
-                flex: 1;
-
-                .price-duration {
-                    margin-top: $xxs;
-                    display: flex;
-                    align-items: center;
-
-                    div {
-                        color: $dark-200;
-                        @include p200;
-                    }
-
-                    .dot {
-                        background-color: $dark-25;
-                        width: 5px;
-                        height: 5px;
-                        border-radius: 50%;
-                    }
-                }
-            }
-
-            .icon {
-                width: $xl;
-                height: $xl;
-            }
-
+        .icon {
+            width: $xl;
+            height: $xl;
         }
     }
 
-    .treatment-area-large {}
+    .area-item-card:hover {
+        @include elevation-low;
+
+        .area-item-info {
+            .title {
+                color: $deep-sea-400;
+            }
+        }
+
+        .area-item-icon {
+            @include text-color($deep-sea-400);
+        }
+    }
+
+    .area-item-card.selected {
+        border: 1px solid $deep-sea-400;
+    }
+
+
+    .treatment-area-small {
+        margin-top: $xl3;
+        @include elevation-low;
+
+        .area-item-card {
+
+            margin-top: $m;
+        }
+    }
+
+    .treatment-area-large {
+        margin-top: $xl4;
+
+        .area-item-card {
+            cursor: pointer;
+            margin-top: $xl;
+        }
+    }
+
+
 }

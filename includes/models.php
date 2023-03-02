@@ -278,7 +278,7 @@ class TreatmentAreaItem
         $this->duration = $duration;
         $this->price = $price;
     }
-    public string $image;
+    public ?string $image;
     public string $title;
     public string $duration;
     public string $price;
