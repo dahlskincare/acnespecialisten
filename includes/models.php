@@ -150,7 +150,8 @@ class Service
         $booking_url,
         $icons = array(),
         $short_title = null,
-        $procedures = array()
+        $procedures = array(),
+        $combos = array(),
     ) {
         $this->id = $id;
         $this->title = $title;
@@ -164,6 +165,7 @@ class Service
         $this->icons = $icons;
         $this->short_title = $short_title;
         $this->procedures = $procedures;
+        $this->combos = $combos;
     }
 
     public string $id;
@@ -177,7 +179,42 @@ class Service
     public ?string $booking_url;
     public ?array $icons;
     public ?string $short_title;
-    public ?array $procedures;
+    public array $procedures;
+    public array $combos;
+}
+
+class ServiceCombo
+{
+    public function __construct($image_small, $image_large, $duration, $price, $full_price, $booking_url, $items)
+    {
+        $this->image_small = $image_small;
+        $this->image_large = $image_large;
+        $this->duration = $duration;
+        $this->price = $price;
+        $this->full_price = $full_price;
+        $this->booking_url = $booking_url;
+        $this->items = $items;
+    }
+
+    public string $image_small;
+    public string $image_large;
+    public string $duration;
+    public string $price;
+    public string $full_price;
+    public string $booking_url;
+    public array $items;
+}
+
+class ServiceComboItem
+{
+    public function __construct($title, $price)
+    {
+        $this->title = $title;
+        $this->price = $price;
+    }
+
+    public string $title;
+    public string $price;
 }
 
 class Product

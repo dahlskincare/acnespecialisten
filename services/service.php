@@ -18,6 +18,23 @@ $model = new Service(
         new Procedure('1 procedure', null, '£1 995', 'https://bokadirekt.se'),
         new Procedure('3 procedures', '£3 885', '£2 595', 'https://bokadirekt.se'),
         new Procedure('5 procedures', '£6 475', '£3 995', 'https://bokadirekt.se')
+    ),
+    array(
+        new ServiceCombo('https://via.placeholder.com/200x200.webp', 'https://via.placeholder.com/361x274.webp', '50 min', '2595 kr', '3885 kr', 'https://bokadirekt.se', array(
+            new ServiceComboItem('Deep bikini', '995 kr'),
+            new ServiceComboItem('Armpits', '995 kr')
+        )),
+        new ServiceCombo('https://via.placeholder.com/200x200.webp', 'https://via.placeholder.com/361x274.webp', '50 min', '2595 kr', '3885 kr', 'https://bokadirekt.se', array(
+            new ServiceComboItem('Deep bikini', '995 kr'),
+            new ServiceComboItem('Armpits', '995 kr'),
+            new ServiceComboItem('Legs', '995 kr')
+        )),
+        new ServiceCombo('https://via.placeholder.com/200x200.webp', 'https://via.placeholder.com/361x274.webp', '50 min', '2595 kr', '3885 kr', 'https://bokadirekt.se', array(
+            new ServiceComboItem('Full legs', '995 kr'),
+            new ServiceComboItem('Arms up to the elbow', '995 kr'),
+            new ServiceComboItem('Deep bikini', '995 kr'),
+            new ServiceComboItem('Armpits', '995 kr'),
+        ))
     )
 );
 
@@ -314,6 +331,11 @@ $specialists = array(
                                 </div>
                             <?php } ?>
                         <?php } ?>
+                    </section>
+                <?php } ?>
+                <?php if (isset($model->combos)) { ?>
+                    <section id="combos" class="large-margin">
+                        <h2 class="big l10n">Popular treatment combos</h2>
                     </section>
                 <?php } ?>
                 <?php if (isset($article_after_care)) { ?>
