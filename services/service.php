@@ -2,11 +2,31 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$model = new Service('problem-skin-facials', 'Problem skin facials', '50 min', null, '', 'https://via.placeholder.com/358x274.webp', 'https://via.placeholder.com/424x456.webp', '', '', null, null, array(
-    new Procedure('1 procedure', null, '£1 995', 'https://bokadirekt.se'),
-    new Procedure('3 procedures', '£3 885', '£2 595', 'https://bokadirekt.se'),
-    new Procedure('5 procedures', '£6 475', '£3 995', 'https://bokadirekt.se')
-));
+$model = new Service(
+    'problem-skin-facials',
+    'Problem skin facials',
+    '50 min',
+    null,
+    '',
+    'https://via.placeholder.com/358x274.webp',
+    'https://via.placeholder.com/424x456.webp',
+    '',
+    '',
+    null,
+    null,
+    array(
+        new Procedure('1 procedure', null, '£1 995', 'https://bokadirekt.se'),
+        new Procedure('3 procedures', '£3 885', '£2 595', 'https://bokadirekt.se'),
+        new Procedure('5 procedures', '£6 475', '£3 995', 'https://bokadirekt.se')
+    )
+);
+
+$service_brands_title = 'IPL brands';
+$service_brands_text = '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>';
+$service_brands = array(
+    new Brand('Powerlite', 'images/brands/powerlite.svg'),
+    new Brand('Dermapen4', 'images/brands/dermapen4.svg')
+);
 
 $nav_buttons = array(
     'about' => 'Overview',
@@ -57,6 +77,17 @@ $big_types = array(
         new Procedure('5 procedures', '£6 475', '£3 995', 'https://www.bokadirekt.se')
     ))
 );
+$all_brands = array(
+    new Brand('Powerlite', 'images/brands/powerlite.svg'),
+    new Brand('Dermapen4', 'images/brands/dermapen4.svg'),
+    new Brand('Cryopen', 'images/brands/cryopen.svg'),
+    new Brand('Lumenis', 'images/brands/lumenis.svg'),
+    new Brand('Alma', 'images/brands/alma.svg'),
+    new Brand('PRXT', 'images/brands/prxt.svg'),
+    new Brand('Hydrafacial', 'images/brands/hydrafacial.svg'),
+    new Brand('IP infusion', 'images/brands/ipinfusion.svg'),
+);
+
 $faq_categories = array(
     '' => array(
         new Question('How many treatments are needed?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
@@ -293,6 +324,18 @@ $specialists = array(
                         ?>
                     </section>
                 <?php } ?>
+                <?php if (isset($service_brands) && isset($service_brands_title) && isset($service_brands_text)) { ?>
+                    <section id="service-brands" class="large-margin">
+                        <h2 class="big l10n"><?php echo $service_brands_title ?></h2>
+                        <div><?php echo $service_brands_text ?></div>
+                        <div class="mt-xl">
+                            <?php
+                            $brands = $service_brands;
+                            include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php');
+                            ?>
+                        </div>
+                    </section>
+                <?php } ?>
                 <section id="results" class="large-margin">
                     <div class="flex-row justify-space-between">
                         <h2 class="big l10n">Results</h2>
@@ -399,7 +442,10 @@ $specialists = array(
                         <?php icon('navigate-next') ?>
                     </a>
                 </div>
-                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
+                <?php
+                $brands = $all_brands;
+                include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php');
+                ?>
                 <a class="mt-xl button b200 outline expand auto-width is-hidden-desktop l10n" href="brands">View all brands</a>
             </section>
         </div>

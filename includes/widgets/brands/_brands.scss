@@ -16,7 +16,7 @@
       justify-content: center;
       background-color: $light-25;
       box-sizing: border-box;
-      flex: 1 0 158px;
+      flex: 0 0 158px;
       text-align: center;
       height: $xl5;
       padding: $l;
@@ -28,6 +28,10 @@
         width: 100%;
         height: auto;
       }
+    }
+
+    .flex-item:first-child {
+      margin-left: 0;
     }
   }
 
