@@ -38,7 +38,16 @@ $model = new Service(
     )
 );
 
-$service_brands_title = 'IPL brands';
+$treatment_areas = array(
+    new TreatmentArea(image_small: 'https://via.placeholder.com/361x274.webm', image_large: 'https://via.placeholder.com/872x456.webm', title: 'Body', description: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin.</p>', items: array(
+        new TreatmentAreaItem(image: 'https://via.placeholder.com/102x102.webm', title: 'Hands & fingers', duration: '30 min', price: '1295 kr'),
+        new TreatmentAreaItem(image: 'https://via.placeholder.com/102x102.webm', title: 'Shoulders', duration: '30 min', price: '1295 kr'),
+        new TreatmentAreaItem(image: 'https://via.placeholder.com/102x102.webm', title: 'Armpits', duration: '30 min', price: '1295 kr'),
+        new TreatmentAreaItem(image: 'https://via.placeholder.com/102x102.webm', title: 'Chest', duration: '30 min', price: '1295 kr')
+    ))
+);
+$treatment_areas_text = '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>';
+
 $service_brands_text = '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>';
 $service_brands = array(
     new Brand('Powerlite', 'images/brands/powerlite.svg'),
@@ -340,6 +349,13 @@ $specialists = array(
                             <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_combo/service_combo.php') ?>
                         <?php } ?>
                     </section>
+                <?php } ?>
+                <?php if (isset($treatment_areas) && isset($treatment_areas_text)) { ?>
+                    <section id="treatment-areas" class="large-margin">
+                        <h2 class="big l10n">Treatment areas</h2>
+                        <div class="mt-xs"><?php echo $treatment_areas_text ?></div>
+                    </section>
+
                 <?php } ?>
                 <?php if (isset($article_after_care)) { ?>
                     <section id="aftercare">

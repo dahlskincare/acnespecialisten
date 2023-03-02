@@ -252,6 +252,38 @@ class Question
     public $text;
 }
 
+class TreatmentArea
+{
+    public function __construct($image_small, $image_large, $title, $description, $items)
+    {
+        $this->image_small = $image_small;
+        $this->image_large = $image_large;
+        $this->title = $title;
+        $this->description = $description;
+        $this->items = $items;
+    }
+    public string $image_small;
+    public string $image_large;
+    public string $title;
+    public string $description;
+    public array $items;
+}
+
+class TreatmentAreaItem
+{
+    public function __construct($image, $title, $duration, $price)
+    {
+        $this->image = $image;
+        $this->title = $title;
+        $this->duration = $duration;
+        $this->price = $price;
+    }
+    public string $image;
+    public string $title;
+    public string $duration;
+    public string $price;
+}
+
 class Article
 {
     public function __construct($id, $title, $image_small, $image_large, $content, $tags = array())
