@@ -326,8 +326,8 @@ $specialists = array(
                 <?php } ?>
                 <?php if (isset($service_brands) && isset($service_brands_title) && isset($service_brands_text)) { ?>
                     <section id="service-brands" class="large-margin">
-                        <h2 class="big l10n"><?php echo $service_brands_title ?></h2>
-                        <div><?php echo $service_brands_text ?></div>
+                        <h2><span class="h500"><?php echo $model->title ?>&nbsp;</span><span class="h500 l10n">brands</span></h2>
+                        <div class="mt-xs"><?php echo $service_brands_text ?></div>
                         <div class="mt-xl">
                             <?php
                             $brands = $service_brands;
