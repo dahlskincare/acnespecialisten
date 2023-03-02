@@ -6,4 +6,10 @@ namespace TreatmentAreas {
             card.classList.add('selected');
         }
     }
+
+    export function getSelectedIds(button: HTMLElement) {
+        let items = button.parentElement.querySelectorAll('.selected');
+        console.log(items);
+
+    }
 }

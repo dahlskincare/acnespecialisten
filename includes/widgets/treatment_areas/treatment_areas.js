@@ -9,5 +9,10 @@ var TreatmentAreas;
         }
     }
     TreatmentAreas.toggleSelected = toggleSelected;
+    function getSelectedIds(button) {
+        var items = button.parentElement.querySelectorAll('.selected');
+        console.log(items);
+    }
+    TreatmentAreas.getSelectedIds = getSelectedIds;
 })(TreatmentAreas || (TreatmentAreas = {}));
 //# sourceMappingURL=treatment_areas.js.map

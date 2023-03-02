@@ -72,7 +72,6 @@
                 <?php } ?>
             </div>
         </div>
-
     <?php } ?>
     <script src="includes/widgets/treatment_areas/treatment_areas.js"></script>
 </div>
