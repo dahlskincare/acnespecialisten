@@ -3,23 +3,23 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $model = new Service(
-    'problem-skin-facials',
-    'Problem skin facials',
-    '50 min',
-    null,
-    '',
-    'https://via.placeholder.com/358x274.webp',
-    'https://via.placeholder.com/424x456.webp',
-    '',
-    '',
-    null,
-    null,
-    array(
+    id: 'problem-skin-facials',
+    title: 'Problem skin facials',
+    duration: '50 min',
+    price: null,
+    content: '',
+    image_small: 'https://via.placeholder.com/358x274.webp',
+    image_large: 'https://via.placeholder.com/424x456.webp',
+    consultation_url: '',
+    booking_url: '',
+    icons: null,
+    short_title: null,
+    procedures: array(
         new Procedure('1 procedure', null, '£1 995', 'https://bokadirekt.se'),
         new Procedure('3 procedures', '£3 885', '£2 595', 'https://bokadirekt.se'),
         new Procedure('5 procedures', '£6 475', '£3 995', 'https://bokadirekt.se')
     ),
-    array(
+    combos: array(
         new ServiceCombo('https://via.placeholder.com/200x200.webp', 'https://via.placeholder.com/361x274.webp', '50 min', '2595 kr', '3885 kr', 'https://bokadirekt.se', array(
             new ServiceComboItem('Deep bikini', '995 kr'),
             new ServiceComboItem('Armpits', '995 kr')
@@ -64,14 +64,14 @@ $article_process = new Article('procedure-process', 'Procedure process', 'https:
 $article_after_care = new Article('aftercare', 'Aftercare and maintenance', 'https://via.placeholder.com/358x272.webp', 'https://via.placeholder.com/872x456.webp', '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>', array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing')));
 $types_title = 'Problem facials we provide';
 $types_description = 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.';
-/*
+
 $types = array(
     new Service('chemical-peeling-pigmentation', 'Chemical peeling', null, null, 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',  'https://via.placeholder.com/102x102.jpg', 'https://via.placeholder.com/200x200.jpg', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/'),
     new Service('laser-pigmentation', 'Laser', null, null, 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',  'https://via.placeholder.com/102x102.jpg', 'https://via.placeholder.com/200x200.jpg', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/'),
     new Service('ipl-pigmentation', 'IPL', null, null, 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',  'https://via.placeholder.com/102x102.jpg', 'https://via.placeholder.com/200x200.jpg', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/'),
     new Service('freezetreat-pigmentation', 'FreezeTreat', null, null, 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',  'https://via.placeholder.com/102x102.jpg', 'https://via.placeholder.com/200x200.jpg', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/')
 );
-*/
+
 $big_types = array(
     new Service('classic', 'Classic', '60 min', null, 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',  'https://via.placeholder.com/358x274.webp', 'https://via.placeholder.com/872x456.webp', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/', array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'), null, array(
         new Procedure('1 procedure', null, '£1 995', 'https://www.bokadirekt.se'),
@@ -336,6 +336,9 @@ $specialists = array(
                 <?php if (isset($model->combos)) { ?>
                     <section id="combos" class="large-margin">
                         <h2 class="big l10n">Popular treatment combos</h2>
+                        <?php foreach ($model->combos as $combo) { ?>
+                            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_combo/service_combo.php') ?>
+                        <?php } ?>
                     </section>
                 <?php } ?>
                 <?php if (isset($article_after_care)) { ?>
