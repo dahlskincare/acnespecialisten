@@ -6,12 +6,12 @@ $model = new Service(
     id: 'problem-skin-facials',
     title: 'Problem skin facials',
     duration: '50 min',
-    price: null,
-    content: '',
+    price: '995 kr',
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
     image_small: 'https://via.placeholder.com/358x274.webp',
     image_large: 'https://via.placeholder.com/424x456.webp',
-    consultation_url: '',
-    booking_url: '',
+    consultation_url: 'https://bokadirekt.se',
+    booking_url: 'https://bokadirekt.se',
     icons: null,
     short_title: null,
     procedures: array(
@@ -335,7 +335,7 @@ $specialists = array(
                 <?php } ?>
                 <?php if (isset($model->combos)) { ?>
                     <section id="combos" class="large-margin">
-                        <h2 class="big l10n">Popular treatment combos</h2>
+                        <h2 class="big l10n">Popular treatment combinations</h2>
                         <?php foreach ($model->combos as $combo) { ?>
                             <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_combo/service_combo.php') ?>
                         <?php } ?>
