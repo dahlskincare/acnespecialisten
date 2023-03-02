@@ -10,6 +10,26 @@
             </div>
             <div class="mt-m h300"><?php echo $area->title ?></div>
             <div class="mt-xxs mb-xs"><?php echo $area->description ?></div>
+            <?php if (isset($area->all)) { ?>
+                <div class="select-all-card">
+                    <div class="flex-row">
+                        <?php if (isset($area->all->image)) { ?>
+                            <div class="image">
+                                <img src="<?php echo $area->all->image ?>" alt="<?php echo $area->all->title ?>" width="102" height="102" />
+                            </div>
+                        <?php } ?>
+                        <div class="area-all-info">
+                            <div class="h200 title"><?php echo $area->all->title ?></div>
+                            <div class="price-duration">
+                                <div><?php echo $area->all->duration ?></div>
+                                <div class="dot ml-xs mr-xs"></div>
+                                <div><?php echo $area->all->price ?></div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="mt-m grey expand l10n">Select all</button>
+                </div>
+            <?php } ?>
             <?php foreach ($area->items as $id => $item) { ?>
                 <div class="area-item-card" id="area-item-<?php echo $id ?>" onclick="TreatmentAreas.toggleSelected(this)">
                     <?php if (isset($item->image)) { ?>

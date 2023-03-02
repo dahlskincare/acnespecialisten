@@ -49,7 +49,12 @@ $treatment_areas = array(
         'bikini_line' => new TreatmentAreaItem(image: null, title: 'Bikini line', duration: '30 min', price: '1295 kr'),
         'string' => new TreatmentAreaItem(image: null, title: 'String', duration: '30 min', price: '1295 kr'),
         'brazilian' => new TreatmentAreaItem(image: null, title: 'Brazilian', duration: '30 min', price: '1295 kr')
-    ))
+    )),
+    new TreatmentArea(image_small: 'https://via.placeholder.com/361x274.webm', image_large: 'https://via.placeholder.com/872x456.webm', title: 'Face', description: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin.</p>', items: array(
+        'bikini_line' => new TreatmentAreaItem(image: 'https://via.placeholder.com/102x102.webm', title: 'Ears', duration: '30 min', price: '1295 kr'),
+        'string' => new TreatmentAreaItem(image: 'https://via.placeholder.com/102x102.webm', title: 'Cheeks', duration: '30 min', price: '1295 kr'),
+        'brazilian' => new TreatmentAreaItem(image: 'https://via.placeholder.com/102x102.webm', title: 'Upper lip', duration: '30 min', price: '1295 kr')
+    ), all: new TreatmentAreaItem(image: 'https://via.placeholder.com/102x102.webm', title: 'Whole face', duration: '30 min', price: '1925 kr'))
 );
 $treatment_areas_text = '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>';
 

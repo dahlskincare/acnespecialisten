@@ -24,6 +24,24 @@
         width: 100%;
     }
 
+    .price-duration {
+        margin-top: $xxs;
+        display: flex;
+        align-items: center;
+
+        div {
+            color: $dark-200;
+            @include p200;
+        }
+
+        .dot {
+            background-color: $dark-25;
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+        }
+    }
+
     .area-item-card {
         display: flex;
         padding: $xl;
@@ -44,24 +62,6 @@
         .area-item-info {
             align-self: center;
             flex: 1;
-
-            .price-duration {
-                margin-top: $xxs;
-                display: flex;
-                align-items: center;
-
-                div {
-                    color: $dark-200;
-                    @include p200;
-                }
-
-                .dot {
-                    background-color: $dark-25;
-                    width: 5px;
-                    height: 5px;
-                    border-radius: 50%;
-                }
-            }
         }
 
         .icon {
@@ -77,6 +77,19 @@
 
     .treatment-area-small {
         margin-top: $xl3;
+
+        .select-all-card {
+            margin-top: $m;
+            @include elevation-low;
+            padding: $xl;
+            border-radius: $radius-l;
+            border: 1px solid $light-200;
+
+            .image {
+                margin-right: $m;
+            }
+
+        }
 
         .area-item-card {
             @include elevation-low;

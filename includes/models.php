@@ -254,19 +254,21 @@ class Question
 
 class TreatmentArea
 {
-    public function __construct($image_small, $image_large, $title, $description, $items)
+    public function __construct($image_small, $image_large, $title, $description, $items, $all = null)
     {
         $this->image_small = $image_small;
         $this->image_large = $image_large;
         $this->title = $title;
         $this->description = $description;
         $this->items = $items;
+        $this->all = $all;
     }
     public string $image_small;
     public string $image_large;
     public string $title;
     public string $description;
     public array $items;
+    public ?TreatmentAreaItem $all;
 }
 
 class TreatmentAreaItem
