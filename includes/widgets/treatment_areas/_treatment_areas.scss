@@ -70,20 +70,6 @@
         }
     }
 
-    .area-item-card:hover {
-        @include elevation-low;
-
-        .area-item-info {
-            .title {
-                color: $deep-sea-400;
-            }
-        }
-
-        .area-item-icon {
-            @include text-color($deep-sea-400);
-        }
-    }
-
     .area-item-card.selected {
         border: 1px solid $deep-sea-400;
     }
@@ -91,10 +77,9 @@
 
     .treatment-area-small {
         margin-top: $xl3;
-        @include elevation-low;
 
         .area-item-card {
-
+            @include elevation-low;
             margin-top: $m;
         }
     }
@@ -105,6 +90,20 @@
         .area-item-card {
             cursor: pointer;
             margin-top: $xl;
+        }
+
+        .area-item-card:hover {
+            @include elevation-low;
+
+            .area-item-info {
+                .title {
+                    color: $deep-sea-400;
+                }
+            }
+
+            .area-item-icon {
+                @include text-color($deep-sea-400);
+            }
         }
     }
 

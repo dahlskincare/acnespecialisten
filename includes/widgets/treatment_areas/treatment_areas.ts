@@ -1,3 +1,9 @@
 namespace TreatmentAreas {
-    console.log('hello');
+    export function toggleSelected(card: HTMLElement) {
+        if (card.classList.contains('selected')) {
+            card.classList.remove('selected');
+        } else {
+            card.classList.add('selected');
+        }
+    }
 }

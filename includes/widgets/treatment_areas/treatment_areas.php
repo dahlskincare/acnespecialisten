@@ -10,17 +10,19 @@
             </div>
             <div class="mt-m h300"><?php echo $area->title ?></div>
             <div class="mt-xxs mb-xs"><?php echo $area->description ?></div>
-            <?php foreach ($area->items as $item) { ?>
-                <div class="area-item-card">
-                    <div class="image">
-                        <img src="<?php echo $item->image ?>" alt="<?php echo $area->title ?>" width="102" height="102" />
-                    </div>
+            <?php foreach ($area->items as $id => $item) { ?>
+                <div class="area-item-card" id="area-item-<?php echo $id ?>" onclick="TreatmentAreas.toggleSelected(this)">
+                    <?php if (isset($item->image)) { ?>
+                        <div class="image">
+                            <img src="<?php echo $item->image ?>" alt="<?php echo $area->title ?>" width="102" height="102" />
+                        </div>
+                    <?php } ?>
                     <div class="area-item-info">
                         <div class="h200 title"><?php echo $item->title ?></div>
                         <div class="price-duration">
-                            <div><?php echo $item->price ?></div>
-                            <div class="dot ml-xs mr-xs"></div>
                             <div><?php echo $item->duration ?></div>
+                            <div class="dot ml-xs mr-xs"></div>
+                            <div><?php echo $item->price ?></div>
                         </div>
                     </div>
                     <div class="area-item-icon">
@@ -40,7 +42,7 @@
             <div class="mt-xl h300"><?php echo $area->title ?></div>
             <div class="mt-xxs"><?php echo $area->description ?></div>
             <div class="columns is-3 is-variable is-multiline">
-                <?php foreach ($area->items as $item) { ?>
+                <?php foreach ($area->items as $id => $item) { ?>
                     <div class="column <?php
                                         if (isset($item->image)) {
                                             echo 'is-half';
@@ -48,18 +50,18 @@
                                             echo 'is-one-third';
                                         }
                                         ?>">
-                        <div class="area-item-card">
+                        <div class="area-item-card" id="area-item-<?php echo $id ?>" onclick="TreatmentAreas.toggleSelected(this)">
                             <?php if (isset($item->image)) { ?>
-                                <div class="image">
+                                <div class=" image">
                                     <img src="<?php echo $item->image ?>" alt="<?php echo $area->title ?>" width="102" height="102" />
                                 </div>
                             <?php } ?>
                             <div class="area-item-info">
                                 <div class="h200 title"><?php echo $item->title ?></div>
                                 <div class="price-duration">
-                                    <div><?php echo $item->price ?></div>
-                                    <div class="dot ml-xs mr-xs"></div>
                                     <div><?php echo $item->duration ?></div>
+                                    <div class="dot ml-xs mr-xs"></div>
+                                    <div><?php echo $item->price ?></div>
                                 </div>
                             </div>
                             <div class="area-item-icon">
