@@ -131,6 +131,16 @@ section#header {
             .service-combo-widget {
                 margin-top: $xl;
             }
+
+            @media screen and (min-width: $tablet) {
+                h2 {
+                    margin-bottom: $xl + 1px;
+                }
+
+                .service-combo-widget {
+                    margin-top: -1px;
+                }
+            }
         }
 
 

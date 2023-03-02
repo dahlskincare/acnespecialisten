@@ -6,8 +6,6 @@
         img {
             width: 100%;
             height: auto;
-            border-top-left-radius: $radius-l;
-            border-top-right-radius: $radius-l;
         }
     }
 
@@ -24,6 +22,13 @@
     div.service-combo-small {
         @include elevation-low();
         border-radius: $radius-l;
+
+        div.image {
+            img {
+                border-top-left-radius: $radius-l;
+                border-top-right-radius: $radius-l;
+            }
+        }
 
         div.service-combo-content {
             padding: $xl;
@@ -61,6 +66,67 @@
 
                 .service-combo-price {
                     @include h200;
+                }
+            }
+        }
+    }
+
+    div.service-combo-large {
+        padding: $xxl 0;
+        display: flex;
+        align-items: flex-start;
+        border-top: 1px solid $light-200;
+        border-bottom: 1px solid $light-200;
+
+        div.image {
+            img {
+                border-radius: $radius-l;
+            }
+        }
+
+        ;
+
+        div.service-combo-content {
+            margin-left: $xl;
+            flex: 1;
+
+            .service-combo-items {
+                border-radius: $radius-l;
+                overflow: hidden;
+
+                .service-combo-item {
+                    display: flex;
+                    justify-content: space-between;
+                    background-color: $light-50;
+                    padding: $m;
+                    margin-bottom: 1px;
+                }
+            }
+
+            .service-combo-info {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-top: $m;
+
+                .service-combo-duration {
+                    span {
+                        @include p200;
+                    }
+                }
+
+                .service-combo-full-price {
+                    text-decoration: line-through;
+                    @include p200;
+                }
+
+                .service-combo-price {
+                    margin-left: $xs;
+                    @include h200;
+                }
+
+                .button {
+                    margin-left: $m;
                 }
             }
         }
