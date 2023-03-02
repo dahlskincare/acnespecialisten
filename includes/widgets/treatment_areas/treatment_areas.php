@@ -11,7 +11,7 @@
             <div class="mt-m h300"><?php echo $area->title ?></div>
             <div class="mt-xxs mb-xs"><?php echo $area->description ?></div>
             <?php if (isset($area->all)) { ?>
-                <div class="select-all-card">
+                <div class="select-all-card" onclick="TreatmentAreas.toggleAllSelected(this)">
                     <div class="flex-row">
                         <?php if (isset($area->all->image)) { ?>
                             <div class="image">
@@ -27,11 +27,18 @@
                             </div>
                         </div>
                     </div>
-                    <button class="mt-m grey expand l10n">Select all</button>
+                    <button class="mt-m grey expand select-all-button">
+                        <?php icon('add') ?>
+                        <span class="l10n">Select</span>
+                    </button>
+                    <button class="mt-m grey expand deselect-all-button">
+                        <?php icon('close') ?>
+                        <span class="l10n">Cancel</span>
+                    </button>
                 </div>
             <?php } ?>
             <?php foreach ($area->items as $id => $item) { ?>
-                <div class="area-item-card" id="area-item-<?php echo $id ?>" onclick="TreatmentAreas.toggleSelected(this)">
+                <div class="area-item-card" id="area-item-<?php echo $id ?>" onclick="TreatmentAreas.toggleSelected(this, this.parentElement)">
                     <?php if (isset($item->image)) { ?>
                         <div class="image">
                             <img src="<?php echo $item->image ?>" alt="<?php echo $area->title ?>" width="102" height="102" />
@@ -61,6 +68,32 @@
             </div>
             <div class="mt-xl h300"><?php echo $area->title ?></div>
             <div class="mt-xxs"><?php echo $area->description ?></div>
+            <?php if (isset($area->all)) { ?>
+                <div class="select-all-card flex-row align-center" onclick="TreatmentAreas.toggleAllSelected(this)">
+                    <?php if (isset($area->all->image)) { ?>
+                        <div class="image">
+                            <img src="<?php echo $area->all->image ?>" alt="<?php echo $area->all->title ?>" width="102" height="102" />
+                        </div>
+                    <?php } ?>
+                    <div class="area-all-info">
+                        <div class="h200 title"><?php echo $area->all->title ?></div>
+                        <div class="price-duration">
+                            <div><?php echo $area->all->duration ?></div>
+                            <div class="dot ml-xs mr-xs"></div>
+                            <div><?php echo $area->all->price ?></div>
+                        </div>
+                    </div>
+                    <button class="grey select-all-button">
+                        <?php icon('add') ?>
+                        <span class="l10n">Select</span>
+                    </button>
+                    <button class="grey deselect-all-button">
+                        <?php icon('close') ?>
+                        <span class="l10n">Cancel</span>
+                    </button>
+                </div>
+            <?php } ?>
+
             <div class="columns is-3 is-variable is-multiline">
                 <?php foreach ($area->items as $id => $item) { ?>
                     <div class="column <?php
@@ -70,7 +103,7 @@
                                             echo 'is-one-third';
                                         }
                                         ?>">
-                        <div class="area-item-card" id="area-item-<?php echo $id ?>" onclick="TreatmentAreas.toggleSelected(this)">
+                        <div class="area-item-card" id="area-item-<?php echo $id ?>" onclick="TreatmentAreas.toggleSelected(this, this.parentElement.parentElement.parentElement)">
                             <?php if (isset($item->image)) { ?>
                                 <div class=" image">
                                     <img src="<?php echo $item->image ?>" alt="<?php echo $area->title ?>" width="102" height="102" />

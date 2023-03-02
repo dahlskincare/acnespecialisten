@@ -70,9 +70,32 @@
         }
     }
 
+    .select-all-card {
+        border-radius: $radius-l;
+        border: 1px solid $light-200;
+        padding: $xl;
+
+        .deselect-all-button {
+            display: none;
+        }
+    }
+
     .area-item-card.selected {
         border: 1px solid $deep-sea-400;
     }
+
+    .select-all-card.selected {
+        border: 1px solid $deep-sea-400;
+
+        .select-all-button {
+            display: none;
+        }
+
+        .deselect-all-button {
+            display: inline-flex;
+        }
+    }
+
 
 
     .treatment-area-small {
@@ -81,9 +104,6 @@
         .select-all-card {
             margin-top: $m;
             @include elevation-low;
-            padding: $xl;
-            border-radius: $radius-l;
-            border: 1px solid $light-200;
 
             .image {
                 margin-right: $m;
@@ -99,6 +119,33 @@
 
     .treatment-area-large {
         margin-top: $xl4;
+
+        .select-all-card {
+            margin-top: $xl;
+            cursor: pointer;
+
+            .image {
+                margin-right: $m;
+            }
+
+            .area-all-info {
+                flex: 1;
+            }
+        }
+
+        .select-all-card:hover {
+            @include elevation-low;
+
+            .area-all-info {
+                .title {
+                    color: $deep-sea-400;
+                }
+            }
+        }
+
+        .select-all-card.selected:hover {
+            box-shadow: none;
+        }
 
         .area-item-card {
             cursor: pointer;
@@ -117,6 +164,10 @@
             .area-item-icon {
                 @include text-color($deep-sea-400);
             }
+        }
+
+        .area-item-card.selected:hover {
+            box-shadow: none;
         }
     }
 
