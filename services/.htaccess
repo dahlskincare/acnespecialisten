@@ -2,10 +2,4 @@ RewriteEngine on
 RewriteBase /services/
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^([^/]+)/?$ category.php?id=$1 [L,QSA]
-
-
-RewriteBase /services/
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^([^/]+)/([^/]+)?$ service.php?id=$2 [L,QSA]
+RewriteRule ^([^/]+)/?$ service.php?id=$1 [L,QSA]

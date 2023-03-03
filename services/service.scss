@@ -127,6 +127,22 @@ section#header {
             }
         }
 
+        section#combos {
+            .service-combo-widget {
+                margin-top: $xl;
+            }
+
+            @media screen and (min-width: $tablet) {
+                h2 {
+                    margin-bottom: $xl + 1px;
+                }
+
+                .service-combo-widget {
+                    margin-top: -1px;
+                }
+            }
+        }
+
 
 
         section#results {
@@ -180,22 +196,23 @@ section#header {
             }
         }
 
-        section#services {
+        section#types {
             hr {
                 border: 0;
                 border-top: 1px solid $light-200;
                 margin: 0;
             }
+
+            .service-card-big-widget {
+                margin-top: $xl;
+
+                @media screen and (min-width: $tablet) {
+                    margin-top: $xl4;
+                }
+            }
         }
 
-        section#about,
-        section#articles,
-        section#services,
-        section#results,
-        section#reviews,
-        section#faq,
-        section#skin-guide,
-        section#specialists {
+        section.large-margin {
             margin-top: 72px;
 
             @media screen and (min-width: $tablet) {

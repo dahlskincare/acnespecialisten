@@ -119,6 +119,23 @@ class Brand
     public string $image;
 }
 
+
+class Procedure
+{
+    public function __construct($label, $full_price, $price, $booking_url = null)
+    {
+        $this->label = $label;
+        $this->full_price = $full_price;
+        $this->price = $price;
+        $this->booking_url = $booking_url;
+    }
+
+    public string $label;
+    public ?string $full_price;
+    public string $price;
+    public ?string $booking_url;
+}
+
 class Service
 {
     public function __construct(
@@ -132,7 +149,9 @@ class Service
         $consultation_url,
         $booking_url,
         $icons = array(),
-        $short_title = null
+        $short_title = null,
+        $procedures = array(),
+        $combos = array(),
     ) {
         $this->id = $id;
         $this->title = $title;
@@ -145,6 +164,8 @@ class Service
         $this->booking_url = $booking_url;
         $this->icons = $icons;
         $this->short_title = $short_title;
+        $this->procedures = $procedures;
+        $this->combos = $combos;
     }
 
     public string $id;
@@ -158,6 +179,42 @@ class Service
     public ?string $booking_url;
     public ?array $icons;
     public ?string $short_title;
+    public array $procedures;
+    public array $combos;
+}
+
+class ServiceCombo
+{
+    public function __construct($image_small, $image_large, $duration, $price, $full_price, $booking_url, $items)
+    {
+        $this->image_small = $image_small;
+        $this->image_large = $image_large;
+        $this->duration = $duration;
+        $this->price = $price;
+        $this->full_price = $full_price;
+        $this->booking_url = $booking_url;
+        $this->items = $items;
+    }
+
+    public string $image_small;
+    public string $image_large;
+    public string $duration;
+    public string $price;
+    public string $full_price;
+    public string $booking_url;
+    public array $items;
+}
+
+class ServiceComboItem
+{
+    public function __construct($title, $price)
+    {
+        $this->title = $title;
+        $this->price = $price;
+    }
+
+    public string $title;
+    public string $price;
 }
 
 class Product
@@ -193,6 +250,40 @@ class Question
     }
     public $title;
     public $text;
+}
+
+class TreatmentArea
+{
+    public function __construct($image_small, $image_large, $title, $description, $items, $all = null)
+    {
+        $this->image_small = $image_small;
+        $this->image_large = $image_large;
+        $this->title = $title;
+        $this->description = $description;
+        $this->items = $items;
+        $this->all = $all;
+    }
+    public string $image_small;
+    public string $image_large;
+    public string $title;
+    public string $description;
+    public array $items;
+    public ?TreatmentAreaItem $all;
+}
+
+class TreatmentAreaItem
+{
+    public function __construct($image, $title, $duration, $price)
+    {
+        $this->image = $image;
+        $this->title = $title;
+        $this->duration = $duration;
+        $this->price = $price;
+    }
+    public ?string $image;
+    public string $title;
+    public string $duration;
+    public string $price;
 }
 
 class Article
