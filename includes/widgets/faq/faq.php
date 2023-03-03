@@ -77,7 +77,7 @@ if (!isset($faq_categories)) {
                 $index++;
             } ?>
         </div>
-    <? } ?>
+    <?php } ?>
     <div class="faq-large-right">
         <?php
         $index = 0;
