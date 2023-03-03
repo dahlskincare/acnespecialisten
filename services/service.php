@@ -70,7 +70,9 @@ $nav_buttons = array(
     'preparing' => 'Preparing',
     'process' => 'Process',
     'types' => 'Types',
+    'treatment-areas' => 'Areas',
     'aftercare' => 'Aftercare',
+    'service-brands' => 'Brands',
     'results' => 'Results',
     'reviews' => 'Reviews',
     'faq' => 'FAQ',
@@ -377,7 +379,7 @@ $specialists = array(
                         ?>
                     </section>
                 <?php } ?>
-                <?php if (isset($service_brands) && isset($service_brands_title) && isset($service_brands_text)) { ?>
+                <?php if (isset($service_brands) && isset($service_brands_text)) { ?>
                     <section id="service-brands" class="large-margin">
                         <h2><span class="h500"><?php echo $model->title ?>&nbsp;</span><span class="h500 l10n">brands</span></h2>
                         <div class="mt-xs"><?php echo $service_brands_text ?></div>
