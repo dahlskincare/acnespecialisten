@@ -1,19 +1,5 @@
 <?php
 
-class Procedure
-{
-    public function __construct($label, $full_price, $price)
-    {
-        $this->label = $label;
-        $this->full_price = $full_price;
-        $this->price = $price;
-    }
-
-    public string $label;
-    public ?string $full_price;
-    public string $price;
-}
-
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
@@ -178,7 +164,7 @@ $specialists = array(
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
 
     <link rel="stylesheet" href="/styles/default-layout.css">
-    <link rel="stylesheet" href="/services/category.css">
+    <link rel="stylesheet" href="/services/service.css">
 </head>
 
 <body>
