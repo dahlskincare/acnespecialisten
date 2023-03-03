@@ -217,8 +217,9 @@ html {
                                 margin-right: $xxs;
 
                                 svg {
-                                    stroke: $deep-sea-400;
-                                    fill: $deep-sea-400;
+                                    * {
+                                        stroke: $deep-sea-400;
+                                    }
                                 }
                             }
                         }
@@ -372,13 +373,15 @@ html {
                     #language-selector {
                         display: flex;
                         margin-left: $l;
+                        align-items: center;
 
                         .icon {
                             margin-right: $xxs;
 
                             svg {
-                                stroke: $deep-sea-400;
-                                fill: $deep-sea-400;
+                                * {
+                                    stroke: $deep-sea-400;
+                                }
                             }
                         }
                     }

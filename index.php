@@ -313,7 +313,7 @@
                                     <div class="columns is-4 is-variable">
                                           <div class="column">
                                                 <div class="flex-row about-header">
-                                                      <?php icon('about-bullet') ?>
+                                                      <?php icon('star') ?>
                                                       <h3 class="h200 l10n">25 years of experience</h3>
                                                 </div>
                                                 <p class="p200 mt-xxs l10n">
@@ -324,7 +324,7 @@
                                           </div>
                                           <div class="column">
                                                 <div class="flex-row about-header">
-                                                      <?php icon('about-bullet') ?>
+                                                      <?php icon('star') ?>
                                                       <h3 class="h200 l10n">Unique solution</h3>
                                                 </div>
                                                 <p class="p200 mt-xxs l10n">
@@ -337,7 +337,7 @@
                                     <div class="columns is-4 is-variable">
                                           <div class="column">
                                                 <div class="flex-row about-header">
-                                                      <?php icon('about-bullet') ?>
+                                                      <?php icon('star') ?>
                                                       <h3 class="h200 l10n">Unique solution</h3>
                                                 </div>
                                                 <p class="p200 mt-xxs l10n">
@@ -348,7 +348,7 @@
                                           </div>
                                           <div class="column">
                                                 <div class="flex-row about-header">
-                                                      <?php icon('about-bullet') ?>
+                                                      <?php icon('star') ?>
                                                       <h3 class="h200 l10n">25 years of experience</h3>
                                                 </div>
                                                 <p class="p200 mt-xxs l10n">

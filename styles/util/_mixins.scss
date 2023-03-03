@@ -13,7 +13,9 @@
     color: $color;
 
     .icon>svg {
-        stroke: $color;
+        * {
+            stroke: $color;
+        }
     }
 }
 
@@ -23,8 +25,9 @@
     color: $color;
 
     .icon>svg {
-        stroke: $color;
-        fill: $color;
+        * {
+            stroke: $color;
+        }
     }
 }
 

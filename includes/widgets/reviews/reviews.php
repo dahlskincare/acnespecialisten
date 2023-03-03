@@ -42,8 +42,10 @@ A scrollable Trustpilot reviews widget.
         <div class="review-brand">
             <img src="images/brands/google.svg" alt="Google" width="80" height="26">
             <div class="review-brand-right">
-                <?php icon('star') ?>
-                <span class="ml-xs h200">5.0 / 5</span>
+                <div class="flex-row align-center justify-end">
+                    <?php icon('star') ?>
+                    <span class="ml-xs h200">5.0 / 5</span>
+                </div>
                 <p>96 reviews</p>
             </div>
 
@@ -51,16 +53,20 @@ A scrollable Trustpilot reviews widget.
         <div class="review-brand">
             <img src="images/brands/trustpilot.svg" alt="Trustpilot" width="107" height="27">
             <div class="review-brand-right">
-                <?php icon('star') ?>
-                <span class="ml-xs h200">4.7 / 5</span>
+                <div class="flex-row align-center justify-end">
+                    <?php icon('star') ?>
+                    <span class="ml-xs h200">4.7 / 5</span>
+                </div>
                 <p>492 reviews</p>
             </div>
         </div>
         <div class="review-brand">
             <img src="images/brands/bokadirekt.svg" alt="Bokadirekt" width="128" height="19">
             <div class="review-brand-right">
-                <?php icon('star') ?>
-                <span class="ml-xs h200">4.7 / 5</span>
+                <div class="flex-row align-center justify-end">
+                    <?php icon('star') ?>
+                    <span class="ml-xs h200">4.7 / 5</span>
+                </div>
                 <p>8240 reviews</p>
             </div>
         </div>

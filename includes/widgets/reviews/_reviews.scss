@@ -32,6 +32,15 @@
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
+
+                .review-box-icons {
+                    .icon>svg {
+                        * {
+                            stroke: $orange-400;
+                            fill: $orange-400;
+                        }
+                    }
+                }
             }
 
             .review-box-title {
@@ -101,6 +110,15 @@
 
             .review-brand-right {
                 text-align: right;
+
+                .icon>svg {
+                    * {
+                        stroke: $orange-400;
+                        fill: $orange-400;
+                    }
+                }
+
+
 
                 p {
                     color: $dark-200;
