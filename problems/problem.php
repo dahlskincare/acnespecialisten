@@ -1,7 +1,6 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once('widgets/problem-trivia-card/problem-trivia.php');
-include_once('widgets/treatment-step-card/treatment-step.php');
 include_once('widgets/symptom-card/symptom.php');
 include_once('widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
@@ -299,7 +298,7 @@ $related_problems = array(
                               <div class="columns is-variable is-2">
                                     <?php for ($i = 0; $i < sizeof($treatment_steps); $i++) {
                                           echo '<div class="column">';
-                                          include('widgets/treatment-step-card/treatment-step-card.php');
+                                          include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/treatment_step_card/treatment_step_card.php');
                                           echo '</div>';
                                     } ?>
                               </div>
