@@ -1,15 +1,21 @@
 <div class="treatment-areas-widget">
     <?php foreach ($treatment_areas as $area) { ?>
         <div class="treatment-area-small is-hidden-tablet">
-            <div class="image">
-                <picture>
-                    <source media="(max-width: 799px)" srcset="<?php echo $area->image_small ?>">
-                    <source media="(min-width: 800px)" srcset="<?php echo $area->image_large ?>">
-                    <img src="<?php echo $area->image_large ?>" alt="<?php echo $area->title ?>" width="361" height="274" />
-                </picture>
-            </div>
-            <div class="mt-m h300"><?php echo $area->title ?></div>
-            <div class="mt-xxs mb-xs"><?php echo $area->description ?></div>
+            <?php if (isset($area->image_large) && isset($area->image_small)) { ?>
+                <div class="image">
+                    <picture>
+                        <source media="(max-width: 799px)" srcset="<?php echo $area->image_small ?>">
+                        <source media="(min-width: 800px)" srcset="<?php echo $area->image_large ?>">
+                        <img src="<?php echo $area->image_large ?>" alt="<?php echo $area->title ?>" width="361" height="274" />
+                    </picture>
+                </div>
+            <?php } ?>
+            <?php if (isset($area->title)) { ?>
+                <div class="mt-m h300"><?php echo $area->title ?></div>
+            <?php } ?>
+            <?php if (isset($area->description)) { ?>
+                <div class="mt-xxs mb-xs"><?php echo $area->description ?></div>
+            <?php } ?>
             <?php if (isset($area->all)) { ?>
                 <div class="select-all-card" onclick="TreatmentAreas.toggleAllSelected(this)">
                     <div class="flex-row">
@@ -59,15 +65,21 @@
             <?php } ?>
         </div>
         <div class="treatment-area-large is-hidden-mobile">
-            <div class="image">
-                <picture>
-                    <source media="(max-width: 799px)" srcset="<?php echo $area->image_small ?>">
-                    <source media="(min-width: 800px)" srcset="<?php echo $area->image_large ?>">
-                    <img src="<?php echo $area->image_large ?>" alt="<?php echo $area->title ?>" width="872" height="456" />
-                </picture>
-            </div>
-            <div class="mt-xl h300"><?php echo $area->title ?></div>
-            <div class="mt-xxs"><?php echo $area->description ?></div>
+            <?php if (isset($area->image_large) && isset($area->image_small)) { ?>
+                <div class="image">
+                    <picture>
+                        <source media="(max-width: 799px)" srcset="<?php echo $area->image_small ?>">
+                        <source media="(min-width: 800px)" srcset="<?php echo $area->image_large ?>">
+                        <img src="<?php echo $area->image_large ?>" alt="<?php echo $area->title ?>" width="872" height="456" />
+                    </picture>
+                </div>
+            <?php } ?>
+            <?php if (isset($area->title)) { ?>
+                <div class="mt-xl h300"><?php echo $area->title ?></div>
+            <?php } ?>
+            <?php if (isset($area->description)) { ?>
+                <div class="mt-xxs"><?php echo $area->description ?></div>
+            <?php } ?>
             <?php if (isset($area->all)) { ?>
                 <div class="select-all-card flex-row align-center" onclick="TreatmentAreas.toggleAllSelected(this)">
                     <?php if (isset($area->all->image)) { ?>
