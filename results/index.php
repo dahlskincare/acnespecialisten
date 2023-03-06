@@ -178,19 +178,32 @@ $result_categories = array(
                     </div>
                 </div>
             </div>
-            <div class="mt-m is-hidden-desktop">
-                <div class="container">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                </div>
-                <div class="container" id="filters-touch-container">
-                    <div id="filters-touch" class="mt-m">
-                    </div>
+
+            <div class="container mt-m is-hidden-desktop">
+                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
+            </div>
+            <div class="container mt-m is-hidden-desktop" id="filters-touch-container">
+                <div id="filters-touch">
+                    <?php foreach ($result_categories as $result_category) { ?>
+                        <div class="filter-item">
+                            <div class="b100 filter-item-label l10n">
+                                <?php echo $result_category->title ?>
+                            </div>
+                        </div>
+                    <?php } ?>
                 </div>
             </div>
-            <div class="container">
-                <div id="filters-desktop" class="is-hidden-touch">
-                    <div id="filter-items">
 
+            <div class="container is-hidden-touch">
+                <div id="filters-desktop">
+                    <div id="filter-items">
+                        <?php foreach ($result_categories as $result_category) { ?>
+                            <div class="filter-item">
+                                <div class="b100 filter-item-label l10n">
+                                    <?php echo $result_category->title ?>
+                                </div>
+                            </div>
+                        <?php } ?>
                     </div>
                     <div class="filter-button is-hidden" id="filter-button-previous">
                         <button class="round-large grey">

@@ -18,48 +18,20 @@ section#banner {
 
 
     #filters-touch-container {
-        overflow-x: scroll;
-        padding-bottom: $m;
+        padding-bottom: $xl;
 
         #filters-touch {
+            @include elevation-medium();
             border: 1px solid $light-200;
             border-radius: $radius-l;
             background-color: $white-500;
-            @include elevation-medium();
-
-            display: inline-flex;
-            scrollbar-width: none;
-            -ms-overflow-style: none;
-
-            #filters-touch::-webkit-scrollbar {
-                width: 0;
-                height: 0;
-            }
-
 
             .filter-item {
                 padding: 17.5px 0;
                 flex: 1;
-                width: 104px;
                 text-align: center;
                 cursor: pointer;
-                border-left: 1px solid $light-200;
-
-                .icon {
-                    width: $xxl;
-                    height: $xxl;
-                }
-
-                .filter-item-label {
-                    margin-top: $xs;
-                    color: $deep-sea-500;
-                }
-            }
-
-            .filter-item:not(.highlight):hover {
-                .filter-item-label {
-                    color: $deep-sea-300;
-                }
+                border-bottom: 1px solid $light-200;
             }
 
             .filter-item.highlight {
@@ -98,7 +70,7 @@ section#banner {
             border: 1px solid $light-200;
             border-radius: $radius-l;
             overflow: hidden;
-            margin-top: -2*$xl;
+            margin-top: -$xl3;
             background-color: $white-500;
             @include elevation-medium();
 
@@ -143,14 +115,8 @@ section#banner {
                 cursor: pointer;
                 border-left: 1px solid $light-200;
 
-                .icon {
-                    width: $xxl;
-                    height: $xxl;
-                }
-
                 .filter-item-label {
-                    margin-top: $xs;
-                    color: $deep-sea-500;
+                    //color: $deep-sea-500;
                 }
             }
 
