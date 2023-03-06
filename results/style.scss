@@ -1,0 +1,177 @@
+@import '../styles/util/colors';
+@import '../styles/util/sizes';
+@import '../styles/util/mixins';
+
+section#banner {
+    #banner-green {
+        background-color: $deep-sea-400;
+        color: $white-500;
+        padding-top: $xl;
+        padding-bottom: $xl;
+        @include p100;
+
+        .underline {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+
+
+    #filters-touch-container {
+        overflow-x: scroll;
+        padding-bottom: $m;
+
+        #filters-touch {
+            border: 1px solid $light-200;
+            border-radius: $radius-l;
+            background-color: $white-500;
+            @include elevation-medium();
+
+            display: inline-flex;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+
+            #filters-touch::-webkit-scrollbar {
+                width: 0;
+                height: 0;
+            }
+
+
+            .filter-item {
+                padding: 17.5px 0;
+                flex: 1;
+                width: 104px;
+                text-align: center;
+                cursor: pointer;
+                border-left: 1px solid $light-200;
+
+                .icon {
+                    width: $xxl;
+                    height: $xxl;
+                }
+
+                .filter-item-label {
+                    margin-top: $xs;
+                    color: $deep-sea-500;
+                }
+            }
+
+            .filter-item:not(.highlight):hover {
+                .filter-item-label {
+                    color: $deep-sea-300;
+                }
+            }
+
+            .filter-item.highlight {
+                background-color: $light-25;
+
+                .filter-item-label {
+                    color: $black-500;
+                }
+            }
+
+            .filter-item:first-child {
+                border-left: 1px solid transparent;
+            }
+        }
+    }
+
+
+
+
+    @media screen and (min-width: $desktop) {
+        #banner-green {
+            padding-top: 0;
+            padding-bottom: $m;
+
+            #banner-green-desktop {
+                padding-bottom: $xl5;
+
+                #skin-problems-header-column {
+                    flex: 1 0 425px;
+                }
+            }
+        }
+
+        #filters-desktop {
+            position: relative;
+            border: 1px solid $light-200;
+            border-radius: $radius-l;
+            overflow: hidden;
+            margin-top: -2*$xl;
+            background-color: $white-500;
+            @include elevation-medium();
+
+            div#filter-items {
+                position: relative;
+                display: flex;
+                overflow-y: auto;
+                scroll-behavior: smooth;
+                scrollbar-width: none;
+                -ms-overflow-style: none;
+            }
+
+            div#filter-items::-webkit-scrollbar {
+                width: 0;
+                height: 0;
+            }
+
+            div.filter-button {
+                background-color: $white-500;
+                position: absolute;
+                top: 0;
+                height: 100%;
+                padding: $xl;
+                box-sizing: border-box;
+            }
+
+            div.filter-button#filter-button-previous {
+                background: linear-gradient(90deg, $white-500 70%, rgba(255, 255, 255, 0) 100%);
+                padding-right: $xl*2;
+            }
+
+            div.filter-button#filter-button-next {
+                background: linear-gradient(270deg, $white-500 70%, rgba(255, 255, 255, 0) 100%);
+                padding-left: $xl*2;
+                right: 0;
+            }
+
+            .filter-item {
+                padding: 17.5px 0;
+                flex: 1 0 132px;
+                text-align: center;
+                cursor: pointer;
+                border-left: 1px solid $light-200;
+
+                .icon {
+                    width: $xxl;
+                    height: $xxl;
+                }
+
+                .filter-item-label {
+                    margin-top: $xs;
+                    color: $deep-sea-500;
+                }
+            }
+
+            .filter-item:not(.highlight):hover {
+                .filter-item-label {
+                    color: $deep-sea-300;
+                }
+            }
+
+            .filter-item.highlight {
+                background-color: $light-25;
+
+                .filter-item-label {
+                    color: $black-500;
+                }
+            }
+
+            .filter-item:first-child {
+                border-left: 1px solid transparent;
+            }
+        }
+
+    }
+}
