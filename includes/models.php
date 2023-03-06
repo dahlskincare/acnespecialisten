@@ -254,19 +254,19 @@ class Question
 
 class TreatmentArea
 {
-    public function __construct($image_small, $image_large, $title, $description, $items, $all = null)
+    public function __construct($items, $image_small = null, $image_large = null, $title = null, $description = null, $all = null)
     {
+        $this->items = $items;
         $this->image_small = $image_small;
         $this->image_large = $image_large;
         $this->title = $title;
         $this->description = $description;
-        $this->items = $items;
         $this->all = $all;
     }
-    public string $image_small;
-    public string $image_large;
-    public string $title;
-    public string $description;
+    public ?string $image_small;
+    public ?string $image_large;
+    public ?string $title;
+    public ?string $description;
     public array $items;
     public ?TreatmentAreaItem $all;
 }
@@ -284,6 +284,23 @@ class TreatmentAreaItem
     public string $title;
     public string $duration;
     public string $price;
+}
+
+class TreatmentStep
+{
+    public function __construct($title, $content, $url, $url_label)
+    {
+        $this->title = $title;
+        $this->content = $content;
+        $this->url = $url;
+        $this->url_label = $url_label;
+    }
+
+    public $prefix;
+    public $title;
+    public $content;
+    public $url;
+    public $url_label;
 }
 
 class Article
