@@ -353,17 +353,22 @@ class SkinGuideArticle
 
 class ResultCategory
 {
-    public function __construct($id, $title, $description, $results)
+    /**
+     * @param ResultCustomer[] $results
+     */
+    public function __construct($id, $title, $description_1, $description_2, $results)
     {
         $this->id = $id;
         $this->title = $title;
-        $this->description = $description;
+        $this->description_1 = $description_1;
+        $this->description_2 = $description_2;
         $this->results = $results;
     }
 
     public string $id;
     public string $title;
-    public string $description;
+    public string $description_1;
+    public string $description_2;
 
     /**
      * @var ResultCustomer[]
@@ -376,10 +381,13 @@ class ResultCustomer
     /**
      * @param ResultTreatment $treatment
      */
-    public function __construct($image_before, $image_after, $age, $gender, $problem, $type, $treatment)
+    public function __construct($id, $image_before_small, $image_after_small, $image_before_large, $image_after_large, $age, $gender, $problem, $type, $treatment)
     {
-        $this->image_before = $image_before;
-        $this->image_after = $image_after;
+        $this->id = $id;
+        $this->image_before_small = $image_before_small;
+        $this->image_after_small = $image_after_small;
+        $this->image_before_large = $image_before_large;
+        $this->image_after_large = $image_after_large;
         $this->age = $age;
         $this->gender = $gender;
         $this->problem = $problem;
@@ -387,8 +395,11 @@ class ResultCustomer
         $this->treatment = $treatment;
     }
 
-    public string $image_before;
-    public string $image_after;
+    public string $id;
+    public string $image_before_small;
+    public string $image_after_small;
+    public string $image_before_large;
+    public string $image_after_large;
     public int $age;
     public string $gender;
     /**
@@ -405,6 +416,7 @@ class ResultCustomer
 class ResultTreatment
 {
     /**
+     * @param ResultProcedure[] $procedures
      * @param ResultProduct $product
      * @param ResultEmployee $employee
      * @param ResultVisit[] $visits

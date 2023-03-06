@@ -1,10 +1,4 @@
-<?php
-include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
-
-
-$consultation_url = '';
-
-?>
+<?php include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php'); ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
 
@@ -18,6 +12,134 @@ $consultation_url = '';
     <link rel="stylesheet" href="/styles/default-layout.css">
     <link rel="stylesheet" href="/results/style.css">
 </head>
+
+<?php
+$consultation_url = '';
+$result_categories = array(
+    new ResultCategory(
+        id: 'acne',
+        title: 'Acne',
+        description_1: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
+        description_2: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
+        results: array()
+    ),
+    new ResultCategory(
+        id: 'acne-scars',
+        title: 'Acne scars',
+        description_1: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
+        description_2: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
+        results: array(
+            new ResultCustomer(
+                id: '123',
+                image_before_small: 'https://via.placeholder.com/178x238.webm',
+                image_after_small: 'https://via.placeholder.com/178x238.webm',
+                image_before_large: 'https://via.placeholder.com/372x496.webm',
+                image_after_large: 'https://via.placeholder.com/372x496.webm',
+                age: 24,
+                gender: 'Female',
+                problem: 'Acne',
+                type: 'Severe',
+                treatment: new ResultTreatment(
+                    duration: '50 minutes',
+                    procedures: array(),
+                    product: new ResultProduct(
+                        image: 'https://via.placeholder.com/102x102.webm',
+                        name: 'Product bundle for light acne'
+                    ),
+                    employee: new ResultEmployee(
+                        image: 'https://via.placeholder.com/102x102.webm',
+                        name: 'Leslie Alexander'
+                    ),
+                    visits: array(
+                        new ResultVisit(
+                            date: 'Nov 30, 2022',
+                            images: new ResultImages(
+                                image_left_small: 'https://via.placeholder.com/175x235.webm',
+                                image_right_small: 'https://via.placeholder.com/175x235.webm',
+                                image_left_large: 'https://via.placeholder.com/320x426.webm',
+                                image_right_large: 'https://via.placeholder.com/320x426.webm',
+                            ),
+                            title: 'First free consultation',
+                            description: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone.',
+                            read_more_url: 'https://dahlskincare.com/skin-consultation',
+                            read_more_label: 'Get a free consultation'
+                        ),
+                        new ResultVisit(
+                            date: 'Dec 24, 2022',
+                            images: new ResultImages(
+                                image_left_small: 'https://via.placeholder.com/175x235.webm',
+                                image_right_small: 'https://via.placeholder.com/175x235.webm',
+                                image_left_large: 'https://via.placeholder.com/320x426.webm',
+                                image_right_large: 'https://via.placeholder.com/320x426.webm',
+                            ),
+                            title: 'Results after first problem skin facials',
+                            description: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone.',
+                            read_more_url: '/services/facials',
+                            read_more_label: 'Read more about facials'
+                        )
+                    )
+                )
+            )
+        )
+    ),
+    new ResultCategory(
+        id: 'comedones',
+        title: 'Comedones',
+        description_1: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
+        description_2: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
+        results: array()
+    ),
+    new ResultCategory(
+        id: 'rosacea',
+        title: 'Rosacea',
+        description_1: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
+        description_2: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
+        results: array()
+    ),
+    new ResultCategory(
+        id: 'seborrhea',
+        title: 'Seborrhea',
+        description_1: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
+        description_2: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
+        results: array()
+    ),
+    new ResultCategory(
+        id: 'perioral-dermatitis',
+        title: 'Perioral dermatitis',
+        description_1: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
+        description_2: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
+        results: array()
+    ),
+    new ResultCategory(
+        id: 'large-pores',
+        title: 'Large pores',
+        description_1: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
+        description_2: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
+        results: array()
+    ),
+    new ResultCategory(
+        id: 'mature-skin',
+        title: 'Mature skin',
+        description_1: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
+        description_2: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
+        results: array()
+    ),
+    new ResultCategory(
+        id: 'pigmentation',
+        title: 'Pigmentation',
+        description_1: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
+        description_2: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
+        results: array()
+    ),
+    new ResultCategory(
+        id: 'milier',
+        title: 'Milier',
+        description_1: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
+        description_2: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
+        results: array()
+    )
+)
+?>
 
 <body>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
