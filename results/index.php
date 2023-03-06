@@ -206,12 +206,12 @@ $result_categories = array(
                         <?php } ?>
                     </div>
                     <div class="filter-button is-hidden" id="filter-button-previous">
-                        <button class="round-large grey">
+                        <button class="round-medium grey">
                             <?php icon('arrow-left') ?>
                         </button>
                     </div>
                     <div class="filter-button is-hidden" id="filter-button-next">
-                        <button class="round-large grey">
+                        <button class="round-medium grey">
                             <?php icon('arrow-right') ?>
                         </button>
                     </div>
@@ -220,6 +220,7 @@ $result_categories = array(
         </section>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
+    <script src="results/results.js"></script>
 </body>
 
 </html>

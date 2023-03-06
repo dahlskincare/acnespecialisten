@@ -38,7 +38,7 @@ section#banner {
                 background-color: $light-25;
 
                 .filter-item-label {
-                    color: $black-500;
+                    color: $deep-sea-500;
                 }
             }
 
@@ -93,7 +93,7 @@ section#banner {
                 position: absolute;
                 top: 0;
                 height: 100%;
-                padding: $xl;
+                padding: $m;
                 box-sizing: border-box;
             }
 
@@ -109,15 +109,11 @@ section#banner {
             }
 
             .filter-item {
-                padding: 17.5px 0;
+                padding: $xl 0;
                 flex: 1 0 132px;
                 text-align: center;
                 cursor: pointer;
                 border-left: 1px solid $light-200;
-
-                .filter-item-label {
-                    //color: $deep-sea-500;
-                }
             }
 
             .filter-item:not(.highlight):hover {
@@ -130,7 +126,7 @@ section#banner {
                 background-color: $light-25;
 
                 .filter-item-label {
-                    color: $black-500;
+                    color: $deep-sea-500;
                 }
             }
 
