@@ -1,6 +1,7 @@
 @import '../styles/util/colors';
 @import '../styles/util/sizes';
 @import '../styles/util/mixins';
+@import 'widgets/result_customer_card/result_customer_card';
 
 section#banner {
     #banner-green {
@@ -13,6 +14,10 @@ section#banner {
         .underline {
             cursor: pointer;
             text-decoration: underline;
+        }
+
+        #page-title-desktop {
+            width: 1px;
         }
     }
 

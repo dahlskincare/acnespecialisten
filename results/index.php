@@ -15,17 +15,24 @@
 
 <?php
 $consultation_url = '';
-$result_categories = array(
+
+$category_links = array(
+    'acne' => 'Acne',
+    'acne-scars' => 'Acne scars',
+    'comedones' => 'Comedones',
+    'rosacea' => 'Rosacea',
+    'seborrhea' => 'Seborrhea',
+    'perioral-dermatitis' => 'Perioral Dermatitis',
+    'large-pores' => 'Large pores',
+    'mature-skin' => 'Mature skin',
+    'pigmentation' => 'Pigmentation',
+    'milier' => 'Milier'
+);
+
+$result_category =
     new ResultCategory(
-        id: 'acne',
-        title: 'Acne',
-        description_1: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
-        description_2: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
-        results: array()
-    ),
-    new ResultCategory(
-        id: 'acne-scars',
-        title: 'Acne scars',
+        id: 'all',
+        title: 'Customer results',
         description_1: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
         description_2: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
         results: array(
@@ -40,8 +47,11 @@ $result_categories = array(
                 problem: 'Acne',
                 type: 'Severe',
                 treatment: new ResultTreatment(
-                    duration: '50 minutes',
-                    procedures: array(),
+                    duration: '3 months',
+                    procedures: array(
+                        new ResultProcedure(image: 'https://via.placeholder.com/102x102.webm', name: 'Problem skin facials', count: '5 times'),
+                        new ResultProcedure(image: 'https://via.placeholder.com/102x102.webm', name: 'Laser for problem skin', count: '2 times')
+                    ),
                     product: new ResultProduct(
                         image: 'https://via.placeholder.com/102x102.webm',
                         name: 'Product bundle for light acne'
@@ -81,64 +91,7 @@ $result_categories = array(
                 )
             )
         )
-    ),
-    new ResultCategory(
-        id: 'comedones',
-        title: 'Comedones',
-        description_1: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
-        description_2: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
-        results: array()
-    ),
-    new ResultCategory(
-        id: 'rosacea',
-        title: 'Rosacea',
-        description_1: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
-        description_2: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
-        results: array()
-    ),
-    new ResultCategory(
-        id: 'seborrhea',
-        title: 'Seborrhea',
-        description_1: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
-        description_2: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
-        results: array()
-    ),
-    new ResultCategory(
-        id: 'perioral-dermatitis',
-        title: 'Perioral dermatitis',
-        description_1: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
-        description_2: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
-        results: array()
-    ),
-    new ResultCategory(
-        id: 'large-pores',
-        title: 'Large pores',
-        description_1: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
-        description_2: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
-        results: array()
-    ),
-    new ResultCategory(
-        id: 'mature-skin',
-        title: 'Mature skin',
-        description_1: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
-        description_2: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
-        results: array()
-    ),
-    new ResultCategory(
-        id: 'pigmentation',
-        title: 'Pigmentation',
-        description_1: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
-        description_2: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
-        results: array()
-    ),
-    new ResultCategory(
-        id: 'milier',
-        title: 'Milier',
-        description_1: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
-        description_2: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
-        results: array()
-    )
-)
+    );
 ?>
 
 <body>
@@ -148,11 +101,11 @@ $result_categories = array(
             <div id="banner-green">
                 <div class="container l10n">
                     <div class="is-hidden-desktop">
-                        <h1 class="h600 mt-xs l10n">Customer results</h1>
-                        <p class="p200 mt-xs l10n">
-                            In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified In a personal meeting with a skin specialist, your skinonal...
-                            In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified In a personal meeting with a skin specialist, your skinonal...
-                        </p>
+                        <h1 class="h600 mt-xs"><?php echo $result_category->title ?></h1>
+                        <div class="mt-xs">
+                            <p class="p200"><?php echo $result_category->description_1 ?></p>
+                            <p class="p200 mt-m"><?php echo $result_category->description_2 ?></p>
+                        </div>
                         <a href="<?php echo $consultation_url ?>" target="_blank" class="button b200 white expand mt-xl l10n">Get a free consultation</a>
                     </div>
                     <div class="is-hidden-touch" id="banner-green-desktop">
@@ -164,43 +117,41 @@ $result_categories = array(
                         </div>
                         <div class="flex-row align-end">
                             <div id="skin-problems-header-column">
-                                <h1 class="h600 mt-xs l10n">Customer<br />results</h1>
+                                <h1 id="page-title-desktop" class="h600 mt-xs"><?php echo $result_category->title ?></h1>
                                 <a href="<?php echo $consultation_url ?>" class="button b200 white mt-xl">Get a free consultation</a>
                             </div>
-                            <div class="l10n">
-                                In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified In a personal meeting with a skin specialist, your skinonal...
+                            <div class="p200">
+                                <?php echo $result_category->description_1 ?>
                             </div>
-                            <div class="ml-xl4 l10n">
-                                In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified In a personal meeting with a skin specialist, your skinonal...
+                            <div class="p200 ml-xl4">
+                                <?php echo $result_category->description_2 ?>
                             </div>
 
                         </div>
                     </div>
                 </div>
             </div>
-
             <div class="container mt-m is-hidden-desktop">
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
             </div>
             <div class="container mt-m is-hidden-desktop" id="filters-touch-container">
                 <div id="filters-touch">
-                    <?php foreach ($result_categories as $result_category) { ?>
+                    <?php foreach ($category_links as $link_id => $link_label) { ?>
                         <div class="filter-item">
                             <div class="b100 filter-item-label l10n">
-                                <?php echo $result_category->title ?>
+                                <?php echo $link_label ?>
                             </div>
                         </div>
                     <?php } ?>
                 </div>
             </div>
-
             <div class="container is-hidden-touch">
                 <div id="filters-desktop">
                     <div id="filter-items">
-                        <?php foreach ($result_categories as $result_category) { ?>
+                        <?php foreach ($category_links as $link_id => $link_label) { ?>
                             <div class="filter-item">
                                 <div class="b100 filter-item-label l10n">
-                                    <?php echo $result_category->title ?>
+                                    <?php echo $link_label ?>
                                 </div>
                             </div>
                         <?php } ?>
@@ -218,6 +169,14 @@ $result_categories = array(
                 </div>
             </div>
         </section>
+        <div class="container">
+            <section id="cards">
+                <?php foreach ($result_category->results as $result_customer) { ?>
+                    <?php include('widgets/result_customer_card/result_customer_card.php'); ?>
+                    <hr class="is-hidden-mobile" />
+                <?php } ?>
+            </section>
+        </div>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
     <script src="results/results.js"></script>

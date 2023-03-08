@@ -454,7 +454,7 @@ class ResultProcedure
     }
     public string $image;
     public string $name;
-    public int $count;
+    public string $count;
 }
 
 class ResultProduct
