@@ -42,8 +42,11 @@
                     <img src="<?php echo $procedure->image ?>" alt="<?php echo $procedure->name ?>" width="102" height="102">
                     <div class="detail-card-content">
                         <div class="p200 l10n">Procedure</div>
-                        <div class="h200"><?php echo $procedure->name ?></div>
-                        <div class="p200"><?php echo $procedure->count ?></div>
+                        <div class="name-and-count">
+                            <div class="h200"><?php echo $procedure->name ?></div>
+                            <div class="dot"></div>
+                            <div class="p200"><?php echo $procedure->count ?></div>
+                        </div>
                     </div>
                 </div>
             <?php } ?>
@@ -66,7 +69,7 @@
                 </div>
             <?php } ?>
             <hr class="is-hidden-desktop" />
-            <a href="" class="button outline l10n">View journey details</a>
+            <a href="" class="button expand outline l10n">View journey details</a>
         </div>
 
     </div>

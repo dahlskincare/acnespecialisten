@@ -84,9 +84,67 @@
 
             .button {
                 margin-top: $xl;
-                width: 100%;
-                box-sizing: border-box;
             }
         }
+    }
+
+    @media screen and (min-width: $tablet) {
+        box-shadow: none;
+        border-radius: 0;
+        display: flex;
+
+        .customer-card-photos {
+            picture {
+                img {
+                    border-radius: $radius-l;
+                }
+            }
+
+            picture:first-child {
+                margin-right: $xs;
+            }
+
+            picture:last-child {
+                margin-left: $xs;
+            }
+        }
+
+        .customer-card-content {
+            flex: 1;
+            border: 0;
+            padding: 0;
+            margin-left: $xl;
+
+            .treatment-details {
+                .detail-card {
+                    img {
+                        width: 64px;
+                        height: 64px;
+                    }
+
+                    .detail-card-content {
+                        .name-and-count {
+                            display: flex;
+                            align-items: center;
+
+                            .dot {
+                                width: 6px;
+                                height: 6px;
+                                border-radius: 50%;
+                                background-color: $dark-25;
+                                margin: 0 $xs;
+                            }
+                        }
+                    }
+                }
+
+                .button {
+                    width: initial;
+                    box-sizing: content-box;
+                }
+            }
+        }
+
+
     }
 }
