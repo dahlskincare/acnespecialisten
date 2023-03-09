@@ -174,6 +174,10 @@ $result_category =
                 <?php foreach ($result_category->results as $result_customer) { ?>
                     <?php include('widgets/result_customer_card/result_customer_card.php'); ?>
                 <?php } ?>
+                <div id="show-more">
+                    <button class="b200 expand l10n">Show more</button>
+                </div>
+                <?php include('widgets/paginator/paginator.php'); ?>
             </section>
         </div>
     </main>

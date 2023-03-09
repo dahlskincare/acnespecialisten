@@ -1,0 +1,31 @@
+@import '../../../styles/util/colors';
+@import '../../../styles/util/sizes';
+@import '../../../styles/util/mixins';
+
+.paginator-widget {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .steps {
+        margin: 0 $s;
+        text-align: center;
+
+        .step {
+            cursor: pointer;
+            padding: 0 $s;
+            display: inline-block;
+            @include h200;
+            color: $deep-sea-400;
+        }
+
+        .step.active {
+            color: $black-500;
+        }
+    }
+
+    @media screen and (min-width: $tablet) {
+        justify-content: center;
+
+    }
+}

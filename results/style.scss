@@ -2,6 +2,7 @@
 @import '../styles/util/sizes';
 @import '../styles/util/mixins';
 @import 'widgets/result_customer_card/result_customer_card';
+@import 'widgets/paginator/paginator';
 
 section#banner {
     #banner-green {
@@ -52,9 +53,6 @@ section#banner {
             }
         }
     }
-
-
-
 
     @media screen and (min-width: $desktop) {
         #banner-green {
@@ -140,5 +138,23 @@ section#banner {
             }
         }
 
+    }
+}
+
+section#cards {
+    #show-more {
+        margin: $xl 0;
+    }
+
+    @media screen and (min-width: $tablet) {
+        #show-more {
+            margin: $xl*2 0 $xl 0;
+            text-align: center;
+
+            button {
+                width: initial;
+                box-sizing: border-box;
+            }
+        }
     }
 }
