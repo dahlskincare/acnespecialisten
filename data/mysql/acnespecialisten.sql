@@ -19,6 +19,9 @@ CREATE TABLE `ix_result_treatment_procedure` (
   CONSTRAINT `ix_result_treatment_procedure_ibfk_2` FOREIGN KEY (`result_procedure_id`) REFERENCES `result_procedure` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
 
+INSERT INTO `ix_result_treatment_procedure` (`id`, `result_treatment_id`, `result_procedure_id`) VALUES
+(1,	1,	1),
+(2,	1,	2);
 
 DROP TABLE IF EXISTS `result_category`;
 CREATE TABLE `result_category` (
@@ -61,6 +64,8 @@ CREATE TABLE `result_employee` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
 
+INSERT INTO `result_employee` (`id`, `image`, `name`) VALUES
+(1,	'https://via.placeholder.com/102x102.webm',	'Leslie Alexander');
 
 DROP TABLE IF EXISTS `result_procedure`;
 CREATE TABLE `result_procedure` (
@@ -71,6 +76,9 @@ CREATE TABLE `result_procedure` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
 
+INSERT INTO `result_procedure` (`id`, `image`, `name`, `count`) VALUES
+(1,	'https://via.placeholder.com/102x102.webm',	'Problem skin facials',	'5 times'),
+(2,	'https://via.placeholder.com/102x102.webm',	'Laser for problem skin',	'2 times');
 
 DROP TABLE IF EXISTS `result_product`;
 CREATE TABLE `result_product` (
@@ -80,6 +88,8 @@ CREATE TABLE `result_product` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
 
+INSERT INTO `result_product` (`id`, `image`, `name`) VALUES
+(1,	'https://via.placeholder.com/102x102.webm',	'Product bundle for light acne');
 
 DROP TABLE IF EXISTS `result_treatment`;
 CREATE TABLE `result_treatment` (
@@ -94,6 +104,8 @@ CREATE TABLE `result_treatment` (
   CONSTRAINT `result_treatment_ibfk_2` FOREIGN KEY (`result_product_id`) REFERENCES `result_product` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
 
+INSERT INTO `result_treatment` (`id`, `duration`, `result_employee_id`, `result_product_id`) VALUES
+(1,	'3 months',	1,	1);
 
 DROP TABLE IF EXISTS `result_visit`;
 CREATE TABLE `result_visit` (
@@ -110,5 +122,8 @@ CREATE TABLE `result_visit` (
   CONSTRAINT `result_visit_ibfk_1` FOREIGN KEY (`result_treatment_id`) REFERENCES `result_treatment` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
 
+INSERT INTO `result_visit` (`id`, `date`, `images`, `title`, `description`, `read_more_url`, `read_more_label`, `result_treatment_id`) VALUES
+(1,	'Nov 30, 2022',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}',	'First free consultation',	'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone.',	'https://dahlskincare.com/skin-consultation',	'Get a free consultation',	1),
+(2,	'Nov 30, 2022',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}',	'Results after first problem skin facials',	'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone.',	'/services/facials',	'Read more about facials',	1);
 
--- 2023-03-09 13:04:34
+-- 2023-03-09 13:41:03
