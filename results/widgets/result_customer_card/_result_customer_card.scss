@@ -92,6 +92,9 @@
         box-shadow: none;
         border-radius: 0;
         display: flex;
+        margin-top: 104px;
+        padding-bottom: 104px;
+        border-bottom: 1px solid $light-200;
 
         .customer-card-photos {
             picture {

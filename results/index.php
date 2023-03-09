@@ -173,7 +173,6 @@ $result_category =
             <section id="cards">
                 <?php foreach ($result_category->results as $result_customer) { ?>
                     <?php include('widgets/result_customer_card/result_customer_card.php'); ?>
-                    <hr class="is-hidden-mobile" />
                 <?php } ?>
             </section>
         </div>
