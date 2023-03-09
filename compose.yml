@@ -20,7 +20,7 @@ services:
       MYSQL_USER: ${DB_USER}
       MYSQL_PASSWORD: ${DB_PASSWORD}
     volumes:
-      - acne-datavolume:data/mysql
+      - acne-datavolume:/var/lib/mysql
 
   adminer:
     image: adminer
