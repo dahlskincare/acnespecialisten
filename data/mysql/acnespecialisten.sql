@@ -55,6 +55,8 @@ CREATE TABLE `result_customer` (
   CONSTRAINT `result_customer_ibfk_2` FOREIGN KEY (`result_treatment_id`) REFERENCES `result_treatment` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
 
+INSERT INTO `result_customer` (`id`, `image_before_small`, `image_after_small`, `image_before_large`, `image_after_large`, `age`, `gender`, `problem`, `type`, `result_treatment_id`, `result_category_id`) VALUES
+(2,	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/372x496.webm',	'https://via.placeholder.com/372x496.webm',	24,	'Female',	'Acne',	'Severe',	1,	'acne');
 
 DROP TABLE IF EXISTS `result_employee`;
 CREATE TABLE `result_employee` (
@@ -126,4 +128,4 @@ INSERT INTO `result_visit` (`id`, `date`, `images`, `title`, `description`, `rea
 (1,	'Nov 30, 2022',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}',	'First free consultation',	'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone.',	'https://dahlskincare.com/skin-consultation',	'Get a free consultation',	1),
 (2,	'Nov 30, 2022',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}',	'Results after first problem skin facials',	'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone.',	'/services/facials',	'Read more about facials',	1);
 
--- 2023-03-09 13:41:03
+-- 2023-03-09 15:52:37
