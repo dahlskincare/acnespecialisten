@@ -37,7 +37,7 @@ $result_category =
         description_2: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
         results: array(
             new ResultCustomer(
-                id: '123',
+                id: 123,
                 image_before_small: 'https://via.placeholder.com/178x238.webm',
                 image_after_small: 'https://via.placeholder.com/178x238.webm',
                 image_before_large: 'https://via.placeholder.com/372x496.webm',
@@ -47,10 +47,11 @@ $result_category =
                 problem: 'Acne',
                 type: 'Severe',
                 treatment: new ResultTreatment(
+                    id: 1,
                     duration: '3 months',
                     procedures: array(
-                        new ResultProcedure(image: 'https://via.placeholder.com/102x102.webm', name: 'Problem skin facials', count: '5 times'),
-                        new ResultProcedure(image: 'https://via.placeholder.com/102x102.webm', name: 'Laser for problem skin', count: '2 times')
+                        new ResultProcedure(id: 1, image: 'https://via.placeholder.com/102x102.webm', name: 'Problem skin facials', count: '5 times'),
+                        new ResultProcedure(id: 2, image: 'https://via.placeholder.com/102x102.webm', name: 'Laser for problem skin', count: '2 times')
                     ),
                     product: new ResultProduct(
                         image: 'https://via.placeholder.com/102x102.webm',
@@ -62,6 +63,7 @@ $result_category =
                     ),
                     visits: array(
                         new ResultVisit(
+                            id: 1,
                             date: 'Nov 30, 2022',
                             images: new ResultImages(
                                 image_left_small: 'https://via.placeholder.com/175x235.webm',
@@ -75,6 +77,7 @@ $result_category =
                             read_more_label: 'Get a free consultation'
                         ),
                         new ResultVisit(
+                            id: 2,
                             date: 'Dec 24, 2022',
                             images: new ResultImages(
                                 image_left_small: 'https://via.placeholder.com/175x235.webm',
@@ -93,7 +96,20 @@ $result_category =
         )
     );
 
-$conn = new mysqli($_ENV['DB_URL'], $_ENV['DB_USER'], $_ENV['DB_PASSWORD']);
+$conn = new mysqli($_ENV['DB_URL'], $_ENV['DB_USER'], $_ENV['DB_PASSWORD'], database: $_ENV['DB_NAME']);
+if ($conn->connect_errno) {
+    echo "Failed to connect to MySQL: " . $conn->connect_error;
+    exit();
+}
+if ($result = $conn->query("SELECT * FROM result_category")) {
+    echo "Returned rows: " . $result->num_rows;
+    foreach ($result as $row) {
+        echo $row['id'];
+    }
+    $result->free_result();
+}
+
+$conn->close();
 ?>
 
 <body>
