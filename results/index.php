@@ -58,7 +58,7 @@ if (isset($_GET['page']) && $_GET['page'] > 0) {
 if (isset($_GET['pagesize'])) {
     $pagesize = $_GET['pagesize'];
 } else {
-    $pagesize = 6;
+    $pagesize = 2;
 }
 $pages = ceil($num_result_customers / $pagesize);
 
