@@ -326,7 +326,7 @@ $conn->close();
         </div>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
-    <script scustomer="results/results.js"></script>
+    <script src="results/results.js"></script>
 </body>
 
 </html>
