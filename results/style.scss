@@ -142,19 +142,24 @@ section#banner {
 }
 
 section#cards {
+
     #show-more {
         margin: $xl 0;
     }
 
     @media screen and (min-width: $tablet) {
         #show-more {
-            margin: $xl*2 0 $xl 0;
+            margin-top: $xl*2;
             text-align: center;
 
-            button {
+            a.button {
                 width: initial;
                 box-sizing: border-box;
             }
+        }
+
+        #paginator {
+            margin-top: $xl;
         }
     }
 }

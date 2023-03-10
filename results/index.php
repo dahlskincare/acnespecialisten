@@ -44,6 +44,24 @@ if ($conn->connect_errno) {
     exit();
 }
 
+if ($rs = $conn->query("SELECT id FROM result_customer")) {
+    $num_result_customers = $rs->num_rows;
+    $rs->free_result();
+} else {
+    die($conn->error);
+}
+if (isset($_GET['page']) && $_GET['page'] > 0) {
+    $page = $_GET['page'];
+} else {
+    $page = 1;
+}
+if (isset($_GET['pagesize'])) {
+    $pagesize = $_GET['pagesize'];
+} else {
+    $pagesize = 6;
+}
+$pages = ceil($num_result_customers / $pagesize);
+
 $all_procedures = array();
 if ($rs = $conn->query("SELECT * FROM result_procedure")) {
     foreach ($rs as $row) {
@@ -54,8 +72,7 @@ if ($rs = $conn->query("SELECT * FROM result_procedure")) {
     die($conn->error);
 }
 
-if ($rs = $conn->query("
-    SELECT customer.*, 
+$query = "SELECT customer.*, 
     treatment.id AS treatment_id, treatment.duration AS treatment_duration,
     employee.name AS employee_name, employee.image AS employee_image,
     product.name AS product_name, product.image AS product_image,    
@@ -66,7 +83,10 @@ if ($rs = $conn->query("
     INNER JOIN result_product AS product ON product.id = treatment.result_product_id    
     INNER JOIN ix_result_treatment_procedure AS ix ON ix.result_treatment_id = treatment.id
     GROUP BY customer.id
-")) {
+    ORDER BY id ASC
+    LIMIT %d, %d";
+
+if ($rs = $conn->query(sprintf($query, ($page - 1) * $pagesize, $pagesize))) {
     foreach ($rs as $row) {
         $customer = new ResultCustomer(
             id: $row['id'],
@@ -212,10 +232,14 @@ $conn->close();
                 <?php foreach ($result_category->results as $result_customer) { ?>
                     <?php include('widgets/result_customer_card/result_customer_card.php'); ?>
                 <?php } ?>
-                <div id="show-more">
-                    <button class="b200 expand l10n">Show more</button>
+                <?php if ($pagesize < $num_result_customers) { ?>
+                    <div id="show-more">
+                        <a class="button b200 expand l10n" href="/results?page=1&pagesize=<?php echo $pagesize * 2 ?>">Show more</a>
+                    </div>
+                <?php } ?>
+                <div id="paginator">
+                    <?php include('widgets/paginator/paginator.php'); ?>
                 </div>
-                <?php include('widgets/paginator/paginator.php'); ?>
             </section>
         </div>
     </main>
