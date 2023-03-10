@@ -168,8 +168,8 @@ $conn->close();
                     <div class="is-hidden-desktop">
                         <h1 class="h600 mt-xs"><?php echo $result_category->title ?></h1>
                         <div class="mt-xs">
-                            <p class="p200"><?php echo $result_category->description_1 ?></p>
-                            <p class="p200 mt-m"><?php echo $result_category->description_2 ?></p>
+                            <div class="p200"><?php echo $result_category->description_1 ?></div>
+                            <div class="p200 mt-m"><?php echo $result_category->description_2 ?></div>
                         </div>
                         <a href="<?php echo $consultation_url ?>" target="_blank" class="button b200 white expand mt-xl l10n">Get a free consultation</a>
                     </div>
