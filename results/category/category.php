@@ -10,7 +10,7 @@
     <meta name="keywords" content="" class="l10n">
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
-    <link rel="stylesheet" href="/results/style.css">
+    <link rel="stylesheet" href="/results/category/category.css">
 </head>
 
 <?php
@@ -23,34 +23,32 @@ $specialists = array(
     new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-4.jpg', 'images/specialists/large/specialist-4.jpg')
 );
 
-
-
-$result_category =
-    new ResultCategory(
-        id: '',
-        title: 'Customer results',
-        description_1: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
-        description_2: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
-        results: array()
-    );
-
 $conn = new mysqli($_ENV['DB_URL'], $_ENV['DB_USER'], $_ENV['DB_PASSWORD'], database: $_ENV['DB_NAME']);
 if ($conn->connect_errno) {
     echo "Failed to connect to MySQL: " . $conn->connect_error;
     exit();
 }
 
-$category_links = array();
-if ($rs = $conn->query("SELECT id, title FROM result_category ORDER BY title ASC")) {
-    foreach ($rs as $row) {
-        $category_links[$row['id']] = $row['title'];
+if ($rs = $conn->query(sprintf("SELECT * FROM result_category WHERE id = '%s' LIMIT 1", $_GET['id']))) {
+    if ($rs->num_rows == 1) {
+
+        $row = $rs->fetch_assoc();
+        $result_category = new ResultCategory(
+            id: $row['id'],
+            title: $row['title'] . '<br />results',
+            description_1: $row['description_1'],
+            description_2: $row['description_2'],
+            results: array()
+        );
+    } else {
+        http_response_code(404);
+        die('Page not found');
     }
-    $rs->free_result();
 } else {
     die($conn->error);
 }
 
-if ($rs = $conn->query("SELECT COUNT(id) as cnt FROM result_customer")) {
+if ($rs = $conn->query(sprintf("SELECT COUNT(id) AS cnt FROM result_customer WHERE result_category_id = '%s'", $result_category->id))) {
     $num_result_customers = $rs->fetch_assoc()['cnt'];
     $rs->free_result();
 } else {
@@ -88,11 +86,12 @@ $query = "SELECT customer.*,
     INNER JOIN result_employee AS employee ON employee.id = treatment.result_employee_id
     INNER JOIN result_product AS product ON product.id = treatment.result_product_id    
     INNER JOIN ix_result_treatment_procedure AS ix ON ix.result_treatment_id = treatment.id
+    WHERE customer.result_category_id = '%s'
     GROUP BY customer.id
     ORDER BY id ASC
     LIMIT %d, %d";
 
-if ($rs = $conn->query(sprintf($query, ($page - 1) * $pagesize, $pagesize))) {
+if ($rs = $conn->query(sprintf($query, $result_category->id, ($page - 1) * $pagesize, $pagesize))) {
     foreach ($rs as $row) {
         $customer = new ResultCustomer(
             id: $row['id'],
@@ -165,6 +164,7 @@ $conn->close();
             <div id="banner-green">
                 <div class="container l10n">
                     <div class="is-hidden-desktop">
+                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
                         <h1 class="h600 mt-xs"><?php echo $result_category->title ?></h1>
                         <div class="mt-xs">
                             <div class="p200"><?php echo $result_category->description_1 ?></div>
@@ -174,14 +174,14 @@ $conn->close();
                     </div>
                     <div class="is-hidden-touch" id="banner-green-desktop">
                         <div class="flex-row justify-space-between">
-                            <div></div>
+                            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
                             <div class="mt-xl mb-xs">
                                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
                             </div>
                         </div>
                         <div class="flex-row align-end">
                             <div id="skin-problems-header-column">
-                                <h1 id="page-title-desktop" class="h600 mt-xs"><?php echo $result_category->title ?></h1>
+                                <h1 class="h600 mt-xs"><?php echo $result_category->title ?></h1>
                                 <a href="<?php echo $consultation_url ?>" class="button b200 white mt-xl">Get a free consultation</a>
                             </div>
                             <div class="p200">
@@ -190,7 +190,6 @@ $conn->close();
                             <div class="p200 ml-xl4">
                                 <?php echo $result_category->description_2 ?>
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -198,45 +197,11 @@ $conn->close();
             <div class="container mt-m is-hidden-desktop">
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
             </div>
-            <div class="container mt-m is-hidden-desktop" id="filters-touch-container">
-                <div id="filters-touch">
-                    <?php foreach ($category_links as $link_id => $link_label) { ?>
-                        <div class="filter-item">
-                            <a href="/results/<?php echo $link_id ?>" class="b100 filter-item-label l10n">
-                                <?php echo $link_label ?>
-                            </a>
-                        </div>
-                    <?php } ?>
-                </div>
-            </div>
-            <div class="container is-hidden-touch">
-                <div id="filters-desktop">
-                    <div id="filter-items">
-                        <?php foreach ($category_links as $link_id => $link_label) { ?>
-                            <a href="/results/<?php echo $link_id ?>" class="filter-item">
-                                <div class="b100 filter-item-label l10n">
-                                    <?php echo $link_label ?>
-                                </div>
-                            </a>
-                        <?php } ?>
-                    </div>
-                    <div class="filter-button is-hidden" id="filter-button-previous">
-                        <button class="round-medium grey">
-                            <?php icon('arrow-left') ?>
-                        </button>
-                    </div>
-                    <div class="filter-button is-hidden" id="filter-button-next">
-                        <button class="round-medium grey">
-                            <?php icon('arrow-right') ?>
-                        </button>
-                    </div>
-                </div>
-            </div>
         </section>
         <div class="container">
             <section id="cards">
                 <?php foreach ($result_category->results as $result_customer) { ?>
-                    <?php include('widgets/result_customer_card/result_customer_card.php'); ?>
+                    <?php include('../widgets/result_customer_card/result_customer_card.php'); ?>
                 <?php } ?>
                 <?php if ($pagesize < $num_result_customers) { ?>
                     <div id="show-more">
@@ -244,7 +209,7 @@ $conn->close();
                     </div>
                 <?php } ?>
                 <div id="paginator">
-                    <?php include('widgets/paginator/paginator.php'); ?>
+                    <?php include('../widgets/paginator/paginator.php'); ?>
                 </div>
             </section>
             <section id="cta-banner" class="large-margin">
