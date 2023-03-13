@@ -21,6 +21,34 @@
 <body>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
     <main>
+        <section id="banner" class="sticky-badges-target">
+            <div id="banner-green">
+                <div class="container l10n">
+                    <div class="is-hidden-desktop">
+                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
+                        <h1 class="h600 mt-xs l10n">Treatment details</h1>
+                    </div>
+                    <div class="is-hidden-touch" id="banner-green-desktop">
+                        <div class="flex-row justify-space-between">
+                            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
+                            <div class="mt-xl mb-xs">
+                                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
+                            </div>
+                        </div>
+                        <div class="flex-row align-end">
+                            <div id="skin-problems-header-column">
+                                <h1 class="h600 mt-xs l10n">Treatment details</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-m is-hidden-desktop">
+                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
+            </div>
+        </section>
+        <div class="container">
+        </div>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
 </body>
