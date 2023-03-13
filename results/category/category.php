@@ -290,7 +290,6 @@ $conn->close();
         </div>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
-    <script src="results/results.js"></script>
 </body>
 
 </html>
