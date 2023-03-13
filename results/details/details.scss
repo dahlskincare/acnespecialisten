@@ -8,11 +8,6 @@ section#banner {
         color: $white-500;
         padding-bottom: $xl;
         @include p100;
-
-        .underline {
-            cursor: pointer;
-            text-decoration: underline;
-        }
     }
 
 
@@ -23,10 +18,6 @@ section#banner {
 
             #banner-green-desktop {
                 padding-bottom: $xl5;
-
-                #skin-problems-header-column {
-                    flex: 1 0 425px;
-                }
             }
         }
     }
