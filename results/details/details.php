@@ -19,6 +19,98 @@
 </head>
 
 <body>
+    <?php
+    $conn = new mysqli($_ENV['DB_URL'], $_ENV['DB_USER'], $_ENV['DB_PASSWORD'], database: $_ENV['DB_NAME']);
+    if ($conn->connect_errno) {
+        echo "Failed to connect to MySQL: " . $conn->connect_error;
+        exit();
+    }
+
+    $query = "SELECT customer.*, 
+    treatment.id AS treatment_id, treatment.duration AS treatment_duration,
+    employee.name AS employee_name, employee.image AS employee_image,
+    product.name AS product_name, product.image AS product_image,    
+    JSON_ARRAYAGG(ix.result_procedure_id) AS procedure_ids
+    FROM result_customer AS customer
+    INNER JOIN result_treatment AS treatment ON treatment.id = customer.result_treatment_id
+    INNER JOIN result_employee AS employee ON employee.id = treatment.result_employee_id
+    INNER JOIN result_product AS product ON product.id = treatment.result_product_id    
+    INNER JOIN ix_result_treatment_procedure AS ix ON ix.result_treatment_id = treatment.id
+    WHERE customer.id = %s
+    LIMIT 1";
+    if ($rs = $conn->query(sprintf($query, $_GET['id']))) {
+        if ($rs->num_rows == 1) {
+            $row = $rs->fetch_assoc();
+            $customer = new ResultCustomer(
+                id: $row['id'],
+                image_before_small: $row['image_before_small'],
+                image_after_small: $row['image_after_small'],
+                image_before_large: $row['image_before_large'],
+                image_after_large: $row['image_after_large'],
+                age: $row['age'],
+                gender: $row['gender'],
+                problem: $row['gender'],
+                type: $row['type'],
+                treatment: new ResultTreatment(
+                    id: $row['treatment_id'],
+                    duration: $row['treatment_duration'],
+                    procedures: array(),
+                    product: new ResultProduct(
+                        image: $row['product_image'],
+                        name: $row['product_name']
+                    ),
+                    employee: new ResultEmployee(
+                        image: $row['employee_image'],
+                        name: $row['employee_name']
+                    ),
+                    visits: array()
+                )
+            );
+            // Populate procedures
+            foreach (json_decode($row['procedure_ids']) as $id) {
+                if ($result = $conn->query(sprintf("SELECT * FROM result_procedure WHERE id = %d LIMIT 1", $id))) {
+                    $row = $result->fetch_assoc();
+                    array_push($customer->treatment->procedures, new ResultProcedure(id: $row['id'], image: $row['image'], name: $row['name'], count: $row['count']));
+                    $result->free_result();
+                } else {
+                    die($conn->error);
+                }
+            }
+
+            // Populate visits
+            if ($result = $conn->query("SELECT * FROM result_visit WHERE result_treatment_id = " . $customer->treatment->id)) {
+                foreach ($result as $visit) {
+                    $images = json_decode($visit['images']);
+
+                    array_push($customer->treatment->visits, new ResultVisit(
+                        id: $visit['id'],
+                        date: $visit['date'],
+                        images: new ResultImages(
+                            image_left_small: $images->image_left_small,
+                            image_right_small: $images->image_right_small,
+                            image_left_large: $images->image_left_large,
+                            image_right_large: $images->image_right_large
+                        ),
+                        title: $visit['title'],
+                        description: $visit['description'],
+                        read_more_url: $visit['read_more_url'],
+                        read_more_label: $visit['read_more_label']
+                    ));
+                }
+                $result->free_result();
+            } else {
+                die($conn->error);
+            }
+            $rs->free_result();
+        } else {
+            http_response_code(404);
+            die('Page not found');
+        }
+    } else {
+        die($conn->error);
+    }
+    ?>
+
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
     <main>
         <section id="banner" class="sticky-badges-target">
