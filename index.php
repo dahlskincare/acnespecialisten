@@ -9,14 +9,10 @@
       <meta name="description" content="Acnespecialisten is the best etc..." class="l10n">
       <meta name="title" content="Acnespecialisten" class="l10n">
       <meta name="keywords" content="Acne, specialisten" class="l10n">
-
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
-
       <link rel="preload" as="image" href="images/banner-desktop.jpg" media="(min-width: 984px)">
       <link rel="preload" as="image" href="images/banner-mobile.jpg" media="(max-width: 983px)">
-
       <link rel="stylesheet" href="/styles/default-layout.css">
-
       <link rel="stylesheet" href="/index.css">
 </head>
 
@@ -89,9 +85,9 @@
                         </div>
                   </a>
             </section>
-            <section id="problems">
-                  <div class="container l10n">
-                        <h2 class="big">Problems</h2>
+            <div class="container">
+                  <section id="problems">
+                        <div class="h500 l10n">Problems</div>
                         <?php
                         $accordion = array(
                               new AccordionItem('Acne', 'images/problems/carousel/small/acne.jpg', 'images/problems/carousel/large/acne.jpg', 'problems/acne', true, true),
@@ -105,13 +101,11 @@
                         $more_count = 17;
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/accordion/accordion.php')
                         ?>
-                        <a href="problems" class="mt-xl button outline is-hidden-desktop expand">View all problems</a>
-                  </div>
-            </section>
-            <section id="our-approach">
-                  <div class="container">
+                        <a href="problems" class="mt-xl button outline is-hidden-desktop expand l10n">View all problems</a>
+                  </section>
+                  <section id="our-approach">
                         <div class="flex-row align-end justify-space-between">
-                              <h2 class="h500 l10n">Our approach</h2>
+                              <div class="h500 l10n">Our approach</div>
                               <a href="our-approach" class="button compact text is-hidden-mobile">
                                     <span class="l10n">Read more about our approach</span>
                                     <?php icon('navigate-next') ?>
@@ -137,13 +131,11 @@
                         <a href="our-approach" class="button b200 outline expand mt-xl l10n is-hidden-desktop">
                               Read more about our approach
                         </a>
-                  </div>
-            </section>
-            <section id="results">
-                  <div class="is-hidden-tablet">
-                        <div class="container">
+                  </section>
+                  <section id="results">
+                        <div class="is-hidden-tablet">
                               <div class="flex-row justify-space-between">
-                                    <h2 class="big l10n">Results</h2>
+                                    <div class="h500 l10n">Results</div>
                                     <div class="step-buttons">
                                           <button class="round-large grey" onclick="Carousel.prev('#results-carousel')">
                                                 <?php icon('arrow-left') ?>
@@ -153,10 +145,50 @@
                                           </button>
                                     </div>
                               </div>
+                              <div class="carousel" id="results-carousel">
+                                    <div class="slide">
+                                          <div class="container l10n">
+                                                <?php
+                                                $before = 'images/results/acne-before.webp';
+                                                $after = 'images/results/acne-after.webp';
+                                                $label = 'After two months of <a href="treatments/acne">acne treatment</a>';
+                                                include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
+                                                ?>
+                                          </div>
+                                    </div>
+                                    <div class="slide">
+                                          <div class="container l10n">
+                                                <?php
+                                                $before = 'images/results/rosacea-before.webp';
+                                                $after = 'images/results/rosacea-after.webp';
+                                                $label = 'After two months of <a href="treatments/rosacea">rosacea treatment</a>';
+                                                include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
+                                                ?>
+                                          </div>
+                                    </div>
+                                    <div class="slide">
+                                          <div class="container l10n">
+                                                <?php
+                                                $before = 'images/results/comedones-before.webp';
+                                                $after = 'images/results/comedones-after.webp';
+                                                $label = 'After two months of <a href="treatments/comedones">comedones treatment</a>';
+                                                include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
+                                                ?>
+                                          </div>
+                                    </div>
+                              </div>
+                              <a class="button b200 outline expand l10n" href="results">View all treatment results</a>
                         </div>
-                        <div class="carousel" id="results-carousel">
-                              <div class="slide">
-                                    <div class="container l10n">
+                        <div class="is-hidden-mobile">
+                              <div class="flex-row align-end justify-space-between">
+                                    <div class="h500 l10n">Results</div>
+                                    <a href="results" class="button compact text">
+                                          <span class="l10n">View all treatment results</span>
+                                          <?php icon('navigate-next') ?>
+                                    </a>
+                              </div>
+                              <div class="columns is-3 is-variable">
+                                    <div class="column l10n">
                                           <?php
                                           $before = 'images/results/acne-before.webp';
                                           $after = 'images/results/acne-after.webp';
@@ -164,9 +196,7 @@
                                           include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
                                           ?>
                                     </div>
-                              </div>
-                              <div class="slide">
-                                    <div class="container l10n">
+                                    <div class="column l10n">
                                           <?php
                                           $before = 'images/results/rosacea-before.webp';
                                           $after = 'images/results/rosacea-after.webp';
@@ -174,9 +204,7 @@
                                           include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
                                           ?>
                                     </div>
-                              </div>
-                              <div class="slide">
-                                    <div class="container l10n">
+                                    <div class="column l10n">
                                           <?php
                                           $before = 'images/results/comedones-before.webp';
                                           $after = 'images/results/comedones-after.webp';
@@ -186,50 +214,11 @@
                                     </div>
                               </div>
                         </div>
-                        <div class="container">
-                              <a class="button b200 outline expand l10n" href="results">View all treatment results</a>
-                        </div>
-                  </div>
-                  <div class="container is-hidden-mobile">
+                  </section>
+                  <section id="reviews">
+
                         <div class="flex-row align-end justify-space-between">
-                              <h2 class="big l10n">Results</h2>
-                              <a href="results" class="button compact text">
-                                    <span class="l10n">View all treatment results</span>
-                                    <?php icon('navigate-next') ?>
-                              </a>
-                        </div>
-                        <div class="columns is-3 is-variable">
-                              <div class="column l10n">
-                                    <?php
-                                    $before = 'images/results/acne-before.webp';
-                                    $after = 'images/results/acne-after.webp';
-                                    $label = 'After two months of <a href="treatments/acne">acne treatment</a>';
-                                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
-                                    ?>
-                              </div>
-                              <div class="column l10n">
-                                    <?php
-                                    $before = 'images/results/rosacea-before.webp';
-                                    $after = 'images/results/rosacea-after.webp';
-                                    $label = 'After two months of <a href="treatments/rosacea">rosacea treatment</a>';
-                                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
-                                    ?>
-                              </div>
-                              <div class="column l10n">
-                                    <?php
-                                    $before = 'images/results/comedones-before.webp';
-                                    $after = 'images/results/comedones-after.webp';
-                                    $label = 'After two months of <a href="treatments/comedones">comedones treatment</a>';
-                                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
-                                    ?>
-                              </div>
-                        </div>
-                  </div>
-            </section>
-            <section id="reviews">
-                  <div class="container">
-                        <div class="flex-row align-end justify-space-between">
-                              <h2 class="big l10n">Reviews</h2>
+                              <div class="h500 l10n">Reviews</div>
                               <div class="flex-row is-hidden-mobile">
                                     <div class="step-buttons">
                                           <button class="round-large grey" onclick="Carousel.prev('#reviews-carousel', -1)">
@@ -248,11 +237,9 @@
                         </div>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
                         <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="reviews">View all reviews</a>
-                  </div>
-            </section>
-            <section id="services">
-                  <div class="container l10n">
-                        <h2 class="big">Services</h2>
+                  </section>
+                  <section id="services">
+                        <div class="h500 l10n">Services</div>
                         <?php
                         $accordion = array(
                               new AccordionItem('Facials', 'https://via.placeholder.com/114x140.jpg', 'images/service-categories/large/facials.jpg', 'services/facials', true, true),
@@ -268,12 +255,10 @@
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/accordion/accordion.php')
                         ?>
                         <a href="problems" class="mt-xl button b200 outline is-hidden-desktop expand">View all services</a>
-                  </div>
-            </section>
-            <section id="faq">
-                  <div class="container">
+                  </section>
+                  <section id="faq">
                         <div class="flex-row align-end justify-space-between">
-                              <h2 class="big l10n">Questions & answers</h2>
+                              <div class="h500 l10n">Questions & answers</div>
                               <a href="faq" class="button compact text is-hidden-mobile">
                                     <span class="l10n">View all questions</span>
                                     <?php icon('navigate-next') ?>
@@ -281,12 +266,10 @@
                         </div>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
                         <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="faq">View all questions</a>
-                  </div>
-            </section>
-            <section id="skin-guide">
-                  <div class="container">
+                  </section>
+                  <section id="skin-guide">
                         <div class="flex-row align-end justify-space-between">
-                              <h2 class="big l10n">Skin guide</h2>
+                              <div class="h500 l10n">Skin guide</div>
                               <a href="skin-guide" class="button compact text is-hidden-mobile">
                                     <span class="l10n">View all articles</span>
                                     <?php icon('navigate-next') ?>
@@ -294,17 +277,15 @@
                         </div>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php'); ?>
                         <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="skin-guide">View all articles</a>
-                  </div>
-            </section>
-            <section id="about-us">
-                  <div class="container">
+                  </section>
+                  <section id="about-us">
                         <div id="about-text-wrapper">
                               <div id="about-text">
-                                    <h2 class="big l10n">About us</h2>
-                                    <h3 class="h200 mt-m l10n">
+                                    <div class="h500 l10n">About us</div>
+                                    <div class="h200 mt-m l10n">
                                           This is a treatment adapted for acne skin and pimples and gives a
                                           really good start to the treatment of the skin.
-                                    </h3>
+                                    </div>
                                     <picture class="is-hidden-tablet">
                                           <source media="(max-width: 799px)" srcset="images/about-mobile.jpg">
                                           <source media="(min-width: 800px)" srcset="images/about-desktop.jpg">
@@ -314,7 +295,7 @@
                                           <div class="column">
                                                 <div class="flex-row about-header">
                                                       <?php icon('star') ?>
-                                                      <h3 class="h200 l10n">25 years of experience</h3>
+                                                      <div class="h200 l10n">25 years of experience</div>
                                                 </div>
                                                 <p class="p200 mt-xxs l10n">
                                                       In a personal meeting with a skin specialist,
@@ -325,7 +306,7 @@
                                           <div class="column">
                                                 <div class="flex-row about-header">
                                                       <?php icon('star') ?>
-                                                      <h3 class="h200 l10n">Unique solution</h3>
+                                                      <div class="h200 l10n">Unique solution</div>
                                                 </div>
                                                 <p class="p200 mt-xxs l10n">
                                                       In a personal meeting with a skin specialist,
@@ -338,7 +319,7 @@
                                           <div class="column">
                                                 <div class="flex-row about-header">
                                                       <?php icon('star') ?>
-                                                      <h3 class="h200 l10n">Unique solution</h3>
+                                                      <div class="h200 l10n">Unique solution</div>
                                                 </div>
                                                 <p class="p200 mt-xxs l10n">
                                                       In a personal meeting with a skin specialist,
@@ -349,7 +330,7 @@
                                           <div class="column">
                                                 <div class="flex-row about-header">
                                                       <?php icon('star') ?>
-                                                      <h3 class="h200 l10n">25 years of experience</h3>
+                                                      <div class="h200 l10n">25 years of experience</div>
                                                 </div>
                                                 <p class="p200 mt-xxs l10n">
                                                       In a personal meeting with a skin specialist,
@@ -367,12 +348,10 @@
                                     <img src="images/about-desktop.jpg" alt="About us" width="632" height="632" />
                               </picture>
                         </div>
-                  </div>
-            </section>
-            <section id="specialists">
-                  <div class="container">
+                  </section>
+                  <section id="specialists">
                         <div class="flex-row align-end justify-space-between">
-                              <h2 class="big l10n">Our specialists</h2>
+                              <div class="h500 l10n">Our specialists</div>
                               <a href="specialists" class="button compact text is-hidden-mobile">
                                     <span class="l10n">View all specialists</span>
                                     <?php icon('navigate-next') ?>
@@ -387,12 +366,10 @@
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
                         ?>
                         <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="specialists">View all specialists</a>
-                  </div>
-            </section>
-            <section id="brands">
-                  <div class="container">
+                  </section>
+                  <section id="brands">
                         <div class="flex-row align-end justify-space-between">
-                              <h2 class="big l10n">Brands we use</h2>
+                              <div class="h500 l10n">Brands we use</div>
                               <a href="brands" class="button compact text is-hidden-mobile">
                                     <span class="l10n">View all brands</span>
                                     <?php icon('navigate-next') ?>
@@ -400,8 +377,8 @@
                         </div>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
                         <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="brands">View all brands</a>
-                  </div>
-            </section>
+                  </section>
+            </div>
       </main>
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
       <script src="index.js"></script>

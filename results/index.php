@@ -16,6 +16,13 @@
 <?php
 $consultation_url = '';
 
+$specialists = array(
+    new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-1.jpg', 'images/specialists/large/specialist-1.jpg'),
+    new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-2.jpg', 'images/specialists/large/specialist-2.jpg'),
+    new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-3.jpg', 'images/specialists/large/specialist-3.jpg'),
+    new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-4.jpg', 'images/specialists/large/specialist-4.jpg')
+);
+
 $category_links = array(
     'acne' => 'Acne',
     'acne-scars' => 'Acne scars',
@@ -31,69 +38,125 @@ $category_links = array(
 
 $result_category =
     new ResultCategory(
-        id: 'all',
+        id: '',
         title: 'Customer results',
         description_1: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
         description_2: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
-        results: array(
-            new ResultCustomer(
-                id: '123',
-                image_before_small: 'https://via.placeholder.com/178x238.webm',
-                image_after_small: 'https://via.placeholder.com/178x238.webm',
-                image_before_large: 'https://via.placeholder.com/372x496.webm',
-                image_after_large: 'https://via.placeholder.com/372x496.webm',
-                age: 24,
-                gender: 'Female',
-                problem: 'Acne',
-                type: 'Severe',
-                treatment: new ResultTreatment(
-                    duration: '3 months',
-                    procedures: array(
-                        new ResultProcedure(image: 'https://via.placeholder.com/102x102.webm', name: 'Problem skin facials', count: '5 times'),
-                        new ResultProcedure(image: 'https://via.placeholder.com/102x102.webm', name: 'Laser for problem skin', count: '2 times')
-                    ),
-                    product: new ResultProduct(
-                        image: 'https://via.placeholder.com/102x102.webm',
-                        name: 'Product bundle for light acne'
-                    ),
-                    employee: new ResultEmployee(
-                        image: 'https://via.placeholder.com/102x102.webm',
-                        name: 'Leslie Alexander'
-                    ),
-                    visits: array(
-                        new ResultVisit(
-                            date: 'Nov 30, 2022',
-                            images: new ResultImages(
-                                image_left_small: 'https://via.placeholder.com/175x235.webm',
-                                image_right_small: 'https://via.placeholder.com/175x235.webm',
-                                image_left_large: 'https://via.placeholder.com/320x426.webm',
-                                image_right_large: 'https://via.placeholder.com/320x426.webm',
-                            ),
-                            title: 'First free consultation',
-                            description: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone.',
-                            read_more_url: 'https://dahlskincare.com/skin-consultation',
-                            read_more_label: 'Get a free consultation'
-                        ),
-                        new ResultVisit(
-                            date: 'Dec 24, 2022',
-                            images: new ResultImages(
-                                image_left_small: 'https://via.placeholder.com/175x235.webm',
-                                image_right_small: 'https://via.placeholder.com/175x235.webm',
-                                image_left_large: 'https://via.placeholder.com/320x426.webm',
-                                image_right_large: 'https://via.placeholder.com/320x426.webm',
-                            ),
-                            title: 'Results after first problem skin facials',
-                            description: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone.',
-                            read_more_url: '/services/facials',
-                            read_more_label: 'Read more about facials'
-                        )
-                    )
-                )
-            )
-        )
+        results: array()
     );
 
-$conn = new mysqli($_ENV['DB_URL'], $_ENV['DB_USER'], $_ENV['DB_PASSWORD']);
+$conn = new mysqli($_ENV['DB_URL'], $_ENV['DB_USER'], $_ENV['DB_PASSWORD'], database: $_ENV['DB_NAME']);
+if ($conn->connect_errno) {
+    echo "Failed to connect to MySQL: " . $conn->connect_error;
+    exit();
+}
+
+if ($rs = $conn->query("SELECT id FROM result_customer")) {
+    $num_result_customers = $rs->num_rows;
+    $rs->free_result();
+} else {
+    die($conn->error);
+}
+if (isset($_GET['page']) && $_GET['page'] > 0) {
+    $page = $_GET['page'];
+} else {
+    $page = 1;
+}
+if (isset($_GET['pagesize'])) {
+    $pagesize = $_GET['pagesize'];
+} else {
+    $pagesize = 2;
+}
+$pages = ceil($num_result_customers / $pagesize);
+
+$all_procedures = array();
+if ($rs = $conn->query("SELECT * FROM result_procedure")) {
+    foreach ($rs as $row) {
+        $all_procedures[$row['id']] = new ResultProcedure(id: $row['id'], image: $row['image'], name: $row['name'], count: $row['count']);
+    }
+    $rs->free_result();
+} else {
+    die($conn->error);
+}
+
+$query = "SELECT customer.*, 
+    treatment.id AS treatment_id, treatment.duration AS treatment_duration,
+    employee.name AS employee_name, employee.image AS employee_image,
+    product.name AS product_name, product.image AS product_image,    
+    JSON_ARRAYAGG(ix.result_procedure_id) AS procedure_ids
+    FROM result_customer AS customer
+    INNER JOIN result_treatment AS treatment ON treatment.id = customer.result_treatment_id
+    INNER JOIN result_employee AS employee ON employee.id = treatment.result_employee_id
+    INNER JOIN result_product AS product ON product.id = treatment.result_product_id    
+    INNER JOIN ix_result_treatment_procedure AS ix ON ix.result_treatment_id = treatment.id
+    GROUP BY customer.id
+    ORDER BY id ASC
+    LIMIT %d, %d";
+
+if ($rs = $conn->query(sprintf($query, ($page - 1) * $pagesize, $pagesize))) {
+    foreach ($rs as $row) {
+        $customer = new ResultCustomer(
+            id: $row['id'],
+            image_before_small: $row['image_before_small'],
+            image_after_small: $row['image_after_small'],
+            image_before_large: $row['image_before_large'],
+            image_after_large: $row['image_after_large'],
+            age: $row['age'],
+            gender: $row['gender'],
+            problem: $row['problem'],
+            type: $row['type'],
+            treatment: new ResultTreatment(
+                id: $row['treatment_id'],
+                duration: $row['treatment_duration'],
+                procedures: array(),
+                product: new ResultProduct(
+                    image: $row['product_image'],
+                    name: $row['product_name']
+                ),
+                employee: new ResultEmployee(
+                    image: $row['employee_image'],
+                    name: $row['employee_name']
+                ),
+                visits: array()
+            )
+        );
+        // Populate procedures
+        foreach (json_decode($row['procedure_ids']) as $id) {
+            array_push($customer->treatment->procedures, $all_procedures[$id]);
+        }
+
+        // Populate visits
+        if ($result = $conn->query("SELECT * FROM result_visit WHERE result_treatment_id = " . $customer->treatment->id)) {
+            foreach ($result as $visit) {
+                $images = json_decode($visit['images']);
+
+                array_push($customer->treatment->visits, new ResultVisit(
+                    id: $visit['id'],
+                    date: $visit['date'],
+                    images: new ResultImages(
+                        image_left_small: $images->image_left_small,
+                        image_right_small: $images->image_right_small,
+                        image_left_large: $images->image_left_large,
+                        image_right_large: $images->image_right_large
+                    ),
+                    title: $visit['title'],
+                    description: $visit['description'],
+                    read_more_url: $visit['read_more_url'],
+                    read_more_label: $visit['read_more_label']
+                ));
+            }
+
+            $result->free_result();
+        } else {
+            die($conn->error);
+        }
+        array_push($result_category->results, $customer);
+    }
+    $rs->free_result();
+} else {
+    die($conn->error);
+}
+$conn->close();
 ?>
 
 <body>
@@ -105,8 +168,8 @@ $conn = new mysqli($_ENV['DB_URL'], $_ENV['DB_USER'], $_ENV['DB_PASSWORD']);
                     <div class="is-hidden-desktop">
                         <h1 class="h600 mt-xs"><?php echo $result_category->title ?></h1>
                         <div class="mt-xs">
-                            <p class="p200"><?php echo $result_category->description_1 ?></p>
-                            <p class="p200 mt-m"><?php echo $result_category->description_2 ?></p>
+                            <div class="p200"><?php echo $result_category->description_1 ?></div>
+                            <div class="p200 mt-m"><?php echo $result_category->description_2 ?></div>
                         </div>
                         <a href="<?php echo $consultation_url ?>" target="_blank" class="button b200 white expand mt-xl l10n">Get a free consultation</a>
                     </div>
@@ -176,10 +239,89 @@ $conn = new mysqli($_ENV['DB_URL'], $_ENV['DB_USER'], $_ENV['DB_PASSWORD']);
                 <?php foreach ($result_category->results as $result_customer) { ?>
                     <?php include('widgets/result_customer_card/result_customer_card.php'); ?>
                 <?php } ?>
-                <div id="show-more">
-                    <button class="b200 expand l10n">Show more</button>
+                <?php if ($pagesize < $num_result_customers) { ?>
+                    <div id="show-more">
+                        <a class="button b200 expand l10n" href="/results?page=1&pagesize=<?php echo $pagesize * 2 ?>">Show more</a>
+                    </div>
+                <?php } ?>
+                <div id="paginator">
+                    <?php include('widgets/paginator/paginator.php'); ?>
                 </div>
-                <?php include('widgets/paginator/paginator.php'); ?>
+            </section>
+            <section id="cta-banner" class="large-margin">
+                <div id="cta-banner-texts">
+                    <div class="l10n" id="cta-banner-header">Ready to start your own journey?</div>
+                    <div class="p200 l10n" id="cta-banner-content">In a personal meeting with a skin specialist, your skin type is examined and identified.</div>
+                </div>
+                <div>
+                    <a href="<?php echo $consultation_url ?>" class="button white expand l10n">Get a free consultation</a>
+                </div>
+            </section>
+            <section id="reviews" class="large-margin">
+                <div class="flex-row align-end justify-space-between">
+                    <div class="h500 l10n">Reviews</div>
+                    <div class="flex-row is-hidden-mobile">
+                        <div class="step-buttons">
+                            <button class="round-large grey" onclick="Carousel.prev('#reviews-carousel', -1)">
+                                <?php icon('arrow-left') ?>
+                            </button>
+                            <button class="round-large grey" onclick="Carousel.next('#reviews-carousel', 1)">
+                                <?php icon('arrow-right') ?>
+                            </button>
+                        </div>
+                        <a href="reviews" class="ml-l button compact text">
+                            <span class="l10n">View all reviews</span>
+                            <?php icon('navigate-next') ?>
+                        </a>
+                    </div>
+
+                </div>
+                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="reviews">View all reviews</a>
+            </section>
+            <section id="faq" class="large-margin">
+                <div class="flex-row align-end justify-space-between">
+                    <div class="h500 l10n">Questions & answers</div>
+                    <a href="faq" class="button compact text is-hidden-mobile">
+                        <span class="l10n">View all questions</span>
+                        <?php icon('navigate-next') ?>
+                    </a>
+                </div>
+                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="faq">View all questions</a>
+            </section>
+            <section id="skin-guide" class="large-margin">
+                <div class="flex-row align-end justify-space-between">
+                    <div class="h500 l10n">Skin guide</div>
+                    <a href="skin-guide" class="button compact text is-hidden-mobile">
+                        <span class="l10n">View all articles</span>
+                        <?php icon('navigate-next') ?>
+                    </a>
+                </div>
+                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php'); ?>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="skin-guide">View all articles</a>
+            </section>
+            <section id="specialists" class="large-margin">
+                <div class="flex-row align-end justify-space-between">
+                    <div class="h500 l10n">Our specialists</div>
+                    <a href="specialists" class="button compact text is-hidden-mobile">
+                        <span class="l10n">View all specialists</span>
+                        <?php icon('navigate-next') ?>
+                    </a>
+                </div>
+                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php'); ?>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="specialists">View all specialists</a>
+            </section>
+            <section id="brands" class="large-margin">
+                <div class="flex-row align-end justify-space-between">
+                    <div class="h500 l10n">Brands we use</div>
+                    <a href="brands" class="button compact text is-hidden-mobile">
+                        <span class="l10n">View all brands</span>
+                        <?php icon('navigate-next') ?>
+                    </a>
+                </div>
+                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="brands">View all brands</a>
             </section>
         </div>
     </main>

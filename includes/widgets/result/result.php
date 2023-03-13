@@ -1,9 +1,7 @@
 <div class="result-widget">
     <div class="images-container">
-        <div class="before"
-             style="background-image: url('<?php echo $before ?>')"></div>
-        <div class="after"
-             style="background-image: url('<?php echo $after ?>')"></div>
+        <div class="before" style="background-image: url('<?php echo $before ?>')"></div>
+        <div class="after" style="background-image: url('<?php echo $after ?>')"></div>
         <div class="divider">
             <div class="drag-anchor">
                 <div class="arrow-left"></div>
@@ -15,3 +13,4 @@
         <?php echo $label ?>
     </div>
 </div>
+<script src="/includes/widgets/result/result.js"></script>

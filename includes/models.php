@@ -395,7 +395,7 @@ class ResultCustomer
         $this->treatment = $treatment;
     }
 
-    public string $id;
+    public int $id;
     public string $image_before_small;
     public string $image_after_small;
     public string $image_before_large;
@@ -421,17 +421,18 @@ class ResultTreatment
      * @param ResultEmployee $employee
      * @param ResultVisit[] $visits
      */
-    public function __construct($duration, $procedures, $product, $employee, $visits)
+    public function __construct($id, $duration, $procedures, $product, $employee, $visits)
     {
+        $this->id = $id;
         $this->duration = $duration;
         $this->procedures = $procedures;
         $this->product = $product;
         $this->employee = $employee;
         $this->visits = $visits;
     }
+    public int $id;
     public string $duration;
     /** 
-     * example value: 3 months
      * @var ResultProcedure[] 
      * */
     public array $procedures;
@@ -446,12 +447,14 @@ class ResultTreatment
 
 class ResultProcedure
 {
-    public function __construct($image, $name, $count)
+    public function __construct($id, $image, $name, $count)
     {
+        $this->id = $id;
         $this->image = $image;
         $this->name = $name;
         $this->count = $count;
     }
+    public int $id;
     public string $image;
     public string $name;
     public string $count;
@@ -484,8 +487,9 @@ class ResultVisit
     /**
      * @var ResultImages $images
      */
-    public function __construct($date, $images, $title, $description, $read_more_url, $read_more_label)
+    public function __construct($id, $date, $images, $title, $description, $read_more_url, $read_more_label)
     {
+        $this->id = $id;
         $this->date = $date;
         $this->images = $images;
         $this->title = $title;
@@ -493,6 +497,7 @@ class ResultVisit
         $this->read_more_url = $read_more_url;
         $this->read_more_label = $read_more_label;
     }
+    public int $id;
     public string $date;
     public ResultImages $images;
     public ?string $title;

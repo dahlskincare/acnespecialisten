@@ -207,91 +207,90 @@ section#skin-guide {
 section#about-us {
     margin-top: $xl5;
 
-    .container {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    img {
+        margin-top: $xl;
+        width: 100%;
+        height: auto;
+    }
+
+
+    #about-text-wrapper {
+        flex: 1;
+
+        #about-text {
+            img {
+                border-radius: $radius-s;
+            }
+
+            .about-header {
+                margin-top: $xl;
+
+                .icon>svg {
+                    * {
+                        stroke: $deep-sea-400;
+                        fill: transparent;
+                    }
+                }
+
+                span.icon {
+                    margin-right: $s;
+                }
+            }
+
+            .divider {
+                margin-top: $xl;
+                border-top: 1px solid $light-200;
+            }
+
+            a {
+                margin-top: $xl;
+            }
+        }
+    }
+
+    #about-image-desktop {
+        display: none;
+        flex: 1;
+
+        margin-left: $l;
 
         img {
-            margin-top: $xl;
             width: 100%;
-            height: auto;
+            margin: 0;
+            border-radius: $radius-l;
         }
+    }
 
+    @media screen and (min-width: $tablet) {
+        .divider {
+            display: none;
+        }
+    }
 
+    @media screen and (min-width: $desktop) {
         #about-text-wrapper {
-            flex: 1;
-
             #about-text {
-                img {
-                    border-radius: $radius-s;
-                }
+                width: 544px;
+                margin-right: $xl;
 
-                .about-header {
-                    margin-top: $xl;
-
-                    .icon>svg {
-                        * {
-                            stroke: $deep-sea-400;
-                            fill: transparent;
-                        }
-                    }
-
-                    span.icon {
-                        margin-right: $s;
-                    }
-                }
-
-                .divider {
-                    margin-top: $xl;
-                    border-top: 1px solid $light-200;
+                .about-header,
+                a {
+                    margin-top: $xl3;
                 }
 
                 a {
-                    margin-top: $xl;
+                    width: initial;
                 }
             }
         }
 
         #about-image-desktop {
-            display: none;
-            flex: 1;
-
-            margin-left: $l;
-
-            img {
-                width: 100%;
-                margin: 0;
-                border-radius: $radius-l;
-            }
-        }
-
-        @media screen and (min-width: $tablet) {
-            .divider {
-                display: none;
-            }
-        }
-
-        @media screen and (min-width: $desktop) {
-            #about-text-wrapper {
-                #about-text {
-                    width: 544px;
-                    margin-right: $xl;
-
-                    .about-header,
-                    a {
-                        margin-top: $xl3;
-                    }
-
-                    a {
-                        width: initial;
-                    }
-                }
-            }
-
-            #about-image-desktop {
-                display: initial;
-            }
+            display: initial;
         }
     }
 
