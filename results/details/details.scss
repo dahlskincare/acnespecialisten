@@ -3,90 +3,146 @@
 @import '../../styles/util/mixins';
 
 section#banner {
+    .result-widget {
+        background-color: $white-500;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        border: 0;
+
+        .images-container {
+
+            .before,
+            .after {
+                background-size: initial;
+                background-position-y: center;
+            }
+        }
+    }
+
     #banner-green {
         background-color: $deep-sea-400;
         color: $white-500;
         padding-bottom: $xl;
         @include p100;
+    }
 
-        .result-widget {
-            background-color: $white-500;
-            border-bottom-left-radius: 0;
-            border-bottom-right-radius: 0;
-            border: 0;
+    #customer-info {
+        padding: $xl;
+        border-bottom-left-radius: $radius-l;
+        border-bottom-right-radius: $radius-l;
+        color: $black-500;
+        background-color: $white-500;
 
-            .images-container {
+        #info-items {
+            margin-top: $m;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid $light-200;
+            padding-bottom: $xl;
 
-                .before,
-                .after {
-                    background-size: initial;
-                    background-position-y: center;
+            .info-item {
+                div:first-child {
+                    color: $dark-400;
+                    @include p200;
+                }
+
+                div:last-child {
+                    margin-top: $xxs;
+                    @include h200;
                 }
             }
         }
 
-        #customer-info {
-            padding: $xl;
-            border-bottom-left-radius: $radius-l;
-            border-bottom-right-radius: $radius-l;
-            color: $black-500;
-            background-color: $white-500;
+        #treatment-info {
+            margin-top: $xl;
+            display: flex;
+            align-items: center;
 
-            #info-items {
-                margin-top: $m;
-                display: flex;
-                justify-content: space-between;
-                border-bottom: 1px solid $light-200;
-                padding-bottom: $xl;
-
-                .info-item {
-                    div:first-child {
-                        color: $dark-400;
-                        @include p200;
-                    }
-
-                    div:last-child {
-                        margin-top: $xxs;
-                        @include h200;
-                    }
-                }
+            .dot {
+                width: 6px;
+                height: 6px;
+                border-radius: 50%;
+                background-color: $dark-25;
+                margin: 0 $xs;
             }
+        }
+    }
 
-            #treatment-info {
-                margin-top: $xl;
-                display: flex;
-                align-items: center;
+    .treatment-card {
+        margin-top: $m;
+        display: flex;
+        align-items: center;
 
-                .dot {
-                    width: 6px;
-                    height: 6px;
-                    border-radius: 50%;
-                    background-color: $dark-25;
-                    margin: 0 $xs;
-                }
-            }
-
-            .treatment-card {
-                margin-top: $m;
-                display: flex;
-                align-items: center;
-
-                img {
-                    border-radius: $radius-s;
-                    margin-right: $m;
-                }
-            }
+        img {
+            border-radius: $radius-s;
+            margin-right: $m;
         }
     }
 
 
     @media screen and (min-width: $desktop) {
         #banner-green {
-            padding-top: 0;
-            padding-bottom: $m;
+            height: 388px;
+        }
 
-            #banner-green-desktop {
-                padding-bottom: $xl5;
+        #customer-info-container {
+            padding-bottom: $xl;
+
+        }
+
+        #customer-info-banner {
+            margin-top: -226px;
+            background-color: $white-500;
+            display: flex;
+            align-items: center;
+            padding: $xl;
+            border-radius: $radius-l;
+            @include elevation-medium();
+
+            .result-widget {
+                flex: 0 0 424px;
+                border-radius: $radius-s;
+            }
+
+            #customer-info-large {
+                flex: auto;
+                color: $black-500;
+                margin-left: $xl;
+
+                #info-items-large {
+                    display: flex;
+                    margin-top: $m;
+                    padding-bottom: $xl;
+                    border-bottom: 1px solid $light-200;
+
+                    .info-item {
+                        display: flex;
+                        margin-right: $xl;
+
+                        div:first-child {
+                            @include p200;
+                            margin-right: $xs;
+                        }
+
+                        div:last-child {
+                            @include h200;
+                        }
+                    }
+                }
+
+                #treatment-info-large {
+                    display: flex;
+                    align-items: center;
+                    margin-top: $xl;
+
+                    .dot {
+                        width: 6px;
+                        height: 6px;
+                        border-radius: 50%;
+                        background-color: $dark-25;
+                        margin: 0 $xs;
+                    }
+                }
             }
         }
     }

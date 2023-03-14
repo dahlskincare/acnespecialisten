@@ -191,6 +191,73 @@
                     </div>
                 </div>
             </div>
+            <div class="container is-hidden-touch" id="customer-info-container">
+                <div id="customer-info-banner">
+                    <?php
+                    $before = $customer->image_before_large;
+                    $after = $customer->image_after_large;
+                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
+                    ?>
+                    <div id="customer-info-large">
+                        <div class="h300 l10n">
+                            Customer
+                        </div>
+                        <div id="info-items-large">
+                            <div class="info-item">
+                                <div class="l10n">Age</div>
+                                <div><?php echo $customer->age ?></div>
+                            </div>
+                            <div class="info-item">
+                                <div class="l10n">Gender</div>
+                                <div><?php echo $customer->gender ?></div>
+                            </div>
+                            <div class="info-item">
+                                <div class="l10n">Problem</div>
+                                <div><?php echo $customer->problem ?></div>
+                            </div>
+                            <div class="info-item">
+                                <div class="l10n">Type</div>
+                                <div><?php echo $customer->type ?></div>
+                            </div>
+                        </div>
+                        <div id="treatment-info-large">
+                            <div class="h200 l10n">Treatment</div>
+                            <div class="dot"></div>
+                            <div class="p200"><?php echo $customer->treatment->duration ?></div>
+                        </div>
+                        <div class="flex-row">
+                            <div class="mr-xl5">
+                                <?php foreach ($customer->treatment->procedures as $procedure) { ?>
+                                    <div class="treatment-card">
+                                        <img src="<?php echo $procedure->image ?>" alt="<?php echo $procedure->name ?>" width="102" height="102" />
+                                        <div class="treatment-card-details">
+                                            <div class="p200 l10n">Procedure</div>
+                                            <div class="h200 mt-xxs"><?php echo $procedure->name ?></div>
+                                            <div class="p200 mt-xxs"><?php echo $procedure->count ?></div>
+                                        </div>
+                                    </div>
+                                <?php } ?>
+                            </div>
+                            <div>
+                                <div class="treatment-card">
+                                    <img src="<?php echo $customer->treatment->product->image ?>" alt="<?php echo $customer->treatment->product->name ?>" width="102" height="102" />
+                                    <div class="treatment-card-details">
+                                        <div class="p200 l10n">Products</div>
+                                        <div class="h200 mt-xxs"><?php echo $customer->treatment->product->name ?></div>
+                                    </div>
+                                </div>
+                                <div class="treatment-card">
+                                    <img src="<?php echo $customer->treatment->employee->image ?>" alt="<?php echo $customer->treatment->employee->name ?>" width="102" height="102" />
+                                    <div class="treatment-card-details">
+                                        <div class="p200 l10n">Personal esthetician</div>
+                                        <div class="h200 mt-xxs"><?php echo $customer->treatment->employee->name ?></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="container mt-m is-hidden-desktop">
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
             </div>
