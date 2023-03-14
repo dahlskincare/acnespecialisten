@@ -9,8 +9,10 @@
             </div>
         </div>
     </div>
-    <div class="result-info p200">
-        <?php echo $label ?>
-    </div>
+    <?php if (isset($label)) { ?>
+        <div class="result-info p200">
+            <?php echo $label ?>
+        </div>
+    <?php } ?>
 </div>
 <script src="/includes/widgets/result/result.js"></script>
