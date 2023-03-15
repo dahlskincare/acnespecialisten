@@ -37,12 +37,15 @@
     if ($rs = $conn->query(sprintf($query, $_GET['id']))) {
         if ($rs->num_rows == 1) {
             $row = $rs->fetch_assoc();
+            $before_images = json_decode($row['before_images']);
+            $after_images = json_decode($row['after_images']);
+
             $customer = new ResultCustomer(
                 id: $row['id'],
-                image_before_small: $row['image_before_small'],
-                image_after_small: $row['image_after_small'],
-                image_before_large: $row['image_before_large'],
-                image_after_large: $row['image_after_large'],
+                slider_image_before_small: $row['slider_image_before_small'],
+                slider_image_after_small: $row['slider_image_after_small'],
+                slider_image_before_large: $row['slider_image_before_large'],
+                slider_image_after_large: $row['slider_image_after_large'],
                 age: $row['age'],
                 gender: $row['gender'],
                 problem: $row['problem'],
@@ -60,6 +63,18 @@
                         name: $row['employee_name']
                     ),
                     visits: array()
+                ),
+                before_images: new ResultImages(
+                    image_left_small: $before_images->image_left_small,
+                    image_right_small: $before_images->image_right_small,
+                    image_left_large: $before_images->image_left_large,
+                    image_right_large: $before_images->image_right_large
+                ),
+                after_images: new ResultImages(
+                    image_left_small: $after_images->image_left_small,
+                    image_right_small: $after_images->image_right_small,
+                    image_left_large: $after_images->image_left_large,
+                    image_right_large: $after_images->image_right_large
                 )
             );
             // Populate procedures
@@ -121,8 +136,8 @@
                         <h1 class="h600 mt-xs l10n">Treatment details</h1>
                         <div class="mt-xl">
                             <?php
-                            $before = $customer->image_before_large;
-                            $after = $customer->image_after_large;
+                            $before = $customer->slider_image_before_large;
+                            $after = $customer->slider_image_after_large;
                             include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
                             ?>
 
@@ -198,8 +213,8 @@
             <div class="container is-hidden-touch" id="customer-info-container">
                 <div id="customer-info-banner">
                     <?php
-                    $before = $customer->image_before_large;
-                    $after = $customer->image_after_large;
+                    $before = $customer->slider_image_before_large;
+                    $after = $customer->slider_image_after_large;
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
                     ?>
                     <div id="customer-info-large">
@@ -297,6 +312,45 @@
                         </div>
                     </div>
                 <?php } ?>
+            </section>
+            <section id="journey">
+                <div class="h500 l10n">Results after 3 months</div>
+
+                <div class="journey-card">
+                    <div class="jc-date">
+                        <?php echo $customer->treatment->visits[0]->date ?>
+                    </div>
+                    <div class="jc-images">
+                        <picture>
+                            <source media="(max-width: 799px)" srcset="<?php echo $customer->before_images->image_left_small ?>">
+                            <source media="(min-width: 800px)" srcset="<?php echo $customer->before_images->image_left_large ?>">
+                            <img src="<?php echo $customer->before_images->image_left_large ?>" alt="Before" width="175" height="235" />
+                        </picture>
+                        <picture>
+                            <source media="(max-width: 799px)" srcset="<?php echo $customer->before_images->image_right_small ?>">
+                            <source media="(min-width: 800px)" srcset="<?php echo $customer->before_images->image_right_large ?>">
+                            <img src="<?php echo $customer->before_images->image_right_large ?>" alt="After" width="175" height="235" />
+                        </picture>
+                    </div>
+                </div>
+                <div class="journey-card">
+                    <div class="jc-date">
+                        <?php echo end($customer->treatment->visits)->date ?>
+                    </div>
+                    <div class="jc-images">
+                        <picture>
+                            <source media="(max-width: 799px)" srcset="<?php echo $customer->after_images->image_left_small ?>">
+                            <source media="(min-width: 800px)" srcset="<?php echo $customer->after_images->image_left_large ?>">
+                            <img src="<?php echo $customer->after_images->image_left_large ?>" alt="Before" width="175" height="235" />
+                        </picture>
+                        <picture>
+                            <source media="(max-width: 799px)" srcset="<?php echo $customer->after_images->image_right_small ?>">
+                            <source media="(min-width: 800px)" srcset="<?php echo $customer->after_images->image_right_large ?>">
+                            <img src="<?php echo $customer->after_images->image_right_large ?>" alt="After" width="175" height="235" />
+                        </picture>
+                    </div>
+                </div>
+                <a href="/results/" class="button b200 outline expand l10n">View all cases</a>
             </section>
         </div>
     </main>

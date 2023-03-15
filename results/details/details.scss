@@ -153,7 +153,6 @@ section#banner {
 }
 
 section#visits {
-
     margin-top: $xl;
 
     .treatment-visit-card {
@@ -244,5 +243,45 @@ section#visits {
                 }
             }
         }
+    }
+}
+
+section#journey {
+    margin-top: 48px;
+
+    .journey-card {
+        margin-top: $xl;
+        //flex: 1;
+
+        .jc-date {
+            @include h200;
+        }
+
+        .jc-images {
+            margin-top: $m;
+            display: flex;
+
+            picture {
+                flex: 1;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                    border-radius: $radius-s;
+                }
+            }
+
+            picture:first-child {
+                margin-right: $xxs;
+            }
+
+            picture:last-child {
+                margin-left: $xxs;
+            }
+        }
+    }
+
+    .button {
+        margin-top: $xl;
     }
 }
