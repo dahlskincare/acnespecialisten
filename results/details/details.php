@@ -98,6 +98,10 @@
                 die($conn->error);
             }
             $rs->free_result();
+
+            foreach ($customer->treatment->visits as $visit) {
+                $nav_buttons['visit-' . $visit->id] = $visit->date;
+            }
         } else {
             http_response_code(404);
             die('Page not found');
@@ -263,6 +267,35 @@
             </div>
         </section>
         <div class="container">
+            <section id="nav-buttons">
+                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
+            </section>
+            <section id="visits">
+                <?php foreach ($customer->treatment->visits as $visit) { ?>
+                    <div class="treatment-visit-card" id="visit-<?php echo $visit->id ?>">
+                        <div class="vc-images">
+                            <picture>
+                                <source media="(max-width: 799px)" srcset="<?php echo $visit->images->image_left_small ?>">
+                                <source media="(min-width: 800px)" srcset="<?php echo $visit->images->image_left_large ?>">
+                                <img src="<?php echo $visit->images->image_left_large ?>" alt="Before" width="175" height="235" />
+                            </picture>
+                            <picture>
+                                <source media="(max-width: 799px)" srcset="<?php echo $visit->images->image_right_small ?>">
+                                <source media="(min-width: 800px)" srcset="<?php echo $visit->images->image_right_large ?>">
+                                <img src="<?php echo $visit->images->image_left_large ?>" alt="After" width="175" height="235" />
+                            </picture>
+                        </div>
+                        <div class="vc-date"><?php echo $visit->date ?></div>
+                        <div class="vc-title"><?php echo $visit->title ?></div>
+                        <div class="vc-text"><?php echo $visit->description ?></div>
+                        <?php if (str_starts_with($visit->read_more_url, 'http')) { ?>
+                            <a href="<?php echo $visit->read_more_url ?>" target="_blank" class="button b200 vc-button expand l10n"><?php echo $visit->read_more_label ?></a>
+                        <?php } else { ?>
+                            <a href="<?php echo $visit->read_more_url ?>" class="button b200 vc-button outline expand l10n"><?php echo $visit->read_more_label ?></a>
+                        <?php } ?>
+                    </div>
+                <?php } ?>
+            </section>
         </div>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>

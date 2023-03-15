@@ -2,6 +2,10 @@
 @import '../../styles/util/sizes';
 @import '../../styles/util/mixins';
 
+html {
+    scroll-behavior: smooth;
+}
+
 section#banner {
     .result-widget {
         background-color: $white-500;
@@ -145,5 +149,59 @@ section#banner {
                 }
             }
         }
+    }
+}
+
+section#visits {
+    margin-top: $xl;
+
+    .treatment-visit-card {
+        margin-bottom: 72px;
+
+        .vc-images {
+            display: flex;
+            font-size: 0;
+
+            picture {
+                flex: 1;
+                height: auto;
+
+                img {
+                    border-radius: $radius-s;
+                }
+            }
+
+            picture:first-child {
+                margin-right: $xxs;
+            }
+
+            picture:last-child {
+                margin-left: $xxs;
+            }
+        }
+
+        .vc-date {
+            margin-top: $xl;
+            @include p200;
+            color: $dark-200;
+        }
+
+        .vc-title {
+            margin-top: $xxs;
+            @include h200;
+        }
+
+        .vc-text {
+            margin-top: $xs;
+            @include p200;
+        }
+
+        .vc-button {
+            margin-top: $xxl;
+        }
+    }
+
+    .treatment-visit-card:last-child {
+        margin-bottom: 0;
     }
 }
