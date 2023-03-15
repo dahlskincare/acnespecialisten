@@ -124,6 +124,14 @@
     } else {
         die($conn->error);
     }
+
+    $specialists = array(
+        new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-1.jpg', 'images/specialists/large/specialist-1.jpg'),
+        new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-2.jpg', 'images/specialists/large/specialist-2.jpg'),
+        new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-3.jpg', 'images/specialists/large/specialist-3.jpg'),
+        new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-4.jpg', 'images/specialists/large/specialist-4.jpg')
+    );
+
     ?>
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
@@ -350,6 +358,81 @@
                     </div>
                 </div>
                 <a href="/results/" class="button b200 outline expand l10n">View all cases</a>
+            </section>
+            <section id="cta-banner" class="large-margin">
+                <div id="cta-banner-texts">
+                    <div class="l10n" id="cta-banner-header">Ready to start your own journey?</div>
+                    <div class="p200 l10n" id="cta-banner-content">In a personal meeting with a skin specialist, your skin type is examined and identified.</div>
+                </div>
+                <div>
+                    <a href="<?php echo $consultation_url ?>" class="button white expand l10n">Get a free consultation</a>
+                </div>
+            </section>
+            <section id="reviews" class="large-margin">
+                <div class="flex-row align-end justify-space-between">
+                    <div class="h500 l10n">Reviews</div>
+                    <div class="flex-row is-hidden-mobile">
+                        <div class="step-buttons">
+                            <button class="round-large grey" onclick="Carousel.prev('#reviews-carousel', -1)">
+                                <?php icon('arrow-left') ?>
+                            </button>
+                            <button class="round-large grey" onclick="Carousel.next('#reviews-carousel', 1)">
+                                <?php icon('arrow-right') ?>
+                            </button>
+                        </div>
+                        <a href="reviews" class="ml-l button compact text">
+                            <span class="l10n">View all reviews</span>
+                            <?php icon('navigate-next') ?>
+                        </a>
+                    </div>
+
+                </div>
+                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="reviews">View all reviews</a>
+            </section>
+            <section id="faq" class="large-margin">
+                <div class="flex-row align-end justify-space-between">
+                    <div class="h500 l10n">Questions & answers</div>
+                    <a href="faq" class="button compact text is-hidden-mobile">
+                        <span class="l10n">View all questions</span>
+                        <?php icon('navigate-next') ?>
+                    </a>
+                </div>
+                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="faq">View all questions</a>
+            </section>
+            <section id="skin-guide" class="large-margin">
+                <div class="flex-row align-end justify-space-between">
+                    <div class="h500 l10n">Skin guide</div>
+                    <a href="skin-guide" class="button compact text is-hidden-mobile">
+                        <span class="l10n">View all articles</span>
+                        <?php icon('navigate-next') ?>
+                    </a>
+                </div>
+                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php'); ?>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="skin-guide">View all articles</a>
+            </section>
+            <section id="specialists" class="large-margin">
+                <div class="flex-row align-end justify-space-between">
+                    <div class="h500 l10n">Our specialists</div>
+                    <a href="specialists" class="button compact text is-hidden-mobile">
+                        <span class="l10n">View all specialists</span>
+                        <?php icon('navigate-next') ?>
+                    </a>
+                </div>
+                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php'); ?>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="specialists">View all specialists</a>
+            </section>
+            <section id="brands" class="large-margin">
+                <div class="flex-row align-end justify-space-between">
+                    <div class="h500 l10n">Brands we use</div>
+                    <a href="brands" class="button compact text is-hidden-mobile">
+                        <span class="l10n">View all brands</span>
+                        <?php icon('navigate-next') ?>
+                    </a>
+                </div>
+                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="brands">View all brands</a>
             </section>
         </div>
     </main>
