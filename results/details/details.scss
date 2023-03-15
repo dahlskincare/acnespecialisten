@@ -153,6 +153,7 @@ section#banner {
 }
 
 section#visits {
+
     margin-top: $xl;
 
     .treatment-visit-card {
@@ -164,9 +165,11 @@ section#visits {
 
             picture {
                 flex: 1;
-                height: auto;
 
                 img {
+                    width: 100%;
+                    // max-width: 320px;
+                    height: auto;
                     border-radius: $radius-s;
                 }
             }
@@ -180,28 +183,66 @@ section#visits {
             }
         }
 
-        .vc-date {
+
+        .vc-content {
             margin-top: $xl;
-            @include p200;
-            color: $dark-200;
+
+            .vc-date {
+                @include p200;
+                color: $dark-200;
+            }
+
+            .vc-title {
+                margin-top: $xxs;
+                @include h200;
+            }
+
+            .vc-text {
+                margin-top: $xs;
+                @include p200;
+            }
+
+            .vc-button {
+                margin-top: $xxl;
+            }
         }
 
-        .vc-title {
-            margin-top: $xxs;
-            @include h200;
-        }
-
-        .vc-text {
-            margin-top: $xs;
-            @include p200;
-        }
-
-        .vc-button {
-            margin-top: $xxl;
-        }
     }
 
     .treatment-visit-card:last-child {
         margin-bottom: 0;
+    }
+
+    @include desktop {
+        margin-top: $xl*2;
+
+        .treatment-visit-card {
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 104px;
+
+
+            .vc-content {
+                margin-top: 0;
+
+                .vc-title {
+                    margin-top: $xs;
+                    @include h500;
+                    max-width: 412px;
+                }
+
+                .vc-text {
+                    margin-top: $m;
+                    max-width: 536px;
+                }
+
+                .vc-button {
+                    margin-top: $xl;
+                    width: initial;
+                }
+            }
+        }
     }
 }
