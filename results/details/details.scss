@@ -152,6 +152,14 @@ section#banner {
     }
 }
 
+section#nav-buttons {
+    .nav-buttons-widget {
+        .slide {
+            flex: 0 0 auto;
+        }
+    }
+}
+
 section#visits {
     margin-top: $xl;
 
@@ -249,39 +257,65 @@ section#visits {
 section#journey {
     margin-top: 48px;
 
-    .journey-card {
-        margin-top: $xl;
-        //flex: 1;
+    #journey-cards {
+        .journey-card {
+            margin-top: $xl;
+            //flex: 1;
 
-        .jc-date {
-            @include h200;
-        }
+            .jc-date {
+                @include h200;
+            }
 
-        .jc-images {
-            margin-top: $m;
-            display: flex;
+            .jc-images {
+                margin-top: $m;
+                display: flex;
 
-            picture {
-                flex: 1;
+                picture {
+                    flex: 1;
 
-                img {
-                    width: 100%;
-                    height: auto;
-                    border-radius: $radius-s;
+                    img {
+                        width: 100%;
+                        height: auto;
+                        border-radius: $radius-s;
+                    }
                 }
-            }
 
-            picture:first-child {
-                margin-right: $xxs;
-            }
+                picture:first-child {
+                    margin-right: $xxs;
+                }
 
-            picture:last-child {
-                margin-left: $xxs;
+                picture:last-child {
+                    margin-left: $xxs;
+                }
             }
         }
     }
 
     .button {
         margin-top: $xl;
+    }
+
+    @include desktop {
+        #journey-cards {
+            display: flex;
+
+            .journey-card {
+                padding: $xl;
+                border: 1px solid $light-200;
+                border-radius: $radius-l;
+            }
+
+            .journey-card:first-child {
+                margin-right: $s;
+            }
+
+            .journey-card:last-child {
+                margin-left: $s;
+            }
+        }
+
+        .button {
+            width: initial;
+        }
     }
 }

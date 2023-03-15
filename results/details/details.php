@@ -218,9 +218,7 @@
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
                     ?>
                     <div id="customer-info-large">
-                        <div class="h300 l10n">
-                            Customer
-                        </div>
+                        <div class="h300 l10n">Customer</div>
                         <div id="info-items-large">
                             <div class="info-item">
                                 <div class="l10n">Age</div>
@@ -315,39 +313,40 @@
             </section>
             <section id="journey">
                 <div class="h500 l10n">Results after 3 months</div>
-
-                <div class="journey-card">
-                    <div class="jc-date">
-                        <?php echo $customer->treatment->visits[0]->date ?>
+                <div id="journey-cards">
+                    <div class="journey-card">
+                        <div class="jc-date">
+                            <?php echo $customer->treatment->visits[0]->date ?>
+                        </div>
+                        <div class="jc-images">
+                            <picture>
+                                <source media="(max-width: 799px)" srcset="<?php echo $customer->before_images->image_left_small ?>">
+                                <source media="(min-width: 800px)" srcset="<?php echo $customer->before_images->image_left_large ?>">
+                                <img src="<?php echo $customer->before_images->image_left_large ?>" alt="Before" width="175" height="235" />
+                            </picture>
+                            <picture>
+                                <source media="(max-width: 799px)" srcset="<?php echo $customer->before_images->image_right_small ?>">
+                                <source media="(min-width: 800px)" srcset="<?php echo $customer->before_images->image_right_large ?>">
+                                <img src="<?php echo $customer->before_images->image_right_large ?>" alt="After" width="175" height="235" />
+                            </picture>
+                        </div>
                     </div>
-                    <div class="jc-images">
-                        <picture>
-                            <source media="(max-width: 799px)" srcset="<?php echo $customer->before_images->image_left_small ?>">
-                            <source media="(min-width: 800px)" srcset="<?php echo $customer->before_images->image_left_large ?>">
-                            <img src="<?php echo $customer->before_images->image_left_large ?>" alt="Before" width="175" height="235" />
-                        </picture>
-                        <picture>
-                            <source media="(max-width: 799px)" srcset="<?php echo $customer->before_images->image_right_small ?>">
-                            <source media="(min-width: 800px)" srcset="<?php echo $customer->before_images->image_right_large ?>">
-                            <img src="<?php echo $customer->before_images->image_right_large ?>" alt="After" width="175" height="235" />
-                        </picture>
-                    </div>
-                </div>
-                <div class="journey-card">
-                    <div class="jc-date">
-                        <?php echo end($customer->treatment->visits)->date ?>
-                    </div>
-                    <div class="jc-images">
-                        <picture>
-                            <source media="(max-width: 799px)" srcset="<?php echo $customer->after_images->image_left_small ?>">
-                            <source media="(min-width: 800px)" srcset="<?php echo $customer->after_images->image_left_large ?>">
-                            <img src="<?php echo $customer->after_images->image_left_large ?>" alt="Before" width="175" height="235" />
-                        </picture>
-                        <picture>
-                            <source media="(max-width: 799px)" srcset="<?php echo $customer->after_images->image_right_small ?>">
-                            <source media="(min-width: 800px)" srcset="<?php echo $customer->after_images->image_right_large ?>">
-                            <img src="<?php echo $customer->after_images->image_right_large ?>" alt="After" width="175" height="235" />
-                        </picture>
+                    <div class="journey-card">
+                        <div class="jc-date">
+                            <?php echo end($customer->treatment->visits)->date ?>
+                        </div>
+                        <div class="jc-images">
+                            <picture>
+                                <source media="(max-width: 799px)" srcset="<?php echo $customer->after_images->image_left_small ?>">
+                                <source media="(min-width: 800px)" srcset="<?php echo $customer->after_images->image_left_large ?>">
+                                <img src="<?php echo $customer->after_images->image_left_large ?>" alt="Before" width="175" height="235" />
+                            </picture>
+                            <picture>
+                                <source media="(max-width: 799px)" srcset="<?php echo $customer->after_images->image_right_small ?>">
+                                <source media="(min-width: 800px)" srcset="<?php echo $customer->after_images->image_right_large ?>">
+                                <img src="<?php echo $customer->after_images->image_right_large ?>" alt="After" width="175" height="235" />
+                            </picture>
+                        </div>
                     </div>
                 </div>
                 <a href="/results/" class="button b200 outline expand l10n">View all cases</a>
