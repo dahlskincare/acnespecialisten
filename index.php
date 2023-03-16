@@ -254,7 +254,7 @@
                         $more_count = 17;
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/accordion/accordion.php')
                         ?>
-                        <a href="problems" class="mt-xl button b200 outline is-hidden-desktop expand">View all services</a>
+                        <a href="services" class="mt-xl button b200 outline is-hidden-desktop expand">View all services</a>
                   </section>
                   <section id="faq">
                         <div class="flex-row align-end justify-space-between">
