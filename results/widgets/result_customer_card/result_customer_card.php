@@ -1,14 +1,14 @@
 <div class="result-customer-card-widget">
     <div class="customer-card-photos">
         <picture>
-            <source media="(max-width: 799px)" srcset="<?php echo $result_customer->image_before_small ?>">
-            <source media="(min-width: 800px)" srcset="<?php echo $result_customer->image_before_large ?>">
-            <img src="<?php echo $result_customer->image_before_large ?>" alt="Before" width="178" height="238" />
+            <source media="(max-width: 799px)" srcset="<?php echo $result_customer->slider_image_before_small ?>">
+            <source media="(min-width: 800px)" srcset="<?php echo $result_customer->slider_image_before_large ?>">
+            <img src="<?php echo $result_customer->slider_image_before_large ?>" alt="Before" width="178" height="238" />
         </picture>
         <picture>
-            <source media="(max-width: 799px)" srcset="<?php echo $result_customer->image_after_small ?>">
-            <source media="(min-width: 800px)" srcset="<?php echo $result_customer->image_after_large ?>">
-            <img src="<?php echo $result_customer->image_after_large ?>" alt="After" width="178" height="238" />
+            <source media="(max-width: 799px)" srcset="<?php echo $result_customer->slider_image_after_small ?>">
+            <source media="(min-width: 800px)" srcset="<?php echo $result_customer->slider_image_after_large ?>">
+            <img src="<?php echo $result_customer->slider_image_after_large ?>" alt="After" width="178" height="238" />
         </picture>
     </div>
     <div class="customer-card-content">
@@ -69,7 +69,7 @@
                 </div>
             <?php } ?>
             <hr class="is-hidden-desktop" />
-            <a href="" class="button expand outline l10n">View journey details</a>
+            <a href="/results/details-<?php echo $result_customer->id ?>" class="button expand outline l10n">View journey details</a>
         </div>
 
     </div>

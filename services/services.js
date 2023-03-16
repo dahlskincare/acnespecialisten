@@ -29,4 +29,13 @@ if (document.body.clientWidth > 800) {
         buttonNext_1.classList.remove('is-hidden');
     }
 }
+var Services;
+(function (Services) {
+    function onReadMoreClick() {
+        var collapsed = document.querySelector('#problems-banner-collapsed');
+        collapsed.remove();
+        document.querySelector('#problems-banner-expanded').classList.remove('is-hidden');
+    }
+    Services.onReadMoreClick = onReadMoreClick;
+})(Services || (Services = {}));
 //# sourceMappingURL=services.js.map

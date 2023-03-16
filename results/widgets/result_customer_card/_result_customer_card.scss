@@ -7,6 +7,7 @@
     @include elevation-low();
     border-radius: $radius-l;
     overflow: hidden;
+    margin-top: $xl;
 
     .customer-card-photos {
         display: flex;
@@ -88,7 +89,7 @@
         }
     }
 
-    @media screen and (min-width: $tablet) {
+    @media screen and (min-width: $widescreen) {
         box-shadow: none;
         border-radius: 0;
         display: flex;

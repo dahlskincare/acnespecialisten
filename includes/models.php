@@ -380,26 +380,30 @@ class ResultCustomer
 {
     /**
      * @param ResultTreatment $treatment
+     * @param ResultImages $before_images
+     * @param ResultImages $after_images
      */
-    public function __construct($id, $image_before_small, $image_after_small, $image_before_large, $image_after_large, $age, $gender, $problem, $type, $treatment)
+    public function __construct($id, $slider_image_before_small, $slider_image_after_small, $slider_image_before_large, $slider_image_after_large, $age, $gender, $problem, $type, $treatment, $before_images, $after_images)
     {
         $this->id = $id;
-        $this->image_before_small = $image_before_small;
-        $this->image_after_small = $image_after_small;
-        $this->image_before_large = $image_before_large;
-        $this->image_after_large = $image_after_large;
+        $this->slider_image_before_small = $slider_image_before_small;
+        $this->slider_image_after_small = $slider_image_after_small;
+        $this->slider_image_before_large = $slider_image_before_large;
+        $this->slider_image_after_large = $slider_image_after_large;
         $this->age = $age;
         $this->gender = $gender;
         $this->problem = $problem;
         $this->type = $type;
         $this->treatment = $treatment;
+        $this->before_images = $before_images;
+        $this->after_images = $after_images;
     }
 
-    public string $id;
-    public string $image_before_small;
-    public string $image_after_small;
-    public string $image_before_large;
-    public string $image_after_large;
+    public int $id;
+    public string $slider_image_before_small;
+    public string $slider_image_after_small;
+    public string $slider_image_before_large;
+    public string $slider_image_after_large;
     public int $age;
     public string $gender;
     /**
@@ -411,6 +415,9 @@ class ResultCustomer
      */
     public string $type;
     public ResultTreatment $treatment;
+
+    public ResultImages $before_images;
+    public ResultImages $after_images;
 }
 
 class ResultTreatment
@@ -421,17 +428,18 @@ class ResultTreatment
      * @param ResultEmployee $employee
      * @param ResultVisit[] $visits
      */
-    public function __construct($duration, $procedures, $product, $employee, $visits)
+    public function __construct($id, $duration, $procedures, $product, $employee, $visits)
     {
+        $this->id = $id;
         $this->duration = $duration;
         $this->procedures = $procedures;
         $this->product = $product;
         $this->employee = $employee;
         $this->visits = $visits;
     }
+    public int $id;
     public string $duration;
     /** 
-     * example value: 3 months
      * @var ResultProcedure[] 
      * */
     public array $procedures;
@@ -446,12 +454,14 @@ class ResultTreatment
 
 class ResultProcedure
 {
-    public function __construct($image, $name, $count)
+    public function __construct($id, $image, $name, $count)
     {
+        $this->id = $id;
         $this->image = $image;
         $this->name = $name;
         $this->count = $count;
     }
+    public int $id;
     public string $image;
     public string $name;
     public string $count;
@@ -484,8 +494,9 @@ class ResultVisit
     /**
      * @var ResultImages $images
      */
-    public function __construct($date, $images, $title, $description, $read_more_url, $read_more_label)
+    public function __construct($id, $date, $images, $title, $description, $read_more_url, $read_more_label)
     {
+        $this->id = $id;
         $this->date = $date;
         $this->images = $images;
         $this->title = $title;
@@ -493,6 +504,7 @@ class ResultVisit
         $this->read_more_url = $read_more_url;
         $this->read_more_label = $read_more_label;
     }
+    public int $id;
     public string $date;
     public ResultImages $images;
     public ?string $title;
