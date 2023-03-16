@@ -156,7 +156,7 @@ INSERT INTO `result_visit` (`id`, `date`, `images`, `title`, `description`, `rea
 
 DROP TABLE IF EXISTS `skin_guide_article`;
 CREATE TABLE `skin_guide_article` (
-  `id` int unsigned NOT NULL AUTO_INCREMENT,
+  `id` varchar(128) COLLATE utf8mb4_general_ci NOT NULL,
   `title` varchar(128) COLLATE utf8mb4_general_ci NOT NULL,
   `subtitle` varchar(256) COLLATE utf8mb4_general_ci NOT NULL,
   `problem` varchar(64) COLLATE utf8mb4_general_ci NOT NULL COMMENT 'acne, rosacea, dry skin, etc',
@@ -164,29 +164,42 @@ CREATE TABLE `skin_guide_article` (
   `image_small` varchar(256) COLLATE utf8mb4_general_ci NOT NULL,
   `image_large` varchar(256) COLLATE utf8mb4_general_ci NOT NULL,
   `content` text COLLATE utf8mb4_general_ci NOT NULL,
-  PRIMARY KEY (`id`)
+  `meta_title` varchar(60) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `meta_description` varchar(160) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  PRIMARY KEY (`id`(4))
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+INSERT INTO `skin_guide_article` (`id`, `title`, `subtitle`, `problem`, `description`, `image_small`, `image_large`, `content`, `meta_title`, `meta_description`) VALUES
+('how-hormones-affect',	'How hormones affect?',	'In a personal meeting with a skin specialist, your skin type is examined and identified.',	'Acne',	'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.',	'https://via.placeholder.com/426x324.webp',	'https://via.placeholder.com/872x456.jpg',	'<?php echo \'hello\' ?>\r\n<p>\r\nFor the first time ever, fans from around the world can explore the faraway lands of their favorite holiday films with an exclusive overnight stay at the original Hobbiton™ Movie Set. Russell Alexander is inviting guests to his family’s property to live like Bilbo Baggins and retreat to The Shire™ for an overnight stay at Hobbiton, as featured in the famed The Lord of the Rings and The Hobbit film trilogies.\r\nNestled in the picturesque pastures of New Zealand’s Waikato region on a 2,500 acre working farm, the property’s rolling, green hills – bear a striking similarity to The Shire™ as described by J. R. R. Tolkien in The Lord of the Rings, and captivated Sir Peter Jackson’s movie scouts more than two decades ago. The team quickly realized the Hobbits had found their home – and this holiday season, it could be yours.\r\n</p>',	'Acnespecialisten | Hormones',	'bla bla bla...');
 
 DROP TABLE IF EXISTS `skin_guide_category`;
 CREATE TABLE `skin_guide_category` (
-  `id` varchar(64) COLLATE utf8mb4_general_ci NOT NULL,
-  `name` varchar(64) COLLATE utf8mb4_general_ci NOT NULL,
+  `id` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `name` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `description` varchar(1024) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `meta_description` varchar(160) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `meta_title` varchar(60) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+INSERT INTO `skin_guide_category` (`id`, `name`, `description`, `meta_description`, `meta_title`) VALUES
+('skin-problems',	'Skin problems',	'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we.',	'Here we explain what identifies acne scars ... ',	'Acnespecialisten | Skin problems');
 
 DROP TABLE IF EXISTS `skin_guide_subcategory`;
 CREATE TABLE `skin_guide_subcategory` (
-  `id` varchar(64) COLLATE utf8mb4_general_ci NOT NULL,
-  `name` varchar(64) COLLATE utf8mb4_general_ci NOT NULL,
-  `description` varchar(1024) COLLATE utf8mb4_general_ci NOT NULL,
-  `consultation_url` varchar(256) COLLATE utf8mb4_general_ci NOT NULL,
-  `category_id` varchar(64) COLLATE utf8mb4_general_ci NOT NULL,
+  `id` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `name` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `description` varchar(1024) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `consultation_url` varchar(256) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `category_id` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `meta_title` varchar(60) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `meta_description` varchar(160) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   PRIMARY KEY (`id`),
   KEY `category_id` (`category_id`),
   CONSTRAINT `skin_guide_subcategory_ibfk_1` FOREIGN KEY (`category_id`) REFERENCES `skin_guide_category` (`id`) ON DELETE CASCADE ON UPDATE RESTRICT
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+INSERT INTO `skin_guide_subcategory` (`id`, `name`, `description`, `consultation_url`, `category_id`, `meta_title`, `meta_description`) VALUES
+('dry-skin',	'Dry skin',	'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we.',	'https://dahlskincare.com/skin-consultation',	'skin-problems',	'',	'');
 
--- 2023-03-16 10:46:34
+-- 2023-03-16 13:22:31
