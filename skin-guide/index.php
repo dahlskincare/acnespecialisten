@@ -1,4 +1,19 @@
-<?php include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php'); ?>
+<?php
+include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
+include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
+$conn = new mysqli($_ENV['DB_URL'], $_ENV['DB_USER'], $_ENV['DB_PASSWORD'], database: $_ENV['DB_NAME']);
+if ($conn->connect_errno) {
+    echo "Failed to connect to MySQL: " . $conn->connect_error;
+    exit();
+}
+
+if ($rs = $conn->query("SELECT * FROM skin_guide_category")) {
+    foreach ($rs as $row) {
+    }
+} else {
+    die($conn->error);
+}
+?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
 
@@ -61,6 +76,9 @@
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
                 </div>
             </div>
+        </section>
+        <section id="categories">
+
         </section>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>

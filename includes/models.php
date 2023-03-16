@@ -333,24 +333,6 @@ class ArticleTag
     public $label;
 }
 
-class SkinGuideArticle
-{
-    public function __construct($title, $category, $url, $image_small, $image_large)
-    {
-        $this->title = $title;
-        $this->category = $category;
-        $this->url = $url;
-        $this->image_small = $image_small;
-        $this->image_large = $image_large;
-    }
-
-    public $title;
-    public $category;
-    public $url;
-    public $image_small;
-    public $image_large;
-}
-
 class ResultCategory
 {
     /**
@@ -526,4 +508,72 @@ class ResultImages
     public string $image_right_small;
     public string $image_left_large;
     public string $image_right_large;
+}
+
+class SkinGuideCategory
+{
+    public function __construct($data)
+    {
+        $this->id = $data['id'];
+        $this->name = $data['name'];
+        $this->description = $data['description'];
+        $this->meta_title = $data['meta_title'];
+        $this->meta_description = $data['meta_description'];
+    }
+
+    public string $id;
+    public string $name;
+    public string $description;
+    public string $meta_title;
+    public string $meta_description;
+}
+
+class SkinGuideSubCategory
+{
+    public function __construct($data)
+    {
+        $this->id = $data['id'];
+        $this->name = $data['name'];
+        $this->description = $data['description'];
+        $this->consultation_url = $data['consultation_url'];
+        $this->category_id = $data['category_id'];
+        $this->meta_title = $data['meta_title'];
+        $this->meta_description = $data['meta_description'];
+    }
+
+    public string $id;
+    public string $name;
+    public string $description;
+    public string $consultation_url;
+    public string $category_id;
+    public string $meta_title;
+    public string $meta_description;
+}
+
+class SkinGuideArticle
+{
+    public function __construct($data)
+    {
+        $this->id = $data['id'];
+        $this->title = $data['title'];
+        $this->subtitle = $data['subtitle'];
+        $this->problem = $data['problem'];
+        $this->description = $data['description'];
+        $this->image_small = $data['image_small'];
+        $this->image_large = $data['image_large'];
+        $this->content = $data['content'];
+        $this->meta_title = $data['meta_title'];
+        $this->meta_description = $data['meta_description'];
+    }
+
+    public string $id;
+    public string $title;
+    public string $subtitle;
+    public string $problem;
+    public string $description;
+    public string $image_small;
+    public string $image_large;
+    public string $content;
+    public string $meta_title;
+    public string $meta_description;
 }
