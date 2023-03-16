@@ -96,8 +96,6 @@ if ($rs = $conn->query(sprintf($query, ($page - 1) * $pagesize, $pagesize))) {
     foreach ($rs as $row) {
         $before_images = json_decode($row['before_images']);
         $after_images = json_decode($row['after_images']);
-
-
         $customer = new ResultCustomer(
             id: $row['id'],
             slider_image_before_small: $row['slider_image_before_small'],

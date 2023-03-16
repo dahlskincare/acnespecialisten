@@ -1,4 +1,23 @@
-<?php include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php'); ?>
+<?php
+include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
+$conn = new mysqli($_ENV['DB_URL'], $_ENV['DB_USER'], $_ENV['DB_PASSWORD'], database: $_ENV['DB_NAME']);
+if ($conn->connect_errno) {
+    echo "Failed to connect to MySQL: " . $conn->connect_error;
+    exit();
+}
+
+if ($rs = $conn->query("SELECT * FROM skin_guide_article WHERE id = '" . $_GET['id'] . "'")) {
+    if ($rs->num_rows == 1) {
+        $row = $rs->fetch_assoc();
+    } else {
+        http_response_code(404);
+        die('Page not found');
+    }
+} else {
+    die($conn->error);
+}
+
+?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
 
@@ -11,23 +30,15 @@
 
     <!-- Optional: Set canonical version of this page (https://support.google.com/webmasters/answer/10347851) -->
 
-    <!-- Default imports (metadata, fonts, google analytics etc) -->
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
-
-    <!-- This stylesheet should be included only on pages with the default style and layout. -->
     <link rel="stylesheet" href="/styles/default-layout.css">
-
-    <!-- 
-            TODO: Create a css file with custom styles specific to the new page. 
-            The css file should be have the same name and be put in the same folder 
-            as the php file (my-folder/my-new-page.php -> my-new-page.css, etc).
-      -->
     <link rel="stylesheet" href="/skin-guide/category/article/article.php">
 </head>
 
 <body>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
     <main>
+        <?php echo $row['content'] ?>
         <!-- TODO: Page Content Here -->
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
