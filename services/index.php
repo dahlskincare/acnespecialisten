@@ -123,7 +123,7 @@ $service_categories = array(
                         <p class="p200 mt-xs">
                             <span id="problems-banner-collapsed" class="l10n">
                                 In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified In a personal meeting with a skin specialist, your skinonal...
-                                <span class="l10n underline" onclick="onReadMoreClick()">read more</span>
+                                <span class="l10n underline h200" onclick="Services.onReadMoreClick()">read more</span>
                             </span>
                             <span id="problems-banner-expanded" class="l10n is-hidden">
                                 In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified In a personal meeting with a skin specialist, your skinonal...

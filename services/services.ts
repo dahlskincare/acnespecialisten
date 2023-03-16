@@ -35,3 +35,10 @@ if (document.body.clientWidth > 800) {
         buttonNext.classList.remove('is-hidden');
     }
 }
+namespace Services {
+    export function onReadMoreClick() {
+        let collapsed = document.querySelector('#problems-banner-collapsed');
+        collapsed.remove();
+        document.querySelector('#problems-banner-expanded').classList.remove('is-hidden');
+    }
+}

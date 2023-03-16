@@ -1,8 +1,12 @@
-function onReadMoreClick() {
-    var collapsed = document.querySelector('#problems-banner-collapsed');
-    collapsed.remove();
-    document.querySelector('#problems-banner-expanded').classList.remove('is-hidden');
-}
+var Problems;
+(function (Problems) {
+    function onReadMoreClick() {
+        var collapsed = document.querySelector('#problems-banner-collapsed');
+        collapsed.remove();
+        document.querySelector('#problems-banner-expanded').classList.remove('is-hidden');
+    }
+    Problems.onReadMoreClick = onReadMoreClick;
+})(Problems || (Problems = {}));
 function showProblems(problems) {
     var problemIds = problems.split(',');
     var columns = document.querySelector('#banner-problem-areas').children;
