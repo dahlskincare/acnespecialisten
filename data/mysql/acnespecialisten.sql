@@ -98,9 +98,9 @@ INSERT INTO `result_employee` (`id`, `image`, `name`) VALUES
 DROP TABLE IF EXISTS `result_procedure`;
 CREATE TABLE `result_procedure` (
   `id` int unsigned NOT NULL AUTO_INCREMENT,
-  `image` varchar(128) COLLATE utf8mb4_bin NOT NULL,
-  `name` varchar(128) COLLATE utf8mb4_bin NOT NULL,
-  `count` varchar(128) COLLATE utf8mb4_bin NOT NULL,
+  `image` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL,
+  `name` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL,
+  `count` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
 
@@ -111,8 +111,8 @@ INSERT INTO `result_procedure` (`id`, `image`, `name`, `count`) VALUES
 DROP TABLE IF EXISTS `result_product`;
 CREATE TABLE `result_product` (
   `id` int unsigned NOT NULL AUTO_INCREMENT,
-  `image` varchar(256) COLLATE utf8mb4_bin NOT NULL,
-  `name` varchar(256) COLLATE utf8mb4_bin NOT NULL,
+  `image` varchar(256) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL,
+  `name` varchar(256) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
 
@@ -154,4 +154,39 @@ INSERT INTO `result_visit` (`id`, `date`, `images`, `title`, `description`, `rea
 (1,	'Nov 30, 2022',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}',	'First free consultation',	'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone.',	'https://dahlskincare.com/skin-consultation',	'Get a free consultation',	1),
 (2,	'Nov 30, 2022',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}',	'Results after first problem skin facials',	'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone.',	'/services/facials',	'Read more about facials',	1);
 
--- 2023-03-16 09:45:12
+DROP TABLE IF EXISTS `skin_guide_article`;
+CREATE TABLE `skin_guide_article` (
+  `id` int unsigned NOT NULL AUTO_INCREMENT,
+  `title` varchar(128) COLLATE utf8mb4_general_ci NOT NULL,
+  `subtitle` varchar(256) COLLATE utf8mb4_general_ci NOT NULL,
+  `problem` varchar(64) COLLATE utf8mb4_general_ci NOT NULL COMMENT 'acne, rosacea, dry skin, etc',
+  `description` varchar(512) COLLATE utf8mb4_general_ci NOT NULL,
+  `image_small` varchar(256) COLLATE utf8mb4_general_ci NOT NULL,
+  `image_large` varchar(256) COLLATE utf8mb4_general_ci NOT NULL,
+  `content` text COLLATE utf8mb4_general_ci NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+
+DROP TABLE IF EXISTS `skin_guide_category`;
+CREATE TABLE `skin_guide_category` (
+  `id` varchar(64) COLLATE utf8mb4_general_ci NOT NULL,
+  `name` varchar(64) COLLATE utf8mb4_general_ci NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+
+DROP TABLE IF EXISTS `skin_guide_subcategory`;
+CREATE TABLE `skin_guide_subcategory` (
+  `id` varchar(64) COLLATE utf8mb4_general_ci NOT NULL,
+  `name` varchar(64) COLLATE utf8mb4_general_ci NOT NULL,
+  `description` varchar(1024) COLLATE utf8mb4_general_ci NOT NULL,
+  `consultation_url` varchar(256) COLLATE utf8mb4_general_ci NOT NULL,
+  `category_id` varchar(64) COLLATE utf8mb4_general_ci NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `category_id` (`category_id`),
+  CONSTRAINT `skin_guide_subcategory_ibfk_1` FOREIGN KEY (`category_id`) REFERENCES `skin_guide_category` (`id`) ON DELETE CASCADE ON UPDATE RESTRICT
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+
+-- 2023-03-16 10:46:34
