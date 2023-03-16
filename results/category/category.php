@@ -93,12 +93,14 @@ $query = "SELECT customer.*,
 
 if ($rs = $conn->query(sprintf($query, $result_category->id, ($page - 1) * $pagesize, $pagesize))) {
     foreach ($rs as $row) {
+        $before_images = json_decode($row['before_images']);
+        $after_images = json_decode($row['after_images']);
         $customer = new ResultCustomer(
             id: $row['id'],
-            image_before_small: $row['image_before_small'],
-            image_after_small: $row['image_after_small'],
-            image_before_large: $row['image_before_large'],
-            image_after_large: $row['image_after_large'],
+            slider_image_before_small: $row['image_before_small'],
+            slider_image_after_small: $row['image_after_small'],
+            slider_image_before_large: $row['image_before_large'],
+            slider_image_after_large: $row['image_after_large'],
             age: $row['age'],
             gender: $row['gender'],
             problem: $row['problem'],
@@ -116,6 +118,18 @@ if ($rs = $conn->query(sprintf($query, $result_category->id, ($page - 1) * $page
                     name: $row['employee_name']
                 ),
                 visits: array()
+            ),
+            before_images: new ResultImages(
+                image_left_small: $before_images->image_left_small,
+                image_right_small: $before_images->image_right_small,
+                image_left_large: $before_images->image_left_large,
+                image_right_large: $before_images->image_right_large
+            ),
+            after_images: new ResultImages(
+                image_left_small: $after_images->image_left_small,
+                image_right_small: $after_images->image_right_small,
+                image_left_large: $after_images->image_left_large,
+                image_right_large: $after_images->image_right_large
             )
         );
         // Populate procedures
