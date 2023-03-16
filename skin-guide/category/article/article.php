@@ -8,7 +8,7 @@ if ($conn->connect_errno) {
 
 if ($rs = $conn->query("SELECT * FROM skin_guide_article WHERE id = '" . $_GET['id'] . "'")) {
     if ($rs->num_rows == 1) {
-        $row = $rs->fetch_assoc();
+        $article = new SkinGuideArticle($row);
     } else {
         http_response_code(404);
         die('Page not found');
@@ -38,7 +38,7 @@ if ($rs = $conn->query("SELECT * FROM skin_guide_article WHERE id = '" . $_GET['
 <body>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
     <main>
-        <?php echo $row['content'] ?>
+        <?php echo $article->content ?>
         <!-- TODO: Page Content Here -->
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>

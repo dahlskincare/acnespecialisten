@@ -1,6 +1,7 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
-include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
+include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
+
 $conn = new mysqli($_ENV['DB_URL'], $_ENV['DB_USER'], $_ENV['DB_PASSWORD'], database: $_ENV['DB_NAME']);
 if ($conn->connect_errno) {
     echo "Failed to connect to MySQL: " . $conn->connect_error;
@@ -9,6 +10,7 @@ if ($conn->connect_errno) {
 
 if ($rs = $conn->query("SELECT * FROM skin_guide_category")) {
     foreach ($rs as $row) {
+        $categories[] = new SkinGuideCategory($row);
     }
 } else {
     die($conn->error);
@@ -77,9 +79,15 @@ if ($rs = $conn->query("SELECT * FROM skin_guide_category")) {
                 </div>
             </div>
         </section>
-        <section id="categories">
-
-        </section>
+        <div class="container">
+            <section id="categories">
+                <div id="category-links">
+                    <?php foreach ($categories as $category) { ?>
+                        <a href="/skin-guide/<?php echo $category->id ?>" class="category-link"><?php echo $category->name ?></a>
+                    <?php } ?>
+                </div>
+            </section>
+        </div>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
     <script src="skin-guide/skin-guide.js"></script>

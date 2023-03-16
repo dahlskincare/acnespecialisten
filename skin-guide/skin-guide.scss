@@ -35,3 +35,27 @@ section#banner {
         }
     }
 }
+
+section#categories {
+    margin-top: $m;
+    padding-bottom: $xl;
+
+    #category-links {
+        border-radius: $radius-l;
+        border: 1px solid $light-200;
+        @include elevation-medium();
+
+        .category-link {
+            @include h200;
+            cursor: pointer;
+            display: block;
+            border-bottom: 1px solid $light-200;
+            text-align: center;
+            padding: $l 0;
+        }
+
+        .category-link:last-child {
+            border-bottom: 0;
+        }
+    }
+}
