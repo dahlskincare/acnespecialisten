@@ -11,7 +11,7 @@
     </div>
     <div class="carousel" id="nav-buttons-carousel">
         <?php foreach ($nav_buttons as $id => $label) { ?>
-            <a class="slide" href="javascript:;" data-id="<?php echo $id ?>" onclick="NavButtons.setActive(this);" class="button grey l10n"><?php echo $label ?></a>
+            <a class="slide" href="javascript:;" data-id="<?php echo $id ?>" onclick="NavButtons.setActive(this);"><?php echo $label ?></a>
         <?php } ?>
     </div>
 </div>
