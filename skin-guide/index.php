@@ -88,18 +88,18 @@ if ($rs = $conn->query("SELECT * FROM skin_guide_category")) {
                 </div>
             </section>
             <section id="categories-desktop" class="is-hidden-touch">
-                <div id="filter-items-container">
-                    <div id="filter-items">
+                <div id="category-items-container">
+                    <div id="category-items">
                         <?php foreach ($categories as $category) { ?>
-                            <a href="/skin-guide/<?php echo $category->id ?>" class="filter-item"><?php echo $category->name ?></a>
+                            <a href="/skin-guide/<?php echo $category->id ?>" class="category-item"><?php echo $category->name ?></a>
                         <?php } ?>
                     </div>
-                    <div class="filter-button is-hidden" id="filter-button-previous">
+                    <div class="scroll-button is-hidden" id="scroll-button-previous">
                         <button class="round-medium grey">
                             <?php icon('arrow-left') ?>
                         </button>
                     </div>
-                    <div class="filter-button is-hidden" id="filter-button-next">
+                    <div class="scroll-button is-hidden" id="scroll-button-next">
                         <button class="round-medium grey">
                             <?php icon('arrow-right') ?>
                         </button>

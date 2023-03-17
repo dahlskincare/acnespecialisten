@@ -7,14 +7,14 @@ namespace SkinGuide {
 }
 
 if (document.body.clientWidth > 800) {
-    let filters = document.querySelector('#categories-desktop');
-    let filterItems = filters.querySelector('#filter-items');
-    let buttonPrevious = filters.querySelector('#filter-button-previous');
-    let buttonNext = filters.querySelector('#filter-button-next');
+    let categories = document.querySelector('#categories-desktop');
+    let categoryItems = categories.querySelector('#category-items');
+    let buttonPrevious = categories.querySelector('#scroll-button-previous');
+    let buttonNext = categories.querySelector('#scroll-button-next');
 
-    filterItems.addEventListener('scroll', () => {
-        let showNext = filterItems.scrollWidth - filterItems.scrollLeft > filterItems.clientWidth;
-        let showPrevious = filterItems.scrollLeft > 0;
+    categoryItems.addEventListener('scroll', () => {
+        let showNext = categoryItems.scrollWidth - categoryItems.scrollLeft > categoryItems.clientWidth;
+        let showPrevious = categoryItems.scrollLeft > 0;
 
         if (showNext) {
             buttonNext.classList.remove('is-hidden');
@@ -30,15 +30,15 @@ if (document.body.clientWidth > 800) {
     });
 
     buttonPrevious.addEventListener('click', () => {
-        filterItems.scrollBy(-133, 0);
+        categoryItems.scrollBy(-133, 0);
     });
 
     buttonNext.addEventListener('click', () => {
-        filterItems.scrollBy(133, 0);
+        categoryItems.scrollBy(133, 0);
     });
 
 
-    if (filterItems.scrollWidth > filterItems.clientWidth) {
+    if (categoryItems.scrollWidth > categoryItems.clientWidth) {
         buttonNext.classList.remove('is-hidden');
     }
 }

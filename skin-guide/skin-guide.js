@@ -8,13 +8,13 @@ var SkinGuide;
     SkinGuide.onReadMoreClick = onReadMoreClick;
 })(SkinGuide || (SkinGuide = {}));
 if (document.body.clientWidth > 800) {
-    var filters = document.querySelector('#categories-desktop');
-    var filterItems_1 = filters.querySelector('#filter-items');
-    var buttonPrevious_1 = filters.querySelector('#filter-button-previous');
-    var buttonNext_1 = filters.querySelector('#filter-button-next');
-    filterItems_1.addEventListener('scroll', function () {
-        var showNext = filterItems_1.scrollWidth - filterItems_1.scrollLeft > filterItems_1.clientWidth;
-        var showPrevious = filterItems_1.scrollLeft > 0;
+    var categories = document.querySelector('#categories-desktop');
+    var categoryItems_1 = categories.querySelector('#category-items');
+    var buttonPrevious_1 = categories.querySelector('#scroll-button-previous');
+    var buttonNext_1 = categories.querySelector('#scroll-button-next');
+    categoryItems_1.addEventListener('scroll', function () {
+        var showNext = categoryItems_1.scrollWidth - categoryItems_1.scrollLeft > categoryItems_1.clientWidth;
+        var showPrevious = categoryItems_1.scrollLeft > 0;
         if (showNext) {
             buttonNext_1.classList.remove('is-hidden');
         }
@@ -29,12 +29,12 @@ if (document.body.clientWidth > 800) {
         }
     });
     buttonPrevious_1.addEventListener('click', function () {
-        filterItems_1.scrollBy(-133, 0);
+        categoryItems_1.scrollBy(-133, 0);
     });
     buttonNext_1.addEventListener('click', function () {
-        filterItems_1.scrollBy(133, 0);
+        categoryItems_1.scrollBy(133, 0);
     });
-    if (filterItems_1.scrollWidth > filterItems_1.clientWidth) {
+    if (categoryItems_1.scrollWidth > categoryItems_1.clientWidth) {
         buttonNext_1.classList.remove('is-hidden');
     }
 }

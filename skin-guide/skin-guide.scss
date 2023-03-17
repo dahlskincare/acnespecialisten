@@ -63,7 +63,7 @@ section#categories-tablet {
 section#categories-desktop {
     padding-bottom: $xl;
 
-    #filter-items-container {
+    #category-items-container {
         position: relative;
         border: 1px solid $light-200;
         border-radius: $radius-l;
@@ -72,7 +72,7 @@ section#categories-desktop {
         background-color: $white-500;
         @include elevation-medium();
 
-        div#filter-items {
+        div#category-items {
             position: relative;
             display: flex;
             overflow-y: auto;
@@ -81,12 +81,12 @@ section#categories-desktop {
             -ms-overflow-style: none;
         }
 
-        div#filter-items::-webkit-scrollbar {
+        div#category-items::-webkit-scrollbar {
             width: 0;
             height: 0;
         }
 
-        div.filter-button {
+        div.scroll-button {
             background-color: $white-500;
             position: absolute;
             top: 0;
@@ -95,18 +95,18 @@ section#categories-desktop {
             box-sizing: border-box;
         }
 
-        div.filter-button#filter-button-previous {
+        div.scroll-button#scroll-button-previous {
             background: linear-gradient(90deg, $white-500 70%, rgba(255, 255, 255, 0) 100%);
             padding-right: $xl*2;
         }
 
-        div.filter-button#filter-button-next {
+        div.scroll-button#scroll-button-next {
             background: linear-gradient(270deg, $white-500 70%, rgba(255, 255, 255, 0) 100%);
             padding-left: $xl*2;
             right: 0;
         }
 
-        .filter-item {
+        .category-item {
             @include h200;
             padding: $xl $xxs;
             flex: 1 0 132px;
@@ -115,21 +115,21 @@ section#categories-desktop {
             border-left: 1px solid $light-200;
         }
 
-        .filter-item:not(.highlight):hover {
-            .filter-item-label {
+        .category-item:not(.highlight):hover {
+            .category-item-label {
                 color: $deep-sea-300;
             }
         }
 
-        .filter-item.highlight {
+        .category-item.highlight {
             background-color: $light-25;
 
-            .filter-item-label {
+            .category-item-label {
                 color: $deep-sea-500;
             }
         }
 
-        .filter-item:first-child {
+        .category-item:first-child {
             border-left: 1px solid transparent;
         }
     }
