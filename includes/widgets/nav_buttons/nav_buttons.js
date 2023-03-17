@@ -17,7 +17,7 @@ var NavButtons;
             });
             _buttonNextContainer_1.classList.remove('is-hidden');
             _carousel.addEventListener('scroll', function () {
-                var showNext = _carousel.scrollWidth - _carousel.scrollLeft != _carousel.clientWidth;
+                var showNext = _carousel.scrollWidth - _carousel.scrollLeft >= _carousel.clientWidth;
                 var showPrevious = _carousel.scrollLeft > 0;
                 if (showNext) {
                     _buttonNextContainer_1.classList.remove('is-hidden');
