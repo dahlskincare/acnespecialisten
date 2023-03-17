@@ -80,11 +80,30 @@ if ($rs = $conn->query("SELECT * FROM skin_guide_category")) {
             </div>
         </section>
         <div class="container">
-            <section id="categories">
+            <section id="categories-tablet" class="is-hidden-desktop">
                 <div id="category-links">
                     <?php foreach ($categories as $category) { ?>
                         <a href="/skin-guide/<?php echo $category->id ?>" class="category-link"><?php echo $category->name ?></a>
                     <?php } ?>
+                </div>
+            </section>
+            <section id="categories-desktop" class="is-hidden-touch">
+                <div id="filter-items-container">
+                    <div id="filter-items">
+                        <?php foreach ($categories as $category) { ?>
+                            <a href="/skin-guide/<?php echo $category->id ?>" class="filter-item"><?php echo $category->name ?></a>
+                        <?php } ?>
+                    </div>
+                    <div class="filter-button is-hidden" id="filter-button-previous">
+                        <button class="round-medium grey">
+                            <?php icon('arrow-left') ?>
+                        </button>
+                    </div>
+                    <div class="filter-button is-hidden" id="filter-button-next">
+                        <button class="round-medium grey">
+                            <?php icon('arrow-right') ?>
+                        </button>
+                    </div>
                 </div>
             </section>
         </div>

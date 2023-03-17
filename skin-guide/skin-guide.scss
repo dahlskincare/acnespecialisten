@@ -36,7 +36,7 @@ section#banner {
     }
 }
 
-section#categories {
+section#categories-tablet {
     margin-top: $m;
     padding-bottom: $xl;
 
@@ -46,7 +46,7 @@ section#categories {
         @include elevation-medium();
 
         .category-link {
-            @include h200;
+            @include h100;
             cursor: pointer;
             display: block;
             border-bottom: 1px solid $light-200;
@@ -56,6 +56,81 @@ section#categories {
 
         .category-link:last-child {
             border-bottom: 0;
+        }
+    }
+}
+
+section#categories-desktop {
+    padding-bottom: $xl;
+
+    #filter-items-container {
+        position: relative;
+        border: 1px solid $light-200;
+        border-radius: $radius-l;
+        overflow: hidden;
+        margin-top: -$xl3;
+        background-color: $white-500;
+        @include elevation-medium();
+
+        div#filter-items {
+            position: relative;
+            display: flex;
+            overflow-y: auto;
+            scroll-behavior: smooth;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+        }
+
+        div#filter-items::-webkit-scrollbar {
+            width: 0;
+            height: 0;
+        }
+
+        div.filter-button {
+            background-color: $white-500;
+            position: absolute;
+            top: 0;
+            height: 100%;
+            padding: $m;
+            box-sizing: border-box;
+        }
+
+        div.filter-button#filter-button-previous {
+            background: linear-gradient(90deg, $white-500 70%, rgba(255, 255, 255, 0) 100%);
+            padding-right: $xl*2;
+        }
+
+        div.filter-button#filter-button-next {
+            background: linear-gradient(270deg, $white-500 70%, rgba(255, 255, 255, 0) 100%);
+            padding-left: $xl*2;
+            right: 0;
+        }
+
+        .filter-item {
+            @include h200;
+            padding: $xl $xxs;
+            flex: 1 0 132px;
+            text-align: center;
+            cursor: pointer;
+            border-left: 1px solid $light-200;
+        }
+
+        .filter-item:not(.highlight):hover {
+            .filter-item-label {
+                color: $deep-sea-300;
+            }
+        }
+
+        .filter-item.highlight {
+            background-color: $light-25;
+
+            .filter-item-label {
+                color: $deep-sea-500;
+            }
+        }
+
+        .filter-item:first-child {
+            border-left: 1px solid transparent;
         }
     }
 }
