@@ -11,7 +11,17 @@ if ($conn->connect_errno) {
 if ($rs = $conn->query("SELECT * FROM skin_guide_category ORDER BY ranking ASC")) {
     foreach ($rs as $row) {
         $categories[] = new SkinGuideCategory($row);
-    }
+    }    
+    $rs->free_result();
+} else {
+    die($conn->error);
+}
+
+if ($rs = $conn->query("SELECT * FROM skin_guide_subcategory ORDER BY ranking ASC")) {
+    foreach ($rs as $row) {
+        $subcategories[] = new SkinGuideSubCategory($row);
+    }    
+    $rs->free_result();
 } else {
     die($conn->error);
 }
