@@ -23,8 +23,6 @@ $specialists = array(
     new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-4.jpg', 'images/specialists/large/specialist-4.jpg')
 );
 
-
-
 $result_category =
     new ResultCategory(
         id: '',

@@ -112,7 +112,7 @@ section#banner {
             }
 
             .filter-item {
-                padding: $xl 0;
+                padding: $xl $xxs;
                 flex: 1 0 132px;
                 text-align: center;
                 cursor: pointer;
@@ -137,7 +137,6 @@ section#banner {
                 border-left: 1px solid transparent;
             }
         }
-
     }
 }
 
