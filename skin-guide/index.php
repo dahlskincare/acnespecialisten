@@ -11,7 +11,7 @@ if ($conn->connect_errno) {
 if ($rs = $conn->query("SELECT * FROM skin_guide_category ORDER BY ranking ASC")) {
     foreach ($rs as $row) {
         $categories[] = new SkinGuideCategory($row);
-    }    
+    }
     $rs->free_result();
 } else {
     die($conn->error);
@@ -20,7 +20,7 @@ if ($rs = $conn->query("SELECT * FROM skin_guide_category ORDER BY ranking ASC")
 if ($rs = $conn->query("SELECT * FROM skin_guide_subcategory ORDER BY ranking ASC")) {
     foreach ($rs as $row) {
         $subcategories[] = new SkinGuideSubCategory($row);
-    }    
+    }
     $rs->free_result();
 } else {
     die($conn->error);
@@ -35,7 +35,6 @@ if ($rs = $conn->query("SELECT * FROM skin_guide_subcategory ORDER BY ranking AS
     <meta name="description" content="" class="l10n">
     <meta name="title" content="" class="l10n">
     <meta name="keywords" content="" class="l10n">
-
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
     <link rel="stylesheet" href="/skin-guide/skin-guide.css">
@@ -117,7 +116,23 @@ if ($rs = $conn->query("SELECT * FROM skin_guide_subcategory ORDER BY ranking AS
                 </div>
             </section>
             <section id="subcategories">
-                <p>hello</p>
+                <div class="subcategories-wrapper">
+                    <div class="scroll-button is-hidden" id="subcategory-scroll-left">
+                        <button class="round-medium grey">
+                            <?php icon('arrow-left') ?>
+                        </button>
+                    </div>
+                    <div class="scroll-button is-hidden" id="subcategory-scroll-right">
+                        <button class="round-medium grey">
+                            <?php icon('arrow-right') ?>
+                        </button>
+                    </div>
+                    <div id="subcategory-items">
+                        <?php foreach ($subcategories as $subcategory) { ?>
+                            <a class="subcategory-item" href=""><?php echo $subcategory->name ?></a>
+                        <?php } ?>
+                    </div>
+                </div>
             </section>
         </div>
     </main>
