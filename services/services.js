@@ -4,7 +4,7 @@ if (document.body.clientWidth > 800) {
     var buttonPrevious_1 = filters.querySelector('#filter-button-previous');
     var buttonNext_1 = filters.querySelector('#filter-button-next');
     filterItems_1.addEventListener('scroll', function () {
-        var showNext = filterItems_1.scrollWidth - filterItems_1.scrollLeft != filterItems_1.clientWidth;
+        var showNext = filterItems_1.scrollWidth - filterItems_1.scrollLeft > filterItems_1.clientWidth;
         var showPrevious = filterItems_1.scrollLeft > 0;
         if (showNext) {
             buttonNext_1.classList.remove('is-hidden');

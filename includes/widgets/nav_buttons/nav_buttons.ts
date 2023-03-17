@@ -18,7 +18,7 @@ namespace NavButtons {
             _buttonNextContainer.classList.remove('is-hidden');
 
             _carousel.addEventListener('scroll', () => {
-                let showNext = _carousel.scrollWidth - _carousel.scrollLeft >= _carousel.clientWidth;
+                let showNext = _carousel.scrollWidth - _carousel.scrollLeft > _carousel.clientWidth;
                 let showPrevious = _carousel.scrollLeft > 0;
 
                 if (showNext) {

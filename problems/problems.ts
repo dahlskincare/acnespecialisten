@@ -51,7 +51,7 @@ if (document.body.clientWidth > 800) {
 
 
     filterItems.addEventListener('scroll', () => {
-        let showNext = filterItems.scrollWidth - filterItems.scrollLeft >= filterItems.clientWidth;
+        let showNext = filterItems.scrollWidth - filterItems.scrollLeft > filterItems.clientWidth;
         let showPrevious = filterItems.scrollLeft > 0;
 
         if (showNext) {
