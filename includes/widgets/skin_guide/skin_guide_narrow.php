@@ -1,23 +1,31 @@
 <?php
 if (!isset($skin_guide_articles)) {
-    $skin_guide_articles = array(
-        new SkinGuideArticle('How hormones affect?', 'Problem skin', 'skin-guide/hormones-effect', 'images/skin-guide/small/hormones.jpg', 'images/skin-guide/large/hormones.jpg'),
-        new SkinGuideArticle('Can makeup harm your skin?', 'Problem skin', 'skin-guide/can-makeup-harm', 'images/skin-guide/small/makeup.jpg', 'images/skin-guide/large/makeup.jpg'),
-        new SkinGuideArticle('How to build a skin care routine', 'Problem skin', 'skin-guide/routine-how-to', 'images/skin-guide/small/routine.jpg', 'images/skin-guide/large/routine.jpg'),
-        new SkinGuideArticle('Skin care tips dermatologists use', 'Problem skin', 'skin-guide/skin-care-tips', 'images/skin-guide/small/tips.jpg', 'images/skin-guide/large/tips.jpg')
-    );
+    $conn = new mysqli($_ENV['DB_URL'], $_ENV['DB_USER'], $_ENV['DB_PASSWORD'], database: $_ENV['DB_NAME']);
+    if ($conn->connect_errno) {
+        echo "Failed to connect to MySQL: " . $conn->connect_error;
+        exit();
+    }
+
+    if ($rs = $conn->query("SELECT * FROM skin_guide_article LIMIT 4")) {
+        foreach ($rs as $row) {
+            $skin_guide_articles[] = new SkinGuideArticle($row);
+        }
+        $rs->free_result();
+    } else {
+        die($conn->error);
+    }
 }
 ?>
 <div class="skin-guide-widget">
     <div class="columns is-2 is-variable">
         <?php foreach ($skin_guide_articles as $article) { ?>
             <div class="column is-one-third">
-                <a href="<?php echo $article->url ?>" class="skin-guide-article">
+                <a href="skin-guide/articles/<?php echo $article->id ?>" class="skin-guide-article">
                     <div class="image-container">
                         <picture>
                             <source media="(max-width: 799px)" srcset="<?php echo $article->image_small ?>">
-                            <source media="(min-width: 800px)" srcset="<?php echo $article->image_large ?>">
-                            <img src="<?php echo $article->image_large ?>" alt="<?php echo $article->title ?>" width="312" height="328" />
+                            <source media="(min-width: 800px)" srcset="<?php echo $article->image_small ?>">
+                            <img src="<?php echo $article->image_small ?>" alt="<?php echo $article->title ?>" width="312" height="328" />
                         </picture>
                     </div>
                     <div>
@@ -25,7 +33,7 @@ if (!isset($skin_guide_articles)) {
                             <?php echo $article->title ?>
                         </h3>
                         <p class="skin-guide-category">
-                            <?php echo $article->category ?>
+                            <?php echo $article->problem ?>
                         </p>
                     </div>
                 </a>
