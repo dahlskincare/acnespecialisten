@@ -8,7 +8,7 @@ if ($conn->connect_errno) {
     exit();
 }
 
-if ($rs = $conn->query("SELECT * FROM skin_guide_category")) {
+if ($rs = $conn->query("SELECT * FROM skin_guide_category ORDER BY ranking ASC")) {
     foreach ($rs as $row) {
         $categories[] = new SkinGuideCategory($row);
     }
@@ -105,6 +105,9 @@ if ($rs = $conn->query("SELECT * FROM skin_guide_category")) {
                         </button>
                     </div>
                 </div>
+            </section>
+            <section id="subcategories">
+                <p>hello</p>
             </section>
         </div>
     </main>
