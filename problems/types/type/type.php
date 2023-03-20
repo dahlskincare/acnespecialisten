@@ -37,6 +37,12 @@ $nav_buttons = array(
 );
 $about_title = 'What is acne scar types?';
 $about_description = '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="mt-m p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>';
+
+$articles = array(
+    new Article('pigmentation-causes-and-risk-factors', 'Acne scars causes and risks factors', 'https://via.placeholder.com/358x272.webp', 'https://via.placeholder.com/872x456.webp', '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>'),
+    new Article('when-to-see-your-pigmentation-specialist', 'When to see your acne scars specialist?', 'https://via.placeholder.com/358x272.webp', 'https://via.placeholder.com/872x456.webp', '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>'),
+);
+
 $area_icons = array(
     'area-face' => 'Face',
     'area-chest' => 'Chest',
@@ -89,7 +95,7 @@ $specialists = array(
             </div>
         </div>
         <main>
-            <section id="header">
+            <section id="header" class="sticky-badges-target">
                 <div id="green-header-small" class="is-hidden-desktop">
                     <div class="container">
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
@@ -192,13 +198,8 @@ $specialists = array(
                     </section>
                     <section id="articles">
                         <?php
-                        include($_SERVER['DOCUMENT_ROOT'] . '/problems/widgets/problem-article/problem-article.php');
-                        $articles = array(
-                            new ProblemArticle('pigmentation-causes-and-risk-factors', 'Acne scars causes and risks factors', '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>'),
-                            new ProblemArticle('when-to-see-your-pigmentation-specialist', 'When to see your acne scars specialist?', '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>'),
-                        );
                         foreach ($articles as $article) {
-                            include($_SERVER['DOCUMENT_ROOT'] . '/problems/widgets/problem-article/problem-article-widget.php');
+                            include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
                         } ?>
                     </section>
                     <section id="define">
@@ -206,7 +207,7 @@ $specialists = array(
                             <span class="h500 l10n">Define</span>&nbsp;<span class="h500 lowercase"><?php echo $type_name ?></span>
                         </h2>
                         <hr class="is-hidden-mobile mt-xl mb-xxl">
-                        <?php include('../../widgets/service-card/service-card.php') ?>
+                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
                         <hr class="is-hidden-mobile mt-xxl">
                     </section>
                     <section id="solutions">
@@ -222,7 +223,7 @@ $specialists = array(
                         <hr class="is-hidden-mobile mt-xl">
                         <?php foreach ($solutions as $service) { ?>
                             <div class="mt-xxl" id="service-<?php echo $service->id ?>">
-                                <?php include('../../widgets/service-card/service-card.php') ?>
+                                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
                                 <hr class="is-hidden-mobile mt-xxl">
                             </div>
                         <?php } ?>
@@ -281,7 +282,10 @@ $specialists = array(
                                 </div>
                             </div>
                         </div>
-                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
+                        <?php
+                        $reviews_narrow = true;
+                        include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
+                        ?>
                         <a class="mt-xl button outline expand auto-width l10n" href="reviews">View all reviews</a>
                     </section>
                     <section id="faq">
@@ -291,27 +295,32 @@ $specialists = array(
                     </section>
                     <section id="skin-guide">
                         <h2 class="big l10n">Skin guide</h2>
-                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php'); ?>
+                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide_narrow.php'); ?>
                         <a class="mt-xl button outline expand auto-width l10n" href="skin-guide">View all articles</a>
                     </section>
                     <section id="specialists">
                         <h2 class="big l10n">Our specialists</h2>
                         <?php
-                        include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
+                        include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php');
                         ?>
                         <a class="mt-xl button outline expand auto-width l10n" href="specialists">View all specialists</a>
                     </section>
                 </div>
                 <section id="brands">
-                    <h2 class="big l10n">Brands we use</h2>
+                    <div class="flex-row align-end justify-space-between">
+                        <h2 class="big l10n">Brands we use</h2>
+                        <a href="brands" class="button compact text is-hidden-mobile">
+                            <span class="l10n">View all brands</span>
+                            <?php icon('navigate-next') ?>
+                        </a>
+                    </div>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                    <a class="mt-xl button outline expand auto-width l10n" href="brands">View all brands</a>
+                    <a class="mt-xl button outline expand auto-width is-hidden-desktop l10n" href="brands">View all brands</a>
                 </section>
             </div>
         </main>
         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
-        <!-- Floater image logic -->
-        <script src="problems/problem.js"></script>
+        <script src="includes/scripts/floating-image.js"></script>
 </body>
 
 </html>

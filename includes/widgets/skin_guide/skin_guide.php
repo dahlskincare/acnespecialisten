@@ -1,43 +1,32 @@
 <?php
-
-
-class SkinGuideArticle
-{
-    public function __construct($title, $category, $url, $image_small, $image_large)
-    {
-        $this->title = $title;
-        $this->category = $category;
-        $this->url = $url;
-        $this->image_small = $image_small;
-        $this->image_large = $image_large;
+if (!isset($skin_guide_articles)) {
+    $conn = new mysqli($_ENV['DB_URL'], $_ENV['DB_USER'], $_ENV['DB_PASSWORD'], database: $_ENV['DB_NAME']);
+    if ($conn->connect_errno) {
+        echo "Failed to connect to MySQL: " . $conn->connect_error;
+        exit();
     }
 
-    public $title;
-    public $category;
-    public $url;
-    public $image_small;
-    public $image_large;
+    if ($rs = $conn->query("SELECT * FROM skin_guide_article LIMIT 4")) {
+        foreach ($rs as $row) {
+            $skin_guide_articles[] = new SkinGuideArticle($row);
+        }
+        $rs->free_result();
+    } else {
+        die($conn->error);
+    }
 }
-
-$skin_guide_articles = array();
-$skin_guide_articles[] = new SkinGuideArticle('How hormones affect?', 'Problem skin', 'skin-guide/hormones-effect', 'images/skin-guide/small/hormones.jpg', 'images/skin-guide/large/hormones.jpg');
-$skin_guide_articles[] = new SkinGuideArticle('Can makeup harm your skin?', 'Problem skin', 'skin-guide/can-makeup-harm', 'images/skin-guide/small/makeup.jpg', 'images/skin-guide/large/makeup.jpg');
-$skin_guide_articles[] = new SkinGuideArticle('How to build a skin care routine', 'Problem skin', 'skin-guide/routine-how-to', 'images/skin-guide/small/routine.jpg', 'images/skin-guide/large/routine.jpg');
-$skin_guide_articles[] = new SkinGuideArticle('Skin care tips dermatologists use', 'Problem skin', 'skin-guide/skin-care-tips', 'images/skin-guide/small/tips.jpg', 'images/skin-guide/large/tips.jpg');
-
-
 ?>
 
 <div class="skin-guide-widget">
     <div class="columns is-3 is-variable">
         <?php foreach ($skin_guide_articles as $article) { ?>
-            <div class="column">
-                <a href="<?php echo $article->url ?>" class="skin-guide-article">
+            <div class="column is-one-quarter">
+                <a href="skin-guide/articles/<?php echo $article->id ?>" class="skin-guide-article">
                     <div class="image-container">
                         <picture>
                             <source media="(max-width: 799px)" srcset="<?php echo $article->image_small ?>">
-                            <source media="(min-width: 800px)" srcset="<?php echo $article->image_large ?>">
-                            <img src="<?php echo $article->image_large ?>" alt="<?php echo $article->title ?>" width="312" height="328" />
+                            <source media="(min-width: 800px)" srcset="<?php echo $article->image_small ?>">
+                            <img src="<?php echo $article->image_small ?>" alt="<?php echo $article->title ?>" width="312" height="328" />
                         </picture>
                     </div>
                     <div>
@@ -45,7 +34,7 @@ $skin_guide_articles[] = new SkinGuideArticle('Skin care tips dermatologists use
                             <?php echo $article->title ?>
                         </h3>
                         <p class="skin-guide-category">
-                            <?php echo $article->category ?>
+                            <?php echo $article->problem ?>
                         </p>
                     </div>
                 </a>
@@ -56,3 +45,10 @@ $skin_guide_articles[] = new SkinGuideArticle('Skin care tips dermatologists use
 
     </div>
 </div>
+<script>
+    function scrollSkinGuide(distance) {
+        let widget = document.querySelector('.skin-guide-widget');
+        let item = widget.querySelector('.column');
+        widget.scrollBy(distance * item.getBoundingClientRect().width, 0);
+    }
+</script>

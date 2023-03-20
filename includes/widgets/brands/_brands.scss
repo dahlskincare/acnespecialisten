@@ -1,0 +1,49 @@
+@import '../../../styles/util/sizes';
+@import '../../../styles/util/colors';
+
+.brands-widget {
+  margin-top: $m;
+
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    border-radius: $radius-l;
+
+    .flex-item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: $light-25;
+      box-sizing: border-box;
+      flex: 0 0 158px;
+      text-align: center;
+      height: $xl5;
+      padding: $l;
+      margin: 1px;
+
+      img {
+        margin: $xs;
+        flex: 1;
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    .flex-item:first-child {
+      margin-left: 0;
+    }
+  }
+
+  @media screen and (min-width: $tablet) {
+    .flex-container {
+      flex-wrap: nowrap;
+
+      .flex-item {
+
+        margin: $xxs;
+        border-radius: $radius-l;
+      }
+    }
+  }
+}

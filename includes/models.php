@@ -106,6 +106,36 @@ class PathSegment
         return ucfirst(str_replace('-', ' ', $s));
     }
 }
+
+class Brand
+{
+    public function __construct($label, $image)
+    {
+        $this->label = $label;
+        $this->image = $image;
+    }
+
+    public string $label;
+    public string $image;
+}
+
+
+class Procedure
+{
+    public function __construct($label, $full_price, $price, $booking_url = null)
+    {
+        $this->label = $label;
+        $this->full_price = $full_price;
+        $this->price = $price;
+        $this->booking_url = $booking_url;
+    }
+
+    public string $label;
+    public ?string $full_price;
+    public string $price;
+    public ?string $booking_url;
+}
+
 class Service
 {
     public function __construct(
@@ -119,7 +149,9 @@ class Service
         $consultation_url,
         $booking_url,
         $icons = array(),
-        $short_title = null
+        $short_title = null,
+        $procedures = array(),
+        $combos = array(),
     ) {
         $this->id = $id;
         $this->title = $title;
@@ -132,12 +164,14 @@ class Service
         $this->booking_url = $booking_url;
         $this->icons = $icons;
         $this->short_title = $short_title;
+        $this->procedures = $procedures;
+        $this->combos = $combos;
     }
 
     public string $id;
     public string $title;
-    public string $duration;
-    public string $price;
+    public ?string $duration;
+    public ?string $price;
     public string $image_small;
     public string $image_large;
     public string $content;
@@ -145,6 +179,42 @@ class Service
     public ?string $booking_url;
     public ?array $icons;
     public ?string $short_title;
+    public array $procedures;
+    public array $combos;
+}
+
+class ServiceCombo
+{
+    public function __construct($image_small, $image_large, $duration, $price, $full_price, $booking_url, $items)
+    {
+        $this->image_small = $image_small;
+        $this->image_large = $image_large;
+        $this->duration = $duration;
+        $this->price = $price;
+        $this->full_price = $full_price;
+        $this->booking_url = $booking_url;
+        $this->items = $items;
+    }
+
+    public string $image_small;
+    public string $image_large;
+    public string $duration;
+    public string $price;
+    public string $full_price;
+    public string $booking_url;
+    public array $items;
+}
+
+class ServiceComboItem
+{
+    public function __construct($title, $price)
+    {
+        $this->title = $title;
+        $this->price = $price;
+    }
+
+    public string $title;
+    public string $price;
 }
 
 class Product
@@ -168,4 +238,342 @@ class Product
     public string $content;
     public string $image_small;
     public string $image_large;
+}
+
+
+class Question
+{
+    public function __construct($title, $text)
+    {
+        $this->title = $title;
+        $this->text = $text;
+    }
+    public $title;
+    public $text;
+}
+
+class TreatmentArea
+{
+    public function __construct($items, $image_small = null, $image_large = null, $title = null, $description = null, $all = null)
+    {
+        $this->items = $items;
+        $this->image_small = $image_small;
+        $this->image_large = $image_large;
+        $this->title = $title;
+        $this->description = $description;
+        $this->all = $all;
+    }
+    public ?string $image_small;
+    public ?string $image_large;
+    public ?string $title;
+    public ?string $description;
+    public array $items;
+    public ?TreatmentAreaItem $all;
+}
+
+class TreatmentAreaItem
+{
+    public function __construct($image, $title, $duration, $price)
+    {
+        $this->image = $image;
+        $this->title = $title;
+        $this->duration = $duration;
+        $this->price = $price;
+    }
+    public ?string $image;
+    public string $title;
+    public string $duration;
+    public string $price;
+}
+
+class TreatmentStep
+{
+    public function __construct($title, $content, $url, $url_label)
+    {
+        $this->title = $title;
+        $this->content = $content;
+        $this->url = $url;
+        $this->url_label = $url_label;
+    }
+
+    public $prefix;
+    public $title;
+    public $content;
+    public $url;
+    public $url_label;
+}
+
+class Article
+{
+    public function __construct($id, $title, $image_small, $image_large, $content, $tags = array())
+    {
+        $this->id = $id;
+        $this->title = $title;
+        $this->image_small = $image_small;
+        $this->image_large = $image_large;
+        $this->content = $content;
+        $this->tags = $tags;
+    }
+    public string $id;
+    public string $title;
+    public string $image_small;
+    public string $image_large;
+    public string $content;
+    public array $tags;
+}
+
+class ArticleTag
+{
+    public function __construct($icon, $label)
+    {
+        $this->icon = $icon;
+        $this->label = $label;
+    }
+    public $icon;
+    public $label;
+}
+
+class ResultCategory
+{
+    /**
+     * @param ResultCustomer[] $results
+     */
+    public function __construct($id, $title, $description_1, $description_2, $results)
+    {
+        $this->id = $id;
+        $this->title = $title;
+        $this->description_1 = $description_1;
+        $this->description_2 = $description_2;
+        $this->results = $results;
+    }
+
+    public string $id;
+    public string $title;
+    public string $description_1;
+    public string $description_2;
+
+    /**
+     * @var ResultCustomer[]
+     */
+    public array $results;
+}
+
+class ResultCustomer
+{
+    /**
+     * @param ResultTreatment $treatment
+     * @param ResultImages $before_images
+     * @param ResultImages $after_images
+     */
+    public function __construct($id, $slider_image_before_small, $slider_image_after_small, $slider_image_before_large, $slider_image_after_large, $age, $gender, $problem, $type, $treatment, $before_images, $after_images)
+    {
+        $this->id = $id;
+        $this->slider_image_before_small = $slider_image_before_small;
+        $this->slider_image_after_small = $slider_image_after_small;
+        $this->slider_image_before_large = $slider_image_before_large;
+        $this->slider_image_after_large = $slider_image_after_large;
+        $this->age = $age;
+        $this->gender = $gender;
+        $this->problem = $problem;
+        $this->type = $type;
+        $this->treatment = $treatment;
+        $this->before_images = $before_images;
+        $this->after_images = $after_images;
+    }
+
+    public int $id;
+    public string $slider_image_before_small;
+    public string $slider_image_after_small;
+    public string $slider_image_before_large;
+    public string $slider_image_after_large;
+    public int $age;
+    public string $gender;
+    /**
+     * The problem type: "acne", "acne scars" etc
+     */
+    public string $problem;
+    /**
+     * Type/severity: light, moderate, severe
+     */
+    public string $type;
+    public ResultTreatment $treatment;
+
+    public ResultImages $before_images;
+    public ResultImages $after_images;
+}
+
+class ResultTreatment
+{
+    /**
+     * @param ResultProcedure[] $procedures
+     * @param ResultProduct $product
+     * @param ResultEmployee $employee
+     * @param ResultVisit[] $visits
+     */
+    public function __construct($id, $duration, $procedures, $product, $employee, $visits)
+    {
+        $this->id = $id;
+        $this->duration = $duration;
+        $this->procedures = $procedures;
+        $this->product = $product;
+        $this->employee = $employee;
+        $this->visits = $visits;
+    }
+    public int $id;
+    public string $duration;
+    /** 
+     * @var ResultProcedure[] 
+     * */
+    public array $procedures;
+    public ResultProduct $product;
+    public ResultEmployee $employee;
+
+    /**
+     * @var ResultVisit[]
+     */
+    public array $visits;
+}
+
+class ResultProcedure
+{
+    public function __construct($id, $image, $name, $count)
+    {
+        $this->id = $id;
+        $this->image = $image;
+        $this->name = $name;
+        $this->count = $count;
+    }
+    public int $id;
+    public string $image;
+    public string $name;
+    public string $count;
+}
+
+class ResultProduct
+{
+    public function __construct($image, $name)
+    {
+        $this->image = $image;
+        $this->name = $name;
+    }
+    public string $image;
+    public string $name;
+}
+
+class ResultEmployee
+{
+    public function __construct($image, $name)
+    {
+        $this->image = $image;
+        $this->name = $name;
+    }
+    public string $image;
+    public string $name;
+}
+
+class ResultVisit
+{
+    /**
+     * @var ResultImages $images
+     */
+    public function __construct($id, $date, $images, $title, $description, $read_more_url, $read_more_label)
+    {
+        $this->id = $id;
+        $this->date = $date;
+        $this->images = $images;
+        $this->title = $title;
+        $this->description = $description;
+        $this->read_more_url = $read_more_url;
+        $this->read_more_label = $read_more_label;
+    }
+    public int $id;
+    public string $date;
+    public ResultImages $images;
+    public ?string $title;
+    public ?string $description;
+    public ?string $read_more_url;
+    public ?string $read_more_label;
+}
+
+class ResultImages
+{
+    public function __construct($image_left_small, $image_right_small, $image_left_large, $image_right_large)
+    {
+        $this->image_left_small = $image_left_small;
+        $this->image_right_small = $image_right_small;
+        $this->image_left_large = $image_left_large;
+        $this->image_right_large = $image_right_large;
+    }
+    public string $image_left_small;
+    public string $image_right_small;
+    public string $image_left_large;
+    public string $image_right_large;
+}
+
+class SkinGuideCategory
+{
+    public function __construct($data)
+    {
+        $this->id = $data['id'];
+        $this->name = $data['name'];
+        $this->description = $data['description'];
+        $this->meta_title = $data['meta_title'];
+        $this->meta_description = $data['meta_description'];
+    }
+
+    public string $id;
+    public string $name;
+    public string $description;
+    public string $meta_title;
+    public string $meta_description;
+}
+
+class SkinGuideSubCategory
+{
+    public function __construct($data)
+    {
+        $this->id = $data['id'];
+        $this->name = $data['name'];
+        $this->description = $data['description'];
+        $this->consultation_url = $data['consultation_url'];
+        $this->category_id = $data['category_id'];
+        $this->meta_title = $data['meta_title'];
+        $this->meta_description = $data['meta_description'];
+    }
+
+    public string $id;
+    public string $name;
+    public string $description;
+    public string $consultation_url;
+    public string $category_id;
+    public string $meta_title;
+    public string $meta_description;
+}
+
+class SkinGuideArticle
+{
+    public function __construct($data)
+    {
+        $this->id = $data['id'];
+        $this->title = $data['title'];
+        $this->subtitle = $data['subtitle'];
+        $this->problem = $data['problem'];
+        $this->description = $data['description'];
+        $this->image_small = $data['image_small'];
+        $this->image_large = $data['image_large'];
+        $this->content = $data['content'];
+        $this->meta_title = $data['meta_title'];
+        $this->meta_description = $data['meta_description'];
+    }
+
+    public string $id;
+    public string $title;
+    public string $subtitle;
+    public string $problem;
+    public string $description;
+    public string $image_small;
+    public string $image_large;
+    public string $content;
+    public string $meta_title;
+    public string $meta_description;
 }

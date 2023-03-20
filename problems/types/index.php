@@ -126,7 +126,7 @@ $specialists = array(
         </div>
     </div>
     <main>
-        <section id="header">
+        <section id="header" class="sticky-badges-target">
             <div id="green-header-small" class="is-hidden-desktop">
                 <div class="container">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
@@ -282,7 +282,10 @@ $specialists = array(
                             </div>
                         </div>
                     </div>
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
+                    <?php
+                    $reviews_narrow = true;
+                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
+                    ?>
                     <a class="mt-xl button outline expand auto-width l10n" href="reviews">View all reviews</a>
                 </section>
                 <section id="faq">
@@ -292,27 +295,32 @@ $specialists = array(
                 </section>
                 <section id="skin-guide">
                     <h2 class="big l10n">Skin guide</h2>
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php'); ?>
+                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide_narrow.php'); ?>
                     <a class="mt-xl button outline expand auto-width l10n" href="skin-guide">View all articles</a>
                 </section>
                 <section id="specialists">
                     <h2 class="big l10n">Our specialists</h2>
                     <?php
-                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
+                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php');
                     ?>
                     <a class="mt-xl button outline expand auto-width l10n" href="specialists">View all specialists</a>
                 </section>
             </div>
             <section id="brands">
-                <h2 class="big l10n">Brands we use</h2>
+                <div class="flex-row align-end justify-space-between">
+                    <h2 class="big l10n">Brands we use</h2>
+                    <a href="brands" class="button compact text is-hidden-mobile">
+                        <span class="l10n">View all brands</span>
+                        <?php icon('navigate-next') ?>
+                    </a>
+                </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                <a class="mt-xl button outline expand auto-width l10n" href="brands">View all brands</a>
+                <a class="mt-xl button outline expand auto-width is-hidden-desktop l10n" href="brands">View all brands</a>
             </section>
         </div>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
-    <!-- Floater image logic -->
-    <script src="problems/problem.js"></script>
+    <script src="includes/scripts/floating-image.js"></script>
 </body>
 
 </html>

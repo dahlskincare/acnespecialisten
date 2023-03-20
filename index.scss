@@ -25,9 +25,15 @@ section#banner {
         background-image: url("images/banner-mobile.jpg");
         background-size: cover;
         background-position: center center;
+        position: relative;
 
         video {
-            display: none;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            display: block;
+            top: 50%;
+            transform: translateY(-50%);
         }
 
         h1.big {
@@ -50,8 +56,9 @@ section#banner {
 
             .icon-trustpilot {
                 svg {
-                    stroke: $white-500;
-                    fill: $white-500;
+                    * {
+                        stroke: $white-500;
+                    }
                 }
             }
         }
@@ -64,6 +71,9 @@ section#banner {
         button {
             width: 100%;
             box-sizing: border-box;
+            padding-top: 14.5px;
+            padding-bottom: 14.5px;
+            font-weight: 600;
         }
 
         #banner-bar-cols {
@@ -114,15 +124,6 @@ section#banner {
             padding: 0;
             display: flex;
             align-items: flex-end;
-
-            video {
-                position: absolute;
-                top: 0;
-                width: 100%;
-                display: block;
-                padding-top: 50%;
-                transform: translateY(-50%);
-            }
 
             .container {
                 padding-bottom: 106px;
@@ -206,84 +207,90 @@ section#skin-guide {
 section#about-us {
     margin-top: $xl5;
 
-    .container {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
 
-        img {
-            margin-top: $xl;
-            width: 100%;
-            height: auto;
-        }
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    img {
+        margin-top: $xl;
+        width: 100%;
+        height: auto;
+    }
 
 
-        #about-text-wrapper {
-            flex: 1;
+    #about-text-wrapper {
+        flex: 1;
 
-            #about-text {
-                img {
-                    border-radius: $radius-s;
-                }
+        #about-text {
+            img {
+                border-radius: $radius-s;
+            }
 
-                .about-header {
-                    margin-top: $xl;
+            .about-header {
+                margin-top: $xl;
 
-                    span.icon {
-                        margin-right: $s;
+                .icon>svg {
+                    * {
+                        stroke: $deep-sea-400;
+                        fill: transparent;
                     }
                 }
 
-                .divider {
-                    margin-top: $xl;
-                    border-top: 1px solid $light-200;
+                span.icon {
+                    margin-right: $s;
+                }
+            }
+
+            .divider {
+                margin-top: $xl;
+                border-top: 1px solid $light-200;
+            }
+
+            a {
+                margin-top: $xl;
+            }
+        }
+    }
+
+    #about-image-desktop {
+        display: none;
+        flex: 1;
+
+        margin-left: $l;
+
+        img {
+            width: 100%;
+            margin: 0;
+            border-radius: $radius-l;
+        }
+    }
+
+    @media screen and (min-width: $tablet) {
+        .divider {
+            display: none;
+        }
+    }
+
+    @media screen and (min-width: $desktop) {
+        #about-text-wrapper {
+            #about-text {
+                width: 544px;
+                margin-right: $xl;
+
+                .about-header,
+                a {
+                    margin-top: $xl3;
                 }
 
                 a {
-                    margin-top: $xl;
+                    width: initial;
                 }
             }
         }
 
         #about-image-desktop {
-            display: none;
-            flex: 1;
-
-            margin-left: $l;
-
-            img {
-                width: 100%;
-                margin: 0;
-                border-radius: $radius-l;
-            }
-        }
-
-        @media screen and (min-width: $tablet) {
-            .divider {
-                display: none;
-            }
-        }
-
-        @media screen and (min-width: $desktop) {
-            #about-text-wrapper {
-                #about-text {
-                    width: 544px;
-                    margin-right: $xl;
-
-                    .about-header,
-                    a {
-                        margin-top: $xl3;
-                    }
-
-                    a {
-                        width: initial;
-                    }
-                }
-            }
-
-            #about-image-desktop {
-                display: initial;
-            }
+            display: initial;
         }
     }
 

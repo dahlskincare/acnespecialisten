@@ -11,9 +11,12 @@ div.problem-trivia-card-widget {
         margin-right: $xs;
     }
 
-    .columns {
+    .flex-row {
+        flex-wrap: wrap;
 
         .trivia-icon {
+            margin-top: $xl;
+            flex: 1 0 50%;
             @include h200;
             display: flex;
             align-items: center;
@@ -23,6 +26,12 @@ div.problem-trivia-card-widget {
                 width: $xxl;
                 height: $xxl;
             }
+
+            @media screen and (min-width: $desktop) {
+                flex: 0;
+                margin-right: $xxl;
+            }
         }
     }
+
 }

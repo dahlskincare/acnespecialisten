@@ -1,0 +1,210 @@
+@import '../styles/util/colors';
+@import '../styles/util/sizes';
+@import '../styles/util/mixins';
+@import 'widgets/result_customer_card/result_customer_card';
+@import 'widgets/paginator/paginator';
+
+section#banner {
+    #banner-green {
+        background-color: $deep-sea-400;
+        color: $white-500;
+        padding-top: $xl;
+        padding-bottom: $xl;
+        @include p100;
+
+        .underline {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+
+        #page-title-desktop {
+            width: 1px;
+        }
+    }
+
+
+    #filters-touch-container {
+        padding-bottom: $xl;
+
+        #filters-touch {
+            @include elevation-medium();
+            border: 1px solid $light-200;
+            border-radius: $radius-l;
+            background-color: $white-500;
+
+            .filter-item {
+                padding: 17.5px 0;
+                flex: 1;
+                text-align: center;
+                cursor: pointer;
+                border-bottom: 1px solid $light-200;
+            }
+
+            .filter-item.highlight {
+                background-color: $light-25;
+
+                .filter-item-label {
+                    color: $deep-sea-500;
+                }
+            }
+
+            .filter-item:first-child {
+                border-left: 1px solid transparent;
+            }
+        }
+    }
+
+    @media screen and (min-width: $desktop) {
+        #banner-green {
+            padding-top: 0;
+            padding-bottom: $m;
+
+            #banner-green-desktop {
+                padding-bottom: $xl5;
+
+                #skin-problems-header-column {
+                    flex: 1 0 425px;
+                }
+            }
+        }
+
+        #filters-desktop {
+            position: relative;
+            border: 1px solid $light-200;
+            border-radius: $radius-l;
+            overflow: hidden;
+            margin-top: -$xl3;
+            background-color: $white-500;
+            @include elevation-medium();
+
+            div#filter-items {
+                position: relative;
+                display: flex;
+                overflow-y: auto;
+                scroll-behavior: smooth;
+                scrollbar-width: none;
+                -ms-overflow-style: none;
+            }
+
+            div#filter-items::-webkit-scrollbar {
+                width: 0;
+                height: 0;
+            }
+
+            div.filter-button {
+                background-color: $white-500;
+                position: absolute;
+                top: 0;
+                height: 100%;
+                padding: $m;
+                box-sizing: border-box;
+            }
+
+            div.filter-button#filter-button-previous {
+                background: linear-gradient(90deg, $white-500 70%, rgba(255, 255, 255, 0) 100%);
+                padding-right: $xl*2;
+            }
+
+            div.filter-button#filter-button-next {
+                background: linear-gradient(270deg, $white-500 70%, rgba(255, 255, 255, 0) 100%);
+                padding-left: $xl*2;
+                right: 0;
+            }
+
+            .filter-item {
+                padding: $xl $xxs;
+                flex: 1 0 132px;
+                text-align: center;
+                cursor: pointer;
+                border-left: 1px solid $light-200;
+            }
+
+            .filter-item:not(.highlight):hover {
+                .filter-item-label {
+                    color: $deep-sea-300;
+                }
+            }
+
+            .filter-item.highlight {
+                background-color: $light-25;
+
+                .filter-item-label {
+                    color: $deep-sea-500;
+                }
+            }
+
+            .filter-item:first-child {
+                border-left: 1px solid transparent;
+            }
+        }
+    }
+}
+
+section#cards {
+
+    #show-more {
+        margin: $xl 0;
+    }
+
+    @media screen and (min-width: $tablet) {
+        #show-more {
+            margin-top: $xl*2;
+            text-align: center;
+
+            a.button {
+                width: initial;
+                box-sizing: border-box;
+            }
+        }
+
+        #paginator {
+            margin-top: $xl;
+        }
+    }
+}
+
+section#cta-banner {
+    background-color: $deep-sea-400;
+    padding: $xl;
+    border-radius: $radius-l;
+    color: $white-500;
+
+    #cta-banner-header {
+        @include h500;
+    }
+
+    #cta-banner-content {
+        margin-top: $xs;
+    }
+
+    a.button {
+        margin-top: $xl;
+    }
+
+    @media screen and (min-width: $tablet) {
+        padding: $xxl $xl3;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        #cta-banner-texts {
+            flex: auto;
+
+            #cta-banner-header {
+                @include h500;
+            }
+        }
+
+        a.button {
+            flex: 1;
+        }
+    }
+}
+
+section.large-margin {
+    margin-top: 72px;
+
+    @media screen and (min-width: $tablet) {
+        margin-top: 104px;
+    }
+}

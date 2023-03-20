@@ -1,25 +1,16 @@
 <!-- 
 A scrollable Trustpilot reviews widget.
-Please note this widget depends on carousel.js and carousel.css 
 -->
-
-
-<?php
-function msg_reviews($lang)
-{
-    switch ($lang) {
-        case 'sv':
-            return 'omdömen';
-        default:
-            return 'reviews';
-    }
-}
-?>
 
 <div class="reviews-widget">
     <div class="carousel" id="reviews-carousel">
         <?php for ($x = 0; $x < 10; $x++) { ?>
-            <div class="review-box">
+            <div class="<?php if (isset($reviews_narrow) && $reviews_narrow == true) {
+                            echo 'review-box review-box-half';
+                        } else {
+                            echo 'review-box review-box-quarter';
+                        }
+                        ?>">
                 <div class="review-box-top">
                     <div class="review-box-icons">
                         <?php icon('star') ?>
@@ -51,32 +42,32 @@ function msg_reviews($lang)
         <div class="review-brand">
             <img src="images/brands/google.svg" alt="Google" width="80" height="26">
             <div class="review-brand-right">
-                <?php icon('star') ?>
-                <span class="ml-xs h200">5.0 / 5</span>
-                <p>96
-                    <?php echo msg_reviews($lang) ?>
-                </p>
+                <div class="flex-row align-center justify-end">
+                    <?php icon('star') ?>
+                    <span class="ml-xs h200">5.0 / 5</span>
+                </div>
+                <p>96 reviews</p>
             </div>
 
         </div>
         <div class="review-brand">
             <img src="images/brands/trustpilot.svg" alt="Trustpilot" width="107" height="27">
             <div class="review-brand-right">
-                <?php icon('star') ?>
-                <span class="ml-xs h200">4.7 / 5</span>
-                <p>492
-                    <?php echo msg_reviews($lang) ?>
-                </p>
+                <div class="flex-row align-center justify-end">
+                    <?php icon('star') ?>
+                    <span class="ml-xs h200">4.7 / 5</span>
+                </div>
+                <p>492 reviews</p>
             </div>
         </div>
         <div class="review-brand">
             <img src="images/brands/bokadirekt.svg" alt="Bokadirekt" width="128" height="19">
             <div class="review-brand-right">
-                <?php icon('star') ?>
-                <span class="ml-xs h200">4.7 / 5</span>
-                <p>8240
-                    <?php echo msg_reviews($lang) ?>
-                </p>
+                <div class="flex-row align-center justify-end">
+                    <?php icon('star') ?>
+                    <span class="ml-xs h200">4.7 / 5</span>
+                </div>
+                <p>8240 reviews</p>
             </div>
         </div>
     </div>

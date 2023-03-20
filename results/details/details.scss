@@ -1,0 +1,367 @@
+@import '../../styles/util/colors';
+@import '../../styles/util/sizes';
+@import '../../styles/util/mixins';
+
+html {
+    scroll-behavior: smooth;
+}
+
+section.large-margin {
+    margin-top: 72px;
+
+    @media screen and (min-width: $tablet) {
+        margin-top: 104px;
+    }
+}
+
+section#banner {
+    .result-widget {
+        background-color: $white-500;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        border: 0;
+
+        .images-container {
+
+            .before,
+            .after {
+                background-size: initial;
+                background-position-y: center;
+            }
+        }
+    }
+
+    #banner-green {
+        background-color: $deep-sea-400;
+        color: $white-500;
+        padding-bottom: $xl;
+        @include p100;
+    }
+
+    #customer-info {
+        padding: $xl;
+        border-bottom-left-radius: $radius-l;
+        border-bottom-right-radius: $radius-l;
+        color: $black-500;
+        background-color: $white-500;
+
+        #info-items {
+            margin-top: $m;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid $light-200;
+            padding-bottom: $xl;
+
+            .info-item {
+                div:first-child {
+                    color: $dark-400;
+                    @include p200;
+                }
+
+                div:last-child {
+                    margin-top: $xxs;
+                    @include h200;
+                }
+            }
+        }
+
+        #treatment-info {
+            margin-top: $xl;
+            display: flex;
+            align-items: center;
+
+            .dot {
+                width: 6px;
+                height: 6px;
+                border-radius: 50%;
+                background-color: $dark-25;
+                margin: 0 $xs;
+            }
+        }
+    }
+
+    .treatment-card {
+        margin-top: $m;
+        display: flex;
+        align-items: center;
+
+        img {
+            border-radius: $radius-s;
+            margin-right: $m;
+        }
+    }
+
+
+    @media screen and (min-width: $desktop) {
+        #banner-green {
+            height: 388px;
+        }
+
+        #customer-info-container {
+            padding-bottom: $xl;
+
+        }
+
+        #customer-info-banner {
+            margin-top: -226px;
+            background-color: $white-500;
+            display: flex;
+            align-items: center;
+            padding: $xl;
+            border-radius: $radius-l;
+            @include elevation-medium();
+
+            .result-widget {
+                flex: 0 0 424px;
+                border-radius: $radius-s;
+            }
+
+            #customer-info-large {
+                flex: auto;
+                color: $black-500;
+                margin-left: $xl;
+
+                #info-items-large {
+                    display: flex;
+                    margin-top: $m;
+                    padding-bottom: $xl;
+                    border-bottom: 1px solid $light-200;
+
+                    .info-item {
+                        display: flex;
+                        margin-right: $xl;
+
+                        div:first-child {
+                            @include p200;
+                            margin-right: $xs;
+                        }
+
+                        div:last-child {
+                            @include h200;
+                        }
+                    }
+                }
+
+                #treatment-info-large {
+                    display: flex;
+                    align-items: center;
+                    margin-top: $xl;
+
+                    .dot {
+                        width: 6px;
+                        height: 6px;
+                        border-radius: 50%;
+                        background-color: $dark-25;
+                        margin: 0 $xs;
+                    }
+                }
+            }
+        }
+    }
+}
+
+section#nav-buttons {
+    .nav-buttons-widget {
+        .slide {
+            flex: 0 0 auto;
+        }
+    }
+}
+
+section#visits {
+    margin-top: $xl;
+
+    .treatment-visit-card {
+        margin-bottom: 72px;
+
+        .vc-images {
+            display: flex;
+            font-size: 0;
+
+            picture {
+                flex: 1;
+
+                img {
+                    width: 100%;
+                    // max-width: 320px;
+                    height: auto;
+                    border-radius: $radius-s;
+                }
+            }
+
+            picture:first-child {
+                margin-right: $xxs;
+            }
+
+            picture:last-child {
+                margin-left: $xxs;
+            }
+        }
+
+
+        .vc-content {
+            margin-top: $xl;
+
+            .vc-date {
+                @include p200;
+                color: $dark-200;
+            }
+
+            .vc-title {
+                margin-top: $xxs;
+                @include h200;
+            }
+
+            .vc-text {
+                margin-top: $xs;
+                @include p200;
+            }
+
+            .vc-button {
+                margin-top: $xxl;
+            }
+        }
+
+    }
+
+    .treatment-visit-card:last-child {
+        margin-bottom: 0;
+    }
+
+    @include desktop {
+        margin-top: $xl*2;
+
+        .treatment-visit-card {
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 104px;
+
+
+            .vc-content {
+                margin-top: 0;
+
+                .vc-title {
+                    margin-top: $xs;
+                    @include h500;
+                    max-width: 412px;
+                }
+
+                .vc-text {
+                    margin-top: $m;
+                    max-width: 536px;
+                }
+
+                .vc-button {
+                    margin-top: $xl;
+                    width: initial;
+                }
+            }
+        }
+    }
+}
+
+section#journey {
+    margin-top: 48px;
+
+    #journey-cards {
+        .journey-card {
+            margin-top: $xl;
+            //flex: 1;
+
+            .jc-date {
+                @include h200;
+            }
+
+            .jc-images {
+                margin-top: $m;
+                display: flex;
+
+                picture {
+                    flex: 1;
+
+                    img {
+                        width: 100%;
+                        height: auto;
+                        border-radius: $radius-s;
+                    }
+                }
+
+                picture:first-child {
+                    margin-right: $xxs;
+                }
+
+                picture:last-child {
+                    margin-left: $xxs;
+                }
+            }
+        }
+    }
+
+    .button {
+        margin-top: $xl;
+    }
+
+    @include desktop {
+        #journey-cards {
+            display: flex;
+
+            .journey-card {
+                padding: $xl;
+                border: 1px solid $light-200;
+                border-radius: $radius-l;
+            }
+
+            .journey-card:first-child {
+                margin-right: $s;
+            }
+
+            .journey-card:last-child {
+                margin-left: $s;
+            }
+        }
+
+        .button {
+            width: initial;
+        }
+    }
+}
+
+section#cta-banner {
+    background-color: $deep-sea-400;
+    padding: $xl;
+    border-radius: $radius-l;
+    color: $white-500;
+
+    #cta-banner-header {
+        @include h500;
+    }
+
+    #cta-banner-content {
+        margin-top: $xs;
+    }
+
+    a.button {
+        margin-top: $xl;
+    }
+
+    @media screen and (min-width: $tablet) {
+        padding: $xxl $xl3;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        #cta-banner-texts {
+            flex: auto;
+
+            #cta-banner-header {
+                @include h500;
+            }
+        }
+
+        a.button {
+            flex: 1;
+        }
+    }
+}

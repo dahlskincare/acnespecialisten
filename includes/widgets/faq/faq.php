@@ -1,49 +1,39 @@
 <?php
-class Question
-{
-    public function __construct($title, $text)
-    {
-        $this->title = $title;
-        $this->text = $text;
-    }
-    public $title;
-    public $text;
+if (!isset($faq_categories)) {
+    // default (fallback) questions
+    $faq_categories = array(
+        'Frequently asked questions' => array(
+            new Question('How many treatments are needed?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+            new Question('Can my acne come back?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+            new Question('How do I get rid of my acne fast?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+            new Question('Do I have acne even if I only have one pimple?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.')
+        ),
+        'Payment and invoice' => array(
+            new Question('Blablabla?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+            new Question('Or is it?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.')
+        ),
+        'Cancellation' => array(),
+        'Treatment' => array(),
+        'Other' => array()
+    );
 }
-
-$faq_categories = array();
-$frequently_asked_questions = array();
-$payment_and_invoice = array();
-$cancellation = array();
-$other = array();
-$treatment = array();
-$frequently_asked_questions[] = new Question('How many treatments are needed?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
-$frequently_asked_questions[] = new Question('Can my acne come back?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
-$frequently_asked_questions[] = new Question('How do I get rid of my acne fast?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
-$frequently_asked_questions[] = new Question('Do I have acne even if I only have one pimple?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
-
-$payment_and_invoice[] = new Question('Blablabla?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
-$payment_and_invoice[] = new Question('Or is it?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
-
-$faq_categories['Frequently asked questions'] = $frequently_asked_questions;
-$faq_categories['Payment and invoice'] = $payment_and_invoice;
-$faq_categories['Cancellation'] = $cancellation;
-$faq_categories['Treatment'] = $treatment;
-$faq_categories['Other'] = $other;
 ?>
 
 <div class="faq-small is-hidden-tablet">
-    <div class="faq-categories-small carousel">
-        <?php
-        $index = 0;
-        foreach (array_keys($faq_categories) as $category) { ?>
-            <div class="faq-category b200 slide <?php if ($index == 0)
-                                                    echo 'selected' ?>" onclick="FAQ.selectCategory(event.target, '<?php echo $category ?>')">
-                <?php echo $category ?>
-            </div>
-        <?php
-            $index++;
-        } ?>
-    </div>
+    <?php if (sizeof($faq_categories) > 1) { ?>
+        <div class="faq-categories-small carousel">
+            <?php
+            $index = 0;
+            foreach (array_keys($faq_categories) as $category) { ?>
+                <div class="faq-category b200 slide <?php if ($index == 0)
+                                                        echo 'selected' ?>" onclick="FAQ.selectCategory(event.target, '<?php echo $category ?>')">
+                    <?php echo $category ?>
+                </div>
+            <?php
+                $index++;
+            } ?>
+        </div>
+    <?php } ?>
     <div class="faq-questions-small">
         <?php
         $index = 0;
@@ -67,27 +57,27 @@ $faq_categories['Other'] = $other;
         <?php
             $index++;
         } ?>
-        <!-- <a href="questions"
-           class="mt-xl button outline expand l10n">View all questions</a> -->
     </div>
 </div>
 
 <div class="faq-large is-hidden-mobile">
-    <div class="faq-large-left">
-        <?php
-        $index = 0;
-        foreach (array_keys($faq_categories) as $category) { ?>
-            <div class="faq-category <?php if ($index == 0)
-                                            echo 'selected' ?>" onclick="FAQ.selectCategory(event.target, '<?php echo $category ?>')">
-                <?php icon('question-category') ?>
-                <span class="faq-category-label">
-                    <?php echo $category ?>
-                </span>
-            </div>
-        <?php
-            $index++;
-        } ?>
-    </div>
+    <?php if (sizeof($faq_categories) > 1) { ?>
+        <div class="faq-large-left">
+            <?php
+            $index = 0;
+            foreach (array_keys($faq_categories) as $category) { ?>
+                <div class="faq-category <?php if ($index == 0)
+                                                echo 'selected' ?>" onclick="FAQ.selectCategory(event.target, '<?php echo $category ?>')">
+                    <?php icon('question-category') ?>
+                    <span class="faq-category-label">
+                        <?php echo $category ?>
+                    </span>
+                </div>
+            <?php
+                $index++;
+            } ?>
+        </div>
+    <?php } ?>
     <div class="faq-large-right">
         <?php
         $index = 0;
@@ -114,3 +104,4 @@ $faq_categories['Other'] = $other;
     </div>
 
 </div>
+<script src="includes/widgets/faq/faq.js"></script>

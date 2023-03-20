@@ -24,6 +24,7 @@ html {
             background-color: $white-500;
             top: 0;
             z-index: 99;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 
             #header-small {
                 display: flex;
@@ -92,6 +93,9 @@ html {
         }
 
         footer {
+            position: relative;
+            z-index: 2;
+            background-color: $white-500;
 
             div.dot {
                 width: $xs;
@@ -107,6 +111,7 @@ html {
                     color: $white-500;
                     background-color: $deep-sea-400;
                     padding: $xl3 0;
+
 
                     a.button {
                         margin-top: $xl;
@@ -127,7 +132,11 @@ html {
                     div#phone-dot-email {
                         display: flex;
                         align-items: center;
-                        justify-content: space-between;
+                        justify-content: flex-start;
+
+                        .dot {
+                            margin: 0 $xs;
+                        }
 
                     }
 
@@ -208,24 +217,43 @@ html {
                                 margin-right: $xxs;
 
                                 svg {
-                                    stroke: $deep-sea-400;
-                                    fill: $deep-sea-400;
+                                    * {
+                                        stroke: $deep-sea-400;
+                                    }
                                 }
                             }
                         }
                     }
 
-                    #consultation-button {
-                        margin-top: $xl3;
+                    #footer-consultation-button-container {
+                        background-color: $white-500;
+                        box-sizing: border-box;
+
+                        #consultation-button {
+                            margin-top: $xl3;
+                        }
+
+                        #legends {
+                            margin-top: $s;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            @include p100;
+                        }
                     }
 
-                    #legends {
-                        margin-top: $s;
-                        display: flex;
-                        align-items: center;
-                        justify-content: space-between;
-                        @include p100;
+                    #footer-consultation-button-container.fixed {
+                        position: fixed;
+                        left: 0;
+                        bottom: 0;
+                        padding: $s $m $m $m;
+                        width: 100%;
+
+                        #consultation-button {
+                            margin-top: 0;
+                        }
                     }
+
                 }
             }
 
@@ -236,10 +264,12 @@ html {
                 z-index: 2;
 
                 .footer-large-banner {
+                    display: block;
                     color: $white-500;
-                    background-color: $deep-sea-400;
+                    background: linear-gradient(270.44deg, $deep-sea-400 0%, $deep-sea-400 100%);
                     padding: $xl3;
                     border-radius: $radius-l;
+                    cursor: pointer;
 
                     .icon {
                         width: $xl3;
@@ -258,6 +288,26 @@ html {
                         align-items: flex-end;
                         justify-content: space-between;
                     }
+
+                    h2 {
+                        font-size: 40px;
+                        line-height: 50px;
+                        letter-spacing: -0.02em;
+                        font-weight: 400;
+                        font-family: "DM Serif Text";
+                    }
+
+                    p {
+                        font-size: 16px;
+                        line-height: 26px;
+                        letter-spacing: -0.03em;
+                        font-weight: 400;
+                        font-family: "Inter";
+                    }
+                }
+
+                .footer-large-banner:hover {
+                    background: linear-gradient(270.44deg, #219174 0%, $deep-sea-400 100%);
                 }
 
                 #footer-large-brands {
@@ -323,13 +373,15 @@ html {
                     #language-selector {
                         display: flex;
                         margin-left: $l;
+                        align-items: center;
 
                         .icon {
                             margin-right: $xxs;
 
                             svg {
-                                stroke: $deep-sea-400;
-                                fill: $deep-sea-400;
+                                * {
+                                    stroke: $deep-sea-400;
+                                }
                             }
                         }
                     }

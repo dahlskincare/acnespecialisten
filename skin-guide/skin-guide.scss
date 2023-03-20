@@ -1,0 +1,136 @@
+@import '../styles/util/colors';
+@import '../styles/util/sizes';
+@import '../styles/util/mixins';
+
+section#banner {
+    #banner-green {
+        background-color: $deep-sea-400;
+        color: $white-500;
+        padding-top: $xl;
+        padding-bottom: $xl;
+        @include p100;
+
+        .underline {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+
+        #page-title-desktop {
+            width: 1px;
+        }
+    }
+
+    @media screen and (min-width: $desktop) {
+        #banner-green {
+            padding-top: 0;
+            padding-bottom: $m;
+
+            #banner-green-desktop {
+                padding-bottom: $xl5;
+
+                #skin-problems-header-column {
+                    flex: 1 0 425px;
+                }
+            }
+        }
+    }
+}
+
+section#categories-tablet {
+    margin-top: $m;
+    padding-bottom: $xl;
+
+    #category-links {
+        border-radius: $radius-l;
+        border: 1px solid $light-200;
+        @include elevation-medium();
+
+        .category-link {
+            @include h100;
+            cursor: pointer;
+            display: block;
+            border-bottom: 1px solid $light-200;
+            text-align: center;
+            padding: $l 0;
+        }
+
+        .category-link:last-child {
+            border-bottom: 0;
+        }
+    }
+}
+
+section#categories-desktop {
+    padding-bottom: $xl;
+
+    #category-items-container {
+        position: relative;
+        border: 1px solid $light-200;
+        border-radius: $radius-l;
+        overflow: hidden;
+        margin-top: -$xl3;
+        background-color: $white-500;
+        @include elevation-medium();
+
+        div#category-items {
+            position: relative;
+            display: flex;
+            overflow-y: auto;
+            scroll-behavior: smooth;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+        }
+
+        div#category-items::-webkit-scrollbar {
+            width: 0;
+            height: 0;
+        }
+
+        div.scroll-button {
+            background-color: $white-500;
+            position: absolute;
+            top: 0;
+            height: 100%;
+            padding: $m;
+            box-sizing: border-box;
+        }
+
+        div.scroll-button#scroll-button-previous {
+            background: linear-gradient(90deg, $white-500 70%, rgba(255, 255, 255, 0) 100%);
+            padding-right: $xl*2;
+        }
+
+        div.scroll-button#scroll-button-next {
+            background: linear-gradient(270deg, $white-500 70%, rgba(255, 255, 255, 0) 100%);
+            padding-left: $xl*2;
+            right: 0;
+        }
+
+        .category-item {
+            @include h200;
+            padding: $xl $xxs;
+            flex: 1 0 132px;
+            text-align: center;
+            cursor: pointer;
+            border-left: 1px solid $light-200;
+        }
+
+        .category-item:not(.highlight):hover {
+            .category-item-label {
+                color: $deep-sea-300;
+            }
+        }
+
+        .category-item.highlight {
+            background-color: $light-25;
+
+            .category-item-label {
+                color: $deep-sea-500;
+            }
+        }
+
+        .category-item:first-child {
+            border-left: 1px solid transparent;
+        }
+    }
+}

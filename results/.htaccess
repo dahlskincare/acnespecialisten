@@ -1,0 +1,11 @@
+RewriteEngine on
+
+RewriteBase /results/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^details-([^/]+)/?$ details/details.php?id=$1 [L,QSA]
+
+RewriteBase /results/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]+)/?$ category/category.php?id=$1 [L,QSA]

@@ -1,22 +1,18 @@
-<div class="nav-buttons-widget carousel" id="nav-buttons-carousel">
-    <div class="scroll-button">
-        <div class="button round-medium grey">
-            <?php icon('arrow-right') ?>
-        </div>
+<div class="nav-buttons-widget">
+    <div class="scroll-button is-hidden" id="scroll-prev">
+        <button class="round-medium grey">
+            <?php icon('arrow-left') ?>
+        </button>
     </div>
-    <?php foreach ($nav_buttons as $id => $label) { ?>
-        <a class="slide" href="javascript:;" onclick="scrollToElement('#<?php echo $id ?>')" class="button grey l10n"><?php echo $label ?></a>
-    <?php } ?>
+    <div class="scroll-button is-hidden" id="scroll-next">
+        <button class="round-medium grey">
+            <?php icon('arrow-right') ?>
+        </button>
+    </div>
+    <div class="carousel" id="nav-buttons-carousel">
+        <?php foreach ($nav_buttons as $id => $label) { ?>
+            <a class="slide" href="javascript:;" data-id="<?php echo $id ?>" onclick="NavButtons.setActive(this);"><?php echo $label ?></a>
+        <?php } ?>
+    </div>
 </div>
-<script>
-    let container = document.querySelector('#nav-buttons-carousel');
-    let buttonContainer = container.querySelector('.scroll-button');
-    let button = buttonContainer.querySelector('.button');
-    if (container.scrollWidth > container.parentElement.clientWidth) {
-        buttonContainer.classList.add('visible');
-        button.addEventListener('click', () => {
-            buttonContainer.remove();
-            container.scrollTo(container.scrollWidth, 0);
-        });
-    }
-</script>
+<script src="includes/widgets/nav_buttons/nav_buttons.js"></script>

@@ -2,6 +2,10 @@
 // IMPORTANT: 
 // Don't edit this file unless you know what you are doing!
 
+require $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
+$dotenv = Dotenv\Dotenv::createImmutable($_SERVER['DOCUMENT_ROOT']);
+$dotenv->load();
+
 // PHP utility
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 function icon($name)
@@ -54,38 +58,12 @@ function icon($name)
                   carousel.scrollLeft += (child.getBoundingClientRect().width + offset);
             }
       }
-      /// Scroll the window to a selector, taking the navbar height into consideration
-      var scrollToElement = (selector) => {
+      /// Scroll the window to a selector, 72: navbar height
+      var scrollToElement = (selector, offset = 72) => {
             var element = document.querySelector(selector);
             let box = element.getBoundingClientRect();
-            /// 72: navbar height
-            window.scrollTo(0, box.top + window.scrollY - 72);
+            window.scrollTo(0, box.top + window.scrollY - offset);
       }
 </script>
 
-<!-- Accordion widget -->
-<link rel="stylesheet" href="/includes/widgets/accordion/accordion.css" />
-<!-- Result widget (before and after images) -->
-<link rel="stylesheet" href="/includes/widgets/result/result.css" />
-<script src="/includes/widgets/result/result.js"></script>
-<!-- Reviews widget -->
-<link rel="stylesheet" href="/includes/widgets/reviews/reviews.css" />
-<!-- FAQ widget -->
-<link rel="stylesheet" href="/includes/widgets/faq/faq.css" />
-<script src="includes/widgets/faq/faq.js"></script>
-<!-- Skin guide widget -->
-<link rel="stylesheet" href="/includes/widgets/skin_guide/skin_guide.css" />
-<!-- Specialists widget -->
-<link rel="stylesheet" href="/includes/widgets/specialists/specialists.css" />
-<!-- Breadcrumbs widget -->
-<link rel="stylesheet" href="/includes/widgets/breadcrumbs/breadcrumbs.css" />
-<!-- Consultation banner -->
-<link rel="stylesheet" href="/includes/widgets/consultation_banner/consultation_banner.css" />
-<!-- Approach card -->
-<link rel="stylesheet" href="/includes/widgets/approach_card/approach_card.css" />
-<!-- Badges -->
-<link rel="stylesheet" href="/includes/widgets/badges/badges.css" />
-<!-- Brands widget -->
-<link rel="stylesheet" href="/includes/widgets/brands/brands.css" />
-<!-- Nav buttons widget -->
-<link rel="stylesheet" href="/includes/widgets/nav_buttons/nav_buttons.css" />
+<link rel="stylesheet" href="/includes/widgets/widgets.css" />

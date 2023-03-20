@@ -1,0 +1,175 @@
+@import '../../../styles/util/colors';
+@import '../../../styles/util/sizes';
+@import '../../../styles/util/mixins';
+
+.treatment-areas-widget {
+    div.image {
+        position: relative;
+        font-size: 0;
+
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: $radius-l;
+        }
+    }
+
+    div.image:after {
+        box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.05);
+        content: '';
+        display: block;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+
+    .price-duration {
+        margin-top: $xxs;
+        display: flex;
+        align-items: center;
+
+        div {
+            color: $dark-200;
+            @include p200;
+        }
+
+        .dot {
+            background-color: $dark-25;
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+        }
+    }
+
+    .area-item-card {
+        display: flex;
+        padding: $xl;
+        border: 1px solid $light-200;
+        border-radius: $radius-l;
+
+        .image {
+            width: 102px;
+            border-radius: $radius-s;
+            overflow: hidden;
+            margin-right: $m;
+
+            img {
+                border-radius: $radius-s;
+            }
+        }
+
+        .area-item-info {
+            align-self: center;
+            flex: 1;
+        }
+
+        .icon {
+            width: $xl;
+            height: $xl;
+        }
+    }
+
+    .select-all-card {
+        border-radius: $radius-l;
+        border: 1px solid $light-200;
+        padding: $xl;
+
+        .deselect-all-button {
+            display: none;
+        }
+    }
+
+    .area-item-card.selected {
+        border: 1px solid $deep-sea-400;
+    }
+
+    .select-all-card.selected {
+        border: 1px solid $deep-sea-400;
+
+        .select-all-button {
+            display: none;
+        }
+
+        .deselect-all-button {
+            display: inline-flex;
+        }
+    }
+
+
+
+    .treatment-area-small {
+        margin-top: $xl3;
+
+        .select-all-card {
+            margin-top: $m;
+            @include elevation-low;
+
+            .image {
+                margin-right: $m;
+            }
+
+        }
+
+        .area-item-card {
+            @include elevation-low;
+            margin-top: $m;
+        }
+    }
+
+    .treatment-area-large {
+        margin-top: $xl4;
+
+        .select-all-card {
+            margin-top: $xl;
+            cursor: pointer;
+
+            .image {
+                margin-right: $m;
+            }
+
+            .area-all-info {
+                flex: 1;
+            }
+        }
+
+        .select-all-card:hover {
+            @include elevation-low;
+
+            .area-all-info {
+                .title {
+                    color: $deep-sea-400;
+                }
+            }
+        }
+
+        .select-all-card.selected:hover {
+            box-shadow: none;
+        }
+
+        .area-item-card {
+            cursor: pointer;
+            margin-top: $xl;
+        }
+
+        .area-item-card:hover {
+            @include elevation-low;
+
+            .area-item-info {
+                .title {
+                    color: $deep-sea-400;
+                }
+            }
+
+            .area-item-icon {
+                @include text-color($deep-sea-400);
+            }
+        }
+
+        .area-item-card.selected:hover {
+            box-shadow: none;
+        }
+    }
+
+
+}

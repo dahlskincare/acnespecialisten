@@ -13,7 +13,9 @@
     color: $color;
 
     .icon>svg {
-        stroke: $color;
+        * {
+            stroke: $color;
+        }
     }
 }
 
@@ -23,8 +25,9 @@
     color: $color;
 
     .icon>svg {
-        stroke: $color;
-        fill: $color;
+        * {
+            stroke: $color;
+        }
     }
 }
 
@@ -114,6 +117,14 @@
 
     @include desktop {
         @include font-style("Inter", sans-serif, 20px, 28px, -0.02em, 400);
+    }
+}
+
+@mixin p250 {
+    @include font-style("Inter", sans-serif, 18px, 30px, -0.02em, 400);
+
+    @include desktop {
+        @include font-style("Inter", sans-serif, 18px, 30px, -0.02em, 400);
     }
 }
 
