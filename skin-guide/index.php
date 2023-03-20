@@ -164,9 +164,9 @@ if ($rs = $conn->query("SELECT * FROM skin_guide_subcategory ORDER BY ranking AS
                                                                                                                         echo 'sc-active';
                                                                                                                     } ?>">All topics</a>
                         <?php foreach ($subcategories as $subcategory) { ?>
-                            <a class="subcategory-item <?php if ($subcategory->id == $subcategory_id) {
-                                                            echo 'sc-active';
-                                                        } ?>" href="skin-guide?page=1&pagesize=<?php echo $pagesize ?>&subcategory=<?php echo $subcategory->id ?>"><?php echo $subcategory->name ?></a>
+                            <a id="sc-item-<?php echo $subcategory->id ?>" class="subcategory-item <?php if ($subcategory->id == $subcategory_id) {
+                                                                                                        echo 'sc-active';
+                                                                                                    } ?>" href="skin-guide?page=1&pagesize=<?php echo $pagesize ?>&subcategory=<?php echo $subcategory->id ?>"><?php echo $subcategory->name ?></a>
                         <?php } ?>
                     </div>
                 </div>
@@ -185,7 +185,10 @@ if ($rs = $conn->query("SELECT * FROM skin_guide_subcategory ORDER BY ranking AS
                 <?php } ?>
             </section>
             <section id="paginator">
-                <a href="" class="button b200 expand l10n">Show more articles</a>
+                <?php if ($pagesize < $num_articles) { ?>
+                    <a class="button b200 expand l10n" href="/skin-guide?page=1&pagesize=<?php echo $pagesize * 2 ?>&subcategory=<?php echo $subcategory_id ?>">Show more</a>
+                <?php } ?>
+                <?php include('widgets/paginator/paginator.php'); ?>
             </section>
         </div>
     </main>

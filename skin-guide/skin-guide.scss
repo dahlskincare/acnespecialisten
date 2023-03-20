@@ -2,6 +2,7 @@
 @import '../styles/util/sizes';
 @import '../styles/util/mixins';
 @import 'widgets/article_card/article_card_widget';
+@import 'widgets/paginator/paginator';
 
 section#banner {
     #banner-green {
@@ -137,7 +138,18 @@ section#categories-desktop {
 }
 
 section#subcategories {
+    #subcategories-wrapper::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+    }
+
     #subcategories-wrapper {
+        overflow-x: auto;
+        white-space: nowrap;
+        scroll-behavior: smooth;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+
         #subcategory-items {
             border-bottom: 1px solid $light-200;
 
@@ -154,10 +166,18 @@ section#subcategories {
                 color: $black-500;
                 border-bottom: 3px solid $black-500;
             }
+
+            .subcategory-item:last-child {
+                margin-right: 0;
+            }
         }
     }
 }
 
 section#paginator {
     margin-top: $xl;
+
+    .paginator-widget {
+        margin-top: $xl;
+    }
 }
