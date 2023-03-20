@@ -7,7 +7,40 @@ if ($conn->connect_errno) {
     echo "Failed to connect to MySQL: " . $conn->connect_error;
     exit();
 }
-
+if (isset($_GET['subcategory'])) {
+    $subcategory_id = $_GET['subcategory'];
+} else {
+    $subcategory_id = '*';
+}
+if (isset($_GET['page']) && $_GET['page'] > 0) {
+    $page = $_GET['page'];
+} else {
+    $page = 1;
+}
+if (isset($_GET['pagesize'])) {
+    $pagesize = $_GET['pagesize'];
+} else {
+    $pagesize = 9;
+}
+if ($subcategory_id == '*') {
+    $where = '1';
+} else {
+    $where = sprintf("subcategory_id = '%s'", $subcategory_id);
+}
+if ($rs = $conn->query(sprintf("SELECT COUNT(id) as cnt FROM skin_guide_article WHERE %s", $where))) {
+    $num_articles = $rs->fetch_assoc()['cnt'];
+    $rs->free_result();
+} else {
+    die($conn->error);
+}
+$pages = ceil($num_articles / $pagesize);
+if ($rs = $conn->query(sprintf("SELECT * FROM skin_guide_article WHERE %s ORDER BY ranking ASC LIMIT %d, %d", $where, ($page - 1) * $pagesize, $pagesize))) {
+    foreach ($rs as $row) {
+        $articles[] = new SkinGuideArticle($row);
+    }
+} else {
+    die($conn->error);
+}
 if ($rs = $conn->query("SELECT * FROM skin_guide_category ORDER BY ranking ASC")) {
     foreach ($rs as $row) {
         $categories[] = new SkinGuideCategory($row);
@@ -16,7 +49,6 @@ if ($rs = $conn->query("SELECT * FROM skin_guide_category ORDER BY ranking ASC")
 } else {
     die($conn->error);
 }
-
 if ($rs = $conn->query("SELECT * FROM skin_guide_subcategory ORDER BY ranking ASC")) {
     foreach ($rs as $row) {
         $subcategories[] = new SkinGuideSubCategory($row);
@@ -116,7 +148,7 @@ if ($rs = $conn->query("SELECT * FROM skin_guide_subcategory ORDER BY ranking AS
                 </div>
             </section>
             <section id="subcategories">
-                <div class="subcategories-wrapper">
+                <div id="subcategories-wrapper">
                     <div class="scroll-button is-hidden" id="subcategory-scroll-left">
                         <button class="round-medium grey">
                             <?php icon('arrow-left') ?>
@@ -128,11 +160,32 @@ if ($rs = $conn->query("SELECT * FROM skin_guide_subcategory ORDER BY ranking AS
                         </button>
                     </div>
                     <div id="subcategory-items">
+                        <a href="skin-guide?page=1&pagesize=<?php echo $pagesize ?>" class="subcategory-item l10n <?php if ($subcategory_id == '*') {
+                                                                                                                        echo 'sc-active';
+                                                                                                                    } ?>">All topics</a>
                         <?php foreach ($subcategories as $subcategory) { ?>
-                            <a class="subcategory-item" href=""><?php echo $subcategory->name ?></a>
+                            <a class="subcategory-item <?php if ($subcategory->id == $subcategory_id) {
+                                                            echo 'sc-active';
+                                                        } ?>" href="skin-guide?page=1&pagesize=<?php echo $pagesize ?>&subcategory=<?php echo $subcategory->id ?>"><?php echo $subcategory->name ?></a>
                         <?php } ?>
                     </div>
                 </div>
+            </section>
+            <section id="articles">
+                <?php if (isset($articles)) { ?>
+                    <div class="columns is-multiline is-variable is-3">
+                        <?php foreach ($articles as $article) { ?>
+                            <div class="column is-one-third">
+                                <?php include('widgets/article_card/article_card_widget.php'); ?>
+                            </div>
+                        <?php } ?>
+                    </div>
+                <?php } else { ?>
+                    <div class="h200 mt-m l10n">No articles found</div>
+                <?php } ?>
+            </section>
+            <section id="paginator">
+                <a href="" class="button b200 expand l10n">Show more articles</a>
             </section>
         </div>
     </main>

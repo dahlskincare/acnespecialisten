@@ -564,6 +564,7 @@ class SkinGuideArticle
         $this->content = $data['content'];
         $this->meta_title = $data['meta_title'];
         $this->meta_description = $data['meta_description'];
+        $this->subcategory_id = $data['subcategory_id'];
     }
 
     public string $id;
@@ -576,4 +577,5 @@ class SkinGuideArticle
     public string $content;
     public string $meta_title;
     public string $meta_description;
+    public string $subcategory_id;
 }

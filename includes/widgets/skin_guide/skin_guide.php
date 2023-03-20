@@ -5,7 +5,6 @@ if (!isset($skin_guide_articles)) {
         echo "Failed to connect to MySQL: " . $conn->connect_error;
         exit();
     }
-
     if ($rs = $conn->query("SELECT * FROM skin_guide_article LIMIT 4")) {
         foreach ($rs as $row) {
             $skin_guide_articles[] = new SkinGuideArticle($row);
@@ -39,8 +38,6 @@ if (!isset($skin_guide_articles)) {
                     </div>
                 </a>
             </div>
-
-
         <?php } ?>
 
     </div>

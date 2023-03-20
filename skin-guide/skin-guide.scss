@@ -1,6 +1,7 @@
 @import '../styles/util/colors';
 @import '../styles/util/sizes';
 @import '../styles/util/mixins';
+@import 'widgets/article_card/article_card_widget';
 
 section#banner {
     #banner-green {
@@ -133,4 +134,30 @@ section#categories-desktop {
             border-left: 1px solid transparent;
         }
     }
+}
+
+section#subcategories {
+    #subcategories-wrapper {
+        #subcategory-items {
+            border-bottom: 1px solid $light-200;
+
+            .subcategory-item {
+                @include p100;
+                display: inline-block;
+                padding-bottom: $l;
+                border-bottom: 3px solid transparent;
+                margin-right: $xl;
+                color: $dark-200;
+            }
+
+            .subcategory-item.sc-active {
+                color: $black-500;
+                border-bottom: 3px solid $black-500;
+            }
+        }
+    }
+}
+
+section#paginator {
+    margin-top: $xl;
 }
