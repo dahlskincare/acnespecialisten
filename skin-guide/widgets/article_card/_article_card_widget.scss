@@ -4,6 +4,7 @@
 
 
 .article-card-widget {
+    display: block;
     margin-top: $xl;
     @include elevation-medium;
 
