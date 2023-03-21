@@ -21,6 +21,7 @@
             <div id="banner-green">
                 <div class="container l10n">
                     <div class="is-hidden-desktop">
+                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
                         <h1 class="h600 mt-xs l10n">Skin guide</h1>
                         <p class="p200 mt-xs">
                             <span id="problems-banner-collapsed" class="l10n">
@@ -36,7 +37,7 @@
                     </div>
                     <div class="is-hidden-touch" id="banner-green-desktop">
                         <div class="flex-row justify-space-between">
-                            <div></div>
+                            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
                             <div class="mt-xl mb-xs">
                                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
                             </div>
