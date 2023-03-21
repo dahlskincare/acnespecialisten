@@ -1,4 +1,22 @@
-<?php include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php'); ?>
+<?php
+include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
+include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
+$conn = new mysqli($_ENV['DB_URL'], $_ENV['DB_USER'], $_ENV['DB_PASSWORD'], database: $_ENV['DB_NAME']);
+if ($conn->connect_errno) {
+    echo "Failed to connect to MySQL: " . $conn->connect_error;
+    exit();
+}
+$category_id = $_GET['id'];
+$query = sprintf("SELECT * FROM skin_guide_subcategory WHERE category_id = '%s' ORDER BY ranking ASC", $category_id);
+if ($rs = $conn->query($query)) {
+    foreach ($rs as $row) {
+        $subcategories[] = new SkinGuideSubCategory($row);
+    }
+    $rs->free_result();
+} else {
+    die($conn->error);
+}
+?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
 
@@ -19,7 +37,7 @@
     <main>
         <section id="banner">
             <div id="banner-green">
-                <div class="container l10n">
+                <div class="container">
                     <div class="is-hidden-desktop">
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
                         <h1 class="h600 mt-xs l10n">Skin guide</h1>
@@ -63,8 +81,39 @@
                 </div>
             </div>
         </section>
+        <div class="container">
+            <section id="subcategories">
+                <div id="subcategory-links-tablet" class="is-hidden-desktop">
+                    <?php if (isset($subcategories)) { ?>
+                        <?php foreach ($subcategories as $subcategory) { ?>
+                            <a class="subcategory-link"><?php echo $subcategory->name ?></a>
+                        <?php } ?>
+                    <?php } ?>
+                </div>
+                <div id="subcategory-links-desktop" class="is-hidden-touch">
+                    <div class="scroll-button-container is-hidden" id="scroll-left">
+                        <button class="grey round-medium">
+                            <?php icon('arrow-left') ?>
+                        </button>
+                    </div>
+                    <div class="scroll-button-container is-hidden" id="scroll-right">
+                        <button class="grey round-medium">
+                            <?php icon('arrow-right') ?>
+                        </button>
+                    </div>
+                    <div id="scroll-content">
+                        <?php if (isset($subcategories)) { ?>
+                            <?php foreach ($subcategories as $subcategory) { ?>
+                                <a class="subcategory-link" href="skin-guide/<?php echo $category_id ?>"><?php echo $subcategory->name ?></a>
+                            <?php } ?>
+                        <?php } ?>
+                    </div>
+                </div>
+            </section>
+        </div>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
+    <script src="skin-guide/category/category.js"></script>
 </body>
 
 </html>
