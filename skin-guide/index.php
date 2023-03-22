@@ -2,6 +2,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
+$consultation_url = 'https://dahlskincare.com/skin-consultation';
 $conn = new mysqli($_ENV['DB_URL'], $_ENV['DB_USER'], $_ENV['DB_PASSWORD'], database: $_ENV['DB_NAME']);
 if ($conn->connect_errno) {
     echo "Failed to connect to MySQL: " . $conn->connect_error;
@@ -191,6 +192,154 @@ if ($rs = $conn->query("SELECT * FROM skin_guide_subcategory ORDER BY ranking AS
                     </div>
                 <?php } ?>
                 <?php include('widgets/paginator/paginator.php'); ?>
+            </section>
+            <section id="cta-banner" class="large-margin">
+                <div id="cta-banner-texts">
+                    <div class="l10n" id="cta-banner-header">Want to identify your problem?</div>
+                    <div class="p200 l10n" id="cta-banner-content">In a personal meeting with a skin specialist, your skin type is examined and identified.</div>
+                </div>
+                <div>
+                    <a href="<?php echo $consultation_url ?>" class="button white expand l10n">Get a free consultation</a>
+                </div>
+            </section>
+            <section id="results" class="large-margin">
+                <div class="is-hidden-tablet">
+                    <div class="flex-row justify-space-between">
+                        <h2 class="big l10n">Results</h2>
+                        <div class="step-buttons">
+                            <button class="round-large grey" onclick="Carousel.prev('#results-carousel')">
+                                <?php icon('arrow-left') ?>
+                            </button>
+                            <button class="round-large grey" onclick="Carousel.next('#results-carousel')">
+                                <?php icon('arrow-right') ?>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="mt-l carousel" id="results-carousel">
+                        <div class="slide">
+                            <div class="container l10n">
+                                <?php
+                                $before = 'images/results/acne-before.webp';
+                                $after = 'images/results/acne-after.webp';
+                                $label = 'After two months of <a href="treatments/acne">acne treatment</a>';
+                                include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
+                                ?>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="container l10n">
+                                <?php
+                                $before = 'images/results/rosacea-before.webp';
+                                $after = 'images/results/rosacea-after.webp';
+                                $label = 'After two months of <a href="treatments/rosacea">rosacea treatment</a>';
+                                include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
+                                ?>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="container l10n">
+                                <?php
+                                $before = 'images/results/comedones-before.webp';
+                                $after = 'images/results/comedones-after.webp';
+                                $label = 'After two months of <a href="treatments/comedones">comedones treatment</a>';
+                                include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
+                                ?>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <a class="button outline expand l10n" href="results">View all treatment results</a>
+                    </div>
+                </div>
+                <div class="is-hidden-mobile">
+                    <div class="flex-row align-end justify-space-between">
+                        <h2 class="big l10n">Results</h2>
+                        <a href="results" class="button compact text">
+                            <span class="l10n">View all treatment results</span>
+                            <?php icon('navigate-next') ?>
+                        </a>
+                    </div>
+                    <div class="columns is-3 is-variable">
+                        <div class="mt-l column l10n">
+                            <?php
+                            $before = 'images/results/acne-before.webp';
+                            $after = 'images/results/acne-after.webp';
+                            $label = 'After two months of <a href="treatments/acne">acne treatment</a>';
+                            include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
+                            ?>
+                        </div>
+                        <div class="mt-l column l10n">
+                            <?php
+                            $before = 'images/results/rosacea-before.webp';
+                            $after = 'images/results/rosacea-after.webp';
+                            $label = 'After two months of <a href="treatments/rosacea">rosacea treatment</a>';
+                            include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
+                            ?>
+                        </div>
+                        <div class="mt-l column l10n">
+                            <?php
+                            $before = 'images/results/comedones-before.webp';
+                            $after = 'images/results/comedones-after.webp';
+                            $label = 'After two months of <a href="treatments/comedones">comedones treatment</a>';
+                            include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
+                            ?>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="reviews" class="large-margin">
+                <div class="flex-row align-end justify-space-between">
+                    <div class="h500 l10n">Reviews</div>
+                    <div class="flex-row is-hidden-mobile">
+                        <div class="step-buttons">
+                            <button class="round-large grey" onclick="Carousel.prev('#reviews-carousel', -1)">
+                                <?php icon('arrow-left') ?>
+                            </button>
+                            <button class="round-large grey" onclick="Carousel.next('#reviews-carousel', 1)">
+                                <?php icon('arrow-right') ?>
+                            </button>
+                        </div>
+                        <a href="reviews" class="ml-l button compact text">
+                            <span class="l10n">View all reviews</span>
+                            <?php icon('navigate-next') ?>
+                        </a>
+                    </div>
+                </div>
+                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="reviews">View all reviews</a>
+            </section>
+            <section id="faq" class="large-margin">
+                <div class="flex-row align-end justify-space-between">
+                    <div class="h500 l10n">Questions & answers</div>
+                    <a href="faq" class="button compact text is-hidden-mobile">
+                        <span class="l10n">View all questions</span>
+                        <?php icon('navigate-next') ?>
+                    </a>
+                </div>
+                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="faq">View all questions</a>
+            </section>
+            <section id="specialists" class="large-margin">
+                <div class="flex-row align-end justify-space-between">
+                    <div class="h500 l10n">Our specialists</div>
+                    <a href="specialists" class="button compact text is-hidden-mobile">
+                        <span class="l10n">View all specialists</span>
+                        <?php icon('navigate-next') ?>
+                    </a>
+                </div>
+                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php'); ?>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="specialists">View all specialists</a>
+            </section>
+            <section id="brands" class="large-margin">
+                <div class="flex-row align-end justify-space-between">
+                    <div class="h500 l10n">Brands we use</div>
+                    <a href="brands" class="button compact text is-hidden-mobile">
+                        <span class="l10n">View all brands</span>
+                        <?php icon('navigate-next') ?>
+                    </a>
+                </div>
+                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="brands">View all brands</a>
             </section>
         </div>
     </main>

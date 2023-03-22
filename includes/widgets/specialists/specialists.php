@@ -1,3 +1,15 @@
+<?php
+if (!isset($specialists)) {
+    $specialists = array(
+        new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-1.jpg', 'images/specialists/large/specialist-1.jpg'),
+        new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-2.jpg', 'images/specialists/large/specialist-2.jpg'),
+        new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-3.jpg', 'images/specialists/large/specialist-3.jpg'),
+        new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-4.jpg', 'images/specialists/large/specialist-4.jpg')
+    );
+}
+?>
+
+
 <div class="specialists-widget">
     <div class="specialists-small carousel is-hidden-tablet">
         <?php foreach ($specialists as $specialist) { ?>
