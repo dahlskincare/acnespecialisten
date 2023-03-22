@@ -2,6 +2,7 @@
 @import '../../styles/util/sizes';
 @import '../../styles/util/mixins';
 @import '../widgets/article_card/article_card_widget';
+@import '../widgets/paginator/paginator';
 
 section#banner {
     #banner-green {
@@ -117,4 +118,22 @@ section#subcategories {
     }
 
 
+}
+
+section#paginator {
+    margin-top: $xl;
+
+    .paginator-widget {
+        margin-top: $xl;
+    }
+
+    @include desktop {
+        #show-more {
+            text-align: center;
+
+            .button {
+                width: initial;
+            }
+        }
+    }
 }

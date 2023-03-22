@@ -186,7 +186,9 @@ if ($rs = $conn->query("SELECT * FROM skin_guide_subcategory ORDER BY ranking AS
             </section>
             <section id="paginator">
                 <?php if ($pagesize < $num_articles) { ?>
-                    <a class="button b200 expand l10n" href="/skin-guide?page=1&pagesize=<?php echo $pagesize * 2 ?>&subcategory=<?php echo $subcategory_id ?>">Show more</a>
+                    <div id="show-more">
+                        <a class="button b200 expand l10n" href="/skin-guide?page=1&pagesize=<?php echo $pagesize * 2 ?>&subcategory=<?php echo $subcategory_id ?>">View more articles</a>
+                    </div>
                 <?php } ?>
                 <?php include('widgets/paginator/paginator.php'); ?>
             </section>

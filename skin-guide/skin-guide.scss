@@ -180,4 +180,14 @@ section#paginator {
     .paginator-widget {
         margin-top: $xl;
     }
+
+    @include desktop {
+        #show-more {
+            text-align: center;
+
+            .button {
+                width: initial;
+            }
+        }
+    }
 }
