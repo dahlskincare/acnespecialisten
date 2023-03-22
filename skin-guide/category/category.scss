@@ -137,3 +137,49 @@ section#paginator {
         }
     }
 }
+
+section#cta-banner {
+    background-color: $deep-sea-400;
+    padding: $xl;
+    border-radius: $radius-l;
+    color: $white-500;
+
+    #cta-banner-header {
+        @include h500;
+    }
+
+    #cta-banner-content {
+        margin-top: $xs;
+    }
+
+    a.button {
+        margin-top: $xl;
+    }
+
+    @media screen and (min-width: $tablet) {
+        padding: $xxl $xl3;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        #cta-banner-texts {
+            flex: auto;
+
+            #cta-banner-header {
+                @include h500;
+            }
+        }
+
+        a.button {
+            flex: 1;
+        }
+    }
+}
+
+section.large-margin {
+    margin-top: 72px;
+
+    @media screen and (min-width: $tablet) {
+        margin-top: 104px;
+    }
+}
