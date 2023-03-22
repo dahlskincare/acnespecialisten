@@ -84,14 +84,13 @@ if ($rs = $conn->query("SELECT * FROM skin_guide_subcategory ORDER BY ranking AS
                         <p class="p200 mt-xs">
                             <span id="problems-banner-collapsed" class="l10n">
                                 In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified In a personal meeting with a skin specialist, your skinonal...
-                                <span class="l10n underline h200" onclick="SkinGuide.onReadMoreClick()">read more</span>
+                                <span class="l10n underline h200" onclick="SkinGuide.onReadMoreClick(this)">read more</span>
                             </span>
                             <span id="problems-banner-expanded" class="l10n is-hidden">
                                 In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified In a personal meeting with a skin specialist, your skinonal...
-                                In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified In a personal meeting with a skin specialist, your skinonal...
                             </span>
                         </p>
-                        <a href="https://dahlskincare.com/skin-consultation" target="_blank" class="button b200 white expand mt-xl l10n">Get a free consultation</a>
+                        <a href="<?php echo $consultation_url ?>" target="_blank" class="button b200 white expand mt-xl l10n">Get a free consultation</a>
                     </div>
                     <div class="is-hidden-touch" id="banner-green-desktop">
                         <div class="flex-row justify-space-between">

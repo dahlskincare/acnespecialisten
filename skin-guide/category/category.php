@@ -1,13 +1,24 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
-$consultation_url = 'https://dahlskincare.com/skin-consultation';
 $conn = new mysqli($_ENV['DB_URL'], $_ENV['DB_USER'], $_ENV['DB_PASSWORD'], database: $_ENV['DB_NAME']);
 if ($conn->connect_errno) {
     echo "Failed to connect to MySQL: " . $conn->connect_error;
     exit();
 }
 $category_id = $_GET['id'];
+
+if ($rs = $conn->query(sprintf("SELECT * FROM skin_guide_category WHERE id = '%s'", $category_id))) {
+    if ($rs->num_rows == 1) {
+        $category = new SkinGuideCategory($rs->fetch_assoc());
+    } else {
+        http_response_code(404);
+        die('Page not found');
+    }
+} else {
+    die($conn->error);
+}
+
 $query = sprintf("SELECT * FROM skin_guide_subcategory WHERE category_id = '%s' ORDER BY ranking ASC", $category_id);
 if ($rs = $conn->query($query)) {
     foreach ($rs as $row) {
@@ -77,18 +88,17 @@ if ($rs = $conn->query(sprintf("
                 <div class="container">
                     <div class="is-hidden-desktop">
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
-                        <h1 class="h600 mt-xs l10n">Skin guide</h1>
+                        <h1 class="h600 mt-xs"><?php echo $category->name ?></h1>
                         <p class="p200 mt-xs">
                             <span id="problems-banner-collapsed" class="l10n">
-                                In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified In a personal meeting with a skin specialist, your skinonal...
-                                <span class="l10n underline h200" onclick="SkinGuide.onReadMoreClick()">read more</span>
+                                <?php echo $category->description ?>
+                                <span class="l10n underline h200" onclick="Category.onReadMoreClick(this)">read more</span>
                             </span>
                             <span id="problems-banner-expanded" class="l10n is-hidden">
-                                In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified In a personal meeting with a skin specialist, your skinonal...
-                                In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified In a personal meeting with a skin specialist, your skinonal...
+                                <?php echo $category->description_extended ?>
                             </span>
                         </p>
-                        <a href="https://dahlskincare.com/skin-consultation" target="_blank" class="button b200 white expand mt-xl l10n">Get a free consultation</a>
+                        <a href="<?php echo $category->consultation_url ?>" target="_blank" class="button b200 white expand mt-xl l10n">Get a free consultation</a>
                     </div>
                     <div class="is-hidden-touch" id="banner-green-desktop">
                         <div class="flex-row justify-space-between">
@@ -99,14 +109,14 @@ if ($rs = $conn->query(sprintf("
                         </div>
                         <div class="flex-row align-end">
                             <div id="skin-problems-header-column">
-                                <h1 class="h600 mt-xs l10n" id="page-title-desktop">Skin guide</h1>
-                                <a href="https://dahlskincare.com/skin-consultation" class="button b200 white mt-xl">Get a free consultation</a>
+                                <h1 class="h600 mt-xs" id="page-title-desktop"><?php echo $category->name ?></h1>
+                                <a href="<?php echo $category->consultation_url ?>" class="button b200 white mt-xl">Get a free consultation</a>
                             </div>
-                            <div class="l10n">
-                                In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified In a personal meeting with a skin specialist, your skinonal...
+                            <div class="p200">
+                                <?php echo $category->description ?>
                             </div>
-                            <div class="ml-xl4 l10n">
-                                In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified In a personal meeting with a skin specialist, your skinonal...
+                            <div class="ml-xl4 p200">
+                                <?php echo $category->description_extended ?>
                             </div>
                         </div>
                     </div>
@@ -174,7 +184,7 @@ if ($rs = $conn->query(sprintf("
                     <div class="p200 l10n" id="cta-banner-content">In a personal meeting with a skin specialist, your skin type is examined and identified.</div>
                 </div>
                 <div>
-                    <a href="<?php echo $consultation_url ?>" class="button white expand l10n">Get a free consultation</a>
+                    <a href="<?php echo $category->consultation_url ?>" class="button white expand l10n">Get a free consultation</a>
                 </div>
             </section>
             <section id="results" class="large-margin">

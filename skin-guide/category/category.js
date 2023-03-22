@@ -1,3 +1,11 @@
+var Category;
+(function (Category) {
+    function onReadMoreClick(button) {
+        button.remove();
+        document.querySelector('#problems-banner-expanded').classList.remove('is-hidden');
+    }
+    Category.onReadMoreClick = onReadMoreClick;
+})(Category || (Category = {}));
 if (document.body.clientWidth > 800) {
     var subcategories = document.querySelector('#subcategory-links-desktop');
     var subcategoryItems_1 = subcategories.querySelector('#scroll-content');

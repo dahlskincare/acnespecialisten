@@ -1,8 +1,7 @@
 var SkinGuide;
 (function (SkinGuide) {
-    function onReadMoreClick() {
-        var collapsed = document.querySelector('#problems-banner-collapsed');
-        collapsed.remove();
+    function onReadMoreClick(button) {
+        button.remove();
         document.querySelector('#problems-banner-expanded').classList.remove('is-hidden');
     }
     SkinGuide.onReadMoreClick = onReadMoreClick;

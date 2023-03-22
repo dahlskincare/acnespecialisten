@@ -517,15 +517,19 @@ class SkinGuideCategory
         $this->id = $data['id'];
         $this->name = $data['name'];
         $this->description = $data['description'];
+        $this->description_extended = $data['description_extended'];
         $this->meta_title = $data['meta_title'];
         $this->meta_description = $data['meta_description'];
+        $this->consultation_url = $data['consultation_url'];
     }
 
     public string $id;
     public string $name;
     public string $description;
+    public string $description_extended;
     public string $meta_title;
     public string $meta_description;
+    public string $consultation_url;
 }
 
 class SkinGuideSubCategory
@@ -535,6 +539,7 @@ class SkinGuideSubCategory
         $this->id = $data['id'];
         $this->name = $data['name'];
         $this->description = $data['description'];
+        $this->description_extended = $data['description_extended'];
         $this->consultation_url = $data['consultation_url'];
         $this->category_id = $data['category_id'];
         $this->meta_title = $data['meta_title'];
@@ -544,6 +549,7 @@ class SkinGuideSubCategory
     public string $id;
     public string $name;
     public string $description;
+    public string $description_extended;
     public string $consultation_url;
     public string $category_id;
     public string $meta_title;

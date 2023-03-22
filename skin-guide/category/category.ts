@@ -1,3 +1,10 @@
+namespace Category {
+    export function onReadMoreClick(button: Element) {
+        button.remove();
+        document.querySelector('#problems-banner-expanded').classList.remove('is-hidden');
+    }
+}
+
 if (document.body.clientWidth > 800) {
     let subcategories = document.querySelector('#subcategory-links-desktop');
     let subcategoryItems = subcategories.querySelector('#scroll-content');
