@@ -67,6 +67,7 @@ section#subcategories {
         position: relative;
         user-select: none;
         overflow: hidden;
+        @include elevation-medium();
 
 
         .scroll-button-container {
