@@ -16,6 +16,42 @@ if ($rs = $conn->query($query)) {
 } else {
     die($conn->error);
 }
+if (isset($_GET['page']) && $_GET['page'] > 0) {
+    $page = $_GET['page'];
+} else {
+    $page = 1;
+}
+if (isset($_GET['pagesize'])) {
+    $pagesize = $_GET['pagesize'];
+} else {
+    $pagesize = 9;
+}
+
+if ($rs = $conn->query(sprintf("
+    SELECT COUNT(article.id) as cnt 
+    FROM skin_guide_article article
+    INNER JOIN skin_guide_subcategory subcategory ON article.subcategory_id = subcategory.id 
+    WHERE subcategory.category_id = '%s'
+", $category_id))) {
+    $num_articles = $rs->fetch_assoc()['cnt'];
+    $rs->free_result();
+} else {
+    die($conn->error);
+}
+$pages = ceil($num_articles / $pagesize);
+if ($rs = $conn->query(sprintf("
+    SELECT article.* 
+    FROM skin_guide_article article
+    INNER JOIN skin_guide_subcategory subcategory ON article.subcategory_id = subcategory.id 
+    WHERE subcategory.category_id = '%s'
+    ORDER BY article.ranking ASC LIMIT %d, %d
+", $category_id, ($page - 1) * $pagesize, $pagesize))) {
+    foreach ($rs as $row) {
+        $articles[] = new SkinGuideArticle($row);
+    }
+} else {
+    die($conn->error);
+}
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
@@ -110,10 +146,23 @@ if ($rs = $conn->query($query)) {
                     </div>
                 </div>
             </section>
+            <section id="articles">
+                <?php if (isset($articles)) { ?>
+                    <div class="columns is-multiline is-variable is-3">
+                        <?php foreach ($articles as $article) { ?>
+                            <div class="column is-one-third">
+                                <?php include($_SERVER['DOCUMENT_ROOT'] . '/skin-guide/widgets/article_card/article_card_widget.php'); ?>
+                            </div>
+                        <?php } ?>
+                    </div>
+                <?php } else { ?>
+                    <div class="h200 mt-m l10n">No articles found</div>
+                <?php } ?>
+            </section>
         </div>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
-    <script src="skin-guide/category/category.js"></script>
+    <script src="/skin-guide/category/category.js"></script>
 </body>
 
 </html>
