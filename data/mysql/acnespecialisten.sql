@@ -7,6 +7,20 @@ SET sql_mode = 'NO_AUTO_VALUE_ON_ZERO';
 
 SET NAMES utf8mb4;
 
+DROP TABLE IF EXISTS `ix_result_treatment_procedure`;
+CREATE TABLE `ix_result_treatment_procedure` (
+  `id` int unsigned NOT NULL AUTO_INCREMENT,
+  `result_treatment_id` int unsigned NOT NULL,
+  `result_procedure_id` int unsigned NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `result_treatment_id` (`result_treatment_id`),
+  KEY `result_procedure_id` (`result_procedure_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
+
+INSERT INTO `ix_result_treatment_procedure` (`id`, `result_treatment_id`, `result_procedure_id`) VALUES
+(1,	1,	1),
+(2,	1,	2);
+
 DROP TABLE IF EXISTS `result_category`;
 CREATE TABLE `result_category` (
   `id` varchar(64) CHARACTER SET utf8mb3 COLLATE utf8mb3_bin NOT NULL,
@@ -27,6 +41,44 @@ INSERT INTO `result_category` (`id`, `title`, `description_1`, `description_2`) 
 ('pigmentation',	'Pigmentation',	'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',	'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.'),
 ('rosacea',	'Rosacea',	'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',	'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.'),
 ('seborrhea',	'Seborrhea',	'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',	'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.');
+
+DROP TABLE IF EXISTS `result_customer`;
+CREATE TABLE `result_customer` (
+  `id` int unsigned NOT NULL AUTO_INCREMENT,
+  `slider_image_before_small` varchar(256) CHARACTER SET utf8mb3 COLLATE utf8mb3_bin NOT NULL,
+  `slider_image_after_small` varchar(256) CHARACTER SET utf8mb3 COLLATE utf8mb3_bin NOT NULL,
+  `slider_image_before_large` varchar(256) CHARACTER SET utf8mb3 COLLATE utf8mb3_bin NOT NULL,
+  `slider_image_after_large` varchar(256) CHARACTER SET utf8mb3 COLLATE utf8mb3_bin NOT NULL,
+  `age` int NOT NULL,
+  `gender` varchar(64) CHARACTER SET utf8mb3 COLLATE utf8mb3_bin NOT NULL,
+  `problem` varchar(128) CHARACTER SET utf8mb3 COLLATE utf8mb3_bin NOT NULL,
+  `type` varchar(128) CHARACTER SET utf8mb3 COLLATE utf8mb3_bin NOT NULL,
+  `result_treatment_id` int unsigned NOT NULL,
+  `result_category_id` varchar(64) CHARACTER SET utf8mb3 COLLATE utf8mb3_bin NOT NULL,
+  `before_images` json NOT NULL,
+  `after_images` json NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `result_category_id` (`result_category_id`),
+  KEY `result_treatment_id` (`result_treatment_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
+
+INSERT INTO `result_customer` (`id`, `slider_image_before_small`, `slider_image_after_small`, `slider_image_before_large`, `slider_image_after_large`, `age`, `gender`, `problem`, `type`, `result_treatment_id`, `result_category_id`, `before_images`, `after_images`) VALUES
+(2,	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/372x496.webm',	'https://via.placeholder.com/372x496.webm',	1,	'Female',	'Acne',	'Severe',	1,	'acne',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}'),
+(4,	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/372x496.webm',	'https://via.placeholder.com/372x496.webm',	2,	'Female',	'Acne',	'Severe',	1,	'acne',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}'),
+(5,	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/372x496.webm',	'https://via.placeholder.com/372x496.webm',	3,	'Female',	'Acne',	'Severe',	1,	'acne',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}'),
+(6,	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/372x496.webm',	'https://via.placeholder.com/372x496.webm',	4,	'Female',	'Acne',	'Severe',	1,	'acne',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}'),
+(8,	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/372x496.webm',	'https://via.placeholder.com/372x496.webm',	5,	'Female',	'Acne',	'Severe',	1,	'acne',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}'),
+(9,	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/372x496.webm',	'https://via.placeholder.com/372x496.webm',	6,	'Female',	'Acne',	'Severe',	1,	'acne',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}'),
+(10,	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/372x496.webm',	'https://via.placeholder.com/372x496.webm',	7,	'Female',	'Acne',	'Severe',	1,	'acne',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}'),
+(11,	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/372x496.webm',	'https://via.placeholder.com/372x496.webm',	8,	'Female',	'Acne',	'Severe',	1,	'acne',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}'),
+(15,	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/372x496.webm',	'https://via.placeholder.com/372x496.webm',	9,	'Female',	'Acne',	'Severe',	1,	'acne',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}'),
+(16,	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/372x496.webm',	'https://via.placeholder.com/372x496.webm',	10,	'Female',	'Acne',	'Severe',	1,	'acne',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}'),
+(17,	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/372x496.webm',	'https://via.placeholder.com/372x496.webm',	11,	'Female',	'Acne',	'Severe',	1,	'acne',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}'),
+(18,	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/372x496.webm',	'https://via.placeholder.com/372x496.webm',	12,	'Female',	'Acne',	'Severe',	1,	'acne',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}'),
+(19,	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/372x496.webm',	'https://via.placeholder.com/372x496.webm',	13,	'Female',	'Acne',	'Severe',	1,	'acne',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}'),
+(20,	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/372x496.webm',	'https://via.placeholder.com/372x496.webm',	14,	'Female',	'Acne',	'Severe',	1,	'acne',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}'),
+(21,	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/372x496.webm',	'https://via.placeholder.com/372x496.webm',	15,	'Female',	'Acne',	'Severe',	1,	'acne',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}'),
+(22,	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/372x496.webm',	'https://via.placeholder.com/372x496.webm',	16,	'Female',	'Acne',	'Severe',	1,	'acne',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}');
 
 DROP TABLE IF EXISTS `result_employee`;
 CREATE TABLE `result_employee` (
@@ -71,9 +123,7 @@ CREATE TABLE `result_treatment` (
   `result_product_id` int unsigned NOT NULL,
   PRIMARY KEY (`id`),
   KEY `result_employee_id` (`result_employee_id`),
-  KEY `result_product_id` (`result_product_id`),
-  CONSTRAINT `result_treatment_ibfk_1` FOREIGN KEY (`result_employee_id`) REFERENCES `result_employee` (`id`) ON DELETE CASCADE,
-  CONSTRAINT `result_treatment_ibfk_2` FOREIGN KEY (`result_product_id`) REFERENCES `result_product` (`id`) ON DELETE CASCADE
+  KEY `result_product_id` (`result_product_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
 
 INSERT INTO `result_treatment` (`id`, `duration`, `result_employee_id`, `result_product_id`) VALUES
@@ -90,62 +140,12 @@ CREATE TABLE `result_visit` (
   `read_more_label` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin DEFAULT NULL,
   `result_treatment_id` int unsigned NOT NULL,
   PRIMARY KEY (`id`),
-  KEY `result_treatment_id` (`result_treatment_id`),
-  CONSTRAINT `result_visit_ibfk_1` FOREIGN KEY (`result_treatment_id`) REFERENCES `result_treatment` (`id`) ON DELETE CASCADE
+  KEY `result_treatment_id` (`result_treatment_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
 
 INSERT INTO `result_visit` (`id`, `date`, `images`, `title`, `description`, `read_more_url`, `read_more_label`, `result_treatment_id`) VALUES
 (1,	'Nov 30, 2022',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}',	'First free consultation',	'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone.',	'https://dahlskincare.com/skin-consultation',	'Get a free consultation',	1),
 (2,	'Nov 30, 2022',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}',	'Results after first problem skin facials',	'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone.',	'/services/facials',	'Read more about facials',	1);
-
-
-DROP TABLE IF EXISTS `skin_guide_category`;
-CREATE TABLE `skin_guide_category` (
-  `id` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
-  `name` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
-  `description` varchar(1024) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
-  `meta_title` varchar(60) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
-  `meta_description` varchar(160) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
-  `ranking` int unsigned NOT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
-INSERT INTO `skin_guide_category` (`id`, `name`, `description`, `meta_title`, `meta_description`, `ranking`) VALUES
-('accessories',	'Accessories',	'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. He…	',	'title',	'desc',	10),
-('age',	'Age',	'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. He…	',	'title',	'desc',	5),
-('areas',	'Areas',	'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. He…	',	'title ...',	'meta ...',	2),
-('brands',	'Brands',	'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. He…	',	'title',	'desc',	9),
-('gender',	'Gender',	'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. He…	',	'Acnespecialisten | Gender',	'meta description...',	1),
-('personal-care',	'Personal care',	'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. He…	',	'title',	'desc',	6),
-('products',	'Products',	'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. He…	',	'title',	'desc',	8),
-('routine',	'Routine',	'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. He…	',	'title',	'desc',	7),
-('skin-condition',	'Skin condition',	'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. He…	',	'title',	'meta',	3),
-('skin-problems',	'Skin problems',	'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we.',	'Acnespecialisten | Skin problems',	'Here we explain what identifies acne scars ... ',	0),
-('skin-tones',	'Skin tones',	'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. He…	',	'title',	'meta',	4),
-('tools',	'Tools',	'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. He…	',	'title',	'desc',	11);
-
-DROP TABLE IF EXISTS `skin_guide_subcategory`;
-CREATE TABLE `skin_guide_subcategory` (
-  `id` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
-  `name` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
-  `description` varchar(1024) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
-  `consultation_url` varchar(256) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
-  `category_id` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
-  `meta_title` varchar(60) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
-  `meta_description` varchar(160) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
-  `ranking` int unsigned NOT NULL,
-  PRIMARY KEY (`id`),
-  KEY `category_id` (`category_id`),
-  CONSTRAINT `skin_guide_subcategory_ibfk_1` FOREIGN KEY (`category_id`) REFERENCES `skin_guide_category` (`id`) ON DELETE CASCADE ON UPDATE RESTRICT
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
-INSERT INTO `skin_guide_subcategory` (`id`, `name`, `description`, `consultation_url`, `category_id`, `meta_title`, `meta_description`, `ranking`) VALUES
-('dry-skin',	'Dry skin',	'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we.',	'https://dahlskincare.com/skin-consultation',	'skin-problems',	'',	'',	0),
-('random-topic-1',	'Random topic #1',	'bla bla bla',	'https://dahlskincare.com/skin-consultation	',	'accessories',	'',	'',	1),
-('random-topic-2',	'Random topic #2',	'bla bla bla',	'https://dahlskincare.com/skin-consultation	',	'accessories',	'',	'',	1),
-('random-topic-3',	'Random topic #3',	'bla bla bla',	'https://dahlskincare.com/skin-consultation	',	'accessories',	'',	'',	1),
-('random-topic-4',	'Random topic #4',	'bla bla bla',	'https://dahlskincare.com/skin-consultation	',	'accessories',	'',	'',	1);
-
 
 DROP TABLE IF EXISTS `skin_guide_article`;
 CREATE TABLE `skin_guide_article` (
@@ -160,73 +160,61 @@ CREATE TABLE `skin_guide_article` (
   `meta_title` varchar(60) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   `meta_description` varchar(160) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   `ranking` int unsigned NOT NULL,
-  `subcategory_id` varchar(64) COLLATE utf8mb4_general_ci NOT NULL,
+  `subcategory_id` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   PRIMARY KEY (`id`(4)),
-  KEY `subcategory_id` (`subcategory_id`),
-  CONSTRAINT `skin_guide_article_ibfk_1` FOREIGN KEY (`subcategory_id`) REFERENCES `skin_guide_subcategory` (`id`) ON DELETE CASCADE ON UPDATE RESTRICT
+  KEY `subcategory_id` (`subcategory_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 INSERT INTO `skin_guide_article` (`id`, `title`, `subtitle`, `problem`, `description`, `image_small`, `image_large`, `content`, `meta_title`, `meta_description`, `ranking`, `subcategory_id`) VALUES
 ('how-hormones-affect',	'How hormones affect?',	'In a personal meeting with a skin specialist, your skin type is examined and identified.',	'Acne',	'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.',	'https://via.placeholder.com/426x324.webp',	'https://via.placeholder.com/872x456.jpg',	'<p>\r\n<strong>For the first time ever</strong>, fans from around the world can explore the faraway lands of their favorite holiday films with an exclusive overnight stay at the original Hobbiton™ Movie Set. Russell Alexander is inviting guests to his family’s property to live like Bilbo Baggins and retreat to The Shire™ for an overnight stay at Hobbiton, as featured in the famed The Lord of the Rings and The Hobbit film trilogies.\r\nNestled in the picturesque pastures of New Zealand’s Waikato region on a 2,500 acre working farm, the property’s rolling, green hills – bear a striking similarity to The Shire™ as described by J. R. R. Tolkien in The Lord of the Rings, and captivated Sir Peter Jackson’s movie scouts more than two decades ago. The team quickly realized the Hobbits had found their home – and this holiday season, it could be yours.\r\n</p>',	'Acnespecialisten | Hormones',	'bla bla bla...',	0,	'dry-skin');
 
+DROP TABLE IF EXISTS `skin_guide_category`;
+CREATE TABLE `skin_guide_category` (
+  `id` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `name` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `description` varchar(1024) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `description_extended` varchar(1024) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `consultation_url` varchar(256) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `meta_title` varchar(60) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `meta_description` varchar(160) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `ranking` int unsigned NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
-DROP TABLE IF EXISTS `result_customer`;
-CREATE TABLE `result_customer` (
-  `id` int unsigned NOT NULL AUTO_INCREMENT,
-  `slider_image_before_small` varchar(256) CHARACTER SET utf8mb3 COLLATE utf8mb3_bin NOT NULL,
-  `slider_image_after_small` varchar(256) CHARACTER SET utf8mb3 COLLATE utf8mb3_bin NOT NULL,
-  `slider_image_before_large` varchar(256) CHARACTER SET utf8mb3 COLLATE utf8mb3_bin NOT NULL,
-  `slider_image_after_large` varchar(256) CHARACTER SET utf8mb3 COLLATE utf8mb3_bin NOT NULL,
-  `age` int NOT NULL,
-  `gender` varchar(64) CHARACTER SET utf8mb3 COLLATE utf8mb3_bin NOT NULL,
-  `problem` varchar(128) CHARACTER SET utf8mb3 COLLATE utf8mb3_bin NOT NULL,
-  `type` varchar(128) CHARACTER SET utf8mb3 COLLATE utf8mb3_bin NOT NULL,
-  `result_treatment_id` int unsigned NOT NULL,
-  `result_category_id` varchar(64) CHARACTER SET utf8mb3 COLLATE utf8mb3_bin NOT NULL,
-  `before_images` json NOT NULL,
-  `after_images` json NOT NULL,
+INSERT INTO `skin_guide_category` (`id`, `name`, `description`, `description_extended`, `consultation_url`, `meta_title`, `meta_description`, `ranking`) VALUES
+('accessories',	'Accessories',	'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. He…	',	'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. He…	',	'',	'title',	'desc',	10),
+('age',	'Age',	'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. He…	',	'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. He…	',	'',	'title',	'desc',	5),
+('areas',	'Areas',	'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. He…	',	'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. He…	',	'',	'title ...',	'meta ...',	2),
+('brands',	'Brands',	'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. He…	',	'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. He…	',	'',	'title',	'desc',	9),
+('gender',	'Gender',	'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. He…	',	'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. He…	',	'',	'Acnespecialisten | Gender',	'meta description...',	1),
+('personal-care',	'Personal care',	'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. He…	',	'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. He…	',	'',	'title',	'desc',	6),
+('products',	'Products',	'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. He…	',	'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. He…	',	'',	'title',	'desc',	8),
+('routine',	'Routine',	'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. He…	',	'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. He…	',	'',	'title',	'desc',	7),
+('skin-condition',	'Skin condition',	'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. He…	',	'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. He…	',	'',	'title',	'meta',	3),
+('skin-problems',	'Skin problems',	'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we.',	'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we.',	'',	'Acnespecialisten | Skin problems',	'Here we explain what identifies acne scars ... ',	0),
+('skin-tones',	'Skin tones',	'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. He…	',	'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. He…	',	'',	'title',	'meta',	4),
+('tools',	'Tools',	'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. He…	',	'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. He…	',	'',	'title',	'desc',	11);
+
+DROP TABLE IF EXISTS `skin_guide_subcategory`;
+CREATE TABLE `skin_guide_subcategory` (
+  `id` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `name` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `description` varchar(1024) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `description_extended` varchar(1024) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `consultation_url` varchar(256) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `category_id` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `meta_title` varchar(60) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `meta_description` varchar(160) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `ranking` int unsigned NOT NULL,
   PRIMARY KEY (`id`),
-  KEY `result_category_id` (`result_category_id`),
-  KEY `result_treatment_id` (`result_treatment_id`),
-  CONSTRAINT `result_customer_ibfk_1` FOREIGN KEY (`result_category_id`) REFERENCES `result_category` (`id`) ON DELETE CASCADE,
-  CONSTRAINT `result_customer_ibfk_2` FOREIGN KEY (`result_treatment_id`) REFERENCES `result_treatment` (`id`) ON DELETE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
+  KEY `category_id` (`category_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
-INSERT INTO `result_customer` (`id`, `slider_image_before_small`, `slider_image_after_small`, `slider_image_before_large`, `slider_image_after_large`, `age`, `gender`, `problem`, `type`, `result_treatment_id`, `result_category_id`, `before_images`, `after_images`) VALUES
-(2,	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/372x496.webm',	'https://via.placeholder.com/372x496.webm',	1,	'Female',	'Acne',	'Severe',	1,	'acne',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}'),
-(4,	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/372x496.webm',	'https://via.placeholder.com/372x496.webm',	2,	'Female',	'Acne',	'Severe',	1,	'acne',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}'),
-(5,	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/372x496.webm',	'https://via.placeholder.com/372x496.webm',	3,	'Female',	'Acne',	'Severe',	1,	'acne',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}'),
-(6,	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/372x496.webm',	'https://via.placeholder.com/372x496.webm',	4,	'Female',	'Acne',	'Severe',	1,	'acne',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}'),
-(8,	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/372x496.webm',	'https://via.placeholder.com/372x496.webm',	5,	'Female',	'Acne',	'Severe',	1,	'acne',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}'),
-(9,	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/372x496.webm',	'https://via.placeholder.com/372x496.webm',	6,	'Female',	'Acne',	'Severe',	1,	'acne',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}'),
-(10,	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/372x496.webm',	'https://via.placeholder.com/372x496.webm',	7,	'Female',	'Acne',	'Severe',	1,	'acne',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}'),
-(11,	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/372x496.webm',	'https://via.placeholder.com/372x496.webm',	8,	'Female',	'Acne',	'Severe',	1,	'acne',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}'),
-(15,	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/372x496.webm',	'https://via.placeholder.com/372x496.webm',	9,	'Female',	'Acne',	'Severe',	1,	'acne',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}'),
-(16,	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/372x496.webm',	'https://via.placeholder.com/372x496.webm',	10,	'Female',	'Acne',	'Severe',	1,	'acne',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}'),
-(17,	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/372x496.webm',	'https://via.placeholder.com/372x496.webm',	11,	'Female',	'Acne',	'Severe',	1,	'acne',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}'),
-(18,	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/372x496.webm',	'https://via.placeholder.com/372x496.webm',	12,	'Female',	'Acne',	'Severe',	1,	'acne',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}'),
-(19,	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/372x496.webm',	'https://via.placeholder.com/372x496.webm',	13,	'Female',	'Acne',	'Severe',	1,	'acne',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}'),
-(20,	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/372x496.webm',	'https://via.placeholder.com/372x496.webm',	14,	'Female',	'Acne',	'Severe',	1,	'acne',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}'),
-(21,	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/372x496.webm',	'https://via.placeholder.com/372x496.webm',	15,	'Female',	'Acne',	'Severe',	1,	'acne',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}'),
-(22,	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/178x238.webm',	'https://via.placeholder.com/372x496.webm',	'https://via.placeholder.com/372x496.webm',	16,	'Female',	'Acne',	'Severe',	1,	'acne',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}',	'{\"image_left_large\": \"https://via.placeholder.com/320x426.webm\", \"image_left_small\": \"https://via.placeholder.com/175x235.webm\", \"image_right_large\": \"https://via.placeholder.com/320x426.webm\", \"image_right_small\": \"https://via.placeholder.com/175x235.webm\"}');
+INSERT INTO `skin_guide_subcategory` (`id`, `name`, `description`, `description_extended`, `consultation_url`, `category_id`, `meta_title`, `meta_description`, `ranking`) VALUES
+('dry-skin',	'Dry skin',	'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we.',	'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we.',	'https://dahlskincare.com/skin-consultation',	'skin-problems',	'',	'',	0),
+('random-topic-1',	'Random topic #1',	'bla bla bla',	'bla bla bla',	'https://dahlskincare.com/skin-consultation	',	'accessories',	'',	'',	1),
+('random-topic-2',	'Random topic #2',	'bla bla bla',	'bla bla bla',	'https://dahlskincare.com/skin-consultation	',	'accessories',	'',	'',	1),
+('random-topic-3',	'Random topic #3',	'bla bla bla',	'bla bla bla',	'https://dahlskincare.com/skin-consultation	',	'accessories',	'',	'',	1),
+('random-topic-4',	'Random topic #4',	'bla bla bla',	'bla bla bla',	'https://dahlskincare.com/skin-consultation	',	'accessories',	'',	'',	1);
 
-
-
-DROP TABLE IF EXISTS `ix_result_treatment_procedure`;
-CREATE TABLE `ix_result_treatment_procedure` (
-  `id` int unsigned NOT NULL AUTO_INCREMENT,
-  `result_treatment_id` int unsigned NOT NULL,
-  `result_procedure_id` int unsigned NOT NULL,
-  PRIMARY KEY (`id`),
-  KEY `result_treatment_id` (`result_treatment_id`),
-  KEY `result_procedure_id` (`result_procedure_id`),
-  CONSTRAINT `ix_result_treatment_procedure_ibfk_1` FOREIGN KEY (`result_treatment_id`) REFERENCES `result_treatment` (`id`) ON DELETE CASCADE,
-  CONSTRAINT `ix_result_treatment_procedure_ibfk_2` FOREIGN KEY (`result_procedure_id`) REFERENCES `result_procedure` (`id`) ON DELETE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
-
-INSERT INTO `ix_result_treatment_procedure` (`id`, `result_treatment_id`, `result_procedure_id`) VALUES
-(1,	1,	1),
-(2,	1,	2);
-
-
--- 2023-03-21 09:00:38
+-- 2023-03-23 09:48:36
