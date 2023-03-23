@@ -161,12 +161,14 @@ $related_problems = array(
                                                 }
                                                 ?>
                                           <?php } ?>
-                                          <div class="mt-xl columns is-2 is-variable">
-                                                <div class="column">
-                                                      <a href="<?php echo $consultation_url ?>" target="_blank" class="button white expand l10n">Get a free consultation</a>
-                                                </div>
-                                                <div class="column">
-                                                      <a href="<?php echo $booking_url ?>" target="_blank" class="button white expand l10n">Book a treatment</a>
+                                          <div class="mt-xl">
+                                                <div class="columns is-2 is-variable">
+                                                      <div class="column">
+                                                            <a href="<?php echo $consultation_url ?>" target="_blank" class="button white expand l10n">Get a free consultation</a>
+                                                      </div>
+                                                      <div class="column">
+                                                            <a href="<?php echo $booking_url ?>" target="_blank" class="button white expand l10n">Book a treatment</a>
+                                                      </div>
                                                 </div>
                                           </div>
                                     </div>
