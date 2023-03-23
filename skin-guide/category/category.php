@@ -70,8 +70,8 @@ if ($rs = $conn->query(sprintf("
 
 <head>
     <title>Acnespecialisten | <?php echo $category->name ?></title>
-    <meta name="description" content="<?php echo $category->meta_description ?>" class="l10n">
-    <meta name="title" content="<?php echo $category->meta_title ?>" class="l10n">
+    <meta name="description" content="<?php echo $category->meta_description ?>">
+    <meta name="title" content="<?php echo $category->meta_title ?>">
     <meta name="keywords" content="" class="l10n">
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
