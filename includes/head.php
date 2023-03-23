@@ -2,10 +2,6 @@
 // IMPORTANT: 
 // Don't edit this file unless you know what you are doing!
 
-require $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
-$dotenv = Dotenv\Dotenv::createImmutable($_SERVER['DOCUMENT_ROOT']);
-$dotenv->load();
-
 // PHP utility
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 function icon($name)
