@@ -1,5 +1,5 @@
-<?php 
-include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php'); 
+<?php
+include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 $conn = new mysqli($_ENV['DB_URL'], $_ENV['DB_USER'], $_ENV['DB_PASSWORD'], database: $_ENV['DB_NAME']);
@@ -55,27 +55,25 @@ if ($rs = $conn->query(sprintf("SELECT * FROM skin_guide_article WHERE subcatego
     <meta name="title" content="<?php echo $subcategory->meta_title ?>">
     <meta name="keywords" content="" class="l10n">
 
-      <!-- Optional: Set canonical version of this page (https://support.google.com/webmasters/answer/10347851) -->
-      
-      <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
+    <!-- Optional: Set canonical version of this page (https://support.google.com/webmasters/answer/10347851) -->
 
-      <link rel="stylesheet"
-            href="/styles/default-layout.css">
-      <link rel="stylesheet"
-            href="/skin-guide/category/subcategory/subcategory.css">
+    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
+
+    <link rel="stylesheet" href="/styles/default-layout.css">
+    <link rel="stylesheet" href="/skin-guide/category/subcategory/subcategory.css">
 </head>
 
 <body>
-      <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
-      <main>
-      <section id="banner">
+    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
+    <main>
+        <section id="banner">
             <div id="banner-green">
                 <div class="container">
                     <div class="is-hidden-desktop">
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
                         <h1 class="h600 mt-xs"><?php echo $subcategory->name ?></h1>
                         <p class="p200 mt-xs">
-                            <?php echo $subcategory->description ?>                            
+                            <?php echo $subcategory->description ?>
                         </p>
                         <a href="<?php echo $subcategory->consultation_url ?>" target="_blank" class="button b200 white expand mt-xl l10n">Get a free consultation</a>
                     </div>
@@ -107,8 +105,23 @@ if ($rs = $conn->query(sprintf("SELECT * FROM skin_guide_article WHERE subcatego
                 </div>
             </div>
         </section>
-      </main>
-      <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
+        <div class="container">
+            <section id="articles">
+                <?php if (isset($articles)) { ?>
+                    <div class="columns is-multiline is-variable is-3">
+                        <?php foreach ($articles as $article) { ?>
+                            <div class="column is-one-third">
+                                <?php include('../../widgets/article_card/article_card_widget.php'); ?>
+                            </div>
+                        <?php } ?>
+                    </div>
+                <?php } else { ?>
+                    <div class="h200 mt-m l10n">No articles found</div>
+                <?php } ?>
+            </section>
+        </div>
+    </main>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
 </body>
 
 </html>
