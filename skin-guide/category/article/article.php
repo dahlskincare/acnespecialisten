@@ -62,11 +62,36 @@ if ($rs = $conn->query("SELECT * FROM skin_guide_article WHERE id = '" . $_GET['
                     <img src="<?php echo $article->image_small ?>" alt="<?php echo $article->title ?>" width="360" height="274" />
                 </picture>
             </section>
-            <section id="nav-links">
-
+            <section id="nav-buttons">
+                <div id="nav-buttons-container">
+                    <div class="scroll-button is-hidden" id="scroll-prev">
+                        <button class="round-medium grey">
+                            <?php icon('arrow-left') ?>
+                        </button>
+                    </div>
+                    <div class="scroll-button is-hidden" id="scroll-next">
+                        <button class="round-medium grey">
+                            <?php icon('arrow-right') ?>
+                        </button>
+                    </div>
+                    <div id="nav-buttons-scroller">
+                        <div class="flex-row">
+                            <div class="nav-button active">hello</div>
+                            <div class="nav-button">adlfajd</div>
+                            <div class="nav-button">adfafd</div>
+                            <div class="nav-button">davmmdfvm</div>
+                            <div class="nav-button">adfaldfa adfa</div>
+                            <div class="nav-button">amda</div>
+                            <div class="nav-button">adlaf</div>
+                            <div class="nav-button">llossoa</div>
+                            <div class="nav-button">adfadf</div>
+                        </div>
+                    </div>
+                </div>
             </section>
-
-            <?php echo $article->content ?>
+            <section id="content">
+                <?php echo $article->content ?>
+            </section>
         </div>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
