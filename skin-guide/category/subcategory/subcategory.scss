@@ -21,7 +21,7 @@ section#banner {
         }
     }
 
-    @media screen and (min-width: $desktop) {
+    @include desktop {
         #banner-green {
             padding-bottom: $m;
 
@@ -33,5 +33,13 @@ section#banner {
                 }
             }
         }
+    }
+}
+
+section#paginator {
+    margin-top: $xxl;
+
+    @include desktop {
+        margin-top: $xl3;
     }
 }

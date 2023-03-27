@@ -119,6 +119,14 @@ if ($rs = $conn->query(sprintf("SELECT * FROM skin_guide_article WHERE subcatego
                     <div class="h200 mt-m l10n">No articles found</div>
                 <?php } ?>
             </section>
+            <section id="paginator">
+                <?php if ($pagesize < $num_articles) { ?>
+                    <div id="show-more">
+                        <a class="button b200 expand l10n" href="/skin-guide/<?php echo $category_id ?>?page=1&pagesize=<?php echo $pagesize * 2 ?>">View more articles</a>
+                    </div>
+                <?php } ?>
+                <?php include('../../widgets/paginator/paginator.php'); ?>
+            </section>
         </div>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
