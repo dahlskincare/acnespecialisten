@@ -132,7 +132,7 @@ if ($rs = $conn->query(sprintf("
                 <div id="subcategory-links-tablet" class="is-hidden-desktop">
                     <?php if (isset($subcategories)) { ?>
                         <?php foreach ($subcategories as $subcategory) { ?>
-                            <a class="subcategory-link"><?php echo $subcategory->name ?></a>
+                            <a class="subcategory-link" href="skin-guide/<?php echo $category_id ?>/<?php echo $subcategory->id ?>"><?php echo $subcategory->name ?></a>
                         <?php } ?>
                     <?php } ?>
                 </div>
@@ -150,7 +150,7 @@ if ($rs = $conn->query(sprintf("
                     <div id="scroll-content">
                         <?php if (isset($subcategories)) { ?>
                             <?php foreach ($subcategories as $subcategory) { ?>
-                                <a class="subcategory-link" href="skin-guide/<?php echo $category_id ?>"><?php echo $subcategory->name ?></a>
+                                <a class="subcategory-link" href="skin-guide/<?php echo $category_id ?>/<?php echo $subcategory->id ?>"><?php echo $subcategory->name ?></a>
                             <?php } ?>
                         <?php } ?>
                     </div>
