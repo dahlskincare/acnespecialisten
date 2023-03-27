@@ -1,0 +1,90 @@
+@import '../../../styles/util/colors';
+@import '../../../styles/util/sizes';
+@import '../../../styles/util/mixins';
+
+html {
+    scroll-behavior: smooth;
+
+    section#banner {
+        background-color: $deep-sea-400;
+        padding: $xxs 0;
+
+        .badges-widget {
+            flex: 1;
+
+            .badge {
+                @include button-text-color($white-500);
+                color: $white-500;
+                background-color: transparent;
+            }
+
+            .badge:first-child {
+                padding-left: 0;
+            }
+
+            .badge:last-child {
+                padding-right: 0;
+            }
+        }
+
+        @include desktop {
+            .badges-widget {
+                flex: 0;
+            }
+
+            .breadcrumbs-widget {
+                padding-top: 0;
+                padding-bottom: 0;
+            }
+        }
+    }
+
+    section#desktop-breadcrumbs {
+        .breadcrumbs-widget {
+            .segment {
+                color: $dark-200;
+            }
+
+            .separator {
+                background-color: $dark-200;
+            }
+        }
+    }
+
+    section#metadata {
+        margin-top: $xl;
+
+        h1#article-title {
+            @include h600;
+        }
+
+        h3#article-subtitle {
+            @include p200;
+            margin-top: $xs;
+        }
+
+        img {
+            margin-top: $xl;
+            width: 100%;
+            height: auto;
+            border-radius: $radius-l;
+        }
+
+
+        @include desktop {
+            margin-top: $xl4;
+
+            h1#article-title {
+                @include h700;
+            }
+
+            h3#article-subtitle {
+                margin-top: $s;
+            }
+
+            img {
+                margin-top: $xl3;
+            }
+        }
+    }
+}

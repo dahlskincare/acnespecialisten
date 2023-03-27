@@ -29,7 +29,7 @@
     }
 }
 
-@media screen and (min-width: $desktop) {
+@include desktop {
     .badges-widget {
         .badge {
             background-color: $deep-sea-300;

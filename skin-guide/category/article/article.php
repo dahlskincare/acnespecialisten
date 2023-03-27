@@ -33,16 +33,44 @@ if ($rs = $conn->query("SELECT * FROM skin_guide_article WHERE id = '" . $_GET['
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
-    <link rel="stylesheet" href="/skin-guide/category/article/article.php">
+    <link rel="stylesheet" href="/skin-guide/category/article/article.css">
 </head>
 
 <body>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
     <main>
-        <?php echo $article->content ?>
-        <!-- TODO: Page Content Here -->
+        <section id="banner">
+            <div class="container">
+                <div class="flex-row justify-space-between">
+                    <div class="is-hidden-touch">
+                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
+                    </div>
+                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
+                </div>
+            </div>
+        </section>
+        <div class="container">
+            <section id="desktop-breadcrumbs" class="is-hidden-desktop">
+                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
+            </section>
+            <section id="metadata">
+                <h1 id="article-title"><?php echo $article->title ?></h1>
+                <h3 id="article-subtitle"><?php echo $article->subtitle ?></h3>
+                <picture>
+                    <source media="(max-width: 799px)" srcset="<?php echo $article->image_small ?>">
+                    <source media="(min-width: 800px)" srcset="<?php echo $article->image_large ?>">
+                    <img src="<?php echo $article->image_small ?>" alt="<?php echo $article->title ?>" width="360" height="274" />
+                </picture>
+            </section>
+            <section id="nav-links">
+
+            </section>
+
+            <?php echo $article->content ?>
+        </div>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
+    <script src="skin-guide/category/article/article.js"></script>
 </body>
 
 </html>
