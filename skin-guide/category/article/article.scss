@@ -51,84 +51,138 @@ html {
         }
     }
 
-    section#metadata {
-        margin-top: $xl;
+    #article-wrapper {
+        margin: 0 auto;
+        max-width: 872px;
 
-        h1#article-title {
-            @include h600;
-        }
-
-        h3#article-subtitle {
-            @include p200;
-            margin-top: $xs;
-        }
-
-        img {
+        section#metadata {
             margin-top: $xl;
-            width: 100%;
-            height: auto;
-            border-radius: $radius-l;
-        }
-
-
-        @include desktop {
-            margin-top: $xl4;
 
             h1#article-title {
-                @include h700;
+                @include h600;
             }
 
             h3#article-subtitle {
-                margin-top: $s;
+                @include p200;
+                margin-top: $xs;
             }
 
             img {
+                margin-top: $xl;
+                width: 100%;
+                height: auto;
+                border-radius: $radius-l;
+            }
+
+
+            @include desktop {
+                margin-top: $xl4;
+
+                h1#article-title {
+                    @include h700;
+                }
+
+                h3#article-subtitle {
+                    margin-top: $s;
+                }
+
+                img {
+                    margin-top: $xl3;
+                }
+            }
+        }
+
+        section#nav-buttons {
+            top: $xl4; // nav height
+
+            #nav-buttons-container {
+                border-bottom: 1px solid $light-200;
+                background-color: $white-500;
+
+                #nav-buttons-scroller {
+                    overflow-x: auto;
+                    scroll-behavior: smooth;
+                    scrollbar-width: none;
+                    -ms-overflow-style: none;
+
+                    .nav-button {
+                        padding: $l 0;
+                        margin: 0 $s;
+                        @include p100;
+                        cursor: pointer;
+                        white-space: nowrap;
+                        color: $dark-200;
+                    }
+
+                    .nav-button:first-child {
+                        margin-left: 0;
+                    }
+
+                    .nav-button:last-child {
+                        margin-right: 0;
+                    }
+
+                    .nav-button.active {
+                        color: $black-500;
+                        border-bottom: 3px solid $black-500;
+                    }
+                }
+
+                #nav-buttons-scroller::-webkit-scrollbar {
+                    width: 0;
+                    height: 0;
+                }
+            }
+
+            @include desktop {
+                top: 72px;
+            }
+        }
+
+        section#content {
+            margin-top: $xs;
+
+            h2 {
+                // Compensate for fixed headers
+                scroll-margin-top: 130px;
                 margin-top: $xl3;
+                @include h400;
+            }
+
+            h3 {
+                margin-top: $xxl;
+                @include h300;
+            }
+
+            p {
+                margin-top: $m;
+                @include p250;
+            }
+
+            ul,
+            ol {
+                @include p250;
+                padding-left: $l;
+
+                li {
+                    margin-top: $m;
+                }
+            }
+
+            img {
+                border-radius: $radius-l;
+                margin-top: $xl3;
+                width: 100%;
+                height: auto;
+            }
+
+            @include desktop {
+                h2 {
+                    scroll-margin-top: 140px;
+                }
             }
         }
     }
 
-    section#nav-buttons {
-        #nav-buttons-container {
-            border-bottom: 1px solid $light-200;
 
-            #nav-buttons-scroller {
-                overflow-x: auto;
-                scroll-behavior: smooth;
-                scrollbar-width: none;
-                -ms-overflow-style: none;
-
-                .nav-button {
-                    padding: $l 0;
-                    margin: 0 $s;
-                    @include p100;
-                    cursor: pointer;
-                    white-space: nowrap;
-                    color: $dark-200;
-                }
-
-                .nav-button:first-child {
-                    margin-left: 0;
-                }
-
-                .nav-button:last-child {
-                    margin-right: 0;
-                }
-
-                .nav-button.active {
-                    color: $black-500;
-                    border-bottom: 3px solid $black-500;
-                }
-            }
-
-            #nav-buttons-scroller::-webkit-scrollbar {
-                width: 0;
-                height: 0;
-            }
-        }
-    }
-
-    section#content {
-        margin-top: $xl3;
-    }
 }

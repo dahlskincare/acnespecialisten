@@ -53,45 +53,38 @@ if ($rs = $conn->query("SELECT * FROM skin_guide_article WHERE id = '" . $_GET['
             <section id="desktop-breadcrumbs" class="is-hidden-desktop">
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
             </section>
-            <section id="metadata">
-                <h1 id="article-title"><?php echo $article->title ?></h1>
-                <h3 id="article-subtitle"><?php echo $article->subtitle ?></h3>
-                <picture>
-                    <source media="(max-width: 799px)" srcset="<?php echo $article->image_small ?>">
-                    <source media="(min-width: 800px)" srcset="<?php echo $article->image_large ?>">
-                    <img src="<?php echo $article->image_small ?>" alt="<?php echo $article->title ?>" width="360" height="274" />
-                </picture>
-            </section>
-            <section id="nav-buttons">
-                <div id="nav-buttons-container">
-                    <div class="scroll-button is-hidden" id="scroll-prev">
-                        <button class="round-medium grey">
-                            <?php icon('arrow-left') ?>
-                        </button>
-                    </div>
-                    <div class="scroll-button is-hidden" id="scroll-next">
-                        <button class="round-medium grey">
-                            <?php icon('arrow-right') ?>
-                        </button>
-                    </div>
-                    <div id="nav-buttons-scroller">
-                        <div class="flex-row">
-                            <div class="nav-button active">hello</div>
-                            <div class="nav-button">adlfajd</div>
-                            <div class="nav-button">adfafd</div>
-                            <div class="nav-button">davmmdfvm</div>
-                            <div class="nav-button">adfaldfa adfa</div>
-                            <div class="nav-button">amda</div>
-                            <div class="nav-button">adlaf</div>
-                            <div class="nav-button">llossoa</div>
-                            <div class="nav-button">adfadf</div>
+            <div id="article-wrapper">
+                <section id="metadata">
+                    <h1 id="article-title"><?php echo $article->title ?></h1>
+                    <h3 id="article-subtitle"><?php echo $article->subtitle ?></h3>
+                    <picture>
+                        <source media="(max-width: 799px)" srcset="<?php echo $article->image_small ?>">
+                        <source media="(min-width: 800px)" srcset="<?php echo $article->image_large ?>">
+                        <img src="<?php echo $article->image_small ?>" alt="<?php echo $article->title ?>" width="360" height="274" />
+                    </picture>
+                </section>
+                <section id="nav-buttons">
+                    <div id="nav-buttons-container">
+                        <div class="scroll-button is-hidden" id="scroll-prev">
+                            <button class="round-medium grey">
+                                <?php icon('arrow-left') ?>
+                            </button>
+                        </div>
+                        <div class="scroll-button is-hidden" id="scroll-next">
+                            <button class="round-medium grey">
+                                <?php icon('arrow-right') ?>
+                            </button>
+                        </div>
+                        <div id="nav-buttons-scroller">
+                            <div class="flex-row">
+                            </div>
                         </div>
                     </div>
-                </div>
-            </section>
-            <section id="content">
-                <?php echo $article->content ?>
-            </section>
+                </section>
+                <section id="content">
+                    <?php echo $article->content ?>
+                </section>
+            </div>
         </div>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
