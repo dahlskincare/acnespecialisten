@@ -1,14 +1,27 @@
 @import '../../../styles/util/sizes';
 @import '../../../styles/util/colors';
+@import '../../../styles/util/mixins';
 
 .brand-card-widget {
-  width: 100%;
-  height: auto;
-  font-size: small;
+  font-size: 0;
+
+  .imic {
+    width: 100%;
+    height: auto;
+  }
+
 
   .containerr {
-    padding-left: 24px;
-    padding-right: 24px;
+    font-size: small;
+    padding: 0 24px 24px 24px;
+
+    img.overlay {
+      @include elevation-medium();
+      margin-top: - $xl4;
+      border: 1px solid $light-200;
+      border-radius: $radius-l;
+      flex: 0;
+    }
 
     .flex-container {
       display: flex;
@@ -29,13 +42,9 @@
       }
     }
 
-    .imic {
-      width: 100%;
-      height: 324px;
-    }
+
 
     .laser {
-      margin-top: 24px;
       margin-bottom: 4px;
       color: rgb(95, 94, 94);
     }
