@@ -176,9 +176,70 @@ html {
                 height: auto;
             }
 
+            .problem-skin-card {
+                margin-top: $xl;
+                font-size: 0;
+                display: block;
+                border-radius: $radius-l;
+                @include elevation-medium;
+
+                img {
+                    margin: 0;
+                    border-bottom-left-radius: 0;
+                    border-bottom-right-radius: 0;
+                }
+
+                .psc-content {
+                    margin: 0;
+                    padding: $xl;
+                    border: 1px solid $light-200;
+                    border-bottom-left-radius: $radius-l;
+                    border-bottom-right-radius: $radius-l;
+
+                    .psc-category {
+                        @include p200;
+                        color: $dark-200;
+                    }
+
+                    .psc-name {
+                        margin-top: $xxs;
+                        @include h300;
+                    }
+
+                    .psc-desc {
+                        margin-top: $xs;
+                        @include p200;
+                    }
+
+                    .psc-link {
+                        @include h200;
+                        display: block;
+                        margin-top: $m;
+                        color: $deep-sea-400;
+                        text-align: center;
+                        border: 1px solid $deep-sea-400;
+                        border-radius: $radius-s;
+                        padding: $s;
+                    }
+                }
+            }
+
             @include desktop {
                 h2 {
                     scroll-margin-top: 140px;
+                }
+
+                .problem-skin-card {
+                    margin-top: 2*$xl;
+                    box-shadow: none;
+
+                    .psc-content {
+                        .psc-link {
+                            text-align: left;
+                            border: 0;
+                            padding: 0;
+                        }
+                    }
                 }
             }
         }
