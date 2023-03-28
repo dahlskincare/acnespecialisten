@@ -1,0 +1,65 @@
+@import '../../../styles/util/sizes';
+@import '../../../styles/util/colors';
+
+.brand-card-widget {
+  width: 100%;
+  height: auto;
+  font-size: small;
+
+  .containerr {
+    padding-left: 24px;
+    padding-right: 24px;
+
+    .flex-container {
+      display: flex;
+      flex-direction: row;
+
+      .left {
+        flex: 1;
+        margin-bottom: 24px;
+        margin-right: 12px;
+        font-size: small;
+      }
+
+      .right {
+        flex: 1;
+        margin: 0px, 24px, 24px, 0px;
+        margin-bottom: 24px;
+        font-size: small;
+      }
+    }
+
+    .imic {
+      width: 100%;
+      height: 324px;
+    }
+
+    .laser {
+      margin-top: 24px;
+      margin-bottom: 4px;
+      color: rgb(95, 94, 94);
+    }
+
+    .alma {
+      margin-bottom: 8px;
+      font-weight: bold;
+      font-size: medium;
+    }
+
+    .descript {
+      height: 156px;
+      line-height: 24px;
+    }
+
+    .readmore {
+      margin-bottom: 24px;
+      color: #1B8066;
+      font-weight: bold;
+    }
+
+    .hrr {
+      margin-bottom: 24px;
+
+    }
+  }
+}

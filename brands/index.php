@@ -27,7 +27,7 @@
 <body>
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
       <main>
-            <!-- TODO: Page Content Here -->
+            <?php include('widgets/brand_card/brand_card.php') ?>
       </main>
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
 </body>
