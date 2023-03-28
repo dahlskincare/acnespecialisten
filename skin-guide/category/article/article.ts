@@ -8,10 +8,8 @@ headers.forEach((headerEl) => {
     button.className = 'nav-button';
     button.onclick = () => {
         if (window.innerWidth < 800) {
-            //window.scrollTo(0, headerEl.clientTop + window.innerHeight - 100);
             headerEl.scrollIntoView();
         } else {
-            //window.scrollTo(0, headerEl.clientTop + window.innerHeight);¨
             headerEl.scrollIntoView();
         }
     }
