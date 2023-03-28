@@ -94,10 +94,12 @@ html {
 
         section#nav-buttons {
             top: $xl4; // nav height
+            background-color: $white-500;
+            margin: 0 - $m;
+            padding: 0 $m;
 
             #nav-buttons-container {
                 border-bottom: 1px solid $light-200;
-                background-color: $white-500;
 
                 #nav-buttons-scroller {
                     overflow-x: auto;
@@ -176,7 +178,7 @@ html {
                 height: auto;
             }
 
-            .problem-skin-card {
+            .article-card {
                 margin-top: $xl;
                 font-size: 0;
                 display: block;
@@ -189,30 +191,30 @@ html {
                     border-bottom-right-radius: 0;
                 }
 
-                .psc-content {
+                .ac-content {
                     margin: 0;
                     padding: $xl;
                     border: 1px solid $light-200;
                     border-bottom-left-radius: $radius-l;
                     border-bottom-right-radius: $radius-l;
 
-                    .psc-category {
+                    .ac-category {
                         @include p200;
                         color: $dark-200;
                     }
 
-                    .psc-name {
+                    .ac-name {
                         margin-top: $xxs;
                         @include h300;
                     }
 
-                    .psc-desc {
+                    .ac-desc {
                         margin-top: $xs;
                         @include p200;
                     }
 
-                    .psc-link {
-                        @include h200;
+                    .ac-link {
+                        @include h100;
                         display: block;
                         margin-top: $m;
                         color: $deep-sea-400;
@@ -221,6 +223,76 @@ html {
                         border-radius: $radius-s;
                         padding: $s;
                     }
+
+                    hr {
+                        margin: $xl 0;
+                        border: 0;
+                        border-top: 1px solid $light-200;
+                    }
+
+                    .button.expand {
+                        margin-top: $s;
+
+                    }
+                }
+            }
+
+
+            .cta-banner {
+                background-color: $deep-sea-400;
+                padding: $xl;
+                border-radius: $radius-l;
+                color: $white-500;
+                margin-top: $xl3;
+
+                .cta-banner-header {
+                    @include h500;
+                }
+
+                .cta-banner-content {
+                    margin-top: $xs;
+                }
+
+                a.button {
+                    margin-top: $xl;
+                }
+
+                @media screen and (min-width: $tablet) {
+                    padding: $xxl $xl3;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    .cta-banner-texts {
+                        flex: auto;
+
+                        .cta-banner-header {
+                            @include h500;
+                        }
+                    }
+
+                    a.button {
+                        flex: 1;
+                    }
+                }
+            }
+
+            figure {
+                border-left: 3px solid $black-500;
+                padding-left: $xxl;
+                margin-top: $xl3;
+                margin-left: 0;
+
+                blockquote {
+                    @include p400;
+                    margin: 0;
+                }
+
+                figcaption {
+                    margin-top: $m;
+                    @include p100;
+                    font-style: italic;
+                    color: $dark-200;
                 }
             }
 
@@ -229,15 +301,21 @@ html {
                     scroll-margin-top: 140px;
                 }
 
-                .problem-skin-card {
+                .article-card {
                     margin-top: 2*$xl;
                     box-shadow: none;
 
-                    .psc-content {
-                        .psc-link {
+                    .ac-content {
+                        .ac-link {
+                            @include h200;
                             text-align: left;
                             border: 0;
                             padding: 0;
+                        }
+
+                        .button.expand {
+                            margin-top: 0;
+                            @include h200;
                         }
                     }
                 }
