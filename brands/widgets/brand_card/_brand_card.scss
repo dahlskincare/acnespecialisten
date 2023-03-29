@@ -5,15 +5,14 @@
 .brand-card-widget {
   font-size: 0;
 
-  .imic {
+  .img-background {
     width: 100%;
     height: auto;
   }
 
-
-  .containerr {
+  .img-container {
     font-size: small;
-    padding: 0 24px 24px 24px;
+    padding: 0 $xl $xl $xl;
 
     img.overlay {
       // add shadow
@@ -24,52 +23,53 @@
       flex: 0;
     }
 
+    .title-laser {
+      margin-bottom: $xs;
+      color: $dark-200;
+    }
+
+    .title-alma {
+      margin-bottom: $xs;
+      font-weight: bold;
+      font-size: $l;
+    }
+
+    .description {
+      height: 156px;
+      line-height: $xl;
+      margin-bottom: $xl;
+    }
+
+    .div-readmore {
+      margin-bottom: $xl;
+
+      .url-readmore {
+        font-weight: bolder;
+        color: $deep-sea-500;
+      }
+    }
+
+    .line-separation {
+      margin-bottom: $xl;
+    }
+
     .flex-container {
       display: flex;
       flex-direction: row;
 
-      .left {
+      .button-left {
         flex: 1;
-        margin-bottom: 24px;
-        margin-right: 12px;
-        font-size: small;
+        margin-bottom: $xl;
+        margin-right: $s;
+        font-size: 13px;
       }
 
-      .right {
+      .button-right {
         flex: 1;
-        margin: 0px, 24px, 24px, 0px;
-        margin-bottom: 24px;
-        font-size: small;
+        margin: 0 $xl $xl 0;
+        margin-bottom: $xl;
+        font-size: 13px;
       }
-    }
-
-
-
-    .laser {
-      margin-bottom: 4px;
-      color: rgb(95, 94, 94);
-    }
-
-    .alma {
-      margin-bottom: 8px;
-      font-weight: bold;
-      font-size: medium;
-    }
-
-    .descript {
-      height: 156px;
-      line-height: 24px;
-    }
-
-    .readmore {
-      margin-bottom: 24px;
-      color: #1B8066;
-      font-weight: bold;
-    }
-
-    .hrr {
-      margin-bottom: 24px;
-
     }
   }
 }
