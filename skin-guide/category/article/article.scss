@@ -183,7 +183,7 @@ html {
                 font-size: 0;
                 display: block;
                 border-radius: $radius-l;
-                @include elevation-medium;
+                @include elevation-low;
 
                 img {
                     margin: 0;
@@ -294,6 +294,118 @@ html {
                     font-style: italic;
                     color: $dark-200;
                 }
+            }
+
+            .service-banner-touch {
+                @include elevation-low;
+                padding: $xl;
+                font-size: 0;
+                margin-top: $xl;
+
+                div.banner-info {
+                    display: flex;
+                    align-items: center;
+
+                    h4 {
+                        @include h200;
+                    }
+
+                    p {
+                        @include p200;
+                        color: $dark-200;
+                        margin-top: $xxs;
+                        display: flex;
+                        align-items: center;
+
+                        span.dot {
+                            display: inline-block;
+                            margin: 0 $xs;
+                            background-color: $dark-25;
+                            width: 5px;
+                            height: 5px;
+                            border-radius: 50%;
+                        }
+                    }
+
+                    img {
+                        width: 102px;
+                        height: auto;
+                        margin-top: 0;
+                        margin-right: $m;
+                    }
+                }
+
+                p.banner-text {
+                    @include p200;
+                    margin: $m 0;
+                }
+
+                hr {
+                    margin: $xl 0;
+                    border: 0;
+                    border-top: 1px solid $light-200;
+                }
+
+            }
+
+            .service-banner-desktop {
+                border-top: 1px solid $light-200;
+                font-size: 0;
+                padding: $xxl 0;
+                display: flex;
+                align-items: center;
+
+                img {
+                    margin-top: 0;
+                    margin-right: $xl;
+                    width: 200px;
+                    height: auto;
+                }
+
+
+                .banner-info {
+                    margin-right: $xl;
+
+                    h4 {
+                        @include h200;
+                    }
+
+                    .banner-price {
+                        color: $dark-200;
+                        @include p200;
+                        margin-top: $xxs;
+                        display: flex;
+                        align-items: center;
+
+                        span.dot {
+                            display: inline-block;
+                            margin: 0 $xs;
+                            background-color: $dark-25;
+                            width: 5px;
+                            height: 5px;
+                            border-radius: 50%;
+                        }
+                    }
+
+                    .banner-text {
+                        margin-top: $xs;
+                        @include p200;
+                    }
+
+                    .button.text {
+                        padding: $xs 0;
+                    }
+                }
+
+                .banner-buttons {
+                    .button {
+                        margin-top: $xs;
+                    }
+                }
+            }
+
+            .service-banner-desktop:last-child {
+                border-bottom: 1px solid $light-200;
             }
 
             @include desktop {
