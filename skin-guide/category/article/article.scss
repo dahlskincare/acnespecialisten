@@ -544,6 +544,42 @@ html {
                 }
             }
 
+            .faq {
+                margin-top: $xl3;
+
+                .faq-category {
+                    background-color: $light-50;
+                    margin-top: 2px;
+                    border-radius: $radius-s;
+                    overflow: hidden;
+
+                    .faq-title {
+                        padding: $m;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        cursor: pointer;
+                        cursor: pointer;
+
+                        span:first-child {
+                            @include p200;
+                        }
+
+                        span:last-child {
+                            font-size: $xxl;
+                        }
+                    }
+                }
+
+                .faq-category:first-child {
+                    margin-top: 0;
+                }
+
+                .faq-content {
+                    padding: 0 $m $m $m;
+                }
+            }
+
             @include desktop {
                 h2 {
                     scroll-margin-top: 140px;
