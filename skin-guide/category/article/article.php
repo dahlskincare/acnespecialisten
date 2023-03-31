@@ -82,44 +82,6 @@ if ($rs = $conn->query("SELECT * FROM skin_guide_article WHERE id = '" . $_GET['
                     </div>
                 </section>
                 <section id="content">
-                    <div class="columns is-variable is-2">
-                        <div class="column">
-                            <div class="result-overlay">
-                                <div class="ro-images">
-                                    <img src="https://via.placeholder.com/424x424.webp" alt="Before" width="424" height="424" />
-                                    <img class="after" src="https://via.placeholder.com/848x848.webp" alt="After" width="424" height="424" />
-                                    <div class="ro-slider">
-                                        <div class="ro-slider-button">
-                                            <div class="ro-icon-left"></div>
-                                            <div class="ro-icon-right"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ro-info">
-                                    After 2 months of <a href="">acne treatment</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div class="result-overlay">
-                                <div class="ro-images">
-                                    <img src="https://via.placeholder.com/424x424.webp" alt="Before" width="424" height="424" />
-                                    <img class="after" src="https://via.placeholder.com/848x848.webp" alt="After" width="424" height="424" />
-                                    <div class="ro-slider">
-                                        <div class="ro-slider-button">
-                                            <div class="ro-icon-left"></div>
-                                            <div class="ro-icon-right"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ro-info">
-                                    After 2 months of <a href="">acne treatment</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
                     <?php echo $article->content ?>
                 </section>
             </div>
