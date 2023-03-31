@@ -421,12 +421,17 @@ html {
                     position: relative;
 
                     img {
+                        pointer-events: none;
                         position: absolute;
                         top: 50%;
                         margin: -50% 0 0 0;
                         width: 100%;
                         height: auto;
                         border-radius: 0;
+                    }
+
+                    img.after {
+                        clip-path: polygon(50% 0, 100% 0%, 100% 100%, 50% 100%);
                     }
 
                     .ro-slider {
@@ -452,6 +457,7 @@ html {
 
                             .ro-icon-left,
                             .ro-icon-right {
+                                pointer-events: none;
                                 width: $xs;
                                 height: $xs;
                                 transform: rotate(-45deg);

@@ -87,7 +87,7 @@ if ($rs = $conn->query("SELECT * FROM skin_guide_article WHERE id = '" . $_GET['
                             <div class="result-overlay">
                                 <div class="ro-images">
                                     <img src="https://via.placeholder.com/424x424.webp" alt="Before" width="424" height="424" />
-                                    <img src="https://via.placeholder.com/424x424.webp" alt="After" width="424" height="424" />
+                                    <img class="after" src="https://via.placeholder.com/848x848.webp" alt="After" width="424" height="424" />
                                     <div class="ro-slider">
                                         <div class="ro-slider-button">
                                             <div class="ro-icon-left"></div>
@@ -104,7 +104,7 @@ if ($rs = $conn->query("SELECT * FROM skin_guide_article WHERE id = '" . $_GET['
                             <div class="result-overlay">
                                 <div class="ro-images">
                                     <img src="https://via.placeholder.com/424x424.webp" alt="Before" width="424" height="424" />
-                                    <img src="https://via.placeholder.com/424x424.webp" alt="After" width="424" height="424" />
+                                    <img class="after" src="https://via.placeholder.com/848x848.webp" alt="After" width="424" height="424" />
                                     <div class="ro-slider">
                                         <div class="ro-slider-button">
                                             <div class="ro-icon-left"></div>
