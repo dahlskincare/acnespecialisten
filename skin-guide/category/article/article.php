@@ -95,7 +95,8 @@ if ($rs = $conn->query("SELECT * FROM skin_guide_article WHERE id = '" . $_GET['
                                 <div class="pc-content">
                                     Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.
                                 </div>
-                                <a href="problems/acne-scars" class="button outline expand">View more</a>
+                                <a href="problems/acne-scars" class="is-hidden-desktop button outline expand">View more</a>
+                                <a href="problems/acne-scars" class="is-hidden-touch button compact text">View more</a>
                             </div>
                         </div>
                         <div class="column is-half">
