@@ -2,7 +2,7 @@ var Article;
 (function (Article) {
     var content = document.querySelector('#content');
     var headers = content.querySelectorAll('h2');
-    var navButtonsContainer = document.querySelector('#nav-buttons-scroller').querySelector('.flex-row');
+    var navButtons = document.querySelector('#nav-buttons-scroller').querySelector('.flex-row');
     var Anchor = /** @class */ (function () {
         function Anchor(button, slider, after, bounds) {
             this.button = null;
@@ -50,8 +50,38 @@ var Article;
                 headerEl.scrollIntoView();
             }
         };
-        navButtonsContainer.appendChild(button);
+        navButtons.appendChild(button);
     });
+    if (document.body.clientWidth > 800) {
+        var scroller_1 = navButtons.parentElement;
+        var prev_1 = scroller_1.parentElement.querySelector('#scroll-prev');
+        var next_1 = scroller_1.parentElement.querySelector('#scroll-next');
+        scroller_1.addEventListener('scroll', function () {
+            var showNext = scroller_1.scrollWidth - scroller_1.scrollLeft > scroller_1.clientWidth;
+            var showPrevious = scroller_1.scrollLeft > 0;
+            if (showNext) {
+                next_1.classList.remove('is-hidden');
+            }
+            else {
+                next_1.classList.add('is-hidden');
+            }
+            if (showPrevious) {
+                prev_1.classList.remove('is-hidden');
+            }
+            else {
+                prev_1.classList.add('is-hidden');
+            }
+        });
+        prev_1.addEventListener('click', function () {
+            scroller_1.scrollBy(-133, 0);
+        });
+        next_1.addEventListener('click', function () {
+            scroller_1.scrollBy(133, 0);
+        });
+        if (scroller_1.scrollWidth > scroller_1.clientWidth) {
+            next_1.classList.remove('is-hidden');
+        }
+    }
     document.querySelectorAll('.result-overlay').forEach(function (resultOverlay) {
         var button = resultOverlay.querySelector('.ro-slider-button');
         if (button != undefined) {

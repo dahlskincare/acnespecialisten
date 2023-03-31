@@ -108,6 +108,17 @@ html {
             #nav-buttons-container {
                 border-bottom: 1px solid $light-200;
 
+                position: relative;
+
+                .scroll-button {
+                    position: absolute;
+                    top: $s;
+                }
+
+                #scroll-next {
+                    right: 0;
+                }
+
                 #nav-buttons-scroller {
                     overflow-x: auto;
                     scroll-behavior: smooth;
