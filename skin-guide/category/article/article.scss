@@ -171,11 +171,14 @@ html {
                 }
             }
 
+            img {
+                width: 100%;
+                height: auto;
+            }
+
             img.banner-image {
                 border-radius: $radius-l;
                 margin-top: $xl3;
-                width: 100%;
-                height: auto;
             }
 
             .article-card {
