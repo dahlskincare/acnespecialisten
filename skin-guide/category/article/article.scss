@@ -171,7 +171,7 @@ html {
                 }
             }
 
-            img {
+            img.banner-image {
                 border-radius: $radius-l;
                 margin-top: $xl3;
                 width: 100%;
@@ -490,6 +490,49 @@ html {
                         @include h200;
                         text-decoration: underline;
                     }
+                }
+            }
+
+            .problem-card {
+                margin-top: $xl;
+                @include elevation-low;
+                border: 1px solid $light-200;
+                border-radius: $radius-l;
+                padding: $xl;
+
+                .pc-details {
+                    display: flex;
+                    align-items: center;
+
+
+                    img {
+                        width: 102px;
+                        height: auto;
+                        margin-right: $m;
+                        border-radius: $radius-s;
+                        border: 1px solid rgba(0, 0, 0, 0.05);
+                        box-sizing: border-box;
+                    }
+
+                    .pc-title {
+                        @include h200;
+                    }
+
+                    .pc-subtitle {
+                        @include p200;
+                        color: $dark-200;
+                        margin-top: $xxs;
+                    }
+                }
+
+                .pc-content {
+                    margin-top: $m;
+                    @include p200;
+                    color: $dark-400;
+                }
+
+                .button {
+                    margin-top: $m;
                 }
             }
 

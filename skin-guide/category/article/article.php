@@ -82,6 +82,32 @@ if ($rs = $conn->query("SELECT * FROM skin_guide_article WHERE id = '" . $_GET['
                     </div>
                 </section>
                 <section id="content">
+                    <div class="columns is-2 is-variable is-multiline">
+                        <div class="column is-half">
+                            <div class="problem-card">
+                                <div class="pc-details">
+                                    <img src="https://via.placeholder.com/102x102.webp" alt="Hyperpigmentation" width="102" height="102">
+                                    <div>
+                                        <div class="pc-title">Post inflammatory hyperpigmentation</div>
+                                        <div class="pc-subtitle">Also called scars stains</div>
+                                    </div>
+                                </div>
+                                <div class="pc-content">
+                                    Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.
+                                </div>
+                                <a href="problems/acne-scars" class="button outline expand">View more</a>
+                            </div>
+                        </div>
+                        <div class="column is-half">
+                            <p>hello</p>
+                        </div>
+                        <div class="column is-half">
+                            <p>hello</p>
+                        </div>
+                        <div class="column is-half">
+                            <p>hello</p>
+                        </div>
+                    </div>
                     <?php echo $article->content ?>
                 </section>
             </div>
