@@ -82,6 +82,15 @@ if ($rs = $conn->query("SELECT * FROM skin_guide_article WHERE id = '" . $_GET['
                     </div>
                 </section>
                 <section id="content">
+                    <div class="brands">
+                        <div class="columns is-mobile is-multiline">
+                            <div class="column is-6-mobile is-3-tablet is-2-desktop">
+                                <div class="brand">
+                                    <img src="https://via.placeholder.com/116x41.webp" alt="Powerlite" width="116" height="41" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <?php echo $article->content ?>
                 </section>
             </div>
