@@ -3,7 +3,6 @@
 @import '../../../styles/util/mixins';
 
 .skin-guide-widget {
-    margin-top: $xl;
     overflow-x: auto;
     scroll-behavior: smooth;
     scrollbar-width: none;
@@ -84,6 +83,10 @@
         h3 {
             color: $deep-sea-400;
         }
+    }
+
+    @include desktop {
+        margin-top: $xl;
     }
 }
 

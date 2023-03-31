@@ -5,6 +5,13 @@
 html {
     scroll-behavior: smooth;
 
+    @media screen and (min-width: $tablet) {
+        .auto-width {
+            width: auto !important;
+            box-sizing: content-box;
+        }
+    }
+
     section#banner {
         background-color: $deep-sea-400;
         padding: $xxs 0;
@@ -158,7 +165,7 @@ html {
 
             p {
                 margin-top: $m;
-                @include p250;
+                @include p200;
             }
 
             ul,
@@ -599,6 +606,7 @@ html {
             }
 
             @include desktop {
+
                 h2 {
                     scroll-margin-top: 140px;
                 }
@@ -639,6 +647,62 @@ html {
                         border-radius: $radius-l;
                     }
                 }
+            }
+        }
+    }
+
+    section#skin-guide {
+        margin-top: 40px;
+
+        @include desktop {
+            padding-top: 104px;
+            margin-top: 104px;
+            border-top: 1px solid $light-200;
+        }
+    }
+
+    section.large-margin {
+        margin-top: 72px;
+
+        @include desktop {
+            margin-top: 104px;
+        }
+    }
+
+    section#cta-banner {
+        background-color: $deep-sea-400;
+        padding: $xl;
+        border-radius: $radius-l;
+        color: $white-500;
+
+        #cta-banner-header {
+            @include h500;
+        }
+
+        #cta-banner-content {
+            margin-top: $xs;
+        }
+
+        a.button {
+            margin-top: $xl;
+        }
+
+        @media screen and (min-width: $tablet) {
+            padding: $xxl $xl3;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            #cta-banner-texts {
+                flex: auto;
+
+                #cta-banner-header {
+                    @include h500;
+                }
+            }
+
+            a.button {
+                flex: 1;
             }
         }
     }

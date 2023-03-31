@@ -3,6 +3,7 @@
 @import '../../../styles/util/mixins';
 
 .result-widget {
+    margin-top: $xl;
     border-radius: $radius-l;
     border: 1px solid $light-200;
     overflow: hidden;
