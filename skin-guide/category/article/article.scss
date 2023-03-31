@@ -335,6 +335,9 @@ html {
                         height: auto;
                         margin-top: 0;
                         margin-right: $m;
+                        border-radius: $radius-l;
+                        border: 1px solid rgba(0, 0, 0, 0.05);
+                        box-sizing: border-box;
                     }
                 }
 
@@ -348,7 +351,6 @@ html {
                     border: 0;
                     border-top: 1px solid $light-200;
                 }
-
             }
 
             .service-banner-desktop {
@@ -363,6 +365,9 @@ html {
                     margin-right: $xl;
                     width: 200px;
                     height: auto;
+                    border-radius: $radius-l;
+                    border: 1px solid rgba(0, 0, 0, 0.05);
+                    box-sizing: border-box;
                 }
 
 
