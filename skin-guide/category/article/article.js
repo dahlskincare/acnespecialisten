@@ -20,7 +20,6 @@ var Article;
     function onResultOverlayDown(e) {
         var anchor = e.target;
         dragged = new Anchor(anchor, anchor.parentElement, anchor.parentElement.parentElement.children[1], anchor.parentElement.parentElement.getBoundingClientRect());
-        console.log(dragged.bounds.width);
     }
     function onResultOverlayMove(e) {
         if (dragged !== null) {

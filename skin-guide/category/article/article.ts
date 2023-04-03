@@ -27,8 +27,6 @@ namespace Article {
             anchor.parentElement.parentElement.children[1] as HTMLImageElement,
             anchor.parentElement.parentElement.getBoundingClientRect(),
         );
-
-        console.log(dragged.bounds.width);
     }
 
     function onResultOverlayMove(e: Event) {
