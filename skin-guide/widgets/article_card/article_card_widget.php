@@ -1,4 +1,4 @@
-<a class="article-card-widget" href="skin-guide/articles/<?php echo $article->subcategory_id ?>/<?php echo $article->id ?>">
+<a class="article-card-widget" href="skin-guide/<?php echo $article->category_id ?>/<?php echo $article->subcategory_id ?>/<?php echo $article->id ?>">
     <img src="<?php echo $article->image_small ?>" alt="<?php echo $article->title ?>" width="426" height="324" />
     <div class="ac-content">
         <div class="ac-problem"><?php echo $article->problem ?></div>

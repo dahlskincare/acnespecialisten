@@ -7,7 +7,11 @@ if ($conn->connect_errno) {
     exit();
 }
 
-if ($rs = $conn->query("SELECT * FROM skin_guide_article WHERE id = '" . $_GET['id'] . "'")) {
+if ($rs = $conn->query("
+    SELECT article.*, subcategory.category_id 
+    FROM skin_guide_article article
+    INNER JOIN skin_guide_subcategory subcategory ON subcategory.id = article.subcategory_id 
+    WHERE article.id = '" . $_GET['id'] . "'")) {
     if ($rs->num_rows == 1) {
         $article = new SkinGuideArticle($rs->fetch_assoc());
     } else {

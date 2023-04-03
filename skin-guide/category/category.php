@@ -52,9 +52,10 @@ if ($rs = $conn->query(sprintf("
 }
 $pages = ceil($num_articles / $pagesize);
 if ($rs = $conn->query(sprintf("
-    SELECT article.* 
+    SELECT article.*, subcategory.category_id 
     FROM skin_guide_article article
     INNER JOIN skin_guide_subcategory subcategory ON article.subcategory_id = subcategory.id 
+    INNER JOIN skin_guide_category category ON category.id = subcategory.category_id
     WHERE subcategory.category_id = '%s'
     ORDER BY article.ranking ASC LIMIT %d, %d
 ", $category_id, ($page - 1) * $pagesize, $pagesize))) {

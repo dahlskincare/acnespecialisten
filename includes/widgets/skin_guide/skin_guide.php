@@ -5,7 +5,10 @@ if (!isset($skin_guide_articles)) {
         echo "Failed to connect to MySQL: " . $conn->connect_error;
         exit();
     }
-    if ($rs = $conn->query("SELECT * FROM skin_guide_article LIMIT 4")) {
+    if ($rs = $conn->query("
+    SELECT article.*, subcategory.category_id FROM skin_guide_article article
+    INNER JOIN skin_guide_subcategory subcategory ON subcategory.id = article.subcategory_id  
+    LIMIT 4")) {
         foreach ($rs as $row) {
             $skin_guide_articles[] = new SkinGuideArticle($row);
         }
@@ -20,7 +23,7 @@ if (!isset($skin_guide_articles)) {
     <div class="columns is-3 is-variable">
         <?php foreach ($skin_guide_articles as $article) { ?>
             <div class="column is-one-quarter">
-                <a href="skin-guide/articles/<?php echo $article->subcategory_id ?>/<?php echo $article->id ?>" class="skin-guide-article">
+                <a href="skin-guide/<?php echo $article->category_id ?>/<?php echo $article->subcategory_id ?>/<?php echo $article->id ?>" class="skin-guide-article">
                     <div class="image-container">
                         <picture>
                             <source media="(max-width: 799px)" srcset="<?php echo $article->image_small ?>">

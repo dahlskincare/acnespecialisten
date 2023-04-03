@@ -35,7 +35,11 @@ if ($rs = $conn->query(sprintf("SELECT COUNT(id) as cnt FROM skin_guide_article 
     die($conn->error);
 }
 $pages = ceil($num_articles / $pagesize);
-if ($rs = $conn->query(sprintf("SELECT * FROM skin_guide_article WHERE %s ORDER BY ranking ASC LIMIT %d, %d", $where, ($page - 1) * $pagesize, $pagesize))) {
+if ($rs = $conn->query(sprintf("
+    SELECT article.*, subcategory.category_id FROM skin_guide_article article
+    INNER JOIN skin_guide_subcategory subcategory ON subcategory.id = article.subcategory_id     
+    WHERE %s ORDER BY ranking ASC LIMIT %d, %d
+", $where, ($page - 1) * $pagesize, $pagesize))) {
     foreach ($rs as $row) {
         $articles[] = new SkinGuideArticle($row);
     }
