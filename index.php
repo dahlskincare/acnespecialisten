@@ -133,6 +133,9 @@
                         </a>
                   </section>
                   <section id="results">
+                        <?php
+                        include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results.php');
+                        ?>
                         <div class="is-hidden-tablet">
                               <div class="flex-row justify-space-between">
                                     <div class="h500 l10n">Results</div>
