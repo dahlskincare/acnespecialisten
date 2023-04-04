@@ -256,7 +256,7 @@ $conn->close();
                     </div>
                 <?php } ?>
                 <div id="paginator">
-                    <?php include('widgets/paginator/paginator.php'); ?>
+                    <?php include('../skin-guide/widgets/paginator/paginator.php'); ?>
                 </div>
             </section>
             <section id="cta-banner" class="large-margin">

@@ -97,10 +97,10 @@ if ($rs = $conn->query(sprintf($query, $result_category->id, ($page - 1) * $page
         $after_images = json_decode($row['after_images']);
         $customer = new ResultCustomer(
             id: $row['id'],
-            slider_image_before_small: $row['image_before_small'],
-            slider_image_after_small: $row['image_after_small'],
-            slider_image_before_large: $row['image_before_large'],
-            slider_image_after_large: $row['image_after_large'],
+            slider_image_before_small: $row['slider_image_before_small'],
+            slider_image_after_small: $row['slider_image_after_small'],
+            slider_image_before_large: $row['slider_image_before_large'],
+            slider_image_after_large: $row['slider_image_after_large'],
             age: $row['age'],
             gender: $row['gender'],
             problem: $row['problem'],
@@ -223,7 +223,7 @@ $conn->close();
                     </div>
                 <?php } ?>
                 <div id="paginator">
-                    <?php include('../widgets/paginator/paginator.php'); ?>
+                    <?php include('../../skin-guide/widgets/paginator/paginator.php'); ?>
                 </div>
             </section>
             <section id="cta-banner" class="large-margin">
