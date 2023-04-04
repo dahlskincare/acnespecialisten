@@ -1,13 +1,16 @@
 <?php
 
 if (!isset($results)) {
+    if (!isset($result_count)) {
+        $result_count = 3;
+    }
     $results = array();
     $conn = new mysqli($_ENV['DB_URL'], $_ENV['DB_USER'], $_ENV['DB_PASSWORD'], database: $_ENV['DB_NAME']);
     if ($conn->connect_errno) {
         echo "Failed to connect to MySQL: " . $conn->connect_error;
         exit();
     }
-    if ($rs = $conn->query("
+    if ($rs = $conn->query(sprintf("
         SELECT customer.*, 
         treatment.id AS treatment_id, treatment.duration AS treatment_duration,
         employee.name AS employee_name, employee.image AS employee_image,
@@ -20,8 +23,8 @@ if (!isset($results)) {
         INNER JOIN ix_result_treatment_procedure AS ix ON ix.result_treatment_id = treatment.id
         GROUP BY customer.id
         ORDER BY id ASC
-        LIMIT 0, 3
-    ")) {
+        LIMIT 0, %s
+    ", $result_count))) {
         foreach ($rs as $row) {
             $before_images = json_decode($row['before_images']);
             $after_images = json_decode($row['after_images']);

@@ -133,10 +133,9 @@
                         </a>
                   </section>
                   <section id="results">
-                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results.php'); ?>
+                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results.php') ?>
                   </section>
                   <section id="reviews">
-
                         <div class="flex-row align-end justify-space-between">
                               <div class="h500 l10n">Reviews</div>
                               <div class="flex-row is-hidden-mobile">

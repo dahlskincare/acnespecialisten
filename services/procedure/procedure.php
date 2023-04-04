@@ -75,14 +75,7 @@ $faq_categories = array(
         new Question('Do I have acne even if I only have one pimple?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.')
     )
 );
-$skin_guide_articles = array(
-    new SkinGuideArticle('How hormones affect?', 'Problem skin', 'skin-guide/hormones-effect', 'images/skin-guide/small/hormones.jpg', 'images/skin-guide/large/hormones.jpg'),
-    new SkinGuideArticle('Can makeup harm your skin?', 'Problem skin', 'skin-guide/can-makeup-harm', 'images/skin-guide/small/makeup.jpg', 'images/skin-guide/large/makeup.jpg'),
-    new SkinGuideArticle('How to build a skin care routine', 'Problem skin', 'skin-guide/routine-how-to', 'images/skin-guide/small/routine.jpg', 'images/skin-guide/large/routine.jpg'),
-    new SkinGuideArticle('How to build a skin care routine', 'Problem skin', 'skin-guide/routine-how-to', 'images/skin-guide/small/routine.jpg', 'images/skin-guide/large/routine.jpg'),
-    new SkinGuideArticle('How to build a skin care routine', 'Problem skin', 'skin-guide/routine-how-to', 'images/skin-guide/small/routine.jpg', 'images/skin-guide/large/routine.jpg'),
-    new SkinGuideArticle('How to build a skin care routine', 'Problem skin', 'skin-guide/routine-how-to', 'images/skin-guide/small/routine.jpg', 'images/skin-guide/large/routine.jpg')
-);
+
 $specialists = array(
     new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-1.jpg', 'images/specialists/large/specialist-1.jpg'),
     new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-1.jpg', 'images/specialists/large/specialist-2.jpg'),
@@ -313,44 +306,10 @@ $specialists = array(
                     </section>
                 <?php } ?>
                 <section id="results" class="large-margin">
-                    <div class="flex-row justify-space-between">
-                        <h2 class="big l10n">Results</h2>
-                        <div class="step-buttons">
-                            <button class="round-large grey" onclick="Carousel.prev('#results-carousel')">
-                                <?php icon('arrow-left') ?>
-                            </button>
-                            <button class="round-large grey" onclick="Carousel.next('#results-carousel')">
-                                <?php icon('arrow-right') ?>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="carousel" id="results-carousel">
-                        <div class="slide l10n">
-                            <?php
-                            $before = 'images/results/acne-before.webp';
-                            $after = 'images/results/acne-after.webp';
-                            $label = 'After two months of <a href="problems/acne/treatment">acne treatment</a>';
-                            include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
-                            ?>
-                        </div>
-                        <div class="slide l10n">
-                            <?php
-                            $before = 'images/results/rosacea-before.webp';
-                            $after = 'images/results/rosacea-after.webp';
-                            $label = 'After two months of <a href="problems/rosacea/treatment">rosacea treatment</a>';
-                            include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
-                            ?>
-                        </div>
-                        <div class="slide l10n">
-                            <?php
-                            $before = 'images/results/comedones-before.webp';
-                            $after = 'images/results/comedones-after.webp';
-                            $label = 'After two months of <a href="problems/comedeons/treatment">comedones treatment</a>';
-                            include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
-                            ?>
-                        </div>
-                    </div>
-                    <a class="button b200 outline l10n" href="results">View all treatment results</a>
+                    <?php
+                    $result_count = 2;
+                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results.php')
+                    ?>
                 </section>
                 <section id="reviews" class="large-margin">
                     <div class="flex-row align-end justify-space-between">

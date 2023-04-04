@@ -402,44 +402,10 @@ $related_problems = array(
                               <?php } ?>
                         </section>
                         <section id="results">
-                              <div class="flex-row justify-space-between">
-                                    <h2 class="big l10n">Results</h2>
-                                    <div class="step-buttons">
-                                          <button class="round-large grey" onclick="Carousel.prev('#results-carousel')">
-                                                <?php icon('arrow-left') ?>
-                                          </button>
-                                          <button class="round-large grey" onclick="Carousel.next('#results-carousel')">
-                                                <?php icon('arrow-right') ?>
-                                          </button>
-                                    </div>
-                              </div>
-                              <div class="carousel" id="results-carousel">
-                                    <div class="slide l10n">
-                                          <?php
-                                          $before = 'images/results/acne-before.webp';
-                                          $after = 'images/results/acne-after.webp';
-                                          $label = 'After two months of <a href="problems/acne/treatment">acne treatment</a>';
-                                          include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
-                                          ?>
-                                    </div>
-                                    <div class="slide l10n">
-                                          <?php
-                                          $before = 'images/results/rosacea-before.webp';
-                                          $after = 'images/results/rosacea-after.webp';
-                                          $label = 'After two months of <a href="problems/rosacea/treatment">rosacea treatment</a>';
-                                          include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
-                                          ?>
-                                    </div>
-                                    <div class="slide l10n">
-                                          <?php
-                                          $before = 'images/results/comedones-before.webp';
-                                          $after = 'images/results/comedones-after.webp';
-                                          $label = 'After two months of <a href="problems/comedeons/treatment">comedones treatment</a>';
-                                          include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
-                                          ?>
-                                    </div>
-                              </div>
-                              <a class="button b200 outline l10n" href="results">View all treatment results</a>
+                              <?php
+                              $result_count = 2;
+                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results.php');
+                              ?>
                         </section>
                         <section id="reviews">
                               <div class="flex-row align-end justify-space-between">
