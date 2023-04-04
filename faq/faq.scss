@@ -1,0 +1,98 @@
+@import '../styles/util/colors';
+@import '../styles/util/sizes';
+@import '../styles/util/mixins';
+
+section#banner {
+    background-color: $deep-sea-400;
+    padding: $xxs 0;
+
+    .badges-widget {
+        flex: 1;
+
+        .badge {
+            @include button-text-color($white-500);
+            color: $white-500;
+            background-color: transparent;
+        }
+
+        .badge:first-child {
+            padding-left: 0;
+        }
+
+        .badge:last-child {
+            padding-right: 0;
+        }
+    }
+
+    @include desktop {
+        .badges-widget {
+            flex: 0;
+        }
+
+        .breadcrumbs-widget {
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+    }
+}
+
+section#cta {
+    background-color: $deep-sea-400;
+    padding: $xl;
+    border-radius: $radius-l;
+    color: $white-500;
+
+    #cta-banner-header {
+        @include h500;
+    }
+
+    #cta-banner-content {
+        margin-top: $xs;
+    }
+
+    a.button {
+        margin-top: $xl;
+    }
+
+    @media screen and (min-width: $tablet) {
+        padding: $xxl $xl3;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        #cta-banner-texts {
+            flex: auto;
+
+            #cta-banner-header {
+                @include h500;
+            }
+        }
+
+        a.button {
+            margin-top: 0;
+            flex: 1;
+        }
+    }
+}
+
+section#title {
+    margin-top: $xl;
+}
+
+section.large-margin {
+    margin-top: 72px;
+}
+
+@include desktop {
+    section#title {
+        margin-top: $xl3;
+    }
+
+    section#faq {
+        margin-top: $xl3;
+    }
+
+    section.large-margin {
+        margin-top: 104px;
+    }
+}
