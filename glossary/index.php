@@ -116,7 +116,7 @@ $glossary_items = array(
                                 </div>
                             <?php } ?>
                         </div>
-                    <? } ?>
+                    <?php } ?>
                 </section>
             </div>
             <section id="cta" class="large-margin">
