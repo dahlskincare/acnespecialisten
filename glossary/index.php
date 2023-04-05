@@ -1,7 +1,58 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
-$letters = array('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'å', 'ä', 'ö');
+$glossary_items = array(
+    'a' => array(
+        new GlossaryItem(
+            title: 'Acne treatment',
+            description: "Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments. We hereby present our new department Nordiska Kliniken Hud Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments. We hereby present our new department Nordiska Kliniken Hud...",
+            description_extended: "Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments. We hereby present our new department Nordiska Kliniken Hud Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments. We hereby present our new department Nordiska Kliniken Hud..."
+        ),
+        new GlossaryItem(
+            title: 'Acne treatment',
+            image_small: 'https://via.placeholder.com/102x102.webm',
+            image_large: 'https://via.placeholder.com/200x200.webm',
+            description: "Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments. We hereby present our new department Nordiska Kliniken Hud Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments. We hereby present our new department Nordiska Kliniken Hud...",
+            description_extended: "Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments. We hereby present our new department Nordiska Kliniken Hud Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments. We hereby present our new department Nordiska Kliniken Hud..."
+        ),
+    ),
+    'b' => array(
+        new GlossaryItem(
+            title: 'Bacne treatment',
+            image_small: 'https://via.placeholder.com/102x102.webm',
+            image_large: 'https://via.placeholder.com/200x200.webm',
+            description: "Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments. We hereby present our new department Nordiska Kliniken Hud Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments. We hereby present our new department Nordiska Kliniken Hud...",
+            description_extended: "Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments. We hereby present our new department Nordiska Kliniken Hud Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments. We hereby present our new department Nordiska Kliniken Hud..."
+        ),
+    ),
+    'c' => array(),
+    'd' => array(),
+    'e' => array(),
+    'f' => array(),
+    'g' => array(),
+    'h' => array(),
+    'i' => array(),
+    'j' => array(),
+    'k' => array(),
+    'l' => array(),
+    'm' => array(),
+    'n' => array(),
+    'o' => array(),
+    'p' => array(),
+    'q' => array(),
+    'r' => array(),
+    's' => array(),
+    't' => array(),
+    'u' => array(),
+    'v' => array(),
+    'w' => array(),
+    'x' => array(),
+    'y' => array(),
+    'z' => array(),
+    'å' => array(),
+    'ä' => array(),
+    'ö' => array(),
+)
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
@@ -39,11 +90,33 @@ $letters = array('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm'
                 <section id="letters">
                     <div id="letter-selector-scroller">
                         <div id="letter-selector">
-                            <?php foreach ($letters as $letter) { ?>
-                                <div class="letter" id="letter-<?php echo $letter ?>"><?php echo $letter ?></div>
+                            <?php foreach ($glossary_items as $letter => $_items) { ?>
+                                <div class="letter" id="<?php echo $letter ?>"><?php echo $letter ?></div>
                             <? } ?>
                         </div>
                     </div>
+                </section>
+                <section id="glossary-items">
+                    <?php foreach ($glossary_items as $letter => $items) { ?>
+                        <div class="item-category" id="category-<?php echo $letter ?>">
+                            <?php foreach ($items as $item) { ?>
+                                <div class="item">
+                                    <?php if (isset($item->image_large)) { ?>
+                                        <picture>
+                                            <source media="(max-width: 799px)" srcset="<?php echo $item->image_small ?>">
+                                            <source media="(min-width: 800px)" srcset="<?php echo $item->image_large ?>">
+                                            <img src="<?php echo $item->image_large ?>" alt="<?php echo $item->title ?>" width="102" height="102" />
+                                        </picture>
+
+                                    <?php } ?>
+                                    <h2><?php echo $item->title ?></h2>
+                                    <p><?php echo $item->description ?></p>
+                                    <div class="button text compact l10n" onclick="Glossary.onShowMoreClick(this)">Read more</div>
+                                    <p class="extended is-hidden"><?php echo $item->description_extended ?></p>
+                                </div>
+                            <?php } ?>
+                        </div>
+                    <? } ?>
                 </section>
             </div>
             <section id="cta" class="large-margin">
@@ -80,6 +153,17 @@ $letters = array('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm'
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
                 <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="reviews">View all reviews</a>
             </section>
+            <section id="faq" class="large-margin">
+                <div class="flex-row align-end justify-space-between">
+                    <h2 class="big l10n">Questions & answers</h2>
+                    <a href="faq" class="button compact text is-hidden-mobile">
+                        <span class="l10n">View all questions</span>
+                        <?php icon('navigate-next') ?>
+                    </a>
+                </div>
+                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
+                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="faq">View all questions</a>
+            </section>
             <section id="skin-guide" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
                     <div class="h500 l10n">Skin guide</div>
@@ -90,6 +174,17 @@ $letters = array('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm'
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php'); ?>
                 <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="skin-guide">View all articles</a>
+            </section>
+            <section id="specialists" class="large-margin">
+                <div class="flex-row align-end justify-space-between">
+                    <h2 class="big l10n">Our specialists</h2>
+                    <a href="specialists" class="button compact text is-hidden-mobile">
+                        <span class="l10n">View all specialists</span>
+                        <?php icon('navigate-next') ?>
+                    </a>
+                </div>
+                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php'); ?>
+                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialists">View all specialists</a>
             </section>
             <section id="brands" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
