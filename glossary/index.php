@@ -92,7 +92,7 @@ $glossary_items = array(
                         <div id="letter-selector">
                             <?php foreach ($glossary_items as $letter => $_items) { ?>
                                 <div class="letter" id="<?php echo $letter ?>"><?php echo $letter ?></div>
-                            <? } ?>
+                            <?php } ?>
                         </div>
                     </div>
                 </section>
