@@ -43,8 +43,144 @@ section#banner {
 div#content {
     margin: 0 auto;
     max-width: 872px;
-}
 
+    section#title {
+        margin-top: $xl;
+
+        p {
+            margin-top: $xs;
+        }
+
+        @include desktop {
+            p {
+                margin-top: $s;
+            }
+        }
+    }
+
+    section#plant {
+        img {
+            margin-top: $xl;
+            width: 100%;
+            height: auto;
+            border-radius: $radius-l;
+        }
+
+        @include desktop {
+            img {
+                margin-top: $xl3;
+            }
+        }
+    }
+
+    section#segments {
+        #segments-flex {
+            display: flex;
+
+            picture {
+                width: 100%;
+            }
+
+            img {
+                flex: 1;
+                border-radius: $radius-l;
+                width: 100%;
+                height: auto;
+            }
+
+            #s-first-two {
+                flex: 2;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+
+                #s-first-images {
+                    display: flex;
+                    align-items: flex-end;
+
+                    picture:first-child {
+                        margin-right: $xxs;
+                    }
+
+                    picture:last-child {
+                        margin-left: $xxs;
+                        margin-right: $xxs;
+                    }
+                }
+            }
+
+            #s-last {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+
+                picture {
+                    margin-left: $xxs;
+                }
+            }
+
+            @media screen and (min-width: $tablet) {
+                #s-first-two {
+                    justify-content: space-between;
+
+                    #s-first-two-text {
+                        max-width: 400px;
+
+                        p {
+                            margin-top: $m;
+                        }
+                    }
+
+                    #s-first-images {
+                        margin-top: $xl3;
+                    }
+                }
+
+            }
+
+            @include desktop {
+                #s-first-two {
+                    #s-first-two-text {
+                        max-width: 423px;
+                    }
+
+                    #s-first-images {
+                        picture:first-child {
+                            margin-right: $xs;
+                        }
+
+                        picture:last-child {
+                            margin-left: $xs;
+                            margin-right: $xs;
+                        }
+                    }
+                }
+
+                #s-last {
+                    picture {
+                        margin-left: $xs;
+                    }
+                }
+            }
+        }
+    }
+
+    section#hands {
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: $radius-l;
+            margin-top: $xl;
+        }
+
+        @include desktop {
+            img {
+                margin-top: $xl3;
+            }
+        }
+    }
+}
 
 section#cta {
     background-color: $deep-sea-400;
@@ -83,10 +219,6 @@ section#cta {
             flex: 1;
         }
     }
-}
-
-section#title {
-    margin-top: $xl;
 }
 
 section.large-margin {

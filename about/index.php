@@ -6,7 +6,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 
 <head>
     <!-- TODO: Set title and meta tags -->
-    <title class="l10n">Acnespecialisten | About us</title>
+    <title class="l10n">Acnespecialisten | About</title>
     <meta name="description" content="" class="l10n">
     <meta name="title" content="" class="l10n">
     <meta name="keywords" content="" class="l10n">
@@ -33,6 +33,55 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
             <div id="content">
                 <section id="title">
                     <h1 class="h600 l10n">About us</h1>
+                    <p class="p200 l10n">At Acnespecialisten there is an experienced and well-educated group of doctors with specialist skills and broad experience from the aesthetic and reconstructive industry.</p>
+                </section>
+                <section id="plant">
+                    <picture>
+                        <source media="(max-width: 799px)" srcset="about/images/about-plant.jpg">
+                        <source media="(min-width: 800px)" srcset="about/images/about-plant-large.jpg">
+                        <img src="images/about/about-plant.jpg" alt="About us" width="360" height="274" />
+                    </picture>
+                </section>
+                <section id="segments" class="large-margin">
+                    <h2 class="h500 mb-l is-hidden-tablet l10n">What does our three-step method entail?</h2>
+                    <div id="segments-flex">
+                        <div id="s-first-two">
+                            <div id="s-first-two-text" class="is-hidden-mobile">
+                                <h2 class="h500 l10n">What does our three-step method entail?</h2>
+                                <p class="p200 l10n">Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments.</p>
+                            </div>
+                            <div id="s-first-images">
+                                <picture>
+                                    <source media="(max-width: 799px)" srcset="about/images/segments-left.jpg">
+                                    <source media="(min-width: 800px)" srcset="about/images/segments-left-large.jpg">
+                                    <img src="images/about/segments-left.jpg" alt="Segment 1" width="114" height="214" />
+                                </picture>
+                                <picture>
+                                    <source media="(max-width: 799px)" srcset="about/images/segments-mid.jpg">
+                                    <source media="(min-width: 800px)" srcset="about/images/segments-mid-large.jpg">
+                                    <img src="images/about/segments-mid.jpg" alt="Segment 2" width="114" height="157" />
+                                </picture>
+                            </div>
+                        </div>
+                        <div id="s-last">
+                            <picture>
+                                <source media="(max-width: 799px)" srcset="about/images/segments-right.jpg">
+                                <source media="(min-width: 800px)" srcset="about/images/segments-right-large.jpg">
+                                <img src="images/about/segments-right.jpg" alt="Segment 2" width="114" height="272" />
+                            </picture>
+                        </div>
+                    </div>
+                    <p class="mt-xl p200 is-hidden-tablet l10n">Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments.</p>
+                </section>
+                <section id="hands" class="large-margin">
+                    <h2 class="h500 l10n">We are aiming for the goal!</h2>
+                    <p class="mt-m p200 l10n is-hidden-mobile">Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments. We hereby present our new department Nordiska Kliniken Hud Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery.</p>
+                    <picture>
+                        <source media="(max-width: 799px)" srcset="about/images/about-hands.jpg">
+                        <source media="(min-width: 800px)" srcset="about/images/about-hands-large.jpg">
+                        <img src="images/about/about-hands.jpg" alt="Aiming for the goal" width="358" height="274" />
+                    </picture>
+                    <p class="p200 mt-xl l10n is-hidden-tablet">Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments. We hereby present our new department Nordiska Kliniken Hud Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery.</p>
                 </section>
             </div>
             <section id="cta" class="large-margin">
