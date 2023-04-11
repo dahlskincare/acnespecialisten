@@ -29,7 +29,6 @@ $result_category =
         title: 'Customer results',
         description_1: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
         description_2: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
-        results: array()
     );
 
 $category_links = array(
@@ -173,11 +172,6 @@ $results_per_page = array(
         ),
     )
 );
-
-
-
-
-
 
 $pages = sizeof($results_per_page);
 ?>

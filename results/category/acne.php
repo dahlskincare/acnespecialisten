@@ -4,7 +4,7 @@
 
 <head>
     <!-- TODO: Set title and meta tags -->
-    <title class="l10n">Acnespecialisten | Customer results</title>
+    <title class="l10n">Acnespecialisten | Acne results</title>
     <meta name="description" content="" class="l10n">
     <meta name="title" content="" class="l10n">
     <meta name="keywords" content="" class="l10n">
@@ -22,153 +22,151 @@ $specialists = array(
     new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-3.jpg', 'images/specialists/large/specialist-3.jpg'),
     new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-4.jpg', 'images/specialists/large/specialist-4.jpg')
 );
+$result_category =
+    new ResultCategory(
+        id: 'acne',
+        title: 'Acne results',
+        description_1: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
+        description_2: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
+    );
 
-$conn = new mysqli($_ENV['DB_URL'], $_ENV['DB_USER'], $_ENV['DB_PASSWORD'], database: $_ENV['DB_NAME']);
-if ($conn->connect_errno) {
-    echo "Failed to connect to MySQL: " . $conn->connect_error;
-    exit();
-}
-
-if ($rs = $conn->query(sprintf("SELECT * FROM result_category WHERE id = '%s' LIMIT 1", $_GET['id']))) {
-    if ($rs->num_rows == 1) {
-
-        $row = $rs->fetch_assoc();
-        $result_category = new ResultCategory(
-            id: $row['id'],
-            title: $row['title'] . '<br />results',
-            description_1: $row['description_1'],
-            description_2: $row['description_2'],
-            results: array()
-        );
-    } else {
-        http_response_code(404);
-        die('Page not found');
-    }
-} else {
-    die($conn->error);
-}
-
-if ($rs = $conn->query(sprintf("SELECT COUNT(id) AS cnt FROM result_customer WHERE result_category_id = '%s'", $result_category->id))) {
-    $num_result_customers = $rs->fetch_assoc()['cnt'];
-    $rs->free_result();
-} else {
-    die($conn->error);
-}
 if (isset($_GET['page']) && $_GET['page'] > 0) {
     $page = $_GET['page'];
 } else {
     $page = 1;
 }
-if (isset($_GET['pagesize'])) {
-    $pagesize = $_GET['pagesize'];
-} else {
-    $pagesize = 2;
-}
-$pages = ceil($num_result_customers / $pagesize);
 
-$all_procedures = array();
-if ($rs = $conn->query("SELECT * FROM result_procedure")) {
-    foreach ($rs as $row) {
-        $all_procedures[$row['id']] = new ResultProcedure(id: $row['id'], image: $row['image'], name: $row['name'], count: $row['count']);
-    }
-    $rs->free_result();
-} else {
-    die($conn->error);
-}
-
-$query = "SELECT customer.*, 
-    treatment.id AS treatment_id, treatment.duration AS treatment_duration,
-    employee.name AS employee_name, employee.image AS employee_image,
-    product.name AS product_name, product.image AS product_image,    
-    JSON_ARRAYAGG(ix.result_procedure_id) AS procedure_ids
-    FROM result_customer AS customer
-    INNER JOIN result_treatment AS treatment ON treatment.id = customer.result_treatment_id
-    INNER JOIN result_employee AS employee ON employee.id = treatment.result_employee_id
-    INNER JOIN result_product AS product ON product.id = treatment.result_product_id    
-    INNER JOIN ix_result_treatment_procedure AS ix ON ix.result_treatment_id = treatment.id
-    WHERE customer.result_category_id = '%s'
-    GROUP BY customer.id
-    ORDER BY id ASC
-    LIMIT %d, %d";
-
-if ($rs = $conn->query(sprintf($query, $result_category->id, ($page - 1) * $pagesize, $pagesize))) {
-    foreach ($rs as $row) {
-        $before_images = json_decode($row['before_images']);
-        $after_images = json_decode($row['after_images']);
-        $customer = new ResultCustomer(
-            id: $row['id'],
-            slider_image_before_small: $row['slider_image_before_small'],
-            slider_image_after_small: $row['slider_image_after_small'],
-            slider_image_before_large: $row['slider_image_before_large'],
-            slider_image_after_large: $row['slider_image_after_large'],
-            age: $row['age'],
-            gender: $row['gender'],
-            problem: $row['problem'],
-            type: $row['type'],
+$results_per_page = array(
+    1 => array(
+        new ResultCustomer(
+            id: '1',
+            image_before_small: 'https://via.placeholder.com/178x238.webm',
+            image_after_small: 'https://via.placeholder.com/178x238.webm',
+            image_before_large: 'https://via.placeholder.com/372x496.webm',
+            image_after_large: 'https://via.placeholder.com/372x496.webm',
+            age: 18,
+            gender: 'Female',
+            problem: 'Acne',
+            type: 'Severe',
             treatment: new ResultTreatment(
-                id: $row['treatment_id'],
-                duration: $row['treatment_duration'],
-                procedures: array(),
+                duration: '3 months',
+                procedures: array(
+                    new ResultProcedure(
+                        id: 1,
+                        image: 'https://via.placeholder.com/102x102.webm',
+                        name: 'Problem skin facials',
+                        count: '3 times'
+                    ),
+                ),
                 product: new ResultProduct(
-                    image: $row['product_image'],
-                    name: $row['product_name']
+                    image: 'https://via.placeholder.com/102x102.webm',
+                    name: 'Product bundle for light acne',
                 ),
                 employee: new ResultEmployee(
-                    image: $row['employee_image'],
-                    name: $row['employee_name']
+                    image: 'https://via.placeholder.com/102x102.webm',
+                    name: 'Patrick Minogue'
                 ),
-                visits: array()
-            ),
-            before_images: new ResultImages(
-                image_left_small: $before_images->image_left_small,
-                image_right_small: $before_images->image_right_small,
-                image_left_large: $before_images->image_left_large,
-                image_right_large: $before_images->image_right_large
-            ),
-            after_images: new ResultImages(
-                image_left_small: $after_images->image_left_small,
-                image_right_small: $after_images->image_right_small,
-                image_left_large: $after_images->image_left_large,
-                image_right_large: $after_images->image_right_large
             )
-        );
-        // Populate procedures
-        foreach (json_decode($row['procedure_ids']) as $id) {
-            array_push($customer->treatment->procedures, $all_procedures[$id]);
-        }
-
-        // Populate visits
-        if ($result = $conn->query("SELECT * FROM result_visit WHERE result_treatment_id = " . $customer->treatment->id)) {
-            foreach ($result as $visit) {
-                $images = json_decode($visit['images']);
-
-                array_push($customer->treatment->visits, new ResultVisit(
-                    id: $visit['id'],
-                    date: $visit['date'],
-                    images: new ResultImages(
-                        image_left_small: $images->image_left_small,
-                        image_right_small: $images->image_right_small,
-                        image_left_large: $images->image_left_large,
-                        image_right_large: $images->image_right_large
+        ),
+        new ResultCustomer(
+            id: '2',
+            image_before_small: 'https://via.placeholder.com/178x238.webm',
+            image_after_small: 'https://via.placeholder.com/178x238.webm',
+            image_before_large: 'https://via.placeholder.com/372x496.webm',
+            image_after_large: 'https://via.placeholder.com/372x496.webm',
+            age: 18,
+            gender: 'Female',
+            problem: 'Acne',
+            type: 'Severe',
+            treatment: new ResultTreatment(
+                duration: '3 months',
+                procedures: array(
+                    new ResultProcedure(
+                        id: 1,
+                        image: 'https://via.placeholder.com/102x102.webm',
+                        name: 'Problem skin facials',
+                        count: '3 times'
                     ),
-                    title: $visit['title'],
-                    description: $visit['description'],
-                    read_more_url: $visit['read_more_url'],
-                    read_more_label: $visit['read_more_label']
-                ));
-            }
+                ),
+                product: new ResultProduct(
+                    image: 'https://via.placeholder.com/102x102.webm',
+                    name: 'Product bundle for light acne',
+                ),
+                employee: new ResultEmployee(
+                    image: 'https://via.placeholder.com/102x102.webm',
+                    name: 'Patrick Minogue'
+                ),
+            )
+        ),
+    ),
+    2 => array(
+        new ResultCustomer(
+            id: '3',
+            image_before_small: 'https://via.placeholder.com/178x238.webm',
+            image_after_small: 'https://via.placeholder.com/178x238.webm',
+            image_before_large: 'https://via.placeholder.com/372x496.webm',
+            image_after_large: 'https://via.placeholder.com/372x496.webm',
+            age: 18,
+            gender: 'Female',
+            problem: 'Acne',
+            type: 'Severe',
+            treatment: new ResultTreatment(
+                duration: '3 months',
+                procedures: array(
+                    new ResultProcedure(
+                        id: 1,
+                        image: 'https://via.placeholder.com/102x102.webm',
+                        name: 'Problem skin facials',
+                        count: '3 times'
+                    ),
+                ),
+                product: new ResultProduct(
+                    image: 'https://via.placeholder.com/102x102.webm',
+                    name: 'Product bundle for light acne',
+                ),
+                employee: new ResultEmployee(
+                    image: 'https://via.placeholder.com/102x102.webm',
+                    name: 'Patrick Minogue'
+                ),
+            )
+        ),
+    ),
+    3 => array(
+        new ResultCustomer(
+            id: '4',
+            image_before_small: 'https://via.placeholder.com/178x238.webm',
+            image_after_small: 'https://via.placeholder.com/178x238.webm',
+            image_before_large: 'https://via.placeholder.com/372x496.webm',
+            image_after_large: 'https://via.placeholder.com/372x496.webm',
+            age: 18,
+            gender: 'Female',
+            problem: 'Acne',
+            type: 'Severe',
+            treatment: new ResultTreatment(
+                duration: '3 months',
+                procedures: array(
+                    new ResultProcedure(
+                        id: 1,
+                        image: 'https://via.placeholder.com/102x102.webm',
+                        name: 'Problem skin facials',
+                        count: '3 times'
+                    ),
+                ),
+                product: new ResultProduct(
+                    image: 'https://via.placeholder.com/102x102.webm',
+                    name: 'Product bundle for light acne',
+                ),
+                employee: new ResultEmployee(
+                    image: 'https://via.placeholder.com/102x102.webm',
+                    name: 'Patrick Minogue'
+                ),
+            )
+        ),
+    )
+);
 
-            $result->free_result();
-        } else {
-            die($conn->error);
-        }
-        array_push($result_category->results, $customer);
-    }
-    $rs->free_result();
-} else {
-    die($conn->error);
-}
-$conn->close();
+$pages = sizeof($results_per_page);
+
 ?>
 
 <body>
@@ -214,13 +212,8 @@ $conn->close();
         </section>
         <div class="container">
             <section id="cards">
-                <?php foreach ($result_category->results as $result_customer) { ?>
+                <?php foreach ($results_per_page[$page] as $result_customer) { ?>
                     <?php include('../widgets/result_customer_card/result_customer_card.php'); ?>
-                <?php } ?>
-                <?php if ($pagesize < $num_result_customers) { ?>
-                    <div id="show-more">
-                        <a class="button b200 expand l10n" href="/results?page=1&pagesize=<?php echo $pagesize * 2 ?>">Show more</a>
-                    </div>
                 <?php } ?>
                 <div id="paginator">
                     <?php include('../../skin-guide/widgets/paginator/paginator.php'); ?>

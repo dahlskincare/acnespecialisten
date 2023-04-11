@@ -338,24 +338,18 @@ class ResultCategory
     /**
      * @param ResultCustomer[] $results
      */
-    public function __construct($id, $title, $description_1, $description_2, $results)
+    public function __construct($id, $title, $description_1, $description_2)
     {
         $this->id = $id;
         $this->title = $title;
         $this->description_1 = $description_1;
         $this->description_2 = $description_2;
-        $this->results = $results;
     }
 
     public string $id;
     public string $title;
     public string $description_1;
     public string $description_2;
-
-    /**
-     * @var ResultCustomer[]
-     */
-    public array $results;
 }
 
 class ResultCustomer
