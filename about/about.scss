@@ -226,8 +226,10 @@ section.large-margin {
 }
 
 @include desktop {
-    section#title {
-        margin-top: $xl3;
+    div#content {
+        section#title {
+            margin-top: $xl3;
+        }
     }
 
     section.large-margin {
