@@ -33,21 +33,21 @@ if ($num_paginator_steps >= 6) {
 $paginator_root = strtok($_SERVER['REQUEST_URI'], '?');
 ?>
 <div class="paginator-widget">
-    <a class="button round-large grey" href="<?php echo $paginator_root ?>?page=<?php echo max($page - 1, 1) ?>&pagesize=<?php echo $pagesize ?>">
+    <a class="button round-large grey" href="<?php echo $paginator_root ?>?page=<?php echo max($page - 1, 1) ?>">
         <?php icon('arrow-left') ?>
     </a>
     <div class="steps">
         <?php foreach ($paginator_steps as $i) {
             if ($i == $page) {
-                echo '<a class="step active" href="' . $paginator_root . '?page=' . $i . '&pagesize=' . $pagesize . '">' . $i . '</a>';
+                echo '<a class="step active" href="' . $paginator_root . '?page=' . $i . '">' . $i . '</a>';
             } else if ($i == '...') {
                 echo '<div class="step">' . $i . '</div>';
             } else {
-                echo '<a class="step" href="' . $paginator_root . '?page=' . $i . '&pagesize=' . $pagesize . '">' . $i . '</a>';
+                echo '<a class="step" href="' . $paginator_root . '?page=' . $i . '">' . $i . '</a>';
             }
         } ?>
     </div>
-    <a class="button round-large grey" href="<?php echo $paginator_root ?>?page=<?php echo min($page + 1, $pages) ?>&pagesize=<?php echo $pagesize ?>">
+    <a class="button round-large grey" href="<?php echo $paginator_root ?>?page=<?php echo min($page + 1, $pages) ?>">
         <?php icon('arrow-right') ?>
     </a>
 </div>
