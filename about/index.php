@@ -88,32 +88,73 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
                         <div class="column">
                             <div class="flex-row align-center">
                                 <?php icon('star') ?>
-                                <h3 class="h200 ml-s">Unique solution</h3>
+                                <h3 class="h200 ml-s l10n">Unique solution</h3>
                             </div>
-                            <p class="bullet-desc">
+                            <p class="bullet-desc l10n">
                                 In a personal meeting with a skin specialist, your skin type is examined and identified.
                             </p>
                         </div>
                         <div class="column">
                             <div class="flex-row align-center">
                                 <?php icon('star') ?>
-                                <h3 class="h200 ml-s">25 years</h3>
+                                <h3 class="h200 ml-s l10n">25 years</h3>
                             </div>
-                            <p class="bullet-desc">
+                            <p class="bullet-desc l10n">
                                 In a personal meeting with a skin specialist, your skin type is examined and identified.
                             </p>
                         </div>
                         <div class="column">
                             <div class="flex-row align-center">
                                 <?php icon('star') ?>
-                                <h3 class="h200 ml-s">Unique solution</h3>
+                                <h3 class="h200 ml-s l10n">Unique solution</h3>
                             </div>
-                            <p class="bullet-desc">
+                            <p class="bullet-desc l10n">
                                 In a personal meeting with a skin specialist, your skin type is examined and identified.
                             </p>
                         </div>
                     </div>
-
+                </section>
+                <section class="poster large-margin" id="poster-left">
+                    <h2 class="h500 l10n is-hidden-desktop">What does our three-step method entail?</h2>
+                    <div class="flex-row align-center">
+                        <div>
+                            <picture>
+                                <source media="(max-width: 799px)" srcset="about/images/about-drip.jpg">
+                                <source media="(min-width: 800px)" srcset="about/images/about-drip-large.jpg">
+                                <img src="images/about/about-drip.jpg" alt="Method" width="358" height="272" />
+                            </picture>
+                        </div>
+                        <div class="is-hidden-touch">
+                            <h2 class="h500 l10n">What does our three-step method entail?</h2>
+                            <p class="p200 l10n">
+                                Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments. We hereby present our new department Nordiska Kliniken Hud Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery.
+                            </p>
+                        </div>
+                    </div>
+                    <p class="p200 l10n is-hidden-desktop">
+                        Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments. We hereby present our new department Nordiska Kliniken Hud Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery.
+                    </p>
+                </section>
+                <section class="poster large-margin" id="poster-right">
+                    <h2 class="h500 l10n is-hidden-desktop">We are aiming for the goal!</h2>
+                    <div class="flex-row align-center">
+                        <div class="is-hidden-touch">
+                            <h2 class="h500 l10n">We are aiming for the goal!</h2>
+                            <p class="p200 l10n">
+                                Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments. We hereby present our new department Nordiska Kliniken Hud Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery.
+                            </p>
+                        </div>
+                        <div>
+                            <picture>
+                                <source media="(max-width: 799px)" srcset="about/images/about-lotion.jpg">
+                                <source media="(min-width: 800px)" srcset="about/images/about-lotion-large.jpg">
+                                <img src="images/about/about-lotion.jpg" alt="Method" width="358" height="272" />
+                            </picture>
+                        </div>
+                    </div>
+                    <p class="p200 l10n is-hidden-desktop">
+                        Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments. We hereby present our new department Nordiska Kliniken Hud Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery.
+                    </p>
                 </section>
             </div>
             <section id="cta" class="large-margin">

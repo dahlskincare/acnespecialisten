@@ -193,6 +193,19 @@ div#content {
             padding-right: $xl;
         }
     }
+
+    section.poster {
+        img {
+            margin-top: $xl;
+            border-radius: $radius-l;
+            width: 100%;
+            height: auto;
+        }
+
+        p {
+            margin-top: $xl;
+        }
+    }
 }
 
 section#cta {
@@ -247,6 +260,54 @@ section.large-margin {
         section#bullets {
             .flex-row {
                 margin-top: 0;
+            }
+        }
+
+        section.poster {
+            .flex-row {
+                div:first-child {
+                    flex: 1;
+
+
+                    img {
+                        margin-top: 0;
+
+                    }
+                }
+
+                div:last-child {
+                    flex: 1;
+
+
+                    p {
+                        margin-top: $m;
+                    }
+                }
+
+            }
+        }
+
+        section#poster-left {
+            .flex-row {
+                div:first-child {
+                    margin-right: $xl;
+                }
+
+                div:last-child {
+                    padding-left: $xl3;
+                }
+            }
+        }
+
+        section#poster-right {
+            .flex-row {
+                div:first-child {
+                    padding-right: $xl3;
+                }
+
+                div:last-child {
+                    margin-left: $xl;
+                }
             }
         }
     }
