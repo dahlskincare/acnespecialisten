@@ -1,75 +1,95 @@
 <?php
 
 if (!isset($results)) {
-    if (!isset($result_count)) {
-        $result_count = 3;
-    }
-    $results = array();
-    $conn = new mysqli($_ENV['DB_URL'], $_ENV['DB_USER'], $_ENV['DB_PASSWORD'], database: $_ENV['DB_NAME']);
-    if ($conn->connect_errno) {
-        echo "Failed to connect to MySQL: " . $conn->connect_error;
-        exit();
-    }
-    if ($rs = $conn->query(sprintf("
-        SELECT customer.*, 
-        treatment.id AS treatment_id, treatment.duration AS treatment_duration,
-        employee.name AS employee_name, employee.image AS employee_image,
-        product.name AS product_name, product.image AS product_image,    
-        JSON_ARRAYAGG(ix.result_procedure_id) AS procedure_ids
-        FROM result_customer AS customer
-        INNER JOIN result_treatment AS treatment ON treatment.id = customer.result_treatment_id
-        INNER JOIN result_employee AS employee ON employee.id = treatment.result_employee_id
-        INNER JOIN result_product AS product ON product.id = treatment.result_product_id    
-        INNER JOIN ix_result_treatment_procedure AS ix ON ix.result_treatment_id = treatment.id
-        GROUP BY customer.id
-        ORDER BY id ASC
-        LIMIT 0, %s
-    ", $result_count))) {
-        foreach ($rs as $row) {
-            $before_images = json_decode($row['before_images']);
-            $after_images = json_decode($row['after_images']);
-            $results[] = new ResultCustomer(
-                id: $row['id'],
-                slider_image_before_small: $row['slider_image_before_small'],
-                slider_image_after_small: $row['slider_image_after_small'],
-                slider_image_before_large: $row['slider_image_before_large'],
-                slider_image_after_large: $row['slider_image_after_large'],
-                age: $row['age'],
-                gender: $row['gender'],
-                problem: $row['problem'],
-                type: $row['type'],
-                treatment: new ResultTreatment(
-                    id: $row['treatment_id'],
-                    duration: $row['treatment_duration'],
-                    procedures: array(),
-                    product: new ResultProduct(
-                        image: $row['product_image'],
-                        name: $row['product_name']
+    $results = array(
+        new ResultCustomer(
+            id: '1',
+            image_before_small: 'https://via.placeholder.com/358x358.webm',
+            image_after_small: 'https://via.placeholder.com/358x358.webm',
+            image_before_large: 'https://via.placeholder.com/424x424.webm',
+            image_after_large: 'https://via.placeholder.com/424x424.webm',
+            age: 18,
+            gender: 'Female',
+            problem: 'Acne',
+            type: 'Severe',
+            treatment: new ResultTreatment(
+                duration: '3 months',
+                procedures: array(
+                    new ResultProcedure(
+                        image: 'https://via.placeholder.com/102x102.webm',
+                        name: 'Problem skin facials',
+                        count: '3 times'
                     ),
-                    employee: new ResultEmployee(
-                        image: $row['employee_image'],
-                        name: $row['employee_name']
+                ),
+                product: new ResultProduct(
+                    image: 'https://via.placeholder.com/102x102.webm',
+                    name: 'Product bundle for light acne',
+                ),
+                employee: new ResultEmployee(
+                    image: 'https://via.placeholder.com/102x102.webm',
+                    name: 'Patrick Minogue'
+                ),
+            )
+        ),
+        new ResultCustomer(
+            id: '2',
+            image_before_small: 'https://via.placeholder.com/358x358.webm',
+            image_after_small: 'https://via.placeholder.com/358x358.webm',
+            image_before_large: 'https://via.placeholder.com/424x424.webm',
+            image_after_large: 'https://via.placeholder.com/424x424.webm',
+            age: 18,
+            gender: 'Female',
+            problem: 'Acne',
+            type: 'Severe',
+            treatment: new ResultTreatment(
+                duration: '3 months',
+                procedures: array(
+                    new ResultProcedure(
+                        image: 'https://via.placeholder.com/102x102.webm',
+                        name: 'Problem skin facials',
+                        count: '3 times'
                     ),
-                    visits: array()
                 ),
-                before_images: new ResultImages(
-                    image_left_small: $before_images->image_left_small,
-                    image_right_small: $before_images->image_right_small,
-                    image_left_large: $before_images->image_left_large,
-                    image_right_large: $before_images->image_right_large
+                product: new ResultProduct(
+                    image: 'https://via.placeholder.com/102x102.webm',
+                    name: 'Product bundle for light acne',
                 ),
-                after_images: new ResultImages(
-                    image_left_small: $after_images->image_left_small,
-                    image_right_small: $after_images->image_right_small,
-                    image_left_large: $after_images->image_left_large,
-                    image_right_large: $after_images->image_right_large
+                employee: new ResultEmployee(
+                    image: 'https://via.placeholder.com/102x102.webm',
+                    name: 'Patrick Minogue'
                 ),
-            );
-        }
-        $rs->free_result();
-    } else {
-        die($conn->error);
-    }
+            )
+        ),
+        new ResultCustomer(
+            id: '3',
+            image_before_small: 'https://via.placeholder.com/358x358.webm',
+            image_after_small: 'https://via.placeholder.com/358x358.webm',
+            image_before_large: 'https://via.placeholder.com/424x424.webm',
+            image_after_large: 'https://via.placeholder.com/424x424.webm',
+            age: 18,
+            gender: 'Female',
+            problem: 'Acne',
+            type: 'Severe',
+            treatment: new ResultTreatment(
+                duration: '3 months',
+                procedures: array(
+                    new ResultProcedure(
+                        image: 'https://via.placeholder.com/102x102.webm',
+                        name: 'Problem skin facials',
+                        count: '3 times'
+                    ),
+                ),
+                product: new ResultProduct(
+                    image: 'https://via.placeholder.com/102x102.webm',
+                    name: 'Product bundle for light acne',
+                ),
+                employee: new ResultEmployee(
+                    image: 'https://via.placeholder.com/102x102.webm',
+                    name: 'Patrick Minogue'
+                ),
+            )
+        ),
+    );
 } ?>
 
 <div class="is-hidden-tablet">
