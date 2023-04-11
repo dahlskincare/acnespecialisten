@@ -429,14 +429,12 @@ class ResultTreatment
 
 class ResultProcedure
 {
-    public function __construct($id, $image, $name, $count)
+    public function __construct($image, $name, $count)
     {
-        $this->id = $id;
         $this->image = $image;
         $this->name = $name;
         $this->count = $count;
     }
-    public int $id;
     public string $image;
     public string $name;
     public string $count;

@@ -52,7 +52,6 @@ $results_per_page = array(
                 duration: '3 months',
                 procedures: array(
                     new ResultProcedure(
-                        id: 1,
                         image: 'https://via.placeholder.com/102x102.webm',
                         name: 'Problem skin facials',
                         count: '3 times'
@@ -82,7 +81,6 @@ $results_per_page = array(
                 duration: '3 months',
                 procedures: array(
                     new ResultProcedure(
-                        id: 1,
                         image: 'https://via.placeholder.com/102x102.webm',
                         name: 'Problem skin facials',
                         count: '3 times'
@@ -114,7 +112,6 @@ $results_per_page = array(
                 duration: '3 months',
                 procedures: array(
                     new ResultProcedure(
-                        id: 1,
                         image: 'https://via.placeholder.com/102x102.webm',
                         name: 'Problem skin facials',
                         count: '3 times'
@@ -146,7 +143,6 @@ $results_per_page = array(
                 duration: '3 months',
                 procedures: array(
                     new ResultProcedure(
-                        id: 1,
                         image: 'https://via.placeholder.com/102x102.webm',
                         name: 'Problem skin facials',
                         count: '3 times'
