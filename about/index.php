@@ -83,6 +83,38 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
                     </picture>
                     <p class="p200 mt-xl l10n is-hidden-tablet">Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments. We hereby present our new department Nordiska Kliniken Hud Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery.</p>
                 </section>
+                <section id="bullets" class="large-margin">
+                    <div class="columns">
+                        <div class="column">
+                            <div class="flex-row align-center">
+                                <?php icon('star') ?>
+                                <h3 class="h200 ml-s">Unique solution</h3>
+                            </div>
+                            <p class="bullet-desc">
+                                In a personal meeting with a skin specialist, your skin type is examined and identified.
+                            </p>
+                        </div>
+                        <div class="column">
+                            <div class="flex-row align-center">
+                                <?php icon('star') ?>
+                                <h3 class="h200 ml-s">25 years</h3>
+                            </div>
+                            <p class="bullet-desc">
+                                In a personal meeting with a skin specialist, your skin type is examined and identified.
+                            </p>
+                        </div>
+                        <div class="column">
+                            <div class="flex-row align-center">
+                                <?php icon('star') ?>
+                                <h3 class="h200 ml-s">Unique solution</h3>
+                            </div>
+                            <p class="bullet-desc">
+                                In a personal meeting with a skin specialist, your skin type is examined and identified.
+                            </p>
+                        </div>
+                    </div>
+
+                </section>
             </div>
             <section id="cta" class="large-margin">
                 <div id="cta-banner-texts">

@@ -180,6 +180,19 @@ div#content {
             }
         }
     }
+
+    section#bullets {
+        .flex-row {
+            margin-top: $xl3;
+        }
+
+        p.bullet-desc {
+            @include p200;
+            color: $dark-300;
+            margin-top: $xxs;
+            padding-right: $xl;
+        }
+    }
 }
 
 section#cta {
@@ -229,6 +242,12 @@ section.large-margin {
     div#content {
         section#title {
             margin-top: $xl3;
+        }
+
+        section#bullets {
+            .flex-row {
+                margin-top: 0;
+            }
         }
     }
 
