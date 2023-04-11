@@ -1,6 +1,7 @@
 @import '../../styles/util/colors';
 @import '../../styles/util/sizes';
 @import '../../styles/util/mixins';
+@import '../../includes/widgets/results/results';
 
 html {
     scroll-behavior: smooth;
@@ -15,6 +16,11 @@ section.large-margin {
 }
 
 section#banner {
+
+    .ro-info {
+        display: none;
+    }
+
     .result-widget {
         background-color: $white-500;
         border-bottom-left-radius: 0;
@@ -36,6 +42,8 @@ section#banner {
         color: $white-500;
         padding-bottom: $xl;
         @include p100;
+
+
     }
 
     #customer-info {
@@ -92,7 +100,11 @@ section#banner {
     }
 
 
-    @media screen and (min-width: $desktop) {
+    @include desktop {
+        .ro-images {
+            border-radius: $radius-l;
+        }
+
         #banner-green {
             height: 388px;
         }

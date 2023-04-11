@@ -39,10 +39,13 @@
     @include elevation-low;
     user-select: none;
 
+
     .ro-images {
+        background-color: $white-500;
         border-top-left-radius: $radius-l;
         border-top-right-radius: $radius-l;
         overflow: hidden;
+        width: 358px;
         height: 358px;
         position: relative;
         display: flex;
@@ -124,6 +127,7 @@
         box-shadow: none;
 
         .ro-images {
+            width: 424px;
             height: 424px;
         }
 
