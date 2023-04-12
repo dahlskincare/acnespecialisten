@@ -123,10 +123,10 @@ $articles_per_page = array(
             subcategory_id: 'dry-skin',
         ),
         new SkinGuideArticle(
-            id: 'how-hormones-affect',
-            title: 'How hormones affect?',
+            id: 'hej-peter',
+            title: 'Hej!',
             subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
-            problem: 'Acne',
+            problem: 'Aging skin',
             description: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.',
             image_small: 'https://via.placeholder.com/426x324.webp',
             image_large: 'https://via.placeholder.com/872x456.jpg',
@@ -136,8 +136,8 @@ $articles_per_page = array(
     ),
     2 => array(
         new SkinGuideArticle(
-            id: 'how-hormones-affect',
-            title: 'How hormones affect?',
+            id: 'blablabla',
+            title: 'Bla bla bla',
             subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
             problem: 'Acne',
             description: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.',
