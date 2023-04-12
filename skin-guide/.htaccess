@@ -7,7 +7,7 @@ RewriteRule ^([^/]+)/?$ category/$1.php [L,QSA]
 
 RewriteBase /skin-guide/
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^/]+)/([^/]+)?$ category/subcategory/subcategory.php?id=$2 [L,QSA]
+RewriteRule ^([^/]+)/([^/]+)?$ category/subcategory/$2.php [L,QSA]
 
 RewriteBase /skin-guide/
 RewriteCond %{REQUEST_FILENAME} !-f
