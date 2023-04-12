@@ -1,4 +1,7 @@
 <?php
+$root = $_SERVER['DOCUMENT_ROOT'];
+require_once($root . '/includes/models/skin_guide.php');
+
 class ApproachCard
 {
     public function __construct($number, $title, $content, $button_label, $button_url)
@@ -499,84 +502,6 @@ class ResultImages
     public string $image_right_small;
     public string $image_left_large;
     public string $image_right_large;
-}
-
-class SkinGuideCategory
-{
-    public function __construct($data)
-    {
-        $this->id = $data['id'];
-        $this->name = $data['name'];
-        $this->description = $data['description'];
-        $this->description_extended = $data['description_extended'];
-        $this->meta_title = $data['meta_title'];
-        $this->meta_description = $data['meta_description'];
-        $this->consultation_url = $data['consultation_url'];
-    }
-
-    public string $id;
-    public string $name;
-    public string $description;
-    public string $description_extended;
-    public string $meta_title;
-    public string $meta_description;
-    public string $consultation_url;
-}
-
-class SkinGuideSubCategory
-{
-    public function __construct($data)
-    {
-        $this->id = $data['id'];
-        $this->name = $data['name'];
-        $this->description = $data['description'];
-        $this->description_extended = $data['description_extended'];
-        $this->consultation_url = $data['consultation_url'];
-        $this->category_id = $data['category_id'];
-        $this->meta_title = $data['meta_title'];
-        $this->meta_description = $data['meta_description'];
-    }
-
-    public string $id;
-    public string $name;
-    public string $description;
-    public string $description_extended;
-    public string $consultation_url;
-    public string $category_id;
-    public string $meta_title;
-    public string $meta_description;
-}
-
-class SkinGuideArticle
-{
-    public function __construct($data)
-    {
-        $this->id = $data['id'];
-        $this->title = $data['title'];
-        $this->subtitle = $data['subtitle'];
-        $this->problem = $data['problem'];
-        $this->description = $data['description'];
-        $this->image_small = $data['image_small'];
-        $this->image_large = $data['image_large'];
-        $this->content = $data['content'];
-        $this->meta_title = $data['meta_title'];
-        $this->meta_description = $data['meta_description'];
-        $this->category_id = $data['category_id'];
-        $this->subcategory_id = $data['subcategory_id'];
-    }
-
-    public string $id;
-    public string $title;
-    public string $subtitle;
-    public string $problem;
-    public string $description;
-    public string $image_small;
-    public string $image_large;
-    public string $content;
-    public string $meta_title;
-    public string $meta_description;
-    public string $category_id;
-    public string $subcategory_id;
 }
 
 class GlossaryItem
