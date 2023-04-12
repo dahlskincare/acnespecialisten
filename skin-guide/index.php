@@ -2,66 +2,155 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$consultation_url = 'https://dahlskincare.com/skin-consultation';
-$conn = new mysqli($_ENV['DB_URL'], $_ENV['DB_USER'], $_ENV['DB_PASSWORD'], database: $_ENV['DB_NAME']);
-if ($conn->connect_errno) {
-    echo "Failed to connect to MySQL: " . $conn->connect_error;
-    exit();
-}
-if (isset($_GET['subcategory'])) {
-    $subcategory_id = $_GET['subcategory'];
-} else {
-    $subcategory_id = '*';
-}
 if (isset($_GET['page']) && $_GET['page'] > 0) {
     $page = $_GET['page'];
 } else {
     $page = 1;
 }
-if (isset($_GET['pagesize'])) {
-    $pagesize = $_GET['pagesize'];
-} else {
-    $pagesize = 9;
-}
-if ($subcategory_id == '*') {
-    $where = '1';
-} else {
-    $where = sprintf("subcategory_id = '%s'", $subcategory_id);
-}
-if ($rs = $conn->query(sprintf("SELECT COUNT(id) as cnt FROM skin_guide_article WHERE %s", $where))) {
-    $num_articles = $rs->fetch_assoc()['cnt'];
-    $rs->free_result();
-} else {
-    die($conn->error);
-}
-$pages = ceil($num_articles / $pagesize);
-if ($rs = $conn->query(sprintf("
-    SELECT article.*, subcategory.category_id FROM skin_guide_article article
-    INNER JOIN skin_guide_subcategory subcategory ON subcategory.id = article.subcategory_id     
-    WHERE %s ORDER BY ranking ASC LIMIT %d, %d
-", $where, ($page - 1) * $pagesize, $pagesize))) {
-    foreach ($rs as $row) {
-        $articles[] = new SkinGuideArticle($row);
-    }
-} else {
-    die($conn->error);
-}
-if ($rs = $conn->query("SELECT * FROM skin_guide_category ORDER BY ranking ASC")) {
-    foreach ($rs as $row) {
-        $categories[] = new SkinGuideCategory($row);
-    }
-    $rs->free_result();
-} else {
-    die($conn->error);
-}
-if ($rs = $conn->query("SELECT * FROM skin_guide_subcategory ORDER BY ranking ASC")) {
-    foreach ($rs as $row) {
-        $subcategories[] = new SkinGuideSubCategory($row);
-    }
-    $rs->free_result();
-} else {
-    die($conn->error);
-}
+
+$consultation_url = 'https://dahlskincare.com/skin-consultation';
+
+$categories = array(
+    new SkinGuideCategory(
+        id: 'accessories',
+        name: 'Accessories',
+    ),
+    new SkinGuideCategory(
+        id: 'age',
+        name: 'Age',
+    ),
+    new SkinGuideCategory(
+        id: 'areas',
+        name: 'Areas',
+    ),
+    new SkinGuideCategory(
+        id: 'brands',
+        name: 'Brands',
+    ),
+    new SkinGuideCategory(
+        id: 'gender',
+        name: 'Gender',
+    ),
+    new SkinGuideCategory(
+        id: 'personal-care',
+        name: 'Personal care',
+    ),
+    new SkinGuideCategory(
+        id: 'products',
+        name: 'Products',
+    ),
+    new SkinGuideCategory(
+        id: 'routine',
+        name: 'Routine',
+    ),
+    new SkinGuideCategory(
+        id: 'skin-conditions',
+        name: 'Skin conditions',
+    ),
+    new SkinGuideCategory(
+        id: 'skin-problems',
+        name: 'Skin problems',
+    ),
+    new SkinGuideCategory(
+        id: 'skin-tones',
+        name: 'Skin tones',
+    ),
+    new SkinGuideCategory(
+        id: 'tools',
+        name: 'Tools',
+    ),
+);
+
+$subcategories = array(
+    new SkinGuideSubCategory(
+        id: 'dry-skin',
+        name: 'Dry skin',
+        category_id: 'skin-problems'
+    ),
+    new SkinGuideSubCategory(
+        id: 'subtopic-1',
+        name: 'Subtopic 1',
+        category_id: 'accessories'
+    ),
+    new SkinGuideSubCategory(
+        id: 'subtopic-2',
+        name: 'Subtopic 2',
+        category_id: 'accessories'
+    ),
+    new SkinGuideSubCategory(
+        id: 'subtopic-3',
+        name: 'Subtopic 3',
+        category_id: 'accessories'
+    ),
+    new SkinGuideSubCategory(
+        id: 'subtopic-4',
+        name: 'Subtopic 4',
+        category_id: 'accessories'
+    ),
+    new SkinGuideSubCategory(
+        id: 'subtopic-5',
+        name: 'Subtopic 5',
+        category_id: 'accessories'
+    ),
+    new SkinGuideSubCategory(
+        id: 'subtopic-6',
+        name: 'Subtopic 6',
+        category_id: 'accessories'
+    ),
+    new SkinGuideSubCategory(
+        id: 'subtopic-7',
+        name: 'Subtopic 7',
+        category_id: 'accessories'
+    ),
+    new SkinGuideSubCategory(
+        id: 'subtopic-8',
+        name: 'Subtopic 8',
+        category_id: 'accessories'
+    ),
+);
+
+$articles_per_page = array(
+    1 => array(
+        new SkinGuideArticle(
+            id: 'how-hormones-affect',
+            title: 'How hormones affect?',
+            subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
+            problem: 'Acne',
+            description: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.',
+            image_small: 'https://via.placeholder.com/426x324.webp',
+            image_large: 'https://via.placeholder.com/872x456.jpg',
+            category_id: 'skin-problems',
+            subcategory_id: 'dry-skin',
+        ),
+        new SkinGuideArticle(
+            id: 'how-hormones-affect',
+            title: 'How hormones affect?',
+            subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
+            problem: 'Acne',
+            description: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.',
+            image_small: 'https://via.placeholder.com/426x324.webp',
+            image_large: 'https://via.placeholder.com/872x456.jpg',
+            category_id: 'skin-problems',
+            subcategory_id: 'dry-skin',
+        ),
+    ),
+    2 => array(
+        new SkinGuideArticle(
+            id: 'how-hormones-affect',
+            title: 'How hormones affect?',
+            subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
+            problem: 'Acne',
+            description: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.',
+            image_small: 'https://via.placeholder.com/426x324.webp',
+            image_large: 'https://via.placeholder.com/872x456.jpg',
+            category_id: 'skin-problems',
+            subcategory_id: 'dry-skin',
+        ),
+    )
+);
+
+$pages = sizeof($articles_per_page);
+
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
@@ -164,21 +253,16 @@ if ($rs = $conn->query("SELECT * FROM skin_guide_subcategory ORDER BY ranking AS
                         </button>
                     </div>
                     <div id="subcategory-items">
-                        <a href="skin-guide?page=1&pagesize=<?php echo $pagesize ?>" class="subcategory-item l10n <?php if ($subcategory_id == '*') {
-                                                                                                                        echo 'sc-active';
-                                                                                                                    } ?>">All topics</a>
                         <?php foreach ($subcategories as $subcategory) { ?>
-                            <a id="sc-item-<?php echo $subcategory->id ?>" class="subcategory-item <?php if ($subcategory->id == $subcategory_id) {
-                                                                                                        echo 'sc-active';
-                                                                                                    } ?>" href="skin-guide?page=1&pagesize=<?php echo $pagesize ?>&subcategory=<?php echo $subcategory->id ?>"><?php echo $subcategory->name ?></a>
+                            <a id="sc-item-<?php echo $subcategory->id ?>" class="subcategory-item" href="skin-guide/<?php echo $subcategory->category_id ?>/<?php echo $subcategory->id ?>"><?php echo $subcategory->name ?></a>
                         <?php } ?>
                     </div>
                 </div>
             </section>
             <section id="articles">
-                <?php if (isset($articles)) { ?>
+                <?php if (isset($articles_per_page[$page])) { ?>
                     <div class="columns is-multiline is-variable is-3">
-                        <?php foreach ($articles as $article) { ?>
+                        <?php foreach ($articles_per_page[$page] as $article) { ?>
                             <div class="column is-one-third">
                                 <?php include('widgets/article_card/article_card_widget.php'); ?>
                             </div>
@@ -189,11 +273,6 @@ if ($rs = $conn->query("SELECT * FROM skin_guide_subcategory ORDER BY ranking AS
                 <?php } ?>
             </section>
             <section id="paginator">
-                <?php if ($pagesize < $num_articles) { ?>
-                    <div id="show-more">
-                        <a class="button b200 expand l10n" href="/skin-guide?page=1&pagesize=<?php echo $pagesize * 2 ?>&subcategory=<?php echo $subcategory_id ?>">View more articles</a>
-                    </div>
-                <?php } ?>
                 <?php include('widgets/paginator/paginator.php'); ?>
             </section>
             <section id="cta-banner" class="large-margin">

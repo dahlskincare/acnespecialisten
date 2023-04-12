@@ -1,48 +1,40 @@
 <?php
 class SkinGuideCategory
 {
-    public function __construct($id, $name, $description, $description_extended, $meta_title, $meta_description, $consultation_url)
+    public function __construct($id, $name, $description = null, $description_extended = null, $consultation_url = null)
     {
         $this->id = $id;
         $this->name = $name;
         $this->description = $description;
         $this->description_extended = $description_extended;
-        $this->meta_title = $meta_title;
-        $this->meta_description = $meta_description;
         $this->consultation_url = $consultation_url;
     }
 
     public string $id;
     public string $name;
-    public string $description;
-    public string $description_extended;
-    public string $meta_title;
-    public string $meta_description;
-    public string $consultation_url;
+    public ?string $description;
+    public ?string $description_extended;
+    public ?string $consultation_url;
 }
 
 class SkinGuideSubCategory
 {
-    public function __construct($id, $name, $description, $description_extended, $consultation_url, $category_id, $meta_title, $meta_description)
+    public function __construct($id, $name, $category_id, $description = null, $description_extended = null, $consultation_url = null)
     {
         $this->id = $id;
         $this->name = $name;
+        $this->category_id = $category_id;
         $this->description = $description;
         $this->description_extended = $description_extended;
         $this->consultation_url = $consultation_url;
-        $this->category_id = $category_id;
-        $this->meta_title = $meta_title;
-        $this->meta_description = $meta_description;
     }
 
     public string $id;
     public string $name;
-    public string $description;
-    public string $description_extended;
-    public string $consultation_url;
     public string $category_id;
-    public string $meta_title;
-    public string $meta_description;
+    public ?string $description;
+    public ?string $description_extended;
+    public ?string $consultation_url;
 }
 
 class SkinGuideArticle
