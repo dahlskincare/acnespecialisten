@@ -1,8 +1,9 @@
 var Article;
 (function (Article) {
     var content = document.querySelector('#content');
-    var headers = content.querySelectorAll('h2');
-    var navButtons = document.querySelector('#nav-buttons-scroller').querySelector('.flex-row');
+    var navAnchors = content.querySelectorAll('.nav-anchor');
+    var navButtons = document.querySelector('section#nav-buttons');
+    var navButtonsContent = navButtons.querySelector('#nav-buttons-scroller').querySelector('.flex-row');
     var Anchor = /** @class */ (function () {
         function Anchor(button, slider, after, bounds) {
             this.button = null;
@@ -37,22 +38,25 @@ var Article;
     function onResultOverlayUp(_e) {
         dragged = null;
     }
-    headers.forEach(function (headerEl) {
-        var button = document.createElement("div");
-        button.innerText = headerEl.innerText;
-        button.className = 'nav-button';
-        button.onclick = function () {
-            if (window.innerWidth < 800) {
-                headerEl.scrollIntoView();
-            }
-            else {
-                headerEl.scrollIntoView();
-            }
-        };
-        navButtons.appendChild(button);
-    });
+    if (navAnchors.length > 0) {
+        navButtons.classList.remove('is-hidden');
+        navAnchors.forEach(function (anchor) {
+            var button = document.createElement("div");
+            button.innerText = anchor.innerText;
+            button.className = 'nav-button';
+            button.onclick = function () {
+                if (window.innerWidth < 800) {
+                    anchor.scrollIntoView();
+                }
+                else {
+                    anchor.scrollIntoView();
+                }
+            };
+            navButtonsContent.appendChild(button);
+        });
+    }
     if (document.body.clientWidth > 800) {
-        var scroller_1 = navButtons.parentElement;
+        var scroller_1 = navButtonsContent.parentElement;
         var prev_1 = scroller_1.parentElement.querySelector('#scroll-prev');
         var next_1 = scroller_1.parentElement.querySelector('#scroll-next');
         scroller_1.addEventListener('scroll', function () {

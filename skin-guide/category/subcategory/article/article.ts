@@ -1,7 +1,8 @@
 namespace Article {
     const content: HTMLElement = document.querySelector('#content');
-    const headers = content.querySelectorAll('h2');
-    const navButtons: HTMLElement = document.querySelector('#nav-buttons-scroller').querySelector('.flex-row');
+    const navAnchors = content.querySelectorAll('.nav-anchor');
+    const navButtons = document.querySelector('section#nav-buttons');
+    const navButtonsContent: HTMLElement = navButtons.querySelector('#nav-buttons-scroller').querySelector('.flex-row');
 
     class Anchor {
         constructor(button: HTMLElement, slider: HTMLElement, after: HTMLImageElement, bounds: DOMRect) {
@@ -46,22 +47,26 @@ namespace Article {
         dragged = null;
     }
 
-    headers.forEach((headerEl) => {
-        const button = document.createElement("div");
-        button.innerText = headerEl.innerText;
-        button.className = 'nav-button';
-        button.onclick = () => {
-            if (window.innerWidth < 800) {
-                headerEl.scrollIntoView();
-            } else {
-                headerEl.scrollIntoView();
+    if (navAnchors.length > 0) {
+        navButtons.classList.remove('is-hidden');
+        navAnchors.forEach((anchor) => {
+            const button = document.createElement("div");
+            button.innerText = (anchor as HTMLElement).innerText;
+            button.className = 'nav-button';
+            button.onclick = () => {
+                if (window.innerWidth < 800) {
+                    anchor.scrollIntoView();
+                } else {
+                    anchor.scrollIntoView();
+                }
             }
-        }
-        navButtons.appendChild(button);
-    });
+            navButtonsContent.appendChild(button);
+        });
+    }
+
 
     if (document.body.clientWidth > 800) {
-        const scroller = navButtons.parentElement;
+        const scroller = navButtonsContent.parentElement;
         const prev = scroller.parentElement.querySelector('#scroll-prev');
         const next = scroller.parentElement.querySelector('#scroll-next');
 

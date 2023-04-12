@@ -11,4 +11,4 @@ RewriteRule ^([^/]+)/([^/]+)?$ category/subcategory/$2.php [L,QSA]
 
 RewriteBase /skin-guide/
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^/]+)/([^/]+)/([^/]+)?$ category/article/article.php?id=$3 [L,QSA]
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)?$ category/subcategory/article/$3.php [L,QSA]

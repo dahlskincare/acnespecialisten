@@ -1,6 +1,6 @@
-@import '../../../styles/util/colors';
-@import '../../../styles/util/sizes';
-@import '../../../styles/util/mixins';
+@import '../../../../styles/util/colors';
+@import '../../../../styles/util/sizes';
+@import '../../../../styles/util/mixins';
 
 html {
     scroll-behavior: smooth;
@@ -162,9 +162,12 @@ html {
         section#content {
             margin-top: $xs;
 
-            h2 {
+            .nav-anchor {
                 // Compensate for fixed headers
-                scroll-margin-top: 130px;
+                scroll-margin-top: 140px;
+            }
+
+            h2 {
                 margin-top: $xl3;
                 @include h400;
             }

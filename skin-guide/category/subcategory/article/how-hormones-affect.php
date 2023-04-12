@@ -1,26 +1,18 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
-$conn = new mysqli($_ENV['DB_URL'], $_ENV['DB_USER'], $_ENV['DB_PASSWORD'], database: $_ENV['DB_NAME']);
-if ($conn->connect_errno) {
-    echo "Failed to connect to MySQL: " . $conn->connect_error;
-    exit();
-}
 
-if ($rs = $conn->query("
-    SELECT article.*, subcategory.category_id 
-    FROM skin_guide_article article
-    INNER JOIN skin_guide_subcategory subcategory ON subcategory.id = article.subcategory_id 
-    WHERE article.id = '" . $_GET['id'] . "'")) {
-    if ($rs->num_rows == 1) {
-        $article = new SkinGuideArticle($rs->fetch_assoc());
-    } else {
-        http_response_code(404);
-        die('Page not found');
-    }
-} else {
-    die($conn->error);
-}
+$article = new SkinGuideArticle(
+    id: 'how-hormones-affect',
+    title: 'How hormones affect?',
+    subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
+    problem: 'Acne',
+    description: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.',
+    image_small: 'https://via.placeholder.com/426x324.webp',
+    image_large: 'https://via.placeholder.com/872x456.jpg',
+    category_id: 'skin-problems',
+    subcategory_id: 'dry-skin',
+)
 
 ?>
 <!DOCTYPE html>
@@ -37,7 +29,7 @@ if ($rs = $conn->query("
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
-    <link rel="stylesheet" href="/skin-guide/category/article/article.css">
+    <link rel="stylesheet" href="/skin-guide/category/subcategory/article/article.css">
 </head>
 
 <body>
@@ -67,7 +59,7 @@ if ($rs = $conn->query("
                         <img src="<?php echo $article->image_small ?>" alt="<?php echo $article->title ?>" width="360" height="274" />
                     </picture>
                 </section>
-                <section id="nav-buttons">
+                <section id="nav-buttons" class="is-hidden">
                     <div id="nav-buttons-container">
                         <div class="scroll-button is-hidden" id="scroll-prev">
                             <button class="round-medium grey">
@@ -86,7 +78,11 @@ if ($rs = $conn->query("
                     </div>
                 </section>
                 <section id="content">
-                    <?php echo $article->content ?>
+                    <h2 class="nav-anchor">Bla bla bla</h2>
+                    <p>
+                        <strong>For the first time ever</strong>, fans from around the world can explore the faraway lands of their favorite holiday films with an exclusive overnight stay at the original Hobbiton™ Movie Set. Russell Alexander is inviting guests to his family’s property to live like Bilbo Baggins and retreat to The Shire™ for an overnight stay at Hobbiton, as featured in the famed The Lord of the Rings and The Hobbit film trilogies.
+                        Nestled in the picturesque pastures of New Zealand’s Waikato region on a 2,500 acre working farm, the property’s rolling, green hills – bear a striking similarity to The Shire™ as described by J. R. R. Tolkien in The Lord of the Rings, and captivated Sir Peter Jackson’s movie scouts more than two decades ago. The team quickly realized the Hobbits had found their home – and this holiday season, it could be yours.
+                    </p>
                 </section>
             </div>
             <section id="skin-guide">
@@ -169,7 +165,7 @@ if ($rs = $conn->query("
         </div>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
-    <script src="skin-guide/category/article/article.js"></script>
+    <script src="skin-guide/category/subcategory/article/article.js"></script>
 </body>
 
 </html>
