@@ -3,7 +3,7 @@ RewriteEngine on
 RewriteBase /skin-guide/
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^([^/]+)/?$ category/category.php?id=$1 [L,QSA]
+RewriteRule ^([^/]+)/?$ category/$1.php [L,QSA]
 
 RewriteBase /skin-guide/
 RewriteCond %{REQUEST_FILENAME} !-f
