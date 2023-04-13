@@ -13,28 +13,43 @@ section#nav-buttons {
         padding-top: $l;
         position: relative;
 
+
         margin-left: -$m;
         margin-right: -$m;
         padding-left: $m;
         padding-right: $m;
 
-        .slide {
-            // Override flex of .slide to specify a custom width
-            flex: 1 0 auto;
-            margin-right: $xl;
-            border-bottom: 2px solid transparent;
-            padding-bottom: $l - 2px;
-            color: $dark-200;
-            text-align: center;
+        #nav-buttons-scroller {
+
+            display: flex;
+            overflow: scroll;
+            scroll-behavior: smooth;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+
+            .nav-button {
+                flex: 1 0 auto;
+                margin-right: $xl;
+                border-bottom: 2px solid transparent;
+                padding-bottom: $l - 2px;
+                color: $dark-200;
+                text-align: center;
+            }
+
+            .nav-button:last-child {
+                margin-right: 0;
+            }
+
+            .nav-button.active {
+                color: $black-500;
+                border-bottom: 2px solid $black-500;
+            }
         }
 
-        .slide:last-child {
-            margin-right: 0;
-        }
 
-        .slide.active {
-            color: $black-500;
-            border-bottom: 2px solid $black-500;
+        #nav-buttons-scroller::-webkit-scrollbar {
+            width: 0;
+            height: 0;
         }
 
         .scroll-button {

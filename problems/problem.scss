@@ -206,23 +206,6 @@ section#header {
             }
 
             @media screen and (min-width: $tablet) {
-                .carousel {
-                    .slide {
-                        flex: 1 0 50%;
-                        box-sizing: border-box;
-                        padding-left: $s;
-                        padding-right: $s;
-                    }
-
-                    .slide:first-child {
-                        padding-left: 0;
-                    }
-
-                    .slide:last-child {
-                        padding-right: 0;
-                    }
-                }
-
                 a.button.outline {
                     width: auto;
                     box-sizing: initial;

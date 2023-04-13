@@ -9,9 +9,9 @@
             <?php icon('arrow-right') ?>
         </button>
     </div>
-    <div class="carousel" id="nav-buttons-carousel">
+    <div id="nav-buttons-scroller">
         <?php foreach ($nav_buttons as $id => $label) { ?>
-            <a class="slide" href="javascript:;" data-id="<?php echo $id ?>" onclick="NavButtons.setActive(this);"><?php echo $label ?></a>
+            <a class="nav-button" href="javascript:;" data-id="<?php echo $id ?>" onclick="NavButtons.setActive(this);"><?php echo $label ?></a>
         <?php } ?>
     </div>
 </div>

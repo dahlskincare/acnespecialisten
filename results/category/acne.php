@@ -229,10 +229,10 @@ $pages = sizeof($results_per_page);
                     <div class="h500 l10n">Reviews</div>
                     <div class="flex-row is-hidden-mobile">
                         <div class="step-buttons">
-                            <button class="round-large grey" onclick="Carousel.prev('#reviews-carousel', -1)">
+                            <button class="round-large grey" onclick="Reviews.scroll(-1)">
                                 <?php icon('arrow-left') ?>
                             </button>
-                            <button class="round-large grey" onclick="Carousel.next('#reviews-carousel', 1)">
+                            <button class="round-large grey" onclick="Reviews.scroll(1)">
                                 <?php icon('arrow-right') ?>
                             </button>
                         </div>

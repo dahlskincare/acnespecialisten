@@ -12,6 +12,12 @@
         padding-left: $m;
         padding-right: $m;
 
+        display: flex;
+        overflow: scroll;
+        scroll-behavior: smooth;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+
         .specialist {
             flex: 1 0 240px;
             margin-right: $m;
@@ -35,6 +41,11 @@
         .specialist:last-child {
             margin-right: 0;
         }
+    }
+
+    .specialists-small::-webkit-scrollbar {
+        width: 0;
+        height: 0;
     }
 
     .specialists-large {

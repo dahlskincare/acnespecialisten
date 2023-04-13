@@ -21,12 +21,12 @@ if (!isset($faq_categories)) {
 
 <div class="faq-small is-hidden-tablet">
     <?php if (sizeof($faq_categories) > 1) { ?>
-        <div class="faq-categories-small carousel">
+        <div class="faq-categories-small">
             <?php
             $index = 0;
             foreach (array_keys($faq_categories) as $category) { ?>
-                <div class="faq-category b200 slide <?php if ($index == 0)
-                                                        echo 'selected' ?>" onclick="FAQ.selectCategory(event.target, '<?php echo $category ?>')">
+                <div class="faq-category b200 <?php if ($index == 0)
+                                                    echo 'selected' ?>" onclick="FAQ.selectCategory(event.target, '<?php echo $category ?>')">
                     <?php echo $category ?>
                 </div>
             <?php

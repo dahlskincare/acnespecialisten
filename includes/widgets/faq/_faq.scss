@@ -79,6 +79,12 @@
     .faq-categories-small {
         margin-top: $xl;
 
+        display: flex;
+        overflow: scroll;
+        scroll-behavior: smooth;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+
         // Allow .container overflow
         margin-left: -$m;
         margin-right: -$m;
@@ -100,6 +106,11 @@
             color: $black-500;
             border-bottom-color: $deep-sea-400;
         }
+    }
+
+    .faq-categories-small::-webkit-scrollbar {
+        width: 0;
+        height: 0;
     }
 
     .faq-questions-small {

@@ -1,6 +1,6 @@
 namespace NavButtons {
-    let _widget = document.querySelector('.nav-buttons-widget');
-    let _carousel = _widget.querySelector('#nav-buttons-carousel');
+    const _widget = document.querySelector('.nav-buttons-widget');
+    const _scroller = _widget.querySelector('#nav-buttons-scroller');
 
     if (document.body.clientWidth >= 1024) {
         let _scrollStep = 200;
@@ -8,18 +8,18 @@ namespace NavButtons {
         let _buttonNextContainer = _widget.querySelector('#scroll-next');
         let _buttonPrev = _buttonPrevContainer.querySelector('button');
         let _buttonNext = _buttonNextContainer.querySelector('button');
-        if (_carousel.scrollWidth > _widget.parentElement.clientWidth) {
+        if (_scroller.scrollWidth > _widget.parentElement.clientWidth) {
             _buttonPrev.addEventListener('click', () => {
-                _carousel.scrollBy(-_scrollStep, 0);
+                _scroller.scrollBy(-_scrollStep, 0);
             });
             _buttonNext.addEventListener('click', () => {
-                _carousel.scrollBy(_scrollStep, 0);
+                _scroller.scrollBy(_scrollStep, 0);
             });
             _buttonNextContainer.classList.remove('is-hidden');
 
-            _carousel.addEventListener('scroll', () => {
-                let showNext = _carousel.scrollWidth - _carousel.scrollLeft > _carousel.clientWidth;
-                let showPrevious = _carousel.scrollLeft > 0;
+            _scroller.addEventListener('scroll', () => {
+                let showNext = _scroller.scrollWidth - _scroller.scrollLeft > _scroller.clientWidth;
+                let showPrevious = _scroller.scrollLeft > 0;
 
                 if (showNext) {
                     _buttonNextContainer.classList.remove('is-hidden');

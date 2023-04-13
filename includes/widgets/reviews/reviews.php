@@ -84,27 +84,30 @@
 } ?>
 
 <div class="reviews-widget">
-    <div class="carousel" id="reviews-carousel">
-        <?php foreach ($reviews as $review) { ?>
-            <div class="<?php if (isset($reviews_narrow) && $reviews_narrow == true) {
-                            echo 'review-box review-box-half';
-                        } else {
-                            echo 'review-box review-box-quarter';
-                        }
-                        ?>">
-                <div class="review-box-top">
-                    <div class="review-box-icons">
-                        <?php for ($i = 0; $i < $review->stars; $i++) {
-                            icon('star');
-                        } ?>
+    <div id="reviews-scroller">
+        <div id="reviews-container">
+            <?php foreach ($reviews as $review) { ?>
+                <div class="review-box <?php if (isset($reviews_narrow) && $reviews_narrow == true) {
+                                            echo 'review-box-half';
+                                        } else {
+                                            echo 'review-box-quarter';
+                                        }
+                                        ?>">
+                    <div class="review-box-top">
+                        <div class="review-box-icons">
+                            <?php for ($i = 0; $i < $review->stars; $i++) {
+                                icon('star');
+                            } ?>
+                        </div>
+                        <img src="<?php echo $review->logo_url ?>" width="102" height="26" alt="<?php echo $review->brand ?>">
                     </div>
-                    <img src="<?php echo $review->logo_url ?>" width="102" height="26" alt="<?php echo $review->brand ?>">
+                    <h3 class="review-box-title h200"><?php echo $review->title ?></h3>
+                    <p class="review-box-text p200"><?php echo $review->text ?></p>
+                    <p class="review-box-signature p200"><?php echo $review->signature ?></p>
                 </div>
-                <h3 class="review-box-title h200"><?php echo $review->title ?></h3>
-                <p class="review-box-text p200"><?php echo $review->text ?></p>
-                <p class="review-box-signature p200"><?php echo $review->signature ?></p>
-            </div>
-        <?php } ?>
+            <?php } ?>
+            <div id="padder"></div>
+        </div>
     </div>
     <div class="review-brands">
         <div class="review-brand">
@@ -140,3 +143,4 @@
         </div>
     </div>
 </div>
+<script src="includes/widgets/reviews/reviews.js"></script>

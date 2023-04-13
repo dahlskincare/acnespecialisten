@@ -140,19 +140,14 @@
                               <div class="h500 l10n">Reviews</div>
                               <div class="flex-row is-hidden-mobile">
                                     <div class="step-buttons">
-                                          <button class="round-large grey" onclick="Carousel.prev('#reviews-carousel', -1)">
-                                                <?php icon('arrow-left') ?>
-                                          </button>
-                                          <button class="round-large grey" onclick="Carousel.next('#reviews-carousel', 1)">
-                                                <?php icon('arrow-right') ?>
-                                          </button>
+                                          <button class="round-large grey" onclick="Reviews.scroll(-1)"><?php icon('arrow-left') ?></button>
+                                          <button class="round-large grey" onclick="Reviews.scroll(1)"><?php icon('arrow-right') ?></button>
                                     </div>
                                     <a href="reviews" class="ml-l button compact text">
                                           <span class="l10n">View all reviews</span>
                                           <?php icon('navigate-next') ?>
                                     </a>
                               </div>
-
                         </div>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
                         <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="reviews">View all reviews</a>
