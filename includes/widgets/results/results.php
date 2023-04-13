@@ -92,43 +92,45 @@ if (!isset($results)) {
     );
 } ?>
 
-<div class="is-hidden-desktop">
-    <div class="flex-row justify-space-between">
-        <div class="h500 l10n">Results</div>
-        <div class="result-step-buttons">
-            <button class="round-large grey" onclick="ResultsWidget.scroll(-1)">
-                <?php icon('arrow-left') ?>
-            </button>
-            <button class="round-large grey" onclick="ResultsWidget.scroll(1)">
-                <?php icon('arrow-right') ?>
-            </button>
+<div class="results-widget">
+    <div class="is-hidden-desktop">
+        <div class="flex-row justify-space-between">
+            <div class="h500 l10n">Results</div>
+            <div class="result-step-buttons">
+                <button class="round-large grey" onclick="ResultsWidget.scroll(-1)">
+                    <?php icon('arrow-left') ?>
+                </button>
+                <button class="round-large grey" onclick="ResultsWidget.scroll(1)">
+                    <?php icon('arrow-right') ?>
+                </button>
+            </div>
         </div>
+        <div class="results-scroller">
+            <div class="results-container">
+                <?php foreach ($results as $result) { ?>
+                    <?php include('result.php'); ?>
+                    <div class="result-divider"></div>
+                <?php } ?>
+            </div>
+        </div>
+        <a class="mt-xl button b200 outline expand l10n" href="results">View all treatment results</a>
     </div>
-    <div class="results-scroller">
-        <div class="results-container">
-            <?php foreach ($results as $result) { ?>
+
+    <div class="is-hidden-touch" id="results-large">
+        <div class="flex-row align-end justify-space-between">
+            <div class="h500 l10n">Results</div>
+            <a href="results" class="button compact text">
+                <span class="l10n">View all treatment results</span>
+                <?php icon('navigate-next') ?>
+            </a>
+        </div>
+        <div id="results-container">
+            <?php
+            foreach ($results as $result) { ?>
                 <?php include('result.php'); ?>
                 <div class="result-divider"></div>
             <?php } ?>
         </div>
     </div>
-    <a class="mt-xl button b200 outline expand l10n" href="results">View all treatment results</a>
+    <script src="/includes/widgets/results/results.js"></script>
 </div>
-
-<div class="is-hidden-touch" id="results-large">
-    <div class="flex-row align-end justify-space-between">
-        <div class="h500 l10n">Results</div>
-        <a href="results" class="button compact text">
-            <span class="l10n">View all treatment results</span>
-            <?php icon('navigate-next') ?>
-        </a>
-    </div>
-    <div id="results-container">
-        <?php
-        foreach ($results as $result) { ?>
-            <?php include('result.php'); ?>
-            <div class="result-divider"></div>
-        <?php } ?>
-    </div>
-</div>
-<script src="/includes/widgets/results/results.js"></script>

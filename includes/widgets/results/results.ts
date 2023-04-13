@@ -17,7 +17,6 @@ namespace ResultsWidget {
 
     export function scroll(step: number) {
         const scroller = document.querySelector('.results-scroller');
-        const overlay = scroller.querySelector('.result-overlay');
 
         // 24 is the margin between results
         scroller.scrollBy(step * (scroller.getBoundingClientRect().width) + step * 24, 0);

@@ -16,7 +16,6 @@ var ResultsWidget;
     var activeResult = null;
     function scroll(step) {
         var scroller = document.querySelector('.results-scroller');
-        var overlay = scroller.querySelector('.result-overlay');
         // 24 is the margin between results
         scroller.scrollBy(step * (scroller.getBoundingClientRect().width) + step * 24, 0);
     }
