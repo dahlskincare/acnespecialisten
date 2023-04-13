@@ -214,10 +214,7 @@ $repair_url = 'treatments/acne';
                     </section>
                 <?php } ?>
                 <section id="results">
-                    <?php
-                    $result_count = 2;
-                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results.php');
-                    ?>
+                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php'); ?>
                 </section>
                 <section id="reviews">
                     <div class="flex-row align-end justify-space-between">
