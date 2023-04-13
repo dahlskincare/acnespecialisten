@@ -16,7 +16,7 @@
         }
 
         .result-divider:last-child {
-            flex: 1 0 $m;
+            display: none;
         }
 
         .result-overlay {
@@ -41,7 +41,7 @@
         border-top-left-radius: $radius-l;
         border-top-right-radius: $radius-l;
         overflow: hidden;
-        width: 358px;
+        width: 100%;
         height: 358px;
         position: relative;
         display: flex;
@@ -118,14 +118,25 @@
             text-decoration: underline;
         }
     }
+}
 
-    @include desktop {
-        box-shadow: none;
 
-        .ro-images {
-            width: 424px;
-            height: 424px;
+#results-large {
+    #results-container {
+        display: flex;
+        overflow: hidden;
+        margin: 0 -$s;
+
+        .result-overlay {
+            box-shadow: none;
+            padding: 0 $s;
+
+            flex: 1;
+
+            .ro-images {
+                width: 100%;
+                height: 424px;
+            }
         }
-
     }
 }

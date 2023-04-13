@@ -92,7 +92,7 @@ if (!isset($results)) {
     );
 } ?>
 
-<div class="is-hidden-tablet">
+<div class="is-hidden-desktop">
     <div class="flex-row justify-space-between">
         <div class="h500 l10n">Results</div>
         <div class="result-step-buttons">
@@ -115,7 +115,7 @@ if (!isset($results)) {
     <a class="mt-xl button b200 outline expand l10n" href="results">View all treatment results</a>
 </div>
 
-<div class="is-hidden-mobile">
+<div class="is-hidden-touch" id="results-large">
     <div class="flex-row align-end justify-space-between">
         <div class="h500 l10n">Results</div>
         <a href="results" class="button compact text">
@@ -123,12 +123,11 @@ if (!isset($results)) {
             <?php icon('navigate-next') ?>
         </a>
     </div>
-    <div class="columns is-3 is-variable">
+    <div id="results-container">
         <?php
         foreach ($results as $result) { ?>
-            <div class="column">
-                <?php include('result.php'); ?>
-            </div>
+            <?php include('result.php'); ?>
+            <div class="result-divider"></div>
         <?php } ?>
     </div>
 </div>
