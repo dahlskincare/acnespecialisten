@@ -2,7 +2,7 @@
 @import '../../../styles/util/sizes';
 @import '../../../styles/util/mixins';
 
-.results-scroller {
+.results-narrow-scroller {
     overflow-x: scroll;
     scroll-behavior: smooth;
     scrollbar-width: none;
@@ -132,7 +132,5 @@
             }
 
         }
-
-
     }
 }

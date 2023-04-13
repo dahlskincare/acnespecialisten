@@ -132,7 +132,7 @@ if (!isset($results)) {
         </button>
     </div>
 </div>
-<div class="results-scroller">
+<div class="results-narrow-scroller">
     <div class="results-container">
         <?php foreach ($results as $result) { ?>
             <?php include('result.php'); ?>
