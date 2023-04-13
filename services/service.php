@@ -137,13 +137,18 @@ $faq_categories = array(
 );
 
 $skin_guide_articles = array(
-    /*
-    new SkinGuideArticle('How hormones affect?', 'Problem skin', 'skin-guide/hormones-effect', 'images/skin-guide/small/hormones.jpg', 'images/skin-guide/large/hormones.jpg'),
-    new SkinGuideArticle('Can makeup harm your skin?', 'Problem skin', 'skin-guide/can-makeup-harm', 'images/skin-guide/small/makeup.jpg', 'images/skin-guide/large/makeup.jpg'),
-    new SkinGuideArticle('How to build a skin care routine', 'Problem skin', 'skin-guide/routine-how-to', 'images/skin-guide/small/routine.jpg', 'images/skin-guide/large/routine.jpg'),
-    new SkinGuideArticle('How to build a skin care routine', 'Problem skin', 'skin-guide/routine-how-to', 'images/skin-guide/small/routine.jpg', 'images/skin-guide/large/routine.jpg'),
-    new SkinGuideArticle('How to build a skin care routine', 'Problem skin', 'skin-guide/routine-how-to', 'images/skin-guide/small/routine.jpg', 'images/skin-guide/large/routine.jpg'),
-    new SkinGuideArticle('How to build a skin care routine', 'Problem skin', 'skin-guide/routine-how-to', 'images/skin-guide/small/routine.jpg', 'images/skin-guide/large/routine.jpg')*/);
+    new SkinGuideArticle(
+        id: 'how-hormones-effect',
+        title: 'How hormones effect?',
+        subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
+        problem: 'Acne',
+        description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
+        image_small: 'https://via.placeholder.com/426x324.webp',
+        image_large: 'https://via.placeholder.com/872x456.jpg',
+        category_id: 'category-here',
+        subcategory_id: 'subcategory-here'
+    ),
+);
 $specialists = array(
     new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-1.jpg', 'images/specialists/large/specialist-1.jpg'),
     new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-1.jpg', 'images/specialists/large/specialist-2.jpg'),
@@ -393,10 +398,7 @@ $specialists = array(
                     </section>
                 <?php } ?>
                 <section id="results" class="large-margin">
-                    <?php
-                    $result_count = 2;
-                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results.php')
-                    ?>
+                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php') ?>
                 </section>
                 <section id="reviews" class="large-margin">
                     <div class="flex-row align-end justify-space-between">
