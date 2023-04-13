@@ -75,3 +75,10 @@ if (!isset($skin_guide_articles)) {
 
     </div>
 </div>
+<script>
+    function scrollSkinGuide(distance) {
+        let widget = document.querySelector('.skin-guide-widget');
+        let item = widget.querySelector('.column');
+        widget.scrollBy(distance * item.getBoundingClientRect().width, 0);
+    }
+</script>

@@ -18,7 +18,7 @@ var ResultsWidget;
         var scroller = document.querySelector('.results-scroller');
         var overlay = scroller.querySelector('.result-overlay');
         // 24 is the margin between results
-        scroller.scrollBy(step * (overlay.getBoundingClientRect().width + 24), 0);
+        scroller.scrollBy(step * (scroller.getBoundingClientRect().width) + step * 24, 0);
     }
     ResultsWidget.scroll = scroll;
     function onSliderButtonDown(button) {

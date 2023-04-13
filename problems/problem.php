@@ -402,10 +402,7 @@ $related_problems = array(
                               <?php } ?>
                         </section>
                         <section id="results">
-                              <?php
-                              $result_count = 2;
-                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results.php');
-                              ?>
+                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php'); ?>
                         </section>
                         <section id="reviews">
                               <div class="flex-row align-end justify-space-between">
@@ -459,9 +456,7 @@ $related_problems = array(
                                           </button>
                                     </div>
                               </div>
-                              <?php
-                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php');
-                              ?>
+                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
                               <a class="mt-xl button b200 outline expand auto-width l10n" href="specialists">View all specialists</a>
                         </section>
                         <section id="related-problems">

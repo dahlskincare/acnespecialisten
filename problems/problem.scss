@@ -5,10 +5,12 @@
 @import "widgets/related-problem-card/related-problem-card";
 @import "widgets/type-card/type-card";
 @import "widgets/type-card/type-card-large";
+@import "../includes/widgets/results/results_narrow";
 
 
 html {
     scroll-behavior: smooth;
+
 
     .underline {
         text-decoration: underline;
@@ -193,9 +195,6 @@ section#header {
         }
 
         section#results {
-            .carousel {
-                padding-bottom: $xl;
-            }
 
             .result-widget {
                 margin-top: $l;

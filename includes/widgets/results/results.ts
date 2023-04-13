@@ -20,7 +20,7 @@ namespace ResultsWidget {
         const overlay = scroller.querySelector('.result-overlay');
 
         // 24 is the margin between results
-        scroller.scrollBy(step * (overlay.getBoundingClientRect().width + 24), 0);
+        scroller.scrollBy(step * (scroller.getBoundingClientRect().width) + step * 24, 0);
     }
 
     function onSliderButtonDown(button: HTMLElement) {

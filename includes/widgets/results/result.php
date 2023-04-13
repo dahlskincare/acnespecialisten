@@ -13,4 +13,3 @@
         After <?php echo $result->treatment->duration ?> of <a href="services"><?php echo strtolower($result->problem) ?> treatment</a>
     </div>
 </div>
-<script src="/includes/widgets/results/results.js"></script>
