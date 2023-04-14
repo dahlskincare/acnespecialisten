@@ -1,7 +1,4 @@
 <?php
-// IMPORTANT: 
-// Don't edit this file unless you know what you are doing!
-
 // PHP utility
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 function icon($name)
@@ -19,6 +16,5 @@ function icon($name)
 <link rel="icon" href="favicon.png" type="image/png" />
 
 <!-- Preload important resources -->
-<link rel="preload" as="style" href="styles/default-layout.css">
 <link rel="preload" as="image" href="images/logo-green.svg">
 <link rel="stylesheet" href="/includes/widgets/widgets.css" />
