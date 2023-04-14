@@ -1,9 +1,27 @@
 var Header;
 (function (Header) {
     function toggleMenu(flag) {
-        var nav = document.querySelector('mobile-nav');
-        console.log(flag);
+        var overlay = document.querySelector('#mobile-nav-overlay');
+        var nav = overlay.children[0];
+        if (flag) {
+            overlay.classList.add('active');
+            document.body.classList.add('noscroll');
+        }
+        else {
+            overlay.classList.remove('active');
+            document.body.classList.remove('noscroll');
+        }
     }
     Header.toggleMenu = toggleMenu;
+    function toggleExpanded(e) {
+        var panel = e.parentElement;
+        if (panel.classList.contains('active')) {
+            panel.classList.remove('active');
+        }
+        else {
+            panel.classList.add('active');
+        }
+    }
+    Header.toggleExpanded = toggleExpanded;
 })(Header || (Header = {}));
 //# sourceMappingURL=header.js.map
