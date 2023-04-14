@@ -1,0 +1,92 @@
+.result-overlay {
+    margin-top: $xl;
+    user-select: none;
+    flex: 1 0 100%;
+
+    .ro-images {
+        background-color: $light-200;
+        border-top-left-radius: $radius-l;
+        border-top-right-radius: $radius-l;
+        overflow: hidden;
+        width: 100%;
+        height: 358px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            pointer-events: none;
+            position: absolute;
+
+            width: 100%;
+            height: auto;
+            border-radius: 0;
+        }
+
+        img:nth-child(2) {
+            clip-path: polygon(50% 0, 100% 0%, 100% 100%, 50% 100%);
+        }
+
+        .ro-slider {
+            position: relative;
+            height: 100%;
+            width: 1px;
+            background-color: $white-500;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            .ro-slider-button {
+                width: $xl4;
+                height: $xl4;
+                background-color: $white-500;
+                border-radius: 50%;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .ro-icon-left,
+                .ro-icon-right {
+                    pointer-events: none;
+                    width: $xs;
+                    height: $xs;
+                    transform: rotate(-45deg);
+                }
+
+                .ro-icon-left {
+                    border-top: 1px solid $black-500;
+                    border-left: 1px solid $black-500;
+                }
+
+                .ro-icon-right {
+                    border-bottom: 1px solid $black-500;
+                    border-right: 1px solid $black-500;
+                }
+            }
+        }
+
+        @include desktop {
+            height: 424px;
+        }
+
+    }
+
+
+    .ro-info {
+        border: 1px solid $light-200;
+        border-top: 0;
+        border-bottom-left-radius: $radius-l;
+        border-bottom-right-radius: $radius-l;
+        padding: $m;
+        @include p200;
+
+        a {
+            @include h200;
+            text-decoration: underline;
+        }
+    }
+}

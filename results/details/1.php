@@ -117,9 +117,7 @@
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
                         <h1 class="h600 mt-xs l10n">Treatment details</h1>
                         <div class="mt-xl">
-                            <?php
-                            include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/result.php');
-                            ?>
+                            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/result.php'); ?>
                         </div>
                         <div id="customer-info">
                             <div class="h300 l10n">Customer</div>
@@ -406,6 +404,7 @@
         </div>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
+    <script src="/includes/widgets/results/results.js"></script>
 </body>
 
 </html>

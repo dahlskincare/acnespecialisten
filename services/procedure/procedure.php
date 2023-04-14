@@ -136,14 +136,15 @@ $specialists = array(
                                 <?php } ?>
                             </div>
                         <?php } ?>
-                        <div class="mt-xl columns is-2 is-variable">
-                            <div class="column">
-                                <a href="<?php echo $model->consultation_url ?>" target="_blank" class="button white expand l10n">Get a free consultation</a>
+                        <div class="mt-xl">
+                            <div class="columns is-2 is-variable">
+                                <div class="column">
+                                    <a href="<?php echo $model->consultation_url ?>" target="_blank" class="button white expand l10n">Get a free consultation</a>
+                                </div>
+                                <div class="column">
+                                    <a href="<?php echo $model->booking_url ?>" target="_blank" class="button white expand l10n">Book a treatment</a>
+                                </div>
                             </div>
-                            <div class="column">
-                                <a href="<?php echo $model->booking_url ?>" target="_blank" class="button white expand l10n">Book a treatment</a>
-                            </div>
-
                         </div>
                     </div>
                 </div>
