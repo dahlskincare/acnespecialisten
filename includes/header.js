@@ -2,7 +2,6 @@ var Header;
 (function (Header) {
     function toggleMenu(flag) {
         var overlay = document.querySelector('#mobile-nav-overlay');
-        var nav = overlay.children[0];
         if (flag) {
             overlay.classList.add('active');
             document.body.classList.add('noscroll');

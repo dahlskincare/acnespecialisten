@@ -36,10 +36,15 @@ html {
                 overflow-y: auto;
 
                 div#mobile-nav-head {
+                    font-size: 0;
                     height: $xl4;
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
+
+                    .icon {
+                        cursor: pointer;
+                    }
                 }
 
                 div#mobile-nav-links {
@@ -54,9 +59,11 @@ html {
 
                     .mobile-nav-link {
                         @include h200;
-                        line-height: $xl4;
+                        height: $xl4;
                         background-color: $light-50;
-                        text-align: center;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
                     }
                 }
 
@@ -70,6 +77,7 @@ html {
                             display: flex;
                             align-items: center;
                             justify-content: space-between;
+                            cursor: pointer;
 
                             .icon {
                                 transition: transform 200ms ease;

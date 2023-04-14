@@ -90,8 +90,9 @@
             </div>
             <div id="actions">
                 <a class="button text l10n" href="https://dahlskincare.com/skin-consultation" target="_blank">Get a free consultation</a>
-                <?php icon("search") ?>
-                <?php icon("bars") ?>
+                <div onclick="Header.toggleMenu(true)">
+                    <?php icon("bars") ?>
+                </div>
             </div>
         </div>
     </div>
