@@ -3,7 +3,6 @@
 <html lang="<?php echo $lang ?>">
 
 <head>
-
       <!-- TODO: Set title and meta tags -->
       <title class="l10n">Acnespecialisten | Home</title>
       <meta name="description" content="Acnespecialisten is the best etc..." class="l10n">
