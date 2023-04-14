@@ -1,5 +1,4 @@
 <?php
-// PHP utility
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 function icon($name)
 {
