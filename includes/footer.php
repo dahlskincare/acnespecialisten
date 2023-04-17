@@ -118,34 +118,36 @@
                         </ul>
                     </div>
                 </div>
-                <div class="columns is-mobile is-gapless">
-                    <div class="column">
-                        <h2>Support</h2>
-                        <ul>
-                            <li>
-                                <a href="faq" class="button text grey compact l10n">FAQ</a>
-                            </li>
-                            <li>
-                                <a href="cancellation" class="button text grey compact l10n">Cancellation</a>
-                            </li>
-                            <li>
-                                <a href="glossary" class="button text grey compact l10n">Glossary</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="column">
-                        <h2>Community</h2>
-                        <ul>
-                            <li>
-                                <a href="results" class="button text grey compact l10n">Clients results</a>
-                            </li>
-                            <li>
-                                <a href="giftcards" class="button text grey compact l10n">Gift cards</a>
-                            </li>
-                            <li>
-                                <a href="login" class="button text grey compact l10n">Login</a>
-                            </li>
-                        </ul>
+                <div id="second-link-row">
+                    <div class="columns is-mobile is-gapless">
+                        <div class="column">
+                            <h2>Support</h2>
+                            <ul>
+                                <li>
+                                    <a href="faq" class="button text grey compact l10n">FAQ</a>
+                                </li>
+                                <li>
+                                    <a href="cancellation" class="button text grey compact l10n">Cancellation</a>
+                                </li>
+                                <li>
+                                    <a href="glossary" class="button text grey compact l10n">Glossary</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <h2>Community</h2>
+                            <ul>
+                                <li>
+                                    <a href="results" class="button text grey compact l10n">Clients results</a>
+                                </li>
+                                <li>
+                                    <a href="giftcards" class="button text grey compact l10n">Gift cards</a>
+                                </li>
+                                <li>
+                                    <a href="login" class="button text grey compact l10n">Login</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
