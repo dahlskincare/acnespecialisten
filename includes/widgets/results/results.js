@@ -32,7 +32,7 @@ var ResultsWidget;
             else if (e instanceof TouchEvent)
                 clientX = e.touches[0].clientX;
             var offset = Math.min(activeResult.bounds.width, Math.max(0, -(activeResult.bounds.left - clientX)));
-            activeResult.slider.style.left = "".concat(offset - 0.5 * activeResult.bounds.width, "px");
+            activeResult.slider.style.left = "".concat(offset - (0.5 * activeResult.bounds.width), "px");
             activeResult.after.style.clipPath = "polygon(".concat(offset, "px 0, 100% 0%, 100% 100%, ").concat(offset, "px 100%)");
         }
     }

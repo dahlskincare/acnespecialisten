@@ -34,7 +34,7 @@ namespace ResultsWidget {
             else if (e instanceof TouchEvent) clientX = e.touches[0].clientX;
 
             let offset = Math.min(activeResult.bounds.width, Math.max(0, -(activeResult.bounds.left - clientX)));
-            activeResult.slider.style.left = `${offset - 0.5 * activeResult.bounds.width}px`;
+            activeResult.slider.style.left = `${offset - (0.5 * activeResult.bounds.width)}px`;
             activeResult.after.style.clipPath = `polygon(${offset}px 0, 100% 0%, 100% 100%, ${offset}px 100%)`
         }
     }
