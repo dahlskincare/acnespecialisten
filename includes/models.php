@@ -75,18 +75,28 @@ class BasedType
 
 class Specialist
 {
-    public function __construct($name, $title, $image_small, $image_large)
+    public function __construct($name, $title, $image_small, $image_large, $city = null, $description = null, $rating = null, $num_treatments = null, $since_year = null)
     {
         $this->name = $name;
         $this->title = $title;
         $this->image_small = $image_small;
         $this->image_large = $image_large;
+        $this->city = $city;
+        $this->description = $description;
+        $this->rating = $rating;
+        $this->num_treatments = $num_treatments;
+        $this->since_year = $since_year;
     }
 
-    public $name;
-    public $title;
-    public $image_small;
-    public $image_large;
+    public String $name;
+    public String $title;
+    public String $image_small;
+    public String $image_large;
+    public ?String $city;
+    public ?String $description;
+    public ?float $rating;
+    public ?int $num_treatments;
+    public ?int $since_year;
 }
 class PathSegment
 {

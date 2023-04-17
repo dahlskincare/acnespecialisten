@@ -1,0 +1,109 @@
+@import '../../../styles/util/colors';
+@import '../../../styles/util/sizes';
+@import '../../../styles/util/mixins';
+
+.specialist-card-widget {
+    font-size: 0;
+    overflow: hidden;
+    @include elevation-low;
+
+    img {
+        width: 100%;
+        height: auto;
+        border-top-right-radius: $radius-l;
+        border-top-left-radius: $radius-l;
+    }
+
+    .specialist-card-content {
+        padding: $xl;
+        border: 1px solid $light-200;
+        border-top: 0;
+        border-bottom-right-radius: $radius-l;
+        border-bottom-left-radius: $radius-l;
+
+        .specialist-card-title {
+            display: flex;
+            justify-content: space-between;
+
+            .sct-city {
+                @include p100;
+                margin-top: $xxs;
+                color: $dark-200;
+                display: flex;
+                align-items: center;
+
+                .icon {
+                    margin-right: $xs;
+                }
+
+                .icon>svg {
+                    * {
+                        stroke: $dark-200;
+                        fill: transparent;
+                    }
+                }
+            }
+
+            .sct-rating {
+                @include h200;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+
+                .icon {
+                    margin-right: 6px;
+                }
+
+                .icon>svg {
+                    * {
+                        stroke: $orange-400;
+                        fill: $orange-400;
+                    }
+                }
+            }
+
+            .sct-rating-where {
+                @include p100;
+                color: $dark-200;
+                margin-top: $xxs;
+            }
+        }
+
+        .specialist-card-info {
+            @include p200;
+            margin-top: $m;
+            padding: $m 0;
+            display: flex;
+            align-items: center;
+            border-top: 1px solid $light-200;
+            border-bottom: 1px solid $light-200;
+
+            span {
+                color: $dark-200;
+            }
+
+            .dot {
+                margin: 0 $xs;
+                background-color: $dark-25;
+                width: 5px;
+                height: 5px;
+                border-radius: 50%;
+            }
+        }
+
+        .specialist-card-description {
+            @include p100;
+            margin-top: $m;
+        }
+
+        a.button {
+            margin-top: $m;
+
+        }
+
+    }
+
+    @include desktop {
+        box-shadow: none;
+    }
+}

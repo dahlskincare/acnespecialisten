@@ -45,3 +45,16 @@ section#title {
         max-width: 872px;
     }
 }
+
+section#cards {
+    padding-bottom: $xl;
+
+    .specialist-card-widget {
+        margin-top: $xl;
+    }
+
+    @include desktop {
+        margin-top: $xl;
+    }
+
+}
