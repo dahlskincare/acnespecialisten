@@ -8,7 +8,6 @@ form {
         @include h200;
         display: block;
         margin-bottom: $s;
-
     }
 
     // Text input
@@ -28,6 +27,24 @@ form {
         background-color: $light-300;
         border: 1px solid $light-300;
         color: $black-500;
+        transition: background-color 200ms ease;
+    }
+
+    input[type=text]:focus,
+    input[type=email]:focus,
+    input[type=password]:focus,
+    input[type=phone]:focus,
+    textarea:focus {
+        background-color: $white-500;
+    }
+
+    input[type=text].error,
+    input[type=email].error,
+    input[type=password].error,
+    input[type=phone].error,
+    textarea.error {
+        border-color: $red-400;
+        background-color: $red-25;
     }
 
     ::placeholder {
@@ -99,4 +116,73 @@ form {
     .select-wrapper.error {
         border-color: $red-400;
     }
+
+
+    // Radio
+    label.radio {
+        font-size: $m;
+        letter-spacing: -0.02em;
+        font-weight: 400;
+        line-height: $xxl;
+        height: $xxl;
+        display: block;
+        position: relative;
+        padding-left: $xxl + $s;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        margin: 0;
+
+        input {
+            appearance: none;
+        }
+
+        /*
+        input:checked~.check {}
+        */
+
+        input:checked~.check:after {
+            background-color: $deep-sea-400;
+        }
+
+        .check {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 32px;
+            width: 32px;
+            background-color: $white-500;
+            border: 1px solid $light-200;
+            border-radius: 50%;
+            box-sizing: content-box;
+        }
+
+        .check:after {
+            content: "";
+            position: absolute;
+            top: 6px;
+            left: 6px;
+            width: $l;
+            height: $l;
+            border-radius: 50%;
+            background-color: transparent;
+            transition: background-color 200ms ease;
+        }
+    }
+
+
+    /*
+    .radio:hover {
+        input~.check {    
+        }
+    }
+    */
+
+
+
+
+
+
 }
