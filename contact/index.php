@@ -56,12 +56,12 @@
                                 <span class="l10n">Full name</span>
                                 <span class="color-deep-sea-400">*</span>
                             </label>
-                            <input type="text" name="name" placeholder="Your name" />
+                            <input type="text" name="name" placeholder="Your name" required />
                             <label for="email" class="mt-xl">
                                 <span class="l10n">Email</span>
                                 <span class="color-deep-sea-400">*</span>
                             </label>
-                            <input type="email" name="email" placeholder="your@email.com" />
+                            <input type="email" name="email" placeholder="your@email.com" required />
                             <label for="phone" class="mt-xl">
                                 <span class="l10n">Phone</span>
                             </label>
@@ -70,7 +70,7 @@
                                 <span class="l10n">Message</span>
                                 <span class="color-deep-sea-400">*</span>
                             </label>
-                            <textarea class="l10n" name="message" rows="8" placeholder="Your message"></textarea>
+                            <textarea class="l10n" name="message" rows="8" placeholder="Your message" required></textarea>
                             <input type="submit" class="button b200 expand" value="Send a message" />
                         </form>
                     </div>
@@ -143,14 +143,14 @@
                                 <span class="l10n">Full name</span>
                                 <span class="color-deep-sea-400">*</span>
                             </label>
-                            <input type="text" name="name" placeholder="Your name" />
+                            <input type="text" name="name" placeholder="Your name" required />
                             <div class="columns is-variable is-3">
                                 <div class="column">
                                     <label for="email" class="mt-xl">
                                         <span class="l10n">Email</span>
                                         <span class="color-deep-sea-400">*</span>
                                     </label>
-                                    <input type="email" name="email" placeholder="your@email.com" />
+                                    <input type="email" name="email" placeholder="your@email.com" required />
                                 </div>
                                 <div class="column">
                                     <label for="phone" class="mt-xl">
@@ -163,7 +163,7 @@
                                 <span class="l10n">Message</span>
                                 <span class="color-deep-sea-400">*</span>
                             </label>
-                            <textarea class="l10n" name="message" rows="8" placeholder="Your message"></textarea>
+                            <textarea class="l10n" name="message" rows="8" placeholder="Your message" required></textarea>
                             <input type="submit" class="button b200" value="Send a message" />
                         </form>
                     </div>
