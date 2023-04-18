@@ -1,0 +1,318 @@
+@import '../styles/util/colors';
+@import '../styles/util/sizes';
+@import '../styles/util/mixins';
+
+html {
+    scroll-behavior: smooth;
+}
+
+section#banner {
+    background-color: $deep-sea-400;
+    padding: $xxs 0;
+
+    .badges-widget {
+        flex: 1;
+
+        .badge {
+            @include button-text-color($white-500);
+            color: $white-500;
+            background-color: transparent;
+        }
+
+        .badge:first-child {
+            padding-left: 0;
+        }
+
+        .badge:last-child {
+            padding-right: 0;
+        }
+    }
+
+    @include desktop {
+        .badges-widget {
+            flex: 0;
+        }
+
+        .breadcrumbs-widget {
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+    }
+}
+
+div#content {
+    margin: 0 auto;
+    max-width: 872px;
+
+    section#title {
+        margin-top: $xl;
+
+        p {
+            margin-top: $xs;
+        }
+
+        @include desktop {
+            p {
+                margin-top: $s;
+            }
+        }
+    }
+
+    section#plant {
+        img {
+            margin-top: $xl;
+            width: 100%;
+            height: auto;
+            border-radius: $radius-l;
+        }
+
+        @include desktop {
+            img {
+                margin-top: $xl3;
+            }
+        }
+    }
+
+    section#segments {
+        #segments-flex {
+            display: flex;
+
+            picture {
+                width: 100%;
+            }
+
+            img {
+                flex: 1;
+                border-radius: $radius-l;
+                width: 100%;
+                height: auto;
+            }
+
+            #s-first-two {
+                flex: 2;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+
+                #s-first-images {
+                    display: flex;
+                    align-items: flex-end;
+
+                    picture:first-child {
+                        margin-right: $xxs;
+                    }
+
+                    picture:last-child {
+                        margin-left: $xxs;
+                        margin-right: $xxs;
+                    }
+                }
+            }
+
+            #s-last {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+
+                picture {
+                    margin-left: $xxs;
+                }
+            }
+
+            @media screen and (min-width: $tablet) {
+                #s-first-two {
+                    justify-content: space-between;
+
+                    #s-first-two-text {
+                        max-width: 400px;
+
+                        p {
+                            margin-top: $m;
+                        }
+                    }
+
+                    #s-first-images {
+                        margin-top: $xl3;
+                    }
+                }
+
+            }
+
+            @include desktop {
+                #s-first-two {
+                    #s-first-two-text {
+                        max-width: 423px;
+                    }
+
+                    #s-first-images {
+                        picture:first-child {
+                            margin-right: $xs;
+                        }
+
+                        picture:last-child {
+                            margin-left: $xs;
+                            margin-right: $xs;
+                        }
+                    }
+                }
+
+                #s-last {
+                    picture {
+                        margin-left: $xs;
+                    }
+                }
+            }
+        }
+    }
+
+    section#hands {
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: $radius-l;
+            margin-top: $xl;
+        }
+
+        @include desktop {
+            img {
+                margin-top: $xl3;
+            }
+        }
+    }
+
+    section#bullets {
+        .flex-row {
+            margin-top: $xl3;
+        }
+
+        p.bullet-desc {
+            @include p200;
+            color: $dark-300;
+            margin-top: $xxs;
+            padding-right: $xl;
+        }
+    }
+
+    section.poster {
+        img {
+            margin-top: $xl;
+            border-radius: $radius-l;
+            width: 100%;
+            height: auto;
+        }
+
+        p {
+            margin-top: $xl;
+        }
+    }
+}
+
+section#cta {
+    background-color: $deep-sea-400;
+    padding: $xl;
+    border-radius: $radius-l;
+    color: $white-500;
+
+    #cta-banner-header {
+        @include h500;
+    }
+
+    #cta-banner-content {
+        margin-top: $xs;
+    }
+
+    a.button {
+        margin-top: $xl;
+    }
+
+    @media screen and (min-width: $tablet) {
+        padding: $xxl $xl3;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        #cta-banner-texts {
+            flex: auto;
+
+            #cta-banner-header {
+                @include h500;
+            }
+        }
+
+        a.button {
+            margin-top: 0;
+            flex: 1;
+        }
+    }
+}
+
+section.large-margin {
+    margin-top: 72px;
+}
+
+@include desktop {
+    div#content {
+        section#title {
+            margin-top: $xl3;
+        }
+
+        section#bullets {
+            .flex-row {
+                margin-top: 0;
+            }
+        }
+
+        section.poster {
+            .flex-row {
+                div:first-child {
+                    flex: 1;
+
+
+                    img {
+                        margin-top: 0;
+
+                    }
+                }
+
+                div:last-child {
+                    flex: 1;
+
+
+                    p {
+                        margin-top: $m;
+                    }
+                }
+
+            }
+        }
+
+        section#poster-left {
+            .flex-row {
+                div:first-child {
+                    margin-right: $xl;
+                }
+
+                div:last-child {
+                    padding-left: $xl3;
+                }
+            }
+        }
+
+        section#poster-right {
+            .flex-row {
+                div:first-child {
+                    padding-right: $xl3;
+                }
+
+                div:last-child {
+                    margin-left: $xl;
+                }
+            }
+        }
+    }
+
+    section.large-margin {
+        margin-top: 104px;
+    }
+}

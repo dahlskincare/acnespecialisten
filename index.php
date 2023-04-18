@@ -3,7 +3,6 @@
 <html lang="<?php echo $lang ?>">
 
 <head>
-
       <!-- TODO: Set title and meta tags -->
       <title class="l10n">Acnespecialisten | Home</title>
       <meta name="description" content="Acnespecialisten is the best etc..." class="l10n">
@@ -133,107 +132,21 @@
                         </a>
                   </section>
                   <section id="results">
-                        <div class="is-hidden-tablet">
-                              <div class="flex-row justify-space-between">
-                                    <div class="h500 l10n">Results</div>
-                                    <div class="step-buttons">
-                                          <button class="round-large grey" onclick="Carousel.prev('#results-carousel')">
-                                                <?php icon('arrow-left') ?>
-                                          </button>
-                                          <button class="round-large grey" onclick="Carousel.next('#results-carousel')">
-                                                <?php icon('arrow-right') ?>
-                                          </button>
-                                    </div>
-                              </div>
-                              <div class="carousel" id="results-carousel">
-                                    <div class="slide">
-                                          <div class="container l10n">
-                                                <?php
-                                                $before = 'images/results/acne-before.webp';
-                                                $after = 'images/results/acne-after.webp';
-                                                $label = 'After two months of <a href="treatments/acne">acne treatment</a>';
-                                                include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
-                                                ?>
-                                          </div>
-                                    </div>
-                                    <div class="slide">
-                                          <div class="container l10n">
-                                                <?php
-                                                $before = 'images/results/rosacea-before.webp';
-                                                $after = 'images/results/rosacea-after.webp';
-                                                $label = 'After two months of <a href="treatments/rosacea">rosacea treatment</a>';
-                                                include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
-                                                ?>
-                                          </div>
-                                    </div>
-                                    <div class="slide">
-                                          <div class="container l10n">
-                                                <?php
-                                                $before = 'images/results/comedones-before.webp';
-                                                $after = 'images/results/comedones-after.webp';
-                                                $label = 'After two months of <a href="treatments/comedones">comedones treatment</a>';
-                                                include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
-                                                ?>
-                                          </div>
-                                    </div>
-                              </div>
-                              <a class="button b200 outline expand l10n" href="results">View all treatment results</a>
-                        </div>
-                        <div class="is-hidden-mobile">
-                              <div class="flex-row align-end justify-space-between">
-                                    <div class="h500 l10n">Results</div>
-                                    <a href="results" class="button compact text">
-                                          <span class="l10n">View all treatment results</span>
-                                          <?php icon('navigate-next') ?>
-                                    </a>
-                              </div>
-                              <div class="columns is-3 is-variable">
-                                    <div class="column l10n">
-                                          <?php
-                                          $before = 'images/results/acne-before.webp';
-                                          $after = 'images/results/acne-after.webp';
-                                          $label = 'After two months of <a href="treatments/acne">acne treatment</a>';
-                                          include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
-                                          ?>
-                                    </div>
-                                    <div class="column l10n">
-                                          <?php
-                                          $before = 'images/results/rosacea-before.webp';
-                                          $after = 'images/results/rosacea-after.webp';
-                                          $label = 'After two months of <a href="treatments/rosacea">rosacea treatment</a>';
-                                          include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
-                                          ?>
-                                    </div>
-                                    <div class="column l10n">
-                                          <?php
-                                          $before = 'images/results/comedones-before.webp';
-                                          $after = 'images/results/comedones-after.webp';
-                                          $label = 'After two months of <a href="treatments/comedones">comedones treatment</a>';
-                                          include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
-                                          ?>
-                                    </div>
-                              </div>
-                        </div>
+                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results.php') ?>
                   </section>
                   <section id="reviews">
-
                         <div class="flex-row align-end justify-space-between">
                               <div class="h500 l10n">Reviews</div>
                               <div class="flex-row is-hidden-mobile">
                                     <div class="step-buttons">
-                                          <button class="round-large grey" onclick="Carousel.prev('#reviews-carousel', -1)">
-                                                <?php icon('arrow-left') ?>
-                                          </button>
-                                          <button class="round-large grey" onclick="Carousel.next('#reviews-carousel', 1)">
-                                                <?php icon('arrow-right') ?>
-                                          </button>
+                                          <button class="round-large grey" onclick="Reviews.scroll(-1)"><?php icon('arrow-left') ?></button>
+                                          <button class="round-large grey" onclick="Reviews.scroll(1)"><?php icon('arrow-right') ?></button>
                                     </div>
                                     <a href="reviews" class="ml-l button compact text">
                                           <span class="l10n">View all reviews</span>
                                           <?php icon('navigate-next') ?>
                                     </a>
                               </div>
-
                         </div>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
                         <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="reviews">View all reviews</a>

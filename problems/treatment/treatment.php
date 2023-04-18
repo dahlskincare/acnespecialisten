@@ -214,54 +214,17 @@ $repair_url = 'treatments/acne';
                     </section>
                 <?php } ?>
                 <section id="results">
-                    <div class="flex-row justify-space-between">
-                        <h2 class="big l10n">Results</h2>
-                        <div class="step-buttons">
-                            <button class="round-large grey" onclick="Carousel.prev('#results-carousel')">
-                                <?php icon('arrow-left') ?>
-                            </button>
-                            <button class="round-large grey" onclick="Carousel.next('#results-carousel')">
-                                <?php icon('arrow-right') ?>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="carousel" id="results-carousel">
-                        <div class="slide l10n">
-                            <?php
-                            $before = 'images/results/acne-before.webp';
-                            $after = 'images/results/acne-after.webp';
-                            $label = 'After two months of <a href="treatments/acne">acne treatment</a>';
-                            include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
-                            ?>
-                        </div>
-                        <div class="slide l10n">
-                            <?php
-                            $before = 'images/results/rosacea-before.webp';
-                            $after = 'images/results/rosacea-after.webp';
-                            $label = 'After two months of <a href="treatments/rosacea">rosacea treatment</a>';
-                            include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
-                            ?>
-                        </div>
-                        <div class="slide l10n">
-                            <?php
-                            $before = 'images/results/comedones-before.webp';
-                            $after = 'images/results/comedones-after.webp';
-                            $label = 'After two months of <a href="treatments/comedones">comedones treatment</a>';
-                            include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
-                            ?>
-                        </div>
-                    </div>
-                    <a class="button outline l10n" href="results">View all treatment results</a>
+                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php'); ?>
                 </section>
                 <section id="reviews">
                     <div class="flex-row align-end justify-space-between">
                         <h2 class="big l10n">Reviews</h2>
                         <div class="flex-row is-hidden-mobile">
                             <div class="step-buttons">
-                                <button class="round-large grey" onclick="Carousel.prev('#reviews-carousel', -1)">
+                                <button class="round-large grey" onclick="Reviews.scroll(-1)">
                                     <?php icon('arrow-left') ?>
                                 </button>
-                                <button class="round-large grey" onclick="Carousel.next('#reviews-carousel', 1)">
+                                <button class="round-large grey" onclick="Reviews.scroll(1)">
                                     <?php icon('arrow-right') ?>
                                 </button>
                             </div>

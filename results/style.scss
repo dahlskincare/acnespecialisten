@@ -2,7 +2,7 @@
 @import '../styles/util/sizes';
 @import '../styles/util/mixins';
 @import 'widgets/result_customer_card/result_customer_card';
-@import 'widgets/paginator/paginator';
+@import '../skin-guide/widgets/paginator/paginator';
 
 section#banner {
     #banner-green {
@@ -73,7 +73,7 @@ section#banner {
             border: 1px solid $light-200;
             border-radius: $radius-l;
             overflow: hidden;
-            margin-top: -$xl3;
+            margin-top: - $xl3;
             background-color: $white-500;
             @include elevation-medium();
 
@@ -196,6 +196,7 @@ section#cta-banner {
         }
 
         a.button {
+            margin-top: 0;
             flex: 1;
         }
     }

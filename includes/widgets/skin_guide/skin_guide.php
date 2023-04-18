@@ -1,18 +1,51 @@
 <?php
 if (!isset($skin_guide_articles)) {
-    $conn = new mysqli($_ENV['DB_URL'], $_ENV['DB_USER'], $_ENV['DB_PASSWORD'], database: $_ENV['DB_NAME']);
-    if ($conn->connect_errno) {
-        echo "Failed to connect to MySQL: " . $conn->connect_error;
-        exit();
-    }
-    if ($rs = $conn->query("SELECT * FROM skin_guide_article LIMIT 4")) {
-        foreach ($rs as $row) {
-            $skin_guide_articles[] = new SkinGuideArticle($row);
-        }
-        $rs->free_result();
-    } else {
-        die($conn->error);
-    }
+    $skin_guide_articles = array(
+        new SkinGuideArticle(
+            id: 'how-hormones-effect',
+            title: 'How hormones effect?',
+            subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
+            problem: 'Acne',
+            description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
+            image_small: 'https://via.placeholder.com/426x324.webp',
+            image_large: 'https://via.placeholder.com/872x456.jpg',
+            category_id: 'category-here',
+            subcategory_id: 'subcategory-here'
+        ),
+        new SkinGuideArticle(
+            id: 'how-hormones-effect',
+            title: 'How hormones effect?',
+            subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
+            problem: 'Acne',
+            description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
+            image_small: 'https://via.placeholder.com/426x324.webp',
+            image_large: 'https://via.placeholder.com/872x456.jpg',
+            category_id: 'category-here',
+            subcategory_id: 'subcategory-here'
+        ),
+        new SkinGuideArticle(
+            id: 'how-hormones-effect',
+            title: 'How hormones effect?',
+            subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
+            problem: 'Acne',
+            description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
+            image_small: 'https://via.placeholder.com/426x324.webp',
+            image_large: 'https://via.placeholder.com/872x456.jpg',
+            category_id: 'category-here',
+            subcategory_id: 'subcategory-here'
+        ),
+        new SkinGuideArticle(
+            id: 'how-hormones-effect',
+            title: 'How hormones effect?',
+            subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
+            problem: 'Acne',
+            description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
+            image_small: 'https://via.placeholder.com/426x324.webp',
+            image_large: 'https://via.placeholder.com/872x456.jpg',
+            category_id: 'category-here',
+            subcategory_id: 'subcategory-here'
+        )
+    );
 }
 ?>
 
@@ -20,7 +53,7 @@ if (!isset($skin_guide_articles)) {
     <div class="columns is-3 is-variable">
         <?php foreach ($skin_guide_articles as $article) { ?>
             <div class="column is-one-quarter">
-                <a href="skin-guide/articles/<?php echo $article->subcategory_id ?>/<?php echo $article->id ?>" class="skin-guide-article">
+                <a href="skin-guide/<?php echo $article->category_id ?>/<?php echo $article->subcategory_id ?>/<?php echo $article->id ?>" class="skin-guide-article">
                     <div class="image-container">
                         <picture>
                             <source media="(max-width: 799px)" srcset="<?php echo $article->image_small ?>">

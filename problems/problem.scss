@@ -5,10 +5,12 @@
 @import "widgets/related-problem-card/related-problem-card";
 @import "widgets/type-card/type-card";
 @import "widgets/type-card/type-card-large";
+@import "../includes/widgets/results/results_narrow";
 
 
 html {
     scroll-behavior: smooth;
+
 
     .underline {
         text-decoration: underline;
@@ -71,7 +73,7 @@ section#header {
             margin-top: $xl3 + $xs;
 
             .h500 {
-                margin-bottom: -$xs;
+                margin-bottom: - $xs;
             }
 
             hr {
@@ -193,9 +195,6 @@ section#header {
         }
 
         section#results {
-            .carousel {
-                padding-bottom: $xl;
-            }
 
             .result-widget {
                 margin-top: $l;
@@ -207,23 +206,6 @@ section#header {
             }
 
             @media screen and (min-width: $tablet) {
-                .carousel {
-                    .slide {
-                        flex: 1 0 50%;
-                        box-sizing: border-box;
-                        padding-left: $s;
-                        padding-right: $s;
-                    }
-
-                    .slide:first-child {
-                        padding-left: 0;
-                    }
-
-                    .slide:last-child {
-                        padding-right: 0;
-                    }
-                }
-
                 a.button.outline {
                     width: auto;
                     box-sizing: initial;

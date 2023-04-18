@@ -1,0 +1,59 @@
+@import '../../../styles/util/colors';
+@import '../../../styles/util/sizes';
+@import '../../../styles/util/mixins';
+
+.results-narrow-widget {
+
+    .results-scroller {
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        padding: 0;
+        margin: 0;
+
+        .results-container {
+            display: flex;
+
+            .result-divider {
+                flex: 1 0 $xl;
+            }
+
+            .result-divider:last-child {
+                display: none;
+            }
+        }
+
+        .ro-info {
+            border: 1px solid $light-200;
+            border-top: 0;
+            border-bottom-left-radius: $radius-l;
+            border-bottom-right-radius: $radius-l;
+            padding: $m;
+            @include p200;
+
+            a {
+                @include h200;
+                text-decoration: underline;
+            }
+        }
+
+        @include desktop {
+
+            .results-container {
+                .result-overlay {
+                    flex: 1 0 49%;
+                }
+
+                .result-divider {
+                    flex: 1 0 2%;
+                }
+            }
+        }
+    }
+
+    .results-scroller::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+    }
+}

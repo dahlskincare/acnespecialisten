@@ -3,95 +3,112 @@
 @import '../../../styles/util/mixins';
 
 .reviews-widget {
-    .carousel {
-        // Make room for box shadow    
+    #reviews-scroller {
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
         padding-bottom: $m;
-
-        // Allow horizontal overflow on small screen.
-        // This value should always be the same as .container's vertical padding
-        margin-left: -$m;
-        margin-right: -$m;
+        margin-left: - $m;
+        margin-right: - $m;
         padding-left: $m;
         padding-right: $m;
 
-        .review-box {
-            margin-top: $xl;
-            border: 1px solid $light-200;
-            border-radius: $radius-l;
-            @include elevation-low;
-            padding: $xl;
+        #reviews-container {
             display: flex;
-            flex-direction: column;
-            margin-right: $m;
 
-            // Override flex of .slide to specify a custom width
-            flex: 1 0 302px;
-            height: 326px;
-
-            .review-box-top {
+            .review-box {
+                margin-top: $xl;
+                border: 1px solid $light-200;
+                border-radius: $radius-l;
+                @include elevation-low;
+                padding: $xl;
                 display: flex;
-                align-items: center;
-                justify-content: space-between;
+                flex-direction: column;
+                margin-right: $m;
 
-                .review-box-icons {
-                    .icon>svg {
-                        * {
-                            stroke: $orange-400;
-                            fill: $orange-400;
+                // Override flex of .slide to specify a custom width
+                flex: 1 0 302px;
+                height: 326px;
+
+                .review-box-top {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    .review-box-icons {
+                        .icon>svg {
+                            * {
+                                stroke: $orange-400;
+                                fill: $orange-400;
+                            }
                         }
                     }
                 }
+
+                .review-box-title {
+                    margin-top: $m;
+                }
+
+                .review-box-text {
+                    margin-top: $xxs;
+                    overflow-y: auto;
+                    flex: 1;
+                }
+
+                .review-box-signature {
+                    margin-top: $m;
+                    color: $dark-100;
+                }
             }
 
-            .review-box-title {
-                margin-top: $m;
+            #padder {
+                min-width: 1px;
             }
 
-            .review-box-text {
-                margin-top: $xxs;
-                overflow-y: auto;
-                flex: 1;
-            }
-
-            .review-box-signature {
-                margin-top: $m;
-                color: $dark-100;
-            }
         }
 
-        @media screen and (min-width: $desktop) {
-
+        @include desktop {
+            border: 1px solid $light-200;
+            border-radius: $radius-l;
             margin-top: $xl;
             margin-left: 0;
             margin-right: 0;
             padding: 0;
-            border: 1px solid $light-200;
-            border-radius: $radius-l;
 
-            .review-box {
-                margin-top: 0;
-                margin-right: 0;
-                border-radius: 0;
-                border-right: 0;
-                border: 0;
-                border-left: 1px solid $light-200;
-                box-shadow: none;
-                height: 310px;
-                box-sizing: border-box;
+            #reviews-container {
+
+                .review-box {
+                    margin-top: 0;
+                    margin-right: 0;
+                    border-radius: 0;
+                    border-right: 0;
+                    border: 0;
+                    border-left: 1px solid $light-200;
+                    box-shadow: none;
+                    height: 310px;
+                    box-sizing: border-box;
+                }
+
+                .review-box-quarter {
+                    flex: 1 0 25%;
+                }
+
+                .review-box-half {
+                    flex: 1 0 50%;
+                }
+
+                .review-box:first-child {
+                    border-left: 0;
+                }
             }
 
-            .review-box-quarter {
-                flex: 1 0 25%;
-            }
-
-            .review-box-half {
-                flex: 1 0 50%;
-            }
-
-            .review-box:first-child {
-                border-left: 0;
-            }
         }
+    }
+
+    #reviews-scroller::-webkit-scrollbar {
+        width: 0;
+        height: 0;
     }
 
     .review-brands {

@@ -137,13 +137,17 @@ $faq_categories = array(
 );
 
 $skin_guide_articles = array(
-    /*
-    new SkinGuideArticle('How hormones affect?', 'Problem skin', 'skin-guide/hormones-effect', 'images/skin-guide/small/hormones.jpg', 'images/skin-guide/large/hormones.jpg'),
-    new SkinGuideArticle('Can makeup harm your skin?', 'Problem skin', 'skin-guide/can-makeup-harm', 'images/skin-guide/small/makeup.jpg', 'images/skin-guide/large/makeup.jpg'),
-    new SkinGuideArticle('How to build a skin care routine', 'Problem skin', 'skin-guide/routine-how-to', 'images/skin-guide/small/routine.jpg', 'images/skin-guide/large/routine.jpg'),
-    new SkinGuideArticle('How to build a skin care routine', 'Problem skin', 'skin-guide/routine-how-to', 'images/skin-guide/small/routine.jpg', 'images/skin-guide/large/routine.jpg'),
-    new SkinGuideArticle('How to build a skin care routine', 'Problem skin', 'skin-guide/routine-how-to', 'images/skin-guide/small/routine.jpg', 'images/skin-guide/large/routine.jpg'),
-    new SkinGuideArticle('How to build a skin care routine', 'Problem skin', 'skin-guide/routine-how-to', 'images/skin-guide/small/routine.jpg', 'images/skin-guide/large/routine.jpg')*/
+    new SkinGuideArticle(
+        id: 'how-hormones-effect',
+        title: 'How hormones effect?',
+        subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
+        problem: 'Acne',
+        description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
+        image_small: 'https://via.placeholder.com/426x324.webp',
+        image_large: 'https://via.placeholder.com/872x456.jpg',
+        category_id: 'category-here',
+        subcategory_id: 'subcategory-here'
+    ),
 );
 $specialists = array(
     new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-1.jpg', 'images/specialists/large/specialist-1.jpg'),
@@ -205,14 +209,15 @@ $specialists = array(
                                 <?php } ?>
                             </div>
                         <?php } ?>
-                        <div class="mt-xl columns is-2 is-variable">
-                            <div class="column">
-                                <a href="<?php echo $model->consultation_url ?>" target="_blank" class="button white expand l10n">Get a free consultation</a>
+                        <div class="mt-xl">
+                            <div class="columns is-2 is-variable">
+                                <div class="column">
+                                    <a href="<?php echo $model->consultation_url ?>" target="_blank" class="button white expand l10n">Get a free consultation</a>
+                                </div>
+                                <div class="column">
+                                    <a href="<?php echo $model->booking_url ?>" target="_blank" class="button white expand l10n">Book a treatment</a>
+                                </div>
                             </div>
-                            <div class="column">
-                                <a href="<?php echo $model->booking_url ?>" target="_blank" class="button white expand l10n">Book a treatment</a>
-                            </div>
-
                         </div>
                     </div>
                 </div>
@@ -394,54 +399,17 @@ $specialists = array(
                     </section>
                 <?php } ?>
                 <section id="results" class="large-margin">
-                    <div class="flex-row justify-space-between">
-                        <h2 class="big l10n">Results</h2>
-                        <div class="step-buttons">
-                            <button class="round-large grey" onclick="Carousel.prev('#results-carousel')">
-                                <?php icon('arrow-left') ?>
-                            </button>
-                            <button class="round-large grey" onclick="Carousel.next('#results-carousel')">
-                                <?php icon('arrow-right') ?>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="carousel" id="results-carousel">
-                        <div class="slide l10n">
-                            <?php
-                            $before = 'images/results/acne-before.webp';
-                            $after = 'images/results/acne-after.webp';
-                            $label = 'After two months of <a href="problems/acne/treatment">acne treatment</a>';
-                            include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
-                            ?>
-                        </div>
-                        <div class="slide l10n">
-                            <?php
-                            $before = 'images/results/rosacea-before.webp';
-                            $after = 'images/results/rosacea-after.webp';
-                            $label = 'After two months of <a href="problems/rosacea/treatment">rosacea treatment</a>';
-                            include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
-                            ?>
-                        </div>
-                        <div class="slide l10n">
-                            <?php
-                            $before = 'images/results/comedones-before.webp';
-                            $after = 'images/results/comedones-after.webp';
-                            $label = 'After two months of <a href="problems/comedeons/treatment">comedones treatment</a>';
-                            include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
-                            ?>
-                        </div>
-                    </div>
-                    <a class="button b200 outline l10n" href="results">View all treatment results</a>
+                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php') ?>
                 </section>
                 <section id="reviews" class="large-margin">
                     <div class="flex-row align-end justify-space-between">
                         <h2 class="big l10n">Reviews</h2>
                         <div class="flex-row is-hidden-mobile">
                             <div class="step-buttons">
-                                <button class="round-large grey" onclick="Carousel.prev('#reviews-carousel', -1)">
+                                <button class="round-large grey" onclick="Reviews.scroll(-1)">
                                     <?php icon('arrow-left') ?>
                                 </button>
-                                <button class="round-large grey" onclick="Carousel.next('#reviews-carousel', 1)">
+                                <button class="round-large grey" onclick="Reviews.scroll(1)">
                                     <?php icon('arrow-right') ?>
                                 </button>
                             </div>

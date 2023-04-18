@@ -11,9 +11,9 @@ if (!isset($specialists)) {
 
 
 <div class="specialists-widget">
-    <div class="specialists-small carousel is-hidden-tablet">
+    <div class="specialists-small is-hidden-tablet">
         <?php foreach ($specialists as $specialist) { ?>
-            <div class="specialist slide">
+            <div class="specialist">
                 <picture>
                     <source media="(max-width: 799px)" srcset="<?php echo $specialist->image_small ?>">
                     <source media="(min-width: 800px)" srcset="<?php echo $specialist->image_large ?>">

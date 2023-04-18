@@ -1,4 +1,7 @@
 <?php
+$root = $_SERVER['DOCUMENT_ROOT'];
+require_once($root . '/includes/models/skin_guide.php');
+
 class ApproachCard
 {
     public function __construct($number, $title, $content, $button_label, $button_url)
@@ -72,18 +75,28 @@ class BasedType
 
 class Specialist
 {
-    public function __construct($name, $title, $image_small, $image_large)
+    public function __construct($name, $title, $image_small, $image_large, $city = null, $description = null, $rating = null, $num_treatments = null, $since_year = null)
     {
         $this->name = $name;
         $this->title = $title;
         $this->image_small = $image_small;
         $this->image_large = $image_large;
+        $this->city = $city;
+        $this->description = $description;
+        $this->rating = $rating;
+        $this->num_treatments = $num_treatments;
+        $this->since_year = $since_year;
     }
 
-    public $name;
-    public $title;
-    public $image_small;
-    public $image_large;
+    public String $name;
+    public String $title;
+    public String $image_small;
+    public String $image_large;
+    public ?String $city;
+    public ?String $description;
+    public ?float $rating;
+    public ?int $num_treatments;
+    public ?int $since_year;
 }
 class PathSegment
 {
@@ -338,24 +351,18 @@ class ResultCategory
     /**
      * @param ResultCustomer[] $results
      */
-    public function __construct($id, $title, $description_1, $description_2, $results)
+    public function __construct($id, $title, $description_1, $description_2)
     {
         $this->id = $id;
         $this->title = $title;
         $this->description_1 = $description_1;
         $this->description_2 = $description_2;
-        $this->results = $results;
     }
 
     public string $id;
     public string $title;
     public string $description_1;
     public string $description_2;
-
-    /**
-     * @var ResultCustomer[]
-     */
-    public array $results;
 }
 
 class ResultCustomer
@@ -365,13 +372,13 @@ class ResultCustomer
      * @param ResultImages $before_images
      * @param ResultImages $after_images
      */
-    public function __construct($id, $slider_image_before_small, $slider_image_after_small, $slider_image_before_large, $slider_image_after_large, $age, $gender, $problem, $type, $treatment, $before_images, $after_images)
+    public function __construct($id, $image_before_small, $image_after_small, $image_before_large, $image_after_large, $age, $gender, $problem, $type, $treatment, $before_images = null, $after_images = null)
     {
         $this->id = $id;
-        $this->slider_image_before_small = $slider_image_before_small;
-        $this->slider_image_after_small = $slider_image_after_small;
-        $this->slider_image_before_large = $slider_image_before_large;
-        $this->slider_image_after_large = $slider_image_after_large;
+        $this->slider_image_before_small = $image_before_small;
+        $this->slider_image_after_small = $image_after_small;
+        $this->slider_image_before_large = $image_before_large;
+        $this->slider_image_after_large = $image_after_large;
         $this->age = $age;
         $this->gender = $gender;
         $this->problem = $problem;
@@ -398,8 +405,8 @@ class ResultCustomer
     public string $type;
     public ResultTreatment $treatment;
 
-    public ResultImages $before_images;
-    public ResultImages $after_images;
+    public ?ResultImages $before_images;
+    public ?ResultImages $after_images;
 }
 
 class ResultTreatment
@@ -410,9 +417,8 @@ class ResultTreatment
      * @param ResultEmployee $employee
      * @param ResultVisit[] $visits
      */
-    public function __construct($id, $duration, $procedures, $product, $employee, $visits)
+    public function __construct($duration, $procedures, $product, $employee, $visits = array())
     {
-        $this->id = $id;
         $this->duration = $duration;
         $this->procedures = $procedures;
         $this->product = $product;
@@ -436,14 +442,12 @@ class ResultTreatment
 
 class ResultProcedure
 {
-    public function __construct($id, $image, $name, $count)
+    public function __construct($image, $name, $count)
     {
-        $this->id = $id;
         $this->image = $image;
         $this->name = $name;
         $this->count = $count;
     }
-    public int $id;
     public string $image;
     public string $name;
     public string $count;
@@ -510,78 +514,40 @@ class ResultImages
     public string $image_right_large;
 }
 
-class SkinGuideCategory
+class GlossaryItem
 {
-    public function __construct($data)
+    public function __construct($title, $description, $description_extended, $image_small = null, $image_large = null)
     {
-        $this->id = $data['id'];
-        $this->name = $data['name'];
-        $this->description = $data['description'];
-        $this->description_extended = $data['description_extended'];
-        $this->meta_title = $data['meta_title'];
-        $this->meta_description = $data['meta_description'];
-        $this->consultation_url = $data['consultation_url'];
+        $this->title = $title;
+        $this->description = $description;
+        $this->description_extended = $description_extended;
+        $this->image_small = $image_small;
+        $this->image_large = $image_large;
     }
 
-    public string $id;
-    public string $name;
-    public string $description;
-    public string $description_extended;
-    public string $meta_title;
-    public string $meta_description;
-    public string $consultation_url;
-}
-
-class SkinGuideSubCategory
-{
-    public function __construct($data)
-    {
-        $this->id = $data['id'];
-        $this->name = $data['name'];
-        $this->description = $data['description'];
-        $this->description_extended = $data['description_extended'];
-        $this->consultation_url = $data['consultation_url'];
-        $this->category_id = $data['category_id'];
-        $this->meta_title = $data['meta_title'];
-        $this->meta_description = $data['meta_description'];
-    }
-
-    public string $id;
-    public string $name;
-    public string $description;
-    public string $description_extended;
-    public string $consultation_url;
-    public string $category_id;
-    public string $meta_title;
-    public string $meta_description;
-}
-
-class SkinGuideArticle
-{
-    public function __construct($data)
-    {
-        $this->id = $data['id'];
-        $this->title = $data['title'];
-        $this->subtitle = $data['subtitle'];
-        $this->problem = $data['problem'];
-        $this->description = $data['description'];
-        $this->image_small = $data['image_small'];
-        $this->image_large = $data['image_large'];
-        $this->content = $data['content'];
-        $this->meta_title = $data['meta_title'];
-        $this->meta_description = $data['meta_description'];
-        $this->subcategory_id = $data['subcategory_id'];
-    }
-
-    public string $id;
     public string $title;
-    public string $subtitle;
-    public string $problem;
     public string $description;
-    public string $image_small;
-    public string $image_large;
-    public string $content;
-    public string $meta_title;
-    public string $meta_description;
-    public string $subcategory_id;
+    public string $description_extended;
+    public ?string $image_small;
+    public ?string $image_large;
+}
+
+class Review
+{
+    public function __construct($stars, $brand, $logo_url, $title, $text, $signature)
+    {
+        $this->stars = $stars;
+        $this->brand = $brand;
+        $this->logo_url = $logo_url;
+        $this->title = $title;
+        $this->text = $text;
+        $this->signature = $signature;
+    }
+
+    public int $stars;
+    public string $brand;
+    public string $logo_url;
+    public string $title;
+    public string $text;
+    public string $signature;
 }

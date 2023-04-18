@@ -1,58 +1,76 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
-
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
-$conn = new mysqli($_ENV['DB_URL'], $_ENV['DB_USER'], $_ENV['DB_PASSWORD'], database: $_ENV['DB_NAME']);
-if ($conn->connect_errno) {
-    echo "Failed to connect to MySQL: " . $conn->connect_error;
-    exit();
-}
-$subcategory_id = $_GET['id'];
-if ($rs = $conn->query(sprintf("SELECT * FROM skin_guide_subcategory WHERE id = '%s'", $subcategory_id))) {
-    if ($rs->num_rows == 1) {
-        $subcategory = new SkinGuideSubCategory($rs->fetch_assoc());
-    } else {
-        http_response_code(404);
-        die('Page not found');
-    }
-} else {
-    die($conn->error);
-}
-
 if (isset($_GET['page']) && $_GET['page'] > 0) {
     $page = $_GET['page'];
 } else {
     $page = 1;
 }
-if (isset($_GET['pagesize'])) {
-    $pagesize = $_GET['pagesize'];
-} else {
-    $pagesize = 9;
-}
+
+$meta_title = '';
+$meta_description = '';
+
+$subcategory = new SkinGuideSubCategory(
+    id: 'dry-skin',
+    name: 'Dry skin',
+    category_id: 'skin-problems',
+    description: 'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we.',
+    description_extended: 'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we.',
+    consultation_url: '',
+);
+
+$articles_per_page = array(
+    1 => array(
+        new SkinGuideArticle(
+            id: 'how-hormones-affect',
+            title: 'How hormones affect?',
+            subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
+            problem: 'Acne',
+            description: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.',
+            image_small: 'https://via.placeholder.com/426x324.webp',
+            image_large: 'https://via.placeholder.com/872x456.jpg',
+            category_id: 'skin-problems',
+            subcategory_id: 'dry-skin',
+        ),
+        new SkinGuideArticle(
+            id: 'hej-peter',
+            title: 'Hej!',
+            subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
+            problem: 'Aging skin',
+            description: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.',
+            image_small: 'https://via.placeholder.com/426x324.webp',
+            image_large: 'https://via.placeholder.com/872x456.jpg',
+            category_id: 'skin-problems',
+            subcategory_id: 'dry-skin',
+        ),
+    ),
+    2 => array(
+        new SkinGuideArticle(
+            id: 'blablabla',
+            title: 'Bla bla bla',
+            subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
+            problem: 'Acne',
+            description: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.',
+            image_small: 'https://via.placeholder.com/426x324.webp',
+            image_large: 'https://via.placeholder.com/872x456.jpg',
+            category_id: 'skin-problems',
+            subcategory_id: 'dry-skin',
+        ),
+    )
+);
 
 
-if ($rs = $conn->query(sprintf("SELECT COUNT(id) as cnt FROM skin_guide_article WHERE subcategory_id = '%s'", $subcategory_id))) {
-    $num_articles = $rs->fetch_assoc()['cnt'];
-    $rs->free_result();
-} else {
-    die($conn->error);
-}
-$pages = ceil($num_articles / $pagesize);
-if ($rs = $conn->query(sprintf("SELECT * FROM skin_guide_article WHERE subcategory_id = '%s' ORDER BY ranking ASC LIMIT %d, %d", $subcategory_id, ($page - 1) * $pagesize, $pagesize))) {
-    foreach ($rs as $row) {
-        $articles[] = new SkinGuideArticle($row);
-    }
-} else {
-    die($conn->error);
-}
+$pages = sizeof($articles_per_page);
+
+
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
 
 <head>
     <title>Acnespecialisten | <?php echo $subcategory->name ?></title>
-    <meta name="description" content="<?php echo $subcategory->meta_description ?>">
-    <meta name="title" content="<?php echo $subcategory->meta_title ?>">
+    <meta name="description" content="<?php echo $meta_description ?>">
+    <meta name="title" content="<?php echo $meta_title ?>">
     <meta name="keywords" content="" class="l10n">
 
     <!-- Optional: Set canonical version of this page (https://support.google.com/webmasters/answer/10347851) -->
@@ -107,9 +125,9 @@ if ($rs = $conn->query(sprintf("SELECT * FROM skin_guide_article WHERE subcatego
         </section>
         <div class="container">
             <section id="articles">
-                <?php if (isset($articles)) { ?>
+                <?php if (isset($articles_per_page[$page])) { ?>
                     <div class="columns is-multiline is-variable is-3">
-                        <?php foreach ($articles as $article) { ?>
+                        <?php foreach ($articles_per_page[$page] as $article) { ?>
                             <div class="column is-one-third">
                                 <?php include('../../widgets/article_card/article_card_widget.php'); ?>
                             </div>
@@ -120,11 +138,6 @@ if ($rs = $conn->query(sprintf("SELECT * FROM skin_guide_article WHERE subcatego
                 <?php } ?>
             </section>
             <section id="paginator">
-                <?php if ($pagesize < $num_articles) { ?>
-                    <div id="show-more">
-                        <a class="button b200 expand l10n" href="/skin-guide/<?php echo $category_id ?>?page=1&pagesize=<?php echo $pagesize * 2 ?>">View more articles</a>
-                    </div>
-                <?php } ?>
                 <?php include('../../widgets/paginator/paginator.php'); ?>
             </section>
             <section id="cta-banner" class="large-margin">
@@ -137,99 +150,17 @@ if ($rs = $conn->query(sprintf("SELECT * FROM skin_guide_article WHERE subcatego
                 </div>
             </section>
             <section id="results" class="large-margin">
-                <div class="is-hidden-tablet">
-                    <div class="flex-row justify-space-between">
-                        <h2 class="big l10n">Results</h2>
-                        <div class="step-buttons">
-                            <button class="round-large grey" onclick="Carousel.prev('#results-carousel')">
-                                <?php icon('arrow-left') ?>
-                            </button>
-                            <button class="round-large grey" onclick="Carousel.next('#results-carousel')">
-                                <?php icon('arrow-right') ?>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="mt-l carousel" id="results-carousel">
-                        <div class="slide">
-                            <div class="container l10n">
-                                <?php
-                                $before = 'images/results/acne-before.webp';
-                                $after = 'images/results/acne-after.webp';
-                                $label = 'After two months of <a href="treatments/acne">acne treatment</a>';
-                                include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
-                                ?>
-                            </div>
-                        </div>
-                        <div class="slide">
-                            <div class="container l10n">
-                                <?php
-                                $before = 'images/results/rosacea-before.webp';
-                                $after = 'images/results/rosacea-after.webp';
-                                $label = 'After two months of <a href="treatments/rosacea">rosacea treatment</a>';
-                                include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
-                                ?>
-                            </div>
-                        </div>
-                        <div class="slide">
-                            <div class="container l10n">
-                                <?php
-                                $before = 'images/results/comedones-before.webp';
-                                $after = 'images/results/comedones-after.webp';
-                                $label = 'After two months of <a href="treatments/comedones">comedones treatment</a>';
-                                include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
-                                ?>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="container">
-                        <a class="button outline expand l10n" href="results">View all treatment results</a>
-                    </div>
-                </div>
-                <div class="is-hidden-mobile">
-                    <div class="flex-row align-end justify-space-between">
-                        <h2 class="big l10n">Results</h2>
-                        <a href="results" class="button compact text">
-                            <span class="l10n">View all treatment results</span>
-                            <?php icon('navigate-next') ?>
-                        </a>
-                    </div>
-                    <div class="columns is-3 is-variable">
-                        <div class="mt-l column l10n">
-                            <?php
-                            $before = 'images/results/acne-before.webp';
-                            $after = 'images/results/acne-after.webp';
-                            $label = 'After two months of <a href="treatments/acne">acne treatment</a>';
-                            include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
-                            ?>
-                        </div>
-                        <div class="mt-l column l10n">
-                            <?php
-                            $before = 'images/results/rosacea-before.webp';
-                            $after = 'images/results/rosacea-after.webp';
-                            $label = 'After two months of <a href="treatments/rosacea">rosacea treatment</a>';
-                            include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
-                            ?>
-                        </div>
-                        <div class="mt-l column l10n">
-                            <?php
-                            $before = 'images/results/comedones-before.webp';
-                            $after = 'images/results/comedones-after.webp';
-                            $label = 'After two months of <a href="treatments/comedones">comedones treatment</a>';
-                            include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
-                            ?>
-                        </div>
-                    </div>
-                </div>
+                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results.php') ?>
             </section>
             <section id="reviews" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
                     <div class="h500 l10n">Reviews</div>
                     <div class="flex-row is-hidden-mobile">
                         <div class="step-buttons">
-                            <button class="round-large grey" onclick="Carousel.prev('#reviews-carousel', -1)">
+                            <button class="round-large grey" onclick="Reviews.scroll(-1)">
                                 <?php icon('arrow-left') ?>
                             </button>
-                            <button class="round-large grey" onclick="Carousel.next('#reviews-carousel', 1)">
+                            <button class="round-large grey" onclick="Reviews.scroll(1)">
                                 <?php icon('arrow-right') ?>
                             </button>
                         </div>

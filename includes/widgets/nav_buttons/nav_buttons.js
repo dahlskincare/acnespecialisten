@@ -1,24 +1,24 @@
 var NavButtons;
 (function (NavButtons) {
     var _widget = document.querySelector('.nav-buttons-widget');
-    var _carousel = _widget.querySelector('#nav-buttons-carousel');
+    var _scroller = _widget.querySelector('#nav-buttons-scroller');
     if (document.body.clientWidth >= 1024) {
         var _scrollStep_1 = 200;
         var _buttonPrevContainer_1 = _widget.querySelector('#scroll-prev');
         var _buttonNextContainer_1 = _widget.querySelector('#scroll-next');
         var _buttonPrev = _buttonPrevContainer_1.querySelector('button');
         var _buttonNext = _buttonNextContainer_1.querySelector('button');
-        if (_carousel.scrollWidth > _widget.parentElement.clientWidth) {
+        if (_scroller.scrollWidth > _widget.parentElement.clientWidth) {
             _buttonPrev.addEventListener('click', function () {
-                _carousel.scrollBy(-_scrollStep_1, 0);
+                _scroller.scrollBy(-_scrollStep_1, 0);
             });
             _buttonNext.addEventListener('click', function () {
-                _carousel.scrollBy(_scrollStep_1, 0);
+                _scroller.scrollBy(_scrollStep_1, 0);
             });
             _buttonNextContainer_1.classList.remove('is-hidden');
-            _carousel.addEventListener('scroll', function () {
-                var showNext = _carousel.scrollWidth - _carousel.scrollLeft > _carousel.clientWidth;
-                var showPrevious = _carousel.scrollLeft > 0;
+            _scroller.addEventListener('scroll', function () {
+                var showNext = _scroller.scrollWidth - _scroller.scrollLeft > _scroller.clientWidth;
+                var showPrevious = _scroller.scrollLeft > 0;
                 if (showNext) {
                     _buttonNextContainer_1.classList.remove('is-hidden');
                 }

@@ -402,54 +402,17 @@ $related_problems = array(
                               <?php } ?>
                         </section>
                         <section id="results">
-                              <div class="flex-row justify-space-between">
-                                    <h2 class="big l10n">Results</h2>
-                                    <div class="step-buttons">
-                                          <button class="round-large grey" onclick="Carousel.prev('#results-carousel')">
-                                                <?php icon('arrow-left') ?>
-                                          </button>
-                                          <button class="round-large grey" onclick="Carousel.next('#results-carousel')">
-                                                <?php icon('arrow-right') ?>
-                                          </button>
-                                    </div>
-                              </div>
-                              <div class="carousel" id="results-carousel">
-                                    <div class="slide l10n">
-                                          <?php
-                                          $before = 'images/results/acne-before.webp';
-                                          $after = 'images/results/acne-after.webp';
-                                          $label = 'After two months of <a href="problems/acne/treatment">acne treatment</a>';
-                                          include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
-                                          ?>
-                                    </div>
-                                    <div class="slide l10n">
-                                          <?php
-                                          $before = 'images/results/rosacea-before.webp';
-                                          $after = 'images/results/rosacea-after.webp';
-                                          $label = 'After two months of <a href="problems/rosacea/treatment">rosacea treatment</a>';
-                                          include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
-                                          ?>
-                                    </div>
-                                    <div class="slide l10n">
-                                          <?php
-                                          $before = 'images/results/comedones-before.webp';
-                                          $after = 'images/results/comedones-after.webp';
-                                          $label = 'After two months of <a href="problems/comedeons/treatment">comedones treatment</a>';
-                                          include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/result/result.php');
-                                          ?>
-                                    </div>
-                              </div>
-                              <a class="button b200 outline l10n" href="results">View all treatment results</a>
+                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php'); ?>
                         </section>
                         <section id="reviews">
                               <div class="flex-row align-end justify-space-between">
                                     <h2 class="big l10n">Reviews</h2>
                                     <div class="flex-row is-hidden-mobile">
                                           <div class="step-buttons">
-                                                <button class="round-large grey" onclick="Carousel.prev('#reviews-carousel', -1)">
+                                                <button class="round-large grey" onclick="Reviews.scroll(-1)">
                                                       <?php icon('arrow-left') ?>
                                                 </button>
-                                                <button class="round-large grey" onclick="Carousel.next('#reviews-carousel', 1)">
+                                                <button class="round-large grey" onclick="Reviews.scroll(1)">
                                                       <?php icon('arrow-right') ?>
                                                 </button>
                                           </div>
@@ -493,9 +456,7 @@ $related_problems = array(
                                           </button>
                                     </div>
                               </div>
-                              <?php
-                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php');
-                              ?>
+                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
                               <a class="mt-xl button b200 outline expand auto-width l10n" href="specialists">View all specialists</a>
                         </section>
                         <section id="related-problems">
