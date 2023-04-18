@@ -2,33 +2,60 @@
 @import '../styles/util/sizes';
 @import '../styles/util/mixins';
 
-section#title {
-    margin-top: $xl;
+div#content {
+    margin: 0 auto;
+    max-width: 872px;
 
-    @include desktop {
-        margin-top: $xl4;
+    section#title {
+        margin-top: $xl;
+
+        p {
+            @include p200;
+            margin-top: $xs;
+        }
+
+        @include desktop {
+            margin-top: $xl4;
+
+            p {
+                margin-top: $s;
+            }
+        }
     }
-}
 
-section#form-section {
-    .is-hidden-desktop {
-        div.p200 {
-            margin-top: $xl;
-        }
-
-        a.button {
-            margin-top: $s;
-        }
-
-        form {
-            margin-top: $xl;
-            padding: $xl;
-            border: 1px solid $light-200;
-            border-radius: $radius-l;
-            @include elevation-medium;
-
-            input.button {
+    section#form-section {
+        .is-hidden-desktop {
+            div.p200 {
                 margin-top: $xl;
+            }
+
+            a.button {
+                margin-top: $s;
+            }
+
+            form {
+                margin-top: $xl;
+                padding: $xl;
+                border: 1px solid $light-200;
+                border-radius: $radius-l;
+                @include elevation-medium;
+
+                input.button {
+                    margin-top: $xl;
+                }
+            }
+        }
+
+        .is-hidden-touch {
+            form {
+                margin-top: $xl;
+                padding: $xl3;
+                border: 1px solid $light-200;
+                border-radius: $radius-l;
+
+                input.button {
+                    margin-top: $xl;
+                }
             }
         }
     }
