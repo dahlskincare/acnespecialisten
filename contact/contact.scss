@@ -1,0 +1,30 @@
+@import '../styles/util/colors';
+@import '../styles/util/sizes';
+@import '../styles/util/mixins';
+
+section#title {
+    margin-top: $xl;
+
+    @include desktop {
+        margin-top: $xl4;
+    }
+}
+
+section#form-section {
+    div.p200 {
+        margin-top: $xl;
+    }
+
+    a.button {
+        margin-top: $s;
+    }
+
+    #form {
+        margin-top: $xl;
+        padding: $xl;
+        border: 1px solid $light-200;
+        border-radius: $radius-l;
+        @include elevation-medium;
+
+    }
+}
