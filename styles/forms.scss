@@ -3,9 +3,14 @@
 @import "util/colors";
 
 label {
+    @include h200;
+    display: block;
+    margin-bottom: $s;
+
     .asterisk {
         color: $deep-sea-400;
     }
+
 }
 
 .select-wrapper {
