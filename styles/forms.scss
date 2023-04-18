@@ -2,73 +2,101 @@
 @import "util/mixins";
 @import "util/colors";
 
-label {
-    @include h200;
-    display: block;
-    margin-bottom: $s;
+form {
 
-    .asterisk {
-        color: $deep-sea-400;
+    label {
+        @include h200;
+        display: block;
+        margin-bottom: $s;
+
     }
 
-}
-
-.select-wrapper {
-    box-sizing: content-box;
-    width: 100%;
-    line-height: $l;
-    position: relative;
-    border: 1px solid $light-100;
-    border-radius: $radius-l;
-    cursor: pointer;
-    background-color: $light-100;
-    font-size: 14px;
-    font-weight: 400;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    user-select: none;
-
-    select {
-        padding: 13px $m;
-        appearance: none;
-        background-color: transparent;
-        border: none;
-        margin: 0;
+    // Text input
+    input[type=text],
+    input[type=email],
+    input[type=password],
+    input[type=phone],
+    textarea {
+        box-sizing: border-box;
         width: 100%;
-        font-family: inherit;
-        font-size: inherit;
-        cursor: inherit;
-        line-height: inherit;
         outline: none;
+        border-radius: $radius-s;
+        font-size: $m;
+        line-height: $xl;
+        letter-spacing: - 0.02em;
+        padding: 11px $m;
+        background-color: $light-300;
+        border: 1px solid $light-300;
+        color: $black-500;
     }
 
-    select::-ms-expand {
-        display: none;
+    ::placeholder {
+        color: $dark-50;
     }
-}
 
-.select-wrapper::after {
-    content: "";
-    margin-left: - $xs;
-    transform: translate(- $m, - 2px) rotate(45deg);
-    transform-origin: 50% 50%;
-    width: $xs;
-    height: $xs;
-    border-right: 2px solid $black-500;
-    border-bottom: 2px solid $black-500;
-    transition: transform 300ms ease;
-}
-
-.select-wrapper.active {
-    border-color: $black-500;
-}
+    textarea {
+        resize: none;
+    }
 
 
-.select-wrapper.active::after {
-    transform: translate(- $m, 2px) rotate(-135deg);
-}
+    // Dropdown select
+    .select-wrapper {
+        box-sizing: content-box;
+        width: 100%;
+        line-height: $l;
+        position: relative;
+        border-radius: $radius-s;
+        cursor: pointer;
+        background-color: $light-300;
+        border: 1px solid $light-300;
+        font-size: 14px;
+        font-weight: 400;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        user-select: none;
 
-.select-wrapper.error {
-    border-color: $red-400;
+        select {
+            padding: 13px $m;
+            appearance: none;
+            background-color: transparent;
+            border: none;
+            margin: 0;
+            width: 100%;
+            font-family: inherit;
+            font-size: inherit;
+            cursor: inherit;
+            line-height: inherit;
+            outline: none;
+        }
+
+        select::-ms-expand {
+            display: none;
+        }
+    }
+
+    .select-wrapper::after {
+        content: "";
+        margin-left: - $xs;
+        transform: translate(- $m, - 2px) rotate(45deg);
+        transform-origin: 50% 50%;
+        width: $xs;
+        height: $xs;
+        border-right: 2px solid $black-500;
+        border-bottom: 2px solid $black-500;
+        transition: transform 300ms ease;
+    }
+
+    .select-wrapper.active {
+        border-color: $black-500;
+    }
+
+
+    .select-wrapper.active::after {
+        transform: translate(- $m, 2px) rotate(-135deg);
+    }
+
+    .select-wrapper.error {
+        border-color: $red-400;
+    }
 }

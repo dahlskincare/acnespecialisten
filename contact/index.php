@@ -35,22 +35,42 @@
                         <span>kund@acnespecialisten.se</span>
                     </div>
                     <a href="mailto:kund@acnespecialisten.se" class="button b200 outline expand l10n">Send an email</a>
-                    <div id="form">
+                    <form action="">
                         <label for="category">
                             <span class="l10n">What do you need help with?</span>
-                            <span class="asterisk">*</span>
+                            <span class="color-deep-sea-400">*</span>
                         </label>
                         <div class="select-wrapper">
                             <select name="category">
-                                <option value="new_booking">New booking</option>
-                                <option value="treatment">Questions about treatment</option>
-                                <option value="collaborations">Collaborations</option>
-                                <option value="cancel">Change / cancel treatment</option>
-                                <option value="urgent">Urgent matters</option>
-                                <option value="other">Other</option>
+                                <option value="new_booking" class="l10n">New booking</option>
+                                <option value="treatment" class="l10n">Questions about treatment</option>
+                                <option value="collaborations" class="l10n">Collaborations</option>
+                                <option value="cancel" class="l10n">Change / Cancel treatment</option>
+                                <option value="urgent" class="l10n">Urgent matters</option>
+                                <option value="other" class="l10n">Other</option>
                             </select>
                         </div>
-                    </div>
+                        <label for="name" class="mt-xl">
+                            <span class="l10n">Full name</span>
+                            <span class="color-deep-sea-400">*</span>
+                        </label>
+                        <input type="text" name="name" placeholder="Your name" />
+                        <label for="email" class="mt-xl">
+                            <span class="l10n">Email</span>
+                            <span class="color-deep-sea-400">*</span>
+                        </label>
+                        <input type="email" name="email" placeholder="your@email.com" />
+                        <label for="phone" class="mt-xl">
+                            <span class="l10n">Phone</span>
+                        </label>
+                        <input type="phone" name="phone" placeholder="084 123 456" />
+                        <label for="message" class="mt-xl">
+                            <span class="l10n">Message</span>
+                            <span class="color-deep-sea-400">*</span>
+                        </label>
+                        <textarea class="l10n" name="message" rows="8" placeholder="Your message"></textarea>
+                        <input type="submit" class="button b200 expand" value="Send a message" />
+                    </form>
                 </div>
                 <div class="is-hidden-touch"></div>
             </section>

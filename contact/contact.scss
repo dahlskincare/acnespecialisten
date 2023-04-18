@@ -11,20 +11,25 @@ section#title {
 }
 
 section#form-section {
-    div.p200 {
-        margin-top: $xl;
-    }
+    .is-hidden-desktop {
+        div.p200 {
+            margin-top: $xl;
+        }
 
-    a.button {
-        margin-top: $s;
-    }
+        a.button {
+            margin-top: $s;
+        }
 
-    #form {
-        margin-top: $xl;
-        padding: $xl;
-        border: 1px solid $light-200;
-        border-radius: $radius-l;
-        @include elevation-medium;
+        form {
+            margin-top: $xl;
+            padding: $xl;
+            border: 1px solid $light-200;
+            border-radius: $radius-l;
+            @include elevation-medium;
 
+            input.button {
+                margin-top: $xl;
+            }
+        }
     }
 }
