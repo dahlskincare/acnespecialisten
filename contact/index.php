@@ -88,7 +88,7 @@ $salons = array(
                     </div>
                 </section>
                 <?php if (array_key_exists('message', $_GET)) {
-                    $to = "patrick.minogue@gmail.com";
+                    $to = "kund@acnespecialisten.se";
                     $subject = "Acnespecialisten form";
                     $message = "
                     <html>
@@ -124,7 +124,7 @@ $salons = array(
 
                     $headers = "MIME-Version: 1.0" . "\r\n";
                     $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-                    $headers .= 'From: <auto@acnespecialisten.com>' . "\r\n";
+                    $headers .= 'From: Acnespecialisten <auto@acnespecialisten.com>' . "\r\n";
                     mail($to, $subject, $message, $headers);
                 ?>
                     <section id="confirmation">
