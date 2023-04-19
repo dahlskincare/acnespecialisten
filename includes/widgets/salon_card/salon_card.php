@@ -6,21 +6,24 @@
             <source media="(min-width: 800px)" srcset="<?php echo $salon->image_large ?>">
             <img src="<?php echo $salon->image_small ?>" alt="<?php echo $salon->title ?>" width="358" height="272" />
         </picture>
-        <div class="salon-address"><?php echo $salon->address ?></div>
-        <div class="salon-desc"><?php echo $salon->description ?></div>
-        <div class="salon-opening-hours">
-            <div>
-                <div class="salon-hour-labels l10n">Monday - Friday</div>
-                <div class="salon-hour-values"><?php echo $salon->opening_hours_weekdays ?></div>
+        <div class="salon-info">
+            <div class="h500 is-hidden-touch"><?php echo $salon->title ?></div>
+            <div class="salon-address"><?php echo $salon->address ?></div>
+            <div class="salon-desc"><?php echo $salon->description ?></div>
+            <div class="salon-opening-hours">
+                <div>
+                    <div class="salon-hour-labels l10n">Monday - Friday</div>
+                    <div class="salon-hour-values"><?php echo $salon->opening_hours_weekdays ?></div>
+                </div>
+                <div>
+                    <div class="salon-hour-labels l10n">Saturday - Sunday</div>
+                    <div class="salon-hour-values"><?php echo $salon->opening_hours_weekends ?></div>
+                </div>
             </div>
-            <div>
-                <div class="salon-hour-labels l10n">Saturday - Sunday</div>
-                <div class="salon-hour-values"><?php echo $salon->opening_hours_weekends ?></div>
+            <div class="salon-buttons">
+                <a href="tel: <?php echo $salon->phone ?>" class="button b200 outline expand l10n">Call us</a>
+                <a href="mailto: <?php echo $salon->email ?>" class="button b200 outline expand l10n">Send an email</a>
             </div>
-        </div>
-        <div class="salon-buttons">
-            <a href="tel: <?php echo $salon->phone ?>" class="button b200 outline expand l10n">Call us</a>
-            <a href="mailto: <?php echo $salon->email ?>" class="button b200 outline expand l10n">Send an email</a>
         </div>
     </div>
 </div>
