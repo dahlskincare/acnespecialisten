@@ -2,6 +2,10 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
+if (array_key_exists('message', $_GET)) {
+}
+
+
 $salons = array(
     new Salon(
         title: 'Sundbyberg',
@@ -83,7 +87,46 @@ $salons = array(
                         </div>
                     </div>
                 </section>
-                <?php if (array_key_exists('message', $_GET)) { ?>
+                <?php if (array_key_exists('message', $_GET)) {
+                    $to = "patrick.minogue@gmail.com";
+                    $subject = "Acnespecialisten form";
+                    $message = "
+                    <html>
+                    <head>
+                    <title>Acnespecialisten form</title>
+                    </head>
+                    <body>                        
+                        <table>
+                            <tr>
+                                <td>Category:</td>
+                                <td>" . $_GET['category'] . "
+                            </tr>
+                            <tr>
+                                <td>Name:</td>
+                                <td>" . $_GET['name'] . "</td>
+                            </tr>
+                            <tr>
+                                <td>Email:</td>
+                                <td>" . $_GET['email'] . "</td>
+                            </tr>
+                            <tr>
+                                <td>Phone:</td>
+                                <td>" . $_GET['phone'] . "</td>
+                            </tr>
+                            <tr>
+                                <td>Message:</td>
+                                <td>" . $_GET['message'] . "
+                            </tr>    
+                        </table>
+                    </body>
+                    </html>
+                    ";
+
+                    $headers = "MIME-Version: 1.0" . "\r\n";
+                    $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+                    $headers .= 'From: <auto@acnespecialisten.com>' . "\r\n";
+                    mail($to, $subject, $message, $headers);
+                ?>
                     <section id="confirmation">
                         <div id="confirmation-banner">
                             <div>
