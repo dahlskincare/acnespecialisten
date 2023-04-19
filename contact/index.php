@@ -1,4 +1,34 @@
-<?php include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php'); ?>
+<?php
+include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
+include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
+
+$salons = array(
+    new Salon(
+        title: 'Sundbyberg',
+        image_small: 'https://via.placeholder.com/358x272.webp',
+        image_large: 'https://via.placeholder.com/424x526.webp',
+        address: 'Sturegatan 32, 172 31 Sundbyberg',
+        description: "Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments.",
+        opening_hours_weekdays: '07:00 - 21:00',
+        opening_hours_weekends: 'According to booking',
+        email: 'sundbyberg@acnespecialisten.se',
+        phone: '123456',
+        coordinates: '1231231212312312'
+    ),
+    new Salon(
+        title: 'Sundbyberg',
+        image_small: 'https://via.placeholder.com/358x272.webp',
+        image_large: 'https://via.placeholder.com/424x526.webp',
+        address: 'Sturegatan 32, 172 31 Sundbyberg',
+        description: "Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments.",
+        opening_hours_weekdays: '07:00 - 21:00',
+        opening_hours_weekends: 'According to booking',
+        email: 'sundbyberg@acnespecialisten.se',
+        phone: '123456',
+        coordinates: '1231231212312312'
+    ),
+);
+?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
 
@@ -24,7 +54,7 @@
                     <h1 class="l10n">Contact us</h1>
                     <p class="l10n">At Acnespecialisten there is an experienced and well-educated group of doctors with specialist skills and broad experience from the aesthetic and reconstructive industry.</p>
                 </section>
-                <section id="form-section">
+                <section id="form">
                     <!-- TOUCH -->
                     <div class="is-hidden-desktop">
                         <div class="p200">
@@ -167,6 +197,13 @@
                             <input type="submit" class="button b200" value="Send a message" />
                         </form>
                     </div>
+                </section>
+                <section id="salon-cards">
+                    <?php foreach ($salons as $salon) { ?>
+                        <div class="large-margin">
+                            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/salon_card/salon_card.php') ?>
+                        </div>
+                    <?php } ?>
                 </section>
             </div>
         </div>

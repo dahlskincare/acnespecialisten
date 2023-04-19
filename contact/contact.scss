@@ -23,7 +23,7 @@ div#content {
         }
     }
 
-    section#form-section {
+    section#form {
         .is-hidden-desktop {
             div.p200 {
                 margin-top: $xl;
@@ -58,5 +58,15 @@ div#content {
                 }
             }
         }
+    }
+
+    section#salon-cards {}
+}
+
+.large-margin {
+    margin-top: 72px;
+
+    @include desktop {
+        margin-top: 104px;
     }
 }

@@ -1,5 +1,6 @@
 <?php
 $root = $_SERVER['DOCUMENT_ROOT'];
+require_once($root . '/includes/models/salon.php');
 require_once($root . '/includes/models/skin_guide.php');
 
 class ApproachCard

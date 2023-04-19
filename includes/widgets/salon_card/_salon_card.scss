@@ -1,0 +1,68 @@
+@import '../../../styles/util/colors';
+@import '../../../styles/util/sizes';
+@import '../../../styles/util/mixins';
+
+.salon-card-widget {
+    div.h500.is-hidden-desktop {
+        margin-bottom: $xl;
+    }
+
+    .salon-card-flex {
+        display: flex;
+        flex-direction: column;
+
+        img {
+            border-radius: $radius-l;
+            width: 100%;
+            height: auto;
+        }
+
+        .salon-address {
+            @include h200;
+            margin-top: $xl;
+        }
+
+        .salon-desc {
+            @include p200;
+            margin-top: $xs;
+        }
+
+        .salon-opening-hours {
+            margin-top: $xl;
+            padding: $m 0;
+            display: flex;
+            justify-content: space-between;
+            border-top: 1px solid $light-200;
+            border-bottom: 1px solid $light-200;
+
+            >div {
+                flex: 1;
+
+                .salon-hour-labels {
+                    @include h200;
+                }
+
+                .salon-hour-values {
+                    @include p200;
+                    margin-top: $xxs;
+                    color: $dark-200;
+                }
+            }
+
+        }
+
+        .salon-buttons {
+            margin-top: $xl;
+            display: flex;
+
+            a:first-child {
+                margin-right: 6px;
+            }
+
+            a:last-child {
+                margin-left: 6px;
+            }
+
+        }
+    }
+}
