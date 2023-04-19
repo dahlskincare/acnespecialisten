@@ -1,13 +1,13 @@
-namespace Header {
-    export function toggleMenu(flag: boolean) {
+namespace HeaderTouch {
+    export function toggleMenu() {
         const overlay = document.querySelector('#mobile-nav-overlay');
 
-        if (flag) {
-            overlay.classList.add('active');
-            document.body.classList.add('noscroll');
-        } else {
+        if (overlay.classList.contains('active')) {
             overlay.classList.remove('active');
             document.body.classList.remove('noscroll');
+        } else {
+            overlay.classList.add('active');
+            document.body.classList.add('noscroll');
         }
     }
 
@@ -17,6 +17,19 @@ namespace Header {
             panel.classList.remove('active');
         } else {
             panel.classList.add('active');
+        }
+    }
+}
+
+namespace HeaderDesktop {
+    export function toggleMenu() {
+        const overlay = document.querySelector('#desktop-nav-overlay');
+        if (overlay.classList.contains('active')) {
+            overlay.classList.remove('active');
+            document.body.classList.remove('noscroll');
+        } else {
+            overlay.classList.add('active');
+            document.body.classList.add('noscroll');
         }
     }
 }

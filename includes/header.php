@@ -1,11 +1,11 @@
-<div id="mobile-nav-overlay" onclick="Header.toggleMenu(false)">
+<div id="mobile-nav-overlay" onclick="HeaderTouch.toggleMenu()">
     <nav onclick="event.stopImmediatePropagation()">
         <div id="mobile-nav-head">
             <div></div>
             <a href="">
                 <img src="images/logo-green.svg" alt="Acnespecialisten" width="139" height="25" />
             </a>
-            <div onclick="Header.toggleMenu(false)"><?php icon('close') ?></div>
+            <div onclick="HeaderTouch.toggleMenu()"><?php icon('close') ?></div>
         </div>
         <div id="mobile-nav-links">
             <a href="problems" class="mobile-nav-link l10n">Problems</a>
@@ -17,7 +17,7 @@
         </div>
         <div id="mobile-expansion-panels">
             <div class="expansion-panel">
-                <div class="ep-head" onclick="Header.toggleExpanded(this)">
+                <div class="ep-head" onclick="HeaderTouch.toggleExpanded(this)">
                     <div class="ep-label l10n">Company</div>
                     <?php icon('arrow-down') ?>
                 </div>
@@ -29,7 +29,7 @@
                 </div>
             </div>
             <div class="expansion-panel">
-                <div class="ep-head" onclick="Header.toggleExpanded(this)">
+                <div class="ep-head" onclick="HeaderTouch.toggleExpanded(this)">
                     <div class="ep-label l10n">Support</div>
                     <?php icon('arrow-down') ?>
                 </div>
@@ -41,7 +41,7 @@
                 </div>
             </div>
             <div class="expansion-panel">
-                <div class="ep-head" onclick="Header.toggleExpanded(this)">
+                <div class="ep-head" onclick="HeaderTouch.toggleExpanded(this)">
                     <div class="ep-label l10n">Community</div>
                     <?php icon('arrow-down') ?>
                 </div>
@@ -63,13 +63,59 @@
         </div>
     </nav>
 </div>
+<div id="desktop-nav-overlay" onclick="HeaderDesktop.toggleMenu()">
+    <nav onclick="event.stopImmediatePropagation()">
+        <div class="container">
+            <div id="desktop-nav-overlay-content">
+                <div class="columns">
+                    <div class="column">
+                        <ul>
+                            <li class="l10n">Company</li>
+                            <li><a href="about" class="l10n">About us</a></li>
+                            <li><a href="approach" class="l10n">Our approach</a></li>
+                            <li><a href="specialists" class="l10n">Specialists</a></li>
+                            <li><a href="career" class="l10n">Career</a></li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <ul>
+                            <li class="l10n">Support</li>
+                            <li><a href="faq" class="l10n">FAQ</a></li>
+                            <li><a href="cancellation" class="l10n">Cancellation</a></li>
+                            <li><a href="glossary" class="l10n">Glossary</a></li>
+                            <li><a href="skin-guide" class="l10n">Skin guide</a></li>
+                            <li><a href="contact" class="l10n">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <ul>
+                            <li class="l10n">Community</li>
+                            <li><a href="results" class="l10n">Client results</a></li>
+                            <li><a href="gift-cards" class="l10n">Gift cards</a></li>
+                            <li><a href="consultation" class="l10n">Free consultation</a></li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <div id="desktop-login-box">
+                            <div id="dl-profile-icon"><?php icon('profile') ?></div>
+                            <div class="l10n" id="dl-profile-text">Have your personal Acnespecialisten account?</div>
+                            <a href="https://dahlskincare.com/profile/start" target="_blank" class="button outline expand l10n">Login</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+</div>
 <header>
     <div class="container">
         <div class="is-hidden-desktop" id="header-small">
             <a href="/">
                 <img id="logo" src="images/logo-green.svg" alt="Acnespecialisten" width="139" height="25" />
             </a>
-            <div id="menu-button" onclick="Header.toggleMenu(true)">
+            <div id="menu-button" onclick="HeaderTouch.toggleMenu()">
                 <?php icon("bars") ?>
             </div>
         </div>
@@ -90,7 +136,7 @@
             </div>
             <div id="actions">
                 <a class="button text l10n" href="https://dahlskincare.com/skin-consultation" target="_blank">Get a free consultation</a>
-                <div onclick="Header.toggleMenu(true)">
+                <div onclick="HeaderDesktop.toggleMenu()">
                     <?php icon("bars") ?>
                 </div>
             </div>

@@ -5,6 +5,9 @@
 @import "util/colors";
 @import "util/mixins";
 
+$mobile-nav-width: 350px;
+$large-header-height: 72px;
+
 html {
     body {
         overflow-x: hidden;
@@ -37,7 +40,7 @@ html {
             #header-large {
                 align-items: center;
                 justify-content: space-between;
-                height: 72px;
+                height: $large-header-height;
                 display: flex;
 
                 div#left {
@@ -47,12 +50,12 @@ html {
 
                     a#logo {
                         img {
-                            padding: $s $m;
+                            padding: $s 0;
                         }
                     }
 
                     nav {
-                        margin-left: $xs;
+                        margin-left: $xl * 2;
 
                         ul {
                             padding: 0;
@@ -86,6 +89,239 @@ html {
 
                 }
             }
+        }
+
+        /// NAV
+        div#mobile-nav-overlay {
+            right: 0;
+            position: fixed;
+            z-index: 100;
+            width: 0;
+            height: 100vh;
+            height: -webkit-fill-available;
+            transition: background-color 200ms ease;
+
+            nav {
+                position: absolute;
+                box-sizing: border-box;
+                width: $mobile-nav-width;
+                right: - $mobile-nav-width;
+                height: 100vh;
+                height: -webkit-fill-available;
+                background-color: $white-500;
+                padding: 0 $xl;
+                transition: right 200ms ease;
+                overflow-y: auto;
+
+                div#mobile-nav-head {
+                    font-size: 0;
+                    height: $xl4;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    .icon {
+                        cursor: pointer;
+                    }
+                }
+
+                div#mobile-nav-links {
+                    margin-top: $xs;
+                    border-radius: $radius-l;
+                    overflow: hidden;
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    grid-template-rows: 1fr 1fr 1fr;
+                    column-gap: $xxs;
+                    row-gap: $xxs;
+
+                    .mobile-nav-link {
+                        @include h200;
+                        height: $xl4;
+                        background-color: $light-50;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+
+                div#mobile-expansion-panels {
+                    div.expansion-panel {
+                        border-bottom: 1px solid $light-200;
+                        padding: $xl 0;
+
+                        div.ep-head {
+                            @include p200;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            cursor: pointer;
+
+                            .icon {
+                                transition: transform 200ms ease;
+                            }
+                        }
+
+                        div.ep-content {
+                            display: none;
+
+                            a {
+                                @include h200;
+                                padding: $s 0;
+                                display: block;
+                            }
+
+                            a:first-child {
+                                padding-top: $xl;
+                            }
+
+                            a:last-child {
+                                padding-bottom: 0;
+                            }
+                        }
+                    }
+
+                    div.expansion-panel.active {
+                        div.ep-head {
+                            .icon {
+                                transform: rotate(-180deg);
+                            }
+                        }
+
+                        div.ep-content {
+                            display: block;
+                        }
+                    }
+                }
+
+                div#mobile-login-link {
+                    padding: $xl 0;
+
+                    #ml-head {
+                        display: flex;
+                        align-items: center;
+
+                        #profile-icon {
+                            flex: 1 0 48px;
+                            height: 48px;
+                            border-radius: 50%;
+                            background-color: $deep-sea-25;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+
+                            .icon>svg {
+                                * {
+                                    stroke: $deep-sea-400;
+                                    fill: $deep-sea-400;
+                                }
+                            }
+                        }
+
+                        #profile-text {
+                            @include p200;
+                            margin-left: $m;
+                        }
+                    }
+
+                    a.button {
+                        margin-top: $m;
+                    }
+                }
+            }
+        }
+
+        div#mobile-nav-overlay.active {
+            background-color: rgba(0, 0, 0, 0.5);
+            width: 100%;
+
+            nav {
+                right: 0;
+            }
+        }
+
+        div#desktop-nav-overlay {
+            position: fixed;
+            top: $large-header-height;
+            border-top: 1px solid $light-200;
+            z-index: 100;
+            width: 0;
+            height: 100vh;
+            height: -webkit-fill-available;
+            transition: background-color 200ms ease;
+
+            nav {
+                background-color: $white-500;
+                overflow: hidden;
+
+                .container {
+                    #desktop-nav-overlay-content {
+                        padding: $xl3 0;
+
+                        ul {
+                            padding: 0;
+                            margin: 0;
+                            list-style-type: none;
+
+                            li {
+                                margin-top: $xl;
+
+                                a {
+                                    @include p200;
+                                }
+                            }
+
+                            li:first-child {
+                                margin-top: 0;
+                                @include h200;
+                            }
+                        }
+
+                        #desktop-login-box {
+                            padding: $xl;
+                            border: 1px solid $light-200;
+                            border-radius: $radius-l;
+
+                            #dl-profile-icon {
+                                width: $xl4;
+                                height: $xl4;
+                                border-radius: 50%;
+                                background-color: $deep-sea-25;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+
+                                .icon>svg {
+                                    * {
+                                        stroke: $deep-sea-400;
+                                        fill: $deep-sea-400;
+                                    }
+                                }
+                            }
+
+                            #dl-profile-text {
+                                @include p100;
+                                margin-top: $m;
+                            }
+
+                            a.button {
+                                margin-top: $m;
+                            }
+
+                        }
+
+                        @media screen and (min-width: $widescreen) {
+                            // Same as combined width of logo above and margin to the main links
+                            margin: 0 224px;
+                        }
+                    }
+                }
+            }
+        }
+
+        div#desktop-nav-overlay.active {
+            background-color: rgba(0, 0, 0, 0.5);
+            width: 100%;
         }
 
         main {
