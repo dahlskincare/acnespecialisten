@@ -23,7 +23,7 @@ div#content {
         }
     }
 
-    section#form {
+    section#contact-details {
         .is-hidden-desktop {
             div.p200 {
                 margin-top: $xl;
@@ -32,7 +32,34 @@ div#content {
             a.button {
                 margin-top: $s;
             }
+        }
+    }
 
+    section#confirmation {
+        margin-top: $xl;
+
+        #confirmation-banner {
+            padding: $xl;
+            background-color: $deep-sea-400;
+            border-radius: $radius-l;
+            color: $white-500;
+            display: flex;
+            flex-direction: column;
+
+            @include desktop {
+                align-items: center;
+                justify-content: space-between;
+                flex-direction: row;
+
+                a {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    section#form {
+        .is-hidden-desktop {
             form {
                 margin-top: $xl;
                 padding: $xl;

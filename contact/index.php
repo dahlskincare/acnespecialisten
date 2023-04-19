@@ -28,6 +28,11 @@ $salons = array(
         coordinates: '1231231212312312'
     ),
 );
+
+
+// TODO: send email
+
+
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
@@ -54,8 +59,7 @@ $salons = array(
                     <h1 class="l10n">Contact us</h1>
                     <p class="l10n">At Acnespecialisten there is an experienced and well-educated group of doctors with specialist skills and broad experience from the aesthetic and reconstructive industry.</p>
                 </section>
-                <section id="form">
-                    <!-- TOUCH -->
+                <section id="contact-details">
                     <div class="is-hidden-desktop">
                         <div class="p200">
                             <strong class="l10n">Phone&nbsp;</strong>
@@ -67,137 +71,155 @@ $salons = array(
                             <span>kund@acnespecialisten.se</span>
                         </div>
                         <a href="mailto:kund@acnespecialisten.se" class="button b200 outline expand l10n">Send an email</a>
-                        <form action="">
-                            <label for="category">
-                                <span class="l10n">What do you need help with?</span>
-                                <span class="color-deep-sea-400">*</span>
-                            </label>
-                            <div class="select-wrapper">
-                                <select name="category">
-                                    <option value="new_booking" class="l10n">New booking</option>
-                                    <option value="treatment" class="l10n">Questions about treatment</option>
-                                    <option value="collaborations" class="l10n">Collaborations</option>
-                                    <option value="cancel" class="l10n">Change / Cancel treatment</option>
-                                    <option value="urgent" class="l10n">Urgent matters</option>
-                                    <option value="other" class="l10n">Other</option>
-                                </select>
-                            </div>
-                            <label for="name" class="mt-xl">
-                                <span class="l10n">Full name</span>
-                                <span class="color-deep-sea-400">*</span>
-                            </label>
-                            <input type="text" name="name" placeholder="Your name" required />
-                            <label for="email" class="mt-xl">
-                                <span class="l10n">Email</span>
-                                <span class="color-deep-sea-400">*</span>
-                            </label>
-                            <input type="email" name="email" placeholder="your@email.com" required />
-                            <label for="phone" class="mt-xl">
-                                <span class="l10n">Phone</span>
-                            </label>
-                            <input type="phone" name="phone" placeholder="084 123 456" />
-                            <label for="message" class="mt-xl">
-                                <span class="l10n">Message</span>
-                                <span class="color-deep-sea-400">*</span>
-                            </label>
-                            <textarea class="l10n" name="message" rows="8" placeholder="Your message" required></textarea>
-                            <input type="submit" class="button b200 expand" value="Send a message" />
-                        </form>
                     </div>
-                    <!-- DESKTOP -->
-                    <div class="is-hidden-touch">
-                        <div class="flex-row mt-xl">
-                            <div>
-                                <strong class="h200 l10n">Phone&nbsp;</strong>
-                                <a class="h200 color-deep-sea-400" href="tel: 08 29 61 01">08 29 61 01</a>
-                            </div>
-                            <div class="ml-xxl">
-                                <strong class="h200 l10n">Email&nbsp;</strong>
-                                <a class="h200 color-deep-sea-400" href="mailto:kund@acnespecialisten.se">kund@acnespecialisten.se</a>
-                            </div>
+                    <div class="is-hidden-touch flex-row mt-xl">
+                        <div>
+                            <strong class="h200 l10n">Phone&nbsp;</strong>
+                            <a class="h200 color-deep-sea-400" href="tel: 08 29 61 01">08 29 61 01</a>
                         </div>
-                        <form action="">
-                            <label for="category">
-                                <span class="l10n">What do you need help with?</span>
-                                <span class="color-deep-sea-400">*</span>
-                            </label>
-                            <div class="columns">
-                                <div class="column is-one-third">
-                                    <label class="radio">
-                                        <span class="l10n">New booking</span>
-                                        <input type="radio" name="category" value="new_booking" />
-                                        <span class="check"></span>
-                                    </label>
-                                </div>
-                                <div class="column is-one-third">
-                                    <label class="radio">
-                                        <span class="l10n">Questions about treatment</span>
-                                        <input type="radio" name="category" value="treatment" />
-                                        <span class="check"></span>
-                                    </label>
-                                </div>
-                                <div class="column is-one-third">
-                                    <label class="radio">
-                                        <span class="l10n">Collaborations</span>
-                                        <input type="radio" name="category" value="collaborations" />
-                                        <span class="check"></span>
-                                    </label>
-                                </div>
+                        <div class="ml-xxl">
+                            <strong class="h200 l10n">Email&nbsp;</strong>
+                            <a class="h200 color-deep-sea-400" href="mailto:kund@acnespecialisten.se">kund@acnespecialisten.se</a>
+                        </div>
+                    </div>
+                </section>
+                <?php if (array_key_exists('message', $_GET)) { ?>
+                    <section id="confirmation">
+                        <div id="confirmation-banner">
+                            <div>
+                                <div class="h400 l10n">Your message has been sent</div>
+                                <div class="p200 mt-xxs l10n">We will contact you as soon as possible.</div>
                             </div>
-                            <div class="mt-m">
+                            <a href="contact" class="is-hidden-touch">Resend</a>
+                            <a href="contact" class="is-hidden-desktop button outline white expand mt-xl">Resend</a>
+                        </div>
+                    </section>
+                <?php } else {  ?>
+                    <section id="form">
+                        <!-- TOUCH -->
+                        <div class="is-hidden-desktop">
+                            <form action="">
+                                <label for="category">
+                                    <span class="l10n">What do you need help with?</span>
+                                    <span class="color-deep-sea-400">*</span>
+                                </label>
+                                <div class="select-wrapper">
+                                    <select name="category">
+                                        <option value="new_booking" class="l10n">New booking</option>
+                                        <option value="treatment" class="l10n">Questions about treatment</option>
+                                        <option value="collaborations" class="l10n">Collaborations</option>
+                                        <option value="cancel" class="l10n">Change / Cancel treatment</option>
+                                        <option value="urgent" class="l10n">Urgent matters</option>
+                                        <option value="other" class="l10n">Other</option>
+                                    </select>
+                                </div>
+                                <label for="name" class="mt-xl">
+                                    <span class="l10n">Full name</span>
+                                    <span class="color-deep-sea-400">*</span>
+                                </label>
+                                <input type="text" name="name" placeholder="Your name" required />
+                                <label for="email" class="mt-xl">
+                                    <span class="l10n">Email</span>
+                                    <span class="color-deep-sea-400">*</span>
+                                </label>
+                                <input type="email" name="email" placeholder="your@email.com" required />
+                                <label for="phone" class="mt-xl">
+                                    <span class="l10n">Phone</span>
+                                </label>
+                                <input type="phone" name="phone" placeholder="084 123 456" />
+                                <label for="message" class="mt-xl">
+                                    <span class="l10n">Message</span>
+                                    <span class="color-deep-sea-400">*</span>
+                                </label>
+                                <textarea class="l10n" name="message" rows="8" placeholder="Your message" required></textarea>
+                                <input type="submit" class="button b200 expand" value="Send a message" />
+                            </form>
+                        </div>
+                        <!-- DESKTOP -->
+                        <div class="is-hidden-touch">
+                            <form action="">
+                                <label for="category">
+                                    <span class="l10n">What do you need help with?</span>
+                                    <span class="color-deep-sea-400">*</span>
+                                </label>
                                 <div class="columns">
                                     <div class="column is-one-third">
                                         <label class="radio">
-                                            <span class="l10n">Change / Cancel treatment</span>
-                                            <input type="radio" name="category" value="cancel" />
+                                            <span class="l10n">New booking</span>
+                                            <input type="radio" name="category" value="new_booking" />
                                             <span class="check"></span>
                                         </label>
                                     </div>
                                     <div class="column is-one-third">
                                         <label class="radio">
-                                            <span class="l10n">Urgent matters</span>
-                                            <input type="radio" name="category" value="urgent" />
+                                            <span class="l10n">Questions about treatment</span>
+                                            <input type="radio" name="category" value="treatment" />
                                             <span class="check"></span>
                                         </label>
                                     </div>
                                     <div class="column is-one-third">
                                         <label class="radio">
-                                            <span class="l10n">Other</span>
-                                            <input type="radio" name="category" value="other" />
+                                            <span class="l10n">Collaborations</span>
+                                            <input type="radio" name="category" value="collaborations" />
                                             <span class="check"></span>
                                         </label>
                                     </div>
                                 </div>
-                            </div>
-                            <label for="name" class="mt-xl">
-                                <span class="l10n">Full name</span>
-                                <span class="color-deep-sea-400">*</span>
-                            </label>
-                            <input type="text" name="name" placeholder="Your name" required />
-                            <div class="columns is-variable is-3">
-                                <div class="column">
-                                    <label for="email" class="mt-xl">
-                                        <span class="l10n">Email</span>
-                                        <span class="color-deep-sea-400">*</span>
-                                    </label>
-                                    <input type="email" name="email" placeholder="your@email.com" required />
+                                <div class="mt-m">
+                                    <div class="columns">
+                                        <div class="column is-one-third">
+                                            <label class="radio">
+                                                <span class="l10n">Change / Cancel treatment</span>
+                                                <input type="radio" name="category" value="cancel" />
+                                                <span class="check"></span>
+                                            </label>
+                                        </div>
+                                        <div class="column is-one-third">
+                                            <label class="radio">
+                                                <span class="l10n">Urgent matters</span>
+                                                <input type="radio" name="category" value="urgent" />
+                                                <span class="check"></span>
+                                            </label>
+                                        </div>
+                                        <div class="column is-one-third">
+                                            <label class="radio">
+                                                <span class="l10n">Other</span>
+                                                <input type="radio" name="category" value="other" />
+                                                <span class="check"></span>
+                                            </label>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="column">
-                                    <label for="phone" class="mt-xl">
-                                        <span class="l10n">Phone</span>
-                                    </label>
-                                    <input type="phone" name="phone" placeholder="084 123 456" />
+                                <label for="name" class="mt-xl">
+                                    <span class="l10n">Full name</span>
+                                    <span class="color-deep-sea-400">*</span>
+                                </label>
+                                <input type="text" name="name" placeholder="Your name" required />
+                                <div class="columns is-variable is-3">
+                                    <div class="column">
+                                        <label for="email" class="mt-xl">
+                                            <span class="l10n">Email</span>
+                                            <span class="color-deep-sea-400">*</span>
+                                        </label>
+                                        <input type="email" name="email" placeholder="your@email.com" required />
+                                    </div>
+                                    <div class="column">
+                                        <label for="phone" class="mt-xl">
+                                            <span class="l10n">Phone</span>
+                                        </label>
+                                        <input type="phone" name="phone" placeholder="084 123 456" />
+                                    </div>
                                 </div>
-                            </div>
-                            <label for="message" class="mt-xl">
-                                <span class="l10n">Message</span>
-                                <span class="color-deep-sea-400">*</span>
-                            </label>
-                            <textarea class="l10n" name="message" rows="8" placeholder="Your message" required></textarea>
-                            <input type="submit" class="button b200" value="Send a message" />
-                        </form>
-                    </div>
-                </section>
+                                <label for="message" class="mt-xl">
+                                    <span class="l10n">Message</span>
+                                    <span class="color-deep-sea-400">*</span>
+                                </label>
+                                <textarea class="l10n" name="message" rows="8" placeholder="Your message" required></textarea>
+                                <input type="submit" class="button b200" value="Send a message" />
+                            </form>
+                        </div>
+                    </section>
+                <?php } ?>
                 <section id="salon-cards">
                     <?php foreach ($salons as $salon) { ?>
                         <div class="large-margin">
