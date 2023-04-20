@@ -1,0 +1,115 @@
+@import '../styles/util/colors';
+@import '../styles/util/sizes';
+@import '../styles/util/mixins';
+
+
+section#banner {
+    background-color: $deep-sea-400;
+    padding: $xxs 0;
+
+    .badges-widget {
+        flex: 1;
+
+        .badge {
+            @include button-text-color($white-500);
+            color: $white-500;
+            background-color: transparent;
+        }
+
+        .badge:first-child {
+            padding-left: 0;
+        }
+
+        .badge:last-child {
+            padding-right: 0;
+        }
+    }
+
+    @include desktop {
+        .badges-widget {
+            flex: 0;
+        }
+
+        .breadcrumbs-widget {
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+    }
+}
+
+div#content {
+    margin: 0 auto;
+    max-width: 872px;
+
+    section#title {
+        margin-top: $xl;
+
+        h1 {
+            @include h600;
+        }
+
+        p {
+            @include p200;
+            margin-top: $xs;
+        }
+
+        @include desktop {
+            margin-top: $xl4;
+
+
+            p {
+                margin-top: $s;
+            }
+        }
+    }
+
+    section#alert-banner {
+        margin-top: $xl;
+        padding: $xl;
+        background-color: $red-25;
+        border-radius: $radius-l;
+        display: flex;
+        flex-direction: column;
+
+        div#alert-text {
+            @include p200;
+        }
+
+        a.button {
+            margin-top: $m;
+            color: $red-400;
+            border-color: $red-400;
+        }
+
+        a.button:active,
+        a.button:focus {
+            background-color: $red-400;
+            color: $white-500;
+        }
+
+        a.button:hover {
+            color: $white-500;
+            background-color: $red-400;
+        }
+
+        @include desktop {
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+
+            a {
+                @include h200;
+                color: $red-400;
+            }
+        }
+
+    }
+}
+
+section.large-margin {
+    margin-top: 72px;
+
+    @include desktop {
+        margin-top: 104px;
+    }
+}
