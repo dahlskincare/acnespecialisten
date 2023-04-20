@@ -33,7 +33,7 @@
                 <section id="title">
                     <h1 class="l10n">Gift cards</h1>
                     <p class="l10n">Buy gift card and give as a gift to someone you care about. Gift cards are valid for all procedures in all our clinics and are valid for 1 year from the date of receipt.</p>
-                    <a href="" class="button b200 expand">Order a gift card</a>
+                    <div class="button b200 expand" onclick="document.querySelector('#steps').scrollIntoView()">Order a gift card</div>
                 </section>
                 <section id="image">
                     <picture>
@@ -41,6 +41,45 @@
                         <source media="(min-width: 800px)" srcset="gift-cards/large.webp">
                         <img src="gift-cards/small.webp" alt="About us" width="360" height="274" />
                     </picture>
+                </section>
+                <section id="steps">
+                    <div class="is-hidden-desktop">
+                        <div class="gift-card-step">
+                            <div class="flex-row align-center">
+                                <div class="gc-number">01</div>
+                                <h2 class="l10n">Swish money</h2>
+                            </div>
+                            <div class="gc-text l10n">Send us any amount you want to put on the gift card or buy some procedure.</div>
+                            <hr />
+                            <div id="swish-title">
+                                <?php icon('swish-24') ?>
+                                <span class="l10n">Our swish number</span>
+                            </div>
+                            <div id="swish-number-button">
+                                <span>123 618 05 41</span>
+                                <div id="swish-number-copy">
+                                    <span class="l10n">Copy</span>
+                                    <?php icon('copy') ?>
+                                </div>
+                            </div>
+                            <a href="swish://paymentrequest?token=blablabla&callbackurl=https%3A%2F%2Facnespecialisten.com%2Fgift-cards%3Fpaid%3D1" class="button outline expand l10n">Open Swish app</a>
+                        </div>
+                        <div class="gift-card-step">
+                            <div class="flex-row align-center">
+                                <div class="gc-number">02</div>
+                                <h2 class="l10n">Confirmation</h2>
+                            </div>
+                            <div class="gc-text l10n">Fill in your info and attach a screenshot with payment details.</div>
+                        </div>
+                        <div class="gift-card-step">
+                            <div class="flex-row align-center">
+                                <div class="gc-number">03</div>
+                                <h2 class="l10n">Get your gift card</h2>
+                            </div>
+                            <div class="gc-text l10n">We will send you an electronic version of the gift card on your email and, if you wish, a physical gift card to your address, usually it takes up to 2 days.</div>
+                        </div>
+                    </div>
+
                 </section>
             </div>
             <section id="results" class="large-margin">

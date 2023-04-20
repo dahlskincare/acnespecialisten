@@ -2,6 +2,9 @@
 @import '../styles/util/sizes';
 @import '../styles/util/mixins';
 
+html {
+    scroll-behavior: smooth;
+}
 
 section#banner {
     background-color: $deep-sea-400;
@@ -73,6 +76,7 @@ div#content {
 
     section#image {
         margin-top: $xl;
+        font-size: 0;
 
         img {
             width: 100%;
@@ -82,6 +86,95 @@ div#content {
 
         @include desktop {
             margin-top: $xl3;
+        }
+    }
+
+    section#steps {
+        scroll-margin-top: 72px;
+
+        .gc-number {
+            background-color: $deep-sea-400;
+            width: 52px;
+            height: 52px;
+            border-radius: 50%;
+            color: $white-500;
+            font-size: $l;
+            font-weight: 600;
+            text-align: center;
+            line-height: 52px;
+        }
+
+        .is-hidden-desktop {
+
+            .gift-card-step {
+                margin-top: $xl;
+                padding: $xl;
+                border: 1px solid $light-200;
+                border-radius: $radius-l;
+                @include elevation-low;
+
+                h2 {
+                    @include h300;
+                    margin-left: $s;
+                }
+
+                div.gc-text {
+                    @include p200;
+                    margin-top: $m;
+                }
+
+                hr {
+                    border: 0;
+                    border-top: 1px solid $light-200;
+                    margin: $xl 0;
+                }
+
+                div#swish-title {
+                    display: flex;
+                    align-items: center;
+
+                    .icon {
+                        width: $xl;
+                        height: $xl;
+                        margin-right: $s;
+                    }
+
+                    span {
+                        @include h200;
+                    }
+                }
+
+                #swish-number-button {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    @include p200;
+                    border-radius: $radius-s;
+                    background-color: $light-100;
+                    margin-top: $s;
+                    padding: $s $m;
+
+                    #swish-number-copy {
+                        color: $dark-200;
+
+                        .icon {
+                            margin-left: 3px;
+
+                            >svg {
+                                * {
+                                    stroke: $dark-200;
+                                    fill: transparent;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                a.button.outline {
+                    margin-top: $m;
+                }
+
+            }
         }
     }
 }
