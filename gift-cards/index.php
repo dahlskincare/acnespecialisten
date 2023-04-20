@@ -35,6 +35,13 @@
                     <p class="l10n">Buy gift card and give as a gift to someone you care about. Gift cards are valid for all procedures in all our clinics and are valid for 1 year from the date of receipt.</p>
                     <a href="" class="button b200 expand">Order a gift card</a>
                 </section>
+                <section id="image">
+                    <picture>
+                        <source media="(max-width: 799px)" srcset="gift-cards/small.webp">
+                        <source media="(min-width: 800px)" srcset="gift-cards/large.webp">
+                        <img src="gift-cards/small.webp" alt="About us" width="360" height="274" />
+                    </picture>
+                </section>
             </div>
             <section id="results" class="large-margin">
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results.php') ?>

@@ -70,6 +70,20 @@ div#content {
             }
         }
     }
+
+    section#image {
+        margin-top: $xl;
+
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: $radius-l;
+        }
+
+        @include desktop {
+            margin-top: $xl3;
+        }
+    }
 }
 
 section.large-margin {
