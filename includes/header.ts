@@ -26,10 +26,8 @@ namespace HeaderDesktop {
         const overlay = document.querySelector('#desktop-nav-overlay');
         if (overlay.classList.contains('active')) {
             overlay.classList.remove('active');
-            document.body.classList.remove('noscroll');
         } else {
             overlay.classList.add('active');
-            document.body.classList.add('noscroll');
         }
     }
 }
