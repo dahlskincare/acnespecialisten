@@ -34,9 +34,6 @@ $salons = array(
 );
 
 
-// TODO: send email
-
-
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
@@ -57,6 +54,15 @@ $salons = array(
 <body>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
     <main>
+        <section id="banner">
+            <div class="container">
+                <div class="flex-row justify-space-between">
+                    <div class="is-hidden-touch">
+                    </div>
+                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
+                </div>
+            </div>
+        </section>
         <div class="container">
             <div id="content">
                 <section id="title">
