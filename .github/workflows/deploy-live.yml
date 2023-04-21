@@ -5,9 +5,9 @@ on:
     branches: [ main ]
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
-
+    
     steps:
       - uses: actions/checkout@v3
       
@@ -17,7 +17,7 @@ jobs:
       - name: Compile SCSS
         run: sass --style compressed --no-source-map .:.
         
-      - name: Deploy files
+      - name: Transfer files
         uses: nogsantos/scp-deploy@master
         with:
           src: ./*
