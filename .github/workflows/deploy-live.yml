@@ -39,6 +39,6 @@ jobs:
       - name: Uncompress on server
         run: |
           echo "${{ secrets.AS_SSH_KEY }}" > secret.key
-          ssh -i secret.key {{ secreats.AS_SSH_USER}}@${{ SECRETS.AS_SSH_HOST }}
+          ssh -i secret.key ${{ secrets.AS_SSH_USER }}@${{ secrets.AS_SSH_HOST }}
           cd ~/temp.visurus.org
           unzip web.zip
