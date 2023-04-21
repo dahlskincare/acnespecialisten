@@ -79,7 +79,9 @@
                             <div class="gc-text l10n">We will send you an electronic version of the gift card on your email and, if you wish, a physical gift card to your address, usually it takes up to 2 days.</div>
                         </div>
                     </div>
-
+                </section>
+                <section id="flyers">
+                    <p>hello</p>
                 </section>
             </div>
             <section id="results" class="large-margin">
