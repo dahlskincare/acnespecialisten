@@ -1,5 +1,1 @@
-{
-    "scripts": {
-        "compile-scss": "sass --style compressed --no-source-map .:."
-    }
-}
+{}
