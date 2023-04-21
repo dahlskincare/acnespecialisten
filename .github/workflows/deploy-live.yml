@@ -20,7 +20,7 @@ jobs:
       - name: Install typescript
         run: npm install typescript
 
-      -name: Compile Typescript
+      - name: Compile Typescript
         run: tsc
         
       - name: Compress files
