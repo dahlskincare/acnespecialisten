@@ -38,7 +38,11 @@ jobs:
 
       - name: Uncompress on server
         run: |
-          echo "${{ secrets.AS_SSH_KEY }}" > secret.key
-          ssh -i secret.key ${{ secrets.AS_SSH_USER }}@${{ secrets.AS_SSH_HOST }}
+          install -m 600 -D /dev/null ~/.ssh/id_rsa
+          echo "${{ secrets.AS_SSH_KEY }}" > ~/.ssh/id_rsa
+          host='${{ secrets.AS_SSH_HOST }}'
+          hosts="$(dig +short "$host" | grep -v '\.$' | sed -z 's|\n|,|g')$host"
+          ssh-keyscan -H "$hosts" > ~/.ssh/known_hosts
+          ssh -i ~/.ssh/id_rsa ${{ secrets.AS_SSH_USER }}@${{ secrets.AS_SSH_HOST }}
           cd ~/temp.visurus.org
           unzip web.zip
