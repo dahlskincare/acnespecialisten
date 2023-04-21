@@ -40,7 +40,7 @@
                                           </div>
                                           <div>
                                                 <span class="h500">30+</span>
-                                                <div class="p200 l10n">years</div>
+                                                <div class="p200 l10n">år</div>
                                           </div>
                                           <div>
                                                 <span class="h500">200k+</span>
@@ -64,8 +64,8 @@
                                           <div class="flex-aligner">
                                                 <span class="label-large">30+</span>
                                                 <div>
-                                                      <div class="h400 l10n">years</div>
-                                                      <div class="p200 l10n">on the market</div>
+                                                      <div class="h400 l10n">år</div>
+                                                      <div class="p200 l10n">i branchen</div>
                                                 </div>
                                           </div>
                                           <div class="flex-aligner">
