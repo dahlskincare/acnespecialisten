@@ -4,7 +4,7 @@
 
 <head>
       <!-- TODO: Set title and meta tags -->
-      <title class="l10n">Acnespecialisten | Home</title>
+      <title class="l10n">Acnespecialisten | test</title>
       <meta name="description" content="Acnespecialisten is the best etc..." class="l10n">
       <meta name="title" content="Acnespecialisten" class="l10n">
       <meta name="keywords" content="Acne, specialisten" class="l10n">
