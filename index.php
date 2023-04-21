@@ -8,6 +8,9 @@
       <meta name="description" content="Acnespecialisten is the best etc..." class="l10n">
       <meta name="title" content="Acnespecialisten" class="l10n">
       <meta name="keywords" content="Acne, specialisten" class="l10n">
+      <meta property="og:title" content="Acnespecialisten" />
+      <meta property="og:description" content="Acnespecialisten is the best etc.." class="l10n" />
+      <meta property="og:image" content="https://temp.visurus.org/images/about-desktop.jpg" />
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="preload" as="image" href="images/banner-desktop.jpg" media="(min-width: 984px)">
       <link rel="preload" as="image" href="images/banner-mobile.jpg" media="(max-width: 983px)">
