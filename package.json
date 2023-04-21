@@ -1,8 +1,4 @@
 {
-    "dependencies": {
-        "sass": "^1.62.0",
-        "typescript": "^5.0.4"
-    },
     "scripts": {
         "compile-scss": "sass --style compressed --no-source-map --no-implied --recursive --scss .:."
     }
