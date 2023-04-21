@@ -4,10 +4,16 @@
 
 <head>
       <!-- TODO: Set title and meta tags -->
-      <title class="l10n">Acnespecialisten | test</title>
+      <title class="l10n">Acnespecialisten | hej</title>
       <meta name="description" content="Acnespecialisten is the best etc..." class="l10n">
       <meta name="title" content="Acnespecialisten" class="l10n">
       <meta name="keywords" content="Acne, specialisten" class="l10n">
+      <meta property="og:title" content="Acnespecialisten" />
+      <meta property="og:description" content="Acnespecialisten is the best etc.." class="l10n" />
+      <meta property="og:image" content="https://temp.visurus.org/images/about-desktop.jpg" />
+      <meta property="twitter:title" content="Acnespecialisten" />
+      <meta property="twitter:description" content="Acnespecialisten is the best etc.." class="l10n" />
+      <meta property="twitter:image" content="https://temp.visurus.org/images/about-desktop.jpg" />
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="preload" as="image" href="images/banner-desktop.jpg" media="(min-width: 984px)">
       <link rel="preload" as="image" href="images/banner-mobile.jpg" media="(max-width: 983px)">
@@ -40,7 +46,7 @@
                                           </div>
                                           <div>
                                                 <span class="h500">30+</span>
-                                                <div class="p200 l10n">years</div>
+                                                <div class="p200 l10n">år</div>
                                           </div>
                                           <div>
                                                 <span class="h500">200k+</span>
@@ -64,8 +70,8 @@
                                           <div class="flex-aligner">
                                                 <span class="label-large">30+</span>
                                                 <div>
-                                                      <div class="h400 l10n">years</div>
-                                                      <div class="p200 l10n">on the market</div>
+                                                      <div class="h400 l10n">år</div>
+                                                      <div class="p200 l10n">i branchen</div>
                                                 </div>
                                           </div>
                                           <div class="flex-aligner">
