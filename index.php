@@ -58,7 +58,7 @@
                                                       <?php icon('trustpilot') ?>
                                                       <?php icon('trustpilot') ?>
                                                       <?php icon('trustpilot') ?>
-                                                      <div class="p200 l10n">Trustpilot score</div>
+                                                      <div class="p200 l10n">På Trustpilot</div>
                                                 </div>
                                           </div>
                                           <div class="flex-aligner">
