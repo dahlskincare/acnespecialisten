@@ -36,7 +36,7 @@
                                           <div>
                                                 <span class="h500">4,8</span>
                                                 <?php icon('trustpilot') ?>
-                                                <div class="p200 l10n">Trustpilot</div>
+                                                <div class="p200 l10n">På Trustpilot</div>
                                           </div>
                                           <div>
                                                 <span class="h500">30+</span>
