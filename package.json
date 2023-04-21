@@ -1,8 +1,9 @@
 {
-  "devDependencies": {
-    "node-sass": "^8.0.0"
-  },
-  "scripts": {
-    "compile-scss": "node-sass --output-style compressed styles/ -o ."
-  }
+    "dependencies": {
+        "sass": "^1.62.0",
+        "typescript": "^5.0.4"
+    },
+    "scripts": {
+        "compile-scss": "sass --style compressed --no-source-map --no-implied --recursive --scss .:."
+    }
 }
