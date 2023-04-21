@@ -31,7 +31,7 @@ jobs:
         with:
           src: ./web.zip
           host: ${{ secrets.AS_SSH_HOST }}
-          remote: ~/temp.visurus.org
+          remote: ~/temp-staging.visurus.org
           port: 22
           user: ${{ secrets.AS_SSH_USER }}
           key: ${{ secrets.AS_SSH_KEY }}
