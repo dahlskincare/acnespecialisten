@@ -3,6 +3,6 @@
     "node-sass": "^8.0.0"
   },
   "scripts": {
-    "compile-scss": "node-sass --output-style compressed --recursive . -o ."
+    "compile-scss": "node-sass --output-style compressed styles/ -o ."
   }
 }
