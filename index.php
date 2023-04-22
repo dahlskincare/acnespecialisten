@@ -95,13 +95,13 @@
                         <div class="h500 l10n">Problem</div>
                         <?php
                         $accordion = array(
-                              new AccordionItem('akne', 'images/problems/carousel/small/acne.jpg', 'images/problems/carousel/large/acne.jpg', 'problems/acne', true, true),
-                              new AccordionItem('Acne scars', 'images/problems/carousel/small/acne-scars.jpg', 'images/problems/carousel/large/acne-scars.jpg', 'problems/acne-scars', true, true),
+                              new AccordionItem('Akne', 'images/problems/carousel/small/acne.jpg', 'images/problems/carousel/large/acne.jpg', 'problems/acne', true, true),
+                              new AccordionItem('Akne ärr', 'images/problems/carousel/small/acne-scars.jpg', 'images/problems/carousel/large/acne-scars.jpg', 'problems/acne-scars', true, true),
                               new AccordionItem('Rosacea', 'images/problems/carousel/small/rosacea.jpg', 'images/problems/carousel/large/rosacea.jpg', 'problems/rosacea', true, true),
-                              new AccordionItem('Pigmentation', 'images/problems/carousel/small/pigmentation.jpg', 'images/problems/carousel/large/pigmentation.jpg', 'problems/pigmentation', true, true),
-                              new AccordionItem('Comedones', 'images/problems/carousel/small/large-pores.jpg', 'images/problems/carousel/large/large-pores.jpg', 'problems/large-pores', true, true),
-                              new AccordionItem('Aging skin', 'images/problems/carousel/small/mature-skin.jpg', 'images/problems/carousel/large/mature-skin.jpg', 'problems/mature-skin', false, true),
-                              new AccordionItem('View all problems', 'images/carousel/problems/small/other.jpg', 'images/problems/carousel/large/other.jpg', 'problems', true, false)
+                              new AccordionItem('Pigmentfläckar', 'images/problems/carousel/small/pigmentation.jpg', 'images/problems/carousel/large/pigmentation.jpg', 'problems/pigmentation', true, true),
+                              new AccordionItem('Pormaskar', 'images/problems/carousel/small/large-pores.jpg', 'images/problems/carousel/large/large-pores.jpg', 'problems/large-pores', true, true),
+                              new AccordionItem('Mogen hy', 'images/problems/carousel/small/mature-skin.jpg', 'images/problems/carousel/large/mature-skin.jpg', 'problems/mature-skin', false, true),
+                              new AccordionItem('Se alla problem', 'images/carousel/problems/small/other.jpg', 'images/problems/carousel/large/other.jpg', 'problems', true, false)
                         );
                         $more_count = 17;
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/accordion/accordion.php')
@@ -112,7 +112,7 @@
                         <div class="flex-row align-end justify-space-between">
                               <div class="h500 l10n">Vår metod</div>
                               <a href="our-approach" class="button compact text is-hidden-mobile">
-                                    <span class="l10n">läs mer om vår metod</span>
+                                    <span class="l10n">Läs mer om vår metod</span>
                                     <?php icon('navigate-next') ?>
                               </a>
                         </div>
