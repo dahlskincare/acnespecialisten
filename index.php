@@ -77,12 +77,12 @@
                                           <div class="flex-aligner">
                                                 <span class="label-large">200k+</span>
                                                 <div>
-                                                      <div class="h400 l10n">clients</div>
-                                                      <div class="p200 l10n">were satisfied</div>
+                                                      <div class="h400 l10n">Kunder</div>
+                                                      <div class="p200 l10n">som blivit problemfria</div>
                                                 </div>
                                           </div>
                                           <div class="button white l10n">
-                                                Get a free consultation
+                                                Gratis konsultation
                                           </div>
                                     </div>
 
@@ -92,7 +92,7 @@
             </section>
             <div class="container">
                   <section id="problems">
-                        <div class="h500 l10n">Problems</div>
+                        <div class="h500 l10n">Problem</div>
                         <?php
                         $accordion = array(
                               new AccordionItem('Acne', 'images/problems/carousel/small/acne.jpg', 'images/problems/carousel/large/acne.jpg', 'problems/acne', true, true),
@@ -106,13 +106,13 @@
                         $more_count = 17;
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/accordion/accordion.php')
                         ?>
-                        <a href="problems" class="mt-xl button outline is-hidden-desktop expand l10n">View all problems</a>
+                        <a href="problems" class="mt-xl button outline is-hidden-desktop expand l10n">Se alla problem</a>
                   </section>
                   <section id="our-approach">
                         <div class="flex-row align-end justify-space-between">
-                              <div class="h500 l10n">Our approach</div>
+                              <div class="h500 l10n">Vår metod</div>
                               <a href="our-approach" class="button compact text is-hidden-mobile">
-                                    <span class="l10n">Read more about our approach</span>
+                                    <span class="l10n">läs mer om vår metod</span>
                                     <?php icon('navigate-next') ?>
                               </a>
                         </div>
