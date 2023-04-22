@@ -77,12 +77,12 @@
                                           <div class="flex-aligner">
                                                 <span class="label-large">200k+</span>
                                                 <div>
-                                                      <div class="h400 l10n">Kunder</div>
+                                                      <div class="h400 l10n">kunder</div>
                                                       <div class="p200 l10n">som blivit problemfria</div>
                                                 </div>
                                           </div>
                                           <div class="button white l10n">
-                                                Gratis konsultation
+                                                Gratis Hudkonsultation
                                           </div>
                                     </div>
 
@@ -95,7 +95,7 @@
                         <div class="h500 l10n">Problem</div>
                         <?php
                         $accordion = array(
-                              new AccordionItem('Acne', 'images/problems/carousel/small/acne.jpg', 'images/problems/carousel/large/acne.jpg', 'problems/acne', true, true),
+                              new AccordionItem('akne', 'images/problems/carousel/small/acne.jpg', 'images/problems/carousel/large/acne.jpg', 'problems/acne', true, true),
                               new AccordionItem('Acne scars', 'images/problems/carousel/small/acne-scars.jpg', 'images/problems/carousel/large/acne-scars.jpg', 'problems/acne-scars', true, true),
                               new AccordionItem('Rosacea', 'images/problems/carousel/small/rosacea.jpg', 'images/problems/carousel/large/rosacea.jpg', 'problems/rosacea', true, true),
                               new AccordionItem('Pigmentation', 'images/problems/carousel/small/pigmentation.jpg', 'images/problems/carousel/large/pigmentation.jpg', 'problems/pigmentation', true, true),
