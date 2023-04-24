@@ -50,7 +50,7 @@
                                           </div>
                                           <div>
                                                 <span class="h500">200k+</span>
-                                                <div class="p200 l10n">clients</div>
+                                                <div class="p200 l10n">Problemfria</div>
                                           </div>
                                     </div>
                               </div>
@@ -77,7 +77,7 @@
                                           <div class="flex-aligner">
                                                 <span class="label-large">200k+</span>
                                                 <div>
-                                                      <div class="h400 l10n">kunder</div>
+                                                      <div class="h400 l10n">Personer</div>
                                                       <div class="p200 l10n">som blivit problemfria</div>
                                                 </div>
                                           </div>
