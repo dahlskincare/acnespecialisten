@@ -18,7 +18,7 @@ jobs:
         run: npm install -g sass
 
       - name: Compile SCSS
-        run: sass --style compressed --no-source-map --quiet .:.
+        run: sass --style compressed --no-source-map --quiet --no-stop-on-error .:.
 
       - name: Install typescript
         run: npm install typescript
