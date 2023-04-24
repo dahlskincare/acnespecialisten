@@ -13,6 +13,7 @@
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
 
     <link rel="stylesheet" href="/styles/default-layout.css">
+    <link rel="stylesheet" href="/styles/forms.css">
     <link rel="stylesheet" href="/gift-cards/gift-cards.css">
 </head>
 
@@ -70,6 +71,7 @@
                                 <h2 class="l10n">Confirmation</h2>
                             </div>
                             <div class="gc-text l10n">Fill in your info and attach a screenshot with payment details.</div>
+                            <button class="mt-m outline expand l10n">Confirm</button>
                         </div>
                         <div class="gift-card-step">
                             <div class="flex-row align-center">
@@ -195,6 +197,7 @@
         </div>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
+    <script src="gift-cards/gift-cards.js"></script>
 </body>
 
 </html>
