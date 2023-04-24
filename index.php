@@ -110,7 +110,7 @@
                   </section>
                   <section id="our-approach">
                         <div class="flex-row align-end justify-space-between">
-                              <div class="h500 l10n">Vår metod</div>
+                              <div class="h500 l10n">Metod</div>
                               <a href="our-approach" class="button compact text is-hidden-mobile">
                                     <span class="l10n">Läs mer om vår metod</span>
                                     <?php icon('navigate-next') ?>
