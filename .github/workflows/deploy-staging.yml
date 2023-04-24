@@ -11,6 +11,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - name: Install bulma
+        run: npm install bulma
+
       - name: Install sass
         run: npm install -g sass
 
