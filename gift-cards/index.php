@@ -119,6 +119,13 @@
                                         <span class="check"></span>
                                     </label>
                                 </div>
+                                <hr />
+                                <label class="radio">
+                                    <span class="l10n">I want a physical card also</span>
+                                    <input type="radio" name="category" value="treatment" />
+                                    <span class="check"></span>
+                                </label>
+                                <hr />
                             </form>
                         </div>
                         <div class="gift-card-step">
