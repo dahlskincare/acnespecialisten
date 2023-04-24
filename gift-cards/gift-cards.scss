@@ -104,8 +104,11 @@ div#content {
             line-height: 52px;
         }
 
-        .is-hidden-desktop {
+        #screenshot-label {
+            margin-bottom: 0;
+        }
 
+        .is-hidden-desktop {
             .gift-card-step {
                 margin-top: $xl;
                 padding: $xl;

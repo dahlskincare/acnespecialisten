@@ -71,7 +71,55 @@
                                 <h2 class="l10n">Confirmation</h2>
                             </div>
                             <div class="gc-text l10n">Fill in your info and attach a screenshot with payment details.</div>
-                            <button class="mt-m outline expand l10n">Confirm</button>
+                            <button class="mt-m outline expand l10n" onclick="openConfirmForm(this)">Confirm</button>
+                            <form action="" class="confirm-form s-hidden">
+                                <hr />
+                                <label for="firstname">
+                                    <span class="l10n">First name</span>
+                                    <span class="color-deep-sea-400">*</span>
+                                </label>
+                                <input type="text" name="firstname" required />
+                                <label for="lastname" class="mt-xl">
+                                    <span class="l10n">Last name</span>
+                                    <span class="color-deep-sea-400">*</span>
+                                </label>
+                                <input type="text" name="lastname" required />
+                                <label for="email" class="mt-xl">
+                                    <span class="l10n">Recipient email</span>
+                                    <span class="color-deep-sea-400">*</span>
+                                </label>
+                                <input type="email" name="email" required />
+                                <label for="phone" class="mt-xl l10">Phone number</label>
+                                <input type="phone" name="phone" />
+                                <label for="" class="mt-xl" id="screenshot-label">
+                                    <span class="l10n">Payment screenshot</span>
+                                    <span class="color-deep-sea-400">*</span>
+                                </label>
+                                <div class="p100">Add a screenshot of your money transfer.</div>
+                                <button class="mt-m outline expand">
+                                    <?php icon('add') ?>
+                                    <span class="l10n">Upload a photo</span>
+                                </button>
+                                <input class="is-hidden" type="file" />
+                                <label class="mt-xl">
+                                    <span class=" l10n">Gift card type</span>
+                                    <span class="color-deep-sea-400">*</span>
+                                </label>
+                                <div class="radio-wrapper">
+                                    <label class="radio">
+                                        <span class="l10n">Questions about treatment</span>
+                                        <input type="radio" name="category" value="treatment" />
+                                        <span class="check"></span>
+                                    </label>
+                                </div>
+                                <div class="radio-wrapper">
+                                    <label class="radio">
+                                        <span class="l10n">Questions about treatment</span>
+                                        <input type="radio" name="category" value="treatment" />
+                                        <span class="check"></span>
+                                    </label>
+                                </div>
+                            </form>
                         </div>
                         <div class="gift-card-step">
                             <div class="flex-row align-center">
@@ -103,7 +151,7 @@
                                     <div class="gc-text l10n">Fill in your info and attach a screenshot with payment details.</div>
                                 </div>
                                 <div class="gc-info">
-                                    <button class="outline b200 l10n">Confirm</button>
+                                    <button class="outline b200 l10n" onclick="openConfirmForm(this)">Confirm</button>
                                 </div>
                             </div>
                         </div>
