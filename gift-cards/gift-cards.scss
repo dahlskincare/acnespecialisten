@@ -173,7 +173,48 @@ div#content {
                 a.button.outline {
                     margin-top: $m;
                 }
+            }
+        }
 
+        .is-hidden-touch {
+            .gift-card-step {
+                margin-top: $xl;
+                padding: $xl;
+                border: 1px solid $light-200;
+                border-radius: $radius-l;
+
+                .gc-number {
+                    margin-right: $m;
+                }
+
+                .gc-texts {
+                    margin-right: $m;
+                    flex: 1;
+
+                    h2 {
+                        @include h300;
+                    }
+
+                    div {
+                        @include p200;
+                        margin-top: $xxs;
+                    }
+                }
+
+                #swish-info {
+                    display: flex;
+                    align-items: center;
+
+                    .icon {
+                        width: $xl;
+                        height: $xl;
+                        margin-right: $s;
+                    }
+
+                    a {
+                        @include h200;
+                    }
+                }
             }
         }
     }

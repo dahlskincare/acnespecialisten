@@ -1,8 +1,11 @@
+@charset "utf-8";
 @import "components/icon";
 @import "components/button";
 @import "components/textfield";
 @import "util/typography";
-@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/grid/columns.sass";
+@import "../node_modules/bulma/sass/helpers/visibility.sass";
 
 
 html {
@@ -237,8 +240,7 @@ html {
             justify-content: space-between;
         }
 
-        /// END UTILITY CLASSES
-
+        /// END UTILITY CLASSES 
     }
 
     body.noscroll {

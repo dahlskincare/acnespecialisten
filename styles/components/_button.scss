@@ -108,6 +108,7 @@ input[type=submit].compact,
 button:hover,
 input[type=submit]:hover,
 .button:hover {
+    @include button-text-color($white-500);
     @include button-background-color($deep-sea-300);
 
 }

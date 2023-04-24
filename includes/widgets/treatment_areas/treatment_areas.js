@@ -11,8 +11,8 @@ var TreatmentAreas;
         else {
             card.classList.add('selected');
             if (selectAll != null) {
-                var parent_1 = card.parentElement;
-                var cards = parent_1.querySelectorAll('.area-item-card');
+                var parent = card.parentElement;
+                var cards = parent.querySelectorAll('.area-item-card');
                 for (var i = 0; i < cards.length; i++) {
                     if (!cards[i].classList.contains('selected')) {
                         return;
