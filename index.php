@@ -142,7 +142,7 @@
                   </section>
                   <section id="reviews">
                         <div class="flex-row align-end justify-space-between">
-                              <div class="h500 l10n">Reviews</div>
+                              <div class="h500 l10n">Omdömen</div>
                               <div class="flex-row is-hidden-mobile">
                                     <div class="step-buttons">
                                           <button class="round-large grey" onclick="Reviews.scroll(-1)"><?php icon('arrow-left') ?></button>
@@ -158,7 +158,7 @@
                         <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="reviews">View all reviews</a>
                   </section>
                   <section id="services">
-                        <div class="h500 l10n">Services</div>
+                        <div class="h500 l10n">Behandlingar</div>
                         <?php
                         $accordion = array(
                               new AccordionItem('Facials', 'https://via.placeholder.com/114x140.jpg', 'images/service-categories/large/facials.jpg', 'services/facials', true, true),
