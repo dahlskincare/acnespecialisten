@@ -118,10 +118,10 @@
                         </div>
                         <?php
                         $approach_cards = array(
-                              new ApproachCard('01', 'Define', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.', 'Get a free consultation', 'https://www.dahlskincare.com/skin-consultation'),
-                              new ApproachCard('02', 'Treat', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.', 'View treatments', 'treatments'),
-                              new ApproachCard('03', 'Prevent', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.', 'View products', 'products'),
-                              new ApproachCard('04', 'Repair', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.', 'View treatments', 'treatments')
+                                                            new ApproachCard('01', 'Definiera', 'Vi erbjuder alltid gratis konsultation, där du får en personlig hudterapeut och en individuell behandlingsplan baserad på din hudanalys. Förebilder tas för att jämföra resultat före och efter behandling., recommend.', 'Få en gratis konsultation', 'https://www.dahlskincare.com/skin-consultation'),
+                              new ApproachCard('02', 'Behandla', 'Vi erbjuder skräddarsydda behandlingar som åtgärdar hudproblem och förbättrar hudens utseende. Våra hudspecialister säkerställer att behandlingarna är effektiva och säkra för din hudtyp.', 'Våra behandlingar', 'treatments'),
+                              new ApproachCard('03', 'Förebygga', 'För att förebygga framtida hudproblem och bibehålla resultatet av behandlingarna rekommenderar vi produkter och rutiner som är anpassade efter din hudtyp och specifika problem.', 'Se produkter', 'products'),
+                              new ApproachCard('04', 'Reparera', 'Efter att det aktiva problemet åtgärdats fokuserar vi på att reparera ärr och bygga upp skyddsbarriären med hjälp av maskinbehandlingar som laser och IPL för att förbättra hudens struktur.', 'Se behandlingar', 'treatments')
                         );
                         ?>
                         <div class="columns is-gapless">
