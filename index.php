@@ -96,7 +96,7 @@
                         <?php
                         $accordion = array(
                               new AccordionItem('Akne', 'images/problems/carousel/small/acne.jpg', 'images/problems/carousel/large/acne.jpg', 'problems/acne', true, true),
-                              new AccordionItem('Akne ärr', 'images/problems/carousel/small/acne-scars.jpg', 'images/problems/carousel/large/acne-scars.jpg', 'problems/acne-scars', true, true),
+                              new AccordionItem('Akneärr', 'images/problems/carousel/small/acne-scars.jpg', 'images/problems/carousel/large/acne-scars.jpg', 'problems/acne-scars', true, true),
                               new AccordionItem('Rosacea', 'images/problems/carousel/small/rosacea.jpg', 'images/problems/carousel/large/rosacea.jpg', 'problems/rosacea', true, true),
                               new AccordionItem('Pigmentfläckar', 'images/problems/carousel/small/pigmentation.jpg', 'images/problems/carousel/large/pigmentation.jpg', 'problems/pigmentation', true, true),
                               new AccordionItem('Pormaskar', 'images/problems/carousel/small/large-pores.jpg', 'images/problems/carousel/large/large-pores.jpg', 'problems/large-pores', true, true),
@@ -155,19 +155,19 @@
                               </div>
                         </div>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="reviews">View all reviews</a>
+                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="reviews">Läs fler omdömen</a>
                   </section>
                   <section id="services">
                         <div class="h500 l10n">Behandlingar</div>
                         <?php
                         $accordion = array(
-                              new AccordionItem('Facials', 'https://via.placeholder.com/114x140.jpg', 'images/service-categories/large/facials.jpg', 'services/facials', true, true),
+                              new AccordionItem('Ansiktsbehandlingar', 'https://via.placeholder.com/114x140.jpg', 'images/service-categories/large/facials.jpg', 'services/facials', true, true),
                               new AccordionItem('IPL', 'https://via.placeholder.com/114x140.jpg', 'images/service-categories/large/ipl.jpg', 'services/ipl', true, true),
                               new AccordionItem('Laser', 'https://via.placeholder.com/114x140.jpg', 'images/service-categories/large/laser-problem-skin.jpg', 'services/laser', true, true),
-                              new AccordionItem('Dermabration', 'https://via.placeholder.com/114x140.jpg', 'images/service-categories/large/dermabration.jpg', 'services/dermabration', true, true),
+                              new AccordionItem('Portömning', 'https://via.placeholder.com/114x140.jpg', 'images/service-categories/large/dermabration.jpg', 'services/dermabration', true, true),
                               new AccordionItem('Microneedling', 'https://via.placeholder.com/114x140.jpg', 'images/service-categories/large/microneedling.jpg', 'services/microneedling', true, true),
-                              new AccordionItem('Injections ', 'https://via.placeholder.com/114x140.jpg', 'images/service-categories/large/injections.jpg', 'services/injection', false, true),
-                              new AccordionItem('View all services', 'https://via.placeholder.com/114x140.jpg', 'images/service-categories/large/luxury.jpg', 'services', true, false)
+                              new AccordionItem('Kemisk Peeling ', 'https://via.placeholder.com/114x140.jpg', 'images/service-categories/large/injections.jpg', 'services/injection', false, true),
+                              new AccordionItem('Se alla behandlingar', 'https://via.placeholder.com/114x140.jpg', 'images/service-categories/large/luxury.jpg', 'services', true, false)
                         );
 
                         $more_count = 17;
@@ -184,7 +184,7 @@
                               </a>
                         </div>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="faq">View all questions</a>
+                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="faq">Se fler frågor & svar</a>
                   </section>
                   <section id="skin-guide">
                         <div class="flex-row align-end justify-space-between">
@@ -195,7 +195,7 @@
                               </a>
                         </div>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php'); ?>
-                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="skin-guide">View all articles</a>
+                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="skin-guide">Se fler guider</a>
                   </section>
                   <section id="about-us">
                         <div id="about-text-wrapper">
