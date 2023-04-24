@@ -4,7 +4,7 @@
 
 <head>
     <!-- TODO: Set title and meta tags -->
-    <title class="l10n">Acnespecialisten | Cancellation policy</title>
+    <title class="l10n">Acnespecialisten | Gift cards</title>
     <meta name="description" content="" class="l10n">
     <meta name="title" content="" class="l10n">
     <meta name="keywords" content="" class="l10n">
@@ -78,6 +78,41 @@
                             </div>
                             <div class="gc-text l10n">We will send you an electronic version of the gift card on your email and, if you wish, a physical gift card to your address, usually it takes up to 2 days.</div>
                         </div>
+                    </div>
+                    <div class="is-hidden-touch">
+
+
+
+                        <div class="gift-card-step">
+                            <div class="flex-row align-center">
+                                <div class="gc-number">01</div>
+                                <div class="gc-texts">
+                                    <h2 class="l10n">Swish money</h2>
+                                    <div class="l10n">Send us any amount you want to put on the gift card or buy some procedure.</div>
+                                </div>
+                                <div class="gc-info" id="swish-info">
+                                    <?php icon('swish-24') ?>
+                                    <a href="swish://paymentrequest?token=blablabla&callbackurl=https%3A%2F%2Facnespecialisten.com%2Fgift-cards%3Fpaid%3D1">123 618 05 41</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gift-card-step">
+                            <div class="flex-row align-center">
+                                <div class="gc-number">02</div>
+                                <h2 class="l10n">Confirmation</h2>
+                            </div>
+                            <div class="gc-text l10n">Fill in your info and attach a screenshot with payment details.</div>
+                        </div>
+                        <div class="gift-card-step">
+                            <div class="flex-row align-center">
+                                <div class="gc-number">03</div>
+                                <h2 class="l10n">Get your gift card</h2>
+                            </div>
+                            <div class="gc-text l10n">We will send you an electronic version of the gift card on your email and, if you wish, a physical gift card to your address, usually it takes up to 2 days.</div>
+                        </div>
+
+
+
                     </div>
                 </section>
                 <section id="flyers">
