@@ -118,7 +118,7 @@
                         </div>
                         <?php
                         $approach_cards = array(
-                                                            new ApproachCard('01', 'Definiera', 'Vi erbjuder alltid gratis konsultation, där du får en personlig hudterapeut och en individuell behandlingsplan baserad på din hudanalys. Förebilder tas för att jämföra resultat före och efter behandling., recommend.', 'Få en gratis konsultation', 'https://www.dahlskincare.com/skin-consultation'),
+                              new ApproachCard('01', 'Definiera', 'Vi erbjuder alltid gratis konsultation, där du får en personlig hudterapeut och en individuell behandlingsplan baserad på din hudanalys. Förebilder tas för att jämföra resultat före och efter behandling., recommend.', 'Få en gratis konsultation', 'https://www.dahlskincare.com/skin-consultation'),
                               new ApproachCard('02', 'Behandla', 'Vi erbjuder skräddarsydda behandlingar som åtgärdar hudproblem och förbättrar hudens utseende. Våra hudspecialister säkerställer att behandlingarna är effektiva och säkra för din hudtyp.', 'Våra behandlingar', 'treatments'),
                               new ApproachCard('03', 'Förebygga', 'För att förebygga framtida hudproblem och bibehålla resultatet av behandlingarna rekommenderar vi produkter och rutiner som är anpassade efter din hudtyp och specifika problem.', 'Se produkter', 'products'),
                               new ApproachCard('04', 'Reparera', 'Efter att det aktiva problemet åtgärdats fokuserar vi på att reparera ärr och bygga upp skyddsbarriären med hjälp av maskinbehandlingar som laser och IPL för att förbättra hudens struktur.', 'Se behandlingar', 'treatments')
@@ -134,7 +134,7 @@
                               <?php } ?>
                         </div>
                         <a href="our-approach" class="button b200 outline expand mt-xl l10n is-hidden-desktop">
-                              Read more about our approach
+                              Läs mer om vår metod
                         </a>
                   </section>
                   <section id="results">
@@ -149,7 +149,7 @@
                                           <button class="round-large grey" onclick="Reviews.scroll(1)"><?php icon('arrow-right') ?></button>
                                     </div>
                                     <a href="reviews" class="ml-l button compact text">
-                                          <span class="l10n">View all reviews</span>
+                                          <span class="l10n">Läs fler omdömen</span>
                                           <?php icon('navigate-next') ?>
                                     </a>
                               </div>
@@ -173,13 +173,13 @@
                         $more_count = 17;
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/accordion/accordion.php')
                         ?>
-                        <a href="services" class="mt-xl button b200 outline is-hidden-desktop expand">View all services</a>
+                        <a href="services" class="mt-xl button b200 outline is-hidden-desktop expand">Se alla behandlingar</a>
                   </section>
                   <section id="faq">
                         <div class="flex-row align-end justify-space-between">
-                              <div class="h500 l10n">Questions & answers</div>
+                              <div class="h500 l10n">Frågor & Svar</div>
                               <a href="faq" class="button compact text is-hidden-mobile">
-                                    <span class="l10n">View all questions</span>
+                                    <span class="l10n">Se mer frågor & svar</span>
                                     <?php icon('navigate-next') ?>
                               </a>
                         </div>
@@ -188,9 +188,9 @@
                   </section>
                   <section id="skin-guide">
                         <div class="flex-row align-end justify-space-between">
-                              <div class="h500 l10n">Skin guide</div>
+                              <div class="h500 l10n">Hudguide</div>
                               <a href="skin-guide" class="button compact text is-hidden-mobile">
-                                    <span class="l10n">View all articles</span>
+                                    <span class="l10n">Se fler guider</span>
                                     <?php icon('navigate-next') ?>
                               </a>
                         </div>
@@ -257,7 +257,7 @@
                                                 </p>
                                           </div>
                                     </div>
-                                    <a href="about" class="button b200 outline expand l10n">View more about us</a>
+                                    <a href="about" class="button b200 outline expand l10n">Läs mer om oss</a>
                               </div>
                         </div>
                         <div id="about-image-desktop">
@@ -270,9 +270,9 @@
                   </section>
                   <section id="specialists">
                         <div class="flex-row align-end justify-space-between">
-                              <div class="h500 l10n">Our specialists</div>
+                              <div class="h500 l10n">Våra specialister</div>
                               <a href="specialists" class="button compact text is-hidden-mobile">
-                                    <span class="l10n">View all specialists</span>
+                                    <span class="l10n">Se alla specialister</span>
                                     <?php icon('navigate-next') ?>
                               </a>
                         </div>
@@ -284,13 +284,13 @@
                         $specialists[] = new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-4.jpg', 'images/specialists/large/specialist-4.jpg');
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
                         ?>
-                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="specialists">View all specialists</a>
+                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="specialists">Se alla specialister</a>
                   </section>
                   <section id="brands">
                         <div class="flex-row align-end justify-space-between">
-                              <div class="h500 l10n">Brands we use</div>
+                              <div class="h500 l10n">Varumärken vi jobbar med</div>
                               <a href="brands" class="button compact text is-hidden-mobile">
-                                    <span class="l10n">View all brands</span>
+                                    <span class="l10n">Se alla varumärken</span>
                                     <?php icon('navigate-next') ?>
                               </a>
                         </div>
