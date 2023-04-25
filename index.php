@@ -138,7 +138,98 @@
                         </a>
                   </section>
                   <section id="results">
-                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results.php') ?>
+                        <?php
+ $results = array(
+        new ResultCustomer(
+            id: '1',
+            image_before_small: 'https://via.placeholder.com/358x358.webm',
+            image_after_small: 'https://via.placeholder.com/358x358.webm',
+            image_before_large: 'https://via.placeholder.com/424x424.webm',
+            image_after_large: 'https://via.placeholder.com/424x424.webm',
+            age: 18,
+            gender: 'Female',
+            problem: 'Acne',
+            type: 'Severe',
+            treatment: new ResultTreatment(
+                duration: '3 months',
+                procedures: array(
+                    new ResultProcedure(
+                        image: 'https://via.placeholder.com/102x102.webm',
+                        name: 'Problem skin facials',
+                        count: '3 times'
+                    ),
+                ),
+                product: new ResultProduct(
+                    image: 'https://via.placeholder.com/102x102.webm',
+                    name: 'Product bundle for light acne',
+                ),
+                employee: new ResultEmployee(
+                    image: 'https://via.placeholder.com/102x102.webm',
+                    name: 'Patrick Minogue'
+                ),
+            )
+        ),
+        new ResultCustomer(
+            id: '2',
+            image_before_small: 'https://via.placeholder.com/358x358.webm',
+            image_after_small: 'https://via.placeholder.com/358x358.webm',
+            image_before_large: 'https://via.placeholder.com/424x424.webm',
+            image_after_large: 'https://via.placeholder.com/424x424.webm',
+            age: 18,
+            gender: 'Female',
+            problem: 'Acne',
+            type: 'Severe',
+            treatment: new ResultTreatment(
+                duration: '3 months',
+                procedures: array(
+                    new ResultProcedure(
+                        image: 'https://via.placeholder.com/102x102.webm',
+                        name: 'Problem skin facials',
+                        count: '3 times'
+                    ),
+                ),
+                product: new ResultProduct(
+                    image: 'https://via.placeholder.com/102x102.webm',
+                    name: 'Product bundle for light acne',
+                ),
+                employee: new ResultEmployee(
+                    image: 'https://via.placeholder.com/102x102.webm',
+                    name: 'Patrick Minogue'
+                ),
+            )
+        ),
+        new ResultCustomer(
+            id: '3',
+            image_before_small: 'https://via.placeholder.com/358x358.webm',
+            image_after_small: 'https://via.placeholder.com/358x358.webm',
+            image_before_large: 'https://via.placeholder.com/424x424.webm',
+            image_after_large: 'https://via.placeholder.com/424x424.webm',
+            age: 18,
+            gender: 'Female',
+            problem: 'Acne',
+            type: 'Severe',
+            treatment: new ResultTreatment(
+                duration: '3 months',
+                procedures: array(
+                    new ResultProcedure(
+                        image: 'https://via.placeholder.com/102x102.webm',
+                        name: 'Problem skin facials',
+                        count: '3 times'
+                    ),
+                ),
+                product: new ResultProduct(
+                    image: 'https://via.placeholder.com/102x102.webm',
+                    name: 'Product bundle for light acne',
+                ),
+                employee: new ResultEmployee(
+                    image: 'https://via.placeholder.com/102x102.webm',
+                    name: 'Patrick Minogue'
+                ),
+            )
+        ),
+    );
+                        include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results.php') 
+                        ?>
                   </section>
                   <section id="reviews">
                         <div class="flex-row align-end justify-space-between">
@@ -154,7 +245,89 @@
                                     </a>
                               </div>
                         </div>
-                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
+                        <?php $reviews = array(
+        new Review(
+            stars: 5,
+            brand: 'Trustpilot',
+            logo_url: 'images/brands/trustpilot.svg',
+            title: 'Got rid of my pigment spots on',
+            text: "Got rid of my pigment spots on my face completely after two treatments. I received treatment from Amira who is warm, pleasant, caring and very professional. I am very pleased for the fine job you have done. I did't think",
+            signature: 'Emily'
+        ),
+        new Review(
+            stars: 5,
+            brand: 'Trustpilot',
+            logo_url: 'images/brands/trustpilot.svg',
+            title: 'Got rid of my pigment spots on',
+            text: "Got rid of my pigment spots on my face completely after two treatments. I received treatment from Amira who is warm, pleasant, caring and very professional. I am very pleased for the fine job you have done. I did't think",
+            signature: 'Emily'
+        ),
+        new Review(
+            stars: 5,
+            brand: 'Trustpilot',
+            logo_url: 'images/brands/trustpilot.svg',
+            title: 'Got rid of my pigment spots on',
+            text: "Got rid of my pigment spots on my face completely after two treatments. I received treatment from Amira who is warm, pleasant, caring and very professional. I am very pleased for the fine job you have done. I did't think",
+            signature: 'Emily'
+        ),
+        new Review(
+            stars: 5,
+            brand: 'Trustpilot',
+            logo_url: 'images/brands/trustpilot.svg',
+            title: 'Got rid of my pigment spots on',
+            text: "Got rid of my pigment spots on my face completely after two treatments. I received treatment from Amira who is warm, pleasant, caring and very professional. I am very pleased for the fine job you have done. I did't think",
+            signature: 'Emily'
+        ),
+        new Review(
+            stars: 5,
+            brand: 'Trustpilot',
+            logo_url: 'images/brands/trustpilot.svg',
+            title: 'Got rid of my pigment spots on',
+            text: "Got rid of my pigment spots on my face completely after two treatments. I received treatment from Amira who is warm, pleasant, caring and very professional. I am very pleased for the fine job you have done. I did't think",
+            signature: 'Emily'
+        ),
+        new Review(
+            stars: 5,
+            brand: 'Trustpilot',
+            logo_url: 'images/brands/trustpilot.svg',
+            title: 'Got rid of my pigment spots on',
+            text: "Got rid of my pigment spots on my face completely after two treatments. I received treatment from Amira who is warm, pleasant, caring and very professional. I am very pleased for the fine job you have done. I did't think",
+            signature: 'Emily'
+        ),
+        new Review(
+            stars: 5,
+            brand: 'Trustpilot',
+            logo_url: 'images/brands/trustpilot.svg',
+            title: 'Got rid of my pigment spots on',
+            text: "Got rid of my pigment spots on my face completely after two treatments. I received treatment from Amira who is warm, pleasant, caring and very professional. I am very pleased for the fine job you have done. I did't think",
+            signature: 'Emily'
+        ),
+        new Review(
+            stars: 5,
+            brand: 'Trustpilot',
+            logo_url: 'images/brands/trustpilot.svg',
+            title: 'Got rid of my pigment spots on',
+            text: "Got rid of my pigment spots on my face completely after two treatments. I received treatment from Amira who is warm, pleasant, caring and very professional. I am very pleased for the fine job you have done. I did't think",
+            signature: 'Emily'
+        ),
+        new Review(
+            stars: 5,
+            brand: 'Trustpilot',
+            logo_url: 'images/brands/trustpilot.svg',
+            title: 'Got rid of my pigment spots on',
+            text: "Got rid of my pigment spots on my face completely after two treatments. I received treatment from Amira who is warm, pleasant, caring and very professional. I am very pleased for the fine job you have done. I did't think",
+            signature: 'Emily'
+        ),
+        new Review(
+            stars: 5,
+            brand: 'Trustpilot',
+            logo_url: 'images/brands/trustpilot.svg',
+            title: 'Got rid of my pigment spots on',
+            text: "Got rid of my pigment spots on my face completely after two treatments. I received treatment from Amira who is warm, pleasant, caring and very professional. I am very pleased for the fine job you have done. I did't think",
+            signature: 'Emily'
+        ),
+    );
+                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
                         <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="reviews">Läs fler omdömen</a>
                   </section>
                   <section id="services">
