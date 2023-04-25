@@ -266,64 +266,24 @@
             stars: 5,
             brand: 'Trustpilot',
             logo_url: 'images/brands/trustpilot.svg',
-            title: 'Got rid of my pigment spots on',
-            text: "Got rid of my pigment spots on my face completely after two treatments. I received treatment from Amira who is warm, pleasant, caring and very professional. I am very pleased for the fine job you have done. I did't think",
+            title: 'Otroligt nöjd',
+            text: "Efter bara tre månader hos bästa Emma har min hud blivit så mycket bättre! Efter en graviditet och en kombination av hormonell och bakteriell acne så har jag äntligen börjar komma tillbaks till min gamla hy. Är verkligen så himla nöjd. Har gjort ansiktsbehandling mot acne samt kört acnespecialistens produkter och kan bara säga gott om dem!",
             signature: 'Emily'
         ),
         new Review(
             stars: 5,
             brand: 'Google',
             logo_url: 'images/brands/trustpilot.svg',
-            title: 'Got rid of my pigment spots on',
-            text: "Got rid of my pigment spots on my face completely after two treatments. I received treatment from Amira who is warm, pleasant, caring and very professional. I am very pleased for the fine job you have done. I did't think",
+            title: 'Nöjd',
+            text: "Ett första besök som absolut kommer leda till ett till. Bra och tydlig information om vad som skulle vara bäst för min hy.",
             signature: 'Emily'
         ),
         new Review(
             stars: 5,
             brand: 'Trustpilot',
             logo_url: 'images/brands/trustpilot.svg',
-            title: 'Got rid of my pigment spots on',
-            text: "Got rid of my pigment spots on my face completely after two treatments. I received treatment from Amira who is warm, pleasant, caring and very professional. I am very pleased for the fine job you have done. I did't think",
-            signature: 'Emily'
-        ),
-        new Review(
-            stars: 5,
-            brand: 'Trustpilot',
-            logo_url: 'images/brands/trustpilot.svg',
-            title: 'Got rid of my pigment spots on',
-            text: "Got rid of my pigment spots on my face completely after two treatments. I received treatment from Amira who is warm, pleasant, caring and very professional. I am very pleased for the fine job you have done. I did't think",
-            signature: 'Emily'
-        ),
-        new Review(
-            stars: 5,
-            brand: 'Trustpilot',
-            logo_url: 'images/brands/trustpilot.svg',
-            title: 'Got rid of my pigment spots on',
-            text: "Got rid of my pigment spots on my face completely after two treatments. I received treatment from Amira who is warm, pleasant, caring and very professional. I am very pleased for the fine job you have done. I did't think",
-            signature: 'Emily'
-        ),
-        new Review(
-            stars: 5,
-            brand: 'Trustpilot',
-            logo_url: 'images/brands/trustpilot.svg',
-            title: 'Got rid of my pigment spots on',
-            text: "Got rid of my pigment spots on my face completely after two treatments. I received treatment from Amira who is warm, pleasant, caring and very professional. I am very pleased for the fine job you have done. I did't think",
-            signature: 'Emily'
-        ),
-        new Review(
-            stars: 5,
-            brand: 'Trustpilot',
-            logo_url: 'images/brands/trustpilot.svg',
-            title: 'Got rid of my pigment spots on',
-            text: "Got rid of my pigment spots on my face completely after two treatments. I received treatment from Amira who is warm, pleasant, caring and very professional. I am very pleased for the fine job you have done. I did't think",
-            signature: 'Emily'
-        ),
-        new Review(
-            stars: 5,
-            brand: 'Trustpilot',
-            logo_url: 'images/brands/trustpilot.svg',
-            title: 'Got rid of my pigment spots on',
-            text: "Got rid of my pigment spots on my face completely after two treatments. I received treatment from Amira who is warm, pleasant, caring and very professional. I am very pleased for the fine job you have done. I did't think",
+            title: 'Kunniga och bra!',
+            text: "Mina tonårsdöttrar har båda gått till acnespecialisten under flera år med både mindre och större problemområden. Vi har alltid fått professionell och kunnig behandling, bra produkter och bra råd, som också hjälper fint!",
             signature: 'Emily'
         ),
     );
