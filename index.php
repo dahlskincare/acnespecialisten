@@ -112,13 +112,13 @@
                         <div class="flex-row align-end justify-space-between">
                               <div class="h500 l10n">Metod</div>
                               <a href="our-approach" class="button compact text is-hidden-mobile">
-                                    <span class="l10n">Läs mer om vår metod</span>
+                                    <span class="l10n">Läs mer om metoden</span>
                                     <?php icon('navigate-next') ?>
                               </a>
                         </div>
                         <?php
                         $approach_cards = array(
-                              new ApproachCard('01', 'Definiera', 'Vi erbjuder alltid gratis konsultation, där du får en personlig hudterapeut och en individuell behandlingsplan baserad på din hudanalys. Förebilder tas för att jämföra resultat före och efter behandling.', 'Få en gratis konsultation', 'https://www.dahlskincare.com/skin-consultation'),
+                              new ApproachCard('01', 'Identifiera', 'Vi erbjuder alltid gratis konsultation, där du får en personlig hudterapeut och en individuell behandlingsplan baserad på din hudanalys. Förebilder tas för att jämföra resultat före och efter behandling.', 'Få en gratis konsultation', 'https://www.dahlskincare.com/skin-consultation'),
                               new ApproachCard('02', 'Behandla', 'Vi erbjuder skräddarsydda behandlingar som åtgärdar hudproblem och förbättrar hudens utseende. Våra hudspecialister säkerställer att behandlingarna är effektiva och säkra för din hudtyp.', 'Våra behandlingar', 'treatments'),
                               new ApproachCard('03', 'Förebygga', 'För att förebygga framtida hudproblem och bibehålla resultatet av behandlingarna rekommenderar vi produkter och rutiner som är anpassade efter din hudtyp och specifika problem.', 'Se produkter', 'products'),
                               new ApproachCard('04', 'Reparera', 'Efter att det aktiva problemet åtgärdats fokuserar vi på att reparera ärr och bygga upp skyddsbarriären med hjälp av maskinbehandlingar som laser och IPL för att förbättra hudens struktur.', 'Se behandlingar', 'treatments')
@@ -134,7 +134,7 @@
                               <?php } ?>
                         </div>
                         <a href="our-approach" class="button b200 outline expand mt-xl l10n is-hidden-desktop">
-                              Läs mer om vår metod
+                              Läs mer om metoden
                         </a>
                   </section>
                   <section id="results">
@@ -250,16 +250,16 @@
             stars: 5,
             brand: 'Trustpilot',
             logo_url: 'images/brands/trustpilot.svg',
-            title: 'Got rid of my pigment spots on',
-            text: "Got rid of my pigment spots on my face completely after two treatments. I received treatment from Amira who is warm, pleasant, caring and very professional. I am very pleased for the fine job you have done. I did't think",
+            title: 'Allt gick jätte bra!',
+            text: "Allt gick jätte bra, personal var snäll och trevlig med min dotter. Min dotter var orolig för behandling hur ska det vara därför har det varit så lång tid innan vi kommit tillbaka och börjat med behandling. Det var inte lätt för henne men hon är jätte nöjd och glad när hon såg bra resultat /ändring på hennes ansikte. Tack så jätte mycket!!",
             signature: 'Emily'
         ),
         new Review(
             stars: 5,
             brand: 'Google',
             logo_url: 'images/brands/trustpilot.svg',
-            title: 'Got rid of my pigment spots on',
-            text: "Got rid of my pigment spots on my face completely after two treatments. I received treatment from Amira who is warm, pleasant, caring and very professional. I am very pleased for the fine job you have done. I did't think",
+            title: 'Man behöver inte klä av sig',
+            text: "Man behöver inte klä av sig för behandling. Behandlaren känns inte stressad, sitter kvar utan att springa iväg för att uträtta annat! Frågar inte ut en. Försöker inte pracka på en produkter. Är trevlig och hjälpsam",
             signature: 'Emily'
         ),
         new Review(
