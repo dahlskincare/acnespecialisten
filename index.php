@@ -118,7 +118,7 @@
                         </div>
                         <?php
                         $approach_cards = array(
-                              new ApproachCard('01', 'Definiera', 'Vi erbjuder alltid gratis konsultation, där du får en personlig hudterapeut och en individuell behandlingsplan baserad på din hudanalys. Förebilder tas för att jämföra resultat före och efter behandling., recommend.', 'Få en gratis konsultation', 'https://www.dahlskincare.com/skin-consultation'),
+                              new ApproachCard('01', 'Definiera', 'Vi erbjuder alltid gratis konsultation, där du får en personlig hudterapeut och en individuell behandlingsplan baserad på din hudanalys. Förebilder tas för att jämföra resultat före och efter behandling.', 'Få en gratis konsultation', 'https://www.dahlskincare.com/skin-consultation'),
                               new ApproachCard('02', 'Behandla', 'Vi erbjuder skräddarsydda behandlingar som åtgärdar hudproblem och förbättrar hudens utseende. Våra hudspecialister säkerställer att behandlingarna är effektiva och säkra för din hudtyp.', 'Våra behandlingar', 'treatments'),
                               new ApproachCard('03', 'Förebygga', 'För att förebygga framtida hudproblem och bibehålla resultatet av behandlingarna rekommenderar vi produkter och rutiner som är anpassade efter din hudtyp och specifika problem.', 'Se produkter', 'products'),
                               new ApproachCard('04', 'Reparera', 'Efter att det aktiva problemet åtgärdats fokuserar vi på att reparera ärr och bygga upp skyddsbarriären med hjälp av maskinbehandlingar som laser och IPL för att förbättra hudens struktur.', 'Se behandlingar', 'treatments')
@@ -256,7 +256,7 @@
         ),
         new Review(
             stars: 5,
-            brand: 'Trustpilot',
+            brand: 'Google',
             logo_url: 'images/brands/trustpilot.svg',
             title: 'Got rid of my pigment spots on',
             text: "Got rid of my pigment spots on my face completely after two treatments. I received treatment from Amira who is warm, pleasant, caring and very professional. I am very pleased for the fine job you have done. I did't think",
@@ -272,7 +272,7 @@
         ),
         new Review(
             stars: 5,
-            brand: 'Trustpilot',
+            brand: 'Google',
             logo_url: 'images/brands/trustpilot.svg',
             title: 'Got rid of my pigment spots on',
             text: "Got rid of my pigment spots on my face completely after two treatments. I received treatment from Amira who is warm, pleasant, caring and very professional. I am very pleased for the fine job you have done. I did't think",
@@ -356,7 +356,22 @@
                                     <?php icon('navigate-next') ?>
                               </a>
                         </div>
-                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
+                        <?php     $faq_categories = array(
+        'Frequently asked questions' => array(
+            new Question('How many treatments are needed?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+            new Question('Can my acne come back?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+            new Question('How do I get rid of my acne fast?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+            new Question('Do I have acne even if I only have one pimple?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.')
+        ),
+        'Payment and invoice' => array(
+            new Question('Blablabla?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+            new Question('Or is it?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.')
+        ),
+        'Cancellation' => array(),
+        'Treatment' => array(),
+        'Other' => array()
+    );
+                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
                         <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="faq">Se fler frågor & svar</a>
                   </section>
                   <section id="skin-guide">
