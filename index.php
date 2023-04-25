@@ -318,11 +318,11 @@
                         </div>
                         <?php     $faq_categories = array(
         'Behandlingar' => array(
-            new Question('Vilka typer av behandlingar erbjuder Acnespecialisten för olika hudproblem?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
-            new Question('Hur lång tid tar en behandling hos Acnespecialisten?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
-            new Question('Hur många behandlingar behövs för att se resultat?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
-            new Question('Är behandlingarna smärtsamma?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
-            new Question('Kan alla hudtyper behandlas hos Acnespecialisten?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+            new Question('Vilka typer av behandlingar erbjuder Acnespecialisten för olika hudproblem?', 'Acnespecialisten erbjuder en rad olika behandlingar för hudproblem, inklusive acnebehandling, rosaceabehandling och portömning.'),
+            new Question('Hur lång tid tar en behandling hos Acnespecialisten?', 'En behandling hos Acnespecialisten tar vanligtvis cirka 60 - 90 minuter.'),
+            new Question('Hur många behandlingar behövs för att se resultat?', 'Antalet behandlingar som behövs för att se resultat varierar beroende på ditt specifika hudproblem och din hudtyp. Genomsnittligt antal behandlingar är mellan 2-4 stycken.'),
+            new Question('Är behandlingarna smärtsamma?', 'Behandlingarna hos Acnespecialisten är utformade för att minimera obehag. När vi behandlar inflammerade områden och utför extraktioner kan det dock uppstå en tillfällig smärta. Denna känsla är dock övergående och försvinner snabbt, så du kan känna dig trygg under behandlingen.'),
+            new Question('Kan alla hudtyper behandlas hos Acnespecialisten?', 'Ja, Acnespecialisten erbjuder behandlingar som passar alla hudtyper.'),
         ),
         'Konsultationer' => array(
             new Question('Hur bokar jag en konsultation hos Acnespecialisten?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
