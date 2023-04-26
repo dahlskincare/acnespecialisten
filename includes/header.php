@@ -11,7 +11,7 @@
             <a href="problems" class="mobile-nav-link l10n">Problem</a>
             <a href="prices" class="mobile-nav-link l10n">Priser</a>
             <a href="services" class="mobile-nav-link l10n">Behandlingar</a>
-            <a href="about" class="mobile-nav-link l10n">Om oss</a>
+            <a href="results" class="mobile-nav-link l10n">Resultat</a>
             <a href="brands" class="mobile-nav-link l10n">Varumärken</a>
             <a href="contact" class="mobile-nav-link l10n">Kontakt</a>
         </div>
@@ -98,7 +98,7 @@
                     <div class="column">
                         <div id="desktop-login-box">
                             <div id="dl-profile-icon"><?php icon('profile') ?></div>
-                            <div class="l10n" id="dl-profile-text">HLogga in för att se dina rekomendationer samt chatta med din personliga hudterapeut</div>
+                            <div class="l10n" id="dl-profile-text">Logga in för att se dina rekomendationer samt chatta med din personliga hudterapeut</div>
                             <a href="https://dahlskincare.com/profile/start" target="_blank" class="button outline expand l10n">Login</a>
                         </div>
 
