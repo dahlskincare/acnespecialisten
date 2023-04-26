@@ -126,11 +126,11 @@
                 </a>
                 <nav>
                     <ul>
-                        <li><a href="problems" class="h100 l10n">Problems</a></li>
-                        <li><a href="services" class="h100 l10n">Services</a></li>
-                        <li><a href="brands" class="h100 l10n">Brands</a></li>
-                        <li><a href="prices" class="h100 l10n">Prices</a></li>
-                        <li><a href="contact" class="h100 l10n">Contact</a></li>
+                        <li><a href="problems" class="h100 l10n">Problem</a></li>
+                        <li><a href="services" class="h100 l10n">Behandlingar</a></li>
+                        <li><a href="brands" class="h100 l10n">Varumärken</a></li>
+                        <li><a href="prices" class="h100 l10n">Priser</a></li>
+                        <li><a href="contact" class="h100 l10n">Kontakt</a></li>
                     </ul>
                 </nav>
             </div>
