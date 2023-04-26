@@ -370,9 +370,9 @@
                   <section id="about-us">
                         <div id="about-text-wrapper">
                               <div id="about-text">
-                                    <div class="h500 l10n">Om oss</div>
+                                    <div class="h500 l10n">Kort om oss</div>
                                     <div class="h200 mt-m l10n">
-                                          Acnespecialisten är en ledande hudvårdsklinik med över 25 års erfarenhet, dedikerad till att erbjuda skräddarsydda och effektiva lösningar för problemhy. Med våra diplomerade hudterapeuter och helhetslösningar strävar vi efter att ge varje kund en friskare och vackrare hud.
+                                          Acnespecialisten är en del av Sveriges Skönhetscenter som har valt att bryta sig loss och fokusera helt på acne och problemhy. Genom att specialisera oss inom detta område kan vi erbjuda expertis, behandlingar och produkter anpassade specifikt för att hantera och förbättra hudens hälsa hos dem som lider av acne och andra hudproblem.
                                     </div>
                                     <picture class="is-hidden-tablet">
                                           <source media="(max-width: 799px)" srcset="images/about-mobile.jpg">
