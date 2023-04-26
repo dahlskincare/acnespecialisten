@@ -118,6 +118,68 @@ form {
     }
 
 
+    // Checkbox    
+    label.checkbox {
+        font-weight: normal;
+        display: block;
+        position: relative;
+        padding-left: $xl + $s;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+
+        input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+            height: 0;
+            width: 0;
+        }
+
+        /* Create a custom checkbox */
+        .check {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: $xl;
+            width: $xl;
+            background-color: $white-500;
+            border: 1px solid $light-200;
+        }
+
+        .check:after {
+            content: "";
+            position: absolute;
+            display: none;
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid $white-500;
+            border-width: 0 3px 3px 0;
+            -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+        }
+
+        input:checked~.check:after {
+            display: block;
+        }
+
+        input:checked~.check {
+            background-color: $deep-sea-400;
+        }
+
+        input:checked~.check:after {
+            display: block;
+        }
+    }
+
+
+
+
     // Radio
     label.radio {
         font-size: $m;

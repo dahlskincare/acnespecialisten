@@ -85,15 +85,11 @@
                                     <span class="color-deep-sea-400">*</span>
                                 </label>
                                 <div class="p100">Add a screenshot of your money transfer.</div>
-                                <button class="mt-m outline expand">
-                                    <?php icon('add') ?>
-                                    <span class="l10n">Upload a photo</span>
-                                </button>
-                                <input class="is-hidden" type="file" />
+                                <input class="button mt-m expand" type="file" required accept="image/png, image/jpeg" />
                                 <hr />
-                                <label class="radio">
-                                    <span class="l10n">I want a physical card also</span>
-                                    <input type="radio" name="category" value="treatment" />
+                                <label class="checkbox">
+                                    <span>I want a physical card also</span>
+                                    <input type="checkbox" name="physical" />
                                     <span class="check"></span>
                                 </label>
                                 <hr />
