@@ -52,18 +52,7 @@
                             </div>
                             <div class="gc-text l10n">Send us any amount you want to put on the gift card or buy some procedure.</div>
                             <hr />
-                            <div id="swish-title">
-                                <?php icon('swish-24') ?>
-                                <span class="l10n">Our swish number</span>
-                            </div>
-                            <div id="swish-number-button">
-                                <span>123 618 05 41</span>
-                                <div id="swish-number-copy">
-                                    <span class="l10n">Copy</span>
-                                    <?php icon('copy') ?>
-                                </div>
-                            </div>
-                            <a href="swish://paymentrequest?token=blablabla&callbackurl=https%3A%2F%2Facnespecialisten.com%2Fgift-cards%3Fpaid%3D1" class="button outline expand l10n">Open Swish app</a>
+                            <img id="swish-qr" src="gift-cards/swish.png" alt="swish qr" width="300" height="300" />
                         </div>
                         <div class="gift-card-step">
                             <div class="flex-row align-center">
@@ -101,24 +90,6 @@
                                     <span class="l10n">Upload a photo</span>
                                 </button>
                                 <input class="is-hidden" type="file" />
-                                <label class="mt-xl">
-                                    <span class=" l10n">Gift card type</span>
-                                    <span class="color-deep-sea-400">*</span>
-                                </label>
-                                <div class="radio-wrapper">
-                                    <label class="radio">
-                                        <span class="l10n">Questions about treatment</span>
-                                        <input type="radio" name="category" value="treatment" />
-                                        <span class="check"></span>
-                                    </label>
-                                </div>
-                                <div class="radio-wrapper">
-                                    <label class="radio">
-                                        <span class="l10n">Questions about treatment</span>
-                                        <input type="radio" name="category" value="treatment" />
-                                        <span class="check"></span>
-                                    </label>
-                                </div>
                                 <hr />
                                 <label class="radio">
                                     <span class="l10n">I want a physical card also</span>
@@ -145,8 +116,7 @@
                                     <div class="l10n">Send us any amount you want to put on the gift card or buy some procedure.</div>
                                 </div>
                                 <div class="gc-info" id="swish-info">
-                                    <?php icon('swish-24') ?>
-                                    <a href="swish://paymentrequest?token=blablabla&callbackurl=https%3A%2F%2Facnespecialisten.com%2Fgift-cards%3Fpaid%3D1">123 618 05 41</a>
+                                    <img src="gift-cards/swish.png" alt="swish qr" width="300" height="300" />
                                 </div>
                             </div>
                         </div>
