@@ -406,22 +406,20 @@
                                           <div class="column">
                                                 <div class="flex-row about-header">
                                                       <?php icon('star') ?>
-                                                      <div class="h200 l10n">Unique solution</div>
+                                                      <div class="h200 l10n">Diplomerade hudspecialister</div>
                                                 </div>
                                                 <p class="p200 mt-xxs l10n">
-                                                      In a personal meeting with a skin specialist,
-                                                      your skin type is examined and identified.
+                                                      Vår expertis och passion säkerställer att du får den bästa möjliga hudvården, anpassad efter dina behov.
                                                 </p>
                                                 <div class="divider"></div>
                                           </div>
                                           <div class="column">
                                                 <div class="flex-row about-header">
                                                       <?php icon('star') ?>
-                                                      <div class="h200 l10n">25 years of experience</div>
+                                                      <div class="h200 l10n">3 Kliniker</div>
                                                 </div>
                                                 <p class="p200 mt-xxs l10n">
-                                                      In a personal meeting with a skin specialist,
-                                                      your skin type is examined and identified.
+                                                      Våra tre välplacerade kliniker i Stockholm – Östermalm, Södermalm och i Sundbyberg – erbjuder bekväm tillgång till professionell hudvård i huvudstadsregionen.
                                                 </p>
                                           </div>
                                     </div>
