@@ -419,7 +419,7 @@
                                                       <div class="h200 l10n">3 Kliniker</div>
                                                 </div>
                                                 <p class="p200 mt-xxs l10n">
-                                                      Våra tre välplacerade kliniker i Stockholm – Östermalm, Södermalm och i Sundbyberg – erbjuder bekväm tillgång till professionell hudvård i huvudstadsregionen.
+                                                      Tre kliniker i Stockholm – Östermalm, Södermalm, Sundbyberg – för bekväm, professionell hudvård i huvudstaden.
                                                 </p>
                                           </div>
                                     </div>
