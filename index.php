@@ -370,7 +370,7 @@
                   <section id="about-us">
                         <div id="about-text-wrapper">
                               <div id="about-text">
-                                    <div class="h500 l10n">About us</div>
+                                    <div class="h500 l10n">Om oss</div>
                                     <div class="h200 mt-m l10n">
                                           This is a treatment adapted for acne skin and pimples and gives a
                                           really good start to the treatment of the skin.
@@ -384,22 +384,20 @@
                                           <div class="column">
                                                 <div class="flex-row about-header">
                                                       <?php icon('star') ?>
-                                                      <div class="h200 l10n">25 years of experience</div>
+                                                      <div class="h200 l10n">30 års erfarenhet</div>
                                                 </div>
                                                 <p class="p200 mt-xxs l10n">
-                                                      In a personal meeting with a skin specialist,
-                                                      your skin type is examined and identified.
+                                                      Sedan 1994 har vi hjälpt över 100 000 kunder med problemhy och hudvård, ständigt utvecklande vår verksamhet.
                                                 </p>
                                                 <div class="divider"></div>
                                           </div>
                                           <div class="column">
                                                 <div class="flex-row about-header">
                                                       <?php icon('star') ?>
-                                                      <div class="h200 l10n">Unique solution</div>
+                                                      <div class="h200 l10n">Unik helhetslösning</div>
                                                 </div>
                                                 <p class="p200 mt-xxs l10n">
-                                                      In a personal meeting with a skin specialist,
-                                                      your skin type is examined and identified.
+                                                     Vi erbjuder unika helhetslösningar för att identifiera, behandla och kontrollera problemhy med anpassade behandlingar.
                                                 </p>
                                                 <div class="divider"></div>
                                           </div>
