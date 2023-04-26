@@ -97,6 +97,7 @@
                                     <span class="check"></span>
                                 </label>
                                 <hr />
+                                <input type="submit" class="button b200 expand" value="Send confirmation" />
                             </form>
                         </div>
                         <div class="gift-card-step">
@@ -167,7 +168,6 @@
                             <?php icon('navigate-next') ?>
                         </a>
                     </div>
-
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
                 <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="reviews">View all reviews</a>
