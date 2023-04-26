@@ -372,8 +372,7 @@
                               <div id="about-text">
                                     <div class="h500 l10n">Om oss</div>
                                     <div class="h200 mt-m l10n">
-                                          This is a treatment adapted for acne skin and pimples and gives a
-                                          really good start to the treatment of the skin.
+                                          Acnespecialisten är en ledande hudvårdsklinik med över 25 års erfarenhet, dedikerad till att erbjuda skräddarsydda och effektiva lösningar för problemhy. Med våra diplomerade hudterapeuter och helhetslösningar strävar vi efter att ge varje kund en friskare och vackrare hud.
                                     </div>
                                     <picture class="is-hidden-tablet">
                                           <source media="(max-width: 799px)" srcset="images/about-mobile.jpg">
