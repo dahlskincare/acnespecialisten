@@ -57,7 +57,7 @@
                 <div id="profile-icon">
                     <?php icon('profile') ?>
                 </div>
-                <div class="l10n" id="profile-text">Have your personal Acnespecialisten account?</div>
+                <div class="l10n" id="profile-text">Logga in för att se dina rekomendationer samt chatta med din personliga hudterapeut</div>
             </div>
             <a href="https://dahlskincare.com/profile/start" target="_blank" class="button outline b200 expand l10n">Login</a>
         </div>
@@ -98,7 +98,7 @@
                     <div class="column">
                         <div id="desktop-login-box">
                             <div id="dl-profile-icon"><?php icon('profile') ?></div>
-                            <div class="l10n" id="dl-profile-text">Have your personal Acnespecialisten account?</div>
+                            <div class="l10n" id="dl-profile-text">HLogga in för att se dina rekomendationer samt chatta med din personliga hudterapeut</div>
                             <a href="https://dahlskincare.com/profile/start" target="_blank" class="button outline expand l10n">Login</a>
                         </div>
 
@@ -135,7 +135,7 @@
                 </nav>
             </div>
             <div id="actions">
-                <a class="button text l10n" href="https://dahlskincare.com/skin-consultation" target="_blank">Get a free consultation</a>
+                <a class="button text l10n" href="https://dahlskincare.com/skin-consultation" target="_blank">Boka gratis konsultation</a>
                 <div onclick="HeaderDesktop.toggleMenu()">
                     <?php icon("bars") ?>
                 </div>
