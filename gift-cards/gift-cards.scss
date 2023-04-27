@@ -251,6 +251,13 @@ div#content {
                 }
             }
         }
+
+        #confirmation-banner {
+            background-color: $deep-sea-400;
+            padding: $xl;
+            color: $white-500;
+            border-radius: $radius-l;
+        }
     }
 }
 
