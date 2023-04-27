@@ -71,32 +71,32 @@
                                 <h2 class="l10n">Confirmation</h2>
                             </div>
                             <div class="gc-text l10n">Fill in your info and attach a screenshot with payment details.</div>
-                            <button class="mt-m outline expand l10n" onclick="openConfirmForm(this)">Confirm</button>
-                            <form action="" class="confirm-form is-hidden">
+                            <button class="mt-m outline expand l10n" onclick="openConfirmForm(this, '#small-form')">Confirm</button>
+                            <form action="" class="is-hidden" id="small-form">
                                 <hr />
                                 <label for="firstname">
                                     <span class="l10n">First name</span>
                                     <span class="color-deep-sea-400">*</span>
                                 </label>
-                                <input type="text" name="firstname" required />
+                                <input type="text" name="firstname" placeholder="Anette" required />
                                 <label for="lastname" class="mt-xl">
                                     <span class="l10n">Last name</span>
                                     <span class="color-deep-sea-400">*</span>
                                 </label>
-                                <input type="text" name="lastname" required />
+                                <input type="text" name="lastname" placeholder="Black " required />
                                 <label for="email" class="mt-xl">
                                     <span class="l10n">Recipient email</span>
                                     <span class="color-deep-sea-400">*</span>
                                 </label>
-                                <input type="email" name="email" required />
+                                <input type="email" name="email" placeholder="example@email.com" required />
                                 <label for="phone" class="mt-xl l10">Phone number</label>
-                                <input type="phone" name="phone" />
+                                <input type="phone" name="phone" placeholder="08 123 456" />
                                 <label for="" class="mt-xl" id="screenshot-label">
                                     <span class="l10n">Payment screenshot</span>
                                     <span class="color-deep-sea-400">*</span>
                                 </label>
                                 <div class="p100">Add a screenshot of your money transfer.</div>
-                                <input class="button mt-m expand" type="file" required accept="image/png, image/jpeg" />
+                                <input class="button outline mt-m expand" type="file" required accept="image/png, image/jpeg" name="file" />
                                 <hr />
                                 <label class="checkbox">
                                     <span>I want a physical card also</span>
@@ -137,9 +137,54 @@
                                     <div class="gc-text l10n">Fill in your info and attach a screenshot with payment details.</div>
                                 </div>
                                 <div class="gc-info">
-                                    <button class="outline b200 l10n" onclick="openConfirmForm(this)">Confirm</button>
+                                    <button class="outline b200 l10n" onclick="openConfirmForm(this, '#large-form')">Confirm</button>
                                 </div>
                             </div>
+                            <form action="" class="is-hidden" id="large-form">
+                                <hr />
+                                <div class="columns is-variable is-3">
+                                    <div class="column">
+                                        <label for="firstname">
+                                            <span class="l10n">First name</span>
+                                            <span class="color-deep-sea-400">*</span>
+                                        </label>
+                                        <input type="text" name="firstname" placeholder="Annette" required />
+                                    </div>
+                                    <div class="column">
+                                        <label for="lastname">
+                                            <span class="l10n">Last name</span>
+                                            <span class="color-deep-sea-400">*</span>
+                                        </label>
+                                        <input type="text" name="lastname" placeholder="Black" required />
+                                    </div>
+                                </div>
+                                <label for="email" class="mt-xl">
+                                    <span class="l10n">Recipient email</span>
+                                    <span class="color-deep-sea-400">*</span>
+                                </label>
+                                <input type="email" name="email" placeholder="example@email.com" required />
+                                <label for="phone" class="mt-xl l10">Phone number</label>
+                                <input type="phone" name="phone" placeholder="08 123 456" />
+                                <label for="" class="mt-xl" id="screenshot-label">
+                                    <span class="l10n">Payment screenshot</span>
+                                    <span class="color-deep-sea-400">*</span>
+                                </label>
+                                <div id="upload-area" ondrop="onFileDrop(event)" ondragover="event.preventDefault()">
+                                    <div class="p100 l10n">Add a screenshot of your money transfer.</div>
+                                    <div>
+                                        <div class="button outline l10n" id="upload-button" onclick="document.querySelector('#upload-input').click()">Upload a photo</div>
+                                        <input type="file" id="upload-input" onchange="onFileChange(event)" required accept="image/png, image/jpeg" name="file" />
+                                    </div>
+                                </div>
+                                <hr />
+                                <label class="checkbox">
+                                    <span>I want a physical card also</span>
+                                    <input type="checkbox" name="physical" />
+                                    <span class="check"></span>
+                                </label>
+                                <hr />
+                                <input type="submit" class="button b200 expand" value="Send confirmation" />
+                            </form>
                         </div>
                         <div class="gift-card-step">
                             <div class="flex-row align-center">

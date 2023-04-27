@@ -218,6 +218,37 @@ div#content {
                         @include h200;
                     }
                 }
+
+                form {
+                    hr {
+                        margin: $xl 0;
+                        border: 0;
+                        border-top: 1px solid $light-200;
+                    }
+
+                    #upload-area {
+                        margin-top: $s;
+                        border: 1px dashed $light-500;
+                        border-radius: $radius-s;
+                        padding: $m;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+
+                        div:first-child {
+                            @include p200;
+                            flex: auto;
+                        }
+
+                        div:last-child {
+
+                            input[type=file] {
+                                //visibility: hidden;
+                                display: none;
+                            }
+                        }
+                    }
+                }
             }
         }
     }
