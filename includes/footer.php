@@ -198,8 +198,7 @@
                             <div class="column">
                                 <h2 class="l10n">Redo att sätta igång?</h2>
                                 <p class="l10n mt-xs">
-                                    In a personal meeting with a skin specialist, your skin type is examined
-                                    and identified.
+                                    Ja! Vi börjar med en gratis hudkonsultation där vi identifierar vilken typ av problemhy du har. Därefter behandlar vi och guidar dig fram till en rutin med hudvård som passar bäst för dig och din hy.
                                 </p>
                             </div>
                             <div class="column">
@@ -220,8 +219,7 @@
                             <div class="column">
                                 <h2 class="l10n">För långt<br />till kliniken?</h2>
                                 <p class="l10n mt-xs">
-                                    In a personal meeting with a skin specialist, your skin type is
-                                    examined and identified.
+                                    Inga problem! Om du inte har möjlighet att besöka oss för en konsultation kan du alltid göra en konsultationen online. Vi gör på precis samma sätt, fast via nätet. Alla ska ha möjligheten att nå en problemfri hy!
                                 </p>
                             </div>
                             <div class="column">
