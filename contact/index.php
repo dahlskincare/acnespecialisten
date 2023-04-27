@@ -101,7 +101,7 @@ $salons = array(
                         <table>
                             <tr>
                                 <td>Category:</td>
-                                <td>" . $_GET['category'] . "
+                                <td>" . $_GET['category'] . "</td>
                             </tr>
                             <tr>
                                 <td>Name:</td>
@@ -117,7 +117,7 @@ $salons = array(
                             </tr>
                             <tr>
                                 <td>Message:</td>
-                                <td>" . $_GET['message'] . "
+                                <td>" . $_GET['message'] . "</td>
                             </tr>    
                         </table>
                     </body>
