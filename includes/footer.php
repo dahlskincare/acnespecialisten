@@ -196,9 +196,9 @@
                     <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559" target="_blank" class="footer-large-banner">
                         <div class="columns">
                             <div class="column">
-                                <h2 class="l10n">Redo att sätta igång?</h2>
+                                <h2 class="l10n">Redo att börja?</h2>
                                 <p class="l10n mt-xs">
-                                    Ja! Vi börjar med en gratis hudkonsultation där vi identifierar vilken typ av problemhy du har. Därefter behandlar vi och guidar dig fram till en rutin med hudvård som passar bäst för dig och din hy.
+                                    Vi inleder med en gratis hudkonsultation, identifierar din problemhy och skapar en anpassad behandlignsplan för dig.
                                 </p>
                             </div>
                             <div class="column">
@@ -217,9 +217,9 @@
                     <a href="#" target="_blank" class="footer-large-banner">
                         <div class="columns">
                             <div class="column">
-                                <h2 class="l10n">För långt<br />till kliniken?</h2>
+                                <h2 class="l10n">Kliniken för<br />långt bort?</h2>
                                 <p class="l10n mt-xs">
-                                    Inga problem! Om du inte har möjlighet att besöka oss för en konsultation kan du alltid göra en konsultationen online. Vi gör på precis samma sätt, fast via nätet. Alla ska ha möjligheten att nå en problemfri hy!
+                                    Inga problem! Vi erbjuder onlinekonsultationer för att alla ska kunna uppnå en problemfri hy!
                                 </p>
                             </div>
                             <div class="column">
