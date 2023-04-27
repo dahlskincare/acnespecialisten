@@ -91,7 +91,7 @@ $problem_areas[] = new ProblemArea('Neck', 'area-face', array('acne', 'acne-scar
                   <div id="banner-green">
                         <div class="container l10n">
                               <div class="is-hidden-desktop">
-                                    <h1 class="h600 l10n">Skin problems</h1>
+                                    <h1 class="h600 l10n">Hudproblem</h1>
                                     <p class="p200 mt-xs">
                                           <span id="problems-banner-collapsed" class="l10n">
                                                 Hudproblem som akne, rosacea, pormaskar och finnar kan påverka individer i alla åldrar och orsaka obehag, nedsatt självkänsla och försämrad livskvalitet. På Acnespecialisten arbetar vi med att behandla och förbättra problemhy genom att erbjuda skräddarsydda lösningar och behandlingar för varje enskild kund. Vi erbjuder en rad behandlingsmetoder och tekniker anpassade för att hantera olika hudproblem. För att veta mer om de olika problemen och hur vi kan hjälpa dig, klicka på det problem du misstänker att du har:
@@ -111,7 +111,7 @@ $problem_areas[] = new ProblemArea('Neck', 'area-face', array('acne', 'acne-scar
                                     </div>
                                     <div class="flex-row align-end">
                                           <div id="skin-problems-header-column">
-                                                <h1 class="h600 mt-xs l10n">Hud<br />problem</h1>
+                                                <h1 class="h600 mt-xs l10n">Hudproblem</h1>
                                                 <a href="https://dahlskincare.com/skin-consultation" class="button b200 white mt-xl">Get a free consultation</a>
                                           </div>
                                           <div class="l10n">
