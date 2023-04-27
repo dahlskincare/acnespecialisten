@@ -288,7 +288,36 @@ if (form_completed()) {
                     </div>
                 </section>
                 <section id="flyers">
-                    <p>hello</p>
+                    <div class="gift-card-flyer">
+                        <div class="h500 is-hidden-desktop l10n">Gift to someone you <br />care about</div>
+                        <picture>
+                            <source media="(max-width: 1023px)" srcset="https://via.placeholder.com/358x272.webp">
+                            <source media="(min-width: 1024px)" srcset="https://via.placeholder.com/424x526.webp">
+                            <img src="https://via.placeholder.com/358x272.webp" alt="Gift to someone" width="358" height="272" />
+                        </picture>
+                        <div>
+                            <div class="gcf-text l10n">
+                                Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments. We hereby present our new department Nordiska Kliniken Hud Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery.
+                            </div>
+                            <button class="outline b200 expand l10n" onclick="document.querySelector('#steps').scrollIntoView()">Order a gift card</button>
+                        </div>
+
+                    </div>
+                    <div class="gift-card-flyer">
+                        <div class="h500 is-hidden-desktop l10n">Gift to someone you <br />care about</div>
+                        <picture>
+                            <source media="(max-width: 1023px)" srcset="https://via.placeholder.com/358x272.webp">
+                            <source media="(min-width: 1024px)" srcset="https://via.placeholder.com/424x526.webp">
+                            <img src="https://via.placeholder.com/358x272.webp" alt="Gift to someone" width="358" height="272" />
+                        </picture>
+                        <div>
+                            <div class="gcf-text l10n">
+                                Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments. We hereby present our new department Nordiska Kliniken Hud Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery.
+                            </div>
+                            <button class="outline b200 expand l10n" onclick="document.querySelector('#steps').scrollIntoView()">Order a gift card</button>
+                        </div>
+
+                    </div>
                 </section>
             </div>
             <section id="results" class="large-margin">

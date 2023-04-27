@@ -266,6 +266,41 @@ div#content {
             border-radius: $radius-l;
         }
     }
+
+    section#flyers {
+        .gift-card-flyer {
+            margin-top: 72px;
+
+            img {
+                border-radius: $radius-l;
+                margin-top: $xl;
+            }
+
+            .gcf-text {
+                @include p200;
+                margin-top: $xl;
+            }
+
+            button {
+                margin-top: $xl;
+            }
+        }
+    }
+
+
+    @include desktop {
+        .gift-card-flyer {
+
+            img {
+                margin-top: 0;
+            }
+
+            .gcf-text {
+                margin-top: $m;
+
+            }
+        }
+    }
 }
 
 section.large-margin {
