@@ -206,7 +206,7 @@
                                 <div class="aligner">
                                     <?php icon('pin') ?>
                                     <div>
-                                        <button class="b200 white l10n">Klinik konsultaiton </button>
+                                        <button class="b200 white l10n">Konsultaiton på klinik </button>
                                     </div>
                                 </div>
                             </div>
@@ -218,7 +218,7 @@
                     <a href="#" target="_blank" class="footer-large-banner">
                         <div class="columns">
                             <div class="column">
-                                <h2 class="l10n">Too far to<br />the clinic?</h2>
+                                <h2 class="l10n">För långt<br />till kliniken?</h2>
                                 <p class="l10n mt-xs">
                                     In a personal meeting with a skin specialist, your skin type is
                                     examined and identified.
@@ -228,7 +228,7 @@
                                 <div class="aligner">
                                     <img src="images/brands/zoom.svg" alt="zoom" width="92" height="21" />
                                     <div>
-                                        <button class="b200 white l10n">Digital konsultation</button>
+                                        <button class="b200 white l10n">Digital Konsultation</button>
                                     </div>
                                 </div>
                             </div>
@@ -297,7 +297,7 @@
                                     <div>
                                         <h2>Sundbyberg</h2>
                                         <p class="p200">Sturegatan 32, 172 31 Sundbyberg</p>
-                                        <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-sundbyberg-19300" target="_blank" class="button b200 compact text l10n">Book a visit</a>
+                                        <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-sundbyberg-19300" target="_blank" class="button b200 compact text l10n">Boka tid</a>
                                     </div>
                                 </div>
 
@@ -308,7 +308,7 @@
                                     <div>
                                         <h2>Östermalm</h2>
                                         <p class="p200">Strandvägen 7, 114 51 Stockholm</p>
-                                        <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559" target="_blank" class="button b200 compact text l10n">Book a visit</a>
+                                        <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559" target="_blank" class="button b200 compact text l10n">Boka tid</a>
                                     </div>
                                 </div>
                             </div>
@@ -318,7 +318,7 @@
                                     <div>
                                         <h2>Södermalm</h2>
                                         <p class="p200">Hornsgatan 47, 118 49 Stockholm</p>
-                                        <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-s%C3%B6dermalm-19301" target="_blank" class="button b200 compact text l10n">Book a visit</a>
+                                        <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-s%C3%B6dermalm-19301" target="_blank" class="button b200 compact text l10n">Boka tid</a>
                                     </div>
                                 </div>
                             </div>
