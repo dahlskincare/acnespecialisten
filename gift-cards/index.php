@@ -72,7 +72,7 @@
                             </div>
                             <div class="gc-text l10n">Fill in your info and attach a screenshot with payment details.</div>
                             <button class="mt-m outline expand l10n" onclick="openConfirmForm(this)">Confirm</button>
-                            <form action="" class="confirm-form s-hidden">
+                            <form action="" class="confirm-form is-hidden">
                                 <hr />
                                 <label for="firstname">
                                     <span class="l10n">First name</span>
