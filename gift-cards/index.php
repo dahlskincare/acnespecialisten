@@ -73,10 +73,10 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
                                 <h2 class="l10n">Confirmation</h2>
                             </div>
                             <?php if (array_key_exists('firstname', $_GET)) { ?>
-                                <div id="confirmation-banner" class="mt-m">
+                                <div class="confirmation-banner mt-m">
                                     <div class="h400 l10n">Your confirmation has been sent</div>
                                     <div class="p200 mt-xxs l10n">We will contact you as soon as possible.</div>
-                                    <a href="" class="button outline expand mt-xl">Resend</a>
+                                    <a href="gift-cards" class="button white outline expand mt-xl">Resend</a>
                                 </div>
                             <?php } else { ?>
                                 <div class="gc-text l10n">Fill in your info and attach a screenshot with payment details.</div>
@@ -146,13 +146,23 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
                                     <h2 class="l10n">Confirmation</h2>
                                     <div class="gc-text l10n">Fill in your info and attach a screenshot with payment details.</div>
                                 </div>
-                                <?php if (!array_key_exists('message', $_GET)) { ?>
+                                <?php if (!array_key_exists('firstname', $_GET)) { ?>
                                     <div class="gc-info">
                                         <button class="outline b200 l10n" onclick="openConfirmForm(this, '#large-form')">Confirm</button>
                                     </div>
                                 <?php } ?>
                             </div>
-                            <?php if (array_key_exists('message', $_GET)) { ?>
+                            <?php if (array_key_exists('firstname', $_GET)) { ?>
+                                <hr />
+                                <div class="confirmation-banner">
+                                    <div class="flex-row align-center justify-space-between">
+                                        <div>
+                                            <div class="h400 l10n">Your confirmation has been sent</div>
+                                            <div class="p200 mt-xxs l10n">We will contact you as soon as possible.</div>
+                                        </div>
+                                        <a href="gift-cards" class="button white outline">Resend</a>
+                                    </div>
+                                </div>
                             <?php } else { ?>
                                 <form action="" class="is-hidden" id="large-form">
                                     <hr />

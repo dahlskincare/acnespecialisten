@@ -219,6 +219,12 @@ div#content {
                     }
                 }
 
+                hr {
+                    border: 0;
+                    border-top: 1px solid $light-200;
+                    margin: $xl 0;
+                }
+
                 form {
                     hr {
                         margin: $xl 0;
@@ -243,7 +249,6 @@ div#content {
                         div:last-child {
 
                             input[type=file] {
-                                //visibility: hidden;
                                 display: none;
                             }
                         }
@@ -252,7 +257,7 @@ div#content {
             }
         }
 
-        #confirmation-banner {
+        .confirmation-banner {
             background-color: $deep-sea-400;
             padding: $xl;
             color: $white-500;
