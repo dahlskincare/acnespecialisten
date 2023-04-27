@@ -274,6 +274,8 @@ div#content {
             img {
                 border-radius: $radius-l;
                 margin-top: $xl;
+                width: 100%;
+                height: auto;
             }
 
             .gcf-text {
@@ -290,14 +292,41 @@ div#content {
 
     @include desktop {
         .gift-card-flyer {
+            display: flex;
+            align-items: center;
 
-            img {
-                margin-top: 0;
+            picture {
+                flex: 1;
+
+                img {
+                    margin-top: 0;
+                }
             }
 
-            .gcf-text {
-                margin-top: $m;
+            >div {
+                flex: 1;
+                padding-left: $xxl*2;
 
+                .gcf-header {
+                    @include h500;
+                }
+
+                .gcf-text {
+                    margin-top: $m;
+                }
+
+                button {
+                    width: auto;
+                }
+            }
+        }
+
+        .gift-card-flyer:nth-child(even) {
+            flex-direction: row-reverse;
+
+            >div {
+                padding-left: 0;
+                padding-right: $xxl*2;
             }
         }
     }
