@@ -111,7 +111,7 @@ $problem_areas[] = new ProblemArea('Neck', 'area-face', array('acne', 'acne-scar
                                     </div>
                                     <div class="flex-row align-end">
                                           <div id="skin-problems-header-column">
-                                                <h1 class="h600 mt-xs l10n">Skin<br />problems</h1>
+                                                <h1 class="h600 mt-xs l10n">Hudproblem</h1>
                                                 <a href="https://dahlskincare.com/skin-consultation" class="button b200 white mt-xl">Get a free consultation</a>
                                           </div>
                                           <div class="l10n">
