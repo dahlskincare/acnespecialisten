@@ -183,7 +183,7 @@
                                     <span class="check"></span>
                                 </label>
                                 <hr />
-                                <input type="submit" class="button b200 expand" value="Send confirmation" />
+                                <input type="submit" class="button b200" value="Send confirmation" />
                             </form>
                         </div>
                         <div class="gift-card-step">
