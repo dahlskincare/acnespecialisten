@@ -111,6 +111,7 @@ div#content {
         .is-hidden-desktop {
             .gift-card-step {
                 margin-top: $xl;
+                scroll-margin-top: 60px;
                 padding: $xl;
                 border: 1px solid $light-200;
                 border-radius: $radius-l;
@@ -182,6 +183,7 @@ div#content {
         .is-hidden-touch {
             .gift-card-step {
                 margin-top: $xl;
+                scroll-margin-top: 80px;
                 padding: $xl;
                 border: 1px solid $light-200;
                 border-radius: $radius-l;

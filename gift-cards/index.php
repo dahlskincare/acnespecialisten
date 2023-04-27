@@ -1,5 +1,70 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
+
+function form_completed()
+{
+    return array_key_exists('firstname', $_POST) && array_key_exists('lastname', $_POST) && array_key_exists('email', $_POST) && array_key_exists('phone', $_POST) && array_key_exists('file', $_FILES) && array_key_exists('physical', $_POST);
+}
+
+if (form_completed()) {
+    $name = $_POST['firstname'] . ' ' . $_POST['lastname'];
+    $email = $_POST['email'];
+    $phone = $_POST['phone'];
+    $physical = $_POST['physical'];
+    $file = $_FILES['file'];
+    $file_type = $file['type'];
+    $file_name = $file['name'];
+    $file_size = $file['size'];
+    $file_tmp_name = $file['tmp_name'];
+    $file_content = file_get_contents($file_tmp_name);
+    $from = 'Acnespecialisten <auto@acnespecialisten.com>';
+    $to = "patrick.minogue@gmail.com"; //"kund@acnespecialisten.se";
+    $subject = "Acnespecialisten gift card";
+    $boundary = uniqid('np');  // Boundary string for multipart message
+    $headers = "From: $from\r\n";
+    $headers .= "Reply-To: $from\r\n";
+    $headers .= "Content-Type: multipart/mixed; boundary=$boundary\r\n";
+    $html_content = "
+                    <html>
+                    <head>
+                    <title>Acnespecialisten gift card</title>
+                    </head>
+                    <body>                        
+                        <table>
+                            <tr>
+                                <td>Name:</td>
+                                <td>" . $name . "</td>
+                            </tr>                            
+                            <tr>
+                                <td>Email:</td>
+                                <td>" . $email . "</td>
+                            </tr>
+                            <tr>
+                                <td>Phone:</td>
+                                <td>" . $phone . "</td>
+                            </tr>
+                            <tr>
+                                <td>Physical card:</td>
+                                <td>" . $physical . "</td>
+                            </tr>    
+                        </table>
+                    </body>
+                    </html>
+                    ";
+
+    // Create message body
+    $message = "--$boundary\r\n";
+    $message .= "Content-Type: text/html; charset=UTF-8\r\n";
+    $message .= "Content-Transfer-Encoding: 7bit\r\n\r\n";
+    $message .= "$html_content\r\n\r\n";
+    $message .= "--$boundary\r\n";
+    $message .= "Content-Type: $file_type; name=\"$file_name\"\r\n";
+    $message .= "Content-Transfer-Encoding: base64\r\n";
+    $message .= "Content-Disposition: attachment; filename=\"$file_name\"\r\n\r\n";
+    $message .= chunk_split(base64_encode($file_content)) . "\r\n";
+    $message .= "--$boundary--\r\n";
+    mail($to, $subject, $message, $headers);
+}
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
@@ -67,12 +132,12 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
                             </div>
                             <a href="swish://paymentrequest?token=blablabla&callbackurl=https%3A%2F%2Facnespecialisten.com%2Fgift-cards%3Fpaid%3D1" class="button outline expand l10n">Open Swish app</a>
                         </div>
-                        <div class="gift-card-step">
+                        <div class="gift-card-step" id="step-2-small">
                             <div class="flex-row align-center">
                                 <div class="gc-number">02</div>
                                 <h2 class="l10n">Confirmation</h2>
                             </div>
-                            <?php if (array_key_exists('firstname', $_GET)) { ?>
+                            <?php if (form_completed()) { ?>
                                 <div class="confirmation-banner mt-m">
                                     <div class="h400 l10n">Your confirmation has been sent</div>
                                     <div class="p200 mt-xxs l10n">We will contact you as soon as possible.</div>
@@ -81,7 +146,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
                             <?php } else { ?>
                                 <div class="gc-text l10n">Fill in your info and attach a screenshot with payment details.</div>
                                 <button class="mt-m outline expand l10n" onclick="openConfirmForm(this, '#small-form')">Confirm</button>
-                                <form action="" class="is-hidden" id="small-form">
+                                <form action="gift-cards/?sent=1" enctype="multipart/form-data" method="POST" class="is-hidden" id="small-form">
                                     <hr />
                                     <label for="firstname">
                                         <span class="l10n">First name</span>
@@ -139,20 +204,20 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
                                 </div>
                             </div>
                         </div>
-                        <div class="gift-card-step">
+                        <div class="gift-card-step" id="step-2-large">
                             <div class="flex-row align-center">
                                 <div class="gc-number">02</div>
                                 <div class="gc-texts">
                                     <h2 class="l10n">Confirmation</h2>
                                     <div class="gc-text l10n">Fill in your info and attach a screenshot with payment details.</div>
                                 </div>
-                                <?php if (!array_key_exists('firstname', $_GET)) { ?>
+                                <?php if (!form_completed()) { ?>
                                     <div class="gc-info">
                                         <button class="outline b200 l10n" onclick="openConfirmForm(this, '#large-form')">Confirm</button>
                                     </div>
                                 <?php } ?>
                             </div>
-                            <?php if (array_key_exists('firstname', $_GET)) { ?>
+                            <?php if (form_completed()) { ?>
                                 <hr />
                                 <div class="confirmation-banner">
                                     <div class="flex-row align-center justify-space-between">
@@ -164,7 +229,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
                                     </div>
                                 </div>
                             <?php } else { ?>
-                                <form action="" class="is-hidden" id="large-form">
+                                <form action="gift-cards/?sent=1" enctype="multipart/form-data" method="POST" class="is-hidden" id="large-form">
                                     <hr />
                                     <div class="columns is-variable is-3">
                                         <div class="column">
@@ -301,6 +366,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
     <script src="gift-cards/gift-cards.js"></script>
+
 </body>
 
 </html>

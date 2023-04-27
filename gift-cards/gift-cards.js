@@ -30,4 +30,12 @@ function onFileChange(e) {
         document.querySelector('#upload-button').innerHTML = "".concat(file.name, " (").concat(Math.round(file.size / 1024), "kb)");
     }
 }
+if (window.location.search.length > 0) {
+    if (window.innerWidth >= 1024) {
+        document.querySelector('#step-2-large').scrollIntoView();
+    }
+    else {
+        document.querySelector('#step-2-small').scrollIntoView();
+    }
+}
 //# sourceMappingURL=gift-cards.js.map

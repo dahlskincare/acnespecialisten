@@ -32,3 +32,10 @@ function onFileChange(e: Event) {
     }
 }
 
+if (window.location.search.length > 0) {
+    if (window.innerWidth >= 1024) {
+        document.querySelector('#step-2-large').scrollIntoView();
+    } else {
+        document.querySelector('#step-2-small').scrollIntoView();
+    }
+}
