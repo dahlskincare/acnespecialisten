@@ -39,3 +39,4 @@ if (window.location.search.length > 0) {
         document.querySelector('#step-2-small').scrollIntoView();
     }
 }
+

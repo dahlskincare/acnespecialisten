@@ -123,7 +123,7 @@ if (form_completed()) {
                                 <?php icon('swish-24') ?>
                                 <span class="l10n">Our swish number</span>
                             </div>
-                            <div id="swish-number-button">
+                            <div id="swish-number-button" onclick="navigator.clipboard.writeText(this.children[0].innerHTML)">
                                 <span>123 618 05 41</span>
                                 <div id="swish-number-copy">
                                     <span class="l10n">Copy</span>
