@@ -3,14 +3,14 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 
 function form_completed()
 {
-    return array_key_exists('firstname', $_POST) && array_key_exists('lastname', $_POST) && array_key_exists('email', $_POST) && array_key_exists('phone', $_POST) && array_key_exists('file', $_FILES) && array_key_exists('physical', $_POST);
+    return array_key_exists('firstname', $_POST) && array_key_exists('lastname', $_POST) && array_key_exists('email', $_POST) && array_key_exists('phone', $_POST) && array_key_exists('file', $_FILES);
 }
 
 if (form_completed()) {
     $name = $_POST['firstname'] . ' ' . $_POST['lastname'];
     $email = $_POST['email'];
     $phone = $_POST['phone'];
-    $physical = $_POST['physical'];
+    $physical = array_key_exists('physical', $_POST);
     $file = $_FILES['file'];
     $file_type = $file['type'];
     $file_name = $file['name'];
