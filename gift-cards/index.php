@@ -10,7 +10,7 @@ if (form_completed()) {
     $name = $_POST['firstname'] . ' ' . $_POST['lastname'];
     $email = $_POST['email'];
     $phone = $_POST['phone'];
-    $physical = array_key_exists('physical', $_POST);
+    $physical = array_key_exists('physical', $_POST) ? 'yes' : 'no';
     $file = $_FILES['file'];
     $file_type = $file['type'];
     $file_name = $file['name'];
@@ -18,7 +18,7 @@ if (form_completed()) {
     $file_tmp_name = $file['tmp_name'];
     $file_content = file_get_contents($file_tmp_name);
     $from = 'Acnespecialisten <auto@acnespecialisten.com>';
-    $to = "patrick.minogue@gmail.com"; //"kund@acnespecialisten.se";
+    $to = "kund@acnespecialisten.se";
     $subject = "Acnespecialisten gift card";
     $boundary = uniqid('np');  // Boundary string for multipart message
     $headers = "From: $from\r\n";
