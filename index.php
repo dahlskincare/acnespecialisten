@@ -4,7 +4,7 @@
 
 <head>
       <!-- TODO: Set title and meta tags -->
-      <title class="l10n">Acnespecialisten | hej</title>
+      <title class="l10n">Acnespecialisten | Det självklara valet för acne och problemhy</title>
       <meta name="description" content="Acnespecialisten is the best etc..." class="l10n">
       <meta name="title" content="Acnespecialisten" class="l10n">
       <meta name="keywords" content="Acne, specialisten" class="l10n">
@@ -370,10 +370,9 @@
                   <section id="about-us">
                         <div id="about-text-wrapper">
                               <div id="about-text">
-                                    <div class="h500 l10n">About us</div>
+                                    <div class="h500 l10n">Kort om oss</div>
                                     <div class="h200 mt-m l10n">
-                                          This is a treatment adapted for acne skin and pimples and gives a
-                                          really good start to the treatment of the skin.
+                                          Acnespecialisten är en del av Sveriges Skönhetscenter som har valt att bryta sig loss och fokusera helt på acne och problemhy. Genom att specialisera oss inom detta område kan vi erbjuda expertis, behandlingar och produkter anpassade specifikt för att hantera och förbättra hudens hälsa hos dem som lider av acne och andra hudproblem.
                                     </div>
                                     <picture class="is-hidden-tablet">
                                           <source media="(max-width: 799px)" srcset="images/about-mobile.jpg">
@@ -384,22 +383,20 @@
                                           <div class="column">
                                                 <div class="flex-row about-header">
                                                       <?php icon('star') ?>
-                                                      <div class="h200 l10n">25 years of experience</div>
+                                                      <div class="h200 l10n">30 års erfarenhet</div>
                                                 </div>
                                                 <p class="p200 mt-xxs l10n">
-                                                      In a personal meeting with a skin specialist,
-                                                      your skin type is examined and identified.
+                                                      Sedan 1994 har vi hjälpt över 100 000 kunder med problemhy och hudvård, ständigt utvecklande vår verksamhet.
                                                 </p>
                                                 <div class="divider"></div>
                                           </div>
                                           <div class="column">
                                                 <div class="flex-row about-header">
                                                       <?php icon('star') ?>
-                                                      <div class="h200 l10n">Unique solution</div>
+                                                      <div class="h200 l10n">Unik helhetslösning</div>
                                                 </div>
                                                 <p class="p200 mt-xxs l10n">
-                                                      In a personal meeting with a skin specialist,
-                                                      your skin type is examined and identified.
+                                                     Vi erbjuder unika helhetslösningar för att identifiera, behandla och kontrollera problemhy med anpassade behandlingar.
                                                 </p>
                                                 <div class="divider"></div>
                                           </div>
@@ -408,22 +405,20 @@
                                           <div class="column">
                                                 <div class="flex-row about-header">
                                                       <?php icon('star') ?>
-                                                      <div class="h200 l10n">Unique solution</div>
+                                                      <div class="h200 l10n">Diplomerade hudspecialister</div>
                                                 </div>
                                                 <p class="p200 mt-xxs l10n">
-                                                      In a personal meeting with a skin specialist,
-                                                      your skin type is examined and identified.
+                                                      Vår expertis och passion säkerställer att du får den bästa möjliga hudvården, anpassad efter dina behov.
                                                 </p>
                                                 <div class="divider"></div>
                                           </div>
                                           <div class="column">
                                                 <div class="flex-row about-header">
                                                       <?php icon('star') ?>
-                                                      <div class="h200 l10n">25 years of experience</div>
+                                                      <div class="h200 l10n">3 Kliniker</div>
                                                 </div>
                                                 <p class="p200 mt-xxs l10n">
-                                                      In a personal meeting with a skin specialist,
-                                                      your skin type is examined and identified.
+                                                      Tre kliniker i Stockholm – Östermalm, Södermalm, Sundbyberg – för bekväm, professionell hudvård i huvudstaden.
                                                 </p>
                                           </div>
                                     </div>
@@ -448,10 +443,10 @@
                         </div>
                         <?php
                         $specialists = array();
-                        $specialists[] = new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-1.jpg', 'images/specialists/large/specialist-1.jpg');
-                        $specialists[] = new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-2.jpg', 'images/specialists/large/specialist-2.jpg');
-                        $specialists[] = new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-3.jpg', 'images/specialists/large/specialist-3.jpg');
-                        $specialists[] = new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-4.jpg', 'images/specialists/large/specialist-4.jpg');
+                        $specialists[] = new Specialist('Cazzandra Lindberg', 'Hudterapeut sedan 2015', 'images/specialists/small/specialist-1.jpg', 'images/specialists/large/specialist-1.jpg');
+                        $specialists[] = new Specialist('Veronika Benedik', 'Hudterapeut sedan 1999', 'images/specialists/small/specialist-2.jpg', 'images/specialists/large/specialist-2.jpg');
+                        $specialists[] = new Specialist('Amira Maqboul', 'Hudterapeut sedan 2017', 'images/specialists/small/specialist-3.jpg', 'images/specialists/large/specialist-3.jpg');
+                        $specialists[] = new Specialist('Vilma Libom', 'Hudterapeut sedan 2019', 'images/specialists/small/specialist-4.jpg', 'images/specialists/large/specialist-4.jpg');
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
                         ?>
                         <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="specialists">Se alla specialister</a>
