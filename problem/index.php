@@ -295,7 +295,7 @@ $problem_areas = array(
 
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="stylesheet" href="/styles/default-layout.css">
-      <link rel="stylesheet" href="problem/problem.css">
+      <link rel="stylesheet" href="problem/problems.css">
 </head>
 
 <body>
@@ -532,7 +532,7 @@ $problem_areas = array(
             </section>
       </main>
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
-      <script src="problems/problems.js"></script>
+      <script src="problem/problems.js"></script>
 </body>
 
 </html>
