@@ -8,7 +8,7 @@
             <div onclick="HeaderTouch.toggleMenu()"><?php icon('close') ?></div>
         </div>
         <div id="mobile-nav-links">
-            <a href="problems" class="mobile-nav-link l10n">Problem</a>
+            <a href="problem" class="mobile-nav-link l10n">Problem</a>
             <a href="prices" class="mobile-nav-link l10n">Priser</a>
             <a href="services" class="mobile-nav-link l10n">Behandlingar</a>
             <a href="results" class="mobile-nav-link l10n">Resultat</a>
@@ -126,7 +126,7 @@
                 </a>
                 <nav>
                     <ul>
-                        <li><a href="problems" class="h100 l10n">Problem</a></li>
+                        <li><a href="problem" class="h100 l10n">Problem</a></li>
                         <li><a href="services" class="h100 l10n">Behandlingar</a></li>
                         <li><a href="brands" class="h100 l10n">Varumärken</a></li>
                         <li><a href="prices" class="h100 l10n">Priser</a></li>

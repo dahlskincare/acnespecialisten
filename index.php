@@ -10,10 +10,10 @@
       <meta name="keywords" content="Acne, specialisten" class="l10n">
       <meta property="og:title" content="Acnespecialisten" />
       <meta property="og:description" content="Acnespecialisten is the best etc.." class="l10n" />
-      <meta property="og:image" content="https://temp.visurus.org/images/about-desktop.jpg" />
+      <meta property="og:image" content="images/about-desktop.jpg" />
       <meta property="twitter:title" content="Acnespecialisten" />
       <meta property="twitter:description" content="Acnespecialisten is the best etc.." class="l10n" />
-      <meta property="twitter:image" content="https://temp.visurus.org/images/about-desktop.jpg" />
+      <meta property="twitter:image" content="images/about-desktop.jpg" />
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="preload" as="image" href="images/banner-desktop.jpg" media="(min-width: 984px)">
       <link rel="preload" as="image" href="images/banner-mobile.jpg" media="(max-width: 983px)">
@@ -106,7 +106,7 @@
                         $more_count = 17;
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/accordion/accordion.php')
                         ?>
-                        <a href="problems" class="mt-xl button outline is-hidden-desktop expand l10n">Se alla problem</a>
+                        <a href="problem" class="mt-xl button outline is-hidden-desktop expand l10n">Se alla problem</a>
                   </section>
                   <section id="our-approach">
                         <div class="flex-row align-end justify-space-between">
@@ -396,7 +396,7 @@
                                                       <div class="h200 l10n">Unik helhetslösning</div>
                                                 </div>
                                                 <p class="p200 mt-xxs l10n">
-                                                     Vi erbjuder unika helhetslösningar för att identifiera, behandla och kontrollera problemhy med anpassade behandlingar.
+                                                      Vi erbjuder unika helhetslösningar för att identifiera, behandla och kontrollera problemhy med anpassade behandlingar.
                                                 </p>
                                                 <div class="divider"></div>
                                           </div>

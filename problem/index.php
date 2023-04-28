@@ -37,36 +37,250 @@ class Problem
       public string $info;
 }
 
-$problems['acne'] = new Problem('Akne', 'problems/acne', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se', 'images/problems/small/acne.jpg', 'images/problems/medium/acne.jpg', 'images/problems/large/acne.jpg', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...');
-$problems['acne-scars'] = new Problem('Akneärr', 'problems/acne-scars', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se', 'images/problems/small/acne-scars.jpg', 'images/problems/medium/acne-scars.jpg', 'images/problems/large/acne-scars.jpg', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...');
-$problems['comedones'] = new Problem('Pormaskar', 'problems/comedones', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se', 'images/problems/small/comedones.jpg', 'images/problems/medium/comedones.jpg', 'images/problems/large/comedones.jpg', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...');
-$problems['rosacea'] = new Problem('Rosacea', 'problems/rosacea', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se', 'images/problems/small/rosacea.jpg', 'images/problems/medium/rosacea.jpg', 'images/problems/large/rosacea.jpg', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...');
-$problems['seborrhea'] = new Problem('Seborré', 'problems/seborrhea', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se', 'images/problems/small/seborrhea.jpg', 'images/problems/medium/seborrhea.jpg', 'images/problems/large/seborrhea.jpg', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...');
-$problems['perioral-dermatitis'] = new Problem('Perioral dermatit', 'problems/perioral-dermatitis', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se', 'images/problems/small/perioral-dermatitis.jpg', 'images/problems/medium/perioral-dermatitis.jpg', 'images/problems/large/perioral-dermatitis.jpg', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...');
-$problems['large-pores'] = new Problem('Stora porer', 'problems/large-pores', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se', 'images/problems/small/large-pores.jpg', 'images/problems/medium/large-pores.jpg', 'images/problems/large/large-pores.jpg', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...');
-$problems['pigmentation'] = new Problem('Pigmentfläckar', 'problems/pigmentation', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se', 'images/problems/small/pigmentation.jpg', 'images/problems/medium/pigmentation.jpg', 'images/problems/large/pigmentation.jpg', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...');
-$problems['oily-combination-skin'] = new Problem('Blandhy', 'problems/oily-combination-skin', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se', 'images/problems/small/oily-combination-skin.jpg', 'images/problems/medium/oily-combination-skin.jpg', 'images/problems/large/oily-combination-skin.jpg', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...');
-$problems['dry-and-sensitive-skin'] = new Problem('Torr & Känslig hy', 'problems/dry-and-sensitive-skin', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se', 'images/problems/small/dry-and-sensitive-skin.jpg', 'images/problems/medium/dry-and-sensitive-skin.jpg', 'images/problems/large/dry-and-sensitive-skin.jpg', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...');
-$problems['mature-skin'] = new Problem('Mogen Hy', 'problems/mature-skin', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se', 'images/problems/small/mature-skin.jpg', 'images/problems/medium/mature-skin.jpg', 'images/problems/large/mature-skin.jpg', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...');
-$problems['milia'] = new Problem('Milier', 'problems/milia', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se', 'images/problems/small/milier.jpg', 'images/problems/medium/milier.jpg', 'images/problems/large/milier.jpg', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...');
-$problems['visible-blood-vessels'] = new Problem('Ytliga Blodkärl', 'problems/visible-blood-vessels', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se', 'images/problems/small/visible-blood-vessels.jpg', 'images/problems/medium/visible-blood-vessels.jpg', 'images/problems/large/visible-blood-vessels.jpg', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...');
-$problems['skin-imperfections'] = new Problem('Hudförändringar', 'problems/skin-imperfections', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se', 'images/problems/small/skin-imperfections.jpg', 'images/problems/medium/skin-imperfections.jpg', 'images/problems/large/skin-imperfections.jpg', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...');
-$problems['pimples'] = new Problem('Finnar', 'problems/pimples', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se', 'images/problems/small/pimples.jpg', 'images/problems/medium/pimples.jpg', 'images/problems/large/pimples.jpg', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...');
-$problems['stretch-marks'] = new Problem('Bristningar', 'problems/stretch-marks', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se', 'images/problems/small/stretch-marks.jpg', 'images/problems/medium/stretch-marks.jpg', 'images/problems/large/stretch-marks.jpg', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...');
-$problems['operational-scars'] = new Problem('Operations & Skadeärr', 'problems/operational-scars', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se', 'images/problems/small/operational-scars.jpg', 'images/problems/medium/operational-scars.jpg', 'images/problems/large/operational-scars.jpg', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...');
-$problems['unwanted-hair'] = new Problem('Oönskat hår', 'problems/unwanted-hair', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se', 'images/problems/small/unwanted-hair.jpg', 'images/problems/medium/unwanted-hair.jpg', 'images/problems/large/unwanted-hair.jpg', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...');
-$problems['scars-from-pimples'] = new Problem('Ärr från finnar', 'problems/scars-from-pimples', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se', 'images/problems/small/scars-from-pimples.jpg', 'images/problems/medium/scars-from-pimples.jpg', 'images/problems/large/scars-from-pimples.jpg', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...');
+$problems['akne'] = new Problem(
+      label: 'Akne',
+      url: 'problem/akne',
+      consultation_url: 'https://dahlskincare.com/skin-consultation',
+      booking_url: 'https://www.bokadirekt.se',
+      image_small: 'images/problems/small/acne.jpg',
+      image_medium: 'images/problems/medium/acne.jpg',
+      image_large: 'images/problems/large/acne.jpg',
+      info: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...'
+);
+$problems['aknearr'] = new Problem(
+      label: 'Akneärr',
+      url: 'problem/aknearr',
+      consultation_url: 'https://dahlskincare.com/skin-consultation',
+      booking_url: 'https://www.bokadirekt.se',
+      image_small: 'images/problems/small/acne-scars.jpg',
+      image_medium: 'images/problems/medium/acne-scars.jpg',
+      image_large: 'images/problems/large/acne-scars.jpg',
+      info: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...'
+);
+$problems['pormaskar'] = new Problem(
+      label: 'Pormaskar',
+      url: 'problem/pormaskar',
+      consultation_url: 'https://dahlskincare.com/skin-consultation',
+      booking_url: 'https://www.bokadirekt.se',
+      image_small: 'images/problems/small/comedones.jpg',
+      image_medium: 'images/problems/medium/comedones.jpg',
+      image_large: 'images/problems/large/comedones.jpg',
+      info: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...'
+);
+$problems['rosacea'] = new Problem(
+      label: 'Rosacea',
+      url: 'problem/rosacea',
+      consultation_url: 'https://dahlskincare.com/skin-consultation',
+      booking_url: 'https://www.bokadirekt.se',
+      image_small: 'images/problems/small/rosacea.jpg',
+      image_medium: 'images/problems/medium/rosacea.jpg',
+      image_large: 'images/problems/large/rosacea.jpg',
+      info: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...'
+);
+$problems['seborre'] = new Problem(
+      label: 'Seborré',
+      url: 'problem/seborre',
+      consultation_url: 'https://dahlskincare.com/skin-consultation',
+      booking_url: 'https://www.bokadirekt.se',
+      image_small: 'images/problems/small/seborrhea.jpg',
+      image_medium: 'images/problems/medium/seborrhea.jpg',
+      image_large: 'images/problems/large/seborrhea.jpg',
+      info: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...'
+);
+$problems['perioral-dermatit'] = new Problem(
+      label: 'Perioral dermatit',
+      url: 'problem/perioral-dermatitis',
+      consultation_url: 'https://dahlskincare.com/skin-consultation',
+      booking_url: 'https://www.bokadirekt.se',
+      image_small: 'images/problems/small/perioral-dermatitis.jpg',
+      image_medium: 'images/problems/medium/perioral-dermatitis.jpg',
+      image_large: 'images/problems/large/perioral-dermatitis.jpg',
+      info: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...'
+);
+$problems['stora-porer'] = new Problem(
+      label: 'Stora porer',
+      url: 'problem/stora-porer',
+      consultation_url: 'https://dahlskincare.com/skin-consultation',
+      booking_url: 'https://www.bokadirekt.se',
+      image_small: 'images/problems/small/large-pores.jpg',
+      image_medium: 'images/problems/medium/large-pores.jpg',
+      image_large: 'images/problems/large/large-pores.jpg',
+      info: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...'
+);
+$problems['pigmentflackar'] = new Problem(
+      label: 'Pigmentfläckar',
+      url: 'problem/pigmentflackar',
+      consultation_url: 'https://dahlskincare.com/skin-consultation',
+      booking_url: 'https://www.bokadirekt.se',
+      image_small: 'images/problems/small/pigmentation.jpg',
+      image_medium: 'images/problems/medium/pigmentation.jpg',
+      image_large: 'images/problems/large/pigmentation.jpg',
+      info: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...'
+);
+$problems['blandhy'] = new Problem(
+      label: 'Blandhy',
+      url: 'problem/blandhy',
+      consultation_url: 'https://dahlskincare.com/skin-consultation',
+      booking_url: 'https://www.bokadirekt.se',
+      image_small: 'images/problems/small/oily-combination-skin.jpg',
+      image_medium: 'images/problems/medium/oily-combination-skin.jpg',
+      image_large: 'images/problems/large/oily-combination-skin.jpg',
+      info: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...'
+);
+$problems['torr-kanslig-hy'] = new Problem(
+      label: 'Torr & Känslig hy',
+      url: 'problem/torr-kanslig-hy',
+      consultation_url: 'https://dahlskincare.com/skin-consultation',
+      booking_url: 'https://www.bokadirekt.se',
+      image_small: 'images/problems/small/dry-and-sensitive-skin.jpg',
+      image_medium: 'images/problems/medium/dry-and-sensitive-skin.jpg',
+      image_large: 'images/problems/large/dry-and-sensitive-skin.jpg',
+      info: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...'
+);
+$problems['mogen-hy'] = new Problem(
+      label: 'Mogen Hy',
+      url: 'problem/mogen-hy',
+      consultation_url: 'https://dahlskincare.com/skin-consultation',
+      booking_url: 'https://www.bokadirekt.se',
+      image_small: 'images/problems/small/mature-skin.jpg',
+      image_medium: 'images/problems/medium/mature-skin.jpg',
+      image_large: 'images/problems/large/mature-skin.jpg',
+      info: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...'
+);
+$problems['milier'] = new Problem(
+      label: 'Milier',
+      url: 'problem/milier',
+      consultation_url: 'https://dahlskincare.com/skin-consultation',
+      booking_url: 'https://www.bokadirekt.se',
+      image_small: 'images/problems/small/milier.jpg',
+      image_medium: 'images/problems/medium/milier.jpg',
+      image_large: 'images/problems/large/milier.jpg',
+      info: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...'
+);
+$problems['ytliga-blodkarl'] = new Problem(
+      label: 'Ytliga Blodkärl',
+      url: 'problem/ytliga-blodkarl',
+      consultation_url: 'https://dahlskincare.com/skin-consultation',
+      booking_url: 'https://www.bokadirekt.se',
+      image_small: 'images/problems/small/visible-blood-vessels.jpg',
+      image_medium: 'images/problems/medium/visible-blood-vessels.jpg',
+      image_large: 'images/problems/large/visible-blood-vessels.jpg',
+      info: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...'
+);
+$problems['hudforandringar'] = new Problem(
+      label: 'Hudförändringar',
+      url: 'problem/hudforandringar',
+      consultation_url: 'https://dahlskincare.com/skin-consultation',
+      booking_url: 'https://www.bokadirekt.se',
+      image_small: 'images/problems/small/skin-imperfections.jpg',
+      image_medium: 'images/problems/medium/skin-imperfections.jpg',
+      image_large: 'images/problems/large/skin-imperfections.jpg',
+      info: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...'
+);
+$problems['finnar'] = new Problem(
+      label: 'Finnar',
+      url: 'problem/finnar',
+      consultation_url: 'https://dahlskincare.com/skin-consultation',
+      booking_url: 'https://www.bokadirekt.se',
+      image_small: 'images/problems/small/pimples.jpg',
+      image_medium: 'images/problems/medium/pimples.jpg',
+      image_large: 'images/problems/large/pimples.jpg',
+      info: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...'
+);
+$problems['bristningar'] = new Problem(
+      label: 'Bristningar',
+      url: 'problem/bristningar',
+      consultation_url: 'https://dahlskincare.com/skin-consultation',
+      booking_url: 'https://www.bokadirekt.se',
+      image_small: 'images/problems/small/stretch-marks.jpg',
+      image_medium: 'images/problems/medium/stretch-marks.jpg',
+      image_large: 'images/problems/large/stretch-marks.jpg',
+      info: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...'
+);
+$problems['operations-arr'] = new Problem(
+      label: 'Operations & Skadeärr',
+      url: 'problem/operations-arr',
+      consultation_url: 'https://dahlskincare.com/skin-consultation',
+      booking_url: 'https://www.bokadirekt.se',
+      image_small: 'images/problems/small/operational-scars.jpg',
+      image_medium: 'images/problems/medium/operational-scars.jpg',
+      image_large: 'images/problems/large/operational-scars.jpg',
+      info: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...'
+);
+$problems['oonskad-harvaxt'] = new Problem(
+      label: 'Oönskat hår',
+      url: 'problem/oonskad-harvaxt',
+      consultation_url: 'https://dahlskincare.com/skin-consultation',
+      booking_url: 'https://www.bokadirekt.se',
+      image_small: 'images/problems/small/unwanted-hair.jpg',
+      image_medium: 'images/problems/medium/unwanted-hair.jpg',
+      image_large: 'images/problems/large/unwanted-hair.jpg',
+      info: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...'
+);
+$problems['arr-fran-finnar'] = new Problem(
+      label: 'Ärr från finnar',
+      url: 'problem/arr-fran-finnar',
+      consultation_url: 'https://dahlskincare.com/skin-consultation',
+      booking_url: 'https://www.bokadirekt.se',
+      image_small: 'images/problems/small/scars-from-pimples.jpg',
+      image_medium: 'images/problems/medium/scars-from-pimples.jpg',
+      image_large: 'images/problems/large/scars-from-pimples.jpg',
+      info: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...'
+);
 
-$problem_areas[] = new ProblemArea('Face', 'area-face', array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples'));
-$problem_areas[] = new ProblemArea('Body', 'area-face', array('acne', 'acne-scars', 'comedones'));
-$problem_areas[] = new ProblemArea('Chest', 'area-face', array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples'));
-$problem_areas[] = new ProblemArea('Eyes', 'area-face', array('rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples'));
-$problem_areas[] = new ProblemArea('Lips', 'area-face', array('unwanted-hair'));
-$problem_areas[] = new ProblemArea('Hair', 'area-face', array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples'));
-$problem_areas[] = new ProblemArea('Back', 'area-face', array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples'));
-$problem_areas[] = new ProblemArea('Shoulders', 'area-face', array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples'));
-$problem_areas[] = new ProblemArea('Neckline', 'area-face', array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples'));
-$problem_areas[] = new ProblemArea('Neck', 'area-face', array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples'));
+$problem_areas = array(
+      new ProblemArea(
+            label: 'Face',
+            icon: 'area-face',
+            problem_ids: array('akne', 'aknearr', 'pormaskar', 'rosacea', 'seborre', 'perioral-dermatit', 'stora-porer', 'pigmentflackar', 'blandhy', 'torr-kanslig-hy', 'mogen-hy', 'milier', 'ytliga-blodkarl', 'hudforandringar', 'finnar', 'bristningar', 'operationsarr', 'oonskad-harvaxt', 'arr-fran-finnar')
+      ),
+      new ProblemArea(
+            label: 'Body',
+            icon: 'area-face',
+            problem_ids: array('akne', 'aknearr', 'pormaskar', 'rosacea', 'seborre', 'perioral-dermatit', 'stora-porer', 'pigmentflackar', 'blandhy', 'torr-kanslig-hy', 'mogen-hy', 'milier', 'ytliga-blodkarl', 'hudforandringar', 'finnar', 'bristningar', 'operationsarr', 'oonskad-harvaxt', 'arr-fran-finnar')
+      ),
+      new ProblemArea(
+            label: 'Chest',
+            icon: 'area-face',
+            problem_ids: array('akne', 'aknearr', 'pormaskar', 'rosacea', 'seborre', 'perioral-dermatit', 'stora-porer', 'pigmentflackar', 'blandhy', 'torr-kanslig-hy', 'mogen-hy', 'milier', 'ytliga-blodkarl', 'hudforandringar', 'finnar', 'bristningar', 'operationsarr', 'oonskad-harvaxt', 'arr-fran-finnar')
+      ),
+      new ProblemArea(
+            label: 'Eyes',
+            icon: 'area-face',
+            problem_ids: array('akne', 'aknearr', 'pormaskar', 'rosacea', 'seborre', 'perioral-dermatit', 'stora-porer', 'pigmentflackar', 'blandhy', 'torr-kanslig-hy', 'mogen-hy', 'milier', 'ytliga-blodkarl', 'hudforandringar', 'finnar', 'bristningar', 'operationsarr', 'oonskad-harvaxt', 'arr-fran-finnar')
+      ),
+      new ProblemArea(
+            label: 'Lips',
+            icon: 'area-face',
+            problem_ids: array('akne', 'aknearr', 'pormaskar', 'rosacea', 'seborre', 'perioral-dermatit', 'stora-porer', 'pigmentflackar', 'blandhy', 'torr-kanslig-hy', 'mogen-hy', 'milier', 'ytliga-blodkarl', 'hudforandringar', 'finnar', 'bristningar', 'operationsarr', 'oonskad-harvaxt', 'arr-fran-finnar')
+      ),
+      new ProblemArea(
+            label: 'Hair',
+            icon: 'area-face',
+            problem_ids: array('akne', 'aknearr', 'pormaskar', 'rosacea', 'seborre', 'perioral-dermatit', 'stora-porer', 'pigmentflackar', 'blandhy', 'torr-kanslig-hy', 'mogen-hy', 'milier', 'ytliga-blodkarl', 'hudforandringar', 'finnar', 'bristningar', 'operationsarr', 'oonskad-harvaxt', 'arr-fran-finnar')
+      ),
+      new ProblemArea(
+            label: 'Back',
+            icon: 'area-face',
+            problem_ids: array('akne', 'aknearr', 'pormaskar', 'rosacea', 'seborre', 'perioral-dermatit', 'stora-porer', 'pigmentflackar', 'blandhy', 'torr-kanslig-hy', 'mogen-hy', 'milier', 'ytliga-blodkarl', 'hudforandringar', 'finnar', 'bristningar', 'operationsarr', 'oonskad-harvaxt', 'arr-fran-finnar')
+      ),
+      new ProblemArea(
+            label: 'Shoulders',
+            icon: 'area-face',
+            problem_ids: array('akne', 'aknearr', 'pormaskar', 'rosacea', 'seborre', 'perioral-dermatit', 'stora-porer', 'pigmentflackar', 'blandhy', 'torr-kanslig-hy', 'mogen-hy', 'milier', 'ytliga-blodkarl', 'hudforandringar', 'finnar', 'bristningar', 'operationsarr', 'oonskad-harvaxt', 'arr-fran-finnar')
+      ),
+      new ProblemArea(
+            label: 'Neckline',
+            icon: 'area-face',
+            problem_ids: array('akne', 'aknearr', 'pormaskar', 'rosacea', 'seborre', 'perioral-dermatit', 'stora-porer', 'pigmentflackar', 'blandhy', 'torr-kanslig-hy', 'mogen-hy', 'milier', 'ytliga-blodkarl', 'hudforandringar', 'finnar', 'bristningar', 'operationsarr', 'oonskad-harvaxt', 'arr-fran-finnar')
+      ),
+      new ProblemArea(
+            label: 'Neck',
+            icon: 'area-face',
+            problem_ids: array('akne', 'aknearr', 'pormaskar', 'rosacea', 'seborre', 'perioral-dermatit', 'stora-porer', 'pigmentflackar', 'blandhy', 'torr-kanslig-hy', 'mogen-hy', 'milier', 'ytliga-blodkarl', 'hudforandringar', 'finnar', 'bristningar', 'operationsarr', 'oonskad-harvaxt', 'arr-fran-finnar')
+      ),
+);
+
 ?>
 
 <!DOCTYPE html>

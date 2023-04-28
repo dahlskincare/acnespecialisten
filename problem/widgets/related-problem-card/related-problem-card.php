@@ -1,4 +1,4 @@
-<a href="problems/<?php echo $problem->id ?>" class="related-problem-card-widget">
+<a href="problem/<?php echo $problem->id ?>" class="related-problem-card-widget">
     <div class="image">
         <img src="<?php echo $problem->image ?>" alt="<?php echo $problem->name ?>" width="102" height="102" />
     </div>

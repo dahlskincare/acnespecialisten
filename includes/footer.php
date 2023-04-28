@@ -87,7 +87,7 @@
                                 <a href="https://dahlskincare.com/skin-consultation" target="_blank" class="button text grey compact l10n">Gratis hudkonsultation</a>
                             </li>
                             <li>
-                                <a href="problems" class="button text grey compact l10n">Problem</a>
+                                <a href="problem" class="button text grey compact l10n">Problem</a>
                             </li>
                             <li>
                                 <a href="services" class="button text grey compact l10n">Behandlignar</a>
@@ -332,7 +332,7 @@
                                             <a href="https://dahlskincare.com/skin-consultation" target="_blank" class="button text grey compact l10n">Gratis konsultation</a>
                                         </li>
                                         <li>
-                                            <a href="problems" class="button text grey compact l10n">Problem</a>
+                                            <a href="problem" class="button text grey compact l10n">Problem</a>
                                         </li>
                                         <li>
                                             <a href="services" class="button text grey compact l10n">Behandlingar</a>
