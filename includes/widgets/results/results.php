@@ -1,5 +1,12 @@
 <?php
 
+if (!isset($results_title)) {
+    $results_title = 'Resultat';
+}
+if (!isset($show_all_results_label)) {
+    $show_all_results_label = 'Visa fler resultat';
+}
+
 if (!isset($results)) {
     $results = array(
         new ResultCustomer(
@@ -95,7 +102,7 @@ if (!isset($results)) {
 <div class="results-widget">
     <div class="is-hidden-desktop">
         <div class="flex-row justify-space-between">
-            <div class="h500 l10n">Results</div>
+            <div class="h500 l10n"><?php echo $results_title ?></div>
             <div class="result-step-buttons">
                 <button class="round-large grey" onclick="ResultsWidget.scroll(-1)">
                     <?php icon('arrow-left') ?>
@@ -113,14 +120,14 @@ if (!isset($results)) {
                 <?php } ?>
             </div>
         </div>
-        <a class="mt-xl button b200 outline expand l10n" href="results">View all treatment results</a>
+        <a class="mt-xl button b200 outline expand l10n" href="results"><?php echo $show_all_results_label ?></a>
     </div>
 
     <div class="is-hidden-touch" id="results-large">
         <div class="flex-row align-end justify-space-between">
-            <div class="h500 l10n">Results</div>
+            <div class="h500 l10n"><?php echo $results_title ?></div>
             <a href="results" class="button compact text">
-                <span class="l10n">View all treatment results</span>
+                <span class="l10n"><?php echo $show_all_results_label ?></span>
                 <?php icon('navigate-next') ?>
             </a>
         </div>
