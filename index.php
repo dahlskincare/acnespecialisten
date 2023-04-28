@@ -443,10 +443,10 @@
                         </div>
                         <?php
                         $specialists = array();
-                        $specialists[] = new Specialist('Cazzandra Lindberg', 'Hudterapeut sedan 2015', 'images/specialists/small/specialist-1.jpg', 'images/specialists/large/specialist-1.jpg');
-                        $specialists[] = new Specialist('Veronika Benedik', 'Hudterapeut sedan 1999', 'images/specialists/small/specialist-2.jpg', 'images/specialists/large/specialist-2.jpg');
-                        $specialists[] = new Specialist('Amira Maqboul', 'Hudterapeut sedan 2017', 'images/specialists/small/specialist-3.jpg', 'images/specialists/large/specialist-3.jpg');
-                        $specialists[] = new Specialist('Vilma Libom', 'Hudterapeut sedan 2019', 'images/specialists/small/specialist-4.jpg', 'images/specialists/large/specialist-4.jpg');
+                        $specialists[] = new Specialist('Cazzandra Lindberg', 'Hudterapeut sedan 2015', 'images/specialists/small/specialist-1.jpg', 'images/specialists/large/hudterapeut-cazzandra.webp');
+                        $specialists[] = new Specialist('Veronika Benedik', 'Hudterapeut sedan 1999', 'images/specialists/small/specialist-2.jpg', 'images/specialists/hudterapeut-veronika.webp');
+                        $specialists[] = new Specialist('Amira Maqboul', 'Hudterapeut sedan 2017', 'images/specialists/small/specialist-3.jpg', 'images/specialists/large/hudterapeut-amira.webp.jpg');
+                        $specialists[] = new Specialist('Vilma Libom', 'Hudterapeut sedan 2019', 'images/specialists/small/specialist-4.jpg', 'images/specialists/large/hudterapeut-vilma.webp.jpg');
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
                         ?>
                         <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="specialists">Se alla specialister</a>
