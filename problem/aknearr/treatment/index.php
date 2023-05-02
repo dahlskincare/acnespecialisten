@@ -62,7 +62,8 @@ $repair_url = 'treatments/acne';
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
 
-    <link rel="stylesheet" href="problem/treatment/treatment.css">
+    <!-- TODO: Set correct url (problem/[PROBLEM FOLDER]/treatment/treatment.css-->
+    <link rel="stylesheet" href="problem/aknearr/treatment/treatment.css">
 </head>
 
 <body>

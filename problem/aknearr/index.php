@@ -1,8 +1,8 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
-include_once('widgets/problem-trivia-card/problem-trivia.php');
-include_once('widgets/symptom-card/symptom.php');
-include_once('widgets/related-problem-card/related-problem.php');
+include_once('../widgets/problem-trivia-card/problem-trivia.php');
+include_once('../widgets/symptom-card/symptom.php');
+include_once('../widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $floating_image = 'images/problems/carousel/large/acne-scars.jpg';
@@ -490,7 +490,7 @@ $related_problems = array(
                               </h2>
                               <?php foreach ($trivias as $trivia) {
                                     echo '<hr>';
-                                    include('widgets/problem-trivia-card/problem-trivia-card.php');
+                                    include('../widgets/problem-trivia-card/problem-trivia-card.php');
                               } ?>
                               <hr>
                         </section>
@@ -536,7 +536,7 @@ $related_problems = array(
                                                       <div class="mt-xxs type-category-content"><?php echo $type_category->content ?></div>
                                                       <div class="type-category-cards">
                                                             <?php foreach ($type_category->types as $type) {
-                                                                  include('widgets/type-card/type-card.php');
+                                                                  include('../widgets/type-card/type-card.php');
                                                             } ?>
                                                       </div>
                                                 </div>
@@ -550,7 +550,7 @@ $related_problems = array(
                                                       <div class="columns is-3 is-variable is-multiline type-category-large-cards">
                                                             <?php foreach ($type_category->types as $type) { ?>
                                                                   <div class="column is-one-third">
-                                                                        <?php include('widgets/type-card/type-card-large.php') ?>
+                                                                        <?php include('../widgets/type-card/type-card-large.php') ?>
                                                                   </div>
                                                             <?php } ?>
                                                       </div>
@@ -579,7 +579,7 @@ $related_problems = array(
                                     <div class="columns is-multiline is-variable is-3" id="symptom-cards">
                                           <?php foreach ($symptoms as $symptom) { ?>
                                                 <div class="column is-half" id="<?php echo $symptom->id ?>">
-                                                      <?php include('widgets/symptom-card/symptom-card.php'); ?>
+                                                      <?php include('../widgets/symptom-card/symptom-card.php'); ?>
                                                 </div>
                                           <?php } ?>
                                     </div>
@@ -677,7 +677,7 @@ $related_problems = array(
                               <dig class="columns is-variable is-0-mobile is-3-tablet is-multiline">
                                     <?php foreach ($related_problems as $problem) { ?>
                                           <div class="column is-half">
-                                                <?php include('widgets/related-problem-card/related-problem-card.php'); ?>
+                                                <?php include('../widgets/related-problem-card/related-problem-card.php'); ?>
                                           </div>
                                     <?php } ?>
                               </dig>
