@@ -4,8 +4,8 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $model = new Service(
-    id: 'problem-skin-facials',
-    title: 'Problem skin facials',
+    id: 'ansiktsbehandlingar-problemhy',
+    title: 'Ansiktsbehandlingar för problemhy',
     duration: '50 min',
     price: '995 kr',
     content: '',
@@ -16,53 +16,199 @@ $model = new Service(
     icons: null,
     short_title: null,
     procedures: array(
-        new Procedure('1 procedure', null, '£1 995', 'https://bokadirekt.se'),
-        new Procedure('3 procedures', '£3 885', '£2 595', 'https://bokadirekt.se'),
-        new Procedure('5 procedures', '£6 475', '£3 995', 'https://bokadirekt.se')
+        new Procedure(
+            label: '1 procedure',
+            full_price: null,
+            price: '£1 995',
+            booking_url: 'https://bokadirekt.se'
+        ),
+        new Procedure(
+            label: '3 procedures',
+            full_price: '£3 885',
+            price: '£2 595',
+            booking_url: 'https://bokadirekt.se'
+        ),
+        new Procedure(
+            label: '5 procedures',
+            full_price: '£6 475',
+            price: '£3 995',
+            booking_url: 'https://bokadirekt.se'
+        )
     ),
     combos: array(
-        new ServiceCombo('https://via.placeholder.com/200x200.webp', 'https://via.placeholder.com/361x274.webp', '50 min', '2595 kr', '3885 kr', 'https://bokadirekt.se', array(
-            new ServiceComboItem('Deep bikini', '995 kr'),
-            new ServiceComboItem('Armpits', '995 kr')
-        )),
-        new ServiceCombo('https://via.placeholder.com/200x200.webp', 'https://via.placeholder.com/361x274.webp', '50 min', '2595 kr', '3885 kr', 'https://bokadirekt.se', array(
-            new ServiceComboItem('Deep bikini', '995 kr'),
-            new ServiceComboItem('Armpits', '995 kr'),
-            new ServiceComboItem('Legs', '995 kr')
-        )),
-        new ServiceCombo('https://via.placeholder.com/200x200.webp', 'https://via.placeholder.com/361x274.webp', '50 min', '2595 kr', '3885 kr', 'https://bokadirekt.se', array(
-            new ServiceComboItem('Full legs', '995 kr'),
-            new ServiceComboItem('Arms up to the elbow', '995 kr'),
-            new ServiceComboItem('Deep bikini', '995 kr'),
-            new ServiceComboItem('Armpits', '995 kr'),
-        ))
+        new ServiceCombo(
+            image_small: 'https://via.placeholder.com/200x200.webp',
+            image_large: 'https://via.placeholder.com/361x274.webp',
+            duration: '50 min',
+            price: '2595 kr',
+            full_price: '3885 kr',
+            booking_url: 'https://bokadirekt.se',
+            items: array(
+                new ServiceComboItem(
+                    title: 'Deep bikini',
+                    price: '995 kr'
+                ),
+                new ServiceComboItem(
+                    title: 'Armpits',
+                    price: '995 kr'
+                )
+            )
+        ),
+        new ServiceCombo(
+            image_small: 'https://via.placeholder.com/200x200.webp',
+            image_large: 'https://via.placeholder.com/361x274.webp',
+            duration: '50 min',
+            price: '2595 kr',
+            full_price: '3885 kr',
+            booking_url: 'https://bokadirekt.se',
+            items: array(
+                new ServiceComboItem(
+                    title: 'Deep bikini',
+                    price: '995 kr'
+                ),
+                new ServiceComboItem(
+                    title: 'Armpits',
+                    price: '995 kr'
+                ),
+                new ServiceComboItem(
+                    title: 'Legs',
+                    price: '995 kr'
+                )
+            )
+        ),
+        new ServiceCombo(
+            image_small: 'https://via.placeholder.com/200x200.webp',
+            image_large: 'https://via.placeholder.com/361x274.webp',
+            duration: '50 min',
+            price: '2595 kr',
+            full_price: '3885 kr',
+            booking_url: 'https://bokadirekt.se',
+            items: array(
+                new ServiceComboItem(
+                    title: 'Full legs',
+                    price: '995 kr'
+                ),
+                new ServiceComboItem(
+                    title: 'Arms up to the elbow',
+                    price: '995 kr'
+                ),
+                new ServiceComboItem(
+                    title: 'Deep bikini',
+                    price: '995 kr'
+                ),
+                new ServiceComboItem(
+                    title: 'Armpits',
+                    price: '995 kr'
+                ),
+            )
+        )
     )
 );
 
 $treatment_areas = array(
-    new TreatmentArea(image_small: 'https://via.placeholder.com/361x274.webm', image_large: 'https://via.placeholder.com/872x456.webm', title: 'Body', description: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin.</p>', items: array(
-        'hands-n-fingers' => new TreatmentAreaItem(image: 'https://via.placeholder.com/102x102.webm', title: 'Hands & fingers', duration: '30 min', price: '1295 kr'),
-        'shoulders' => new TreatmentAreaItem(image: 'https://via.placeholder.com/102x102.webm', title: 'Shoulders', duration: '30 min', price: '1295 kr'),
-        'armpits' => new TreatmentAreaItem(image: 'https://via.placeholder.com/102x102.webm', title: 'Armpits', duration: '30 min', price: '1295 kr'),
-        'chest' => new TreatmentAreaItem(image: 'https://via.placeholder.com/102x102.webm', title: 'Chest', duration: '30 min', price: '1295 kr')
-    )),
-    new TreatmentArea(image_small: 'https://via.placeholder.com/361x274.webm', image_large: 'https://via.placeholder.com/872x456.webm', title: 'Intimate', description: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin.</p>', items: array(
-        'bikini_line' => new TreatmentAreaItem(image: null, title: 'Bikini line', duration: '30 min', price: '1295 kr'),
-        'string' => new TreatmentAreaItem(image: null, title: 'String', duration: '30 min', price: '1295 kr'),
-        'brazilian' => new TreatmentAreaItem(image: null, title: 'Brazilian', duration: '30 min', price: '1295 kr')
-    )),
-    new TreatmentArea(image_small: 'https://via.placeholder.com/361x274.webm', image_large: 'https://via.placeholder.com/872x456.webm', title: 'Face', description: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin.</p>', items: array(
-        'bikini_line' => new TreatmentAreaItem(image: 'https://via.placeholder.com/102x102.webm', title: 'Ears', duration: '30 min', price: '1295 kr'),
-        'string' => new TreatmentAreaItem(image: 'https://via.placeholder.com/102x102.webm', title: 'Cheeks', duration: '30 min', price: '1295 kr'),
-        'brazilian' => new TreatmentAreaItem(image: 'https://via.placeholder.com/102x102.webm', title: 'Upper lip', duration: '30 min', price: '1295 kr')
-    ), all: new TreatmentAreaItem(image: 'https://via.placeholder.com/102x102.webm', title: 'Whole face', duration: '30 min', price: '1925 kr'))
+    new TreatmentArea(
+        image_small: 'https://via.placeholder.com/361x274.webm',
+        image_large: 'https://via.placeholder.com/872x456.webm',
+        title: 'Body',
+        description: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin.</p>',
+        items: array(
+            'hands-n-fingers' => new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webm',
+                title: 'Hands & fingers',
+                duration: '30 min',
+                price: '1295 kr'
+            ),
+            'shoulders' => new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webm',
+                title: 'Shoulders',
+                duration: '30 min',
+                price: '1295 kr'
+            ),
+            'armpits' => new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webm',
+                title: 'Armpits',
+                duration: '30 min',
+                price: '1295 kr'
+            ),
+            'chest' => new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webm',
+                title: 'Chest',
+                duration: '30 min',
+                price: '1295 kr'
+            )
+        )
+    ),
+    new TreatmentArea(
+        image_small: 'https://via.placeholder.com/361x274.webm',
+        image_large: 'https://via.placeholder.com/872x456.webm',
+        title: 'Intimate',
+        description: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin.</p>',
+        items: array(
+            'bikini_line' => new TreatmentAreaItem(
+                image: null,
+                title: 'Bikini line',
+                duration: '30 min',
+                price: '1295 kr'
+            ),
+            'string' => new TreatmentAreaItem(
+                image: null,
+                title: 'String',
+                duration: '30 min',
+                price: '1295 kr'
+            ),
+            'brazilian' => new TreatmentAreaItem(
+                image: null,
+                title: 'Brazilian',
+                duration: '30 min',
+                price: '1295 kr'
+            )
+        )
+    ),
+    new TreatmentArea(
+        image_small: 'https://via.placeholder.com/361x274.webm',
+        image_large: 'https://via.placeholder.com/872x456.webm',
+        title: 'Face',
+        description: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin.</p>',
+        items: array(
+            'bikini_line' => new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webm',
+                title: 'Ears',
+                duration: '30 min',
+                price: '1295 kr'
+            ),
+            'string' => new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webm',
+                title: 'Cheeks',
+                duration: '30 min',
+                price: '1295 kr'
+            ),
+            'brazilian' => new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webm',
+                title: 'Upper lip',
+                duration: '30 min',
+                price: '1295 kr'
+            )
+        ),
+        all: new TreatmentAreaItem(
+            image: 'https://via.placeholder.com/102x102.webm',
+            title: 'Whole face',
+            duration: '30 min',
+            price: '1925 kr'
+        )
+    )
 );
 $treatment_areas_text = '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>';
 
 $service_brands_text = '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>';
 $service_brands = array(
-    new Brand('Powerlite', 'images/brands/powerlite.svg'),
-    new Brand('Dermapen4', 'images/brands/dermapen4.svg')
+    new Brand(
+        label: 'Powerlite',
+        image: 'images/brands/powerlite.svg'
+    ),
+    new Brand(
+        label: 'Dermapen4',
+        image: 'images/brands/dermapen4.svg'
+    )
 );
 
 $nav_buttons = array(
@@ -88,51 +234,235 @@ $types_title = 'Problem facials we provide';
 $types_description = 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.';
 
 $types = array(
-    new Service('chemical-peeling-pigmentation', 'Chemical peeling', null, null, 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',  'https://via.placeholder.com/102x102.jpg', 'https://via.placeholder.com/200x200.jpg', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/'),
-    new Service('laser-pigmentation', 'Laser', null, null, 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',  'https://via.placeholder.com/102x102.jpg', 'https://via.placeholder.com/200x200.jpg', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/'),
-    new Service('ipl-pigmentation', 'IPL', null, null, 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',  'https://via.placeholder.com/102x102.jpg', 'https://via.placeholder.com/200x200.jpg', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/'),
-    new Service('freezetreat-pigmentation', 'FreezeTreat', null, null, 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',  'https://via.placeholder.com/102x102.jpg', 'https://via.placeholder.com/200x200.jpg', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/')
+    new Service(
+        id: 'ansiktsbehandlingar-problemhy/chemical-peeling',
+        title: 'Chemical peeling',
+        duration: null,
+        price: null,
+        content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        consultation_url: 'https://dahlskincare.com/skin-consultation',
+        booking_url: 'https://www.bokadirekt.se/'
+    ),
+    new Service(
+        id: 'ansiktsbehandlingar-problemhy/laser-pigmentation',
+        title: 'Laser',
+        duration: null,
+        price: null,
+        content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        consultation_url: 'https://dahlskincare.com/skin-consultation',
+        booking_url: 'https://www.bokadirekt.se/'
+    ),
+    new Service(
+        id: 'ansiktsbehandlingar-problemhy/ipl-pigmentation',
+        title: 'IPL',
+        duration: null,
+        price: null,
+        content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        consultation_url: 'https://dahlskincare.com/skin-consultation',
+        booking_url: 'https://www.bokadirekt.se/'
+    ),
+    new Service(
+        id: 'ansiktsbehandlingar-problemhy/freezetreat-pigmentation',
+        title: 'FreezeTreat',
+        duration: null,
+        price: null,
+        content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        consultation_url: 'https://dahlskincare.com/skin-consultation',
+        booking_url: 'https://www.bokadirekt.se/'
+    )
 );
 
 $big_types = array(
-    new Service('classic', 'Classic', '60 min', null, 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',  'https://via.placeholder.com/358x274.webp', 'https://via.placeholder.com/872x456.webp', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/', array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'), null, array(
-        new Procedure('1 procedure', null, '£1 995', 'https://www.bokadirekt.se'),
-        new Procedure('3 procedures', '£3 885', '£2 595', 'https://www.bokadirekt.se'),
-        new Procedure('5 procedures', '£6 475', '£3 995', 'https://www.bokadirekt.se')
-    )),
-    new Service('skin-therapists-choice', "The skin therapist's choice", '60 min', null, 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',  'https://via.placeholder.com/358x274.webp', 'https://via.placeholder.com/872x456.webp', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/', array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'), null, array(
-        new Procedure('1 procedure', null, '£1 995', 'https://www.bokadirekt.se'),
-        new Procedure('3 procedures', '£3 885', '£2 595', 'https://www.bokadirekt.se'),
-        new Procedure('5 procedures', '£6 475', '£3 995', 'https://www.bokadirekt.se')
-    )),
-    new Service('peel-boost-glow', 'Peel, Boost & Glow', '60 min', null, 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',  'https://via.placeholder.com/358x274.webp', 'https://via.placeholder.com/872x456.webp', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/', array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'), null, array(
-        new Procedure('1 procedure', null, '£1 995', 'https://www.bokadirekt.se'),
-        new Procedure('3 procedures', '£3 885', '£2 595', 'https://www.bokadirekt.se'),
-        new Procedure('5 procedures', '£6 475', '£3 995', 'https://www.bokadirekt.se')
-    )),
-    new Service('luxury', 'Luxury', '60 min', null, 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',  'https://via.placeholder.com/358x274.webp', 'https://via.placeholder.com/872x456.webp', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/', array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'), null, array(
-        new Procedure('1 procedure', null, '£1 995', 'https://www.bokadirekt.se'),
-        new Procedure('3 procedures', '£3 885', '£2 595', 'https://www.bokadirekt.se'),
-        new Procedure('5 procedures', '£6 475', '£3 995', 'https://www.bokadirekt.se')
-    ))
+    new Service(
+        id: 'classic',
+        title: 'Classic',
+        duration: '60 min',
+        price: null,
+        content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
+        image_small: 'https://via.placeholder.com/358x274.webp',
+        image_large: 'https://via.placeholder.com/872x456.webp',
+        consultation_url: 'https://dahlskincare.com/skin-consultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
+        procedures: array(
+            new Procedure(
+                label: '1 procedure',
+                full_price: null,
+                price: '£1 995',
+                booking_url: 'https://www.bokadirekt.se'
+            ),
+            new Procedure(
+                label: '3 procedures',
+                full_price: '£3 885',
+                price: '£2 595',
+                booking_url: 'https://www.bokadirekt.se'
+            ),
+            new Procedure(
+                label: '5 procedures',
+                full_price: '£6 475',
+                price: '£3 995',
+                booking_url: 'https://www.bokadirekt.se'
+            )
+        )
+    ),
+    new Service(
+        id: 'skin-therapists-choice',
+        title: "The skin therapist's choice",
+        duration: '60 min',
+        price: null,
+        content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
+        image_small: 'https://via.placeholder.com/358x274.webp',
+        image_large: 'https://via.placeholder.com/872x456.webp',
+        consultation_url: 'https://dahlskincare.com/skin-consultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
+        procedures: array(
+            new Procedure(
+                label: '1 procedure',
+                full_price: null,
+                price: '£1 995',
+                booking_url: 'https://www.bokadirekt.se'
+            ),
+            new Procedure(
+                label: '3 procedures',
+                full_price: '£3 885',
+                price: '£2 595',
+                booking_url: 'https://www.bokadirekt.se'
+            ),
+            new Procedure(
+                label: '5 procedures',
+                full_price: '£6 475',
+                price: '£3 995',
+                booking_url: 'https://www.bokadirekt.se'
+            )
+        )
+    ),
+    new Service(
+        id: 'peel-boost-glow',
+        title: 'Peel, Boost & Glow',
+        duration: '60 min',
+        price: null,
+        content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
+        image_small: 'https://via.placeholder.com/358x274.webp',
+        image_large: 'https://via.placeholder.com/872x456.webp',
+        consultation_url: 'https://dahlskincare.com/skin-consultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
+        procedures: array(
+            new Procedure(
+                label: '1 procedure',
+                full_price: null,
+                price: '£1 995',
+                booking_url: 'https://www.bokadirekt.se'
+            ),
+            new Procedure(
+                label: '3 procedures',
+                full_price: '£3 885',
+                price: '£2 595',
+                booking_url: 'https://www.bokadirekt.se'
+            ),
+            new Procedure(
+                label: '5 procedures',
+                full_price: '£6 475',
+                price: '£3 995',
+                booking_url: 'https://www.bokadirekt.se'
+            )
+        )
+    ),
+    new Service(
+        id: 'luxury',
+        title: 'Luxury',
+        duration: '60 min',
+        price: null,
+        content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
+        image_small: 'https://via.placeholder.com/358x274.webp',
+        image_large: 'https://via.placeholder.com/872x456.webp',
+        consultation_url: 'https://dahlskincare.com/skin-consultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
+        procedures: array(
+            new Procedure(
+                label: '1 procedure',
+                full_price: null,
+                price: '£1 995',
+                booking_url: 'https://www.bokadirekt.se'
+            ),
+            new Procedure(
+                label: '3 procedures',
+                full_price: '£3 885',
+                price: '£2 595',
+                booking_url: 'https://www.bokadirekt.se'
+            ),
+            new Procedure(
+                label: '5 procedures',
+                full_price: '£6 475',
+                price: '£3 995',
+                booking_url: 'https://www.bokadirekt.se'
+            )
+        )
+    )
 );
 $all_brands = array(
-    new Brand('Powerlite', 'images/brands/powerlite.svg'),
-    new Brand('Dermapen4', 'images/brands/dermapen4.svg'),
-    new Brand('Cryopen', 'images/brands/cryopen.svg'),
-    new Brand('Lumenis', 'images/brands/lumenis.svg'),
-    new Brand('Alma', 'images/brands/alma.svg'),
-    new Brand('PRXT', 'images/brands/prxt.svg'),
-    new Brand('Hydrafacial', 'images/brands/hydrafacial.svg'),
-    new Brand('IP infusion', 'images/brands/ipinfusion.svg'),
+    new Brand(
+        label: 'Powerlite',
+        image: 'images/brands/powerlite.svg'
+    ),
+    new Brand(
+        label: 'Dermapen4',
+        image: 'images/brands/dermapen4.svg'
+    ),
+    new Brand(
+        label: 'Cryopen',
+        image: 'images/brands/cryopen.svg'
+    ),
+    new Brand(
+        label: 'Lumenis',
+        image: 'images/brands/lumenis.svg'
+    ),
+    new Brand(
+        label: 'Alma',
+        image: 'images/brands/alma.svg'
+    ),
+    new Brand(
+        label: 'PRXT',
+        image: 'images/brands/prxt.svg'
+    ),
+    new Brand(
+        label: 'Hydrafacial',
+        image: 'images/brands/hydrafacial.svg'
+    ),
+    new Brand(
+        label: 'IP infusion',
+        image: 'images/brands/ipinfusion.svg'
+    ),
 );
 
 $faq_categories = array(
     '' => array(
-        new Question('How many treatments are needed?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
-        new Question('Can my acne come back?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
-        new Question('How do I get rid of my acne fast?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
-        new Question('Do I have acne even if I only have one pimple?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.')
+        new Question(
+            title: 'How many treatments are needed?',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        ),
+        new Question(
+            title: 'Can my acne come back?',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        ),
+        new Question(
+            title: 'How do I get rid of my acne fast?',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        ),
+        new Question(
+            title: 'Do I have acne even if I only have one pimple?',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        )
     )
 );
 

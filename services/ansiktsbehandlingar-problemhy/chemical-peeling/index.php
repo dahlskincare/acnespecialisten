@@ -4,8 +4,8 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $model = new Service(
-    id: 'problem-skin-facials',
-    title: 'Problem skin facials',
+    id: 'ansiktsbehandlingar-problemhy/chemical-peeling',
+    title: 'Chemical peeling',
     duration: '50 min',
     price: '995 kr',
     content: '',
@@ -16,17 +16,47 @@ $model = new Service(
     icons: null,
     short_title: null,
     procedures: array(
-        new Procedure('1 procedure', null, '£1 995', 'https://bokadirekt.se'),
-        new Procedure('3 procedures', '£3 885', '£2 595', 'https://bokadirekt.se'),
-        new Procedure('5 procedures', '£6 475', '£3 995', 'https://bokadirekt.se')
+        new Procedure(
+            label: '1 procedure',
+            full_price: null,
+            price: '£1 995',
+            booking_url: 'https://bokadirekt.se'
+        ),
+        new Procedure(
+            label: '3 procedures',
+            full_price: '£3 885',
+            price: '£2 595',
+            booking_url: 'https://bokadirekt.se'
+        ),
+        new Procedure(
+            label: '5 procedures',
+            full_price: '£6 475',
+            price: '£3 995',
+            booking_url: 'https://bokadirekt.se'
+        )
     )
 );
 
 $treatment_areas = array(
     new TreatmentArea(items: array(
-        'face' => new TreatmentAreaItem(image: 'https://via.placeholder.com/102x102.webm', title: 'Face', duration: '30 min', price: '1295 kr'),
-        'chest' => new TreatmentAreaItem(image: 'https://via.placeholder.com/102x102.webm', title: 'Chest', duration: '30 min', price: '1295 kr'),
-        'back' => new TreatmentAreaItem(image: 'https://via.placeholder.com/102x102.webm', title: 'Back', duration: '30 min', price: '1295 kr')
+        'face' => new TreatmentAreaItem(
+            image: 'https://via.placeholder.com/102x102.webm',
+            title: 'Face',
+            duration: '30 min',
+            price: '1295 kr'
+        ),
+        'chest' => new TreatmentAreaItem(
+            image: 'https://via.placeholder.com/102x102.webm',
+            title: 'Chest',
+            duration: '30 min',
+            price: '1295 kr'
+        ),
+        'back' => new TreatmentAreaItem(
+            image: 'https://via.placeholder.com/102x102.webm',
+            title: 'Back',
+            duration: '30 min',
+            price: '1295 kr'
+        )
     ))
 );
 $treatment_areas_text = '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>';
@@ -118,7 +148,7 @@ $specialists = array(
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
 
     <link rel="stylesheet" href="/styles/default-layout.css">
-    <link rel="stylesheet" href="/services/procedure/procedure.css">
+    <link rel="stylesheet" href="/services/procedure.css">
 </head>
 
 <body>

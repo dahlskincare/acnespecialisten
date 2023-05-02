@@ -49,6 +49,11 @@ div#floater {
                         margin-right: 0;
                     }
                 }
+
+                h2.h600 {
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
             }
 
         }

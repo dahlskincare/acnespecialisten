@@ -93,8 +93,8 @@ class ServiceCategory
 
 $service_categories = array(
     new ServiceCategory(
-        id: 'problem-skin-facials',
-        label: 'Problem skin facials',
+        id: 'ansiktsbehandlingar-problemhy',
+        label: 'Ansiktsbehandlingar för problemhy',
         content: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...',
         image_small: 'https://via.placeholder.com/200x200',
         image_large: 'https://via.placeholder.com/424x324.jpg',
