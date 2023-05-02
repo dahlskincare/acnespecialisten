@@ -1,4 +1,4 @@
 RewriteEngine on
-RewriteBase /problem/
+RewriteBase /problem
 RewriteRule ^(.+)/typer(/.+)?$ /problem/$1/types/$2 [L]
 RewriteRule ^(.+)/behandling$ /problem/$1/treatment [L]

@@ -1,6 +1,7 @@
 RewriteEngine On
 # Remove trailing slash always
 RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.+)/$ /$1 [L,R=301]
 
@@ -14,7 +15,7 @@ RewriteRule ^(.+)/$ /$1 [L,R=301]
 #RewriteCond %{THE_REQUEST} \.php[/\s?] [NC]
 #RewriteRule ^(.*)\.php$ /$1 [NC,L,R=301]
 
-RewriteRule ^behandlingar(/.*)?$ /services$1 [L]
+RewriteRule ^behandlingar(/.*)?$ /services/$1 [L]
 RewriteRule ^varumarken/?$ /brands/ [L]
 RewriteRule ^priser/?$ /prices/ [L]
 RewriteRule ^kontakt/?$ /contact/ [L]
