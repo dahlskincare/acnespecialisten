@@ -53,7 +53,7 @@ if (!isset($skin_guide_articles)) {
     <div class="columns is-3 is-variable">
         <?php foreach ($skin_guide_articles as $article) { ?>
             <div class="column is-one-quarter">
-                <a href="skin-guide/<?php echo $article->category_id ?>/<?php echo $article->subcategory_id ?>/<?php echo $article->id ?>" class="skin-guide-article">
+                <a href="hudguide/<?php echo $article->category_id ?>/<?php echo $article->subcategory_id ?>/<?php echo $article->id ?>" class="skin-guide-article">
                     <div class="image-container">
                         <picture>
                             <source media="(max-width: 799px)" srcset="<?php echo $article->image_small ?>">

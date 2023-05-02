@@ -179,21 +179,21 @@
                                     title: 'Behandla',
                                     content: 'Vi erbjuder skräddarsydda behandlingar som åtgärdar hudproblem och förbättrar hudens utseende. Våra hudspecialister säkerställer att behandlingarna är effektiva och säkra för din hudtyp.',
                                     button_label: 'Våra behandlingar',
-                                    button_url: 'treatments'
+                                    button_url: 'behandlingar'
                               ),
                               new ApproachCard(
                                     number: '03',
                                     title: 'Förebygga',
                                     content: 'För att förebygga framtida hudproblem och bibehålla resultatet av behandlingarna rekommenderar vi produkter och rutiner som är anpassade efter din hudtyp och specifika problem.',
                                     button_label: 'Se produkter',
-                                    button_url: 'products'
+                                    button_url: 'produkter'
                               ),
                               new ApproachCard(
                                     number: '04',
                                     title: 'Reparera',
                                     content: 'Efter att det aktiva problemet åtgärdats fokuserar vi på att reparera ärr och bygga upp skyddsbarriären med hjälp av maskinbehandlingar som laser och IPL för att förbättra hudens struktur.',
                                     button_label: 'Se behandlingar',
-                                    button_url: 'treatments'
+                                    button_url: 'behandlingar'
                               )
                         );
                         ?>
@@ -371,7 +371,7 @@
                                     label: 'Ansiktsbehandlingar',
                                     image_small: 'https://via.placeholder.com/114x140.jpg',
                                     image_large: 'images/service-categories/large/facials.jpg',
-                                    url: 'services/facials',
+                                    url: 'behandlingar/facials',
                                     show_on_large: true,
                                     show_on_small: true
                               ),
@@ -379,7 +379,7 @@
                                     label: 'IPL',
                                     image_small: 'https://via.placeholder.com/114x140.jpg',
                                     image_large: 'images/service-categories/large/ipl.jpg',
-                                    url: 'services/ipl',
+                                    url: 'behandlingar/ipl',
                                     show_on_large: true,
                                     show_on_small: true
                               ),
@@ -387,7 +387,7 @@
                                     label: 'Laser',
                                     image_small: 'https://via.placeholder.com/114x140.jpg',
                                     image_large: 'images/service-categories/large/laser-problem-skin.jpg',
-                                    url: 'services/laser',
+                                    url: 'behandlingar/laser',
                                     show_on_large: true,
                                     show_on_small: true,
                               ),
@@ -395,7 +395,7 @@
                                     label: 'Portömning',
                                     image_small: 'https://via.placeholder.com/114x140.jpg',
                                     image_large: 'images/service-categories/large/dermabration.jpg',
-                                    url: 'services/dermabration',
+                                    url: 'behandlingar/dermabration',
                                     show_on_large: true,
                                     show_on_small: true
                               ),
@@ -403,7 +403,7 @@
                                     label: 'Microneedling',
                                     image_small: 'https://via.placeholder.com/114x140.jpg',
                                     image_large: 'images/service-categories/large/microneedling.jpg',
-                                    url: 'services/microneedling',
+                                    url: 'behandlingar/microneedling',
                                     show_on_large: true,
                                     show_on_small: true
                               ),
@@ -411,7 +411,7 @@
                                     label: 'Kemisk Peeling ',
                                     image_small: 'https://via.placeholder.com/114x140.jpg',
                                     image_large: 'images/service-categories/large/injections.jpg',
-                                    url: 'services/injection',
+                                    url: 'behandlingar/injection',
                                     show_on_large: false,
                                     show_on_small: true
                               ),
@@ -419,7 +419,7 @@
                                     label: 'Se alla behandlingar',
                                     image_small: 'https://via.placeholder.com/114x140.jpg',
                                     image_large: 'images/service-categories/large/luxury.jpg',
-                                    url: 'services',
+                                    url: 'behandlingar',
                                     show_on_large: true,
                                     show_on_small: false
                               )
