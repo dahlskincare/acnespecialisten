@@ -144,7 +144,7 @@
                                     <a href="presentkort" class="button text grey compact l10n">Presentkort</a>
                                 </li>
                                 <li>
-                                    <a href="login" class="button text grey compact l10n">Logga in</a>
+                                    <a href="https://dahlskincare.com/profile/start" class="button text grey compact l10n">Logga in</a>
                                 </li>
                             </ul>
                         </div>
@@ -386,7 +386,7 @@
                                             <a href="presentkort" class="button text grey compact l10n">Presentkort</a>
                                         </li>
                                         <li>
-                                            <a href="login" class="button text grey compact l10n">Login</a>
+                                            <a href="https://dahlskincare.com/profile/start" class="button text grey compact l10n">Login</a>
                                         </li>
                                     </ul>
                                 </div>
