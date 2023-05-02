@@ -95,13 +95,62 @@
                         <div class="h500 l10n">Problem</div>
                         <?php
                         $accordion = array(
-                              new AccordionItem('Akne', 'images/problems/carousel/small/acne.jpg', 'images/problems/carousel/large/acne.jpg', 'problems/acne', true, true),
-                              new AccordionItem('Akneärr', 'images/problems/carousel/small/acne-scars.jpg', 'images/problems/carousel/large/acne-scars.jpg', 'problems/acne-scars', true, true),
-                              new AccordionItem('Rosacea', 'images/problems/carousel/small/rosacea.jpg', 'images/problems/carousel/large/rosacea.jpg', 'problems/rosacea', true, true),
-                              new AccordionItem('Pigmentfläckar', 'images/problems/carousel/small/pigmentation.jpg', 'images/problems/carousel/large/pigmentation.jpg', 'problems/pigmentation', true, true),
-                              new AccordionItem('Pormaskar', 'images/problems/carousel/small/large-pores.jpg', 'images/problems/carousel/large/large-pores.jpg', 'problems/large-pores', true, true),
-                              new AccordionItem('Mogen hy', 'images/problems/carousel/small/mature-skin.jpg', 'images/problems/carousel/large/mature-skin.jpg', 'problems/mature-skin', false, true),
-                              new AccordionItem('Se alla problem', 'images/carousel/problems/small/other.jpg', 'images/problems/carousel/large/other.jpg', 'problems', true, false)
+                              new AccordionItem(
+                                    label: 'Akne',
+                                    image_small: 'images/problems/carousel/small/acne.jpg',
+                                    image_large: 'images/problems/carousel/large/acne.jpg',
+                                    url: 'problem/akne',
+                                    show_on_large: true,
+                                    show_on_small: true
+                              ),
+                              new AccordionItem(
+                                    label: 'Akneärr',
+                                    image_small: 'images/problems/carousel/small/acne-scars.jpg',
+                                    image_large: 'images/problems/carousel/large/acne-scars.jpg',
+                                    url: 'problem/aknearr',
+                                    show_on_large: true,
+                                    show_on_small: true
+                              ),
+                              new AccordionItem(
+                                    label: 'Rosacea',
+                                    image_small: 'images/problems/carousel/small/rosacea.jpg',
+                                    image_large: 'images/problems/carousel/large/rosacea.jpg',
+                                    url: 'problem/rosacea',
+                                    show_on_large: true,
+                                    show_on_small: true
+                              ),
+                              new AccordionItem(
+                                    label: 'Pigmentfläckar',
+                                    image_small: 'images/problems/carousel/small/pigmentation.jpg',
+                                    image_large: 'images/problems/carousel/large/pigmentation.jpg',
+                                    url: 'problem/pigmentflackar',
+                                    show_on_large: true,
+                                    show_on_small: true
+                              ),
+                              new AccordionItem(
+                                    label: 'Pormaskar',
+                                    image_small: 'images/problems/carousel/small/large-pores.jpg',
+                                    image_large: 'images/problems/carousel/large/large-pores.jpg',
+                                    url: 'problem/stora-porer',
+                                    show_on_large: true,
+                                    show_on_small: true
+                              ),
+                              new AccordionItem(
+                                    label: 'Mogen hy',
+                                    image_small: 'images/problems/carousel/small/mature-skin.jpg',
+                                    image_large: 'images/problems/carousel/large/mature-skin.jpg',
+                                    url: 'problem/mogen-hy',
+                                    show_on_large: false,
+                                    show_on_small: true
+                              ),
+                              new AccordionItem(
+                                    label: 'Se alla problem',
+                                    image_small: 'images/carousel/problems/small/other.jpg',
+                                    image_large: 'images/problems/carousel/large/other.jpg',
+                                    url: 'problem',
+                                    show_on_large: true,
+                                    show_on_small: false
+                              )
                         );
                         $more_count = 17;
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/accordion/accordion.php')
@@ -118,10 +167,34 @@
                         </div>
                         <?php
                         $approach_cards = array(
-                              new ApproachCard('01', 'Identifiera', 'Vi erbjuder alltid gratis konsultation, där du får en personlig hudterapeut och en individuell behandlingsplan baserad på din hudanalys. Förebilder tas för att jämföra resultat före och efter behandling.', 'Få en gratis konsultation', 'https://www.dahlskincare.com/skin-consultation'),
-                              new ApproachCard('02', 'Behandla', 'Vi erbjuder skräddarsydda behandlingar som åtgärdar hudproblem och förbättrar hudens utseende. Våra hudspecialister säkerställer att behandlingarna är effektiva och säkra för din hudtyp.', 'Våra behandlingar', 'treatments'),
-                              new ApproachCard('03', 'Förebygga', 'För att förebygga framtida hudproblem och bibehålla resultatet av behandlingarna rekommenderar vi produkter och rutiner som är anpassade efter din hudtyp och specifika problem.', 'Se produkter', 'products'),
-                              new ApproachCard('04', 'Reparera', 'Efter att det aktiva problemet åtgärdats fokuserar vi på att reparera ärr och bygga upp skyddsbarriären med hjälp av maskinbehandlingar som laser och IPL för att förbättra hudens struktur.', 'Se behandlingar', 'treatments')
+                              new ApproachCard(
+                                    number: '01',
+                                    title: 'Identifiera',
+                                    content: 'Vi erbjuder alltid gratis konsultation, där du får en personlig hudterapeut och en individuell behandlingsplan baserad på din hudanalys. Förebilder tas för att jämföra resultat före och efter behandling.',
+                                    button_label: 'Få en gratis konsultation',
+                                    button_url: 'https://www.dahlskincare.com/skin-consultation'
+                              ),
+                              new ApproachCard(
+                                    number: '02',
+                                    title: 'Behandla',
+                                    content: 'Vi erbjuder skräddarsydda behandlingar som åtgärdar hudproblem och förbättrar hudens utseende. Våra hudspecialister säkerställer att behandlingarna är effektiva och säkra för din hudtyp.',
+                                    button_label: 'Våra behandlingar',
+                                    button_url: 'treatments'
+                              ),
+                              new ApproachCard(
+                                    number: '03',
+                                    title: 'Förebygga',
+                                    content: 'För att förebygga framtida hudproblem och bibehålla resultatet av behandlingarna rekommenderar vi produkter och rutiner som är anpassade efter din hudtyp och specifika problem.',
+                                    button_label: 'Se produkter',
+                                    button_url: 'products'
+                              ),
+                              new ApproachCard(
+                                    number: '04',
+                                    title: 'Reparera',
+                                    content: 'Efter att det aktiva problemet åtgärdats fokuserar vi på att reparera ärr och bygga upp skyddsbarriären med hjälp av maskinbehandlingar som laser och IPL för att förbättra hudens struktur.',
+                                    button_label: 'Se behandlingar',
+                                    button_url: 'treatments'
+                              )
                         );
                         ?>
                         <div class="columns is-gapless">
@@ -294,13 +367,62 @@
                         <div class="h500 l10n">Behandlingar</div>
                         <?php
                         $accordion = array(
-                              new AccordionItem('Ansiktsbehandlingar', 'https://via.placeholder.com/114x140.jpg', 'images/service-categories/large/facials.jpg', 'services/facials', true, true),
-                              new AccordionItem('IPL', 'https://via.placeholder.com/114x140.jpg', 'images/service-categories/large/ipl.jpg', 'services/ipl', true, true),
-                              new AccordionItem('Laser', 'https://via.placeholder.com/114x140.jpg', 'images/service-categories/large/laser-problem-skin.jpg', 'services/laser', true, true),
-                              new AccordionItem('Portömning', 'https://via.placeholder.com/114x140.jpg', 'images/service-categories/large/dermabration.jpg', 'services/dermabration', true, true),
-                              new AccordionItem('Microneedling', 'https://via.placeholder.com/114x140.jpg', 'images/service-categories/large/microneedling.jpg', 'services/microneedling', true, true),
-                              new AccordionItem('Kemisk Peeling ', 'https://via.placeholder.com/114x140.jpg', 'images/service-categories/large/injections.jpg', 'services/injection', false, true),
-                              new AccordionItem('Se alla behandlingar', 'https://via.placeholder.com/114x140.jpg', 'images/service-categories/large/luxury.jpg', 'services', true, false)
+                              new AccordionItem(
+                                    label: 'Ansiktsbehandlingar',
+                                    image_small: 'https://via.placeholder.com/114x140.jpg',
+                                    image_large: 'images/service-categories/large/facials.jpg',
+                                    url: 'services/facials',
+                                    show_on_large: true,
+                                    show_on_small: true
+                              ),
+                              new AccordionItem(
+                                    label: 'IPL',
+                                    image_small: 'https://via.placeholder.com/114x140.jpg',
+                                    image_large: 'images/service-categories/large/ipl.jpg',
+                                    url: 'services/ipl',
+                                    show_on_large: true,
+                                    show_on_small: true
+                              ),
+                              new AccordionItem(
+                                    label: 'Laser',
+                                    image_small: 'https://via.placeholder.com/114x140.jpg',
+                                    image_large: 'images/service-categories/large/laser-problem-skin.jpg',
+                                    url: 'services/laser',
+                                    show_on_large: true,
+                                    show_on_small: true,
+                              ),
+                              new AccordionItem(
+                                    label: 'Portömning',
+                                    image_small: 'https://via.placeholder.com/114x140.jpg',
+                                    image_large: 'images/service-categories/large/dermabration.jpg',
+                                    url: 'services/dermabration',
+                                    show_on_large: true,
+                                    show_on_small: true
+                              ),
+                              new AccordionItem(
+                                    label: 'Microneedling',
+                                    image_small: 'https://via.placeholder.com/114x140.jpg',
+                                    image_large: 'images/service-categories/large/microneedling.jpg',
+                                    url: 'services/microneedling',
+                                    show_on_large: true,
+                                    show_on_small: true
+                              ),
+                              new AccordionItem(
+                                    label: 'Kemisk Peeling ',
+                                    image_small: 'https://via.placeholder.com/114x140.jpg',
+                                    image_large: 'images/service-categories/large/injections.jpg',
+                                    url: 'services/injection',
+                                    show_on_large: false,
+                                    show_on_small: true
+                              ),
+                              new AccordionItem(
+                                    label: 'Se alla behandlingar',
+                                    image_small: 'https://via.placeholder.com/114x140.jpg',
+                                    image_large: 'images/service-categories/large/luxury.jpg',
+                                    url: 'services',
+                                    show_on_large: true,
+                                    show_on_small: false
+                              )
                         );
 
                         $more_count = 17;
@@ -318,39 +440,114 @@
                         </div>
                         <?php $faq_categories = array(
                               'Behandlingar' => array(
-                                    new Question('Vilka typer av behandlingar erbjuder Acnespecialisten för olika hudproblem?', 'Acnespecialisten erbjuder en rad olika behandlingar för hudproblem, inklusive acnebehandling, rosaceabehandling och portömning.'),
-                                    new Question('Hur lång tid tar en behandling hos Acnespecialisten?', 'En behandling hos Acnespecialisten tar vanligtvis cirka 60 - 90 minuter.'),
-                                    new Question('Hur många behandlingar behövs för att se resultat?', 'Antalet behandlingar som behövs för att se resultat varierar beroende på ditt specifika hudproblem och din hudtyp. Genomsnittligt antal behandlingar är mellan 2-4 stycken.'),
-                                    new Question('Är behandlingarna smärtsamma?', 'Behandlingarna hos Acnespecialisten är utformade för att minimera obehag. När vi behandlar inflammerade områden och utför extraktioner kan det dock uppstå en tillfällig smärta. Denna känsla är dock övergående och försvinner snabbt, så du kan känna dig trygg under behandlingen.'),
-                                    new Question('Kan alla hudtyper behandlas hos Acnespecialisten?', 'Ja, Acnespecialisten erbjuder behandlingar som passar alla hudtyper.'),
+                                    new Question(
+                                          title: 'Vilka typer av behandlingar erbjuder Acnespecialisten för olika hudproblem?',
+                                          text: 'Acnespecialisten erbjuder en rad olika behandlingar för hudproblem, inklusive acnebehandling, rosaceabehandling och portömning.'
+                                    ),
+                                    new Question(
+                                          title: 'Hur lång tid tar en behandling hos Acnespecialisten?',
+                                          text: 'En behandling hos Acnespecialisten tar vanligtvis cirka 60 - 90 minuter.'
+                                    ),
+                                    new Question(
+                                          title: 'Hur många behandlingar behövs för att se resultat?',
+                                          text: 'Antalet behandlingar som behövs för att se resultat varierar beroende på ditt specifika hudproblem och din hudtyp. Genomsnittligt antal behandlingar är mellan 2-4 stycken.'
+                                    ),
+                                    new Question(
+                                          title: 'Är behandlingarna smärtsamma?',
+                                          text: 'Behandlingarna hos Acnespecialisten är utformade för att minimera obehag. När vi behandlar inflammerade områden och utför extraktioner kan det dock uppstå en tillfällig smärta. Denna känsla är dock övergående och försvinner snabbt, så du kan känna dig trygg under behandlingen.'
+                                    ),
+                                    new Question(
+                                          title: 'Kan alla hudtyper behandlas hos Acnespecialisten?',
+                                          text: 'Ja, Acnespecialisten erbjuder behandlingar som passar alla hudtyper.'
+                                    ),
                               ),
                               'Konsultationer' => array(
-                                    new Question('Hur bokar jag en konsultation hos Acnespecialisten?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
-                                    new Question('Vad kan jag förvänta mig under en konsultation?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
-                                    new Question('Är konsultationen gratis?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
-                                    new Question('Hur lång tid tar en konsultation?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
-                                    new Question('Kan jag boka en konsultation online?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+                                    new Question(
+                                          title: 'Hur bokar jag en konsultation hos Acnespecialisten?',
+                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                                    ),
+                                    new Question(
+                                          title: 'Vad kan jag förvänta mig under en konsultation?',
+                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                                    ),
+                                    new Question(
+                                          title: 'Är konsultationen gratis?',
+                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                                    ),
+                                    new Question(
+                                          title: 'Hur lång tid tar en konsultation?',
+                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                                    ),
+                                    new Question(
+                                          title: 'Kan jag boka en konsultation online?',
+                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                                    ),
                               ),
                               'Produkter' => array(
-                                    new Question('Hur bokar jag en konsultation hos Acnespecialisten?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
-                                    new Question('Vad kan jag förvänta mig under en konsultation?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
-                                    new Question('Är konsultationen gratis?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
-                                    new Question('Hur lång tid tar en konsultation?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
-                                    new Question('Kan jag boka en konsultation online?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+                                    new Question(
+                                          title: 'Hur bokar jag en konsultation hos Acnespecialisten?',
+                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                                    ),
+                                    new Question(
+                                          title: 'Vad kan jag förvänta mig under en konsultation?',
+                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                                    ),
+                                    new Question(
+                                          title: 'Är konsultationen gratis?',
+                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                                    ),
+                                    new Question(
+                                          title: 'Hur lång tid tar en konsultation?',
+                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                                    ),
+                                    new Question(
+                                          title: 'Kan jag boka en konsultation online?',
+                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                                    ),
                               ),
                               'Skötselråd och rutiner' => array(
-                                    new Question('Hur bokar jag en konsultation hos Acnespecialisten?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
-                                    new Question('Vad kan jag förvänta mig under en konsultation?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
-                                    new Question('Är konsultationen gratis?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
-                                    new Question('Hur lång tid tar en konsultation?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
-                                    new Question('Kan jag boka en konsultation online?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+                                    new Question(
+                                          title: 'Hur bokar jag en konsultation hos Acnespecialisten?',
+                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                                    ),
+                                    new Question(
+                                          title: 'Vad kan jag förvänta mig under en konsultation?',
+                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                                    ),
+                                    new Question(
+                                          title: 'Är konsultationen gratis?',
+                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                                    ),
+                                    new Question(
+                                          title: 'Hur lång tid tar en konsultation?',
+                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                                    ),
+                                    new Question(
+                                          title: 'Kan jag boka en konsultation online?',
+                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                                    ),
                               ),
                               'Priser och betalning' => array(
-                                    new Question('Hur bokar jag en konsultation hos Acnespecialisten?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
-                                    new Question('Vad kan jag förvänta mig under en konsultation?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
-                                    new Question('Är konsultationen gratis?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
-                                    new Question('Hur lång tid tar en konsultation?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
-                                    new Question('Kan jag boka en konsultation online?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+                                    new Question(
+                                          title: 'Hur bokar jag en konsultation hos Acnespecialisten?',
+                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                                    ),
+                                    new Question(
+                                          title: 'Vad kan jag förvänta mig under en konsultation?',
+                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                                    ),
+                                    new Question(
+                                          title: 'Är konsultationen gratis?',
+                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                                    ),
+                                    new Question(
+                                          title: 'Hur lång tid tar en konsultation?',
+                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                                    ),
+                                    new Question(
+                                          title: 'Kan jag boka en konsultation online?',
+                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                                    ),
                               ),
                         );
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
@@ -442,11 +639,32 @@
                               </a>
                         </div>
                         <?php
-                        $specialists = array();
-                        $specialists[] = new Specialist('Cazzandra Lindberg', 'Hudterapeut sedan 2015', 'images/specialists/small/specialist-1.jpg', 'images/specialists/large/hudterapeut-cazzandra.webp');
-                        $specialists[] = new Specialist('Veronika Benedik', 'Hudterapeut sedan 1999', 'images/specialists/small/specialist-2.jpg', 'images/specialists/large/hudterapeut-veronika.webp');
-                        $specialists[] = new Specialist('Amira Maqboul', 'Hudterapeut sedan 2017', 'images/specialists/small/specialist-3.jpg', 'images/specialists/large/hudterapeut-amira.webp');
-                        $specialists[] = new Specialist('Vilma Libom', 'Hudterapeut sedan 2019', 'images/specialists/small/specialist-4.jpg', 'images/specialists/large/hudterapeut-vilma.webp');
+                        $specialists = array(
+                              new Specialist(
+                                    name: 'Cazzandra Lindberg',
+                                    title: 'Hudterapeut sedan 2015',
+                                    image_small: 'images/specialists/small/specialist-1.jpg',
+                                    image_large: 'images/specialists/large/hudterapeut-cazzandra.webp'
+                              ),
+                              new Specialist(
+                                    name: 'Veronika Benedik',
+                                    title: 'Hudterapeut sedan 1999',
+                                    image_small: 'images/specialists/small/specialist-2.jpg',
+                                    image_large: 'images/specialists/large/hudterapeut-veronika.webp'
+                              ),
+                              new Specialist(
+                                    name: 'Amira Maqboul',
+                                    title: 'Hudterapeut sedan 2017',
+                                    image_small: 'images/specialists/small/specialist-3.jpg',
+                                    image_large: 'images/specialists/large/hudterapeut-amira.webp'
+                              ),
+                              new Specialist(
+                                    name: 'Vilma Libom',
+                                    title: 'Hudterapeut sedan 2019',
+                                    image_small: 'images/specialists/small/specialist-4.jpg',
+                                    image_large: 'images/specialists/large/hudterapeut-vilma.webp'
+                              )
+                        );
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
                         ?>
                         <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="specialists">Se alla specialister</a>
