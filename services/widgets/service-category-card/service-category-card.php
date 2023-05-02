@@ -11,7 +11,7 @@
             </h3>
             <div class="service-links">
                 <?php foreach ($category->services as $service) { ?>
-                    <a href="services/<?php echo $category->id ?>/<?php echo $service->id ?>" class="service-link"><?php echo $service->title ?></a>
+                    <a href="behandlingar/<?php echo $category->id ?>/<?php echo $service->id ?>" class="service-link"><?php echo $service->title ?></a>
                 <?php } ?>
             </div>
         </div>
@@ -19,7 +19,7 @@
             <?php echo $category->content ?>
         </p>
         <div class="is-hidden-tablet">
-            <a href="services/<?php echo $category->id ?>" class="mt-m button outline expand l10n">
+            <a href="behandlingar/<?php echo $category->id ?>" class="mt-m button outline expand l10n">
                 Read more
             </a>
             <hr>
@@ -27,7 +27,7 @@
             <a href="<?php echo $category->booking_url ?>" class="mt-s button expand l10n">Select a procedure</a>
         </div>
         <div class="is-hidden-mobile">
-            <a href="services/<?php echo $category->id ?>" class="mt-m button text compact l10n">Read more</a>
+            <a href="behandlingar/<?php echo $category->id ?>" class="mt-m button text compact l10n">Read more</a>
             <hr>
             <div class="columns is-multiline">
                 <div class="column mt-xxs is-full is-half-widescreen">
