@@ -37,10 +37,14 @@
                     justify-content: space-between;
 
                     .review-box-icons {
-                        .icon>svg {
-                            * {
-                                stroke: $orange-400;
-                                fill: $orange-400;
+                        .icon {
+                            margin-right: $xxs;
+
+                            >svg {
+                                * {
+                                    stroke: $orange-400;
+                                    fill: $orange-400;
+                                }
                             }
                         }
                     }
