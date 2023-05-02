@@ -5,49 +5,29 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $specialists = array(
     new Specialist(
-        name: 'Patrick Minogue',
-        title: 'Estetician',
-        image_small: 'https://via.placeholder.com/358x358.webp',
-        image_large: 'https://via.placeholder.com/358x358.webp',
-        city: 'Sundbyberg',
-        description: 'Danielle is auctorised and CIDESCO certified skin therapist since 2010 and has a long experience in the skin care industry. Danielle is auctorised and CIDESCO certified skin therapist since 2010 and has a long experience.',
-        rating: 4.8,
-        num_treatments: 1234,
-        since_year: 2012
+        name: 'Cazzandra Lindberg',
+        title: 'Hudterapeut sedan 2015',
+        image_small: 'images/specialists/small/specialist-1.jpg',
+        image_large: 'images/specialists/large/hudterapeut-cazzandra.webp'
     ),
     new Specialist(
-        name: 'Patrick Minogue',
-        title: 'Estetician',
-        image_small: 'https://via.placeholder.com/358x358.webp',
-        image_large: 'https://via.placeholder.com/358x358.webp',
-        city: 'Sundbyberg',
-        description: 'Danielle is auctorised and CIDESCO certified skin therapist since 2010 and has a long experience in the skin care industry. Danielle is auctorised and CIDESCO certified skin therapist since 2010 and has a long experience.',
-        rating: 4.8,
-        num_treatments: 1234,
-        since_year: 2012
+        name: 'Veronika Benedik',
+        title: 'Hudterapeut sedan 1999',
+        image_small: 'images/specialists/small/specialist-2.jpg',
+        image_large: 'images/specialists/large/hudterapeut-veronika.webp'
     ),
     new Specialist(
-        name: 'Patrick Minogue',
-        title: 'Estetician',
-        image_small: 'https://via.placeholder.com/358x358.webp',
-        image_large: 'https://via.placeholder.com/358x358.webp',
-        city: 'Sundbyberg',
-        description: 'Danielle is auctorised and CIDESCO certified skin therapist since 2010 and has a long experience in the skin care industry. Danielle is auctorised and CIDESCO certified skin therapist since 2010 and has a long experience.',
-        rating: 4.8,
-        num_treatments: 1234,
-        since_year: 2012
+        name: 'Amira Maqboul',
+        title: 'Hudterapeut sedan 2017',
+        image_small: 'images/specialists/small/specialist-3.jpg',
+        image_large: 'images/specialists/large/hudterapeut-amira.webp'
     ),
     new Specialist(
-        name: 'Patrick Minogue',
-        title: 'Estetician',
-        image_small: 'https://via.placeholder.com/358x358.webp',
-        image_large: 'https://via.placeholder.com/358x358.webp',
-        city: 'Sundbyberg',
-        description: 'Danielle is auctorised and CIDESCO certified skin therapist since 2010 and has a long experience in the skin care industry. Danielle is auctorised and CIDESCO certified skin therapist since 2010 and has a long experience.',
-        rating: 4.8,
-        num_treatments: 1234,
-        since_year: 2012
-    ),
+        name: 'Vilma Libom',
+        title: 'Hudterapeut sedan 2019',
+        image_small: 'images/specialists/small/specialist-4.jpg',
+        image_large: 'images/specialists/large/hudterapeut-vilma.webp'
+    )
 );
 ?>
 <!DOCTYPE html>

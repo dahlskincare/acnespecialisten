@@ -32,10 +32,30 @@ $products = array(
     new Product('balancing-cleanser', '995 kr', '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>', 'https://via.placeholder.com/358x274.jpg', 'https://via.placeholder.com/872x456.jpg'),
 );
 $specialists = array(
-    new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-1.jpg', 'images/specialists/large/specialist-1.jpg'),
-    new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-1.jpg', 'images/specialists/large/specialist-2.jpg'),
-    new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-1.jpg', 'images/specialists/large/specialist-3.jpg'),
-    new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-1.jpg', 'images/specialists/large/specialist-4.jpg'),
+    new Specialist(
+        name: 'Cazzandra Lindberg',
+        title: 'Hudterapeut sedan 2015',
+        image_small: 'images/specialists/small/specialist-1.jpg',
+        image_large: 'images/specialists/large/hudterapeut-cazzandra.webp'
+    ),
+    new Specialist(
+        name: 'Veronika Benedik',
+        title: 'Hudterapeut sedan 1999',
+        image_small: 'images/specialists/small/specialist-2.jpg',
+        image_large: 'images/specialists/large/hudterapeut-veronika.webp'
+    ),
+    new Specialist(
+        name: 'Amira Maqboul',
+        title: 'Hudterapeut sedan 2017',
+        image_small: 'images/specialists/small/specialist-3.jpg',
+        image_large: 'images/specialists/large/hudterapeut-amira.webp'
+    ),
+    new Specialist(
+        name: 'Vilma Libom',
+        title: 'Hudterapeut sedan 2019',
+        image_small: 'images/specialists/small/specialist-4.jpg',
+        image_large: 'images/specialists/large/hudterapeut-vilma.webp'
+    )
 );
 $repair_title = '04. Repair post acne';
 $repair_content = '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>';

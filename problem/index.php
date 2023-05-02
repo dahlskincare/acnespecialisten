@@ -509,11 +509,32 @@ $problem_areas = array(
                               </a>
                         </div>
                         <?php
-                        $specialists = array();
-                        $specialists[] = new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-1.jpg', 'images/specialists/large/specialist-1.jpg');
-                        $specialists[] = new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-2.jpg', 'images/specialists/large/specialist-2.jpg');
-                        $specialists[] = new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-3.jpg', 'images/specialists/large/specialist-3.jpg');
-                        $specialists[] = new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-4.jpg', 'images/specialists/large/specialist-4.jpg');
+                        $specialists = array(
+                              new Specialist(
+                                    name: 'Cazzandra Lindberg',
+                                    title: 'Hudterapeut sedan 2015',
+                                    image_small: 'images/specialists/small/specialist-1.jpg',
+                                    image_large: 'images/specialists/large/hudterapeut-cazzandra.webp'
+                              ),
+                              new Specialist(
+                                    name: 'Veronika Benedik',
+                                    title: 'Hudterapeut sedan 1999',
+                                    image_small: 'images/specialists/small/specialist-2.jpg',
+                                    image_large: 'images/specialists/large/hudterapeut-veronika.webp'
+                              ),
+                              new Specialist(
+                                    name: 'Amira Maqboul',
+                                    title: 'Hudterapeut sedan 2017',
+                                    image_small: 'images/specialists/small/specialist-3.jpg',
+                                    image_large: 'images/specialists/large/hudterapeut-amira.webp'
+                              ),
+                              new Specialist(
+                                    name: 'Vilma Libom',
+                                    title: 'Hudterapeut sedan 2019',
+                                    image_small: 'images/specialists/small/specialist-4.jpg',
+                                    image_large: 'images/specialists/large/hudterapeut-vilma.webp'
+                              )
+                        );
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
                         ?>
                         <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialists">View all specialists</a>

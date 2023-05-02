@@ -126,29 +126,29 @@ $solutions = array(
 );
 $specialists = array(
     new Specialist(
-        name: 'Anette Black',
-        title: 'Skincare specialist since 2010',
+        name: 'Cazzandra Lindberg',
+        title: 'Hudterapeut sedan 2015',
         image_small: 'images/specialists/small/specialist-1.jpg',
-        image_large: 'images/specialists/large/specialist-1.jpg'
+        image_large: 'images/specialists/large/hudterapeut-cazzandra.webp'
     ),
     new Specialist(
-        name: 'Anette Black',
-        title: 'Skincare specialist since 2010',
-        image_small: 'images/specialists/small/specialist-1.jpg',
-        image_large: 'images/specialists/large/specialist-2.jpg'
+        name: 'Veronika Benedik',
+        title: 'Hudterapeut sedan 1999',
+        image_small: 'images/specialists/small/specialist-2.jpg',
+        image_large: 'images/specialists/large/hudterapeut-veronika.webp'
     ),
     new Specialist(
-        name: 'Anette Black',
-        title: 'Skincare specialist since 2010',
-        image_small: 'images/specialists/small/specialist-1.jpg',
-        image_large: 'images/specialists/large/specialist-3.jpg'
+        name: 'Amira Maqboul',
+        title: 'Hudterapeut sedan 2017',
+        image_small: 'images/specialists/small/specialist-3.jpg',
+        image_large: 'images/specialists/large/hudterapeut-amira.webp'
     ),
     new Specialist(
-        name: 'Anette Black',
-        title: 'Skincare specialist since 2010',
-        image_small: 'images/specialists/small/specialist-1.jpg',
-        image_large: 'images/specialists/large/specialist-4.jpg'
-    ),
+        name: 'Vilma Libom',
+        title: 'Hudterapeut sedan 2019',
+        image_small: 'images/specialists/small/specialist-4.jpg',
+        image_large: 'images/specialists/large/hudterapeut-vilma.webp'
+    )
 );
 ?>
 
