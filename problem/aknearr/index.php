@@ -510,7 +510,7 @@ $related_problems = array(
                                     } ?>
                               </div>
                               <hr class="mt-xl3 is-hidden-mobile">
-                              <a href="problem/acne-scars/treatment" class="mt-xl button b200 outline expand auto-width l10n">
+                              <a href="problem/aknearr/behandling" class="mt-xl button b200 outline expand auto-width l10n">
                                     Read more about treatment
                               </a>
                         </section>

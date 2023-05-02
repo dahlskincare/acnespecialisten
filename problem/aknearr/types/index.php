@@ -321,18 +321,40 @@ $specialists = array(
                     <h2 class="h500 l10n">Treatment approach</h2>
                     <?php
                     $approach_cards = array(
-                        new ApproachCard('01', 'Define', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.', 'Get a free consultation', 'https://www.dahlskincare.com/skin-consultation'),
-                        new ApproachCard('02', 'Treat', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.', 'View treatments', 'treatments'),
-                        new ApproachCard('03', 'Prevent', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.', 'View products', 'products'),
-                        new ApproachCard('04', 'Repair', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.', 'View treatments', 'treatments')
+                        new ApproachCard(
+                            number: '01',
+                            title: 'Define',
+                            content: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.',
+                            button_label: 'Get a free consultation',
+                            button_url: 'https://www.dahlskincare.com/skin-consultation'
+                        ),
+                        new ApproachCard(
+                            number: '02',
+                            title: 'Treat',
+                            content: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.',
+                            button_label: 'View treatments',
+                            button_url: 'treatments'
+                        ),
+                        new ApproachCard(
+                            number: '03',
+                            title: 'Prevent',
+                            content: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.',
+                            button_label: 'View products',
+                            button_url: 'products'
+                        ),
+                        new ApproachCard(
+                            number: '04',
+                            title: 'Repair',
+                            content: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.',
+                            button_label: 'View treatments',
+                            button_url: 'treatments'
+                        )
                     );
                     ?>
                     <div class="columns is-gapless">
                         <?php foreach ($approach_cards as $approach_card) { ?>
                             <div class="column">
-                                <?php
-                                include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/approach_card/approach_card.php')
-                                ?>
+                                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/approach_card/approach_card.php') ?>
                             </div>
                         <?php } ?>
                     </div>

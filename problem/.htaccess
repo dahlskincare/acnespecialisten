@@ -1,7 +1,4 @@
 RewriteEngine on
-
 RewriteBase /problem/
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^([^/]+)/?$ $1.php [L,QSA]
-
+RewriteRule ^(.+)/typer(/.+)?$ /problem/$1/types/$2 [L]
+RewriteRule ^(.+)/behandling$ /problem/$1/treatment [L]
