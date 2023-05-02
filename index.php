@@ -561,7 +561,55 @@
                                     <?php icon('navigate-next') ?>
                               </a>
                         </div>
-                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php'); ?>
+                        <?php
+                        $skin_guide_articles = array(
+                              new SkinGuideArticle(
+                                    id: 'how-hormones-effect',
+                                    title: 'How hormones effect?',
+                                    subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
+                                    problem: 'Acne',
+                                    description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
+                                    image_small: 'https://via.placeholder.com/426x324.webp',
+                                    image_large: 'https://via.placeholder.com/872x456.jpg',
+                                    category_id: 'category-here',
+                                    subcategory_id: 'subcategory-here'
+                              ),
+                              new SkinGuideArticle(
+                                    id: 'how-hormones-effect',
+                                    title: 'How hormones effect?',
+                                    subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
+                                    problem: 'Acne',
+                                    description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
+                                    image_small: 'https://via.placeholder.com/426x324.webp',
+                                    image_large: 'https://via.placeholder.com/872x456.jpg',
+                                    category_id: 'category-here',
+                                    subcategory_id: 'subcategory-here'
+                              ),
+                              new SkinGuideArticle(
+                                    id: 'how-hormones-effect',
+                                    title: 'How hormones effect?',
+                                    subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
+                                    problem: 'Acne',
+                                    description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
+                                    image_small: 'https://via.placeholder.com/426x324.webp',
+                                    image_large: 'https://via.placeholder.com/872x456.jpg',
+                                    category_id: 'category-here',
+                                    subcategory_id: 'subcategory-here'
+                              ),
+                              new SkinGuideArticle(
+                                    id: 'how-hormones-effect',
+                                    title: 'How hormones effect?',
+                                    subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
+                                    problem: 'Acne',
+                                    description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
+                                    image_small: 'https://via.placeholder.com/426x324.webp',
+                                    image_large: 'https://via.placeholder.com/872x456.jpg',
+                                    category_id: 'category-here',
+                                    subcategory_id: 'subcategory-here'
+                              )
+                        );
+                        include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php');
+                        ?>
                         <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="skin-guide">Se fler guider</a>
                   </section>
                   <section id="about-us">
