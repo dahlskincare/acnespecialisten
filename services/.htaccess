@@ -1,9 +1,11 @@
 RewriteEngine on
-RewriteBase /services/
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^([^/]+)/?$ service.php?id=$1 [L,QSA]
+#RewriteBase /services/
+#RewriteRule ^behandlingar/?$ /services/ [L]
 
-RewriteBase /services/
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^/]+)/([^/]+)?$ procedure/procedure.php?id=$2 [L,QSA]
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^([^/]+)/?$ service.php?id=$1 [L,QSA]
+
+#RewriteBase /services/
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^([^/]+)/([^/]+)?$ procedure/procedure.php?id=$2 [L,QSA]

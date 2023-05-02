@@ -7,3 +7,17 @@ RewriteRule ^(.*)$ $1.php [NC,L]
 # Externally redirect requests for URLs with the .php extension to the equivalent URL without the .php extension.
 RewriteCond %{THE_REQUEST} \.php[/\s?] [NC]
 RewriteRule ^(.*)\.php$ /$1 [NC,L,R=301]
+
+
+RewriteRule ^behandlingar/?$ /services/ [L]
+RewriteRule ^varumarken/?$ /brands/ [L]
+RewriteRule ^priser/?$ /prices/ [L]
+RewriteRule ^kontakt/?$ /contact/ [L]
+RewriteRule ^resultat/?$ /results/ [L]
+RewriteRule ^om-oss/?$ /about/ [L]
+RewriteRule ^avbokningspolicy/?$ /cancellation-policy/ [L]
+RewriteRule ^presentkort/?$ /gift-cards/ [L]
+RewriteRule ^hudguide/?$ /skin-guide/ [L]
+RewriteRule ^specialister/?$ /specialists/ [L]
+RewriteRule ^ordlista/?$ /glossary/ [L]
+RewriteRule ^karriar/?$ /contact/ [L]

@@ -9,11 +9,11 @@
         </div>
         <div id="mobile-nav-links">
             <a href="problem" class="mobile-nav-link l10n">Problem</a>
-            <a href="prices" class="mobile-nav-link l10n">Priser</a>
-            <a href="services" class="mobile-nav-link l10n">Behandlingar</a>
-            <a href="results" class="mobile-nav-link l10n">Resultat</a>
-            <a href="brands" class="mobile-nav-link l10n">Varumärken</a>
-            <a href="contact" class="mobile-nav-link l10n">Kontakt</a>
+            <a href="priser" class="mobile-nav-link l10n">Priser</a>
+            <a href="behandlingar" class="mobile-nav-link l10n">Behandlingar</a>
+            <a href="resultat" class="mobile-nav-link l10n">Resultat</a>
+            <a href="varumarken" class="mobile-nav-link l10n">Varumärken</a>
+            <a href="kontakt" class="mobile-nav-link l10n">Kontakt</a>
         </div>
         <div id="mobile-expansion-panels">
             <div class="expansion-panel">
@@ -22,10 +22,10 @@
                     <?php icon('arrow-down') ?>
                 </div>
                 <div class="ep-content">
-                    <a href="about" class="l10n">Om oss</a>
+                    <a href="om-oss" class="l10n">Om oss</a>
                     <a href="approach" class="l10n">Vår metod</a>
-                    <a href="specialists" class="l10n">Våra specialister</a>
-                    <a href="career" class="l10n">Karriär</a>
+                    <a href="specialister" class="l10n">Våra specialister</a>
+                    <a href="karriar" class="l10n">Karriär</a>
                 </div>
             </div>
             <div class="expansion-panel">
@@ -35,9 +35,9 @@
                 </div>
                 <div class="ep-content">
                     <a href="faq" class="l10n">Frågor & Svar</a>
-                    <a href="glossary" class="l10n">Ordlista</a>
-                    <a href="skin-guide" class="l10n">Hudguide</a>
-                    <a href="contact" class="l10n">Kontakt</a>
+                    <a href="ordlista" class="l10n">Ordlista</a>
+                    <a href="hudguide" class="l10n">Hudguide</a>
+                    <a href="kontakt" class="l10n">Kontakt</a>
                 </div>
             </div>
             <div class="expansion-panel">
@@ -46,9 +46,9 @@
                     <?php icon('arrow-down') ?>
                 </div>
                 <div class="ep-content">
-                    <a href="results" class="l10n">Resultat</a>
-                    <a href="gift-cards" class="l10n">Presentkort</a>
-                    <a href="consultation" class="l10n">Gratis konsultation</a>
+                    <a href="resultat" class="l10n">Resultat</a>
+                    <a href="presentkort" class="l10n">Presentkort</a>
+                    <a href="konsultation" class="l10n">Gratis konsultation</a>
                 </div>
             </div>
         </div>
@@ -71,9 +71,9 @@
                     <div class="column">
                         <ul>
                             <li class="l10n">Företag</li>
-                            <li><a href="about" class="l10n">Om oss</a></li>
+                            <li><a href="om-oss" class="l10n">Om oss</a></li>
                             <li><a href="approach" class="l10n">Vår metod</a></li>
-                            <li><a href="specialists" class="l10n">Våra specialister</a></li>
+                            <li><a href="specialister" class="l10n">Våra specialister</a></li>
                             <li><a href="career" class="l10n">Karriär</a></li>
                         </ul>
                     </div>
@@ -81,18 +81,18 @@
                         <ul>
                             <li class="l10n">Kundtjänst</li>
                             <li><a href="faq" class="l10n">Frågor & Svar</a></li>
-                            <li><a href="cancellation" class="l10n">Avbokning</a></li>
-                            <li><a href="glossary" class="l10n">Ordlista</a></li>
-                            <li><a href="skin-guide" class="l10n">Hudguide</a></li>
-                            <li><a href="contact" class="l10n">Kontakt</a></li>
+                            <li><a href="avbokningspolicy" class="l10n">Avbokning</a></li>
+                            <li><a href="ordlista" class="l10n">Ordlista</a></li>
+                            <li><a href="hudguide" class="l10n">Hudguide</a></li>
+                            <li><a href="kontakt" class="l10n">Kontakt</a></li>
                         </ul>
                     </div>
                     <div class="column">
                         <ul>
                             <li class="l10n">Community</li>
-                            <li><a href="results" class="l10n">Resultat</a></li>
-                            <li><a href="gift-cards" class="l10n">Presentkort</a></li>
-                            <li><a href="consultation" class="l10n">Gratis konsultation</a></li>
+                            <li><a href="resultat" class="l10n">Resultat</a></li>
+                            <li><a href="presentkort" class="l10n">Presentkort</a></li>
+                            <li><a href="konsultation" class="l10n">Gratis konsultation</a></li>
                         </ul>
                     </div>
                     <div class="column">
@@ -127,10 +127,10 @@
                 <nav>
                     <ul>
                         <li><a href="problem" class="h100 l10n">Problem</a></li>
-                        <li><a href="services" class="h100 l10n">Behandlingar</a></li>
-                        <li><a href="brands" class="h100 l10n">Varumärken</a></li>
-                        <li><a href="prices" class="h100 l10n">Priser</a></li>
-                        <li><a href="contact" class="h100 l10n">Kontakt</a></li>
+                        <li><a href="behandlingar" class="h100 l10n">Behandlingar</a></li>
+                        <li><a href="varumarken" class="h100 l10n">Varumärken</a></li>
+                        <li><a href="priser" class="h100 l10n">Priser</a></li>
+                        <li><a href="kontakt" class="h100 l10n">Kontakt</a></li>
                     </ul>
                 </nav>
             </div>

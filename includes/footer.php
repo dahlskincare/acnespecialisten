@@ -90,13 +90,13 @@
                                 <a href="problem" class="button text grey compact l10n">Problem</a>
                             </li>
                             <li>
-                                <a href="services" class="button text grey compact l10n">Behandlignar</a>
+                                <a href="behandlingar" class="button text grey compact l10n">Behandlignar</a>
                             </li>
                             <li>
-                                <a href="brands" class="button text grey compact l10n">Varumärken</a>
+                                <a href="varumarken" class="button text grey compact l10n">Varumärken</a>
                             </li>
                             <li>
-                                <a href="prices" class="button text grey compact l10n">Priser</a>
+                                <a href="priser" class="button text grey compact l10n">Priser</a>
                             </li>
                         </ul>
                     </div>
@@ -104,16 +104,16 @@
                         <h2 class="l10n">Företag</h2>
                         <ul>
                             <li>
-                                <a href="about" class="button text grey compact l10n">Om oss</a>
+                                <a href="om-oss" class="button text grey compact l10n">Om oss</a>
                             </li>
                             <li>
-                                <a href="our-approach" class="button text grey compact l10n">Vår metod</a>
+                                <a href="approach" class="button text grey compact l10n">Vår metod</a>
                             </li>
                             <li>
-                                <a href="specialists" class="button text grey compact l10n">Våra specialsiter</a>
+                                <a href="specialister" class="button text grey compact l10n">Våra specialsiter</a>
                             </li>
                             <li>
-                                <a href="career" class="button text grey compact l10n">Karriär</a>
+                                <a href="karriar" class="button text grey compact l10n">Karriär</a>
                             </li>
                         </ul>
                     </div>
@@ -127,10 +127,10 @@
                                     <a href="faq" class="button text grey compact l10n">Frågor & Svar</a>
                                 </li>
                                 <li>
-                                    <a href="cancellation" class="button text grey compact l10n">Avbokning</a>
+                                    <a href="avbokningspolicy" class="button text grey compact l10n">Avbokning</a>
                                 </li>
                                 <li>
-                                    <a href="glossary" class="button text grey compact l10n">Ordlista</a>
+                                    <a href="ordlista" class="button text grey compact l10n">Ordlista</a>
                                 </li>
                             </ul>
                         </div>
@@ -138,10 +138,10 @@
                             <h2>Community</h2>
                             <ul>
                                 <li>
-                                    <a href="results" class="button text grey compact l10n">Resultat</a>
+                                    <a href="resultat" class="button text grey compact l10n">Resultat</a>
                                 </li>
                                 <li>
-                                    <a href="giftcards" class="button text grey compact l10n">Presentkort</a>
+                                    <a href="presentkort" class="button text grey compact l10n">Presentkort</a>
                                 </li>
                                 <li>
                                     <a href="login" class="button text grey compact l10n">Logga in</a>
@@ -335,13 +335,13 @@
                                             <a href="problem" class="button text grey compact l10n">Problem</a>
                                         </li>
                                         <li>
-                                            <a href="services" class="button text grey compact l10n">Behandlingar</a>
+                                            <a href="behandlingar" class="button text grey compact l10n">Behandlingar</a>
                                         </li>
                                         <li>
-                                            <a href="brands" class="button text grey compact l10n">Varumärken</a>
+                                            <a href="varumarken" class="button text grey compact l10n">Varumärken</a>
                                         </li>
                                         <li>
-                                            <a href="prices" class="button text grey compact l10n">Priser</a>
+                                            <a href="pricer" class="button text grey compact l10n">Priser</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -349,16 +349,16 @@
                                     <h2 class="l10n">Företag</h2>
                                     <ul>
                                         <li>
-                                            <a href="about" class="button text grey compact l10n">Om oss</a>
+                                            <a href="om-oss" class="button text grey compact l10n">Om oss</a>
                                         </li>
                                         <li>
-                                            <a href="our-approach" class="button text grey compact l10n">Vår metod</a>
+                                            <a href="approach" class="button text grey compact l10n">Vår metod</a>
                                         </li>
                                         <li>
-                                            <a href="specialists" class="button text grey compact l10n">Våra specialister</a>
+                                            <a href="specialister" class="button text grey compact l10n">Våra specialister</a>
                                         </li>
                                         <li>
-                                            <a href="career" class="button text grey compact l10n">Karriär</a>
+                                            <a href="karriar" class="button text grey compact l10n">Karriär</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -369,10 +369,10 @@
                                             <a href="faq" class="button text grey compact l10n">Frågor & Svar</a>
                                         </li>
                                         <li>
-                                            <a href="cancellation" class="button text grey compact l10n">Avbokning</a>
+                                            <a href="avbokningspolicy" class="button text grey compact l10n">Avbokning</a>
                                         </li>
                                         <li>
-                                            <a href="glossary" class="button text grey compact l10n">Ordlista</a>
+                                            <a href="ordlista" class="button text grey compact l10n">Ordlista</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -380,10 +380,10 @@
                                     <h2>Community</h2>
                                     <ul>
                                         <li>
-                                            <a href="results" class="button text grey compact l10n">Resultat</a>
+                                            <a href="resultat" class="button text grey compact l10n">Resultat</a>
                                         </li>
                                         <li>
-                                            <a href="giftcards" class="button text grey compact l10n">Presentkort</a>
+                                            <a href="presentkort" class="button text grey compact l10n">Presentkort</a>
                                         </li>
                                         <li>
                                             <a href="login" class="button text grey compact l10n">Login</a>
