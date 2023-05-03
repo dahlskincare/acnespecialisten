@@ -13,7 +13,7 @@
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
 
     <link rel="stylesheet" href="/styles/default-layout.css">
-    <link rel="stylesheet" href="/cancellation-policy/cancellation-policy.css">
+    <link rel="stylesheet" href="/avbokningspolicy/cancellation-policy.css">
 </head>
 
 <body>

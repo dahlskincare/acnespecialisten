@@ -44,7 +44,7 @@ $salons = array(
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
     <link rel="stylesheet" href="/styles/forms.css">
-    <link rel="stylesheet" href="/contact/contact.css">
+    <link rel="stylesheet" href="/kontakt/contact.css">
 </head>
 
 <body>
