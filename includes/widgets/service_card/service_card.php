@@ -28,7 +28,7 @@
         <p class="mt-m p200">
             <?php echo $service->content ?>
         </p>
-        <a href="services/<?php echo $service->id ?>" class="mt-m button outline expand l10n">Read more</a>
+        <a href="behandlingar/<?php echo $service->id ?>" class="mt-m button outline expand l10n">Read more</a>
         <hr />
         <?php if (isset($service->consultation_url)) { ?>
             <a href="<?php echo $service->consultation_url ?>" target="_blank" class="mt-xl button expand l10n">Get a free consultation</a>
@@ -64,7 +64,7 @@
                 <p class="mt-xs p200 service-content">
                     <?php echo $service->content ?>
                 </p>
-                <a href="services/<?php echo $service->id ?>" class="mt-xs button b200 text compact l10n">Read more</a>
+                <a href="behandlingar/<?php echo $service->id ?>" class="mt-xs button b200 text compact l10n">Read more</a>
             </div>
             <div class="ml-xl buttons">
                 <?php if (isset($service->consultation_url)) { ?>
