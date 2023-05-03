@@ -13,7 +13,7 @@ $meta_description = '';
 $subcategory = new SkinGuideSubCategory(
     id: 'dry-skin',
     name: 'Dry skin',
-    category_id: 'skin-problems',
+    category_id: 'accessories',
     description: 'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we.',
     description_extended: 'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we.',
     consultation_url: '',
@@ -29,7 +29,7 @@ $articles_per_page = array(
             description: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.',
             image_small: 'https://via.placeholder.com/426x324.webp',
             image_large: 'https://via.placeholder.com/872x456.jpg',
-            category_id: 'skin-problems',
+            category_id: 'accessories',
             subcategory_id: 'dry-skin',
         ),
         new SkinGuideArticle(
@@ -40,7 +40,7 @@ $articles_per_page = array(
             description: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.',
             image_small: 'https://via.placeholder.com/426x324.webp',
             image_large: 'https://via.placeholder.com/872x456.jpg',
-            category_id: 'skin-problems',
+            category_id: 'accessories',
             subcategory_id: 'dry-skin',
         ),
     ),
@@ -53,7 +53,7 @@ $articles_per_page = array(
             description: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.',
             image_small: 'https://via.placeholder.com/426x324.webp',
             image_large: 'https://via.placeholder.com/872x456.jpg',
-            category_id: 'skin-problems',
+            category_id: 'accessories',
             subcategory_id: 'dry-skin',
         ),
     )
