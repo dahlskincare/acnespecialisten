@@ -1,0 +1,49 @@
+name: Deploy Live
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install bulma
+        run: npm install bulma
+
+      - name: Install sass
+        run: npm install -g sass
+
+      - name: Compile SCSS
+        run: sass --style compressed --no-source-map --quiet --no-stop-on-error about:about brands:brands cancellation-policy:cancellation-policy contact:contact faq:faq fonts:fonts gift-cards:gift-cards glossary:glossary includes:includes problems:problems results:results services:services skin-guide:skin-guide specialists:specialists styles:styles
+
+      - name: Install typescript
+        run: npm install typescript
+
+      - name: Compile Typescript
+        run: tsc
+
+      - name: Compress files
+        run: zip web.zip * -r -x "*.scss" -x "*.ts" -x "*.DS_Store" -x "Dockerfile" -x ".env" -x "composer.*" -x "package.json" -x "compose.yml" -x ".gitignore" -x "template.php" -x "tsconfig.json"
+
+      - name: Transfer zip
+        uses: nogsantos/scp-deploy@master
+        with:
+          src: ./web.zip
+          host: ${{ secrets.AS_SSH_HOST }}
+          remote: ~/temp.visurus.org
+          port: 22
+          user: ${{ secrets.AS_SSH_USER }}
+          key: ${{ secrets.AS_SSH_KEY }}
+
+      - name: Uncompress on server
+        run: |
+          install -m 600 -D /dev/null ~/.ssh/id_rsa
+          echo "${{ secrets.AS_SSH_KEY }}" > ~/.ssh/id_rsa
+          host='${{ secrets.AS_SSH_HOST }}'
+          hosts="$(dig +short "$host" | grep -v '\.$' | sed -z 's|\n|,|g')$host"
+          ssh-keyscan -H "$hosts" > ~/.ssh/known_hosts
+          ssh -i ~/.ssh/id_rsa ${{ secrets.AS_SSH_USER }}@${{ secrets.AS_SSH_HOST }} 'cd ~/temp.visurus.org; unzip -o web.zip'

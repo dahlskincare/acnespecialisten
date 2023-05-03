@@ -1,54 +1,54 @@
-<div id="mobile-nav-overlay" onclick="Header.toggleMenu(false)">
+<div id="mobile-nav-overlay" onclick="HeaderTouch.toggleMenu()">
     <nav onclick="event.stopImmediatePropagation()">
         <div id="mobile-nav-head">
             <div></div>
             <a href="">
                 <img src="images/logo-green.svg" alt="Acnespecialisten" width="139" height="25" />
             </a>
-            <div onclick="Header.toggleMenu(false)"><?php icon('close') ?></div>
+            <div onclick="HeaderTouch.toggleMenu()"><?php icon('close') ?></div>
         </div>
         <div id="mobile-nav-links">
-            <a href="problems" class="mobile-nav-link l10n">Problems</a>
-            <a href="prices" class="mobile-nav-link l10n">Prices</a>
-            <a href="services" class="mobile-nav-link l10n">Services</a>
-            <a href="about" class="mobile-nav-link l10n">About us</a>
-            <a href="brands" class="mobile-nav-link l10n">Brands</a>
-            <a href="contact" class="mobile-nav-link l10n">Contact</a>
+            <a href="problem" class="mobile-nav-link l10n">Problem</a>
+            <a href="prices" class="mobile-nav-link l10n">Priser</a>
+            <a href="services" class="mobile-nav-link l10n">Behandlingar</a>
+            <a href="results" class="mobile-nav-link l10n">Resultat</a>
+            <a href="brands" class="mobile-nav-link l10n">Varumärken</a>
+            <a href="contact" class="mobile-nav-link l10n">Kontakt</a>
         </div>
         <div id="mobile-expansion-panels">
             <div class="expansion-panel">
-                <div class="ep-head" onclick="Header.toggleExpanded(this)">
-                    <div class="ep-label l10n">Company</div>
+                <div class="ep-head" onclick="HeaderTouch.toggleExpanded(this)">
+                    <div class="ep-label l10n">Företag</div>
                     <?php icon('arrow-down') ?>
                 </div>
                 <div class="ep-content">
-                    <a href="about" class="l10n">About us</a>
-                    <a href="approach" class="l10n">Our approach</a>
-                    <a href="specialists" class="l10n">Specialists</a>
-                    <a href="career" class="l10n">Career</a>
+                    <a href="about" class="l10n">Om oss</a>
+                    <a href="approach" class="l10n">Vår metod</a>
+                    <a href="specialists" class="l10n">Våra specialister</a>
+                    <a href="career" class="l10n">Karriär</a>
                 </div>
             </div>
             <div class="expansion-panel">
-                <div class="ep-head" onclick="Header.toggleExpanded(this)">
-                    <div class="ep-label l10n">Support</div>
+                <div class="ep-head" onclick="HeaderTouch.toggleExpanded(this)">
+                    <div class="ep-label l10n">Kundtjänst</div>
                     <?php icon('arrow-down') ?>
                 </div>
                 <div class="ep-content">
-                    <a href="faq" class="l10n">FAQ</a>
-                    <a href="glossary" class="l10n">Glossary</a>
-                    <a href="skin-guide" class="l10n">Skin guide</a>
-                    <a href="contact" class="l10n">Contact</a>
+                    <a href="faq" class="l10n">Frågor & Svar</a>
+                    <a href="glossary" class="l10n">Ordlista</a>
+                    <a href="skin-guide" class="l10n">Hudguide</a>
+                    <a href="contact" class="l10n">Kontakt</a>
                 </div>
             </div>
             <div class="expansion-panel">
-                <div class="ep-head" onclick="Header.toggleExpanded(this)">
+                <div class="ep-head" onclick="HeaderTouch.toggleExpanded(this)">
                     <div class="ep-label l10n">Community</div>
                     <?php icon('arrow-down') ?>
                 </div>
                 <div class="ep-content">
-                    <a href="results" class="l10n">Results</a>
-                    <a href="gift-cards" class="l10n">Gift cards</a>
-                    <a href="consultation" class="l10n">Free consultation</a>
+                    <a href="results" class="l10n">Resultat</a>
+                    <a href="gift-cards" class="l10n">Presentkort</a>
+                    <a href="consultation" class="l10n">Gratis konsultation</a>
                 </div>
             </div>
         </div>
@@ -57,9 +57,55 @@
                 <div id="profile-icon">
                     <?php icon('profile') ?>
                 </div>
-                <div class="l10n" id="profile-text">Have your personal Acnespecialisten account?</div>
+                <div class="l10n" id="profile-text">Logga in för att se dina rekomendationer samt chatta med din personliga hudterapeut</div>
             </div>
             <a href="https://dahlskincare.com/profile/start" target="_blank" class="button outline b200 expand l10n">Login</a>
+        </div>
+    </nav>
+</div>
+<div id="desktop-nav-overlay" onclick="HeaderDesktop.toggleMenu()">
+    <nav onclick="event.stopImmediatePropagation()">
+        <div class="container">
+            <div id="desktop-nav-overlay-content">
+                <div class="columns">
+                    <div class="column">
+                        <ul>
+                            <li class="l10n">Företag</li>
+                            <li><a href="about" class="l10n">Om oss</a></li>
+                            <li><a href="approach" class="l10n">Vår metod</a></li>
+                            <li><a href="specialists" class="l10n">Våra specialister</a></li>
+                            <li><a href="career" class="l10n">Karriär</a></li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <ul>
+                            <li class="l10n">Kundtjänst</li>
+                            <li><a href="faq" class="l10n">Frågor & Svar</a></li>
+                            <li><a href="cancellation" class="l10n">Avbokning</a></li>
+                            <li><a href="glossary" class="l10n">Ordlista</a></li>
+                            <li><a href="skin-guide" class="l10n">Hudguide</a></li>
+                            <li><a href="contact" class="l10n">Kontakt</a></li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <ul>
+                            <li class="l10n">Community</li>
+                            <li><a href="results" class="l10n">Resultat</a></li>
+                            <li><a href="gift-cards" class="l10n">Presentkort</a></li>
+                            <li><a href="consultation" class="l10n">Gratis konsultation</a></li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <div id="desktop-login-box">
+                            <div id="dl-profile-icon"><?php icon('profile') ?></div>
+                            <div class="l10n" id="dl-profile-text">Logga in för att se dina rekomendationer samt chatta med din personliga hudterapeut</div>
+                            <a href="https://dahlskincare.com/profile/start" target="_blank" class="button outline expand l10n">Login</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
         </div>
     </nav>
 </div>
@@ -69,7 +115,7 @@
             <a href="/">
                 <img id="logo" src="images/logo-green.svg" alt="Acnespecialisten" width="139" height="25" />
             </a>
-            <div id="menu-button" onclick="Header.toggleMenu(true)">
+            <div id="menu-button" onclick="HeaderTouch.toggleMenu()">
                 <?php icon("bars") ?>
             </div>
         </div>
@@ -80,17 +126,17 @@
                 </a>
                 <nav>
                     <ul>
-                        <li><a href="problems" class="h100 l10n">Problems</a></li>
-                        <li><a href="services" class="h100 l10n">Services</a></li>
-                        <li><a href="brands" class="h100 l10n">Brands</a></li>
-                        <li><a href="prices" class="h100 l10n">Prices</a></li>
-                        <li><a href="contact" class="h100 l10n">Contact</a></li>
+                        <li><a href="problem" class="h100 l10n">Problem</a></li>
+                        <li><a href="services" class="h100 l10n">Behandlingar</a></li>
+                        <li><a href="brands" class="h100 l10n">Varumärken</a></li>
+                        <li><a href="prices" class="h100 l10n">Priser</a></li>
+                        <li><a href="contact" class="h100 l10n">Kontakt</a></li>
                     </ul>
                 </nav>
             </div>
             <div id="actions">
-                <a class="button text l10n" href="https://dahlskincare.com/skin-consultation" target="_blank">Get a free consultation</a>
-                <div onclick="Header.toggleMenu(true)">
+                <a class="button text l10n" href="https://dahlskincare.com/skin-consultation" target="_blank">Boka gratis konsultation</a>
+                <div onclick="HeaderDesktop.toggleMenu()">
                     <?php icon("bars") ?>
                 </div>
             </div>

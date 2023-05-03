@@ -1,1 +1,5 @@
-{}
+{
+  "devDependencies": {
+    "bulma": "^0.9.4"
+  }
+}

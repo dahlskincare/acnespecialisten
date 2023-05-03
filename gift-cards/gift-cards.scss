@@ -1,0 +1,341 @@
+@import '../styles/util/colors';
+@import '../styles/util/sizes';
+@import '../styles/util/mixins';
+
+html {
+    scroll-behavior: smooth;
+}
+
+section#banner {
+    background-color: $deep-sea-400;
+    padding: $xxs 0;
+
+    .badges-widget {
+        flex: 1;
+
+        .badge {
+            @include button-text-color($white-500);
+            color: $white-500;
+            background-color: transparent;
+        }
+
+        .badge:first-child {
+            padding-left: 0;
+        }
+
+        .badge:last-child {
+            padding-right: 0;
+        }
+    }
+
+    @include desktop {
+        .badges-widget {
+            flex: 0;
+        }
+
+        .breadcrumbs-widget {
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+    }
+}
+
+div#content {
+    margin: 0 auto;
+    max-width: 872px;
+
+    section#title {
+        margin-top: $xl;
+
+        h1 {
+            @include h600;
+        }
+
+        p {
+            @include p200;
+            margin-top: $xs;
+        }
+
+        .button {
+            margin-top: $xl;
+        }
+
+        @include desktop {
+            margin-top: $xl4;
+
+
+            p {
+                margin-top: $s;
+            }
+
+            .button {
+                width: auto;
+            }
+        }
+    }
+
+    section#image {
+        margin-top: $xl;
+        font-size: 0;
+
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: $radius-l;
+        }
+
+        @include desktop {
+            margin-top: $xl3;
+        }
+    }
+
+    section#steps {
+        scroll-margin-top: 72px;
+
+        .gc-number {
+            background-color: $deep-sea-400;
+            width: 52px;
+            height: 52px;
+            border-radius: 50%;
+            color: $white-500;
+            font-size: $l;
+            font-weight: 600;
+            text-align: center;
+            line-height: 52px;
+        }
+
+        #screenshot-label {
+            margin-bottom: 0;
+        }
+
+        .is-hidden-desktop {
+            .gift-card-step {
+                margin-top: $xl;
+                scroll-margin-top: 60px;
+                padding: $xl;
+                border: 1px solid $light-200;
+                border-radius: $radius-l;
+                @include elevation-low;
+
+                h2 {
+                    @include h300;
+                    margin-left: $s;
+                }
+
+                div.gc-text {
+                    @include p200;
+                    margin-top: $m;
+                }
+
+                hr {
+                    border: 0;
+                    border-top: 1px solid $light-200;
+                    margin: $xl 0;
+                }
+
+                div#swish-title {
+                    display: flex;
+                    align-items: center;
+
+                    .icon {
+                        width: $xl;
+                        height: $xl;
+                        margin-right: $s;
+                    }
+
+                    span {
+                        @include h200;
+                    }
+                }
+
+                #swish-number-button {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    @include p200;
+                    border-radius: $radius-s;
+                    background-color: $light-100;
+                    margin-top: $s;
+                    padding: $s $m;
+
+                    #swish-number-copy {
+                        color: $dark-200;
+
+                        .icon {
+                            margin-left: 3px;
+
+                            >svg {
+                                * {
+                                    stroke: $dark-200;
+                                    fill: transparent;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                a.button.outline {
+                    margin-top: $m;
+                }
+            }
+        }
+
+        .is-hidden-touch {
+            .gift-card-step {
+                margin-top: $xl;
+                scroll-margin-top: 80px;
+                padding: $xl;
+                border: 1px solid $light-200;
+                border-radius: $radius-l;
+
+                .gc-number {
+                    margin-right: $m;
+                }
+
+                .gc-texts {
+                    margin-right: $m;
+                    flex: 1;
+
+                    h2 {
+                        @include h300;
+                    }
+
+                    div {
+                        @include p200;
+                        margin-top: $xxs;
+                    }
+                }
+
+                #swish-info {
+                    display: flex;
+                    align-items: center;
+
+                    .icon {
+                        width: $xl;
+                        height: $xl;
+                        margin-right: $s;
+                    }
+
+                    a {
+                        @include h200;
+                    }
+                }
+
+                hr {
+                    border: 0;
+                    border-top: 1px solid $light-200;
+                    margin: $xl 0;
+                }
+
+                form {
+                    hr {
+                        margin: $xl 0;
+                        border: 0;
+                        border-top: 1px solid $light-200;
+                    }
+
+                    #upload-area {
+                        margin-top: $s;
+                        border: 1px dashed $light-500;
+                        border-radius: $radius-s;
+                        padding: $m;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+
+                        div:first-child {
+                            @include p200;
+                            flex: auto;
+                        }
+
+                        div:last-child {
+
+                            input[type=file] {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .confirmation-banner {
+            background-color: $deep-sea-400;
+            padding: $xl;
+            color: $white-500;
+            border-radius: $radius-l;
+        }
+    }
+
+    section#flyers {
+        .gift-card-flyer {
+            margin-top: 72px;
+
+            img {
+                border-radius: $radius-l;
+                margin-top: $xl;
+                width: 100%;
+                height: auto;
+            }
+
+            .gcf-text {
+                @include p200;
+                margin-top: $xl;
+            }
+
+            button {
+                margin-top: $xl;
+            }
+        }
+    }
+
+
+    @include desktop {
+        .gift-card-flyer {
+            display: flex;
+            align-items: center;
+
+            picture {
+                flex: 1;
+
+                img {
+                    margin-top: 0;
+                }
+            }
+
+            >div {
+                flex: 1;
+                padding-left: $xxl*2;
+
+                .gcf-header {
+                    @include h500;
+                }
+
+                .gcf-text {
+                    margin-top: $m;
+                }
+
+                button {
+                    width: auto;
+                }
+            }
+        }
+
+        .gift-card-flyer:nth-child(even) {
+            flex-direction: row-reverse;
+
+            >div {
+                padding-left: 0;
+                padding-right: $xxl*2;
+            }
+        }
+    }
+}
+
+section.large-margin {
+    margin-top: 72px;
+
+    @include desktop {
+        margin-top: 104px;
+    }
+}

@@ -4,10 +4,16 @@
 
 <head>
       <!-- TODO: Set title and meta tags -->
-      <title class="l10n">Acnespecialisten | Home</title>
+      <title class="l10n">Acnespecialisten | Det självklara valet för acne och problemhy</title>
       <meta name="description" content="Acnespecialisten is the best etc..." class="l10n">
       <meta name="title" content="Acnespecialisten" class="l10n">
       <meta name="keywords" content="Acne, specialisten" class="l10n">
+      <meta property="og:title" content="Acnespecialisten" />
+      <meta property="og:description" content="Acnespecialisten is the best etc.." class="l10n" />
+      <meta property="og:image" content="images/about-desktop.jpg" />
+      <meta property="twitter:title" content="Acnespecialisten" />
+      <meta property="twitter:description" content="Acnespecialisten is the best etc.." class="l10n" />
+      <meta property="twitter:image" content="images/about-desktop.jpg" />
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="preload" as="image" href="images/banner-desktop.jpg" media="(min-width: 984px)">
       <link rel="preload" as="image" href="images/banner-mobile.jpg" media="(max-width: 983px)">
@@ -36,15 +42,15 @@
                                           <div>
                                                 <span class="h500">4,8</span>
                                                 <?php icon('trustpilot') ?>
-                                                <div class="p200 l10n">Trustpilot</div>
+                                                <div class="p200 l10n">På Trustpilot</div>
                                           </div>
                                           <div>
                                                 <span class="h500">30+</span>
-                                                <div class="p200 l10n">years</div>
+                                                <div class="p200 l10n">år</div>
                                           </div>
                                           <div>
                                                 <span class="h500">200k+</span>
-                                                <div class="p200 l10n">clients</div>
+                                                <div class="p200 l10n">Problemfria</div>
                                           </div>
                                     </div>
                               </div>
@@ -58,25 +64,25 @@
                                                       <?php icon('trustpilot') ?>
                                                       <?php icon('trustpilot') ?>
                                                       <?php icon('trustpilot') ?>
-                                                      <div class="p200 l10n">Trustpilot score</div>
+                                                      <div class="p200 l10n">På Trustpilot</div>
                                                 </div>
                                           </div>
                                           <div class="flex-aligner">
                                                 <span class="label-large">30+</span>
                                                 <div>
-                                                      <div class="h400 l10n">years</div>
-                                                      <div class="p200 l10n">on the market</div>
+                                                      <div class="h400 l10n">år</div>
+                                                      <div class="p200 l10n">i branchen</div>
                                                 </div>
                                           </div>
                                           <div class="flex-aligner">
                                                 <span class="label-large">200k+</span>
                                                 <div>
-                                                      <div class="h400 l10n">clients</div>
-                                                      <div class="p200 l10n">were satisfied</div>
+                                                      <div class="h400 l10n">Personer</div>
+                                                      <div class="p200 l10n">som blivit problemfria</div>
                                                 </div>
                                           </div>
                                           <div class="button white l10n">
-                                                Get a free consultation
+                                                Gratis Hudkonsultation
                                           </div>
                                     </div>
 
@@ -86,36 +92,36 @@
             </section>
             <div class="container">
                   <section id="problems">
-                        <div class="h500 l10n">Problems</div>
+                        <div class="h500 l10n">Problem</div>
                         <?php
                         $accordion = array(
-                              new AccordionItem('Acne', 'images/problems/carousel/small/acne.jpg', 'images/problems/carousel/large/acne.jpg', 'problems/acne', true, true),
-                              new AccordionItem('Acne scars', 'images/problems/carousel/small/acne-scars.jpg', 'images/problems/carousel/large/acne-scars.jpg', 'problems/acne-scars', true, true),
+                              new AccordionItem('Akne', 'images/problems/carousel/small/acne.jpg', 'images/problems/carousel/large/acne.jpg', 'problems/acne', true, true),
+                              new AccordionItem('Akneärr', 'images/problems/carousel/small/acne-scars.jpg', 'images/problems/carousel/large/acne-scars.jpg', 'problems/acne-scars', true, true),
                               new AccordionItem('Rosacea', 'images/problems/carousel/small/rosacea.jpg', 'images/problems/carousel/large/rosacea.jpg', 'problems/rosacea', true, true),
-                              new AccordionItem('Pigmentation', 'images/problems/carousel/small/pigmentation.jpg', 'images/problems/carousel/large/pigmentation.jpg', 'problems/pigmentation', true, true),
-                              new AccordionItem('Comedones', 'images/problems/carousel/small/large-pores.jpg', 'images/problems/carousel/large/large-pores.jpg', 'problems/large-pores', true, true),
-                              new AccordionItem('Aging skin', 'images/problems/carousel/small/mature-skin.jpg', 'images/problems/carousel/large/mature-skin.jpg', 'problems/mature-skin', false, true),
-                              new AccordionItem('View all problems', 'images/carousel/problems/small/other.jpg', 'images/problems/carousel/large/other.jpg', 'problems', true, false)
+                              new AccordionItem('Pigmentfläckar', 'images/problems/carousel/small/pigmentation.jpg', 'images/problems/carousel/large/pigmentation.jpg', 'problems/pigmentation', true, true),
+                              new AccordionItem('Pormaskar', 'images/problems/carousel/small/large-pores.jpg', 'images/problems/carousel/large/large-pores.jpg', 'problems/large-pores', true, true),
+                              new AccordionItem('Mogen hy', 'images/problems/carousel/small/mature-skin.jpg', 'images/problems/carousel/large/mature-skin.jpg', 'problems/mature-skin', false, true),
+                              new AccordionItem('Se alla problem', 'images/carousel/problems/small/other.jpg', 'images/problems/carousel/large/other.jpg', 'problems', true, false)
                         );
                         $more_count = 17;
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/accordion/accordion.php')
                         ?>
-                        <a href="problems" class="mt-xl button outline is-hidden-desktop expand l10n">View all problems</a>
+                        <a href="problem" class="mt-xl button outline is-hidden-desktop expand l10n">Se alla problem</a>
                   </section>
                   <section id="our-approach">
                         <div class="flex-row align-end justify-space-between">
-                              <div class="h500 l10n">Our approach</div>
+                              <div class="h500 l10n">Metod</div>
                               <a href="our-approach" class="button compact text is-hidden-mobile">
-                                    <span class="l10n">Read more about our approach</span>
+                                    <span class="l10n">Läs mer om metoden</span>
                                     <?php icon('navigate-next') ?>
                               </a>
                         </div>
                         <?php
                         $approach_cards = array(
-                              new ApproachCard('01', 'Define', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.', 'Get a free consultation', 'https://www.dahlskincare.com/skin-consultation'),
-                              new ApproachCard('02', 'Treat', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.', 'View treatments', 'treatments'),
-                              new ApproachCard('03', 'Prevent', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.', 'View products', 'products'),
-                              new ApproachCard('04', 'Repair', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.', 'View treatments', 'treatments')
+                              new ApproachCard('01', 'Identifiera', 'Vi erbjuder alltid gratis konsultation, där du får en personlig hudterapeut och en individuell behandlingsplan baserad på din hudanalys. Förebilder tas för att jämföra resultat före och efter behandling.', 'Få en gratis konsultation', 'https://www.dahlskincare.com/skin-consultation'),
+                              new ApproachCard('02', 'Behandla', 'Vi erbjuder skräddarsydda behandlingar som åtgärdar hudproblem och förbättrar hudens utseende. Våra hudspecialister säkerställer att behandlingarna är effektiva och säkra för din hudtyp.', 'Våra behandlingar', 'treatments'),
+                              new ApproachCard('03', 'Förebygga', 'För att förebygga framtida hudproblem och bibehålla resultatet av behandlingarna rekommenderar vi produkter och rutiner som är anpassade efter din hudtyp och specifika problem.', 'Se produkter', 'products'),
+                              new ApproachCard('04', 'Reparera', 'Efter att det aktiva problemet åtgärdats fokuserar vi på att reparera ärr och bygga upp skyddsbarriären med hjälp av maskinbehandlingar som laser och IPL för att förbättra hudens struktur.', 'Se behandlingar', 'treatments')
                         );
                         ?>
                         <div class="columns is-gapless">
@@ -128,76 +134,245 @@
                               <?php } ?>
                         </div>
                         <a href="our-approach" class="button b200 outline expand mt-xl l10n is-hidden-desktop">
-                              Read more about our approach
+                              Läs mer om metoden
                         </a>
                   </section>
                   <section id="results">
-                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results.php') ?>
+                        <?php
+                        $results = array(
+                              new ResultCustomer(
+                                    id: '1',
+                                    image_before_small: 'https://via.placeholder.com/358x358.webm',
+                                    image_after_small: 'https://via.placeholder.com/358x358.webm',
+                                    image_before_large: 'https://via.placeholder.com/424x424.webm',
+                                    image_after_large: 'https://via.placeholder.com/424x424.webm',
+                                    age: 18,
+                                    gender: 'Female',
+                                    problem: 'Acne',
+                                    type: 'Severe',
+                                    treatment: new ResultTreatment(
+                                          duration: '3 months',
+                                          procedures: array(
+                                                new ResultProcedure(
+                                                      image: 'https://via.placeholder.com/102x102.webm',
+                                                      name: 'Problem skin facials',
+                                                      count: '3 times'
+                                                ),
+                                          ),
+                                          product: new ResultProduct(
+                                                image: 'https://via.placeholder.com/102x102.webm',
+                                                name: 'Product bundle for light acne',
+                                          ),
+                                          employee: new ResultEmployee(
+                                                image: 'https://via.placeholder.com/102x102.webm',
+                                                name: 'Patrick Minogue'
+                                          ),
+                                    )
+                              ),
+                              new ResultCustomer(
+                                    id: '2',
+                                    image_before_small: 'https://via.placeholder.com/358x358.webm',
+                                    image_after_small: 'https://via.placeholder.com/358x358.webm',
+                                    image_before_large: 'https://via.placeholder.com/424x424.webm',
+                                    image_after_large: 'https://via.placeholder.com/424x424.webm',
+                                    age: 18,
+                                    gender: 'Female',
+                                    problem: 'Acne',
+                                    type: 'Severe',
+                                    treatment: new ResultTreatment(
+                                          duration: '3 months',
+                                          procedures: array(
+                                                new ResultProcedure(
+                                                      image: 'https://via.placeholder.com/102x102.webm',
+                                                      name: 'Problem skin facials',
+                                                      count: '3 times'
+                                                ),
+                                          ),
+                                          product: new ResultProduct(
+                                                image: 'https://via.placeholder.com/102x102.webm',
+                                                name: 'Product bundle for light acne',
+                                          ),
+                                          employee: new ResultEmployee(
+                                                image: 'https://via.placeholder.com/102x102.webm',
+                                                name: 'Patrick Minogue'
+                                          ),
+                                    )
+                              ),
+                              new ResultCustomer(
+                                    id: '3',
+                                    image_before_small: 'https://via.placeholder.com/358x358.webm',
+                                    image_after_small: 'https://via.placeholder.com/358x358.webm',
+                                    image_before_large: 'https://via.placeholder.com/424x424.webm',
+                                    image_after_large: 'https://via.placeholder.com/424x424.webm',
+                                    age: 18,
+                                    gender: 'Female',
+                                    problem: 'Acne',
+                                    type: 'Severe',
+                                    treatment: new ResultTreatment(
+                                          duration: '3 months',
+                                          procedures: array(
+                                                new ResultProcedure(
+                                                      image: 'https://via.placeholder.com/102x102.webm',
+                                                      name: 'Problem skin facials',
+                                                      count: '3 times'
+                                                ),
+                                          ),
+                                          product: new ResultProduct(
+                                                image: 'https://via.placeholder.com/102x102.webm',
+                                                name: 'Product bundle for light acne',
+                                          ),
+                                          employee: new ResultEmployee(
+                                                image: 'https://via.placeholder.com/102x102.webm',
+                                                name: 'Patrick Minogue'
+                                          ),
+                                    )
+                              ),
+                        );
+                        include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results.php')
+                        ?>
                   </section>
                   <section id="reviews">
                         <div class="flex-row align-end justify-space-between">
-                              <div class="h500 l10n">Reviews</div>
+                              <div class="h500 l10n">Omdömen</div>
                               <div class="flex-row is-hidden-mobile">
                                     <div class="step-buttons">
                                           <button class="round-large grey" onclick="Reviews.scroll(-1)"><?php icon('arrow-left') ?></button>
                                           <button class="round-large grey" onclick="Reviews.scroll(1)"><?php icon('arrow-right') ?></button>
                                     </div>
                                     <a href="reviews" class="ml-l button compact text">
-                                          <span class="l10n">View all reviews</span>
+                                          <span class="l10n">Läs fler omdömen</span>
                                           <?php icon('navigate-next') ?>
                                     </a>
                               </div>
                         </div>
-                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="reviews">View all reviews</a>
+                        <?php $reviews = array(
+                              new Review(
+                                    stars: 5,
+                                    brand: 'Trustpilot',
+                                    logo_url: 'images/brands/trustpilot.svg',
+                                    title: 'Allt gick jätte bra!',
+                                    text: "Allt gick jätte bra, personal var snäll och trevlig med min dotter. Min dotter var orolig för behandling hur ska det vara därför har det varit så lång tid innan vi kommit tillbaka och börjat med behandling. Det var inte lätt för henne men hon är jätte nöjd och glad när hon såg bra resultat /ändring på hennes ansikte. Tack så jätte mycket!!",
+                                    signature: 'Emily'
+                              ),
+                              new Review(
+                                    stars: 5,
+                                    brand: 'Google',
+                                    logo_url: 'images/brands/trustpilot.svg',
+                                    title: 'Man behöver inte klä av sig',
+                                    text: "Man behöver inte klä av sig för behandling. Behandlaren känns inte stressad, sitter kvar utan att springa iväg för att uträtta annat! Frågar inte ut en. Försöker inte pracka på en produkter. Är trevlig och hjälpsam",
+                                    signature: 'Emily'
+                              ),
+                              new Review(
+                                    stars: 5,
+                                    brand: 'Trustpilot',
+                                    logo_url: 'images/brands/trustpilot.svg',
+                                    title: 'Otroligt nöjd',
+                                    text: "Efter bara tre månader hos bästa Emma har min hud blivit så mycket bättre! Efter en graviditet och en kombination av hormonell och bakteriell acne så har jag äntligen börjar komma tillbaks till min gamla hy. Är verkligen så himla nöjd. Har gjort ansiktsbehandling mot acne samt kört acnespecialistens produkter och kan bara säga gott om dem!",
+                                    signature: 'Emily'
+                              ),
+                              new Review(
+                                    stars: 5,
+                                    brand: 'Google',
+                                    logo_url: 'images/brands/trustpilot.svg',
+                                    title: 'Nöjd',
+                                    text: "Ett första besök som absolut kommer leda till ett till. Bra och tydlig information om vad som skulle vara bäst för min hy.",
+                                    signature: 'Emily'
+                              ),
+                              new Review(
+                                    stars: 5,
+                                    brand: 'Trustpilot',
+                                    logo_url: 'images/brands/trustpilot.svg',
+                                    title: 'Kunniga och bra!',
+                                    text: "Mina tonårsdöttrar har båda gått till acnespecialisten under flera år med både mindre och större problemområden. Vi har alltid fått professionell och kunnig behandling, bra produkter och bra råd, som också hjälper fint!",
+                                    signature: 'Emily'
+                              ),
+                        );
+                        include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
+                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="reviews">Läs fler omdömen</a>
                   </section>
                   <section id="services">
-                        <div class="h500 l10n">Services</div>
+                        <div class="h500 l10n">Behandlingar</div>
                         <?php
                         $accordion = array(
-                              new AccordionItem('Facials', 'https://via.placeholder.com/114x140.jpg', 'images/service-categories/large/facials.jpg', 'services/facials', true, true),
+                              new AccordionItem('Ansiktsbehandlingar', 'https://via.placeholder.com/114x140.jpg', 'images/service-categories/large/facials.jpg', 'services/facials', true, true),
                               new AccordionItem('IPL', 'https://via.placeholder.com/114x140.jpg', 'images/service-categories/large/ipl.jpg', 'services/ipl', true, true),
                               new AccordionItem('Laser', 'https://via.placeholder.com/114x140.jpg', 'images/service-categories/large/laser-problem-skin.jpg', 'services/laser', true, true),
-                              new AccordionItem('Dermabration', 'https://via.placeholder.com/114x140.jpg', 'images/service-categories/large/dermabration.jpg', 'services/dermabration', true, true),
+                              new AccordionItem('Portömning', 'https://via.placeholder.com/114x140.jpg', 'images/service-categories/large/dermabration.jpg', 'services/dermabration', true, true),
                               new AccordionItem('Microneedling', 'https://via.placeholder.com/114x140.jpg', 'images/service-categories/large/microneedling.jpg', 'services/microneedling', true, true),
-                              new AccordionItem('Injections ', 'https://via.placeholder.com/114x140.jpg', 'images/service-categories/large/injections.jpg', 'services/injection', false, true),
-                              new AccordionItem('View all services', 'https://via.placeholder.com/114x140.jpg', 'images/service-categories/large/luxury.jpg', 'services', true, false)
+                              new AccordionItem('Kemisk Peeling ', 'https://via.placeholder.com/114x140.jpg', 'images/service-categories/large/injections.jpg', 'services/injection', false, true),
+                              new AccordionItem('Se alla behandlingar', 'https://via.placeholder.com/114x140.jpg', 'images/service-categories/large/luxury.jpg', 'services', true, false)
                         );
 
                         $more_count = 17;
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/accordion/accordion.php')
                         ?>
-                        <a href="services" class="mt-xl button b200 outline is-hidden-desktop expand">View all services</a>
+                        <a href="services" class="mt-xl button b200 outline is-hidden-desktop expand">Se alla behandlingar</a>
                   </section>
                   <section id="faq">
                         <div class="flex-row align-end justify-space-between">
-                              <div class="h500 l10n">Questions & answers</div>
+                              <div class="h500 l10n">Frågor & Svar</div>
                               <a href="faq" class="button compact text is-hidden-mobile">
-                                    <span class="l10n">View all questions</span>
+                                    <span class="l10n">Se fler frågor & svar</span>
                                     <?php icon('navigate-next') ?>
                               </a>
                         </div>
-                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="faq">View all questions</a>
+                        <?php $faq_categories = array(
+                              'Behandlingar' => array(
+                                    new Question('Vilka typer av behandlingar erbjuder Acnespecialisten för olika hudproblem?', 'Acnespecialisten erbjuder en rad olika behandlingar för hudproblem, inklusive acnebehandling, rosaceabehandling och portömning.'),
+                                    new Question('Hur lång tid tar en behandling hos Acnespecialisten?', 'En behandling hos Acnespecialisten tar vanligtvis cirka 60 - 90 minuter.'),
+                                    new Question('Hur många behandlingar behövs för att se resultat?', 'Antalet behandlingar som behövs för att se resultat varierar beroende på ditt specifika hudproblem och din hudtyp. Genomsnittligt antal behandlingar är mellan 2-4 stycken.'),
+                                    new Question('Är behandlingarna smärtsamma?', 'Behandlingarna hos Acnespecialisten är utformade för att minimera obehag. När vi behandlar inflammerade områden och utför extraktioner kan det dock uppstå en tillfällig smärta. Denna känsla är dock övergående och försvinner snabbt, så du kan känna dig trygg under behandlingen.'),
+                                    new Question('Kan alla hudtyper behandlas hos Acnespecialisten?', 'Ja, Acnespecialisten erbjuder behandlingar som passar alla hudtyper.'),
+                              ),
+                              'Konsultationer' => array(
+                                    new Question('Hur bokar jag en konsultation hos Acnespecialisten?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+                                    new Question('Vad kan jag förvänta mig under en konsultation?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+                                    new Question('Är konsultationen gratis?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+                                    new Question('Hur lång tid tar en konsultation?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+                                    new Question('Kan jag boka en konsultation online?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+                              ),
+                              'Produkter' => array(
+                                    new Question('Hur bokar jag en konsultation hos Acnespecialisten?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+                                    new Question('Vad kan jag förvänta mig under en konsultation?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+                                    new Question('Är konsultationen gratis?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+                                    new Question('Hur lång tid tar en konsultation?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+                                    new Question('Kan jag boka en konsultation online?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+                              ),
+                              'Skötselråd och rutiner' => array(
+                                    new Question('Hur bokar jag en konsultation hos Acnespecialisten?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+                                    new Question('Vad kan jag förvänta mig under en konsultation?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+                                    new Question('Är konsultationen gratis?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+                                    new Question('Hur lång tid tar en konsultation?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+                                    new Question('Kan jag boka en konsultation online?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+                              ),
+                              'Priser och betalning' => array(
+                                    new Question('Hur bokar jag en konsultation hos Acnespecialisten?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+                                    new Question('Vad kan jag förvänta mig under en konsultation?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+                                    new Question('Är konsultationen gratis?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+                                    new Question('Hur lång tid tar en konsultation?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+                                    new Question('Kan jag boka en konsultation online?', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+                              ),
+                        );
+                        include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
+                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="faq">Se fler frågor & svar</a>
                   </section>
                   <section id="skin-guide">
                         <div class="flex-row align-end justify-space-between">
-                              <div class="h500 l10n">Skin guide</div>
+                              <div class="h500 l10n">Hudguide</div>
                               <a href="skin-guide" class="button compact text is-hidden-mobile">
-                                    <span class="l10n">View all articles</span>
+                                    <span class="l10n">Se fler guider</span>
                                     <?php icon('navigate-next') ?>
                               </a>
                         </div>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php'); ?>
-                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="skin-guide">View all articles</a>
+                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="skin-guide">Se fler guider</a>
                   </section>
                   <section id="about-us">
                         <div id="about-text-wrapper">
                               <div id="about-text">
-                                    <div class="h500 l10n">About us</div>
+                                    <div class="h500 l10n">Kort om oss</div>
                                     <div class="h200 mt-m l10n">
-                                          This is a treatment adapted for acne skin and pimples and gives a
-                                          really good start to the treatment of the skin.
+                                          Acnespecialisten är en del av Sveriges Skönhetscenter som har valt att bryta sig loss och fokusera helt på acne och problemhy. Genom att specialisera oss inom detta område kan vi erbjuda expertis, behandlingar och produkter anpassade specifikt för att hantera och förbättra hudens hälsa hos dem som lider av acne och andra hudproblem.
                                     </div>
                                     <picture class="is-hidden-tablet">
                                           <source media="(max-width: 799px)" srcset="images/about-mobile.jpg">
@@ -208,22 +383,20 @@
                                           <div class="column">
                                                 <div class="flex-row about-header">
                                                       <?php icon('star') ?>
-                                                      <div class="h200 l10n">25 years of experience</div>
+                                                      <div class="h200 l10n">30 års erfarenhet</div>
                                                 </div>
                                                 <p class="p200 mt-xxs l10n">
-                                                      In a personal meeting with a skin specialist,
-                                                      your skin type is examined and identified.
+                                                      Sedan 1994 har vi hjälpt över 100 000 kunder med problemhy och hudvård, ständigt utvecklande vår verksamhet.
                                                 </p>
                                                 <div class="divider"></div>
                                           </div>
                                           <div class="column">
                                                 <div class="flex-row about-header">
                                                       <?php icon('star') ?>
-                                                      <div class="h200 l10n">Unique solution</div>
+                                                      <div class="h200 l10n">Unik helhetslösning</div>
                                                 </div>
                                                 <p class="p200 mt-xxs l10n">
-                                                      In a personal meeting with a skin specialist,
-                                                      your skin type is examined and identified.
+                                                      Vi erbjuder unika helhetslösningar för att identifiera, behandla och kontrollera problemhy med anpassade behandlingar.
                                                 </p>
                                                 <div class="divider"></div>
                                           </div>
@@ -232,26 +405,24 @@
                                           <div class="column">
                                                 <div class="flex-row about-header">
                                                       <?php icon('star') ?>
-                                                      <div class="h200 l10n">Unique solution</div>
+                                                      <div class="h200 l10n">Diplomerade hudspecialister</div>
                                                 </div>
                                                 <p class="p200 mt-xxs l10n">
-                                                      In a personal meeting with a skin specialist,
-                                                      your skin type is examined and identified.
+                                                      Vår expertis och passion säkerställer att du får den bästa möjliga hudvården, anpassad efter dina behov.
                                                 </p>
                                                 <div class="divider"></div>
                                           </div>
                                           <div class="column">
                                                 <div class="flex-row about-header">
                                                       <?php icon('star') ?>
-                                                      <div class="h200 l10n">25 years of experience</div>
+                                                      <div class="h200 l10n">3 Kliniker</div>
                                                 </div>
                                                 <p class="p200 mt-xxs l10n">
-                                                      In a personal meeting with a skin specialist,
-                                                      your skin type is examined and identified.
+                                                      Tre kliniker i Stockholm – Östermalm, Södermalm, Sundbyberg – för bekväm, professionell hudvård i huvudstaden.
                                                 </p>
                                           </div>
                                     </div>
-                                    <a href="about" class="button b200 outline expand l10n">View more about us</a>
+                                    <a href="about" class="button b200 outline expand l10n">Läs mer om oss</a>
                               </div>
                         </div>
                         <div id="about-image-desktop">
@@ -264,32 +435,32 @@
                   </section>
                   <section id="specialists">
                         <div class="flex-row align-end justify-space-between">
-                              <div class="h500 l10n">Our specialists</div>
+                              <div class="h500 l10n">Våra specialister</div>
                               <a href="specialists" class="button compact text is-hidden-mobile">
-                                    <span class="l10n">View all specialists</span>
+                                    <span class="l10n">Se alla specialister</span>
                                     <?php icon('navigate-next') ?>
                               </a>
                         </div>
                         <?php
                         $specialists = array();
-                        $specialists[] = new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-1.jpg', 'images/specialists/large/specialist-1.jpg');
-                        $specialists[] = new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-2.jpg', 'images/specialists/large/specialist-2.jpg');
-                        $specialists[] = new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-3.jpg', 'images/specialists/large/specialist-3.jpg');
-                        $specialists[] = new Specialist('Anette Black', 'Skincare specialist since 2010', 'images/specialists/small/specialist-4.jpg', 'images/specialists/large/specialist-4.jpg');
+                        $specialists[] = new Specialist('Cazzandra Lindberg', 'Hudterapeut sedan 2015', 'images/specialists/small/specialist-1.jpg', 'images/specialists/large/hudterapeut-cazzandra.webp');
+                        $specialists[] = new Specialist('Veronika Benedik', 'Hudterapeut sedan 1999', 'images/specialists/small/specialist-2.jpg', 'images/specialists/large/hudterapeut-veronika.webp');
+                        $specialists[] = new Specialist('Amira Maqboul', 'Hudterapeut sedan 2017', 'images/specialists/small/specialist-3.jpg', 'images/specialists/large/hudterapeut-amira.webp');
+                        $specialists[] = new Specialist('Vilma Libom', 'Hudterapeut sedan 2019', 'images/specialists/small/specialist-4.jpg', 'images/specialists/large/hudterapeut-vilma.webp');
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
                         ?>
-                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="specialists">View all specialists</a>
+                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="specialists">Se alla specialister</a>
                   </section>
                   <section id="brands">
                         <div class="flex-row align-end justify-space-between">
-                              <div class="h500 l10n">Brands we use</div>
+                              <div class="h500 l10n">Varumärken</div>
                               <a href="brands" class="button compact text is-hidden-mobile">
-                                    <span class="l10n">View all brands</span>
+                                    <span class="l10n">Se alla varumärken</span>
                                     <?php icon('navigate-next') ?>
                               </a>
                         </div>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="brands">View all brands</a>
+                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="brands">Se alla varumärken</a>
                   </section>
             </div>
       </main>

@@ -1,0 +1,19 @@
+RewriteEngine on
+
+RewriteBase /problem/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]+)/?$ $1.php [L,QSA]
+
+RewriteBase /problem/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]+)/types?$ types/index.php?id=$1 [L,QSA]
+
+RewriteBase /problem/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^/]+)/types/([^/]+)?$ types/type/type.php?id=$2 [L,QSA]
+
+RewriteBase /problem/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^/]+)/treatment?$ treatment/treatment.php?id=$2 [L,QSA]

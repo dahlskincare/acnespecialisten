@@ -7,11 +7,8 @@ namespace Forms {
         });
     }
 
-
     selectWrappers.forEach((wrapper) => {
         const select = wrapper.children[0] as HTMLSelectElement;
-
-
         select.onclick = (e) => {
             if (wrapper.classList.contains('active')) {
                 wrapper.classList.remove('active');
