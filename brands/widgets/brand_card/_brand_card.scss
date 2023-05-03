@@ -4,14 +4,17 @@
 
 .brand-card-widget {
   font-size: 0;
+  overflow: hidden;
+  border: 1px solid $light-200;
+  border-radius: $radius-l;
+  @include elevation-low();
 
-  .img-background {
+  .bc-img-background {
     width: 100%;
     height: auto;
   }
 
-  .img-container {
-    font-size: small;
+  .bc-content {
     padding: 0 $xl $xl $xl;
 
     img.overlay {
@@ -23,53 +26,31 @@
       flex: 0;
     }
 
-    .title-laser {
-      margin-bottom: $xs;
+    .subtitle {
+      @include p200;
+      margin-bottom: $xxs;
       color: $dark-200;
     }
 
-    .title-alma {
+    .title {
+      @include h300;
       margin-bottom: $xs;
-      font-weight: bold;
-      font-size: $l;
     }
 
     .description {
-      height: 156px;
+      @include p200;
+      // Limit to keep widget height similar
+      height: $s*12;
       line-height: $xl;
       margin-bottom: $xl;
+      overflow-y: auto;
     }
 
-    .div-readmore {
+    hr {
+      margin-top: $xl;
       margin-bottom: $xl;
-
-      .url-readmore {
-        font-weight: bolder;
-        color: $deep-sea-500;
-      }
-    }
-
-    .line-separation {
-      margin-bottom: $xl;
-    }
-
-    .flex-container {
-      display: flex;
-      flex-direction: row;
-
-      .button-left {
-        flex: 1;
-        margin-bottom: $xl;
-        margin-right: $s;
-        font-size: 13px;
-      }
-
-      .button-right {
-        flex: 1;
-        margin: 0 $xl $xl 0;
-        margin-bottom: $xl;
-        font-size: 13px;
-      }
+      border: none;
+      border-top: 1px solid $light-200;
     }
   }
 }
