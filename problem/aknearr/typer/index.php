@@ -32,9 +32,9 @@ $based_type_categories = array(
         content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>',
         types: array(
             new BasedType(
-                id: 'adult-acne',
+                id: 'vuxenakne',
                 image_url: 'https://via.placeholder.com/102x102.jpg',
-                title: 'Adult acne',
+                title: 'Vuxenakne',
                 subtitle: 'Also called scars stains',
                 content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
             ),
@@ -205,9 +205,7 @@ $specialists = array(
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
-
-    <!-- TODO: Set correct url (problem/[PROBLEM FOLDER]/types/index.css-->
-    <link rel="stylesheet" href="problem/aknearr/types/index.css">
+    <link rel="stylesheet" href="problem/types.css">
 </head>
 
 <body>
@@ -309,7 +307,7 @@ $specialists = array(
                             <div class="columns is-3 is-variable is-multiline">
                                 <?php foreach ($category->types as $type) { ?>
                                     <div class="column is-half">
-                                        <?php include('widgets/type-card/type-card.php') ?>
+                                        <?php include('../../widgets/my-type-card/type-card.php') ?>
                                     </div>
                                 <?php } ?>
                             </div>

@@ -86,9 +86,9 @@ $type_categories = array(
             content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>',
             types: array(
                   new BasedType(
-                        id: 'adult-acne',
+                        id: 'vuxenakne',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
-                        title: 'Adult acne',
+                        title: 'Vuxenakne',
                         subtitle: 'Also called scars stains',
                         content: ''
                   ),

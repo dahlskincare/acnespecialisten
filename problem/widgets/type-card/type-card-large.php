@@ -1,4 +1,4 @@
-<a href="<?php echo $_SERVER['REQUEST_URI'] . '/types/' . $type->id ?>" class="type-card-widget">
+<a href="<?php echo $_SERVER['REQUEST_URI'] . 'typer/' . $type->id ?>" class="type-card-widget">
     <div class="flex-row align-start justify-space-between">
         <div class="image">
             <img src="<?php echo $type->image_url ?>?>" alt="<?php echo $type->title ?>">

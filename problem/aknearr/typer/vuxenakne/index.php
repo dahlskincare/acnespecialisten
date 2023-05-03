@@ -12,9 +12,7 @@
     <!-- Optional: Set canonical version of this page (https://support.google.com/webmasters/answer/10347851) -->
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
-
-    <!-- TODO: Set correct url (problem/[PROBLEM FOLDER]/types/[TYPE FOLDER]/type.css-->
-    <link rel="stylesheet" href="problem/aknearr/types/vuxenakne/type.css">
+    <link rel="stylesheet" href="problem/type.css">
 </head>
 
 <?php

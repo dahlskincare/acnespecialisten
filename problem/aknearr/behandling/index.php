@@ -81,9 +81,7 @@ $repair_url = 'treatments/acne';
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
-
-    <!-- TODO: Set correct url (problem/[PROBLEM FOLDER]/treatment/treatment.css-->
-    <link rel="stylesheet" href="problem/aknearr/treatment/treatment.css">
+    <link rel="stylesheet" href="problem/treatment.css">
 </head>
 
 <body>
@@ -212,7 +210,7 @@ $repair_url = 'treatments/acne';
                             <span class="h500 l10n">03.&nbsp;&nbsp;Prevent</span>
                         </h2>
                         <?php foreach ($products as $product) {
-                            include('widgets/product-card/product-card.php');
+                            include('../../widgets/product-card/product-card.php');
                         } ?>
                     </section>
                 <?php } ?>
