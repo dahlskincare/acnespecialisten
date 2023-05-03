@@ -8,25 +8,45 @@ $specialists = array(
         name: 'Cazzandra Lindberg',
         title: 'Hudterapeut sedan 2015',
         image_small: 'images/specialists/small/specialist-1.jpg',
-        image_large: 'images/specialists/large/hudterapeut-cazzandra.webp'
+        image_large: 'images/specialists/large/hudterapeut-cazzandra.webp',
+        city: 'Stockholm',
+        description: 'DESCRIPTION HERE',
+        rating: 4.9,
+        num_treatments: 123,
+        since_year: 2010
     ),
     new Specialist(
         name: 'Veronika Benedik',
         title: 'Hudterapeut sedan 1999',
         image_small: 'images/specialists/small/specialist-2.jpg',
-        image_large: 'images/specialists/large/hudterapeut-veronika.webp'
+        image_large: 'images/specialists/large/hudterapeut-veronika.webp',
+        city: 'Stockholm',
+        description: 'DESCRIPTION HERE',
+        rating: 4.9,
+        num_treatments: 123,
+        since_year: 2010
     ),
     new Specialist(
         name: 'Amira Maqboul',
         title: 'Hudterapeut sedan 2017',
         image_small: 'images/specialists/small/specialist-3.jpg',
-        image_large: 'images/specialists/large/hudterapeut-amira.webp'
+        image_large: 'images/specialists/large/hudterapeut-amira.webp',
+        city: 'Stockholm',
+        description: 'DESCRIPTION HERE',
+        rating: 4.9,
+        num_treatments: 123,
+        since_year: 2010
     ),
     new Specialist(
         name: 'Vilma Libom',
         title: 'Hudterapeut sedan 2019',
         image_small: 'images/specialists/small/specialist-4.jpg',
-        image_large: 'images/specialists/large/hudterapeut-vilma.webp'
+        image_large: 'images/specialists/large/hudterapeut-vilma.webp',
+        city: 'Stockholm',
+        description: 'DESCRIPTION HERE',
+        rating: 4.9,
+        num_treatments: 123,
+        since_year: 2010
     )
 );
 ?>
@@ -41,7 +61,7 @@ $specialists = array(
     <meta name="keywords" content="" class="l10n">
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
-    <link rel="stylesheet" href="/specialists/specialists.css">
+    <link rel="stylesheet" href="/specialister/specialists.css">
 </head>
 
 <body>
@@ -94,7 +114,7 @@ $specialists = array(
 
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="reviews">View all reviews</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="omdomen">View all reviews</a>
             </section>
             <section id="faq" class="large-margin">
                 <div class="flex-row align-end justify-space-between">

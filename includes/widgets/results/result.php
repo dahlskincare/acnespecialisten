@@ -10,6 +10,6 @@
         </div>
     </div>
     <div class="ro-info">
-        After <?php echo $result->treatment->duration ?> of <a href="services"><?php echo strtolower($result->problem) ?> treatment</a>
+        After <?php echo $result->treatment->duration ?> of <a href="behandlingar"><?php echo strtolower($result->problem) ?> treatment</a>
     </div>
 </div>

@@ -23,7 +23,7 @@
                 </div>
                 <div class="ep-content">
                     <a href="om-oss" class="l10n">Om oss</a>
-                    <a href="approach" class="l10n">Vår metod</a>
+                    <a href="metod" class="l10n">Vår metod</a>
                     <a href="specialister" class="l10n">Våra specialister</a>
                     <a href="karriar" class="l10n">Karriär</a>
                 </div>
@@ -72,9 +72,9 @@
                         <ul>
                             <li class="l10n">Företag</li>
                             <li><a href="om-oss" class="l10n">Om oss</a></li>
-                            <li><a href="approach" class="l10n">Vår metod</a></li>
+                            <li><a href="metod" class="l10n">Vår metod</a></li>
                             <li><a href="specialister" class="l10n">Våra specialister</a></li>
-                            <li><a href="career" class="l10n">Karriär</a></li>
+                            <li><a href="karriar" class="l10n">Karriär</a></li>
                         </ul>
                     </div>
                     <div class="column">

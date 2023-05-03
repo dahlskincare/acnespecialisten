@@ -69,7 +69,7 @@
                 </div>
             <?php } ?>
             <hr class="is-hidden-desktop" />
-            <a href="/results/details-<?php echo $result_customer->id ?>" class="button expand outline l10n">View journey details</a>
+            <a href="/resultat/details-<?php echo $result_customer->id ?>" class="button expand outline l10n">View journey details</a>
         </div>
 
     </div>

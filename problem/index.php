@@ -470,7 +470,7 @@ $problem_areas = array(
                               </div>
                         </div>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                        <a class="mt-xl button outline expand is-hidden-tablet l10n" href="reviews">View all reviews</a>
+                        <a class="mt-xl button outline expand is-hidden-tablet l10n" href="omdomen">View all reviews</a>
                   </div>
             </section>
             <section id="faq">
@@ -537,7 +537,7 @@ $problem_areas = array(
                         );
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
                         ?>
-                        <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialists">View all specialists</a>
+                        <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialister">View all specialists</a>
                   </div>
             </section>
             <section id="brands">

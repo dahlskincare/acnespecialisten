@@ -359,12 +359,11 @@ $related_problems = array(
                                           $values = array_values($akas);
                                           $keys = array_keys($akas);
                                           for ($i = 0; $i < $length; $i++) { ?>
-                                                <!-- TODO (Patrick) create page glossary -->
                                                 <?php
                                                 if ($i == $length - 1) {
-                                                      echo '<a href="glossary?keyword=' . $keys[$i] . '" class="b200 underline">' . $values[$i] . '</a>.';
+                                                      echo '<a href="ordlista?keyword=' . $keys[$i] . '" class="b200 underline">' . $values[$i] . '</a>.';
                                                 } else {
-                                                      echo '<a href="glossary?keyword=' . $keys[$i] . '" class="b200 underline">' . $values[$i] . '</a>,';
+                                                      echo '<a href="ordlista?keyword=' . $keys[$i] . '" class="b200 underline">' . $values[$i] . '</a>,';
                                                 }
                                                 ?>
                                           <?php } ?>
@@ -395,7 +394,7 @@ $related_problems = array(
                               <h3 class="mt-xs p100 l10n">Also known as</h3>
                               <?php foreach ($akas as $key => $aka) { ?>
                                     <div>
-                                          <a href="glossary?keyword=<?php echo $key ?>" class="mt-xs button b50 bright">
+                                          <a href="ordlista?keyword=<?php echo $key ?>" class="mt-xs button b50 bright">
                                                 <?php echo $aka ?>
                                           </a>
                                     </div>
@@ -437,12 +436,11 @@ $related_problems = array(
                                           $values = array_values($akas);
                                           $keys = array_keys($akas);
                                           for ($i = 0; $i < $length; $i++) { ?>
-                                                <!-- TODO (Patrick) create page glossary -->
                                                 <?php
                                                 if ($i == $length - 1) {
-                                                      echo '<a href="glossary?keyword=' . $keys[$i] . '" class="b200 underline">' . $values[$i] . '</a>.';
+                                                      echo '<a href="ordlista?keyword=' . $keys[$i] . '" class="b200 underline">' . $values[$i] . '</a>.';
                                                 } else {
-                                                      echo '<a href="glossary?keyword=' . $keys[$i] . '" class="b200 underline">' . $values[$i] . '</a>,';
+                                                      echo '<a href="ordlista?keyword=' . $keys[$i] . '" class="b200 underline">' . $values[$i] . '</a>,';
                                                 }
                                                 ?>
                                           <?php } ?>
@@ -551,8 +549,8 @@ $related_problems = array(
                                                 </div>
                                           <?php } ?>
                                     </div>
-                                    <a href="<?php echo $_SERVER['REQUEST_URI'] . '/types' ?>" class="mt-xl button b200 outline expand l10n is-hidden-tablet">Read more about types</a>
-                                    <a href="<?php echo $_SERVER['REQUEST_URI'] . '/types' ?>" class="mt-xl button b200 outline l10n is-hidden-mobile">Read more about types</a>
+                                    <a href="<?php echo $_SERVER['REQUEST_URI'] . 'typer' ?>" class="mt-xl button b200 outline expand l10n is-hidden-tablet">Read more about types</a>
+                                    <a href="<?php echo $_SERVER['REQUEST_URI'] . 'typer' ?>" class="mt-xl button b200 outline l10n is-hidden-mobile">Read more about types</a>
                               </section>
                         <?php } ?>
                         <?php if (sizeof($symptoms) > 0) { ?>
@@ -629,7 +627,7 @@ $related_problems = array(
                               $reviews_narrow = true;
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                               ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" href="reviews">View all reviews</a>
+                              <a class="mt-xl button b200 outline expand auto-width l10n" href="omdomen">View all reviews</a>
                         </section>
                         <section id="faq">
                               <h2 class="big l10n">Questions & answers</h2>
@@ -664,7 +662,7 @@ $related_problems = array(
                                     </div>
                               </div>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" href="specialists">View all specialists</a>
+                              <a class="mt-xl button b200 outline expand auto-width l10n" href="specialister">View all specialists</a>
                         </section>
                         <section id="related-problems">
                               <h2 class="big l10n">Related problems</h2>

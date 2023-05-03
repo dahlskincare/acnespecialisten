@@ -264,7 +264,7 @@ $article = new SkinGuideArticle(
                             <p class="banner-text">
                                 This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin...
                             </p>
-                            <a class="button outline expand" href="services/acne-treatment">View more about consultation</a>
+                            <a class="button outline expand" href="">View more about consultation</a>
                             <hr />
                             <a class="button expand" href="https://dahlskincare.com/skin-consultation">Get a free consultation</a>
                         </div>
@@ -279,7 +279,7 @@ $article = new SkinGuideArticle(
                             <p class="banner-text">
                                 This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin...
                             </p>
-                            <a class="button outline expand" href="services/acne-treatment">View more about service</a>
+                            <a class="button outline expand" href="">View more about service</a>
                             <hr />
                             <a class="button expand" href="https://dahlskincare.com/skin-consultation">Get a free consultation</a>
                             <a class="mt-s button expand" href="https://bokadirekt.se">Book a treatment</a>
@@ -348,7 +348,7 @@ $article = new SkinGuideArticle(
                                     </div>
                                 </div>
                                 <div class="ro-info">
-                                    After 2 months of <a href="services/acne-treatment">acne treatment</a>
+                                    After 2 months of <a href="behandlingar/ansiktsbehandlingar-problemhy/akne">acne treatment</a>
                                 </div>
                             </div>
                         </div>
@@ -365,7 +365,7 @@ $article = new SkinGuideArticle(
                                     </div>
                                 </div>
                                 <div class="ro-info">
-                                    After 2 months of <a href="services/acne-treatment">acne treatment</a>
+                                    After 2 months of <a href="behandlingar/ansiktsbehandlingar-problemhy/akne">acne treatment</a>
                                 </div>
                             </div>
                         </div>
@@ -397,8 +397,8 @@ $article = new SkinGuideArticle(
                                         Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you
                                         can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.
                                     </div>
-                                    <a href="problems/acne-scars" class="is-hidden-desktop button outline expand">View more</a>
-                                    <a href="problems/acne-scars" class="is-hidden-touch button compact text">View more</a>
+                                    <a href="problem/akne" class="is-hidden-desktop button outline expand">View more</a>
+                                    <a href="problem/akne" class="is-hidden-touch button compact text">View more</a>
                                 </div>
                             </div>
                             <div class="column is-half">
@@ -414,8 +414,8 @@ $article = new SkinGuideArticle(
                                         Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you
                                         can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.
                                     </div>
-                                    <a href="problems/cystic-acne" class="is-hidden-desktop button outline expand">View more</a>
-                                    <a href="problems/cystic-acne" class="is-hidden-touch button compact text">View more</a>
+                                    <a href="problem/akne" class="is-hidden-desktop button outline expand">View more</a>
+                                    <a href="problem/akne" class="is-hidden-touch button compact text">View more</a>
                                 </div>
                             </div>
                             <div class="column is-half">
@@ -431,8 +431,8 @@ $article = new SkinGuideArticle(
                                         Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you
                                         can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.
                                     </div>
-                                    <a href="problems/cystic-acne" class="is-hidden-desktop button outline expand">View more</a>
-                                    <a href="problems/cystic-acne" class="is-hidden-touch button compact text">View more</a>
+                                    <a href="problem/akne" class="is-hidden-desktop button outline expand">View more</a>
+                                    <a href="problem/akne" class="is-hidden-touch button compact text">View more</a>
                                 </div>
                             </div>
                             <div class="column is-half">
@@ -448,8 +448,8 @@ $article = new SkinGuideArticle(
                                         Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you
                                         can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.
                                     </div>
-                                    <a href="problems/acne-scars" class="is-hidden-desktop button outline expand">View more</a>
-                                    <a href="problems/acne-scars" class="is-hidden-touch button compact text">View more</a>
+                                    <a href="problem/aknearr" class="is-hidden-desktop button outline expand">View more</a>
+                                    <a href="problem/aknearr" class="is-hidden-touch button compact text">View more</a>
                                 </div>
                             </div>
                         </div>
@@ -479,7 +479,7 @@ $article = new SkinGuideArticle(
                             <p class="banner-text">
                                 This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin...
                             </p>
-                            <a class="button outline expand" href="services/acne-treatment">View product details</a>
+                            <a class="button outline expand" href="behandlingar">View product details</a>
                         </div>
                     </div>
 
@@ -496,7 +496,7 @@ $article = new SkinGuideArticle(
                                 <p class="banner-price">Price from 995 kr</p>
                                 <div>
                                     <p class="banner-text">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin...</p>
-                                    <a class="button text b200" href="services/acne-treatment">View product details</a>
+                                    <a class="button text b200" href="behandlingar/ansiktsbehandlingar-problemhy">View product details</a>
                                 </div>
                             </div>
                         </div>
@@ -625,7 +625,7 @@ $article = new SkinGuideArticle(
                     </div>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="reviews">View all reviews</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="omdomen">View all reviews</a>
             </section>
             <section id="faq" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
@@ -647,7 +647,7 @@ $article = new SkinGuideArticle(
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="specialists">View all specialists</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="specialister">View all specialists</a>
             </section>
             <section id="brands" class="large-margin">
                 <div class="flex-row align-end justify-space-between">

@@ -225,11 +225,11 @@ if (form_completed()) {
                                             <div class="h400 l10n">Your confirmation has been sent</div>
                                             <div class="p200 mt-xxs l10n">We will contact you as soon as possible.</div>
                                         </div>
-                                        <a href="gift-cards" class="button white outline">Resend</a>
+                                        <a href="presentkort" class="button white outline">Resend</a>
                                     </div>
                                 </div>
                             <?php } else { ?>
-                                <form action="gift-cards/?sent=1" enctype="multipart/form-data" method="POST" class="is-hidden" id="large-form">
+                                <form action="presentkort/?sent=1" enctype="multipart/form-data" method="POST" class="is-hidden" id="large-form">
                                     <hr />
                                     <div class="columns is-variable is-3">
                                         <div class="column">
@@ -337,14 +337,14 @@ if (form_completed()) {
                                 <?php icon('arrow-right') ?>
                             </button>
                         </div>
-                        <a href="reviews" class="ml-l button compact text">
+                        <a href="omdomen" class="ml-l button compact text">
                             <span class="l10n">View all reviews</span>
                             <?php icon('navigate-next') ?>
                         </a>
                     </div>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="reviews">View all reviews</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="omdomen">View all reviews</a>
             </section>
             <section id="faq" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
@@ -374,13 +374,13 @@ if (form_completed()) {
             <section id="specialists" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
                     <h2 class="big l10n">Our specialists</h2>
-                    <a href="specialists" class="button compact text is-hidden-mobile">
+                    <a href="specialister" class="button compact text is-hidden-mobile">
                         <span class="l10n">View all specialists</span>
                         <?php icon('navigate-next') ?>
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php'); ?>
-                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialists">View all specialists</a>
+                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialister">View all specialists</a>
             </section>
             <section id="brands" class="large-margin">
                 <div class="flex-row align-end justify-space-between">

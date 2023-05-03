@@ -11,7 +11,7 @@
     <!-- Optional: Set canonical version of this page (https://support.google.com/webmasters/answer/10347851) -->
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
-    <link rel="stylesheet" href="/results/details/details.css">
+    <link rel="stylesheet" href="/resultat/details/details.css">
 </head>
 
 <body>
@@ -344,7 +344,7 @@
                         </div>
                     </div>
                 </div>
-                <a href="/results/" class="button b200 outline expand l10n">View all cases</a>
+                <a href="/resultat/" class="button b200 outline expand l10n">View all cases</a>
             </section>
             <section id="cta-banner" class="large-margin">
                 <div id="cta-banner-texts">
@@ -367,7 +367,7 @@
                                 <?php icon('arrow-right') ?>
                             </button>
                         </div>
-                        <a href="reviews" class="ml-l button compact text">
+                        <a href="omdomen" class="ml-l button compact text">
                             <span class="l10n">View all reviews</span>
                             <?php icon('navigate-next') ?>
                         </a>
@@ -375,7 +375,7 @@
 
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="reviews">View all reviews</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="omdomen">View all reviews</a>
             </section>
             <section id="faq" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
@@ -408,7 +408,7 @@
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="specialists">View all specialists</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="specialister">View all specialists</a>
             </section>
             <section id="brands" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
@@ -424,7 +424,7 @@
         </div>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
-    <script src="/includes/widgets/results/results.js"></script>
+    <script src="/includes/widgets/resultat/results.js"></script>
 </body>
 
 </html>

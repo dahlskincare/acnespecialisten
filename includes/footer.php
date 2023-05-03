@@ -107,7 +107,7 @@
                                 <a href="om-oss" class="button text grey compact l10n">Om oss</a>
                             </li>
                             <li>
-                                <a href="approach" class="button text grey compact l10n">Vår metod</a>
+                                <a href="metod" class="button text grey compact l10n">Vår metod</a>
                             </li>
                             <li>
                                 <a href="specialister" class="button text grey compact l10n">Våra specialsiter</a>
@@ -341,7 +341,7 @@
                                             <a href="varumarken" class="button text grey compact l10n">Varumärken</a>
                                         </li>
                                         <li>
-                                            <a href="pricer" class="button text grey compact l10n">Priser</a>
+                                            <a href="priser" class="button text grey compact l10n">Priser</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -352,7 +352,7 @@
                                             <a href="om-oss" class="button text grey compact l10n">Om oss</a>
                                         </li>
                                         <li>
-                                            <a href="approach" class="button text grey compact l10n">Vår metod</a>
+                                            <a href="metod" class="button text grey compact l10n">Vår metod</a>
                                         </li>
                                         <li>
                                             <a href="specialister" class="button text grey compact l10n">Våra specialister</a>

@@ -120,13 +120,13 @@ if (!isset($results)) {
                 <?php } ?>
             </div>
         </div>
-        <a class="mt-xl button b200 outline expand l10n" href="results"><?php echo $show_all_results_label ?></a>
+        <a class="mt-xl button b200 outline expand l10n" href="resultat"><?php echo $show_all_results_label ?></a>
     </div>
 
     <div class="is-hidden-touch" id="results-large">
         <div class="flex-row align-end justify-space-between">
             <div class="h500 l10n"><?php echo $results_title ?></div>
-            <a href="results" class="button compact text">
+            <a href="resultat" class="button compact text">
                 <span class="l10n"><?php echo $show_all_results_label ?></span>
                 <?php icon('navigate-next') ?>
             </a>

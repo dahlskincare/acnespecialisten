@@ -355,7 +355,7 @@ $specialists = array(
                             </div>
                         <?php } ?>
                     </div>
-                    <a href="our-approach" class="auto-width button outline expand mt-xl l10n">
+                    <a href="metod" class="auto-width button outline expand mt-xl l10n">
                         Read more about our approach
                     </a>
                 </section>
@@ -380,12 +380,12 @@ $specialists = array(
                     $reviews_narrow = true;
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                     ?>
-                    <a class="mt-xl button outline expand auto-width l10n" href="reviews">View all reviews</a>
+                    <a class="mt-xl button outline expand auto-width l10n" href="omdomen">View all reviews</a>
                 </section>
                 <section id="faq">
                     <h2 class="big l10n">Questions & answers</h2>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                    <a href="questions" class="mt-xl button outline expand auto-width l10n">View all questions</a>
+                    <a href="faq" class="mt-xl button outline expand auto-width l10n">View all questions</a>
                 </section>
                 <section id="skin-guide">
                     <h2 class="big l10n">Skin guide</h2>
@@ -397,7 +397,7 @@ $specialists = array(
                     <?php
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php');
                     ?>
-                    <a class="mt-xl button outline expand auto-width l10n" href="specialists">View all specialists</a>
+                    <a class="mt-xl button outline expand auto-width l10n" href="specialister">View all specialists</a>
                 </section>
             </div>
             <section id="brands">

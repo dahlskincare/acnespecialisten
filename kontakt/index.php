@@ -135,8 +135,8 @@ $salons = array(
                                 <div class="h400 l10n">Your message has been sent</div>
                                 <div class="p200 mt-xxs l10n">We will contact you as soon as possible.</div>
                             </div>
-                            <a href="contact" class="is-hidden-touch">Resend</a>
-                            <a href="contact" class="is-hidden-desktop button outline white expand mt-xl">Resend</a>
+                            <a href="kontakt" class="is-hidden-touch">Resend</a>
+                            <a href="kontakt" class="is-hidden-desktop button outline white expand mt-xl">Resend</a>
                         </div>
                     </section>
                 <?php } else {  ?>
@@ -288,7 +288,7 @@ $salons = array(
                                 <?php icon('arrow-right') ?>
                             </button>
                         </div>
-                        <a href="reviews" class="ml-l button compact text">
+                        <a href="omdomen" class="ml-l button compact text">
                             <span class="l10n">View all reviews</span>
                             <?php icon('navigate-next') ?>
                         </a>
@@ -296,7 +296,7 @@ $salons = array(
 
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="reviews">View all reviews</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="omdomen">View all reviews</a>
             </section>
             <section id="faq" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
@@ -329,7 +329,7 @@ $salons = array(
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php'); ?>
-                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialists">View all specialists</a>
+                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialister">View all specialists</a>
             </section>
             <section id="brands" class="large-margin">
                 <div class="flex-row align-end justify-space-between">

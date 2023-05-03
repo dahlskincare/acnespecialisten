@@ -376,7 +376,7 @@ $specialists = array(
                     $reviews_narrow = true;
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                     ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="reviews">View all reviews</a>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" href="omdomen">View all reviews</a>
                 </section>
                 <section id="faq" class="large-margin">
                     <h2 class="big l10n">Questions & answers</h2>
@@ -413,7 +413,7 @@ $specialists = array(
                     <?php
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php');
                     ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="specialists">View all specialists</a>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" href="specialister">View all specialists</a>
                 </section>
             </div>
             <section id="brands">

@@ -1,11 +1,11 @@
 RewriteEngine on
 
-RewriteBase /results/
+RewriteBase /resultat/
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^details-([^/]+)/?$ details/$1.php [L,QSA]
 
-RewriteBase /results/
+RewriteBase /resultat/
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^([^/]+)/?$ category/$1.php [L,QSA]

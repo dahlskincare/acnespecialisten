@@ -10,7 +10,7 @@
     <meta name="keywords" content="" class="l10n">
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
-    <link rel="stylesheet" href="/results/style.css">
+    <link rel="stylesheet" href="/resultat/style.css">
 </head>
 
 <?php
@@ -52,10 +52,9 @@ $result_category =
     );
 
 $category_links = array(
-    'acne' => 'Acne',
-    'acne-scars' => 'Acne scars',
-    'comedones' => 'Comedones',
-    'large-pores' => 'Large pores',
+    'akne' => 'Akne',
+    'aknearr' => 'Akneärr',
+    'pormaskar' => 'Pormaskar',
 );
 
 if (isset($_GET['page']) && $_GET['page'] > 0) {
@@ -236,7 +235,7 @@ $pages = sizeof($results_per_page);
                 <div id="filters-touch">
                     <?php foreach ($category_links as $link_id => $link_label) { ?>
                         <div class="filter-item">
-                            <a href="/results/<?php echo $link_id ?>" class="b100 filter-item-label l10n">
+                            <a href="/resultat/<?php echo $link_id ?>" class="b100 filter-item-label l10n">
                                 <?php echo $link_label ?>
                             </a>
                         </div>
@@ -247,7 +246,7 @@ $pages = sizeof($results_per_page);
                 <div id="filters-desktop">
                     <div id="filter-items">
                         <?php foreach ($category_links as $link_id => $link_label) { ?>
-                            <a href="/results/<?php echo $link_id ?>" class="filter-item">
+                            <a href="/resultat/<?php echo $link_id ?>" class="filter-item">
                                 <div class="b100 filter-item-label l10n">
                                     <?php echo $link_label ?>
                                 </div>
@@ -297,7 +296,7 @@ $pages = sizeof($results_per_page);
                                 <?php icon('arrow-right') ?>
                             </button>
                         </div>
-                        <a href="reviews" class="ml-l button compact text">
+                        <a href="omdomen" class="ml-l button compact text">
                             <span class="l10n">View all reviews</span>
                             <?php icon('navigate-next') ?>
                         </a>
@@ -338,7 +337,7 @@ $pages = sizeof($results_per_page);
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="specialists">View all specialists</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="specialister">View all specialists</a>
             </section>
             <section id="brands" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
@@ -354,7 +353,7 @@ $pages = sizeof($results_per_page);
         </div>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
-    <script src="results/results.js"></script>
+    <script src="resultat/results.js"></script>
 </body>
 
 </html>

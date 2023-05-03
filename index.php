@@ -160,7 +160,7 @@
                   <section id="our-approach">
                         <div class="flex-row align-end justify-space-between">
                               <div class="h500 l10n">Metod</div>
-                              <a href="our-approach" class="button compact text is-hidden-mobile">
+                              <a href="metod" class="button compact text is-hidden-mobile">
                                     <span class="l10n">Läs mer om metoden</span>
                                     <?php icon('navigate-next') ?>
                               </a>
@@ -312,7 +312,7 @@
                                           <button class="round-large grey" onclick="Reviews.scroll(-1)"><?php icon('arrow-left') ?></button>
                                           <button class="round-large grey" onclick="Reviews.scroll(1)"><?php icon('arrow-right') ?></button>
                                     </div>
-                                    <a href="reviews" class="ml-l button compact text">
+                                    <a href="omdomen" class="ml-l button compact text">
                                           <span class="l10n">Läs fler omdömen</span>
                                           <?php icon('navigate-next') ?>
                                     </a>
@@ -667,7 +667,7 @@
                                                 </p>
                                           </div>
                                     </div>
-                                    <a href="about" class="button b200 outline expand l10n">Läs mer om oss</a>
+                                    <a href="om-oss" class="button b200 outline expand l10n">Läs mer om oss</a>
                               </div>
                         </div>
                         <div id="about-image-desktop">
@@ -681,7 +681,7 @@
                   <section id="specialists">
                         <div class="flex-row align-end justify-space-between">
                               <div class="h500 l10n">Våra specialister</div>
-                              <a href="specialists" class="button compact text is-hidden-mobile">
+                              <a href="specialister" class="button compact text is-hidden-mobile">
                                     <span class="l10n">Se alla specialister</span>
                                     <?php icon('navigate-next') ?>
                               </a>
