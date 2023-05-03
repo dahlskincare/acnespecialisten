@@ -81,7 +81,7 @@ if (form_completed()) {
 
     <link rel="stylesheet" href="/styles/default-layout.css">
     <link rel="stylesheet" href="/styles/forms.css">
-    <link rel="stylesheet" href="/gift-cards/gift-cards.css">
+    <link rel="stylesheet" href="/presentkort/gift-cards.css">
 </head>
 
 <body>
@@ -105,9 +105,9 @@ if (form_completed()) {
                 </section>
                 <section id="image">
                     <picture>
-                        <source media="(max-width: 799px)" srcset="gift-cards/small.webp">
-                        <source media="(min-width: 800px)" srcset="gift-cards/large.webp">
-                        <img src="gift-cards/small.webp" alt="About us" width="360" height="274" />
+                        <source media="(max-width: 799px)" srcset="presentkort/small.webp">
+                        <source media="(min-width: 800px)" srcset="presentkort/large.webp">
+                        <img src="presentkort/small.webp" alt="About us" width="360" height="274" />
                     </picture>
                 </section>
                 <section id="steps">
@@ -130,7 +130,7 @@ if (form_completed()) {
                                     <?php icon('copy') ?>
                                 </div>
                             </div>
-                            <a href="swish://paymentrequest?token=blablabla&callbackurl=https%3A%2F%2Facnespecialisten.com%2Fgift-cards%3Fpaid%3D1" class="button outline expand l10n">Open Swish app</a>
+                            <a href="swish://paymentrequest?token=blablabla&callbackurl=https%3A%2F%2Facnespecialisten.com%2Fpresentkort%3Fpaid%3D1" class="button outline expand l10n">Open Swish app</a>
                         </div>
                         <div class="gift-card-step" id="step-2-small">
                             <div class="flex-row align-center">
@@ -141,12 +141,12 @@ if (form_completed()) {
                                 <div class="confirmation-banner mt-m">
                                     <div class="h400 l10n">Your confirmation has been sent</div>
                                     <div class="p200 mt-xxs l10n">We will contact you as soon as possible.</div>
-                                    <a href="gift-cards" class="button white outline expand mt-xl">Resend</a>
+                                    <a href="presentkort" class="button white outline expand mt-xl">Resend</a>
                                 </div>
                             <?php } else { ?>
                                 <div class="gc-text l10n">Fill in your info and attach a screenshot with payment details.</div>
                                 <button class="mt-m outline expand l10n" onclick="openConfirmForm(this, '#small-form')">Confirm</button>
-                                <form action="gift-cards/?sent=1" enctype="multipart/form-data" method="POST" class="is-hidden" id="small-form">
+                                <form action="presentkort/?sent=1" enctype="multipart/form-data" method="POST" class="is-hidden" id="small-form">
                                     <hr />
                                     <label for="firstname">
                                         <span class="l10n">First name</span>
@@ -200,7 +200,7 @@ if (form_completed()) {
                                 </div>
                                 <div class="gc-info" id="swish-info">
                                     <?php icon('swish-24') ?>
-                                    <a href="swish://paymentrequest?token=blablabla&callbackurl=https%3A%2F%2Facnespecialisten.com%2Fgift-cards%3Fpaid%3D1">123 618 05 41</a>
+                                    <a href="swish://paymentrequest?token=blablabla&callbackurl=https%3A%2F%2Facnespecialisten.com%2Fpresentkort%3Fpaid%3D1">123 618 05 41</a>
                                 </div>
                             </div>
                         </div>
@@ -396,7 +396,7 @@ if (form_completed()) {
         </div>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
-    <script src="gift-cards/gift-cards.js"></script>
+    <script src="presentkort/gift-cards.js"></script>
 
 </body>
 
