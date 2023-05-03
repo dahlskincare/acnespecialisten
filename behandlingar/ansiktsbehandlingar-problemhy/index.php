@@ -566,7 +566,7 @@ $specialists = array(
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
 
     <link rel="stylesheet" href="/styles/default-layout.css">
-    <link rel="stylesheet" href="/services/service.css">
+    <link rel="stylesheet" href="/behandlingar/service.css">
 </head>
 
 <body>

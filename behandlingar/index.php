@@ -438,7 +438,7 @@ $service_categories = array(
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
-    <link rel="stylesheet" href="services/style.css">
+    <link rel="stylesheet" href="behandlingar/style.css">
 </head>
 
 <body>
@@ -669,7 +669,7 @@ $service_categories = array(
         </section>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
-    <script src="services/services.js"></script>
+    <script src="behandlingar/services.js"></script>
 </body>
 
 </html>
