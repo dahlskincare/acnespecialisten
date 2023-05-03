@@ -1,7 +1,3 @@
 RewriteEngine On
 RewriteCond %{REQUEST_URI} /+[^\.]+$ 
 RewriteRule ^(.+[^/])$ %{REQUEST_URI}/ [R=301,L]
-
-RewriteRule ^varumarken/?$ /brands/ [L]
-RewriteRule ^resultat/?$ /results/ [L]
-RewriteRule ^hudguide/?$ /skin-guide/ [L]
