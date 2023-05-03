@@ -14,7 +14,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
 
     <link rel="stylesheet" href="/styles/default-layout.css">
-    <link rel="stylesheet" href="/about/about.css">
+    <link rel="stylesheet" href="/om-oss/about.css">
 </head>
 
 <body>
@@ -37,8 +37,8 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
                 </section>
                 <section id="plant">
                     <picture>
-                        <source media="(max-width: 799px)" srcset="about/images/about-plant.jpg">
-                        <source media="(min-width: 800px)" srcset="about/images/about-plant-large.jpg">
+                        <source media="(max-width: 799px)" srcset="om-oss/images/about-plant.jpg">
+                        <source media="(min-width: 800px)" srcset="om-oss/images/about-plant-large.jpg">
                         <img src="images/about/about-plant.jpg" alt="About us" width="360" height="274" />
                     </picture>
                 </section>
@@ -52,21 +52,21 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
                             </div>
                             <div id="s-first-images">
                                 <picture>
-                                    <source media="(max-width: 799px)" srcset="about/images/segments-left.jpg">
-                                    <source media="(min-width: 800px)" srcset="about/images/segments-left-large.jpg">
+                                    <source media="(max-width: 799px)" srcset="om-oss/images/segments-left.jpg">
+                                    <source media="(min-width: 800px)" srcset="om-oss/images/segments-left-large.jpg">
                                     <img src="images/about/segments-left.jpg" alt="Segment 1" width="114" height="214" />
                                 </picture>
                                 <picture>
-                                    <source media="(max-width: 799px)" srcset="about/images/segments-mid.jpg">
-                                    <source media="(min-width: 800px)" srcset="about/images/segments-mid-large.jpg">
+                                    <source media="(max-width: 799px)" srcset="om-oss/images/segments-mid.jpg">
+                                    <source media="(min-width: 800px)" srcset="om-oss/images/segments-mid-large.jpg">
                                     <img src="images/about/segments-mid.jpg" alt="Segment 2" width="114" height="157" />
                                 </picture>
                             </div>
                         </div>
                         <div id="s-last">
                             <picture>
-                                <source media="(max-width: 799px)" srcset="about/images/segments-right.jpg">
-                                <source media="(min-width: 800px)" srcset="about/images/segments-right-large.jpg">
+                                <source media="(max-width: 799px)" srcset="om-oss/images/segments-right.jpg">
+                                <source media="(min-width: 800px)" srcset="om-oss/images/segments-right-large.jpg">
                                 <img src="images/about/segments-right.jpg" alt="Segment 2" width="114" height="272" />
                             </picture>
                         </div>
@@ -77,8 +77,8 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
                     <h2 class="h500 l10n">We are aiming for the goal!</h2>
                     <p class="mt-m p200 l10n is-hidden-mobile">Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments. We hereby present our new department Nordiska Kliniken Hud Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery.</p>
                     <picture>
-                        <source media="(max-width: 799px)" srcset="about/images/about-hands.jpg">
-                        <source media="(min-width: 800px)" srcset="about/images/about-hands-large.jpg">
+                        <source media="(max-width: 799px)" srcset="om-oss/images/about-hands.jpg">
+                        <source media="(min-width: 800px)" srcset="om-oss/images/about-hands-large.jpg">
                         <img src="images/about/about-hands.jpg" alt="Aiming for the goal" width="358" height="274" />
                     </picture>
                     <p class="p200 mt-xl l10n is-hidden-tablet">Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments. We hereby present our new department Nordiska Kliniken Hud Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery.</p>
@@ -119,8 +119,8 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
                     <div class="flex-row align-center">
                         <div>
                             <picture>
-                                <source media="(max-width: 799px)" srcset="about/images/about-drip.jpg">
-                                <source media="(min-width: 800px)" srcset="about/images/about-drip-large.jpg">
+                                <source media="(max-width: 799px)" srcset="om-oss/images/about-drip.jpg">
+                                <source media="(min-width: 800px)" srcset="om-oss/images/about-drip-large.jpg">
                                 <img src="images/about/about-drip.jpg" alt="Method" width="358" height="272" />
                             </picture>
                         </div>
@@ -146,8 +146,8 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
                         </div>
                         <div>
                             <picture>
-                                <source media="(max-width: 799px)" srcset="about/images/about-lotion.jpg">
-                                <source media="(min-width: 800px)" srcset="about/images/about-lotion-large.jpg">
+                                <source media="(max-width: 799px)" srcset="om-oss/images/about-lotion.jpg">
+                                <source media="(min-width: 800px)" srcset="om-oss/images/about-lotion-large.jpg">
                                 <img src="images/about/about-lotion.jpg" alt="Method" width="358" height="272" />
                             </picture>
                         </div>
