@@ -68,9 +68,9 @@ if (form_completed()) {
     $message .= chunk_split(base64_encode($file_content)) . "\r\n";
     $message .= "--$boundary--\r\n";
     mail($to, $subject, $message, $headers);
-} else {
-    $rootCert = '/.ssh/Swish_TLS_RootCA.pem';
-    $clientCert = ['/.ssh/swish_certificate.pem', 'lok13rum'];
+} else {;
+    $rootCert = $_ENV['SWISH_SSL_FOLDER'] . '/Swish_TLS_RootCA.pem';
+    $clientCert = [$_ENV['SWISH_SSL_FOLDER'] . '/.ssh/swish_certificate.pem', 'lok13rum'];
     $client = Client::make($rootCert, $clientCert);
 
     $pr = new PaymentRequest([
