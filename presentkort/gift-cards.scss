@@ -132,51 +132,6 @@ div#content {
                     border-top: 1px solid $light-200;
                     margin: $xl 0;
                 }
-
-                div#swish-title {
-                    display: flex;
-                    align-items: center;
-
-                    .icon {
-                        width: $xl;
-                        height: $xl;
-                        margin-right: $s;
-                    }
-
-                    span {
-                        @include h200;
-                    }
-                }
-
-                #swish-number-button {
-                    display: flex;
-                    align-items: center;
-                    justify-content: space-between;
-                    @include p200;
-                    border-radius: $radius-s;
-                    background-color: $light-100;
-                    margin-top: $s;
-                    padding: $s $m;
-
-                    #swish-number-copy {
-                        color: $dark-200;
-
-                        .icon {
-                            margin-left: 3px;
-
-                            >svg {
-                                * {
-                                    stroke: $dark-200;
-                                    fill: transparent;
-                                }
-                            }
-                        }
-                    }
-                }
-
-                a.button.outline {
-                    margin-top: $m;
-                }
             }
         }
 

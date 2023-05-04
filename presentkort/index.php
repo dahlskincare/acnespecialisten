@@ -119,17 +119,6 @@ if (form_completed()) {
                             </div>
                             <div class="gc-text l10n">Send us any amount you want to put on the gift card or buy some procedure.</div>
                             <hr />
-                            <div id="swish-title">
-                                <?php icon('swish-24') ?>
-                                <span class="l10n">Our swish number</span>
-                            </div>
-                            <div id="swish-number-button" onclick="navigator.clipboard.writeText(this.children[0].innerHTML)">
-                                <span>123 618 05 41</span>
-                                <div id="swish-number-copy">
-                                    <span class="l10n">Copy</span>
-                                    <?php icon('copy') ?>
-                                </div>
-                            </div>
                             <a href="swish://paymentrequest?token=blablabla&callbackurl=https%3A%2F%2Facnespecialisten.com%2Fpresentkort%3Fpaid%3D1" class="button outline expand l10n">Open Swish app</a>
                         </div>
                         <div class="gift-card-step" id="step-2-small">
