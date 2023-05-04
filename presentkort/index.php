@@ -75,10 +75,11 @@ if (form_completed()) {
     $url = "https://cpc.getswish.net/swish-cpcapi/api/v2/paymentrequests/$uuid";
     $cert = '/.ssh/swish_certificate_202305031532.pem';
     $key = '/.ssh/swish_private.key';
+    //$ca = '/.ssh/Swish_TLS_RootCA.pem';
 
     $data = array(
         'payeeAlias' => '1230886689',
-        'payeePaymentReference' => 'custom-payment-id',
+        'payeePaymentReference' => 'custom-payment-ref',
         'amount' => '500',
         'currency' => 'SEK',
         'message' => 'Presentkort!',
@@ -91,7 +92,8 @@ if (form_completed()) {
     curl_setopt($curl, CURLOPT_POSTFIELDS, http_build_query($data));
     curl_setopt($curl, CURLOPT_SSLCERT, $cert);
     curl_setopt($curl, CURLOPT_SSLKEY, $key);
-    //curl_setopt($curl, CURLOPT_SSLKEYPASSWD, 'lok13rum');
+    //    curl_setopt($curl, CURLOPT_CAINFO, $ca);
+    curl_setopt($curl, CURLOPT_SSLKEYPASSWD, 'lok13rum');
     curl_setopt($curl, CURLOPT_HEADER, true);
     curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($curl, CURLOPT_HTTPHEADER, array(
@@ -103,9 +105,8 @@ if (form_completed()) {
         die(curl_error($curl));
     } else {
         // Handle the response
-        $header_size = curl_getinfo($curl, CURLINFO_HEADER_SIZE);
-        $headers = substr($response, 0, $header_size);
-        echo "headers: $headers";
+        //$header_size = curl_getinfo($curl, CURLINFO_HEADER_SIZE);
+        $headers = $response; //substr($response, 0, $header_size);
     }
     curl_close($curl);
 }
@@ -131,7 +132,6 @@ if (form_completed()) {
 <body>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
     <main>
-        <?php echo "HEADERS: $headers" ?>
         <section id="banner">
             <div class="container">
                 <div class="flex-row justify-space-between">
@@ -143,6 +143,7 @@ if (form_completed()) {
         </section>
         <div class="container">
             <div id="content">
+                <section>HEADERS: <?php echo $headers ?></section>
                 <section id="title">
                     <h1 class="l10n">Gift cards</h1>
                     <p class="l10n">Buy gift card and give as a gift to someone you care about. Gift cards are valid for all procedures in all our clinics and are valid for 1 year from the date of receipt.</p>
