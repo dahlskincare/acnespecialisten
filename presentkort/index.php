@@ -69,46 +69,43 @@ if (form_completed()) {
     if (!extension_loaded('uuid')) {
         die('uuid extension not loaded');
     }
+    $uuid = strtoupper(str_replace('-', '', uuid_create()));
 
-    $uuid = strtoupper(str_replace('-', '', $uuid_create()));
-    // Fetch a swish token
+    // Fetch a swish token    
     $url = "https://cpc.getswish.net/swish-cpcapi/api/v2/paymentrequests/$uuid";
-    $data = json_encode(array(
-        "payeeAlias" => "1234679304",
-        "payeePaymentReference" => $uuid,
-        "currency" => "SEK",
-        "callbackUrl" => "https://acnespecialisten.se/presentkort?paid=1",
-        "amount" => "1000",
-        "message" => "Presentkort!"
-    ));
     $cert = '/.ssh/swish_certificate_202305031532.pem';
     $key = '/.ssh/swish_private.key';
-    $ca = '/.ssh/Swish_TLS_RootCA.pem';
+
+    $data = array(
+        'payeeAlias' => '1230886689',
+        'payeePaymentReference' => 'custom-payment-id',
+        'amount' => '500',
+        'currency' => 'SEK',
+        'message' => 'Presentkort!',
+        'callbackUrl' => 'https://acnespecialisten.se/presentkort?paid=1'
+    );
+
     $curl = curl_init();
     curl_setopt($curl, CURLOPT_URL, $url);
     curl_setopt($curl, CURLOPT_CUSTOMREQUEST, "PUT");
-    curl_setopt($curl, CURLOPT_POSTFIELDS, $data);
-    curl_setopt($curl, CURLOPT_SSLCERTTYPE, 'PEM');
-    curl_setopt($curl, CURLOPT_SSLKEYTYPE, 'PEM');
+    curl_setopt($curl, CURLOPT_POSTFIELDS, http_build_query($data));
     curl_setopt($curl, CURLOPT_SSLCERT, $cert);
     curl_setopt($curl, CURLOPT_SSLKEY, $key);
-    curl_setopt($curl, CURLOPT_CAINFO, $ca);
+    curl_setopt($curl, CURLOPT_SSLKEYPASSWD, 'lok13rum');
+    curl_setopt($curl, CURLOPT_HEADER, true);
     curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($curl, CURLOPT_HTTPHEADER, array(
-        "Content-Type: application/json",
-        'Content-Length: ' . strlen($data)
+        "Content-Type: application/json"
     ));
-
-    // Execute the request
     $response = curl_exec($curl);
-
     // Check for errors
     if (curl_errno($curl)) {
         die(curl_error($curl));
-        // Handle the error
     } else {
         // Handle the response
-        echo $response;
+        $header_size = curl_getinfo($curl, CURLINFO_HEADER_SIZE);
+        $headers = substr($response, 0, $header_size);
+        echo "headers: $headers";
     }
     curl_close($curl);
 }
