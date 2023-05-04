@@ -1,27 +1,16 @@
 <div class="brand-card-widget">
-  <img class="imic" src="https://via.placeholder.com/424x324.webp" alt="" width="424" height="324">
-  <div class="containerr">
+  <img class="bc-img-background" src="<?php echo $brand->photo ?>" alt="<?php echo $brand->label ?>" width="424" height="324">
+  <div class="bc-content">
     <div class="flex-row justify-end">
-      <img src="https://via.placeholder.com/116x80.webp" class="overlay" alt="overlay" width="116" height="80">
+      <img src="<?php echo $brand->image ?>" class="overlay" alt="overlay" width="116" height="80">
     </div>
-    <div class="laser">Laser for problem skin</div>
-    <div class="alma">Alma - Hybrid (CO2)</div>
-    <div>
-      <div class="descript">In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal personal meeting with a skin specialist, your skin...</div>
-      <div class="readmore">
-        <a href="url">Read more</a>
-      </div>
-    </div>
-
-    <hr class="hrr">
-
-    <div class="flex-container">
-
-      <button class="left">Get a free consultation</button>
-
-      <button class="right">Book a treatment</button>
-    </div>
-
+    <div class="subtitle"><?php echo $brand->subtitle ?></div>
+    <div class="title"><?php echo $brand->title ?></div>
+    <div class="description"><?php echo $brand->description ?></div>
+    <a href="<?php echo $brand->url ?>" class="button expand outline l10n">Read more about model</a>
+    <hr>
+    <a href="<?php echo $brand->consultation_url ?>" class="button expand l10n">Get a free consultation</a>
+    <a href="<?php echo $brand->booking_url ?>" class="button expand mt-s l10n">Book a treatment</a>
   </div>
 
 </div>

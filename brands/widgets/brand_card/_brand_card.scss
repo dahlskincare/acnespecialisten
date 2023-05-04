@@ -4,16 +4,18 @@
 
 .brand-card-widget {
   font-size: 0;
+  overflow: hidden;
+  border: 1px solid $light-200;
+  border-radius: $radius-l;
+  @include elevation-low();
 
-  .imic {
+  .bc-img-background {
     width: 100%;
     height: auto;
   }
 
-
-  .containerr {
-    font-size: small;
-    padding: 0 24px 24px 24px;
+  .bc-content {
+    padding: 0 $xl $xl $xl;
 
     img.overlay {
       // add shadow
@@ -24,52 +26,31 @@
       flex: 0;
     }
 
-    .flex-container {
-      display: flex;
-      flex-direction: row;
-
-      .left {
-        flex: 1;
-        margin-bottom: 24px;
-        margin-right: 12px;
-        font-size: small;
-      }
-
-      .right {
-        flex: 1;
-        margin: 0px, 24px, 24px, 0px;
-        margin-bottom: 24px;
-        font-size: small;
-      }
+    .subtitle {
+      @include p200;
+      margin-bottom: $xxs;
+      color: $dark-200;
     }
 
-
-
-    .laser {
-      margin-bottom: 4px;
-      color: rgb(95, 94, 94);
+    .title {
+      @include h300;
+      margin-bottom: $xs;
     }
 
-    .alma {
-      margin-bottom: 8px;
-      font-weight: bold;
-      font-size: medium;
+    .description {
+      @include p200;
+      // Limit to keep widget height similar
+      height: $s*12;
+      line-height: $xl;
+      margin-bottom: $xl;
+      overflow-y: auto;
     }
 
-    .descript {
-      height: 156px;
-      line-height: 24px;
-    }
-
-    .readmore {
-      margin-bottom: 24px;
-      color: #1B8066;
-      font-weight: bold;
-    }
-
-    .hrr {
-      margin-bottom: 24px;
-
+    hr {
+      margin-top: $xl;
+      margin-bottom: $xl;
+      border: none;
+      border-top: 1px solid $light-200;
     }
   }
 }

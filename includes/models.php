@@ -1,5 +1,6 @@
 <?php
 $root = $_SERVER['DOCUMENT_ROOT'];
+require_once($root . '/includes/models/brand.php');
 require_once($root . '/includes/models/salon.php');
 require_once($root . '/includes/models/skin_guide.php');
 
@@ -121,17 +122,7 @@ class PathSegment
     }
 }
 
-class Brand
-{
-    public function __construct($label, $image)
-    {
-        $this->label = $label;
-        $this->image = $image;
-    }
 
-    public string $label;
-    public string $image;
-}
 
 
 class Procedure
