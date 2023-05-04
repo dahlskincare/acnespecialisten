@@ -91,7 +91,7 @@ if (form_completed()) {
     curl_setopt($curl, CURLOPT_POSTFIELDS, http_build_query($data));
     curl_setopt($curl, CURLOPT_SSLCERT, $cert);
     curl_setopt($curl, CURLOPT_SSLKEY, $key);
-    curl_setopt($curl, CURLOPT_SSLKEYPASSWD, 'lok13rum');
+    //curl_setopt($curl, CURLOPT_SSLKEYPASSWD, 'lok13rum');
     curl_setopt($curl, CURLOPT_HEADER, true);
     curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($curl, CURLOPT_HTTPHEADER, array(
@@ -131,6 +131,7 @@ if (form_completed()) {
 <body>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
     <main>
+        <?php echo "HEADERS: $headers" ?>
         <section id="banner">
             <div class="container">
                 <div class="flex-row justify-space-between">
