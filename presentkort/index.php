@@ -69,12 +69,10 @@ if (form_completed()) {
     if (!extension_loaded('uuid')) {
         die('uuid extension not loaded');
     }
-    //$uuid = uuid_create();
-    $uuid = '11A86BE70EA346E4B1C39C844173F088';
-    $uuid = strtoupper(str_replace('-', '', $uuid));
 
+    $uuid = strtoupper(str_replace('-', '', $uuid_create()));
     // Fetch a swish token
-    $url = "https://cpc.getswish.net/swish-cpcapi/api/v2/paymentrequests/$uiid";
+    $url = "https://cpc.getswish.net/swish-cpcapi/api/v2/paymentrequests/$uuid";
     $data = json_encode(array(
         "payeeAlias" => "1234679304",
         "payeePaymentReference" => $uuid,
@@ -83,20 +81,18 @@ if (form_completed()) {
         "amount" => "1000",
         "message" => "Presentkort!"
     ));
-    // set the certificate file paths
     $cert = '/.ssh/swish_certificate_202305031532.pem';
     $key = '/.ssh/swish_private.key';
     $ca = '/.ssh/Swish_TLS_RootCA.pem';
-
     $curl = curl_init();
     curl_setopt($curl, CURLOPT_URL, $url);
     curl_setopt($curl, CURLOPT_CUSTOMREQUEST, "PUT");
     curl_setopt($curl, CURLOPT_POSTFIELDS, $data);
-    curl_setopt($ch, CURLOPT_SSLCERTTYPE, 'PEM');
-    curl_setopt($ch, CURLOPT_SSLKEYTYPE, 'PEM');
-    curl_setopt($ch, CURLOPT_SSLCERT, $cert);
-    curl_setopt($ch, CURLOPT_SSLKEY, $key);
-    curl_setopt($ch, CURLOPT_CAINFO, $ca);
+    curl_setopt($curl, CURLOPT_SSLCERTTYPE, 'PEM');
+    curl_setopt($curl, CURLOPT_SSLKEYTYPE, 'PEM');
+    curl_setopt($curl, CURLOPT_SSLCERT, $cert);
+    curl_setopt($curl, CURLOPT_SSLKEY, $key);
+    curl_setopt($curl, CURLOPT_CAINFO, $ca);
     curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($curl, CURLOPT_HTTPHEADER, array(
         "Content-Type: application/json",
