@@ -1,4 +1,8 @@
 <?php
+
+use HelmutSchneider\Swish\Client;
+use HelmutSchneider\Swish\PaymentRequest;
+
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 
 function form_completed()
@@ -65,50 +69,41 @@ if (form_completed()) {
     $message .= "--$boundary--\r\n";
     mail($to, $subject, $message, $headers);
 } else {
-    // Generate a uuid
-    if (!extension_loaded('uuid')) {
-        die('uuid extension not loaded');
-    }
-    $uuid = strtoupper(str_replace('-', '', uuid_create()));
+    $rootCert = '/.ssh/Swish_TLS_RootCA.pem';
+    $clientCert = ['/.ssh/swish_certificate.pem', 'lok13rum'];
+    $client = Client::make($rootCert, $clientCert);
 
-    // Fetch a swish token    
-    $url = "https://cpc.getswish.net/swish-cpcapi/api/v2/paymentrequests/$uuid";
-    $cert = '/.ssh/swish_certificate_202305031532.pem';
-    $key = '/.ssh/swish_private.key';
-    //$ca = '/.ssh/Swish_TLS_RootCA.pem';
+    $pr = new PaymentRequest([
+        'callbackUrl' => 'https://acnespecialisten.se/presentkort?paid=1',
+        'payeePaymentReference' => uniqid(),
+        'payeeAlias' => '1230886689',
+        'amount' => '500',
+        'message' => 'Presentkort!',
+    ]);
 
     $data = array(
-        'payeeAlias' => '1230886689',
-        'payeePaymentReference' => 'custom-payment-ref',
-        'amount' => '500',
-        'currency' => 'SEK',
-        'message' => 'Presentkort!',
-        'callbackUrl' => 'https://acnespecialisten.se/presentkort?paid=1'
+        "format" => "svg",
+        "size" => "300",
+        "border" => "0",
+        "transparent" => "true",
+        "token" => $client->createPaymentRequest($pr)->paymentRequestToken,
     );
+    $json_data = json_encode($data);
+    $ch = curl_init("https://mpc.getswish.net/qrg-swish/api/v1/commerce");
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_POST, true);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $json_data);
+    curl_setopt(
+        $ch,
+        CURLOPT_HTTPHEADER,
+        array(
+            'Content-Type: application/json',
+            'Content-Length: ' . strlen($json_data)
+        )
+    );
+    $qr_image = curl_exec($ch);
 
-    $curl = curl_init();
-    curl_setopt($curl, CURLOPT_URL, $url);
-    curl_setopt($curl, CURLOPT_CUSTOMREQUEST, "PUT");
-    curl_setopt($curl, CURLOPT_POSTFIELDS, http_build_query($data));
-    curl_setopt($curl, CURLOPT_SSLCERT, $cert);
-    curl_setopt($curl, CURLOPT_SSLKEY, $key);
-    //    curl_setopt($curl, CURLOPT_CAINFO, $ca);
-    curl_setopt($curl, CURLOPT_SSLKEYPASSWD, 'lok13rum');
-    curl_setopt($curl, CURLOPT_HEADER, true);
-    curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
-    curl_setopt($curl, CURLOPT_HTTPHEADER, array(
-        "Content-Type: application/json"
-    ));
-    $response = curl_exec($curl);
-    // Check for errors
-    if (curl_errno($curl)) {
-        die(curl_error($curl));
-    } else {
-        // Handle the response
-        //$header_size = curl_getinfo($curl, CURLINFO_HEADER_SIZE);
-        $headers = $response; //substr($response, 0, $header_size);
-    }
-    curl_close($curl);
+    curl_close($ch);
 }
 ?>
 <!DOCTYPE html>
@@ -143,7 +138,6 @@ if (form_completed()) {
         </section>
         <div class="container">
             <div id="content">
-                <section>HEADERS: <?php echo $headers ?></section>
                 <section id="title">
                     <h1 class="l10n">Gift cards</h1>
                     <p class="l10n">Buy gift card and give as a gift to someone you care about. Gift cards are valid for all procedures in all our clinics and are valid for 1 year from the date of receipt.</p>
@@ -165,7 +159,7 @@ if (form_completed()) {
                             </div>
                             <div class="gc-text l10n">Send us any amount you want to put on the gift card or buy some procedure.</div>
                             <hr />
-                            <a href="swish://paymentrequest?token=blablabla&callbackurl=https%3A%2F%2Facnespecialisten.com%2Fpresentkort%3Fpaid%3D1" class="button outline expand l10n">Open Swish app</a>
+                            <a href="swish://paymentrequest?token=<?php echo $client->createPaymentRequest($pr)->paymentRequestToken ?>&callbackurl=https%3A%2F%2Facnespecialisten.com%2Fpresentkort%3Fpaid%3D1" class="button outline expand l10n">Open Swish app</a>
                         </div>
                         <div class="gift-card-step" id="step-2-small">
                             <div class="flex-row align-center">
@@ -233,13 +227,13 @@ if (form_completed()) {
                                     <h2 class="l10n">Swish money</h2>
                                     <div class="l10n">Send us any amount you want to put on the gift card or buy some procedure.</div>
                                 </div>
-                                <div class="gc-info" id="swish-info">
-                                    <?php icon('swish-24') ?>
-                                    <a href="swish://paymentrequest?token=blablabla&callbackurl=https%3A%2F%2Facnespecialisten.com%2Fpresentkort%3Fpaid%3D1">123 618 05 41</a>
+                                <div id="qr-image">
+                                    <?php echo $qr_image; ?>
+                                    <div class="mt-s h200">123 08 866 89</div>
                                 </div>
                             </div>
                         </div>
-                        <div class="gift-card-step" id="step-2-large">
+                        <div class=" gift-card-step" id="step-2-large">
                             <div class="flex-row align-center">
                                 <div class="gc-number">02</div>
                                 <div class="gc-texts">

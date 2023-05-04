@@ -161,19 +161,9 @@ div#content {
                     }
                 }
 
-                #swish-info {
-                    display: flex;
-                    align-items: center;
-
-                    .icon {
-                        width: $xl;
-                        height: $xl;
-                        margin-right: $s;
-                    }
-
-                    a {
-                        @include h200;
-                    }
+                #qr-image {
+                    text-align: center;
+                    width: 130px;
                 }
 
                 hr {
