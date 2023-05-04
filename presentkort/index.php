@@ -70,7 +70,7 @@ if (form_completed()) {
     mail($to, $subject, $message, $headers);
 } else {;
     $rootCert = $_ENV['SWISH_SSL_FOLDER'] . '/Swish_TLS_RootCA.pem';
-    $clientCert = [$_ENV['SWISH_SSL_FOLDER'] . '/.ssh/swish_certificate.pem', 'lok13rum'];
+    $clientCert = [$_ENV['SWISH_SSL_FOLDER'] . '/swish_certificate.pem', 'lok13rum'];
     $client = Client::make($rootCert, $clientCert);
 
     $pr = new PaymentRequest([
