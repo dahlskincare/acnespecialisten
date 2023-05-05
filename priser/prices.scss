@@ -6,72 +6,126 @@
 html {
     body {
         section#banner {
-            .green-header-banner-widget {
-                padding-bottom: 102px;
+            #brands-container {
+                margin-top: $s;
+                margin-left: -$m;
+                margin-right: -$m;
+                position: relative;
+                overflow: hidden;
+                background-color: $white-500;
+
+                #brands {
+                    padding-bottom: $m;
+                    padding-left: $m;
+                    padding-right: $m;
+                    position: relative;
+
+                    overflow-y: auto;
+                    scroll-behavior: smooth;
+                    scrollbar-width: none;
+                    -ms-overflow-style: none;
+                    display: flex;
+
+                    #brands-shadow {
+                        @include elevation-medium();
+                        display: flex;
+                        border-radius: $radius-l;
+                    }
+
+
+                    a {
+                        .brand {
+                            border-left: 1px solid $light-200;
+                            border-top: 1px solid $light-200;
+                            border-bottom: 1px solid $light-200;
+                            padding: $xxl $s;
+                        }
+                    }
+
+                    a:first-child {
+                        .brand {
+                            border-top-left-radius: $radius-l;
+                            border-bottom-left-radius: $radius-l;
+
+                        }
+                    }
+
+                    a:last-child {
+                        .brand {
+                            border-right: 1px solid $light-200;
+                            border-top-right-radius: $radius-l;
+                            border-bottom-right-radius: $radius-l;
+
+
+                        }
+                    }
+
+                }
+
+                #brands::-webkit-scrollbar {
+                    width: 0;
+                    height: 0;
+                }
+
+                div.scroll-button {
+                    background-color: $white-500;
+                    position: absolute;
+                    top: 0;
+                    height: 100%;
+                    padding: $m;
+                    box-sizing: border-box;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                }
+
+                div.scroll-button#scroll-button-previous {
+                    background: linear-gradient(90deg, $white-500 70%, rgba(255, 255, 255, 0) 100%);
+                    padding-right: $xl*2;
+                }
+
+                div.scroll-button#scroll-button-next {
+                    background: linear-gradient(270deg, $white-500 70%, rgba(255, 255, 255, 0) 100%);
+                    padding-left: $xl*2;
+                    right: 0;
+                }
+
+
             }
 
             @include desktop {
+                .green-header-banner-widget {
+                    padding-bottom: 102px;
+                }
+
                 #brands-container {
-                    position: relative;
-                    border: 1px solid $light-200;
-                    border-radius: $radius-l;
-                    overflow: hidden;
                     margin-top: - $xl3;
-                    background-color: $white-500;
+                    margin-left: 0;
+                    margin-right: 0;
                     @include elevation-medium();
+                    border-radius: $radius-l;
 
-                    div#brands {
-                        position: relative;
-                        display: flex;
-                        overflow-y: auto;
-                        scroll-behavior: smooth;
-                        scrollbar-width: none;
-                        -ms-overflow-style: none;
-
-                        a {
-                            border-left: 1px solid $light-200;
-
-                            .brand {
-                                padding: $xxl $s;
-                            }
-                        }
-
-                        .a:first-child {
-                            border-left: 1px solid transparent;
-                        }
-
-
+                    #brands {
+                        padding-left: 0;
+                        padding-right: 0;
+                        padding-bottom: 0;
                     }
+                }
+            }
+        }
 
-                    div#brands::-webkit-scrollbar {
-                        width: 0;
-                        height: 0;
-                    }
+        section#services {
+            margin-top: $xs;
 
-                    div.scroll-button {
-                        background-color: $white-500;
-                        position: absolute;
-                        top: 0;
-                        height: 100%;
-                        padding: $m;
-                        box-sizing: border-box;
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: center;
-                    }
+            a {
+                margin-bottom: $xxs;
+            }
 
-                    div.scroll-button#scroll-button-previous {
-                        background: linear-gradient(90deg, $white-500 70%, rgba(255, 255, 255, 0) 100%);
-                        padding-right: $xl*2;
-                    }
+            @include desktop {
+                margin-top: $xl3;
 
-                    div.scroll-button#scroll-button-next {
-                        background: linear-gradient(270deg, $white-500 70%, rgba(255, 255, 255, 0) 100%);
-                        padding-left: $xl*2;
-                        right: 0;
-                    }
-
-
+                a {
+                    margin-bottom: $xs;
                 }
             }
         }
