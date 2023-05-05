@@ -1,0 +1,79 @@
+@import '../styles/util/colors';
+@import '../styles/util/sizes';
+@import '../styles/util/mixins';
+
+
+html {
+    body {
+        section#banner {
+            .green-header-banner-widget {
+                padding-bottom: 102px;
+            }
+
+            @include desktop {
+                #brands-container {
+                    position: relative;
+                    border: 1px solid $light-200;
+                    border-radius: $radius-l;
+                    overflow: hidden;
+                    margin-top: - $xl3;
+                    background-color: $white-500;
+                    @include elevation-medium();
+
+                    div#brands {
+                        position: relative;
+                        display: flex;
+                        overflow-y: auto;
+                        scroll-behavior: smooth;
+                        scrollbar-width: none;
+                        -ms-overflow-style: none;
+
+                        a {
+                            border-left: 1px solid $light-200;
+
+                            .brand {
+                                padding: $xxl $s;
+                            }
+                        }
+
+                        .a:first-child {
+                            border-left: 1px solid transparent;
+                        }
+
+
+                    }
+
+                    div#brands::-webkit-scrollbar {
+                        width: 0;
+                        height: 0;
+                    }
+
+                    div.scroll-button {
+                        background-color: $white-500;
+                        position: absolute;
+                        top: 0;
+                        height: 100%;
+                        padding: $m;
+                        box-sizing: border-box;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                    }
+
+                    div.scroll-button#scroll-button-previous {
+                        background: linear-gradient(90deg, $white-500 70%, rgba(255, 255, 255, 0) 100%);
+                        padding-right: $xl*2;
+                    }
+
+                    div.scroll-button#scroll-button-next {
+                        background: linear-gradient(270deg, $white-500 70%, rgba(255, 255, 255, 0) 100%);
+                        padding-left: $xl*2;
+                        right: 0;
+                    }
+
+
+                }
+            }
+        }
+    }
+}
