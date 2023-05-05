@@ -3,6 +3,7 @@ $root = $_SERVER['DOCUMENT_ROOT'];
 require_once($root . '/includes/models/brand.php');
 require_once($root . '/includes/models/salon.php');
 require_once($root . '/includes/models/skin_guide.php');
+require_once($root . '/includes/models/green_banner_content.php');
 
 class ApproachCard
 {

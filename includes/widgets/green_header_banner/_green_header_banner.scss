@@ -1,0 +1,35 @@
+.green-header-banner-widget {
+    background-color: $deep-sea-400;
+    color: $white-500;
+    padding-top: $xl;
+    padding-bottom: $xl;
+    @include p100;
+
+    .underline {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+    @include desktop {
+        padding-bottom: $xl4;
+
+        div#ghb-title-col {
+            flex: 1 0 425px;
+
+            .h600 {
+                width: 1px;
+            }
+        }
+
+        div#ghb-texts-col {
+            margin-left: $xl;
+            display: flex;
+            align-items: flex-start;
+
+            div {
+                flex: 1;
+            }
+        }
+    }
+
+}
