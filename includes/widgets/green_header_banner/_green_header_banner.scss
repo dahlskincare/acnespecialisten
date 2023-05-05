@@ -28,6 +28,7 @@
 
             div {
                 flex: 1;
+                @include p200;
             }
         }
     }
