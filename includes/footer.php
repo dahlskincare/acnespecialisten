@@ -90,7 +90,7 @@
                                 <a href="problem" class="button text grey compact l10n">Problem</a>
                             </li>
                             <li>
-                                <a href="behandlingar" class="button text grey compact l10n">Behandlignar</a>
+                                <a href="behandlingar" class="button text grey compact l10n">Behandlingar</a>
                             </li>
                             <li>
                                 <a href="varumarken" class="button text grey compact l10n">Varumärken</a>
@@ -198,7 +198,7 @@
                             <div class="column">
                                 <h2 class="l10n">Redo att sätta igång??</h2>
                                 <p class="l10n mt-xs">
-                                    Vi inleder med en gratis hudkonsultation, identifierar din problemhy och skapar en anpassad behandlignsplan för dig.
+                                    Vi inleder med en gratis hudkonsultation, identifierar din problemhy och skapar en anpassad behandlingsplan för dig.
                                 </p>
                             </div>
                             <div class="column">
