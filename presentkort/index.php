@@ -77,8 +77,8 @@ if (form_completed()) {
         'callbackUrl' => 'https://acnespecialisten.se/presentkort?paid=1',
         'payeePaymentReference' => uniqid(),
         'payeeAlias' => '1230886689',
-        'amount' => '500',
-        'message' => 'Presentkort!',
+        'amount' => 500,
+        'message' => 'Presentkort Acnespecialisten',
     ]);
 
     $data = array(
