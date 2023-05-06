@@ -55,7 +55,7 @@ $problems['aknearr'] = new Problem(
       image_small: 'images/problems/small/acne-scars.jpg',
       image_medium: 'images/problems/medium/acne-scars.jpg',
       image_large: 'images/problems/large/acne-scars.jpg',
-      info: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...'
+      info: 'Acneärr uppstår när inflammerade finnar skadar hudens vävnad och lämnar bestående märken. Ärrtyper varierar från gropiga, ojämna ytor till missfärgade områden. Även om ärr kan vara svåra att helt eliminera, finns det behandlingar som avsevärt kan förbättra deras utseende och struktur, såsom Laser, IPL, Miceoneedling och kemiska peelingar. Acneärr kräver ofta flera behandlingssessioner för optimala resultat.'
 );
 $problems['pormaskar'] = new Problem(
       label: 'Pormaskar',
