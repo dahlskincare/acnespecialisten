@@ -415,21 +415,20 @@ $problem_areas = array(
                                                                   View problem details
                                                             </a>
                                                             <hr>
-                                                            <a href="https://www.dahlskincare.com/skin-consultation" target="_blank" class="button expand l10n">Get a free consultation</a>
+                                                            <a href="https://www.dahlskincare.com/skin-consultation" target="_blank" class="button expand l10n">Få gratis konsultation</a>
                                                             <!-- TODO: procedure link -->
-                                                            <a href="#" class="mt-s button expand l10n">Select a procedure</a>
+                                                            <a href="#" class="mt-s button expand l10n">Se behandlingar</a>
                                                       </div>
                                                       <div class="is-hidden-mobile">
                                                             <a href="<?php echo $problem->url ?>" class="mt-m button text compact l10n">Läs mer</a>
                                                             <hr>
                                                             <div class="columns is-multiline">
                                                                   <div class="column mt-xxs is-full is-half-widescreen">
-                                                                        <a href="https://www.dahlskincare.com/skin-consultation" target="_blank" class="button expand l10n">Get a free
-                                                                              consultation</a>
+                                                                        <a href="https://www.dahlskincare.com/skin-consultation" target="_blank" class="button expand l10n">Få gratis konsultation</a>
                                                                   </div>
                                                                   <div class="column mt-xxs is-full is-half-widescreen">
                                                                         <!-- TODO: procedure link -->
-                                                                        <a href="#" target="_blank" class="button expand l10n">Select procedure</a>
+                                                                        <a href="#" target="_blank" class="button expand l10n">Se behandlingar</a>
                                                                   </div>
                                                             </div>
                                                       </div>
