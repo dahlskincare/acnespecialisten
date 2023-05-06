@@ -97,16 +97,16 @@
                         $accordion = array(
                               new AccordionItem(
                                     label: 'Akne',
-                                    image_small: 'images/problems/carousel/small/acne.jpg',
-                                    image_large: 'images/problems/carousel/large/acne.jpg',
+                                    image_small: 'images/problems/carousel/medium/akne.webp',
+                                    image_large: 'images/problems/carousel/medium/akne.webp',
                                     url: 'problem/akne',
                                     show_on_large: true,
                                     show_on_small: true
                               ),
                               new AccordionItem(
                                     label: 'Akneärr',
-                                    image_small: 'images/problems/carousel/small/acne-scars.jpg',
-                                    image_large: 'images/problems/carousel/large/acne-scars.jpg',
+                                    image_small: 'images/problems/carousel/medium/acnearr.webp',
+                                    image_large: 'images/problems/carousel/medium/acnearr.webp',
                                     url: 'problem/aknearr',
                                     show_on_large: true,
                                     show_on_small: true
