@@ -309,7 +309,7 @@ $problem_areas = array(
                                     <p class="p200 mt-xs">
                                           <span id="problems-banner-collapsed" class="l10n">
                                                 Hudproblem som akne, rosacea, pormaskar och finnar kan påverka individer i alla åldrar och orsaka obehag, nedsatt självkänsla och försämrad livskvalitet. På Acnespecialisten arbetar vi med att behandla och förbättra problemhy genom att erbjuda skräddarsydda lösningar och behandlingar för varje enskild kund. Vi erbjuder en rad behandlingsmetoder och tekniker anpassade för att hantera olika hudproblem. För att veta mer om de olika problemen och hur vi kan hjälpa dig, klicka på det problem du misstänker att du har:
-                                                <span class="l10n underline h200" onclick="Problems.onReadMoreClick()">read more</span>
+                                                <span class="l10n underline h200" onclick="Problems.onReadMoreClick()">läs mer</span>
                                           </span>
                                           <span id="problems-banner-expanded" class="l10n is-hidden">
                                                 Om du är osäker på vilket hudproblem du har eller vilken behandling som skulle passa dig bäst, rekommenderar vi att du bokar en kostnadsfri hudkonsultation. Under konsultationen kommer en av våra erfarna hudterapeuter att undersöka din hud, identifiera eventuella problem och rekommendera en behandlingsplan som passar dina specifika behov och mål. Boka din gratis hudkonsultation idag och ta det första steget mot en friskare och mer välmående hud.
@@ -420,7 +420,7 @@ $problem_areas = array(
                                                             <a href="#" class="mt-s button expand l10n">Select a procedure</a>
                                                       </div>
                                                       <div class="is-hidden-mobile">
-                                                            <a href="<?php echo $problem->url ?>" class="mt-m button text compact l10n">Read more</a>
+                                                            <a href="<?php echo $problem->url ?>" class="mt-m button text compact l10n">Läs mer</a>
                                                             <hr>
                                                             <div class="columns is-multiline">
                                                                   <div class="column mt-xxs is-full is-half-widescreen">
