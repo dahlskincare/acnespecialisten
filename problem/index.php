@@ -95,7 +95,7 @@ $problems['perioral-dermatit'] = new Problem(
       image_small: 'images/problems/small/perioral-dermatitis.jpg',
       image_medium: 'images/problems/medium/perioral-dermatitis.jpg',
       image_large: 'images/problems/large/perioral-dermatitis.jpg',
-      info: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...'
+      info: 'Perioral dermatit är en hudåkomma med röda, inflammerade knottror och fjällande hud kring munnen, hakan och näsan. Vanligast hos kvinnor i åldern 20-50 år, kan orsakas av steroidkrämer, starka hudvårdsprodukter, hormonella förändringar eller stress.'
 );
 $problems['stora-porer'] = new Problem(
       label: 'Stora porer',
