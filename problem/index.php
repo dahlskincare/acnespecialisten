@@ -105,8 +105,7 @@ $problems['stora-porer'] = new Problem(
       image_small: 'images/problems/small/large-pores.jpg',
       image_medium: 'images/problems/medium/large-pores.jpg',
       image_large: 'images/problems/large/large-pores.jpg',
-      info: '
-Stora porer är en vanlig hudåkomma där porerna i huden syns tydligare på grund av deras storlek. De är ofta ett resultat av överaktiv talgproduktion, genetik, åldrande och förlust av hudens elasticitet. Stora porer kan leda till ojämn hudstruktur, ökad synlighet av pormaskar och en fetare hud. Behandlingar syftar till att rengöra och minska porstorlek, samt balansera hudens oljeproduktion för att förbättra hudens utseende och struktur.'
+      info: 'Stora porer är en vanlig hudåkomma där porerna i huden syns tydligare på grund av deras storlek. De är ofta ett resultat av överaktiv talgproduktion, genetik, åldrande och förlust av hudens elasticitet. Stora porer kan leda till ojämn hudstruktur, ökad synlighet av pormaskar och en fetare hud. Behandlingar syftar till att rengöra och minska porstorlek, samt balansera hudens oljeproduktion för att förbättra hudens utseende och struktur.'
 );
 $problems['pigmentflackar'] = new Problem(
       label: 'Pigmentfläckar',
@@ -126,8 +125,7 @@ $problems['blandhy'] = new Problem(
       image_small: 'images/problems/small/oily-combination-skin.jpg',
       image_medium: 'images/problems/medium/oily-combination-skin.jpg',
       image_large: 'images/problems/large/oily-combination-skin.jpg',
-      info: 'I
-Blandhy är en hudtyp som kombinerar element av både torr och fet hud. Den kännetecknas av varierande oljighet och torrhet i olika delar av ansiktet, där den så kallade T-zonen (panna, näsa och haka) ofta är fetare medan kinderna kan vara normala eller torra. Personer med blandhy kan uppleva pormaskar, finnar och glansighet i de oljigare områdena, samtidigt som torra områden kan kännas strama och fjälla'
+      info: 'Blandhy är en hudtyp som kombinerar element av både torr och fet hud. Den kännetecknas av varierande oljighet och torrhet i olika delar av ansiktet, där den så kallade T-zonen (panna, näsa och haka) ofta är fetare medan kinderna kan vara normala eller torra. Personer med blandhy kan uppleva pormaskar, finnar och glansighet i de oljigare områdena, samtidigt som torra områden kan kännas strama och fjälla'
 );
 $problems['torr-kanslig-hy'] = new Problem(
       label: 'Torr & Känslig hy',
@@ -137,9 +135,7 @@ $problems['torr-kanslig-hy'] = new Problem(
       image_small: 'images/problems/small/dry-and-sensitive-skin.jpg',
       image_medium: 'images/problems/medium/dry-and-sensitive-skin.jpg',
       image_large: 'images/problems/large/dry-and-sensitive-skin.jpg',
-      info: '
-ChatGPT
-Torr och känslig hy är en hudtyp som ofta upplever brist på fukt och en skyddande fet hinna, vilket gör huden mer mottaglig för irritation och yttre påverkan. Symptom inkluderar stramhet, rodnad, fjällning och klåda. För att behandla denna hudtyp krävs det extra omsorg och professionella behandlingar som fokuserar på att skydda och stärka hudbarriären. Det är viktigt att välja behandlingar som är skonsamma mot huden och syftar till att återfukta, lugna och återuppbygga den känsliga hudbarriären'
+      info: 'Torr och känslig hy är en hudtyp som ofta upplever brist på fukt och en skyddande fet hinna, vilket gör huden mer mottaglig för irritation och yttre påverkan. Symptom inkluderar stramhet, rodnad, fjällning och klåda. För att behandla denna hudtyp krävs det extra omsorg och professionella behandlingar som fokuserar på att skydda och stärka hudbarriären. Det är viktigt att välja behandlingar som är skonsamma mot huden och syftar till att återfukta, lugna och återuppbygga den känsliga hudbarriären'
 );
 $problems['mogen-hy'] = new Problem(
       label: 'Mogen Hy',
@@ -159,7 +155,7 @@ $problems['milier'] = new Problem(
       image_small: 'images/problems/small/milier.jpg',
       image_medium: 'images/problems/medium/milier.jpg',
       image_large: 'images/problems/large/milier.jpg',
-      info: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...'
+      info: 'Milier, även kallade "milk spots" eller "vitkorn", är små, fasta, vita eller gulaktiga knölar som vanligtvis uppträder på ansiktet, särskilt runt ögonen och kinderna. De består av små ansamlingar av keratin (ett protein) inneslutet under hudytan och är vanligtvis ofarliga och icke-smittsamma. Milier kan förekomma hos personer i alla åldrar och är inte direkt kopplade till akne eller andra hudåkommor. Behandling av milier kan omfatta professionell borttagning genom en hudterapeut eller läkare, som använder sterila verktyg för att säkert öppna och tömma knölarna.'
 );
 $problems['ytliga-blodkarl'] = new Problem(
       label: 'Ytliga Blodkärl',
