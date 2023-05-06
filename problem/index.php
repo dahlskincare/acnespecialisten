@@ -45,7 +45,7 @@ $problems['akne'] = new Problem(
       image_small: 'images/problems/small/acne.jpg',
       image_medium: 'images/problems/medium/acne.jpg',
       image_large: 'images/problems/large/acne.jpg',
-      info: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...'
+      info: 'Akne är en vanlig hudåkomma som påverkar människor i alla åldrar. Det orsakas av inflammation i hårsäckarna och talgkörtlarna och kan leda till finnar, pormaskar och ibland ärr. Behandla och förebygga akne effektivt genom skräddarsydda behandlingar och en korrekt hudvårdsrutin.'
 );
 $problems['aknearr'] = new Problem(
       label: 'Akneärr',
