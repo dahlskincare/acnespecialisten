@@ -85,7 +85,7 @@ $problems['seborre'] = new Problem(
       image_small: 'images/problems/small/seborrhea.jpg',
       image_medium: 'images/problems/medium/seborrhea.jpg',
       image_large: 'images/problems/large/seborrhea.jpg',
-      info: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...'
+      info: 'Seborré är en hudåkomma där huden producerar för mycket talg (olja), vilket leder till fet och fjällande hud. Det påverkar oftast områden där talgkörtlar är rikligt förekommande, som ansikte, hårbotten och överkropp. Symtom innefattar klåda, rodnad, oljig hud och fjällning. Orsaker till seborré kan vara genetiska, hormonella eller miljömässiga, och behandlingar syftar till att kontrollera symtomen och balansera hudens oljeproduktion.'
 );
 $problems['perioral-dermatit'] = new Problem(
       label: 'Perioral dermatit',
@@ -105,7 +105,8 @@ $problems['stora-porer'] = new Problem(
       image_small: 'images/problems/small/large-pores.jpg',
       image_medium: 'images/problems/medium/large-pores.jpg',
       image_large: 'images/problems/large/large-pores.jpg',
-      info: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...'
+      info: '
+Stora porer är en vanlig hudåkomma där porerna i huden syns tydligare på grund av deras storlek. De är ofta ett resultat av överaktiv talgproduktion, genetik, åldrande och förlust av hudens elasticitet. Stora porer kan leda till ojämn hudstruktur, ökad synlighet av pormaskar och en fetare hud. Behandlingar syftar till att rengöra och minska porstorlek, samt balansera hudens oljeproduktion för att förbättra hudens utseende och struktur.'
 );
 $problems['pigmentflackar'] = new Problem(
       label: 'Pigmentfläckar',
@@ -115,7 +116,7 @@ $problems['pigmentflackar'] = new Problem(
       image_small: 'images/problems/small/pigmentation.jpg',
       image_medium: 'images/problems/medium/pigmentation.jpg',
       image_large: 'images/problems/large/pigmentation.jpg',
-      info: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...'
+      info: 'Pigmentfläckar är ojämna områden på huden där det finns en större mängd melanin, vilket ger huden dess färg. De kan vara ljusa till mörka i färgen och variera i storlek och form. Pigmentfläckar kan orsakas av flera faktorer, såsom solskador, hormonella förändringar, åldrande eller genetik. De är vanliga på områden som är mest exponerade för solen, som ansikte, händer och armar. Behandlingar syftar till att reducera synligheten av pigmentfläckar och jämna ut hudtonen.'
 );
 $problems['blandhy'] = new Problem(
       label: 'Blandhy',
@@ -125,7 +126,8 @@ $problems['blandhy'] = new Problem(
       image_small: 'images/problems/small/oily-combination-skin.jpg',
       image_medium: 'images/problems/medium/oily-combination-skin.jpg',
       image_large: 'images/problems/large/oily-combination-skin.jpg',
-      info: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...'
+      info: 'I
+Blandhy är en hudtyp som kombinerar element av både torr och fet hud. Den kännetecknas av varierande oljighet och torrhet i olika delar av ansiktet, där den så kallade T-zonen (panna, näsa och haka) ofta är fetare medan kinderna kan vara normala eller torra. Personer med blandhy kan uppleva pormaskar, finnar och glansighet i de oljigare områdena, samtidigt som torra områden kan kännas strama och fjälla'
 );
 $problems['torr-kanslig-hy'] = new Problem(
       label: 'Torr & Känslig hy',
@@ -135,7 +137,9 @@ $problems['torr-kanslig-hy'] = new Problem(
       image_small: 'images/problems/small/dry-and-sensitive-skin.jpg',
       image_medium: 'images/problems/medium/dry-and-sensitive-skin.jpg',
       image_large: 'images/problems/large/dry-and-sensitive-skin.jpg',
-      info: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...'
+      info: '
+ChatGPT
+Torr och känslig hy är en hudtyp som ofta upplever brist på fukt och en skyddande fet hinna, vilket gör huden mer mottaglig för irritation och yttre påverkan. Symptom inkluderar stramhet, rodnad, fjällning och klåda. För att behandla denna hudtyp krävs det extra omsorg och professionella behandlingar som fokuserar på att skydda och stärka hudbarriären. Det är viktigt att välja behandlingar som är skonsamma mot huden och syftar till att återfukta, lugna och återuppbygga den känsliga hudbarriären'
 );
 $problems['mogen-hy'] = new Problem(
       label: 'Mogen Hy',
@@ -145,7 +149,7 @@ $problems['mogen-hy'] = new Problem(
       image_small: 'images/problems/small/mature-skin.jpg',
       image_medium: 'images/problems/medium/mature-skin.jpg',
       image_large: 'images/problems/large/mature-skin.jpg',
-      info: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...'
+      info: 'Mogen hy är en hudtyp som vanligtvis upplever naturliga ålderstecken som rynkor, linjer, minskad elasticitet och förlust av volym på grund av åldrandet och kollagenminskning. Mogen hy kan också vara mer benägen för torrhet och känslighet. Behandlingar för mogen hy bör fokusera på att främja hudens naturliga kollagenproduktion, återfukta, stärka hudbarriären och förbättra hudens lyster. Användning av antioxidanter, peptider och retinoider i hudvårdsprodukter kan vara fördelaktigt. Professionella behandlingar såsom ansiktsbehandlingar med fokus på återfuktning, exfoliering och stimulering av kollagenproduktionen, samt mikrodermabrasion och kemiska peelingar kan hjälpa till att förbättra hudens utseende och motverka ålderstecken.'
 );
 $problems['milier'] = new Problem(
       label: 'Milier',
