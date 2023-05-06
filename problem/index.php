@@ -65,7 +65,7 @@ $problems['pormaskar'] = new Problem(
       image_small: 'images/problems/small/comedones.jpg',
       image_medium: 'images/problems/medium/comedones.jpg',
       image_large: 'images/problems/large/comedones.jpg',
-      info: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...'
+      info: 'Pormaskar är små pluggar av talg och döda hudceller som täpper till hårsäckar. De finns i två typer: öppna (svarta) och stängda (vita) pormaskar. För att förebygga och behandla pormaskar är det viktigt att rengöra huden noggrant, exfoliera regelbundet och använda icke-komedogena produkter.'
 );
 $problems['rosacea'] = new Problem(
       label: 'Rosacea',
@@ -75,7 +75,7 @@ $problems['rosacea'] = new Problem(
       image_small: 'images/problems/small/rosacea.jpg',
       image_medium: 'images/problems/medium/rosacea.jpg',
       image_large: 'images/problems/large/rosacea.jpg',
-      info: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...'
+      info: 'Rosacea är en kronisk inflammatorisk hudsjukdom som främst påverkar ansiktet. Den kännetecknas av rodnad, synliga blodkärl, svullnad och små knottriga utslag. Rosacea kan förväxlas med akne, men orsakas av olika faktorer. Vanliga utlösare kan vara solljus, stress, värme och kryddstark mat. Behandlingen fokuserar på att eliminera problemet genom att undvika utlösare och använda skonsamma metoder som laserterapi eller IPL-behandlingar. En anpassad hudvårdsrutin för känslig hy är också viktig för att hantera rosacea effektivt.'
 );
 $problems['seborre'] = new Problem(
       label: 'Seborré',
