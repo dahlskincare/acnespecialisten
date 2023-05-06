@@ -97,7 +97,7 @@
                         $accordion = array(
                               new AccordionItem(
                                     label: 'Akne',
-                                    image_small: 'images/problems/carousel/medium/akne.webp',
+                                    image_small: 'images/problems/carousel/small/akne.webp',
                                     image_large: 'images/problems/carousel/medium/akne.webp',
                                     url: 'problem/akne',
                                     show_on_large: true,
@@ -105,7 +105,7 @@
                               ),
                               new AccordionItem(
                                     label: 'Akneärr',
-                                    image_small: 'images/problems/carousel/medium/acnearr.webp',
+                                    image_small: 'images/problems/carousel/small/acnearr.webp',
                                     image_large: 'images/problems/carousel/medium/acnearr.webp',
                                     url: 'problem/aknearr',
                                     show_on_large: true,
