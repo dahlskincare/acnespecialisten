@@ -10,7 +10,7 @@ $image_small = 'images/problems/medium/acne-scars.jpg';
 $image_large = 'images/problems/large/acne-scars.jpg';
 
 $description = 'Här förklarar vi vad som kännetecknar akne, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av akne, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';
-$akas = ['post-inflammatory-hyperpigmentation' => 'Finnar', 'athropic-scars' => 'Vuxenacne', 'athropic-scars' => 'Tonårsakne'];
+$akas = ['post-inflammatory-hyperpigmentation' => 'Finnar', 'athropic-scars' => 'Vuxenacne', 'skall detta vara en länk?' => 'Tonårsakne'];
 $booking_url = 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922';
 $nav_buttons = array(
       'about' => 'Overview',
