@@ -87,6 +87,12 @@ $treatment_steps = array(
             url: 'https://www.dahlskincare.com',
             url_label: 'View products'
       ),
+      new TreatmentStep(
+            title: 'Reparera',
+            content: 'När den aktiva aknen är borta kan vi fokusera på att ta hand om eventuella ärr som kan ha uppstått som en följd av aknen. Vi erbjuder olika behandlingsmetoder, såsom laser, microneedling och kemisk peeling, för att reducera ärr och ge dig en jämn och vacker hud.',
+            url: 'https://www.dahlskincare.com',
+            url_label: 'View products'
+      ),
 );
 $type_categories = array(
       new BasedTypeCategory(
