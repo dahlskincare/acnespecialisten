@@ -365,7 +365,7 @@ $related_problems = array(
                               <div>
                                     <h2 class="h600">Akne</h2>
                                     <div class="mt-m aka">
-                                          <span class="p200 l10n">Also known as</span>
+                                          <span class="p200 l10n">Även kallat</span>
                                           <?php
                                           $length = sizeof(($akas));
                                           $values = array_values($akas);
@@ -401,7 +401,7 @@ $related_problems = array(
                         <div class="container">
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
                               <h1 class="mt-xs h600">Akne</h1>
-                              <h3 class="mt-xs p100 l10n">Also known as</h3>
+                              <h3 class="mt-xs p100 l10n">Även kallat</h3>
                               <?php foreach ($akas as $key => $aka) { ?>
                                     <div>
                                           <a href="ordlista?keyword=<?php echo $key ?>" class="mt-xs button b50 bright">
@@ -438,7 +438,7 @@ $related_problems = array(
                               <div id="green-header-large-text" class="mt-xxs">
                                     <h1 class="h600">Akne</h1>
                                     <div class="mt-s">
-                                          <span class="h200 l10n">Also known as</span>
+                                          <span class="h200 l10n">Även kallat</span>
                                           <?php
                                           $length = sizeof(($akas));
                                           $values = array_values($akas);
