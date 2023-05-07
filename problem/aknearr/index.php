@@ -590,6 +590,7 @@ $related_problems = array(
                                     </div>
                               </div>
                               <?php
+                              $reviews_narrow = true;
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                               ?>
                               <a class="mt-xl button b200 outline expand auto-width l10n" href="omdomen">View all reviews</a>
