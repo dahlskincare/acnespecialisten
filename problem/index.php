@@ -452,7 +452,7 @@ $problem_areas = array(
             <section id="reviews">
                   <div class="container">
                         <div class="flex-row align-end justify-space-between">
-                              <h2 class="big l10n">Reviews</h2>
+                              <h2 class="big l10n">Omdömen</h2>
                               <div class="flex-row is-hidden-mobile">
                                     <div class="step-buttons">
                                           <button class="round-large grey" onclick="Reviews.scroll(-1)">
@@ -463,7 +463,7 @@ $problem_areas = array(
                                           </button>
                                     </div>
                                     <a href="reviews" class="ml-l button compact text">
-                                          <span class="l10n">View all reviews</span>
+                                          <span class="l10n">Läs fler omdömen</span>
                                           <?php icon('navigate-next') ?>
                                     </a>
                               </div>
@@ -482,20 +482,20 @@ $problem_areas = array(
                               </a>
                         </div>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                        <a class="mt-xl button outline expand is-hidden-tablet l10n" href="faq">View all questions</a>
+                        <a class="mt-xl button outline expand is-hidden-tablet l10n" href="faq">Läs fler frågor & svar</a>
                   </div>
             </section>
             <section id="skin-guide">
                   <div class="container">
                         <div class="flex-row align-end justify-space-between">
-                              <h2 class="big l10n">Skin guide</h2>
+                              <h2 class="big l10n">Hudguide</h2>
                               <a href="skin-guide" class="button compact text is-hidden-mobile">
-                                    <span class="l10n">View all articles</span>
+                                    <span class="l10n">Läs fler guider</span>
                                     <?php icon('navigate-next') ?>
                               </a>
                         </div>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php'); ?>
-                        <a class="mt-xl button outline expand is-hidden-tablet l10n" href="skin-guide">View all articles</a>
+                        <a class="mt-xl button outline expand is-hidden-tablet l10n" href="skin-guide">Läs fler guider</a>
                   </div>
             </section>
             <section id="specialists">
@@ -503,7 +503,7 @@ $problem_areas = array(
                         <div class="flex-row align-end justify-space-between">
                               <h2 class="big l10n">Our specialists</h2>
                               <a href="specialists" class="button compact text is-hidden-mobile">
-                                    <span class="l10n">View all specialists</span>
+                                    <span class="l10n">Se alla specialister</span>
                                     <?php icon('navigate-next') ?>
                               </a>
                         </div>
@@ -536,15 +536,15 @@ $problem_areas = array(
                         );
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
                         ?>
-                        <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialister">View all specialists</a>
+                        <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialister">Se alla specialister</a>
                   </div>
             </section>
             <section id="brands">
                   <div class="container">
                         <div class="flex-row align-end justify-space-between">
-                              <h2 class="big l10n">Brands we use</h2>
+                              <h2 class="big l10n">Varumärken</h2>
                               <a href="brands" class="button compact text is-hidden-mobile">
-                                    <span class="l10n">View all brands</span>
+                                    <span class="l10n">Se alla varumärken</span>
                                     <?php icon('navigate-next') ?>
                               </a>
                         </div>
