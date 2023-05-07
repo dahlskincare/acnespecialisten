@@ -14,19 +14,19 @@ $akas = ['post-inflammatory-hyperpigmentation' => 'Post-inflammatory hyperpigmen
 $booking_url = 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922';
 $nav_buttons = array(
       'about' => 'Overview',
-      'approach' => 'Treatment approach',
-      'types' => 'Types',
-      'symptoms' => 'Symptoms',
+      'approach' => 'Behandligsmetod',
+      'types' => 'Typer',
+      'symptoms' => 'Symptomer',
       'define' => 'Define problem',
       'treatments' => 'Treatment solutions',
       'articles' => 'Risk factors',
       'articles' => 'When to visit a doctor',
       'results' => 'Cases',
-      'reviews' => 'Reviews',
+      'reviews' => 'Omdömen',
       'faq' => 'FAQ',
-      'skin-guide' => 'Skin guide',
-      'specialists' => 'Specialists',
-      'related-problems' => 'Related problems'
+      'skin-guide' => 'Hudguide',
+      'specialists' => 'Specialister',
+      'related-problems' => 'Relaterade problem'
 );
 $trivias = array(
       new ProblemTrivia(
@@ -476,7 +476,7 @@ $related_problems = array(
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                         </section>
                         <section id="about">
-                              <h2 class="h500 l10n">About Akne</h2>
+                              <h2 class="h500 l10n">Om Akne</h2>
                               <?php foreach ($trivias as $trivia) {
                                     echo '<hr>';
                                     include('../widgets/problem-trivia-card/problem-trivia-card.php');
@@ -484,7 +484,7 @@ $related_problems = array(
                               <hr>
                         </section>
                         <section id="approach">
-                              <h2 class="h500 l10n">Akne treatment approach</h2>
+                              <h2 class="h500 l10n">Aknebehandlingar</h2>
                               <hr class="mt-xl mb-xl3 is-hidden-mobile">
                               <div class="columns is-variable is-2">
                                     <?php for ($i = 0; $i < sizeof($treatment_steps); $i++) {
@@ -495,12 +495,12 @@ $related_problems = array(
                               </div>
                               <hr class="mt-xl3 is-hidden-mobile">
                               <a href="problem/aknearr/behandling" class="mt-xl button b200 outline expand auto-width l10n">
-                                    Read more about treatment
+                                    Läs mer om aknebehandlingar
                               </a>
                         </section>
                         <?php if (sizeof($type_categories) > 0) { ?>
                               <section id="types">
-                                    <h2 class="h500 l10n">Akne types</h2>
+                                    <h2 class="h500 l10n">Olika typer av akne</h2>
                                     <div class="is-hidden-tablet">
                                           <div class="mt-m mb-xxl" id="type-category-buttons">
                                                 <?php foreach ($type_categories as $type_category) { ?>
@@ -560,13 +560,13 @@ $related_problems = array(
                               </section>
                         <?php } ?>
                         <section id="define">
-                              <h2 class="h500 l10n">Define Akne</h2>
+                              <h2 class="h500 l10n">identifiera din Akne</h2>
                               <hr class="is-hidden-mobile">
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
                               <hr class="is-hidden-mobile">
                         </section>
                         <section id="treatments">
-                              <h2 class="h500">Akne treatment solution</h2>
+                              <h2 class="h500">Behandla din akne</h2>
                               <hr class="is-hidden-mobile mt-xl">
                               <?php foreach ($services as $service) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
@@ -583,7 +583,7 @@ $related_problems = array(
                         </section>
                         <section id="reviews">
                               <div class="flex-row align-end justify-space-between">
-                                    <h2 class="big l10n">Reviews</h2>
+                                    <h2 class="big l10n">Omdömen</h2>
                                     <div class="flex-row is-hidden-mobile">
                                           <div class="step-buttons">
                                                 <button class="round-large grey" onclick="Reviews.scroll(-1)">
@@ -599,16 +599,16 @@ $related_problems = array(
                               $reviews_narrow = true;
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                               ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" href="omdomen">View all reviews</a>
+                              <a class="mt-xl button b200 outline expand auto-width l10n" href="omdomen">Läs fler omdömen</a>
                         </section>
                         <section id="faq">
-                              <h2 class="big l10n">Questions & answers</h2>
+                              <h2 class="big l10n">Frågor & Svar</h2>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" href="faq">View all questions</a>
+                              <a class="mt-xl button b200 outline expand auto-width l10n" href="faq">Läs fler frågor & Svar</a>
                         </section>
                         <section id="skin-guide">
                               <div class="flex-row justify-space-between">
-                                    <h2 class="big l10n">Skin guide</h2>
+                                    <h2 class="big l10n">Hudguide</h2>
                                     <div class="is-hidden-touch">
                                           <button class="round-large grey" onclick="scrollSkinGuide(-1)">
                                                 <?php icon('arrow-left') ?>
@@ -623,7 +623,7 @@ $related_problems = array(
                         </section>
                         <section id="specialists">
                               <div class="flex-row justify-space-between">
-                                    <h2 class="big l10n">Our specialists</h2>
+                                    <h2 class="big l10n">Våra specialister</h2>
                                     <div class="is-hidden-touch">
                                           <button class="round-large grey" onclick="scrollSpecialists(-1)">
                                                 <?php icon('arrow-left') ?>
@@ -637,7 +637,7 @@ $related_problems = array(
                               <a class="mt-xl button b200 outline expand auto-width l10n" href="specialister">View all specialists</a>
                         </section>
                         <section id="related-problems">
-                              <h2 class="big l10n">Related problems</h2>
+                              <h2 class="big l10n">Relaterade hudproblem</h2>
                               <dig class="columns is-variable is-0-mobile is-3-tablet is-multiline">
                                     <?php foreach ($related_problems as $problem) { ?>
                                           <div class="column is-half">
@@ -649,9 +649,9 @@ $related_problems = array(
                   </div>
                   <section id="brands">
                         <div class="flex-row align-end justify-space-between">
-                              <h2 class="big l10n">Brands we use</h2>
+                              <h2 class="big l10n">Varumärken</h2>
                               <a href="brands" class="button compact text is-hidden-mobile">
-                                    <span class="l10n">View all brands</span>
+                                    <span class="l10n">Se alla varumärken</span>
                                     <?php icon('navigate-next') ?>
                               </a>
                         </div>
