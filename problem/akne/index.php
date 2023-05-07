@@ -13,15 +13,15 @@ $description = 'Här förklarar vi vad som kännetecknar akne, varför problemet
 $akas = ['post-inflammatory-hyperpigmentation' => 'Finnar', 'athropic-scars' => 'Vuxenacne', 'skall detta vara en länk?' => 'Tonårsakne'];
 $booking_url = 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922';
 $nav_buttons = array(
-      'about' => 'Overview',
-      'approach' => 'Behandligsmetod',
+      'about' => 'Om akne',
+      'approach' => 'Metoden',
       'types' => 'Typer',
       'symptoms' => 'Symptomer',
       'define' => 'Define problem',
-      'treatments' => 'Treatment solutions',
+      'treatments' => 'Aknebehandlingar',
       'articles' => 'Risk factors',
       'articles' => 'When to visit a doctor',
-      'results' => 'Cases',
+      'results' => 'Resultat',
       'reviews' => 'Omdömen',
       'faq' => 'FAQ',
       'skin-guide' => 'Hudguide',
@@ -64,7 +64,7 @@ $trivias = array(
             content: '<p class="p200">Akne kan uppstå på flera delar av kroppen och påverka personer i olika åldrar och med olika hudtyper. Vanligast är att akne drabbar ansiktet, men det kan även förekomma på andra områden som bröstet, axlarna och ryggen. Placeringen av akne beror på var talgkörtlarna är aktiva och därmed kan överproducera talg, vilket leder till tilltäppta porer och inflammationer i huden.</p>
             <p class="p200 mt-xl">Akne i ansiktet är särskilt påtagligt, eftersom det är svårt att dölja och ofta påverkar en persons självkänsla och mentala välbefinnande. Det är vanligt att tonåringar drabbas av ansiktsakne under puberteten, då hormonella förändringar kan leda till ökad talgproduktion. Även vuxna kan drabbas av ansiktsakne, särskilt kvinnor som genomgår hormonella förändringar under graviditet, mens och klimakteriet.</p>',
             extended_content: '<p class="p200">Akne på bröstet, axlarna och ryggen är också vanligt och kan vara lika besvärande som ansiktsakne, även om det är lättare att dölja under kläder. Denna typ av akne kan orsakas av samma faktorer som ansiktsakne, men även av yttre faktorer som friktion från kläder eller väskor som gnider mot huden och skapar irritation.
-                  För att behandla och förebygga akne oavsett var på kroppen det uppstår, är det viktigt att följa en anpassad hudvårdsrutin, inklusive rengöring, återfuktning och eventuellt användning av aknebehandlingar som passar din hudtyp. Konsultera en hudspecialist för att få råd om vilka produkter och behandlingar som är bäst lämpade för din specifika situation och för att minimera akneproblem på olika delar av kroppen.</p>',
+                  För att behandla och förebygga akne oavsett var på kroppen det uppstår, är det viktigt att följa en anpassad hudvårdsrutin, inklusive rengöring, återfuktning och eventuellt användning av aknebehandlingar som passar din hudtyp. Konsultera hos en av våra hudspecialister för att få råd om vilka produkter och behandlingar som är bäst lämpade för din specifika situation och för att minimera akneproblem på olika delar av kroppen.</p>',
             icons: array('who-infants' => 'Ansiktet', 'who-teenagers' => 'Ryggen', 'who-adults' => 'Bröstet', 'who-elders' => 'Elders')
       ),
 );
@@ -97,35 +97,35 @@ $treatment_steps = array(
 $type_categories = array(
       new BasedTypeCategory(
             id: 'category-age',
-            title: 'Based on age',
+            title: 'Baserat på ålder',
             content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>',
             types: array(
                   new BasedType(
                         id: 'vuxenakne',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
                         title: 'Vuxenakne',
-                        subtitle: 'Also called scars stains',
+                        subtitle: 'Även kallat acne tarda',
                         content: ''
                   ),
                   new BasedType(
-                        id: 'teen-acne',
+                        id: 'tonårsakne',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
-                        title: 'Teen acne',
-                        subtitle: 'Also called scars stains',
+                        title: 'Tonårsakne',
+                        subtitle: 'Även kallat acne vulgaris',
                         content: ''
                   ),
                   new BasedType(
-                        id: 'kids-acne',
+                        id: 'barnakne',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
-                        title: 'Kids acne',
-                        subtitle: 'Also called scars stains',
+                        title: 'Barnakne',
+                        subtitle: 'Även kallat acne neonatorum',
                         content: ''
                   ),
             )
       ),
       new BasedTypeCategory(
             id: 'category-reason',
-            title: 'Based on reason',
+            title: 'Baserat på ålder',
             content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>',
             types: array(
                   new BasedType(
