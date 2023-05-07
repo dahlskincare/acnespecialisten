@@ -71,27 +71,27 @@ $trivias = array(
 $treatment_steps = array(
       new TreatmentStep(
             title: 'identifieraa',
-            content: 'Träffa en av våra specialister som blir din personliga hudterapeut och följer dig från start till mål. Tillsammans tar vi reda på vilken typ av akne du har och utformar en individuell behandlingsplan som är skräddarsydd för just dina behov.',
+            content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din aknetyp och skapar en individuell behandlingsplan.',
             url: 'https://www.dahlskincare.com/skin-consultation',
-            url_label: 'Get a free consultation'
+            url_label: 'Få gratis konsultation'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'När vi har identifierat vilken typ av akne du har och har en plan, kommer vi att utföra aknebehandlingar som är anpassade för att ta hand om din specifika akne. Våra behandlingar är skonsamma och effektiva, och vi ser till att du får den bästa möjliga vården för att snabbt och säkert bli av med din akne.',
+            content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika aknetyp, så att du snabbt och säkert blir av med problemet.',
             url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
-            url_label: 'View treatments'
+            url_label: 'Se aknebehandlingar'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'Eftersom akne beror på en överproduktion av talg är det viktigt att förebygga uppkomsten av ny akne genom att använda rätt hudvårdsrutin och produkter. Vi hjälper dig att hitta en rutin och produkter som passar din hudtyp och som hjälper dig att hålla din hud i balans och aknefri.',
+            content: 'EVi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny akne och hålla din hud i balans.',
             url: 'https://www.dahlskincare.com',
-            url_label: 'View products'
+            url_label: 'Se produkter'
       ),
       new TreatmentStep(
             title: 'Reparera',
-            content: 'När den aktiva aknen är borta kan vi fokusera på att ta hand om eventuella ärr som kan ha uppstått som en följd av aknen. Vi erbjuder olika behandlingsmetoder, såsom laser, microneedling och kemisk peeling, för att reducera ärr och ge dig en jämn och vacker hud.',
+            content: 'När aknen är borta fokuserar vi på att reducera eventuella ärr med behandlingsmetoder som laser, microneedling och kemisk peeling för en jämn och problemfri hud.',
             url: 'https://www.dahlskincare.com',
-            url_label: 'View products'
+            url_label: 'Se ärrbehandlingar'
       ),
 );
 $type_categories = array(
