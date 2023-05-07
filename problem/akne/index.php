@@ -70,19 +70,19 @@ $trivias = array(
 );
 $treatment_steps = array(
       new TreatmentStep(
-            title: 'Define',
+            title: 'identifieraa',
             content: 'Lorem ipsum dolor sit amet, <a href="#" class="b200 underline">consectetur</a> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
             url: 'https://www.dahlskincare.com/skin-consultation',
             url_label: 'Get a free consultation'
       ),
       new TreatmentStep(
-            title: 'Treat',
+            title: 'Behandla',
             content: 'Lorem ipsum dolor sit amet, <a href="#" class="b200 underline">consectetur</a> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
             url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
             url_label: 'View treatments'
       ),
       new TreatmentStep(
-            title: 'Prevent',
+            title: 'Förebygga',
             content: 'Lorem ipsum dolor sit amet, <a href="#" class="b200 underline">consectetur</a> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
             url: 'https://www.dahlskincare.com',
             url_label: 'View products'
@@ -484,7 +484,7 @@ $related_problems = array(
                               <hr>
                         </section>
                         <section id="approach">
-                              <h2 class="h500 l10n">Aknebehandlingar</h2>
+                              <h2 class="h500 l10n">Metoden</h2>
                               <hr class="mt-xl mb-xl3 is-hidden-mobile">
                               <div class="columns is-variable is-2">
                                     <?php for ($i = 0; $i < sizeof($treatment_steps); $i++) {
