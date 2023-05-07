@@ -71,19 +71,19 @@ $trivias = array(
 $treatment_steps = array(
       new TreatmentStep(
             title: 'identifieraa',
-            content: 'Lorem ipsum dolor sit amet, <a href="#" class="b200 underline">consectetur</a> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            content: 'Träffa en av våra specialister som blir din personliga hudterapeut och följer dig från start till mål. Tillsammans tar vi reda på vilken typ av akne du har och utformar en individuell behandlingsplan som är skräddarsydd för just dina behov.',
             url: 'https://www.dahlskincare.com/skin-consultation',
             url_label: 'Get a free consultation'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Lorem ipsum dolor sit amet, <a href="#" class="b200 underline">consectetur</a> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            content: 'När vi har identifierat vilken typ av akne du har och har en plan, kommer vi att utföra aknebehandlingar som är anpassade för att ta hand om din specifika akne. Våra behandlingar är skonsamma och effektiva, och vi ser till att du får den bästa möjliga vården för att snabbt och säkert bli av med din akne.',
             url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
             url_label: 'View treatments'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'Lorem ipsum dolor sit amet, <a href="#" class="b200 underline">consectetur</a> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            content: 'Eftersom akne beror på en överproduktion av talg är det viktigt att förebygga uppkomsten av ny akne genom att använda rätt hudvårdsrutin och produkter. Vi hjälper dig att hitta en rutin och produkter som passar din hudtyp och som hjälper dig att hålla din hud i balans och aknefri.',
             url: 'https://www.dahlskincare.com',
             url_label: 'View products'
       ),
