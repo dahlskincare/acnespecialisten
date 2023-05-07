@@ -165,7 +165,7 @@ $problems['ytliga-blodkarl'] = new Problem(
       image_small: 'images/problems/small/visible-blood-vessels.jpg',
       image_medium: 'images/problems/medium/visible-blood-vessels.jpg',
       image_large: 'images/problems/large/visible-blood-vessels.jpg',
-      info: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...'
+      info: 'Ytliga blodkärl, även kallade kärlbristningar eller telangiektasier, är små, vidgade blodkärl som syns på hudytan, ofta i ansiktet eller benen. De kan vara röda, lila eller blå och uppträda som fina linjer eller spindelvener. Orsaker kan vara genetik, solskador, hormonella förändringar, åldrande eller rosacea. Behandlingar som kan reducera deras synlighet inkluderar laserterapi, IPL'
 );
 $problems['hudforandringar'] = new Problem(
       label: 'Hudförändringar',
@@ -175,7 +175,7 @@ $problems['hudforandringar'] = new Problem(
       image_small: 'images/problems/small/skin-imperfections.jpg',
       image_medium: 'images/problems/medium/skin-imperfections.jpg',
       image_large: 'images/problems/large/skin-imperfections.jpg',
-      info: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...'
+      info: 'Hudförändringar kan uppstå av olika anledningar och variera i utseende och omfattning. Solskador, åldrande, genetik och hormonella obalanser kan bidra till ojämn hudton, fläckar och upphöjningar. Acnespecialisten erbjuder skräddarsydda behandlingar för att minska hudförändringar och förbättra hudens utseende.'
 );
 $problems['finnar'] = new Problem(
       label: 'Finnar',
@@ -185,7 +185,7 @@ $problems['finnar'] = new Problem(
       image_small: 'images/problems/small/pimples.jpg',
       image_medium: 'images/problems/medium/pimples.jpg',
       image_large: 'images/problems/large/pimples.jpg',
-      info: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...'
+      info: 'Finnar är en vanlig hudåkomma som drabbar människor i alla åldrar. De orsakas ofta av tilltäppta porer på grund av överproduktion av talg, döda hudceller och bakterier. Finnar kan variera i storlek, färg och svårighetsgrad, och kan uppträda som pormaskar, vita plitor, papler och pustler. Behandlingar för finnar inkluderar rengöring, exfoliering, samt produkter och metoder som reglerar talgproduktionen och bekämpar inflammation.'
 );
 $problems['bristningar'] = new Problem(
       label: 'Bristningar',
@@ -195,7 +195,7 @@ $problems['bristningar'] = new Problem(
       image_small: 'images/problems/small/stretch-marks.jpg',
       image_medium: 'images/problems/medium/stretch-marks.jpg',
       image_large: 'images/problems/large/stretch-marks.jpg',
-      info: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...'
+      info: 'Bristningar, även kallade striae, är linjära ärr som uppträder på huden när den snabbt sträcks ut, exempelvis under graviditet, snabb viktökning eller tillväxtspurtar. De börjar ofta som röda eller lila streck och bleknar över tiden till en ljusare nyans. Bristningar förekommer vanligtvis på områden som buken, brösten, låren och höfterna. Även om de inte kan elimineras helt, finns det behandlingar för att förbättra deras utseende, såsom laserterapi, kemisk peeling och mikroneedling.'
 );
 $problems['operations-arr'] = new Problem(
       label: 'Operations & Skadeärr',
@@ -205,7 +205,7 @@ $problems['operations-arr'] = new Problem(
       image_small: 'images/problems/small/operational-scars.jpg',
       image_medium: 'images/problems/medium/operational-scars.jpg',
       image_large: 'images/problems/large/operational-scars.jpg',
-      info: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...'
+      info: 'Ärr och skadeärr är resultatet av hudens naturliga läkningsprocess efter skador, såsom skärsår, brännskador eller akne. Dessa ärr kan variera i form, storlek och färg och kan påverka både utseendet och självkänslan hos den drabbade. På Acnespecialisten erbjuder vi effektiva behandlingsmetoder för att reducera och ta bort ärr, inklusive laserterapi, kemiska peelingar och mikroneedling.'
 );
 $problems['oonskad-harvaxt'] = new Problem(
       label: 'Oönskat hår',
@@ -215,7 +215,7 @@ $problems['oonskad-harvaxt'] = new Problem(
       image_small: 'images/problems/small/unwanted-hair.jpg',
       image_medium: 'images/problems/medium/unwanted-hair.jpg',
       image_large: 'images/problems/large/unwanted-hair.jpg',
-      info: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...'
+      info: 'Oönskad hårväxt är en vanlig problematik som drabbar både män och kvinnor, och involverar hår som växer på icke-önskade områden såsom ansiktet, armarna, benen eller ryggen. För att effektivt och permanent behandla oönskad hårväxt använder vi oss av laserhårborttagning, vilket ger långvariga och tillfredsställande resultat.'
 );
 $problems['arr-fran-finnar'] = new Problem(
       label: 'Ärr från finnar',
@@ -225,7 +225,7 @@ $problems['arr-fran-finnar'] = new Problem(
       image_small: 'images/problems/small/scars-from-pimples.jpg',
       image_medium: 'images/problems/medium/scars-from-pimples.jpg',
       image_large: 'images/problems/large/scars-from-pimples.jpg',
-      info: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.  In a personal personal meeting with a skin specialist, your skin...'
+      info: 'Ärr från finnar, även kallade akneärr, uppstår när huden läker efter inflammation orsakad av finnar och pormaskar. Dessa ärr kan variera i form och storlek, från små gropar till större ojämnheter i huden. Behandling av akneärr syftar till att reducera synligheten och förbättra hudens utseende och textur.'
 );
 
 $problem_areas = array(
