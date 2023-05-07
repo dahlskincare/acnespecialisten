@@ -9,7 +9,6 @@ $floating_image = 'images/problems/carousel/large/acne-scars.jpg';
 $image_small = 'images/problems/medium/acne-scars.jpg';
 $image_large = 'images/problems/large/acne-scars.jpg';
 
-$title = 'Acne scars';
 $description = 'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat.';
 $akas = ['post-inflammatory-hyperpigmentation' => 'Post-inflammatory hyperpigmentation', 'athropic-scars' => 'Atrophic scars'];
 $booking_url = 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922';
@@ -31,29 +30,33 @@ $nav_buttons = array(
 );
 $trivias = array(
       new ProblemTrivia(
-            prefix: 'What',
-            title: 'is acne scars',
-            content: '<p class="p200">Lorem ipsum dolor sit amet, <a href="#" class="b200 underline">consectetur</a> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p class="p200 mt-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>',
-            extended_content: '<p class="p200">Lorem ipsum dolor sit amet, <a href="#" class="b200 underline">consectetur</a> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>',
+            prefix: 'Vad',
+            title: 'är akne?',
+            content: 
+            '
+            <p class="p200">Akne är en ärftlig och hormonell hudförändring som uppstår när talgproduktionen i hudens porer ökar. Huden behöver en viss mängd talg för att hålla sig mjuk och smidig, men vid överproduktion har huden svårt att avlägsna hudrester, vilket leder till bakterier och små inflammationer. Dessa inflammationer orsakar akne, eller finnar som vi ofta säger i dagligt tal. Akne är en inflammation i huden som uppstår när porerna täpps till av talg, döda hudceller och bakterier.</p>
+            <p class="p200 mt-xl">Både barn och vuxna kan drabbas av akne, men det är vanligast under tonåren. Vissa har besvär med akne under längre perioder, medan andra endast vid enstaka tillfällen. Akne kan se ut på många olika sätt, från små knottror på huden till variga större utslag. Det viktiga att komma ihåg är att akne kan behandlas. Ibland krävs behandling under en längre tidsperiod, men med rätt behandling kan både bestående ärrbildning och psykiskt lidande undvikas eller lindras.</p>
+            ',
+            extended_content: '<p class="p200">På Acnespecialisten kan du få hjälp med din akne. Vi har kunskap och erfarenhet av olika typer av behandlingar som ger goda resultat och många nöjda kunder. Vi börjar alltid med en kostnadsfri hudkonsultation där vi identifierar problemet och planerar den mest lämpliga behandlingen för dig och din hy. Du får även en effektiv hudvårdsrutin som du enkelt kan följa hemma. Vi rekommenderar att du tar hand om din allmänna hälsa: sov ordentligt, ät hälsosamt och motionera regelbundet. När du mår bra i sin helhet påverkar det din hud positivt.</p>',
             icons: array()
       ),
       new ProblemTrivia(
-            prefix: 'Why',
-            title: 'do acne scars happen',
+            prefix: 'Varför',
+            title: 'för man akne?',
             content: '<p class="p200">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p class="p200 mt-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>',
             extended_content: '<p class="p200">Lorem ipsum dolor sit amet, <a href="#" class="b200 underline">consectetur</a> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>',
             icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders')
       ),
       new ProblemTrivia(
-            prefix: 'Who',
-            title: 'gets acne scars',
+            prefix: 'vem',
+            title: 'får akne?',
             content: '<p class="p200">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p class="p200 mt-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>',
             extended_content: '<p class="p200">Lorem ipsum dolor sit amet, <a href="#" class="b200 underline">consectetur</a> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>',
             icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders')
       ),
       new ProblemTrivia(
-            prefix: 'Where',
-            title: 'acne scars is',
+            prefix: 'vart',
+            title: 'får man akne?',
             content: '<p class="p200">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p class="p200 mt-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>',
             extended_content: '<p class="p200">Lorem ipsum dolor sit amet, <a href="#" class="b200 underline">consectetur</a> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>',
             icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders')
@@ -319,8 +322,7 @@ $related_problems = array(
 <head>
       <!-- TODO: Set title and meta tags -->
       <title class="l10n">
-            Acnespecialisten |
-            <?php echo $title ?>
+            Acnespecialisten | Akne
       </title>
       <meta name="description" content="" class="l10n">
       <meta name="title" content="" class="l10n">
@@ -349,9 +351,7 @@ $related_problems = array(
                         <div id="overlay">
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
                               <div>
-                                    <h2 class="h600">
-                                          <?php echo $title ?>
-                                    </h2>
+                                    <h2 class="h600">Akne</h2>
                                     <div class="mt-m aka">
                                           <span class="p200 l10n">Also known as</span>
                                           <?php
@@ -388,9 +388,7 @@ $related_problems = array(
                   <div id="green-header-small" class="is-hidden-desktop">
                         <div class="container">
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
-                              <h1 class="mt-xs h600">
-                                    <?php echo $title ?>
-                              </h1>
+                              <h1 class="mt-xs h600">Akne</h1>
                               <h3 class="mt-xs p100 l10n">Also known as</h3>
                               <?php foreach ($akas as $key => $aka) { ?>
                                     <div>
@@ -426,9 +424,7 @@ $related_problems = array(
                                     </div>
                               </div>
                               <div id="green-header-large-text" class="mt-xxs">
-                                    <h1 class="h600">
-                                          <?php echo $title ?>
-                                    </h1>
+                                    <h1 class="h600">Akne</h1>
                                     <div class="mt-s">
                                           <span class="h200 l10n">Also known as</span>
                                           <?php
@@ -467,19 +463,14 @@ $related_problems = array(
                               <picture>
                                     <source media="(max-width: 449px)" srcset="<?php echo $image_small ?>">
                                     <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
-                                    <img src="<?php echo $image_large ?>" alt="<?php echo $title ?>" width="358" height="274" />
+                                    <img src="<?php echo $image_large ?>" alt="Akne" width="358" height="274" />
                               </picture>
                         </section>
                         <section id="nav-buttons">
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                         </section>
                         <section id="about">
-                              <h2>
-                                    <span class="h500 l10n">About</span>
-                                    <span class="h500 lowercase">
-                                          <?php echo $title ?>
-                                    </span>
-                              </h2>
+                              <h2 class="h500 l10n">About Akne</h2>
                               <?php foreach ($trivias as $trivia) {
                                     echo '<hr>';
                                     include('../widgets/problem-trivia-card/problem-trivia-card.php');
@@ -487,12 +478,7 @@ $related_problems = array(
                               <hr>
                         </section>
                         <section id="approach">
-                              <h2>
-                                    <span class="h500">
-                                          <?php echo $title ?>
-                                    </span>
-                                    <span class="h500 l10n">treatment approach</span>
-                              </h2>
+                              <h2 class="h500 l10n">Akne treatment approach</h2>
                               <hr class="mt-xl mb-xl3 is-hidden-mobile">
                               <div class="columns is-variable is-2">
                                     <?php for ($i = 0; $i < sizeof($treatment_steps); $i++) {
@@ -508,12 +494,7 @@ $related_problems = array(
                         </section>
                         <?php if (sizeof($type_categories) > 0) { ?>
                               <section id="types">
-                                    <h2>
-                                          <span class="h500">
-                                                <?php echo $title ?>
-                                          </span>
-                                          <span class="h500 l10n">types</span>
-                                    </h2>
+                                    <h2 class="h500 l10n">Akne types</h2>
                                     <div class="is-hidden-tablet">
                                           <div class="mt-m mb-xxl" id="type-category-buttons">
                                                 <?php foreach ($type_categories as $type_category) { ?>
@@ -555,12 +536,7 @@ $related_problems = array(
                         <?php } ?>
                         <?php if (sizeof($symptoms) > 0) { ?>
                               <section id="symptoms">
-                                    <h2>
-                                          <span class="h500">
-                                                <?php echo $title ?>
-                                          </span>
-                                          <span class="h500 l10n">symptoms</span>
-                                    </h2>
+                                    <h2 class="h500">Akne symptoms</h2>
                                     <div class="mt-m is-hidden-tablet" id="symptom-buttons">
                                           <?php foreach ($symptoms as $symptom) { ?>
                                                 <a href="javascript:;" onclick="scrollToElement('#<?php echo $symptom->id ?>')" class="button b50 grey">
@@ -578,23 +554,13 @@ $related_problems = array(
                               </section>
                         <?php } ?>
                         <section id="define">
-                              <h2>
-                                    <span class="h500 l10n">Define</span>&nbsp;
-                                    <span class="h500 lowercase">
-                                          <?php echo $title ?>
-                                    </span>
-                              </h2>
+                              <h2 class="h500 l10n">Define Akne</h2>
                               <hr class="is-hidden-mobile">
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
                               <hr class="is-hidden-mobile">
                         </section>
                         <section id="treatments">
-                              <h2>
-                                    <span class="h500">
-                                          <?php echo $title ?>
-                                    </span>
-                                    <span class="h500 l10n">treatment solution</span>
-                              </h2>
+                              <h2 class="h500">Akne treatment solution</h2>
                               <hr class="is-hidden-mobile mt-xl">
                               <?php foreach ($services as $service) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
