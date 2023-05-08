@@ -1,7 +1,7 @@
 <?php
-$badges_trustpilot = '<strong>4,8</strong> on Trustpilot';
-$badges_years_in_service = '<strong>30+</strong> years';
-$badges_clients = '<strong>200k+</strong> clients';
+$badges_trustpilot = '<strong>4,8</strong> på Trustpilot';
+$badges_years_in_service = '<strong>30+</strong> år';
+$badges_clients = '<strong>200k+</strong> kunder';
 ?>
 
 <div class="badges-widget p100">
