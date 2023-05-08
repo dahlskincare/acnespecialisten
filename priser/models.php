@@ -1,13 +1,14 @@
 <?php
 class TreatmentInfo
 {
-    public function __construct($image_small, $image_large, $title, $description, $url, $services)
+    public function __construct($image_small, $image_large, $title, $description, $url, $url_label, $services)
     {
         $this->image_small = $image_small;
         $this->image_large = $image_large;
         $this->title = $title;
         $this->description = $description;
         $this->url = $url;
+        $this->url_label = $url_label;
         $this->services = $services;
     }
 
@@ -16,6 +17,7 @@ class TreatmentInfo
     public string $title;
     public string $description;
     public string $url;
+    public string $url_label;
     public array $services;
 }
 

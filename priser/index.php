@@ -1,15 +1,16 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
-include_once('models/models.php');
+include_once('models.php');
 
 $treatment_categories = array(
     'Problem skin facials' => array(
         new TreatmentInfo(
-            image_small: 'https://via.placeholder.com/148x148.webp',
-            image_large: 'https://via.placeholder.com/362x274.webp',
+            image_small: 'https://via.placeholder.com/362x274.webp',
+            image_large: 'https://via.placeholder.com/148x148.webp',
             title: 'Microneedling',
             description: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.',
             url: 'priser/microneedling',
+            url_label: 'View treatment details',
             services: array(
                 'Areas' =>
                 new ServiceInfo(
@@ -174,7 +175,7 @@ $treatment_categories = array(
             </div>
         </section>
         <div class="container">
-            <section id="services">
+            <section id="treatment-categories">
                 <div class="columns is-multiline is-variable is-1">
                     <?php foreach (array_keys($treatment_categories) as $service_category) { ?>
                         <div class="column is-one-fifth">
@@ -182,6 +183,14 @@ $treatment_categories = array(
                         </div>
                     <?php } ?>
                 </div>
+            </section>
+            <section id="treatments">
+                <?php
+                foreach ($treatment_categories as $category_name => $treatments) { ?>
+                    <?php foreach ($treatments as $treatment) {
+                        include('widgets/treatment_info/treatment_info.php');
+                    } ?>
+                <?php } ?>
             </section>
         </div>
     </main>

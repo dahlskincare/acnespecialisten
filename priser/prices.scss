@@ -1,7 +1,7 @@
 @import '../styles/util/colors';
 @import '../styles/util/sizes';
 @import '../styles/util/mixins';
-@import 'widgets/treatment_info_card/treatment_info_card';
+@import 'widgets/treatment_info/treatment_info';
 
 html {
     body {
@@ -114,7 +114,7 @@ html {
             }
         }
 
-        section#services {
+        section#treatment-categories {
             margin-top: $xs;
 
             .button {
@@ -128,6 +128,10 @@ html {
                     margin-bottom: $xs;
                 }
             }
+        }
+
+        section#treatments {
+            margin-top: $xl3;
         }
     }
 }

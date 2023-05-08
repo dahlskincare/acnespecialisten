@@ -1,0 +1,51 @@
+@import '../../../styles/util/mixins';
+@import '../../../styles/util/sizes';
+
+.treatment-info-widget {
+    .tiw-card {
+        img {
+            border-radius: $radius-l;
+            width: 100%;
+            height: auto;
+        }
+
+        .tiw-title {
+            @include h300;
+            margin-top: $xl;
+        }
+
+        .tiw-desc {
+            @include p200;
+            margin-top: $xs;
+        }
+
+        a.button.is-hidden-desktop {
+            margin-top: $xl;
+        }
+
+        a.button.is-hidden-touch {
+            margin-top: $m;
+        }
+    }
+
+
+    @include desktop {
+        display: flex;
+
+        .tiw-card {
+            width: 288px;
+
+            img {
+                width: 148px;
+            }
+
+            .tiw-desc {
+                margin-top: $xxs;
+            }
+        }
+
+        .services {
+            flex: 1;
+        }
+    }
+}
