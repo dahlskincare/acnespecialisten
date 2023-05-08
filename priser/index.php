@@ -1,4 +1,51 @@
-<?php include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php'); ?>
+<?php
+include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
+include_once('models/models.php');
+
+$treatment_categories = array(
+    'Problem skin facials' => array(
+        new TreatmentInfo(
+            image_small: 'https://via.placeholder.com/148x148.webp',
+            image_large: 'https://via.placeholder.com/362x274.webp',
+            title: 'Microneedling',
+            description: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.',
+            url: 'priser/microneedling',
+            services: array(
+                'Areas' =>
+                new ServiceInfo(
+                    name: 'Face',
+                    price: '1295 kr',
+                    booking_url: '',
+                    image: 'https://via.placeholder.com/64x64.webp',
+                ),
+                new ServiceInfo(
+                    name: 'Chest',
+                    price: '1295 kr',
+                    booking_url: '',
+                    image: 'https://via.placeholder.com/64x64.webp',
+                ),
+                'Bundles' =>
+                new ServiceInfo(
+                    name: '2x Areas',
+                    price: '1895 kr',
+                    full_price: '2485 kr',
+                    booking_url: ''
+                )
+            )
+        )
+    ),
+    'FreezeTreat' => array(),
+    'Skinbooster' => array(),
+    'Stretch marks' => array(),
+    'Classic facials' => array(),
+    'IPL' => array(),
+    'Laser for problem skin' => array(),
+    'Chemical peeling' => array(),
+    'Dermabration' => array(),
+    'Microneedling' => array(),
+    'Laser for hair removal' => array(),
+);
+?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
 
@@ -38,7 +85,6 @@
                 <div id="brands-container">
                     <div id="brands">
                         <div id="brands-shadow">
-
                             <?php
                             $brands = array(
                                 new Brand(
@@ -129,24 +175,10 @@
         </section>
         <div class="container">
             <section id="services">
-                <div class=" columns is-multiline is-variable is-1" id="banner-problem-areas">
-                    <?php
-                    $services = array(
-                        'priser/problem-skin-facials' => 'Problem skin facials',
-                        'priser/freeze-treat' => 'FreezeTreat',
-                        'priser/skinbooster' => 'Skinbooster',
-                        'priser/stretch-marks' => 'Stretch marks',
-                        'priser/classic-facials' => 'Classic facials',
-                        'priser/ipl' => 'IPL',
-                        'priser/laser-for-problem-skin' => 'Laser for problem skin',
-                        'priser/chemical-peeling' => 'Chemical peeling',
-                        'priser/dermabration' => 'Dermabration',
-                        'priser/microneedling' => 'Microneedling',
-                        'priser/laser-for-hair-removal' =>  'Laser for hair removal'
-                    );
-                    foreach ($services as $url => $label) { ?>
-                        <div class="column is-one-fifth" data-id="<?php echo $id ?>">
-                            <a href="<?php echo $url ?>" class="button b200 grey expand l10n"><?php echo $label ?></a>
+                <div class="columns is-multiline is-variable is-1">
+                    <?php foreach (array_keys($treatment_categories) as $service_category) { ?>
+                        <div class="column is-one-fifth">
+                            <div class="button b200 grey expand"><?php echo $service_category ?></div>
                         </div>
                     <?php } ?>
                 </div>
