@@ -129,6 +129,7 @@
                         <li><a href="problem" class="h100 l10n">Problem</a></li>
                         <li><a href="behandlingar" class="h100 l10n">Behandlingar</a></li>
                         <li><a href="varumarken" class="h100 l10n">Varumärken</a></li>
+                        <li><a href="om-oss" class="h100 l10n">Om oss</a></li>
                         <li><a href="priser" class="h100 l10n">Priser</a></li>
                         <li><a href="kontakt" class="h100 l10n">Kontakt</a></li>
                     </ul>
