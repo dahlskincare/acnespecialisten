@@ -58,7 +58,7 @@ $trivias = array(
             icons: array('who-infants' => 'Hormoner', 'who-teenagers' => 'Stress', 'who-adults' => 'Genetik', 'who-elders' => 'Livsstil')
       ),
       new ProblemTrivia(
-            prefix: 'vem',
+            prefix: 'Vem',
             title: 'får akne?',
             content: '<p class="p200">Akne är vanligast bland tonåringar och unga vuxna, men det kan drabba människor i alla åldrar, oavsett kön och hudtyp. I puberteten ökar produktionen av könshormoner, vilket kan leda till akne vulgaris, även kallad tonårsakne. Denna form av akne kan variera från enstaka finnar till större besvär, med små gula eller röda utslag, stora knölar och smärtsamma blåsor. Eftersom akne oftast uppträder i ansiktet under en känslig period som tonåren, kan det påverka det mentala måendet och det är viktigt att behandla akne effektivt för att undvika ärrbildning och andra skador på huden.</p>
             <p class="p200 mt-xl">Akne drabbar inte bara tonåringar. Spädbarn och småbarn kan drabbas av lindriga former av akne, såsom akne neonatorum och akne infantum. Vuxenakne, kallad akne tarda, kan också uppstå om huden överproducerar talg. Kvinnor drabbas oftare av vuxenakne än män, eftersom de påverkas mer av hormonsvängningar under graviditet, mens och klimakteriet. Preventivmedel kan också påverka huden, men hur de påverkar varierar från individ till individ.</p>',
@@ -66,7 +66,7 @@ $trivias = array(
             icons: array('who-infants' => 'Barn', 'who-teenagers' => 'Ungdommar', 'who-adults' => 'Vuxna', 'who-elders' => 'Män & Kvinnor')
       ),
       new ProblemTrivia(
-            prefix: 'vart',
+            prefix: 'Vart',
             title: 'får man akne?',
             content: '<p class="p200">Akne kan uppstå på flera delar av kroppen och påverka personer i olika åldrar och med olika hudtyper. Vanligast är att akne drabbar ansiktet, men det kan även förekomma på andra områden som bröstet, axlarna och ryggen. Placeringen av akne beror på var talgkörtlarna är aktiva och därmed kan överproducera talg, vilket leder till tilltäppta porer och inflammationer i huden.</p>
             <p class="p200 mt-xl">Akne i ansiktet är särskilt påtagligt, eftersom det är svårt att dölja och ofta påverkar en persons självkänsla och mentala välbefinnande. Det är vanligt att tonåringar drabbas av ansiktsakne under puberteten, då hormonella förändringar kan leda till ökad talgproduktion. Även vuxna kan drabbas av ansiktsakne, särskilt kvinnor som genomgår hormonella förändringar under graviditet, mens och klimakteriet.</p>',
@@ -408,7 +408,7 @@ $related_problems = array(
                         <div class="container">
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
                               <h1 class="mt-xs h600">Akne</h1>
-                              <h3 class="mt-xs p100 l10n">Även kallat</h3>
+                              <h3 class="mt-xs p100 l10n">Även känt som:</h3>
                               <?php foreach ($akas as $key => $aka) { ?>
                                     <div>
                                           <a href="ordlista?keyword=<?php echo $key ?>" class="mt-xs button b50 bright">
@@ -445,7 +445,7 @@ $related_problems = array(
                               <div id="green-header-large-text" class="mt-xxs">
                                     <h1 class="h600">Akne</h1>
                                     <div class="mt-s">
-                                          <span class="h200 l10n">Även kallat</span>
+                                          <span class="h200 l10n">Även känt som:</span>
                                           <?php
                                           $length = sizeof(($akas));
                                           $values = array_values($akas);
@@ -549,8 +549,8 @@ $related_problems = array(
                                                 </div>
                                           <?php } ?>
                                     </div>
-                                    <a href="<?php echo $_SERVER['REQUEST_URI'] . 'typer' ?>" class="mt-xl button b200 outline expand l10n is-hidden-tablet">Read more about types</a>
-                                    <a href="<?php echo $_SERVER['REQUEST_URI'] . 'typer' ?>" class="mt-xl button b200 outline l10n is-hidden-mobile">Read more about types</a>
+                                    <a href="<?php echo $_SERVER['REQUEST_URI'] . 'typer' ?>" class="mt-xl button b200 outline expand l10n is-hidden-tablet">Läs mer om aknetyper</a>
+                                    <a href="<?php echo $_SERVER['REQUEST_URI'] . 'typer' ?>" class="mt-xl button b200 outline l10n is-hidden-mobile">Läs mer om aknetyper</a>
                               </section>
                         <?php } ?>
                         <?php if (sizeof($symptoms) > 0) { ?>
