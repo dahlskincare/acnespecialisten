@@ -105,7 +105,7 @@ $type_categories = array(
       new BasedTypeCategory(
             id: 'category-age',
             title: 'Baserat på ålder',
-            content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>',
+            content: '<p class="p200">Akne är en hudåkomma som kan drabba människor i olika åldrar, men det är vanligast under tonåren och ungdomsåren. Tonårsakne uppstår ofta på grund av de hormonella förändringar som sker under puberteten, medan vuxenakne kan bero på andra faktorer som stress, hormonobalans och genetik.</p>',
             types: array(
                   new BasedType(
                         id: 'vuxenakne',
@@ -132,7 +132,7 @@ $type_categories = array(
       ),
       new BasedTypeCategory(
             id: 'category-reason',
-            title: 'Baserat på ålder',
+            title: 'Baserat på orsak',
             content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>',
             types: array(
                   new BasedType(
@@ -188,7 +188,7 @@ $type_categories = array(
       ),
       new BasedTypeCategory(
             id: 'category-area',
-            title: 'Based on area',
+            title: 'Baserat på ålder',
             content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>',
             types: array(
                   new BasedType(
