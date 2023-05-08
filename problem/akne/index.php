@@ -5,13 +5,11 @@ include_once('../widgets/symptom-card/symptom.php');
 include_once('../widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$floating_image = 'images/problems/carousel/large/acne-scars.jpg';
 $image_small = 'images/problems/medium/acne-scars.jpg';
 $image_large = 'images/problems/large/acne-scars.jpg';
 
 $description = 'Här förklarar vi vad som kännetecknar akne, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av akne, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';
 $akas = ['/problem/finnar' => 'Finnar', 'athropic-scars' => 'Vuxenacne', 'skall detta vara en länk?' => 'Tonårsakne'];
-$booking_url = 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922';
 $nav_buttons = array(
       'about' => 'Om akne',
       'approach' => 'Metoden',
@@ -32,28 +30,16 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
             title: 'är akne?',
-            content: 
-            
-            '<p class="p200">Akne är en ärftlig och hormonell hudförändring som uppstår när talgproduktionen i hudens porer ökar. Huden behöver en viss mängd talg för att hålla sig mjuk och smidig, men vid överproduktion har huden svårt att avlägsna hudrester, vilket leder till bakterier och små inflammationer. Dessa inflammationer orsakar akne, eller finnar som vi ofta säger i dagligt tal. Akne är en inflammation i huden som uppstår när porerna täpps till av talg, döda hudceller och bakterier.</p>',
-           
-            extended_content: 
-
-            '<p class="p200">Både barn och vuxna kan drabbas av akne, men det är vanligast under tonåren. Vissa har besvär med akne under längre perioder, medan andra endast vid enstaka tillfällen. Akne kan se ut på många olika sätt, från små knottror på huden till variga större utslag. Det viktiga att komma ihåg är att akne kan behandlas. Ibland krävs behandling under en längre tidsperiod, men med rätt behandling kan både bestående ärrbildning och psykiskt lidande undvikas eller lindras.</p>
-
+            content: '<p class="p200">Akne är en ärftlig och hormonell hudförändring som uppstår när talgproduktionen i hudens porer ökar. Huden behöver en viss mängd talg för att hålla sig mjuk och smidig, men vid överproduktion har huden svårt att avlägsna hudrester, vilket leder till bakterier och små inflammationer. Dessa inflammationer orsakar akne, eller finnar som vi ofta säger i dagligt tal. Akne är en inflammation i huden som uppstår när porerna täpps till av talg, döda hudceller och bakterier.</p>',           
+            extended_content: '<p class="p200">Både barn och vuxna kan drabbas av akne, men det är vanligast under tonåren. Vissa har besvär med akne under längre perioder, medan andra endast vid enstaka tillfällen. Akne kan se ut på många olika sätt, från små knottror på huden till variga större utslag. Det viktiga att komma ihåg är att akne kan behandlas. Ibland krävs behandling under en längre tidsperiod, men med rätt behandling kan både bestående ärrbildning och psykiskt lidande undvikas eller lindras.</p>
             <p class="p200 mt-xl">På Acnespecialisten kan du få hjälp med din akne. Vi har kunskap och erfarenhet av olika typer av behandlingar som ger goda resultat och många nöjda kunder. Vi börjar alltid med en kostnadsfri hudkonsultation där vi identifierar problemet och planerar den mest lämpliga behandlingen för dig och din hy. Du får även en effektiv hudvårdsrutin som du enkelt kan följa hemma. Vi rekommenderar att du tar hand om din allmänna hälsa: sov ordentligt, ät hälsosamt och motionera regelbundet. När du mår bra i sin helhet påverkar det din hud positivt.</p>',
             icons: array()
       ),
       new ProblemTrivia(
             prefix: 'Varför',
             title: 'får man akne?',
-            content: 
-
-            '<p class="p200">Akne är en hudåkomma som beror på en kombination av genetiska, hormonella och miljömässiga faktorer. En normal talgproduktion är nödvändig för att huden ska må bra, men när huden överproducerar talg kan detta leda till akne. Detta beror bland annat på anlag man har ärvt från sina föräldrar. Vid en överproduktion av talg klarar porerna inte av att ta hand om överflödet, och tillsammans med hudrester täpps pormynningarna till, vilket leder till att bakterier samlas. Kroppen försvarar sig då med en inflammation, och det är just detta som syns på huden i form av akne.</p>',
-
-            extended_content: 
-
-            '<p class="p200">Hormoner får porerna i huden att överproducera talg. Det är vanligt att drabbas av akne under puberteten, när kroppen genomgår stora förändringar, men även små barn och vuxna kan få akne. Flera faktorer kan orsaka och försämra akne, såsom stress, vissa läkemedel, varma och fuktiga miljöer samt hormonförändringar vid graviditet, menstruation och klimakteriet. Även anabola steroider och p-piller kan orsaka akne. Stress påverkar ofta huden mer än vi kanske tror, och både stora och små händelser i livet kan öka kroppens stressnivå och orsaka hudförändringar i form av hormonell akne.</p>
-
+            content: '<p class="p200">Akne är en hudåkomma som beror på en kombination av genetiska, hormonella och miljömässiga faktorer. En normal talgproduktion är nödvändig för att huden ska må bra, men när huden överproducerar talg kan detta leda till akne. Detta beror bland annat på anlag man har ärvt från sina föräldrar. Vid en överproduktion av talg klarar porerna inte av att ta hand om överflödet, och tillsammans med hudrester täpps pormynningarna till, vilket leder till att bakterier samlas. Kroppen försvarar sig då med en inflammation, och det är just detta som syns på huden i form av akne.</p>',
+            extended_content: '<p class="p200">Hormoner får porerna i huden att överproducera talg. Det är vanligt att drabbas av akne under puberteten, när kroppen genomgår stora förändringar, men även små barn och vuxna kan få akne. Flera faktorer kan orsaka och försämra akne, såsom stress, vissa läkemedel, varma och fuktiga miljöer samt hormonförändringar vid graviditet, menstruation och klimakteriet. Även anabola steroider och p-piller kan orsaka akne. Stress påverkar ofta huden mer än vi kanske tror, och både stora och små händelser i livet kan öka kroppens stressnivå och orsaka hudförändringar i form av hormonell akne.</p>
             <p class="p200 mt-xl">För att behandla akne är det viktigt att balansera kroppens talgproduktion med rätt hudvårdsprodukter och hållbara hudvårdsrutiner. Successivt kan aknen antingen bli mycket bättre eller helt försvinna. Vi som arbetar på Acnespecialisten har lång erfarenhet och stor kunskap av aknebehandlingar och kan hjälpa dig att hålla kroppens naturliga produktion av talg på en optimal nivå och på så sätt reducera dina besvär med akne.</p>',
             icons: array('who-infants' => 'Hormoner', 'who-teenagers' => 'Stress', 'who-adults' => 'Genetik', 'who-elders' => 'Livsstil')
       ),
@@ -366,7 +352,7 @@ $related_problems = array(
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
       <div class="is-hidden-touch is-hidden-desktop-only transition" id="floater">
             <div class="container">
-                  <div id="floating-picture" style="background-image: url('<?php echo $floating_image ?>')">
+                  <div id="floating-picture" style="background-image: url('images/problems/carousel/large/acne-scars.jpg')">
                         <div id="overlay">
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
                               <div>
@@ -380,19 +366,19 @@ $related_problems = array(
                                           for ($i = 0; $i < $length; $i++) { ?>
                                                 <?php
                                                 if ($i == $length - 1) {
-                                                      echo '<a href="ordlista?keyword=' . $keys[$i] . '" class="b200 underline">' . $values[$i] . '</a>.';
+                                                      echo '<a href="' . $keys[$i] . '" class="b200 underline">' . $values[$i] . '</a>.';
                                                 } else {
-                                                      echo '<a href="ordlista?keyword=' . $keys[$i] . '" class="b200 underline">' . $values[$i] . '</a>,';
+                                                      echo '<a href="' . $keys[$i] . '" class="b200 underline">' . $values[$i] . '</a>,';
                                                 }
                                                 ?>
                                           <?php } ?>
                                           <div class="mt-xl">
                                                 <div class="columns is-2 is-variable">
                                                       <div class="column">
-                                                            <a href="<?php echo $consultation_url ?>" target="_blank" class="button white expand l10n">Get a free consultation</a>
+                                                            <a href="https://dahlskincare.com/consultation" target="_blank" class="button white expand l10n">Get a free consultation</a>
                                                       </div>
                                                       <div class="column">
-                                                            <a href="<?php echo $booking_url ?>" target="_blank" class="button white expand l10n">Book a treatment</a>
+                                                            <a href="https://bokadirekt.se" target="_blank" class="button white expand l10n">Book a treatment</a>
                                                       </div>
                                                 </div>
                                           </div>
@@ -411,7 +397,7 @@ $related_problems = array(
                               <h3 class="mt-xs p100 l10n">Även känt som:</h3>
                               <?php foreach ($akas as $key => $aka) { ?>
                                     <div>
-                                          <a href="ordlista?keyword=<?php echo $key ?>" class="mt-xs button b50 bright">
+                                          <a href="<?php echo $key ?>" class="mt-xs button b50 bright">
                                                 <?php echo $aka ?>
                                           </a>
                                     </div>
@@ -422,10 +408,10 @@ $related_problems = array(
                               </p>
                               <div class="mt-xl columns is-mobile">
                                     <div class="column is-half">
-                                          <a href="<?php echo $consultation_url ?>" target="_blank" class="button b200 white expand l10n">Free consultation</a>
+                                          <a href="https://dahlskincare.com/consultation" target="_blank" class="button b200 white expand l10n">Free consultation</a>
                                     </div>
                                     <div class="column is-half">
-                                          <a href="<?php echo $booking_url ?>" target="_blank" class="button b200 white expand l10n">Book a treatment</a>
+                                          <a href="https://bokadirekt.se" target="_blank" class="button b200 white expand l10n">Book a treatment</a>
                                     </div>
                               </div>
                         </div>
@@ -453,9 +439,9 @@ $related_problems = array(
                                           for ($i = 0; $i < $length; $i++) { ?>
                                                 <?php
                                                 if ($i == $length - 1) {
-                                                      echo '<a href="ordlista?keyword=' . $keys[$i] . '" class="b200 underline">' . $values[$i] . '</a>.';
+                                                      echo '<a href="' . $keys[$i] . '" class="b200 underline">' . $values[$i] . '</a>.';
                                                 } else {
-                                                      echo '<a href="ordlista?keyword=' . $keys[$i] . '" class="b200 underline">' . $values[$i] . '</a>,';
+                                                      echo '<a href="' . $keys[$i] . '" class="b200 underline">' . $values[$i] . '</a>,';
                                                 }
                                                 ?>
                                           <?php } ?>
@@ -464,8 +450,8 @@ $related_problems = array(
                                           <?php echo $description ?>
                                     </p>
                                     <div class="mt-xl flex-row" id="book-buttons">
-                                          <a href="<?php echo $consultation_url ?>" target="_blank" class="button b200 white l10n">Get a free consultation</a>
-                                          <a href="<?php echo $booking_url ?>" target="_blank" class="button b200 white l10n">Book a treatment</a>
+                                          <a href="https://dahlskincare.com/consultation" target="_blank" class="button b200 white l10n">Get a free consultation</a>
+                                          <a href="https://bokadirekt.se" target="_blank" class="button b200 white l10n">Book a treatment</a>
                                     </div>
 
 
