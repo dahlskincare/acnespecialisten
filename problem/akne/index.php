@@ -105,7 +105,7 @@ $type_categories = array(
       new BasedTypeCategory(
             id: 'category-age',
             title: 'Baserat på ålder',
-            content: '<p class="p200">Akne är en hudåkomma som kan drabba människor i olika åldrar, men det är vanligast under tonåren och ungdomsåren. Tonårsakne uppstår ofta på grund av de hormonella förändringar som sker under puberteten, medan vuxenakne kan bero på andra faktorer som stress, hormonobalans och genetik.</p>',
+            content: '<p class="p200">Akne är en hudåkomma som kan drabba både ungdomar och vuxna, även om det är vanligast under tonåren. Tonårsakne uppstår ofta på grund av hormonella förändringar under puberteten. Vuxenakne förekommer också, och det kan bero på en rad olika faktorer. Hos vuxna kan akne orsakas av faktorer som stress, hormonobalans och genetik. Oavsett ålder är det viktigt att förstå att akne kan påverka människor i alla livsstadier.</p>',
             types: array(
                   new BasedType(
                         id: 'vuxenakne',
