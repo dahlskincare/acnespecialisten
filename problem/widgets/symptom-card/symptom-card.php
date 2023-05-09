@@ -8,7 +8,7 @@
                 <?php echo $symptom->name ?>
             </h3>
             <p class="p200" id="aka">
-                <span class="l10n">Also called</span>
+                <span class="l10n">Även kallat</span>
                 <span>
                     <?php echo $symptom->aka ?>
                 </span>
@@ -18,6 +18,6 @@
     <div class="mt-m p200">
         <?php echo $symptom->content ?>
     </div>
-    <button class="mt-m is-hidden-mobile b200 compact text l10n">Read more</button>
-    <button class="mt-m is-hidden-tablet expand outline l10n">Read more</button>
+    <button class="mt-m is-hidden-mobile b200 compact text l10n">Läs mer</button>
+    <button class="mt-m is-hidden-tablet expand outline l10n">Läs mer</button>
 </a>
