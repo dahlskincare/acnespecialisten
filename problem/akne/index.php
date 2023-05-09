@@ -244,9 +244,9 @@ $type_categories = array(
                         content: ''
                   ),
                  
-                  )
             )
       )
+      
 );
 $symptoms = array(
       new Symptom(
