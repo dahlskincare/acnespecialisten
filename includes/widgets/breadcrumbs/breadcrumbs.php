@@ -11,12 +11,14 @@ $last_segment_index = count($path_segments) - 2;
 
 ?>
 
-<div class="breadcrumbs-widget">
-    <?php for ($i = 0; $i <= $last_segment_index; $i++) {
-        if ($i < $last_segment_index) {
-            echo '<a href="' . $path_segments[$i]->url . '" class="segment">' . $path_segments[$i]->name . '</a><div class="separator"></div>';
-        } else {
-            echo '<a href="' . $path_segments[$i]->url . '" class="segment active">' . $path_segments[$i]->name . '</a>';
-        }
-    } ?>
-</div>
+<?php if ($last_segment_index > 0) { ?>
+    <div class="breadcrumbs-widget">
+        <?php for ($i = 0; $i <= $last_segment_index; $i++) {
+            if ($i < $last_segment_index) {
+                echo '<a href="' . $path_segments[$i]->url . '" class="segment">' . $path_segments[$i]->name . '</a><div class="separator"></div>';
+            } else {
+                echo '<a href="' . $path_segments[$i]->url . '" class="segment active">' . $path_segments[$i]->name . '</a>';
+            }
+        } ?>
+    </div>
+<?php } ?>
