@@ -550,7 +550,7 @@ $related_problems = array(
                               </div>
                               <hr class="mt-xl3 is-hidden-mobile">
                               <a href="problem/aknearr/behandling" class="mt-xl button b200 outline expand auto-width l10n">
-                                    Läs mer om aknebehandlingar
+                                    Läs mer om olika typer av akne
                               </a>
                         </section>
                         <?php if (sizeof($type_categories) > 0) { ?>
