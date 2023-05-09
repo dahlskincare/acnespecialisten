@@ -121,6 +121,35 @@ $type_categories = array(
                   ),
             )
       ),
+      $type_categories = array(
+      new BasedTypeCategory(
+            id: 'category-severity',
+            title: 'Baserat på svårighetsgrad',
+            content: '<p class="p200">Akne är en hudåkomma som kan drabba både ungdomar och vuxna, även om det är vanligast under tonåren. Tonårsakne uppstår ofta på grund av hormonella förändringar under puberteten. Vuxenakne förekommer också, och det kan bero på en rad olika faktorer. Hos vuxna kan akne orsakas av faktorer som stress, hormonobalans och genetik. Oavsett ålder är det viktigt att förstå att akne kan påverka människor i alla livsstadier.</p>',
+            types: array(
+                  new BasedType(
+                        id: 'vuxenakne',
+                        image_url: 'https://via.placeholder.com/102x102.jpg',
+                        title: 'Vuxenakne',
+                        subtitle: 'Även kallat acne tarda',
+                        content: ''
+                  ),
+                  new BasedType(
+                        id: 'tonårsakne',
+                        image_url: 'https://via.placeholder.com/102x102.jpg',
+                        title: 'Tonårsakne',
+                        subtitle: 'Även kallat acne vulgaris',
+                        content: ''
+                  ),
+                  new BasedType(
+                        id: 'barnakne',
+                        image_url: 'https://via.placeholder.com/102x102.jpg',
+                        title: 'Barnakne',
+                        subtitle: 'Även kallat acne neonatorum',
+                        content: ''
+                  ),
+            )
+      ),
       new BasedTypeCategory(
             id: 'category-reason',
             title: 'Baserat på orsak',
@@ -180,7 +209,11 @@ $type_categories = array(
       new BasedTypeCategory(
             id: 'category-area',
             title: 'Baserat på område',
+<<<<<<< Updated upstream
             content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>',
+=======
+            content: '<p class="p200">Akne kan uppstå på olika områden av kroppen, men det är vanligast att det drabbar ansiktet, bröstet, axlarna och ryggen. Olika typer av akne kan förekomma på olika ställen, och vissa områden kan vara mer mottagliga för vissa akneformer än andra.</p>',
+>>>>>>> Stashed changes
             types: array(
                   new BasedType(
                         id: 'acne-on-face',
