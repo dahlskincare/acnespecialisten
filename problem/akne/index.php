@@ -220,7 +220,7 @@ $type_categories = array(
       new BasedTypeCategory(
             id: 'category-area',
             title: 'Akne baserat på område',
-            content: 'Baserat på område: Akne kan uppträda på olika områden på kroppen. Ansiktet är det vanligaste området, men akne kan också förekomma på bröst, rygg, axlar och andra delar av kroppen. Placeringen av akne kan ge en indikation på dess orsak, som hormonella förändringar, irritation från kläder eller yttre faktorer som sol och friktion.',
+            content: 'Akne kan uppträda på olika områden på kroppen. Ansiktet är det vanligaste området, men akne kan också förekomma på bröst, rygg, axlar och andra delar av kroppen. Placeringen av akne kan ge en indikation på dess orsak, som hormonella förändringar, irritation från kläder eller yttre faktorer som sol och friktion.',
             types: array(
                   new BasedType(
                         id: 'olika-typer-av-akne',
