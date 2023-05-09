@@ -139,7 +139,7 @@ $type_categories = array(
                         content: ''
                   ),
                   new BasedType(
-                        id: 'Svår akne',
+                        id: 'Svar-akne',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
                         title: 'Svår akne',
                         subtitle: 'Även kallat Acne Nodulocystica',
@@ -147,7 +147,7 @@ $type_categories = array(
                   ),
                         id: 'mycket-svar-akne',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
-                        title: 'Mycket vvår akne',
+                        title: 'Mycket svår akne',
                         subtitle: 'Även kallat Acne conglobata',
                         content: ''
                   ),
