@@ -251,10 +251,10 @@ $type_categories = array(
 $symptoms = array(
       new Symptom(
             id: 'post-inflammatory-hyperpigmentaion',
-            name: 'Post inflammatory hyperpigmentation',
-            aka: 'scars stains',
+            name: 'Pormaskar',
+            aka: 'Komedoner',
             image: 'images/symptoms/small/post-inflammatory-hyperpigmentation.jpg',
-            content: 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.'
+            content: 'Pormaskar (öppna komedoner) - Pormaskar är små, mörka prickar som uppstår när en por täpps igen av talg (hudens naturliga olja) och döda hudceller. De är ofta svarta eller bruna på grund av oxidation, som inträffar när melanin (hudens pigment) kommer i kontakt med luft. Pormaskar kan vara platta eller lätt upphöjda och är vanligt förekommande på näsan, pannan och hakan.'
       ),
       new Symptom(
             id: 'atrophic-icepick-scars',
