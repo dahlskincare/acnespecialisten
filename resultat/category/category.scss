@@ -4,37 +4,6 @@
 @import '../widgets/result_customer_card/result_customer_card';
 @import '../../skin-guide/widgets/paginator/paginator';
 
-section#banner {
-    #banner-green {
-        background-color: $deep-sea-400;
-        color: $white-500;
-        padding-top: $xl;
-        padding-bottom: $xl;
-        @include p100;
-
-        .underline {
-            cursor: pointer;
-            text-decoration: underline;
-        }
-    }
-
-
-    @media screen and (min-width: $desktop) {
-        #banner-green {
-            padding-top: 0;
-            padding-bottom: $m;
-
-            #banner-green-desktop {
-                padding-bottom: $xl5;
-
-                #skin-problems-header-column {
-                    flex: 1 0 425px;
-                }
-            }
-        }
-    }
-}
-
 section#cards {
     #show-more {
         margin: $xl 0;
