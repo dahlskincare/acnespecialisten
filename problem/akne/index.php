@@ -156,7 +156,7 @@ $type_categories = array(
       ),
       new BasedTypeCategory(
             id: 'category-reason',
-            title: 'olika-typer-av-akne',
+            title: 'akne baserat på yttre faktorer',
             content: '<p class="p200">Yttre faktorer kan också påverka uppkomsten av akne. Exempel på dessa är sol, friktion, kosmetika, mediciner och miljöfaktorer. Dessa kan bidra till eller förvärra akne genom att irritera huden, täppa till porer eller påverka hudens talgproduktion.</p>',
             types: array(
                   new BasedType(
