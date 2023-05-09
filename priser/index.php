@@ -12,24 +12,51 @@ $service_categories = array(
         url_label: 'View treatment details',
         services_per_category: array(
             'Areas' =>
-            new ServiceInfo(
-                name: 'Face',
-                price: '1295 kr',
-                booking_url: '',
-                image: 'https://via.placeholder.com/64x64.webp',
+            array(
+                new ServiceInfo(
+                    name: 'Face',
+                    price: '1295 kr',
+                    booking_url: '',
+                    image: 'https://via.placeholder.com/64x64.webp',
+                ),
+                new ServiceInfo(
+                    name: 'Chest',
+                    price: '1295 kr',
+                    booking_url: '',
+                    image: 'https://via.placeholder.com/64x64.webp',
+                )
             ),
-            new ServiceInfo(
-                name: 'Chest',
-                price: '1295 kr',
-                booking_url: '',
-                image: 'https://via.placeholder.com/64x64.webp',
+            'Bundles' => array(
+                new ServiceInfo(
+                    name: '2x Areas',
+                    price: '1895 kr',
+                    full_price: '2485 kr',
+                    booking_url: ''
+                )
             ),
-            'Bundles' =>
-            new ServiceInfo(
-                name: '2x Areas',
-                price: '1895 kr',
-                full_price: '2485 kr',
-                booking_url: ''
+            'Combinations' => array(
+                new ServiceInfo(
+                    name: 'Combination 1',
+                    price: '2495 kr',
+                    booking_url: '',
+                    image: 'https://via.placeholder.com/64x64.webp',
+                    combo_items: array(
+                        new ServiceInfoComboItem(
+                            name: 'Label',
+                            price: '995 kr',
+                            full_price: '1485 kr'
+                        ),
+                        new ServiceInfoComboItem(
+                            name: 'Label',
+                            price: '995 kr',
+                            full_price: '1485 kr'
+                        ),
+                        new ServiceInfoComboItem(
+                            name: 'Label',
+                            price: '995 kr'
+                        ),
+                    )
+                )
             )
         )
     )
@@ -164,7 +191,7 @@ $service_categories = array(
             </div>
         </section>
         <div class="container">
-            <section id="treatment-categories">
+            <section id="buttons">
                 <div class="columns is-multiline is-variable is-1">
                     <?php foreach ($service_categories as $service_category) { ?>
                         <div class="column is-one-fifth">
@@ -173,7 +200,7 @@ $service_categories = array(
                     <?php } ?>
                 </div>
             </section>
-            <section id="treatments">
+            <section id="service-categories">
                 <?php
                 foreach ($service_categories as $service_category) {
                     include('widgets/service_category_info/service_category_info.php');
