@@ -424,7 +424,7 @@ $related_problems = array(
                   <div id="green-header-small" class="is-hidden-desktop">
                         <div class="container">
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
-                              <h1 class="mt-xs h600">Akne</h1>
+                              <h1 class="h600">Akneärr</h1>
                               <h3 class="mt-xs p100 l10n">Även känt som:</h3>
                               <?php foreach ($akas as $key => $aka) { ?>
                                     <div>
@@ -437,12 +437,14 @@ $related_problems = array(
                               <p class="mt-m p200">
                                     <?php echo $description ?>
                               </p>
-                              <div class="mt-xl columns is-mobile">
-                                    <div class="column is-half">
-                                          <a href="https://dahlskincare.com/consultation" target="_blank" class="button b200 white expand l10n">Free consultation</a>
-                                    </div>
-                                    <div class="column is-half">
-                                          <a href="https://bokadirekt.se" target="_blank" class="button b200 white expand l10n">Book a treatment</a>
+                              <div class="mt-xl">
+                                    <div class="columns is-mobile">
+                                          <div class="column is-half">
+                                                <a href="https://dahlskincare.com/consultation" target="_blank" class="button b200 white expand l10n">Free consultation</a>
+                                          </div>
+                                          <div class="column is-half">
+                                                <a href="https://bokadirekt.se" target="_blank" class="button b200 white expand l10n">Book a treatment</a>
+                                          </div>
                                     </div>
                               </div>
                         </div>
