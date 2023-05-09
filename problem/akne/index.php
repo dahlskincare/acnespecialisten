@@ -266,7 +266,7 @@ $symptoms = array(
       new Symptom(
             id: 'atrophic-boxcar-scars',
             name: 'Papuler',
-            aka: 'Finnar',
+            aka: 'Röda finnar',
             image: 'images/symptoms/small/atrophic-boxcar-scars.jpg',
             content: 'Papuler är små, fasta, röda och inflammerade blemmor som uppstår när en hårsäck blir infekterad av bakterier, oftast Propionibacterium acnes. De är vanligtvis mindre än 5 mm i diameter och kan vara känsliga vid beröring. Papuler är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.'
       ),
