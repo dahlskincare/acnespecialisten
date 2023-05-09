@@ -125,16 +125,16 @@ $type_categories = array(
             content: '<p class="p200">Akne kan variera i svårighetsgrad från milda till extremt allvarliga fall. I milda fall av akne är symptomen ofta mindre uttalade och består främst av pormaskar, medan mer allvarliga fall innefattar djupare inflammationer i form av cystor och noduler. Svårighetsgraden påverkar också hur akne påverkar en persons livskvalitet och hur den ska behandlas. Det är viktigt att diagnostisera och behandla akne utifrån dess svårighetsgrad för att säkerställa bästa möjliga behandlingsresultat och förhindra potentiella ärr och bestående skador på huden.</p>',
             types: array(
                   new BasedType(
-                        id: 'vuxenakne',
+                        id: 'mild-akne',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
-                        title: 'Vuxenakne',
-                        subtitle: 'Även kallat acne tarda',
+                        title: 'Mild akne',
+                        subtitle: 'även kallat acne comedonica',
                         content: ''
                   ),
                   new BasedType(
-                        id: 'tonårsakne',
+                        id: 'medel-akne',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
-                        title: 'Tonårsakne',
+                        title: 'Medelsvår akne',
                         subtitle: 'Även kallat acne vulgaris',
                         content: ''
                   ),
@@ -156,14 +156,14 @@ $type_categories = array(
                         id: 'mallorca-acne',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
                         title: 'Mallorca acne',
-                        subtitle: 'Also called scars stains',
+                        subtitle: 'Akne orsakad av sol',
                         content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
                   ),
                   new BasedType(
                         id: 'hormonal-acne',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
-                        title: 'Hormonal acne',
-                        subtitle: 'Also called scars stains',
+                        title: 'Hormonell akne',
+                        subtitle: 'akne orsakad av hormoner',
                         content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
                   ),
                   new BasedType(
