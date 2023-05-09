@@ -135,14 +135,20 @@ $type_categories = array(
                         id: 'medel-akne',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
                         title: 'Medelsvår akne',
-                        subtitle: 'Även kallat acne vulgaris',
+                        subtitle: 'Även kallat acne papulopustulosa',
                         content: ''
                   ),
                   new BasedType(
-                        id: 'barnakne',
+                        id: 'Svår akne',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
-                        title: 'Barnakne',
-                        subtitle: 'Även kallat acne neonatorum',
+                        title: 'Svår akne',
+                        subtitle: 'Även kallat Acne Nodulocystica',
+                        content: ''
+                  ),
+                        id: 'mycket Svår akne',
+                        image_url: 'https://via.placeholder.com/102x102.jpg',
+                        title: 'Mycket vvår akne',
+                        subtitle: 'Även kallat Acne conglobata',
                         content: ''
                   ),
             )
@@ -155,8 +161,8 @@ $type_categories = array(
                   new BasedType(
                         id: 'mallorca-acne',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
-                        title: 'Mallorca acne',
-                        subtitle: 'Akne orsakad av sol',
+                        title: 'Mallorca (SOL) acne',
+                        subtitle: 'även kallat Acne aestivalis',
                         content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
                   ),
                   new BasedType(
