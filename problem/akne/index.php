@@ -622,7 +622,7 @@ $related_problems = array(
                               </section>
                         <?php } ?>
                         <section id="define">
-                              <h2 class="h500 l10n">identifiera din Akne</h2>
+                              <h2 class="h500 l10n">Identifiera din akne</h2>
                               <hr class="is-hidden-mobile">
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
                               <hr class="is-hidden-mobile">
