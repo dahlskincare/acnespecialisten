@@ -10,11 +10,10 @@
     <meta name="keywords" content="" class="l10n">
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
-    <link rel="stylesheet" href="/resultat/category/category.css">
+    <link rel="stylesheet" href="/resultat/category.css">
 </head>
 
 <?php
-$consultation_url = '';
 
 $specialists = array(
     new Specialist(
@@ -215,7 +214,7 @@ $pages = sizeof($results_per_page);
                     <div class="p200 l10n" id="cta-banner-content">In a personal meeting with a skin specialist, your skin type is examined and identified.</div>
                 </div>
                 <div>
-                    <a href="<?php echo $consultation_url ?>" class="button white expand l10n">Get a free consultation</a>
+                    <a href="https://dahlskincare.com/consultation" class="button white expand l10n">Get a free consultation</a>
                 </div>
             </section>
             <section id="reviews" class="large-margin">
