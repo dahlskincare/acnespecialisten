@@ -2,50 +2,39 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once('models.php');
 
-$treatment_categories = array(
-    'Problem skin facials' => array(
-        new TreatmentInfo(
-            image_small: 'https://via.placeholder.com/362x274.webp',
-            image_large: 'https://via.placeholder.com/148x148.webp',
-            title: 'Microneedling',
-            description: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.',
-            url: 'priser/microneedling',
-            url_label: 'View treatment details',
-            services: array(
-                'Areas' =>
-                new ServiceInfo(
-                    name: 'Face',
-                    price: '1295 kr',
-                    booking_url: '',
-                    image: 'https://via.placeholder.com/64x64.webp',
-                ),
-                new ServiceInfo(
-                    name: 'Chest',
-                    price: '1295 kr',
-                    booking_url: '',
-                    image: 'https://via.placeholder.com/64x64.webp',
-                ),
-                'Bundles' =>
-                new ServiceInfo(
-                    name: '2x Areas',
-                    price: '1895 kr',
-                    full_price: '2485 kr',
-                    booking_url: ''
-                )
+$service_categories = array(
+    new ServiceCategoryInfo(
+        name: 'Microneedling',
+        image_small: 'https://via.placeholder.com/362x274.webp',
+        image_large: 'https://via.placeholder.com/148x148.webp',
+        description: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.',
+        url: 'priser/microneedling',
+        url_label: 'View treatment details',
+        services_per_category: array(
+            'Areas' =>
+            new ServiceInfo(
+                name: 'Face',
+                price: '1295 kr',
+                booking_url: '',
+                image: 'https://via.placeholder.com/64x64.webp',
+            ),
+            new ServiceInfo(
+                name: 'Chest',
+                price: '1295 kr',
+                booking_url: '',
+                image: 'https://via.placeholder.com/64x64.webp',
+            ),
+            'Bundles' =>
+            new ServiceInfo(
+                name: '2x Areas',
+                price: '1895 kr',
+                full_price: '2485 kr',
+                booking_url: ''
             )
         )
-    ),
-    'FreezeTreat' => array(),
-    'Skinbooster' => array(),
-    'Stretch marks' => array(),
-    'Classic facials' => array(),
-    'IPL' => array(),
-    'Laser for problem skin' => array(),
-    'Chemical peeling' => array(),
-    'Dermabration' => array(),
-    'Microneedling' => array(),
-    'Laser for hair removal' => array(),
+    )
 );
+
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
@@ -177,20 +166,18 @@ $treatment_categories = array(
         <div class="container">
             <section id="treatment-categories">
                 <div class="columns is-multiline is-variable is-1">
-                    <?php foreach (array_keys($treatment_categories) as $service_category) { ?>
+                    <?php foreach ($service_categories as $service_category) { ?>
                         <div class="column is-one-fifth">
-                            <div class="button b200 grey expand"><?php echo $service_category ?></div>
+                            <div class="button b200 grey expand"><?php echo $service_category->name ?></div>
                         </div>
                     <?php } ?>
                 </div>
             </section>
             <section id="treatments">
                 <?php
-                foreach ($treatment_categories as $category_name => $treatments) { ?>
-                    <?php foreach ($treatments as $treatment) {
-                        include('widgets/treatment_info/treatment_info.php');
-                    } ?>
-                <?php } ?>
+                foreach ($service_categories as $service_category) {
+                    include('widgets/service_category_info/service_category_info.php');
+                } ?>
             </section>
         </div>
     </main>
