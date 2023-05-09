@@ -5,33 +5,9 @@
 @import '../../widgets/paginator/paginator';
 
 section#banner {
-    #banner-green {
-        background-color: $deep-sea-400;
-        color: $white-500;
-        padding-bottom: $xl;
-        @include p100;
-
-        .underline {
-            cursor: pointer;
-            text-decoration: underline;
-        }
-
-        #page-title-desktop {
-            width: 200px;
-        }
-    }
-
     @include desktop {
-        #banner-green {
-            padding-bottom: $m;
-
-            #banner-green-desktop {
-                padding-bottom: $xl5;
-
-                #skin-problems-header-column {
-                    flex: 1 0 425px;
-                }
-            }
+        .green-header-banner-widget {
+            padding-bottom: 102px;
         }
     }
 }

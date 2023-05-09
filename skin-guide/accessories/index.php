@@ -98,49 +98,16 @@ $pages = sizeof($articles_per_page);
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
     <main>
         <section id="banner">
-            <div id="banner-green">
-                <div class="container">
-                    <div class="is-hidden-desktop">
-                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
-                        <h1 class="h600 mt-xs"><?php echo $category->name ?></h1>
-                        <p class="p200 mt-xs">
-                            <span id="problems-banner-collapsed" class="l10n">
-                                <?php echo $category->description ?>
-                                <span class="l10n underline h200" onclick="Category.onReadMoreClick(this)">read more</span>
-                            </span>
-                            <span id="problems-banner-expanded" class="l10n is-hidden">
-                                <?php echo $category->description_extended ?>
-                            </span>
-                        </p>
-                        <a href="<?php echo $category->consultation_url ?>" target="_blank" class="button b200 white expand mt-xl l10n">Get a free consultation</a>
-                    </div>
-                    <div class="is-hidden-touch" id="banner-green-desktop">
-                        <div class="flex-row justify-space-between">
-                            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
-                            <div class="mt-xl mb-xs">
-                                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                            </div>
-                        </div>
-                        <div class="flex-row align-end">
-                            <div id="skin-problems-header-column">
-                                <h1 class="h600 mt-xs" id="page-title-desktop"><?php echo $category->name ?></h1>
-                                <a href="<?php echo $category->consultation_url ?>" class="button b200 white mt-xl">Get a free consultation</a>
-                            </div>
-                            <div class="p200">
-                                <?php echo $category->description ?>
-                            </div>
-                            <div class="ml-xl4 p200">
-                                <?php echo $category->description_extended ?>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="mt-m is-hidden-desktop">
-                <div class="container">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                </div>
-            </div>
+            <?php
+            $green_banner_content = new GreenBannerContent(
+                title: $category->name,
+                description: $category->description,
+                description_extended: $category->description_extended,
+                button_url: $category->consultation_url,
+                button_label: 'Gör en gratis konsultation'
+            );
+            include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/green_header_banner.php');
+            ?>
         </section>
         <div class="container">
             <section id="subcategories">

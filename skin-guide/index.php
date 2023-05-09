@@ -170,48 +170,16 @@ $pages = sizeof($articles_per_page);
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
     <main>
         <section id="banner">
-            <div id="banner-green">
-                <div class="container l10n">
-                    <div class="is-hidden-desktop">
-                        <h1 class="h600 mt-xs l10n">Skin guide</h1>
-                        <p class="p200 mt-xs">
-                            <span id="problems-banner-collapsed" class="l10n">
-                                In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified In a personal meeting with a skin specialist, your skinonal...
-                                <span class="l10n underline h200" onclick="SkinGuide.onReadMoreClick(this)">read more</span>
-                            </span>
-                            <span id="problems-banner-expanded" class="l10n is-hidden">
-                                In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified In a personal meeting with a skin specialist, your skinonal...
-                            </span>
-                        </p>
-                        <a href="<?php echo $consultation_url ?>" target="_blank" class="button b200 white expand mt-xl l10n">Get a free consultation</a>
-                    </div>
-                    <div class="is-hidden-touch" id="banner-green-desktop">
-                        <div class="flex-row justify-space-between">
-                            <div></div>
-                            <div class="mt-xl mb-xs">
-                                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                            </div>
-                        </div>
-                        <div class="flex-row align-end">
-                            <div id="skin-problems-header-column">
-                                <h1 class="h600 mt-xs l10n" id="page-title-desktop">Skin guide</h1>
-                                <a href="https://dahlskincare.com/skin-consultation" class="button b200 white mt-xl">Get a free consultation</a>
-                            </div>
-                            <div class="l10n">
-                                In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified In a personal meeting with a skin specialist, your skinonal...
-                            </div>
-                            <div class="ml-xl4 l10n">
-                                In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified In a personal meeting with a skin specialist, your skinonal...
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="mt-m is-hidden-desktop">
-                <div class="container">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                </div>
-            </div>
+            <?php
+            $green_banner_content = new GreenBannerContent(
+                title: 'Skin guide',
+                description: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified In a personal meeting with a skin specialist, your skinonal...',
+                description_extended: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified In a personal meeting with a skin specialist, your skinonal...',
+                button_url: 'https://dahlskincare.com/consultation',
+                button_label: 'Gör en gratis konsultation'
+            );
+            include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/green_header_banner.php');
+            ?>
         </section>
         <div class="container">
             <section id="categories-tablet" class="is-hidden-desktop">
