@@ -294,10 +294,10 @@ $symptoms = array(
 );
 $service = new Service(
       id: 'acne-scars-consultation',
-      title: 'Consultation',
-      duration: '30 min',
-      price: '1295 kr',
-      content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
+      title: 'Konsultation',
+      duration: '20 min',
+      price: 'Kostnadsfri',
+      content: 'Vid ett personligt möte med en acnespecialist utförs en noggrann undersökning av din akne. Vi tar före-bilder på din hud och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
       image_small: 'images/service-categories/small/consultation.jpg',
       image_large: 'images/service-categories/large/consultation.jpg',
       consultation_url: 'https://dahlskincare.com/skin-consultation',
