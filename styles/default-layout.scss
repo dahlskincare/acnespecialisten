@@ -64,9 +64,12 @@ html {
                             li {
                                 cursor: pointer;
                                 display: inline-block;
-                                padding: 26px $m;
+                                padding: 26px $xs;
                                 list-style-type: none;
 
+                                @media screen and (min-width: $widescreen) {
+                                    padding: 26px $m;
+                                }
                             }
                         }
                     }
