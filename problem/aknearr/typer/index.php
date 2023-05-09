@@ -22,7 +22,6 @@ $nav_buttons = array(
 $problem_name = 'Acne scars';
 $header_title = 'Different type of acne scars';
 $header_description = 'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat.';
-$booking_url = '';
 $about_title = 'What is acne scar types?';
 $about_description = '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="mt-m p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>';
 $based_type_categories = array(
@@ -225,7 +224,7 @@ $specialists = array(
                                 <a href="https://www.dahlskincare.com/skin-consultation" target="_blank" class="button white expand l10n">Get a free consultation</a>
                             </div>
                             <div class="column">
-                                <a href="<?php echo $booking_url ?>" target="_blank" class="button white expand l10n">Book a treatment</a>
+                                <a href="https://bokadirekt.se" target="_blank" class="button white expand l10n">Book a treatment</a>
                             </div>
                         </div>
                         </p>
@@ -250,7 +249,7 @@ $specialists = array(
                             <a href="https://dahlskincare.com/skin-consultation" target="_blank" class="button b200 white expand l10n">Free consultation</a>
                         </div>
                         <div class="column is-half">
-                            <a href="<?php echo $booking_url ?>" target="_blank" class="button b200 white expand l10n">Book a treatment</a>
+                            <a href="https://bokadirekt.se" target="_blank" class="button b200 white expand l10n">Book a treatment</a>
                         </div>
                     </div>
                 </div>
@@ -274,7 +273,7 @@ $specialists = array(
                         </p>
                         <div class="mt-xl flex-row" id="book-buttons">
                             <a href="https://www.dahlskincare.com/skin-consultation" target="_blank" class="button b200 white l10n">Get a free consultation</a>
-                            <a href="<?php echo $booking_url ?>" target="_blank" class="button b200 white l10n">Book a treatment</a>
+                            <a href="https://bokadirekt.se" target="_blank" class="button b200 white l10n">Book a treatment</a>
                         </div>
                     </div>
                 </div>

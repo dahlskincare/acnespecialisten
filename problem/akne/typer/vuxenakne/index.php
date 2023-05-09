@@ -18,7 +18,6 @@
 <?php
 $type_name = 'Sun spots';
 $header_title = 'Sun spots';
-$booking_url = 'https://bokadirekt.se';
 $header_description = 'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat.';
 $image_small = 'https://via.placeholder.com/358x274.jpg';
 $image_large = 'https://via.placeholder.com/424x456.jpg';
@@ -168,7 +167,7 @@ $specialists = array(
                                     <a href="https://www.dahlskincare.com/skin-consultation" target="_blank" class="button white expand l10n">Get a free consultation</a>
                                 </div>
                                 <div class="column">
-                                    <a href="<?php echo $booking_url ?>" target="_blank" class="button white expand l10n">Book a treatment</a>
+                                    <a href="https://bokadirekt.se" target="_blank" class="button white expand l10n">Book a treatment</a>
                                 </div>
                             </div>
                             </p>
@@ -193,7 +192,7 @@ $specialists = array(
                                 <a href="https://dahlskincare.com/skin-consultation" target="_blank" class="button b200 white expand l10n">Free consultation</a>
                             </div>
                             <div class="column is-half">
-                                <a href="<?php echo $booking_url ?>" target="_blank" class="button b200 white expand l10n">Book a treatment</a>
+                                <a href="https://bokadirekt.se" target="_blank" class="button b200 white expand l10n">Book a treatment</a>
                             </div>
                         </div>
                     </div>
@@ -217,7 +216,7 @@ $specialists = array(
                             </p>
                             <div class="mt-xl flex-row" id="book-buttons">
                                 <a href="https://www.dahlskincare.com/skin-consultation" target="_blank" class="button b200 white l10n">Get a free consultation</a>
-                                <a href="<?php echo $booking_url ?>" target="_blank" class="button b200 white l10n">Book a treatment</a>
+                                <a href="https://bokadirekt.se" target="_blank" class="button b200 white l10n">Book a treatment</a>
                             </div>
                         </div>
                     </div>
