@@ -162,7 +162,7 @@ $type_categories = array(
                   new BasedType(
                         id: 'mallorca-acne',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
-                        title: 'Mallorca akne',
+                        title: 'Mallorca akne 2',
                         subtitle: 'även kallat Acne aestivalis',
                         content: ''
                   ),
