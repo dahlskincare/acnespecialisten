@@ -30,7 +30,7 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
             title: 'är akne?',
-            content: '<p class="p200">Akne är en ärftlig och hormonell hudförändring som uppstår när talgproduktionen i hudens porer ökar. Huden behöver en viss mängd talg för att hålla sig mjuk och smidig, men vid överproduktion har huden svårt att avlägsna hudrester, vilket leder till bakterier och små inflammationer. Dessa inflammationer orsakar akne, eller finnar som vi ofta säger i dagligt tal. Akne är en inflammation i huden som uppstår när porerna täpps till av talg, döda hudceller och bakterier.</p>',           
+            content: '<p class="p200">Akne är en ärftlig och hormonell hudförändring som uppstår när talgproduktionen i hudens porer ökar. Huden behöver en viss mängd talg för att hålla sig mjuk och smidig, men vid överproduktion har huden svårt att avlägsna hudrester, vilket leder till bakterier och små inflammationer. Dessa inflammationer orsakar akne, eller finnar som vi ofta säger i dagligt tal. Akne är en inflammation i huden som uppstår när porerna täpps till av talg, döda hudceller och bakterier.</p>',
             extended_content: '<p class="p200">Både barn och vuxna kan drabbas av akne, men det är vanligast under tonåren. Vissa har besvär med akne under längre perioder, medan andra endast vid enstaka tillfällen. Akne kan se ut på många olika sätt, från små knottror på huden till variga större utslag. Det viktiga att komma ihåg är att akne kan behandlas. Ibland krävs behandling under en längre tidsperiod, men med rätt behandling kan både bestående ärrbildning och psykiskt lidande undvikas eller lindras.</p>
             <p class="p200 mt-xl">På Acnespecialisten kan du få hjälp med din akne. Vi har kunskap och erfarenhet av olika typer av behandlingar som ger goda resultat och många nöjda kunder. Vi börjar alltid med en kostnadsfri hudkonsultation där vi identifierar problemet och planerar den mest lämpliga behandlingen för dig och din hy. Du får även en effektiv hudvårdsrutin som du enkelt kan följa hemma. Vi rekommenderar att du tar hand om din allmänna hälsa: sov ordentligt, ät hälsosamt och motionera regelbundet. När du mår bra i sin helhet påverkar det din hud positivt.</p>',
             icons: array()
@@ -48,8 +48,7 @@ $trivias = array(
             title: 'får akne?',
             content: '<p class="p200">Akne är vanligast bland tonåringar och unga vuxna, men det kan drabba människor i alla åldrar, oavsett kön och hudtyp. I puberteten ökar produktionen av könshormoner, vilket kan leda till akne vulgaris, även kallad tonårsakne. Denna form av akne kan variera från enstaka finnar till större besvär, med små gula eller röda utslag, stora knölar och smärtsamma blåsor. Eftersom akne oftast uppträder i ansiktet under en känslig period som tonåren, kan det påverka det mentala måendet och det är viktigt att behandla akne effektivt för att undvika ärrbildning och andra skador på huden.</p>',
 
-            extended_content: 
-            '<p class="p200">Akne drabbar inte bara tonåringar. Spädbarn och småbarn kan drabbas av lindriga former av akne, såsom akne neonatorum och akne infantum. Vuxenakne, kallad akne tarda, kan också uppstå om huden överproducerar talg. Kvinnor drabbas oftare av vuxenakne än män, eftersom de påverkas mer av hormonsvängningar under graviditet, mens och klimakteriet. Preventivmedel kan också påverka huden, men hur de påverkar varierar från individ till individ.</p>
+            extended_content: '<p class="p200">Akne drabbar inte bara tonåringar. Spädbarn och småbarn kan drabbas av lindriga former av akne, såsom akne neonatorum och akne infantum. Vuxenakne, kallad akne tarda, kan också uppstå om huden överproducerar talg. Kvinnor drabbas oftare av vuxenakne än män, eftersom de påverkas mer av hormonsvängningar under graviditet, mens och klimakteriet. Preventivmedel kan också påverka huden, men hur de påverkar varierar från individ till individ.</p>
 
             <p class="p200 mt-xl">Yttre faktorer som stress och alkohol kan också påverka akne, både hos tonåringar och vuxna. Akne kan uppstå i ansiktet, på bröstet, axlarna och ryggen. För att behandla akne rekommenderas att boka en kostnadsfri hudkonsultation hos Acnespecialisten. Där görs en bedömning av din hud och du får förslag på behandlingar samt en personlig hudvårdsrutin anpassad efter din hudtyp. Detta hjälper dig att motverka ytterligare problem med akne, både i ansiktet och på andra delar av kroppen.</p>',
             icons: array('who-infants' => 'Barn', 'who-teenagers' => 'Ungdommar', 'who-adults' => 'Vuxna', 'who-elders' => 'Män & Kvinnor')
@@ -58,8 +57,7 @@ $trivias = array(
             prefix: 'Vart',
             title: 'får man akne?',
             content: '<p class="p200">Akne kan uppstå på flera delar av kroppen och påverka personer i olika åldrar och med olika hudtyper. Vanligast är att akne drabbar ansiktet, men det kan även förekomma på andra områden som bröstet, axlarna och ryggen. Placeringen av akne beror på var talgkörtlarna är aktiva och därmed kan överproducera talg, vilket leder till tilltäppta porer och inflammationer i huden.</p>',
-            extended_content: 
-            '<p class="p200 mt-xl">Akne i ansiktet är särskilt påtagligt, eftersom det är svårt att dölja och ofta påverkar en persons självkänsla och mentala välbefinnande. Det är vanligt att tonåringar drabbas av ansiktsakne under puberteten, då hormonella förändringar kan leda till ökad talgproduktion. Även vuxna kan drabbas av ansiktsakne, särskilt kvinnor som genomgår hormonella förändringar under graviditet, mens och klimakteriet.</p>
+            extended_content: '<p class="p200 mt-xl">Akne i ansiktet är särskilt påtagligt, eftersom det är svårt att dölja och ofta påverkar en persons självkänsla och mentala välbefinnande. Det är vanligt att tonåringar drabbas av ansiktsakne under puberteten, då hormonella förändringar kan leda till ökad talgproduktion. Även vuxna kan drabbas av ansiktsakne, särskilt kvinnor som genomgår hormonella förändringar under graviditet, mens och klimakteriet.</p>
 
             <p class="p200 mt-xl">Akne på bröstet, axlarna och ryggen är också vanligt och kan vara lika besvärande som ansiktsakne, även om det är lättare att dölja under kläder. Denna typ av akne kan orsakas av samma faktorer som ansiktsakne, men även av yttre faktorer som friktion från kläder eller väskor som gnider mot huden och skapar irritation.
                   För att behandla och förebygga akne oavsett var på kroppen det uppstår, är det viktigt att följa en anpassad hudvårdsrutin, inklusive rengöring, återfuktning och eventuellt användning av aknebehandlingar som passar din hudtyp. Konsultera hos en av våra hudspecialister för att få råd om vilka produkter och behandlingar som är bäst lämpade för din specifika situation och för att minimera akneproblem på olika delar av kroppen.</p>',
@@ -122,112 +120,109 @@ $type_categories = array(
             )
       ),
       $type_categories = array(
-      new BasedTypeCategory(
-            id: 'category-severity',
-            title: 'Baserat på svårighetsgrad',
-            content: '<p class="p200">Akne är en hudåkomma som kan drabba både ungdomar och vuxna, även om det är vanligast under tonåren. Tonårsakne uppstår ofta på grund av hormonella förändringar under puberteten. Vuxenakne förekommer också, och det kan bero på en rad olika faktorer. Hos vuxna kan akne orsakas av faktorer som stress, hormonobalans och genetik. Oavsett ålder är det viktigt att förstå att akne kan påverka människor i alla livsstadier.</p>',
-            types: array(
-                  new BasedType(
-                        id: 'vuxenakne',
-                        image_url: 'https://via.placeholder.com/102x102.jpg',
-                        title: 'Vuxenakne',
-                        subtitle: 'Även kallat acne tarda',
-                        content: ''
-                  ),
-                  new BasedType(
-                        id: 'tonårsakne',
-                        image_url: 'https://via.placeholder.com/102x102.jpg',
-                        title: 'Tonårsakne',
-                        subtitle: 'Även kallat acne vulgaris',
-                        content: ''
-                  ),
-                  new BasedType(
-                        id: 'barnakne',
-                        image_url: 'https://via.placeholder.com/102x102.jpg',
-                        title: 'Barnakne',
-                        subtitle: 'Även kallat acne neonatorum',
-                        content: ''
-                  ),
-            )
-      ),
-      new BasedTypeCategory(
-            id: 'category-reason',
-            title: 'Baserat på orsak',
-            content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>',
-            types: array(
-                  new BasedType(
-                        id: 'mallorca-acne',
-                        image_url: 'https://via.placeholder.com/102x102.jpg',
-                        title: 'Mallorca acne',
-                        subtitle: 'Also called scars stains',
-                        content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
-                  ),
-                  new BasedType(
-                        id: 'hormonal-acne',
-                        image_url: 'https://via.placeholder.com/102x102.jpg',
-                        title: 'Hormonal acne',
-                        subtitle: 'Also called scars stains',
-                        content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
-                  ),
-                  new BasedType(
-                        id: 'cosmetic-acne',
-                        image_url: 'https://via.placeholder.com/102x102.jpg',
-                        title: 'Cosmetic acne',
-                        subtitle: 'Also called scars stains',
-                        content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
-                  ),
-                  new BasedType(
-                        id: 'acne-exoriee',
-                        image_url: 'https://via.placeholder.com/102x102.jpg',
-                        title: 'Acne exoriee',
-                        subtitle: 'Also called scars stains',
-                        content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
-                  ),
-                  new BasedType(
-                        id: 'acne-mechanics',
-                        image_url: 'https://via.placeholder.com/102x102.jpg',
-                        title: 'Acne mechanics',
-                        subtitle: 'Also called scars stains',
-                        content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
-                  ),
-                  new BasedType(
-                        id: 'acne-medicamentosa',
-                        image_url: 'https://via.placeholder.com/102x102.jpg',
-                        title: 'Acne medicamentosa',
-                        subtitle: 'Also called scars stains',
-                        content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
-                  ),
-                  new BasedType(
-                        id: 'fungal-acne',
-                        image_url: 'https://via.placeholder.com/102x102.jpg',
-                        title: 'Fungal acne',
-                        subtitle: 'Also called scars stains',
-                        content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
+            new BasedTypeCategory(
+                  id: 'category-severity',
+                  title: 'Baserat på svårighetsgrad',
+                  content: '<p class="p200">Akne är en hudåkomma som kan drabba både ungdomar och vuxna, även om det är vanligast under tonåren. Tonårsakne uppstår ofta på grund av hormonella förändringar under puberteten. Vuxenakne förekommer också, och det kan bero på en rad olika faktorer. Hos vuxna kan akne orsakas av faktorer som stress, hormonobalans och genetik. Oavsett ålder är det viktigt att förstå att akne kan påverka människor i alla livsstadier.</p>',
+                  types: array(
+                        new BasedType(
+                              id: 'vuxenakne',
+                              image_url: 'https://via.placeholder.com/102x102.jpg',
+                              title: 'Vuxenakne',
+                              subtitle: 'Även kallat acne tarda',
+                              content: ''
+                        ),
+                        new BasedType(
+                              id: 'tonårsakne',
+                              image_url: 'https://via.placeholder.com/102x102.jpg',
+                              title: 'Tonårsakne',
+                              subtitle: 'Även kallat acne vulgaris',
+                              content: ''
+                        ),
+                        new BasedType(
+                              id: 'barnakne',
+                              image_url: 'https://via.placeholder.com/102x102.jpg',
+                              title: 'Barnakne',
+                              subtitle: 'Även kallat acne neonatorum',
+                              content: ''
+                        ),
                   )
-            )
-      ),
-      new BasedTypeCategory(
-            id: 'category-area',
-            title: 'Baserat på område',
-<<<<<<< Updated upstream
-            content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>',
-=======
-            content: '<p class="p200">Akne kan uppstå på olika områden av kroppen, men det är vanligast att det drabbar ansiktet, bröstet, axlarna och ryggen. Olika typer av akne kan förekomma på olika ställen, och vissa områden kan vara mer mottagliga för vissa akneformer än andra.</p>',
->>>>>>> Stashed changes
-            types: array(
-                  new BasedType(
-                        id: 'acne-on-face',
-                        image_url: 'https://via.placeholder.com/102x102.jpg',
-                        title: 'Acne on face',
-                        subtitle: 'Also called scars stains',
-                        content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
-                  ),
-                  new BasedType(
-                        id: 'acne-on-body',
-                        image_url: 'https://via.placeholder.com/102x102.jpg',
-                        title: 'Acne on body',
-                        subtitle: 'Also called scars stains',
-                        content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
+            ),
+            new BasedTypeCategory(
+                  id: 'category-reason',
+                  title: 'Baserat på orsak',
+                  content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>',
+                  types: array(
+                        new BasedType(
+                              id: 'mallorca-acne',
+                              image_url: 'https://via.placeholder.com/102x102.jpg',
+                              title: 'Mallorca acne',
+                              subtitle: 'Also called scars stains',
+                              content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
+                        ),
+                        new BasedType(
+                              id: 'hormonal-acne',
+                              image_url: 'https://via.placeholder.com/102x102.jpg',
+                              title: 'Hormonal acne',
+                              subtitle: 'Also called scars stains',
+                              content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
+                        ),
+                        new BasedType(
+                              id: 'cosmetic-acne',
+                              image_url: 'https://via.placeholder.com/102x102.jpg',
+                              title: 'Cosmetic acne',
+                              subtitle: 'Also called scars stains',
+                              content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
+                        ),
+                        new BasedType(
+                              id: 'acne-exoriee',
+                              image_url: 'https://via.placeholder.com/102x102.jpg',
+                              title: 'Acne exoriee',
+                              subtitle: 'Also called scars stains',
+                              content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
+                        ),
+                        new BasedType(
+                              id: 'acne-mechanics',
+                              image_url: 'https://via.placeholder.com/102x102.jpg',
+                              title: 'Acne mechanics',
+                              subtitle: 'Also called scars stains',
+                              content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
+                        ),
+                        new BasedType(
+                              id: 'acne-medicamentosa',
+                              image_url: 'https://via.placeholder.com/102x102.jpg',
+                              title: 'Acne medicamentosa',
+                              subtitle: 'Also called scars stains',
+                              content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
+                        ),
+                        new BasedType(
+                              id: 'fungal-acne',
+                              image_url: 'https://via.placeholder.com/102x102.jpg',
+                              title: 'Fungal acne',
+                              subtitle: 'Also called scars stains',
+                              content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
+                        )
+                  )
+            ),
+            new BasedTypeCategory(
+                  id: 'category-area',
+                  title: 'Baserat på område',
+                  content: '<p class="p200">Akne kan uppstå på olika områden av kroppen, men det är vanligast att det drabbar ansiktet, bröstet, axlarna och ryggen. Olika typer av akne kan förekomma på olika ställen, och vissa områden kan vara mer mottagliga för vissa akneformer än andra.</p>',
+                  types: array(
+                        new BasedType(
+                              id: 'acne-on-face',
+                              image_url: 'https://via.placeholder.com/102x102.jpg',
+                              title: 'Acne on face',
+                              subtitle: 'Also called scars stains',
+                              content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
+                        ),
+                        new BasedType(
+                              id: 'acne-on-body',
+                              image_url: 'https://via.placeholder.com/102x102.jpg',
+                              title: 'Acne on body',
+                              subtitle: 'Also called scars stains',
+                              content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
+                        )
                   )
             )
       )
@@ -634,47 +629,47 @@ $related_problems = array(
                               </div>
                               <?php
                               $reviews = array(
-                              new Review(
-                                    stars: 5,
-                                    brand: 'Trustpilot',
-                                    logo_url: 'images/brands/trustpilot.svg',
-                                    title: 'Allt gick jätte bra!',
-                                    text: "Allt gick jätte bra, personal var snäll och trevlig med min dotter. Min dotter var orolig för behandling hur ska det vara därför har det varit så lång tid innan vi kommit tillbaka och börjat med behandling. Det var inte lätt för henne men hon är jätte nöjd och glad när hon såg bra resultat /ändring på hennes ansikte. Tack så jätte mycket!!",
-                                    signature: 'Emily'
-                              ),
-                              new Review(
-                                    stars: 5,
-                                    brand: 'Google',
-                                    logo_url: 'images/brands/trustpilot.svg',
-                                    title: 'Man behöver inte klä av sig',
-                                    text: "Man behöver inte klä av sig för behandling. Behandlaren känns inte stressad, sitter kvar utan att springa iväg för att uträtta annat! Frågar inte ut en. Försöker inte pracka på en produkter. Är trevlig och hjälpsam",
-                                    signature: 'Emily'
-                              ),
-                              new Review(
-                                    stars: 5,
-                                    brand: 'Trustpilot',
-                                    logo_url: 'images/brands/trustpilot.svg',
-                                    title: 'Otroligt nöjd',
-                                    text: "Efter bara tre månader hos bästa Emma har min hud blivit så mycket bättre! Efter en graviditet och en kombination av hormonell och bakteriell acne så har jag äntligen börjar komma tillbaks till min gamla hy. Är verkligen så himla nöjd. Har gjort ansiktsbehandling mot acne samt kört acnespecialistens produkter och kan bara säga gott om dem!",
-                                    signature: 'Emily'
-                              ),
-                              new Review(
-                                    stars: 5,
-                                    brand: 'Google',
-                                    logo_url: 'images/brands/trustpilot.svg',
-                                    title: 'Nöjd',
-                                    text: "Ett första besök som absolut kommer leda till ett till. Bra och tydlig information om vad som skulle vara bäst för min hy.",
-                                    signature: 'Emily'
-                              ),
-                              new Review(
-                                    stars: 5,
-                                    brand: 'Trustpilot',
-                                    logo_url: 'images/brands/trustpilot.svg',
-                                    title: 'Kunniga och bra!',
-                                    text: "Mina tonårsdöttrar har båda gått till acnespecialisten under flera år med både mindre och större problemområden. Vi har alltid fått professionell och kunnig behandling, bra produkter och bra råd, som också hjälper fint!",
-                                    signature: 'Emily'
-                              ),
-                        );
+                                    new Review(
+                                          stars: 5,
+                                          brand: 'Trustpilot',
+                                          logo_url: 'images/brands/trustpilot.svg',
+                                          title: 'Allt gick jätte bra!',
+                                          text: "Allt gick jätte bra, personal var snäll och trevlig med min dotter. Min dotter var orolig för behandling hur ska det vara därför har det varit så lång tid innan vi kommit tillbaka och börjat med behandling. Det var inte lätt för henne men hon är jätte nöjd och glad när hon såg bra resultat /ändring på hennes ansikte. Tack så jätte mycket!!",
+                                          signature: 'Emily'
+                                    ),
+                                    new Review(
+                                          stars: 5,
+                                          brand: 'Google',
+                                          logo_url: 'images/brands/trustpilot.svg',
+                                          title: 'Man behöver inte klä av sig',
+                                          text: "Man behöver inte klä av sig för behandling. Behandlaren känns inte stressad, sitter kvar utan att springa iväg för att uträtta annat! Frågar inte ut en. Försöker inte pracka på en produkter. Är trevlig och hjälpsam",
+                                          signature: 'Emily'
+                                    ),
+                                    new Review(
+                                          stars: 5,
+                                          brand: 'Trustpilot',
+                                          logo_url: 'images/brands/trustpilot.svg',
+                                          title: 'Otroligt nöjd',
+                                          text: "Efter bara tre månader hos bästa Emma har min hud blivit så mycket bättre! Efter en graviditet och en kombination av hormonell och bakteriell acne så har jag äntligen börjar komma tillbaks till min gamla hy. Är verkligen så himla nöjd. Har gjort ansiktsbehandling mot acne samt kört acnespecialistens produkter och kan bara säga gott om dem!",
+                                          signature: 'Emily'
+                                    ),
+                                    new Review(
+                                          stars: 5,
+                                          brand: 'Google',
+                                          logo_url: 'images/brands/trustpilot.svg',
+                                          title: 'Nöjd',
+                                          text: "Ett första besök som absolut kommer leda till ett till. Bra och tydlig information om vad som skulle vara bäst för min hy.",
+                                          signature: 'Emily'
+                                    ),
+                                    new Review(
+                                          stars: 5,
+                                          brand: 'Trustpilot',
+                                          logo_url: 'images/brands/trustpilot.svg',
+                                          title: 'Kunniga och bra!',
+                                          text: "Mina tonårsdöttrar har båda gått till acnespecialisten under flera år med både mindre och större problemområden. Vi har alltid fått professionell och kunnig behandling, bra produkter och bra råd, som också hjälper fint!",
+                                          signature: 'Emily'
+                                    ),
+                              );
                               $reviews_narrow = true;
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                               ?>
