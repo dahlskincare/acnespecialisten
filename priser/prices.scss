@@ -5,6 +5,14 @@
 
 html {
     body {
+        section.large-margin {
+            margin-top: 72px;
+
+            @include desktop {
+                margin-top: 104px;
+            }
+        }
+
         section#banner {
             #brands-container {
                 margin-top: $s;
