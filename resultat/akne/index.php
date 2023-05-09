@@ -10,11 +10,10 @@
     <meta name="keywords" content="" class="l10n">
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
-    <link rel="stylesheet" href="/resultat/category/category.css">
+    <link rel="stylesheet" href="/resultat/category.css">
 </head>
 
 <?php
-$consultation_url = '';
 
 $specialists = array(
     new Specialist(
@@ -189,42 +188,16 @@ $pages = sizeof($results_per_page);
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
     <main>
         <section id="banner" class="sticky-badges-target">
-            <div id="banner-green">
-                <div class="container l10n">
-                    <div class="is-hidden-desktop">
-                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
-                        <h1 class="h600 mt-xs"><?php echo $result_category->title ?></h1>
-                        <div class="mt-xs">
-                            <div class="p200"><?php echo $result_category->description_1 ?></div>
-                            <div class="p200 mt-m"><?php echo $result_category->description_2 ?></div>
-                        </div>
-                        <a href="<?php echo $consultation_url ?>" target="_blank" class="button b200 white expand mt-xl l10n">Get a free consultation</a>
-                    </div>
-                    <div class="is-hidden-touch" id="banner-green-desktop">
-                        <div class="flex-row justify-space-between">
-                            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
-                            <div class="mt-xl mb-xs">
-                                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                            </div>
-                        </div>
-                        <div class="flex-row align-end">
-                            <div id="skin-problems-header-column">
-                                <h1 class="h600 mt-xs"><?php echo $result_category->title ?></h1>
-                                <a href="<?php echo $consultation_url ?>" class="button b200 white mt-xl">Get a free consultation</a>
-                            </div>
-                            <div class="p200">
-                                <?php echo $result_category->description_1 ?>
-                            </div>
-                            <div class="p200 ml-xl4">
-                                <?php echo $result_category->description_2 ?>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container mt-m is-hidden-desktop">
-                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-            </div>
+            <?php
+            $green_banner_content = new GreenBannerContent(
+                title: $result_category->title,
+                description: $result_category->description_1,
+                description_extended: $result_category->description_2,
+                button_url: 'https://dahlskincare.com/consultation',
+                button_label: 'Gör en gratis konsultation'
+            );
+            include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/green_header_banner.php');
+            ?>
         </section>
         <div class="container">
             <section id="cards">
@@ -241,7 +214,7 @@ $pages = sizeof($results_per_page);
                     <div class="p200 l10n" id="cta-banner-content">In a personal meeting with a skin specialist, your skin type is examined and identified.</div>
                 </div>
                 <div>
-                    <a href="<?php echo $consultation_url ?>" class="button white expand l10n">Get a free consultation</a>
+                    <a href="https://dahlskincare.com/consultation" class="button white expand l10n">Get a free consultation</a>
                 </div>
             </section>
             <section id="reviews" class="large-margin">

@@ -14,7 +14,6 @@
 </head>
 
 <?php
-$consultation_url = '';
 
 $specialists = array(
     new Specialist(
@@ -195,42 +194,16 @@ $pages = sizeof($results_per_page);
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
     <main>
         <section id="banner" class="sticky-badges-target">
-            <div id="banner-green">
-                <div class="container l10n">
-                    <div class="is-hidden-desktop">
-                        <h1 class="h600 mt-xs"><?php echo $result_category->title ?></h1>
-                        <div class="mt-xs">
-                            <div class="p200"><?php echo $result_category->description_1 ?></div>
-                            <div class="p200 mt-m"><?php echo $result_category->description_2 ?></div>
-                        </div>
-                        <a href="<?php echo $consultation_url ?>" target="_blank" class="button b200 white expand mt-xl l10n">Get a free consultation</a>
-                    </div>
-                    <div class="is-hidden-touch" id="banner-green-desktop">
-                        <div class="flex-row justify-space-between">
-                            <div></div>
-                            <div class="mt-xl mb-xs">
-                                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                            </div>
-                        </div>
-                        <div class="flex-row align-end">
-                            <div id="skin-problems-header-column">
-                                <h1 id="page-title-desktop" class="h600 mt-xs"><?php echo $result_category->title ?></h1>
-                                <a href="<?php echo $consultation_url ?>" class="button b200 white mt-xl">Get a free consultation</a>
-                            </div>
-                            <div class="p200">
-                                <?php echo $result_category->description_1 ?>
-                            </div>
-                            <div class="p200 ml-xl4">
-                                <?php echo $result_category->description_2 ?>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container mt-m is-hidden-desktop">
-                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-            </div>
+            <?php
+            $green_banner_content = new GreenBannerContent(
+                title: $result_category->title,
+                description: $result_category->description_1,
+                description_extended: $result_category->description_2,
+                button_url: 'https://dahlskincare.com/consultation',
+                button_label: 'Gör en gratis konsultation'
+            );
+            include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/green_header_banner.php');
+            ?>
             <div class="container mt-m is-hidden-desktop" id="filters-touch-container">
                 <div id="filters-touch">
                     <?php foreach ($category_links as $link_id => $link_label) { ?>
@@ -281,7 +254,7 @@ $pages = sizeof($results_per_page);
                     <div class="p200 l10n" id="cta-banner-content">In a personal meeting with a skin specialist, your skin type is examined and identified.</div>
                 </div>
                 <div>
-                    <a href="<?php echo $consultation_url ?>" class="button white expand l10n">Get a free consultation</a>
+                    <a href="https://dahlskincare.com/skin-consultation" class="button white expand l10n">Get a free consultation</a>
                 </div>
             </section>
             <section id="reviews" class="large-margin">

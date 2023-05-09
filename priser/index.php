@@ -12,24 +12,51 @@ $service_categories = array(
         url_label: 'View treatment details',
         services_per_category: array(
             'Areas' =>
-            new ServiceInfo(
-                name: 'Face',
-                price: '1295 kr',
-                booking_url: '',
-                image: 'https://via.placeholder.com/64x64.webp',
+            array(
+                new ServiceInfo(
+                    name: 'Face',
+                    price: '1295 kr',
+                    booking_url: '',
+                    image: 'https://via.placeholder.com/64x64.webp',
+                ),
+                new ServiceInfo(
+                    name: 'Chest',
+                    price: '1295 kr',
+                    booking_url: '',
+                    image: 'https://via.placeholder.com/64x64.webp',
+                )
             ),
-            new ServiceInfo(
-                name: 'Chest',
-                price: '1295 kr',
-                booking_url: '',
-                image: 'https://via.placeholder.com/64x64.webp',
+            'Bundles' => array(
+                new ServiceInfo(
+                    name: '2x Areas',
+                    price: '1895 kr',
+                    full_price: '2485 kr',
+                    booking_url: ''
+                )
             ),
-            'Bundles' =>
-            new ServiceInfo(
-                name: '2x Areas',
-                price: '1895 kr',
-                full_price: '2485 kr',
-                booking_url: ''
+            'Combinations' => array(
+                new ServiceInfo(
+                    name: 'Combination 1',
+                    price: '2495 kr',
+                    booking_url: '',
+                    image: 'https://via.placeholder.com/64x64.webp',
+                    combo_items: array(
+                        new ServiceInfoComboItem(
+                            name: 'Label',
+                            price: '995 kr',
+                            full_price: '1485 kr'
+                        ),
+                        new ServiceInfoComboItem(
+                            name: 'Label',
+                            price: '995 kr',
+                            full_price: '1485 kr'
+                        ),
+                        new ServiceInfoComboItem(
+                            name: 'Label',
+                            price: '995 kr'
+                        ),
+                    )
+                )
             )
         )
     )
@@ -164,7 +191,7 @@ $service_categories = array(
             </div>
         </section>
         <div class="container">
-            <section id="treatment-categories">
+            <section id="buttons">
                 <div class="columns is-multiline is-variable is-1">
                     <?php foreach ($service_categories as $service_category) { ?>
                         <div class="column is-one-fifth">
@@ -173,11 +200,125 @@ $service_categories = array(
                     <?php } ?>
                 </div>
             </section>
-            <section id="treatments">
+            <section id="service-categories">
                 <?php
                 foreach ($service_categories as $service_category) {
                     include('widgets/service_category_info/service_category_info.php');
                 } ?>
+            </section>
+            <section id="consultation-banner" class="large-margin">
+                <div class="container">
+                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/consultation_banner/consultation_banner.php'); ?>
+                </div>
+            </section>
+            <section id="results" class="large-margin">
+                <div class="container">
+                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results.php') ?>
+                </div>
+            </section>
+            <section id="reviews" class="large-margin">
+                <div class="container">
+                    <div class="flex-row align-end justify-space-between">
+                        <h2 class="big l10n">Reviews</h2>
+                        <div class="flex-row is-hidden-mobile">
+                            <div class="step-buttons">
+                                <button class="round-large grey" onclick="Reviews.scroll(-1)">
+                                    <?php icon('arrow-left') ?>
+                                </button>
+                                <button class="round-large grey" onclick="Reviews.scroll(1)">
+                                    <?php icon('arrow-right') ?>
+                                </button>
+                            </div>
+                            <a href="reviews" class="ml-l button compact text">
+                                <span class="l10n">View all reviews</span>
+                                <?php icon('navigate-next') ?>
+                            </a>
+                        </div>
+
+                    </div>
+                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
+                    <a class="mt-xl button outline expand is-hidden-tablet l10n" href="omdomen">View all reviews</a>
+                </div>
+            </section>
+            <section id="faq" class="large-margin">
+                <div class="container">
+                    <div class="flex-row align-end justify-space-between">
+                        <h2 class="big l10n">Questions & answers</h2>
+                        <a href="faq" class="button compact text is-hidden-mobile">
+                            <span class="l10n">View all questions</span>
+                            <?php icon('navigate-next') ?>
+                        </a>
+                    </div>
+                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
+                    <a class="mt-xl button outline expand is-hidden-tablet l10n" href="faq">View all questions</a>
+                </div>
+            </section>
+            <section id="skin-guide" class="large-margin">
+                <div class="container">
+                    <div class="flex-row align-end justify-space-between">
+                        <h2 class="big l10n">Skin guide</h2>
+                        <a href="skin-guide" class="button compact text is-hidden-mobile">
+                            <span class="l10n">View all articles</span>
+                            <?php icon('navigate-next') ?>
+                        </a>
+                    </div>
+                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php'); ?>
+                    <a class="mt-xl button outline expand is-hidden-tablet l10n" href="skin-guide">View all articles</a>
+                </div>
+            </section>
+            <section id="specialists" class="large-margin">
+                <div class="container">
+                    <div class="flex-row align-end justify-space-between">
+                        <h2 class="big l10n">Our specialists</h2>
+                        <a href="specialister" class="button compact text is-hidden-mobile">
+                            <span class="l10n">View all specialists</span>
+                            <?php icon('navigate-next') ?>
+                        </a>
+                    </div>
+                    <?php
+                    $specialists = array(
+                        new Specialist(
+                            name: 'Cazzandra Lindberg',
+                            title: 'Hudterapeut sedan 2015',
+                            image_small: 'images/specialists/small/specialist-1.jpg',
+                            image_large: 'images/specialists/large/hudterapeut-cazzandra.webp'
+                        ),
+                        new Specialist(
+                            name: 'Veronika Benedik',
+                            title: 'Hudterapeut sedan 1999',
+                            image_small: 'images/specialists/small/specialist-2.jpg',
+                            image_large: 'images/specialists/large/hudterapeut-veronika.webp'
+                        ),
+                        new Specialist(
+                            name: 'Amira Maqboul',
+                            title: 'Hudterapeut sedan 2017',
+                            image_small: 'images/specialists/small/specialist-3.jpg',
+                            image_large: 'images/specialists/large/hudterapeut-amira.webp'
+                        ),
+                        new Specialist(
+                            name: 'Vilma Libom',
+                            title: 'Hudterapeut sedan 2019',
+                            image_small: 'images/specialists/small/specialist-4.jpg',
+                            image_large: 'images/specialists/large/hudterapeut-vilma.webp'
+                        )
+                    );
+                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
+                    ?>
+                    <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialists">View all specialists</a>
+                </div>
+            </section>
+            <section id="brands" class="large-margin">
+                <div class="container">
+                    <div class="flex-row align-end justify-space-between">
+                        <h2 class="big l10n">Brands we use</h2>
+                        <a href="brands" class="button compact text is-hidden-mobile">
+                            <span class="l10n">View all brands</span>
+                            <?php icon('navigate-next') ?>
+                        </a>
+                    </div>
+                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
+                    <a class="mt-xl button outline expand is-hidden-tablet l10n" href="brands">View all brands</a>
+                </div>
             </section>
         </div>
     </main>

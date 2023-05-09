@@ -302,60 +302,16 @@ $problem_areas = array(
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
       <main>
             <section id="banner" class="sticky-badges-target">
-                  <div id="banner-green">
-                        <div class="container l10n">
-                              <div class="is-hidden-desktop">
-                                    <h1 class="h600 l10n">Hudproblem</h1>
-                                    <p class="p200 mt-xs">
-                                          <span id="problems-banner-collapsed" class="l10n">
-                                                Hudproblem som akne, rosacea, pormaskar och finnar kan påverka individer i alla åldrar och orsaka obehag, nedsatt självkänsla och försämrad livskvalitet. På Acnespecialisten arbetar vi med att behandla och förbättra problemhy genom att erbjuda skräddarsydda lösningar och behandlingar för varje enskild kund. Vi erbjuder en rad behandlingsmetoder och tekniker anpassade för att hantera olika hudproblem. För att veta mer om de olika problemen och hur vi kan hjälpa dig, klicka på det problem du misstänker att du har:
-                                                <span class="l10n underline h200" onclick="Problems.onReadMoreClick()">läs mer</span>
-                                          </span>
-                                          <span id="problems-banner-expanded" class="l10n is-hidden">
-                                                Om du är osäker på vilket hudproblem du har eller vilken behandling som skulle passa dig bäst, rekommenderar vi att du bokar en kostnadsfri hudkonsultation. Under konsultationen kommer en av våra erfarna hudterapeuter att undersöka din hud, identifiera eventuella problem och rekommendera en behandlingsplan som passar dina specifika behov och mål. Boka din gratis hudkonsultation idag och ta det första steget mot en friskare och mer välmående hud.
-                                          </span>
-                                    </p>
-                                    <a href="https://dahlskincare.com/skin-consultation" target="_blank" class="button b200 white expand mt-xl l10n">Få gratis konsultation</a>
-                              </div>
-                              <div class="is-hidden-touch" id="banner-green-desktop">
-                                    <div class="flex-row justify-end">
-                                          <div class="mt-xl mb-xs">
-                                                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                                          </div>
-                                    </div>
-                                    <div class="flex-row align-end">
-                                          <div id="skin-problems-header-column">
-                                                <h1 class="h600 mt-xs l10n">Hudproblem</h1>
-                                                <a href="https://dahlskincare.com/skin-consultation" class="button b200 white mt-xl">Få gratis hudkonsultation</a>
-                                          </div>
-                                          <div class="l10n">
-                                                Hudproblem som akne, rosacea, pormaskar och finnar kan påverka individer i alla åldrar och orsaka obehag, nedsatt självkänsla och försämrad livskvalitet. På Acnespecialisten arbetar vi med att behandla och förbättra problemhy genom att erbjuda skräddarsydda lösningar och behandlingar för varje enskild kund. Vi erbjuder en rad behandlingsmetoder och tekniker anpassade för att hantera olika hudproblem. För att veta mer om de olika problemen och hur vi kan hjälpa dig, klicka på det problem du misstänker att du har:
-                                          </div>
-                                          <div class="ml-xl4 l10n">
-                                                Om du är osäker på vilket hudproblem du har eller vilken behandling som skulle passa dig bäst, rekommenderar vi att du bokar en kostnadsfri hudkonsultation. Under konsultationen kommer en av våra erfarna hudterapeuter att undersöka din hud, identifiera eventuella problem och rekommendera en behandlingsplan som passar dina specifika behov och mål. Boka din gratis hudkonsultation idag och ta det första steget mot en friskare och mer välmående hud.
-                                          </div>
-
-                                    </div>
-                              </div>
-                        </div>
-                  </div>
-                  <div class="mt-m is-hidden-desktop">
-                        <div class="container">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                        </div>
-                        <div class="container" id="filters-touch-container">
-                              <div id="filters-touch" class="mt-m">
-                                    <?php foreach ($problem_areas as $problem_area) { ?>
-                                          <div class=" filter-item" onclick="showProblems('<?php echo join(',', $problem_area->problem_ids) ?>'); highlight(this); ">
-                                                <?php icon($problem_area->icon) ?>
-                                                <div class="b100 filter-item-label l10n">
-                                                      <?php echo $problem_area->label ?>
-                                                </div>
-                                          </div>
-                                    <?php } ?>
-                              </div>
-                        </div>
-                  </div>
+                  <?php
+                  $green_banner_content = new GreenBannerContent(
+                        title: 'Hudproblem',
+                        description: 'Hudproblem som akne, rosacea, pormaskar och finnar kan påverka individer i alla åldrar och orsaka obehag, nedsatt självkänsla och försämrad livskvalitet. På Acnespecialisten arbetar vi med att behandla och förbättra problemhy genom att erbjuda skräddarsydda lösningar och behandlingar för varje enskild kund. Vi erbjuder en rad behandlingsmetoder och tekniker anpassade för att hantera olika hudproblem. För att veta mer om de olika problemen och hur vi kan hjälpa dig, klicka på det problem du misstänker att du har:',
+                        description_extended: 'Om du är osäker på vilket hudproblem du har eller vilken behandling som skulle passa dig bäst, rekommenderar vi att du bokar en kostnadsfri hudkonsultation. Under konsultationen kommer en av våra erfarna hudterapeuter att undersöka din hud, identifiera eventuella problem och rekommendera en behandlingsplan som passar dina specifika behov och mål. Boka din gratis hudkonsultation idag och ta det första steget mot en friskare och mer välmående hud.',
+                        button_url: 'https://dahlskincare.com/consultation',
+                        button_label: 'Få gratis konsultation'
+                  );
+                  include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/green_header_banner.php');
+                  ?>
                   <div class="container">
                         <div id="filters-desktop" class="is-hidden-touch">
                               <div id="filter-items">
