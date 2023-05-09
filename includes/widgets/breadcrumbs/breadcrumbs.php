@@ -11,7 +11,7 @@ $last_segment_index = count($path_segments) - 2;
 
 ?>
 
-<?php if ($last_segment_index > 0) { ?>
+<?php if ($last_segment_index >= 0) { ?>
     <div class="breadcrumbs-widget">
         <?php for ($i = 0; $i <= $last_segment_index; $i++) {
             if ($i < $last_segment_index) {
