@@ -223,27 +223,6 @@ $type_categories = array(
                         content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
                   )
             )
-      ),
-      new BasedTypeCategory(
-            id: 'category-area',
-            title: 'Baserat på område',
-            content: '<p class="p200">Akne kan uppstå på olika områden av kroppen, men det är vanligast att det drabbar ansiktet, bröstet, axlarna och ryggen. Olika typer av akne kan förekomma på olika ställen, och vissa områden kan vara mer mottagliga för vissa akneformer än andra.</p>',
-            types: array(
-                  new BasedType(
-                        id: 'acne-on-face',
-                        image_url: 'https://via.placeholder.com/102x102.jpg',
-                        title: 'Acne on face',
-                        subtitle: 'Also called scars stains',
-                        content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
-                  ),
-                  new BasedType(
-                        id: 'acne-on-body',
-                        image_url: 'https://via.placeholder.com/102x102.jpg',
-                        title: 'Acne on body',
-                        subtitle: 'Also called scars stains',
-                        content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
-                  )
-            )
       )
 );
 $symptoms = array(
