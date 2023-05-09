@@ -233,14 +233,14 @@ $type_categories = array(
                         id: 'olika-typer-av-akne',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
                         title: 'Akne på ryggen',
-                        subtitle: 'Även kallat Acne faciei',
+                        subtitle: 'Även kallat Acne dorsalis',
                         content: ''
                   ),
                   new BasedType(
                         id: 'olika-typer-av-akne',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
                         title: 'Akne på bröstet',
-                        subtitle: 'Även kallat Acne faciei',
+                        subtitle: 'Även kallat Acne pectoralis',
                         content: ''
                   ),
                  
