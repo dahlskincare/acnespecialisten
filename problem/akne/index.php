@@ -413,10 +413,10 @@ $related_problems = array(
                                           <div class="mt-xl">
                                                 <div class="columns is-2 is-variable">
                                                       <div class="column">
-                                                            <a href="https://dahlskincare.com/consultation" target="_blank" class="button white expand l10n">Get a free consultation</a>
+                                                            <a href="https://dahlskincare.com/consultation" target="_blank" class="button white expand l10n">Få gratis konsultation</a>
                                                       </div>
                                                       <div class="column">
-                                                            <a href="https://bokadirekt.se" target="_blank" class="button white expand l10n">Book a treatment</a>
+                                                            <a href="https://bokadirekt.se" target="_blank" class="button white expand l10n">Boka behandling</a>
                                                       </div>
                                                 </div>
                                           </div>
@@ -488,8 +488,8 @@ $related_problems = array(
                                           <?php echo $description ?>
                                     </p>
                                     <div class="mt-xl flex-row" id="book-buttons">
-                                          <a href="https://dahlskincare.com/consultation" target="_blank" class="button b200 white l10n">Get a free consultation</a>
-                                          <a href="https://bokadirekt.se" target="_blank" class="button b200 white l10n">Book a treatment</a>
+                                          <a href="https://dahlskincare.com/consultation" target="_blank" class="button b200 white l10n">Få gratis konsultation</a>
+                                          <a href="https://bokadirekt.se" target="_blank" class="button b200 white l10n">Boka behandling</a>
                                     </div>
 
 
