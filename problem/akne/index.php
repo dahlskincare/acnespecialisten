@@ -220,21 +220,30 @@ $type_categories = array(
       new BasedTypeCategory(
             id: 'category-area',
             title: 'Akne baserat på område',
-            content: '<p class="p200">Akne kan uppträda på olika områden på kroppen. Ansiktet är det vanligaste området, men akne kan också förekomma på bröst, rygg, axlar och andra delar av kroppen. Placeringen av akne kan ge en indikation på dess orsak, som hormonella förändringar, irritation från kläder eller yttre faktorer som sol och friktion.</p>',
+            content: '',
             types: array(
                   new BasedType(
-                        id: 'acne-on-face',
+                        id: 'olika-typer-av-akne',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
-                        title: 'Acne on face',
-                        subtitle: 'Also called scars stains',
-                        content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
+                        title: 'Akne i ansiktet',
+                        subtitle: 'Även kallat Acne faciei',
+                        content: ''
                   ),
                   new BasedType(
-                        id: 'acne-on-body',
+                        id: 'olika-typer-av-akne',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
-                        title: 'Acne on body',
-                        subtitle: 'Also called scars stains',
-                        content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
+                        title: 'Akne på ryggen',
+                        subtitle: 'Även kallat Acne faciei',
+                        content: ''
+                  ),
+                  new BasedType(
+                        id: 'olika-typer-av-akne',
+                        image_url: 'https://via.placeholder.com/102x102.jpg',
+                        title: 'Akne på bröstet',
+                        subtitle: 'Även kallat Acne faciei',
+                        content: ''
+                  ),
+                 
                   )
             )
       )
