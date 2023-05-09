@@ -146,7 +146,7 @@ $type_categories = array(
                         content: ''
                   ),
                   new BasedType(
-                        id: 'mycket-svar-akne',
+                        id: 'du ska skriva ett id här, det blir sista delen av länken till typen',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
                         title: 'Mycket svår akne',
                         subtitle: 'Även kallat Acne conglobata',
