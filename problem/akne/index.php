@@ -202,6 +202,13 @@ $type_categories = array(
                         content: ''
                   ),
                   new BasedType(
+                        id: 'acne-medicamentosa',
+                        image_url: 'https://via.placeholder.com/102x102.jpg',
+                        title: 'Kontaktakne',
+                        subtitle: 'Även kallat Acne venenata',
+                        content: ''
+                  ),
+                  new BasedType(
                         id: 'fungal-acne',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
                         title: 'Svampakne',
