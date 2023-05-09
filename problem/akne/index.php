@@ -122,7 +122,7 @@ $type_categories = array(
       new BasedTypeCategory(
             id: 'category-severity',
             title: 'Baserat på svårighetsgrad',
-            content: '<p class="p200">Akne är en hudåkomma som kan drabba både ungdomar och vuxna, även om det är vanligast under tonåren. Tonårsakne uppstår ofta på grund av hormonella förändringar under puberteten. Vuxenakne förekommer också, och det kan bero på en rad olika faktorer. Hos vuxna kan akne orsakas av faktorer som stress, hormonobalans och genetik. Oavsett ålder är det viktigt att förstå att akne kan påverka människor i alla livsstadier.</p>',
+            content: '<p class="p200">Akne kan variera i svårighetsgrad från milda till extremt allvarliga fall. I milda fall av akne är symptomen ofta mindre uttalade och består främst av pormaskar, medan mer allvarliga fall innefattar djupare inflammationer i form av cystor och noduler. Svårighetsgraden påverkar också hur akne påverkar en persons livskvalitet och hur den ska behandlas. Det är viktigt att diagnostisera och behandla akne utifrån dess svårighetsgrad för att säkerställa bästa möjliga behandlingsresultat och förhindra potentiella ärr och bestående skador på huden.</p>',
             types: array(
                   new BasedType(
                         id: 'vuxenakne',
@@ -150,7 +150,7 @@ $type_categories = array(
       new BasedTypeCategory(
             id: 'category-reason',
             title: 'Baserat på yttre faktorer',
-            content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>',
+            content: '<p class="p200">Yttre faktorer kan också påverka uppkomsten av akne. Exempel på dessa är sol, friktion, kosmetika, mediciner och miljöfaktorer. Dessa kan bidra till eller förvärra akne genom att irritera huden, täppa till porer eller påverka hudens talgproduktion.</p>',
             types: array(
                   new BasedType(
                         id: 'mallorca-acne',
@@ -206,7 +206,7 @@ $type_categories = array(
       new BasedTypeCategory(
             id: 'category-area',
             title: 'Baserat på område',
-            content: '<p class="p200">Akne kan uppstå på olika områden av kroppen, men det är vanligast att det drabbar ansiktet, bröstet, axlarna och ryggen. Olika typer av akne kan förekomma på olika ställen, och vissa områden kan vara mer mottagliga för vissa akneformer än andra.</p>',
+            content: '<p class="p200">Akne kan uppträda på olika områden på kroppen. Ansiktet är det vanligaste området, men akne kan också förekomma på bröst, rygg, axlar och andra delar av kroppen. Placeringen av akne kan ge en indikation på dess orsak, som hormonella förändringar, irritation från kläder eller yttre faktorer som sol och friktion.</p>',
             types: array(
                   new BasedType(
                         id: 'acne-on-face',
