@@ -220,7 +220,7 @@ $type_categories = array(
       new BasedTypeCategory(
             id: 'category-area',
             title: 'Akne baserat på område',
-            content: '',
+            content: 'Baserat på område: Akne kan uppträda på olika områden på kroppen. Ansiktet är det vanligaste området, men akne kan också förekomma på bröst, rygg, axlar och andra delar av kroppen. Placeringen av akne kan ge en indikation på dess orsak, som hormonella förändringar, irritation från kläder eller yttre faktorer som sol och friktion.',
             types: array(
                   new BasedType(
                         id: 'olika-typer-av-akne',
@@ -550,7 +550,7 @@ $related_problems = array(
                               </div>
                               <hr class="mt-xl3 is-hidden-mobile">
                               <a href="problem/aknearr/behandling" class="mt-xl button b200 outline expand auto-width l10n">
-                                    Läs mer om olika typer av akne
+                                    Läs mer om aknebehandlingar
                               </a>
                         </section>
                         <?php if (sizeof($type_categories) > 0) { ?>
