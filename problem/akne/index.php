@@ -145,7 +145,7 @@ $type_categories = array(
                         subtitle: 'Även kallat Acne Nodulocystica',
                         content: ''
                   ),
-                        id: 'mycket-svar-akne',
+                        id: 'vad ska jag skirva har?',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
                         title: 'Mycket svår akne',
                         subtitle: 'Även kallat Acne conglobata',
