@@ -637,14 +637,30 @@ $related_problems = array(
                                     <hr class="is-hidden-mobile mb-xxl">
                               <?php } ?>
                         </section>
+                         <section>
+                              <h2 class="h500">Behandla din akne</h2>
+                              <hr class="is-hidden-mobile mt-xl">
+                              <?php 
+                              $service = new Service(
+                                    id: 'produkter-mot-akne',
+                                    title: 'Produkter mot akne',
+                                    duration: null,
+                                    price: '995 kr',
+                                    content: 'Skriv en text om produkter här.',
+                                    image_small: 'images/service-categories/small/consultation.jpg',
+                                    image_large: 'images/service-categories/large/consultation.jpg',
+                                    consultation_url: null,
+                                    booking_url: null
+                              );
+                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); 
+                              ?>
+                         </section>
                         <section id="articles">
                               <?php foreach ($articles as $article) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php'); ?>
                               <?php } ?>
                         </section>
-                        <section>
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
-                         </section>
+                       
                         
 
 
