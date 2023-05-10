@@ -243,10 +243,10 @@ $type_categories = array(
                         subtitle: 'Även kallat Acne pectoralis',
                         content: ''
                   ),
-                 
+
             )
       )
-      
+
 );
 $symptoms = array(
       new Symptom(
@@ -305,10 +305,56 @@ $service = new Service(
 );
 $services = array(
       new Service('acne-scars-microneedling', 'Ansiktsbehandling mot akne', '60 min', '995 kr', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears...', 'images/service-categories/small/microneedling.jpg', 'images/service-categories/large/microneedling.jpg', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922'),
-
       new Service('acne-scars-laser', 'Laser for acne scars', '30 min', '1295 kr', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears...', 'images/service-categories/small/laser-problem-skin.jpg', 'images/service-categories/large/laser-problem-skin.jpg', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922'),
-
       new Service('acne-scars-chemical-peeling', 'Chemical peeling for acne scars', '30 min', '1295 kr', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears...', 'images/service-categories/small/chemical-peeling.jpg', 'images/service-categories/large/chemical-peeling.jpg', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922'),
+);
+$products = array(
+      new Service(
+            id: 'produkter-mot-akne',
+            title: 'Produkter mot akne',
+            duration: null,
+            price: '995 kr',
+            content: 'Skriv en text om produkter här.',
+            image_small: 'images/service-categories/small/consultation.jpg',
+            image_large: 'images/service-categories/large/consultation.jpg',
+            consultation_url: null,
+            booking_url: null
+      )
+);
+$treatment_solutions = array(
+      new Service(
+            id: 'microneedling-for-acne',
+            title: 'Microneedling for acne',
+            duration: '30-60 min',
+            price: 'Price from 1295 kr',
+            content: 'Skriv en text om procedure här.',
+            image_small: 'images/service-categories/small/consultation.jpg',
+            image_large: 'images/service-categories/large/consultation.jpg',
+            consultation_url: 'https://dahlskincare.com/consultation',
+            booking_url: 'https://bokadirekt.se'
+      ),
+      new Service(
+            id: 'microneedling-for-acne',
+            title: 'Microneedling for acne',
+            duration: '30-60 min',
+            price: 'Price from 1295 kr',
+            content: 'Skriv en text om procedure här.',
+            image_small: 'images/service-categories/small/consultation.jpg',
+            image_large: 'images/service-categories/large/consultation.jpg',
+            consultation_url: 'https://dahlskincare.com/consultation',
+            booking_url: 'https://bokadirekt.se'
+      ),
+      new Service(
+            id: 'microneedling-for-acne',
+            title: 'Microneedling for acne',
+            duration: '30-60 min',
+            price: 'Price from 1295 kr',
+            content: 'Skriv en text om procedure här.',
+            image_small: 'images/service-categories/small/consultation.jpg',
+            image_large: 'images/service-categories/large/consultation.jpg',
+            consultation_url: 'https://dahlskincare.com/consultation',
+            booking_url: 'https://bokadirekt.se'
+      )
 );
 $articles = array(
       new Article('pigmentation-causes-and-risk-factors', 'Acne scars causes and risks factors', 'https://via.placeholder.com/358x272.webp', 'https://via.placeholder.com/872x456.webp', '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>'),
@@ -637,34 +683,27 @@ $related_problems = array(
                                     <hr class="is-hidden-mobile mb-xxl">
                               <?php } ?>
                         </section>
-                         <section id="products">
-                              <h2 class="h500">Behandla din akne</h2>
+                        <section id="products">
+                              <h2 class="h500">Produkter mot akne</h2>
                               <hr class="is-hidden-mobile mt-xl">
-                              <?php 
-                              $service = new Service(
-                                    id: 'produkter-mot-akne',
-                                    title: 'Produkter mot akne',
-                                    duration: null,
-                                    price: '995 kr',
-                                    content: 'Skriv en text om produkter här.',
-                                    image_small: 'images/service-categories/small/consultation.jpg',
-                                    image_large: 'images/service-categories/large/consultation.jpg',
-                                    consultation_url: null,
-                                    booking_url: null
-                              );
-                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); 
-                              ?>
-                         </section>
+                              <?php foreach ($products as $service) { ?>
+                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
+                                    <hr class="is-hidden-mobile mb-xxl">
+                              <?php } ?>
+                        </section>
+                        <section id="treatment-solutions">
+                              <h2 class="h500">Akne treatment solutions</h2>
+                              <hr class="is-hidden-mobile mt-xl">
+                              <?php foreach ($treatment_solutions as $service) { ?>
+                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
+                                    <hr class="is-hidden-mobile mb-xxl">
+                              <?php } ?>
+                        </section>
                         <section id="articles">
                               <?php foreach ($articles as $article) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php'); ?>
                               <?php } ?>
                         </section>
-                       
-                        
-
-
-
                         <section id="results">
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php'); ?>
                         </section>

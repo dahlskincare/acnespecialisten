@@ -162,6 +162,14 @@ section#header {
             }
         }
 
+        section#products,
+        section#treatment-solutions {
+            hr {
+                border: none;
+                border-top: 1px solid $light-200;
+            }
+        }
+
         section#define {
 
             @media screen and (min-width: $tablet) {
@@ -232,6 +240,8 @@ section#header {
         section#types,
         section#symptoms,
         section#articles,
+        section#products,
+        section#treatment-solutions,
         section#results,
         section#reviews,
         section#faq,

@@ -12,12 +12,14 @@
                 <h3 class="h200">
                     <?php echo $service->title ?>
                 </h3>
-                <?php if (isset($service->duration) && isset($service->price)) { ?>
+                <?php if (isset($service->duration) || isset($service->price)) { ?>
                     <div class="service-info">
                         <div class="p200">
                             <?php echo $service->duration ?>
                         </div>
-                        <div class="service-dot"></div>
+                        <?php if (isset($service->duration) && isset($service->price)) { ?>
+                            <div class="service-dot"></div>
+                        <?php } ?>
                         <div class="p200">
                             <?php echo $service->price ?>
                         </div>
@@ -50,12 +52,14 @@
                 <h3 class="h200">
                     <?php echo $service->title ?>
                 </h3>
-                <?php if (isset($service->duration) && isset($service->price)) { ?>
+                <?php if (isset($service->duration) || isset($service->price)) { ?>
                     <div class="service-info">
                         <div class="p200">
                             <?php echo $service->duration ?>
                         </div>
-                        <div class="service-dot"></div>
+                        <?php if (isset($service->duration) && isset($service->price)) { ?>
+                            <div class="service-dot"></div>
+                        <?php } ?>
                         <div class="p200">
                             <?php echo $service->price ?>
                         </div>
