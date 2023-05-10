@@ -1,66 +1,5 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
-include_once('../models.php');
-
-$service_categories = array(
-    new ServiceCategoryInfo(
-        name: 'Microneedling',
-        image_small: 'https://via.placeholder.com/362x274.webp',
-        image_large: 'https://via.placeholder.com/148x148.webp',
-        description: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.',
-        url: 'priser/microneedling',
-        url_label: 'View treatment details',
-        services_per_category: array(
-            'Areas' =>
-            array(
-                new ServiceInfo(
-                    name: 'Face',
-                    price: '1295 kr',
-                    booking_url: '',
-                    image: 'https://via.placeholder.com/64x64.webp',
-                ),
-                new ServiceInfo(
-                    name: 'Chest',
-                    price: '1295 kr',
-                    booking_url: '',
-                    image: 'https://via.placeholder.com/64x64.webp',
-                )
-            ),
-            'Bundles' => array(
-                new ServiceInfo(
-                    name: '2x Areas',
-                    price: '1895 kr',
-                    full_price: '2485 kr',
-                    booking_url: ''
-                )
-            ),
-            'Combinations' => array(
-                new ServiceInfo(
-                    name: 'Combination 1',
-                    price: '2495 kr',
-                    booking_url: '',
-                    image: 'https://via.placeholder.com/64x64.webp',
-                    combo_items: array(
-                        new ServiceInfoComboItem(
-                            name: 'Label',
-                            price: '995 kr',
-                            full_price: '1485 kr'
-                        ),
-                        new ServiceInfoComboItem(
-                            name: 'Label',
-                            price: '995 kr',
-                            full_price: '1485 kr'
-                        ),
-                        new ServiceInfoComboItem(
-                            name: 'Label',
-                            price: '995 kr'
-                        ),
-                    )
-                )
-            )
-        )
-    )
-);
 
 ?>
 <!DOCTYPE html>
@@ -86,129 +25,74 @@ $service_categories = array(
 
 <body>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
+    <div class="is-hidden-touch is-hidden-desktop-only" id="floater">
+        <div class="container">
+            <div id="floating-picture" style="background-image: url('https://via.placeholder.com/424x456.webp')">
+                <div id="overlay">
+                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
+                    <div>
+                        <h2 class="h600 l10n">The cost of microneedling</h2>
+                        <div class="mt-m l10n">Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we.</div>
+                        <div class="mt-xl">
+                            <div class="columns is-2 is-variable">
+                                <div class="column">
+                                    <a href="https://www.dahlskincare.com/consultation" target="_blank" class="button white expand l10n">Get a free consultation</a>
+                                </div>
+                                <div class="column">
+                                    <a href="https://bokadirekt.se" target="_blank" class="button white expand l10n">Book a treatment</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <main>
-        <section id="banner">
-
+        <section id="header">
+            <div id="green-header-small" class="is-hidden-desktop">
+                <div class="container">
+                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
+                    <h1 class="mt-xs h600 l10n">The cost of Microneedling</h1>
+                    <div class="mt-xs l10n">Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we.</div>
+                    <div class="mt-xl">
+                        <div class="columns is-mobile">
+                            <div class="column is-half">
+                                <a href="https://dahlskincare.com/skin-consultation" target="_blank" class="button b200 white expand l10n">Free consultation</a>
+                            </div>
+                            <div class="column is-half">
+                                <a href="https://bokadirekt.se" target="_blank" class="button b200 white expand l10n">Book a treatment</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="green-header-large" class="is-hidden-touch">
+                <div class="container">
+                    <div class="columns">
+                        <div class="column is-half">
+                            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
+                        </div>
+                        <div class="column is-half flex-row align-end justify-end">
+                            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
+                        </div>
+                    </div>
+                    <div id="green-header-large-text" class="mt-xxs">
+                        <h1 class="h600 l10n">The cost of Microneedling</h1>
+                        <div class="mt-s l10n">Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we.</div>
+                        <div class="mt-xl flex-row" id="book-buttons">
+                            <a href="https://dahlskincare.com/skin-consultation" target="_blank" class="button b200 white l10n">Get a free consultation</a>
+                            <a href="https://bokadirekt.se" target="_blank" class="button b200 white l10n">Book a treatment</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <div class="container">
-            <section id="consultation-banner" class="large-margin">
-                <div class="container">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/consultation_banner/consultation_banner.php'); ?>
-                </div>
-            </section>
-            <section id="results" class="large-margin">
-                <div class="container">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results.php') ?>
-                </div>
-            </section>
-            <section id="reviews" class="large-margin">
-                <div class="container">
-                    <div class="flex-row align-end justify-space-between">
-                        <h2 class="big l10n">Reviews</h2>
-                        <div class="flex-row is-hidden-mobile">
-                            <div class="step-buttons">
-                                <button class="round-large grey" onclick="Reviews.scroll(-1)">
-                                    <?php icon('arrow-left') ?>
-                                </button>
-                                <button class="round-large grey" onclick="Reviews.scroll(1)">
-                                    <?php icon('arrow-right') ?>
-                                </button>
-                            </div>
-                            <a href="reviews" class="ml-l button compact text">
-                                <span class="l10n">View all reviews</span>
-                                <?php icon('navigate-next') ?>
-                            </a>
-                        </div>
-
-                    </div>
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                    <a class="mt-xl button outline expand is-hidden-tablet l10n" href="omdomen">View all reviews</a>
-                </div>
-            </section>
-            <section id="faq" class="large-margin">
-                <div class="container">
-                    <div class="flex-row align-end justify-space-between">
-                        <h2 class="big l10n">Questions & answers</h2>
-                        <a href="faq" class="button compact text is-hidden-mobile">
-                            <span class="l10n">View all questions</span>
-                            <?php icon('navigate-next') ?>
-                        </a>
-                    </div>
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                    <a class="mt-xl button outline expand is-hidden-tablet l10n" href="faq">View all questions</a>
-                </div>
-            </section>
-            <section id="skin-guide" class="large-margin">
-                <div class="container">
-                    <div class="flex-row align-end justify-space-between">
-                        <h2 class="big l10n">Skin guide</h2>
-                        <a href="skin-guide" class="button compact text is-hidden-mobile">
-                            <span class="l10n">View all articles</span>
-                            <?php icon('navigate-next') ?>
-                        </a>
-                    </div>
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php'); ?>
-                    <a class="mt-xl button outline expand is-hidden-tablet l10n" href="skin-guide">View all articles</a>
-                </div>
-            </section>
-            <section id="specialists" class="large-margin">
-                <div class="container">
-                    <div class="flex-row align-end justify-space-between">
-                        <h2 class="big l10n">Our specialists</h2>
-                        <a href="specialister" class="button compact text is-hidden-mobile">
-                            <span class="l10n">View all specialists</span>
-                            <?php icon('navigate-next') ?>
-                        </a>
-                    </div>
-                    <?php
-                    $specialists = array(
-                        new Specialist(
-                            name: 'Cazzandra Lindberg',
-                            title: 'Hudterapeut sedan 2015',
-                            image_small: 'images/specialists/small/specialist-1.jpg',
-                            image_large: 'images/specialists/large/hudterapeut-cazzandra.webp'
-                        ),
-                        new Specialist(
-                            name: 'Veronika Benedik',
-                            title: 'Hudterapeut sedan 1999',
-                            image_small: 'images/specialists/small/specialist-2.jpg',
-                            image_large: 'images/specialists/large/hudterapeut-veronika.webp'
-                        ),
-                        new Specialist(
-                            name: 'Amira Maqboul',
-                            title: 'Hudterapeut sedan 2017',
-                            image_small: 'images/specialists/small/specialist-3.jpg',
-                            image_large: 'images/specialists/large/hudterapeut-amira.webp'
-                        ),
-                        new Specialist(
-                            name: 'Vilma Libom',
-                            title: 'Hudterapeut sedan 2019',
-                            image_small: 'images/specialists/small/specialist-4.jpg',
-                            image_large: 'images/specialists/large/hudterapeut-vilma.webp'
-                        )
-                    );
-                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
-                    ?>
-                    <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialists">View all specialists</a>
-                </div>
-            </section>
-            <section id="brands" class="large-margin">
-                <div class="container">
-                    <div class="flex-row align-end justify-space-between">
-                        <h2 class="big l10n">Brands we use</h2>
-                        <a href="brands" class="button compact text is-hidden-mobile">
-                            <span class="l10n">View all brands</span>
-                            <?php icon('navigate-next') ?>
-                        </a>
-                    </div>
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                    <a class="mt-xl button outline expand is-hidden-tablet l10n" href="brands">View all brands</a>
-                </div>
-            </section>
         </div>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
-    <script src="priser/prices.js"></script>
+    <script src="includes/scripts/floating-image.js"></script>
 </body>
 
 </html>

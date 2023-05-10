@@ -227,12 +227,14 @@ $specialists = array(
                             <?php } ?>
                         </div>
                     <?php } ?>
-                    <div class="mt-xl columns is-mobile">
-                        <div class="column is-half">
-                            <a href="<?php echo $model->consultation_url ?>" target="_blank" class="button b200 white expand l10n">Free consultation</a>
-                        </div>
-                        <div class="column is-half">
-                            <a href="<?php echo $model->booking_url ?>" target="_blank" class="button b200 white expand l10n">Book a treatment</a>
+                    <div class="mt-xl">
+                        <div class="columns is-mobile">
+                            <div class="column is-half">
+                                <a href="<?php echo $model->consultation_url ?>" target="_blank" class="button b200 white expand l10n">Free consultation</a>
+                            </div>
+                            <div class="column is-half">
+                                <a href="<?php echo $model->booking_url ?>" target="_blank" class="button b200 white expand l10n">Book a treatment</a>
+                            </div>
                         </div>
                     </div>
                 </div>

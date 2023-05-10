@@ -95,15 +95,16 @@ $repair_url = 'treatments/acne';
                         <h2 class="h600">
                             <?php echo $title ?>
                         </h2>
-                        <div class="mt-xl columns is-2 is-variable">
-                            <div class="column">
-                                <a href="https://www.dahlskincare.com/skin-consultation" target="_blank" class="button white expand l10n">Get a free consultation</a>
-                            </div>
-                            <div class="column">
-                                <a href="https://bokadirekt.se" target="_blank" class="button white expand l10n">Book a treatment</a>
+                        <div class="mt-xl">
+                            <div class="columns is-2 is-variable">
+                                <div class="column">
+                                    <a href="https://www.dahlskincare.com/skin-consultation" target="_blank" class="button white expand l10n">Get a free consultation</a>
+                                </div>
+                                <div class="column">
+                                    <a href="https://bokadirekt.se" target="_blank" class="button white expand l10n">Book a treatment</a>
+                                </div>
                             </div>
                         </div>
-                        </p>
                     </div>
                 </div>
             </div>
@@ -120,12 +121,14 @@ $repair_url = 'treatments/acne';
                     <p class="mt-xs">
                         <?php echo $description ?>
                     </p>
-                    <div class="mt-xl columns is-mobile">
-                        <div class="column is-half">
-                            <a href="https://dahlskincare.com/skin-consultation" target="_blank" class="button b200 white expand l10n">Free consultation</a>
-                        </div>
-                        <div class="column is-half">
-                            <a href="https://bokadirekt.se" target="_blank" class="button b200 white expand l10n">Book a treatment</a>
+                    <div class="mt-xl">
+                        <div class="columns is-mobile">
+                            <div class="column is-half">
+                                <a href="https://dahlskincare.com/skin-consultation" target="_blank" class="button b200 white expand l10n">Free consultation</a>
+                            </div>
+                            <div class="column is-half">
+                                <a href="https://bokadirekt.se" target="_blank" class="button b200 white expand l10n">Book a treatment</a>
+                            </div>
                         </div>
                     </div>
                 </div>
