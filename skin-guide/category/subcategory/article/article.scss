@@ -591,14 +591,6 @@ html {
         }
     }
 
-    section.large-margin {
-        margin-top: 72px;
-
-        @include desktop {
-            margin-top: 104px;
-        }
-    }
-
     section#cta-banner {
         background-color: $deep-sea-400;
         padding: $xl;

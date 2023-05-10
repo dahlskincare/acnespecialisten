@@ -149,11 +149,3 @@ section#cta-banner {
         }
     }
 }
-
-section.large-margin {
-    margin-top: 72px;
-
-    @media screen and (min-width: $tablet) {
-        margin-top: 104px;
-    }
-}

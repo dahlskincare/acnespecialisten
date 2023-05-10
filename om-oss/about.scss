@@ -247,10 +247,6 @@ section#cta {
     }
 }
 
-section.large-margin {
-    margin-top: 72px;
-}
-
 @include desktop {
     div#content {
         section#title {
@@ -310,9 +306,5 @@ section.large-margin {
                 }
             }
         }
-    }
-
-    section.large-margin {
-        margin-top: 104px;
     }
 }
