@@ -9,6 +9,7 @@ html {
 section#banner {
     background-color: $deep-sea-400;
     padding: $xxs 0;
+    overflow: hidden;
 
     .badges-widget {
         flex: 1;
@@ -132,7 +133,10 @@ div#content {
                     border-top: 1px solid $light-200;
                     margin: $xl 0;
                 }
+
+
             }
+
         }
 
         .is-hidden-touch {
@@ -173,6 +177,11 @@ div#content {
                 }
 
                 form {
+                    .select-wrapper {
+                        width: 50%;
+                        min-width: 200px;
+                    }
+
                     hr {
                         margin: $xl 0;
                         border: 0;

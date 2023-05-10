@@ -19,6 +19,11 @@ function onFileDrop(e) {
         }
     }
 }
+function onAmountChange(event) {
+    var select = event.target;
+    // reload url with new amount
+    window.location.href = window.location.href.split('?')[0] + '?amount=' + select.value;
+}
 function onFileChange(e) {
     var input = e.target;
     if (input.files.length > 0) {
@@ -30,7 +35,17 @@ function onFileChange(e) {
         document.querySelector('#upload-button').innerHTML = "".concat(file.name, " (").concat(Math.round(file.size / 1024), "kb)");
     }
 }
-if (window.location.search.length > 0) {
+// if window location search text contains 'amount' then scroll to step 1
+if (window.location.search.includes('amount')) {
+    if (window.innerWidth >= 1024) {
+        document.querySelector('#step-1-large').scrollIntoView();
+    }
+    else {
+        document.querySelector('#step-1-small').scrollIntoView();
+    }
+}
+// if window location search text contains 'paid' then scroll to step 2
+if (window.location.search.includes('paid')) {
     if (window.innerWidth >= 1024) {
         document.querySelector('#step-2-large').scrollIntoView();
     }
