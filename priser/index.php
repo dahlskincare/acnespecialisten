@@ -195,7 +195,7 @@ $service_categories = array(
                 <div class="columns is-multiline is-variable is-1">
                     <?php foreach ($service_categories as $service_category) { ?>
                         <div class="column is-one-fifth">
-                            <div class="button b200 grey expand"><?php echo $service_category->name ?></div>
+                            <a href="<?php echo $service_category->url ?>" class="button b200 grey expand"><?php echo $service_category->name ?></a>
                         </div>
                     <?php } ?>
                 </div>
