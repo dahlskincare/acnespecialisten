@@ -304,8 +304,10 @@ $service = new Service(
       booking_url: null
 );
 $services = array(
-      new Service('acne-scars-microneedling', 'Microneedling for acne scars', '30 min', '1295 kr', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears...', 'images/service-categories/small/microneedling.jpg', 'images/service-categories/large/microneedling.jpg', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922'),
+      new Service('acne-scars-microneedling', 'Ansiktsbehandling mot akne', '60 min', '995 kr', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears...', 'images/service-categories/small/microneedling.jpg', 'images/service-categories/large/microneedling.jpg', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922'),
+
       new Service('acne-scars-laser', 'Laser for acne scars', '30 min', '1295 kr', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears...', 'images/service-categories/small/laser-problem-skin.jpg', 'images/service-categories/large/laser-problem-skin.jpg', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922'),
+
       new Service('acne-scars-chemical-peeling', 'Chemical peeling for acne scars', '30 min', '1295 kr', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears...', 'images/service-categories/small/chemical-peeling.jpg', 'images/service-categories/large/chemical-peeling.jpg', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922'),
 );
 $articles = array(
@@ -604,7 +606,7 @@ $related_problems = array(
                         <?php } ?>
                         <?php if (sizeof($symptoms) > 0) { ?>
                               <section id="symptoms">
-                                    <h2 class="h500">Akne symptoms</h2>
+                                    <h2 class="h500">Akne symptom</h2>
                                     <div class="mt-m is-hidden-tablet" id="symptom-buttons">
                                           <?php foreach ($symptoms as $symptom) { ?>
                                                 <a href="javascript:;" onclick="scrollToElement('#<?php echo $symptom->id ?>')" class="button b50 grey">
@@ -640,6 +642,13 @@ $related_problems = array(
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php'); ?>
                               <?php } ?>
                         </section>
+                        <section>
+                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
+                         </section>
+                        
+
+
+
                         <section id="results">
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php'); ?>
                         </section>
