@@ -89,6 +89,11 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
             </div>
         </section>
         <div class="container">
+            <div id="content">
+                <section id="badges" class="mt-m mb-s is-hidden-desktop">
+                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
+                </section>
+            </div>
         </div>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
