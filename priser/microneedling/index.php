@@ -1,6 +1,65 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
+include_once('../models.php');
 
+$services_per_category = array(
+    'Areas' =>
+    array(
+        new ServiceInfo(
+            name: 'Face',
+            price: '1295 kr',
+            booking_url: '',
+            image: 'https://via.placeholder.com/64x64.webp',
+        ),
+        new ServiceInfo(
+            name: 'Chest',
+            price: '1295 kr',
+            booking_url: '',
+            image: 'https://via.placeholder.com/64x64.webp',
+        )
+    ),
+    'Bundles' => array(
+        new ServiceInfo(
+            name: '2x Areas',
+            price: '1895 kr',
+            full_price: '2485 kr',
+            booking_url: ''
+        )
+    ),
+    'Combinations' => array(
+        new ServiceInfo(
+            name: 'Combination 1',
+            price: '2495 kr',
+            booking_url: '',
+            image: 'https://via.placeholder.com/64x64.webp',
+            combo_items: array(
+                new ServiceInfoComboItem(
+                    name: 'Label',
+                    price: '995 kr',
+                    full_price: '1485 kr'
+                ),
+                new ServiceInfoComboItem(
+                    name: 'Label',
+                    price: '995 kr',
+                    full_price: '1485 kr'
+                ),
+                new ServiceInfoComboItem(
+                    name: 'Label',
+                    price: '995 kr'
+                ),
+            )
+        )
+    )
+);
+$nav_buttons = array(
+    'Areas' => 'Areas',
+    'Bundles' => 'Bundles',
+    'Combinations' => 'Combinations',
+    'description' => 'About',
+    'reviews' => 'Reviews',
+    'faq' => 'FAQ',
+    'specialists' => 'Specialists',
+);
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
@@ -93,7 +152,99 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
                 <section id="badges" class="mt-m mb-s is-hidden-desktop">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
                 </section>
+                <section id="image" class="is-hidden-desktop">
+                    <picture>
+                        <source media="(max-width: 449px)" srcset="https://via.placeholder.com/358x274.webp">
+                        <source media="(min-width: 450px)" srcset="https://via.placeholder.com/358x274.webp">
+                        <img src="https://via.placeholder.com/358x274.webp" alt="The cost of microneedling" width="358" height="274" />
+                    </picture>
+                </section>
+                <section id="nav-buttons">
+                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
+                </section>
+                <section id="services" class="large-margin">
+                    <?php foreach ($services_per_category as $category => $services) {
+                        include('../widgets/service_category_info/service_info/service_info.php');
+                    } ?>
+                </section>
+                <section id="description" class="large-margin">
+                    <h2 class="h500 l10n">What is Microneedling?</h2>
+                    <p class="mt-xs p200 l10n">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p>
+                    <p class="mt-xl p200 l10n">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>
+                    <a href="behandlingar/microneedling" class="mt-xl button b200 outline expand l10n">View service details</a>
+                </section>
+                <section id="results" class="large-margin">
+                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php') ?>
+                </section>
+                <section id="reviews" class="large-margin">
+                    <div class="flex-row align-end justify-space-between">
+                        <h2 class="big l10n">Reviews</h2>
+                        <div class="flex-row is-hidden-mobile">
+                            <div class="step-buttons">
+                                <button class="round-large grey" onclick="Reviews.scroll(-1)">
+                                    <?php icon('arrow-left') ?>
+                                </button>
+                                <button class="round-large grey" onclick="Reviews.scroll(1)">
+                                    <?php icon('arrow-right') ?>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <?php
+                    $reviews_narrow = true;
+                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
+                    ?>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" href="omdomen">View all reviews</a>
+                </section>
+                <section id="faq" class="large-margin">
+                    <h2 class="big l10n">Questions & answers</h2>
+                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" href="faq">View all questions</a>
+                </section>
+                <section id="skin-guide" class="large-margin">
+                    <div class="flex-row justify-space-between">
+                        <h2 class="big l10n">Skin guide</h2>
+                        <div class="is-hidden-touch">
+                            <button class="round-large grey" onclick="scrollSkinGuide(-1)">
+                                <?php icon('arrow-left') ?>
+                            </button>
+                            <button class="round-large grey" onclick="scrollSkinGuide(1)">
+                                <?php icon('arrow-right') ?>
+                            </button>
+                        </div>
+                    </div>
+                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide_narrow.php'); ?>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" href="skin-guide">View all articles</a>
+                </section>
+                <section id="specialists" class="large-margin">
+                    <div class="flex-row justify-space-between">
+                        <h2 class="big l10n">Our specialists</h2>
+                        <div class="is-hidden-touch">
+                            <button class="round-large grey" onclick="scrollSpecialists(-1)">
+                                <?php icon('arrow-left') ?>
+                            </button>
+                            <button class="round-large grey" onclick="scrollSpecialists(1)">
+                                <?php icon('arrow-right') ?>
+                            </button>
+                        </div>
+                    </div>
+                    <?php
+                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php');
+                    ?>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" href="specialister">View all specialists</a>
+                </section>
             </div>
+            <section id="brands" class="large-margin">
+                <div class="flex-row align-end justify-space-between">
+                    <h2 class="big l10n">Brands we use</h2>
+                    <a href="brands" class="button compact text is-hidden-mobile">
+                        <span class="l10n">View all brands</span>
+                        <?php icon('navigate-next') ?>
+                    </a>
+                </div>
+                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
+                <a class="mt-xl button b200 outline expand auto-width is-hidden-desktop l10n" href="brands">View all brands</a>
+            </section>
         </div>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>

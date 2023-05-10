@@ -141,6 +141,6 @@ if (!isset($results)) {
             <?php } ?>
         </div>
     </div>
-    <a class="mt-xl button b200 outline expand l10n" href="resultat">View all treatment results</a>
+    <a class="mt-xl button b200 outline expand auto-width l10n" href="resultat">View all treatment results</a>
     <script src="/includes/widgets/results/results.js"></script>
 </div>

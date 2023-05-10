@@ -5,13 +5,6 @@
 html {
     scroll-behavior: smooth;
 
-    @media screen and (min-width: $tablet) {
-        .auto-width {
-            width: auto !important;
-            box-sizing: content-box;
-        }
-    }
-
     section#banner {
         background-color: $deep-sea-400;
         padding: $xxs 0;

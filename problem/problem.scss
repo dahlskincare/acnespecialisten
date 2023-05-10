@@ -19,13 +19,6 @@ html {
     .lowercase {
         text-transform: lowercase;
     }
-
-    @media screen and (min-width: $tablet) {
-        a.auto-width {
-            width: auto !important;
-            box-sizing: content-box;
-        }
-    }
 }
 
 section#header {
