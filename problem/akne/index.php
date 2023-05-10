@@ -637,7 +637,7 @@ $related_problems = array(
                                     <hr class="is-hidden-mobile mb-xxl">
                               <?php } ?>
                         </section>
-                         <section>
+                         <section id="products">
                               <h2 class="h500">Behandla din akne</h2>
                               <hr class="is-hidden-mobile mt-xl">
                               <?php 
