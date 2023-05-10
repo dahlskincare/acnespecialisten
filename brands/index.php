@@ -17,20 +17,24 @@
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
       <main>
             <div class="container">
-                  <?php
-                  $brand = new Brand(
-                        label: 'Alma',
-                        image: 'https://via.placeholder.com/116x80.webp',
-                        photo: 'https://via.placeholder.com/424x324.webp',
-                        title: 'Alma - Hybrid (CO2)',
-                        subtitle: 'Laser for problem skin',
-                        description: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal personal meeting with a skin specialist, your skin...',
-                        url: 'url',
-                        booking_url: 'treatment_url',
-                        consultation_url: 'consultation_url'
-                  );
-                  include('widgets/brand_card/brand_card.php');
-                  ?>
+                  <div class="columns">
+                        <div class="column is-one-third">
+                              <?php
+                              $brand = new Brand(
+                                    label: 'Alma',
+                                    image: 'https://via.placeholder.com/116x80.webp',
+                                    photo: 'https://via.placeholder.com/424x324.webp',
+                                    title: 'Alma - Hybrid (CO2)',
+                                    subtitle: 'Laser for problem skin',
+                                    description: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal personal meeting with a skin specialist, your skin...',
+                                    url: 'brands/alma',
+                                    booking_url: 'https://bokadirekt.se',
+                                    consultation_url: 'https://dahlskincare.com/consultation'
+                              );
+                              include('widgets/brand_card/brand_card.php');
+                              ?>
+                        </div>
+                  </div>
             </div>
       </main>
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>

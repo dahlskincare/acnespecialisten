@@ -52,5 +52,18 @@
       border: none;
       border-top: 1px solid $light-200;
     }
+
+    .is-hidden-touch {
+      .flex-row {
+        a:first-child {
+          margin-right: 6px;
+        }
+
+        a:last-child {
+          margin-left: 6px;
+
+        }
+      }
+    }
   }
 }
