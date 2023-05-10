@@ -313,7 +313,7 @@ $products = array(
             id: 'produkter-mot-akne',
             title: 'Produkter mot akne',
             duration: null,
-            price: '995 kr',
+            price: 'Price from 995 kr',
             content: 'Skriv en text om produkter här.',
             image_small: 'images/service-categories/small/consultation.jpg',
             image_large: 'images/service-categories/large/consultation.jpg',
@@ -321,40 +321,18 @@ $products = array(
             booking_url: null
       )
 );
-$treatment_solutions = array(
+$procedures = array(
       new Service(
             id: 'microneedling-for-acne',
             title: 'Microneedling for acne',
-            duration: '30-60 min',
-            price: 'Price from 1295 kr',
+            duration: '6 procedures',
+            price: null,
             content: 'Skriv en text om procedure här.',
             image_small: 'images/service-categories/small/consultation.jpg',
             image_large: 'images/service-categories/large/consultation.jpg',
-            consultation_url: 'https://dahlskincare.com/consultation',
-            booking_url: 'https://bokadirekt.se'
+            consultation_url: null,
+            booking_url: null,
       ),
-      new Service(
-            id: 'microneedling-for-acne',
-            title: 'Microneedling for acne',
-            duration: '30-60 min',
-            price: 'Price from 1295 kr',
-            content: 'Skriv en text om procedure här.',
-            image_small: 'images/service-categories/small/consultation.jpg',
-            image_large: 'images/service-categories/large/consultation.jpg',
-            consultation_url: 'https://dahlskincare.com/consultation',
-            booking_url: 'https://bokadirekt.se'
-      ),
-      new Service(
-            id: 'microneedling-for-acne',
-            title: 'Microneedling for acne',
-            duration: '30-60 min',
-            price: 'Price from 1295 kr',
-            content: 'Skriv en text om procedure här.',
-            image_small: 'images/service-categories/small/consultation.jpg',
-            image_large: 'images/service-categories/large/consultation.jpg',
-            consultation_url: 'https://dahlskincare.com/consultation',
-            booking_url: 'https://bokadirekt.se'
-      )
 );
 $articles = array(
       new Article('pigmentation-causes-and-risk-factors', 'Acne scars causes and risks factors', 'https://via.placeholder.com/358x272.webp', 'https://via.placeholder.com/872x456.webp', '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>'),
@@ -694,7 +672,7 @@ $related_problems = array(
                         <section id="treatment-solutions">
                               <h2 class="h500">Akne treatment solutions</h2>
                               <hr class="is-hidden-mobile mt-xl">
-                              <?php foreach ($treatment_solutions as $service) { ?>
+                              <?php foreach ($procedures as $service) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
                                     <hr class="is-hidden-mobile mb-xxl">
                               <?php } ?>
