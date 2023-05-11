@@ -48,7 +48,7 @@
                 <div class="ep-content">
                     <a href="resultat" class="l10n">Resultat</a>
                     <a href="presentkort" class="l10n">Presentkort</a>
-                    <a href="konsultation" class="l10n">Gratis konsultation</a>
+                    <a href="hudkonsultation" class="l10n">Gratis konsultation</a>
                 </div>
             </div>
         </div>
@@ -136,7 +136,7 @@
                 </nav>
             </div>
             <div id="actions">
-                <a class="button text l10n" href="https://dahlskincare.com/skin-consultation" target="_blank">Boka gratis konsultation</a>
+                <a class="button text l10n" href="hudkonsultation">Boka gratis konsultation</a>
                 <div onclick="HeaderDesktop.toggleMenu()">
                     <?php icon("bars") ?>
                 </div>

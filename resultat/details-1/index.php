@@ -298,7 +298,7 @@
                             <div class="vc-title"><?php echo $visit->title ?></div>
                             <div class="vc-text"><?php echo $visit->description ?></div>
                             <?php if (str_starts_with($visit->read_more_url, 'http')) { ?>
-                                <a href="<?php echo $visit->read_more_url ?>" target="_blank" class="button b200 vc-button expand l10n"><?php echo $visit->read_more_label ?></a>
+                                <a href="<?php echo $visit->read_more_url ?>" class="button b200 vc-button expand l10n"><?php echo $visit->read_more_label ?></a>
                             <?php } else { ?>
                                 <a href="<?php echo $visit->read_more_url ?>" class="button b200 vc-button outline expand l10n"><?php echo $visit->read_more_label ?></a>
                             <?php } ?>

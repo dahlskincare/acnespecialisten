@@ -15,6 +15,6 @@
             <?php echo $treatment_steps[$i]->content; ?>
         </div>
     </div>
-    <a href="<?php echo $treatment_steps[$i]->url ?>" target="_blank" class="button grey expand is-hidden-tablet"><?php echo $treatment_steps[$i]->url_label ?></a>
-    <a href="<?php echo $treatment_steps[$i]->url ?>" target="_blank" class="button b200 text compact is-hidden-mobile"><?php echo $treatment_steps[$i]->url_label ?></a>
+    <a href="<?php echo $treatment_steps[$i]->url ?>" class="button grey expand is-hidden-tablet"><?php echo $treatment_steps[$i]->url_label ?></a>
+    <a href="<?php echo $treatment_steps[$i]->url ?>" class="button b200 text compact is-hidden-mobile"><?php echo $treatment_steps[$i]->url_label ?></a>
 </div>

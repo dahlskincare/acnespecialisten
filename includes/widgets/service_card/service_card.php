@@ -33,10 +33,10 @@
         <a href="behandlingar/<?php echo $service->id ?>" class="mt-m button outline expand l10n">Read more</a>
         <hr />
         <?php if (isset($service->consultation_url)) { ?>
-            <a href="<?php echo $service->consultation_url ?>" target="_blank" class="mt-xl button expand l10n">Få gratis konsultation</a>
+            <a href="<?php echo $service->consultation_url ?>" class="mt-xl button expand l10n">Få gratis konsultation</a>
         <?php } ?>
         <?php if (isset($service->booking_url)) { ?>
-            <a href="<?php echo $service->booking_url ?>" target="_blank" class="mt-s button expand l10n">Boka behandling</a>
+            <a href="<?php echo $service->booking_url ?>" class="mt-s button expand l10n">Boka behandling</a>
         <?php } ?>
     </div>
     <div class="is-hidden-mobile">
@@ -72,10 +72,10 @@
             </div>
             <div class="ml-xl buttons">
                 <?php if (isset($service->consultation_url)) { ?>
-                    <a href="<?php echo $service->consultation_url ?>" target="_blank" class="button expand l10n">Få gratis konsultation</a>
+                    <a href="<?php echo $service->consultation_url ?>" class="button expand l10n">Få gratis konsultation</a>
                 <?php } ?>
                 <?php if (isset($service->booking_url)) { ?>
-                    <a href="<?php echo $service->booking_url ?>" target="_blank" class="mt-s button expand l10n">Boka behandling</a>
+                    <a href="<?php echo $service->booking_url ?>" class="mt-s button expand l10n">Boka behandling</a>
                 <?php } ?>
             </div>
         </div>

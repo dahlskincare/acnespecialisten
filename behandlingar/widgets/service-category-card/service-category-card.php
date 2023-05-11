@@ -23,7 +23,7 @@
                 Read more
             </a>
             <hr>
-            <a href="<?php echo $category->consultation_url ?>" target="_blank" class="button expand l10n">Get a free consultation</a>
+            <a href="<?php echo $category->consultation_url ?>" class="button expand l10n">Get a free consultation</a>
             <a href="<?php echo $category->booking_url ?>" class="mt-s button expand l10n">Select a procedure</a>
         </div>
         <div class="is-hidden-mobile">
@@ -31,10 +31,10 @@
             <hr>
             <div class="columns is-multiline">
                 <div class="column mt-xxs is-full is-half-widescreen">
-                    <a href="<?php echo $category->consultation_url ?>" target="_blank" class="button expand l10n">Get a free consultation</a>
+                    <a href="<?php echo $category->consultation_url ?>" class="button expand l10n">Get a free consultation</a>
                 </div>
                 <div class="column mt-xxs is-full is-half-widescreen">
-                    <a href="<?php echo $category->booking_url ?>" target="_blank" class="button expand l10n">Select procedure</a>
+                    <a href="<?php echo $category->booking_url ?>" class="button expand l10n">Select procedure</a>
                 </div>
             </div>
         </div>

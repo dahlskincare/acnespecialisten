@@ -68,7 +68,7 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
             content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din aknetyp och skapar en individuell behandlingsplan.',
-            url: 'https://www.dahlskincare.com/skin-consultation',
+            url: 'hudkonsultation',
             url_label: 'Få gratis konsultation'
       ),
       new TreatmentStep(
@@ -300,13 +300,13 @@ $service = new Service(
       content: 'Vid ett personligt möte med en acnespecialist utförs en undersökning av din akne. Vi tar före-bilder på din hud och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
       image_small: 'images/service-categories/small/consultation.jpg',
       image_large: 'images/service-categories/large/consultation.jpg',
-      consultation_url: 'https://dahlskincare.com/skin-consultation',
+      consultation_url: 'hudkonsultation',
       booking_url: null
 );
 $services = array(
-      new Service('acne-scars-microneedling', 'Ansiktsbehandling mot akne', '60 min', '995 kr', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears...', 'images/service-categories/small/microneedling.jpg', 'images/service-categories/large/microneedling.jpg', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922'),
-      new Service('acne-scars-laser', 'Laser for acne scars', '30 min', '1295 kr', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears...', 'images/service-categories/small/laser-problem-skin.jpg', 'images/service-categories/large/laser-problem-skin.jpg', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922'),
-      new Service('acne-scars-chemical-peeling', 'Chemical peeling for acne scars', '30 min', '1295 kr', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears...', 'images/service-categories/small/chemical-peeling.jpg', 'images/service-categories/large/chemical-peeling.jpg', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922'),
+      new Service('acne-scars-microneedling', 'Ansiktsbehandling mot akne', '60 min', '995 kr', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears...', 'images/service-categories/small/microneedling.jpg', 'images/service-categories/large/microneedling.jpg', 'hudkonsultation', 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922'),
+      new Service('acne-scars-laser', 'Laser for acne scars', '30 min', '1295 kr', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears...', 'images/service-categories/small/laser-problem-skin.jpg', 'images/service-categories/large/laser-problem-skin.jpg', 'hudkonsultation', 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922'),
+      new Service('acne-scars-chemical-peeling', 'Chemical peeling for acne scars', '30 min', '1295 kr', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears...', 'images/service-categories/small/chemical-peeling.jpg', 'images/service-categories/large/chemical-peeling.jpg', 'hudkonsultation', 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922'),
 );
 $products = array(
       new Service(
@@ -461,10 +461,10 @@ $related_problems = array(
                                           <div class="mt-xl">
                                                 <div class="columns is-2 is-variable">
                                                       <div class="column">
-                                                            <a href="https://dahlskincare.com/consultation" target="_blank" class="button white expand l10n">Få gratis konsultation</a>
+                                                            <a href="hudkonsultation" class="button white expand l10n">Få gratis konsultation</a>
                                                       </div>
                                                       <div class="column">
-                                                            <a href="https://bokadirekt.se" target="_blank" class="button white expand l10n">Boka behandling</a>
+                                                            <a href="https://bokadirekt.se" class="button white expand l10n">Boka behandling</a>
                                                       </div>
                                                 </div>
                                           </div>
@@ -495,10 +495,10 @@ $related_problems = array(
                               <div class="mt-xl">
                                     <div class="columns is-mobile">
                                           <div class="column is-half">
-                                                <a href="https://dahlskincare.com/consultation" target="_blank" class="button b200 white expand l10n">Free consultation</a>
+                                                <a href="hudkonsultation" class="button b200 white expand l10n">Free consultation</a>
                                           </div>
                                           <div class="column is-half">
-                                                <a href="https://bokadirekt.se" target="_blank" class="button b200 white expand l10n">Book a treatment</a>
+                                                <a href="https://bokadirekt.se" class="button b200 white expand l10n">Book a treatment</a>
                                           </div>
                                     </div>
                               </div>
@@ -538,8 +538,8 @@ $related_problems = array(
                                           <?php echo $description ?>
                                     </p>
                                     <div class="mt-xl flex-row" id="book-buttons">
-                                          <a href="https://dahlskincare.com/consultation" target="_blank" class="button b200 white l10n">Få gratis konsultation</a>
-                                          <a href="https://bokadirekt.se" target="_blank" class="button b200 white l10n">Boka behandling</a>
+                                          <a href="hudkonsultation" class="button b200 white l10n">Få gratis konsultation</a>
+                                          <a href="https://bokadirekt.se" class="button b200 white l10n">Boka behandling</a>
                                     </div>
 
 

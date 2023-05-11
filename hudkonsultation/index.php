@@ -39,10 +39,10 @@ $nav_buttons = array(
                         <div class="mt-xl">
                             <div class="columns is-2 is-variable">
                                 <div class="column">
-                                    <a href="https://dahlskincare.com/consultation" target="_blank" class="button white expand l10n">Book a clinict visit</a>
+                                    <a href="hudkonsultation" class="button white expand l10n">Book a clinict visit</a>
                                 </div>
                                 <div class="column">
-                                    <a href="https://bokadirekt.se" target="_blank" class="button white expand l10n">Book an online call</a>
+                                    <a href="https://bokadirekt.se" class="button white expand l10n">Book an online call</a>
                                 </div>
                             </div>
                         </div>
@@ -62,10 +62,10 @@ $nav_buttons = array(
                     <div class="mt-xl">
                         <div class="columns is-mobile">
                             <div class="column is-half">
-                                <a href="https://dahlskincare.com/consultation" target="_blank" class="button b200 white expand l10n">Book a clinic visit</a>
+                                <a href="hudkonsultation" class="button b200 white expand l10n">Book a clinic visit</a>
                             </div>
                             <div class="column is-half">
-                                <a href="https://bokadirekt.se" target="_blank" class="button b200 white expand l10n">Book an online call</a>
+                                <a href="https://bokadirekt.se" class="button b200 white expand l10n">Book an online call</a>
                             </div>
                         </div>
                     </div>
@@ -88,8 +88,8 @@ $nav_buttons = array(
                         <h3 class="mt-s h200 l10n">Duration: 20 min</h3>
                         <p class="mt-s p200 l10n">Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat.</p>
                         <div class="mt-xl flex-row" id="book-buttons">
-                            <a href="https://dahlskincare.com/consultation" target="_blank" class="button b200 white l10n">Book a clinic visit</a>
-                            <a href="https://bokadirekt.se" target="_blank" class="button b200 white l10n">Book an online call</a>
+                            <a href="hudkonsultation" class="button b200 white l10n">Book a clinic visit</a>
+                            <a href="https://bokadirekt.se" class="button b200 white l10n">Book an online call</a>
                         </div>
                     </div>
                 </div>

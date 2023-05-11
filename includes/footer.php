@@ -5,7 +5,7 @@
             <div class="container">
                 <h2 class="big l10n">Redo att sätta igång?</h2>
                 <p class="p200 l10n">Boka tid för en kostnadsfri konsultation.</p>
-                <a href="https://dahlskincare.com/skin-consultation" class="button white expand l10n" target="_blank">
+                <a href="hudkonsultation" class="button white expand l10n">
                     Få gratis hudkonsultation
                 </a>
             </div>
@@ -84,7 +84,7 @@
                         <h2>Discover</h2>
                         <ul>
                             <li>
-                                <a href="https://dahlskincare.com/skin-consultation" target="_blank" class="button text grey compact l10n">Gratis hudkonsultation</a>
+                                <a href="hudkonsultation" class="button text grey compact l10n">Gratis hudkonsultation</a>
                             </li>
                             <li>
                                 <a href="problem" class="button text grey compact l10n">Problem</a>
@@ -156,7 +156,7 @@
                     <p>&copy;
                         <?php echo date('Y') ?> Acnespecialisten
                     </p>
-                    <a href="cookie-policy" target="_blank" class="button b100 compact text l10n">Cookie policy</a>
+                    <a href="cookie-policy" class="button b100 compact text l10n">Cookie policy</a>
                     <div id="language-selector">
                         <?php icon("intl") ?>
                         <span class="button b100 compact text l10n">
@@ -165,7 +165,7 @@
                     </div>
                 </div>
                 <div id="footer-consultation-button-container">
-                    <a href="https://www.dahlskincare.com/skin-consultation" id="consultation-button" target="_blank" class="button expand l10n">
+                    <a href="hudkonsultation" id="consultation-button" class="button expand l10n">
                         Få gratis konsultation
                     </a>
                     <div id="legends">
@@ -329,7 +329,7 @@
                                     <h2>Upptäck</h2>
                                     <ul>
                                         <li>
-                                            <a href="https://dahlskincare.com/skin-consultation" target="_blank" class="button text grey compact l10n">Gratis konsultation</a>
+                                            <a href="hudkonsultation" class="button text grey compact l10n">Gratis konsultation</a>
                                         </li>
                                         <li>
                                             <a href="problem" class="button text grey compact l10n">Problem</a>
@@ -401,7 +401,7 @@
                         <?php echo date('Y') ?> Acnespecialisten
                     </p>
                     <div class="flex-row">
-                        <a href="cookie-policy" target="_blank" class="button b100 compact text l10n">Cookie policy</a>
+                        <a href="cookie-policy" class="button b100 compact text l10n">Cookie policy</a>
                         <div id="language-selector">
                             <?php icon("intl") ?>
                             <span class="button b100 compact text l10n">English</span>

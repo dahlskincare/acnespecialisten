@@ -37,7 +37,7 @@
                             </div>
                         </div>
                         <?php if (isset($procedure->booking_url)) { ?>
-                            <a href="<?php echo $procedure->booking_url ?>" target="_blank" class="button l10n">Book</a>
+                            <a href="<?php echo $procedure->booking_url ?>" class="button l10n">Book</a>
                         <?php } ?>
                     </div>
                 <?php } ?>
@@ -52,14 +52,14 @@
                             <span class="price"><?php echo $procedure->price ?></span>
                         </div>
                         <?php if (isset($procedure->booking_url)) { ?>
-                            <a href="<?php echo $procedure->booking_url ?>" target="_blank" class="button l10n">Book</a>
+                            <a href="<?php echo $procedure->booking_url ?>" class="button l10n">Book</a>
                         <?php } ?>
                     </div>
                 <?php } ?>
             </div>
         <?php } ?>
         <?php if (isset($service->consultation_url)) { ?>
-            <a href="<?php echo $service->consultation_url ?>" target="_blank" class="button book-button l10n">Book a free consultation</a>
+            <a href="<?php echo $service->consultation_url ?>" class="button book-button l10n">Book a free consultation</a>
         <?php } ?>
     </div>
 </div>

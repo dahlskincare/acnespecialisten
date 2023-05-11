@@ -30,7 +30,7 @@
                                           description: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal personal meeting with a skin specialist, your skin...',
                                           url: 'brands/alma',
                                           booking_url: 'https://bokadirekt.se',
-                                          consultation_url: 'https://dahlskincare.com/consultation'
+                                          consultation_url: 'hudkonsultation'
                                     );
                                     include('widgets/brand_card/brand_card.php');
                                     ?>
