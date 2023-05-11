@@ -7,7 +7,7 @@ array_pop($parsed_segments);
 foreach ($parsed_segments as $segment) {
     $path_segments[] = new PathSegment(name: $segment);
 }
-$last_segment_index = count($path_segments) - 2;
+$last_segment_index = count($path_segments) - 1;
 
 ?>
 

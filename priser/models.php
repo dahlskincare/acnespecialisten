@@ -1,4 +1,22 @@
 <?php
+class BrandCategoryInfo
+{
+    public function __construct($id, $name, $description, $service_categories)
+    {
+        $this->id = $id;
+        $this->name = $name;
+        $this->description = $description;
+        $this->service_categories = $service_categories;
+    }
+
+    /// Used for setting the element id so that anchor targets work
+    public string $id;
+    public string $name;
+    public string $description;
+    public array $service_categories;
+}
+
+
 class ServiceCategoryInfo
 {
     public function __construct($name, $image_small, $image_large, $description, $url, $url_label, $services_per_category)
