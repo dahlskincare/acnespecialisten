@@ -58,6 +58,37 @@ html {
                         height: auto;
                         border-radius: $radius-l;
                     }
+
+                    #infobox {
+                        cursor: pointer;
+                        margin-top: $xl;
+                        padding: $xl;
+                        background-color: $deep-sea-25;
+                        border: 1px solid $deep-sea-300;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        border-radius: $radius-l;
+                        @include p200;
+
+                        .icon {
+                            margin-left: $xl;
+                            min-width: $m;
+                            height: $m;
+                            padding: $s;
+
+                            >svg {
+                                width: $m;
+                                height: $m;
+                            }
+                        }
+                    }
+
+                    a {
+                        @include p200;
+                        font-weight: bold !important;
+                        text-decoration: underline;
+                    }
                 }
             }
         }

@@ -113,6 +113,16 @@ $nav_buttons = array(
                         <source media="(min-width: 800px)" srcset="https://via.placeholder.com/872x456.webp">
                         <img src="https://via.placeholder.com/358x272.webp" alt="What is skin consultation?" width="358" height="272" />
                     </picture>
+                    <div id="infobox">
+                        <div id="ib-text" class="l10n">The consultation is absolutely free, if you have not missed the scheduled visit.</div>
+                        <?php icon('add'); ?>
+                    </div>
+                    <div class="mt-xl l10n">
+                        This is a treatment adapted for acne skin and <a>pimples</a> and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the <a>acne treatment</a>, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.
+                    </div>
+                    <div class="mt-xl l10n">
+                        This is a treatment adapted for acne skin and <a>pimples</a> and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.
+                    </div>
                 </section>
                 <section id="types" class="large-margin">
                     <h2 class="h500 l10n">Consultation types</h2>
