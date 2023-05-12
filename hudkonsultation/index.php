@@ -1,9 +1,70 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
+include_once('models.php');
+
 $nav_buttons = array(
     'about' => 'Overview',
     'types' => 'Types',
 );
+
+$categories = array(
+    new ConsultationCategory(
+        id: 'problem-skin-consultation',
+        name: 'Problem skin consultation',
+        description: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth.',
+        types: array(
+            new ConsultationType(
+                title: 'Acne',
+                subtitle: 'Also called acne scars',
+                image: 'https://via.placeholder.com/102x102.webp',
+                url: 'behandlingar/ansiktsbehandlingar-problemhy/chemical-peeling/',
+                consultation_url: 'hudkonsultation'
+            ),
+            new ConsultationType(
+                title: 'Acne scars',
+                subtitle: 'Also called acne',
+                image: 'https://via.placeholder.com/102x102.webp',
+                url: 'behandlingar/ansiktsbehandlingar-problemhy/chemical-peeling/',
+                consultation_url: 'hudkonsultation'
+            ),
+            new ConsultationType(
+                title: 'Comedones',
+                subtitle: 'Also called scars stains',
+                image: 'https://via.placeholder.com/102x102.webp',
+                url: 'behandlingar/ansiktsbehandlingar-problemhy/chemical-peeling/',
+                consultation_url: 'hudkonsultation'
+            ),
+        ),
+        button_label: 'View problems list',
+    ),
+    new ConsultationCategory(
+        id: 'service-consultation',
+        name: 'Service consultation',
+        description: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth.',
+        types: array(
+            new ConsultationType(
+                title: 'Problem skin facials',
+                image: 'https://via.placeholder.com/102x102.webp',
+                url: 'behandlingar/ansiktsbehandlingar-problemhy/chemical-peeling/',
+                consultation_url: 'hudkonsultation'
+            ),
+            new ConsultationType(
+                title: 'Classic facials',
+                image: 'https://via.placeholder.com/102x102.webp',
+                url: 'behandlingar/ansiktsbehandlingar-problemhy/chemical-peeling/',
+                consultation_url: 'hudkonsultation'
+            ),
+            new ConsultationType(
+                title: 'Microneedling',
+                image: 'https://via.placeholder.com/102x102.webp',
+                url: 'behandlingar/ansiktsbehandlingar-problemhy/chemical-peeling/',
+                consultation_url: 'hudkonsultation'
+            ),
+        ),
+        button_label: 'View problems list',
+    )
+);
+
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
@@ -125,7 +186,12 @@ $nav_buttons = array(
                     </div>
                 </section>
                 <section id="types" class="large-margin">
-                    <h2 class="h500 l10n">Consultation types</h2>
+                    <h2 class="h500 mb-xs l10n">Consultation types</h2>
+                    <hr class="is-hidden-desktop" />
+                    <?php foreach ($categories as $category) { ?>
+                        <?php include('widgets/consultation_category/consultation_category.php') ?>
+                        <hr class="is-hidden-desktop" />
+                    <? } ?>
                 </section>
                 <section id="results" class="large-margin">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php') ?>
@@ -203,6 +269,7 @@ $nav_buttons = array(
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
     <script src="includes/scripts/floating-image.js"></script>
+    <script src="hudkonsultation/widgets/consultation_category/consultation_category.js"></script>
 </body>
 
 </html>
