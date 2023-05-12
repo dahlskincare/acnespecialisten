@@ -19,13 +19,15 @@ class ConsultationCategory
 
 class ConsultationType
 {
-    function __construct($title, $image, $url, $consultation_url, $subtitle = null)
+    function __construct($title, $image, $url, $consultation_url, $subtitle = null, $url_label = 'View problem details', $consultation_url_label = 'Get a free consultation')
     {
         $this->title = $title;
         $this->image = $image;
         $this->url = $url;
         $this->consultation_url = $consultation_url;
         $this->subtitle = $subtitle;
+        $this->url_label = $url_label;
+        $this->consultation_url_label = $consultation_url_label;
     }
 
     public string $title;
@@ -33,4 +35,6 @@ class ConsultationType
     public string $url;
     public string $consultation_url;
     public ?string $subtitle;
+    public string $url_label;
+    public string $consultation_url_label;
 }

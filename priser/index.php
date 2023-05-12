@@ -316,7 +316,7 @@ $service_categories = array(
                             <?php icon('navigate-next') ?>
                         </a>
                     </div>
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands.php'); ?>
+                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
                     <a class="mt-xl button outline expand is-hidden-tablet l10n" href="brands">View all brands</a>
                 </div>
             </section>
