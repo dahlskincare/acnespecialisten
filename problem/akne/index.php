@@ -314,7 +314,7 @@ $services = array(
 $products = array(
       new Service(
             id: 'produkter-mot-akne',
-            title: 'Produkter mot akne',
+            title: 'Förebygg din akne',
             duration: null,
             price: 'Price from 995 kr',
             content: 'Skriv en text om produkter här.',
@@ -327,7 +327,7 @@ $products = array(
 $procedures = array(
       new Service(
             id: 'microneedling-for-acne',
-            title: 'Microneedling for acne',
+            title: 'Reparera din akne',
             duration: '6 procedures',
             price: null,
             content: 'Skriv en text om procedure här.',
