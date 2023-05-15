@@ -1,0 +1,63 @@
+@import '../styles/util/sizes';
+@import '../styles/util/colors';
+@import '../styles/util/mixins';
+
+
+.cookies-title {
+  @include h600;
+  margin-top: $xl;
+
+}
+
+.cookies-subtitle {
+  @include p200;
+  margin-top: $xs;
+}
+
+.cookies-about-tab {
+  margin-top: $xl;
+  padding-top: 21.5px;
+  padding-bottom: 21.5px;
+  border-bottom: double;
+  border-bottom-color: black;
+}
+
+.cookies-about-tab-privacy-policy {
+  margin-left: $xl;
+}
+
+.cookies-about-cookies {
+  @include h500;
+  margin-top: $xl3;
+}
+
+.cookies-about-cookies-text {
+  @include p200;
+  margin-top: $xl;
+}
+
+h3 {
+  @include h300;
+}
+
+ol {
+  padding-left: $m;
+
+  li {
+    @include p200;
+    margin-top: $m;
+  }
+
+  li:first-child {
+    margin-top: 0;
+  }
+}
+
+p {
+  @include p200;
+
+}
+
+h2 {
+  @include h500;
+}
