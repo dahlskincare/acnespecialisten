@@ -327,7 +327,7 @@ $products = array(
 $procedures = array(
       new Service(
             id: 'microneedling-for-acne',
-            title: 'Reparera din akne',
+            title: 'Reparera post-akne',
             duration: '6 procedures',
             price: null,
             content: 'Efter aktiv akne kan man uppleva post-akne, vilket innebär ärr i form av gropar i olika former och fläckar i olika färger på huden där aknen tidigare varit. Olika typer av ärr behandlas med olika metoder. Klicka här för att läsa mer om hur du kan reparera din hud och ta hand om post-akne.',
@@ -656,7 +656,7 @@ $related_problems = array(
                               <hr class="is-hidden-mobile">
                         </section>
                         <section id="treatments">
-                              <h2 class="h500">Behandla din akne</h2>
+                              <h2 class="h500">Behandla din aktiva akne</h2>
                               <hr class="is-hidden-mobile mt-xl">
                               <?php foreach ($services as $service) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
@@ -664,7 +664,7 @@ $related_problems = array(
                               <?php } ?>
                         </section>
                         <section id="products">
-                              <h2 class="h500">Förebygg din akne</h2>
+                              <h2 class="h500">Förebygg ny akne</h2>
                               <hr class="is-hidden-mobile mt-xl">
                               <?php foreach ($products as $service) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
@@ -672,7 +672,7 @@ $related_problems = array(
                               <?php } ?>
                         </section>
                         <section id="treatment-solutions">
-                              <h2 class="h500">Reparera efter aktiv akne</h2>
+                              <h2 class="h500">Reparera post-akne</h2>
                               <hr class="is-hidden-mobile mt-xl">
                               <?php foreach ($procedures as $service) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
