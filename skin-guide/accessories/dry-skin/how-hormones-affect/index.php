@@ -618,7 +618,7 @@ $article = new SkinGuideArticle(
                                 <?php icon('arrow-right') ?>
                             </button>
                         </div>
-                        <a href="reviews" class="ml-l button compact text">
+                        <a href="https://se.trustpilot.com/review/acnespecialisten.se" class="ml-l button compact text">
                             <span class="l10n">View all reviews</span>
                             <?php icon('navigate-next') ?>
                         </a>
