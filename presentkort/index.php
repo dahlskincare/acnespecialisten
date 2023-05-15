@@ -103,7 +103,25 @@ if (form_completed()) {
         )
     );
     $qr_image = curl_exec($ch);
+    curl_close($ch);
 
+
+    $json_data = json_encode(array(
+        "payee" => "123 08 866 89",
+    ));
+    $ch = curl_init("https://api.swish.nu/qr/v2/prefilled");
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_POST, true);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $json_data);
+    curl_setopt(
+        $ch,
+        CURLOPT_HTTPHEADER,
+        array(
+            'Content-Type: application/json',
+            'Content-Length: ' . strlen($json_data)
+        )
+    );
+    $qr_image_desktop = 'data:image/png;base64,' . base64_encode(curl_exec($ch));
     curl_close($ch);
 }
 ?>
@@ -239,21 +257,9 @@ if (form_completed()) {
                                 <div class="gc-texts">
                                     <h2 class="l10n">Swish money</h2>
                                     <div class="l10n">Send us any amount you want to put on the gift card or buy some procedure.</div>
-                                    <form class="mt-xs">
-                                        <div class="select-wrapper">
-                                            <select name="swish-amount" id="swish-amount" onchange="onAmountChange(event)" value="<?php echo $amount ?>">
-                                                <option value="500" <?php if ($amount == "500") echo "selected" ?>>500 kr</option>
-                                                <option value="1000" <?php if ($amount == "1000") echo "selected" ?>>1000 kr</option>
-                                                <option value="1500" <?php if ($amount == "1500") echo "selected" ?>>1500 kr</option>
-                                                <option value="2000" <?php if ($amount == "2000") echo "selected" ?>>2000 kr</option>
-                                                <option value="2500" <?php if ($amount == "2500") echo "selected" ?>>2500 kr</option>
-                                                <option value="3000" <?php if ($amount == "3000") echo "selected" ?>>3000 kr</option>
-                                            </select>
-                                        </div>
-                                    </form>
                                 </div>
                                 <div id="qr-image">
-                                    <?php echo $qr_image; ?>
+                                    <img src="<?php echo $qr_image_desktop ?>" alt="QR">
                                     <div class="mt-s h200">123 08 866 89</div>
                                 </div>
                             </div>
