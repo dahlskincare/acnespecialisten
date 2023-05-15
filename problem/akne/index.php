@@ -251,7 +251,7 @@ $type_categories = array(
 $symptoms = array(
       new Symptom(
             id: 'post-inflammatory-hyperpigmentaion',
-            name: 'Kmedoner (Öppna)',
+            name: 'Komedoner (Öppna)',
             aka: 'Pormaskar',
             image: 'images/symptoms/small/post-inflammatory-hyperpigmentation.jpg',
             content: 'Pormaskar (öppna komedoner) är små, mörka prickar som uppstår när en por täpps igen av talg (hudens naturliga olja) och döda hudceller. De är ofta svarta eller bruna på grund av oxidation, som inträffar när melanin (hudens pigment) kommer i kontakt med luft. Pormaskar kan vara platta eller lätt upphöjda och är vanligt förekommande på näsan, kinderna, pannan och hakan.'
@@ -314,10 +314,10 @@ $services = array(
 $products = array(
       new Service(
             id: 'produkter-mot-akne',
-            title: 'Förebygg din akne',
+            title: 'Produkter mot akne',
             duration: null,
             price: 'Price from 995 kr',
-            content: 'Skriv en text om produkter här.',
+            content: 'För att effektivt bekämpa och förebygga akne är daglig behandling med rätt produkter avgörande. Våra akneprodukter är speciellt utformade för att hålla din hud i balans och förhindra att ny akne uppstår.',
             image_small: 'images/service-categories/small/consultation.jpg',
             image_large: 'images/service-categories/large/consultation.jpg',
             consultation_url: null,
@@ -330,7 +330,7 @@ $procedures = array(
             title: 'Reparera din akne',
             duration: '6 procedures',
             price: null,
-            content: 'Skriv en text om procedure här.',
+            content: 'Efter aktiv akne kan man uppleva post-akne, vilket innebär ärr i form av gropar i olika former och fläckar i olika färger på huden där aknen tidigare varit. Olika typer av ärr behandlas med olika metoder. Klicka här för att läsa mer om hur du kan reparera din hud och ta hand om post-akne.',
             image_small: 'images/service-categories/small/consultation.jpg',
             image_large: 'images/service-categories/large/consultation.jpg',
             consultation_url: null,
@@ -664,7 +664,7 @@ $related_problems = array(
                               <?php } ?>
                         </section>
                         <section id="products">
-                              <h2 class="h500">Produkter mot akne</h2>
+                              <h2 class="h500">Förebygg din akne</h2>
                               <hr class="is-hidden-mobile mt-xl">
                               <?php foreach ($products as $service) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
@@ -672,7 +672,7 @@ $related_problems = array(
                               <?php } ?>
                         </section>
                         <section id="treatment-solutions">
-                              <h2 class="h500">Akne treatment solutions</h2>
+                              <h2 class="h500">Reparera efter aktiv akne</h2>
                               <hr class="is-hidden-mobile mt-xl">
                               <?php foreach ($procedures as $service) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
