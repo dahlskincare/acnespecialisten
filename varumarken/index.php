@@ -1,4 +1,200 @@
-<?php include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php'); ?>
+<?php
+include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
+include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
+include_once('models.php');
+
+$green_banner_content = new GreenBannerContent(
+      title: 'Brands we work with',
+      description: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
+      description_extended: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
+      button_url: 'hudkonsultation',
+      button_label: 'Få gratis konsultation'
+);
+
+$header_brands = array(
+      new Brand(
+            label: 'Powerlite',
+            image: 'https://via.placeholder.com/94x34.webp',
+            url: 'priser/powerlite',
+      ),
+      new Brand(
+            label: 'Dermapen',
+            image: 'https://via.placeholder.com/94x34.webp',
+            url: 'priser/dermapen',
+      ),
+      new Brand(
+            label: 'Dermapen',
+            image: 'https://via.placeholder.com/94x34.webp',
+            url: 'priser/dermapen',
+      ),
+      new Brand(
+            label: 'Dermapen',
+            image: 'https://via.placeholder.com/94x34.webp',
+            url: 'priser/dermapen',
+      ),
+      new Brand(
+            label: 'Dermapen',
+            image: 'https://via.placeholder.com/94x34.webp',
+            url: 'priser/dermapen',
+      ),
+      new Brand(
+            label: 'Dermapen',
+            image: 'https://via.placeholder.com/94x34.webp',
+            url: 'priser/dermapen',
+      ),
+      new Brand(
+            label: 'Dermapen',
+            image: 'https://via.placeholder.com/94x34.webp',
+            url: 'priser/dermapen',
+      ),
+      new Brand(
+            label: 'Dermapen',
+            image: 'https://via.placeholder.com/94x34.webp',
+            url: 'priser/dermapen',
+      ),
+      new Brand(
+            label: 'Dermapen',
+            image: 'https://via.placeholder.com/94x34.webp',
+            url: 'priser/dermapen',
+      ),
+      new Brand(
+            label: 'Dermapen',
+            image: 'https://via.placeholder.com/94x34.webp',
+            url: 'priser/dermapen',
+      ),
+      new Brand(
+            label: 'Dermapen',
+            image: 'https://via.placeholder.com/94x34.webp',
+            url: 'priser/dermapen',
+      ),
+      new Brand(
+            label: 'Dermapen',
+            image: 'https://via.placeholder.com/94x34.webp',
+            url: 'priser/dermapen',
+      ),
+      new Brand(
+            label: 'Dermapen',
+            image: 'https://via.placeholder.com/94x34.webp',
+            url: 'priser/dermapen',
+      ),
+);
+
+$link_brands = array(
+      new BrandCategory(
+            label: 'Laser for problem skin',
+            services: array(
+                  "varumarken/alma/hybrid-c02" => "Alma - Hybrid (CO2)",
+                  "varumarken/alma/harmony-xl" => "Alma - Harmony XL"
+            )
+      ),
+      new BrandCategory(
+            label: 'Laser for hair removal',
+            services: array(
+                  "varumarken/alma/soprano-ice" => "Alma - Soprano Ice",
+                  "varumarken/lumenis/splendor-x" => "Lumenis - Splendor X",
+            )
+      ),
+      new BrandCategory(
+            label: 'IPL',
+            services: array(
+                  "varumarken/alma/rejuve" => "Alma - Rejuve Dye VL",
+                  "varumarken/powerlight/photonova" => "Powerlight - PhotoNova PLS3",
+                  "varumarken/alma/harmony-xll" => "Alma - Harmony XL",
+            )
+      ),
+      new BrandCategory(
+            label: 'Dermabration',
+            services: array(
+                  "URL HÄR" => "Hydrafacial (HydroDermabration)",
+                  "URL HÄR" => "Mimass - MicroDermabration",
+            )
+      ),
+      new BrandCategory(
+            label: 'Chemical peeling',
+            services: array(
+                  "URL HÄR" => "Skintech",
+                  "URL HÄR" => "PRX-T33",
+            )
+      ),
+      new BrandCategory(
+            label: 'FreezeTreat',
+            services: array(
+                  "URL HÄR" => "CryoPen",
+            )
+      ),
+      new BrandCategory(
+            label: 'Skinbooster',
+            services: array(
+                  "infuzion" => "Infuzion",
+                  "profhilo" => "Profhilo",
+            )
+      ),
+      new BrandCategory(
+            label: 'Microneedling',
+            services: array(
+                  "dermapen4" => "Dermapen 4"
+            )
+      ),
+);
+
+$brand_cards = array(
+      new Brand(
+            label: 'Alma',
+            image: 'https://via.placeholder.com/116x80.webp',
+            photo: 'https://via.placeholder.com/424x324.webp',
+            title: 'Alma - Hybrid (CO2)',
+            subtitle: 'Laser for problem skin',
+            description: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal personal meeting with a skin specialist, your skin...',
+            url: 'brands/alma',
+            booking_url: 'https://bokadirekt.se',
+            consultation_url: 'hudkonsultation'
+      ),
+      new Brand(
+            label: 'Alma',
+            image: 'https://via.placeholder.com/116x80.webp',
+            photo: 'https://via.placeholder.com/424x324.webp',
+            title: 'Alma - Hybrid (CO2)',
+            subtitle: 'Laser for problem skin',
+            description: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal personal meeting with a skin specialist, your skin...',
+            url: 'brands/alma',
+            booking_url: 'https://bokadirekt.se',
+            consultation_url: 'hudkonsultation'
+      ),
+      new Brand(
+            label: 'Alma',
+            image: 'https://via.placeholder.com/116x80.webp',
+            photo: 'https://via.placeholder.com/424x324.webp',
+            title: 'Alma - Hybrid (CO2)',
+            subtitle: 'Laser for problem skin',
+            description: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal personal meeting with a skin specialist, your skin...',
+            url: 'brands/alma',
+            booking_url: 'https://bokadirekt.se',
+            consultation_url: 'hudkonsultation'
+      ),
+      new Brand(
+            label: 'Alma',
+            image: 'https://via.placeholder.com/116x80.webp',
+            photo: 'https://via.placeholder.com/424x324.webp',
+            title: 'Alma - Hybrid (CO2)',
+            subtitle: 'Laser for problem skin',
+            description: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal personal meeting with a skin specialist, your skin...',
+            url: 'brands/alma',
+            booking_url: 'https://bokadirekt.se',
+            consultation_url: 'hudkonsultation'
+      ),
+      new Brand(
+            label: 'Alma',
+            image: 'https://via.placeholder.com/116x80.webp',
+            photo: 'https://via.placeholder.com/424x324.webp',
+            title: 'Alma - Hybrid (CO2)',
+            subtitle: 'Laser for problem skin',
+            description: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal personal meeting with a skin specialist, your skin...',
+            url: 'brands/alma',
+            booking_url: 'https://bokadirekt.se',
+            consultation_url: 'hudkonsultation'
+      ),
+);
+?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
 
@@ -18,13 +214,6 @@
       <main>
             <section id="banner" class="sticky-badges-target">
                   <?php
-                  $green_banner_content = new GreenBannerContent(
-                        title: 'Brands we work with',
-                        description: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
-                        description_extended: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
-                        button_url: 'hudkonsultation',
-                        button_label: 'Få gratis konsultation'
-                  );
                   include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/green_header_banner.php');
                   ?>
                   <div class="container">
@@ -32,74 +221,7 @@
                               <div id="brands">
                                     <div id="brands-shadow">
                                           <?php
-                                          $brands = array(
-                                                new Brand(
-                                                      label: 'Powerlite',
-                                                      image: 'https://via.placeholder.com/94x34.webp',
-                                                      url: 'priser/powerlite',
-                                                ),
-                                                new Brand(
-                                                      label: 'Dermapen',
-                                                      image: 'https://via.placeholder.com/94x34.webp',
-                                                      url: 'priser/dermapen',
-                                                ),
-                                                new Brand(
-                                                      label: 'Dermapen',
-                                                      image: 'https://via.placeholder.com/94x34.webp',
-                                                      url: 'priser/dermapen',
-                                                ),
-                                                new Brand(
-                                                      label: 'Dermapen',
-                                                      image: 'https://via.placeholder.com/94x34.webp',
-                                                      url: 'priser/dermapen',
-                                                ),
-                                                new Brand(
-                                                      label: 'Dermapen',
-                                                      image: 'https://via.placeholder.com/94x34.webp',
-                                                      url: 'priser/dermapen',
-                                                ),
-                                                new Brand(
-                                                      label: 'Dermapen',
-                                                      image: 'https://via.placeholder.com/94x34.webp',
-                                                      url: 'priser/dermapen',
-                                                ),
-                                                new Brand(
-                                                      label: 'Dermapen',
-                                                      image: 'https://via.placeholder.com/94x34.webp',
-                                                      url: 'priser/dermapen',
-                                                ),
-                                                new Brand(
-                                                      label: 'Dermapen',
-                                                      image: 'https://via.placeholder.com/94x34.webp',
-                                                      url: 'priser/dermapen',
-                                                ),
-                                                new Brand(
-                                                      label: 'Dermapen',
-                                                      image: 'https://via.placeholder.com/94x34.webp',
-                                                      url: 'priser/dermapen',
-                                                ),
-                                                new Brand(
-                                                      label: 'Dermapen',
-                                                      image: 'https://via.placeholder.com/94x34.webp',
-                                                      url: 'priser/dermapen',
-                                                ),
-                                                new Brand(
-                                                      label: 'Dermapen',
-                                                      image: 'https://via.placeholder.com/94x34.webp',
-                                                      url: 'priser/dermapen',
-                                                ),
-                                                new Brand(
-                                                      label: 'Dermapen',
-                                                      image: 'https://via.placeholder.com/94x34.webp',
-                                                      url: 'priser/dermapen',
-                                                ),
-                                                new Brand(
-                                                      label: 'Dermapen',
-                                                      image: 'https://via.placeholder.com/94x34.webp',
-                                                      url: 'priser/dermapen',
-                                                ),
-                                          );
-                                          foreach ($brands as $brand) { ?>
+                                          foreach ($header_brands as $brand) { ?>
                                                 <a href="<?php echo $brand->url ?>">
                                                       <img src="<?php echo $brand->image ?>" alt="<?php echo $brand->title ?>" width="94" height="34" class="brand" />
                                                 </a>
@@ -120,24 +242,27 @@
                   </div>
             </section>
             <div class="container">
-                  <section id="brand-cards">
-                        <div class="columns">
-                              <div class="column is-one-third">
-                                    <?php
-                                    $brand = new Brand(
-                                          label: 'Alma',
-                                          image: 'https://via.placeholder.com/116x80.webp',
-                                          photo: 'https://via.placeholder.com/424x324.webp',
-                                          title: 'Alma - Hybrid (CO2)',
-                                          subtitle: 'Laser for problem skin',
-                                          description: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal personal meeting with a skin specialist, your skin...',
-                                          url: 'brands/alma',
-                                          booking_url: 'https://bokadirekt.se',
-                                          consultation_url: 'hudkonsultation'
-                                    );
-                                    include('widgets/brand_card/brand_card.php');
-                                    ?>
-                              </div>
+                  <section id="links">
+                        <div id="item-container">
+                              <?php for ($i = 0; $i < count($link_brands); $i++) { ?>
+                                    <div class="item" id="item-<?php echo $i ?>">
+                                          <p class="p200"><?php echo $link_brands[$i]->label ?></p>
+                                          <?php foreach ($link_brands[$i]->services as $url => $label) { ?>
+                                                <p class="p200 service-label"><a href="<?php echo $url ?>"><?php echo $label ?></a></p>
+                                          <?php } ?>
+                                    </div>
+                              <?php } ?>
+                        </div>
+                  </section>
+                  <section id="cards">
+                        <div class="columns is-multiline">
+                              <?php foreach ($brand_cards as $brand) { ?>
+                                    <div class="column is-one-third">
+                                          <div class="mt-xl">
+                                                <?php include('widgets/brand_card/brand_card.php'); ?>
+                                          </div>
+                                    </div>
+                              <?php } ?>
                         </div>
                   </section>
 
