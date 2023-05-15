@@ -367,7 +367,7 @@
                                 <?php icon('arrow-right') ?>
                             </button>
                         </div>
-                        <a href="omdomen" class="ml-l button compact text">
+                        <a href="https://se.trustpilot.com/review/acnespecialisten.se" class="ml-l button compact text">
                             <span class="l10n">View all reviews</span>
                             <?php icon('navigate-next') ?>
                         </a>
@@ -375,7 +375,7 @@
 
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="omdomen">View all reviews</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se">View all reviews</a>
             </section>
             <section id="faq" class="large-margin">
                 <div class="flex-row align-end justify-space-between">

@@ -312,7 +312,7 @@
                                           <button class="round-large grey" onclick="Reviews.scroll(-1)"><?php icon('arrow-left') ?></button>
                                           <button class="round-large grey" onclick="Reviews.scroll(1)"><?php icon('arrow-right') ?></button>
                                     </div>
-                                    <a href="omdomen" class="ml-l button compact text">
+                                    <a href="https://se.trustpilot.com/review/acnespecialisten.se" class="ml-l button compact text">
                                           <span class="l10n">Läs fler omdömen</span>
                                           <?php icon('navigate-next') ?>
                                     </a>

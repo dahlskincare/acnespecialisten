@@ -425,7 +425,7 @@ $problem_areas = array(
                               </div>
                         </div>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                        <a class="mt-xl button outline expand is-hidden-tablet l10n" href="omdomen">Läs fler omdömen</a>
+                        <a class="mt-xl button outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se">Läs fler omdömen</a>
                   </div>
             </section>
             <section id="faq">
