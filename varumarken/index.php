@@ -4,18 +4,121 @@
 
 <head>
       <!-- TODO: Set title and meta tags -->
-      <title class="l10n">Acnespecialisten | Brands</title>
+      <title class="l10n">Acnespecialisten | Varumärken</title>
       <meta name="description" content="" class="l10n">
       <meta name="title" content="" class="l10n">
       <meta name="keywords" content="" class="l10n">
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="stylesheet" href="/styles/default-layout.css">
-      <link rel="stylesheet" href="/brands/style.css">
+      <link rel="stylesheet" href="/varumarken/style.css">
 </head>
 
 <body>
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
       <main>
+            <section id="banner" class="sticky-badges-target">
+                  <?php
+                  $green_banner_content = new GreenBannerContent(
+                        title: 'Brands we work with',
+                        description: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
+                        description_extended: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
+                        button_url: 'hudkonsultation',
+                        button_label: 'Få gratis konsultation'
+                  );
+                  include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/green_header_banner.php');
+                  ?>
+                  <div class="container">
+                        <div id="brands-container">
+                              <div id="brands">
+                                    <div id="brands-shadow">
+                                          <?php
+                                          $brands = array(
+                                                new Brand(
+                                                      label: 'Powerlite',
+                                                      image: 'https://via.placeholder.com/94x34.webp',
+                                                      url: 'priser/powerlite',
+                                                ),
+                                                new Brand(
+                                                      label: 'Dermapen',
+                                                      image: 'https://via.placeholder.com/94x34.webp',
+                                                      url: 'priser/dermapen',
+                                                ),
+                                                new Brand(
+                                                      label: 'Dermapen',
+                                                      image: 'https://via.placeholder.com/94x34.webp',
+                                                      url: 'priser/dermapen',
+                                                ),
+                                                new Brand(
+                                                      label: 'Dermapen',
+                                                      image: 'https://via.placeholder.com/94x34.webp',
+                                                      url: 'priser/dermapen',
+                                                ),
+                                                new Brand(
+                                                      label: 'Dermapen',
+                                                      image: 'https://via.placeholder.com/94x34.webp',
+                                                      url: 'priser/dermapen',
+                                                ),
+                                                new Brand(
+                                                      label: 'Dermapen',
+                                                      image: 'https://via.placeholder.com/94x34.webp',
+                                                      url: 'priser/dermapen',
+                                                ),
+                                                new Brand(
+                                                      label: 'Dermapen',
+                                                      image: 'https://via.placeholder.com/94x34.webp',
+                                                      url: 'priser/dermapen',
+                                                ),
+                                                new Brand(
+                                                      label: 'Dermapen',
+                                                      image: 'https://via.placeholder.com/94x34.webp',
+                                                      url: 'priser/dermapen',
+                                                ),
+                                                new Brand(
+                                                      label: 'Dermapen',
+                                                      image: 'https://via.placeholder.com/94x34.webp',
+                                                      url: 'priser/dermapen',
+                                                ),
+                                                new Brand(
+                                                      label: 'Dermapen',
+                                                      image: 'https://via.placeholder.com/94x34.webp',
+                                                      url: 'priser/dermapen',
+                                                ),
+                                                new Brand(
+                                                      label: 'Dermapen',
+                                                      image: 'https://via.placeholder.com/94x34.webp',
+                                                      url: 'priser/dermapen',
+                                                ),
+                                                new Brand(
+                                                      label: 'Dermapen',
+                                                      image: 'https://via.placeholder.com/94x34.webp',
+                                                      url: 'priser/dermapen',
+                                                ),
+                                                new Brand(
+                                                      label: 'Dermapen',
+                                                      image: 'https://via.placeholder.com/94x34.webp',
+                                                      url: 'priser/dermapen',
+                                                ),
+                                          );
+                                          foreach ($brands as $brand) { ?>
+                                                <a href="<?php echo $brand->url ?>">
+                                                      <img src="<?php echo $brand->image ?>" alt="<?php echo $brand->title ?>" width="94" height="34" class="brand" />
+                                                </a>
+                                          <?php } ?>
+                                    </div>
+                              </div>
+                              <div class="scroll-button is-hidden" id="scroll-button-previous">
+                                    <button class="round-medium grey">
+                                          <?php icon('arrow-left') ?>
+                                    </button>
+                              </div>
+                              <div class="scroll-button is-hidden" id="scroll-button-next">
+                                    <button class="round-medium grey">
+                                          <?php icon('arrow-right') ?>
+                                    </button>
+                              </div>
+                        </div>
+                  </div>
+            </section>
             <div class="container">
                   <section id="brand-cards">
                         <div class="columns">
@@ -139,22 +242,10 @@
                               <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialists">View all specialists</a>
                         </div>
                   </section>
-                  <section id="brands" class="large-margin">
-                        <div class="container">
-                              <div class="flex-row align-end justify-space-between">
-                                    <h2 class="big l10n">Brands we use</h2>
-                                    <a href="brands" class="button compact text is-hidden-mobile">
-                                          <span class="l10n">View all brands</span>
-                                          <?php icon('navigate-next') ?>
-                                    </a>
-                              </div>
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                              <a class="mt-xl button outline expand is-hidden-tablet l10n" href="brands">View all brands</a>
-                        </div>
-                  </section>
             </div>
       </main>
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
+      <script src="varumarken/brands.js"></script>
 </body>
 
 </html>
