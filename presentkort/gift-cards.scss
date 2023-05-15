@@ -168,6 +168,11 @@ div#content {
                 #qr-image {
                     text-align: center;
                     width: 130px;
+
+                    img {
+                        width: 100%;
+                        height: auto;
+                    }
                 }
 
                 hr {
