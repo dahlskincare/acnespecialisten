@@ -94,7 +94,7 @@ $categories = array(
                 <div id="overlay">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
                     <div>
-                        <h2 class="h600 l10n">Gratis hudkonsultation</h2>
+                        <h2 class="h600 l10n">Gratis konsultation</h2>
                         <h3 class="mt-m h200 l10n">Duration: 20 min</h3>
                         <p class="mt-m p200 l10n">Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat.</p>
                         <div class="mt-xl">
@@ -174,9 +174,14 @@ $categories = array(
                         <source media="(min-width: 800px)" srcset="https://via.placeholder.com/872x456.webp">
                         <img src="https://via.placeholder.com/358x272.webp" alt="What is skin consultation?" width="358" height="272" />
                     </picture>
-                    <div id="infobox">
-                        <div id="ib-text" class="l10n">The consultation is absolutely free, if you have not missed the scheduled visit.</div>
-                        <?php icon('add'); ?>
+                    <div class="infobox">
+                        <div class="ib-header" onclick="Consultation.toggleContent(this.parentElement)">
+                            <div class="l10n">The consultation is absolutely free, if you have not missed the scheduled visit.</div>
+                            <?php icon('add'); ?>
+                        </div>
+                        <div class="ib-content is-hidden">
+                            <p class="p200 l10n">More consultation info here ...</p>
+                        </div>
                     </div>
                     <div class="mt-xl l10n">
                         This is a treatment adapted for acne skin and <a>pimples</a> and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the <a>acne treatment</a>, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.
@@ -270,6 +275,7 @@ $categories = array(
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
     <script src="includes/scripts/floating-image.js"></script>
     <script src="hudkonsultation/widgets/consultation_category/consultation_category.js"></script>
+    <script src="hudkonsultation/consultation.js"></script>
 </body>
 
 </html>

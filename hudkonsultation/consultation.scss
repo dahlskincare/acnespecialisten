@@ -60,29 +60,44 @@ html {
                         border-radius: $radius-l;
                     }
 
-                    #infobox {
-                        cursor: pointer;
+                    div.infobox {
                         margin-top: $xl;
-                        padding: $xl;
                         background-color: $deep-sea-25;
                         border: 1px solid $deep-sea-300;
-                        display: flex;
-                        justify-content: space-between;
-                        align-items: center;
                         border-radius: $radius-l;
                         @include p200;
 
-                        .icon {
-                            margin-left: $xl;
-                            min-width: $m;
-                            height: $m;
-                            padding: $s;
+                        div.ib-header {
+                            cursor: pointer;
+                            padding: $xl;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
 
-                            >svg {
-                                width: $m;
+                            .icon {
+                                margin-left: $xl;
+                                min-width: $m;
                                 height: $m;
+                                padding: $s;
+
+                                >svg {
+                                    width: $m;
+                                    height: $m;
+                                }
+
+                                transition: transform 300ms ease;
+                            }
+
+                            .icon.is-open {
+                                transform: rotate(45deg);
                             }
                         }
+
+                        div.ib-content {
+                            padding: 0 $xl $xl $xl;
+                        }
+
+
                     }
 
                     a {
