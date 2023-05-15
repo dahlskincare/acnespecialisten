@@ -251,14 +251,14 @@ $type_categories = array(
 $symptoms = array(
       new Symptom(
             id: 'post-inflammatory-hyperpigmentaion',
-            name: 'Öppna komedoner',
+            name: 'Kmedoner (Öppna)',
             aka: 'Pormaskar',
             image: 'images/symptoms/small/post-inflammatory-hyperpigmentation.jpg',
             content: 'Pormaskar (öppna komedoner) är små, mörka prickar som uppstår när en por täpps igen av talg (hudens naturliga olja) och döda hudceller. De är ofta svarta eller bruna på grund av oxidation, som inträffar när melanin (hudens pigment) kommer i kontakt med luft. Pormaskar kan vara platta eller lätt upphöjda och är vanligt förekommande på näsan, kinderna, pannan och hakan.'
       ),
       new Symptom(
             id: 'atrophic-icepick-scars',
-            name: 'Stänga komedoner',
+            name: 'Komedoner (Stängda)',
             aka: '"whiteheads"',
             image: 'images/symptoms/small/atrophic-icepick-scars.jpg',
             content: 'Whiteheads (slutna komedoner) är små, vita eller hudfärgade utbuktningar som uppstår när en por täpps till av talg och döda hudceller under hudytan. De är täckta av ett tunt lager hud, vilket förhindrar oxidation och därmed behåller sin ljusa färg. Whiteheads kan vara platta eller lätt upphöjda och är vanligt förekommande på pannan, kinderna och hakan.'
