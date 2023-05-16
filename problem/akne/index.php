@@ -456,7 +456,8 @@ $reviews = array(
       ),
 );
 $faq_categories = array(
-      '' => array(
+      
+      'Generellt om akne' => array(
             new Question(
                   title: 'How many treatments are needed?',
                   text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
@@ -473,7 +474,26 @@ $faq_categories = array(
                   title: 'Do I have acne even if I only have one pimple?',
                   text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
             )
-      )
+      ),
+      "Behandling mot akne"
+       => array(
+            new Question(
+                  title: 'How many treatments are needed?',
+                  text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            ),
+            new Question(
+                  title: 'Can my acne come back?',
+                  text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            ),
+            new Question(
+                  title: 'How do I get rid of my acne fast?',
+                  text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            ),
+            new Question(
+                  title: 'Do I have acne even if I only have one pimple?',
+                  text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            )
+      ),
 );
 $skin_guide_articles = array(
       new SkinGuideArticle(
