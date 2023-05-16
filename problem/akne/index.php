@@ -818,13 +818,13 @@ $brands = array(
                               </section>
                         <?php } ?>
                         <section id="define">
-                              <h2 class="h500 l10n">Identifiera din akne</h2>
+                              <h2 class="h500 l10n">01. Identifiera din akne</h2>
                               <hr class="is-hidden-mobile">
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
                               <hr class="is-hidden-mobile">
                         </section>
                         <section id="treatments">
-                              <h2 class="h500">Behandla aktiv akne</h2>
+                              <h2 class="h500">02. Behandla aktiv akne</h2>
                               <hr class="is-hidden-mobile mt-xl">
                               <?php foreach ($services as $service) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
@@ -832,7 +832,7 @@ $brands = array(
                               <?php } ?>
                         </section>
                         <section id="products">
-                              <h2 class="h500">Förebygg uppkomsten av ny akne</h2>
+                              <h2 class="h500">03. Förebygg uppkomsten av ny akne</h2>
                               <hr class="is-hidden-mobile mt-xl">
                               <?php foreach ($products as $service) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
@@ -840,7 +840,7 @@ $brands = array(
                               <?php } ?>
                         </section>
                         <section id="treatment-solutions">
-                              <h2 class="h500">Reparera post-akne</h2>
+                              <h2 class="h500">04. Reparera post-akne</h2>
                               <hr class="is-hidden-mobile mt-xl">
                               <?php foreach ($procedures as $service) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
