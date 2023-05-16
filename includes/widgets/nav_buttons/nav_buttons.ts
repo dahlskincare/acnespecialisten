@@ -42,9 +42,7 @@ namespace NavButtons {
 
     export function setActive(button: HTMLElement) {
         let target = document.querySelector(`#${button.dataset['id']}`);
-        let offset = document.body.clientWidth >= 1024 ? 150 : 72;
-        window.scrollTo(0, target.getBoundingClientRect().top + window.scrollY - offset);
-
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
         let parent = button.parentElement;
         for (var i = 0; i < parent.children.length; i++) {
             parent.children[i].classList.remove('active');

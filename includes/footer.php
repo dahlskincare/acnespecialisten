@@ -121,7 +121,7 @@
                 <div id="second-link-row">
                     <div class="columns is-mobile is-gapless">
                         <div class="column">
-                            <h2>Kunddtjänst</h2>
+                            <h2>Kundtjänst</h2>
                             <ul>
                                 <li>
                                     <a href="faq" class="button text grey compact l10n">Frågor & Svar</a>
