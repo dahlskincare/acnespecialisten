@@ -36,8 +36,8 @@ namespace NavButtons {
         }
     } else {
         // small screen
-        let header = document.querySelector('header') as HTMLElement;
-        header.style.position = 'relative';
+        //let header = document.querySelector('header') as HTMLElement;
+        //header.style.position = 'relative';
     }
 
     export function setActive(button: HTMLElement) {

@@ -36,8 +36,8 @@ var NavButtons;
     }
     else {
         // small screen
-        var header = document.querySelector('header');
-        header.style.position = 'relative';
+        //let header = document.querySelector('header') as HTMLElement;
+        //header.style.position = 'relative';
     }
     function setActive(button) {
         var target = document.querySelector("#".concat(button.dataset['id']));
