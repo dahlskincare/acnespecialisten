@@ -41,8 +41,7 @@ var NavButtons;
     }
     function setActive(button) {
         var target = document.querySelector("#".concat(button.dataset['id']));
-        var offset = document.body.clientWidth >= 1024 ? 150 : 72;
-        window.scrollTo(0, target.getBoundingClientRect().top + window.scrollY - offset);
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
         var parent = button.parentElement;
         for (var i = 0; i < parent.children.length; i++) {
             parent.children[i].classList.remove('active');
