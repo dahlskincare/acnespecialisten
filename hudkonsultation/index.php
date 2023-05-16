@@ -196,7 +196,7 @@ $categories = array(
                     <?php foreach ($categories as $category) { ?>
                         <?php include('widgets/consultation_category/consultation_category.php') ?>
                         <hr class="is-hidden-desktop" />
-                    <? } ?>
+                    <?php } ?>
                 </section>
                 <section id="results" class="large-margin">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php') ?>
