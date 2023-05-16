@@ -36,8 +36,6 @@ $nav_buttons = array(
             <section id="banner">
                   <div class="container">
                         <div class="flex-row justify-space-between">
-                              <div class="is-hidden-touch">
-                              </div>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
                         </div>
                   </div>
