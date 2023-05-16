@@ -832,7 +832,7 @@ $brands = array(
                               <?php } ?>
                         </section>
                         <section id="products">
-                              <h2 class="h500">Förebygg ny akne</h2>
+                              <h2 class="h500">Förebygg uppkomsten av ny akne</h2>
                               <hr class="is-hidden-mobile mt-xl">
                               <?php foreach ($products as $service) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
