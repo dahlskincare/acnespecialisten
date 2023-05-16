@@ -395,21 +395,7 @@ $results = array(
             type: 'Severe',
             treatment: new ResultTreatment(
                   duration: 'Efter 3 månaders behandling av <a href="behandlingar/akne">akne</a>',
-                  procedures: array(
-                        new ResultProcedure(
-                              image: 'https://via.placeholder.com/102x102.webm',
-                              name: 'Problem skin facials',
-                              count: '3 times'
-                        ),
-                  ),
-                  product: new ResultProduct(
-                        image: 'https://via.placeholder.com/102x102.webm',
-                        name: 'Product bundle for light acne',
-                  ),
-                  employee: new ResultEmployee(
-                        image: 'https://via.placeholder.com/102x102.webm',
-                        name: 'Patrick Minogue'
-                  ),
+                 
             )
       ),
 );
@@ -499,9 +485,9 @@ $skin_guide_articles = array(
       new SkinGuideArticle(
             id: 'how-hormones-effect',
             title: 'How hormones effect?',
-            subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
+            subtitle: '',
             problem: 'Acne',
-            description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
+            description: "",
             image_small: 'https://via.placeholder.com/426x324.webp',
             image_large: 'https://via.placeholder.com/872x456.jpg',
             category_id: 'category-here',
@@ -510,9 +496,9 @@ $skin_guide_articles = array(
       new SkinGuideArticle(
             id: 'how-hormones-effect',
             title: 'How hormones effect?',
-            subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
+            subtitle: '',
             problem: 'Acne',
-            description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
+            description: "",
             image_small: 'https://via.placeholder.com/426x324.webp',
             image_large: 'https://via.placeholder.com/872x456.jpg',
             category_id: 'category-here',
