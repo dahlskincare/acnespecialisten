@@ -1,0 +1,85 @@
+@import '../styles/util/sizes';
+@import '../styles/util/colors';
+@import '../styles/util/mixins';
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*Refactoring in progress*/
+
+section#banner {
+  background-color: $deep-sea-400;
+  padding: $xxs 0;
+  overflow: hidden;
+
+  .badges-widget {
+    flex: 1;
+
+    .badge {
+      @include button-text-color($white-500);
+      color: $white-500;
+      background-color: transparent;
+    }
+
+    .badge:first-child {
+      padding-left: 0;
+    }
+
+    .badge:last-child {
+      padding-right: 0;
+    }
+  }
+
+  @include desktop {
+    .badges-widget {
+      flex: 0;
+    }
+
+    .breadcrumbs-widget {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
+}
+
+h1 {
+  @include h600;
+}
+
+.cookies-about-cookies {
+  @include h500;
+  margin-top: $xl3;
+}
+
+.cookies-about-cookies-text {
+  @include p200;
+  margin-top: $xl;
+}
+
+h3 {
+  @include h300;
+}
+
+ol {
+  padding-left: $m;
+
+  li {
+    @include p200;
+    margin-top: $m;
+  }
+
+  li:first-child {
+    margin-top: 0;
+  }
+}
+
+p {
+  @include p200;
+
+}
+
+h2 {
+  @include h500;
+  margin-top: $xl3;
+}
