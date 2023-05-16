@@ -71,7 +71,7 @@ $service = new Service(
     content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
     image_small: 'https://via.placeholder.com/102x102.jpg',
     image_large: 'https://via.placeholder.com/200x200.jpg',
-    consultation_url: 'https://dahlskincare.com/skin-consultation',
+    consultation_url: 'hudkonsultation',
     booking_url: null
 );
 $solutions = array(
@@ -83,7 +83,7 @@ $solutions = array(
         content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        consultation_url: 'https://dahlskincare.com/skin-consultation',
+        consultation_url: 'hudkonsultation',
         booking_url: 'https://www.bokadirekt.se/'
     ),
     new Service(
@@ -94,7 +94,7 @@ $solutions = array(
         content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        consultation_url: 'https://dahlskincare.com/skin-consultation',
+        consultation_url: 'hudkonsultation',
         booking_url: 'https://www.bokadirekt.se/'
     ),
     new Service(
@@ -105,7 +105,7 @@ $solutions = array(
         content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        consultation_url: 'https://dahlskincare.com/skin-consultation',
+        consultation_url: 'hudkonsultation',
         booking_url: 'https://www.bokadirekt.se/'
     ),
     new Service(
@@ -116,7 +116,7 @@ $solutions = array(
         content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        consultation_url: 'https://dahlskincare.com/skin-consultation',
+        consultation_url: 'hudkonsultation',
         booking_url: 'https://www.bokadirekt.se/'
     )
 
@@ -162,15 +162,16 @@ $specialists = array(
                                 <?php echo $header_title ?>
                             </h2>
                             <p class="p200 mt-m"><?php echo $header_description ?></p>
-                            <div class="mt-xl columns is-2 is-variable">
-                                <div class="column">
-                                    <a href="https://www.dahlskincare.com/skin-consultation" target="_blank" class="button white expand l10n">Get a free consultation</a>
-                                </div>
-                                <div class="column">
-                                    <a href="https://bokadirekt.se" target="_blank" class="button white expand l10n">Book a treatment</a>
+                            <div class="mt-xl">
+                                <div class="columns is-2 is-variable">
+                                    <div class="column">
+                                        <a href="hudkonsultation" class="button white expand l10n">Get a free consultation</a>
+                                    </div>
+                                    <div class="column">
+                                        <a href="https://bokadirekt.se" class="button white expand l10n">Book a treatment</a>
+                                    </div>
                                 </div>
                             </div>
-                            </p>
                         </div>
                     </div>
                 </div>
@@ -187,12 +188,14 @@ $specialists = array(
                         <p class="mt-xs">
                             <?php echo $header_description ?>
                         </p>
-                        <div class="mt-xl columns is-mobile">
-                            <div class="column is-half">
-                                <a href="https://dahlskincare.com/skin-consultation" target="_blank" class="button b200 white expand l10n">Free consultation</a>
-                            </div>
-                            <div class="column is-half">
-                                <a href="https://bokadirekt.se" target="_blank" class="button b200 white expand l10n">Book a treatment</a>
+                        <div class="mt-xl">
+                            <div class="columns is-mobile">
+                                <div class="column is-half">
+                                    <a href="hudkonsultation" class="button b200 white expand l10n">Free consultation</a>
+                                </div>
+                                <div class="column is-half">
+                                    <a href="https://bokadirekt.se" class="button b200 white expand l10n">Book a treatment</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -215,8 +218,8 @@ $specialists = array(
                                 <?php echo $header_description ?>
                             </p>
                             <div class="mt-xl flex-row" id="book-buttons">
-                                <a href="https://www.dahlskincare.com/skin-consultation" target="_blank" class="button b200 white l10n">Get a free consultation</a>
-                                <a href="https://bokadirekt.se" target="_blank" class="button b200 white l10n">Book a treatment</a>
+                                <a href="hudkonsultation" class="button b200 white l10n">Get a free consultation</a>
+                                <a href="https://bokadirekt.se" class="button b200 white l10n">Book a treatment</a>
                             </div>
                         </div>
                     </div>
@@ -245,7 +248,7 @@ $specialists = array(
                         <h2 class="h500 l10n">Treatment approach</h2>
                         <?php
                         $approach_cards = array(
-                            new ApproachCard('01', 'Define', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.', 'Get a free consultation', 'https://www.dahlskincare.com/skin-consultation'),
+                            new ApproachCard('01', 'Define', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.', 'Get a free consultation', 'hudkonsultation'),
                             new ApproachCard('02', 'Treat', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.', 'View treatments', 'treatments'),
                         );
                         ?>
@@ -331,7 +334,7 @@ $specialists = array(
                         $reviews_narrow = true;
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                         ?>
-                        <a class="mt-xl button outline expand auto-width l10n" href="omdomen">View all reviews</a>
+                        <a class="mt-xl button outline expand auto-width l10n" href="https://se.trustpilot.com/review/acnespecialisten.se">View all reviews</a>
                     </section>
                     <section id="faq">
                         <h2 class="big l10n">Questions & answers</h2>

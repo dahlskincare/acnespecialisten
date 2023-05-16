@@ -40,7 +40,7 @@ class Problem
 $problems['akne'] = new Problem(
       label: 'Akne',
       url: 'problem/akne',
-      consultation_url: 'https://dahlskincare.com/skin-consultation',
+      consultation_url: 'hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
       image_small: 'images/problems/small/acne.jpg',
       image_medium: 'images/problems/medium/acne.jpg',
@@ -50,7 +50,7 @@ $problems['akne'] = new Problem(
 $problems['aknearr'] = new Problem(
       label: 'Akneärr',
       url: 'problem/aknearr',
-      consultation_url: 'https://dahlskincare.com/skin-consultation',
+      consultation_url: 'hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
       image_small: 'images/problems/small/acne-scars.jpg',
       image_medium: 'images/problems/medium/acne-scars.jpg',
@@ -60,7 +60,7 @@ $problems['aknearr'] = new Problem(
 $problems['pormaskar'] = new Problem(
       label: 'Pormaskar',
       url: 'problem/pormaskar',
-      consultation_url: 'https://dahlskincare.com/skin-consultation',
+      consultation_url: 'hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
       image_small: 'images/problems/small/comedones.jpg',
       image_medium: 'images/problems/medium/comedones.jpg',
@@ -70,7 +70,7 @@ $problems['pormaskar'] = new Problem(
 $problems['rosacea'] = new Problem(
       label: 'Rosacea',
       url: 'problem/rosacea',
-      consultation_url: 'https://dahlskincare.com/skin-consultation',
+      consultation_url: 'hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
       image_small: 'images/problems/small/rosacea.jpg',
       image_medium: 'images/problems/medium/rosacea.jpg',
@@ -80,7 +80,7 @@ $problems['rosacea'] = new Problem(
 $problems['seborre'] = new Problem(
       label: 'Seborré',
       url: 'problem/seborre',
-      consultation_url: 'https://dahlskincare.com/skin-consultation',
+      consultation_url: 'hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
       image_small: 'images/problems/small/seborrhea.jpg',
       image_medium: 'images/problems/medium/seborrhea.jpg',
@@ -90,7 +90,7 @@ $problems['seborre'] = new Problem(
 $problems['perioral-dermatit'] = new Problem(
       label: 'Perioral dermatit',
       url: 'problem/perioral-dermatitis',
-      consultation_url: 'https://dahlskincare.com/skin-consultation',
+      consultation_url: 'hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
       image_small: 'images/problems/small/perioral-dermatitis.jpg',
       image_medium: 'images/problems/medium/perioral-dermatitis.jpg',
@@ -100,7 +100,7 @@ $problems['perioral-dermatit'] = new Problem(
 $problems['stora-porer'] = new Problem(
       label: 'Stora porer',
       url: 'problem/stora-porer',
-      consultation_url: 'https://dahlskincare.com/skin-consultation',
+      consultation_url: 'hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
       image_small: 'images/problems/small/large-pores.jpg',
       image_medium: 'images/problems/medium/large-pores.jpg',
@@ -110,7 +110,7 @@ $problems['stora-porer'] = new Problem(
 $problems['pigmentflackar'] = new Problem(
       label: 'Pigmentfläckar',
       url: 'problem/pigmentflackar',
-      consultation_url: 'https://dahlskincare.com/skin-consultation',
+      consultation_url: 'hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
       image_small: 'images/problems/small/pigmentation.jpg',
       image_medium: 'images/problems/medium/pigmentation.jpg',
@@ -120,7 +120,7 @@ $problems['pigmentflackar'] = new Problem(
 $problems['blandhy'] = new Problem(
       label: 'Blandhy',
       url: 'problem/blandhy',
-      consultation_url: 'https://dahlskincare.com/skin-consultation',
+      consultation_url: 'hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
       image_small: 'images/problems/small/oily-combination-skin.jpg',
       image_medium: 'images/problems/medium/oily-combination-skin.jpg',
@@ -130,7 +130,7 @@ $problems['blandhy'] = new Problem(
 $problems['torr-kanslig-hy'] = new Problem(
       label: 'Torr & Känslig hy',
       url: 'problem/torr-kanslig-hy',
-      consultation_url: 'https://dahlskincare.com/skin-consultation',
+      consultation_url: 'hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
       image_small: 'images/problems/small/dry-and-sensitive-skin.jpg',
       image_medium: 'images/problems/medium/dry-and-sensitive-skin.jpg',
@@ -140,7 +140,7 @@ $problems['torr-kanslig-hy'] = new Problem(
 $problems['mogen-hy'] = new Problem(
       label: 'Mogen Hy',
       url: 'problem/mogen-hy',
-      consultation_url: 'https://dahlskincare.com/skin-consultation',
+      consultation_url: 'hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
       image_small: 'images/problems/small/mature-skin.jpg',
       image_medium: 'images/problems/medium/mature-skin.jpg',
@@ -150,7 +150,7 @@ $problems['mogen-hy'] = new Problem(
 $problems['milier'] = new Problem(
       label: 'Milier',
       url: 'problem/milier',
-      consultation_url: 'https://dahlskincare.com/skin-consultation',
+      consultation_url: 'hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
       image_small: 'images/problems/small/milier.jpg',
       image_medium: 'images/problems/medium/milier.jpg',
@@ -160,7 +160,7 @@ $problems['milier'] = new Problem(
 $problems['ytliga-blodkarl'] = new Problem(
       label: 'Ytliga Blodkärl',
       url: 'problem/ytliga-blodkarl',
-      consultation_url: 'https://dahlskincare.com/skin-consultation',
+      consultation_url: 'hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
       image_small: 'images/problems/small/visible-blood-vessels.jpg',
       image_medium: 'images/problems/medium/visible-blood-vessels.jpg',
@@ -170,7 +170,7 @@ $problems['ytliga-blodkarl'] = new Problem(
 $problems['hudforandringar'] = new Problem(
       label: 'Hudförändringar',
       url: 'problem/hudforandringar',
-      consultation_url: 'https://dahlskincare.com/skin-consultation',
+      consultation_url: 'hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
       image_small: 'images/problems/small/skin-imperfections.jpg',
       image_medium: 'images/problems/medium/skin-imperfections.jpg',
@@ -180,7 +180,7 @@ $problems['hudforandringar'] = new Problem(
 $problems['finnar'] = new Problem(
       label: 'Finnar',
       url: 'problem/finnar',
-      consultation_url: 'https://dahlskincare.com/skin-consultation',
+      consultation_url: 'hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
       image_small: 'images/problems/small/pimples.jpg',
       image_medium: 'images/problems/medium/pimples.jpg',
@@ -190,7 +190,7 @@ $problems['finnar'] = new Problem(
 $problems['bristningar'] = new Problem(
       label: 'Bristningar',
       url: 'problem/bristningar',
-      consultation_url: 'https://dahlskincare.com/skin-consultation',
+      consultation_url: 'hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
       image_small: 'images/problems/small/stretch-marks.jpg',
       image_medium: 'images/problems/medium/stretch-marks.jpg',
@@ -200,7 +200,7 @@ $problems['bristningar'] = new Problem(
 $problems['operations-arr'] = new Problem(
       label: 'Operations & Skadeärr',
       url: 'problem/operations-arr',
-      consultation_url: 'https://dahlskincare.com/skin-consultation',
+      consultation_url: 'hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
       image_small: 'images/problems/small/operational-scars.jpg',
       image_medium: 'images/problems/medium/operational-scars.jpg',
@@ -210,7 +210,7 @@ $problems['operations-arr'] = new Problem(
 $problems['oonskad-harvaxt'] = new Problem(
       label: 'Oönskat hår',
       url: 'problem/oonskad-harvaxt',
-      consultation_url: 'https://dahlskincare.com/skin-consultation',
+      consultation_url: 'hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
       image_small: 'images/problems/small/unwanted-hair.jpg',
       image_medium: 'images/problems/medium/unwanted-hair.jpg',
@@ -220,7 +220,7 @@ $problems['oonskad-harvaxt'] = new Problem(
 $problems['arr-fran-finnar'] = new Problem(
       label: 'Ärr från finnar',
       url: 'problem/arr-fran-finnar',
-      consultation_url: 'https://dahlskincare.com/skin-consultation',
+      consultation_url: 'hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
       image_small: 'images/problems/small/scars-from-pimples.jpg',
       image_medium: 'images/problems/medium/scars-from-pimples.jpg',
@@ -307,7 +307,7 @@ $problem_areas = array(
                         title: 'Hudproblem',
                         description: 'Hudproblem som akne, rosacea, pormaskar och finnar kan påverka individer i alla åldrar och orsaka obehag, nedsatt självkänsla och försämrad livskvalitet. På Acnespecialisten arbetar vi med att behandla och förbättra problemhy genom att erbjuda skräddarsydda lösningar och behandlingar för varje enskild kund. Vi erbjuder en rad behandlingsmetoder och tekniker anpassade för att hantera olika hudproblem. För att veta mer om de olika problemen och hur vi kan hjälpa dig, klicka på det problem du misstänker att du har:',
                         description_extended: 'Om du är osäker på vilket hudproblem du har eller vilken behandling som skulle passa dig bäst, rekommenderar vi att du bokar en kostnadsfri hudkonsultation. Under konsultationen kommer en av våra erfarna hudterapeuter att undersöka din hud, identifiera eventuella problem och rekommendera en behandlingsplan som passar dina specifika behov och mål. Boka din gratis hudkonsultation idag och ta det första steget mot en friskare och mer välmående hud.',
-                        button_url: 'https://dahlskincare.com/consultation',
+                        button_url: 'hudkonsultation',
                         button_label: 'Få gratis konsultation'
                   );
                   include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/green_header_banner.php');
@@ -371,7 +371,7 @@ $problem_areas = array(
                                                                   View problem details
                                                             </a>
                                                             <hr>
-                                                            <a href="https://www.dahlskincare.com/skin-consultation" target="_blank" class="button expand l10n">Få gratis konsultation</a>
+                                                            <a href="hudkonsultation" class="button expand l10n">Få gratis konsultation</a>
                                                             <!-- TODO: procedure link -->
                                                             <a href="#" class="mt-s button expand l10n">Se behandlingar</a>
                                                       </div>
@@ -380,11 +380,11 @@ $problem_areas = array(
                                                             <hr>
                                                             <div class="columns is-multiline">
                                                                   <div class="column mt-xxs is-full is-half-widescreen">
-                                                                        <a href="https://www.dahlskincare.com/skin-consultation" target="_blank" class="button expand l10n">Få gratis konsultation</a>
+                                                                        <a href="hudkonsultation" class="button expand l10n">Få gratis konsultation</a>
                                                                   </div>
                                                                   <div class="column mt-xxs is-full is-half-widescreen">
                                                                         <!-- TODO: procedure link -->
-                                                                        <a href="#" target="_blank" class="button expand l10n">Se behandlingar</a>
+                                                                        <a href="#" class="button expand l10n">Se behandlingar</a>
                                                                   </div>
                                                             </div>
                                                       </div>
@@ -418,14 +418,14 @@ $problem_areas = array(
                                                 <?php icon('arrow-right') ?>
                                           </button>
                                     </div>
-                                    <a href="reviews" class="ml-l button compact text">
+                                    <a href="https://se.trustpilot.com/review/acnespecialisten.se" class="ml-l button compact text">
                                           <span class="l10n">Läs fler omdömen</span>
                                           <?php icon('navigate-next') ?>
                                     </a>
                               </div>
                         </div>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                        <a class="mt-xl button outline expand is-hidden-tablet l10n" href="omdomen">Läs fler omdömen</a>
+                        <a class="mt-xl button outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se">Läs fler omdömen</a>
                   </div>
             </section>
             <section id="faq">

@@ -329,6 +329,22 @@ html {
 
         main {
             flex: auto;
+
+
+            section.large-margin {
+                margin-top: 72px;
+
+                @include desktop {
+                    margin-top: 104px;
+                }
+            }
+
+            @media screen and (min-width: $tablet) {
+                .button.auto-width {
+                    width: auto !important;
+                    box-sizing: content-box;
+                }
+            }
         }
 
         footer {

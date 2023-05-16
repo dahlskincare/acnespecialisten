@@ -29,10 +29,10 @@
                         <video autoplay muted loop id="banner-video">
                         </video>
                         <div class="container">
-                              <h1 class="big l10n">Hudspecialister</h1>
+                              <h1 class="big l10n">Hudspecialisterna</h1>
                         </div>
                   </div>
-                  <a href="https://dahlskincare.com/skin-consultation" target="_blank">
+                  <a href="hudkonsultation">
                         <div class="container">
                               <div class="banner-bar elevation-medium is-hidden-desktop" id="banner-bar-small">
                                     <button class="white">
@@ -172,7 +172,7 @@
                                     title: 'Identifiera',
                                     content: 'Vi erbjuder alltid gratis konsultation, där du får en personlig hudterapeut och en individuell behandlingsplan baserad på din hudanalys. Förebilder tas för att jämföra resultat före och efter behandling.',
                                     button_label: 'Få en gratis konsultation',
-                                    button_url: 'https://www.dahlskincare.com/skin-consultation'
+                                    button_url: 'hudkonsultation'
                               ),
                               new ApproachCard(
                                     number: '02',
@@ -312,7 +312,7 @@
                                           <button class="round-large grey" onclick="Reviews.scroll(-1)"><?php icon('arrow-left') ?></button>
                                           <button class="round-large grey" onclick="Reviews.scroll(1)"><?php icon('arrow-right') ?></button>
                                     </div>
-                                    <a href="omdomen" class="ml-l button compact text">
+                                    <a href="https://se.trustpilot.com/review/acnespecialisten.se" class="ml-l button compact text">
                                           <span class="l10n">Läs fler omdömen</span>
                                           <?php icon('navigate-next') ?>
                                     </a>
@@ -361,7 +361,7 @@
                               ),
                         );
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="reviews">Läs fler omdömen</a>
+                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se">Läs fler omdömen</a>
                   </section>
                   <section id="services">
                         <div class="h500 l10n">Behandlingar</div>

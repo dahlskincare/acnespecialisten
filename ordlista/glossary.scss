@@ -190,16 +190,8 @@ section#title {
     margin-top: $xl;
 }
 
-section.large-margin {
-    margin-top: 72px;
-}
-
 @include desktop {
     section#title {
         margin-top: $xl3;
-    }
-
-    section.large-margin {
-        margin-top: 104px;
     }
 }

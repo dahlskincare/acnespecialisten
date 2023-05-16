@@ -16,7 +16,7 @@ $consultation_banner_button_label = 'Get a free consultation';
             </p>
         </div>
         <div class="column">
-            <a href="https://dahlskincare.com/skin-consultation" class="button b200 white l10n"><?php echo $consultation_banner_button_label ?></a>
+            <a href="hudkonsultation" class="button b200 white l10n"><?php echo $consultation_banner_button_label ?></a>
         </div>
     </div>
 </div>

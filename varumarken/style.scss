@@ -1,0 +1,224 @@
+@import 'widgets/brand_card/brand_card';
+
+html {
+    body {
+        section#banner {
+            #brands-container {
+                margin-top: $s;
+                margin-left: -$m;
+                margin-right: -$m;
+                position: relative;
+                overflow: hidden;
+                background-color: $white-500;
+
+                #brands {
+                    padding-bottom: $m;
+                    padding-left: $m;
+                    padding-right: $m;
+                    position: relative;
+
+                    overflow-y: auto;
+                    scroll-behavior: smooth;
+                    scrollbar-width: none;
+                    -ms-overflow-style: none;
+                    display: flex;
+
+                    #brands-shadow {
+                        @include elevation-medium();
+                        display: flex;
+                        border-radius: $radius-l;
+                    }
+
+
+                    a {
+                        .brand {
+                            border-left: 1px solid $light-200;
+                            border-top: 1px solid $light-200;
+                            border-bottom: 1px solid $light-200;
+                            padding: $xxl $s;
+                        }
+                    }
+
+                    a:first-child {
+                        .brand {
+                            border-top-left-radius: $radius-l;
+                            border-bottom-left-radius: $radius-l;
+
+                        }
+                    }
+
+                    a:last-child {
+                        .brand {
+                            border-right: 1px solid $light-200;
+                            border-top-right-radius: $radius-l;
+                            border-bottom-right-radius: $radius-l;
+
+
+                        }
+                    }
+
+                }
+
+                #brands::-webkit-scrollbar {
+                    width: 0;
+                    height: 0;
+                }
+
+                div.scroll-button {
+                    background-color: $white-500;
+                    position: absolute;
+                    top: 0;
+                    height: 100%;
+                    padding: $m;
+                    box-sizing: border-box;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                }
+
+                div.scroll-button#scroll-button-previous {
+                    background: linear-gradient(90deg, $white-500 70%, rgba(255, 255, 255, 0) 100%);
+                    padding-right: $xl*2;
+                }
+
+                div.scroll-button#scroll-button-next {
+                    background: linear-gradient(270deg, $white-500 70%, rgba(255, 255, 255, 0) 100%);
+                    padding-left: $xl*2;
+                    right: 0;
+                }
+
+
+            }
+
+            @include desktop {
+                #ghb-title-col {
+                    h1 {
+                        width: 300px;
+                    }
+                }
+
+                .green-header-banner-widget {
+                    padding-bottom: 102px;
+                }
+
+                #brands-container {
+                    margin-top: - $xl3;
+                    margin-left: 0;
+                    margin-right: 0;
+                    @include elevation-medium();
+                    border-radius: $radius-l;
+
+                    #brands {
+                        padding-left: 0;
+                        padding-right: 0;
+                        padding-bottom: 0;
+                    }
+                }
+            }
+        }
+
+        section#links {
+            margin-top: $xl;
+
+            div#item-container {
+                .item {
+                    margin-top: $l;
+
+                    p {
+                        color: $dark-200;
+                        margin-top: $xxs;
+                        text-align: center;
+                        padding: 14px;
+                        background-color: $light-50;
+                    }
+
+                    a {
+                        font-weight: bold;
+                        color: $black-500;
+                    }
+                }
+
+
+
+                @media screen and (min-width: $tablet) {
+                    display: grid;
+                    grid-template-columns: repeat(4, 1fr);
+                    grid-template-rows: repeat(2, 1fr);
+                    gap: $xxs;
+                    justify-items: stretch;
+                    align-items: stretch;
+
+                    .item {
+                        margin-top: 0;
+                        background-color: $light-50;
+                        border-radius: $radius-s;
+                        padding: $xl;
+
+                        p {
+                            margin-top: 0;
+                            text-align: left;
+                            padding: 0;
+                        }
+
+                        .service-label {
+                            margin-top: $m;
+                            color: $dark-200;
+                        }
+                    }
+
+                    #item-0 {
+                        grid-column-start: 1;
+                        grid-row-start: 1;
+                    }
+
+                    #item-1 {
+                        grid-column-start: 1;
+                        grid-row-start: 2;
+                    }
+
+                    #item-2 {
+                        grid-column-start: 2;
+                        grid-row-start: 1;
+                    }
+
+                    #item-3 {
+                        grid-column-start: 2;
+                        grid-row-start: 2;
+                    }
+
+                    #item-4 {
+                        grid-column-start: 3;
+                        grid-row-start: 1;
+                    }
+
+                    #item-5 {
+                        grid-column-start: 3;
+                        grid-row-start: 2;
+                    }
+
+                    #item-6 {
+                        grid-column-start: 4;
+                        grid-row-start: 1;
+                    }
+
+                    #item-7 {
+                        grid-column-start: 4;
+                        grid-row-start: 2;
+                    }
+                }
+            }
+
+            @include desktop {
+                margin-top: $xl3;
+            }
+        }
+
+        section#cards {
+            margin-top: $xl;
+
+            @include desktop {
+                margin-top: $m;
+            }
+        }
+    }
+}

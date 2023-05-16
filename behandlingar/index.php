@@ -107,7 +107,7 @@ $service_categories = array(
                 content: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...',
                 image_small: 'https://via.placeholder.com/200x200.jpg',
                 image_large: 'https://via.placeholder.com/424x324.jpg',
-                consultation_url: 'https://dahlskincare.com/skin-consultation',
+                consultation_url: 'hudkonsultation',
                 booking_url: 'https://bokadirekt.se'
             ),
             new Service(
@@ -118,7 +118,7 @@ $service_categories = array(
                 content: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...',
                 image_small: 'https://via.placeholder.com/200x200.jpg',
                 image_large: 'https://via.placeholder.com/424x324.jpg',
-                consultation_url: 'https://dahlskincare.com/skin-consultation',
+                consultation_url: 'hudkonsultation',
                 booking_url: 'https://bokadirekt.se'
             ),
             new Service(
@@ -129,7 +129,7 @@ $service_categories = array(
                 content: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...',
                 image_small: 'https://via.placeholder.com/200x200.jpg',
                 image_large: 'https://via.placeholder.com/424x324.jpg',
-                consultation_url: 'https://dahlskincare.com/skin-consultation',
+                consultation_url: 'hudkonsultation',
                 booking_url: 'https://bokadirekt.se'
             ),
             new Service(
@@ -140,7 +140,7 @@ $service_categories = array(
                 content: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...',
                 image_small: 'https://via.placeholder.com/200x200.jpg',
                 image_large: 'https://via.placeholder.com/424x324.jpg',
-                consultation_url: 'https://dahlskincare.com/skin-consultation',
+                consultation_url: 'hudkonsultation',
                 booking_url: 'https://bokadirekt.se'
             ),
         ),
@@ -162,7 +162,7 @@ $service_categories = array(
                 content: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...',
                 image_small: 'https://via.placeholder.com/200x200.jpg',
                 image_large: 'https://via.placeholder.com/424x324.jpg',
-                consultation_url: 'https://dahlskincare.com/skin-consultation',
+                consultation_url: 'hudkonsultation',
                 booking_url: 'https://bokadirekt.se'
             ),
         ),
@@ -184,7 +184,7 @@ $service_categories = array(
                 content: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...',
                 image_small: 'https://via.placeholder.com/200x200.jpg',
                 image_large: 'https://via.placeholder.com/424x324.jpg',
-                consultation_url: 'https://dahlskincare.com/skin-consultation',
+                consultation_url: 'hudkonsultation',
                 booking_url: 'https://bokadirekt.se'
             ),
             new Service(
@@ -195,7 +195,7 @@ $service_categories = array(
                 content: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...',
                 image_small: 'https://via.placeholder.com/200x200.jpg',
                 image_large: 'https://via.placeholder.com/424x324.jpg',
-                consultation_url: 'https://dahlskincare.com/skin-consultation',
+                consultation_url: 'hudkonsultation',
                 booking_url: 'https://bokadirekt.se'
             ),
         ),
@@ -217,7 +217,7 @@ $service_categories = array(
                 content: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...',
                 image_small: 'https://via.placeholder.com/200x200.jpg',
                 image_large: 'https://via.placeholder.com/424x324.jpg',
-                consultation_url: 'https://dahlskincare.com/skin-consultation',
+                consultation_url: 'hudkonsultation',
                 booking_url: 'https://bokadirekt.se'
             ),
             new Service(
@@ -228,7 +228,7 @@ $service_categories = array(
                 content: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...',
                 image_small: 'https://via.placeholder.com/200x200.jpg',
                 image_large: 'https://via.placeholder.com/424x324.jpg',
-                consultation_url: 'https://dahlskincare.com/skin-consultation',
+                consultation_url: 'hudkonsultation',
                 booking_url: 'https://bokadirekt.se'
             ),
         ),
@@ -250,7 +250,7 @@ $service_categories = array(
                 content: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...',
                 image_small: 'https://via.placeholder.com/200x200.jpg',
                 image_large: 'https://via.placeholder.com/424x324.jpg',
-                consultation_url: 'https://dahlskincare.com/skin-consultation',
+                consultation_url: 'hudkonsultation',
                 booking_url: 'https://bokadirekt.se'
             ),
         ),
@@ -272,7 +272,7 @@ $service_categories = array(
                 content: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...',
                 image_small: 'https://via.placeholder.com/200x200.jpg',
                 image_large: 'https://via.placeholder.com/424x324.jpg',
-                consultation_url: 'https://dahlskincare.com/skin-consultation',
+                consultation_url: 'hudkonsultation',
                 booking_url: 'https://bokadirekt.se'
             ),
             new Service(
@@ -283,7 +283,7 @@ $service_categories = array(
                 content: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...',
                 image_small: 'https://via.placeholder.com/200x200.jpg',
                 image_large: 'https://via.placeholder.com/424x324.jpg',
-                consultation_url: 'https://dahlskincare.com/skin-consultation',
+                consultation_url: 'hudkonsultation',
                 booking_url: 'https://bokadirekt.se'
             ),
         ),
@@ -305,7 +305,7 @@ $service_categories = array(
                 content: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...',
                 image_small: 'https://via.placeholder.com/200x200.jpg',
                 image_large: 'https://via.placeholder.com/424x324.jpg',
-                consultation_url: 'https://dahlskincare.com/skin-consultation',
+                consultation_url: 'hudkonsultation',
                 booking_url: 'https://bokadirekt.se'
             ),
             new Service(
@@ -316,7 +316,7 @@ $service_categories = array(
                 content: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...',
                 image_small: 'https://via.placeholder.com/200x200.jpg',
                 image_large: 'https://via.placeholder.com/424x324.jpg',
-                consultation_url: 'https://dahlskincare.com/skin-consultation',
+                consultation_url: 'hudkonsultation',
                 booking_url: 'https://bokadirekt.se'
             ),
         ),
@@ -338,7 +338,7 @@ $service_categories = array(
                 content: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...',
                 image_small: 'https://via.placeholder.com/200x200.jpg',
                 image_large: 'https://via.placeholder.com/424x324.jpg',
-                consultation_url: 'https://dahlskincare.com/skin-consultation',
+                consultation_url: 'hudkonsultation',
                 booking_url: 'https://bokadirekt.se'
             ),
         ),
@@ -360,7 +360,7 @@ $service_categories = array(
                 content: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...',
                 image_small: 'https://via.placeholder.com/200x200.jpg',
                 image_large: 'https://via.placeholder.com/424x324.jpg',
-                consultation_url: 'https://dahlskincare.com/skin-consultation',
+                consultation_url: 'hudkonsultation',
                 booking_url: 'https://bokadirekt.se'
             ),
             new Service(
@@ -371,7 +371,7 @@ $service_categories = array(
                 content: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...',
                 image_small: 'https://via.placeholder.com/200x200.jpg',
                 image_large: 'https://via.placeholder.com/424x324.jpg',
-                consultation_url: 'https://dahlskincare.com/skin-consultation',
+                consultation_url: 'hudkonsultation',
                 booking_url: 'https://bokadirekt.se'
             ),
         ),
@@ -393,7 +393,7 @@ $service_categories = array(
                 content: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...',
                 image_small: 'https://via.placeholder.com/200x200.jpg',
                 image_large: 'https://via.placeholder.com/424x324.jpg',
-                consultation_url: 'https://dahlskincare.com/skin-consultation',
+                consultation_url: 'hudkonsultation',
                 booking_url: 'https://bokadirekt.se'
             ),
         ),
@@ -415,7 +415,7 @@ $service_categories = array(
                 content: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...',
                 image_small: 'https://via.placeholder.com/200x200.jpg',
                 image_large: 'https://via.placeholder.com/424x324.jpg',
-                consultation_url: 'https://dahlskincare.com/skin-consultation',
+                consultation_url: 'hudkonsultation',
                 booking_url: 'https://bokadirekt.se'
             ),
         ),
@@ -450,7 +450,7 @@ $service_categories = array(
                 title: 'Behandlingar',
                 description: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
                 description_extended: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
-                button_url: 'https://dahlskincare.com/consultation',
+                button_url: 'hudkonsultation',
                 button_label: 'Gör en gratis konsultation'
             );
             include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/green_header_banner.php');
@@ -530,7 +530,7 @@ $service_categories = array(
                                 <?php icon('arrow-right') ?>
                             </button>
                         </div>
-                        <a href="reviews" class="ml-l button compact text">
+                        <a href="https://se.trustpilot.com/review/acnespecialisten.se" class="ml-l button compact text">
                             <span class="l10n">View all reviews</span>
                             <?php icon('navigate-next') ?>
                         </a>
@@ -538,7 +538,7 @@ $service_categories = array(
 
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="omdomen">View all reviews</a>
+                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se">View all reviews</a>
             </div>
         </section>
         <section id="faq">

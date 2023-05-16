@@ -68,7 +68,7 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
             content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din aknetyp och skapar en individuell behandlingsplan.',
-            url: 'https://www.dahlskincare.com/skin-consultation',
+            url: 'hudkonsultation',
             url_label: 'Få gratis konsultation'
       ),
       new TreatmentStep(
@@ -251,15 +251,15 @@ $type_categories = array(
 $symptoms = array(
       new Symptom(
             id: 'post-inflammatory-hyperpigmentaion',
-            name: 'Pormaskar',
-            aka: 'öppna komedoner',
+            name: 'Komedoner (Öppna)',
+            aka: 'Pormaskar',
             image: 'images/symptoms/small/post-inflammatory-hyperpigmentation.jpg',
             content: 'Pormaskar (öppna komedoner) är små, mörka prickar som uppstår när en por täpps igen av talg (hudens naturliga olja) och döda hudceller. De är ofta svarta eller bruna på grund av oxidation, som inträffar när melanin (hudens pigment) kommer i kontakt med luft. Pormaskar kan vara platta eller lätt upphöjda och är vanligt förekommande på näsan, kinderna, pannan och hakan.'
       ),
       new Symptom(
             id: 'atrophic-icepick-scars',
-            name: 'Whiteheads',
-            aka: 'stängda komedoner',
+            name: 'Komedoner (Stängda)',
+            aka: '"whiteheads"',
             image: 'images/symptoms/small/atrophic-icepick-scars.jpg',
             content: 'Whiteheads (slutna komedoner) är små, vita eller hudfärgade utbuktningar som uppstår när en por täpps till av talg och döda hudceller under hudytan. De är täckta av ett tunt lager hud, vilket förhindrar oxidation och därmed behåller sin ljusa färg. Whiteheads kan vara platta eller lätt upphöjda och är vanligt förekommande på pannan, kinderna och hakan.'
       ),
@@ -300,69 +300,154 @@ $service = new Service(
       content: 'Vid ett personligt möte med en acnespecialist utförs en undersökning av din akne. Vi tar före-bilder på din hud och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
       image_small: 'images/service-categories/small/consultation.jpg',
       image_large: 'images/service-categories/large/consultation.jpg',
-      consultation_url: 'https://dahlskincare.com/skin-consultation',
+      consultation_url: 'hudkonsultation',
       booking_url: null
 );
 $services = array(
-      new Service('acne-scars-microneedling', 'Ansiktsbehandling mot akne', '60 min', '995 kr', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears...', 'images/service-categories/small/microneedling.jpg', 'images/service-categories/large/microneedling.jpg', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922'),
-      new Service('acne-scars-laser', 'Laser for acne scars', '30 min', '1295 kr', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears...', 'images/service-categories/small/laser-problem-skin.jpg', 'images/service-categories/large/laser-problem-skin.jpg', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922'),
-      new Service('acne-scars-chemical-peeling', 'Chemical peeling for acne scars', '30 min', '1295 kr', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears...', 'images/service-categories/small/chemical-peeling.jpg', 'images/service-categories/large/chemical-peeling.jpg', 'https://dahlskincare.com/skin-consultation', 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922'),
+      new Service(
+            id: 'acne-scars-microneedling',
+            title: 'Ansiktsbehandling mot akne',
+            duration: '60 min',
+            price: '995 kr',
+            content: 'En effektiv ansiktsbehandling mot akne fokuserar på att noggrant extrahera orenheter som orsakar inflammation och skador i huden. Genom att försiktigt klämma ut akne och pormaskar kan behandlingen bidra till att förebygga ärrbildning och främja en snabbare läkning.',
+            image_small: 'images/service-categories/small/microneedling.jpg',
+            image_large: 'images/service-categories/large/microneedling.jpg',
+            consultation_url: 'hudkonsultation',
+            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
+      ),
+      new Service(
+            id: 'acne-scars-laser',
+            title: 'Laser mot akne',
+            duration: '50 min',
+            price: '2595 kr',
+            content: 'En avancerad laserbehandling mot akne erbjuder en effektiv lösning för att bekämpa aktiv akne och ärr som kan uppstå efter utbrott. Lasertekniken riktar sig mot de bakterier som orsakar inflammation och hjälper till att minska produktionen av talg, vilket minskar risken för framtida utbrott.',
+            image_small: 'images/service-categories/small/laser-problem-skin.jpg',
+            image_large: 'images/service-categories/large/laser-problem-skin.jpg',
+            consultation_url: 'hudkonsultation',
+            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
+      ),
+      new Service(
+            id: 'acne-scars-chemical-peeling',
+            title: 'Kemisk peeling mot akne',
+            duration: '30 min',
+            price: '1595 kr',
+            content: 'Kemisk peeling är en effektiv metod för att behandla akne. Genom att använda en speciellt framtagen lösning för att exfoliera huden, främjar kemisk peeling cellförnyelse, rensar tilltäppta porer och minskar inflammation. Resultatet är en jämnare hudton, mindre utbrott och färre synliga ärr. Det är en enkel och effektiv strategi för att ta kontroll över din akne och förbättra din hudhälsa.',
+            image_small: 'images/service-categories/small/chemical-peeling.jpg',
+            image_large: 'images/service-categories/large/chemical-peeling.jpg',
+            consultation_url: 'hudkonsultation',
+            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922'
+      ),
 );
 $products = array(
       new Service(
             id: 'produkter-mot-akne',
             title: 'Produkter mot akne',
             duration: null,
-            price: '995 kr',
-            content: 'Skriv en text om produkter här.',
+            price: 'Price from 995 kr',
+            content: 'För att effektivt bekämpa och förebygga akne är daglig behandling med rätt produkter avgörande. Våra akneprodukter är speciellt utformade för att hålla din hud i balans och förhindra att ny akne uppstår.',
             image_small: 'images/service-categories/small/consultation.jpg',
             image_large: 'images/service-categories/large/consultation.jpg',
             consultation_url: null,
             booking_url: null
       )
 );
-$treatment_solutions = array(
+$procedures = array(
       new Service(
             id: 'microneedling-for-acne',
-            title: 'Microneedling for acne',
-            duration: '30-60 min',
-            price: 'Price from 1295 kr',
-            content: 'Skriv en text om procedure här.',
+            title: 'Reparera acneärr',
+            duration: '6 procedures',
+            price: null,
+            content: 'Efter aktiv akne kan man uppleva post-akne, vilket innebär ärr i form av gropar i olika former och fläckar i olika färger på huden där aknen tidigare varit. Olika typer av ärr behandlas med olika metoder. Klicka här för att läsa mer om hur du kan reparera din hud och ta hand om post-akne.',
             image_small: 'images/service-categories/small/consultation.jpg',
             image_large: 'images/service-categories/large/consultation.jpg',
-            consultation_url: 'https://dahlskincare.com/consultation',
-            booking_url: 'https://bokadirekt.se'
+            consultation_url: null,
+            booking_url: null,
       ),
-      new Service(
-            id: 'microneedling-for-acne',
-            title: 'Microneedling for acne',
-            duration: '30-60 min',
-            price: 'Price from 1295 kr',
-            content: 'Skriv en text om procedure här.',
-            image_small: 'images/service-categories/small/consultation.jpg',
-            image_large: 'images/service-categories/large/consultation.jpg',
-            consultation_url: 'https://dahlskincare.com/consultation',
-            booking_url: 'https://bokadirekt.se'
-      ),
-      new Service(
-            id: 'microneedling-for-acne',
-            title: 'Microneedling for acne',
-            duration: '30-60 min',
-            price: 'Price from 1295 kr',
-            content: 'Skriv en text om procedure här.',
-            image_small: 'images/service-categories/small/consultation.jpg',
-            image_large: 'images/service-categories/large/consultation.jpg',
-            consultation_url: 'https://dahlskincare.com/consultation',
-            booking_url: 'https://bokadirekt.se'
-      )
 );
 $articles = array(
-      new Article('pigmentation-causes-and-risk-factors', 'Acne scars causes and risks factors', 'https://via.placeholder.com/358x272.webp', 'https://via.placeholder.com/872x456.webp', '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>'),
-      new Article('when-to-see-your-pigmentation-specialist', 'When to see your acne scars specialist?', 'https://via.placeholder.com/358x272.webp', 'https://via.placeholder.com/872x456.webp', '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>'),
+      new Article(
+            id: 'pigmentation-causes-and-risk-factors',
+            title: 'Varför AcneSpecialisten?!',
+            image_small: 'https://via.placeholder.com/358x272.webp',
+            image_large: 'https://via.placeholder.com/872x456.webp',
+            content: '<p class="p200">Du som vill ha det som är bäst mot akne bör välja Acnespecialisten eftersom vi är experter på att behandla akne och har över 30 års erfarenhet av att ha arbetat med olika typer av akne. Vi lever upp till vårt namn genom att erbjuda personlig och professionell hjälp för att hjälpa dig att uppnå en klar och frisk hud. Vi skräddarsyr behandlingar baserade på dina individuella problem och behov, vi rekommenderar de bästa akneprodukterna för att förebygga och behandla din hud och akne. </p><p class="p200 mt-m">Genom att välja Acnespecialisten får du den mest effektiva behandlingen för ditt specifika fall och en hudvårdspartner som stöttar dig genom hela processen.</p>',
+      ),
+      new Article(
+            id: 'when-to-see-your-pigmentation-specialist',
+            title: 'När ska jag besöka AcneSpecialisten?',
+            image_small: 'https://via.placeholder.com/358x272.webp',
+            image_large: 'https://via.placeholder.com/872x456.webp',
+            content: '<p class="p200">Du bör besöka Acnespecialisten när du känner att din akne påverkar din livskvalitet eller om du har provat olika behandlingar och produkter utan att se några varaktiga förbättringar. Ju tidigare du söker hjälp, desto större är chansen att undvika ärrbildning och långvariga hudproblem. Acnespecialisten är här för att erbjuda dig expertis och skräddarsydda behandlingar oavsett om du har lindrig, måttlig eller svår akne. Tveka inte att kontakta oss för att boka en kostnadsfri konsultation och ta det första steget mot en klarare och friskare hud.</p><p class="p200 mt-m">Välj Acnespecialisten innan du går till en läkare, eftersom vi erbjuder en kostnadsfri konsultation där vi analyserar din akne och föreslår en individuell behandlingsplan. Våra specialister har stor erfarenhet av att behandla akne och kan ge dig råd om vilka produkter och behandlingar som är bäst för just din hudtyp. Att prova Acnespecialisten först kan hjälpa dig att undvika att använda tunga mediciner som kan ha biverkningar och påverka hela kroppen. Genom att boka en gratis konsultation hos oss får du en chans att se hur vi kan hjälpa dig att förbättra din hudhälsa innan du tar steget att besöka en läkare.</p>',
+      ),
 );
-
+$results = array(
+      new ResultCustomer(
+            id: '1',
+            image_before_small: 'https://via.placeholder.com/358x358.webm',
+            image_after_small: 'https://via.placeholder.com/358x358.webm',
+            image_before_large: 'https://via.placeholder.com/424x424.webm',
+            image_after_large: 'https://via.placeholder.com/424x424.webm',
+            age: 18,
+            gender: 'Female',
+            problem: 'Akne',
+            type: 'Severe',
+      ),
+      new ResultCustomer(
+            id: '2',
+            image_before_small: 'https://via.placeholder.com/358x358.webm',
+            image_after_small: 'https://via.placeholder.com/358x358.webm',
+            image_before_large: 'https://via.placeholder.com/424x424.webm',
+            image_after_large: 'https://via.placeholder.com/424x424.webm',
+            age: 18,
+            gender: 'Female',
+            problem: 'Akne',
+            type: 'Severe',
+      ),
+);
+$reviews = array(
+      new Review(
+            stars: 5,
+            brand: 'Trustpilot',
+            logo_url: 'images/brands/trustpilot.svg',
+            title: 'Supernöjd',
+            text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
+            signature: 'Sofia'
+      ),
+      new Review(
+            stars: 5,
+            brand: 'Google',
+            logo_url: 'images/brands/trustpilot.svg',
+            title: 'Rekommenderar varmt Acne Specialisten',
+            text: "Trevlig och proffsig personal. Personalen har ett trevligt bemötande och är kunniga inom sitt område. Trevliga, fräscha lokaler.",
+            signature: 'Gabriela'
+      ),
+      new Review(
+            stars: 5,
+            brand: 'Trustpilot',
+            logo_url: 'images/brands/trustpilot.svg',
+            title: 'Underbar service och väldigt…Stort tack att ni finns',
+            text: "nderbar service och väldigt professionell hudterapeut Julia. Acne specialister håller högsta standarden och alltid ta hand om sina kunder och bryr sig om kunders upplevelse efter behandlingen. Stort tack att ni finns",
+            signature: 'Emily'
+      ),
+      new Review(
+            stars: 5,
+            brand: 'Google',
+            logo_url: 'images/brands/trustpilot.svg',
+            title: 'Nöjd',
+            text: "Ett första besök som absolut kommer leda till ett till. Bra och tydlig information om vad som skulle vara bäst för min hy.",
+            signature: 'Emily'
+      ),
+      new Review(
+            stars: 5,
+            brand: 'Trustpilot',
+            logo_url: 'images/brands/trustpilot.svg',
+            title: 'Kunniga och bra!',
+            text: "Mina tonårsdöttrar har båda gått till acnespecialisten under flera år med både mindre och större problemområden. Vi har alltid fått professionell och kunnig behandling, bra produkter och bra råd, som också hjälper fint!",
+            signature: 'Emily'
+      ),
+);
 $faq_categories = array(
-      '' => array(
+      'Generellt om akne' => array(
             new Question(
                   title: 'How many treatments are needed?',
                   text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
@@ -379,9 +464,72 @@ $faq_categories = array(
                   title: 'Do I have acne even if I only have one pimple?',
                   text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
             )
+      ),
+      'Behandling mot akne' => array(
+            new Question(
+                  title: 'How many treatments are needed?',
+                  text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            ),
+            new Question(
+                  title: 'Can my acne come back?',
+                  text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            ),
+            new Question(
+                  title: 'How do I get rid of my acne fast?',
+                  text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            ),
+            new Question(
+                  title: 'Do I have acne even if I only have one pimple?',
+                  text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            )
+      ),
+);
+$skin_guide_articles = array(
+      new SkinGuideArticle(
+            id: 'how-hormones-effect',
+            title: 'How hormones effect?',
+            subtitle: '',
+            problem: 'Acne',
+            description: "",
+            image_small: 'https://via.placeholder.com/426x324.webp',
+            image_large: 'https://via.placeholder.com/872x456.jpg',
+            category_id: 'category-here',
+            subcategory_id: 'subcategory-here'
+      ),
+      new SkinGuideArticle(
+            id: 'how-hormones-effect',
+            title: 'How hormones effect?',
+            subtitle: '',
+            problem: 'Acne',
+            description: "",
+            image_small: 'https://via.placeholder.com/426x324.webp',
+            image_large: 'https://via.placeholder.com/872x456.jpg',
+            category_id: 'category-here',
+            subcategory_id: 'subcategory-here'
+      ),
+      new SkinGuideArticle(
+            id: 'how-hormones-effect',
+            title: 'How hormones effect?',
+            subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
+            problem: 'Acne',
+            description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
+            image_small: 'https://via.placeholder.com/426x324.webp',
+            image_large: 'https://via.placeholder.com/872x456.jpg',
+            category_id: 'category-here',
+            subcategory_id: 'subcategory-here'
+      ),
+      new SkinGuideArticle(
+            id: 'how-hormones-effect',
+            title: 'How hormones effect?',
+            subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
+            problem: 'Acne',
+            description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
+            image_small: 'https://via.placeholder.com/426x324.webp',
+            image_large: 'https://via.placeholder.com/872x456.jpg',
+            category_id: 'category-here',
+            subcategory_id: 'subcategory-here'
       )
 );
-
 $specialists = array(
       new Specialist(
             name: 'Cazzandra Lindberg',
@@ -428,6 +576,16 @@ $related_problems = array(
             image: 'https://via.placeholder.com/102x102.webp'
       ),
 );
+$brands = array(
+      new Brand('Powerlite', 'images/brands/powerlite.svg'),
+      new Brand('Dermapen4', 'images/brands/dermapen4.svg'),
+      new Brand('Cryopen', 'images/brands/cryopen.svg'),
+      new Brand('Lumenis', 'images/brands/lumenis.svg'),
+      new Brand('Alma', 'images/brands/alma.svg'),
+      new Brand('PRXT', 'images/brands/prxt.svg'),
+      new Brand('Hydrafacial', 'images/brands/hydrafacial.svg'),
+      new Brand('IP infusion', 'images/brands/ipinfusion.svg'),
+);
 ?>
 
 <!DOCTYPE html>
@@ -451,10 +609,8 @@ $related_problems = array(
       <meta property="twitter:image" content="images/about-desktop.jpg" />
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="stylesheet" href="/styles/default-layout.css">
-
       <link rel="stylesheet" href="problem/problem.css">
       <script src="problem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
-
 </head>
 
 <body>
@@ -484,10 +640,10 @@ $related_problems = array(
                                           <div class="mt-xl">
                                                 <div class="columns is-2 is-variable">
                                                       <div class="column">
-                                                            <a href="https://dahlskincare.com/consultation" target="_blank" class="button white expand l10n">Få gratis konsultation</a>
+                                                            <a href="hudkonsultation" class="button white expand l10n">Få gratis konsultation</a>
                                                       </div>
                                                       <div class="column">
-                                                            <a href="https://bokadirekt.se" target="_blank" class="button white expand l10n">Boka behandling</a>
+                                                            <a href="https://bokadirekt.se" class="button white expand l10n">Boka behandling</a>
                                                       </div>
                                                 </div>
                                           </div>
@@ -518,10 +674,10 @@ $related_problems = array(
                               <div class="mt-xl">
                                     <div class="columns is-mobile">
                                           <div class="column is-half">
-                                                <a href="https://dahlskincare.com/consultation" target="_blank" class="button b200 white expand l10n">Free consultation</a>
+                                                <a href="hudkonsultation" class="button b200 white expand l10n">Free consultation</a>
                                           </div>
                                           <div class="column is-half">
-                                                <a href="https://bokadirekt.se" target="_blank" class="button b200 white expand l10n">Book a treatment</a>
+                                                <a href="https://bokadirekt.se" class="button b200 white expand l10n">Book a treatment</a>
                                           </div>
                                     </div>
                               </div>
@@ -557,15 +713,11 @@ $related_problems = array(
                                                 ?>
                                           <?php } ?>
                                     </div>
-                                    <p class="mt-s p200">
-                                          <?php echo $description ?>
-                                    </p>
+                                    <p class="mt-s p200"><?php echo $description ?></p>
                                     <div class="mt-xl flex-row" id="book-buttons">
-                                          <a href="https://dahlskincare.com/consultation" target="_blank" class="button b200 white l10n">Få gratis konsultation</a>
-                                          <a href="https://bokadirekt.se" target="_blank" class="button b200 white l10n">Boka behandling</a>
+                                          <a href="hudkonsultation" class="button b200 white l10n">Få gratis konsultation</a>
+                                          <a href="https://bokadirekt.se" class="button b200 white l10n">Boka behandling</a>
                                     </div>
-
-
                               </div>
                         </div>
                   </div>
@@ -604,9 +756,7 @@ $related_problems = array(
                                     } ?>
                               </div>
                               <hr class="mt-xl3 is-hidden-mobile">
-                              <a href="problem/aknearr/behandling" class="mt-xl button b200 outline expand auto-width l10n">
-                                    Läs mer om aknebehandlingar
-                              </a>
+                              <a href="problem/aknearr/behandling" class="mt-xl button b200 outline expand auto-width l10n">Läs mer om aknebehandlingar</a>
                         </section>
                         <?php if (sizeof($type_categories) > 0) { ?>
                               <section id="types">
@@ -670,13 +820,13 @@ $related_problems = array(
                               </section>
                         <?php } ?>
                         <section id="define">
-                              <h2 class="h500 l10n">Identifiera din akne</h2>
+                              <h2 class="h500 l10n">01. Identifiera din akne</h2>
                               <hr class="is-hidden-mobile">
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
                               <hr class="is-hidden-mobile">
                         </section>
                         <section id="treatments">
-                              <h2 class="h500">Behandla din akne</h2>
+                              <h2 class="h500">02. Behandla aktiv akne</h2>
                               <hr class="is-hidden-mobile mt-xl">
                               <?php foreach ($services as $service) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
@@ -684,7 +834,7 @@ $related_problems = array(
                               <?php } ?>
                         </section>
                         <section id="products">
-                              <h2 class="h500">Produkter mot akne</h2>
+                              <h2 class="h500">03. Förebygg uppkomsten av ny akne</h2>
                               <hr class="is-hidden-mobile mt-xl">
                               <?php foreach ($products as $service) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
@@ -692,9 +842,9 @@ $related_problems = array(
                               <?php } ?>
                         </section>
                         <section id="treatment-solutions">
-                              <h2 class="h500">Akne treatment solutions</h2>
+                              <h2 class="h500">04. Reparera post-akne</h2>
                               <hr class="is-hidden-mobile mt-xl">
-                              <?php foreach ($treatment_solutions as $service) { ?>
+                              <?php foreach ($procedures as $service) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
                                     <hr class="is-hidden-mobile mb-xxl">
                               <?php } ?>
@@ -705,7 +855,10 @@ $related_problems = array(
                               <?php } ?>
                         </section>
                         <section id="results">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php'); ?>
+                              <?php
+                              $results_title = 'Resultat';
+                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                              ?>
                         </section>
                         <section id="reviews">
                               <div class="flex-row align-end justify-space-between">
@@ -722,52 +875,10 @@ $related_problems = array(
                                     </div>
                               </div>
                               <?php
-                              $reviews = array(
-                                    new Review(
-                                          stars: 5,
-                                          brand: 'Trustpilot',
-                                          logo_url: 'images/brands/trustpilot.svg',
-                                          title: 'Allt gick jätte bra!',
-                                          text: "Allt gick jätte bra, personal var snäll och trevlig med min dotter. Min dotter var orolig för behandling hur ska det vara därför har det varit så lång tid innan vi kommit tillbaka och börjat med behandling. Det var inte lätt för henne men hon är jätte nöjd och glad när hon såg bra resultat /ändring på hennes ansikte. Tack så jätte mycket!!",
-                                          signature: 'Emily'
-                                    ),
-                                    new Review(
-                                          stars: 5,
-                                          brand: 'Google',
-                                          logo_url: 'images/brands/trustpilot.svg',
-                                          title: 'Man behöver inte klä av sig',
-                                          text: "Man behöver inte klä av sig för behandling. Behandlaren känns inte stressad, sitter kvar utan att springa iväg för att uträtta annat! Frågar inte ut en. Försöker inte pracka på en produkter. Är trevlig och hjälpsam",
-                                          signature: 'Emily'
-                                    ),
-                                    new Review(
-                                          stars: 5,
-                                          brand: 'Trustpilot',
-                                          logo_url: 'images/brands/trustpilot.svg',
-                                          title: 'Otroligt nöjd',
-                                          text: "Efter bara tre månader hos bästa Emma har min hud blivit så mycket bättre! Efter en graviditet och en kombination av hormonell och bakteriell acne så har jag äntligen börjar komma tillbaks till min gamla hy. Är verkligen så himla nöjd. Har gjort ansiktsbehandling mot acne samt kört acnespecialistens produkter och kan bara säga gott om dem!",
-                                          signature: 'Emily'
-                                    ),
-                                    new Review(
-                                          stars: 5,
-                                          brand: 'Google',
-                                          logo_url: 'images/brands/trustpilot.svg',
-                                          title: 'Nöjd',
-                                          text: "Ett första besök som absolut kommer leda till ett till. Bra och tydlig information om vad som skulle vara bäst för min hy.",
-                                          signature: 'Emily'
-                                    ),
-                                    new Review(
-                                          stars: 5,
-                                          brand: 'Trustpilot',
-                                          logo_url: 'images/brands/trustpilot.svg',
-                                          title: 'Kunniga och bra!',
-                                          text: "Mina tonårsdöttrar har båda gått till acnespecialisten under flera år med både mindre och större problemområden. Vi har alltid fått professionell och kunnig behandling, bra produkter och bra råd, som också hjälper fint!",
-                                          signature: 'Emily'
-                                    ),
-                              );
                               $reviews_narrow = true;
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                               ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" href="omdomen">Läs fler omdömen</a>
+                              <a class="mt-xl button b200 outline expand auto-width l10n" href="https://se.trustpilot.com/review/acnespecialisten.se">Läs fler omdömen</a>
                         </section>
                         <section id="faq">
                               <h2 class="big l10n">Frågor & Svar</h2>

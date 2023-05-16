@@ -1,4 +1,4 @@
-<a href="<?php echo $combo->booking_url ?>" target="_blank" class="service-combo-widget">
+<a href="<?php echo $combo->booking_url ?>" class="service-combo-widget">
     <div class="service-combo-small is-hidden-tablet">
         <div class="image">
             <picture>

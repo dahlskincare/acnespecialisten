@@ -1,0 +1,138 @@
+@import "../styles/util/floating_image";
+@import "widgets/consultation_category/consultation_category";
+
+html {
+    scroll-behavior: smooth;
+
+    body {
+        section#header {
+            #green-header-small {
+                background-color: $deep-sea-400;
+                color: $white-500;
+                padding-bottom: $xl;
+
+                hr {
+                    border: 0;
+                    border-top: 1px solid $white-200;
+                }
+            }
+
+            #green-header-large {
+                background-color: $deep-sea-400;
+                color: $white-500;
+
+                #green-header-large-text {
+                    width: 648px;
+                    padding-bottom: 62px;
+
+                    #book-buttons {
+                        .button {
+                            margin-right: $s;
+                        }
+                    }
+                }
+            }
+        }
+
+        .container {
+            #content {
+                section#nav-buttons {
+                    .nav-button {
+                        flex: 0;
+                    }
+                }
+
+                section#image {
+                    font-size: 0;
+
+                    img {
+                        width: 100%;
+                        height: auto;
+                        border-radius: $radius-l;
+                    }
+                }
+
+                section#about {
+                    img {
+                        margin-top: $xl;
+                        width: 100%;
+                        height: auto;
+                        border-radius: $radius-l;
+                    }
+
+                    div.infobox {
+                        margin-top: $xl;
+                        background-color: $deep-sea-25;
+                        border: 1px solid $deep-sea-300;
+                        border-radius: $radius-l;
+                        @include p200;
+
+                        div.ib-header {
+                            cursor: pointer;
+                            padding: $xl;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+
+                            .icon {
+                                margin-left: $xl;
+                                min-width: $m;
+                                height: $m;
+                                padding: $s;
+
+                                >svg {
+                                    width: $m;
+                                    height: $m;
+                                }
+
+                                transition: transform 300ms ease;
+                            }
+
+                            .icon.is-open {
+                                transform: rotate(45deg);
+                            }
+                        }
+
+                        div.ib-content {
+                            padding: 0 $xl $xl $xl;
+                        }
+
+
+                    }
+
+                    a {
+                        @include p200;
+                        font-weight: bold !important;
+                        text-decoration: underline;
+                    }
+                }
+
+                section#types {
+                    hr {
+                        margin: $xl 0;
+                        border: none;
+                        border-top: 1px solid $light-200;
+                    }
+
+                }
+            }
+        }
+
+        @media screen and (min-width: $widescreen) {
+            .container {
+                #content {
+                    max-width: 750px;
+                }
+            }
+        }
+
+        // Ensures floater is never above content
+        @media screen and (min-width: 1408px) {
+            .container {
+                #content {
+                    max-width: 872px;
+                }
+            }
+        }
+    }
+}

@@ -365,7 +365,7 @@ class ResultCustomer
      * @param ResultImages $before_images
      * @param ResultImages $after_images
      */
-    public function __construct($id, $image_before_small, $image_after_small, $image_before_large, $image_after_large, $age, $gender, $problem, $type, $treatment, $before_images = null, $after_images = null)
+    public function __construct($id, $image_before_small, $image_after_small, $image_before_large, $image_after_large, $age, $gender, $problem, $type, $treatment = null, $before_images = null, $after_images = null)
     {
         $this->id = $id;
         $this->slider_image_before_small = $image_before_small;
@@ -396,7 +396,7 @@ class ResultCustomer
      * Type/severity: light, moderate, severe
      */
     public string $type;
-    public ResultTreatment $treatment;
+    public ?ResultTreatment $treatment;
 
     public ?ResultImages $before_images;
     public ?ResultImages $after_images;
@@ -410,7 +410,7 @@ class ResultTreatment
      * @param ResultEmployee $employee
      * @param ResultVisit[] $visits
      */
-    public function __construct($duration, $procedures, $product, $employee, $visits = array())
+    public function __construct($duration, $procedures = array(), $product = null, $employee = null, $visits = array())
     {
         $this->duration = $duration;
         $this->procedures = $procedures;
@@ -424,8 +424,8 @@ class ResultTreatment
      * @var ResultProcedure[] 
      * */
     public array $procedures;
-    public ResultProduct $product;
-    public ResultEmployee $employee;
+    public ?ResultProduct $product;
+    public ?ResultEmployee $employee;
 
     /**
      * @var ResultVisit[]

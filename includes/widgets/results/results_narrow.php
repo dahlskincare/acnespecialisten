@@ -1,5 +1,13 @@
 <?php
 
+
+if (!isset($results_title)) {
+    $results_title = 'Resultat';
+}
+if (!isset($show_all_results_label)) {
+    $show_all_results_label = 'Visa fler resultat';
+}
+
 if (!isset($results)) {
     $results = array(
         new ResultCustomer(
@@ -123,7 +131,7 @@ if (!isset($results)) {
 
 <div class="results-narrow-widget">
     <div class="flex-row justify-space-between">
-        <div class="h500 l10n">Results</div>
+        <div class="h500"><?php echo $results_title ?></div>
         <div class="result-step-buttons">
             <button class="round-large grey" onclick="ResultsWidget.scroll(-1)">
                 <?php icon('arrow-left') ?>
@@ -141,6 +149,6 @@ if (!isset($results)) {
             <?php } ?>
         </div>
     </div>
-    <a class="mt-xl button b200 outline expand l10n" href="resultat">View all treatment results</a>
+    <a class="mt-xl button b200 outline expand auto-width" href="resultat"><?php echo $show_all_results_label ?></a>
     <script src="/includes/widgets/results/results.js"></script>
 </div>

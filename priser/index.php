@@ -93,7 +93,7 @@ $service_categories = array(
                 title: 'Priser behandlingar',
                 description: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
                 description_extended: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
-                button_url: 'https://dahlskincare.com/consultation',
+                button_url: 'hudkonsultation',
                 button_label: 'Gör en gratis konsultation'
             );
             include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/green_header_banner.php');
@@ -107,67 +107,67 @@ $service_categories = array(
                                 new Brand(
                                     label: 'Powerlite',
                                     image: 'https://via.placeholder.com/94x34.webp',
-                                    url: 'priser/brands/powerlite',
+                                    url: 'priser/powerlite',
                                 ),
                                 new Brand(
                                     label: 'Dermapen',
                                     image: 'https://via.placeholder.com/94x34.webp',
-                                    url: 'priser/brands/dermapen',
+                                    url: 'priser/dermapen',
                                 ),
                                 new Brand(
                                     label: 'Dermapen',
                                     image: 'https://via.placeholder.com/94x34.webp',
-                                    url: 'priser/brands/dermapen',
+                                    url: 'priser/dermapen',
                                 ),
                                 new Brand(
                                     label: 'Dermapen',
                                     image: 'https://via.placeholder.com/94x34.webp',
-                                    url: 'priser/brands/dermapen',
+                                    url: 'priser/dermapen',
                                 ),
                                 new Brand(
                                     label: 'Dermapen',
                                     image: 'https://via.placeholder.com/94x34.webp',
-                                    url: 'priser/brands/dermapen',
+                                    url: 'priser/dermapen',
                                 ),
                                 new Brand(
                                     label: 'Dermapen',
                                     image: 'https://via.placeholder.com/94x34.webp',
-                                    url: 'priser/brands/dermapen',
+                                    url: 'priser/dermapen',
                                 ),
                                 new Brand(
                                     label: 'Dermapen',
                                     image: 'https://via.placeholder.com/94x34.webp',
-                                    url: 'priser/brands/dermapen',
+                                    url: 'priser/dermapen',
                                 ),
                                 new Brand(
                                     label: 'Dermapen',
                                     image: 'https://via.placeholder.com/94x34.webp',
-                                    url: 'priser/brands/dermapen',
+                                    url: 'priser/dermapen',
                                 ),
                                 new Brand(
                                     label: 'Dermapen',
                                     image: 'https://via.placeholder.com/94x34.webp',
-                                    url: 'priser/brands/dermapen',
+                                    url: 'priser/dermapen',
                                 ),
                                 new Brand(
                                     label: 'Dermapen',
                                     image: 'https://via.placeholder.com/94x34.webp',
-                                    url: 'priser/brands/dermapen',
+                                    url: 'priser/dermapen',
                                 ),
                                 new Brand(
                                     label: 'Dermapen',
                                     image: 'https://via.placeholder.com/94x34.webp',
-                                    url: 'priser/brands/dermapen',
+                                    url: 'priser/dermapen',
                                 ),
                                 new Brand(
                                     label: 'Dermapen',
                                     image: 'https://via.placeholder.com/94x34.webp',
-                                    url: 'priser/brands/dermapen',
+                                    url: 'priser/dermapen',
                                 ),
                                 new Brand(
                                     label: 'Dermapen',
                                     image: 'https://via.placeholder.com/94x34.webp',
-                                    url: 'priser/brands/dermapen',
+                                    url: 'priser/dermapen',
                                 ),
                             );
                             foreach ($brands as $brand) { ?>
@@ -195,7 +195,7 @@ $service_categories = array(
                 <div class="columns is-multiline is-variable is-1">
                     <?php foreach ($service_categories as $service_category) { ?>
                         <div class="column is-one-fifth">
-                            <div class="button b200 grey expand"><?php echo $service_category->name ?></div>
+                            <a href="<?php echo $service_category->url ?>" class="button b200 grey expand"><?php echo $service_category->name ?></a>
                         </div>
                     <?php } ?>
                 </div>
@@ -229,7 +229,7 @@ $service_categories = array(
                                     <?php icon('arrow-right') ?>
                                 </button>
                             </div>
-                            <a href="reviews" class="ml-l button compact text">
+                            <a href="https://se.trustpilot.com/review/acnespecialisten.se" class="ml-l button compact text">
                                 <span class="l10n">View all reviews</span>
                                 <?php icon('navigate-next') ?>
                             </a>
@@ -237,7 +237,7 @@ $service_categories = array(
 
                     </div>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                    <a class="mt-xl button outline expand is-hidden-tablet l10n" href="omdomen">View all reviews</a>
+                    <a class="mt-xl button outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se">View all reviews</a>
                 </div>
             </section>
             <section id="faq" class="large-margin">

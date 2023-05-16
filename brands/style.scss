@@ -1,9 +1,0 @@
-@import 'widgets/brand_card/brand_card';
-
-section.large-margin {
-    margin-top: 72px;
-
-    @include desktop {
-        margin-top: 104px;
-    }
-}

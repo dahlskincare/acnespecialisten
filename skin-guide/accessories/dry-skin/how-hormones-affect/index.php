@@ -166,7 +166,7 @@ $article = new SkinGuideArticle(
                                 In a personal meeting with a skin specialist, your skin type is examined and identified.
                             </div>
                             <div>
-                                <a href="https://dahlskincare.com/skin-consultation" class="button white expand l10n">Get a free consultation</a>
+                                <a href="hudkonsultation" class="button white expand l10n">Get a free consultation</a>
                             </div>
                         </div>
                     </div>
@@ -266,7 +266,7 @@ $article = new SkinGuideArticle(
                             </p>
                             <a class="button outline expand" href="">View more about consultation</a>
                             <hr />
-                            <a class="button expand" href="https://dahlskincare.com/skin-consultation">Get a free consultation</a>
+                            <a class="button expand" href="hudkonsultation">Get a free consultation</a>
                         </div>
                         <div class="service-banner-touch">
                             <div class="banner-info">
@@ -281,7 +281,7 @@ $article = new SkinGuideArticle(
                             </p>
                             <a class="button outline expand" href="">View more about service</a>
                             <hr />
-                            <a class="button expand" href="https://dahlskincare.com/skin-consultation">Get a free consultation</a>
+                            <a class="button expand" href="hudkonsultation">Get a free consultation</a>
                             <a class="mt-s button expand" href="https://bokadirekt.se">Book a treatment</a>
                         </div>
                     </div>
@@ -301,7 +301,7 @@ $article = new SkinGuideArticle(
                                 </div>
                             </div>
                             <div class="banner-buttons">
-                                <a class="button expand" href="https://dahlskincare.com/skin-consultation">Get a free consultation</a>
+                                <a class="button expand" href="hudkonsultation">Get a free consultation</a>
                             </div>
                         </div>
                         <div class="service-banner-desktop">
@@ -317,8 +317,8 @@ $article = new SkinGuideArticle(
                                 </div>
                             </div>
                             <div class="banner-buttons">
-                                <a class="button expand" href="https://dahlskincare.com/skin-consultation">Get a free consultation</a>
-                                <a class="button expand" href="https://dahlskincare.com/skin-consultation">Book a treatment</a>
+                                <a class="button expand" href="hudkonsultation">Get a free consultation</a>
+                                <a class="button expand" href="hudkonsultation">Book a treatment</a>
                             </div>
                         </div>
                     </div>
@@ -618,14 +618,14 @@ $article = new SkinGuideArticle(
                                 <?php icon('arrow-right') ?>
                             </button>
                         </div>
-                        <a href="reviews" class="ml-l button compact text">
+                        <a href="https://se.trustpilot.com/review/acnespecialisten.se" class="ml-l button compact text">
                             <span class="l10n">View all reviews</span>
                             <?php icon('navigate-next') ?>
                         </a>
                     </div>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="omdomen">View all reviews</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se">View all reviews</a>
             </section>
             <section id="faq" class="large-margin">
                 <div class="flex-row align-end justify-space-between">

@@ -6,13 +6,6 @@ html {
     .underline {
         text-decoration: underline;
     }
-
-    @media screen and (min-width: $tablet) {
-        a.auto-width {
-            width: auto !important;
-            box-sizing: content-box;
-        }
-    }
 }
 
 section#header {

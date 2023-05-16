@@ -168,6 +168,11 @@ div#content {
                 #qr-image {
                     text-align: center;
                     width: 130px;
+
+                    img {
+                        width: 100%;
+                        height: auto;
+                    }
                 }
 
                 hr {
@@ -283,13 +288,5 @@ div#content {
                 padding-right: $xxl*2;
             }
         }
-    }
-}
-
-section.large-margin {
-    margin-top: 72px;
-
-    @include desktop {
-        margin-top: 104px;
     }
 }

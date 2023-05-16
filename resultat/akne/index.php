@@ -193,7 +193,7 @@ $pages = sizeof($results_per_page);
                 title: $result_category->title,
                 description: $result_category->description_1,
                 description_extended: $result_category->description_2,
-                button_url: 'https://dahlskincare.com/consultation',
+                button_url: 'hudkonsultation',
                 button_label: 'Gör en gratis konsultation'
             );
             include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/green_header_banner.php');
@@ -214,7 +214,7 @@ $pages = sizeof($results_per_page);
                     <div class="p200 l10n" id="cta-banner-content">In a personal meeting with a skin specialist, your skin type is examined and identified.</div>
                 </div>
                 <div>
-                    <a href="https://dahlskincare.com/consultation" class="button white expand l10n">Get a free consultation</a>
+                    <a href="hudkonsultation" class="button white expand l10n">Get a free consultation</a>
                 </div>
             </section>
             <section id="reviews" class="large-margin">
@@ -229,7 +229,7 @@ $pages = sizeof($results_per_page);
                                 <?php icon('arrow-right') ?>
                             </button>
                         </div>
-                        <a href="omdomen" class="ml-l button compact text">
+                        <a href="https://se.trustpilot.com/review/acnespecialisten.se" class="ml-l button compact text">
                             <span class="l10n">View all reviews</span>
                             <?php icon('navigate-next') ?>
                         </a>
@@ -237,7 +237,7 @@ $pages = sizeof($results_per_page);
 
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="omdomen">View all reviews</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se">View all reviews</a>
             </section>
             <section id="faq" class="large-margin">
                 <div class="flex-row align-end justify-space-between">

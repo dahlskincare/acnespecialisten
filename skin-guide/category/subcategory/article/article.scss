@@ -5,13 +5,6 @@
 html {
     scroll-behavior: smooth;
 
-    @media screen and (min-width: $tablet) {
-        .auto-width {
-            width: auto !important;
-            box-sizing: content-box;
-        }
-    }
-
     section#banner {
         background-color: $deep-sea-400;
         padding: $xxs 0;
@@ -588,14 +581,6 @@ html {
             padding-top: 104px;
             margin-top: 104px;
             border-top: 1px solid $light-200;
-        }
-    }
-
-    section.large-margin {
-        margin-top: 72px;
-
-        @include desktop {
-            margin-top: 104px;
         }
     }
 
