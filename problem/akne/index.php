@@ -854,7 +854,7 @@ $brands = array(
                         </section>
                         <section id="results">
                               <?php
-                              $results_title = 'Resultat akne';
+                              $results_title = 'Resultat';
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
                               ?>
                         </section>
