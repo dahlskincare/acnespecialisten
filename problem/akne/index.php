@@ -449,19 +449,35 @@ $reviews = array(
 $faq_categories = array(
       'Generellt om akne' => array(
             new Question(
-                  title: 'How many treatments are needed?',
+                  title: 'Hur blir jag av med min akne snabbt?',
+                  text: 'Att bli av med akne snabbt är en utmaning, eftersom det inte finns någon quickfix när det gäller akne. Effektiv behandling kräver att du tar hand om din hud genom att använda rätt behandlingar och produkter som passar din specifika hudtyp och akne. För att få en skräddarsydd behandlingsplan som hjälper dig att bli av med aknen så snabbt som möjligt, rekommenderar vi att du bokar en kostnadsfri hudkonsultation hos oss. Under konsultationen kommer vi att analysera din hud och hjälpa dig att utforma en anpassad behandlingsrutin som ger dig de bästa förutsättningarna för att snabbt och effektivt behandla din akne.'
+            ),
+            new Question(
+                  title: 'Har jag akne även om jag bara har en finne?',
                   text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
             ),
             new Question(
-                  title: 'Can my acne come back?',
+                  title: 'Ska jag klämma mina finnar?',
                   text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
             ),
             new Question(
-                  title: 'How do I get rid of my acne fast?',
+                  title: 'Försvinner aknen efter tonåren?',
                   text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-            ),
+            )
             new Question(
-                  title: 'Do I have acne even if I only have one pimple?',
+                  title: 'Kan jag ha akne även om jag är vuxen?',
+                  text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            )
+            new Question(
+                  title: 'Förvärras min akne av att jag äter choklad?',
+                  text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            )
+            new Question(
+                  title: 'Vad kan jag göra för att bli av med min akne?',
+                  text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            )
+            new Question(
+                  title: 'Försvinner aknen efter tonåren?',
                   text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
             )
       ),
@@ -481,11 +497,23 @@ $faq_categories = array(
                        <p class="p200 mt-m">Det är dock viktigt att komma ihåg att regelbunden och korrekt hudvård kan hålla aknen i schack. Precis som vi borstar tänderna varje dag för att hålla karies borta, behöver vi underhålla vår hud för att hålla aknen borta. Det innebär att följa en anpassad hudvårdsrutin, hantera stress och upprätthålla en hälsosam livsstil. Så länge du tar hand om din hud regelbundet och på rätt sätt, kan du förhindra att aknen återkommer.</p>'
             ),
             new Question(
-                  title: 'How do I get rid of my acne fast?',
+                  title: 'Vilken är den bästa behandlingen mot akne?',
                   text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
             ),
             new Question(
-                  title: 'Do I have acne even if I only have one pimple?',
+                  title: 'Gör aknebehandlingen ont?',
+                  text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            )
+            new Question(
+                  title: 'Vad ska jag tänka på innan behandlingen?',
+                  text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            )
+            new Question(
+                  title: 'Vad ska jag tänka på efter behandling?',
+                  text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            )
+            new Question(
+                  title: 'Eftervård efter behandlingen?',
                   text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
             )
       ),
