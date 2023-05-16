@@ -327,7 +327,7 @@ $products = array(
 $procedures = array(
       new Service(
             id: 'microneedling-for-acne',
-            title: 'Reparera post-akne',
+            title: 'Reparera acneärr',
             duration: '6 procedures',
             price: null,
             content: 'Efter aktiv akne kan man uppleva post-akne, vilket innebär ärr i form av gropar i olika former och fläckar i olika färger på huden där aknen tidigare varit. Olika typer av ärr behandlas med olika metoder. Klicka här för att läsa mer om hur du kan reparera din hud och ta hand om post-akne.',
@@ -396,11 +396,7 @@ $results = array(
             treatment: new ResultTreatment(
                   duration: 'Efter 3 månaders behandling av <a href="behandlingar/akne">akne</a>',
                   procedures: array(
-                        new ResultProcedure(
-                              image: 'https://via.placeholder.com/102x102.webm',
-                              name: 'Problem skin facials',
-                              count: '3 times'
-                        ),
+                        
                   ),
                   product: new ResultProduct(
                         image: 'https://via.placeholder.com/102x102.webm',
@@ -456,7 +452,8 @@ $reviews = array(
       ),
 );
 $faq_categories = array(
-      '' => array(
+      
+      'Generellt om akne' => array(
             new Question(
                   title: 'How many treatments are needed?',
                   text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
@@ -473,15 +470,34 @@ $faq_categories = array(
                   title: 'Do I have acne even if I only have one pimple?',
                   text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
             )
-      )
+      ),
+      "Behandling mot akne"
+       => array(
+            new Question(
+                  title: 'How many treatments are needed?',
+                  text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            ),
+            new Question(
+                  title: 'Can my acne come back?',
+                  text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            ),
+            new Question(
+                  title: 'How do I get rid of my acne fast?',
+                  text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            ),
+            new Question(
+                  title: 'Do I have acne even if I only have one pimple?',
+                  text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            )
+      ),
 );
 $skin_guide_articles = array(
       new SkinGuideArticle(
             id: 'how-hormones-effect',
             title: 'How hormones effect?',
-            subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
+            subtitle: '',
             problem: 'Acne',
-            description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
+            description: "",
             image_small: 'https://via.placeholder.com/426x324.webp',
             image_large: 'https://via.placeholder.com/872x456.jpg',
             category_id: 'category-here',
@@ -490,9 +506,9 @@ $skin_guide_articles = array(
       new SkinGuideArticle(
             id: 'how-hormones-effect',
             title: 'How hormones effect?',
-            subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
+            subtitle: '',
             problem: 'Acne',
-            description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
+            description: "",
             image_small: 'https://via.placeholder.com/426x324.webp',
             image_large: 'https://via.placeholder.com/872x456.jpg',
             category_id: 'category-here',
@@ -818,13 +834,13 @@ $brands = array(
                               </section>
                         <?php } ?>
                         <section id="define">
-                              <h2 class="h500 l10n">Identifiera din akne</h2>
+                              <h2 class="h500 l10n">01. Identifiera din akne</h2>
                               <hr class="is-hidden-mobile">
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
                               <hr class="is-hidden-mobile">
                         </section>
                         <section id="treatments">
-                              <h2 class="h500">Behandla aktiv akne</h2>
+                              <h2 class="h500">02. Behandla aktiv akne</h2>
                               <hr class="is-hidden-mobile mt-xl">
                               <?php foreach ($services as $service) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
@@ -832,7 +848,7 @@ $brands = array(
                               <?php } ?>
                         </section>
                         <section id="products">
-                              <h2 class="h500">Förebygg ny akne</h2>
+                              <h2 class="h500">03. Förebygg uppkomsten av ny akne</h2>
                               <hr class="is-hidden-mobile mt-xl">
                               <?php foreach ($products as $service) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
@@ -840,7 +856,7 @@ $brands = array(
                               <?php } ?>
                         </section>
                         <section id="treatment-solutions">
-                              <h2 class="h500">Reparera post-akne</h2>
+                              <h2 class="h500">04. Reparera post-akne</h2>
                               <hr class="is-hidden-mobile mt-xl">
                               <?php foreach ($procedures as $service) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
@@ -854,7 +870,7 @@ $brands = array(
                         </section>
                         <section id="results">
                               <?php
-                              $results_title = 'Resultat akne';
+                              $results_title = 'Resultat';
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
                               ?>
                         </section>
