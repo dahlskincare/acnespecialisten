@@ -391,6 +391,9 @@ $results = array(
             gender: 'Female',
             problem: 'Akne',
             type: 'Severe',
+            treatment: new ResultTreatment(
+                  duration: 'Efter 3 månaders <a href="behandlingar/akne">behandlingar mot akne</a>',
+            )
       ),
       new ResultCustomer(
             id: '2',
@@ -402,6 +405,9 @@ $results = array(
             gender: 'Female',
             problem: 'Akne',
             type: 'Severe',
+            treatment: new ResultTreatment(
+                  duration: 'Efter 3 månaders <a href="behandlingar/akne">behandlingar mot akne</a>',
+            )
       ),
 );
 $reviews = array(
@@ -463,19 +469,19 @@ $faq_categories = array(
             new Question(
                   title: 'Försvinner aknen efter tonåren?',
                   text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-            )
+            ),
             new Question(
                   title: 'Kan jag ha akne även om jag är vuxen?',
                   text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-            )
+            ),
             new Question(
                   title: 'Förvärras min akne av att jag äter choklad?',
                   text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-            )
+            ),
             new Question(
                   title: 'Vad kan jag göra för att bli av med min akne?',
                   text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-            )
+            ),
             new Question(
                   title: 'Försvinner aknen efter tonåren?',
                   text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
@@ -485,15 +491,12 @@ $faq_categories = array(
             new Question(
                   title: 'Hur många behandlingar behövs?',
                   text: '<p class="p200">Antalet behandlingar som behövs varierar från person till person och beror på flera faktorer, som din hudtyp, svårighetsgraden av din akne och din respons på behandlingen. Vanligtvis kan du se en förbättring efter 1 till 3 veckors regelbunden behandling.</p>
-
                        <p class="p200 mt-m">Det är viktigt att påpeka att behandlingen hos oss inte fungerar i isolering. En väsentlig del av din framgång ligger i den dagliga användningen av de rekommenderade produkterna hemma. Det är kombinationen av professionell behandling och hemmavård som ger bästa möjliga resultat.</p>
-
                         <p class="p200 mt-m">Om du inte upplever de förväntade förbättringarna efter en tid, uppmanar vi dig att ta kontakt med din personliga hudterapeut. Tillsammans kan vi se över dina hudvårdsrutiner och de produkter du använder, för att optimera din behandlingsplan.</p>'
             ),
             new Question(
                   title: 'Finns det en risk att min akne återkommer?',
                   text: '<p class="p200">Ja, det finns en risk att akne återkommer, eftersom akne kan påverkas av flera faktorer såsom genetik, hormoner, livsstil och hudvård. Personer med en genetisk benägenhet för akne kan uppleva att aknen återkommer, särskilt under perioder av hormonella förändringar som pubertet, graviditet eller menstruation. Även faktorer som stress, kost och användning av olämpliga hudvårdsprodukter kan bidra till att aknen återkommer.</p>
-
                        <p class="p200 mt-m">Det är dock viktigt att komma ihåg att regelbunden och korrekt hudvård kan hålla aknen i schack. Precis som vi borstar tänderna varje dag för att hålla karies borta, behöver vi underhålla vår hud för att hålla aknen borta. Det innebär att följa en anpassad hudvårdsrutin, hantera stress och upprätthålla en hälsosam livsstil. Så länge du tar hand om din hud regelbundet och på rätt sätt, kan du förhindra att aknen återkommer.</p>'
             ),
             new Question(
@@ -503,15 +506,15 @@ $faq_categories = array(
             new Question(
                   title: 'Gör aknebehandlingen ont?',
                   text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-            )
+            ),
             new Question(
                   title: 'Vad ska jag tänka på innan behandlingen?',
                   text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-            )
+            ),
             new Question(
                   title: 'Vad ska jag tänka på efter behandling?',
                   text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-            )
+            ),
             new Question(
                   title: 'Eftervård efter behandlingen?',
                   text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
