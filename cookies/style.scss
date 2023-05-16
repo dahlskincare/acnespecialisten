@@ -2,28 +2,49 @@
 @import '../styles/util/colors';
 @import '../styles/util/mixins';
 
+html {
+  scroll-behavior: smooth;
+}
 
-.cookies-title {
+/*Refactoring in progress*/
+
+section#banner {
+  background-color: $deep-sea-400;
+  padding: $xxs 0;
+  overflow: hidden;
+
+  .badges-widget {
+    flex: 1;
+
+    .badge {
+      @include button-text-color($white-500);
+      color: $white-500;
+      background-color: transparent;
+    }
+
+    .badge:first-child {
+      padding-left: 0;
+    }
+
+    .badge:last-child {
+      padding-right: 0;
+    }
+  }
+
+  @include desktop {
+    .badges-widget {
+      flex: 0;
+    }
+
+    .breadcrumbs-widget {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
+}
+
+h1 {
   @include h600;
-  margin-top: $xl;
-
-}
-
-.cookies-subtitle {
-  @include p200;
-  margin-top: $xs;
-}
-
-.cookies-about-tab {
-  margin-top: $xl;
-  padding-top: 21.5px;
-  padding-bottom: 21.5px;
-  border-bottom: double;
-  border-bottom-color: black;
-}
-
-.cookies-about-tab-privacy-policy {
-  margin-left: $xl;
 }
 
 .cookies-about-cookies {
@@ -60,4 +81,5 @@ p {
 
 h2 {
   @include h500;
+  margin-top: $xl3;
 }
