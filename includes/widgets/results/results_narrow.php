@@ -123,7 +123,7 @@ if (!isset($results)) {
 
 <div class="results-narrow-widget">
     <div class="flex-row justify-space-between">
-        <div class="h500 l10n">Results</div>
+        <div class="h500 l10n">Resultat</div>
         <div class="result-step-buttons">
             <button class="round-large grey" onclick="ResultsWidget.scroll(-1)">
                 <?php icon('arrow-left') ?>
@@ -141,6 +141,6 @@ if (!isset($results)) {
             <?php } ?>
         </div>
     </div>
-    <a class="mt-xl button b200 outline expand auto-width l10n" href="resultat">View all treatment results</a>
+    <a class="mt-xl button b200 outline expand auto-width l10n" href="resultat">Se fler resultat</a>
     <script src="/includes/widgets/results/results.js"></script>
 </div>
