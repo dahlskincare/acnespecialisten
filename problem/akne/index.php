@@ -532,7 +532,7 @@ $faq_categories = array(
 
                   <p class="p200 mt-m">För att hålla huden i kontroll och balans är det viktigt att följa de råd och rekommendationer vi ger dig angående hudvårdsrutin och produkter. Kontinuerlig behandling och förebyggande åtgärder är avgörande för att uppnå och bibehålla en klar och frisk hud. Kom ihåg att vi på Acnespecialisten alltid finns här för att hjälpa och stötta dig genom hela processen, både under och efter din behandling.</p>'
             ),      
-)
+);
 $skin_guide_articles = array(
       new SkinGuideArticle(
             id: 'how-hormones-effect',
