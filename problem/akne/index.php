@@ -304,12 +304,39 @@ $service = new Service(
       booking_url: null
 );
 $services = array(
-      new Service('acne-scars-microneedling', 'Ansiktsbehandling mot akne', '60 min', '995 kr', 'En effektiv ansiktsbehandling mot akne fokuserar på att noggrant extrahera orenheter som orsakar inflammation och skador i huden. Genom att försiktigt klämma ut akne och pormaskar kan behandlingen bidra till att förebygga ärrbildning och främja en snabbare läkning.', 'images/service-categories/small/microneedling.jpg', 'images/service-categories/large/microneedling.jpg', 'hudkonsultation', 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922'),
-
-
-      new Service('acne-scars-laser', 'Laser mot akne', '50 min', '2595 kr', 'En avancerad laserbehandling mot akne erbjuder en effektiv lösning för att bekämpa aktiv akne och ärr som kan uppstå efter utbrott. Lasertekniken riktar sig mot de bakterier som orsakar inflammation och hjälper till att minska produktionen av talg, vilket minskar risken för framtida utbrott.', 'images/service-categories/small/laser-problem-skin.jpg', 'images/service-categories/large/laser-problem-skin.jpg', 'hudkonsultation', 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922'),
-
-      new Service('acne-scars-chemical-peeling', 'Kemisk peeling mot akne', '30 min', '1595 kr', 'Kemisk peeling är en effektiv metod för att behandla akne. Genom att använda en speciellt framtagen lösning för att exfoliera huden, främjar kemisk peeling cellförnyelse, rensar tilltäppta porer och minskar inflammation. Resultatet är en jämnare hudton, mindre utbrott och färre synliga ärr. Det är en enkel och effektiv strategi för att ta kontroll över din akne och förbättra din hudhälsa.', 'images/service-categories/small/chemical-peeling.jpg', 'images/service-categories/large/chemical-peeling.jpg', 'hudkonsultation', 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922'),
+      new Service(
+            id: 'acne-scars-microneedling',
+            title: 'Ansiktsbehandling mot akne',
+            duration: '60 min',
+            price: '995 kr',
+            content: 'En effektiv ansiktsbehandling mot akne fokuserar på att noggrant extrahera orenheter som orsakar inflammation och skador i huden. Genom att försiktigt klämma ut akne och pormaskar kan behandlingen bidra till att förebygga ärrbildning och främja en snabbare läkning.',
+            image_small: 'images/service-categories/small/microneedling.jpg',
+            image_large: 'images/service-categories/large/microneedling.jpg',
+            consultation_url: 'hudkonsultation',
+            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
+      ),
+      new Service(
+            id: 'acne-scars-laser',
+            title: 'Laser mot akne',
+            duration: '50 min',
+            price: '2595 kr',
+            content: 'En avancerad laserbehandling mot akne erbjuder en effektiv lösning för att bekämpa aktiv akne och ärr som kan uppstå efter utbrott. Lasertekniken riktar sig mot de bakterier som orsakar inflammation och hjälper till att minska produktionen av talg, vilket minskar risken för framtida utbrott.',
+            image_small: 'images/service-categories/small/laser-problem-skin.jpg',
+            image_large: 'images/service-categories/large/laser-problem-skin.jpg',
+            consultation_url: 'hudkonsultation',
+            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
+      ),
+      new Service(
+            id: 'acne-scars-chemical-peeling',
+            title: 'Kemisk peeling mot akne',
+            duration: '30 min',
+            price: '1595 kr',
+            content: 'Kemisk peeling är en effektiv metod för att behandla akne. Genom att använda en speciellt framtagen lösning för att exfoliera huden, främjar kemisk peeling cellförnyelse, rensar tilltäppta porer och minskar inflammation. Resultatet är en jämnare hudton, mindre utbrott och färre synliga ärr. Det är en enkel och effektiv strategi för att ta kontroll över din akne och förbättra din hudhälsa.',
+            image_small: 'images/service-categories/small/chemical-peeling.jpg',
+            image_large: 'images/service-categories/large/chemical-peeling.jpg',
+            consultation_url: 'hudkonsultation',
+            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922'
+      ),
 );
 $products = array(
       new Service(
@@ -364,24 +391,6 @@ $results = array(
             gender: 'Female',
             problem: 'Akne',
             type: 'Severe',
-            treatment: new ResultTreatment(
-                  duration: 'Efter 3 månaders behandling av <a href="behandlingar/akne">akne</a>',
-                  procedures: array(
-                        new ResultProcedure(
-                              image: 'https://via.placeholder.com/102x102.webm',
-                              name: 'Problem skin facials',
-                              count: '3 gånger'
-                        ),
-                  ),
-                  product: new ResultProduct(
-                        image: 'https://via.placeholder.com/102x102.webm',
-                        name: 'Product bundle for light acne',
-                  ),
-                  employee: new ResultEmployee(
-                        image: 'https://via.placeholder.com/102x102.webm',
-                        name: 'Patrick Minogue'
-                  ),
-            )
       ),
       new ResultCustomer(
             id: '2',
@@ -393,20 +402,6 @@ $results = array(
             gender: 'Female',
             problem: 'Akne',
             type: 'Severe',
-            treatment: new ResultTreatment(
-                  duration: 'Efter 3 månaders behandling av <a href="behandlingar/akne">akne</a>',
-                  procedures: array(
-                        
-                  ),
-                  product: new ResultProduct(
-                        image: 'https://via.placeholder.com/102x102.webm',
-                        name: 'Product bundle for light acne',
-                  ),
-                  employee: new ResultEmployee(
-                        image: 'https://via.placeholder.com/102x102.webm',
-                        name: 'Patrick Minogue'
-                  ),
-            )
       ),
 );
 $reviews = array(
@@ -452,7 +447,6 @@ $reviews = array(
       ),
 );
 $faq_categories = array(
-      
       'Generellt om akne' => array(
             new Question(
                   title: 'How many treatments are needed?',
@@ -471,8 +465,7 @@ $faq_categories = array(
                   text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
             )
       ),
-      "Behandling mot akne"
-       => array(
+      'Behandling mot akne' => array(
             new Question(
                   title: 'How many treatments are needed?',
                   text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
@@ -618,7 +611,6 @@ $brands = array(
       <link rel="stylesheet" href="/styles/default-layout.css">
       <link rel="stylesheet" href="problem/problem.css">
       <script src="problem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
-
 </head>
 
 <body>
@@ -721,15 +713,11 @@ $brands = array(
                                                 ?>
                                           <?php } ?>
                                     </div>
-                                    <p class="mt-s p200">
-                                          <?php echo $description ?>
-                                    </p>
+                                    <p class="mt-s p200"><?php echo $description ?></p>
                                     <div class="mt-xl flex-row" id="book-buttons">
                                           <a href="hudkonsultation" class="button b200 white l10n">Få gratis konsultation</a>
                                           <a href="https://bokadirekt.se" class="button b200 white l10n">Boka behandling</a>
                                     </div>
-
-
                               </div>
                         </div>
                   </div>
@@ -768,9 +756,7 @@ $brands = array(
                                     } ?>
                               </div>
                               <hr class="mt-xl3 is-hidden-mobile">
-                              <a href="problem/aknearr/behandling" class="mt-xl button b200 outline expand auto-width l10n">
-                                    Läs mer om aknebehandlingar
-                              </a>
+                              <a href="problem/aknearr/behandling" class="mt-xl button b200 outline expand auto-width l10n">Läs mer om aknebehandlingar</a>
                         </section>
                         <?php if (sizeof($type_categories) > 0) { ?>
                               <section id="types">
