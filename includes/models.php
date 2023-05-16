@@ -410,7 +410,7 @@ class ResultTreatment
      * @param ResultEmployee $employee
      * @param ResultVisit[] $visits
      */
-    public function __construct($duration, $procedures, $product, $employee, $visits = array())
+    public function __construct($duration, $procedures = array(), $product = null, $employee = null, $visits = array())
     {
         $this->duration = $duration;
         $this->procedures = $procedures;
@@ -424,8 +424,8 @@ class ResultTreatment
      * @var ResultProcedure[] 
      * */
     public array $procedures;
-    public ResultProduct $product;
-    public ResultEmployee $employee;
+    public ?ResultProduct $product;
+    public ?ResultEmployee $employee;
 
     /**
      * @var ResultVisit[]
