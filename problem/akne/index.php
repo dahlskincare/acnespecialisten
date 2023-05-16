@@ -327,7 +327,7 @@ $products = array(
 $procedures = array(
       new Service(
             id: 'microneedling-for-acne',
-            title: 'Reparera post-akne',
+            title: 'Reparera acneärr',
             duration: '6 procedures',
             price: null,
             content: 'Efter aktiv akne kan man uppleva post-akne, vilket innebär ärr i form av gropar i olika former och fläckar i olika färger på huden där aknen tidigare varit. Olika typer av ärr behandlas med olika metoder. Klicka här för att läsa mer om hur du kan reparera din hud och ta hand om post-akne.',
