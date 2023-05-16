@@ -17,10 +17,10 @@ if (!isset($results)) {
             image_after_large: 'https://via.placeholder.com/424x424.webm',
             age: 18,
             gender: 'Female',
-            problem: 'Acne',
+            problem: 'Akne',
             type: 'Severe',
             treatment: new ResultTreatment(
-                duration: '3 months',
+                duration: 'Efter 3 månaders behandling av <a href="behandlingar/akne">akne</a>',
                 procedures: array(
                     new ResultProcedure(
                         image: 'https://via.placeholder.com/102x102.webm',
@@ -49,7 +49,7 @@ if (!isset($results)) {
             problem: 'Acne',
             type: 'Severe',
             treatment: new ResultTreatment(
-                duration: '3 months',
+                duration: 'Efter 3 månaders behandling av <a href="behandlingar/akne">akne</a>',
                 procedures: array(
                     new ResultProcedure(
                         image: 'https://via.placeholder.com/102x102.webm',
@@ -78,7 +78,7 @@ if (!isset($results)) {
             problem: 'Acne',
             type: 'Severe',
             treatment: new ResultTreatment(
-                duration: '3 months',
+                duration: 'Efter 3 månaders behandling av <a href="behandlingar/akne">akne</a>',
                 procedures: array(
                     new ResultProcedure(
                         image: 'https://via.placeholder.com/102x102.webm',

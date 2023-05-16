@@ -338,11 +338,123 @@ $procedures = array(
       ),
 );
 $articles = array(
-      new Article('pigmentation-causes-and-risk-factors', 'Varför AcneSpecialisten?!', 'https://via.placeholder.com/358x272.webp', 'https://via.placeholder.com/872x456.webp', '<p class="p200">Du som vill ha det som är bäst mot akne bör välja Acnespecialisten eftersom vi är experter på att behandla akne och har över 30 års erfarenhet av att ha arbetat med olika typer av akne. Vi lever upp till vårt namn genom att erbjuda personlig och professionell hjälp för att hjälpa dig att uppnå en klar och frisk hud. Vi skräddarsyr behandlingar baserade på dina individuella problem och behov, vi rekommenderar de bästa akneprodukterna för att förebygga och behandla din hud och akne. </p><p class="p200 mt-m">Genom att välja Acnespecialisten får du den mest effektiva behandlingen för ditt specifika fall och en hudvårdspartner som stöttar dig genom hela processen.</p>'),
-
-      new Article('when-to-see-your-pigmentation-specialist', 'När ska jag besöka AcneSpecialisten?', 'https://via.placeholder.com/358x272.webp', 'https://via.placeholder.com/872x456.webp', '<p class="p200">Du bör besöka Acnespecialisten när du känner att din akne påverkar din livskvalitet eller om du har provat olika behandlingar och produkter utan att se några varaktiga förbättringar. Ju tidigare du söker hjälp, desto större är chansen att undvika ärrbildning och långvariga hudproblem. Acnespecialisten är här för att erbjuda dig expertis och skräddarsydda behandlingar oavsett om du har lindrig, måttlig eller svår akne. Tveka inte att kontakta oss för att boka en kostnadsfri konsultation och ta det första steget mot en klarare och friskare hud.</p><p class="p200 mt-m">Välj Acnespecialisten innan du går till en läkare, eftersom vi erbjuder en kostnadsfri konsultation där vi analyserar din akne och föreslår en individuell behandlingsplan. Våra specialister har stor erfarenhet av att behandla akne och kan ge dig råd om vilka produkter och behandlingar som är bäst för just din hudtyp. Att prova Acnespecialisten först kan hjälpa dig att undvika att använda tunga mediciner som kan ha biverkningar och påverka hela kroppen. Genom att boka en gratis konsultation hos oss får du en chans att se hur vi kan hjälpa dig att förbättra din hudhälsa innan du tar steget att besöka en läkare.</p>'),
+      new Article(
+            id: 'pigmentation-causes-and-risk-factors',
+            title: 'Varför AcneSpecialisten?!',
+            image_small: 'https://via.placeholder.com/358x272.webp',
+            image_large: 'https://via.placeholder.com/872x456.webp',
+            content: '<p class="p200">Du som vill ha det som är bäst mot akne bör välja Acnespecialisten eftersom vi är experter på att behandla akne och har över 30 års erfarenhet av att ha arbetat med olika typer av akne. Vi lever upp till vårt namn genom att erbjuda personlig och professionell hjälp för att hjälpa dig att uppnå en klar och frisk hud. Vi skräddarsyr behandlingar baserade på dina individuella problem och behov, vi rekommenderar de bästa akneprodukterna för att förebygga och behandla din hud och akne. </p><p class="p200 mt-m">Genom att välja Acnespecialisten får du den mest effektiva behandlingen för ditt specifika fall och en hudvårdspartner som stöttar dig genom hela processen.</p>',
+      ),
+      new Article(
+            id: 'when-to-see-your-pigmentation-specialist',
+            title: 'När ska jag besöka AcneSpecialisten?',
+            image_small: 'https://via.placeholder.com/358x272.webp',
+            image_large: 'https://via.placeholder.com/872x456.webp',
+            content: '<p class="p200">Du bör besöka Acnespecialisten när du känner att din akne påverkar din livskvalitet eller om du har provat olika behandlingar och produkter utan att se några varaktiga förbättringar. Ju tidigare du söker hjälp, desto större är chansen att undvika ärrbildning och långvariga hudproblem. Acnespecialisten är här för att erbjuda dig expertis och skräddarsydda behandlingar oavsett om du har lindrig, måttlig eller svår akne. Tveka inte att kontakta oss för att boka en kostnadsfri konsultation och ta det första steget mot en klarare och friskare hud.</p><p class="p200 mt-m">Välj Acnespecialisten innan du går till en läkare, eftersom vi erbjuder en kostnadsfri konsultation där vi analyserar din akne och föreslår en individuell behandlingsplan. Våra specialister har stor erfarenhet av att behandla akne och kan ge dig råd om vilka produkter och behandlingar som är bäst för just din hudtyp. Att prova Acnespecialisten först kan hjälpa dig att undvika att använda tunga mediciner som kan ha biverkningar och påverka hela kroppen. Genom att boka en gratis konsultation hos oss får du en chans att se hur vi kan hjälpa dig att förbättra din hudhälsa innan du tar steget att besöka en läkare.</p>',
+      ),
 );
-
+$results = array(
+      new ResultCustomer(
+            id: '1',
+            image_before_small: 'https://via.placeholder.com/358x358.webm',
+            image_after_small: 'https://via.placeholder.com/358x358.webm',
+            image_before_large: 'https://via.placeholder.com/424x424.webm',
+            image_after_large: 'https://via.placeholder.com/424x424.webm',
+            age: 18,
+            gender: 'Female',
+            problem: 'Akne',
+            type: 'Severe',
+            treatment: new ResultTreatment(
+                  duration: 'Efter 3 månaders behandling av <a href="behandlingar/akne">akne</a>',
+                  procedures: array(
+                        new ResultProcedure(
+                              image: 'https://via.placeholder.com/102x102.webm',
+                              name: 'Problem skin facials',
+                              count: '3 gånger'
+                        ),
+                  ),
+                  product: new ResultProduct(
+                        image: 'https://via.placeholder.com/102x102.webm',
+                        name: 'Product bundle for light acne',
+                  ),
+                  employee: new ResultEmployee(
+                        image: 'https://via.placeholder.com/102x102.webm',
+                        name: 'Patrick Minogue'
+                  ),
+            )
+      ),
+      new ResultCustomer(
+            id: '2',
+            image_before_small: 'https://via.placeholder.com/358x358.webm',
+            image_after_small: 'https://via.placeholder.com/358x358.webm',
+            image_before_large: 'https://via.placeholder.com/424x424.webm',
+            image_after_large: 'https://via.placeholder.com/424x424.webm',
+            age: 18,
+            gender: 'Female',
+            problem: 'Akne',
+            type: 'Severe',
+            treatment: new ResultTreatment(
+                  duration: 'Efter 3 månaders behandling av <a href="behandlingar/akne">akne</a>',
+                  procedures: array(
+                        new ResultProcedure(
+                              image: 'https://via.placeholder.com/102x102.webm',
+                              name: 'Problem skin facials',
+                              count: '3 times'
+                        ),
+                  ),
+                  product: new ResultProduct(
+                        image: 'https://via.placeholder.com/102x102.webm',
+                        name: 'Product bundle for light acne',
+                  ),
+                  employee: new ResultEmployee(
+                        image: 'https://via.placeholder.com/102x102.webm',
+                        name: 'Patrick Minogue'
+                  ),
+            )
+      ),
+);
+$reviews = array(
+      new Review(
+            stars: 5,
+            brand: 'Trustpilot',
+            logo_url: 'images/brands/trustpilot.svg',
+            title: 'Allt gick jätte bra!',
+            text: "Allt gick jätte bra, personal var snäll och trevlig med min dotter. Min dotter var orolig för behandling hur ska det vara därför har det varit så lång tid innan vi kommit tillbaka och börjat med behandling. Det var inte lätt för henne men hon är jätte nöjd och glad när hon såg bra resultat /ändring på hennes ansikte. Tack så jätte mycket!!",
+            signature: 'Emily'
+      ),
+      new Review(
+            stars: 5,
+            brand: 'Google',
+            logo_url: 'images/brands/trustpilot.svg',
+            title: 'Man behöver inte klä av sig',
+            text: "Man behöver inte klä av sig för behandling. Behandlaren känns inte stressad, sitter kvar utan att springa iväg för att uträtta annat! Frågar inte ut en. Försöker inte pracka på en produkter. Är trevlig och hjälpsam",
+            signature: 'Emily'
+      ),
+      new Review(
+            stars: 5,
+            brand: 'Trustpilot',
+            logo_url: 'images/brands/trustpilot.svg',
+            title: 'Otroligt nöjd',
+            text: "Efter bara tre månader hos bästa Emma har min hud blivit så mycket bättre! Efter en graviditet och en kombination av hormonell och bakteriell acne så har jag äntligen börjar komma tillbaks till min gamla hy. Är verkligen så himla nöjd. Har gjort ansiktsbehandling mot acne samt kört acnespecialistens produkter och kan bara säga gott om dem!",
+            signature: 'Emily'
+      ),
+      new Review(
+            stars: 5,
+            brand: 'Google',
+            logo_url: 'images/brands/trustpilot.svg',
+            title: 'Nöjd',
+            text: "Ett första besök som absolut kommer leda till ett till. Bra och tydlig information om vad som skulle vara bäst för min hy.",
+            signature: 'Emily'
+      ),
+      new Review(
+            stars: 5,
+            brand: 'Trustpilot',
+            logo_url: 'images/brands/trustpilot.svg',
+            title: 'Kunniga och bra!',
+            text: "Mina tonårsdöttrar har båda gått till acnespecialisten under flera år med både mindre och större problemområden. Vi har alltid fått professionell och kunnig behandling, bra produkter och bra råd, som också hjälper fint!",
+            signature: 'Emily'
+      ),
+);
 $faq_categories = array(
       '' => array(
             new Question(
@@ -363,7 +475,52 @@ $faq_categories = array(
             )
       )
 );
-
+$skin_guide_articles = array(
+      new SkinGuideArticle(
+            id: 'how-hormones-effect',
+            title: 'How hormones effect?',
+            subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
+            problem: 'Acne',
+            description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
+            image_small: 'https://via.placeholder.com/426x324.webp',
+            image_large: 'https://via.placeholder.com/872x456.jpg',
+            category_id: 'category-here',
+            subcategory_id: 'subcategory-here'
+      ),
+      new SkinGuideArticle(
+            id: 'how-hormones-effect',
+            title: 'How hormones effect?',
+            subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
+            problem: 'Acne',
+            description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
+            image_small: 'https://via.placeholder.com/426x324.webp',
+            image_large: 'https://via.placeholder.com/872x456.jpg',
+            category_id: 'category-here',
+            subcategory_id: 'subcategory-here'
+      ),
+      new SkinGuideArticle(
+            id: 'how-hormones-effect',
+            title: 'How hormones effect?',
+            subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
+            problem: 'Acne',
+            description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
+            image_small: 'https://via.placeholder.com/426x324.webp',
+            image_large: 'https://via.placeholder.com/872x456.jpg',
+            category_id: 'category-here',
+            subcategory_id: 'subcategory-here'
+      ),
+      new SkinGuideArticle(
+            id: 'how-hormones-effect',
+            title: 'How hormones effect?',
+            subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
+            problem: 'Acne',
+            description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
+            image_small: 'https://via.placeholder.com/426x324.webp',
+            image_large: 'https://via.placeholder.com/872x456.jpg',
+            category_id: 'category-here',
+            subcategory_id: 'subcategory-here'
+      )
+);
 $specialists = array(
       new Specialist(
             name: 'Cazzandra Lindberg',
@@ -409,6 +566,16 @@ $related_problems = array(
             aka: 'scars stains',
             image: 'https://via.placeholder.com/102x102.webp'
       ),
+);
+$brands = array(
+      new Brand('Powerlite', 'images/brands/powerlite.svg'),
+      new Brand('Dermapen4', 'images/brands/dermapen4.svg'),
+      new Brand('Cryopen', 'images/brands/cryopen.svg'),
+      new Brand('Lumenis', 'images/brands/lumenis.svg'),
+      new Brand('Alma', 'images/brands/alma.svg'),
+      new Brand('PRXT', 'images/brands/prxt.svg'),
+      new Brand('Hydrafacial', 'images/brands/hydrafacial.svg'),
+      new Brand('IP infusion', 'images/brands/ipinfusion.svg'),
 );
 ?>
 
@@ -686,7 +853,10 @@ $related_problems = array(
                               <?php } ?>
                         </section>
                         <section id="results">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php'); ?>
+                              <?php
+                              $results_title = 'Resultat akne';
+                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                              ?>
                         </section>
                         <section id="reviews">
                               <div class="flex-row align-end justify-space-between">
@@ -703,48 +873,6 @@ $related_problems = array(
                                     </div>
                               </div>
                               <?php
-                              $reviews = array(
-                                    new Review(
-                                          stars: 5,
-                                          brand: 'Trustpilot',
-                                          logo_url: 'images/brands/trustpilot.svg',
-                                          title: 'Allt gick jätte bra!',
-                                          text: "Allt gick jätte bra, personal var snäll och trevlig med min dotter. Min dotter var orolig för behandling hur ska det vara därför har det varit så lång tid innan vi kommit tillbaka och börjat med behandling. Det var inte lätt för henne men hon är jätte nöjd och glad när hon såg bra resultat /ändring på hennes ansikte. Tack så jätte mycket!!",
-                                          signature: 'Emily'
-                                    ),
-                                    new Review(
-                                          stars: 5,
-                                          brand: 'Google',
-                                          logo_url: 'images/brands/trustpilot.svg',
-                                          title: 'Man behöver inte klä av sig',
-                                          text: "Man behöver inte klä av sig för behandling. Behandlaren känns inte stressad, sitter kvar utan att springa iväg för att uträtta annat! Frågar inte ut en. Försöker inte pracka på en produkter. Är trevlig och hjälpsam",
-                                          signature: 'Emily'
-                                    ),
-                                    new Review(
-                                          stars: 5,
-                                          brand: 'Trustpilot',
-                                          logo_url: 'images/brands/trustpilot.svg',
-                                          title: 'Otroligt nöjd',
-                                          text: "Efter bara tre månader hos bästa Emma har min hud blivit så mycket bättre! Efter en graviditet och en kombination av hormonell och bakteriell acne så har jag äntligen börjar komma tillbaks till min gamla hy. Är verkligen så himla nöjd. Har gjort ansiktsbehandling mot acne samt kört acnespecialistens produkter och kan bara säga gott om dem!",
-                                          signature: 'Emily'
-                                    ),
-                                    new Review(
-                                          stars: 5,
-                                          brand: 'Google',
-                                          logo_url: 'images/brands/trustpilot.svg',
-                                          title: 'Nöjd',
-                                          text: "Ett första besök som absolut kommer leda till ett till. Bra och tydlig information om vad som skulle vara bäst för min hy.",
-                                          signature: 'Emily'
-                                    ),
-                                    new Review(
-                                          stars: 5,
-                                          brand: 'Trustpilot',
-                                          logo_url: 'images/brands/trustpilot.svg',
-                                          title: 'Kunniga och bra!',
-                                          text: "Mina tonårsdöttrar har båda gått till acnespecialisten under flera år med både mindre och större problemområden. Vi har alltid fått professionell och kunnig behandling, bra produkter och bra råd, som också hjälper fint!",
-                                          signature: 'Emily'
-                                    ),
-                              );
                               $reviews_narrow = true;
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                               ?>
