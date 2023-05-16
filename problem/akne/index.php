@@ -395,7 +395,17 @@ $results = array(
             type: 'Severe',
             treatment: new ResultTreatment(
                   duration: 'Efter 3 månaders behandling av <a href="behandlingar/akne">akne</a>',
-                 
+                  procedures: array(
+                        
+                  ),
+                  product: new ResultProduct(
+                        image: 'https://via.placeholder.com/102x102.webm',
+                        name: 'Product bundle for light acne',
+                  ),
+                  employee: new ResultEmployee(
+                        image: 'https://via.placeholder.com/102x102.webm',
+                        name: 'Patrick Minogue'
+                  ),
             )
       ),
 );
