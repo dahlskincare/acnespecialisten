@@ -449,37 +449,71 @@ $reviews = array(
 $faq_categories = array(
       'Generellt om akne' => array(
             new Question(
-                  title: 'How many treatments are needed?',
+                  title: 'Hur blir jag av med min akne snabbt?',
+                  text: 'Att bli av med akne snabbt är en utmaning, eftersom det inte finns någon quickfix när det gäller akne. Effektiv behandling kräver att du tar hand om din hud genom att använda rätt behandlingar och produkter som passar din specifika hudtyp och akne. För att få en skräddarsydd behandlingsplan som hjälper dig att bli av med aknen så snabbt som möjligt, rekommenderar vi att du bokar en kostnadsfri hudkonsultation hos oss. Under konsultationen kommer vi att analysera din hud och hjälpa dig att utforma en anpassad behandlingsrutin som ger dig de bästa förutsättningarna för att snabbt och effektivt behandla din akne.'
+            ),
+            new Question(
+                  title: 'Har jag akne även om jag bara har en finne?',
                   text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
             ),
             new Question(
-                  title: 'Can my acne come back?',
+                  title: 'Ska jag klämma mina finnar?',
                   text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
             ),
             new Question(
-                  title: 'How do I get rid of my acne fast?',
+                  title: 'Försvinner aknen efter tonåren?',
                   text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-            ),
+            )
             new Question(
-                  title: 'Do I have acne even if I only have one pimple?',
+                  title: 'Kan jag ha akne även om jag är vuxen?',
+                  text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            )
+            new Question(
+                  title: 'Förvärras min akne av att jag äter choklad?',
+                  text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            )
+            new Question(
+                  title: 'Vad kan jag göra för att bli av med min akne?',
+                  text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            )
+            new Question(
+                  title: 'Försvinner aknen efter tonåren?',
                   text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
             )
       ),
       'Behandling mot akne' => array(
             new Question(
-                  title: 'How many treatments are needed?',
+                  title: 'Hur många behandlingar behövs?',
+                  text: '<p class="p200">Antalet behandlingar som behövs varierar från person till person och beror på flera faktorer, som din hudtyp, svårighetsgraden av din akne och din respons på behandlingen. Vanligtvis kan du se en förbättring efter 1 till 3 veckors regelbunden behandling.</p>
+
+                       <p class="p200 mt-m">Det är viktigt att påpeka att behandlingen hos oss inte fungerar i isolering. En väsentlig del av din framgång ligger i den dagliga användningen av de rekommenderade produkterna hemma. Det är kombinationen av professionell behandling och hemmavård som ger bästa möjliga resultat.</p>
+
+                        <p class="p200 mt-m">Om du inte upplever de förväntade förbättringarna efter en tid, uppmanar vi dig att ta kontakt med din personliga hudterapeut. Tillsammans kan vi se över dina hudvårdsrutiner och de produkter du använder, för att optimera din behandlingsplan.</p>'
+            ),
+            new Question(
+                  title: 'Finns det en risk att min akne återkommer?',
+                  text: '<p class="p200">Ja, det finns en risk att akne återkommer, eftersom akne kan påverkas av flera faktorer såsom genetik, hormoner, livsstil och hudvård. Personer med en genetisk benägenhet för akne kan uppleva att aknen återkommer, särskilt under perioder av hormonella förändringar som pubertet, graviditet eller menstruation. Även faktorer som stress, kost och användning av olämpliga hudvårdsprodukter kan bidra till att aknen återkommer.</p>
+
+                       <p class="p200 mt-m">Det är dock viktigt att komma ihåg att regelbunden och korrekt hudvård kan hålla aknen i schack. Precis som vi borstar tänderna varje dag för att hålla karies borta, behöver vi underhålla vår hud för att hålla aknen borta. Det innebär att följa en anpassad hudvårdsrutin, hantera stress och upprätthålla en hälsosam livsstil. Så länge du tar hand om din hud regelbundet och på rätt sätt, kan du förhindra att aknen återkommer.</p>'
+            ),
+            new Question(
+                  title: 'Vilken är den bästa behandlingen mot akne?',
                   text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
             ),
             new Question(
-                  title: 'Can my acne come back?',
+                  title: 'Gör aknebehandlingen ont?',
                   text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-            ),
+            )
             new Question(
-                  title: 'How do I get rid of my acne fast?',
+                  title: 'Vad ska jag tänka på innan behandlingen?',
                   text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-            ),
+            )
             new Question(
-                  title: 'Do I have acne even if I only have one pimple?',
+                  title: 'Vad ska jag tänka på efter behandling?',
+                  text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            )
+            new Question(
+                  title: 'Eftervård efter behandlingen?',
                   text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
             )
       ),
