@@ -1,2 +1,3 @@
 User-agent: *
-Allow: /
+Disallow: /widgets/
+Disallow /node_modules/
