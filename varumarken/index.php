@@ -13,69 +13,69 @@ $green_banner_content = new GreenBannerContent(
 
 $header_brands = array(
       new Brand(
+            label: 'Alma',
+            image: 'https://via.placeholder.com/94x34.webp',
+            url: 'varumarken/alma',
+      ),
+      new Brand(
             label: 'Powerlite',
             image: 'https://via.placeholder.com/94x34.webp',
-            url: 'priser/powerlite',
+            url: 'varumarken/powerlite',
       ),
       new Brand(
             label: 'Dermapen',
             image: 'https://via.placeholder.com/94x34.webp',
-            url: 'priser/dermapen',
+            url: 'varumarken/dermapen',
       ),
       new Brand(
             label: 'Dermapen',
             image: 'https://via.placeholder.com/94x34.webp',
-            url: 'priser/dermapen',
+            url: 'varumarken/dermapen',
       ),
       new Brand(
             label: 'Dermapen',
             image: 'https://via.placeholder.com/94x34.webp',
-            url: 'priser/dermapen',
+            url: 'varumarken/dermapen',
       ),
       new Brand(
             label: 'Dermapen',
             image: 'https://via.placeholder.com/94x34.webp',
-            url: 'priser/dermapen',
+            url: 'varumarken/dermapen',
       ),
       new Brand(
             label: 'Dermapen',
             image: 'https://via.placeholder.com/94x34.webp',
-            url: 'priser/dermapen',
+            url: 'varumarken/dermapen',
       ),
       new Brand(
             label: 'Dermapen',
             image: 'https://via.placeholder.com/94x34.webp',
-            url: 'priser/dermapen',
+            url: 'varumarken/dermapen',
       ),
       new Brand(
             label: 'Dermapen',
             image: 'https://via.placeholder.com/94x34.webp',
-            url: 'priser/dermapen',
+            url: 'varumarken/dermapen',
       ),
       new Brand(
             label: 'Dermapen',
             image: 'https://via.placeholder.com/94x34.webp',
-            url: 'priser/dermapen',
+            url: 'varumarken/dermapen',
       ),
       new Brand(
             label: 'Dermapen',
             image: 'https://via.placeholder.com/94x34.webp',
-            url: 'priser/dermapen',
+            url: 'varumarken/dermapen',
       ),
       new Brand(
             label: 'Dermapen',
             image: 'https://via.placeholder.com/94x34.webp',
-            url: 'priser/dermapen',
+            url: 'varumarken/dermapen',
       ),
       new Brand(
             label: 'Dermapen',
             image: 'https://via.placeholder.com/94x34.webp',
-            url: 'priser/dermapen',
-      ),
-      new Brand(
-            label: 'Dermapen',
-            image: 'https://via.placeholder.com/94x34.webp',
-            url: 'priser/dermapen',
+            url: 'varumarken/dermapen',
       ),
 );
 
