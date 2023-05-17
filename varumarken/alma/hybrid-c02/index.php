@@ -4,7 +4,6 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $nav_buttons = array(
     'about' => 'Overview',
-    'models' => 'Models',
     'problems' => 'Problems',
     'results' => 'Results',
     'reviews' => 'Reviews',
