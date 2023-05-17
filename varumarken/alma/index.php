@@ -1,16 +1,50 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
+include_once('../widgets/brand_model_card/brand_model.php');
+
 $nav_buttons = array(
     'about' => 'Overview',
-    'preparing' => 'Preparing',
-    'process' => 'Process',
-    'types' => 'Types',
-    'aftercare' => 'Aftercare',
+    'models' => 'Models',
+    'problems' => 'Problems',
     'results' => 'Results',
     'reviews' => 'Reviews',
     'faq' => 'FAQ',
     'skin-guide' => 'Skin guide',
     'specialists' => 'Facials specialists',
+);
+$models = array(
+    new BrandModel(
+        image: 'https://via.placeholder.com/102x102.webp',
+        title: 'Hybrid (C02)',
+        subtitle: 'Laser for problem skin',
+        content: 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity...',
+        url: 'varumarken/alma/hybrid-c02',
+        url_label: 'Read more'
+    ),
+    new BrandModel(
+        image: 'https://via.placeholder.com/102x102.webp',
+        title: 'Harmony XL',
+        subtitle: 'Laser for problem skin & IPL',
+        content: 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity...',
+        url: 'varumarken/alma/harmony-xl',
+        url_label: 'Read more'
+    ),
+    new BrandModel(
+        image: 'https://via.placeholder.com/102x102.webp',
+        title: 'Soprano ICE',
+        subtitle: 'Laser for hair removal',
+        content: 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity...',
+        url: 'varumarken/alma/soprano-ice',
+        url_label: 'Read more'
+    ),
+    new BrandModel(
+        image: 'https://via.placeholder.com/102x102.webp',
+        title: 'Rejuve Dye VL',
+        subtitle: 'IPL',
+        content: 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity...',
+        url: 'varumarken/alma/rejuve-dye-vl',
+        url_label: 'Read more'
+    )
 );
 ?>
 <!DOCTYPE html>
@@ -119,6 +153,26 @@ $nav_buttons = array(
                 </section>
                 <section id="nav-buttons">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
+                </section>
+                <section id="about" class="large-margin">
+                    <h2 class="h500 l10n">What is Alma?</h2>
+                    <p class="p200 mt-xl l10n">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p>
+                    <p class="p200 mt-xl l10n">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>
+
+                </section>
+                <section id="models" class="large-margin">
+                    <h2 class="h500 l10n">Alma models</h2>
+                    <p class="p200 mt-xs l10n">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>
+                    <div class="columns is-multiline is-variable is-3">
+                        <?php foreach ($models as $model) { ?>
+                            <div class="column is-half">
+                                <?php include('../widgets/brand_model_card/brand_model_card.php'); ?>
+                            </div>
+                        <?php } ?>
+                    </div>
+                </section>
+                <section id="problems" class="large-margin">
+                    <h2 class="h500 l10n">Problems treated with Alma</h2>
                 </section>
             </div>
         </div>
