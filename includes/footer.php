@@ -156,7 +156,7 @@
                     <p>&copy;
                         <?php echo date('Y') ?> Acnespecialisten
                     </p>
-                    <a href="cookie-policy" class="button b100 compact text l10n">Cookie policy</a>
+                    <a href="cookies" class="button b100 compact text l10n">Cookie policy</a>
                     <div id="language-selector">
                         <?php icon("intl") ?>
                         <span class="button b100 compact text l10n">
@@ -401,7 +401,7 @@
                         <?php echo date('Y') ?> Acnespecialisten
                     </p>
                     <div class="flex-row">
-                        <a href="cookie-policy" class="button b100 compact text l10n">Cookie policy</a>
+                        <a href="cookies" class="button b100 compact text l10n">Cookie policy</a>
                         <div id="language-selector">
                             <?php icon("intl") ?>
                             <span class="button b100 compact text l10n">English</span>
