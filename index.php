@@ -29,7 +29,7 @@
                         <video autoplay muted loop id="banner-video">
                         </video>
                         <div class="container">
-                              <h1 class="big l10n">Hudspecialisterna</h1>
+                              <h1 class="h700 l10n">Hudspecialisterna</h1>
                         </div>
                   </div>
                   <a href="hudkonsultation">

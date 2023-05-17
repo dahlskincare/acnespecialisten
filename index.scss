@@ -36,9 +36,15 @@ section#banner {
             transform: translateY(-50%);
         }
 
-        h1.big {
-            width: 228px;
+        h1 {
             color: $white-500;
+            text-align: center;
+            @include h600;
+
+            @include desktop {
+                text-align: left;
+                @include h700;
+            }
         }
     }
 
