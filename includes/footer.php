@@ -196,7 +196,7 @@
                     <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559" target="_blank" class="footer-large-banner">
                         <div class="columns">
                             <div class="column">
-                                <h2 class="l10n">Redo att sätta igång??</h2>
+                                <h2 class="l10n">Redo att sätta igång?</h2>
                                 <p class="l10n mt-xs">
                                     Vi inleder med en gratis hudkonsultation, identifierar din problemhy och skapar en anpassad behandlingsplan för dig.
                                 </p>
@@ -205,7 +205,7 @@
                                 <div class="aligner">
                                     <?php icon('pin') ?>
                                     <div>
-                                        <button class="b200 white l10n">Konsultaiton på klinik </button>
+                                        <button class="b200 white l10n">Konsultation på klinik </button>
                                     </div>
                                 </div>
                             </div>
@@ -217,16 +217,16 @@
                     <a href="#" target="_blank" class="footer-large-banner">
                         <div class="columns">
                             <div class="column">
-                                <h2 class="l10n">Kliniken för<br />långt bort?</h2>
+                                <h2 class="l10n">Kliniken för långt bort?</h2>
                                 <p class="l10n mt-xs">
-                                    Inga problem! Vi erbjuder onlinekonsultationer för att alla ska kunna uppnå en problemfri hy!
+                                    Inga problem! Vi erbjuder kostnadsfria online-konsultationer för att alla ska kunna uppnå en problemfri hy, kom igång direkt!
                                 </p>
                             </div>
                             <div class="column">
                                 <div class="aligner">
                                     <img src="images/brands/zoom.svg" alt="zoom" width="92" height="21" />
                                     <div>
-                                        <button class="b200 white l10n">Digital Konsultation</button>
+                                        <button class="b200 white l10n">Konsultation online</button>
                                     </div>
                                 </div>
                             </div>
