@@ -226,6 +226,11 @@ section#cards {
             border-bottom-left-radius: $radius-l;
             border-bottom-right-radius: $radius-l;
 
+            p {
+                height: 180px;
+                overflow-y: auto;
+            }
+
             hr {
                 margin: $m 0;
                 border: 0;
