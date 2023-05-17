@@ -493,10 +493,6 @@ $faq_categories = array(
             new Question(
                   title: 'Vad kan jag göra för att bli av med min akne?',
                   text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-            ),
-            new Question(
-                  title: 'Försvinner aknen efter tonåren?',
-                  text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
             )
       ),
       'Behandling mot akne' => array(
