@@ -7,7 +7,7 @@
         <source media="(min-width: 200px, max-width: 349px)" srcset="<?php echo $article->image_small ?>">
         <source media="(min-width: 350px, max-width: 1279px)" srcset="<?php echo $article->image_large ?>">
         <source media="(min-width: 1280px)" srcset="<?php echo $article->image_large ?>">
-        <img src="<?php echo $article->image_large ?>" alt="<?php echo $article->title ?>" width="872" height="456" />
+        <img src="<?php echo $article->image_large ?>" alt="<?php echo $article->title ?>" title="<?php echo $article->title ?>" width="872" height="456" />
     </picture>
     <?php
     if (sizeof($article->tags) > 0) { ?>

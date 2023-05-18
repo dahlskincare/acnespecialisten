@@ -378,7 +378,7 @@ $specialists = array(
                     <picture>
                         <source media="(max-width: 449px)" srcset="https://via.placeholder.com/358x274.webp">
                         <source media="(min-width: 450px)" srcset="https://via.placeholder.com/424x456.webp">
-                        <img src="https://via.placeholder.com/358x274.webp" alt="Alma" width="358" height="274" />
+                        <img src="https://via.placeholder.com/358x274.webp" alt="Alma" title="Alma" width="358" height="274" />
                     </picture>
                 </section>
                 <section id="nav-buttons">

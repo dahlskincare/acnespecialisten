@@ -2,7 +2,7 @@
     <picture>
         <source media="(max-width: 799px)" srcset="<?php echo $product->image_small ?>">
         <source media="(min-width: 800px)" srcset="<?php echo $product->image_large ?>">
-        <img src="<?php echo $product->image_large ?>" alt="<?php echo $product->title ?>" width="358" height="274" />
+        <img src="<?php echo $product->image_large ?>" alt="<?php echo $product->title ?>" title="<?php echo $product->title ?>" width="358" height="274" />
     </picture>
     <div class="mt-xl">
         <span class="l10n h200">Price from&nbsp;</span><span class="h200"><?php echo $product->price ?></span>

@@ -622,7 +622,7 @@
                                     <picture class="is-hidden-tablet">
                                           <source media="(max-width: 799px)" srcset="images/about-mobile.jpg">
                                           <source media="(min-width: 800px)" srcset="images/about-desktop.jpg">
-                                          <img src="images/about-mobile.jpg" alt="About us" width="364" height="364" />
+                                          <img src="images/about-mobile.jpg" alt="About us" title="About us" width="364" height="364" />
                                     </picture>
                                     <div class="columns is-4 is-variable">
                                           <div class="column">
@@ -674,7 +674,7 @@
                               <picture>
                                     <source media="(max-width: 799px)" srcset="images/about-mobile.jpg">
                                     <source media="(min-width: 800px)" srcset="images/about-desktop.jpg">
-                                    <img src="images/about-desktop.jpg" alt="About us" width="632" height="632" />
+                                    <img src="images/about-desktop.jpg" alt="About us" title="About us" width="632" height="632" />
                               </picture>
                         </div>
                   </section>

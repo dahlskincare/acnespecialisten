@@ -17,7 +17,7 @@ if (!isset($brands)) {
   <div class="flex-container">
     <?php foreach ($brands as $brand) { ?>
       <div class="flex-item flex-item-bottom-right">
-        <img src="<?php echo $brand->image ?>" alt="<?php echo $brand->label ?>" width="116" height="30">
+        <img src="<?php echo $brand->image ?>" alt="<?php echo $brand->label ?>" title="<?php echo $brand->label ?>" width="116" height="30" />
       </div>
     <?php } ?>
   </div>

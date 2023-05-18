@@ -2,7 +2,7 @@
     <picture>
         <source media="(max-width: 799px)" srcset="<?php echo $category->image_small ?>">
         <source media="(min-width: 800px)" srcset="<?php echo $category->image_large ?>">
-        <img src="<?php echo $category->image_large ?>" alt="<?php echo $category->label ?>" width="424" height="324" />
+        <img src="<?php echo $category->image_large ?>" alt="<?php echo $category->label ?>" title="<?php echo $category->label ?>" width="424" height="324" />
     </picture>
     <div class="service-category-card-content">
         <div>

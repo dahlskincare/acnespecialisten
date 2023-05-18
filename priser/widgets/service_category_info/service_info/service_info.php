@@ -6,7 +6,7 @@
             <div class="tiw-service-flex">
                 <div class="tiw-service-left">
                     <?php if (isset($service->image)) { ?>
-                        <img src="<?php echo $service->image ?>" alt="<?php echo $service->name ?>" width="64" height="64" />
+                        <img src="<?php echo $service->image ?>" alt="<?php echo $service->name ?>" title="<?php echo $service->name ?>" width="64" height="64" />
                     <?php } ?>
                     <div>
                         <div class="tiw-service-name"><?php echo $service->name ?></div>

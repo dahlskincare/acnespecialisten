@@ -99,9 +99,9 @@
                                 icon('star');
                             } ?>
                         </div>
-                        <img src="<?php echo $review->logo_url ?>" width="102" height="26" alt="<?php echo $review->brand ?>">
+                        <img src="<?php echo $review->logo_url ?>" width="102" height="26" alt="<?php echo $review->brand ?>" title="<?php echo $review->brand ?>" />
                     </div>
-                    <h3 class="review-box-title h200"><?php echo $review->title ?></h3>
+                    <h3 class=" review-box-title h200"><?php echo $review->title ?></h3>
                     <p class="review-box-text p200"><?php echo $review->text ?></p>
                     <p class="review-box-signature p200"><?php echo $review->signature ?></p>
                 </div>
@@ -111,7 +111,7 @@
     </div>
     <div class="review-brands">
         <div class="review-brand">
-            <img src="images/brands/google.svg" alt="Google" width="80" height="26">
+            <img src="images/brands/google.svg" alt="Google" title="Google" width="80" height="26">
             <div class="review-brand-right">
                 <div class="flex-row align-center justify-end">
                     <?php icon('star') ?>
@@ -122,7 +122,7 @@
 
         </div>
         <div class="review-brand">
-            <img src="images/brands/trustpilot.svg" alt="Trustpilot" width="107" height="27">
+            <img src="images/brands/trustpilot.svg" alt="Trustpilot" title="Trustpilot" width=" 107" height="27" />
             <div class="review-brand-right">
                 <div class="flex-row align-center justify-end">
                     <?php icon('star') ?>
@@ -132,7 +132,7 @@
             </div>
         </div>
         <div class="review-brand">
-            <img src="images/brands/bokadirekt.svg" alt="Bokadirekt" width="128" height="19">
+            <img src="images/brands/bokadirekt.svg" alt="Bokadirekt" title="Bokadirekt" width="128" height="19" />
             <div class="review-brand-right">
                 <div class="flex-row align-center justify-end">
                     <?php icon('star') ?>

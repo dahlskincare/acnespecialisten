@@ -166,7 +166,7 @@ if (form_completed()) {
                     <picture>
                         <source media="(max-width: 799px)" srcset="presentkort/small.webp">
                         <source media="(min-width: 800px)" srcset="presentkort/large.webp">
-                        <img src="presentkort/small.webp" alt="About us" width="360" height="274" />
+                        <img src="presentkort/small.webp" alt="Gift cards" title="Gift cards" width="360" height="274" />
                     </picture>
                 </section>
                 <section id="steps">
@@ -259,7 +259,7 @@ if (form_completed()) {
                                     <div class="l10n">Send us any amount you want to put on the gift card or buy some procedure.</div>
                                 </div>
                                 <div id="qr-image">
-                                    <img src="<?php echo $qr_image_desktop ?>" alt="QR">
+                                    <img src="<?php echo $qr_image_desktop ?>" alt="QR" title="QR">
                                     <div class="mt-s h200">123 08 866 89</div>
                                 </div>
                             </div>
@@ -353,7 +353,7 @@ if (form_completed()) {
                         <picture>
                             <source media="(max-width: 1023px)" srcset="https://via.placeholder.com/358x272.webp">
                             <source media="(min-width: 1024px)" srcset="https://via.placeholder.com/424x526.webp">
-                            <img src="https://via.placeholder.com/358x272.webp" alt="Gift to someone" width="358" height="272" />
+                            <img src="https://via.placeholder.com/358x272.webp" alt="Gift to someone" title="Gift to someone" width="358" height="272" />
                         </picture>
                         <div>
                             <div class="gcf-header is-hidden-touch l10n">Gift to someone <br />you care about</div>
@@ -369,7 +369,7 @@ if (form_completed()) {
                         <picture>
                             <source media="(max-width: 1023px)" srcset="https://via.placeholder.com/358x272.webp">
                             <source media="(min-width: 1024px)" srcset="https://via.placeholder.com/424x526.webp">
-                            <img src="https://via.placeholder.com/358x272.webp" alt="Gift to someone" width="358" height="272" />
+                            <img src="https://via.placeholder.com/358x272.webp" alt="Gift to someone" title="Gift to someone" width="358" height="272" />
                         </picture>
                         <div>
                             <div class="gcf-header is-hidden-touch l10n">Gift to someone <br />you care about</div>

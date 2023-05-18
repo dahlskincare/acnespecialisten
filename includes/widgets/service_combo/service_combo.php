@@ -5,7 +5,7 @@
                 <!-- We actually use the large image on small screens -->
                 <source media="(max-width: 799px)" srcset="<?php echo $combo->image_large ?>">
                 <source media="(min-width: 800px)" srcset="<?php echo $combo->image_small ?>">
-                <img src="<?php echo $combo->image_large ?>" alt="Combo image" width="361" height="274" />
+                <img src="<?php echo $combo->image_large ?>" alt="Combo image" title="Combo image" width="361" height="274" />
             </picture>
         </div>
         <div class="service-combo-content">
@@ -27,7 +27,7 @@
     <div class="service-combo-large is-hidden-mobile">
         <div class="image">
             <picture>
-                <img src="<?php echo $combo->image_small ?>" alt="Combo image" width="200" height="200" />
+                <img src="<?php echo $combo->image_small ?>" alt="Combo image" title="Combo image" width="200" height="200" />
             </picture>
         </div>
         <div class="service-combo-content">

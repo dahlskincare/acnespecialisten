@@ -169,7 +169,7 @@ $repair_url = 'treatments/acne';
                     <picture>
                         <source media="(max-width: 449px)" srcset="<?php echo $image_small ?>">
                         <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
-                        <img src="<?php echo $image_small ?>" alt="<?php echo $title ?>" width="358" height="274" />
+                        <img src="<?php echo $image_small ?>" alt="<?php echo $title ?>" title="<?php echo $title ?>" width="358" height="274" />
                     </picture>
                 </section>
                 <section id="nav-buttons">
@@ -186,7 +186,7 @@ $repair_url = 'treatments/acne';
                     <picture>
                         <source media="(max-width: 799px)" srcset="images/service-categories/medium/consultation.jpg">
                         <source media="(min-width: 800px)" srcset="images/service-categories/large/consultation.jpg">
-                        <img class="mt-xl step-image" src="images/service-categories/large/consultation.jpg" alt="<?php echo $title ?>" width="872" height="456" />
+                        <img class="mt-xl step-image" src="images/service-categories/large/consultation.jpg" alt="<?php echo $title ?>" title="<?php echo $title ?>" width="872" height="456" />
                     </picture>
                     <div class="mt-xl"><?php echo $define_content ?></div>
                     <a href="<?php echo $define_consultation_url ?>" class="mt-xl button b200 l10n">Get a free consultation</a>
@@ -223,7 +223,7 @@ $repair_url = 'treatments/acne';
                         <picture>
                             <source media="(max-width: 799px)" srcset="<?php echo $repair_image_small ?>">
                             <source media="(min-width: 800px)" srcset="<?php echo $repair_image_large ?>">
-                            <img src="<?php echo $repair_image_large ?>" alt="<?php echo $repair_title ?>" class="mt-xl" width="872" height="456" />
+                            <img src="<?php echo $repair_image_large ?>" alt="<?php echo $repair_title ?>" title="<?php echo $repair_title ?>" class="mt-xl" width="872" height="456" />
                         </picture>
                         <div class="mt-xl"><?php echo $repair_content ?></div>
                         <a href="<?php echo $repair_url ?>" class="mt-xl button outline b200 expand is-hidden-tablet l10n">

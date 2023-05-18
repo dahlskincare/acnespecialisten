@@ -11,7 +11,7 @@
         <?php foreach ($category->types as $type) { ?>
             <div class="cc-type-desktop is-hidden-touch">
                 <div>
-                    <img src="<?php echo $type->image ?>" alt="<?php echo $type->title ?>" width="102" height="102" />
+                    <img src="<?php echo $type->image ?>" alt="<?php echo $type->title ?>" title="<?php echo $type->title ?>" width="102" height="102" />
                     <div>
                         <div class="h200"><?php echo $type->title ?></div>
                         <div class="p200"><?php echo $type->subtitle ?></div>
@@ -22,7 +22,7 @@
             </div>
             <div class="cc-type-touch is-hidden-desktop">
                 <div>
-                    <img src="<?php echo $type->image ?>" alt="<?php echo $type->title ?>" width="102" height="102" />
+                    <img src="<?php echo $type->image ?>" alt="<?php echo $type->title ?>" title="<?php echo $type->title ?>" width="102" height="102" />
                     <div>
                         <div class="h200"><?php echo $type->title ?></div>
                         <div class="p200"><?php echo $type->subtitle ?></div>

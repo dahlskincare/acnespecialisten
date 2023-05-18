@@ -21,7 +21,7 @@
                     <div class="flex-row">
                         <?php if (isset($area->all->image)) { ?>
                             <div class="image">
-                                <img src="<?php echo $area->all->image ?>" alt="<?php echo $area->all->title ?>" width="102" height="102" />
+                                <img src="<?php echo $area->all->image ?>" alt="<?php echo $area->all->title ?>" title="<?php echo $area->all->title ?>" width="102" height="102" />
                             </div>
                         <?php } ?>
                         <div class="area-all-info">
@@ -47,7 +47,7 @@
                 <div class="area-item-card" id="area-item-<?php echo $id ?>" onclick="TreatmentAreas.toggleSelected(this, this.parentElement)">
                     <?php if (isset($item->image)) { ?>
                         <div class="image">
-                            <img src="<?php echo $item->image ?>" alt="<?php echo $area->title ?>" width="102" height="102" />
+                            <img src="<?php echo $item->image ?>" alt="<?php echo $area->title ?>" title="<?php echo $area->title ?>" width="102" height="102" />
                         </div>
                     <?php } ?>
                     <div class="area-item-info">
@@ -70,7 +70,7 @@
                     <picture>
                         <source media="(max-width: 799px)" srcset="<?php echo $area->image_small ?>">
                         <source media="(min-width: 800px)" srcset="<?php echo $area->image_large ?>">
-                        <img src="<?php echo $area->image_large ?>" alt="<?php echo $area->title ?>" width="872" height="456" />
+                        <img src="<?php echo $area->image_large ?>" alt="<?php echo $area->title ?>" title="<?php echo $area->title ?>" width="872" height="456" />
                     </picture>
                 </div>
             <?php } ?>
@@ -84,7 +84,7 @@
                 <div class="select-all-card flex-row align-center" onclick="TreatmentAreas.toggleAllSelected(this)">
                     <?php if (isset($area->all->image)) { ?>
                         <div class="image">
-                            <img src="<?php echo $area->all->image ?>" alt="<?php echo $area->all->title ?>" width="102" height="102" />
+                            <img src="<?php echo $area->all->image ?>" alt="<?php echo $area->all->title ?>" title="<?php echo $area->all->title ?>" width="102" height="102" />
                         </div>
                     <?php } ?>
                     <div class="area-all-info">
@@ -118,7 +118,7 @@
                         <div class="area-item-card" id="area-item-<?php echo $id ?>" onclick="TreatmentAreas.toggleSelected(this, this.parentElement.parentElement.parentElement)">
                             <?php if (isset($item->image)) { ?>
                                 <div class=" image">
-                                    <img src="<?php echo $item->image ?>" alt="<?php echo $area->title ?>" width="102" height="102" />
+                                    <img src="<?php echo $item->image ?>" alt="<?php echo $area->title ?>" title="<?php echo $area->title ?>" width="102" height="102" />
                                 </div>
                             <?php } ?>
                             <div class="area-item-info">

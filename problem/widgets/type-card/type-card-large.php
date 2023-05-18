@@ -1,7 +1,7 @@
 <a href="<?php echo $type->url ?>" class="type-card-widget">
     <div class="flex-row align-start justify-space-between">
         <div class="image">
-            <img src="<?php echo $type->image_url ?>?>" alt="<?php echo $type->title ?>" width="102" height="102" />
+            <img src="<?php echo $type->image_url ?>?>" alt="<?php echo $type->title ?>" title="<?php echo $type->title ?>" width="102" height="102" />
         </div>
         <?php icon('link-external') ?>
     </div>

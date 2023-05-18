@@ -5,8 +5,8 @@ include_once('../widgets/symptom-card/symptom.php');
 include_once('../widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$image_small = 'images/problems/medium/acne-scars.jpg';
-$image_large = 'images/problems/large/acne-scars.jpg';
+$image_small = 'images/problems/akne/424x324px/akne.webp';
+$image_large = 'images/problems/akne/424x456px/akne.webp';
 
 $description = 'Här förklarar vi vad som kännetecknar akne, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av akne, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';
 $akas = ['problem/finnar' => 'Finnar', 'problem/finnar/vuxenakne' => 'Vuxenakne', 'problem/finnar/tonarsakne' => 'Tonårsakne'];
@@ -66,7 +66,7 @@ $trivias = array(
 );
 $treatment_steps = array(
       new TreatmentStep(
-            title: 'identifieraa',
+            title: 'Identifiera',
             content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din aknetyp och skapar en individuell behandlingsplan.',
             url: 'hudkonsultation',
             url_label: 'Få gratis konsultation'
@@ -74,236 +74,514 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Behandla',
             content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika aknetyp, så att du snabbt och säkert blir av med problemet.',
-            url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
+            url: 'aknebehandling',
             url_label: 'Se aknebehandlingar'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'EVi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny akne och hålla din hud i balans.',
-            url: 'https://www.dahlskincare.com',
+            content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny akne och hålla din hud i balans.',
+            url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
             url_label: 'Se produkter'
       ),
       new TreatmentStep(
             title: 'Reparera',
             content: 'När aknen är borta fokuserar vi på att reducera eventuella ärr med behandlingsmetoder som laser, microneedling och kemisk peeling för en jämn och problemfri hud.',
-            url: 'https://www.dahlskincare.com',
+            url: 'aknearr-behandling',
             url_label: 'Se ärrbehandlingar'
       ),
 );
 $type_categories = array(
       new BasedTypeCategory(
             id: 'category-age',
-            title: 'Baserat på ålder',
+            title: 'Akne baserat på ålder',
             content: '<p class="p200">Akne är en hudåkomma som kan drabba både ungdomar och vuxna, även om det är vanligast under tonåren. Tonårsakne uppstår ofta på grund av hormonella förändringar under puberteten. Vuxenakne förekommer också, och det kan bero på en rad olika faktorer. Hos vuxna kan akne orsakas av faktorer som stress, hormonobalans och genetik. Oavsett ålder är det viktigt att förstå att akne kan påverka människor i alla livsstadier.</p>',
             types: array(
                   new BasedType(
-                        id: 'vuxenakne',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
                         title: 'Vuxenakne',
                         subtitle: 'Även kallat acne tarda',
-                        content: ''
+                        content: '',
+                        url: 'problem/akne/typer/vuxenakne',
                   ),
                   new BasedType(
-                        id: 'tonårsakne',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
                         title: 'Tonårsakne',
                         subtitle: 'Även kallat acne vulgaris',
-                        content: ''
+                        content: '',
+                        url: 'problem/akne/typer/tonårsakne',
                   ),
                   new BasedType(
-                        id: 'barnakne',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
                         title: 'Barnakne',
                         subtitle: 'Även kallat acne neonatorum',
-                        content: ''
+                        content: '',
+                        url: 'problem/akne/typer/barnakne',
                   ),
             )
       ),
       new BasedTypeCategory(
             id: 'category-severity',
-            title: 'Baserat på svårighetsgrad',
-            content: '<p class="p200">Akne är en hudåkomma som kan drabba både ungdomar och vuxna, även om det är vanligast under tonåren. Tonårsakne uppstår ofta på grund av hormonella förändringar under puberteten. Vuxenakne förekommer också, och det kan bero på en rad olika faktorer. Hos vuxna kan akne orsakas av faktorer som stress, hormonobalans och genetik. Oavsett ålder är det viktigt att förstå att akne kan påverka människor i alla livsstadier.</p>',
+            title: 'Akne baserat på svårighetsgrad',
+            content: '<p class="p200">Akne kan variera i svårighetsgrad från milda till extremt allvarliga fall. I milda fall av akne är symptomen ofta mindre uttalade och består främst av pormaskar, medan mer allvarliga fall innefattar djupare inflammationer i form av cystor och noduler. Svårighetsgraden påverkar också hur akne påverkar en persons livskvalitet och hur den ska behandlas. Det är viktigt att diagnostisera och behandla akne utifrån dess svårighetsgrad för att säkerställa bästa möjliga behandlingsresultat och förhindra potentiella ärr och bestående skador på huden.</p>',
             types: array(
                   new BasedType(
-                        id: 'vuxenakne',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
-                        title: 'Vuxenakne',
-                        subtitle: 'Även kallat acne tarda',
-                        content: ''
+                        title: 'Mild akne',
+                        subtitle: 'även kallat acne comedonica',
+                        content: '',
+                        url: 'problem/akne/typer/mild-akne',
                   ),
                   new BasedType(
-                        id: 'tonårsakne',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
-                        title: 'Tonårsakne',
-                        subtitle: 'Även kallat acne vulgaris',
-                        content: ''
+                        title: 'Medelsvår akne',
+                        subtitle: 'Även kallat acne papulopustulosa',
+                        content: '',
+                        url: 'problem/akne/typer/medel-akne',
                   ),
                   new BasedType(
-                        id: 'barnakne',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
-                        title: 'Barnakne',
-                        subtitle: 'Även kallat acne neonatorum',
-                        content: ''
+                        title: 'Svår akne',
+                        subtitle: 'Även kallat Acne nodulocystica',
+                        content: '',
+                        url: 'problem/akne/typer/svar-akne',
+                  ),
+                  new BasedType(
+                        image_url: 'https://via.placeholder.com/102x102.jpg',
+                        title: 'Mycket svår akne',
+                        subtitle: 'Även kallat Acne conglobata',
+                        content: '',
+                        url: 'problem/akne/typer/mycket-svar-akne',
                   ),
             )
       ),
       new BasedTypeCategory(
             id: 'category-reason',
-            title: 'Baserat på orsak',
-            content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>',
+            title: 'Akne baserat på yttre faktorer',
+            content: '<p class="p200">Yttre faktorer kan också påverka uppkomsten av akne. Exempel på dessa är sol, friktion, kosmetika, mediciner och miljöfaktorer. Dessa kan bidra till eller förvärra akne genom att irritera huden, täppa till porer eller påverka hudens talgproduktion.</p>',
             types: array(
                   new BasedType(
-                        id: 'mallorca-acne',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
-                        title: 'Mallorca acne',
-                        subtitle: 'Also called scars stains',
-                        content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
+                        title: 'Mallorca akne',
+                        subtitle: 'även kallat Acne aestivalis',
+                        content: '',
+                        url: 'problem/akne/typer/mallorca-akne',
                   ),
                   new BasedType(
-                        id: 'hormonal-acne',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
-                        title: 'Hormonal acne',
-                        subtitle: 'Also called scars stains',
-                        content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
+                        title: 'Hormonell akne',
+                        subtitle: 'akne orsakad av hormoner',
+                        content: '',
+                        url: 'problem/akne/typer/hormonell-akne',
                   ),
                   new BasedType(
-                        id: 'cosmetic-acne',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
-                        title: 'Cosmetic acne',
-                        subtitle: 'Also called scars stains',
-                        content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
+                        title: 'kosmetika akne',
+                        subtitle: 'Även kallat Acne cosmetica',
+                        content: '',
+                        url: 'problem/akne/typer/kosmetika-akne',
                   ),
                   new BasedType(
-                        id: 'acne-exoriee',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
-                        title: 'Acne exoriee',
-                        subtitle: 'Also called scars stains',
-                        content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
+                        title: 'Akne från pillande',
+                        subtitle: 'Även kallat Acne exoriée ',
+                        content: '',
+                        url: 'problem/akne/typer/acne-exoriee',
                   ),
                   new BasedType(
-                        id: 'acne-mechanics',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
-                        title: 'Acne mechanics',
-                        subtitle: 'Also called scars stains',
-                        content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
+                        title: 'Friktionsakne',
+                        subtitle: 'Även kallat Acne mechanica',
+                        content: '',
+                        url: 'problem/akne/typer/akne-mekanisk',
                   ),
                   new BasedType(
-                        id: 'acne-medicamentosa',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
-                        title: 'Acne medicamentosa',
-                        subtitle: 'Also called scars stains',
-                        content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
+                        title: 'Läkemedelsakne',
+                        subtitle: 'Även kallat Acne medicamentosa',
+                        content: '',
+                        url: 'problem/akne/typer/lakemedelsakne',
                   ),
                   new BasedType(
-                        id: 'fungal-acne',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
-                        title: 'Fungal acne',
-                        subtitle: 'Also called scars stains',
-                        content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
+                        title: 'Kontaktakne',
+                        subtitle: 'Även kallat Acne venenata',
+                        content: '',
+                        url: 'problem/akne/typer/kontakt-akne',
+                  ),
+                  new BasedType(
+                        image_url: 'https://via.placeholder.com/102x102.jpg',
+                        title: 'Svampakne',
+                        subtitle: 'Även kallat fungal acne',
+                        content: '',
+                        url: 'problem/akne/typer/fungal-akne',
                   )
             )
       ),
       new BasedTypeCategory(
             id: 'category-area',
-            title: 'Baserat på område',
-            content: '<p class="p200">Akne kan uppstå på olika områden av kroppen, men det är vanligast att det drabbar ansiktet, bröstet, axlarna och ryggen. Olika typer av akne kan förekomma på olika ställen, och vissa områden kan vara mer mottagliga för vissa akneformer än andra.</p>',
+            title: 'Akne baserat på område',
+            content: 'Akne kan uppträda på olika områden på kroppen. Ansiktet är det vanligaste området, men akne kan också förekomma på bröst, rygg, axlar och andra delar av kroppen. Placeringen av akne kan ge en indikation på dess orsak, som hormonella förändringar, irritation från kläder eller yttre faktorer som sol och friktion.',
             types: array(
                   new BasedType(
-                        id: 'acne-on-face',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
-                        title: 'Acne on face',
-                        subtitle: 'Also called scars stains',
-                        content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
+                        title: 'Akne i ansiktet',
+                        subtitle: 'Även kallat Acne faciei',
+                        content: '',
+                        url: 'problem/akne/typer/akne-ansiktet',
                   ),
                   new BasedType(
-                        id: 'acne-on-body',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
-                        title: 'Acne on body',
-                        subtitle: 'Also called scars stains',
-                        content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
-                  )
+                        title: 'Akne på ryggen',
+                        subtitle: 'Även kallat Acne dorsalis',
+                        content: '',
+                        url: 'problem/akne/typer/akne-ryggen',
+                  ),
+                  new BasedType(
+                        image_url: 'https://via.placeholder.com/102x102.jpg',
+                        title: 'Akne på bröstet',
+                        subtitle: 'Även kallat Acne pectoralis',
+                        content: '',
+                        url: 'problem/akne/typer/akne-brostet',
+                  ),
+
             )
       )
+
 );
 $symptoms = array(
       new Symptom(
-            id: 'post-inflammatory-hyperpigmentaion',
-            name: 'Post inflammatory hyperpigmentation',
-            aka: 'scars stains',
+            url: 'problem/akne/typer/post-inflammatory-hyperpigmentaion',
+            name: 'Komedoner (Öppna)',
+            aka: 'Pormaskar',
             image: 'images/symptoms/small/post-inflammatory-hyperpigmentation.jpg',
-            content: 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.'
+            content: 'Pormaskar (öppna komedoner) är små, mörka prickar som uppstår när en por täpps igen av talg (hudens naturliga olja) och döda hudceller. De är ofta svarta eller bruna på grund av oxidation, som inträffar när melanin (hudens pigment) kommer i kontakt med luft. Pormaskar kan vara platta eller lätt upphöjda och är vanligt förekommande på näsan, kinderna, pannan och hakan.'
       ),
       new Symptom(
-            id: 'atrophic-icepick-scars',
-            name: 'Atrophic icepick scars',
-            aka: 'scars stains',
+            url: 'problem/akne/typer/atrophic-icepick-scars',
+            name: 'Komedoner (Stängda)',
+            aka: '"whiteheads"',
             image: 'images/symptoms/small/atrophic-icepick-scars.jpg',
-            content: 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.'
+            content: 'Whiteheads (slutna komedoner) är små, vita eller hudfärgade utbuktningar som uppstår när en por täpps till av talg och döda hudceller under hudytan. De är täckta av ett tunt lager hud, vilket förhindrar oxidation och därmed behåller sin ljusa färg. Whiteheads kan vara platta eller lätt upphöjda och är vanligt förekommande på pannan, kinderna och hakan.'
       ),
       new Symptom(
-            id: 'atrophic-boxcar-scars',
-            name: 'Atrophic boxcar scars',
-            aka: 'scars stains',
+            url: 'problem/akne/typer/atrophic-boxcar-scars',
+            name: 'Papuler',
+            aka: 'röda finnar',
             image: 'images/symptoms/small/atrophic-boxcar-scars.jpg',
-            content: 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.'
+            content: 'Papuler är små, fasta, röda och inflammerade blemmor som uppstår när en hårsäck blir infekterad av bakterier, oftast Propionibacterium acnes. De är vanligtvis mindre än 5 mm i diameter och kan vara känsliga vid beröring. Papuler är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.'
       ),
       new Symptom(
-            id: 'atrophic-rolling-scars',
-            name: 'Atrophic rolling scars',
-            aka: 'scars stains',
+            url: 'problem/akne/typer/atrophic-rolling-scars',
+            name: 'Pustler',
+            aka: 'gula finnar',
             image: 'images/symptoms/small/atrophic-rolling-scars.jpg',
-            content: 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.'
+            content: 'Pustuler är röda och inflammerade blemmor som innehåller var (en blandning av döda bakterier, vita blodkroppar och döda hudceller). De ser ut som papuler men har en vit eller gul prick i mitten. Pustuler kan vara smärtsamma och är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.'
       ),
       new Symptom(
-            id: 'hypertrophic-keloid',
-            name: 'Hypertrophic keloid',
-            aka: 'scars stains',
+            url: 'problem/akne/typer/hypertrophic-keloid',
+            name: 'Noduler',
+            aka: 'innåtfinnar',
             image: 'images/symptoms/small/hypertrophic-keloid.jpg',
-            content: 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.'
+            content: 'Noduler är större, djupare och ofta smärtsamma inflammerade blemmor som uppstår när en hårsäck blir kraftigt infekterad och inflammationen sprider sig till det omgivande vävnaden. De är vanligtvis större än 5 mm i diameter och kan vara fasta och ömma vid beröring. Noduler är vanligt förekommande på ansiktet, nacken, bröstet, ryggen och ibland även på överarmarna och skinkorna.'
+      ),
+      new Symptom(
+            url: 'problem/akne/typer/hypertrophic-keloid',
+            name: 'cystor',
+            aka: 'Bölder',
+            image: 'images/symptoms/small/hypertrophic-keloid.jpg',
+            content: 'Cystor är stora, inflammerade och smärtsamma blemmor som är fyllda med var och bildas när en hårsäck blir mycket infekterad och inflammationen sprider sig djupt in i huden. De kan vara runda och mjuka eller fasta och ömma vid beröring. Cystor kan vara större än 5 mm i diameter och är vanligt förekommande på ansiktet, nacken, bröstet och ryggen. Cystisk akne kan leda till ärrbildning och kräver ofta professionell behandling.'
       ),
 );
 $service = new Service(
       id: 'acne-scars-consultation',
-      title: 'Consultation',
-      duration: '30 min',
-      price: '1295 kr',
-      content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
+      title: 'Konsultation',
+      duration: '20 min',
+      price: 'Kostnadsfri',
+      content: 'Vid ett personligt möte med en acnespecialist utförs en undersökning av din akne. Vi tar före-bilder på din hud och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
       image_small: 'images/service-categories/small/consultation.jpg',
       image_large: 'images/service-categories/large/consultation.jpg',
       consultation_url: 'hudkonsultation',
       booking_url: null
 );
 $services = array(
-      new Service('acne-scars-microneedling', 'Microneedling for acne scars', '30 min', '1295 kr', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears...', 'images/service-categories/small/microneedling.jpg', 'images/service-categories/large/microneedling.jpg', 'hudkonsultation', 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922'),
-      new Service('acne-scars-laser', 'Laser for acne scars', '30 min', '1295 kr', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears...', 'images/service-categories/small/laser-problem-skin.jpg', 'images/service-categories/large/laser-problem-skin.jpg', 'hudkonsultation', 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922'),
-      new Service('acne-scars-chemical-peeling', 'Chemical peeling for acne scars', '30 min', '1295 kr', 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears...', 'images/service-categories/small/chemical-peeling.jpg', 'images/service-categories/large/chemical-peeling.jpg', 'hudkonsultation', 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922'),
+      new Service(
+            id: 'acne-scars-microneedling',
+            title: 'Ansiktsbehandling mot akne',
+            duration: '60 min',
+            price: '995 kr',
+            content: 'En effektiv ansiktsbehandling mot akne fokuserar på att noggrant extrahera orenheter som orsakar inflammation och skador i huden. Genom att försiktigt klämma ut akne och pormaskar kan behandlingen bidra till att förebygga ärrbildning och främja en snabbare läkning.',
+            image_small: 'images/service-categories/small/microneedling.jpg',
+            image_large: 'images/service-categories/large/microneedling.jpg',
+            consultation_url: 'hudkonsultation',
+            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
+      ),
+      new Service(
+            id: 'acne-scars-laser',
+            title: 'Laser mot akne',
+            duration: '50 min',
+            price: '2595 kr',
+            content: 'En avancerad laserbehandling mot akne erbjuder en effektiv lösning för att bekämpa aktiv akne och ärr som kan uppstå efter utbrott. Lasertekniken riktar sig mot de bakterier som orsakar inflammation och hjälper till att minska produktionen av talg, vilket minskar risken för framtida utbrott.',
+            image_small: 'images/service-categories/small/laser-problem-skin.jpg',
+            image_large: 'images/service-categories/large/laser-problem-skin.jpg',
+            consultation_url: 'hudkonsultation',
+            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
+      ),
+      new Service(
+            id: 'acne-scars-chemical-peeling',
+            title: 'Kemisk peeling mot akne',
+            duration: '30 min',
+            price: '1595 kr',
+            content: 'Kemisk peeling är en effektiv metod för att behandla akne. Genom att använda en speciellt framtagen lösning för att exfoliera huden, främjar kemisk peeling cellförnyelse, rensar tilltäppta porer och minskar inflammation. Resultatet är en jämnare hudton, mindre utbrott och färre synliga ärr. Det är en enkel och effektiv strategi för att ta kontroll över din akne och förbättra din hudhälsa.',
+            image_small: 'images/service-categories/small/chemical-peeling.jpg',
+            image_large: 'images/service-categories/large/chemical-peeling.jpg',
+            consultation_url: 'hudkonsultation',
+            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922'
+      ),
 );
-$articles = array(
-      new Article('pigmentation-causes-and-risk-factors', 'Acne scars causes and risks factors', 'https://via.placeholder.com/358x272.webp', 'https://via.placeholder.com/872x456.webp', '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>'),
-      new Article('when-to-see-your-pigmentation-specialist', 'When to see your acne scars specialist?', 'https://via.placeholder.com/358x272.webp', 'https://via.placeholder.com/872x456.webp', '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>'),
-);
-
-$faq_categories = array(
-      '' => array(
-            new Question(
-                  title: 'How many treatments are needed?',
-                  text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-            ),
-            new Question(
-                  title: 'Can my acne come back?',
-                  text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-            ),
-            new Question(
-                  title: 'How do I get rid of my acne fast?',
-                  text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-            ),
-            new Question(
-                  title: 'Do I have acne even if I only have one pimple?',
-                  text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-            )
+$products = array(
+      new Service(
+            id: 'produkter-mot-akne',
+            title: 'Produkter mot akne',
+            duration: null,
+            price: 'Price from 995 kr',
+            content: 'För att effektivt bekämpa och förebygga akne är daglig behandling med rätt produkter avgörande. Våra akneprodukter är speciellt utformade för att hålla din hud i balans och förhindra att ny akne uppstår.',
+            image_small: 'images/service-categories/small/consultation.jpg',
+            image_large: 'images/service-categories/large/consultation.jpg',
+            consultation_url: null,
+            booking_url: null
       )
 );
+$procedures = array(
+      new Service(
+            id: 'microneedling-for-acne',
+            title: 'Reparera acneärr',
+            duration: '6 procedures',
+            price: null,
+            content: 'Efter aktiv akne kan man uppleva post-akne, vilket innebär ärr i form av gropar i olika former och fläckar i olika färger på huden där aknen tidigare varit. Olika typer av ärr behandlas med olika metoder. Klicka här för att läsa mer om hur du kan reparera din hud och ta hand om post-akne.',
+            image_small: 'images/service-categories/small/consultation.jpg',
+            image_large: 'images/service-categories/large/consultation.jpg',
+            consultation_url: null,
+            booking_url: null,
+      ),
+);
+$articles = array(
+      new Article(
+            id: 'pigmentation-causes-and-risk-factors',
+            title: 'Varför AcneSpecialisten?!',
+            image_small: 'https://via.placeholder.com/358x272.webp',
+            image_large: 'https://via.placeholder.com/872x456.webp',
+            content: '<p class="p200">Du som vill ha det som är bäst mot akne bör välja Acnespecialisten eftersom vi är experter på att behandla akne och har över 30 års erfarenhet av att ha arbetat med olika typer av akne. Vi lever upp till vårt namn genom att erbjuda personlig och professionell hjälp för att hjälpa dig att uppnå en klar och frisk hud. Vi skräddarsyr behandlingar baserade på dina individuella problem och behov, vi rekommenderar de bästa akneprodukterna för att förebygga och behandla din hud och akne. </p><p class="p200 mt-m">Genom att välja Acnespecialisten får du den mest effektiva behandlingen för ditt specifika fall och en hudvårdspartner som stöttar dig genom hela processen.</p>',
+      ),
+      new Article(
+            id: 'when-to-see-your-pigmentation-specialist',
+            title: 'När ska jag besöka AcneSpecialisten?',
+            image_small: 'https://via.placeholder.com/358x272.webp',
+            image_large: 'https://via.placeholder.com/872x456.webp',
+            content: '<p class="p200">Du bör besöka Acnespecialisten när du känner att din akne påverkar din livskvalitet eller om du har provat olika behandlingar och produkter utan att se några varaktiga förbättringar. Ju tidigare du söker hjälp, desto större är chansen att undvika ärrbildning och långvariga hudproblem. Acnespecialisten är här för att erbjuda dig expertis och skräddarsydda behandlingar oavsett om du har lindrig, måttlig eller svår akne. Tveka inte att kontakta oss för att boka en kostnadsfri konsultation och ta det första steget mot en klarare och friskare hud.</p><p class="p200 mt-m">Välj Acnespecialisten innan du går till en läkare, eftersom vi erbjuder en kostnadsfri konsultation där vi analyserar din akne och föreslår en individuell behandlingsplan. Våra specialister har stor erfarenhet av att behandla akne och kan ge dig råd om vilka produkter och behandlingar som är bäst för just din hudtyp. Att prova Acnespecialisten först kan hjälpa dig att undvika att använda tunga mediciner som kan ha biverkningar och påverka hela kroppen. Genom att boka en gratis konsultation hos oss får du en chans att se hur vi kan hjälpa dig att förbättra din hudhälsa innan du tar steget att besöka en läkare.</p>',
+      ),
+);
+$results = array(
+      new ResultCustomer(
+            id: '1',
+            image_before_small: 'https://via.placeholder.com/358x358.webm',
+            image_after_small: 'https://via.placeholder.com/358x358.webm',
+            image_before_large: 'https://via.placeholder.com/424x424.webm',
+            image_after_large: 'https://via.placeholder.com/424x424.webm',
+            age: 18,
+            gender: 'Female',
+            problem: 'Akne',
+            type: 'Severe',
+            treatment: new ResultTreatment(
+                  duration: 'Efter 3 månaders <a href="behandlingar/akne">behandlingar mot akne</a>',
+            )
+      ),
+      new ResultCustomer(
+            id: '2',
+            image_before_small: 'https://via.placeholder.com/358x358.webm',
+            image_after_small: 'https://via.placeholder.com/358x358.webm',
+            image_before_large: 'https://via.placeholder.com/424x424.webm',
+            image_after_large: 'https://via.placeholder.com/424x424.webm',
+            age: 18,
+            gender: 'Female',
+            problem: 'Akne',
+            type: 'Severe',
+            treatment: new ResultTreatment(
+                  duration: 'Efter 3 månaders <a href="behandlingar/akne">behandlingar mot akne</a>',
+            )
+      ),
+);
+$reviews = array(
+      new Review(
+            stars: 5,
+            brand: 'Trustpilot',
+            logo_url: 'images/brands/trustpilot.svg',
+            title: 'Supernöjd',
+            text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
+            signature: 'Sofia'
+      ),
+      new Review(
+            stars: 5,
+            brand: 'Google',
+            logo_url: 'images/brands/trustpilot.svg',
+            title: 'Rekommenderar varmt Acne Specialisten',
+            text: "Trevlig och proffsig personal. Personalen har ett trevligt bemötande och är kunniga inom sitt område. Trevliga, fräscha lokaler.",
+            signature: 'Gabriela'
+      ),
+      new Review(
+            stars: 5,
+            brand: 'Trustpilot',
+            logo_url: 'images/brands/trustpilot.svg',
+            title: 'Underbar service och väldigt…Stort tack att ni finns',
+            text: "nderbar service och väldigt professionell hudterapeut Julia. Acne specialister håller högsta standarden och alltid ta hand om sina kunder och bryr sig om kunders upplevelse efter behandlingen. Stort tack att ni finns",
+            signature: 'Emily'
+      ),
+      new Review(
+            stars: 5,
+            brand: 'Google',
+            logo_url: 'images/brands/trustpilot.svg',
+            title: 'Nöjd',
+            text: "Ett första besök som absolut kommer leda till ett till. Bra och tydlig information om vad som skulle vara bäst för min hy.",
+            signature: 'Emily'
+      ),
+      new Review(
+            stars: 5,
+            brand: 'Trustpilot',
+            logo_url: 'images/brands/trustpilot.svg',
+            title: 'Kunniga och bra!',
+            text: "Mina tonårsdöttrar har båda gått till acnespecialisten under flera år med både mindre och större problemområden. Vi har alltid fått professionell och kunnig behandling, bra produkter och bra råd, som också hjälper fint!",
+            signature: 'Emily'
+      ),
+);
+$faq_categories = array(
+      'Generellt om akne' => array(
+            new Question(
+                  title: 'Hur blir jag av med min akne snabbt?',
+                  text: 'Att bli av med akne snabbt är en utmaning, eftersom det inte finns någon quickfix när det gäller akne. Effektiv behandling kräver att du tar hand om din hud genom att använda rätt behandlingar och produkter som passar din specifika hudtyp och akne. För att få en skräddarsydd behandlingsplan som hjälper dig att bli av med aknen så snabbt som möjligt, rekommenderar vi att du bokar en kostnadsfri hudkonsultation hos oss. Under konsultationen kommer vi att analysera din hud och hjälpa dig att utforma en anpassad behandlingsrutin som ger dig de bästa förutsättningarna för att snabbt och effektivt behandla din akne.'
+            ),
+            new Question(
+                  title: 'Har jag akne även om jag bara har en finne?',
+                  text: 'ja, du har tekniskt sett akne även om du bara har en enstaka finne. Akne kan ta sig många olika former och innefattar alla typer av finnar, oavsett om det är enstaka eller flera, stora eller små, papler eller pustler. Många tror att de inte har akne om de endast upplever enstaka finnar då och då, men faktum är att alla dessa fall kategoriseras som akne.'
+            ),
+            new Question(
+                  title: 'Ska jag klämma mina finnar?',
+                  text: '<p class="p200">Vi på Acnespecialisten rekommenderar att du inte klämmer finnar själv, eftersom felaktig teknik kan leda till ärrbildning och förvärra inflammationen genom att införa bakterier från dina fingrar. Det är dock sant att finnar kan behöva klämmas, men det måste göras på rätt sätt för att undvika skador på huden. Om du undviker att klämma helt kan ärrbildning också uppstå, eftersom fettsyran i finnen fortsätter att fräta på huden.</p>
 
+                        <p class="p200 mt-m">För att klämma finnar korrekt krävs både rätt utrustning och teknik. På Acnespecialisten har vi erfarna hudterapeuter som kan hjälpa dig att behandla dina finnar på ett säkert och effektivt sätt. Genom att vända dig till oss får du den expertis och omsorg du behöver för att hantera din akne på bästa sätt. Du kan läsa mer om våra aknebehandlingar och hur de kan hjälpa dig här.</p>'
+            ),
+            new Question(
+                  title: 'Försvinner aknen efter tonåren?',
+                  text: '<p class="p200">Det är svårt att ge ett entydigt svar på den frågan eftersom det varierar från person till person. För vissa kan akne vara ett tonårsproblem som försvinner när de blir äldre, medan det för andra kan övergå till vuxenakne. Det är inte säkert att aknen försvinner efter tonåren, och det kan variera beroende på individuella faktorer som hormoner, genetik och livsstil.</p>
+
+                        <p class="p200 mt-m">Akne kan uppstå i olika faser av livet och dess svårighetsgrad varierar från person till person. Vissa individer upplever akne under tonåren, som sedan försvinner när de når vuxen ålder. Andra kan vara aknefria under tonåren, men drabbas av akne som vuxna. Den mest besvärliga situationen är när någon drabbas av akne under tonåren som sedan övergår till vuxenakne.</p>
+
+                        <p class="p200 mt-m">När man når vuxen ålder och aknen fortfarande inte har försvunnit, är det stor risk att aknen har lett till ärrbildning. Det är därför viktigt att behandla akne i alla åldrar för att förebygga och minimera risken för att drabbas av acneärr. Oavsett ålder och fas av akne, bör man söka hjälp för att behandla och kontrollera sitt tillstånd, för att minska risken för långsiktiga hudproblem som ärrbildning.</p>'
+            ),
+            new Question(
+                  title: 'Kan jag ha akne även om jag är vuxen?',
+                  text: '<p class="p200">Ja, akne kan drabba vuxna och det är faktiskt ganska vanligt. Vuxenakne drabbar cirka 12-22% av alla kvinnor och 3% av alla män. Den kan uppkomma vid 20-, 30- och 40-årsåldern, och ibland ännu senare. Det kallas då för vuxenakne och har också med hormonerna i din kropp att göra, men faktorerna som triggar igång din akne är lite annorlunda än vid tonårsakne.</p>
+
+                        <p class="p200 mt-m">Vid tonårsakne ökar produktionen av det manliga könshormonet i din kropp. Det, i kombination med fettproduktionen, kan leda till att du drabbas av akne. Vid vuxen ålder däremot, kan aknen bero på sådant som graviditet, menstruation, alkohol, stress och preventivmedel. Alltså, yttre faktorer som triggar igång dina hormoner och får aknen att blomma upp.</p>
+
+                       <p class="p200 mt-m">Vuxenakne kan orsakas av flera faktorer, såsom hormonella förändringar, stress, genetik och användning av olämpliga hudvårdsprodukter. Hos kvinnor kan akne ofta vara kopplad till menstruationscykeln eller hormonella förändringar i samband med graviditet och menopaus.</p>
+
+                       <p class="p200 mt-m">Sammanfattningsvis kan akne drabba personer i alla åldrar, och det är viktigt att vara medveten om att akne inte bara är ett tonårsproblem.</p>'
+            ),
+            new Question(
+                  title: 'Förvärras min akne av att jag äter choklad?',
+                  text: 'Nej, det är en myt att choklad direkt skulle leda till akne. Ingen vetenskaplig forskning har tydligt påvisat ett direkt samband mellan chokladkonsumtion och uppkomsten av finnar. Det som potentiellt kan påverka din akne är stress. Om du upplever stress över att du ätit choklad, kan det i sin tur bidra till akneutbrott. Men en bit choklad då och då bör inte orsaka akneutbrott hos de flesta människor.'
+            ),
+            new Question(
+                  title: 'Vad kan jag göra för att bli av med min akne?',
+                  text: 'Att bekämpa akne effektivt kräver en individuellt anpassad strategi som kombinerar lämpliga behandlingar och hudvårdsprodukter, utformade för att passa dina unika behov och din huds specifika tillstånd. På Acnespecialisten, erbjuder vi kostnadsfria hudkonsultationer där vi kan utvärdera ditt specifika fall av akne och hjälpa till att skräddarsy en effektiv behandlingsrutin.'
+            )
+      ),
+      'Behandling mot akne' => array(
+            new Question(
+                  title: 'Hur många behandlingar behövs?',
+                  text: '<p class="p200">Antalet behandlingar som behövs varierar från person till person och beror på flera faktorer, som din hudtyp, svårighetsgraden av din akne och din respons på behandlingen. Vanligtvis kan du se en förbättring efter 1 till 3 veckors regelbunden behandling.</p>
+
+                       <p class="p200 mt-m">Det är viktigt att påpeka att behandlingen hos oss inte fungerar i isolering. En väsentlig del av din framgång ligger i den dagliga användningen av de rekommenderade produkterna hemma. Det är kombinationen av professionell behandling och hemmavård som ger bästa möjliga resultat.</p>
+
+                        <p class="p200 mt-m">Om du inte upplever de förväntade förbättringarna efter en tid, uppmanar vi dig att ta kontakt med din personliga hudterapeut. Tillsammans kan vi se över dina hudvårdsrutiner och de produkter du använder, för att optimera din behandlingsplan.</p>'
+            ),
+            new Question(
+                  title: 'Finns det en risk att min akne återkommer?',
+                  text: '<p class="p200">Ja, det finns en risk att akne återkommer, eftersom akne kan påverkas av flera faktorer såsom genetik, hormoner, livsstil och hudvård. Personer med en genetisk benägenhet för akne kan uppleva att aknen återkommer, särskilt under perioder av hormonella förändringar som pubertet, graviditet eller menstruation. Även faktorer som stress, kost och användning av olämpliga hudvårdsprodukter kan bidra till att aknen återkommer.</p>
+                       
+                       <p class="p200 mt-m">Det är dock viktigt att komma ihåg att regelbunden och korrekt hudvård kan hålla aknen i schack. Precis som vi borstar tänderna varje dag för att hålla karies borta, behöver vi underhålla vår hud för att hålla aknen borta. Det innebär att följa en anpassad hudvårdsrutin, hantera stress och upprätthålla en hälsosam livsstil. Så länge du tar hand om din hud regelbundet och på rätt sätt, kan du förhindra att aknen återkommer.</p>'
+            ),
+            new Question(
+                  title: 'Vilken är den bästa behandlingen mot akne?',
+                  text: 'Vilken behandling som är bäst för akne varierar beroende på individens hudtyp, aknens svårighetsgrad och orsaker till akne. Den bästa behandlingen är en skräddarsydd behandlingsplan som kombinerar rätt behandlingar, produkter och rutiner för att effektivt ta itu med den aktiva aknen och förhindra att nya utbrott uppstår. Genom att först behandla och bli av med den aktiva aknen kan du uppnå en klarare hud. Därefter är det viktigt att bibehålla resultaten med lämpliga produkter och rutiner för att motverka att nya finnar uppstår och hålla aknen under kontroll. Det rekommenderas att konsultera en av våra specialister för att få en personlig och effektiv behandlingsplan som passar just din hud och akne.'
+            ),
+            new Question(
+                  title: 'Gör aknebehandlingen ont?',
+                  text: 'vi strävar efter att göra aknebehandlingen så behaglig som möjligt för våra klienter. Det är sant att akne ibland innebär inflammation i porerna och kan göra ont när de öppnas upp och töms. Men vi vill påpeka att smärtupplevelsen kan variera från person till person och bero på behandlingsmetoden som används. Vår erfarna personal är välutbildad och tar stor hänsyn till din komfort under behandlingen. Om du känner någon obehag, tveka inte att informera din acnespecialist så att de kan justera behandlingen efter dina behov.'
+            ),
+            new Question(
+                  title: 'Vad ska jag tänka på innan behandlingen?',
+                  text: 'Vi vill att din behandling ska vara så smidig och bekväm som möjligt, och vi strävar efter att göra processen enkel för dig. Du behöver inte förbereda något särskilt inför ditt besök hos oss. Kom precis som du är, och vi tar hand om resten. Vi kommer att genomföra en grundlig hudanalys och skräddarsy en behandlingsplan som passar just dig och din hudtyp. Så, du kan lita på oss och bara slappna av inför din aknebehandling.'
+            ),
+            new Question(
+                  title: 'Vad ska jag tänka på efter behandling?',
+                  text: '<p class="p200">Efter din aknebehandling hos Acnespecialisten kan du uppleva att huden blir något röd och irriterad. Detta är helt normalt och en del av hudens naturliga läkningsprocess. Rödheten och irritationen kommer att avta under dagarna efter behandlingen. Det är viktigt att du fortsätter att följa den hudvårdsrutin och de produktrekommendationer vi gett dig för att stödja hudens återhämtning och maximera resultaten av behandlingen.</p>
+                        
+                        <p class="p200 mt-m">Undvik att peta eller klämma på behandlade områden för att undvika eventuell ärrbildning och infektion. Dessutom är det bra att skydda huden från solen, då den kan vara extra känslig efter behandling. Använd solskyddsmedel och undvik direkt solljus så mycket som möjligt. Kom ihåg att vi på Acnespecialisten alltid finns här för dig om du har några frågor eller funderingar efter din behandling.</p>'
+            ),
+            new Question(
+                  title: 'Eftervård efter behandlingen?',
+                  text: '<p class="p200">Eftervården efter en aknebehandling hos Acnespecialisten är lika viktig som själva behandlingen. När aknen är utklämd och borta är det viktigt att förebygga uppkomsten av ny akne. Om du inte följer din eftervårdsplan kommer du att få resultat, men det kommer inte vara bestående, eftersom akneproduktionen sätter igång igen kort tid efter behandlingen.</p>
+
+                  <p class="p200 mt-m">För att hålla huden i kontroll och balans är det viktigt att följa de råd och rekommendationer vi ger dig angående hudvårdsrutin och produkter. Kontinuerlig behandling och förebyggande åtgärder är avgörande för att uppnå och bibehålla en klar och frisk hud. Kom ihåg att vi på Acnespecialisten alltid finns här för att hjälpa och stötta dig genom hela processen, både under och efter din behandling.</p>',
+            ),
+      ),
+);
+$skin_guide_articles = array(
+      new SkinGuideArticle(
+            id: 'how-hormones-effect',
+            title: 'How hormones effect?',
+            subtitle: '',
+            problem: 'Acne',
+            description: "",
+            image_small: 'https://via.placeholder.com/426x324.webp',
+            image_large: 'https://via.placeholder.com/872x456.jpg',
+            category_id: 'category-here',
+            subcategory_id: 'subcategory-here'
+      ),
+      new SkinGuideArticle(
+            id: 'how-hormones-effect',
+            title: 'How hormones effect?',
+            subtitle: '',
+            problem: 'Acne',
+            description: "",
+            image_small: 'https://via.placeholder.com/426x324.webp',
+            image_large: 'https://via.placeholder.com/872x456.jpg',
+            category_id: 'category-here',
+            subcategory_id: 'subcategory-here'
+      ),
+      new SkinGuideArticle(
+            id: 'how-hormones-effect',
+            title: 'How hormones effect?',
+            subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
+            problem: 'Acne',
+            description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
+            image_small: 'https://via.placeholder.com/426x324.webp',
+            image_large: 'https://via.placeholder.com/872x456.jpg',
+            category_id: 'category-here',
+            subcategory_id: 'subcategory-here'
+      ),
+      new SkinGuideArticle(
+            id: 'how-hormones-effect',
+            title: 'How hormones effect?',
+            subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
+            problem: 'Acne',
+            description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
+            image_small: 'https://via.placeholder.com/426x324.webp',
+            image_large: 'https://via.placeholder.com/872x456.jpg',
+            category_id: 'category-here',
+            subcategory_id: 'subcategory-here'
+      )
+);
 $specialists = array(
       new Specialist(
             name: 'Cazzandra Lindberg',
@@ -350,6 +628,16 @@ $related_problems = array(
             image: 'https://via.placeholder.com/102x102.webp'
       ),
 );
+$brands = array(
+      new Brand('Powerlite', 'images/brands/powerlite.svg'),
+      new Brand('Dermapen4', 'images/brands/dermapen4.svg'),
+      new Brand('Cryopen', 'images/brands/cryopen.svg'),
+      new Brand('Lumenis', 'images/brands/lumenis.svg'),
+      new Brand('Alma', 'images/brands/alma.svg'),
+      new Brand('PRXT', 'images/brands/prxt.svg'),
+      new Brand('Hydrafacial', 'images/brands/hydrafacial.svg'),
+      new Brand('IP infusion', 'images/brands/ipinfusion.svg'),
+);
 ?>
 
 <!DOCTYPE html>
@@ -373,10 +661,8 @@ $related_problems = array(
       <meta property="twitter:image" content="images/about-desktop.jpg" />
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="stylesheet" href="/styles/default-layout.css">
-
       <link rel="stylesheet" href="problem/problem.css">
       <script src="problem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
-
 </head>
 
 <body>
@@ -424,7 +710,7 @@ $related_problems = array(
                   <div id="green-header-small" class="is-hidden-desktop">
                         <div class="container">
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
-                              <h1 class="h600">Akneärr</h1>
+                              <h1 class="h600">Akne</h1>
                               <h3 class="mt-xs p100 l10n">Även känt som:</h3>
                               <?php foreach ($akas as $key => $aka) { ?>
                                     <div>
@@ -479,15 +765,11 @@ $related_problems = array(
                                                 ?>
                                           <?php } ?>
                                     </div>
-                                    <p class="mt-s p200">
-                                          <?php echo $description ?>
-                                    </p>
+                                    <p class="mt-s p200"><?php echo $description ?></p>
                                     <div class="mt-xl flex-row" id="book-buttons">
                                           <a href="hudkonsultation" class="button b200 white l10n">Få gratis konsultation</a>
                                           <a href="https://bokadirekt.se" class="button b200 white l10n">Boka behandling</a>
                                     </div>
-
-
                               </div>
                         </div>
                   </div>
@@ -501,7 +783,7 @@ $related_problems = array(
                               <picture>
                                     <source media="(max-width: 449px)" srcset="<?php echo $image_small ?>">
                                     <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
-                                    <img src="<?php echo $image_large ?>" alt="Akne" width="358" height="274" />
+                                    <img src="<?php echo $image_large ?>" alt="Akne" title="Akne" width="358" height="274" />
                               </picture>
                         </section>
                         <section id="nav-buttons">
@@ -526,9 +808,7 @@ $related_problems = array(
                                     } ?>
                               </div>
                               <hr class="mt-xl3 is-hidden-mobile">
-                              <a href="problem/aknearr/behandling" class="mt-xl button b200 outline expand auto-width l10n">
-                                    Läs mer om aknebehandlingar
-                              </a>
+                              <a href="problem/aknearr/behandling" class="mt-xl button b200 outline expand auto-width l10n">Läs mer om aknebehandlingar</a>
                         </section>
                         <?php if (sizeof($type_categories) > 0) { ?>
                               <section id="types">
@@ -536,7 +816,7 @@ $related_problems = array(
                                     <div class="is-hidden-tablet">
                                           <div class="mt-m mb-xxl" id="type-category-buttons">
                                                 <?php foreach ($type_categories as $type_category) { ?>
-                                                      <a href=" javascript:;" onclick="scrollToElement('#<?php echo $type_category->id ?>')" class="button b50 grey">
+                                                      <a href="javascript:;" class="button b50 grey">
                                                             <?php echo $type_category->title ?>
                                                       </a>
                                                 <?php } ?>
@@ -568,23 +848,23 @@ $related_problems = array(
                                                 </div>
                                           <?php } ?>
                                     </div>
-                                    <a href="<?php echo $_SERVER['REQUEST_URI'] . 'typer' ?>" class="mt-xl button b200 outline expand l10n is-hidden-tablet">Läs mer om aknetyper</a>
-                                    <a href="<?php echo $_SERVER['REQUEST_URI'] . 'typer' ?>" class="mt-xl button b200 outline l10n is-hidden-mobile">Läs mer om aknetyper</a>
+                                    <a href="typer" class="mt-xl button b200 outline expand l10n is-hidden-tablet">Läs mer om aknetyper</a>
+                                    <a href="typer" class="mt-xl button b200 outline l10n is-hidden-mobile">Läs mer om aknetyper</a>
                               </section>
                         <?php } ?>
                         <?php if (sizeof($symptoms) > 0) { ?>
                               <section id="symptoms">
-                                    <h2 class="h500">Akne symptoms</h2>
+                                    <h2 class="h500">Akne symptom</h2>
                                     <div class="mt-m is-hidden-tablet" id="symptom-buttons">
                                           <?php foreach ($symptoms as $symptom) { ?>
-                                                <a href="javascript:;" onclick="scrollToElement('#<?php echo $symptom->id ?>')" class="button b50 grey">
+                                                <a href="javascript:;" class="button b50 grey">
                                                       <?php echo $symptom->name ?>
                                                 </a>
                                           <?php } ?>
                                     </div>
                                     <div class="columns is-multiline is-variable is-3" id="symptom-cards">
                                           <?php foreach ($symptoms as $symptom) { ?>
-                                                <div class="column is-half" id="<?php echo $symptom->id ?>">
+                                                <div class="column is-half">
                                                       <?php include('../widgets/symptom-card/symptom-card.php'); ?>
                                                 </div>
                                           <?php } ?>
@@ -592,15 +872,31 @@ $related_problems = array(
                               </section>
                         <?php } ?>
                         <section id="define">
-                              <h2 class="h500 l10n">identifiera din Akne</h2>
+                              <h2 class="h500 l10n">01. Identifiera din akne</h2>
                               <hr class="is-hidden-mobile">
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
                               <hr class="is-hidden-mobile">
                         </section>
                         <section id="treatments">
-                              <h2 class="h500">Behandla din akne</h2>
+                              <h2 class="h500">02. Behandla aktiv akne</h2>
                               <hr class="is-hidden-mobile mt-xl">
                               <?php foreach ($services as $service) { ?>
+                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
+                                    <hr class="is-hidden-mobile mb-xxl">
+                              <?php } ?>
+                        </section>
+                        <section id="products">
+                              <h2 class="h500">03. Förebygg uppkomsten av ny akne</h2>
+                              <hr class="is-hidden-mobile mt-xl">
+                              <?php foreach ($products as $service) { ?>
+                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
+                                    <hr class="is-hidden-mobile mb-xxl">
+                              <?php } ?>
+                        </section>
+                        <section id="treatment-solutions">
+                              <h2 class="h500">04. Reparera post-akne</h2>
+                              <hr class="is-hidden-mobile mt-xl">
+                              <?php foreach ($procedures as $service) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
                                     <hr class="is-hidden-mobile mb-xxl">
                               <?php } ?>
@@ -611,7 +907,10 @@ $related_problems = array(
                               <?php } ?>
                         </section>
                         <section id="results">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php'); ?>
+                              <?php
+                              $results_title = 'Resultat';
+                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                              ?>
                         </section>
                         <section id="reviews">
                               <div class="flex-row align-end justify-space-between">
@@ -628,48 +927,6 @@ $related_problems = array(
                                     </div>
                               </div>
                               <?php
-                              $reviews = array(
-                                    new Review(
-                                          stars: 5,
-                                          brand: 'Trustpilot',
-                                          logo_url: 'images/brands/trustpilot.svg',
-                                          title: 'Allt gick jätte bra!',
-                                          text: "Allt gick jätte bra, personal var snäll och trevlig med min dotter. Min dotter var orolig för behandling hur ska det vara därför har det varit så lång tid innan vi kommit tillbaka och börjat med behandling. Det var inte lätt för henne men hon är jätte nöjd och glad när hon såg bra resultat /ändring på hennes ansikte. Tack så jätte mycket!!",
-                                          signature: 'Emily'
-                                    ),
-                                    new Review(
-                                          stars: 5,
-                                          brand: 'Google',
-                                          logo_url: 'images/brands/trustpilot.svg',
-                                          title: 'Man behöver inte klä av sig',
-                                          text: "Man behöver inte klä av sig för behandling. Behandlaren känns inte stressad, sitter kvar utan att springa iväg för att uträtta annat! Frågar inte ut en. Försöker inte pracka på en produkter. Är trevlig och hjälpsam",
-                                          signature: 'Emily'
-                                    ),
-                                    new Review(
-                                          stars: 5,
-                                          brand: 'Trustpilot',
-                                          logo_url: 'images/brands/trustpilot.svg',
-                                          title: 'Otroligt nöjd',
-                                          text: "Efter bara tre månader hos bästa Emma har min hud blivit så mycket bättre! Efter en graviditet och en kombination av hormonell och bakteriell acne så har jag äntligen börjar komma tillbaks till min gamla hy. Är verkligen så himla nöjd. Har gjort ansiktsbehandling mot acne samt kört acnespecialistens produkter och kan bara säga gott om dem!",
-                                          signature: 'Emily'
-                                    ),
-                                    new Review(
-                                          stars: 5,
-                                          brand: 'Google',
-                                          logo_url: 'images/brands/trustpilot.svg',
-                                          title: 'Nöjd',
-                                          text: "Ett första besök som absolut kommer leda till ett till. Bra och tydlig information om vad som skulle vara bäst för min hy.",
-                                          signature: 'Emily'
-                                    ),
-                                    new Review(
-                                          stars: 5,
-                                          brand: 'Trustpilot',
-                                          logo_url: 'images/brands/trustpilot.svg',
-                                          title: 'Kunniga och bra!',
-                                          text: "Mina tonårsdöttrar har båda gått till acnespecialisten under flera år med både mindre och större problemområden. Vi har alltid fått professionell och kunnig behandling, bra produkter och bra råd, som också hjälper fint!",
-                                          signature: 'Emily'
-                                    ),
-                              );
                               $reviews_narrow = true;
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                               ?>

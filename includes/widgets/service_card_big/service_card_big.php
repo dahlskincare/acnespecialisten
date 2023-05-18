@@ -3,7 +3,7 @@
         <picture>
             <source media="(max-width: 799px)" srcset="<?php echo $service->image_small ?>">
             <source media="(min-width: 800px)" srcset="<?php echo $service->image_large ?>">
-            <img src="<?php echo $image_large ?>" alt="About us" width="872" height="456" />
+            <img src="<?php echo $image_large ?>" alt="<?php echo $service->title ?>" title="<?php echo $service->title ?>" width="872" height="456" />
         </picture>
     </div>
     <div class="service-card-big-content">

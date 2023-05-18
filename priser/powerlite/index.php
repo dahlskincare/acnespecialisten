@@ -206,7 +206,7 @@ $nav_buttons = array(
                     <picture>
                         <source media="(max-width: 449px)" srcset="https://via.placeholder.com/358x274.webp">
                         <source media="(min-width: 450px)" srcset="https://via.placeholder.com/358x274.webp">
-                        <img src="https://via.placeholder.com/358x274.webp" alt="The cost of Powerlite" width="358" height="274" />
+                        <img src="https://via.placeholder.com/358x274.webp" alt="The cost of Powerlite" title="The cost of Powerlite" width="358" height="274" />
                     </picture>
                 </section>
                 <section id="nav-buttons">

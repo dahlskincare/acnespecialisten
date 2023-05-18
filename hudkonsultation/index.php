@@ -162,7 +162,7 @@ $categories = array(
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
                 </section>
                 <section id="image" class="is-hidden-desktop">
-                    <img src="https://via.placeholder.com/358x274.webp" alt="Akne" width="358" height="274" />
+                    <img src="https://via.placeholder.com/358x274.webp" alt="Akne" title="Akne" width="358" height="274" />
                 </section>
                 <section id="nav-buttons">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
@@ -172,7 +172,7 @@ $categories = array(
                     <picture>
                         <source media="(max-width: 799px)" srcset="https://via.placeholder.com/358x272.webp">
                         <source media="(min-width: 800px)" srcset="https://via.placeholder.com/872x456.webp">
-                        <img src="https://via.placeholder.com/358x272.webp" alt="What is skin consultation?" width="358" height="272" />
+                        <img src="https://via.placeholder.com/358x272.webp" alt="What is skin consultation?" title="What is skin consultation?" width="358" height="272" />
                     </picture>
                     <div class="infobox">
                         <div class="ib-header" onclick="Consultation.toggleContent(this.parentElement)">
