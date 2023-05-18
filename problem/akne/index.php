@@ -250,42 +250,42 @@ $type_categories = array(
 );
 $symptoms = array(
       new Symptom(
-            id: 'post-inflammatory-hyperpigmentaion',
+            url: 'problem/akne/typer/post-inflammatory-hyperpigmentaion',
             name: 'Komedoner (Öppna)',
             aka: 'Pormaskar',
             image: 'images/symptoms/small/post-inflammatory-hyperpigmentation.jpg',
             content: 'Pormaskar (öppna komedoner) är små, mörka prickar som uppstår när en por täpps igen av talg (hudens naturliga olja) och döda hudceller. De är ofta svarta eller bruna på grund av oxidation, som inträffar när melanin (hudens pigment) kommer i kontakt med luft. Pormaskar kan vara platta eller lätt upphöjda och är vanligt förekommande på näsan, kinderna, pannan och hakan.'
       ),
       new Symptom(
-            id: 'atrophic-icepick-scars',
+            url: 'problem/akne/typer/atrophic-icepick-scars',
             name: 'Komedoner (Stängda)',
             aka: '"whiteheads"',
             image: 'images/symptoms/small/atrophic-icepick-scars.jpg',
             content: 'Whiteheads (slutna komedoner) är små, vita eller hudfärgade utbuktningar som uppstår när en por täpps till av talg och döda hudceller under hudytan. De är täckta av ett tunt lager hud, vilket förhindrar oxidation och därmed behåller sin ljusa färg. Whiteheads kan vara platta eller lätt upphöjda och är vanligt förekommande på pannan, kinderna och hakan.'
       ),
       new Symptom(
-            id: 'atrophic-boxcar-scars',
+            url: 'problem/akne/typer/atrophic-boxcar-scars',
             name: 'Papuler',
             aka: 'röda finnar',
             image: 'images/symptoms/small/atrophic-boxcar-scars.jpg',
             content: 'Papuler är små, fasta, röda och inflammerade blemmor som uppstår när en hårsäck blir infekterad av bakterier, oftast Propionibacterium acnes. De är vanligtvis mindre än 5 mm i diameter och kan vara känsliga vid beröring. Papuler är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.'
       ),
       new Symptom(
-            id: 'atrophic-rolling-scars',
+            url: 'problem/akne/typer/atrophic-rolling-scars',
             name: 'Pustler',
             aka: 'gula finnar',
             image: 'images/symptoms/small/atrophic-rolling-scars.jpg',
             content: 'Pustuler är röda och inflammerade blemmor som innehåller var (en blandning av döda bakterier, vita blodkroppar och döda hudceller). De ser ut som papuler men har en vit eller gul prick i mitten. Pustuler kan vara smärtsamma och är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.'
       ),
       new Symptom(
-            id: 'hypertrophic-keloid',
+            url: 'problem/akne/typer/hypertrophic-keloid',
             name: 'Noduler',
             aka: 'innåtfinnar',
             image: 'images/symptoms/small/hypertrophic-keloid.jpg',
             content: 'Noduler är större, djupare och ofta smärtsamma inflammerade blemmor som uppstår när en hårsäck blir kraftigt infekterad och inflammationen sprider sig till det omgivande vävnaden. De är vanligtvis större än 5 mm i diameter och kan vara fasta och ömma vid beröring. Noduler är vanligt förekommande på ansiktet, nacken, bröstet, ryggen och ibland även på överarmarna och skinkorna.'
       ),
       new Symptom(
-            id: 'hypertrophic-keloid',
+            url: 'problem/akne/typer/hypertrophic-keloid',
             name: 'cystor',
             aka: 'Bölder',
             image: 'images/symptoms/small/hypertrophic-keloid.jpg',
@@ -857,14 +857,14 @@ $brands = array(
                                     <h2 class="h500">Akne symptom</h2>
                                     <div class="mt-m is-hidden-tablet" id="symptom-buttons">
                                           <?php foreach ($symptoms as $symptom) { ?>
-                                                <a href="javascript:;" onclick="scrollToElement('#<?php echo $symptom->id ?>')" class="button b50 grey">
+                                                <a href="javascript:;" class="button b50 grey">
                                                       <?php echo $symptom->name ?>
                                                 </a>
                                           <?php } ?>
                                     </div>
                                     <div class="columns is-multiline is-variable is-3" id="symptom-cards">
                                           <?php foreach ($symptoms as $symptom) { ?>
-                                                <div class="column is-half" id="<?php echo $symptom->id ?>">
+                                                <div class="column is-half">
                                                       <?php include('../widgets/symptom-card/symptom-card.php'); ?>
                                                 </div>
                                           <?php } ?>

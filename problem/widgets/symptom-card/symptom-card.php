@@ -1,4 +1,4 @@
-<a href="<?php echo $_SERVER['REQUEST_URI'] . 'typer/' . $symptom->id ?>" class="symptom-card-widget">
+<a href="<?php echo $symptom->url ?>" class="symptom-card-widget">
     <div class="flex-row align-center">
         <div class="image mr-m">
             <img src="<?php echo $symptom->image ?>" alt="<?php echo $symptom->name ?>" width="102" height="102" />
