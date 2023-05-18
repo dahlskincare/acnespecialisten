@@ -60,20 +60,20 @@ class BasedTypeCategory
 
 class BasedType
 {
-    public function __construct($id, $image_url, $title, $subtitle, $content)
+    public function __construct($image_url, $title, $subtitle, $content, $url)
     {
-        $this->id = $id;
         $this->image_url = $image_url;
         $this->title = $title;
         $this->subtitle = $subtitle;
         $this->content = $content;
+        $this->url = $url;
     }
 
-    public string $id;
     public string $image_url;
     public string $title;
     public string $subtitle;
     public string $content;
+    public string $url;
 }
 
 class Specialist

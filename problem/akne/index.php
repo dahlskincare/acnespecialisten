@@ -97,25 +97,25 @@ $type_categories = array(
             content: '<p class="p200">Akne är en hudåkomma som kan drabba både ungdomar och vuxna, även om det är vanligast under tonåren. Tonårsakne uppstår ofta på grund av hormonella förändringar under puberteten. Vuxenakne förekommer också, och det kan bero på en rad olika faktorer. Hos vuxna kan akne orsakas av faktorer som stress, hormonobalans och genetik. Oavsett ålder är det viktigt att förstå att akne kan påverka människor i alla livsstadier.</p>',
             types: array(
                   new BasedType(
-                        id: 'vuxenakne',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
                         title: 'Vuxenakne',
                         subtitle: 'Även kallat acne tarda',
-                        content: ''
+                        content: '',
+                        url: 'problem/akne/typer/vuxenakne',
                   ),
                   new BasedType(
-                        id: 'tonårsakne',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
                         title: 'Tonårsakne',
                         subtitle: 'Även kallat acne vulgaris',
-                        content: ''
+                        content: '',
+                        url: 'problem/akne/typer/tonårsakne',
                   ),
                   new BasedType(
-                        id: 'barnakne',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
                         title: 'Barnakne',
                         subtitle: 'Även kallat acne neonatorum',
-                        content: ''
+                        content: '',
+                        url: 'problem/akne/typer/barnakne',
                   ),
             )
       ),
@@ -125,32 +125,32 @@ $type_categories = array(
             content: '<p class="p200">Akne kan variera i svårighetsgrad från milda till extremt allvarliga fall. I milda fall av akne är symptomen ofta mindre uttalade och består främst av pormaskar, medan mer allvarliga fall innefattar djupare inflammationer i form av cystor och noduler. Svårighetsgraden påverkar också hur akne påverkar en persons livskvalitet och hur den ska behandlas. Det är viktigt att diagnostisera och behandla akne utifrån dess svårighetsgrad för att säkerställa bästa möjliga behandlingsresultat och förhindra potentiella ärr och bestående skador på huden.</p>',
             types: array(
                   new BasedType(
-                        id: 'mild-akne',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
                         title: 'Mild akne',
                         subtitle: 'även kallat acne comedonica',
-                        content: ''
+                        content: '',
+                        url: 'problem/akne/typer/mild-akne',
                   ),
                   new BasedType(
-                        id: 'medel-akne',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
                         title: 'Medelsvår akne',
                         subtitle: 'Även kallat acne papulopustulosa',
-                        content: ''
+                        content: '',
+                        url: 'problem/akne/typer/medel-akne',
                   ),
                   new BasedType(
-                        id: 'Svar-akne',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
                         title: 'Svår akne',
                         subtitle: 'Även kallat Acne nodulocystica',
-                        content: ''
+                        content: '',
+                        url: 'problem/akne/typer/svar-akne',
                   ),
                   new BasedType(
-                        id: 'du ska skriva ett id här, det blir sista delen av länken till typen',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
                         title: 'Mycket svår akne',
                         subtitle: 'Även kallat Acne conglobata',
-                        content: ''
+                        content: '',
+                        url: 'problem/akne/typer/mycket-svar-akne',
                   ),
             )
       ),
@@ -160,60 +160,60 @@ $type_categories = array(
             content: '<p class="p200">Yttre faktorer kan också påverka uppkomsten av akne. Exempel på dessa är sol, friktion, kosmetika, mediciner och miljöfaktorer. Dessa kan bidra till eller förvärra akne genom att irritera huden, täppa till porer eller påverka hudens talgproduktion.</p>',
             types: array(
                   new BasedType(
-                        id: 'mallorca-acne',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
                         title: 'Mallorca akne',
                         subtitle: 'även kallat Acne aestivalis',
-                        content: ''
+                        content: '',
+                        url: 'problem/akne/typer/mallorca-akne',
                   ),
                   new BasedType(
-                        id: 'hormonal-acne',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
                         title: 'Hormonell akne',
                         subtitle: 'akne orsakad av hormoner',
-                        content: ''
+                        content: '',
+                        url: 'problem/akne/typer/hormonell-akne',
                   ),
                   new BasedType(
-                        id: 'kosmetika-akne',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
                         title: 'kosmetika akne',
                         subtitle: 'Även kallat Acne cosmetica',
-                        content: ''
+                        content: '',
+                        url: 'problem/akne/typer/kosmetika-akne',
                   ),
                   new BasedType(
-                        id: 'acne-exoriee',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
                         title: 'Akne från pillande',
                         subtitle: 'Även kallat Acne exoriée ',
-                        content: ''
+                        content: '',
+                        url: 'problem/akne/typer/acne-exoriee',
                   ),
                   new BasedType(
-                        id: 'acne-mechanics',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
                         title: 'Friktionsakne',
                         subtitle: 'Även kallat Acne mechanica',
-                        content: ''
+                        content: '',
+                        url: 'problem/akne/typer/akne-mekanisk',
                   ),
                   new BasedType(
-                        id: 'acne-medicamentosa',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
                         title: 'Läkemedelsakne',
                         subtitle: 'Även kallat Acne medicamentosa',
-                        content: ''
+                        content: '',
+                        url: 'problem/akne/typer/lakemedelsakne',
                   ),
                   new BasedType(
-                        id: 'acne-medicamentosa',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
                         title: 'Kontaktakne',
                         subtitle: 'Även kallat Acne venenata',
-                        content: ''
+                        content: '',
+                        url: 'problem/akne/typer/kontakt-akne',
                   ),
                   new BasedType(
-                        id: 'fungal-acne',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
                         title: 'Svampakne',
                         subtitle: 'Även kallat fungal acne',
-                        content: ''
+                        content: '',
+                        url: 'problem/akne/typer/fungal-akne',
                   )
             )
       ),
@@ -223,25 +223,25 @@ $type_categories = array(
             content: 'Akne kan uppträda på olika områden på kroppen. Ansiktet är det vanligaste området, men akne kan också förekomma på bröst, rygg, axlar och andra delar av kroppen. Placeringen av akne kan ge en indikation på dess orsak, som hormonella förändringar, irritation från kläder eller yttre faktorer som sol och friktion.',
             types: array(
                   new BasedType(
-                        id: 'olika-typer-av-akne',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
                         title: 'Akne i ansiktet',
                         subtitle: 'Även kallat Acne faciei',
-                        content: ''
+                        content: '',
+                        url: 'problem/akne/typer/akne-ansiktet',
                   ),
                   new BasedType(
-                        id: 'olika-typer-av-akne',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
                         title: 'Akne på ryggen',
                         subtitle: 'Även kallat Acne dorsalis',
-                        content: ''
+                        content: '',
+                        url: 'problem/akne/typer/akne-ryggen',
                   ),
                   new BasedType(
-                        id: 'olika-typer-av-akne',
                         image_url: 'https://via.placeholder.com/102x102.jpg',
                         title: 'Akne på bröstet',
                         subtitle: 'Även kallat Acne pectoralis',
-                        content: ''
+                        content: '',
+                        url: 'problem/akne/typer/akne-brostet',
                   ),
 
             )
@@ -816,7 +816,7 @@ $brands = array(
                                     <div class="is-hidden-tablet">
                                           <div class="mt-m mb-xxl" id="type-category-buttons">
                                                 <?php foreach ($type_categories as $type_category) { ?>
-                                                      <a href=" javascript:;" onclick="scrollToElement('#<?php echo $type_category->id ?>')" class="button b50 grey">
+                                                      <a href="javascript:;" class="button b50 grey">
                                                             <?php echo $type_category->title ?>
                                                       </a>
                                                 <?php } ?>
@@ -848,8 +848,8 @@ $brands = array(
                                                 </div>
                                           <?php } ?>
                                     </div>
-                                    <a href="<?php echo $_SERVER['REQUEST_URI'] . 'typer' ?>" class="mt-xl button b200 outline expand l10n is-hidden-tablet">Läs mer om aknetyper</a>
-                                    <a href="<?php echo $_SERVER['REQUEST_URI'] . 'typer' ?>" class="mt-xl button b200 outline l10n is-hidden-mobile">Läs mer om aknetyper</a>
+                                    <a href="typer" class="mt-xl button b200 outline expand l10n is-hidden-tablet">Läs mer om aknetyper</a>
+                                    <a href="typer" class="mt-xl button b200 outline l10n is-hidden-mobile">Läs mer om aknetyper</a>
                               </section>
                         <?php } ?>
                         <?php if (sizeof($symptoms) > 0) { ?>
