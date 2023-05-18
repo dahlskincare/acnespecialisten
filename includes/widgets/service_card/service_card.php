@@ -5,7 +5,7 @@
                 <picture>
                     <source media="(max-width: 799px)" srcset="<?php echo $service->image_small ?>">
                     <source media="(min-width: 800px)" srcset="<?php echo $service->image_large ?>">
-                    <img src="<?php echo $service->image_large ?>" alt="<?php echo $service->title ?>" width="102" height="102" />
+                    <img src="<?php echo $service->image_large ?>" alt="<?php echo $service->title ?>" title="<?php echo $service->title ?>" width="102" height="102" />
                 </picture>
             </div>
             <div class="ml-m">
@@ -45,7 +45,7 @@
                 <picture>
                     <source media="(max-width: 799px)" srcset="<?php echo $service->image_small ?>">
                     <source media="(min-width: 800px)" srcset="<?php echo $service->image_large ?>">
-                    <img src="<?php echo $service->image_large ?>" alt="<?php echo $service->title ?>" width="102" height="102" />
+                    <img src="<?php echo $service->image_large ?>" alt="<?php echo $service->title ?>" title="<?php echo $service->title ?>" width="102" height="102" />
                 </picture>
             </div>
             <div class="ml-xl middle">

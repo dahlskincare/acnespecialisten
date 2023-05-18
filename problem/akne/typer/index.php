@@ -291,7 +291,7 @@ $specialists = array(
                     <picture class="is-hidden-tablet">
                         <source media="(max-width: 449px)" srcset="<?php echo $image_small ?>">
                         <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
-                        <img src="<?php echo $image_large ?>" alt="<?php echo $header_title ?>" width="358" height="274" />
+                        <img src="<?php echo $image_large ?>" alt="<?php echo $header_title ?>" title="<?php echo $header_title ?>" width="358" height="274" />
                     </picture>
                 </section>
                 <section id="nav-buttons">

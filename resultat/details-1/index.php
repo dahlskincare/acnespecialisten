@@ -166,7 +166,7 @@
                             </div>
                             <?php foreach ($result->treatment->procedures as $procedure) { ?>
                                 <div class="treatment-card">
-                                    <img src="<?php echo $procedure->image ?>" alt="<?php echo $procedure->name ?>" width="102" height="102" />
+                                    <img src="<?php echo $procedure->image ?>" alt="<?php echo $procedure->name ?>" title="<?php echo $procedure->name ?>" width="102" height="102" />
                                     <div class="treatment-card-details">
                                         <div class="p200 l10n">Procedure</div>
                                         <div class="h200 mt-xxs"><?php echo $procedure->name ?></div>
@@ -175,14 +175,14 @@
                                 </div>
                             <?php } ?>
                             <div class="treatment-card">
-                                <img src="<?php echo $result->treatment->product->image ?>" alt="<?php echo $result->treatment->product->name ?>" width="102" height="102" />
+                                <img src="<?php echo $result->treatment->product->image ?>" alt="<?php echo $result->treatment->product->name ?>" title="<?php echo $result->treatment->product->name ?>" width="102" height="102" />
                                 <div class="treatment-card-details">
                                     <div class="p200 l10n">Products</div>
                                     <div class="h200 mt-xxs"><?php echo $result->treatment->product->name ?></div>
                                 </div>
                             </div>
                             <div class="treatment-card">
-                                <img src="<?php echo $result->treatment->employee->image ?>" alt="<?php echo $result->treatment->employee->name ?>" width="102" height="102" />
+                                <img src="<?php echo $result->treatment->employee->image ?>" alt="<?php echo $result->treatment->employee->name ?>" title="<?php echo $result->treatment->employee->name ?>" width="102" height="102" />
                                 <div class="treatment-card-details">
                                     <div class="p200 l10n">Personal esthetician</div>
                                     <div class="h200 mt-xxs"><?php echo $result->treatment->employee->name ?></div>
@@ -241,7 +241,7 @@
                             <div class="mr-xl5">
                                 <?php foreach ($result->treatment->procedures as $procedure) { ?>
                                     <div class="treatment-card">
-                                        <img src="<?php echo $procedure->image ?>" alt="<?php echo $procedure->name ?>" width="102" height="102" />
+                                        <img src="<?php echo $procedure->image ?>" alt="<?php echo $procedure->name ?>" title="<?php echo $procedure->name ?>" width="102" height="102" />
                                         <div class="treatment-card-details">
                                             <div class="p200 l10n">Procedure</div>
                                             <div class="h200 mt-xxs"><?php echo $procedure->name ?></div>
@@ -259,7 +259,7 @@
                                     </div>
                                 </div>
                                 <div class="treatment-card">
-                                    <img src="<?php echo $result->treatment->employee->image ?>" alt="<?php echo $result->treatment->employee->name ?>" width="102" height="102" />
+                                    <img src="<?php echo $result->treatment->employee->image ?>" alt="<?php echo $result->treatment->employee->name ?>" title="<?php echo $result->treatment->employee->name ?>" width="102" height="102" />
                                     <div class="treatment-card-details">
                                         <div class="p200 l10n">Personal esthetician</div>
                                         <div class="h200 mt-xxs"><?php echo $result->treatment->employee->name ?></div>
@@ -285,12 +285,12 @@
                             <picture>
                                 <source media="(max-width: 799px)" srcset="<?php echo $visit->images->image_left_small ?>">
                                 <source media="(min-width: 800px)" srcset="<?php echo $visit->images->image_left_large ?>">
-                                <img src="<?php echo $visit->images->image_left_large ?>" alt="Before" width="175" height="235" />
+                                <img src="<?php echo $visit->images->image_left_large ?>" alt="Before" title="Before" width="175" height="235" />
                             </picture>
                             <picture>
                                 <source media="(max-width: 799px)" srcset="<?php echo $visit->images->image_right_small ?>">
                                 <source media="(min-width: 800px)" srcset="<?php echo $visit->images->image_right_large ?>">
-                                <img src="<?php echo $visit->images->image_left_large ?>" alt="After" width="175" height="235" />
+                                <img src="<?php echo $visit->images->image_left_large ?>" alt="After" title="After" width="175" height="235" />
                             </picture>
                         </div>
                         <div class="vc-content">
@@ -317,12 +317,12 @@
                             <picture>
                                 <source media="(max-width: 799px)" srcset="<?php echo $result->slider_image_before_small ?>">
                                 <source media="(min-width: 800px)" srcset="<?php echo $result->slider_image_before_large ?>">
-                                <img src="<?php echo $result->slider_image_before_small ?>" alt="Before" width="175" height="235" />
+                                <img src="<?php echo $result->slider_image_before_small ?>" alt="Before" title="Before" width="175" height="235" />
                             </picture>
                             <picture>
                                 <source media="(max-width: 799px)" srcset="<?php echo $result->slider_image_after_small ?>">
                                 <source media="(min-width: 800px)" srcset="<?php echo $result->slider_image_after_large ?>">
-                                <img src="<?php echo $result->slider_image_after_small ?>" alt="After" width="175" height="235" />
+                                <img src="<?php echo $result->slider_image_after_small ?>" alt="After" title="After" width="175" height="235" />
                             </picture>
                         </div>
                     </div>
@@ -334,12 +334,12 @@
                             <picture>
                                 <source media="(max-width: 799px)" srcset="<?php echo $result->slider_image_before_small ?>">
                                 <source media="(min-width: 800px)" srcset="<?php echo $result->slider_image_before_large ?>">
-                                <img src="<?php echo $result->slider_image_before_small ?>" alt="Before" width="175" height="235" />
+                                <img src="<?php echo $result->slider_image_before_small ?>" alt="Before" title="Before" width="175" height="235" />
                             </picture>
                             <picture>
                                 <source media="(max-width: 799px)" srcset="<?php echo $result->slider_image_after_small ?>">
                                 <source media="(min-width: 800px)" srcset="<?php echo $result->slider_image_after_large ?>">
-                                <img src="<?php echo $result->slider_image_after_small ?>" alt="After" width="175" height="235" />
+                                <img src="<?php echo $result->slider_image_after_small ?>" alt="After" title="After" width="175" height="235" />
                             </picture>
                         </div>
                     </div>

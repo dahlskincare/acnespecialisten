@@ -2,8 +2,8 @@
     <nav onclick="event.stopImmediatePropagation()">
         <div id="mobile-nav-head">
             <div></div>
-            <a href="">
-                <img src="images/logo-green.svg" alt="Acnespecialisten" width="139" height="25" />
+            <a href="/">
+                <img src="images/logo-green.svg" alt="Acnespecialisten logo" title="Acnespecialisten logo" width="139" height="25" />
             </a>
             <div onclick="HeaderTouch.toggleMenu()"><?php icon('close') ?></div>
         </div>
@@ -113,7 +113,7 @@
     <div class="container">
         <div class="is-hidden-desktop" id="header-small">
             <a href="/">
-                <img id="logo" src="images/logo-green.svg" alt="Acnespecialisten" width="139" height="25" />
+                <img id="logo" src="images/logo-green.svg" alt="Acnespecialisten logo" title="Acnespecialisten logo" width="139" height="25" />
             </a>
             <div id="menu-button" onclick="HeaderTouch.toggleMenu()">
                 <?php icon("bars") ?>
@@ -122,7 +122,7 @@
         <div class="is-hidden-touch" id="header-large">
             <div id="left">
                 <a href="/" id="logo">
-                    <img src="images/logo-green.svg" alt="Acnespecialisten" width="160" height="28" />
+                    <img src="images/logo-green.svg" alt="Acnespecialisten logo" title="Acnespecialisten logo" width="160" height="28" />
                 </a>
                 <nav>
                     <ul>

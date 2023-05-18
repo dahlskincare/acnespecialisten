@@ -12,26 +12,26 @@
         </div>
         <div class="container">
             <div id="footer-brands">
-                <a href="https://www.klarna.com" target="_blank">
-                    <img src="images/brands/brand-icon-klarna.png" alt="klarna" width="40" height="40" />
+                <a href="https://www.klarna.com" target="_blank" rel="nofollow">
+                    <img src="images/brands/brand-icon-klarna.png" alt="Klarna" title="Klarna" width="40" height="40" />
                 </a>
-                <a href="https://www.amex.com" target="_blank">
-                    <img src="images/brands/brand-icon-amex.png" alt="amex" width="40" height="40" />
+                <a href="https://www.amex.com" target="_blank" rel="nofollow">
+                    <img src="images/brands/brand-icon-amex.png" alt="Amex" title="Amex" width="40" height="40" />
                 </a>
-                <a href="https://www.qliro.com/sv-se" target="_blank">
-                    <img src="images/brands/brand-icon-qliro.png" alt="qliro" width="40" height="40" />
+                <a href="https://www.qliro.com/sv-se" target="_blank" rel="nofollow">
+                    <img src="images/brands/brand-icon-qliro.png" alt="Qliro" title="Qliro" width="40" height="40" />
                 </a>
-                <a href="https://www.swish.nu" target="_blank">
-                    <img src="images/brands/brand-icon-swish.png" alt="swish" width="40" height="40" />
+                <a href="https://www.swish.nu" target="_blank" rel="nofollow">
+                    <img src="images/brands/brand-icon-swish.png" alt="Swish" title="Swish" width="40" height="40" />
                 </a>
-                <a href="https://www.if.se" target="_blank">
-                    <img src="images/brands/brand-icon-if.png" alt="if" width="40" height="40" />
+                <a href="https://www.if.se" target="_blank" rel="nofollow">
+                    <img src="images/brands/brand-icon-if.png" alt="If" title="If" width="40" height="40" />
                 </a>
-                <a href="https://www.shr.nu" target="_blank">
-                    <img src="images/brands/brand-icon-shr.png" alt="shr" width="40" height="40" />
+                <a href="https://www.shr.nu" target="_blank" rel="nofollow">
+                    <img src="images/brands/brand-icon-shr.png" alt="Shr" title="Shr" width="40" height="40" />
                 </a>
-                <a href="https://ww.bokadirekt.se" target="_blank">
-                    <img src="images/brands/brand-icon-bokadirekt.png" alt="bokadirekt" width="40" height="40" />
+                <a href="https://ww.bokadirekt.se" target="_blank" rel="nofollow">
+                    <img src="images/brands/brand-icon-bokadirekt.png" alt="Bokadirekt" title="Bokadirekt" width="40" height="40" />
                 </a>
             </div>
             <div id="footer-contact">
@@ -39,7 +39,7 @@
                 <div class="p200" id="phone-dot-email">
                     <a href="tel:+4608296101">+46 (0) 8-29 61 01</a>
                     <div class="dot"></div>
-                    <a class="l10n" href="mailto:hej@acnespecialisten.se">hej@acnespecialisten.se</a>
+                    <a class="l10n" href="mailto:hej@acnespecialisten.se" title="email">hej@acnespecialisten.se</a>
                 </div>
                 <div id="buttons">
                     <button class="grey l10n">Ring</button>
@@ -49,33 +49,33 @@
             <div id="footer-salon-cards">
                 <div class="salon-card">
                     <div class="flex-row">
-                        <img src="images/salons/profile-sundbyberg.jpg" alt="Sundbyberg" width="102" height="102">
+                        <img src="images/salons/profile-sundbyberg.jpg" alt="Sundbyberg" title="Sundbyberg" width="102" height="102">
                         <div>
                             <h2>Sundbyberg</h2>
                             <p class="p200">Sturegatan 32, 172 31 Sundbyberg</p>
                         </div>
                     </div>
-                    <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-sundbyberg-19300" target="_blank" class="button grey expand l10n">Book a visit</a>
+                    <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-sundbyberg-19300" target="_blank" rel="nofollow" class="button grey expand l10n">Book a visit</a>
                 </div>
                 <div class="salon-card">
                     <div class="flex-row">
-                        <img src="images/salons/profile-ostermalm.jpg" alt="Östermalm" width="102" height="102">
+                        <img src="images/salons/profile-ostermalm.jpg" alt="Östermalm" title="Östermalm" width="102" height="102" />
                         <div>
                             <h2>Östermalm</h2>
                             <p class="p200">Strandvägen 7, 114 51 Stockholm</p>
                         </div>
                     </div>
-                    <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559" target="_blank" class="button grey expand l10n">Book a visit</a>
+                    <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559" target="_blank" rel="nofollow" class="button grey expand l10n">Book a visit</a>
                 </div>
                 <div class="salon-card">
                     <div class="flex-row">
-                        <img src="images/salons/profile-sodermalm.jpg" alt="Södermalm" width="102" height="102">
+                        <img src="images/salons/profile-sodermalm.jpg" alt="Södermalm" title="Södermalm"" width=" 102" height="102" />
                         <div>
                             <h2>Södermalm</h2>
                             <p class="p200">Hornsgatan 47, 118 49 Stockholm</p>
                         </div>
                     </div>
-                    <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-s%C3%B6dermalm-19301" target="_blank" class="button grey expand l10n">Book a visit</a>
+                    <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-s%C3%B6dermalm-19301" target="_blank" rel="nofollow" class="button grey expand l10n">Book a visit</a>
                 </div>
             </div>
             <div id="footer-links">
@@ -224,7 +224,7 @@
                             </div>
                             <div class="column">
                                 <div class="aligner">
-                                    <img src="images/brands/zoom.svg" alt="zoom" width="92" height="21" />
+                                    <img src="images/brands/zoom.svg" alt="Zoom" title="Zoom" width="92" height="21" />
                                     <div>
                                         <button class="b200 white l10n">Konsultation online</button>
                                     </div>
@@ -239,41 +239,41 @@
                     <div>
                         <div class="flex-row">
                             <span class="h200 l10n">Betalningsmetoder</span>
-                            <a href="https://www.klarna.com" target="_blank">
-                                <img src="images/brands/brand-icon-klarna.png" alt="klarna" width="40" height="40" />
+                            <a href="https://www.klarna.com" target="_blank" rel="nofollow">
+                                <img src="images/brands/brand-icon-klarna.png" alt="Klarna" title="Klarna" width="40" height="40" />
                             </a>
-                            <a href="https://www.amex.com" target="_blank">
-                                <img src="images/brands/brand-icon-amex.png" alt="amex" width="40" height="40" />
+                            <a href="https://www.amex.com" target="_blank" rel="nofollow">
+                                <img src="images/brands/brand-icon-amex.png" alt="Amex" title="Amex" width="40" height="40" />
                             </a>
-                            <a href="https://www.qliro.com/sv-se" target="_blank">
-                                <img src="images/brands/brand-icon-qliro.png" alt="qliro" width="40" height="40" />
+                            <a href="https://www.qliro.com/sv-se" target="_blank" rel="nofollow">
+                                <img src="images/brands/brand-icon-qliro.png" alt="Qliro" title="Qliro" width="40" height="40" />
                             </a>
-                            <a href="https://www.swish.nu" target="_blank">
-                                <img src="images/brands/brand-icon-swish.png" alt="swish" width="40" height="40" />
+                            <a href="https://www.swish.nu" target="_blank" rel="nofollow">
+                                <img src="images/brands/brand-icon-swish.png" alt="Swish" title="Swish" width="40" height="40" />
                             </a>
                         </div>
                     </div>
                     <div>
                         <div class="flex-row justify-end">
                             <span class="h200 l10n">Patientskadeförsäkrings hos IF</span>
-                            <a href="https://www.if.se" target="_blank">
-                                <img src="images/brands/brand-icon-if.png" alt="if" width="40" height="40" />
+                            <a href="https://www.if.se" target="_blank" rel="nofollow">
+                                <img src="images/brands/brand-icon-if.png" alt="If" title="If" width="40" height="40" />
                             </a>
                         </div>
                     </div>
                     <div>
                         <div class="flex-row justify-end">
                             <span class="h200 l10n">Sveriges Hudterapeuters Riksorganisation</span>
-                            <a href="https://www.shr.nu" target="_blank">
-                                <img src="images/brands/brand-icon-shr.png" alt="shr" width="40" height="40" />
+                            <a href="https://www.shr.nu" target="_blank" rel="nofollow">
+                                <img src="images/brands/brand-icon-shr.png" alt="Shr" title="Shr" width="40" height="40" />
                             </a>
                         </div>
                     </div>
                     <div>
                         <div class="flex-row justify-end">
                             <span class="h200 l10n">Bokadirekt</span>
-                            <a href="https://ww.bokadirekt.se" target="_blank">
-                                <img src="images/brands/brand-icon-bokadirekt.png" alt="bokadirekt" width="40" height="40" />
+                            <a href="https://ww.bokadirekt.se" target="_blank" rel="nofollow">
+                                <img src="images/brands/brand-icon-bokadirekt.png" alt="Bokadirekt" title="Bokadirekt" width="40" height="40" />
                             </a>
                         </div>
                     </div>
@@ -286,37 +286,37 @@
                         <div class="flex-row" id="phone-dot-email-large">
                             <a href="tel:+4608296101" class="button b200 compact text">+46 (0) 8-29 61 01</a>
                             <div class="dot"></div>
-                            <a class="button b200 compact text l10n" href="mailto:hej@acnespecialisten.se">hej@acnespecialisten.se</a>
+                            <a class="button b200 compact text l10n" href="mailto:hej@acnespecialisten.se" title="Skicka mail">hej@acnespecialisten.se</a>
                         </div>
                         <div id="footer-salon-cards-large">
                             <div class="salon-card">
                                 <div class="flex-row">
-                                    <img src="images/salons/profile-sundbyberg.jpg" alt="Sundbyberg" width="72" height="72">
+                                    <img src="images/salons/profile-sundbyberg.jpg" alt="Sundbyberg" title="Sundbyberg" width="72" height="72">
                                     <div>
                                         <h2>Sundbyberg</h2>
                                         <p class="p200">Sturegatan 32, 172 31 Sundbyberg</p>
-                                        <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-sundbyberg-19300" target="_blank" class="button b200 compact text l10n">Boka tid</a>
+                                        <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-sundbyberg-19300" target="_blank" rel="nofollow" class="button b200 compact text l10n">Boka tid</a>
                                     </div>
                                 </div>
 
                             </div>
                             <div class="salon-card">
                                 <div class="flex-row">
-                                    <img src="images/salons/profile-ostermalm.jpg" alt="Östermalm" width="72" height="72">
+                                    <img src="images/salons/profile-ostermalm.jpg" alt="Östermalm" title="Östermalm"" width=" 72" height="72">
                                     <div>
                                         <h2>Östermalm</h2>
                                         <p class="p200">Strandvägen 7, 114 51 Stockholm</p>
-                                        <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559" target="_blank" class="button b200 compact text l10n">Boka tid</a>
+                                        <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559" target="_blank" rel="nofollow" class="button b200 compact text l10n">Boka tid</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="salon-card">
                                 <div class="flex-row">
-                                    <img src="images/salons/profile-sodermalm.jpg" alt="Södermalm" width="72" height="72">
+                                    <img src="images/salons/profile-sodermalm.jpg" alt="Södermalm" title="Södermalm" width="72" height="72">
                                     <div>
                                         <h2>Södermalm</h2>
                                         <p class="p200">Hornsgatan 47, 118 49 Stockholm</p>
-                                        <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-s%C3%B6dermalm-19301" target="_blank" class="button b200 compact text l10n">Boka tid</a>
+                                        <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-s%C3%B6dermalm-19301" target="_blank" rel="nofollow" class="button b200 compact text l10n">Boka tid</a>
                                     </div>
                                 </div>
                             </div>

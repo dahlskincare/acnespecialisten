@@ -291,7 +291,7 @@ $specialists = array(
                     <picture>
                         <source media="(max-width: 449px)" srcset="<?php echo $model->image_small ?>">
                         <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
-                        <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->title ?>" width="358" height="274" />
+                        <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->title ?>" title="<?php echo $model->title ?>" width="358" height="274" />
                     </picture>
                 </section>
                 <section id="nav-buttons">

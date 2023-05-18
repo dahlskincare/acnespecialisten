@@ -1,8 +1,8 @@
 <div class="brand-card-widget">
-  <img class="bc-img-background" src="<?php echo $brand->photo ?>" alt="<?php echo $brand->label ?>" width="424" height="324">
+  <img class="bc-img-background" src="<?php echo $brand->photo ?>" alt="<?php echo $brand->label ?>" title="<?php echo $brand->label ?>" width="424" height="324">
   <div class="bc-content">
     <div class="flex-row justify-end">
-      <img src="<?php echo $brand->image ?>" class="overlay" alt="overlay" width="116" height="80">
+      <img src="<?php echo $brand->image ?>" class="overlay" alt="<?php echo $brand->label ?>" title="<?php echo $brand->label ?>" width="116" height="80">
     </div>
     <div class="subtitle"><?php echo $brand->subtitle ?></div>
     <div class="title"><?php echo $brand->title ?></div>

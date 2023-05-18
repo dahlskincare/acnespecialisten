@@ -57,7 +57,7 @@ if (!isset($skin_guide_articles)) {
                         <picture>
                             <source media="(max-width: 799px)" srcset="<?php echo $article->image_small ?>">
                             <source media="(min-width: 800px)" srcset="<?php echo $article->image_small ?>">
-                            <img src="<?php echo $article->image_small ?>" alt="<?php echo $article->title ?>" width="312" height="328" />
+                            <img src="<?php echo $article->image_small ?>" alt="<?php echo $article->title ?>" title="<?php echo $article->title ?>" width="312" height="328" />
                         </picture>
                     </div>
                     <div>

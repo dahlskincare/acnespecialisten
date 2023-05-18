@@ -39,7 +39,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
                     <picture>
                         <source media="(max-width: 799px)" srcset="om-oss/images/about-plant.jpg">
                         <source media="(min-width: 800px)" srcset="om-oss/images/about-plant-large.jpg">
-                        <img src="images/about/about-plant.jpg" alt="About us" width="360" height="274" />
+                        <img src="images/about/about-plant.jpg" alt="About us" title="About us" width="360" height="274" />
                     </picture>
                 </section>
                 <section id="segments" class="large-margin">
@@ -54,12 +54,12 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
                                 <picture>
                                     <source media="(max-width: 799px)" srcset="om-oss/images/segments-left.jpg">
                                     <source media="(min-width: 800px)" srcset="om-oss/images/segments-left-large.jpg">
-                                    <img src="images/about/segments-left.jpg" alt="Segment 1" width="114" height="214" />
+                                    <img src="images/about/segments-left.jpg" alt="Salon 1" title="Salon 1" width="114" height="214" />
                                 </picture>
                                 <picture>
                                     <source media="(max-width: 799px)" srcset="om-oss/images/segments-mid.jpg">
                                     <source media="(min-width: 800px)" srcset="om-oss/images/segments-mid-large.jpg">
-                                    <img src="images/about/segments-mid.jpg" alt="Segment 2" width="114" height="157" />
+                                    <img src="images/about/segments-mid.jpg" alt="Salon 2" title="Salon 2" width="114" height="157" />
                                 </picture>
                             </div>
                         </div>
@@ -67,7 +67,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
                             <picture>
                                 <source media="(max-width: 799px)" srcset="om-oss/images/segments-right.jpg">
                                 <source media="(min-width: 800px)" srcset="om-oss/images/segments-right-large.jpg">
-                                <img src="images/about/segments-right.jpg" alt="Segment 2" width="114" height="272" />
+                                <img src="images/about/segments-right.jpg" alt="Salon 3" title="Salon 3" width="114" height="272" />
                             </picture>
                         </div>
                     </div>
@@ -79,7 +79,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
                     <picture>
                         <source media="(max-width: 799px)" srcset="om-oss/images/about-hands.jpg">
                         <source media="(min-width: 800px)" srcset="om-oss/images/about-hands-large.jpg">
-                        <img src="images/about/about-hands.jpg" alt="Aiming for the goal" width="358" height="274" />
+                        <img src="images/about/about-hands.jpg" alt="Aiming for the goal" title="Aiming for the goal" width="358" height="274" />
                     </picture>
                     <p class="p200 mt-xl l10n is-hidden-tablet">Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments. We hereby present our new department Nordiska Kliniken Hud Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery.</p>
                 </section>
@@ -121,7 +121,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
                             <picture>
                                 <source media="(max-width: 799px)" srcset="om-oss/images/about-drip.jpg">
                                 <source media="(min-width: 800px)" srcset="om-oss/images/about-drip-large.jpg">
-                                <img src="images/about/about-drip.jpg" alt="Method" width="358" height="272" />
+                                <img src="images/about/about-drip.jpg" alt="Method" title="Method" width="358" height="272" />
                             </picture>
                         </div>
                         <div class="is-hidden-touch">
@@ -148,7 +148,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
                             <picture>
                                 <source media="(max-width: 799px)" srcset="om-oss/images/about-lotion.jpg">
                                 <source media="(min-width: 800px)" srcset="om-oss/images/about-lotion-large.jpg">
-                                <img src="images/about/about-lotion.jpg" alt="Method" width="358" height="272" />
+                                <img src="images/about/about-lotion.jpg" alt="Method" title="Method" width="358" height="272" />
                             </picture>
                         </div>
                     </div>

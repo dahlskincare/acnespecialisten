@@ -356,7 +356,7 @@ $problem_areas = array(
                                                       <picture>
                                                             <source media="(max-width: 799px)" srcset="<?php echo $problem->image_medium ?>">
                                                             <source media="(min-width: 800px)" srcset="<?php echo $problem->image_large ?>">
-                                                            <img src="<?php echo $problem->image_large ?>" alt="<?php echo $problem->label ?>" width="424" height="324" />
+                                                            <img src="<?php echo $problem->image_large ?>" alt="<?php echo $problem->label ?>" title="<?php echo $problem->label ?>" width="424" height="324" />
                                                       </picture>
                                                 </div>
                                                 <div class="problem-area-card-content">

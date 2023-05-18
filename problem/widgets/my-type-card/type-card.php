@@ -1,7 +1,7 @@
 <a href="<?php echo $_SERVER['REQUEST_URI'] . $type->id ?>">
     <div class="type-card-widget">
         <div class="flex-row">
-            <img src="<?php echo $type->image_url ?>" alt="<?php echo $type->title ?>">
+            <img src="<?php echo $type->image_url ?>" alt="<?php echo $type->title ?>" title="<?php echo $type->title ?>" />
             <div class="ml-m">
                 <h3 class="h200"><?php echo $type->title ?></h3>
                 <p class="mt-xxs p200 type-card-widget-subtitle"><?php echo $type->subtitle ?></p>

@@ -56,7 +56,7 @@ $article = new SkinGuideArticle(
                     <picture>
                         <source media="(max-width: 799px)" srcset="<?php echo $article->image_small ?>">
                         <source media="(min-width: 800px)" srcset="<?php echo $article->image_large ?>">
-                        <img src="<?php echo $article->image_small ?>" alt="<?php echo $article->title ?>" width="360" height="274" />
+                        <img src="<?php echo $article->image_small ?>" alt="<?php echo $article->title ?>" title="<?php echo $article->title ?>" width="360" height="274" />
                     </picture>
                 </section>
                 <section id="nav-buttons" class="is-hidden">
@@ -111,7 +111,7 @@ $article = new SkinGuideArticle(
                             Showcasing Europe’s rich architectural heritage by offering guests the opportunity to stay in landmark heritage buildings such as Weissenstein Palace in Germany and Villa Balbiano in Italy.
                         </li>
                     </ul>
-                    <img class="banner-image" src="https://via.placeholder.com/872x456.jpg" alt="image placeholder" with="874" height="476" />
+                    <img class="banner-image" src="https://via.placeholder.com/872x456.jpg" alt="Banner" title="Banner" with="874" height="476" />
                     <h3>The Harmful Effects of Makeup</h3>
                     <p>
                         For the first time ever, fans from around the world can explore the faraway lands of their favorite holiday films with an exclusive overnight stay at the original Hobbiton™ Movie Set. Russell Alexander is inviting guests to his family’s property to live like Bilbo Baggins and retreat to The Shire™ for an overnight stay at Hobbiton, as featured in the famed The Lord of the Rings and The Hobbit film trilogies.
@@ -124,7 +124,7 @@ $article = new SkinGuideArticle(
                     <div class="columns is-2 is-variable">
                         <div class="column">
                             <a class="article-card" href="">
-                                <img src="https://via.placeholder.com/426x324.webp" alt="Problem skin" width="426" height="324" />
+                                <img src="https://via.placeholder.com/426x324.webp" alt="Problem skin" title="Problem skin" width="426" height="324" />
                                 <div class="ac-content">
                                     <div class="ac-category">Problem skin</div>
                                     <div class="ac-name">How hormones effect?</div>
@@ -137,7 +137,7 @@ $article = new SkinGuideArticle(
                         </div>
                         <div class="column">
                             <a class="article-card" href="">
-                                <img src="https://via.placeholder.com/426x324.webp" alt="Problem skin" width="426" height="324" />
+                                <img src="https://via.placeholder.com/426x324.webp" alt="Problem skin" title="Problem skin" width="426" height="324" />
                                 <div class="ac-content">
                                     <div class="ac-category">Problem skin</div>
                                     <div class="ac-name">How hormones effect?</div>
@@ -201,7 +201,7 @@ $article = new SkinGuideArticle(
                     <div class="columns is-2 is-variable">
                         <div class="column">
                             <div class="article-card">
-                                <img src="https://via.placeholder.com/426x324.webp" alt="Problem skin" width="426" height="324" />
+                                <img src="https://via.placeholder.com/426x324.webp" alt="Problem skin" title="Problem skin" width="426" height="324" />
                                 <div class="ac-content">
                                     <div class="ac-name">Classic facials</div>
                                     <div class="ac-desc">
@@ -222,7 +222,7 @@ $article = new SkinGuideArticle(
                         </div>
                         <div class="column">
                             <div class="article-card">
-                                <img src="https://via.placeholder.com/426x324.webp" alt="Problem skin" width="426" height="324" />
+                                <img src="https://via.placeholder.com/426x324.webp" alt="Problem skin" title="Problem skin" width="426" height="324" />
                                 <div class="ac-content">
                                     <div class="ac-name">Classic facials</div>
                                     <div class="ac-desc">
@@ -255,7 +255,7 @@ $article = new SkinGuideArticle(
                     <div class="mt-xl3 is-hidden-desktop">
                         <div class="service-banner-touch">
                             <div class="banner-info">
-                                <img src="https://via.placeholder.com/200x200.webp" width="200" height="200" alt="Consultation" />
+                                <img src="https://via.placeholder.com/200x200.webp" width="200" height="200" alt="Consultation" title="Consultation" />
                                 <div>
                                     <h4>Consultation</h4>
                                     <p>15 min<span class="dot"></span>Free</p>
@@ -270,7 +270,7 @@ $article = new SkinGuideArticle(
                         </div>
                         <div class="service-banner-touch">
                             <div class="banner-info">
-                                <img src="https://via.placeholder.com/200x200.webp" width="200" height="200" alt="Consultation" />
+                                <img src="https://via.placeholder.com/200x200.webp" width="200" height="200" alt="Consultation" title="Consultation" />
                                 <div>
                                     <h4>IPL for acne</h4>
                                     <p>30 min<span class="dot"></span>From 1295 kr</p>
@@ -290,7 +290,7 @@ $article = new SkinGuideArticle(
                     <div class="mt-xl3 is-hidden-touch">
                         <div class="service-banner-desktop">
                             <div>
-                                <img src="https://via.placeholder.com/200x200.webp" width="200" height="200" alt="Consultation" />
+                                <img src="https://via.placeholder.com/200x200.webp" width="200" height="200" alt="Consultation" title="Consultation" />
                             </div>
                             <div class="banner-info">
                                 <h4>Consultation</h4>
@@ -306,7 +306,7 @@ $article = new SkinGuideArticle(
                         </div>
                         <div class="service-banner-desktop">
                             <div>
-                                <img src="https://via.placeholder.com/200x200.webp" width="200" height="200" alt="Consultation" />
+                                <img src="https://via.placeholder.com/200x200.webp" width="200" height="200" alt="Consultation" title="Consultation" />
                             </div>
                             <div class="banner-info">
                                 <h4>IPL for acne</h4>
@@ -338,8 +338,8 @@ $article = new SkinGuideArticle(
                         <div class="column">
                             <div class="result-overlay">
                                 <div class="ro-images">
-                                    <img src="https://via.placeholder.com/424x424.webp" alt="Before" width="424" height="424" />
-                                    <img src="https://via.placeholder.com/848x848.webp" alt="After" width="424" height="424" />
+                                    <img src="https://via.placeholder.com/424x424.webp" alt="Before" title="Before" width="424" height="424" />
+                                    <img src="https://via.placeholder.com/848x848.webp" alt="After" title="After" width="424" height="424" />
                                     <div class="ro-slider">
                                         <div class="ro-slider-button">
                                             <div class="ro-icon-left"></div>
@@ -355,8 +355,8 @@ $article = new SkinGuideArticle(
                         <div class="column">
                             <div class="result-overlay">
                                 <div class="ro-images">
-                                    <img src="https://via.placeholder.com/424x424.webp" alt="Before" width="424" height="424" />
-                                    <img src="https://via.placeholder.com/848x848.webp" alt="After" width="424" height="424" />
+                                    <img src="https://via.placeholder.com/424x424.webp" alt="Before" title="Before" width="424" height="424" />
+                                    <img src="https://via.placeholder.com/848x848.webp" alt="After" title="After" width="424" height="424" />
                                     <div class="ro-slider">
                                         <div class="ro-slider-button">
                                             <div class="ro-icon-left"></div>
@@ -387,7 +387,7 @@ $article = new SkinGuideArticle(
                             <div class="column is-half">
                                 <div class="problem-card">
                                     <div class="pc-details">
-                                        <img src="https://via.placeholder.com/102x102.webp" alt="Hyperpigmentation" width="102" height="102">
+                                        <img src="https://via.placeholder.com/102x102.webp" alt="Hyperpigmentation" title="Hyperpigmentation" width="102" height="102" />
                                         <div>
                                             <div class="pc-title">Post inflammatory hyperpigmentation</div>
                                             <div class="pc-subtitle">Also called scars stains</div>
@@ -404,7 +404,7 @@ $article = new SkinGuideArticle(
                             <div class="column is-half">
                                 <div class="problem-card">
                                     <div class="pc-details">
-                                        <img src="https://via.placeholder.com/102x102.webp" alt="Cystic acne" width="102" height="102">
+                                        <img src="https://via.placeholder.com/102x102.webp" alt="Cystic acne" title="Cystic acne" width="102" height="102">
                                         <div>
                                             <div class="pc-title">Cystic acne</div>
                                             <div class="pc-subtitle">Also called scars stains</div>
@@ -421,7 +421,7 @@ $article = new SkinGuideArticle(
                             <div class="column is-half">
                                 <div class="problem-card">
                                     <div class="pc-details">
-                                        <img src="https://via.placeholder.com/102x102.webp" alt="Hyperpigmentation" width="102" height="102">
+                                        <img src="https://via.placeholder.com/102x102.webp" alt="Hyperpigmentation" title="Hyperpigmentation" width="102" height="102">
                                         <div>
                                             <div class="pc-title">Post inflammatory hyperpigmentation</div>
                                             <div class="pc-subtitle">Also called scars stains</div>
@@ -438,7 +438,7 @@ $article = new SkinGuideArticle(
                             <div class="column is-half">
                                 <div class="problem-card">
                                     <div class="pc-details">
-                                        <img src="https://via.placeholder.com/102x102.webp" alt="Hyperpigmentation" width="102" height="102">
+                                        <img src="https://via.placeholder.com/102x102.webp" alt="Hyperpigmentation" title="Hyperpigmentation" width="102" height="102">
                                         <div>
                                             <div class="pc-title">Post inflammatory hyperpigmentation</div>
                                             <div class="pc-subtitle">Also called scars stains</div>
@@ -470,7 +470,7 @@ $article = new SkinGuideArticle(
                     <div class="mt-xl3 is-hidden-desktop">
                         <div class="service-banner-touch">
                             <div class="banner-info">
-                                <img src="https://via.placeholder.com/200x200.webp" width="200" height="200" alt="Products for acne" />
+                                <img src="https://via.placeholder.com/200x200.webp" width="200" height="200" alt="Products for acne" title="Products for acne" />
                                 <div>
                                     <h4>Products for acne</h4>
                                     <p>Price from 995 kr</p>
@@ -489,7 +489,7 @@ $article = new SkinGuideArticle(
                     <div class="mt-xl3 is-hidden-touch">
                         <div class="service-banner-desktop">
                             <div>
-                                <img src="https://via.placeholder.com/200x200.webp" width="200" height="200" alt="Consultation" />
+                                <img src="https://via.placeholder.com/200x200.webp" width="200" height="200" alt="Consultation" title="Consultation" />
                             </div>
                             <div class="banner-info">
                                 <h4>Products for acne</h4>
@@ -566,17 +566,17 @@ $article = new SkinGuideArticle(
                         <div class="columns is-mobile is-multiline">
                             <div class="column is-6-mobile is-3-tablet is-2-desktop">
                                 <div class="brand">
-                                    <img src="https://via.placeholder.com/116x41.webp" alt="Powerlite" width="116" height="41" />
+                                    <img src="https://via.placeholder.com/116x41.webp" alt="Powerlite" title="Powerlite" width="116" height="41" />
                                 </div>
                             </div>
                             <div class="column is-6-mobile is-3-tablet is-2-desktop">
                                 <div class="brand">
-                                    <img src="https://via.placeholder.com/116x41.webp" alt="Dermapen" width="116" height="41" />
+                                    <img src="https://via.placeholder.com/116x41.webp" alt="Dermapen" title="Dermapen" width="116" height="41" />
                                 </div>
                             </div>
                             <div class="column is-6-mobile is-3-tablet is-2-desktop">
                                 <div class="brand">
-                                    <img src="https://via.placeholder.com/116x41.webp" alt="Cryopen" width="116" height="41" />
+                                    <img src="https://via.placeholder.com/116x41.webp" alt="Cryopen" title="Cryopen" width="116" height="41" />
                                 </div>
                             </div>
                         </div>
