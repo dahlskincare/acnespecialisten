@@ -111,7 +111,7 @@ $type_categories = array(
                         url: 'problem/akne/typer/tonårsakne',
                   ),
                   new BasedType(
-                        image_url: 'images/problems/vuxenakne/102x102/barnakne.webp',
+                        image_url: 'images/problems/barnakne/102x102/barnakne.webp',
                         title: 'Barnakne',
                         subtitle: 'Även kallat acne neonatorum',
                         content: '',
