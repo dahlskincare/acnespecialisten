@@ -74,19 +74,19 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Behandla',
             content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika aknetyp, så att du snabbt och säkert blir av med problemet.',
-            url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
+            url: 'aknebehandling',
             url_label: 'Se aknebehandlingar'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'EVi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny akne och hålla din hud i balans.',
-            url: 'https://www.dahlskincare.com',
+            content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny akne och hålla din hud i balans.',
+            url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
             url_label: 'Se produkter'
       ),
       new TreatmentStep(
             title: 'Reparera',
             content: 'När aknen är borta fokuserar vi på att reducera eventuella ärr med behandlingsmetoder som laser, microneedling och kemisk peeling för en jämn och problemfri hud.',
-            url: 'https://www.dahlskincare.com',
+            url: 'aknearr',
             url_label: 'Se ärrbehandlingar'
       ),
 );
