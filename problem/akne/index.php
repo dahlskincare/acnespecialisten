@@ -612,20 +612,20 @@ $related_problems = array(
       new RelatedProblem(
             id: 'acnearr',
             name: 'Acneärr',
-            aka: 'Gropar & Fläckar',
-            image: 'https://via.placeholder.com/102x102.webp'
+            aka: 'gropar & Fläckar',
+            image: 'images/problems/102x102/aknearr.webp'
       ),
       new RelatedProblem(
             id: 'rosacea',
             name: 'Rosacea',
             aka: 'ansiktsrodnad',
-            image: 'https://via.placeholder.com/102x102.webp'
+            image: 'images/problems/200x200/rosacea.webp'
       ),
       new RelatedProblem(
             id: 'perioral-dermatit',
             name: 'Perioral dermatit',
             aka: 'akne runt munnen',
-            image: 'https://via.placeholder.com/102x102.webp'
+            image: 'images/problems/200x200/perioral-dermatit.webp'
       ),
 );
 $brands = array(
