@@ -7,7 +7,7 @@
             <?php echo $problem->name ?>
         </h3>
         <div class="aka">
-            <span class="l10n">Also called</span>
+            <span class="l10n">Känt som</span>
             <span>
                 <?php echo $problem->aka ?>
             </span>
