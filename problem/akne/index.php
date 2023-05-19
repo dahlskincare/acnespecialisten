@@ -188,7 +188,7 @@ $type_categories = array(
                         url: 'problem/akne/typer/acne-exoriee',
                   ),
                   new BasedType(
-                        image_url: 'images/problems/102x102/friktion-sakne.webp',
+                        image_url: 'images/problems/102x102/friktions-akne.webp',
                         title: 'Friktionsakne',
                         subtitle: 'Även kallat Acne mechanica',
                         content: '',
