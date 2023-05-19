@@ -5,8 +5,8 @@ include_once('../widgets/symptom-card/symptom.php');
 include_once('../widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$image_small = 'images/problems/akne/424x324/akne.webp';
-$image_large = 'images/problems/akne/424x456/akne.webp';
+$image_small = 'images/problems/424x324/akne.webp';
+$image_large = 'images/problems/424x456/akne.webp';
 
 $description = 'Här förklarar vi vad som kännetecknar akne, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av akne, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';
 $akas = ['problem/finnar' => 'Finnar', 'problem/finnar/vuxenakne' => 'Vuxenakne', 'problem/finnar/tonarsakne' => 'Tonårsakne'];
@@ -97,21 +97,21 @@ $type_categories = array(
             content: '<p class="p200">Akne är en hudåkomma som kan drabba både ungdomar och vuxna, även om det är vanligast under tonåren. Tonårsakne uppstår ofta på grund av hormonella förändringar under puberteten. Vuxenakne förekommer också, och det kan bero på en rad olika faktorer. Hos vuxna kan akne orsakas av faktorer som stress, hormonobalans och genetik. Oavsett ålder är det viktigt att förstå att akne kan påverka människor i alla livsstadier.</p>',
             types: array(
                   new BasedType(
-                        image_url: 'images/problems/vuxenakne/102x102/vuxenakne.webp',
+                        image_url: 'images/problems/102x102/vuxenakne.webp',
                         title: 'Vuxenakne',
                         subtitle: 'Även kallat acne tarda',
                         content: '',
                         url: 'problem/akne/typer/vuxenakne',
                   ),
                   new BasedType(
-                        image_url: 'images/problems/tonarsakne/102x102/tonarsakne.webp',
+                        image_url: 'images/problems/102x102/tonarsakne.webp',
                         title: 'Tonårsakne',
                         subtitle: 'Även kallat acne vulgaris',
                         content: '',
                         url: 'problem/akne/typer/tonårsakne',
                   ),
                   new BasedType(
-                        image_url: 'images/problems/barnakne/102x102/barnakne.webp',
+                        image_url: 'images/problems/102x102/barnakne.webp',
                         title: 'Barnakne',
                         subtitle: 'Även kallat acne neonatorum',
                         content: '',
