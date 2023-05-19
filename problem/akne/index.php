@@ -188,7 +188,7 @@ $type_categories = array(
                         url: 'problem/akne/typer/acne-exoriee',
                   ),
                   new BasedType(
-                        image_url: 'images/problems/102x102/friktionsakne.webp',
+                        image_url: 'images/problems/102x102/friktion-sakne.webp',
                         title: 'Friktionsakne',
                         subtitle: 'Även kallat Acne mechanica',
                         content: '',
@@ -202,14 +202,14 @@ $type_categories = array(
                         url: 'problem/akne/typer/lakemedelsakne',
                   ),
                   new BasedType(
-                        image_url: 'images/problems/102x102/kontaktakne.webp',
+                        image_url: 'images/problems/102x102/kontakt-akne.webp',
                         title: 'Kontaktakne',
                         subtitle: 'Även kallat Acne venenata',
                         content: '',
                         url: 'problem/akne/typer/kontakt-akne',
                   ),
                   new BasedType(
-                        image_url: 'images/problems/102x102/svampakne.webp',
+                        image_url: 'images/problems/102x102/svamp-akne.webp',
                         title: 'Svampakne',
                         subtitle: 'Även kallat fungal acne',
                         content: '',
