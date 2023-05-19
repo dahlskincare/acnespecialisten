@@ -293,7 +293,7 @@ $symptoms = array(
       ),
 );
 $service = new Service(
-      id: 'acne-scars-consultation',
+      id: 'fyll-ratt-lank',
       title: 'Konsultation',
       duration: '20 min',
       price: 'Kostnadsfri',
@@ -305,7 +305,7 @@ $service = new Service(
 );
 $services = array(
       new Service(
-            id: 'acne-scars-microneedling',
+            id: 'fyll-ratt-lank',
             title: 'Ansiktsbehandling mot akne',
             duration: '60 min',
             price: '995 kr',
@@ -316,18 +316,18 @@ $services = array(
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
       ),
       new Service(
-            id: 'acne-scars-laser',
+            id: 'fyll-ratt-lank',
             title: 'Laser mot akne',
             duration: '50 min',
             price: '2595 kr',
             content: 'En avancerad laserbehandling mot akne erbjuder en effektiv lösning för att bekämpa aktiv akne och ärr som kan uppstå efter utbrott. Lasertekniken riktar sig mot de bakterier som orsakar inflammation och hjälper till att minska produktionen av talg, vilket minskar risken för framtida utbrott.',
-            image_small: 'images/services/200x200/laser.akne.webp',
+            image_small: 'images/services/200x200/laser-akne.webp',
             image_large: 'images/services/200x200/laser-akne.webp',
             consultation_url: 'hudkonsultation',
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
       ),
       new Service(
-            id: 'acne-scars-chemical-peeling',
+            id: 'fyll-ratt-lank',
             title: 'Kemisk peeling mot akne',
             duration: '30 min',
             price: '1595 kr',
@@ -345,8 +345,8 @@ $products = array(
             duration: null,
             price: 'Price from 995 kr',
             content: 'För att effektivt bekämpa och förebygga akne är daglig behandling med rätt produkter avgörande. Våra akneprodukter är speciellt utformade för att hålla din hud i balans och förhindra att ny akne uppstår.',
-            image_small: 'images/service-categories/small/consultation.jpg',
-            image_large: 'images/service-categories/large/consultation.jpg',
+            image_small: 'images/services/200x200/produkter-akne.webp',
+            image_large: 'images/services/200x200/produkter-akne.webp',
             consultation_url: null,
             booking_url: null
       )
@@ -358,8 +358,8 @@ $procedures = array(
             duration: '6 procedures',
             price: null,
             content: 'Efter aktiv akne kan man uppleva post-akne, vilket innebär ärr i form av gropar i olika former och fläckar i olika färger på huden där aknen tidigare varit. Olika typer av ärr behandlas med olika metoder. Klicka här för att läsa mer om hur du kan reparera din hud och ta hand om post-akne.',
-            image_small: 'images/service-categories/small/consultation.jpg',
-            image_large: 'images/service-categories/large/consultation.jpg',
+            image_small: 'images/services/200x200/microneedling-aknearr.webp',
+            image_large: 'images/services/200x200/microneedling-aknearr.webp',
             consultation_url: null,
             booking_url: null,
       ),
