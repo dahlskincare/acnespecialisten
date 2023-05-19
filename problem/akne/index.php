@@ -298,8 +298,8 @@ $service = new Service(
       duration: '20 min',
       price: 'Kostnadsfri',
       content: 'Vid ett personligt möte med en acnespecialist utförs en undersökning av din akne. Vi tar före-bilder på din hud och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
-      image_small: 'images/service-categories/small/consultation.jpg',
-      image_large: 'images/service-categories/large/consultation.jpg',
+      image_small: 'images/services/200x200/ansiktsbehandling-akne.webp',
+      image_large: 'images/services/200x200/ansiktsbehandling-akne.webp',
       consultation_url: 'hudkonsultation',
       booking_url: null
 );
