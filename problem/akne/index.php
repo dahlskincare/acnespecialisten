@@ -223,21 +223,21 @@ $type_categories = array(
             content: 'Akne kan uppträda på olika områden på kroppen. Ansiktet är det vanligaste området, men akne kan också förekomma på bröst, rygg, axlar och andra delar av kroppen. Placeringen av akne kan ge en indikation på dess orsak, som hormonella förändringar, irritation från kläder eller yttre faktorer som sol och friktion.',
             types: array(
                   new BasedType(
-                        image_url: 'https://via.placeholder.com/102x102.jpg',
+                        image_url: 'images/problems/102x102/akne-ansikte.webp',
                         title: 'Akne i ansiktet',
                         subtitle: 'Även kallat Acne faciei',
                         content: '',
                         url: 'problem/akne/typer/akne-ansiktet',
                   ),
                   new BasedType(
-                        image_url: 'https://via.placeholder.com/102x102.jpg',
+                        image_url: 'images/problems/102x102/akne-rygg.webp',
                         title: 'Akne på ryggen',
                         subtitle: 'Även kallat Acne dorsalis',
                         content: '',
                         url: 'problem/akne/typer/akne-ryggen',
                   ),
                   new BasedType(
-                        image_url: 'https://via.placeholder.com/102x102.jpg',
+                        image_url: 'images/problems/102x102/akne-brost.webp',
                         title: 'Akne på bröstet',
                         subtitle: 'Även kallat Acne pectoralis',
                         content: '',
