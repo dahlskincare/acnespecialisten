@@ -610,21 +610,21 @@ $specialists = array(
 );
 $related_problems = array(
       new RelatedProblem(
-            id: 'acne',
-            name: 'Acne',
-            aka: 'scars stains',
+            id: 'acnearr',
+            name: 'Acneärr',
+            aka: 'Gropar & Fläckar',
             image: 'https://via.placeholder.com/102x102.webp'
       ),
       new RelatedProblem(
-            id: 'acne',
-            name: 'Acne',
-            aka: 'scars stains',
+            id: 'rosacea',
+            name: 'Rosacea',
+            aka: 'ansiktsrodnad',
             image: 'https://via.placeholder.com/102x102.webp'
       ),
       new RelatedProblem(
-            id: 'acne',
-            name: 'Acne',
-            aka: 'scars stains',
+            id: 'perioral-dermatit',
+            name: 'Perioral dermatit',
+            aka: 'akne runt munnen',
             image: 'https://via.placeholder.com/102x102.webp'
       ),
 );
