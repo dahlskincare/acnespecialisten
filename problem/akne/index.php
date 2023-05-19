@@ -298,8 +298,8 @@ $service = new Service(
       duration: '20 min',
       price: 'Kostnadsfri',
       content: 'Vid ett personligt möte med en acnespecialist utförs en undersökning av din akne. Vi tar före-bilder på din hud och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
-      image_small: 'images/services/200x200/ansiktsbehandling-akne.webp',
-      image_large: 'images/services/200x200/ansiktsbehandling-akne.webp',
+      image_small: 'images/services/200x200/konsultation.webp',
+      image_large: 'images/services/200x200/konsultation.webp',
       consultation_url: 'hudkonsultation',
       booking_url: null
 );
@@ -310,8 +310,8 @@ $services = array(
             duration: '60 min',
             price: '995 kr',
             content: 'En effektiv ansiktsbehandling mot akne fokuserar på att noggrant extrahera orenheter som orsakar inflammation och skador i huden. Genom att försiktigt klämma ut akne och pormaskar kan behandlingen bidra till att förebygga ärrbildning och främja en snabbare läkning.',
-            image_small: 'images/service-categories/small/microneedling.jpg',
-            image_large: 'images/service-categories/large/microneedling.jpg',
+      image_small: 'images/services/200x200/ansiktsbehandling-akne.webp',
+      image_large: 'images/services/200x200/ansiktsbehandling-akne.webp',
             consultation_url: 'hudkonsultation',
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
       ),
