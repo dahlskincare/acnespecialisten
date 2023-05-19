@@ -613,7 +613,7 @@ $related_problems = array(
             id: 'acnearr',
             name: 'Acneärr',
             aka: 'gropar & Fläckar',
-            image: 'images/problems/102x102/aknearr.webp'
+            image: 'images/problems/102x102/acnearr.webp'
       ),
       new RelatedProblem(
             id: 'rosacea',
