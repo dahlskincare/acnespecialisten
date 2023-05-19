@@ -125,28 +125,28 @@ $type_categories = array(
             content: '<p class="p200">Akne kan variera i svårighetsgrad från milda till extremt allvarliga fall. I milda fall av akne är symptomen ofta mindre uttalade och består främst av pormaskar, medan mer allvarliga fall innefattar djupare inflammationer i form av cystor och noduler. Svårighetsgraden påverkar också hur akne påverkar en persons livskvalitet och hur den ska behandlas. Det är viktigt att diagnostisera och behandla akne utifrån dess svårighetsgrad för att säkerställa bästa möjliga behandlingsresultat och förhindra potentiella ärr och bestående skador på huden.</p>',
             types: array(
                   new BasedType(
-                        image_url: 'https://via.placeholder.com/102x102.jpg',
+                        image_url: 'images/problems/102x102/mild-akne.webp',
                         title: 'Mild akne',
                         subtitle: 'även kallat acne comedonica',
                         content: '',
                         url: 'problem/akne/typer/mild-akne',
                   ),
                   new BasedType(
-                        image_url: 'https://via.placeholder.com/102x102.jpg',
+                        image_url: 'images/problems/102x102/medelsvar-akne.webp',
                         title: 'Medelsvår akne',
                         subtitle: 'Även kallat acne papulopustulosa',
                         content: '',
                         url: 'problem/akne/typer/medel-akne',
                   ),
                   new BasedType(
-                        image_url: 'https://via.placeholder.com/102x102.jpg',
+                        image_url: 'images/problems/102x102/svar-akne.webp',
                         title: 'Svår akne',
                         subtitle: 'Även kallat Acne nodulocystica',
                         content: '',
                         url: 'problem/akne/typer/svar-akne',
                   ),
                   new BasedType(
-                        image_url: 'https://via.placeholder.com/102x102.jpg',
+                        image_url: 'images/problems/102x102/mycket-svar-akne.webp',
                         title: 'Mycket svår akne',
                         subtitle: 'Även kallat Acne conglobata',
                         content: '',
