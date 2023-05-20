@@ -711,10 +711,10 @@ $brands = array(
                               <div class="mt-xl">
                                     <div class="columns is-mobile">
                                           <div class="column is-half">
-                                                <a href="hudkonsultation" class="button b200 white expand l10n">Free consultation</a>
+                                                <a href="hudkonsultation" class="button b200 white expand l10n">Gratis konsultation</a>
                                           </div>
                                           <div class="column is-half">
-                                                <a href="https://bokadirekt.se" class="button b200 white expand l10n">Book a treatment</a>
+                                                <a href="https://bokadirekt.se" class="button b200 white expand l10n">Boka behandling</a>
                                           </div>
                                     </div>
                               </div>
@@ -935,7 +935,7 @@ $brands = array(
                                     </div>
                               </div>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide_narrow.php'); ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" href="skin-guide">View all articles</a>
+                              <a class="mt-xl button b200 outline expand auto-width l10n" href="skin-guide">Läs fler guider</a>
                         </section>
                         <section id="specialists">
                               <div class="flex-row justify-space-between">
@@ -950,7 +950,7 @@ $brands = array(
                                     </div>
                               </div>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" href="specialister">View all specialists</a>
+                              <a class="mt-xl button b200 outline expand auto-width l10n" href="specialister">Se alla specialister</a>
                         </section>
                         <section id="related-problems">
                               <h2 class="big l10n">Relaterade hudproblem</h2>
@@ -972,7 +972,7 @@ $brands = array(
                               </a>
                         </div>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                        <a class="mt-xl button b200 outline expand auto-width is-hidden-desktop l10n" href="brands">View all brands</a>
+                        <a class="mt-xl button b200 outline expand auto-width is-hidden-desktop l10n" href="brands">Se alla varumärken</a>
                   </section>
             </div>
       </main>
