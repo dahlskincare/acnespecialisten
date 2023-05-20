@@ -265,7 +265,7 @@ $symptoms = array(
       ),
       new Symptom(
             url: 'problem/akne/typer/atrophic-boxcar-scars',
-            name: 'Papuler',
+            name: 'Papler',
             aka: 'röda finnar',
             image: 'images/symptoms/102x102/papler.webp',
             content: 'Papuler är små, fasta, röda och inflammerade blemmor som uppstår när en hårsäck blir infekterad av bakterier, oftast Propionibacterium acnes. De är vanligtvis mindre än 5 mm i diameter och kan vara känsliga vid beröring. Papuler är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.'
@@ -286,8 +286,8 @@ $symptoms = array(
       ),
       new Symptom(
             url: 'problem/akne/typer/hypertrophic-keloid',
-            name: 'cystor',
-            aka: 'Bölder',
+            name: 'Cystor',
+            aka: 'bölder',
             image: 'images/symptoms/102x102/cystor.webp',
             content: 'Cystor är stora, inflammerade och smärtsamma blemmor som är fyllda med var och bildas när en hårsäck blir mycket infekterad och inflammationen sprider sig djupt in i huden. De kan vara runda och mjuka eller fasta och ömma vid beröring. Cystor kan vara större än 5 mm i diameter och är vanligt förekommande på ansiktet, nacken, bröstet och ryggen. Cystisk akne kan leda till ärrbildning och kräver ofta professionell behandling.'
       ),
@@ -646,7 +646,7 @@ $brands = array(
 <head>
       <!-- TODO: Set title and meta tags -->
       <title class="l10n">
-            Acnespecialisten | Akne
+            Vad är akne? Vanliga frågor och svar | AcneSpecialisten
       </title>
       <meta name="description" content="" class="l10n">
       <meta name="title" content="" class="l10n">
