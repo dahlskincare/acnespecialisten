@@ -577,20 +577,20 @@ $specialists = array(
       new Specialist(
             name: 'Veronika Benedik',
             title: 'Hudterapeut sedan 1999',
-            image_small: 'images/specialists/small/specialist-2.jpg',
-            image_large: 'images/specialists/large/hudterapeut-veronika.webp'
+            image_small: 'images/specialists/312x312/hudterapeut-veronika.webp',
+            image_large: 'images/specialists/312x312/hudterapeut-veronika.webp'
       ),
       new Specialist(
             name: 'Amira Maqboul',
             title: 'Hudterapeut sedan 2017',
-            image_small: 'images/specialists/small/specialist-3.jpg',
-            image_large: 'images/specialists/large/hudterapeut-amira.webp'
+            image_small: 'images/specialists/312x312/hudterapeut-amira.webp',
+            image_large: 'images/specialists/312x312/hudterapeut-amira.webp'
       ),
       new Specialist(
             name: 'Vilma Libom',
             title: 'Hudterapeut sedan 2019',
-            image_small: 'images/specialists/small/specialist-4.jpg',
-            image_large: 'images/specialists/large/hudterapeut-vilma.webp'
+            image_small: 'images/specialists/312x312/hudterapeut-vilma.webp',
+            image_large: 'images/specialists/312x312/hudterapeut-vilma.webp'
       )
 );
 $related_problems = array(
