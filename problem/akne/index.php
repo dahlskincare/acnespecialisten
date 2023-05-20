@@ -571,8 +571,8 @@ $specialists = array(
       new Specialist(
             name: 'Cazzandra Lindberg',
             title: 'Hudterapeut sedan 2015',
-            image_small: 'images/specialists/small/specialist-1.jpg',
-            image_large: 'images/specialists/large/hudterapeut-cazzandra.webp'
+            image_small: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
+            image_large: 'images/specialists/312x312/hudterapeut-cazzandra.webp'
       ),
       new Specialist(
             name: 'Veronika Benedik',
