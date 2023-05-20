@@ -423,16 +423,16 @@ $reviews = array(
             stars: 5,
             brand: 'Google',
             logo_url: 'images/brands/google-small.svg',
-            title: 'Rekommenderar varmt Acne Specialisten',
+            title: 'Jag är mycket nöjd..',
             text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och aknen är betydligt mildare",
             signature: 'Lovisa'
       ),
       new Review(
             stars: 5,
             brand: 'Bokadirekt',
-            logo_url: 'images/brands/trustpilot.svg',
-            title: 'Underbar service och väldigt…Stort tack att ni finns',
-            text: "nderbar service och väldigt professionell hudterapeut Julia. Acne specialister håller högsta standarden och alltid ta hand om sina kunder och bryr sig om kunders upplevelse efter behandlingen. Stort tack att ni finns",
+            logo_url: 'images/brands/bokadirekt-small.svg',
+            title: 'Rekommenderar varmt!',
+            text: "Det enda som fungerat mot min akne med synliga resultat. Jättetrevlig och kunnig behandlare!",
             signature: 'Emily'
       ),
       
