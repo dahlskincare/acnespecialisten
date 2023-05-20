@@ -30,7 +30,7 @@
         <p class="mt-m p200">
             <?php echo $service->content ?>
         </p>
-        <a href="behandlingar/<?php echo $service->id ?>" class="mt-m button outline expand l10n">Read more</a>
+        <a href="behandlingar/<?php echo $service->id ?>" class="mt-m button outline expand l10n">Läs mer</a>
         <hr />
         <?php if (isset($service->consultation_url)) { ?>
             <a href="<?php echo $service->consultation_url ?>" class="mt-xl button expand l10n">Få gratis konsultation</a>
