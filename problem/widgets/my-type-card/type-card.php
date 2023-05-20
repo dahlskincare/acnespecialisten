@@ -10,7 +10,7 @@
         <p class="mt-m p200">
             <?php echo $type->content ?>
         </p>
-        <div class="mt-m button b200 text compact is-hidden-mobile l10n">Read more</div>
-        <div class="mt-m button outline expand is-hidden-tablet l10n">Read more</div>
+        <div class="mt-m button b200 text compact is-hidden-mobile l10n">Läs mer</div>
+        <div class="mt-m button outline expand is-hidden-tablet l10n">Läs mer</div>
     </div>
 </a>

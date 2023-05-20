@@ -18,11 +18,11 @@
         <?php echo $trivia->content ?>
     </div>
     <button class="mt-m text b200 compact is-hidden-mobile" onclick="showExtendedContent(this)">
-        <span class="l10n">Read more</span>
+        <span class="l10n">Läs mer</span>
         <?php icon('arrow-down') ?>
     </button>
     <button class="mt-m grey b100 expand is-hidden-tablet" onclick="showExtendedContent(this)">
-        <span class="l10n">Read more</span>
+        <span class="l10n">Läs mer</span>
         <?php icon('arrow-down') ?>
     </button>
     <div class="p200 mt-m is-hidden" id="extended-content">
