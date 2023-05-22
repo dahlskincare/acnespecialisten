@@ -21,6 +21,10 @@ html {
     }
 }
 
+section {
+    scroll-margin-top: 140px;
+}
+
 section#header {
     #green-header-small {
         background-color: $deep-sea-400;
