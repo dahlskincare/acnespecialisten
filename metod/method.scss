@@ -136,5 +136,43 @@ html {
             }
         }
 
+        section#cta {
+            background-color: $deep-sea-400;
+            padding: $xl;
+            border-radius: $radius-l;
+            color: $white-500;
+
+            #cta-banner-header {
+                @include h500;
+            }
+
+            #cta-banner-content {
+                margin-top: $xs;
+            }
+
+            a.button {
+                margin-top: $xl;
+            }
+
+            @media screen and (min-width: $tablet) {
+                padding: $xxl $xl3;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                #cta-banner-texts {
+                    flex: auto;
+
+                    #cta-banner-header {
+                        @include h500;
+                    }
+                }
+
+                a.button {
+                    margin-top: 0;
+                    flex: 1;
+                }
+            }
+        }
     }
 }
