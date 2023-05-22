@@ -392,7 +392,7 @@ $results = array(
             problem: 'Akne',
             type: 'Severe',
             treatment: new ResultTreatment(
-                  duration: 'Efter 3 månaders <a href="behandlingar/akne">behandlingar mot akne</a>',
+                  duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne"">behandlingar mot akne</a>',
             )
       ),
       new ResultCustomer(
@@ -406,7 +406,7 @@ $results = array(
             problem: 'Akne',
             type: 'Severe',
             treatment: new ResultTreatment(
-                  duration: 'Efter 3 månaders <a href="behandlingar/akne">behandlingar mot akne</a>',
+                  duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne">behandlingar mot akne</a>',
             )
       ),
 );
@@ -435,7 +435,7 @@ $reviews = array(
             text: "Det enda som fungerat mot min akne med synliga resultat. Jättetrevlig och kunnig behandlare!",
             signature: 'Emily'
       ),
-      
+
 );
 $faq_categories = array(
       'Generellt om akne' => array(
@@ -668,19 +668,19 @@ $brands = array(
                                           for ($i = 0; $i < $length; $i++) { ?>
                                                 <?php
                                                 if ($i == $length - 1) {
-                                                      echo '<a href="' . $keys[$i] . '" class="b200 underline">' . $values[$i] . '</a>.';
+                                                      echo '<a href="' . $keys[$i] . '" title="' . $values[$i] . '" class="b200 underline">' . $values[$i] . '</a>.';
                                                 } else {
-                                                      echo '<a href="' . $keys[$i] . '" class="b200 underline">' . $values[$i] . '</a>,';
+                                                      echo '<a href="' . $keys[$i] . '" title="' . $values[$i] . '" class="b200 underline">' . $values[$i] . '</a>,';
                                                 }
                                                 ?>
                                           <?php } ?>
                                           <div class="mt-xl">
                                                 <div class="columns is-2 is-variable">
                                                       <div class="column">
-                                                            <a href="hudkonsultation" class="button white expand l10n">Få gratis konsultation</a>
+                                                            <a href="hudkonsultation" title="Vår hudkonsultation" class="button white expand l10n">Få gratis konsultation</a>
                                                       </div>
                                                       <div class="column">
-                                                            <a href="https://bokadirekt.se" class="button white expand l10n">Boka behandling</a>
+                                                            <a href="https://bokadirekt.se" title="Boka behandling" class="button white expand l10n">Boka behandling</a>
                                                       </div>
                                                 </div>
                                           </div>
@@ -699,7 +699,7 @@ $brands = array(
                               <h3 class="mt-xs p100 l10n">Även känt som:</h3>
                               <?php foreach ($akas as $key => $aka) { ?>
                                     <div>
-                                          <a href="<?php echo $key ?>" class="mt-xs button b50 bright">
+                                          <a href="<?php echo $key ?>" title="<?php echo $aka ?>" class="mt-xs button b50 bright">
                                                 <?php echo $aka ?>
                                           </a>
                                     </div>
@@ -711,10 +711,10 @@ $brands = array(
                               <div class="mt-xl">
                                     <div class="columns is-mobile">
                                           <div class="column is-half">
-                                                <a href="hudkonsultation" class="button b200 white expand l10n">Gratis konsultation</a>
+                                                <a href="hudkonsultation" title="Gratis hudkonsultation" class="button b200 white expand l10n">Gratis konsultation</a>
                                           </div>
                                           <div class="column is-half">
-                                                <a href="https://bokadirekt.se" class="button b200 white expand l10n">Boka behandling</a>
+                                                <a href="https://bokadirekt.se" title="Boka behandling" class="button b200 white expand l10n">Boka behandling</a>
                                           </div>
                                     </div>
                               </div>
@@ -743,17 +743,17 @@ $brands = array(
                                           for ($i = 0; $i < $length; $i++) { ?>
                                                 <?php
                                                 if ($i == $length - 1) {
-                                                      echo '<a href="' . $keys[$i] . '" class="b200 underline">' . $values[$i] . '</a>.';
+                                                      echo '<a href="' . $keys[$i] . '" title="' . $values[$i] . '" class="b200 underline">' . $values[$i] . '</a>.';
                                                 } else {
-                                                      echo '<a href="' . $keys[$i] . '" class="b200 underline">' . $values[$i] . '</a>,';
+                                                      echo '<a href="' . $keys[$i] . '" title="' . $values[$i] . '" class="b200 underline">' . $values[$i] . '</a>,';
                                                 }
                                                 ?>
                                           <?php } ?>
                                     </div>
                                     <p class="mt-s p200"><?php echo $description ?></p>
                                     <div class="mt-xl flex-row" id="book-buttons">
-                                          <a href="hudkonsultation" class="button b200 white l10n">Få gratis konsultation</a>
-                                          <a href="https://bokadirekt.se" class="button b200 white l10n">Boka behandling</a>
+                                          <a href="hudkonsultation" title="Gratis hudkonsultation" class="button b200 white l10n">Få gratis konsultation</a>
+                                          <a href="https://bokadirekt.se" title="Boka behandling" class="button b200 white l10n">Boka behandling</a>
                                     </div>
                               </div>
                         </div>
@@ -793,7 +793,7 @@ $brands = array(
                                     } ?>
                               </div>
                               <hr class="mt-xl3 is-hidden-mobile">
-                              <a href="problem/aknearr/behandling" class="mt-xl button b200 outline expand auto-width l10n">Läs mer om aknebehandlingar</a>
+                              <a href="problem/aknearr/behandling" title="Om aknebehandlingar" class="mt-xl button b200 outline expand auto-width l10n">Läs mer om aknebehandlingar</a>
                         </section>
                         <?php if (sizeof($type_categories) > 0) { ?>
                               <section id="types">
@@ -833,8 +833,8 @@ $brands = array(
                                                 </div>
                                           <?php } ?>
                                     </div>
-                                    <a href="typer" class="mt-xl button b200 outline expand l10n is-hidden-tablet">Läs mer om aknetyper</a>
-                                    <a href="typer" class="mt-xl button b200 outline l10n is-hidden-mobile">Läs mer om aknetyper</a>
+                                    <a href="typer" title="Om aknetyper" class="mt-xl button b200 outline expand l10n is-hidden-tablet">Läs mer om aknetyper</a>
+                                    <a href="typer" title="Om aknetyper" class="mt-xl button b200 outline l10n is-hidden-mobile">Läs mer om aknetyper</a>
                               </section>
                         <?php } ?>
                         <?php if (sizeof($symptoms) > 0) { ?>
@@ -915,12 +915,12 @@ $brands = array(
                               $reviews_narrow = true;
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                               ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" href="https://se.trustpilot.com/review/acnespecialisten.se">Läs fler omdömen</a>
+                              <a class="mt-xl button b200 outline expand auto-width l10n" title="Omdömen" href="https://se.trustpilot.com/review/acnespecialisten.se">Läs fler omdömen</a>
                         </section>
                         <section id="faq">
                               <h2 class="big l10n">Frågor & Svar</h2>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" href="faq">Läs fler frågor & Svar</a>
+                              <a class="mt-xl button b200 outline expand auto-width l10n" title="Frågor och svar" href="faq">Läs fler frågor & Svar</a>
                         </section>
                         <section id="skin-guide">
                               <div class="flex-row justify-space-between">
@@ -950,7 +950,7 @@ $brands = array(
                                     </div>
                               </div>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" href="specialister">Se alla specialister</a>
+                              <a class="mt-xl button b200 outline expand auto-width l10n" title="Specialister" href="specialister">Se alla specialister</a>
                         </section>
                         <section id="related-problems">
                               <h2 class="big l10n">Relaterade hudproblem</h2>
@@ -966,13 +966,13 @@ $brands = array(
                   <section id="brands">
                         <div class="flex-row align-end justify-space-between">
                               <h2 class="big l10n">Varumärken</h2>
-                              <a href="brands" class="button compact text is-hidden-mobile">
+                              <a href="brands" title="Varumärken" class="button compact text is-hidden-mobile">
                                     <span class="l10n">Se alla varumärken</span>
                                     <?php icon('navigate-next') ?>
                               </a>
                         </div>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                        <a class="mt-xl button b200 outline expand auto-width is-hidden-desktop l10n" href="brands">Se alla varumärken</a>
+                        <a class="mt-xl button b200 outline expand auto-width is-hidden-desktop l10n" title="Varumärken" href="brands">Se alla varumärken</a>
                   </section>
             </div>
       </main>
