@@ -380,6 +380,15 @@ if (form_completed()) {
                     </div>
                 </section>
             </div>
+            <section id="cta" class="large-margin">
+                <div id="cta-banner-texts">
+                    <div class="l10n" id="cta-banner-header">Want to identify your problem?</div>
+                    <div class="p200 l10n" id="cta-banner-content">In a personal meeting with a skin specialist, your skin type is examined and identified.</div>
+                </div>
+                <div>
+                    <a href="<?php echo $consultation_url ?>" class="button white expand l10n">Get a free consultation</a>
+                </div>
+            </section>
             <section id="results" class="large-margin">
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results.php') ?>
             </section>
