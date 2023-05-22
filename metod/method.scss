@@ -1,0 +1,139 @@
+@import '../styles/util/colors';
+@import '../styles/util/sizes';
+@import '../styles/util/mixins';
+
+html {
+    body {
+        section#banner {
+            background-color: $deep-sea-400;
+            padding: $xxs 0;
+            overflow: hidden;
+
+            .badges-widget {
+                flex: 1;
+
+                .badge {
+                    @include button-text-color($white-500);
+                    color: $white-500;
+                    background-color: transparent;
+                }
+
+                .badge:first-child {
+                    padding-left: 0;
+                }
+
+                .badge:last-child {
+                    padding-right: 0;
+                }
+            }
+
+            @include desktop {
+                .badges-widget {
+                    flex: 0;
+                }
+
+                .breadcrumbs-widget {
+                    padding-top: 0;
+                    padding-bottom: 0;
+                }
+            }
+        }
+
+        #content {
+            margin: 0 auto;
+            max-width: 872px;
+
+            section#title {
+                margin-top: $xl;
+
+                h1 {
+                    @include h600;
+                }
+
+                p {
+                    @include p200;
+                    margin-top: $xs;
+                }
+
+                .button {
+                    margin-top: $xl;
+                }
+
+                @include desktop {
+                    margin-top: $xl4;
+
+
+                    p {
+                        margin-top: $s;
+                    }
+
+                    .button {
+                        width: auto;
+                    }
+                }
+            }
+
+            section#image {
+                margin-top: $xl;
+                font-size: 0;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                    border-radius: $radius-l;
+                }
+
+                @include desktop {
+                    margin-top: $xl3;
+                }
+            }
+
+            section#bullets {
+                margin-top: 72px;
+
+                .bullet {
+                    margin-top: $xl3;
+                    padding-right: $xl;
+
+                    .bullet-label {
+                        display: flex;
+                        align-items: center;
+
+                        .icon {
+                            margin-right: $s;
+
+                            >svg {
+                                * {
+                                    stroke: $deep-sea-400;
+                                    fill: transparent;
+                                }
+                            }
+                        }
+
+                        span {
+                            @include h200;
+                        }
+                    }
+
+                    .bullet-content {
+                        @include p200;
+                        margin-top: $xxs;
+                    }
+                }
+
+                @include desktop {
+                    margin-top: 103px;
+
+                    .bullet {
+                        margin-top: 0;
+                    }
+                }
+
+                .bullet::first-child {
+                    margin-top: 0;
+                }
+            }
+        }
+
+    }
+}

@@ -134,8 +134,6 @@ if (form_completed()) {
     <meta name="description" content="" class="l10n">
     <meta name="title" content="" class="l10n">
     <meta name="keywords" content="" class="l10n">
-
-    <!-- Default imports (metadata, fonts, google analytics etc) -->
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
 
     <link rel="stylesheet" href="/styles/default-layout.css">
