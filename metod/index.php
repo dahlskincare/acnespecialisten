@@ -1,4 +1,42 @@
-<?php include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php'); ?>
+<?php
+include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
+include_once('models/step/step.php');
+
+$steps = array(
+    new StepModel(
+        title: '01. Free skin consultation',
+        content: "Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments. We hereby present our new department Nordiska Kliniken Hud Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery.",
+        image_small: 'https://via.placeholder.com/358x272.webp',
+        image_large: 'https://via.placeholder.com/424x526.webp',
+        url: 'konsultation',
+        url_label: 'Get a free consultation'
+    ),
+    new StepModel(
+        title: '02. Get rid of active problem',
+        content: "Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments. We hereby present our new department Nordiska Kliniken Hud Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery.",
+        image_small: 'https://via.placeholder.com/358x272.webp',
+        image_large: 'https://via.placeholder.com/424x526.webp',
+        url: 'problem',
+        url_label: 'View problems list'
+    ),
+    new StepModel(
+        title: '03. Prevent problems',
+        content: "Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments. We hereby present our new department Nordiska Kliniken Hud Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery.",
+        image_small: 'https://via.placeholder.com/358x272.webp',
+        image_large: 'https://via.placeholder.com/424x526.webp',
+        url: 'https://dahlskincare.com',
+        url_label: 'View products'
+    ),
+    new StepModel(
+        title: '04. Take care of post problem',
+        content: "Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments. We hereby present our new department Nordiska Kliniken Hud Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery.",
+        image_small: 'https://via.placeholder.com/358x272.webp',
+        image_large: 'https://via.placeholder.com/424x526.webp',
+        url: 'problem',
+        url_label: 'View problems list'
+    ),
+);
+?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
 
@@ -74,6 +112,14 @@
                             </div>
                         </div>
                     </div>
+                </section>
+                <section id="steps">
+                    <?php
+                    foreach ($steps as $step) {
+                        include('widgets/step/step.php');
+                    }
+                    ?>
+
                 </section>
             </div>
         </div>

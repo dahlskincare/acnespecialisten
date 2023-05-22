@@ -1,0 +1,61 @@
+@import '../../../styles/util/colors';
+@import '../../../styles/util/mixins';
+@import '../../../styles/util/sizes';
+
+div.step-widget {
+    margin-top: 72px;
+
+    .step-touch {
+        h2 {
+            @include h500;
+        }
+
+        img {
+            margin-top: $xl;
+            border-radius: $radius-l;
+            width: 100%;
+            height: auto;
+        }
+
+        p {
+            margin-top: $xl;
+            @include p200;
+        }
+
+        a.button {
+            margin-top: $xl;
+        }
+    }
+
+    .step-desktop {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        div.step-texts {
+            padding-right: $xl3;
+            margin-right: $xl;
+
+            h2 {
+                @include h500;
+            }
+
+            p {
+                @include p200;
+                margin-top: $m;
+            }
+
+            a.button {
+                margin-top: $xl;
+            }
+        }
+
+        img {
+            border-radius: $radius-l;
+        }
+    }
+
+    @include desktop {
+        margin-top: 104px;
+    }
+}
