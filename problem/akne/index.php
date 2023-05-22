@@ -571,26 +571,22 @@ $specialists = array(
       new Specialist(
             name: 'Cazzandra Lindberg',
             title: 'Hudterapeut sedan 2015',
-            image_small: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
-            image_large: 'images/specialists/312x312/hudterapeut-cazzandra.webp'
+            image: 'images/specialists/312x312/hudterapeut-cazzandra.webp'
       ),
       new Specialist(
             name: 'Veronika Benedik',
             title: 'Hudterapeut sedan 1999',
-            image_small: 'images/specialists/312x312/hudterapeut-veronika.webp',
-            image_large: 'images/specialists/312x312/hudterapeut-veronika.webp'
+            image: 'images/specialists/312x312/hudterapeut-veronika.webp'
       ),
       new Specialist(
             name: 'Amira Maqboul',
             title: 'Hudterapeut sedan 2017',
-            image_small: 'images/specialists/312x312/hudterapeut-amira.webp',
-            image_large: 'images/specialists/312x312/hudterapeut-amira.webp'
+            image: 'images/specialists/312x312/hudterapeut-amira.webp'
       ),
       new Specialist(
             name: 'Vilma Libom',
             title: 'Hudterapeut sedan 2019',
-            image_small: 'images/specialists/312x312/hudterapeut-vilma.webp',
-            image_large: 'images/specialists/312x312/hudterapeut-vilma.webp'
+            image: 'images/specialists/312x312/hudterapeut-vilma.webp'
       )
 );
 $related_problems = array(

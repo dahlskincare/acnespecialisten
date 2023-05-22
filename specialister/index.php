@@ -7,8 +7,7 @@ $specialists = array(
     new Specialist(
         name: 'Cazzandra Lindberg',
         title: 'Hudterapeut sedan 2015',
-        image_small: 'images/specialists/small/specialist-1.jpg',
-        image_large: 'images/specialists/large/hudterapeut-cazzandra.webp',
+        image: 'images/specialists/large/hudterapeut-cazzandra.webp',
         city: 'Stockholm',
         description: 'DESCRIPTION HERE',
         rating: 4.9,
@@ -18,8 +17,7 @@ $specialists = array(
     new Specialist(
         name: 'Veronika Benedik',
         title: 'Hudterapeut sedan 1999',
-        image_small: 'images/specialists/small/specialist-2.jpg',
-        image_large: 'images/specialists/large/hudterapeut-veronika.webp',
+        image: 'images/specialists/large/hudterapeut-veronika.webp',
         city: 'Stockholm',
         description: 'DESCRIPTION HERE',
         rating: 4.9,
@@ -29,8 +27,7 @@ $specialists = array(
     new Specialist(
         name: 'Amira Maqboul',
         title: 'Hudterapeut sedan 2017',
-        image_small: 'images/specialists/small/specialist-3.jpg',
-        image_large: 'images/specialists/large/hudterapeut-amira.webp',
+        image: 'images/specialists/large/hudterapeut-amira.webp',
         city: 'Stockholm',
         description: 'DESCRIPTION HERE',
         rating: 4.9,
@@ -40,8 +37,7 @@ $specialists = array(
     new Specialist(
         name: 'Vilma Libom',
         title: 'Hudterapeut sedan 2019',
-        image_small: 'images/specialists/small/specialist-4.jpg',
-        image_large: 'images/specialists/large/hudterapeut-vilma.webp',
+        image: 'images/specialists/large/hudterapeut-vilma.webp',
         city: 'Stockholm',
         description: 'DESCRIPTION HERE',
         rating: 4.9,

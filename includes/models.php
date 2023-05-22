@@ -78,12 +78,11 @@ class BasedType
 
 class Specialist
 {
-    public function __construct($name, $title, $image_small, $image_large, $city = null, $description = null, $rating = null, $num_treatments = null, $since_year = null)
+    public function __construct($name, $title, $image, $city = null, $description = null, $rating = null, $num_treatments = null, $since_year = null)
     {
         $this->name = $name;
         $this->title = $title;
-        $this->image_small = $image_small;
-        $this->image_large = $image_large;
+        $this->image = $image;
         $this->city = $city;
         $this->description = $description;
         $this->rating = $rating;
@@ -93,8 +92,7 @@ class Specialist
 
     public String $name;
     public String $title;
-    public String $image_small;
-    public String $image_large;
+    public String $image;
     public ?String $city;
     public ?String $description;
     public ?float $rating;
