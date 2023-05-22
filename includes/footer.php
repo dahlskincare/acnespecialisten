@@ -113,7 +113,7 @@
                                 <a href="specialister" class="button text grey compact l10n">Våra specialsiter</a>
                             </li>
                             <li>
-                                <a href="karriar" class="button text grey compact l10n">Karriär</a>
+                                <a href="https://skonhetsgruppen.teamtailor.com" target="_blank" title="Teamtailor" rel="nofollow" class="button text grey compact l10n">Karriär</a>
                             </li>
                         </ul>
                     </div>
@@ -358,7 +358,7 @@
                                             <a href="specialister" class="button text grey compact l10n">Våra specialister</a>
                                         </li>
                                         <li>
-                                            <a href="karriar" class="button text grey compact l10n">Karriär</a>
+                                            <a href="https://skonhetsgruppen.teamtailor.com" target="_blank" title="Teamtailor" rel="nofollow" class="button text grey compact l10n">Karriär</a>
                                         </li>
                                     </ul>
                                 </div>

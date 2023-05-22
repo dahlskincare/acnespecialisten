@@ -25,7 +25,7 @@
                     <a href="om-oss" class="l10n">Om oss</a>
                     <a href="metod" class="l10n">Vår metod</a>
                     <a href="specialister" class="l10n">Våra specialister</a>
-                    <a href="karriar" class="l10n">Karriär</a>
+                    <a href="https://skonhetsgruppen.teamtailor.com" rel="nofollow" title="Teamtailor" target="_blank" class="l10n">Karriär</a>
                 </div>
             </div>
             <div class="expansion-panel">
@@ -74,7 +74,7 @@
                             <li><a href="om-oss" class="l10n">Om oss</a></li>
                             <li><a href="metod" class="l10n">Vår metod</a></li>
                             <li><a href="specialister" class="l10n">Våra specialister</a></li>
-                            <li><a href="karriar" class="l10n">Karriär</a></li>
+                            <li><a href="https://skonhetsgruppen.teamtailor.com" target="_blank" rel="nofollow" title="Teamtailor" class="l10n">Karriär</a></li>
                         </ul>
                     </div>
                     <div class="column">
