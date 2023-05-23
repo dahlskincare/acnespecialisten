@@ -86,7 +86,6 @@ html {
 
       h2 {
         @include h500;
-        margin-top: $xl3;
       }
     }
 
@@ -129,19 +128,12 @@ html {
       }
     }
 
-
     #about-cookies,
     #privacy-policy {
       scroll-margin-top: 130px;
     }
 
-    .cookies-about-cookies {
-      @include h500;
-      margin-top: $xl3;
-    }
-
-    .cookies-about-cookies-text {
-      @include p200;
+    .about-cookies-text {
       margin-top: $xl;
     }
   }

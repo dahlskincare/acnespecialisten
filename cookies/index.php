@@ -46,12 +46,12 @@ $nav_buttons = array(
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                         </section>
                         <section id="content">
-                              <h2 id="about-cookies">About cookies</h2>
-                              <div class="cookies-about-cookies-text">
+                              <h2 id="about-cookies" class="mt-xl3">About cookies</h2>
+                              <p class="about-cookies-text">
                                     A cookie is a text file that is stored in your browser. We need cookies for our website to function
                                     and cookies also make it easier for you to use the internet, as you don't have to start over every
                                     time you visit a website. With the help of cookies, a website can therefore remember you and your activity.
-                              </div>
+                              </p>
                               <h3 class="mt-xl3">
                                     What info do we collect through cookies?
                               </h3>
@@ -67,7 +67,7 @@ $nav_buttons = array(
                                     as you don't have to start over every time you visit a website.
                                     With the help of cookies, a website can therefore remember you
                                     and your activity.</p>
-                              <h2 id="privacy-policy">Privacy Policy</h2>
+                              <h2 id="privacy-policy" class="mt-xl3">Privacy Policy</h2>
                               <p class="mt-m">
                                     The following privacy policy describes how we, AcneSpecialisten.se ("ACNESPECIALISTEN.SE",
                                     "we" or "us"), process your personal data when you use AcneSpecialisten.se
