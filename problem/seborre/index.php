@@ -8,10 +8,10 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 $image_small = 'images/problems/424x324/seborre.webp';
 $image_large = 'images/problems/424x456/seborre.webp';
 
-$description = 'Här förklarar vi vad som kännetecknar seborre, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av seborre, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';
+$description = 'Här förklarar vi vad som kännetecknar seborré, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av seborré, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';
 $akas = ['problem/mjalleksem' => 'Mjälleksem', 'problem/seborroiskt-eksem' => 'Seborroiskt Eksem'];
 $nav_buttons = array(
-      'about' => 'Om seborre',
+      'about' => 'Om seborré',
       'approach' => 'Metoden',
       'types' => 'Typer',
       'symptoms' => 'Symptom',
@@ -29,7 +29,7 @@ $nav_buttons = array(
 $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
-            title: 'är seborre?',
+            title: 'är seborré?',
             content: '<p class="p200">Akne är en ärftlig och hormonell hudförändring som uppstår när talgproduktionen i hudens porer ökar. Huden behöver en viss mängd talg för att hålla sig mjuk och smidig, men vid överproduktion har huden svårt att avlägsna hudrester, vilket leder till bakterier och små inflammationer. Dessa inflammationer orsakar akne, eller finnar som vi ofta säger i dagligt tal. Akne är en inflammation i huden som uppstår när porerna täpps till av talg, döda hudceller och bakterier.</p>',
             extended_content: '<p class="p200">Både barn och vuxna kan drabbas av akne, men det är vanligast under tonåren. Vissa har besvär med akne under längre perioder, medan andra endast vid enstaka tillfällen. Akne kan se ut på många olika sätt, från små knottror på huden till variga större utslag. Det viktiga att komma ihåg är att akne kan behandlas. Ibland krävs behandling under en längre tidsperiod, men med rätt behandling kan både bestående ärrbildning och psykiskt lidande undvikas eller lindras.</p>
             <p class="p200 mt-xl">På Acnespecialisten kan du få hjälp med din akne. Vi har kunskap och erfarenhet av olika typer av behandlingar som ger goda resultat och många nöjda kunder. Vi börjar alltid med en kostnadsfri hudkonsultation där vi identifierar problemet och planerar den mest lämpliga behandlingen för dig och din hy. Du får även en effektiv hudvårdsrutin som du enkelt kan följa hemma. Vi rekommenderar att du tar hand om din allmänna hälsa: sov ordentligt, ät hälsosamt och motionera regelbundet. När du mår bra i sin helhet påverkar det din hud positivt.</p>',
@@ -654,7 +654,7 @@ $brands = array(
                         <div id="overlay">
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
                               <div>
-                                    <h2 class="h600">Akne</h2>
+                                    <h2 class="h600">Seborré</h2>
                                     <div class="mt-m aka">
                                           <span class="p200 l10n">Även kallat</span>
                                           <?php
