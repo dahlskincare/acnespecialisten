@@ -56,13 +56,10 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Var',
             title: 'får man seborré?',
-            content: '<p class="p200">Akne kan uppstå på flera delar av kroppen och påverka personer i olika åldrar och med olika hudtyper. Vanligast är att akne drabbar ansiktet, men det kan även förekomma på andra områden som bröstet, axlarna och ryggen. Placeringen av akne beror på var talgkörtlarna är aktiva och därmed kan överproducera talg, vilket leder till tilltäppta porer och inflammationer i huden.</p>',
+            content: '<p class="p200">Seborré tenderar att uppstå i områden på kroppen med hög koncentration av talgkörtlar. Det vanligaste området är hårbotten, där obehandlad seborré ofta resulterar i mjäll. Ansiktet är också ett vanligt område för seborré, speciellt näsan, ögonbrynen, pannan och området runt öronen. Bröstet kan drabbas, speciellt i huden mellan och runt brösten. Seborré kan även dyka upp på den övre delen av ryggen.</p>',
 
-            extended_content: '<p class="p200 mt-xl">Akne i ansiktet är särskilt påtagligt, eftersom det är svårt att dölja och ofta påverkar en persons självkänsla och mentala välbefinnande. Det är vanligt att tonåringar drabbas av ansiktsakne under puberteten, då hormonella förändringar kan leda till ökad talgproduktion. Även vuxna kan drabbas av ansiktsakne, särskilt kvinnor som genomgår hormonella förändringar under graviditet, mens och klimakteriet.</p>
-
-            <p class="p200 mt-xl">Akne på bröstet, axlarna och ryggen är också vanligt och kan vara lika besvärande som ansiktsakne, även om det är lättare att dölja under kläder. Denna typ av akne kan orsakas av samma faktorer som ansiktsakne, men även av yttre faktorer som friktion från kläder eller väskor som gnider mot huden och skapar irritation.
-                  För att behandla och förebygga akne oavsett var på kroppen det uppstår, är det viktigt att följa en anpassad hudvårdsrutin, inklusive rengöring, återfuktning och eventuellt användning av aknebehandlingar som passar din hudtyp. Konsultera hos en av våra hudspecialister för att få råd om vilka produkter och behandlingar som är bäst lämpade för din specifika situation och för att minimera akneproblem på olika delar av kroppen.</p>',
-            icons: array('who-infants' => 'Ansiktet', 'who-teenagers' => 'Ryggen', 'who-adults' => 'Bröstet', 'who-elders' => 'Axlarna')
+            extended_content: '<p class="p200">Seborré är ett kroniskt tillstånd som kräver regelbunden vård och uppföljning för att hantera symtomen. Om du misstänker att du har seborré bör du konsultera en hudvårdsspecialist eller läkare.</p>',
+            icons: array('who-infants' => 'Ansiktet', 'who-teenagers' => 'Ryggen', 'who-adults' => 'Bröstet', 'who-elders' => 'Hårbotten')
       ),
 );
 $treatment_steps = array(
@@ -74,21 +71,15 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika aknetyp, så att du snabbt och säkert blir av med problemet.',
-            url: 'aknebehandling',
+            content: 'Vi utför skonsamma och effektiva seborrébehandlingar anpassade för din specifika typ av seborré, så att du snabbt och säkert blir av med problemet.',
+            url: 'ansiktsbehandlingar-problemhy',
             url_label: 'Se aknebehandlingar'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny akne och hålla din hud i balans.',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
+            content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny seborré och hålla din hud i balans.',
+            url: 'https://dahlskincare.se/produktkategorier/produktpaket/seborre',
             url_label: 'Se produkter'
-      ),
-      new TreatmentStep(
-            title: 'Reparera',
-            content: 'När aknen är borta fokuserar vi på att reducera eventuella ärr med behandlingsmetoder som laser, microneedling och kemisk peeling för en jämn och problemfri hud.',
-            url: 'aknearr-behandling',
-            url_label: 'Se ärrbehandlingar'
       ),
 );
 $type_categories = array(
