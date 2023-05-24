@@ -51,7 +51,7 @@ $trivias = array(
             extended_content: '<p class="p200">Spädbarn kan också drabbas av en form av seborré, känt som "mjölkskorv", men detta tenderar att försvinna av sig själv inom det första levnadsåret och ska inte förväxlas med den vuxna formen av seborré.</p>
 
             <p class="p200 mt-xl">Det är viktigt att notera att seborré inte är resultatet av dålig hygien. Tvärtom kan överdriven tvätt eller rengöring faktiskt förvärra tillståndet. Om du misstänker att du har seborré, är det bäst att konsultera en hudvårdsspecialist eller läkare för råd och behandling.</p>',
-            icons: array('who-infants' => 'Barn', 'who-teenagers' => 'Ungdommar', 'who-adults' => 'Vuxna', 'who-elders' => 'Män & Kvinnor')
+            icons: array('who-infants' => 'Barn', 'who-teenagers' => 'Ungdomar', 'who-adults' => 'Vuxna', 'who-elders' => 'Män & Kvinnor')
       ),
       new ProblemTrivia(
             prefix: 'Var',
@@ -65,7 +65,7 @@ $trivias = array(
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din aknetyp och skapar en individuell behandlingsplan.',
+            content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din seborré och skapar en individuell behandlingsplan.',
             url: 'hudkonsultation',
             url_label: 'Få gratis konsultation'
       ),
