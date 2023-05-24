@@ -41,7 +41,7 @@ $trivias = array(
             content: '<p class="p200">Seborré är en genetisk hudsjukdom som uppstår när huden blir obalanserad, ofta på grund av ökad talgproduktion eller överreaktion från immunsystemet. En specifik svamp, Malassezia, som trivs i oljerika miljöer som hårbotten och ansiktet, spelar också en betydande roll i utvecklingen av seborré.</p>',
 
             extended_content: '<p class="p200">xterna faktorer såsom stress, hormonförändringar, kallt och torrt klimat, samt livsstilsfaktorer som alkoholkonsumtion kan bidra till utvecklingen av denna sjukdom. Seborré orsakas inte av dålig hygien och kan inte botas genom ökad rengöring. Faktum är att överdriven tvätt kan förvärra tillståndet. Trots dessa utmaningar kan seborré effektivt hanteras med rätt behandling och hudvårdsrutin.</p>',
-            icons: array('who-infants' => 'Hormoner', 'who-teenagers' => 'Stress', 'who-adults' => 'Genetik', 'who-elders' => 'Livsstil', 'who-elders' => 'Svampen Malassezia', 'who-elders' => 'Kallt och torrt klimat')
+            icons: array('who-infants' => 'Hormoner', 'who-teenagers' => 'Stress', 'who-adults' => 'Genetik', 'who-elders' => 'Livsstil', 'who-elders' => 'Svampen Malassezia', 'who-elders' => 'Kyla')
       ),
       new ProblemTrivia(
             prefix: 'Vem',
@@ -51,7 +51,7 @@ $trivias = array(
             extended_content: '<p class="p200">Spädbarn kan också drabbas av en form av seborré, känt som "mjölkskorv", men detta tenderar att försvinna av sig själv inom det första levnadsåret och ska inte förväxlas med den vuxna formen av seborré.</p>
 
             <p class="p200 mt-xl">Det är viktigt att notera att seborré inte är resultatet av dålig hygien. Tvärtom kan överdriven tvätt eller rengöring faktiskt förvärra tillståndet. Om du misstänker att du har seborré, är det bäst att konsultera en hudvårdsspecialist eller läkare för råd och behandling.</p>',
-            icons: array('who-infants' => 'Barn', 'who-teenagers' => 'Ungdomar', 'who-adults' => 'Vuxna', 'who-elders' => 'Män & Kvinnor')
+            icons: array('who-infants' => 'Barn', 'who-teenagers' => 'Ungdomar', 'who-adults' => 'Vuxna')
       ),
       new ProblemTrivia(
             prefix: 'Var',
