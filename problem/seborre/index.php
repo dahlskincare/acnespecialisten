@@ -135,54 +135,19 @@ $services = array(
             consultation_url: 'hudkonsultation',
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
       ),
-      new Service(
-            id: 'fyll-ratt-lank',
-            title: 'Laser mot akne',
-            duration: '50 min',
-            price: '2595 kr',
-            content: 'En avancerad laserbehandling mot akne erbjuder en effektiv lösning för att bekämpa aktiv akne och ärr som kan uppstå efter utbrott. Lasertekniken riktar sig mot de bakterier som orsakar inflammation och hjälper till att minska produktionen av talg, vilket minskar risken för framtida utbrott.',
-            image_small: 'images/services/200x200/laser-akne.webp',
-            image_large: 'images/services/200x200/laser-akne.webp',
-            consultation_url: 'hudkonsultation',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
-      ),
-      new Service(
-            id: 'fyll-ratt-lank',
-            title: 'Kemisk peeling mot akne',
-            duration: '30 min',
-            price: '1595 kr',
-            content: 'Kemisk peeling är en effektiv metod för att behandla akne. Genom att använda en speciellt framtagen lösning för att exfoliera huden, främjar kemisk peeling cellförnyelse, rensar tilltäppta porer och minskar inflammation. Resultatet är en jämnare hudton, mindre utbrott och färre synliga ärr. Det är en enkel och effektiv strategi för att ta kontroll över din akne och förbättra din hudhälsa.',
-            image_small: 'images/services/200x200/kemisk-peeling-akne.webp',
-            image_large: 'images/services/200x200/kemisk-peeling-akne.webp',
-            consultation_url: 'hudkonsultation',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922'
-      ),
 );
 $products = array(
       new Service(
-            id: 'produkter-mot-akne',
-            title: 'Produkter mot akne',
+            id: 'produkter-mot-seborre',
+            title: 'Produkter mot seborré',
             duration: null,
-            price: 'Price from 995 kr',
+            price: 'Pris från 1295 kr',
             content: 'För att effektivt bekämpa och förebygga akne är daglig behandling med rätt produkter avgörande. Våra akneprodukter är speciellt utformade för att hålla din hud i balans och förhindra att ny akne uppstår.',
             image_small: 'images/services/200x200/produkter-akne.webp',
             image_large: 'images/services/200x200/produkter-akne.webp',
             consultation_url: null,
             booking_url: null
       )
-);
-$procedures = array(
-      new Service(
-            id: 'microneedling-for-acne',
-            title: 'Reparera acneärr',
-            duration: '4 behandlingsmetoder',
-            price: null,
-            content: 'Efter aktiv akne kan man uppleva post-akne, vilket innebär ärr i form av gropar i olika former och fläckar i olika färger på huden där aknen tidigare varit. Olika typer av ärr behandlas med olika metoder. Klicka här för att läsa mer om hur du kan reparera din hud och ta hand om post-akne.',
-            image_small: 'images/services/200x200/microneedling-aknearr.webp',
-            image_large: 'images/services/200x200/microneedling-aknearr.webp',
-            consultation_url: null,
-            booking_url: null,
-      ),
 );
 $articles = array(
       new Article(
@@ -648,14 +613,6 @@ $brands = array(
                               <h2 class="h500">03. Förebygg uppkomsten av ny akne</h2>
                               <hr class="is-hidden-mobile mt-xl">
                               <?php foreach ($products as $service) { ?>
-                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
-                                    <hr class="is-hidden-mobile mb-xxl">
-                              <?php } ?>
-                        </section>
-                        <section id="treatment-solutions">
-                              <h2 class="h500">04. Reparera post-akne</h2>
-                              <hr class="is-hidden-mobile mt-xl">
-                              <?php foreach ($procedures as $service) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
                                     <hr class="is-hidden-mobile mb-xxl">
                               <?php } ?>
