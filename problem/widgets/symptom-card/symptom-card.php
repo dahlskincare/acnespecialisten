@@ -1,7 +1,7 @@
 <div class="symptom-card-widget">
     <div class="flex-row align-center">
         <div class="image mr-m">
-            <img src="<?php echo $symptom->image ?>" alt="<?php echo $symptom->name ?>" title="<?php echo $symptom->name ?>" width="102" height="102" />
+            <img src="<?php echo $symptom->image ?>" alt="<?php echo $symptom->name ?>" title="<?php echo $symptom->image_title ?>" width="102" height="102" />
         </div>
         <div>
             <h3 class="h200">
