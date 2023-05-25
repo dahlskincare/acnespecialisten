@@ -35,8 +35,13 @@
         width: 100%;
     }
 
-    #aka {
+    .scw-aka {
         color: $dark-200;
+    }
+
+    .scw-content {
+        height: 170px;
+        overflow-y: auto;
     }
 
     @media screen and (min-width: $tablet) {
