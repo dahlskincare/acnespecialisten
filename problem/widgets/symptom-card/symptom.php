@@ -1,18 +1,20 @@
 <?php
 class Symptom
 {
-    public function __construct($url, $name, $aka, $image, $content)
+    public function __construct($name, $image, $content, $url = null, $aka = null, $image_title = null)
     {
-        $this->url = $url;
         $this->name = $name;
-        $this->aka = $aka;
         $this->image = $image;
         $this->content = $content;
+        $this->url = $url;
+        $this->aka = $aka;
+        $this->image_title = $image_title;
     }
 
-    public $url;
-    public $name;
-    public $aka;
-    public $image;
-    public $content;
+    public string $name;
+    public string $image;
+    public string $content;
+    public ?string $url;
+    public ?string $aka;
+    public ?string $image_title;
 }
