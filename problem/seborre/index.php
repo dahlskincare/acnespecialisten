@@ -5,13 +5,13 @@ include_once('../widgets/symptom-card/symptom.php');
 include_once('../widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$image_small = 'images/problems/424x324/akne.webp';
-$image_large = 'images/problems/424x456/akne.webp';
+$image_small = 'images/problems/424x324/seborre.webp';
+$image_large = 'images/problems/424x456/seborre.webp';
 
-$description = 'Här förklarar vi vad som kännetecknar akne, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av akne, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';
-$akas = ['problem/finnar' => 'Finnar', 'problem/finnar/vuxenakne' => 'Vuxenakne', 'problem/finnar/tonarsakne' => 'Tonårsakne'];
+$description = 'Här förklarar vi vad som kännetecknar seborré, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av seborré, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';
+$akas = ['problem/mjalleksem' => 'Mjälleksem', 'problem/seborroiskt-eksem' => 'Seborroiskt Eksem'];
 $nav_buttons = array(
-      'about' => 'Om akne',
+      'about' => 'Om seborré',
       'approach' => 'Metoden',
       'types' => 'Typer',
       'symptoms' => 'Symptom',
@@ -29,267 +29,87 @@ $nav_buttons = array(
 $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
-            title: 'är akne?',
-            content: '<p class="p200">Akne är en ärftlig och hormonell hudförändring som uppstår när talgproduktionen i hudens porer ökar. Huden behöver en viss mängd talg för att hålla sig mjuk och smidig, men vid överproduktion har huden svårt att avlägsna hudrester, vilket leder till bakterier och små inflammationer. Dessa inflammationer orsakar akne, eller finnar som vi ofta säger i dagligt tal. Akne är en inflammation i huden som uppstår när porerna täpps till av talg, döda hudceller och bakterier.</p>',
-            extended_content: '<p class="p200">Både barn och vuxna kan drabbas av akne, men det är vanligast under tonåren. Vissa har besvär med akne under längre perioder, medan andra endast vid enstaka tillfällen. Akne kan se ut på många olika sätt, från små knottror på huden till variga större utslag. Det viktiga att komma ihåg är att akne kan behandlas. Ibland krävs behandling under en längre tidsperiod, men med rätt behandling kan både bestående ärrbildning och psykiskt lidande undvikas eller lindras.</p>
-            <p class="p200 mt-xl">På Acnespecialisten kan du få hjälp med din akne. Vi har kunskap och erfarenhet av olika typer av behandlingar som ger goda resultat och många nöjda kunder. Vi börjar alltid med en kostnadsfri hudkonsultation där vi identifierar problemet och planerar den mest lämpliga behandlingen för dig och din hy. Du får även en effektiv hudvårdsrutin som du enkelt kan följa hemma. Vi rekommenderar att du tar hand om din allmänna hälsa: sov ordentligt, ät hälsosamt och motionera regelbundet. När du mår bra i sin helhet påverkar det din hud positivt.</p>',
+            title: 'är seborré?',
+            content: '<p class="p200">Seborré är en genetisk hudsjukdom som orsakar obalans i huden. Den har vissa likheter med eksem och manifesterar sig oftast i form av inflammation i områden som ögonbryn, hårfäste, näsa och skäggväxt. Karakteristiskt för seborré är att det ofta uppstår eller förvärras i kallt och torrt klimat.</p>',
+
+            extended_content: '<p class="p200">Trots att seborré är en livslång sjukdom med genetiskt ursprung, uppstår dess symtom ofta i vågor genom vuxenlivet, speciellt om det saknas adekvat behandling. Det är mer prevalenta bland män än kvinnor, och alkohol kan förvärra symtomen för dem som har genetiska anlag för sjukdomen. Det är viktigt att notera att seborré inte kan "smittas" eller förvärvas av någon utan den nödvändiga genetiska predispositionen.</p>',
             icons: array()
       ),
       new ProblemTrivia(
             prefix: 'Varför',
-            title: 'får man akne?',
-            content: '<p class="p200">Akne är en hudåkomma som beror på en kombination av genetiska, hormonella och miljömässiga faktorer. En normal talgproduktion är nödvändig för att huden ska må bra, men när huden överproducerar talg kan detta leda till akne. Detta beror bland annat på anlag man har ärvt från sina föräldrar. Vid en överproduktion av talg klarar porerna inte av att ta hand om överflödet, och tillsammans med hudrester täpps pormynningarna till, vilket leder till att bakterier samlas. Kroppen försvarar sig då med en inflammation, och det är just detta som syns på huden i form av akne.</p>',
-            extended_content: '<p class="p200">Hormoner får porerna i huden att överproducera talg. Det är vanligt att drabbas av akne under puberteten, när kroppen genomgår stora förändringar, men även små barn och vuxna kan få akne. Flera faktorer kan orsaka och försämra akne, såsom stress, vissa läkemedel, varma och fuktiga miljöer samt hormonförändringar vid graviditet, menstruation och klimakteriet. Även anabola steroider och p-piller kan orsaka akne. Stress påverkar ofta huden mer än vi kanske tror, och både stora och små händelser i livet kan öka kroppens stressnivå och orsaka hudförändringar i form av hormonell akne.</p>
-            <p class="p200 mt-xl">För att behandla akne är det viktigt att balansera kroppens talgproduktion med rätt hudvårdsprodukter och hållbara hudvårdsrutiner. Successivt kan aknen antingen bli mycket bättre eller helt försvinna. Vi som arbetar på Acnespecialisten har lång erfarenhet och stor kunskap av aknebehandlingar och kan hjälpa dig att hålla kroppens naturliga produktion av talg på en optimal nivå och på så sätt reducera dina besvär med akne.</p>',
-            icons: array('who-infants' => 'Hormoner', 'who-teenagers' => 'Stress', 'who-adults' => 'Genetik', 'who-elders' => 'Livsstil')
+            title: 'får man seborré?',
+            content: '<p class="p200">Seborré är en genetisk hudsjukdom som uppstår när huden blir obalanserad, ofta på grund av ökad talgproduktion eller överreaktion från immunsystemet. En specifik svamp, Malassezia, som trivs i oljerika miljöer som hårbotten och ansiktet, spelar också en betydande roll i utvecklingen av seborré.</p>',
+
+            extended_content: '<p class="p200">xterna faktorer såsom stress, hormonförändringar, kallt och torrt klimat, samt livsstilsfaktorer som alkoholkonsumtion kan bidra till utvecklingen av denna sjukdom. Seborré orsakas inte av dålig hygien och kan inte botas genom ökad rengöring. Faktum är att överdriven tvätt kan förvärra tillståndet. Trots dessa utmaningar kan seborré effektivt hanteras med rätt behandling och hudvårdsrutin.</p>',
+            icons: array('who-infants' => 'Hormoner', 'who-teenagers' => 'Stress', 'who-adults' => 'Genetik', 'who-elders' => 'Livsstil', 'who-elders' => 'Svampen Malassezia', 'who-elders' => 'Kyla')
       ),
       new ProblemTrivia(
             prefix: 'Vem',
-            title: 'får akne?',
-            content: '<p class="p200">Akne är vanligast bland tonåringar och unga vuxna, men det kan drabba människor i alla åldrar, oavsett kön och hudtyp. I puberteten ökar produktionen av könshormoner, vilket kan leda till akne vulgaris, även kallad tonårsakne. Denna form av akne kan variera från enstaka finnar till större besvär, med små gula eller röda utslag, stora knölar och smärtsamma blåsor. Eftersom akne oftast uppträder i ansiktet under en känslig period som tonåren, kan det påverka det mentala måendet och det är viktigt att behandla akne effektivt för att undvika ärrbildning och andra skador på huden.</p>',
+            title: 'får seborré?',
+            content: '<p class="p200">Seborré kan påverka människor i alla åldersgrupper, men det är vanligtvis mer förekommande hos vuxna och särskilt hos män. Det finns en tydlig genetisk koppling till seborré, vilket innebär att om det finns familjemedlemmar som har lidit av tillståndet är det mer troligt att du också kommer att utveckla det.</p>',
 
-            extended_content: '<p class="p200">Akne drabbar inte bara tonåringar. Spädbarn och småbarn kan drabbas av lindriga former av akne, såsom akne neonatorum och akne infantum. Vuxenakne, kallad akne tarda, kan också uppstå om huden överproducerar talg. Kvinnor drabbas oftare av vuxenakne än män, eftersom de påverkas mer av hormonsvängningar under graviditet, mens och klimakteriet. Preventivmedel kan också påverka huden, men hur de påverkar varierar från individ till individ.</p>
+            extended_content: '<p class="p200">Spädbarn kan också drabbas av en form av seborré, känt som "mjölkskorv", men detta tenderar att försvinna av sig själv inom det första levnadsåret och ska inte förväxlas med den vuxna formen av seborré.</p>
 
-            <p class="p200 mt-xl">Yttre faktorer som stress och alkohol kan också påverka akne, både hos tonåringar och vuxna. Akne kan uppstå i ansiktet, på bröstet, axlarna och ryggen. För att behandla akne rekommenderas att boka en kostnadsfri hudkonsultation hos Acnespecialisten. Där görs en bedömning av din hud och du får förslag på behandlingar samt en personlig hudvårdsrutin anpassad efter din hudtyp. Detta hjälper dig att motverka ytterligare problem med akne, både i ansiktet och på andra delar av kroppen.</p>',
-            icons: array('who-infants' => 'Barn', 'who-teenagers' => 'Ungdommar', 'who-adults' => 'Vuxna', 'who-elders' => 'Män & Kvinnor')
+            <p class="p200 mt-xl">Det är viktigt att notera att seborré inte är resultatet av dålig hygien. Tvärtom kan överdriven tvätt eller rengöring faktiskt förvärra tillståndet. Om du misstänker att du har seborré, är det bäst att konsultera en hudvårdsspecialist eller läkare för råd och behandling.</p>',
+            icons: array('who-infants' => 'Barn', 'who-teenagers' => 'Ungdomar', 'who-adults' => 'Vuxna')
       ),
       new ProblemTrivia(
             prefix: 'Var',
-            title: 'får man akne?',
-            content: '<p class="p200">Akne kan uppstå på flera delar av kroppen och påverka personer i olika åldrar och med olika hudtyper. Vanligast är att akne drabbar ansiktet, men det kan även förekomma på andra områden som bröstet, axlarna och ryggen. Placeringen av akne beror på var talgkörtlarna är aktiva och därmed kan överproducera talg, vilket leder till tilltäppta porer och inflammationer i huden.</p>',
-            extended_content: '<p class="p200 mt-xl">Akne i ansiktet är särskilt påtagligt, eftersom det är svårt att dölja och ofta påverkar en persons självkänsla och mentala välbefinnande. Det är vanligt att tonåringar drabbas av ansiktsakne under puberteten, då hormonella förändringar kan leda till ökad talgproduktion. Även vuxna kan drabbas av ansiktsakne, särskilt kvinnor som genomgår hormonella förändringar under graviditet, mens och klimakteriet.</p>
+            title: 'får man seborré?',
+            content: '<p class="p200">Seborré tenderar att uppstå i områden på kroppen med hög koncentration av talgkörtlar. Det vanligaste området är hårbotten, där obehandlad seborré ofta resulterar i mjäll. Ansiktet är också ett vanligt område för seborré, speciellt näsan, ögonbrynen, pannan och området runt öronen. Bröstet kan drabbas, speciellt i huden mellan och runt brösten. Seborré kan även dyka upp på den övre delen av ryggen.</p>',
 
-            <p class="p200 mt-xl">Akne på bröstet, axlarna och ryggen är också vanligt och kan vara lika besvärande som ansiktsakne, även om det är lättare att dölja under kläder. Denna typ av akne kan orsakas av samma faktorer som ansiktsakne, men även av yttre faktorer som friktion från kläder eller väskor som gnider mot huden och skapar irritation.
-                  För att behandla och förebygga akne oavsett var på kroppen det uppstår, är det viktigt att följa en anpassad hudvårdsrutin, inklusive rengöring, återfuktning och eventuellt användning av aknebehandlingar som passar din hudtyp. Konsultera hos en av våra hudspecialister för att få råd om vilka produkter och behandlingar som är bäst lämpade för din specifika situation och för att minimera akneproblem på olika delar av kroppen.</p>',
-            icons: array('who-infants' => 'Ansiktet', 'who-teenagers' => 'Ryggen', 'who-adults' => 'Bröstet', 'who-elders' => 'Axlarna')
+            extended_content: '<p class="p200">Seborré är ett kroniskt tillstånd som kräver regelbunden vård och uppföljning för att hantera symtomen. Om du misstänker att du har seborré bör du konsultera en hudvårdsspecialist eller läkare.</p>',
+            icons: array('who-infants' => 'Ansiktet', 'who-teenagers' => 'Ryggen', 'who-adults' => 'Bröstet', 'who-elders' => 'Hårbotten')
       ),
 );
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din aknetyp och skapar en individuell behandlingsplan.',
+            content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din seborré och skapar en individuell behandlingsplan.',
             url: 'hudkonsultation',
             url_label: 'Få gratis konsultation'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika aknetyp, så att du snabbt och säkert blir av med problemet.',
-            url: 'aknebehandling',
+            content: 'Vi utför skonsamma och effektiva seborrébehandlingar anpassade för din specifika typ av seborré, så att du snabbt och säkert blir av med problemet.',
+            url: 'ansiktsbehandlingar-problemhy',
             url_label: 'Se aknebehandlingar'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny akne och hålla din hud i balans.',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
+            content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny seborré och hålla din hud i balans.',
+            url: 'https://dahlskincare.se/produktkategorier/produktpaket/seborre',
             url_label: 'Se produkter'
       ),
-      new TreatmentStep(
-            title: 'Reparera',
-            content: 'När aknen är borta fokuserar vi på att reducera eventuella ärr med behandlingsmetoder som laser, microneedling och kemisk peeling för en jämn och problemfri hud.',
-            url: 'aknearr-behandling',
-            url_label: 'Se ärrbehandlingar'
-      ),
-);
-$type_categories = array(
-      new BasedTypeCategory(
-            id: 'category-age',
-            title: 'Akne baserat på ålder',
-            content: '<p class="p200">Akne är en hudåkomma som kan drabba både ungdomar och vuxna, även om det är vanligast under tonåren. Tonårsakne uppstår ofta på grund av hormonella förändringar under puberteten. Vuxenakne förekommer också, och det kan bero på en rad olika faktorer. Hos vuxna kan akne orsakas av faktorer som stress, hormonobalans och genetik. Oavsett ålder är det viktigt att förstå att akne kan påverka människor i alla livsstadier.</p>',
-            types: array(
-                  new BasedType(
-                        image_url: 'images/problems/102x102/vuxenakne.webp',
-                        title: 'Vuxenakne',
-                        subtitle: 'Även kallat acne tarda',
-                        content: '',
-                        url: 'problem/akne/typer/vuxenakne',
-                  ),
-                  new BasedType(
-                        image_url: 'images/problems/102x102/tonarsakne.webp',
-                        title: 'Tonårsakne',
-                        subtitle: 'Även kallat acne vulgaris',
-                        content: '',
-                        url: 'problem/akne/typer/tonårsakne',
-                  ),
-                  new BasedType(
-                        image_url: 'images/problems/102x102/barnakne.webp',
-                        title: 'Barnakne',
-                        subtitle: 'Även kallat acne neonatorum',
-                        content: '',
-                        url: 'problem/akne/typer/barnakne',
-                  ),
-            )
-      ),
-      new BasedTypeCategory(
-            id: 'category-severity',
-            title: 'Akne baserat på svårighetsgrad',
-            content: '<p class="p200">Akne kan variera i svårighetsgrad från milda till extremt allvarliga fall. I milda fall av akne är symptomen ofta mindre uttalade och består främst av pormaskar, medan mer allvarliga fall innefattar djupare inflammationer i form av cystor och noduler. Svårighetsgraden påverkar också hur akne påverkar en persons livskvalitet och hur den ska behandlas. Det är viktigt att diagnostisera och behandla akne utifrån dess svårighetsgrad för att säkerställa bästa möjliga behandlingsresultat och förhindra potentiella ärr och bestående skador på huden.</p>',
-            types: array(
-                  new BasedType(
-                        image_url: 'images/problems/102x102/mild-akne.webp',
-                        title: 'Mild akne',
-                        subtitle: 'även kallat acne comedonica',
-                        content: '',
-                        url: 'problem/akne/typer/mild-akne',
-                  ),
-                  new BasedType(
-                        image_url: 'images/problems/102x102/medelsvar-akne.webp',
-                        title: 'Medelsvår akne',
-                        subtitle: 'Även kallat acne papulopustulosa',
-                        content: '',
-                        url: 'problem/akne/typer/medel-akne',
-                  ),
-                  new BasedType(
-                        image_url: 'images/problems/102x102/svar-akne.webp',
-                        title: 'Svår akne',
-                        subtitle: 'Även kallat Acne nodulocystica',
-                        content: '',
-                        url: 'problem/akne/typer/svar-akne',
-                  ),
-                  new BasedType(
-                        image_url: 'images/problems/102x102/mycket-svar-akne.webp',
-                        title: 'Mycket svår akne',
-                        subtitle: 'Även kallat Acne conglobata',
-                        content: '',
-                        url: 'problem/akne/typer/mycket-svar-akne',
-                  ),
-            )
-      ),
-      new BasedTypeCategory(
-            id: 'category-reason',
-            title: 'Akne baserat på yttre faktorer',
-            content: '<p class="p200">Yttre faktorer kan också påverka uppkomsten av akne. Exempel på dessa är sol, friktion, kosmetika, mediciner och miljöfaktorer. Dessa kan bidra till eller förvärra akne genom att irritera huden, täppa till porer eller påverka hudens talgproduktion.</p>',
-            types: array(
-                  new BasedType(
-                        image_url: 'images/problems/102x102/mallorca-akne.webp',
-                        title: 'Mallorca akne',
-                        subtitle: 'även kallat Acne aestivalis',
-                        content: '',
-                        url: 'problem/akne/typer/mallorca-akne',
-                  ),
-                  new BasedType(
-                        image_url: 'images/problems/102x102/hormonell-akne.webp',
-                        title: 'Hormonell akne',
-                        subtitle: 'akne orsakad av hormoner',
-                        content: '',
-                        url: 'problem/akne/typer/hormonell-akne',
-                  ),
-                  new BasedType(
-                        image_url: 'images/problems/102x102/kosmetika-akne.webp',
-                        title: 'kosmetika akne',
-                        subtitle: 'Även kallat Acne cosmetica',
-                        content: '',
-                        url: 'problem/akne/typer/kosmetika-akne',
-                  ),
-                  new BasedType(
-                        image_url: 'images/problems/102x102/pill-akne.webp',
-                        title: 'Akne från pillande',
-                        subtitle: 'Även kallat Acne exoriée ',
-                        content: '',
-                        url: 'problem/akne/typer/acne-exoriee',
-                  ),
-                  new BasedType(
-                        image_url: 'images/problems/102x102/friktions-akne.webp',
-                        title: 'Friktionsakne',
-                        subtitle: 'Även kallat Acne mechanica',
-                        content: '',
-                        url: 'problem/akne/typer/akne-mekanisk',
-                  ),
-                  new BasedType(
-                        image_url: 'images/problems/102x102/lakemedelsakne.webp',
-                        title: 'Läkemedelsakne',
-                        subtitle: 'Även kallat Acne medicamentosa',
-                        content: '',
-                        url: 'problem/akne/typer/lakemedelsakne',
-                  ),
-                  new BasedType(
-                        image_url: 'images/problems/102x102/kontakt-akne.webp',
-                        title: 'Kontaktakne',
-                        subtitle: 'Även kallat Acne venenata',
-                        content: '',
-                        url: 'problem/akne/typer/kontakt-akne',
-                  ),
-                  new BasedType(
-                        image_url: 'images/problems/102x102/svamp-akne.webp',
-                        title: 'Svampakne',
-                        subtitle: 'Även kallat fungal acne',
-                        content: '',
-                        url: 'problem/akne/typer/fungal-akne',
-                  )
-            )
-      ),
-      new BasedTypeCategory(
-            id: 'category-area',
-            title: 'Akne baserat på område',
-            content: 'Akne kan uppträda på olika områden på kroppen. Ansiktet är det vanligaste området, men akne kan också förekomma på bröst, rygg, axlar och andra delar av kroppen. Placeringen av akne kan ge en indikation på dess orsak, som hormonella förändringar, irritation från kläder eller yttre faktorer som sol och friktion.',
-            types: array(
-                  new BasedType(
-                        image_url: 'images/problems/102x102/akne-ansikte.webp',
-                        title: 'Akne i ansiktet',
-                        subtitle: 'Även kallat Acne faciei',
-                        content: '',
-                        url: 'problem/akne/typer/akne-ansiktet',
-                  ),
-                  new BasedType(
-                        image_url: 'images/problems/102x102/akne-rygg.webp',
-                        title: 'Akne på ryggen',
-                        subtitle: 'Även kallat Acne dorsalis',
-                        content: '',
-                        url: 'problem/akne/typer/akne-ryggen',
-                  ),
-                  new BasedType(
-                        image_url: 'images/problems/102x102/akne-brost.webp',
-                        title: 'Akne på bröstet',
-                        subtitle: 'Även kallat Acne pectoralis',
-                        content: '',
-                        url: 'problem/akne/typer/akne-brostet',
-                  ),
-
-            )
-      )
-
 );
 $symptoms = array(
       new Symptom(
-            url: 'problem/akne/typer/post-inflammatory-hyperpigmentaion',
-            name: 'Komedoner (Öppna)',
-            aka: 'Pormaskar',
-            image: 'images/symptoms/102x102/komedoner-oppna.webp',
-            content: 'Pormaskar (öppna komedoner) är små, mörka prickar som uppstår när en por täpps igen av talg (hudens naturliga olja) och döda hudceller. De är ofta svarta eller bruna på grund av oxidation, som inträffar när melanin (hudens pigment) kommer i kontakt med luft. Pormaskar kan vara platta eller lätt upphöjda och är vanligt förekommande på näsan, kinderna, pannan och hakan.'
-      ),
-      new Symptom(
-            url: 'problem/akne/typer/atrophic-icepick-scars',
-            name: 'Komedoner (Stängda)',
-            aka: '"whiteheads"',
+            url: '',
+            name: 'Mjäll',
+            aka: '',
             image: 'images/symptoms/102x102/komedoner-stangda.webp',
-            content: 'Whiteheads (slutna komedoner) är små, vita eller hudfärgade utbuktningar som uppstår när en por täpps till av talg och döda hudceller under hudytan. De är täckta av ett tunt lager hud, vilket förhindrar oxidation och därmed behåller sin ljusa färg. Whiteheads kan vara platta eller lätt upphöjda och är vanligt förekommande på pannan, kinderna och hakan.'
+            content: 'Mjäll är ett av de mest framträdande symptomen på seborré. Dessa små, vita eller gulaktiga flagor är döda hudceller som avlägsnas från hårbotten, en naturlig process. Vid seborré sker hudcellsförnyelsen i ett accelererat tempo, vilket leder till att hudcellerna klumpar ihop sig och bildar synliga flagor istället för att falla av individuellt och obemärkt.'
       ),
       new Symptom(
-            url: 'problem/akne/typer/atrophic-boxcar-scars',
-            name: 'Papler',
-            aka: 'röda finnar',
-            image: 'images/symptoms/102x102/papler.webp',
-            content: 'Papuler är små, fasta, röda och inflammerade blemmor som uppstår när en hårsäck blir infekterad av bakterier, oftast Propionibacterium acnes. De är vanligtvis mindre än 5 mm i diameter och kan vara känsliga vid beröring. Papuler är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.'
+            url: '',
+            name: 'Klåda',
+            aka: '',
+            image: 'images/symptoms/102x102/komedoner-oppna.webp',
+            content: 'Ett av de mest framträdande symptomen på seborré är klåda. Detta kan variera från mild till intensiv, beroende på svårighetsgraden av tillståndet. Klåda kan förekomma på alla platser där seborré uppstår, som hårbotten, ansiktet och bröstet, och kan orsaka obehag och irritation.'
       ),
       new Symptom(
-            url: 'problem/akne/typer/atrophic-rolling-scars',
-            name: 'Pustler',
-            aka: 'gula finnar',
-            image: 'images/symptoms/102x102/pustler.webp',
-            content: 'Pustuler är röda och inflammerade blemmor som innehåller var (en blandning av döda bakterier, vita blodkroppar och döda hudceller). De ser ut som papuler men har en vit eller gul prick i mitten. Pustuler kan vara smärtsamma och är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.'
+            url: '',
+            name: 'Flagnande hy',
+            aka: '',
+            image: 'images/symptoms/102x102/komedoner-stangda.webp',
+            content: 'Seborré kan leda till flagnande hy, vilket kan vara särskilt märkbart i hårbotten. Dessa flarn eller skorpor är oftast oljiga och kan vara gulaktiga till färgen. Detta symptom kan vara mer märkbart i hårbotten men kan också ses på andra drabbade områden.'
       ),
       new Symptom(
-            url: 'problem/akne/typer/hypertrophic-keloid',
-            name: 'Noduler',
-            aka: 'innåtfinnar',
-            image: 'images/symptoms/102x102/noduler.webp',
-            content: 'Noduler är större, djupare och ofta smärtsamma inflammerade blemmor som uppstår när en hårsäck blir kraftigt infekterad och inflammationen sprider sig till det omgivande vävnaden. De är vanligtvis större än 5 mm i diameter och kan vara fasta och ömma vid beröring. Noduler är vanligt förekommande på ansiktet, nacken, bröstet, ryggen och ibland även på överarmarna och skinkorna.'
-      ),
-      new Symptom(
-            url: 'problem/akne/typer/hypertrophic-keloid',
-            name: 'Cystor',
-            aka: 'bölder',
-            image: 'images/symptoms/102x102/cystor.webp',
-            content: 'Cystor är stora, inflammerade och smärtsamma blemmor som är fyllda med var och bildas när en hårsäck blir mycket infekterad och inflammationen sprider sig djupt in i huden. De kan vara runda och mjuka eller fasta och ömma vid beröring. Cystor kan vara större än 5 mm i diameter och är vanligt förekommande på ansiktet, nacken, bröstet och ryggen. Cystisk akne kan leda till ärrbildning och kräver ofta professionell behandling.'
+            url: '',
+            name: 'Fet hy',
+            aka: '',
+            image: 'images/symptoms/102x102/komedoner-stangda.webp',
+            content: 'Seborré leder ofta till att huden känns och ser fet eller oljig ut. Detta beror på att tillståndet ofta påverkar talgkörtlarna, som producerar hudens naturliga oljor. Områdena med mest talgkörtlar, inklusive ansiktet, hårbotten och bröstet, är ofta mest påverkade av detta symptom.'
       ),
 );
 $service = new Service(
@@ -297,7 +117,7 @@ $service = new Service(
       title: 'Konsultation',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Vid ett personligt möte med en acnespecialist utförs en undersökning av din akne. Vi tar före-bilder på din hud och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
+      content: 'Vid ett personligt möte med en AcneSpecialist utförs en undersökning av din seborré. Vi tar före-bilder på din hud och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
       image_small: 'images/services/200x200/konsultation.webp',
       image_large: 'images/services/200x200/konsultation.webp',
       consultation_url: 'hudkonsultation',
@@ -306,7 +126,7 @@ $service = new Service(
 $services = array(
       new Service(
             id: 'fyll-ratt-lank',
-            title: 'Ansiktsbehandling mot akne',
+            title: 'Ansiktsbehandling mot seborré',
             duration: '60 min',
             price: '995 kr',
             content: 'En effektiv ansiktsbehandling mot akne fokuserar på att noggrant extrahera orenheter som orsakar inflammation och skador i huden. Genom att försiktigt klämma ut akne och pormaskar kan behandlingen bidra till att förebygga ärrbildning och främja en snabbare läkning.',
@@ -315,54 +135,19 @@ $services = array(
             consultation_url: 'hudkonsultation',
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
       ),
-      new Service(
-            id: 'fyll-ratt-lank',
-            title: 'Laser mot akne',
-            duration: '50 min',
-            price: '2595 kr',
-            content: 'En avancerad laserbehandling mot akne erbjuder en effektiv lösning för att bekämpa aktiv akne och ärr som kan uppstå efter utbrott. Lasertekniken riktar sig mot de bakterier som orsakar inflammation och hjälper till att minska produktionen av talg, vilket minskar risken för framtida utbrott.',
-            image_small: 'images/services/200x200/laser-akne.webp',
-            image_large: 'images/services/200x200/laser-akne.webp',
-            consultation_url: 'hudkonsultation',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
-      ),
-      new Service(
-            id: 'fyll-ratt-lank',
-            title: 'Kemisk peeling mot akne',
-            duration: '30 min',
-            price: '1595 kr',
-            content: 'Kemisk peeling är en effektiv metod för att behandla akne. Genom att använda en speciellt framtagen lösning för att exfoliera huden, främjar kemisk peeling cellförnyelse, rensar tilltäppta porer och minskar inflammation. Resultatet är en jämnare hudton, mindre utbrott och färre synliga ärr. Det är en enkel och effektiv strategi för att ta kontroll över din akne och förbättra din hudhälsa.',
-            image_small: 'images/services/200x200/kemisk-peeling-akne.webp',
-            image_large: 'images/services/200x200/kemisk-peeling-akne.webp',
-            consultation_url: 'hudkonsultation',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922'
-      ),
 );
 $products = array(
       new Service(
-            id: 'produkter-mot-akne',
-            title: 'Produkter mot akne',
+            id: 'produkter-mot-seborre',
+            title: 'Produkter mot seborré',
             duration: null,
-            price: 'Price from 995 kr',
+            price: 'Pris från 1295 kr',
             content: 'För att effektivt bekämpa och förebygga akne är daglig behandling med rätt produkter avgörande. Våra akneprodukter är speciellt utformade för att hålla din hud i balans och förhindra att ny akne uppstår.',
             image_small: 'images/services/200x200/produkter-akne.webp',
             image_large: 'images/services/200x200/produkter-akne.webp',
             consultation_url: null,
             booking_url: null
       )
-);
-$procedures = array(
-      new Service(
-            id: 'microneedling-for-acne',
-            title: 'Reparera acneärr',
-            duration: '4 behandlingsmetoder',
-            price: null,
-            content: 'Efter aktiv akne kan man uppleva post-akne, vilket innebär ärr i form av gropar i olika former och fläckar i olika färger på huden där aknen tidigare varit. Olika typer av ärr behandlas med olika metoder. Klicka här för att läsa mer om hur du kan reparera din hud och ta hand om post-akne.',
-            image_small: 'images/services/200x200/microneedling-aknearr.webp',
-            image_large: 'images/services/200x200/microneedling-aknearr.webp',
-            consultation_url: null,
-            booking_url: null,
-      ),
 );
 $articles = array(
       new Article(
@@ -654,7 +439,7 @@ $brands = array(
                         <div id="overlay">
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
                               <div>
-                                    <h2 class="h600">Akne</h2>
+                                    <h2 class="h600">Seborré</h2>
                                     <div class="mt-m aka">
                                           <span class="p200 l10n">Även kallat</span>
                                           <?php
@@ -791,48 +576,6 @@ $brands = array(
                               <hr class="mt-xl3 is-hidden-mobile">
                               <a href="problem/aknearr/behandling" title="Om aknebehandlingar" class="mt-xl button b200 outline expand auto-width l10n">Läs mer om aknebehandlingar</a>
                         </section>
-                        <?php if (sizeof($type_categories) > 0) { ?>
-                              <section id="types">
-                                    <h2 class="h500 l10n">Olika typer av akne</h2>
-                                    <div class="is-hidden-tablet">
-                                          <div class="mt-m mb-xxl" id="type-category-buttons">
-                                                <?php foreach ($type_categories as $type_category) { ?>
-                                                      <a href="javascript:;" class="button b50 grey">
-                                                            <?php echo $type_category->title ?>
-                                                      </a>
-                                                <?php } ?>
-                                          </div>
-                                          <?php foreach ($type_categories as $type_category) { ?>
-                                                <div class="type-category" id="<?php echo $type_category->id ?>">
-                                                      <h3 class="h300"><?php echo $type_category->title ?></h3>
-                                                      <div class="mt-xxs type-category-content"><?php echo $type_category->content ?></div>
-                                                      <div class="type-category-cards">
-                                                            <?php foreach ($type_category->types as $type) {
-                                                                  include('../widgets/type-card/type-card.php');
-                                                            } ?>
-                                                      </div>
-                                                </div>
-                                          <?php } ?>
-                                    </div>
-                                    <div class="is-hidden-mobile">
-                                          <?php foreach ($type_categories as $type_category) { ?>
-                                                <div class="type-category-large" id="<?php echo $type_category->id ?>">
-                                                      <h3 class="h300"><?php echo $type_category->title ?></h3>
-                                                      <div class="mt-xxs type-category-content"><?php echo $type_category->content ?></div>
-                                                      <div class="columns is-3 is-variable is-multiline type-category-large-cards">
-                                                            <?php foreach ($type_category->types as $type) { ?>
-                                                                  <div class="column is-one-third">
-                                                                        <?php include('../widgets/type-card/type-card-large.php') ?>
-                                                                  </div>
-                                                            <?php } ?>
-                                                      </div>
-                                                </div>
-                                          <?php } ?>
-                                    </div>
-                                    <a href="typer" title="Om aknetyper" class="mt-xl button b200 outline expand l10n is-hidden-tablet">Läs mer om aknetyper</a>
-                                    <a href="typer" title="Om aknetyper" class="mt-xl button b200 outline l10n is-hidden-mobile">Läs mer om aknetyper</a>
-                              </section>
-                        <?php } ?>
                         <?php if (sizeof($symptoms) > 0) { ?>
                               <section id="symptoms">
                                     <h2 class="h500">Akne symptom</h2>
@@ -870,14 +613,6 @@ $brands = array(
                               <h2 class="h500">03. Förebygg uppkomsten av ny akne</h2>
                               <hr class="is-hidden-mobile mt-xl">
                               <?php foreach ($products as $service) { ?>
-                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
-                                    <hr class="is-hidden-mobile mb-xxl">
-                              <?php } ?>
-                        </section>
-                        <section id="treatment-solutions">
-                              <h2 class="h500">04. Reparera post-akne</h2>
-                              <hr class="is-hidden-mobile mt-xl">
-                              <?php foreach ($procedures as $service) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
                                     <hr class="is-hidden-mobile mb-xxl">
                               <?php } ?>
