@@ -84,30 +84,22 @@ $treatment_steps = array(
 );
 $symptoms = array(
       new Symptom(
-            url: '',
             name: 'Mjäll',
-            aka: '',
             image: 'images/symptoms/102x102/komedoner-stangda.webp',
             content: 'Mjäll är ett av de mest framträdande symptomen på seborré. Dessa små, vita eller gulaktiga flagor är döda hudceller som avlägsnas från hårbotten, en naturlig process. Vid seborré sker hudcellsförnyelsen i ett accelererat tempo, vilket leder till att hudcellerna klumpar ihop sig och bildar synliga flagor istället för att falla av individuellt och obemärkt.'
       ),
       new Symptom(
-            url: '',
             name: 'Klåda',
-            aka: '',
             image: 'images/symptoms/102x102/komedoner-oppna.webp',
             content: 'Ett av de mest framträdande symptomen på seborré är klåda. Detta kan variera från mild till intensiv, beroende på svårighetsgraden av tillståndet. Klåda kan förekomma på alla platser där seborré uppstår, som hårbotten, ansiktet och bröstet, och kan orsaka obehag och irritation.'
       ),
       new Symptom(
-            url: '',
             name: 'Flagnande hy',
-            aka: '',
             image: 'images/symptoms/102x102/komedoner-stangda.webp',
             content: 'Seborré kan leda till flagnande hy, vilket kan vara särskilt märkbart i hårbotten. Dessa flarn eller skorpor är oftast oljiga och kan vara gulaktiga till färgen. Detta symptom kan vara mer märkbart i hårbotten men kan också ses på andra drabbade områden.'
       ),
       new Symptom(
-            url: '',
             name: 'Fet hy',
-            aka: '',
             image: 'images/symptoms/102x102/komedoner-stangda.webp',
             content: 'Seborré leder ofta till att huden känns och ser fet eller oljig ut. Detta beror på att tillståndet ofta påverkar talgkörtlarna, som producerar hudens naturliga oljor. Områdena med mest talgkörtlar, inklusive ansiktet, hårbotten och bröstet, är ofta mest påverkade av detta symptom.'
       ),
