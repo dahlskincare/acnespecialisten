@@ -157,8 +157,7 @@ html {
             margin-top: $xs;
 
             .nav-anchor {
-                // Compensate for fixed headers
-                scroll-margin-top: 140px;
+                scroll-margin-top: $header-height + 80px;
             }
 
             h2 {
@@ -531,7 +530,7 @@ html {
             @include desktop {
 
                 h2 {
-                    scroll-margin-top: 140px;
+                    scroll-margin-top: $header-height-large + 80px;
                 }
 
                 .article-card {

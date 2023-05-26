@@ -110,6 +110,13 @@
     </nav>
 </div>
 <header>
+    <div id="important-notice">
+        <div>
+            <span class="important-notice-highlight">-15%</span>
+            <span>for all our services until April 1.</span>
+            <a href="behandlingar" title="behandlingar">View services</a>
+        </div>
+    </div>
     <div class="container">
         <div class="is-hidden-desktop" id="header-small">
             <a href="/">

@@ -29,6 +29,34 @@ html {
             z-index: 99;
             border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 
+            #important-notice {
+                padding: $xs 0;
+                text-align: center;
+                background-color: $deep-sea-400;
+                color: $white-500;
+
+                span.important-notice-highlight {
+                    background-color: $white-500;
+                    color: $deep-sea-400;
+                    border-radius: 36px;
+                    padding: 2px $xxs;
+                    margin-right: 2px;
+                    font-weight: bold;
+                    font-size: 12px;
+
+                }
+
+                span {
+                    @include p100;
+                }
+
+                a {
+                    @include p100;
+                    color: $white-500;
+                    text-decoration: underline;
+                }
+            }
+
             #header-small {
                 display: flex;
                 align-items: center;
@@ -333,11 +361,11 @@ html {
 
             section.large-margin {
                 margin-top: 72px;
-                scroll-margin-top: 130px;
+                scroll-margin-top: $header-height + 80px;
 
                 @include desktop {
                     margin-top: 104px;
-                    scroll-margin-top: 140px;
+                    scroll-margin-top: $header-height-large + 80px;
                 }
             }
 
