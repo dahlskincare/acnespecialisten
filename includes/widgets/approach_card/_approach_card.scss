@@ -30,6 +30,11 @@
 
     }
 
+    .approach-card-content {
+        height: 180px;
+        overflow-y: auto;
+    }
+
     .p200,
     a {
         margin-top: $m;
