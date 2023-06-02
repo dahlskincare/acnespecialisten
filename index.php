@@ -97,7 +97,7 @@
                         $accordion = array(
                               new AccordionItem(
                                     label: 'Akne',
-                                    image_small: 'images/problems/carousel/small/akne.webp',
+                                    image_small: 'images/problems/114x140/akne.webp',
                                     image_large: 'images/problems/carousel/medium/akne.webp',
                                     url: 'problem/akne',
                                     show_on_large: true,
@@ -105,7 +105,7 @@
                               ),
                               new AccordionItem(
                                     label: 'Akneärr',
-                                    image_small: 'images/problems/carousel/small/acnearr.webp',
+                                    image_small: 'images/problems/114x140/acnearr.webp',
                                     image_large: 'images/problems/carousel/medium/acnearr.webp',
                                     url: 'problem/aknearr',
                                     show_on_large: true,
@@ -113,7 +113,7 @@
                               ),
                               new AccordionItem(
                                     label: 'Rosacea',
-                                    image_small: 'images/problems/carousel/small/rosacea.jpg',
+                                    image_small: 'images/problems/114x140/rosacea.webp',
                                     image_large: 'images/problems/carousel/large/rosacea.jpg',
                                     url: 'problem/rosacea',
                                     show_on_large: true,
@@ -121,7 +121,7 @@
                               ),
                               new AccordionItem(
                                     label: 'Pigmentfläckar',
-                                    image_small: 'images/problems/carousel/small/pigmentation.jpg',
+                                    image_small: 'images/problems/114x140/pigmentflackar.webp',
                                     image_large: 'images/problems/carousel/large/pigmentation.jpg',
                                     url: 'problem/pigmentflackar',
                                     show_on_large: true,
