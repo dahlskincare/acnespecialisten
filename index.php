@@ -146,7 +146,7 @@
                               new AccordionItem(
                                     label: 'Se alla problem',
                                     image_small: 'images/carousel/problems/small/other.jpg',
-                                    image_large: 'images/problems/carousel/large/other.jpg',
+                                    image_large: 'images/problems/424x324/perioral-dermatit.webp',
                                     url: 'problem',
                                     show_on_large: true,
                                     show_on_small: false
