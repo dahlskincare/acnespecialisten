@@ -120,24 +120,24 @@
                                     show_on_small: true
                               ),
                               new AccordionItem(
-                                    label: 'Pigmentfläckar',
-                                    image_small: 'images/problems/114x140/pigmentflackar.webp',
+                                    label: 'Blandhy',
+                                    image_small: 'images/problems/114x140/blandhy.webp',
                                     image_large: 'images/problems/carousel/large/pigmentation.jpg',
                                     url: 'problem/pigmentflackar',
                                     show_on_large: true,
                                     show_on_small: true
                               ),
                               new AccordionItem(
-                                    label: 'Pormaskar',
-                                    image_small: 'images/problems/carousel/small/large-pores.jpg',
+                                    label: 'Finnar',
+                                    image_small: 'images/problems/114x140/finnar.webp',
                                     image_large: 'images/problems/carousel/large/large-pores.jpg',
                                     url: 'problem/stora-porer',
                                     show_on_large: true,
                                     show_on_small: true
                               ),
                               new AccordionItem(
-                                    label: 'Mogen hy',
-                                    image_small: 'images/problems/carousel/small/mature-skin.jpg',
+                                    label: 'Pormaskar',
+                                    image_small: 'images/problems/114x140/pormaskar.webp',
                                     image_large: 'images/problems/carousel/large/mature-skin.jpg',
                                     url: 'problem/mogen-hy',
                                     show_on_large: false,
