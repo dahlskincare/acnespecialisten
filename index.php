@@ -123,7 +123,7 @@
                                     label: 'Blandhy',
                                     image_small: 'images/problems/114x140/blandhy.webp',
                                     image_large: 'images/problems/424x324/blandhy.webp',
-                                    url: 'problem/pigmentflackar',
+                                    url: 'problem/blandhy',
                                     show_on_large: true,
                                     show_on_small: true
                               ),
@@ -131,7 +131,7 @@
                                     label: 'Finnar',
                                     image_small: 'images/problems/114x140/finnar.webp',
                                     image_large: 'images/problems/424x324/finnar.webp',
-                                    url: 'problem/stora-porer',
+                                    url: 'problem/finnar',
                                     show_on_large: true,
                                     show_on_small: true
                               ),
@@ -139,7 +139,7 @@
                                     label: 'Pormaskar',
                                     image_small: 'images/problems/114x140/pormaskar.webp',
                                     image_large: 'images/problems/424x324/pormaskar.webp',
-                                    url: 'problem/mogen-hy',
+                                    url: 'problem/pormaskar',
                                     show_on_large: false,
                                     show_on_small: true
                               ),
