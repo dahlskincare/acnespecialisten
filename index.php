@@ -98,7 +98,7 @@
                               new AccordionItem(
                                     label: 'Akne',
                                     image_small: 'images/problems/114x140/akne.webp',
-                                    image_large: 'images/problems/carousel/medium/akne.webp',
+                                    image_large: 'images/problems/424x324/akne.webp',
                                     url: 'problem/akne',
                                     show_on_large: true,
                                     show_on_small: true
@@ -106,7 +106,7 @@
                               new AccordionItem(
                                     label: 'Akneärr',
                                     image_small: 'images/problems/114x140/acnearr.webp',
-                                    image_large: 'images/problems/carousel/medium/acnearr.webp',
+                                    image_large: 'images/problems/424x324/acnearr.webp',
                                     url: 'problem/aknearr',
                                     show_on_large: true,
                                     show_on_small: true
@@ -114,7 +114,7 @@
                               new AccordionItem(
                                     label: 'Rosacea',
                                     image_small: 'images/problems/114x140/rosacea.webp',
-                                    image_large: 'images/problems/carousel/large/rosacea.jpg',
+                                    image_large: 'images/problems/424x324/rosacea.webp',
                                     url: 'problem/rosacea',
                                     show_on_large: true,
                                     show_on_small: true
@@ -122,7 +122,7 @@
                               new AccordionItem(
                                     label: 'Blandhy',
                                     image_small: 'images/problems/114x140/blandhy.webp',
-                                    image_large: 'images/problems/carousel/large/pigmentation.jpg',
+                                    image_large: 'images/problems/424x324/blandhy.webp',
                                     url: 'problem/pigmentflackar',
                                     show_on_large: true,
                                     show_on_small: true
@@ -130,7 +130,7 @@
                               new AccordionItem(
                                     label: 'Finnar',
                                     image_small: 'images/problems/114x140/finnar.webp',
-                                    image_large: 'images/problems/carousel/large/large-pores.jpg',
+                                    image_large: 'images/problems/424x324/finnar.webp',
                                     url: 'problem/stora-porer',
                                     show_on_large: true,
                                     show_on_small: true
@@ -138,7 +138,7 @@
                               new AccordionItem(
                                     label: 'Pormaskar',
                                     image_small: 'images/problems/114x140/pormaskar.webp',
-                                    image_large: 'images/problems/carousel/large/mature-skin.jpg',
+                                    image_large: 'images/problems/424x324/pormaskar.webp',
                                     url: 'problem/mogen-hy',
                                     show_on_large: false,
                                     show_on_small: true
