@@ -43,8 +43,8 @@ $problems['akne'] = new Problem(
       consultation_url: 'hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
       image_small: 'images/problems/424x324/akne.webp',
-      image_medium: 'images/problems/medium/acne.jpg',
-      image_large: 'images/problems/large/acne.jpg',
+      image_medium: 'images/problems/424x324/akne.webp',
+      image_large: 'images/problems/424x324/akne.webp',
       info: 'Akne är den allra vanligaste typen av hudproblem och identifieras av finnar i ansiktet eller på andra delar av kroppen. Det påverkar människor i alla åldrar och orsakas av inflammation i hårsäckarna och talgkörtlarna. Det kan leda till finnar, pormaskar och ibland ärr. Behandla och förebygga akne effektivt genom skräddarsydda behandlingar och en korrekt hudvårdsrutin.'
 );
 $problems['aknearr'] = new Problem(
