@@ -30,9 +30,9 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
             title: 'är seborré?',
-            content: '<p class="p200">Seborré är en genetisk hudsjukdom som orsakar obalans i huden. Den har vissa likheter med eksem och manifesterar sig oftast i form av inflammation i områden som ögonbryn, hårfäste, näsa och skäggväxt. Karakteristiskt för seborré är att det ofta uppstår eller förvärras i kallt och torrt klimat.</p>',
+            content: '<p class="p200">Seborré är ett relativt vanligt hudtillstånd som kännetecknas av röda, inflammerade områden på huden, ofta med en oljig, gulaktig fjällning eller skorpbildning. Detta orsakas av en överdriven produktion av talg, en naturligt förekommande fet substans som produceras av hudens talgkörtlar för att hålla huden smidig och skyddad mot uttorkning och infektioner. När talgproduktionen ökar, kan huden bli oljig, vilket kan ge en grogrund för vissa typer av hudbakterier vilket kan orsaka irritation, inflammation och en snabbare cellomsättning som resulterar i flagnande hud.</p>',
 
-            extended_content: '<p class="p200">Trots att seborré är en livslång sjukdom med genetiskt ursprung, uppstår dess symtom ofta i vågor genom vuxenlivet, speciellt om det saknas adekvat behandling. Det är mer prevalenta bland män än kvinnor, och alkohol kan förvärra symtomen för dem som har genetiska anlag för sjukdomen. Det är viktigt att notera att seborré inte kan "smittas" eller förvärvas av någon utan den nödvändiga genetiska predispositionen.</p>',
+            extended_content: '<p class="p200">På grund av den ökade talgproduktionen kan områden med seborré ofta se fetare ut jämfört med den omgivande huden. Om seborré uppstår i hårbotten, kan det resultera i mjäll, vilket är små flak av död hud som faller från hårbotten. Trots att tillståndet kan vara frustrerande och obekvämt, och för vissa personer leda till en minskad livskvalitet, är det viktigt att komma ihåg att det inte är smittsamt och inte utgör någon större hälsorisk.</p>',
             icons: array()
       ),
       new ProblemTrivia(
