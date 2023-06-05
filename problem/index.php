@@ -250,12 +250,12 @@ $problems['oonskad-harvaxt'] = new Problem(
 
 $problem_areas = array(
       new ProblemArea(
-            label: 'Face',
+            label: 'Ansikte',
             icon: 'area-face',
             problem_ids: array('akne', 'aknearr', 'pormaskar', 'rosacea', 'seborre', 'perioral-dermatit', 'stora-porer', 'pigmentflackar', 'blandhy', 'torr-kanslig-hy', 'mogen-hy', 'milier', 'ytliga-blodkarl', 'hudforandringar', 'finnar', 'bristningar', 'operations-arr', 'oonskad-harvaxt', 'arr-fran-finnar')
       ),
       new ProblemArea(
-            label: 'Body',
+            label: 'Kropp',
             icon: 'area-face',
             problem_ids: array('akne', 'aknearr', 'pormaskar', 'rosacea', 'seborre', 'perioral-dermatit', 'stora-porer', 'pigmentflackar', 'blandhy', 'torr-kanslig-hy', 'mogen-hy', 'milier', 'ytliga-blodkarl', 'hudforandringar', 'finnar', 'bristningar', 'operations-arr', 'oonskad-harvaxt', 'arr-fran-finnar')
       ),
