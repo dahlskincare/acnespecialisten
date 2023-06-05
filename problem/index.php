@@ -250,22 +250,22 @@ $problems['oonskad-harvaxt'] = new Problem(
 
 $problem_areas = array(
       new ProblemArea(
-            label: 'Ansiktet',
+            label: 'Ansikte',
             icon: 'area-face',
             problem_ids: array('akne', 'aknearr', 'pormaskar', 'rosacea', 'seborre', 'perioral-dermatit', 'stora-porer', 'pigmentflackar', 'blandhy', 'torr-kanslig-hy', 'mogen-hy', 'milier', 'ytliga-blodkarl', 'hudforandringar', 'finnar', 'bristningar', 'operations-arr', 'oonskad-harvaxt', 'arr-fran-finnar')
       ),
       new ProblemArea(
-            label: 'Kroppen',
+            label: 'Kropp',
             icon: 'area-face',
             problem_ids: array('akne', 'aknearr', 'pormaskar', 'rosacea', 'seborre', 'perioral-dermatit', 'stora-porer', 'pigmentflackar', 'blandhy', 'torr-kanslig-hy', 'mogen-hy', 'milier', 'ytliga-blodkarl', 'hudforandringar', 'finnar', 'bristningar', 'operations-arr', 'oonskad-harvaxt', 'arr-fran-finnar')
       ),
       new ProblemArea(
-            label: 'Ryggen',
+            label: 'Rygg',
             icon: 'area-face',
             problem_ids: array('akne', 'aknearr', 'pormaskar', 'rosacea', 'seborre', 'perioral-dermatit', 'stora-porer', 'pigmentflackar', 'blandhy', 'torr-kanslig-hy', 'mogen-hy', 'milier', 'ytliga-blodkarl', 'hudforandringar', 'finnar', 'bristningar', 'operations-arr', 'oonskad-harvaxt', 'arr-fran-finnar')
       ),
       new ProblemArea(
-            label: 'Bröstet',
+            label: 'Bröst',
             icon: 'area-face',
             problem_ids: array('akne', 'aknearr', 'pormaskar', 'rosacea', 'seborre', 'perioral-dermatit', 'stora-porer', 'pigmentflackar', 'blandhy', 'torr-kanslig-hy', 'mogen-hy', 'milier', 'ytliga-blodkarl', 'hudforandringar', 'finnar', 'bristningar', 'operations-arr', 'oonskad-harvaxt', 'arr-fran-finnar')
       ),
@@ -275,27 +275,27 @@ $problem_areas = array(
             problem_ids: array('akne', 'aknearr', 'pormaskar', 'rosacea', 'seborre', 'perioral-dermatit', 'stora-porer', 'pigmentflackar', 'blandhy', 'torr-kanslig-hy', 'mogen-hy', 'milier', 'ytliga-blodkarl', 'hudforandringar', 'finnar', 'bristningar', 'operations-arr', 'oonskad-harvaxt', 'arr-fran-finnar')
       ),
       new ProblemArea(
-            label: 'näsan',
+            label: 'Näsa',
             icon: 'area-face',
             problem_ids: array('operations-arr')
       ),
       new ProblemArea(
-            label: 'kinderna',
+            label: 'kinder',
             icon: 'area-face',
             problem_ids: array('akne', 'aknearr', 'pormaskar', 'rosacea', 'seborre', 'perioral-dermatit', 'stora-porer', 'pigmentflackar', 'blandhy', 'torr-kanslig-hy', 'mogen-hy', 'milier', 'ytliga-blodkarl', 'hudforandringar', 'finnar', 'bristningar', 'operations-arr', 'oonskad-harvaxt', 'arr-fran-finnar')
       ),
       new ProblemArea(
-            label: 'Hakan',
+            label: 'Haka',
             icon: 'area-face',
             problem_ids: array('akne', 'aknearr', 'pormaskar', 'rosacea', 'seborre', 'perioral-dermatit', 'stora-porer', 'pigmentflackar', 'blandhy', 'torr-kanslig-hy', 'mogen-hy', 'milier', 'ytliga-blodkarl', 'hudforandringar', 'finnar', 'bristningar', 'operations-arr', 'oonskad-harvaxt', 'arr-fran-finnar')
       ),
       new ProblemArea(
-            label: 'Läpparna',
+            label: 'Läppar',
             icon: 'area-face',
             problem_ids: array('akne', 'aknearr', 'pormaskar', 'rosacea', 'seborre', 'perioral-dermatit', 'stora-porer', 'pigmentflackar', 'blandhy', 'torr-kanslig-hy', 'mogen-hy', 'milier', 'ytliga-blodkarl', 'hudforandringar', 'finnar', 'bristningar', 'operations-arr', 'oonskad-harvaxt', 'arr-fran-finnar')
       ),
       new ProblemArea(
-            label: 'Neck',
+            label: 'Käklinje',
             icon: 'area-face',
             problem_ids: array('akne', 'aknearr', 'pormaskar', 'rosacea', 'seborre', 'perioral-dermatit', 'stora-porer', 'pigmentflackar', 'blandhy', 'torr-kanslig-hy', 'mogen-hy', 'milier', 'ytliga-blodkarl', 'hudforandringar', 'finnar', 'bristningar', 'operations-arr', 'oonskad-harvaxt', 'arr-fran-finnar')
       ),
