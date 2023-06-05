@@ -52,9 +52,9 @@ $problems['aknearr'] = new Problem(
       url: 'problem/aknearr',
       consultation_url: 'hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
-      image_small: 'images/problems/small/acne-scars.jpg',
-      image_medium: 'images/problems/medium/acne-scars.jpg',
-      image_large: 'images/problems/large/acne-scars.jpg',
+      image_small: 'images/problems/424x324/acnearr.webp',
+      image_medium: 'images/problems/424x324/acnearr.webp',
+      image_large: 'images/problems/424x324/acnearr.webp',
       info: 'Acneärr uppstår när inflammerade finnar skadar hudens vävnad och lämnar bestående märken. Ärrtyper varierar från gropiga, ojämna ytor till missfärgade områden. Även om ärr kan vara svåra att helt eliminera, finns det behandlingar som avsevärt kan förbättra deras utseende och struktur, såsom Laser, IPL, Miceoneedling och kemiska peelingar. Acneärr kräver ofta flera behandlingssessioner för optimala resultat.'
 
       );
@@ -63,9 +63,9 @@ $problems['rosacea'] = new Problem(
       url: 'problem/rosacea',
       consultation_url: 'hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
-      image_small: 'images/problems/small/rosacea.jpg',
-      image_medium: 'images/problems/medium/rosacea.jpg',
-      image_large: 'images/problems/large/rosacea.jpg',
+      image_small: 'images/problems/424x324/rosacea.webp',
+      image_medium: 'images/problems/424x324/rosacea.webp',
+      image_large: 'images/problems/424x324/rosacea.webp',
       info: 'Rosacea är en kronisk inflammatorisk hudsjukdom som främst påverkar ansiktet. Den kännetecknas av rodnad, synliga blodkärl, svullnad och små knottriga utslag. Rosacea kan förväxlas med akne, men orsakas av olika faktorer. Vanliga utlösare kan vara solljus, stress, värme och kryddstark mat. Behandlingen fokuserar på att eliminera problemet genom att undvika utlösare och använda skonsamma metoder som laserterapi eller IPL-behandlingar. En anpassad hudvårdsrutin för känslig hy är också viktig för att hantera rosacea effektivt.'
 
 
@@ -75,9 +75,9 @@ $problems['pormaskar'] = new Problem(
       url: 'problem/pormaskar',
       consultation_url: 'hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
-      image_small: 'images/problems/small/comedones.jpg',
-      image_medium: 'images/problems/medium/comedones.jpg',
-      image_large: 'images/problems/large/comedones.jpg',
+      image_small: 'images/problems/424x324/pormaskar.webp',
+      image_medium: 'images/problems/424x324/pormaskar.webp',
+      image_large: 'images/problems/424x324/pormaskar.webp',
       info: 'Pormaskar är små pluggar av talg och döda hudceller som täpper till hårsäckar. De finns i två typer: öppna (svarta) och stängda (vita) pormaskar. För att förebygga och behandla pormaskar är det viktigt att rengöra huden noggrant, exfoliera regelbundet och använda icke-komedogena produkter.'
 
 );
