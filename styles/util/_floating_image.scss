@@ -5,7 +5,7 @@
 div#floater {
     position: sticky;
     height: 0;
-    top: $xl5 + 72px; /// 72px: height of navbar
+    top: $xl5 + $header-height-large;
     z-index: 1;
 
 
@@ -61,7 +61,7 @@ div#floater {
 }
 
 div#floater.detached {
-    top: $xl + 72px;
+    top: $xl + $header-height-large;
 
     div.container {
         div#floating-picture {
