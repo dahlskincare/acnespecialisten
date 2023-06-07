@@ -77,7 +77,7 @@ $treatment_steps = array(
             title: 'Behandla',
             content: 'Vi utför skonsamma och effektiva seborrébehandlingar anpassade för din specifika typ av seborré, så att du snabbt och säkert blir av med problemet.',
             url: 'ansiktsbehandlingar-problemhy',
-            url_label: 'Se aknebehandlingar'
+            url_label: 'Se seborrébehandlingar'
       ),
       new TreatmentStep(
             title: 'Förebygga',
@@ -208,7 +208,7 @@ $reviews = array(
             brand: 'Trustpilot',
             logo_url: 'images/brands/trustpilot.svg',
             title: 'Supernöjd',
-            text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
+            text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all seborré efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
             signature: 'Sofia'
       ),
       new Review(
@@ -260,7 +260,7 @@ $faq_categories = array(
                   text: '<p class="p200">På AcneSpecialisten erbjuder vi skräddarsydda behandlingsplaner för att hantera seborré och dess symtom. Beroende på ditt specifika tillstånd kan detta inkludera råd om hudvård och livsstil, samt specifika behandlingar riktade mot att kontrollera överdriven talgproduktion och reducera inflammation. Vårt mål är att förbättra din hy och livskvalitet genom att hjälpa dig hantera ditt seborré på bästa möjliga sätt.</p>'
             )
       ),
-      'Behandling mot akne' => array(
+      'Behandling mot seborré' => array(
             new Question(
                   title: 'Vilka behandlingar finns tillgängliga för seborré hos AcneSpecialisten?',
                   text: '<p class="p200">Hos AcneSpecialisten erbjuder vi olika behandlingar för att hantera och lindra symtomen på seborré. Efter en noggrann hudanalys och konsultation skräddarsyr vi en behandlingsplan som kan inkludera professionella behandlingar såsom specialanpassade ansiktsbehandlingar och hudvårdsprodukter som balanserar talgproduktionen, reducera inflammation och förbättra hudens textur och utseende.</p>'
@@ -377,7 +377,7 @@ $related_problems = array(
       new RelatedProblem(
             id: 'perioral-dermatit',
             name: 'Perioral dermatit',
-            aka: 'akne runt munnen',
+            aka: 'seborré runt munnen',
             image: 'images/problems/200x200/perioral-dermatit.webp'
       ),
 );
@@ -399,7 +399,7 @@ $brands = array(
 <head>
       <!-- TODO: Set title and meta tags -->
       <title class="l10n">
-            Vad är akne? Vanliga frågor och svar | AcneSpecialisten
+            Vad är seborré? Vanliga frågor och svar | AcneSpecialisten
       </title>
       <meta name="description" content="" class="l10n">
       <meta name="title" content="" class="l10n">
@@ -463,7 +463,7 @@ $brands = array(
                   <div id="green-header-small" class="is-hidden-desktop">
                         <div class="container">
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
-                              <h1 class="h600">Akne</h1>
+                              <h1 class="h600">Seborré</h1>
                               <h3 class="mt-xs p100 l10n">Även känt som:</h3>
                               <?php foreach ($akas as $key => $aka) { ?>
                                     <div>
@@ -501,7 +501,7 @@ $brands = array(
                                     </div>
                               </div>
                               <div id="green-header-large-text" class="mt-xxs">
-                                    <h1 class="h600">Akne</h1>
+                                    <h1 class="h600">Seborré</h1>
                                     <div class="mt-s">
                                           <span class="h200 l10n">Även känt som:</span>
                                           <?php
@@ -536,14 +536,14 @@ $brands = array(
                               <picture>
                                     <source media="(max-width: 449px)" srcset="<?php echo $image_small ?>">
                                     <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
-                                    <img src="<?php echo $image_large ?>" alt="Akne" title="Akne" width="358" height="274" />
+                                    <img src="<?php echo $image_large ?>" alt="Seborré" title="Seborré" width="358" height="274" />
                               </picture>
                         </section>
                         <section id="nav-buttons">
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                         </section>
                         <section id="about">
-                              <h2 class="h500 l10n">Om Akne</h2>
+                              <h2 class="h500 l10n">Om Seborré</h2>
                               <?php foreach ($trivias as $trivia) {
                                     echo '<hr>';
                                     include('../widgets/problem-trivia-card/problem-trivia-card.php');
@@ -561,11 +561,11 @@ $brands = array(
                                     } ?>
                               </div>
                               <hr class="mt-xl3 is-hidden-mobile">
-                              <a href="problem/aknearr/behandling" title="Om aknebehandlingar" class="mt-xl button b200 outline expand auto-width l10n">Läs mer om aknebehandlingar</a>
+                              <a href="problem/seborre/behandling" title="Om seborrébehandlingar" class="mt-xl button b200 outline expand auto-width l10n">Läs mer om seborrébehandlingar</a>
                         </section>
                         <?php if (sizeof($symptoms) > 0) { ?>
                               <section id="symptoms">
-                                    <h2 class="h500">Akne symptom</h2>
+                                    <h2 class="h500">Seborré symptom</h2>
                                     <div class="mt-m is-hidden-tablet" id="symptom-buttons">
                                           <?php foreach ($symptoms as $symptom) { ?>
                                                 <a href="javascript:;" class="button b50 grey">
@@ -583,13 +583,13 @@ $brands = array(
                               </section>
                         <?php } ?>
                         <section id="define">
-                              <h2 class="h500 l10n">01. Identifiera din akne</h2>
+                              <h2 class="h500 l10n">01. Identifiera din seborré</h2>
                               <hr class="is-hidden-mobile">
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
                               <hr class="is-hidden-mobile">
                         </section>
                         <section id="treatments">
-                              <h2 class="h500">02. Behandla aktiv akne</h2>
+                              <h2 class="h500">02. Behandla aktiv seborré</h2>
                               <hr class="is-hidden-mobile mt-xl">
                               <?php foreach ($services as $service) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
@@ -597,7 +597,7 @@ $brands = array(
                               <?php } ?>
                         </section>
                         <section id="products">
-                              <h2 class="h500">03. Förebygg uppkomsten av ny akne</h2>
+                              <h2 class="h500">03. Förebygg uppkomsten av ny seborré</h2>
                               <hr class="is-hidden-mobile mt-xl">
                               <?php foreach ($products as $service) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
