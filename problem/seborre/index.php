@@ -63,7 +63,7 @@ $trivias = array(
             extended_content: '<p class="p200">Ett annat vanligt område är hårbotten, där överdriven talgproduktion kan leda till mjäll. Även områden som öron, bröst och mitten av ryggen kan drabbas, där seborré kan skapa röda, flagnande fläckar. Trots att dessa områden är mest utsatta, kan seborré dyka upp var som helst på kroppen där talgproduktionen är hög. </p>
 
             <p class="p200 mt-xl">På AcneSpecialisten är vi experter på att hantera seborré. Vi erbjuder ett brett utbud av behandlingar och produkter som kan hjälpa dig att kontrollera dina symptom och förbättra din hudhälsa.</p>',
-            icons: array('who-infants' => 'Ögonbryn', 'Näsa' => 'Ryggen', 'who-adults' => 'Panna', 'who-elders' => 'Hårbotten')
+            icons: array('who-infants' => 'Ögonbryn', 'who-teenagers' => 'Näsa', 'who-adults' => 'Panna', 'who-elders' => 'Hårbotten')
       ),
 );
 $treatment_steps = array(
