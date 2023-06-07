@@ -1,5 +1,6 @@
 <?php
 $root = $_SERVER['DOCUMENT_ROOT'];
+require_once($root . '/includes/models/specialist.php');
 require_once($root . '/includes/models/accordion_item.php');
 require_once($root . '/includes/models/approach_card.php');
 require_once($root . '/includes/models/based_type.php');
@@ -9,31 +10,6 @@ require_once($root . '/includes/models/skin_guide.php');
 require_once($root . '/includes/models/green_banner_content.php');
 
 
-
-
-class Specialist
-{
-    public function __construct($name, $title, $image, $city = null, $description = null, $rating = null, $num_treatments = null, $since_year = null)
-    {
-        $this->name = $name;
-        $this->title = $title;
-        $this->image = $image;
-        $this->city = $city;
-        $this->description = $description;
-        $this->rating = $rating;
-        $this->num_treatments = $num_treatments;
-        $this->since_year = $since_year;
-    }
-
-    public String $name;
-    public String $title;
-    public String $image;
-    public ?String $city;
-    public ?String $description;
-    public ?float $rating;
-    public ?int $num_treatments;
-    public ?int $since_year;
-}
 class PathSegment
 {
     public function __construct($name, $url = null)

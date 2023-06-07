@@ -14,13 +14,13 @@ class AccordionItem
         $this->show_on_small = $show_on_small;
     }
 
-    public string $label;
-    public string $image_small;
-    public string $image_large;
-    public string $image_alt;
-    public string $image_title;
-    public string $url;
-    public string $url_title;
+    public String $label;
+    public String $image_small;
+    public String $image_large;
+    public String $image_alt;
+    public String $image_title;
+    public String $url;
+    public String $url_title;
     public bool $show_on_large;
     public bool $show_on_small;
 }
