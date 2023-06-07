@@ -1,80 +1,15 @@
 <?php
 $root = $_SERVER['DOCUMENT_ROOT'];
+require_once($root . '/includes/models/accordion_item.php');
+require_once($root . '/includes/models/approach_card.php');
+require_once($root . '/includes/models/based_type.php');
 require_once($root . '/includes/models/brand.php');
 require_once($root . '/includes/models/salon.php');
 require_once($root . '/includes/models/skin_guide.php');
 require_once($root . '/includes/models/green_banner_content.php');
 
-class ApproachCard
-{
-    public function __construct($number, $title, $content, $button_label, $button_url)
-    {
-        $this->number = $number;
-        $this->title = $title;
-        $this->content = $content;
-        $this->button_label = $button_label;
-        $this->button_url = $button_url;
-    }
-    public string $number;
-    public string $title;
-    public string $content;
-    public string $button_label;
-    public string $button_url;
-}
 
-class AccordionItem
-{
-    public function __construct($label, $image_small, $image_large, $url, $show_on_large, $show_on_small)
-    {
-        $this->label = $label;
-        $this->image_small = $image_small;
-        $this->image_large = $image_large;
-        $this->url = $url;
-        $this->show_on_large = $show_on_large;
-        $this->show_on_small = $show_on_small;
-    }
 
-    public $label;
-    public $image_small;
-    public $image_large;
-    public $url;
-    public $show_on_large;
-    public $show_on_small;
-}
-
-class BasedTypeCategory
-{
-    public function __construct($id, $title, $content, $types)
-    {
-        $this->id = $id;
-        $this->title = $title;
-        $this->content = $content;
-        $this->types = $types;
-    }
-
-    public string $id;
-    public string $title;
-    public string $content;
-    public array $types;
-}
-
-class BasedType
-{
-    public function __construct($image_url, $title, $subtitle, $content, $url)
-    {
-        $this->image_url = $image_url;
-        $this->title = $title;
-        $this->subtitle = $subtitle;
-        $this->content = $content;
-        $this->url = $url;
-    }
-
-    public string $image_url;
-    public string $title;
-    public string $subtitle;
-    public string $content;
-    public string $url;
-}
 
 class Specialist
 {
