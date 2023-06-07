@@ -92,28 +92,28 @@ $symptoms = array(
             name: 'Flagnande hy',
             aka: '',
             image: 'images/symptoms/102x102/komedoner-stangda.webp',
-            content: 'Seborré kan leda till flagnande hy, vilket kan vara särskilt märkbart i hårbotten. Dessa flarn eller skorpor är oftast oljiga och kan vara gulaktiga till färgen. Detta symptom kan vara mer märkbart i hårbotten men kan också ses på andra drabbade områden.'
+            content: 'Det främsta symptomen på seborré är flagnande hud, vilket innebär att det finns små skikt eller flingor av döda hudceller som lossnar från huden. Detta beror på en överproduktion av hudens naturliga oljor (sebum), som stör hudens normala avstötningsprocess och orsakar en snabbare cellomsättning.'
       ),
       new Symptom(
             url: '',
             name: 'Mjäll',
             aka: '',
             image: 'images/symptoms/102x102/komedoner-stangda.webp',
-            content: 'Mjäll är ett av de mest framträdande symptomen på seborré. Dessa små, vita eller gulaktiga flagor är döda hudceller som avlägsnas från hårbotten, en naturlig process. Vid seborré sker hudcellsförnyelsen i ett accelererat tempo, vilket leder till att hudcellerna klumpar ihop sig och bildar synliga flagor istället för att falla av individuellt och obemärkt.'
+            content: 'Mjäll är vita till gula, små flagor av döda hudceller som lossnar från huden, specifikt från hårbotten. Detta är en typ av flagnande som är vanligt i seborré och är oftast mer uttalad än normalt flagnande.'
       ),
       new Symptom(
             url: '',
             name: 'Klåda',
             aka: '',
             image: 'images/symptoms/102x102/komedoner-oppna.webp',
-            content: 'Ett av de mest framträdande symptomen på seborré är klåda. Detta kan variera från mild till intensiv, beroende på svårighetsgraden av tillståndet. Klåda kan förekomma på alla platser där seborré uppstår, som hårbotten, ansiktet och bröstet, och kan orsaka obehag och irritation.'
+            content: 'Seborré kan ofta leda till klåda, särskilt i de områden där det finns en överproduktion av sebum. Klådan beror på hudirritation som orsakas av en kombination av överflödig olja och en snabbare hudcellsturnover.'
       ),
       new Symptom(
             url: '',
             name: 'Fet hy',
             aka: '',
             image: 'images/symptoms/102x102/komedoner-stangda.webp',
-            content: 'Seborré leder ofta till att huden känns och ser fet eller oljig ut. Detta beror på att tillståndet ofta påverkar talgkörtlarna, som producerar hudens naturliga oljor. Områdena med mest talgkörtlar, inklusive ansiktet, hårbotten och bröstet, är ofta mest påverkade av detta symptom.'
+            content: 'Fet hy är ett av de mest utmärkande tecknen på seborré. Detta beror på en överproduktion av sebum, vilket gör huden glänsande och oljig, särskilt i områdena kring näsan, pannan och hårbotten.'
       ),
 );
 $service = new Service(
