@@ -1,39 +1,17 @@
 <?php
 $root = $_SERVER['DOCUMENT_ROOT'];
-require_once($root . '/includes/models/accordion_item.php');
-require_once($root . '/includes/models/approach_card.php');
-require_once($root . '/includes/models/based_type.php');
-require_once($root . '/includes/models/brand.php');
-require_once($root . '/includes/models/green_banner_content.php');
-require_once($root . '/includes/models/path_segment.php');
-require_once($root . '/includes/models/procedure.php');
-require_once($root . '/includes/models/salon.php');
-require_once($root . '/includes/models/service.php');
-require_once($root . '/includes/models/skin_guide.php');
-require_once($root . '/includes/models/specialist.php');
-
-class Product
-{
-    public function __construct(
-        $id,
-        $price,
-        $content,
-        $image_small,
-        $image_large
-    ) {
-        $this->id = $id;
-        $this->price = $price;
-        $this->content = $content;
-        $this->image_small = $image_small;
-        $this->image_large = $image_large;
-    }
-
-    public string $id;
-    public string $price;
-    public string $content;
-    public string $image_small;
-    public string $image_large;
-}
+include_once($root . '/includes/models/accordion_item.php');
+include_once($root . '/includes/models/approach_card.php');
+include_once($root . '/includes/models/based_type.php');
+include_once($root . '/includes/models/brand.php');
+include_once($root . '/includes/models/green_banner_content.php');
+include_once($root . '/includes/models/path_segment.php');
+include_once($root . '/includes/models/procedure.php');
+include_once($root . '/includes/models/product.php');
+include_once($root . '/includes/models/salon.php');
+include_once($root . '/includes/models/service.php');
+include_once($root . '/includes/models/skin_guide.php');
+include_once($root . '/includes/models/specialist.php');
 
 
 class Question
