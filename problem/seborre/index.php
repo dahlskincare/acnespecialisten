@@ -92,7 +92,7 @@ $symptoms = array(
             name: 'Flagnande hy',
             aka: '',
             image: 'images/symptoms/102x102/komedoner-stangda.webp',
-            content: 'Det främsta symptomen på seborré är flagnande hud, vilket innebär att det finns små skikt eller flingor av döda hudceller som lossnar från huden. Detta beror på en överproduktion av hudens naturliga oljor (sebum), som stör hudens normala avstötningsprocess och orsakar en snabbare cellomsättning.'
+            content: 'Det främsta symptomen på seborré är flagnande hud, vilket innebär att det finns små skikt eller flingor av döda hudceller som lossnar från huden. Detta beror på en överproduktion av hudens naturliga oljor (talg), som stör hudens normala avstötningsprocess och orsakar en snabbare cellomsättning.'
       ),
       new Symptom(
             url: '',
@@ -106,14 +106,14 @@ $symptoms = array(
             name: 'Klåda',
             aka: '',
             image: 'images/symptoms/102x102/komedoner-oppna.webp',
-            content: 'Seborré kan ofta leda till klåda, särskilt i de områden där det finns en överproduktion av sebum. Klådan beror på hudirritation som orsakas av en kombination av överflödig olja och en snabbare hudcellsturnover.'
+            content: 'Seborré kan ofta leda till klåda, särskilt i de områden där det finns en överproduktion av talg. Klådan beror på hudirritation som orsakas av en kombination av överflödig olja och en snabbare hudcellsturnover.'
       ),
       new Symptom(
             url: '',
             name: 'Fet hy',
             aka: '',
             image: 'images/symptoms/102x102/komedoner-stangda.webp',
-            content: 'Fet hy är ett av de mest utmärkande tecknen på seborré. Detta beror på en överproduktion av sebum, vilket gör huden glänsande och oljig, särskilt i områdena kring näsan, pannan och hårbotten.'
+            content: 'Fet hy är ett av de mest utmärkande tecknen på seborré. Detta beror på en överproduktion av talg, vilket gör huden glänsande och oljig, särskilt i områdena kring näsan, pannan och hårbotten.'
       ),
 );
 $service = new Service(
