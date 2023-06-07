@@ -45,18 +45,24 @@ $treatment_areas = array(
     new TreatmentArea(items: array(
         'face' => new TreatmentAreaItem(
             image: 'https://via.placeholder.com/102x102.webm',
+            image_alt: 'Face',
+            image_title: 'Face',
             title: 'Face',
             duration: '30 min',
             price: '1295 kr'
         ),
         'chest' => new TreatmentAreaItem(
             image: 'https://via.placeholder.com/102x102.webm',
+            image_alt: 'Chest',
+            image_title: 'Chest',
             title: 'Chest',
             duration: '30 min',
             price: '1295 kr'
         ),
         'back' => new TreatmentAreaItem(
             image: 'https://via.placeholder.com/102x102.webm',
+            image_alt: 'Back',
+            image_title: 'Back',
             title: 'Back',
             duration: '30 min',
             price: '1295 kr'
@@ -87,22 +93,25 @@ $article_better_results = new Article('better results', 'Get better results by a
 $article_after_care = new Article('aftercare', 'Aftercare and maintenance', 'https://via.placeholder.com/358x272.webp', 'https://via.placeholder.com/872x456.webp', '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>', array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing')));
 $treatment_steps = array(
     new TreatmentStep(
-        'Define',
-        'Lorem ipsum dolor sit amet, <a href="#" class="b200 underline">consectetur</a> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-        'hudkonsultation',
-        'Get a free consultation'
+        title: 'Define',
+        content: 'Lorem ipsum dolor sit amet, <a href="#" class="b200 underline">consectetur</a> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        url: 'hudkonsultation',
+        url_label: 'Get a free consultation',
+        url_title: 'Get a free consultation'
     ),
     new TreatmentStep(
-        'Treat',
-        'Lorem ipsum dolor sit amet, <a href="#" class="b200 underline">consectetur</a> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-        'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
-        'View treatments'
+        title: 'Treat',
+        content: 'Lorem ipsum dolor sit amet, <a href="#" class="b200 underline">consectetur</a> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
+        url_label: 'View treatments',
+        url_title: 'View treatments'
     ),
     new TreatmentStep(
-        'Prevent',
-        'Lorem ipsum dolor sit amet, <a href="#" class="b200 underline">consectetur</a> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-        'https://www.dahlskincare.com',
-        'View products'
+        title: 'Prevent',
+        content: 'Lorem ipsum dolor sit amet, <a href="#" class="b200 underline">consectetur</a> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        url: 'https://www.dahlskincare.com',
+        url_label: 'View products',
+        url_title: 'View products'
     ),
 );
 $brands = array(

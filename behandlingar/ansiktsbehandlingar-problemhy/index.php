@@ -122,29 +122,39 @@ $treatment_areas = array(
     new TreatmentArea(
         image_small: 'https://via.placeholder.com/361x274.webm',
         image_large: 'https://via.placeholder.com/872x456.webm',
+        image_alt: 'Body',
+        image_title: 'Body',
         title: 'Body',
         description: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin.</p>',
         items: array(
             'hands-n-fingers' => new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webm',
+                image_alt: 'Hands & fingers',
+                image_title: 'Hands & fingers',
                 title: 'Hands & fingers',
                 duration: '30 min',
                 price: '1295 kr'
             ),
             'shoulders' => new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webm',
+                image_alt: 'Shoulders',
+                image_title: 'Shoulders',
                 title: 'Shoulders',
                 duration: '30 min',
                 price: '1295 kr'
             ),
             'armpits' => new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webm',
+                image_alt: 'Armpits',
+                image_title: 'Armpits',
                 title: 'Armpits',
                 duration: '30 min',
                 price: '1295 kr'
             ),
             'chest' => new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webm',
+                image_alt: 'Chest',
+                image_title: 'Chest',
                 title: 'Chest',
                 duration: '30 min',
                 price: '1295 kr'
@@ -154,23 +164,31 @@ $treatment_areas = array(
     new TreatmentArea(
         image_small: 'https://via.placeholder.com/361x274.webm',
         image_large: 'https://via.placeholder.com/872x456.webm',
+        image_alt: 'Face',
+        image_title: 'Face',
         title: 'Intimate',
         description: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin.</p>',
         items: array(
             'bikini_line' => new TreatmentAreaItem(
                 image: null,
+                image_alt: null,
+                image_title: null,
                 title: 'Bikini line',
                 duration: '30 min',
                 price: '1295 kr'
             ),
             'string' => new TreatmentAreaItem(
                 image: null,
+                image_alt: null,
+                image_title: null,
                 title: 'String',
                 duration: '30 min',
                 price: '1295 kr'
             ),
             'brazilian' => new TreatmentAreaItem(
                 image: null,
+                image_alt: null,
+                image_title: null,
                 title: 'Brazilian',
                 duration: '30 min',
                 price: '1295 kr'
@@ -180,23 +198,31 @@ $treatment_areas = array(
     new TreatmentArea(
         image_small: 'https://via.placeholder.com/361x274.webm',
         image_large: 'https://via.placeholder.com/872x456.webm',
+        image_alt: 'Face',
+        image_title: 'Face',
         title: 'Face',
         description: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin.</p>',
         items: array(
             'bikini_line' => new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webm',
+                image_alt: 'Bikini line',
+                image_title: 'Bikini line',
                 title: 'Ears',
                 duration: '30 min',
                 price: '1295 kr'
             ),
             'string' => new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webm',
+                image_alt: 'Cheeks',
+                image_title: 'Cheeks',
                 title: 'Cheeks',
                 duration: '30 min',
                 price: '1295 kr'
             ),
             'brazilian' => new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webm',
+                image_alt: 'Upper lip',
+                image_title: 'Upper lip',
                 title: 'Upper lip',
                 duration: '30 min',
                 price: '1295 kr'
@@ -204,6 +230,8 @@ $treatment_areas = array(
         ),
         all: new TreatmentAreaItem(
             image: 'https://via.placeholder.com/102x102.webm',
+            image_alt: 'Whole face',
+            image_title: 'Whole face',
             title: 'Whole face',
             duration: '30 min',
             price: '1925 kr'

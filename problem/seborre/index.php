@@ -71,19 +71,22 @@ $treatment_steps = array(
             title: 'Identifiera',
             content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din seborré och skapar en individuell behandlingsplan.',
             url: 'hudkonsultation',
-            url_label: 'Få gratis konsultation'
+            url_label: 'Få gratis konsultation',
+            url_title: 'Boka tid för gratis konsultation',
       ),
       new TreatmentStep(
             title: 'Behandla',
             content: 'Vi utför skonsamma och effektiva seborrébehandlingar anpassade för din specifika typ av seborré, så att du snabbt och säkert blir av med problemet.',
             url: 'ansiktsbehandlingar-problemhy',
-            url_label: 'Se seborrébehandlingar'
+            url_label: 'Se seborrébehandlingar',
+            url_title: 'Se seborrébehandlingar',
       ),
       new TreatmentStep(
             title: 'Förebygga',
             content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny seborré och hålla din hud i balans.',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/seborre',
-            url_label: 'Se produkter'
+            url_label: 'Se produkter',
+            url_title: 'Se produkter',
       ),
 );
 $symptoms = array(

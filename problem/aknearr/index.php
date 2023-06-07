@@ -69,25 +69,29 @@ $treatment_steps = array(
             title: 'Identifiera',
             content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din aknetyp och skapar en individuell behandlingsplan.',
             url: 'hudkonsultation',
-            url_label: 'Få gratis konsultation'
+            url_label: 'Få gratis konsultation',
+            url_title: 'Boka en kostnadsfri hudkonsultation med en av våra hudterapeuter.'
       ),
       new TreatmentStep(
             title: 'Behandla',
             content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika aknetyp, så att du snabbt och säkert blir av med problemet.',
             url: 'aknebehandling',
-            url_label: 'Se aknebehandlingar'
+            url_label: 'Se aknebehandlingar',
+            url_title: 'Se våra olika aknebehandlingar.'
       ),
       new TreatmentStep(
             title: 'Förebygga',
             content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny akne och hålla din hud i balans.',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
-            url_label: 'Se produkter'
+            url_label: 'Se produkter',
+            url_title: 'Se våra produkter för akne.'
       ),
       new TreatmentStep(
             title: 'Reparera',
             content: 'När aknen är borta fokuserar vi på att reducera eventuella ärr med behandlingsmetoder som laser, microneedling och kemisk peeling för en jämn och problemfri hud.',
             url: 'aknearr-behandling',
-            url_label: 'Se ärrbehandlingar'
+            url_label: 'Se ärrbehandlingar',
+            url_title: 'Se våra olika ärrbehandlingar.'
       ),
 );
 $type_categories = array(
