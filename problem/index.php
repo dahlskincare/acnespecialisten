@@ -42,12 +42,12 @@ class Problem
 $problems['akne'] = new Problem(
       label: 'Akne',
       url: 'problem/akne',
-      url_title: 'Akne',
+      url_title: 'Läs mer om detaljerd information om Akne',
       consultation_url: 'hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
       image: 'images/problems/424x324/akne.webp',
-      image_alt: 'Akne',
-      image_title: 'Akne',
+      image_alt: 'Bild på Akne i ansiktet',
+      image_title: 'Akne i ansiktet, den vanligaste hudsjukdomen',
       info: 'Akne är den allra vanligaste typen av hudproblem och identifieras av finnar i ansiktet eller på andra delar av kroppen. Det påverkar människor i alla åldrar och orsakas av inflammation i hårsäckarna och talgkörtlarna. Det kan leda till finnar, pormaskar och ibland ärr. Behandla och förebygga akne effektivt genom skräddarsydda behandlingar och en korrekt hudvårdsrutin.'
 );
 
@@ -58,8 +58,8 @@ $problems['akne-rygg'] = new Problem(
       consultation_url: 'hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
       image: 'images/problems/424x324/akne.webp',
-      image_alt: 'Akne',
-      image_title: 'Akne',
+      image_alt: 'Akne på ryggen',
+      image_title: 'Akne på ryggen',
       info: 'Akne är den allra vanligaste typen av hudproblem och identifieras av finnar i ansiktet eller på andra delar av kroppen. Det påverkar människor i alla åldrar och orsakas av inflammation i hårsäckarna och talgkörtlarna. Det kan leda till finnar, pormaskar och ibland ärr. Behandla och förebygga akne effektivt genom skräddarsydda behandlingar och en korrekt hudvårdsrutin.'
 );
 
