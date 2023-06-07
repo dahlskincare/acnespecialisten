@@ -302,8 +302,12 @@ $service = new Service(
       content: 'Vid ett personligt möte med en acnespecialist utförs en undersökning av din akne. Vi tar före-bilder på din hud och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
       image_small: 'images/service-categories/small/consultation.jpg',
       image_large: 'images/service-categories/large/consultation.jpg',
+      image_alt: 'Konsultation',
+      image_title: 'Konsultation',
       consultation_url: 'hudkonsultation',
-      booking_url: null
+      consultation_url_title: 'Boka tid för konsultation',
+      booking_url: null,
+      booking_url_title: null,
 );
 $services = array(
       new Service(
@@ -314,8 +318,12 @@ $services = array(
             content: 'En effektiv ansiktsbehandling mot akne fokuserar på att noggrant extrahera orenheter som orsakar inflammation och skador i huden. Genom att försiktigt klämma ut akne och pormaskar kan behandlingen bidra till att förebygga ärrbildning och främja en snabbare läkning.',
             image_small: 'images/service-categories/small/microneedling.jpg',
             image_large: 'images/service-categories/large/microneedling.jpg',
+            image_alt: 'Ansiktsbehandling mot akne',
+            image_title: 'Ansiktsbehandling mot akne',
             consultation_url: 'hudkonsultation',
+            consultation_url_title: 'Boka tid för konsultation',
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
+            booking_url_title: 'Boka tid för ansiktsbehandling mot akne',
       ),
       new Service(
             id: 'acne-scars-laser',
@@ -325,8 +333,12 @@ $services = array(
             content: 'En avancerad laserbehandling mot akne erbjuder en effektiv lösning för att bekämpa aktiv akne och ärr som kan uppstå efter utbrott. Lasertekniken riktar sig mot de bakterier som orsakar inflammation och hjälper till att minska produktionen av talg, vilket minskar risken för framtida utbrott.',
             image_small: 'images/service-categories/small/laser-problem-skin.jpg',
             image_large: 'images/service-categories/large/laser-problem-skin.jpg',
+            image_alt: 'Laser mot akne',
+            image_title: 'Laser mot akne',
             consultation_url: 'hudkonsultation',
+            consultation_url_title: 'Boka tid för konsultation',
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
+            booking_url_title: 'Boka tid för laser mot akne',
       ),
       new Service(
             id: 'acne-scars-chemical-peeling',
@@ -336,8 +348,12 @@ $services = array(
             content: 'Kemisk peeling är en effektiv metod för att behandla akne. Genom att använda en speciellt framtagen lösning för att exfoliera huden, främjar kemisk peeling cellförnyelse, rensar tilltäppta porer och minskar inflammation. Resultatet är en jämnare hudton, mindre utbrott och färre synliga ärr. Det är en enkel och effektiv strategi för att ta kontroll över din akne och förbättra din hudhälsa.',
             image_small: 'images/service-categories/small/chemical-peeling.jpg',
             image_large: 'images/service-categories/large/chemical-peeling.jpg',
+            image_alt: 'Kemisk peeling mot akne',
+            image_title: 'Kemisk peeling mot akne',
             consultation_url: 'hudkonsultation',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922'
+            consultation_url_title: 'Boka tid för konsultation',
+            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
+            booking_url_title: 'Boka tid för kemisk peeling mot akne',
       ),
 );
 $products = array(
@@ -349,8 +365,12 @@ $products = array(
             content: 'För att effektivt bekämpa och förebygga akne är daglig behandling med rätt produkter avgörande. Våra akneprodukter är speciellt utformade för att hålla din hud i balans och förhindra att ny akne uppstår.',
             image_small: 'images/service-categories/small/consultation.jpg',
             image_large: 'images/service-categories/large/consultation.jpg',
+            image_alt: 'Produkter mot akne',
+            image_title: 'Produkter mot akne',
             consultation_url: null,
-            booking_url: null
+            consultation_url_title: null,
+            booking_url: null,
+            booking_url_title: null,
       )
 );
 $procedures = array(
@@ -362,8 +382,12 @@ $procedures = array(
             content: 'Efter aktiv akne kan man uppleva post-akne, vilket innebär ärr i form av gropar i olika former och fläckar i olika färger på huden där aknen tidigare varit. Olika typer av ärr behandlas med olika metoder. Klicka här för att läsa mer om hur du kan reparera din hud och ta hand om post-akne.',
             image_small: 'images/service-categories/small/consultation.jpg',
             image_large: 'images/service-categories/large/consultation.jpg',
+            image_alt: 'Reparera acneärr',
+            image_title: 'Reparera acneärr',
             consultation_url: null,
+            consultation_url_title: null,
             booking_url: null,
+            booking_url_title: null,
       ),
 );
 $articles = array(

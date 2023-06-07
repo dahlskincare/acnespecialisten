@@ -11,8 +11,12 @@ $model = new Service(
     content: '',
     image_small: 'https://via.placeholder.com/358x274.webp',
     image_large: 'https://via.placeholder.com/424x456.webp',
+    image_alt: 'Chemical peeling',
+    image_title: 'Chemical peeling',
     consultation_url: 'https://bokadirekt.se',
+    consultation_url_title: 'Book a consultation',
     booking_url: 'https://bokadirekt.se',
+    booking_url_title: 'Book a treatment',
     icons: null,
     short_title: null,
     procedures: array(
@@ -82,9 +86,24 @@ $article_process = new Article('procedure-process', 'Procedure process', 'https:
 $article_better_results = new Article('better results', 'Get better results by adding laser to your facials', 'https://via.placeholder.com/358x272.webp', 'https://via.placeholder.com/872x456.webp', '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>', array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing')));
 $article_after_care = new Article('aftercare', 'Aftercare and maintenance', 'https://via.placeholder.com/358x272.webp', 'https://via.placeholder.com/872x456.webp', '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>', array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing')));
 $treatment_steps = array(
-    new TreatmentStep('Define', 'Lorem ipsum dolor sit amet, <a href="#" class="b200 underline">consectetur</a> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'hudkonsultation', 'Get a free consultation'),
-    new TreatmentStep('Treat', 'Lorem ipsum dolor sit amet, <a href="#" class="b200 underline">consectetur</a> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922', 'View treatments'),
-    new TreatmentStep('Prevent', 'Lorem ipsum dolor sit amet, <a href="#" class="b200 underline">consectetur</a> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'https://www.dahlskincare.com', 'View products'),
+    new TreatmentStep(
+        'Define',
+        'Lorem ipsum dolor sit amet, <a href="#" class="b200 underline">consectetur</a> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        'hudkonsultation',
+        'Get a free consultation'
+    ),
+    new TreatmentStep(
+        'Treat',
+        'Lorem ipsum dolor sit amet, <a href="#" class="b200 underline">consectetur</a> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
+        'View treatments'
+    ),
+    new TreatmentStep(
+        'Prevent',
+        'Lorem ipsum dolor sit amet, <a href="#" class="b200 underline">consectetur</a> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        'https://www.dahlskincare.com',
+        'View products'
+    ),
 );
 $brands = array(
     new Brand('Powerlite', 'images/brands/powerlite.svg'),
@@ -192,10 +211,10 @@ $specialists = array(
                         <div class="mt-xl">
                             <div class="columns is-2 is-variable">
                                 <div class="column">
-                                    <a href="<?php echo $model->consultation_url ?>" class="button white expand l10n">Get a free consultation</a>
+                                    <a href="<?php echo $model->consultation_url ?>" title="<?php echo $model->consultation_url_title ?>" class="button white expand l10n">Get a free consultation</a>
                                 </div>
                                 <div class="column">
-                                    <a href="<?php echo $model->booking_url ?>" class="button white expand l10n">Book a treatment</a>
+                                    <a href="<?php echo $model->booking_url ?>" title="<?php echo $model->booking_url_title ?>" class="button white expand l10n">Book a treatment</a>
                                 </div>
                             </div>
                         </div>
@@ -234,10 +253,10 @@ $specialists = array(
                     <div class="mt-xl">
                         <div class="columns is-mobile">
                             <div class="column is-half">
-                                <a href="<?php echo $model->consultation_url ?>" class="button b200 white expand l10n">Free consultation</a>
+                                <a href="<?php echo $model->consultation_url ?>" title="<?php echo $model->consultation_url_title ?>" class="button b200 white expand l10n">Free consultation</a>
                             </div>
                             <div class="column is-half">
-                                <a href="<?php echo $model->booking_url ?>" class="button b200 white expand l10n">Book a treatment</a>
+                                <a href="<?php echo $model->booking_url ?>" title="<?php echo $model->booking_url_title ?>" class="button b200 white expand l10n">Book a treatment</a>
                             </div>
                         </div>
                     </div>
@@ -279,8 +298,8 @@ $specialists = array(
                             </div>
                         <?php } ?>
                         <div class="mt-xl flex-row" id="book-buttons">
-                            <a href="<?php echo $model->consultation_url ?>" class="button b200 white l10n">Get a free consultation</a>
-                            <a href="<?php echo $model->booking_url ?>" class="button b200 white l10n">Book a treatment</a>
+                            <a href="<?php echo $model->consultation_url ?>" title="<?php echo $model->consultation_url_title ?>" class="button b200 white l10n">Get a free consultation</a>
+                            <a href="<?php echo $model->booking_url ?>" title="<?php echo $model->booking_url_title ?>" class="button b200 white l10n">Book a treatment</a>
                         </div>
                     </div>
                 </div>
@@ -295,7 +314,7 @@ $specialists = array(
                     <picture>
                         <source media="(max-width: 449px)" srcset="<?php echo $model->image_small ?>">
                         <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
-                        <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->title ?>" title="<?php echo $model->title ?>" width="358" height="274" />
+                        <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
                     </picture>
                 </section>
                 <section id="nav-buttons">
@@ -356,9 +375,7 @@ $specialists = array(
                             <?php } ?>
                         </div>
                         <hr class="mt-xl3 is-hidden-mobile">
-                        <a href="problem/acne-scars/treatment" class="mt-xl button b200 outline expand auto-width l10n">
-                            Read more about approach
-                        </a>
+                        <a href="problem/acne-scars/treatment" title="Approach" class="mt-xl button b200 outline expand auto-width l10n">Read more about approach</a>
                     </section>
                 <?php } ?>
                 <section id="results" class="large-margin">

@@ -5,7 +5,7 @@
                 <picture>
                     <source media="(max-width: 799px)" srcset="<?php echo $service->image_small ?>">
                     <source media="(min-width: 800px)" srcset="<?php echo $service->image_large ?>">
-                    <img src="<?php echo $service->image_large ?>" alt="<?php echo $service->title ?>" title="<?php echo $service->title ?>" width="102" height="102" />
+                    <img src="<?php echo $service->image_large ?>" alt="<?php echo $service->image_alt ?>" title="<?php echo $service->image_title ?>" width="102" height="102" />
                 </picture>
             </div>
             <div class="ml-m">
@@ -72,10 +72,10 @@
             </div>
             <div class="ml-xl buttons">
                 <?php if (isset($service->consultation_url)) { ?>
-                    <a href="<?php echo $service->consultation_url ?>" class="button expand l10n">Få gratis konsultation</a>
+                    <a href="<?php echo $service->consultation_url ?>" title="<?php echo $service->consultation_url_title ?>" class="button expand l10n">Få gratis konsultation</a>
                 <?php } ?>
                 <?php if (isset($service->booking_url)) { ?>
-                    <a href="<?php echo $service->booking_url ?>" class="mt-s button expand l10n">Boka behandling</a>
+                    <a href="<?php echo $service->booking_url ?>" title="<?php echo $service_booking_url_title ?>" class="mt-s button expand l10n">Boka behandling</a>
                 <?php } ?>
             </div>
         </div>

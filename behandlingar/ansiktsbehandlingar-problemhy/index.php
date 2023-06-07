@@ -11,8 +11,12 @@ $model = new Service(
     content: '',
     image_small: 'https://via.placeholder.com/358x274.webp',
     image_large: 'https://via.placeholder.com/424x456.webp',
+    image_alt: 'Ansiktsbehandlingar för problemhy',
+    image_title: 'Ansiktsbehandlingar för problemhy',
     consultation_url: 'https://bokadirekt.se',
+    consultation_url_title: 'Boka tid för hudkonsultation',
     booking_url: 'https://bokadirekt.se',
+    booking_url_title: 'Boka tid för behandling',
     icons: null,
     short_title: null,
     procedures: array(
@@ -39,10 +43,13 @@ $model = new Service(
         new ServiceCombo(
             image_small: 'https://via.placeholder.com/200x200.webp',
             image_large: 'https://via.placeholder.com/361x274.webp',
+            image_alt: 'Ansiktsbehandlingar för problemhy',
+            image_title: 'Ansiktsbehandlingar för problemhy',
             duration: '50 min',
             price: '2595 kr',
             full_price: '3885 kr',
             booking_url: 'https://bokadirekt.se',
+            booking_url_title: 'Boka tid för behandling',
             items: array(
                 new ServiceComboItem(
                     title: 'Deep bikini',
@@ -57,10 +64,13 @@ $model = new Service(
         new ServiceCombo(
             image_small: 'https://via.placeholder.com/200x200.webp',
             image_large: 'https://via.placeholder.com/361x274.webp',
+            image_alt: 'Ansiktsbehandlingar för problemhy',
+            image_title: 'Ansiktsbehandlingar för problemhy',
             duration: '50 min',
             price: '2595 kr',
             full_price: '3885 kr',
             booking_url: 'https://bokadirekt.se',
+            booking_url_title: 'Boka tid för behandling',
             items: array(
                 new ServiceComboItem(
                     title: 'Deep bikini',
@@ -79,10 +89,13 @@ $model = new Service(
         new ServiceCombo(
             image_small: 'https://via.placeholder.com/200x200.webp',
             image_large: 'https://via.placeholder.com/361x274.webp',
+            image_alt: 'Ansiktsbehandlingar för problemhy',
+            image_title: 'Ansiktsbehandlingar för problemhy',
             duration: '50 min',
             price: '2595 kr',
             full_price: '3885 kr',
             booking_url: 'https://bokadirekt.se',
+            booking_url_title: 'Boka tid för behandling',
             items: array(
                 new ServiceComboItem(
                     title: 'Full legs',
@@ -287,8 +300,12 @@ $types = array(
         content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Chemical peeling',
+        image_title: 'Chemical peeling',
         consultation_url: 'hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/'
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_title: 'Book a chemical peeling',
     ),
     new Service(
         id: 'ansiktsbehandlingar-problemhy/laser-pigmentation',
@@ -298,8 +315,12 @@ $types = array(
         content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Laser',
+        image_title: 'Laser',
         consultation_url: 'hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/'
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_title: 'Book a laser treatment',
     ),
     new Service(
         id: 'ansiktsbehandlingar-problemhy/ipl-pigmentation',
@@ -309,8 +330,12 @@ $types = array(
         content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'IPL',
+        image_title: 'IPL',
         consultation_url: 'hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/'
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_title: 'Book a IPL treatment',
     ),
     new Service(
         id: 'ansiktsbehandlingar-problemhy/freezetreat-pigmentation',
@@ -320,8 +345,12 @@ $types = array(
         content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'FreezeTreat',
+        image_title: 'FreezeTreat',
         consultation_url: 'hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/'
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_title: 'Book a FreezeTreat treatment',
     )
 );
 
@@ -334,8 +363,12 @@ $big_types = array(
         content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
         image_small: 'https://via.placeholder.com/358x274.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
+        image_alt: 'Classic',
+        image_title: 'Classic',
         consultation_url: 'hudkonsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
         booking_url: 'https://www.bokadirekt.se/',
+        booking_url_title: 'Book a classic treatment',
         icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
         procedures: array(
             new Procedure(
@@ -366,8 +399,12 @@ $big_types = array(
         content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
         image_small: 'https://via.placeholder.com/358x274.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
+        image_alt: "The skin therapist's choice",
+        image_title: "The skin therapist's choice",
         consultation_url: 'hudkonsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
         booking_url: 'https://www.bokadirekt.se/',
+        booking_url_title: "Book a skin therapist's choice treatment",
         icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
         procedures: array(
             new Procedure(
@@ -398,8 +435,12 @@ $big_types = array(
         content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
         image_small: 'https://via.placeholder.com/358x274.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
+        image_alt: 'Peel, Boost & Glow',
+        image_title: 'Peel, Boost & Glow',
         consultation_url: 'hudkonsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
         booking_url: 'https://www.bokadirekt.se/',
+        booking_url_title: 'Book a Peel, Boost & Glow treatment',
         icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
         procedures: array(
             new Procedure(
@@ -430,8 +471,12 @@ $big_types = array(
         content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
         image_small: 'https://via.placeholder.com/358x274.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
+        image_alt: 'Luxury',
+        image_title: 'Luxury',
         consultation_url: 'hudkonsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
         booking_url: 'https://www.bokadirekt.se/',
+        booking_url_title: 'Book a Luxury treatment',
         icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
         procedures: array(
             new Procedure(
@@ -652,10 +697,10 @@ $specialists = array(
                     <div class="mt-xl">
                         <div class="columns is-mobile">
                             <div class="column is-half">
-                                <a href="<?php echo $model->consultation_url ?>" class="button b200 white expand l10n">Free consultation</a>
+                                <a href="<?php echo $model->consultation_url ?>" title="<?php echo $model->consultation_url_title ?>" class="button b200 white expand l10n">Free consultation</a>
                             </div>
                             <div class="column is-half">
-                                <a href="<?php echo $model->booking_url ?>" class="button b200 white expand l10n">Book a treatment</a>
+                                <a href="<?php echo $model->booking_url ?>" title="<?php echo $model->booking_url_title ?>" class="button b200 white expand l10n">Book a treatment</a>
                             </div>
                         </div>
                     </div>
@@ -697,8 +742,8 @@ $specialists = array(
                             </div>
                         <?php } ?>
                         <div class="mt-xl flex-row" id="book-buttons">
-                            <a href="<?php echo $model->consultation_url ?>" class="button b200 white l10n">Get a free consultation</a>
-                            <a href="<?php echo $model->booking_url ?>" class="button b200 white l10n">Book a treatment</a>
+                            <a href="<?php echo $model->consultation_url ?>" title="<?php echo $model->consultation_url_title ?>" class="button b200 white l10n">Get a free consultation</a>
+                            <a href="<?php echo $model->booking_url ?>" title="<?php echo $model->booking_url_title ?>" class="button b200 white l10n">Book a treatment</a>
                         </div>
                     </div>
                 </div>

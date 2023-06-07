@@ -2,7 +2,7 @@
     <picture>
         <source media="(max-width: 799px)" srcset="<?php echo $category->image_small ?>">
         <source media="(min-width: 800px)" srcset="<?php echo $category->image_large ?>">
-        <img src="<?php echo $category->image_large ?>" alt="<?php echo $category->label ?>" title="<?php echo $category->label ?>" width="424" height="324" />
+        <img src="<?php echo $category->image_large ?>" alt="<?php echo $category->image_alt ?>" title="<?php echo $category->image_title ?>" width="424" height="324" />
     </picture>
     <div class="service-category-card-content">
         <div>
@@ -19,22 +19,20 @@
             <?php echo $category->content ?>
         </p>
         <div class="is-hidden-tablet">
-            <a href="behandlingar/<?php echo $category->id ?>" class="mt-m button outline expand l10n">
-                Read more
-            </a>
+            <a href="behandlingar/<?php echo $category->id ?>" class="mt-m button outline expand"><?php echo $category->read_more_label ?></a>
             <hr>
-            <a href="<?php echo $category->consultation_url ?>" class="button expand l10n">Get a free consultation</a>
-            <a href="<?php echo $category->booking_url ?>" class="mt-s button expand l10n">Select a procedure</a>
+            <a href="<?php echo $category->consultation_url ?>" title="<?php echo $category->consultation_url_title ?>" class="button expand"><?php echo $category->consultation_url_label ?></a>
+            <a href="<?php echo $category->booking_url ?>" title="<?php echo $category->booking_url_title ?>" class="mt-s button expand"><?php echo $category->booking_url_label ?></a>
         </div>
         <div class="is-hidden-mobile">
-            <a href="behandlingar/<?php echo $category->id ?>" class="mt-m button text compact l10n">Read more</a>
+            <a href="behandlingar/<?php echo $category->id ?>" class="mt-m button text compact"><?php echo $category->read_more_label ?></a>
             <hr>
             <div class="columns is-multiline">
                 <div class="column mt-xxs is-full is-half-widescreen">
-                    <a href="<?php echo $category->consultation_url ?>" class="button expand l10n">Get a free consultation</a>
+                    <a href="<?php echo $category->consultation_url ?>" title="<?php echo $category->consultation_url_title ?>" class="button expand"><?php echo $category->consultation_url_label ?></a>
                 </div>
                 <div class="column mt-xxs is-full is-half-widescreen">
-                    <a href="<?php echo $category->booking_url ?>" class="button expand l10n">Select procedure</a>
+                    <a href="<?php echo $category->booking_url ?>" title="<?php echo $category->booking_url_title ?>" class="button expand"><?php echo $category->booking_url_label ?></a>
                 </div>
             </div>
         </div>

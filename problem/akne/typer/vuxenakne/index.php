@@ -71,8 +71,12 @@ $service = new Service(
     content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
     image_small: 'https://via.placeholder.com/102x102.jpg',
     image_large: 'https://via.placeholder.com/200x200.jpg',
+    image_alt: 'Consultation',
+    image_title: 'Consultation',
     consultation_url: 'hudkonsultation',
-    booking_url: null
+    consultation_url_title: 'Consultation',
+    booking_url: null,
+    booking_url_title: null,
 );
 $solutions = array(
     new Service(
@@ -83,8 +87,12 @@ $solutions = array(
         content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Chemical peeling',
+        image_title: 'Chemical peeling',
         consultation_url: 'hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/'
+        consultation_url_title: 'Consultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_title: 'Book',
     ),
     new Service(
         id: 'laser-pigmentation',
@@ -94,8 +102,12 @@ $solutions = array(
         content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Laser',
+        image_title: 'Laser',
         consultation_url: 'hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/'
+        consultation_url_title: 'Consultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_title: 'Book',
     ),
     new Service(
         id: 'ipl-pigmentation',
@@ -105,8 +117,12 @@ $solutions = array(
         content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'IPL',
+        image_title: 'IPL',
         consultation_url: 'hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/'
+        consultation_url_title: 'Consultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_title: 'Book',
     ),
     new Service(
         id: 'freezetreat-pigmentation',
@@ -116,8 +132,12 @@ $solutions = array(
         content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'FreezeTreat',
+        image_title: 'FreezeTreat',
         consultation_url: 'hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/'
+        consultation_url_title: 'Consultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_title: 'Book',
     )
 
 );

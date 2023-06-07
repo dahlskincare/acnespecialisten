@@ -57,8 +57,12 @@ $problems = array(
         content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
         image_small: 'https://via.placeholder.com/102x102.webp',
         image_large: 'https://via.placeholder.com/200x200.webp',
+        image_alt: 'Akne',
+        image_title: 'Akne',
         consultation_url: 'hudkonsultation',
+        consultation_url_title: 'Book a consultation',
         booking_url: 'bokadirekt',
+        booking_url_title: 'Book a treatment',
     ),
     new Service(
         id: 'akne',
@@ -68,8 +72,12 @@ $problems = array(
         content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
         image_small: 'https://via.placeholder.com/102x102.webp',
         image_large: 'https://via.placeholder.com/200x200.webp',
+        image_alt: 'Akne',
+        image_title: 'Akne',
         consultation_url: 'hudkonsultation',
+        consultation_url_title: 'Book a consultation',
         booking_url: 'bokadirekt',
+        booking_url_title: 'Book a treatment',
     ),
     new Service(
         id: 'akne',
@@ -79,8 +87,12 @@ $problems = array(
         content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
         image_small: 'https://via.placeholder.com/102x102.webp',
         image_large: 'https://via.placeholder.com/200x200.webp',
+        image_alt: 'Akne',
+        image_title: 'Akne',
         consultation_url: 'hudkonsultation',
+        consultation_url_title: 'Book a consultation',
         booking_url: 'bokadirekt',
+        booking_url_title: 'Book a treatment',
     ),
 );
 $results = array(

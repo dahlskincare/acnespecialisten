@@ -3,7 +3,7 @@
         <picture>
             <source media="(max-width: 799px)" srcset="<?php echo $service->image_small ?>">
             <source media="(min-width: 800px)" srcset="<?php echo $service->image_large ?>">
-            <img src="<?php echo $image_large ?>" alt="<?php echo $service->title ?>" title="<?php echo $service->title ?>" width="872" height="456" />
+            <img src="<?php echo $image_large ?>" alt="<?php echo $service->image_alt ?>" title="<?php echo $service->image_title ?>" width="872" height="456" />
         </picture>
     </div>
     <div class="service-card-big-content">
@@ -37,7 +37,7 @@
                             </div>
                         </div>
                         <?php if (isset($procedure->booking_url)) { ?>
-                            <a href="<?php echo $procedure->booking_url ?>" class="button l10n">Book</a>
+                            <a href="<?php echo $procedure->booking_url ?>" title="<?php echo $procedure->booking_url_title ?>" class="button l10n">Book</a>
                         <?php } ?>
                     </div>
                 <?php } ?>
@@ -52,7 +52,7 @@
                             <span class="price"><?php echo $procedure->price ?></span>
                         </div>
                         <?php if (isset($procedure->booking_url)) { ?>
-                            <a href="<?php echo $procedure->booking_url ?>" class="button l10n">Book</a>
+                            <a href="<?php echo $procedure->booking_url ?>" title="<?php echo $procedure->booking_url_title ?>" class="button l10n">Book</a>
                         <?php } ?>
                     </div>
                 <?php } ?>

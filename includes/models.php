@@ -1,136 +1,16 @@
 <?php
 $root = $_SERVER['DOCUMENT_ROOT'];
-require_once($root . '/includes/models/specialist.php');
 require_once($root . '/includes/models/accordion_item.php');
 require_once($root . '/includes/models/approach_card.php');
 require_once($root . '/includes/models/based_type.php');
 require_once($root . '/includes/models/brand.php');
-require_once($root . '/includes/models/salon.php');
-require_once($root . '/includes/models/skin_guide.php');
 require_once($root . '/includes/models/green_banner_content.php');
-
-
-class PathSegment
-{
-    public function __construct($name, $url = null)
-    {
-        $this->name = $this->format_name($name);
-        if ($url == null) {
-            $parsed_url = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
-            $this->url = substr($parsed_url, 0, strpos($parsed_url, $name) + strlen($name));
-        } else {
-            $this->url = $url;
-        }
-    }
-
-    public string $name;
-    public string $url;
-
-    function format_name(string $s)
-    {
-        return ucfirst(str_replace('-', ' ', $s));
-    }
-}
-
-
-
-
-class Procedure
-{
-    public function __construct($label, $full_price, $price, $booking_url = null)
-    {
-        $this->label = $label;
-        $this->full_price = $full_price;
-        $this->price = $price;
-        $this->booking_url = $booking_url;
-    }
-
-    public string $label;
-    public ?string $full_price;
-    public string $price;
-    public ?string $booking_url;
-}
-
-class Service
-{
-    public function __construct(
-        $id,
-        $title,
-        $duration,
-        $price,
-        $content,
-        $image_small,
-        $image_large,
-        $consultation_url,
-        $booking_url,
-        $icons = array(),
-        $short_title = null,
-        $procedures = array(),
-        $combos = array(),
-    ) {
-        $this->id = $id;
-        $this->title = $title;
-        $this->duration = $duration;
-        $this->price = $price;
-        $this->content = $content;
-        $this->image_small = $image_small;
-        $this->image_large = $image_large;
-        $this->consultation_url = $consultation_url;
-        $this->booking_url = $booking_url;
-        $this->icons = $icons;
-        $this->short_title = $short_title;
-        $this->procedures = $procedures;
-        $this->combos = $combos;
-    }
-
-    public string $id;
-    public string $title;
-    public ?string $duration;
-    public ?string $price;
-    public string $image_small;
-    public string $image_large;
-    public string $content;
-    public ?string $consultation_url;
-    public ?string $booking_url;
-    public ?array $icons;
-    public ?string $short_title;
-    public array $procedures;
-    public array $combos;
-}
-
-class ServiceCombo
-{
-    public function __construct($image_small, $image_large, $duration, $price, $full_price, $booking_url, $items)
-    {
-        $this->image_small = $image_small;
-        $this->image_large = $image_large;
-        $this->duration = $duration;
-        $this->price = $price;
-        $this->full_price = $full_price;
-        $this->booking_url = $booking_url;
-        $this->items = $items;
-    }
-
-    public string $image_small;
-    public string $image_large;
-    public string $duration;
-    public string $price;
-    public string $full_price;
-    public string $booking_url;
-    public array $items;
-}
-
-class ServiceComboItem
-{
-    public function __construct($title, $price)
-    {
-        $this->title = $title;
-        $this->price = $price;
-    }
-
-    public string $title;
-    public string $price;
-}
+require_once($root . '/includes/models/path_segment.php');
+require_once($root . '/includes/models/procedure.php');
+require_once($root . '/includes/models/salon.php');
+require_once($root . '/includes/models/service.php');
+require_once($root . '/includes/models/skin_guide.php');
+require_once($root . '/includes/models/specialist.php');
 
 class Product
 {

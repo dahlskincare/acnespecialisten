@@ -124,8 +124,12 @@ $service = new Service(
       content: 'Vid ett personligt möte med en AcneSpecialist utförs en undersökning av din seborré. Vi tar före-bilder på din hud och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
       image_small: 'images/services/200x200/konsultation.webp',
       image_large: 'images/services/200x200/konsultation.webp',
+      image_alt: 'Konsultation',
+      image_title: 'Konsultation',
       consultation_url: 'hudkonsultation',
-      booking_url: null
+      consultation_url_title: 'Boka gratis konsultation',
+      booking_url: null,
+      booking_url_title: null,
 );
 $services = array(
       new Service(
@@ -136,8 +140,12 @@ $services = array(
             content: 'Under en ansiktsbehandling mot seborré utförs en djuprengöring av huden för att avlägsna överflödigt talg och döda hudceller, vilket bidrar till att balansera huden. Behandlingen lindrar inflammation och rodnad, vilket hjälper till att lugna huden och minska symtom på seborré.',
             image_small: 'images/services/200x200/ansiktsbehandling-akne.webp',
             image_large: 'images/services/200x200/ansiktsbehandling-akne.webp',
+            image_alt: 'Ansiktsbehandling mot seborré',
+            image_title: 'Ansiktsbehandling mot seborré',
             consultation_url: 'hudkonsultation',
+            consultation_url_title: 'Boka gratis konsultation',
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
+            booking_url_title: 'Boka ansiktsbehandling mot seborré'
       ),
 );
 $products = array(
@@ -149,8 +157,12 @@ $products = array(
             content: 'För att effektivt bekämpa och förebygga seborré är daglig behandling med rätt produkter avgörande. Våra seborréprodukter är speciellt utformade för att hålla din hud i balans och förhindra att ny seborré uppstår.',
             image_small: 'images/services/200x200/produkter-akne.webp',
             image_large: 'images/services/200x200/produkter-akne.webp',
+            image_alt: 'Produkter mot seborré',
+            image_title: 'Produkter mot seborré',
             consultation_url: null,
-            booking_url: null
+            consultation_url_title: null,
+            booking_url: null,
+            booking_url_title: null,
       )
 );
 $articles = array(
