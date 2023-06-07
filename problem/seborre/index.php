@@ -30,7 +30,7 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
             title: 'är seborré?',
-            content: '<p class="p200">Seborré är en relativt vanlig hudåkomma som kännetecknas av fläckar av röd, fjällande, ibland kliande hud som kan bli fet eller oljig. Trots sitt utseende och sina ibland obekväma symtom, är seborré helt ofarligt. Det är en kronisk åkomma, vilket innebär att den tenderar att komma och gå under en persons livstid. Tillståndet kan uppstå var som helst på kroppen där det finns talgkörtlar, men är vanligast i ansiktet, på hårbotten, bröstet och ryggen.</p>',
+            content: '<p class="p200">Seborré är en relativt vanlig hudåkomma som kännetecknas av fläckar av röd, fjällande, ibland kliande hud som kan bli fet eller oljig. Trots sitt utseende och sina ibland obekväma symtom, är seborré helt ofarligt. Det är en kronisk åkomma, vilket innebär att den tenderar att komma och gå under en persons livstid.</p>',
 
             extended_content: '<p class="p200">På AcneSpecialisten förstår vi att även om seborré inte är farligt, kan dess symptom vara besvärliga och störande. Vi erbjuder ett brett utbud av individuellt anpassade behandlingar och produkter som kan hjälpa till att kontrollera symptomen, minska obehag och förbättra det allmänna utseendet på huden.</p>',
             icons: array()
@@ -40,28 +40,30 @@ $trivias = array(
             title: 'får man seborré?',
             content: '<p class="p200">Seborré orsakas av flera sammanflätade faktorer. Centrala faktorer som bidrar till uppkomsten av detta hudtillstånd är överproduktion av talg och kroppens svar på den. Talg är en naturligt förekommande fet substans som produceras av hudens talgkörtlar för att hålla huden smidig och skyddad mot uttorkning och infektioner. När talgproduktionen ökar, blir huden mer oljig vilket ger en grogrund för vissa typer av hudbakterier och jästsvampar, detta kan leda till irritation, inflammation och en snabbare cellomsättning vilket resulterar i flagnande hud.</p>',
 
-            extended_content: '<p class="p200">Hormonella förändringar, såsom de som sker under puberteten eller vid vissa tidpunkter i den menstruella cykeln, påverkar talgproduktionen och därmed risken för seborré. Dessutom har stress och brist på sömn en inverkan på huden och kroppens reglering av talgproduktionen vilket kan leda till seborré. På AcneSpecialisten har vi stor erfarenhet av att behandla seborré och vi kan erbjuda individuella behandlingsplaner för att hjälpa till att kontrollera och hantera ditt specifika tillstånd.</p>
+            extended_content: '<p class="p200">Hormonella förändringar, såsom de som sker under puberteten eller vid vissa tidpunkter i den menstruella cykeln, påverkar talgproduktionen och därmed risken för seborré. Dessutom har stress och brist på sömn en inverkan på huden och kroppens reglering av talgproduktionen vilket kan leda till seborré.</p>
 
-            <p class="p200 mt-xl">På AcneSpecialisten vet vi hur besvärlig seborré kan vara, och vi är här för att hjälpa. Vi erbjuder individuell rådgivning och behandlingar för att hjälpa dig att hantera ditt seborré och förbättra din hudhälsa.</p>',
-            icons: array('who-infants' => 'Hormoner', 'who-teenagers' => 'Stress', 'who-adults' => 'Genetik', 'who-elders' => 'Livsstil', 'who-elders' => 'Svampen Malassezia', 'who-elders' => 'Kyla')
+            <p class="p200 mt-xl">På AcneSpecialisten har vi stor erfarenhet av att behandla seborré och vi kan erbjuda individuella behandlingsplaner för att hjälpa till att kontrollera och hantera ditt specifika tillstånd.</p>',
+            icons: array('who-infants' => 'Hormoner', 'who-teenagers' => 'Stress', 'who-adults' => 'Genetik', 'who-elders' => 'Livsstil', 'who-elders' => 'Kyla')
       ),
       new ProblemTrivia(
             prefix: 'Vem',
             title: 'får seborré?',
-            content: '<p class="p200">Seborré är en hudåkomma som kan drabba människor i alla åldrar, men den är vanligast hos spädbarn och vuxna mellan 30 och 60 år. Den är också lite mer vanlig hos män än hos kvinnor.</p>',
+            content: '<p class="p200">Seborré kan drabba individer i alla åldrar och från alla bakgrunder, men det är särskilt vanligt i två specifika åldersgrupper. För det första är seborré vanligt hos vuxna, särskilt mellan 30 och 60 år. Män har ofta en högre frekvens av seborré än kvinnor, vilket tros vara kopplat till att män har en större mängd talgkörtlar och en högre talgproduktion. De med fet hudtyp har också större benägenhet att drabbas av seborré.</p>',
 
-            extended_content: '<p class="p200">Spädbarn kan också drabbas av en form av seborré, känt som "mjölkskorv", men detta tenderar att försvinna av sig själv inom det första levnadsåret och ska inte förväxlas med den vuxna formen av seborré.</p>
+            extended_content: '<p class="p200">För det andra är det vanligt hos spädbarn, vanligtvis under de första tre månaderna av livet, där det ofta kallas "mjölkskorv". Hos spädbarn presenterar sig seborré oftast som en gulaktig, fjällande skorpbildning på huvudet.</p>
 
             <p class="p200 mt-xl">På AcneSpecialisten vet vi hur besvärlig seborré kan vara, och vi är här för att hjälpa. Vi erbjuder individuell rådgivning och behandlingar för att hjälpa dig att hantera ditt seborré och förbättra din hudhälsa.</p>',
-            icons: array('who-infants' => 'Barn', 'who-teenagers' => 'Ungdomar', 'who-adults' => 'Vuxna')
+            icons: array('who-infants' => 'Barn', 'who-adults' => 'Vuxna')
       ),
       new ProblemTrivia(
             prefix: 'Var',
             title: 'får man seborré?',
-            content: '<p class="p200">Seborré uppstår ofta i de områden av kroppen som har den högsta koncentrationen av talgkörtlar. Detta inkluderar ansiktet, hårbotten, bröstet och ryggen. Symptomen kan variera beroende på person och plats, men de innefattar vanligtvis rödhet, klåda och fjällande hud som kan bli fet eller oljig.</p>',
+            content: '<p class="p200">Seborré uppstår ofta i ansiktet, framförallt i områden med hög koncentration av talgkörtlar, såsom runt näsan, ögonbrynen, pannan och ögonlocken. Här kan tillståndet ge röda, fjällande, oljiga fläckar som kan vara svåra att dölja och orsaka obehag.</p>',
 
-            extended_content: '<p class="p200">Det är viktigt att komma ihåg att seborré inte är smittsamt - du kan inte få det från någon annan, och du kan inte sprida det till andra. Dessutom har seborré inget att göra med personlig hygien. Det är helt enkelt ett resultat av hur din hud reagerar på vissa interna och externa faktorer. På AcneSpecialisten är vi experter på att hantera seborré. Vi erbjuder ett brett utbud av behandlingar och produkter som kan hjälpa dig att kontrollera dina symptom och förbättra din hudhälsa.</p>',
-            icons: array('who-infants' => 'Ansiktet', 'who-teenagers' => 'Ryggen', 'who-adults' => 'Bröstet', 'who-elders' => 'Hårbotten')
+            extended_content: '<p class="p200">Ett annat vanligt område är hårbotten, där överdriven talgproduktion kan leda till mjäll. Även områden som öron, bröst och mitten av ryggen kan drabbas, där seborré kan skapa röda, flagnande fläckar. Trots att dessa områden är mest utsatta, kan seborré dyka upp var som helst på kroppen där talgproduktionen är hög. </p>
+
+            <p class="p200 mt-xl">På AcneSpecialisten är vi experter på att hantera seborré. Vi erbjuder ett brett utbud av behandlingar och produkter som kan hjälpa dig att kontrollera dina symptom och förbättra din hudhälsa.</p>',
+            icons: array('who-infants' => 'Ögonbryn', 'Näsa' => 'Ryggen', 'who-adults' => 'Panna', 'who-elders' => 'Hårbotten')
       ),
 );
 $treatment_steps = array(
@@ -87,6 +89,13 @@ $treatment_steps = array(
 $symptoms = array(
       new Symptom(
             url: '',
+            name: 'Flagnande hy',
+            aka: '',
+            image: 'images/symptoms/102x102/komedoner-stangda.webp',
+            content: 'Seborré kan leda till flagnande hy, vilket kan vara särskilt märkbart i hårbotten. Dessa flarn eller skorpor är oftast oljiga och kan vara gulaktiga till färgen. Detta symptom kan vara mer märkbart i hårbotten men kan också ses på andra drabbade områden.'
+      ),
+      new Symptom(
+            url: '',
             name: 'Mjäll',
             aka: '',
             image: 'images/symptoms/102x102/komedoner-stangda.webp',
@@ -98,13 +107,6 @@ $symptoms = array(
             aka: '',
             image: 'images/symptoms/102x102/komedoner-oppna.webp',
             content: 'Ett av de mest framträdande symptomen på seborré är klåda. Detta kan variera från mild till intensiv, beroende på svårighetsgraden av tillståndet. Klåda kan förekomma på alla platser där seborré uppstår, som hårbotten, ansiktet och bröstet, och kan orsaka obehag och irritation.'
-      ),
-      new Symptom(
-            url: '',
-            name: 'Flagnande hy',
-            aka: '',
-            image: 'images/symptoms/102x102/komedoner-stangda.webp',
-            content: 'Seborré kan leda till flagnande hy, vilket kan vara särskilt märkbart i hårbotten. Dessa flarn eller skorpor är oftast oljiga och kan vara gulaktiga till färgen. Detta symptom kan vara mer märkbart i hårbotten men kan också ses på andra drabbade områden.'
       ),
       new Symptom(
             url: '',
