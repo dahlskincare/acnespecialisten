@@ -99,7 +99,7 @@ $symptoms = array(
             name: 'Mjäll',
             aka: '',
             image: 'images/symptoms/102x102/komedoner-stangda.webp',
-            content: 'Mjäll är vita till gula, små flagor av döda hudceller som lossnar från huden, specifikt från hårbotten. Detta är en typ av flagnande som är vanligt i seborré och är oftast mer uttalad än normalt flagnande.'
+            content: 'Mjäll är vita till gula, små flagor av döda hudceller som lossnar från huden, specifikt från områden med hårväxt såsom ögonbryn, skäggväxt och hårbotten. Detta är en typ av flagnande som är vanligt i seborré och är oftast mer uttalad än normalt flagnande.'
       ),
       new Symptom(
             url: '',
