@@ -300,7 +300,7 @@ $problem_areas = array(
             problem_ids: array('operations-arr')
       ),
       new ProblemArea(
-            label: 'kinder',
+            label: 'Kinder',
             icon: 'area-face',
             problem_ids: array('akne', 'aknearr', 'pormaskar', 'rosacea', 'seborre', 'perioral-dermatit', 'stora-porer', 'pigmentflackar', 'blandhy', 'torr-kanslig-hy', 'mogen-hy', 'milier', 'ytliga-blodkarl', 'hudforandringar', 'finnar', 'bristningar', 'operations-arr', 'oonskad-harvaxt', 'arr-fran-finnar')
       ),
