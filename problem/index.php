@@ -50,6 +50,19 @@ $problems['akne'] = new Problem(
       image_title: 'Akne',
       info: 'Akne är den allra vanligaste typen av hudproblem och identifieras av finnar i ansiktet eller på andra delar av kroppen. Det påverkar människor i alla åldrar och orsakas av inflammation i hårsäckarna och talgkörtlarna. Det kan leda till finnar, pormaskar och ibland ärr. Behandla och förebygga akne effektivt genom skräddarsydda behandlingar och en korrekt hudvårdsrutin.'
 );
+
+$problems['akne-rygg'] = new Problem(
+      label: 'Akne',
+      url: 'problem/akne-rygg',
+      url_title: 'Akne',
+      consultation_url: 'hudkonsultation',
+      booking_url: 'https://www.bokadirekt.se',
+      image: 'images/problems/424x324/akne.webp',
+      image_alt: 'Akne',
+      image_title: 'Akne',
+      info: 'Akne är den allra vanligaste typen av hudproblem och identifieras av finnar i ansiktet eller på andra delar av kroppen. Det påverkar människor i alla åldrar och orsakas av inflammation i hårsäckarna och talgkörtlarna. Det kan leda till finnar, pormaskar och ibland ärr. Behandla och förebygga akne effektivt genom skräddarsydda behandlingar och en korrekt hudvårdsrutin.'
+);
+
 $problems['aknearr'] = new Problem(
       label: 'Akneärr',
       url: 'problem/aknearr',
@@ -277,12 +290,12 @@ $problem_areas = array(
       new ProblemArea(
             label: 'Kropp',
             icon: 'area-face',
-            problem_ids: array('akne', 'aknearr', 'pormaskar', 'stora-porer', 'pigmentflackar', 'ytliga-blodkarl', 'hudforandringar', 'finnar', 'bristningar', 'operations-arr', 'oonskad-harvaxt', 'arr-fran-finnar')
+            problem_ids: array('akne-rygg', 'aknearr', 'pormaskar', 'stora-porer', 'pigmentflackar', 'ytliga-blodkarl', 'hudforandringar', 'finnar', 'bristningar', 'operations-arr', 'oonskad-harvaxt', 'arr-fran-finnar')
       ),
       new ProblemArea(
             label: 'Rygg',
             icon: 'area-face',
-            problem_ids: array('akne', 'aknearr', 'pormaskar', 'rosacea', 'seborre', 'perioral-dermatit', 'stora-porer', 'pigmentflackar', 'blandhy', 'torr-kanslig-hy', 'mogen-hy', 'milier', 'ytliga-blodkarl', 'hudforandringar', 'finnar', 'bristningar', 'operations-arr', 'oonskad-harvaxt', 'arr-fran-finnar')
+            problem_ids: array('akne-rygg', 'aknearr', 'pormaskar', 'rosacea', 'seborre', 'perioral-dermatit', 'stora-porer', 'pigmentflackar', 'blandhy', 'torr-kanslig-hy', 'mogen-hy', 'milier', 'ytliga-blodkarl', 'hudforandringar', 'finnar', 'bristningar', 'operations-arr', 'oonskad-harvaxt', 'arr-fran-finnar')
       ),
       new ProblemArea(
             label: 'Bröst',
