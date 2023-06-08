@@ -27,7 +27,7 @@ $about_content = '<p class="p200">På Acnespecialisten har vi expertisen och ver
 $define_content = '<p class="p200">Det första steget i vår process på Acnespecialisten är att identifiera din specifika typ av akne. Varje individs hud är unik, och det är därför viktigt att förstå exakt vilken typ av akne du har för att kunna erbjuda den mest effektiva behandlingen. Vi börjar med en kostnadsfri hudkonsultation där våra erfarna hudterapeuter analyserar din hud och dess specifika behov. Vi tar oss tid att diskutera dina hudproblem, dina mål med behandlingen och eventuella tidigare erfarenheter av hudvård eller aknebehandling. Genom denna noggranna analys kan vi skräddarsy en behandlingsplan som är skräddarsydd för just dig och din hud.</p>
 
     <p class="p200 mt-xl">Som en del av denna första fas tar vi även förebilder på din hud. Dessa bilder hjälper oss att tydligt följa din huds framsteg och anpassa din behandlingsplan när vi ser hur din hud svarar på behandlingen. En annan viktig aspekt av detta första steg är tilldelningen av en personlig hudterapeut. Din hudterapeut kommer att vara med dig genom hela din behandlingsresa, från den första konsultationen till ditt slutliga resultat. Denna konsekventa omsorg säkerställer att du alltid har en expert vid din sida som förstår din hud och dina specifika behov. Identifiering är avgörande eftersom alla typer av akne inte svarar likadant på behandlingar. Olika typer av akne kan kräva olika behandlingsmetoder, så förståelsen för din specifika akne är grunden för vår behandlingsprocess. Hos Acnespecialisten är vi dedikerade till att ge dig den bästa möjliga behandlingen för din akne, och det börjar med att noggrant identifiera och förstå din unika hud.</p>';
-    
+
 $define_consultation_url = 'hudkonsultation';
 $services = array(
     new Service(
@@ -160,7 +160,7 @@ $repair_url = 'treatments/acne';
                 <div id="overlay">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
                     <div>
-                        <h2 class="h600">
+                        <h2 class="h500">
                             <?php echo $title ?>
                         </h2>
                         <div class="mt-xl">
