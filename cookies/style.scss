@@ -129,16 +129,6 @@ html {
       }
     }
 
-
-    #about-cookies,
-    #privacy-policy {
-      scroll-margin-top: $header-height + 80px;
-
-      @include desktop {
-        scroll-margin-top: $header-height-large + 80px;
-      }
-    }
-
     .cookies-about-cookies {
       @include h500;
       margin-top: $xl3;

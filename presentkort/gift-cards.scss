@@ -91,8 +91,6 @@ div#content {
     }
 
     section#steps {
-        scroll-margin-top: $header-height + 80px;
-
         .gc-number {
             background-color: $deep-sea-400;
             width: 52px;
@@ -112,7 +110,6 @@ div#content {
         .is-hidden-desktop {
             .gift-card-step {
                 margin-top: $xl;
-                scroll-margin-top: $header-height + 80px;
                 padding: $xl;
                 border: 1px solid $light-200;
                 border-radius: $radius-l;
@@ -142,7 +139,6 @@ div#content {
         .is-hidden-touch {
             .gift-card-step {
                 margin-top: $xl;
-                scroll-margin-top: $header-height + 80px;
                 padding: $xl;
                 border: 1px solid $light-200;
                 border-radius: $radius-l;

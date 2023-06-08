@@ -5,6 +5,15 @@ html {
     scroll-behavior: smooth;
 
     body {
+
+        section {
+            scroll-margin-top: $header-height + 80px;
+
+            @include desktop {
+                scroll-margin-top: $header-height-large + 80px;
+            }
+        }
+
         section#header {
             #green-header-small {
                 background-color: $deep-sea-400;
@@ -53,8 +62,6 @@ html {
                 }
 
                 section#about {
-                    scroll-margin-top: $header-height + 80px;
-
                     img {
                         margin-top: $xl;
                         width: 100%;
@@ -110,7 +117,6 @@ html {
                 }
 
                 section#types {
-                    scroll-margin-top: $header-height + 80px;
 
                     hr {
                         margin: $xl 0;

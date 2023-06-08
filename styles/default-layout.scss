@@ -358,14 +358,21 @@ html {
         main {
             flex: auto;
 
+            section {
+                scroll-margin-top: $header-height + 80px;
+            }
 
             section.large-margin {
                 margin-top: 72px;
-                scroll-margin-top: $header-height + 80px;
+            }
 
-                @include desktop {
-                    margin-top: 104px;
+            @include desktop {
+                section {
                     scroll-margin-top: $header-height-large + 80px;
+                }
+
+                section.large-margin {
+                    margin-top: 104px;
                 }
             }
 
