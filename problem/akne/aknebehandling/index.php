@@ -4,7 +4,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $image_large = 'images/treatments/large/acne-scars.jpg';
 $image_small = 'images/treatments/small/acne-scars.jpg';
-$problem = 'acne scars';
+$problem = 'akne';
 $title = 'Aknebehandlingar';
 $description = 'Här har vi samlat de mest effektiva behandlingsmetoderna för alla typer av akne. Oavsett ditt specifika behov har vi lösningen för dig. Är du osäker på vilken aknebehandling som passar din hudtyp bäst? Oroa dig inte, boka en kostnadsfri konsultation hos oss på Acnespecialisten så hjälper vi dig vidare mot en klarare och friskare hy.';
 $nav_buttons = array(
@@ -49,7 +49,7 @@ $services = array(
         consultation_url: 'konsultation-akne',
         consultation_url_title: 'konsultation mot akne',
         booking_url: 'boka-ansiktsbehandling-akne',
-        booking_url_title: 'Boka behandling',
+        booking_url_title: 'Boka ansiktsbehandling mot akne',
         icons: array('who-infants' => 'Djuprengörande', 'who-elders' => 'Hudbalanserande', 'who-teenagers' => 'Porrensande', 'who-adults' => 'Anti-inflammatorisk'),
         short_title: 'Microneedling'
     ),
@@ -61,8 +61,8 @@ $services = array(
         content: '<p class="p200">Laserbehandling för akne hos Acnespecialisten fungerar genom att använda ljusenergi för att behandla inflammationen i huden som orsakar akne. Laserstrålen tränger ner i huden och behandlar de djupa lager där akne börjar. Denna metod reducerar oljeproduktionen i huden och dödar bakterier som bidrar till akneutbrott.</p>',
         image_small: 'https://via.placeholder.com/358x274.jpg',
         image_large: 'https://via.placeholder.com/852x456.jpg',
-        image_alt: 'Laser mot akne',
-        image_title: 'Laser mot akne',
+        image_alt: 'Laserbehandling mot akne',
+        image_title: 'Laserbehandling mot akne',
         consultation_url: 'konsultation-laser',
         consultation_url_title: 'Konsultation mot akne',
         booking_url: 'Boka behandling',
@@ -80,10 +80,10 @@ $services = array(
         image_large: 'https://via.placeholder.com/852x456.jpg',
         image_alt: 'Chemical peeling for acne scars',
         image_title: 'Chemical peeling for acne scars',
-        consultation_url: 'hudkonsultation',
-        consultation_url_title: 'Book a consultation',
-        booking_url: null,
-        booking_url_title: null,
+        consultation_url: 'konsultation-kemisk-peeling',
+        consultation_url_title: 'Konsultation mot akne',
+        booking_url: 'Boka behandling',
+        booking_url_title: 'Boka kemisk peeling mot akne',
         icons: array('who-infants' => 'Exfolierande', 'who-elders' => 'Förnyande', 'who-teenagers' => 'Uppfräschande', 'who-adults' => 'Ljusande'),
         short_title: 'Chemical peeling'
     ),
@@ -109,13 +109,13 @@ $products = array(
     new Product(
         url: 'PRODUKT-URL-HÄR',
         url_label: 'Läs mer',
-        url_title: 'Balancing cleanser',
+        url_title: 'Hudvårdsprodukter mot akne',
         price: 'Pris från 995 kr',
         content: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>',
         image_small: 'https://via.placeholder.com/358x274.jpg',
         image_large: 'https://via.placeholder.com/872x456.jpg',
-        image_alt: 'Balancing cleanser',
-        image_title: 'Balancing cleanser',
+        image_alt: 'Hudvårdsprodukter mot akne',
+        image_title: 'Hudvårdsprodukter mot akne',
     ),
 );
 $specialists = array(
@@ -297,7 +297,7 @@ $repair_url = 'treatments/acne';
                 </section>
                 <?php if (isset($products) && sizeof($products) > 0) { ?>
                     <section id="prevent">
-                        <h2 class="h500 l10n">03. Motverka ...</h2>
+                        <h2 class="h500 l10n">03. Förebygg akne</h2>
                         <?php foreach ($products as $product) {
                             include('../../widgets/product-card/product-card.php');
                         } ?>
@@ -305,7 +305,7 @@ $repair_url = 'treatments/acne';
                 <?php } ?>
                 <?php if (isset($repair_title) && isset($repair_content) && isset($repair_image_small) && isset($repair_image_large) && isset($repair_url)) { ?>
                     <section id="repair">
-                        <h2 class="h500 l10n">04. Repair</h2>
+                        <h2 class="h500 l10n">04. Reparera post akne (Acneärr)</h2>
                         <picture>
                             <source media="(max-width: 799px)" srcset="<?php echo $repair_image_small ?>">
                             <source media="(min-width: 800px)" srcset="<?php echo $repair_image_large ?>">
