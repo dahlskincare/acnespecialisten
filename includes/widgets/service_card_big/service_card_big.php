@@ -8,8 +8,18 @@
     </div>
     <div class="service-card-big-content">
         <div class="service-card-title"><?php echo $service->title ?></div>
-        <?php if (isset($service->duration)) { ?>
-            <div class="service-duration"><?php echo $service->duration ?></div>
+        <?php if (isset($service->duration) || isset($service->price)) { ?>
+            <div class="service-info">
+                <div class="p200">
+                    <?php echo $service->duration ?>
+                </div>
+                <?php if (isset($service->duration) && isset($service->price)) { ?>
+                    <div class="service-dot"></div>
+                <?php } ?>
+                <div class="p200">
+                    <?php echo $service->price ?>
+                </div>
+            </div>
         <?php } ?>
         <?php if (isset($service->icons) && sizeof($service->icons) > 0) { ?>
             <div class="service-card-icons">

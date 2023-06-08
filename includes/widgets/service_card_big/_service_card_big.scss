@@ -58,11 +58,22 @@
             border-top: 1px solid $light-200;
         }
 
-        .service-duration {
+        .service-info {
             margin-top: $xxs;
             color: $dark-200;
             @include p200;
+            display: flex;
+            align-items: center;
+
+            .service-dot {
+                width: 5px;
+                height: 5px;
+                border-radius: 5px;
+                background-color: $dark-25;
+                margin: 0 $xs;
+            }
         }
+
 
         .service-card-procedures {
             margin-top: $m;
