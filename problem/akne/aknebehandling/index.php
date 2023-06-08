@@ -246,7 +246,7 @@ $repair_url = 'treatments/acne';
                     <div class="mt-xl"><?php echo $about_content ?></div>
                 </section>
                 <section id="define">
-                    <h2>01. Identifiera din akne</h2>
+                    <h2 class="h500">01. Identifiera din akne</h2>
                     <picture>
                         <source media="(max-width: 799px)" srcset="images/service-categories/medium/consultation.jpg">
                         <source media="(min-width: 800px)" srcset="images/service-categories/large/consultation.jpg">
