@@ -246,17 +246,17 @@ $repair_url = 'treatments/acne';
                     <div class="mt-xl"><?php echo $about_content ?></div>
                 </section>
                 <section id="define">
-                    <h2 class="h500">01. Identifiera din akne</h2>
+                    <h2 class="h500 l10n">01. Identifiera din akne</h2>
                     <picture>
                         <source media="(max-width: 799px)" srcset="images/service-categories/medium/consultation.jpg">
                         <source media="(min-width: 800px)" srcset="images/service-categories/large/consultation.jpg">
                         <img class="mt-xl step-image" src="images/service-categories/large/consultation.jpg" alt="<?php echo $title ?>" title="<?php echo $title ?>" width="872" height="456" />
                     </picture>
                     <div class="mt-xl"><?php echo $define_content ?></div>
-                    <a href="<?php echo $define_consultation_url ?>" class="mt-xl button b200 l10n">Få gratis konsultation</a>
+                    <a href="<?php echo $define_consultation_url ?>" title="Konsultation" class="mt-xl button b200 l10n">Få gratis konsultation</a>
                 </section>
                 <section id="treat">
-                    <h2 class="h500">01. Behandla aktiv akne</h2>
+                    <h2 class="h500 l10n">02. Behandla aktiv akne</h2>
                     <p class="mt-xs l10n">
                         Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.
                     </p>
@@ -269,11 +269,9 @@ $repair_url = 'treatments/acne';
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card_big/service_card_big.php');
                     } ?>
                 </section>
-                <?php if (sizeof($products) > 0) { ?>
+                <?php if (isset($products) && sizeof($products) > 0) { ?>
                     <section id="prevent">
-                        <h2>
-                            <span class="h500 l10n">03.&nbsp;&nbsp;Prevent</span>
-                        </h2>
+                        <h2 class="h500 l10n">03. Motverka ...</h2>
                         <?php foreach ($products as $product) {
                             include('../../widgets/product-card/product-card.php');
                         } ?>
