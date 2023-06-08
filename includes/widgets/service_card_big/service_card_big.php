@@ -71,5 +71,8 @@
         <?php if (isset($service->consultation_url)) { ?>
             <a href="<?php echo $service->consultation_url ?>" title="<?php echo $service->consultation_url_title ?>" class="button book-button"><?php echo $service->consultation_url_label ?></a>
         <?php } ?>
+        <?php if (isset($service->booking_url)) { ?>
+            <a href="<?php echo $service->booking_url ?>" title="<?php echo $service->booking_url_title ?>" class="button book-button"><?php echo $service->booking_url_label ?></a>
+        <?php } ?>
     </div>
 </div>
