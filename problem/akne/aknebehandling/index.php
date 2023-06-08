@@ -21,23 +21,19 @@ $nav_buttons = array(
 );
 $about_title = 'Hur behandlar man akne?';
 $about_content = '<p class="p200">På Acnespecialisten har vi expertisen och verktygen för att hjälpa dig att effektivt behandla och kontrollera akne. Vår omfattande strategi för aknebehandling börjar med att vi identifierar ditt specifika problem genom en kostnadsfri hudkonsultation. Vi tar oss tid att förstå din hud och din akne innan vi skräddarsyr en behandlingsplan anpassad just för dig. Våra behandlingar omfattar allt från avancerade ansiktsbehandlingar till avancerade lasertekniker, alla utformade för att effektivt behandla akne.</p>
-
     <p class="p200 mt-m">I nästa steg fokuserar vi på att behandla din akne med de mest effektiva metoderna anpassade till ditt specifika fall. Vi använder beprövade tekniker såsom kemisk peeling och microneedling för att både behandla befintlig akne och minska risken för framtida utbrott. För att förebygga ytterligare utbrott och upprätthålla resultaten från behandlingarna hjälper vi dig att utveckla en skräddarsydd hudvårdsrutin med produkter specifikt utvalda för att behndla akne. Slutligen riktar vi in oss på att reparera eventuella ärr som aknen kan ha lämnat efter sig. Oavsett svårighetsgraden av din akne, är vi på Acnespecialisten här för att hjälpa dig att återfå en klar, hälsosam hy. Låt oss bli din guide och personliga hudterapeut på din resa mot en aknefri hy!</p>';
-
 $define_content = '<p class="p200">Det första steget i vår process är att identifiera din specifika typ av akne. Varje individs hud är unik, och det är därför viktigt att förstå exakt vilken typ av akne du har för att kunna erbjuda den mest effektiva behandlingen. Vi börjar med en kostnadsfri hudkonsultation där våra erfarna hudterapeuter analyserar din hud och dess specifika behov. Vi tar oss tid att diskutera dina hudproblem, dina mål med behandlingen och eventuella tidigare erfarenheter av hudvård eller aknebehandling. Genom denna noggranna analys kan vi skräddarsy en behandlingsplan som är skräddarsydd för just dig och din hud.</p>
-
     <p class="p200 mt-xl">Som en del av denna första fas tar vi även förebilder på din hud. Dessa bilder hjälper oss att tydligt följa din huds framsteg och anpassa din behandlingsplan när vi ser hur din hud svarar på behandlingen. En annan viktig aspekt av detta första steg är tilldelningen av en personlig hudterapeut. Din hudterapeut kommer att vara med dig genom hela din behandlingsresa, från den första konsultationen till ditt slutliga resultat. Denna konsekventa omsorg säkerställer att du alltid har en expert vid din sida som förstår din hud och dina specifika behov. Identifiering är avgörande eftersom alla typer av akne inte svarar likadant på behandlingar. Olika typer av akne kan kräva olika behandlingsmetoder, så förståelsen för din specifika akne är grunden för vår behandlingsprocess. Hos Acnespecialisten är vi dedikerade till att ge dig den bästa möjliga behandlingen för din akne, och det börjar med att noggrant identifiera och förstå din unika hud.</p>';
 
 $treat_content = '<p class="p200">Efter att vi noggrant har identifierat din aknetyp och hudtillstånd, följer nästa fas i vår process: att behandla den aktiva aknen. På Acnespecialisten använder vi en rad effektiva behandlingsmetoder för att effektivt behandla och kontrollera akne. Från beprövade tekniker som ansiktsbehandlingar och kemisk peeling, till avancerade metoder som laserbehandling och microneedling. Varje behandlingsmetod väljs utifrån din unika hudtyp och aknebehov för att maximera resultaten och minimera obehaget.</p>
-
 <p class="p200 mt-m">Din personliga hudterapeut, som följer dig genom hela din aknebehandlingsresa, kommer att applicera behandlingarna med största omsorg och precision. Dessa behandlingsmetoder är utformade för att minska inflammationen i huden, rensa bort döda hudceller, kontrollera överproduktionen av talg och, över tid, minska och förhindra bildandet av akne. Vi förstår att varje individs hud reagerar olika på olika behandlingar, och vi anpassar därför behandlingsplanen kontinuerligt baserat på hur din hud svarar.</p>
-
 <p class="p200 mt-m">Målet med denna andra fas är att effektivt reducera din aktiva akne och förbereda din hud för nästa steg i processen: förebyggande och underhåll. Med Acnespecialisten vid din sida, kan du känna dig trygg i vetskapen att du får den mest effektiva och anpassade aknebehandlingen för just dig och din hud.</p>';
 
-$define_consultation_url = 'hudkonsultation';
 $services = array(
     new Service(
-        id: 'ansiktsbehandling-mot-akne',
+        id: 'behandlingar/ansiktsbehandling-mot-akne',
+        url_label: 'Läs mer',
+        url_title: 'Ansiktsbehandling mot akne',
         title: 'Ansiktsbehandling mot akne',
         duration: '60 min',
         price: 'Pris från 799 kr',
@@ -47,14 +43,18 @@ $services = array(
         image_alt: 'Ansiktsbehandling mot akne',
         image_title: 'Ansiktsbehandling mot akne',
         consultation_url: 'konsultation-akne',
+        consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'konsultation mot akne',
         booking_url: 'boka-ansiktsbehandling-akne',
+        booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka behandling',
         icons: array('who-infants' => 'Djuprengörande', 'who-elders' => 'Hudbalanserande', 'who-teenagers' => 'Porrensande', 'who-adults' => 'Anti-inflammatorisk'),
         short_title: 'Microneedling'
     ),
     new Service(
-        id: 'laser-mot-akne',
+        id: 'behandlingar/laser-mot-akne',
+        url_label: 'Läs mer',
+        url_title: 'Laser mot akne',
         title: 'Laser mot akne',
         duration: '30-60 min',
         price: '1295 kr',
@@ -64,14 +64,18 @@ $services = array(
         image_alt: 'Laser mot akne',
         image_title: 'Laser mot akne',
         consultation_url: 'konsultation-laser',
+        consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Konsultation mot akne',
         booking_url: 'Boka behandling',
+        booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka laser mot akne',
         icons: array('who-infants' => 'Precision', 'who-elders' => 'Icke-invasiv', 'who-teenagers' => 'Snabb', 'who-adults' => 'Effektiv'),
         short_title: 'Laser'
     ),
     new Service(
-        id: 'kemisk-peeling-mot-akne',
+        id: 'behandlingar/kemisk-peeling-mot-akne',
+        url_label: 'Läs mer',
+        url_title: 'Kemisk peeling mot akne',
         title: 'Kemisk peeling mot akne',
         duration: '30-60 min',
         price: '1295 kr',
@@ -81,14 +85,18 @@ $services = array(
         image_alt: 'Chemical peeling for acne scars',
         image_title: 'Chemical peeling for acne scars',
         consultation_url: 'hudkonsultation',
+        consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Book a consultation',
         booking_url: null,
+        booking_url_label: null,
         booking_url_title: null,
         icons: array('who-infants' => 'Exfolierande', 'who-elders' => 'Förnyande', 'who-teenagers' => 'Uppfräschande', 'who-adults' => 'Ljusande'),
         short_title: 'Chemical peeling'
     ),
     new Service(
-        id: 'microneedling-mot-akne',
+        id: 'behandlingar/microneedling-mot-akne',
+        url_label: 'Läs mer',
+        url_title: 'Mironeedling mot akne',
         title: 'Mironeedling mot akne',
         duration: '30-60 min',
         price: '1295 kr',
@@ -98,8 +106,10 @@ $services = array(
         image_alt: 'Microneedling mot akne',
         image_title: 'Microneedling mot akne',
         consultation_url: 'microneedling-konsultation',
+        consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka konsultation',
         booking_url: 'Boka behandling',
+        booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka microneedling mot akne ',
         icons: array('who-infants' => 'Stimulerande', 'who-elders' => 'Förnyande', 'who-teenagers' => 'Djupgående', 'who-adults' => 'Minskning av ärr'),
         short_title: 'Chemical peeling'
@@ -279,7 +289,7 @@ $repair_url = 'treatments/acne';
                         <img class="mt-xl step-image" src="images/service-categories/large/consultation.jpg" alt="<?php echo $title ?>" title="<?php echo $title ?>" width="872" height="456" />
                     </picture>
                     <div class="mt-xl"><?php echo $define_content ?></div>
-                    <a href="<?php echo $define_consultation_url ?>" title="Konsultation" class="mt-xl button b200 l10n">Få gratis konsultation</a>
+                    <a href="hudkonsultation" title="Konsultation" class="mt-xl button b200 l10n">Få gratis konsultation</a>
                 </section>
                 <section id="treat">
                     <h2 class="h500 l10n">02. Behandla aktiv akne</h2>

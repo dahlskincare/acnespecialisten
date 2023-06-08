@@ -5,6 +5,8 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $model = new Service(
     id: 'ansiktsbehandlingar-problemhy/chemical-peeling',
+    url_label: 'chemical-peeling',
+    url_title: 'Chemical peeling',
     title: 'Chemical peeling',
     duration: '50 min',
     price: '995 kr',
@@ -14,8 +16,10 @@ $model = new Service(
     image_alt: 'Chemical peeling',
     image_title: 'Chemical peeling',
     consultation_url: 'https://bokadirekt.se',
+    consultation_url_label: 'Book a consultation',
     consultation_url_title: 'Book a consultation',
     booking_url: 'https://bokadirekt.se',
+    booking_url_label: 'Book a treatment',
     booking_url_title: 'Book a treatment',
     icons: null,
     short_title: null,
@@ -272,7 +276,7 @@ $specialists = array(
                         </h2>
                         <?php if (isset($model->duration)) { ?>
                             <div class="mt-m">
-                                <span class="p200 l10n">Duration: <?php echo $model->duration ?></span>
+                                <span class="p200 l10n">Längd: <?php echo $model->duration ?></span>
                             </div>
                         <?php } ?>
                         <?php if (strlen($model->content) > 0) { ?>
@@ -296,10 +300,10 @@ $specialists = array(
                         <div class="mt-xl">
                             <div class="columns is-2 is-variable">
                                 <div class="column">
-                                    <a href="<?php echo $model->consultation_url ?>" title="<?php echo $model->consultation_url_title ?>" class="button white expand l10n">Get a free consultation</a>
+                                    <a href="<?php echo $model->consultation_url ?>" title="<?php echo $model->consultation_url_title ?>" class="button white expand"><?php echo $model->consultation_url_label ?></a>
                                 </div>
                                 <div class="column">
-                                    <a href="<?php echo $model->booking_url ?>" title="<?php echo $model->booking_url_title ?>" class="button white expand l10n">Book a treatment</a>
+                                    <a href="<?php echo $model->booking_url ?>" title="<?php echo $model->booking_url_title ?>" class="button white expand"><?php echo $model->booking_url_label ?></a>
                                 </div>
                             </div>
                         </div>
@@ -317,7 +321,7 @@ $specialists = array(
                         <?php echo $model->title ?>
                     </h1>
                     <?php if (isset($model->duration)) { ?>
-                        <h3 class="mt-xs p200 l10n">Duration: <?php echo $model->duration ?></h3>
+                        <h3 class="mt-xs p200 l10n">Längd: <?php echo $model->duration ?></h3>
                     <?php } ?>
                     <?php if (strlen($model->content) > 0) { ?>
                         <div class="mt-xs"><?php echo $model->content ?></div>
@@ -338,10 +342,10 @@ $specialists = array(
                     <div class="mt-xl">
                         <div class="columns is-mobile">
                             <div class="column is-half">
-                                <a href="<?php echo $model->consultation_url ?>" title="<?php echo $model->consultation_url_title ?>" class="button b200 white expand l10n">Free consultation</a>
+                                <a href="<?php echo $model->consultation_url ?>" title="<?php echo $model->consultation_url_title ?>" class="button b200 white expand"><?php echo $model->consultation_url_label ?></a>
                             </div>
                             <div class="column is-half">
-                                <a href="<?php echo $model->booking_url ?>" title="<?php echo $model->booking_url_title ?>" class="button b200 white expand l10n">Book a treatment</a>
+                                <a href="<?php echo $model->booking_url ?>" title="<?php echo $model->booking_url_title ?>" class="button b200 white expand"><?php echo $model->booking_url_label ?></a>
                             </div>
                         </div>
                     </div>
@@ -363,7 +367,7 @@ $specialists = array(
                         </h1>
                         <?php if (isset($model->duration)) { ?>
                             <div class="mt-xs">
-                                <span class="p200 l10n">Duration: <?php echo $model->duration ?></span>
+                                <span class="p200 l10n">Längd: <?php echo $model->duration ?></span>
                             </div>
                         <?php } ?>
                         <?php if (strlen($model->content) > 0) { ?>
@@ -373,7 +377,7 @@ $specialists = array(
                             <div class="mt-xl large-procedures flex-row">
                                 <?php foreach ($model->procedures as $procedure) { ?>
                                     <div class="large-procedure">
-                                        <div class="p200 l10n"><?php echo $procedure->label ?></div>
+                                        <div class="p200"><?php echo $procedure->label ?></div>
                                         <div>
                                             <span class="p200 strikethrough mr-xs"><?php echo $procedure->full_price ?></span>
                                             <span class="h200"><?php echo $procedure->price ?></span>
@@ -383,8 +387,8 @@ $specialists = array(
                             </div>
                         <?php } ?>
                         <div class="mt-xl flex-row" id="book-buttons">
-                            <a href="<?php echo $model->consultation_url ?>" title="<?php echo $model->consultation_url_title ?>" class="button b200 white l10n">Get a free consultation</a>
-                            <a href="<?php echo $model->booking_url ?>" title="<?php echo $model->booking_url_title ?>" class="button b200 white l10n">Book a treatment</a>
+                            <a href="<?php echo $model->consultation_url ?>" title="<?php echo $model->consultation_url_title ?>" class="button b200 white"><?php echo $model->consultation_url_label ?></a>
+                            <a href="<?php echo $model->booking_url ?>" title="<?php echo $model->booking_url_title ?>" class="button b200 white"><?php echo $model->booking_url_label ?></a>
                         </div>
                     </div>
                 </div>

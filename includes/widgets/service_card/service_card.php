@@ -30,13 +30,13 @@
         <p class="mt-m p200">
             <?php echo $service->content ?>
         </p>
-        <a href="behandlingar/<?php echo $service->id ?>" class="mt-m button outline expand l10n">Läs mer</a>
+        <a href="behandlingar/<?php echo $service->id ?>" class="mt-m button outline expand"><?php echo $service->url_label ?></a>
         <hr />
         <?php if (isset($service->consultation_url)) { ?>
-            <a href="<?php echo $service->consultation_url ?>" class="mt-xl button expand l10n">Få gratis konsultation</a>
+            <a href="<?php echo $service->consultation_url ?>" title="<?php echo $service->consultation_url_title ?>" class="mt-xl button expand"><?php echo $service->consultation_url_label ?></a>
         <?php } ?>
         <?php if (isset($service->booking_url)) { ?>
-            <a href="<?php echo $service->booking_url ?>" class="mt-s button expand l10n">Boka behandling</a>
+            <a href="<?php echo $service->booking_url ?>" title="<?php echo $service->booking_url_title ?>" class="mt-s button expand"><?php echo $service->booking_url_label ?></a>
         <?php } ?>
     </div>
     <div class="is-hidden-mobile">
@@ -68,14 +68,14 @@
                 <p class="mt-xs p200 service-content">
                     <?php echo $service->content ?>
                 </p>
-                <a href="behandlingar/<?php echo $service->id ?>" class="mt-xs button b200 text compact l10n">Läs mer</a>
+                <a href="behandlingar/<?php echo $service->id ?>" class="mt-xs button b200 text compact"><?php echo $service->url_label ?></a>
             </div>
             <div class="ml-xl buttons">
                 <?php if (isset($service->consultation_url)) { ?>
-                    <a href="<?php echo $service->consultation_url ?>" title="<?php echo $service->consultation_url_title ?>" class="button expand l10n">Få gratis konsultation</a>
+                    <a href="<?php echo $service->consultation_url ?>" title="<?php echo $service->consultation_url_title ?>" class="button expand"><?php echo $service->consultation_url_label ?></a>
                 <?php } ?>
                 <?php if (isset($service->booking_url)) { ?>
-                    <a href="<?php echo $service->booking_url ?>" title="<?php echo $service_booking_url_title ?>" class="mt-s button expand l10n">Boka behandling</a>
+                    <a href="<?php echo $service->booking_url ?>" title="<?php echo $service_booking_url_title ?>" class="mt-s button expand"><?php echo $service->booking_url_label ?></a>
                 <?php } ?>
             </div>
         </div>

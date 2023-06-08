@@ -16,7 +16,6 @@
 </head>
 
 <?php
-$type_name = 'Sun spots';
 $header_title = 'Sun spots';
 $header_description = 'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat.';
 $image_small = 'https://via.placeholder.com/358x274.jpg';
@@ -67,8 +66,11 @@ $area_icons = array(
 
 );
 $areas_text = '<p class="p200">This is a treatment adapted for acne skin and <a class="h200 underline">pimples</a> and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-xl">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the <a class="h200 underline">acne treatment</a>, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>';
+
 $service = new Service(
     id: 'sun-spots-consultation',
+    url_label: 'Läs mer',
+    url_title: 'Läs mer om behandlingen',
     title: 'Consultation',
     duration: '30 min',
     price: '1295 kr',
@@ -78,13 +80,17 @@ $service = new Service(
     image_alt: 'Consultation',
     image_title: 'Consultation',
     consultation_url: 'hudkonsultation',
+    consultation_url_label: 'Läs mer',
     consultation_url_title: 'Consultation',
     booking_url: null,
+    booking_url_label: null,
     booking_url_title: null,
 );
 $solutions = array(
     new Service(
         id: 'chemical-peeling-pigmentation',
+        url_label: 'Läs mer',
+        url_title: 'Läs mer om behandlingen',
         title: 'Chemical peeling',
         duration: '30 min',
         price: '1295 kr',
@@ -94,12 +100,16 @@ $solutions = array(
         image_alt: 'Chemical peeling',
         image_title: 'Chemical peeling',
         consultation_url: 'hudkonsultation',
+        consultation_url_label: 'Läs mer',
         consultation_url_title: 'Consultation',
         booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka',
         booking_url_title: 'Book',
     ),
     new Service(
         id: 'laser-pigmentation',
+        url_label: 'Läs mer',
+        url_title: 'Läs mer om behandlingen',
         title: 'Laser',
         duration: '30 min',
         price: '1295 kr',
@@ -109,12 +119,16 @@ $solutions = array(
         image_alt: 'Laser',
         image_title: 'Laser',
         consultation_url: 'hudkonsultation',
+        consultation_url_label: 'Läs mer',
         consultation_url_title: 'Consultation',
         booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka',
         booking_url_title: 'Book',
     ),
     new Service(
         id: 'ipl-pigmentation',
+        url_label: 'Läs mer',
+        url_title: 'Läs mer om behandlingen',
         title: 'IPL',
         duration: '30 min',
         price: '1295 kr',
@@ -124,12 +138,16 @@ $solutions = array(
         image_alt: 'IPL',
         image_title: 'IPL',
         consultation_url: 'hudkonsultation',
+        consultation_url_label: 'Läs mer',
         consultation_url_title: 'Consultation',
         booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka',
         booking_url_title: 'Book',
     ),
     new Service(
         id: 'freezetreat-pigmentation',
+        url_label: 'Läs mer',
+        url_title: 'Läs mer om behandlingen',
         title: 'FreezeTreat',
         duration: '30 min',
         price: '1295 kr',
@@ -139,8 +157,10 @@ $solutions = array(
         image_alt: 'FreezeTreat',
         image_title: 'FreezeTreat',
         consultation_url: 'hudkonsultation',
+        consultation_url_label: 'Läs mer',
         consultation_url_title: 'Consultation',
         booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka',
         booking_url_title: 'Book',
     )
 
@@ -294,8 +314,8 @@ $specialists = array(
                         </a>
                     </section>
                     <section id="areas">
-                        <h2>
-                            <span class="h500"><?php echo $type_name ?>&nbsp;</span><span class="h500 l10n">areas</span>
+                        <h2 class="h500 l10n">
+                            Sun spots areas
                         </h2>
                         <div class="columns is-mobile is-multiline area-icons mt-s">
                             <?php foreach ($area_icons as $area_icon => $label) { ?>
@@ -316,20 +336,18 @@ $specialists = array(
                         } ?>
                     </section>
                     <section id="define">
-                        <h2>
-                            <span class="h500 l10n">Define</span>&nbsp;<span class="h500 lowercase"><?php echo $type_name ?></span>
+                        <h2 class="h500 l10n">
+                            Define sun spots
                         </h2>
                         <hr class="is-hidden-mobile mt-xl mb-xxl">
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
                         <hr class="is-hidden-mobile mt-xxl">
                     </section>
                     <section id="solutions">
-                        <h2>
-                            <span class="h500"><?php echo $type_name ?>&nbsp;</span><span class="h500 l10n">treatment solutions</span>
-                        </h2>
+                        <h2 class="h500 l10n">Sun spots treatment solutions</h2>
                         <div class="mt-m is-hidden-tablet solution-buttons">
                             <?php foreach ($solutions as $service) { ?>
-                                <a href="javascript:;" onclick="scrollToElement('#service-<?php echo $service->id ?>')" class="button grey "><?php echo $service->title ?>
+                                <a href="javascript:;" onclick="scrollToElement('#service-<?php echo $service->id ?>')" class="button grey"><?php echo $service->title ?>
                                 </a>
                             <?php } ?>
                         </div>

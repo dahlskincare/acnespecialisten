@@ -3,6 +3,8 @@ class Service
 {
     public function __construct(
         $id,
+        $url_label,
+        $url_title,
         $title,
         $duration,
         $price,
@@ -12,8 +14,10 @@ class Service
         $image_alt,
         $image_title,
         $consultation_url,
+        $consultation_url_label,
         $consultation_url_title,
         $booking_url,
+        $booking_url_label,
         $booking_url_title,
         $icons = array(),
         $short_title = null,
@@ -21,6 +25,8 @@ class Service
         $combos = array(),
     ) {
         $this->id = $id;
+        $this->url_label = $url_label;
+        $this->url_title = $url_title;
         $this->title = $title;
         $this->duration = $duration;
         $this->price = $price;
@@ -30,8 +36,10 @@ class Service
         $this->image_alt = $image_alt;
         $this->image_title = $image_title;
         $this->consultation_url = $consultation_url;
+        $this->consultation_url_label = $consultation_url_label;
         $this->consultation_url_title = $consultation_url_title;
         $this->booking_url = $booking_url;
+        $this->booking_url_label = $booking_url_label;
         $this->booking_url_title = $booking_url_title;
         $this->icons = $icons;
         $this->short_title = $short_title;
@@ -40,6 +48,8 @@ class Service
     }
 
     public string $id;
+    public string $url_label;
+    public string $url_title;
     public string $title;
     public ?string $duration;
     public ?string $price;
@@ -49,8 +59,10 @@ class Service
     public string $image_title;
     public string $content;
     public ?string $consultation_url;
+    public ?string $consultation_url_label;
     public ?string $consultation_url_title;
     public ?string $booking_url;
+    public ?string $booking_url_label;
     public ?string $booking_url_title;
     public ?array $icons;
     public ?string $short_title;
@@ -60,7 +72,7 @@ class Service
 
 class ServiceCombo
 {
-    public function __construct($image_small, $image_large, $image_alt, $image_title, $duration, $price, $full_price, $booking_url, $booking_url_title, $items)
+    public function __construct($image_small, $image_large, $image_alt, $image_title, $duration, $price, $full_price, $booking_url, $booking_url_label, $booking_url_title, $items)
     {
         $this->image_small = $image_small;
         $this->image_large = $image_large;
@@ -70,6 +82,7 @@ class ServiceCombo
         $this->price = $price;
         $this->full_price = $full_price;
         $this->booking_url = $booking_url;
+        $this->booking_url_label = $booking_url_label;
         $this->booking_url_title = $booking_url_title;
         $this->items = $items;
     }
@@ -82,6 +95,7 @@ class ServiceCombo
     public string $price;
     public string $full_price;
     public string $booking_url;
+    public string $booking_url_label;
     public string $booking_url_title;
     public array $items;
 }

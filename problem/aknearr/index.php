@@ -299,7 +299,9 @@ $symptoms = array(
       ),
 );
 $service = new Service(
-      id: '.-consultation',
+      id: 'consultation',
+      url_label: 'Läs mer',
+      url_title: 'Läs mer om konsultation',
       title: 'Konsultation',
       duration: '20 min',
       price: 'Kostnadsfri',
@@ -309,13 +311,17 @@ $service = new Service(
       image_alt: 'Konsultation',
       image_title: 'Konsultation',
       consultation_url: 'hudkonsultation',
+      consultation_url_label: 'Boka tid för konsultation',
       consultation_url_title: 'Boka tid för konsultation',
       booking_url: null,
+      booking_url_label: null,
       booking_url_title: null,
 );
 $services = array(
       new Service(
             id: 'acne-scars-microneedling',
+            url_label: 'Läs mer',
+            url_title: 'Läs mer om microneedling',
             title: 'Ansiktsbehandling mot akne',
             duration: '60 min',
             price: '995 kr',
@@ -325,12 +331,16 @@ $services = array(
             image_alt: 'Ansiktsbehandling mot akne',
             image_title: 'Ansiktsbehandling mot akne',
             consultation_url: 'hudkonsultation',
+            consultation_url_label: 'Boka tid för konsultation',
             consultation_url_title: 'Boka tid för konsultation',
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
+            booking_url_label: 'Boka tid för ansiktsbehandling mot akne',
             booking_url_title: 'Boka tid för ansiktsbehandling mot akne',
       ),
       new Service(
             id: 'acne-scars-laser',
+            url_label: 'Läs mer',
+            url_title: 'Läs mer om laser',
             title: 'Laser mot akne',
             duration: '50 min',
             price: '2595 kr',
@@ -340,12 +350,16 @@ $services = array(
             image_alt: 'Laser mot akne',
             image_title: 'Laser mot akne',
             consultation_url: 'hudkonsultation',
+            consultation_url_label: 'Boka tid för konsultation',
             consultation_url_title: 'Boka tid för konsultation',
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
+            booking_url_label: 'Boka tid för laser mot akne',
             booking_url_title: 'Boka tid för laser mot akne',
       ),
       new Service(
             id: 'acne-scars-chemical-peeling',
+            url_label: 'Läs mer',
+            url_title: 'Läs mer om kemisk peeling',
             title: 'Kemisk peeling mot akne',
             duration: '30 min',
             price: '1595 kr',
@@ -355,14 +369,18 @@ $services = array(
             image_alt: 'Kemisk peeling mot akne',
             image_title: 'Kemisk peeling mot akne',
             consultation_url: 'hudkonsultation',
+            consultation_url_label: 'Boka tid för konsultation',
             consultation_url_title: 'Boka tid för konsultation',
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
+            booking_url_label: 'Boka tid för kemisk peeling mot akne',
             booking_url_title: 'Boka tid för kemisk peeling mot akne',
       ),
 );
 $products = array(
       new Service(
             id: 'produkter-mot-akne',
+            url_label: 'Läs mer',
+            url_title: 'Läs mer om produkter mot akne',
             title: 'Produkter mot akne',
             duration: null,
             price: 'Price from 995 kr',
@@ -372,14 +390,18 @@ $products = array(
             image_alt: 'Produkter mot akne',
             image_title: 'Produkter mot akne',
             consultation_url: null,
+            consultation_url_label: null,
             consultation_url_title: null,
             booking_url: null,
+            booking_url_label: null,
             booking_url_title: null,
       )
 );
 $procedures = array(
       new Service(
             id: 'microneedling-for-acne',
+            url_label: 'Läs mer',
+            url_title: 'Läs mer om microneedling',
             title: 'Reparera acneärr',
             duration: '6 procedures',
             price: null,
@@ -389,8 +411,10 @@ $procedures = array(
             image_alt: 'Reparera acneärr',
             image_title: 'Reparera acneärr',
             consultation_url: null,
+            consultation_url_label: null,
             consultation_url_title: null,
             booking_url: null,
+            booking_url_label: null,
             booking_url_title: null,
       ),
 );

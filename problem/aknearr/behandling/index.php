@@ -4,7 +4,6 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $image_large = 'images/treatments/large/acne-scars.jpg';
 $image_small = 'images/treatments/small/acne-scars.jpg';
-$problem = 'acne scars';
 $title = 'Acne scars treatment';
 $description = 'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we.';
 $nav_buttons = array(
@@ -22,10 +21,12 @@ $nav_buttons = array(
 $about_title = 'What is acne scars treatment?';
 $about_content = '<p class="p200">This is a treatment adapted for acne skin and <a class="b200 underline">pimples</a> and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-xl">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p>';
 $define_content = '<p class="p200">This is a treatment adapted for acne skin and <a class="b200 underline">pimples</a> and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-xl">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p>';
-$define_consultation_url = 'hudkonsultation';
+$treat_content = '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>';
 $services = array(
     new Service(
         id: 'microneedling-acne-scars',
+        url_label: 'Läs mer',
+        url_title: 'Läs mer om Microneedling för acneärr',
         title: 'Microneedling for acne scars',
         duration: '30-60 min',
         price: '1295 kr',
@@ -35,14 +36,18 @@ $services = array(
         image_alt: 'Microneedling for acne scars',
         image_title: 'Microneedling for acne scars',
         consultation_url: 'hudkonsultation',
+        consultation_url_label: 'Book a consultation',
         consultation_url_title: 'Book a consultation',
         booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922?_ga=2.103539465.80893672.1675771766-1054758468.1672765135&_gac=1.52586202.1675771766.CjwKCAiAioifBhAXEiwApzCztkJaMGhW8PiC3PRH919PHMXYYIgTe0SRGs9lLjTqosRh7L3UbBbbExoC5doQAvD_BwE',
+        booking_url_label: 'Book a treatment',
         booking_url_title: 'Book a treatment',
         icons: array('who-infants' => 'Infants', 'who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults'),
         short_title: 'Microneedling'
     ),
     new Service(
         id: 'laser-acne-scars',
+        url_label: 'Läs mer',
+        url_title: 'Läs mer om Laser för acneärr',
         title: 'Laser for acne scars',
         duration: '30-60 min',
         price: '1295 kr',
@@ -52,14 +57,18 @@ $services = array(
         image_alt: 'Laser for acne scars',
         image_title: 'Laser for acne scars',
         consultation_url: 'hudkonsultation',
+        consultation_url_label: 'Book a consultation',
         consultation_url_title: 'Book a consultation',
         booking_url: null,
+        booking_url_label: null,
         booking_url_title: null,
         icons: array('who-infants' => 'Infants', 'who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults'),
         short_title: 'Laser'
     ),
     new Service(
         id: 'chemical-peeling-acne-scars',
+        url_label: 'Läs mer',
+        url_title: 'Läs mer om Kemisk peeling för acneärr',
         title: 'Chemical peeling for acne scars',
         duration: '30-60 min',
         price: '1295 kr',
@@ -69,8 +78,10 @@ $services = array(
         image_alt: 'Chemical peeling for acne scars',
         image_title: 'Chemical peeling for acne scars',
         consultation_url: 'hudkonsultation',
+        consultation_url_label: 'Book a consultation',
         consultation_url_title: 'Book a consultation',
         booking_url: null,
+        booking_url_label: null,
         booking_url_title: null,
         icons: array('who-infants' => 'Infants', 'who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults'),
         short_title: 'Chemical peeling'
@@ -242,8 +253,8 @@ $repair_url = 'treatments/acne';
                     <div class="mt-xl"><?php echo $about_content ?></div>
                 </section>
                 <section id="define">
-                    <h2>
-                        <span class="h500">01.</span>&nbsp;&nbsp;<span class="h500 l10n">Define&nbsp;</span><span class="h500 lowercase"><?php echo $problem ?></span>
+                    <h2 class="h500 l10n">
+                        01. Define acne scars
                     </h2>
                     <picture>
                         <source media="(max-width: 799px)" srcset="images/service-categories/medium/consultation.jpg">
@@ -251,15 +262,15 @@ $repair_url = 'treatments/acne';
                         <img class="mt-xl step-image" src="images/service-categories/large/consultation.jpg" alt="<?php echo $title ?>" title="<?php echo $title ?>" width="872" height="456" />
                     </picture>
                     <div class="mt-xl"><?php echo $define_content ?></div>
-                    <a href="<?php echo $define_consultation_url ?>" class="mt-xl button b200 l10n">Get a free consultation</a>
+                    <a href="hudkonsultation" class="mt-xl button b200 l10n">Get a free consultation</a>
                 </section>
                 <section id="treat">
-                    <h2>
-                        <span class="h500">02.&nbsp;&nbsp;</span><span class="h500 l10n">Treat&nbsp;</span><span class="h500 lowercase"><?php echo $problem ?></span>
+                    <h2 class="h500 l10n">
+                        02. Treat acne scars
                     </h2>
-                    <p class="mt-xs l10n">
-                        Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.
-                    </p>
+                    <div class="mt-xs">
+                        <?php echo $treat_content ?>
+                    </div>
                     <div id="service-buttons" class="mt-m flex-row is-hidden-tablet">
                         <?php foreach ($services as $service) { ?>
                             <button class="grey" onclick="scrollToElement('#service-card-<?php echo $service->id ?>')"><?php echo $service->short_title ?></button>
@@ -271,9 +282,7 @@ $repair_url = 'treatments/acne';
                 </section>
                 <?php if (sizeof($products) > 0) { ?>
                     <section id="prevent">
-                        <h2>
-                            <span class="h500 l10n">03.&nbsp;&nbsp;Prevent</span>
-                        </h2>
+                        <h2 class="h500 l10n">03. Prevent </h2>
                         <?php foreach ($products as $product) {
                             include('../../widgets/product-card/product-card.php');
                         } ?>

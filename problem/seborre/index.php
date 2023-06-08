@@ -121,6 +121,8 @@ $symptoms = array(
 );
 $service = new Service(
       id: 'fyll-ratt-lank',
+      url_label: 'Läs mer',
+      url_title: 'Läs mer om seborré',
       title: 'Konsultation',
       duration: '20 min',
       price: 'Kostnadsfri',
@@ -130,13 +132,17 @@ $service = new Service(
       image_alt: 'Konsultation',
       image_title: 'Konsultation',
       consultation_url: 'hudkonsultation',
+      consultation_url_label: 'Boka gratis konsultation',
       consultation_url_title: 'Boka gratis konsultation',
       booking_url: null,
+      booking_url_label: null,
       booking_url_title: null,
 );
 $services = array(
       new Service(
             id: 'fyll-ratt-lank',
+            url_label: 'Läs mer',
+            url_title: 'Läs mer om seborré',
             title: 'Ansiktsbehandling mot seborré',
             duration: '60 min',
             price: '995 kr',
@@ -146,14 +152,18 @@ $services = array(
             image_alt: 'Ansiktsbehandling mot seborré',
             image_title: 'Ansiktsbehandling mot seborré',
             consultation_url: 'hudkonsultation',
+            consultation_url_label: 'Boka gratis konsultation',
             consultation_url_title: 'Boka gratis konsultation',
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
+            booking_url_label: 'Boka ansiktsbehandling mot seborré',
             booking_url_title: 'Boka ansiktsbehandling mot seborré'
       ),
 );
 $products = array(
       new Service(
             id: 'produkter-mot-seborre',
+            url_label: 'Läs mer',
+            url_title: 'Läs mer om produkter mot seborré',
             title: 'Produkter mot seborré',
             duration: null,
             price: 'Pris från 1295 kr',
@@ -163,8 +173,10 @@ $products = array(
             image_alt: 'Produkter mot seborré',
             image_title: 'Produkter mot seborré',
             consultation_url: null,
+            consultation_url_label: null,
             consultation_url_title: null,
             booking_url: null,
+            booking_url_label: null,
             booking_url_title: null,
       )
 );
