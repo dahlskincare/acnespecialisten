@@ -44,7 +44,7 @@ $services = array(
         image_title: 'Ansiktsbehandling mot akne',
         consultation_url: 'hudkonsultation',
         consultation_url_title: 'konsultation mot akne',
-        booking_url: 'bokadirektlänk här',
+        booking_url: 'boka-ansiktsbehandling-akne',
         booking_url_title: 'Boka ansiktsbehandling mot akne',
         icons: array('who-infants' => 'Rengöring', 'who-elders' => 'Uppångning', 'who-teenagers' => 'Portömning', 'who-adults' => 'Lugnande'),
         short_title: 'Microneedling'
