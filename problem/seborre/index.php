@@ -174,6 +174,8 @@ $articles = array(
             title: 'Hur behandlar man seborré i ansiktet?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
+            image_alt: 'Hur behandlar man seborré i ansiktet?',
+            image_title: 'Hur behandlar man seborré i ansiktet?',
             content: '<p class="p200">Du som söker det bästa mot seborré bör välja AcneSpecialisten eftersom vi är experter på att behandla seborré och har över 30 års erfarenhet av att ha arbetat med olika hudproblem, inklusive seborré. Vi skräddarsyr behandlingar baserade på dina individuella problem och behov, vi rekommenderar de bästa produkterna för att förebygga och behandla din hud och seborré.</p>
             <p class="p200 mt-m">Genom att välja Acnespecialisten får du den mest effektiva behandlingen för ditt specifika fall och en hudvårdspartner som stöttar dig genom hela processen.</p>',
       ),
@@ -182,6 +184,8 @@ $articles = array(
             title: 'När ska jag söka hjälp med min seborré?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
+            image_alt: 'När ska jag söka hjälp med min seborré?',
+            image_title: 'När ska jag söka hjälp med min seborré?',
             content: '<p class="p200">Om du upplever att seborré börjar påverka din dagliga livskvalitet, eller om du har provat olika behandlingar och produkter utan att märka någon bestående förbättring, kan det vara dags att söka professionell hjälp. Att agera tidigt ökar chanserna att förhindra långvariga hudproblem och att uppnå en sundare och mer balanserad hud.</p>
             <p class="p200 mt-m">Vi på AcneSpecialisten välkomnar alla, oavsett om din seborré är lindrig, måttlig eller svår. Genom att erbjuda skräddarsydda behandlingsplaner baserade på dina specifika behov, är vår målsättning att erbjuda effektiva lösningar som hjälper dig att hantera och lindra symptomen på seborré. Vi har ett team av hudterapeuter med lång erfarenhet av att behandla olika typer av hudproblem, inklusive seborré. De står redo att hjälpa dig med råd om vilka produkter och behandlingar som kan vara mest effektiva för just din hudtyp.</p>
             <p class="p200 mt-m">Vänta inte med att söka hjälp, det första steget kan vara att boka en gratis konsultation med oss. Denna kostnadsfria tjänst innebär att vi analyserar din hud och din seborré, och utarbetar en individuell behandlingsplan anpassad för dig. Innan du överväger att besöka en läkare, prova vår klinik först - det kan spara dig från att använda starka mediciner med potentiella biverkningar och påverkan på hela kroppen. Genom att boka en konsultation får du en inblick i hur vi kan hjälpa dig att förbättra din hudhälsa.</p>',
