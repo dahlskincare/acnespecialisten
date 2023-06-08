@@ -325,6 +325,12 @@ $problems['oonskad-harvaxt'] = new Problem(
       info: 'Oönskad hårväxt är en vanlig problematik som drabbar både män och kvinnor, och involverar hår som växer på icke-önskade områden såsom ansiktet, armarna, benen eller ryggen. För att effektivt och permanent behandla oönskad hårväxt använder vi oss av laserhårborttagning, vilket ger långvariga och tillfredsställande resultat.'
 );
 
+$default_problems = new ProblemArea(
+      label: '',
+      icon: '',
+      problem_ids: array('akne'),
+);
+
 $problem_areas = array(
       new ProblemArea(
             label: 'Ansikte',
@@ -413,13 +419,14 @@ $problem_areas = array(
                         <div id="filters-desktop" class="is-hidden-touch">
                               <div id="filter-items">
                                     <?php foreach ($problem_areas as $problem_area) { ?>
-                                          <div class="filter-item" onclick="showProblems('<?php echo join(',', $problem_area->problem_ids) ?>'); highlight(this); ">
+                                          <div class="filter-item" onclick="showProblems('<?php echo join(',', $problem_area->problem_ids) ?>'); highlight(this);">
                                                 <?php icon($problem_area->icon) ?>
                                                 <div class="b100 filter-item-label l10n">
                                                       <?php echo $problem_area->label ?>
                                                 </div>
                                           </div>
-                                    <?php } ?>
+                                    <?php }
+                                    ?>
                               </div>
                               <div class="filter-button is-hidden" id="filter-button-previous">
                                     <button class="round-large grey">
@@ -436,7 +443,7 @@ $problem_areas = array(
                               <div class="columns is-multiline" id="banner-problem-areas">
                                     <?php foreach ($problems as $id => $problem) { ?>
                                           <div class="column is-one-fifth is-hidden" data-id="<?php echo $id ?>">
-                                                <a href="<?php echo $problem->url ?>" class="button b200 grey expand l10n"><?php echo $problem->label ?></a>
+                                                <a href="<?php echo $problem->url ?>" title="<?php echo $problem->url_title ?>" class="button b200 grey expand l10n"><?php echo $problem->label ?></a>
                                           </div>
                                     <?php } ?>
                               </div>
@@ -600,6 +607,9 @@ $problem_areas = array(
       </main>
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
       <script src="problem/problems.js"></script>
+      <script>
+            showProblems('<?php echo join(',', $default_problems->problem_ids) ?>');
+      </script>
 </body>
 
 </html>
