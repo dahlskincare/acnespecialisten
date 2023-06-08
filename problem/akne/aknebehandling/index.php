@@ -33,7 +33,7 @@ $treat_content = '<p class="p200">Efter att vi noggrant har identifierat din akn
 $define_consultation_url = 'hudkonsultation';
 $services = array(
     new Service(
-        id: 'microneedling-acne-scars',
+        id: 'microneedling-akne',
         title: 'Microneedling mot akne',
         duration: '30-60 min',
         price: 'Pris från 1295 kr',
