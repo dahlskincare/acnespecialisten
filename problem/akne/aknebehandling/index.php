@@ -185,10 +185,10 @@ $repair_url = 'treatments/acne';
                         <div class="mt-xl">
                             <div class="columns is-2 is-variable">
                                 <div class="column">
-                                    <a href="hudkonsultation" class="button white expand l10n">Get a free consultation</a>
+                                    <a href="hudkonsultation" class="button white expand l10n">Få gratis konsultation</a>
                                 </div>
                                 <div class="column">
-                                    <a href="https://bokadirekt.se" class="button white expand l10n">Book a treatment</a>
+                                    <a href="https://bokadirekt.se" class="button white expand l10n">Boka behandling</a>
                                 </div>
                             </div>
                         </div>
@@ -212,10 +212,10 @@ $repair_url = 'treatments/acne';
                     <div class="mt-xl">
                         <div class="columns is-mobile">
                             <div class="column is-half">
-                                <a href="hudkonsultation" class="button b200 white expand l10n">Free consultation</a>
+                                <a href="hudkonsultation" class="button b200 white expand l10n">Gratis konsultation</a>
                             </div>
                             <div class="column is-half">
-                                <a href="https://bokadirekt.se" class="button b200 white expand l10n">Book a treatment</a>
+                                <a href="https://bokadirekt.se" class="button b200 white expand l10n">Boka behandling</a>
                             </div>
                         </div>
                     </div>
@@ -239,8 +239,8 @@ $repair_url = 'treatments/acne';
                             <?php echo $description ?>
                         </p>
                         <div class="mt-xl flex-row" id="book-buttons">
-                            <a href="hudkonsultation" class="button b200 white l10n">Get a free consultation</a>
-                            <a href="https://bokadirekt.se" class="button b200 white l10n">Book a treatment</a>
+                            <a href="hudkonsultation" class="button b200 white l10n">Få gratis konsultation</a>
+                            <a href="https://bokadirekt.se" class="button b200 white l10n">Boka behandling</a>
                         </div>
 
 
@@ -322,7 +322,7 @@ $repair_url = 'treatments/acne';
                 </section>
                 <section id="reviews">
                     <div class="flex-row align-end justify-space-between">
-                        <h2 class="big l10n">Reviews</h2>
+                        <h2 class="big l10n">Omdömen</h2>
                         <div class="flex-row is-hidden-mobile">
                             <div class="step-buttons">
                                 <button class="round-large grey" onclick="Reviews.scroll(-1)">
@@ -333,7 +333,7 @@ $repair_url = 'treatments/acne';
                                 </button>
                             </div>
                             <a href="https://se.trustpilot.com/review/acnespecialisten.se" class="ml-l button compact text">
-                                <span class="l10n">View all reviews</span>
+                                <span class="l10n">Läs fler omdömen</span>
                                 <?php icon('navigate-next') ?>
                             </a>
                         </div>
@@ -347,9 +347,9 @@ $repair_url = 'treatments/acne';
                 </section>
                 <section id="faq">
                     <div class="flex-row align-end justify-space-between">
-                        <h2 class="big l10n">Questions & answers</h2>
+                        <h2 class="big l10n">Frågor & Svar</h2>
                         <a href="faq" class="button compact text is-hidden-mobile">
-                            <span class="l10n">View all questions</span>
+                            <span class="l10n">Läs fler frågor & svar</span>
                             <?php icon('navigate-next') ?>
                         </a>
                     </div>
@@ -357,39 +357,39 @@ $repair_url = 'treatments/acne';
                 </section>
                 <section id="skin-guide">
                     <div class="flex-row align-end justify-space-between">
-                        <h2 class="big l10n">Skin guide</h2>
+                        <h2 class="big l10n">Hudguide</h2>
                         <a href="skin-guide" class="button compact text is-hidden-mobile">
-                            <span class="l10n">View all articles</span>
+                            <span class="l10n">Läs fler hudguider</span>
                             <?php icon('navigate-next') ?>
                         </a>
                     </div>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php'); ?>
-                    <a class="mt-xl button outline expand is-hidden-tablet l10n" href="skin-guide">View all articles</a>
+                    <a class="mt-xl button outline expand is-hidden-tablet l10n" href="skin-guide">Läs fler hudguider</a>
                 </section>
                 <section id="specialists">
                     <div class="flex-row align-end justify-space-between">
-                        <h2 class="big l10n">Our specialists</h2>
+                        <h2 class="big l10n">Våra specialister</h2>
                         <a href="specialister" class="button compact text is-hidden-mobile">
-                            <span class="l10n">View all specialists</span>
+                            <span class="l10n">Se alla specialister</span>
                             <?php icon('navigate-next') ?>
                         </a>
                     </div>
                     <?php
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
                     ?>
-                    <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialister">View all specialists</a>
+                    <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialister">Se alla specialister</a>
                 </section>
             </div>
             <section id="brands">
                 <div class="flex-row align-end justify-space-between">
-                    <h2 class="big l10n">Brands we use</h2>
+                    <h2 class="big l10n">Varumärken</h2>
                     <a href="varumarken" class="button compact text is-hidden-mobile">
-                        <span class="l10n">View all brands</span>
+                        <span class="l10n">Se alla varumärken</span>
                         <?php icon('navigate-next') ?>
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="varumarken">View all brands</a>
+                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="varumarken">Se alla varumärken</a>
             </section>
 
         </div>
