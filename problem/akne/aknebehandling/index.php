@@ -4,24 +4,30 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $image_large = 'images/treatments/large/acne-scars.jpg';
 $image_small = 'images/treatments/small/acne-scars.jpg';
-$problem = 'acne scars';
+$problem = 'akne';
 $title = 'Aknebehandlingar';
 $description = 'Här har vi samlat de mest effektiva behandlingsmetoderna för alla typer av akne. Oavsett ditt specifika behov har vi lösningen för dig. Är du osäker på vilken aknebehandling som passar din hudtyp bäst? Oroa dig inte, boka en kostnadsfri konsultation hos oss på Acnespecialisten så hjälper vi dig vidare mot en klarare och friskare hy.';
 $nav_buttons = array(
-    'about' => 'Overview',
-    'define' => 'Define problem',
-    'treat' => 'Treatment solutions',
-    'prevent' => 'Prevent problem',
-    'repair' => 'Repair',
-    'results' => 'Cases',
-    'reviews' => 'Reviews',
-    'faq' => 'Questions and answers',
-    'skin-guide' => 'Skin guide',
-    'specialists' => 'Specialists'
+    'about' => 'Info',
+    'define' => 'Konsultation',
+    'treat' => 'Behandlingar',
+    'prevent' => 'Produkter',
+    'repair' => 'Akneärr',
+    'results' => 'Resultat',
+    'reviews' => 'Omdömen',
+    'faq' => 'FAQ',
+    'skin-guide' => 'Hudguide',
+    'specialists' => 'Specialister'
 );
-$about_title = 'Hur behandlar man akne?';
-$about_content = '<p class="p200">På Acnespecialisten har vi expertisen och verktygen för att hjälpa dig att effektivt behandla och kontrollera akne. Vår omfattande strategi för aknebehandling börjar med att vi identifierar ditt specifika problem genom en kostnadsfri hudkonsultation. Vi tar oss tid att förstå din hud och din akne innan vi skräddarsyr en behandlingsplan anpassad just för dig. Våra behandlingar omfattar allt från avancerade ansiktsbehandlingar till avancerade lasertekniker, alla utformade för att effektivt behandla akne.</p>
-    <p class="p200 mt-m">I nästa steg fokuserar vi på att behandla din akne med de mest effektiva metoderna anpassade till ditt specifika fall. Vi använder beprövade tekniker såsom kemisk peeling och microneedling för att både behandla befintlig akne och minska risken för framtida utbrott. För att förebygga ytterligare utbrott och upprätthålla resultaten från behandlingarna hjälper vi dig att utveckla en skräddarsydd hudvårdsrutin med produkter specifikt utvalda för att behndla akne. Slutligen riktar vi in oss på att reparera eventuella ärr som aknen kan ha lämnat efter sig. Oavsett svårighetsgraden av din akne, är vi på Acnespecialisten här för att hjälpa dig att återfå en klar, hälsosam hy. Låt oss bli din guide och personliga hudterapeut på din resa mot en aknefri hy!</p>';
+$about_title = 'Hur vi tar bort och behandlar akne?';
+$about_content = '<p class="p200">På Acnespecialisten har vi expertisen och verktygen för att hjälpa dig att effektivt behandla och kontrollera akne. Vår omfattande strategi för aknebehandling börjar med att vi identifierar ditt specifika problem genom en kostnadsfri hudkonsultation. Vi tar oss tid att förstå din hud och din akne innan vi skräddarsyr en behandlingsplan anpassad just för dig. Våra behandlingar omfattar allt från portömmande ansiktsbehandlingar till avancerade lasertekniker, alla utformade för att effektivt behandla akne.</p>
+
+    <p class="p200 mt-m">I det nästa steget i vår behandlingsplan fokuserar vi på att behandla din aktiva akne. Det är avgörande att vi effektivt behandlar och får bort den inflammerade aknen då inflammationer kan leda till att aknen skadar huden och skapar ärr i form av gropar. Därför är vår första prioritet att få bort dessa inflammationer för att minimera risken för ärrbildning.</p>
+
+<p class="p200 mt-m">För att förebygga ytterligare akneutbrott och upprätthålla ett resultat, hjälper vi dig att ta fram en skräddarsydd hudvårdsrutin. Vi rekommenderar produkter som är speciellt utvalda för att hantera akne och bibehålla en balanserad och hälsosam hy.</p>
+
+<p class="p200 mt-m">Slutligen riktar vi oss mot att reparera eventuella ärr som aknen kan ha lämnat efter sig. Oavsett svårighetsgraden av din akne, är vi på Acnespecialisten här för att hjälpa dig att återfå en klar, hälsosam hy. Vi vill bli din guide och personliga hudterapeut på din resa mot en aknefri hy!</p>';
+
 $define_content = '<p class="p200">Det första steget i vår process är att identifiera din specifika typ av akne. Varje individs hud är unik, och det är därför viktigt att förstå exakt vilken typ av akne du har för att kunna erbjuda den mest effektiva behandlingen. Vi börjar med en kostnadsfri hudkonsultation där våra erfarna hudterapeuter analyserar din hud och dess specifika behov. Vi tar oss tid att diskutera dina hudproblem, dina mål med behandlingen och eventuella tidigare erfarenheter av hudvård eller aknebehandling. Genom denna noggranna analys kan vi skräddarsy en behandlingsplan som är skräddarsydd för just dig och din hud.</p>
     <p class="p200 mt-xl">Som en del av denna första fas tar vi även förebilder på din hud. Dessa bilder hjälper oss att tydligt följa din huds framsteg och anpassa din behandlingsplan när vi ser hur din hud svarar på behandlingen. En annan viktig aspekt av detta första steg är tilldelningen av en personlig hudterapeut. Din hudterapeut kommer att vara med dig genom hela din behandlingsresa, från den första konsultationen till ditt slutliga resultat. Denna konsekventa omsorg säkerställer att du alltid har en expert vid din sida som förstår din hud och dina specifika behov. Identifiering är avgörande eftersom alla typer av akne inte svarar likadant på behandlingar. Olika typer av akne kan kräva olika behandlingsmetoder, så förståelsen för din specifika akne är grunden för vår behandlingsprocess. Hos Acnespecialisten är vi dedikerade till att ge dig den bästa möjliga behandlingen för din akne, och det börjar med att noggrant identifiera och förstå din unika hud.</p>';
 
@@ -31,7 +37,7 @@ $treat_content = '<p class="p200">Efter att vi noggrant har identifierat din akn
 
 $services = array(
     new Service(
-        id: 'behandlingar/ansiktsbehandling-mot-akne',
+        id: 'ansiktsbehandling-mot-akne',
         url_label: 'Läs mer',
         url_title: 'Ansiktsbehandling mot akne',
         title: 'Ansiktsbehandling mot akne',
@@ -61,8 +67,8 @@ $services = array(
         content: '<p class="p200">Laserbehandling för akne hos Acnespecialisten fungerar genom att använda ljusenergi för att behandla inflammationen i huden som orsakar akne. Laserstrålen tränger ner i huden och behandlar de djupa lager där akne börjar. Denna metod reducerar oljeproduktionen i huden och dödar bakterier som bidrar till akneutbrott.</p>',
         image_small: 'https://via.placeholder.com/358x274.jpg',
         image_large: 'https://via.placeholder.com/852x456.jpg',
-        image_alt: 'Laser mot akne',
-        image_title: 'Laser mot akne',
+        image_alt: 'Laserbehandling mot akne',
+        image_title: 'Laserbehandling mot akne',
         consultation_url: 'konsultation-laser',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Konsultation mot akne',
@@ -85,7 +91,7 @@ $services = array(
         image_alt: 'Chemical peeling for acne scars',
         image_title: 'Chemical peeling for acne scars',
         consultation_url: 'hudkonsultation',
-        consultation_url_label: 'Boka konsultation',
+        consultation_url_label: 'Book a consultation',
         consultation_url_title: 'Book a consultation',
         booking_url: null,
         booking_url_label: null,
@@ -119,13 +125,19 @@ $products = array(
     new Product(
         url: 'PRODUKT-URL-HÄR',
         url_label: 'Läs mer',
-        url_title: 'Balancing cleanser',
+        url_title: 'Hudvårdsprodukter mot akne',
         price: 'Pris från 995 kr',
-        content: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>',
+        content: '<p class="p200">Att förebygga akne är ett kritiskt steg i din hudvårdsresa, precis lika viktigt som behandlingarna du får på kliniken. Huden, särskilt en aknebenägen hy, är i konstant överproduktion av olja och därför kräver den regelbunden och konsekvent vård.</p>
+
+    <p class="p200 mt-m">På Acnespecialisten förstår vi att varje persons hy är unik, och därför erbjuder vi skräddarsydda hudvårdsrutiner som är speciellt utformade för att passa din specifika hudtyp och tillstånd. En daglig hudvårdsrutin hjälper till att hålla din hy ren, balanserad och fri från överflödigt talg och bakterier, vilket är de primära faktorerna bakom akne. Genom att följa en skräddarsydd hudvårdsrutin kan du effektivt förebygga uppkomsten av ny akne.</p>
+
+    <p class="p200 mt-m">Jämför det med tandvård: du borstar dina tänder dagligen för att förebygga karies och upprätthålla god munhälsa. På samma sätt borde du ta hand om din hud dagligen för att förhindra akne och upprätthålla din hudhälsa. Att följa din personliga hudvårdsrutin är precis lika viktigt som de regelbundna besöken hos oss på Acnespecialisten.</p>
+
+    <p class="p200 mt-m">Kom ihåg, vi på Acnespecialisten är här för att stödja dig på din hudvårdsresa, från de inledande konsultationerna till behandlingar och eftervård. Tillsammans kan vi hjälpa din hud att bli så hälsosam och klar som möjligt.</p>',
         image_small: 'https://via.placeholder.com/358x274.jpg',
         image_large: 'https://via.placeholder.com/872x456.jpg',
-        image_alt: 'Balancing cleanser',
-        image_title: 'Balancing cleanser',
+        image_alt: 'Hudvårdsprodukter mot akne',
+        image_title: 'Hudvårdsprodukter mot akne',
     ),
 );
 $specialists = array(
@@ -307,7 +319,7 @@ $repair_url = 'treatments/acne';
                 </section>
                 <?php if (isset($products) && sizeof($products) > 0) { ?>
                     <section id="prevent">
-                        <h2 class="h500 l10n">03. Motverka ...</h2>
+                        <h2 class="h500 l10n">03. Förebygg akne</h2>
                         <?php foreach ($products as $product) {
                             include('../../widgets/product-card/product-card.php');
                         } ?>
@@ -315,7 +327,7 @@ $repair_url = 'treatments/acne';
                 <?php } ?>
                 <?php if (isset($repair_title) && isset($repair_content) && isset($repair_image_small) && isset($repair_image_large) && isset($repair_url)) { ?>
                     <section id="repair">
-                        <h2 class="h500 l10n">04. Repair</h2>
+                        <h2 class="h500 l10n">04. Reparera post akne (Acneärr)</h2>
                         <picture>
                             <source media="(max-width: 799px)" srcset="<?php echo $repair_image_small ?>">
                             <source media="(min-width: 800px)" srcset="<?php echo $repair_image_large ?>">
