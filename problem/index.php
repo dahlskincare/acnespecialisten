@@ -2,18 +2,16 @@
 <?php
 class ProblemArea
 {
-      public function __construct($label, $icon, $problem_ids, $visible = true)
+      public function __construct($label, $icon, $problem_ids)
       {
             $this->label = $label;
             $this->icon = $icon;
             $this->problem_ids = $problem_ids;
-            $this->visible = $visible;
       }
 
       public string $label;
       public string $icon;
       public array $problem_ids;
-      public bool $visible;
 }
 
 class Problem
@@ -327,11 +325,10 @@ $problems['oonskad-harvaxt'] = new Problem(
       info: 'Oönskad hårväxt är en vanlig problematik som drabbar både män och kvinnor, och involverar hår som växer på icke-önskade områden såsom ansiktet, armarna, benen eller ryggen. För att effektivt och permanent behandla oönskad hårväxt använder vi oss av laserhårborttagning, vilket ger långvariga och tillfredsställande resultat.'
 );
 
-$all = new ProblemArea(
-      label: 'ALL',
+$default_problems = new ProblemArea(
+      label: '',
       icon: '',
       problem_ids: array('akne'),
-      visible: false,
 );
 
 $problem_areas = array(
@@ -611,7 +608,7 @@ $problem_areas = array(
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
       <script src="problem/problems.js"></script>
       <script>
-            showProblems('<?php echo join(',', $all->problem_ids) ?>');
+            showProblems('<?php echo join(',', $default_problems->problem_ids) ?>');
       </script>
 </body>
 
