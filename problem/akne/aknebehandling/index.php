@@ -23,7 +23,7 @@ $about_title = 'Hur behandlar man akne?';
 $about_content = '<p class="p200">På Acnespecialisten har vi expertisen och verktygen för att hjälpa dig att effektivt bekämpa och kontrollera akne. Vår omfattande strategi för aknebehandling börjar med att vi identifierar ditt specifika problem genom en kostnadsfri hudkonsultation. Vi tar oss tid att förstå din hud och din akne innan vi skräddarsyr en behandlingsplan anpassad just för dig. Våra behandlingar omfattar allt från avancerade ansiktsbehandlingar till avancerade lasertekniker, alla utformade för att effektivt bekämpa akne.</p>
 
     <p class="p200 mt-m">I nästa steg fokuserar vi på att behandla din akne med de mest effektiva metoderna anpassade till ditt specifika fall. Vi använder beprövade tekniker såsom kemisk peeling och microneedling för att både behandla befintlig akne och minska risken för framtida utbrott. För att förebygga ytterligare utbrott och upprätthålla resultaten från behandlingarna hjälper vi dig att utveckla en skräddarsydd hudvårdsrutin med produkter specifikt utvalda för att bekämpa akne. Slutligen riktar vi in oss på att reparera eventuella ärr som aknen kan ha lämnat efter sig. Oavsett svårighetsgraden av din akne, är vi på Acnespecialisten här för att hjälpa dig att återfå en klar, hälsosam hy. Låt oss bli din guide och personliga skönhetsterapeut på din resa mot en aknefri hy!</p>';
-    
+
 $define_content = '<p class="p200">This is a treatment adapted for acne skin and <a class="b200 underline">pimples</a> and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-xl">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p>';
 $define_consultation_url = 'hudkonsultation';
 $services = array(
@@ -246,16 +246,14 @@ $repair_url = 'treatments/acne';
                     <div class="mt-xl"><?php echo $about_content ?></div>
                 </section>
                 <section id="define">
-                    <h2>
-                        <span class="h500">01.</span>&nbsp;&nbsp;<span class="h500 l10n">Define&nbsp;</span><span class="h500 lowercase"><?php echo $problem ?></span>
-                    </h2>
+                    <h2>01. Identifiera din akne</h2>
                     <picture>
                         <source media="(max-width: 799px)" srcset="images/service-categories/medium/consultation.jpg">
                         <source media="(min-width: 800px)" srcset="images/service-categories/large/consultation.jpg">
                         <img class="mt-xl step-image" src="images/service-categories/large/consultation.jpg" alt="<?php echo $title ?>" title="<?php echo $title ?>" width="872" height="456" />
                     </picture>
                     <div class="mt-xl"><?php echo $define_content ?></div>
-                    <a href="<?php echo $define_consultation_url ?>" class="mt-xl button b200 l10n">Get a free consultation</a>
+                    <a href="<?php echo $define_consultation_url ?>" class="mt-xl button b200 l10n">Få gratis konsultation</a>
                 </section>
                 <section id="treat">
                     <h2>
