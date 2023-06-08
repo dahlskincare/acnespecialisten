@@ -261,7 +261,11 @@ $repair_url = 'treatments/acne';
                 <section id="treat">
                     <h2 class="h500 l10n">02. Behandla aktiv akne</h2>
                     <p class="mt-xs l10n">
-                        Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.
+                        Efter att vi noggrant har identifierat din aknetyp och hudtillstånd, följer nästa fas i vår process: att behandla den aktiva aknen. På Acnespecialisten använder vi en rad effektiva behandlingsmetoder för att effektivt bekämpa och kontrollera akne. Från beprövade tekniker som ansiktsbehandlingar och kemisk peeling, till avancerade metoder som laserbehandling och microneedling. Varje behandlingsmetod väljs utifrån din unika hudtyp och aknebehov för att maximera resultaten och minimera obehaget.
+
+                        Din personliga hudterapeut, som följer dig genom hela din aknebehandlingsresa, kommer att applicera behandlingarna med största omsorg och precision. Dessa behandlingsmetoder är utformade för att minska inflammationen i huden, rensa bort döda hudceller, kontrollera överproduktionen av talg och, över tid, minska och förhindra bildandet av akne. Vi förstår att varje individs hud reagerar olika på olika behandlingar, och vi anpassar därför behandlingsplanen kontinuerligt baserat på hur din hud svarar.
+
+                        Målet med denna andra fas är att effektivt reducera din aktiva akne och förbereda din hud för nästa steg i processen: förebyggande och underhåll. Med Acnespecialisten vid din sida, kan du känna dig trygg i vetskapen att du får den mest effektiva och anpassade aknebehandlingen för just dig och din hud.
                     </p>
                     <div id="service-buttons" class="mt-m flex-row is-hidden-tablet">
                         <?php foreach ($services as $service) { ?>
