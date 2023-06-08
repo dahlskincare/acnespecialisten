@@ -8,16 +8,16 @@ $problem = 'akne';
 $title = 'Aknebehandlingar';
 $description = 'Här har vi samlat de mest effektiva behandlingsmetoderna för alla typer av akne. Oavsett ditt specifika behov har vi lösningen för dig. Är du osäker på vilken aknebehandling som passar din hudtyp bäst? Oroa dig inte, boka en kostnadsfri konsultation hos oss på Acnespecialisten så hjälper vi dig vidare mot en klarare och friskare hy.';
 $nav_buttons = array(
-    'about' => 'Overview',
-    'define' => 'Define problem',
-    'treat' => 'Treatment solutions',
-    'prevent' => 'Prevent problem',
-    'repair' => 'Repair',
-    'results' => 'Cases',
-    'reviews' => 'Reviews',
-    'faq' => 'Questions and answers',
-    'skin-guide' => 'Skin guide',
-    'specialists' => 'Specialists'
+    'about' => 'Hur?',
+    'define' => 'Konsultation',
+    'treat' => 'Behandlingar',
+    'prevent' => 'Förebygg',
+    'repair' => 'Reparera',
+    'results' => 'Resultat',
+    'reviews' => 'Omdömen',
+    'faq' => 'FAQ',
+    'skin-guide' => 'Hudguide',
+    'specialists' => 'Specialister'
 );
 $about_title = 'Hur behandlar man akne?';
 $about_content = '<p class="p200">På Acnespecialisten har vi expertisen och verktygen för att hjälpa dig att effektivt behandla och kontrollera akne. Vår omfattande strategi för aknebehandling börjar med att vi identifierar ditt specifika problem genom en kostnadsfri hudkonsultation. Vi tar oss tid att förstå din hud och din akne innan vi skräddarsyr en behandlingsplan anpassad just för dig. Våra behandlingar omfattar allt från avancerade ansiktsbehandlingar till avancerade lasertekniker, alla utformade för att effektivt behandla akne.</p>
