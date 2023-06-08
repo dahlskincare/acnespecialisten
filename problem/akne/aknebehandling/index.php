@@ -80,7 +80,7 @@ $services = array(
         consultation_url_title: 'Book a consultation',
         booking_url: null,
         booking_url_title: null,
-        icons: array('who-infants' => 'Exfolierande', 'who-infants' => 'Förnyande', 'who-teenagers' => 'Uppfräschande', 'who-adults' => 'Ljusande'),
+        icons: array('who-infants' => 'Exfolierande', 'who-elders' => 'Förnyande', 'who-teenagers' => 'Uppfräschande', 'who-adults' => 'Ljusande'),
         short_title: 'Chemical peeling'
     ),
     new Service(
@@ -97,7 +97,7 @@ $services = array(
         consultation_url_title: 'Boka konsultation',
         booking_url: 'Boka behandling',
         booking_url_title: 'Boka microneedling mot akne ',
-        icons: array('who-infants' => 'Stimulerande', 'who-infants' => 'Förnyande', 'who-teenagers' => 'Djupgående', 'who-adults' => 'Minskning av ärr'),
+        icons: array('who-infants' => 'Stimulerande', 'who-elders' => 'Förnyande', 'who-teenagers' => 'Djupgående', 'who-adults' => 'Minskning av ärr'),
         short_title: 'Chemical peeling'
     ),
 );
