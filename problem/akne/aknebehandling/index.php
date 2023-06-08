@@ -46,7 +46,7 @@ $services = array(
         consultation_url_title: 'konsultation mot akne',
         booking_url: 'bokadirektlänk här',
         booking_url_title: 'Boka ansiktsbehandling mot akne',
-        icons: array('who-infants' => 'Rengöring', 'who-infants' => 'Uppångning', 'who-infants' => 'Portömning', 'who-infants' => 'Lugnande'),
+        icons: array('who-infants' => 'Rengöring', 'who-infants' => 'Uppångning', 'who-teenagers' => 'Portömning', 'who-adults' => 'Lugnande'),
         short_title: 'Microneedling'
     ),
     new Service(
@@ -61,9 +61,9 @@ $services = array(
         image_title: 'Laser for acne scars',
         consultation_url: 'hudkonsultation',
         consultation_url_title: 'Book a consultation',
-        booking_url: null,
-        booking_url_title: null,
-        icons: array('who-infants' => 'Infants', 'who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults'),
+        booking_url: 'Boka behandling',
+        booking_url_title: 'Boka ansiktsbehandling mot akne',
+        icons: array('who-infants' => 'Infants', 'who-elders' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults'),
         short_title: 'Laser'
     ),
     new Service(
