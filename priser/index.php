@@ -354,13 +354,13 @@ $service_categories = array(
                 <div class="container">
                     <div class="flex-row align-end justify-space-between">
                         <h2 class="big l10n">Brands we use</h2>
-                        <a href="brands" class="button compact text is-hidden-mobile">
+                        <a href="varumarken" class="button compact text is-hidden-mobile">
                             <span class="l10n">View all brands</span>
                             <?php icon('navigate-next') ?>
                         </a>
                     </div>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                    <a class="mt-xl button outline expand is-hidden-tablet l10n" href="brands">View all brands</a>
+                    <a class="mt-xl button outline expand is-hidden-tablet l10n" href="varumarken">View all brands</a>
                 </div>
             </section>
         </div>
