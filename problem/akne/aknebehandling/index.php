@@ -19,7 +19,7 @@ $nav_buttons = array(
     'skin-guide' => 'Hudguide',
     'specialists' => 'Specialister'
 );
-$about_title = 'Hur behandlar man akne?';
+$about_title = 'Hur vi tar bort och behandlar akne?';
 $about_content = '<p class="p200">På Acnespecialisten har vi expertisen och verktygen för att hjälpa dig att effektivt behandla och kontrollera akne. Vår omfattande strategi för aknebehandling börjar med att vi identifierar ditt specifika problem genom en kostnadsfri hudkonsultation. Vi tar oss tid att förstå din hud och din akne innan vi skräddarsyr en behandlingsplan anpassad just för dig. Våra behandlingar omfattar allt från avancerade ansiktsbehandlingar till avancerade lasertekniker, alla utformade för att effektivt behandla akne.</p>
 
     <p class="p200 mt-m">I nästa steg fokuserar vi på att behandla din akne med de mest effektiva metoderna anpassade till ditt specifika fall. Vi använder beprövade tekniker såsom kemisk peeling och microneedling för att både behandla befintlig akne och minska risken för framtida utbrott. För att förebygga ytterligare utbrott och upprätthålla resultaten från behandlingarna hjälper vi dig att utveckla en skräddarsydd hudvårdsrutin med produkter specifikt utvalda för att behndla akne. Slutligen riktar vi in oss på att reparera eventuella ärr som aknen kan ha lämnat efter sig. Oavsett svårighetsgraden av din akne, är vi på Acnespecialisten här för att hjälpa dig att återfå en klar, hälsosam hy. Låt oss bli din guide och personliga hudterapeut på din resa mot en aknefri hy!</p>';
