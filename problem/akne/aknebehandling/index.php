@@ -5,8 +5,8 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 $image_large = 'images/treatments/large/acne-scars.jpg';
 $image_small = 'images/treatments/small/acne-scars.jpg';
 $problem = 'acne scars';
-$title = 'Acne scars treatment';
-$description = 'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we.';
+$title = 'Aknebehandlingar';
+$description = 'Här har vi samlat de mest effektiva behandlingsmetoderna för alla typer av akne. Oavsett ditt specifika behov har vi lösningen för dig. Är du osäker på vilken aknebehandling som passar din hudtyp bäst? Oroa dig inte, boka en kostnadsfri konsultation hos oss på Acnespecialisten så hjälper vi dig vidare mot en klarare och friskare hy.';
 $nav_buttons = array(
     'about' => 'Overview',
     'define' => 'Define problem',
@@ -19,7 +19,7 @@ $nav_buttons = array(
     'skin-guide' => 'Skin guide',
     'specialists' => 'Specialists'
 );
-$about_title = 'What is acne scars treatment?';
+$about_title = 'Hur behandlar man akne?';
 $about_content = '<p class="p200">This is a treatment adapted for acne skin and <a class="b200 underline">pimples</a> and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-xl">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p>';
 $define_content = '<p class="p200">This is a treatment adapted for acne skin and <a class="b200 underline">pimples</a> and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-xl">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p>';
 $define_consultation_url = 'hudkonsultation';
