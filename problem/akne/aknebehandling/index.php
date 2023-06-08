@@ -33,20 +33,20 @@ $treat_content = '<p class="p200">Efter att vi noggrant har identifierat din akn
 $define_consultation_url = 'hudkonsultation';
 $services = array(
     new Service(
-        id: 'microneedling-akne',
-        title: 'Microneedling mot akne',
-        duration: '30-60 min',
-        price: 'Pris från 1295 kr',
-        content: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p>',
+        id: 'ansiktsbehandling-akne',
+        title: 'Ansiktsbehandling mot akne',
+        duration: '60 min',
+        price: 'Pris från 799 kr',
+        content: '<p class="p200">Ansiktsbehandling mot akne på Acnespecialisten är en djuprengöring av huden som tar bort döda hudceller och frigör tilltäppta porer. Behandlingen inleds med en rengöring, följt av ångning för att öppna upp porerna. Därefter följer en djup porrengöring där orenheter och akne elimineras. Behandlingen avslutas med en lugnande mask och fuktgivande kräm anpassad för din hudtyp.</p>',
         image_small: 'https://via.placeholder.com/358x274.jpg',
         image_large: 'https://via.placeholder.com/852x456.jpg',
-        image_alt: 'Microneedling for acne scars',
-        image_title: 'Microneedling for acne scars',
+        image_alt: 'Ansiktsbehandling mot akne',
+        image_title: 'Ansiktsbehandling mot akne',
         consultation_url: 'hudkonsultation',
-        consultation_url_title: 'Book a consultation',
-        booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922?_ga=2.103539465.80893672.1675771766-1054758468.1672765135&_gac=1.52586202.1675771766.CjwKCAiAioifBhAXEiwApzCztkJaMGhW8PiC3PRH919PHMXYYIgTe0SRGs9lLjTqosRh7L3UbBbbExoC5doQAvD_BwE',
-        booking_url_title: 'Book a treatment',
-        icons: array('who-infants' => 'Infants', 'who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults'),
+        consultation_url_title: 'konsultation mot akne',
+        booking_url: 'bokadirektlänk här',
+        booking_url_title: 'Boka ansiktsbehandling mot akne',
+        icons: array('who-infants' => 'Rengöring', 'who-infants' => 'Uppångning', 'who-teenagers' => 'Portömning', 'who-adults' => 'Lugnande'),
         short_title: 'Microneedling'
     ),
     new Service(
