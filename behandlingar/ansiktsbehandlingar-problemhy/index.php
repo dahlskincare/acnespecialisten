@@ -244,11 +244,15 @@ $service_brands_text = '<p class="p200">Acne, as we have seen, is a rash on the 
 $service_brands = array(
     new Brand(
         label: 'Powerlite',
-        image: 'images/brands/powerlite.svg'
+        image: 'images/brands/powerlite.svg',
+        image_alt: 'Powerlite',
+        image_title: 'Powerlite'
     ),
     new Brand(
         label: 'Dermapen4',
-        image: 'images/brands/dermapen4.svg'
+        image: 'images/brands/dermapen4.svg',
+        image_alt: 'Dermapen4',
+        image_title: 'Dermapen4'
     )
 );
 
@@ -537,35 +541,51 @@ $big_types = array(
 $all_brands = array(
     new Brand(
         label: 'Powerlite',
-        image: 'images/brands/powerlite.svg'
+        image: 'images/brands/powerlite.svg',
+        image_alt: 'Powerlite',
+        image_title: 'Powerlite',
     ),
     new Brand(
         label: 'Dermapen4',
-        image: 'images/brands/dermapen4.svg'
+        image: 'images/brands/dermapen4.svg',
+        image_alt: 'Dermapen4',
+        image_title: 'Dermapen4',
     ),
     new Brand(
         label: 'Cryopen',
-        image: 'images/brands/cryopen.svg'
+        image: 'images/brands/cryopen.svg',
+        image_alt: 'Cryopen',
+        image_title: 'Cryopen',
     ),
     new Brand(
         label: 'Lumenis',
-        image: 'images/brands/lumenis.svg'
+        image: 'images/brands/lumenis.svg',
+        image_alt: 'Lumenis',
+        image_title: 'Lumenis',
     ),
     new Brand(
         label: 'Alma',
-        image: 'images/brands/alma.svg'
+        image: 'images/brands/alma.svg',
+        image_alt: 'Alma',
+        image_title: 'Alma',
     ),
     new Brand(
         label: 'PRXT',
-        image: 'images/brands/prxt.svg'
+        image: 'images/brands/prxt.svg',
+        image_alt: 'PRXT',
+        image_title: 'PRXT',
     ),
     new Brand(
         label: 'Hydrafacial',
-        image: 'images/brands/hydrafacial.svg'
+        image: 'images/brands/hydrafacial.svg',
+        image_alt: 'Hydrafacial',
+        image_title: 'Hydrafacial',
     ),
     new Brand(
         label: 'IP infusion',
-        image: 'images/brands/ipinfusion.svg'
+        image: 'images/brands/ipinfusion.svg',
+        image_alt: 'IP infusion',
+        image_title: 'IP infusion',
     ),
 );
 

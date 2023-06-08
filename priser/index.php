@@ -107,72 +107,111 @@ $service_categories = array(
                                 new Brand(
                                     label: 'Powerlite',
                                     image: 'https://via.placeholder.com/94x34.webp',
+                                    image_alt: 'Powerlite',
+                                    image_title: 'Powerlite',
                                     url: 'priser/powerlite',
+                                    url_title: 'Powerlite',
                                 ),
                                 new Brand(
                                     label: 'Dermapen',
                                     image: 'https://via.placeholder.com/94x34.webp',
+                                    image_alt: 'Dermapen',
+                                    image_title: 'Dermapen',
                                     url: 'priser/dermapen',
+                                    url_title: 'Dermapen',
                                 ),
                                 new Brand(
                                     label: 'Dermapen',
                                     image: 'https://via.placeholder.com/94x34.webp',
+                                    image_alt: 'Dermapen',
+                                    image_title: 'Dermapen',
                                     url: 'priser/dermapen',
+                                    url_title: 'Dermapen',
                                 ),
                                 new Brand(
                                     label: 'Dermapen',
                                     image: 'https://via.placeholder.com/94x34.webp',
+                                    image_alt: 'Dermapen',
+                                    image_title: 'Dermapen',
                                     url: 'priser/dermapen',
+                                    url_title: 'Dermapen',
                                 ),
                                 new Brand(
                                     label: 'Dermapen',
                                     image: 'https://via.placeholder.com/94x34.webp',
+                                    image_alt: 'Dermapen',
+                                    image_title: 'Dermapen',
                                     url: 'priser/dermapen',
+                                    url_title: 'Dermapen',
                                 ),
                                 new Brand(
                                     label: 'Dermapen',
                                     image: 'https://via.placeholder.com/94x34.webp',
+                                    image_alt: 'Dermapen',
+                                    image_title: 'Dermapen',
                                     url: 'priser/dermapen',
+                                    url_title: 'Dermapen',
                                 ),
                                 new Brand(
                                     label: 'Dermapen',
                                     image: 'https://via.placeholder.com/94x34.webp',
+                                    image_alt: 'Dermapen',
+                                    image_title: 'Dermapen',
                                     url: 'priser/dermapen',
+                                    url_title: 'Dermapen',
                                 ),
                                 new Brand(
                                     label: 'Dermapen',
                                     image: 'https://via.placeholder.com/94x34.webp',
+                                    image_alt: 'Dermapen',
+                                    image_title: 'Dermapen',
                                     url: 'priser/dermapen',
+                                    url_title: 'Dermapen',
                                 ),
                                 new Brand(
                                     label: 'Dermapen',
                                     image: 'https://via.placeholder.com/94x34.webp',
+                                    image_alt: 'Dermapen',
+                                    image_title: 'Dermapen',
                                     url: 'priser/dermapen',
+                                    url_title: 'Dermapen',
                                 ),
                                 new Brand(
                                     label: 'Dermapen',
                                     image: 'https://via.placeholder.com/94x34.webp',
+                                    image_alt: 'Dermapen',
+                                    image_title: 'Dermapen',
                                     url: 'priser/dermapen',
+                                    url_title: 'Dermapen',
                                 ),
                                 new Brand(
                                     label: 'Dermapen',
                                     image: 'https://via.placeholder.com/94x34.webp',
+                                    image_alt: 'Dermapen',
+                                    image_title: 'Dermapen',
                                     url: 'priser/dermapen',
+                                    url_title: 'Dermapen'
                                 ),
                                 new Brand(
                                     label: 'Dermapen',
                                     image: 'https://via.placeholder.com/94x34.webp',
+                                    image_alt: 'Dermapen',
+                                    image_title: 'Dermapen',
                                     url: 'priser/dermapen',
+                                    url_title: 'Dermapen'
                                 ),
                                 new Brand(
                                     label: 'Dermapen',
                                     image: 'https://via.placeholder.com/94x34.webp',
+                                    image_alt: 'Dermapen',
+                                    image_title: 'Dermapen',
                                     url: 'priser/dermapen',
+                                    url_title: 'Dermapen'
                                 ),
                             );
                             foreach ($brands as $brand) { ?>
                                 <a href="<?php echo $brand->url ?>">
-                                    <img src="<?php echo $brand->image ?>" alt="<?php echo $brand->title ?>" title="<?php echo $brand->title ?>" width="94" height="34" class="brand" />
+                                    <img src="<?php echo $brand->image ?>" alt="<?php echo $brand->image_alt ?>" title="<?php echo $brand->image_title ?>" width="94" height="34" class="brand" />
                                 </a>
                             <?php } ?>
                         </div>
