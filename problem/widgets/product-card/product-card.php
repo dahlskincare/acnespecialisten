@@ -9,9 +9,9 @@
         <?php echo $product->content ?>
     </div>
     <div class="mt-xl product-card-button">
-        <a href="<?php echo $product->url ?>" title="<?php echo $url_title ?>" class="is-hidden-tablet button outline expand"><?php echo $product->url_label ?></a>
-        <a href="<?php echo $product->url ?>" title="<?php echo $url_title ?>" class="is-hidden-mobile button b200 text compact">
-            <span><?php echo $url_label ?></span>
+        <a href="<?php echo $product->url ?>" title="<?php echo $product->url_title ?>" class="is-hidden-tablet button outline expand"><?php echo $product->url_label ?></a>
+        <a href="<?php echo $product->url ?>" title="<?php echo $product->url_title ?>" class="is-hidden-mobile button b200 text compact">
+            <span><?php echo $product->url_label ?></span>
             <?php icon('navigate-next') ?>
         </a>
     </div>
