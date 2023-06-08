@@ -16,13 +16,15 @@ class ProblemArea
 
 class Problem
 {
-      public function __construct($label, $url, $url_title, $consultation_url, $booking_url, $image, $image_title, $image_alt, $info)
+      public function __construct($label, $url, $url_title, $consultation_url, $consultation_url_title, $booking_url, $booking_url_title, $image, $image_title, $image_alt, $info)
       {
             $this->label = $label;
             $this->url = $url;
             $this->url_title = $url_title;
             $this->consultation_url = $consultation_url;
+            $this->consultation_url_title = $consultation_url_title;
             $this->booking_url = $booking_url;
+            $this->booking_url_title = $booking_url_title;
             $this->image = $image;
             $this->image_title = $image_title;
             $this->image_alt = $image_alt;
@@ -32,7 +34,9 @@ class Problem
       public string $url;
       public string $url_title;
       public string $consultation_url;
+      public string $consultation_url_title;
       public string $booking_url;
+      public string $booking_url_title;
       public string $image;
       public string $image_title;
       public string $image_alt;
@@ -44,7 +48,9 @@ $problems['akne'] = new Problem(
       url: 'problem/akne',
       url_title: 'Läs mer om detaljerd information om Akne',
       consultation_url: 'hudkonsultation',
+      consultation_url_title: 'Boka en hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
+      booking_url_title: 'Boka',
       image: 'images/problems/424x324/akne.webp',
       image_alt: 'Bild på akne i ansiktet',
       image_title: 'Akne i ansiktet, den vanligaste hudsjukdomen',
@@ -56,7 +62,9 @@ $problems['akne-rygg'] = new Problem(
       url: 'problem/akne-rygg',
       url_title: 'Akne',
       consultation_url: 'hudkonsultation',
+      consultation_url_title: 'Boka en hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
+      booking_url_title: 'Boka',
       image: 'images/problems/424x324/akne.webp',
       image_alt: 'Akne på ryggen',
       image_title: 'Akne på ryggen',
@@ -69,6 +77,8 @@ $problems['aknearr'] = new Problem(
       url_title: 'Akneärr',
       consultation_url: 'hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
+      consultation_url_title: 'Boka en hudkonsultation',
+      booking_url_title: 'Boka',
       image: 'images/problems/424x324/acnearr.webp',
       image_alt: 'Akneärr',
       image_title: 'Akneärr',
@@ -81,6 +91,8 @@ $problems['rosacea'] = new Problem(
       url_title: 'Rosacea',
       consultation_url: 'hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
+      consultation_url_title: 'Boka en hudkonsultation',
+      booking_url_title: 'Boka',
       image: 'images/problems/424x324/rosacea.webp',
       image_alt: 'Rosacea',
       image_title: 'Rosacea',
@@ -94,6 +106,8 @@ $problems['pormaskar'] = new Problem(
       url_title: 'Pormaskar',
       consultation_url: 'hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
+      consultation_url_title: 'Boka en hudkonsultation',
+      booking_url_title: 'Boka',
       image: 'images/problems/424x324/pormaskar.webp',
       image_alt: 'Pormaskar',
       image_title: 'Pormaskar',
@@ -106,6 +120,8 @@ $problems['stora-porer'] = new Problem(
       url_title: 'Stora porer',
       consultation_url: 'hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
+      consultation_url_title: 'Boka en hudkonsultation',
+      booking_url_title: 'Boka',
       image: 'images/problems/424x324/stora-porer.webp',
       image_alt: 'Stora porer',
       image_title: 'Stora porer',
@@ -118,6 +134,8 @@ $problems['milier'] = new Problem(
       url_title: 'Milier',
       consultation_url: 'hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
+      consultation_url_title: 'Boka en hudkonsultation',
+      booking_url_title: 'Boka',
       image: 'images/problems/424x324/milier.webp',
       image_alt: 'Milier',
       image_title: 'Milier',
@@ -130,6 +148,8 @@ $problems['blandhy'] = new Problem(
       url_title: 'Blandhy',
       consultation_url: 'hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
+      consultation_url_title: 'Boka en hudkonsultation',
+      booking_url_title: 'Boka',
       image: 'images/problems/424x324/blandhy.webp',
       image_alt: 'Blandhy',
       image_title: 'Blandhy',
@@ -142,6 +162,8 @@ $problems['finnar'] = new Problem(
       url_title: 'Finnar',
       consultation_url: 'hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
+      consultation_url_title: 'Boka en hudkonsultation',
+      booking_url_title: 'Boka',
       image: 'images/problems/424x324/finnar.webp',
       image_alt: 'Finnar',
       image_title: 'Finnar',
@@ -154,6 +176,8 @@ $problems['arr-fran-finnar'] = new Problem(
       url_title: 'Ärr från finnar',
       consultation_url: 'hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
+      consultation_url_title: 'Boka en hudkonsultation',
+      booking_url_title: 'Boka',
       image: 'images/problems/424x324/arr-fran-finnar.webp',
       image_alt: 'Ärr från finnar',
       image_title: 'Ärr från finnar',
@@ -166,6 +190,8 @@ $problems['perioral-dermatit'] = new Problem(
       url_title: 'Perioral dermatit',
       consultation_url: 'hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
+      consultation_url_title: 'Boka en hudkonsultation',
+      booking_url_title: 'Boka',
       image: 'images/problems/424x324/perioral-dermatit.webp',
       image_alt: 'Perioral dermatit',
       image_title: 'Perioral dermatit',
@@ -178,6 +204,8 @@ $problems['seborre'] = new Problem(
       url_title: 'Seborré',
       consultation_url: 'hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
+      consultation_url_title: 'Boka en hudkonsultation',
+      booking_url_title: 'Boka',
       image: 'images/problems/424x324/seborre.webp',
       image_alt: 'Seborré',
       image_title: 'Seborré',
@@ -190,6 +218,8 @@ $problems['torr-kanslig-hy'] = new Problem(
       url_title: 'Torr & Känslig hy',
       consultation_url: 'hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
+      consultation_url_title: 'Boka en hudkonsultation',
+      booking_url_title: 'Boka',
       image: 'images/problems/424x324/torr-kanslig-hy.webp',
       image_alt: 'Torr & Känslig hy',
       image_title: 'Torr & Känslig hy',
@@ -202,6 +232,8 @@ $problems['ytliga-blodkarl'] = new Problem(
       url_title: 'Ytliga Blodkärl',
       consultation_url: 'hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
+      consultation_url_title: 'Boka en hudkonsultation',
+      booking_url_title: 'Boka',
       image: 'images/problems/424x324/ytliga-blodkarl.webp',
       image_alt: 'Ytliga Blodkärl',
       image_title: 'Ytliga Blodkärl',
@@ -215,6 +247,8 @@ $problems['pigmentflackar'] = new Problem(
       url_title: 'Pigmentfläckar',
       consultation_url: 'hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
+      consultation_url_title: 'Boka en hudkonsultation',
+      booking_url_title: 'Boka',
       image: 'images/problems/424x324/pigmentflackar.webp',
       image_alt: 'Pigmentfläckar',
       image_title: 'Pigmentfläckar',
@@ -228,6 +262,8 @@ $problems['mogen-hy'] = new Problem(
       url_title: 'Mogen Hy',
       consultation_url: 'hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
+      consultation_url_title: 'Boka en hudkonsultation',
+      booking_url_title: 'Boka',
       image: 'images/problems/424x324/mogen-hy.webp',
       image_alt: 'Mogen Hy',
       image_title: 'Mogen Hy',
@@ -241,6 +277,8 @@ $problems['hudforandringar'] = new Problem(
       url_title: 'Hudförändringar',
       consultation_url: 'hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
+      consultation_url_title: 'Boka en hudkonsultation',
+      booking_url_title: 'Boka',
       image: 'images/problems/424x324/hudforandringar.webp',
       image_alt: 'Hudförändringar',
       image_title: 'Hudförändringar',
@@ -253,6 +291,8 @@ $problems['bristningar'] = new Problem(
       url_title: 'Bristningar',
       consultation_url: 'hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
+      consultation_url_title: 'Boka en hudkonsultation',
+      booking_url_title: 'Boka',
       image: 'images/problems/424x324/bristningar.webp',
       image_alt: 'Bristningar',
       image_title: 'Bristningar',
@@ -264,6 +304,8 @@ $problems['operations-arr'] = new Problem(
       url_title: 'Operations & Skadeärr',
       consultation_url: 'hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
+      consultation_url_title: 'Boka en hudkonsultation',
+      booking_url_title: 'Boka',
       image: 'images/problems/424x324/arr.webp',
       image_alt: 'Operations & Skadeärr',
       image_title: 'Operations & Skadeärr',
@@ -275,6 +317,8 @@ $problems['oonskad-harvaxt'] = new Problem(
       url_title: 'Oönskat hår',
       consultation_url: 'hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
+      consultation_url_title: 'Boka en hudkonsultation',
+      booking_url_title: 'Boka',
       image: 'images/problems/424x324/oonskat-har.webp',
       image_alt: 'Oönskat hår',
       image_title: 'Oönskat hår',
@@ -412,22 +456,20 @@ $problem_areas = array(
                                                       <h3><a href="<?php echo $problem->url ?>" title="<?php echo $problem->url_title ?>" class="h300"><?php echo $problem->label ?></a></h3>
                                                       <p class="mt-xs"><?php echo $problem->info ?></p>
                                                       <div class="is-hidden-tablet">
-                                                            <a href="<?php echo $problem->url ?>" class="mt-m button outline expand l10n">View problem details</a>
+                                                            <a href="<?php echo $problem->url ?>" title="<?php echo $problem->url_title ?>" class="mt-m button outline expand l10n">Läs mer</a>
                                                             <hr>
-                                                            <a href="hudkonsultation" class="button expand l10n">Få gratis konsultation</a>
-                                                            <!-- TODO: procedure link -->
-                                                            <a href="#" class="mt-s button expand l10n">Se behandlingar</a>
+                                                            <a href="<?php echo $problem->consultation_url ?>" title="<?php echo $problem->consultation_url_title ?>" class="button expand l10n">Få gratis konsultation</a>
+                                                            <a href="<?php echo $problem->booking_url ?>" title="<?php echo $problem->booking_url_title ?>" class="mt-s button expand l10n">Se behandlingar</a>
                                                       </div>
                                                       <div class="is-hidden-mobile">
                                                             <a href="<?php echo $problem->url ?>" title="<?php echo $problem->url_title ?>" class="mt-m button text compact l10n">Läs mer</a>
                                                             <hr>
                                                             <div class="columns is-multiline">
                                                                   <div class="column mt-xxs is-full is-half-widescreen">
-                                                                        <a href="hudkonsultation" class="button expand l10n">Få gratis konsultation</a>
+                                                                        <a href="<?php echo $problem->consultation_url ?>" title="<?php echo $problem->consultation_url_title ?>" class="button expand l10n">Få gratis konsultation</a>
                                                                   </div>
                                                                   <div class="column mt-xxs is-full is-half-widescreen">
-                                                                        <!-- TODO: procedure link -->
-                                                                        <a href="#" class="button expand l10n">Se behandlingar</a>
+                                                                        <a href="<?php echo $problem->booking_url ?>" title="<?php echo $problem->booking_url_title ?>" class="button expand l10n">Se behandlingar</a>
                                                                   </div>
                                                             </div>
                                                       </div>
