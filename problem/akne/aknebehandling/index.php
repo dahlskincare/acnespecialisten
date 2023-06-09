@@ -37,9 +37,6 @@ $services = array(
         title: 'Ansiktsbehandling mot akne',
         duration: '60 min',
         price: 'Pris från 799 kr',
-        url: 'behandlingar/ansiktsbehandlingar-problemhy/acnebehandling',
-        url_label: 'Läs mer om ansiktsbehandling mot akne',
-        url_title: 'Information om ansiktsbehandling mot akne',
         icons: array('who-infants' => 'Djuprengörande', 'who-elders' => 'Hudbalanserande', 'who-teenagers' => 'Porrensande', 'who-adults' => 'Anti-inflammatorisk'),
         content: '<p class="p200">Ansiktsbehandling mot akne på Acnespecialisten är en djuprengöring av huden som tar bort döda hudceller och frigör tilltäppta porer. Behandlingen inleds med en rengöring, följt av ångning för att öppna upp porerna. Därefter följer en djup porrengöring där orenheter och akne elimineras. Behandlingen avslutas med en lugnande mask och fuktgivande kräm anpassad för din hudtyp.</p>',
         consultation_url: 'konsultation-akne',
@@ -48,6 +45,9 @@ $services = array(
         booking_url: 'boka-ansiktsbehandling-akne',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka ansiktsbehandling mot akne',
+        url: 'behandlingar/ansiktsbehandlingar-problemhy/acnebehandling',
+        url_label: 'Läs mer om ansiktsbehandling mot akne',
+        url_title: 'Information om ansiktsbehandling mot akne',
         short_title: 'Ansiktsbehandling'
     ),
     new Service(
