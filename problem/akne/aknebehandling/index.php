@@ -4,7 +4,6 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $image_large = 'images/treatments/large/acne-scars.jpg';
 $image_small = 'images/treatments/small/acne-scars.jpg';
-$problem = 'akne';
 $title = 'Aknebehandlingar';
 $description = 'Här har vi samlat de mest effektiva metoderna för aknebehandling som hjälper dig att effektivt få bort akne oavsett typ. Oavsett ditt specifika behov, har vi rätt lösning för dig. Är du osäker på vilken aknebehandling som bäst passar din hudtyp för att få bort akne? Oroa dig inte, boka en kostnadsfri konsultation hos oss på Acnespecialisten så hjälper vi dig vidare mot en klarare och friskare hy.';
 $nav_buttons = array(
