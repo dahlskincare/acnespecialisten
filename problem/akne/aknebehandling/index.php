@@ -76,16 +76,16 @@ $services = array(
         content: '<p class="p200">Kemisk peeling är en av de mest effektiva metoderna för att behandla akne. På Acnespecialisten använder vi en speciell lösning som appliceras på huden för att avlägsna det översta lagret. Detta ger plats åt ny, frisk hud att växa fram, vilket bidrar till att reducera utseendet av akneärr och att förbättra hudens textur och utseende.</p>',
         image_small: 'https://via.placeholder.com/358x274.jpg',
         image_large: 'https://via.placeholder.com/852x456.jpg',
-        image_alt: 'Chemical peeling for acne scars',
-        image_title: 'Chemical peeling for acne scars',
+        image_alt: 'Kemisk peeling mot akne',
+        image_title: 'Kemisk peeling mot akne',
         consultation_url: 'hudkonsultation',
-        consultation_url_label: 'Book a consultation',
-        consultation_url_title: 'Book a consultation',
-        booking_url: null,
-        booking_url_label: null,
-        booking_url_title: null,
+        consultation_url_label: 'Boka konsultaion',
+        consultation_url_title: 'Boka konsultation',
+        booking_url: 'Boka behandling',
+        booking_url_label: 'Boka behandling',
+        booking_url_title: 'Boka behandling',
         icons: array('who-infants' => 'Exfolierande', 'who-elders' => 'Förnyande', 'who-teenagers' => 'Uppfräschande', 'who-adults' => 'Ljusande'),
-        short_title: 'Chemical peeling'
+        short_title: 'Kemisk Peeling'
     ),
     new Service(
         id: 'behandlingar/microneedling-mot-akne',
@@ -104,7 +104,7 @@ $services = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka microneedling mot akne ',
         icons: array('who-infants' => 'Stimulerande', 'who-elders' => 'Förnyande', 'who-teenagers' => 'Djupgående', 'who-adults' => 'Minskning av ärr'),
-        short_title: 'Chemical peeling'
+        short_title: 'Microneedling'
     ),
 );
 $products = array(
