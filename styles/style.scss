@@ -13,6 +13,10 @@
 html {
     body {
         background-color: $white-500;
+        
+        .underline {
+            text-decoration: underline;
+        }
 
         /// UTILITY CLASSES
         /// Colors
