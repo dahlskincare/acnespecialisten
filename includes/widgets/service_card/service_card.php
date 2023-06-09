@@ -30,7 +30,9 @@
         <p class="mt-m p200">
             <?php echo $service->content ?>
         </p>
-        <a href="behandlingar/<?php echo $service->id ?>" class="mt-m button outline expand"><?php echo $service->url_label ?></a>
+        <?php if (isset($service->url)) { ?>
+            <a href="<?php echo $service->url ?>" title="<?php echo $service->url_title ?>" class="mt-m button outline expand"><?php echo $service->url_label ?></a>
+        <?php } ?>
         <hr />
         <?php if (isset($service->consultation_url)) { ?>
             <a href="<?php echo $service->consultation_url ?>" title="<?php echo $service->consultation_url_title ?>" class="mt-xl button expand"><?php echo $service->consultation_url_label ?></a>
@@ -68,7 +70,9 @@
                 <p class="mt-xs p200 service-content">
                     <?php echo $service->content ?>
                 </p>
-                <a href="behandlingar/<?php echo $service->id ?>" class="mt-xs button b200 text compact"><?php echo $service->url_label ?></a>
+                <?php if (isset($service->url)) { ?>
+                    <a href="<?php echo $service->url ?>" title="<?php echo $service->url_title ?>" class="mt-xs button b200 text compact"><?php echo $service->url_label ?></a>
+                <?php } ?>
             </div>
             <div class="ml-xl buttons">
                 <?php if (isset($service->consultation_url)) { ?>

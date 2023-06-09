@@ -11,7 +11,7 @@
             </h3>
             <div class="service-links">
                 <?php foreach ($category->services as $service) { ?>
-                    <a href="behandlingar/<?php echo $category->id ?>/<?php echo $service->id ?>" class="service-link"><?php echo $service->title ?></a>
+                    <a href="<?php echo $service->url ?>" title="<?php echo $service->url_title ?>" class="service-link"><?php echo $service->url_label ?></a>
                 <?php } ?>
             </div>
         </div>
