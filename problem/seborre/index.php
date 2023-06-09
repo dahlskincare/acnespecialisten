@@ -394,26 +394,6 @@ $specialists = array(
             image_title: 'Vilma Libom',
       )
 );
-$related_problems = array(
-      new RelatedProblem(
-            id: 'acnearr',
-            name: 'Acneärr',
-            aka: 'gropar & Fläckar',
-            image: 'images/problems/102x102/acnearr.webp'
-      ),
-      new RelatedProblem(
-            id: 'rosacea',
-            name: 'Rosacea',
-            aka: 'ansiktsrodnad',
-            image: 'images/problems/200x200/rosacea.webp'
-      ),
-      new RelatedProblem(
-            id: 'perioral-dermatit',
-            name: 'Perioral dermatit',
-            aka: 'seborré runt munnen',
-            image: 'images/problems/200x200/perioral-dermatit.webp'
-      ),
-);
 $brands = array(
       new Brand(
             label: 'Powerlite',
@@ -742,16 +722,6 @@ $brands = array(
                               </div>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
                               <a class="mt-xl button b200 outline expand auto-width l10n" title="Specialister" href="specialister">Se alla specialister</a>
-                        </section>
-                        <section id="related-problems">
-                              <h2 class="big l10n">Relaterade hudproblem</h2>
-                              <dig class="columns is-variable is-0-mobile is-3-tablet is-multiline">
-                                    <?php foreach ($related_problems as $problem) { ?>
-                                          <div class="column is-half">
-                                                <?php include('../widgets/related-problem-card/related-problem-card.php'); ?>
-                                          </div>
-                                    <?php } ?>
-                              </dig>
                         </section>
                   </div>
                   <section id="brands">
