@@ -51,8 +51,6 @@ $models = array(
 $problems = array(
     new Service(
         id: 'akne',
-        url_label: 'Read more',
-        url_title: 'Akne',
         title: 'Akne',
         duration: 'Also called acne scars',
         price: null,
@@ -70,8 +68,6 @@ $problems = array(
     ),
     new Service(
         id: 'akne',
-        url_label: 'Read more',
-        url_title: 'Akne',
         title: 'Akne',
         duration: 'Also called acne scars',
         price: null,
@@ -89,8 +85,6 @@ $problems = array(
     ),
     new Service(
         id: 'akne',
-        url_label: 'Read more',
-        url_title: 'Akne',
         title: 'Akne',
         duration: 'Also called acne scars',
         price: null,

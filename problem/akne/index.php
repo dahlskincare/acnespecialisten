@@ -309,9 +309,7 @@ $symptoms = array(
       ),
 );
 $service = new Service(
-      id: 'fyll-ratt-lank',
-      url_label: 'Läs mer',
-      url_title: 'Läs mer om behandlingen',
+      id: 'akne',
       title: 'Konsultation',
       duration: '20 min',
       price: 'Kostnadsfri',
@@ -330,9 +328,7 @@ $service = new Service(
 );
 $services = array(
       new Service(
-            id: 'fyll-ratt-lank',
-            url_label: 'Läs mer',
-            url_title: 'Läs mer om behandlingen',
+            id: 'akne',
             title: 'Ansiktsbehandling mot akne',
             duration: '60 min',
             price: '995 kr',
@@ -349,9 +345,7 @@ $services = array(
             booking_url_title: 'Boka tid för ansiktsbehandling mot akne'
       ),
       new Service(
-            id: 'fyll-ratt-lank',
-            url_label: 'Läs mer',
-            url_title: 'Läs mer om behandlingen',
+            id: 'laser',
             title: 'Laser mot akne',
             duration: '50 min',
             price: '2595 kr',
@@ -368,9 +362,7 @@ $services = array(
             booking_url_title: 'Boka tid för laser mot akne'
       ),
       new Service(
-            id: 'fyll-ratt-lank',
-            url_label: 'Läs mer',
-            url_title: 'Läs mer om behandlingen',
+            id: 'chemical-peeling',
             title: 'Kemisk peeling mot akne',
             duration: '30 min',
             price: '1595 kr',
@@ -390,8 +382,6 @@ $services = array(
 $products = array(
       new Service(
             id: 'produkter-mot-akne',
-            url_label: 'Läs mer',
-            url_title: 'Läser mer om behandlingen',
             title: 'Produkter mot akne',
             duration: null,
             price: 'Price from 995 kr',
@@ -411,8 +401,6 @@ $products = array(
 $procedures = array(
       new Service(
             id: 'microneedling-for-acne',
-            url_label: 'Läs mer',
-            url_title: 'Läs mer om behandlingen',
             title: 'Reparera acneärr',
             duration: '4 behandlingsmetoder',
             price: null,

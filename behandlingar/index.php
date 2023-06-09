@@ -117,6 +117,7 @@ $service_categories = array(
         services: array(
             new Service(
                 id: 'acne-treatment',
+                url: 'behandlingar/ansiktsbehandlingar-problemhy/acne-treatment',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om acnebehandling',
                 title: 'Acne treatment',
@@ -136,6 +137,7 @@ $service_categories = array(
             ),
             new Service(
                 id: 'pore-cleanse',
+                url: 'behandlingar/ansiktsbehandlingar-problemhy/pore-cleanse',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om porrengöring',
                 title: 'Pore cleanse',
@@ -155,6 +157,7 @@ $service_categories = array(
             ),
             new Service(
                 id: 'milier-treatment',
+                url: 'behandlingar/ansiktsbehandlingar-problemhy/milier-treatment',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om milierbehandling',
                 title: 'Milier treatment',
@@ -174,6 +177,7 @@ $service_categories = array(
             ),
             new Service(
                 id: 'rosacea-treatment',
+                url: 'behandlingar/ansiktsbehandlingar-problemhy/rosacea-treatment',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om rosaceabehandling',
                 title: 'Rosacea treatment',
@@ -208,6 +212,7 @@ $service_categories = array(
         services: array(
             new Service(
                 id: 'skin-therapist-choice',
+                url: 'behandlingar/ansiktsbehandlingar-klassiska/skin-therapist-choice',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om hudterapeutens val',
                 title: 'Skin therapist choice',
@@ -242,6 +247,7 @@ $service_categories = array(
         services: array(
             new Service(
                 id: 'dermapen',
+                url: 'behandlingar/ansiktsbehandlingar-microneedling/dermapen',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om dermapen',
                 title: 'Dermapen',
@@ -261,6 +267,7 @@ $service_categories = array(
             ),
             new Service(
                 id: 'micro-injector',
+                url: 'behandlingar/ansiktsbehandlingar-microneedling/micro-injector',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om micro injector',
                 title: 'Micro injector',
@@ -295,6 +302,7 @@ $service_categories = array(
         services: array(
             new Service(
                 id: 'botox',
+                url: 'behandlingar/injections/botox',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om botox',
                 title: 'Botox',
@@ -314,6 +322,7 @@ $service_categories = array(
             ),
             new Service(
                 id: 'fillers',
+                url: 'behandlingar/injections/fillers',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om fillers',
                 title: 'Fillers',
@@ -348,6 +357,7 @@ $service_categories = array(
         services: array(
             new Service(
                 id: 'cryopen',
+                url: 'behandlingar/freeze-treat/cryopen',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om cryopen',
                 title: 'Cryopen',
@@ -382,6 +392,7 @@ $service_categories = array(
         services: array(
             new Service(
                 id: 'alma-rejuve',
+                url: 'behandlingar/ipl/alma-rejuve',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om Alma Rejuve',
                 title: 'Alma Rejuve',
@@ -401,6 +412,7 @@ $service_categories = array(
             ),
             new Service(
                 id: 'photonova',
+                url: 'behandlingar/ipl/photonova',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om PhotoNova / Powerlight',
                 title: 'PhotoNova / Powerlight',
@@ -435,6 +447,7 @@ $service_categories = array(
         services: array(
             new Service(
                 id: 'soprano-ice',
+                url: 'behandlingar/laser-for-hair-removal/soprano-ice',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om Soprano Ice',
                 title: 'Soprano Ice',
@@ -454,6 +467,7 @@ $service_categories = array(
             ),
             new Service(
                 id: 'splendor-x',
+                url: 'behandlingar/laser-for-hair-removal/splendor-x',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om Splendor X',
                 title: 'Splendor X',
@@ -488,6 +502,7 @@ $service_categories = array(
         services: array(
             new Service(
                 id: 'alma-hybrid',
+                url: 'behandlingar/laser-for-problem-skin/alma-hybrid',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om Alma Hybrid',
                 title: 'Alma Hybrid',
@@ -522,6 +537,7 @@ $service_categories = array(
         services: array(
             new Service(
                 id: 'skintech',
+                url: 'behandlingar/chemical-peeling/skintech',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om Skintech',
                 title: 'Skintech',
@@ -541,6 +557,7 @@ $service_categories = array(
             ),
             new Service(
                 id: 'prx-t33',
+                url: 'behandlingar/chemical-peeling/prx-t33',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om PRX-T33',
                 title: 'PRX-T33',
@@ -575,6 +592,7 @@ $service_categories = array(
         services: array(
             new Service(
                 id: 'hydrafacial',
+                url: 'behandlingar/dermabration/hydrafacial',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om Hydrafacial',
                 title: 'Hydrafacial',
@@ -609,6 +627,7 @@ $service_categories = array(
         services: array(
             new Service(
                 id: 'infuzion',
+                url: 'behandlingar/skinbooster/infuzion',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om Infuzion',
                 title: 'Infuzion',
@@ -699,7 +718,7 @@ $service_categories = array(
                                 <a class="h200" href="behandlingar/<?php echo $service_categories[$i]->id ?>"><?php echo $service_categories[$i]->label ?></a>
                             </p>
                             <?php foreach ($service_categories[$i]->services as $service) { ?>
-                                <p class="p200 service-label"><a href="behandlingar/<?php echo $service_categories[$i]->id ?>/<?php echo $service->id ?>"><?php echo $service->title ?></a></p>
+                                <p class="p200 service-label"><a href="<?php echo $service->url ?>" title="<?php echo $service->url_title ?>"><?php echo $service->url_label ?></a></p>
                             <?php } ?>
                         </div>
                     <?php } ?>

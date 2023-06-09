@@ -25,8 +25,6 @@ $treat_content = '<p class="p200">Acne, as we have seen, is a rash on the skin c
 $services = array(
     new Service(
         id: 'microneedling-acne-scars',
-        url_label: 'Läs mer',
-        url_title: 'Läs mer om Microneedling för acneärr',
         title: 'Microneedling for acne scars',
         duration: '30-60 min',
         price: '1295 kr',
@@ -46,8 +44,6 @@ $services = array(
     ),
     new Service(
         id: 'laser-acne-scars',
-        url_label: 'Läs mer',
-        url_title: 'Läs mer om Laser för acneärr',
         title: 'Laser for acne scars',
         duration: '30-60 min',
         price: '1295 kr',
@@ -67,8 +63,6 @@ $services = array(
     ),
     new Service(
         id: 'chemical-peeling-acne-scars',
-        url_label: 'Läs mer',
-        url_title: 'Läs mer om Kemisk peeling för acneärr',
         title: 'Chemical peeling for acne scars',
         duration: '30-60 min',
         price: '1295 kr',

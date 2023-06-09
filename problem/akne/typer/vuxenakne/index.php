@@ -69,8 +69,6 @@ $areas_text = '<p class="p200">This is a treatment adapted for acne skin and <a 
 
 $service = new Service(
     id: 'sun-spots-consultation',
-    url_label: 'Läs mer',
-    url_title: 'Läs mer om behandlingen',
     title: 'Consultation',
     duration: '30 min',
     price: '1295 kr',
@@ -89,8 +87,6 @@ $service = new Service(
 $solutions = array(
     new Service(
         id: 'chemical-peeling-pigmentation',
-        url_label: 'Läs mer',
-        url_title: 'Läs mer om behandlingen',
         title: 'Chemical peeling',
         duration: '30 min',
         price: '1295 kr',
@@ -108,8 +104,6 @@ $solutions = array(
     ),
     new Service(
         id: 'laser-pigmentation',
-        url_label: 'Läs mer',
-        url_title: 'Läs mer om behandlingen',
         title: 'Laser',
         duration: '30 min',
         price: '1295 kr',
@@ -127,8 +121,6 @@ $solutions = array(
     ),
     new Service(
         id: 'ipl-pigmentation',
-        url_label: 'Läs mer',
-        url_title: 'Läs mer om behandlingen',
         title: 'IPL',
         duration: '30 min',
         price: '1295 kr',
@@ -146,8 +138,6 @@ $solutions = array(
     ),
     new Service(
         id: 'freezetreat-pigmentation',
-        url_label: 'Läs mer',
-        url_title: 'Läs mer om behandlingen',
         title: 'FreezeTreat',
         duration: '30 min',
         price: '1295 kr',

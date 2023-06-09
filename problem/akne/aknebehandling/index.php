@@ -38,8 +38,6 @@ $treat_content = '<p class="p200">Efter att vi noggrant har identifierat din akn
 $services = array(
     new Service(
         id: 'ansiktsbehandling-mot-akne',
-        url_label: 'Läs mer',
-        url_title: 'Ansiktsbehandling mot akne',
         title: 'Ansiktsbehandling mot akne',
         duration: '60 min',
         price: 'Pris från 799 kr',
@@ -59,8 +57,6 @@ $services = array(
     ),
     new Service(
         id: 'behandlingar/laser-mot-akne',
-        url_label: 'Läs mer',
-        url_title: 'Laser mot akne',
         title: 'Laser mot akne',
         duration: '30-60 min',
         price: '1295 kr',
@@ -80,8 +76,6 @@ $services = array(
     ),
     new Service(
         id: 'behandlingar/kemisk-peeling-mot-akne',
-        url_label: 'Läs mer',
-        url_title: 'Kemisk peeling mot akne',
         title: 'Kemisk peeling mot akne',
         duration: '30-60 min',
         price: '1295 kr',
@@ -101,8 +95,6 @@ $services = array(
     ),
     new Service(
         id: 'behandlingar/microneedling-mot-akne',
-        url_label: 'Läs mer',
-        url_title: 'Mironeedling mot akne',
         title: 'Mironeedling mot akne',
         duration: '30-60 min',
         price: '1295 kr',
@@ -127,13 +119,11 @@ $products = array(
         url_label: 'Läs mer',
         url_title: 'Hudvårdsprodukter mot akne',
         price: 'Pris från 995 kr',
-        content: '<p class="p200">Att förebygga akne är ett kritiskt steg i din hudvårdsresa, precis lika viktigt som behandlingarna du får på kliniken. Huden, särskilt en aknebenägen hy, är i konstant överproduktion av olja och därför kräver den regelbunden och konsekvent vård.</p>
-
-    <p class="p200 mt-m">På Acnespecialisten förstår vi att varje persons hy är unik, och därför erbjuder vi skräddarsydda hudvårdsrutiner som är speciellt utformade för att passa din specifika hudtyp och tillstånd. En daglig hudvårdsrutin hjälper till att hålla din hy ren, balanserad och fri från överflödigt talg och bakterier, vilket är de primära faktorerna bakom akne. Genom att följa en skräddarsydd hudvårdsrutin kan du effektivt förebygga uppkomsten av ny akne.</p>
-
-    <p class="p200 mt-m">Jämför det med tandvård: du borstar dina tänder dagligen för att förebygga karies och upprätthålla god munhälsa. På samma sätt borde du ta hand om din hud dagligen för att förhindra akne och upprätthålla din hudhälsa. Att följa din personliga hudvårdsrutin är precis lika viktigt som de regelbundna besöken hos oss på Acnespecialisten.</p>
-
-    <p class="p200 mt-m">Kom ihåg, vi på Acnespecialisten är här för att stödja dig på din hudvårdsresa, från de inledande konsultationerna till behandlingar och eftervård. Tillsammans kan vi hjälpa din hud att bli så hälsosam och klar som möjligt.</p>',
+        content: '
+        <p class="p200">Att förebygga akne är ett kritiskt steg i din hudvårdsresa, precis lika viktigt som behandlingarna du får på kliniken. Huden, särskilt en aknebenägen hy, är i konstant överproduktion av olja och därför kräver den regelbunden och konsekvent vård.</p>
+        <p class="p200 mt-m">På Acnespecialisten förstår vi att varje persons hy är unik, och därför erbjuder vi skräddarsydda hudvårdsrutiner som är speciellt utformade för att passa din specifika hudtyp och tillstånd. En daglig hudvårdsrutin hjälper till att hålla din hy ren, balanserad och fri från överflödigt talg och bakterier, vilket är de primära faktorerna bakom akne. Genom att följa en skräddarsydd hudvårdsrutin kan du effektivt förebygga uppkomsten av ny akne.</p>
+        <p class="p200 mt-m">Jämför det med tandvård: du borstar dina tänder dagligen för att förebygga karies och upprätthålla god munhälsa. På samma sätt borde du ta hand om din hud dagligen för att förhindra akne och upprätthålla din hudhälsa. Att följa din personliga hudvårdsrutin är precis lika viktigt som de regelbundna besöken hos oss på Acnespecialisten.</p>
+        <p class="p200 mt-m">Kom ihåg, vi på Acnespecialisten är här för att stödja dig på din hudvårdsresa, från de inledande konsultationerna till behandlingar och eftervård. Tillsammans kan vi hjälpa din hud att bli så hälsosam och klar som möjligt.</p>',
         image_small: 'https://via.placeholder.com/358x274.jpg',
         image_large: 'https://via.placeholder.com/872x456.jpg',
         image_alt: 'Hudvårdsprodukter mot akne',

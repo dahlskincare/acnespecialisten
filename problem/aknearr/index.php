@@ -300,8 +300,6 @@ $symptoms = array(
 );
 $service = new Service(
       id: 'consultation',
-      url_label: 'Läs mer',
-      url_title: 'Läs mer om konsultation',
       title: 'Konsultation',
       duration: '20 min',
       price: 'Kostnadsfri',
@@ -320,8 +318,6 @@ $service = new Service(
 $services = array(
       new Service(
             id: 'acne-scars-microneedling',
-            url_label: 'Läs mer',
-            url_title: 'Läs mer om microneedling',
             title: 'Ansiktsbehandling mot akne',
             duration: '60 min',
             price: '995 kr',
@@ -339,8 +335,6 @@ $services = array(
       ),
       new Service(
             id: 'acne-scars-laser',
-            url_label: 'Läs mer',
-            url_title: 'Läs mer om laser',
             title: 'Laser mot akne',
             duration: '50 min',
             price: '2595 kr',
@@ -358,8 +352,6 @@ $services = array(
       ),
       new Service(
             id: 'acne-scars-chemical-peeling',
-            url_label: 'Läs mer',
-            url_title: 'Läs mer om kemisk peeling',
             title: 'Kemisk peeling mot akne',
             duration: '30 min',
             price: '1595 kr',
@@ -379,8 +371,6 @@ $services = array(
 $products = array(
       new Service(
             id: 'produkter-mot-akne',
-            url_label: 'Läs mer',
-            url_title: 'Läs mer om produkter mot akne',
             title: 'Produkter mot akne',
             duration: null,
             price: 'Price from 995 kr',
@@ -400,8 +390,6 @@ $products = array(
 $procedures = array(
       new Service(
             id: 'microneedling-for-acne',
-            url_label: 'Läs mer',
-            url_title: 'Läs mer om microneedling',
             title: 'Reparera acneärr',
             duration: '6 procedures',
             price: null,

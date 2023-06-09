@@ -4,9 +4,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $model = new Service(
-    id: 'ansiktsbehandlingar-problemhy/chemical-peeling',
-    url_label: 'chemical-peeling',
-    url_title: 'Chemical peeling',
+    id: 'chemical-peeling',
     title: 'Chemical peeling',
     duration: '50 min',
     price: '995 kr',

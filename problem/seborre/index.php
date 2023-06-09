@@ -120,9 +120,7 @@ $symptoms = array(
       ),
 );
 $service = new Service(
-      id: 'fyll-ratt-lank',
-      url_label: 'Läs mer',
-      url_title: 'Läs mer om seborré',
+      id: 'konsultation',
       title: 'Konsultation',
       duration: '20 min',
       price: 'Kostnadsfri',
@@ -140,9 +138,7 @@ $service = new Service(
 );
 $services = array(
       new Service(
-            id: 'fyll-ratt-lank',
-            url_label: 'Läs mer',
-            url_title: 'Läs mer om seborré',
+            id: 'seborre',
             title: 'Ansiktsbehandling mot seborré',
             duration: '60 min',
             price: '995 kr',
@@ -162,8 +158,6 @@ $services = array(
 $products = array(
       new Service(
             id: 'produkter-mot-seborre',
-            url_label: 'Läs mer',
-            url_title: 'Läs mer om produkter mot seborré',
             title: 'Produkter mot seborré',
             duration: null,
             price: 'Pris från 1295 kr',

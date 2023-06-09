@@ -68,8 +68,6 @@ $area_icons = array(
 $areas_text = '<p class="p200">This is a treatment adapted for acne skin and <a class="h200 underline">pimples</a> and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-xl">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the <a class="h200 underline">acne treatment</a>, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>';
 $service = new Service(
     id: 'sun-spots-consultation',
-    url_label: 'Läs mer',
-    url_title: 'Läs mer om solfläckar',
     title: 'Consultation',
     duration: '30 min',
     price: '1295 kr',
@@ -88,8 +86,6 @@ $service = new Service(
 $solutions = array(
     new Service(
         id: 'chemical-peeling-pigmentation',
-        url_label: 'Läs mer',
-        url_title: 'Läs mer om kemisk peeling',
         title: 'Chemical peeling',
         duration: '30 min',
         price: '1295 kr',
@@ -107,8 +103,6 @@ $solutions = array(
     ),
     new Service(
         id: 'laser-pigmentation',
-        url_label: 'Läs mer',
-        url_title: 'Läs mer om laser',
         title: 'Laser',
         duration: '30 min',
         price: '1295 kr',
@@ -126,8 +120,6 @@ $solutions = array(
     ),
     new Service(
         id: 'ipl-pigmentation',
-        url_label: 'Läs mer',
-        url_title: 'Läs mer om IPL',
         title: 'IPL',
         duration: '30 min',
         price: '1295 kr',
@@ -145,8 +137,6 @@ $solutions = array(
     ),
     new Service(
         id: 'freezetreat-pigmentation',
-        url_label: 'Läs mer',
-        url_title: 'Läs mer om FreezeTreat',
         title: 'FreezeTreat',
         duration: '30 min',
         price: '1295 kr',

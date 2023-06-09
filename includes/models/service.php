@@ -3,8 +3,6 @@ class Service
 {
     public function __construct(
         $id,
-        $url_label,
-        $url_title,
         $title,
         $duration,
         $price,
@@ -19,14 +17,15 @@ class Service
         $booking_url,
         $booking_url_label,
         $booking_url_title,
+        $url = null,
+        $url_label = 'Läs mer',
+        $url_title = 'Läs mer om behandlingen',
         $icons = array(),
         $short_title = null,
         $procedures = array(),
         $combos = array(),
     ) {
         $this->id = $id;
-        $this->url_label = $url_label;
-        $this->url_title = $url_title;
         $this->title = $title;
         $this->duration = $duration;
         $this->price = $price;
@@ -41,6 +40,9 @@ class Service
         $this->booking_url = $booking_url;
         $this->booking_url_label = $booking_url_label;
         $this->booking_url_title = $booking_url_title;
+        $this->url = $url;
+        $this->url_label = $url_label;
+        $this->url_title = $url_title;
         $this->icons = $icons;
         $this->short_title = $short_title;
         $this->procedures = $procedures;
@@ -48,8 +50,6 @@ class Service
     }
 
     public string $id;
-    public string $url_label;
-    public string $url_title;
     public string $title;
     public ?string $duration;
     public ?string $price;
@@ -64,6 +64,9 @@ class Service
     public ?string $booking_url;
     public ?string $booking_url_label;
     public ?string $booking_url_title;
+    public ?string $url;
+    public string $url_label;
+    public string $url_title;
     public ?array $icons;
     public ?string $short_title;
     public array $procedures;

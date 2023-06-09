@@ -16,8 +16,6 @@ $nav_buttons = array(
 $problems = array(
     new Service(
         id: 'akne',
-        url_label: 'Läs mer',
-        url_title: 'Läs mer om akne',
         title: 'Akne',
         duration: 'Also called acne scars',
         price: null,
@@ -35,8 +33,6 @@ $problems = array(
     ),
     new Service(
         id: 'akne',
-        url_label: 'Läs mer',
-        url_title: 'Läs mer om akne',
         title: 'Akne',
         duration: 'Also called acne scars',
         price: null,
@@ -54,8 +50,6 @@ $problems = array(
     ),
     new Service(
         id: 'akne',
-        url_label: 'Läs mer',
-        url_title: 'Läs mer om akne',
         title: 'Akne',
         duration: 'Also called acne scars',
         price: null,
