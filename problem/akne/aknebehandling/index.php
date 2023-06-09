@@ -48,10 +48,13 @@ $services = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka ansiktsbehandling mot akne',
         icons: array('who-infants' => 'Djuprengörande', 'who-elders' => 'Hudbalanserande', 'who-teenagers' => 'Porrensande', 'who-adults' => 'Anti-inflammatorisk'),
-        short_title: 'Microneedling'
+        short_title: 'Ansiktsbehandling'
     ),
     new Service(
         id: 'behandlingar/laser-mot-akne',
+        url: 'behandlingar/laser/rätt-url-här',
+        url_label: 'Läs mer om laserbehandling mot akne',
+        url_title: 'Information om ansiktsbehandling mot akne',
         title: 'Laser mot akne',
         duration: '30-60 min',
         price: '1295 kr',
@@ -71,6 +74,9 @@ $services = array(
     ),
     new Service(
         id: 'behandlingar/kemisk-peeling-mot-akne',
+        url: 'behandlingar/kemisk-peeling/rätt-url-här',
+        url_label: 'Läs mer om laser mot akne',
+        url_title: 'Information om laser mot akne',
         title: 'Kemisk peeling mot akne',
         duration: '30-60 min',
         price: '1295 kr',
@@ -90,6 +96,9 @@ $services = array(
     ),
     new Service(
         id: 'behandlingar/microneedling-mot-akne',
+        url: 'behandlingar/microneedling/rätt-url-här',
+        url_label: 'Läs mer om microneedling',
+        url_title: 'Information om microneedling',
         title: 'Mironeedling mot akne',
         duration: '30-60 min',
         price: '1295 kr',
