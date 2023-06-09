@@ -38,6 +38,9 @@ $treat_content = '<p class="p200">Efter att vi noggrant har identifierat din akn
 $services = array(
     new Service(
         id: 'ansiktsbehandling-mot-akne',
+        url: 'behandlingar/ansiktsbehandlingar-problemhy/rätt-url-här',
+        url_label: 'Läs mer om behandlingen',
+        url_title: 'Information om behandlingen',
         title: 'Ansiktsbehandling mot akne',
         duration: '60 min',
         price: 'Pris från 799 kr',

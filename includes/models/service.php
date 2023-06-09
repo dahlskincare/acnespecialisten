@@ -18,7 +18,7 @@ class Service
         $booking_url_label,
         $booking_url_title,
         $url = null,
-        $url_label = 'Läs mer',
+        $url_label = 'Läs mer om behandlingen',
         $url_title = 'Läs mer om behandlingen',
         $icons = array(),
         $short_title = null,

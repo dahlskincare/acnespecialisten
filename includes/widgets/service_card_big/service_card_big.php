@@ -68,6 +68,14 @@
                 <?php } ?>
             </div>
         <?php } ?>
+        <?php if (isset($service->url)) { ?>
+            <div class="mt-m">
+                <a href="<?php echo $service->url ?>" title="<?php echo $service->url_title ?>" class="button b200 text compact">
+                    <span><?php echo $service->url_label ?></span>
+                    <?php icon('navigate-next') ?>
+                </a>
+            </div>
+        <?php } ?>
         <?php if (isset($service->consultation_url)) { ?>
             <a href="<?php echo $service->consultation_url ?>" title="<?php echo $service->consultation_url_title ?>" class="button book-button"><?php echo $service->consultation_url_label ?></a>
         <?php } ?>
