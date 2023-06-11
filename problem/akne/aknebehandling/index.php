@@ -34,16 +34,16 @@ $services = array(
         image_large: 'https://via.placeholder.com/852x456.jpg',
         image_title: 'Effektiv Ansiktsbehandling mot Akne på Acnespecialisten',
         image_alt: 'Bild illustrerar en ansiktsbehandling mot akne utförd på Acnespecialisten',
-        title: 'Effektiv Ansiktsbehandling mot Akne på Acnespecialisten',
-        duration: '60 minuters Djuprengörande Ansiktsbehandling mot Akne',
-        price: 'Pris från 799 kr för Ansiktsbehandling mot Akne',
+        title: 'Ansiktsbehandling mot Akne',
+        duration: '60 minuter',
+        price: 'Pris från 799 kr',
         icons: array('who-infants' => 'Djuprengörande', 'who-elders' => 'Hudbalanserande', 'who-teenagers' => 'Porrensande', 'who-adults' => 'Anti-inflammatorisk'),
         content: '<p class="p200">Ansiktsbehandling mot akne på Acnespecialisten är en djuprengöring av huden som tar bort döda hudceller och frigör tilltäppta porer. Behandlingen inleds med en rengöring, följt av ångning för att öppna upp porerna. Därefter följer en djup porrengöring där orenheter och akne elimineras. Behandlingen avslutas med en lugnande mask och fuktgivande kräm anpassad för din hudtyp.</p>',
         consultation_url: 'boka-hudkonsultation-akne',
-        consultation_url_label: 'Boka Hudkonsultation',
+        consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka Hudkonsultation för Akne på Acnespecialisten',
         booking_url: 'boka-djuprengörande-ansiktsbehandling-akne',
-        booking_url_label: 'Boka Din Behandling',
+        booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Din Ansiktsbehandling mot Akne på Acnespecialisten',
         url: 'behandlingar/ansiktsbehandlingar-problemhy/acnebehandling',
         url_label: 'Läs Mer om Vår Ansiktsbehandling mot Akne',
@@ -82,7 +82,7 @@ $services = array(
         image_large: 'https://via.placeholder.com/852x456.jpg',
         image_title: 'Utförande av kemisk peelingbehandling för akne',
         image_alt: 'Bild på kemisk peelingbehandling mot akne hos Acnespecialisten',
-        title: 'Effektiv kemisk peeling mot akne',
+        title: 'Kemisk peeling mot akne',
         duration: '30-60 min',
         price: '1295 kr',
         icons: array('who-infants' => 'Exfolierande', 'who-elders' => 'Förnyande', 'who-teenagers' => 'Uppfräschande', 'who-adults' => 'Ljusande'),
@@ -146,30 +146,28 @@ $specialists = array(
         image: 'images/specialists/large/hudterapeut-cazzandra.webp',
         image_title: 'Cazzandra Lindberg, Hudterapeut hos Acnespecialisten sedan 2015',
         image_alt: 'Cazzandra Lindberg - Erfaren Hudterapeut hos Acnespecialisten',
-        
-
     ),
     new Specialist(
         name: 'Veronika Benedik',
-        title: 'Hudterapeut sedan 1999',
+        title: 'Erfaren Hudterapeut sedan 1999 på Acnespecialisten',
         image: 'images/specialists/large/hudterapeut-veronika.webp',
-        image_alt: 'Veronika Benedik',
-        image_title: 'Veronika Benedik'
+        image_alt: 'Veronika Benedik, hudterapeut sedan 1999 på Acnespecialisten',
+        image_title: 'Veronika Benedik, Erfaren Hudterapeut på Acnespecialisten'
     ),
     new Specialist(
         name: 'Amira Maqboul',
-        title: 'Hudterapeut sedan 2017',
+        title: 'Hudterapeut sedan 2017 på Acnespecialisten',
         image: 'images/specialists/large/hudterapeut-amira.webp',
-        image_alt: 'Amira Maqboul',
-        image_title: 'Amira Maqboul'
+        image_alt: 'Amira Maqboul, hudterapeut sedan 2017 på Acnespecialisten',
+        image_title: 'Amira Maqboul, Hudterapeut på Acnespecialisten'
     ),
     new Specialist(
         name: 'Vilma Libom',
-        title: 'Hudterapeut sedan 2019',
+        title: 'Hudterapeut sedan 2019 på Acnespecialisten',
         image: 'images/specialists/large/hudterapeut-vilma.webp',
-        image_alt: 'Vilma Libom',
-        image_title: 'Vilma Libom'
-    )
+        image_alt: 'Vilma Libom, hudterapeut sedan 2019 på Acnespecialisten',
+        image_title: 'Vilma Libom, Hudterapeut på Acnespecialisten'
+        )
 );
 $repair_title = '04. Reparera post-akne (Acneärr)';
 $repair_content = '<p class="p200">När din akne har behandlats och aknen tagits bort, kan det hända att den lämnar ärr bakom sig. På Acnespecialisten kan vi hjälpa dig att reparera dessa ärr genom olika tekniker som laserteknik och microneedling. Dessa metoder främjar hudens egen regenerering, hjälper till att återställa en jämn hudstruktur och minska synligheten av ärr. Med oss vid din sida kan du känna att du har stödet du behöver för att ta bort akne och njuta av en klarare, friskare hy.</p>';
