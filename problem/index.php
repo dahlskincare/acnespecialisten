@@ -391,10 +391,11 @@ $problem_areas = array(
 
 <head>
       <!-- TODO: Set title and meta tags -->
-      <title class="l10n">Acnespecialisten | Självklara valet mot Hudproblem</title>
-      <meta name="description" content="" class="l10n">
-      <meta name="title" content="" class="l10n">
-      <meta name="keywords" content="" class="l10n">
+     <title>Behandling av Hudproblem | Acnespecialisten</title>
+      <meta name="description" content="På Acnespecialisten erbjuder vi effektiva behandlingar mot en rad olika hudproblem, inklusive akne, rosacea, torr hud, och mer. Kontakta oss idag för en konsultation och ta det första steget mot en friskare och mer strålande hud.">
+      <meta name="title" content="Behandling av Hudproblem | Acnespecialisten">
+      <meta name="keywords" content="hudproblem, aknebehandling, rosaceabehandling, torr hud, fet hud, oren hud, ärrbehandling, akneärr, hudspecialist, hudklinik, hudvårdsrutiner">
+
 
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="stylesheet" href="/styles/default-layout.css">
