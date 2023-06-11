@@ -96,15 +96,15 @@
                         <?php
                         $accordion = array(
                               new AccordionItem(
-                                    label: 'Akne',
-                                    image_small: 'images/problems/114x140/akne.webp',
-                                    image_large: 'images/problems/424x324/akne.webp',
-                                    image_title: 'Akne',
-                                    image_alt: 'Akne',
-                                    url: 'problem/akne',
-                                    url_title: 'Akne',
-                                    show_on_large: true,
-                                    show_on_small: true
+                                 label: 'Akne',
+                                  image_small: 'images/problems/114x140/akne.webp',
+                                  image_large: 'images/problems/424x324/akne.webp',
+                                  image_title: 'Information om Akne - Acnespecialisten',
+                                  image_alt: 'Bild som illustrerar akne',
+                                  url: 'problem/akne',
+                                  url_title: 'Läs mer om Akne',
+                                  show_on_large: true,
+                                  show_on_small: true
                               ),
                               new AccordionItem(
                                     label: 'Akneärr',
