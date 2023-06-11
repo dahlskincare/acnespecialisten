@@ -145,28 +145,29 @@ $specialists = array(
         title: 'Erfaren Hudterapeut hos Acnespecialisten sedan 2015',
         image: 'images/specialists/large/hudterapeut-cazzandra.webp',
         image_title: 'Cazzandra Lindberg, Hudterapeut hos Acnespecialisten sedan 2015',
-        image_alt: 'Cazzandra Lindberg - Erfaren Hudterapeut hos Acnespecialisten',
+        image_alt: 'Cazzandra Lindberg - Erfaren Hudterapeut hos Acnespecialisten'
     ),
     new Specialist(
         name: 'Veronika Benedik',
         title: 'Erfaren Hudterapeut sedan 1999 på Acnespecialisten',
         image: 'images/specialists/large/hudterapeut-veronika.webp',
-        image_alt: 'Veronika Benedik, hudterapeut sedan 1999 på Acnespecialisten',
-        image_title: 'Veronika Benedik, Erfaren Hudterapeut på Acnespecialisten'
+        image_title: 'Veronika Benedik, Erfaren Hudterapeut på Acnespecialisten',
+        image_alt: 'Veronika Benedik, hudterapeut sedan 1999 på Acnespecialisten'
     ),
     new Specialist(
         name: 'Amira Maqboul',
         title: 'Hudterapeut sedan 2017 på Acnespecialisten',
         image: 'images/specialists/large/hudterapeut-amira.webp',
-        image_alt: 'Amira Maqboul, hudterapeut sedan 2017 på Acnespecialisten',
-        image_title: 'Amira Maqboul, Hudterapeut på Acnespecialisten'
+        image_title: 'Amira Maqboul, Hudterapeut på Acnespecialisten',
+        image_alt: 'Amira Maqboul, hudterapeut sedan 2017 på Acnespecialisten'
+        
     ),
     new Specialist(
         name: 'Vilma Libom',
         title: 'Hudterapeut sedan 2019 på Acnespecialisten',
         image: 'images/specialists/large/hudterapeut-vilma.webp',
-        image_alt: 'Vilma Libom, hudterapeut sedan 2019 på Acnespecialisten',
-        image_title: 'Vilma Libom, Hudterapeut på Acnespecialisten'
+        image_title: 'Vilma Libom, Hudterapeut på Acnespecialisten',
+        image_alt: 'Vilma Libom, hudterapeut sedan 2019 på Acnespecialisten'
         )
 );
 $repair_title = '04. Reparera post-akne (Acneärr)';
