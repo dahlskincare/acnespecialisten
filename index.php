@@ -96,7 +96,7 @@
                         <?php
                         $accordion = array(
                               new AccordionItem(
-                                 label: 'Akne',
+                                  label: 'Akne',
                                   image_small: 'images/problems/114x140/akne.webp',
                                   image_large: 'images/problems/424x324/akne.webp',
                                   image_title: 'Information om Akne - Acnespecialisten',

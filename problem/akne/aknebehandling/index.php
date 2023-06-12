@@ -6,6 +6,7 @@ $image_large = 'images/treatments/large/acne-scars.jpg';
 $image_small = 'images/treatments/small/acne-scars.jpg';
 $title = 'Aknebehandlingar';
 $description = 'Här har vi samlat de mest effektiva metoderna för aknebehandling som hjälper dig att effektivt få bort akne oavsett typ. Oavsett ditt specifika behov, har vi rätt lösning för dig. Är du osäker på vilken aknebehandling som bäst passar din hudtyp för att få bort akne? Oroa dig inte, boka en kostnadsfri konsultation hos oss på Acnespecialisten så hjälper vi dig vidare mot en klarare och friskare hy.';
+
 $nav_buttons = array(
     'about' => 'Info',
     'define' => 'Konsultation',
@@ -19,11 +20,16 @@ $nav_buttons = array(
     'specialists' => 'Specialister'
 );
 $about_title = 'Hur vi tar bort och behandlar akne?';
+
 $about_content = '<p class="p200">Att behandla och ta bort akne är ingen quickfix. På Acnespecialisten använder vi vår expertis och de bästa verktygen för att effektivt och regelbundet få bort akne. Med vår kostnadsfria hudkonsultation kan vi identifiera din unika hudtyp och ta fram en individuell behandlingsplan.</p>
 
     <p class="p200 mt-xl">Vår första prioritet är att få bort inflammationen och finnarna, de huvudsakliga orsakerna till ärrbildning. Efter att den aktiva aknen har behandlats hjälper vi dig att skapa en anpassad hudvårdsrutin med produkter mot akne för att förebygga framtida utbrott. Om aknen har lämnat ärr bakom sig, har vi lösningar för att reparera huden. Vi ser fram emot att bli din guide på resan mot att ta bort akne och återfå en klarare, friskare hy.</p>';
 
+$headline01="01. Identifiera din akne";
+
 $define_content = '<p class="p200">Första steget i vår process att få bort akne är att kartlägga din aknetyp. Vi inleder med en kostnadsfri konsultation där vi analyserar din hud och diskuterar dina hudmål och tidigare erfarenheter. Förebilder tas för att kunna följa din huds framsteg och anpassa din behandlingsplan över tid. En personlig hudterapeut följer med dig genom hela behandlingsresan, vilket säkerställer en konsekvent omsorg anpassad efter dina specifika behov.</p>';
+
+$headline02="02. Behandla aktiv akne";
 
 $treat_content = '<p class="p200">När din aknetyp har identifierats, inleder vi fas två: behandling av den aktiva aknen. Här är målet framför allt att få bort inflammationerna och finnarna som riskerar att skada huden och leda till ärr. Vi tillämpar olika metoder för att anpassa behandlingen efter dina unika behov, vilket gör att vi kan maximera resultaten och minimera obehaget. Genom denna process minskar vi inflammation, rensar bort döda hudceller, och kontrollerar talgproduktionen, vilket över tid leder till minskad akne och dess förekomst. Vi anpassar behandlingsplanen efter din huds respons.</p>';
 
@@ -124,6 +130,9 @@ $services = array(
 
     ),
 );
+
+$headline03="03. Förebygg akne";
+
 $products = array(
     new Product(
         url: 'produkter/mot-akne',
@@ -139,6 +148,14 @@ $products = array(
 
     ),
 );
+
+$headline04 = '04. Reparera post-akne (Acneärr)';
+
+$repair_content = '<p class="p200">När din akne har behandlats och aknen tagits bort, kan det hända att den lämnar ärr bakom sig. På Acnespecialisten kan vi hjälpa dig att reparera dessa ärr genom olika tekniker som laserteknik och microneedling. Dessa metoder främjar hudens egen regenerering, hjälper till att återställa en jämn hudstruktur och minska synligheten av ärr. Med oss vid din sida kan du känna att du har stödet du behöver för att ta bort akne och njuta av en klarare, friskare hy.</p>';
+$repair_image_small = 'https://via.placeholder.com/358x274.jpg';
+$repair_image_large = 'https://via.placeholder.com/872x456.jpg';
+$repair_url = 'treatments/acne';
+
 $specialists = array(
     new Specialist(
         name: 'Cazzandra Lindberg',
@@ -170,11 +187,7 @@ $specialists = array(
         image_alt: 'Vilma Libom, hudterapeut sedan 2019 på Acnespecialisten'
         )
 );
-$repair_title = '04. Reparera post-akne (Acneärr)';
-$repair_content = '<p class="p200">När din akne har behandlats och aknen tagits bort, kan det hända att den lämnar ärr bakom sig. På Acnespecialisten kan vi hjälpa dig att reparera dessa ärr genom olika tekniker som laserteknik och microneedling. Dessa metoder främjar hudens egen regenerering, hjälper till att återställa en jämn hudstruktur och minska synligheten av ärr. Med oss vid din sida kan du känna att du har stödet du behöver för att ta bort akne och njuta av en klarare, friskare hy.</p>';
-$repair_image_small = 'https://via.placeholder.com/358x274.jpg';
-$repair_image_large = 'https://via.placeholder.com/872x456.jpg';
-$repair_url = 'treatments/acne';
+
 ?>
 
 <!DOCTYPE html>
@@ -283,7 +296,8 @@ $repair_url = 'treatments/acne';
                     <picture>
                         <source media="(max-width: 449px)" srcset="<?php echo $image_small ?>">
                         <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
-                        <img src="<?php echo $image_small ?>" alt="<?php echo $title ?>" width="358" height="274" />
+                        <img src="<?php echo $image_small ?>" alt="<?php echo $title ?>" width="3
+                        58" height="274" />
                     </picture>
                 </section>
                 <section id="nav-buttons">
@@ -294,7 +308,7 @@ $repair_url = 'treatments/acne';
                     <div class="mt-xl"><?php echo $about_content ?></div>
                 </section>
                 <section id="define">
-                    <h2 class="h500 l10n">01. Identifiera din akne</h2>
+                    <h2 class="h500 l10n"><?php echo $headline01; ?></h2>
                     <picture>
                         <source media="(max-width: 799px)" srcset="images/service-categories/medium/consultation.jpg">
                         <source media="(min-width: 800px)" srcset="images/service-categories/large/consultation.jpg">
@@ -304,7 +318,7 @@ $repair_url = 'treatments/acne';
                     <a href="hudkonsultation" title="Konsultation" class="mt-xl button b200 l10n">Få gratis konsultation</a>
                 </section>
                 <section id="treat">
-                    <h2 class="h500 l10n">02. Behandla aktiv akne</h2>
+                    <h2 class="h500 l10n"><?php echo $headline02 ?></h2>
                     <div class="mt-xs">
                         <?php echo $treat_content ?>
                         </p>
@@ -319,15 +333,14 @@ $repair_url = 'treatments/acne';
                 </section>
                 <?php if (isset($products) && sizeof($products) > 0) { ?>
                     <section id="prevent">
-                        <h2 class="h500 l10n">03. Förebygg akne</h2>
+                        <h2 class="h500 l10n"><?php echo $headline03 ?></h2>
                         <?php foreach ($products as $product) {
                             include('../../widgets/product-card/product-card.php');
                         } ?>
                     </section>
                 <?php } ?>
-                <?php if (isset($repair_title) && isset($repair_content) && isset($repair_image_small) && isset($repair_image_large) && isset($repair_url)) { ?>
                     <section id="repair">
-                        <h2 class="h500 l10n">04. Reparera post akne (Acneärr)</h2>
+                        <h2 class="h500 l10n"><?php echo $headline04 ?></h2>
                         <picture>
                             <source media="(max-width: 799px)" srcset="<?php echo $repair_image_small ?>">
                             <source media="(min-width: 800px)" srcset="<?php echo $repair_image_large ?>">
@@ -338,11 +351,10 @@ $repair_url = 'treatments/acne';
                             View treatment
                         </a>
                         <a href="<?php echo $repair_url ?>" class="mt-xl button compact text b200 is-hidden-mobile">
-                            <span class="l10n">View treatment</span>
+                            <span class="l10n">Se behandliungar</span>
                             <?php icon('navigate-next'); ?>
                         </a>
                     </section>
-                <?php } ?>
                 <section id="results">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php'); ?>
                 </section>
