@@ -4,8 +4,16 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $image_large = 'images/treatments/large/acne-scars.jpg';
 $image_small = 'images/treatments/small/acne-scars.jpg';
+$image_alt = 'Alt-text här';
+$image_title = 'Bildtitel här';
 $title = 'Aknebehandlingar';
 $description = 'Här har vi samlat de mest effektiva metoderna för aknebehandling som hjälper dig att effektivt få bort akne oavsett typ. Oavsett ditt specifika behov, har vi rätt lösning för dig. Är du osäker på vilken aknebehandling som bäst passar din hudtyp för att få bort akne? Oroa dig inte, boka en kostnadsfri konsultation hos oss på Acnespecialisten så hjälper vi dig vidare mot en klarare och friskare hy.';
+
+$booking_link = 'rätt bokningslänk här';
+$booking_link_title = 'Boka behandling';
+$consultation_link = 'rätt konsultationslänk här';
+$consultation_link_title = 'Boka hudkonsultation';
+
 
 $nav_buttons = array(
     'about' => 'Info',
@@ -20,16 +28,16 @@ $nav_buttons = array(
     'specialists' => 'Specialister'
 );
 $about_title = 'Hur vi tar bort och behandlar akne?';
-
 $about_content = '<p class="p200">Att behandla och ta bort akne är ingen quickfix. På Acnespecialisten använder vi vår expertis och de bästa verktygen för att effektivt och regelbundet få bort akne. Med vår kostnadsfria hudkonsultation kan vi identifiera din unika hudtyp och ta fram en individuell behandlingsplan.</p>
-
     <p class="p200 mt-xl">Vår första prioritet är att få bort inflammationen och finnarna, de huvudsakliga orsakerna till ärrbildning. Efter att den aktiva aknen har behandlats hjälper vi dig att skapa en anpassad hudvårdsrutin med produkter mot akne för att förebygga framtida utbrott. Om aknen har lämnat ärr bakom sig, har vi lösningar för att reparera huden. Vi ser fram emot att bli din guide på resan mot att ta bort akne och återfå en klarare, friskare hy.</p>';
 
-$headline01="01. Identifiera din akne";
-
+$headline01 = "01. Identifiera din akne";
+$define_image = 'images/service-categories/large/consultation.jpg';
+$define_image_alt = 'Hur vi tar bort och behandlar akne?';
+$define_image_title = 'Hur vi tar bort och behandlar akne?';
 $define_content = '<p class="p200">Första steget i vår process att få bort akne är att kartlägga din aknetyp. Vi inleder med en kostnadsfri konsultation där vi analyserar din hud och diskuterar dina hudmål och tidigare erfarenheter. Förebilder tas för att kunna följa din huds framsteg och anpassa din behandlingsplan över tid. En personlig hudterapeut följer med dig genom hela behandlingsresan, vilket säkerställer en konsekvent omsorg anpassad efter dina specifika behov.</p>';
 
-$headline02="02. Behandla aktiv akne";
+$headline02 = "02. Behandla aktiv akne";
 
 $treat_content = '<p class="p200">När din aknetyp har identifierats, inleder vi fas två: behandling av den aktiva aknen. Här är målet framför allt att få bort inflammationerna och finnarna som riskerar att skada huden och leda till ärr. Vi tillämpar olika metoder för att anpassa behandlingen efter dina unika behov, vilket gör att vi kan maximera resultaten och minimera obehaget. Genom denna process minskar vi inflammation, rensar bort döda hudceller, och kontrollerar talgproduktionen, vilket över tid leder till minskad akne och dess förekomst. Vi anpassar behandlingsplanen efter din huds respons.</p>';
 
@@ -131,7 +139,7 @@ $services = array(
     ),
 );
 
-$headline03="03. Förebygg akne";
+$headline03 = "03. Förebygg akne";
 
 $products = array(
     new Product(
@@ -144,7 +152,7 @@ $products = array(
         image_large: 'https://via.placeholder.com/872x456.jpg',
         image_title: 'Acnespecialistens effektiva hudvårdsprodukter mot akne',
         image_alt: 'Bild på Acnespecialistens hudvårdsprodukter mot akne',
-        
+
 
     ),
 );
@@ -177,7 +185,7 @@ $specialists = array(
         image: 'images/specialists/large/hudterapeut-amira.webp',
         image_title: 'Amira Maqboul, Hudterapeut på Acnespecialisten',
         image_alt: 'Amira Maqboul, hudterapeut sedan 2017 på Acnespecialisten'
-        
+
     ),
     new Specialist(
         name: 'Vilma Libom',
@@ -185,7 +193,7 @@ $specialists = array(
         image: 'images/specialists/large/hudterapeut-vilma.webp',
         image_title: 'Vilma Libom, Hudterapeut på Acnespecialisten',
         image_alt: 'Vilma Libom, hudterapeut sedan 2019 på Acnespecialisten'
-        )
+    )
 );
 
 ?>
@@ -224,10 +232,10 @@ $specialists = array(
                         <div class="mt-xl">
                             <div class="columns is-2 is-variable">
                                 <div class="column">
-                                    <a href="hudkonsultation" class="button white expand l10n">Få gratis konsultation</a>
+                                    <a href="<?php echo $consultation_link ?>" title="<?php echo $consultation_link_title ?>" class="button white expand l10n">Få gratis konsultation</a>
                                 </div>
                                 <div class="column">
-                                    <a href="https://bokadirekt.se" class="button white expand l10n">Boka behandling</a>
+                                    <a href="<?php echo $booking_link ?>" title="<?php echo $booking_link_title ?>" class="button white expand l10n">Boka behandling</a>
                                 </div>
                             </div>
                         </div>
@@ -251,10 +259,10 @@ $specialists = array(
                     <div class="mt-xl">
                         <div class="columns is-mobile">
                             <div class="column is-half">
-                                <a href="hudkonsultation" class="button b200 white expand l10n">Gratis konsultation</a>
+                                <a href="<?php echo $consultation_link ?>" title="<?php echo $consultation_link_title ?>" class="button b200 white expand l10n">Gratis konsultation</a>
                             </div>
                             <div class="column is-half">
-                                <a href="https://bokadirekt.se" class="button b200 white expand l10n">Boka behandling</a>
+                                <a href="<?php echo $booking_link ?>" title="<?php echo $booking_link_title ?>" class="button b200 white expand l10n">Boka behandling</a>
                             </div>
                         </div>
                     </div>
@@ -278,11 +286,9 @@ $specialists = array(
                             <?php echo $description ?>
                         </p>
                         <div class="mt-xl flex-row" id="book-buttons">
-                            <a href="hudkonsultation" class="button b200 white l10n">Få gratis konsultation</a>
-                            <a href="https://bokadirekt.se" class="button b200 white l10n">Boka behandling</a>
+                            <a href="<?php echo $consultation_link ?>" title="<?php echo $consultation_link_title ?>" class="button b200 white l10n">Få gratis konsultation</a>
+                            <a href="<?php echo $booking_link ?>" title="<?php echo $booking_link_title ?>" class="button b200 white l10n">Boka behandling</a>
                         </div>
-
-
                     </div>
                 </div>
             </div>
@@ -296,8 +302,7 @@ $specialists = array(
                     <picture>
                         <source media="(max-width: 449px)" srcset="<?php echo $image_small ?>">
                         <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
-                        <img src="<?php echo $image_small ?>" alt="<?php echo $title ?>" width="3
-                        58" height="274" />
+                        <img src="<?php echo $image_small ?>" alt="<?php echo $image_alt ?>" title="<?php echo $image_title ?>" width="358" height="274" />
                     </picture>
                 </section>
                 <section id="nav-buttons">
@@ -309,13 +314,9 @@ $specialists = array(
                 </section>
                 <section id="define">
                     <h2 class="h500 l10n"><?php echo $headline01; ?></h2>
-                    <picture>
-                        <source media="(max-width: 799px)" srcset="images/service-categories/medium/consultation.jpg">
-                        <source media="(min-width: 800px)" srcset="images/service-categories/large/consultation.jpg">
-                        <img class="mt-xl step-image" src="images/service-categories/large/consultation.jpg" alt="<?php echo $title ?>" title="<?php echo $title ?>" width="872" height="456" />
-                    </picture>
+                    <img class="mt-xl step-image" src="<?php echo $define_image ?>" alt="<?php echo $define_image_alt ?>" title="<?php echo $define_image_title ?>" width="872" height="456" />
                     <div class="mt-xl"><?php echo $define_content ?></div>
-                    <a href="hudkonsultation" title="Konsultation" class="mt-xl button b200 l10n">Få gratis konsultation</a>
+                    <a href="<?php echo $consultation_link ?>" title="<?php echo $consultation_link_title ?>" class="mt-xl button b200 l10n">Få gratis konsultation</a>
                 </section>
                 <section id="treat">
                     <h2 class="h500 l10n"><?php echo $headline02 ?></h2>
@@ -339,22 +340,20 @@ $specialists = array(
                         } ?>
                     </section>
                 <?php } ?>
-                    <section id="repair">
-                        <h2 class="h500 l10n"><?php echo $headline04 ?></h2>
-                        <picture>
-                            <source media="(max-width: 799px)" srcset="<?php echo $repair_image_small ?>">
-                            <source media="(min-width: 800px)" srcset="<?php echo $repair_image_large ?>">
-                            <img src="<?php echo $repair_image_large ?>" alt="<?php echo $repair_title ?>" title="<?php echo $repair_title ?>" class=" mt-xl" width="872" height="456" />
-                        </picture>
-                        <div class="mt-xl"><?php echo $repair_content ?></div>
-                        <a href="<?php echo $repair_url ?>" class="mt-xl button outline b200 expand is-hidden-tablet l10n">
-                            View treatment
-                        </a>
-                        <a href="<?php echo $repair_url ?>" class="mt-xl button compact text b200 is-hidden-mobile">
-                            <span class="l10n">Se behandliungar</span>
-                            <?php icon('navigate-next'); ?>
-                        </a>
-                    </section>
+                <section id="repair">
+                    <h2 class="h500 l10n"><?php echo $headline04 ?></h2>
+                    <picture>
+                        <source media="(max-width: 799px)" srcset="<?php echo $repair_image_small ?>">
+                        <source media="(min-width: 800px)" srcset="<?php echo $repair_image_large ?>">
+                        <img src="<?php echo $repair_image_large ?>" alt="<?php echo $repair_title ?>" title="<?php echo $repair_title ?>" class=" mt-xl" width="872" height="456" />
+                    </picture>
+                    <div class="mt-xl"><?php echo $repair_content ?></div>
+                    <a href="<?php echo $repair_url ?>" title="Se behandlingar" class="mt-xl button outline b200 expand is-hidden-tablet l10n">Se behandlingar</a>
+                    <a href="<?php echo $repair_url ?>" title="Se behandlingar" class="mt-xl button compact text b200 is-hidden-mobile">
+                        <span class="l10n">Se behandlingar</span>
+                        <?php icon('navigate-next'); ?>
+                    </a>
+                </section>
                 <section id="results">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php'); ?>
                 </section>
@@ -370,7 +369,7 @@ $specialists = array(
                                     <?php icon('arrow-right') ?>
                                 </button>
                             </div>
-                            <a href="https://se.trustpilot.com/review/acnespecialisten.se" class="ml-l button compact text">
+                            <a href="https://se.trustpilot.com/review/acnespecialisten.se" title="Läs fler omdömen" class="ml-l button compact text">
                                 <span class="l10n">Läs fler omdömen</span>
                                 <?php icon('navigate-next') ?>
                             </a>
@@ -381,12 +380,12 @@ $specialists = array(
                     $reviews_narrow = true;
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                     ?>
-                    <a class="mt-xl button outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se">View all reviews</a>
+                    <a class="mt-xl button outline expand is-hidden-tablet l10n" title="Läs fler omdömen" href="https://se.trustpilot.com/review/acnespecialisten.se">Läs fler omdömen</a>
                 </section>
                 <section id="faq">
                     <div class="flex-row align-end justify-space-between">
                         <h2 class="big l10n">Frågor & Svar</h2>
-                        <a href="faq" class="button compact text is-hidden-mobile">
+                        <a href="faq" title="FAQ" class="button compact text is-hidden-mobile">
                             <span class="l10n">Läs fler frågor & svar</span>
                             <?php icon('navigate-next') ?>
                         </a>
@@ -396,18 +395,18 @@ $specialists = array(
                 <section id="skin-guide">
                     <div class="flex-row align-end justify-space-between">
                         <h2 class="big l10n">Hudguide</h2>
-                        <a href="skin-guide" class="button compact text is-hidden-mobile">
+                        <a href="skin-guide" title="Hudguiden" class="button compact text is-hidden-mobile">
                             <span class="l10n">Läs fler hudguider</span>
                             <?php icon('navigate-next') ?>
                         </a>
                     </div>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php'); ?>
-                    <a class="mt-xl button outline expand is-hidden-tablet l10n" href="skin-guide">Läs fler hudguider</a>
+                    <a class="mt-xl button outline expand is-hidden-tablet l10n" title="Hudguiden" href="skin-guide">Läs fler hudguider</a>
                 </section>
                 <section id="specialists">
                     <div class="flex-row align-end justify-space-between">
                         <h2 class="big l10n">Våra specialister</h2>
-                        <a href="specialister" class="button compact text is-hidden-mobile">
+                        <a href="specialister" title="Specialister" class="button compact text is-hidden-mobile">
                             <span class="l10n">Se alla specialister</span>
                             <?php icon('navigate-next') ?>
                         </a>
@@ -415,19 +414,19 @@ $specialists = array(
                     <?php
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
                     ?>
-                    <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialister">Se alla specialister</a>
+                    <a href="specialister" title="Specialister" class="mt-xl button outline expand is-hidden-tablet l10n">Se alla specialister</a>
                 </section>
             </div>
             <section id="brands">
                 <div class="flex-row align-end justify-space-between">
                     <h2 class="big l10n">Varumärken</h2>
-                    <a href="varumarken" class="button compact text is-hidden-mobile">
+                    <a href="varumarken" title="Varumärken" class="button compact text is-hidden-mobile">
                         <span class="l10n">Se alla varumärken</span>
                         <?php icon('navigate-next') ?>
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="varumarken">Se alla varumärken</a>
+                <a class="mt-xl button outline expand is-hidden-tablet l10n" title="Varumärken" href="varumarken">Se alla varumärken</a>
             </section>
 
         </div>
