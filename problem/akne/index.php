@@ -5,11 +5,21 @@ include_once('../widgets/symptom-card/symptom.php');
 include_once('../widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
+$seo_title='blah blah';
+$seo_description='blahblah';
+$seo_keywords='akne, bajs';
+
+$title='Akne';
+
 $image_small = 'images/problems/424x324/akne.webp';
 $image_large = 'images/problems/424x456/akne.webp';
+$image_title = 'Akne';
+$image_alt = 'Akne';
 
 $description = 'Här förklarar vi vad som kännetecknar akne, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av akne, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';
+
 $akas = ['problem/finnar' => 'Finnar', 'problem/vuxenakne' => 'Vuxenakne', 'problem/tonarsakne' => 'Tonårsakne'];
+
 $nav_buttons = array(
       'about' => 'Om akne',
       'approach' => 'Metoden',
@@ -24,8 +34,11 @@ $nav_buttons = array(
       'faq' => 'FAQ',
       'skin-guide' => 'Hudguide',
       'specialists' => 'Specialister',
-      'related-problems' => 'Relaterade problem'
+      'related-problems' => 'Relaterade problem',
 );
+
+$about_title ='Om akne';
+
 $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
@@ -99,6 +112,10 @@ $treatment_steps = array(
             url_title: 'Se våra ärrbehandlingar'
       ),
 );
+$treatment_link = '<a href="problem/akne/aknebehandling" title="Om aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra aknebehandlingar</a>';
+
+$types_title = 'Olika typer av akne';
+
 $type_categories = array(
       new BasedTypeCategory(
             id: 'category-age',
@@ -106,8 +123,8 @@ $type_categories = array(
             content: '<p class="p200">Akne är en hudåkomma som kan drabba både ungdomar och vuxna, även om det är vanligast under tonåren. Tonårsakne uppstår ofta på grund av hormonella förändringar under puberteten. Vuxenakne förekommer också, och det kan bero på en rad olika faktorer. Hos vuxna kan akne orsakas av faktorer som stress, hormonobalans och genetik. Oavsett ålder är det viktigt att förstå att akne kan påverka människor i alla livsstadier.</p>',
             types: array(
                   new BasedType(
-                        image_url: 'images/problems/102x102/vuxenakne.webp',
                         title: 'Vuxenakne',
+                        image_url: 'images/problems/102x102/vuxenakne.webp',
                         subtitle: 'Även kallat acne tarda',
                         content: '',
                         url: 'problem/akne/typer/vuxenakne',
@@ -257,6 +274,10 @@ $type_categories = array(
       )
 
 );
+
+$types_url = '<a href="typer" title="Om aknetyper" class="mt-xl button b200 outline expand l10n is-hidden-tablet">Läs mer om aknetyper</a>
+              <a href="typer" title="Om aknetyper" class="mt-xl button b200 outline l10n is-hidden-mobile">Läs mer om aknetyper</a>';
+
 $symptoms = array(
       new Symptom(
             name: 'Komedoner (Öppna)',
@@ -307,7 +328,13 @@ $symptoms = array(
             aka: 'Även kallat bölder',
             image_title: 'Cystor'
       ),
+
 );
+
+$symptoms_title = 'Akne symptom';
+
+$headline01 ="01. Identifiera din akne";
+
 $service = new Service(
       id: 'akne',
       title: 'Konsultation',
@@ -326,6 +353,9 @@ $service = new Service(
       booking_url_title: null
 
 );
+
+$headline02 ="02. Behandla aktiv akne";
+
 $services = array(
       new Service(
             id: 'akne',
@@ -379,6 +409,9 @@ $services = array(
             booking_url_title: 'Boka tid för kemisk peeling mot akne'
       ),
 );
+
+$headline03 ="03. Förebygg uppkomsten av ny akne";
+
 $products = array(
       new Service(
             id: 'produkter-mot-akne',
@@ -398,6 +431,9 @@ $products = array(
             booking_url_title: null
       )
 );
+
+$headline04 ="04. Reparera post-akne";
+
 $procedures = array(
       new Service(
             id: 'microneedling-for-acne',
@@ -449,7 +485,7 @@ $results = array(
             problem: 'Akne',
             type: 'Severe',
             treatment: new ResultTreatment(
-                  duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne"">behandlingar mot akne</a>',
+            duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne"">behandlingar mot akne</a>',
             )
       ),
       new ResultCustomer(
@@ -463,7 +499,7 @@ $results = array(
             problem: 'Akne',
             type: 'Severe',
             treatment: new ResultTreatment(
-                  duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne">behandlingar mot akne</a>',
+            duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne">behandlingar mot akne</a>',
             )
       ),
 );
@@ -730,21 +766,17 @@ $brands = array(
 <html lang="<?php echo $lang ?>">
 
 <head>
-      <!-- TODO: Set title and meta tags -->
-      <title class="l10n">
-            Vad är akne? Vanliga frågor och svar | AcneSpecialisten
-      </title>
-      <meta name="description" content="" class="l10n">
-      <meta name="title" content="" class="l10n">
-      <meta name="keywords" content="" class="l10n">
+      <title><?php echo $seo_title?></title>
+      <meta name="description" content="<?php echo $seo_description?>">
+      <meta name="keywords" content="<?php echo $seo_keywords?>">
 
       <!-- Optional: Set canonical version of this page (https://support.google.com/webmasters/answer/10347851) -->
-      <meta property="og:title" content="Acnespecialisten" />
-      <meta property="og:description" content="Acnespecialisten is the best etc.." class="l10n" />
-      <meta property="og:image" content="images/about-desktop.jpg" />
-      <meta property="twitter:title" content="Acnespecialisten" />
-      <meta property="twitter:description" content="Acnespecialisten is the best etc.." class="l10n" />
-      <meta property="twitter:image" content="images/about-desktop.jpg" />
+      <meta property="og:title" content="<?php echo $seo_title?>" />
+      <meta property="og:description" content="<?php echo $seo_description?>" />
+      <meta property="og:image" content="<?php echo $image_large?>" />
+      <meta property="twitter:title" content="<?php echo $seo_title?>" />
+      <meta property="twitter:description" content="<?php echo $seo_description?>" />
+      <meta property="twitter:image" content="<?php echo $image_large?>" />
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="stylesheet" href="/styles/default-layout.css">
       <link rel="stylesheet" href="problem/problem.css">
@@ -759,7 +791,7 @@ $brands = array(
                         <div id="overlay">
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
                               <div>
-                                    <h2 class="h600">Akne</h2>
+                                    <h2 class="h600"><?php echo $title?></h2>
                                     <div class="mt-m aka">
                                           <span class="p200 l10n">Även kallat</span>
                                           <?php
@@ -796,7 +828,7 @@ $brands = array(
                   <div id="green-header-small" class="is-hidden-desktop">
                         <div class="container">
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
-                              <h1 class="h600">Akne</h1>
+                              <h1 class="h600"><?php echo $title ?></h1>
                               <h3 class="mt-xs p100 l10n">Även känt som:</h3>
                               <?php foreach ($akas as $key => $aka) { ?>
                                     <div>
@@ -834,7 +866,7 @@ $brands = array(
                                     </div>
                               </div>
                               <div id="green-header-large-text" class="mt-xxs">
-                                    <h1 class="h600">Akne</h1>
+                                    <h1 class="h600"><?php echo $title?></h1>
                                     <div class="mt-s">
                                           <span class="h200 l10n">Även känt som:</span>
                                           <?php
@@ -869,14 +901,14 @@ $brands = array(
                               <picture>
                                     <source media="(max-width: 449px)" srcset="<?php echo $image_small ?>">
                                     <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
-                                    <img src="<?php echo $image_large ?>" alt="Akne" title="Akne" width="358" height="274" />
+                                    <img src="<?php echo $image_large ?>" alt="<?php echo $image_alt ?>" title="<?php echo $image_title ?>" width="358" height="274" />
                               </picture>
                         </section>
                         <section id="nav-buttons">
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                         </section>
                         <section id="about">
-                              <h2 class="h500 l10n">Om Akne</h2>
+                              <h2 class="h500 l10n"><?php echo $about_title ?></h2>
                               <?php foreach ($trivias as $trivia) {
                                     echo '<hr>';
                                     include('../widgets/problem-trivia-card/problem-trivia-card.php');
@@ -894,11 +926,12 @@ $brands = array(
                                     } ?>
                               </div>
                               <hr class="mt-xl3 is-hidden-mobile">
-                              <a href="problem/akne/aknebehandling" title="Om aknebehandlingar" class="mt-xl button b200 outline expand auto-width l10n">Läs mer om våra aknebehandlingar</a>
+                             <?php echo $treatment_link ?>
+                              
                         </section>
                         <?php if (sizeof($type_categories) > 0) { ?>
                               <section id="types">
-                                    <h2 class="h500 l10n">Olika typer av akne</h2>
+                                    <h2 class="h500 l10n"><?php echo $types_title ?></h2>
                                     <div class="is-hidden-tablet">
                                           <div class="mt-m mb-xxl" id="type-category-buttons">
                                                 <?php foreach ($type_categories as $type_category) { ?>
@@ -934,13 +967,12 @@ $brands = array(
                                                 </div>
                                           <?php } ?>
                                     </div>
-                                    <a href="typer" title="Om aknetyper" class="mt-xl button b200 outline expand l10n is-hidden-tablet">Läs mer om aknetyper</a>
-                                    <a href="typer" title="Om aknetyper" class="mt-xl button b200 outline l10n is-hidden-mobile">Läs mer om aknetyper</a>
-                              </section>
+                                    <?php echo $types_url?>
+                              </section> 
                         <?php } ?>
                         <?php if (sizeof($symptoms) > 0) { ?>
                               <section id="symptoms">
-                                    <h2 class="h500">Akne symptom</h2>
+                                    <h2 class="h500"><?php echo $symptons_title?></h2>
                                     <div class="mt-m is-hidden-tablet" id="symptom-buttons">
                                           <?php foreach ($symptoms as $symptom) { ?>
                                                 <a href="javascript:;" class="button b50 grey">
@@ -958,13 +990,13 @@ $brands = array(
                               </section>
                         <?php } ?>
                         <section id="define">
-                              <h2 class="h500 l10n">01. Identifiera din akne</h2>
+                              <h2 class="h500 l10n"><?php echo $headline01 ?></h2>
                               <hr class="is-hidden-mobile">
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
                               <hr class="is-hidden-mobile">
                         </section>
                         <section id="treatments">
-                              <h2 class="h500">02. Behandla aktiv akne</h2>
+                              <h2 class="h500"><?php echo $headline02 ?></h2>
                               <hr class="is-hidden-mobile mt-xl">
                               <?php foreach ($services as $service) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
@@ -972,7 +1004,7 @@ $brands = array(
                               <?php } ?>
                         </section>
                         <section id="products">
-                              <h2 class="h500">03. Förebygg uppkomsten av ny akne</h2>
+                              <h2 class="h500"><?php echo $headline03 ?></h2>
                               <hr class="is-hidden-mobile mt-xl">
                               <?php foreach ($products as $service) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
@@ -980,7 +1012,7 @@ $brands = array(
                               <?php } ?>
                         </section>
                         <section id="treatment-solutions">
-                              <h2 class="h500">04. Reparera post-akne</h2>
+                              <h2 class="h500"><?php echo $headline04 ?></h2>
                               <hr class="is-hidden-mobile mt-xl">
                               <?php foreach ($procedures as $service) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
