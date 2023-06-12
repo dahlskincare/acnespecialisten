@@ -18,7 +18,23 @@ $image_alt = 'Akne';
 
 $description = 'Här förklarar vi vad som kännetecknar akne, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av akne, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';
 
-$akas = ['problem/finnar' => 'Finnar', 'problem/vuxenakne' => 'Vuxenakne', 'problem/tonarsakne' => 'Tonårsakne'];
+$akas = [
+      new Link(
+            url: 'problem/finnar',
+            label: 'Finnar',
+            title: 'Finnar'
+      ),
+      new Link(
+            url: 'problem/vuxenakne',
+            label: 'Vuxenakne',
+            title: 'Vuxenakne'
+      ),
+      new Link(
+            url: 'problem/tonarsakne',
+            label: 'Tonårsakne',
+            title: 'Tonårsakne'
+      ),
+];
 
 $nav_buttons = array(
       'about' => 'Om akne',
@@ -117,23 +133,32 @@ $type_categories = array(
                   new BasedType(
                         title: 'Vuxenakne',
                         image_url: 'images/problems/102x102/vuxenakne.webp',
+                        image_alt: 'Vuxenakne',
+                        image_title: 'Vuxenakne',
                         subtitle: 'Även kallat acne tarda',
                         content: '',
                         url: 'problem/akne/typer/vuxenakne',
+                        url_title: 'Läs mer om vuxenakne'
                   ),
                   new BasedType(
                         image_url: 'images/problems/102x102/tonarsakne.webp',
+                        image_alt: 'Tonårsakne',
+                        image_title: 'Tonårsakne',
                         title: 'Tonårsakne',
                         subtitle: 'Även kallat acne vulgaris',
                         content: '',
                         url: 'problem/akne/typer/tonårsakne',
+                        url_title: 'Läs mer om tonårsakne'
                   ),
                   new BasedType(
                         image_url: 'images/problems/102x102/barnakne.webp',
+                        image_alt: 'Barnakne',
+                        image_title: 'Barnakne',
                         title: 'Barnakne',
                         subtitle: 'Även kallat acne neonatorum',
                         content: '',
                         url: 'problem/akne/typer/barnakne',
+                        url_title: 'Läs mer om barnakne'
                   ),
             )
       ),
@@ -144,31 +169,43 @@ $type_categories = array(
             types: array(
                   new BasedType(
                         image_url: 'images/problems/102x102/mild-akne.webp',
+                        image_alt: 'Mild akne',
+                        image_title: 'Mild akne',
                         title: 'Mild akne',
                         subtitle: 'även kallat acne comedonica',
                         content: '',
                         url: 'problem/akne/typer/mild-akne',
+                        url_title: 'Läs mer om mild akne'
                   ),
                   new BasedType(
                         image_url: 'images/problems/102x102/medelsvar-akne.webp',
+                        image_alt: 'Medelsvår akne',
+                        image_title: 'Medelsvår akne',
                         title: 'Medelsvår akne',
                         subtitle: 'Även kallat acne papulopustulosa',
                         content: '',
                         url: 'problem/akne/typer/medel-akne',
+                        url_title: 'Läs mer om medelsvår akne'
                   ),
                   new BasedType(
                         image_url: 'images/problems/102x102/svar-akne.webp',
+                        image_alt: 'Svår akne',
+                        image_title: 'Svår akne',
                         title: 'Svår akne',
                         subtitle: 'Även kallat Acne nodulocystica',
                         content: '',
                         url: 'problem/akne/typer/svar-akne',
+                        url_title: 'Läs mer om svår akne'
                   ),
                   new BasedType(
                         image_url: 'images/problems/102x102/mycket-svar-akne.webp',
+                        image_alt: 'Mycket svår akne',
+                        image_title: 'Mycket svår akne',
                         title: 'Mycket svår akne',
                         subtitle: 'Även kallat Acne conglobata',
                         content: '',
                         url: 'problem/akne/typer/mycket-svar-akne',
+                        url_title: 'Läs mer om mycket svår akne'
                   ),
             )
       ),
@@ -179,59 +216,83 @@ $type_categories = array(
             types: array(
                   new BasedType(
                         image_url: 'images/problems/102x102/mallorca-akne.webp',
+                        image_alt: 'Mallorca akne',
+                        image_title: 'Mallorca akne',
                         title: 'Mallorca akne',
                         subtitle: 'även kallat Acne aestivalis',
                         content: '',
                         url: 'problem/akne/typer/mallorca-akne',
+                        url_title: 'Läs mer om Mallorca akne'
                   ),
                   new BasedType(
                         image_url: 'images/problems/102x102/hormonell-akne.webp',
+                        image_alt: 'Hormonell akne',
+                        image_title: 'Hormonell akne',
                         title: 'Hormonell akne',
                         subtitle: 'akne orsakad av hormoner',
                         content: '',
                         url: 'problem/akne/typer/hormonell-akne',
+                        url_title: 'Läs mer om hormonell akne'
                   ),
                   new BasedType(
                         image_url: 'images/problems/102x102/kosmetika-akne.webp',
+                        image_alt: 'Kosmetika akne',
+                        image_title: 'Kosmetika akne',
                         title: 'kosmetika akne',
                         subtitle: 'Även kallat Acne cosmetica',
                         content: '',
                         url: 'problem/akne/typer/kosmetika-akne',
+                        url_title: 'Läs mer om kosmetika akne'
                   ),
                   new BasedType(
                         image_url: 'images/problems/102x102/pill-akne.webp',
+                        image_alt: 'Pill akne',
+                        image_title: 'Pill akne',
                         title: 'Akne från pillande',
                         subtitle: 'Även kallat Acne exoriée ',
                         content: '',
                         url: 'problem/akne/typer/acne-exoriee',
+                        url_title: 'Läs mer om akne från pillande'
                   ),
                   new BasedType(
                         image_url: 'images/problems/102x102/friktions-akne.webp',
+                        image_alt: 'Friktions akne',
+                        image_title: 'Friktions akne',
                         title: 'Friktionsakne',
                         subtitle: 'Även kallat Acne mechanica',
                         content: '',
                         url: 'problem/akne/typer/akne-mekanisk',
+                        url_title: 'Läs mer om friktionsakne'
                   ),
                   new BasedType(
                         image_url: 'images/problems/102x102/lakemedelsakne.webp',
+                        image_alt: 'Läkemedelsakne',
+                        image_title: 'Läkemedelsakne',
                         title: 'Läkemedelsakne',
                         subtitle: 'Även kallat Acne medicamentosa',
                         content: '',
                         url: 'problem/akne/typer/lakemedelsakne',
+                        url_title: 'Läs mer om läkemedelsakne'
                   ),
                   new BasedType(
                         image_url: 'images/problems/102x102/kontakt-akne.webp',
+                        image_alt: 'Kontaktakne',
+                        image_title: 'Kontaktakne',
                         title: 'Kontaktakne',
                         subtitle: 'Även kallat Acne venenata',
                         content: '',
                         url: 'problem/akne/typer/kontakt-akne',
+                        url_title: 'Läs mer om kontaktakne'
                   ),
                   new BasedType(
                         image_url: 'images/problems/102x102/svamp-akne.webp',
+                        image_alt: 'Svampakne',
+                        image_title: 'Svampakne',
                         title: 'Svampakne',
                         subtitle: 'Även kallat fungal acne',
                         content: '',
                         url: 'problem/akne/typer/fungal-akne',
+                        url_title: 'Läs mer om svampakne'
                   )
             )
       ),
@@ -242,24 +303,33 @@ $type_categories = array(
             types: array(
                   new BasedType(
                         image_url: 'images/problems/102x102/akne-ansikte.webp',
+                        image_alt: 'Akne i ansiktet',
+                        image_title: 'Akne i ansiktet',
                         title: 'Akne i ansiktet',
                         subtitle: 'Även kallat Acne faciei',
                         content: '',
                         url: 'problem/akne/typer/akne-ansiktet',
+                        url_title: 'Läs mer om akne i ansiktet'
                   ),
                   new BasedType(
                         image_url: 'images/problems/102x102/akne-rygg.webp',
+                        image_alt: 'Akne på ryggen',
+                        image_title: 'Akne på ryggen',
                         title: 'Akne på ryggen',
                         subtitle: 'Även kallat Acne dorsalis',
                         content: '',
                         url: 'problem/akne/typer/akne-ryggen',
+                        url_title: 'Läs mer om akne på ryggen'
                   ),
                   new BasedType(
                         image_url: 'images/problems/102x102/akne-brost.webp',
+                        image_alt: 'Akne på bröstet',
+                        image_title: 'Akne på bröstet',
                         title: 'Akne på bröstet',
                         subtitle: 'Även kallat Acne pectoralis',
                         content: '',
                         url: 'problem/akne/typer/akne-brostet',
+                        url_title: 'Läs mer om akne på bröstet'
                   ),
 
             )
@@ -787,18 +857,8 @@ $brands = array(
                                     <h2 class="h600"><?php echo $title ?></h2>
                                     <div class="mt-m aka">
                                           <span class="p200 l10n">Även kallat</span>
-                                          <?php
-                                          $length = sizeof(($akas));
-                                          $values = array_values($akas);
-                                          $keys = array_keys($akas);
-                                          for ($i = 0; $i < $length; $i++) { ?>
-                                                <?php
-                                                if ($i == $length - 1) {
-                                                      echo '<a href="' . $keys[$i] . '" title="' . $values[$i] . '" class="b200 underline">' . $values[$i] . '</a>.';
-                                                } else {
-                                                      echo '<a href="' . $keys[$i] . '" title="' . $values[$i] . '" class="b200 underline">' . $values[$i] . '</a>,';
-                                                }
-                                                ?>
+                                          <?php foreach ($akas as $aka) { ?>
+                                                <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="b200 underline aka"><?php echo $aka->label ?></a>
                                           <?php } ?>
                                           <div class="mt-xl">
                                                 <div class="columns is-2 is-variable">
@@ -823,10 +883,11 @@ $brands = array(
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
                               <h1 class="h600"><?php echo $title ?></h1>
                               <h3 class="mt-xs p100 l10n">Även känt som:</h3>
-                              <?php foreach ($akas as $key => $aka) { ?>
+
+                              <?php foreach ($akas as $aka) { ?>
                                     <div>
-                                          <a href="<?php echo $key ?>" title="<?php echo $aka ?>" class="mt-xs button b50 bright">
-                                                <?php echo $aka ?>
+                                          <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="mt-xs button b50 bright">
+                                                <?php echo $aka->label ?>
                                           </a>
                                     </div>
                               <?php } ?>
@@ -862,18 +923,8 @@ $brands = array(
                                     <h1 class="h600"><?php echo $title ?></h1>
                                     <div class="mt-s">
                                           <span class="h200 l10n">Även känt som:</span>
-                                          <?php
-                                          $length = sizeof(($akas));
-                                          $values = array_values($akas);
-                                          $keys = array_keys($akas);
-                                          for ($i = 0; $i < $length; $i++) { ?>
-                                                <?php
-                                                if ($i == $length - 1) {
-                                                      echo '<a href="' . $keys[$i] . '" title="' . $values[$i] . '" class="b200 underline">' . $values[$i] . '</a>.';
-                                                } else {
-                                                      echo '<a href="' . $keys[$i] . '" title="' . $values[$i] . '" class="b200 underline">' . $values[$i] . '</a>,';
-                                                }
-                                                ?>
+                                          <?php foreach ($akas as $aka) { ?>
+                                                <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="b200 underline aka"><?php echo $aka->label ?></a>
                                           <?php } ?>
                                     </div>
                                     <p class="mt-s p200"><?php echo $description ?></p>

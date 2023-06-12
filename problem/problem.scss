@@ -12,17 +12,17 @@ html {
     scroll-behavior: smooth;
 
 
-    .underline {
-        text-decoration: underline;
-    }
-
     .lowercase {
         text-transform: lowercase;
     }
 }
 
+.aka:not(:last-child)::after {
+    content: ",";
+}
 
 section#header {
+
     #green-header-small {
         background-color: $deep-sea-400;
         color: $white-500;

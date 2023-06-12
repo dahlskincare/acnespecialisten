@@ -102,24 +102,33 @@ $type_categories = array(
             types: array(
                   new BasedType(
                         image_url: 'https://via.placeholder.com/102x102.jpg',
+                        image_alt: 'Vuxenakne',
+                        image_title: 'Vuxenakne',
                         title: 'Vuxenakne',
                         subtitle: 'Även kallat acne tarda',
                         content: '',
                         url: 'problem/akne/typer/vuxenakne',
+                        url_title: 'Läs mer om vuxenakne'
                   ),
                   new BasedType(
                         image_url: 'https://via.placeholder.com/102x102.jpg',
+                        image_alt: 'Tonårsakne',
+                        image_title: 'Tonårsakne',
                         title: 'Tonårsakne',
                         subtitle: 'Även kallat acne vulgaris',
                         content: '',
                         url: 'problem/akne/typer/tonårsakne',
+                        url_title: 'Läs mer om tonårsakne'
                   ),
                   new BasedType(
                         image_url: 'https://via.placeholder.com/102x102.jpg',
+                        image_alt: 'Barnakne',
+                        image_title: 'Barnakne',
                         title: 'Barnakne',
                         subtitle: 'Även kallat acne neonatorum',
                         content: '',
                         url: 'problem/akne/typer/barnakne',
+                        url_title: 'Läs mer om barnakne'
                   ),
             )
       ),
@@ -130,31 +139,43 @@ $type_categories = array(
             types: array(
                   new BasedType(
                         image_url: 'https://via.placeholder.com/102x102.jpg',
+                        image_alt: 'Mild akne',
+                        image_title: 'Mild akne',
                         title: 'Mild akne',
                         subtitle: 'även kallat acne comedonica',
                         content: '',
                         url: 'problem/akne/typer/mild-akne',
+                        url_title: 'Läs mer om mild akne'
                   ),
                   new BasedType(
                         image_url: 'https://via.placeholder.com/102x102.jpg',
+                        image_alt: 'Medelsvår akne',
+                        image_title: 'Medelsvår akne',
                         title: 'Medelsvår akne',
                         subtitle: 'Även kallat acne papulopustulosa',
                         content: '',
                         url: 'problem/akne/typer/medel-akne',
+                        url_title: 'Läs mer om medelsvår akne'
                   ),
                   new BasedType(
                         image_url: 'https://via.placeholder.com/102x102.jpg',
+                        image_alt: 'Svår akne',
+                        image_title: 'Svår akne',
                         title: 'Svår akne',
                         subtitle: 'Även kallat Acne nodulocystica',
                         content: '',
                         url: 'problem/akne/typer/svar-akne',
+                        url_title: 'Läs mer om svår akne'
                   ),
                   new BasedType(
                         image_url: 'https://via.placeholder.com/102x102.jpg',
+                        image_alt: 'Mycket svår akne',
+                        image_title: 'Mycket svår akne',
                         title: 'Mycket svår akne',
                         subtitle: 'Även kallat Acne conglobata',
                         content: '',
                         url: 'problem/akne/typer/mycket-svar-akne',
+                        url_title: 'Läs mer om mycket svår akne'
                   ),
             )
       ),
@@ -165,59 +186,83 @@ $type_categories = array(
             types: array(
                   new BasedType(
                         image_url: 'https://via.placeholder.com/102x102.jpg',
+                        image_alt: 'Mallorca akne',
+                        image_title: 'Mallorca akne',
                         title: 'Mallorca akne',
                         subtitle: 'även kallat Acne aestivalis',
                         content: '',
                         url: 'problem/akne/typer/mallorca-akne',
+                        url_title: 'Läs mer om Mallorca akne'
                   ),
                   new BasedType(
                         image_url: 'https://via.placeholder.com/102x102.jpg',
+                        image_alt: 'Akne från medicin',
+                        image_title: 'Akne från medicin',
                         title: 'Hormonell akne',
                         subtitle: 'akne orsakad av hormoner',
                         content: '',
                         url: 'problem/akne/typer/hormonell-akne',
+                        url_title: 'Läs mer om hormonell akne'
                   ),
                   new BasedType(
                         image_url: 'https://via.placeholder.com/102x102.jpg',
+                        image_alt: 'Akne från medicin',
+                        image_title: 'Akne från medicin',
                         title: 'kosmetika akne',
                         subtitle: 'Även kallat Acne cosmetica',
                         content: '',
                         url: 'problem/akne/typer/kosmetika-akne',
+                        url_title: 'Läs mer om kosmetika akne'
                   ),
                   new BasedType(
                         image_url: 'https://via.placeholder.com/102x102.jpg',
+                        image_alt: 'Akne från medicin',
+                        image_title: 'Akne från medicin',
                         title: 'Akne från pillande',
                         subtitle: 'Även kallat Acne exoriée ',
                         content: '',
                         url: 'problem/akne/typer/acne-exoriee',
+                        url_title: 'Läs mer om akne från pillande'
                   ),
                   new BasedType(
                         image_url: 'https://via.placeholder.com/102x102.jpg',
+                        image_alt: 'Akne från medicin',
+                        image_title: 'Akne från medicin',
                         title: 'Friktionsakne',
                         subtitle: 'Även kallat Acne mechanica',
                         content: '',
                         url: 'problem/akne/typer/akne-mekanisk',
+                        url_title: 'Läs mer om friktionsakne'
                   ),
                   new BasedType(
                         image_url: 'https://via.placeholder.com/102x102.jpg',
+                        image_alt: 'Akne från medicin',
+                        image_title: 'Akne från medicin',
                         title: 'Läkemedelsakne',
                         subtitle: 'Även kallat Acne medicamentosa',
                         content: '',
                         url: 'problem/akne/typer/lakemedelsakne',
+                        url_title: 'Läs mer om läkemedelsakne'
                   ),
                   new BasedType(
                         image_url: 'https://via.placeholder.com/102x102.jpg',
+                        image_alt: 'Akne från medicin',
+                        image_title: 'Akne från medicin',
                         title: 'Kontaktakne',
                         subtitle: 'Även kallat Acne venenata',
                         content: '',
                         url: 'problem/akne/typer/kontakt-akne',
+                        url_title: 'Läs mer om kontaktakne'
                   ),
                   new BasedType(
                         image_url: 'https://via.placeholder.com/102x102.jpg',
+                        image_alt: 'Akne från medicin',
+                        image_title: 'Akne från medicin',
                         title: 'Svampakne',
                         subtitle: 'Även kallat fungal acne',
                         content: '',
                         url: 'problem/akne/typer/fungal-akne',
+                        url_title: 'Läs mer om svampakne'
                   )
             )
       ),
@@ -228,24 +273,33 @@ $type_categories = array(
             types: array(
                   new BasedType(
                         image_url: 'https://via.placeholder.com/102x102.jpg',
+                        image_alt: 'Akne i ansiktet',
+                        image_title: 'Akne i ansiktet',
                         title: 'Akne i ansiktet',
                         subtitle: 'Även kallat Acne faciei',
                         content: '',
                         url: 'problem/akne/typer/akne-ansiktet',
+                        url_title: 'Läs mer om akne i ansiktet'
                   ),
                   new BasedType(
                         image_url: 'https://via.placeholder.com/102x102.jpg',
+                        image_alt: 'Akne på ryggen',
+                        image_title: 'Akne på ryggen',
                         title: 'Akne på ryggen',
                         subtitle: 'Även kallat Acne dorsalis',
                         content: '',
                         url: 'problem/akne/typer/akne-ryggen',
+                        url_title: 'Läs mer om akne på ryggen'
                   ),
                   new BasedType(
                         image_url: 'https://via.placeholder.com/102x102.jpg',
+                        image_alt: 'Akne på bröstet',
+                        image_title: 'Akne på bröstet',
                         title: 'Akne på bröstet',
                         subtitle: 'Även kallat Acne pectoralis',
                         content: '',
                         url: 'problem/akne/typer/akne-brostet',
+                        url_title: 'Läs mer om akne på bröstet'
                   ),
 
             )

@@ -8,6 +8,7 @@ include_once($root . '/includes/models/brand.php');
 include_once($root . '/includes/models/faq.php');
 include_once($root . '/includes/models/glossary.php');
 include_once($root . '/includes/models/green_banner_content.php');
+include_once($root . '/includes/models/link.php');
 include_once($root . '/includes/models/path_segment.php');
 include_once($root . '/includes/models/procedure.php');
 include_once($root . '/includes/models/product.php');
