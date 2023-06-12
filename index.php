@@ -32,7 +32,7 @@
                               <h1 class="h700 l10n">Hudspecialisterna</h1>
                         </div>
                   </div>
-                  <a href="hudkonsultation">
+                  <a href="hudkonsultation" title="hudkonsultation">
                         <div class="container">
                               <div class="banner-bar elevation-medium is-hidden-desktop" id="banner-bar-small">
                                     <button class="white">
@@ -96,15 +96,15 @@
                         <?php
                         $accordion = array(
                               new AccordionItem(
-                                  label: 'Akne',
-                                  image_small: 'images/problems/114x140/akne.webp',
-                                  image_large: 'images/problems/424x324/akne.webp',
-                                  image_title: 'Information om Akne - Acnespecialisten',
-                                  image_alt: 'Bild som illustrerar akne',
-                                  url: 'problem/akne',
-                                  url_title: 'Läs mer om Akne',
-                                  show_on_large: true,
-                                  show_on_small: true
+                                    label: 'Akne',
+                                    image_small: 'images/problems/114x140/akne.webp',
+                                    image_large: 'images/problems/424x324/akne.webp',
+                                    image_title: 'Information om Akne - Acnespecialisten',
+                                    image_alt: 'Bild som illustrerar akne',
+                                    url: 'problem/akne',
+                                    url_title: 'Läs mer om Akne',
+                                    show_on_large: true,
+                                    show_on_small: true
                               ),
                               new AccordionItem(
                                     label: 'Akneärr',
@@ -176,12 +176,12 @@
                         $more_count = 17;
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/accordion/accordion.php')
                         ?>
-                        <a href="problem" class="mt-xl button outline is-hidden-desktop expand l10n">Se alla problem</a>
+                        <a href="problem" title="problem" class="mt-xl button outline is-hidden-desktop expand l10n">Se alla problem</a>
                   </section>
                   <section id="our-approach">
                         <div class="flex-row align-end justify-space-between">
                               <div class="h500 l10n">Metod</div>
-                              <a href="metod" class="button compact text is-hidden-mobile">
+                              <a href="metod" title="metod" class="button compact text is-hidden-mobile">
                                     <span class="l10n">Läs mer om metoden</span>
                                     <?php icon('navigate-next') ?>
                               </a>
@@ -227,9 +227,7 @@
                                     </div>
                               <?php } ?>
                         </div>
-                        <a href="our-approach" class="button b200 outline expand mt-xl l10n is-hidden-desktop">
-                              Läs mer om metoden
-                        </a>
+                        <a href="metod" title="Metod" class="button b200 outline expand mt-xl l10n is-hidden-desktop">Läs mer om metoden</a>
                   </section>
                   <section id="results">
                         <?php
@@ -333,7 +331,7 @@
                                           <button class="round-large grey" onclick="Reviews.scroll(-1)"><?php icon('arrow-left') ?></button>
                                           <button class="round-large grey" onclick="Reviews.scroll(1)"><?php icon('arrow-right') ?></button>
                                     </div>
-                                    <a href="https://se.trustpilot.com/review/acnespecialisten.se" class="ml-l button compact text">
+                                    <a href="https://se.trustpilot.com/review/acnespecialisten.se" title="Omdömen" class="ml-l button compact text">
                                           <span class="l10n">Läs fler omdömen</span>
                                           <?php icon('navigate-next') ?>
                                     </a>
@@ -382,7 +380,7 @@
                               ),
                         );
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se">Läs fler omdömen</a>
+                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" title="Omdömen" href="https://se.trustpilot.com/review/acnespecialisten.se">Läs fler omdömen</a>
                   </section>
                   <section id="services">
                         <div class="h500 l10n">Behandlingar</div>
@@ -470,12 +468,12 @@
                         $more_count = 17;
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/accordion/accordion.php')
                         ?>
-                        <a href="services" class="mt-xl button b200 outline is-hidden-desktop expand">Se alla behandlingar</a>
+                        <a href="behandlingar" title="Behandlingar" class="mt-xl button b200 outline is-hidden-desktop expand">Se alla behandlingar</a>
                   </section>
                   <section id="faq">
                         <div class="flex-row align-end justify-space-between">
                               <div class="h500 l10n">Frågor & Svar</div>
-                              <a href="faq" class="button compact text is-hidden-mobile">
+                              <a href="faq" title="FAQ" class="button compact text is-hidden-mobile">
                                     <span class="l10n">Se fler frågor & svar</span>
                                     <?php icon('navigate-next') ?>
                               </a>
@@ -593,12 +591,12 @@
                               ),
                         );
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="faq">Se fler frågor & svar</a>
+                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" title="FAQ" href="faq">Se fler frågor & svar</a>
                   </section>
                   <section id="skin-guide">
                         <div class="flex-row align-end justify-space-between">
                               <div class="h500 l10n">Hudguide</div>
-                              <a href="skin-guide" class="button compact text is-hidden-mobile">
+                              <a href="skin-guide" title="Hudguide" class="button compact text is-hidden-mobile">
                                     <span class="l10n">Se fler guider</span>
                                     <?php icon('navigate-next') ?>
                               </a>
@@ -652,7 +650,7 @@
                         );
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php');
                         ?>
-                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="skin-guide">Se fler guider</a>
+                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" title="Hudguide" href="skin-guide">Se fler guider</a>
                   </section>
                   <section id="about-us">
                         <div id="about-text-wrapper">
@@ -709,7 +707,7 @@
                                                 </p>
                                           </div>
                                     </div>
-                                    <a href="om-oss" class="button b200 outline expand l10n">Läs mer om oss</a>
+                                    <a href="om-oss" title="Om oss" class="button b200 outline expand l10n">Läs mer om oss</a>
                               </div>
                         </div>
                         <div id="about-image-desktop">
@@ -723,7 +721,7 @@
                   <section id="specialists">
                         <div class="flex-row align-end justify-space-between">
                               <div class="h500 l10n">Våra specialister</div>
-                              <a href="specialister" class="button compact text is-hidden-mobile">
+                              <a href="specialister" title="Specialister" class="button compact text is-hidden-mobile">
                                     <span class="l10n">Se alla specialister</span>
                                     <?php icon('navigate-next') ?>
                               </a>
@@ -761,18 +759,18 @@
                         );
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
                         ?>
-                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="specialists">Se alla specialister</a>
+                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" title="Specialister" href="specialists">Se alla specialister</a>
                   </section>
                   <section id="brands">
                         <div class="flex-row align-end justify-space-between">
                               <div class="h500 l10n">Varumärken</div>
-                              <a href="varumarken" class="button compact text is-hidden-mobile">
+                              <a href="varumarken" title="Varumärken" class="button compact text is-hidden-mobile">
                                     <span class="l10n">Se alla varumärken</span>
                                     <?php icon('navigate-next') ?>
                               </a>
                         </div>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="varumarken">Se alla varumärken</a>
+                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" title="Varumärken" href="varumarken">Se alla varumärken</a>
                   </section>
             </div>
       </main>
