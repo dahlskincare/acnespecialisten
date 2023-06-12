@@ -164,6 +164,299 @@ $repair_image_small = 'https://via.placeholder.com/358x274.jpg';
 $repair_image_large = 'https://via.placeholder.com/872x456.jpg';
 $repair_url = 'treatments/acne';
 
+  $results = array(
+                              new ResultCustomer(
+                                    id: '1',
+                                    image_before_small: 'https://via.placeholder.com/358x358.webm',
+                                    image_after_small: 'https://via.placeholder.com/358x358.webm',
+                                    image_before_large: 'https://via.placeholder.com/424x424.webm',
+                                    image_after_large: 'https://via.placeholder.com/424x424.webm',
+                                    age: 18,
+                                    gender: 'Female',
+                                    problem: 'Acne',
+                                    type: 'Severe',
+                                    treatment: new ResultTreatment(
+                                          duration: '3 months',
+                                          procedures: array(
+                                                new ResultProcedure(
+                                                      image: 'https://via.placeholder.com/102x102.webm',
+                                                      name: 'Problem skin facials',
+                                                      count: '3 times'
+                                                ),
+                                          ),
+                                          product: new ResultProduct(
+                                                image: 'https://via.placeholder.com/102x102.webm',
+                                                name: 'Product bundle for light acne',
+                                          ),
+                                          employee: new ResultEmployee(
+                                                image: 'https://via.placeholder.com/102x102.webm',
+                                                name: 'Patrick Minogue'
+                                          ),
+                                    )
+                              ),
+                              new ResultCustomer(
+                                    id: '2',
+                                    image_before_small: 'https://via.placeholder.com/358x358.webm',
+                                    image_after_small: 'https://via.placeholder.com/358x358.webm',
+                                    image_before_large: 'https://via.placeholder.com/424x424.webm',
+                                    image_after_large: 'https://via.placeholder.com/424x424.webm',
+                                    age: 18,
+                                    gender: 'Female',
+                                    problem: 'Acne',
+                                    type: 'Severe',
+                                    treatment: new ResultTreatment(
+                                          duration: '3 months',
+                                          procedures: array(
+                                                new ResultProcedure(
+                                                      image: 'https://via.placeholder.com/102x102.webm',
+                                                      name: 'Problem skin facials',
+                                                      count: '3 times'
+                                                ),
+                                          ),
+                                          product: new ResultProduct(
+                                                image: 'https://via.placeholder.com/102x102.webm',
+                                                name: 'Product bundle for light acne',
+                                          ),
+                                          employee: new ResultEmployee(
+                                                image: 'https://via.placeholder.com/102x102.webm',
+                                                name: 'Patrick Minogue'
+                                          ),
+                                    )
+                              ),
+                              new ResultCustomer(
+                                    id: '3',
+                                    image_before_small: 'https://via.placeholder.com/358x358.webm',
+                                    image_after_small: 'https://via.placeholder.com/358x358.webm',
+                                    image_before_large: 'https://via.placeholder.com/424x424.webm',
+                                    image_after_large: 'https://via.placeholder.com/424x424.webm',
+                                    age: 18,
+                                    gender: 'Female',
+                                    problem: 'Acne',
+                                    type: 'Severe',
+                                    treatment: new ResultTreatment(
+                                          duration: '3 months',
+                                          procedures: array(
+                                                new ResultProcedure(
+                                                      image: 'https://via.placeholder.com/102x102.webm',
+                                                      name: 'Problem skin facials',
+                                                      count: '3 times'
+                                                ),
+                                          ),
+                                          product: new ResultProduct(
+                                                image: 'https://via.placeholder.com/102x102.webm',
+                                                name: 'Product bundle for light acne',
+                                          ),
+                                          employee: new ResultEmployee(
+                                                image: 'https://via.placeholder.com/102x102.webm',
+                                                name: 'Patrick Minogue'
+                                          ),
+                                    )
+                              ),
+                        );
+
+                        $reviews = array(
+                              new Review(
+                                    stars: 5,
+                                    brand: 'Trustpilot',
+                                    logo_url: 'images/brands/trustpilot.svg',
+                                    title: 'Allt gick jätte bra!',
+                                    text: "Allt gick jätte bra, personal var snäll och trevlig med min dotter. Min dotter var orolig för behandling hur ska det vara därför har det varit så lång tid innan vi kommit tillbaka och börjat med behandling. Det var inte lätt för henne men hon är jätte nöjd och glad när hon såg bra resultat /ändring på hennes ansikte. Tack så jätte mycket!!",
+                                    signature: 'Emily'
+                              ),
+                              new Review(
+                                    stars: 5,
+                                    brand: 'Google',
+                                    logo_url: 'images/brands/trustpilot.svg',
+                                    title: 'Man behöver inte klä av sig',
+                                    text: "Man behöver inte klä av sig för behandling. Behandlaren känns inte stressad, sitter kvar utan att springa iväg för att uträtta annat! Frågar inte ut en. Försöker inte pracka på en produkter. Är trevlig och hjälpsam",
+                                    signature: 'Emily'
+                              ),
+                              new Review(
+                                    stars: 5,
+                                    brand: 'Trustpilot',
+                                    logo_url: 'images/brands/trustpilot.svg',
+                                    title: 'Otroligt nöjd',
+                                    text: "Efter bara tre månader hos bästa Emma har min hud blivit så mycket bättre! Efter en graviditet och en kombination av hormonell och bakteriell acne så har jag äntligen börjar komma tillbaks till min gamla hy. Är verkligen så himla nöjd. Har gjort ansiktsbehandling mot acne samt kört acnespecialistens produkter och kan bara säga gott om dem!",
+                                    signature: 'Emily'
+                              ),
+                              new Review(
+                                    stars: 5,
+                                    brand: 'Google',
+                                    logo_url: 'images/brands/trustpilot.svg',
+                                    title: 'Nöjd',
+                                    text: "Ett första besök som absolut kommer leda till ett till. Bra och tydlig information om vad som skulle vara bäst för min hy.",
+                                    signature: 'Emily'
+                              ),
+                              new Review(
+                                    stars: 5,
+                                    brand: 'Trustpilot',
+                                    logo_url: 'images/brands/trustpilot.svg',
+                                    title: 'Kunniga och bra!',
+                                    text: "Mina tonårsdöttrar har båda gått till acnespecialisten under flera år med både mindre och större problemområden. Vi har alltid fått professionell och kunnig behandling, bra produkter och bra råd, som också hjälper fint!",
+                                    signature: 'Emily'
+                              ),
+                        );
+
+                        $faq_categories = array(
+                              'Behandlingar' => array(
+                                    new Question(
+                                          title: 'Vilka typer av behandlingar erbjuder Acnespecialisten för olika hudproblem?',
+                                          text: 'Acnespecialisten erbjuder en rad olika behandlingar för hudproblem, inklusive acnebehandling, rosaceabehandling och portömning.'
+                                    ),
+                                    new Question(
+                                          title: 'Hur lång tid tar en behandling hos Acnespecialisten?',
+                                          text: 'En behandling hos Acnespecialisten tar vanligtvis cirka 60 - 90 minuter.'
+                                    ),
+                                    new Question(
+                                          title: 'Hur många behandlingar behövs för att se resultat?',
+                                          text: 'Antalet behandlingar som behövs för att se resultat varierar beroende på ditt specifika hudproblem och din hudtyp. Genomsnittligt antal behandlingar är mellan 2-4 stycken.'
+                                    ),
+                                    new Question(
+                                          title: 'Är behandlingarna smärtsamma?',
+                                          text: 'Behandlingarna hos Acnespecialisten är utformade för att minimera obehag. När vi behandlar inflammerade områden och utför extraktioner kan det dock uppstå en tillfällig smärta. Denna känsla är dock övergående och försvinner snabbt, så du kan känna dig trygg under behandlingen.'
+                                    ),
+                                    new Question(
+                                          title: 'Kan alla hudtyper behandlas hos Acnespecialisten?',
+                                          text: 'Ja, Acnespecialisten erbjuder behandlingar som passar alla hudtyper.'
+                                    ),
+                              ),
+                              'Konsultationer' => array(
+                                    new Question(
+                                          title: 'Hur bokar jag en konsultation hos Acnespecialisten?',
+                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                                    ),
+                                    new Question(
+                                          title: 'Vad kan jag förvänta mig under en konsultation?',
+                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                                    ),
+                                    new Question(
+                                          title: 'Är konsultationen gratis?',
+                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                                    ),
+                                    new Question(
+                                          title: 'Hur lång tid tar en konsultation?',
+                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                                    ),
+                                    new Question(
+                                          title: 'Kan jag boka en konsultation online?',
+                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                                    ),
+                              ),
+                              'Produkter' => array(
+                                    new Question(
+                                          title: 'Hur bokar jag en konsultation hos Acnespecialisten?',
+                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                                    ),
+                                    new Question(
+                                          title: 'Vad kan jag förvänta mig under en konsultation?',
+                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                                    ),
+                                    new Question(
+                                          title: 'Är konsultationen gratis?',
+                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                                    ),
+                                    new Question(
+                                          title: 'Hur lång tid tar en konsultation?',
+                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                                    ),
+                                    new Question(
+                                          title: 'Kan jag boka en konsultation online?',
+                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                                    ),
+                              ),
+                              'Skötselråd och rutiner' => array(
+                                    new Question(
+                                          title: 'Hur bokar jag en konsultation hos Acnespecialisten?',
+                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                                    ),
+                                    new Question(
+                                          title: 'Vad kan jag förvänta mig under en konsultation?',
+                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                                    ),
+                                    new Question(
+                                          title: 'Är konsultationen gratis?',
+                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                                    ),
+                                    new Question(
+                                          title: 'Hur lång tid tar en konsultation?',
+                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                                    ),
+                                    new Question(
+                                          title: 'Kan jag boka en konsultation online?',
+                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                                    ),
+                              ),
+                              'Priser och betalning' => array(
+                                    new Question(
+                                          title: 'Hur bokar jag en konsultation hos Acnespecialisten?',
+                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                                    ),
+                                    new Question(
+                                          title: 'Vad kan jag förvänta mig under en konsultation?',
+                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                                    ),
+                                    new Question(
+                                          title: 'Är konsultationen gratis?',
+                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                                    ),
+                                    new Question(
+                                          title: 'Hur lång tid tar en konsultation?',
+                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                                    ),
+                                    new Question(
+                                          title: 'Kan jag boka en konsultation online?',
+                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                                    ),
+                              ),
+                        );
+
+$skin_guide_articles = array(
+                              new SkinGuideArticle(
+                                    id: 'how-hormones-effect',
+                                    title: 'How hormones effect?',
+                                    subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
+                                    problem: 'Acne',
+                                    description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
+                                    image_small: 'https://via.placeholder.com/426x324.webp',
+                                    image_large: 'https://via.placeholder.com/872x456.jpg',
+                                    category_id: 'category-here',
+                                    subcategory_id: 'subcategory-here'
+                              ),
+                              new SkinGuideArticle(
+                                    id: 'how-hormones-effect',
+                                    title: 'How hormones effect?',
+                                    subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
+                                    problem: 'Acne',
+                                    description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
+                                    image_small: 'https://via.placeholder.com/426x324.webp',
+                                    image_large: 'https://via.placeholder.com/872x456.jpg',
+                                    category_id: 'category-here',
+                                    subcategory_id: 'subcategory-here'
+                              ),
+                              new SkinGuideArticle(
+                                    id: 'how-hormones-effect',
+                                    title: 'How hormones effect?',
+                                    subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
+                                    problem: 'Acne',
+                                    description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
+                                    image_small: 'https://via.placeholder.com/426x324.webp',
+                                    image_large: 'https://via.placeholder.com/872x456.jpg',
+                                    category_id: 'category-here',
+                                    subcategory_id: 'subcategory-here'
+                              ),
+                              new SkinGuideArticle(
+                                    id: 'how-hormones-effect',
+                                    title: 'How hormones effect?',
+                                    subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
+                                    problem: 'Acne',
+                                    description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
+                                    image_small: 'https://via.placeholder.com/426x324.webp',
+                                    image_large: 'https://via.placeholder.com/872x456.jpg',
+                                    category_id: 'category-here',
+                                    subcategory_id: 'subcategory-here'
+                              )
+                        );
+
 $specialists = array(
     new Specialist(
         name: 'Cazzandra Lindberg',
@@ -195,6 +488,57 @@ $specialists = array(
         image_alt: 'Vilma Libom, hudterapeut sedan 2019 på Acnespecialisten'
     )
 );
+
+$brands = array(
+    new Brand(
+      label: 'Powerlite',
+      image: 'images/brands/powerlite.svg',
+      image_alt: 'Powerlite',
+      image_title: 'Powerlite',
+    ),
+    new Brand(
+      label: 'Dermapen4',
+      image: 'images/brands/dermapen4.svg',
+      image_alt: 'Dermapen4',
+      image_title: 'Dermapen4',
+    ),
+    new Brand(
+      label: 'Cryopen',
+      image: 'images/brands/cryopen.svg',
+      image_alt: 'Cryopen',
+      image_title: 'Cryopen',
+    ),
+    new Brand(
+      label: 'Lumenis',
+      image: 'images/brands/lumenis.svg',
+      image_alt: 'Lumenis',
+      image_title: 'Lumenis',
+    ),
+    new Brand(
+      label: 'Alma',
+      image: 'images/brands/alma.svg',
+      image_alt: 'Alma',
+      image_title: 'Alma',
+    ),
+    new Brand(
+      label: 'PRXT',
+      image: 'images/brands/prxt.svg',
+      image_alt: 'PRXT',
+      image_title: 'PRXT',
+    ),
+    new Brand(
+      label: 'Hydrafacial',
+      image: 'images/brands/hydrafacial.svg',
+      image_alt: 'Hydrafacial',
+      image_title: 'Hydrafacial',
+    ),
+    new Brand(
+      label: 'IP infusion',
+      image: 'images/brands/ipinfusion.svg',
+      image_alt: 'IP infusion',
+      image_title: 'IP infusion',
+    ),
+  );
 
 ?>
 
