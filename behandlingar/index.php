@@ -718,7 +718,7 @@ $service_categories = array(
                                 <a class="h200" href="behandlingar/<?php echo $service_categories[$i]->id ?>"><?php echo $service_categories[$i]->label ?></a>
                             </p>
                             <?php foreach ($service_categories[$i]->services as $service) { ?>
-                                <p class="p200 service-label"><a href="<?php echo $service->url ?>" title="<?php echo $service->url_title ?>"><?php echo $service->url_label ?></a></p>
+                                <p class="p200 service-label"><a href="<?php echo $service->url ?>" title="<?php echo $service->url_title ?>"><?php echo $service->title ?></a></p>
                             <?php } ?>
                         </div>
                     <?php } ?>
