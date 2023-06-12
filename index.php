@@ -339,7 +339,8 @@
                                     </a>
                               </div>
                         </div>
-                        <?php $reviews = array(
+                        <?php 
+                        $reviews = array(
                               new Review(
                                     stars: 5,
                                     brand: 'Trustpilot',
