@@ -15,10 +15,10 @@
                     <div>
                         <div class="h200"><?php echo $type->title ?></div>
                         <div class="p200"><?php echo $type->subtitle ?></div>
-                        <a href="<?php echo $type->url ?>" class="button mt-xs b200 text compact"><?php echo $type->url_label ?></a>
+                        <a href="<?php echo $type->url ?>" class="button mt-xs b200 text compact" title="<?php echo $type->url_label ?>"><?php echo $type->url_label ?></a>
                     </div>
                 </div>
-                <a href="<?php echo $type->consultation_url ?>" class="button"><?php echo $type->consultation_url_label ?></a>
+                <a href="<?php echo $type->consultation_url ?>" class="button" title="<?php echo $type->consultation_url_label ?>"><?php echo $type->consultation_url_label ?></a>
             </div>
             <div class="cc-type-touch is-hidden-desktop">
                 <div>
@@ -28,9 +28,9 @@
                         <div class="p200"><?php echo $type->subtitle ?></div>
                     </div>
                 </div>
-                <a href="<?php echo $type->url ?>" class="button expand mt-m outline"><?php echo $type->url_label ?></a>
+                <a href="<?php echo $type->url ?>" class="button expand mt-m outline" title="<?php echo $type->url_label ?>"><?php echo $type->url_label ?></a>
                 <hr />
-                <a href="<?php echo $type->consultation_url ?>" class="button expand"><?php echo $type->consultation_url_label ?></a>
+                <a href="<?php echo $type->consultation_url ?>" class="button expand" title="<?php echo $type->consultation_url_label ?>"><?php echo $type->consultation_url_label ?></a>
             </div>
         <?php } ?>
     </div>

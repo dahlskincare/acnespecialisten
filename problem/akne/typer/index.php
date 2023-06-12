@@ -226,10 +226,10 @@ $specialists = array(
                         <div class="mt-xl">
                             <div class="columns is-2 is-variable">
                                 <div class="column">
-                                    <a href="hudkonsultation" class="button white expand l10n">Get a free consultation</a>
+                                    <a href="hudkonsultation" class="button white expand l10n" title="Get a free consultation">Get a free consultation</a>
                                 </div>
                                 <div class="column">
-                                    <a href="https://bokadirekt.se" class="button white expand l10n">Book a treatment</a>
+                                    <a href="https://bokadirekt.se" class="button white expand l10n" title="Book a treatment">Book a treatment</a>
                                 </div>
                             </div>
                         </div>
@@ -252,10 +252,10 @@ $specialists = array(
                     <div class="mt-xl">
                         <div class="columns is-mobile">
                             <div class="column is-half">
-                                <a href="hudkonsultation" class="button b200 white expand l10n">Free consultation</a>
+                                <a href="hudkonsultation" class="button b200 white expand l10n" title="Free consultation">Free consultation</a>
                             </div>
                             <div class="column is-half">
-                                <a href="https://bokadirekt.se" class="button b200 white expand l10n">Book a treatment</a>
+                                <a href="https://bokadirekt.se" class="button b200 white expand l10n" title="Book a treatment">Book a treatment</a>
                             </div>
                         </div>
                     </div>
@@ -279,8 +279,8 @@ $specialists = array(
                             <?php echo $header_description ?>
                         </p>
                         <div class="mt-xl flex-row" id="book-buttons">
-                            <a href="hudkonsultation" class="button b200 white l10n">Get a free consultation</a>
-                            <a href="https://bokadirekt.se" class="button b200 white l10n">Book a treatment</a>
+                            <a href="hudkonsultation" class="button b200 white l10n" title="Get a free consultation">Get a free consultation</a>
+                            <a href="https://bokadirekt.se" class="button b200 white l10n" title="Book a treatment">Book a treatment</a>
                         </div>
                     </div>
                 </div>
@@ -386,24 +386,24 @@ $specialists = array(
                     $reviews_narrow = true;
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                     ?>
-                    <a class="mt-xl button outline expand auto-width l10n" href="https://se.trustpilot.com/review/acnespecialisten.se">View all reviews</a>
+                    <a class="mt-xl button outline expand auto-width l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="View all reviews">View all reviews</a>
                 </section>
                 <section id="faq">
                     <h2 class="big l10n">Questions & answers</h2>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                    <a href="faq" class="mt-xl button outline expand auto-width l10n">View all questions</a>
+                    <a href="faq" class="mt-xl button outline expand auto-width l10n" title="View all questions">View all questions</a>
                 </section>
                 <section id="skin-guide">
                     <h2 class="big l10n">Skin guide</h2>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide_narrow.php'); ?>
-                    <a class="mt-xl button outline expand auto-width l10n" href="skin-guide">View all articles</a>
+                    <a class="mt-xl button outline expand auto-width l10n" href="skin-guide" title="View all articles">View all articles</a>
                 </section>
                 <section id="specialists">
                     <h2 class="big l10n">Our specialists</h2>
                     <?php
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php');
                     ?>
-                    <a class="mt-xl button outline expand auto-width l10n" href="specialister">View all specialists</a>
+                    <a class="mt-xl button outline expand auto-width l10n" href="specialister" title="View all specialists">View all specialists</a>
                 </section>
             </div>
             <section id="brands">
@@ -415,7 +415,7 @@ $specialists = array(
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                <a class="mt-xl button outline expand auto-width is-hidden-desktop l10n" href="varumarken">View all brands</a>
+                <a class="mt-xl button outline expand auto-width is-hidden-desktop l10n" href="varumarken" title="View all brands">View all brands</a>
             </section>
         </div>
     </main>

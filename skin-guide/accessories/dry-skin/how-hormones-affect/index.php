@@ -166,7 +166,7 @@ $article = new SkinGuideArticle(
                                 In a personal meeting with a skin specialist, your skin type is examined and identified.
                             </div>
                             <div>
-                                <a href="hudkonsultation" class="button white expand l10n">Get a free consultation</a>
+                                <a href="hudkonsultation" class="button white expand l10n" title="Get a free consultation">Get a free consultation</a>
                             </div>
                         </div>
                     </div>
@@ -207,14 +207,14 @@ $article = new SkinGuideArticle(
                                     <div class="ac-desc">
                                         In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.
                                     </div>
-                                    <a class="ac-link" href="">View more about service</a>
+                                    <a class="ac-link" href="" title="View more about service">View more about service</a>
                                     <hr />
                                     <div class="columns">
                                         <div class="column">
-                                            <a class="button expand" href="">Get a free consultation</a>
+                                            <a class="button expand" href="" title="Get a free consultation">Get a free consultation</a>
                                         </div>
                                         <div class="column">
-                                            <a class="button expand" href="">Book a treatment</a>
+                                            <a class="button expand" href="" title="Book a treatment">Book a treatment</a>
                                         </div>
                                     </div>
                                 </div>
@@ -228,14 +228,14 @@ $article = new SkinGuideArticle(
                                     <div class="ac-desc">
                                         In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.
                                     </div>
-                                    <a class="ac-link" href="">View more about service</a>
+                                    <a class="ac-link" href="" title="View more about service">View more about service</a>
                                     <hr />
                                     <div class="columns">
                                         <div class="column">
-                                            <a class="button expand" href="">Get a free consultation</a>
+                                            <a class="button expand" href="" title="Get a free consultation">Get a free consultation</a>
                                         </div>
                                         <div class="column">
-                                            <a class="button expand" href="">Book a treatment</a>
+                                            <a class="button expand" href="" title="Book a treatment">Book a treatment</a>
                                         </div>
                                     </div>
                                 </div>
@@ -264,9 +264,9 @@ $article = new SkinGuideArticle(
                             <p class="banner-text">
                                 This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin...
                             </p>
-                            <a class="button outline expand" href="">View more about consultation</a>
+                            <a class="button outline expand" href="" title="View more about consultation">View more about consultation</a>
                             <hr />
-                            <a class="button expand" href="hudkonsultation">Get a free consultation</a>
+                            <a class="button expand" href="hudkonsultation" title="Get a free consultation">Get a free consultation</a>
                         </div>
                         <div class="service-banner-touch">
                             <div class="banner-info">
@@ -279,10 +279,10 @@ $article = new SkinGuideArticle(
                             <p class="banner-text">
                                 This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin...
                             </p>
-                            <a class="button outline expand" href="">View more about service</a>
+                            <a class="button outline expand" href="" title="View more about service">View more about service</a>
                             <hr />
-                            <a class="button expand" href="hudkonsultation">Get a free consultation</a>
-                            <a class="mt-s button expand" href="https://bokadirekt.se">Book a treatment</a>
+                            <a class="button expand" href="hudkonsultation" title="Get a free consultation">Get a free consultation</a>
+                            <a class="mt-s button expand" href="https://bokadirekt.se" title="Book a treatment">Book a treatment</a>
                         </div>
                     </div>
 
@@ -297,11 +297,11 @@ $article = new SkinGuideArticle(
                                 <p class="banner-price">15 min<span class="dot"></span>Free</p>
                                 <div>
                                     <p class="banner-text">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin...</p>
-                                    <a class="button text b200" href="services/acne-treatment">View more about consultation</a>
+                                    <a class="button text b200" href="services/acne-treatment" title="View more about consultation">View more about consultation</a>
                                 </div>
                             </div>
                             <div class="banner-buttons">
-                                <a class="button expand" href="hudkonsultation">Get a free consultation</a>
+                                <a class="button expand" href="hudkonsultation" title="Get a free consultation">Get a free consultation</a>
                             </div>
                         </div>
                         <div class="service-banner-desktop">
@@ -313,12 +313,12 @@ $article = new SkinGuideArticle(
                                 <p class="banner-price">30 - 60 min<span class="dot"></span>Price from 1925 kr</p>
                                 <div>
                                     <p class="banner-text">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin...</p>
-                                    <a class="button text b200" href="services/acne-treatment">View more about service</a>
+                                    <a class="button text b200" href="services/acne-treatment" title="View more about service">View more about service</a>
                                 </div>
                             </div>
                             <div class="banner-buttons">
-                                <a class="button expand" href="hudkonsultation">Get a free consultation</a>
-                                <a class="button expand" href="hudkonsultation">Book a treatment</a>
+                                <a class="button expand" href="hudkonsultation" title="Get a free consultation">Get a free consultation</a>
+                                <a class="button expand" href="hudkonsultation" title="Book a treatment">Book a treatment</a>
                             </div>
                         </div>
                     </div>
@@ -348,7 +348,7 @@ $article = new SkinGuideArticle(
                                     </div>
                                 </div>
                                 <div class="ro-info">
-                                    After 2 months of <a href="behandlingar/ansiktsbehandlingar-problemhy/akne">acne treatment</a>
+                                    After 2 months of <a href="behandlingar/ansiktsbehandlingar-problemhy/akne" title="acne treatment">acne treatment</a>
                                 </div>
                             </div>
                         </div>
@@ -365,7 +365,7 @@ $article = new SkinGuideArticle(
                                     </div>
                                 </div>
                                 <div class="ro-info">
-                                    After 2 months of <a href="behandlingar/ansiktsbehandlingar-problemhy/akne">acne treatment</a>
+                                    After 2 months of <a href="behandlingar/ansiktsbehandlingar-problemhy/akne" title="acne treatment">acne treatment</a>
                                 </div>
                             </div>
                         </div>
@@ -397,8 +397,8 @@ $article = new SkinGuideArticle(
                                         Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you
                                         can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.
                                     </div>
-                                    <a href="problem/akne" class="is-hidden-desktop button outline expand">View more</a>
-                                    <a href="problem/akne" class="is-hidden-touch button compact text">View more</a>
+                                    <a href="problem/akne" class="is-hidden-desktop button outline expand" title="View more">View more</a>
+                                    <a href="problem/akne" class="is-hidden-touch button compact text" title="View more">View more</a>
                                 </div>
                             </div>
                             <div class="column is-half">
@@ -414,8 +414,8 @@ $article = new SkinGuideArticle(
                                         Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you
                                         can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.
                                     </div>
-                                    <a href="problem/akne" class="is-hidden-desktop button outline expand">View more</a>
-                                    <a href="problem/akne" class="is-hidden-touch button compact text">View more</a>
+                                    <a href="problem/akne" class="is-hidden-desktop button outline expand" title="View more">View more</a>
+                                    <a href="problem/akne" class="is-hidden-touch button compact text" title="View more">View more</a>
                                 </div>
                             </div>
                             <div class="column is-half">
@@ -431,8 +431,8 @@ $article = new SkinGuideArticle(
                                         Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you
                                         can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.
                                     </div>
-                                    <a href="problem/akne" class="is-hidden-desktop button outline expand">View more</a>
-                                    <a href="problem/akne" class="is-hidden-touch button compact text">View more</a>
+                                    <a href="problem/akne" class="is-hidden-desktop button outline expand" title="View more">View more</a>
+                                    <a href="problem/akne" class="is-hidden-touch button compact text" title="View more">View more</a>
                                 </div>
                             </div>
                             <div class="column is-half">
@@ -448,8 +448,8 @@ $article = new SkinGuideArticle(
                                         Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you
                                         can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.
                                     </div>
-                                    <a href="problem/aknearr" class="is-hidden-desktop button outline expand">View more</a>
-                                    <a href="problem/aknearr" class="is-hidden-touch button compact text">View more</a>
+                                    <a href="problem/aknearr" class="is-hidden-desktop button outline expand" title="View more">View more</a>
+                                    <a href="problem/aknearr" class="is-hidden-touch button compact text" title="View more">View more</a>
                                 </div>
                             </div>
                         </div>
@@ -479,7 +479,7 @@ $article = new SkinGuideArticle(
                             <p class="banner-text">
                                 This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin...
                             </p>
-                            <a class="button outline expand" href="behandlingar">View product details</a>
+                            <a class="button outline expand" href="behandlingar" title="View product details">View product details</a>
                         </div>
                     </div>
 
@@ -496,7 +496,7 @@ $article = new SkinGuideArticle(
                                 <p class="banner-price">Price from 995 kr</p>
                                 <div>
                                     <p class="banner-text">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin...</p>
-                                    <a class="button text b200" href="behandlingar/ansiktsbehandlingar-problemhy">View product details</a>
+                                    <a class="button text b200" href="behandlingar/ansiktsbehandlingar-problemhy" title="View product details">View product details</a>
                                 </div>
                             </div>
                         </div>
@@ -592,7 +592,7 @@ $article = new SkinGuideArticle(
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="skin-guide">View all articles</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="skin-guide" title="View all articles">View all articles</a>
             </section>
             <section class="large-margin" id="cta-banner">
                 <div id="cta-banner-texts">
@@ -600,7 +600,7 @@ $article = new SkinGuideArticle(
                     <div class="p200 l10n" id="cta-banner-content">In a personal meeting with a skin specialist, your skin type is examined and identified.</div>
                 </div>
                 <div>
-                    <a href="<?php echo $consultation_url ?>" class="button white expand l10n">Get a free consultation</a>
+                    <a href="<?php echo $consultation_url ?>" class="button white expand l10n" title="Get a free consultation">Get a free consultation</a>
                 </div>
             </section>
             <section id="results" class="large-margin">
@@ -625,7 +625,7 @@ $article = new SkinGuideArticle(
                     </div>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se">View all reviews</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="View all reviews">View all reviews</a>
             </section>
             <section id="faq" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
@@ -636,7 +636,7 @@ $article = new SkinGuideArticle(
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="faq">View all questions</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="faq" title="View all questions">View all questions</a>
             </section>
             <section id="specialists" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
@@ -647,7 +647,7 @@ $article = new SkinGuideArticle(
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="specialister">View all specialists</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="specialister" title="View all specialists">View all specialists</a>
             </section>
             <section id="brands" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
@@ -658,7 +658,7 @@ $article = new SkinGuideArticle(
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="varumarken">View all brands</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="varumarken" title="View all brands">View all brands</a>
             </section>
         </div>
     </main>

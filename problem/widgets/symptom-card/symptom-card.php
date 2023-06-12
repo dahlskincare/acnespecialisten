@@ -16,7 +16,7 @@
         <?php echo $symptom->content ?>
     </div>
     <?php if (isset($symptom->url) && isset($symptom->url_label)) { ?>
-        <a class="mt-m button is-hidden-mobile b200 compact text l10n" href="<?php echo $symptom->url ?>"><?php echo $symptom->url_label ?></a>
-        <a class="mt-m button is-hidden-tablet expand outline l10n" href="<?php echo $symptom->url ?>"><?php echo $symptom->url_label ?></a>
+        <a class="mt-m button is-hidden-mobile b200 compact text l10n" href="<?php echo $symptom->url ?>" title="<?php echo $symptom->url_label ?>"><?php echo $symptom->url_label ?></a>
+        <a class="mt-m button is-hidden-tablet expand outline l10n" href="<?php echo $symptom->url ?>" title="<?php echo $symptom->url_label ?>"><?php echo $symptom->url_label ?></a>
     <?php } ?>
 </div>

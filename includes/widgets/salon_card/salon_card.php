@@ -21,8 +21,8 @@
                 </div>
             </div>
             <div class="salon-buttons">
-                <a href="tel: <?php echo $salon->phone ?>" class="button b200 outline expand l10n">Call us</a>
-                <a href="mailto: <?php echo $salon->email ?>" class="button b200 outline expand l10n">Send an email</a>
+                <a href="tel: <?php echo $salon->phone ?>" class="button b200 outline expand l10n" title="Call us">Call us</a>
+                <a href="mailto: <?php echo $salon->email ?>" class="button b200 outline expand l10n" title="Send an email">Send an email</a>
             </div>
         </div>
     </div>

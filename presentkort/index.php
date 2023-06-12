@@ -188,7 +188,7 @@ if (form_completed()) {
                                 </div>
                             </form>
                             <hr />
-                            <a href="swish://paymentrequest?token=<?php echo $client->createPaymentRequest($pr)->paymentRequestToken ?>&callbackurl=https%3A%2F%2Facnespecialisten.com%2Fpresentkort%3Fpaid%3D1" class="button outline expand l10n">Open Swish app</a>
+                            <a href="swish://paymentrequest?token=<?php echo $client->createPaymentRequest($pr)->paymentRequestToken ?>&callbackurl=https%3A%2F%2Facnespecialisten.com%2Fpresentkort%3Fpaid%3D1" class="button outline expand l10n" title="Open Swish app">Open Swish app</a>
                         </div>
                         <div class="gift-card-step" id="step-2-small">
                             <div class="flex-row align-center">
@@ -199,7 +199,7 @@ if (form_completed()) {
                                 <div class="confirmation-banner mt-m">
                                     <div class="h400 l10n">Your confirmation has been sent</div>
                                     <div class="p200 mt-xxs l10n">We will contact you as soon as possible.</div>
-                                    <a href="presentkort" class="button white outline expand mt-xl">Resend</a>
+                                    <a href="presentkort" class="button white outline expand mt-xl" title="Resend">Resend</a>
                                 </div>
                             <?php } else { ?>
                                 <div class="gc-text l10n">Fill in your info and attach a screenshot with payment details.</div>
@@ -283,7 +283,7 @@ if (form_completed()) {
                                             <div class="h400 l10n">Your confirmation has been sent</div>
                                             <div class="p200 mt-xxs l10n">We will contact you as soon as possible.</div>
                                         </div>
-                                        <a href="presentkort" class="button white outline">Resend</a>
+                                        <a href="presentkort" class="button white outline" title="Resend">Resend</a>
                                     </div>
                                 </div>
                             <?php } else { ?>
@@ -386,7 +386,7 @@ if (form_completed()) {
                     <div class="p200 l10n" id="cta-banner-content">In a personal meeting with a skin specialist, your skin type is examined and identified.</div>
                 </div>
                 <div>
-                    <a href="<?php echo $consultation_url ?>" class="button white expand l10n">Get a free consultation</a>
+                    <a href="<?php echo $consultation_url ?>" class="button white expand l10n" title="Get a free consultation">Get a free consultation</a>
                 </div>
             </section>
             <section id="results" class="large-margin">
@@ -411,7 +411,7 @@ if (form_completed()) {
                     </div>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se">View all reviews</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="View all reviews">View all reviews</a>
             </section>
             <section id="faq" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
@@ -425,7 +425,7 @@ if (form_completed()) {
                 $faq_categories = null;
                 include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php');
                 ?>
-                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="faq">View all questions</a>
+                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="faq" title="View all questions">View all questions</a>
             </section>
             <section id="skin-guide" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
@@ -436,7 +436,7 @@ if (form_completed()) {
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="skin-guide">View all articles</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="skin-guide" title="View all articles">View all articles</a>
             </section>
             <section id="specialists" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
@@ -447,7 +447,7 @@ if (form_completed()) {
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php'); ?>
-                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialister">View all specialists</a>
+                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialister" title="View all specialists">View all specialists</a>
             </section>
             <section id="brands" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
@@ -458,7 +458,7 @@ if (form_completed()) {
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="varumarken">View all brands</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="varumarken" title="View all brands">View all brands</a>
             </section>
         </div>
     </main>

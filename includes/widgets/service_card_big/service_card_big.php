@@ -47,7 +47,7 @@
                             </div>
                         </div>
                         <?php if (isset($procedure->booking_url)) { ?>
-                            <a href="<?php echo $procedure->booking_url ?>" title="<?php echo $procedure->booking_url_title ?>" class="button"><?php echo $procedure->booking_url_label ?></a>
+                            <a href="<?php echo $procedure->booking_url ?>" title="<?php echo $procedure->booking_url_title ?>" class="button" title="<?php echo $procedure->booking_url_label ?>"><?php echo $procedure->booking_url_label ?></a>
                         <?php } ?>
                     </div>
                 <?php } ?>
@@ -62,7 +62,7 @@
                             <span class="price"><?php echo $procedure->price ?></span>
                         </div>
                         <?php if (isset($procedure->booking_url)) { ?>
-                            <a href="<?php echo $procedure->booking_url ?>" title="<?php echo $procedure->booking_url_title ?>" class="button"><?php echo $procedure->booking_url_label ?></a>
+                            <a href="<?php echo $procedure->booking_url ?>" title="<?php echo $procedure->booking_url_title ?>" class="button" title="<?php echo $procedure->booking_url_label ?>"><?php echo $procedure->booking_url_label ?></a>
                         <?php } ?>
                     </div>
                 <?php } ?>
@@ -77,10 +77,10 @@
             </div>
         <?php } ?>
         <?php if (isset($service->consultation_url)) { ?>
-            <a href="<?php echo $service->consultation_url ?>" title="<?php echo $service->consultation_url_title ?>" class="button book-button"><?php echo $service->consultation_url_label ?></a>
+            <a href="<?php echo $service->consultation_url ?>" title="<?php echo $service->consultation_url_title ?>" class="button book-button" title="<?php echo $service->consultation_url_label ?>"><?php echo $service->consultation_url_label ?></a>
         <?php } ?>
         <?php if (isset($service->booking_url)) { ?>
-            <a href="<?php echo $service->booking_url ?>" title="<?php echo $service->booking_url_title ?>" class="button book-button"><?php echo $service->booking_url_label ?></a>
+            <a href="<?php echo $service->booking_url ?>" title="<?php echo $service->booking_url_title ?>" class="button book-button" title="<?php echo $service->booking_url_label ?>"><?php echo $service->booking_url_label ?></a>
         <?php } ?>
     </div>
 </div>

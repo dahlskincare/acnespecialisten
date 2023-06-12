@@ -730,10 +730,10 @@ $specialists = array(
                         <div class="mt-xl">
                             <div class="columns is-2 is-variable">
                                 <div class="column">
-                                    <a href="<?php echo $model->consultation_url ?>" title="<?php echo $model->consultation_url_title ?>" class="button white expand"><?php echo $model->consultation_url_label ?></a>
+                                    <a href="<?php echo $model->consultation_url ?>" title="<?php echo $model->consultation_url_title ?>" class="button white expand" title="<?php echo $model->consultation_url_label ?>"><?php echo $model->consultation_url_label ?></a>
                                 </div>
                                 <div class="column">
-                                    <a href="<?php echo $model->booking_url ?>" title="<?php echo $model->booking_url_title ?>" class="button white expand"><?php echo $model->booking_url_label ?></a>
+                                    <a href="<?php echo $model->booking_url ?>" title="<?php echo $model->booking_url_title ?>" class="button white expand" title="<?php echo $model->booking_url_label ?>"><?php echo $model->booking_url_label ?></a>
                                 </div>
                             </div>
                         </div>
@@ -772,10 +772,10 @@ $specialists = array(
                     <div class="mt-xl">
                         <div class="columns is-mobile">
                             <div class="column is-half">
-                                <a href="<?php echo $model->consultation_url ?>" title="<?php echo $model->consultation_url_title ?>" class="button b200 white expand"><?php echo $model->consultation_url_label ?></a>
+                                <a href="<?php echo $model->consultation_url ?>" title="<?php echo $model->consultation_url_title ?>" class="button b200 white expand" title="<?php echo $model->consultation_url_label ?>"><?php echo $model->consultation_url_label ?></a>
                             </div>
                             <div class="column is-half">
-                                <a href="<?php echo $model->booking_url ?>" title="<?php echo $model->booking_url_title ?>" class="button b200 white expand"><?php echo $model->booking_url_label ?></a>
+                                <a href="<?php echo $model->booking_url ?>" title="<?php echo $model->booking_url_title ?>" class="button b200 white expand" title="<?php echo $model->booking_url_label ?>"><?php echo $model->booking_url_label ?></a>
                             </div>
                         </div>
                     </div>
@@ -817,8 +817,8 @@ $specialists = array(
                             </div>
                         <?php } ?>
                         <div class="mt-xl flex-row" id="book-buttons">
-                            <a href="<?php echo $model->consultation_url ?>" title="<?php echo $model->consultation_url_title ?>" class="button b200 white"><?php echo $model->consultation_url_label ?></a>
-                            <a href="<?php echo $model->booking_url ?>" title="<?php echo $model->booking_url_title ?>" class="button b200 white"><?php echo $model->booking_url_label ?></a>
+                            <a href="<?php echo $model->consultation_url ?>" title="<?php echo $model->consultation_url_title ?>" class="button b200 white" title="<?php echo $model->consultation_url_label ?>"><?php echo $model->consultation_url_label ?></a>
+                            <a href="<?php echo $model->booking_url ?>" title="<?php echo $model->booking_url_title ?>" class="button b200 white" title="<?php echo $model->booking_url_label ?>"><?php echo $model->booking_url_label ?></a>
                         </div>
                     </div>
                 </div>
@@ -939,12 +939,12 @@ $specialists = array(
                     $reviews_narrow = true;
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                     ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="https://se.trustpilot.com/review/acnespecialisten.se">View all reviews</a>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="View all reviews">View all reviews</a>
                 </section>
                 <section id="faq" class="large-margin">
                     <h2 class="big l10n">Questions & answers</h2>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="faq">View all questions</a>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" href="faq" title="View all questions">View all questions</a>
                 </section>
                 <section id="skin-guide" class="large-margin">
                     <div class="flex-row justify-space-between">
@@ -959,7 +959,7 @@ $specialists = array(
                         </div>
                     </div>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide_narrow.php'); ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="skin-guide">View all articles</a>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" href="skin-guide" title="View all articles">View all articles</a>
                 </section>
                 <section id="specialists" class="large-margin">
                     <div class="flex-row justify-space-between">
@@ -976,7 +976,7 @@ $specialists = array(
                     <?php
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php');
                     ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="specialister">View all specialists</a>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" href="specialister" title="View all specialists">View all specialists</a>
                 </section>
             </div>
             <section id="brands">
@@ -991,7 +991,7 @@ $specialists = array(
                 $brands = $all_brands;
                 include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php');
                 ?>
-                <a class="mt-xl button b200 outline expand auto-width is-hidden-desktop l10n" href="varumarken">View all brands</a>
+                <a class="mt-xl button b200 outline expand auto-width is-hidden-desktop l10n" href="varumarken" title="View all brands">View all brands</a>
             </section>
         </div>
     </main>

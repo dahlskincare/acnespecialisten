@@ -337,7 +337,7 @@
                                     </a>
                               </div>
                         </div>
-                        <?php 
+                        <?php
                         $reviews = array(
                               new Review(
                                     stars: 5,

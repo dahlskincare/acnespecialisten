@@ -8,17 +8,17 @@
     <div class="title"><?php echo $brand->title ?></div>
     <div class="description"><?php echo $brand->description ?></div>
     <div class="is-hidden-desktop">
-      <a href="<?php echo $brand->url ?>" title="<?php echo $brand->url_title ?>" class="button expand outline l10n">Läs mer</a>
+      <a href="<?php echo $brand->url ?>" title="<?php echo $brand->url_title ?>" class="button expand outline l10n" title="Läs mer">Läs mer</a>
       <hr />
-      <a href="<?php echo $brand->consultation_url ?>" title="<?php echo $brand->consultation_url_title ?>" class="button expand l10n">Gratis hudkonsultation</a>
-      <a href="<?php echo $brand->booking_url ?>" title="<?php echo $brand->booking_url_title ?>" class="button expand mt-s l10n">Boka behandling</a>
+      <a href="<?php echo $brand->consultation_url ?>" title="<?php echo $brand->consultation_url_title ?>" class="button expand l10n" title="Gratis hudkonsultation">Gratis hudkonsultation</a>
+      <a href="<?php echo $brand->booking_url ?>" title="<?php echo $brand->booking_url_title ?>" class="button expand mt-s l10n" title="Boka behandling">Boka behandling</a>
     </div>
     <div class="is-hidden-touch">
-      <a href="<?php echo $brand->url ?>" class="button compact text l10n">Läs mer</a>
+      <a href="<?php echo $brand->url ?>" class="button compact text l10n" title="Läs mer">Läs mer</a>
       <hr />
       <div class="flex-row">
-        <a href="<?php echo $brand->consultation_url ?>" title="<?php echo $brand->consultation_url_title ?>" class="button expand l10n">Gratis hudkonsultation</a>
-        <a href="<?php echo $brand->booking_url ?>" title="<?php echo $brand->booking_url_title ?>" class="button expand l10n">Boka behandling</a>
+        <a href="<?php echo $brand->consultation_url ?>" title="<?php echo $brand->consultation_url_title ?>" class="button expand l10n" title="Gratis hudkonsultation">Gratis hudkonsultation</a>
+        <a href="<?php echo $brand->booking_url ?>" title="<?php echo $brand->booking_url_title ?>" class="button expand l10n" title="Boka behandling">Boka behandling</a>
       </div>
     </div>
   </div>

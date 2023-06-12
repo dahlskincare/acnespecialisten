@@ -706,7 +706,7 @@ $brands = array(
                                     </div>
                               </div>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide_narrow.php'); ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" href="skin-guide">Läs fler guider</a>
+                              <a class="mt-xl button b200 outline expand auto-width l10n" href="skin-guide" title="Läs fler guider">Läs fler guider</a>
                         </section>
                         <section id="specialists">
                               <div class="flex-row justify-space-between">

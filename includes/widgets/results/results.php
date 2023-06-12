@@ -20,7 +20,7 @@ if (!isset($results)) {
             problem: 'Akne',
             type: 'Severe',
             treatment: new ResultTreatment(
-                duration: 'Efter 3 månaders behandling av <a href="behandlingar/akne">akne</a>',
+                duration: 'Efter 3 månaders behandling av <a href="behandlingar/akne" title="akne">akne</a>',
                 procedures: array(
                     new ResultProcedure(
                         image: 'https://via.placeholder.com/102x102.webm',
@@ -49,7 +49,7 @@ if (!isset($results)) {
             problem: 'Acne',
             type: 'Severe',
             treatment: new ResultTreatment(
-                duration: 'Efter 3 månaders behandling av <a href="behandlingar/akne">akne</a>',
+                duration: 'Efter 3 månaders behandling av <a href="behandlingar/akne" title="akne">akne</a>',
                 procedures: array(
                     new ResultProcedure(
                         image: 'https://via.placeholder.com/102x102.webm',
@@ -78,7 +78,7 @@ if (!isset($results)) {
             problem: 'Acne',
             type: 'Severe',
             treatment: new ResultTreatment(
-                duration: 'Efter 3 månaders behandling av <a href="behandlingar/akne">akne</a>',
+                duration: 'Efter 3 månaders behandling av <a href="behandlingar/akne" title="akne">akne</a>',
                 procedures: array(
                     new ResultProcedure(
                         image: 'https://via.placeholder.com/102x102.webm',
@@ -120,7 +120,7 @@ if (!isset($results)) {
                 <?php } ?>
             </div>
         </div>
-        <a class="mt-xl button b200 outline expand" href="resultat"><?php echo $show_all_results_label ?></a>
+        <a class="mt-xl button b200 outline expand" href="resultat" title="<?php echo $show_all_results_label ?>"><?php echo $show_all_results_label ?></a>
     </div>
 
     <div class="is-hidden-touch" id="results-large">

@@ -100,10 +100,10 @@ $categories = array(
                         <div class="mt-xl">
                             <div class="columns is-2 is-variable">
                                 <div class="column">
-                                    <a href="hudkonsultation" class="button white expand l10n">Book a clinict visit</a>
+                                    <a href="hudkonsultation" class="button white expand l10n" title="Book a clinict visit">Book a clinict visit</a>
                                 </div>
                                 <div class="column">
-                                    <a href="https://bokadirekt.se" class="button white expand l10n">Book an online call</a>
+                                    <a href="https://bokadirekt.se" class="button white expand l10n" title="Book an online call">Book an online call</a>
                                 </div>
                             </div>
                         </div>
@@ -123,10 +123,10 @@ $categories = array(
                     <div class="mt-xl">
                         <div class="columns is-mobile">
                             <div class="column is-half">
-                                <a href="hudkonsultation" class="button b200 white expand l10n">Book a clinic visit</a>
+                                <a href="hudkonsultation" class="button b200 white expand l10n" title="Book a clinic visit">Book a clinic visit</a>
                             </div>
                             <div class="column is-half">
-                                <a href="https://bokadirekt.se" class="button b200 white expand l10n">Book an online call</a>
+                                <a href="https://bokadirekt.se" class="button b200 white expand l10n" title="Book an online call">Book an online call</a>
                             </div>
                         </div>
                     </div>
@@ -149,8 +149,8 @@ $categories = array(
                         <h3 class="mt-s h200 l10n">Duration: 20 min</h3>
                         <p class="mt-s p200 l10n">Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat.</p>
                         <div class="mt-xl flex-row" id="book-buttons">
-                            <a href="hudkonsultation" class="button b200 white l10n">Book a clinic visit</a>
-                            <a href="https://bokadirekt.se" class="button b200 white l10n">Book an online call</a>
+                            <a href="hudkonsultation" class="button b200 white l10n" title="Book a clinic visit">Book a clinic visit</a>
+                            <a href="https://bokadirekt.se" class="button b200 white l10n" title="Book an online call">Book an online call</a>
                         </div>
                     </div>
                 </div>
@@ -184,10 +184,10 @@ $categories = array(
                         </div>
                     </div>
                     <div class="mt-xl l10n">
-                        This is a treatment adapted for acne skin and <a>pimples</a> and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the <a>acne treatment</a>, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.
+                        This is a treatment adapted for acne skin and <a title="pimples">pimples</a> and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the <a title="acne treatment">acne treatment</a>, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.
                     </div>
                     <div class="mt-xl l10n">
-                        This is a treatment adapted for acne skin and <a>pimples</a> and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.
+                        This is a treatment adapted for acne skin and <a title="pimples">pimples</a> and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.
                     </div>
                 </section>
                 <section id="types" class="large-margin">
@@ -219,12 +219,12 @@ $categories = array(
                     $reviews_narrow = true;
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                     ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="https://se.trustpilot.com/review/acnespecialisten.se">View all reviews</a>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="View all reviews">View all reviews</a>
                 </section>
                 <section id="faq" class="large-margin">
                     <h2 class="big l10n">Questions & answers</h2>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="faq">View all questions</a>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" href="faq" title="View all questions">View all questions</a>
                 </section>
                 <section id="skin-guide" class="large-margin">
                     <div class="flex-row justify-space-between">
@@ -239,7 +239,7 @@ $categories = array(
                         </div>
                     </div>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide_narrow.php'); ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="skin-guide">View all articles</a>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" href="skin-guide" title="View all articles">View all articles</a>
                 </section>
                 <section id="specialists" class="large-margin">
                     <div class="flex-row justify-space-between">
@@ -256,7 +256,7 @@ $categories = array(
                     <?php
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php');
                     ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="specialister">View all specialists</a>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" href="specialister" title="View all specialists">View all specialists</a>
                 </section>
             </div>
             <section id="brands" class="large-margin">
@@ -268,7 +268,7 @@ $categories = array(
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                <a class="mt-xl button b200 outline expand auto-width is-hidden-desktop l10n" href="varumarken">View all brands</a>
+                <a class="mt-xl button b200 outline expand auto-width is-hidden-desktop l10n" href="varumarken" title="View all brands">View all brands</a>
             </section>
         </div>
     </main>

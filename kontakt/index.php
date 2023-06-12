@@ -71,21 +71,21 @@ $salons = array(
                             <strong class="l10n">Phone&nbsp;</strong>
                             <span>08 29 61 01</span>
                         </div>
-                        <a href="tel:08-29 61 01" class="button b200 outline expand l10n">Call us</a>
+                        <a href="tel:08-29 61 01" class="button b200 outline expand l10n" title="Call us">Call us</a>
                         <div class="p200">
                             <strong class="l10n">Email&nbsp;</strong>
                             <span>kund@acnespecialisten.se</span>
                         </div>
-                        <a href="mailto:kund@acnespecialisten.se" class="button b200 outline expand l10n">Send an email</a>
+                        <a href="mailto:kund@acnespecialisten.se" class="button b200 outline expand l10n" title="Send an email">Send an email</a>
                     </div>
                     <div class="is-hidden-touch flex-row mt-xl">
                         <div>
                             <strong class="h200 l10n">Phone&nbsp;</strong>
-                            <a class="h200 color-deep-sea-400" href="tel: 08 29 61 01">08 29 61 01</a>
+                            <a class="h200 color-deep-sea-400" href="tel: 08 29 61 01" title="08 29 61 01">08 29 61 01</a>
                         </div>
                         <div class="ml-xxl">
                             <strong class="h200 l10n">Email&nbsp;</strong>
-                            <a class="h200 color-deep-sea-400" href="mailto:kund@acnespecialisten.se">kund@acnespecialisten.se</a>
+                            <a class="h200 color-deep-sea-400" href="mailto:kund@acnespecialisten.se" title="kund@acnespecialisten.se">kund@acnespecialisten.se</a>
                         </div>
                     </div>
                 </section>
@@ -135,8 +135,8 @@ $salons = array(
                                 <div class="h400 l10n">Your message has been sent</div>
                                 <div class="p200 mt-xxs l10n">We will contact you as soon as possible.</div>
                             </div>
-                            <a href="kontakt" class="is-hidden-touch">Resend</a>
-                            <a href="kontakt" class="is-hidden-desktop button outline white expand mt-xl">Resend</a>
+                            <a href="kontakt" class="is-hidden-touch" title="Resend">Resend</a>
+                            <a href="kontakt" class="is-hidden-desktop button outline white expand mt-xl" title="Resend">Resend</a>
                         </div>
                     </section>
                 <?php } else {  ?>
@@ -296,7 +296,7 @@ $salons = array(
 
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se">View all reviews</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="View all reviews">View all reviews</a>
             </section>
             <section id="faq" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
@@ -307,7 +307,7 @@ $salons = array(
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="faq">View all questions</a>
+                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="faq" title="View all questions">View all questions</a>
             </section>
             <section id="skin-guide" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
@@ -318,7 +318,7 @@ $salons = array(
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="skin-guide">View all articles</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="skin-guide" title="View all articles">View all articles</a>
             </section>
             <section id="specialists" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
@@ -329,7 +329,7 @@ $salons = array(
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php'); ?>
-                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialister">View all specialists</a>
+                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialister" title="View all specialists">View all specialists</a>
             </section>
             <section id="brands" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
@@ -340,7 +340,7 @@ $salons = array(
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="varumarken">View all brands</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="varumarken" title="View all brands">View all brands</a>
             </section>
         </div>
     </main>

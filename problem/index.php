@@ -391,7 +391,7 @@ $problem_areas = array(
 
 <head>
       <!-- TODO: Set title and meta tags -->
-     <title>Behandling av Hudproblem | Acnespecialisten</title>
+      <title>Behandling av Hudproblem | Acnespecialisten</title>
       <meta name="description" content="På Acnespecialisten erbjuder vi effektiva behandlingar mot en rad olika hudproblem, inklusive akne, rosacea, torr hud, och mer. Kontakta oss idag för en konsultation och ta det första steget mot en friskare och mer strålande hud.">
       <meta name="title" content="Behandling av Hudproblem | Acnespecialisten">
       <meta name="keywords" content="hudproblem, aknebehandling, rosaceabehandling, torr hud, fet hud, oren hud, ärrbehandling, akneärr, hudspecialist, hudklinik, hudvårdsrutiner">
@@ -444,7 +444,7 @@ $problem_areas = array(
                               <div class="columns is-multiline" id="banner-problem-areas">
                                     <?php foreach ($problems as $id => $problem) { ?>
                                           <div class="column is-one-fifth is-hidden" data-id="<?php echo $id ?>">
-                                                <a href="<?php echo $problem->url ?>" title="<?php echo $problem->url_title ?>" class="button b200 grey expand l10n"><?php echo $problem->label ?></a>
+                                                <a href="<?php echo $problem->url ?>" title="<?php echo $problem->url_title ?>" class="button b200 grey expand l10n" title="<?php echo $problem->label ?>"><?php echo $problem->label ?></a>
                                           </div>
                                     <?php } ?>
                               </div>
@@ -461,23 +461,23 @@ $problem_areas = array(
                                                       <img src="<?php echo $problem->image ?>" alt="<?php echo $problem->image_alt ?>" title="<?php echo $problem->image_title ?>" width="424" height="324" />
                                                 </div>
                                                 <div class="problem-area-card-content">
-                                                      <h3><a href="<?php echo $problem->url ?>" title="<?php echo $problem->url_title ?>" class="h300"><?php echo $problem->label ?></a></h3>
+                                                      <h3><a href="<?php echo $problem->url ?>" title="<?php echo $problem->url_title ?>" class="h300" title="<?php echo $problem->label ?>"><?php echo $problem->label ?></a></h3>
                                                       <p class="mt-xs"><?php echo $problem->info ?></p>
                                                       <div class="is-hidden-tablet">
-                                                            <a href="<?php echo $problem->url ?>" title="<?php echo $problem->url_title ?>" class="mt-m button outline expand l10n">Läs mer</a>
+                                                            <a href="<?php echo $problem->url ?>" title="<?php echo $problem->url_title ?>" class="mt-m button outline expand l10n" title="Läs mer">Läs mer</a>
                                                             <hr>
-                                                            <a href="<?php echo $problem->consultation_url ?>" title="<?php echo $problem->consultation_url_title ?>" class="button expand l10n">Få gratis konsultation</a>
-                                                            <a href="<?php echo $problem->booking_url ?>" title="<?php echo $problem->booking_url_title ?>" class="mt-s button expand l10n">Se behandlingar</a>
+                                                            <a href="<?php echo $problem->consultation_url ?>" title="<?php echo $problem->consultation_url_title ?>" class="button expand l10n" title="Få gratis konsultation">Få gratis konsultation</a>
+                                                            <a href="<?php echo $problem->booking_url ?>" title="<?php echo $problem->booking_url_title ?>" class="mt-s button expand l10n" title="Se behandlingar">Se behandlingar</a>
                                                       </div>
                                                       <div class="is-hidden-mobile">
-                                                            <a href="<?php echo $problem->url ?>" title="<?php echo $problem->url_title ?>" class="mt-m button text compact l10n">Läs mer</a>
+                                                            <a href="<?php echo $problem->url ?>" title="<?php echo $problem->url_title ?>" class="mt-m button text compact l10n" title="Läs mer">Läs mer</a>
                                                             <hr>
                                                             <div class="columns is-multiline">
                                                                   <div class="column mt-xxs is-full is-half-widescreen">
-                                                                        <a href="<?php echo $problem->consultation_url ?>" title="<?php echo $problem->consultation_url_title ?>" class="button expand l10n">Få gratis konsultation</a>
+                                                                        <a href="<?php echo $problem->consultation_url ?>" title="<?php echo $problem->consultation_url_title ?>" class="button expand l10n" title="Få gratis konsultation">Få gratis konsultation</a>
                                                                   </div>
                                                                   <div class="column mt-xxs is-full is-half-widescreen">
-                                                                        <a href="<?php echo $problem->booking_url ?>" title="<?php echo $problem->booking_url_title ?>" class="button expand l10n">Se behandlingar</a>
+                                                                        <a href="<?php echo $problem->booking_url ?>" title="<?php echo $problem->booking_url_title ?>" class="button expand l10n" title="Se behandlingar">Se behandlingar</a>
                                                                   </div>
                                                             </div>
                                                       </div>
@@ -518,7 +518,7 @@ $problem_areas = array(
                               </div>
                         </div>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                        <a class="mt-xl button outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se">Läs fler omdömen</a>
+                        <a class="mt-xl button outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="Läs fler omdömen">Läs fler omdömen</a>
                   </div>
             </section>
             <section id="faq">
@@ -531,7 +531,7 @@ $problem_areas = array(
                               </a>
                         </div>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                        <a class="mt-xl button outline expand is-hidden-tablet l10n" href="faq">Läs fler frågor & svar</a>
+                        <a class="mt-xl button outline expand is-hidden-tablet l10n" href="faq" title="Läs fler frågor & svar">Läs fler frågor & svar</a>
                   </div>
             </section>
             <section id="skin-guide">
@@ -544,7 +544,7 @@ $problem_areas = array(
                               </a>
                         </div>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php'); ?>
-                        <a class="mt-xl button outline expand is-hidden-tablet l10n" href="skin-guide">Läs fler guider</a>
+                        <a class="mt-xl button outline expand is-hidden-tablet l10n" href="skin-guide" title="Läs fler guider">Läs fler guider</a>
                   </div>
             </section>
             <section id="specialists">
@@ -589,7 +589,7 @@ $problem_areas = array(
                         );
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
                         ?>
-                        <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialister">Se alla specialister</a>
+                        <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialister" title="Se alla specialister">Se alla specialister</a>
                   </div>
             </section>
             <section id="brands">
@@ -602,7 +602,7 @@ $problem_areas = array(
                               </a>
                         </div>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                        <a class="mt-xl button outline expand is-hidden-tablet l10n" href="varumarken">View all brands</a>
+                        <a class="mt-xl button outline expand is-hidden-tablet l10n" href="varumarken" title="View all brands">View all brands</a>
                   </div>
             </section>
       </main>

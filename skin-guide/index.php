@@ -185,7 +185,7 @@ $pages = sizeof($articles_per_page);
             <section id="categories-tablet" class="is-hidden-desktop">
                 <div id="category-links">
                     <?php foreach ($categories as $category) { ?>
-                        <a href="/skin-guide/<?php echo $category->id ?>" class="category-link"><?php echo $category->name ?></a>
+                        <a href="/skin-guide/<?php echo $category->id ?>" class="category-link" title="<?php echo $category->name ?>"><?php echo $category->name ?></a>
                     <?php } ?>
                 </div>
             </section>
@@ -193,7 +193,7 @@ $pages = sizeof($articles_per_page);
                 <div id="category-items-container">
                     <div id="category-items">
                         <?php foreach ($categories as $category) { ?>
-                            <a href="/skin-guide/<?php echo $category->id ?>" class="category-item"><?php echo $category->name ?></a>
+                            <a href="/skin-guide/<?php echo $category->id ?>" class="category-item" title="<?php echo $category->name ?>"><?php echo $category->name ?></a>
                         <?php } ?>
                     </div>
                     <div class="scroll-button is-hidden" id="scroll-button-previous">
@@ -222,7 +222,7 @@ $pages = sizeof($articles_per_page);
                     </div>
                     <div id="subcategory-items">
                         <?php foreach ($subcategories as $subcategory) { ?>
-                            <a id="sc-item-<?php echo $subcategory->id ?>" class="subcategory-item" href="skin-guide/<?php echo $subcategory->category_id ?>/<?php echo $subcategory->id ?>"><?php echo $subcategory->name ?></a>
+                            <a id="sc-item-<?php echo $subcategory->id ?>" class="subcategory-item" href="skin-guide/<?php echo $subcategory->category_id ?>/<?php echo $subcategory->id ?>" title="<?php echo $subcategory->name ?>"><?php echo $subcategory->name ?></a>
                         <?php } ?>
                     </div>
                 </div>
@@ -249,7 +249,7 @@ $pages = sizeof($articles_per_page);
                     <div class="p200 l10n" id="cta-banner-content">In a personal meeting with a skin specialist, your skin type is examined and identified.</div>
                 </div>
                 <div>
-                    <a href="<?php echo $consultation_url ?>" class="button white expand l10n">Get a free consultation</a>
+                    <a href="<?php echo $consultation_url ?>" class="button white expand l10n" title="Get a free consultation">Get a free consultation</a>
                 </div>
             </section>
             <section id="results" class="large-margin">
@@ -274,7 +274,7 @@ $pages = sizeof($articles_per_page);
                     </div>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se">View all reviews</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="View all reviews">View all reviews</a>
             </section>
             <section id="faq" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
@@ -285,7 +285,7 @@ $pages = sizeof($articles_per_page);
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="faq">View all questions</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="faq" title="View all questions">View all questions</a>
             </section>
             <section id="specialists" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
@@ -296,7 +296,7 @@ $pages = sizeof($articles_per_page);
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="specialister">View all specialists</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="specialister" title="View all specialists">View all specialists</a>
             </section>
             <section id="brands" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
@@ -307,7 +307,7 @@ $pages = sizeof($articles_per_page);
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="varumarken">View all brands</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="varumarken" title="View all brands">View all brands</a>
             </section>
         </div>
     </main>

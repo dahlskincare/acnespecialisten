@@ -15,9 +15,9 @@ $last_segment_index = count($path_segments) - 1;
     <div class="breadcrumbs-widget">
         <?php for ($i = 0; $i <= $last_segment_index; $i++) {
             if ($i < $last_segment_index) {
-                echo '<a href="' . $path_segments[$i]->url . '" class="segment">' . $path_segments[$i]->name . '</a><div class="separator"></div>';
+                echo '<a href="' . $path_segments[$i]->url . '" class="segment" title="' . $path_segments[$i]->name . '">' . $path_segments[$i]->name . '</a><div class="separator"></div>';
             } else {
-                echo '<a href="' . $path_segments[$i]->url . '" class="segment active">' . $path_segments[$i]->name . '</a>';
+                echo '<a href="' . $path_segments[$i]->url . '" class="segment active" title="' . $path_segments[$i]->name . '">' . $path_segments[$i]->name . '</a>';
             }
         } ?>
     </div>

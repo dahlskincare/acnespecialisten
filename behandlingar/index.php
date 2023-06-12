@@ -715,10 +715,10 @@ $service_categories = array(
                     <?php for ($i = 0; $i < count($service_categories); $i++) { ?>
                         <div class="item" id="item-<?php echo $i ?>">
                             <p>
-                                <a class="h200" href="behandlingar/<?php echo $service_categories[$i]->id ?>"><?php echo $service_categories[$i]->label ?></a>
+                                <a class="h200" href="behandlingar/<?php echo $service_categories[$i]->id ?>" title="<?php echo $service_categories[$i]->label ?>"><?php echo $service_categories[$i]->label ?></a>
                             </p>
                             <?php foreach ($service_categories[$i]->services as $service) { ?>
-                                <p class="p200 service-label"><a href="<?php echo $service->url ?>" title="<?php echo $service->url_title ?>"><?php echo $service->title ?></a></p>
+                                <p class="p200 service-label"><a href="<?php echo $service->url ?>" title="<?php echo $service->url_title ?>" title="<?php echo $service->title ?>"><?php echo $service->title ?></a></p>
                             <?php } ?>
                         </div>
                     <?php } ?>
@@ -767,7 +767,7 @@ $service_categories = array(
 
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se">View all reviews</a>
+                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="View all reviews">View all reviews</a>
             </div>
         </section>
         <section id="faq">
@@ -780,7 +780,7 @@ $service_categories = array(
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="faq">View all questions</a>
+                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="faq" title="View all questions">View all questions</a>
             </div>
         </section>
         <section id="skin-guide">
@@ -793,7 +793,7 @@ $service_categories = array(
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php'); ?>
-                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="skin-guide">View all articles</a>
+                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="skin-guide" title="View all articles">View all articles</a>
             </div>
         </section>
         <section id="specialists">
@@ -838,7 +838,7 @@ $service_categories = array(
                 );
                 include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
                 ?>
-                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialists">View all specialists</a>
+                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialists" title="View all specialists">View all specialists</a>
             </div>
         </section>
         <section id="brands">
@@ -851,7 +851,7 @@ $service_categories = array(
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="varumarken">View all brands</a>
+                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="varumarken" title="View all brands">View all brands</a>
             </div>
         </section>
     </main>

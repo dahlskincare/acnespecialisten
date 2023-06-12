@@ -7,8 +7,8 @@
         </picture>
         <div class="tiw-title"><?php echo $service_category->name ?></div>
         <div class="tiw-desc"><?php echo $service_category->description ?></div>
-        <a href="<?php echo $service_category->url ?>" class="button grey expand is-hidden-desktop"><?php echo $service_category->url_label ?></a>
-        <a href="<?php echo $service_category->url ?>" class="button text compact is-hidden-touch"><?php echo $service_category->url_label ?></a>
+        <a href="<?php echo $service_category->url ?>" class="button grey expand is-hidden-desktop" title="<?php echo $service_category->url_label ?>"><?php echo $service_category->url_label ?></a>
+        <a href="<?php echo $service_category->url ?>" class="button text compact is-hidden-touch" title="<?php echo $service_category->url_label ?>"><?php echo $service_category->url_label ?></a>
     </div>
     <div class="tiw-services">
         <?php foreach ($service_category->services_per_category as $category => $services) {

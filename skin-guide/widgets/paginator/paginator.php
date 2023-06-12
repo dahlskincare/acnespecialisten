@@ -39,11 +39,11 @@ $paginator_root = strtok($_SERVER['REQUEST_URI'], '?');
     <div class="steps">
         <?php foreach ($paginator_steps as $i) {
             if ($i == $page) {
-                echo '<a class="step active" href="' . $paginator_root . '?page=' . $i . '">' . $i . '</a>';
+                echo '<a class="step active" href="' . $paginator_root . '?page=' . $i . '" title="' . $i . '">' . $i . '</a>';
             } else if ($i == '...') {
                 echo '<div class="step">' . $i . '</div>';
             } else {
-                echo '<a class="step" href="' . $paginator_root . '?page=' . $i . '">' . $i . '</a>';
+                echo '<a class="step" href="' . $paginator_root . '?page=' . $i . '" title="' . $i . '">' . $i . '</a>';
             }
         } ?>
     </div>

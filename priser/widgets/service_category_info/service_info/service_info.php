@@ -18,7 +18,7 @@
                         </div>
                     </div>
                 </div>
-                <a href="<?php echo $service->booking_url ?>" class="button l10n">Book</a>
+                <a href="<?php echo $service->booking_url ?>" class="button l10n" title="Book">Book</a>
             </div>
             <?php if (isset($service->combo_items)) { ?>
                 <div class="tiw-combo-items">

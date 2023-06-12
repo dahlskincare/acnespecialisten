@@ -31,14 +31,14 @@
             <?php echo $service->content ?>
         </p>
         <?php if (isset($service->url)) { ?>
-            <a href="<?php echo $service->url ?>" title="<?php echo $service->url_title ?>" class="mt-m button outline expand"><?php echo $service->url_label ?></a>
+            <a href="<?php echo $service->url ?>" title="<?php echo $service->url_title ?>" class="mt-m button outline expand" title="<?php echo $service->url_label ?>"><?php echo $service->url_label ?></a>
         <?php } ?>
         <hr />
         <?php if (isset($service->consultation_url)) { ?>
-            <a href="<?php echo $service->consultation_url ?>" title="<?php echo $service->consultation_url_title ?>" class="mt-xl button expand"><?php echo $service->consultation_url_label ?></a>
+            <a href="<?php echo $service->consultation_url ?>" title="<?php echo $service->consultation_url_title ?>" class="mt-xl button expand" title="<?php echo $service->consultation_url_label ?>"><?php echo $service->consultation_url_label ?></a>
         <?php } ?>
         <?php if (isset($service->booking_url)) { ?>
-            <a href="<?php echo $service->booking_url ?>" title="<?php echo $service->booking_url_title ?>" class="mt-s button expand"><?php echo $service->booking_url_label ?></a>
+            <a href="<?php echo $service->booking_url ?>" title="<?php echo $service->booking_url_title ?>" class="mt-s button expand" title="<?php echo $service->booking_url_label ?>"><?php echo $service->booking_url_label ?></a>
         <?php } ?>
     </div>
     <div class="is-hidden-mobile">
@@ -71,15 +71,15 @@
                     <?php echo $service->content ?>
                 </p>
                 <?php if (isset($service->url)) { ?>
-                    <a href="<?php echo $service->url ?>" title="<?php echo $service->url_title ?>" class="mt-xs button b200 text compact"><?php echo $service->url_label ?></a>
+                    <a href="<?php echo $service->url ?>" title="<?php echo $service->url_title ?>" class="mt-xs button b200 text compact" title="<?php echo $service->url_label ?>"><?php echo $service->url_label ?></a>
                 <?php } ?>
             </div>
             <div class="ml-xl buttons">
                 <?php if (isset($service->consultation_url)) { ?>
-                    <a href="<?php echo $service->consultation_url ?>" title="<?php echo $service->consultation_url_title ?>" class="button expand"><?php echo $service->consultation_url_label ?></a>
+                    <a href="<?php echo $service->consultation_url ?>" title="<?php echo $service->consultation_url_title ?>" class="button expand" title="<?php echo $service->consultation_url_label ?>"><?php echo $service->consultation_url_label ?></a>
                 <?php } ?>
                 <?php if (isset($service->booking_url)) { ?>
-                    <a href="<?php echo $service->booking_url ?>" title="<?php echo $service_booking_url_title ?>" class="mt-s button expand"><?php echo $service->booking_url_label ?></a>
+                    <a href="<?php echo $service->booking_url ?>" title="<?php echo $service_booking_url_title ?>" class="mt-s button expand" title="<?php echo $service->booking_url_label ?>"><?php echo $service->booking_url_label ?></a>
                 <?php } ?>
             </div>
         </div>

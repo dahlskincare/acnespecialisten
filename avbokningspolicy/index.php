@@ -37,8 +37,8 @@
                 <section id="alert-banner">
                     <div id="alert-text" class="l10n">Don't forget to cancel at least 24 hours before the treatment.</div>
                     <!-- TOOD: set link -->
-                    <a href="#" class="is-hidden-touch l10n">Cancel my appointment</a>
-                    <a href="#" class="is-hidden-desktop button outline expand l10n">Cancel my appointment</a>
+                    <a href="#" title="Cancel" class="is-hidden-touch l10n">Cancel my appointment</a>
+                    <a href="#" title="Cancel" class="is-hidden-desktop button outline expand l10n">Cancel my appointment</a>
                 </section>
                 <section id="questions">
                     <?php
@@ -68,7 +68,7 @@
                                 <?php icon('arrow-right') ?>
                             </button>
                         </div>
-                        <a href="https://se.trustpilot.com/review/acnespecialisten.se" class="ml-l button compact text">
+                        <a href="https://se.trustpilot.com/review/acnespecialisten.se" title="Omdömen" class="ml-l button compact text">
                             <span class="l10n">View all reviews</span>
                             <?php icon('navigate-next') ?>
                         </a>
@@ -76,7 +76,7 @@
 
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se">View all reviews</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="View all reviews">View all reviews</a>
             </section>
             <section id="faq" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
@@ -90,7 +90,7 @@
                 $faq_categories = null;
                 include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php');
                 ?>
-                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="faq">View all questions</a>
+                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="faq" title="View all questions">View all questions</a>
             </section>
             <section id="skin-guide" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
@@ -101,7 +101,7 @@
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="skin-guide">View all articles</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="skin-guide" title="View all articles">View all articles</a>
             </section>
             <section id="specialists" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
@@ -112,7 +112,7 @@
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php'); ?>
-                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialists">View all specialists</a>
+                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialists" title="View all specialists">View all specialists</a>
             </section>
             <section id="brands" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
@@ -123,7 +123,7 @@
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="varumarken">View all brands</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="varumarken" title="View all brands">View all brands</a>
             </section>
         </div>
     </main>

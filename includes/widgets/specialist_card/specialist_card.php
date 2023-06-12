@@ -26,6 +26,6 @@
             <strong><?php echo $specialist->since_year ?></strong>
         </div>
         <div class="specialist-card-description"><?php echo $specialist->description ?></div>
-        <a href="" class="button outline expand l10n">Book an appointment</a>
+        <a href="" class="button outline expand l10n" title="Book an appointment">Book an appointment</a>
     </div>
 </div>
