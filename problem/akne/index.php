@@ -5,11 +5,11 @@ include_once('../widgets/symptom-card/symptom.php');
 include_once('../widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title='blah blah';
-$seo_description='blahblah';
-$seo_keywords='akne, bajs';
+$seo_title = 'blah blah';
+$seo_description = 'blahblah';
+$seo_keywords = 'akne, bajs';
 
-$title='Akne';
+$title = 'Akne';
 
 $image_small = 'images/problems/424x324/akne.webp';
 $image_large = 'images/problems/424x456/akne.webp';
@@ -37,16 +37,14 @@ $nav_buttons = array(
       'related-problems' => 'Relaterade problem',
 );
 
-$about_title ='Om akne';
+$about_title = 'Om akne';
 
 $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
             title: 'är akne?',
             content: '<p class="p200">Akne är en ärftlig och hormonell hudförändring som uppstår när talgproduktionen i hudens porer ökar. Huden behöver en viss mängd talg för att hålla sig mjuk och smidig, men vid överproduktion har huden svårt att avlägsna hudrester, vilket leder till bakterier och små inflammationer. Dessa inflammationer orsakar akne, eller finnar som vi ofta säger i dagligt tal. Akne är en inflammation i huden som uppstår när porerna täpps till av talg, döda hudceller och bakterier.</p>',
-
-            extended_content: '<p class="p200 mt-xl">Både barn och vuxna kan drabbas av akne, men det är vanligast under tonåren. Vissa har besvär med akne under längre perioder, medan andra endast vid enstaka tillfällen. Akne kan se ut på många olika sätt, från små knottror på huden till variga större utslag. Det viktiga att komma ihåg är att akne kan behandlas. Ibland krävs behandling under en längre tidsperiod, men med rätt behandling kan både bestående ärrbildning och psykiskt lidande undvikas eller lindras.</p>
-         
+            extended_content: '<p class="p200 mt-xl">Både barn och vuxna kan drabbas av akne, men det är vanligast under tonåren. Vissa har besvär med akne under längre perioder, medan andra endast vid enstaka tillfällen. Akne kan se ut på många olika sätt, från små knottror på huden till variga större utslag. Det viktiga att komma ihåg är att akne kan behandlas. Ibland krävs behandling under en längre tidsperiod, men med rätt behandling kan både bestående ärrbildning och psykiskt lidande undvikas eller lindras.</p>         
             <p class="p200 mt-xl">På Acnespecialisten kan du få hjälp med din akne. Vi har kunskap och erfarenhet av olika typer av behandlingar som ger goda resultat och många nöjda kunder. Vi börjar alltid med en kostnadsfri hudkonsultation där vi identifierar problemet och planerar den mest lämpliga behandlingen för dig och din hy. Du får även en effektiv hudvårdsrutin som du enkelt kan följa hemma. Vi rekommenderar att du tar hand om din allmänna hälsa: sov ordentligt, ät hälsosamt och motionera regelbundet. När du mår bra i sin helhet påverkar det din hud positivt.</p>',
             icons: array()
       ),
@@ -54,9 +52,7 @@ $trivias = array(
             prefix: 'Varför',
             title: 'får man akne?',
             content: '<p class="p200">Akne är en hudåkomma som beror på en kombination av genetiska, hormonella och miljömässiga faktorer. En normal talgproduktion är nödvändig för att huden ska må bra, men när huden överproducerar talg kan detta leda till akne. Detta beror bland annat på anlag man har ärvt från sina föräldrar. Vid en överproduktion av talg klarar porerna inte av att ta hand om överflödet, och tillsammans med hudrester täpps pormynningarna till, vilket leder till att bakterier samlas. Kroppen försvarar sig då med en inflammation, och det är just detta som syns på huden i form av akne.</p>',
-
             extended_content: '<p class="p200 mt-xl">Hormoner får porerna i huden att överproducera talg. Det är vanligt att drabbas av akne under puberteten, när kroppen genomgår stora förändringar, men även små barn och vuxna kan få akne. Flera faktorer kan orsaka och försämra akne, såsom stress, vissa läkemedel, varma och fuktiga miljöer samt hormonförändringar vid graviditet, menstruation och klimakteriet. Även anabola steroider och p-piller kan orsaka akne. Stress påverkar ofta huden mer än vi kanske tror, och både stora och små händelser i livet kan öka kroppens stressnivå och orsaka hudförändringar i form av hormonell akne.</p>
-         
             <p class="p200 mt-xl">För att behandla akne är det viktigt att balansera kroppens talgproduktion med rätt hudvårdsprodukter och hållbara hudvårdsrutiner. Successivt kan aknen antingen bli mycket bättre eller helt försvinna. Vi som arbetar på Acnespecialisten har lång erfarenhet och stor kunskap av aknebehandlingar och kan hjälpa dig att hålla kroppens naturliga produktion av talg på en optimal nivå och på så sätt reducera dina besvär med akne.</p>',
             icons: array('who-infants' => 'Hormoner', 'who-teenagers' => 'Stress', 'who-adults' => 'Genetik', 'who-elders' => 'Livsstil')
       ),
@@ -64,9 +60,7 @@ $trivias = array(
             prefix: 'Vem',
             title: 'får akne?',
             content: '<p class="p200">Akne är vanligast bland tonåringar och unga vuxna, men det kan drabba människor i alla åldrar, oavsett kön och hudtyp. I puberteten ökar produktionen av könshormoner, vilket kan leda till akne vulgaris, även kallad tonårsakne. Denna form av akne kan variera från enstaka finnar till större besvär, med små gula eller röda utslag, stora knölar och smärtsamma blåsor. Eftersom akne oftast uppträder i ansiktet under en känslig period som tonåren, kan det påverka det mentala måendet och det är viktigt att behandla akne effektivt för att undvika ärrbildning och andra skador på huden.</p>',
-
             extended_content: '<p class="p200 mt-xl">Akne drabbar inte bara tonåringar. Spädbarn och småbarn kan drabbas av lindriga former av akne, såsom akne neonatorum och akne infantum. Vuxenakne, kallad akne tarda, kan också uppstå om huden överproducerar talg. Kvinnor drabbas oftare av vuxenakne än män, eftersom de påverkas mer av hormonsvängningar under graviditet, mens och klimakteriet. Preventivmedel kan också påverka huden, men hur de påverkar varierar från individ till individ.</p>
-
             <p class="p200 mt-xl">Yttre faktorer som stress och alkohol kan också påverka akne, både hos tonåringar och vuxna. Akne kan uppstå i ansiktet, på bröstet, axlarna och ryggen. För att behandla akne rekommenderas att boka en kostnadsfri hudkonsultation hos Acnespecialisten. Där görs en bedömning av din hud och du får förslag på behandlingar samt en personlig hudvårdsrutin anpassad efter din hudtyp. Detta hjälper dig att motverka ytterligare problem med akne, både i ansiktet och på andra delar av kroppen.</p>',
             icons: array('who-infants' => 'Barn', 'who-teenagers' => 'Ungdommar', 'who-adults' => 'Vuxna', 'who-elders' => 'Män & Kvinnor')
       ),
@@ -74,9 +68,7 @@ $trivias = array(
             prefix: 'Var',
             title: 'får man akne?',
             content: '<p class="p200">Akne kan uppstå på flera delar av kroppen och påverka personer i olika åldrar och med olika hudtyper. Vanligast är att akne drabbar ansiktet, men det kan även förekomma på andra områden som bröstet, axlarna och ryggen. Placeringen av akne beror på var talgkörtlarna är aktiva och därmed kan överproducera talg, vilket leder till tilltäppta porer och inflammationer i huden.</p>',
-
             extended_content: '<p class="p200 mt-xl">Akne i ansiktet är särskilt påtagligt, eftersom det är svårt att dölja och ofta påverkar en persons självkänsla och mentala välbefinnande. Det är vanligt att tonåringar drabbas av ansiktsakne under puberteten, då hormonella förändringar kan leda till ökad talgproduktion. Även vuxna kan drabbas av ansiktsakne, särskilt kvinnor som genomgår hormonella förändringar under graviditet, mens och klimakteriet.</p>
-
             <p class="p200 mt-xl">Akne på bröstet, axlarna och ryggen är också vanligt och kan vara lika besvärande som ansiktsakne, även om det är lättare att dölja under kläder. Denna typ av akne kan orsakas av samma faktorer som ansiktsakne, men även av yttre faktorer som friktion från kläder eller väskor som gnider mot huden och skapar irritation.
                   För att behandla och förebygga akne oavsett var på kroppen det uppstår, är det viktigt att följa en anpassad hudvårdsrutin, inklusive rengöring, återfuktning och eventuellt användning av aknebehandlingar som passar din hudtyp. Konsultera hos en av våra hudspecialister för att få råd om vilka produkter och behandlingar som är bäst lämpade för din specifika situation och för att minimera akneproblem på olika delar av kroppen.</p>',
             icons: array('who-infants' => 'Ansiktet', 'who-teenagers' => 'Ryggen', 'who-adults' => 'Bröstet', 'who-elders' => 'Axlarna')
@@ -278,6 +270,9 @@ $type_categories = array(
 $types_url = '<a href="typer" title="Om aknetyper" class="mt-xl button b200 outline expand l10n is-hidden-tablet">Läs mer om aknetyper</a>
               <a href="typer" title="Om aknetyper" class="mt-xl button b200 outline l10n is-hidden-mobile">Läs mer om aknetyper</a>';
 
+$symptoms_title = 'Akne symptom';
+
+
 $symptoms = array(
       new Symptom(
             name: 'Komedoner (Öppna)',
@@ -331,9 +326,7 @@ $symptoms = array(
 
 );
 
-$symptoms_title = 'Akne symptom';
-
-$headline01 ="01. Identifiera din akne";
+$headline01 = "01. Identifiera din akne";
 
 $service = new Service(
       id: 'akne',
@@ -354,7 +347,7 @@ $service = new Service(
 
 );
 
-$headline02 ="02. Behandla aktiv akne";
+$headline02 = "02. Behandla aktiv akne";
 
 $services = array(
       new Service(
@@ -410,7 +403,7 @@ $services = array(
       ),
 );
 
-$headline03 ="03. Förebygg uppkomsten av ny akne";
+$headline03 = "03. Förebygg uppkomsten av ny akne";
 
 $products = array(
       new Service(
@@ -432,7 +425,7 @@ $products = array(
       )
 );
 
-$headline04 ="04. Reparera post-akne";
+$headline04 = "04. Reparera post-akne";
 
 $procedures = array(
       new Service(
@@ -485,7 +478,7 @@ $results = array(
             problem: 'Akne',
             type: 'Severe',
             treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne"">behandlingar mot akne</a>',
+                  duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne"">behandlingar mot akne</a>',
             )
       ),
       new ResultCustomer(
@@ -499,7 +492,7 @@ $results = array(
             problem: 'Akne',
             type: 'Severe',
             treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne">behandlingar mot akne</a>',
+                  duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne">behandlingar mot akne</a>',
             )
       ),
 );
@@ -766,17 +759,17 @@ $brands = array(
 <html lang="<?php echo $lang ?>">
 
 <head>
-      <title><?php echo $seo_title?></title>
-      <meta name="description" content="<?php echo $seo_description?>">
-      <meta name="keywords" content="<?php echo $seo_keywords?>">
+      <title><?php echo $seo_title ?></title>
+      <meta name="description" content="<?php echo $seo_description ?>">
+      <meta name="keywords" content="<?php echo $seo_keywords ?>">
 
       <!-- Optional: Set canonical version of this page (https://support.google.com/webmasters/answer/10347851) -->
-      <meta property="og:title" content="<?php echo $seo_title?>" />
-      <meta property="og:description" content="<?php echo $seo_description?>" />
-      <meta property="og:image" content="<?php echo $image_large?>" />
-      <meta property="twitter:title" content="<?php echo $seo_title?>" />
-      <meta property="twitter:description" content="<?php echo $seo_description?>" />
-      <meta property="twitter:image" content="<?php echo $image_large?>" />
+      <meta property="og:title" content="<?php echo $seo_title ?>" />
+      <meta property="og:description" content="<?php echo $seo_description ?>" />
+      <meta property="og:image" content="<?php echo $image_large ?>" />
+      <meta property="twitter:title" content="<?php echo $seo_title ?>" />
+      <meta property="twitter:description" content="<?php echo $seo_description ?>" />
+      <meta property="twitter:image" content="<?php echo $image_large ?>" />
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="stylesheet" href="/styles/default-layout.css">
       <link rel="stylesheet" href="problem/problem.css">
@@ -791,7 +784,7 @@ $brands = array(
                         <div id="overlay">
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
                               <div>
-                                    <h2 class="h600"><?php echo $title?></h2>
+                                    <h2 class="h600"><?php echo $title ?></h2>
                                     <div class="mt-m aka">
                                           <span class="p200 l10n">Även kallat</span>
                                           <?php
@@ -866,7 +859,7 @@ $brands = array(
                                     </div>
                               </div>
                               <div id="green-header-large-text" class="mt-xxs">
-                                    <h1 class="h600"><?php echo $title?></h1>
+                                    <h1 class="h600"><?php echo $title ?></h1>
                                     <div class="mt-s">
                                           <span class="h200 l10n">Även känt som:</span>
                                           <?php
@@ -926,8 +919,8 @@ $brands = array(
                                     } ?>
                               </div>
                               <hr class="mt-xl3 is-hidden-mobile">
-                             <?php echo $treatment_link ?>
-                              
+                              <?php echo $treatment_link ?>
+
                         </section>
                         <?php if (sizeof($type_categories) > 0) { ?>
                               <section id="types">
@@ -967,12 +960,12 @@ $brands = array(
                                                 </div>
                                           <?php } ?>
                                     </div>
-                                    <?php echo $types_url?>
-                              </section> 
+                                    <?php echo $types_url ?>
+                              </section>
                         <?php } ?>
                         <?php if (sizeof($symptoms) > 0) { ?>
                               <section id="symptoms">
-                                    <h2 class="h500"><?php echo $symptons_title?></h2>
+                                    <h2 class="h500"><?php echo $symptoms_title ?></h2>
                                     <div class="mt-m is-hidden-tablet" id="symptom-buttons">
                                           <?php foreach ($symptoms as $symptom) { ?>
                                                 <a href="javascript:;" class="button b50 grey">

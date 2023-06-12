@@ -17,15 +17,18 @@
     <div class="p200 mt-m">
         <?php echo $trivia->content ?>
     </div>
-    <button class="mt-m text b200 compact is-hidden-mobile" onclick="showExtendedContent(this)">
+    <button class="mt-m text b200 compact is-hidden-mobile show-button" onclick="showExtendedContent(this)">
         <span class="l10n">Läs mer</span>
         <?php icon('arrow-down') ?>
     </button>
-    <button class="mt-m grey b100 expand is-hidden-tablet" onclick="showExtendedContent(this)">
+    <button class="mt-m grey b100 expand is-hidden-tablet show-button" onclick="showExtendedContent(this)">
         <span class="l10n">Läs mer</span>
         <?php icon('arrow-down') ?>
     </button>
     <div class="p200 mt-m is-hidden" id="extended-content">
         <?php echo $trivia->extended_content ?>
+        <button class="mt-m text b200 compact is-hidden-mobile l10n" onclick="hideExtendedContent(this)">Minimera
+        </button>
+        <button class="mt-m grey b100 expand is-hidden-tablet l10n" onclick="hideExtendedContent(this)">Minimera</button>
     </div>
 </div>
