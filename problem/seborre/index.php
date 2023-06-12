@@ -91,32 +91,70 @@ $treatment_steps = array(
 );
 $symptoms = array(
       new Symptom(
-            url: '',
-            name: 'Flagnande hy',
-            aka: '',
-            image: 'images/symptoms/102x102/komedoner-stangda.webp',
-            content: 'Det främsta symptomen på seborré är flagnande hud, vilket innebär att det finns små skikt eller flingor av döda hudceller som lossnar från huden. Detta beror på en överproduktion av hudens naturliga oljor (talg), som stör hudens normala avstötningsprocess och orsakar en snabbare cellomsättning.'
-      ),
-      new Symptom(
-            url: '',
-            name: 'Mjäll',
-            aka: '',
-            image: 'images/symptoms/102x102/komedoner-stangda.webp',
-            content: 'Mjäll är vita till gula, små flagor av döda hudceller som lossnar från huden, specifikt från områden med hårväxt såsom ögonbryn, skäggväxt och hårbotten. Detta är en typ av flagnande som är vanligt i seborré och är oftast mer uttalad än normalt flagnande.'
-      ),
-      new Symptom(
-            url: '',
-            name: 'Klåda',
-            aka: '',
+            name: 'Komedoner (Öppna)',
             image: 'images/symptoms/102x102/komedoner-oppna.webp',
-            content: 'Seborré kan ofta leda till klåda, särskilt i de områden där det finns en överproduktion av talg. Klådan beror på hudirritation som orsakas av en kombination av överflödig olja och en snabbare hudcellsturnover.'
+            content: 'Pormaskar (öppna komedoner) är små, mörka prickar som uppstår när en por täpps igen av talg (hudens naturliga olja) och döda hudceller. De är ofta svarta eller bruna på grund av oxidation, som inträffar när melanin (hudens pigment) kommer i kontakt med luft. Pormaskar kan vara platta eller lätt upphöjda och är vanligt förekommande på näsan, kinderna, pannan och hakan.',
+            url: 'problem/akne/typer/post-inflammatory-hyperpigmentaion',
+            url_title: 'Läs mer',
+            url_label: 'Läs mer',
+            aka: 'Även kallat pormaskar',
+            image_alt: 'Komedoner (Öppna)',
+            image_title: 'Komedoner'
       ),
       new Symptom(
-            url: '',
-            name: 'Fet hy',
-            aka: '',
+            name: 'Komedoner (Stängda)',
             image: 'images/symptoms/102x102/komedoner-stangda.webp',
-            content: 'Fet hy är ett av de mest utmärkande tecknen på seborré. Detta beror på en överproduktion av talg, vilket gör huden glänsande och oljig, särskilt i områdena kring näsan, pannan och hårbotten.'
+            content: 'Whiteheads (slutna komedoner) är små, vita eller hudfärgade utbuktningar som uppstår när en por täpps till av talg och döda hudceller under hudytan. De är täckta av ett tunt lager hud, vilket förhindrar oxidation och därmed behåller sin ljusa färg. Whiteheads kan vara platta eller lätt upphöjda och är vanligt förekommande på pannan, kinderna och hakan.',
+            url: 'problem/akne/typer/atrophic-icepick-scars',
+            url_title: 'Läs mer',
+            url_label: 'Läs mer',
+            aka: '"whiteheads"',
+            image_alt: 'Komedoner (Stängda)',
+            image_title: 'Även kallat komedoner'
+      ),
+      new Symptom(
+            name: 'Papler',
+            image: 'images/symptoms/102x102/papler.webp',
+            content: 'Papuler är små, fasta, röda och inflammerade blemmor som uppstår när en hårsäck blir infekterad av bakterier, oftast Propionibacterium acnes. De är vanligtvis mindre än 5 mm i diameter och kan vara känsliga vid beröring. Papuler är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.',
+            url: 'problem/akne/typer/atrophic-boxcar-scars',
+            url_title: 'Läs mer',
+            url_label: 'Läs mer',
+            aka: 'Även kallat röda finnar',
+            image_alt: 'Papler',
+            image_title: 'Papler'
+      ),
+      new Symptom(
+            name: 'Pustler',
+            image: 'images/symptoms/102x102/pustler.webp',
+            content: 'Pustuler är röda och inflammerade blemmor som innehåller var (en blandning av döda bakterier, vita blodkroppar och döda hudceller). De ser ut som papuler men har en vit eller gul prick i mitten. Pustuler kan vara smärtsamma och är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.',
+            url: 'problem/akne/typer/atrophic-rolling-scars',
+            url_title: 'Läs mer',
+            url_label: 'Läs mer',
+            aka: 'Även kallat gula finnar',
+            image_alt: 'Pustler',
+            image_title: 'Pustler'
+      ),
+      new Symptom(
+            name: 'Noduler',
+            image: 'images/symptoms/102x102/noduler.webp',
+            content: 'Noduler är större, djupare och ofta smärtsamma inflammerade blemmor som uppstår när en hårsäck blir kraftigt infekterad och inflammationen sprider sig till det omgivande vävnaden. De är vanligtvis större än 5 mm i diameter och kan vara fasta och ömma vid beröring. Noduler är vanligt förekommande på ansiktet, nacken, bröstet, ryggen och ibland även på överarmarna och skinkorna.',
+            url: 'problem/akne/typer/hypertrophic-keloid',
+            url_title: 'Läs mer',
+            url_label: 'Läs mer',
+            aka: 'Även kallat innåtfinnar',
+            image_alt: 'Noduler',
+            image_title: 'Noduler'
+      ),
+      new Symptom(
+            name: 'Cystor',
+            image: 'images/symptoms/102x102/cystor.webp',
+            content: 'Cystor är stora, inflammerade och smärtsamma blemmor som är fyllda med var och bildas när en hårsäck blir mycket infekterad och inflammationen sprider sig djupt in i huden. De kan vara runda och mjuka eller fasta och ömma vid beröring. Cystor kan vara större än 5 mm i diameter och är vanligt förekommande på ansiktet, nacken, bröstet och ryggen. Cystisk akne kan leda till ärrbildning och kräver ofta professionell behandling.',
+            url: 'problem/akne/typer/hypertrophic-keloid',
+            url_title: 'Läs mer',
+            url_label: 'Läs mer',
+            aka: 'Även kallat bölder',
+            image_alt: 'Cystor',
+            image_title: 'Cystor'
       ),
 );
 $service = new Service(
