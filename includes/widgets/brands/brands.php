@@ -7,7 +7,7 @@ if (!isset($brands)) {
       image_alt: 'Powerlite',
       image_title: 'Powerlite',
       url: '/varumarken/powerlite',
-      url_title: 'Powerlite',
+      url_title: 'Läs mer om Powerlite',
     ),
     new Brand(
       label: 'Dermapen4',
@@ -15,7 +15,7 @@ if (!isset($brands)) {
       image_alt: 'Dermapen4',
       image_title: 'Dermapen4',
       url: '/varumarken/dermapen4',
-      url_title: 'Dermapen4',
+      url_title: 'Läs mer om Dermapen4',
     ),
     new Brand(
       label: 'Cryopen',
@@ -23,7 +23,7 @@ if (!isset($brands)) {
       image_alt: 'Cryopen',
       image_title: 'Cryopen',
       url: '/varumarken/cryopen',
-      url_title: 'Cryopen',
+      url_title: 'Läs mer om Cryopen',
     ),
     new Brand(
       label: 'Lumenis',
@@ -31,7 +31,7 @@ if (!isset($brands)) {
       image_alt: 'Lumenis',
       image_title: 'Lumenis',
       url: '/varumarken/lumenis',
-      url_title: 'Lumenis',
+      url_title: 'Läs mer om Lumenis',
     ),
     new Brand(
       label: 'Alma',
@@ -39,7 +39,7 @@ if (!isset($brands)) {
       image_alt: 'Alma',
       image_title: 'Alma',
       url: '/varumarken/alma',
-      url_title: 'Alma',
+      url_title: 'Läs mer om Alma',
     ),
     new Brand(
       label: 'PRXT',
@@ -47,7 +47,7 @@ if (!isset($brands)) {
       image_alt: 'PRXT',
       image_title: 'PRXT',
       url: '/varumarken/prxt',
-      url_title: 'PRXT',
+      url_title: 'Läs mer om PRXT',
     ),
     new Brand(
       label: 'Hydrafacial',
@@ -55,7 +55,7 @@ if (!isset($brands)) {
       image_alt: 'Hydrafacial',
       image_title: 'Hydrafacial',
       url: '/varumarken/hydrafacial',
-      url_title: 'Hydrafacial',
+      url_title: 'Läs mer om Hydrafacial',
     ),
     new Brand(
       label: 'IP infusion',
@@ -63,7 +63,7 @@ if (!isset($brands)) {
       image_alt: 'IP infusion',
       image_title: 'IP infusion',
       url: '/varumarken/ip-infusion',
-      url_title: 'IP infusion',
+      url_title: 'Läs mer om IP infusion',
     ),
   );
 }
@@ -72,9 +72,9 @@ if (!isset($brands)) {
 <div class="brands-widget">
   <div class="flex-container">
     <?php foreach ($brands as $brand) { ?>
-      <div class="flex-item flex-item-bottom-right">
+      <a href="<?php echo $brand->url ?>" title="<?php echo $brand->url_title ?>" class="flex-item">
         <img src="<?php echo $brand->image ?>" alt="<?php echo $brand->image_alt ?>" title="<?php echo $brand->image_title ?>" width="116" height="30" />
-      </div>
+      </a>
     <?php } ?>
   </div>
   <div>
