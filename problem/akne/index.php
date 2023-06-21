@@ -515,22 +515,22 @@ $services = array(
 $headline03 = "03. Förebygg uppkomsten av ny akne";
 
 $products = array(
-      new Service(
-            id: 'produkter-mot-akne',
-            title: 'Produkter mot akne',
-            duration: null,
-            price: 'Price from 995 kr',
-            content: 'För att effektivt bekämpa och förebygga akne är daglig behandling med rätt produkter avgörande. Våra akneprodukter är speciellt utformade för att hålla din hud i balans och förhindra att ny akne uppstår.',
-            image_small: 'images/services/200x200/produkter-akne.webp',
-            image_large: 'images/services/200x200/produkter-akne.webp',
-            image_alt: 'Produkter mot akne',
-            image_title: 'Produkter mot akne',
-            consultation_url: null,
-            consultation_url_label: null,
-            consultation_url_title: null,
-            booking_url: null,
-            booking_url_label: null,
-            booking_url_title: null
+new Service(
+      id: 'produkter-mot-akne',
+      title: 'Produkter mot akne',
+      duration: null,
+      price: 'Pris från 1495 kr',
+      content: 'För att effektivt bekämpa och förebygga akne är daglig behandling med rätt produkter avgörande. Våra akneprodukter är speciellt utformade för att hålla din hud i balans och förhindra att ny akne uppstår.',
+      image_small: 'images/services/200x200/produkter-akne.webp',
+      image_large: 'images/services/200x200/produkter-akne.webp',
+      image_alt: 'Bild av produkter designade för behandling av akne',
+      image_title: 'Effektiva produkter för bekämpning och förebyggande av akne',
+      consultation_url: null,
+      consultation_url_label: null,
+      consultation_url_title: null,
+      booking_url: null,
+      booking_url_label: null,
+      booking_url_title: null
       )
 );
 
