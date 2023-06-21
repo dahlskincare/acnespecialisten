@@ -489,15 +489,15 @@ $services = array(
             booking_url_label: 'Boka tid för kemisk peeling mot akne',
             booking_url_title: 'Klicka för att boka tid för en kemisk peeling mot akne behandling'
             ),
-      
+
          new Service(
             id: 'microneedling',
             title: 'Microneedling mot akne',
-            duration: '30 min',
-            price: '1595 kr',
+            duration: '50 min',
+            price: '2595 kr',
             content: 'Microneedling är en innovativ behandlingsmetod för akne. Detta utförs genom att skapa små mikroskopiska kanaler i huden vilket främjar hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. Denna behandling kan effektivt minska utbrott av akne, förbättra hudens struktur och minska synligheten av akneärr. Microneedling är en säker och effektiv strategi för att ta kontroll över din akne och förbättra din hudhälsa.',
-            image_small: 'images/services/200x200/microneedling-akne.webp',
-            image_large: 'images/services/200x200/microneedling-akne.webp',
+            image_small: 'images/services/200x200/kemisk-peeling-akne.webp',
+            image_large: 'images/services/200x200/kemisk-peeling-akne.webp',            
             image_alt: 'Bild av microneedling mot akne',
             image_title: 'Microneedling mot akne behandling',
             consultation_url: 'hudkonsultation',
