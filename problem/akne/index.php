@@ -432,8 +432,8 @@ $service = new Service(
       booking_url: null,
       booking_url_label: null,
       booking_url_title: null,
-      url: 'konsultation',
-      url_label: 'Läs mer om kostnadsfri konsultation',
+      url: 'hudkonsultation',
+      url_label: 'Läs mer om hudkonsultatio',
       url_title: 'Klicka här för att läsa mer om gratis hudkonsultation'
 
 );
