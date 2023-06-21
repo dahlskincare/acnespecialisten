@@ -347,70 +347,70 @@ $symptoms_title = 'Akne symptom';
 
 $symptoms = array(
       new Symptom(
-            name: 'Komedoner (Öppna)',
+            name: 'Öppna komedoner',
             image: 'images/symptoms/102x102/komedoner-oppna.webp',
             content: 'Pormaskar (öppna komedoner) är små, mörka prickar som uppstår när en por täpps igen av talg (hudens naturliga olja) och döda hudceller. De är ofta svarta eller bruna på grund av oxidation, som inträffar när melanin (hudens pigment) kommer i kontakt med luft. Pormaskar kan vara platta eller lätt upphöjda och är vanligt förekommande på näsan, kinderna, pannan och hakan.',
             url: 'problem/akne/typer/post-inflammatory-hyperpigmentaion',
-            url_title: 'Läs mer',
-            url_label: 'Läs mer',
-            aka: 'Även kallat pormaskar',
-            image_alt: 'Komedoner (Öppna)',
-            image_title: 'Komedoner'
+            url_title: 'Läs mer om öppna komedoner (pormaskar)',
+            url_label: 'Läs mer om öppna komedoner',
+            aka: 'Kända som pormaskar',
+            image_alt: 'Bild av öppna komedoner (pormaskar)',
+            image_title: 'Öppna komedoner (pormaskar)'
       ),
       new Symptom(
-            name: 'Komedoner (Stängda)',
+            name: 'Stängda komedoner',
             image: 'images/symptoms/102x102/komedoner-stangda.webp',
             content: 'Whiteheads (slutna komedoner) är små, vita eller hudfärgade utbuktningar som uppstår när en por täpps till av talg och döda hudceller under hudytan. De är täckta av ett tunt lager hud, vilket förhindrar oxidation och därmed behåller sin ljusa färg. Whiteheads kan vara platta eller lätt upphöjda och är vanligt förekommande på pannan, kinderna och hakan.',
             url: 'problem/akne/typer/atrophic-icepick-scars',
-            url_title: 'Läs mer',
-            url_label: 'Läs mer',
-            aka: '"whiteheads"',
-            image_alt: 'Komedoner (Stängda)',
-            image_title: 'Även kallat komedoner'
+            url_title: 'Läs mer om stängda komedoner (whiteheads)',
+            url_label: 'Läs mer om stängda komedoner',
+            aka: 'Kända som "whiteheads"',
+            image_alt: 'Bild av stängda komedoner (whiteheads)',
+            image_title: 'Stängda komedoner (whiteheads)'
       ),
       new Symptom(
             name: 'Papler',
             image: 'images/symptoms/102x102/papler.webp',
             content: 'Papuler är små, fasta, röda och inflammerade blemmor som uppstår när en hårsäck blir infekterad av bakterier, oftast Propionibacterium acnes. De är vanligtvis mindre än 5 mm i diameter och kan vara känsliga vid beröring. Papuler är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.',
             url: 'problem/akne/typer/atrophic-boxcar-scars',
-            url_title: 'Läs mer',
-            url_label: 'Läs mer',
-            aka: 'Även kallat röda finnar',
-            image_alt: 'Papler',
-            image_title: 'Papler'
+            url_title: 'Läs mer om papler (röda finnar)',
+            url_label: 'Läs mer om papler',
+            aka: 'Kända som röda finnar',
+            image_alt: 'Bild av papler (röda finnar)',
+            image_title: 'Papler (röda finnar)'
       ),
       new Symptom(
             name: 'Pustler',
             image: 'images/symptoms/102x102/pustler.webp',
             content: 'Pustuler är röda och inflammerade blemmor som innehåller var (en blandning av döda bakterier, vita blodkroppar och döda hudceller). De ser ut som papuler men har en vit eller gul prick i mitten. Pustuler kan vara smärtsamma och är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.',
             url: 'problem/akne/typer/atrophic-rolling-scars',
-            url_title: 'Läs mer',
-            url_label: 'Läs mer',
-            aka: 'Även kallat gula finnar',
-            image_alt: 'Pustler',
-            image_title: 'Pustler'
+            url_title: 'Läs mer om pustler (gula finnar)',
+            url_label: 'Läs mer om pustler',
+            aka: 'Kända som gula finnar',
+            image_alt: 'Bild av pustler (gula finnar)',
+            image_title: 'Pustler (gula finnar)'
       ),
       new Symptom(
             name: 'Noduler',
             image: 'images/symptoms/102x102/noduler.webp',
             content: 'Noduler är större, djupare och ofta smärtsamma inflammerade blemmor som uppstår när en hårsäck blir kraftigt infekterad och inflammationen sprider sig till det omgivande vävnaden. De är vanligtvis större än 5 mm i diameter och kan vara fasta och ömma vid beröring. Noduler är vanligt förekommande på ansiktet, nacken, bröstet, ryggen och ibland även på överarmarna och skinkorna.',
             url: 'problem/akne/typer/hypertrophic-keloid',
-            url_title: 'Läs mer',
-            url_label: 'Läs mer',
-            aka: 'Även kallat innåtfinnar',
-            image_alt: 'Noduler',
-            image_title: 'Noduler'
+            url_title: 'Läs mer om noduler (innåtfinnar)',
+            url_label: 'Läs mer om noduler',
+            aka: 'Kända som innåtfinnar',
+            image_alt: 'Bild av noduler (innåtfinnar)',
+            image_title: 'Noduler (innåtfinnar)'
       ),
       new Symptom(
             name: 'Cystor',
             image: 'images/symptoms/102x102/cystor.webp',
             content: 'Cystor är stora, inflammerade och smärtsamma blemmor som är fyllda med var och bildas när en hårsäck blir mycket infekterad och inflammationen sprider sig djupt in i huden. De kan vara runda och mjuka eller fasta och ömma vid beröring. Cystor kan vara större än 5 mm i diameter och är vanligt förekommande på ansiktet, nacken, bröstet och ryggen. Cystisk akne kan leda till ärrbildning och kräver ofta professionell behandling.',
             url: 'problem/akne/typer/hypertrophic-keloid',
-            url_title: 'Läs mer',
-            url_label: 'Läs mer',
-            aka: 'Även kallat bölder',
-            image_alt: 'Cystor',
-            image_title: 'Cystor'
+            url_title: 'Läs mer om cystor (bölder)',
+            url_label: 'Läs mer om cystor',
+            aka: 'Kända som bölder',
+            image_alt: 'Bild av cystor (bölder)',
+            image_title: 'Cystor (bölder)'
       ),
 );
 
