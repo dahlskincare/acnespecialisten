@@ -340,8 +340,8 @@ new BasedTypeCategory(
 
 );
 
-$types_url = '<a href="typer" title="Om aknetyper" class="mt-xl button b200 outline expand l10n is-hidden-tablet">Läs mer om aknetyper</a>
-              <a href="typer" title="Om aknetyper" class="mt-xl button b200 outline l10n is-hidden-mobile">Läs mer om aknetyper</a>';
+$types_url = '<a href="typer" title="Lär dig mer om olika typer av akne och deras behandling" class="mt-xl button b200 outline expand l10n is-hidden-tablet">Läs mer om aknetyper och deras behandling</a>
+              <a href="typer" title="Lär dig mer om olika typer av akne och deras behandling" class="mt-xl button b200 outline l10n is-hidden-mobile">Läs mer om aknetyper och deras behandling</a>';
 
 $symptoms_title = 'Akne symptom';
 
