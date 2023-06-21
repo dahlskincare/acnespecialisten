@@ -34,7 +34,6 @@ $akas = [
             url: 'problem/tonarsakne',
             label: 'Tonårsakne',
             title: 'Komplett guide om tonårsakne: orsaker, förebyggande och lösningar'
-'
       ),
 ];
 
