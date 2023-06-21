@@ -165,174 +165,174 @@ $type_categories = array(
 
             )
       ),
-new BasedTypeCategory(
-      id: 'category-severity',
-      title: 'Akne baserat på svårighetsgrad',
-      content: '<p class="p200">Akne kan variera i svårighetsgrad från milda till extremt allvarliga fall. I milda fall av akne är symptomen ofta mindre uttalade och består främst av pormaskar, medan mer allvarliga fall innefattar djupare inflammationer i form av cystor och noduler. Svårighetsgraden påverkar också hur akne påverkar en persons livskvalitet och hur den ska behandlas. Det är viktigt att diagnostisera och behandla akne utifrån dess svårighetsgrad för att säkerställa bästa möjliga behandlingsresultat och förhindra potentiella ärr och bestående skador på huden.</p>',
-      types: array(
-            new BasedType(
-                  image_url: 'images/problems/102x102/mild-akne.webp',
-                  image_alt: 'Bild av mild akne',
-                  image_title: 'Mild akne exemplifierad',
-                  title: 'Mild akne',
-                  subtitle: 'även kallat acne comedonica',
-                  content: '',
-                  url: 'problem/akne/typer/mild-akne',
-                  url_title: 'Utforska mer information om mild akne'
-            ),
-            new BasedType(
-                  image_url: 'images/problems/102x102/medelsvar-akne.webp',
-                  image_alt: 'Bild av medelsvår akne',
-                  image_title: 'Medelsvår akne exemplifierad',
-                  title: 'Medelsvår akne',
-                  subtitle: 'Även kallat acne papulopustulosa',
-                  content: '',
-                  url: 'problem/akne/typer/medel-akne',
-                  url_title: 'Utforska mer information om medelsvår akne'
-            ),
-            new BasedType(
-                  image_url: 'images/problems/102x102/svar-akne.webp',
-                  image_alt: 'Bild av svår akne',
-                  image_title: 'Svår akne exemplifierad',
-                  title: 'Svår akne',
-                  subtitle: 'Även kallat Acne nodulocystica',
-                  content: '',
-                  url: 'problem/akne/typer/svar-akne',
-                  url_title: 'Utforska mer information om svår akne'
-            ),
-            new BasedType(
-                  image_url: 'images/problems/102x102/mycket-svar-akne.webp',
-                  image_alt: 'Bild av mycket svår akne',
-                  image_title: 'Mycket svår akne exemplifierad',
-                  title: 'Mycket svår akne',
-                  subtitle: 'Även kallat Acne conglobata',
-                  content: '',
-                  url: 'problem/akne/typer/mycket-svar-akne',
-                  url_title: 'Utforska mer information om mycket svår akne'
-            ),
+      new BasedTypeCategory(
+            id: 'category-severity',
+            title: 'Akne baserat på svårighetsgrad',
+            content: '<p class="p200">Akne kan variera i svårighetsgrad från milda till extremt allvarliga fall. I milda fall av akne är symptomen ofta mindre uttalade och består främst av pormaskar, medan mer allvarliga fall innefattar djupare inflammationer i form av cystor och noduler. Svårighetsgraden påverkar också hur akne påverkar en persons livskvalitet och hur den ska behandlas. Det är viktigt att diagnostisera och behandla akne utifrån dess svårighetsgrad för att säkerställa bästa möjliga behandlingsresultat och förhindra potentiella ärr och bestående skador på huden.</p>',
+            types: array(
+                  new BasedType(
+                        image_url: 'images/problems/102x102/mild-akne.webp',
+                        image_alt: 'Bild av mild akne',
+                        image_title: 'Mild akne exemplifierad',
+                        title: 'Mild akne',
+                        subtitle: 'även kallat acne comedonica',
+                        content: '',
+                        url: 'problem/akne/typer/mild-akne',
+                        url_title: 'Utforska mer information om mild akne'
+                  ),
+                  new BasedType(
+                        image_url: 'images/problems/102x102/medelsvar-akne.webp',
+                        image_alt: 'Bild av medelsvår akne',
+                        image_title: 'Medelsvår akne exemplifierad',
+                        title: 'Medelsvår akne',
+                        subtitle: 'Även kallat acne papulopustulosa',
+                        content: '',
+                        url: 'problem/akne/typer/medel-akne',
+                        url_title: 'Utforska mer information om medelsvår akne'
+                  ),
+                  new BasedType(
+                        image_url: 'images/problems/102x102/svar-akne.webp',
+                        image_alt: 'Bild av svår akne',
+                        image_title: 'Svår akne exemplifierad',
+                        title: 'Svår akne',
+                        subtitle: 'Även kallat Acne nodulocystica',
+                        content: '',
+                        url: 'problem/akne/typer/svar-akne',
+                        url_title: 'Utforska mer information om svår akne'
+                  ),
+                  new BasedType(
+                        image_url: 'images/problems/102x102/mycket-svar-akne.webp',
+                        image_alt: 'Bild av mycket svår akne',
+                        image_title: 'Mycket svår akne exemplifierad',
+                        title: 'Mycket svår akne',
+                        subtitle: 'Även kallat Acne conglobata',
+                        content: '',
+                        url: 'problem/akne/typer/mycket-svar-akne',
+                        url_title: 'Utforska mer information om mycket svår akne'
+                  ),
             )
       ),
-new BasedTypeCategory(
-      id: 'category-reason',
-      title: 'Akne baserat på yttre faktorer',
-      content: '<p class="p200">Yttre faktorer kan också påverka uppkomsten av akne. Exempel på dessa är sol, friktion, kosmetika, mediciner och miljöfaktorer. Dessa kan bidra till eller förvärra akne genom att irritera huden, täppa till porer eller påverka hudens talgproduktion.</p>',
-      types: array(
-            new BasedType(
-                  image_url: 'images/problems/102x102/mallorca-akne.webp',
-                  image_alt: 'Bild av Mallorca akne',
-                  image_title: 'Exempel på Mallorca akne',
-                  title: 'Mallorca akne',
-                  subtitle: 'även kallat Acne aestivalis',
-                  content: '',
-                  url: 'problem/akne/typer/mallorca-akne',
-                  url_title: 'Läs mer om hur solen kan orsaka Mallorca akne'
-            ),
-            new BasedType(
-                  image_url: 'images/problems/102x102/hormonell-akne.webp',
-                  image_alt: 'Bild av hormonell akne',
-                  image_title: 'Exempel på hormonell akne',
-                  title: 'Hormonell akne',
-                  subtitle: 'akne orsakad av hormoner',
-                  content: '',
-                  url: 'problem/akne/typer/hormonell-akne',
-                  url_title: 'Utforska mer om hur hormoner kan orsaka akne'
-            ),
-            new BasedType(
-                  image_url: 'images/problems/102x102/kosmetika-akne.webp',
-                  image_alt: 'Bild av kosmetika akne',
-                  image_title: 'Exempel på kosmetika akne',
-                  title: 'kosmetika akne',
-                  subtitle: 'Även kallat Acne cosmetica',
-                  content: '',
-                  url: 'problem/akne/typer/kosmetika-akne',
-                  url_title: 'Lär dig mer om hur kosmetika kan orsaka akne'
-            ),
-            new BasedType(
-                  image_url: 'images/problems/102x102/pill-akne.webp',
-                  image_alt: 'Bild av pill akne',
-                  image_title: 'Exempel på pill akne',
-                  title: 'Akne från pillande',
-                  subtitle: 'Även kallat Acne exoriée ',
-                  content: '',
-                  url: 'problem/akne/typer/acne-exoriee',
-                  url_title: 'Läs mer om hur pillande kan leda till akne'
-            ),
-            new BasedType(
-                  image_url: 'images/problems/102x102/friktions-akne.webp',
-                  image_alt: 'Bild av friktions akne',
-                  image_title: 'Exempel på friktions akne',
-                  title: 'Friktionsakne',
-                  subtitle: 'Även kallat Acne mechanica',
-                  content: '',
-                  url: 'problem/akne/typer/akne-mekanisk',
-                  url_title: 'Utforska mer om hur friktion kan orsaka akne'
-            ),
-            new BasedType(
-                  image_url: 'images/problems/102x102/lakemedelsakne.webp',
-                  image_alt: 'Bild av läkemedelsakne',
-                  image_title: 'Exempel på läkemedelsakne',
-                  title: 'Läkemedelsakne',
-                  subtitle: 'Även kallat Acne medicamentosa',
-                  content: '',
-                  url: 'problem/akne/typer/lakemedelsakne',
-                  url_title: 'Lär dig mer om hur läkemedel kan orsaka akne'
-            ),
-            new BasedType(
-                  image_url: 'images/problems/102x102/kontakt-akne.webp',
-                  image_alt: 'Bild av kontaktakne',
-                  image_title: 'Exempel på kontaktakne',
-                  title: 'Kontaktakne',
-                  subtitle: 'Även kallat Acne venenata',
-                  content: '',
-                  url: 'problem/akne/typer/kontakt-akne',
-                  url_title: 'Utforska mer om hur direktkontakt kan orsaka akne'
-            ),
-            new BasedType(
-                  image_url: 'images/problems/102x102/svamp-akne.webp',
-                  image_alt: 'Bild av svampakne',
-                  image_title: 'Exempel på svampakne',
-                  title: 'Svampakne',
-                  subtitle: 'Även kallat fungal acne',
-                  content: '',
-                  url: 'problem/akne/typer/fungal-akne',
-                  url_title: 'Lär dig mer om hur svampar kan orsaka akne'
+      new BasedTypeCategory(
+            id: 'category-reason',
+            title: 'Akne baserat på yttre faktorer',
+            content: '<p class="p200">Yttre faktorer kan också påverka uppkomsten av akne. Exempel på dessa är sol, friktion, kosmetika, mediciner och miljöfaktorer. Dessa kan bidra till eller förvärra akne genom att irritera huden, täppa till porer eller påverka hudens talgproduktion.</p>',
+            types: array(
+                  new BasedType(
+                        image_url: 'images/problems/102x102/mallorca-akne.webp',
+                        image_alt: 'Bild av Mallorca akne',
+                        image_title: 'Exempel på Mallorca akne',
+                        title: 'Mallorca akne',
+                        subtitle: 'även kallat Acne aestivalis',
+                        content: '',
+                        url: 'problem/akne/typer/mallorca-akne',
+                        url_title: 'Läs mer om hur solen kan orsaka Mallorca akne'
+                  ),
+                  new BasedType(
+                        image_url: 'images/problems/102x102/hormonell-akne.webp',
+                        image_alt: 'Bild av hormonell akne',
+                        image_title: 'Exempel på hormonell akne',
+                        title: 'Hormonell akne',
+                        subtitle: 'akne orsakad av hormoner',
+                        content: '',
+                        url: 'problem/akne/typer/hormonell-akne',
+                        url_title: 'Utforska mer om hur hormoner kan orsaka akne'
+                  ),
+                  new BasedType(
+                        image_url: 'images/problems/102x102/kosmetika-akne.webp',
+                        image_alt: 'Bild av kosmetika akne',
+                        image_title: 'Exempel på kosmetika akne',
+                        title: 'kosmetika akne',
+                        subtitle: 'Även kallat Acne cosmetica',
+                        content: '',
+                        url: 'problem/akne/typer/kosmetika-akne',
+                        url_title: 'Lär dig mer om hur kosmetika kan orsaka akne'
+                  ),
+                  new BasedType(
+                        image_url: 'images/problems/102x102/pill-akne.webp',
+                        image_alt: 'Bild av pill akne',
+                        image_title: 'Exempel på pill akne',
+                        title: 'Akne från pillande',
+                        subtitle: 'Även kallat Acne exoriée ',
+                        content: '',
+                        url: 'problem/akne/typer/acne-exoriee',
+                        url_title: 'Läs mer om hur pillande kan leda till akne'
+                  ),
+                  new BasedType(
+                        image_url: 'images/problems/102x102/friktions-akne.webp',
+                        image_alt: 'Bild av friktions akne',
+                        image_title: 'Exempel på friktions akne',
+                        title: 'Friktionsakne',
+                        subtitle: 'Även kallat Acne mechanica',
+                        content: '',
+                        url: 'problem/akne/typer/akne-mekanisk',
+                        url_title: 'Utforska mer om hur friktion kan orsaka akne'
+                  ),
+                  new BasedType(
+                        image_url: 'images/problems/102x102/lakemedelsakne.webp',
+                        image_alt: 'Bild av läkemedelsakne',
+                        image_title: 'Exempel på läkemedelsakne',
+                        title: 'Läkemedelsakne',
+                        subtitle: 'Även kallat Acne medicamentosa',
+                        content: '',
+                        url: 'problem/akne/typer/lakemedelsakne',
+                        url_title: 'Lär dig mer om hur läkemedel kan orsaka akne'
+                  ),
+                  new BasedType(
+                        image_url: 'images/problems/102x102/kontakt-akne.webp',
+                        image_alt: 'Bild av kontaktakne',
+                        image_title: 'Exempel på kontaktakne',
+                        title: 'Kontaktakne',
+                        subtitle: 'Även kallat Acne venenata',
+                        content: '',
+                        url: 'problem/akne/typer/kontakt-akne',
+                        url_title: 'Utforska mer om hur direktkontakt kan orsaka akne'
+                  ),
+                  new BasedType(
+                        image_url: 'images/problems/102x102/svamp-akne.webp',
+                        image_alt: 'Bild av svampakne',
+                        image_title: 'Exempel på svampakne',
+                        title: 'Svampakne',
+                        subtitle: 'Även kallat fungal acne',
+                        content: '',
+                        url: 'problem/akne/typer/fungal-akne',
+                        url_title: 'Lär dig mer om hur svampar kan orsaka akne'
                   )
             )
       ),
-new BasedTypeCategory(
-      id: 'category-area',
-      title: 'Akne baserat på område',
-      content: '<p class="p200">Akne kan uppträda på olika områden på kroppen. Ansiktet är det vanligaste området, men akne kan också förekomma på bröst, rygg, axlar och andra delar av kroppen. Placeringen av akne kan ge en indikation på dess orsak, som hormonella förändringar, irritation från kläder eller yttre faktorer som sol och friktion.</p>',
-      types: array(
-            new BasedType(
-                  image_url: 'images/problems/102x102/akne-ansikte.webp',
-                  image_alt: 'Bild av akne i ansiktet',
-                  image_title: 'Exempel på akne i ansiktet',
-                  title: 'Akne i ansiktet',
-                  subtitle: 'Även kallat Acne faciei',
-                  content: '',
-                  url: 'problem/akne/typer/akne-ansiktet',
-                  url_title: 'Läs mer om akne i ansiktet och dess potentiella behandlingar'
-            ),
-            new BasedType(
-                  image_url: 'images/problems/102x102/akne-rygg.webp',
-                  image_alt: 'Bild av akne på ryggen',
-                  image_title: 'Exempel på akne på ryggen',
-                  title: 'Akne på ryggen',
-                  subtitle: 'Även kallat Acne dorsalis',
-                  content: '',
-                  url: 'problem/akne/typer/akne-ryggen',
-                  url_title: 'Läs mer om akne på ryggen och dess potentiella behandlingar'
-            ),
-            new BasedType(
-                  image_url: 'images/problems/102x102/akne-brost.webp',
-                  image_alt: 'Bild av akne på bröstet',
-                  image_title: 'Exempel på akne på bröstet',
-                  title: 'Akne på bröstet',
-                  subtitle: 'Även kallat Acne pectoralis',
-                  content: '',
-                  url: 'problem/akne/typer/akne-brostet',
-                  url_title: 'Läs mer om akne på bröstet och dess potentiella behandlingar'                  
+      new BasedTypeCategory(
+            id: 'category-area',
+            title: 'Akne baserat på område',
+            content: '<p class="p200">Akne kan uppträda på olika områden på kroppen. Ansiktet är det vanligaste området, men akne kan också förekomma på bröst, rygg, axlar och andra delar av kroppen. Placeringen av akne kan ge en indikation på dess orsak, som hormonella förändringar, irritation från kläder eller yttre faktorer som sol och friktion.</p>',
+            types: array(
+                  new BasedType(
+                        image_url: 'images/problems/102x102/akne-ansikte.webp',
+                        image_alt: 'Bild av akne i ansiktet',
+                        image_title: 'Exempel på akne i ansiktet',
+                        title: 'Akne i ansiktet',
+                        subtitle: 'Även kallat Acne faciei',
+                        content: '',
+                        url: 'problem/akne/typer/akne-ansiktet',
+                        url_title: 'Läs mer om akne i ansiktet och dess potentiella behandlingar'
+                  ),
+                  new BasedType(
+                        image_url: 'images/problems/102x102/akne-rygg.webp',
+                        image_alt: 'Bild av akne på ryggen',
+                        image_title: 'Exempel på akne på ryggen',
+                        title: 'Akne på ryggen',
+                        subtitle: 'Även kallat Acne dorsalis',
+                        content: '',
+                        url: 'problem/akne/typer/akne-ryggen',
+                        url_title: 'Läs mer om akne på ryggen och dess potentiella behandlingar'
+                  ),
+                  new BasedType(
+                        image_url: 'images/problems/102x102/akne-brost.webp',
+                        image_alt: 'Bild av akne på bröstet',
+                        image_title: 'Exempel på akne på bröstet',
+                        title: 'Akne på bröstet',
+                        subtitle: 'Även kallat Acne pectoralis',
+                        content: '',
+                        url: 'problem/akne/typer/akne-brostet',
+                        url_title: 'Läs mer om akne på bröstet och dess potentiella behandlingar'
                   ),
 
             )
@@ -453,7 +453,10 @@ $services = array(
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling mot akne',
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
             booking_url_label: 'Boka tid för ansiktsbehandling mot akne',
-            booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling mot akne'
+            booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling mot akne',
+            url: 'LÄNK HÄR',
+            url_label: 'Read more about blablabla',
+            url_title: 'Read more about blablabla',
       ),
       new Service(
             id: 'laser',
@@ -488,16 +491,16 @@ $services = array(
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
             booking_url_label: 'Boka tid för kemisk peeling mot akne',
             booking_url_title: 'Klicka för att boka tid för en kemisk peeling mot akne behandling'
-            ),
+      ),
 
-         new Service(
+      new Service(
             id: 'microneedling',
             title: 'Microneedling mot akne',
             duration: '50 min',
             price: '2595 kr',
             content: 'Microneedling är en innovativ behandlingsmetod för akne. Detta utförs genom att skapa små mikroskopiska kanaler i huden vilket främjar hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. Denna behandling kan effektivt minska utbrott av akne, förbättra hudens struktur och minska synligheten av akneärr. Microneedling är en säker och effektiv strategi för att ta kontroll över din akne och förbättra din hudhälsa.',
             image_small: 'images/services/200x200/kemisk-peeling-akne.webp',
-            image_large: 'images/services/200x200/kemisk-peeling-akne.webp',            
+            image_large: 'images/services/200x200/kemisk-peeling-akne.webp',
             image_alt: 'Bild av microneedling mot akne',
             image_title: 'Microneedling mot akne behandling',
             consultation_url: 'hudkonsultation',
@@ -506,7 +509,7 @@ $services = array(
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
             booking_url_label: 'Boka tid för microneedling mot akne',
             booking_url_title: 'Klicka för att boka tid för en microneedling mot akne behandling'
-            ),
+      ),
 );
 
 $headline03 = "03. Förebygg uppkomsten av ny akne";
