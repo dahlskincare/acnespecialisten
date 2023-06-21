@@ -431,7 +431,10 @@ $service = new Service(
       consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för akne',
       booking_url: null,
       booking_url_label: null,
-      booking_url_title: null
+      booking_url_title: null,
+      url: 'LÄNK HÄR',
+      url_label: 'Read more about blablabla',
+      url_title: 'Read more about blablabla'
 
 );
 
