@@ -340,8 +340,8 @@ $type_categories = array(
 
 );
 
-$types_url = '<a href="typer" title="Lär dig mer om olika typer av akne och deras behandling" class="mt-xl button b200 outline expand l10n is-hidden-tablet">Läs mer om aknetyper och deras behandling</a>
-              <a href="typer" title="Lär dig mer om olika typer av akne och deras behandling" class="mt-xl button b200 outline l10n is-hidden-mobile">Läs mer om aknetyper och deras behandling</a>';
+$types_url = '<a href="typer" title="Lär dig mer om olika typer av akne och deras behandling" class="mt-xl button b200 outline expand l10n is-hidden-tablet">Läs mer om olika typer av akne</a>
+              <a href="typer" title="Lär dig mer om olika typer av akne och deras behandling" class="mt-xl button b200 outline l10n is-hidden-mobile">Läs mer om olikta typer av akne</a>';
 
 $symptoms_title = 'Akne symptom';
 
@@ -433,7 +433,7 @@ $service = new Service(
       booking_url_label: null,
       booking_url_title: null,
       url: 'hudkonsultation',
-      url_label: 'Läs mer om hudkonsultatio',
+      url_label: 'Läs mer om vår hudkonsultation',
       url_title: 'Klicka här för att läsa mer om gratis hudkonsultation'
 
 );
@@ -457,9 +457,9 @@ $services = array(
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
             booking_url_label: 'Boka tid för ansiktsbehandling mot akne',
             booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling mot akne',
-            url: 'LÄNK HÄR',
+            url: 'ansiktsbehandling-acne',
             url_label: 'Read more about blablabla',
-            url_title: 'Read more about blablabla',
+            url_title: 'Read more about blablabla'
       ),
       new Service(
             id: 'laser',
@@ -476,7 +476,10 @@ $services = array(
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling mot akne',
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
             booking_url_label: 'Boka tid för laserbehandling mot akne',
-            booking_url_title: 'Klicka för att boka tid för en laserbehandling mot akne'
+            booking_url_title: 'Klicka för att boka tid för en laserbehandling mot akne',
+            url: 'laser-akne',
+            url_label: 'Read more about blablabla',
+            url_title: 'Read more about blablabla'
       ),
       new Service(
             id: 'chemical-peeling',
