@@ -3,17 +3,19 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $article = new SkinGuideArticle(
-    id: 'how-hormones-affect',
-    title: 'How hormones affect?',
+    id: 'how-hormones-effect',
+    url_title: 'How hormones effect?',
+    title: 'How hormones effect?',
     subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
     problem: 'Acne',
-    description: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.',
+    description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
     image_small: 'https://via.placeholder.com/426x324.webp',
     image_large: 'https://via.placeholder.com/872x456.jpg',
-    category_id: 'skin-problems',
-    subcategory_id: 'dry-skin',
-)
-
+    image_alt: 'Hormones effect',
+    image_title: 'Hormones effect',
+    category_id: 'category-here',
+    subcategory_id: 'subcategory-here'
+);
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
