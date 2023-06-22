@@ -758,14 +758,18 @@ $brands = array(
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
                 </section>
                 <section id="skin-guide">
-                    <div class="flex-row align-end justify-space-between">
+                    <div class="flex-row justify-space-between">
                         <h2 class="big l10n">Hudguide</h2>
-                        <a href="skin-guide" title="Hudguiden" class="button compact text is-hidden-mobile">
-                            <span class="l10n">Läs fler hudguider</span>
-                            <?php icon('navigate-next') ?>
-                        </a>
+                        <div class="is-hidden-touch">
+                            <button class="round-large grey" onclick="scrollSkinGuide(-1)">
+                                <?php icon('arrow-left') ?>
+                            </button>
+                            <button class="round-large grey" onclick="scrollSkinGuide(1)">
+                                <?php icon('arrow-right') ?>
+                            </button>
+                        </div>
                     </div>
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php'); ?>
+                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide_narrow.php'); ?>
                     <a class="mt-xl button outline expand is-hidden-tablet l10n" title="Hudguiden" href="skin-guide">Läs fler hudguider</a>
                 </section>
                 <section id="specialists">
@@ -777,7 +781,7 @@ $brands = array(
                         </a>
                     </div>
                     <?php
-                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
+                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php');
                     ?>
                     <a href="specialister" title="Specialister" class="mt-xl button outline expand is-hidden-tablet l10n">Se alla specialister</a>
                 </section>
