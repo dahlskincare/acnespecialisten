@@ -521,22 +521,22 @@ $services = array(
 $headline03 = "03. Förebygg uppkomsten av ny akne";
 
 $products = array(
-new Service(
-      id: 'produkter-mot-akne',
-      title: 'Produkter mot akne',
-      duration: null,
-      price: 'Pris från 1495 kr',
-      content: 'För att effektivt bekämpa och förebygga akne är daglig behandling med rätt produkter avgörande. Våra akneprodukter är speciellt utformade för att hålla din hud i balans och förhindra att ny akne uppstår.',
-      image_small: 'images/services/200x200/produkter-akne.webp',
-      image_large: 'images/services/200x200/produkter-akne.webp',
-      image_alt: 'Bild av produkter designade för behandling av akne',
-      image_title: 'Effektiva produkter för bekämpning och förebyggande av akne',
-      consultation_url: null,
-      consultation_url_label: null,
-      consultation_url_title: null,
-      booking_url: null,
-      booking_url_label: null,
-      booking_url_title: null
+      new Service(
+            id: 'produkter-mot-akne',
+            title: 'Produkter mot akne',
+            duration: null,
+            price: 'Pris från 1495 kr',
+            content: 'För att effektivt bekämpa och förebygga akne är daglig behandling med rätt produkter avgörande. Våra akneprodukter är speciellt utformade för att hålla din hud i balans och förhindra att ny akne uppstår.',
+            image_small: 'images/services/200x200/produkter-akne.webp',
+            image_large: 'images/services/200x200/produkter-akne.webp',
+            image_alt: 'Bild av produkter designade för behandling av akne',
+            image_title: 'Effektiva produkter för bekämpning och förebyggande av akne',
+            consultation_url: null,
+            consultation_url_label: null,
+            consultation_url_title: null,
+            booking_url: null,
+            booking_url_label: null,
+            booking_url_title: null
       )
 );
 
@@ -588,6 +588,9 @@ $results = array(
             image_after_small: 'https://via.placeholder.com/358x358.webm',
             image_before_large: 'https://via.placeholder.com/424x424.webm',
             image_after_large: 'https://via.placeholder.com/424x424.webm',
+            url_title: 'Resultat',
+            image_alt: 'Resultat',
+            image_title: 'Resultat',
             age: 18,
             gender: 'Female',
             problem: 'Akne',
@@ -602,6 +605,9 @@ $results = array(
             image_after_small: 'https://via.placeholder.com/358x358.webm',
             image_before_large: 'https://via.placeholder.com/424x424.webm',
             image_after_large: 'https://via.placeholder.com/424x424.webm',
+            url_title: 'Resultat',
+            image_alt: 'Resultat',
+            image_title: 'Resultat',
             age: 18,
             gender: 'Female',
             problem: 'Akne',
