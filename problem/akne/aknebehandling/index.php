@@ -480,30 +480,30 @@ $skin_guide_articles = array(
 
 $specialists = array(
     new Specialist(
-        name: 'Cazzandra Lindberg',
-        title: 'Erfaren Hudterapeut hos Acnespecialisten sedan 2015',
+        name: 'Cassandra',
+        title: 'Hudterapeut sedan 2015',
         image: 'images/specialists/large/hudterapeut-cazzandra.webp',
-        image_title: 'Cazzandra Lindberg, Hudterapeut hos Acnespecialisten sedan 2015',
-        image_alt: 'Cazzandra Lindberg - Erfaren Hudterapeut hos Acnespecialisten'
+        image_title: 'Cassandra Lindberg, Hudterapeut hos Acnespecialisten sedan 2015',
+        image_alt: 'Cassandra Lindberg - Erfaren Hudterapeut hos Acnespecialisten'
     ),
     new Specialist(
-        name: 'Veronika Benedik',
-        title: 'Erfaren Hudterapeut sedan 1999 på Acnespecialisten',
+        name: 'Veronika',
+        title: 'Hudterapeut sedan 1999',
         image: 'images/specialists/large/hudterapeut-veronika.webp',
         image_title: 'Veronika Benedik, Erfaren Hudterapeut på Acnespecialisten',
         image_alt: 'Veronika Benedik, hudterapeut sedan 1999 på Acnespecialisten'
     ),
     new Specialist(
-        name: 'Amira Maqboul',
-        title: 'Hudterapeut sedan 2017 på Acnespecialisten',
+        name: 'Jennifer',
+        title: 'Hudterapeut sedan 2017',
         image: 'images/specialists/large/hudterapeut-amira.webp',
         image_title: 'Amira Maqboul, Hudterapeut på Acnespecialisten',
         image_alt: 'Amira Maqboul, hudterapeut sedan 2017 på Acnespecialisten'
 
     ),
     new Specialist(
-        name: 'Vilma Libom',
-        title: 'Hudterapeut sedan 2019 på Acnespecialisten',
+        name: 'Vilma',
+        title: 'Hudterapeut sedan 2019',
         image: 'images/specialists/large/hudterapeut-vilma.webp',
         image_title: 'Vilma Libom, Hudterapeut på Acnespecialisten',
         image_alt: 'Vilma Libom, hudterapeut sedan 2019 på Acnespecialisten'
