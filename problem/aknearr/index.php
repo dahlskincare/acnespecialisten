@@ -757,19 +757,25 @@ $related_problems = array(
             id: 'acne',
             name: 'Acne',
             aka: 'scars stains',
-            image: 'https://via.placeholder.com/102x102.webp'
+            image: 'https://via.placeholder.com/102x102.webp',
+            image_alt: '',
+            image_title: '',
       ),
       new RelatedProblem(
             id: 'acne',
             name: 'Acne',
             aka: 'scars stains',
-            image: 'https://via.placeholder.com/102x102.webp'
+            image: 'https://via.placeholder.com/102x102.webp',
+            image_alt: '',
+            image_title: '',
       ),
       new RelatedProblem(
             id: 'acne',
             name: 'Acne',
             aka: 'scars stains',
-            image: 'https://via.placeholder.com/102x102.webp'
+            image: 'https://via.placeholder.com/102x102.webp',
+            image_alt: '',
+            image_title: '',
       ),
 );
 $brands = array(
