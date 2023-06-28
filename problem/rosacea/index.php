@@ -128,7 +128,7 @@ $types_title = 'Olika typer av rosacea';
 $type_categories = array(
       new BasedTypeCategory(
             id: 'category-severity',
-            title: 'Akne baserat på svårighetsgrad',
+            title: 'Rosacea baserat på svårighetsgrad',
             content: '<p class="p200">Rosacea är ett hudtillstånd som varierar kraftigt i svårighetsgrad mellan olika individer. Hudtillståndet, som vanligtvis manifesterar sig som rodnad och synliga blodkärl i ansiktet, kan också leda till små, röda, pusfyllda blåsor eller knölar i värre fall. Rosacea klassificeras vanligtvis i fyra olika subtyper baserat på dess symptom och svårighetsgrad.</p>',
             types: array(
                   new BasedType(
@@ -137,9 +137,9 @@ $type_categories = array(
                         image_title: 'Mild rosacea exemplifierad',
                         title: 'Mild rosacea',
                         subtitle: 'även kallat vaskulär rosacea eller erythematotelangiektatisk rosacea',
-                        content: '',
-                        url: 'problem/rosacea/typer/mild-rosacea',
-                        url_title: 'Utforska mer information om mild rosacea'
+                        content: 'Karaktäriseras av frekventa rodnader, ihållande rodnad och synliga blodkärl. Huden kan också kännas torr och stram.',
+                        url: null,
+                        url_title: null
                   ),
                   new BasedType(
                         image_url: 'images/problems/102x102/medelsvar-rosacea.webp',
@@ -147,9 +147,9 @@ $type_categories = array(
                         image_title: 'Medelsvår rosacea exemplifierad',
                         title: 'Medelsvår rosacea',
                         subtitle: 'Även kallat papulopustulös rosacea eller akne rosacea',
-                        content: '',
-                        url: 'problem/rosacea/typer/medel-rosacea',
-                        url_title: 'Utforska mer information om medelsvår rosacea'
+                        content: 'Utöver rodnad och synliga blodkärl kan det också finnas små, röda, vättskefyllda blåsor.',
+                        url: null,
+                        url_title: null
                   ),
                   new BasedType(
                         image_url: 'images/problems/102x102/svar-rosacea.webp',
@@ -157,113 +157,93 @@ $type_categories = array(
                         image_title: 'Svår rosacea exemplifierad',
                         title: 'Svår rosacea',
                         subtitle: 'Även kallat fymatös rosacea eller rhinophyma',
-                        content: '',
-                        url: 'problem/rosacea/typer/svar-rosacea',
-                        url_title: 'Utforska mer information om svår rosacea'
-                  ),
-                  new BasedType(
-                        image_url: 'images/problems/102x102/mycket-svar-rosacea.webp',
-                        image_alt: 'Bild av mycket svår rosacea',
-                        image_title: 'Mycket svår rosacea exemplifierad',
-                        title: 'Mycket svår rosacea',
-                        subtitle: 'Även kallat ockulär rosacea',
-                        content: '',
-                        url: 'problem/rosacea/typer/mycket-svar-rosacea',
-                        url_title: 'Utforska mer information om mycket svår rosacea'
+                        content: 'Huden blir tjock och får en ojämn yta. Detta beror på överväxt av talgkörtlar och bindväv. Näsan kan bli större och få en knölig yta.',
+                        url: null,
+                        url_title: null
                   ),
             )
       ),
       new BasedTypeCategory(
             id: 'category-reason',
-            title: 'Akne baserat på yttre faktorer',
-            content: '<p class="p200">Yttre faktorer kan också påverka uppkomsten av akne. Exempel på dessa är sol, friktion, kosmetika, mediciner och miljöfaktorer. Dessa kan bidra till eller förvärra akne genom att irritera huden, täppa till porer eller påverka hudens talgproduktion.</p>',
+            title: 'Yttre faktorer som förvärrar rosacea',
+            content: '<p class="p200">Rosacea kan förvärras eller till och med utlösas av en rad yttre faktorer. Genom att förstå och hantera dessa faktorer kan individer potentiellt minska frekvensen och svårighetsgraden av deras rosacea-utbrott.</p>',
             types: array(
                   new BasedType(
-                        image_url: 'images/problems/102x102/mallorca-akne.webp',
-                        image_alt: 'Bild av Mallorca akne',
-                        image_title: 'Exempel på Mallorca akne',
-                        title: 'Mallorca akne',
-                        subtitle: 'även kallat Acne aestivalis',
-                        content: '',
-                        url: 'problem/akne/typer/mallorca-akne',
-                        url_title: 'Läs mer om hur solen kan orsaka Mallorca akne'
+                        image_url: 'images/problems/102x102/sol-vind.webp',
+                        image_alt: 'Bild av sol och vind',
+                        image_title: 'Exempel på på sol och vind',
+                        title: 'Sol och vind',
+                        subtitle: 'Sol och vind påverkan på rosacea',
+                        content: 'Exponering för sol och vind kan orsaka eller förvärra rosacea. Dessa faktorer kan irritera huden och orsaka inflammation, vilket i sin tur kan leda till uppkomsten av rosacea.',
+                        url: null,
+                        url_title: null
                   ),
                   new BasedType(
-                        image_url: 'images/problems/102x102/hormonell-akne.webp',
-                        image_alt: 'Bild av hormonell akne',
-                        image_title: 'Exempel på hormonell akne',
-                        title: 'Hormonell akne',
-                        subtitle: 'akne orsakad av hormoner',
-                        content: '',
-                        url: 'problem/akne/typer/hormonell-akne',
-                        url_title: 'Utforska mer om hur hormoner kan orsaka akne'
+                        image_url: 'images/problems/102x102/het-mat-dryck.webp',
+                        image_alt: 'Bild av het mat och dryck',
+                        image_title: 'Het mat och dryck',
+                        title: 'Het mat och dryck',
+                        subtitle: 'Het mat och drycks påverkan på rosacea',
+                        content: 'Konsumtion av varm mat och dryck kan också orsaka eller förvärra rosacea. De kan öka blodflödet till hudens yta, vilket kan orsaka rodnad och inflammation.',
+                        url: null,
+                        url_title: null
                   ),
                   new BasedType(
-                        image_url: 'images/problems/102x102/kosmetika-akne.webp',
-                        image_alt: 'Bild av kosmetika akne',
-                        image_title: 'Exempel på kosmetika akne',
-                        title: 'kosmetika akne',
-                        subtitle: 'Även kallat Acne cosmetica',
-                        content: '',
-                        url: 'problem/akne/typer/kosmetika-akne',
-                        url_title: 'Lär dig mer om hur kosmetika kan orsaka akne'
+                        image_url: 'images/problems/102x102/stress.webp',
+                        image_alt: 'Bild av stress',
+                        image_title: 'Stress',
+                        title: 'Stress och Starka Känslor',
+                        subtitle: 'Stressens påverkan på rosacea',
+                        content: 'Stress och starka känslor kan leda till att blodflödet till hudens yta ökar, vilket kan orsaka eller förvärra rosacea.',
+                        url: null,
+                        url_title: null
                   ),
                   new BasedType(
-                        image_url: 'images/problems/102x102/pill-akne.webp',
-                        image_alt: 'Bild av pill akne',
-                        image_title: 'Exempel på pill akne',
-                        title: 'Akne från pillande',
-                        subtitle: 'Även kallat Acne exoriée ',
-                        content: '',
-                        url: 'problem/akne/typer/acne-exoriee',
-                        url_title: 'Läs mer om hur pillande kan leda till akne'
+                        image_url: 'images/problems/102x102/alkohol-koffein.webp',
+                        image_alt: 'Bild av alkohol och koffein',
+                        image_title: 'Alkohol och Koffein',
+                        title: 'Alkohol och Koffein',
+                        subtitle: 'Alkohol och koffeins påverkan på rosacea',
+                        content: 'Även om alkohol och koffein inte nödvändigtvis orsakar rosacea, har studier visat att de kan förvärra symptomen på sjukdomen.',
+                        url: null,
+                        url_title: null
                   ),
                   new BasedType(
-                        image_url: 'images/problems/102x102/friktions-akne.webp',
-                        image_alt: 'Bild av friktions akne',
-                        image_title: 'Exempel på friktions akne',
-                        title: 'Friktionsakne',
-                        subtitle: 'Även kallat Acne mechanica',
-                        content: '',
-                        url: 'problem/akne/typer/akne-mekanisk',
-                        url_title: 'Utforska mer om hur friktion kan orsaka akne'
+                        image_url: 'images/problems/102x102/hudvardsprodukter.webp',
+                        image_alt: 'Bild av hudvårdsprodukter',
+                        image_title: 'Hudvårdsprodukter',
+                        title: 'Hudvårdsprodukter',
+                        subtitle: 'Hudvårdsprodukters påverkan på rosacea',
+                        content: 'Vissa hudvårdsprodukter kan irritera huden och orsaka eller förvärra rosacea. Detta inkluderar produkter som innehåller alkohol, trollhassel, pepparmynta, eukalyptusolja och andra potentiellt irriterande ingredienser.',
+                        url: null,
+                        url_title: null
                   ),
                   new BasedType(
-                        image_url: 'images/problems/102x102/lakemedelsakne.webp',
-                        image_alt: 'Bild av läkemedelsakne',
-                        image_title: 'Exempel på läkemedelsakne',
-                        title: 'Läkemedelsakne',
-                        subtitle: 'Även kallat Acne medicamentosa',
-                        content: '',
-                        url: 'problem/akne/typer/lakemedelsakne',
-                        url_title: 'Lär dig mer om hur läkemedel kan orsaka akne'
+                        image_url: 'images/problems/102x102/hoga-temperaturer.webp',
+                        image_alt: 'Bild av termometer',
+                        image_title: 'Höga Temperaturer',
+                        title: 'Höga Temperaturer',
+                        subtitle: 'Höga temperaturers påverkan på rosacea',
+                        content: 'Rosacea kan också förvärras av höga temperaturer, inklusive bastubad och varma bad.',
+                        url: null,
+                        url_title: null
                   ),
                   new BasedType(
-                        image_url: 'images/problems/102x102/kontakt-akne.webp',
-                        image_alt: 'Bild av kontaktakne',
-                        image_title: 'Exempel på kontaktakne',
-                        title: 'Kontaktakne',
-                        subtitle: 'Även kallat Acne venenata',
-                        content: '',
-                        url: 'problem/akne/typer/kontakt-akne',
-                        url_title: 'Utforska mer om hur direktkontakt kan orsaka akne'
-                  ),
-                  new BasedType(
-                        image_url: 'images/problems/102x102/svamp-akne.webp',
-                        image_alt: 'Bild av svampakne',
-                        image_title: 'Exempel på svampakne',
-                        title: 'Svampakne',
-                        subtitle: 'Även kallat fungal acne',
-                        content: '',
-                        url: 'problem/akne/typer/fungal-akne',
-                        url_title: 'Lär dig mer om hur svampar kan orsaka akne'
+                        image_url: 'images/problems/102x102/fysisk-anstrangning.webp',
+                        image_alt: 'Bild av en person som utför fysisk ansträngning',
+                        image_title: 'Fysisk Ansträngning',
+                        title: 'Fysisk Ansträngning',
+                        subtitle: 'Fysisk ansträngnings påverkan på rosacea',
+                        content: 'Hård fysisk ansträngning, inklusive tunga lyft och intensiv konditionsträning, kan också orsaka eller förvärra rosacea.',
+                        url: null,
+                        url_title: null
                   )
             )
       ),
       new BasedTypeCategory(
             id: 'category-area',
-            title: 'Akne baserat på område',
-            content: '<p class="p200">Akne kan uppträda på olika områden på kroppen. Ansiktet är det vanligaste området, men akne kan också förekomma på bröst, rygg, axlar och andra delar av kroppen. Placeringen av akne kan ge en indikation på dess orsak, som hormonella förändringar, irritation från kläder eller yttre faktorer som sol och friktion.</p>',
+            title: 'Rosacea baserat på område',
+            content: '<p class="p200">Rosacea manifesterar sig vanligtvis på vissa specifika områden i ansiktet. De vanligaste områdena inkluderar näsan, kinderna, pannan och hakan. Men rosacea kan även uppträda runt ögonen och mindre vanligt på halsen och bröstet. Placeringen av rosacea kan hjälpa till att identifiera dess specifika typ och styra valet av behandling.</p>',
             types: array(
                   new BasedType(
                         image_url: 'images/problems/102x102/akne-ansikte.webp',
