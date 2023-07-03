@@ -246,34 +246,64 @@ $type_categories = array(
             content: '<p class="p200">Rosacea manifesterar sig vanligtvis på vissa specifika områden i ansiktet. De vanligaste områdena inkluderar näsan, kinderna, pannan och hakan. Men rosacea kan även uppträda runt ögonen och mindre vanligt på halsen och bröstet. Placeringen av rosacea kan hjälpa till att identifiera dess specifika typ och styra valet av behandling.</p>',
             types: array(
                   new BasedType(
-                        image_url: 'images/problems/102x102/akne-ansikte.webp',
-                        image_alt: 'Bild av akne i ansiktet',
-                        image_title: 'Exempel på akne i ansiktet',
-                        title: 'Akne i ansiktet',
-                        subtitle: 'Även kallat Acne faciei',
-                        content: '',
-                        url: 'problem/akne/typer/akne-ansiktet',
-                        url_title: 'Läs mer om akne i ansiktet och dess potentiella behandlingar'
+                        image_url: 'images/problems/102x102/rosacea-ansikte.webp',
+                        image_alt: 'Bild av rosacea i ansiktet',
+                        image_title: 'Exempel på rosacea i ansiktet',
+                        title: 'Rosacea i ansiktet',
+                        subtitle: 'Vanligaste området för rosacea',
+                        content: 'Rosacea uppstår oftast i ansiktet, och kan omfatta rodnad, synliga blodkärl, och ibland små, röda, pusfyllda blåsor eller knölar.',
+                        url: 'problem/rosacea/typer/rosacea-ansiktet',
+                        url_title: 'Läs mer om rosacea i ansiktet och dess potentiella behandlingar'
                   ),
                   new BasedType(
-                        image_url: 'images/problems/102x102/akne-rygg.webp',
-                        image_alt: 'Bild av akne på ryggen',
-                        image_title: 'Exempel på akne på ryggen',
-                        title: 'Akne på ryggen',
-                        subtitle: 'Även kallat Acne dorsalis',
-                        content: '',
-                        url: 'problem/akne/typer/akne-ryggen',
-                        url_title: 'Läs mer om akne på ryggen och dess potentiella behandlingar'
+                        image_url: 'images/problems/102x102/rosacea-nasa.webp',
+                        image_alt: 'Bild av rosacea på näsan',
+                        image_title: 'Exempel på rosacea på näsan',
+                        title: 'Rosacea på näsan',
+                        subtitle: 'Även kallat rhinophyma vid svår rosacea',
+                        content: 'Rosacea kan specifikt manifestera sig på näsan, vilket kan leda till en förtjockad och röd näsa, känd som rhinophyma i mer allvarliga fall.',
+                        url: 'problem/rosacea/typer/rosacea-nasan',
+                        url_title: 'Läs mer om rosacea på näsan och dess potentiella behandlingar'
                   ),
                   new BasedType(
-                        image_url: 'images/problems/102x102/akne-brost.webp',
-                        image_alt: 'Bild av akne på bröstet',
-                        image_title: 'Exempel på akne på bröstet',
-                        title: 'Akne på bröstet',
-                        subtitle: 'Även kallat Acne pectoralis',
-                        content: '',
-                        url: 'problem/akne/typer/akne-brostet',
-                        url_title: 'Läs mer om akne på bröstet och dess potentiella behandlingar'
+                        image_url: 'images/problems/102x102/rosacea-kinder.webp',
+                        image_alt: 'Bild av rosacea på kinderna',
+                        image_title: 'Exempel på rosacea på kinderna',
+                        title: 'Rosacea på kinderna',
+                        subtitle: 'Ett vanligt område för rosacea',
+                        content: 'Rosacea kan även uppstå på kinderna, och kan resultera i en ständig rodnad och synliga blodkärl.',
+                        url: 'problem/rosacea/typer/rosacea-kinder',
+                        url_title: 'Läs mer om rosacea på kinderna och dess potentiella behandlingar'
+                  ),
+                  new BasedType(
+                        image_url: 'images/problems/102x102/rosacea-panna.webp',
+                        image_alt: 'Bild av rosacea på pannan',
+                        image_title: 'Exempel på rosacea på pannan',
+                        title: 'Rosacea på pannan',
+                        subtitle: 'Ett område som kan drabbas',
+                        content: 'Rosacea kan manifestera sig på pannan, och kan innebära bestående rodnad och synliga blodkärl.',
+                        url: 'problem/rosacea/typer/rosacea-pannan',
+                        url_title: 'Läs mer om rosacea på pannan och dess potentiella behandlingar'
+                  ),
+                  new BasedType(
+                        image_url: 'images/problems/102x102/rosacea-haka.webp',
+                        image_alt: 'Bild av rosacea på hakan',
+                        image_title: 'Exempel på rosacea på hakan',
+                        title: 'Rosacea på hakan',
+                        subtitle: 'Ett möjligt område för rosacea',
+                        content: 'Rosacea kan uppstå på hakan, vilket kan leda till en konstant rodnad och synliga blodkärl.',
+                        url: 'problem/rosacea/typer/rosacea-hakan',
+                        url_title: 'Läs mer om rosacea på hakan och dess potentiella behandlingar'
+                  ),
+                  new BasedType(
+                        image_url: 'images/problems/102x102/rosacea-ogon.webp',
+                        image_alt: 'Bild av rosacea runt ögonen',
+                        image_title: 'Exempel på rosacea runt ögonen',
+                        title: 'Rosacea runt ögonen',
+                        subtitle: 'Även kallat okulär rosacea',
+                        content: 'Okulär rosacea är en form av rosacea som drabbar ögonområdet. Det kan leda till en rad symptom, inklusive rodnad, torrhet, klåda, brännande känsla, ljuskänslighet och synproblem.',
+                        url: 'problem/rosacea/typer/rosacea-ogon',
+                        url_title: 'Läs mer om rosacea runt ögonen och dess potentiella behandlingar'
                   ),
 
             )
@@ -281,10 +311,10 @@ $type_categories = array(
 
 );
 
-$types_url = '<a href="typer" title="Lär dig mer om olika typer av akne och deras behandling" class="mt-xl button b200 outline expand l10n is-hidden-tablet">Läs mer om olika typer av akne</a>
-              <a href="typer" title="Lär dig mer om olika typer av akne och deras behandling" class="mt-xl button b200 outline l10n is-hidden-mobile">Läs mer om olikta typer av akne</a>';
+$types_url = '<a href="typer" title="Lär dig mer om olika typer av rosacea och deras behandling" class="mt-xl button b200 outline expand l10n is-hidden-tablet">Läs mer om olika typer av rosacea</a>
+              <a href="typer" title="Lär dig mer om olika typer av rosacea och deras behandling" class="mt-xl button b200 outline l10n is-hidden-mobile">Läs mer om olikta typer av rosacea</a>';
 
-$symptoms_title = 'Akne symptom';
+$symptoms_title = 'Rosacea symptom';
 
 $symptoms = array(
       new Symptom(
@@ -308,50 +338,6 @@ $symptoms = array(
             aka: 'Kända som "whiteheads"',
             image_alt: 'Bild av stängda komedoner (whiteheads)',
             image_title: 'Stängda komedoner (whiteheads)'
-      ),
-      new Symptom(
-            name: 'Papler',
-            image: 'images/symptoms/102x102/papler.webp',
-            content: 'Papuler är små, fasta, röda och inflammerade blemmor som uppstår när en hårsäck blir infekterad av bakterier, oftast Propionibacterium acnes. De är vanligtvis mindre än 5 mm i diameter och kan vara känsliga vid beröring. Papuler är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.',
-            url: 'problem/akne/typer/atrophic-boxcar-scars',
-            url_title: 'Läs mer om papler (röda finnar)',
-            url_label: 'Läs mer om papler',
-            aka: 'Kända som röda finnar',
-            image_alt: 'Bild av papler (röda finnar)',
-            image_title: 'Papler (röda finnar)'
-      ),
-      new Symptom(
-            name: 'Pustler',
-            image: 'images/symptoms/102x102/pustler.webp',
-            content: 'Pustuler är röda och inflammerade blemmor som innehåller var (en blandning av döda bakterier, vita blodkroppar och döda hudceller). De ser ut som papuler men har en vit eller gul prick i mitten. Pustuler kan vara smärtsamma och är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.',
-            url: 'problem/akne/typer/atrophic-rolling-scars',
-            url_title: 'Läs mer om pustler (gula finnar)',
-            url_label: 'Läs mer om pustler',
-            aka: 'Kända som gula finnar',
-            image_alt: 'Bild av pustler (gula finnar)',
-            image_title: 'Pustler (gula finnar)'
-      ),
-      new Symptom(
-            name: 'Noduler',
-            image: 'images/symptoms/102x102/noduler.webp',
-            content: 'Noduler är större, djupare och ofta smärtsamma inflammerade blemmor som uppstår när en hårsäck blir kraftigt infekterad och inflammationen sprider sig till det omgivande vävnaden. De är vanligtvis större än 5 mm i diameter och kan vara fasta och ömma vid beröring. Noduler är vanligt förekommande på ansiktet, nacken, bröstet, ryggen och ibland även på överarmarna och skinkorna.',
-            url: 'problem/akne/typer/hypertrophic-keloid',
-            url_title: 'Läs mer om noduler (innåtfinnar)',
-            url_label: 'Läs mer om noduler',
-            aka: 'Kända som innåtfinnar',
-            image_alt: 'Bild av noduler (innåtfinnar)',
-            image_title: 'Noduler (innåtfinnar)'
-      ),
-      new Symptom(
-            name: 'Cystor',
-            image: 'images/symptoms/102x102/cystor.webp',
-            content: 'Cystor är stora, inflammerade och smärtsamma blemmor som är fyllda med var och bildas när en hårsäck blir mycket infekterad och inflammationen sprider sig djupt in i huden. De kan vara runda och mjuka eller fasta och ömma vid beröring. Cystor kan vara större än 5 mm i diameter och är vanligt förekommande på ansiktet, nacken, bröstet och ryggen. Cystisk akne kan leda till ärrbildning och kräver ofta professionell behandling.',
-            url: 'problem/akne/typer/hypertrophic-keloid',
-            url_title: 'Läs mer om cystor (bölder)',
-            url_label: 'Läs mer om cystor',
-            aka: 'Kända som bölder',
-            image_alt: 'Bild av cystor (bölder)',
-            image_title: 'Cystor (bölder)'
       ),
 );
 
