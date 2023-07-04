@@ -317,147 +317,155 @@ $types_url = '<a href="typer" title="Lär dig mer om olika typer av rosacea och 
 $symptoms_title = 'Rosacea symptom';
 
 $symptoms = array(
-      new Symptom(
-            name: 'Öppna komedoner',
-            image: 'images/symptoms/102x102/komedoner-oppna.webp',
-            content: 'Pormaskar (öppna komedoner) är små, mörka prickar som uppstår när en por täpps igen av talg (hudens naturliga olja) och döda hudceller. De är ofta svarta eller bruna på grund av oxidation, som inträffar när melanin (hudens pigment) kommer i kontakt med luft. Pormaskar kan vara platta eller lätt upphöjda och är vanligt förekommande på näsan, kinderna, pannan och hakan.',
-            url: 'problem/akne/typer/post-inflammatory-hyperpigmentaion',
-            url_title: 'Läs mer om öppna komedoner (pormaskar)',
-            url_label: 'Läs mer om öppna komedoner',
-            aka: 'Kända som pormaskar',
-            image_alt: 'Bild av öppna komedoner (pormaskar)',
-            image_title: 'Öppna komedoner (pormaskar)'
+            new Symptom(
+            name: 'Rodnad',
+            image: 'images/symptoms/102x102/rosacea-rodnad.webp',
+            content: 'Rodnad är ett vanligt symptom på rosacea och visar sig ofta som en ihållande röd färg i ansiktet, särskilt på kinderna, näsan, pannan och hakan.',
+            url: 'problem/rosacea/symtom/rodnad',
+            url_title: 'Läs mer om rodnad som symptom vid rosacea',
+            url_label: 'Läs mer om rodnad',
+            aka: 'Känd som Erythema',
+            image_alt: 'Bild av rodnad orsakad av rosacea',
+            image_title: 'Rodnad orsakad av rosacea'
       ),
+
       new Symptom(
-            name: 'Stängda komedoner',
-            image: 'images/symptoms/102x102/komedoner-stangda.webp',
-            content: 'Whiteheads (slutna komedoner) är små, vita eller hudfärgade utbuktningar som uppstår när en por täpps till av talg och döda hudceller under hudytan. De är täckta av ett tunt lager hud, vilket förhindrar oxidation och därmed behåller sin ljusa färg. Whiteheads kan vara platta eller lätt upphöjda och är vanligt förekommande på pannan, kinderna och hakan.',
-            url: 'problem/akne/typer/atrophic-icepick-scars',
-            url_title: 'Läs mer om stängda komedoner (whiteheads)',
-            url_label: 'Läs mer om stängda komedoner',
-            aka: 'Kända som "whiteheads"',
-            image_alt: 'Bild av stängda komedoner (whiteheads)',
-            image_title: 'Stängda komedoner (whiteheads)'
+            name: 'Vätskefyllda blåsor',
+            image: 'images/symptoms/102x102/rosacea-vaskefyllda-blasor.webp',
+            content: 'Vätskefyllda blåsor är ett annat symptom på rosacea. De liknar de som uppträder vid akne.',
+            url: 'problem/rosacea/symtom/vaskefyllda-blasor',
+            url_title: 'Läs mer om vätskefyllda blåsor som symptom vid rosacea',
+            url_label: 'Läs mer om vätskefyllda blåsor',
+            aka: 'Känd som Pustler',
+            image_alt: 'Bild av vätskefyllda blåsor orsakade av rosacea',
+            image_title: 'Vätskefyllda blåsor orsakade av rosacea'
+      ),
+
+      new Symptom(
+            name: 'Synliga blodkärl',
+            image: 'images/symptoms/102x102/rosacea-blodkarl.webp',
+            content: 'Vid rosacea kan de små blodkärlen i huden bli mer synliga, vilket framträder som tunna röda linjer.',
+            url: 'problem/rosacea/symtom/synliga-blodkarl',
+            url_title: 'Läs mer om synliga blodkärl som symptom vid rosacea',
+            url_label: 'Läs mer om synliga blodkärl',
+            aka: 'Känd som Telangiectasier',
+            image_alt: 'Bild av synliga blodkärl orsakade av rosacea',
+            image_title: 'Synliga blodkärl orsakade av rosacea'
+      ),
+
+      new Symptom(
+            name: 'Papler och pustler',
+            image: 'images/symptoms/102x102/rosacea-papler-pustler.webp',
+            content: 'Rosacea kan leda till utvecklingen av röda upphöjda papler och pustler som vid akne.',
+            url: 'problem/rosacea/symtom/papler-pustler',
+            url_title: 'Läs mer om papler och pustler som symptom vid rosacea',
+            url_label: 'Läs mer om papler och pustler',
+            aka: 'Känd som Papulopustulär rosacea',
+            image_alt: 'Bild av papler och pustler orsakade av rosacea',
+            image_title: 'Papler och pustler orsakade av rosacea'
+      ),
+
+      new Symptom(
+            name: 'Hudförtjockning',
+            image: 'images/symptoms/102x102/rosacea-hudfortjockning.webp',
+            content: 'Hudförtjockning, särskilt runt näsan (en tillstånd kallad rhinophyma), kan förekomma vid mer allvarliga fall av rosacea. Rhinophyma är vanligare hos män.',
+            url: 'problem/rosacea/symtom/hudfortjockning',
+            url_title: 'Läs mer om hudförtjockning som symptom vid rosacea',
+            url_label: 'Läs mer om hudförtjockning',
+            aka: 'Känd som Rhinophyma',
+            image_alt: 'Bild av hudförtjockning orsakad av rosacea',
+            image_title: 'Hudförtjockning orsakad av rosacea'
+      ),
+
+      new Symptom(
+            name: 'Ögonproblem',
+            image: 'images/symptoms/102x102/rosacea-ogonproblem.webp',
+            content: 'Okulär rosacea är en form av sjukdomen som påverkar ögonen och ögonlocken. Symptom kan inkludera torra ögon, irritation och rinnande ögon.',
+            url: 'problem/rosacea/symtom/ogonproblem',
+            url_title: 'Läs mer om ögonproblem som symptom vid rosacea',
+            url_label: 'Läs mer om ögonproblem',
+            aka: 'Känd som Okulär rosacea',
+            image_alt: 'Bild av ögonproblem orsakade av rosacea',
+            image_title: 'Ögonproblem orsakade av rosacea'
+      ),
+
+      new Symptom(
+            name: 'Brännande eller stickande känsla',
+            image: 'images/symptoms/102x102/rosacea-brannande-stickande.webp',
+            content: 'En brännande eller stickande känsla i huden är ett vanligt symptom på rosacea.',
+            url: 'problem/rosacea/symtom/brannande-stickande',
+            url_title: 'Läs mer om brännande eller stickande känsla som symptom vid rosacea',
+            url_label: 'Läs mer om brännande eller stickande känsla',
+            aka: 'Känd som Brännande eller stickande känsla',
+            image_alt: 'Bild av brännande eller stickande känsla orsakad av rosacea',
+            image_title: 'Brännande eller stickande känsla orsakad av rosacea'
       ),
 );
 
-$headline01 = "01. Identifiera din akne";
+$headline01 = "01. Identifiera din rosacea";
 
 $service = new Service(
-      id: 'akne',
+      id: 'rosacea',
       title: 'Konsultation',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Vid ett personligt möte med en acnespecialist utförs en undersökning av din akne. Vi tar före-bilder på din hud och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
+      content: 'Vid ett personligt möte med en specialist på rosacea utförs en undersökning av din hud. Vi tar före-bilder på din hud och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
       image_small: 'images/services/200x200/konsultation.webp',
       image_large: 'images/services/200x200/konsultation.webp',
-      image_alt: 'Bild av en konsultation för aknebehandling',
-      image_title: 'Konsultation för aknebehandling',
+      image_alt: 'Bild av en konsultation för rosaceabehandling',
+      image_title: 'Konsultation för rosaceabehandling',
       consultation_url: 'hudkonsultation',
       consultation_url_label: 'Boka tid för hudkonsultation',
-      consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för akne',
+      consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för rosacea',
       booking_url: null,
       booking_url_label: null,
       booking_url_title: null,
       url: 'hudkonsultation',
       url_label: 'Läs mer om vår hudkonsultation',
       url_title: 'Klicka här för att läsa mer om gratis hudkonsultation'
-
 );
 
-$headline02 = "02. Behandla aktiv akne";
+
+$headline02 = "02. Behandla aktiv rosacea";
 
 $services = array(
       new Service(
-            id: 'akne',
-            title: 'Ansiktsbehandling mot akne',
+            id: 'rosacea',
+            title: 'Ansiktsbehandling mot rosacea',
             duration: '60 min',
             price: '995 kr',
-            content: 'En effektiv ansiktsbehandling mot akne fokuserar på att noggrant extrahera orenheter som orsakar inflammation och skador i huden. Genom att försiktigt klämma ut akne och pormaskar kan behandlingen bidra till att förebygga ärrbildning och främja en snabbare läkning.',
-            image_small: 'images/services/200x200/ansiktsbehandling-akne.webp',
-            image_large: 'images/services/200x200/ansiktsbehandling-akne.webp',
-            image_alt: 'Bild av en ansiktsbehandling mot akne',
-            image_title: 'Ansiktsbehandling mot akne',
+            content: 'En effektiv ansiktsbehandling mot rosacea fokuserar på att lindra rodnad och inflammation. Genom att använda specialanpassade produkter och tekniker kan denna behandling bidra till att förbättra hudens textur och utseende.',
+            image_small: 'images/services/200x200/ansiktsbehandling-rosacea.webp',
+            image_large: 'images/services/200x200/ansiktsbehandling-rosacea.webp',
+            image_alt: 'Bild av en ansiktsbehandling mot rosacea',
+            image_title: 'Ansiktsbehandling mot rosacea',
             consultation_url: 'hudkonsultation',
             consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling mot akne',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
-            booking_url_label: 'Boka tid för ansiktsbehandling mot akne',
-            booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling mot akne',
-            url: 'ansiktsbehandling-acne',
-            url_label: 'Read more about blablabla',
-            url_title: 'Read more about blablabla'
-      ),
-      new Service(
-            id: 'laser',
-            title: 'Laser mot akne',
-            duration: '50 min',
-            price: '2595 kr',
-            content: 'En avancerad laserbehandling mot akne erbjuder en effektiv lösning för att bekämpa aktiv akne och ärr som kan uppstå efter utbrott. Lasertekniken riktar sig mot de bakterier som orsakar inflammation och hjälper till att minska produktionen av talg, vilket minskar risken för framtida utbrott.',
-            image_small: 'images/services/200x200/laser-akne.webp',
-            image_large: 'images/services/200x200/laser-akne.webp',
-            image_alt: 'Bild av laserbehandling mot akne',
-            image_title: 'Laserbehandling mot akne',
-            consultation_url: 'hudkonsultation',
-            consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling mot akne',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
-            booking_url_label: 'Boka tid för laserbehandling mot akne',
-            booking_url_title: 'Klicka för att boka tid för en laserbehandling mot akne',
-            url: 'laser-akne',
-            url_label: 'Read more about blablabla',
-            url_title: 'Read more about blablabla'
-      ),
-      new Service(
-            id: 'chemical-peeling',
-            title: 'Kemisk peeling mot akne',
-            duration: '30 min',
-            price: '1595 kr',
-            content: 'Kemisk peeling är en effektiv metod för att behandla akne. Genom att använda en speciellt framtagen lösning för att exfoliera huden, främjar kemisk peeling cellförnyelse, rensar tilltäppta porer och minskar inflammation. Resultatet är en jämnare hudton, mindre utbrott och färre synliga ärr. Det är en enkel och effektiv strategi för att ta kontroll över din akne och förbättra din hudhälsa.',
-            image_small: 'images/services/200x200/kemisk-peeling-akne.webp',
-            image_large: 'images/services/200x200/kemisk-peeling-akne.webp',
-            image_alt: 'Bild av kemisk peeling mot akne',
-            image_title: 'Kemisk peeling mot akne behandling',
-            consultation_url: 'hudkonsultation',
-            consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för kemisk peeling mot akne',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
-            booking_url_label: 'Boka tid för kemisk peeling mot akne',
-            booking_url_title: 'Klicka för att boka tid för en kemisk peeling mot akne behandling'
-      ),
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling mot rosacea',
+            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/rosacea-konsultation-1643922',
+            booking_url_label: 'Boka tid för ansiktsbehandling mot rosacea',
+            booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling mot rosacea',
+            url: 'ansiktsbehandling-rosacea',
+            url_label: 'Läs mer om ansiktsbehandling för rosacea',
+            url_title: 'Läs mer om ansiktsbehandling för rosacea'
 
-      new Service(
-            id: 'microneedling',
-            title: 'Microneedling mot akne',
-            duration: '50 min',
-            price: '2595 kr',
-            content: 'Microneedling är en innovativ behandlingsmetod för akne. Detta utförs genom att skapa små mikroskopiska kanaler i huden vilket främjar hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. Denna behandling kan effektivt minska utbrott av akne, förbättra hudens struktur och minska synligheten av akneärr. Microneedling är en säker och effektiv strategi för att ta kontroll över din akne och förbättra din hudhälsa.',
-            image_small: 'images/services/200x200/kemisk-peeling-akne.webp',
-            image_large: 'images/services/200x200/kemisk-peeling-akne.webp',
-            image_alt: 'Bild av microneedling mot akne',
-            image_title: 'Microneedling mot akne behandling',
-            consultation_url: 'hudkonsultation',
-            consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling mot akne',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
-            booking_url_label: 'Boka tid för microneedling mot akne',
-            booking_url_title: 'Klicka för att boka tid för en microneedling mot akne behandling'
       ),
 );
 
-$headline03 = "03. Förebygg uppkomsten av ny akne";
+
+$headline03 = "03. Förebygg uppkomsten av ny rosacea";
 
 $products = array(
       new Service(
-            id: 'produkter-mot-akne',
-            title: 'Produkter mot akne',
+            id: 'produkter-mot-rosacea',
+            title: 'Produkter mot rosacea',
             duration: null,
             price: 'Pris från 1495 kr',
-            content: 'För att effektivt bekämpa och förebygga akne är daglig behandling med rätt produkter avgörande. Våra akneprodukter är speciellt utformade för att hålla din hud i balans och förhindra att ny akne uppstår.',
-            image_small: 'images/services/200x200/produkter-akne.webp',
-            image_large: 'images/services/200x200/produkter-akne.webp',
-            image_alt: 'Bild av produkter designade för behandling av akne',
-            image_title: 'Effektiva produkter för bekämpning och förebyggande av akne',
+            content: 'För att effektivt behandla och förebygga rosacea är daglig behandling med rätt produkter avgörande. Våra rosacea-produkter är speciellt utformade för att hålla din hud i balans och förhindra att nya rosacea-flare-ups uppstår.',
+            image_small: 'images/services/200x200/produkter-rosacea.webp',
+            image_large: 'images/services/200x200/produkter-rosacea.webp',
+            image_alt: 'Bild av produkter designade för behandling av rosacea',
+            image_title: 'Effektiva produkter för behandling och förebyggande av rosacea',
             consultation_url: null,
             consultation_url_label: null,
             consultation_url_title: null,
@@ -467,19 +475,20 @@ $products = array(
       )
 );
 
-$headline04 = "04. Reparera post-akne";
+
+$headline04 = "04. Reparera post-rosacea";
 
 $procedures = array(
       new Service(
-            id: 'microneedling-for-acne',
-            title: 'Reparera acneärr',
-            duration: '4 behandlingsmetoder',
-            price: null,
-            content: 'Efter aktiv akne kan man uppleva post-akne, vilket innebär ärr i form av gropar i olika former och fläckar i olika färger på huden där aknen tidigare varit. Olika typer av ärr behandlas med olika metoder. Klicka här för att läsa mer om hur du kan reparera din hud och ta hand om post-akne.',
-            image_small: 'images/services/200x200/microneedling-aknearr.webp',
-            image_large: 'images/services/200x200/microneedling-aknearr.webp',
-            image_alt: 'Reparera acneärr',
-            image_title: 'Reparera acneärr',
+            id: 'ipl-for-rosacea',
+            title: 'Behandla rosacea',
+            duration: '60 minuter',
+            price: 'Pris från 995 kr',
+            content: 'Rosacea är en kronisk hudåkomma som kan leda till rodnad, utslag, och i vissa fall svullnad i ansiktet. Intense Pulsed Light (IPL) kan användas för att effektivt behandla rosacea genom att minska rodnad och synliga blodkärl. Klicka här för att läsa mer om hur du kan behandla din rosacea med IPL.',
+            image_small: 'images/services/200x200/ipl-rosacea.webp',
+            image_large: 'images/services/200x200/ipl-rosacea.webp',
+            image_alt: 'Behandla rosacea med IPL',
+            image_title: 'Behandla rosacea med IPL',
             consultation_url: null,
             consultation_url_label: null,
             consultation_url_title: null,
@@ -488,24 +497,25 @@ $procedures = array(
             booking_url_title: null
       ),
 );
+
 $articles = array(
       new Article(
-            id: 'pigmentation-causes-and-risk-factors',
+            id: 'rosacea-causes-and-risk-factors',
             title: 'Varför AcneSpecialisten?!',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
             image_alt: 'Varför AcneSpecialisten?!',
             image_title: 'Varför AcneSpecialisten?!',
-            content: '<p class="p200">Du som vill ha det som är bäst mot akne bör välja Acnespecialisten eftersom vi är experter på att behandla akne och har över 30 års erfarenhet av att ha arbetat med olika typer av akne. Vi lever upp till vårt namn genom att erbjuda personlig och professionell hjälp för att hjälpa dig att uppnå en klar och frisk hud. Vi skräddarsyr behandlingar baserade på dina individuella problem och behov, vi rekommenderar de bästa akneprodukterna för att förebygga och behandla din hud och akne. </p><p class="p200 mt-m">Genom att välja Acnespecialisten får du den mest effektiva behandlingen för ditt specifika fall och en hudvårdspartner som stöttar dig genom hela processen.</p>',
+            content: '<p class="p200">Du som vill ha det som är bäst mot rosacea bör välja AcneSpecialisten eftersom vi är experter på att behandla rosacea och har över 30 års erfarenhet av att ha arbetat med olika typer av rosacea. Vi lever upp till vårt namn genom att erbjuda personlig och professionell hjälp för att hjälpa dig att uppnå en klar och frisk hud. Vi skräddarsyr behandlingar baserade på dina individuella problem och behov, vi rekommenderar de bästa rosaceaprodukterna för att förebygga och behandla din hud och rosacea. </p><p class="p200 mt-m">Genom att välja AcneSpecialisten får du den mest effektiva behandlingen för ditt specifika fall och en hudvårdspartner som stöttar dig genom hela processen.</p>',
       ),
       new Article(
-            id: 'when-to-see-your-pigmentation-specialist',
+            id: 'when-to-see-your-rosacea-specialist',
             title: 'När ska jag besöka AcneSpecialisten?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
             image_alt: 'När ska jag besöka AcneSpecialisten?',
             image_title: 'När ska jag besöka AcneSpecialisten?',
-            content: '<p class="p200">Du bör besöka Acnespecialisten när du känner att din akne påverkar din livskvalitet eller om du har provat olika behandlingar och produkter utan att se några varaktiga förbättringar. Ju tidigare du söker hjälp, desto större är chansen att undvika ärrbildning och långvariga hudproblem. Acnespecialisten är här för att erbjuda dig expertis och skräddarsydda behandlingar oavsett om du har lindrig, måttlig eller svår akne. Tveka inte att kontakta oss för att boka en kostnadsfri konsultation och ta det första steget mot en klarare och friskare hud.</p><p class="p200 mt-m">Välj Acnespecialisten innan du går till en läkare, eftersom vi erbjuder en kostnadsfri konsultation där vi analyserar din akne och föreslår en individuell behandlingsplan. Våra specialister har stor erfarenhet av att behandla akne och kan ge dig råd om vilka produkter och behandlingar som är bäst för just din hudtyp. Att prova Acnespecialisten först kan hjälpa dig att undvika att använda tunga mediciner som kan ha biverkningar och påverka hela kroppen. Genom att boka en gratis konsultation hos oss får du en chans att se hur vi kan hjälpa dig att förbättra din hudhälsa innan du tar steget att besöka en läkare.</p>',
+            content: '<p class="p200">Du bör besöka RosaceaSpecialisten när du känner att din rosacea påverkar din livskvalitet eller om du har provat olika behandlingar och produkter utan att se några varaktiga förbättringar. Ju tidigare du söker hjälp, desto större är chansen att undvika ärrbildning och långvariga hudproblem. RosaceaSpecialisten är här för att erbjuda dig expertis och skräddarsydda behandlingar oavsett om du har lindrig, måttlig eller svår rosacea. Tveka inte att kontakta oss för att boka en kostnadsfri konsultation och ta det första steget mot en klarare och friskare hud.</p><p class="p200 mt-m">Välj RosaceaSpecialisten innan du går till en läkare, eftersom vi erbjuder en kostnadsfri konsultation där vi analyserar din rosacea och föreslår en individuell behandlingsplan. Våra specialister har stor erfarenhet av att behandla rosacea och kan ge dig råd om vilka produkter och behandlingar som är bäst för just din hudtyp. Att prova RosaceaSpecialisten först kan hjälpa dig att undvika att använda tunga mediciner som kan ha biverkningar och påverka hela kroppen. Genom att boka en gratis konsultation hos oss får du en chans att se hur vi kan hjälpa dig att förbättra din hudhälsa innan du tar steget att besöka en läkare.</p>',
       ),
 );
 $results = array(
@@ -572,83 +582,43 @@ $reviews = array(
 
 );
 $faq_categories = array(
-      'Generellt om akne' => array(
+      'Generellt om rosacea' => array(
             new Question(
-                  title: 'Hur blir jag av med min akne snabbt?',
-                  text: '<p class="p200">Att bli av med akne snabbt är en utmaning, eftersom det inte finns någon quickfix när det gäller akne. Effektiv behandling kräver att du tar hand om din hud genom att använda rätt behandlingar och produkter som passar din specifika hudtyp och akne. För att få en skräddarsydd behandlingsplan som hjälper dig att bli av med aknen så snabbt som möjligt, rekommenderar vi att du bokar en kostnadsfri hudkonsultation hos oss. Under konsultationen kommer vi att analysera din hud och hjälpa dig att utforma en anpassad behandlingsrutin som ger dig de bästa förutsättningarna för att snabbt och effektivt behandla din akne.</p>'
+                  title: 'Hur skiljer sig rosacea från andra hudsjukdomar som akne?',
+                  text: '<p class="p200">Rosacea och akne är två distinkta hudtillstånd. Även om de båda kan resultera i röda, inflammerade områden på huden, finns det några viktiga skillnader. Rosacea tenderar att uppträda i mitten av ansiktet (särskilt näsan och kinderna) och kan orsaka synliga blodkärl, röda fläckar och ibland ögonproblem. Rosacea kan också åtföljas av en brännande eller stickande känsla. Akne å andra sidan kan förekomma var som helst på kroppen och karakteriseras av pormaskar, whiteheads, och ibland cystor eller knutor under huden.</p>'
             ),
             new Question(
-                  title: 'Har jag akne även om jag bara har en finne?',
-                  text: '<p class="p200">ja, du har tekniskt sett akne även om du bara har en enstaka finne. Akne kan ta sig många olika former och innefattar alla typer av finnar, oavsett om det är enstaka eller flera, stora eller små, papler eller pustler. Många tror att de inte har akne om de endast upplever enstaka finnar då och då, men faktum är att alla dessa fall kategoriseras som akne.</p>'
+                  title: 'Är det några särskilda triggers som kan förvärra rosacea?',
+                  text: '<p class="p200">Ja, det finns många potentiella triggers som kan förvärra rosacea. Dessa kan inkludera alkohol, kryddstark mat, stress, extremt väder (som stark vind eller sol), intensiv fysisk aktivitet, varma drycker och vissa hudvårdsprodukter.</p>
+
+                        <p class="p200 mt-m">Varje person med rosacea kan ha olika triggers, och det kan vara användbart att föra en dagbok för att identifiera vilka faktorer som förvärrar ens egna symptom.</p>'
             ),
             new Question(
-                  title: 'Ska jag klämma mina finnar?',
-                  text: '<p class="p200">Vi på Acnespecialisten rekommenderar att du inte klämmer finnar själv, eftersom felaktig teknik kan leda till ärrbildning och förvärra inflammationen genom att införa bakterier från dina fingrar. Det är dock sant att finnar kan behöva klämmas, men det måste göras på rätt sätt för att undvika skador på huden. Om du undviker att klämma helt kan ärrbildning också uppstå, eftersom fettsyran i finnen fortsätter att fräta på huden.</p>
-
-                        <p class="p200 mt-m">För att klämma finnar korrekt krävs både rätt utrustning och teknik. På Acnespecialisten har vi erfarna hudterapeuter som kan hjälpa dig att behandla dina finnar på ett säkert och effektivt sätt. Genom att vända dig till oss får du den expertis och omsorg du behöver för att hantera din akne på bästa sätt. Du kan läsa mer om våra aknebehandlingar och hur de kan hjälpa dig här.</p>'
+                  title: 'Kan man helt bli av med rosacea, eller är det en kronisk sjukdom?',
+                  text: '<p class="p200">Rosacea är en kronisk sjukdom, vilket betyder att den är långvarig. Även om det inte finns något botemedel, kan symptom kontrolleras och minskas betydligt med rätt behandling.</p>'
             ),
             new Question(
-                  title: 'Försvinner aknen efter tonåren?',
-                  text: '<p class="p200">Det är svårt att ge ett entydigt svar på den frågan eftersom det varierar från person till person. För vissa kan akne vara ett tonårsproblem som försvinner när de blir äldre, medan det för andra kan övergå till vuxenakne. Det är inte säkert att aknen försvinner efter tonåren, och det kan variera beroende på individuella faktorer som hormoner, genetik och livsstil.</p>
-
-                        <p class="p200 mt-m">Akne kan uppstå i olika faser av livet och dess svårighetsgrad varierar från person till person. Vissa individer upplever akne under tonåren, som sedan försvinner när de når vuxen ålder. Andra kan vara aknefria under tonåren, men drabbas av akne som vuxna. Den mest besvärliga situationen är när någon drabbas av akne under tonåren som sedan övergår till vuxenakne.</p>
-
-                        <p class="p200 mt-m">När man når vuxen ålder och aknen fortfarande inte har försvunnit, är det stor risk att aknen har lett till ärrbildning. Det är därför viktigt att behandla akne i alla åldrar för att förebygga och minimera risken för att drabbas av acneärr. Oavsett ålder och fas av akne, bör man söka hjälp för att behandla och kontrollera sitt tillstånd, för att minska risken för långsiktiga hudproblem som ärrbildning.</p>'
+                  title: 'Vilka är de möjliga komplikationerna av rosacea om den inte behandlas?',
+                  text: '<p class="p200">Om rosacea inte behandlas kan den leda till permanenta förändringar i huden, såsom förtjockning och klumpighet, särskilt runt näsan (en tillstånd som kallas rhinophyma). Rosacea kan också orsaka allvarliga ögonproblem, inklusive infektioner och inflammation i ögonlocket och hornhinnan, vilket kan leda till synskador om det inte behandlas.</p>'
             ),
             new Question(
-                  title: 'Kan jag ha akne även om jag är vuxen?',
-                  text: '<p class="p200">Ja, akne kan drabba vuxna och det är faktiskt ganska vanligt. Vuxenakne drabbar cirka 12-22% av alla kvinnor och 3% av alla män. Den kan uppkomma vid 20-, 30- och 40-årsåldern, och ibland ännu senare. Det kallas då för vuxenakne och har också med hormonerna i din kropp att göra, men faktorerna som triggar igång din akne är lite annorlunda än vid tonårsakne.</p>
+                  title: 'Är det någon koppling mellan rosacea och kost, och finns det några livsstilsförändringar som kan hjälpa till att hantera sjukdomen?',
+                  text: '<p class="p200">Ja, vissa individer med rosacea har rapporterat att vissa livsmedel och drycker, som alkohol och kryddstark mat, kan förvärra deras symptom. Undvikande av extrem hetta och kyla samt stark sol kan också vara gynnsamt, då dessa faktorer ofta kan förvärra rosacea. Stresshantering är ytterligare en faktor att ta hänsyn till vid hantering av rosacea.</p>
 
-                        <p class="p200 mt-m">Vid tonårsakne ökar produktionen av det manliga könshormonet i din kropp. Det, i kombination med fettproduktionen, kan leda till att du drabbas av akne. Vid vuxen ålder däremot, kan aknen bero på sådant som graviditet, menstruation, alkohol, stress och preventivmedel. Alltså, yttre faktorer som triggar igång dina hormoner och får aknen att blomma upp.</p>
-
-                       <p class="p200 mt-m">Vuxenakne kan orsakas av flera faktorer, såsom hormonella förändringar, stress, genetik och användning av olämpliga hudvårdsprodukter. Hos kvinnor kan akne ofta vara kopplad till menstruationscykeln eller hormonella förändringar i samband med graviditet och menopaus.</p>
-
-                       <p class="p200 mt-m">Sammanfattningsvis kan akne drabba personer i alla åldrar, och det är viktigt att vara medveten om att akne inte bara är ett tonårsproblem.</p>'
+                        <p class="p200 mt-m">Men vi på AcneSpecialisten förstår att det kan vara en stor utmaning att konstant justera din livsstil för att hantera din rosacea. Vi är här för att hjälpa. Genom att erbjuda effektiva behandlingar mot rosacea strävar vi efter att du ska kunna leva ditt liv som du vill, utan att behöva oroa dig för dina symptom. Ta gärna kontakt med oss för mer information om hur vi kan hjälpa dig att hantera din rosacea.</p>'
             ),
-            new Question(
-                  title: 'Förvärras min akne av att jag äter choklad?',
-                  text: '<p class="p200">Nej, det är en myt att choklad direkt skulle leda till akne. Ingen vetenskaplig forskning har tydligt påvisat ett direkt samband mellan chokladkonsumtion och uppkomsten av finnar. Det som potentiellt kan påverka din akne är stress. Om du upplever stress över att du ätit choklad, kan det i sin tur bidra till akneutbrott. Men en bit choklad då och då bör inte orsaka akneutbrott hos de flesta människor.</p>'
-            ),
-            new Question(
-                  title: 'Vad kan jag göra för att bli av med min akne?',
-                  text: '<p class="p200">Att bekämpa akne effektivt kräver en individuellt anpassad strategi som kombinerar lämpliga behandlingar och hudvårdsprodukter, utformade för att passa dina unika behov och din huds specifika tillstånd. På Acnespecialisten, erbjuder vi kostnadsfria hudkonsultationer där vi kan utvärdera ditt specifika fall av akne och hjälpa till att skräddarsy en effektiv behandlingsrutin.</p>'
-            )
       ),
-      'Behandling mot akne' => array(
+      'Behandling mot rosacea' => array(
             new Question(
-                  title: 'Hur många behandlingar behövs?',
-                  text: '<p class="p200">Antalet behandlingar som behövs varierar från person till person och beror på flera faktorer, som din hudtyp, svårighetsgraden av din akne och din respons på behandlingen. Vanligtvis kan du se en förbättring efter 1 till 3 veckors regelbunden behandling.</p>
-
-                       <p class="p200 mt-m">Det är viktigt att påpeka att behandlingen hos oss inte fungerar i isolering. En väsentlig del av din framgång ligger i den dagliga användningen av de rekommenderade produkterna hemma. Det är kombinationen av professionell behandling och hemmavård som ger bästa möjliga resultat.</p>
-
-                        <p class="p200 mt-m">Om du inte upplever de förväntade förbättringarna efter en tid, uppmanar vi dig att ta kontakt med din personliga hudterapeut. Tillsammans kan vi se över dina hudvårdsrutiner och de produkter du använder, för att optimera din behandlingsplan.</p>'
+                  title: 'Hur kan hudvårdsprodukter hjälpa till att hantera symptomen på rosacea?',
+                  text: '<p class="p200">Hudvårdsprodukter kan hjälpa till att lindra symptomen på rosacea genom att lugna inflammation, minska rodnad, hydrera huden, och skydda mot solskador som kan förvärra symptomen. Behandlingar bidrar också till att kontrollera utbrott.</p>'
             ),
             new Question(
-                  title: 'Finns det en risk att min akne återkommer?',
-                  text: '<p class="p200">Ja, det finns en risk att akne återkommer, eftersom akne kan påverkas av flera faktorer såsom genetik, hormoner, livsstil och hudvård. Personer med en genetisk benägenhet för akne kan uppleva att aknen återkommer, särskilt under perioder av hormonella förändringar som pubertet, graviditet eller menstruation. Även faktorer som stress, kost och användning av olämpliga hudvårdsprodukter kan bidra till att aknen återkommer.</p>
-                       
-                       <p class="p200 mt-m">Det är dock viktigt att komma ihåg att regelbunden och korrekt hudvård kan hålla aknen i schack. Precis som vi borstar tänderna varje dag för att hålla karies borta, behöver vi underhålla vår hud för att hålla aknen borta. Det innebär att följa en anpassad hudvårdsrutin, hantera stress och upprätthålla en hälsosam livsstil. Så länge du tar hand om din hud regelbundet och på rätt sätt, kan du förhindra att aknen återkommer.</p>'
+                  title: 'Hur kan IPL behandlingar hjälpa till att behandla rosacea?',
+                  text: '<p class="p200">IPL-behandlingar kan hjälpa till att behandla rosacea genom att minska rodnad och synliga blodkärl. Ljuset från IPL-enheten riktas mot huden och kan hjälpa till att krympa blodkärlen och minska inflammation.</p>'
             ),
             new Question(
-                  title: 'Vilken är den bästa behandlingen mot akne?',
-                  text: '<p class="p200">Vilken behandling som är bäst för akne varierar beroende på individens hudtyp, aknens svårighetsgrad och orsaker till akne. Den bästa behandlingen är en skräddarsydd behandlingsplan som kombinerar rätt behandlingar, produkter och rutiner för att effektivt ta itu med den aktiva aknen och förhindra att nya utbrott uppstår. Genom att först behandla och bli av med den aktiva aknen kan du uppnå en klarare hud. Därefter är det viktigt att bibehålla resultaten med lämpliga produkter och rutiner för att motverka att nya finnar uppstår och hålla aknen under kontroll. Det rekommenderas att konsultera en av våra specialister för att få en personlig och effektiv behandlingsplan som passar just din hud och akne.</p>'
-            ),
-            new Question(
-                  title: 'Gör aknebehandlingen ont?',
-                  text: '<p class="p200">vi strävar efter att göra aknebehandlingen så behaglig som möjligt för våra klienter. Det är sant att akne ibland innebär inflammation i porerna och kan göra ont när de öppnas upp och töms. Men vi vill påpeka att smärtupplevelsen kan variera från person till person och bero på behandlingsmetoden som används. Vår erfarna personal är välutbildad och tar stor hänsyn till din komfort under behandlingen. Om du känner någon obehag, tveka inte att informera din acnespecialist så att de kan justera behandlingen efter dina behov.</p>'
-            ),
-            new Question(
-                  title: 'Vad ska jag tänka på innan behandlingen?',
-                  text: '<p class="p200">Vi vill att din behandling ska vara så smidig och bekväm som möjligt, och vi strävar efter att göra processen enkel för dig. Du behöver inte förbereda något särskilt inför ditt besök hos oss. Kom precis som du är, och vi tar hand om resten. Vi kommer att genomföra en grundlig hudanalys och skräddarsy en behandlingsplan som passar just dig och din hudtyp. Så, du kan lita på oss och bara slappna av inför din aknebehandling.</p>'
-            ),
-            new Question(
-                  title: 'Vad ska jag tänka på efter behandling?',
-                  text: '<p class="p200">Efter din aknebehandling hos Acnespecialisten kan du uppleva att huden blir något röd och irriterad. Detta är helt normalt och en del av hudens naturliga läkningsprocess. Rödheten och irritationen kommer att avta under dagarna efter behandlingen. Det är viktigt att du fortsätter att följa den hudvårdsrutin och de produktrekommendationer vi gett dig för att stödja hudens återhämtning och maximera resultaten av behandlingen.</p>
-                        
-                        <p class="p200 mt-m">Undvik att peta eller klämma på behandlade områden för att undvika eventuell ärrbildning och infektion. Dessutom är det bra att skydda huden från solen, då den kan vara extra känslig efter behandling. Använd solskyddsmedel och undvik direkt solljus så mycket som möjligt. Kom ihåg att vi på Acnespecialisten alltid finns här för dig om du har några frågor eller funderingar efter din behandling.</p>'
-            ),
-            new Question(
-                  title: 'Eftervård efter behandlingen?',
+                  title: 'Kan jag använda hudvårdsprodukter i kombination med IPL-behandlingar för att förbättra mina rosacea-symptom?',
                   text: '<p class="p200">Eftervården efter en aknebehandling hos Acnespecialisten är lika viktig som själva behandlingen. När aknen är utklämd och borta är det viktigt att förebygga uppkomsten av ny akne. Om du inte följer din eftervårdsplan kommer du att få resultat, men det kommer inte vara bestående, eftersom akneproduktionen sätter igång igen kort tid efter behandlingen.</p>
 
                   <p class="p200 mt-m">För att hålla huden i kontroll och balans är det viktigt att följa de råd och rekommendationer vi ger dig angående hudvårdsrutin och produkter. Kontinuerlig behandling och förebyggande åtgärder är avgörande för att uppnå och bibehålla en klar och frisk hud. Kom ihåg att vi på Acnespecialisten alltid finns här för att hjälpa och stötta dig genom hela processen, både under och efter din behandling.</p>',
