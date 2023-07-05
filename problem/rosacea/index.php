@@ -431,7 +431,7 @@ $procedures = array(
 $articles = array(
       new Article(
             id: 'rosacea-causes-and-risk-factors',
-            title: 'Varför AcneSpecialisten?!',
+            title: 'Varför AcneSpecialisten?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
             image_alt: 'Varför AcneSpecialisten?',
@@ -445,7 +445,7 @@ $articles = array(
             image_large: 'https://via.placeholder.com/872x456.webp',
             image_alt: 'När ska jag besöka AcneSpecialisten?',
             image_title: 'När ska jag besöka AcneSpecialisten?',
-            content: '<p class="p200">Du bör besöka RosaceaSpecialisten när du känner att din rosacea påverkar din livskvalitet eller om du har provat olika behandlingar och produkter utan att se några varaktiga förbättringar. Ju tidigare du söker hjälp, desto större är chansen att undvika ärrbildning och långvariga hudproblem. RosaceaSpecialisten är här för att erbjuda dig expertis och skräddarsydda behandlingar oavsett om du har lindrig, måttlig eller svår rosacea. Tveka inte att kontakta oss för att boka en kostnadsfri konsultation och ta det första steget mot en klarare och friskare hud.</p><p class="p200 mt-m">Välj RosaceaSpecialisten innan du går till en läkare, eftersom vi erbjuder en kostnadsfri konsultation där vi analyserar din rosacea och föreslår en individuell behandlingsplan. Våra specialister har stor erfarenhet av att behandla rosacea och kan ge dig råd om vilka produkter och behandlingar som är bäst för just din hudtyp. Att prova RosaceaSpecialisten först kan hjälpa dig att undvika att använda tunga mediciner som kan ha biverkningar och påverka hela kroppen. Genom att boka en gratis konsultation hos oss får du en chans att se hur vi kan hjälpa dig att förbättra din hudhälsa innan du tar steget att besöka en läkare.</p>',
+            content: '<p class="p200">Du bör besöka AcneSpecialisten när du känner att din rosacea påverkar din livskvalitet eller om du har provat olika behandlingar och produkter utan att se några varaktiga förbättringar. Ju tidigare du söker hjälp, desto större är chansen att undvika ärrbildning och långvariga hudproblem. AcneSpecialisten är här för att erbjuda dig expertis och skräddarsydda behandlingar oavsett om du har lindrig, måttlig eller svår rosacea. Tveka inte att kontakta oss för att boka en kostnadsfri konsultation och ta det första steget mot en klarare och friskare hud.</p><p class="p200 mt-m">Välj AcneSpecialisten innan du går till en läkare, eftersom vi erbjuder en kostnadsfri konsultation där vi analyserar din rosacea och föreslår en individuell behandlingsplan. Våra specialister har stor erfarenhet av att behandla rosacea och kan ge dig råd om vilka produkter och behandlingar som är bäst för just din hudtyp. Att prova AcneSpecialisten först kan hjälpa dig att undvika att använda tunga mediciner som kan ha biverkningar och påverka hela kroppen. Genom att boka en gratis konsultation hos oss får du en chans att se hur vi kan hjälpa dig att förbättra din hudhälsa innan du tar steget att besöka en läkare.</p>',
       ),
 );
 $results = array(
