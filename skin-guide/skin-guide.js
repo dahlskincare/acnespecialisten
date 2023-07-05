@@ -1,11 +1,3 @@
-var SkinGuide;
-(function (SkinGuide) {
-    function onReadMoreClick(button) {
-        button.remove();
-        document.querySelector('#problems-banner-expanded').classList.remove('is-hidden');
-    }
-    SkinGuide.onReadMoreClick = onReadMoreClick;
-})(SkinGuide || (SkinGuide = {}));
 if (document.body.clientWidth > 800) {
     var categories = document.querySelector('#categories-desktop');
     var categoryItems_1 = categories.querySelector('#category-items');

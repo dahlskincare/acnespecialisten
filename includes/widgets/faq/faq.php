@@ -39,7 +39,7 @@ if (!isset($faq_categories)) {
         $index = 0;
         foreach (array_keys($faq_categories) as $category) { ?>
             <div class="faq-question-category <?php if ($index > 0)
-                                                    echo 'is-hidden' ?>">
+                                                    echo 'zero-size' ?>">
                 <?php foreach ($faq_categories[$category] as $question) { ?>
                     <div class="faq-question">
                         <div class="faq-question-header" onclick="FAQ.toggleQuestionExpanded(event.target)">
@@ -48,7 +48,7 @@ if (!isset($faq_categories)) {
                             </span>
                             <?php icon('expand') ?>
                         </div>
-                        <div class="faq-question-content is-hidden">
+                        <div class="faq-question-content zero-size">
                             <?php echo $question->text ?>
                         </div>
                     </div>
@@ -83,7 +83,7 @@ if (!isset($faq_categories)) {
         $index = 0;
         foreach (array_keys($faq_categories) as $category) { ?>
             <div class="faq-question-category <?php if ($index > 0)
-                                                    echo 'is-hidden' ?>">
+                                                    echo 'zero-size' ?>">
                 <?php foreach ($faq_categories[$category] as $question) { ?>
                     <div class="faq-question">
                         <div class="faq-question-header" onclick="FAQ.toggleQuestionExpanded(event.target)">
@@ -92,7 +92,7 @@ if (!isset($faq_categories)) {
                             </span>
                             <?php icon('expand') ?>
                         </div>
-                        <div class="faq-question-content is-hidden">
+                        <div class="faq-question-content zero-size">
                             <?php echo $question->text ?>
                         </div>
                     </div>

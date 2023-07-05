@@ -112,7 +112,7 @@ $glossary_items = array(
                                     <h2><?php echo $item->title ?></h2>
                                     <p><?php echo $item->description ?></p>
                                     <div class="button text compact l10n" onclick="Glossary.onShowMoreClick(this)">Read more</div>
-                                    <p class="extended is-hidden"><?php echo $item->description_extended ?></p>
+                                    <p class="extended zero-size"><?php echo $item->description_extended ?></p>
                                 </div>
                             <?php } ?>
                         </div>

@@ -1,10 +1,3 @@
-namespace SkinGuide {
-    export function onReadMoreClick(button: Element) {
-        button.remove();
-        document.querySelector('#problems-banner-expanded').classList.remove('is-hidden');
-    }
-}
-
 if (document.body.clientWidth > 800) {
     let categories = document.querySelector('#categories-desktop');
     let categoryItems = categories.querySelector('#category-items');

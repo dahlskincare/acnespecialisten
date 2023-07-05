@@ -56,30 +56,15 @@ namespace Article {
             next.classList.remove('is-hidden');
         }
     }
-    /*
-    document.querySelectorAll('.result-overlay').forEach((resultOverlay) => {
-        let button = resultOverlay.querySelector('.ro-slider-button');
-        if (button != undefined) {
-            button.addEventListener('mousedown', onResultOverlayDown, { passive: true });
-            button.addEventListener('touchstart', onResultOverlayDown, { passive: true });
-        }
-
-        resultOverlay.addEventListener('mousemove', onResultOverlayMove, { passive: false });
-        resultOverlay.addEventListener('touchmove', onResultOverlayMove, { passive: false });
-    });
-
-    document.addEventListener('mouseup', onResultOverlayUp, { passive: true });
-    document.addEventListener('touchend', onResultOverlayUp, { passive: true });
-*/
     document.querySelectorAll('.faq-category').forEach((category: HTMLElement) => {
         if (category.children.length == 2) {
             const title = category.children[0] as HTMLElement;
             const content = category.children[1] as HTMLElement;
             title.onclick = (_e) => {
-                if (content.classList.contains('is-hidden')) {
-                    content.classList.remove('is-hidden');
+                if (content.classList.contains('zero-size')) {
+                    content.classList.remove('zero-size');
                 } else {
-                    content.classList.add('is-hidden');
+                    content.classList.add('zero-size');
                 }
             }
         }
