@@ -5,19 +5,18 @@ include_once('../widgets/symptom-card/symptom.php');
 include_once('../widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Allt om Akne - Orsaker, Behandling och Förebyggande | Acnespecialisten';
-$seo_description = 'Lär dig allt om akne, från dess orsaker till hur man behandlar och förebygger det. Skräddarsydda lösningar och expertis från Acnespecialisten.';
-$seo_keywords = 'akne, aknebehandling, orsaker till akne, förebygga akne, ta bort akne, vuxenakne, tonårsakne, akneärr, finnar, pormaskar';
+$seo_title = 'Allt om Rosacea - Orsaker, Behandling och Förebyggande | AcneSpecialisten';
+$seo_description = 'Lär dig allt om rosacea, från dess orsaker till hur man behandlar och förebygger det. Skräddarsydda lösningar och expertis från AcneSpecialisten.';
+$seo_keywords = 'rosacea, rosaceabehandling, orsaker till rosacea, förebygga rosacea, behandla rosacea, vuxenrosacea, rosacearodnad, kärlutvidgningar, rodnad, inflammation';
 
+$title = 'Rosacea';
 
-$title = 'Akne';
+$image_small = 'images/problems/424x324/rosacea.webp';
+$image_large = 'images/problems/424x456/rosacea.webp';
+$image_title = 'Visar en hud med rosacea';
+$image_alt = 'Bild som illustrerar hur rosacea ser ut på huden';
 
-$image_small = 'images/problems/424x324/akne.webp';
-$image_large = 'images/problems/424x456/akne.webp';
-$image_title = 'Visar en hud med akne';
-$image_alt = 'Bild som illustrerar hur akne ser ut på huden';
-
-$description = 'Här förklarar vi vad som kännetecknar akne, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av akne, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';
+$description = 'Här förklarar vi vad som kännetecknar rosacea, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av rosacea, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';
 
 $akas = [
       new Link(
@@ -38,7 +37,7 @@ $akas = [
 ];
 
 $nav_buttons = array(
-      'about' => 'Om akne',
+      'about' => 'Om rosacea',
       'approach' => 'Metoden',
       'types' => 'Typer',
       'symptoms' => 'Symptom',
@@ -54,7 +53,7 @@ $nav_buttons = array(
       'related-problems' => 'Relaterade problem',
 );
 
-$about_title = 'Om akne';
+$about_title = 'Om rosacea';
 
 $trivias = array(
       new ProblemTrivia(
@@ -610,18 +609,24 @@ $faq_categories = array(
       ),
       'Behandling mot rosacea' => array(
             new Question(
-                  title: 'Vilka är fördelarna med att använda specifika hudvårdsprodukter i kombination med IPL-behandlingar för att behandla rosacea?',
-                  text: '<p class="p200">De fungerar genom att minska inflammation, rodnad och ojämn hudton som ofta förknippas med rosacea. Dessutom kan solskyddsmedel hjälpa till att skydda huden från solskador, vilket kan förvärra rosacea.</p>'
+                  title: 'Vilka är de mest effektiva hudvårdsprodukterna för att lindra symtom på rosacea?',
+                  text: '<p class="p200">De mest effektiva hudvårdsprodukterna för att lindra rosaceasymptom är ofta de som lugnar huden och minskar inflammation. Dessutom kan produkter med solskyddsfaktor (SPF) hjälpa till att skydda huden mot UV-strålar, vilket kan förvärra rosaceasymptom.</p>'
             ),
             new Question(
-                  title: 'Vilka är fördelarna med att använda specifika hudvårdsprodukter i kombination med IPL-behandlingar för att behandla rosacea?',
-                  text: '<p class="p200">Användning av specifika hudvårdsprodukter i kombination med IPL-behandlingar för att behandla rosacea kan ge förbättrade resultat. Hudvårdsprodukterna kan hjälpa till att lugna huden, minska rodnad och inflammation och förbereda huden för IPL-behandling. IPL-behandlingen i sin tur kan hjälpa till att minska synliga blodkärl och jämnar ut hudtonen, vilket ger en mer omfattande lösning på rosacea-problemet.</p>'
-            ),
-            new Question(
-                  title: 'Hur kan IPL-behandlingar komplettera hudvård och ansiktsbehandlingar för att ge en mer omfattande behandling av rosacea?',
-                  text: '<p class="p200">Eftervården efter en aknebehandling hos Acnespecialisten är lika viktig som själva behandlingen. När aknen är utklämd och borta är det viktigt att förebygga uppkomsten av ny akne. Om du inte följer din eftervårdsplan kommer du att få resultat, men det kommer inte vara bestående, eftersom akneproduktionen sätter igång igen kort tid efter behandlingen.</p>
+                  title: 'Vilka typer av ansiktsbehandlingar är mest fördelaktiga för personer med rosacea och varför?',
+                  text: '<p class="p200">Vissa ansiktsbehandlingar kan vara särskilt fördelaktiga för personer med rosacea. Milt rengörande behandlingar kan hjälpa till att ta bort orenheter från huden utan att irritera den. Behandlingar som innehåller antiinflammatoriska ingredienser kan hjälpa till att minska inflammation och rodnad.</p>
 
-                  <p class="p200 mt-m">För att hålla huden i kontroll och balans är det viktigt att följa de råd och rekommendationer vi ger dig angående hudvårdsrutin och produkter. Kontinuerlig behandling och förebyggande åtgärder är avgörande för att uppnå och bibehålla en klar och frisk hud. Kom ihåg att vi på Acnespecialisten alltid finns här för att hjälpa och stötta dig genom hela processen, både under och efter din behandling.</p>',
+                  <p class="p200 mt-m">Hydrerande behandlingar kan hjälpa till att återfukta och stärka hudbarriären, vilket kan minska hudens känslighet. Det är dock viktigt att undvika behandlingar som är för hårda eller irriterande, eftersom de kan förvärra rosaceasymptomen.</p>'
+            ),
+            new Question(
+                  title: 'Hur kan regelbundna ansiktsbehandlingar förbättra tillståndet hos en person med rosacea?',
+                  text: '<p class="p200">Regelbundna ansiktsbehandlingar kan spela en nyckelroll i hanteringen av rosacea. De kan hjälpa till att hålla huden ren, minska inflammation och rodnad, återfukta huden och stärka hudbarriären. Genom att göra dessa behandlingar till en regelbunden del av din hudvårdsrutin kan du hjälpa till att hålla dina rosaceasymptom under kontroll.</p>'
+            ),
+            new Question(
+                  title: 'Finns det några särskilda steg man ska följa i sin hudvårdsrutin om man har rosacea och använder specialprodukter och ansiktsbehandlingar?',
+                  text: '<p class="p200">Ja, det finns några särskilda steg du bör följa om du har rosacea och använder specialprodukter och ansiktsbehandlingar. Det första steget är att rengöra huden varsamt med en mild rengöringsprodukt. Använd sedan en toner utan alkohol för att balansera hudens pH. Efter det, applicera eventuella medicinska krämer eller geler som du har fått utskrivna för att behandla din rosacea.</p>
+
+                  <p class="p200 mt-m">Därefter, applicera en återfuktande kräm för att hjälpa till att återfukta huden och stärka hudbarriären. Slutligen, applicera ett solskyddsmedel med bred spektrum för att skydda huden mot solens strålar. Om du använder ansiktsbehandlingar bör de passa in i denna rutin på ett sätt som passar din hud och dina specifika behov.</p>'
             ),
       ),
 );
@@ -715,18 +720,10 @@ $specialists = array(
 );
 $related_problems = array(
       new RelatedProblem(
-            id: 'acnearr',
-            name: 'Acneärr',
-            aka: 'gropar & Fläckar',
-            image: 'images/problems/102x102/acnearr.webp',
-            image_alt: '',
-            image_title: '',
-      ),
-      new RelatedProblem(
-            id: 'rosacea',
-            name: 'Rosacea',
-            aka: 'ansiktsrodnad',
-            image: 'images/problems/200x200/rosacea.webp',
+            id: 'akne',
+            name: 'Akne',
+            aka: 'acne & finnar',
+            image: 'images/problems/102x102/akne.webp',
             image_alt: '',
             image_title: '',
       ),
