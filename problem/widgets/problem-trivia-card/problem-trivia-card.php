@@ -25,7 +25,7 @@
         <span class="l10n">Läs mer</span>
         <?php icon('arrow-down') ?>
     </button>
-    <div class="p200 mt-m is-hidden" id="extended-content">
+    <div class="p200 mt-m zero-size" id="extended-content">
         <?php echo $trivia->extended_content ?>
         <button class="mt-m text b200 compact is-hidden-mobile l10n" onclick="hideExtendedContent(this)">Minimera
         </button>

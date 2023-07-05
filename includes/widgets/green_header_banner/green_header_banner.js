@@ -1,7 +1,7 @@
 var GreenHeaderBanner;
 (function (GreenHeaderBanner) {
     function onReadMoreClick(source) {
-        source.parentElement.querySelector('#banner-expanded').classList.remove('is-hidden');
+        source.parentElement.querySelector('#banner-expanded').classList.remove('zero-size');
         source.remove();
     }
     GreenHeaderBanner.onReadMoreClick = onReadMoreClick;

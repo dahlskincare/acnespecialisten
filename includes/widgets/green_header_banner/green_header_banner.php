@@ -6,7 +6,7 @@
             <p class="p200 mt-xs">
                 <span><?php echo $green_banner_content->description ?></span>
                 <span class="l10n underline h200" onclick="GreenHeaderBanner.onReadMoreClick(this)">läs mer</span>
-                <span id="banner-expanded" class="is-hidden">
+                <span id="banner-expanded" class="zero-size">
                     <?php echo $green_banner_content->description_extended ?>
                 </span>
             </p>

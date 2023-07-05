@@ -13,7 +13,7 @@
 html {
     body {
         background-color: $white-500;
-        
+
         .underline {
             text-decoration: underline;
         }
@@ -200,6 +200,15 @@ html {
 
         .elevation-medium {
             @include elevation-medium;
+        }
+
+        .zero-size {
+            display: block !important;
+            width: 0 !important;
+            height: 0 !important;
+            padding: 0 !important;
+            margin: 0 !important;
+            overflow: hidden !important;
         }
 
         /// Bulma hacks

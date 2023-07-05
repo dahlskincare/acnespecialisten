@@ -179,7 +179,7 @@ $categories = array(
                             <div class="l10n">The consultation is absolutely free, if you have not missed the scheduled visit.</div>
                             <?php icon('add'); ?>
                         </div>
-                        <div class="ib-content is-hidden">
+                        <div class="ib-content zero-size">
                             <p class="p200 l10n">More consultation info here ...</p>
                         </div>
                     </div>
