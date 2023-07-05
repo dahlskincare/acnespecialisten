@@ -838,14 +838,9 @@ $related_problems = array(
             id: 'perioral-dermatit',
             name: 'Perioral dermatit',
             aka: 'akne runt munnen',
-<<<<<<< Updated upstream
             image: 'images/problems/200x200/perioral-dermatit.webp',
             image_alt: '',
             image_title: '',
-=======
-            image: 'images/problems/200x200/perioral-dermatit.webp'
->>>>>>> Stashed changes
-
       ),
 );
 $brands = array(
