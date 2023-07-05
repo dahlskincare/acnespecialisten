@@ -610,15 +610,15 @@ $faq_categories = array(
       ),
       'Behandling mot rosacea' => array(
             new Question(
-                  title: 'Hur kan hudvårdsprodukter hjälpa till att hantera symptomen på rosacea?',
-                  text: '<p class="p200">Hudvårdsprodukter kan hjälpa till att lindra symptomen på rosacea genom att lugna inflammation, minska rodnad, hydrera huden, och skydda mot solskador som kan förvärra symptomen. Behandlingar bidrar också till att kontrollera utbrott.</p>'
+                  title: 'Vilka är fördelarna med att använda specifika hudvårdsprodukter i kombination med IPL-behandlingar för att behandla rosacea?',
+                  text: '<p class="p200">De fungerar genom att minska inflammation, rodnad och ojämn hudton som ofta förknippas med rosacea. Dessutom kan solskyddsmedel hjälpa till att skydda huden från solskador, vilket kan förvärra rosacea.</p>'
             ),
             new Question(
-                  title: 'Hur kan IPL behandlingar hjälpa till att behandla rosacea?',
-                  text: '<p class="p200">IPL-behandlingar kan hjälpa till att behandla rosacea genom att minska rodnad och synliga blodkärl. Ljuset från IPL-enheten riktas mot huden och kan hjälpa till att krympa blodkärlen och minska inflammation.</p>'
+                  title: 'Vilka är fördelarna med att använda specifika hudvårdsprodukter i kombination med IPL-behandlingar för att behandla rosacea?',
+                  text: '<p class="p200">Användning av specifika hudvårdsprodukter i kombination med IPL-behandlingar för att behandla rosacea kan ge förbättrade resultat. Hudvårdsprodukterna kan hjälpa till att lugna huden, minska rodnad och inflammation och förbereda huden för IPL-behandling. IPL-behandlingen i sin tur kan hjälpa till att minska synliga blodkärl och jämnar ut hudtonen, vilket ger en mer omfattande lösning på rosacea-problemet.</p>'
             ),
             new Question(
-                  title: 'Kan jag använda hudvårdsprodukter i kombination med IPL-behandlingar för att förbättra mina rosacea-symptom?',
+                  title: 'Hur kan IPL-behandlingar komplettera hudvård och ansiktsbehandlingar för att ge en mer omfattande behandling av rosacea?',
                   text: '<p class="p200">Eftervården efter en aknebehandling hos Acnespecialisten är lika viktig som själva behandlingen. När aknen är utklämd och borta är det viktigt att förebygga uppkomsten av ny akne. Om du inte följer din eftervårdsplan kommer du att få resultat, men det kommer inte vara bestående, eftersom akneproduktionen sätter igång igen kort tid efter behandlingen.</p>
 
                   <p class="p200 mt-m">För att hålla huden i kontroll och balans är det viktigt att följa de råd och rekommendationer vi ger dig angående hudvårdsrutin och produkter. Kontinuerlig behandling och förebyggande åtgärder är avgörande för att uppnå och bibehålla en klar och frisk hud. Kom ihåg att vi på Acnespecialisten alltid finns här för att hjälpa och stötta dig genom hela processen, både under och efter din behandling.</p>',
