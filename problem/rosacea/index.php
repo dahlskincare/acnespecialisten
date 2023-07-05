@@ -5,19 +5,18 @@ include_once('../widgets/symptom-card/symptom.php');
 include_once('../widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Allt om Akne - Orsaker, Behandling och Förebyggande | Acnespecialisten';
-$seo_description = 'Lär dig allt om akne, från dess orsaker till hur man behandlar och förebygger det. Skräddarsydda lösningar och expertis från Acnespecialisten.';
-$seo_keywords = 'akne, aknebehandling, orsaker till akne, förebygga akne, ta bort akne, vuxenakne, tonårsakne, akneärr, finnar, pormaskar';
+$seo_title = 'Allt om Rosacea - Orsaker, Behandling och Förebyggande | AcneSpecialisten';
+$seo_description = 'Lär dig allt om rosacea, från dess orsaker till hur man behandlar och förebygger det. Skräddarsydda lösningar och expertis från AcneSpecialisten.';
+$seo_keywords = 'rosacea, rosaceabehandling, orsaker till rosacea, förebygga rosacea, behandla rosacea, vuxenrosacea, rosacearodnad, kärlutvidgningar, rodnad, inflammation';
 
+$title = 'Rosacea';
 
-$title = 'Akne';
+$image_small = 'images/problems/424x324/rosacea.webp';
+$image_large = 'images/problems/424x456/rosacea.webp';
+$image_title = 'Visar en hud med rosacea';
+$image_alt = 'Bild som illustrerar hur rosacea ser ut på huden';
 
-$image_small = 'images/problems/424x324/akne.webp';
-$image_large = 'images/problems/424x456/akne.webp';
-$image_title = 'Visar en hud med akne';
-$image_alt = 'Bild som illustrerar hur akne ser ut på huden';
-
-$description = 'Här förklarar vi vad som kännetecknar akne, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av akne, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';
+$description = 'Här förklarar vi vad som kännetecknar rosacea, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av rosacea, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';
 
 $akas = [
       new Link(
@@ -38,7 +37,7 @@ $akas = [
 ];
 
 $nav_buttons = array(
-      'about' => 'Om akne',
+      'about' => 'Om rosacea',
       'approach' => 'Metoden',
       'types' => 'Typer',
       'symptoms' => 'Symptom',
@@ -54,7 +53,7 @@ $nav_buttons = array(
       'related-problems' => 'Relaterade problem',
 );
 
-$about_title = 'Om akne';
+$about_title = 'Om rosacea';
 
 $trivias = array(
       new ProblemTrivia(
@@ -240,75 +239,6 @@ $type_categories = array(
                   ),
             )
       ),
-      new BasedTypeCategory(
-            id: 'category-area',
-            title: 'Rosacea baserat på område',
-            content: '<p class="p200">Rosacea manifesterar sig vanligtvis på vissa specifika områden i ansiktet. De vanligaste områdena inkluderar näsan, kinderna, pannan och hakan. Men rosacea kan även uppträda runt ögonen och mindre vanligt på halsen och bröstet. Placeringen av rosacea kan hjälpa till att identifiera dess specifika typ och styra valet av behandling.</p>',
-            types: array(
-                  new BasedType(
-                        image_url: 'images/problems/102x102/rosacea-ansikte.webp',
-                        image_alt: 'Bild av rosacea i ansiktet',
-                        image_title: 'Exempel på rosacea i ansiktet',
-                        title: 'Rosacea i ansiktet',
-                        subtitle: 'Vanligaste området för rosacea',
-                        content: 'Rosacea uppstår oftast i ansiktet, och kan omfatta rodnad, synliga blodkärl, och ibland små, röda, pusfyllda blåsor eller knölar.',
-                        url: 'problem/rosacea/typer/rosacea-ansiktet',
-                        url_title: 'Läs mer om rosacea i ansiktet och dess potentiella behandlingar'
-                  ),
-                  new BasedType(
-                        image_url: 'images/problems/102x102/rosacea-nasa.webp',
-                        image_alt: 'Bild av rosacea på näsan',
-                        image_title: 'Exempel på rosacea på näsan',
-                        title: 'Rosacea på näsan',
-                        subtitle: 'Även kallat rhinophyma vid svår rosacea',
-                        content: 'Rosacea kan specifikt manifestera sig på näsan, vilket kan leda till en förtjockad och röd näsa, känd som rhinophyma i mer allvarliga fall.',
-                        url: 'problem/rosacea/typer/rosacea-nasan',
-                        url_title: 'Läs mer om rosacea på näsan och dess potentiella behandlingar'
-                  ),
-                  new BasedType(
-                        image_url: 'images/problems/102x102/rosacea-kinder.webp',
-                        image_alt: 'Bild av rosacea på kinderna',
-                        image_title: 'Exempel på rosacea på kinderna',
-                        title: 'Rosacea på kinderna',
-                        subtitle: 'Ett vanligt område för rosacea',
-                        content: 'Rosacea kan även uppstå på kinderna, och kan resultera i en ständig rodnad och synliga blodkärl.',
-                        url: 'problem/rosacea/typer/rosacea-kinder',
-                        url_title: 'Läs mer om rosacea på kinderna och dess potentiella behandlingar'
-                  ),
-                  new BasedType(
-                        image_url: 'images/problems/102x102/rosacea-panna.webp',
-                        image_alt: 'Bild av rosacea på pannan',
-                        image_title: 'Exempel på rosacea på pannan',
-                        title: 'Rosacea på pannan',
-                        subtitle: 'Ett område som kan drabbas',
-                        content: 'Rosacea kan manifestera sig på pannan, och kan innebära bestående rodnad och synliga blodkärl.',
-                        url: 'problem/rosacea/typer/rosacea-pannan',
-                        url_title: 'Läs mer om rosacea på pannan och dess potentiella behandlingar'
-                  ),
-                  new BasedType(
-                        image_url: 'images/problems/102x102/rosacea-haka.webp',
-                        image_alt: 'Bild av rosacea på hakan',
-                        image_title: 'Exempel på rosacea på hakan',
-                        title: 'Rosacea på hakan',
-                        subtitle: 'Ett möjligt område för rosacea',
-                        content: 'Rosacea kan uppstå på hakan, vilket kan leda till en konstant rodnad och synliga blodkärl.',
-                        url: 'problem/rosacea/typer/rosacea-hakan',
-                        url_title: 'Läs mer om rosacea på hakan och dess potentiella behandlingar'
-                  ),
-                  new BasedType(
-                        image_url: 'images/problems/102x102/rosacea-ogon.webp',
-                        image_alt: 'Bild av rosacea runt ögonen',
-                        image_title: 'Exempel på rosacea runt ögonen',
-                        title: 'Rosacea runt ögonen',
-                        subtitle: 'Även kallat okulär rosacea',
-                        content: 'Okulär rosacea är en form av rosacea som drabbar ögonområdet. Det kan leda till en rad symptom, inklusive rodnad, torrhet, klåda, brännande känsla, ljuskänslighet och synproblem.',
-                        url: 'problem/rosacea/typer/rosacea-ogon',
-                        url_title: 'Läs mer om rosacea runt ögonen och dess potentiella behandlingar'
-                  ),
-
-            )
-      )
-
 );
 
 $types_url = '<a href="typer" title="Lär dig mer om olika typer av rosacea och deras behandling" class="mt-xl button b200 outline expand l10n is-hidden-tablet">Läs mer om olika typer av rosacea</a>
@@ -501,11 +431,11 @@ $procedures = array(
 $articles = array(
       new Article(
             id: 'rosacea-causes-and-risk-factors',
-            title: 'Varför AcneSpecialisten?!',
+            title: 'Varför AcneSpecialisten?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'Varför AcneSpecialisten?!',
-            image_title: 'Varför AcneSpecialisten?!',
+            image_alt: 'Varför AcneSpecialisten?',
+            image_title: 'Varför AcneSpecialisten?',
             content: '<p class="p200">Du som vill ha det som är bäst mot rosacea bör välja AcneSpecialisten eftersom vi är experter på att behandla rosacea och har över 30 års erfarenhet av att ha arbetat med olika typer av rosacea. Vi lever upp till vårt namn genom att erbjuda personlig och professionell hjälp för att hjälpa dig att uppnå en klar och frisk hud. Vi skräddarsyr behandlingar baserade på dina individuella problem och behov, vi rekommenderar de bästa rosaceaprodukterna för att förebygga och behandla din hud och rosacea. </p><p class="p200 mt-m">Genom att välja AcneSpecialisten får du den mest effektiva behandlingen för ditt specifika fall och en hudvårdspartner som stöttar dig genom hela processen.</p>',
       ),
       new Article(
@@ -515,7 +445,7 @@ $articles = array(
             image_large: 'https://via.placeholder.com/872x456.webp',
             image_alt: 'När ska jag besöka AcneSpecialisten?',
             image_title: 'När ska jag besöka AcneSpecialisten?',
-            content: '<p class="p200">Du bör besöka RosaceaSpecialisten när du känner att din rosacea påverkar din livskvalitet eller om du har provat olika behandlingar och produkter utan att se några varaktiga förbättringar. Ju tidigare du söker hjälp, desto större är chansen att undvika ärrbildning och långvariga hudproblem. RosaceaSpecialisten är här för att erbjuda dig expertis och skräddarsydda behandlingar oavsett om du har lindrig, måttlig eller svår rosacea. Tveka inte att kontakta oss för att boka en kostnadsfri konsultation och ta det första steget mot en klarare och friskare hud.</p><p class="p200 mt-m">Välj RosaceaSpecialisten innan du går till en läkare, eftersom vi erbjuder en kostnadsfri konsultation där vi analyserar din rosacea och föreslår en individuell behandlingsplan. Våra specialister har stor erfarenhet av att behandla rosacea och kan ge dig råd om vilka produkter och behandlingar som är bäst för just din hudtyp. Att prova RosaceaSpecialisten först kan hjälpa dig att undvika att använda tunga mediciner som kan ha biverkningar och påverka hela kroppen. Genom att boka en gratis konsultation hos oss får du en chans att se hur vi kan hjälpa dig att förbättra din hudhälsa innan du tar steget att besöka en läkare.</p>',
+            content: '<p class="p200">Du bör besöka AcneSpecialisten när du känner att din rosacea påverkar din livskvalitet eller om du har provat olika behandlingar och produkter utan att se några varaktiga förbättringar. Ju tidigare du söker hjälp, desto större är chansen att undvika ärrbildning och långvariga hudproblem. AcneSpecialisten är här för att erbjuda dig expertis och skräddarsydda behandlingar oavsett om du har lindrig, måttlig eller svår rosacea. Tveka inte att kontakta oss för att boka en kostnadsfri konsultation och ta det första steget mot en klarare och friskare hud.</p><p class="p200 mt-m">Välj AcneSpecialisten innan du går till en läkare, eftersom vi erbjuder en kostnadsfri konsultation där vi analyserar din rosacea och föreslår en individuell behandlingsplan. Våra specialister har stor erfarenhet av att behandla rosacea och kan ge dig råd om vilka produkter och behandlingar som är bäst för just din hudtyp. Att prova AcneSpecialisten först kan hjälpa dig att undvika att använda tunga mediciner som kan ha biverkningar och påverka hela kroppen. Genom att boka en gratis konsultation hos oss får du en chans att se hur vi kan hjälpa dig att förbättra din hudhälsa innan du tar steget att besöka en läkare.</p>',
       ),
 );
 $results = array(
@@ -610,18 +540,24 @@ $faq_categories = array(
       ),
       'Behandling mot rosacea' => array(
             new Question(
-                  title: 'Hur kan hudvårdsprodukter hjälpa till att hantera symptomen på rosacea?',
-                  text: '<p class="p200">Hudvårdsprodukter kan hjälpa till att lindra symptomen på rosacea genom att lugna inflammation, minska rodnad, hydrera huden, och skydda mot solskador som kan förvärra symptomen. Behandlingar bidrar också till att kontrollera utbrott.</p>'
+                  title: 'Vilka är de mest effektiva hudvårdsprodukterna för att lindra symtom på rosacea?',
+                  text: '<p class="p200">De mest effektiva hudvårdsprodukterna för att lindra rosaceasymptom är ofta de som lugnar huden och minskar inflammation. Dessutom kan produkter med solskyddsfaktor (SPF) hjälpa till att skydda huden mot UV-strålar, vilket kan förvärra rosaceasymptom.</p>'
             ),
             new Question(
-                  title: 'Hur kan IPL behandlingar hjälpa till att behandla rosacea?',
-                  text: '<p class="p200">IPL-behandlingar kan hjälpa till att behandla rosacea genom att minska rodnad och synliga blodkärl. Ljuset från IPL-enheten riktas mot huden och kan hjälpa till att krympa blodkärlen och minska inflammation.</p>'
-            ),
-            new Question(
-                  title: 'Kan jag använda hudvårdsprodukter i kombination med IPL-behandlingar för att förbättra mina rosacea-symptom?',
-                  text: '<p class="p200">Eftervården efter en aknebehandling hos Acnespecialisten är lika viktig som själva behandlingen. När aknen är utklämd och borta är det viktigt att förebygga uppkomsten av ny akne. Om du inte följer din eftervårdsplan kommer du att få resultat, men det kommer inte vara bestående, eftersom akneproduktionen sätter igång igen kort tid efter behandlingen.</p>
+                  title: 'Vilka typer av ansiktsbehandlingar är mest fördelaktiga för personer med rosacea och varför?',
+                  text: '<p class="p200">Vissa ansiktsbehandlingar kan vara särskilt fördelaktiga för personer med rosacea. Milt rengörande behandlingar kan hjälpa till att ta bort orenheter från huden utan att irritera den. Behandlingar som innehåller antiinflammatoriska ingredienser kan hjälpa till att minska inflammation och rodnad.</p>
 
-                  <p class="p200 mt-m">För att hålla huden i kontroll och balans är det viktigt att följa de råd och rekommendationer vi ger dig angående hudvårdsrutin och produkter. Kontinuerlig behandling och förebyggande åtgärder är avgörande för att uppnå och bibehålla en klar och frisk hud. Kom ihåg att vi på Acnespecialisten alltid finns här för att hjälpa och stötta dig genom hela processen, både under och efter din behandling.</p>',
+                  <p class="p200 mt-m">Hydrerande behandlingar kan hjälpa till att återfukta och stärka hudbarriären, vilket kan minska hudens känslighet. Det är dock viktigt att undvika behandlingar som är för hårda eller irriterande, eftersom de kan förvärra rosaceasymptomen.</p>'
+            ),
+            new Question(
+                  title: 'Hur kan regelbundna ansiktsbehandlingar förbättra tillståndet hos en person med rosacea?',
+                  text: '<p class="p200">Regelbundna ansiktsbehandlingar kan spela en nyckelroll i hanteringen av rosacea. De kan hjälpa till att hålla huden ren, minska inflammation och rodnad, återfukta huden och stärka hudbarriären. Genom att göra dessa behandlingar till en regelbunden del av din hudvårdsrutin kan du hjälpa till att hålla dina rosaceasymptom under kontroll.</p>'
+            ),
+            new Question(
+                  title: 'Finns det några särskilda steg man ska följa i sin hudvårdsrutin om man har rosacea och använder specialprodukter och ansiktsbehandlingar?',
+                  text: '<p class="p200">Ja, det finns några särskilda steg du bör följa om du har rosacea och använder specialprodukter och ansiktsbehandlingar. Det första steget är att rengöra huden varsamt med en mild rengöringsprodukt. Använd sedan en toner utan alkohol för att balansera hudens pH. Efter det, applicera eventuella medicinska krämer eller geler som du har fått utskrivna för att behandla din rosacea.</p>
+
+                  <p class="p200 mt-m">Därefter, applicera en återfuktande kräm för att hjälpa till att återfukta huden och stärka hudbarriären. Slutligen, applicera ett solskyddsmedel med bred spektrum för att skydda huden mot solens strålar. Om du använder ansiktsbehandlingar bör de passa in i denna rutin på ett sätt som passar din hud och dina specifika behov.</p>'
             ),
       ),
 );
@@ -715,18 +651,10 @@ $specialists = array(
 );
 $related_problems = array(
       new RelatedProblem(
-            id: 'acnearr',
-            name: 'Acneärr',
-            aka: 'gropar & Fläckar',
-            image: 'images/problems/102x102/acnearr.webp',
-            image_alt: '',
-            image_title: '',
-      ),
-      new RelatedProblem(
-            id: 'rosacea',
-            name: 'Rosacea',
-            aka: 'ansiktsrodnad',
-            image: 'images/problems/200x200/rosacea.webp',
+            id: 'akne',
+            name: 'Akne',
+            aka: 'acne & finnar',
+            image: 'images/problems/102x102/akne.webp',
             image_alt: '',
             image_title: '',
       ),
