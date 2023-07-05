@@ -235,7 +235,7 @@ $type_categories = array(
                         subtitle: 'akne orsakad av hormoner',
                         content: '',
                         url: 'problem/akne/typer/hormonell-akne',
-                        url_title: 'Utforska mer om hur hormoner kan orsaka akne'
+                        url_title: 'Utforska mer om hur hormoner kan framkalla akne'
                   ),
                   new BasedType(
                         image_url: 'images/problems/102x102/kosmetika-akne.webp',
@@ -245,7 +245,7 @@ $type_categories = array(
                         subtitle: 'Även kallat Acne cosmetica',
                         content: '',
                         url: 'problem/akne/typer/kosmetika-akne',
-                        url_title: 'Lär dig mer om hur kosmetika kan orsaka akne'
+                        url_title: 'Lär dig mer om hur kosmetika kan ge akne'
                   ),
                   new BasedType(
                         image_url: 'images/problems/102x102/pill-akne.webp',
@@ -285,7 +285,7 @@ $type_categories = array(
                         subtitle: 'Även kallat Acne venenata',
                         content: '',
                         url: 'problem/akne/typer/kontakt-akne',
-                        url_title: 'Utforska mer om hur direktkontakt kan orsaka akne'
+                        url_title: 'Utforska mer om hur direktkontakt kan påverka akne'
                   ),
                   new BasedType(
                         image_url: 'images/problems/102x102/svamp-akne.webp',
@@ -295,7 +295,7 @@ $type_categories = array(
                         subtitle: 'Även kallat fungal acne',
                         content: '',
                         url: 'problem/akne/typer/fungal-akne',
-                        url_title: 'Lär dig mer om hur svampar kan orsaka akne'
+                        url_title: 'Lär dig mer om hur svamp relateras till akne'
                   )
             )
       ),
@@ -838,9 +838,13 @@ $related_problems = array(
             id: 'perioral-dermatit',
             name: 'Perioral dermatit',
             aka: 'akne runt munnen',
+<<<<<<< Updated upstream
             image: 'images/problems/200x200/perioral-dermatit.webp',
             image_alt: '',
             image_title: '',
+=======
+            image: 'images/problems/200x200/perioral-dermatit.webp'
+>>>>>>> Stashed changes
 
       ),
 );
