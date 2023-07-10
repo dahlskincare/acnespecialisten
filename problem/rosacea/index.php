@@ -430,22 +430,32 @@ $procedures = array(
 
 $articles = array(
       new Article(
-            id: 'rosacea-causes-and-risk-factors',
+            id: 'varfor-acnespecialisten-vid-rosacea',
             title: 'Varför AcneSpecialisten?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
             image_alt: 'Varför AcneSpecialisten?',
             image_title: 'Varför AcneSpecialisten?',
-            content: '<p class="p200">Du som vill ha det som är bäst mot rosacea bör välja AcneSpecialisten eftersom vi är experter på att behandla rosacea och har över 30 års erfarenhet av att ha arbetat med olika typer av rosacea. Vi lever upp till vårt namn genom att erbjuda personlig och professionell hjälp för att hjälpa dig att uppnå en klar och frisk hud. Vi skräddarsyr behandlingar baserade på dina individuella problem och behov, vi rekommenderar de bästa rosaceaprodukterna för att förebygga och behandla din hud och rosacea. </p><p class="p200 mt-m">Genom att välja AcneSpecialisten får du den mest effektiva behandlingen för ditt specifika fall och en hudvårdspartner som stöttar dig genom hela processen.</p>',
+            content: '<p class="p200">Om du har problem med rosacea och letar efter den bästa lösning, är AcneSpecialisten ditt självklara val. Med över 30 års erfarenhet inom området har vi utvecklat en djup förståelse för denna hudåkomma, dess olika typer och de mest effektiva behandlingsmetoderna. Vi är mer än bara en klinik, vi är din partner i kampen mot rosacea.</p>
+
+                        <p class="p200 mt-m">Vi tar oss tid att förstå just dina behov och skräddarsyr en behandlingsplan som passar just dig. Vår expertis inom rosacea gör att vi kan identifiera de mest effektiva produkterna för att förebygga och behandla din rosacea, samtidigt som vi ser till att de passar din individuella hudtyp och livsstil. </p>
+
+                        <p class="p200 mt-m">AcneSpecialisten erbjuder mer än bara behandling. Vi erbjuder ett omfattande stöd genom hela din resa, från första konsultation till uppföljning och underhåll. Vi vet att att hantera rosacea kan vara en utmaning och därför är vi här för att ge dig den hjälp och de verktyg du behöver för att hantera dina symptom och förbättra din livskvalitet. </p>
+
+                        <p class="p200 mt-m">Genom att välja AcneSpecialisten kan du lita på att du får den mest effektiva, individanpassade och stöttande behandlingen för din rosacea. Vi är här för att hjälpa dig uppnå klar och frisk hud. Välkommen till AcneSpecialisten - din partner i rosaceavård.</p>',
       ),
       new Article(
-            id: 'when-to-see-your-rosacea-specialist',
+            id: 'nar-ska-jag-behandla-rosacea',
             title: 'När ska jag besöka AcneSpecialisten?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
             image_alt: 'När ska jag besöka AcneSpecialisten?',
             image_title: 'När ska jag besöka AcneSpecialisten?',
-            content: '<p class="p200">Du bör besöka AcneSpecialisten när du känner att din rosacea påverkar din livskvalitet eller om du har provat olika behandlingar och produkter utan att se några varaktiga förbättringar. Ju tidigare du söker hjälp, desto större är chansen att undvika ärrbildning och långvariga hudproblem. AcneSpecialisten är här för att erbjuda dig expertis och skräddarsydda behandlingar oavsett om du har lindrig, måttlig eller svår rosacea. Tveka inte att kontakta oss för att boka en kostnadsfri konsultation och ta det första steget mot en klarare och friskare hud.</p><p class="p200 mt-m">Välj AcneSpecialisten innan du går till en läkare, eftersom vi erbjuder en kostnadsfri konsultation där vi analyserar din rosacea och föreslår en individuell behandlingsplan. Våra specialister har stor erfarenhet av att behandla rosacea och kan ge dig råd om vilka produkter och behandlingar som är bäst för just din hudtyp. Att prova AcneSpecialisten först kan hjälpa dig att undvika att använda tunga mediciner som kan ha biverkningar och påverka hela kroppen. Genom att boka en gratis konsultation hos oss får du en chans att se hur vi kan hjälpa dig att förbättra din hudhälsa innan du tar steget att besöka en läkare.</p>',
+            content: '<p class="p200">Om du känner att din rosacea hindrar dig från att leva fullt ut, eller om du har testat olika behandlingar och produkter som inte ger någon långvarig förbättring, är det dags att vända dig till AcneSpecialisten. Ju tidigare du tar itu med din rosacea, desto större chans har du att förebygga ärrbildning och permanenta hudförändringar. Oavsett om du lider av mild, måttlig eller svår rosacea, kan vi på AcneSpecialisten ge dig den expertis och de skräddarsydda behandlingsplaner du behöver. Vi bjuder in dig till en kostnadsfri konsultation där vi kan börja din resa mot en klarare, friskare hud.</p>
+
+                        <p class="p200 mt-m">Innan du överväger att uppsöka en läkare för din rosacea, överväg AcneSpecialisten. Vi erbjuder en kostnadsfri konsultation där vi noggrant utvärderar din rosacea och föreslår en individanpassad behandlingsplan. Våra specialister har omfattande erfarenhet av att behandla rosacea och kan ge dig råd om de mest effektiva produkterna och behandlingarna för just din hud. Genom att vända dig till AcneSpecialisten först, kan du undvika att behöva förlita dig på kraftfulla läkemedel som kan ha biverkningar och påverka hela kroppen. Med en kostnadsfri konsultation kan du se vad vi kan göra för din hud, innan du tar steget att uppsöka läkarvård.</p>
+
+                        <p class="p200 mt-m">AcneSpecialisten är mer än bara en klinik - vi är en partner i din rosacea-vård. Vårt team av experter står vid din sida genom varje steg av din behandlingsresa, från den första konsultationen till underhållsbehandlingar och uppföljningar. Vi är engagerade i att hjälpa dig att återfå din livskvalitet och att ge dig den friska och klara hud du förtjänar.</p>',
       ),
 );
 $results = array(
