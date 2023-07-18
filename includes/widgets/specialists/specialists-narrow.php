@@ -52,7 +52,7 @@ if (!isset($specialists)) {
         <?php foreach ($specialists as $specialist) { ?>
             <div class="column is-one-third">
                 <div class="specialist">
-                    <img src="<?php echo $specialist->image ?>" alt="<?php echo $specialist->name ?>" title="<?php echo $specialist->name ?>" width="312" height="312" />
+                    <img src="<?php echo $specialist->image ?>" alt="<?php echo $specialist->image_alt ?>" title="<?php echo $specialist->image_title ?>" width="312" height="312" />
                     <h3>
                         <?php echo $specialist->name ?>
                     </h3>
