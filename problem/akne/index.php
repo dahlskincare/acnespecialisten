@@ -504,7 +504,10 @@ $services = array(
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för kemisk peeling mot akne',
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
             booking_url_label: 'Boka tid för kemisk peeling mot akne',
-            booking_url_title: 'Klicka för att boka tid för en kemisk peeling mot akne behandling'
+            booking_url_title: 'Klicka för att boka tid för en kemisk peeling mot akne behandling',
+            url: 'kemisk-peeling-akne',
+            url_label: 'Läs mer om kemisk peeling mot akne',
+            url_title: 'Klicka här för att läsa mer om kemisk peeling mot akne'
       ),
 
       new Service(
@@ -522,7 +525,10 @@ $services = array(
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling mot akne',
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
             booking_url_label: 'Boka tid för microneedling mot akne',
-            booking_url_title: 'Klicka för att boka tid för en microneedling mot akne behandling'
+            booking_url_title: 'Klicka för att boka tid för en microneedling mot akne behandling',
+            url: 'microneedling-akne',
+            url_label: 'Läs mer om microneedling mot akne',
+            url_title: 'Klicka här för att läsa mer om microneedling mot akne'
       ),
 );
 
