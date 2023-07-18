@@ -550,7 +550,10 @@ $products = array(
             consultation_url_title: null,
             booking_url: null,
             booking_url_label: null,
-            booking_url_title: null
+            booking_url_title: null,
+            url: 'produkter-akne',
+            url_label: 'Läs mer om produkter mot akne',
+            url_title: 'Klicka här för att läsa mer om produkter mot akne'
       )
 );
 
