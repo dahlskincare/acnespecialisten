@@ -575,7 +575,10 @@ $procedures = array(
             consultation_url_title: null,
             booking_url: null,
             booking_url_label: null,
-            booking_url_title: null
+            booking_url_title: null,
+            url: 'behandling/aknearr',
+            url_label: 'Läs mer om behandlingar mot akneärr',
+            url_title: 'Klicka här för att läsa mer om våra behandlingar mot akneärr'
       ),
 );
 $articles = array(
