@@ -38,7 +38,7 @@ if (!isset($specialists)) {
     <div class="specialists-small is-hidden-tablet">
         <?php foreach ($specialists as $specialist) { ?>
             <div class="specialist">
-                <img src="<?php echo $specialist->image ?>" alt="<?php echo $specialist->name ?>" title="<?php echo $specialist->name ?>" width="240" height="240" />
+                <img src="<?php echo $specialist->image ?>" alt="<?php echo $specialist->image_alt ?>" title="<?php echo $specialist->image_title ?>" width="240" height="240" />
                 <h3>
                     <?php echo $specialist->name ?>
                 </h3>
