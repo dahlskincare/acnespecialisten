@@ -842,8 +842,8 @@ $related_problems = array(
             name: 'Acneärr',
             aka: 'gropar & Fläckar',
             image: 'images/problems/102x102/acnearr.webp',
-            image_alt: '',
-            image_title: '',
+            image_alt: 'Bild som visar acneärr, en typ av hudproblem som ofta följer efter akne',
+            image_title: 'Acneärr - en vanlig följd av akne',
 
       ),
       new RelatedProblem(
@@ -851,16 +851,16 @@ $related_problems = array(
             name: 'Rosacea',
             aka: 'ansiktsrodnad',
             image: 'images/problems/200x200/rosacea.webp',
-            image_alt: '',
-            image_title: '',
+            image_alt: 'Bild som illustrerar rosacea, ett hudtillstånd som kan förväxlas med akne',
+            image_title: 'Rosacea - en hudsjukdom som ofta förväxlas med akne',
       ),
       new RelatedProblem(
             id: 'perioral-dermatit',
             name: 'Perioral dermatit',
             aka: 'akne runt munnen',
             image: 'images/problems/200x200/perioral-dermatit.webp',
-            image_alt: '',
-            image_title: '',
+            image_alt: 'Bild som skildrar perioral dermatit, en hudåkomma som kan förväxlas med akne',
+            image_title: 'Perioral dermatit (acne runt munnen) ett hudproblem liknande akne',
       ),
 );
 $brands = array(
@@ -1203,7 +1203,7 @@ $brands = array(
                         <section id="faq">
                               <h2 class="big l10n">Frågor & Svar</h2>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" title="Frågor och svar" href="faq">Läs fler frågor & Svar</a>
+                              <a class="mt-xl button b200 outline expand auto-width l10n" title="Frågor och svar" href="faq">Läs fler frågor & svar</a>
                         </section>
                         <section id="skin-guide">
                               <div class="flex-row justify-space-between">
