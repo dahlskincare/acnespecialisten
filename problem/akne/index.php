@@ -827,7 +827,7 @@ $specialists = array(
             image: 'images/specialists/312x312/hudterapeut-amira.webp',
             image_alt: 'Amira Maqboul, hudterapeut med kunskap inom aknehantering',
             image_title: 'Amira Maqboul - Hudterapeut specialiserad på akne'
-      ),e
+      ),
       new Specialist(
             name: 'Vilma Libom',
             title: 'Hudterapeut sedan 2019',
