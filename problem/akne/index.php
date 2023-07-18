@@ -838,29 +838,31 @@ $specialists = array(
 );
 $related_problems = array(
       new RelatedProblem(
-            id: 'acnearr',
             name: 'Acneärr',
             aka: 'gropar & Fläckar',
             image: 'images/problems/102x102/acnearr.webp',
             image_alt: 'Bild som visar acneärr, en typ av hudproblem som ofta följer efter akne',
             image_title: 'Acneärr - en vanlig följd av akne',
-
+            url: 'problem/acnearr',
+            url_title: 'Acneärr'
       ),
       new RelatedProblem(
-            id: 'rosacea',
             name: 'Rosacea',
             aka: 'ansiktsrodnad',
             image: 'images/problems/200x200/rosacea.webp',
             image_alt: 'Bild som illustrerar rosacea, ett hudtillstånd som kan förväxlas med akne',
             image_title: 'Rosacea - en hudsjukdom som ofta förväxlas med akne',
+            url: 'problem/rosacea',
+            url_title: 'Rosacea'
       ),
       new RelatedProblem(
-            id: 'perioral-dermatit',
             name: 'Perioral dermatit',
             aka: 'akne runt munnen',
             image: 'images/problems/200x200/perioral-dermatit.webp',
             image_alt: 'Bild som skildrar perioral dermatit, en hudåkomma som kan förväxlas med akne',
             image_title: 'Perioral dermatit (acne runt munnen) ett hudproblem liknande akne',
+            url: 'perioral-dermatit',
+            url_title: 'Perioral dermatit',
       ),
 );
 $brands = array(

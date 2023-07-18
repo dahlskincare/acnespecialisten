@@ -247,7 +247,7 @@ $types_url = '<a href="typer" title="Lär dig mer om olika typer av rosacea och 
 $symptoms_title = 'Rosacea symptom';
 
 $symptoms = array(
-            new Symptom(
+      new Symptom(
             name: 'Rodnad',
             image: 'images/symptoms/102x102/rosacea-rodnad.webp',
             content: 'Rodnad är ett vanligt symptom på rosacea och visar sig ofta som en ihållande röd färg i ansiktet, särskilt på kinderna, näsan, pannan och hakan.',
@@ -661,20 +661,22 @@ $specialists = array(
 );
 $related_problems = array(
       new RelatedProblem(
-            id: 'akne',
             name: 'Akne',
             aka: 'acne & finnar',
             image: 'images/problems/102x102/akne.webp',
             image_alt: '',
             image_title: '',
+            url: 'problem/akne',
+            url_title: 'Akne',
       ),
       new RelatedProblem(
-            id: 'perioral-dermatit',
             name: 'Perioral dermatit',
             aka: 'akne runt munnen',
             image: 'images/problems/200x200/perioral-dermatit.webp',
             image_alt: '',
             image_title: '',
+            url: 'problem/perioral-dermatit',
+            url_title: 'Perioral dermatit'
       ),
 );
 $brands = array(

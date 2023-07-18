@@ -813,30 +813,31 @@ $specialists = array(
 );
 $related_problems = array(
       new RelatedProblem(
-            id: 'acnearr',
             name: 'Acneärr',
             aka: 'gropar & Fläckar',
             image: 'images/problems/102x102/acnearr.webp',
             image_alt: '',
             image_title: '',
-
+            url: 'problem/acnearr',
+            url_title: 'Acneärr',
       ),
       new RelatedProblem(
-            id: 'rosacea',
             name: 'Rosacea',
             aka: 'ansiktsrodnad',
             image: 'images/problems/200x200/rosacea.webp',
             image_alt: '',
             image_title: '',
+            url: 'problem/rosacea',
+            url_title: 'Rosacea'
       ),
       new RelatedProblem(
-            id: 'perioral-dermatit',
             name: 'Perioral dermatit',
             aka: 'akne runt munnen',
             image: 'images/problems/200x200/perioral-dermatit.webp',
             image_alt: '',
             image_title: '',
-
+            url: 'problem/perioral-dermatit',
+            url_title: 'Perioral dermatit'
       ),
 );
 $brands = array(

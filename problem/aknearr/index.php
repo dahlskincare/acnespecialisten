@@ -754,28 +754,31 @@ $specialists = array(
 );
 $related_problems = array(
       new RelatedProblem(
-            id: 'acne',
             name: 'Acne',
             aka: 'scars stains',
             image: 'https://via.placeholder.com/102x102.webp',
             image_alt: '',
             image_title: '',
+            url: 'problem/acne',
+            url_title: 'Acne'
       ),
       new RelatedProblem(
-            id: 'acne',
             name: 'Acne',
             aka: 'scars stains',
             image: 'https://via.placeholder.com/102x102.webp',
             image_alt: '',
             image_title: '',
+            url: 'problem/acne',
+            url_title: 'Acne'
       ),
       new RelatedProblem(
-            id: 'acne',
             name: 'Acne',
             aka: 'scars stains',
             image: 'https://via.placeholder.com/102x102.webp',
             image_alt: '',
             image_title: '',
+            url: 'problem/acne',
+            url_title: 'Acne',
       ),
 );
 $brands = array(
