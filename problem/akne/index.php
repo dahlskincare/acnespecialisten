@@ -777,8 +777,8 @@ $faq_categories = array(
       ),
 );
 
-$faq_url_label ="Få gratis konsultation";
-$faq_url_title ="Läs fler omdömen";
+$faq_url_label ="Läs fler frågor & svar";
+$faq_url_title ="läs flera frågor relaterat till akne";
 
 $skin_guide_articles = array(
       new SkinGuideArticle(
