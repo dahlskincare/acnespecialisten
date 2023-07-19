@@ -657,8 +657,8 @@ $results = array(
       ),
 );
 
-$results_url_label ="Få gratis konsultation";
-$results_url_title ="Läs fler omdömen";
+$results_url_label ="";
+$results_url_title ="";
 
 
 $reviews = array(
@@ -776,6 +776,10 @@ $faq_categories = array(
             ),
       ),
 );
+
+$faq_url_label ="Få gratis konsultation";
+$faq_url_title ="Läs fler omdömen";
+
 $skin_guide_articles = array(
       new SkinGuideArticle(
             id: 'myter-om-akne',
@@ -1233,7 +1237,7 @@ $brands = array(
                         <section id="faq">
                               <h2 class="big l10n">Frågor & Svar</h2>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" title="Frågor och svar om akne" href="faq">Läs fler frågor & svar</a>
+                              <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $faq_url_title ?>" href="faq"><?php echo $faq_url_label ?></a>
                         </section>
                         <section id="skin-guide">
                               <div class="flex-row justify-space-between">
