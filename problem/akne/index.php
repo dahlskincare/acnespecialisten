@@ -618,6 +618,8 @@ $articles = array(
             content: '<p class="p200">Du bör besöka Acnespecialisten när du känner att din akne påverkar din livskvalitet eller om du har provat olika behandlingar och produkter utan att se några varaktiga förbättringar. Ju tidigare du söker hjälp, desto större är chansen att undvika ärrbildning och långvariga hudproblem. Acnespecialisten är här för att erbjuda dig expertis och skräddarsydda behandlingar oavsett om du har lindrig, måttlig eller svår akne. Tveka inte att kontakta oss för att boka en kostnadsfri konsultation och ta det första steget mot en klarare och friskare hud.</p><p class="p200 mt-m">Välj Acnespecialisten innan du går till en läkare, eftersom vi erbjuder en kostnadsfri konsultation där vi analyserar din akne och föreslår en individuell behandlingsplan. Våra specialister har stor erfarenhet av att behandla akne och kan ge dig råd om vilka produkter och behandlingar som är bäst för just din hudtyp. Att prova Acnespecialisten först kan hjälpa dig att undvika att använda tunga mediciner som kan ha biverkningar och påverka hela kroppen. Genom att boka en gratis konsultation hos oss får du en chans att se hur vi kan hjälpa dig att förbättra din hudhälsa innan du tar steget att besöka en läkare.</p>',
       ),
 );
+
+
 $results = array(
       new ResultCustomer(
             id: '1',
@@ -655,8 +657,9 @@ $results = array(
       ),
 );
 
-$review_url_label ="Få gratis konsultation";
-$review_url_title ="Läs fler omdömen";
+$results_url_label ="Få gratis konsultation";
+$results_url_title ="Läs fler omdömen";
+
 
 $reviews = array(
       new Review(
@@ -685,6 +688,10 @@ $reviews = array(
       ),
 
 );
+
+$review_url_label ="Få gratis konsultation";
+$review_url_title ="Läs fler omdömen";
+
 $faq_categories = array(
       'Generellt om akne' => array(
             new Question(
