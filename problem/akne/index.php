@@ -36,6 +36,24 @@ $akas = [
       ),
 ];
 
+$consultation_url_label ="Få gratis konsultation";
+$consultation_url_title ="Gratis Konsultation för Akne";
+
+$booking_url_label ="Boka behandling";
+$booking_url_title ="Boka Aknebehandling";
+
+$mobile_consultation_url_label ="Få gratis konsultation";
+$mobile_consultation_url_title ="Gratis Konsultation för Akne";
+
+$mobile_booking_url_label ="Boka behandling";
+$mobile_booking_url_title ="Boka Aknebehandling";
+
+$floating_consultation_url_label ="Få gratis konsultation";
+$floating_consultation_url_title ="Gratis Konsultation för Akne";
+
+$floating_booking_url_label ="Boka behandling";
+$floating_booking_url_title ="Boka Aknebehandling";
+
 $nav_buttons = array(
       'about' => 'Om akne',
       'approach' => 'Metoden',
@@ -970,10 +988,10 @@ $brands = array(
                                           <div class="mt-xl">
                                                 <div class="columns is-2 is-variable">
                                                       <div class="column">
-                                                            <a href="hudkonsultation" title="Gratis Konsultation för Akne" class="button white expand l10n">Få gratis konsultation</a>
+                                                            <a href="hudkonsultation" title="<?php echo $floating_consultation_url_title ?>" class="button white expand l10n"><?php echo $floating_consultation_url_label ?></a>
                                                       </div>
                                                       <div class="column">
-                                                            <a href="https://bokadirekt.se" title="Boka Aknebehandling" class="button white expand l10n">Boka behandling</a>
+                                                            <a href="https://bokadirekt.se" title="<?php echo $floating_booking_url_title ?>" class="button white expand l10n"><?php echo $floating_booking_url_label ?></a>
                                                       </div>
                                                 </div>
                                           </div>
@@ -1005,10 +1023,10 @@ $brands = array(
                               <div class="mt-xl">
                                     <div class="columns is-mobile">
                                           <div class="column is-half">
-                                                <a href="hudkonsultation" title="Boka Gratis Akne-konsultation" class="button b200 white expand l10n">Gratis konsultation</a>
+                                                <a href="hudkonsultation" title="<?php echo $mobile_consultation_url_title ?>" class="button b200 white expand l10n"><?php echo $mobile_consultation_url_label ?></a>
                                           </div>
                                           <div class="column is-half">
-                                                <a href="https://bokadirekt.se" title="Boka din Aknebehandling" class="button b200 white expand l10n">Boka behandling</a>
+                                                <a href="https://bokadirekt.se" title="<?php echo $mobile_booking_url_title ?>" class="button b200 white expand l10n"><?php echo $mobile_booking_url_label ?></a>
                                           </div>
                                     </div>
                               </div>
@@ -1036,8 +1054,8 @@ $brands = array(
                                     </div>
                                     <p class="mt-s p200"><?php echo $description ?></p>
                                     <div class="mt-xl flex-row" id="book-buttons">
-                                          <a href="hudkonsultation" title="Gratis Hudkonsultation för akne" class="button b200 white l10n">Få gratis konsultation</a>
-                                          <a href="https://bokadirekt.se" title="Boka Aknebehandling" class="button b200 white l10n">Boka behandling</a>
+                                          <a href="hudkonsultation" title="<?php echo $consultation_url_title ?>" class="button b200 white l10n"><?php echo $consultation_url_label ?></a>
+                                          <a href="https://bokadirekt.se" title="B<?php echo $booking_url_title ?>" class="button b200 white l10n"><?php echo $booking_url_label ?></a>
                                     </div>
                               </div>
                         </div>
