@@ -16,23 +16,22 @@ $image_small = 'images/problems/424x324/akne.webp';
 $image_large = 'images/problems/424x456/akne.webp';
 $image_title = 'Visar en hud med akne';
 $image_alt = 'Bild som illustrerar hur akne ser ut på huden';
-
 $description = 'Här förklarar vi vad som kännetecknar akne, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av akne, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';
 
 $akas = [
       new Link(
-            url: 'problem/finnar',
             label: 'Finnar',
+            url: 'problem/finnar',
             title: 'Allt du behöver veta om finnar och deras behandling'
       ),
       new Link(
-            url: 'problem/vuxenakne',
             label: 'Vuxenakne',
+            url: 'problem/vuxenakne',
             title: 'Utforska orsaker, symptom och behandlingar av vuxenakne'
       ),
       new Link(
-            url: 'problem/tonarsakne',
             label: 'Tonårsakne',
+            url: 'problem/tonarsakne',
             title: 'Komplett guide om tonårsakne: orsaker, förebyggande och lösningar'
       ),
 ];
@@ -103,29 +102,29 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
             content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din aknetyp och skapar en individuell behandlingsplan.',
-            url: 'hudkonsultation',
             url_label: 'Få gratis konsultation',
+            url: 'hudkonsultation',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
             content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika aknetyp, så att du snabbt och säkert blir av med problemet.',
-            url: 'aknebehandling',
             url_label: 'Se aknebehandlingar',
+            url: 'aknebehandling',
             url_title: 'Utforska våra skräddarsydda aknebehandlingar'
       ),
       new TreatmentStep(
             title: 'Förebygga',
             content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny akne och hålla din hud i balans.',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
             url_label: 'Se produkter',
+            url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
             url_title: 'Hitta de bästa produkterna för att förebygga akne'
       ),
       new TreatmentStep(
             title: 'Reparera',
             content: 'När aknen är borta fokuserar vi på att reducera eventuella ärr med behandlingsmetoder som laser, microneedling och kemisk peeling för en jämn och problemfri hud.',
-            url: 'aknearr-behandling',
             url_label: 'Se ärrbehandlingar',
+            url: 'aknearr-behandling',
             url_title: 'Upptäck effektiva behandlingar för akneärr'
       ),
 
@@ -750,11 +749,11 @@ $faq_categories = array(
 );
 $skin_guide_articles = array(
       new SkinGuideArticle(
-            id: 'how-hormones-effect',
-            url_title: 'How hormones effect?',
-            title: 'How hormones effect?',
+            id: 'myter-om-akne',
+            url_title: '',
+            title: 'Myter om Akne',
             subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
-            problem: 'Acne',
+            problem: 'Akne',
             description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
             image_small: 'https://via.placeholder.com/426x324.webp',
             image_large: 'https://via.placeholder.com/872x456.jpg',
