@@ -689,8 +689,8 @@ $reviews = array(
 
 );
 
-$review_url_label ="Få gratis konsultation";
-$review_url_title ="Läs fler omdömen";
+$review_url_label ="Läs fler omdömen";
+$review_url_title ="AcneSpecialisten Omdömen";
 
 $faq_categories = array(
       'Generellt om akne' => array(
@@ -838,6 +838,10 @@ $skin_guide_articles = array(
             subcategory_id: 'subcategory-here'
       ),
 );
+
+$skinguide_url_label ="Läs fler guider";
+$skinguide_url_title ="Läs fler guider om akne";
+
 $specialists = array(
       new Specialist(
             name: 'Cazzandra Lindberg',
@@ -868,6 +872,10 @@ $specialists = array(
             image_title: 'Vilma Libom - Expert inom aknebehandling'
       )
 );
+
+$specialist_url_label ="Se alla specialister";
+$specialist_url_title ="Akne Specialiserade Hudterapeuter";
+
 $related_problems = array(
       new RelatedProblem(
             name: 'Acneärr',
@@ -963,6 +971,10 @@ $brands = array(
             url_title: 'Läs mer om Infuzion Hudföryngringslösningar'
       ),
 );
+
+$brands_url_label ="Se alla varumärken";
+$brands_url_title ="Varumärken för Aknebehandling";
+
 ?>
 
 <!DOCTYPE html>
@@ -1252,7 +1264,7 @@ $brands = array(
                                     </div>
                               </div>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide_narrow.php'); ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" href="skin-guide" title="Läs fler guider om akne">Läs fler guider</a>
+                              <a class="mt-xl button b200 outline expand auto-width l10n" href="skin-guide" title="<?php echo $skinguide_url_title ?>"><?php echo $skinguide_url_label ?></a>
                         </section>
                         <section id="specialists">
                               <div class="flex-row justify-space-between">
@@ -1267,7 +1279,7 @@ $brands = array(
                                     </div>
                               </div>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" title="Akne Specialiserade Hudterapeuter" href="specialister">Se alla specialister</a>
+                              <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $specialist_url_title ?>" href="specialister"><?php echo $specialist_url_label ?></a>
                         </section>
                         <section id="related-problems">
                               <h2 class="big l10n">Relaterade hudproblem</h2>
@@ -1283,8 +1295,8 @@ $brands = array(
                   <section id="brands">
                         <div class="flex-row align-end justify-space-between">
                               <h2 class="big l10n">Varumärken</h2>
-                              <a href="varumarken" title="Varumärken för Aknebehandling" class="button compact text is-hidden-mobile">
-                                    <span class="l10n">Se alla varumärken</span>
+                              <a href="varumarken" title="<?php echo $brands_url_title ?>" class="button compact text is-hidden-mobile">
+                                    <span class="l10n"><?php echo $brands_url_label ?></span>
                                     <?php icon('navigate-next') ?>
                               </a>
                         </div>
