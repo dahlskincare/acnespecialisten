@@ -92,7 +92,7 @@ $trivias = array(
 
             <p class="p200 mt-xl">På Acnespecialisten fokuserar vi på att förstå ditt unika tillstånd och behov. Med 30 års erfarenhet och med de bästa metoderna för att behandla akneärr, arbetar vi med att minska och förhindra permanenta märken på din hud. Att ta första steget med en kostnadsfri acneärr konsultation hos oss kan vara starten på din väg till en sund och klar hud. Förståelse för ens egen hudtyp och att arbeta tillsammans med en av våra hudvårdsexperter kan hjälpa till att utforma en effektiv behandlingsplan.</p>',
 
-            icons: array('who-infants' => 'Hormoner', 'who-teenagers' => 'Stress', 'who-adults' => 'Genetik', 'who-elders' => 'Livsstil')
+            icons: array('who-infants' => 'Inflammerad akne', 'who-teenagers' => 'Stress', 'who-adults' => 'Pillande', 'who-elders' => 'Felaktig behandling')
       ),
 
       new ProblemTrivia(
@@ -104,7 +104,7 @@ $trivias = array(
 
             <p class="p200 mt-xl">Acnespecialisten har en omfattande erfarenhet av att behandla olika hudtyper och akneärr. Med vår expertis och förståelse för din hud kan vi erbjuda skräddarsydda lösningar som passar dig. Vi ser fram emot att börja din resa mot en klar och sund hud med en kostnadsfri hudkonsultation. Att ta steget att engagera sig i en sund livsstil tillsammans med rätt hudvård kan vara avgörande för att förhindra både akne och efterföljande ärrbildning.</p>',
 
-            icons: array('who-infants' => 'Barn', 'who-teenagers' => 'Ungdommar', 'who-adults' => 'Vuxna', 'who-elders' => 'Män & Kvinnor')
+            icons: array('who-infants' => 'Kvinnor', 'who-teenagers' => 'Män', 'who-adults' => 'Ungdommar', 'who-elders' => 'Vuxna')
       ),
 
       new ProblemTrivia(
@@ -116,7 +116,7 @@ $trivias = array(
             
             <p class="p200 mt-xl">Det är också viktigt att betona att behandlingen av akneärr är en process som kan ta tid. Även om vissa metoder kan ge omedelbara förbättringar, kräver ärrbehandling ofta en långsiktig strategi och tålamod från patientens sida. Samarbete med en erfaren specialist, som Acnespecialisten, kan säkerställa att processen skräddarsys för att möta individens behov och mål. Kontakta oss för en kostnadsfri konsultation och börja din resa mot en hälsosam och klar hud idag!</p>',
 
-            icons: array('who-infants' => 'Ansiktet', 'who-teenagers' => 'Ryggen', 'who-adults' => 'Bröstet', 'who-elders' => 'Axlarna')
+            icons: array('who-infants' => 'Ansiktet', 'who-teenagers' => 'Ryggen', 'who-adults' => 'Bröstet', 'who-elders' => 'Axlar & Nacke')
       ),
 );
 $treatment_steps = array(
