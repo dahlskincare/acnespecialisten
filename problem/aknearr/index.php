@@ -31,26 +31,31 @@ $akas = [
             url: 'problem/fläckar',
             title: 'Utforska orsaker, symptom och behandlingar av post inflammatorisk hyperpigmentering i form av fläckar från akne'
       ),
+      new Link(
+            label: 'test',
+            url: 'problem/test',
+            title: 'Utforska orsaker, symptom och behandlingar av post inflammatorisk hyperpigmentering i form av test från akne'
+      ),
 ];
 
 
 $consultation_url_label ="Få gratis konsultation";
-$consultation_url_title ="Gratis Konsultation för Akne";
+$consultation_url_title ="Gratis Konsultation för Akneärr";
 
 $booking_url_label ="Boka behandling";
-$booking_url_title ="Boka Aknebehandling";
+$booking_url_title ="Boka behandling mot akneärr";
 
 $mobile_consultation_url_label ="Få gratis konsultation";
-$mobile_consultation_url_title ="Gratis Konsultation för Akne";
+$mobile_consultation_url_title ="Gratis Konsultation för Akneärr";
 
 $mobile_booking_url_label ="Boka behandling";
-$mobile_booking_url_title ="Boka Aknebehandling";
+$mobile_booking_url_title ="Boka Akneärr-behandling";
 
 $floating_consultation_url_label ="Få gratis konsultation";
-$floating_consultation_url_title ="Gratis Konsultation för Akne";
+$floating_consultation_url_title ="Gratis Konsultation för Akneärr";
 
 $floating_booking_url_label ="Boka behandling";
-$floating_booking_url_title ="Boka Aknebehandling";
+$floating_booking_url_title ="Boka behandling mot akneärr";
 
 $nav_buttons = array(
       'about' => 'Om akne',
