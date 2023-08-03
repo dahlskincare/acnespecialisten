@@ -136,9 +136,10 @@ $treatment_steps = array(
       ),
 );
 
-$treatment_link = '<a href="problem/akne/aknebehandling" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra aknebehandlingar</a>';
+$treatment_link = '<a href="problem/aknearr/aknearrbehandling" title="Utforska effektiva behandlingar för akneärr" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar för akneärr</a>';
 
-$types_title = 'Olika typer av akne';
+
+$types_title = 'Olika typer av akneärr';
 
 $type_categories = array(
       new BasedTypeCategory(
