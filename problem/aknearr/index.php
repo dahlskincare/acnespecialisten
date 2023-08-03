@@ -918,47 +918,7 @@ $brands_url_title ="Varumärken för Aknebehandling";
                               <?php echo $treatment_link ?>
 
                         </section>
-                        <?php if (sizeof($type_categories) > 0) { ?>
-                              <section id="types">
-                                    <h2 class="h500 l10n"><?php echo $types_title ?></h2>
-                                    <div class="is-hidden-tablet">
-                                          <div class="mt-m mb-xxl" id="type-category-buttons">
-                                                <?php foreach ($type_categories as $type_category) { ?>
-                                                      <a href="javascript:;" class="button b50 grey">
-                                                            <?php echo $type_category->title ?>
-                                                      </a>
-                                                <?php } ?>
-                                          </div>
-                                          <?php foreach ($type_categories as $type_category) { ?>
-                                                <div class="type-category" id="<?php echo $type_category->id ?>">
-                                                      <h3 class="h300"><?php echo $type_category->title ?></h3>
-                                                      <div class="mt-xxs type-category-content"><?php echo $type_category->content ?></div>
-                                                      <div class="type-category-cards">
-                                                            <?php foreach ($type_category->types as $type) {
-                                                                  include('../widgets/type-card/type-card.php');
-                                                            } ?>
-                                                      </div>
-                                                </div>
-                                          <?php } ?>
-                                    </div>
-                                    <div class="is-hidden-mobile">
-                                          <?php foreach ($type_categories as $type_category) { ?>
-                                                <div class="type-category-large" id="<?php echo $type_category->id ?>">
-                                                      <h3 class="h300"><?php echo $type_category->title ?></h3>
-                                                      <div class="mt-xxs type-category-content"><?php echo $type_category->content ?></div>
-                                                      <div class="columns is-3 is-variable is-multiline type-category-large-cards">
-                                                            <?php foreach ($type_category->types as $type) { ?>
-                                                                  <div class="column is-one-third">
-                                                                        <?php include('../widgets/type-card/type-card-large.php') ?>
-                                                                  </div>
-                                                            <?php } ?>
-                                                      </div>
-                                                </div>
-                                          <?php } ?>
-                                    </div>
-                                    <?php echo $types_url ?>
-                              </section>
-                        <?php } ?>
+                      
                         <?php if (sizeof($symptoms) > 0) { ?>
                               <section id="symptoms">
                                     <h2 class="h500"><?php echo $symptoms_title ?></h2>
