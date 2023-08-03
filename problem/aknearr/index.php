@@ -86,11 +86,11 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Varför',
             title: 'får man akneärr?',
-            content: '<p class="p200">Akneärr bildas när inflammerade blemmor skadar hudens kollagenfibrer. Allvarlig akne som cystor och noduler kan tränga djupt in i huden och orsaka skador på vävnaden nedanför, vilket leder till ärrbildning.</p>',
+            content: '<p class="p200">Akneärr bildas när inflammerade finnar skadar hudens kollagenfibrer. Allvarlig akne som cystor och noduler kan tränga djupt in i huden och orsaka skador på vävnaden nedanför, vilket leder till ärrbildning.</p>',
 
-            extended_content: '<p class="p200 mt-xl">När huden läker kan det bildas för mycket eller för lite kollagen på skadestället. För mycket kollagen skapar ett upphöjt ärr, medan för lite kollagen leder till en grop i huden. Att peta och klämma på finnar kan också förvärra ärrbildningen, och felaktig behandling kan leda till permanenta märken.</p>
+            extended_content: '<p class="p200 mt-xl">När huden läker kan det bildas för mycket eller för lite kollagen på skadestället. För mycket kollagen skapar ett upphöjt ärr, medan för lite kollagen leder till en grop i huden. Att peta och klämma på finnar kan också förvärra ärrbildningen, och felaktig behandling kan leda till permanenta märken och fläckar.</p>
 
-            <p class="p200 mt-xl">Förebyggande åtgärder, som tidig behandling av akne och rätt hudvård, kan minska risken för ärrbildning. Förståelse för ens egen hudtyp och arbeta tillsammans med en hudvårdsexpert kan hjälpa till att utforma en effektiv behandlingsplan.</p>',
+            <p class="p200 mt-xl">Förebyggande åtgärder, som tidig behandling av akne och rätt hudvård, kan minska risken för ärrbildning. Förståelse för ens egen hudtyp och arbeta tillsammans med en av våra hudvårdsexperter kan hjälpa till att utforma en effektiv behandlingsplan.</p>',
 
             icons: array('who-infants' => 'Hormoner', 'who-teenagers' => 'Stress', 'who-adults' => 'Genetik', 'who-elders' => 'Livsstil')
       ),
@@ -100,7 +100,7 @@ $trivias = array(
             title: 'får akneärr?',
             content: '<p class="p200">Personer som har eller har haft allvarlig akne är mest benägna att utveckla akneärr. Det är inte begränsat till en viss ålder eller kön, utan kan påverka människor genom hela livet. Genetik kan spela en roll, och om familjemedlemmar har akneärr, kan risken öka.</p>',
 
-            extended_content: '<p class="p200 mt-xl">Mörkare hudtoner kan vara mer benägna att uppleva postinflammatorisk hyperpigmentering. Även om akneärr kan påverka någon, kan tidig behandling av akne bidra till att förhindra permanenta märken.</p>
+            extended_content: '<p class="p200 mt-xl">Mörkare hudtoner kan vara mer benägna att uppleva postinflammatorisk hyperpigmentering. Även om akneärr kan påverka någon, kan tidig behandling av akne bidra till att förhindra permanenta skador.</p>
 
             <p class="p200 mt-xl">Det är också viktigt att notera att livsstilsfaktorer som kost och stress kan påverka akne, och därmed även risken för ärrbildning. En sund livsstil tillsammans med rätt hudvård kan förhindra både akne och efterföljande ärrbildning.</p>',
 
