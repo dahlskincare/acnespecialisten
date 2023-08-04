@@ -328,7 +328,7 @@ $problems['oonskad-harvaxt'] = new Problem(
 $default_problems = new ProblemArea(
       label: '',
       icon: '',
-      problem_ids: array('akne'),
+      problem_ids: array('akne','aknearr','rosacea', ),
 );
 
 $problem_areas = array(
