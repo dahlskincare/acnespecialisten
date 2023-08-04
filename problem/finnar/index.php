@@ -225,7 +225,7 @@ $type_categories = array(
                         url: 'problem/akne/typer/mycket-svar-akne',
                         url_title: 'Utforska mer information om mycket svår akne'
                   ),
-            )
+            
       ),
       new BasedTypeCategory(
             id: 'category-reason',
