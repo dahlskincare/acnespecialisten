@@ -199,40 +199,42 @@ $symptoms = array(
             image_alt: 'Bild av postinflammatorisk hypopigmentering',
             image_title: 'Postinflammatorisk hypopigmentering (vita fläckar)'
 ),
-
       new Symptom(
             name: 'Atrofiska "rolling" ärr',
             aka: 'Kända som gropar',
-            content: 'Pustuler är röda och inflammerade blemmor som innehåller var (en blandning av döda bakterier, vita blodkroppar och döda hudceller). De ser ut som papuler men har en vit eller gul prick i mitten. Pustuler kan vara smärtsamma och är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.',
+            content: 'Atrofiska "rolling" ärr är en typ av akneärr som kännetecknas av skålformade fördjupningar i huden. De får sitt namn från deras något vågiga eller "rullande" utseende. Dessa ärr uppstår när underliggande hudstrukturer förändras och orsakar ett förlust av stöd. Det resulterar i en rörlig och ojämn hudyta. Atrofiska "rolling" ärr kan behandlas med olika metoder, som laserbehandling och dermabrasion.',
             url: 'problem/akne/typer/atrophic-rolling-scars',
-            url_title: 'Läs mer om pustler (gula finnar)',
-            url_label: 'Läs mer om pustler',
-            image: 'images/symptoms/102x102/pustler.webp',
-            image_alt: 'Bild av pustler (gula finnar)',
-            image_title: 'Pustler (gula finnar)'
-      ),
+            url_title: 'Läs mer om atrofiska "rolling" ärr',
+            url_label: 'Läs mer om "rolling" ärr',
+            image: 'images/symptoms/102x102/rolling-scars.webp',
+            image_alt: 'Bild av atrofiska "rolling" ärr',
+            image_title: 'Atrofiska "rolling" ärr (gropar)'
+),
+
       new Symptom(
             name: 'Hypertrofiska ärr',
             aka: 'Kända som keloid ärr',
-            content: 'Noduler är större, djupare och ofta smärtsamma inflammerade blemmor som uppstår när en hårsäck blir kraftigt infekterad och inflammationen sprider sig till det omgivande vävnaden. De är vanligtvis större än 5 mm i diameter och kan vara fasta och ömma vid beröring. Noduler är vanligt förekommande på ansiktet, nacken, bröstet, ryggen och ibland även på överarmarna och skinkorna.',
+            content: 'Hypertrofiska ärr är tjocka och upphöjda ärr som oftast bildas som en reaktion på en skada, kirurgi eller akne. Till skillnad från keloidärr, som kan växa utöver det ursprungligt skadade området, begränsas hypertrofiska ärr till skadans gränser. De är vanligen röda eller rosa till färgen och kan vara känsliga eller klia. Med tiden kan dessa ärr ofta bli mindre framträdande, men deras textur och färg kan variera beroende på individens hudtyp och hur sårläkningen har gått till.',
             url: 'problem/akne/typer/hypertrophic-keloid',
-            url_title: 'Läs mer om noduler (innåtfinnar)',
-            url_label: 'Läs mer om noduler',
-            image: 'images/symptoms/102x102/noduler.webp',
-            image_alt: 'Bild av noduler (innåtfinnar)',
-            image_title: 'Noduler (innåtfinnar)'
-      ),
+            url_title: 'Läs mer om hypertrofiska ärr',
+            url_label: 'Läs mer om hypertrofiska ärr',
+            image: 'images/symptoms/102x102/hypertrophic-scars.webp',
+            image_alt: 'Bild av hypertrofiska ärr',
+            image_title: 'Hypertrofiska ärr (keloid ärr)'
+),
+
       new Symptom(
             name: 'Atrofiska ärr',
             aka: 'Kända som gropar',
-            content: 'Cystor är stora, inflammerade och smärtsamma blemmor som är fyllda med var och bildas när en hårsäck blir mycket infekterad och inflammationen sprider sig djupt in i huden. De kan vara runda och mjuka eller fasta och ömma vid beröring. Cystor kan vara större än 5 mm i diameter och är vanligt förekommande på ansiktet, nacken, bröstet och ryggen. Cystisk akne kan leda till ärrbildning och kräver ofta professionell behandling.',
-            url: 'problem/akne/typer/hypertrophic-keloid',
-            url_title: 'Läs mer om cystor (bölder)',
-            url_label: 'Läs mer om cystor',
-            image: 'images/symptoms/102x102/cystor.webp',
-            image_alt: 'Bild av cystor (bölder)',
-            image_title: 'Cystor (bölder)'
+            content: 'Atrofiska ärr är en typ av ärrbildning som ofta uppstår som en följd av akne eller andra inflammatoriska hudskador. De kännetecknas av en försänkning eller inbuktning i huden och kan likna små gropar eller håligheter. Denna typ av ärr uppstår när det finns en förlust av kollagen och stödjevävnad under huden, vilket leder till att området sjunker in. Atrofiska ärr kan variera i storlek och form och är vanligtvis belägna på ansiktet, där de kan påverka utseendet och ge en ojämn hudstruktur.',
+            url: 'problem/akne/typer/atrofiska-arr',
+            url_title: 'Läs mer om atrofiska ärr (gropar)',
+            url_label: 'Läs mer om atrofiska ärr',
+            image: 'images/symptoms/102x102/atrofiska-arr.webp',
+            image_alt: 'Bild av atrofiska ärr (gropar)',
+            image_title: 'Atrofiska ärr (gropar)'
       ),
+
 );
 
 $headline01 = "01. Identifiera din akne";
