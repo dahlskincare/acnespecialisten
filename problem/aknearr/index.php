@@ -327,55 +327,6 @@ $services = array(
       ),
 );
 
-$headline03 = "03. Förebygg uppkomsten av ny akne";
-
-$products = array(
-      new Service(
-            id: 'produkter-mot-akne',
-            title: 'Produkter mot akne',
-            duration: null,
-            price: 'Pris från 1495 kr',
-            content: 'För att effektivt bekämpa och förebygga akne är daglig behandling med rätt produkter avgörande. Våra akneprodukter är speciellt utformade för att hålla din hud i balans och förhindra att ny akne uppstår.',
-            image_small: 'images/services/200x200/produkter-akne.webp',
-            image_large: 'images/services/200x200/produkter-akne.webp',
-            image_alt: 'Bild av produkter designade för behandling av akne',
-            image_title: 'Effektiva produkter för bekämpning och förebyggande av akne',
-            consultation_url: null,
-            consultation_url_label: null,
-            consultation_url_title: null,
-            booking_url: null,
-            booking_url_label: null,
-            booking_url_title: null,
-            url: 'produkter-akne',
-            url_label: 'Läs mer om produkter mot akne',
-            url_title: 'Klicka här för att läsa mer om produkter mot akne'
-      )
-);
-
-$headline04 = "04. Reparera post-akne";
-
-$procedures = array(
-      new Service(
-            id: 'microneedling-for-acne',
-            title: 'Reparera acneärr',
-            duration: '4 behandlingsmetoder',
-            price: null,
-            content: 'Efter aktiv akne kan man uppleva post-akne, vilket innebär ärr i form av gropar i olika former och fläckar i olika färger på huden där aknen tidigare varit. Olika typer av ärr behandlas med olika metoder. Klicka här för att läsa mer om hur du kan reparera din hud och ta hand om post-akne.',
-            image_small: 'images/services/200x200/microneedling-aknearr.webp',
-            image_large: 'images/services/200x200/microneedling-aknearr.webp',
-            image_alt: 'Reparera acneärr',
-            image_title: 'Reparera acneärr',
-            consultation_url: null,
-            consultation_url_label: null,
-            consultation_url_title: null,
-            booking_url: null,
-            booking_url_label: null,
-            booking_url_title: null,
-            url: 'behandling/aknearr',
-            url_label: 'Läs mer om behandlingar mot akneärr',
-            url_title: 'Klicka här för att läsa mer om våra behandlingar mot akneärr'
-      ),
-);
 $articles = array(
       new Article(
             id: 'pigmentation-causes-and-risk-factors',
