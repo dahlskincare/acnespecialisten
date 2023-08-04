@@ -237,29 +237,30 @@ $symptoms = array(
 
 );
 
-$headline01 = "01. Identifiera din akne";
+$headline01 = "01. Identifiera dina akneärr";
 
 $service = new Service(
-      id: 'akne',
-      title: 'Konsultation',
+      id: 'aknearr',
+      title: 'Akneärr Konsultation',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Vid ett personligt möte med en acnespecialist utförs en undersökning av din akne. Vi tar före-bilder på din hud och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
-      image_small: 'images/services/200x200/konsultation.webp',
-      image_large: 'images/services/200x200/konsultation.webp',
-      image_alt: 'Bild av en konsultation för aknebehandling',
-      image_title: 'Konsultation för aknebehandling',
-      consultation_url: 'hudkonsultation',
-      consultation_url_label: 'Boka tid för hudkonsultation',
-      consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för akne',
+      content: 'Vid ett personligt möte med en specialist inom akneärr utförs en noggrann undersökning av dina ärr. Vi tar före-bilder på de drabbade områdena och diskuterar dina mål och förväntningar. En skräddarsydd behandlingsplan anpassad efter dina individuella behov och ärrets typ rekommenderas.',
+      image_small: 'images/services/200x200/aknearr-konsultation.webp',
+      image_large: 'images/services/200x200/aknearr-konsultation.webp',
+      image_alt: 'Bild av en konsultation för akneärrbehandling',
+      image_title: 'Konsultation för akneärrbehandling',
+      consultation_url: 'aknearr-konsultation',
+      consultation_url_label: 'Boka tid för akneärrkonsultation',
+      consultation_url_title: 'Klicka för att boka tid för en konsultation för akneärr',
       booking_url: null,
       booking_url_label: null,
       booking_url_title: null,
-      url: 'hudkonsultation',
-      url_label: 'Läs mer om vår hudkonsultation',
-      url_title: 'Klicka här för att läsa mer om gratis hudkonsultation'
+      url: 'aknearr-konsultation',
+      url_label: 'Läs mer om vår konsultation för akneärr',
+      url_title: 'Klicka här för att läsa mer om gratis konsultation för akneärr'
 
 );
+
 
 $headline02 = "02. Behandla aktiv akne";
 
