@@ -349,7 +349,7 @@ $type_categories = array(
                         url_title: 'Läs mer om akne på bröstet och dess potentiella behandlingar'
                   ),
 
-            )
+            
       )
 
 );
