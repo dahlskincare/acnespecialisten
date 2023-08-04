@@ -148,7 +148,7 @@ $symptoms = array(
             content: 'Postinflammatorisk hyperpigmentering (PIH) uppstår som ett resultat av inflammation i huden efter akne. Denna typ av mörka fläckar är inte faktiska ärr utan är ett exempel på överpigmentering. När huden läker från en inflammation, kan det hända att melanin, som ger huden dess färg, produceras i överflöd vilket resulterar i mörkare fläckar eller fläckar. Dessa kan vara brunaktiga, svarta eller till och med blåaktiga beroende på hudtyp och färg. PIH är vanligtvis platt mot huden, till skillnad från upphöjda eller indragna akneärr.',
             url: 'problem/akne/typer/post-inflammatory-hyperpigmentaion',
             url_title: 'Läs mer om postinflammatorisk hyperpigmentering',
-            url_label: 'Läs mer om postinflammatorisk hyperpigmentering',
+            url_label: 'Läs mer',
             image: 'images/symptoms/102x102/postinflammatorisk_hyperpigmentering.webp',
             image_alt: 'Bild av postinflammatorisk hyperpigmentering',
             image_title: 'Postinflammatorisk hyperpigmentering'
@@ -159,7 +159,7 @@ $symptoms = array(
             content: 'Atrofiska "ice-pick" ärr är små, men djupa ärr som sträcker sig in i huden, och har ett utseende som påminner om skador orsakade av en ishacka. Dessa ärr är ofta smala vid ytan och vidgar sig nedåt in i dermis. Det är den djupa punktering som ger ärret dess karakteristiska utseende. Denna typ av ärrbildning uppstår oftast efter cystisk akne eller andra hudinfektioner och kan vara särskilt utmanande att behandla på grund av deras djup. Ice-pick ärr kan uppträda överallt där akne har varit, men de är vanligast på kinderna.',
             url: 'problem/akne/typer/atrophic-icepick-scars',
             url_title: 'Läs mer om atrofiska "ice-pick" ärr',
-            url_label: 'Läs mer om ice-pick ärr',
+            url_label: 'Läs mer',
             image: 'images/symptoms/102x102/atrofiska-icepick-ar.webp',
             image_alt: 'Bild av atrofiska "ice-pick" ärr',
             image_title: 'Atrofiska "ice-pick" ärr'
@@ -227,9 +227,9 @@ $symptoms = array(
             name: 'Atrofiska ärr',
             aka: 'Kända som gropar',
             content: 'Atrofiska ärr är en typ av ärrbildning som ofta uppstår som en följd av akne eller andra inflammatoriska hudskador. De kännetecknas av en försänkning eller inbuktning i huden och kan likna små gropar eller håligheter. Denna typ av ärr uppstår när det finns en förlust av kollagen och stödjevävnad under huden, vilket leder till att området sjunker in. Atrofiska ärr kan variera i storlek och form och är vanligtvis belägna på ansiktet, där de kan påverka utseendet och ge en ojämn hudstruktur.',
-            url: 'problem/akne/typer/atrofiska-arr',
-            url_title: 'Läs mer om atrofiska ärr (gropar)',
-            url_label: 'Läs mer om atrofiska ärr',
+            url: null,
+            url_title: null,
+            url_label: null,
             image: 'images/symptoms/102x102/atrofiska-arr.webp',
             image_alt: 'Bild av atrofiska ärr (gropar)',
             image_title: 'Atrofiska ärr (gropar)'
