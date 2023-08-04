@@ -390,7 +390,7 @@ $results = array(
 );
 
 $results_url_label ="Se fler resultat";
-$results_url_title ="se flera aknbehandlingsresultat";
+$results_url_title ="se flera behandlingsresultat från akneärr";
 
 
 $reviews = array(
@@ -427,44 +427,32 @@ $review_url_title ="AcneSpecialisten Omdömen";
 $faq_categories = array(
       'Generellt om akne' => array(
             new Question(
-                  title: 'Hur blir jag av med min akne snabbt?',
-                  text: '<p class="p200">Att bli av med akne snabbt är en utmaning, eftersom det inte finns någon quickfix när det gäller akne. Effektiv behandling kräver att du tar hand om din hud genom att använda rätt behandlingar och produkter som passar din specifika hudtyp och akne. För att få en skräddarsydd behandlingsplan som hjälper dig att bli av med aknen så snabbt som möjligt, rekommenderar vi att du bokar en kostnadsfri hudkonsultation hos oss. Under konsultationen kommer vi att analysera din hud och hjälpa dig att utforma en anpassad behandlingsrutin som ger dig de bästa förutsättningarna för att snabbt och effektivt behandla din akne.</p>'
+                  title: 'Är det möjligt att helt bli av med mina acneärr?',
+                  text: '<p class="p200">Ja, det är absolut möjligt att bli av med dina acneärr! Under vår kostnadsfria hudkonsultation kommer vi att noggrant undersöka och identifiera graden av ditt problem för att hjälpa dig att behandla det på bästa möjliga sätt. Genom att följa våra individuella råd och den skräddarsydda behandlingsplan vi rekommenderar, kan dina acneärr försvinna. Det är dock viktigt att förstå att tidsramen kan variera beroende på hur grova eller djupa ärr du har. Vi kommer att arbeta tillsammans med dig för att uppnå det bästa resultatet.</p>'
             ),
             new Question(
-                  title: 'Har jag akne även om jag bara har en finne?',
-                  text: '<p class="p200">ja, du har tekniskt sett akne även om du bara har en enstaka finne. Akne kan ta sig många olika former och innefattar alla typer av finnar, oavsett om det är enstaka eller flera, stora eller små, papler eller pustler. Många tror att de inte har akne om de endast upplever enstaka finnar då och då, men faktum är att alla dessa fall kategoriseras som akne.</p>'
+                  title: 'Har jag fått ärr eftersom jag har klämt på finnarna?',
+                  text: '<p class="p200">Inte nödvändigtvis. Även om det klart kan vara en faktor – särskilt om du har plockat eller klämt på finnar som inte varit mogna – är det inte alltid orsaken till ärrbildning. Ofta handlar det snarare om att aknen inte har behandlats på rätt sätt, vilket har tillåtit den att skada hudens lager. På Acnespecialisten kan vi hjälpa dig att förstå dina specifika förhållanden och behandla dem på ett sätt som minimerar riskerna för framtida ärrbildning.</p>'
             ),
             new Question(
-                  title: 'Ska jag klämma mina finnar?',
-                  text: '<p class="p200">Vi på Acnespecialisten rekommenderar att du inte klämmer finnar själv, eftersom felaktig teknik kan leda till ärrbildning och förvärra inflammationen genom att införa bakterier från dina fingrar. Det är dock sant att finnar kan behöva klämmas, men det måste göras på rätt sätt för att undvika skador på huden. Om du undviker att klämma helt kan ärrbildning också uppstå, eftersom fettsyran i finnen fortsätter att fräta på huden.</p>
-
-                        <p class="p200 mt-m">För att klämma finnar korrekt krävs både rätt utrustning och teknik. På Acnespecialisten har vi erfarna hudterapeuter som kan hjälpa dig att behandla dina finnar på ett säkert och effektivt sätt. Genom att vända dig till oss får du den expertis och omsorg du behöver för att hantera din akne på bästa sätt. Du kan läsa mer om våra aknebehandlingar och hur de kan hjälpa dig här.</p>'
+                  title: 'Kan mina ärr komma tillbaka efter behandling?',
+                  text: '<p class="p200">Nej, de ärr som du redan har behandlat bort kommer inte tillbaka. Men det är viktigt att förstå att om du inte behandlar själva orsaken till ärrbildningen, det vill säga aknen, kan nya ärr uppstå. På Acnespecialisten fokuserar vi inte bara på att behandla själva ärrbildningen, utan vi ser till att ta itu med roten till problemet och behandlar själva aknen. Detta hjälper dig att förhindra att nya ärr bildas, och ger dig den bästa chansen till en frisk och klar hud.</p>'
             ),
             new Question(
-                  title: 'Försvinner aknen efter tonåren?',
-                  text: '<p class="p200">Det är svårt att ge ett entydigt svar på den frågan eftersom det varierar från person till person. För vissa kan akne vara ett tonårsproblem som försvinner när de blir äldre, medan det för andra kan övergå till vuxenakne. Det är inte säkert att aknen försvinner efter tonåren, och det kan variera beroende på individuella faktorer som hormoner, genetik och livsstil.</p>
-
-                        <p class="p200 mt-m">Akne kan uppstå i olika faser av livet och dess svårighetsgrad varierar från person till person. Vissa individer upplever akne under tonåren, som sedan försvinner när de når vuxen ålder. Andra kan vara aknefria under tonåren, men drabbas av akne som vuxna. Den mest besvärliga situationen är när någon drabbas av akne under tonåren som sedan övergår till vuxenakne.</p>
-
-                        <p class="p200 mt-m">När man når vuxen ålder och aknen fortfarande inte har försvunnit, är det stor risk att aknen har lett till ärrbildning. Det är därför viktigt att behandla akne i alla åldrar för att förebygga och minimera risken för att drabbas av acneärr. Oavsett ålder och fas av akne, bör man söka hjälp för att behandla och kontrollera sitt tillstånd, för att minska risken för långsiktiga hudproblem som ärrbildning.</p>'
+                  title: 'Hur många behandlingar behövs för att ta bort mina akneärr?',
+                  text: '<p class="p200">Antalet behandlingar som krävs för att uppnå önskat resultat varierar beroende på typ och svårighetsgrad av ärr, samt den metod som valts för att behandla din specifika hudtyp. På Acnespecialisten tror vi att varje persons hud är unik, och vi skräddarsyr en behandlingsplan baserat på dina individuella behov. Under din kostnadsfria konsultation kommer du att tilldelas en personlig hudterapeut som är med dig hela vägen. Din terapeut kommer att analysera din hud och ta fram en skräddarsydd plan som bäst passar dina behov, och ge dig en uppfattning om hur många behandlingar som kan behövas för att uppnå de bästa resultaten mot dina akneärr.</p>'
             ),
             new Question(
-                  title: 'Kan jag ha akne även om jag är vuxen?',
-                  text: '<p class="p200">Ja, akne kan drabba vuxna och det är faktiskt ganska vanligt. Vuxenakne drabbar cirka 12-22% av alla kvinnor och 3% av alla män. Den kan uppkomma vid 20-, 30- och 40-årsåldern, och ibland ännu senare. Det kallas då för vuxenakne och har också med hormonerna i din kropp att göra, men faktorerna som triggar igång din akne är lite annorlunda än vid tonårsakne.</p>
-
-                        <p class="p200 mt-m">Vid tonårsakne ökar produktionen av det manliga könshormonet i din kropp. Det, i kombination med fettproduktionen, kan leda till att du drabbas av akne. Vid vuxen ålder däremot, kan aknen bero på sådant som graviditet, menstruation, alkohol, stress och preventivmedel. Alltså, yttre faktorer som triggar igång dina hormoner och får aknen att blomma upp.</p>
-
-                       <p class="p200 mt-m">Vuxenakne kan orsakas av flera faktorer, såsom hormonella förändringar, stress, genetik och användning av olämpliga hudvårdsprodukter. Hos kvinnor kan akne ofta vara kopplad till menstruationscykeln eller hormonella förändringar i samband med graviditet och menopaus.</p>
-
-                       <p class="p200 mt-m">Sammanfattningsvis kan akne drabba personer i alla åldrar, och det är viktigt att vara medveten om att akne inte bara är ett tonårsproblem.</p>'
+                  title: 'Vilka behandlingsmetoder erbjuder ni för olika typer av akneärr?',
+                  text: '<p class="p200">Vi erbjuder en mängd olika behandlingsalternativ för akneärr, inklusive laserbehandling, kemisk peeling och microneedling. Varje metod har sina unika fördelar och är mest effektiva för vissa typer av ärr. Under en kostnadsfri konsultation med en av våra hudterapeuter kan vi utvärdera dina specifika behov och rekommendera den metod som passar din hudtyp och ärr bäst.</p>'
             ),
             new Question(
-                  title: 'Förvärras min akne av att jag äter choklad?',
-                  text: '<p class="p200">Nej, det är en myt att choklad direkt skulle leda till akne. Ingen vetenskaplig forskning har tydligt påvisat ett direkt samband mellan chokladkonsumtion och uppkomsten av finnar. Det som potentiellt kan påverka din akne är stress. Om du upplever stress över att du ätit choklad, kan det i sin tur bidra till akneutbrott. Men en bit choklad då och då bör inte orsaka akneutbrott hos de flesta människor.</p>'
+                  title: 'Är behandlingarna smärtsamma? Vilken eftervård krävs?',
+                  text: '<p class="p200">Våra behandlingsmetoder är utformade för att vara så bekväma som möjligt, och vi tar alla nödvändiga steg för att minimera eventuell obehag. Känslan under behandlingen kan variera beroende på metoden och ärrtypen. Eftervården är också individuell och din hudterapeut kommer att ge dig detaljerade instruktioner för hur du tar hand om din hud efter behandlingen för att främja läkning och optimera resultaten.</p>'
             ),
             new Question(
-                  title: 'Vad kan jag göra för att bli av med min akne?',
-                  text: '<p class="p200">Att bekämpa akne effektivt kräver en individuellt anpassad strategi som kombinerar lämpliga behandlingar och hudvårdsprodukter, utformade för att passa dina unika behov och din huds specifika tillstånd. På Acnespecialisten, erbjuder vi kostnadsfria hudkonsultationer där vi kan utvärdera ditt specifika fall av akne och hjälpa till att skräddarsy en effektiv behandlingsrutin.</p>'
+                  title: 'Hur länge behöver jag vänta mellan behandlingarna? Och hur snabbt kommer jag se resultat?',
+                  text: '<p class="p200">Tiden mellan behandlingarna och hur snabbt du kommer se resultat beror på den specifika metoden som används och din individuella hudtyp. I allmänhet rekommenderar vi en viss tid mellan sessionerna för att din hud ska få tid att läka ordentligt och för att maximera effektiviteten av behandlingen. Din personliga hudterapeut kommer att gå igenom alla detaljer med dig och skapa en skräddarsydd behandlingsplan som passar dina behov, inklusive en tidslinje för när du kan förvänta dig att se synliga förbättringar.</p>'
             )
       ),
       'Behandling mot akne' => array(
