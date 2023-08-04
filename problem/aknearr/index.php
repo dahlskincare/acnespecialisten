@@ -23,12 +23,12 @@ $description = 'Här förklarar vi vad som kännetecknar akneärr, hur dessa är
 $akas = [
       new Link(
             label: 'Gropar',
-            url: 'problem/gropar',
+            url: 'problem/aknearr/atrofiska-arr',
             title: 'Allt du behöver veta om atrofiska ärr i form av gropar från akne och deras behandling'
       ),
       new Link(
             label: 'Fläckar',
-            url: 'problem/fläckar',
+            url: 'problem/aknearr/postinflammatorisk-hyperpigmentering',
             title: 'Utforska orsaker, symptom och behandlingar av post inflammatorisk hyperpigmentering i form av fläckar från akne'
       ),
 ];
