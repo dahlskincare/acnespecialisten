@@ -880,6 +880,7 @@ $brands_url_title ="Varumärken för Aknebehandling";
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
                               <hr class="is-hidden-mobile">
                         </section>
+
                         <section id="treatments">
                               <h2 class="h500"><?php echo $headline02 ?></h2>
                               <hr class="is-hidden-mobile mt-xl">
@@ -888,33 +889,20 @@ $brands_url_title ="Varumärken för Aknebehandling";
                                     <hr class="is-hidden-mobile mb-xxl">
                               <?php } ?>
                         </section>
-                        <section id="products">
-                              <h2 class="h500"><?php echo $headline03 ?></h2>
-                              <hr class="is-hidden-mobile mt-xl">
-                              <?php foreach ($products as $service) { ?>
-                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
-                                    <hr class="is-hidden-mobile mb-xxl">
-                              <?php } ?>
-                        </section>
-                        <section id="treatment-solutions">
-                              <h2 class="h500"><?php echo $headline04 ?></h2>
-                              <hr class="is-hidden-mobile mt-xl">
-                              <?php foreach ($procedures as $service) { ?>
-                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
-                                    <hr class="is-hidden-mobile mb-xxl">
-                              <?php } ?>
-                        </section>
+                        
                         <section id="articles">
                               <?php foreach ($articles as $article) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php'); ?>
                               <?php } ?>
                         </section>
+
                         <section id="results">
                               <?php
                               $results_title = 'Resultat';
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
                               ?>
                         </section>
+
                         <section id="reviews">
                               <div class="flex-row align-end justify-space-between">
                                     <h2 class="big l10n">Omdömen</h2>
@@ -935,11 +923,13 @@ $brands_url_title ="Varumärken för Aknebehandling";
                               ?>
                               <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $review_url_title ?>" href="https://se.trustpilot.com/review/acnespecialisten.se"><?php echo $review_url_label ?></a>
                         </section>
+
                         <section id="faq">
                               <h2 class="big l10n">Frågor & Svar</h2>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
                               <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $faq_url_title ?>" href="faq"><?php echo $faq_url_label ?></a>
                         </section>
+                        
                         <section id="skin-guide">
                               <div class="flex-row justify-space-between">
                                     <h2 class="big l10n">Hudguide</h2>
