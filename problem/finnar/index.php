@@ -126,8 +126,8 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Behandla',
             content: 'Vi erbjuder målinriktade och effektiva behandlingar för dina finnar, anpassade efter din hudtyp och finnarnas svårighetsgrad. Genom säkra metoder säkerställer vi att du snabbt får kontroll över ditt problem.',
-            url_label: 'Se finnarbehandlingar',
-            url: 'finnarbehandling',
+            url_label: 'Se behandlingar mot finnar',
+            url: 'Behandlingar',
             url_title: 'Utforska våra skräddarsydda behandlingar mot finnar'
       ),
       new TreatmentStep(
@@ -146,49 +146,40 @@ $treatment_steps = array(
       ),
 );
 
-$treatment_link = '<a href="problem/akne/aknebehandling" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra aknebehandlingar</a>';
+$treatment_link = '<a href="problem/akne/aknebehandling" title="Utforska effektiva behandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
 
 $types_title = 'Olika typer av akne';
 
 $type_categories = array(
       new BasedTypeCategory(
             id: 'category-age',
-            title: 'Akne baserat på ålder',
-            content: '<p class="p200">Akne är en hudåkomma som kan drabba både ungdomar och vuxna, även om det är vanligast under tonåren. Tonårsakne uppstår ofta på grund av hormonella förändringar under puberteten. Vuxenakne förekommer också, och det kan bero på en rad olika faktorer. Hos vuxna kan akne orsakas av faktorer som stress, hormonobalans och genetik. Oavsett ålder är det viktigt att förstå att akne kan påverka människor i alla livsstadier.</p>',
+            title: 'Finnar baserat på ålder',
+            content: '<p class="p200">Finnar är inte begränsade till en viss ålder och kan påverka både unga och vuxna. Tonårsfinnar är vanliga och orsakas ofta av hormonella förändringar under puberteten. Men även som vuxen kan man drabbas, och det kan relateras till olika faktorer såsom stress, kost och livsstil. Det är essentiellt att förstå att finnar kan påverka personer i olika skeden av livet.</p>',
             types: array(
                   new BasedType(
-                        title: 'Vuxenakne',
-                        image_url: 'images/problems/102x102/vuxenakne.webp',
-                        image_alt: 'Bild av vuxenakne',
-                        image_title: 'Akne hos vuxna',
-                        subtitle: 'Även kallat acne tarda',
+                        title: 'Vuxenfinnar',
+                        image_url: 'images/problems/102x102/vuxenfinnar.webp',
+                        image_alt: 'Bild av finnar hos vuxna',
+                        image_title: 'Finnar hos vuxna',
+                        subtitle: 'Ibland kopplat till livsstilsfaktorer',
                         content: '',
-                        url: 'problem/akne/typer/vuxenakne',
-                        url_title: 'Utforska information om vuxenakne'
+                        url: 'problem/finnar/typer/vuxenfinnar',
+                        url_title: 'Utforska information om finnar hos vuxna'
                   ),
                   new BasedType(
-                        image_url: 'images/problems/102x102/tonarsakne.webp',
-                        image_alt: 'Bild av tonårsakne',
-                        image_title: 'Akne hos tonåringar',
-                        title: 'Tonårsakne',
-                        subtitle: 'Även kallat acne vulgaris',
+                        image_url: 'images/problems/102x102/tonarsfinnar.webp',
+                        image_alt: 'Bild av finnar hos tonåringar',
+                        image_title: 'Finnar hos tonåringar',
+                        title: 'Tonårsfinnar',
+                        subtitle: 'En vanlig företeelse under puberteten',
                         content: '',
-                        url: 'problem/akne/typer/tonårsakne',
-                        url_title: 'Utforska information om tonårsakne'
+                        url: 'problem/finnar/typer/tonarsfinnar',
+                        url_title: 'Utforska information om finnar hos tonåringar'
                   ),
-                  new BasedType(
-                        image_url: 'images/problems/102x102/barnakne.webp',
-                        image_alt: 'Bild av barnakne',
-                        image_title: 'Akne hos barn',
-                        title: 'Barnakne',
-                        subtitle: 'Även kallat acne neonatorum',
-                        content: '',
-                        url: 'problem/akne/typer/barnakne',
-                        url_title: 'Utforska information om barnakne'
-                  ),
-
             )
       ),
+);
+
       new BasedTypeCategory(
             id: 'category-severity',
             title: 'Akne baserat på svårighetsgrad',
