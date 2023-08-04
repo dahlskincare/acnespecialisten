@@ -176,9 +176,8 @@ $type_categories = array(
                         url: 'problem/finnar/typer/tonarsfinnar',
                         url_title: 'Utforska information om finnar hos tonåringar'
                   ),
-            )
+            )     
       ),
-);
 
       new BasedTypeCategory(
             id: 'category-severity',
