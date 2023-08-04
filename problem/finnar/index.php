@@ -9,7 +9,7 @@ $seo_title = 'Allt om Finnar - Orsaker, Behandling och Förebyggande | AcneSpeci
 $seo_description = 'Lär dig allt om finnar, från dess orsaker till hur man behandlar och förebygger dem. Skräddarsydda lösningar och expertis från AcneSpecialisten.';
 $seo_keywords = 'finnar, finnarbehandling, orsaker till finnar, förebygga finnar, ta bort finnar, vuxenfinnar, tonårsfinnar, finnärr, pormaskar';
 
-$title = 'Akne';
+$title = 'Finnar';
 
 $image_small = 'images/problems/424x324/finnar.webp';
 $image_large = 'images/problems/424x456/finnar.webp';
@@ -111,7 +111,7 @@ $trivias = array(
             extended_content: '<p class="p200 mt-xl">Vissa områden, som hakan och käklinjen, kan vara mer mottagliga för finnar på grund av hormonella förändringar. Finnar på ryggen och bröstet kan förvärras av svett och friktion från kläder.</p>
 
             <p class="p200 mt-xl">På AcneSpecialisten erbjuder vi specialiserade behandlingar för finnar på olika delar av kroppen. Våra hudterapeuter kan hjälpa dig att identifiera orsakerna till finnar i olika områden och erbjuda effektiva lösningar för att rengöra och återställa din hud.</p>',
-                  
+
             icons: array('who-infants' => 'Ansiktet', 'who-teenagers' => 'Ryggen', 'who-adults' => 'Bröstet', 'who-elders' => 'Axlarna')
       ),
 );
