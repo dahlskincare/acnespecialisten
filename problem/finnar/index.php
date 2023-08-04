@@ -21,37 +21,37 @@ $akas = [
       new Link(
             label: 'Finnar',
             url: 'problem/finnar',
-            title: 'Allt du behöver veta om finnar och deras behandling'
+            title: 'Allt du behöver veta om finnar och de mest effektiva behandlingsmetoderna'
       ),
       new Link(
-            label: 'Vuxenakne',
-            url: 'problem/vuxenakne',
-            title: 'Utforska orsaker, symptom och behandlingar av vuxenakne'
+            label: 'Vuxenfinnar',
+            url: 'problem/vuxenfinnar',
+            title: 'Utforska de vanligaste orsakerna, symptomen och behandlingsalternativen för finnar hos vuxna'
       ),
       new Link(
-            label: 'Tonårsakne',
-            url: 'problem/tonarsakne',
-            title: 'Komplett guide om tonårsakne: orsaker, förebyggande och lösningar'
-      ),
+            label: 'Tonårsfinnar',
+            url: 'problem/tonarsfinnar',
+            title: 'Komplett guide till tonårsfinnar: orsaker, förebyggande åtgärder och effektiva lösningar'
+      )
 ];
 
 $consultation_url_label ="Få gratis konsultation";
-$consultation_url_title ="Gratis Konsultation för Akne";
+$consultation_url_title ="Gratis Konsultation mot Finnar";
 
 $booking_url_label ="Boka behandling";
-$booking_url_title ="Boka Aknebehandling";
+$booking_url_title ="Boka behandling mot finnar";
 
 $mobile_consultation_url_label ="Få gratis konsultation";
-$mobile_consultation_url_title ="Gratis Konsultation för Akne";
+$mobile_consultation_url_title ="Gratis Konsultation för finnar";
 
 $mobile_booking_url_label ="Boka behandling";
-$mobile_booking_url_title ="Boka Aknebehandling";
+$mobile_booking_url_title ="Boka behandling för finnar";
 
 $floating_consultation_url_label ="Få gratis konsultation";
-$floating_consultation_url_title ="Gratis Konsultation för Akne";
+$floating_consultation_url_title ="Gratis Konsultation för finnar";
 
 $floating_booking_url_label ="Boka behandling";
-$floating_booking_url_title ="Boka Aknebehandling";
+$floating_booking_url_title ="Boka behandling mot finnar";
 
 $nav_buttons = array(
       'about' => 'Om akne',
@@ -60,8 +60,6 @@ $nav_buttons = array(
       'symptoms' => 'Symptom',
       'define' => 'Konsultation',
       'treatments' => 'Behandling',
-      'articles' => 'Risker',
-      'articles' => 'Varför AS?',
       'results' => 'Resultat',
       'reviews' => 'Omdömen',
       'faq' => 'FAQ',
@@ -75,43 +73,45 @@ $about_title = 'Om akne';
 $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
-            title: 'är akne?',
-            content: '<p class="p200">Akne är en ärftlig och hormonell hudförändring som uppstår när talgproduktionen i hudens porer ökar. Huden behöver en viss mängd talg för att hålla sig mjuk och smidig, men vid överproduktion har huden svårt att avlägsna hudrester, vilket leder till bakterier och små inflammationer. Dessa inflammationer orsakar akne, eller finnar som vi ofta säger i dagligt tal. Akne är en inflammation i huden som uppstår när porerna täpps till av talg, döda hudceller och bakterier.</p>',
+            title: 'är finnar?',
+            content: '<p class="p200">Finnar är en form av akne, en hudåkomma som kännetecknas av inflammerade talgkörtlar i huden. Det uppstår vanligtvis i ansiktet, nacken, bröstet, ryggen och axlarna. Finnar kan variera i svårighetsgrad, från milda till svåra utbrott, och kan påverka både tonåringar och vuxna.</p>',
 
             extended_content: '<p class="p200 mt-xl">Både barn och vuxna kan drabbas av akne, men det är vanligast under tonåren. Vissa har besvär med akne under längre perioder, medan andra endast vid enstaka tillfällen. Akne kan se ut på många olika sätt, från små knottror på huden till variga större utslag. Det viktiga att komma ihåg är att akne kan behandlas. Ibland krävs behandling under en längre tidsperiod, men med rätt behandling kan både bestående ärrbildning och psykiskt lidande undvikas eller lindras.</p>       
 
-            <p class="p200 mt-xl">På Acnespecialisten kan du få hjälp med din akne. Vi har kunskap och erfarenhet av olika typer av behandlingar som ger goda resultat och många nöjda kunder. Vi börjar alltid med en kostnadsfri hudkonsultation där vi identifierar problemet och planerar den mest lämpliga behandlingen för dig och din hy. Du får även en effektiv hudvårdsrutin som du enkelt kan följa hemma. Vi rekommenderar att du tar hand om din allmänna hälsa: sov ordentligt, ät hälsosamt och motionera regelbundet. När du mår bra i sin helhet påverkar det din hud positivt.</p>',
+            <p class="p200 mt-xl">Finnarna kan uppstå som vita prickar, svarta prickar eller som röda inflammerade områden. Dessa olika typer av finnar har olika orsaker och behandlingar, och vissa typer kan lämna ärr om de inte behandlas korrekt.</p>',
             icons: array()
       ),
       new ProblemTrivia(
             prefix: 'Varför',
-            title: 'får man akne?',
-            content: '<p class="p200">Akne är en hudåkomma som beror på en kombination av genetiska, hormonella och miljömässiga faktorer. En normal talgproduktion är nödvändig för att huden ska må bra, men när huden överproducerar talg kan detta leda till akne. Detta beror bland annat på anlag man har ärvt från sina föräldrar. Vid en överproduktion av talg klarar porerna inte av att ta hand om överflödet, och tillsammans med hudrester täpps pormynningarna till, vilket leder till att bakterier samlas. Kroppen försvarar sig då med en inflammation, och det är just detta som syns på huden i form av akne.</p>',
+            title: 'får man finnar?',
+            content: '<p class="p200">Finnar uppstår när porerna i din hud blir igensatta med olja och döda hudceller. Varje por är ansluten till en talgkörtel, som producerar en oljig substans kallad talg. Extra talg kan täppa till porer, vilket resulterar i tillväxt av bakterier och inflammation - det vi känner igen som finnar.</p>',
 
-            extended_content: '<p class="p200 mt-xl">Hormoner får porerna i huden att överproducera talg. Det är vanligt att drabbas av akne under puberteten, när kroppen genomgår stora förändringar, men även små barn och vuxna kan få akne. Flera faktorer kan orsaka och försämra akne, såsom stress, vissa läkemedel, varma och fuktiga miljöer samt hormonförändringar vid graviditet, menstruation och klimakteriet. Även anabola steroider och p-piller kan orsaka akne. Stress påverkar ofta huden mer än vi kanske tror, och både stora och små händelser i livet kan öka kroppens stressnivå och orsaka hudförändringar i form av hormonell akne.</p>
+            extended_content: '<p class="p200 mt-xl">Faktorer som hormonella förändringar, användning av olämpliga hudvårdsprodukter, stress och kost kan också bidra till uppkomsten av finnar. Det är viktigt att förstå de underliggande orsakerna för att kunna behandla finnar effektivt.</p>
 
-            <p class="p200 mt-xl">För att behandla akne är det viktigt att balansera kroppens talgproduktion med rätt hudvårdsprodukter och hållbara hudvårdsrutiner. Successivt kan aknen antingen bli mycket bättre eller helt försvinna. Vi som arbetar på Acnespecialisten har lång erfarenhet och stor kunskap av aknebehandlingar och kan hjälpa dig att hålla kroppens naturliga produktion av talg på en optimal nivå och på så sätt reducera dina besvär med akne.</p>',
+            <p class="p200 mt-xl">På AcneSpecialisten erbjuder vi en omfattande hudanalys för att identifiera orsakerna till dina finnar och utveckla en personlig behandlingsplan. Vi tar hänsyn till din livsstil, kost och andra faktorer som kan påverka din hud.</p>',
 
             icons: array('who-infants' => 'Hormoner', 'who-teenagers' => 'Stress', 'who-adults' => 'Genetik', 'who-elders' => 'Livsstil')
       ),
       new ProblemTrivia(
             prefix: 'Vem',
-            title: 'får akne?',
-            content: '<p class="p200">Akne är vanligast bland tonåringar och unga vuxna, men det kan drabba människor i alla åldrar, oavsett kön och hudtyp. I puberteten ökar produktionen av könshormoner, vilket kan leda till akne vulgaris, även kallad tonårsakne. Denna form av akne kan variera från enstaka finnar till större besvär, med små gula eller röda utslag, stora knölar och smärtsamma blåsor. Eftersom akne oftast uppträder i ansiktet under en känslig period som tonåren, kan det påverka det mentala måendet och det är viktigt att behandla akne effektivt för att undvika ärrbildning och andra skador på huden.</p>',
+            title: 'får finnar?',
+            content: '<p class="p200">Även om finnar oftast förknippas med tonåringar, kan personer i alla åldrar drabbas. Hormonella förändringar, t.ex. under puberteten eller menstruation, kan utlösa ökad talgproduktion. Men även vissa läkemedel, kosten och genetik kan bidra till uppkomsten av finnar.</p>',
 
-            extended_content: '<p class="p200 mt-xl">Akne drabbar inte bara tonåringar. Spädbarn och småbarn kan drabbas av lindriga former av akne, såsom akne neonatorum och akne infantum. Vuxenakne, kallad akne tarda, kan också uppstå om huden överproducerar talg. Kvinnor drabbas oftare av vuxenakne än män, eftersom de påverkas mer av hormonsvängningar under graviditet, mens och klimakteriet. Preventivmedel kan också påverka huden, men hur de påverkar varierar från individ till individ.</p>
+            extended_content: '<p class="p200 mt-xl">Vuxna, särskilt kvinnor, kan fortsätta att uppleva finnar långt in i 30- och 40-årsåldern. Detta kan vara relaterat till hormonella förändringar, användning av vissa kosmetika eller andra underliggande hälsoproblem.</p>
 
-            <p class="p200 mt-xl">Yttre faktorer som stress och alkohol kan också påverka akne, både hos tonåringar och vuxna. Akne kan uppstå i ansiktet, på bröstet, axlarna och ryggen. För att behandla akne rekommenderas att boka en kostnadsfri hudkonsultation hos Acnespecialisten. Där görs en bedömning av din hud och du får förslag på behandlingar samt en personlig hudvårdsrutin anpassad efter din hudtyp. Detta hjälper dig att motverka ytterligare problem med akne, både i ansiktet och på andra delar av kroppen.</p>',
+            <p class="p200 mt-xl">På AcneSpecialisten har vi erfarenhet av att behandla finnar hos individer i alla åldrar. Vi erbjuder ett brett utbud av behandlingar och produkter som kan anpassas till dina specifika behov och livsförhållanden.</p>',
 
             icons: array('who-infants' => 'Barn', 'who-teenagers' => 'Ungdommar', 'who-adults' => 'Vuxna', 'who-elders' => 'Män & Kvinnor')
       ),
       new ProblemTrivia(
             prefix: 'Var',
-            title: 'får man akne?',
-            content: '<p class="p200">Akne kan uppstå på flera delar av kroppen och påverka personer i olika åldrar och med olika hudtyper. Vanligast är att akne drabbar ansiktet, men det kan även förekomma på andra områden som bröstet, axlarna och ryggen. Placeringen av akne beror på var talgkörtlarna är aktiva och därmed kan överproducera talg, vilket leder till tilltäppta porer och inflammationer i huden.</p>',
-            extended_content: '<p class="p200 mt-xl">Akne i ansiktet är särskilt påtagligt, eftersom det är svårt att dölja och ofta påverkar en persons självkänsla och mentala välbefinnande. Det är vanligt att tonåringar drabbas av ansiktsakne under puberteten, då hormonella förändringar kan leda till ökad talgproduktion. Även vuxna kan drabbas av ansiktsakne, särskilt kvinnor som genomgår hormonella förändringar under graviditet, mens och klimakteriet.</p>
-            <p class="p200 mt-xl">Akne på bröstet, axlarna och ryggen är också vanligt och kan vara lika besvärande som ansiktsakne, även om det är lättare att dölja under kläder. Denna typ av akne kan orsakas av samma faktorer som ansiktsakne, men även av yttre faktorer som friktion från kläder eller väskor som gnider mot huden och skapar irritation.
-                  För att behandla och förebygga akne oavsett var på kroppen det uppstår, är det viktigt att följa en anpassad hudvårdsrutin, inklusive rengöring, återfuktning och eventuellt användning av aknebehandlingar som passar din hudtyp. Konsultera hos en av våra hudspecialister för att få råd om vilka produkter och behandlingar som är bäst lämpade för din specifika situation och för att minimera akneproblem på olika delar av kroppen.</p>',
+            title: 'får man finnar?',
+            content: '<p class="p200">Finnar uppstår vanligtvis på delar av kroppen där det finns många talgkörtlar, inklusive ansikte, rygg, bröst och axlar. Men de kan också uppstå på andra områden beroende på individuella faktorer som hudtyp och livsstil.</p>',
+
+            extended_content: '<p class="p200 mt-xl">Vissa områden, som hakan och käklinjen, kan vara mer mottagliga för finnar på grund av hormonella förändringar. Finnar på ryggen och bröstet kan förvärras av svett och friktion från kläder.</p>
+
+            <p class="p200 mt-xl">På AcneSpecialisten erbjuder vi specialiserade behandlingar för finnar på olika delar av kroppen. Våra hudterapeuter kan hjälpa dig att identifiera orsakerna till finnar i olika områden och erbjuda effektiva lösningar för att rengöra och återställa din hud.</p>',
+                  
             icons: array('who-infants' => 'Ansiktet', 'who-teenagers' => 'Ryggen', 'who-adults' => 'Bröstet', 'who-elders' => 'Axlarna')
       ),
 );
