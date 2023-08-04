@@ -459,7 +459,7 @@ $faq_categories = array(
 );
 
 $faq_url_label ="Läs fler frågor & svar";
-$faq_url_title ="läs flera frågor relaterat till akne";
+$faq_url_title ="läs flera frågor relaterat till akneärr";
 
 $skin_guide_articles = array(
       new SkinGuideArticle(
@@ -656,7 +656,7 @@ $brands = array(
 );
 
 $brands_url_label ="Se alla varumärken";
-$brands_url_title ="Varumärken för akneärrbehandling";
+$brands_url_title ="Varumärken för akneärr";
 
 ?>
 
