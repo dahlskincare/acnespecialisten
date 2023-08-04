@@ -398,25 +398,25 @@ $reviews = array(
             stars: 5,
             brand: 'Trustpilot',
             logo_url: 'images/brands/trustpilot.svg',
-            title: 'Supernöjd',
-            text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
-            signature: 'Sofia'
+            title: 'Lasern gjorde susen',
+            text: "Var först lite osäker på laserbehandling, men det behövde jag inte vara. Allt förklarades noggrant, och det gjorde inte alls ont. Nu, några veckor senare, är mina akneärr nästan helt borta. Jag är så nöjd och glad över mitt beslut att testa lasern. Tack AcneSpecialisten!",
+            signature: 'Lena'
       ),
       new Review(
             stars: 5,
             brand: 'Google',
             logo_url: 'images/brands/google-small.svg',
-            title: 'Jag är mycket nöjd..',
-            text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och aknen är betydligt mildare",
-            signature: 'Lovisa'
+            title: 'Gropar är ett minne blott!',
+            text: "Har länge haft problem med gropar i ansiktet från gamla akneärr. Här kände jag mig direkt trygg och omhändertagen. Personalen förklarade allt och resultatet har varit fantastiskt. Jag känner knappt igen mig själv i spegeln. Så tacksam!",
+            signature: 'Fredrik'
       ),
       new Review(
             stars: 5,
             brand: 'Bokadirekt',
             logo_url: 'images/brands/bokadirekt-small.svg',
-            title: 'Rekommenderar varmt!',
-            text: "Det enda som fungerat mot min akne med synliga resultat. Jättetrevlig och kunnig behandlare!",
-            signature: 'Emily'
+            title: 'Fläckfri och glad',
+            text: "Ingen har kunnat ta hand om mina aknefläckar som AcneSpecialisten. Efter bara några besök märker jag redan stor skillnad. Det är så skönt att veta att jag lämnar salongen med en renare och fräschare hy varje gång. Supertrevlig personal dessutom!",
+            signature: 'Gustav'
       ),
 
 );
