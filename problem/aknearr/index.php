@@ -142,61 +142,65 @@ $treatment_link = '<a href="problem/aknearr/aknearrbehandling" title="Utforska e
 $symptoms_title = 'Olika typer av akneärr';
 
 $symptoms = array(
-      new Symptom(
-            name: 'postinflammatorisk hyperpigmentering',
+            new Symptom(
+            name: 'Postinflammatorisk hyperpigmentering (PIH)',
             aka: 'Kända som mörka/bruna fläckar',
-            content: 'Pormaskar (öppna komedoner) är små, mörka prickar som uppstår när en por täpps igen av talg (hudens naturliga olja) och döda hudceller. De är ofta svarta eller bruna på grund av oxidation, som inträffar när melanin (hudens pigment) kommer i kontakt med luft. Pormaskar kan vara platta eller lätt upphöjda och är vanligt förekommande på näsan, kinderna, pannan och hakan.',
+            content: 'Postinflammatorisk hyperpigmentering (PIH) uppstår som ett resultat av inflammation i huden efter akne. Denna typ av mörka fläckar är inte faktiska ärr utan är ett exempel på överpigmentering. När huden läker från en inflammation, kan det hända att melanin, som ger huden dess färg, produceras i överflöd vilket resulterar i mörkare fläckar eller fläckar. Dessa kan vara brunaktiga, svarta eller till och med blåaktiga beroende på hudtyp och färg. PIH är vanligtvis platt mot huden, till skillnad från upphöjda eller indragna akneärr.',
             url: 'problem/akne/typer/post-inflammatory-hyperpigmentaion',
-            url_title: 'Läs mer om öppna komedoner (pormaskar)',
-            url_label: 'Läs mer om öppna komedoner',
-            image: 'images/symptoms/102x102/komedoner-oppna.webp',
-            image_alt: 'Bild av öppna komedoner (pormaskar)',
-            image_title: 'Öppna komedoner (pormaskar)'
-      ),
+            url_title: 'Läs mer om postinflammatorisk hyperpigmentering',
+            url_label: 'Läs mer om postinflammatorisk hyperpigmentering',
+            image: 'images/symptoms/102x102/postinflammatorisk_hyperpigmentering.webp',
+            image_alt: 'Bild av postinflammatorisk hyperpigmentering',
+            image_title: 'Postinflammatorisk hyperpigmentering'
+),
       new Symptom(
             name: 'Atrofiska "ice-pick" ärr',
-            aka: 'Kända som gropar',
-            content: 'Whiteheads (slutna komedoner) är små, vita eller hudfärgade utbuktningar som uppstår när en por täpps till av talg och döda hudceller under hudytan. De är täckta av ett tunt lager hud, vilket förhindrar oxidation och därmed behåller sin ljusa färg. Whiteheads kan vara platta eller lätt upphöjda och är vanligt förekommande på pannan, kinderna och hakan.',
+            aka: 'Kända som gropar eller nålstick-liknande ärr',
+            content: 'Atrofiska "ice-pick" ärr är små, men djupa ärr som sträcker sig in i huden, och har ett utseende som påminner om skador orsakade av en ishacka. Dessa ärr är ofta smala vid ytan och vidgar sig nedåt in i dermis. Det är den djupa punktering som ger ärret dess karakteristiska utseende. Denna typ av ärrbildning uppstår oftast efter cystisk akne eller andra hudinfektioner och kan vara särskilt utmanande att behandla på grund av deras djup. Ice-pick ärr kan uppträda överallt där akne har varit, men de är vanligast på kinderna.',
             url: 'problem/akne/typer/atrophic-icepick-scars',
-            url_title: 'Läs mer om stängda komedoner (whiteheads)',
-            url_label: 'Läs mer om stängda komedoner',
-            image: 'images/symptoms/102x102/komedoner-stangda.webp',
-            image_alt: 'Bild av stängda komedoner (whiteheads)',
-            image_title: 'Stängda komedoner (whiteheads)'
-      ),
-      new Symptom(
-            name: 'Postinflammatorisk erytem',
-            aka: 'Kända som rosa/lila fläckar',
-            content: 'Papuler är små, fasta, röda och inflammerade blemmor som uppstår när en hårsäck blir infekterad av bakterier, oftast Propionibacterium acnes. De är vanligtvis mindre än 5 mm i diameter och kan vara känsliga vid beröring. Papuler är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.',
-            url: 'problem/akne/typer/atrophic-boxcar-scars',
-            url_title: 'Läs mer om papler (röda finnar)',
-            url_label: 'Läs mer om papler',
-            image: 'images/symptoms/102x102/papler.webp',
-            image_alt: 'Bild av papler (röda finnar)',
-            image_title: 'Papler (röda finnar)'
-      ),
-      new Symptom(
+            url_title: 'Läs mer om atrofiska "ice-pick" ärr',
+            url_label: 'Läs mer om ice-pick ärr',
+            image: 'images/symptoms/102x102/atrofiska-icepick-ar.webp',
+            image_alt: 'Bild av atrofiska "ice-pick" ärr',
+            image_title: 'Atrofiska "ice-pick" ärr'
+),
+          new Symptom(
+            name: 'Postinflammatorisk erytem (PIE)',
+            aka: 'Kända som rosa/lila fläckar eller missfärgning',
+            content: 'Postinflammatorisk erytem uppstår som en reaktion på inflammation efter en akneinfektion och visar sig som rosa eller lila fläckar på huden. Denna missfärgning är resultatet av skadade eller förstörda blodkärl under en inflammatorisk reaktion. Fläckarna kan vara känsliga eller klia, och de bleknar oftast över tid, men kan bli mer ihållande för personer med ljusare hudton. De förekommer oftast på platser där akne har läkt, och kan förväxlas med ärrvävnad även om det inte är en riktig ärrbildning.',
+            url: 'problem/akne/typer/postinflammatory-erythema',
+            url_title: 'Läs mer om postinflammatorisk erytem',
+            url_label: 'Läs mer om rosa/lila fläckar',
+            image: 'images/symptoms/102x102/postinflammatorisk-erytem.webp',
+            image_alt: 'Bild av postinflammatorisk erytem',
+            image_title: 'Postinflammatorisk erytem (rosa/lila fläckar)'
+),
+
+            new Symptom(
             name: 'Atrofiska "Boxcar" ärr',
-            aka: 'Kända som gropar',
-            content: 'Papuler är små, fasta, röda och inflammerade blemmor som uppstår när en hårsäck blir infekterad av bakterier, oftast Propionibacterium acnes. De är vanligtvis mindre än 5 mm i diameter och kan vara känsliga vid beröring. Papuler är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.',
+            aka: 'Kända som gropar eller skålliknande ärr',
+            content: 'Atrofiska "Boxcar" ärr är en typ av akneärr som kännetecknas av rundade eller ovala gropar med skarpa vertikala kanter. Dessa ärr uppstår när aknen förstör kollagen i huden, och lämnar en märkbar depression. Ärr av denna typ kan variera i djup och storlek, och de är ofta jämförda med ärr som orsakas av varicella (vattkoppor). De förekommer oftast på kinderna och tinningarna och kan vara mycket märkbara om de är omfattande.',
             url: 'problem/akne/typer/atrophic-boxcar-scars',
-            url_title: 'Läs mer om papler (röda finnar)',
-            url_label: 'Läs mer om papler',
-            image: 'images/symptoms/102x102/papler.webp',
-            image_alt: 'Bild av papler (röda finnar)',
-            image_title: 'Papler (röda finnar)'
+            url_title: 'Läs mer om atrofiska "Boxcar" ärr',
+            url_label: 'Läs mer om gropar',
+            image: 'images/symptoms/102x102/boxcar.webp',
+            image_alt: 'Bild av atrofiska "Boxcar" ärr',
+            image_title: 'Atrofiska "Boxcar" ärr (gropar)'
+),
+
       ),
-      new Symptom(
+       new Symptom(
             name: 'Postinflammatorisk hypopigmentering',
             aka: 'Kända som vita fläckar',
-            content: 'Pustuler är röda och inflammerade blemmor som innehåller var (en blandning av döda bakterier, vita blodkroppar och döda hudceller). De ser ut som papuler men har en vit eller gul prick i mitten. Pustuler kan vara smärtsamma och är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.',
-            url: 'problem/akne/typer/atrophic-rolling-scars',
-            url_title: 'Läs mer om pustler (gula finnar)',
-            url_label: 'Läs mer om pustler',
-            image: 'images/symptoms/102x102/pustler.webp',
-            image_alt: 'Bild av pustler (gula finnar)',
-            image_title: 'Pustler (gula finnar)'
-      ),
+            content: 'Postinflammatorisk hypopigmentering uppstår när huden förlorar pigment (färg) på områden där en inflammatorisk hudsjukdom, som akne, har läkt. Detta leder till ljusare fläckar eller områden som kan vara iögonfallande beroende på din hudton. Det är inte ett ärr, utan en tillfällig brist på pigment och brukar återgå till normalt med tiden eller med behandling.',
+            url: 'problem/akne/typer/postinflammatory-hypopigmentation',
+            url_title: 'Läs mer om postinflammatorisk hypopigmentering',
+            url_label: 'Läs mer om vita fläckar',
+            image: 'images/symptoms/102x102/hypopigmentering.webp',
+            image_alt: 'Bild av postinflammatorisk hypopigmentering',
+            image_title: 'Postinflammatorisk hypopigmentering (vita fläckar)'
+),
+
       new Symptom(
             name: 'Atrofiska "rolling" ärr',
             aka: 'Kända som gropar',
@@ -221,7 +225,7 @@ $symptoms = array(
       ),
       new Symptom(
             name: 'Atrofiska ärr',
-            aka: 'Kända som bölder',
+            aka: 'Kända som gropar',
             content: 'Cystor är stora, inflammerade och smärtsamma blemmor som är fyllda med var och bildas när en hårsäck blir mycket infekterad och inflammationen sprider sig djupt in i huden. De kan vara runda och mjuka eller fasta och ömma vid beröring. Cystor kan vara större än 5 mm i diameter och är vanligt förekommande på ansiktet, nacken, bröstet och ryggen. Cystisk akne kan leda till ärrbildning och kräver ofta professionell behandling.',
             url: 'problem/akne/typer/hypertrophic-keloid',
             url_title: 'Läs mer om cystor (bölder)',
