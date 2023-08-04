@@ -68,7 +68,7 @@ $nav_buttons = array(
       'related-problems' => 'Relaterade problem',
 );
 
-$about_title = 'Om akne';
+$about_title = 'Om Finnar';
 
 $trivias = array(
       new ProblemTrivia(
@@ -118,34 +118,34 @@ $trivias = array(
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din aknetyp och skapar en individuell behandlingsplan.',
+            content: 'Hos FinnarSpecialisten blir du kopplad till en expert hudterapeut som analyserar din finnartyp och skapar en unik behandlingsplan. Vare sig du lider av milda eller allvarliga finnar, hjälper vi dig att förstå orsakerna och den bästa vägen framåt.',
             url_label: 'Få gratis konsultation',
             url: 'hudkonsultation',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika aknetyp, så att du snabbt och säkert blir av med problemet.',
-            url_label: 'Se aknebehandlingar',
-            url: 'aknebehandling',
-            url_title: 'Utforska våra skräddarsydda aknebehandlingar'
+            content: 'Vi erbjuder målinriktade och effektiva behandlingar för dina finnar, anpassade efter din hudtyp och finnarnas svårighetsgrad. Genom säkra metoder säkerställer vi att du snabbt får kontroll över ditt problem.',
+            url_label: 'Se finnarbehandlingar',
+            url: 'finnarbehandling',
+            url_title: 'Utforska våra skräddarsydda behandlingar mot finnar'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny akne och hålla din hud i balans.',
+            content: 'För att hålla finnarna borta och din hud i balans erbjuder vi en personlig hudvårdsrutin och produkter som är särskilt anpassade för din hudtyp. Dessa hjälper till att förebygga framtida utbrott och upprätthålla en klar och frisk hud.',
             url_label: 'Se produkter',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
-            url_title: 'Hitta de bästa produkterna för att förebygga akne'
+            url: 'https://dahlskincare.se/produktkategorier/produktpaket/finnar',
+            url_title: 'Hitta de bästa produkterna för att förebygga finnar'
       ),
       new TreatmentStep(
             title: 'Reparera',
-            content: 'När aknen är borta fokuserar vi på att reducera eventuella ärr med behandlingsmetoder som laser, microneedling och kemisk peeling för en jämn och problemfri hud.',
+            content: 'Om finnarna har lämnat ärr eller annan skada, fokuserar vi på att reparera din hud med avancerade behandlingsmetoder som laser, microneedling och kemisk peeling. Målet är en jämn, vacker och problemfri hud.',
             url_label: 'Se ärrbehandlingar',
-            url: 'aknearr-behandling',
-            url_title: 'Upptäck effektiva behandlingar för akneärr'
+            url: 'finnararr-behandling',
+            url_title: 'Upptäck effektiva behandlingar för ärr orsakade av finnar'
       ),
-
 );
+
 $treatment_link = '<a href="problem/akne/aknebehandling" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra aknebehandlingar</a>';
 
 $types_title = 'Olika typer av akne';
