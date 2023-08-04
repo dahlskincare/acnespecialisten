@@ -186,9 +186,8 @@ $symptoms = array(
             image: 'images/symptoms/102x102/boxcar.webp',
             image_alt: 'Bild av atrofiska "Boxcar" ärr',
             image_title: 'Atrofiska "Boxcar" ärr (gropar)'
-),
 
-      ),
+),
        new Symptom(
             name: 'Postinflammatorisk hypopigmentering',
             aka: 'Kända som vita fläckar',
