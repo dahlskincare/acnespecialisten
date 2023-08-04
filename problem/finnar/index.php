@@ -5,18 +5,17 @@ include_once('../widgets/symptom-card/symptom.php');
 include_once('../widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Allt om Akne - Orsaker, Behandling och Förebyggande | Acnespecialisten';
-$seo_description = 'Lär dig allt om akne, från dess orsaker till hur man behandlar och förebygger det. Skräddarsydda lösningar och expertis från Acnespecialisten.';
-$seo_keywords = 'akne, aknebehandling, orsaker till akne, förebygga akne, ta bort akne, vuxenakne, tonårsakne, akneärr, finnar, pormaskar';
-
+$seo_title = 'Allt om Finnar - Orsaker, Behandling och Förebyggande | AcneSpecialisten';
+$seo_description = 'Lär dig allt om finnar, från dess orsaker till hur man behandlar och förebygger dem. Skräddarsydda lösningar och expertis från AcneSpecialisten.';
+$seo_keywords = 'finnar, finnarbehandling, orsaker till finnar, förebygga finnar, ta bort finnar, vuxenfinnar, tonårsfinnar, finnärr, pormaskar';
 
 $title = 'Akne';
 
-$image_small = 'images/problems/424x324/akne.webp';
-$image_large = 'images/problems/424x456/akne.webp';
-$image_title = 'Visar en hud med akne';
-$image_alt = 'Bild som illustrerar hur akne ser ut på huden';
-$description = 'Här förklarar vi vad som kännetecknar akne, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av akne, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';
+$image_small = 'images/problems/424x324/finnar.webp';
+$image_large = 'images/problems/424x456/finnar.webp';
+$image_title = 'Visar en hud med finnar';
+$image_alt = 'Bild som illustrerar hur finnar kan se ut på huden';
+$description = 'Här förklarar vi vad som kännetecknar finnar, varför dessa irriterande hudutslag uppstår, och hur vi kan hjälpa dig med effektiv behandling. Vi går även igenom de vanligaste orsakerna bakom finnar, inklusive hormonella förändringar och oljig hud, samt hur vi kan stödja dig i din behandlingsprocess för att uppnå en klarare och friskare hud.';
 
 $akas = [
       new Link(
