@@ -381,9 +381,8 @@ $symptoms = array(
             url: 'problem/finnar/typer/hypertrophic-keloid',
             url_title: 'Mer om innåtfinnar',
             url_label: 'Utforska noduler'
-
       ),
-            new Symptom(
+      new Symptom(
             name: 'Bölder',
             aka: 'Ofta kallade cystor',
             content: 'Bölder, även kända som cystor, är stora, varfyllda inflammerade blemmor som uppstår när en hårsäck blir kraftigt infekterad och inflammationen sprider sig djupt in i huden. Beroende på graden av inflammation kan de vara mjuka och runda, eller fasta och ömma vid beröring. Bölder kan vara större än 5 mm i diameter och är vanliga på ansiktet, nacken, bröstet och ryggen. Ärrbildning är en vanlig följd av cystisk akne, vilket gör att professionell behandling ofta är nödvändig.',
@@ -393,7 +392,6 @@ $symptoms = array(
             url: 'problem/finnar/typer/hypertrophic-keloid',
             url_title: 'Läs mer om bölder (cystor)',
             url_label: 'Mer information om bölder'
-      
       ),
 
 );
