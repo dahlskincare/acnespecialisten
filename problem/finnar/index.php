@@ -19,11 +19,6 @@ $description = 'Här förklarar vi vad som kännetecknar finnar, varför dessa i
 
 $akas = [
       new Link(
-            label: 'Finnar',
-            url: 'problem/finnar',
-            title: 'Allt du behöver veta om finnar och de mest effektiva behandlingsmetoderna'
-      ),
-      new Link(
             label: 'Vuxenfinnar',
             url: 'problem/vuxenfinnar',
             title: 'Utforska de vanligaste orsakerna, symptomen och behandlingsalternativen för finnar hos vuxna'
@@ -33,6 +28,12 @@ $akas = [
             url: 'problem/tonarsfinnar',
             title: 'Komplett guide till tonårsfinnar: orsaker, förebyggande åtgärder och effektiva lösningar'
       )
+            new Link(
+            label: 'Akne',
+            url: 'problem/finnar',
+            title: 'Allt du behöver veta om akne och de mest effektiva behandlingsmetoderna'
+      ),
+
 ];
 
 $consultation_url_label ="Få gratis konsultation";
