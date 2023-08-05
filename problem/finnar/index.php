@@ -395,27 +395,27 @@ $symptoms = array(
 
 );
 
-$headline01 = "01. Identifiera dina finnar";
+            $headline01 = "01. Identifiera dina finnar";
 
-$service = new Service(
-      id: 'akne',
-      title: 'Konsultation',
-      duration: '20 min',
-      price: 'Kostnadsfri',
-      content: 'Vid ett personligt möte med en acnespecialist utförs en undersökning av din akne. Vi tar före-bilder på din hud och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
-      image_small: 'images/services/200x200/konsultation.webp',
-      image_large: 'images/services/200x200/konsultation.webp',
-      image_alt: 'Bild av en konsultation för aknebehandling',
-      image_title: 'Konsultation för aknebehandling',
-      consultation_url: 'hudkonsultation',
-      consultation_url_label: 'Boka tid för hudkonsultation',
-      consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för akne',
-      booking_url: null,
-      booking_url_label: null,
-      booking_url_title: null,
-      url: 'hudkonsultation',
-      url_label: 'Läs mer om vår hudkonsultation',
-      url_title: 'Klicka här för att läsa mer om gratis hudkonsultation'
+            $service = new Service(
+            id: 'finnar',
+            title: 'Konsultation',
+            duration: '20 min',
+            price: 'Kostnadsfri',
+            content: 'Möt en expert på finnar för en individuell konsultation. Under detta möte kommer en detaljerad analys av ditt hudproblem att utföras. Vi tar bilder före behandlingen för att tydligt kunna se och jämföra dina resultat och rekommenderar en anpassad behandlingsplan som passar just din hud.',
+            image_small: 'images/services/200x200/finnar-konsultation.webp',
+            image_large: 'images/services/200x200/finnar-konsultation.webp',
+            image_alt: 'Bild som visar en konsultation för finnar',
+            image_title: 'Konsultation för finnbehandling',
+            consultation_url: 'finnar-konsultation',
+            consultation_url_label: 'Boka tid för finnar konsultation',
+            consultation_url_title: 'Klicka här för att boka en tid för en konsultation om finnar',
+            booking_url: null,
+            booking_url_label: null,
+            booking_url_title: null,
+            url: 'finnar-konsultation',
+            url_label: 'Läs mer om vår konsultation för finnar',
+            url_title: 'Klicka här för att lära dig mer om vår kostnadsfria konsultation för finnar'
 
 );
 
