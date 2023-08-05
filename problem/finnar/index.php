@@ -27,12 +27,12 @@ $akas = [
             label: 'Tonårsfinnar',
             url: 'problem/tonarsfinnar',
             title: 'Komplett guide till tonårsfinnar: orsaker, förebyggande åtgärder och effektiva lösningar'
-      )
+      ),
             new Link(
             label: 'Akne',
             url: 'problem/finnar',
             title: 'Allt du behöver veta om akne och de mest effektiva behandlingsmetoderna'
-      ),
+      )
 
 ];
 
