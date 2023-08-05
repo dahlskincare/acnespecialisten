@@ -30,7 +30,7 @@ $akas = [
       ),
             new Link(
             label: 'Akne',
-            url: 'problem/finnar',
+            url: 'problem/akne',
             title: 'Allt du behöver veta om akne och de mest effektiva behandlingsmetoderna'
       )
 
