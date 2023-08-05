@@ -180,54 +180,6 @@ $type_categories = array(
       ),
 
       new BasedTypeCategory(
-            id: 'category-severity',
-            title: 'Akne baserat på svårighetsgrad',
-            content: '<p class="p200">Akne kan variera i svårighetsgrad från milda till extremt allvarliga fall. I milda fall av akne är symptomen ofta mindre uttalade och består främst av pormaskar, medan mer allvarliga fall innefattar djupare inflammationer i form av cystor och noduler. Svårighetsgraden påverkar också hur akne påverkar en persons livskvalitet och hur den ska behandlas. Det är viktigt att diagnostisera och behandla akne utifrån dess svårighetsgrad för att säkerställa bästa möjliga behandlingsresultat och förhindra potentiella ärr och bestående skador på huden.</p>',
-            types: array(
-                  new BasedType(
-                        image_url: 'images/problems/102x102/mild-akne.webp',
-                        image_alt: 'Bild av mild akne',
-                        image_title: 'Mild akne exemplifierad',
-                        title: 'Mild akne',
-                        subtitle: 'även kallat acne comedonica',
-                        content: '',
-                        url: 'problem/akne/typer/mild-akne',
-                        url_title: 'Utforska mer information om mild akne'
-                  ),
-                  new BasedType(
-                        image_url: 'images/problems/102x102/medelsvar-akne.webp',
-                        image_alt: 'Bild av medelsvår akne',
-                        image_title: 'Medelsvår akne exemplifierad',
-                        title: 'Medelsvår akne',
-                        subtitle: 'Även kallat acne papulopustulosa',
-                        content: '',
-                        url: 'problem/akne/typer/medel-akne',
-                        url_title: 'Utforska mer information om medelsvår akne'
-                  ),
-                  new BasedType(
-                        image_url: 'images/problems/102x102/svar-akne.webp',
-                        image_alt: 'Bild av svår akne',
-                        image_title: 'Svår akne exemplifierad',
-                        title: 'Svår akne',
-                        subtitle: 'Även kallat Acne nodulocystica',
-                        content: '',
-                        url: 'problem/akne/typer/svar-akne',
-                        url_title: 'Utforska mer information om svår akne'
-                  ),
-                  new BasedType(
-                        image_url: 'images/problems/102x102/mycket-svar-akne.webp',
-                        image_alt: 'Bild av mycket svår akne',
-                        image_title: 'Mycket svår akne exemplifierad',
-                        title: 'Mycket svår akne',
-                        subtitle: 'Även kallat Acne conglobata',
-                        content: '',
-                        url: 'problem/akne/typer/mycket-svar-akne',
-                        url_title: 'Utforska mer information om mycket svår akne'
-                  ),
-            )      
-            
-      ),
-      new BasedTypeCategory(
             id: 'category-reason',
             title: 'Akne baserat på yttre faktorer',
             content: '<p class="p200">Yttre faktorer kan också påverka uppkomsten av akne. Exempel på dessa är sol, friktion, kosmetika, mediciner och miljöfaktorer. Dessa kan bidra till eller förvärra akne genom att irritera huden, täppa till porer eller påverka hudens talgproduktion.</p>',
