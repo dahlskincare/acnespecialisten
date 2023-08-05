@@ -224,6 +224,7 @@ $type_categories = array(
                         url: 'problem/akne/typer/mycket-svar-akne',
                         url_title: 'Utforska mer information om mycket svår akne'
                   ),
+            )      
             
       ),
       new BasedTypeCategory(
@@ -310,7 +311,7 @@ $type_categories = array(
                         content: '',
                         url: 'problem/akne/typer/fungal-akne',
                         url_title: 'Lär dig mer om hur svamp relateras till akne'
-                  )
+                  ),
             )
       ),
       new BasedTypeCategory(
