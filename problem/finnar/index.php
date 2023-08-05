@@ -180,92 +180,93 @@ $type_categories = array(
       ),
 
       new BasedTypeCategory(
-    id: 'category-reason',
-    title: 'Finnar baserat på yttre faktorer',
-    content: '<p class="p200">Externa faktorer kan kraftigt påverka uppkomsten av finnar. Sådana faktorer kan vara solens strålar, friktion mot huden, användning av kosmetika, vissa läkemedel och miljöpåverkan. Dessa kan bidra till utvecklingen eller förvärringen av finnar genom att irritera huden, täppa till porerna eller rubba hudens talgproduktion.</p>',
-    types: array(
-        new BasedType(
-            image_url: 'images/problems/102x102/solfinnar.webp',
-            image_alt: 'Bild av finnar orsakade av solen',
-            image_title: 'Exempel på finnar orsakade av solen',
-            title: 'Solfinnar',
-            subtitle: 'Även kallat solutlöst acne',
-            content: '',
-            url: 'problem/finnar/typer/solfinnar',
-            url_title: 'Läs mer om hur solen kan bidra till finnar'
-        ),
-        new BasedType(
-            image_url: 'images/problems/102x102/hormonell-finnar.webp',
-            image_alt: 'Bild av hormonella finnar',
-            image_title: 'Exempel på hormonella finnar',
-            title: 'Hormonella finnar',
-            subtitle: 'Finnar orsakade av hormonell obalans',
-            content: '',
-            url: 'problem/finnar/typer/hormonella-finnar',
-            url_title: 'Utforska mer om hur hormoner kan framkalla finnar'
-        ),
-        new BasedType(
-            image_url: 'images/problems/102x102/kosmetikafinnar.webp',
-            image_alt: 'Bild av finnar orsakade av kosmetika',
-            image_title: 'Exempel på finnar orsakade av kosmetika',
-            title: 'Kosmetikafinnar',
-            subtitle: 'Finnar utlösta av kosmetiska produkter',
-            content: '',
-            url: 'problem/finnar/typer/kosmetika-finnar',
-            url_title: 'Lär dig mer om hur kosmetika kan orsaka finnar'
-        ),
-        new BasedType(
-            image_url: 'images/problems/102x102/pillfinnar.webp',
-            image_alt: 'Bild av finnar orsakade av pillande',
-            image_title: 'Exempel på finnar orsakade av pillande',
-            title: 'Pillfinnar',
-            subtitle: 'Finnar orsakade av mekanisk irritation',
-            content: '',
-            url: 'problem/finnar/typer/pillfinnar',
-            url_title: 'Läs mer om hur pillande kan leda till finnar'
-        ),
-        new BasedType(
-            image_url: 'images/problems/102x102/friktionsfinnar.webp',
-            image_alt: 'Bild av finnar orsakade av friktion',
-            image_title: 'Exempel på finnar orsakade av friktion',
-            title: 'Friktionsfinnar',
-            subtitle: 'Finnar orsakade av mekanisk irritation',
-            content: '',
-            url: 'problem/finnar/typer/friktionsfinnar',
-            url_title: 'Utforska mer om hur friktion kan orsaka finnar'
-        ),
-        new BasedType(
-            image_url: 'images/problems/102x102/lakemedelsfinnar.webp',
-            image_alt: 'Bild av finnar orsakade av läkemedel',
-            image_title: 'Exempel på finnar orsakade av läkemedel',
-            title: 'Läkemedelsfinnar',
-            subtitle: 'Finnar orsakade av medicinska preparat',
-            content: '',
-            url: 'problem/finnar/typer/lakemedelsfinnar',
-            url_title: 'Lär dig mer om hur läkemedel kan orsaka finnar'
-        ),
-        new BasedType(
-            image_url: 'images/problems/102x102/kontaktfinnar.webp',
-            image_alt: 'Bild av finnar orsakade av kontakt',
-            image_title: 'Exempel på finnar orsakade av kontakt',
-            title: 'Kontaktfinnar',
-            subtitle: 'Finnar orsakade av hudkontakt med irriterande ämnen',
-            content: '',
-            url: 'problem/finnar/typer/kontaktfinnar',
-            url_title: 'Utforska mer om hur direktkontakt kan orsaka finnar'
-        ),
-        new BasedType(
-            image_url: 'images/problems/102x102/svampfinnar.webp',
-            image_alt: 'Bild av finnar orsakade av svamp',
-            image_title: 'Exempel på finnar orsakade av svamp',
-            title: 'Svampfinnar',
-            subtitle: 'Finnar relaterade till hudsvamp',
-            content: '',
-            url: 'problem/finnar/typer/svampfinnar',
-            url_title: 'Lär dig mer om hur svamp kan bidra till uppkomst av finnar'
-        ),
-    )
-),
+          id: 'category-reason',
+          title: 'Finnar baserat på yttre faktorer',
+          content: '<p class="p200">Externa faktorer kan kraftigt påverka uppkomsten av finnar. Sådana faktorer kan vara solens strålar, friktion mot huden, användning av kosmetika, vissa läkemedel och miljöpåverkan. Dessa kan bidra till utvecklingen eller förvärringen av finnar genom att irritera huden, täppa till porerna eller rubba hudens talgproduktion.</p>',
+          types: array(
+              new BasedType(
+                  image_url: 'images/problems/102x102/solfinnar.webp',
+                  image_alt: 'Bild av finnar orsakade av solen',
+                  image_title: 'Exempel på finnar orsakade av solen',
+                  title: 'Solfinnar',
+                  subtitle: 'Även kallat solutlöst acne',
+                  content: '',
+                  url: 'problem/finnar/typer/solfinnar',
+                  url_title: 'Läs mer om hur solen kan bidra till finnar'
+              ),
+              new BasedType(
+                  image_url: 'images/problems/102x102/hormonell-finnar.webp',
+                  image_alt: 'Bild av hormonella finnar',
+                  image_title: 'Exempel på hormonella finnar',
+                  title: 'Hormonella finnar',
+                  subtitle: 'Finnar orsakade av hormonell obalans',
+                  content: '',
+                  url: 'problem/finnar/typer/hormonella-finnar',
+                  url_title: 'Utforska mer om hur hormoner kan framkalla finnar'
+              ),
+              new BasedType(
+                  image_url: 'images/problems/102x102/kosmetikafinnar.webp',
+                  image_alt: 'Bild av finnar orsakade av kosmetika',
+                  image_title: 'Exempel på finnar orsakade av kosmetika',
+                  title: 'Kosmetikafinnar',
+                  subtitle: 'Finnar utlösta av kosmetiska produkter',
+                  content: '',
+                  url: 'problem/finnar/typer/kosmetika-finnar',
+                  url_title: 'Lär dig mer om hur kosmetika kan orsaka finnar'
+              ),
+             new BasedType(
+                  image_url: 'images/problems/102x102/pillfinnar.webp',
+                  image_alt: 'Bild av finnar orsakade av pillande',
+                  image_title: 'Exempel på finnar orsakade av pillande',
+                  title: 'Pillfinnar',
+                  subtitle: 'Finnar framkallade genom ständigt pillande eller klämmande',
+                  content: '',
+                  url: 'problem/finnar/typer/pillfinnar',
+                  url_title: 'Läs mer om hur omedvetet pillande kan leda till finnar'
+                  ),
+             new BasedType(
+                  image_url: 'images/problems/102x102/friktionsfinnar.webp',
+                  image_alt: 'Bild av finnar orsakade av friktion',
+                  image_title: 'Exempel på finnar orsakade av friktion',
+                  title: 'Friktionsfinnar',
+                  subtitle: 'Finnar orsakade av konstant friktion eller tryck mot huden',
+                  content: '',
+                  url: 'problem/finnar/typer/friktionsfinnar',
+                  url_title: 'Utforska mer om hur friktion eller tryck mot huden kan orsaka finnar'
+                  ),
+
+              new BasedType(
+                  image_url: 'images/problems/102x102/lakemedelsfinnar.webp',
+                  image_alt: 'Bild av finnar orsakade av läkemedel',
+                  image_title: 'Exempel på finnar orsakade av läkemedel',
+                  title: 'Läkemedelsfinnar',
+                  subtitle: 'Finnar orsakade av medicinska preparat',
+                  content: '',
+                  url: 'problem/finnar/typer/lakemedelsfinnar',
+                  url_title: 'Lär dig mer om hur läkemedel kan orsaka finnar'
+              ),
+              new BasedType(
+                  image_url: 'images/problems/102x102/kontaktfinnar.webp',
+                  image_alt: 'Bild av finnar orsakade av kontakt',
+                  image_title: 'Exempel på finnar orsakade av kontakt',
+                  title: 'Kontaktfinnar',
+                  subtitle: 'Finnar orsakade av hudkontakt med irriterande ämnen',
+                  content: '',
+                  url: 'problem/finnar/typer/kontaktfinnar',
+                  url_title: 'Utforska mer om hur direktkontakt kan orsaka finnar'
+              ),
+              new BasedType(
+                  image_url: 'images/problems/102x102/svampfinnar.webp',
+                  image_alt: 'Bild av finnar orsakade av svamp',
+                  image_title: 'Exempel på finnar orsakade av svamp',
+                  title: 'Svampfinnar',
+                  subtitle: 'Finnar relaterade till hudsvamp',
+                  content: '',
+                  url: 'problem/finnar/typer/svampfinnar',
+                  url_title: 'Lär dig mer om hur svamp kan bidra till uppkomst av finnar'
+              ),
+          )
+      ),
 
       new BasedTypeCategory(
             id: 'category-area',
