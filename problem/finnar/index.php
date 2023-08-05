@@ -349,7 +349,6 @@ $symptoms = array(
             url_label: 'Fler detaljer om stängda komedoner'
       ),
       new Symptom(
-            new Symptom(
             name: 'Röda Finnar',
             aka: 'Också kallade papler',
             content: 'Röda och inflammerade blemmor kallas papler och bildas när hårsäckar infekteras, ofta med bakterien Propionibacterium acnes. Mindre än 5 mm i diameter, de kan vara ömma och vanligen synliga på ansiktet, nacken, bröstet och ryggen.',
