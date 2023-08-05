@@ -180,92 +180,93 @@ $type_categories = array(
       ),
 
       new BasedTypeCategory(
-            id: 'category-reason',
-            title: 'Akne baserat på yttre faktorer',
-            content: '<p class="p200">Yttre faktorer kan också påverka uppkomsten av akne. Exempel på dessa är sol, friktion, kosmetika, mediciner och miljöfaktorer. Dessa kan bidra till eller förvärra akne genom att irritera huden, täppa till porer eller påverka hudens talgproduktion.</p>',
-            types: array(
-                  new BasedType(
-                        image_url: 'images/problems/102x102/mallorca-akne.webp',
-                        image_alt: 'Bild av Mallorca akne',
-                        image_title: 'Exempel på Mallorca akne',
-                        title: 'Mallorca akne',
-                        subtitle: 'även kallat Acne aestivalis',
-                        content: '',
-                        url: 'problem/akne/typer/mallorca-akne',
-                        url_title: 'Läs mer om hur solen kan orsaka Mallorca akne'
-                  ),
-                  new BasedType(
-                        image_url: 'images/problems/102x102/hormonell-akne.webp',
-                        image_alt: 'Bild av hormonell akne',
-                        image_title: 'Exempel på hormonell akne',
-                        title: 'Hormonell akne',
-                        subtitle: 'akne orsakad av hormoner',
-                        content: '',
-                        url: 'problem/akne/typer/hormonell-akne',
-                        url_title: 'Utforska mer om hur hormoner kan framkalla akne'
-                  ),
-                  new BasedType(
-                        image_url: 'images/problems/102x102/kosmetika-akne.webp',
-                        image_alt: 'Bild av kosmetika akne',
-                        image_title: 'Exempel på kosmetika akne',
-                        title: 'kosmetika akne',
-                        subtitle: 'Även kallat Acne cosmetica',
-                        content: '',
-                        url: 'problem/akne/typer/kosmetika-akne',
-                        url_title: 'Lär dig mer om hur kosmetika kan ge akne'
-                  ),
-                  new BasedType(
-                        image_url: 'images/problems/102x102/pill-akne.webp',
-                        image_alt: 'Bild av pill akne',
-                        image_title: 'Exempel på pill akne',
-                        title: 'Akne från pillande',
-                        subtitle: 'Även kallat Acne exoriée ',
-                        content: '',
-                        url: 'problem/akne/typer/acne-exoriee',
-                        url_title: 'Läs mer om hur pillande kan leda till akne'
-                  ),
-                  new BasedType(
-                        image_url: 'images/problems/102x102/friktions-akne.webp',
-                        image_alt: 'Bild av friktions akne',
-                        image_title: 'Exempel på friktions akne',
-                        title: 'Friktionsakne',
-                        subtitle: 'Även kallat Acne mechanica',
-                        content: '',
-                        url: 'problem/akne/typer/akne-mekanisk',
-                        url_title: 'Utforska mer om hur friktion kan orsaka akne'
-                  ),
-                  new BasedType(
-                        image_url: 'images/problems/102x102/lakemedelsakne.webp',
-                        image_alt: 'Bild av läkemedelsakne',
-                        image_title: 'Exempel på läkemedelsakne',
-                        title: 'Läkemedelsakne',
-                        subtitle: 'Även kallat Acne medicamentosa',
-                        content: '',
-                        url: 'problem/akne/typer/lakemedelsakne',
-                        url_title: 'Lär dig mer om hur läkemedel kan orsaka akne'
-                  ),
-                  new BasedType(
-                        image_url: 'images/problems/102x102/kontakt-akne.webp',
-                        image_alt: 'Bild av kontaktakne',
-                        image_title: 'Exempel på kontaktakne',
-                        title: 'Kontaktakne',
-                        subtitle: 'Även kallat Acne venenata',
-                        content: '',
-                        url: 'problem/akne/typer/kontakt-akne',
-                        url_title: 'Utforska mer om hur direktkontakt kan påverka akne'
-                  ),
-                  new BasedType(
-                        image_url: 'images/problems/102x102/svamp-akne.webp',
-                        image_alt: 'Bild av svampakne',
-                        image_title: 'Exempel på svampakne',
-                        title: 'Svampakne',
-                        subtitle: 'Även kallat fungal acne',
-                        content: '',
-                        url: 'problem/akne/typer/fungal-akne',
-                        url_title: 'Lär dig mer om hur svamp relateras till akne'
-                  ),
-            )
-      ),
+    id: 'category-reason',
+    title: 'Finnar baserat på yttre faktorer',
+    content: '<p class="p200">Externa faktorer kan kraftigt påverka uppkomsten av finnar. Sådana faktorer kan vara solens strålar, friktion mot huden, användning av kosmetika, vissa läkemedel och miljöpåverkan. Dessa kan bidra till utvecklingen eller förvärringen av finnar genom att irritera huden, täppa till porerna eller rubba hudens talgproduktion.</p>',
+    types: array(
+        new BasedType(
+            image_url: 'images/problems/102x102/solfinnar.webp',
+            image_alt: 'Bild av finnar orsakade av solen',
+            image_title: 'Exempel på finnar orsakade av solen',
+            title: 'Solfinnar',
+            subtitle: 'Även kallat solutlöst acne',
+            content: '',
+            url: 'problem/finnar/typer/solfinnar',
+            url_title: 'Läs mer om hur solen kan bidra till finnar'
+        ),
+        new BasedType(
+            image_url: 'images/problems/102x102/hormonell-finnar.webp',
+            image_alt: 'Bild av hormonella finnar',
+            image_title: 'Exempel på hormonella finnar',
+            title: 'Hormonella finnar',
+            subtitle: 'Finnar orsakade av hormonell obalans',
+            content: '',
+            url: 'problem/finnar/typer/hormonella-finnar',
+            url_title: 'Utforska mer om hur hormoner kan framkalla finnar'
+        ),
+        new BasedType(
+            image_url: 'images/problems/102x102/kosmetikafinnar.webp',
+            image_alt: 'Bild av finnar orsakade av kosmetika',
+            image_title: 'Exempel på finnar orsakade av kosmetika',
+            title: 'Kosmetikafinnar',
+            subtitle: 'Finnar utlösta av kosmetiska produkter',
+            content: '',
+            url: 'problem/finnar/typer/kosmetika-finnar',
+            url_title: 'Lär dig mer om hur kosmetika kan orsaka finnar'
+        ),
+        new BasedType(
+            image_url: 'images/problems/102x102/pillfinnar.webp',
+            image_alt: 'Bild av finnar orsakade av pillande',
+            image_title: 'Exempel på finnar orsakade av pillande',
+            title: 'Pillfinnar',
+            subtitle: 'Finnar orsakade av mekanisk irritation',
+            content: '',
+            url: 'problem/finnar/typer/pillfinnar',
+            url_title: 'Läs mer om hur pillande kan leda till finnar'
+        ),
+        new BasedType(
+            image_url: 'images/problems/102x102/friktionsfinnar.webp',
+            image_alt: 'Bild av finnar orsakade av friktion',
+            image_title: 'Exempel på finnar orsakade av friktion',
+            title: 'Friktionsfinnar',
+            subtitle: 'Finnar orsakade av mekanisk irritation',
+            content: '',
+            url: 'problem/finnar/typer/friktionsfinnar',
+            url_title: 'Utforska mer om hur friktion kan orsaka finnar'
+        ),
+        new BasedType(
+            image_url: 'images/problems/102x102/lakemedelsfinnar.webp',
+            image_alt: 'Bild av finnar orsakade av läkemedel',
+            image_title: 'Exempel på finnar orsakade av läkemedel',
+            title: 'Läkemedelsfinnar',
+            subtitle: 'Finnar orsakade av medicinska preparat',
+            content: '',
+            url: 'problem/finnar/typer/lakemedelsfinnar',
+            url_title: 'Lär dig mer om hur läkemedel kan orsaka finnar'
+        ),
+        new BasedType(
+            image_url: 'images/problems/102x102/kontaktfinnar.webp',
+            image_alt: 'Bild av finnar orsakade av kontakt',
+            image_title: 'Exempel på finnar orsakade av kontakt',
+            title: 'Kontaktfinnar',
+            subtitle: 'Finnar orsakade av hudkontakt med irriterande ämnen',
+            content: '',
+            url: 'problem/finnar/typer/kontaktfinnar',
+            url_title: 'Utforska mer om hur direktkontakt kan orsaka finnar'
+        ),
+        new BasedType(
+            image_url: 'images/problems/102x102/svampfinnar.webp',
+            image_alt: 'Bild av finnar orsakade av svamp',
+            image_title: 'Exempel på finnar orsakade av svamp',
+            title: 'Svampfinnar',
+            subtitle: 'Finnar relaterade till hudsvamp',
+            content: '',
+            url: 'problem/finnar/typer/svampfinnar',
+            url_title: 'Lär dig mer om hur svamp kan bidra till uppkomst av finnar'
+        ),
+    )
+),
+
       new BasedTypeCategory(
             id: 'category-area',
             title: 'Akne baserat på område',
