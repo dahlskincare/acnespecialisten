@@ -348,9 +348,9 @@ $type_categories = array(
                         url: 'problem/akne/typer/akne-brostet',
                         url_title: 'Läs mer om akne på bröstet och dess potentiella behandlingar'
                   ),
-
             
-      )
+            )
+        ),    
 
 );
 
