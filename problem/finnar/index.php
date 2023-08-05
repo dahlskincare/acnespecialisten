@@ -158,21 +158,21 @@ $type_categories = array(
             types: array(
                   new BasedType(
                         title: 'Vuxenfinnar',
+                        subtitle: 'Ibland kopplat till livsstilsfaktorer',
+                        content: '',
                         image_url: 'images/problems/102x102/vuxenfinnar.webp',
                         image_alt: 'Bild av finnar hos vuxna',
                         image_title: 'Finnar hos vuxna',
-                        subtitle: 'Ibland kopplat till livsstilsfaktorer',
-                        content: '',
                         url: 'problem/finnar/typer/vuxenfinnar',
                         url_title: 'Utforska information om finnar hos vuxna'
                   ),
                   new BasedType(
-                        image_url: 'images/problems/102x102/tonarsfinnar.webp',
-                        image_alt: 'Bild av finnar hos tonåringar',
-                        image_title: 'Finnar hos tonåringar',
                         title: 'Tonårsfinnar',
                         subtitle: 'En vanlig företeelse under puberteten',
                         content: '',
+                        image_url: 'images/problems/102x102/tonarsfinnar.webp',
+                        image_alt: 'Bild av finnar hos tonåringar',
+                        image_title: 'Finnar hos tonåringar',
                         url: 'problem/finnar/typer/tonarsfinnar',
                         url_title: 'Utforska information om finnar hos tonåringar'
                   ),
@@ -185,127 +185,137 @@ $type_categories = array(
           content: '<p class="p200">Externa faktorer kan kraftigt påverka uppkomsten av finnar. Sådana faktorer kan vara solens strålar, friktion mot huden, användning av kosmetika, vissa läkemedel och miljöpåverkan. Dessa kan bidra till utvecklingen eller förvärringen av finnar genom att irritera huden, täppa till porerna eller rubba hudens talgproduktion.</p>',
           types: array(
               new BasedType(
-                  image_url: 'images/problems/102x102/solfinnar.webp',
-                  image_alt: 'Bild av finnar orsakade av solen',
-                  image_title: 'Exempel på finnar orsakade av solen',
                   title: 'Solfinnar',
                   subtitle: 'Även kallat solutlöst acne',
                   content: '',
+                  image_url: 'images/problems/102x102/solfinnar.webp',
+                  image_alt: 'Bild av finnar orsakade av solen',
+                  image_title: 'Exempel på finnar orsakade av solen',
                   url: 'problem/finnar/typer/solfinnar',
                   url_title: 'Läs mer om hur solen kan bidra till finnar'
               ),
               new BasedType(
-                  image_url: 'images/problems/102x102/hormonell-finnar.webp',
-                  image_alt: 'Bild av hormonella finnar',
-                  image_title: 'Exempel på hormonella finnar',
                   title: 'Hormonella finnar',
                   subtitle: 'Finnar orsakade av hormonell obalans',
                   content: '',
+                  image_url: 'images/problems/102x102/hormonell-finnar.webp',
+                  image_alt: 'Bild av hormonella finnar',
+                  image_title: 'Exempel på hormonella finnar',
                   url: 'problem/finnar/typer/hormonella-finnar',
                   url_title: 'Utforska mer om hur hormoner kan framkalla finnar'
               ),
               new BasedType(
-                  image_url: 'images/problems/102x102/kosmetikafinnar.webp',
-                  image_alt: 'Bild av finnar orsakade av kosmetika',
-                  image_title: 'Exempel på finnar orsakade av kosmetika',
                   title: 'Kosmetikafinnar',
                   subtitle: 'Finnar utlösta av kosmetiska produkter',
                   content: '',
+                  image_url: 'images/problems/102x102/kosmetikafinnar.webp',
+                  image_alt: 'Bild av finnar orsakade av kosmetika',
+                  image_title: 'Exempel på finnar orsakade av kosmetika',
                   url: 'problem/finnar/typer/kosmetika-finnar',
                   url_title: 'Lär dig mer om hur kosmetika kan orsaka finnar'
               ),
              new BasedType(
-                  image_url: 'images/problems/102x102/pillfinnar.webp',
-                  image_alt: 'Bild av finnar orsakade av pillande',
-                  image_title: 'Exempel på finnar orsakade av pillande',
                   title: 'Pillfinnar',
                   subtitle: 'Finnar framkallade genom ständigt pillande eller klämmande',
                   content: '',
+                  image_url: 'images/problems/102x102/pillfinnar.webp',
+                  image_alt: 'Bild av finnar orsakade av pillande',
+                  image_title: 'Exempel på finnar orsakade av pillande',
                   url: 'problem/finnar/typer/pillfinnar',
                   url_title: 'Läs mer om hur omedvetet pillande kan leda till finnar'
                   ),
              new BasedType(
-                  image_url: 'images/problems/102x102/friktionsfinnar.webp',
-                  image_alt: 'Bild av finnar orsakade av friktion',
-                  image_title: 'Exempel på finnar orsakade av friktion',
                   title: 'Friktionsfinnar',
                   subtitle: 'Finnar orsakade av konstant friktion eller tryck mot huden',
                   content: '',
+                  image_url: 'images/problems/102x102/friktionsfinnar.webp',
+                  image_alt: 'Bild av finnar orsakade av friktion',
+                  image_title: 'Exempel på finnar orsakade av friktion',
                   url: 'problem/finnar/typer/friktionsfinnar',
                   url_title: 'Utforska mer om hur friktion eller tryck mot huden kan orsaka finnar'
                   ),
 
               new BasedType(
-                  image_url: 'images/problems/102x102/lakemedelsfinnar.webp',
-                  image_alt: 'Bild av finnar orsakade av läkemedel',
-                  image_title: 'Exempel på finnar orsakade av läkemedel',
                   title: 'Läkemedelsfinnar',
                   subtitle: 'Finnar orsakade av medicinska preparat',
                   content: '',
+                  image_url: 'images/problems/102x102/lakemedelsfinnar.webp',
+                  image_alt: 'Bild av finnar orsakade av läkemedel',
+                  image_title: 'Exempel på finnar orsakade av läkemedel',
                   url: 'problem/finnar/typer/lakemedelsfinnar',
                   url_title: 'Lär dig mer om hur läkemedel kan orsaka finnar'
               ),
               new BasedType(
-                  image_url: 'images/problems/102x102/kontaktfinnar.webp',
-                  image_alt: 'Bild av finnar orsakade av kontakt',
-                  image_title: 'Exempel på finnar orsakade av kontakt',
                   title: 'Kontaktfinnar',
                   subtitle: 'Finnar orsakade av hudkontakt med irriterande ämnen',
                   content: '',
+                  image_url: 'images/problems/102x102/kontaktfinnar.webp',
+                  image_alt: 'Bild av finnar orsakade av kontakt',
+                  image_title: 'Exempel på finnar orsakade av kontakt',
                   url: 'problem/finnar/typer/kontaktfinnar',
                   url_title: 'Utforska mer om hur direktkontakt kan orsaka finnar'
               ),
               new BasedType(
-                  image_url: 'images/problems/102x102/svampfinnar.webp',
-                  image_alt: 'Bild av finnar orsakade av svamp',
-                  image_title: 'Exempel på finnar orsakade av svamp',
                   title: 'Svampfinnar',
                   subtitle: 'Finnar relaterade till hudsvamp',
                   content: '',
+                  image_url: 'images/problems/102x102/svampfinnar.webp',
+                  image_alt: 'Bild av finnar orsakade av svamp',
+                  image_title: 'Exempel på finnar orsakade av svamp',
                   url: 'problem/finnar/typer/svampfinnar',
                   url_title: 'Lär dig mer om hur svamp kan bidra till uppkomst av finnar'
               ),
           )
       ),
 
-      new BasedTypeCategory(
-            id: 'category-area',
-            title: 'Akne baserat på område',
-            content: '<p class="p200">Akne kan uppträda på olika områden på kroppen. Ansiktet är det vanligaste området, men akne kan också förekomma på bröst, rygg, axlar och andra delar av kroppen. Placeringen av akne kan ge en indikation på dess orsak, som hormonella förändringar, irritation från kläder eller yttre faktorer som sol och friktion.</p>',
-            types: array(
-                  new BasedType(
-                        image_url: 'images/problems/102x102/akne-ansikte.webp',
-                        image_alt: 'Bild av akne i ansiktet',
-                        image_title: 'Exempel på akne i ansiktet',
-                        title: 'Akne i ansiktet',
-                        subtitle: 'Även kallat Acne faciei',
-                        content: '',
-                        url: 'problem/akne/typer/akne-ansiktet',
-                        url_title: 'Läs mer om akne i ansiktet och dess potentiella behandlingar'
-                  ),
-                  new BasedType(
-                        image_url: 'images/problems/102x102/akne-rygg.webp',
-                        image_alt: 'Bild av akne på ryggen',
-                        image_title: 'Exempel på akne på ryggen',
-                        title: 'Akne på ryggen',
-                        subtitle: 'Även kallat Acne dorsalis',
-                        content: '',
-                        url: 'problem/akne/typer/akne-ryggen',
-                        url_title: 'Läs mer om akne på ryggen och dess potentiella behandlingar'
-                  ),
-                  new BasedType(
-                        image_url: 'images/problems/102x102/akne-brost.webp',
-                        image_alt: 'Bild av akne på bröstet',
-                        image_title: 'Exempel på akne på bröstet',
-                        title: 'Akne på bröstet',
-                        subtitle: 'Även kallat Acne pectoralis',
-                        content: '',
-                        url: 'problem/akne/typer/akne-brostet',
-                        url_title: 'Läs mer om akne på bröstet och dess potentiella behandlingar'
-                  ),
-            
-            )
-        ),    
+            new BasedTypeCategory(
+                  id: 'category-area',
+                  title: 'Finnar baserat på område',
+                  content: '<p class="p200">Finnar kan framträda på olika delar av kroppen. Ansiktet är det vanligaste området, men finnar kan också uppstå på bröstet, ryggen, axlarna och andra delar av kroppen. Finnarnas placering kan ge en indikation på underliggande orsaker, såsom hormonella förändringar, irritation från kläder eller externa faktorer som sol och friktion.</p>',
+                  types: array(
+                        new BasedType(
+                              title: 'Finnar i ansiktet',
+                              subtitle: 'Även kallat Acne faciei',
+                              content: '',
+                              image_url: 'images/problems/102x102/finnar-ansikte.webp',
+                              image_alt: 'Bild av finnar i ansiktet',
+                              image_title: 'Exempel på finnar i ansiktet',
+                              url: 'problem/finnar/typer/finnar-ansiktet',
+                              url_title: 'Läs mer om finnar i ansiktet och möjliga behandlingar'
+                        ),
+                        new BasedType(
+                              title: 'Finnar på ryggen',
+                              subtitle: 'Även kallat Acne dorsalis',
+                              content: '',
+                              image_url: 'images/problems/102x102/finnar-rygg.webp',
+                              image_alt: 'Bild av finnar på ryggen',
+                              image_title: 'Exempel på finnar på ryggen',
+                              url: 'problem/finnar/typer/finnar-ryggen',
+                              url_title: 'Läs mer om finnar på ryggen och möjliga behandlingar'
+                        ),
+                        new BasedType(
+                              title: 'Finnar på bröstet',
+                              subtitle: 'Även kallat Acne pectoralis',
+                              content: '',
+                              image_url: 'images/problems/102x102/finnar-brost.webp',
+                              image_alt: 'Bild av finnar på bröstet',
+                              image_title: 'Exempel på finnar på bröstet',
+                              url: 'problem/finnar/typer/finnar-brostet',
+                              url_title: 'Läs mer om finnar på bröstet och möjliga behandlingar'
+                        ),
+                        new BasedType(
+                              title: 'Finnar runt munnen',
+                              subtitle: 'Även kallat Perioral dermatit',
+                              content: '',
+                              image_url: 'images/problems/102x102/finnar-mun.webp',
+                              image_alt: 'Bild av finnar runt munnen',
+                              image_title: 'Exempel på finnar runt munnen',
+                              url: 'problem/finnar/typer/finnar-mun',
+                              url_title: 'Läs mer om finnar runt munnen och möjliga behandlingar'
+                        ),
+                  )
+            ),
+
 
 );
 
