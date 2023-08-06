@@ -515,8 +515,7 @@ $products = array(
             title: 'Produkter mot finnar',
             duration: null,
             price: 'Pris från 1495 kr',
-            content: 'provat det mest mot finnar fast utan resultat? Låt oss förenkla det för dig. Lösningen är att balansera din hud, och det kan vara så enkelt som att välja rätt produkter. Våra specialutformade produkter för finnar har vetenskapligt framtagits för att ge högpresterande resultat. De arbetar aktivt för att effektivt bekämpa och förebygga finnar, samtidigt som de hjälper till att återställa balansen i din hud. Investera i vår hudvårdsserie idag och börja resan mot en klarare, friskare och mer problemfri hud. Vänta inte, starta din resa mot renare hud nu med vår specialiserade hudvård för finnar - en enkel lösning till ett komplicerat problem.'
-            content: 'Förvandla din hud och ta makten över dina finnar med våra specialutformade produkter. Dessa högpresterande, vetenskapligt framtagna produkter är utformade för att snabbt och effektivt bekämpa och förebygga finnar genom att balansera din hud och motverka uppkomsten av nya finnar. Investerar du i vår hudvårdsserie idag, investerar du i en friskare, klarare och mer självsäker framtid för din hud. Vänta inte, påbörja din resa mot renare hud nu och upplev skillnaden som vår hudvård för finnar kan göra.'
+            content: 'Att effektivt bekämpa och förebygga finnar kräver regelbunden användning av de rätta produkterna. Våra finn-produkter har specialutformats för att balansera din hud och motverka uppkomsten av nya finnar. Ta kontroll över din hud idag och investera i vår speciellt utvecklade hudvård för finnar.',
             image_small: 'images/services/200x200/produkter-finnar.webp',
             image_large: 'images/services/200x200/produkter-finnar.webp',
             image_alt: 'Bild av produkter designade för behandling av finnar',
@@ -538,27 +537,26 @@ $headline04 = "04. Reparera ärr från finnar";
 
 $procedures = array(
       new Service(
-            id: 'behandling-for-finnarr',
-            title: 'Reparera ärr efter finnar',
-            duration: '4 effektiva metoder',
+            id: 'microneedling-for-acne',
+            title: 'Reparera acneärr',
+            duration: '4 behandlingsmetoder',
             price: null,
-            content: 'Finnar kan lämna efter sig oönskade ärr och missfärgningar. Med våra specialutvecklade behandlingsmetoder kan vi hjälpa dig att reparera dessa ärr och återställa din huds naturliga utseende. Vi erbjuder fyra effektiva metoder, anpassade för att behandla olika typer av ärr. Klicka här för att läsa mer om hur vi kan hjälpa dig att ta kontroll över din hud och reparera ärr efter finnar.',
-            image_small: 'images/services/200x200/behandling-finnarr.webp',
-            image_large: 'images/services/200x200/behandling-finnarr.webp',
-            image_alt: 'Bild av behandling för ärr efter finnar',
-            image_title: 'Åtgärda ärr efter finnar',
+            content: 'Efter aktiv akne kan man uppleva post-akne, vilket innebär ärr i form av gropar i olika former och fläckar i olika färger på huden där aknen tidigare varit. Olika typer av ärr behandlas med olika metoder. Klicka här för att läsa mer om hur du kan reparera din hud och ta hand om post-akne.',
+            image_small: 'images/services/200x200/microneedling-aknearr.webp',
+            image_large: 'images/services/200x200/microneedling-aknearr.webp',
+            image_alt: 'Reparera acneärr',
+            image_title: 'Reparera acneärr',
             consultation_url: null,
             consultation_url_label: null,
             consultation_url_title: null,
             booking_url: null,
             booking_url_label: null,
             booking_url_title: null,
-            url: 'behandling/finnarr',
-            url_label: 'Läs mer om behandlingar för ärr efter finnar',
-            url_title: 'Klicka här för att läsa mer om våra behandlingar för ärr efter finnar'
+            url: 'behandling/aknearr',
+            url_label: 'Läs mer om behandlingar mot akneärr',
+            url_title: 'Klicka här för att läsa mer om våra behandlingar mot akneärr'
       ),
 );
-
 $articles = array(
       new Article(
             id: 'pigmentation-causes-and-risk-factors',
