@@ -422,138 +422,143 @@ $symptoms = array(
 $headline02 = "02. Behandla dina finnar";
 
 $services = array(
-      new Service(
-            id: 'akne',
+           new Service(
+            id: 'ansiktsbehandling-finnar',
             title: 'Ansiktsbehandling mot finnar',
             duration: '60 min',
             price: '995 kr',
-            content: 'En effektiv ansiktsbehandling mot akne fokuserar på att noggrant extrahera orenheter som orsakar inflammation och skador i huden. Genom att försiktigt klämma ut akne och pormaskar kan behandlingen bidra till att förebygga ärrbildning och främja en snabbare läkning.',
-            image_small: 'images/services/200x200/ansiktsbehandling-akne.webp',
-            image_large: 'images/services/200x200/ansiktsbehandling-akne.webp',
-            image_alt: 'Bild av en ansiktsbehandling mot akne',
-            image_title: 'Ansiktsbehandling mot akne',
+            content: 'Vår ansiktsbehandling mot finnar är en effektiv lösning, noggrant designad för att extrahera orenheter som orsakar inflammation och skador på huden. Genom att varsamt ta bort finnar och pormaskar kan behandlingen hjälpa till att förebygga ärrbildning och främja snabbare läkning.',
+            image_small: 'images/services/200x200/ansiktsbehandling-finnar.webp',
+            image_large: 'images/services/200x200/ansiktsbehandling-finnar.webp',
+            image_alt: 'Bild av en ansiktsbehandling mot finnar',
+            image_title: 'Ansiktsbehandling mot finnar',
             consultation_url: 'hudkonsultation',
             consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling mot akne',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
-            booking_url_label: 'Boka tid för ansiktsbehandling mot akne',
-            booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling mot akne',
-            url: 'ansiktsbehandling-acne',
-            url_label: 'Läs mer om ansiktsbehandling mot akne',
-            url_title: 'Klicka här för att läsa mer om ansiktsbehandling mot akne'
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling mot finnar',
+            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/finnar-konsultation-1643922',
+            booking_url_label: 'Boka tid för ansiktsbehandling mot finnar',
+            booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling mot finnar',
+            url: 'ansiktsbehandling-finnar',
+            url_label: 'Läs mer om ansiktsbehandling mot finnar',
+            url_title: 'Klicka här för att läsa mer om ansiktsbehandling mot finnar'
       ),
-      new Service(
-            id: 'laser',
+       new Service(
+            id: 'laser-finnar',
             title: 'Laser mot finnar',
             duration: '50 min',
-            price: '2595 kr',
-            content: 'En avancerad laserbehandling mot akne erbjuder en effektiv lösning för att bekämpa aktiv akne och ärr som kan uppstå efter utbrott. Lasertekniken riktar sig mot de bakterier som orsakar inflammation och hjälper till att minska produktionen av talg, vilket minskar risken för framtida utbrott.',
-            image_small: 'images/services/200x200/laser-akne.webp',
-            image_large: 'images/services/200x200/laser-akne.webp',
-            image_alt: 'Bild av laserbehandling mot akne',
-            image_title: 'Laserbehandling mot akne',
+            price: '3595 kr',
+            content: 'Vår avancerade laserbehandling mot finnar erbjuder en effektiv lösning för att bekämpa aktiv akne och ärr som kan uppstå efter utbrott. Lasertekniken riktar sig mot bakterier som orsakar inflammation och hjälper till att minska produktionen av talg, vilket minskar risken för framtida utbrott.',
+            image_small: 'images/services/200x200/laser-finnar.webp',
+            image_large: 'images/services/200x200/laser-finnar.webp',
+            image_alt: 'Bild av laserbehandling mot finnar',
+            image_title: 'Laserbehandling mot finnar',
             consultation_url: 'hudkonsultation',
             consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling mot akne',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
-            booking_url_label: 'Boka tid för laserbehandling mot akne',
-            booking_url_title: 'Klicka för att boka tid för en laserbehandling mot akne',
-            url: 'laser-akne',
-            url_label: 'Läs mer om laser mot akne',
-            url_title: 'Klicka här för att läsa mer om laserbehandling mot akne'
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling mot finnar',
+            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/finnar-konsultation-1643922',
+            booking_url_label: 'Boka tid för laserbehandling mot finnar',
+            booking_url_title: 'Klicka för att boka tid för en laserbehandling mot finnar',
+            url: 'laser-finnar',
+            url_label: 'Läs mer om laser mot finnar',
+            url_title: 'Klicka här för att läsa mer om laserbehandling mot finnar'
       ),
-      new Service(
-            id: 'chemical-peeling',
+       new Service(
+            id: 'kemisk-peeling-finnar',
             title: 'Kemisk peeling mot finnar',
             duration: '30 min',
             price: '1595 kr',
-            content: 'Kemisk peeling är en effektiv metod för att behandla akne. Genom att använda en speciellt framtagen lösning för att exfoliera huden, främjar kemisk peeling cellförnyelse, rensar tilltäppta porer och minskar inflammation. Resultatet är en jämnare hudton, mindre utbrott och färre synliga ärr. Det är en enkel och effektiv strategi för att ta kontroll över din akne och förbättra din hudhälsa.',
-            image_small: 'images/services/200x200/kemisk-peeling-akne.webp',
-            image_large: 'images/services/200x200/kemisk-peeling-akne.webp',
-            image_alt: 'Bild av kemisk peeling mot akne',
-            image_title: 'Kemisk peeling mot akne behandling',
+            content: 'Kemisk peeling är en effektiv metod för att behandla finnar. Genom att använda en speciellt framtagen lösning för att exfoliera huden, främjar kemisk peeling cellförnyelse, rensar tilltäppta porer och minskar inflammation. Resultatet är en jämnare hudton, färre utbrott och mindre synliga ärr. Det är en enkel och effektiv strategi för att hantera dina finnar och förbättra din hudhälsa.',
+            image_small: 'images/services/200x200/kemisk-peeling-finnar.webp',
+            image_large: 'images/services/200x200/kemisk-peeling-finnar.webp',
+            image_alt: 'Bild av kemisk peeling mot finnar',
+            image_title: 'Kemisk peeling mot finnar behandling',
             consultation_url: 'hudkonsultation',
             consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för kemisk peeling mot akne',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
-            booking_url_label: 'Boka tid för kemisk peeling mot akne',
-            booking_url_title: 'Klicka för att boka tid för en kemisk peeling mot akne behandling',
-            url: 'kemisk-peeling-akne',
-            url_label: 'Läs mer om kemisk peeling mot akne',
-            url_title: 'Klicka här för att läsa mer om kemisk peeling mot akne'
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för kemisk peeling mot finnar',
+            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/finnar-konsultation-1643922',
+            booking_url_label: 'Boka tid för kemisk peeling mot finnar',
+            booking_url_title: 'Klicka för att boka tid för en kemisk peeling mot finnar behandling',
+            url: 'kemisk-peeling-finnar',
+            url_label: 'Läs mer om kemisk peeling mot finnar',
+            url_title: 'Klicka här för att läsa mer om kemisk peeling mot finnar'
       ),
 
-      new Service(
-            id: 'microneedling',
+        new Service(
+            id: 'microneedling-finnar',
             title: 'Microneedling mot finnar',
             duration: '50 min',
             price: '2595 kr',
-            content: 'Microneedling är en innovativ behandlingsmetod för akne. Detta utförs genom att skapa små mikroskopiska kanaler i huden vilket främjar hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. Denna behandling kan effektivt minska utbrott av akne, förbättra hudens struktur och minska synligheten av akneärr. Microneedling är en säker och effektiv strategi för att ta kontroll över din akne och förbättra din hudhälsa.',
-            image_small: 'images/services/200x200/kemisk-peeling-akne.webp',
-            image_large: 'images/services/200x200/kemisk-peeling-akne.webp',
-            image_alt: 'Bild av microneedling mot akne',
-            image_title: 'Microneedling mot akne behandling',
+            content: 'Microneedling är en innovativ behandlingsmetod mot finnar. Genom att skapa små mikroskopiska kanaler i huden, främjar denna behandling hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. Metoden kan effektivt minska utbrott av finnar, förbättra hudens struktur och minska synligheten av ärr orsakade av finnar. Microneedling är en säker och effektiv strategi för att hantera dina finnar och förbättra din hudhälsa.',
+            image_small: 'images/services/200x200/microneedling-finnar.webp',
+            image_large: 'images/services/200x200/microneedling-finnar.webp',
+            image_alt: 'Bild av microneedling mot finnar',
+            image_title: 'Microneedling mot finnar',
             consultation_url: 'hudkonsultation',
             consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling mot akne',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
-            booking_url_label: 'Boka tid för microneedling mot akne',
-            booking_url_title: 'Klicka för att boka tid för en microneedling mot akne behandling',
-            url: 'microneedling-akne',
-            url_label: 'Läs mer om microneedling mot akne',
-            url_title: 'Klicka här för att läsa mer om microneedling mot akne'
-      ),
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling mot finnar',
+            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/finnar-konsultation-1643922',
+            booking_url_label: 'Boka tid för microneedling mot finnar',
+            booking_url_title: 'Klicka för att boka tid för en microneedling mot finnar',
+            url: 'microneedling-finnar',
+            url_label: 'Läs mer om microneedling mot finnar',
+            url_title: 'Klicka här för att läsa mer om microneedling mot finnar'
+            )
+
+
 );
 
 $headline03 = "03. Förebygg uppkomsten av nya finnar";
 
 $products = array(
       new Service(
-            id: 'produkter-mot-akne',
-            title: 'Produkter mot akne',
+            id: 'produkter-mot-finnar',
+            title: 'Produkter mot finnar',
             duration: null,
             price: 'Pris från 1495 kr',
-            content: 'För att effektivt bekämpa och förebygga akne är daglig behandling med rätt produkter avgörande. Våra akneprodukter är speciellt utformade för att hålla din hud i balans och förhindra att ny akne uppstår.',
-            image_small: 'images/services/200x200/produkter-akne.webp',
-            image_large: 'images/services/200x200/produkter-akne.webp',
-            image_alt: 'Bild av produkter designade för behandling av akne',
-            image_title: 'Effektiva produkter för bekämpning och förebyggande av akne',
+            content: 'provat det mest mot finnar fast utan resultat? Låt oss förenkla det för dig. Lösningen är att balansera din hud, och det kan vara så enkelt som att välja rätt produkter. Våra specialutformade produkter för finnar har vetenskapligt framtagits för att ge högpresterande resultat. De arbetar aktivt för att effektivt bekämpa och förebygga finnar, samtidigt som de hjälper till att återställa balansen i din hud. Investera i vår hudvårdsserie idag och börja resan mot en klarare, friskare och mer problemfri hud. Vänta inte, starta din resa mot renare hud nu med vår specialiserade hudvård för finnar - en enkel lösning till ett komplicerat problem.'
+            content: 'Förvandla din hud och ta makten över dina finnar med våra specialutformade produkter. Dessa högpresterande, vetenskapligt framtagna produkter är utformade för att snabbt och effektivt bekämpa och förebygga finnar genom att balansera din hud och motverka uppkomsten av nya finnar. Investerar du i vår hudvårdsserie idag, investerar du i en friskare, klarare och mer självsäker framtid för din hud. Vänta inte, påbörja din resa mot renare hud nu och upplev skillnaden som vår hudvård för finnar kan göra.'
+            image_small: 'images/services/200x200/produkter-finnar.webp',
+            image_large: 'images/services/200x200/produkter-finnar.webp',
+            image_alt: 'Bild av produkter designade för behandling av finnar',
+            image_title: 'Effektiva produkter för bekämpning och förebyggande av finnar',
             consultation_url: null,
             consultation_url_label: null,
             consultation_url_title: null,
             booking_url: null,
             booking_url_label: null,
             booking_url_title: null,
-            url: 'produkter-akne',
-            url_label: 'Läs mer om produkter mot akne',
-            url_title: 'Klicka här för att läsa mer om produkter mot akne'
+            url: 'produkter-finnar',
+            url_label: 'Läs mer om våra produkter mot finnar',
+            url_title: 'Klicka här för att läsa mer om våra effektiva produkter mot finnar'
       )
 );
+
 
 $headline04 = "04. Reparera ärr från finnar";
 
 $procedures = array(
       new Service(
-            id: 'microneedling-for-acne',
-            title: 'Reparera acneärr',
-            duration: '4 behandlingsmetoder',
+            id: 'behandling-for-finnarr',
+            title: 'Reparera ärr efter finnar',
+            duration: '4 effektiva metoder',
             price: null,
-            content: 'Efter aktiv akne kan man uppleva post-akne, vilket innebär ärr i form av gropar i olika former och fläckar i olika färger på huden där aknen tidigare varit. Olika typer av ärr behandlas med olika metoder. Klicka här för att läsa mer om hur du kan reparera din hud och ta hand om post-akne.',
-            image_small: 'images/services/200x200/microneedling-aknearr.webp',
-            image_large: 'images/services/200x200/microneedling-aknearr.webp',
-            image_alt: 'Reparera acneärr',
-            image_title: 'Reparera acneärr',
+            content: 'Finnar kan lämna efter sig oönskade ärr och missfärgningar. Med våra specialutvecklade behandlingsmetoder kan vi hjälpa dig att reparera dessa ärr och återställa din huds naturliga utseende. Vi erbjuder fyra effektiva metoder, anpassade för att behandla olika typer av ärr. Klicka här för att läsa mer om hur vi kan hjälpa dig att ta kontroll över din hud och reparera ärr efter finnar.',
+            image_small: 'images/services/200x200/behandling-finnarr.webp',
+            image_large: 'images/services/200x200/behandling-finnarr.webp',
+            image_alt: 'Bild av behandling för ärr efter finnar',
+            image_title: 'Åtgärda ärr efter finnar',
             consultation_url: null,
             consultation_url_label: null,
             consultation_url_title: null,
             booking_url: null,
             booking_url_label: null,
             booking_url_title: null,
-            url: 'behandling/aknearr',
-            url_label: 'Läs mer om behandlingar mot akneärr',
-            url_title: 'Klicka här för att läsa mer om våra behandlingar mot akneärr'
+            url: 'behandling/finnarr',
+            url_label: 'Läs mer om behandlingar för ärr efter finnar',
+            url_title: 'Klicka här för att läsa mer om våra behandlingar för ärr efter finnar'
       ),
 );
+
 $articles = array(
       new Article(
             id: 'pigmentation-causes-and-risk-factors',
