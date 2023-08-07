@@ -28,7 +28,7 @@ $akas = [
             url: 'problem/tonarsfinnar',
             title: 'Komplett guide till tonårsfinnar: orsaker, förebyggande åtgärder och effektiva lösningar'
       ),
-            new Link(
+      new Link(
             label: 'Akne',
             url: 'problem/akne',
             title: 'Allt du behöver veta om akne och de mest effektiva behandlingsmetoderna'
@@ -36,23 +36,23 @@ $akas = [
 
 ];
 
-$consultation_url_label ="Få gratis konsultation";
-$consultation_url_title ="Gratis Konsultation mot Finnar";
+$consultation_url_label = "Få gratis konsultation";
+$consultation_url_title = "Gratis Konsultation mot Finnar";
 
-$booking_url_label ="Boka behandling";
-$booking_url_title ="Boka behandling mot finnar";
+$booking_url_label = "Boka behandling";
+$booking_url_title = "Boka behandling mot finnar";
 
-$mobile_consultation_url_label ="Få gratis konsultation";
-$mobile_consultation_url_title ="Gratis Konsultation för finnar";
+$mobile_consultation_url_label = "Få gratis konsultation";
+$mobile_consultation_url_title = "Gratis Konsultation för finnar";
 
-$mobile_booking_url_label ="Boka behandling";
-$mobile_booking_url_title ="Boka behandling för finnar";
+$mobile_booking_url_label = "Boka behandling";
+$mobile_booking_url_title = "Boka behandling för finnar";
 
-$floating_consultation_url_label ="Få gratis konsultation";
-$floating_consultation_url_title ="Gratis Konsultation för finnar";
+$floating_consultation_url_label = "Få gratis konsultation";
+$floating_consultation_url_title = "Gratis Konsultation för finnar";
 
-$floating_booking_url_label ="Boka behandling";
-$floating_booking_url_title ="Boka behandling mot finnar";
+$floating_booking_url_label = "Boka behandling";
+$floating_booking_url_title = "Boka behandling mot finnar";
 
 $nav_buttons = array(
       'about' => 'Om Finnar',
@@ -177,145 +177,145 @@ $type_categories = array(
                         url: 'problem/finnar/typer/tonarsfinnar',
                         url_title: 'Utforska information om finnar hos tonåringar'
                   ),
-            )     
+            )
       ),
 
       new BasedTypeCategory(
-          id: 'category-reason',
-          title: 'Finnar baserat på yttre faktorer',
-          content: '<p class="p200">Externa faktorer kan kraftigt påverka uppkomsten av finnar. Sådana faktorer kan vara solens strålar, friktion mot huden, användning av kosmetika, vissa läkemedel och miljöpåverkan. Dessa kan bidra till utvecklingen eller förvärringen av finnar genom att irritera huden, täppa till porerna eller rubba hudens talgproduktion.</p>',
-          types: array(
-              new BasedType(
-                  title: 'Solfinnar',
-                  subtitle: 'Även kallat solutlöst acne',
-                  content: '',
-                  image_url: 'images/problems/102x102/solfinnar.webp',
-                  image_alt: 'Bild av finnar orsakade av solen',
-                  image_title: 'Exempel på finnar orsakade av solen',
-                  url: 'problem/finnar/typer/solfinnar',
-                  url_title: 'Läs mer om hur solen kan bidra till finnar'
-              ),
-              new BasedType(
-                  title: 'Hormonella finnar',
-                  subtitle: 'Finnar orsakade av hormonell obalans',
-                  content: '',
-                  image_url: 'images/problems/102x102/hormonell-finnar.webp',
-                  image_alt: 'Bild av hormonella finnar',
-                  image_title: 'Exempel på hormonella finnar',
-                  url: 'problem/finnar/typer/hormonella-finnar',
-                  url_title: 'Utforska mer om hur hormoner kan framkalla finnar'
-              ),
-              new BasedType(
-                  title: 'Kosmetikafinnar',
-                  subtitle: 'Finnar utlösta av kosmetiska produkter',
-                  content: '',
-                  image_url: 'images/problems/102x102/kosmetikafinnar.webp',
-                  image_alt: 'Bild av finnar orsakade av kosmetika',
-                  image_title: 'Exempel på finnar orsakade av kosmetika',
-                  url: 'problem/finnar/typer/kosmetika-finnar',
-                  url_title: 'Lär dig mer om hur kosmetika kan orsaka finnar'
-              ),
-             new BasedType(
-                  title: 'Pillfinnar',
-                  subtitle: 'Finnar framkallade genom ständigt pillande eller klämmande',
-                  content: '',
-                  image_url: 'images/problems/102x102/pillfinnar.webp',
-                  image_alt: 'Bild av finnar orsakade av pillande',
-                  image_title: 'Exempel på finnar orsakade av pillande',
-                  url: 'problem/finnar/typer/pillfinnar',
-                  url_title: 'Läs mer om hur omedvetet pillande kan leda till finnar'
+            id: 'category-reason',
+            title: 'Finnar baserat på yttre faktorer',
+            content: '<p class="p200">Externa faktorer kan kraftigt påverka uppkomsten av finnar. Sådana faktorer kan vara solens strålar, friktion mot huden, användning av kosmetika, vissa läkemedel och miljöpåverkan. Dessa kan bidra till utvecklingen eller förvärringen av finnar genom att irritera huden, täppa till porerna eller rubba hudens talgproduktion.</p>',
+            types: array(
+                  new BasedType(
+                        title: 'Solfinnar',
+                        subtitle: 'Även kallat solutlöst acne',
+                        content: '',
+                        image_url: 'images/problems/102x102/solfinnar.webp',
+                        image_alt: 'Bild av finnar orsakade av solen',
+                        image_title: 'Exempel på finnar orsakade av solen',
+                        url: 'problem/finnar/typer/solfinnar',
+                        url_title: 'Läs mer om hur solen kan bidra till finnar'
                   ),
-             new BasedType(
-                  title: 'Friktionsfinnar',
-                  subtitle: 'Finnar orsakade av konstant friktion eller tryck mot huden',
-                  content: '',
-                  image_url: 'images/problems/102x102/friktionsfinnar.webp',
-                  image_alt: 'Bild av finnar orsakade av friktion',
-                  image_title: 'Exempel på finnar orsakade av friktion',
-                  url: 'problem/finnar/typer/friktionsfinnar',
-                  url_title: 'Utforska mer om hur friktion eller tryck mot huden kan orsaka finnar'
+                  new BasedType(
+                        title: 'Hormonella finnar',
+                        subtitle: 'Finnar orsakade av hormonell obalans',
+                        content: '',
+                        image_url: 'images/problems/102x102/hormonell-finnar.webp',
+                        image_alt: 'Bild av hormonella finnar',
+                        image_title: 'Exempel på hormonella finnar',
+                        url: 'problem/finnar/typer/hormonella-finnar',
+                        url_title: 'Utforska mer om hur hormoner kan framkalla finnar'
+                  ),
+                  new BasedType(
+                        title: 'Kosmetikafinnar',
+                        subtitle: 'Finnar utlösta av kosmetiska produkter',
+                        content: '',
+                        image_url: 'images/problems/102x102/kosmetikafinnar.webp',
+                        image_alt: 'Bild av finnar orsakade av kosmetika',
+                        image_title: 'Exempel på finnar orsakade av kosmetika',
+                        url: 'problem/finnar/typer/kosmetika-finnar',
+                        url_title: 'Lär dig mer om hur kosmetika kan orsaka finnar'
+                  ),
+                  new BasedType(
+                        title: 'Pillfinnar',
+                        subtitle: 'Finnar framkallade genom ständigt pillande eller klämmande',
+                        content: '',
+                        image_url: 'images/problems/102x102/pillfinnar.webp',
+                        image_alt: 'Bild av finnar orsakade av pillande',
+                        image_title: 'Exempel på finnar orsakade av pillande',
+                        url: 'problem/finnar/typer/pillfinnar',
+                        url_title: 'Läs mer om hur omedvetet pillande kan leda till finnar'
+                  ),
+                  new BasedType(
+                        title: 'Friktionsfinnar',
+                        subtitle: 'Finnar orsakade av konstant friktion eller tryck mot huden',
+                        content: '',
+                        image_url: 'images/problems/102x102/friktionsfinnar.webp',
+                        image_alt: 'Bild av finnar orsakade av friktion',
+                        image_title: 'Exempel på finnar orsakade av friktion',
+                        url: 'problem/finnar/typer/friktionsfinnar',
+                        url_title: 'Utforska mer om hur friktion eller tryck mot huden kan orsaka finnar'
                   ),
 
-              new BasedType(
-                  title: 'Läkemedelsfinnar',
-                  subtitle: 'Finnar orsakade av medicinska preparat',
-                  content: '',
-                  image_url: 'images/problems/102x102/lakemedelsfinnar.webp',
-                  image_alt: 'Bild av finnar orsakade av läkemedel',
-                  image_title: 'Exempel på finnar orsakade av läkemedel',
-                  url: 'problem/finnar/typer/lakemedelsfinnar',
-                  url_title: 'Lär dig mer om hur läkemedel kan orsaka finnar'
-              ),
-              new BasedType(
-                  title: 'Kontaktfinnar',
-                  subtitle: 'Finnar orsakade av hudkontakt med irriterande ämnen',
-                  content: '',
-                  image_url: 'images/problems/102x102/kontaktfinnar.webp',
-                  image_alt: 'Bild av finnar orsakade av kontakt',
-                  image_title: 'Exempel på finnar orsakade av kontakt',
-                  url: 'problem/finnar/typer/kontaktfinnar',
-                  url_title: 'Utforska mer om hur direktkontakt kan orsaka finnar'
-              ),
-              new BasedType(
-                  title: 'Svampfinnar',
-                  subtitle: 'Finnar relaterade till hudsvamp',
-                  content: '',
-                  image_url: 'images/problems/102x102/svampfinnar.webp',
-                  image_alt: 'Bild av finnar orsakade av svamp',
-                  image_title: 'Exempel på finnar orsakade av svamp',
-                  url: 'problem/finnar/typer/svampfinnar',
-                  url_title: 'Lär dig mer om hur svamp kan bidra till uppkomst av finnar'
-              ),
-          )
+                  new BasedType(
+                        title: 'Läkemedelsfinnar',
+                        subtitle: 'Finnar orsakade av medicinska preparat',
+                        content: '',
+                        image_url: 'images/problems/102x102/lakemedelsfinnar.webp',
+                        image_alt: 'Bild av finnar orsakade av läkemedel',
+                        image_title: 'Exempel på finnar orsakade av läkemedel',
+                        url: 'problem/finnar/typer/lakemedelsfinnar',
+                        url_title: 'Lär dig mer om hur läkemedel kan orsaka finnar'
+                  ),
+                  new BasedType(
+                        title: 'Kontaktfinnar',
+                        subtitle: 'Finnar orsakade av hudkontakt med irriterande ämnen',
+                        content: '',
+                        image_url: 'images/problems/102x102/kontaktfinnar.webp',
+                        image_alt: 'Bild av finnar orsakade av kontakt',
+                        image_title: 'Exempel på finnar orsakade av kontakt',
+                        url: 'problem/finnar/typer/kontaktfinnar',
+                        url_title: 'Utforska mer om hur direktkontakt kan orsaka finnar'
+                  ),
+                  new BasedType(
+                        title: 'Svampfinnar',
+                        subtitle: 'Finnar relaterade till hudsvamp',
+                        content: '',
+                        image_url: 'images/problems/102x102/svampfinnar.webp',
+                        image_alt: 'Bild av finnar orsakade av svamp',
+                        image_title: 'Exempel på finnar orsakade av svamp',
+                        url: 'problem/finnar/typer/svampfinnar',
+                        url_title: 'Lär dig mer om hur svamp kan bidra till uppkomst av finnar'
+                  ),
+            )
       ),
 
-            new BasedTypeCategory(
-                  id: 'category-area',
-                  title: 'Finnar baserat på område',
-                  content: '<p class="p200">Finnar kan framträda på olika delar av kroppen. Ansiktet är det vanligaste området, men finnar kan också uppstå på bröstet, ryggen, axlarna och andra delar av kroppen. Finnarnas placering kan ge en indikation på underliggande orsaker, såsom hormonella förändringar, irritation från kläder eller externa faktorer som sol och friktion.</p>',
-                  types: array(
-                        new BasedType(
-                              title: 'Finnar i ansiktet',
-                              subtitle: 'Även kallat Acne faciei',
-                              content: '',
-                              image_url: 'images/problems/102x102/finnar-ansikte.webp',
-                              image_alt: 'Bild av finnar i ansiktet',
-                              image_title: 'Exempel på finnar i ansiktet',
-                              url: 'problem/finnar/typer/finnar-ansiktet',
-                              url_title: 'Läs mer om finnar i ansiktet och möjliga behandlingar'
-                        ),
-                        new BasedType(
-                              title: 'Finnar på ryggen',
-                              subtitle: 'Även kallat Acne dorsalis',
-                              content: '',
-                              image_url: 'images/problems/102x102/finnar-rygg.webp',
-                              image_alt: 'Bild av finnar på ryggen',
-                              image_title: 'Exempel på finnar på ryggen',
-                              url: 'problem/finnar/typer/finnar-ryggen',
-                              url_title: 'Läs mer om finnar på ryggen och möjliga behandlingar'
-                        ),
-                        new BasedType(
-                              title: 'Finnar på bröstet',
-                              subtitle: 'Även kallat Acne pectoralis',
-                              content: '',
-                              image_url: 'images/problems/102x102/finnar-brost.webp',
-                              image_alt: 'Bild av finnar på bröstet',
-                              image_title: 'Exempel på finnar på bröstet',
-                              url: 'problem/finnar/typer/finnar-brostet',
-                              url_title: 'Läs mer om finnar på bröstet och möjliga behandlingar'
-                        ),
-                        new BasedType(
-                              title: 'Finnar runt munnen',
-                              subtitle: 'Även kallat Perioral dermatit',
-                              content: '',
-                              image_url: 'images/problems/102x102/finnar-mun.webp',
-                              image_alt: 'Bild av finnar runt munnen',
-                              image_title: 'Exempel på finnar runt munnen',
-                              url: 'problem/finnar/typer/finnar-mun',
-                              url_title: 'Läs mer om finnar runt munnen och möjliga behandlingar'
-                        ),
-                  )
-            ),
+      new BasedTypeCategory(
+            id: 'category-area',
+            title: 'Finnar baserat på område',
+            content: '<p class="p200">Finnar kan framträda på olika delar av kroppen. Ansiktet är det vanligaste området, men finnar kan också uppstå på bröstet, ryggen, axlarna och andra delar av kroppen. Finnarnas placering kan ge en indikation på underliggande orsaker, såsom hormonella förändringar, irritation från kläder eller externa faktorer som sol och friktion.</p>',
+            types: array(
+                  new BasedType(
+                        title: 'Finnar i ansiktet',
+                        subtitle: 'Även kallat Acne faciei',
+                        content: '',
+                        image_url: 'images/problems/102x102/finnar-ansikte.webp',
+                        image_alt: 'Bild av finnar i ansiktet',
+                        image_title: 'Exempel på finnar i ansiktet',
+                        url: 'problem/finnar/typer/finnar-ansiktet',
+                        url_title: 'Läs mer om finnar i ansiktet och möjliga behandlingar'
+                  ),
+                  new BasedType(
+                        title: 'Finnar på ryggen',
+                        subtitle: 'Även kallat Acne dorsalis',
+                        content: '',
+                        image_url: 'images/problems/102x102/finnar-rygg.webp',
+                        image_alt: 'Bild av finnar på ryggen',
+                        image_title: 'Exempel på finnar på ryggen',
+                        url: 'problem/finnar/typer/finnar-ryggen',
+                        url_title: 'Läs mer om finnar på ryggen och möjliga behandlingar'
+                  ),
+                  new BasedType(
+                        title: 'Finnar på bröstet',
+                        subtitle: 'Även kallat Acne pectoralis',
+                        content: '',
+                        image_url: 'images/problems/102x102/finnar-brost.webp',
+                        image_alt: 'Bild av finnar på bröstet',
+                        image_title: 'Exempel på finnar på bröstet',
+                        url: 'problem/finnar/typer/finnar-brostet',
+                        url_title: 'Läs mer om finnar på bröstet och möjliga behandlingar'
+                  ),
+                  new BasedType(
+                        title: 'Finnar runt munnen',
+                        subtitle: 'Även kallat Perioral dermatit',
+                        content: '',
+                        image_url: 'images/problems/102x102/finnar-mun.webp',
+                        image_alt: 'Bild av finnar runt munnen',
+                        image_title: 'Exempel på finnar runt munnen',
+                        url: 'problem/finnar/typer/finnar-mun',
+                        url_title: 'Läs mer om finnar runt munnen och möjliga behandlingar'
+                  ),
+            )
+      ),
 
 
 );
@@ -326,7 +326,7 @@ $types_url = '<a href="typer" title="Lär dig mer om olika typer av finnar och d
 $symptoms_title = 'Finnar symptom';
 
 $symptoms = array(
-       new Symptom(
+      new Symptom(
             name: 'Pormaskar - Svarta',
             aka: 'Kallade öppna komedoner',
             content: 'Öppna komedoner, eller svarta pormaskar, är små, mörka prickar som känns något upphöjda och sträva vid beröring. De bildas när porerna i huden blir blockerade av en blandning av talg och döda hudceller. När denna blockering utsätts för luft, sker en oxidation som ger den mörka färgen. De är vanligen lokaliserade på näsa, kinder, panna och haka, men kan även förekomma på andra oljiga områden som bröst och rygg. Deras mörka färg och grova konsistens gör dem lätta att känna igen.',
@@ -341,6 +341,7 @@ $symptoms = array(
             name: 'Pormaskar - Vita',
             aka: '"Whiteheads" på engelska',
             content: 'Slutna komedoner, eller "whiteheads", känns som små, fasta, vitaktiga eller hudfärgade knölar på hudytan. De bildas när porerna i huden blir blockerade av talg och döda hudceller, men är täckta av ett tunt hudlager. Detta skyddar innehållet från luft och förhindrar oxidation, vilket bevarar deras ljusa färg. De är vanligtvis placerade på kinder, panna och haka, men kan också dyka upp på andra områden.',
+            image: 'images/symptoms/102x102/papler.webp',
             image_alt: 'Whiteheads (stängda komedoner) bild',
             image_title: 'Stängda komedoner ("whiteheads")',
             url: 'problem/finnar/typer/atrophic-icepick-scars',
@@ -350,7 +351,7 @@ $symptoms = array(
       new Symptom(
             name: 'Röda Finnar',
             aka: 'Också kallade papler',
-            content: 'Papler, eller röda finnar, är små, fasta, rundade knölar som ofta är röda och inflammerade. De kan kännas ömma eller smärtsamma vid beröring. Papler bildas när hårsäckarna i huden blir inflammerade, ofta på grund av bakterieinfektion. De är mindre än 5 mm i diameter och uppträder ofta på ansikte, nacke, bröst och rygg. Om du ser eller känner små, röda, ömma knölar på huden, kan det vara papler.',            
+            content: 'Papler, eller röda finnar, är små, fasta, rundade knölar som ofta är röda och inflammerade. De kan kännas ömma eller smärtsamma vid beröring. Papler bildas när hårsäckarna i huden blir inflammerade, ofta på grund av bakterieinfektion. De är mindre än 5 mm i diameter och uppträder ofta på ansikte, nacke, bröst och rygg. Om du ser eller känner små, röda, ömma knölar på huden, kan det vara papler.',
             image: 'images/symptoms/102x102/papler.webp',
             image_alt: 'Röda finnar (papler) bild',
             image_title: 'Papler (Röda Finnar)',
@@ -394,34 +395,34 @@ $symptoms = array(
 
 );
 
-            $headline01 = "01. Identifiera dina finnar";
+$headline01 = "01. Identifiera dina finnar";
 
-            $service = new Service(
-            id: 'finnar',
-            title: 'Konsultation',
-            duration: '20 min',
-            price: 'Kostnadsfri',
-            content: 'Möt en expert på finnar för en individuell konsultation. Under detta möte kommer en detaljerad analys av ditt hudproblem att utföras. Vi tar bilder före behandlingen för att tydligt kunna se och jämföra dina resultat och rekommenderar en anpassad behandlingsplan som passar just din hud.',
-            image_small: 'images/services/200x200/finnar-konsultation.webp',
-            image_large: 'images/services/200x200/finnar-konsultation.webp',
-            image_alt: 'Bild som visar en konsultation för finnar',
-            image_title: 'Konsultation för finnbehandling',
-            consultation_url: 'finnar-konsultation',
-            consultation_url_label: 'Boka tid för finnar konsultation',
-            consultation_url_title: 'Klicka här för att boka en tid för en konsultation om finnar',
-            booking_url: null,
-            booking_url_label: null,
-            booking_url_title: null,
-            url: '/konsultation',
-            url_label: 'Läs mer om vår konsultation för finnar',
-            url_title: 'Klicka här för att lära dig mer om vår kostnadsfria konsultation för finnar'
+$service = new Service(
+      id: 'finnar',
+      title: 'Konsultation',
+      duration: '20 min',
+      price: 'Kostnadsfri',
+      content: 'Möt en expert på finnar för en individuell konsultation. Under detta möte kommer en detaljerad analys av ditt hudproblem att utföras. Vi tar bilder före behandlingen för att tydligt kunna se och jämföra dina resultat och rekommenderar en anpassad behandlingsplan som passar just din hud.',
+      image_small: 'images/services/200x200/finnar-konsultation.webp',
+      image_large: 'images/services/200x200/finnar-konsultation.webp',
+      image_alt: 'Bild som visar en konsultation för finnar',
+      image_title: 'Konsultation för finnbehandling',
+      consultation_url: 'finnar-konsultation',
+      consultation_url_label: 'Boka tid för finnar konsultation',
+      consultation_url_title: 'Klicka här för att boka en tid för en konsultation om finnar',
+      booking_url: null,
+      booking_url_label: null,
+      booking_url_title: null,
+      url: '/konsultation',
+      url_label: 'Läs mer om vår konsultation för finnar',
+      url_title: 'Klicka här för att lära dig mer om vår kostnadsfria konsultation för finnar'
 
 );
 
 $headline02 = "02. Behandla dina finnar";
 
 $services = array(
-           new Service(
+      new Service(
             id: 'ansiktsbehandling-finnar',
             title: 'Ansiktsbehandling mot finnar',
             duration: '60 min',
@@ -441,7 +442,7 @@ $services = array(
             url_label: 'Läs mer om ansiktsbehandling mot finnar',
             url_title: 'Klicka här för att läsa mer om ansiktsbehandling mot finnar'
       ),
-       new Service(
+      new Service(
             id: 'laser-finnar',
             title: 'Laser mot finnar',
             duration: '50 min',
@@ -461,7 +462,7 @@ $services = array(
             url_label: 'Läs mer om laser mot finnar',
             url_title: 'Klicka här för att läsa mer om laserbehandling mot finnar'
       ),
-       new Service(
+      new Service(
             id: 'kemisk-peeling-finnar',
             title: 'Kemisk peeling mot finnar',
             duration: '30 min',
@@ -482,7 +483,7 @@ $services = array(
             url_title: 'Klicka här för att läsa mer om kemisk peeling mot finnar'
       ),
 
-        new Service(
+      new Service(
             id: 'microneedling-finnar',
             title: 'Microneedling mot finnar',
             duration: '50 min',
@@ -501,7 +502,7 @@ $services = array(
             url: 'microneedling-finnar',
             url_label: 'Läs mer om microneedling mot finnar',
             url_title: 'Klicka här för att läsa mer om microneedling mot finnar'
-            )
+      )
 
 
 );
@@ -593,7 +594,7 @@ $results = array(
             problem: 'Akne',
             type: 'Severe',
             treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne"">behandlingar mot akne</a>',
+                  duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne"">behandlingar mot akne</a>',
             )
       ),
       new ResultCustomer(
@@ -610,13 +611,13 @@ $results = array(
             problem: 'Akne',
             type: 'Severe',
             treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne">behandlingar mot akne</a>',
+                  duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne">behandlingar mot akne</a>',
             )
       ),
 );
 
-$results_url_label ="Se fler resultat";
-$results_url_title ="se flera behandlingsresultat av finnar";
+$results_url_label = "Se fler resultat";
+$results_url_title = "se flera behandlingsresultat av finnar";
 
 
 $reviews = array(
@@ -647,8 +648,8 @@ $reviews = array(
 
 );
 
-$review_url_label ="Läs fler omdömen";
-$review_url_title ="AcneSpecialisten Omdömen";
+$review_url_label = "Läs fler omdömen";
+$review_url_title = "AcneSpecialisten Omdömen";
 
 $faq_categories = array(
       'Generellt om akne' => array(
@@ -696,8 +697,8 @@ $faq_categories = array(
 
 );
 
-$faq_url_label ="Läs fler frågor & svar";
-$faq_url_title ="läs flera frågor relaterat till akne";
+$faq_url_label = "Läs fler frågor & svar";
+$faq_url_title = "läs flera frågor relaterat till akne";
 
 $skin_guide_articles = array(
       new SkinGuideArticle(
@@ -758,8 +759,8 @@ $skin_guide_articles = array(
       ),
 );
 
-$skinguide_url_label ="Läs fler guider";
-$skinguide_url_title ="Läs fler guider om akne";
+$skinguide_url_label = "Läs fler guider";
+$skinguide_url_title = "Läs fler guider om akne";
 
 $specialists = array(
       new Specialist(
@@ -792,8 +793,8 @@ $specialists = array(
       )
 );
 
-$specialist_url_label ="Se alla specialister";
-$specialist_url_title ="Akne Specialiserade Hudterapeuter";
+$specialist_url_label = "Se alla specialister";
+$specialist_url_title = "Akne Specialiserade Hudterapeuter";
 
 $related_problems = array(
       new RelatedProblem(
@@ -891,8 +892,8 @@ $brands = array(
       ),
 );
 
-$brands_url_label ="Se alla varumärken";
-$brands_url_title ="Varumärken för Aknebehandling";
+$brands_url_label = "Se alla varumärken";
+$brands_url_title = "Varumärken för Aknebehandling";
 
 ?>
 
