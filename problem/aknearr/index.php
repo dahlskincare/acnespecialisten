@@ -34,23 +34,23 @@ $akas = [
 ];
 
 
-$consultation_url_label ="Få gratis konsultation";
-$consultation_url_title ="Gratis Konsultation för Akneärr";
+$consultation_url_label = "Få gratis konsultation";
+$consultation_url_title = "Gratis Konsultation för Akneärr";
 
-$booking_url_label ="Boka behandling";
-$booking_url_title ="Boka behandling mot akneärr";
+$booking_url_label = "Boka behandling";
+$booking_url_title = "Boka behandling mot akneärr";
 
-$mobile_consultation_url_label ="Få gratis konsultation";
-$mobile_consultation_url_title ="Gratis Konsultation för Akneärr";
+$mobile_consultation_url_label = "Få gratis konsultation";
+$mobile_consultation_url_title = "Gratis Konsultation för Akneärr";
 
-$mobile_booking_url_label ="Boka behandling";
-$mobile_booking_url_title ="Boka Akneärr-behandling";
+$mobile_booking_url_label = "Boka behandling";
+$mobile_booking_url_title = "Boka Akneärr-behandling";
 
-$floating_consultation_url_label ="Få gratis konsultation";
-$floating_consultation_url_title ="Gratis Konsultation för Akneärr";
+$floating_consultation_url_label = "Få gratis konsultation";
+$floating_consultation_url_title = "Gratis Konsultation för Akneärr";
 
-$floating_booking_url_label ="Boka behandling";
-$floating_booking_url_title ="Boka behandling mot akneärr";
+$floating_booking_url_label = "Boka behandling";
+$floating_booking_url_title = "Boka behandling mot akneärr";
 
 $nav_buttons = array(
       'about' => 'Om Akneärr',
@@ -108,7 +108,7 @@ $trivias = array(
             prefix: 'Var',
             title: 'får man akneärr?',
             content: '<p class="p200">Akneärr kan bildas på alla områden där akne har uppstått. De är mest vanliga i ansiktet, särskilt på kinderna, pannan och hakan, men de kan också uppträda på ryggen, bröstet, axlarna och nacken. Även om de oftast finns på dessa områden, är de inte begränsade till dem och kan förekomma på andra delar av kroppen också.</p>',
-            
+
             extended_content: '<p class="p200 mt-xl">Beroende på typen och omfattningen av ärrbildningen kan olika behandlingsmetoder vara nödvändiga. Detta kan inkludera allt från laserbehandlingar och kemiska peelingar till mer invasiva kirurgiska metoder. Hos Acnespecialisten erbjuder vi omfattande behandlingar som tar itu med akneärr oavsett var de befinner sig på kroppen. Behandlingsval beror på individens unika behov och måste göras med en kvalificerad hudvårdsexpert.</p>
             
             <p class="p200 mt-xl">Det är också viktigt att betona att behandlingen av akneärr är en process som kan ta tid. Även om vissa metoder kan ge omedelbara förbättringar, kräver ärrbehandling ofta en långsiktig strategi och tålamod från patientens sida. Samarbete med en erfaren specialist, som Acnespecialisten, kan säkerställa att processen skräddarsys för att möta individens behov och mål. Kontakta oss för en kostnadsfri konsultation och börja din resa mot en hälsosam och klar hud idag!</p>',
@@ -139,7 +139,7 @@ $treatment_link = '<a href="problem/aknearr/aknearrbehandling" title="Utforska e
 $symptoms_title = 'Olika typer av akneärr';
 
 $symptoms = array(
-            new Symptom(
+      new Symptom(
             name: 'Postinflammatorisk hyperpigmentering (PIH)',
             aka: 'Kända som mörka/bruna fläckar',
             content: 'Postinflammatorisk hyperpigmentering (PIH) uppstår som ett resultat av inflammation i huden efter akne. Denna typ av mörka fläckar är inte faktiska ärr utan är ett exempel på överpigmentering. När huden läker från en inflammation, kan det hända att melanin, som ger huden dess färg, produceras i överflöd vilket resulterar i mörkare fläckar eller fläckar. Dessa kan vara brunaktiga, svarta eller till och med blåaktiga beroende på hudtyp och färg. PIH är vanligtvis platt mot huden, till skillnad från upphöjda eller indragna akneärr.',
@@ -149,7 +149,7 @@ $symptoms = array(
             image: 'images/symptoms/102x102/postinflammatorisk_hyperpigmentering.webp',
             image_alt: 'Bild av postinflammatorisk hyperpigmentering',
             image_title: 'Postinflammatorisk hyperpigmentering'
-),
+      ),
       new Symptom(
             name: 'Atrofiska "ice-pick" ärr',
             aka: 'Kända som gropar eller nålstick-liknande ärr',
@@ -160,8 +160,8 @@ $symptoms = array(
             image: 'images/symptoms/102x102/atrofiska-icepick-ar.webp',
             image_alt: 'Bild av atrofiska "ice-pick" ärr',
             image_title: 'Atrofiska "ice-pick" ärr'
-),
-          new Symptom(
+      ),
+      new Symptom(
             name: 'Postinflammatorisk erytem (PIE)',
             aka: 'Kända som rosa/lila fläckar eller missfärgning',
             content: 'Postinflammatorisk erytem uppstår som en reaktion på inflammation efter en akneinfektion och visar sig som rosa eller lila fläckar på huden. Denna missfärgning är resultatet av skadade eller förstörda blodkärl under en inflammatorisk reaktion. Fläckarna kan vara känsliga eller klia, och de bleknar oftast över tid, men kan bli mer ihållande för personer med ljusare hudton. De förekommer oftast på platser där akne har läkt, och kan förväxlas med ärrvävnad även om det inte är en riktig ärrbildning.',
@@ -171,9 +171,9 @@ $symptoms = array(
             image: 'images/symptoms/102x102/postinflammatorisk-erytem.webp',
             image_alt: 'Bild av postinflammatorisk erytem',
             image_title: 'Postinflammatorisk erytem (rosa/lila fläckar)'
-),
+      ),
 
-            new Symptom(
+      new Symptom(
             name: 'Atrofiska "Boxcar" ärr',
             aka: 'Kända som gropar eller skålliknande ärr',
             content: 'Atrofiska "Boxcar" ärr är en typ av akneärr som kännetecknas av rundade eller ovala gropar med skarpa vertikala kanter. Dessa ärr uppstår när aknen förstör kollagen i huden, och lämnar en märkbar depression. Ärr av denna typ kan variera i djup och storlek, och de är ofta jämförda med ärr som orsakas av varicella (vattkoppor). De förekommer oftast på kinderna och tinningarna och kan vara mycket märkbara om de är omfattande.',
@@ -184,8 +184,8 @@ $symptoms = array(
             image_alt: 'Bild av atrofiska "Boxcar" ärr',
             image_title: 'Atrofiska "Boxcar" ärr (gropar)'
 
-),
-       new Symptom(
+      ),
+      new Symptom(
             name: 'Postinflammatorisk hypopigmentering',
             aka: 'Kända som vita fläckar',
             content: 'Postinflammatorisk hypopigmentering uppstår när huden förlorar pigment (färg) på områden där en inflammatorisk hudsjukdom, som akne, har läkt. Detta leder till ljusare fläckar eller områden som kan vara iögonfallande beroende på din hudton. Det är inte ett ärr, utan en tillfällig brist på pigment och brukar återgå till normalt med tiden eller med behandling.',
@@ -195,7 +195,7 @@ $symptoms = array(
             image: 'images/symptoms/102x102/hypopigmentering.webp',
             image_alt: 'Bild av postinflammatorisk hypopigmentering',
             image_title: 'Postinflammatorisk hypopigmentering (vita fläckar)'
-),
+      ),
       new Symptom(
             name: 'Atrofiska "rolling" ärr',
             aka: 'Kända som gropar',
@@ -206,7 +206,7 @@ $symptoms = array(
             image: 'images/symptoms/102x102/rolling-scars.webp',
             image_alt: 'Bild av atrofiska "rolling" ärr',
             image_title: 'Atrofiska "rolling" ärr (gropar)'
-),
+      ),
 
       new Symptom(
             name: 'Hypertrofiska ärr',
@@ -218,7 +218,7 @@ $symptoms = array(
             image: 'images/symptoms/102x102/hypertrophic-scars.webp',
             image_alt: 'Bild av hypertrofiska ärr',
             image_title: 'Hypertrofiska ärr (keloid ärr)'
-),
+      ),
 
       new Symptom(
             name: 'Atrofiska ärr',
@@ -367,7 +367,7 @@ $results = array(
             problem: 'Akne',
             type: 'Severe',
             treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne"">behandlingar mot akne</a>',
+                  duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne"">behandlingar mot akne</a>',
             )
       ),
       new ResultCustomer(
@@ -384,13 +384,13 @@ $results = array(
             problem: 'Akne',
             type: 'Severe',
             treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne">behandlingar mot akne</a>',
+                  duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne">behandlingar mot akne</a>',
             )
       ),
 );
 
-$results_url_label ="Se fler resultat";
-$results_url_title ="se flera behandlingsresultat från akneärr";
+$results_url_label = "Se fler resultat";
+$results_url_title = "se flera behandlingsresultat från akneärr";
 
 
 $reviews = array(
@@ -421,8 +421,8 @@ $reviews = array(
 
 );
 
-$review_url_label ="Läs fler omdömen";
-$review_url_title ="AcneSpecialisten Omdömen";
+$review_url_label = "Läs fler omdömen";
+$review_url_title = "AcneSpecialisten Omdömen";
 
 $faq_categories = array(
       'Generellt om akne' => array(
@@ -455,11 +455,11 @@ $faq_categories = array(
                   text: '<p class="p200">Tiden mellan behandlingarna och hur snabbt du kommer se resultat beror på den specifika metoden som används och din individuella hudtyp. I allmänhet rekommenderar vi en viss tid mellan sessionerna för att din hud ska få tid att läka ordentligt och för att maximera effektiviteten av behandlingen. Din personliga hudterapeut kommer att gå igenom alla detaljer med dig och skapa en skräddarsydd behandlingsplan som passar dina behov, inklusive en tidslinje för när du kan förvänta dig att se synliga förbättringar.</p>'
             )
       ),
-      
+
 );
 
-$faq_url_label ="Läs fler frågor & svar";
-$faq_url_title ="läs flera frågor relaterat till akneärr";
+$faq_url_label = "Läs fler frågor & svar";
+$faq_url_title = "läs flera frågor relaterat till akneärr";
 
 $skin_guide_articles = array(
       new SkinGuideArticle(
@@ -520,8 +520,8 @@ $skin_guide_articles = array(
       ),
 );
 
-$skinguide_url_label ="Läs fler guider";
-$skinguide_url_title ="Läs fler guider om akneärr";
+$skinguide_url_label = "Läs fler guider";
+$skinguide_url_title = "Läs fler guider om akneärr";
 
 $specialists = array(
       new Specialist(
@@ -555,8 +555,8 @@ $specialists = array(
 );
 
 
-$specialist_url_label ="Se alla specialister";
-$specialist_url_title ="Specialisserade Hudterapeuter med inriktning mot akneärr";
+$specialist_url_label = "Se alla specialister";
+$specialist_url_title = "Specialisserade Hudterapeuter med inriktning mot akneärr";
 
 $related_problems = array(
       new RelatedProblem(
@@ -655,8 +655,8 @@ $brands = array(
       ),
 );
 
-$brands_url_label ="Se alla varumärken";
-$brands_url_title ="Varumärken för akneärr";
+$brands_url_label = "Se alla varumärken";
+$brands_url_title = "Varumärken för akneärr";
 
 ?>
 
@@ -808,7 +808,7 @@ $brands_url_title ="Varumärken för akneärr";
                               <?php echo $treatment_link ?>
 
                         </section>
-                      
+
                         <?php if (sizeof($symptoms) > 0) { ?>
                               <section id="symptoms">
                                     <h2 class="h500"><?php echo $symptoms_title ?></h2>
@@ -843,7 +843,7 @@ $brands_url_title ="Varumärken för akneärr";
                                     <hr class="is-hidden-mobile mb-xxl">
                               <?php } ?>
                         </section>
-                        
+
                         <section id="articles">
                               <?php foreach ($articles as $article) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php'); ?>
