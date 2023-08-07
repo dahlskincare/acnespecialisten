@@ -671,15 +671,15 @@ $faq_categories = array(
                   text: '<p class="p200">Att bli av med finnar snabbt är en utmaning, då det inte finns någon omedelbar lösning. Effektiv behandling kräver att du tar hand om din hud genom att använda rätt behandlingar och produkter. Vi erbjuder en kostnadsfri hudkonsultation för att skräddarsy en behandlingsplan som snabbt och effektivt hjälper dig bli av med dina finnar.</p>'
             ),
             new Question(
-                  title: 'Har jag finnar även om jag bara har en enstaka finne?',
-                  text: '<p class="p200">Ja, tekniskt sett har du finnar även om det bara är en enstaka finne. Finnar kan ta olika former och innefattar alla typer, oavsett storlek och antal. Många tror att enstaka finnar inte räknas, men faktum är att alla dessa fall kategoriseras som finnar.</p>'
+                  title: 'Har jag acne även om jag bara har en enstaka finne?',
+                  text: '<p class="p200">Ja, tekniskt sett har du acne även om det bara är en enstaka finne. Finnar kan ta olika former och innefattar alla typer, oavsett storlek och antal. Många tror att enstaka finnar inte räknas, men faktum är att alla dessa fall kategoriseras som acne.</p>'
             ),
             new Question(
                   title: 'Ska jag klämma mina finnar?',
                   text: '<p class="p200">Vi på Acnespecialisten rekommenderar att du inte klämmer finnar själv, eftersom det kan leda till ärr och förvärra problemet. För att klämma finnar korrekt krävs rätt utrustning och teknik. Vi erbjuder behandlingar för att säkert och effektivt hantera dina finnar. Läs mer om hur vi kan hjälpa dig här.</p>'
             ),
             new Question(
-                  title: 'Försvinner finnar efter tonåren?',
+                  title: 'Försvinner finnarna efter tonåren?',
                   text: '<p class="p200">För vissa kan finnar försvinna efter tonåren, men det varierar. Det är viktigt att behandla finnar i alla åldrar för att förebygga ärrbildning. Oavsett ålder och fas av finnar bör man söka hjälp för att behandla och kontrollera tillståndet, för att minska risken för långsiktiga hudproblem.</p>'
             ),
             new Question(
