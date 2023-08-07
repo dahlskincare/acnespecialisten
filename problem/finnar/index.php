@@ -412,7 +412,7 @@ $service = new Service(
       title: 'Konsultation',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Möt en expert på finnar för en individuell konsultation. Under detta möte kommer en detaljerad analys av ditt hudproblem att utföras. Vi tar bilder före behandlingen för att tydligt kunna se och jämföra dina resultat och rekommenderar en anpassad behandlingsplan som passar just din hud.',
+      content: 'Möt en expert på finnar för en individuell konsultation. Under detta möte kommer en detaljerad analys av ditt hudproblem att utföras. Vi tar även bilder för att tydligt kunna se och jämföra dina resultat och rekommenderar en anpassad behandlingsplan som passar just din hud.',
       image_small: 'images/services/200x200/finnar-konsultation.webp',
       image_large: 'images/services/200x200/finnar-konsultation.webp',
       image_alt: 'Bild som visar en konsultation för finnar',
@@ -454,23 +454,23 @@ $services = array(
       ),
       new Service(
             id: 'laser-finnar',
-            title: 'Laser mot finnar',
+            title: 'Laserbehandling mot finnar',
             duration: '50 min',
             price: '3595 kr',
-            content: 'Vår avancerade laserbehandling mot finnar erbjuder en effektiv lösning för att bekämpa aktiv akne och ärr som kan uppstå efter utbrott. Lasertekniken riktar sig mot bakterier som orsakar inflammation och hjälper till att minska produktionen av talg, vilket minskar risken för framtida utbrott.',
+            content: 'Bekämpa finnar med vår avancerade laserteknik! Genom att rikta sig mot bakterier som orsakar inflammation, minskar denna behandling risken för framtida utbrott och hjälper till att ge dig en jämnare och klarare hud.',
             image_small: 'images/services/200x200/laser-finnar.webp',
             image_large: 'images/services/200x200/laser-finnar.webp',
             image_alt: 'Bild av laserbehandling mot finnar',
-            image_title: 'Laserbehandling mot finnar',
+            image_title: 'Laserbehandling mot finnar för en klarare hud',
             consultation_url: 'hudkonsultation',
             consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling mot finnar',
+            consultation_url_title: 'Klicka här för att boka tid för en hudkonsultation för laserbehandling mot finnar',
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/finnar-konsultation-1643922',
             booking_url_label: 'Boka tid för laserbehandling mot finnar',
-            booking_url_title: 'Klicka för att boka tid för en laserbehandling mot finnar',
+            booking_url_title: 'Klicka här för att boka tid för en laserbehandling mot finnar',
             url: 'laser-finnar',
             url_label: 'Läs mer om laser mot finnar',
-            url_title: 'Klicka här för att läsa mer om laserbehandling mot finnar'
+            url_title: 'Läs mer om vår effektiva laserbehandling mot finnar'
       ),
       new Service(
             id: 'kemisk-peeling-finnar',
@@ -547,25 +547,26 @@ $headline04 = "04. Reparera ärr från finnar";
 
 $procedures = array(
       new Service(
-            id: 'microneedling-for-acne',
-            title: 'Reparera acneärr',
+            id: 'microneedling-for-scars',
+            title: 'Reparera ärr efter finnar',
             duration: '4 behandlingsmetoder',
             price: null,
-            content: 'Efter aktiv akne kan man uppleva post-akne, vilket innebär ärr i form av gropar i olika former och fläckar i olika färger på huden där aknen tidigare varit. Olika typer av ärr behandlas med olika metoder. Klicka här för att läsa mer om hur du kan reparera din hud och ta hand om post-akne.',
-            image_small: 'images/services/200x200/microneedling-aknearr.webp',
-            image_large: 'images/services/200x200/microneedling-aknearr.webp',
-            image_alt: 'Reparera acneärr',
-            image_title: 'Reparera acneärr',
+            content: 'Efter finnar kan det ibland uppstå ärr i form av gropar och fläckar på huden där finnarna tidigare varit. Dessa ärr kan vara i olika former och färger, och behandlas med olika metoder. Klicka här för att läsa mer om hur du kan reparera din hud och ta hand om ärr som uppstått efter finnar.',
+            image_small: 'images/services/200x200/microneedling-finnararr.webp',
+            image_large: 'images/services/200x200/microneedling-finnararr.webp',
+            image_alt: 'Reparera ärr efter finnar',
+            image_title: 'Reparera ärr efter finnar',
             consultation_url: null,
             consultation_url_label: null,
             consultation_url_title: null,
             booking_url: null,
             booking_url_label: null,
             booking_url_title: null,
-            url: 'behandling/aknearr',
-            url_label: 'Läs mer om behandlingar mot akneärr',
-            url_title: 'Klicka här för att läsa mer om våra behandlingar mot akneärr'
+            url: 'behandling/finnararr',
+            url_label: 'Läs mer om behandlingar mot ärr från finnar',
+            url_title: 'Klicka här för att läsa mer om våra behandlingar mot ärr från finnar'
       ),
+
 );
 $articles = array(
       new Article(
