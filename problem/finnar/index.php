@@ -380,7 +380,7 @@ $symptoms = array(
             url_title: 'Mer om innåtfinnar',
             url_label: 'Utforska noduler'
       ),
-      nnew Symptom(
+      new Symptom(
             name: 'Bölder',
             aka: 'Ofta kallade cystor',
             content: 'Bölder, även kända som cystor, är stora, inflammerade blemmor som sitter djupt under huden. De känns som stora, ömma knölar och är fyllda med var, vilket ger dem en gul eller vit yta i mitten. Bölder kan kännas mjuka och fyllda med vätska, eller fasta beroende på inflammationens grad. Deras storlek och ömhet, särskilt vid tryck, gör dem lätta att känna igen. De är vanligtvis synliga på ansikte, nacke, bröst och rygg, men kan dyka upp var som helst där det finns hårsäckar.',
