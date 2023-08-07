@@ -329,7 +329,7 @@ $symptoms = array(
        new Symptom(
             name: 'Pormaskar - Svarta',
             aka: 'Kallade öppna komedoner',
-            content: 'Kända som öppna komedoner, dessa små, mörkfärgade prickar bildas när porer blir blockerade av talg och döda hudceller. Oxidation ger dem deras svarta eller bruna färg, och de är ofta lokaliserade på näsa, kinder, panna och haka.',
+            content: 'Öppna komedoner, eller svarta pormaskar, är små, mörka prickar som känns något upphöjda och sträva vid beröring. De bildas när porerna i huden blir blockerade av en blandning av talg och döda hudceller. När denna blockering utsätts för luft, sker en oxidation som ger den mörka färgen. De är vanligen lokaliserade på näsa, kinder, panna och haka, men kan även förekomma på andra oljiga områden som bröst och rygg. Deras mörka färg och grova konsistens gör dem lätta att känna igen.',
             image: 'images/symptoms/102x102/komedoner-oppna.webp',
             image_alt: 'Öppna komedoner (pormaskar) i bild',
             image_title: 'Pormaskar (öppna komedoner)',
@@ -340,8 +340,7 @@ $symptoms = array(
       new Symptom(
             name: 'Pormaskar - Vita',
             aka: '"Whiteheads" på engelska',
-            content: 'Slutna komedoner eller "whiteheads" är små, vitaktiga knölar som bildas när talg och döda hudceller samlas under huden. De behåller sin ljusa färg på grund av ett hudlager som förhindrar oxidation och kan ofta finnas på kinder, panna och haka.',
-            image: 'images/symptoms/102x102/komedoner-stangda.webp',
+            content: 'Slutna komedoner, eller "whiteheads", känns som små, fasta, vitaktiga eller hudfärgade knölar på hudytan. De bildas när porerna i huden blir blockerade av talg och döda hudceller, men är täckta av ett tunt hudlager. Detta skyddar innehållet från luft och förhindrar oxidation, vilket bevarar deras ljusa färg. De är vanligtvis placerade på kinder, panna och haka, men kan också dyka upp på andra områden.',
             image_alt: 'Whiteheads (stängda komedoner) bild',
             image_title: 'Stängda komedoner ("whiteheads")',
             url: 'problem/finnar/typer/atrophic-icepick-scars',
@@ -351,7 +350,7 @@ $symptoms = array(
       new Symptom(
             name: 'Röda Finnar',
             aka: 'Också kallade papler',
-            content: 'Röda och inflammerade blemmor kallas papler och bildas när hårsäckar infekteras, ofta med bakterien Propionibacterium acnes. Mindre än 5 mm i diameter, de kan vara ömma och vanligen synliga på ansiktet, nacken, bröstet och ryggen.',
+            content: 'Papler, eller röda finnar, är små, fasta, rundade knölar som ofta är röda och inflammerade. De kan kännas ömma eller smärtsamma vid beröring. Papler bildas när hårsäckarna i huden blir inflammerade, ofta på grund av bakterieinfektion. De är mindre än 5 mm i diameter och uppträder ofta på ansikte, nacke, bröst och rygg. Om du ser eller känner små, röda, ömma knölar på huden, kan det vara papler.',            
             image: 'images/symptoms/102x102/papler.webp',
             image_alt: 'Röda finnar (papler) bild',
             image_title: 'Papler (Röda Finnar)',
@@ -362,7 +361,7 @@ $symptoms = array(
       new Symptom(
             name: 'Gula Finnar',
             aka: 'Eller pustuler',
-            content: 'Inflammerade blemmor fyllda med var kallas pustuler. Dessa röda blemmor har en vit eller gul prick i centrum och kan vara ömma. De uppträder ofta på ansikte, nacke, bröst och rygg.',
+            content: 'Pustuler, eller gula finnar, är röda blemmor med en vit eller gul prick i mitten, vilket är pus. De är oftast runda och upphöjda, och kan kännas ömma eller smärtsamma. När du ser eller känner dessa distinkta blemmor, oftast på ansikte, nacke, bröst och rygg, har du sannolikt att göra med pustuler.',
             image: 'images/symptoms/102x102/pustler.webp',
             image_alt: 'Gula finnar (pustler) bild',
             image_title: 'Pustler (Gula Finnar)',
@@ -373,7 +372,7 @@ $symptoms = array(
       new Symptom(
             name: 'Innåtfinnar',
             aka: 'Kallas också noduler',
-            content: 'Noduler är djupa, större blemmor som kan vara ömma och smärtsamma. De bildas när en hårsäck blir starkt infekterad, och inflammationen breder ut sig. De syns ofta på ansikte, nacke, bröst, rygg samt ibland överarmar och skinkor.',
+            content: 'Noduler, ofta kända som innåtfinnar, är stora, fasta blemmor som sitter djupt under huden. De är ofta röda eller hudfärgade och kan kännas ömma och smärtsamma, särskilt vid beröring eller tryck. De kan ibland vara svåra att se men känns som stora, hårda knölar under huden. De är vanligtvis synliga på ansikte, nacke, bröst, rygg och ibland överarmar och skinkor.',
             image: 'images/symptoms/102x102/noduler.webp',
             image_alt: 'Innåtfinnar (noduler) i bild',
             image_title: 'Noduler (Innåtfinnar)',
@@ -381,10 +380,10 @@ $symptoms = array(
             url_title: 'Mer om innåtfinnar',
             url_label: 'Utforska noduler'
       ),
-      new Symptom(
+      nnew Symptom(
             name: 'Bölder',
             aka: 'Ofta kallade cystor',
-            content: 'Bölder, även kända som cystor, är stora, varfyllda inflammerade blemmor som uppstår när en hårsäck blir kraftigt infekterad och inflammationen sprider sig djupt in i huden. Beroende på graden av inflammation kan de vara mjuka och runda, eller fasta och ömma vid beröring. Bölder kan vara större än 5 mm i diameter och är vanliga på ansiktet, nacken, bröstet och ryggen. Ärrbildning är en vanlig följd av cystisk akne, vilket gör att professionell behandling ofta är nödvändig.',
+            content: 'Bölder, även kända som cystor, är stora, inflammerade blemmor som sitter djupt under huden. De känns som stora, ömma knölar och är fyllda med var, vilket ger dem en gul eller vit yta i mitten. Bölder kan kännas mjuka och fyllda med vätska, eller fasta beroende på inflammationens grad. Deras storlek och ömhet, särskilt vid tryck, gör dem lätta att känna igen. De är vanligtvis synliga på ansikte, nacke, bröst och rygg, men kan dyka upp var som helst där det finns hårsäckar.',
             image: 'images/symptoms/102x102/cystor.webp',
             image_alt: 'Bild av bölder (cystor)',
             image_title: 'Bölder (cystor)',
@@ -413,7 +412,7 @@ $symptoms = array(
             booking_url: null,
             booking_url_label: null,
             booking_url_title: null,
-            url: 'finnar-konsultation',
+            url: '/konsultation',
             url_label: 'Läs mer om vår konsultation för finnar',
             url_title: 'Klicka här för att lära dig mer om vår kostnadsfria konsultation för finnar'
 
