@@ -607,7 +607,7 @@ $results = array(
             problem: 'Finnar',
             type: 'Severe',
             treatment: new ResultTreatment(
-                  duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne"">behandlingar mot akne</a>',
+                  duration: 'Efter 3 månaders <a href="behandlingar/finnar" title="finnar"">behandlingar mot Finnar</a>',
             )
       ),
       new ResultCustomer(
@@ -624,7 +624,7 @@ $results = array(
             problem: 'Finnar',
             type: 'Severe',
             treatment: new ResultTreatment(
-                  duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne">behandlingar mot akne</a>',
+                  duration: 'Efter 3 månaders <a href="behandlingar/finnar" title="Finnar">behandlingar mot Finnar</a>',
             )
       ),
 );
@@ -634,29 +634,29 @@ $results_url_title = "se flera behandlingsresultat av finnar";
 
 
 $reviews = array(
-      new Review(
+            new Review(
             stars: 5,
             brand: 'Trustpilot',
             logo_url: 'images/brands/trustpilot.svg',
-            title: 'Supernöjd',
-            text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
-            signature: 'Sofia'
+            title: 'Farväl finnar!',
+            text: "Jag har länge kämpat med envisa finnar, men tack vare AcneSpecialisten är de nu borta. Kunde inte vara mer nöjd!",
+            signature: 'Elin'
       ),
       new Review(
             stars: 5,
             brand: 'Google',
             logo_url: 'images/brands/google-small.svg',
-            title: 'Jag är mycket nöjd..',
-            text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och aknen är betydligt mildare",
-            signature: 'Lovisa'
+            title: 'Finnar är ett minne blott',
+            text: "Efter månader av behandlingar hos AcneSpecialisten är mina finnar äntligen borta. Personalen är proffsig, och resultaten talar för sig själva!",
+            signature: 'Martin'
       ),
       new Review(
             stars: 5,
             brand: 'Bokadirekt',
             logo_url: 'images/brands/bokadirekt-small.svg',
-            title: 'Rekommenderar varmt!',
-            text: "Det enda som fungerat mot min akne med synliga resultat. Jättetrevlig och kunnig behandlare!",
-            signature: 'Emily'
+            title: 'Inga mer finnar!',
+            text: "Jag trodde aldrig jag skulle bli av med mina finnar, men behandlingarna här har verkligen gjort underverk. Rekommenderar starkt!",
+            signature: 'Karin'
       ),
 
 );
@@ -667,48 +667,36 @@ $review_url_title = "AcneSpecialisten Omdömen";
 $faq_categories = array(
       'Generellt om finnar' => array(
             new Question(
-                  title: 'Hur blir jag av med min akne snabbt?',
-                  text: '<p class="p200">Att bli av med akne snabbt är en utmaning, eftersom det inte finns någon quickfix när det gäller akne. Effektiv behandling kräver att du tar hand om din hud genom att använda rätt behandlingar och produkter som passar din specifika hudtyp och akne. För att få en skräddarsydd behandlingsplan som hjälper dig att bli av med aknen så snabbt som möjligt, rekommenderar vi att du bokar en kostnadsfri hudkonsultation hos oss. Under konsultationen kommer vi att analysera din hud och hjälpa dig att utforma en anpassad behandlingsrutin som ger dig de bästa förutsättningarna för att snabbt och effektivt behandla din akne.</p>'
+                  title: 'Hur blir jag av med mina finnar snabbt?',
+                  text: '<p class="p200">Att bli av med finnar snabbt är en utmaning, då det inte finns någon omedelbar lösning. Effektiv behandling kräver att du tar hand om din hud genom att använda rätt behandlingar och produkter. Vi erbjuder en kostnadsfri hudkonsultation för att skräddarsy en behandlingsplan som snabbt och effektivt hjälper dig bli av med dina finnar.</p>'
             ),
             new Question(
-                  title: 'Har jag akne även om jag bara har en finne?',
-                  text: '<p class="p200">ja, du har tekniskt sett akne även om du bara har en enstaka finne. Akne kan ta sig många olika former och innefattar alla typer av finnar, oavsett om det är enstaka eller flera, stora eller små, papler eller pustler. Många tror att de inte har akne om de endast upplever enstaka finnar då och då, men faktum är att alla dessa fall kategoriseras som akne.</p>'
+                  title: 'Har jag finnar även om jag bara har en enstaka finne?',
+                  text: '<p class="p200">Ja, tekniskt sett har du finnar även om det bara är en enstaka finne. Finnar kan ta olika former och innefattar alla typer, oavsett storlek och antal. Många tror att enstaka finnar inte räknas, men faktum är att alla dessa fall kategoriseras som finnar.</p>'
             ),
             new Question(
                   title: 'Ska jag klämma mina finnar?',
-                  text: '<p class="p200">Vi på Acnespecialisten rekommenderar att du inte klämmer finnar själv, eftersom felaktig teknik kan leda till ärrbildning och förvärra inflammationen genom att införa bakterier från dina fingrar. Det är dock sant att finnar kan behöva klämmas, men det måste göras på rätt sätt för att undvika skador på huden. Om du undviker att klämma helt kan ärrbildning också uppstå, eftersom fettsyran i finnen fortsätter att fräta på huden.</p>
-
-                        <p class="p200 mt-m">För att klämma finnar korrekt krävs både rätt utrustning och teknik. På Acnespecialisten har vi erfarna hudterapeuter som kan hjälpa dig att behandla dina finnar på ett säkert och effektivt sätt. Genom att vända dig till oss får du den expertis och omsorg du behöver för att hantera din akne på bästa sätt. Du kan läsa mer om våra aknebehandlingar och hur de kan hjälpa dig här.</p>'
+                  text: '<p class="p200">Vi på Acnespecialisten rekommenderar att du inte klämmer finnar själv, eftersom det kan leda till ärr och förvärra problemet. För att klämma finnar korrekt krävs rätt utrustning och teknik. Vi erbjuder behandlingar för att säkert och effektivt hantera dina finnar. Läs mer om hur vi kan hjälpa dig här.</p>'
             ),
             new Question(
-                  title: 'Försvinner aknen efter tonåren?',
-                  text: '<p class="p200">Det är svårt att ge ett entydigt svar på den frågan eftersom det varierar från person till person. För vissa kan akne vara ett tonårsproblem som försvinner när de blir äldre, medan det för andra kan övergå till vuxenakne. Det är inte säkert att aknen försvinner efter tonåren, och det kan variera beroende på individuella faktorer som hormoner, genetik och livsstil.</p>
-
-                        <p class="p200 mt-m">Akne kan uppstå i olika faser av livet och dess svårighetsgrad varierar från person till person. Vissa individer upplever akne under tonåren, som sedan försvinner när de når vuxen ålder. Andra kan vara aknefria under tonåren, men drabbas av akne som vuxna. Den mest besvärliga situationen är när någon drabbas av akne under tonåren som sedan övergår till vuxenakne.</p>
-
-                        <p class="p200 mt-m">När man når vuxen ålder och aknen fortfarande inte har försvunnit, är det stor risk att aknen har lett till ärrbildning. Det är därför viktigt att behandla akne i alla åldrar för att förebygga och minimera risken för att drabbas av acneärr. Oavsett ålder och fas av akne, bör man söka hjälp för att behandla och kontrollera sitt tillstånd, för att minska risken för långsiktiga hudproblem som ärrbildning.</p>'
+                  title: 'Försvinner finnar efter tonåren?',
+                  text: '<p class="p200">För vissa kan finnar försvinna efter tonåren, men det varierar. Det är viktigt att behandla finnar i alla åldrar för att förebygga ärrbildning. Oavsett ålder och fas av finnar bör man söka hjälp för att behandla och kontrollera tillståndet, för att minska risken för långsiktiga hudproblem.</p>'
             ),
             new Question(
-                  title: 'Kan jag ha akne även om jag är vuxen?',
-                  text: '<p class="p200">Ja, akne kan drabba vuxna och det är faktiskt ganska vanligt. Vuxenakne drabbar cirka 12-22% av alla kvinnor och 3% av alla män. Den kan uppkomma vid 20-, 30- och 40-årsåldern, och ibland ännu senare. Det kallas då för vuxenakne och har också med hormonerna i din kropp att göra, men faktorerna som triggar igång din akne är lite annorlunda än vid tonårsakne.</p>
-
-                        <p class="p200 mt-m">Vid tonårsakne ökar produktionen av det manliga könshormonet i din kropp. Det, i kombination med fettproduktionen, kan leda till att du drabbas av akne. Vid vuxen ålder däremot, kan aknen bero på sådant som graviditet, menstruation, alkohol, stress och preventivmedel. Alltså, yttre faktorer som triggar igång dina hormoner och får aknen att blomma upp.</p>
-
-                       <p class="p200 mt-m">Vuxenakne kan orsakas av flera faktorer, såsom hormonella förändringar, stress, genetik och användning av olämpliga hudvårdsprodukter. Hos kvinnor kan akne ofta vara kopplad till menstruationscykeln eller hormonella förändringar i samband med graviditet och menopaus.</p>
-
-                       <p class="p200 mt-m">Sammanfattningsvis kan akne drabba personer i alla åldrar, och det är viktigt att vara medveten om att akne inte bara är ett tonårsproblem.</p>'
+                  title: 'Kan jag ha finnar även om jag är vuxen?',
+                  text: '<p class="p200">Ja, finnar kan drabba vuxna och det är ganska vanligt. Vuxenfinnar kan uppkomma vid olika åldrar, och orsakas av flera faktorer som hormonella förändringar, stress och genetik. Det är viktigt att vara medveten om att finnar inte bara är ett tonårsproblem.</p>'
             ),
             new Question(
-                  title: 'Förvärras min akne av att jag äter choklad?',
-                  text: '<p class="p200">Nej, det är en myt att choklad direkt skulle leda till akne. Ingen vetenskaplig forskning har tydligt påvisat ett direkt samband mellan chokladkonsumtion och uppkomsten av finnar. Det som potentiellt kan påverka din akne är stress. Om du upplever stress över att du ätit choklad, kan det i sin tur bidra till akneutbrott. Men en bit choklad då och då bör inte orsaka akneutbrott hos de flesta människor.</p>'
+                  title: 'Förvärras mina finnar av att äta choklad?',
+                  text: '<p class="p200">Nej, det är en myt att choklad skulle leda till finnar. Ingen forskning har tydligt påvisat ett direkt samband mellan chokladkonsumtion och finnar. Men stress kan potentiellt påverka dina finnar, så en balanserad kost och livsstil är viktig.</p>'
             ),
             new Question(
-                  title: 'Vad kan jag göra för att bli av med min akne?',
-                  text: '<p class="p200">Att bekämpa akne effektivt kräver en individuellt anpassad strategi som kombinerar lämpliga behandlingar och hudvårdsprodukter, utformade för att passa dina unika behov och din huds specifika tillstånd. På Acnespecialisten, erbjuder vi kostnadsfria hudkonsultationer där vi kan utvärdera ditt specifika fall av akne och hjälpa till att skräddarsy en effektiv behandlingsrutin.</p>'
+                  title: 'Vad kan jag göra för att bli av med mina finnar?',
+                  text: '<p class="p200">Effektiv behandling av finnar kräver en individuell strategi. På Acnespecialisten erbjuder vi kostnadsfria hudkonsultationer där vi utvärderar ditt specifika fall och hjälper till att skräddarsy en effektiv behandlingsrutin för dina finnar.</p>'
             )
       ),
-
 );
+
 
 $faq_url_label = "Läs fler frågor & svar";
 $faq_url_title = "läs flera frågor relaterat till finnar";
@@ -773,49 +761,50 @@ $skin_guide_articles = array(
 );
 
 $skinguide_url_label = "Läs fler guider";
-$skinguide_url_title = "Läs fler guider om akne";
+$skinguide_url_title = "Läs fler guider om finnar";
 
 $specialists = array(
       new Specialist(
             name: 'Cazzandra Lindberg',
             title: 'Hudterapeut sedan 2015',
             image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
-            image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i aknebehandling',
-            image_title: 'Cazzandra Lindberg - Expert på aknebehandling'
+            image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i finnar och hudvård',
+            image_title: 'Cazzandra Lindberg - Expert på behandling av finnar'
       ),
       new Specialist(
             name: 'Veronika Benedik',
             title: 'Hudterapeut sedan 1999',
             image: 'images/specialists/312x312/hudterapeut-veronika.webp',
-            image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på akne',
-            image_title: 'Veronika Benedik - Specialist inom aknevård'
+            image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på finnar',
+            image_title: 'Veronika Benedik - Specialist inom vården av finnar'
       ),
       new Specialist(
             name: 'Amira Maqboul',
             title: 'Hudterapeut sedan 2017',
             image: 'images/specialists/312x312/hudterapeut-amira.webp',
-            image_alt: 'Amira Maqboul, hudterapeut med kunskap inom aknehantering',
-            image_title: 'Amira Maqboul - Hudterapeut specialiserad på akne'
+            image_alt: 'Amira Maqboul, hudterapeut med kunskap inom behandling av finnar',
+            image_title: 'Amira Maqboul - Hudterapeut specialiserad på finnar'
       ),
       new Specialist(
             name: 'Vilma Libom',
             title: 'Hudterapeut sedan 2019',
             image: 'images/specialists/312x312/hudterapeut-vilma.webp',
-            image_alt: 'Vilma Libom, hudterapeut med inriktning mot aknebehandling',
-            image_title: 'Vilma Libom - Expert inom aknebehandling'
+            image_alt: 'Vilma Libom, hudterapeut med inriktning mot behandling av finnar',
+            image_title: 'Vilma Libom - Expert inom behandling av finnar'
       )
 );
+
 
 $specialist_url_label = "Se alla specialister";
 $specialist_url_title = "Akne Specialiserade Hudterapeuter";
 
 $related_problems = array(
       new RelatedProblem(
-            name: 'Acneärr',
+            name: 'Ärr från finnar',
             aka: 'gropar & Fläckar',
             image: 'images/problems/102x102/acnearr.webp',
-            image_alt: 'Bild som visar acneärr, en typ av hudproblem som ofta följer efter akne',
-            image_title: 'Acneärr - en vanlig följd av akne',
+            image_alt: 'Bild som visar ärr efter finnar, en typ av hudproblem som ofta följer efter acne',
+            image_title: 'ärr från finnar - en vanlig följd av akne',
             url: 'problem/acnearr',
             url_title: 'Acneärr'
       ),
