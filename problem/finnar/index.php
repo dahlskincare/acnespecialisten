@@ -206,6 +206,16 @@ $type_categories = array(
                         url_title: 'Utforska mer om hur hormoner kan framkalla finnar'
                   ),
                   new BasedType(
+                        title: 'Finnar efter rakning',
+                        subtitle: 'Finnar utlösta av rakning',
+                        content: '',
+                        image_url: 'images/problems/102x102/rakningsfinnar.webp',
+                        image_alt: 'Bild av finnar orsakade av rakning',
+                        image_title: 'Exempel på finnar orsakade av rakning',
+                        url: 'problem/finnar/typer/rakning-finnar',
+                        url_title: 'Lär dig mer om hur rakning kan orsaka finnar'
+                  ),
+                  new BasedType(
                         title: 'Kosmetikafinnar',
                         subtitle: 'Finnar utlösta av kosmetiska produkter',
                         content: '',
