@@ -22,7 +22,7 @@ $description = 'Har du problem med ärr som uppstått från finnar? Vi förstår
 
 
 
-$scar_links = [
+$akas = [
       new Link(
             label: 'Ärr i form av Gropar',
             url: 'problem/arr-fran-finnar/atrofiska-arr',
