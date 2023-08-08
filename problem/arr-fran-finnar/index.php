@@ -12,7 +12,7 @@ $seo_keywords = 'ärr från finnar, behandling av ärr från finnar, orsaker til
 
 
 
-$title = 'Behandling av Ärr från Finnar';
+$title = 'Ärr från Finnar';
 
 $image_small = 'images/problems/424x324/finnar.webp';
 $image_large = 'images/problems/424x456/finnar.webp';
