@@ -469,69 +469,70 @@ $faq_categories = array(
 
 
 $faq_url_label = "Läs fler frågor & svar";
-$faq_url_title = "läs flera frågor relaterat till akneärr";
+$faq_url_title = "läs flera frågor relaterat till ärr";
 
 $skin_guide_articles = array(
       new SkinGuideArticle(
-            id: 'myter-om-akne',
-            url_title: '',
-            title: 'Behandlingsalternativ för Akneärr',
-            subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
+            id: 'scar-prevention',
+            url_title: 'scar-prevention-from-acne',
+            title: 'Förebyggande av Ärr från Finnar',
+            subtitle: 'Förstå hur du kan förhindra ärrbildning efter finnar genom korrekt hudvård och behandling.',
             problem: 'En Fullständig Guide',
-            description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
+            description: "Lär dig de bästa metoderna för att förhindra ärrbildning efter finnar. Upptäck vilka produkter och behandlingar som är mest effektiva.",
             image_small: 'https://via.placeholder.com/426x324.webp',
             image_large: 'https://via.placeholder.com/872x456.jpg',
-            image_alt: 'Hormones effect',
-            image_title: 'Hormones effect',
-            category_id: 'category-here',
-            subcategory_id: 'subcategory-here'
+            image_alt: 'Scar prevention',
+            image_title: 'Scar prevention',
+            category_id: 'scar-category',
+            subcategory_id: 'scar-subcategory'
       ),
       new SkinGuideArticle(
-            id: 'how-hormones-effect',
-            url_title: 'How hormones effect?',
-            title: 'Kemisk Peeling och Akneärr',
-            subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
+            id: 'scar-treatment-options',
+            url_title: 'scar-treatment-options-from-acne',
+            title: 'Behandlingsalternativ för Ärr från Finnar',
+            subtitle: 'En översikt över olika metoder för att behandla ärr som orsakas av finnar.',
             problem: 'En Expertguide',
-            description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
+            description: "Utforska olika behandlingsalternativ för att ta hand om ärr orsakade av finnar, inklusive kliniska och hemmabehandlingar.",
             image_small: 'https://via.placeholder.com/426x324.webp',
             image_large: 'https://via.placeholder.com/872x456.jpg',
-            image_alt: 'Hormones effect',
-            image_title: 'Hormones effect',
-            category_id: 'category-here',
-            subcategory_id: 'subcategory-here'
+            image_alt: 'Scar treatment',
+            image_title: 'Scar treatment',
+            category_id: 'scar-category',
+            subcategory_id: 'scar-subcategory'
       ),
       new SkinGuideArticle(
-            id: 'how-hormones-effect',
-            url_title: 'How hormones effect?',
-            title: 'Din Väg till Friskare Hud med Akneärrbehandling',
-            subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
-            problem: 'Steg för Steg Guide',
-            description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
-            image_small: 'https://via.placeholder.com/426x324.webp',
-            image_large: 'https://via.placeholder.com/872x456.jpg',
-            image_alt: 'Hormones effect',
-            image_title: 'Hormones effect',
-            category_id: 'category-here',
-            subcategory_id: 'subcategory-here'
-      ),
-      new SkinGuideArticle(
-            id: 'how-hormones-effect',
-            url_title: 'How hormones effect?',
-            title: 'Tonåringar och Akneärr',
-            subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
+            id: 'teenagers-and-scars',
+            url_title: 'teenagers-and-scars-from-acne',
+            title: 'Tonåringar och Ärr från Finnar',
+            subtitle: 'Guide för föräldrar och ungdomar för att hantera och behandla ärr från finnar.',
             problem: 'En Guide för Föräldrar',
-            description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
+            description: "Förstå hur tonåringars hud reagerar på akne och hur man kan hantera och behandla ärr som kan uppstå efter finnar.",
             image_small: 'https://via.placeholder.com/426x324.webp',
             image_large: 'https://via.placeholder.com/872x456.jpg',
-            image_alt: 'Hormones effect',
-            image_title: 'Hormones effect',
-            category_id: 'category-here',
-            subcategory_id: 'subcategory-here'
+            image_alt: 'Teenagers and scars',
+            image_title: 'Teenagers and scars',
+            category_id: 'scar-category',
+            subcategory_id: 'scar-subcategory'
+      ),
+      new SkinGuideArticle(
+            id: 'natural-remedies',
+            url_title: 'natural-remedies-for-scars-from-acne',
+            title: 'Naturliga Behandlingsmetoder för Ärr från Finnar',
+            subtitle: 'En guide till naturliga och skonsamma sätt att behandla ärr som orsakas av finnar.',
+            problem: 'En Praktisk Guide',
+            description: "Upptäck naturliga metoder och hemlagade lösningar för att minska och behandla ärr som orsakas av finnar.",
+            image_small: 'https://via.placeholder.com/426x324.webp',
+            image_large: 'https://via.placeholder.com/872x456.jpg',
+            image_alt: 'Natural remedies for scars',
+            image_title: 'Natural remedies for scars',
+            category_id: 'scar-category',
+            subcategory_id: 'scar-subcategory'
       ),
 );
 
 $skinguide_url_label = "Läs fler guider";
-$skinguide_url_title = "Läs fler guider om akneärr";
+$skinguide_url_title = "Läs fler guider om ärr från finnar";
+
 
 $specialists = array(
       new Specialist(
