@@ -335,29 +335,30 @@ $services = array(
 $articles = array(
       new Article(
             id: 'pigmentation-causes-and-risk-factors',
-            title: 'Hur får man bort akneärr?',
+            title: 'Hur behandlar man ärr som uppstått från finnar?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'Varför AcneSpecialisten?!',
-            image_title: 'Varför AcneSpecialisten?!',
-            content: '<p class="p200">Vi erbjuder de senaste behandlingsmetoderna mot alla typer av akneärr. Oavsett om det gäller laserbehandling för de mest envisa ärrtyperna, microneedling som är mest effektiv mot atrofiska ärr, eller kemisk peeling för ärrtypen fläckar, är våra behandlingsalternativ bäst mot akneärr. Vi använder konstant de mest avancerade och skräddarsydda lösningarna som garanterar din tillfredsställelse. </p>
+            image_alt: 'Varför välja oss för behandling av ärr från finnar?',
+            image_title: 'Varför välja oss för behandling av ärr från finnar?',
+            content: '<p class="p200">Vi på AcneSpecialisten erbjuder de mest innovativa och effektiva metoderna för att behandla ärr orsakade av finnar. Oavsett ärrtyp har vi lösningar – laserterapi för komplexa fall, microneedling för atrofiska ärr och kemisk peeling för mindre ojämnheter. Vår styrka ligger i att leverera individualiserade behandlingar, där din tillfredsställelse står i fokus.</p>
 
-            <p class="p200 mt-m">Din resa med oss börjar med en helt kostnadsfri konsultation. Vi tar oss tiden att analysera ditt unika fall och erbjuder dig en personlig hudterapeut. Din terapeut kommer att vara din guide och stöttepelare från start till mål, och skapa en behandlingsplan som är helt anpassad efter dina behov.</p>',
+            <p class="p200 mt-m">Börja din resa mot en klarare hud med en helt kostnadsfri konsultation. Vi analyserar ditt specifika fall och kopplar dig med en personlig hudterapeut som kommer att stödja och vägleda dig genom processen, med en behandlingsplan som är skräddarsydd för just dig. Boka din konsultation idag!</p>',
       ),
       new Article(
             id: 'when-to-see-your-pigmentation-specialist',
-            title: 'Varför AcneSpecialisten?!',
+            title: 'Varför AcneSpecialisten för ärr från finnar?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'När ska jag besöka AcneSpecialisten?',
-            image_title: 'När ska jag besöka AcneSpecialisten?',
-            content: '<p class="p200">DNär det kommer till att välja rätt behandling för dina akneärr, vet vi hur avgörande det är att finna någon som inte bara förstår ditt problem utan också erbjuder de mest innovativa och effektiva lösningarna. På Acnespecialisten har vi dedikerat över 30 år till att förstå och behandla akneärr. Vår gedigna erfarenhet gör oss till specialister som verkligen lever upp till vårt namn.</p>
+            image_alt: 'När ska jag besöka AcneSpecialisten för ärr från finnar?',
+            image_title: 'När ska jag besöka AcneSpecialisten för ärr från finnar?',
+            content: '<p class="p200">Välja rätt behandling för ärr som uppstått från finnar kan vara en utmaning. Hos AcneSpecialisten har vi över 30 års erfarenhet av att förstå och behandla denna typ av hudproblem. Vi är inte bara experter utan även pionjärer inom ärrreducering och laserbehandling.</p>
 
-            <p class="p200 mt-m">Det som verkligen särskiljer oss är vår fokuserade expertis inom akneärrbehandling. Vi är inte bara experter på akneärr, utan även pionjärer inom ärrreducering, laser mot akneärr och effektiv aknebehandling. Vi ser inte bara till att du får en klarare hud utan även till att du känner dig mer självsäker i din egen hud.</p>
+            <p class="p200 mt-m">Det som gör oss unika är vår specialiserade kunskap och dedikation. Vi ser inte bara till att förbättra din hud utan strävar också efter att stärka ditt självförtroende och välmående. </p>
 
-            <p class="p200 mt-m">Genom att välja Acnespecialisten får du tillgång till en värld av expertis och omtanke, där ditt välmående står i centrum. Vi ser fram emot att hjälpa dig på din resa mot en ny början. Boka din kostnadsfria konsultation idag och ta det första steget med oss.</p>',
+            <p class="p200 mt-m">När du väljer AcneSpecialisten, får du inte bara behandling, utan en partner på din resa mot en ny början. Ta första steget med oss och boka din kostnadsfria konsultation idag. Vår professionella och erfarna team väntar på att få hjälpa dig.</p>',
       ),
 );
+
 
 
 $results = array(
