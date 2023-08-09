@@ -92,7 +92,7 @@ $trivias = array(
             prefix: 'Var',
             title: 'får man rosacea?',
             content: '<p class="p200">Rosacea är ett hudtillstånd som huvudsakligen påverkar ansiktet, men det kan också spridas till andra områden av huden. Så var exakt uppträder rosacea på kroppen? I huvudsak är rosacea mest framträdande i mitten av ansiktet. Rödhet och synliga blodkärl kan först uppträda på näsan och kinderna, men kan sedan sprida sig till pannan och hakan. Rosacea kan ibland även påverka områdena runt ögonen och orsaka inflammation i ögonlocken och ögonvita, ett tillstånd som kallas okulär rosacea.</p>',
-            
+
             extended_content: '<p class="p200 mt-xl">Näsans vävnad kan också påverkas av rosacea, särskilt hos män, vilket resulterar i en tillstånd som kallas rhinophyma. Rhinophyma är en form av rosacea där huden på näsan blir tjock och knölig. Även om rosacea primärt påverkar ansiktet, kan det i vissa fall sprida sig till hals, bröst, öron och till och med hårbotten. Så, medan ansiktet är det mest typiska området för rosacea att dyka upp, kan det uppträda var som helst på överkroppen.</p>
 
             <p class="p200 mt-xl">Det är viktigt att påpeka att rosaceas manifestationer varierar från individ till individ, och dess exakta plats på kroppen kan variera beroende på flera faktorer, inklusive din genetiska predisposition och miljöfaktorer. På AcneSpecialisten är vi experter på att hantera alla former av rosacea, oavsett var de uppträder på kroppen. Vårt team av hudvårdsexperter är redo att erbjuda individualiserad behandling som kommer att hantera dina specifika symtom och förbättra din livskvalitet.</p>',
@@ -101,129 +101,81 @@ $trivias = array(
 );
 $treatment_steps = array(
       new TreatmentStep(
-            title: 'Identifiera',
-            content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din aknetyp och skapar en individuell behandlingsplan.',
-            url_label: 'Få gratis konsultation',
-            url: 'hudkonsultation',
-            url_title: 'Boka din kostnadsfria hudkonsultation idag'
+          title: 'Identifiera',
+          content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din rosacea och skapar en individuell behandlingsplan.',
+          url_label: 'Få gratis konsultation',
+          url: 'hudkonsultation',
+          url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
-            title: 'Behandla',
-            content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika aknetyp, så att du snabbt och säkert blir av med problemet.',
-            url_label: 'Se aknebehandlingar',
-            url: 'aknebehandling',
-            url_title: 'Utforska våra skräddarsydda aknebehandlingar'
+          title: 'Behandla',
+          content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika rosacea, så att du snabbt och säkert blir av med problemet.',
+          url_label: 'Se aknebehandlingar',
+          url: 'aknebehandling',
+          url_title: 'Utforska våra skräddarsydda rosaceabehandlingar'
       ),
       new TreatmentStep(
-            title: 'Förebygga',
-            content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny akne och hålla din hud i balans.',
-            url_label: 'Se produkter',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
-            url_title: 'Hitta de bästa produkterna för att förebygga akne'
+          title: 'Förebygga',
+          content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny rosacea och hålla din hud i balans.',
+          url_label: 'Se produkter',
+          url: 'https://dahlskincare.se/produktkategorier/produktpaket/rosacea',
+          url_title: 'Hitta de bästa produkterna för att förebygga rosacea'
       ),
       new TreatmentStep(
-            title: 'Reparera',
-            content: 'När aknen är borta fokuserar vi på att reducera eventuella ärr med behandlingsmetoder som laser, microneedling och kemisk peeling för en jämn och problemfri hud.',
-            url_label: 'Se ärrbehandlingar',
-            url: 'aknearr-behandling',
-            url_title: 'Upptäck effektiva behandlingar för akneärr'
+          title: 'Reparera',
+          content: 'När rosacean är borta fokuserar vi på att reducera eventuella ytliga blodkärl med behandlingsmetoder som IPL för en jämn och problemfri hud.',
+          url_label: 'Se IPL-behandlingar',
+          url: 'aknearr-behandling',
+          url_title: 'Upptäck effektiva behandlingar för ytliga blodkärl'
       ),
 
 );
-$treatment_link = '<a href="problem/akne/aknebehandling" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra aknebehandlingar</a>';
+$treatment_link = '<a href="problem/rosacea/rosaceabehandling" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra rosaceabehandlingar</a>';
 
-$types_title = 'Olika typer av akne';
+$types_title = 'Olika typer av rosacea';
 
 $type_categories = array(
       new BasedTypeCategory(
-            id: 'category-age',
-            title: 'Akne baserat på ålder',
-            content: '<p class="p200">Akne är en hudåkomma som kan drabba både ungdomar och vuxna, även om det är vanligast under tonåren. Tonårsakne uppstår ofta på grund av hormonella förändringar under puberteten. Vuxenakne förekommer också, och det kan bero på en rad olika faktorer. Hos vuxna kan akne orsakas av faktorer som stress, hormonobalans och genetik. Oavsett ålder är det viktigt att förstå att akne kan påverka människor i alla livsstadier.</p>',
-            types: array(
-                  new BasedType(
-                        title: 'Vuxenakne',
-                        image_url: 'images/problems/102x102/vuxenakne.webp',
-                        image_alt: 'Bild av vuxenakne',
-                        image_title: 'Akne hos vuxna',
-                        subtitle: 'Även kallat acne tarda',
-                        content: '',
-                        url: 'problem/akne/typer/vuxenakne',
-                        url_title: 'Utforska information om vuxenakne'
-                  ),
-                  new BasedType(
-                        image_url: 'images/problems/102x102/tonarsakne.webp',
-                        image_alt: 'Bild av tonårsakne',
-                        image_title: 'Akne hos tonåringar',
-                        title: 'Tonårsakne',
-                        subtitle: 'Även kallat acne vulgaris',
-                        content: '',
-                        url: 'problem/akne/typer/tonårsakne',
-                        url_title: 'Utforska information om tonårsakne'
-                  ),
-                  new BasedType(
-                        image_url: 'images/problems/102x102/barnakne.webp',
-                        image_alt: 'Bild av barnakne',
-                        image_title: 'Akne hos barn',
-                        title: 'Barnakne',
-                        subtitle: 'Även kallat acne neonatorum',
-                        content: '',
-                        url: 'problem/akne/typer/barnakne',
-                        url_title: 'Utforska information om barnakne'
-                  ),
-
-            )
-      ),
-      new BasedTypeCategory(
             id: 'category-severity',
-            title: 'Akne baserat på svårighetsgrad',
-            content: '<p class="p200">Akne kan variera i svårighetsgrad från milda till extremt allvarliga fall. I milda fall av akne är symptomen ofta mindre uttalade och består främst av pormaskar, medan mer allvarliga fall innefattar djupare inflammationer i form av cystor och noduler. Svårighetsgraden påverkar också hur akne påverkar en persons livskvalitet och hur den ska behandlas. Det är viktigt att diagnostisera och behandla akne utifrån dess svårighetsgrad för att säkerställa bästa möjliga behandlingsresultat och förhindra potentiella ärr och bestående skador på huden.</p>',
+            title: 'Rosacea baserat på svårighetsgrad',
+            content: '<p class="p200">Rosacea är ett hudtillstånd som varierar kraftigt i svårighetsgrad mellan olika individer. Hudtillståndet, som vanligtvis manifesterar sig som rodnad och synliga blodkärl i ansiktet, kan också leda till små, röda, pusfyllda blåsor eller knölar i värre fall. Rosacea klassificeras vanligtvis i fyra olika subtyper baserat på dess symptom och svårighetsgrad.</p>',
             types: array(
                   new BasedType(
-                        image_url: 'images/problems/102x102/mild-akne.webp',
-                        image_alt: 'Bild av mild akne',
-                        image_title: 'Mild akne exemplifierad',
-                        title: 'Mild akne',
-                        subtitle: 'även kallat acne comedonica',
-                        content: '',
-                        url: 'problem/akne/typer/mild-akne',
-                        url_title: 'Utforska mer information om mild akne'
+                        image_url: 'images/problems/102x102/mild-rosacea.webp',
+                        image_alt: 'Bild av mild rosacea',
+                        image_title: 'Mild rosacea exemplifierad',
+                        title: 'Mild rosacea',
+                        subtitle: 'även kallat vaskulär rosacea eller erythematotelangiektatisk rosacea',
+                        content: 'Karaktäriseras av frekventa rodnader, ihållande rodnad och synliga blodkärl. Huden kan också kännas torr och stram.',
+                        url: '',
+                        url_title: ''
                   ),
                   new BasedType(
-                        image_url: 'images/problems/102x102/medelsvar-akne.webp',
-                        image_alt: 'Bild av medelsvår akne',
-                        image_title: 'Medelsvår akne exemplifierad',
-                        title: 'Medelsvår akne',
-                        subtitle: 'Även kallat acne papulopustulosa',
-                        content: '',
-                        url: 'problem/akne/typer/medel-akne',
-                        url_title: 'Utforska mer information om medelsvår akne'
+                        image_url: 'images/problems/102x102/medelsvar-rosacea.webp',
+                        image_alt: 'Bild av medelsvår rosacea',
+                        image_title: 'Medelsvår rosacea exemplifierad',
+                        title: 'Medelsvår rosacea',
+                        subtitle: 'Även kallat papulopustulös rosacea eller akne rosacea',
+                        content: 'Utöver rodnad och synliga blodkärl kan det också finnas små, röda, vättskefyllda blåsor.',
+                        url: '',
+                        url_title: ''
                   ),
                   new BasedType(
-                        image_url: 'images/problems/102x102/svar-akne.webp',
-                        image_alt: 'Bild av svår akne',
-                        image_title: 'Svår akne exemplifierad',
-                        title: 'Svår akne',
-                        subtitle: 'Även kallat Acne nodulocystica',
-                        content: '',
-                        url: 'problem/akne/typer/svar-akne',
-                        url_title: 'Utforska mer information om svår akne'
-                  ),
-                  new BasedType(
-                        image_url: 'images/problems/102x102/mycket-svar-akne.webp',
-                        image_alt: 'Bild av mycket svår akne',
-                        image_title: 'Mycket svår akne exemplifierad',
-                        title: 'Mycket svår akne',
-                        subtitle: 'Även kallat Acne conglobata',
-                        content: '',
-                        url: 'problem/akne/typer/mycket-svar-akne',
-                        url_title: 'Utforska mer information om mycket svår akne'
+                        image_url: 'images/problems/102x102/svar-rosacea.webp',
+                        image_alt: 'Bild av svår rosacea',
+                        image_title: 'Svår rosacea exemplifierad',
+                        title: 'Svår rosacea',
+                        subtitle: 'Även kallat fymatös rosacea eller rhinophyma',
+                        content: 'Huden blir tjock och får en ojämn yta. Detta beror på överväxt av talgkörtlar och bindväv. Näsan kan bli större och få en knölig yta.',
+                        url: '',
+                        url_title: ''
                   ),
             )
       ),
       new BasedTypeCategory(
             id: 'category-reason',
-            title: 'Akne baserat på yttre faktorer',
-            content: '<p class="p200">Yttre faktorer kan också påverka uppkomsten av akne. Exempel på dessa är sol, friktion, kosmetika, mediciner och miljöfaktorer. Dessa kan bidra till eller förvärra akne genom att irritera huden, täppa till porer eller påverka hudens talgproduktion.</p>',
+            title: 'Yttre faktorer som förvärrar rosacea',
+            content: '<p class="p200">Rosacea kan förvärras eller till och med utlösas av en rad yttre faktorer. Genom att förstå och hantera dessa faktorer kan individer potentiellt minska frekvensen och svårighetsgraden av deras rosacea-utbrott.</p>',
             types: array(
                   new BasedType(
                         image_url: 'images/problems/102x102/mallorca-akne.webp',
