@@ -241,95 +241,96 @@ $symptoms = array(
 
 );
 
-$headline01 = "01. Identifiera dina akneärr";
+$headline01 = "01. Identifiera dina ärr från finnar";
 
 $service = new Service(
-      id: 'aknearr',
-      title: 'Akneärr Konsultation',
+      id: 'arr-fran-finnar',
+      title: 'Konsultation för Ärr från Finnar',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Vid ett personligt möte med en specialist inom akneärr utförs en noggrann undersökning av dina ärr. Vi tar före-bilder på de drabbade områdena och diskuterar dina mål och förväntningar. En skräddarsydd behandlingsplan anpassad efter dina individuella behov och ärrets typ rekommenderas.',
-      image_small: 'images/services/200x200/aknearr-konsultation.webp',
-      image_large: 'images/services/200x200/aknearr-konsultation.webp',
-      image_alt: 'Bild av en konsultation för akneärrbehandling',
-      image_title: 'Konsultation för akneärrbehandling',
-      consultation_url: 'aknearr-konsultation',
-      consultation_url_label: 'Boka konsultaion',
-      consultation_url_title: 'Klicka för att boka tid för en konsultation för akneärr',
+      content: 'Under en persnolig konsultation med en specialist inom ärr från finnar genomförs en detaljerad analys av dina specifika ärr. Vi fotograferar de berörda områdena och går igenom dina mål och förväntningar. En personlig behandlingsplan utformas, anpassad till dina unika behov och ärrtypen som du har.',
+      image_small: 'images/services/200x200/arr-fran-finnar-konsultation.webp',
+      image_large: 'images/services/200x200/arr-fran-finnar-konsultation.webp',
+      image_alt: 'Bild av en konsultation för behandling av ärr från finnar',
+      image_title: 'Konsultation för behandling av ärr från finnar',
+      consultation_url: 'arr-fran-finnar-konsultation',
+      consultation_url_label: 'Boka konsultation',
+      consultation_url_title: 'Klicka för att boka tid för en konsultation för ärr från finnar',
       booking_url: null,
       booking_url_label: null,
       booking_url_title: null,
-      url: 'aknearr-konsultation',
-      url_label: 'Läs mer om vår konsultation för akneärr',
-      url_title: 'Klicka här för att läsa mer om gratis konsultation för akneärr'
-
+      url: 'arr-fran-finnar-konsultation',
+      url_label: 'Läs mer om vår konsultation för ärr från finnar',
+      url_title: 'Klicka här för att läsa mer om gratis konsultation för ärr från finnar'
 );
 
 
-$headline02 = "02. Behandla dina akneärr";
+
+$headline02 = "02. Behandling av dina ärr som uppstått från finnar";
 
 $services = array(
       new Service(
-            id: 'aknearr-laser',
-            title: 'Laser mot akneärr',
+            id: 'arr-fran-finnar-laser',
+            title: 'Laserbehandling för Ärr från Finnar',
             duration: '90 min',
             price: '4595 kr',
-            content: 'Laserbehandling mot akneärr är en effektiv metod som använder koncentrerade ljusstrålar för att behandla och minska ärr som orsakats av akne. Genom att stimulera hudens naturliga kollagenproduktion och ta bort skadade hudceller, kan denna behandling jämna ut hudens textur och minska framträdandet av ärr.',
-            image_small: 'images/services/200x200/laserbehandling-aknearr.webp',
-            image_large: 'images/services/200x200/laserbehandling-aknearr.webp',
-            image_alt: 'Bild av en laserbehandling mot akneärr',
-            image_title: 'Laserbehandling mot akneärr',
+            content: 'Laserterapi för ärr som orsakats av finnar utnyttjar fokuserade ljusstrålar för att behandla och reducera dessa ärr. Behandlingen främjar hudens kollagenproduktion och tar bort skadade hudceller, vilket resulterar i en jämnare hud och mindre synliga ärr.',
+            image_small: 'images/services/200x200/laserbehandling-arr-fran-finnar.webp',
+            image_large: 'images/services/200x200/laserbehandling-arr-fran-finnar.webp',
+            image_alt: 'Bild av en laserterapi för ärr som orsakats av finnar',
+            image_title: 'Laserterapi för ärr från finnar',
             consultation_url: 'hudkonsultation',
             consultation_url_label: 'Boka konsultation',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laser mot akneärr',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/laserbehandling-aknearr-1643922',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserterapi för ärr från finnar',
+            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/laserbehandling-arr-fran-finnar-1643922',
             booking_url_label: 'Boka behandling',
-            booking_url_title: 'Klicka för att boka tid för en laserbehandling mot akneärr',
-            url: 'laserbehandling-aknearr',
-            url_label: 'Läs mer om laser mot akneärr',
-            url_title: 'Klicka här för att läsa mer om laserbehandling mot akneärr'
+            booking_url_title: 'Klicka för att boka tid för en laserterapi för ärr som uppstått från finnar',
+            url: 'laserbehandling-arr-fran-finnar',
+            url_label: 'Läs mer om laserterapi för ärr från finnar',
+            url_title: 'Klicka här för att läsa mer om laserbehandling för ärr som orsakats av finnar'
       ),
       new Service(
-            id: 'aknearr-kemisk-peeling',
-            title: 'Kemisk peeling mot akneärr',
+            id: 'arr-fran-finnar-kemisk-peeling',
+            title: 'Kemisk Peeling för Ärr från Finnar',
             duration: '30 min',
             price: '1995 kr',
-            content: 'Kemisk peeling mot akneärr är en framstående behandlingsmetod som används för att förbättra hudens utseende och textur. Denna behandling är särskilt effektiv för ärrtypen fläckar och verkar genom att applicera en kemisk lösning som exfolierar och tar bort det yttersta hudlagret. Detta främjar hudens förnyelse och kan avsevärt minska framträdandet av ärr och fläckar.',
-            image_small: 'images/services/200x200/kemisk-peeling-aknearr.webp',
-            image_large: 'images/services/200x200/kemisk-peeling-aknearr.webp',
-            image_alt: 'Bild av en kemisk peeling mot akneärr',
-            image_title: 'Kemisk peeling mot akneärr',
+            content: 'Kemisk peeling för ärr som bildats av finnar är en beprövad metod som förnyar och förbättrar hudens yta. Behandlingen används för att målinriktat exfoliera och ta bort det yttersta hudlagret, vilket bidrar till hudens återväxt och synligt reducerar ärr och ojämnheter.',
+            image_small: 'images/services/200x200/kemisk-peeling-arr-fran-finnar.webp',
+            image_large: 'images/services/200x200/kemisk-peeling-arr-fran-finnar.webp',
+            image_alt: 'Bild av en kemisk peeling för ärr orsakade av finnar',
+            image_title: 'Kemisk Peeling för Ärr från Finnar',
             consultation_url: 'hudkonsultation',
             consultation_url_label: 'Boka konsultation',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för kemisk peeling mot akneärr',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/kemisk-peeling-aknearr-1643922',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för kemisk peeling för ärr från finnar',
+            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/kemisk-peeling-arr-fran-finnar-1643922',
             booking_url_label: 'Boka behandling',
-            booking_url_title: 'Klicka för att boka tid för en kemisk peeling mot akneärr',
-            url: 'kemisk-peeling-aknearr',
-            url_label: 'Läs mer om kemisk peeling mot akneärr',
-            url_title: 'Klicka här för att läsa mer om kemisk peeling mot akneärr'
+            booking_url_title: 'Klicka för att boka tid för en kemisk peeling för ärr som uppstått från finnar',
+            url: 'kemisk-peeling-arr-fran-finnar',
+            url_label: 'Läs mer om kemisk peeling för ärr från finnar',
+            url_title: 'Klicka här för att läsa mer om kemisk peeling för ärr orsakade av finnar'
       ),
       new Service(
-            id: 'aknearr-microneedling',
-            title: 'Microneedling mot akneärr',
+            id: 'arr-fran-finnar-microneedling',
+            title: 'Microneedling för Ärr från Finnar',
             duration: '60 min',
             price: '2995 kr',
-            content: 'Microneedling mot akneärr är en innovativ behandling som särskilt riktar sig till atrofiska ärr. Med hjälp av små, fina nålar skapas kontrollerade mikroskador i huden, vilket stimulerar hudens naturliga läkningsprocess och kollagenproduktion. Detta leder till en jämnare hudtextur och minskat framträdande av atrofiska ärr.',
-            image_small: 'images/services/200x200/microneedling-aknearr.webp',
-            image_large: 'images/services/200x200/microneedling-aknearr.webp',
-            image_alt: 'Bild av en microneedling-behandling mot akneärr',
-            image_title: 'Microneedling mot akneärr',
+            content: 'Microneedling för ärr som bildats av finnar är en avancerad teknik som behandlar speciellt atrofiska ärr. Små, fina nålar används för att orsaka kontrollerade skador i huden, vilket igångsätter hudens läkningsprocess och kollagenproduktion. Resultatet blir en förbättrad hudtextur och mindre framträdande ärr.',
+            image_small: 'images/services/200x200/microneedling-arr-fran-finnar.webp',
+            image_large: 'images/services/200x200/microneedling-arr-fran-finnar.webp',
+            image_alt: 'Bild av en microneedling-behandling för ärr som orsakats av finnar',
+            image_title: 'Microneedling för Ärr från Finnar',
             consultation_url: 'hudkonsultation',
             consultation_url_label: 'Boka konsultation',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling mot akneärr',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/microneedling-aknearr-1643922',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling för ärr från finnar',
+            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/microneedling-arr-fran-finnar-1643922',
             booking_url_label: 'Boka behandling',
-            booking_url_title: 'Klicka för att boka tid för en microneedling-behandling mot akneärr',
-            url: 'microneedling-aknearr',
-            url_label: 'Läs mer om microneedling mot akneärr',
-            url_title: 'Klicka här för att läsa mer om microneedling mot akneärr'
+            booking_url_title: 'Klicka för att boka tid för en microneedling-behandling för ärr som bildats av finnar',
+            url: 'microneedling-arr-fran-finnar',
+            url_label: 'Läs mer om microneedling för ärr från finnar',
+            url_title: 'Klicka här för att läsa mer om microneedling-behandling för ärr som uppstått från finnar'
       ),
 );
+
 
 $articles = array(
       new Article(
