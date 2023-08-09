@@ -407,65 +407,66 @@ $reviews = array(
             stars: 5,
             brand: 'Trustpilot',
             logo_url: 'images/brands/trustpilot.svg',
-            title: 'Lasern gjorde susen',
-            text: "Var först lite osäker på laserbehandling, men det behövde jag inte vara. Allt förklarades noggrant, och det gjorde inte alls ont. Nu, några veckor senare, är mina akneärr nästan helt borta. Jag är så nöjd och glad över mitt beslut att testa lasern. Tack AcneSpecialisten!",
-            signature: 'Lena'
+            title: 'En behandling som fungerar!',
+            text: "Var osäker först, men kliniken förklarade allt tydligt och resultatet blev bättre än förväntat. Tack för ert professionella bemötande!",
+            signature: 'Erik'
       ),
       new Review(
             stars: 5,
             brand: 'Google',
             logo_url: 'images/brands/google-small.svg',
-            title: 'Gropar är ett minne blott!',
-            text: "Har länge haft problem med gropar i ansiktet från gamla akneärr. Här kände jag mig direkt trygg och omhändertagen. Personalen förklarade allt och resultatet har varit fantastiskt. Jag känner knappt igen mig själv i spegeln. Så tacksam!",
-            signature: 'Fredrik'
+            title: 'Äntligen ett resultat jag kan se!',
+            text: "Har testat olika behandlingar utan framgång sen hitta jag AcneSpecialisten. Nu känner jag mig som en ny person. Mycket nöjd med resultatet och personalen!",
+            signature: 'Anna'
       ),
       new Review(
             stars: 5,
             brand: 'Bokadirekt',
             logo_url: 'images/brands/bokadirekt-small.svg',
-            title: 'Fläckfri och glad',
-            text: "Ingen har kunnat ta hand om mina aknefläckar som AcneSpecialisten. Efter bara några besök märker jag redan stor skillnad. Det är så skönt att veta att jag lämnar salongen med en renare och fräschare hy varje gång. Supertrevlig personal dessutom!",
-            signature: 'Gustav'
+            title: 'Proffsigt och effektivt!',
+            text: "Endast gjort 2 behandlingar men det har redan gett mig hopp, Jag känner mig trygg med deras kunskap och har redan sett fantastiska förbättringar. En klinik jag verkligen rekommenderar.",
+            signature: 'Jonas'
       ),
-
 );
+
 
 $review_url_label = "Läs fler omdömen";
 $review_url_title = "AcneSpecialisten Omdömen";
 
 $faq_categories = array(
-      'Generellt om akne' => array(
+      'Allt du behöver veta om ärr av finnar' => array(
             new Question(
-                  title: 'Är det möjligt att helt bli av med mina acneärr?',
-                  text: '<p class="p200">Ja, det är absolut möjligt att bli av med dina acneärr! Under vår kostnadsfria hudkonsultation kommer vi att noggrant undersöka och identifiera graden av ditt problem för att hjälpa dig att behandla det på bästa möjliga sätt. Genom att följa våra individuella råd och den skräddarsydda behandlingsplan vi rekommenderar, kan dina acneärr försvinna. Det är dock viktigt att förstå att tidsramen kan variera beroende på hur grova eller djupa ärr du har. Vi kommer att arbeta tillsammans med dig för att uppnå det bästa resultatet.</p>'
+                  title: 'Kan jag helt bli fri från ärr som orsakats av finnar?',
+                  text: '<p class="p200">Absolut, ärr som uppstått från finnar kan behandlas. Efter en grundlig analys av din hud sätter vi upp en behandlingsplan som är skräddarsydd för dig. Vi samarbetar tätt för att se till att dina ärr försvinner, även om behandlingstiden kan variera.</p>'
             ),
             new Question(
-                  title: 'Har jag fått ärr eftersom jag har klämt på finnarna?',
-                  text: '<p class="p200">Inte nödvändigtvis. Även om det klart kan vara en faktor – särskilt om du har plockat eller klämt på finnar som inte varit mogna – är det inte alltid orsaken till ärrbildning. Ofta handlar det snarare om att aknen inte har behandlats på rätt sätt, vilket har tillåtit den att skada hudens lager. På Acnespecialisten kan vi hjälpa dig att förstå dina specifika förhållanden och behandla dem på ett sätt som minimerar riskerna för framtida ärrbildning.</p>'
+                  title: 'Kommer ärrbildningen från att jag klämt på finnarna?',
+                  text: '<p class="p200">Att klämma på finnar kan bidra, men är inte den enda orsaken till ärrbildning. Ibland beror det på att finnar inte blivit korrekt behandlade. Vi kan identifiera ditt unika fall och arbeta för att förhindra framtida ärr.</p>'
             ),
             new Question(
-                  title: 'Kan mina ärr komma tillbaka efter behandling?',
-                  text: '<p class="p200">Nej, de ärr som du redan har behandlat bort kommer inte tillbaka. Men det är viktigt att förstå att om du inte behandlar själva orsaken till ärrbildningen, det vill säga aknen, kan nya ärr uppstå. På Acnespecialisten fokuserar vi inte bara på att behandla själva ärrbildningen, utan vi ser till att ta itu med roten till problemet och behandlar själva aknen. Detta hjälper dig att förhindra att nya ärr bildas, och ger dig den bästa chansen till en frisk och klar hud.</p>'
+                  title: 'Är det möjligt att ärr som behandlats kommer tillbaka?',
+                  text: '<p class="p200">En gång behandlade ärr kommer inte att återuppstå. Men utan korrekt behandling av finnar, kan nya ärr uppstå. Vårt fokus ligger på både att behandla ärr och förhindra nya finnar.</p>'
             ),
             new Question(
-                  title: 'Hur många behandlingar behövs för att ta bort mina akneärr?',
-                  text: '<p class="p200">Antalet behandlingar som krävs för att uppnå önskat resultat varierar beroende på typ och svårighetsgrad av ärr, samt den metod som valts för att behandla din specifika hudtyp. På Acnespecialisten tror vi att varje persons hud är unik, och vi skräddarsyr en behandlingsplan baserat på dina individuella behov. Under din kostnadsfria konsultation kommer du att tilldelas en personlig hudterapeut som är med dig hela vägen. Din terapeut kommer att analysera din hud och ta fram en skräddarsydd plan som bäst passar dina behov, och ge dig en uppfattning om hur många behandlingar som kan behövas för att uppnå de bästa resultaten mot dina akneärr.</p>'
+                  title: 'Hur många sessioner behövs för att radera mina ärr från finnar?',
+                  text: '<p class="p200">Det finns ingen standardmängd sessioner, då detta beror på din hud och dina ärr. Vi gör en individuell plan och din hudterapeut kommer att guida dig genom processen och ge dig en uppskattning av hur många behandlingar som behövs.</p>'
             ),
             new Question(
-                  title: 'Vilka behandlingsmetoder erbjuder ni för olika typer av akneärr?',
-                  text: '<p class="p200">Vi erbjuder en mängd olika behandlingsalternativ för akneärr, inklusive laserbehandling, kemisk peeling och microneedling. Varje metod har sina unika fördelar och är mest effektiva för vissa typer av ärr. Under en kostnadsfri konsultation med en av våra hudterapeuter kan vi utvärdera dina specifika behov och rekommendera den metod som passar din hudtyp och ärr bäst.</p>'
+                  title: 'Vilka tekniker används för att behandla olika ärr från finnar?',
+                  text: '<p class="p200">Beroende på din hud och ärrtyp erbjuder vi olika metoder, inklusive laser, peeling och microneedling. Vi kommer att rekommendera den bästa metoden för just dig under en kostnadsfri konsultation.</p>'
             ),
             new Question(
-                  title: 'Är behandlingarna smärtsamma? Vilken eftervård krävs?',
-                  text: '<p class="p200">Våra behandlingsmetoder är utformade för att vara så bekväma som möjligt, och vi tar alla nödvändiga steg för att minimera eventuell obehag. Känslan under behandlingen kan variera beroende på metoden och ärrtypen. Eftervården är också individuell och din hudterapeut kommer att ge dig detaljerade instruktioner för hur du tar hand om din hud efter behandlingen för att främja läkning och optimera resultaten.</p>'
+                  title: 'Är det smärtsamt att behandla ärr från finnar? Hur ser eftervård ut?',
+                  text: '<p class="p200">Vi gör vårt bästa för att minimera obehag. Eftervården är anpassad till varje individ och du får fullständiga instruktioner för hudvård efter varje behandling.</p>'
             ),
             new Question(
-                  title: 'Hur länge behöver jag vänta mellan behandlingarna? Och hur snabbt kommer jag se resultat?',
-                  text: '<p class="p200">Tiden mellan behandlingarna och hur snabbt du kommer se resultat beror på den specifika metoden som används och din individuella hudtyp. I allmänhet rekommenderar vi en viss tid mellan sessionerna för att din hud ska få tid att läka ordentligt och för att maximera effektiviteten av behandlingen. Din personliga hudterapeut kommer att gå igenom alla detaljer med dig och skapa en skräddarsydd behandlingsplan som passar dina behov, inklusive en tidslinje för när du kan förvänta dig att se synliga förbättringar.</p>'
+                  title: 'Vilken tid behöver jag mellan behandlingar? När kommer jag att se förbättringar?',
+                  text: '<p class="p200">Behandlingsintervaller och tiden till synliga resultat varierar beroende på din situation. Din hudterapeut kommer att fastställa en plan inklusive en tidslinje som är anpassad för just dig.</p>'
             )
       ),
 
 );
+
 
 $faq_url_label = "Läs fler frågor & svar";
 $faq_url_title = "läs flera frågor relaterat till akneärr";
