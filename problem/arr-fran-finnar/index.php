@@ -86,7 +86,7 @@ $trivias = array(
        new ProblemTrivia(
             prefix: 'Varför',
             title: 'får man ärr från finnar?',
-            content: '<p class="p200">Ärr från finnar kan uppstå när en finne orsakar en inflammation som skadar huden. Såren som skapas kan leda till missfärgningar och, om de fortsätter att skada huden under en längre tid, kan de förändra hudstrukturen och orsaka gropar. Inflammerade finnar som tränger djupt in i huden kan också skada vävnaden nedanför, vilket leder till ärrbildning i form av både gropar och fläckar.</p>',
+            content: '<p class="p200">Ärr från finnar kan uppstå när en finne orsakar en inflammation som fräter på huden. Såren som skapas kan leda till missfärgningar och, om de fortsätter att skada huden under en längre tid, kan de förändra hudstrukturen och orsaka gropar. Inflammerade finnar som tränger djupt in i huden kan också skada vävnaden nedanför, vilket leder till ärrbildning i form av både gropar och fläckar.</p>',
 
             extended_content: '<p class="p200 mt-xl">Både för mycket och för lite kollagen vid läkningen kan resultera i olika typer av ärr. Felaktig hantering av finnar, som att peta och klämma, kan förvärra ärrbildningen, och felaktig behandling kan orsaka permanenta ärr. Förebyggande åtgärder, som rätt hudvård och tidig behandling, kan minska risken för ärrbildning.</p>
 
@@ -114,9 +114,9 @@ $trivias = array(
             title: 'får man ärr från finnar?',
             content: '<p class="p200">Ärr från finnar kan uppstå på områden som har påverkats av finnar. Dessa ärr är vanligast i ansiktet, som kinderna, pannan och hakan, men kan också finnas på ryggen, bröstet, axlarna och nacken. De är inte begränsade till dessa områden och kan uppstå på andra delar av kroppen.</p>',
 
-            extended_content: '<p class="p200 mt-xl">Behandlingen av ärr från finnar kan variera beroende på dess typ och plats. Det kan innefatta allt från laserbehandlingar och kemiska peelingar till specialiserade krämer och serum. Hos Acnespecialisten erbjuder vi behandlingar som riktar sig mot ärr oavsett var de befinner sig på kroppen, och vi anpassar behandlingsval efter din unika hudtyp och behov.</p>
+            extended_content: '<p class="p200 mt-xl">Behandlingen av ärr från finnar kan variera beroende på dess typ och plats. Det kan innefatta allt från laserbehandlingar till kemiska peelingar och microneedling. Hos Acnespecialisten erbjuder vi behandlingar som riktar sig mot ärr oavsett var de befinner sig på kroppen, och vi anpassar behandlingsval efter din unika hudtyp och behov.</p>
             
-            <p class="p200 mt-xl">Att behandla ärr från finnar är en process som kan kräva tid och tålamod. Med stöd från Acnespecialisten kan du förvänta dig en personlig och effektiv behandlingsplan. Vi arbetar för att uppfylla dina behov och mål, och vi bjuder in dig till en kostnadsfri konsultation för att börja din resa mot en jämn och vacker hud. Boka din tid hos oss och ta första steget mot en hälsosam hud idag!</p>',
+            <p class="p200 mt-xl">Att behandla ärr från finnar är en process som kan kräva tid och tålamod. Med stöd från Acnespecialisten kan du förvänta dig en personlig och effektiv behandlingsplan. Vi arbetar för att uppfylla dina behov och mål, och vi bjuder in dig till en kostnadsfri konsultation för att börja din resa mot en jämn och vacker hud. Boka din tid hos oss och ta första steget mot en ärrfri hud idag!</p>',
 
             icons: array('who-infants' => 'Ansiktet', 'who-teenagers' => 'Ryggen', 'who-adults' => 'Bröstet', 'who-elders' => 'Axlar & Nacke')
 
@@ -125,119 +125,119 @@ $trivias = array(
 );
 $treatment_steps = array(
       new TreatmentStep(
-            title: 'Identifiera',
-            content: 'Hos AcneSpecialisten blir du omhändertagen av en personlig hudterapeut som noga undersöker och identifierar dina akneärr. Tillsammans kartlägger vi din unika ärrtyp och skapar en individuell behandlingsplan, skräddarsydd för just dina behov.',
-            url_label: 'Få gratis konsultation',
+            title: 'Diagnostisera',
+            content: 'På AcneSpecialisten tar en erfaren hudterapeut hand om dig, undersöker dina hudproblem och identifierar specifika ärr från finnar som gropar och fläckar. Vi tar hänsyn till dina unika behov och skapar en skräddarsydd behandlingsplan för att ge dig de bästa resultaten.',
+            url_label: 'Boka en gratis konsultation',
             url: 'hudkonsultation',
-            url_title: 'Boka din kostnadsfria ärrkonsultation idag'
+            url_title: 'Boka din kostnadsfria konsultation om ärr från finnar idag'
       ),
       new TreatmentStep(
-            title: 'Behandla',
-            content: 'Med målinriktade och effektiva akneärrbehandlingar, skräddarsyr vi en lösning som är perfekt anpassad för din specifika ärrtyp. Vår expertis säkerställer en snabb och säker förbättring av hudens utseende, så att du kan känna dig trygg och nöjd med ditt resultat.',
-            url_label: 'Se ärrbehandlingar',
-            url: 'aknearr-behandling',
-            url_title: 'Utforska våra skräddarsydda behandlingar för akneärr'
+            title: 'Behandlingsprocess',
+            content: 'Genom att använda specialiserade metoder för behandling av ärr från finnar, erbjuder vi lösningar som är perfekt anpassade till dina specifika behov. Vår expertis ger en effektiv förbättring av hudens utseende, så att du snabbt kan se resultat och känna dig nöjd med din hud.',
+            url_label: 'Utforska våra ärrbehandlingar',
+            url: 'arr-fran-finnar-behandling',
+            url_title: 'Upptäck våra unika och effektiva behandlingar för ärr från finnar'
       ),
 );
 
-$treatment_link = '<a href="problem/aknearr/aknearrbehandling" title="Utforska effektiva behandlingar för akneärr" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar för akneärr</a>';
+
+$treatment_link = '<a href="problem/aknearr/aknearrbehandling" title="Utforska effektiva behandlingar mot ärr" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot ärr</a>';
 
 
-$symptoms_title = 'Olika typer av akneärr';
+$symptoms_title = 'Olika typer av ärr';
 
 $symptoms = array(
       new Symptom(
-            name: 'Postinflammatorisk hyperpigmentering (PIH)',
-            aka: 'Kända som mörka/bruna fläckar',
-            content: 'Postinflammatorisk hyperpigmentering (PIH) uppstår som ett resultat av inflammation i huden efter akne. Denna typ av mörka fläckar är inte faktiska ärr utan är ett exempel på överpigmentering. När huden läker från en inflammation, kan det hända att melanin, som ger huden dess färg, produceras i överflöd vilket resulterar i mörkare fläckar eller fläckar. Dessa kan vara brunaktiga, svarta eller till och med blåaktiga beroende på hudtyp och färg. PIH är vanligtvis platt mot huden, till skillnad från upphöjda eller indragna akneärr.',
-            url: 'problem/aknearr/postinflammatorisk-hyperpigmentering',
-            url_title: 'Läs mer om postinflammatorisk hyperpigmentering',
+            name: 'Hyperpigmentering efter inflammation (PIH)',
+            aka: 'Också refererad som mörka eller bruna märken',
+            content: 'Denna sort av fläckar uppstår som följd av inflammation i huden orsakad av akne. Det är inte egentliga ärr utan representerar en ökning av pigmentet melanin som ger huden dess kulör. När huden reparerar sig själv, kan det leda till en ökad melaninproduktion, vilket ger mörkare märken. De kan variera i färg från brun till svart och till och med blå, beroende på hudtyp. Fläckarna ligger plant mot huden, till skillnad från förhöjda eller intryckta akneärr.',
+            url: 'problem/aknearr/hyperpigmentering-efter-inflammation',
+            url_title: 'Lär dig mer om hyperpigmentering efter inflammation',
             url_label: 'Läs mer',
-            image: 'images/symptoms/102x102/postinflammatorisk_hyperpigmentering.webp',
-            image_alt: 'Bild av postinflammatorisk hyperpigmentering',
-            image_title: 'Postinflammatorisk hyperpigmentering'
+            image: 'images/symptoms/102x102/hyperpigmentering_efter_inflammation.webp',
+            image_alt: 'Bild som visar hyperpigmentering efter inflammation',
+            image_title: 'Hyperpigmentering efter inflammation'
       ),
       new Symptom(
-            name: 'Atrofiska "ice-pick" ärr',
-            aka: 'Kända som gropar eller nålstick-liknande ärr',
-            content: 'Atrofiska "ice-pick" ärr är små, men djupa ärr som sträcker sig in i huden, och har ett utseende som påminner om skador orsakade av en ishacka. Dessa ärr är ofta smala vid ytan och vidgar sig nedåt in i dermis. Det är den djupa punktering som ger ärret dess karakteristiska utseende. Denna typ av ärrbildning uppstår oftast efter cystisk akne eller andra hudinfektioner och kan vara särskilt utmanande att behandla på grund av deras djup. Ice-pick ärr kan uppträda överallt där akne har varit, men de är vanligast på kinderna.',
-            url: 'problem/aknearr/atrofiska-arr',
-            url_title: 'Läs mer om atrofiska "ice-pick" ärr',
+            name: 'Djupa "ice-pick" ärr',
+            aka: 'Liknande små gropar eller hål gjorda med en ishacka',
+            content: 'Dessa små och djupa ärr som påminner om en ishackas märken sträcker sig in i huden. De börjar smalt vid ytan och vidgas nedåt. Denna djupa hålighet ger ärret dess speciella utseende. Detta är en ärrtyp som ofta följer efter cystisk akne eller infektioner i huden och kan vara utmanande att behandla på grund av deras djup. De kan finnas var som helst där akne har varit, men är mest förekommande på kinderna.',
+            url: 'problem/aknearr/djupa-arr',
+            url_title: 'Lär dig mer om djupa "ice-pick" ärr',
             url_label: 'Läs mer',
-            image: 'images/symptoms/102x102/atrofiska-icepick-ar.webp',
-            image_alt: 'Bild av atrofiska "ice-pick" ärr',
-            image_title: 'Atrofiska "ice-pick" ärr'
+            image: 'images/symptoms/102x102/djupa-icepick-arr.webp',
+            image_alt: 'Bild som visar djupa "ice-pick" ärr',
+            image_title: 'Djupa "ice-pick" ärr'
       ),
       new Symptom(
-            name: 'Postinflammatorisk erytem (PIE)',
-            aka: 'Kända som rosa/lila fläckar eller missfärgning',
-            content: 'Postinflammatorisk erytem uppstår som en reaktion på inflammation efter en akneinfektion och visar sig som rosa eller lila fläckar på huden. Denna missfärgning är resultatet av skadade eller förstörda blodkärl under en inflammatorisk reaktion. Fläckarna kan vara känsliga eller klia, och de bleknar oftast över tid, men kan bli mer ihållande för personer med ljusare hudton. De förekommer oftast på platser där akne har läkt, och kan förväxlas med ärrvävnad även om det inte är en riktig ärrbildning.',
-            url: 'problem/aknearr/postinflammatorisk-hyperpigmentering',
-            url_title: 'Läs mer om postinflammatorisk erytem',
+            name: 'Erytem efter inflammation (PIE)',
+            aka: 'Visar sig som rosa eller lila fläckar eller missfärgningar',
+            content: 'Erytem efter inflammation manifesterar sig som rosa eller lila märken på huden efter en inflammation orsakad av akne. Denna missfärgning beror på skador eller förstöring av blodkärlen under inflammationsprocessen. Fläckarna kan vara ömma eller klia och bleknar vanligtvis med tiden. De är dock mer ihärdiga hos personer med ljusare hudton och kan ibland misstas för ärrvävnad, även om det inte är äkta ärr.',
+            url: 'problem/aknearr/erytem-efter-inflammation',
+            url_title: 'Lär dig mer om erytem efter inflammation',
             url_label: 'Läs mer',
-            image: 'images/symptoms/102x102/postinflammatorisk-erytem.webp',
-            image_alt: 'Bild av postinflammatorisk erytem',
-            image_title: 'Postinflammatorisk erytem (rosa/lila fläckar)'
+            image: 'images/symptoms/102x102/erytem_efter_inflammation.webp',
+            image_alt: 'Bild som visar erytem efter inflammation',
+            image_title: 'Erytem efter inflammation'
       ),
 
       new Symptom(
-            name: 'Atrofiska "Boxcar" ärr',
-            aka: 'Kända som gropar eller skålliknande ärr',
-            content: 'Atrofiska "Boxcar" ärr är en typ av akneärr som kännetecknas av rundade eller ovala gropar med skarpa vertikala kanter. Dessa ärr uppstår när aknen förstör kollagen i huden, och lämnar en märkbar depression. Ärr av denna typ kan variera i djup och storlek, och de är ofta jämförda med ärr som orsakas av varicella (vattkoppor). De förekommer oftast på kinderna och tinningarna och kan vara mycket märkbara om de är omfattande.',
-            url: 'problem/aknearr/atrofiska-arr',
-            url_title: 'Läs mer om atrofiska "Boxcar" ärr',
+            name: '"Boxcar" ärr av atrofisk typ',
+            aka: 'Jämförbara med gropar eller brännskador',
+            content: 'Dessa är karakteristiska akneärr som framträder som runda eller ovala fördjupningar med skarpt definierade kanter. Ärr av denna typ skapas när akne bryter ner hudens kollagen, vilket resulterar i en påtaglig sänkning. Storlek och djup kan variera, och de har likheter med ärr orsakade av vattkoppor. Denna ärrtyp är vanligtvis belägen på kinder och tinningar och kan vara mycket iögonfallande om de är omfattande.',
+            url: 'problem/aknearr/boxcar-arr',
+            url_title: 'Lär dig mer om "Boxcar" ärr av atrofisk typ',
             url_label: 'Läs mer',
             image: 'images/symptoms/102x102/boxcar.webp',
-            image_alt: 'Bild av atrofiska "Boxcar" ärr',
-            image_title: 'Atrofiska "Boxcar" ärr (gropar)'
-
+            image_alt: 'Bild som visar "Boxcar" ärr av atrofisk typ',
+            image_title: '"Boxcar" ärr av atrofisk typ'
       ),
       new Symptom(
-            name: 'Postinflammatorisk hypopigmentering',
-            aka: 'Kända som vita fläckar',
-            content: 'Postinflammatorisk hypopigmentering uppstår när huden förlorar pigment (färg) på områden där en inflammatorisk hudsjukdom, som akne, har läkt. Detta leder till ljusare fläckar eller områden som kan vara iögonfallande beroende på din hudton. Det är inte ett ärr, utan en tillfällig brist på pigment och brukar återgå till normalt med tiden eller med behandling.',
-            url: 'problem/aknearr/postinflammatorisk-hyperpigmentering',
-            url_title: 'Läs mer om postinflammatorisk hypopigmentering',
+            name: 'Hypopigmentering efter inflammation',
+            aka: 'Representeras av ljusa eller vita märken',
+            content: 'Hypopigmentering efter inflammation sker när huden tappar pigmentering på platser där en inflammatorisk hudsjukdom, som akne, har läkt. Detta skapar ljusare fläckar som kan vara tydliga beroende på hudfärgen. Det är inte ett äkta ärr, utan en temporär minskning av pigment och brukar normalisera sig med tiden eller med rätt behandling.',
+            url: 'problem/aknearr/hypopigmentering-efter-inflammation',
+            url_title: 'Lär dig mer om hypopigmentering efter inflammation',
             url_label: 'Läs mer',
-            image: 'images/symptoms/102x102/hypopigmentering.webp',
-            image_alt: 'Bild av postinflammatorisk hypopigmentering',
-            image_title: 'Postinflammatorisk hypopigmentering (vita fläckar)'
+            image: 'images/symptoms/102x102/hypopigmentering_efter_inflammation.webp',
+            image_alt: 'Bild som visar hypopigmentering efter inflammation',
+            image_title: 'Hypopigmentering efter inflammation'
       ),
       new Symptom(
             name: 'Atrofiska "rolling" ärr',
-            aka: 'Kända som gropar',
-            content: 'Atrofiska "rolling" ärr är en typ av akneärr som kännetecknas av skålformade fördjupningar i huden. De får sitt namn från deras något vågiga eller "rullande" utseende. Dessa ärr uppstår när underliggande hudstrukturer förändras och orsakar ett förlust av stöd. Det resulterar i en rörlig och ojämn hudyta. Atrofiska "rolling" ärr kan behandlas med olika metoder, som laserbehandling och dermabrasion.',
-            url: 'problem/aknearr/atrofiska-arr',
-            url_title: 'Läs mer om atrofiska "rolling" ärr',
+            aka: 'Liknande små fördjupningar eller vågor i huden',
+            content: 'Denna typ av akneärr kännetecknas av dess oregelbundna form och utseendet av fördjupningar som ger huden en rullande eller vågig yta. De uppstår när underliggande stödstrukturer i huden bryts ner, vilket resulterar i en förlust av stöd och struktur. Denna förändring i hudens yta ger ett intryck av slätta, skålformade fördjupningar som flyter samman. Ärr av denna typ kan behandlas, men kräver ofta en kombination av tekniker på grund av deras komplexa natur.',
+            url: 'problem/aknearr/atrofiska-rolling-arr',
+            url_title: 'Lär dig mer om atrofiska "rolling" ärr',
             url_label: 'Läs mer',
-            image: 'images/symptoms/102x102/rolling-scars.webp',
-            image_alt: 'Bild av atrofiska "rolling" ärr',
-            image_title: 'Atrofiska "rolling" ärr (gropar)'
+            image: 'images/symptoms/102x102/atrofiska_rolling_arr.webp',
+            image_alt: 'Bild som visar atrofiska "rolling" ärr',
+            image_title: 'Atrofiska "rolling" ärr'
       ),
 
       new Symptom(
-            name: 'Hypertrofiska ärr',
-            aka: 'Kända som keloid ärr',
-            content: 'Hypertrofiska ärr är tjocka och upphöjda ärr som oftast bildas som en reaktion på en skada, kirurgi eller akne. Till skillnad från keloidärr, som kan växa utöver det ursprungligt skadade området, begränsas hypertrofiska ärr till skadans gränser. De är vanligen röda eller rosa till färgen och kan vara känsliga eller klia. Med tiden kan dessa ärr ofta bli mindre framträdande, men deras textur och färg kan variera beroende på individens hudtyp och hur sårläkningen har gått till.',
-            url: 'problem/aknearr/hypertrfiska-arr',
-            url_title: 'Läs mer om hypertrofiska ärr',
-            url_label: 'Läs mer',
+            name: 'Hypertrofiska Ärr',
+            aka: 'Även benämnda keloid ärr',
+            content: 'Hypertrofiska ärr, som är både tjocka och upphöjda, bildas i regel som svar på en skada, operation eller finnar. De skiljer sig från keloidärr genom att de inte sträcker sig utanför det område där skadan ursprungligen inträffade. Dessa ärr är ofta rödaktiga eller rosafärgade och kan kännas känsliga eller klia. Med tiden kan de minska i framträdande, även om deras konsistens och nyans kan skifta beroende på sårläkning och hudtyp.',
+            url: 'problem/ärr-från-finnar/hypertrfiska-arr',
+            url_title: 'Få mer information om hypertrofiska ärr',
+            url_label: 'Läs mer här',
             image: 'images/symptoms/102x102/hypertrophic-scars.webp',
-            image_alt: 'Bild av hypertrofiska ärr',
+            image_alt: 'En bild som visar hypertrofiska ärr',
             image_title: 'Hypertrofiska ärr (keloid ärr)'
       ),
-
       new Symptom(
-            name: 'Atrofiska ärr',
-            aka: 'Kända som gropar',
-            content: 'Atrofiska ärr är en typ av ärrbildning som ofta uppstår som en följd av akne eller andra inflammatoriska hudskador. De kännetecknas av en försänkning eller inbuktning i huden och kan likna små gropar eller håligheter. Denna typ av ärr uppstår när det finns en förlust av kollagen och stödjevävnad under huden, vilket leder till att området sjunker in. Atrofiska ärr kan variera i storlek och form och är vanligtvis belägna på ansiktet, där de kan påverka utseendet och ge en ojämn hudstruktur.',
-            url: 'problem/aknearr/atrofiska-arr',
-            url_title: 'Läs mer om atrofiska ärr (gropar)',
-            url_label: 'Läs mer',
+            name: 'Atrofiska Ärr',
+            aka: 'Ibland refererade till som gropar',
+            content: 'Atrofiska ärr framträder ofta efter akne eller inflammation i huden och de visar sig som små inbuktningar eller fördjupningar i hudytan. De kan likna små hål eller dalar och uppstår när det sker en minskning av kollagen och stödjevävnad under ytan, vilket får området att sjunka in. Storleken och formen på dessa ärr kan variera, och de är mest framträdande i ansiktet, där de kan ge huden en ojämn textur.',
+            url: 'problem/ärr-från-finnar/atrofiska-arr',
+            url_title: 'Lär dig mer om atrofiska ärr (gropar)',
+            url_label: 'Läs mer här',
             image: 'images/symptoms/102x102/atrofiska-arr.webp',
-            image_alt: 'Bild av atrofiska ärr (gropar)',
+            image_alt: 'Illustration av atrofiska ärr',
             image_title: 'Atrofiska ärr (gropar)'
-      ),
+            ),
+
 
 );
 
