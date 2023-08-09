@@ -658,7 +658,7 @@ $results = array(
 );
 
 $results_url_label ="Se fler resultat";
-$results_url_title ="se flera aknbehandlingsresultat";
+$results_url_title ="se flera aknebehandlingsresultat";
 
 
 $reviews = array(
