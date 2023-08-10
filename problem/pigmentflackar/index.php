@@ -78,14 +78,15 @@ $about_title = 'Om ärr från finnar';
 $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
-            title: 'är ärr från finnar?',
-            content: '<p class="p200">Ärr från finnar i form av gropar och fläckar kan uppstå när en inflammation skadar hudlagren. Detta kan hända när porerna täpps till och inte kan göra sig av med sitt innehåll. Ärrbildningen som uppstår kan vara en varaktig påminnelse om tidigare hudproblem och kan variera i form och storlek, påverka både utseendet och känslan på huden.</p>',
+            title: 'är pigmentfläckar?',
+            content: '<p class="p200">Pigmentfläckar, eller hyperpigmentering, uppstår när huden producerar för mycket melanin på vissa områden, vilket leder till ojämna mörka fläckar. Detta kan hända på grund av solskador, åldrande, hormonella förändringar eller andra hälsoförhållanden. Pigmentfläckarna kan variera i storlek och form och kan påverka både utseendet och känslan på huden.</p>',
 
-            extended_content: '<p class="p200 mt-xl">Ärr i form av gropar och fläckar kan visa sig på olika sätt. Vid milda fall kan det resultera i färgförändringar på huden, medan mer allvarliga fall kan leda till gropar och permanent ärrbildning. Gropar är exempel på atrofiska ärr, som kan delas in i olika typer som ispickar, rullande ärr och lådformade ärr. Varje typ kräver en unik behandlingsmetod.</p>
+            extended_content: '<p class="p200 mt-xl">Pigmentfläckar kan visa sig på olika sätt. Vissa är bara milda färgförändringar, medan andra kan vara mörkare och mer framträdande. De kan klassificeras i olika typer som leverfläckar, solfläckar och melasma. Varje typ kräver en unik behandlingsmetod.</p>
 
-            <p class="p200 mt-xl">Hos oss på Acnespecialisten, med över 30 års erfarenhet av att behandla ärr från finnar, erbjuder vi de mest effektiva metoderna. Behandlingen måste skräddarsys efter din hudtyp och dina specifika ärr. Våra specialister står redo att erbjuda dig en kostnadsfri hudkonsultation för att identifiera din ärrtyp och utforma en personlig behandlingsplan. Du blir också tilldelad en personlig hudterapeut som stöttar dig genom hela behandlingsprocessen, från start till mål.</p>',
+            <p class="p200 mt-xl">Hos oss, med över 30 års erfarenhet av att behandla pigmentfläckar, erbjuder vi de mest effektiva metoderna. Behandlingen måste skräddarsys efter din hudtyp och dina specifika fläckar. Våra specialister står redo att erbjuda dig en kostnadsfri hudkonsultation för att analysera din situation och utforma en personlig behandlingsplan. Du blir också tilldelad en personlig hudterapeut som stöttar dig genom hela behandlingsprocessen, från start till mål.</p>',
             icons: array()
       ),
+
 
        new ProblemTrivia(
             prefix: 'Varför',
