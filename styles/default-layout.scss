@@ -7,6 +7,7 @@
 
 $mobile-nav-width: 350px;
 $large-header-height: 72px;
+$important-notice-height: 38px;
 
 html {
     body {
@@ -30,7 +31,9 @@ html {
             border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 
             #important-notice {
+                height: $important-notice-height;
                 padding: $xs 0;
+                box-sizing: border-box;
                 text-align: center;
                 background-color: $deep-sea-400;
                 color: $white-500;
@@ -273,7 +276,7 @@ html {
 
         div#desktop-nav-overlay {
             position: fixed;
-            top: $large-header-height;
+            top: $large-header-height + $important-notice-height;
             border-top: 1px solid $light-200;
             z-index: 100;
             width: 0;
