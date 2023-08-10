@@ -957,7 +957,6 @@ $brands_url_title ="Varumärken för Rosaceabehandling";
                                                 </div>
                                           <?php } ?>
                                     </div>
-                                    <?php echo $types_url ?>
                               </section>
                         <?php } ?>
                         <?php if (sizeof($symptoms) > 0) { ?>
