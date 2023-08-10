@@ -79,7 +79,7 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
             title: 'är pigmentfläckar?',
-            content: '<p class="p200">Pigmentfläckar, eller hyperpigmentering, uppstår när huden producerar för mycket melanin på vissa områden, vilket leder till ojämna mörka fläckar. Detta kan hända på grund av solskador, åldrande, hormonella förändringar eller andra hälsoförhållanden. Pigmentfläckarna kan variera i storlek och form och kan påverka både utseendet och känslan på huden.</p>',
+            content: '<p class="p200">Pigmentfläckar, kända som hyperpigmentering, är områden på huden som har blivit mörkare än den omgivande huden. Denna mörkfärgning beror på en överproduktion av melanin, hudens naturliga pigment. Fläckarna kan variera i färg, storlek och form och kan finnas var som helst på kroppen. De är oftast ofarliga men kan påverka huden estetiskt och känslomässigt, speciellt om de är synliga på utsatta områden som ansikte och händer.</p>',
 
             extended_content: '<p class="p200 mt-xl">Pigmentfläckar kan visa sig på olika sätt. Vissa är bara milda färgförändringar, medan andra kan vara mörkare och mer framträdande. De kan klassificeras i olika typer som leverfläckar, solfläckar och melasma. Varje typ kräver en unik behandlingsmetod.</p>
 
@@ -88,17 +88,18 @@ $trivias = array(
       ),
 
 
-       new ProblemTrivia(
+      new ProblemTrivia(
             prefix: 'Varför',
-            title: 'får man ärr från finnar?',
-            content: '<p class="p200">Ärr från finnar kan uppstå när en finne orsakar en inflammation som fräter på huden. Såren som skapas kan leda till missfärgningar och, om de fortsätter att skada huden under en längre tid, kan de förändra hudstrukturen och orsaka gropar. Inflammerade finnar som tränger djupt in i huden kan också skada vävnaden nedanför, vilket leder till ärrbildning i form av både gropar och fläckar.</p>',
+            title: 'uppstår pigmentfläckar?',
+            content: '<p class="p200">Pigmentfläckar eller hyperpigmentering uppstår när melanin produceras ojämnt i huden, vilket skapar mörkare fläckar. Detta kan orsakas av solskador, åldrande, hormonella obalanser eller vissa mediciner och hälsoförhållanden. Vissa typer av pigmentfläckar kan bli permanenta om de inte behandlas korrekt.</p>',
 
-            extended_content: '<p class="p200 mt-xl">Både för mycket och för lite kollagen vid läkningen kan resultera i olika typer av ärr. Felaktig hantering av finnar, som att peta och klämma, kan förvärra ärrbildningen, och felaktig behandling kan orsaka permanenta ärr. Förebyggande åtgärder, som rätt hudvård och tidig behandling, kan minska risken för ärrbildning.</p>
+            extended_content: '<p class="p200 mt-xl">Förståelse för typen av pigmentfläck och dess orsak är nyckeln till effektiv behandling. Felaktig behandling kan förvärra tillståndet, medan tidig diagnos och rätt behandling kan förhindra att fläckarna blir permanenta. Kunskap om hudvård och förebyggande åtgärder är också avgörande.</p>
 
-            <p class="p200 mt-xl">På Acnespecialisten koncentrerar vi oss på att förstå ditt specifika behov och hudtillstånd. Med 30 års erfarenhet och de mest effektiva metoderna för att behandla ärr från finnar, arbetar vi för att minimera och förebygga permanenta märken på din hud. Att ta första steget med en kostnadsfri konsultation hos oss kan vara starten på din väg till en sund och klar hud. Våra hudvårdsexperter arbetar tillsammans med dig för att skapa en behandlingsplan som passar just din hud.</p>',
+            <p class="p200 mt-xl">Med över 30 års erfarenhet i branschen, specialiserar vi oss på att förstå och behandla pigmentfläckar. Vi erbjuder en kostnadsfri konsultation för att analysera din hud och utforma en individuell behandlingsplan. Genom att arbeta tillsammans med dig, strävar vi efter att förbättra och bevara din huds hälsa och utseende. Boka en tid idag och ta steget mot en klarare och friskare hud.</p>',
 
-            icons: array('who-infants' => 'Inflammerade finnar', 'who-teenagers' => 'Stress', 'who-adults' => 'Pillande', 'who-elders' => 'Felaktig behandling')
+            icons: array('who-infants' => 'Solskador', 'who-teenagers' => 'Hormonella obalanser', 'who-adults' => 'Åldrande', 'who-elders' => 'Felaktig behandling')
       ),
+
 
 
       new ProblemTrivia(
