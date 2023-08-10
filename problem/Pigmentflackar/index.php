@@ -15,7 +15,7 @@ $seo_keywords = 'pigmentfläckar, behandling av pigmentfläckar, orsaker till pi
 
 $title = 'Pigmentfläckar';
 
-$description = 'Lider du av pigmentfläckar, även kända som hyperpigmenteringar? Vi känner till utmaningarna och har lösningen för dig. Lär dig mer om dessa hudfläckar, deras orsaker och hur vår specialiserade terapeut kan skräddarsy en behandling för just dig. Boka en kostnadsfri konsultation nu och påbörja din väg mot en enhetlig och frisk hud.';
+$description = 'Lider du av pigmentfläckar, även kända som hyperpigmenteringar? Vi känner till utmaningarna och har lösningen för dig. Lär dig mer om dessa hudfläckar, deras orsaker och hur våra specialiserade terapeuter kan skräddarsy en behandling för just dig. Boka en kostnadsfri konsultation nu och påbörja din väg mot en fläckfri och frisk hud.';
 
 $image_small = 'images/problems/424x324/pigmentflackar.webp'; // Ersätt med lämplig bild för pigmentfläckar
 $image_large = 'images/problems/424x456/pigmentflackar.webp'; // Ersätt med lämplig bild för pigmentfläckar
