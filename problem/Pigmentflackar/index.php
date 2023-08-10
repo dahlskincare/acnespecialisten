@@ -13,14 +13,14 @@ $seo_keywords = 'pigmentfläckar, behandling av pigmentfläckar, orsaker till pi
 
 
 
-$title = 'pigmentfläckar';
+$title = 'Pigmentfläckar';
 
-$description = 'Har du problem med ärr som uppstått från finnar? Vi förstår frustrationen och vill hjälpa dig. Här förklarar vi vad som kännetecknar dessa ärr, hur de kan uppstå, och hur Acnespecialisten kan stödja dig i en personligt anpassad behandlingsprocess. Vårt mål är att återställa din huds släthet och utseende. Tveka inte att boka en tid hos oss för en individuell konsultation och ta steget mot en klarare och friskare hud.';
+$description = 'Lider du av pigmentfläckar, även kända som hyperpigmenteringar? Vi känner till utmaningarna och har lösningen för dig. Lär dig mer om dessa hudfläckar, deras orsaker och hur vår specialiserade terapeut kan skräddarsy en behandling för just dig. Boka en kostnadsfri konsultation nu och påbörja din väg mot en enhetlig och frisk hud.';
 
-$image_small = 'images/problems/424x324/finnar.webp';
-$image_large = 'images/problems/424x456/finnar.webp';
-$image_title = 'Visar en hud med ärr från finnar';
-$image_alt = 'Bild som illustrerar hur ärr från finnar ser ut på huden';
+$image_small = 'images/problems/424x324/pigmentflackar.webp'; // Ersätt med lämplig bild för pigmentfläckar
+$image_large = 'images/problems/424x456/pigmentflackar.webp'; // Ersätt med lämplig bild för pigmentfläckar
+$image_title = 'Visar en hud med pigmentfläckar';
+$image_alt = 'Bild som illustrerar hur pigmentfläckar kan se ut på huden';
 
 
 
