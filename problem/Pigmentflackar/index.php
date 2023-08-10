@@ -5,20 +5,23 @@ include_once('../widgets/symptom-card/symptom.php');
 include_once('../widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Allt om Ärr från Finnar - Behandlingsmetoder, Orsaker och Hur Man Förebygger | Acnespecialisten';
-$seo_description = 'Lär dig allt om ärr som uppstår från finnar, inklusive deras bakomliggande orsaker, effektiva metoder för behandling, och hur du kan förebygga dem. Sök professionell vägledning och skräddarsydda lösningar från Acnespecialisten.';
-$seo_keywords = 'ärr från finnar, behandling av ärr från finnar, orsaker till ärr från finnar, förebygga ärr från finnar, minska ärr från finnar, ärrminskning, hudförbättring, behandling av ärr';
+$seo_title = 'Allt om Pigmentfläckar - Behandlingsmetoder, Orsaker och Hur Man Förebygger | Acnespecialisten';
+$seo_description = 'Lär dig allt om pigmentfläckar, inklusive deras bakomliggande orsaker, effektiva metoder för behandling, och hur du kan förebygga dem. Sök professionell vägledning och skräddarsydda lösningar för hyperpigmentering och hudfläckar från Acnespecialisten.';
+$seo_keywords = 'pigmentfläckar, behandling av pigmentfläckar, orsaker till pigmentfläckar, förebygga pigmentfläckar, minska pigmentfläckar, hyperpigmentering, hudfläckar, behandling av hyperpigmentering, pigmenteringar';
 
 
 
 
-$title = 'Ärr från Finnar';
+
+$title = 'pigmentfläckar';
+
+$description = 'Har du problem med ärr som uppstått från finnar? Vi förstår frustrationen och vill hjälpa dig. Här förklarar vi vad som kännetecknar dessa ärr, hur de kan uppstå, och hur Acnespecialisten kan stödja dig i en personligt anpassad behandlingsprocess. Vårt mål är att återställa din huds släthet och utseende. Tveka inte att boka en tid hos oss för en individuell konsultation och ta steget mot en klarare och friskare hud.';
 
 $image_small = 'images/problems/424x324/finnar.webp';
 $image_large = 'images/problems/424x456/finnar.webp';
 $image_title = 'Visar en hud med ärr från finnar';
 $image_alt = 'Bild som illustrerar hur ärr från finnar ser ut på huden';
-$description = 'Har du problem med ärr som uppstått från finnar? Vi förstår frustrationen och vill hjälpa dig. Här förklarar vi vad som kännetecknar dessa ärr, hur de kan uppstå, och hur Acnespecialisten kan stödja dig i en personligt anpassad behandlingsprocess. Vårt mål är att återställa din huds släthet och utseende. Tveka inte att boka en tid hos oss för en individuell konsultation och ta steget mot en klarare och friskare hud.';
+
 
 
 
