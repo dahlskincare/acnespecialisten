@@ -328,7 +328,7 @@ $problems['oonskad-harvaxt'] = new Problem(
 $default_problems = new ProblemArea(
       label: '',
       icon: '',
-      problem_ids: array('akne','aknearr','rosacea','finnar','arr-fran-finnar', ),
+      problem_ids: array('akne', 'aknearr', 'rosacea', 'finnar', 'arr-fran-finnar',),
 );
 
 $problem_areas = array(
@@ -416,6 +416,18 @@ $problem_areas = array(
                   );
                   include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/green_header_banner.php');
                   ?>
+                  <div class="container" id="filters-touch-container">
+                        <div id="filters-touch" class="mt-m">
+                              <?php foreach ($problem_areas as $problem_area) { ?>
+                                    <div class=" filter-item" onclick="showProblems('<?php echo join(',', $problem_area->problem_ids) ?>'); highlight(this); ">
+                                          <?php icon($problem_area->icon) ?>
+                                          <div class="b100 filter-item-label l10n">
+                                                <?php echo $problem_area->label ?>
+                                          </div>
+                                    </div>
+                              <?php } ?>
+                        </div>
+                  </div>
                   <div class="container">
                         <div id="filters-desktop" class="is-hidden-touch">
                               <div id="filter-items">
