@@ -255,7 +255,7 @@ $type_categories = array(
             content: '<p class="p200">Akne kan uppträda på olika områden på kroppen. Ansiktet är det vanligaste området, men akne kan också förekomma på bröst, rygg, axlar och andra delar av kroppen. Placeringen av akne kan ge en indikation på dess orsak, som hormonella förändringar, irritation från kläder eller yttre faktorer som sol och friktion.</p>',
             types: array(
                   new BasedType(
-                        title: 'Pigmentfläckar i ansiktet',
+                        title: 'ansikte',
                         subtitle: 'Även kallat Solfläckar & åldersfläckar',
                         content: '',
                         image_url: 'images/problems/102x102/akne-ansikte.webp',
@@ -265,7 +265,7 @@ $type_categories = array(
                         url_title: 'Läs mer om akne i ansiktet och dess potentiella behandlingar'
                   ),
                   new BasedType(
-                        title: 'Pigmentfläckar på överläpp',
+                        title: 'Överläpp',
                         subtitle: 'Även kallat Melasma & Chloasma',
                         content: '',
                         image_url: 'images/problems/102x102/akne-ansikte.webp',
@@ -275,7 +275,7 @@ $type_categories = array(
                         url_title: 'Läs mer om akne i ansiktet och dess potentiella behandlingar'
                   ),
                   new BasedType(
-                        title: 'Pigmentfläckar på kroppen',
+                        title: 'Kropp',
                         subtitle: 'Även kallat Solfläckar & åldersfläckar',
                         content: '',
                         image_url: 'images/problems/102x102/akne-brost.webp',
@@ -285,7 +285,7 @@ $type_categories = array(
                         url_title: 'Läs mer om akne på bröstet och dess potentiella behandlingar'
                   ),
                   new BasedType(
-                        title: 'Pigmentfläckar på händerna',
+                        title: 'Händer',
                         subtitle: 'Även kallat Solfläckar & åldersfläckar',
                         content: '',
                         image_url: 'images/problems/102x102/akne-brost.webp',
