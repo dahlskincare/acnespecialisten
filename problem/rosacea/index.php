@@ -417,24 +417,24 @@ $headline04 = "04. Reparera post-rosacea";
 
 $procedures = array(
       new Service(
-            id: 'microneedling-for-acne',
-            title: 'Reparera acneärr',
-            duration: '4 behandlingsmetoder',
-            price: null,
-            content: 'Efter aktiv akne kan man uppleva post-akne, vilket innebär ärr i form av gropar i olika former och fläckar i olika färger på huden där aknen tidigare varit. Olika typer av ärr behandlas med olika metoder. Klicka här för att läsa mer om hur du kan reparera din hud och ta hand om post-akne.',
-            image_small: 'images/services/200x200/microneedling-aknearr.webp',
-            image_large: 'images/services/200x200/microneedling-aknearr.webp',
-            image_alt: 'Reparera acneärr',
-            image_title: 'Reparera acneärr',
+            id: 'ipl-rosacea',
+            title: 'Reparerar ytliga blodkärl',
+            duration: '60 minuter',
+            price: 'Pris från 1595 kr',
+            content: 'Rosacea är en kronisk hudåkomma som kan leda till rodnad, utslag, och i vissa fall svullnad i ansiktet. Intense Pulsed Light (IPL) kan användas för att effektivt behandla rosacea genom att minska rodnad och synliga blodkärl. Klicka här för att läsa mer om hur du kan behandla din rosacea med IPL.',
+            image_small: 'images/services/200x200/ipl-rosacea.webp',
+            image_large: 'images/services/200x200/ipl-rosacea.webp',
+            image_alt: 'Behandla rosacea med IPL',
+            image_title: 'Behandla rosacea med IPL',
             consultation_url: null,
             consultation_url_label: null,
             consultation_url_title: null,
             booking_url: null,
             booking_url_label: null,
             booking_url_title: null,
-            url: 'behandling/aknearr',
-            url_label: 'Läs mer om behandlingar mot akneärr',
-            url_title: 'Klicka här för att läsa mer om våra behandlingar mot akneärr'
+            url: 'behandling/ipl-rosacea',
+            url_label: 'Läs mer om behandlingar mot ytliga blodkärl',
+            url_title: 'Klicka här för att läsa mer om våra behandlingar mot ytliga blodkärl'
       ),
 );
 
@@ -876,12 +876,6 @@ $brands_url_title ="Varumärken för Rosaceabehandling";
                               </div>
                               <div id="green-header-large-text" class="mt-xxs">
                                     <h1 class="h600"><?php echo $title ?></h1>
-                                    <div class="mt-s">
-                                          <span class="h200 l10n">Även känt som:</span>
-                                          <?php foreach ($akas as $aka) { ?>
-                                                <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="b200 underline aka"><?php echo $aka->label ?></a>
-                                          <?php } ?>
-                                    </div>
                                     <p class="mt-s p200"><?php echo $description ?></p>
                                     <div class="mt-xl flex-row" id="book-buttons">
                                           <a href="hudkonsultation" title="<?php echo $consultation_url_title ?>" class="button b200 white l10n"><?php echo $consultation_url_label ?></a>
