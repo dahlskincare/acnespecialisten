@@ -148,102 +148,69 @@ $treatment_steps = array(
 
 
 
-$treatment_link = '<a href="problem/aknearr/aknearrbehandling" title="Utforska effektiva behandlingar mot ärr" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot ärr</a>';
+$treatment_link = '<a href="problem/aknearr/aknearrbehandling" title="Utforska effektiva behandlingar mot pigmentfläckar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot pigmentfläckar</a>';
 
 
-$symptoms_title = 'Olika typer av ärr';
+$symptoms_title = 'Olika typer av pigmentfläckar';
 
 $symptoms = array(
       new Symptom(
-            name: 'Hyperpigmentering efter inflammation (PIH)',
-            aka: 'Också refererad som mörka eller bruna märken',
-            content: 'Denna sort av fläckar uppstår som följd av inflammation i huden orsakad av akne. Det är inte egentliga ärr utan representerar en ökning av pigmentet melanin som ger huden dess kulör. När huden reparerar sig själv, kan det leda till en ökad melaninproduktion, vilket ger mörkare märken. De kan variera i färg från brun till svart och till och med blå, beroende på hudtyp. Fläckarna ligger plant mot huden, till skillnad från förhöjda eller intryckta akneärr.',
-            url: 'problem/aknearr/hyperpigmentering-efter-inflammation',
-            url_title: 'Lär dig mer om hyperpigmentering efter inflammation',
+            name: 'Melasma',
+            aka: 'Känd som graviditetsmask eller chloasma',
+            content: 'Melasma visar sig som mörka, oregelbundna fläckar främst i ansiktet. Det kan vara kopplat till hormonella förändringar som graviditet eller användning av p-piller, och exponering för solen kan förvärra tillståndet.',
+            url: 'problem/pigmentflackar/melasma',
+            url_title: 'Lär dig mer om Melasma',
             url_label: 'Läs mer',
-            image: 'images/symptoms/102x102/hyperpigmentering_efter_inflammation.webp',
-            image_alt: 'Bild som visar hyperpigmentering efter inflammation',
-            image_title: 'Hyperpigmentering efter inflammation'
+            image: 'images/symptoms/102x102/melasma.webp',
+            image_alt: 'Bild som visar Melasma',
+            image_title: 'Melasma'
       ),
       new Symptom(
-            name: 'Djupa "ice-pick" ärr',
-            aka: 'Liknande små gropar eller hål gjorda med en ishacka',
-            content: 'Dessa små och djupa ärr som påminner om en ishackas märken sträcker sig in i huden. De börjar smalt vid ytan och vidgas nedåt. Denna djupa hålighet ger ärret dess speciella utseende. Detta är en ärrtyp som ofta följer efter cystisk akne eller infektioner i huden och kan vara utmanande att behandla på grund av deras djup. De kan finnas var som helst där akne har varit, men är mest förekommande på kinderna.',
-            url: 'problem/aknearr/djupa-arr',
-            url_title: 'Lär dig mer om djupa "ice-pick" ärr',
+            name: 'Freckles (Fräknar)',
+            aka: 'Vetenskapligt kända som Ephelides',
+            content: 'Fräknar är små bruna fläckar som oftast förekommer på ljus hud. De är ofarliga och är vanligtvis ett resultat av genetik och exponering för solen.',
+            url: 'problem/pigmentflackar/freckles',
+            url_title: 'Lär dig mer om Fräknar',
             url_label: 'Läs mer',
-            image: 'images/symptoms/102x102/djupa-icepick-arr.webp',
-            image_alt: 'Bild som visar djupa "ice-pick" ärr',
-            image_title: 'Djupa "ice-pick" ärr'
+            image: 'images/symptoms/102x102/freckles.webp',
+            image_alt: 'Bild som visar Fräknar',
+            image_title: 'Fräknar'
       ),
       new Symptom(
-            name: 'Erytem efter inflammation (PIE)',
-            aka: 'Visar sig som rosa eller lila fläckar eller missfärgningar',
-            content: 'Erytem efter inflammation manifesterar sig som rosa eller lila märken på huden efter en inflammation orsakad av akne. Denna missfärgning beror på skador eller förstöring av blodkärlen under inflammationsprocessen. Fläckarna kan vara ömma eller klia och bleknar vanligtvis med tiden. De är dock mer ihärdiga hos personer med ljusare hudton och kan ibland misstas för ärrvävnad, även om det inte är äkta ärr.',
-            url: 'problem/aknearr/erytem-efter-inflammation',
-            url_title: 'Lär dig mer om erytem efter inflammation',
+            name: 'Vitiligo',
+            aka: 'Hudblekning, depigmenterade fläckar',
+            content: 'Vitiligo orsakar förlust av hudfärg i fläckar och kan påverka alla delar av huden. Det är en autoimmun sjukdom, och de exakta orsakerna är okända.',
+            url: 'problem/pigmentflackar/vitiligo',
+            url_title: 'Lär dig mer om Vitiligo',
             url_label: 'Läs mer',
-            image: 'images/symptoms/102x102/erytem_efter_inflammation.webp',
-            image_alt: 'Bild som visar erytem efter inflammation',
-            image_title: 'Erytem efter inflammation'
+            image: 'images/symptoms/102x102/vitiligo.webp',
+            image_alt: 'Bild som visar Vitiligo',
+            image_title: 'Vitiligo'
       ),
 
       new Symptom(
-            name: '"Boxcar" ärr av atrofisk typ',
-            aka: 'Jämförbara med gropar eller brännskador',
-            content: 'Dessa är karakteristiska akneärr som framträder som runda eller ovala fördjupningar med skarpt definierade kanter. Ärr av denna typ skapas när akne bryter ner hudens kollagen, vilket resulterar i en påtaglig sänkning. Storlek och djup kan variera, och de har likheter med ärr orsakade av vattkoppor. Denna ärrtyp är vanligtvis belägen på kinder och tinningar och kan vara mycket iögonfallande om de är omfattande.',
-            url: 'problem/aknearr/boxcar-arr',
-            url_title: 'Lär dig mer om "Boxcar" ärr av atrofisk typ',
+            name: 'Postinflammatorisk Hyperpigmentering (PIH)',
+            aka: 'Mörka fläckar efter akne eller inflammation',
+            content: 'PIH uppstår som ett resultat av inflammation, inklusive akne. Ökad melaninproduktion leder till mörkare märken som kan variera i färg. Behandling kan inkludera topiska produkter som ljusar fläckarna över tid.',
+            url: 'problem/pigmentflackar/postinflammatorisk-hyperpigmentering',
+            url_title: 'Lär dig mer om Postinflammatorisk Hyperpigmentering',
             url_label: 'Läs mer',
-            image: 'images/symptoms/102x102/boxcar.webp',
-            image_alt: 'Bild som visar "Boxcar" ärr av atrofisk typ',
-            image_title: '"Boxcar" ärr av atrofisk typ'
+            image: 'images/symptoms/102x102/pih.webp',
+            image_alt: 'Bild som visar Postinflammatorisk Hyperpigmentering',
+            image_title: 'Postinflammatorisk Hyperpigmentering'
       ),
       new Symptom(
-            name: 'Hypopigmentering efter inflammation',
-            aka: 'Representeras av ljusa eller vita märken',
-            content: 'Hypopigmentering efter inflammation sker när huden tappar pigmentering på platser där en inflammatorisk hudsjukdom, som akne, har läkt. Detta skapar ljusare fläckar som kan vara tydliga beroende på hudfärgen. Det är inte ett äkta ärr, utan en temporär minskning av pigment och brukar normalisera sig med tiden eller med rätt behandling.',
-            url: 'problem/aknearr/hypopigmentering-efter-inflammation',
-            url_title: 'Lär dig mer om hypopigmentering efter inflammation',
+            name: 'Solskadad hud (Actinic Keratosis)',
+            aka: 'även känt som solfläckar (Solar Lentigines)',
+            content: 'Solskadad hud, eller Actinic Keratosis, sker när huden utsätts för alltför mycket solstrålning utan lämpligt skydd. Detta kan leda till en rad olika förändringar i huden, inklusive ålderfläckar, solfläckar (Solar Lentigines), och i värre fall även hudcancer. Solskador kan vara permanenta, men det finns behandlingar som kan ta bort pigmenfläckarna.',
+            url: 'problem/solskador/solskadad-hud',
+            url_title: 'Lär dig mer om solskadad hud och solfläckar',
             url_label: 'Läs mer',
-            image: 'images/symptoms/102x102/hypopigmentering_efter_inflammation.webp',
-            image_alt: 'Bild som visar hypopigmentering efter inflammation',
-            image_title: 'Hypopigmentering efter inflammation'
-      ),
-      new Symptom(
-            name: 'Atrofiska "rolling" ärr',
-            aka: 'Liknande små fördjupningar eller vågor i huden',
-            content: 'Denna typ av akneärr kännetecknas av dess oregelbundna form och utseendet av fördjupningar som ger huden en rullande eller vågig yta. De uppstår när underliggande stödstrukturer i huden bryts ner, vilket resulterar i en förlust av stöd och struktur. Denna förändring i hudens yta ger ett intryck av slätta, skålformade fördjupningar som flyter samman. Ärr av denna typ kan behandlas, men kräver ofta en kombination av tekniker på grund av deras komplexa natur.',
-            url: 'problem/aknearr/atrofiska-rolling-arr',
-            url_title: 'Lär dig mer om atrofiska "rolling" ärr',
-            url_label: 'Läs mer',
-            image: 'images/symptoms/102x102/atrofiska_rolling_arr.webp',
-            image_alt: 'Bild som visar atrofiska "rolling" ärr',
-            image_title: 'Atrofiska "rolling" ärr'
+            image: 'images/symptoms/102x102/solskadad_hud.webp',
+            image_alt: 'Bild som visar solskadad hud och solfläckar',
+            image_title: 'Solskadad hud'
       ),
 
-      new Symptom(
-            name: 'Hypertrofiska Ärr',
-            aka: 'Även benämnda keloid ärr',
-            content: 'Hypertrofiska ärr, som är både tjocka och upphöjda, bildas i regel som svar på en skada, operation eller finnar. De skiljer sig från keloidärr genom att de inte sträcker sig utanför det område där skadan ursprungligen inträffade. Dessa ärr är ofta rödaktiga eller rosafärgade och kan kännas känsliga eller klia. Med tiden kan de minska i framträdande, även om deras konsistens och nyans kan skifta beroende på sårläkning och hudtyp.',
-            url: 'problem/ärr-från-finnar/hypertrfiska-arr',
-            url_title: 'Få mer information om hypertrofiska ärr',
-            url_label: 'Läs mer här',
-            image: 'images/symptoms/102x102/hypertrophic-scars.webp',
-            image_alt: 'En bild som visar hypertrofiska ärr',
-            image_title: 'Hypertrofiska ärr (keloid ärr)'
-      ),
-      new Symptom(
-            name: 'Atrofiska Ärr',
-            aka: 'Ibland refererade till som gropar',
-            content: 'Atrofiska ärr framträder ofta efter akne eller inflammation i huden och de visar sig som små inbuktningar eller fördjupningar i hudytan. De kan likna små hål eller dalar och uppstår när det sker en minskning av kollagen och stödjevävnad under ytan, vilket får området att sjunka in. Storleken och formen på dessa ärr kan variera, och de är mest framträdande i ansiktet, där de kan ge huden en ojämn textur.',
-            url: 'problem/ärr-från-finnar/atrofiska-arr',
-            url_title: 'Lär dig mer om atrofiska ärr (gropar)',
-            url_label: 'Läs mer här',
-            image: 'images/symptoms/102x102/atrofiska-arr.webp',
-            image_alt: 'Illustration av atrofiska ärr',
-            image_title: 'Atrofiska ärr (gropar)'
-            ),
 
 
 );
