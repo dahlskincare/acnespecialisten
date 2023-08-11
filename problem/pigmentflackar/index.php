@@ -27,12 +27,12 @@ $image_alt = 'Bild som illustrerar hur pigmentfläckar kan se ut på huden';
 
 $akas = [
       new Link(
-            label: 'Fläckar',
+            label: 'Pigmentförändringar',
             url: 'problem/arr-fran-finnar/postinflammatorisk-hyperpigmentering',
             title: 'Utforska orsakerna, symptomen och de effektiva behandlingarna för postinflammatorisk hyperpigmentering i form av fläckar från finnar'
       ),
       new Link(
-            label: 'Gropar',
+            label: 'Hudfläckar',
             url: 'problem/arr-fran-finnar/atrofiska-arr',
             title: 'Lär dig mer om atrofiska ärr i form av gropar som uppstått från finnar och upptäck våra specialiserade behandlingsalternativ'
       ),
@@ -200,8 +200,19 @@ $symptoms = array(
             image_title: 'Postinflammatorisk Hyperpigmentering'
       ),
       new Symptom(
-            name: 'Solskadad hud (Actinic Keratosis)',
-            aka: 'även känt som solfläckar (Solar Lentigines)',
+            name: 'Solfläckar (Solar Lentigines)',
+            aka: 'även känt som Solskadad hud (Actinic Keratosis)',
+            content: 'Solskadad hud, eller Actinic Keratosis, sker när huden utsätts för alltför mycket solstrålning utan lämpligt skydd. Detta kan leda till en rad olika förändringar i huden, inklusive ålderfläckar, solfläckar (Solar Lentigines), och i värre fall även hudcancer. Solskador kan vara permanenta, men det finns behandlingar som kan ta bort pigmenfläckarna.',
+            url: 'problem/solskador/solskadad-hud',
+            url_title: 'Lär dig mer om solskadad hud och solfläckar',
+            url_label: 'Läs mer',
+            image: 'images/symptoms/102x102/solskadad_hud.webp',
+            image_alt: 'Bild som visar solskadad hud och solfläckar',
+            image_title: 'Solskadad hud'
+      ),
+      new Symptom(
+            name: 'Åldersfläckar',
+            aka: 'även känt som Solskadad hud (Actinic Keratosis)',
             content: 'Solskadad hud, eller Actinic Keratosis, sker när huden utsätts för alltför mycket solstrålning utan lämpligt skydd. Detta kan leda till en rad olika förändringar i huden, inklusive ålderfläckar, solfläckar (Solar Lentigines), och i värre fall även hudcancer. Solskador kan vara permanenta, men det finns behandlingar som kan ta bort pigmenfläckarna.',
             url: 'problem/solskador/solskadad-hud',
             url_title: 'Lär dig mer om solskadad hud och solfläckar',
@@ -215,7 +226,7 @@ $symptoms = array(
 
 );
 
-$headline01 = "01. Identifiera dina ärr från finnar";
+$headline01 = "01. Identifiera dina Pigmentfläckar";
 
 $service = new Service(
       id: 'arr-fran-finnar',
