@@ -165,41 +165,7 @@ $symptoms = array(
             image_alt: 'Bild som visar Melasma',
             image_title: 'Melasma'
       ),
-      new Symptom(
-            name: 'Freckles (Fräknar)',
-            aka: 'Vetenskapligt kända som Ephelides',
-            content: 'Fräknar är små bruna fläckar som oftast förekommer på ljus hud. De är ofarliga och är vanligtvis ett resultat av genetik och exponering för solen.',
-            url: 'problem/pigmentflackar/freckles',
-            url_title: 'Lär dig mer om Fräknar',
-            url_label: 'Läs mer',
-            image: 'images/symptoms/102x102/freckles.webp',
-            image_alt: 'Bild som visar Fräknar',
-            image_title: 'Fräknar'
-      ),
-      new Symptom(
-            name: 'Ljusa / Vita pigmentfläckar',
-            aka: 'känt som Vitiligo',
-            content: 'Vitiligo orsakar förlust av hudfärg i fläckar och kan påverka alla delar av huden. Det är en autoimmun sjukdom, och de exakta orsakerna är okända.',
-            url: 'problem/pigmentflackar/vitiligo',
-            url_title: 'Lär dig mer om Vitiligo',
-            url_label: 'Läs mer',
-            image: 'images/symptoms/102x102/vitiligo.webp',
-            image_alt: 'Bild som visar Vitiligo',
-            image_title: 'Vitiligo'
-      ),
-
-      new Symptom(
-            name: 'Röda / Lila Pigmenteringar',
-            aka: 'känt som Postinflammatorisk Hyperpigmentering (PIH)',
-            content: 'Mörka fläckar efter akne eller inflammation. PIH uppstår som ett resultat av inflammation, inklusive akne. Ökad melaninproduktion leder till mörkare märken som kan variera i färg.',
-            url: 'problem/pigmentflackar/postinflammatorisk-hyperpigmentering',
-            url_title: 'Lär dig mer om Postinflammatorisk Hyperpigmentering',
-            url_label: 'Läs mer',
-            image: 'images/symptoms/102x102/pih.webp',
-            image_alt: 'Bild som visar Postinflammatorisk Hyperpigmentering',
-            image_title: 'Postinflammatorisk Hyperpigmentering'
-      ),
-      new Symptom(
+            new Symptom(
             name: 'Solfläckar (Solar Lentigines)',
             aka: 'även känt som Solskadad hud (Actinic Keratosis)',
             content: 'Solskadad hud, eller Actinic Keratosis, sker när huden utsätts för alltför mycket solstrålning utan lämpligt skydd. Detta kan leda till en rad olika förändringar i huden, inklusive ålderfläckar, solfläckar (Solar Lentigines), och i värre fall även hudcancer. Solskador kan vara permanenta, men det finns behandlingar som kan ta bort pigmenfläckarna.',
@@ -221,6 +187,40 @@ $symptoms = array(
             image_alt: 'Bild som visar solskadad hud och solfläckar',
             image_title: 'Solskadad hud'
       ),
+      new Symptom(
+            name: 'Röda / Lila Pigmenteringar',
+            aka: 'känt som Postinflammatorisk Hyperpigmentering (PIH)',
+            content: 'Mörka fläckar efter akne eller inflammation. PIH uppstår som ett resultat av inflammation, inklusive akne. Ökad melaninproduktion leder till mörkare märken som kan variera i färg.',
+            url: 'problem/pigmentflackar/postinflammatorisk-hyperpigmentering',
+            url_title: 'Lär dig mer om Postinflammatorisk Hyperpigmentering',
+            url_label: 'Läs mer',
+            image: 'images/symptoms/102x102/pih.webp',
+            image_alt: 'Bild som visar Postinflammatorisk Hyperpigmentering',
+            image_title: 'Postinflammatorisk Hyperpigmentering'
+      ),
+      new Symptom(
+            name: 'Fräknar',
+            aka: 'Vetenskapligt kända som Ephelides',
+            content: 'Fräknar är små bruna fläckar som oftast förekommer på ljus hud. De är ofarliga och är vanligtvis ett resultat av genetik och exponering för solen.',
+            url: 'problem/pigmentflackar/freckles',
+            url_title: 'Lär dig mer om Fräknar',
+            url_label: 'Läs mer',
+            image: 'images/symptoms/102x102/freckles.webp',
+            image_alt: 'Bild som visar Fräknar',
+            image_title: 'Fräknar'
+      ),
+      new Symptom(
+            name: 'Ljusa / Vita pigmentfläckar',
+            aka: 'känt som Vitiligo',
+            content: 'Vitiligo orsakar förlust av hudfärg i fläckar och kan påverka alla delar av huden. Det är en autoimmun sjukdom, och de exakta orsakerna är okända.',
+            url: 'problem/pigmentflackar/vitiligo',
+            url_title: 'Lär dig mer om Vitiligo',
+            url_label: 'Läs mer',
+            image: 'images/symptoms/102x102/vitiligo.webp',
+            image_alt: 'Bild som visar Vitiligo',
+            image_title: 'Vitiligo'
+      ),
+
 
 
 
