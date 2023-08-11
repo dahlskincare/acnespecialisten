@@ -15,7 +15,7 @@ $seo_keywords = 'pigmentfläckar, behandling av pigmentfläckar, orsaker till pi
 
 $title = 'Pigmentfläckar';
 
-$description = 'Lider du av pigmentfläckar, även kända som hyperpigmenteringar? Vi känner till utmaningarna och har lösningen för dig. Lär dig mer om dessa hudfläckar, deras orsaker och hur våra specialiserade terapeuter kan skräddarsy en behandling för just dig. Boka en kostnadsfri konsultation nu och påbörja din väg mot en fläckfri och frisk hud.';
+$description = 'Lider du av pigmentfläckar, även kända som pigmentförändringar och hudfläckar? Vi känner till utmaningarna och har lösningen för dig. Lär dig mer om dessa hudfläckar, deras orsaker och hur våra specialiserade terapeuter kan skräddarsy en behandling för just dig. Boka en kostnadsfri konsultation nu och påbörja din väg mot en fläckfri och frisk hud.';
 
 $image_small = 'images/problems/424x324/pigmentflackar.webp'; // Ersätt med lämplig bild för pigmentfläckar
 $image_large = 'images/problems/424x456/pigmentflackar.webp'; // Ersätt med lämplig bild för pigmentfläckar
@@ -60,7 +60,7 @@ $floating_booking_url_label = "Boka behandling";
 $floating_booking_url_title = "Boka din tid för behandling av ärr från finnar";
 
 $nav_buttons = array(
-      'about' => 'Om Ärrbildning',
+      'about' => 'Om pigmentfläckar',
       'approach' => 'Metoden',
       'symptoms' => 'Typer',
       'define' => 'Konsultation',
@@ -79,7 +79,7 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
             title: 'är pigmentfläckar?',
-            content: '<p class="p200">Pigmentfläckar, kända som hyperpigmentering, är områden på huden som har blivit mörkare än den omgivande huden. Denna mörkfärgning beror på en överproduktion av melanin, hudens naturliga pigment. Fläckarna kan variera i färg, storlek och form och kan finnas var som helst på kroppen. De är oftast ofarliga men kan påverka huden estetiskt och känslomässigt, speciellt om de är synliga på utsatta områden som ansikte och händer.</p>',
+            content: '<p class="p200">Pigmentfläckar, kända som mörkare hudfläckar, är områden på huden som har blivit mörkare än den omgivande huden. Denna mörkfärgning beror på en överproduktion av melanin, hudens naturliga pigment. Fläckarna kan variera i färg, storlek och form och kan finnas var som helst på kroppen. De är oftast ofarliga men kan påverka huden estetiskt och känslomässigt, speciellt om de är synliga på utsatta områden som ansikte och händer.</p>',
 
             extended_content: '<p class="p200 mt-xl">Pigmentfläckar kan visa sig på olika sätt. Vissa är bara milda färgförändringar, medan andra kan vara mörkare och mer framträdande. De kan klassificeras i olika typer som leverfläckar, solfläckar och melasma. Varje typ kräver en unik behandlingsmetod.</p>
 
@@ -91,7 +91,7 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Varför',
             title: 'uppstår pigmentfläckar?',
-            content: '<p class="p200">Pigmentfläckar eller hyperpigmentering uppstår när melanin produceras ojämnt i huden, vilket skapar mörkare fläckar. Detta kan orsakas av solskador, åldrande, hormonella obalanser eller vissa mediciner och hälsoförhållanden. Vissa typer av pigmentfläckar kan bli permanenta om de inte behandlas korrekt.</p>',
+            content: '<p class="p200">Pigmentfläckar eller pigmentförändringa uppstår när melanin produceras ojämnt i huden, vilket skapar mörkare fläckar. Detta kan orsakas av solskador, åldrande, hormonella obalanser eller vissa mediciner och hälsoförhållanden. Vissa typer av pigmentfläckar kan bli permanenta om de inte behandlas korrekt.</p>',
 
             extended_content: '<p class="p200 mt-xl">Förståelse för typen av pigmentfläck och dess orsak är nyckeln till effektiv behandling. Felaktig behandling kan förvärra tillståndet, medan tidig diagnos och rätt behandling kan förhindra att fläckarna blir permanenta. Kunskap om hudvård och förebyggande åtgärder är också avgörande.</p>
 
@@ -105,7 +105,7 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Vem',
             title: 'får pigmentfläckar?',
-            content: '<p class="p200">Pigmentfläckar, även kända som hyperpigmentering, är ett fenomen som inte begränsas till en viss ålder, kön eller hudton. Individer med mörkare hud och de som har en familjehistoria av pigmentfläckar kan dock vara mer benägna att utveckla dessa märken. Hormonella förändringar, som de som kan inträffa under graviditet, kan också bidra till deras uppkomst.</p>',
+            content: '<p class="p200">Pigmentfläckar, även kända som pigmentförändringar, är ett fenomen som inte begränsas till en viss ålder, kön eller hudton. Individer med mörkare hud och de som har en familjehistoria av pigmentfläckar kan dock vara mer benägna att utveckla dessa märken. Hormonella förändringar, som de som kan inträffa under graviditet, kan också bidra till deras uppkomst.</p>',
 
             extended_content: '<p class="p200 mt-xl">Solskadad hy är en av de vanligaste orsakerna till att pigmentfläckar uppkommer. Långvarig exponering för solens strålar kan leda till en ökad produktion av melanin, vilket i sin tur kan resultera i ojämna mörka fläckar på huden. Åldrande kan också leda till ojämn melaninproduktion, där hudens förmåga att jämnt fördela melanin förändras med tiden. Detta resulterar i olika typer och nyanser av pigmentfläckar.</p>
 
@@ -118,7 +118,7 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Var',
             title: 'får man pigmentfläckar?',
-            content: '<p class="p200">Pigmentfläckar, eller hyperpigmentering, uppstår ofta i ansiktet, där de vanligtvis påverkar områden som kinder och panna. Exponering för solen utan ordentligt skydd kan snabbt leda till dessa missfärgningar, särskilt i områden som är mest utsatta för solljuset.</p>',
+            content: '<p class="p200">Pigmentfläckar, eller hudfläckar, uppstår ofta i ansiktet, där de vanligtvis påverkar områden som kinder och panna. Exponering för solen utan ordentligt skydd kan snabbt leda till dessa missfärgningar, särskilt i områden som är mest utsatta för solljuset.</p>',
 
             extended_content: '<p class="p200 mt-xl">Bortom ansiktet kan pigmentfläckar även dyka upp på andra delar av kroppen, inklusive halsen, dekolletaget och händerna. Platser som ofta exponeras för solen är mer benägna att drabbas. Den ojämna produktionen av melanin som resulterar i fläckarna kan manifesteras var som helst på huden.</p>
             
@@ -155,8 +155,8 @@ $symptoms_title = 'Olika typer av pigmentfläckar';
 
 $symptoms = array(
       new Symptom(
-            name: 'Melasma',
-            aka: 'Känd som graviditetsmask eller chloasma',
+            name: 'Hormonella pigmentfläckar',
+            aka: 'Känt som melasma eller chloasma',
             content: 'Melasma visar sig som mörka, oregelbundna fläckar främst i ansiktet. Det kan vara kopplat till hormonella förändringar som graviditet eller användning av p-piller, och exponering för solen kan förvärra tillståndet.',
             url: 'problem/pigmentflackar/melasma',
             url_title: 'Lär dig mer om Melasma',
@@ -177,8 +177,8 @@ $symptoms = array(
             image_title: 'Fräknar'
       ),
       new Symptom(
-            name: 'Vitiligo',
-            aka: 'Hudblekning, depigmenterade fläckar',
+            name: 'Ljusa / Vita pigmentfläckar',
+            aka: 'känt som Vitiligo',
             content: 'Vitiligo orsakar förlust av hudfärg i fläckar och kan påverka alla delar av huden. Det är en autoimmun sjukdom, och de exakta orsakerna är okända.',
             url: 'problem/pigmentflackar/vitiligo',
             url_title: 'Lär dig mer om Vitiligo',
@@ -189,9 +189,9 @@ $symptoms = array(
       ),
 
       new Symptom(
-            name: 'Postinflammatorisk Hyperpigmentering (PIH)',
-            aka: 'Mörka fläckar efter akne eller inflammation',
-            content: 'PIH uppstår som ett resultat av inflammation, inklusive akne. Ökad melaninproduktion leder till mörkare märken som kan variera i färg. Behandling kan inkludera topiska produkter som ljusar fläckarna över tid.',
+            name: 'Röda / Lila Pigmenteringar',
+            aka: 'känt som Postinflammatorisk Hyperpigmentering (PIH)',
+            content: 'Mörka fläckar efter akne eller inflammation. PIH uppstår som ett resultat av inflammation, inklusive akne. Ökad melaninproduktion leder till mörkare märken som kan variera i färg.',
             url: 'problem/pigmentflackar/postinflammatorisk-hyperpigmentering',
             url_title: 'Lär dig mer om Postinflammatorisk Hyperpigmentering',
             url_label: 'Läs mer',
@@ -212,7 +212,7 @@ $symptoms = array(
       ),
       new Symptom(
             name: 'Åldersfläckar',
-            aka: 'även känt som Solskadad hud (Actinic Keratosis)',
+            aka: 'även känt som åldrande hud (Lentigo Senilis)',
             content: 'Solskadad hud, eller Actinic Keratosis, sker när huden utsätts för alltför mycket solstrålning utan lämpligt skydd. Detta kan leda till en rad olika förändringar i huden, inklusive ålderfläckar, solfläckar (Solar Lentigines), och i värre fall även hudcancer. Solskador kan vara permanenta, men det finns behandlingar som kan ta bort pigmenfläckarna.',
             url: 'problem/solskador/solskadad-hud',
             url_title: 'Lär dig mer om solskadad hud och solfläckar',
