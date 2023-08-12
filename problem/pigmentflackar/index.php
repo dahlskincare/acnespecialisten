@@ -156,7 +156,7 @@ $type_categories = array(
       new BasedTypeCategory(
             id: 'category-age',
             title: 'Pigmentfläckar baserat på orsak',
-            content: '<p class="p200">Pigmentfläckar baserat på yttre faktorer är vanliga och kan förekomma på olika delar av kroppen. Dessa fläckar orsakas av en ökad produktion av melanin, det pigment som ger huden dess färg, och kan påverkas av flera yttre omständigheter. UV-strålning från solen, hormonella förändringar som graviditet och hormonterapi, naturliga åldrandeprocesser, fräknar som förstärks av solen. Var och en av dessa faktorer kan ha en unik effekt på hudens pigmentering och kräver förståelse och insikt för att effektivt förebygga eller behandla de resulterande fläckarna.</p>',
+            content: '<p class="p200">Pigmentfläckar kan orsakas av en mängd yttre faktorer som solens UV-strålning, hormonella förändringar, åldrande, miljöfaktorer och yttre skador på huden. Långvarig exponering för solen utan skydd, till exempel, kan öka melaninproduktionen och leda till fläckar, medan hormonella förändringar som graviditet kan ge temporär pigmentering. Förståelsen för dessa faktorer är avgörande för effektiv förebyggande och behandling av pigmentfläckar.</p>',
             types: array(
                   new BasedType(
                         title: 'Hormonella pigmentförändringar',
@@ -204,7 +204,7 @@ $type_categories = array(
       new BasedTypeCategory(
             id: 'category-severity',
             title: 'Pigmentfläckar baserat på Färg',
-            content: '<p class="p200">Akne kan variera i svårighetsgrad från milda till extremt allvarliga fall. I milda fall av akne är symptomen ofta mindre uttalade och består främst av pormaskar, medan mer allvarliga fall innefattar djupare inflammationer i form av cystor och noduler. Svårighetsgraden påverkar också hur akne påverkar en persons livskvalitet och hur den ska behandlas. Det är viktigt att diagnostisera och behandla akne utifrån dess svårighetsgrad för att säkerställa bästa möjliga behandlingsresultat och förhindra potentiella ärr och bestående skador på huden.</p>',
+            content: '<p class="p200">Färgen på en pigmentfläck kan avslöja mycket om dess orsak och typ. Bruna fläckar är ofta kopplade till åldersrelaterade förändringar och solskador, medan röda eller rosa kan indikera inflammation. Svarta eller mörkbruna fläckar kan vara mer allvarliga och kräver professionell bedömning. Blå eller grå fläckar är oftast medfödda och specifika för vissa hudtyper. Varje färg ger ledtrådar som kan hjälpa i diagnostisering och behandling.</p>',
             types: array(
                   new BasedType(
                         title: 'Mörka / Bruna Pigmentfläckar',
@@ -252,10 +252,10 @@ $type_categories = array(
       new BasedTypeCategory(
             id: 'category-area',
             title: 'Pigmentfläckar baserat på område',
-            content: '<p class="p200">Akne kan uppträda på olika områden på kroppen. Ansiktet är det vanligaste området, men akne kan också förekomma på bröst, rygg, axlar och andra delar av kroppen. Placeringen av akne kan ge en indikation på dess orsak, som hormonella förändringar, irritation från kläder eller yttre faktorer som sol och friktion.</p>',
+            content: '<p class="p200">Pigmentfläckar kan uppstå på olika delar av kroppen, inklusive ansiktet, händerna och resten av kroppen. Platsen kan ibland ge insikt i orsaken; till exempel, fläckar på händer och ansikte är ofta kopplade till solskador eftersom dessa områden är mest utsatta för solen. Pigmentfläckar på kroppen kan vara mer relaterade till åldrande eller hormonella förändringar. Bedömning av pigmentfläckar baserat på område hjälper till att förstå underliggande faktorer och ger riktning för skräddarsydd behandling.</p>',
             types: array(
                   new BasedType(
-                        title: 'ansikte',
+                        title: 'Pigmentfläckar i ansiktet',
                         subtitle: 'Även kallat Solfläckar & åldersfläckar',
                         content: '',
                         image_url: 'images/problems/102x102/akne-ansikte.webp',
@@ -265,7 +265,7 @@ $type_categories = array(
                         url_title: 'Läs mer om akne i ansiktet och dess potentiella behandlingar'
                   ),
                   new BasedType(
-                        title: 'Överläpp',
+                        title: 'Pigmentfläckar på överläppen',
                         subtitle: 'Även kallat Melasma & Chloasma',
                         content: '',
                         image_url: 'images/problems/102x102/akne-ansikte.webp',
@@ -275,7 +275,7 @@ $type_categories = array(
                         url_title: 'Läs mer om akne i ansiktet och dess potentiella behandlingar'
                   ),
                   new BasedType(
-                        title: 'Kropp',
+                        title: 'Pigmentfläckar på Kroppen',
                         subtitle: 'Även kallat Solfläckar & åldersfläckar',
                         content: '',
                         image_url: 'images/problems/102x102/akne-brost.webp',
@@ -285,7 +285,7 @@ $type_categories = array(
                         url_title: 'Läs mer om akne på bröstet och dess potentiella behandlingar'
                   ),
                   new BasedType(
-                        title: 'Händer',
+                        title: 'Pigmentfläckar på Händerna',
                         subtitle: 'Även kallat Solfläckar & åldersfläckar',
                         content: '',
                         image_url: 'images/problems/102x102/akne-brost.webp',
