@@ -42,22 +42,22 @@ $akas = [
 
 
 $consultation_url_label = "Få gratis konsultation";
-$consultation_url_title = "Gratis konsultation för behandling av ärr från finnar";
+$consultation_url_title = "Gratis konsultation för behandling av pigmentfläckar";
 
 $booking_url_label = "Boka behandling";
-$booking_url_title = "Boka din tid för behandling av ärr från finnar";
+$booking_url_title = "Boka din tid för behandling av hudförändringar";
 
 $mobile_consultation_url_label = "Få gratis konsultation";
-$mobile_consultation_url_title = "Gratis konsultation för ärr från finnar";
+$mobile_consultation_url_title = "Gratis konsultation för pigmenteringar";
 
 $mobile_booking_url_label = "Boka behandling";
-$mobile_booking_url_title = "Boka din tid för behandling av ärr från finnar";
+$mobile_booking_url_title = "Boka din tid för behandling av pigmentförändringar";
 
 $floating_consultation_url_label = "Få gratis konsultation";
-$floating_consultation_url_title = "Gratis konsultation för ärr från finnar";
+$floating_consultation_url_title = "Gratis konsultation för hyperpigmentering";
 
 $floating_booking_url_label = "Boka behandling";
-$floating_booking_url_title = "Boka din tid för behandling av ärr från finnar";
+$floating_booking_url_title = "Boka din tid för behandling av hudfläckar";
 
 $nav_buttons = array(
       'about' => 'Om pigmentfläckar',
@@ -73,13 +73,13 @@ $nav_buttons = array(
       'related-problems' => 'Relaterade problem',
 );
 
-$about_title = 'Om ärr från finnar';
+$about_title = 'Om Pigmentfläckar';
 
 $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
             title: 'är pigmentfläckar?',
-            content: '<p class="p200">Pigmentfläckar, kända som mörkare hudfläckar, är områden på huden som har blivit mörkare än den omgivande huden. Denna mörkfärgning beror på en överproduktion av melanin, hudens naturliga pigment. Fläckarna kan variera i färg, storlek och form och kan finnas var som helst på kroppen. De är oftast ofarliga men kan påverka huden estetiskt och känslomässigt, speciellt om de är synliga på utsatta områden som ansikte och händer.</p>',
+            content: '<p class="p200">Pigmentfläckar, kända som mörka hudfläckar, är områden på huden som har blivit mörkare än den omgivande huden. Denna mörkfärgning beror på en överproduktion av melanin, hudens naturliga pigment. Fläckarna kan variera i färg, storlek och form och kan finnas var som helst på kroppen. De är oftast ofarliga men kan påverka huden estetiskt och känslomässigt, speciellt om de är synliga på utsatta områden som ansikte och händer.</p>',
 
             extended_content: '<p class="p200 mt-xl">Pigmentfläckar kan visa sig på olika sätt. Vissa är bara milda färgförändringar, medan andra kan vara mörkare och mer framträdande. De kan klassificeras i olika typer som leverfläckar, solfläckar och melasma. Varje typ kräver en unik behandlingsmetod.</p>
 
@@ -131,14 +131,14 @@ $trivias = array(
 );
 $treatment_steps = array(
       new TreatmentStep(
-            title: 'Diagnostisera',
+            title: 'Identifiera',
             content: 'På AcneSpecialisten tar en erfaren hudterapeut hand om dig, undersöker dina hudproblem och identifierar specifika pigmentfläckar. Vi tar hänsyn till dina unika behov och skapar en skräddarsydd behandlingsplan för att ge dig de bästa resultaten.',
             url_label: 'Boka en gratis konsultation',
             url: 'hudkonsultation',
             url_title: 'Boka din kostnadsfria konsultation om pigmentfläckar idag'
       ),
       new TreatmentStep(
-            title: 'Behandlingsprocess',
+            title: 'Behandla',
             content: 'Genom att använda specialiserade metoder för behandling av pigmentfläckar, erbjuder vi lösningar som är perfekt anpassade till dina specifika behov. Vår expertis ger en effektiv förbättring av hudens utseende, så att du snabbt kan se resultat och känna dig nöjd med din hud.',
             url_label: 'Utforska våra behandlingar för pigmentfläckar',
             url: 'pigmentflackar-behandling',
@@ -156,7 +156,7 @@ $type_categories = array(
       new BasedTypeCategory(
             id: 'category-age',
             title: 'Pigmentfläckar baserat på orsak',
-            content: '<p class="p200">Akne är en hudåkomma som kan drabba både ungdomar och vuxna, även om det är vanligast under tonåren. Tonårsakne uppstår ofta på grund av hormonella förändringar under puberteten. Vuxenakne förekommer också, och det kan bero på en rad olika faktorer. Hos vuxna kan akne orsakas av faktorer som stress, hormonobalans och genetik. Oavsett ålder är det viktigt att förstå att akne kan påverka människor i alla livsstadier.</p>',
+            content: '<p class="p200">Pigmentfläckar baserat på yttre faktorer är vanliga och kan förekomma på olika delar av kroppen. Dessa fläckar orsakas av en ökad produktion av melanin, det pigment som ger huden dess färg, och kan påverkas av flera yttre omständigheter. UV-strålning från solen, hormonella förändringar som graviditet och hormonterapi, naturliga åldrandeprocesser, fräknar som förstärks av solen. Var och en av dessa faktorer kan ha en unik effekt på hudens pigmentering och kräver förståelse och insikt för att effektivt förebygga eller behandla de resulterande fläckarna.</p>',
             types: array(
                   new BasedType(
                         title: 'Hormonella pigmentförändringar',
@@ -251,7 +251,7 @@ $type_categories = array(
 
       new BasedTypeCategory(
             id: 'category-area',
-            title: 'Akne baserat på område',
+            title: 'Pigmentfläckar baserat på område',
             content: '<p class="p200">Akne kan uppträda på olika områden på kroppen. Ansiktet är det vanligaste området, men akne kan också förekomma på bröst, rygg, axlar och andra delar av kroppen. Placeringen av akne kan ge en indikation på dess orsak, som hormonella förändringar, irritation från kläder eller yttre faktorer som sol och friktion.</p>',
             types: array(
                   new BasedType(
