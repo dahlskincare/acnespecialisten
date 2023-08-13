@@ -132,14 +132,14 @@ $trivias = array(
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'På AcneSpecialisten tar en erfaren hudterapeut hand om dig, undersöker dina hudproblem och identifierar specifika pigmentfläckar. Vi tar hänsyn till dina unika behov och skapar en skräddarsydd behandlingsplan för att ge dig de bästa resultaten.',
+            content: 'På AcneSpecialisten börjar din behandling med en gratis konsultation. En erfaren hudterapeut undersöker dina hudproblem, identifierar dina specifika pigmentfläckar och skapar en skräddarsydd behandlingsplan anpassad till dina unika behov.',
             url_label: 'Boka en gratis konsultation',
             url: 'hudkonsultation',
             url_title: 'Boka din kostnadsfria konsultation om pigmentfläckar idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Genom att använda specialiserade metoder för behandling av pigmentfläckar, erbjuder vi lösningar som är perfekt anpassade till dina specifika behov. Vår expertis ger en effektiv förbättring av hudens utseende, så att du snabbt kan se resultat och känna dig nöjd med din hud.',
+            content: 'Med din personliga behandlingsplan i hand använder AcneSpecialisten specialiserade metoder för att effektivt behandla dina pigmentfläckar. Vår expertis säkerställer att du snabbt ser resultat och känner dig nöjd med din hud.',
             url_label: 'Utforska våra behandlingar för pigmentfläckar',
             url: 'pigmentflackar-behandling',
             url_title: 'Upptäck våra unika och effektiva behandlingar för pigmentfläckar'
@@ -162,7 +162,7 @@ $type_categories = array(
                         title: 'Hormonella pigmentförändringar',
                         subtitle: 'Även kallat melasma',
                         content: '',
-                        image_url: 'images/problems/102x102/vuxenakne.webp',
+                        image_url: 'images/probpöpo,  lems/102x102/vuxenakne.webp',
                         image_alt: 'Bild av vuxenakne',
                         image_title: 'Akne hos vuxna',
                         url: 'problem/akne/typer/vuxenakne',
