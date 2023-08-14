@@ -48,12 +48,14 @@ if ($result == false) {
 } else {
 
     http_response_code(200);
+    $output = array();
     if ($result->num_rows == 0) {
-        echo '{}';
+        // no match found, use the default salon urls
+        $output['ostermalm'] = 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559';
+        $output['sodermalm'] = 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-sodermalm-19301';
+        $output['sundbyberg'] = 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300';
     } else {
         $row = $result->fetch_assoc();
-
-        $output = array();
 
         if ($row['url_ostermalm'] != null) {
             $output["ostermalm"] = $row["url_ostermalm"];
@@ -64,7 +66,6 @@ if ($result == false) {
         if ($row['url_sundbyberg'] != null) {
             $output["sundbyberg"] = $row["url_sundbyberg"];
         }
-
-        echo json_encode($output, JSON_UNESCAPED_SLASHES);
     }
+    echo json_encode($output, JSON_UNESCAPED_SLASHES);
 }
