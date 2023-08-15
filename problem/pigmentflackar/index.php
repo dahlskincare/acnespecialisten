@@ -162,41 +162,41 @@ $type_categories = array(
                         title: 'Hormonella pigmentförändringar',
                         subtitle: 'Även kallat melasma',
                         content: '',
-                        image_url: 'images/probpöpo,  lems/102x102/vuxenakne.webp',
-                        image_alt: 'Bild av vuxenakne',
-                        image_title: 'Akne hos vuxna',
-                        url: 'problem/akne/typer/vuxenakne',
-                        url_title: 'Utforska information om vuxenakne'
+                        image_url: 'images/problems/102x102/melasma.webp',
+                        image_alt: 'Bild av hormonella pigmentförändringar',
+                        image_title: 'Hormonella pigmentförändringar',
+                        url: 'problem/pigmentflackar/typer/melasma',
+                        url_title: 'Utforska information om hormonella pigmentförändringar'
                   ),
                   new BasedType(
                         title: 'Solfläckar',
                         subtitle: 'Även kallat Solar Lentigines',
                         content: '',
-                        image_url: 'images/problems/102x102/tonarsakne.webp',
-                        image_alt: 'Bild av tonårsakne',
-                        image_title: 'Akne hos tonåringar',
-                        url: 'problem/akne/typer/tonårsakne',
-                        url_title: 'Utforska information om tonårsakne'
+                        image_url: 'images/problems/102x102/solflackar.webp',
+                        image_alt: 'Bild av solfläckar',
+                        image_title: 'Solfläckar',
+                        url: 'problem/pigmentflackar/typer/solflackar',
+                        url_title: 'Utforska information om solfläckar'
                   ),
                   new BasedType(
                         title: 'Åldersfläckar',
                         subtitle: 'Även kallat Lentigo Senilis',
                         content: '',
-                        image_url: 'images/problems/102x102/tonarsakne.webp',
-                        image_alt: 'Bild av tonårsakne',
-                        image_title: 'Akne hos tonåringar',
-                        url: 'problem/akne/typer/tonårsakne',
-                        url_title: 'Utforska information om tonårsakne'
+                        image_url: 'images/problems/102x102/aldersflackar.webp',
+                        image_alt: 'Bild av åldersfläckar',
+                        image_title: 'Åldersfläckar',
+                        url: 'problem/pigmentflackar/typer/aldersflackar',
+                        url_title: 'Utforska information om åldersfläckar'
                   ),
                   new BasedType(
                         title: 'Fräknar',
                         subtitle: 'Även kallat Ephelides',
                         content: '',
-                        image_url: 'images/problems/102x102/tonarsakne.webp',
-                        image_alt: 'Bild av tonårsakne',
-                        image_title: 'Akne hos tonåringar',
-                        url: 'problem/akne/typer/tonårsakne',
-                        url_title: 'Utforska information om tonårsakne'
+                        image_url: 'images/problems/102x102/freknar.webp',
+                        image_alt: 'Bild av fräknar',
+                        image_title: 'Fräknar',
+                        url: 'problem/pigmentflackar/typer/freknar',
+                        url_title: 'Utforska information om fräknar'
                   ),
 
             )
@@ -207,44 +207,44 @@ $type_categories = array(
             content: '<p class="p200">Färgen på en pigmentfläck kan avslöja mycket om dess orsak och typ. Bruna fläckar är ofta kopplade till åldersrelaterade förändringar och solskador, medan röda eller rosa kan indikera inflammation. Svarta eller mörkbruna fläckar kan vara mer allvarliga och kräver professionell bedömning. Blå eller grå fläckar är oftast medfödda och specifika för vissa hudtyper. Varje färg ger ledtrådar som kan hjälpa i diagnostisering och behandling.</p>',
             types: array(
                   new BasedType(
-                        title: 'Mörka / Bruna Pigmentfläckar',
-                        subtitle: 'Även kallat Hyperpigmentering',
-                        content: '',
-                        image_url: 'images/problems/102x102/tonarsakne.webp',
-                        image_alt: 'Bild av tonårsakne',
-                        image_title: 'Akne hos tonåringar',
-                        url: 'problem/akne/typer/tonårsakne',
-                        url_title: 'Utforska information om tonårsakne'
-                  ),
-                  new BasedType(
-                        title: 'Röda / Lila Pigmentfläckar',
-                        subtitle: 'Även kallat Postinflammatorisk Hyperpigmentering (PIH)',
-                        content: '',
-                        image_url: 'images/problems/102x102/tonarsakne.webp',
-                        image_alt: 'Bild av tonårsakne',
-                        image_title: 'Akne hos tonåringar',
-                        url: 'problem/akne/typer/tonårsakne',
-                        url_title: 'Utforska information om tonårsakne'
-                  ),
-                  new BasedType(
-                        title: 'Ljusbruna Pigmentfläckar',
-                        subtitle: 'Även kallat Café au lait fläckar',
-                        content: '',
-                        image_url: 'images/problems/102x102/tonarsakne.webp',
-                        image_alt: 'Bild av tonårsakne',
-                        image_title: 'Akne hos tonåringar',
-                        url: 'problem/akne/typer/tonårsakne',
-                        url_title: 'Utforska information om tonårsakne'
-                  ),
-                  new BasedType(
-                        title: 'Vita Pigmentfläckar',
-                        subtitle: 'Även kallat Hypopigmentering',
-                        content: '',
-                        image_url: 'images/problems/102x102/tonarsakne.webp',
-                        image_alt: 'Bild av tonårsakne',
-                        image_title: 'Akne hos tonåringar',
-                        url: 'problem/akne/typer/tonårsakne',
-                        url_title: 'Utforska information om tonårsakne'
+                title: 'Mörka / Bruna Pigmentfläckar',
+                subtitle: 'Även kallat Hyperpigmentering',
+                content: '',
+                image_url: 'images/pigmentflackar/102x102/morka-bruna.webp',
+                image_alt: 'Bild av mörka bruna pigmentfläckar',
+                image_title: 'Mörka bruna pigmentförändringar',
+                url: 'problem/pigmentflackar/typer/morka-bruna',
+                url_title: 'Utforska mörka bruna pigmentfläckar'
+          ),
+          new BasedType(
+                title: 'Röda / Lila Pigmentfläckar',
+                subtitle: 'Även kallat Postinflammatorisk Hyperpigmentering (PIH)',
+                content: '',
+                image_url: 'images/pigmentflackar/102x102/roda-lila.webp',
+                image_alt: 'Bild av röda lila pigmentfläckar',
+                image_title: 'Röda lila pigmentförändringar',
+                url: 'problem/pigmentflackar/typer/roda-lila',
+                url_title: 'Utforska röda lila pigmentfläckar'
+          ),
+          new BasedType(
+                title: 'Ljusbruna Pigmentfläckar',
+                subtitle: 'Även kallat Café au lait fläckar',
+                content: '',
+                image_url: 'images/pigmentflackar/102x102/ljusbruna.webp',
+                image_alt: 'Bild av ljusbruna pigmentfläckar',
+                image_title: 'Ljusbruna pigmentförändringar',
+                url: 'problem/pigmentflackar/typer/ljusbruna',
+                url_title: 'Utforska ljusbruna pigmentfläckar'
+          ),
+          new BasedType(
+                title: 'Vita Pigmentfläckar',
+                subtitle: 'Även kallat Hypopigmentering',
+                content: '',
+                image_url: 'images/pigmentflackar/102x102/vita.webp',
+                image_alt: 'Bild av vita pigmentfläckar',
+                image_title: 'Vita pigmentförändringar',
+                url: 'problem/pigmentflackar/typer/vita',
+                url_title: 'Utforska vita pigmentfläckar'
                   ),
             )
       ),
@@ -255,44 +255,44 @@ $type_categories = array(
             content: '<p class="p200">Pigmentfläckar kan uppstå på olika delar av kroppen, inklusive ansiktet, händerna och resten av kroppen. Platsen kan ibland ge insikt i orsaken; till exempel, fläckar på händer och ansikte är ofta kopplade till solskador eftersom dessa områden är mest utsatta för solen. Pigmentfläckar på kroppen kan vara mer relaterade till åldrande eller hormonella förändringar. Bedömning av pigmentfläckar baserat på område hjälper till att förstå underliggande faktorer och ger riktning för skräddarsydd behandling.</p>',
             types: array(
                   new BasedType(
-                        title: 'Pigmentfläckar i ansiktet',
-                        subtitle: 'Även kallat Solfläckar & åldersfläckar',
-                        content: '',
-                        image_url: 'images/problems/102x102/akne-ansikte.webp',
-                        image_alt: 'Bild av akne i ansiktet',
-                        image_title: 'Exempel på akne i ansiktet',
-                        url: 'problem/akne/typer/akne-ansiktet',
-                        url_title: 'Läs mer om akne i ansiktet och dess potentiella behandlingar'
-                  ),
-                  new BasedType(
-                        title: 'Pigmentfläckar på överläppen',
-                        subtitle: 'Även kallat Melasma & Chloasma',
-                        content: '',
-                        image_url: 'images/problems/102x102/akne-ansikte.webp',
-                        image_alt: 'Bild av akne i ansiktet',
-                        image_title: 'Exempel på akne i ansiktet',
-                        url: 'problem/akne/typer/akne-ansiktet',
-                        url_title: 'Läs mer om akne i ansiktet och dess potentiella behandlingar'
-                  ),
-                  new BasedType(
-                        title: 'Pigmentfläckar på Kroppen',
-                        subtitle: 'Även kallat Solfläckar & åldersfläckar',
-                        content: '',
-                        image_url: 'images/problems/102x102/akne-brost.webp',
-                        image_alt: 'Bild av akne på bröstet',
-                        image_title: 'Exempel på akne på bröstet',
-                        url: 'problem/akne/typer/akne-brostet',
-                        url_title: 'Läs mer om akne på bröstet och dess potentiella behandlingar'
-                  ),
-                  new BasedType(
-                        title: 'Pigmentfläckar på Händerna',
-                        subtitle: 'Även kallat Solfläckar & åldersfläckar',
-                        content: '',
-                        image_url: 'images/problems/102x102/akne-brost.webp',
-                        image_alt: 'Bild av akne på bröstet',
-                        image_title: 'Exempel på akne på bröstet',
-                        url: 'problem/akne/typer/akne-brostet',
-                        url_title: 'Läs mer om akne på bröstet och dess potentiella behandlingar'
+                title: 'Pigmentfläckar i ansiktet',
+                subtitle: 'Även kallat Solfläckar & åldersfläckar',
+                content: '',
+                image_url: 'images/pigmentflackar/102x102/ansikte.webp',
+                image_alt: 'Bild av pigmentfläckar i ansiktet',
+                image_title: 'Pigmentförändringar i ansiktet',
+                url: 'problem/pigmentflackar/omraden/ansikte',
+                url_title: 'Läs mer om pigmentfläckar i ansiktet'
+          ),
+          new BasedType(
+                title: 'Pigmentfläckar på överläppen',
+                subtitle: 'Även kallat Melasma & Chloasma',
+                content: '',
+                image_url: 'images/pigmentflackar/102x102/overlappen.webp',
+                image_alt: 'Bild av pigmentfläckar på överläppen',
+                image_title: 'Pigmentförändringar på överläppen',
+                url: 'problem/pigmentflackar/omraden/overlappen',
+                url_title: 'Läs mer om pigmentfläckar på överläppen'
+          ),
+          new BasedType(
+                title: 'Pigmentfläckar på Kroppen',
+                subtitle: 'Även kallat Solfläckar & åldersfläckar',
+                content: '',
+                image_url: 'images/pigmentflackar/102x102/kroppen.webp',
+                image_alt: 'Bild av pigmentfläckar på kroppen',
+                image_title: 'Pigmentförändringar på kroppen',
+                url: 'problem/pigmentflackar/omraden/kroppen',
+                url_title: 'Läs mer om pigmentfläckar på kroppen'
+          ),
+          new BasedType(
+                title: 'Pigmentfläckar på Händerna',
+                subtitle: 'Även kallat Solfläckar & åldersfläckar',
+                content: '',
+                image_url: 'images/pigmentflackar/102x102/hander.webp',
+                image_alt: 'Bild av pigmentfläckar på händerna',
+                image_title: 'Pigmentförändringar på händerna',
+                url: 'problem/pigmentflackar/omraden/hander',
+                url_title: 'Läs mer om pigmentfläckar på händerna'
                   ),
 
             )
@@ -300,8 +300,9 @@ $type_categories = array(
 
 );
 
-$types_url = '<a href="typer" title="Lär dig mer om olika typer av akne och deras behandling" class="mt-xl button b200 outline expand l10n is-hidden-tablet">Läs mer om olika typer av akne</a>
-              <a href="typer" title="Lär dig mer om olika typer av akne och deras behandling" class="mt-xl button b200 outline l10n is-hidden-mobile">Läs mer om olikta typer av akne</a>';
+$types_url = '<a href="typer" title="Lär dig mer om olika typer av pigmentfläckar och deras behandling" class="mt-xl button b200 outline expand l10n is-hidden-tablet">Läs mer om olika typer av pigmentfläckar</a>
+              <a href="typer" title="Lär dig mer om olika typer av pigmentfläckar och deras behandling" class="mt-xl button b200 outline l10n is-hidden-mobile">Läs mer om olika typer av pigmentfläckar</a>';
+
 
 
 $symptoms_title = 'Olika typer av pigmentfläckar';
