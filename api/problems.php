@@ -4,12 +4,14 @@
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json; charset=UTF-8");
 
+$language = array_key_exists('HTTP_ACCEPT_LANGUAGE', $_SERVER) ? $_SERVER['HTTP_ACCEPT_LANGUAGE'] : 'en';
+
 $servername = "db";
 $username = $_ENV['DB_USER'];
 $password = $_ENV['DB_PASSWORD'];
 $dbname = $_ENV['DB_NAME'];
 
-$query = "SELECT * FROM $dbname.problem LIMIT 1000";
+$query = "SELECT id, image_url, name_$language AS name, aka_$language AS aka FROM $dbname.problem LIMIT 1000";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password);
