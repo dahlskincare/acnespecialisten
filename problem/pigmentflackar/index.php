@@ -305,92 +305,7 @@ $types_url = '<a href="typer" title="Lär dig mer om olika typer av pigmentfläc
 
 
 
-$symptoms_title = 'Olika typer av pigmentfläckar';
 
-$symptoms = array(
-      new Symptom(
-            name: 'Hormonella pigmentfläckar',
-            aka: 'Känt som melasma eller chloasma',
-            content: 'Melasma visar sig som mörka, oregelbundna fläckar främst i ansiktet. Det kan vara kopplat till hormonella förändringar som graviditet eller användning av p-piller, och exponering för solen kan förvärra tillståndet.',
-            url: 'problem/pigmentflackar/melasma',
-            url_title: 'Lär dig mer om Melasma',
-            url_label: 'Läs mer',
-            image: 'images/symptoms/102x102/melasma.webp',
-            image_alt: 'Bild som visar Melasma',
-            image_title: 'Melasma'
-      ),
-            new Symptom(
-            name: 'Solfläckar (Solar Lentigines)',
-            aka: 'Känt som Solskadad hud (Actinic Keratosis)',
-            content: 'Solskadad hud, eller Actinic Keratosis, sker när huden utsätts för alltför mycket solstrålning utan lämpligt skydd. Detta kan leda till en rad olika förändringar i huden, inklusive ålderfläckar, solfläckar (Solar Lentigines), och i värre fall även hudcancer. Solskador kan vara permanenta, men det finns behandlingar som kan ta bort pigmenfläckarna.',
-            url: 'problem/solskador/solskadad-hud',
-            url_title: 'Lär dig mer om solskadad hud och solfläckar',
-            url_label: 'Läs mer',
-            image: 'images/symptoms/102x102/solskadad_hud.webp',
-            image_alt: 'Bild som visar solskadad hud och solfläckar',
-            image_title: 'Solskadad hud'
-      ),
-      new Symptom(
-            name: 'Åldersfläckar',
-            aka: 'Känt som åldrande hud (Lentigo Senilis)',
-            content: 'Solskadad hud, eller Actinic Keratosis, sker när huden utsätts för alltför mycket solstrålning utan lämpligt skydd. Detta kan leda till en rad olika förändringar i huden, inklusive ålderfläckar, solfläckar (Solar Lentigines), och i värre fall även hudcancer. Solskador kan vara permanenta, men det finns behandlingar som kan ta bort pigmenfläckarna.',
-            url: 'problem/solskador/solskadad-hud',
-            url_title: 'Lär dig mer om solskadad hud och solfläckar',
-            url_label: 'Läs mer',
-            image: 'images/symptoms/102x102/solskadad_hud.webp',
-            image_alt: 'Bild som visar solskadad hud och solfläckar',
-            image_title: 'Solskadad hud'
-      ),
-      new Symptom(
-            name: 'Mörka / Lila Pigmenteringar',
-            aka: 'Känt som Postinflammatorisk Hyperpigmentering (PIH)',
-            content: 'Mörka fläckar efter akne eller inflammation. PIH uppstår som ett resultat av inflammation, inklusive akne. Ökad melaninproduktion leder till mörkare märken som kan variera i färg.',
-            url: 'problem/pigmentflackar/postinflammatorisk-hyperpigmentering',
-            url_title: 'Lär dig mer om Postinflammatorisk Hyperpigmentering',
-            url_label: 'Läs mer',
-            image: 'images/symptoms/102x102/pih.webp',
-            image_alt: 'Bild som visar Postinflammatorisk Hyperpigmentering',
-            image_title: 'Postinflammatorisk Hyperpigmentering'
-      ),
-            new Symptom(
-            name: 'Vita pigmentfläckar',
-            aka: 'känt som Vitiligo',
-            content: 'Vitiligo orsakar förlust av hudfärg i fläckar och kan påverka alla delar av huden. Det är en autoimmun sjukdom, och de exakta orsakerna är okända.',
-            url: 'problem/pigmentflackar/vitiligo',
-            url_title: 'Lär dig mer om Vitiligo',
-            url_label: 'Läs mer',
-            image: 'images/symptoms/102x102/vitiligo.webp',
-            image_alt: 'Bild som visar Vitiligo',
-            image_title: 'Vitiligo'
-      ),
-            new Symptom(
-            name: 'Ljusbruna Pigmentfläckar',
-            aka: 'även känt som Café au lait-fläckar',
-            content: 'Ljusbruna pigmentfläckar, eller Café au lait-fläckar, är ljusbruna till mörkbruna jämnt färgade fläckar på huden. De är vanligtvis ovala i formen och kan förekomma var som helst på kroppen. Café au lait-fläckar är oftast ofarliga men kan ibland vara associerade med vissa genetiska tillstånd som Neurofibromatos.',
-            url: 'problem/pigmentflackar/cafe-au-lait',
-            url_title: 'Lär dig mer om Café au lait-fläckar',
-            url_label: 'Läs mer',
-            image: 'images/symptoms/102x102/cafe-au-lait.webp',
-            image_alt: 'Bild som visar Café au lait-fläckar',
-            image_title: 'Café au lait-fläckar'
-      ),
-      new Symptom(
-            name: 'Fräknar',
-            aka: 'Känt som Ephelides',
-            content: 'Fräknar är små bruna fläckar som oftast förekommer på ljus hud. De är ofarliga och är vanligtvis ett resultat av genetik och exponering för solen.',
-            url: 'problem/pigmentflackar/freckles',
-            url_title: 'Lär dig mer om Fräknar',
-            url_label: 'Läs mer',
-            image: 'images/symptoms/102x102/freckles.webp',
-            image_alt: 'Bild som visar Fräknar',
-            image_title: 'Fräknar'
-      ),
-
-
-
-
-
-);
 
 $headline01 = "01. Identifiera dina Pigmentfläckar";
 
@@ -1010,25 +925,7 @@ $brands_url_title = "Varumärken för ärr";
                                     </div>
                                     <?php echo $types_url ?>
                               </section>
-                        <?php } ?>
-                        <?php if (sizeof($symptoms) > 0) { ?>
-                              <section id="symptoms">
-                                    <h2 class="h500"><?php echo $symptoms_title ?></h2>
-                                    <div class="mt-m is-hidden-tablet" id="symptom-buttons">
-                                          <?php foreach ($symptoms as $symptom) { ?>
-                                                <a href="javascript:;" class="button b50 grey">
-                                                      <?php echo $symptom->name ?>
-                                                </a>
-                                          <?php } ?>
-                                    </div>
-                                    <div class="columns is-multiline is-variable is-3" id="symptom-cards">
-                                          <?php foreach ($symptoms as $symptom) { ?>
-                                                <div class="column is-half">
-                                                      <?php include('../widgets/symptom-card/symptom-card.php'); ?>
-                                                </div>
-                                          <?php } ?>
-                                    </div>
-                              </section>
+
                         <?php } ?>
                         <section id="define">
                               <h2 class="h500 l10n"><?php echo $headline01 ?></h2>
