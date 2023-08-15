@@ -9,30 +9,20 @@ $username = $_ENV['DB_USER'];
 $password = $_ENV['DB_PASSWORD'];
 $dbname = $_ENV['DB_NAME'];
 
-
+$goal = array_key_exists('goal', $_GET) ? $_GET['goal'] : 'skinConsultation';
 $is_online = array_key_exists('isOnline', $_GET) ? $_GET['isOnline'] : 0;
 
 $filters = array();
-if (array_key_exists('problemId', $_GET)) {
-    $filters['problemId'] = $_GET['problemId'];
-}
-if (array_key_exists('serviceId', $_GET)) {
-    $filters['serviceId'] = $_GET['serviceId'];
-}
-if (array_key_exists('brandId', $_GET)) {
-    $filters['brandId'] = $_GET['brandId'];
+if (array_key_exists('target_id', $_GET)) {
+    $filters['target_id'] = $_GET['target_id'];
 }
 
 // join filters into a string
-$query = "SELECT * FROM $dbname.consultation_booking_url WHERE isOnline = $is_online";
+$query = "SELECT * FROM $dbname.consultation_booking_url WHERE goal = '$goal' AND is_online = $is_online";
 foreach ($filters as $key => $value) {
     $query .= " AND " . $key . " = " . "'" . $value . "'";
 }
 $query .= " LIMIT 1";
-
-$problem_id =  array_key_exists('problemId', $_GET) ? $_GET['problemId'] : null;
-$service_id = array_key_exists('serviceId', $_GET) ? $_GET['serviceId'] : null;
-$brand_id = array_key_exists('brandId', $_GET) ? $_GET['brandId'] : null;
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password);
@@ -49,12 +39,7 @@ if ($result == false) {
 
     http_response_code(200);
     $output = array();
-    if ($result->num_rows == 0) {
-        // no match found, use the default salon urls
-        $output['ostermalm'] = 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559';
-        $output['sodermalm'] = 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-sodermalm-19301';
-        $output['sundbyberg'] = 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300';
-    } else {
+    if ($result->num_rows > 0) {
         $row = $result->fetch_assoc();
 
         if ($row['url_ostermalm'] != null) {
@@ -66,6 +51,13 @@ if ($result == false) {
         if ($row['url_sundbyberg'] != null) {
             $output["sundbyberg"] = $row["url_sundbyberg"];
         }
+    }
+
+    if (empty($output)) {
+        // no match found, use the default salon urls
+        $output['ostermalm'] = 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559';
+        $output['sodermalm'] = 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-sodermalm-19301';
+        $output['sundbyberg'] = 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300';
     }
     echo json_encode($output, JSON_UNESCAPED_SLASHES);
 }
