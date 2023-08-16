@@ -5,6 +5,8 @@ header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json; charset=UTF-8");
 
 $language = array_key_exists('HTTP_ACCEPT_LANGUAGE', $_SERVER) ? $_SERVER['HTTP_ACCEPT_LANGUAGE'] : 'en';
+$language = substr($language, 0, 2);
+
 
 $servername = "db";
 $username = $_ENV['DB_USER'];
