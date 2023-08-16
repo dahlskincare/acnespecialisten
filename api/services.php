@@ -32,5 +32,5 @@ if ($result == false) {
         $output[] = $row;
     }
 
-    echo json_encode($output, JSON_UNESCAPED_SLASHES);
+    echo json_encode($output, JSON_UNESCAPED_SLASHES | JSON_NUMERIC_CHECK | JSON_UNESCAPED_UNICODE);
 }
