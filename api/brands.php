@@ -1,4 +1,6 @@
 <?php
+$dotenv = Dotenv\Dotenv::createImmutable($_SERVER['DOCUMENT_ROOT'] . '/api');
+$dotenv->load();
 
 // add http headers
 header("Access-Control-Allow-Origin: *");
