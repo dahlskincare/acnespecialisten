@@ -8,7 +8,7 @@ $language = array_key_exists('HTTP_ACCEPT_LANGUAGE', $_SERVER) ? $_SERVER['HTTP_
 $language = substr($language, 0, 2);
 
 
-$servername = "db";
+$servername = $_ENV['DB_URL'];
 $username = $_ENV['DB_USER'];
 $password = $_ENV['DB_PASSWORD'];
 $dbname = $_ENV['DB_NAME'];
