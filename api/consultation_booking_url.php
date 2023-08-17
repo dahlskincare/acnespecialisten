@@ -3,7 +3,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
 $dotenv = Dotenv\Dotenv::createImmutable($_SERVER['DOCUMENT_ROOT'] . '/api');
 $dotenv->load();
 
-// add http headers
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json; charset=UTF-8");
 
@@ -27,13 +26,11 @@ foreach ($filters as $key => $value) {
 }
 $query .= " LIMIT 1";
 
-// Create connection
 $conn = mysqli_connect($servername, $username, $password);
-
-// Check connection
 if (!$conn) {
     die("DB connection failed: " . mysqli_connect_error());
 }
+mysqli_set_charset($conn, 'utf8');
 
 $result = mysqli_query($conn, $query);
 if ($result == false) {
