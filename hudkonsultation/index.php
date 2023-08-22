@@ -18,21 +18,21 @@ $categories = array(
                 subtitle: 'Also called acne scars',
                 image: 'https://via.placeholder.com/102x102.webp',
                 url: 'behandlingar/ansiktsbehandlingar-problemhy/chemical-peeling/',
-                consultation_url: 'hudkonsultation'
+                consultation_url: 'consultation-booking?problem=acneScars'
             ),
             new ConsultationType(
                 title: 'Acne scars',
                 subtitle: 'Also called acne',
                 image: 'https://via.placeholder.com/102x102.webp',
                 url: 'behandlingar/ansiktsbehandlingar-problemhy/chemical-peeling/',
-                consultation_url: 'hudkonsultation'
+                consultation_url: 'consultation-booking?problem=chemicalPeeling'
             ),
             new ConsultationType(
                 title: 'Comedones',
                 subtitle: 'Also called scars stains',
                 image: 'https://via.placeholder.com/102x102.webp',
                 url: 'behandlingar/ansiktsbehandlingar-problemhy/chemical-peeling/',
-                consultation_url: 'hudkonsultation'
+                consultation_url: 'consultation-booking?problem=chemicalPeeling'
             ),
         ),
         button_label: 'View problems list',
@@ -46,22 +46,22 @@ $categories = array(
                 title: 'Problem skin facials',
                 image: 'https://via.placeholder.com/102x102.webp',
                 url: 'behandlingar/ansiktsbehandlingar-problemhy/chemical-peeling/',
-                consultation_url: 'hudkonsultation'
+                consultation_url: 'consultation-booking?service=chemicalPeeling'
             ),
             new ConsultationType(
                 title: 'Classic facials',
                 image: 'https://via.placeholder.com/102x102.webp',
                 url: 'behandlingar/ansiktsbehandlingar-problemhy/chemical-peeling/',
-                consultation_url: 'hudkonsultation'
+                consultation_url: 'consultation-booking?service=chemicalPeeling'
             ),
             new ConsultationType(
                 title: 'Microneedling',
                 image: 'https://via.placeholder.com/102x102.webp',
                 url: 'behandlingar/ansiktsbehandlingar-problemhy/chemical-peeling/',
-                consultation_url: 'hudkonsultation'
+                consultation_url: 'consultation-booking?service=chemicalPeeling'
             ),
         ),
-        button_label: 'View problems list',
+        button_label: 'View services list',
     )
 );
 
@@ -100,10 +100,10 @@ $categories = array(
                         <div class="mt-xl">
                             <div class="columns is-2 is-variable">
                                 <div class="column">
-                                    <a href="hudkonsultation" class="button white expand l10n" title="Book a clinict visit">Book a clinict visit</a>
+                                    <a href="consultation-booking?type=clinic" class="button white expand l10n" title="Book a clinict visit">Book a clinict visit</a>
                                 </div>
                                 <div class="column">
-                                    <a href="https://bokadirekt.se" class="button white expand l10n" title="Book an online call">Book an online call</a>
+                                    <a href="consultation-booking?type=online" class="button white expand l10n" title="Book an online call">Book an online call</a>
                                 </div>
                             </div>
                         </div>
@@ -123,10 +123,10 @@ $categories = array(
                     <div class="mt-xl">
                         <div class="columns is-mobile">
                             <div class="column is-half">
-                                <a href="hudkonsultation" class="button b200 white expand l10n" title="Book a clinic visit">Book a clinic visit</a>
+                                <a href="consultation-booking?type=clinic" class="button b200 white expand l10n" title="Book a clinic visit">Book a clinic visit</a>
                             </div>
                             <div class="column is-half">
-                                <a href="https://bokadirekt.se" class="button b200 white expand l10n" title="Book an online call">Book an online call</a>
+                                <a href="consultation-booking?type=online" class="button b200 white expand l10n" title="Book an online call">Book an online call</a>
                             </div>
                         </div>
                     </div>
@@ -149,8 +149,8 @@ $categories = array(
                         <h3 class="mt-s h200 l10n">Duration: 20 min</h3>
                         <p class="mt-s p200 l10n">Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat.</p>
                         <div class="mt-xl flex-row" id="book-buttons">
-                            <a href="hudkonsultation" class="button b200 white l10n" title="Book a clinic visit">Book a clinic visit</a>
-                            <a href="https://bokadirekt.se" class="button b200 white l10n" title="Book an online call">Book an online call</a>
+                            <a href="consultation-booking?type=clinic" class="button b200 white l10n" title="Book a clinic visit">Book a clinic visit</a>
+                            <a href="consultation-booking?type=online" class="button b200 white l10n" title="Book an online call">Book an online call</a>
                         </div>
                     </div>
                 </div>
