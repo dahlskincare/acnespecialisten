@@ -78,9 +78,7 @@ $trivias = array(
             prefix: 'Vad',
             title: 'är finnar?',
             content: '<p class="p200">Finnar är en form av akne, en hudåkomma som kännetecknas av inflammerade talgkörtlar i huden. Det uppstår vanligtvis i ansiktet, nacken, bröstet, ryggen och axlarna. Finnar kan variera i svårighetsgrad, från milda till svåra utbrott, och kan påverka både tonåringar och vuxna.</p>',
-
             extended_content: '<p class="p200 mt-xl">Finnarna kan uppstå som vita prickar, svarta prickar eller som röda inflammerade områden. Dessa olika typer av finnar har olika orsaker och behandlingar, och vissa typer kan lämna ärr om de inte behandlas korrekt.</p>       
-
             <p class="p200 mt-xl">På AcneSpecialisten har vi expertis inom finnar och relaterade hudproblem. Vi kan hjälpa dig att förstå din hudtyp och dess behov och erbjuda en behandlingsplan som är skräddarsydd för just dig.</p>',
             icons: array()
       ),
@@ -88,33 +86,24 @@ $trivias = array(
             prefix: 'Varför',
             title: 'får man finnar?',
             content: '<p class="p200">Finnar uppstår när porerna i din hud blir igensatta med olja och döda hudceller. Varje por är ansluten till en talgkörtel, som producerar en oljig substans kallad talg. Extra talg kan täppa till porer, vilket resulterar i tillväxt av bakterier och inflammation - det vi känner igen som finnar.</p>',
-
             extended_content: '<p class="p200 mt-xl">Faktorer som hormonella förändringar, användning av olämpliga hudvårdsprodukter, stress och kost kan också bidra till uppkomsten av finnar. Det är viktigt att förstå de underliggande orsakerna för att kunna behandla finnar effektivt.</p>
-
             <p class="p200 mt-xl">På AcneSpecialisten erbjuder vi en omfattande hudanalys för att identifiera orsakerna till dina finnar och utveckla en personlig behandlingsplan. Vi tar hänsyn till din livsstil, kost och andra faktorer som kan påverka din hud.</p>',
-
             icons: array('who-infants' => 'Hormoner', 'who-teenagers' => 'Stress', 'who-adults' => 'Genetik', 'who-elders' => 'Livsstil')
       ),
       new ProblemTrivia(
             prefix: 'Vem',
             title: 'får finnar?',
             content: '<p class="p200">Även om finnar oftast förknippas med tonåringar, kan personer i alla åldrar drabbas. Hormonella förändringar, t.ex. under puberteten eller menstruation, kan utlösa ökad talgproduktion. Men även vissa läkemedel, kosten och genetik kan bidra till uppkomsten av finnar.</p>',
-
             extended_content: '<p class="p200 mt-xl">Vuxna, särskilt kvinnor, kan fortsätta att uppleva finnar långt in i 30- och 40-årsåldern. Detta kan vara relaterat till hormonella förändringar, användning av vissa kosmetika eller andra underliggande hälsoproblem.</p>
-
             <p class="p200 mt-xl">På AcneSpecialisten har vi erfarenhet av att behandla finnar hos individer i alla åldrar. Vi erbjuder ett brett utbud av behandlingar och produkter som kan anpassas till dina specifika behov och livsförhållanden.</p>',
-
             icons: array('who-infants' => 'Barn', 'who-teenagers' => 'Ungdommar', 'who-adults' => 'Vuxna', 'who-elders' => 'Män & Kvinnor')
       ),
       new ProblemTrivia(
             prefix: 'Var',
             title: 'får man finnar?',
             content: '<p class="p200">Finnar uppstår vanligtvis på delar av kroppen där det finns många talgkörtlar, inklusive ansikte, rygg, bröst och axlar. Men de kan också uppstå på andra områden beroende på individuella faktorer som hudtyp och livsstil.</p>',
-
             extended_content: '<p class="p200 mt-xl">Vissa områden, som hakan och käklinjen, kan vara mer mottagliga för finnar på grund av hormonella förändringar. Finnar på ryggen och bröstet kan förvärras av svett och friktion från kläder.</p>
-
             <p class="p200 mt-xl">På AcneSpecialisten erbjuder vi specialiserade behandlingar för finnar på olika delar av kroppen. Våra hudterapeuter kan hjälpa dig att identifiera orsakerna till finnar i olika områden och erbjuda effektiva lösningar för att rengöra och återställa din hud.</p>',
-
             icons: array('who-infants' => 'Ansiktet', 'who-teenagers' => 'Ryggen', 'who-adults' => 'Bröstet', 'who-elders' => 'Axlarna')
       ),
 );
@@ -130,7 +119,7 @@ $treatment_steps = array(
             title: 'Behandla',
             content: 'Vi erbjuder målinriktade och effektiva behandlingar för dina finnar, anpassade efter din hudtyp och finnarnas svårighetsgrad. Genom säkra metoder säkerställer vi att du snabbt får kontroll över ditt problem.',
             url_label: 'Se behandlingar mot finnar',
-            url: 'Behandlingar',
+            url: 'behandlingar',
             url_title: 'Utforska våra skräddarsydda behandlingar mot finnar'
       ),
       new TreatmentStep(
@@ -144,7 +133,7 @@ $treatment_steps = array(
             title: 'Reparera',
             content: 'Om finnarna har lämnat ärr eller annan skada, fokuserar vi på att reparera din hud med avancerade behandlingsmetoder som laser, microneedling och kemisk peeling. Målet är en jämn, vacker och problemfri hud.',
             url_label: 'Se ärrbehandlingar',
-            url: 'finnararr-behandling',
+            url: 'behandlingar/finnar-behandling',
             url_title: 'Upptäck effektiva behandlingar för ärr orsakade av finnar'
       ),
 );
@@ -332,8 +321,8 @@ $type_categories = array(
 
 );
 
-$types_url = '<a href="typer" title="Lär dig mer om olika typer av finnar och deras behandling" class="mt-xl button b200 outline expand l10n is-hidden-tablet">Läs mer om olika typer av finnar</a>
-              <a href="typer" title="Lär dig mer om olika typer av finnar och deras behandling" class="mt-xl button b200 outline l10n is-hidden-mobile">Läs mer om olikta typer av finnar</a>';
+$types_url = '<a href="finnar/typer" title="Lär dig mer om olika typer av finnar och deras behandling" class="mt-xl button b200 outline expand l10n is-hidden-tablet">Läs mer om olika typer av finnar</a>
+              <a href="finnar/typer" title="Lär dig mer om olika typer av finnar och deras behandling" class="mt-xl button b200 outline l10n is-hidden-mobile">Läs mer om olikta typer av finnar</a>';
 
 $symptoms_title = 'Finnar symptom';
 
@@ -419,13 +408,13 @@ $service = new Service(
       image_large: 'images/services/200x200/finnar-konsultation.webp',
       image_alt: 'Bild som visar en konsultation för finnar',
       image_title: 'Konsultation för finnbehandling',
-      consultation_url: 'finnar-konsultation',
+      consultation_url: 'consultation-booking?problem=pimples',
       consultation_url_label: 'Boka tid för finnar konsultation',
       consultation_url_title: 'Klicka här för att boka en tid för en konsultation om finnar',
       booking_url: null,
       booking_url_label: null,
       booking_url_title: null,
-      url: '/konsultation',
+      url: 'hudkonsultation',
       url_label: 'Läs mer om vår konsultation för finnar',
       url_title: 'Klicka här för att lära dig mer om vår kostnadsfria konsultation för finnar'
 
@@ -444,13 +433,13 @@ $services = array(
             image_large: 'images/services/200x200/ansiktsbehandling-finnar.webp',
             image_alt: 'Bild av en ansiktsbehandling mot finnar',
             image_title: 'Ansiktsbehandling mot finnar',
-            consultation_url: 'hudkonsultation',
+            consultation_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/finnar-konsultation-1643922',
             consultation_url_label: 'Boka tid för hudkonsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling mot finnar',
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/finnar-konsultation-1643922',
             booking_url_label: 'Boka tid för ansiktsbehandling mot finnar',
             booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling mot finnar',
-            url: 'ansiktsbehandling-finnar',
+            url: 'behandlingar/ansiktsbehandling-finnar',
             url_label: 'Läs mer om ansiktsbehandling mot finnar',
             url_title: 'Klicka här för att läsa mer om ansiktsbehandling mot finnar'
       ),
@@ -464,13 +453,13 @@ $services = array(
             image_large: 'images/services/200x200/laser-finnar.webp',
             image_alt: 'Bild av laserbehandling mot finnar',
             image_title: 'Laserbehandling mot finnar för en klarare hud',
-            consultation_url: 'hudkonsultation',
+            consultation_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/finnar-konsultation-1643922',
             consultation_url_label: 'Boka tid för hudkonsultation',
             consultation_url_title: 'Klicka här för att boka tid för en hudkonsultation för laserbehandling mot finnar',
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/finnar-konsultation-1643922',
             booking_url_label: 'Boka tid för laserbehandling mot finnar',
             booking_url_title: 'Klicka här för att boka tid för en laserbehandling mot finnar',
-            url: 'laser-finnar',
+            url: 'behandlingar/laser-finnar',
             url_label: 'Läs mer om laser mot finnar',
             url_title: 'Läs mer om vår effektiva laserbehandling mot finnar'
       ),
@@ -484,13 +473,13 @@ $services = array(
             image_large: 'images/services/200x200/kemisk-peeling-finnar.webp',
             image_alt: 'Bild av kemisk peeling mot finnar',
             image_title: 'Kemisk peeling mot finnar behandling',
-            consultation_url: 'hudkonsultation',
+            consultation_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/finnar-konsultation-1643922',
             consultation_url_label: 'Boka tid för hudkonsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för kemisk peeling mot finnar',
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/finnar-konsultation-1643922',
             booking_url_label: 'Boka tid för kemisk peeling mot finnar',
             booking_url_title: 'Klicka för att boka tid för en kemisk peeling mot finnar behandling',
-            url: 'kemisk-peeling-finnar',
+            url: 'behandlingar/kemisk-peeling-finnar',
             url_label: 'Läs mer om kemisk peeling mot finnar',
             url_title: 'Klicka här för att läsa mer om kemisk peeling mot finnar'
       ),
@@ -505,13 +494,13 @@ $services = array(
             image_large: 'images/services/200x200/microneedling-finnar.webp',
             image_alt: 'Bild av microneedling mot finnar',
             image_title: 'Microneedling mot finnar',
-            consultation_url: 'hudkonsultation',
+            consultation_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/finnar-konsultation-1643922',
             consultation_url_label: 'Boka tid för hudkonsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling mot finnar',
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/finnar-konsultation-1643922',
             booking_url_label: 'Boka tid för microneedling mot finnar',
             booking_url_title: 'Klicka för att boka tid för en microneedling mot finnar',
-            url: 'microneedling-finnar',
+            url: 'behandlingar/microneedling-finnar',
             url_label: 'Läs mer om microneedling mot finnar',
             url_title: 'Klicka här för att läsa mer om microneedling mot finnar'
       )
@@ -538,7 +527,7 @@ $products = array(
             booking_url: null,
             booking_url_label: null,
             booking_url_title: null,
-            url: 'produkter-finnar',
+            url: 'https://dahlskincare.se/produktkategorier/produktpaket/finnar',
             url_label: 'Läs mer om våra produkter mot finnar',
             url_title: 'Klicka här för att läsa mer om våra effektiva produkter mot finnar'
       )
@@ -564,7 +553,7 @@ $procedures = array(
             booking_url: null,
             booking_url_label: null,
             booking_url_title: null,
-            url: 'behandling/finnararr',
+            url: 'behandlingar/finnararr',
             url_label: 'Läs mer om behandlingar mot ärr från finnar',
             url_title: 'Klicka här för att läsa mer om våra behandlingar mot ärr från finnar'
       ),
