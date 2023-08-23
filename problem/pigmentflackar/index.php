@@ -9,10 +9,6 @@ $seo_title = 'Allt om Pigmentfläckar - Behandlingsmetoder, Orsaker och Hur Man 
 $seo_description = 'Lär dig allt om pigmentfläckar, inklusive deras bakomliggande orsaker, effektiva metoder för behandling, och hur du kan förebygga dem. Sök professionell vägledning och skräddarsydda lösningar för hyperpigmentering och hudfläckar från Acnespecialisten.';
 $seo_keywords = 'pigmentfläckar, behandling av pigmentfläckar, orsaker till pigmentfläckar, förebygga pigmentfläckar, minska pigmentfläckar, hyperpigmentering, hudfläckar, behandling av hyperpigmentering, pigmenteringar';
 
-
-
-
-
 $title = 'Pigmentfläckar';
 
 $description = 'Lider du av pigmentfläckar, även kända som pigmentförändringar och hudfläckar? Vi känner till utmaningarna och har lösningen för dig. Lär dig mer om dessa hudfläckar, deras orsaker och hur våra specialiserade terapeuter kan skräddarsy en behandling för just dig. Boka en kostnadsfri konsultation nu och påbörja din väg mot en fläckfri och frisk hud.';
@@ -80,9 +76,7 @@ $trivias = array(
             prefix: 'Vad',
             title: 'är pigmentfläckar?',
             content: '<p class="p200">Pigmentfläckar, kända som mörka hudfläckar, är områden på huden som har blivit mörkare än den omgivande huden. Denna mörkfärgning beror på en överproduktion av melanin, hudens naturliga pigment. Fläckarna kan variera i färg, storlek och form och kan finnas var som helst på kroppen. De är oftast ofarliga men kan påverka huden estetiskt och känslomässigt, speciellt om de är synliga på utsatta områden som ansikte och händer.</p>',
-
             extended_content: '<p class="p200 mt-xl">Pigmentfläckar kan visa sig på olika sätt. Vissa är bara milda färgförändringar, medan andra kan vara mörkare och mer framträdande. De kan klassificeras i olika typer som leverfläckar, solfläckar och melasma. Varje typ kräver en unik behandlingsmetod.</p>
-
             <p class="p200 mt-xl">Hos oss, med över 30 års erfarenhet av att behandla pigmentfläckar, erbjuder vi de mest effektiva metoderna. Behandlingen måste skräddarsys efter din hudtyp och dina specifika fläckar. Våra specialister står redo att erbjuda dig en kostnadsfri hudkonsultation för att analysera din situation och utforma en personlig behandlingsplan. Du blir också tilldelad en personlig hudterapeut som stöttar dig genom hela behandlingsprocessen, från start till mål.</p>',
             icons: array()
       ),
@@ -92,26 +86,16 @@ $trivias = array(
             prefix: 'Varför',
             title: 'uppstår pigmentfläckar?',
             content: '<p class="p200">Pigmentfläckar eller pigmentförändringa uppstår när melanin produceras ojämnt i huden, vilket skapar mörkare fläckar. Detta kan orsakas av solskador, åldrande, hormonella obalanser eller vissa mediciner och hälsoförhållanden. Vissa typer av pigmentfläckar kan bli permanenta om de inte behandlas korrekt.</p>',
-
             extended_content: '<p class="p200 mt-xl">Förståelse för typen av pigmentfläck och dess orsak är nyckeln till effektiv behandling. Felaktig behandling kan förvärra tillståndet, medan tidig diagnos och rätt behandling kan förhindra att fläckarna blir permanenta. Kunskap om hudvård och förebyggande åtgärder är också avgörande.</p>
-
             <p class="p200 mt-xl">Med över 30 års erfarenhet i branschen, specialiserar vi oss på att förstå och behandla pigmentfläckar. Vi erbjuder en kostnadsfri konsultation för att analysera din hud och utforma en individuell behandlingsplan. Genom att arbeta tillsammans med dig, strävar vi efter att förbättra och bevara din huds hälsa och utseende. Boka en tid idag och ta steget mot en klarare och friskare hud.</p>',
-
             icons: array('who-infants' => 'Solskador', 'who-teenagers' => 'Hormonella obalanser', 'who-adults' => 'Åldrande', 'who-elders' => 'Felaktig behandling')
       ),
-
-
-
       new ProblemTrivia(
             prefix: 'Vem',
             title: 'får pigmentfläckar?',
             content: '<p class="p200">Pigmentfläckar, även kända som pigmentförändringar, är ett fenomen som inte begränsas till en viss ålder, kön eller hudton. Individer med mörkare hud och de som har en familjehistoria av pigmentfläckar kan dock vara mer benägna att utveckla dessa märken. Hormonella förändringar, som de som kan inträffa under graviditet, kan också bidra till deras uppkomst.</p>',
-
             extended_content: '<p class="p200 mt-xl">Solskadad hy är en av de vanligaste orsakerna till att pigmentfläckar uppkommer. Långvarig exponering för solens strålar kan leda till en ökad produktion av melanin, vilket i sin tur kan resultera i ojämna mörka fläckar på huden. Åldrande kan också leda till ojämn melaninproduktion, där hudens förmåga att jämnt fördela melanin förändras med tiden. Detta resulterar i olika typer och nyanser av pigmentfläckar.</p>
-
             <p class="p200 mt-xl">Även om pigmentfläckar i ansiktet och på kroppen är helt ofarliga, kan de vara störande ur ett estetiskt perspektiv. Dessa fläckar kan variera i storlek, form och färg, och kan vara både mörkt bruna, ljust bruna och helt vita. Eftersom de ofta uppenbarar sig i ansiktet, på kinderna och pannan, kan de påverka självkänslan hos många. Att söka professionell hjälp för att behandla och minimera deras utseende kan vara ett effektivt sätt att återställa huden till ett mer enhetligt och klart utseende.</p>',
-
-
             icons: array('who-infants' => 'Kvinnor', 'who-teenagers' => 'Män', 'who-adults' => 'Ungdommar', 'who-elders' => 'Vuxna')
       ),
 
@@ -119,14 +103,9 @@ $trivias = array(
             prefix: 'Var',
             title: 'får man pigmentfläckar?',
             content: '<p class="p200">Pigmentfläckar, eller hudfläckar, uppstår ofta i ansiktet, där de vanligtvis påverkar områden som kinder och panna. Exponering för solen utan ordentligt skydd kan snabbt leda till dessa missfärgningar, särskilt i områden som är mest utsatta för solljuset.</p>',
-
             extended_content: '<p class="p200 mt-xl">Bortom ansiktet kan pigmentfläckar även dyka upp på andra delar av kroppen, inklusive halsen, dekolletaget och händerna. Platser som ofta exponeras för solen är mer benägna att drabbas. Den ojämna produktionen av melanin som resulterar i fläckarna kan manifesteras var som helst på huden.</p>
-            
             <p class="p200 mt-xl">Om du vill ta bort dina pigmentfläckar och vill förstå mer om din specifika situation är det viktigt med professionell hjälp. Hos oss får du möjlighet att boka en kostnadsfri konsultation med en dedikerad hudterapeut som kan identifiera typen av pigmentfläckar du har och lägga upp en individuell behandlingsplan. Denna personliga analys hjälper oss att skräddarsy den mest effektiva metoden för att behandla dina pigmentfläckar och hjälpa dig att återfå en jämn och klar hudton.</p>',
-
             icons: array('who-infants' => 'Ansiktet', 'who-teenagers' => 'Ryggen', 'who-adults' => 'Bröstet', 'who-elders' => 'händerna')
-
-
       ),
 );
 $treatment_steps = array(
@@ -141,14 +120,14 @@ $treatment_steps = array(
             title: 'Behandla',
             content: 'Med din personliga behandlingsplan i hand använder AcneSpecialisten specialiserade metoder för att effektivt behandla dina pigmentfläckar. Vår expertis säkerställer att du snabbt ser resultat och känner dig nöjd med din hud.',
             url_label: 'Utforska våra behandlingar för pigmentfläckar',
-            url: 'pigmentflackar-behandling',
+            url: 'behandlingar/pigmentflackar',
             url_title: 'Upptäck våra unika och effektiva behandlingar för pigmentfläckar'
       ),
 );
 
 
 
-$treatment_link = '<a href="problem/aknearr/aknearrbehandling" title="Utforska effektiva behandlingar mot pigmentfläckar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot pigmentfläckar</a>';
+$treatment_link = '<a href="problem/pigmentflackar/behandling" title="Utforska effektiva behandlingar mot pigmentfläckar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot pigmentfläckar</a>';
 
 $types_title = 'Olika typer av Pigmentfläckar';
 
@@ -300,8 +279,8 @@ $type_categories = array(
 
 );
 
-$types_url = '<a href="typer" title="Lär dig mer om olika typer av pigmentfläckar och deras behandling" class="mt-xl button b200 outline expand l10n is-hidden-tablet">Läs mer om olika typer av pigmentfläckar</a>
-              <a href="typer" title="Lär dig mer om olika typer av pigmentfläckar och deras behandling" class="mt-xl button b200 outline l10n is-hidden-mobile">Läs mer om olika typer av pigmentfläckar</a>';
+$types_url = '<a href="problem/pigmentflackar/typer" title="Lär dig mer om olika typer av pigmentfläckar och deras behandling" class="mt-xl button b200 outline expand l10n is-hidden-tablet">Läs mer om olika typer av pigmentfläckar</a>
+              <a href="problem/pigmentflackar/typer" title="Lär dig mer om olika typer av pigmentfläckar och deras behandling" class="mt-xl button b200 outline l10n is-hidden-mobile">Läs mer om olika typer av pigmentfläckar</a>';
 
 
 
@@ -319,19 +298,16 @@ $service = new Service(
       image_large: 'images/services/200x200/pigmentflackar-konsultation.webp',
       image_alt: 'Bild av en konsultation för behandling av pigmentfläckar och hudfläckar',
       image_title: 'Konsultation för behandling av pigmentfläckar och hudfläckar',
-      consultation_url: 'pigmentflackar-konsultation',
+      consultation_url: 'consultation-booking?problem=pigmentation',
       consultation_url_label: 'Boka konsultation',
       consultation_url_title: 'Klicka för att boka tid för en konsultation för pigmentfläckar och hudfläckar',
       booking_url: null,
       booking_url_label: null,
       booking_url_title: null,
-      url: 'pigmentflackar-konsultation',
+      url: 'hudkonsultation',
       url_label: 'Läs mer om vår konsultation för pigmentfläckar och hudfläckar',
       url_title: 'Klicka här för att läsa mer om gratis konsultation för pigmentfläckar och hudfläckar'
 );
-
-
-
 
 $headline02 = "02. Behandling av dina ärr som uppstått från finnar";
 
@@ -346,7 +322,7 @@ $services = array(
             image_large: 'images/services/200x200/ipl-behandling-pigmentflackar.webp',
             image_alt: 'Bild av en IPL-behandling för pigmentfläckar',
             image_title: 'IPL-behandling för Pigmentfläckar',
-            consultation_url: 'hudkonsultation',
+            consultation_url: 'consultation-booking?problem=pigmentation&service=ipl',
             consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för IPL-behandling av pigmentfläckar',
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/ipl-behandling-pigmentflackar-1643922',
@@ -366,13 +342,13 @@ $services = array(
             image_large: 'images/services/200x200/kemisk-peeling-pigmentflackar.webp',
             image_alt: 'Bild av en kemisk peeling för pigmentfläckar',
             image_title: 'Kemisk Peeling för Pigmentfläckar',
-            consultation_url: 'hudkonsultation',
+            consultation_url: 'consultation-booking?problem=pigmentation&service=chemicalPeeling',
             consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för kemisk peeling av pigmentfläckar',
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/kemisk-peeling-pigmentflackar-1643922',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en kemisk peeling för pigmentfläckar',
-            url: 'kemisk-peeling-pigmentflackar',
+            url: 'behandlingar/kemisk-peeling-pigmentflackar',
             url_label: 'Läs mer om kemisk peeling för pigmentfläckar',
             url_title: 'Klicka här för att läsa mer om kemisk peeling för pigmentfläckar'
       ),
@@ -386,13 +362,13 @@ $services = array(
             image_large: 'images/services/200x200/laserbehandling-pigmentflackar.webp',
             image_alt: 'Bild av en laserbehandling mot pigmentfläckar',
             image_title: 'Laserbehandling för pigmentfläckar',
-            consultation_url: 'hudkonsultation',
+            consultation_url: 'consultation-booking?problem=pigmentation&service=laser',
             consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling mot pigmentfläckar',
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/laserbehandling-pigmentflackar-1643922',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en laserbehandling mot pigmentfläckar',
-            url: 'laserbehandling-pigmentflackar',
+            url: 'behandlingar/laserbehandling-pigmentflackar',
             url_label: 'Läs mer om laserbehandling för pigmentfläckar',
             url_title: 'Klicka här för att läsa mer om laserbehandling mot pigmentfläckar'
       ),
@@ -407,13 +383,13 @@ $services = array(
             image_large: 'images/services/200x200/microneedling-pigmentflackar.webp',
             image_alt: 'Bild av en microneedling-behandling för pigmentfläckar',
             image_title: 'Microneedling för Pigmentfläckar',
-            consultation_url: 'hudkonsultation',
+            consultation_url: 'consultation-booking?problem=pigmentation&service=microneedling',
             consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling av pigmentfläckar',
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/microneedling-pigmentflackar-1643922',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en microneedling-behandling för pigmentfläckar',
-            url: 'microneedling-pigmentflackar',
+            url: 'behandlingar/microneedling-pigmentflackar',
             url_label: 'Läs mer om microneedling för pigmentfläckar',
             url_title: 'Klicka här för att läsa mer om microneedling-behandling för pigmentfläckar'
       ),
@@ -429,7 +405,6 @@ $articles = array(
             image_alt: 'Varför välja oss för behandling av ärr från finnar?',
             image_title: 'Varför välja oss för behandling av ärr från finnar?',
             content: '<p class="p200">Vi på AcneSpecialisten erbjuder de mest innovativa och effektiva metoderna för att behandla ärr orsakade av finnar. Oavsett ärrtyp har vi lösningar – laserterapi för komplexa fall, microneedling för atrofiska ärr och kemisk peeling för mindre ojämnheter. Vår styrka ligger i att leverera individualiserade behandlingar, där din tillfredsställelse står i fokus.</p>
-
             <p class="p200 mt-m">Börja din resa mot en klarare hud med en helt kostnadsfri konsultation. Vi analyserar ditt specifika fall och kopplar dig med en personlig hudterapeut som kommer att stödja och vägleda dig genom processen, med en behandlingsplan som är skräddarsydd för just dig. Boka din konsultation idag!</p>',
       ),
       new Article(
@@ -440,9 +415,7 @@ $articles = array(
             image_alt: 'När ska jag besöka AcneSpecialisten för ärr från finnar?',
             image_title: 'När ska jag besöka AcneSpecialisten för ärr från finnar?',
             content: '<p class="p200">Välja rätt behandling för ärr som uppstått från finnar kan vara en utmaning. Hos AcneSpecialisten har vi över 30 års erfarenhet av att förstå och behandla denna typ av hudproblem. Vi är inte bara experter utan även pionjärer inom ärrreducering och laserbehandling.</p>
-
             <p class="p200 mt-m">Det som gör oss unika är vår specialiserade kunskap och dedikation. Vi ser inte bara till att förbättra din hud utan strävar också efter att stärka ditt självförtroende och välmående. </p>
-
             <p class="p200 mt-m">När du väljer AcneSpecialisten, får du inte bara behandling, utan en partner på din resa mot en ny början. Ta första steget med oss och boka din kostnadsfria konsultation idag. Vår professionella och erfarna team väntar på att få hjälpa dig.</p>',
       ),
 );
