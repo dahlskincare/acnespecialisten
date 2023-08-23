@@ -148,8 +148,6 @@ $type_categories = array(
                         title: 'Mild rosacea',
                         subtitle: 'även kallat vaskulär rosacea eller erythematotelangiektatisk rosacea',
                         content: 'Karaktäriseras av frekventa rodnader, ihållande rodnad och synliga blodkärl. Huden kan också kännas torr och stram.',
-                        url: '',
-                        url_title: ''
                   ),
                   new BasedType(
                         image_url: 'images/problems/102x102/medelsvar-rosacea.webp',
@@ -158,8 +156,6 @@ $type_categories = array(
                         title: 'Medelsvår rosacea',
                         subtitle: 'Även kallat papulopustulös rosacea eller akne rosacea',
                         content: 'Utöver rodnad och synliga blodkärl kan det också finnas små, röda, vättskefyllda blåsor.',
-                        url: '',
-                        url_title: ''
                   ),
                   new BasedType(
                         image_url: 'images/problems/102x102/svar-rosacea.webp',
@@ -168,8 +164,6 @@ $type_categories = array(
                         title: 'Svår rosacea',
                         subtitle: 'Även kallat fymatös rosacea eller rhinophyma',
                         content: 'Huden blir tjock och får en ojämn yta. Detta beror på överväxt av talgkörtlar och bindväv. Näsan kan bli större och få en knölig yta.',
-                        url: '',
-                        url_title: ''
                   ),
             )
       ),
@@ -339,7 +333,7 @@ $service = new Service(
       image_large: 'images/services/200x200/konsultation.webp',
       image_alt: 'Bild av en konsultation för rosaceabehandling',
       image_title: 'Konsultation för rosaceabehandling',
-      consultation_url: 'hudkonsultation',
+      consultation_url: 'consultation-booking?problem=rosacea',
       consultation_url_label: 'Boka tid för hudkonsultation',
       consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för rosacea',
       booking_url: null,
@@ -363,13 +357,13 @@ $services = array(
             image_large: 'images/services/200x200/ansiktsbehandling-rosacea.webp',
             image_alt: 'Bild av en ansiktsbehandling mot rosacea',
             image_title: 'Ansiktsbehandling mot rosacea',
-            consultation_url: 'hudkonsultation',
+            consultation_url: 'consultation-booking?problem=rosacea&service=classicFacials',
             consultation_url_label: 'Boka tid för hudkonsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling mot rosacea',
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/rosacea-konsultation-1643922',
             booking_url_label: 'Boka tid för ansiktsbehandling mot rosacea',
             booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling mot rosacea',
-            url: 'ansiktsbehandling-rosacea',
+            url: 'problem/rosacea/behandling',
             url_label: 'Läs mer om ansiktsbehandling för rosacea',
             url_title: 'Läs mer om ansiktsbehandling för rosacea'
       ),
@@ -394,7 +388,7 @@ $products = array(
             booking_url: null,
             booking_url_label: null,
             booking_url_title: null,
-            url: 'produkter-rosacea',
+            url: 'https://dahlskincare.se/produktkategorier/produktpaket/rosacea',
             url_label: 'Läs mer om produkter mot rosacea',
             url_title: 'Klicka här för att läsa mer om produkter mot rosacea'
       )
@@ -419,7 +413,7 @@ $procedures = array(
             booking_url: null,
             booking_url_label: null,
             booking_url_title: null,
-            url: 'behandling/ipl-rosacea',
+            url: 'behandlingar/ipl-rosacea',
             url_label: 'Läs mer om behandlingar mot ytliga blodkärl',
             url_title: 'Klicka här för att läsa mer om våra behandlingar mot ytliga blodkärl'
       ),
