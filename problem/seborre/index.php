@@ -10,6 +10,27 @@ $image_large = 'images/problems/424x456/seborre.webp';
 
 $description = 'Här förklarar vi vad som kännetecknar seborré, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av seborré, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';
 $akas = ['problem/mjalleksem' => 'Mjälleksem', 'problem/seborroiskt-eksem' => 'Seborroiskt Eksem'];
+
+$consultation_url = "consultation-booking?problem=seborrhea";
+$consultation_url_label = "Få gratis konsultation";
+$consultation_url_title = "Gratis konsultation för behandling av seborré";
+
+$booking_url = "treatment-booking?problem=seborrhea";
+$booking_url_label = "Boka behandling";
+$booking_url_title = "Boka din tid för behandling av seborré";
+
+$mobile_consultation_url_label = "Få gratis konsultation";
+$mobile_consultation_url_title = "Gratis konsultation för seborré";
+
+$mobile_booking_url_label = "Boka behandling";
+$mobile_booking_url_title = "Boka din tid för behandling av seborré";
+
+$floating_consultation_url_label = "Få gratis konsultation";
+$floating_consultation_url_title = "Gratis konsultation för seborré";
+
+$floating_booking_url_label = "Boka behandling";
+$floating_booking_url_title = "Boka din tid för behandling av seborré";
+
 $nav_buttons = array(
       'about' => 'Om seborré',
       'approach' => 'Metoden',
@@ -136,21 +157,21 @@ $symptoms = array(
       ),
 );
 $service = new Service(
-            id: 'konsultation',
-            title: 'Seborré Konsultation',
-            duration: '20 min',
-            price: 'Kostnadsfri',
-            content: 'Under ett personligt möte med en av våra AcneSpecialister utförs en noggrann undersökning av din hud för att identifiera och förstå din seborré. Vi tar före-bilder på din hud och utifrån denna undersökning rekommenderar vi den mest lämpliga seborrébehandlingen för dig, och skräddarsyr en individuell behandlingsplan som bäst passar dina specifika behov och livsstil.',
-            image_small: 'images/services/200x200/konsultation.webp',
-            image_large: 'images/services/200x200/konsultation.webp',
-            image_alt: 'Seborré Konsultation',
-            image_title: 'Seborré Konsultation',
-            consultation_url: 'hudkonsultation',
-            consultation_url_label: 'Boka din gratis seborré konsultation nu',
-            consultation_url_title: 'Boka din gratis seborré konsultation nu',
-            booking_url: 'bokning-seborré-konsultation',
-            booking_url_label: 'Boka din seborré konsultation nu',
-            booking_url_title: 'Boka din seborré konsultation nu',
+      id: 'konsultation',
+      title: 'Seborré Konsultation',
+      duration: '20 min',
+      price: 'Kostnadsfri',
+      content: 'Under ett personligt möte med en av våra AcneSpecialister utförs en noggrann undersökning av din hud för att identifiera och förstå din seborré. Vi tar före-bilder på din hud och utifrån denna undersökning rekommenderar vi den mest lämpliga seborrébehandlingen för dig, och skräddarsyr en individuell behandlingsplan som bäst passar dina specifika behov och livsstil.',
+      image_small: 'images/services/200x200/konsultation.webp',
+      image_large: 'images/services/200x200/konsultation.webp',
+      image_alt: 'Seborré Konsultation',
+      image_title: 'Seborré Konsultation',
+      consultation_url: 'hudkonsultation',
+      consultation_url_label: 'Boka din gratis seborré konsultation nu',
+      consultation_url_title: 'Boka din gratis seborré konsultation nu',
+      booking_url: 'bokning-seborré-konsultation',
+      booking_url_label: 'Boka din seborré konsultation nu',
+      booking_url_title: 'Boka din seborré konsultation nu',
 );
 $services = array(
       new Service(
@@ -532,10 +553,10 @@ $brands = array(
                                           <div class="mt-xl">
                                                 <div class="columns is-2 is-variable">
                                                       <div class="column">
-                                                            <a href="hudkonsultation" title="Vår hudkonsultation" class="button white expand l10n">Få gratis konsultation</a>
+                                                            <a href="<?php echo $consultation_url ?>" title="<?php echo $floating_consultation_url_title ?>" class="button white expand l10n"><?php echo $floating_consultation_url_label ?></a>
                                                       </div>
                                                       <div class="column">
-                                                            <a href="https://bokadirekt.se" title="Boka behandling" class="button white expand l10n">Boka behandling</a>
+                                                            <a href="<?php echo $booking_url ?>" title="<?php echo $floating_booking_url_title ?>" class="button white expand l10n"><?php echo $floating_booking_url_label ?></a>
                                                       </div>
                                                 </div>
                                           </div>
@@ -566,10 +587,10 @@ $brands = array(
                               <div class="mt-xl">
                                     <div class="columns is-mobile">
                                           <div class="column is-half">
-                                                <a href="hudkonsultation" title="Gratis hudkonsultation" class="button b200 white expand l10n">Gratis konsultation</a>
+                                                <a href="<?php echo $consultation_url ?>" title="<?php echo $mobile_consultation_url_title ?>" class="button b200 white expand l10n"><?php echo $mobile_consultation_url_label ?></a>
                                           </div>
                                           <div class="column is-half">
-                                                <a href="https://bokadirekt.se" title="Boka behandling" class="button b200 white expand l10n">Boka behandling</a>
+                                                <a href="<?php echo $booking_url ?>" title="<?php echo $mobile_booking_url_title ?>" class="button b200 white expand l10n"><?php echo $mobile_booking_url_label ?></a>
                                           </div>
                                     </div>
                               </div>
@@ -607,8 +628,8 @@ $brands = array(
                                     </div>
                                     <p class="mt-s p200"><?php echo $description ?></p>
                                     <div class="mt-xl flex-row" id="book-buttons">
-                                          <a href="hudkonsultation" title="Gratis hudkonsultation" class="button b200 white l10n">Få gratis konsultation</a>
-                                          <a href="https://bokadirekt.se" title="Boka behandling" class="button b200 white l10n">Boka behandling</a>
+                                          <a href="<?php echo $consultation_url ?>" title="<?php echo $consultation_url_title ?>" class="button b200 white l10n"><?php echo $consultation_url_label ?></a>
+                                          <a href="<?php echo $booking_url ?>" title="<?php echo $booking_url_title ?>" class="button b200 white l10n"><?php echo $booking_url_label ?></a>
                                     </div>
                               </div>
                         </div>

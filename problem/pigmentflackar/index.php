@@ -36,14 +36,14 @@ $akas = [
             url: 'problem/arr-fran-finnar/atrofiska-arr',
             title: 'Lär dig mer om atrofiska ärr i form av gropar som uppstått från finnar och upptäck våra specialiserade behandlingsalternativ'
       ),
-      
+
 ];
 
-
-
+$consultation_url = "consultation-booking?problem=pigmentation";
 $consultation_url_label = "Få gratis konsultation";
 $consultation_url_title = "Gratis konsultation för behandling av pigmentfläckar";
 
+$booking_url = "treatment-booking?problem=pigmentation";
 $booking_url_label = "Boka behandling";
 $booking_url_title = "Boka din tid för behandling av hudförändringar";
 
@@ -207,44 +207,44 @@ $type_categories = array(
             content: '<p class="p200">Färgen på en pigmentfläck kan avslöja mycket om dess orsak och typ. Bruna fläckar är ofta kopplade till åldersrelaterade förändringar och solskador, medan röda eller rosa kan indikera inflammation. Svarta eller mörkbruna fläckar kan vara mer allvarliga och kräver professionell bedömning. Blå eller grå fläckar är oftast medfödda och specifika för vissa hudtyper. Varje färg ger ledtrådar som kan hjälpa i diagnostisering och behandling.</p>',
             types: array(
                   new BasedType(
-                title: 'Mörka / Bruna Pigmentfläckar',
-                subtitle: 'Även kallat Hyperpigmentering',
-                content: '',
-                image_url: 'images/pigmentflackar/102x102/morka-bruna.webp',
-                image_alt: 'Bild av mörka bruna pigmentfläckar',
-                image_title: 'Mörka bruna pigmentförändringar',
-                url: 'problem/pigmentflackar/typer/morka-bruna',
-                url_title: 'Utforska mörka bruna pigmentfläckar'
-          ),
-          new BasedType(
-                title: 'Röda / Lila Pigmentfläckar',
-                subtitle: 'Även kallat Postinflammatorisk Hyperpigmentering (PIH)',
-                content: '',
-                image_url: 'images/pigmentflackar/102x102/roda-lila.webp',
-                image_alt: 'Bild av röda lila pigmentfläckar',
-                image_title: 'Röda lila pigmentförändringar',
-                url: 'problem/pigmentflackar/typer/roda-lila',
-                url_title: 'Utforska röda lila pigmentfläckar'
-          ),
-          new BasedType(
-                title: 'Ljusbruna Pigmentfläckar',
-                subtitle: 'Även kallat Café au lait fläckar',
-                content: '',
-                image_url: 'images/pigmentflackar/102x102/ljusbruna.webp',
-                image_alt: 'Bild av ljusbruna pigmentfläckar',
-                image_title: 'Ljusbruna pigmentförändringar',
-                url: 'problem/pigmentflackar/typer/ljusbruna',
-                url_title: 'Utforska ljusbruna pigmentfläckar'
-          ),
-          new BasedType(
-                title: 'Vita Pigmentfläckar',
-                subtitle: 'Även kallat Hypopigmentering',
-                content: '',
-                image_url: 'images/pigmentflackar/102x102/vita.webp',
-                image_alt: 'Bild av vita pigmentfläckar',
-                image_title: 'Vita pigmentförändringar',
-                url: 'problem/pigmentflackar/typer/vita',
-                url_title: 'Utforska vita pigmentfläckar'
+                        title: 'Mörka / Bruna Pigmentfläckar',
+                        subtitle: 'Även kallat Hyperpigmentering',
+                        content: '',
+                        image_url: 'images/pigmentflackar/102x102/morka-bruna.webp',
+                        image_alt: 'Bild av mörka bruna pigmentfläckar',
+                        image_title: 'Mörka bruna pigmentförändringar',
+                        url: 'problem/pigmentflackar/typer/morka-bruna',
+                        url_title: 'Utforska mörka bruna pigmentfläckar'
+                  ),
+                  new BasedType(
+                        title: 'Röda / Lila Pigmentfläckar',
+                        subtitle: 'Även kallat Postinflammatorisk Hyperpigmentering (PIH)',
+                        content: '',
+                        image_url: 'images/pigmentflackar/102x102/roda-lila.webp',
+                        image_alt: 'Bild av röda lila pigmentfläckar',
+                        image_title: 'Röda lila pigmentförändringar',
+                        url: 'problem/pigmentflackar/typer/roda-lila',
+                        url_title: 'Utforska röda lila pigmentfläckar'
+                  ),
+                  new BasedType(
+                        title: 'Ljusbruna Pigmentfläckar',
+                        subtitle: 'Även kallat Café au lait fläckar',
+                        content: '',
+                        image_url: 'images/pigmentflackar/102x102/ljusbruna.webp',
+                        image_alt: 'Bild av ljusbruna pigmentfläckar',
+                        image_title: 'Ljusbruna pigmentförändringar',
+                        url: 'problem/pigmentflackar/typer/ljusbruna',
+                        url_title: 'Utforska ljusbruna pigmentfläckar'
+                  ),
+                  new BasedType(
+                        title: 'Vita Pigmentfläckar',
+                        subtitle: 'Även kallat Hypopigmentering',
+                        content: '',
+                        image_url: 'images/pigmentflackar/102x102/vita.webp',
+                        image_alt: 'Bild av vita pigmentfläckar',
+                        image_title: 'Vita pigmentförändringar',
+                        url: 'problem/pigmentflackar/typer/vita',
+                        url_title: 'Utforska vita pigmentfläckar'
                   ),
             )
       ),
@@ -255,44 +255,44 @@ $type_categories = array(
             content: '<p class="p200">Pigmentfläckar kan uppstå på olika delar av kroppen, inklusive ansiktet, händerna och resten av kroppen. Platsen kan ibland ge insikt i orsaken; till exempel, fläckar på händer och ansikte är ofta kopplade till solskador eftersom dessa områden är mest utsatta för solen. Pigmentfläckar på kroppen kan vara mer relaterade till åldrande eller hormonella förändringar. Bedömning av pigmentfläckar baserat på område hjälper till att förstå underliggande faktorer och ger riktning för skräddarsydd behandling.</p>',
             types: array(
                   new BasedType(
-                title: 'Pigmentfläckar i ansiktet',
-                subtitle: 'Även kallat Solfläckar & åldersfläckar',
-                content: '',
-                image_url: 'images/pigmentflackar/102x102/ansikte.webp',
-                image_alt: 'Bild av pigmentfläckar i ansiktet',
-                image_title: 'Pigmentförändringar i ansiktet',
-                url: 'problem/pigmentflackar/omraden/ansikte',
-                url_title: 'Läs mer om pigmentfläckar i ansiktet'
-          ),
-          new BasedType(
-                title: 'Pigmentfläckar på överläppen',
-                subtitle: 'Även kallat Melasma & Chloasma',
-                content: '',
-                image_url: 'images/pigmentflackar/102x102/overlappen.webp',
-                image_alt: 'Bild av pigmentfläckar på överläppen',
-                image_title: 'Pigmentförändringar på överläppen',
-                url: 'problem/pigmentflackar/omraden/overlappen',
-                url_title: 'Läs mer om pigmentfläckar på överläppen'
-          ),
-          new BasedType(
-                title: 'Pigmentfläckar på Kroppen',
-                subtitle: 'Även kallat Solfläckar & åldersfläckar',
-                content: '',
-                image_url: 'images/pigmentflackar/102x102/kroppen.webp',
-                image_alt: 'Bild av pigmentfläckar på kroppen',
-                image_title: 'Pigmentförändringar på kroppen',
-                url: 'problem/pigmentflackar/omraden/kroppen',
-                url_title: 'Läs mer om pigmentfläckar på kroppen'
-          ),
-          new BasedType(
-                title: 'Pigmentfläckar på Händerna',
-                subtitle: 'Även kallat Solfläckar & åldersfläckar',
-                content: '',
-                image_url: 'images/pigmentflackar/102x102/hander.webp',
-                image_alt: 'Bild av pigmentfläckar på händerna',
-                image_title: 'Pigmentförändringar på händerna',
-                url: 'problem/pigmentflackar/omraden/hander',
-                url_title: 'Läs mer om pigmentfläckar på händerna'
+                        title: 'Pigmentfläckar i ansiktet',
+                        subtitle: 'Även kallat Solfläckar & åldersfläckar',
+                        content: '',
+                        image_url: 'images/pigmentflackar/102x102/ansikte.webp',
+                        image_alt: 'Bild av pigmentfläckar i ansiktet',
+                        image_title: 'Pigmentförändringar i ansiktet',
+                        url: 'problem/pigmentflackar/omraden/ansikte',
+                        url_title: 'Läs mer om pigmentfläckar i ansiktet'
+                  ),
+                  new BasedType(
+                        title: 'Pigmentfläckar på överläppen',
+                        subtitle: 'Även kallat Melasma & Chloasma',
+                        content: '',
+                        image_url: 'images/pigmentflackar/102x102/overlappen.webp',
+                        image_alt: 'Bild av pigmentfläckar på överläppen',
+                        image_title: 'Pigmentförändringar på överläppen',
+                        url: 'problem/pigmentflackar/omraden/overlappen',
+                        url_title: 'Läs mer om pigmentfläckar på överläppen'
+                  ),
+                  new BasedType(
+                        title: 'Pigmentfläckar på Kroppen',
+                        subtitle: 'Även kallat Solfläckar & åldersfläckar',
+                        content: '',
+                        image_url: 'images/pigmentflackar/102x102/kroppen.webp',
+                        image_alt: 'Bild av pigmentfläckar på kroppen',
+                        image_title: 'Pigmentförändringar på kroppen',
+                        url: 'problem/pigmentflackar/omraden/kroppen',
+                        url_title: 'Läs mer om pigmentfläckar på kroppen'
+                  ),
+                  new BasedType(
+                        title: 'Pigmentfläckar på Händerna',
+                        subtitle: 'Även kallat Solfläckar & åldersfläckar',
+                        content: '',
+                        image_url: 'images/pigmentflackar/102x102/hander.webp',
+                        image_alt: 'Bild av pigmentfläckar på händerna',
+                        image_title: 'Pigmentförändringar på händerna',
+                        url: 'problem/pigmentflackar/omraden/hander',
+                        url_title: 'Läs mer om pigmentfläckar på händerna'
                   ),
 
             )
@@ -336,7 +336,7 @@ $service = new Service(
 $headline02 = "02. Behandling av dina ärr som uppstått från finnar";
 
 $services = array(
-       new Service(
+      new Service(
             id: 'pigmentflackar-ipl',
             title: 'IPL-behandling för Pigmentfläckar',
             duration: '90 min',
@@ -377,24 +377,24 @@ $services = array(
             url_title: 'Klicka här för att läsa mer om kemisk peeling för pigmentfläckar'
       ),
       new Service(
-          id: 'pigmentflackar-laser',
-          title: 'Laserbehandling mot pigmentfläckar',
-          duration: '60 min',
-          price: '4595 kr',
-          content: 'Laserbehandling mot pigmentfläckar och ojämn pigmentering använder precisa ljusstrålar för att bryta ned överdriven pigmentering i huden. Denna behandling hjälper till att minska synligheten av pigmentfläckar och förbättra hudens jämnhet.',
-          image_small: 'images/services/200x200/laserbehandling-pigmentflackar.webp',
-          image_large: 'images/services/200x200/laserbehandling-pigmentflackar.webp',
-          image_alt: 'Bild av en laserbehandling mot pigmentfläckar',
-          image_title: 'Laserbehandling för pigmentfläckar',
-          consultation_url: 'hudkonsultation',
-          consultation_url_label: 'Boka konsultation',
-          consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling mot pigmentfläckar',
-          booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/laserbehandling-pigmentflackar-1643922',
-          booking_url_label: 'Boka behandling',
-          booking_url_title: 'Klicka för att boka tid för en laserbehandling mot pigmentfläckar',
-          url: 'laserbehandling-pigmentflackar',
-          url_label: 'Läs mer om laserbehandling för pigmentfläckar',
-          url_title: 'Klicka här för att läsa mer om laserbehandling mot pigmentfläckar'
+            id: 'pigmentflackar-laser',
+            title: 'Laserbehandling mot pigmentfläckar',
+            duration: '60 min',
+            price: '4595 kr',
+            content: 'Laserbehandling mot pigmentfläckar och ojämn pigmentering använder precisa ljusstrålar för att bryta ned överdriven pigmentering i huden. Denna behandling hjälper till att minska synligheten av pigmentfläckar och förbättra hudens jämnhet.',
+            image_small: 'images/services/200x200/laserbehandling-pigmentflackar.webp',
+            image_large: 'images/services/200x200/laserbehandling-pigmentflackar.webp',
+            image_alt: 'Bild av en laserbehandling mot pigmentfläckar',
+            image_title: 'Laserbehandling för pigmentfläckar',
+            consultation_url: 'hudkonsultation',
+            consultation_url_label: 'Boka konsultation',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling mot pigmentfläckar',
+            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/laserbehandling-pigmentflackar-1643922',
+            booking_url_label: 'Boka behandling',
+            booking_url_title: 'Klicka för att boka tid för en laserbehandling mot pigmentfläckar',
+            url: 'laserbehandling-pigmentflackar',
+            url_label: 'Läs mer om laserbehandling för pigmentfläckar',
+            url_title: 'Klicka här för att läsa mer om laserbehandling mot pigmentfläckar'
       ),
 
       new Service(
@@ -797,10 +797,10 @@ $brands_url_title = "Varumärken för ärr";
                                           <div class="mt-xl">
                                                 <div class="columns is-2 is-variable">
                                                       <div class="column">
-                                                            <a href="hudkonsultation" title="<?php echo $floating_consultation_url_title ?>" class="button white expand l10n"><?php echo $floating_consultation_url_label ?></a>
+                                                            <a href="<?php echo $consultation_url ?>" title="<?php echo $floating_consultation_url_title ?>" class="button white expand l10n"><?php echo $floating_consultation_url_label ?></a>
                                                       </div>
                                                       <div class="column">
-                                                            <a href="https://bokadirekt.se" title="<?php echo $floating_booking_url_title ?>" class="button white expand l10n"><?php echo $floating_booking_url_label ?></a>
+                                                            <a href="<?php echo $booking_url ?>" title="<?php echo $floating_booking_url_title ?>" class="button white expand l10n"><?php echo $floating_booking_url_label ?></a>
                                                       </div>
                                                 </div>
                                           </div>
@@ -832,10 +832,10 @@ $brands_url_title = "Varumärken för ärr";
                               <div class="mt-xl">
                                     <div class="columns is-mobile">
                                           <div class="column is-half">
-                                                <a href="hudkonsultation" title="<?php echo $mobile_consultation_url_title ?>" class="button b200 white expand l10n"><?php echo $mobile_consultation_url_label ?></a>
+                                                <a href="<?php echo $consultation_url ?>" title="<?php echo $mobile_consultation_url_title ?>" class="button b200 white expand l10n"><?php echo $mobile_consultation_url_label ?></a>
                                           </div>
                                           <div class="column is-half">
-                                                <a href="https://bokadirekt.se" title="<?php echo $mobile_booking_url_title ?>" class="button b200 white expand l10n"><?php echo $mobile_booking_url_label ?></a>
+                                                <a href="<?php echo $booking_url ?>" title="<?php echo $mobile_booking_url_title ?>" class="button b200 white expand l10n"><?php echo $mobile_booking_url_label ?></a>
                                           </div>
                                     </div>
                               </div>
@@ -863,8 +863,8 @@ $brands_url_title = "Varumärken för ärr";
                                     </div>
                                     <p class="mt-s p200"><?php echo $description ?></p>
                                     <div class="mt-xl flex-row" id="book-buttons">
-                                          <a href="hudkonsultation" title="<?php echo $consultation_url_title ?>" class="button b200 white l10n"><?php echo $consultation_url_label ?></a>
-                                          <a href="https://bokadirekt.se" title="B<?php echo $booking_url_title ?>" class="button b200 white l10n"><?php echo $booking_url_label ?></a>
+                                          <a href="<?php echo $consultation_url ?>" title="<?php echo $consultation_url_title ?>" class="button b200 white l10n"><?php echo $consultation_url_label ?></a>
+                                          <a href="<?php echo $booking_url ?>" title="B<?php echo $booking_url_title ?>" class="button b200 white l10n"><?php echo $booking_url_label ?></a>
                                     </div>
                               </div>
                         </div>

@@ -19,24 +19,25 @@ $image_alt = 'Bild som illustrerar hur rosacea ser ut på huden';
 $description = 'Här förklarar vi vad som kännetecknar rosacea, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av rosacea, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';
 
 
+$consultation_url = "consultation-booking?problem=rosacea";
+$consultation_url_label = "Få gratis konsultation";
+$consultation_url_title = "Gratis Konsultation för Rosacea";
 
-$consultation_url_label ="Få gratis konsultation";
-$consultation_url_title ="Gratis Konsultation för Rosacea";
+$booking_url = "treatment-booking?problem=rosacea";
+$booking_url_label = "Boka behandling";
+$booking_url_title = "Boka Aknebehandling";
 
-$booking_url_label ="Boka behandling";
-$booking_url_title ="Boka Aknebehandling";
+$mobile_consultation_url_label = "Få gratis konsultation";
+$mobile_consultation_url_title = "Gratis Konsultation för Rosacea";
 
-$mobile_consultation_url_label ="Få gratis konsultation";
-$mobile_consultation_url_title ="Gratis Konsultation för Rosacea";
+$mobile_booking_url_label = "Boka behandling";
+$mobile_booking_url_title = "Boka Rosaceabehandling";
 
-$mobile_booking_url_label ="Boka behandling";
-$mobile_booking_url_title ="Boka Rosaceabehandling";
+$floating_consultation_url_label = "Få gratis konsultation";
+$floating_consultation_url_title = "Gratis Konsultation för Rosacea";
 
-$floating_consultation_url_label ="Få gratis konsultation";
-$floating_consultation_url_title ="Gratis Konsultation för Rosacea";
-
-$floating_booking_url_label ="Boka behandling";
-$floating_booking_url_title ="Boka Rosaceabehandling";
+$floating_booking_url_label = "Boka behandling";
+$floating_booking_url_title = "Boka Rosaceabehandling";
 
 $nav_buttons = array(
       'about' => 'Om akne',
@@ -101,32 +102,32 @@ $trivias = array(
 );
 $treatment_steps = array(
       new TreatmentStep(
-          title: 'Identifiera',
-          content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din rosacea och skapar en individuell behandlingsplan.',
-          url_label: 'Få gratis konsultation',
-          url: 'hudkonsultation',
-          url_title: 'Boka din kostnadsfria hudkonsultation idag'
+            title: 'Identifiera',
+            content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din rosacea och skapar en individuell behandlingsplan.',
+            url_label: 'Få gratis konsultation',
+            url: 'hudkonsultation',
+            url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
-          title: 'Behandla',
-          content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika rosacea, så att du snabbt och säkert blir av med problemet.',
-          url_label: 'Se aknebehandlingar',
-          url: 'aknebehandling',
-          url_title: 'Utforska våra skräddarsydda rosaceabehandlingar'
+            title: 'Behandla',
+            content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika rosacea, så att du snabbt och säkert blir av med problemet.',
+            url_label: 'Se aknebehandlingar',
+            url: 'aknebehandling',
+            url_title: 'Utforska våra skräddarsydda rosaceabehandlingar'
       ),
       new TreatmentStep(
-          title: 'Förebygga',
-          content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny rosacea och hålla din hud i balans.',
-          url_label: 'Se produkter',
-          url: 'https://dahlskincare.se/produktkategorier/produktpaket/rosacea',
-          url_title: 'Hitta de bästa produkterna för att förebygga rosacea'
+            title: 'Förebygga',
+            content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny rosacea och hålla din hud i balans.',
+            url_label: 'Se produkter',
+            url: 'https://dahlskincare.se/produktkategorier/produktpaket/rosacea',
+            url_title: 'Hitta de bästa produkterna för att förebygga rosacea'
       ),
       new TreatmentStep(
-          title: 'Reparera',
-          content: 'När rosacean är borta fokuserar vi på att reducera eventuella ytliga blodkärl med behandlingsmetoder som IPL för en jämn och problemfri hud.',
-          url_label: 'Se IPL-behandlingar',
-          url: 'aknearr-behandling',
-          url_title: 'Upptäck effektiva behandlingar för ytliga blodkärl'
+            title: 'Reparera',
+            content: 'När rosacean är borta fokuserar vi på att reducera eventuella ytliga blodkärl med behandlingsmetoder som IPL för en jämn och problemfri hud.',
+            url_label: 'Se IPL-behandlingar',
+            url: 'aknearr-behandling',
+            url_title: 'Upptäck effektiva behandlingar för ytliga blodkärl'
       ),
 
 );
@@ -485,7 +486,7 @@ $results = array(
             problem: 'Rosacea',
             type: 'Severe',
             treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Rosacea"">behandlingar mot akne</a>',
+                  duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Rosacea"">behandlingar mot akne</a>',
             )
       ),
       new ResultCustomer(
@@ -502,13 +503,13 @@ $results = array(
             problem: 'Rosacea',
             type: 'Severe',
             treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Rosacea">behandlingar mot akne</a>',
+                  duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Rosacea">behandlingar mot akne</a>',
             )
       ),
 );
 
-$results_url_label ="Se fler resultat";
-$results_url_title ="se flera rosaceabehandlingsresultat";
+$results_url_label = "Se fler resultat";
+$results_url_title = "se flera rosaceabehandlingsresultat";
 
 
 $reviews = array(
@@ -539,8 +540,8 @@ $reviews = array(
 
 );
 
-$review_url_label ="Läs fler omdömen";
-$review_url_title ="AcneSpecialisten Omdömen";
+$review_url_label = "Läs fler omdömen";
+$review_url_title = "AcneSpecialisten Omdömen";
 
 $faq_categories = array(
       'Generellt om rosacea' => array(
@@ -593,8 +594,8 @@ $faq_categories = array(
       ),
 );
 
-$faq_url_label ="Läs fler frågor & svar";
-$faq_url_title ="läs flera frågor relaterat till rosacea";
+$faq_url_label = "Läs fler frågor & svar";
+$faq_url_title = "läs flera frågor relaterat till rosacea";
 
 $skin_guide_articles = array(
       new SkinGuideArticle(
@@ -655,8 +656,8 @@ $skin_guide_articles = array(
       ),
 );
 
-$skinguide_url_label ="Läs fler guider";
-$skinguide_url_title ="Läs fler guider om rosacea";
+$skinguide_url_label = "Läs fler guider";
+$skinguide_url_title = "Läs fler guider om rosacea";
 
 $specialists = array(
       new Specialist(
@@ -689,8 +690,8 @@ $specialists = array(
       )
 );
 
-$specialist_url_label ="Se alla specialister";
-$specialist_url_title ="Rosacea Specialiserade Hudterapeuter";
+$specialist_url_label = "Se alla specialister";
+$specialist_url_title = "Rosacea Specialiserade Hudterapeuter";
 
 $related_problems = array(
       new RelatedProblem(
@@ -788,8 +789,8 @@ $brands = array(
       ),
 );
 
-$brands_url_label ="Se alla varumärken";
-$brands_url_title ="Varumärken för Rosaceabehandling";
+$brands_url_label = "Se alla varumärken";
+$brands_url_title = "Varumärken för Rosaceabehandling";
 
 ?>
 
@@ -827,10 +828,10 @@ $brands_url_title ="Varumärken för Rosaceabehandling";
                                           <div class="mt-xl">
                                                 <div class="columns is-2 is-variable">
                                                       <div class="column">
-                                                            <a href="hudkonsultation" title="<?php echo $floating_consultation_url_title ?>" class="button white expand l10n"><?php echo $floating_consultation_url_label ?></a>
+                                                            <a href="<?php echo $consultation_url ?>" title="<?php echo $floating_consultation_url_title ?>" class="button white expand l10n"><?php echo $floating_consultation_url_label ?></a>
                                                       </div>
                                                       <div class="column">
-                                                            <a href="https://bokadirekt.se" title="<?php echo $floating_booking_url_title ?>" class="button white expand l10n"><?php echo $floating_booking_url_label ?></a>
+                                                            <a href="<?php echo $booking_url ?>" title="<?php echo $floating_booking_url_title ?>" class="button white expand l10n"><?php echo $floating_booking_url_label ?></a>
                                                       </div>
                                                 </div>
                                           </div>
@@ -853,10 +854,10 @@ $brands_url_title ="Varumärken för Rosaceabehandling";
                               <div class="mt-xl">
                                     <div class="columns is-mobile">
                                           <div class="column is-half">
-                                                <a href="hudkonsultation" title="<?php echo $mobile_consultation_url_title ?>" class="button b200 white expand l10n"><?php echo $mobile_consultation_url_label ?></a>
+                                                <a href="<?php echo $consultation_url ?>" title="<?php echo $mobile_consultation_url_title ?>" class="button b200 white expand l10n"><?php echo $mobile_consultation_url_label ?></a>
                                           </div>
                                           <div class="column is-half">
-                                                <a href="https://bokadirekt.se" title="<?php echo $mobile_booking_url_title ?>" class="button b200 white expand l10n"><?php echo $mobile_booking_url_label ?></a>
+                                                <a href="<?php echo $booking_url ?>" title="<?php echo $mobile_booking_url_title ?>" class="button b200 white expand l10n"><?php echo $mobile_booking_url_label ?></a>
                                           </div>
                                     </div>
                               </div>
@@ -878,8 +879,8 @@ $brands_url_title ="Varumärken för Rosaceabehandling";
                                     <h1 class="h600"><?php echo $title ?></h1>
                                     <p class="mt-s p200"><?php echo $description ?></p>
                                     <div class="mt-xl flex-row" id="book-buttons">
-                                          <a href="hudkonsultation" title="<?php echo $consultation_url_title ?>" class="button b200 white l10n"><?php echo $consultation_url_label ?></a>
-                                          <a href="https://bokadirekt.se" title="B<?php echo $booking_url_title ?>" class="button b200 white l10n"><?php echo $booking_url_label ?></a>
+                                          <a href="<?php echo $consultation_url ?>" title="<?php echo $consultation_url_title ?>" class="button b200 white l10n"><?php echo $consultation_url_label ?></a>
+                                          <a href="<?php echo $booking_url ?>" title="B<?php echo $booking_url_title ?>" class="button b200 white l10n"><?php echo $booking_url_label ?></a>
                                     </div>
                               </div>
                         </div>

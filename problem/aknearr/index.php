@@ -33,10 +33,11 @@ $akas = [
       ),
 ];
 
-
+$consultation_url = "consultation-booking?problem=acneScars";
 $consultation_url_label = "Få gratis konsultation";
 $consultation_url_title = "Gratis Konsultation för Akneärr";
 
+$booking_url = "treatment-booking?problem=acneScars";
 $booking_url_label = "Boka behandling";
 $booking_url_title = "Boka behandling mot akneärr";
 
@@ -73,9 +74,7 @@ $trivias = array(
             prefix: 'Vad',
             title: 'är akneärr?',
             content: '<p class="p200">Akneärr och ärr från finnar uppstår när talget omvandlas till en syra som fräter på hudlagren. Denna omvandling sker när porerna täpps till och inte kan göra sig av med allt sitt innehåll. Ärr som uppstår som en följd av allvarlig eller långvarig akne representerar permanenta texturförändringar i huden och är ofta en påminnelse om tidigare akneutbrott. Det kan variera i form och storlek och påverka både utseendet och känslan på huden.</p>',
-
             extended_content: '<p class="p200 mt-xl">Fläckarna och ärrbildningen kan uppenbara sig på olika sätt, beroende på hur allvarlig acne man tidigare lidit av. Vid mild acne blir det ofta bara röda eller mörkare fläckar på huden, medan huden får så kallade gropar och blir ärrig efter svårare acne. Dessa gropar är exempel på atrofiska ärr (Gropar), som kan delas in i tre huvudtyper: ispickar, rullande ärr och lådformade ärr. Varje typ kräver en specifik behandlingsmetod, och det finns även andra former som postinflammatoriska hyperpigmenteringar (Fläckar).</p>
-
             <p class="p200 mt-xl">Hos Acnespecialisten, som har över 30 års erfarenhet av akneärr, erbjuder vi de senaste och mest effektiva metoderna för att behandla dessa ärr. Behandlingen av akneärr är ofta komplex och måste skräddarsys efter individens hudtyp och ärr. Det är av yttersta vikt att först hantera och behandla aktiv akne innan man går vidare med ärrbehandling, då nya akneutbrott kan leda till fler ärr. Vi har specialister som är redo att erbjuda dig en kostnadsfri hudkonsultation för att fastställa vilken typ av akneärr du har och lägga upp en personlig behandlingsplan. Du blir också tilldelad en personlig hudterapeut som är med dig hela vägen från start till mål.</p>',
             icons: array()
       ),
@@ -84,9 +83,7 @@ $trivias = array(
             prefix: 'Varför',
             title: 'får man akneärr?',
             content: '<p class="p200">Akneärr uppstår som en följd av aktiv acne som bryter ner huden. Aggressiv fettsyra som skapas i varje finne fräter på huden och orsakar sår, vilket inledningsvis skapar en missfärgning. Denna mörka fläck i huden finns kvar efter att finnen försvunnit. Om problemet pågår under en längre period, kan hudstrukturen skadas och leda till gropar. Vidare kan allvarlig akne som cystor och noduler tränga djupt in i huden och orsaka skador på vävnaden nedanför, vilket leder till ärrbildning.</p>',
-
             extended_content: '<p class="p200 mt-xl">För mycket eller för lite kollagen på skadestället kan leda till upphöjda ärr eller gropar i huden. Felaktig hantering av akne, såsom att peta och klämma på finnar, kan också förvärra ärrbildningen, och felaktig behandling kan leda till permanenta märken och fläckar. Förebyggande åtgärder, som tidig behandling av akne och rätt hudvård, kan minska risken för ärrbildning.</p>
-
             <p class="p200 mt-xl">På Acnespecialisten fokuserar vi på att förstå ditt unika tillstånd och behov. Med 30 års erfarenhet och med de bästa metoderna för att behandla akneärr, arbetar vi med att minska och förhindra permanenta märken på din hud. Att ta första steget med en kostnadsfri acneärr konsultation hos oss kan vara starten på din väg till en sund och klar hud. Förståelse för ens egen hudtyp och att arbeta tillsammans med en av våra hudvårdsexperter kan hjälpa till att utforma en effektiv behandlingsplan.</p>',
 
             icons: array('who-infants' => 'Inflammerad akne', 'who-teenagers' => 'Stress', 'who-adults' => 'Pillande', 'who-elders' => 'Felaktig behandling')
@@ -96,11 +93,8 @@ $trivias = array(
             prefix: 'Vem',
             title: 'får akneärr?',
             content: '<p class="p200">Personer som har eller har haft allvarlig akne är mest benägna att utveckla akneärr. Det är inte begränsat till en viss ålder eller kön, utan kan påverka människor genom hela livet. Genetik, ålder och kön spelar också en roll, och om familjemedlemmar har akneärr, kan risken öka. Om problemet pågår under en längre period, kan det skada hudstrukturen och leda till gropar i huden. Mörkare hudtoner kan vara mer benägna att uppleva postinflammatorisk hyperpigmentering.</p>',
-
             extended_content: '<p class="p200 mt-xl">Livsstilsfaktorer och hudvård spelar också en viktig roll. En sund livsstil och tidig behandling av akne kan förhindra både akne och efterföljande ärrbildning. Det är också viktigt att notera att livsstilsfaktorer som stress kan påverka akne, och därmed även risken för ärrbildning. På Acnespecialisten förstår vi att varje individ är unik och erbjuder anpassade behandlingsplaner med din personliga hudterapeut vid din sida.</p>
-
             <p class="p200 mt-xl">Acnespecialisten har en omfattande erfarenhet av att behandla olika hudtyper och akneärr. Med vår expertis och förståelse för din hud kan vi erbjuda skräddarsydda lösningar som passar dig. Vi ser fram emot att börja din resa mot en klar och sund hud med en kostnadsfri hudkonsultation. Att ta steget att engagera sig i en sund livsstil tillsammans med rätt hudvård kan vara avgörande för att förhindra både akne och efterföljande ärrbildning.</p>',
-
             icons: array('who-infants' => 'Kvinnor', 'who-teenagers' => 'Män', 'who-adults' => 'Ungdommar', 'who-elders' => 'Vuxna')
       ),
 
@@ -108,11 +102,8 @@ $trivias = array(
             prefix: 'Var',
             title: 'får man akneärr?',
             content: '<p class="p200">Akneärr kan bildas på alla områden där akne har uppstått. De är mest vanliga i ansiktet, särskilt på kinderna, pannan och hakan, men de kan också uppträda på ryggen, bröstet, axlarna och nacken. Även om de oftast finns på dessa områden, är de inte begränsade till dem och kan förekomma på andra delar av kroppen också.</p>',
-
             extended_content: '<p class="p200 mt-xl">Beroende på typen och omfattningen av ärrbildningen kan olika behandlingsmetoder vara nödvändiga. Detta kan inkludera allt från laserbehandlingar och kemiska peelingar till mer invasiva kirurgiska metoder. Hos Acnespecialisten erbjuder vi omfattande behandlingar som tar itu med akneärr oavsett var de befinner sig på kroppen. Behandlingsval beror på individens unika behov och måste göras med en kvalificerad hudvårdsexpert.</p>
-            
             <p class="p200 mt-xl">Det är också viktigt att betona att behandlingen av akneärr är en process som kan ta tid. Även om vissa metoder kan ge omedelbara förbättringar, kräver ärrbehandling ofta en långsiktig strategi och tålamod från patientens sida. Samarbete med en erfaren specialist, som Acnespecialisten, kan säkerställa att processen skräddarsys för att möta individens behov och mål. Kontakta oss för en kostnadsfri konsultation och börja din resa mot en hälsosam och klar hud idag!</p>',
-
             icons: array('who-infants' => 'Ansiktet', 'who-teenagers' => 'Ryggen', 'who-adults' => 'Bröstet', 'who-elders' => 'Axlar & Nacke')
       ),
 );
@@ -333,7 +324,6 @@ $articles = array(
             image_alt: 'Varför AcneSpecialisten?!',
             image_title: 'Varför AcneSpecialisten?!',
             content: '<p class="p200">Vi erbjuder de senaste behandlingsmetoderna mot alla typer av akneärr. Oavsett om det gäller laserbehandling för de mest envisa ärrtyperna, microneedling som är mest effektiv mot atrofiska ärr, eller kemisk peeling för ärrtypen fläckar, är våra behandlingsalternativ bäst mot akneärr. Vi använder konstant de mest avancerade och skräddarsydda lösningarna som garanterar din tillfredsställelse. </p>
-
             <p class="p200 mt-m">Din resa med oss börjar med en helt kostnadsfri konsultation. Vi tar oss tiden att analysera ditt unika fall och erbjuder dig en personlig hudterapeut. Din terapeut kommer att vara din guide och stöttepelare från start till mål, och skapa en behandlingsplan som är helt anpassad efter dina behov.</p>',
       ),
       new Article(
@@ -344,9 +334,7 @@ $articles = array(
             image_alt: 'När ska jag besöka AcneSpecialisten?',
             image_title: 'När ska jag besöka AcneSpecialisten?',
             content: '<p class="p200">DNär det kommer till att välja rätt behandling för dina akneärr, vet vi hur avgörande det är att finna någon som inte bara förstår ditt problem utan också erbjuder de mest innovativa och effektiva lösningarna. På Acnespecialisten har vi dedikerat över 30 år till att förstå och behandla akneärr. Vår gedigna erfarenhet gör oss till specialister som verkligen lever upp till vårt namn.</p>
-
             <p class="p200 mt-m">Det som verkligen särskiljer oss är vår fokuserade expertis inom akneärrbehandling. Vi är inte bara experter på akneärr, utan även pionjärer inom ärrreducering, laser mot akneärr och effektiv aknebehandling. Vi ser inte bara till att du får en klarare hud utan även till att du känner dig mer självsäker i din egen hud.</p>
-
             <p class="p200 mt-m">Genom att välja Acnespecialisten får du tillgång till en värld av expertis och omtanke, där ditt välmående står i centrum. Vi ser fram emot att hjälpa dig på din resa mot en ny början. Boka din kostnadsfria konsultation idag och ta det första steget med oss.</p>',
       ),
 );
@@ -698,10 +686,10 @@ $brands_url_title = "Varumärken för akneärr";
                                           <div class="mt-xl">
                                                 <div class="columns is-2 is-variable">
                                                       <div class="column">
-                                                            <a href="hudkonsultation" title="<?php echo $floating_consultation_url_title ?>" class="button white expand l10n"><?php echo $floating_consultation_url_label ?></a>
+                                                            <a href="<?php echo $consultation_url ?>" title="<?php echo $floating_consultation_url_title ?>" class="button white expand l10n"><?php echo $floating_consultation_url_label ?></a>
                                                       </div>
                                                       <div class="column">
-                                                            <a href="https://bokadirekt.se" title="<?php echo $floating_booking_url_title ?>" class="button white expand l10n"><?php echo $floating_booking_url_label ?></a>
+                                                            <a href="<?php echo $booking_url ?>" title="<?php echo $floating_booking_url_title ?>" class="button white expand l10n"><?php echo $floating_booking_url_label ?></a>
                                                       </div>
                                                 </div>
                                           </div>
@@ -733,10 +721,10 @@ $brands_url_title = "Varumärken för akneärr";
                               <div class="mt-xl">
                                     <div class="columns is-mobile">
                                           <div class="column is-half">
-                                                <a href="hudkonsultation" title="<?php echo $mobile_consultation_url_title ?>" class="button b200 white expand l10n"><?php echo $mobile_consultation_url_label ?></a>
+                                                <a href="<?php echo $consultation_url ?>" title="<?php echo $mobile_consultation_url_title ?>" class="button b200 white expand l10n"><?php echo $mobile_consultation_url_label ?></a>
                                           </div>
                                           <div class="column is-half">
-                                                <a href="https://bokadirekt.se" title="<?php echo $mobile_booking_url_title ?>" class="button b200 white expand l10n"><?php echo $mobile_booking_url_label ?></a>
+                                                <a href="<?php echo $booking_url ?>" title="<?php echo $mobile_booking_url_title ?>" class="button b200 white expand l10n"><?php echo $mobile_booking_url_label ?></a>
                                           </div>
                                     </div>
                               </div>
@@ -764,8 +752,8 @@ $brands_url_title = "Varumärken för akneärr";
                                     </div>
                                     <p class="mt-s p200"><?php echo $description ?></p>
                                     <div class="mt-xl flex-row" id="book-buttons">
-                                          <a href="hudkonsultation" title="<?php echo $consultation_url_title ?>" class="button b200 white l10n"><?php echo $consultation_url_label ?></a>
-                                          <a href="https://bokadirekt.se" title="B<?php echo $booking_url_title ?>" class="button b200 white l10n"><?php echo $booking_url_label ?></a>
+                                          <a href="<?php echo $consultation_url ?>" title="<?php echo $consultation_url_title ?>" class="button b200 white l10n"><?php echo $consultation_url_label ?></a>
+                                          <a href="<?php echo $booking_url ?>" title="B<?php echo $booking_url_title ?>" class="button b200 white l10n"><?php echo $booking_url_label ?></a>
                                     </div>
                               </div>
                         </div>
