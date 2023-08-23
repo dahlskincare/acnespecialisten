@@ -37,11 +37,11 @@ $akas = [
 ];
 
 
-$consultation_url = "consultation-booking?problem=scarsFromPimples";
+$consultation_url = "consultation-booking?problem=acneScars";
 $consultation_url_label = "Få gratis konsultation";
 $consultation_url_title = "Gratis konsultation för behandling av ärr från finnar";
 
-$booking_url = "treatment-booking?problem=scarsFromPimples";
+$booking_url = "treatment-booking?problem=acneScars";
 $booking_url_label = "Boka behandling";
 $booking_url_title = "Boka din tid för behandling av ärr från finnar";
 
@@ -239,7 +239,7 @@ $service = new Service(
       image_large: 'images/services/200x200/arr-fran-finnar-konsultation.webp',
       image_alt: 'Bild av en konsultation för behandling av ärr från finnar',
       image_title: 'Konsultation för behandling av ärr från finnar',
-      consultation_url: 'consultation-booking?problem=scarsFromPimples',
+      consultation_url: 'consultation-booking?problem=acneScars',
       consultation_url_label: 'Boka konsultation',
       consultation_url_title: 'Klicka för att boka tid för en konsultation för ärr från finnar',
       booking_url: null,
@@ -265,7 +265,7 @@ $services = array(
             image_large: 'images/services/200x200/laserbehandling-arr-fran-finnar.webp',
             image_alt: 'Bild av en laserterapi för ärr som orsakats av finnar',
             image_title: 'Laserterapi för ärr från finnar',
-            consultation_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/laserbehandling-arr-fran-finnar-1643922',
+            consultation_url: 'consultation-booking?problem=acneScars&service=laser',
             consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserterapi för ärr från finnar',
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/laserbehandling-arr-fran-finnar-1643922',
@@ -285,7 +285,7 @@ $services = array(
             image_large: 'images/services/200x200/kemisk-peeling-arr-fran-finnar.webp',
             image_alt: 'Bild av en kemisk peeling för ärr orsakade av finnar',
             image_title: 'Kemisk Peeling för Ärr från Finnar',
-            consultation_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/laserbehandling-arr-fran-finnar-1643922',
+            consultation_url: 'consultation-booking?problem=acneScars&service=chemicalPeeling',
             consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för kemisk peeling för ärr från finnar',
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/kemisk-peeling-arr-fran-finnar-1643922',
@@ -305,7 +305,7 @@ $services = array(
             image_large: 'images/services/200x200/microneedling-arr-fran-finnar.webp',
             image_alt: 'Bild av en microneedling-behandling för ärr som orsakats av finnar',
             image_title: 'Microneedling för Ärr från Finnar',
-            consultation_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/laserbehandling-arr-fran-finnar-1643922',
+            consultation_url: 'consultation-booking?problem=acneScars&service=microneedling',
             consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling för ärr från finnar',
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/microneedling-arr-fran-finnar-1643922',
