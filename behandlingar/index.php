@@ -668,8 +668,10 @@ $service_categories = array(
         ),
         booking_url: 'treatment-booking?service=skinBooster',
         booking_url_title: 'Boka tid för skinbooster',
+        booking_url_label: 'Boka tid',
         consultation_url: 'consultation-booking?service=skinBooster',
         consultation_url_title: 'Boka tid för hudkonsultation',
+        consultation_url_label: 'Boka hudkonsultation',
     ),
 );
 
