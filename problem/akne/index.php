@@ -122,7 +122,7 @@ $treatment_steps = array(
             title: 'Behandla',
             content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika aknetyp, så att du snabbt och säkert blir av med problemet.',
             url_label: 'Se aknebehandlingar',
-            url: 'aknebehandling',
+            url: 'behandlingar/akne',
             url_title: 'Utforska våra skräddarsydda aknebehandlingar'
       ),
       new TreatmentStep(
@@ -136,7 +136,7 @@ $treatment_steps = array(
             title: 'Reparera',
             content: 'När aknen är borta fokuserar vi på att reducera eventuella ärr med behandlingsmetoder som laser, microneedling och kemisk peeling för en jämn och problemfri hud.',
             url_label: 'Se ärrbehandlingar',
-            url: 'aknearr-behandling',
+            url: 'behandlingar/aknearr',
             url_title: 'Upptäck effektiva behandlingar för akneärr'
       ),
 
