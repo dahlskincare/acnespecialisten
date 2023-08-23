@@ -111,8 +111,8 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Behandla',
             content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika rosacea, så att du snabbt och säkert blir av med problemet.',
-            url_label: 'Se aknebehandlingar',
-            url: 'aknebehandling',
+            url_label: 'Se behandlingar',
+            url: 'behandlingar/rosacea',
             url_title: 'Utforska våra skräddarsydda rosaceabehandlingar'
       ),
       new TreatmentStep(
@@ -126,7 +126,7 @@ $treatment_steps = array(
             title: 'Reparera',
             content: 'När rosacean är borta fokuserar vi på att reducera eventuella ytliga blodkärl med behandlingsmetoder som IPL för en jämn och problemfri hud.',
             url_label: 'Se IPL-behandlingar',
-            url: 'aknearr-behandling',
+            url: 'behandlingar/rosacea',
             url_title: 'Upptäck effektiva behandlingar för ytliga blodkärl'
       ),
 
@@ -185,8 +185,6 @@ $type_categories = array(
                         title: 'Sol och vind',
                         subtitle: '',
                         content: 'Exponering för sol och vind kan orsaka eller förvärra rosacea. Dessa faktorer kan irritera huden och orsaka inflammation, vilket i sin tur kan leda till uppkomsten av rosacea.',
-                        url: '',
-                        url_title: ''
                   ),
                   new BasedType(
                         image_url: 'images/problems/102x102/het-mat-dryck.webp',
@@ -195,8 +193,6 @@ $type_categories = array(
                         title: 'Het mat och dryck',
                         subtitle: '',
                         content: 'Konsumtion av varm mat och dryck kan också orsaka eller förvärra rosacea. De kan öka blodflödet till hudens yta, vilket kan orsaka rodnad och inflammation.',
-                        url: '',
-                        url_title: ''
                   ),
                   new BasedType(
                         image_url: 'images/problems/102x102/stress.webp',
@@ -205,8 +201,6 @@ $type_categories = array(
                         title: 'Stress och Starka Känslor',
                         subtitle: '',
                         content: 'Stress och starka känslor kan leda till att blodflödet till hudens yta ökar, vilket kan orsaka eller förvärra rosacea.',
-                        url: '',
-                        url_title: ''
                   ),
                   new BasedType(
                         image_url: 'images/problems/102x102/alkohol-koffein.webp',
@@ -215,8 +209,6 @@ $type_categories = array(
                         title: 'Alkohol och Koffein',
                         subtitle: '',
                         content: 'Även om alkohol och koffein inte nödvändigtvis orsakar rosacea, har studier visat att de kan förvärra symptomen på sjukdomen.',
-                        url: '',
-                        url_title: ''
                   ),
                   new BasedType(
                         image_url: 'images/problems/102x102/hudvardsprodukter.webp',
@@ -225,8 +217,6 @@ $type_categories = array(
                         title: 'Hudvårdsprodukter',
                         subtitle: '',
                         content: 'Vissa hudvårdsprodukter kan irritera huden och orsaka eller förvärra rosacea. Detta inkluderar produkter som innehåller alkohol, trollhassel, pepparmynta, eukalyptusolja och andra potentiellt irriterande ingredienser.',
-                        url: '',
-                        url_title: ''
                   ),
                   new BasedType(
                         image_url: 'images/problems/102x102/hoga-temperaturer.webp',
@@ -235,8 +225,6 @@ $type_categories = array(
                         title: 'Höga Temperaturer',
                         subtitle: '',
                         content: 'Rosacea kan också förvärras av höga temperaturer, inklusive bastubad och varma bad.',
-                        url: '',
-                        url_title: ''
                   ),
                   new BasedType(
                         image_url: 'images/problems/102x102/fysisk-anstrangning.webp',
@@ -245,8 +233,6 @@ $type_categories = array(
                         title: 'Fysisk Ansträngning',
                         subtitle: '',
                         content: 'Hård fysisk ansträngning, inklusive tunga lyft och intensiv konditionsträning, kan också orsaka eller förvärra rosacea.',
-                        url: '',
-                        url_title: ''
                   ),
             )
       ),

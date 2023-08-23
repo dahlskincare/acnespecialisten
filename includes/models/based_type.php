@@ -18,7 +18,7 @@ class BasedTypeCategory
 
 class BasedType
 {
-    public function __construct($image_url, $image_alt, $image_title, $title, $subtitle, $content, $url, $url_title)
+    public function __construct($image_url, $image_alt, $image_title, $title, $subtitle, $content, $url = null, $url_title = null)
     {
         $this->image_url = $image_url;
         $this->image_alt = $image_alt;
@@ -36,6 +36,6 @@ class BasedType
     public string $title;
     public string $subtitle;
     public string $content;
-    public string $url;
-    public string $url_title;
+    public ?string $url;
+    public ?string $url_title;
 }
