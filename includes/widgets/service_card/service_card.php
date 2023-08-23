@@ -79,7 +79,7 @@
                     <a href="<?php echo $service->consultation_url ?>" title="<?php echo $service->consultation_url_title ?>" class="button expand" title="<?php echo $service->consultation_url_label ?>"><?php echo $service->consultation_url_label ?></a>
                 <?php } ?>
                 <?php if (isset($service->booking_url)) { ?>
-                    <a href="<?php echo $service->booking_url ?>" title="<?php echo $service_booking_url_title ?>" class="mt-s button expand" title="<?php echo $service->booking_url_label ?>"><?php echo $service->booking_url_label ?></a>
+                    <a href="<?php echo $service->booking_url ?>" title="<?php echo $service->booking_url_title ?>" class="mt-s button expand" title="<?php echo $service->booking_url_label ?>"><?php echo $service->booking_url_label ?></a>
                 <?php } ?>
             </div>
         </div>
