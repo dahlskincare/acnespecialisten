@@ -78,9 +78,7 @@ $trivias = array(
             prefix: 'Vad',
             title: 'är ärr från finnar?',
             content: '<p class="p200">Ärr från finnar i form av gropar och fläckar kan uppstå när en inflammation skadar hudlagren. Detta kan hända när porerna täpps till och inte kan göra sig av med sitt innehåll. Ärrbildningen som uppstår kan vara en varaktig påminnelse om tidigare hudproblem och kan variera i form och storlek, påverka både utseendet och känslan på huden.</p>',
-
             extended_content: '<p class="p200 mt-xl">Ärr i form av gropar och fläckar kan visa sig på olika sätt. Vid milda fall kan det resultera i färgförändringar på huden, medan mer allvarliga fall kan leda till gropar och permanent ärrbildning. Gropar är exempel på atrofiska ärr, som kan delas in i olika typer som ispickar, rullande ärr och lådformade ärr. Varje typ kräver en unik behandlingsmetod.</p>
-
             <p class="p200 mt-xl">Hos oss på Acnespecialisten, med över 30 års erfarenhet av att behandla ärr från finnar, erbjuder vi de mest effektiva metoderna. Behandlingen måste skräddarsys efter din hudtyp och dina specifika ärr. Våra specialister står redo att erbjuda dig en kostnadsfri hudkonsultation för att identifiera din ärrtyp och utforma en personlig behandlingsplan. Du blir också tilldelad en personlig hudterapeut som stöttar dig genom hela behandlingsprocessen, från start till mål.</p>',
             icons: array()
       ),
@@ -89,11 +87,8 @@ $trivias = array(
             prefix: 'Varför',
             title: 'får man ärr från finnar?',
             content: '<p class="p200">Ärr från finnar kan uppstå när en finne orsakar en inflammation som fräter på huden. Såren som skapas kan leda till missfärgningar och, om de fortsätter att skada huden under en längre tid, kan de förändra hudstrukturen och orsaka gropar. Inflammerade finnar som tränger djupt in i huden kan också skada vävnaden nedanför, vilket leder till ärrbildning i form av både gropar och fläckar.</p>',
-
             extended_content: '<p class="p200 mt-xl">Både för mycket och för lite kollagen vid läkningen kan resultera i olika typer av ärr. Felaktig hantering av finnar, som att peta och klämma, kan förvärra ärrbildningen, och felaktig behandling kan orsaka permanenta ärr. Förebyggande åtgärder, som rätt hudvård och tidig behandling, kan minska risken för ärrbildning.</p>
-
             <p class="p200 mt-xl">På Acnespecialisten koncentrerar vi oss på att förstå ditt specifika behov och hudtillstånd. Med 30 års erfarenhet och de mest effektiva metoderna för att behandla ärr från finnar, arbetar vi för att minimera och förebygga permanenta märken på din hud. Att ta första steget med en kostnadsfri konsultation hos oss kan vara starten på din väg till en sund och klar hud. Våra hudvårdsexperter arbetar tillsammans med dig för att skapa en behandlingsplan som passar just din hud.</p>',
-
             icons: array('who-infants' => 'Inflammerade finnar', 'who-teenagers' => 'Stress', 'who-adults' => 'Pillande', 'who-elders' => 'Felaktig behandling')
       ),
 
@@ -102,27 +97,17 @@ $trivias = array(
             prefix: 'Vem',
             title: 'får ärr från finnar?',
             content: '<p class="p200">Ärr från finnar är inte begränsat till en viss ålder eller hudtyp. Det kan påverka både män och kvinnor i alla åldrar. Genetik kan spela en roll, och individer med familjemedlemmar som har sådana ärr kan vara mer mottagliga. Mörkare hudtoner kan också vara mer benägna att uppleva postinflammatorisk hyperpigmentering, vilket kan leda till missfärgningar och gropar.</p>',
-
             extended_content: '<p class="p200 mt-xl">Livsstilsfaktorer som stress och hudvård spelar en nyckelroll i utvecklingen av ärr från finnar. Att upprätthålla en sund livsstil och tidig behandling av finnar kan förhindra både ärrbildning och hyperpigmentering. På Acnespecialisten ser vi varje individ som unik och erbjuder anpassade behandlingsplaner tillsammans med din personliga hudterapeut.</p>
-
             <p class="p200 mt-xl">Med en omfattande erfarenhet av behandling av olika hudtyper och ärr från finnar, kan Acnespecialisten erbjuda lösningar som är anpassade för dig. Vi ser fram emot att börja din resa mot en klar och sund hud med en kostnadsfri hudkonsultation. Att ta steget mot en sund livsstil och rätt hudvård kan vara avgörande för att förhindra sådana ärr och fläckar. Boka din tid hos oss redan idag!</p>',
-
-
             icons: array('who-infants' => 'Kvinnor', 'who-teenagers' => 'Män', 'who-adults' => 'Ungdommar', 'who-elders' => 'Vuxna')
       ),
-
       new ProblemTrivia(
             prefix: 'Var',
             title: 'får man ärr från finnar?',
             content: '<p class="p200">Ärr från finnar kan uppstå på områden som har påverkats av finnar. Dessa ärr är vanligast i ansiktet, som kinderna, pannan och hakan, men kan också finnas på ryggen, bröstet, axlarna och nacken. De är inte begränsade till dessa områden och kan uppstå på andra delar av kroppen.</p>',
-
             extended_content: '<p class="p200 mt-xl">Behandlingen av ärr från finnar kan variera beroende på dess typ och plats. Det kan innefatta allt från laserbehandlingar till kemiska peelingar och microneedling. Hos Acnespecialisten erbjuder vi behandlingar som riktar sig mot ärr oavsett var de befinner sig på kroppen, och vi anpassar behandlingsval efter din unika hudtyp och behov.</p>
-            
             <p class="p200 mt-xl">Att behandla ärr från finnar är en process som kan kräva tid och tålamod. Med stöd från Acnespecialisten kan du förvänta dig en personlig och effektiv behandlingsplan. Vi arbetar för att uppfylla dina behov och mål, och vi bjuder in dig till en kostnadsfri konsultation för att börja din resa mot en jämn och vacker hud. Boka din tid hos oss och ta första steget mot en ärrfri hud idag!</p>',
-
             icons: array('who-infants' => 'Ansiktet', 'who-teenagers' => 'Ryggen', 'who-adults' => 'Bröstet', 'who-elders' => 'Axlar & Nacke')
-
-
       ),
 );
 $treatment_steps = array(
@@ -137,14 +122,13 @@ $treatment_steps = array(
             title: 'Behandlingsprocess',
             content: 'Genom att använda specialiserade metoder för behandling av ärr från finnar, erbjuder vi lösningar som är perfekt anpassade till dina specifika behov. Vår expertis ger en effektiv förbättring av hudens utseende, så att du snabbt kan se resultat och känna dig nöjd med din hud.',
             url_label: 'Utforska våra ärrbehandlingar',
-            url: 'arr-fran-finnar-behandling',
+            url: 'behandlingar/arr-fran-finnar',
             url_title: 'Upptäck våra unika och effektiva behandlingar för ärr från finnar'
       ),
 );
 
 
 $treatment_link = '<a href="problem/aknearr/aknearrbehandling" title="Utforska effektiva behandlingar mot ärr" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot ärr</a>';
-
 
 $symptoms_title = 'Olika typer av ärr';
 
@@ -221,7 +205,7 @@ $symptoms = array(
             name: 'Hypertrofiska Ärr',
             aka: 'Även benämnda keloid ärr',
             content: 'Hypertrofiska ärr, som är både tjocka och upphöjda, bildas i regel som svar på en skada, operation eller finnar. De skiljer sig från keloidärr genom att de inte sträcker sig utanför det område där skadan ursprungligen inträffade. Dessa ärr är ofta rödaktiga eller rosafärgade och kan kännas känsliga eller klia. Med tiden kan de minska i framträdande, även om deras konsistens och nyans kan skifta beroende på sårläkning och hudtyp.',
-            url: 'problem/ärr-från-finnar/hypertrfiska-arr',
+            url: 'problem/arr-fran-finnar/hypertrfiska-arr',
             url_title: 'Få mer information om hypertrofiska ärr',
             url_label: 'Läs mer här',
             image: 'images/symptoms/102x102/hypertrophic-scars.webp',
@@ -232,7 +216,7 @@ $symptoms = array(
             name: 'Atrofiska Ärr',
             aka: 'Ibland refererade till som gropar',
             content: 'Atrofiska ärr framträder ofta efter akne eller inflammation i huden och de visar sig som små inbuktningar eller fördjupningar i hudytan. De kan likna små hål eller dalar och uppstår när det sker en minskning av kollagen och stödjevävnad under ytan, vilket får området att sjunka in. Storleken och formen på dessa ärr kan variera, och de är mest framträdande i ansiktet, där de kan ge huden en ojämn textur.',
-            url: 'problem/ärr-från-finnar/atrofiska-arr',
+            url: 'problem/arr-fran-finnar/atrofiska-arr',
             url_title: 'Lär dig mer om atrofiska ärr (gropar)',
             url_label: 'Läs mer här',
             image: 'images/symptoms/102x102/atrofiska-arr.webp',
@@ -255,13 +239,13 @@ $service = new Service(
       image_large: 'images/services/200x200/arr-fran-finnar-konsultation.webp',
       image_alt: 'Bild av en konsultation för behandling av ärr från finnar',
       image_title: 'Konsultation för behandling av ärr från finnar',
-      consultation_url: 'arr-fran-finnar-konsultation',
+      consultation_url: 'consultation-booking?problem=scarsFromPimples',
       consultation_url_label: 'Boka konsultation',
       consultation_url_title: 'Klicka för att boka tid för en konsultation för ärr från finnar',
       booking_url: null,
       booking_url_label: null,
       booking_url_title: null,
-      url: 'arr-fran-finnar-konsultation',
+      url: 'hudkonsultation',
       url_label: 'Läs mer om vår konsultation för ärr från finnar',
       url_title: 'Klicka här för att läsa mer om gratis konsultation för ärr från finnar'
 );
@@ -281,13 +265,13 @@ $services = array(
             image_large: 'images/services/200x200/laserbehandling-arr-fran-finnar.webp',
             image_alt: 'Bild av en laserterapi för ärr som orsakats av finnar',
             image_title: 'Laserterapi för ärr från finnar',
-            consultation_url: 'hudkonsultation',
+            consultation_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/laserbehandling-arr-fran-finnar-1643922',
             consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserterapi för ärr från finnar',
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/laserbehandling-arr-fran-finnar-1643922',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en laserterapi för ärr som uppstått från finnar',
-            url: 'laserbehandling-arr-fran-finnar',
+            url: 'behandlingar/laserbehandling-arr-fran-finnar',
             url_label: 'Läs mer om laserterapi för ärr från finnar',
             url_title: 'Klicka här för att läsa mer om laserbehandling för ärr som orsakats av finnar'
       ),
@@ -301,13 +285,13 @@ $services = array(
             image_large: 'images/services/200x200/kemisk-peeling-arr-fran-finnar.webp',
             image_alt: 'Bild av en kemisk peeling för ärr orsakade av finnar',
             image_title: 'Kemisk Peeling för Ärr från Finnar',
-            consultation_url: 'hudkonsultation',
+            consultation_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/laserbehandling-arr-fran-finnar-1643922',
             consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för kemisk peeling för ärr från finnar',
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/kemisk-peeling-arr-fran-finnar-1643922',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en kemisk peeling för ärr som uppstått från finnar',
-            url: 'kemisk-peeling-arr-fran-finnar',
+            url: 'behandlingar/kemisk-peeling-arr-fran-finnar',
             url_label: 'Läs mer om kemisk peeling för ärr från finnar',
             url_title: 'Klicka här för att läsa mer om kemisk peeling för ärr orsakade av finnar'
       ),
@@ -321,13 +305,13 @@ $services = array(
             image_large: 'images/services/200x200/microneedling-arr-fran-finnar.webp',
             image_alt: 'Bild av en microneedling-behandling för ärr som orsakats av finnar',
             image_title: 'Microneedling för Ärr från Finnar',
-            consultation_url: 'hudkonsultation',
+            consultation_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/laserbehandling-arr-fran-finnar-1643922',
             consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling för ärr från finnar',
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/microneedling-arr-fran-finnar-1643922',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en microneedling-behandling för ärr som bildats av finnar',
-            url: 'microneedling-arr-fran-finnar',
+            url: 'behandlingar/microneedling-arr-fran-finnar',
             url_label: 'Läs mer om microneedling för ärr från finnar',
             url_title: 'Klicka här för att läsa mer om microneedling-behandling för ärr som uppstått från finnar'
       ),
@@ -343,7 +327,6 @@ $articles = array(
             image_alt: 'Varför välja oss för behandling av ärr från finnar?',
             image_title: 'Varför välja oss för behandling av ärr från finnar?',
             content: '<p class="p200">Vi på AcneSpecialisten erbjuder de mest innovativa och effektiva metoderna för att behandla ärr orsakade av finnar. Oavsett ärrtyp har vi lösningar – laserterapi för komplexa fall, microneedling för atrofiska ärr och kemisk peeling för mindre ojämnheter. Vår styrka ligger i att leverera individualiserade behandlingar, där din tillfredsställelse står i fokus.</p>
-
             <p class="p200 mt-m">Börja din resa mot en klarare hud med en helt kostnadsfri konsultation. Vi analyserar ditt specifika fall och kopplar dig med en personlig hudterapeut som kommer att stödja och vägleda dig genom processen, med en behandlingsplan som är skräddarsydd för just dig. Boka din konsultation idag!</p>',
       ),
       new Article(
@@ -354,14 +337,10 @@ $articles = array(
             image_alt: 'När ska jag besöka AcneSpecialisten för ärr från finnar?',
             image_title: 'När ska jag besöka AcneSpecialisten för ärr från finnar?',
             content: '<p class="p200">Välja rätt behandling för ärr som uppstått från finnar kan vara en utmaning. Hos AcneSpecialisten har vi över 30 års erfarenhet av att förstå och behandla denna typ av hudproblem. Vi är inte bara experter utan även pionjärer inom ärrreducering och laserbehandling.</p>
-
             <p class="p200 mt-m">Det som gör oss unika är vår specialiserade kunskap och dedikation. Vi ser inte bara till att förbättra din hud utan strävar också efter att stärka ditt självförtroende och välmående. </p>
-
             <p class="p200 mt-m">När du väljer AcneSpecialisten, får du inte bara behandling, utan en partner på din resa mot en ny början. Ta första steget med oss och boka din kostnadsfria konsultation idag. Vår professionella och erfarna team väntar på att få hjälpa dig.</p>',
       ),
 );
-
-
 
 $results = array(
       new ResultCustomer(
