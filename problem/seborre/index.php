@@ -52,7 +52,6 @@ $trivias = array(
             prefix: 'Vad',
             title: 'är seborré?',
             content: '<p class="p200">Seborré är en relativt vanlig hudåkomma som kännetecknas av fläckar av röd, fjällande, ibland kliande hud som kan bli fet eller oljig. Trots sitt utseende och sina ibland obekväma symtom, är seborré helt ofarligt. Det är en kronisk åkomma, vilket innebär att den tenderar att komma och gå under en persons livstid.</p>',
-
             extended_content: '<p class="p200 mt-xl">På AcneSpecialisten förstår vi att även om seborré inte är farligt, kan dess symptom vara besvärliga och störande. Vi erbjuder ett brett utbud av individuellt anpassade behandlingar och produkter som kan hjälpa till att kontrollera symptomen, minska obehag och förbättra det allmänna utseendet på huden.</p>',
             icons: array()
       ),
@@ -60,9 +59,7 @@ $trivias = array(
             prefix: 'Varför',
             title: 'får man seborré?',
             content: '<p class="p200">Seborré orsakas av flera sammanflätade faktorer. Centrala faktorer som bidrar till uppkomsten av detta hudtillstånd är överproduktion av talg och kroppens svar på den. Talg är en naturligt förekommande fet substans som produceras av hudens talgkörtlar för att hålla huden smidig och skyddad mot uttorkning och infektioner. När talgproduktionen ökar, blir huden mer oljig vilket ger en grogrund för vissa typer av hudbakterier och jästsvampar, detta kan leda till irritation, inflammation och en snabbare cellomsättning vilket resulterar i flagnande hud.</p>',
-
             extended_content: '<p class="p200 mt-xl">Hormonella förändringar, såsom de som sker under puberteten eller vid vissa tidpunkter i den menstruella cykeln, påverkar talgproduktionen och därmed risken för seborré. Dessutom har stress och brist på sömn en inverkan på huden och kroppens reglering av talgproduktionen vilket kan leda till seborré.</p>
-
             <p class="p200 mt-xl">På AcneSpecialisten har vi stor erfarenhet av att behandla seborré och vi kan erbjuda individuella behandlingsplaner för att hjälpa till att kontrollera och hantera ditt specifika tillstånd.</p>',
             icons: array('who-infants' => 'Hormoner', 'who-teenagers' => 'Stress', 'who-adults' => 'Genetik', 'who-elders' => 'Livsstil', 'who-elders' => 'Kyla')
       ),
@@ -70,9 +67,7 @@ $trivias = array(
             prefix: 'Vem',
             title: 'får seborré?',
             content: '<p class="p200">Seborré kan drabba individer i alla åldrar och från alla bakgrunder, men det är särskilt vanligt i två specifika åldersgrupper. För det första är seborré vanligt hos vuxna, särskilt mellan 30 och 60 år. Män har ofta en högre frekvens av seborré än kvinnor, vilket tros vara kopplat till att män har en större mängd talgkörtlar och en högre talgproduktion. De med fet hudtyp har också större benägenhet att drabbas av seborré.</p>',
-
             extended_content: '<p class="p200 mt-xl">För det andra är det vanligt hos spädbarn, vanligtvis under de första tre månaderna av livet, där det ofta kallas "mjölkskorv". Hos spädbarn presenterar sig seborré oftast som en gulaktig, fjällande skorpbildning på huvudet.</p>
-
             <p class="p200 mt-xl">På AcneSpecialisten vet vi hur besvärlig seborré kan vara, och vi är här för att hjälpa. Vi erbjuder individuell rådgivning och behandlingar för att hjälpa dig att hantera ditt seborré och förbättra din hudhälsa.</p>',
             icons: array('who-infants' => 'Barn', 'who-adults' => 'Vuxna')
       ),
@@ -80,9 +75,7 @@ $trivias = array(
             prefix: 'Var',
             title: 'får man seborré?',
             content: '<p class="p200">Seborré uppstår ofta i ansiktet, framförallt i områden med hög koncentration av talgkörtlar, såsom runt näsan, ögonbrynen, pannan och ögonlocken. Här kan tillståndet ge röda, fjällande, oljiga fläckar som kan vara svåra att dölja och orsaka obehag.</p>',
-
             extended_content: '<p class="p200 mt-xl">Ett annat vanligt område är hårbotten, där överdriven talgproduktion kan leda till mjäll. Även områden som öron, bröst och mitten av ryggen kan drabbas, där seborré kan skapa röda, flagnande fläckar. Trots att dessa områden är mest utsatta, kan seborré dyka upp var som helst på kroppen där talgproduktionen är hög. </p>
-
             <p class="p200 mt-xl">På AcneSpecialisten är vi experter på att hantera seborré. Vi erbjuder ett brett utbud av behandlingar och produkter som kan hjälpa dig att kontrollera dina symptom och förbättra din hudhälsa.</p>',
             icons: array('who-infants' => 'Ögonbryn', 'who-teenagers' => 'Näsa', 'who-adults' => 'Panna', 'who-elders' => 'Hårbotten')
       ),
@@ -98,7 +91,7 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Behandla',
             content: 'Vi erbjuder en rad skonsamma och effektiva seborrébehandlingar anpassade till din specifika typ av seborré, vilket säkerställer att du snabbt och säkert kan bli av med ditt seborréproblem.',
-            url: 'ansiktsbehandlingar-problemhy',
+            url: 'behandlingar/seborre',
             url_label: 'Utforska våra seborrébehandlingar',
             url_title: 'Utforska alla våra effektiva seborrébehandlingar',
       ),
@@ -166,12 +159,12 @@ $service = new Service(
       image_large: 'images/services/200x200/konsultation.webp',
       image_alt: 'Seborré Konsultation',
       image_title: 'Seborré Konsultation',
-      consultation_url: 'hudkonsultation',
+      consultation_url: 'consultation-booking?problem=seborrhea',
       consultation_url_label: 'Boka din gratis seborré konsultation nu',
       consultation_url_title: 'Boka din gratis seborré konsultation nu',
-      booking_url: 'bokning-seborré-konsultation',
-      booking_url_label: 'Boka din seborré konsultation nu',
-      booking_url_title: 'Boka din seborré konsultation nu',
+      booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
+      booking_url_label: 'Boka din seborré-behandling  nu',
+      booking_url_title: 'Boka din seborré-behandling nu',
 );
 $services = array(
       new Service(
@@ -184,7 +177,7 @@ $services = array(
             image_large: 'images/services/200x200/ansiktsbehandling-seborre.webp',
             image_alt: 'Ansiktsbehandling mot seborré',
             image_title: 'Ansiktsbehandling mot seborré',
-            consultation_url: 'hudkonsultation',
+            consultation_url: 'consultation-booking?problem=seborrhea&service=classicFacials',
             consultation_url_label: 'Boka gratis konsultation',
             consultation_url_title: 'Boka gratis konsultation',
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
@@ -203,10 +196,10 @@ $products = array(
             image_large: 'images/services/200x200/produkter-seborre.webp',
             image_alt: 'Produkter mot seborré',
             image_title: 'Produkter mot seborré',
-            consultation_url: 'hudkonsultation',
+            consultation_url: 'consultation-booking?problem=seborrhea',
             consultation_url_label: 'Få gratis rådgivning om våra produkter',
             consultation_url_title: 'Få gratis rådgivning om våra produkter',
-            booking_url: 'https://www.dahlskincare.se/produkter-mot-seborre',
+            booking_url: 'https://dahlskincare.se/produktkategorier/produktpaket/seborre',
             booking_url_label: 'Köp produkter mot seborré nu',
             booking_url_title: 'Köp produkter mot seborré nu',
       )
