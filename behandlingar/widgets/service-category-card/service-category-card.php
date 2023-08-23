@@ -21,18 +21,18 @@
         <div class="is-hidden-tablet">
             <a href="behandlingar/<?php echo $category->id ?>" class="mt-m button outline expand" title="<?php echo $category->read_more_label ?>"><?php echo $category->read_more_label ?></a>
             <hr>
-            <a href="<?php echo $category->consultation_url ?>" title="<?php echo $category->consultation_url_title ?>" class="button expand" title="<?php echo $category->consultation_url_label ?>"><?php echo $category->consultation_url_label ?></a>
-            <a href="<?php echo $category->booking_url ?>" title="<?php echo $category->booking_url_title ?>" class="mt-s button expand" title="<?php echo $category->booking_url_label ?>"><?php echo $category->booking_url_label ?></a>
+            <a href="<?php echo $category->consultation_url ?>" title="<?php echo $category->consultation_url_title ?>" class="button expand"><?php echo $category->consultation_url_label ?></a>
+            <a href="<?php echo $category->booking_url ?>" title="<?php echo $category->booking_url_title ?>" class="mt-s button expand"><?php echo $category->booking_url_label ?></a>
         </div>
         <div class="is-hidden-mobile">
             <a href="behandlingar/<?php echo $category->id ?>" class="mt-m button text compact" title="<?php echo $category->read_more_label ?>"><?php echo $category->read_more_label ?></a>
             <hr>
             <div class="columns is-multiline">
                 <div class="column mt-xxs is-full is-half-widescreen">
-                    <a href="<?php echo $category->consultation_url ?>" title="<?php echo $category->consultation_url_title ?>" class="button expand" title="<?php echo $category->consultation_url_label ?>"><?php echo $category->consultation_url_label ?></a>
+                    <a href="<?php echo $category->consultation_url ?>" title="<?php echo $category->consultation_url_title ?>" class="button expand"><?php echo $category->consultation_url_label ?></a>
                 </div>
                 <div class="column mt-xxs is-full is-half-widescreen">
-                    <a href="<?php echo $category->booking_url ?>" title="<?php echo $category->booking_url_title ?>" class="button expand" title="<?php echo $category->booking_url_label ?>"><?php echo $category->booking_url_label ?></a>
+                    <a href="<?php echo $category->booking_url ?>" title="<?php echo $category->booking_url_title ?>" class="button expand"><?php echo $category->booking_url_label ?></a>
                 </div>
             </div>
         </div>
