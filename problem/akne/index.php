@@ -36,23 +36,25 @@ $akas = [
       ),
 ];
 
-$consultation_url_label ="Få gratis konsultation";
-$consultation_url_title ="Gratis Konsultation för Akne";
+$consultation_url = "consultation-booking?problem=akne";
+$consultation_url_label = "Få gratis konsultation";
+$consultation_url_title = "Gratis Konsultation för Akne";
 
-$booking_url_label ="Boka behandling";
-$booking_url_title ="Boka Aknebehandling";
+$booking_url = "treatment-booking?problem=akne";
+$booking_url_label = "Boka behandling";
+$booking_url_title = "Boka Aknebehandling";
 
-$mobile_consultation_url_label ="Få gratis konsultation";
-$mobile_consultation_url_title ="Gratis Konsultation för Akne";
+$mobile_consultation_url_label = "Få gratis konsultation";
+$mobile_consultation_url_title = "Gratis Konsultation för Akne";
 
-$mobile_booking_url_label ="Boka behandling";
-$mobile_booking_url_title ="Boka Aknebehandling";
+$mobile_booking_url_label = "Boka behandling";
+$mobile_booking_url_title = "Boka Aknebehandling";
 
-$floating_consultation_url_label ="Få gratis konsultation";
-$floating_consultation_url_title ="Gratis Konsultation för Akne";
+$floating_consultation_url_label = "Få gratis konsultation";
+$floating_consultation_url_title = "Gratis Konsultation för Akne";
 
-$floating_booking_url_label ="Boka behandling";
-$floating_booking_url_title ="Boka Aknebehandling";
+$floating_booking_url_label = "Boka behandling";
+$floating_booking_url_title = "Boka Aknebehandling";
 
 $nav_buttons = array(
       'about' => 'Om akne',
@@ -365,8 +367,8 @@ $type_categories = array(
 
 );
 
-$types_url = '<a href="typer" title="Lär dig mer om olika typer av akne och deras behandling" class="mt-xl button b200 outline expand l10n is-hidden-tablet">Läs mer om olika typer av akne</a>
-              <a href="typer" title="Lär dig mer om olika typer av akne och deras behandling" class="mt-xl button b200 outline l10n is-hidden-mobile">Läs mer om olikta typer av akne</a>';
+$types_url = '<a href="problem/akne/typer" title="Lär dig mer om olika typer av akne och deras behandling" class="mt-xl button b200 outline expand l10n is-hidden-tablet">Läs mer om olika typer av akne</a>
+              <a href="problem/akne/typer" title="Lär dig mer om olika typer av akne och deras behandling" class="mt-xl button b200 outline l10n is-hidden-mobile">Läs mer om olika typer av akne</a>';
 
 $symptoms_title = 'Akne symptom';
 
@@ -451,7 +453,7 @@ $service = new Service(
       image_large: 'images/services/200x200/konsultation.webp',
       image_alt: 'Bild av en konsultation för aknebehandling',
       image_title: 'Konsultation för aknebehandling',
-      consultation_url: 'hudkonsultation',
+      consultation_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
       consultation_url_label: 'Boka tid för hudkonsultation',
       consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för akne',
       booking_url: null,
@@ -476,13 +478,13 @@ $services = array(
             image_large: 'images/services/200x200/ansiktsbehandling-akne.webp',
             image_alt: 'Bild av en ansiktsbehandling mot akne',
             image_title: 'Ansiktsbehandling mot akne',
-            consultation_url: 'hudkonsultation',
+            consultation_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
             consultation_url_label: 'Boka tid för hudkonsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling mot akne',
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
             booking_url_label: 'Boka tid för ansiktsbehandling mot akne',
             booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling mot akne',
-            url: 'ansiktsbehandling-acne',
+            url: 'behandlingar/ansiktsbehandling-acne',
             url_label: 'Läs mer om ansiktsbehandling mot akne',
             url_title: 'Klicka här för att läsa mer om ansiktsbehandling mot akne'
       ),
@@ -496,13 +498,13 @@ $services = array(
             image_large: 'images/services/200x200/laser-akne.webp',
             image_alt: 'Bild av laserbehandling mot akne',
             image_title: 'Laserbehandling mot akne',
-            consultation_url: 'hudkonsultation',
+            consultation_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
             consultation_url_label: 'Boka tid för hudkonsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling mot akne',
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
             booking_url_label: 'Boka tid för laserbehandling mot akne',
             booking_url_title: 'Klicka för att boka tid för en laserbehandling mot akne',
-            url: 'laser-akne',
+            url: 'behandlingar/laser-akne',
             url_label: 'Läs mer om laser mot akne',
             url_title: 'Klicka här för att läsa mer om laserbehandling mot akne'
       ),
@@ -516,13 +518,13 @@ $services = array(
             image_large: 'images/services/200x200/kemisk-peeling-akne.webp',
             image_alt: 'Bild av kemisk peeling mot akne',
             image_title: 'Kemisk peeling mot akne behandling',
-            consultation_url: 'hudkonsultation',
+            consultation_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
             consultation_url_label: 'Boka tid för hudkonsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för kemisk peeling mot akne',
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
             booking_url_label: 'Boka tid för kemisk peeling mot akne',
             booking_url_title: 'Klicka för att boka tid för en kemisk peeling mot akne behandling',
-            url: 'kemisk-peeling-akne',
+            url: 'behandlingar/kemisk-peeling-akne',
             url_label: 'Läs mer om kemisk peeling mot akne',
             url_title: 'Klicka här för att läsa mer om kemisk peeling mot akne'
       ),
@@ -537,13 +539,13 @@ $services = array(
             image_large: 'images/services/200x200/kemisk-peeling-akne.webp',
             image_alt: 'Bild av microneedling mot akne',
             image_title: 'Microneedling mot akne behandling',
-            consultation_url: 'hudkonsultation',
+            consultation_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
             consultation_url_label: 'Boka tid för hudkonsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling mot akne',
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
             booking_url_label: 'Boka tid för microneedling mot akne',
             booking_url_title: 'Klicka för att boka tid för en microneedling mot akne behandling',
-            url: 'microneedling-akne',
+            url: 'behandlingar/microneedling-akne',
             url_label: 'Läs mer om microneedling mot akne',
             url_title: 'Klicka här för att läsa mer om microneedling mot akne'
       ),
@@ -568,7 +570,7 @@ $products = array(
             booking_url: null,
             booking_url_label: null,
             booking_url_title: null,
-            url: 'produkter-akne',
+            url: 'https://dahlskincare.se',
             url_label: 'Läs mer om produkter mot akne',
             url_title: 'Klicka här för att läsa mer om produkter mot akne'
       )
@@ -593,7 +595,7 @@ $procedures = array(
             booking_url: null,
             booking_url_label: null,
             booking_url_title: null,
-            url: 'behandling/aknearr',
+            url: 'behandlingar/aknearr',
             url_label: 'Läs mer om behandlingar mot akneärr',
             url_title: 'Klicka här för att läsa mer om våra behandlingar mot akneärr'
       ),
@@ -635,7 +637,7 @@ $results = array(
             problem: 'Akne',
             type: 'Severe',
             treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne"">behandlingar mot akne</a>',
+                  duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne"">behandlingar mot akne</a>',
             )
       ),
       new ResultCustomer(
@@ -652,13 +654,13 @@ $results = array(
             problem: 'Akne',
             type: 'Severe',
             treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne">behandlingar mot akne</a>',
+                  duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne">behandlingar mot akne</a>',
             )
       ),
 );
 
-$results_url_label ="Se fler resultat";
-$results_url_title ="se flera aknebehandlingsresultat";
+$results_url_label = "Se fler resultat";
+$results_url_title = "se flera aknebehandlingsresultat";
 
 
 $reviews = array(
@@ -689,8 +691,8 @@ $reviews = array(
 
 );
 
-$review_url_label ="Läs fler omdömen";
-$review_url_title ="AcneSpecialisten Omdömen";
+$review_url_label = "Läs fler omdömen";
+$review_url_title = "AcneSpecialisten Omdömen";
 
 $faq_categories = array(
       'Generellt om akne' => array(
@@ -777,8 +779,8 @@ $faq_categories = array(
       ),
 );
 
-$faq_url_label ="Läs fler frågor & svar";
-$faq_url_title ="läs flera frågor relaterat till akne";
+$faq_url_label = "Läs fler frågor & svar";
+$faq_url_title = "läs flera frågor relaterat till akne";
 
 $skin_guide_articles = array(
       new SkinGuideArticle(
@@ -839,8 +841,8 @@ $skin_guide_articles = array(
       ),
 );
 
-$skinguide_url_label ="Läs fler guider";
-$skinguide_url_title ="Läs fler guider om akne";
+$skinguide_url_label = "Läs fler guider";
+$skinguide_url_title = "Läs fler guider om akne";
 
 $specialists = array(
       new Specialist(
@@ -873,8 +875,8 @@ $specialists = array(
       )
 );
 
-$specialist_url_label ="Se alla specialister";
-$specialist_url_title ="Akne Specialiserade Hudterapeuter";
+$specialist_url_label = "Se alla specialister";
+$specialist_url_title = "Akne Specialiserade Hudterapeuter";
 
 $related_problems = array(
       new RelatedProblem(
@@ -972,8 +974,8 @@ $brands = array(
       ),
 );
 
-$brands_url_label ="Se alla varumärken";
-$brands_url_title ="Varumärken för Aknebehandling";
+$brands_url_label = "Se alla varumärken";
+$brands_url_title = "Varumärken för Aknebehandling";
 
 ?>
 
@@ -1015,10 +1017,10 @@ $brands_url_title ="Varumärken för Aknebehandling";
                                           <div class="mt-xl">
                                                 <div class="columns is-2 is-variable">
                                                       <div class="column">
-                                                            <a href="hudkonsultation" title="<?php echo $floating_consultation_url_title ?>" class="button white expand l10n"><?php echo $floating_consultation_url_label ?></a>
+                                                            <a href="<?php echo $consultation_url ?>" title="<?php echo $floating_consultation_url_title ?>" class="button white expand l10n"><?php echo $floating_consultation_url_label ?></a>
                                                       </div>
                                                       <div class="column">
-                                                            <a href="https://bokadirekt.se" title="<?php echo $floating_booking_url_title ?>" class="button white expand l10n"><?php echo $floating_booking_url_label ?></a>
+                                                            <a href="<?php echo $booking_url ?>" title="<?php echo $floating_booking_url_title ?>" class="button white expand l10n"><?php echo $floating_booking_url_label ?></a>
                                                       </div>
                                                 </div>
                                           </div>
@@ -1050,10 +1052,10 @@ $brands_url_title ="Varumärken för Aknebehandling";
                               <div class="mt-xl">
                                     <div class="columns is-mobile">
                                           <div class="column is-half">
-                                                <a href="hudkonsultation" title="<?php echo $mobile_consultation_url_title ?>" class="button b200 white expand l10n"><?php echo $mobile_consultation_url_label ?></a>
+                                                <a href="<?php echo $consultation_url ?>" title="<?php echo $mobile_consultation_url_title ?>" class="button b200 white expand l10n"><?php echo $mobile_consultation_url_label ?></a>
                                           </div>
                                           <div class="column is-half">
-                                                <a href="https://bokadirekt.se" title="<?php echo $mobile_booking_url_title ?>" class="button b200 white expand l10n"><?php echo $mobile_booking_url_label ?></a>
+                                                <a href="<?php echo $booking_url ?>" title="<?php echo $mobile_booking_url_title ?>" class="button b200 white expand l10n"><?php echo $mobile_booking_url_label ?></a>
                                           </div>
                                     </div>
                               </div>
@@ -1081,8 +1083,8 @@ $brands_url_title ="Varumärken för Aknebehandling";
                                     </div>
                                     <p class="mt-s p200"><?php echo $description ?></p>
                                     <div class="mt-xl flex-row" id="book-buttons">
-                                          <a href="hudkonsultation" title="<?php echo $consultation_url_title ?>" class="button b200 white l10n"><?php echo $consultation_url_label ?></a>
-                                          <a href="https://bokadirekt.se" title="B<?php echo $booking_url_title ?>" class="button b200 white l10n"><?php echo $booking_url_label ?></a>
+                                          <a href="<?php echo $consultation_url ?>" title="<?php echo $consultation_url_title ?>" class="button b200 white l10n"><?php echo $consultation_url_label ?></a>
+                                          <a href="<?php echo $booking_url ?>" title="<?php echo $booking_url_title ?>" class="button b200 white l10n"><?php echo $booking_url_label ?></a>
                                     </div>
                               </div>
                         </div>
