@@ -117,7 +117,7 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Behandla',
             content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika aknetyp, så att du snabbt och säkert blir av med problemet.',
-            url: 'aknebehandling',
+            url: 'behandlingar/pormaskar',
             url_label: 'Se aknebehandlingar',
             url_title: 'Utforska våra skräddarsydda aknebehandlingar'
       ),
@@ -131,13 +131,13 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Reparera',
             content: 'När aknen är borta fokuserar vi på att reducera eventuella ärr med behandlingsmetoder som laser, microneedling och kemisk peeling för en jämn och problemfri hud.',
-            url: 'aknearr-behandling',
+            url: 'behandlingar/aknearr',
             url_label: 'Se ärrbehandlingar',
             url_title: 'Upptäck effektiva behandlingar för akneärr'
       ),
 
 );
-$treatment_link = '<a href="problem/akne/aknebehandling" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra aknebehandlingar</a>';
+$treatment_link = '<a href="problem/pormaskar/behandling" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra aknebehandlingar</a>';
 
 $types_title = 'Olika typer av akne';
 
@@ -154,7 +154,7 @@ $type_categories = array(
                         image_title: 'Akne hos vuxna',
                         subtitle: 'Även kallat acne tarda',
                         content: '',
-                        url: 'problem/akne/typer/vuxenakne',
+                        url: 'problem/pormaskar/typer/vuxenakne',
                         url_title: 'Utforska information om vuxenakne'
                   ),
                   new BasedType(
@@ -164,7 +164,7 @@ $type_categories = array(
                         title: 'Tonårsakne',
                         subtitle: 'Även kallat acne vulgaris',
                         content: '',
-                        url: 'problem/akne/typer/tonårsakne',
+                        url: 'problem/pormaskar/typer/tonårsakne',
                         url_title: 'Utforska information om tonårsakne'
                   ),
                   new BasedType(
@@ -174,7 +174,7 @@ $type_categories = array(
                         title: 'Barnakne',
                         subtitle: 'Även kallat acne neonatorum',
                         content: '',
-                        url: 'problem/akne/typer/barnakne',
+                        url: 'problem/pormaskar/typer/barnakne',
                         url_title: 'Utforska information om barnakne'
                   ),
 
@@ -192,7 +192,7 @@ $type_categories = array(
                         title: 'Mild akne',
                         subtitle: 'även kallat acne comedonica',
                         content: '',
-                        url: 'problem/akne/typer/mild-akne',
+                        url: 'problem/pormaskar/typer/mild-akne',
                         url_title: 'Utforska mer information om mild akne'
                   ),
                   new BasedType(
@@ -202,7 +202,7 @@ $type_categories = array(
                         title: 'Medelsvår akne',
                         subtitle: 'Även kallat acne papulopustulosa',
                         content: '',
-                        url: 'problem/akne/typer/medel-akne',
+                        url: 'problem/pormaskar/typer/medel-akne',
                         url_title: 'Utforska mer information om medelsvår akne'
                   ),
                   new BasedType(
@@ -212,7 +212,7 @@ $type_categories = array(
                         title: 'Svår akne',
                         subtitle: 'Även kallat Acne nodulocystica',
                         content: '',
-                        url: 'problem/akne/typer/svar-akne',
+                        url: 'problem/pormaskar/typer/svar-akne',
                         url_title: 'Utforska mer information om svår akne'
                   ),
                   new BasedType(
@@ -222,7 +222,7 @@ $type_categories = array(
                         title: 'Mycket svår akne',
                         subtitle: 'Även kallat Acne conglobata',
                         content: '',
-                        url: 'problem/akne/typer/mycket-svar-akne',
+                        url: 'problem/pormaskar/typer/mycket-svar-akne',
                         url_title: 'Utforska mer information om mycket svår akne'
                   ),
             )
@@ -239,7 +239,7 @@ $type_categories = array(
                         title: 'Mallorca akne',
                         subtitle: 'även kallat Acne aestivalis',
                         content: '',
-                        url: 'problem/akne/typer/mallorca-akne',
+                        url: 'problem/pormaskar/typer/mallorca-akne',
                         url_title: 'Läs mer om hur solen kan orsaka Mallorca akne'
                   ),
                   new BasedType(
@@ -249,7 +249,7 @@ $type_categories = array(
                         title: 'Hormonell akne',
                         subtitle: 'akne orsakad av hormoner',
                         content: '',
-                        url: 'problem/akne/typer/hormonell-akne',
+                        url: 'problem/pormaskar/typer/hormonell-akne',
                         url_title: 'Utforska mer om hur hormoner kan orsaka akne'
                   ),
                   new BasedType(
@@ -259,7 +259,7 @@ $type_categories = array(
                         title: 'kosmetika akne',
                         subtitle: 'Även kallat Acne cosmetica',
                         content: '',
-                        url: 'problem/akne/typer/kosmetika-akne',
+                        url: 'problem/pormaskar/typer/kosmetika-akne',
                         url_title: 'Lär dig mer om hur kosmetika kan orsaka akne'
                   ),
                   new BasedType(
@@ -269,7 +269,7 @@ $type_categories = array(
                         title: 'Akne från pillande',
                         subtitle: 'Även kallat Acne exoriée ',
                         content: '',
-                        url: 'problem/akne/typer/acne-exoriee',
+                        url: 'problem/pormaskar/typer/acne-exoriee',
                         url_title: 'Läs mer om hur pillande kan leda till akne'
                   ),
                   new BasedType(
@@ -279,7 +279,7 @@ $type_categories = array(
                         title: 'Friktionsakne',
                         subtitle: 'Även kallat Acne mechanica',
                         content: '',
-                        url: 'problem/akne/typer/akne-mekanisk',
+                        url: 'problem/pormaskar/typer/akne-mekanisk',
                         url_title: 'Utforska mer om hur friktion kan orsaka akne'
                   ),
                   new BasedType(
@@ -289,7 +289,7 @@ $type_categories = array(
                         title: 'Läkemedelsakne',
                         subtitle: 'Även kallat Acne medicamentosa',
                         content: '',
-                        url: 'problem/akne/typer/lakemedelsakne',
+                        url: 'problem/pormaskar/typer/lakemedelsakne',
                         url_title: 'Lär dig mer om hur läkemedel kan orsaka akne'
                   ),
                   new BasedType(
@@ -299,7 +299,7 @@ $type_categories = array(
                         title: 'Kontaktakne',
                         subtitle: 'Även kallat Acne venenata',
                         content: '',
-                        url: 'problem/akne/typer/kontakt-akne',
+                        url: 'problem/pormaskar/typer/kontakt-akne',
                         url_title: 'Utforska mer om hur direktkontakt kan orsaka akne'
                   ),
                   new BasedType(
@@ -309,7 +309,7 @@ $type_categories = array(
                         title: 'Svampakne',
                         subtitle: 'Även kallat fungal acne',
                         content: '',
-                        url: 'problem/akne/typer/fungal-akne',
+                        url: 'problem/pormaskar/typer/fungal-akne',
                         url_title: 'Lär dig mer om hur svampar kan orsaka akne'
                   )
             )
@@ -326,7 +326,7 @@ $type_categories = array(
                         title: 'Akne i ansiktet',
                         subtitle: 'Även kallat Acne faciei',
                         content: '',
-                        url: 'problem/akne/typer/akne-ansiktet',
+                        url: 'problem/pormaskar/typer/akne-ansiktet',
                         url_title: 'Läs mer om akne i ansiktet och dess potentiella behandlingar'
                   ),
                   new BasedType(
@@ -336,7 +336,7 @@ $type_categories = array(
                         title: 'Akne på ryggen',
                         subtitle: 'Även kallat Acne dorsalis',
                         content: '',
-                        url: 'problem/akne/typer/akne-ryggen',
+                        url: 'problem/pormaskar/typer/akne-ryggen',
                         url_title: 'Läs mer om akne på ryggen och dess potentiella behandlingar'
                   ),
                   new BasedType(
@@ -346,7 +346,7 @@ $type_categories = array(
                         title: 'Akne på bröstet',
                         subtitle: 'Även kallat Acne pectoralis',
                         content: '',
-                        url: 'problem/akne/typer/akne-brostet',
+                        url: 'problem/pormaskar/typer/akne-brostet',
                         url_title: 'Läs mer om akne på bröstet och dess potentiella behandlingar'
                   ),
 
@@ -355,8 +355,8 @@ $type_categories = array(
 
 );
 
-$types_url = '<a href="typer" title="Lär dig mer om olika typer av akne och deras behandling" class="mt-xl button b200 outline expand l10n is-hidden-tablet">Läs mer om olika typer av akne</a>
-              <a href="typer" title="Lär dig mer om olika typer av akne och deras behandling" class="mt-xl button b200 outline l10n is-hidden-mobile">Läs mer om olikta typer av akne</a>';
+$types_url = '<a href="problem/pormaskar/typer" title="Lär dig mer om olika typer av akne och deras behandling" class="mt-xl button b200 outline expand l10n is-hidden-tablet">Läs mer om olika typer av akne</a>
+              <a href="problem/pormaskar/typer" title="Lär dig mer om olika typer av akne och deras behandling" class="mt-xl button b200 outline l10n is-hidden-mobile">Läs mer om olikta typer av akne</a>';
 
 $symptoms_title = 'Akne symptom';
 
@@ -365,7 +365,7 @@ $symptoms = array(
             name: 'Öppna komedoner',
             image: 'images/symptoms/102x102/komedoner-oppna.webp',
             content: 'Pormaskar (öppna komedoner) är små, mörka prickar som uppstår när en por täpps igen av talg (hudens naturliga olja) och döda hudceller. De är ofta svarta eller bruna på grund av oxidation, som inträffar när melanin (hudens pigment) kommer i kontakt med luft. Pormaskar kan vara platta eller lätt upphöjda och är vanligt förekommande på näsan, kinderna, pannan och hakan.',
-            url: 'problem/akne/typer/post-inflammatory-hyperpigmentaion',
+            url: 'problem/pormaskar/typer/post-inflammatory-hyperpigmentaion',
             url_title: 'Läs mer om öppna komedoner (pormaskar)',
             url_label: 'Läs mer om öppna komedoner',
             aka: 'Kända som pormaskar',
@@ -376,7 +376,7 @@ $symptoms = array(
             name: 'Stängda komedoner',
             image: 'images/symptoms/102x102/komedoner-stangda.webp',
             content: 'Whiteheads (slutna komedoner) är små, vita eller hudfärgade utbuktningar som uppstår när en por täpps till av talg och döda hudceller under hudytan. De är täckta av ett tunt lager hud, vilket förhindrar oxidation och därmed behåller sin ljusa färg. Whiteheads kan vara platta eller lätt upphöjda och är vanligt förekommande på pannan, kinderna och hakan.',
-            url: 'problem/akne/typer/atrophic-icepick-scars',
+            url: 'problem/pormaskar/typer/atrophic-icepick-scars',
             url_title: 'Läs mer om stängda komedoner (whiteheads)',
             url_label: 'Läs mer om stängda komedoner',
             aka: 'Kända som "whiteheads"',
@@ -387,7 +387,7 @@ $symptoms = array(
             name: 'Papler',
             image: 'images/symptoms/102x102/papler.webp',
             content: 'Papuler är små, fasta, röda och inflammerade blemmor som uppstår när en hårsäck blir infekterad av bakterier, oftast Propionibacterium acnes. De är vanligtvis mindre än 5 mm i diameter och kan vara känsliga vid beröring. Papuler är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.',
-            url: 'problem/akne/typer/atrophic-boxcar-scars',
+            url: 'problem/pormaskar/typer/atrophic-boxcar-scars',
             url_title: 'Läs mer om papler (röda finnar)',
             url_label: 'Läs mer om papler',
             aka: 'Kända som röda finnar',
@@ -398,7 +398,7 @@ $symptoms = array(
             name: 'Pustler',
             image: 'images/symptoms/102x102/pustler.webp',
             content: 'Pustuler är röda och inflammerade blemmor som innehåller var (en blandning av döda bakterier, vita blodkroppar och döda hudceller). De ser ut som papuler men har en vit eller gul prick i mitten. Pustuler kan vara smärtsamma och är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.',
-            url: 'problem/akne/typer/atrophic-rolling-scars',
+            url: 'problem/pormaskar/typer/atrophic-rolling-scars',
             url_title: 'Läs mer om pustler (gula finnar)',
             url_label: 'Läs mer om pustler',
             aka: 'Kända som gula finnar',
@@ -409,7 +409,7 @@ $symptoms = array(
             name: 'Noduler',
             image: 'images/symptoms/102x102/noduler.webp',
             content: 'Noduler är större, djupare och ofta smärtsamma inflammerade blemmor som uppstår när en hårsäck blir kraftigt infekterad och inflammationen sprider sig till det omgivande vävnaden. De är vanligtvis större än 5 mm i diameter och kan vara fasta och ömma vid beröring. Noduler är vanligt förekommande på ansiktet, nacken, bröstet, ryggen och ibland även på överarmarna och skinkorna.',
-            url: 'problem/akne/typer/hypertrophic-keloid',
+            url: 'problem/pormaskar/typer/hypertrophic-keloid',
             url_title: 'Läs mer om noduler (innåtfinnar)',
             url_label: 'Läs mer om noduler',
             aka: 'Kända som innåtfinnar',
@@ -420,7 +420,7 @@ $symptoms = array(
             name: 'Cystor',
             image: 'images/symptoms/102x102/cystor.webp',
             content: 'Cystor är stora, inflammerade och smärtsamma blemmor som är fyllda med var och bildas när en hårsäck blir mycket infekterad och inflammationen sprider sig djupt in i huden. De kan vara runda och mjuka eller fasta och ömma vid beröring. Cystor kan vara större än 5 mm i diameter och är vanligt förekommande på ansiktet, nacken, bröstet och ryggen. Cystisk akne kan leda till ärrbildning och kräver ofta professionell behandling.',
-            url: 'problem/akne/typer/hypertrophic-keloid',
+            url: 'problem/pormaskar/typer/hypertrophic-keloid',
             url_title: 'Läs mer om cystor (bölder)',
             url_label: 'Läs mer om cystor',
             aka: 'Kända som bölder',
@@ -441,7 +441,7 @@ $service = new Service(
       image_large: 'images/services/200x200/konsultation.webp',
       image_alt: 'Bild av en konsultation för aknebehandling',
       image_title: 'Konsultation för aknebehandling',
-      consultation_url: 'hudkonsultation',
+      consultation_url: 'consultation-booking?problem=comedones',
       consultation_url_label: 'Boka tid för hudkonsultation',
       consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för akne',
       booking_url: null,
@@ -466,7 +466,7 @@ $services = array(
             image_large: 'images/services/200x200/ansiktsbehandling-akne.webp',
             image_alt: 'Bild av en ansiktsbehandling mot akne',
             image_title: 'Ansiktsbehandling mot akne',
-            consultation_url: 'hudkonsultation',
+            consultation_url: 'consultation-booking?problem=comedones&service=classicFacials',
             consultation_url_label: 'Boka tid för hudkonsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling mot akne',
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
@@ -486,7 +486,7 @@ $services = array(
             image_large: 'images/services/200x200/laser-akne.webp',
             image_alt: 'Bild av laserbehandling mot akne',
             image_title: 'Laserbehandling mot akne',
-            consultation_url: 'hudkonsultation',
+            consultation_url: 'consultation-booking?problem=comedones&service=laser',
             consultation_url_label: 'Boka tid för hudkonsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling mot akne',
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
@@ -506,7 +506,7 @@ $services = array(
             image_large: 'images/services/200x200/kemisk-peeling-akne.webp',
             image_alt: 'Bild av kemisk peeling mot akne',
             image_title: 'Kemisk peeling mot akne behandling',
-            consultation_url: 'hudkonsultation',
+            consultation_url: 'consultation-booking?problem=comedones&service=chemicalPeeling',
             consultation_url_label: 'Boka tid för hudkonsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för kemisk peeling mot akne',
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
@@ -524,7 +524,7 @@ $services = array(
             image_large: 'images/services/200x200/kemisk-peeling-akne.webp',
             image_alt: 'Bild av microneedling mot akne',
             image_title: 'Microneedling mot akne behandling',
-            consultation_url: 'hudkonsultation',
+            consultation_url: 'consultation-booking?problem=comedones&service=microneedling',
             consultation_url_label: 'Boka tid för hudkonsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling mot akne',
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
