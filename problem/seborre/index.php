@@ -5,34 +5,53 @@ include_once('../widgets/symptom-card/symptom.php');
 include_once('../widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
+$seo_title = 'Allt om Seborré - Orsaker, Behandling och Förebyggande | Acnespecialisten';
+$seo_description = 'Lär dig allt om seborré, från dess orsaker till hur man behandlar och förebygger det. Skräddarsydda lösningar och expertis från Acnespecialisten.';
+$seo_keywords = 'seborré, seborrébehandling, orsaker till seborré, förebygga seborré, ta bort seborré, skalp seborré, ansiktsseborré, seborroisk dermatit, fjällande hud, oljig hud';
+
+$title = 'Seborré';
+
 $image_small = 'images/problems/424x324/seborre.webp';
 $image_large = 'images/problems/424x456/seborre.webp';
+$image_title = 'Visar en hud med seborré';
+$image_alt = 'Bild som illustrerar hur seborré ser ut på huden';
+$description = 'Här förklarar vi vad som kännetecknar seborré , varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av seborré, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';
 
-$description = 'Här förklarar vi vad som kännetecknar seborré, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av seborré, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';
-$akas = ['problem/mjalleksem' => 'Mjälleksem', 'problem/seborroiskt-eksem' => 'Seborroiskt Eksem'];
+$akas = [
+      new Link(
+            label: 'Mjälleksem',
+            url: 'problem/mjalleksem',
+            title: 'Allt du behöver veta om mjälleksem och dess behandling'
+      ),
+      new Link(
+            label: 'Seborroiskt Eksem',
+            url: 'problem/seborroiskt-eksem',
+            title: 'Utforska orsaker, symptom och behandlingar av seborroiskt eksem'
+      ),
+];
 
-$consultation_url = "consultation-booking?problem=seborrhea";
+$consultation_url = "consultation-booking?problem=seborre";
 $consultation_url_label = "Få gratis konsultation";
-$consultation_url_title = "Gratis konsultation för behandling av seborré";
+$consultation_url_title = "Gratis Konsultation för Seborré";
 
-$booking_url = "treatment-booking?problem=seborrhea";
+$booking_url = "treatment-booking?problem=seborre";
 $booking_url_label = "Boka behandling";
 $booking_url_title = "Boka din tid för behandling av seborré";
 
 $mobile_consultation_url_label = "Få gratis konsultation";
-$mobile_consultation_url_title = "Gratis konsultation för seborré";
+$mobile_consultation_url_title = "Gratis Konsultation för seborré";
 
 $mobile_booking_url_label = "Boka behandling";
-$mobile_booking_url_title = "Boka din tid för behandling av seborré";
+$mobile_booking_url_title = "Boka Seborrébehandling";
 
 $floating_consultation_url_label = "Få gratis konsultation";
-$floating_consultation_url_title = "Gratis konsultation för seborré";
+$floating_consultation_url_title = "Gratis Konsultation för seborré";
 
 $floating_booking_url_label = "Boka behandling";
 $floating_booking_url_title = "Boka din tid för behandling av seborré";
 
 $nav_buttons = array(
-      'about' => 'Om seborré',
+      'about' => 'Om akne',
       'approach' => 'Metoden',
       'types' => 'Typer',
       'symptoms' => 'Symptom',
@@ -45,8 +64,11 @@ $nav_buttons = array(
       'faq' => 'FAQ',
       'skin-guide' => 'Hudguide',
       'specialists' => 'Specialister',
-      'related-problems' => 'Relaterade problem'
+      'related-problems' => 'Relaterade problem',
 );
+
+$about_title = 'Om seborré';
+
 $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
@@ -103,6 +125,9 @@ $treatment_steps = array(
             url_title: 'Se produkterna för att förebygga seborré',
       ),
 );
+
+$symptoms_title = 'Seborré symptom';
+
 $symptoms = array(
       new Symptom(
             name: 'Flagnande hy',
@@ -149,6 +174,9 @@ $symptoms = array(
             image_title: 'Fet hy som ett symptom på seborré'
       ),
 );
+
+$headline01 = "01. Identifiera din seborr´";
+
 $service = new Service(
       id: 'konsultation',
       title: 'Seborré Konsultation',
@@ -162,71 +190,172 @@ $service = new Service(
       consultation_url: 'consultation-booking?problem=seborrhea',
       consultation_url_label: 'Boka din gratis seborré konsultation nu',
       consultation_url_title: 'Boka din gratis seborré konsultation nu',
-      booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
-      booking_url_label: 'Boka din seborré-behandling  nu',
-      booking_url_title: 'Boka din seborré-behandling nu',
+      booking_url: null,
+      booking_url_label: null,
+      booking_url_title: null,
+      url: 'hudkonsultation',
+      url_label: 'Läs mer om vår hudkonsultation',
+      url_title: 'Klicka här för att läsa mer om gratis hudkonsultation'
+
 );
+
+$headline02 = "02. Behandla seborré";
+
 $services = array(
       new Service(
-            id: 'seborre',
-            title: 'Ansiktsbehandling mot seborré',
+            id: 'akne',
+            title: 'Ansiktsbehandling mot akne',
             duration: '60 min',
             price: '995 kr',
-            content: 'Vår specifika ansiktsbehandling mot seborré innebär en grundlig djuprengöring av huden för att effektivt avlägsna överflödigt talg och döda hudceller. Detta bidrar till att återställa balansen i din hud. Dessutom innehåller behandlingen antiinflammatoriska och lugnande steg som lindrar inflammation och rodnad, vilket i sin tur hjälper till att lugna huden och minska symtom på seborré.',
-            image_small: 'images/services/200x200/ansiktsbehandling-seborre.webp',
-            image_large: 'images/services/200x200/ansiktsbehandling-seborre.webp',
-            image_alt: 'Ansiktsbehandling mot seborré',
-            image_title: 'Ansiktsbehandling mot seborré',
-            consultation_url: 'consultation-booking?problem=seborrhea&service=classicFacials',
-            consultation_url_label: 'Boka gratis konsultation',
-            consultation_url_title: 'Boka gratis konsultation',
+            content: 'En effektiv ansiktsbehandling mot akne fokuserar på att noggrant extrahera orenheter som orsakar inflammation och skador i huden. Genom att försiktigt klämma ut akne och pormaskar kan behandlingen bidra till att förebygga ärrbildning och främja en snabbare läkning.',
+            image_small: 'images/services/200x200/ansiktsbehandling-akne.webp',
+            image_large: 'images/services/200x200/ansiktsbehandling-akne.webp',
+            image_alt: 'Bild av en ansiktsbehandling mot akne',
+            image_title: 'Ansiktsbehandling mot akne',
+            consultation_url: 'consultation-booking?problem=acne&service=classicFacials',
+            consultation_url_label: 'Boka tid för hudkonsultation',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling mot akne',
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
-            booking_url_label: 'Boka din ansiktsbehandling mot seborré nu',
-            booking_url_title: 'Boka din ansiktsbehandling mot seborré nu',
+            booking_url_label: 'Boka tid för ansiktsbehandling mot akne',
+            booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling mot akne',
+            url: 'behandlingar/ansiktsbehandling-acne',
+            url_label: 'Läs mer om ansiktsbehandling mot akne',
+            url_title: 'Klicka här för att läsa mer om ansiktsbehandling mot akne'
+      ),
+      new Service(
+            id: 'laser',
+            title: 'Laser mot akne',
+            duration: '50 min',
+            price: '2595 kr',
+            content: 'En avancerad laserbehandling mot akne erbjuder en effektiv lösning för att bekämpa aktiv akne och ärr som kan uppstå efter utbrott. Lasertekniken riktar sig mot de bakterier som orsakar inflammation och hjälper till att minska produktionen av talg, vilket minskar risken för framtida utbrott.',
+            image_small: 'images/services/200x200/laser-akne.webp',
+            image_large: 'images/services/200x200/laser-akne.webp',
+            image_alt: 'Bild av laserbehandling mot akne',
+            image_title: 'Laserbehandling mot akne',
+            consultation_url: 'consultation-booking?problem=acne&service=laser',
+            consultation_url_label: 'Boka tid för hudkonsultation',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling mot akne',
+            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
+            booking_url_label: 'Boka tid för laserbehandling mot akne',
+            booking_url_title: 'Klicka för att boka tid för en laserbehandling mot akne',
+            url: 'behandlingar/laser-akne',
+            url_label: 'Läs mer om laser mot akne',
+            url_title: 'Klicka här för att läsa mer om laserbehandling mot akne'
+      ),
+      new Service(
+            id: 'chemical-peeling',
+            title: 'Kemisk peeling mot akne',
+            duration: '30 min',
+            price: '1595 kr',
+            content: 'Kemisk peeling är en effektiv metod för att behandla akne. Genom att använda en speciellt framtagen lösning för att exfoliera huden, främjar kemisk peeling cellförnyelse, rensar tilltäppta porer och minskar inflammation. Resultatet är en jämnare hudton, mindre utbrott och färre synliga ärr. Det är en enkel och effektiv strategi för att ta kontroll över din akne och förbättra din hudhälsa.',
+            image_small: 'images/services/200x200/kemisk-peeling-akne.webp',
+            image_large: 'images/services/200x200/kemisk-peeling-akne.webp',
+            image_alt: 'Bild av kemisk peeling mot akne',
+            image_title: 'Kemisk peeling mot akne behandling',
+            consultation_url: 'consultation-booking?problem=acne&service=chemicalPeeling',
+            consultation_url_label: 'Boka tid för hudkonsultation',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för kemisk peeling mot akne',
+            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
+            booking_url_label: 'Boka tid för kemisk peeling mot akne',
+            booking_url_title: 'Klicka för att boka tid för en kemisk peeling mot akne behandling',
+            url: 'behandlingar/kemisk-peeling-akne',
+            url_label: 'Läs mer om kemisk peeling mot akne',
+            url_title: 'Klicka här för att läsa mer om kemisk peeling mot akne'
+      ),
+
+      new Service(
+            id: 'microneedling',
+            title: 'Microneedling mot akne',
+            duration: '50 min',
+            price: '2595 kr',
+            content: 'Microneedling är en innovativ behandlingsmetod för akne. Detta utförs genom att skapa små mikroskopiska kanaler i huden vilket främjar hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. Denna behandling kan effektivt minska utbrott av akne, förbättra hudens struktur och minska synligheten av akneärr. Microneedling är en säker och effektiv strategi för att ta kontroll över din akne och förbättra din hudhälsa.',
+            image_small: 'images/services/200x200/kemisk-peeling-akne.webp',
+            image_large: 'images/services/200x200/kemisk-peeling-akne.webp',
+            image_alt: 'Bild av microneedling mot akne',
+            image_title: 'Microneedling mot akne behandling',
+            consultation_url: 'consultation-booking?problem=acne&service=microneedling',
+            consultation_url_label: 'Boka tid för hudkonsultation',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling mot akne',
+            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
+            booking_url_label: 'Boka tid för microneedling mot akne',
+            booking_url_title: 'Klicka för att boka tid för en microneedling mot akne behandling',
+            url: 'behandlingar/microneedling-akne',
+            url_label: 'Läs mer om microneedling mot akne',
+            url_title: 'Klicka här för att läsa mer om microneedling mot akne'
       ),
 );
+
+$headline03 = "03. Förebygg uppkomsten av ny akne";
+
 $products = array(
       new Service(
-            id: 'produkter-mot-seborre',
-            title: 'Produkter mot seborré',
+            id: 'produkter-mot-akne',
+            title: 'Produkter mot akne',
             duration: null,
-            price: 'Pris från 1295 kr',
-            content: 'För att effektivt bekämpa och förebygga seborré krävs daglig behandling med de rätta produkterna. Vårt sortiment av seborréprodukter är speciellt utformat för att hjälpa till att återställa och upprätthålla balansen i din hud samt förebygga uppkomsten av ny seborré.',
-            image_small: 'images/services/200x200/produkter-seborre.webp',
-            image_large: 'images/services/200x200/produkter-seborre.webp',
-            image_alt: 'Produkter mot seborré',
-            image_title: 'Produkter mot seborré',
-            consultation_url: 'consultation-booking?problem=seborrhea',
-            consultation_url_label: 'Få gratis rådgivning om våra produkter',
-            consultation_url_title: 'Få gratis rådgivning om våra produkter',
-            booking_url: 'https://dahlskincare.se/produktkategorier/produktpaket/seborre',
-            booking_url_label: 'Köp produkter mot seborré nu',
-            booking_url_title: 'Köp produkter mot seborré nu',
+            price: 'Pris från 1495 kr',
+            content: 'För att effektivt bekämpa och förebygga akne är daglig behandling med rätt produkter avgörande. Våra akneprodukter är speciellt utformade för att hålla din hud i balans och förhindra att ny akne uppstår.',
+            image_small: 'images/services/200x200/produkter-akne.webp',
+            image_large: 'images/services/200x200/produkter-akne.webp',
+            image_alt: 'Bild av produkter designade för behandling av akne',
+            image_title: 'Effektiva produkter för bekämpning och förebyggande av akne',
+            consultation_url: null,
+            consultation_url_label: null,
+            consultation_url_title: null,
+            booking_url: null,
+            booking_url_label: null,
+            booking_url_title: null,
+            url: 'https://dahlskincare.se',
+            url_label: 'Läs mer om produkter mot akne',
+            url_title: 'Klicka här för att läsa mer om produkter mot akne'
       )
+);
+
+$headline04 = "04. Reparera post-akne";
+
+$procedures = array(
+      new Service(
+            id: 'microneedling-for-acne',
+            title: 'Reparera acneärr',
+            duration: '4 behandlingsmetoder',
+            price: null,
+            content: 'Efter aktiv akne kan man uppleva post-akne, vilket innebär ärr i form av gropar i olika former och fläckar i olika färger på huden där aknen tidigare varit. Olika typer av ärr behandlas med olika metoder. Klicka här för att läsa mer om hur du kan reparera din hud och ta hand om post-akne.',
+            image_small: 'images/services/200x200/microneedling-aknearr.webp',
+            image_large: 'images/services/200x200/microneedling-aknearr.webp',
+            image_alt: 'Reparera acneärr',
+            image_title: 'Reparera acneärr',
+            consultation_url: null,
+            consultation_url_label: null,
+            consultation_url_title: null,
+            booking_url: null,
+            booking_url_label: null,
+            booking_url_title: null,
+            url: 'behandlingar/aknearr',
+            url_label: 'Läs mer om behandlingar mot akneärr',
+            url_title: 'Klicka här för att läsa mer om våra behandlingar mot akneärr'
+      ),
 );
 $articles = array(
       new Article(
             id: 'pigmentation-causes-and-risk-factors',
-            title: 'Hur behandlar man seborré i ansiktet?',
+            title: 'Varför AcneSpecialisten?!',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'Hur behandlar man seborré i ansiktet?',
-            image_title: 'Hur behandlar man seborré i ansiktet?',
-            content: '<p class="p200">Du som söker det bästa mot seborré bör välja AcneSpecialisten eftersom vi är experter på att behandla seborré och har över 30 års erfarenhet av att ha arbetat med olika hudproblem, inklusive seborré. Vi skräddarsyr behandlingar baserade på dina individuella problem och behov, vi rekommenderar de bästa produkterna för att förebygga och behandla din hud och seborré.</p>
-            <p class="p200 mt-m">Genom att välja Acnespecialisten får du den mest effektiva behandlingen för ditt specifika fall och en hudvårdspartner som stöttar dig genom hela processen.</p>',
+            image_alt: 'Varför AcneSpecialisten?!',
+            image_title: 'Varför AcneSpecialisten?!',
+            content: '<p class="p200">Du som vill ha det som är bäst mot akne bör välja Acnespecialisten eftersom vi är experter på att behandla akne och har över 30 års erfarenhet av att ha arbetat med olika typer av akne. Vi lever upp till vårt namn genom att erbjuda personlig och professionell hjälp för att hjälpa dig att uppnå en klar och frisk hud. Vi skräddarsyr behandlingar baserade på dina individuella problem och behov, vi rekommenderar de bästa akneprodukterna för att förebygga och behandla din hud och akne. </p><p class="p200 mt-m">Genom att välja Acnespecialisten får du den mest effektiva behandlingen för ditt specifika fall och en hudvårdspartner som stöttar dig genom hela processen.</p>',
       ),
       new Article(
             id: 'when-to-see-your-pigmentation-specialist',
-            title: 'När ska jag söka hjälp med min seborré?',
+            title: 'När ska jag besöka AcneSpecialisten?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'När ska jag söka hjälp med min seborré?',
-            image_title: 'När ska jag söka hjälp med min seborré?',
-            content: '<p class="p200">Om du upplever att seborré börjar påverka din dagliga livskvalitet, eller om du har provat olika behandlingar och produkter utan att märka någon bestående förbättring, kan det vara dags att söka professionell hjälp. Att agera tidigt ökar chanserna att förhindra långvariga hudproblem och att uppnå en sundare och mer balanserad hud.</p>
-            <p class="p200 mt-m">Vi på AcneSpecialisten välkomnar alla, oavsett om din seborré är lindrig, måttlig eller svår. Genom att erbjuda skräddarsydda behandlingsplaner baserade på dina specifika behov, är vår målsättning att erbjuda effektiva lösningar som hjälper dig att hantera och lindra symptomen på seborré. Vi har ett team av hudterapeuter med lång erfarenhet av att behandla olika typer av hudproblem, inklusive seborré. De står redo att hjälpa dig med råd om vilka produkter och behandlingar som kan vara mest effektiva för just din hudtyp.</p>
-            <p class="p200 mt-m">Vänta inte med att söka hjälp, det första steget kan vara att boka en gratis konsultation med oss. Denna kostnadsfria tjänst innebär att vi analyserar din hud och din seborré, och utarbetar en individuell behandlingsplan anpassad för dig. Innan du överväger att besöka en läkare, prova vår klinik först - det kan spara dig från att använda starka mediciner med potentiella biverkningar och påverkan på hela kroppen. Genom att boka en konsultation får du en inblick i hur vi kan hjälpa dig att förbättra din hudhälsa.</p>',
+            image_alt: 'När ska jag besöka AcneSpecialisten?',
+            image_title: 'När ska jag besöka AcneSpecialisten?',
+            content: '<p class="p200">Du bör besöka Acnespecialisten när du känner att din akne påverkar din livskvalitet eller om du har provat olika behandlingar och produkter utan att se några varaktiga förbättringar. Ju tidigare du söker hjälp, desto större är chansen att undvika ärrbildning och långvariga hudproblem. Acnespecialisten är här för att erbjuda dig expertis och skräddarsydda behandlingar oavsett om du har lindrig, måttlig eller svår akne. Tveka inte att kontakta oss för att boka en kostnadsfri konsultation och ta det första steget mot en klarare och friskare hud.</p><p class="p200 mt-m">Välj Acnespecialisten innan du går till en läkare, eftersom vi erbjuder en kostnadsfri konsultation där vi analyserar din akne och föreslår en individuell behandlingsplan. Våra specialister har stor erfarenhet av att behandla akne och kan ge dig råd om vilka produkter och behandlingar som är bäst för just din hudtyp. Att prova Acnespecialisten först kan hjälpa dig att undvika att använda tunga mediciner som kan ha biverkningar och påverka hela kroppen. Genom att boka en gratis konsultation hos oss får du en chans att se hur vi kan hjälpa dig att förbättra din hudhälsa innan du tar steget att besöka en läkare.</p>',
       ),
 );
+
+
 $results = array(
       new ResultCustomer(
             id: '1',
@@ -239,10 +368,10 @@ $results = array(
             image_title: 'Resultat',
             age: 18,
             gender: 'Female',
-            problem: 'Seborré',
+            problem: 'Akne',
             type: 'Severe',
             treatment: new ResultTreatment(
-                  duration: 'Efter 3 månaders <a href="behandlingar/seborre" title="Seborré"">behandlingar mot seborré</a>',
+                  duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne"">behandlingar mot akne</a>',
             )
       ),
       new ResultCustomer(
@@ -256,20 +385,25 @@ $results = array(
             image_title: 'Resultat',
             age: 18,
             gender: 'Female',
-            problem: 'Seborré',
+            problem: 'Akne',
             type: 'Severe',
             treatment: new ResultTreatment(
-                  duration: 'Efter 3 månaders <a href="behandlingar/seborre" title="Seborré">behandlingar mot seborré</a>',
+                  duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne">behandlingar mot akne</a>',
             )
       ),
 );
+
+$results_url_label = "Se fler resultat";
+$results_url_title = "se flera aknebehandlingsresultat";
+
+
 $reviews = array(
       new Review(
             stars: 5,
             brand: 'Trustpilot',
             logo_url: 'images/brands/trustpilot.svg',
             title: 'Supernöjd',
-            text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all seborré efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
+            text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
             signature: 'Sofia'
       ),
       new Review(
@@ -277,7 +411,7 @@ $reviews = array(
             brand: 'Google',
             logo_url: 'images/brands/google-small.svg',
             title: 'Jag är mycket nöjd..',
-            text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och seborren är betydligt mildare",
+            text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och aknen är betydligt mildare",
             signature: 'Lovisa'
       ),
       new Review(
@@ -285,82 +419,110 @@ $reviews = array(
             brand: 'Bokadirekt',
             logo_url: 'images/brands/bokadirekt-small.svg',
             title: 'Rekommenderar varmt!',
-            text: "Det enda som fungerat mot min seborré med synliga resultat. Jättetrevlig och kunnig behandlare!",
+            text: "Det enda som fungerat mot min akne med synliga resultat. Jättetrevlig och kunnig behandlare!",
             signature: 'Emily'
       ),
 
 );
+
+$review_url_label = "Läs fler omdömen";
+$review_url_title = "AcneSpecialisten Omdömen";
+
 $faq_categories = array(
-      'Generellt om seborré' => array(
+      'Generellt om akne' => array(
             new Question(
-                  title: 'Vad erbjuder AcneSpecialisten för behandling av seborré?',
-                  text: '<p class="p200">På AcneSpecialisten erbjuder vi skräddarsydda behandlingsplaner för att hantera seborré och dess symtom. Beroende på ditt specifika tillstånd kan detta inkludera råd om hudvård och behandlingar riktade mot att kontrollera överdriven talgproduktion och reducera inflammation. Vårt mål är att förbättra din hy och livskvalitet genom att hjälpa dig hantera ditt seborré på bästa möjliga sätt.</p>'
+                  title: 'Hur blir jag av med min akne snabbt?',
+                  text: '<p class="p200">Att bli av med akne snabbt är en utmaning, eftersom det inte finns någon quickfix när det gäller akne. Effektiv behandling kräver att du tar hand om din hud genom att använda rätt behandlingar och produkter som passar din specifika hudtyp och akne. För att få en skräddarsydd behandlingsplan som hjälper dig att bli av med aknen så snabbt som möjligt, rekommenderar vi att du bokar en kostnadsfri hudkonsultation hos oss. Under konsultationen kommer vi att analysera din hud och hjälpa dig att utforma en anpassad behandlingsrutin som ger dig de bästa förutsättningarna för att snabbt och effektivt behandla din akne.</p>'
             ),
             new Question(
-                  title: 'Kan man förebygga seborré?',
-                  text: '<p class="p200">Ja, att ta hand om sin hy spelar en viktig roll i att hantera och mildra symtomen. På AcneSpecialisten kan vi ge råd om den bästa hudvårdsrutinen för din specifika hudtyp och behov. Regelbunden behandling med hudvårdsprodukter för seborré hjäpler till att balansera hudens naturliga oljor och hålla symptomen i schack.</p>'
+                  title: 'Har jag akne även om jag bara har en finne?',
+                  text: '<p class="p200">ja, du har tekniskt sett akne även om du bara har en enstaka finne. Akne kan ta sig många olika former och innefattar alla typer av finnar, oavsett om det är enstaka eller flera, stora eller små, papler eller pustler. Många tror att de inte har akne om de endast upplever enstaka finnar då och då, men faktum är att alla dessa fall kategoriseras som akne.</p>'
             ),
             new Question(
-                  title: 'Kan seborré bli värre under vissa tider på året?',
-                  text: '<p class="p200">Ja, det är mycket möjligt. För många personer kan symtomen på seborré bli värre under vintermånaderna eller i torrt, kallt väder. Detta kan bero på att huden tenderar att bli torrare i sådana förhållanden, vilket kan irriterar och inflammera hudområdena som påverkas av seborré.</p>'
+                  title: 'Ska jag klämma mina finnar?',
+                  text: '<p class="p200">Vi på Acnespecialisten rekommenderar att du inte klämmer finnar själv, eftersom felaktig teknik kan leda till ärrbildning och förvärra inflammationen genom att införa bakterier från dina fingrar. Det är dock sant att finnar kan behöva klämmas, men det måste göras på rätt sätt för att undvika skador på huden. Om du undviker att klämma helt kan ärrbildning också uppstå, eftersom fettsyran i finnen fortsätter att fräta på huden.</p>
+
+                        <p class="p200 mt-m">För att klämma finnar korrekt krävs både rätt utrustning och teknik. På Acnespecialisten har vi erfarna hudterapeuter som kan hjälpa dig att behandla dina finnar på ett säkert och effektivt sätt. Genom att vända dig till oss får du den expertis och omsorg du behöver för att hantera din akne på bästa sätt. Du kan läsa mer om våra aknebehandlingar och hur de kan hjälpa dig här.</p>'
             ),
             new Question(
-                  title: 'Är seborré kopplat till kost?',
-                  text: '<p class="p200">Nej, det är ingen klar vetenskaplig konsensus om en direkt koppling mellan kost och seborré, men vissa individer rapporterar att deras symtom förvärras av vissa livsmedel eller brist på vissa näringsämnen. Vår målsättning är dock att behandla din seborré med hudvårdsprodukter så att du inte behöver anpassa din kost efter din hy.</p>'
+                  title: 'Försvinner aknen efter tonåren?',
+                  text: '<p class="p200">Det är svårt att ge ett entydigt svar på den frågan eftersom det varierar från person till person. För vissa kan akne vara ett tonårsproblem som försvinner när de blir äldre, medan det för andra kan övergå till vuxenakne. Det är inte säkert att aknen försvinner efter tonåren, och det kan variera beroende på individuella faktorer som hormoner, genetik och livsstil.</p>
+
+                        <p class="p200 mt-m">Akne kan uppstå i olika faser av livet och dess svårighetsgrad varierar från person till person. Vissa individer upplever akne under tonåren, som sedan försvinner när de når vuxen ålder. Andra kan vara aknefria under tonåren, men drabbas av akne som vuxna. Den mest besvärliga situationen är när någon drabbas av akne under tonåren som sedan övergår till vuxenakne.</p>
+
+                        <p class="p200 mt-m">När man når vuxen ålder och aknen fortfarande inte har försvunnit, är det stor risk att aknen har lett till ärrbildning. Det är därför viktigt att behandla akne i alla åldrar för att förebygga och minimera risken för att drabbas av acneärr. Oavsett ålder och fas av akne, bör man söka hjälp för att behandla och kontrollera sitt tillstånd, för att minska risken för långsiktiga hudproblem som ärrbildning.</p>'
             ),
             new Question(
-                  title: 'Är seborré samma som mjäll?',
-                  text: '<p class="p200">Mjäll och seborré är två relaterade men distinkta tillstånd. Mjäll karaktäriseras av en skalig, vit till gulaktig fjällning på hårbotten, medan seborré kan påverka hårbotten samt andra områden på kroppen där det finns mycket talgkörtlar. Mjäll är vanligtvis inte åtföljt av rödhet eller inflammation, vilket ofta är fallet med seborré.</p>'
+                  title: 'Kan jag ha akne även om jag är vuxen?',
+                  text: '<p class="p200">Ja, akne kan drabba vuxna och det är faktiskt ganska vanligt. Vuxenakne drabbar cirka 12-22% av alla kvinnor och 3% av alla män. Den kan uppkomma vid 20-, 30- och 40-årsåldern, och ibland ännu senare. Det kallas då för vuxenakne och har också med hormonerna i din kropp att göra, men faktorerna som triggar igång din akne är lite annorlunda än vid tonårsakne.</p>
+
+                        <p class="p200 mt-m">Vid tonårsakne ökar produktionen av det manliga könshormonet i din kropp. Det, i kombination med fettproduktionen, kan leda till att du drabbas av akne. Vid vuxen ålder däremot, kan aknen bero på sådant som graviditet, menstruation, alkohol, stress och preventivmedel. Alltså, yttre faktorer som triggar igång dina hormoner och får aknen att blomma upp.</p>
+
+                       <p class="p200 mt-m">Vuxenakne kan orsakas av flera faktorer, såsom hormonella förändringar, stress, genetik och användning av olämpliga hudvårdsprodukter. Hos kvinnor kan akne ofta vara kopplad till menstruationscykeln eller hormonella förändringar i samband med graviditet och menopaus.</p>
+
+                       <p class="p200 mt-m">Sammanfattningsvis kan akne drabba personer i alla åldrar, och det är viktigt att vara medveten om att akne inte bara är ett tonårsproblem.</p>'
             ),
             new Question(
-                  title: 'Kan man få seborré på andra delar av kroppen än ansiktet och hårbotten?',
-                  text: '<p class="p200">Ja, även om seborré oftast ses i hårbotten och ansiktet, kan det också uppträda på andra områden där det finns många talgkörtlar, såsom bröstkorgen, ryggen och i vissa fall axlarna, armhålorna eller ljumskarna.</p>'
+                  title: 'Förvärras min akne av att jag äter choklad?',
+                  text: '<p class="p200">Nej, det är en myt att choklad direkt skulle leda till akne. Ingen vetenskaplig forskning har tydligt påvisat ett direkt samband mellan chokladkonsumtion och uppkomsten av finnar. Det som potentiellt kan påverka din akne är stress. Om du upplever stress över att du ätit choklad, kan det i sin tur bidra till akneutbrott. Men en bit choklad då och då bör inte orsaka akneutbrott hos de flesta människor.</p>'
             ),
             new Question(
-                  title: 'Vad kan jag göra för att minska rödhet och klåda orsakad av seborré?',
-                  text: '<p class="p200">På AcneSpecialisten erbjuder vi skräddarsydda behandlingsplaner för att hantera seborré och dess symtom. Beroende på ditt specifika tillstånd kan detta inkludera råd om hudvård och livsstil, samt specifika behandlingar riktade mot att kontrollera överdriven talgproduktion och reducera inflammation. Vårt mål är att förbättra din hy och livskvalitet genom att hjälpa dig hantera ditt seborré på bästa möjliga sätt.</p>'
+                  title: 'Vad kan jag göra för att bli av med min akne?',
+                  text: '<p class="p200">Att bekämpa akne effektivt kräver en individuellt anpassad strategi som kombinerar lämpliga behandlingar och hudvårdsprodukter, utformade för att passa dina unika behov och din huds specifika tillstånd. På Acnespecialisten, erbjuder vi kostnadsfria hudkonsultationer där vi kan utvärdera ditt specifika fall av akne och hjälpa till att skräddarsy en effektiv behandlingsrutin.</p>'
             )
       ),
-      'Behandling mot seborré' => array(
+      'Behandling mot akne' => array(
             new Question(
-                  title: 'Vilka behandlingar finns tillgängliga för seborré hos AcneSpecialisten?',
-                  text: '<p class="p200">Hos AcneSpecialisten erbjuder vi olika behandlingar för att hantera och lindra symtomen på seborré. Efter en noggrann hudanalys och konsultation skräddarsyr vi en behandlingsplan som kan inkludera professionella behandlingar såsom specialanpassade ansiktsbehandlingar och hudvårdsprodukter som balanserar talgproduktionen, reducera inflammation och förbättra hudens textur och utseende.</p>'
-            ),
-            new Question(
-                  title: 'Hur snabbt kan jag förvänta mig att se resultat efter behandling av seborré?',
-                  text: '<p class="p200">Resultaten kan variera beroende på olika faktorer, inklusive svårighetsgraden av din seborré, din hudtyp och hur konsekvent du följer din personliga behandlingsplan. Vissa människor märker en förbättring av sina symtom redan efter en vecka, medan det för andra kan ta ett par veckor innan de ser märkbara resultat. Vi är engagerade i att arbeta med dig för att hitta den mest effektiva behandlingsplanen för att uppnå dina hudvårdsmål.</p>'
-            ),
-            new Question(
-                  title: 'Hur länge varar resultaten från behandlingarna?',
-                  text: '<p class="p200">Varaktigheten av resultaten från seborrébehandlingar kan variera beroende på flera faktorer, inklusive din individuella hudtyp, svårighetsgraden av dina symtom, din livsstil och hur noggrant du följer din eftervårdsplan. Precis som med alla hudvårdsrutiner kräver seborré ofta daglig uppmärksamhet. Genom att bibehålla en daglig hudvårdsrutin som omfattar rengöring, återfuktning och regelbundna behandlingar kan vi effektivt behandla seborré och förebygga återkommande symptom.</p>
+                  title: 'Hur många behandlingar behövs?',
+                  text: '<p class="p200">Antalet behandlingar som behövs varierar från person till person och beror på flera faktorer, som din hudtyp, svårighetsgraden av din akne och din respons på behandlingen. Vanligtvis kan du se en förbättring efter 1 till 3 veckors regelbunden behandling.</p>
 
-                        <p class="p200 mt-m">Att förstå att det handlar om daglig skötsel, snarare än en engångsbehandling, är nyckeln till framgång när det gäller att hantera seborré. På AcneSpecialisten arbetar vi tillsammans med dig för att utveckla en rutin som passar ditt liv och dina behov, och ger dig verktygen och kunskapen för att uppnå och behålla hälsosam hud.</p>'
+                       <p class="p200 mt-m">Det är viktigt att påpeka att behandlingen hos oss inte fungerar i isolering. En väsentlig del av din framgång ligger i den dagliga användningen av de rekommenderade produkterna hemma. Det är kombinationen av professionell behandling och hemmavård som ger bästa möjliga resultat.</p>
+
+                        <p class="p200 mt-m">Om du inte upplever de förväntade förbättringarna efter en tid, uppmanar vi dig att ta kontakt med din personliga hudterapeut. Tillsammans kan vi se över dina hudvårdsrutiner och de produkter du använder, för att optimera din behandlingsplan.</p>'
             ),
             new Question(
-                  title: 'Är behandlingarna för seborré säkra?',
-                  text: '<p class="p200">Ja, behandlingar för seborré på AcneSpecialisten är säkra. Vi använder bara beprövade metoder och tekniker, och alla våra behandlingar utförs av välutbildade hudterapeuter. Vi prioriterar alltid säkerheten och komforten för våra kunder och arbetar för att säkerställa att du känner dig trygg och omhändertagen under hela behandlingsprocessen.</p>'
+                  title: 'Finns det en risk att min akne återkommer?',
+                  text: '<p class="p200">Ja, det finns en risk att akne återkommer, eftersom akne kan påverkas av flera faktorer såsom genetik, hormoner, livsstil och hudvård. Personer med en genetisk benägenhet för akne kan uppleva att aknen återkommer, särskilt under perioder av hormonella förändringar som pubertet, graviditet eller menstruation. Även faktorer som stress, kost och användning av olämpliga hudvårdsprodukter kan bidra till att aknen återkommer.</p>
+                       
+                       <p class="p200 mt-m">Det är dock viktigt att komma ihåg att regelbunden och korrekt hudvård kan hålla aknen i schack. Precis som vi borstar tänderna varje dag för att hålla karies borta, behöver vi underhålla vår hud för att hålla aknen borta. Det innebär att följa en anpassad hudvårdsrutin, hantera stress och upprätthålla en hälsosam livsstil. Så länge du tar hand om din hud regelbundet och på rätt sätt, kan du förhindra att aknen återkommer.</p>'
             ),
             new Question(
-                  title: 'Behöver jag fortsätta behandlingen även när mina symtom förbättras?',
-                  text: '<p class="p200">Ja, seborré kan vara ett kroniskt tillstånd för vissa människor, vilket innebär att även om symtomen förbättras kan de komma tillbaka om behandlingen upphör. För att bibehålla dina resultat rekommenderar vi att du fortsätter att följa din skräddarsydda hudvårdsrutin och regelbundet återvänder till oss för professionell vård och rådgivning.</p>'
+                  title: 'Vilken är den bästa behandlingen mot akne?',
+                  text: '<p class="p200">Vilken behandling som är bäst för akne varierar beroende på individens hudtyp, aknens svårighetsgrad och orsaker till akne. Den bästa behandlingen är en skräddarsydd behandlingsplan som kombinerar rätt behandlingar, produkter och rutiner för att effektivt ta itu med den aktiva aknen och förhindra att nya utbrott uppstår. Genom att först behandla och bli av med den aktiva aknen kan du uppnå en klarare hud. Därefter är det viktigt att bibehålla resultaten med lämpliga produkter och rutiner för att motverka att nya finnar uppstår och hålla aknen under kontroll. Det rekommenderas att konsultera en av våra specialister för att få en personlig och effektiv behandlingsplan som passar just din hud och akne.</p>'
             ),
             new Question(
-                  title: 'Vilka produkter ska jag använda hemma för att komplettera mina behandlingar?',
-                  text: '<p class="p200">Vi erbjuder ett brett sortiment av produkter som du kan använda hemma för att stödja och komplettera dina professionella behandlingar. Dessa inkluderar specialiserade ansiktsrengöringsmedel, fuktighetskrämer, exfolianter och produkter för att kontrollera talgproduktionen. Under din konsultation kommer vi att rekommendera de bästa produkterna för din hudtyp och tillstånd.</p>'
+                  title: 'Gör aknebehandlingen ont?',
+                  text: '<p class="p200">vi strävar efter att göra aknebehandlingen så behaglig som möjligt för våra klienter. Det är sant att akne ibland innebär inflammation i porerna och kan göra ont när de öppnas upp och töms. Men vi vill påpeka att smärtupplevelsen kan variera från person till person och bero på behandlingsmetoden som används. Vår erfarna personal är välutbildad och tar stor hänsyn till din komfort under behandlingen. Om du känner någon obehag, tveka inte att informera din acnespecialist så att de kan justera behandlingen efter dina behov.</p>'
             ),
             new Question(
-                  title: 'Kommer min seborré att försvinna helt efter behandling?',
-                  text: '<p class="p200">Seborré kan vara ett kroniskt tillstånd, och det är möjligt att du kan behöva fortsätta behandlingar och hudvård för att hålla symtomen under kontroll. Vårt mål på AcneSpecialisten är att hjälpa dig att hantera ditt tillstånd på bästa möjliga sätt och att förbättra din hudhälsa och självkänsla. Vi är engagerade i att arbeta med dig för att hitta den mest effektiva behandlingsplanen för att uppnå dina hudvårdsmål.</p>',
+                  title: 'Vad ska jag tänka på innan behandlingen?',
+                  text: '<p class="p200">Vi vill att din behandling ska vara så smidig och bekväm som möjligt, och vi strävar efter att göra processen enkel för dig. Du behöver inte förbereda något särskilt inför ditt besök hos oss. Kom precis som du är, och vi tar hand om resten. Vi kommer att genomföra en grundlig hudanalys och skräddarsy en behandlingsplan som passar just dig och din hudtyp. Så, du kan lita på oss och bara slappna av inför din aknebehandling.</p>'
+            ),
+            new Question(
+                  title: 'Vad ska jag tänka på efter behandling?',
+                  text: '<p class="p200">Efter din aknebehandling hos Acnespecialisten kan du uppleva att huden blir något röd och irriterad. Detta är helt normalt och en del av hudens naturliga läkningsprocess. Rödheten och irritationen kommer att avta under dagarna efter behandlingen. Det är viktigt att du fortsätter att följa den hudvårdsrutin och de produktrekommendationer vi gett dig för att stödja hudens återhämtning och maximera resultaten av behandlingen.</p>
+                        
+                        <p class="p200 mt-m">Undvik att peta eller klämma på behandlade områden för att undvika eventuell ärrbildning och infektion. Dessutom är det bra att skydda huden från solen, då den kan vara extra känslig efter behandling. Använd solskyddsmedel och undvik direkt solljus så mycket som möjligt. Kom ihåg att vi på Acnespecialisten alltid finns här för dig om du har några frågor eller funderingar efter din behandling.</p>'
+            ),
+            new Question(
+                  title: 'Eftervård efter behandlingen?',
+                  text: '<p class="p200">Eftervården efter en aknebehandling hos Acnespecialisten är lika viktig som själva behandlingen. När aknen är utklämd och borta är det viktigt att förebygga uppkomsten av ny akne. Om du inte följer din eftervårdsplan kommer du att få resultat, men det kommer inte vara bestående, eftersom akneproduktionen sätter igång igen kort tid efter behandlingen.</p>
+
+                  <p class="p200 mt-m">För att hålla huden i kontroll och balans är det viktigt att följa de råd och rekommendationer vi ger dig angående hudvårdsrutin och produkter. Kontinuerlig behandling och förebyggande åtgärder är avgörande för att uppnå och bibehålla en klar och frisk hud. Kom ihåg att vi på Acnespecialisten alltid finns här för att hjälpa och stötta dig genom hela processen, både under och efter din behandling.</p>',
             ),
       ),
 );
+
+$faq_url_label = "Läs fler frågor & svar";
+$faq_url_title = "läs flera frågor relaterat till akne";
+
 $skin_guide_articles = array(
       new SkinGuideArticle(
-            id: 'how-hormones-effect',
-            url_title: 'How hormones effect?',
-            title: 'How hormones effect?',
+            id: 'myter-om-akne',
+            url_title: '',
+            title: 'Myter om Akne',
             subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
-            problem: 'Acne',
+            problem: 'Akne',
             description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
             image_small: 'https://via.placeholder.com/426x324.webp',
             image_large: 'https://via.placeholder.com/872x456.jpg',
@@ -412,107 +574,160 @@ $skin_guide_articles = array(
             subcategory_id: 'subcategory-here'
       ),
 );
+
+$skinguide_url_label = "Läs fler guider";
+$skinguide_url_title = "Läs fler guider om akne";
+
 $specialists = array(
       new Specialist(
             name: 'Cazzandra Lindberg',
             title: 'Hudterapeut sedan 2015',
             image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
-            image_alt: 'Cazzandra Lindberg',
-            image_title: 'Cazzandra Lindberg',
+            image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i aknebehandling',
+            image_title: 'Cazzandra Lindberg - Expert på aknebehandling'
       ),
       new Specialist(
             name: 'Veronika Benedik',
             title: 'Hudterapeut sedan 1999',
             image: 'images/specialists/312x312/hudterapeut-veronika.webp',
-            image_alt: 'Veronika Benedik',
-            image_title: 'Veronika Benedik',
+            image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på akne',
+            image_title: 'Veronika Benedik - Specialist inom aknevård'
       ),
       new Specialist(
             name: 'Amira Maqboul',
             title: 'Hudterapeut sedan 2017',
             image: 'images/specialists/312x312/hudterapeut-amira.webp',
-            image_alt: 'Amira Maqboul',
-            image_title: 'Amira Maqboul',
+            image_alt: 'Amira Maqboul, hudterapeut med kunskap inom aknehantering',
+            image_title: 'Amira Maqboul - Hudterapeut specialiserad på akne'
       ),
       new Specialist(
             name: 'Vilma Libom',
             title: 'Hudterapeut sedan 2019',
             image: 'images/specialists/312x312/hudterapeut-vilma.webp',
-            image_alt: 'Vilma Libom',
-            image_title: 'Vilma Libom',
+            image_alt: 'Vilma Libom, hudterapeut med inriktning mot aknebehandling',
+            image_title: 'Vilma Libom - Expert inom aknebehandling'
       )
+);
+
+$specialist_url_label = "Se alla specialister";
+$specialist_url_title = "Akne Specialiserade Hudterapeuter";
+
+$related_problems = array(
+      new RelatedProblem(
+            name: 'Acneärr',
+            aka: 'gropar & Fläckar',
+            image: 'images/problems/102x102/acnearr.webp',
+            image_alt: 'Bild som visar acneärr, en typ av hudproblem som ofta följer efter akne',
+            image_title: 'Acneärr - en vanlig följd av akne',
+            url: 'problem/acnearr',
+            url_title: 'Acneärr'
+      ),
+      new RelatedProblem(
+            name: 'Rosacea',
+            aka: 'ansiktsrodnad',
+            image: 'images/problems/200x200/rosacea.webp',
+            image_alt: 'Bild som illustrerar rosacea, ett hudtillstånd som kan förväxlas med akne',
+            image_title: 'Rosacea - en hudsjukdom som ofta förväxlas med akne',
+            url: 'problem/rosacea',
+            url_title: 'Rosacea'
+      ),
+      new RelatedProblem(
+            name: 'Perioral dermatit',
+            aka: 'akne runt munnen',
+            image: 'images/problems/200x200/perioral-dermatit.webp',
+            image_alt: 'Bild som skildrar perioral dermatit, en hudåkomma som kan förväxlas med akne',
+            image_title: 'Perioral dermatit (acne runt munnen) ett hudproblem liknande akne',
+            url: 'perioral-dermatit',
+            url_title: 'Perioral dermatit',
+      ),
 );
 $brands = array(
       new Brand(
             label: 'Powerlite',
             image: 'images/brands/powerlite.svg',
-            image_alt: 'Powerlite',
-            image_title: 'Powerlite',
+            image_alt: 'Powerlite Brand Logo',
+            image_title: 'Powerlite - IPL och Laser Teknologi för Hudvård',
+            url: 'varumarken/powerlite',
+            url_title: 'Läs mer om Powerlite IPL och Laser Hudvårdsteknologi'
       ),
       new Brand(
-            label: 'Dermapen4',
+            label: 'Dermapen',
             image: 'images/brands/dermapen4.svg',
-            image_alt: 'Dermapen4',
-            image_title: 'Dermapen4',
+            image_alt: 'Dermapen Brand Logo',
+            image_title: 'Dermapen4 - Microneedling Verktyg för Hudföryngring',
+            url: 'varumarken/dermapen4',
+            url_title: 'Läs mer om Dermapen Microneedling Hudvårdslösningar',
       ),
       new Brand(
             label: 'Cryopen',
             image: 'images/brands/cryopen.svg',
-            image_alt: 'Cryopen',
-            image_title: 'Cryopen',
+            image_alt: 'Cryopen Brand Logo',
+            image_title: 'Cryopen - Kryoterapi Verktyg för Hudbehandlingar',
+            url: 'varumarken/cryopen',
+            url_title: 'Läs mer om Cryopen Kryoterapi Hudbehandlingar',
       ),
       new Brand(
             label: 'Lumenis',
             image: 'images/brands/lumenis.svg',
-            image_alt: 'Lumenis',
-            image_title: 'Lumenis',
+            image_alt: 'Lumenis Brand Logo',
+            image_title: 'Lumenis - Laser och Intensivt Pulserat Ljus (IPL) Teknologi för Hudvård',
+            url: 'varumarken/lumenis',
+            url_title: 'Läs mer om Lumenis Laser och IPL Hudvårdslösningar',
       ),
       new Brand(
             label: 'Alma',
             image: 'images/brands/alma.svg',
-            image_alt: 'Alma',
-            image_title: 'Alma',
+            image_alt: 'Alma Brand Logo',
+            image_title: 'Alma - Laser, IPL och RF (Radiofrekvens) Teknologi för Hudföryngring',
+            url: 'varumarken/alma',
+            url_title: 'Läs mer om Alma Laser, IPL och RF Hudvårdsteknologi',
       ),
       new Brand(
-            label: 'PRXT',
+            label: 'PRX-T33',
             image: 'images/brands/prxt.svg',
-            image_alt: 'PRXT',
-            image_title: 'PRXT',
+            image_alt: 'PRX-T33 Brand Logo',
+            image_title: 'PRX-T33 - Bio-revitaliserande Hudbehandlingsteknik',
+            url: 'varumarken/prxt',
+            url_title: 'Läs mer om PRX-T33 Bio-revitaliserande Hudbehandlingar',
       ),
       new Brand(
             label: 'Hydrafacial',
             image: 'images/brands/hydrafacial.svg',
-            image_alt: 'Hydrafacial',
-            image_title: 'Hydrafacial',
+            image_alt: 'Hydrafacial Brand Logo',
+            image_title: 'Hydrafacial - Intensiv Hydrering och Rengöring Behandlingar för Hudvård',
+            url: 'varumarken/hydrafacial',
+            url_title: 'Läs mer om Hydrafacial Hudvårdsbehandlingar',
       ),
       new Brand(
-            label: 'IP infusion',
+            label: 'Infuzion',
             image: 'images/brands/ipinfusion.svg',
-            image_alt: 'IP infusion',
-            image_title: 'IP infusion',
+            image_alt: 'Infuzion Brand Logo',
+            image_title: 'Infuzion - Hudföryngring och Näringsinfusion System för Hudvård',
+            url: 'varumarken/infuzion',
+            url_title: 'Läs mer om Infuzion Hudföryngringslösningar'
       ),
 );
+
+$brands_url_label = "Se alla varumärken";
+$brands_url_title = "Varumärken för Aknebehandling";
+
 ?>
 
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
 
 <head>
-      <!-- TODO: Set title and meta tags -->
-      <title class="l10n">
-            Vad är seborré? Vanliga frågor och svar | AcneSpecialisten
-      </title>
-      <meta name="description" content="" class="l10n">
-      <meta name="title" content="" class="l10n">
-      <meta name="keywords" content="" class="l10n">
+      <title><?php echo $seo_title ?></title>
+      <meta name="description" content="<?php echo $seo_description ?>">
+      <meta name="keywords" content="<?php echo $seo_keywords ?>">
 
       <!-- Optional: Set canonical version of this page (https://support.google.com/webmasters/answer/10347851) -->
-      <meta property="og:title" content="Acnespecialisten" />
-      <meta property="og:description" content="Acnespecialisten is the best etc.." class="l10n" />
-      <meta property="og:image" content="images/about-desktop.jpg" />
-      <meta property="twitter:title" content="Acnespecialisten" />
-      <meta property="twitter:description" content="Acnespecialisten is the best etc.." class="l10n" />
-      <meta property="twitter:image" content="images/about-desktop.jpg" />
+      <meta property="og:title" content="<?php echo $seo_title ?>" />
+      <meta property="og:description" content="<?php echo $seo_description ?>" />
+      <meta property="og:image" content="<?php echo $image_large ?>" />
+      <meta property="twitter:title" content="<?php echo $seo_title ?>" />
+      <meta property="twitter:description" content="<?php echo $seo_description ?>" />
+      <meta property="twitter:image" content="<?php echo $image_large ?>" />
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="stylesheet" href="/styles/default-layout.css">
       <link rel="stylesheet" href="problem/problem.css">
@@ -527,21 +742,11 @@ $brands = array(
                         <div id="overlay">
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
                               <div>
-                                    <h2 class="h600">Seborré</h2>
+                                    <h2 class="h600"><?php echo $title ?></h2>
                                     <div class="mt-m aka">
                                           <span class="p200 l10n">Även kallat</span>
-                                          <?php
-                                          $length = sizeof(($akas));
-                                          $values = array_values($akas);
-                                          $keys = array_keys($akas);
-                                          for ($i = 0; $i < $length; $i++) { ?>
-                                                <?php
-                                                if ($i == $length - 1) {
-                                                      echo '<a href="' . $keys[$i] . '" title="' . $values[$i] . '" class="b200 underline">' . $values[$i] . '</a>.';
-                                                } else {
-                                                      echo '<a href="' . $keys[$i] . '" title="' . $values[$i] . '" class="b200 underline">' . $values[$i] . '</a>,';
-                                                }
-                                                ?>
+                                          <?php foreach ($akas as $aka) { ?>
+                                                <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="b200 underline aka"><?php echo $aka->label ?></a>
                                           <?php } ?>
                                           <div class="mt-xl">
                                                 <div class="columns is-2 is-variable">
@@ -564,12 +769,13 @@ $brands = array(
                   <div id="green-header-small" class="is-hidden-desktop">
                         <div class="container">
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
-                              <h1 class="h600">Seborré</h1>
+                              <h1 class="h600"><?php echo $title ?></h1>
                               <h3 class="mt-xs p100 l10n">Även känt som:</h3>
-                              <?php foreach ($akas as $key => $aka) { ?>
+
+                              <?php foreach ($akas as $aka) { ?>
                                     <div>
-                                          <a href="<?php echo $key ?>" title="<?php echo $aka ?>" class="mt-xs button b50 bright">
-                                                <?php echo $aka ?>
+                                          <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="mt-xs button b50 bright">
+                                                <?php echo $aka->label ?>
                                           </a>
                                     </div>
                               <?php } ?>
@@ -602,21 +808,11 @@ $brands = array(
                                     </div>
                               </div>
                               <div id="green-header-large-text" class="mt-xxs">
-                                    <h1 class="h600">Seborré</h1>
+                                    <h1 class="h600"><?php echo $title ?></h1>
                                     <div class="mt-s">
                                           <span class="h200 l10n">Även känt som:</span>
-                                          <?php
-                                          $length = sizeof(($akas));
-                                          $values = array_values($akas);
-                                          $keys = array_keys($akas);
-                                          for ($i = 0; $i < $length; $i++) { ?>
-                                                <?php
-                                                if ($i == $length - 1) {
-                                                      echo '<a href="' . $keys[$i] . '" title="' . $values[$i] . '" class="b200 underline">' . $values[$i] . '</a>.';
-                                                } else {
-                                                      echo '<a href="' . $keys[$i] . '" title="' . $values[$i] . '" class="b200 underline">' . $values[$i] . '</a>,';
-                                                }
-                                                ?>
+                                          <?php foreach ($akas as $aka) { ?>
+                                                <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="b200 underline aka"><?php echo $aka->label ?></a>
                                           <?php } ?>
                                     </div>
                                     <p class="mt-s p200"><?php echo $description ?></p>
@@ -637,14 +833,14 @@ $brands = array(
                               <picture>
                                     <source media="(max-width: 449px)" srcset="<?php echo $image_small ?>">
                                     <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
-                                    <img src="<?php echo $image_large ?>" alt="Seborré" title="Seborré" width="358" height="274" />
+                                    <img src="<?php echo $image_large ?>" alt="<?php echo $image_alt ?>" title="<?php echo $image_title ?>" width="358" height="274" />
                               </picture>
                         </section>
                         <section id="nav-buttons">
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                         </section>
                         <section id="about">
-                              <h2 class="h500 l10n">Om Seborré</h2>
+                              <h2 class="h500 l10n"><?php echo $about_title ?></h2>
                               <?php foreach ($trivias as $trivia) {
                                     echo '<hr>';
                                     include('../widgets/problem-trivia-card/problem-trivia-card.php');
@@ -662,11 +858,53 @@ $brands = array(
                                     } ?>
                               </div>
                               <hr class="mt-xl3 is-hidden-mobile">
-                              <a href="problem/seborre/behandling" title="Om seborrébehandlingar" class="mt-xl button b200 outline expand auto-width l10n">Läs mer om seborrébehandlingar</a>
+                              <?php echo $treatment_link ?>
+
                         </section>
+                        <?php if (sizeof($type_categories) > 0) { ?>
+                              <section id="types">
+                                    <h2 class="h500 l10n"><?php echo $types_title ?></h2>
+                                    <div class="is-hidden-tablet">
+                                          <div class="mt-m mb-xxl" id="type-category-buttons">
+                                                <?php foreach ($type_categories as $type_category) { ?>
+                                                      <a href="javascript:;" class="button b50 grey">
+                                                            <?php echo $type_category->title ?>
+                                                      </a>
+                                                <?php } ?>
+                                          </div>
+                                          <?php foreach ($type_categories as $type_category) { ?>
+                                                <div class="type-category" id="<?php echo $type_category->id ?>">
+                                                      <h3 class="h300"><?php echo $type_category->title ?></h3>
+                                                      <div class="mt-xxs type-category-content"><?php echo $type_category->content ?></div>
+                                                      <div class="type-category-cards">
+                                                            <?php foreach ($type_category->types as $type) {
+                                                                  include('../widgets/type-card/type-card.php');
+                                                            } ?>
+                                                      </div>
+                                                </div>
+                                          <?php } ?>
+                                    </div>
+                                    <div class="is-hidden-mobile">
+                                          <?php foreach ($type_categories as $type_category) { ?>
+                                                <div class="type-category-large" id="<?php echo $type_category->id ?>">
+                                                      <h3 class="h300"><?php echo $type_category->title ?></h3>
+                                                      <div class="mt-xxs type-category-content"><?php echo $type_category->content ?></div>
+                                                      <div class="columns is-3 is-variable is-multiline type-category-large-cards">
+                                                            <?php foreach ($type_category->types as $type) { ?>
+                                                                  <div class="column is-one-third">
+                                                                        <?php include('../widgets/type-card/type-card-large.php') ?>
+                                                                  </div>
+                                                            <?php } ?>
+                                                      </div>
+                                                </div>
+                                          <?php } ?>
+                                    </div>
+                                    <?php echo $types_url ?>
+                              </section>
+                        <?php } ?>
                         <?php if (sizeof($symptoms) > 0) { ?>
                               <section id="symptoms">
-                                    <h2 class="h500">Seborré symptom</h2>
+                                    <h2 class="h500"><?php echo $symptoms_title ?></h2>
                                     <div class="mt-m is-hidden-tablet" id="symptom-buttons">
                                           <?php foreach ($symptoms as $symptom) { ?>
                                                 <a href="javascript:;" class="button b50 grey">
@@ -684,13 +922,13 @@ $brands = array(
                               </section>
                         <?php } ?>
                         <section id="define">
-                              <h2 class="h500 l10n">01. Identifiera din seborré</h2>
+                              <h2 class="h500 l10n"><?php echo $headline01 ?></h2>
                               <hr class="is-hidden-mobile">
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
                               <hr class="is-hidden-mobile">
                         </section>
                         <section id="treatments">
-                              <h2 class="h500">02. Behandla aktiv seborré</h2>
+                              <h2 class="h500"><?php echo $headline02 ?></h2>
                               <hr class="is-hidden-mobile mt-xl">
                               <?php foreach ($services as $service) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
@@ -698,9 +936,17 @@ $brands = array(
                               <?php } ?>
                         </section>
                         <section id="products">
-                              <h2 class="h500">03. Förebygg uppkomsten av ny seborré</h2>
+                              <h2 class="h500"><?php echo $headline03 ?></h2>
                               <hr class="is-hidden-mobile mt-xl">
                               <?php foreach ($products as $service) { ?>
+                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
+                                    <hr class="is-hidden-mobile mb-xxl">
+                              <?php } ?>
+                        </section>
+                        <section id="treatment-solutions">
+                              <h2 class="h500"><?php echo $headline04 ?></h2>
+                              <hr class="is-hidden-mobile mt-xl">
+                              <?php foreach ($procedures as $service) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
                                     <hr class="is-hidden-mobile mb-xxl">
                               <?php } ?>
@@ -734,12 +980,12 @@ $brands = array(
                               $reviews_narrow = true;
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                               ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" title="Omdömen" href="https://se.trustpilot.com/review/acnespecialisten.se">Läs fler omdömen</a>
+                              <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $review_url_title ?>" href="https://se.trustpilot.com/review/acnespecialisten.se"><?php echo $review_url_label ?></a>
                         </section>
                         <section id="faq">
                               <h2 class="big l10n">Frågor & Svar</h2>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" title="Frågor och svar" href="faq">Läs fler frågor & Svar</a>
+                              <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $faq_url_title ?>" href="faq"><?php echo $faq_url_label ?></a>
                         </section>
                         <section id="skin-guide">
                               <div class="flex-row justify-space-between">
@@ -754,7 +1000,7 @@ $brands = array(
                                     </div>
                               </div>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide_narrow.php'); ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" href="skin-guide" title="Läs fler guider">Läs fler guider</a>
+                              <a class="mt-xl button b200 outline expand auto-width l10n" href="skin-guide" title="<?php echo $skinguide_url_title ?>"><?php echo $skinguide_url_label ?></a>
                         </section>
                         <section id="specialists">
                               <div class="flex-row justify-space-between">
@@ -769,19 +1015,30 @@ $brands = array(
                                     </div>
                               </div>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" title="Specialister" href="specialister">Se alla specialister</a>
+                              <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $specialist_url_title ?>" href="specialister"><?php echo $specialist_url_label ?></a>
+                        </section>
+                        <section id="related-problems">
+                              <h2 class="big l10n">Relaterade hudproblem</h2>
+                              <dig class="columns is-variable is-0-mobile is-3-tablet is-multiline">
+                                    <?php foreach ($related_problems as $problem) { ?>
+                                          <div class="column is-half">
+                                                <?php include('../widgets/related-problem-card/related-problem-card.php'); ?>
+                                          </div>
+                                    <?php } ?>
+                              </dig>
                         </section>
                   </div>
                   <section id="brands">
                         <div class="flex-row align-end justify-space-between">
                               <h2 class="big l10n">Varumärken</h2>
-                              <a href="varumarken" title="Varumärken" class="button compact text is-hidden-mobile">
-                                    <span class="l10n">Se alla varumärken</span>
+                              <a href="varumarken" title="<?php echo $brands_url_title ?>" class="button compact text is-hidden-mobile">
+                                    <span class="l10n"><?php echo $brands_url_label ?></span>
                                     <?php icon('navigate-next') ?>
                               </a>
                         </div>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                        <a class="mt-xl button b200 outline expand auto-width is-hidden-desktop l10n" title="Varumärken" href="varumarken">Se alla varumärken</a>
+                        <a class="mt-xl button b200 outline expand auto-width is-hidden-desktop l10n" title="Se våra varumärken mot akne" href="varumarken">Se alla varumärken</a>
+
                   </section>
             </div>
       </main>
