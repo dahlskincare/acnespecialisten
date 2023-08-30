@@ -309,7 +309,7 @@ $service = new Service(
       url_title: 'Klicka här för att läsa mer om gratis konsultation för pigmentfläckar och hudfläckar'
 );
 
-$headline02 = "02. Behandling av dina ärr som uppstått från finnar";
+$headline02 = "02. Behandlingar mot pigmentfläckar";
 
 $services = array(
       new Service(
@@ -399,24 +399,21 @@ $services = array(
 $articles = array(
       new Article(
             id: 'pigmentation-causes-and-risk-factors',
-            title: 'Hur behandlar man ärr som uppstått från finnar?',
+            title: 'När ska jag söka vård för mina pigmentfläckar?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'Varför välja oss för behandling av ärr från finnar?',
-            image_title: 'Varför välja oss för behandling av ärr från finnar?',
-            content: '<p class="p200">Vi på AcneSpecialisten erbjuder de mest innovativa och effektiva metoderna för att behandla ärr orsakade av finnar. Oavsett ärrtyp har vi lösningar – laserterapi för komplexa fall, microneedling för atrofiska ärr och kemisk peeling för mindre ojämnheter. Vår styrka ligger i att leverera individualiserade behandlingar, där din tillfredsställelse står i fokus.</p>
-            <p class="p200 mt-m">Börja din resa mot en klarare hud med en helt kostnadsfri konsultation. Vi analyserar ditt specifika fall och kopplar dig med en personlig hudterapeut som kommer att stödja och vägleda dig genom processen, med en behandlingsplan som är skräddarsydd för just dig. Boka din konsultation idag!</p>',
+            image_alt: 'Kvinna som funderar över sina pigmentfläckar',
+            image_title: 'Övervägande av behandling för pigmentfläckar hos Acnespecialisten',
+            content: '<p class="p200">Pigmentfläckar, även kända som hyperpigmentering, kan visa sig på huden av olika skäl, såsom solskador, hormonella förändringar eller naturlig åldrande. Även om de flesta av dessa fläckar är godartade och inte utgör något medicinskt hot, kan de fortfarande vara en estetisk olägenhet för många. För dem som känner att deras pigmentfläckar påverkar deras självförtroende eller deras dagliga liv är det dags att överväga behandlingsalternativ. Om du har fläckar som du redan vet är godartade men som du finner störande, kan en konsultation hos AcneSpecialistem hjälpa dig att utforska de bästa behandlingsmetoderna för just din hudtyp och dina behov.Det bör noteras att på vår klinik behandlar vi endast estetiska aspekter av pigmentfläckar. Om du har bekymmer om en specifik fläck på din hud rekommenderar vi att du konsulterar en hudläkare. Vi kan inte behandla eller diagnostisera melanom eller andra medicinska hudtillstånd.</p>',
       ),
       new Article(
             id: 'when-to-see-your-pigmentation-specialist',
-            title: 'Varför AcneSpecialisten för ärr från finnar?',
+            title: 'Varför ska jag behandla mina pigmentfläckar hos Acnespecialisten?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'När ska jag besöka AcneSpecialisten för ärr från finnar?',
-            image_title: 'När ska jag besöka AcneSpecialisten för ärr från finnar?',
-            content: '<p class="p200">Välja rätt behandling för ärr som uppstått från finnar kan vara en utmaning. Hos AcneSpecialisten har vi över 30 års erfarenhet av att förstå och behandla denna typ av hudproblem. Vi är inte bara experter utan även pionjärer inom ärrreducering och laserbehandling.</p>
-            <p class="p200 mt-m">Det som gör oss unika är vår specialiserade kunskap och dedikation. Vi ser inte bara till att förbättra din hud utan strävar också efter att stärka ditt självförtroende och välmående. </p>
-            <p class="p200 mt-m">När du väljer AcneSpecialisten, får du inte bara behandling, utan en partner på din resa mot en ny början. Ta första steget med oss och boka din kostnadsfria konsultation idag. Vår professionella och erfarna team väntar på att få hjälpa dig.</p>',
+            image_alt: 'Acnespecialisten klinik, expert på behandling av pigmentfläckar',
+            image_title: 'Expertbehandling av pigmentfläckar hos Acnespecialisten',
+            content: '<p class="p200">Att välja rätt klinik för behandling av pigmentfläckar är avgörande för önskat resultat, och Acnespecialisten är verkligen en framstående aktör inom detta fält. Med sin djupgående expertis och långa erfarenhet av att hantera en mängd hudproblem, inklusive pigmentfläckar, har teamet på Acnespecialisten utbildats för att noggrant identifiera och anpassa behandlingar efter olika typer av pigmentförändringar. För oss är ingen hud den andra lik, och därför tar vi fram skräddarsydda behandlingsplaner som speglar just dina specifika behov och önskade resultat. Kombinationen av vår omfattande erfarenhet och den senaste teknologin inom hudvård garanterar att du får den mest effektiva och säkra behandlingen som finns tillgänglig. Men vår omsorg sträcker sig bortom själva behandlingen; på Acnespecialisten ser vi till din övergripande hudhälsa, erbjuder råd och vägledning för att du ska kunna upprätthålla och förbättra ditt skick och därmed förhindra framtida pigmentering. Om du eftersträvar genuina resultat och önskar expertvård för dina pigmentfläckar, finns det ingen bättre plats än Acnespecialisten.</p>',
       ),
 );
 
@@ -632,7 +629,7 @@ $specialist_url_title = "Specialiserade Hudterapeuter med inriktning mot ärr bi
 
 $related_problems = array(
       new RelatedProblem(
-            name: 'Aktiv Akne',
+            name: 'Melasma',
             aka: 'Finnar',
             image: 'images/problems/102x102/akne.webp',
             image_alt: 'Bild som visar aktiv akne, en vanlig hudåkomma',
@@ -661,71 +658,72 @@ $related_problems = array(
       ),
 );
 $brands = array(
-      new Brand(
-            label: 'Alma Hybrid CO2',
-            image: 'images/brands/powerlite.svg',
-            image_alt: 'Alma hybrid CO2 Laser logo',
-            image_title: 'Powerlite - IPL och Laser Teknologi för Hudvård',
-            url: 'varumarken/alma-hybrid-co2',
-            url_title: 'Läs mer om Alma hybrid CO2 Laser'
-      ),
-      new Brand(
-            label: 'Alma Harmony XL PRO',
-            image: 'images/brands/dermapen4.svg',
-            image_alt: 'Dermapen Brand Logo',
-            image_title: 'Dermapen4 - Microneedling Verktyg för Hudföryngring',
-            url: 'varumarken/dermapen4',
-            url_title: 'Läs mer om Dermapen Microneedling Hudvårdslösningar',
-      ),
-      new Brand(
-            label: 'SkinTech',
-            image: 'images/brands/cryopen.svg',
-            image_alt: 'Cryopen Brand Logo',
-            image_title: 'Cryopen - Kryoterapi Verktyg för Hudbehandlingar',
-            url: 'varumarken/cryopen',
-            url_title: 'Läs mer om Cryopen Kryoterapi Hudbehandlingar',
-      ),
-      new Brand(
-            label: 'Dermapen',
-            image: 'images/brands/dermapen4.svg',
-            image_alt: 'Dermapen Brand Logo',
-            image_title: 'Dermapen4 - Microneedling Verktyg för Hudföryngring',
-            url: 'varumarken/dermapen4',
-            url_title: 'Läs mer om Dermapen Microneedling Hudvårdslösningar',
-      ),
-      new Brand(
-            label: 'Alma',
-            image: 'images/brands/alma.svg',
-            image_alt: 'Alma Brand Logo',
-            image_title: 'Alma - Laser, IPL och RF (Radiofrekvens) Teknologi för Hudföryngring',
-            url: 'varumarken/alma',
-            url_title: 'Läs mer om Alma Laser, IPL och RF Hudvårdsteknologi',
-      ),
-      new Brand(
-            label: 'PRX-T33',
-            image: 'images/brands/prxt.svg',
-            image_alt: 'PRX-T33 Brand Logo',
-            image_title: 'PRX-T33 - Bio-revitaliserande Hudbehandlingsteknik',
-            url: 'varumarken/prxt',
-            url_title: 'Läs mer om PRX-T33 Bio-revitaliserande Hudbehandlingar',
-      ),
-      new Brand(
-            label: 'Hydrafacial',
-            image: 'images/brands/hydrafacial.svg',
-            image_alt: 'Hydrafacial Brand Logo',
-            image_title: 'Hydrafacial - Intensiv Hydrering och Rengöring Behandlingar för Hudvård',
-            url: 'varumarken/hydrafacial',
-            url_title: 'Läs mer om Hydrafacial Hudvårdsbehandlingar',
-      ),
-      new Brand(
-            label: 'Infuzion',
-            image: 'images/brands/ipinfusion.svg',
-            image_alt: 'Infuzion Brand Logo',
-            image_title: 'Infuzion - Hudföryngring och Näringsinfusion System för Hudvård',
-            url: 'varumarken/infuzion',
-            url_title: 'Läs mer om Infuzion Hudföryngringslösningar'
-      ),
+    new Brand(
+        label: 'Alma Hybrid CO2',
+        image: 'images/brands/powerlite.svg',
+        image_alt: 'Alma hybrid CO2 Laser för behandling av pigmentfläckar och melasma',
+        image_title: 'Alma Hybrid CO2 - Laser Teknologi för behandling av hudfläckar och pigmentering',
+        url: 'varumarken/alma-hybrid-co2',
+        url_title: 'Läs mer om Alma hybrid CO2 Laser för pigmentfläckar'
+    ),
+    new Brand(
+        label: 'Alma Harmony XL PRO',
+        image: 'images/brands/dermapen4.svg',
+        image_alt: 'Alma Harmony XL PRO Microneedling för melasma och pigmentfläckar',
+        image_title: 'Alma Harmony XL PRO - Microneedling lösning för hudfläckar och pigmentering',
+        url: 'varumarken/dermapen4',
+        url_title: 'Läs mer om Alma Harmony XL PRO för pigmentering och hudförändringar',
+    ),
+    new Brand(
+        label: 'SkinTech',
+        image: 'images/brands/cryopen.svg',
+        image_alt: 'SkinTech Cryopen för behandling av pigmentfläckar',
+        image_title: 'SkinTech Cryopen - Kryoterapi Verktyg för hudfläckar och melasma',
+        url: 'varumarken/cryopen',
+        url_title: 'Läs mer om SkinTech Cryopen för behandling av pigmentfläckar',
+    ),
+    new Brand(
+        label: 'Dermapen',
+        image: 'images/brands/dermapen4.svg',
+        image_alt: 'Dermapen Microneedling för behandling av melasma och pigmentering',
+        image_title: 'Dermapen - Microneedling teknologi för hudfläckar och pigmentfläckar',
+        url: 'varumarken/dermapen4',
+        url_title: 'Läs mer om Dermapen Microneedling för pigmentförändringar',
+    ),
+    new Brand(
+        label: 'Alma',
+        image: 'images/brands/alma.svg',
+        image_alt: 'Alma teknologi för behandling av melasma och hudfläckar',
+        image_title: 'Alma - Laser, IPL och RF teknologi för behandling av pigmentfläckar',
+        url: 'varumarken/alma',
+        url_title: 'Läs mer om Alma Laser och IPL för pigmentering',
+    ),
+    new Brand(
+        label: 'PRX-T33',
+        image: 'images/brands/prxt.svg',
+        image_alt: 'PRX-T33 teknologi för behandling av hudfläckar',
+        image_title: 'PRX-T33 - Bio-revitaliserande behandling för melasma och pigmentfläckar',
+        url: 'varumarken/prxt',
+        url_title: 'Läs mer om PRX-T33 för behandling av pigmentering',
+    ),
+    new Brand(
+        label: 'Hydrafacial',
+        image: 'images/brands/hydrafacial.svg',
+        image_alt: 'Hydrafacial behandling för melasma och hudfläckar',
+        image_title: 'Hydrafacial - Hudvårdslösning för pigmentfläckar och melasma',
+        url: 'varumarken/hydrafacial',
+        url_title: 'Läs mer om Hydrafacial behandlingar för pigmentering',
+    ),
+    new Brand(
+        label: 'Infuzion',
+        image: 'images/brands/ipinfusion.svg',
+        image_alt: 'Infuzion teknologi för behandling av hudfläckar',
+        image_title: 'Infuzion - Hudföryngring och Näringsinfusion för behandling av melasma och pigmentfläckar',
+        url: 'varumarken/infuzion',
+        url_title: 'Läs mer om Infuzion för behandling av pigmentering'
+    ),
 );
+
 
 $brands_url_label = "Se alla varumärken";
 $brands_url_title = "Varumärken för ärr";
