@@ -309,7 +309,7 @@ $service = new Service(
       url_title: 'Klicka här för att läsa mer om gratis konsultation för pigmentfläckar och hudfläckar'
 );
 
-$headline02 = "02. Behandling av dina ärr som uppstått från finnar";
+$headline02 = "02. Behandlingar mot pigmentfläckar";
 
 $services = array(
       new Service(
@@ -399,24 +399,21 @@ $services = array(
 $articles = array(
       new Article(
             id: 'pigmentation-causes-and-risk-factors',
-            title: 'Hur behandlar man ärr som uppstått från finnar?',
+            title: 'När ska jag söka vård för mina pigmentfläckar?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'Varför välja oss för behandling av ärr från finnar?',
-            image_title: 'Varför välja oss för behandling av ärr från finnar?',
-            content: '<p class="p200">Vi på AcneSpecialisten erbjuder de mest innovativa och effektiva metoderna för att behandla ärr orsakade av finnar. Oavsett ärrtyp har vi lösningar – laserterapi för komplexa fall, microneedling för atrofiska ärr och kemisk peeling för mindre ojämnheter. Vår styrka ligger i att leverera individualiserade behandlingar, där din tillfredsställelse står i fokus.</p>
-            <p class="p200 mt-m">Börja din resa mot en klarare hud med en helt kostnadsfri konsultation. Vi analyserar ditt specifika fall och kopplar dig med en personlig hudterapeut som kommer att stödja och vägleda dig genom processen, med en behandlingsplan som är skräddarsydd för just dig. Boka din konsultation idag!</p>',
+            image_alt: 'Kvinna som funderar över sina pigmentfläckar',
+            image_title: 'Övervägande av behandling för pigmentfläckar hos Acnespecialisten',
+            content: '<p class="p200">Pigmentfläckar, även kända som hyperpigmentering, kan visa sig på huden av olika skäl, såsom solskador, hormonella förändringar eller naturlig åldrande. Även om de flesta av dessa fläckar är godartade och inte utgör något medicinskt hot, kan de fortfarande vara en estetisk olägenhet för många. För dem som känner att deras pigmentfläckar påverkar deras självförtroende eller deras dagliga liv är det dags att överväga behandlingsalternativ. Om du har fläckar som du redan vet är godartade men som du finner störande, kan en konsultation hos AcneSpecialistem hjälpa dig att utforska de bästa behandlingsmetoderna för just din hudtyp och dina behov.Det bör noteras att på vår klinik behandlar vi endast estetiska aspekter av pigmentfläckar. Om du har bekymmer om en specifik fläck på din hud rekommenderar vi att du konsulterar en hudläkare. Vi kan inte behandla eller diagnostisera melanom eller andra medicinska hudtillstånd.</p>',
       ),
       new Article(
             id: 'when-to-see-your-pigmentation-specialist',
-            title: 'Varför AcneSpecialisten för ärr från finnar?',
+            title: 'Varför ska jag behandla mina pigmentfläckar hos Acnespecialisten?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'När ska jag besöka AcneSpecialisten för ärr från finnar?',
-            image_title: 'När ska jag besöka AcneSpecialisten för ärr från finnar?',
-            content: '<p class="p200">Välja rätt behandling för ärr som uppstått från finnar kan vara en utmaning. Hos AcneSpecialisten har vi över 30 års erfarenhet av att förstå och behandla denna typ av hudproblem. Vi är inte bara experter utan även pionjärer inom ärrreducering och laserbehandling.</p>
-            <p class="p200 mt-m">Det som gör oss unika är vår specialiserade kunskap och dedikation. Vi ser inte bara till att förbättra din hud utan strävar också efter att stärka ditt självförtroende och välmående. </p>
-            <p class="p200 mt-m">När du väljer AcneSpecialisten, får du inte bara behandling, utan en partner på din resa mot en ny början. Ta första steget med oss och boka din kostnadsfria konsultation idag. Vår professionella och erfarna team väntar på att få hjälpa dig.</p>',
+            image_alt: 'Acnespecialisten klinik, expert på behandling av pigmentfläckar',
+            image_title: 'Expertbehandling av pigmentfläckar hos Acnespecialisten',
+            content: '<p class="p200">Att välja rätt klinik för behandling av pigmentfläckar är avgörande för önskat resultat, och Acnespecialisten är verkligen en framstående aktör inom detta fält. Med sin djupgående expertis och långa erfarenhet av att hantera en mängd hudproblem, inklusive pigmentfläckar, har teamet på Acnespecialisten utbildats för att noggrant identifiera och anpassa behandlingar efter olika typer av pigmentförändringar. För oss är ingen hud den andra lik, och därför tar vi fram skräddarsydda behandlingsplaner som speglar just dina specifika behov och önskade resultat. Kombinationen av vår omfattande erfarenhet och den senaste teknologin inom hudvård garanterar att du får den mest effektiva och säkra behandlingen som finns tillgänglig. Men vår omsorg sträcker sig bortom själva behandlingen; på Acnespecialisten ser vi till din övergripande hudhälsa, erbjuder råd och vägledning för att du ska kunna upprätthålla och förbättra ditt skick och därmed förhindra framtida pigmentering. Om du eftersträvar genuina resultat och önskar expertvård för dina pigmentfläckar, finns det ingen bättre plats än Acnespecialisten.</p>',
       ),
 );
 
@@ -632,7 +629,7 @@ $specialist_url_title = "Specialiserade Hudterapeuter med inriktning mot ärr bi
 
 $related_problems = array(
       new RelatedProblem(
-            name: 'Aktiv Akne',
+            name: 'Melasma',
             aka: 'Finnar',
             image: 'images/problems/102x102/akne.webp',
             image_alt: 'Bild som visar aktiv akne, en vanlig hudåkomma',
