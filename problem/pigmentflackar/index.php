@@ -661,71 +661,72 @@ $related_problems = array(
       ),
 );
 $brands = array(
-      new Brand(
-            label: 'Alma Hybrid CO2',
-            image: 'images/brands/powerlite.svg',
-            image_alt: 'Alma hybrid CO2 Laser logo',
-            image_title: 'Powerlite - IPL och Laser Teknologi för Hudvård',
-            url: 'varumarken/alma-hybrid-co2',
-            url_title: 'Läs mer om Alma hybrid CO2 Laser'
-      ),
-      new Brand(
-            label: 'Alma Harmony XL PRO',
-            image: 'images/brands/dermapen4.svg',
-            image_alt: 'Dermapen Brand Logo',
-            image_title: 'Dermapen4 - Microneedling Verktyg för Hudföryngring',
-            url: 'varumarken/dermapen4',
-            url_title: 'Läs mer om Dermapen Microneedling Hudvårdslösningar',
-      ),
-      new Brand(
-            label: 'SkinTech',
-            image: 'images/brands/cryopen.svg',
-            image_alt: 'Cryopen Brand Logo',
-            image_title: 'Cryopen - Kryoterapi Verktyg för Hudbehandlingar',
-            url: 'varumarken/cryopen',
-            url_title: 'Läs mer om Cryopen Kryoterapi Hudbehandlingar',
-      ),
-      new Brand(
-            label: 'Dermapen',
-            image: 'images/brands/dermapen4.svg',
-            image_alt: 'Dermapen Brand Logo',
-            image_title: 'Dermapen4 - Microneedling Verktyg för Hudföryngring',
-            url: 'varumarken/dermapen4',
-            url_title: 'Läs mer om Dermapen Microneedling Hudvårdslösningar',
-      ),
-      new Brand(
-            label: 'Alma',
-            image: 'images/brands/alma.svg',
-            image_alt: 'Alma Brand Logo',
-            image_title: 'Alma - Laser, IPL och RF (Radiofrekvens) Teknologi för Hudföryngring',
-            url: 'varumarken/alma',
-            url_title: 'Läs mer om Alma Laser, IPL och RF Hudvårdsteknologi',
-      ),
-      new Brand(
-            label: 'PRX-T33',
-            image: 'images/brands/prxt.svg',
-            image_alt: 'PRX-T33 Brand Logo',
-            image_title: 'PRX-T33 - Bio-revitaliserande Hudbehandlingsteknik',
-            url: 'varumarken/prxt',
-            url_title: 'Läs mer om PRX-T33 Bio-revitaliserande Hudbehandlingar',
-      ),
-      new Brand(
-            label: 'Hydrafacial',
-            image: 'images/brands/hydrafacial.svg',
-            image_alt: 'Hydrafacial Brand Logo',
-            image_title: 'Hydrafacial - Intensiv Hydrering och Rengöring Behandlingar för Hudvård',
-            url: 'varumarken/hydrafacial',
-            url_title: 'Läs mer om Hydrafacial Hudvårdsbehandlingar',
-      ),
-      new Brand(
-            label: 'Infuzion',
-            image: 'images/brands/ipinfusion.svg',
-            image_alt: 'Infuzion Brand Logo',
-            image_title: 'Infuzion - Hudföryngring och Näringsinfusion System för Hudvård',
-            url: 'varumarken/infuzion',
-            url_title: 'Läs mer om Infuzion Hudföryngringslösningar'
-      ),
+    new Brand(
+        label: 'Alma Hybrid CO2',
+        image: 'images/brands/powerlite.svg',
+        image_alt: 'Alma hybrid CO2 Laser för behandling av pigmentfläckar och melasma',
+        image_title: 'Alma Hybrid CO2 - Laser Teknologi för behandling av hudfläckar och pigmentering',
+        url: 'varumarken/alma-hybrid-co2',
+        url_title: 'Läs mer om Alma hybrid CO2 Laser för pigmentfläckar'
+    ),
+    new Brand(
+        label: 'Alma Harmony XL PRO',
+        image: 'images/brands/dermapen4.svg',
+        image_alt: 'Alma Harmony XL PRO Microneedling för melasma och pigmentfläckar',
+        image_title: 'Alma Harmony XL PRO - Microneedling lösning för hudfläckar och pigmentering',
+        url: 'varumarken/dermapen4',
+        url_title: 'Läs mer om Alma Harmony XL PRO för pigmentering och hudförändringar',
+    ),
+    new Brand(
+        label: 'SkinTech',
+        image: 'images/brands/cryopen.svg',
+        image_alt: 'SkinTech Cryopen för behandling av pigmentfläckar',
+        image_title: 'SkinTech Cryopen - Kryoterapi Verktyg för hudfläckar och melasma',
+        url: 'varumarken/cryopen',
+        url_title: 'Läs mer om SkinTech Cryopen för behandling av pigmentfläckar',
+    ),
+    new Brand(
+        label: 'Dermapen',
+        image: 'images/brands/dermapen4.svg',
+        image_alt: 'Dermapen Microneedling för behandling av melasma och pigmentering',
+        image_title: 'Dermapen - Microneedling teknologi för hudfläckar och pigmentfläckar',
+        url: 'varumarken/dermapen4',
+        url_title: 'Läs mer om Dermapen Microneedling för pigmentförändringar',
+    ),
+    new Brand(
+        label: 'Alma',
+        image: 'images/brands/alma.svg',
+        image_alt: 'Alma teknologi för behandling av melasma och hudfläckar',
+        image_title: 'Alma - Laser, IPL och RF teknologi för behandling av pigmentfläckar',
+        url: 'varumarken/alma',
+        url_title: 'Läs mer om Alma Laser och IPL för pigmentering',
+    ),
+    new Brand(
+        label: 'PRX-T33',
+        image: 'images/brands/prxt.svg',
+        image_alt: 'PRX-T33 teknologi för behandling av hudfläckar',
+        image_title: 'PRX-T33 - Bio-revitaliserande behandling för melasma och pigmentfläckar',
+        url: 'varumarken/prxt',
+        url_title: 'Läs mer om PRX-T33 för behandling av pigmentering',
+    ),
+    new Brand(
+        label: 'Hydrafacial',
+        image: 'images/brands/hydrafacial.svg',
+        image_alt: 'Hydrafacial behandling för melasma och hudfläckar',
+        image_title: 'Hydrafacial - Hudvårdslösning för pigmentfläckar och melasma',
+        url: 'varumarken/hydrafacial',
+        url_title: 'Läs mer om Hydrafacial behandlingar för pigmentering',
+    ),
+    new Brand(
+        label: 'Infuzion',
+        image: 'images/brands/ipinfusion.svg',
+        image_alt: 'Infuzion teknologi för behandling av hudfläckar',
+        image_title: 'Infuzion - Hudföryngring och Näringsinfusion för behandling av melasma och pigmentfläckar',
+        url: 'varumarken/infuzion',
+        url_title: 'Läs mer om Infuzion för behandling av pigmentering'
+    ),
 );
+
 
 $brands_url_label = "Se alla varumärken";
 $brands_url_title = "Varumärken för ärr";
