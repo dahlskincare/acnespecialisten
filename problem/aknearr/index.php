@@ -317,7 +317,6 @@ $services = array(
 
 $articles = array(
       new Article(
-            id: 'pigmentation-causes-and-risk-factors',
             title: 'Hur får man bort akneärr?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
@@ -327,7 +326,6 @@ $articles = array(
             <p class="p200 mt-m">Din resa med oss börjar med en helt kostnadsfri konsultation. Vi tar oss tiden att analysera ditt unika fall och erbjuder dig en personlig hudterapeut. Din terapeut kommer att vara din guide och stöttepelare från start till mål, och skapa en behandlingsplan som är helt anpassad efter dina behov.</p>',
       ),
       new Article(
-            id: 'when-to-see-your-pigmentation-specialist',
             title: 'Varför AcneSpecialisten?!',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',

@@ -320,7 +320,6 @@ $services = array(
 
 $articles = array(
       new Article(
-            id: 'pigmentation-causes-and-risk-factors',
             title: 'Hur behandlar man ärr som uppstått från finnar?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
@@ -330,7 +329,6 @@ $articles = array(
             <p class="p200 mt-m">Börja din resa mot en klarare hud med en helt kostnadsfri konsultation. Vi analyserar ditt specifika fall och kopplar dig med en personlig hudterapeut som kommer att stödja och vägleda dig genom processen, med en behandlingsplan som är skräddarsydd för just dig. Boka din konsultation idag!</p>',
       ),
       new Article(
-            id: 'when-to-see-your-pigmentation-specialist',
             title: 'Varför AcneSpecialisten för ärr från finnar?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',

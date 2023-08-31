@@ -561,7 +561,6 @@ $procedures = array(
 );
 $articles = array(
       new Article(
-            id: 'pigmentation-causes-and-risk-factors',
             title: 'Varför AcneSpecialisten?!',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
@@ -572,7 +571,6 @@ $articles = array(
             <p class="p200 mt-m">När du väljer AcneSpecialisten får du inte bara den mest effektiva behandlingen för ditt specifika fall, utan också en hudvårdspartner som stöttar dig genom hela processen. Vi tar ditt problem på allvar och vi tar oss tid att förstå din hudtyp och dina unika behov.Ta steget mot en finn-fri hud idag genom att boka en kostnadsfri konsultation hos oss. Vi har kunskapen och erfarenheten att hjälpa dig att nå dina hudvårdsmål. Låt oss visa dig varför AcneSpecialisten är ditt bästa val för att hantera och övervinna dina finnar!</p>',
       ),
       new Article(
-            id: 'when-to-see-your-pigmentation-specialist',
             title: 'När ska jag besöka AcneSpecialisten?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',

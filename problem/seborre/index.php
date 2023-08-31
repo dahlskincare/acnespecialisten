@@ -312,7 +312,6 @@ $products = array(
 
 $articles = array(
       new Article(
-            id: 'TA BORT',
             title: 'När ska jag söka hjälp med min seborré?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
@@ -322,7 +321,6 @@ $articles = array(
             <p class="p200 mt-m">Vänta inte med att söka hjälp, det första steget kan vara att boka en gratis konsultation med oss.</p>',
       ),
       new Article(
-            id: 'TA BORT',
             title: 'När ska jag söka hjälp med min seborré?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
