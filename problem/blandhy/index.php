@@ -27,14 +27,9 @@ $akas = [
             title: 'Allt du behöver veta om finnar och deras behandling'
       ),
       new Link(
-            label: 'Vuxenakne',
-            url: 'problem/vuxenakne',
+            label: 'Akne',
+            url: 'problem/akne',
             title: 'Utforska orsaker, symptom och behandlingar av vuxenakne'
-      ),
-      new Link(
-            label: 'Tonårsakne',
-            url: 'problem/tonarsakne',
-            title: 'Komplett guide om tonårsakne: orsaker, förebyggande och lösningar'
       ),
 ];
 
