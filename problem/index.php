@@ -469,12 +469,16 @@ $problem_areas = array(
                               <?php foreach ($problems as $id => $problem) { ?>
                                     <div class="column is-one-third">
                                           <div class="problem-area-card" id="card-<?php echo $id ?>">
-                                                <div class="picture">
-                                                      <img src="<?php echo $problem->image ?>" alt="<?php echo $problem->image_alt ?>" title="<?php echo $problem->image_title ?>" width="424" height="324" />
-                                                </div>
+                                                <a href="<?php echo $problem->url ?>" title="<?php echo $problem->url_title ?>">
+                                                      <div class="picture">
+                                                            <img src="<?php echo $problem->image ?>" alt="<?php echo $problem->image_alt ?>" title="<?php echo $problem->image_title ?>" width="424" height="324" />
+                                                      </div>
+                                                </a>
                                                 <div class="problem-area-card-content">
-                                                      <h3><a href="<?php echo $problem->url ?>" title="<?php echo $problem->url_title ?>" class="h300" title="<?php echo $problem->label ?>"><?php echo $problem->label ?></a></h3>
-                                                      <p class="mt-xs"><?php echo $problem->info ?></p>
+                                                      <a href="<?php echo $problem->url ?>" title="<?php echo $problem->url_title ?>">
+                                                            <h3 class="h300"><?php echo $problem->label ?></h3>
+                                                            <p class="mt-xs"><?php echo $problem->info ?></p>
+                                                      </a>
                                                       <div class="is-hidden-tablet">
                                                             <a href="<?php echo $problem->url ?>" title="<?php echo $problem->url_title ?>" class="mt-m button outline expand l10n" title="Läs mer">Läs mer</a>
                                                             <hr>

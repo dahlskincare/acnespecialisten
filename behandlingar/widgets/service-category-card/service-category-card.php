@@ -1,9 +1,11 @@
 <div class="service-category-card" id="card-<?php echo $category->id ?>">
-    <picture>
-        <source media="(max-width: 799px)" srcset="<?php echo $category->image_small ?>">
-        <source media="(min-width: 800px)" srcset="<?php echo $category->image_large ?>">
-        <img src="<?php echo $category->image_large ?>" alt="<?php echo $category->image_alt ?>" title="<?php echo $category->image_title ?>" width="424" height="324" />
-    </picture>
+    <a href="behandlingar/<?php echo $category->id ?>" title="<?php echo $category->read_more_label ?>">
+        <picture>
+            <source media="(max-width: 799px)" srcset="<?php echo $category->image_small ?>">
+            <source media="(min-width: 800px)" srcset="<?php echo $category->image_large ?>">
+            <img src="<?php echo $category->image_large ?>" alt="<?php echo $category->image_alt ?>" title="<?php echo $category->image_title ?>" width="424" height="324" />
+        </picture>
+    </a>
     <div class="service-category-card-content">
         <div>
             <h3 class="h300">
