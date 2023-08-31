@@ -457,7 +457,7 @@ $results = array(
 );
 
 $results_url_label = "Se fler resultat";
-$results_url_title = "se flera behandlingsresultat från akneärr";
+$results_url_title = "se flera behandlingsresultat av pigmentfläckar";
 
 
 $reviews = array(
