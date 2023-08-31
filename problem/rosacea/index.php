@@ -421,7 +421,7 @@ $procedures = array(
 
 $articles = array(
       new Article(
-            id: 'varfor-acnespecialisten-vid-rosacea',
+            id: 'TA BORT',
             title: 'Varför AcneSpecialisten?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
@@ -436,7 +436,7 @@ $articles = array(
                   <p class="p200 mt-m">Genom att välja AcneSpecialisten kan du lita på att du får den mest effektiva, individanpassade och stöttande behandlingen för din rosacea. Vi är här för att hjälpa dig uppnå klar och frisk hud. Välkommen till AcneSpecialisten - din partner i rosaceavård.</p>',
       ),
       new Article(
-            id: 'nar-ska-jag-behandla-rosacea',
+            id: 'TA BORT',
             title: 'När ska jag besöka AcneSpecialisten?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
