@@ -12,7 +12,7 @@ $meta_description = '';
 $meta_title = '';
 
 $category = new SkinGuideCategory(
-    id: 'accessories',
+    url: 'skin-guide/accessories',
     name: 'Accessories',
     description: 'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. He…',
     description_extended: 'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat.',
@@ -22,18 +22,18 @@ $category = new SkinGuideCategory(
 $subcategories = array(
     new SkinGuideSubCategory(
         id: 'subcategory-1',
+        url: 'skin-guide/accessories/subcategory-1',
         name: 'Subcategory 1',
-        category_id: 'accessories',
     ),
     new SkinGuideSubCategory(
         id: 'subcategory-2',
+        url: 'skin-guide/accessories/subcategory-2',
         name: 'Subcategory 2',
-        category_id: 'accessories',
     ),
     new SkinGuideSubCategory(
         id: 'subcategory-3',
+        url: 'skin-guide/accessories/subcategory-3',
         name: 'Subcategory 3',
-        category_id: 'accessories',
     ),
 );
 
@@ -117,7 +117,7 @@ $pages = sizeof($articles_per_page);
                 <div id="subcategory-links-tablet" class="is-hidden-desktop">
                     <?php if (isset($subcategories)) { ?>
                         <?php foreach ($subcategories as $subcategory) { ?>
-                            <a class="subcategory-link" href="skin-guide/<?php echo $subcategory->category_id ?>/<?php echo $subcategory->id ?>" title="<?php echo $subcategory->name ?>"><?php echo $subcategory->name ?></a>
+                            <a class="subcategory-link" href="<?php echo $subcategory->url ?>" title="<?php echo $subcategory->name ?>"><?php echo $subcategory->name ?></a>
                         <?php } ?>
                     <?php } ?>
                 </div>
@@ -135,7 +135,7 @@ $pages = sizeof($articles_per_page);
                     <div id="scroll-content">
                         <?php if (isset($subcategories)) { ?>
                             <?php foreach ($subcategories as $subcategory) { ?>
-                                <a class="subcategory-link" href="skin-guide/<?php echo $subcategory->category_id ?>/<?php echo $subcategory->id ?>" title="<?php echo $subcategory->name ?>"><?php echo $subcategory->name ?></a>
+                                <a class="subcategory-link" href="<?php echo $subcategory->url ?>" title="<?php echo $subcategory->name ?>"><?php echo $subcategory->name ?></a>
                             <?php } ?>
                         <?php } ?>
                     </div>

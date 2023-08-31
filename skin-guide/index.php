@@ -12,51 +12,51 @@ $consultation_url = 'hudkonsultation';
 
 $categories = array(
     new SkinGuideCategory(
-        id: 'accessories',
+        url: 'skin-guide/accessories',
         name: 'Accessories',
     ),
     new SkinGuideCategory(
-        id: 'age',
+        url: 'skin-guide/age',
         name: 'Age',
     ),
     new SkinGuideCategory(
-        id: 'areas',
+        url: 'skin-guide/areas',
         name: 'Areas',
     ),
     new SkinGuideCategory(
-        id: 'brands',
+        url: 'skin-guide/brands',
         name: 'Brands',
     ),
     new SkinGuideCategory(
-        id: 'gender',
+        url: 'skin-guide/gender',
         name: 'Gender',
     ),
     new SkinGuideCategory(
-        id: 'personal-care',
+        url: 'skin-guide/personal-care',
         name: 'Personal care',
     ),
     new SkinGuideCategory(
-        id: 'products',
+        url: 'skin-guide/products',
         name: 'Products',
     ),
     new SkinGuideCategory(
-        id: 'routine',
+        url: 'skin-guide/routine',
         name: 'Routine',
     ),
     new SkinGuideCategory(
-        id: 'skin-conditions',
+        url: 'skin-guide/skin-conditions',
         name: 'Skin conditions',
     ),
     new SkinGuideCategory(
-        id: 'skin-problems',
+        url: 'skin-guide/skin-problems',
         name: 'Skin problems',
     ),
     new SkinGuideCategory(
-        id: 'skin-tones',
+        url: 'skin-guide/skin-tones',
         name: 'Skin tones',
     ),
     new SkinGuideCategory(
-        id: 'tools',
+        url: 'skin-guide/tools',
         name: 'Tools',
     ),
 );
@@ -64,48 +64,48 @@ $categories = array(
 $subcategories = array(
     new SkinGuideSubCategory(
         id: 'dry-skin',
+        url: 'skin-guide/skin-problems/dry-skin',
         name: 'Dry skin',
-        category_id: 'skin-problems'
     ),
     new SkinGuideSubCategory(
         id: 'subtopic-1',
+        url: 'skin-guide/skin-problems/dry-skin',
         name: 'Subtopic 1',
-        category_id: 'accessories'
     ),
     new SkinGuideSubCategory(
         id: 'subtopic-2',
+        url: 'skin-guide/skin-problems/dry-skin',
         name: 'Subtopic 2',
-        category_id: 'accessories'
     ),
     new SkinGuideSubCategory(
         id: 'subtopic-3',
+        url: 'skin-guide/skin-problems/dry-skin',
         name: 'Subtopic 3',
-        category_id: 'accessories'
     ),
     new SkinGuideSubCategory(
         id: 'subtopic-4',
+        url: 'skin-guide/skin-problems/dry-skin',
         name: 'Subtopic 4',
-        category_id: 'accessories'
     ),
     new SkinGuideSubCategory(
         id: 'subtopic-5',
+        url: 'skin-guide/skin-problems/dry-skin',
         name: 'Subtopic 5',
-        category_id: 'accessories'
     ),
     new SkinGuideSubCategory(
         id: 'subtopic-6',
+        url: 'skin-guide/skin-problems/dry-skin',
         name: 'Subtopic 6',
-        category_id: 'accessories'
     ),
     new SkinGuideSubCategory(
         id: 'subtopic-7',
+        url: 'skin-guide/skin-problems/dry-skin',
         name: 'Subtopic 7',
-        category_id: 'accessories'
     ),
     new SkinGuideSubCategory(
         id: 'subtopic-8',
+        url: 'skin-guide/skin-problems/dry-skin',
         name: 'Subtopic 8',
-        category_id: 'accessories'
     ),
 );
 
@@ -200,7 +200,7 @@ $pages = sizeof($articles_per_page);
             <section id="categories-tablet" class="is-hidden-desktop">
                 <div id="category-links">
                     <?php foreach ($categories as $category) { ?>
-                        <a href="/skin-guide/<?php echo $category->id ?>" class="category-link" title="<?php echo $category->name ?>"><?php echo $category->name ?></a>
+                        <a href="<?php echo $category->url ?>" class="category-link" title="<?php echo $category->name ?>"><?php echo $category->name ?></a>
                     <?php } ?>
                 </div>
             </section>
@@ -208,7 +208,7 @@ $pages = sizeof($articles_per_page);
                 <div id="category-items-container">
                     <div id="category-items">
                         <?php foreach ($categories as $category) { ?>
-                            <a href="/skin-guide/<?php echo $category->id ?>" class="category-item" title="<?php echo $category->name ?>"><?php echo $category->name ?></a>
+                            <a href="<?php echo $category->url ?>" class="category-item" title="<?php echo $category->name ?>"><?php echo $category->name ?></a>
                         <?php } ?>
                     </div>
                     <div class="scroll-button is-hidden" id="scroll-button-previous">
@@ -237,7 +237,7 @@ $pages = sizeof($articles_per_page);
                     </div>
                     <div id="subcategory-items">
                         <?php foreach ($subcategories as $subcategory) { ?>
-                            <a id="sc-item-<?php echo $subcategory->id ?>" class="subcategory-item" href="skin-guide/<?php echo $subcategory->category_id ?>/<?php echo $subcategory->id ?>" title="<?php echo $subcategory->name ?>"><?php echo $subcategory->name ?></a>
+                            <a id="sc-item-<?php echo $subcategory->id ?>" class="subcategory-item" href="<?php echo $subcategory->url ?>" title="<?php echo $subcategory->name ?>"><?php echo $subcategory->name ?></a>
                         <?php } ?>
                     </div>
                 </div>

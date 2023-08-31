@@ -1,16 +1,16 @@
 <?php
 class SkinGuideCategory
 {
-    public function __construct($id, $name, $description = null, $description_extended = null, $consultation_url = null)
+    public function __construct($url, $name, $description = null, $description_extended = null, $consultation_url = null)
     {
-        $this->id = $id;
+        $this->url = $url;
         $this->name = $name;
         $this->description = $description;
         $this->description_extended = $description_extended;
         $this->consultation_url = $consultation_url;
     }
 
-    public string $id;
+    public string $url;
     public string $name;
     public ?string $description;
     public ?string $description_extended;
@@ -19,19 +19,20 @@ class SkinGuideCategory
 
 class SkinGuideSubCategory
 {
-    public function __construct($id, $name, $category_id, $description = null, $description_extended = null, $consultation_url = null)
+    public function __construct($id, $url, $name, $description = null, $description_extended = null, $consultation_url = null)
     {
+        /// Used to identify the subcategory with javascript
         $this->id = $id;
+        $this->url = $url;
         $this->name = $name;
-        $this->category_id = $category_id;
         $this->description = $description;
         $this->description_extended = $description_extended;
         $this->consultation_url = $consultation_url;
     }
 
     public string $id;
+    public string $url;
     public string $name;
-    public string $category_id;
     public ?string $description;
     public ?string $description_extended;
     public ?string $consultation_url;

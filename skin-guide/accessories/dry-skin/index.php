@@ -12,8 +12,8 @@ $meta_description = '';
 
 $subcategory = new SkinGuideSubCategory(
     id: 'dry-skin',
+    url: 'accessories/dry-skin',
     name: 'Dry skin',
-    category_id: 'accessories',
     description: 'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we.',
     description_extended: 'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we.',
     consultation_url: '',
