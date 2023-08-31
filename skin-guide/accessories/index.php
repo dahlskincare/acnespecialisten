@@ -40,7 +40,7 @@ $subcategories = array(
 $articles_per_page = array(
     1 => array(
         new SkinGuideArticle(
-            id: 'how-hormones-effect',
+            url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
             url_title: 'How hormones effect?',
             title: 'How hormones effect?',
             subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
@@ -50,11 +50,9 @@ $articles_per_page = array(
             image_large: 'https://via.placeholder.com/872x456.jpg',
             image_alt: 'Hormones effect',
             image_title: 'Hormones effect',
-            category_id: 'category-here',
-            subcategory_id: 'subcategory-here'
         ),
         new SkinGuideArticle(
-            id: 'how-hormones-effect',
+            url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
             url_title: 'How hormones effect?',
             title: 'How hormones effect?',
             subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
@@ -64,13 +62,11 @@ $articles_per_page = array(
             image_large: 'https://via.placeholder.com/872x456.jpg',
             image_alt: 'Hormones effect',
             image_title: 'Hormones effect',
-            category_id: 'category-here',
-            subcategory_id: 'subcategory-here'
         ),
     ),
     2 => array(
         new SkinGuideArticle(
-            id: 'how-hormones-effect',
+            url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
             url_title: 'How hormones effect?',
             title: 'How hormones effect?',
             subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
@@ -80,8 +76,6 @@ $articles_per_page = array(
             image_large: 'https://via.placeholder.com/872x456.jpg',
             image_alt: 'Hormones effect',
             image_title: 'Hormones effect',
-            category_id: 'category-here',
-            subcategory_id: 'subcategory-here'
         ),
     )
 );

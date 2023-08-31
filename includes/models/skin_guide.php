@@ -39,9 +39,9 @@ class SkinGuideSubCategory
 
 class SkinGuideArticle
 {
-    public function __construct($id, $url_title, $title, $subtitle, $problem, $description, $image_small, $image_large, $image_alt, $image_title, $category_id, $subcategory_id)
+    public function __construct($url, $url_title, $title, $subtitle, $problem, $description, $image_small, $image_large, $image_alt, $image_title)
     {
-        $this->id = $id;
+        $this->url = $url;
         $this->url_title = $url_title;
         $this->title = $title;
         $this->subtitle = $subtitle;
@@ -51,11 +51,9 @@ class SkinGuideArticle
         $this->image_large = $image_large;
         $this->image_alt = $image_alt;
         $this->image_title = $image_title;
-        $this->category_id = $category_id;
-        $this->subcategory_id = $subcategory_id;
     }
 
-    public string $id;
+    public string $url;
     public string $url_title;
     public string $title;
     public string $subtitle;
@@ -65,6 +63,4 @@ class SkinGuideArticle
     public string $image_alt;
     public string $image_title;
     public string $image_large;
-    public string $category_id;
-    public string $subcategory_id;
 }
