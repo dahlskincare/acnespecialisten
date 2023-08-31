@@ -431,7 +431,7 @@ $results = array(
             image_title: 'Resultat',
             age: 18,
             gender: 'Female',
-            problem: 'Akne',
+            problem: 'Pigmentfläckar',
             type: 'Severe',
             treatment: new ResultTreatment(
                   duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne"">behandlingar mot akne</a>',
@@ -448,7 +448,7 @@ $results = array(
             image_title: 'Resultat',
             age: 18,
             gender: 'Female',
-            problem: 'Akne',
+            problem: 'Pigmentfläckar',
             type: 'Severe',
             treatment: new ResultTreatment(
                   duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne">behandlingar mot akne</a>',
@@ -533,7 +533,7 @@ $skin_guide_articles = array(
       new SkinGuideArticle(
             id: 'scar-prevention',
             url_title: 'scar-prevention-from-acne',
-            title: 'Förebyggande av Ärr från Finnar',
+            title: 'Pigmentfläckar 101: Vad varje person bör veta',
             subtitle: 'Förstå hur du kan förhindra ärrbildning efter finnar genom korrekt hudvård och behandling.',
             problem: 'En Fullständig Guide',
             description: "Lär dig de bästa metoderna för att förhindra ärrbildning efter finnar. Upptäck vilka produkter och behandlingar som är mest effektiva.",
@@ -547,7 +547,7 @@ $skin_guide_articles = array(
       new SkinGuideArticle(
             id: 'scar-treatment-options',
             url_title: 'scar-treatment-options-from-acne',
-            title: 'Behandlingsalternativ för Ärr från Finnar',
+            title: 'Sanningen bakom varför du får pigmentfläckar',
             subtitle: 'En översikt över olika metoder för att behandla ärr som orsakas av finnar.',
             problem: 'En Expertguide',
             description: "Utforska olika behandlingsalternativ för att ta hand om ärr orsakade av finnar, inklusive kliniska och hemmabehandlingar.",
@@ -561,7 +561,7 @@ $skin_guide_articles = array(
       new SkinGuideArticle(
             id: 'teenagers-and-scars',
             url_title: 'teenagers-and-scars-from-acne',
-            title: 'Tonåringar och Ärr från Finnar',
+            title: 'Är dina pigmentfläckar ofarliga? Tecken du bör vara uppmärksam på',
             subtitle: 'Guide för föräldrar och ungdomar för att hantera och behandla ärr från finnar.',
             problem: 'En Guide för Föräldrar',
             description: "Förstå hur tonåringars hud reagerar på akne och hur man kan hantera och behandla ärr som kan uppstå efter finnar.",
@@ -573,23 +573,24 @@ $skin_guide_articles = array(
             subcategory_id: 'scar-subcategory'
       ),
       new SkinGuideArticle(
+            
+            title: 'Så påverkar solen dina pigmentfläckar – och hur du skyddar dig',
+            problem: 'En Praktisk Guide',
             id: 'natural-remedies',
             url_title: 'natural-remedies-for-scars-from-acne',
-            title: 'Naturliga Behandlingsmetoder för Ärr från Finnar',
-            subtitle: 'En guide till naturliga och skonsamma sätt att behandla ärr som orsakas av finnar.',
-            problem: 'En Praktisk Guide',
-            description: "Upptäck naturliga metoder och hemlagade lösningar för att minska och behandla ärr som orsakas av finnar.",
             image_small: 'https://via.placeholder.com/426x324.webp',
             image_large: 'https://via.placeholder.com/872x456.jpg',
             image_alt: 'Natural remedies for scars',
             image_title: 'Natural remedies for scars',
             category_id: 'scar-category',
+            subtitle: 'En guide till naturliga och skonsamma sätt att behandla ärr som orsakas av finnar.',
+            description: "Upptäck naturliga metoder och hemlagade lösningar för att minska och behandla ärr som orsakas av finnar.",
             subcategory_id: 'scar-subcategory'
       ),
 );
 
 $skinguide_url_label = "Läs fler guider";
-$skinguide_url_title = "Läs fler guider om ärr från finnar";
+$skinguide_url_title = "Läs fler guider om Pigmentfläckar";
 
 
 $specialists = array(
