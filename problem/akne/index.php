@@ -828,10 +828,6 @@ $skin_guide_articles = array(
 
             url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
             url_title: 'How hormones effect?',
-
-            subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
-            description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
-
       ),
       new SkinGuideArticle(
             title: 'How hormones effect?',
@@ -845,18 +841,13 @@ $skin_guide_articles = array(
             url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
             url_title: 'How hormones effect?',
 
-            subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
-            description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
-
 
       ),
       new SkinGuideArticle(
             url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
             url_title: 'How hormones effect?',
             title: 'How hormones effect?',
-            subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
             problem: 'Acne',
-            description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
             image_small: 'https://via.placeholder.com/426x324.webp',
             image_large: 'https://via.placeholder.com/872x456.jpg',
             image_alt: 'Hormones effect',
@@ -866,9 +857,7 @@ $skin_guide_articles = array(
             url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
             url_title: 'How hormones effect?',
             title: 'How hormones effect?',
-            subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
             problem: 'Acne',
-            description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
             image_small: 'https://via.placeholder.com/426x324.webp',
             image_large: 'https://via.placeholder.com/872x456.jpg',
             image_alt: 'Hormones effect',

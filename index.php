@@ -226,7 +226,8 @@
                                           ?>
                                     </div>
                               <?php } ?>
-                        </div <a href="metod" title="Metod" class="button b200 outline expand mt-xl l10n is-hidden-desktop">Läs mer om metoden</a>
+                        </div>
+                        <a href="metod" title="Metod" class="button b200 outline expand mt-xl l10n is-hidden-desktop">Läs mer om metoden</a>
                   </section>
                   <section id="results">
                         <?php
@@ -553,9 +554,7 @@
                                     url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
                                     url_title: 'How hormones effect?',
                                     title: 'How hormones effect?',
-                                    subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
                                     problem: 'Acne',
-                                    description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
                                     image_small: 'https://via.placeholder.com/426x324.webp',
                                     image_large: 'https://via.placeholder.com/872x456.jpg',
                                     image_alt: 'Hormones effect',
@@ -565,9 +564,7 @@
                                     url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
                                     url_title: 'How hormones effect?',
                                     title: 'How hormones effect?',
-                                    subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
                                     problem: 'Acne',
-                                    description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
                                     image_small: 'https://via.placeholder.com/426x324.webp',
                                     image_large: 'https://via.placeholder.com/872x456.jpg',
                                     image_alt: 'Hormones effect',
@@ -577,9 +574,7 @@
                                     url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
                                     url_title: 'How hormones effect?',
                                     title: 'How hormones effect?',
-                                    subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
                                     problem: 'Acne',
-                                    description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
                                     image_small: 'https://via.placeholder.com/426x324.webp',
                                     image_large: 'https://via.placeholder.com/872x456.jpg',
                                     image_alt: 'Hormones effect',
@@ -589,9 +584,7 @@
                                     url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
                                     url_title: 'How hormones effect?',
                                     title: 'How hormones effect?',
-                                    subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
                                     problem: 'Acne',
-                                    description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
                                     image_small: 'https://via.placeholder.com/426x324.webp',
                                     image_large: 'https://via.placeholder.com/872x456.jpg',
                                     image_alt: 'Hormones effect',
