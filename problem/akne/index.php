@@ -716,7 +716,7 @@ $results = array(
 
             image_alt: 'Resultat',
             image_title: 'Resultat',
-            )
+            
       ),
       new ResultCustomer(
             id: '2',
@@ -733,7 +733,7 @@ $results = array(
             type: 'Severe',
             treatment: new ResultTreatment(
             duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne">behandlingar mot akne</a>',
-            )
+            
       ),
 );
 
@@ -886,7 +886,7 @@ $skin_guide_articles = array(
             image_large: 'https://via.placeholder.com/872x456.jpg',
             image_alt: 'Hormones effect',
             image_title: 'Hormones effect',
-            
+
             url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
             url_title: 'How hormones effect?',
 
