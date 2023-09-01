@@ -175,7 +175,7 @@ $symptoms = array(
       ),
 );
 
-$headline01 = "01. Identifiera din seborr´";
+$headline01 = "01. Identifiera din seborré";
 
 $service = new Service(
       title: 'Seborré Konsultation',
