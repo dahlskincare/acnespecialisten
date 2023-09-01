@@ -162,20 +162,20 @@ $treatment_steps = array(
 
 );
 
-$treatment_link = '<a href="problem/akne/aknebehandling" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra aknebehandlingar</a>';
+$treatment_link = '<a href="LÄGG IN RÄTT URL" title="Utforska effektiva behandlingar mot blandhy" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
 
 
 $symptoms_title = 'Blandhy symptom';
 
 $symptoms = array(
       new Symptom(
-            name: 'Öppna komedoner',
-            aka: 'Kända som pormaskar',
-            content: 'Pormaskar (öppna komedoner) är små, mörka prickar som uppstår när en por täpps igen av talg (hudens naturliga olja) och döda hudceller. De är ofta svarta eller bruna på grund av oxidation, som inträffar när melanin (hudens pigment) kommer i kontakt med luft. Pormaskar kan vara platta eller lätt upphöjda och är vanligt förekommande på näsan, kinderna, pannan och hakan.',
+            name: 'Oljig T-zon',
+            aka: 'Kändt som fet hy',
+            content: 'Den mest framträdande egenskapen för blandhy är ofta en oljig T-zon, vilket innebär att pannan, näsan och hakan kan kännas och se glansiga eller fetare ut jämfört med andra delar av ansiktet.',
 
-            url_label: 'Läs mer om öppna komedoner',
-            url: 'problem/akne/typer/post-inflammatory-hyperpigmentaion',
-            url_title: 'Läs mer om öppna komedoner (pormaskar)',
+            url_label: null,
+            url: null,
+            url_title: null,
 
             image: 'images/symptoms/102x102/komedoner-oppna.webp',
             image_alt: 'Bild av öppna komedoner (pormaskar)',
