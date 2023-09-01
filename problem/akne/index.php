@@ -114,7 +114,7 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
             content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din aknetyp och skapar en individuell behandlingsplan.',
-           
+
             url_label: 'Få gratis konsultation',
             url: 'hudkonsultation',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
@@ -122,7 +122,7 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Behandla',
             content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika aknetyp, så att du snabbt och säkert blir av med problemet.',
-          
+
             url_label: 'Se aknebehandlingar',
             url: 'behandlingar/akne',
             url_title: 'Utforska våra skräddarsydda aknebehandlingar'
@@ -130,7 +130,7 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Förebygga',
             content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny akne och hålla din hud i balans.',
-           
+
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
             url_title: 'Hitta de bästa produkterna för att förebygga akne'
@@ -138,7 +138,7 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Reparera',
             content: 'När aknen är borta fokuserar vi på att reducera eventuella ärr med behandlingsmetoder som laser, microneedling och kemisk peeling för en jämn och problemfri hud.',
-           
+
             url_label: 'Se ärrbehandlingar',
             url: 'behandlingar/aknearr',
             url_title: 'Upptäck effektiva behandlingar för akneärr'
@@ -158,36 +158,36 @@ $type_categories = array(
                   new BasedType(
                         title: 'Vuxenakne',
                         subtitle: 'Även kallat acne tarda',
-                       
+
                         image_url: 'images/problems/102x102/vuxenakne.webp',
                         image_alt: 'Bild av vuxenakne',
                         image_title: 'Akne hos vuxna',
                         content: '',
-                      
+
                         url: 'problem/akne/typer/vuxenakne',
                         url_title: 'Utforska information om vuxenakne'
                   ),
                   new BasedType(
                         title: 'Tonårsakne',
                         subtitle: 'Även kallat acne vulgaris',
-                       
+
                         image_url: 'images/problems/102x102/tonarsakne.webp',
                         image_alt: 'Bild av tonårsakne',
                         image_title: 'Akne hos tonåringar',
                         content: '',
-                      
+
                         url: 'problem/akne/typer/tonårsakne',
                         url_title: 'Utforska information om tonårsakne'
                   ),
                   new BasedType(
                         title: 'Barnakne',
                         subtitle: 'Även kallat acne neonatorum',
-                       
+
                         image_url: 'images/problems/102x102/barnakne.webp',
                         image_alt: 'Bild av barnakne',
                         image_title: 'Akne hos barn',
                         content: '',
-                       
+
                         url: 'problem/akne/typer/barnakne',
                         url_title: 'Utforska information om barnakne'
                   ),
@@ -202,48 +202,48 @@ $type_categories = array(
                   new BasedType(
                         title: 'Mild akne',
                         subtitle: 'även kallat acne comedonica',
-                      
+
                         image_url: 'images/problems/102x102/mild-akne.webp',
                         image_alt: 'Bild av mild akne',
                         image_title: 'Mild akne exemplifierad',
                         content: '',
-                       
+
                         url: 'problem/akne/typer/mild-akne',
                         url_title: 'Utforska mer information om mild akne'
                   ),
                   new BasedType(
                         title: 'Medelsvår akne',
                         subtitle: 'Även kallat acne papulopustulosa',
-                      
+
                         image_url: 'images/problems/102x102/medelsvar-akne.webp',
                         image_alt: 'Bild av medelsvår akne',
                         image_title: 'Medelsvår akne exemplifierad',
                         content: '',
-                      
+
                         url: 'problem/akne/typer/medel-akne',
                         url_title: 'Utforska mer information om medelsvår akne'
                   ),
                   new BasedType(
                         title: 'Svår akne',
                         subtitle: 'Även kallat Acne nodulocystica',
-                       
+
                         image_url: 'images/problems/102x102/svar-akne.webp',
                         image_alt: 'Bild av svår akne',
                         image_title: 'Svår akne exemplifierad',
                         content: '',
-                      
+
                         url: 'problem/akne/typer/svar-akne',
                         url_title: 'Utforska mer information om svår akne'
                   ),
                   new BasedType(
                         title: 'Mycket svår akne',
                         subtitle: 'Även kallat Acne conglobata',
-                       
+
                         image_url: 'images/problems/102x102/mycket-svar-akne.webp',
                         image_alt: 'Bild av mycket svår akne',
                         image_title: 'Mycket svår akne exemplifierad',
                         content: '',
-                      
+
                         url: 'problem/akne/typer/mycket-svar-akne',
                         url_title: 'Utforska mer information om mycket svår akne'
                   ),
@@ -257,96 +257,96 @@ $type_categories = array(
                   new BasedType(
                         title: 'Mallorca akne',
                         subtitle: 'även kallat Acne aestivalis',
-                       
+
                         image_url: 'images/problems/102x102/mallorca-akne.webp',
                         image_alt: 'Bild av Mallorca akne',
                         image_title: 'Exempel på Mallorca akne',
                         content: '',
-                       
+
                         url: 'problem/akne/typer/mallorca-akne',
                         url_title: 'Läs mer om hur solen kan orsaka Mallorca akne'
                   ),
                   new BasedType(
                         title: 'Hormonell akne',
                         subtitle: 'akne orsakad av hormoner',
-                      
+
                         image_url: 'images/problems/102x102/hormonell-akne.webp',
                         image_alt: 'Bild av hormonell akne',
                         image_title: 'Exempel på hormonell akne',
                         content: '',
-                      
+
                         url: 'problem/akne/typer/hormonell-akne',
                         url_title: 'Utforska mer om hur hormoner kan framkalla akne'
                   ),
                   new BasedType(
                         title: 'kosmetika akne',
                         subtitle: 'Även kallat Acne cosmetica',
-                      
+
                         image_url: 'images/problems/102x102/kosmetika-akne.webp',
                         image_alt: 'Bild av kosmetika akne',
                         image_title: 'Exempel på kosmetika akne',
                         content: '',
-                      
+
                         url: 'problem/akne/typer/kosmetika-akne',
                         url_title: 'Lär dig mer om hur kosmetika kan ge akne'
                   ),
                   new BasedType(
                         title: 'Akne från pillande',
                         subtitle: 'Även kallat Acne exoriée ',
-                       
+
                         image_url: 'images/problems/102x102/pill-akne.webp',
                         image_alt: 'Bild av pill akne',
                         image_title: 'Exempel på pill akne',
                         content: '',
-                      
+
                         url: 'problem/akne/typer/acne-exoriee',
                         url_title: 'Läs mer om hur pillande kan leda till akne'
                   ),
                   new BasedType(
                         title: 'Friktionsakne',
                         subtitle: 'Även kallat Acne mechanica',
-                      
+
                         image_url: 'images/problems/102x102/friktions-akne.webp',
                         image_alt: 'Bild av friktions akne',
                         image_title: 'Exempel på friktions akne',
                         content: '',
-                      
+
                         url: 'problem/akne/typer/akne-mekanisk',
                         url_title: 'Utforska mer om hur friktion kan orsaka akne'
                   ),
                   new BasedType(
                         title: 'Läkemedelsakne',
                         subtitle: 'Även kallat Acne medicamentosa',
-                       
+
                         image_url: 'images/problems/102x102/lakemedelsakne.webp',
                         image_alt: 'Bild av läkemedelsakne',
                         image_title: 'Exempel på läkemedelsakne',
                         content: '',
-                      
+
                         url: 'problem/akne/typer/lakemedelsakne',
                         url_title: 'Lär dig mer om hur läkemedel kan orsaka akne'
                   ),
                   new BasedType(
                         title: 'Kontaktakne',
                         subtitle: 'Även kallat Acne venenata',
-                       
+
                         image_url: 'images/problems/102x102/kontakt-akne.webp',
                         image_alt: 'Bild av kontaktakne',
                         image_title: 'Exempel på kontaktakne',
                         content: '',
-                      
+
                         url: 'problem/akne/typer/kontakt-akne',
                         url_title: 'Utforska mer om hur direktkontakt kan påverka akne'
                   ),
                   new BasedType(
                         title: 'Svampakne',
                         subtitle: 'Även kallat fungal acne',
-                       
+
                         image_url: 'images/problems/102x102/svamp-akne.webp',
                         image_alt: 'Bild av svampakne',
                         image_title: 'Exempel på svampakne',
                         content: '',
-                       
+
                         url: 'problem/akne/typer/fungal-akne',
                         url_title: 'Lär dig mer om hur svamp relateras till akne'
                   )
@@ -360,36 +360,36 @@ $type_categories = array(
                   new BasedType(
                         title: 'Akne i ansiktet',
                         subtitle: 'Även kallat Acne faciei',
-                       
+
                         image_url: 'images/problems/102x102/akne-ansikte.webp',
                         image_alt: 'Bild av akne i ansiktet',
                         image_title: 'Exempel på akne i ansiktet',
                         content: '',
-                       
+
                         url: 'problem/akne/typer/akne-ansiktet',
                         url_title: 'Läs mer om akne i ansiktet och dess potentiella behandlingar'
                   ),
                   new BasedType(
                         title: 'Akne på ryggen',
                         subtitle: 'Även kallat Acne dorsalis',
-                       
+
                         image_url: 'images/problems/102x102/akne-rygg.webp',
                         image_alt: 'Bild av akne på ryggen',
                         image_title: 'Exempel på akne på ryggen',
                         content: '',
-                      
+
                         url: 'problem/akne/typer/akne-ryggen',
                         url_title: 'Läs mer om akne på ryggen och dess potentiella behandlingar'
                   ),
                   new BasedType(
                         title: 'Akne på bröstet',
                         subtitle: 'Även kallat Acne pectoralis',
-                        
+
                         image_url: 'images/problems/102x102/akne-brost.webp',
                         image_alt: 'Bild av akne på bröstet',
                         image_title: 'Exempel på akne på bröstet',
                         content: '',
-                       
+
                         url: 'problem/akne/typer/akne-brostet',
                         url_title: 'Läs mer om akne på bröstet och dess potentiella behandlingar'
                   ),
@@ -409,11 +409,11 @@ $symptoms = array(
             name: 'Öppna komedoner',
             aka: 'Kända som pormaskar',
             content: 'Pormaskar (öppna komedoner) är små, mörka prickar som uppstår när en por täpps igen av talg (hudens naturliga olja) och döda hudceller. De är ofta svarta eller bruna på grund av oxidation, som inträffar när melanin (hudens pigment) kommer i kontakt med luft. Pormaskar kan vara platta eller lätt upphöjda och är vanligt förekommande på näsan, kinderna, pannan och hakan.',
-          
+
             url_label: 'Läs mer om öppna komedoner',
             url: 'problem/akne/typer/post-inflammatory-hyperpigmentaion',
             url_title: 'Läs mer om öppna komedoner (pormaskar)',
-          
+
             image: 'images/symptoms/102x102/komedoner-oppna.webp',
             image_alt: 'Bild av öppna komedoner (pormaskar)',
             image_title: 'Öppna komedoner (pormaskar)'
@@ -422,11 +422,11 @@ $symptoms = array(
             name: 'Stängda komedoner',
             aka: 'Kända som "whiteheads"',
             content: 'Whiteheads (slutna komedoner) är små, vita eller hudfärgade utbuktningar som uppstår när en por täpps till av talg och döda hudceller under hudytan. De är täckta av ett tunt lager hud, vilket förhindrar oxidation och därmed behåller sin ljusa färg. Whiteheads kan vara platta eller lätt upphöjda och är vanligt förekommande på pannan, kinderna och hakan.',
-           
+
             url_label: 'Läs mer om stängda komedoner',
             url: 'problem/akne/typer/atrophic-icepick-scars',
             url_title: 'Läs mer om stängda komedoner (whiteheads)',
-           
+
             image: 'images/symptoms/102x102/komedoner-stangda.webp',
             image_alt: 'Bild av stängda komedoner (whiteheads)',
             image_title: 'Stängda komedoner (whiteheads)'
@@ -435,11 +435,11 @@ $symptoms = array(
             name: 'Papler',
             aka: 'Kända som röda finnar',
             content: 'Papuler är små, fasta, röda och inflammerade blemmor som uppstår när en hårsäck blir infekterad av bakterier, oftast Propionibacterium acnes. De är vanligtvis mindre än 5 mm i diameter och kan vara känsliga vid beröring. Papuler är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.',
-           
+
             url_label: 'Läs mer om papler',
             url: 'problem/akne/typer/atrophic-boxcar-scars',
             url_title: 'Läs mer om papler (röda finnar)',
-           
+
             image: 'images/symptoms/102x102/papler.webp',
             image_alt: 'Bild av papler (röda finnar)',
             image_title: 'Papler (röda finnar)'
@@ -448,11 +448,11 @@ $symptoms = array(
             name: 'Pustler',
             aka: 'Kända som gula finnar',
             content: 'Pustuler är röda och inflammerade blemmor som innehåller var (en blandning av döda bakterier, vita blodkroppar och döda hudceller). De ser ut som papuler men har en vit eller gul prick i mitten. Pustuler kan vara smärtsamma och är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.',
-           
+
             url_label: 'Läs mer om pustler',
             url: 'problem/akne/typer/atrophic-rolling-scars',
             url_title: 'Läs mer om pustler (gula finnar)',
-           
+
             image: 'images/symptoms/102x102/pustler.webp',
             image_alt: 'Bild av pustler (gula finnar)',
             image_title: 'Pustler (gula finnar)'
@@ -461,11 +461,11 @@ $symptoms = array(
             name: 'Noduler',
             aka: 'Kända som innåtfinnar',
             content: 'Noduler är större, djupare och ofta smärtsamma inflammerade blemmor som uppstår när en hårsäck blir kraftigt infekterad och inflammationen sprider sig till det omgivande vävnaden. De är vanligtvis större än 5 mm i diameter och kan vara fasta och ömma vid beröring. Noduler är vanligt förekommande på ansiktet, nacken, bröstet, ryggen och ibland även på överarmarna och skinkorna.',
-           
+
             url_label: 'Läs mer om noduler',
             url: 'problem/akne/typer/hypertrophic-keloid',
             url_title: 'Läs mer om noduler (innåtfinnar)',
-           
+
             image: 'images/symptoms/102x102/noduler.webp',
             image_alt: 'Bild av noduler (innåtfinnar)',
             image_title: 'Noduler (innåtfinnar)'
@@ -474,11 +474,11 @@ $symptoms = array(
             name: 'Cystor',
             aka: 'Kända som bölder',
             content: 'Cystor är stora, inflammerade och smärtsamma blemmor som är fyllda med var och bildas när en hårsäck blir mycket infekterad och inflammationen sprider sig djupt in i huden. De kan vara runda och mjuka eller fasta och ömma vid beröring. Cystor kan vara större än 5 mm i diameter och är vanligt förekommande på ansiktet, nacken, bröstet och ryggen. Cystisk akne kan leda till ärrbildning och kräver ofta professionell behandling.',
-            
+
             url_label: 'Läs mer om cystor',
             url: 'problem/akne/typer/hypertrophic-keloid',
             url_title: 'Läs mer om cystor (bölder)',
-            
+
             image: 'images/symptoms/102x102/cystor.webp',
             image_alt: 'Bild av cystor (bölder)',
             image_title: 'Cystor (bölder)'
@@ -493,20 +493,20 @@ $service = new Service(
       duration: '20 min',
       price: 'Kostnadsfri',
       content: 'Vid ett personligt möte med en acnespecialist utförs en undersökning av din akne. Vi tar före-bilder på din hud och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
-      
+
       image_small: 'images/services/200x200/konsultation.webp',
       image_large: 'images/services/200x200/konsultation.webp',
       image_alt: 'Bild av en konsultation för aknebehandling',
       image_title: 'Konsultation för aknebehandling',
-      
+
       url_label: 'Läs mer om vår hudkonsultation',
       url: 'hudkonsultation',
       url_title: 'Klicka här för att läsa mer om gratis hudkonsultation',
-     
+
       consultation_url_label: 'Boka tid för hudkonsultation',
       consultation_url: 'consultation-booking?problem=acne',
       consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för akne',
-      
+
       booking_url_label: null,
       booking_url: null,
       booking_url_title: null,
@@ -522,20 +522,20 @@ $services = array(
             duration: '60 min',
             price: '995 kr',
             content: 'En effektiv ansiktsbehandling mot akne fokuserar på att noggrant extrahera orenheter som orsakar inflammation och skador i huden. Genom att försiktigt klämma ut akne och pormaskar kan behandlingen bidra till att förebygga ärrbildning och främja en snabbare läkning.',
-            
+
             image_small: 'images/services/200x200/ansiktsbehandling-akne.webp',
             image_large: 'images/services/200x200/ansiktsbehandling-akne.webp',
             image_alt: 'Bild av en ansiktsbehandling mot akne',
             image_title: 'Ansiktsbehandling mot akne',
-            
+
             url: 'behandlingar/ansiktsbehandling-acne',
             url_label: 'Läs mer om ansiktsbehandling mot akne',
             url_title: 'Klicka här för att läsa mer om ansiktsbehandling mot akne',
-            
+
             consultation_url_label: 'Boka tid för hudkonsultation',
             consultation_url: 'consultation-booking?problem=acne&service=classicFacials',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling mot akne',
-            
+
             booking_url_label: 'Boka tid för ansiktsbehandling mot akne',
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
             booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling mot akne'
@@ -546,12 +546,12 @@ $services = array(
             duration: '50 min',
             price: '2595 kr',
             content: 'En avancerad laserbehandling mot akne erbjuder en effektiv lösning för att bekämpa aktiv akne och ärr som kan uppstå efter utbrott. Lasertekniken riktar sig mot de bakterier som orsakar inflammation och hjälper till att minska produktionen av talg, vilket minskar risken för framtida utbrott.',
-            
+
             image_small: 'images/services/200x200/laser-akne.webp',
             image_large: 'images/services/200x200/laser-akne.webp',
             image_alt: 'Bild av laserbehandling mot akne',
             image_title: 'Laserbehandling mot akne',
-            
+
             url_label: 'Läs mer om laser mot akne',
             url: 'behandlingar/laser-akne',
             url_title: 'Klicka här för att läsa mer om laserbehandling mot akne',
@@ -559,7 +559,7 @@ $services = array(
             consultation_url_label: 'Boka tid för hudkonsultation',
             consultation_url: 'consultation-booking?problem=acne&service=laser',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling mot akne',
-            
+
             booking_url_label: 'Boka tid för laserbehandling mot akne',
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
             booking_url_title: 'Klicka för att boka tid för en laserbehandling mot akne'
@@ -583,11 +583,11 @@ $services = array(
             consultation_url: 'consultation-booking?problem=acne&service=chemicalPeeling',
             consultation_url_label: 'Boka tid för hudkonsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för kemisk peeling mot akne',
-            
+
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
             booking_url_label: 'Boka tid för kemisk peeling mot akne',
             booking_url_title: 'Klicka för att boka tid för en kemisk peeling mot akne behandling'
-           
+
       ),
 
       new Service(
@@ -609,7 +609,7 @@ $services = array(
             consultation_url_label: 'Boka tid för hudkonsultation',
             consultation_url: 'consultation-booking?problem=acne&service=microneedling',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling mot akne',
-            
+
             booking_url_label: 'Boka tid för microneedling mot akne',
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
             booking_url_title: 'Klicka för att boka tid för en microneedling mot akne behandling'
@@ -704,19 +704,19 @@ $results = array(
             gender: 'Female',
             age: 18,
             treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne"">behandlingar mot akne</a>',
+                  duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne"">behandlingar mot akne</a>'
+            ),
 
             image_before_small: 'https://via.placeholder.com/358x358.webm',
             image_after_small: 'https://via.placeholder.com/358x358.webm',
 
             image_before_large: 'https://via.placeholder.com/424x424.webm',
             image_after_large: 'https://via.placeholder.com/424x424.webm',
-            
+
             url_title: 'Resultat',
 
             image_alt: 'Resultat',
             image_title: 'Resultat',
-            )
       ),
       new ResultCustomer(
             id: '2',
@@ -732,7 +732,7 @@ $results = array(
             problem: 'Akne',
             type: 'Severe',
             treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne">behandlingar mot akne</a>',
+                  duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne">behandlingar mot akne</a>',
             )
       ),
 );
@@ -749,7 +749,7 @@ $reviews = array(
             signature: 'Sofia',
             stars: 5,
             logo_url: 'images/brands/trustpilot.svg'
-            
+
       ),
       new Review(
             stars: 5,
@@ -893,7 +893,7 @@ $skin_guide_articles = array(
             subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
             description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
 
-            
+
       ),
       new SkinGuideArticle(
             url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
