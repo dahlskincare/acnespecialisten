@@ -743,12 +743,13 @@ $results_url_title = "se flera aknebehandlingsresultat";
 
 $reviews = array(
       new Review(
-            stars: 5,
             brand: 'Trustpilot',
-            logo_url: 'images/brands/trustpilot.svg',
             title: 'Supernöjd',
             text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
-            signature: 'Sofia'
+            signature: 'Sofia',
+            stars: 5,
+            logo_url: 'images/brands/trustpilot.svg'
+            
       ),
       new Review(
             stars: 5,
@@ -862,28 +863,37 @@ $faq_url_title = "läs flera frågor relaterat till akne";
 
 $skin_guide_articles = array(
       new SkinGuideArticle(
-            url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
-            url_title: 'How hormones effect?',
             title: 'How hormones effect?',
-            subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
             problem: 'Acne',
-            description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
+
             image_small: 'https://via.placeholder.com/426x324.webp',
             image_large: 'https://via.placeholder.com/872x456.jpg',
             image_alt: 'Hormones effect',
             image_title: 'Hormones effect',
+
+            url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
+            url_title: 'How hormones effect?',
+
+            subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
+            description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
+
       ),
       new SkinGuideArticle(
-            url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
-            url_title: 'How hormones effect?',
             title: 'How hormones effect?',
-            subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
             problem: 'Acne',
-            description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
+
             image_small: 'https://via.placeholder.com/426x324.webp',
             image_large: 'https://via.placeholder.com/872x456.jpg',
             image_alt: 'Hormones effect',
             image_title: 'Hormones effect',
+            
+            url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
+            url_title: 'How hormones effect?',
+
+            subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
+            description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
+
+            
       ),
       new SkinGuideArticle(
             url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
