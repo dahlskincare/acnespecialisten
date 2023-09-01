@@ -170,8 +170,8 @@ $symptoms_title = 'Blandhy symptom';
 $symptoms = array(
       new Symptom(
             name: 'Oljig T-zon',
-            aka: 'Kändt som fet hy',
-            content: 'Den mest framträdande egenskapen för blandhy är ofta en oljig T-zon, vilket innebär att pannan, näsan och hakan kan kännas och se glansiga eller fetare ut jämfört med andra delar av ansiktet.',
+            aka: 'Även kallat fet hy',
+            content: 'Den mest framträdande egenskapen för blandhy är ofta en oljig T-zon, vilket innebär att pannan, näsan och hakan kan kännas och se glansiga eller fetare ut jämfört med andra delar av ansiktet. Särskilt efter en lång dag kan huden börja se extra glansig ut på grund av en kombination av talg och svett.',
 
             url_label: null,
             url: null,
@@ -183,26 +183,26 @@ $symptoms = array(
       ),
       new Symptom(
             name: 'Torr hy',
-            aka: null,
-            content: 'Medan T-zonen kan vara oljig, kan kinderna antingen vara torra eller ha en normal konsistens.',
+            aka: 'Även kallat stram hy',
+            content: 'Medan T-zonen kan vara oljig, kan kinderna antingen vara torra eller ha en normal konsistens. Trots oljighet i vissa områden kan andra delar av huden kännas torr och stram, särskilt efter tvätt. Det kan även uppstå torra fläckar som fjällar, särskilt på kinderna.',
 
-            url_label: 'Läs mer om stängda komedoner',
-            url: 'problem/akne/typer/atrophic-icepick-scars',
-            url_title: 'Läs mer om stängda komedoner (whiteheads)',
+            url_label: null,
+            url: null,
+            url_title: null,
 
             image: 'images/symptoms/102x102/komedoner-stangda.webp',
             image_alt: 'Bild av stängda komedoner (whiteheads)',
             image_title: 'Stängda komedoner (whiteheads)'
       ),
       new Symptom(
-            name: 'Papler',
+            name: 'Känslig hy',
             aka: 'Kända som röda finnar',
-            content: 'Papuler är små, fasta, röda och inflammerade blemmor som uppstår när en hårsäck blir infekterad av bakterier, oftast Propionibacterium acnes. De är vanligtvis mindre än 5 mm i diameter och kan vara känsliga vid beröring. Papuler är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.',
+            content: 'Känslig hy är ett symptom där huden lätt kan reagera på olika stimuli, såsom vissa hudvårdsprodukter, miljöfaktorer eller förändringar i klimatet. Denna hudtyp tenderar att bli röd, irriterad eller klående snabbare än andra hudtyper. Det kan också vara vanligt med en brännande känsla eller en känsla av stramhet, särskilt efter att huden har kommit i kontakt med potentiellt irriterande ämnen.',
 
-            url_label: 'Läs mer om papler',
-            url: 'problem/akne/typer/atrophic-boxcar-scars',
-            url_title: 'Läs mer om papler (röda finnar)',
-
+            url_label: null,
+            url: null,
+            url_title: null,
+            
             image: 'images/symptoms/102x102/papler.webp',
             image_alt: 'Bild av papler (röda finnar)',
             image_title: 'Papler (röda finnar)'
