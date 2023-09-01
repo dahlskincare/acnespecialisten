@@ -146,7 +146,6 @@ $type_categories = array(
                         image_title: 'Mild rosacea exemplifierad',
                         title: 'Mild rosacea',
                         subtitle: 'även kallat vaskulär rosacea eller erythematotelangiektatisk rosacea',
-                        content: 'Karaktäriseras av frekventa rodnader, ihållande rodnad och synliga blodkärl. Huden kan också kännas torr och stram.',
                   ),
                   new BasedType(
                         image_url: 'images/problems/102x102/medelsvar-rosacea.webp',
@@ -154,7 +153,6 @@ $type_categories = array(
                         image_title: 'Medelsvår rosacea exemplifierad',
                         title: 'Medelsvår rosacea',
                         subtitle: 'Även kallat papulopustulös rosacea eller akne rosacea',
-                        content: 'Utöver rodnad och synliga blodkärl kan det också finnas små, röda, vättskefyllda blåsor.',
                   ),
                   new BasedType(
                         image_url: 'images/problems/102x102/svar-rosacea.webp',
@@ -162,7 +160,6 @@ $type_categories = array(
                         image_title: 'Svår rosacea exemplifierad',
                         title: 'Svår rosacea',
                         subtitle: 'Även kallat fymatös rosacea eller rhinophyma',
-                        content: 'Huden blir tjock och får en ojämn yta. Detta beror på överväxt av talgkörtlar och bindväv. Näsan kan bli större och få en knölig yta.',
                   ),
             )
       ),
@@ -176,7 +173,6 @@ $type_categories = array(
                         image_title: 'Exempel på på sol och vind',
                         title: 'Sol och vind',
                         subtitle: '',
-                        content: 'Exponering för sol och vind kan orsaka eller förvärra rosacea. Dessa faktorer kan irritera huden och orsaka inflammation, vilket i sin tur kan leda till uppkomsten av rosacea.',
                   ),
                   new BasedType(
                         image_url: 'images/problems/102x102/het-mat-dryck.webp',
@@ -184,7 +180,6 @@ $type_categories = array(
                         image_title: 'Het mat och dryck',
                         title: 'Het mat och dryck',
                         subtitle: '',
-                        content: 'Konsumtion av varm mat och dryck kan också orsaka eller förvärra rosacea. De kan öka blodflödet till hudens yta, vilket kan orsaka rodnad och inflammation.',
                   ),
                   new BasedType(
                         image_url: 'images/problems/102x102/stress.webp',
@@ -192,7 +187,6 @@ $type_categories = array(
                         image_title: 'Stress',
                         title: 'Stress och Starka Känslor',
                         subtitle: '',
-                        content: 'Stress och starka känslor kan leda till att blodflödet till hudens yta ökar, vilket kan orsaka eller förvärra rosacea.',
                   ),
                   new BasedType(
                         image_url: 'images/problems/102x102/alkohol-koffein.webp',
@@ -200,7 +194,6 @@ $type_categories = array(
                         image_title: 'Alkohol och Koffein',
                         title: 'Alkohol och Koffein',
                         subtitle: '',
-                        content: 'Även om alkohol och koffein inte nödvändigtvis orsakar rosacea, har studier visat att de kan förvärra symptomen på sjukdomen.',
                   ),
                   new BasedType(
                         image_url: 'images/problems/102x102/hudvardsprodukter.webp',
@@ -208,7 +201,6 @@ $type_categories = array(
                         image_title: 'Hudvårdsprodukter',
                         title: 'Hudvårdsprodukter',
                         subtitle: '',
-                        content: 'Vissa hudvårdsprodukter kan irritera huden och orsaka eller förvärra rosacea. Detta inkluderar produkter som innehåller alkohol, trollhassel, pepparmynta, eukalyptusolja och andra potentiellt irriterande ingredienser.',
                   ),
                   new BasedType(
                         image_url: 'images/problems/102x102/hoga-temperaturer.webp',
@@ -216,7 +208,6 @@ $type_categories = array(
                         image_title: 'Höga Temperaturer',
                         title: 'Höga Temperaturer',
                         subtitle: '',
-                        content: 'Rosacea kan också förvärras av höga temperaturer, inklusive bastubad och varma bad.',
                   ),
                   new BasedType(
                         image_url: 'images/problems/102x102/fysisk-anstrangning.webp',
@@ -224,7 +215,6 @@ $type_categories = array(
                         image_title: 'Fysisk Ansträngning',
                         title: 'Fysisk Ansträngning',
                         subtitle: '',
-                        content: 'Hård fysisk ansträngning, inklusive tunga lyft och intensiv konditionsträning, kan också orsaka eller förvärra rosacea.',
                   ),
             )
       ),

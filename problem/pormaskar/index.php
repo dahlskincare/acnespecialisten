@@ -152,7 +152,6 @@ $type_categories = array(
                         image_alt: 'Bild av vuxenakne',
                         image_title: 'Akne hos vuxna',
                         subtitle: 'Även kallat acne tarda',
-                        content: '',
                         url: 'problem/pormaskar/typer/vuxenakne',
                         url_title: 'Utforska information om vuxenakne'
                   ),
@@ -162,7 +161,6 @@ $type_categories = array(
                         image_title: 'Akne hos tonåringar',
                         title: 'Tonårsakne',
                         subtitle: 'Även kallat acne vulgaris',
-                        content: '',
                         url: 'problem/pormaskar/typer/tonårsakne',
                         url_title: 'Utforska information om tonårsakne'
                   ),
@@ -172,7 +170,6 @@ $type_categories = array(
                         image_title: 'Akne hos barn',
                         title: 'Barnakne',
                         subtitle: 'Även kallat acne neonatorum',
-                        content: '',
                         url: 'problem/pormaskar/typer/barnakne',
                         url_title: 'Utforska information om barnakne'
                   ),
@@ -189,7 +186,6 @@ $type_categories = array(
                         image_title: 'Mild akne exemplifierad',
                         title: 'Mild akne',
                         subtitle: 'även kallat acne comedonica',
-                        content: '',
                         url: 'problem/pormaskar/typer/mild-akne',
                         url_title: 'Utforska mer information om mild akne'
                   ),
@@ -199,7 +195,6 @@ $type_categories = array(
                         image_title: 'Medelsvår akne exemplifierad',
                         title: 'Medelsvår akne',
                         subtitle: 'Även kallat acne papulopustulosa',
-                        content: '',
                         url: 'problem/pormaskar/typer/medel-akne',
                         url_title: 'Utforska mer information om medelsvår akne'
                   ),
@@ -209,7 +204,6 @@ $type_categories = array(
                         image_title: 'Svår akne exemplifierad',
                         title: 'Svår akne',
                         subtitle: 'Även kallat Acne nodulocystica',
-                        content: '',
                         url: 'problem/pormaskar/typer/svar-akne',
                         url_title: 'Utforska mer information om svår akne'
                   ),
@@ -219,7 +213,6 @@ $type_categories = array(
                         image_title: 'Mycket svår akne exemplifierad',
                         title: 'Mycket svår akne',
                         subtitle: 'Även kallat Acne conglobata',
-                        content: '',
                         url: 'problem/pormaskar/typer/mycket-svar-akne',
                         url_title: 'Utforska mer information om mycket svår akne'
                   ),
@@ -235,7 +228,6 @@ $type_categories = array(
                         image_title: 'Exempel på Mallorca akne',
                         title: 'Mallorca akne',
                         subtitle: 'även kallat Acne aestivalis',
-                        content: '',
                         url: 'problem/pormaskar/typer/mallorca-akne',
                         url_title: 'Läs mer om hur solen kan orsaka Mallorca akne'
                   ),
@@ -245,7 +237,6 @@ $type_categories = array(
                         image_title: 'Exempel på hormonell akne',
                         title: 'Hormonell akne',
                         subtitle: 'akne orsakad av hormoner',
-                        content: '',
                         url: 'problem/pormaskar/typer/hormonell-akne',
                         url_title: 'Utforska mer om hur hormoner kan orsaka akne'
                   ),
@@ -255,7 +246,6 @@ $type_categories = array(
                         image_title: 'Exempel på kosmetika akne',
                         title: 'kosmetika akne',
                         subtitle: 'Även kallat Acne cosmetica',
-                        content: '',
                         url: 'problem/pormaskar/typer/kosmetika-akne',
                         url_title: 'Lär dig mer om hur kosmetika kan orsaka akne'
                   ),
@@ -264,8 +254,7 @@ $type_categories = array(
                         image_alt: 'Bild av pill akne',
                         image_title: 'Exempel på pill akne',
                         title: 'Akne från pillande',
-                        subtitle: 'Även kallat Acne exoriée ',
-                        content: '',
+                        subtitle: 'Även kallat Acne exoriée',
                         url: 'problem/pormaskar/typer/acne-exoriee',
                         url_title: 'Läs mer om hur pillande kan leda till akne'
                   ),
@@ -275,7 +264,6 @@ $type_categories = array(
                         image_title: 'Exempel på friktions akne',
                         title: 'Friktionsakne',
                         subtitle: 'Även kallat Acne mechanica',
-                        content: '',
                         url: 'problem/pormaskar/typer/akne-mekanisk',
                         url_title: 'Utforska mer om hur friktion kan orsaka akne'
                   ),
@@ -285,7 +273,6 @@ $type_categories = array(
                         image_title: 'Exempel på läkemedelsakne',
                         title: 'Läkemedelsakne',
                         subtitle: 'Även kallat Acne medicamentosa',
-                        content: '',
                         url: 'problem/pormaskar/typer/lakemedelsakne',
                         url_title: 'Lär dig mer om hur läkemedel kan orsaka akne'
                   ),
@@ -295,7 +282,6 @@ $type_categories = array(
                         image_title: 'Exempel på kontaktakne',
                         title: 'Kontaktakne',
                         subtitle: 'Även kallat Acne venenata',
-                        content: '',
                         url: 'problem/pormaskar/typer/kontakt-akne',
                         url_title: 'Utforska mer om hur direktkontakt kan orsaka akne'
                   ),
@@ -305,7 +291,6 @@ $type_categories = array(
                         image_title: 'Exempel på svampakne',
                         title: 'Svampakne',
                         subtitle: 'Även kallat fungal acne',
-                        content: '',
                         url: 'problem/pormaskar/typer/fungal-akne',
                         url_title: 'Lär dig mer om hur svampar kan orsaka akne'
                   )
@@ -321,7 +306,6 @@ $type_categories = array(
                         image_title: 'Exempel på akne i ansiktet',
                         title: 'Akne i ansiktet',
                         subtitle: 'Även kallat Acne faciei',
-                        content: '',
                         url: 'problem/pormaskar/typer/akne-ansiktet',
                         url_title: 'Läs mer om akne i ansiktet och dess potentiella behandlingar'
                   ),
@@ -331,7 +315,6 @@ $type_categories = array(
                         image_title: 'Exempel på akne på ryggen',
                         title: 'Akne på ryggen',
                         subtitle: 'Även kallat Acne dorsalis',
-                        content: '',
                         url: 'problem/pormaskar/typer/akne-ryggen',
                         url_title: 'Läs mer om akne på ryggen och dess potentiella behandlingar'
                   ),
@@ -341,7 +324,6 @@ $type_categories = array(
                         image_title: 'Exempel på akne på bröstet',
                         title: 'Akne på bröstet',
                         subtitle: 'Även kallat Acne pectoralis',
-                        content: '',
                         url: 'problem/pormaskar/typer/akne-brostet',
                         url_title: 'Läs mer om akne på bröstet och dess potentiella behandlingar'
                   ),

@@ -150,7 +150,6 @@ $type_categories = array(
                   new BasedType(
                         title: 'Vuxenfinnar',
                         subtitle: 'Ibland kopplat till livsstilsfaktorer',
-                        content: '',
                         image_url: 'images/problems/102x102/vuxenfinnar.webp',
                         image_alt: 'Bild av finnar hos vuxna',
                         image_title: 'Finnar hos vuxna',
@@ -160,7 +159,6 @@ $type_categories = array(
                   new BasedType(
                         title: 'Tonårsfinnar',
                         subtitle: 'En vanlig företeelse under puberteten',
-                        content: '',
                         image_url: 'images/problems/102x102/tonarsfinnar.webp',
                         image_alt: 'Bild av finnar hos tonåringar',
                         image_title: 'Finnar hos tonåringar',
@@ -177,7 +175,6 @@ $type_categories = array(
                   new BasedType(
                         title: 'Solfinnar',
                         subtitle: 'Även kallat solutlöst acne',
-                        content: '',
                         image_url: 'images/problems/102x102/solfinnar.webp',
                         image_alt: 'Bild av finnar orsakade av solen',
                         image_title: 'Exempel på finnar orsakade av solen',
@@ -187,7 +184,6 @@ $type_categories = array(
                   new BasedType(
                         title: 'Hormonella finnar',
                         subtitle: 'Finnar orsakade av hormonell obalans',
-                        content: '',
                         image_url: 'images/problems/102x102/hormonell-finnar.webp',
                         image_alt: 'Bild av hormonella finnar',
                         image_title: 'Exempel på hormonella finnar',
@@ -197,7 +193,6 @@ $type_categories = array(
                   new BasedType(
                         title: 'Finnar efter rakning',
                         subtitle: 'Finnar utlösta av rakning',
-                        content: '',
                         image_url: 'images/problems/102x102/rakningsfinnar.webp',
                         image_alt: 'Bild av finnar orsakade av rakning',
                         image_title: 'Exempel på finnar orsakade av rakning',
@@ -207,7 +202,6 @@ $type_categories = array(
                   new BasedType(
                         title: 'Kosmetikafinnar',
                         subtitle: 'Finnar utlösta av kosmetiska produkter',
-                        content: '',
                         image_url: 'images/problems/102x102/kosmetikafinnar.webp',
                         image_alt: 'Bild av finnar orsakade av kosmetika',
                         image_title: 'Exempel på finnar orsakade av kosmetika',
@@ -217,7 +211,6 @@ $type_categories = array(
                   new BasedType(
                         title: 'Pillfinnar',
                         subtitle: 'Finnar framkallade genom ständigt pillande eller klämmande',
-                        content: '',
                         image_url: 'images/problems/102x102/pillfinnar.webp',
                         image_alt: 'Bild av finnar orsakade av pillande',
                         image_title: 'Exempel på finnar orsakade av pillande',
@@ -227,7 +220,6 @@ $type_categories = array(
                   new BasedType(
                         title: 'Friktionsfinnar',
                         subtitle: 'Finnar orsakade av konstant friktion eller tryck mot huden',
-                        content: '',
                         image_url: 'images/problems/102x102/friktionsfinnar.webp',
                         image_alt: 'Bild av finnar orsakade av friktion',
                         image_title: 'Exempel på finnar orsakade av friktion',
@@ -238,7 +230,6 @@ $type_categories = array(
                   new BasedType(
                         title: 'Läkemedelsfinnar',
                         subtitle: 'Finnar orsakade av medicinska preparat',
-                        content: '',
                         image_url: 'images/problems/102x102/lakemedelsfinnar.webp',
                         image_alt: 'Bild av finnar orsakade av läkemedel',
                         image_title: 'Exempel på finnar orsakade av läkemedel',
@@ -248,7 +239,6 @@ $type_categories = array(
                   new BasedType(
                         title: 'Kontaktfinnar',
                         subtitle: 'Finnar orsakade av hudkontakt med irriterande ämnen',
-                        content: '',
                         image_url: 'images/problems/102x102/kontaktfinnar.webp',
                         image_alt: 'Bild av finnar orsakade av kontakt',
                         image_title: 'Exempel på finnar orsakade av kontakt',
@@ -258,7 +248,6 @@ $type_categories = array(
                   new BasedType(
                         title: 'Svampfinnar',
                         subtitle: 'Finnar relaterade till hudsvamp',
-                        content: '',
                         image_url: 'images/problems/102x102/svampfinnar.webp',
                         image_alt: 'Bild av finnar orsakade av svamp',
                         image_title: 'Exempel på finnar orsakade av svamp',
@@ -275,7 +264,6 @@ $type_categories = array(
                   new BasedType(
                         title: 'Finnar i ansiktet',
                         subtitle: 'Även kallat Acne faciei',
-                        content: '',
                         image_url: 'images/problems/102x102/finnar-ansikte.webp',
                         image_alt: 'Bild av finnar i ansiktet',
                         image_title: 'Exempel på finnar i ansiktet',
@@ -285,7 +273,6 @@ $type_categories = array(
                   new BasedType(
                         title: 'Finnar på ryggen',
                         subtitle: 'Även kallat Acne dorsalis',
-                        content: '',
                         image_url: 'images/problems/102x102/finnar-rygg.webp',
                         image_alt: 'Bild av finnar på ryggen',
                         image_title: 'Exempel på finnar på ryggen',
@@ -295,7 +282,6 @@ $type_categories = array(
                   new BasedType(
                         title: 'Finnar på bröstet',
                         subtitle: 'Även kallat Acne pectoralis',
-                        content: '',
                         image_url: 'images/problems/102x102/finnar-brost.webp',
                         image_alt: 'Bild av finnar på bröstet',
                         image_title: 'Exempel på finnar på bröstet',
@@ -305,7 +291,6 @@ $type_categories = array(
                   new BasedType(
                         title: 'Finnar runt munnen',
                         subtitle: 'Även kallat Perioral dermatit',
-                        content: '',
                         image_url: 'images/problems/102x102/finnar-mun.webp',
                         image_alt: 'Bild av finnar runt munnen',
                         image_title: 'Exempel på finnar runt munnen',

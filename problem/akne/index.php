@@ -161,7 +161,6 @@ $type_categories = array(
                         image_url: 'images/problems/102x102/vuxenakne.webp',
                         image_alt: 'Bild av vuxenakne',
                         image_title: 'Akne hos vuxna',
-                        content: '',
 
                         url: 'problem/akne/typer/vuxenakne',
                         url_title: 'Utforska information om vuxenakne'
@@ -173,7 +172,6 @@ $type_categories = array(
                         image_url: 'images/problems/102x102/tonarsakne.webp',
                         image_alt: 'Bild av tonårsakne',
                         image_title: 'Akne hos tonåringar',
-                        content: '',
 
                         url: 'problem/akne/typer/tonårsakne',
                         url_title: 'Utforska information om tonårsakne'
@@ -185,7 +183,6 @@ $type_categories = array(
                         image_url: 'images/problems/102x102/barnakne.webp',
                         image_alt: 'Bild av barnakne',
                         image_title: 'Akne hos barn',
-                        content: '',
 
                         url: 'problem/akne/typer/barnakne',
                         url_title: 'Utforska information om barnakne'
@@ -204,7 +201,6 @@ $type_categories = array(
                         image_url: 'images/problems/102x102/mild-akne.webp',
                         image_alt: 'Bild av mild akne',
                         image_title: 'Mild akne exemplifierad',
-                        content: '',
 
                         url: 'problem/akne/typer/mild-akne',
                         url_title: 'Utforska mer information om mild akne'
@@ -216,7 +212,6 @@ $type_categories = array(
                         image_url: 'images/problems/102x102/medelsvar-akne.webp',
                         image_alt: 'Bild av medelsvår akne',
                         image_title: 'Medelsvår akne exemplifierad',
-                        content: '',
 
                         url: 'problem/akne/typer/medel-akne',
                         url_title: 'Utforska mer information om medelsvår akne'
@@ -228,7 +223,6 @@ $type_categories = array(
                         image_url: 'images/problems/102x102/svar-akne.webp',
                         image_alt: 'Bild av svår akne',
                         image_title: 'Svår akne exemplifierad',
-                        content: '',
 
                         url: 'problem/akne/typer/svar-akne',
                         url_title: 'Utforska mer information om svår akne'
@@ -240,7 +234,6 @@ $type_categories = array(
                         image_url: 'images/problems/102x102/mycket-svar-akne.webp',
                         image_alt: 'Bild av mycket svår akne',
                         image_title: 'Mycket svår akne exemplifierad',
-                        content: '',
 
                         url: 'problem/akne/typer/mycket-svar-akne',
                         url_title: 'Utforska mer information om mycket svår akne'
@@ -258,7 +251,6 @@ $type_categories = array(
                         image_url: 'images/problems/102x102/mallorca-akne.webp',
                         image_alt: 'Bild av Mallorca akne',
                         image_title: 'Exempel på Mallorca akne',
-                        content: '',
 
                         url: 'problem/akne/typer/mallorca-akne',
                         url_title: 'Läs mer om hur solen kan orsaka Mallorca akne'
@@ -270,7 +262,6 @@ $type_categories = array(
                         image_url: 'images/problems/102x102/hormonell-akne.webp',
                         image_alt: 'Bild av hormonell akne',
                         image_title: 'Exempel på hormonell akne',
-                        content: '',
 
                         url: 'problem/akne/typer/hormonell-akne',
                         url_title: 'Utforska mer om hur hormoner kan framkalla akne'
@@ -282,7 +273,6 @@ $type_categories = array(
                         image_url: 'images/problems/102x102/kosmetika-akne.webp',
                         image_alt: 'Bild av kosmetika akne',
                         image_title: 'Exempel på kosmetika akne',
-                        content: '',
 
                         url: 'problem/akne/typer/kosmetika-akne',
                         url_title: 'Lär dig mer om hur kosmetika kan ge akne'
@@ -294,7 +284,6 @@ $type_categories = array(
                         image_url: 'images/problems/102x102/pill-akne.webp',
                         image_alt: 'Bild av pill akne',
                         image_title: 'Exempel på pill akne',
-                        content: '',
 
                         url: 'problem/akne/typer/acne-exoriee',
                         url_title: 'Läs mer om hur pillande kan leda till akne'
@@ -306,7 +295,6 @@ $type_categories = array(
                         image_url: 'images/problems/102x102/friktions-akne.webp',
                         image_alt: 'Bild av friktions akne',
                         image_title: 'Exempel på friktions akne',
-                        content: '',
 
                         url: 'problem/akne/typer/akne-mekanisk',
                         url_title: 'Utforska mer om hur friktion kan orsaka akne'
@@ -318,7 +306,6 @@ $type_categories = array(
                         image_url: 'images/problems/102x102/lakemedelsakne.webp',
                         image_alt: 'Bild av läkemedelsakne',
                         image_title: 'Exempel på läkemedelsakne',
-                        content: '',
 
                         url: 'problem/akne/typer/lakemedelsakne',
                         url_title: 'Lär dig mer om hur läkemedel kan orsaka akne'
@@ -330,7 +317,6 @@ $type_categories = array(
                         image_url: 'images/problems/102x102/kontakt-akne.webp',
                         image_alt: 'Bild av kontaktakne',
                         image_title: 'Exempel på kontaktakne',
-                        content: '',
 
                         url: 'problem/akne/typer/kontakt-akne',
                         url_title: 'Utforska mer om hur direktkontakt kan påverka akne'
@@ -342,7 +328,6 @@ $type_categories = array(
                         image_url: 'images/problems/102x102/svamp-akne.webp',
                         image_alt: 'Bild av svampakne',
                         image_title: 'Exempel på svampakne',
-                        content: '',
 
                         url: 'problem/akne/typer/fungal-akne',
                         url_title: 'Lär dig mer om hur svamp relateras till akne'
@@ -360,7 +345,6 @@ $type_categories = array(
                         image_url: 'images/problems/102x102/akne-ansikte.webp',
                         image_alt: 'Bild av akne i ansiktet',
                         image_title: 'Exempel på akne i ansiktet',
-                        content: '',
 
                         url: 'problem/akne/typer/akne-ansiktet',
                         url_title: 'Läs mer om akne i ansiktet och dess potentiella behandlingar'
@@ -372,7 +356,6 @@ $type_categories = array(
                         image_url: 'images/problems/102x102/akne-rygg.webp',
                         image_alt: 'Bild av akne på ryggen',
                         image_title: 'Exempel på akne på ryggen',
-                        content: '',
 
                         url: 'problem/akne/typer/akne-ryggen',
                         url_title: 'Läs mer om akne på ryggen och dess potentiella behandlingar'
@@ -384,7 +367,6 @@ $type_categories = array(
                         image_url: 'images/problems/102x102/akne-brost.webp',
                         image_alt: 'Bild av akne på bröstet',
                         image_title: 'Exempel på akne på bröstet',
-                        content: '',
 
                         url: 'problem/akne/typer/akne-brostet',
                         url_title: 'Läs mer om akne på bröstet och dess potentiella behandlingar'
@@ -1228,7 +1210,7 @@ $brands_url_title = "Varumärken för Aknebehandling";
                                     </div>
                                     <div class="is-hidden-mobile">
                                           <?php foreach ($type_categories as $type_category) { ?>
-                                                <div class="type-category-large" id="<?php echo $type_category->id ?>">
+                                                <div class="type-category-large">
                                                       <h3 class="h300"><?php echo $type_category->title ?></h3>
                                                       <div class="mt-xxs type-category-content"><?php echo $type_category->content ?></div>
                                                       <div class="columns is-3 is-variable is-multiline type-category-large-cards">
