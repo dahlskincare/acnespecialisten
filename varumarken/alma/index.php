@@ -50,7 +50,6 @@ $models = array(
 );
 $problems = array(
     new Service(
-        id: 'akne',
         title: 'Akne',
         duration: 'Also called acne scars',
         price: null,
@@ -67,7 +66,6 @@ $problems = array(
         booking_url_title: 'Book a treatment',
     ),
     new Service(
-        id: 'akne',
         title: 'Akne',
         duration: 'Also called acne scars',
         price: null,
@@ -84,7 +82,6 @@ $problems = array(
         booking_url_title: 'Book a treatment',
     ),
     new Service(
-        id: 'akne',
         title: 'Akne',
         duration: 'Also called acne scars',
         price: null,

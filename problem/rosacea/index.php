@@ -312,7 +312,6 @@ $symptoms = array(
 $headline01 = "01. Identifiera din rosacea";
 
 $service = new Service(
-      id: 'rosacea',
       title: 'Konsultation',
       duration: '20 min',
       price: 'Kostnadsfri',
@@ -336,7 +335,6 @@ $headline02 = "02. Behandla aktiv rosacea";
 
 $services = array(
       new Service(
-            id: 'rosacea',
             title: 'Ansiktsbehandling mot rosacea',
             duration: '60 min',
             price: '995 kr',
@@ -361,7 +359,6 @@ $headline03 = "03. Förebygg uppkomsten av ny rosacea";
 
 $products = array(
       new Service(
-            id: 'produkter-mot-rosacea',
             title: 'Produkter mot rosacea',
             duration: null,
             price: 'Pris från 1495 kr',
@@ -386,7 +383,6 @@ $headline04 = "04. Reparera post-rosacea";
 
 $procedures = array(
       new Service(
-            id: 'ipl-rosacea',
             title: 'Reparerar ytliga blodkärl',
             duration: '60 minuter',
             price: 'Pris från 1595 kr',

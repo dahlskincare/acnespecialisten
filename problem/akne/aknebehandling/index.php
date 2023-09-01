@@ -43,7 +43,6 @@ $treat_content = '<p class="p200">När din aknetyp har identifierats, inleder vi
 
 $services = array(
     new Service(
-        id: 'ansiktsbehandling-mot-akne',
         image_small: 'https://via.placeholder.com/358x274.jpg',
         image_large: 'https://via.placeholder.com/852x456.jpg',
         image_title: 'Effektiv Ansiktsbehandling mot Akne på Acnespecialisten',
@@ -67,7 +66,6 @@ $services = array(
     ),
 
     new Service(
-        id: 'behandlingar/laser-mot-akne',
         image_small: 'https://via.placeholder.com/358x274.jpg',
         image_large: 'https://via.placeholder.com/852x456.jpg',
         image_title: 'Klient som genomgår laserbehandling mot akne',
@@ -91,7 +89,6 @@ $services = array(
     ),
 
     new Service(
-        id: 'behandlingar/kemisk-peeling-mot-akne',
         image_small: 'https://via.placeholder.com/358x274.jpg',
         image_large: 'https://via.placeholder.com/852x456.jpg',
         image_title: 'Utförande av kemisk peelingbehandling för akne',
@@ -115,7 +112,6 @@ $services = array(
     ),
 
     new Service(
-        id: 'behandlingar/microneedling-mot-akne',
         image_small: 'https://via.placeholder.com/358x274.jpg',
         image_large: 'https://via.placeholder.com/852x456.jpg',
         image_title: 'Utförande av microneedlingbehandling för akne',
@@ -680,11 +676,6 @@ $brands = array(
                     <div class="mt-xs">
                         <?php echo $treat_content ?>
                         </p>
-                        <div id="service-buttons" class="mt-m flex-row is-hidden-tablet">
-                            <?php foreach ($services as $service) { ?>
-                                <button class="grey" onclick="scrollToElement('#service-card-<?php echo $service->id ?>')"><?php echo $service->short_title ?></button>
-                            <?php } ?>
-                        </div>
                         <?php foreach ($services as $service) {
                             include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card_big/service_card_big.php');
                         } ?>

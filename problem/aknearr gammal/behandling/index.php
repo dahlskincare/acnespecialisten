@@ -24,7 +24,6 @@ $define_content = '<p class="p200">This is a treatment adapted for acne skin and
 $treat_content = '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>';
 $services = array(
     new Service(
-        id: 'microneedling-acne-scars',
         title: 'Microneedling for acne scars',
         duration: '30-60 min',
         price: '1295 kr',
@@ -43,7 +42,6 @@ $services = array(
         short_title: 'Microneedling'
     ),
     new Service(
-        id: 'laser-acne-scars',
         title: 'Laser for acne scars',
         duration: '30-60 min',
         price: '1295 kr',
@@ -62,7 +60,6 @@ $services = array(
         short_title: 'Laser'
     ),
     new Service(
-        id: 'chemical-peeling-acne-scars',
         title: 'Chemical peeling for acne scars',
         duration: '30-60 min',
         price: '1295 kr',
@@ -264,11 +261,6 @@ $repair_url = 'treatments/acne';
                     </h2>
                     <div class="mt-xs">
                         <?php echo $treat_content ?>
-                    </div>
-                    <div id="service-buttons" class="mt-m flex-row is-hidden-tablet">
-                        <?php foreach ($services as $service) { ?>
-                            <button class="grey" onclick="scrollToElement('#service-card-<?php echo $service->id ?>')"><?php echo $service->short_title ?></button>
-                        <?php } ?>
                     </div>
                     <?php foreach ($services as $service) {
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card_big/service_card_big.php');

@@ -410,7 +410,6 @@ $symptoms = array(
 $headline01 = "01. Identifiera din akne";
 
 $service = new Service(
-      id: 'akne',
       title: 'Konsultation',
       duration: '20 min',
       price: 'Kostnadsfri',
@@ -435,7 +434,6 @@ $headline02 = "02. Behandla aktiv akne";
 
 $services = array(
       new Service(
-            id: 'akne',
             title: 'Ansiktsbehandling mot akne',
             duration: '60 min',
             price: '995 kr',
@@ -455,7 +453,6 @@ $services = array(
             url_title: 'Read more about blablabla'
       ),
       new Service(
-            id: 'laser',
             title: 'Laser mot akne',
             duration: '50 min',
             price: '2595 kr',
@@ -475,7 +472,6 @@ $services = array(
             url_title: 'Read more about blablabla'
       ),
       new Service(
-            id: 'chemical-peeling',
             title: 'Kemisk peeling mot akne',
             duration: '30 min',
             price: '1595 kr',
@@ -493,7 +489,6 @@ $services = array(
       ),
 
       new Service(
-            id: 'microneedling',
             title: 'Microneedling mot akne',
             duration: '50 min',
             price: '2595 kr',
@@ -515,7 +510,6 @@ $headline03 = "03. Förebygg uppkomsten av ny akne";
 
 $products = array(
       new Service(
-            id: 'produkter-mot-akne',
             title: 'Produkter mot akne',
             duration: null,
             price: 'Pris från 1495 kr',
@@ -537,7 +531,6 @@ $headline04 = "04. Reparera post-akne";
 
 $procedures = array(
       new Service(
-            id: 'microneedling-for-acne',
             title: 'Reparera acneärr',
             duration: '4 behandlingsmetoder',
             price: null,

@@ -116,7 +116,6 @@ $service_categories = array(
         image_title: 'Ansiktsbehandlingar för problemhy',
         services: array(
             new Service(
-                id: 'acne-treatment',
                 url: 'behandlingar/ansiktsbehandlingar-problemhy/acne-treatment',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om acnebehandling',
@@ -136,7 +135,6 @@ $service_categories = array(
                 booking_url_title: 'Boka tid för acnebehandling',
             ),
             new Service(
-                id: 'pore-cleanse',
                 url: 'behandlingar/ansiktsbehandlingar-problemhy/pore-cleanse',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om porrengöring',
@@ -156,7 +154,6 @@ $service_categories = array(
                 booking_url_title: 'Boka tid för porrengöring',
             ),
             new Service(
-                id: 'milier-treatment',
                 url: 'behandlingar/ansiktsbehandlingar-problemhy/milier-treatment',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om milierbehandling',
@@ -176,7 +173,6 @@ $service_categories = array(
                 booking_url_title: 'Boka tid för milierbehandling',
             ),
             new Service(
-                id: 'rosacea-treatment',
                 url: 'behandlingar/ansiktsbehandlingar-problemhy/rosacea-treatment',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om rosaceabehandling',
@@ -213,7 +209,6 @@ $service_categories = array(
         image_title: 'Classic facials',
         services: array(
             new Service(
-                id: 'skin-therapist-choice',
                 url: 'behandlingar/ansiktsbehandlingar-klassiska/skin-therapist-choice',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om hudterapeutens val',
@@ -250,7 +245,6 @@ $service_categories = array(
         image_title: 'Microneedling',
         services: array(
             new Service(
-                id: 'dermapen',
                 url: 'behandlingar/ansiktsbehandlingar-microneedling/dermapen',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om dermapen',
@@ -270,7 +264,6 @@ $service_categories = array(
                 booking_url_title: 'Boka tid för dermapen',
             ),
             new Service(
-                id: 'micro-injector',
                 url: 'behandlingar/ansiktsbehandlingar-microneedling/micro-injector',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om micro injector',
@@ -307,7 +300,6 @@ $service_categories = array(
         image_title: 'Injections',
         services: array(
             new Service(
-                id: 'botox',
                 url: 'behandlingar/injections/botox',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om botox',
@@ -327,7 +319,6 @@ $service_categories = array(
                 booking_url_title: 'Boka tid för botox',
             ),
             new Service(
-                id: 'fillers',
                 url: 'behandlingar/injections/fillers',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om fillers',
@@ -364,7 +355,6 @@ $service_categories = array(
         image_title: 'FreezeTreat',
         services: array(
             new Service(
-                id: 'cryopen',
                 url: 'behandlingar/freeze-treat/cryopen',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om cryopen',
@@ -401,7 +391,6 @@ $service_categories = array(
         image_title: 'IPL',
         services: array(
             new Service(
-                id: 'alma-rejuve',
                 url: 'behandlingar/ipl/alma-rejuve',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om Alma Rejuve',
@@ -421,7 +410,6 @@ $service_categories = array(
                 booking_url_title: 'Boka tid för Alma Rejuve',
             ),
             new Service(
-                id: 'photonova',
                 url: 'behandlingar/ipl/photonova',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om PhotoNova / Powerlight',
@@ -458,7 +446,6 @@ $service_categories = array(
         image_title: 'Laser for hair removal',
         services: array(
             new Service(
-                id: 'soprano-ice',
                 url: 'behandlingar/laser-for-hair-removal/soprano-ice',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om Soprano Ice',
@@ -478,7 +465,6 @@ $service_categories = array(
                 booking_url_title: 'Boka tid för Soprano Ice',
             ),
             new Service(
-                id: 'splendor-x',
                 url: 'behandlingar/laser-for-hair-removal/splendor-x',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om Splendor X',
@@ -515,7 +501,6 @@ $service_categories = array(
         image_title: 'Laser for problem skin',
         services: array(
             new Service(
-                id: 'alma-hybrid',
                 url: 'behandlingar/laser-for-problem-skin/alma-hybrid',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om Alma Hybrid',
@@ -552,7 +537,6 @@ $service_categories = array(
         image_title: 'Chemical peeling',
         services: array(
             new Service(
-                id: 'skintech',
                 url: 'behandlingar/chemical-peeling/skintech',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om Skintech',
@@ -572,7 +556,6 @@ $service_categories = array(
                 booking_url_title: 'Boka tid för Skintech',
             ),
             new Service(
-                id: 'prx-t33',
                 url: 'behandlingar/chemical-peeling/prx-t33',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om PRX-T33',
@@ -609,7 +592,6 @@ $service_categories = array(
         image_title: 'Dermabration',
         services: array(
             new Service(
-                id: 'hydrafacial',
                 url: 'behandlingar/dermabration/hydrafacial',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om Hydrafacial',
@@ -646,7 +628,6 @@ $service_categories = array(
         image_title: 'Skinbooster',
         services: array(
             new Service(
-                id: 'infuzion',
                 url: 'behandlingar/skinbooster/infuzion',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om Infuzion',

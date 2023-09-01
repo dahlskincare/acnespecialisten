@@ -178,7 +178,6 @@ $symptoms = array(
 $headline01 = "01. Identifiera din seborr´";
 
 $service = new Service(
-      id: 'konsultation',
       title: 'Seborré Konsultation',
       duration: '20 min',
       price: 'Kostnadsfri',
@@ -203,7 +202,6 @@ $headline02 = "02. Behandla seborré";
 
 $services = array(
       new Service(
-            id: 'seborre',
             title: 'Ansiktsbehandling mot seborré',
             duration: '60 min',
             price: '995 kr',
@@ -223,7 +221,6 @@ $services = array(
             url_title: 'Klicka här för att läsa mer om ansiktsbehandling mot seborré'
       ),
       new Service(
-            id: 'laser',
             title: 'Laser mot akne',
             duration: '50 min',
             price: '2595 kr',
@@ -243,7 +240,6 @@ $services = array(
             url_title: 'Klicka här för att läsa mer om laserbehandling mot akne'
       ),
       new Service(
-            id: 'chemical-peeling',
             title: 'Kemisk peeling mot akne',
             duration: '30 min',
             price: '1595 kr',
@@ -264,7 +260,6 @@ $services = array(
       ),
 
       new Service(
-            id: 'microneedling',
             title: 'Microneedling mot akne',
             duration: '50 min',
             price: '2595 kr',
@@ -289,7 +284,6 @@ $headline03 = "03. Förebygg uppkomsten av ny seborré";
 
 $products = array(
       new Service(
-            id: 'produkter-mot-seborre',
             title: 'Produkter mot seborré',
             duration: null,
             price: 'Pris från 1295 kr',

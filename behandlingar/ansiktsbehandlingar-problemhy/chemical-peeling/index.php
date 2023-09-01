@@ -4,7 +4,6 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $model = new Service(
-    id: 'chemical-peeling',
     title: 'Chemical peeling',
     duration: '50 min',
     price: '995 kr',

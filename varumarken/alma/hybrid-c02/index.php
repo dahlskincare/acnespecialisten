@@ -15,7 +15,6 @@ $nav_buttons = array(
 
 $problems = array(
     new Service(
-        id: 'akne',
         title: 'Akne',
         duration: 'Also called acne scars',
         price: null,
@@ -32,7 +31,6 @@ $problems = array(
         booking_url_title: 'Boka tid',
     ),
     new Service(
-        id: 'akne',
         title: 'Akne',
         duration: 'Also called acne scars',
         price: null,
@@ -49,7 +47,6 @@ $problems = array(
         booking_url_title: 'Boka tid',
     ),
     new Service(
-        id: 'akne',
         title: 'Akne',
         duration: 'Also called acne scars',
         price: null,

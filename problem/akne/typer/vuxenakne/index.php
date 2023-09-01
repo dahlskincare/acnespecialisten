@@ -66,7 +66,6 @@ $area_icons = array(
 $areas_text = '<p class="p200">This is a treatment adapted for acne skin and <a class="h200 underline" title="pimples">pimples</a> and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-xl">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the <a class="h200 underline" title="acne treatment">acne treatment</a>, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>';
 
 $service = new Service(
-    id: 'sun-spots-consultation',
     title: 'Consultation',
     duration: '30 min',
     price: '1295 kr',
@@ -84,7 +83,6 @@ $service = new Service(
 );
 $solutions = array(
     new Service(
-        id: 'chemical-peeling-pigmentation',
         title: 'Chemical peeling',
         duration: '30 min',
         price: '1295 kr',
@@ -101,7 +99,6 @@ $solutions = array(
         booking_url_title: 'Book',
     ),
     new Service(
-        id: 'laser-pigmentation',
         title: 'Laser',
         duration: '30 min',
         price: '1295 kr',
@@ -118,7 +115,6 @@ $solutions = array(
         booking_url_title: 'Book',
     ),
     new Service(
-        id: 'ipl-pigmentation',
         title: 'IPL',
         duration: '30 min',
         price: '1295 kr',
@@ -135,7 +131,6 @@ $solutions = array(
         booking_url_title: 'Book',
     ),
     new Service(
-        id: 'freezetreat-pigmentation',
         title: 'FreezeTreat',
         duration: '30 min',
         price: '1295 kr',
@@ -333,15 +328,9 @@ $specialists = array(
                     </section>
                     <section id="solutions">
                         <h2 class="h500 l10n">Sun spots treatment solutions</h2>
-                        <div class="mt-m is-hidden-tablet solution-buttons">
-                            <?php foreach ($solutions as $service) { ?>
-                                <a href="javascript:;" onclick="scrollToElement('#service-<?php echo $service->id ?>')" class="button grey"><?php echo $service->title ?>
-                                </a>
-                            <?php } ?>
-                        </div>
                         <hr class="is-hidden-mobile mt-xl">
                         <?php foreach ($solutions as $service) { ?>
-                            <div class="mt-xxl" id="service-<?php echo $service->id ?>">
+                            <div class="mt-xxl">
                                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
                                 <hr class="is-hidden-mobile mt-xxl">
                             </div>

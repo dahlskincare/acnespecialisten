@@ -274,7 +274,6 @@ $types_url = '<a href="problem/pigmentflackar/typer" title="Lär dig mer om olik
 $headline01 = "01. Identifiera dina Pigmentfläckar";
 
 $service = new Service(
-      id: 'pigmentflackar-konsultation',
       title: 'Konsultation för Pigmentfläckar och Hudfläckar',
       duration: '20 min',
       price: 'Kostnadsfri',
@@ -298,7 +297,6 @@ $headline02 = "02. Behandlingar mot pigmentfläckar";
 
 $services = array(
       new Service(
-            id: 'pigmentflackar-ipl',
             title: 'IPL-behandling för Pigmentfläckar',
             duration: '90 min',
             price: '4595 kr',
@@ -318,7 +316,6 @@ $services = array(
             url_title: 'Klicka här för att läsa mer om IPL-behandling för pigmentfläckar'
       ),
       new Service(
-            id: 'pigmentflackar-keemisk-peeling',
             title: 'Kemisk Peeling för Pigmentfläckar',
             duration: '30 min',
             price: '1995 kr',
@@ -338,7 +335,6 @@ $services = array(
             url_title: 'Klicka här för att läsa mer om kemisk peeling för pigmentfläckar'
       ),
       new Service(
-            id: 'pigmentflackar-laser',
             title: 'Laserbehandling mot pigmentfläckar',
             duration: '60 min',
             price: '4595 kr',
@@ -359,7 +355,6 @@ $services = array(
       ),
 
       new Service(
-            id: 'pigmentflackar-microneedling',
             title: 'Microneedling för Pigmentfläckar',
             duration: '60 min',
             price: '2995 kr',

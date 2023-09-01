@@ -105,7 +105,6 @@ $type_categories = array(
                         image_title: 'Vuxenakne',
                         title: 'Vuxenakne',
                         subtitle: 'Även kallat acne tarda',
-                        content: '',
                         url: 'problem/akne/typer/vuxenakne',
                         url_title: 'Läs mer om vuxenakne'
                   ),
@@ -115,7 +114,6 @@ $type_categories = array(
                         image_title: 'Tonårsakne',
                         title: 'Tonårsakne',
                         subtitle: 'Även kallat acne vulgaris',
-                        content: '',
                         url: 'problem/akne/typer/tonårsakne',
                         url_title: 'Läs mer om tonårsakne'
                   ),
@@ -125,7 +123,6 @@ $type_categories = array(
                         image_title: 'Barnakne',
                         title: 'Barnakne',
                         subtitle: 'Även kallat acne neonatorum',
-                        content: '',
                         url: 'problem/akne/typer/barnakne',
                         url_title: 'Läs mer om barnakne'
                   ),
@@ -141,7 +138,6 @@ $type_categories = array(
                         image_title: 'Mild akne',
                         title: 'Mild akne',
                         subtitle: 'även kallat acne comedonica',
-                        content: '',
                         url: 'problem/akne/typer/mild-akne',
                         url_title: 'Läs mer om mild akne'
                   ),
@@ -151,7 +147,6 @@ $type_categories = array(
                         image_title: 'Medelsvår akne',
                         title: 'Medelsvår akne',
                         subtitle: 'Även kallat acne papulopustulosa',
-                        content: '',
                         url: 'problem/akne/typer/medel-akne',
                         url_title: 'Läs mer om medelsvår akne'
                   ),
@@ -161,7 +156,6 @@ $type_categories = array(
                         image_title: 'Svår akne',
                         title: 'Svår akne',
                         subtitle: 'Även kallat Acne nodulocystica',
-                        content: '',
                         url: 'problem/akne/typer/svar-akne',
                         url_title: 'Läs mer om svår akne'
                   ),
@@ -171,7 +165,6 @@ $type_categories = array(
                         image_title: 'Mycket svår akne',
                         title: 'Mycket svår akne',
                         subtitle: 'Även kallat Acne conglobata',
-                        content: '',
                         url: 'problem/akne/typer/mycket-svar-akne',
                         url_title: 'Läs mer om mycket svår akne'
                   ),
@@ -187,7 +180,6 @@ $type_categories = array(
                         image_title: 'Mallorca akne',
                         title: 'Mallorca akne',
                         subtitle: 'även kallat Acne aestivalis',
-                        content: '',
                         url: 'problem/akne/typer/mallorca-akne',
                         url_title: 'Läs mer om Mallorca akne'
                   ),
@@ -197,7 +189,6 @@ $type_categories = array(
                         image_title: 'Akne från medicin',
                         title: 'Hormonell akne',
                         subtitle: 'akne orsakad av hormoner',
-                        content: '',
                         url: 'problem/akne/typer/hormonell-akne',
                         url_title: 'Läs mer om hormonell akne'
                   ),
@@ -207,7 +198,6 @@ $type_categories = array(
                         image_title: 'Akne från medicin',
                         title: 'kosmetika akne',
                         subtitle: 'Även kallat Acne cosmetica',
-                        content: '',
                         url: 'problem/akne/typer/kosmetika-akne',
                         url_title: 'Läs mer om kosmetika akne'
                   ),
@@ -217,7 +207,6 @@ $type_categories = array(
                         image_title: 'Akne från medicin',
                         title: 'Akne från pillande',
                         subtitle: 'Även kallat Acne exoriée ',
-                        content: '',
                         url: 'problem/akne/typer/acne-exoriee',
                         url_title: 'Läs mer om akne från pillande'
                   ),
@@ -227,7 +216,6 @@ $type_categories = array(
                         image_title: 'Akne från medicin',
                         title: 'Friktionsakne',
                         subtitle: 'Även kallat Acne mechanica',
-                        content: '',
                         url: 'problem/akne/typer/akne-mekanisk',
                         url_title: 'Läs mer om friktionsakne'
                   ),
@@ -237,7 +225,6 @@ $type_categories = array(
                         image_title: 'Akne från medicin',
                         title: 'Läkemedelsakne',
                         subtitle: 'Även kallat Acne medicamentosa',
-                        content: '',
                         url: 'problem/akne/typer/lakemedelsakne',
                         url_title: 'Läs mer om läkemedelsakne'
                   ),
@@ -247,7 +234,6 @@ $type_categories = array(
                         image_title: 'Akne från medicin',
                         title: 'Kontaktakne',
                         subtitle: 'Även kallat Acne venenata',
-                        content: '',
                         url: 'problem/akne/typer/kontakt-akne',
                         url_title: 'Läs mer om kontaktakne'
                   ),
@@ -257,7 +243,6 @@ $type_categories = array(
                         image_title: 'Akne från medicin',
                         title: 'Svampakne',
                         subtitle: 'Även kallat fungal acne',
-                        content: '',
                         url: 'problem/akne/typer/fungal-akne',
                         url_title: 'Läs mer om svampakne'
                   )
@@ -273,7 +258,6 @@ $type_categories = array(
                         image_title: 'Akne i ansiktet',
                         title: 'Akne i ansiktet',
                         subtitle: 'Även kallat Acne faciei',
-                        content: '',
                         url: 'problem/akne/typer/akne-ansiktet',
                         url_title: 'Läs mer om akne i ansiktet'
                   ),
@@ -283,7 +267,6 @@ $type_categories = array(
                         image_title: 'Akne på ryggen',
                         title: 'Akne på ryggen',
                         subtitle: 'Även kallat Acne dorsalis',
-                        content: '',
                         url: 'problem/akne/typer/akne-ryggen',
                         url_title: 'Läs mer om akne på ryggen'
                   ),
@@ -293,7 +276,6 @@ $type_categories = array(
                         image_title: 'Akne på bröstet',
                         title: 'Akne på bröstet',
                         subtitle: 'Även kallat Acne pectoralis',
-                        content: '',
                         url: 'problem/akne/typer/akne-brostet',
                         url_title: 'Läs mer om akne på bröstet'
                   ),
@@ -371,7 +353,6 @@ $symptoms = array(
       ),
 );
 $service = new Service(
-      id: 'consultation',
       title: 'Konsultation',
       duration: '20 min',
       price: 'Kostnadsfri',
@@ -389,7 +370,6 @@ $service = new Service(
 );
 $services = array(
       new Service(
-            id: 'acne-scars-microneedling',
             title: 'Ansiktsbehandling mot akne',
             duration: '60 min',
             price: '995 kr',
@@ -406,7 +386,6 @@ $services = array(
             booking_url_title: 'Boka tid för ansiktsbehandling mot akne',
       ),
       new Service(
-            id: 'acne-scars-laser',
             title: 'Laser mot akne',
             duration: '50 min',
             price: '2595 kr',
@@ -423,7 +402,6 @@ $services = array(
             booking_url_title: 'Boka tid för laser mot akne',
       ),
       new Service(
-            id: 'acne-scars-chemical-peeling',
             title: 'Kemisk peeling mot akne',
             duration: '30 min',
             price: '1595 kr',
@@ -442,7 +420,6 @@ $services = array(
 );
 $products = array(
       new Service(
-            id: 'produkter-mot-akne',
             title: 'Produkter mot akne',
             duration: null,
             price: 'Price from 995 kr',
@@ -461,7 +438,6 @@ $products = array(
 );
 $procedures = array(
       new Service(
-            id: 'microneedling-for-acne',
             title: 'Reparera acneärr',
             duration: '6 procedures',
             price: null,
@@ -1001,7 +977,7 @@ $brands = array(
                                                 <?php } ?>
                                           </div>
                                           <?php foreach ($type_categories as $type_category) { ?>
-                                                <div class="type-category" id="<?php echo $type_category->id ?>">
+                                                <div class="type-category">
                                                       <h3 class="h300"><?php echo $type_category->title ?></h3>
                                                       <div class="mt-xxs type-category-content"><?php echo $type_category->content ?></div>
                                                       <div class="type-category-cards">
@@ -1014,7 +990,7 @@ $brands = array(
                                     </div>
                                     <div class="is-hidden-mobile">
                                           <?php foreach ($type_categories as $type_category) { ?>
-                                                <div class="type-category-large" id="<?php echo $type_category->id ?>">
+                                                <div class="type-category-large">
                                                       <h3 class="h300"><?php echo $type_category->title ?></h3>
                                                       <div class="mt-xxs type-category-content"><?php echo $type_category->content ?></div>
                                                       <div class="columns is-3 is-variable is-multiline type-category-large-cards">

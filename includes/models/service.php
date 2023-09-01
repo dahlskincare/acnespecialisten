@@ -2,7 +2,6 @@
 class Service
 {
     public function __construct(
-        $id,
         $title,
         $duration,
         $price,
@@ -25,7 +24,6 @@ class Service
         $procedures = array(),
         $combos = array(),
     ) {
-        $this->id = $id;
         $this->title = $title;
         $this->duration = $duration;
         $this->price = $price;
@@ -49,7 +47,6 @@ class Service
         $this->combos = $combos;
     }
 
-    public string $id;
     public string $title;
     public ?string $duration;
     public ?string $price;

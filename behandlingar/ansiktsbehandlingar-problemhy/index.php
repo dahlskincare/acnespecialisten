@@ -4,7 +4,6 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $model = new Service(
-    id: 'ansiktsbehandlingar-problemhy',
     title: 'Ansiktsbehandlingar för problemhy',
     duration: '50 min',
     price: '995 kr',
@@ -333,7 +332,6 @@ $types_description = 'Acne, as we have seen, is a rash on the skin caused by inf
 
 $types = array(
     new Service(
-        id: 'chemical-peeling',
         title: 'Chemical peeling',
         duration: null,
         price: null,
@@ -350,7 +348,6 @@ $types = array(
         booking_url_title: 'Book a chemical peeling',
     ),
     new Service(
-        id: 'laser-pigmentation',
         title: 'Laser',
         duration: null,
         price: null,
@@ -367,7 +364,6 @@ $types = array(
         booking_url_title: 'Book a laser treatment',
     ),
     new Service(
-        id: 'ipl-pigmentation',
         title: 'IPL',
         duration: null,
         price: null,
@@ -384,7 +380,6 @@ $types = array(
         booking_url_title: 'Book a IPL treatment',
     ),
     new Service(
-        id: 'freezetreat-pigmentation',
         title: 'FreezeTreat',
         duration: null,
         price: null,
@@ -404,7 +399,6 @@ $types = array(
 
 $big_types = array(
     new Service(
-        id: 'classic',
         title: 'Classic',
         duration: '60 min',
         price: null,
@@ -442,7 +436,6 @@ $big_types = array(
         )
     ),
     new Service(
-        id: 'skin-therapists-choice',
         title: "The skin therapist's choice",
         duration: '60 min',
         price: null,
@@ -480,7 +473,6 @@ $big_types = array(
         )
     ),
     new Service(
-        id: 'peel-boost-glow',
         title: 'Peel, Boost & Glow',
         duration: '60 min',
         price: null,
@@ -518,7 +510,6 @@ $big_types = array(
         )
     ),
     new Service(
-        id: 'luxury',
         title: 'Luxury',
         duration: '60 min',
         price: null,

@@ -228,7 +228,6 @@ $symptoms = array(
 $headline01 = "01. Identifiera dina akneärr";
 
 $service = new Service(
-      id: 'aknearr',
       title: 'Akneärr Konsultation',
       duration: '20 min',
       price: 'Kostnadsfri',
@@ -254,7 +253,6 @@ $headline02 = "02. Behandla dina akneärr";
 
 $services = array(
       new Service(
-            id: 'aknearr-laser',
             title: 'Laser mot akneärr',
             duration: '90 min',
             price: '4595 kr',
@@ -274,7 +272,6 @@ $services = array(
             url_title: 'Klicka här för att läsa mer om laserbehandling mot akneärr'
       ),
       new Service(
-            id: 'aknearr-kemisk-peeling',
             title: 'Kemisk peeling mot akneärr',
             duration: '30 min',
             price: '1995 kr',
@@ -294,7 +291,6 @@ $services = array(
             url_title: 'Klicka här för att läsa mer om kemisk peeling mot akneärr'
       ),
       new Service(
-            id: 'aknearr-microneedling',
             title: 'Microneedling mot akneärr',
             duration: '60 min',
             price: '2995 kr',

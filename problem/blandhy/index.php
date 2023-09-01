@@ -153,7 +153,6 @@ $type_categories = array(
                         image_alt: 'Bild av vuxenakne',
                         image_title: 'Akne hos vuxna',
                         subtitle: 'Även kallat acne tarda',
-                        content: '',
                         url: 'problem/akne/typer/vuxenakne',
                         url_title: 'Utforska information om vuxenakne'
                   ),
@@ -163,7 +162,6 @@ $type_categories = array(
                         image_title: 'Akne hos tonåringar',
                         title: 'Tonårsakne',
                         subtitle: 'Även kallat acne vulgaris',
-                        content: '',
                         url: 'problem/akne/typer/tonårsakne',
                         url_title: 'Utforska information om tonårsakne'
                   ),
@@ -173,7 +171,6 @@ $type_categories = array(
                         image_title: 'Akne hos barn',
                         title: 'Barnakne',
                         subtitle: 'Även kallat acne neonatorum',
-                        content: '',
                         url: 'problem/akne/typer/barnakne',
                         url_title: 'Utforska information om barnakne'
                   ),
@@ -190,7 +187,6 @@ $type_categories = array(
                         image_title: 'Mild akne exemplifierad',
                         title: 'Mild akne',
                         subtitle: 'även kallat acne comedonica',
-                        content: '',
                         url: 'problem/akne/typer/mild-akne',
                         url_title: 'Utforska mer information om mild akne'
                   ),
@@ -200,7 +196,6 @@ $type_categories = array(
                         image_title: 'Medelsvår akne exemplifierad',
                         title: 'Medelsvår akne',
                         subtitle: 'Även kallat acne papulopustulosa',
-                        content: '',
                         url: 'problem/akne/typer/medel-akne',
                         url_title: 'Utforska mer information om medelsvår akne'
                   ),
@@ -210,7 +205,6 @@ $type_categories = array(
                         image_title: 'Svår akne exemplifierad',
                         title: 'Svår akne',
                         subtitle: 'Även kallat Acne nodulocystica',
-                        content: '',
                         url: 'problem/akne/typer/svar-akne',
                         url_title: 'Utforska mer information om svår akne'
                   ),
@@ -220,7 +214,6 @@ $type_categories = array(
                         image_title: 'Mycket svår akne exemplifierad',
                         title: 'Mycket svår akne',
                         subtitle: 'Även kallat Acne conglobata',
-                        content: '',
                         url: 'problem/akne/typer/mycket-svar-akne',
                         url_title: 'Utforska mer information om mycket svår akne'
                   ),
@@ -236,7 +229,6 @@ $type_categories = array(
                         image_title: 'Exempel på Mallorca akne',
                         title: 'Mallorca akne',
                         subtitle: 'även kallat Acne aestivalis',
-                        content: '',
                         url: 'problem/akne/typer/mallorca-akne',
                         url_title: 'Läs mer om hur solen kan orsaka Mallorca akne'
                   ),
@@ -246,7 +238,6 @@ $type_categories = array(
                         image_title: 'Exempel på hormonell akne',
                         title: 'Hormonell akne',
                         subtitle: 'akne orsakad av hormoner',
-                        content: '',
                         url: 'problem/akne/typer/hormonell-akne',
                         url_title: 'Utforska mer om hur hormoner kan framkalla akne'
                   ),
@@ -256,7 +247,6 @@ $type_categories = array(
                         image_title: 'Exempel på kosmetika akne',
                         title: 'kosmetika akne',
                         subtitle: 'Även kallat Acne cosmetica',
-                        content: '',
                         url: 'problem/akne/typer/kosmetika-akne',
                         url_title: 'Lär dig mer om hur kosmetika kan ge akne'
                   ),
@@ -266,7 +256,6 @@ $type_categories = array(
                         image_title: 'Exempel på pill akne',
                         title: 'Akne från pillande',
                         subtitle: 'Även kallat Acne exoriée ',
-                        content: '',
                         url: 'problem/akne/typer/acne-exoriee',
                         url_title: 'Läs mer om hur pillande kan leda till akne'
                   ),
@@ -276,7 +265,6 @@ $type_categories = array(
                         image_title: 'Exempel på friktions akne',
                         title: 'Friktionsakne',
                         subtitle: 'Även kallat Acne mechanica',
-                        content: '',
                         url: 'problem/akne/typer/akne-mekanisk',
                         url_title: 'Utforska mer om hur friktion kan orsaka akne'
                   ),
@@ -286,7 +274,6 @@ $type_categories = array(
                         image_title: 'Exempel på läkemedelsakne',
                         title: 'Läkemedelsakne',
                         subtitle: 'Även kallat Acne medicamentosa',
-                        content: '',
                         url: 'problem/akne/typer/lakemedelsakne',
                         url_title: 'Lär dig mer om hur läkemedel kan orsaka akne'
                   ),
@@ -296,7 +283,6 @@ $type_categories = array(
                         image_title: 'Exempel på kontaktakne',
                         title: 'Kontaktakne',
                         subtitle: 'Även kallat Acne venenata',
-                        content: '',
                         url: 'problem/akne/typer/kontakt-akne',
                         url_title: 'Utforska mer om hur direktkontakt kan påverka akne'
                   ),
@@ -306,7 +292,6 @@ $type_categories = array(
                         image_title: 'Exempel på svampakne',
                         title: 'Svampakne',
                         subtitle: 'Även kallat fungal acne',
-                        content: '',
                         url: 'problem/akne/typer/fungal-akne',
                         url_title: 'Lär dig mer om hur svamp relateras till akne'
                   )
@@ -322,7 +307,6 @@ $type_categories = array(
                         image_title: 'Exempel på akne i ansiktet',
                         title: 'Akne i ansiktet',
                         subtitle: 'Även kallat Acne faciei',
-                        content: '',
                         url: 'problem/akne/typer/akne-ansiktet',
                         url_title: 'Läs mer om akne i ansiktet och dess potentiella behandlingar'
                   ),
@@ -332,7 +316,6 @@ $type_categories = array(
                         image_title: 'Exempel på akne på ryggen',
                         title: 'Akne på ryggen',
                         subtitle: 'Även kallat Acne dorsalis',
-                        content: '',
                         url: 'problem/akne/typer/akne-ryggen',
                         url_title: 'Läs mer om akne på ryggen och dess potentiella behandlingar'
                   ),
@@ -342,7 +325,6 @@ $type_categories = array(
                         image_title: 'Exempel på akne på bröstet',
                         title: 'Akne på bröstet',
                         subtitle: 'Även kallat Acne pectoralis',
-                        content: '',
                         url: 'problem/akne/typer/akne-brostet',
                         url_title: 'Läs mer om akne på bröstet och dess potentiella behandlingar'
                   ),
@@ -429,7 +411,6 @@ $symptoms = array(
 $headline01 = "01. Identifiera din akne";
 
 $service = new Service(
-      id: 'akne',
       title: 'Konsultation',
       duration: '20 min',
       price: 'Kostnadsfri',
@@ -454,7 +435,6 @@ $headline02 = "02. Behandla aktiv akne";
 
 $services = array(
       new Service(
-            id: 'akne',
             title: 'Ansiktsbehandling mot akne',
             duration: '60 min',
             price: '995 kr',
@@ -474,7 +454,6 @@ $services = array(
             url_title: 'Klicka här för att läsa mer om ansiktsbehandling mot akne'
       ),
       new Service(
-            id: 'laser',
             title: 'Laser mot akne',
             duration: '50 min',
             price: '2595 kr',
@@ -494,7 +473,6 @@ $services = array(
             url_title: 'Klicka här för att läsa mer om laserbehandling mot akne'
       ),
       new Service(
-            id: 'chemical-peeling',
             title: 'Kemisk peeling mot akne',
             duration: '30 min',
             price: '1595 kr',
@@ -515,7 +493,6 @@ $services = array(
       ),
 
       new Service(
-            id: 'microneedling',
             title: 'Microneedling mot akne',
             duration: '50 min',
             price: '2595 kr',
@@ -540,7 +517,6 @@ $headline03 = "03. Förebygg uppkomsten av ny akne";
 
 $products = array(
       new Service(
-            id: 'produkter-mot-akne',
             title: 'Produkter mot akne',
             duration: null,
             price: 'Pris från 1495 kr',
@@ -565,7 +541,6 @@ $headline04 = "04. Reparera post-akne";
 
 $procedures = array(
       new Service(
-            id: 'microneedling-for-acne',
             title: 'Reparera acneärr',
             duration: '4 behandlingsmetoder',
             price: null,
@@ -587,7 +562,6 @@ $procedures = array(
 );
 $articles = array(
       new Article(
-            id: 'pigmentation-causes-and-risk-factors',
             title: 'Varför AcneSpecialisten?!',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
@@ -596,7 +570,6 @@ $articles = array(
             content: '<p class="p200">Du som vill ha det som är bäst mot akne bör välja Acnespecialisten eftersom vi är experter på att behandla akne och har över 30 års erfarenhet av att ha arbetat med olika typer av akne. Vi lever upp till vårt namn genom att erbjuda personlig och professionell hjälp för att hjälpa dig att uppnå en klar och frisk hud. Vi skräddarsyr behandlingar baserade på dina individuella problem och behov, vi rekommenderar de bästa akneprodukterna för att förebygga och behandla din hud och akne. </p><p class="p200 mt-m">Genom att välja Acnespecialisten får du den mest effektiva behandlingen för ditt specifika fall och en hudvårdspartner som stöttar dig genom hela processen.</p>',
       ),
       new Article(
-            id: 'when-to-see-your-pigmentation-specialist',
             title: 'När ska jag besöka AcneSpecialisten?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
@@ -769,7 +742,7 @@ $faq_url_title = "läs flera frågor relaterat till akne";
 
 $skin_guide_articles = array(
       new SkinGuideArticle(
-            id: 'myter-om-akne',
+            url: '',
             url_title: '',
             title: 'Myter om Akne',
             subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
@@ -779,11 +752,9 @@ $skin_guide_articles = array(
             image_large: 'https://via.placeholder.com/872x456.jpg',
             image_alt: 'Hormones effect',
             image_title: 'Hormones effect',
-            category_id: 'category-here',
-            subcategory_id: 'subcategory-here'
       ),
       new SkinGuideArticle(
-            id: 'how-hormones-effect',
+            url: '',
             url_title: 'How hormones effect?',
             title: 'How hormones effect?',
             subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
@@ -793,11 +764,9 @@ $skin_guide_articles = array(
             image_large: 'https://via.placeholder.com/872x456.jpg',
             image_alt: 'Hormones effect',
             image_title: 'Hormones effect',
-            category_id: 'category-here',
-            subcategory_id: 'subcategory-here'
       ),
       new SkinGuideArticle(
-            id: 'how-hormones-effect',
+            url: '',
             url_title: 'How hormones effect?',
             title: 'How hormones effect?',
             subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
@@ -807,11 +776,9 @@ $skin_guide_articles = array(
             image_large: 'https://via.placeholder.com/872x456.jpg',
             image_alt: 'Hormones effect',
             image_title: 'Hormones effect',
-            category_id: 'category-here',
-            subcategory_id: 'subcategory-here'
       ),
       new SkinGuideArticle(
-            id: 'how-hormones-effect',
+            url: '',
             url_title: 'How hormones effect?',
             title: 'How hormones effect?',
             subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
@@ -821,8 +788,6 @@ $skin_guide_articles = array(
             image_large: 'https://via.placeholder.com/872x456.jpg',
             image_alt: 'Hormones effect',
             image_title: 'Hormones effect',
-            category_id: 'category-here',
-            subcategory_id: 'subcategory-here'
       ),
 );
 
@@ -1124,7 +1089,7 @@ $brands_url_title = "Varumärken för Aknebehandling";
                                                 <?php } ?>
                                           </div>
                                           <?php foreach ($type_categories as $type_category) { ?>
-                                                <div class="type-category" id="<?php echo $type_category->id ?>">
+                                                <div class="type-category">
                                                       <h3 class="h300"><?php echo $type_category->title ?></h3>
                                                       <div class="mt-xxs type-category-content"><?php echo $type_category->content ?></div>
                                                       <div class="type-category-cards">
@@ -1137,7 +1102,7 @@ $brands_url_title = "Varumärken för Aknebehandling";
                                     </div>
                                     <div class="is-hidden-mobile">
                                           <?php foreach ($type_categories as $type_category) { ?>
-                                                <div class="type-category-large" id="<?php echo $type_category->id ?>">
+                                                <div class="type-category-large">
                                                       <h3 class="h300"><?php echo $type_category->title ?></h3>
                                                       <div class="mt-xxs type-category-content"><?php echo $type_category->content ?></div>
                                                       <div class="columns is-3 is-variable is-multiline type-category-large-cards">

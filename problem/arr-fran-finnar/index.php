@@ -230,7 +230,6 @@ $symptoms = array(
 $headline01 = "01. Identifiera dina ärr från finnar";
 
 $service = new Service(
-      id: 'arr-fran-finnar',
       title: 'Konsultation för Ärr från Finnar',
       duration: '20 min',
       price: 'Kostnadsfri',
@@ -256,7 +255,6 @@ $headline02 = "02. Behandling av dina ärr som uppstått från finnar";
 
 $services = array(
       new Service(
-            id: 'arr-fran-finnar-laser',
             title: 'Laserbehandling för Ärr från Finnar',
             duration: '90 min',
             price: '4595 kr',
@@ -276,7 +274,6 @@ $services = array(
             url_title: 'Klicka här för att läsa mer om laserbehandling för ärr som orsakats av finnar'
       ),
       new Service(
-            id: 'arr-fran-finnar-kemisk-peeling',
             title: 'Kemisk Peeling för Ärr från Finnar',
             duration: '30 min',
             price: '1995 kr',
@@ -296,7 +293,6 @@ $services = array(
             url_title: 'Klicka här för att läsa mer om kemisk peeling för ärr orsakade av finnar'
       ),
       new Service(
-            id: 'arr-fran-finnar-microneedling',
             title: 'Microneedling för Ärr från Finnar',
             duration: '60 min',
             price: '2995 kr',
