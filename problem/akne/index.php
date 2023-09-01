@@ -886,7 +886,7 @@ $skin_guide_articles = array(
             image_large: 'https://via.placeholder.com/872x456.jpg',
             image_alt: 'Hormones effect',
             image_title: 'Hormones effect',
-            
+
             url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
             url_title: 'How hormones effect?',
 
@@ -965,7 +965,7 @@ $related_problems = array(
             image: 'images/problems/102x102/acnearr.webp',
             image_alt: 'Bild som visar acneärr, en typ av hudproblem som ofta följer efter akne',
             image_title: 'Acneärr - en vanlig följd av akne',
-            url: 'problem/acnearr',
+            url: '/problem/acnearr',
             url_title: 'Acneärr'
       ),
       new RelatedProblem(
