@@ -675,6 +675,7 @@ $results = array(
             image_after_large: 'https://via.placeholder.com/424x424.webm',
             image_alt: 'Resultat',
             image_title: 'Resultat',
+
             treatment: new ResultTreatment(
                   duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne"">behandlingar mot akne</a>'
             ),
@@ -686,6 +687,7 @@ $results = array(
             image_after_large: 'https://via.placeholder.com/424x424.webm',
             image_alt: 'Resultat',
             image_title: 'Resultat',
+
             treatment: new ResultTreatment(
                   duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne">behandlingar mot akne</a>',
             )
@@ -702,25 +704,26 @@ $reviews = array(
             title: 'Supernöjd',
             text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
             signature: 'Sofia',
-            stars: 5,
+            stars: 5,            
             logo_url: 'images/brands/trustpilot.svg'
 
       ),
       new Review(
-            stars: 5,
             brand: 'Google',
-            logo_url: 'images/brands/google-small.svg',
             title: 'Jag är mycket nöjd..',
             text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och aknen är betydligt mildare",
-            signature: 'Lovisa'
+            signature: 'Lovisa',
+            stars: 5,
+            logo_url: 'images/brands/google-small.svg'
+
       ),
       new Review(
-            stars: 5,
             brand: 'Bokadirekt',
-            logo_url: 'images/brands/bokadirekt-small.svg',
             title: 'Rekommenderar varmt!',
             text: "Det enda som fungerat mot min akne med synliga resultat. Jättetrevlig och kunnig behandlare!",
-            signature: 'Emily'
+            signature: 'Emily',
+            stars: 5,
+            logo_url: 'images/brands/bokadirekt-small.svg'
       ),
 
 );
