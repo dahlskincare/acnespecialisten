@@ -137,7 +137,6 @@ $types_title = 'Olika typer av rosacea';
 
 $type_categories = array(
       new BasedTypeCategory(
-            id: 'category-severity',
             title: 'Rosacea baserat på svårighetsgrad',
             content: '<p class="p200">Rosacea är ett hudtillstånd som varierar kraftigt i svårighetsgrad mellan olika individer. Hudtillståndet, som vanligtvis manifesterar sig som rodnad och synliga blodkärl i ansiktet, kan också leda till små, röda, pusfyllda blåsor eller knölar i värre fall. Rosacea klassificeras vanligtvis i fyra olika subtyper baserat på dess symptom och svårighetsgrad.</p>',
             types: array(
@@ -168,7 +167,6 @@ $type_categories = array(
             )
       ),
       new BasedTypeCategory(
-            id: 'category-reason',
             title: 'Yttre faktorer som förvärrar rosacea',
             content: '<p class="p200">Rosacea kan förvärras eller till och med utlösas av en rad yttre faktorer. Genom att förstå och hantera dessa faktorer kan individer potentiellt minska frekvensen och svårighetsgraden av deras rosacea-utbrott.</p>',
             types: array(
@@ -905,7 +903,7 @@ $brands_url_title = "Varumärken för Rosaceabehandling";
                                                 <?php } ?>
                                           </div>
                                           <?php foreach ($type_categories as $type_category) { ?>
-                                                <div class="type-category" id="<?php echo $type_category->id ?>">
+                                                <div class="type-category">
                                                       <h3 class="h300"><?php echo $type_category->title ?></h3>
                                                       <div class="mt-xxs type-category-content"><?php echo $type_category->content ?></div>
                                                       <div class="type-category-cards">
@@ -918,7 +916,7 @@ $brands_url_title = "Varumärken för Rosaceabehandling";
                                     </div>
                                     <div class="is-hidden-mobile">
                                           <?php foreach ($type_categories as $type_category) { ?>
-                                                <div class="type-category-large" id="<?php echo $type_category->id ?>">
+                                                <div class="type-category-large">
                                                       <h3 class="h300"><?php echo $type_category->title ?></h3>
                                                       <div class="mt-xxs type-category-content"><?php echo $type_category->content ?></div>
                                                       <div class="columns is-3 is-variable is-multiline type-category-large-cards">

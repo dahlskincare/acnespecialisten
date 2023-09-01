@@ -133,7 +133,6 @@ $types_title = 'Olika typer av Pigmentfläckar';
 
 $type_categories = array(
       new BasedTypeCategory(
-            id: 'category-age',
             title: 'Pigmentfläckar baserat på orsak',
             content: '<p class="p200">Pigmentfläckar kan orsakas av en mängd yttre faktorer som solens UV-strålning, hormonella förändringar, åldrande, miljöfaktorer och yttre skador på huden. Långvarig exponering för solen utan skydd, till exempel, kan öka melaninproduktionen och leda till fläckar, medan hormonella förändringar som graviditet kan ge temporär pigmentering. Förståelsen för dessa faktorer är avgörande för effektiv förebyggande och behandling av pigmentfläckar.</p>',
             types: array(
@@ -181,7 +180,6 @@ $type_categories = array(
             )
       ),
       new BasedTypeCategory(
-            id: 'category-severity',
             title: 'Pigmentfläckar baserat på Färg',
             content: '<p class="p200">Färgen på en pigmentfläck kan avslöja mycket om dess orsak och typ. Bruna fläckar är ofta kopplade till åldersrelaterade förändringar och solskador, medan röda eller rosa kan indikera inflammation. Svarta eller mörkbruna fläckar kan vara mer allvarliga och kräver professionell bedömning. Blå eller grå fläckar är oftast medfödda och specifika för vissa hudtyper. Varje färg ger ledtrådar som kan hjälpa i diagnostisering och behandling.</p>',
             types: array(
@@ -229,7 +227,6 @@ $type_categories = array(
       ),
 
       new BasedTypeCategory(
-            id: 'category-area',
             title: 'Pigmentfläckar baserat på område',
             content: '<p class="p200">Pigmentfläckar kan uppstå på olika delar av kroppen, inklusive ansiktet, händerna och resten av kroppen. Platsen kan ibland ge insikt i orsaken; till exempel, fläckar på händer och ansikte är ofta kopplade till solskador eftersom dessa områden är mest utsatta för solen. Pigmentfläckar på kroppen kan vara mer relaterade till åldrande eller hormonella förändringar. Bedömning av pigmentfläckar baserat på område hjälper till att förstå underliggande faktorer och ger riktning för skräddarsydd behandling.</p>',
             types: array(
@@ -880,7 +877,7 @@ $brands_url_title = "Varumärken för ärr";
                                                 <?php } ?>
                                           </div>
                                           <?php foreach ($type_categories as $type_category) { ?>
-                                                <div class="type-category" id="<?php echo $type_category->id ?>">
+                                                <div class="type-category">
                                                       <h3 class="h300"><?php echo $type_category->title ?></h3>
                                                       <div class="mt-xxs type-category-content"><?php echo $type_category->content ?></div>
                                                       <div class="type-category-cards">
@@ -893,7 +890,7 @@ $brands_url_title = "Varumärken för ärr";
                                     </div>
                                     <div class="is-hidden-mobile">
                                           <?php foreach ($type_categories as $type_category) { ?>
-                                                <div class="type-category-large" id="<?php echo $type_category->id ?>">
+                                                <div class="type-category-large">
                                                       <h3 class="h300"><?php echo $type_category->title ?></h3>
                                                       <div class="mt-xxs type-category-content"><?php echo $type_category->content ?></div>
                                                       <div class="columns is-3 is-variable is-multiline type-category-large-cards">

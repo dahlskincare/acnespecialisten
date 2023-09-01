@@ -144,7 +144,6 @@ $types_title = 'Olika typer av Finnar';
 
 $type_categories = array(
       new BasedTypeCategory(
-            id: 'category-age',
             title: 'Finnar baserat på ålder',
             content: '<p class="p200">Finnar är inte begränsade till en viss ålder och kan påverka både unga och vuxna. Tonårsfinnar är vanliga och orsakas ofta av hormonella förändringar under puberteten. Men även som vuxen kan man drabbas, och det kan relateras till olika faktorer såsom stress, kost och livsstil. Det är essentiellt att förstå att finnar kan påverka personer i olika skeden av livet.</p>',
             types: array(
@@ -172,7 +171,6 @@ $type_categories = array(
       ),
 
       new BasedTypeCategory(
-            id: 'category-reason',
             title: 'Finnar baserat på yttre faktorer',
             content: '<p class="p200">Externa faktorer kan kraftigt påverka uppkomsten av finnar. Sådana faktorer kan vara solens strålar, friktion mot huden, användning av kosmetika, vissa läkemedel och miljöpåverkan. Dessa kan bidra till utvecklingen eller förvärringen av finnar genom att irritera huden, täppa till porerna eller rubba hudens talgproduktion.</p>',
             types: array(
@@ -271,7 +269,6 @@ $type_categories = array(
       ),
 
       new BasedTypeCategory(
-            id: 'category-area',
             title: 'Finnar baserat på område',
             content: '<p class="p200">Finnar kan framträda på olika delar av kroppen. Ansiktet är det vanligaste området, men finnar kan också uppstå på bröstet, ryggen, axlarna och andra delar av kroppen. Finnarnas placering kan ge en indikation på underliggande orsaker, såsom hormonella förändringar, irritation från kläder eller externa faktorer som sol och friktion.</p>',
             types: array(
@@ -1040,7 +1037,7 @@ $brands_url_title = "Varumärken för Aknebehandling";
                                                 <?php } ?>
                                           </div>
                                           <?php foreach ($type_categories as $type_category) { ?>
-                                                <div class="type-category" id="<?php echo $type_category->id ?>">
+                                                <div class="type-category">
                                                       <h3 class="h300"><?php echo $type_category->title ?></h3>
                                                       <div class="mt-xxs type-category-content"><?php echo $type_category->content ?></div>
                                                       <div class="type-category-cards">
@@ -1053,7 +1050,7 @@ $brands_url_title = "Varumärken för Aknebehandling";
                                     </div>
                                     <div class="is-hidden-mobile">
                                           <?php foreach ($type_categories as $type_category) { ?>
-                                                <div class="type-category-large" id="<?php echo $type_category->id ?>">
+                                                <div class="type-category-large">
                                                       <h3 class="h300"><?php echo $type_category->title ?></h3>
                                                       <div class="mt-xxs type-category-content"><?php echo $type_category->content ?></div>
                                                       <div class="columns is-3 is-variable is-multiline type-category-large-cards">

@@ -143,7 +143,6 @@ $types_title = 'Olika typer av akne';
 
 $type_categories = array(
       new BasedTypeCategory(
-            id: 'category-age',
             title: 'Akne baserat på ålder',
             content: '<p class="p200">Akne är en hudåkomma som kan drabba både ungdomar och vuxna, även om det är vanligast under tonåren. Tonårsakne uppstår ofta på grund av hormonella förändringar under puberteten. Vuxenakne förekommer också, och det kan bero på en rad olika faktorer. Hos vuxna kan akne orsakas av faktorer som stress, hormonobalans och genetik. Oavsett ålder är det viktigt att förstå att akne kan påverka människor i alla livsstadier.</p>',
             types: array(
@@ -181,7 +180,6 @@ $type_categories = array(
             )
       ),
       new BasedTypeCategory(
-            id: 'category-severity',
             title: 'Akne baserat på svårighetsgrad',
             content: '<p class="p200">Akne kan variera i svårighetsgrad från milda till extremt allvarliga fall. I milda fall av akne är symptomen ofta mindre uttalade och består främst av pormaskar, medan mer allvarliga fall innefattar djupare inflammationer i form av cystor och noduler. Svårighetsgraden påverkar också hur akne påverkar en persons livskvalitet och hur den ska behandlas. Det är viktigt att diagnostisera och behandla akne utifrån dess svårighetsgrad för att säkerställa bästa möjliga behandlingsresultat och förhindra potentiella ärr och bestående skador på huden.</p>',
             types: array(
@@ -228,7 +226,6 @@ $type_categories = array(
             )
       ),
       new BasedTypeCategory(
-            id: 'category-reason',
             title: 'Akne baserat på yttre faktorer',
             content: '<p class="p200">Yttre faktorer kan också påverka uppkomsten av akne. Exempel på dessa är sol, friktion, kosmetika, mediciner och miljöfaktorer. Dessa kan bidra till eller förvärra akne genom att irritera huden, täppa till porer eller påverka hudens talgproduktion.</p>',
             types: array(
@@ -315,7 +312,6 @@ $type_categories = array(
             )
       ),
       new BasedTypeCategory(
-            id: 'category-area',
             title: 'Akne baserat på område',
             content: '<p class="p200">Akne kan uppträda på olika områden på kroppen. Ansiktet är det vanligaste området, men akne kan också förekomma på bröst, rygg, axlar och andra delar av kroppen. Placeringen av akne kan ge en indikation på dess orsak, som hormonella förändringar, irritation från kläder eller yttre faktorer som sol och friktion.</p>',
             types: array(
@@ -1078,7 +1074,7 @@ $brands = array(
                                                 <?php } ?>
                                           </div>
                                           <?php foreach ($type_categories as $type_category) { ?>
-                                                <div class="type-category" id="<?php echo $type_category->id ?>">
+                                                <div class="type-category">
                                                       <h3 class="h300"><?php echo $type_category->title ?></h3>
                                                       <div class="mt-xxs type-category-content"><?php echo $type_category->content ?></div>
                                                       <div class="type-category-cards">
@@ -1091,7 +1087,7 @@ $brands = array(
                                     </div>
                                     <div class="is-hidden-mobile">
                                           <?php foreach ($type_categories as $type_category) { ?>
-                                                <div class="type-category-large" id="<?php echo $type_category->id ?>">
+                                                <div class="type-category-large">
                                                       <h3 class="h300"><?php echo $type_category->title ?></h3>
                                                       <div class="mt-xxs type-category-content"><?php echo $type_category->content ?></div>
                                                       <div class="columns is-3 is-variable is-multiline type-category-large-cards">

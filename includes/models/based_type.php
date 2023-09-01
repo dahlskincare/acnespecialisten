@@ -2,15 +2,13 @@
 
 class BasedTypeCategory
 {
-    public function __construct($id, $title, $content, $types)
+    public function __construct($title, $content, $types)
     {
-        $this->id = $id;
         $this->title = $title;
         $this->content = $content;
         $this->types = $types;
     }
 
-    public string $id;
     public string $title;
     public string $content;
     public array $types;
