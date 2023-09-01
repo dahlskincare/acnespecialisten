@@ -62,7 +62,7 @@ if (isset($_GET['page']) && $_GET['page'] > 0) {
 $results_per_page = array(
     1 => array(
         new ResultCustomer(
-            id: '1',
+            url: 'resultat/details-1',
             image_before_small: 'https://via.placeholder.com/178x238.webm',
             image_after_small: 'https://via.placeholder.com/178x238.webm',
             image_before_large: 'https://via.placeholder.com/372x496.webm',
@@ -94,7 +94,7 @@ $results_per_page = array(
             )
         ),
         new ResultCustomer(
-            id: '2',
+            url: 'resultat/details-1',
             image_before_small: 'https://via.placeholder.com/178x238.webm',
             image_after_small: 'https://via.placeholder.com/178x238.webm',
             image_before_large: 'https://via.placeholder.com/372x496.webm',
@@ -128,7 +128,7 @@ $results_per_page = array(
     ),
     2 => array(
         new ResultCustomer(
-            id: '3',
+            url: 'resultat/details-1',
             image_before_small: 'https://via.placeholder.com/178x238.webm',
             image_after_small: 'https://via.placeholder.com/178x238.webm',
             image_before_large: 'https://via.placeholder.com/372x496.webm',
@@ -162,7 +162,7 @@ $results_per_page = array(
     ),
     3 => array(
         new ResultCustomer(
-            id: '4',
+            url: 'resultat/details-1',
             image_before_small: 'https://via.placeholder.com/178x238.webm',
             image_after_small: 'https://via.placeholder.com/178x238.webm',
             image_before_large: 'https://via.placeholder.com/372x496.webm',

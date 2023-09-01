@@ -381,7 +381,6 @@ $symptoms = array(
 $headline01 = "01. Identifiera dina finnar";
 
 $service = new Service(
-      id: 'finnar',
       title: 'Konsultation',
       duration: '20 min',
       price: 'Kostnadsfri',
@@ -406,7 +405,6 @@ $headline02 = "02. Behandla dina finnar";
 
 $services = array(
       new Service(
-            id: 'ansiktsbehandling-finnar',
             title: 'Ansiktsbehandling mot finnar',
             duration: '60 min',
             price: '995 kr',
@@ -426,7 +424,6 @@ $services = array(
             url_title: 'Klicka här för att läsa mer om ansiktsbehandling mot finnar'
       ),
       new Service(
-            id: 'laser-finnar',
             title: 'Laserbehandling mot finnar',
             duration: '50 min',
             price: '3595 kr',
@@ -446,7 +443,6 @@ $services = array(
             url_title: 'Läs mer om vår effektiva laserbehandling mot finnar'
       ),
       new Service(
-            id: 'kemisk-peeling-finnar',
             title: 'Kemisk peeling mot finnar',
             duration: '30 min',
             price: '1595 kr',
@@ -467,7 +463,6 @@ $services = array(
       ),
 
       new Service(
-            id: 'microneedling-finnar',
             title: 'Microneedling mot finnar',
             duration: '50 min',
             price: '2595 kr',
@@ -494,7 +489,6 @@ $headline03 = "03. Förebygg uppkomsten av nya finnar";
 
 $products = array(
       new Service(
-            id: 'produkter-mot-finnar',
             title: 'Produkter mot finnar',
             duration: null,
             price: 'Pris från 1495 kr',
@@ -520,7 +514,6 @@ $headline04 = "04. Reparera ärr från finnar";
 
 $procedures = array(
       new Service(
-            id: 'microneedling-for-scars',
             title: 'Reparera ärr efter finnar',
             duration: '4 behandlingsmetoder',
             price: null,
@@ -565,7 +558,7 @@ $articles = array(
 
 $results = array(
       new ResultCustomer(
-            id: '1',
+            url: 'resultat/details-1',
             image_before_small: 'https://via.placeholder.com/358x358.webm',
             image_after_small: 'https://via.placeholder.com/358x358.webm',
             image_before_large: 'https://via.placeholder.com/424x424.webm',
@@ -582,7 +575,7 @@ $results = array(
             )
       ),
       new ResultCustomer(
-            id: '2',
+            url: 'resultat/details-1',
             image_before_small: 'https://via.placeholder.com/358x358.webm',
             image_after_small: 'https://via.placeholder.com/358x358.webm',
             image_before_large: 'https://via.placeholder.com/424x424.webm',

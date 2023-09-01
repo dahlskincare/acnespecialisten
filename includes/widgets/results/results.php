@@ -10,7 +10,7 @@ if (!isset($show_all_results_label)) {
 if (!isset($results)) {
     $results = array(
         new ResultCustomer(
-            id: '1',
+            url: 'resultat/details-1',
             image_before_small: 'https://via.placeholder.com/358x358.webm',
             image_after_small: 'https://via.placeholder.com/358x358.webm',
             image_before_large: 'https://via.placeholder.com/424x424.webm',
@@ -42,7 +42,7 @@ if (!isset($results)) {
             )
         ),
         new ResultCustomer(
-            id: '2',
+            url: 'resultat/details-1',
             image_before_small: 'https://via.placeholder.com/358x358.webm',
             image_after_small: 'https://via.placeholder.com/358x358.webm',
             image_before_large: 'https://via.placeholder.com/424x424.webm',
@@ -74,7 +74,7 @@ if (!isset($results)) {
             )
         ),
         new ResultCustomer(
-            id: '3',
+            url: 'resultat/details-1',
             image_before_small: 'https://via.placeholder.com/358x358.webm',
             image_after_small: 'https://via.placeholder.com/358x358.webm',
             image_before_large: 'https://via.placeholder.com/424x424.webm',

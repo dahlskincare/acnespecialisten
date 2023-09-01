@@ -25,9 +25,9 @@ class ResultCustomer
      * @param ResultImages $before_images
      * @param ResultImages $after_images
      */
-    public function __construct($id, $url_title, $image_before_small, $image_after_small, $image_before_large, $image_after_large, $image_alt, $image_title, $age, $gender, $problem, $type, $treatment, $before_images = null, $after_images = null)
+    public function __construct($url, $url_title, $image_before_small, $image_after_small, $image_before_large, $image_after_large, $image_alt, $image_title, $age, $gender, $problem, $type, $treatment, $before_images = null, $after_images = null)
     {
-        $this->id = $id;
+        $this->url = $url;
         $this->url_title = $url_title;
         $this->slider_image_before_small = $image_before_small;
         $this->slider_image_after_small = $image_after_small;
@@ -44,7 +44,7 @@ class ResultCustomer
         $this->after_images = $after_images;
     }
 
-    public int $id;
+    public string $url;
     public string $url_title;
     public string $slider_image_before_small;
     public string $slider_image_after_small;

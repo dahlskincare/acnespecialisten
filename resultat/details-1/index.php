@@ -49,7 +49,7 @@
     );
 
     $result = new ResultCustomer(
-        id: '4',
+        url: 'resultat/details-1',
         image_before_small: 'https://via.placeholder.com/175x235.webm',
         image_after_small: 'https://via.placeholder.com/175x235.webm',
         image_before_large: 'https://via.placeholder.com/296x394.webm',
