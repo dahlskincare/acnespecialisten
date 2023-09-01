@@ -182,9 +182,9 @@ $symptoms = array(
             image_title: 'Öppna komedoner (pormaskar)'
       ),
       new Symptom(
-            name: 'Stängda komedoner',
-            aka: 'Kända som "whiteheads"',
-            content: 'Whiteheads (slutna komedoner) är små, vita eller hudfärgade utbuktningar som uppstår när en por täpps till av talg och döda hudceller under hudytan. De är täckta av ett tunt lager hud, vilket förhindrar oxidation och därmed behåller sin ljusa färg. Whiteheads kan vara platta eller lätt upphöjda och är vanligt förekommande på pannan, kinderna och hakan.',
+            name: 'Torr hy',
+            aka: null,
+            content: 'Medan T-zonen kan vara oljig, kan kinderna antingen vara torra eller ha en normal konsistens.',
 
             url_label: 'Läs mer om stängda komedoner',
             url: 'problem/akne/typer/atrophic-icepick-scars',
