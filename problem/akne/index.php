@@ -669,39 +669,23 @@ $articles = array(
 
 $results = array(
       new ResultCustomer(
-            url: 'resultat/details-1',
-            problem: 'Akne',
-            type: 'Severe',
-            gender: 'Female',
-            age: 18,
+            image_before_small: 'https://via.placeholder.com/358x358.webm',
+            image_after_small: 'https://via.placeholder.com/358x358.webm',
+            image_before_large: 'https://via.placeholder.com/424x424.webm',
+            image_after_large: 'https://via.placeholder.com/424x424.webm',
+            image_alt: 'Resultat',
+            image_title: 'Resultat',
             treatment: new ResultTreatment(
                   duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne"">behandlingar mot akne</a>'
             ),
-
-            image_before_small: 'https://via.placeholder.com/358x358.webm',
-            image_after_small: 'https://via.placeholder.com/358x358.webm',
-
-            image_before_large: 'https://via.placeholder.com/424x424.webm',
-            image_after_large: 'https://via.placeholder.com/424x424.webm',
-
-            url_title: 'Resultat',
-
-            image_alt: 'Resultat',
-            image_title: 'Resultat',
       ),
       new ResultCustomer(
-            url: 'resultat/details-1',
             image_before_small: 'https://via.placeholder.com/358x358.webm',
             image_after_small: 'https://via.placeholder.com/358x358.webm',
             image_before_large: 'https://via.placeholder.com/424x424.webm',
             image_after_large: 'https://via.placeholder.com/424x424.webm',
-            url_title: 'Resultat',
             image_alt: 'Resultat',
             image_title: 'Resultat',
-            age: 18,
-            gender: 'Female',
-            problem: 'Akne',
-            type: 'Severe',
             treatment: new ResultTreatment(
                   duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne">behandlingar mot akne</a>',
             )
