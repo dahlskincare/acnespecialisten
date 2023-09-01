@@ -129,38 +129,39 @@ new ProblemTrivia(
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din aknetyp och skapar en individuell behandlingsplan.',
+            content: 'Vid din första konsultation hos AcneSpecialisten bedömer en hudterapeut din hud och identifierar tecknen på blandhy. Genom att förstå din unika kombination av oljiga och torra zoner kan vi skräddarsy en behandlingsplan just för dig.',
 
-            url_label: 'Få gratis konsultation',
+            url_label: 'Boka konsultation',
             url: 'hudkonsultation',
-            url_title: 'Boka din kostnadsfria hudkonsultation idag'
+            url_title: 'Boka din gratis konsultation för blandhy idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika aknetyp, så att du snabbt och säkert blir av med problemet.',
+            content: 'Oavsett om det är oljiga fläckar, torrhet eller båda, erbjuder vi specialiserade behandlingar som tar itu med dina specifika problemområden, för att återställa balansen i din hud.',
 
-            url_label: 'Se aknebehandlingar',
-            url: 'behandlingar/akne',
-            url_title: 'Utforska våra skräddarsydda aknebehandlingar'
+            url_label: 'Utforska behandlingar',
+            url: 'behandlingar/blandhy',
+            url_title: 'Ta reda på vilka behandlingar som passar din blandhy'
       ),
       new TreatmentStep(
-            title: 'Förebygga',
-            content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny akne och hålla din hud i balans.',
+            title: 'Produkter för Blandhy',
+            content: 'För att bibehålla resultaten av behandlingarna är det viktigt med rätt hudvård hemma. Vi rekommenderar produkter som är speciellt anpassade för blandhy, som hjälper till att hålla huden hydratiserad och oljebalansen i schack.',
 
             url_label: 'Se produkter',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
-            url_title: 'Hitta de bästa produkterna för att förebygga akne'
+            url: 'https://dahlskincare.se/produktkategorier/produktpaket/blandhy',
+            url_title: 'Bläddra bland våra produkter för blandhy'
       ),
       new TreatmentStep(
             title: 'Reparera',
-            content: 'När aknen är borta fokuserar vi på att reducera eventuella ärr med behandlingsmetoder som laser, microneedling och kemisk peeling för en jämn och problemfri hud.',
+            content: 'Blandhy kan också lämna efter sig oönskade märken som fläckar eller ojämn hudstruktur. Vi erbjuder avancerade behandlingsmetoder för att återställa hudens jämnhet och lyster, som laserterapi, microneedling och specialpeeling.',
 
-            url_label: 'Se ärrbehandlingar',
-            url: 'behandlingar/aknearr',
-            url_title: 'Upptäck effektiva behandlingar för akneärr'
+            url_label: 'Ärrbehandlingar',
+            url: 'behandlingar/blandhyarr',
+            url_title: 'Se våra behandlingsalternativ för ärr orsakade av blandhy'
       ),
 
 );
+
 $treatment_link = '<a href="problem/akne/aknebehandling" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra aknebehandlingar</a>';
 
 $types_title = 'Olika typer av akne';
