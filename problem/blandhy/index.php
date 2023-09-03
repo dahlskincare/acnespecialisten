@@ -75,7 +75,7 @@ $nav_buttons = array(
       'related-problems' => 'Relaterade problem',
 );
 
-$about_title = 'Om akne';
+$about_title = 'Om Blandhy';
 
 $trivias = array(
       new ProblemTrivia(
