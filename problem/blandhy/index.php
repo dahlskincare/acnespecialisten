@@ -28,7 +28,7 @@ $akas = [
             title: 'Allt du behöver veta om finnar och deras behandling'
       ),
       new Link(
-            label: 'Akne',
+            label: 'Vuxenakne',
             url: 'problem/vuxenakne',
             title: 'Utforska orsaker, symptom och behandlingar av vuxenakne'
       ),
@@ -144,7 +144,7 @@ $treatment_steps = array(
             url_title: 'Ta reda på vilka behandlingar som passar din blandhy'
       ),
       new TreatmentStep(
-            title: 'Produkter för Blandhy',
+            title: 'Förebygg',
             content: 'För att bibehålla resultaten av behandlingarna är det viktigt med rätt hudvård hemma. Vi rekommenderar produkter som är speciellt anpassade för blandhy, som hjälper till att hålla huden återfuktad och oljebalansen i schack.',
 
             url_label: 'Se produkter',
