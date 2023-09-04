@@ -83,57 +83,48 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Varför',
             title: 'får man pormaskar?',
-            content: '<p class="p200">Akne är en hudåkomma som beror på en kombination av genetiska, hormonella och miljömässiga faktorer. En normal talgproduktion är nödvändig för att huden ska må bra, men när huden överproducerar talg kan detta leda till akne. Detta beror bland annat på anlag man har ärvt från sina föräldrar. Vid en överproduktion av talg klarar porerna inte av att ta hand om överflödet, och tillsammans med hudrester täpps pormynningarna till, vilket leder till att bakterier samlas. Kroppen försvarar sig då med en inflammation, och det är just detta som syns på huden i form av akne.</p>',
-            extended_content: '<p class="p200 mt-xl">Hormoner får porerna i huden att överproducera talg. Det är vanligt att drabbas av akne under puberteten, när kroppen genomgår stora förändringar, men även små barn och vuxna kan få akne. Flera faktorer kan orsaka och försämra akne, såsom stress, vissa läkemedel, varma och fuktiga miljöer samt hormonförändringar vid graviditet, menstruation och klimakteriet. Även anabola steroider och p-piller kan orsaka akne. Stress påverkar ofta huden mer än vi kanske tror, och både stora och små händelser i livet kan öka kroppens stressnivå och orsaka hudförändringar i form av hormonell akne.</p>
-            <p class="p200 mt-xl">För att behandla akne är det viktigt att balansera kroppens talgproduktion med rätt hudvårdsprodukter och hållbara hudvårdsrutiner. Successivt kan aknen antingen bli mycket bättre eller helt försvinna. Vi som arbetar på Acnespecialisten har lång erfarenhet och stor kunskap av aknebehandlingar och kan hjälpa dig att hålla kroppens naturliga produktion av talg på en optimal nivå och på så sätt reducera dina besvär med akne.</p>',
+            content: '<p class="p200">Pormaskar beror på flera olika faktorer som bidrar till deras bildning. En av de främsta orsakerna är överproduktion av talg, som är hudens naturliga olja. Talgkörtlar som blir överaktiva kan leda till en ansamling av olja på hudytan, och när denna olja kombineras med döda hudceller, smuts eller makeup, kan porerna lätt blockeras. Hormonella förändringar är en annan kritisk faktor i bildningen av pormaskar. Under puberteten upplever nästan alla någon form av hudproblem, inklusive pormaskar, på grund av ökade nivåer av androgener som stimulerar talgkörtlar. Detta är inte enbart en ungdomsfråga; många kvinnor upplever även hudproblem under menstruationscykler, graviditet eller menopaus, på grund av hormonella fluktuationer.</p>',
+            extended_content: '<p class="p200 mt-xl">Miljöfaktorer, inklusive klimat och luftkvalitet, kan också spela en roll. Höga nivåer av fuktighet och värme kan stimulera talgproduktionen och skapa en gynnsam miljö för pormaskar. Föroreningar i luften, som tungmetaller och skadliga gaser, kan också bidra till att porer blockeras.</p>',
             icons: array('who-infants' => 'Hormoner', 'who-teenagers' => 'Stress', 'who-adults' => 'Genetik', 'who-elders' => 'Livsstil')
       ),
       new ProblemTrivia(
             prefix: 'Vem',
-            title: 'får akne?',
-            content: '<p class="p200">Akne är vanligast bland tonåringar och unga vuxna, men det kan drabba människor i alla åldrar, oavsett kön och hudtyp. I puberteten ökar produktionen av könshormoner, vilket kan leda till akne vulgaris, även kallad tonårsakne. Denna form av akne kan variera från enstaka finnar till större besvär, med små gula eller röda utslag, stora knölar och smärtsamma blåsor. Eftersom akne oftast uppträder i ansiktet under en känslig period som tonåren, kan det påverka det mentala måendet och det är viktigt att behandla akne effektivt för att undvika ärrbildning och andra skador på huden.</p>',
-            extended_content: '<p class="p200 mt-xl">Akne drabbar inte bara tonåringar. Spädbarn och småbarn kan drabbas av lindriga former av akne, såsom akne neonatorum och akne infantum. Vuxenakne, kallad akne tarda, kan också uppstå om huden överproducerar talg. Kvinnor drabbas oftare av vuxenakne än män, eftersom de påverkas mer av hormonsvängningar under graviditet, mens och klimakteriet. Preventivmedel kan också påverka huden, men hur de påverkar varierar från individ till individ.</p>
-            <p class="p200 mt-xl">Yttre faktorer som stress och alkohol kan också påverka akne, både hos tonåringar och vuxna. Akne kan uppstå i ansiktet, på bröstet, axlarna och ryggen. För att behandla akne rekommenderas att boka en kostnadsfri hudkonsultation hos Acnespecialisten. Där görs en bedömning av din hud och du får förslag på behandlingar samt en personlig hudvårdsrutin anpassad efter din hudtyp. Detta hjälper dig att motverka ytterligare problem med akne, både i ansiktet och på andra delar av kroppen.</p>',
+            title: 'får pormaskar?',
+            content: '<p class="p200">Det är en vanlig missuppfattning att pormaskar endast drabbar tonåringar eller personer med fet hud. I verkligheten är det en hudåkomma som kan påverka personer i alla åldrar och hudtyper. Här är en djupgående titt på de olika grupperna som är mest benägna att utveckla pormaskar. För det första är ungdomar i puberteten särskilt utsatta. Hormonella förändringar under dessa formella år leder ofta till överaktiv talgproduktion, vilket i sin tur kan bidra till pormaskar. Även om det kan verka som att pormaskar försvinner med åldern, är det inte alltid fallet. Vuxna, särskilt de i åldrarna 30 till 50, kan också uppleva pormaskar, ofta som ett resultat av hormonella förändringar relaterade till menstruation, graviditet eller menopaus.</p>',
+            extended_content: '<p class="p200 mt-xl">Personer med fet hud är mer benägna att utveckla pormaskar eftersom deras talgkörtlar producerar mer olja, men även de med kombinationshud eller till och med torr hud kan drabbas. Detta beror på att även torr hud kan bli blockerad av döda hudceller eller externa föroreningar. Ärftlighet spelar också en roll. Om dina föräldrar eller syskon har eller har haft pormaskar eller andra former av akne, är chansen större att du också kommer att drabbas.</p>
+            <p class="p200 mt-xl">Slutligen, stress kan vara utlösande faktorer för många människor. När man är stressad, producerar kroppen mer androgener, vilka är hormoner som stimulerar talgkörtlarna och hårsäckarna i huden, vilket kan leda till pormaskar. Sammanfattningsvis är pormaskar ett mycket vanligt hudproblem som kan drabba nästan vem som helst, oberoende av ålder, kön, hudtyp eller livsstil. Emellertid är vissa grupper mer benägna än andra på grund av en rad olika faktorer, inklusive hormonella förändringar, arbetsmiljö, genetik och livsstilsval.</p>',
             icons: array('who-infants' => 'Barn', 'who-teenagers' => 'Ungdommar', 'who-adults' => 'Vuxna', 'who-elders' => 'Män & Kvinnor')
       ),
       new ProblemTrivia(
             prefix: 'Var',
-            title: 'får man akne?',
-            content: '<p class="p200">Akne kan uppstå på flera delar av kroppen och påverka personer i olika åldrar och med olika hudtyper. Vanligast är att akne drabbar ansiktet, men det kan även förekomma på andra områden som bröstet, axlarna och ryggen. Placeringen av akne beror på var talgkörtlarna är aktiva och därmed kan överproducera talg, vilket leder till tilltäppta porer och inflammationer i huden.</p>',
-            extended_content: '<p class="p200 mt-xl">Akne i ansiktet är särskilt påtagligt, eftersom det är svårt att dölja och ofta påverkar en persons självkänsla och mentala välbefinnande. Det är vanligt att tonåringar drabbas av ansiktsakne under puberteten, då hormonella förändringar kan leda till ökad talgproduktion. Även vuxna kan drabbas av ansiktsakne, särskilt kvinnor som genomgår hormonella förändringar under graviditet, mens och klimakteriet.</p>
-            <p class="p200 mt-xl">Akne på bröstet, axlarna och ryggen är också vanligt och kan vara lika besvärande som ansiktsakne, även om det är lättare att dölja under kläder. Denna typ av akne kan orsakas av samma faktorer som ansiktsakne, men även av yttre faktorer som friktion från kläder eller väskor som gnider mot huden och skapar irritation.
-                  För att behandla och förebygga akne oavsett var på kroppen det uppstår, är det viktigt att följa en anpassad hudvårdsrutin, inklusive rengöring, återfuktning och eventuellt användning av aknebehandlingar som passar din hudtyp. Konsultera hos en av våra hudspecialister för att få råd om vilka produkter och behandlingar som är bäst lämpade för din specifika situation och för att minimera akneproblem på olika delar av kroppen.</p>',
+            title: 'får man pormaskar?',
+            content: '<p class="p200">Pormaskar uppstår oftast i ansiktet, särskilt i områden som näsan och pannan, men det är inte den enda platsen där de kan förekomma. Här är en djupgående översikt över de olika områdena på kroppen där pormaskar vanligtvis kan utvecklas. Den mest kända zonen för pormaskar är T-zonen i ansiktet, som inkluderar pannan, näsan och hakan. Detta område har en högre koncentration av talgkörtlar, vilket gör det till en idealisk plats för pormaskar att utvecklas. Många människor upplever också pormaskar på kinderna, även om de är mindre vanliga där.</p>',
+            extended_content: '<p class="p200 mt-xl">Förutom ansiktet kan pormaskar också förekomma på ryggen, bröstet och axlarna. Dessa områden är också rika på talgkörtlar och är ofta utsatta för svett, vilket kan leda till blockering av porerna. Särskilt för personer som tränar mycket eller bär tighta kläder som inte låter huden andas, kan dessa områden vara problematiska. Pormaskar kan även dyka upp på oväntade ställen som öronen, nacken eller till och med på armarna. I dessa fall kan faktorer som dålig hygien, ansamling av döda hudceller eller användning av oljebaserade hudprodukter vara utlösande faktorer.</p>
+            <p class="p200 mt-xl">Intressant nog kan även livsstilsval och vanor påverka var pormaskar uppträder. Till exempel kan personer som ofta använder huvudbonader som kepsar och bandanas märka att de får fler pormaskar på pannan eller runt hårlinjen. Likaså kan de som ofta talar i telefon eller använder hörlurar uppleva en ökning av pormaskar där huden kommer i kontakt med enheten. Ett annat område som inte bör ignoreras är nacken, särskilt om man ofta har långt hår eller bär kläder som är strama runt detta område. Håroljor och produkter kan komma i kontakt med huden och blockera porerna, vilket kan leda till utveckling av pormaskar.</p>',
             icons: array('who-infants' => 'Ansiktet', 'who-teenagers' => 'Ryggen', 'who-adults' => 'Bröstet', 'who-elders' => 'Axlarna')
       ),
 );
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din aknetyp och skapar en individuell behandlingsplan.',
+            content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera dina pormaskar och skapar en individuell behandlingsplan.',
             url: 'hudkonsultation',
             url_label: 'Få gratis konsultation',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika aknetyp, så att du snabbt och säkert blir av med problemet.',
+            content: 'Vi utför skonsamma och effektiva portömning anpassade för dina pormaskar, så att du snabbt och säkert blir av med problemet.',
             url: 'behandlingar/pormaskar',
-            url_label: 'Se aknebehandlingar',
-            url_title: 'Utforska våra skräddarsydda aknebehandlingar'
+            url_label: 'Se portömning',
+            url_title: 'Utforska våra skräddarsydda portömning'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny akne och hålla din hud i balans.',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
+            content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga nya pormaskar och hålla din hud i balans.',
+            url: 'https://dahlskincare.se/produktkategorier/produktpaket/pormaskar',
             url_label: 'Se produkter',
-            url_title: 'Hitta de bästa produkterna för att förebygga akne'
-      ),
-      new TreatmentStep(
-            title: 'Reparera',
-            content: 'När aknen är borta fokuserar vi på att reducera eventuella ärr med behandlingsmetoder som laser, microneedling och kemisk peeling för en jämn och problemfri hud.',
-            url: 'behandlingar/aknearr',
-            url_label: 'Se ärrbehandlingar',
-            url_title: 'Upptäck effektiva behandlingar för akneärr'
+            url_title: 'Hitta de bästa produkterna för att förebygga pormaskar'
       ),
 
 );
