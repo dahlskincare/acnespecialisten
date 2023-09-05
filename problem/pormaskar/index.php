@@ -128,84 +128,56 @@ $treatment_steps = array(
       ),
 
 );
-$treatment_link = '<a href="problem/pormaskar/behandling" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra aknebehandlingar</a>';
+$treatment_link = '<a href="problem/pormaskar/behandling" title="Utforska effektiv portömning" class="mt-xl button b200 outline expand auto-width">Läs mer om vå portömning</a>';
 
-$types_title = 'Olika typer av akne';
+$types_title = 'Olika typer av pormaskar';
 
 $type_categories = array(
       new BasedTypeCategory(
-            title: 'Akne baserat på ålder',
-            content: '<p class="p200">Akne är en hudåkomma som kan drabba både ungdomar och vuxna, även om det är vanligast under tonåren. Tonårsakne uppstår ofta på grund av hormonella förändringar under puberteten. Vuxenakne förekommer också, och det kan bero på en rad olika faktorer. Hos vuxna kan akne orsakas av faktorer som stress, hormonobalans och genetik. Oavsett ålder är det viktigt att förstå att akne kan påverka människor i alla livsstadier.</p>',
+            title: 'Pormaskar baserat på utseende',
+            content: '<p class="p200">Pormaskar är en typ av akne som kan drabba individer i alla åldrar, från ungdomar till vuxna. Denna hudåkomma uppstår ofta när porer i huden blir tilltäppta. Det finns två huvudtyper av pormaskar: öppna och slutna komedoner. Förståelsen av dessa två typer är viktig för en effektiv behandling och förebyggande.</p>',
             types: array(
                   new BasedType(
-                        title: 'Vuxenakne',
-                        image_url: 'images/problems/102x102/vuxenakne.webp',
-                        image_alt: 'Bild av vuxenakne',
-                        image_title: 'Akne hos vuxna',
-                        subtitle: 'Även kallat acne tarda',
-                        url: 'problem/pormaskar/typer/vuxenakne',
-                        url_title: 'Utforska information om vuxenakne'
+                        image_url: 'images/problems/102x102/svarta-pormaskar.webp',
+                        image_alt: 'Bild av öppna komedoner',
+                        image_title: 'Öppna komedoner eller svarta pormaskar',
+                        title: 'Svarta pormaskar',
+                        subtitle: 'Även kallat öppna komedoner',
                   ),
                   new BasedType(
-                        image_url: 'images/problems/102x102/tonarsakne.webp',
-                        image_alt: 'Bild av tonårsakne',
-                        image_title: 'Akne hos tonåringar',
-                        title: 'Tonårsakne',
-                        subtitle: 'Även kallat acne vulgaris',
-                        url: 'problem/pormaskar/typer/tonårsakne',
-                        url_title: 'Utforska information om tonårsakne'
-                  ),
-                  new BasedType(
-                        image_url: 'images/problems/102x102/barnakne.webp',
-                        image_alt: 'Bild av barnakne',
-                        image_title: 'Akne hos barn',
-                        title: 'Barnakne',
-                        subtitle: 'Även kallat acne neonatorum',
-                        url: 'problem/pormaskar/typer/barnakne',
-                        url_title: 'Utforska information om barnakne'
+                        image_url: 'images/problems/102x102/vita-pormaskar.webp',
+                        image_alt: 'Bild av slutna komedoner',
+                        image_title: 'Slutna komedoner eller vita pormaskar',
+                        title: 'Vita pormaskar',
+                        subtitle: 'Även kallat stängda komedoner',
                   ),
 
             )
       ),
       new BasedTypeCategory(
-            title: 'Akne baserat på svårighetsgrad',
-            content: '<p class="p200">Akne kan variera i svårighetsgrad från milda till extremt allvarliga fall. I milda fall av akne är symptomen ofta mindre uttalade och består främst av pormaskar, medan mer allvarliga fall innefattar djupare inflammationer i form av cystor och noduler. Svårighetsgraden påverkar också hur akne påverkar en persons livskvalitet och hur den ska behandlas. Det är viktigt att diagnostisera och behandla akne utifrån dess svårighetsgrad för att säkerställa bästa möjliga behandlingsresultat och förhindra potentiella ärr och bestående skador på huden.</p>',
+            title: 'Pormaskar baserat på svårighetsgrad',
+            content: '<p class="p200">Pormaskar kan variera i svårighetsgrad från milda till allvarliga fall. I milda fall består problemen oftast av små, ytliga komedoner som är lätta att behandla. Måttliga fall kan inkludera större, mer framträdande pormaskar, medan allvarliga fall innebär stora och ofta inflammerade pormaskar som kan ge upphov till smärta och obehag. Svårighetsgraden påverkar vilken behandlingsmetod som är mest effektiv. Det är viktigt att identifiera och behandla pormaskar utifrån deras svårighetsgrad för att uppnå bästa möjliga resultat och minimera risken för ärr och andra hudskador.</p>',
             types: array(
                   new BasedType(
-                        image_url: 'images/problems/102x102/mild-akne.webp',
-                        image_alt: 'Bild av mild akne',
-                        image_title: 'Mild akne exemplifierad',
-                        title: 'Mild akne',
-                        subtitle: 'även kallat acne comedonica',
-                        url: 'problem/pormaskar/typer/mild-akne',
-                        url_title: 'Utforska mer information om mild akne'
+                        image_url: 'images/problems/102x102/mild-pormaskar.webp',
+                        image_alt: 'Bild av milda pormaskar',
+                        image_title: 'Milda pormaskar eller ytliga komedoner',
+                        title: 'Milda pormaskar',
+                        subtitle: 'Ofta ytliga och lätta att behandla',
                   ),
                   new BasedType(
-                        image_url: 'images/problems/102x102/medelsvar-akne.webp',
-                        image_alt: 'Bild av medelsvår akne',
-                        image_title: 'Medelsvår akne exemplifierad',
-                        title: 'Medelsvår akne',
-                        subtitle: 'Även kallat acne papulopustulosa',
-                        url: 'problem/pormaskar/typer/medel-akne',
-                        url_title: 'Utforska mer information om medelsvår akne'
+                        image_url: 'images/problems/102x102/måttlig-pormaskar.webp',
+                        image_alt: 'Bild av måttliga pormaskar',
+                        image_title: 'Måttliga pormaskar eller något djupare komedoner',
+                        title: 'Måttliga pormaskar',
+                        subtitle: 'Kan vara större och mer framträdande',
                   ),
                   new BasedType(
-                        image_url: 'images/problems/102x102/svar-akne.webp',
-                        image_alt: 'Bild av svår akne',
-                        image_title: 'Svår akne exemplifierad',
-                        title: 'Svår akne',
-                        subtitle: 'Även kallat Acne nodulocystica',
-                        url: 'problem/pormaskar/typer/svar-akne',
-                        url_title: 'Utforska mer information om svår akne'
-                  ),
-                  new BasedType(
-                        image_url: 'images/problems/102x102/mycket-svar-akne.webp',
-                        image_alt: 'Bild av mycket svår akne',
-                        image_title: 'Mycket svår akne exemplifierad',
-                        title: 'Mycket svår akne',
-                        subtitle: 'Även kallat Acne conglobata',
-                        url: 'problem/pormaskar/typer/mycket-svar-akne',
-                        url_title: 'Utforska mer information om mycket svår akne'
+                        image_url: 'images/problems/102x102/allvarlig-pormaskar.webp',
+                        image_alt: 'Bild av allvarliga pormaskar',
+                        image_title: 'Allvarliga pormaskar med inflammation',
+                        title: 'Allvarliga pormaskar',
+                        subtitle: 'Ofta inflammerade och kan ge smärta och obehag',
                   ),
             )
       ),
@@ -231,62 +203,52 @@ $type_categories = array(
                         url: 'problem/pormaskar/typer/hormonell-akne',
                         url_title: 'Utforska mer om hur hormoner kan orsaka akne'
                   ),
-                  new BasedType(
-                        image_url: 'images/problems/102x102/kosmetika-akne.webp',
-                        image_alt: 'Bild av kosmetika akne',
-                        image_title: 'Exempel på kosmetika akne',
-                        title: 'kosmetika akne',
-                        subtitle: 'Även kallat Acne cosmetica',
-                        url: 'problem/pormaskar/typer/kosmetika-akne',
-                        url_title: 'Lär dig mer om hur kosmetika kan orsaka akne'
-                  ),
-                  new BasedType(
-                        image_url: 'images/problems/102x102/pill-akne.webp',
-                        image_alt: 'Bild av pill akne',
-                        image_title: 'Exempel på pill akne',
-                        title: 'Akne från pillande',
-                        subtitle: 'Även kallat Acne exoriée',
-                        url: 'problem/pormaskar/typer/acne-exoriee',
-                        url_title: 'Läs mer om hur pillande kan leda till akne'
-                  ),
-                  new BasedType(
-                        image_url: 'images/problems/102x102/friktions-akne.webp',
-                        image_alt: 'Bild av friktions akne',
-                        image_title: 'Exempel på friktions akne',
-                        title: 'Friktionsakne',
-                        subtitle: 'Även kallat Acne mechanica',
-                        url: 'problem/pormaskar/typer/akne-mekanisk',
-                        url_title: 'Utforska mer om hur friktion kan orsaka akne'
-                  ),
-                  new BasedType(
-                        image_url: 'images/problems/102x102/lakemedelsakne.webp',
-                        image_alt: 'Bild av läkemedelsakne',
-                        image_title: 'Exempel på läkemedelsakne',
-                        title: 'Läkemedelsakne',
-                        subtitle: 'Även kallat Acne medicamentosa',
-                        url: 'problem/pormaskar/typer/lakemedelsakne',
-                        url_title: 'Lär dig mer om hur läkemedel kan orsaka akne'
-                  ),
-                  new BasedType(
-                        image_url: 'images/problems/102x102/kontakt-akne.webp',
-                        image_alt: 'Bild av kontaktakne',
-                        image_title: 'Exempel på kontaktakne',
-                        title: 'Kontaktakne',
-                        subtitle: 'Även kallat Acne venenata',
-                        url: 'problem/pormaskar/typer/kontakt-akne',
-                        url_title: 'Utforska mer om hur direktkontakt kan orsaka akne'
-                  ),
-                  new BasedType(
-                        image_url: 'images/problems/102x102/svamp-akne.webp',
-                        image_alt: 'Bild av svampakne',
-                        image_title: 'Exempel på svampakne',
-                        title: 'Svampakne',
-                        subtitle: 'Även kallat fungal acne',
-                        url: 'problem/pormaskar/typer/fungal-akne',
-                        url_title: 'Lär dig mer om hur svampar kan orsaka akne'
-                  )
             )
       ),
+
+      new BasedTypeCategory(
+            title: 'Pormaskar baserat på yttre faktorer',
+            content: '<p class="p200">Yttre faktorer kan påverka uppkomsten av pormaskar. Genom att förstå och hantera dessa faktorer kan individer potentiellt minska frekvensen och svårighetsgraden av deras pormaskar.</p>',
+            types: array(
+                  new BasedType(
+                        image_url: 'images/problems/102x102/svett.webp',
+                        image_alt: 'Bild av svett',
+                        image_title: 'Svett förvärrar pormaskar',
+                        title: 'Svett',
+                        subtitle: 'Svett kan förvärra pormaskar, särskilt i varmt klimat och under fysisk aktivitet.',
+                  ),
+                  new BasedType(
+                        image_url: 'images/problems/102x102/oregelbunden-rengoring.webp',
+                        image_alt: 'Bild av oregelbunden rengöring',
+                        image_title: 'Oregelbunden rengöring',
+                        title: 'Oregelbunden rengöring',
+                        subtitle: 'Otillräcklig eller felaktig rengöring kan leda till upphopning av döda hudceller och olja, vilket kan orsaka pormaskar.',
+                  ),
+                  new BasedType(
+                        image_url: 'images/problems/102x102/solbranna.webp',
+                        image_alt: 'Bild av solbränna',
+                        image_title: 'Solbränna och solning',
+                        title: 'Solbränna och solning',
+                        subtitle: 'UV-strålar kan förvärra hudproblem och potentiellt förvärra pormaskar.',
+                  ),
+                  new BasedType(
+                        image_url: 'images/problems/102x102/kost.webp',
+                        image_alt: 'Bild av fet mat',
+                        image_title: 'Fet mat och socker',
+                        title: 'Kläder och utrustning',
+                        subtitle: 'Täta hattar, hjälmar och tajta kläder kan leda till svett och olja som kan täppa till porerna.',
+                  ),
+                  new BasedType(
+                        image_url: 'images/problems/102x102/stress.webp',
+                        image_alt: 'Bild av stress',
+                        image_title: 'Stress',
+                        title: 'Stress',
+                        subtitle: 'Även om det är kontroversiellt, tror vissa att stress kan utlösa hormonella förändringar som leder till ökad oljeproduktion och pormaskar.',
+                  ),
+            )
+      ),
+
+
       new BasedTypeCategory(
             title: 'Akne baserat på område',
             content: '<p class="p200">Akne kan uppträda på olika områden på kroppen. Ansiktet är det vanligaste området, men akne kan också förekomma på bröst, rygg, axlar och andra delar av kroppen. Placeringen av akne kan ge en indikation på dess orsak, som hormonella förändringar, irritation från kläder eller yttre faktorer som sol och friktion.</p>',
@@ -320,7 +282,7 @@ $type_categories = array(
                   ),
 
             )
-      )
+      ),
 
 );
 
