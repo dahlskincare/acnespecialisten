@@ -181,30 +181,6 @@ $type_categories = array(
                   ),
             )
       ),
-      new BasedTypeCategory(
-            title: 'Akne baserat på yttre faktorer',
-            content: '<p class="p200">Yttre faktorer kan också påverka uppkomsten av akne. Exempel på dessa är sol, friktion, kosmetika, mediciner och miljöfaktorer. Dessa kan bidra till eller förvärra akne genom att irritera huden, täppa till porer eller påverka hudens talgproduktion.</p>',
-            types: array(
-                  new BasedType(
-                        image_url: 'images/problems/102x102/mallorca-akne.webp',
-                        image_alt: 'Bild av Mallorca akne',
-                        image_title: 'Exempel på Mallorca akne',
-                        title: 'Mallorca akne',
-                        subtitle: 'även kallat Acne aestivalis',
-                        url: 'problem/pormaskar/typer/mallorca-akne',
-                        url_title: 'Läs mer om hur solen kan orsaka Mallorca akne'
-                  ),
-                  new BasedType(
-                        image_url: 'images/problems/102x102/hormonell-akne.webp',
-                        image_alt: 'Bild av hormonell akne',
-                        image_title: 'Exempel på hormonell akne',
-                        title: 'Hormonell akne',
-                        subtitle: 'akne orsakad av hormoner',
-                        url: 'problem/pormaskar/typer/hormonell-akne',
-                        url_title: 'Utforska mer om hur hormoner kan orsaka akne'
-                  ),
-            )
-      ),
 
       new BasedTypeCategory(
             title: 'Pormaskar baserat på yttre faktorer',
@@ -250,130 +226,133 @@ $type_categories = array(
 
 
       new BasedTypeCategory(
-            title: 'Akne baserat på område',
-            content: '<p class="p200">Akne kan uppträda på olika områden på kroppen. Ansiktet är det vanligaste området, men akne kan också förekomma på bröst, rygg, axlar och andra delar av kroppen. Placeringen av akne kan ge en indikation på dess orsak, som hormonella förändringar, irritation från kläder eller yttre faktorer som sol och friktion.</p>',
+            title: 'Pormaskar baserat på område',
+            content: '<p class="p200">Pormaskar kan uppträda på olika områden av kroppen, inte bara i ansiktet. De kan också förekomma på näsan, pannan, hakan, ryggen och bröstet. Placeringen av pormaskar kan ge en indikation på dess orsak, såsom irritation från kläder eller andra yttre faktorer.</p>',
             types: array(
                   new BasedType(
-                        image_url: 'images/problems/102x102/akne-ansikte.webp',
-                        image_alt: 'Bild av akne i ansiktet',
-                        image_title: 'Exempel på akne i ansiktet',
-                        title: 'Akne i ansiktet',
-                        subtitle: 'Även kallat Acne faciei',
-                        url: 'problem/pormaskar/typer/akne-ansiktet',
-                        url_title: 'Läs mer om akne i ansiktet och dess potentiella behandlingar'
+                        image_url: 'images/problems/102x102/pormaskar-ansikte.webp',
+                        image_alt: 'Bild av pormaskar i ansiktet',
+                        image_title: 'Exempel på pormaskar i ansiktet',
+                        title: 'Pormaskar i ansiktet',
+                        subtitle: 'Ofta relaterat till hormonella förändringar',
                   ),
                   new BasedType(
-                        image_url: 'images/problems/102x102/akne-rygg.webp',
-                        image_alt: 'Bild av akne på ryggen',
-                        image_title: 'Exempel på akne på ryggen',
-                        title: 'Akne på ryggen',
-                        subtitle: 'Även kallat Acne dorsalis',
-                        url: 'problem/pormaskar/typer/akne-ryggen',
-                        url_title: 'Läs mer om akne på ryggen och dess potentiella behandlingar'
+                        image_url: 'images/problems/102x102/pormaskar-rygg.webp',
+                        image_alt: 'Bild av pormaskar på ryggen',
+                        image_title: 'Exempel på pormaskar på ryggen',
+                        title: 'Pormaskar på ryggen',
+                        subtitle: 'Kan förvärras av svett och friktion',
                   ),
                   new BasedType(
-                        image_url: 'images/problems/102x102/akne-brost.webp',
-                        image_alt: 'Bild av akne på bröstet',
-                        image_title: 'Exempel på akne på bröstet',
-                        title: 'Akne på bröstet',
-                        subtitle: 'Även kallat Acne pectoralis',
-                        url: 'problem/pormaskar/typer/akne-brostet',
-                        url_title: 'Läs mer om akne på bröstet och dess potentiella behandlingar'
+                        image_url: 'images/problems/102x102/pormaskar-brost.webp',
+                        image_alt: 'Bild av pormaskar på bröstet',
+                        image_title: 'Exempel på pormaskar på bröstet',
+                        title: 'Pormaskar på bröstet',
+                        subtitle: 'Ofta orsakat av svett och värme',
                   ),
-
+                  new BasedType(
+                        image_url: 'images/problems/102x102/pormaskar-axlar.webp',
+                        image_alt: 'Bild av pormaskar på axlarna',
+                        image_title: 'Exempel på pormaskar på axlarna',
+                        title: 'Pormaskar på axlarna',
+                        subtitle: 'Påverkas ofta av kläder och kroppsvärme',
+                  )
             )
       ),
 
 );
 
-$types_url = '<a href="problem/pormaskar/typer" title="Lär dig mer om olika typer av akne och deras behandling" class="mt-xl button b200 outline expand l10n is-hidden-tablet">Läs mer om olika typer av akne</a>
-              <a href="problem/pormaskar/typer" title="Lär dig mer om olika typer av akne och deras behandling" class="mt-xl button b200 outline l10n is-hidden-mobile">Läs mer om olikta typer av akne</a>';
-
-$symptoms_title = 'Akne symptom';
+$symptoms_title = 'Pormaskar symptom';
 
 $symptoms = array(
       new Symptom(
-            name: 'Öppna komedoner',
-            image: 'images/symptoms/102x102/komedoner-oppna.webp',
-            content: 'Pormaskar (öppna komedoner) är små, mörka prickar som uppstår när en por täpps igen av talg (hudens naturliga olja) och döda hudceller. De är ofta svarta eller bruna på grund av oxidation, som inträffar när melanin (hudens pigment) kommer i kontakt med luft. Pormaskar kan vara platta eller lätt upphöjda och är vanligt förekommande på näsan, kinderna, pannan och hakan.',
-            url: 'problem/pormaskar/typer/post-inflammatory-hyperpigmentaion',
-            url_title: 'Läs mer om öppna komedoner (pormaskar)',
-            url_label: 'Läs mer om öppna komedoner',
-            aka: 'Kända som pormaskar',
-            image_alt: 'Bild av öppna komedoner (pormaskar)',
-            image_title: 'Öppna komedoner (pormaskar)'
+            name: 'Öppna Komedoner',
+            image: 'images/symptoms/102x102/oppna-komedoner.webp',
+            content: 'Öppna komedoner, ofta kallade svarta pormaskar, är små mörka fläckar som ofta förekommer i ansiktet, särskilt på näsan och pannan. De bildas när porer blockeras av talg och döda hudceller och utsätts för luft.',
+            aka: 'Även kända som svarta pormaskar',
+            image_alt: 'Bild av öppna komedoner',
+            image_title: 'Öppna Komedoner'
       ),
+
       new Symptom(
-            name: 'Stängda komedoner',
-            image: 'images/symptoms/102x102/komedoner-stangda.webp',
-            content: 'Whiteheads (slutna komedoner) är små, vita eller hudfärgade utbuktningar som uppstår när en por täpps till av talg och döda hudceller under hudytan. De är täckta av ett tunt lager hud, vilket förhindrar oxidation och därmed behåller sin ljusa färg. Whiteheads kan vara platta eller lätt upphöjda och är vanligt förekommande på pannan, kinderna och hakan.',
-            url: 'problem/pormaskar/typer/atrophic-icepick-scars',
-            url_title: 'Läs mer om stängda komedoner (whiteheads)',
-            url_label: 'Läs mer om stängda komedoner',
-            aka: 'Kända som "whiteheads"',
-            image_alt: 'Bild av stängda komedoner (whiteheads)',
-            image_title: 'Stängda komedoner (whiteheads)'
+            name: 'Stängda Komedoner',
+            image: 'images/symptoms/102x102/stangda-komedoner.webp',
+            content: 'Stängda komedoner, eller vita pormaskar, är små, hudfärgade upphöjningar som bildas när talg och döda hudceller blockar en por. De är täckta av hud och oxideras inte, vilket håller dem vita eller hudfärgade.',
+            aka: 'Även kända som vita pormaskar',
+            image_alt: 'Bild av stängda komedoner',
+            image_title: 'Stängda Komedoner'
       ),
+
       new Symptom(
-            name: 'Papler',
-            image: 'images/symptoms/102x102/papler.webp',
-            content: 'Papuler är små, fasta, röda och inflammerade blemmor som uppstår när en hårsäck blir infekterad av bakterier, oftast Propionibacterium acnes. De är vanligtvis mindre än 5 mm i diameter och kan vara känsliga vid beröring. Papuler är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.',
-            url: 'problem/pormaskar/typer/atrophic-boxcar-scars',
-            url_title: 'Läs mer om papler (röda finnar)',
-            url_label: 'Läs mer om papler',
-            aka: 'Kända som röda finnar',
-            image_alt: 'Bild av papler (röda finnar)',
-            image_title: 'Papler (röda finnar)'
+            name: 'Ojämn Hudtextur',
+            image: 'images/symptoms/102x102/ojamn-hudton.webp',
+            content: 'Områden som är drabbade av pormaskar kan ha en ojämn, nästan sandpappersliknande textur.',
+            aka: 'Känns som grusig hud',
+            image_alt: 'Bild av ojämn hudtextur',
+            image_title: 'Ojämn Hudtextur'
       ),
+
       new Symptom(
-            name: 'Pustler',
-            image: 'images/symptoms/102x102/pustler.webp',
-            content: 'Pustuler är röda och inflammerade blemmor som innehåller var (en blandning av döda bakterier, vita blodkroppar och döda hudceller). De ser ut som papuler men har en vit eller gul prick i mitten. Pustuler kan vara smärtsamma och är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.',
-            url: 'problem/pormaskar/typer/atrophic-rolling-scars',
-            url_title: 'Läs mer om pustler (gula finnar)',
-            url_label: 'Läs mer om pustler',
-            aka: 'Kända som gula finnar',
-            image_alt: 'Bild av pustler (gula finnar)',
-            image_title: 'Pustler (gula finnar)'
+            name: 'Förstorade Porer',
+            image: 'images/symptoms/102x102/forstorade-porer.webp',
+            content: 'När porer blockeras av pormaskar kan de se större och mer framträdande ut.',
+            aka: 'Synligt större porer',
+            image_alt: 'Bild av förstorade porer',
+            image_title: 'Förstorade Porer'
       ),
+
       new Symptom(
-            name: 'Noduler',
-            image: 'images/symptoms/102x102/noduler.webp',
-            content: 'Noduler är större, djupare och ofta smärtsamma inflammerade blemmor som uppstår när en hårsäck blir kraftigt infekterad och inflammationen sprider sig till det omgivande vävnaden. De är vanligtvis större än 5 mm i diameter och kan vara fasta och ömma vid beröring. Noduler är vanligt förekommande på ansiktet, nacken, bröstet, ryggen och ibland även på överarmarna och skinkorna.',
-            url: 'problem/pormaskar/typer/hypertrophic-keloid',
-            url_title: 'Läs mer om noduler (innåtfinnar)',
-            url_label: 'Läs mer om noduler',
-            aka: 'Kända som innåtfinnar',
-            image_alt: 'Bild av noduler (innåtfinnar)',
-            image_title: 'Noduler (innåtfinnar)'
+            name: 'Rödhet Runt Pormaskar',
+            image: 'images/symptoms/102x102/rodnad.webp',
+            content: 'Ett område runt en pormask kan bli rött och inflammerat, särskilt om det har utsatts för mekanisk påverkan som att klämmas eller skrapas.',
+            aka: 'Lokaliserad rodnad',
+            image_alt: 'Bild av rödhet runt pormaskar',
+            image_title: 'Rödhet Runt Pormaskar'
       ),
+
       new Symptom(
-            name: 'Cystor',
-            image: 'images/symptoms/102x102/cystor.webp',
-            content: 'Cystor är stora, inflammerade och smärtsamma blemmor som är fyllda med var och bildas när en hårsäck blir mycket infekterad och inflammationen sprider sig djupt in i huden. De kan vara runda och mjuka eller fasta och ömma vid beröring. Cystor kan vara större än 5 mm i diameter och är vanligt förekommande på ansiktet, nacken, bröstet och ryggen. Cystisk akne kan leda till ärrbildning och kräver ofta professionell behandling.',
-            url: 'problem/pormaskar/typer/hypertrophic-keloid',
-            url_title: 'Läs mer om cystor (bölder)',
-            url_label: 'Läs mer om cystor',
-            aka: 'Kända som bölder',
-            image_alt: 'Bild av cystor (bölder)',
-            image_title: 'Cystor (bölder)'
+            name: 'Överflödig Oljighet',
+            image: 'images/symptoms/102x102/oljig-hy.webp',
+            content: 'Områden med många pormaskar kan känna sig oljigare än resten av huden på grund av överproduktion av talg.',
+            aka: 'Ökad sebumproduktion',
+            image_alt: 'Bild av överflödig oljighet',
+            image_title: 'Överflödig Oljighet'
       ),
+
+      new Symptom(
+            name: 'Klåda',
+            image: 'images/symptoms/102x102/klada.webp',
+            content: 'Vissa kan uppleva en lätt klåda kring områden med pormaskar.',
+            aka: 'Mild irritation eller klåda',
+            image_alt: 'Bild av klåda',
+            image_title: 'Klåda'
+      ),
+
+      new Symptom(
+            name: 'Mindre Inflammation',
+            image: 'images/symptoms/102x102/mindre-inflammation.webp',
+            content: 'I vissa fall kan pormaskar utvecklas till mindre inflammationer och små röda bultar, särskilt om de inte behandlas korrekt.',
+            aka: 'Mindre inflammatoriska fläckar',
+            image_alt: 'Bild av mindre inflammation',
+            image_title: 'Mindre Inflammation'
+      ),
+
 );
 
-$headline01 = "01. Identifiera din akne";
+$headline01 = "01. Identifiera dina pormaskar";
 
 $service = new Service(
       title: 'Konsultation',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Vid ett personligt möte med en acnespecialist utförs en undersökning av din akne. Vi tar före-bilder på din hud och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
+      content: 'Vid ett personligt möte med en AcneSpecialist utförs en undersökning av dina pormaskar. Vi tar före-bilder på din hud och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
       image_small: 'images/services/200x200/konsultation.webp',
       image_large: 'images/services/200x200/konsultation.webp',
-      image_alt: 'Bild av en konsultation för aknebehandling',
-      image_title: 'Konsultation för aknebehandling',
-      consultation_url: 'consultation-booking?problem=comedones',
+      image_alt: 'Bild av en konsultation för pormaskar',
+      image_title: 'Konsultation för pormaskar',
+      consultation_url: 'consultation-booking?problem=pormaskar',
       consultation_url_label: 'Boka tid för hudkonsultation',
-      consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för akne',
+      consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för pormaskar',
       booking_url: null,
       booking_url_label: null,
       booking_url_title: null,
@@ -383,94 +362,44 @@ $service = new Service(
 
 );
 
-$headline02 = "02. Behandla aktiv akne";
+$headline02 = "02. Behandla pormaskar";
 
 $services = array(
+
       new Service(
-            title: 'Ansiktsbehandling mot akne',
+            title: 'Portömning',
             duration: '60 min',
             price: '995 kr',
-            content: 'En effektiv ansiktsbehandling mot akne fokuserar på att noggrant extrahera orenheter som orsakar inflammation och skador i huden. Genom att försiktigt klämma ut akne och pormaskar kan behandlingen bidra till att förebygga ärrbildning och främja en snabbare läkning.',
-            image_small: 'images/services/200x200/ansiktsbehandling-akne.webp',
-            image_large: 'images/services/200x200/ansiktsbehandling-akne.webp',
-            image_alt: 'Bild av en ansiktsbehandling mot akne',
-            image_title: 'Ansiktsbehandling mot akne',
-            consultation_url: 'consultation-booking?problem=comedones&service=classicFacials',
+            content: 'Portömning är en specialiserad ansiktsbehandling som syftar till att effektivt rensa porer från talg och orenheter. Behandlingen utförs genom en försiktig extrahering av pormaskar och kan leda till minskad inflammation och förstorade porer. Detta kan inte bara förbättra hudens textur utan även minska risken för framtida akneutbrott.',
+            image_small: 'images/services/200x200/portomning-small.webp',
+            image_large: 'images/services/200x200/portomning-large.webp',
+            image_alt: 'Bild av en portömning',
+            image_title: 'Portömning som behandling för pormaskar',
+            consultation_url: 'consultation-booking?problem=comedones&service=portomning',
             consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling mot akne',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
-            booking_url_label: 'Boka tid för ansiktsbehandling mot akne',
-            booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling mot akne',
-            url: 'ansiktsbehandling-acne',
-            url_label: 'Read more about blablabla',
-            url_title: 'Read more about blablabla'
-      ),
-      new Service(
-            title: 'Laser mot akne',
-            duration: '50 min',
-            price: '2595 kr',
-            content: 'En avancerad laserbehandling mot akne erbjuder en effektiv lösning för att bekämpa aktiv akne och ärr som kan uppstå efter utbrott. Lasertekniken riktar sig mot de bakterier som orsakar inflammation och hjälper till att minska produktionen av talg, vilket minskar risken för framtida utbrott.',
-            image_small: 'images/services/200x200/laser-akne.webp',
-            image_large: 'images/services/200x200/laser-akne.webp',
-            image_alt: 'Bild av laserbehandling mot akne',
-            image_title: 'Laserbehandling mot akne',
-            consultation_url: 'consultation-booking?problem=comedones&service=laser',
-            consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling mot akne',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
-            booking_url_label: 'Boka tid för laserbehandling mot akne',
-            booking_url_title: 'Klicka för att boka tid för en laserbehandling mot akne',
-            url: 'laser-akne',
-            url_label: 'Read more about blablabla',
-            url_title: 'Read more about blablabla'
-      ),
-      new Service(
-            title: 'Kemisk peeling mot akne',
-            duration: '30 min',
-            price: '1595 kr',
-            content: 'Kemisk peeling är en effektiv metod för att behandla akne. Genom att använda en speciellt framtagen lösning för att exfoliera huden, främjar kemisk peeling cellförnyelse, rensar tilltäppta porer och minskar inflammation. Resultatet är en jämnare hudton, mindre utbrott och färre synliga ärr. Det är en enkel och effektiv strategi för att ta kontroll över din akne och förbättra din hudhälsa.',
-            image_small: 'images/services/200x200/kemisk-peeling-akne.webp',
-            image_large: 'images/services/200x200/kemisk-peeling-akne.webp',
-            image_alt: 'Bild av kemisk peeling mot akne',
-            image_title: 'Kemisk peeling mot akne behandling',
-            consultation_url: 'consultation-booking?problem=comedones&service=chemicalPeeling',
-            consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för kemisk peeling mot akne',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
-            booking_url_label: 'Boka tid för kemisk peeling mot akne',
-            booking_url_title: 'Klicka för att boka tid för en kemisk peeling mot akne behandling'
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för portömning',
+            booking_url: 'https://www.bokadirekt.se/boka-tjanst/skönhetsspecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/port%C3%B6mning-konsultation-1643922',
+            booking_url_label: 'Boka tid för portömning',
+            booking_url_title: 'Klicka för att boka tid för en portömning',
+            url: 'portomning-behandling',
+            url_label: 'Läs mer om portömning som behandling för pormaskar',
+            url_title: 'Läs mer om portömning som behandling för pormaskar'
       ),
 
-      new Service(
-            title: 'Microneedling mot akne',
-            duration: '50 min',
-            price: '2595 kr',
-            content: 'Microneedling är en innovativ behandlingsmetod för akne. Detta utförs genom att skapa små mikroskopiska kanaler i huden vilket främjar hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. Denna behandling kan effektivt minska utbrott av akne, förbättra hudens struktur och minska synligheten av akneärr. Microneedling är en säker och effektiv strategi för att ta kontroll över din akne och förbättra din hudhälsa.',
-            image_small: 'images/services/200x200/kemisk-peeling-akne.webp',
-            image_large: 'images/services/200x200/kemisk-peeling-akne.webp',
-            image_alt: 'Bild av microneedling mot akne',
-            image_title: 'Microneedling mot akne behandling',
-            consultation_url: 'consultation-booking?problem=comedones&service=microneedling',
-            consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling mot akne',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
-            booking_url_label: 'Boka tid för microneedling mot akne',
-            booking_url_title: 'Klicka för att boka tid för en microneedling mot akne behandling'
-      ),
 );
 
-$headline03 = "03. Förebygg uppkomsten av ny akne";
+$headline03 = "03. Förebygg uppkomsten av nya pormaskar";
 
 $products = array(
       new Service(
-            title: 'Produkter mot akne',
+            title: 'Produkter mot pormaskar',
             duration: null,
             price: 'Pris från 1495 kr',
-            content: 'För att effektivt bekämpa och förebygga akne är daglig behandling med rätt produkter avgörande. Våra akneprodukter är speciellt utformade för att hålla din hud i balans och förhindra att ny akne uppstår.',
-            image_small: 'images/services/200x200/produkter-akne.webp',
-            image_large: 'images/services/200x200/produkter-akne.webp',
-            image_alt: 'Bild av produkter designade för behandling av akne',
-            image_title: 'Effektiva produkter för bekämpning och förebyggande av akne',
+            content: 'För att effektivt bekämpa och förebygga pormaskar är daglig behandling med rätt produkter avgörande. Våra akneprodukter är speciellt utformade för att hålla din hud i balans och förhindra att nya pormaskar uppstår.',
+            image_small: 'images/services/200x200/produkter-pormaskar.webp',
+            image_large: 'images/services/200x200/produkter-pormaskar.webp',
+            image_alt: 'Bild av produkter designade för behandling av pormaskar',
+            image_title: 'Effektiva produkter för bekämpning och förebyggande av pormaskar',
             consultation_url: null,
             consultation_url_label: null,
             consultation_url_title: null,
@@ -480,42 +409,26 @@ $products = array(
       )
 );
 
-$headline04 = "04. Reparera post-akne";
-
-$procedures = array(
-      new Service(
-            title: 'Reparera acneärr',
-            duration: '4 behandlingsmetoder',
-            price: null,
-            content: 'Efter aktiv akne kan man uppleva post-akne, vilket innebär ärr i form av gropar i olika former och fläckar i olika färger på huden där aknen tidigare varit. Olika typer av ärr behandlas med olika metoder. Klicka här för att läsa mer om hur du kan reparera din hud och ta hand om post-akne.',
-            image_small: 'images/services/200x200/microneedling-aknearr.webp',
-            image_large: 'images/services/200x200/microneedling-aknearr.webp',
-            image_alt: 'Reparera acneärr',
-            image_title: 'Reparera acneärr',
-            consultation_url: null,
-            consultation_url_label: null,
-            consultation_url_title: null,
-            booking_url: null,
-            booking_url_label: null,
-            booking_url_title: null
-      ),
-);
 $articles = array(
       new Article(
-            title: 'Varför AcneSpecialisten?!',
+            title: 'När ska jag söka hjälp med mina pormaskar?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'Varför AcneSpecialisten?!',
-            image_title: 'Varför AcneSpecialisten?!',
-            content: '<p class="p200">Du som vill ha det som är bäst mot akne bör välja Acnespecialisten eftersom vi är experter på att behandla akne och har över 30 års erfarenhet av att ha arbetat med olika typer av akne. Vi lever upp till vårt namn genom att erbjuda personlig och professionell hjälp för att hjälpa dig att uppnå en klar och frisk hud. Vi skräddarsyr behandlingar baserade på dina individuella problem och behov, vi rekommenderar de bästa akneprodukterna för att förebygga och behandla din hud och akne. </p><p class="p200 mt-m">Genom att välja Acnespecialisten får du den mest effektiva behandlingen för ditt specifika fall och en hudvårdspartner som stöttar dig genom hela processen.</p>',
+            image_alt: 'När ska jag söka hjälp med mina pormaskar?',
+            image_title: 'När ska jag söka hjälp med mina pormaskar?',
+            content: '<p class="p200">Pormaskar är en av de mest förekommande hudåkommorna och kan drabba personer i alla åldrar. Även om de i många fall är ofarliga och mestadels en estetisk bekymmer, kan de påverka självkänslan och orsaka obehag. Om du märker att dina pormaskar börjar påverka ditt välbefinnande, eller om du har provat olika produkter och hemmabehandlingar utan framgång, kan det vara dags att söka professionell hjälp. Det är viktigt att komma ihåg att alla kan söka hjälp, oavsett om du har enstaka pormaskar eller ett mer utbrett problem. Det finns ingen "minsta gräns" för när det är lämpligt att söka professionell vård.</p>
+            <p class="p200 mt-m">Hos en hudspecialist kan du få en personlig konsultation och behandlingsplan som är skräddarsydd för just ditt hudproblem. En expert kan analysera din hudtyp, diskutera möjliga orsaker till dina pormaskar och rekommendera den mest effektiva behandlingsmetoden för dig. Detta kan inkludera allt från djuprengöring och portömning till mer avancerade hudvårdsprodukter. Så, om du känner att dina pormaskar har blivit en belastning eller om du helt enkelt vill ha en problemfri hy, tveka inte att söka professionell hjälp. Det är aldrig för tidigt eller för sent att ta steget mot bättre hy.</p>',
       ),
+
       new Article(
-            title: 'När ska jag besöka AcneSpecialisten?',
+            title: 'Varför ska jag besöka AcneSpecialisten?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'När ska jag besöka AcneSpecialisten?',
-            image_title: 'När ska jag besöka AcneSpecialisten?',
-            content: '<p class="p200">Du bör besöka Acnespecialisten när du känner att din akne påverkar din livskvalitet eller om du har provat olika behandlingar och produkter utan att se några varaktiga förbättringar. Ju tidigare du söker hjälp, desto större är chansen att undvika ärrbildning och långvariga hudproblem. Acnespecialisten är här för att erbjuda dig expertis och skräddarsydda behandlingar oavsett om du har lindrig, måttlig eller svår akne. Tveka inte att kontakta oss för att boka en kostnadsfri konsultation och ta det första steget mot en klarare och friskare hud.</p><p class="p200 mt-m">Välj Acnespecialisten innan du går till en läkare, eftersom vi erbjuder en kostnadsfri konsultation där vi analyserar din akne och föreslår en individuell behandlingsplan. Våra specialister har stor erfarenhet av att behandla akne och kan ge dig råd om vilka produkter och behandlingar som är bäst för just din hudtyp. Att prova Acnespecialisten först kan hjälpa dig att undvika att använda tunga mediciner som kan ha biverkningar och påverka hela kroppen. Genom att boka en gratis konsultation hos oss får du en chans att se hur vi kan hjälpa dig att förbättra din hudhälsa innan du tar steget att besöka en läkare.</p>',
+            image_alt: 'Varför ska jag besöka AcneSpecialisten?',
+            image_title: 'Varför ska jag besöka AcneSpecialisten?',
+            content: '<p class="p200">Om du är ute efter en effektiv och långsiktig lösning på dina pormaskar, är AcneSpecialisten det självklara valet. Vi har över 30 års erfarenhet inom hudvård och en specialisering i att behandla pormaskar. Oavsett om du har enstaka pormaskar eller en mer utbredd problematik, kan vi erbjuda en skräddarsydd lösning som passar just dig.</p>
+            <p class="p200 mt-m">Vi använder de senaste metoderna och teknologierna inom hudvård för att du ska få bästa möjliga resultat. Vårt team av hudterapeuter står redo att erbjuda en individuellt anpassad behandlingsplan och att stötta dig genom hela processen. Med regelbundna uppföljningar och anpassade hemmavårdsprogram ser vi till att du får en långvarig förbättring.</p>
+            <p class="p200 mt-m">Att välja AcneSpecialisten innebär att du får tillgång till den mest avancerade och effektiva behandlingen för dina pormaskar. Men det är inte allt. Vi ser dig som en partner i din hudvårdsresa och är dedikerade till att hjälpa dig att uppnå och bibehålla en klar och frisk hud. Vårt engagemang, kunskap och erfarenhet gör oss till ditt bästa val för behandling av pormaskar.</p>',
       ),
 );
 $results = array(
@@ -527,7 +440,7 @@ $results = array(
             image_alt: 'Resultat',
             image_title: 'Resultat',
             treatment: new ResultTreatment(
-                  duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne"">behandlingar mot akne</a>'
+                  duration: 'Efter 3 månaders <a href="behandlingar/pormaskar" title="Pormaskar"">behandlingar mot pormaskar</a>'
             ),
       ),
       new ResultCustomer(
@@ -538,7 +451,7 @@ $results = array(
             image_alt: 'Resultat',
             image_title: 'Resultat',
             treatment: new ResultTreatment(
-                  duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne">behandlingar mot akne</a>',
+                  duration: 'Efter 3 månaders <a href="behandlingar/pormaskar" title="Pormaskar">behandlingar mot pormaskar</a>',
             )
       ),
 );
@@ -571,86 +484,65 @@ $reviews = array(
 
 );
 $faq_categories = array(
-      'Generellt om akne' => array(
+      'Generellt om pormaskar' => array(
             new Question(
-                  title: 'Hur blir jag av med min akne snabbt?',
-                  text: '<p class="p200">Att bli av med akne snabbt är en utmaning, eftersom det inte finns någon quickfix när det gäller akne. Effektiv behandling kräver att du tar hand om din hud genom att använda rätt behandlingar och produkter som passar din specifika hudtyp och akne. För att få en skräddarsydd behandlingsplan som hjälper dig att bli av med aknen så snabbt som möjligt, rekommenderar vi att du bokar en kostnadsfri hudkonsultation hos oss. Under konsultationen kommer vi att analysera din hud och hjälpa dig att utforma en anpassad behandlingsrutin som ger dig de bästa förutsättningarna för att snabbt och effektivt behandla din akne.</p>'
+                  title: 'Varför får man pormaskar?',
+                  text: '<p class="p200">Pormaskar uppstår när porer i huden blir igentäppta av överflödig talg (hudens naturliga olja) och döda hudceller. Faktorer som kan bidra till ökad produktion av talg inkluderar hormonella förändringar, vissa läkemedel, fuktig och varm klimat, och även genetiska faktorer.</p>'
             ),
             new Question(
-                  title: 'Har jag akne även om jag bara har en finne?',
-                  text: '<p class="p200">ja, du har tekniskt sett akne även om du bara har en enstaka finne. Akne kan ta sig många olika former och innefattar alla typer av finnar, oavsett om det är enstaka eller flera, stora eller små, papler eller pustler. Många tror att de inte har akne om de endast upplever enstaka finnar då och då, men faktum är att alla dessa fall kategoriseras som akne.</p>'
+                  title: 'Är pormaskar ett tecken på dålig hygien?',
+                  text: '<p class="p200">Nej, pormaskar är inte ett tecken på dålig hygien. Även om regelbunden rengöring av huden kan hjälpa till att minska risken för pormaskar, kan de fortfarande uppstå på grund av interna faktorer som hormonella förändringar eller genetik.</p>'
             ),
             new Question(
-                  title: 'Ska jag klämma mina finnar?',
-                  text: '<p class="p200">Vi på Acnespecialisten rekommenderar att du inte klämmer finnar själv, eftersom felaktig teknik kan leda till ärrbildning och förvärra inflammationen genom att införa bakterier från dina fingrar. Det är dock sant att finnar kan behöva klämmas, men det måste göras på rätt sätt för att undvika skador på huden. Om du undviker att klämma helt kan ärrbildning också uppstå, eftersom fettsyran i finnen fortsätter att fräta på huden.</p>
-
-                        <p class="p200 mt-m">För att klämma finnar korrekt krävs både rätt utrustning och teknik. På Acnespecialisten har vi erfarna hudterapeuter som kan hjälpa dig att behandla dina finnar på ett säkert och effektivt sätt. Genom att vända dig till oss får du den expertis och omsorg du behöver för att hantera din akne på bästa sätt. Du kan läsa mer om våra aknebehandlingar och hur de kan hjälpa dig här.</p>'
+                  title: 'Vad är skillnaden mellan en öppen och en sluten komedon?',
+                  text: '<p class="p200">En öppen komedon, ofta kallad svart pormask, är en pormask där poröppningen är vidöppen. Detta gör att ytan av det blockerande materialet oxiderar och blir mörkt. En sluten komedon, känd som vit pormask, har en sluten poröppning, vilket hindrar materialet inuti från att oxidera, så det förblir vit eller hudfärgad.</p>'
             ),
             new Question(
-                  title: 'Försvinner aknen efter tonåren?',
-                  text: '<p class="p200">Det är svårt att ge ett entydigt svar på den frågan eftersom det varierar från person till person. För vissa kan akne vara ett tonårsproblem som försvinner när de blir äldre, medan det för andra kan övergå till vuxenakne. Det är inte säkert att aknen försvinner efter tonåren, och det kan variera beroende på individuella faktorer som hormoner, genetik och livsstil.</p>
-
-                        <p class="p200 mt-m">Akne kan uppstå i olika faser av livet och dess svårighetsgrad varierar från person till person. Vissa individer upplever akne under tonåren, som sedan försvinner när de når vuxen ålder. Andra kan vara aknefria under tonåren, men drabbas av akne som vuxna. Den mest besvärliga situationen är när någon drabbas av akne under tonåren som sedan övergår till vuxenakne.</p>
-
-                        <p class="p200 mt-m">När man når vuxen ålder och aknen fortfarande inte har försvunnit, är det stor risk att aknen har lett till ärrbildning. Det är därför viktigt att behandla akne i alla åldrar för att förebygga och minimera risken för att drabbas av acneärr. Oavsett ålder och fas av akne, bör man söka hjälp för att behandla och kontrollera sitt tillstånd, för att minska risken för långsiktiga hudproblem som ärrbildning.</p>'
+                  title: 'Hur är pormaskar relaterade till akne?',
+                  text: '<p class="p200">Pormaskar är en typ av aknelesion. Akne kan manifestera sig i olika former, inklusive pormaskar, finnar, papler och cystor. Alla dessa är resultat av igentäppta porer, men de skiljer sig i utseende och svårighetsgrad.</p>'
             ),
             new Question(
-                  title: 'Kan jag ha akne även om jag är vuxen?',
-                  text: '<p class="p200">Ja, akne kan drabba vuxna och det är faktiskt ganska vanligt. Vuxenakne drabbar cirka 12-22% av alla kvinnor och 3% av alla män. Den kan uppkomma vid 20-, 30- och 40-årsåldern, och ibland ännu senare. Det kallas då för vuxenakne och har också med hormonerna i din kropp att göra, men faktorerna som triggar igång din akne är lite annorlunda än vid tonårsakne.</p>
-
-                        <p class="p200 mt-m">Vid tonårsakne ökar produktionen av det manliga könshormonet i din kropp. Det, i kombination med fettproduktionen, kan leda till att du drabbas av akne. Vid vuxen ålder däremot, kan aknen bero på sådant som graviditet, menstruation, alkohol, stress och preventivmedel. Alltså, yttre faktorer som triggar igång dina hormoner och får aknen att blomma upp.</p>
-
-                       <p class="p200 mt-m">Vuxenakne kan orsakas av flera faktorer, såsom hormonella förändringar, stress, genetik och användning av olämpliga hudvårdsprodukter. Hos kvinnor kan akne ofta vara kopplad till menstruationscykeln eller hormonella förändringar i samband med graviditet och menopaus.</p>
-
-                       <p class="p200 mt-m">Sammanfattningsvis kan akne drabba personer i alla åldrar, och det är viktigt att vara medveten om att akne inte bara är ett tonårsproblem.</p>'
+                  title: 'Kan man förebygga uppkomsten av pormaskar?',
+                  text: '<p class="p200">Ja, regelbunden rengöring, exfoliering och användning av icke-komedogena produkter kan minska risken för att utveckla pormaskar. Det är också viktigt att undvika oljebaserade hudprodukter om man är benägen för pormaskar.</p>'
             ),
             new Question(
-                  title: 'Förvärras min akne av att jag äter choklad?',
-                  text: '<p class="p200">Nej, det är en myt att choklad direkt skulle leda till akne. Ingen vetenskaplig forskning har tydligt påvisat ett direkt samband mellan chokladkonsumtion och uppkomsten av finnar. Det som potentiellt kan påverka din akne är stress. Om du upplever stress över att du ätit choklad, kan det i sin tur bidra till akneutbrott. Men en bit choklad då och då bör inte orsaka akneutbrott hos de flesta människor.</p>'
-            ),
-            new Question(
-                  title: 'Vad kan jag göra för att bli av med min akne?',
-                  text: '<p class="p200">Att bekämpa akne effektivt kräver en individuellt anpassad strategi som kombinerar lämpliga behandlingar och hudvårdsprodukter, utformade för att passa dina unika behov och din huds specifika tillstånd. På Acnespecialisten, erbjuder vi kostnadsfria hudkonsultationer där vi kan utvärdera ditt specifika fall av akne och hjälpa till att skräddarsy en effektiv behandlingsrutin.</p>'
+                  title: 'Är pormaskar farliga eller kan de leda till andra hudproblem?',
+                  text: '<p class="p200">Pormaskar i sig är inte farliga, men om de inte behandlas kan de utvecklas till inflammerad akne. Dessutom kan felaktig hantering eller klämning av pormaskar leda till inflammation, infektion och ärrbildning.</p>'
             )
       ),
       'Behandling mot akne' => array(
             new Question(
-                  title: 'Hur många behandlingar behövs?',
-                  text: '<p class="p200">Antalet behandlingar som behövs varierar från person till person och beror på flera faktorer, som din hudtyp, svårighetsgraden av din akne och din respons på behandlingen. Vanligtvis kan du se en förbättring efter 1 till 3 veckors regelbunden behandling.</p>
+                title: 'Vilka är de mest effektiva behandlingarna för pormaskar?',
+                text: '<p class="p200">De mest effektiva behandlingarna för att ta hand om pormaskar kan variera från person till person, men det finns flera allmänt erkända metoder som har visat sig vara effektiva. Produkter som innehåller salicylsyra eller benzoylperoxid är vanligt rekommenderade och verkar genom att lösa upp det döda hudcellslagret och öppna upp tilltäppta porer.</p>
+                <p class="p200 mt-m">Retinoider, som ofta finns i receptbelagda krämer eller serum, ökar cellomsättningen och hjälper till att förhindra tilltäppning av porer. Dessa är oftast mer långsiktiga lösningar och det kan ta tid att se märkbara förbättringar.</p>
+                <p class="p200 mt-m">Kemiska peelingar som används i professionell hudvård kan också vara effektiva. De tar bort det översta lagret av döda hudceller och hjälper till att lösa upp pormaskar. Det är viktigt att denna typ av behandling utförs av kvalificerade hudterapeuter.</p>
+                <p class="p200 mt-m">Professionell portömning utförs av hudterapeuter och involverar manuell rengöring av porerna. Detta är en omedelbar lösning och resultat kan ses direkt efter behandlingen, även om uppföljande behandlingar ofta är nödvändiga för långsiktiga resultat.</p>'
+            ),
+            new Question(
+                  title: 'Är det bra eller dåligt att klämma pormaskar?',
+                  text: '<p class="p200">Det är generellt inte rekommenderat att klämma pormaskar eftersom det kan leda till infektion, inflammation och potentiell ärrbildning. Professionella portömningar utförda av en hudvårdsspecialist är ett säkrare alternativ.</p>'
+            ),
+            new Question(
+                  title: 'Vilka risker finns det med att behandla pormaskar själv?',
+                  text: '<p class="p200">Behandla pormaskar själv kan leda till skada på huden, inklusive infektioner, ärrbildning, och ökad inflammation. Dessutom kanske man inte väljer den mest effektiva behandlingen för sin hudtyp eller problem.</p>'
+            ),
+            new Question(
+                  title: 'Hur ofta bör man gå på professionell behandling för pormaskar?',
+                  text: '<p class="p200">Det beror på svårighetsgraden av ens pormaskar och vilken typ av behandling man väljer. Många hudterapeuter rekommenderar månatliga besök för optimala resultat.</p>'
+            ),
+            new Question(
+                  title: 'Finns det några huskurer som faktiskt fungerar?',
+                  text: '<p class="p200">Vissa tror att ingredienser som honung, äggvita och havregryn kan hjälpa till att dra ut pormaskar, men vetenskapliga bevis för dessa metoder är begränsade. Även om vissa huskurer kan vara skonsamma, är det alltid bäst att konsultera med en hudvårdsexpert innan man provar dem.</p>'
+            ),
+            new Question(
+                  title: 'Kan man helt bli av med pormaskar?',
+                  text: '<p class="p200">Det kan vara svårt att helt och hållet eliminera pormaskar eftersom de kan uppstå på grund av en rad olika faktorer som hormoner, diet, och hudvård. Men genom en kombination av professionella behandlingar och rätt hudvårdsrutin kan du dramatiskt minska deras förekomst och förhindra nya från att uppstå.</p>'
+            ),
+            new Question(
+                  title: 'Hur snabbt ser man resultat efter en professionell behandling för pormaskar?',
+                  text: '<p class="p200">Tiden det tar att se resultat kan variera beroende på flera faktorer, inklusive din hudtyp och svårighetsgraden av dina pormaskar. Vissa människor ser omedelbara förbättringar efter en enda behandling, medan andra kan behöva flera sessioner för att se tydliga resultat.</p>
 
-                       <p class="p200 mt-m">Det är viktigt att påpeka att behandlingen hos oss inte fungerar i isolering. En väsentlig del av din framgång ligger i den dagliga användningen av de rekommenderade produkterna hemma. Det är kombinationen av professionell behandling och hemmavård som ger bästa möjliga resultat.</p>
-
-                        <p class="p200 mt-m">Om du inte upplever de förväntade förbättringarna efter en tid, uppmanar vi dig att ta kontakt med din personliga hudterapeut. Tillsammans kan vi se över dina hudvårdsrutiner och de produkter du använder, för att optimera din behandlingsplan.</p>'
-            ),
-            new Question(
-                  title: 'Finns det en risk att min akne återkommer?',
-                  text: '<p class="p200">Ja, det finns en risk att akne återkommer, eftersom akne kan påverkas av flera faktorer såsom genetik, hormoner, livsstil och hudvård. Personer med en genetisk benägenhet för akne kan uppleva att aknen återkommer, särskilt under perioder av hormonella förändringar som pubertet, graviditet eller menstruation. Även faktorer som stress, kost och användning av olämpliga hudvårdsprodukter kan bidra till att aknen återkommer.</p>
-                       
-                       <p class="p200 mt-m">Det är dock viktigt att komma ihåg att regelbunden och korrekt hudvård kan hålla aknen i schack. Precis som vi borstar tänderna varje dag för att hålla karies borta, behöver vi underhålla vår hud för att hålla aknen borta. Det innebär att följa en anpassad hudvårdsrutin, hantera stress och upprätthålla en hälsosam livsstil. Så länge du tar hand om din hud regelbundet och på rätt sätt, kan du förhindra att aknen återkommer.</p>'
-            ),
-            new Question(
-                  title: 'Vilken är den bästa behandlingen mot akne?',
-                  text: '<p class="p200">Vilken behandling som är bäst för akne varierar beroende på individens hudtyp, aknens svårighetsgrad och orsaker till akne. Den bästa behandlingen är en skräddarsydd behandlingsplan som kombinerar rätt behandlingar, produkter och rutiner för att effektivt ta itu med den aktiva aknen och förhindra att nya utbrott uppstår. Genom att först behandla och bli av med den aktiva aknen kan du uppnå en klarare hud. Därefter är det viktigt att bibehålla resultaten med lämpliga produkter och rutiner för att motverka att nya finnar uppstår och hålla aknen under kontroll. Det rekommenderas att konsultera en av våra specialister för att få en personlig och effektiv behandlingsplan som passar just din hud och akne.</p>'
-            ),
-            new Question(
-                  title: 'Gör aknebehandlingen ont?',
-                  text: '<p class="p200">vi strävar efter att göra aknebehandlingen så behaglig som möjligt för våra klienter. Det är sant att akne ibland innebär inflammation i porerna och kan göra ont när de öppnas upp och töms. Men vi vill påpeka att smärtupplevelsen kan variera från person till person och bero på behandlingsmetoden som används. Vår erfarna personal är välutbildad och tar stor hänsyn till din komfort under behandlingen. Om du känner någon obehag, tveka inte att informera din acnespecialist så att de kan justera behandlingen efter dina behov.</p>'
-            ),
-            new Question(
-                  title: 'Vad ska jag tänka på innan behandlingen?',
-                  text: '<p class="p200">Vi vill att din behandling ska vara så smidig och bekväm som möjligt, och vi strävar efter att göra processen enkel för dig. Du behöver inte förbereda något särskilt inför ditt besök hos oss. Kom precis som du är, och vi tar hand om resten. Vi kommer att genomföra en grundlig hudanalys och skräddarsy en behandlingsplan som passar just dig och din hudtyp. Så, du kan lita på oss och bara slappna av inför din aknebehandling.</p>'
-            ),
-            new Question(
-                  title: 'Vad ska jag tänka på efter behandling?',
-                  text: '<p class="p200">Efter din aknebehandling hos Acnespecialisten kan du uppleva att huden blir något röd och irriterad. Detta är helt normalt och en del av hudens naturliga läkningsprocess. Rödheten och irritationen kommer att avta under dagarna efter behandlingen. Det är viktigt att du fortsätter att följa den hudvårdsrutin och de produktrekommendationer vi gett dig för att stödja hudens återhämtning och maximera resultaten av behandlingen.</p>
-                        
-                        <p class="p200 mt-m">Undvik att peta eller klämma på behandlade områden för att undvika eventuell ärrbildning och infektion. Dessutom är det bra att skydda huden från solen, då den kan vara extra känslig efter behandling. Använd solskyddsmedel och undvik direkt solljus så mycket som möjligt. Kom ihåg att vi på Acnespecialisten alltid finns här för dig om du har några frågor eller funderingar efter din behandling.</p>'
-            ),
-            new Question(
-                  title: 'Eftervård efter behandlingen?',
-                  text: '<p class="p200">Eftervården efter en aknebehandling hos Acnespecialisten är lika viktig som själva behandlingen. När aknen är utklämd och borta är det viktigt att förebygga uppkomsten av ny akne. Om du inte följer din eftervårdsplan kommer du att få resultat, men det kommer inte vara bestående, eftersom akneproduktionen sätter igång igen kort tid efter behandlingen.</p>
-
-                  <p class="p200 mt-m">För att hålla huden i kontroll och balans är det viktigt att följa de råd och rekommendationer vi ger dig angående hudvårdsrutin och produkter. Kontinuerlig behandling och förebyggande åtgärder är avgörande för att uppnå och bibehålla en klar och frisk hud. Kom ihåg att vi på Acnespecialisten alltid finns här för att hjälpa och stötta dig genom hela processen, både under och efter din behandling.</p>',
+                  <p class="p200 mt-m">Generellt sett bör du kunna notera en förbättring i hudens textur och klarhet inom några veckor efter påbörjad professionell behandling./p>',
             ),
       ),
 );
