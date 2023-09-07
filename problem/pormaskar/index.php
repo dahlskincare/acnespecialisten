@@ -486,64 +486,66 @@ $reviews = array(
 $faq_categories = array(
       'Generellt om pormaskar' => array(
             new Question(
-                  title: 'Varför får man pormaskar?',
-                  text: '<p class="p200">Pormaskar uppstår när porer i huden blir igentäppta av överflödig talg (hudens naturliga olja) och döda hudceller. Faktorer som kan bidra till ökad produktion av talg inkluderar hormonella förändringar, vissa läkemedel, fuktig och varm klimat, och även genetiska faktorer.</p>'
+                title: 'Varför får man pormaskar?',
+                text: '<p class="p200">Pormaskar uppstår när porer i huden blir igentäppta av överflödig talg (hudens naturliga olja) och döda hudceller. Denna tilltäppning kan oxidera när den kommer i kontakt med luft, vilket ger pormaskar deras karakteristiska mörka färg. Faktorer som kan bidra till ökad produktion av talg inkluderar genetiska faktorer, hormonella förändringar, fuktig och varm klimat.</p>
+                <p class="p200 mt-m">En obalanserad i huden till följd av kosmetiska produkter och stress kan också påverka talgproduktionen och bidra till uppkomsten av pormaskar. Det är viktigt att komma ihåg att pormaskar inte uppstår på grund av smuts, utan snarare från kroppens naturliga processer.</p>'
             ),
             new Question(
-                  title: 'Är pormaskar ett tecken på dålig hygien?',
-                  text: '<p class="p200">Nej, pormaskar är inte ett tecken på dålig hygien. Även om regelbunden rengöring av huden kan hjälpa till att minska risken för pormaskar, kan de fortfarande uppstå på grund av interna faktorer som hormonella förändringar eller genetik.</p>'
+                title: 'Är pormaskar ett tecken på dålig hygien?',
+                text: '<p class="p200">Nej, pormaskar är inte ett tecken på dålig hygien. Även om regelbunden rengöring av huden kan hjälpa till att minska risken för pormaskar.Det är en missuppfattning att pormaskar beror på smuts eller dålig hygien. Faktum är att överdriven tvättning eller skrubbande av huden kan orsaka irritation och faktiskt öka risken för att utveckla pormaskar.</p>'
             ),
             new Question(
-                  title: 'Vad är skillnaden mellan en öppen och en sluten komedon?',
-                  text: '<p class="p200">En öppen komedon, ofta kallad svart pormask, är en pormask där poröppningen är vidöppen. Detta gör att ytan av det blockerande materialet oxiderar och blir mörkt. En sluten komedon, känd som vit pormask, har en sluten poröppning, vilket hindrar materialet inuti från att oxidera, så det förblir vit eller hudfärgad.</p>'
+                title: 'Vad är skillnaden mellan en öppen och en sluten komedon?',
+                text: '<p class="p200">En öppen komedon, ofta kallad svart pormask, är en pormask där poröppningen är vidöppen. Detta gör att ytan av det blockerande materialet oxiderar och blir mörkt. Denna oxidation orsakas av exponering för luft. En sluten komedon, känd som vit pormask, har en sluten poröppning, vilket hindrar materialet inuti från att oxidera, så det förblir vit eller hudfärgad.</p>
+                <p class="p200 mt-m">Skillnaden i färg beror alltså inte på närvaro eller frånvaro av smuts, utan på huruvida komedonen är öppen eller sluten och därmed exponerad för luft eller inte.</p>'
             ),
             new Question(
-                  title: 'Hur är pormaskar relaterade till akne?',
-                  text: '<p class="p200">Pormaskar är en typ av aknelesion. Akne kan manifestera sig i olika former, inklusive pormaskar, finnar, papler och cystor. Alla dessa är resultat av igentäppta porer, men de skiljer sig i utseende och svårighetsgrad.</p>'
+                title: 'Hur är pormaskar relaterade till akne?',
+                text: '<p class="p200">Pormaskar är en typ av aknelesion. Akne kan manifestera sig i olika former, inklusive pormaskar, finnar, papler och cystor. Alla dessa är resultat av igentäppta porer, men de skiljer sig i utseende och svårighetsgrad.</p>
+                <p class="p200 mt-m">Pormaskar, särskilt om de inte tas om hand, kan utvecklas till inflammerade finnar när bakterier infekterar den igentäppta porstrukturen. Detta leder till rödhet, svullnad och eventuellt pusfyllda finnar.</p>'
+            ),
+           new Question(
+                title: 'Kan man förebygga uppkomsten av pormaskar?',
+                text: '<p class="p200">Ja, regelbunden rengöring, exfoliering och användning av icke-komedogena produkter kan minska risken för att utveckla pormaskar. Detta hjälper till att reglera talgproduktionen. Dessutom är det klokt att skydda huden från solens strålar med solskydd, eftersom UV-strålning kan försämra hudens tillstånd och förvärra pormaskar och andra hudproblem.</p>'
             ),
             new Question(
-                  title: 'Kan man förebygga uppkomsten av pormaskar?',
-                  text: '<p class="p200">Ja, regelbunden rengöring, exfoliering och användning av icke-komedogena produkter kan minska risken för att utveckla pormaskar. Det är också viktigt att undvika oljebaserade hudprodukter om man är benägen för pormaskar.</p>'
+                title: 'Är pormaskar farliga eller kan de leda till andra hudproblem?',
+                text: '<p class="p200">Pormaskar i sig är inte farliga, men om de inte behandlas kan de utvecklas till inflammerad akne. Dessutom kan felaktig hantering eller klämning av pormaskar leda till inflammation, infektion och ärrbildning.</p>
+                <p class="p200 mt-m">Det är också viktigt att notera att pormaskar kan vara ett tidigt tecken på andra hudproblem som rosacea eller dermatit. Därför kan tidig behandling och en noggrann hudvårdsrutin inte bara förhindra pormaskar, men även minska risken för andra mer allvarliga hudproblem.</p>'
             ),
-            new Question(
-                  title: 'Är pormaskar farliga eller kan de leda till andra hudproblem?',
-                  text: '<p class="p200">Pormaskar i sig är inte farliga, men om de inte behandlas kan de utvecklas till inflammerad akne. Dessutom kan felaktig hantering eller klämning av pormaskar leda till inflammation, infektion och ärrbildning.</p>'
-            )
+
       ),
       'Behandling mot akne' => array(
             new Question(
                 title: 'Vilka är de mest effektiva behandlingarna för pormaskar?',
-                text: '<p class="p200">De mest effektiva behandlingarna för att ta hand om pormaskar kan variera från person till person, men det finns flera allmänt erkända metoder som har visat sig vara effektiva. Produkter som innehåller salicylsyra eller benzoylperoxid är vanligt rekommenderade och verkar genom att lösa upp det döda hudcellslagret och öppna upp tilltäppta porer.</p>
-                <p class="p200 mt-m">Retinoider, som ofta finns i receptbelagda krämer eller serum, ökar cellomsättningen och hjälper till att förhindra tilltäppning av porer. Dessa är oftast mer långsiktiga lösningar och det kan ta tid att se märkbara förbättringar.</p>
-                <p class="p200 mt-m">Kemiska peelingar som används i professionell hudvård kan också vara effektiva. De tar bort det översta lagret av döda hudceller och hjälper till att lösa upp pormaskar. Det är viktigt att denna typ av behandling utförs av kvalificerade hudterapeuter.</p>
-                <p class="p200 mt-m">Professionell portömning utförs av hudterapeuter och involverar manuell rengöring av porerna. Detta är en omedelbar lösning och resultat kan ses direkt efter behandlingen, även om uppföljande behandlingar ofta är nödvändiga för långsiktiga resultat.</p>'
+                text: '<p class="p200">De mest effektiva behandlingarna för att ta hand om pormaskar kan variera från person till person, men det finns flera allmänt erkända metoder som har visat sig vara effektiva. Hudvårdsprodukter i kombination med portömning utförd av kvalificerade hudterapeuter behandlar effektivt pormaskar. Detta är en omedelbar lösning och resultat kan ses direkt efter behandlingen, även om uppföljande behandlingar ofta är nödvändiga för långsiktiga resultat.</p>'
             ),
             new Question(
-                  title: 'Är det bra eller dåligt att klämma pormaskar?',
-                  text: '<p class="p200">Det är generellt inte rekommenderat att klämma pormaskar eftersom det kan leda till infektion, inflammation och potentiell ärrbildning. Professionella portömningar utförda av en hudvårdsspecialist är ett säkrare alternativ.</p>'
+                title: 'Är det bra eller dåligt att klämma pormaskar?',
+                text: '<p class="p200">Det är generellt inte rekommenderat att själv klämma pormaskar eftersom det kan leda till infektion, inflammation och potentiell ärrbildning. Professionella portömningar utförda av en hudvårdsspecialist är ett säkrare alternativ.</p>
+                <p class="p200 mt-m">När du klämmer en pormask, riskerar du att trycka ned bakterier och olja djupare in i huden, vilket kan leda till en allvarligare infektion. Därför är det bäst att låta en professionell hudvårdsterapeut hantera det för att minimera risken för komplikationer.</p>'
             ),
             new Question(
-                  title: 'Vilka risker finns det med att behandla pormaskar själv?',
-                  text: '<p class="p200">Behandla pormaskar själv kan leda till skada på huden, inklusive infektioner, ärrbildning, och ökad inflammation. Dessutom kanske man inte väljer den mest effektiva behandlingen för sin hudtyp eller problem.</p>'
+                title: 'Vilka risker finns det med att behandla pormaskar själv?',
+                text: '<p class="p200">Behandla pormaskar själv kan leda till skada på huden, inklusive infektioner, ärrbildning, och ökad inflammation. Dessutom kanske man inte väljer den mest effektiva behandlingen för sin hudtyp eller problem.</p>
+                <p class="p200 mt-m">Felaktig användning av verktyg eller produkter, såsom pormaskborttagare, kan också skada huden och förvärra tillståndet. För att undvika dessa risker är det viktigt att konsultera en kvalificerad hudvårdsspecialist.</p>'
             ),
             new Question(
-                  title: 'Hur ofta bör man gå på professionell behandling för pormaskar?',
-                  text: '<p class="p200">Det beror på svårighetsgraden av ens pormaskar och vilken typ av behandling man väljer. Många hudterapeuter rekommenderar månatliga besök för optimala resultat.</p>'
+                title: 'Hur ofta bör man gå på professionell behandling för pormaskar?',
+                text: '<p class="p200">Det beror på svårighetsgraden av ens pormaskar och vilken typ av behandling man väljer. Många hudterapeuter rekommenderar månatliga besök för optimala resultat.</p>
+                <p class="p200 mt-m">Frekvensen kan också variera beroende på din hudtyp, ålder och livsstil. En regelbunden uppföljning med en hudterapeut kommer inte bara att hjälpa dig att upprätthålla en frisk hud utan också justera din behandlingsplan baserat på hur din hud svarar.</p>'
             ),
             new Question(
-                  title: 'Finns det några huskurer som faktiskt fungerar?',
-                  text: '<p class="p200">Vissa tror att ingredienser som honung, äggvita och havregryn kan hjälpa till att dra ut pormaskar, men vetenskapliga bevis för dessa metoder är begränsade. Även om vissa huskurer kan vara skonsamma, är det alltid bäst att konsultera med en hudvårdsexpert innan man provar dem.</p>'
+                title: 'Finns det några huskurer som faktiskt fungerar?',
+                text: '<p class="p200">Vissa tror att ingredienser som honung, äggvita och havregryn kan hjälpa till att dra ut pormaskar, men vetenskapliga bevis för dessa metoder är begränsade. Även om vissa huskurer kan vara skonsamma, är det alltid bäst att konsultera med en hudvårdsexpert innan man provar dem.</p>
+                <p class="p200 mt-m">En del huskurer kan faktiskt förvärra situationen, särskilt om du har känslig eller reaktiv hud. I vissa fall kan naturliga ingredienser som citron eller äppelcidervinäger vara irriterande och leda till mer skada än nytta.</p>'
             ),
             new Question(
-                  title: 'Kan man helt bli av med pormaskar?',
-                  text: '<p class="p200">Det kan vara svårt att helt och hållet eliminera pormaskar eftersom de kan uppstå på grund av en rad olika faktorer som hormoner, diet, och hudvård. Men genom en kombination av professionella behandlingar och rätt hudvårdsrutin kan du dramatiskt minska deras förekomst och förhindra nya från att uppstå.</p>'
+                title: 'Kan man helt bli av med pormaskar?',
+                text: '<p class="p200">Det kan vara svårt att helt och hållet eliminera pormaskar eftersom de kan uppstå på grund av en rad olika faktorer som hormoner, diet, och hudvård. Men genom en kombination av professionella behandlingar och rätt hudvårdsrutin kan du dramatiskt minska deras förekomst och förhindra nya från att uppstå.</p>
+                <p class="p200 mt-m">Det är också viktigt att ha realistiska förväntningar. Medan professionell behandling kan minimera och kontrollera pormaskar, kräver det ofta en långsiktig plan och konsekvent hudvård för att upprätthålla resultaten.</p>'
             ),
-            new Question(
-                  title: 'Hur snabbt ser man resultat efter en professionell behandling för pormaskar?',
-                  text: '<p class="p200">Tiden det tar att se resultat kan variera beroende på flera faktorer, inklusive din hudtyp och svårighetsgraden av dina pormaskar. Vissa människor ser omedelbara förbättringar efter en enda behandling, medan andra kan behöva flera sessioner för att se tydliga resultat.</p>
 
-                  <p class="p200 mt-m">Generellt sett bör du kunna notera en förbättring i hudens textur och klarhet inom några veckor efter påbörjad professionell behandling./p>',
-            ),
       ),
 );
 $skin_guide_articles = array(
@@ -620,6 +622,15 @@ $specialists = array(
 );
 $related_problems = array(
       new RelatedProblem(
+            name: 'Akne',
+            aka: 'Papler & Pustler',
+            image: 'images/problems/200x200/akne.webp',
+            image_alt: 'Bild som skildrar akne, en hudåkomma som drabbar många ungdomar och vuxna',
+            image_title: 'Akne - ett vanligt hudproblem bland både ungdomar och vuxna',
+            url: 'akne',
+            url_title: 'Akne'
+      ),
+      new RelatedProblem(
             name: 'Acneärr',
             aka: 'gropar & Fläckar',
             image: 'images/problems/102x102/acnearr.webp',
@@ -627,15 +638,6 @@ $related_problems = array(
             image_title: '',
             url: 'problem/acnearr',
             url_title: 'Acneärr',
-      ),
-      new RelatedProblem(
-            name: 'Rosacea',
-            aka: 'ansiktsrodnad',
-            image: 'images/problems/200x200/rosacea.webp',
-            image_alt: '',
-            image_title: '',
-            url: 'problem/rosacea',
-            url_title: 'Rosacea'
       ),
       new RelatedProblem(
             name: 'Perioral dermatit',
