@@ -5,56 +5,56 @@ include_once('../widgets/symptom-card/symptom.php');
 include_once('../widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Allt om Akne - Orsaker, Behandling och Förebyggande | Acnespecialisten';
-$seo_description = 'Lär dig allt om akne, från dess orsaker till hur man behandlar och förebygger det. Skräddarsydda lösningar och expertis från Acnespecialisten.';
-$seo_keywords = 'akne, aknebehandling, orsaker till akne, förebygga akne, ta bort akne, vuxenakne, tonårsakne, akneärr, finnar, pormaskar';
+$seo_title = 'Allt om Torr och Känslig Hy - Orsaker, Behandling och Förebyggande | AcneSpecialisten';
+$seo_description = 'Lär dig allt om torr och känslig hy, från dess orsaker till hur man behandlar och förebygger det. Skräddarsydda lösningar och expertis från AcneSpecialisten.';
+$seo_keywords = 'torr hy, torr hud, känslig hy, känslig hud, hudvård, förebygga torr hud, behandla känslig hud, hudproblem, fuktighetskräm, hudbarriär';
 
+$title = 'Torr och Känslig Hy';
 
-$title = 'Akne';
-
-$image_small = 'images/problems/424x324/akne.webp';
-$image_large = 'images/problems/424x456/akne.webp';
-$image_title = 'Visar en hud med akne';
-$image_alt = 'Bild som illustrerar hur akne ser ut på huden';
-$description = 'Här förklarar vi vad som kännetecknar akne, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av akne, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';
+$image_small = 'images/problems/424x324/torr_och_kanslig_hud.webp';
+$image_large = 'images/problems/424x456/torr_och_kanslig_hud.webp';
+$image_title = 'Visar en hy som är torr och känslig';
+$image_alt = 'Bild som illustrerar hur torr och känslig hy ser ut';
+$description = 'Här förklarar vi vad som kännetecknar torr och känslig hy, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av torr och känslig hy, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';
 
 $akas = [
       new Link(
-            label: 'Finnar',
-            url: 'problem/finnar',
-            title: 'Allt du behöver veta om finnar och deras behandling'
+            label: 'Yttorr hy',
+            url: null,
+            title: null,
       ),
       new Link(
-            label: 'Vuxenakne',
-            url: 'problem/vuxenakne',
-            title: 'Utforska orsaker, symptom och behandlingar av vuxenakne'
+            label: 'Ömtålig hy',
+            url: null,
+            title: null,
       ),
       new Link(
-            label: 'Tonårsakne',
-            url: 'problem/tonarsakne',
-            title: 'Komplett guide om tonårsakne: orsaker, förebyggande och lösningar'
+            label: 'Reaktiv hy',
+            url: null,
+            title: null,
       ),
 ];
 
 $consultation_url_label = "Få gratis konsultation";
-$consultation_url = "consultation-booking?problem=acne";
-$consultation_url_title = "Gratis Konsultation för Akne";
+$consultation_url = "consultation-booking?problem=dry-sensitive-skin";
+$consultation_url_title = "Gratis Konsultation för Torr och Känslig Hy";
 
 $booking_url_label = "Boka behandling";
-$booking_url = "treatment-booking?problem=acne";
-$booking_url_title = "Boka Aknebehandling";
+$booking_url = "treatment-booking?problem=dry-sensitive-skin";
+$booking_url_title = "Boka Behandling för Torr och Känslig Hy";
 
 $mobile_consultation_url_label = "Få gratis konsultation";
-$mobile_consultation_url_title = "Gratis Konsultation för Akne";
+$mobile_consultation_url_title = "Gratis Konsultation för Torr och Känslig Hy";
 
 $mobile_booking_url_label = "Boka behandling";
-$mobile_booking_url_title = "Boka Aknebehandling";
+$mobile_booking_url_title = "Boka Behandling för Torr och Känslig Hy";
 
 $floating_consultation_url_label = "Få gratis konsultation";
-$floating_consultation_url_title = "Gratis Konsultation för Akne";
+$floating_consultation_url_title = "Gratis Konsultation för Torr och Känslig Hy";
 
 $floating_booking_url_label = "Boka behandling";
-$floating_booking_url_title = "Boka Aknebehandling";
+$floating_booking_url_title = "Boka Behandling för Torr och Känslig Hy";
+
 
 $nav_buttons = array(
       'about' => 'Om akne',
