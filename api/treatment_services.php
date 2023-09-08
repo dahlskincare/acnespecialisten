@@ -9,7 +9,7 @@ header("Content-Type: application/json; charset=UTF-8");
 $language = array_key_exists('HTTP_ACCEPT_LANGUAGE', $_SERVER) ? $_SERVER['HTTP_ACCEPT_LANGUAGE'] : 'en';
 $language = substr($language, 0, 2);
 
-$servername = $_ENV['DB_URL'];;
+$servername = $_ENV['DB_URL'];
 $username = $_ENV['DB_USER'];
 $password = $_ENV['DB_PASSWORD'];
 $dbname = $_ENV['DB_NAME'];
