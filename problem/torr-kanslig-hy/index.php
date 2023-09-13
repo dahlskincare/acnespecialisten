@@ -11,8 +11,8 @@ $seo_keywords = 'torr hy, torr hud, känslig hy, känslig hud, hudvård, föreby
 
 $title = 'Torr och Känslig Hy';
 
-$image_small = 'images/problems/424x324/torr_och_kanslig_hud.webp';
-$image_large = 'images/problems/424x456/torr_och_kanslig_hud.webp';
+$image_small = 'images/problem/424x324/torr-kanslig-hy.webp';
+$image_large = 'images/problem/424x456/torr-kanslig-hy.webp';
 $image_title = 'Visar en hy som är torr och känslig';
 $image_alt = 'Bild som illustrerar hur torr och känslig hy ser ut';
 $description = 'Här förklarar vi vad som kännetecknar torr och känslig hy, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av torr och känslig hy, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';
@@ -36,11 +36,11 @@ $akas = [
 ];
 
 $consultation_url_label = "Få gratis konsultation";
-$consultation_url = "consultation-booking?problem=dry-sensitive-skin";
+$consultation_url = "consultation-booking?problem=torr-kanslig-hy";
 $consultation_url_title = "Gratis Konsultation för Torr och Känslig Hy";
 
 $booking_url_label = "Boka behandling";
-$booking_url = "treatment-booking?problem=dry-sensitive-skin";
+$booking_url = "treatment-booking?problem=torr-kanslig-hy";
 $booking_url_title = "Boka Behandling för Torr och Känslig Hy";
 
 $mobile_consultation_url_label = "Få gratis konsultation";
@@ -86,15 +86,15 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Varför',
             title: 'får man torr och känslig hy?',
-            content: '<p class="p200">Det finns flera faktorer som kan bidra till utvecklingen av torr och känslig hy. Klimatförhållanden ssåsom kyla under vintern med låg luftfuktighet kan avsevärt minska hudens fuktighetsnivåer. Inomhusförhållanden, såsom centralvärme och luftkonditionering, kan också torka ut huden. Hudvårdsprodukter irriterande ämnen kan störa hudens naturliga pH-balans och därmed förvärra tillståndet. Vidare kan hudsjukdomar som psoriasis och eksem, bidra till problemet. Mediciner och vissa behandlingar kan också påverka hudens fuktbalans.</p>',
+            content: '<p class="p200">Det finns flera faktorer som kan bidra till utvecklingen av torr och känslig hy. Klimatförhållanden såsom kyla under vintern med låg luftfuktighet kan avsevärt minska hudens fuktighetsnivåer. Inomhusförhållanden, såsom centralvärme och luftkonditionering, kan också torka ut huden. Hudvårdsprodukter irriterande ämnen kan störa hudens naturliga pH-balans och därmed förvärra tillståndet. Vidare kan hudsjukdomar som psoriasis och eksem, bidra till problemet. Vissa produkter och behandlingar kan också påverka hudens fuktbalans.</p>',
             extended_content: '<p class="p200 mt-xl">Livsstilsfaktorer som dålig kost och brist på vattenintag kan också spela en roll. En diet som är låg i essentiella fettsyror och vitaminer som vitamin E kan påverka hudens förmåga att behålla fukt. Stress och brist på sömn har också visat sig förvärra hudens känslighet och kan leda till ytterligare uttorkning och irritation. Det är viktigt att förstå att en kombination av dessa faktorer oftast ligger bakom problemet, och därför kan en holistisk ansats till behandling och förebyggande vara mest effektiv.</p>',
             icons: array('who-infants' => 'Hormoner', 'who-teenagers' => 'Stress', 'who-adults' => 'Genetik', 'who-elders' => 'Livsstil')
       ),
       new ProblemTrivia(
             prefix: 'Vem',
             title: 'får torr och känslig hy?',
-            content: '<p class="p200">Torr och känslig hy är inte begränsad till en specifik demografisk grupp; den kan drabba personer i alla åldrar, kön och etniciteter. Det är dock viktigt att förstå att vissa faktorer gör vissa människor mer benägna att utveckla denna hudtyp. Ålder är en av de mest framstående faktorerna. Med åldern minskar hudens naturliga oljeproduktion och dess förmåga att behålla fukt, vilket gör äldre personer mer mottagliga för torr och känslig hud.</p>',
-            extended_content: '<p class="p200 mt-xl">Individer med medicinska tillstånd som eksem, rosacea eller psoriasis är också särskilt utsatta, eftersom dessa sjukdomar ofta medför en kronisk torrhet och känslighet i huden. Enligt dermatologer kan hormonella förändringar som sker under graviditet, menopaus eller menstruationscykler påverka hudens tillstånd och göra den mer känslig eller torr. Yrkesmässig exponering för kemiska ämnen, eller jobb som kräver frekvent handtvätt eller användning av handskar, kan också förvärra problemet. Exempel på sådana yrken inkluderar hälso- och sjukvårdsarbetare, frisörer och byggarbetare.</p>',
+            content: '<p class="p200">Torr och känslig hy är inte begränsad till en specifik demografisk grupp; den kan drabba personer i alla åldrar och kön. Det är dock viktigt att förstå att vissa faktorer gör vissa människor mer benägna att utveckla denna hudtyp. Ålder är en av de mest framstående faktorerna. Med åldern minskar hudens naturliga oljeproduktion och dess förmåga att behålla fukt, vilket gör äldre personer mer mottagliga för torr och känslig hud.</p>',
+            extended_content: '<p class="p200 mt-xl">Individer med tillstånd som eksem, rosacea eller psoriasis är också särskilt utsatta, eftersom de ofta medför en kronisk torrhet och känslighet i huden. Hormonella förändringar som sker under graviditet, menopaus eller menstruationscykler påverka hudens tillstånd och göra den mer känslig eller torr. Yrkesmässig exponering för kemiska ämnen, eller jobb som kräver frekvent handtvätt eller användning av handskar, kan också förvärra problemet.</p>',
 
             icons: array('who-infants' => 'Barn', 'who-teenagers' => 'Ungdommar', 'who-adults' => 'Vuxna', 'who-elders' => 'Män & Kvinnor')
       ),
@@ -109,7 +109,7 @@ $trivias = array(
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din aknetyp och skapar en individuell behandlingsplan.',
+            content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig att identifiera din hudtyp som torr och känslig, samt skapar en individuell behandlingsplan för dig.',
 
             url_label: 'Få gratis konsultation',
             url: 'hudkonsultation',
@@ -117,72 +117,85 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika aknetyp, så att du snabbt och säkert blir av med problemet.',
+            content: 'Vi erbjuder milda och effektiva behandlingar specialanpassade för torr och känslig hud, som syftar till att återfukta och lugna din hud på ett säkert och effektivt sätt.',
 
-            url_label: 'Se aknebehandlingar',
-            url: 'behandlingar/akne',
-            url_title: 'Utforska våra skräddarsydda aknebehandlingar'
+            url_label: 'Se behandlingar',
+            url: 'behandlingar/torrochkanslig',
+            url_title: 'Utforska våra skräddarsydda behandlingar för torr och känslig hud'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny akne och hålla din hud i balans.',
+            content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som är anpassade för torr och känslig hud, för att förhindra framtida hudproblem och behålla hudens balans.',
 
             url_label: 'Se produkter',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
-            url_title: 'Hitta de bästa produkterna för att förebygga akne'
-      ),
-      new TreatmentStep(
-            title: 'Reparera',
-            content: 'När aknen är borta fokuserar vi på att reducera eventuella ärr med behandlingsmetoder som laser, microneedling och kemisk peeling för en jämn och problemfri hud.',
-
-            url_label: 'Se ärrbehandlingar',
-            url: 'behandlingar/aknearr',
-            url_title: 'Upptäck effektiva behandlingar för akneärr'
-      ),
+            url: 'https://dahlskincare.se/produktkategorier/produktpaket/torrochkanslig',
+            url_title: 'Hitta de bästa produkterna för att förebygga hudproblem för torr och känslig hud'
+      )
 
 );
-$treatment_link = '<a href="problem/akne/aknebehandling" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra aknebehandlingar</a>';
 
-$types_title = 'Olika typer av akne';
+$types_title = 'Olika typer av torr & känslig hy';
 
 $type_categories = array(
       new BasedTypeCategory(
-            title: 'Akne baserat på ålder',
-            content: '<p class="p200">Akne är en hudåkomma som kan drabba både ungdomar och vuxna, även om det är vanligast under tonåren. Tonårsakne uppstår ofta på grund av hormonella förändringar under puberteten. Vuxenakne förekommer också, och det kan bero på en rad olika faktorer. Hos vuxna kan akne orsakas av faktorer som stress, hormonobalans och genetik. Oavsett ålder är det viktigt att förstå att akne kan påverka människor i alla livsstadier.</p>',
-            types: array(
+              title: 'Torr och Känslig Hy baserat på Ålder',
+              content: '<p class="p200">Torr och känslig hud är en åkomma som kan påverka människor i alla åldrar, från spädbarn till äldre. Denna hudtyp är känslig för en rad faktorer, inklusive klimatförändringar, livsstil och hormonella förändringar. Oavsett ålder är det viktigt att identifiera och behandla symptomen för att återställa hudens naturliga balans.</p>',
+              types: array(
                   new BasedType(
-                        title: 'Vuxenakne',
-                        subtitle: 'Även kallat acne tarda',
+                  title: 'Spädbarns- och Småbarnshud',
+                  subtitle: 'Benägen för torrhet',
 
-                        image_url: 'images/problems/102x102/vuxenakne.webp',
-                        image_alt: 'Bild av vuxenakne',
-                        image_title: 'Akne hos vuxna',
+                  image_url: 'images/problems/102x102/barn-torr-kanslig-hy.webp',
+                  image_alt: 'Bild av spädbarns- och småbarnshud',
+                  image_title: 'Hud hos spädbarn och små barn',
 
-                        url: 'problem/akne/typer/vuxenakne',
-                        url_title: 'Utforska information om vuxenakne'
-                  ),
-                  new BasedType(
-                        title: 'Tonårsakne',
-                        subtitle: 'Även kallat acne vulgaris',
+                  url: null,
+                  url_title: 'Utforska information om spädbarns- och småbarnshud'
+                ),
+                new BasedType(
+                  title: 'Tonårshud',
+                  subtitle: 'Hormonella förändringar',
 
-                        image_url: 'images/problems/102x102/tonarsakne.webp',
-                        image_alt: 'Bild av tonårsakne',
-                        image_title: 'Akne hos tonåringar',
+                  image_url: 'images/problems/102x102/tonaring-torr-kanslig-hy.webp',
+                  image_alt: 'Bild av tonårshud',
+                  image_title: 'Hud hos tonåringar',
 
-                        url: 'problem/akne/typer/tonårsakne',
-                        url_title: 'Utforska information om tonårsakne'
-                  ),
-                  new BasedType(
-                        title: 'Barnakne',
-                        subtitle: 'Även kallat acne neonatorum',
+                  url: null,
+                  url_title: 'Utforska information om tonårshud'
+                ),
+                new BasedType(
+                  title: 'Vuxen Hud i 20- och 30-årsåldern',
+                  subtitle: 'Livsstilsfaktorer',
 
-                        image_url: 'images/problems/102x102/barnakne.webp',
-                        image_alt: 'Bild av barnakne',
-                        image_title: 'Akne hos barn',
+                  image_url: 'images/problems/102x102/vuxen-torr-kanslig-hy.webp',
+                  image_alt: 'Bild av vuxen hud',
+                  image_title: 'Hud hos vuxna',
 
-                        url: 'problem/akne/typer/barnakne',
-                        url_title: 'Utforska information om barnakne'
-                  ),
+                  url: null,
+                  url_title: 'Utforska information om vuxen hud i 20- och 30-årsåldern'
+                ),
+                new BasedType(
+                  title: 'Mogen Hud (40-60 år)',
+                  subtitle: 'Åldersrelaterad torrhet',
+
+                  image_url: 'images/problems/102x102/mogen-hy-torr-kanslig-hy.webp',
+                  image_alt: 'Bild av mogen hud',
+                  image_title: 'Hud hos mogen hy',
+
+                  url: null,
+                  url_title: 'Utforska information om mogen hud'
+                ),
+                new BasedType(
+                  title: 'Äldre Hud (60+ år)',
+                  subtitle: 'Tunnare och torrare',
+
+                  image_url: 'images/problems/102x102/aldre-hud-torr-kanslig-hy.webp',
+                  image_alt: 'Bild av äldre hud',
+                  image_title: 'Hud hos äldre',
+
+                  url: null,
+                  url_title: 'Utforska information om äldre hud'
+                ),
 
             )
       ),
