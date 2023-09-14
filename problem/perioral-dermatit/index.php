@@ -287,235 +287,187 @@ $type_categories = array(
 
 );
 
-$types_url = '<a href="problem/akne/typer" title="Lär dig mer om olika typer av akne och deras behandling" class="mt-xl button b200 outline expand l10n is-hidden-tablet">Läs mer om olika typer av akne</a>
-              <a href="problem/akne/typer" title="Lär dig mer om olika typer av akne och deras behandling" class="mt-xl button b200 outline l10n is-hidden-mobile">Läs mer om olika typer av akne</a>';
-
-$symptoms_title = 'Akne symptom';
+$symptoms_title = 'Perioral dermatit symptom';
 
 $symptoms = array(
       new Symptom(
-            name: 'Öppna komedoner',
-            aka: 'Kända som pormaskar',
-            content: 'Pormaskar (öppna komedoner) är små, mörka prickar som uppstår när en por täpps igen av talg (hudens naturliga olja) och döda hudceller. De är ofta svarta eller bruna på grund av oxidation, som inträffar när melanin (hudens pigment) kommer i kontakt med luft. Pormaskar kan vara platta eller lätt upphöjda och är vanligt förekommande på näsan, kinderna, pannan och hakan.',
+          name: 'Röda Utslag',
+          aka: 'Kända som inflammerade utslag',
+          content: 'Röda, inflammerade utslag är det mest framträdande symptomet av perioral dermatit. Dessa utslag uppstår oftast runt munnen och kan också spridas till näsan och ibland ögonen.',
+        
+          url_label: null,
+          url: null,
+          url_title: null,
 
-            url_label: 'Läs mer om öppna komedoner',
-            url: 'problem/akne/typer/post-inflammatory-hyperpigmentaion',
-            url_title: 'Läs mer om öppna komedoner (pormaskar)',
-
-            image: 'images/symptoms/102x102/komedoner-oppna.webp',
-            image_alt: 'Bild av öppna komedoner (pormaskar)',
-            image_title: 'Öppna komedoner (pormaskar)'
+          image: 'images/symptoms/102x102/roda-utslag.webp',
+          image_alt: 'Bild av röda utslag',
+          image_title: 'Röda Utslag'
       ),
       new Symptom(
-            name: 'Stängda komedoner',
-            aka: 'Kända som "whiteheads"',
-            content: 'Whiteheads (slutna komedoner) är små, vita eller hudfärgade utbuktningar som uppstår när en por täpps till av talg och döda hudceller under hudytan. De är täckta av ett tunt lager hud, vilket förhindrar oxidation och därmed behåller sin ljusa färg. Whiteheads kan vara platta eller lätt upphöjda och är vanligt förekommande på pannan, kinderna och hakan.',
+          name: 'Små Knölar eller Pustler',
+          aka: 'Kända som papuler eller pustler',
+          content: 'Förutom röda utslag, kan små, pusfyllda blåsor eller knölar också uppstå som en del av perioral dermatit.',
+        
+          url_label: null,
+          url: null,
+          url_title: null,
 
-            url_label: 'Läs mer om stängda komedoner',
-            url: 'problem/akne/typer/atrophic-icepick-scars',
-            url_title: 'Läs mer om stängda komedoner (whiteheads)',
-
-            image: 'images/symptoms/102x102/komedoner-stangda.webp',
-            image_alt: 'Bild av stängda komedoner (whiteheads)',
-            image_title: 'Stängda komedoner (whiteheads)'
+          image: 'images/symptoms/102x102/knolar-pustler.webp',
+          image_alt: 'Bild av små knölar eller pustler',
+          image_title: 'Små Knölar eller Pustler'
       ),
       new Symptom(
-            name: 'Papler',
-            aka: 'Kända som röda finnar',
-            content: 'Papuler är små, fasta, röda och inflammerade blemmor som uppstår när en hårsäck blir infekterad av bakterier, oftast Propionibacterium acnes. De är vanligtvis mindre än 5 mm i diameter och kan vara känsliga vid beröring. Papuler är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.',
+          name: 'Klåda',
+          aka: 'Känd som pruritus',
+          content: 'Vissa individer upplever klåda i det drabbade området, även om detta symptom inte är universellt för alla som har perioral dermatit.',
+        
+          url_label: null,
+          url: null,
+          url_title: null,
 
-            url_label: 'Läs mer om papler',
-            url: 'problem/akne/typer/atrophic-boxcar-scars',
-            url_title: 'Läs mer om papler (röda finnar)',
-
-            image: 'images/symptoms/102x102/papler.webp',
-            image_alt: 'Bild av papler (röda finnar)',
-            image_title: 'Papler (röda finnar)'
+          image: 'images/symptoms/102x102/klada.webp',
+          image_alt: 'Bild av hud som kliar',
+          image_title: 'Klåda'
       ),
       new Symptom(
-            name: 'Pustler',
-            aka: 'Kända som gula finnar',
-            content: 'Pustuler är röda och inflammerade blemmor som innehåller var (en blandning av döda bakterier, vita blodkroppar och döda hudceller). De ser ut som papuler men har en vit eller gul prick i mitten. Pustuler kan vara smärtsamma och är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.',
+          name: 'Brännande eller Svidande Känsla',
+          aka: 'Känd som brännande hud',
+          content: 'En brännande eller svidande känsla är också vanlig vid perioral dermatit och kan förvärras när huden kommer i kontakt med vatten eller hudvårdsprodukter.',
+        
+          url_label: null,
+          url: null,
+          url_title: null,
 
-            url_label: 'Läs mer om pustler',
-            url: 'problem/akne/typer/atrophic-rolling-scars',
-            url_title: 'Läs mer om pustler (gula finnar)',
-
-            image: 'images/symptoms/102x102/pustler.webp',
-            image_alt: 'Bild av pustler (gula finnar)',
-            image_title: 'Pustler (gula finnar)'
+          image: 'images/symptoms/102x102/brannande-svidande.webp',
+          image_alt: 'Bild av hud med brännande eller svidande känsla',
+          image_title: 'Brännande eller Svidande Känsla'
       ),
       new Symptom(
-            name: 'Noduler',
-            aka: 'Kända som innåtfinnar',
-            content: 'Noduler är större, djupare och ofta smärtsamma inflammerade blemmor som uppstår när en hårsäck blir kraftigt infekterad och inflammationen sprider sig till det omgivande vävnaden. De är vanligtvis större än 5 mm i diameter och kan vara fasta och ömma vid beröring. Noduler är vanligt förekommande på ansiktet, nacken, bröstet, ryggen och ibland även på överarmarna och skinkorna.',
+          name: 'Hudfjällning',
+          aka: 'Känd som desquamation',
+          content: 'I vissa fall kan huden runt de drabbade områdena börja fjälla eller flagna, vilket kan likna symptom av eksem.',
+        
+          url_label: null,
+          url: null,
+          url_title: null,
 
-            url_label: 'Läs mer om noduler',
-            url: 'problem/akne/typer/hypertrophic-keloid',
-            url_title: 'Läs mer om noduler (innåtfinnar)',
-
-            image: 'images/symptoms/102x102/noduler.webp',
-            image_alt: 'Bild av noduler (innåtfinnar)',
-            image_title: 'Noduler (innåtfinnar)'
+          image: 'images/symptoms/102x102/hudfallning.webp',
+          image_alt: 'Bild av hudfjällning',
+          image_title: 'Hudfjällning'
       ),
       new Symptom(
-            name: 'Cystor',
-            aka: 'Kända som bölder',
-            content: 'Cystor är stora, inflammerade och smärtsamma blemmor som är fyllda med var och bildas när en hårsäck blir mycket infekterad och inflammationen sprider sig djupt in i huden. De kan vara runda och mjuka eller fasta och ömma vid beröring. Cystor kan vara större än 5 mm i diameter och är vanligt förekommande på ansiktet, nacken, bröstet och ryggen. Cystisk akne kan leda till ärrbildning och kräver ofta professionell behandling.',
+          name: 'Rodnad och Inflammation',
+          aka: 'Känd som erytem och inflammation',
+          content: 'Området kring de drabbade delarna kan vara kraftigt rött och inflammerat, särskilt i svårare fall av perioral dermatit.',
+        
+          url_label: null,
+          url: null,
+          url_title: null,
 
-            url_label: 'Läs mer om cystor',
-            url: 'problem/akne/typer/hypertrophic-keloid',
-            url_title: 'Läs mer om cystor (bölder)',
+          image: 'images/symptoms/102x102/rodnad-inflammation.webp',
+          image_alt: 'Bild av rodnad och inflammation',
+          image_title: 'Rodnad och Inflammation'
+      ),
+      new Symptom(
+          name: 'Förvärring vid Solsken',
+          aka: 'Känd som solkänslighet',
+          content: 'Vissa personer med perioral dermatit rapporterar att deras symptom blir värre när de exponeras för direkt solljus.',
+        
+          url_label: null,
+          url: null,
+          url_title: null,
 
-            image: 'images/symptoms/102x102/cystor.webp',
-            image_alt: 'Bild av cystor (bölder)',
-            image_title: 'Cystor (bölder)'
+          image: 'images/symptoms/102x102/forvarring-solsken.webp',
+          image_alt: 'Bild av hud som reagerar på solsken',
+          image_title: 'Förvärring vid Exponering för Solsken'
+      ),
+      new Symptom(
+          name: 'Hudirritation från Kosmetika',
+          aka: 'Känd som kosmetik-inducerad irritation',
+          content: 'Användning av kosmetiska produkter som foundation eller solkräm kan förvärra symptomen av perioral dermatit.',
+        
+          url_label: null,
+          url: null,
+          url_title: null,
+
+          image: 'images/symptoms/102x102/hudirritation-kosmetika.webp',
+          image_alt: 'Bild av hudirritation orsakad av kosmetika',
+          image_title: 'Hudirritation från Kosmetika'
       ),
 );
 
-$headline01 = "01. Identifiera din akne";
+$headline01 = "01. Identifiera din perioral dermatit";
 
 $service = new Service(
-      title: 'Konsultation',
+      title: 'Konsultation för Perioral Dermatit',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Vid ett personligt möte med en acnespecialist utförs en undersökning av din akne. Vi tar före-bilder på din hud och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
+      content: 'Vid ett personligt möte med en hudspecialist utförs en undersökning av ditt tillstånd av perioral dermatit. Vi tar före-bilder på de drabbade områdena och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
 
       image_small: 'images/services/200x200/konsultation.webp',
       image_large: 'images/services/200x200/konsultation.webp',
-      image_alt: 'Bild av en konsultation för aknebehandling',
-      image_title: 'Konsultation för aknebehandling',
+      image_alt: 'Bild av en konsultation för behandling av perioral dermatit',
+      image_title: 'Konsultation för behandling av perioral dermatit',
 
-      url_label: 'Läs mer om vår hudkonsultation',
+      url_label: 'Läs mer om vår konsultation',
       url: 'hudkonsultation',
       url_title: 'Klicka här för att läsa mer om gratis hudkonsultation',
 
-      consultation_url_label: 'Boka tid för hudkonsultation',
-      consultation_url: 'consultation-booking?problem=acne',
-      consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för akne',
+      consultation_url_label: 'Boka tid för konsultation ',
+      consultation_url: 'consultation-booking?problem=perioral-dermatit',
+      consultation_url_title: 'Klicka för att boka tid för en konsultation för perioral dermatit',
 
       booking_url_label: null,
       booking_url: null,
       booking_url_title: null,
-
 );
 
-$headline02 = "02. Behandla aktiv akne";
+
+$headline02 = "02. Behandla perioral dermatit";
 
 $services = array(
       new Service(
-            title: 'Ansiktsbehandling mot akne',
+            title: 'Ansiktsbehandling mot Perioral Dermatit',
             duration: '60 min',
             price: '995 kr',
-            content: 'En effektiv ansiktsbehandling mot akne fokuserar på att noggrant extrahera orenheter som orsakar inflammation och skador i huden. Genom att försiktigt klämma ut akne och pormaskar kan behandlingen bidra till att förebygga ärrbildning och främja en snabbare läkning.',
+            content: 'Denna ansiktsbehandling är specialanpassad för personer med perioral dermatit. Behandlingen syftar till att lindra symtom och förbättra hudens skick genom en skonsam och noggrann rengöring av de drabbade områdena.',
 
-            image_small: 'images/services/200x200/ansiktsbehandling-akne.webp',
-            image_large: 'images/services/200x200/ansiktsbehandling-akne.webp',
-            image_alt: 'Bild av en ansiktsbehandling mot akne',
-            image_title: 'Ansiktsbehandling mot akne',
+            image_small: 'images/services/200x200/ansiktsbehandling-perioral-dermatit.webp',
+            image_large: 'images/services/200x200/ansiktsbehandling-perioral-dermatit.webp',
+            image_alt: 'Bild av en ansiktsbehandling mot perioral dermatit',
+            image_title: 'Ansiktsbehandling mot perioral dermatit',
 
-            url: 'behandlingar/ansiktsbehandling-acne',
-            url_label: 'Läs mer om ansiktsbehandling mot akne',
-            url_title: 'Klicka här för att läsa mer om ansiktsbehandling mot akne',
-
-            consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url: 'consultation-booking?problem=acne&service=classicFacials',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling mot akne',
-
-            booking_url_label: 'Boka tid för ansiktsbehandling mot akne',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
-            booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling mot akne'
-      ),
-      new Service(
-            title: 'Laser mot akne',
-            duration: '50 min',
-            price: '2595 kr',
-            content: 'En avancerad laserbehandling mot akne erbjuder en effektiv lösning för att bekämpa aktiv akne och ärr som kan uppstå efter utbrott. Lasertekniken riktar sig mot de bakterier som orsakar inflammation och hjälper till att minska produktionen av talg, vilket minskar risken för framtida utbrott.',
-
-            image_small: 'images/services/200x200/laser-akne.webp',
-            image_large: 'images/services/200x200/laser-akne.webp',
-            image_alt: 'Bild av laserbehandling mot akne',
-            image_title: 'Laserbehandling mot akne',
-
-            url_label: 'Läs mer om laser mot akne',
-            url: 'behandlingar/laser-akne',
-            url_title: 'Klicka här för att läsa mer om laserbehandling mot akne',
+            url: 'behandlingar/ansiktsbehandling-perioral-dermatit',
+            url_label: 'Läs mer om ansiktsbehandling mot perioral dermatit',
+            url_title: 'Klicka här för att läsa mer om ansiktsbehandling mot perioral dermatit',
 
             consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url: 'consultation-booking?problem=acne&service=laser',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling mot akne',
+            consultation_url: 'consultation-booking?problem=perioral-dermatit&service=classicFacials',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling mot perioral dermatit',
 
-            booking_url_label: 'Boka tid för laserbehandling mot akne',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
-            booking_url_title: 'Klicka för att boka tid för en laserbehandling mot akne'
-      ),
-      new Service(
-            title: 'Kemisk peeling mot akne',
-            duration: '30 min',
-            price: '1595 kr',
-            content: 'Kemisk peeling är en effektiv metod för att behandla akne. Genom att använda en speciellt framtagen lösning för att exfoliera huden, främjar kemisk peeling cellförnyelse, rensar tilltäppta porer och minskar inflammation. Resultatet är en jämnare hudton, mindre utbrott och färre synliga ärr. Det är en enkel och effektiv strategi för att ta kontroll över din akne och förbättra din hudhälsa.',
-
-            image_small: 'images/services/200x200/kemisk-peeling-akne.webp',
-            image_large: 'images/services/200x200/kemisk-peeling-akne.webp',
-            image_alt: 'Bild av kemisk peeling mot akne',
-            image_title: 'Kemisk peeling mot akne behandling',
-
-            url: 'behandlingar/kemisk-peeling-akne',
-            url_label: 'Läs mer om kemisk peeling mot akne',
-            url_title: 'Klicka här för att läsa mer om kemisk peeling mot akne',
-
-            consultation_url: 'consultation-booking?problem=acne&service=chemicalPeeling',
-            consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för kemisk peeling mot akne',
-
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
-            booking_url_label: 'Boka tid för kemisk peeling mot akne',
-            booking_url_title: 'Klicka för att boka tid för en kemisk peeling mot akne behandling'
-
-      ),
-
-      new Service(
-            title: 'Microneedling mot akne',
-            duration: '50 min',
-            price: '2595 kr',
-            content: 'Microneedling är en innovativ behandlingsmetod för akne. Detta utförs genom att skapa små mikroskopiska kanaler i huden vilket främjar hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. Denna behandling kan effektivt minska utbrott av akne, förbättra hudens struktur och minska synligheten av akneärr. Microneedling är en säker och effektiv strategi för att ta kontroll över din akne och förbättra din hudhälsa.',
-
-            image_small: 'images/services/200x200/kemisk-peeling-akne.webp',
-            image_large: 'images/services/200x200/kemisk-peeling-akne.webp',
-            image_alt: 'Bild av microneedling mot akne',
-            image_title: 'Microneedling mot akne behandling',
-
-            url: 'behandlingar/microneedling-akne',
-            url_label: 'Läs mer om microneedling mot akne',
-            url_title: 'Klicka här för att läsa mer om microneedling mot akne',
-
-            consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url: 'consultation-booking?problem=acne&service=microneedling',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling mot akne',
-
-            booking_url_label: 'Boka tid för microneedling mot akne',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
-            booking_url_title: 'Klicka för att boka tid för en microneedling mot akne behandling'
+            booking_url_label: 'Boka tid för ansiktsbehandling mot perioral dermatit',
+            booking_url: 'https://www.bokadirekt.se/boka-tjanst/skincare-center',
+            booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling mot perioral dermatit'
       ),
 );
 
-$headline03 = "03. Förebygg uppkomsten av ny akne";
+$headline03 = "03. Förebygg uppkomsten av ny perioral dermatit";
 
 $products = array(
       new Service(
-            title: 'Produkter mot akne',
+            title: 'Produkter mot Perioral Dermatit',
             duration: null,
             price: 'Pris från 1495 kr',
-            content: 'För att effektivt bekämpa och förebygga akne är daglig behandling med rätt produkter avgörande. Våra akneprodukter är speciellt utformade för att hålla din hud i balans och förhindra att ny akne uppstår.',
+            content: 'Daglig skötsel av huden är viktig för att hålla perioral dermatit i schack. Våra produkter är speciellt utformade för att lindra symtom och förhindra ytterligare utbrott.',
 
-            image_small: 'images/services/200x200/produkter-akne.webp',
-            image_large: 'images/services/200x200/produkter-akne.webp',
-            image_alt: 'Bild av produkter designade för behandling av akne',
-            image_title: 'Effektiva produkter för bekämpning och förebyggande av akne',
+            image_small: 'images/services/200x200/produkter-perioral-dermatit.webp',
+            image_large: 'images/services/200x200/produkter-perioral-dermatit.webp',
+            image_alt: 'Bild av produkter designade för behandling av perioral dermatit',
+            image_title: 'Effektiva produkter för lindring och förebyggande av perioral dermatit',
 
-            url_label: 'Läs mer om produkter mot akne',
+            url_label: 'Läs mer om produkter mot perioral dermatit',
             url: 'https://dahlskincare.se',
-            url_title: 'Klicka här för att läsa mer om produkter mot akne',
+            url_title: 'Klicka här för att läsa mer om produkter mot perioral dermatit',
 
             consultation_url_label: null,
             consultation_url: null,
@@ -527,53 +479,27 @@ $products = array(
       )
 );
 
-$headline04 = "04. Reparera post-akne";
-
-$procedures = array(
-      new Service(
-            title: 'Reparera acneärr',
-            duration: '4 behandlingsmetoder',
-            price: null,
-            content: 'Efter aktiv akne kan man uppleva post-akne, vilket innebär ärr i form av gropar i olika former och fläckar i olika färger på huden där aknen tidigare varit. Olika typer av ärr behandlas med olika metoder. Klicka här för att läsa mer om hur du kan reparera din hud och ta hand om post-akne.',
-
-            image_small: 'images/services/200x200/microneedling-aknearr.webp',
-            image_large: 'images/services/200x200/microneedling-aknearr.webp',
-            image_alt: 'Reparera acneärr',
-            image_title: 'Reparera acneärr',
-
-            url_label: 'Läs mer om behandlingar mot akneärr',
-            url: 'behandlingar/aknearr',
-            url_title: 'Klicka här för att läsa mer om våra behandlingar mot akneärr',
-
-            consultation_url_label: null,
-            consultation_url: null,
-            consultation_url_title: null,
-
-            booking_url_label: null,
-            booking_url: null,
-            booking_url_title: null,
-
-      ),
-);
 $articles = array(
       new Article(
-            title: 'Varför AcneSpecialisten?!',
-            content: '<p class="p200">Du som vill ha det som är bäst mot akne bör välja Acnespecialisten eftersom vi är experter på att behandla akne och har över 30 års erfarenhet av att ha arbetat med olika typer av akne. Vi lever upp till vårt namn genom att erbjuda personlig och professionell hjälp för att hjälpa dig att uppnå en klar och frisk hud. Vi skräddarsyr behandlingar baserade på dina individuella problem och behov, vi rekommenderar de bästa akneprodukterna för att förebygga och behandla din hud och akne. </p><p class="p200 mt-m">Genom att välja Acnespecialisten får du den mest effektiva behandlingen för ditt specifika fall och en hudvårdspartner som stöttar dig genom hela processen.</p>',
-
+            title: 'När ska jag söka hjälp för min perioral dermatit?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'Varför AcneSpecialisten?!',
-            image_title: 'Varför AcneSpecialisten?!',
+            image_alt: 'När ska jag söka hjälp för min perioral dermatit?',
+            image_title: 'När ska jag söka hjälp för min perioral dermatit?',
+            content: '<p class="p200">Perioral dermatit är en hudsjukdom som oftast påverkar området runt munnen och ibland näsan eller ögonen. Detta tillstånd kan vara smärtsamt, obehagligt och estetiskt störande. Trots att vissa symtom kan hanteras med över-the-counter-produkter, svarar inte alltid tillståndet väl på självbehandling.</p>
+            <p class="p200 mt-m">Om du upplever att din perioral dermatit inte förbättras eller om det påverkar din livskvalitet, kan det vara dags att söka professionell hjälp. En hudspecialist kan ställa en korrekt diagnos och utforma en skräddarsydd behandlingsplan, vilken kan inkludera specialanpassade produkter, mediciner och ibland även laserbehandlingar. Om du är bekymrad över din perioral dermatit, tveka inte att söka professionell rådgivning. Det är aldrig för tidigt eller för sent att ta kontroll över din hudhälsa.</p>',
       ),
+
       new Article(
-            title: 'När ska jag besöka AcneSpecialisten?',
-            content: '<p class="p200">Du bör besöka Acnespecialisten när du känner att din akne påverkar din livskvalitet eller om du har provat olika behandlingar och produkter utan att se några varaktiga förbättringar. Ju tidigare du söker hjälp, desto större är chansen att undvika ärrbildning och långvariga hudproblem. Acnespecialisten är här för att erbjuda dig expertis och skräddarsydda behandlingar oavsett om du har lindrig, måttlig eller svår akne. Tveka inte att kontakta oss för att boka en kostnadsfri konsultation och ta det första steget mot en klarare och friskare hud.</p><p class="p200 mt-m">Välj Acnespecialisten innan du går till en läkare, eftersom vi erbjuder en kostnadsfri konsultation där vi analyserar din akne och föreslår en individuell behandlingsplan. Våra specialister har stor erfarenhet av att behandla akne och kan ge dig råd om vilka produkter och behandlingar som är bäst för just din hudtyp. Att prova Acnespecialisten först kan hjälpa dig att undvika att använda tunga mediciner som kan ha biverkningar och påverka hela kroppen. Genom att boka en gratis konsultation hos oss får du en chans att se hur vi kan hjälpa dig att förbättra din hudhälsa innan du tar steget att besöka en läkare.</p>',
+            title: 'När ska jag besöka AcneSpecialisten för Perioral Dermatit?',
+            content: '<p class="p200">Om du märker att din perioral dermatit påverkar din livskvalitet, eller om du har provat olika behandlingsalternativ och produkter utan framgång, är det dags att söka professionell hjälp. Ju tidigare du agerar, desto större chans att effektivt behandla och hantera ditt tillstånd. Specialister inom hudvård och dermatologi kan erbjuda skräddarsydda behandlingsplaner som är anpassade till just ditt hudproblem.</p><p class="p200 mt-m">Vi erbjuder en kostnadsfri konsultation där vi analyserar din hud och föreslår en individuell behandlingsplan. Våra specialister har omfattande erfarenhet av att behandla perioral dermatit och kan rekommendera de bästa produkterna och behandlingarna för din unika hudtyp. Tveka inte att boka en gratis konsultation för att ta första steget mot en friskare och mer komfortabel hud.</p>',
 
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'När ska jag besöka AcneSpecialisten?',
-            image_title: 'När ska jag besöka AcneSpecialisten?',
+            image_alt: 'När ska jag besöka Specialisten för Perioral Dermatit?',
+            image_title: 'När ska jag besöka Specialisten för Perioral Dermatit?',
       ),
+
 );
 
 
