@@ -580,7 +580,6 @@ $articles = array(
 
 );
 
-
 $results = array(
       new ResultCustomer(
             image_before_small: 'https://via.placeholder.com/358x358.webm',
