@@ -94,148 +94,115 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Vem',
             title: 'får perioral dermatit?',
-            content: '<p class="p200">Perioral dermatit påverkar främst kvinnor, särskilt de i åldrarna 20 till 45, även om män och barn också kan drabbas. Det har också noterats att tillståndet är mer vanligt bland personer med ljus hud, även om det inte är exklusivt för någon specifik hudton eller etnisk grupp. Hormonella förändringar, som graviditet och menstruation, kan göra kvinnor mer mottagliga för perioral dermatit. Det har också föreslagits att användning av hormonella preventivmedel som p-piller kan vara en bidragande faktor till utvecklingen av detta hudproblem.</p>',
-            extended_content: '<p class="p200 mt-xl">Det verkar också finnas en viss genetisk predisposition, vilket innebär att personer med familjemedlemmar som har haft perioral dermatit eller liknande hudtillstånd som rosacea kan vara mer benägna att drabbas. Dock är den vetenskapliga bevisningen för detta fortfarande inte entydig. Vissa yrken och miljöer kan öka risken för perioral dermatit. Arbete i miljöer med starka kemikalier eller konstant hudirritation kan göra huden mer mottaglig för tillståndet. Detta inkluderar yrken som kräver användning av personlig skyddsutrustning som täcker ansiktet, såsom masker och visir.</p>
-            <p class="p200 mt-xl">Vidare har livsstilsfaktorer som stress och dålig sömnkvalitet också kopplats till perioral dermatit. Stress och sömnbrist kan påverka immunsystemet och därmed hudens förmåga att försvara sig mot inflammation och infektion. Vissa underliggande medicinska tillstånd och behandlingar, såsom immunosuppressiva läkemedel eller långvarig antibiotikabehandling, kan också göra huden mer sårbar för perioral dermatit. Det är därför viktigt att diskutera alla befintliga medicinska tillstånd och pågående behandlingar med din hudläkare för att få en fullständig och korrekt diagnos och behandlingsplan. Sammanfattningsvis är det en komplex kombination av genetiska, hormonella, yrkesmässiga, och livsstilsrelaterade faktorer som kan göra en person mer mottaglig för perioral dermatit. Det är viktigt att en individuell utvärdering görs för varje patient för att förstå de specifika faktorer som kan bidra till deras tillstånd.</p>',
+            content: '<p class="p200">Perioral dermatit påverkar främst kvinnor, särskilt de i åldrarna 20 till 45, även om män och barn också kan drabbas. Hormonella förändringar, som graviditet och menstruation, kan göra kvinnor mer mottagliga för perioral dermatit. Det har också föreslagits att användning av hormonella preventivmedel som p-piller kan vara en bidragande faktor till utvecklingen av detta hudproblem. Det verkar också finnas en genetisk predisposition, vilket innebär att personer med familjemedlemmar som har haft perioral dermatit eller liknande hudtillstånd som rosacea kan vara mer benägna att drabbas.</p>',
+            extended_content: '<p class="p200 mt-xl"> Dock är den vetenskapliga bevisningen för detta fortfarande inte entydig. Vissa yrken och miljöer kan öka risken för perioral dermatit. Arbete i miljöer med starka kemikalier eller konstant hudirritation kan göra huden mer mottaglig för tillståndet. Detta inkluderar yrken som kräver användning av personlig skyddsutrustning som täcker ansiktet, såsom masker och visir. Vidare har livsstilsfaktorer som stress och dålig sömnkvalitet också kopplats till perioral dermatit. Stress och sömnbrist kan påverka immunsystemet och därmed hudens förmåga att försvara sig mot inflammation och infektion.</p>
+            <p class="p200 mt-xl"> Vissa underliggande medicinska tillstånd och behandlingar, såsom immunosuppressiva läkemedel eller långvarig antibiotikabehandling, kan också göra huden mer sårbar för perioral dermatit. Sammanfattningsvis är det en komplex kombination av genetiska, hormonella, yrkesmässiga, och livsstilsrelaterade faktorer som kan göra en person mer mottaglig för perioral dermatit. Det är viktigt att en individuell utvärdering görs för varje person för att förstå de specifika faktorer som kan bidra till deras tillstånd.</p>',
 
             icons: array('who-infants' => 'Barn', 'who-teenagers' => 'Ungdommar', 'who-adults' => 'Vuxna', 'who-elders' => 'Män & Kvinnor')
       ),
       new ProblemTrivia(
             prefix: 'Var',
             title: 'får man perioral dermatit?',
-            content: '<p class="p200">Perioral dermatit är ett hudtillstånd som oftast uppstår runt munnen och på nedre delen av ansiktet, men det kan även spridas till områden kring näsan och ibland runt ögonen. Det är därför det kallas "perioral", vilket betyder "runt munnen". Dock är det inte begränsat enbart till ansiktet, och i sällsynta fall kan det även dyka upp på andra delar av kroppen. Faktorer som påverkar var på huden tillståndet uppstår inkluderar lokal irritation från kosmetiska produkter eller hudvårdsbehandlingar. Ingredienser i tandkräm, munvatten och ansiktskrämer, särskilt de som innehåller fluor, alkohol eller oljor, kan ibland förvärra eller utlösa tillståndet. Därför är det viktigt att vara medveten om de produkter man använder och hur de kan påverka ens hud.</p>',
-            extended_content: '<p class="p200 mt-xl">Tillståndet kan också påverkas av klimat och väderförhållanden. Till exempel, fuktiga och varma klimat har observerats att förvärra symptomen av perioral dermatit hos vissa individer. Å andra sidan kan mycket torra miljöer leda till hudirritation som kan vara en utlösande faktor. I vissa fall kan användningen av ansiktsmasker eller annan personlig skyddsutrustning leda till en förvärring av tillståndet. Den ökade fuktigheten, friktionen och värmen under masken kan skapa en idealisk miljö för tillväxt av bakterier och jäst, vilket i sin tur kan förvärra perioral dermatit.</p>
-            <p class="p200 mt-xl">Hormonella förändringar och stress har också visat sig ha en inverkan på var och hur perioral dermatit uppträder. Detta inkluderar förändringar i hormonnivåer under menstruationscykeln, graviditet eller stressiga livshändelser, som alla kan förvärra tillståndet eller påverka dess lokalisering. Sammanfattningsvis är platsen för perioral dermatit ofta en kombination av flera olika faktorer, inklusive genetiska predispositioner, externa irriterande ämnen, och även personliga livsstilsval. Det är viktigt att ha en omfattande förståelse för dessa faktorer för att framgångsrikt diagnostisera och behandla tillståndet. En hudläkare kan hjälpa till att identifiera potentiella utlösande faktorer och rekommendera en lämplig behandlingsplan.</p>',
+            content: '<p class="p200">Perioral dermatit är ett hudtillstånd som oftast uppstår runt munnen och på nedre delen av ansiktet, men det kan även spridas till områden kring näsan och ibland runt ögonen. Det är därför det kallas "perioral", vilket betyder "runt munnen". Dock är det inte begränsat enbart till ansiktet, och i sällsynta fall kan det även dyka upp på andra delar av kroppen. Faktorer som påverkar var på huden tillståndet uppstår inkluderar lokal irritation från kosmetiska produkter eller hudvårdsbehandlingar. Ingredienser i tandkräm, munvatten och ansiktskrämer kan ibland förvärra eller utlösa tillståndet. Därför är det viktigt att vara medveten om de produkter man använder och hur de kan påverka ens hud.</p>',
+            extended_content: '<p class="p200 mt-xl">Tillståndet kan också påverkas av klimat och väderförhållanden. Till exempel, fuktiga och varma klimat har observerats att förvärra symptomen av perioral dermatit hos vissa individer. Å andra sidan kan mycket torra miljöer leda till hudirritation som kan vara en utlösande faktor. </p>
+            <p class="p200 mt-xl">I vissa fall kan användningen av ansiktsmasker eller annan personlig skyddsutrustning leda till en förvärring av tillståndet. Den ökade fuktigheten, friktionen och värmen under masken kan förvärra perioral dermatit.</p>',
             icons: array('who-infants' => 'Ansiktet', 'who-teenagers' => 'Ryggen', 'who-adults' => 'Bröstet', 'who-elders' => 'Axlarna')
       ),
 );
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din aknetyp och skapar en individuell behandlingsplan.',
+            content: 'Hos AcneSpecialisten får du träffa en erfaren hudterapeut som hjälper dig identifiera din specifika typ av perioral dermatit och utvecklar en personlig behandlingsplan just för dig.',
 
             url_label: 'Få gratis konsultation',
             url: 'hudkonsultation',
-            url_title: 'Boka din kostnadsfria hudkonsultation idag'
+            url_title: 'Boka din kostnadsfria hudkonsultation för perioral dermatit idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika aknetyp, så att du snabbt och säkert blir av med problemet.',
+            content: 'Vi erbjuder noggrant anpassade och effektiva behandlingar för perioral dermatit. Dessa behandlingsplaner är utformade för att lindra symptomen snabbt och säkert.',
 
-            url_label: 'Se aknebehandlingar',
-            url: 'behandlingar/akne',
-            url_title: 'Utforska våra skräddarsydda aknebehandlingar'
+            url_label: 'Se behandlingar för perioral dermatit',
+            url: 'behandlingar/perioral-dermatit',
+            url_title: 'Utforska våra specialanpassade behandlingar för perioral dermatit'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny akne och hålla din hud i balans.',
+            content: 'Vi hjälper dig att finna en hudvårdsrutin och rekommenderar produkter speciellt anpassade för känslig hud och perioral dermatit. Detta kommer att minimera risken för framtida utbrott och hålla din hud i balans.',
 
             url_label: 'Se produkter',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
-            url_title: 'Hitta de bästa produkterna för att förebygga akne'
+            url: 'https://dahlskincare.se/produktkategorier/produktpaket/perioral-dermatit',
+            url_title: 'Hitta de bästa produkterna för att förebygga perioral dermatit'
       ),
-      new TreatmentStep(
-            title: 'Reparera',
-            content: 'När aknen är borta fokuserar vi på att reducera eventuella ärr med behandlingsmetoder som laser, microneedling och kemisk peeling för en jämn och problemfri hud.',
-
-            url_label: 'Se ärrbehandlingar',
-            url: 'behandlingar/aknearr',
-            url_title: 'Upptäck effektiva behandlingar för akneärr'
-      ),
-
 );
-$treatment_link = '<a href="problem/akne/aknebehandling" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra aknebehandlingar</a>';
 
-$types_title = 'Olika typer av akne';
+$types_title = 'Olika typer av perioral dermatit';
 
 $type_categories = array(
       new BasedTypeCategory(
-            title: 'Akne baserat på ålder',
-            content: '<p class="p200">Akne är en hudåkomma som kan drabba både ungdomar och vuxna, även om det är vanligast under tonåren. Tonårsakne uppstår ofta på grund av hormonella förändringar under puberteten. Vuxenakne förekommer också, och det kan bero på en rad olika faktorer. Hos vuxna kan akne orsakas av faktorer som stress, hormonobalans och genetik. Oavsett ålder är det viktigt att förstå att akne kan påverka människor i alla livsstadier.</p>',
+            title: 'Perioral Dermatit baserat på ålder',
+            content: '<p class="p200">Perioral dermatit är en hudåkomma som kan drabba individer i alla åldrar, men det är vanligast bland kvinnor i 20-50-årsåldern. Hos barn är tillståndet relativt ovanligt men kan förekomma i mildare former. Tonåringar och unga vuxna kan också drabbas, särskilt i samband med hormonella förändringar. Oavsett ålder är det viktigt att förstå att perioral dermatit kan påverka människor i olika livsstadier.</p>',
             types: array(
                   new BasedType(
-                        title: 'Vuxenakne',
-                        subtitle: 'Även kallat acne tarda',
+                        title: 'Perioral Dermatit hos barn',
+                        subtitle: 'Mild till måttlig',
 
-                        image_url: 'images/problems/102x102/vuxenakne.webp',
-                        image_alt: 'Bild av vuxenakne',
-                        image_title: 'Akne hos vuxna',
+                        image_url: 'images/problems/102x102/perioral-dermatit-barn.webp',
+                        image_alt: 'Bild av perioral dermatit hos barn',
+                        image_title: 'Perioral Dermatit hos barn',
 
-                        url: 'problem/akne/typer/vuxenakne',
-                        url_title: 'Utforska information om vuxenakne'
+                        url: null,
+                        url_title: null,
                   ),
                   new BasedType(
-                        title: 'Tonårsakne',
-                        subtitle: 'Även kallat acne vulgaris',
+                        title: 'Perioral Dermatit hos vuxna',
+                        subtitle: 'Vanligast bland kvinnor',
 
-                        image_url: 'images/problems/102x102/tonarsakne.webp',
-                        image_alt: 'Bild av tonårsakne',
-                        image_title: 'Akne hos tonåringar',
+                        image_url: 'images/problems/102x102/perioral-dermatit-vuxna.webp',
+                        image_alt: 'Bild av perioral dermatit hos vuxna',
+                        image_title: 'Perioral Dermatit hos vuxna',
 
-                        url: 'problem/akne/typer/tonårsakne',
-                        url_title: 'Utforska information om tonårsakne'
-                  ),
-                  new BasedType(
-                        title: 'Barnakne',
-                        subtitle: 'Även kallat acne neonatorum',
-
-                        image_url: 'images/problems/102x102/barnakne.webp',
-                        image_alt: 'Bild av barnakne',
-                        image_title: 'Akne hos barn',
-
-                        url: 'problem/akne/typer/barnakne',
-                        url_title: 'Utforska information om barnakne'
-                  ),
-
+                        url: null,
+                        url_title: null,
+                  )
             )
       ),
       new BasedTypeCategory(
-            title: 'Akne baserat på svårighetsgrad',
-            content: '<p class="p200">Akne kan variera i svårighetsgrad från milda till extremt allvarliga fall. I milda fall av akne är symptomen ofta mindre uttalade och består främst av pormaskar, medan mer allvarliga fall innefattar djupare inflammationer i form av cystor och noduler. Svårighetsgraden påverkar också hur akne påverkar en persons livskvalitet och hur den ska behandlas. Det är viktigt att diagnostisera och behandla akne utifrån dess svårighetsgrad för att säkerställa bästa möjliga behandlingsresultat och förhindra potentiella ärr och bestående skador på huden.</p>',
+            title: 'Perioral Dermatit baserat på svårighetsgrad',
+            content: '<p class="p200">Perioral dermatit kan variera i svårighetsgrad från milda fall med små röda utslag kring munnen till allvarliga fall med flera pustler och kraftig rodnad som även kan sprida sig till andra delar av ansiktet eller halsen. Svårighetsgraden av sjukdomen påverkar behandlingsval och kan ha en inverkan på patientens livskvalitet.</p>',
             types: array(
                   new BasedType(
-                        title: 'Mild akne',
-                        subtitle: 'även kallat acne comedonica',
+                        title: 'Mild perioral dermatit',
+                        subtitle: 'Små, röda utslag eller fläckar runt munnen och eventuellt näsan',
 
-                        image_url: 'images/problems/102x102/mild-akne.webp',
-                        image_alt: 'Bild av mild akne',
-                        image_title: 'Mild akne exemplifierad',
+                        image_url: 'images/problems/102x102/mild-perioral-dermatit.webp',
+                        image_alt: 'Bild av mild perioral dermatit',
+                        image_title: 'Mild perioral dermatit exemplifierad',
 
-                        url: 'problem/akne/typer/mild-akne',
-                        url_title: 'Utforska mer information om mild akne'
+                        url: null,
+                        url_title: null,
                   ),
                   new BasedType(
-                        title: 'Medelsvår akne',
-                        subtitle: 'Även kallat acne papulopustulosa',
+                        title: 'Måttlig perioral dermatit',
+                        subtitle: 'Utslag plus klåda eller brännande känsla, eventuellt med enstaka pustler',
 
-                        image_url: 'images/problems/102x102/medelsvar-akne.webp',
-                        image_alt: 'Bild av medelsvår akne',
-                        image_title: 'Medelsvår akne exemplifierad',
+                        image_url: 'images/problems/102x102/moderate-perioral-dermatit.webp',
+                        image_alt: 'Bild av måttlig perioral dermatit',
+                        image_title: 'Måttlig perioral dermatit exemplifierad',
 
-                        url: 'problem/akne/typer/medel-akne',
-                        url_title: 'Utforska mer information om medelsvår akne'
+                        url: null,
+                        url_title: null,
                   ),
                   new BasedType(
-                        title: 'Svår akne',
-                        subtitle: 'Även kallat Acne nodulocystica',
+                        title: 'Allvarlig perioral dermatit',
+                        subtitle: 'Flera pustler, kraftig rodnad och kanske även spridning till andra delar av ansiktet eller halsen',
 
-                        image_url: 'images/problems/102x102/svar-akne.webp',
-                        image_alt: 'Bild av svår akne',
-                        image_title: 'Svår akne exemplifierad',
+                        image_url: 'images/problems/102x102/severe-perioral-dermatit.webp',
+                        image_alt: 'Bild av allvarlig perioral dermatit',
+                        image_title: 'Allvarlig perioral dermatit exemplifierad',
 
-                        url: 'problem/akne/typer/svar-akne',
-                        url_title: 'Utforska mer information om svår akne'
-                  ),
-                  new BasedType(
-                        title: 'Mycket svår akne',
-                        subtitle: 'Även kallat Acne conglobata',
-
-                        image_url: 'images/problems/102x102/mycket-svar-akne.webp',
-                        image_alt: 'Bild av mycket svår akne',
-                        image_title: 'Mycket svår akne exemplifierad',
-
-                        url: 'problem/akne/typer/mycket-svar-akne',
-                        url_title: 'Utforska mer information om mycket svår akne'
+                        url: null,
+                        url_title: null,
                   ),
             )
       ),
