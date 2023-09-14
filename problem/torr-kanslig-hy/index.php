@@ -876,7 +876,7 @@ $brands = array(
 );
 
 $brands_url_label = "Se alla varumärken";
-$brands_url_title = "Varumärken för Aknebehandling";
+$brands_url_title = "Varumärken för behandling av torr och känslig hy";
 
 ?>
 

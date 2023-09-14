@@ -486,13 +486,13 @@ $articles = array(
             image_large: 'https://via.placeholder.com/872x456.webp',
             image_alt: 'När ska jag söka hjälp för min perioral dermatit?',
             image_title: 'När ska jag söka hjälp för min perioral dermatit?',
-            content: '<p class="p200">Perioral dermatit är en hudsjukdom som oftast påverkar området runt munnen och ibland näsan eller ögonen. Detta tillstånd kan vara smärtsamt, obehagligt och estetiskt störande. Trots att vissa symtom kan hanteras med över-the-counter-produkter, svarar inte alltid tillståndet väl på självbehandling.</p>
-            <p class="p200 mt-m">Om du upplever att din perioral dermatit inte förbättras eller om det påverkar din livskvalitet, kan det vara dags att söka professionell hjälp. En hudspecialist kan ställa en korrekt diagnos och utforma en skräddarsydd behandlingsplan, vilken kan inkludera specialanpassade produkter, mediciner och ibland även laserbehandlingar. Om du är bekymrad över din perioral dermatit, tveka inte att söka professionell rådgivning. Det är aldrig för tidigt eller för sent att ta kontroll över din hudhälsa.</p>',
+            content: '<p class="p200">Perioral dermatit är en hudsjukdom som oftast påverkar området runt munnen och ibland näsan eller ögonen. Detta tillstånd kan vara smärtsamt, obehagligt och estetiskt störande.</p>
+            <p class="p200 mt-m">Om du upplever att din perioral dermatit inte förbättras eller om det påverkar din livskvalitet, kan det vara dags att söka professionell hjälp. En hudterapeut kan identifiera din hudtyp och utforma en skräddarsydd behandlingsplan, vilken kan inkludera specialanpassade produkter och behandlingar. Om du är bekymrad över din perioral dermatit, tveka inte att söka professionell rådgivning. Det är aldrig för tidigt eller för sent att ta kontroll över din hy.</p>',
       ),
 
       new Article(
             title: 'När ska jag besöka AcneSpecialisten för Perioral Dermatit?',
-            content: '<p class="p200">Om du märker att din perioral dermatit påverkar din livskvalitet, eller om du har provat olika behandlingsalternativ och produkter utan framgång, är det dags att söka professionell hjälp. Ju tidigare du agerar, desto större chans att effektivt behandla och hantera ditt tillstånd. Specialister inom hudvård och dermatologi kan erbjuda skräddarsydda behandlingsplaner som är anpassade till just ditt hudproblem.</p><p class="p200 mt-m">Vi erbjuder en kostnadsfri konsultation där vi analyserar din hud och föreslår en individuell behandlingsplan. Våra specialister har omfattande erfarenhet av att behandla perioral dermatit och kan rekommendera de bästa produkterna och behandlingarna för din unika hudtyp. Tveka inte att boka en gratis konsultation för att ta första steget mot en friskare och mer komfortabel hud.</p>',
+            content: '<p class="p200">Om du märker att din perioral dermatit påverkar din livskvalitet, eller om du har provat olika behandlingsalternativ och produkter utan framgång, är det dags att söka professionell hjälp. Ju tidigare du agerar, desto större chans att effektivt behandla och hantera ditt tillstånd. Vi är specialister inom hudvård och kan erbjuda skräddarsydda behandlingsplaner som är anpassade till just ditt hudproblem.</p><p class="p200 mt-m">Vi erbjuder en kostnadsfri konsultation där vi analyserar din hud och föreslår en individuell behandlingsplan. Våra specialister har omfattande erfarenhet av att behandla perioral dermatit och kan rekommendera de bästa produkterna och behandlingarna för din unika hudtyp. Tveka inte att boka en gratis konsultation för att ta första steget mot en friskare och mer komfortabel hud.</p>',
 
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
@@ -531,7 +531,7 @@ $results = array(
 );
 
 $results_url_label = "Se fler resultat";
-$results_url_title = "se flera aknebehandlingsresultat";
+$results_url_title = "se flera behandlingsresultat";
 
 
 $reviews = array(
@@ -568,92 +568,54 @@ $review_url_label = "Läs fler omdömen";
 $review_url_title = "AcneSpecialisten Omdömen";
 
 $faq_categories = array(
-      'Generellt om akne' => array(
+      'Generellt om perioral dermatit' => array(
             new Question(
-                  title: 'Hur blir jag av med min akne snabbt?',
-                  text: '<p class="p200">Att bli av med akne snabbt är en utmaning, eftersom det inte finns någon quickfix när det gäller akne. Effektiv behandling kräver att du tar hand om din hud genom att använda rätt behandlingar och produkter som passar din specifika hudtyp och akne. För att få en skräddarsydd behandlingsplan som hjälper dig att bli av med aknen så snabbt som möjligt, rekommenderar vi att du bokar en kostnadsfri hudkonsultation hos oss. Under konsultationen kommer vi att analysera din hud och hjälpa dig att utforma en anpassad behandlingsrutin som ger dig de bästa förutsättningarna för att snabbt och effektivt behandla din akne.</p>'
+                  title: 'Vad är perioral dermatit och hur skiljer det sig från andra hudåkommor?',
+                  text: '<p class="p200">Perioral dermatit är en inflammatorisk hudsjukdom som oftast uppträder runt munnen och ibland runt ögon eller näsa. Det kännetecknas av små röda prickar, pustler och flagnande hud. Tillståndet kan vara kroniskt och tenderar att återkomma. Det skiljer sig från akne genom att det oftast inte inkluderar komedoner (svarta och vita pormaskar) och från rosacea genom att det oftast är centrerat kring munnen snarare än på kinderna och näsan. Det kan också förväxlas med eksem, men behandlingar som ofta används för eksem, som kortikosteroider, kan faktiskt förvärra perioral dermatit.</p>'
             ),
             new Question(
-                  title: 'Har jag akne även om jag bara har en finne?',
-                  text: '<p class="p200">ja, du har tekniskt sett akne även om du bara har en enstaka finne. Akne kan ta sig många olika former och innefattar alla typer av finnar, oavsett om det är enstaka eller flera, stora eller små, papler eller pustler. Många tror att de inte har akne om de endast upplever enstaka finnar då och då, men faktum är att alla dessa fall kategoriseras som akne.</p>'
+                  title: 'Vilka är de vanligaste symptomen på perioral dermatit?',
+                  text: '<p class="p200">De vanligaste symptomen inkluderar en utslagsliknande utbrott av små, röda, inflammerade bumpar eller pustler vanligtvis centrerade runt munnen. Detta kan åtföljas av mild till måttlig klåda, brännande känsla och flagnande hud. Utslagen kan ibland sprida sig till områden runt näsan eller ögonen.</p>'
             ),
             new Question(
-                  title: 'Ska jag klämma mina finnar?',
-                  text: '<p class="p200">Vi på Acnespecialisten rekommenderar att du inte klämmer finnar själv, eftersom felaktig teknik kan leda till ärrbildning och förvärra inflammationen genom att införa bakterier från dina fingrar. Det är dock sant att finnar kan behöva klämmas, men det måste göras på rätt sätt för att undvika skador på huden. Om du undviker att klämma helt kan ärrbildning också uppstå, eftersom fettsyran i finnen fortsätter att fräta på huden.</p>
-
-                        <p class="p200 mt-m">För att klämma finnar korrekt krävs både rätt utrustning och teknik. På Acnespecialisten har vi erfarna hudterapeuter som kan hjälpa dig att behandla dina finnar på ett säkert och effektivt sätt. Genom att vända dig till oss får du den expertis och omsorg du behöver för att hantera din akne på bästa sätt. Du kan läsa mer om våra aknebehandlingar och hur de kan hjälpa dig här.</p>'
+                  title: 'Är perioral dermatit relaterat till andra hudtillstånd, som exempelvis rosacea eller akne?',
+                  text: '<p class="p200">Perioral dermatit är ett unikt dermatologiskt tillstånd, men det har vissa likheter med både rosacea och akne. Det kan vara svårt att diagnostisera eftersom dess symptom liknar dem för andra hudsjukdomar. Vissa forskare tror att det kan ha en koppling till rosacea på grund av liknande inflammatoriska processer.</p>'
             ),
             new Question(
-                  title: 'Försvinner aknen efter tonåren?',
-                  text: '<p class="p200">Det är svårt att ge ett entydigt svar på den frågan eftersom det varierar från person till person. För vissa kan akne vara ett tonårsproblem som försvinner när de blir äldre, medan det för andra kan övergå till vuxenakne. Det är inte säkert att aknen försvinner efter tonåren, och det kan variera beroende på individuella faktorer som hormoner, genetik och livsstil.</p>
-
-                        <p class="p200 mt-m">Akne kan uppstå i olika faser av livet och dess svårighetsgrad varierar från person till person. Vissa individer upplever akne under tonåren, som sedan försvinner när de når vuxen ålder. Andra kan vara aknefria under tonåren, men drabbas av akne som vuxna. Den mest besvärliga situationen är när någon drabbas av akne under tonåren som sedan övergår till vuxenakne.</p>
-
-                        <p class="p200 mt-m">När man når vuxen ålder och aknen fortfarande inte har försvunnit, är det stor risk att aknen har lett till ärrbildning. Det är därför viktigt att behandla akne i alla åldrar för att förebygga och minimera risken för att drabbas av acneärr. Oavsett ålder och fas av akne, bör man söka hjälp för att behandla och kontrollera sitt tillstånd, för att minska risken för långsiktiga hudproblem som ärrbildning.</p>'
+                  title: 'Kan perioral dermatit vara en reaktion på kosmetika eller hudvårdsprodukter?',
+                  text: '<p class="p200">Det är möjligt. Yttre faktorer som starka hudvårdsprodukter, hormonella förändringar och även vissa kosmetika kan utlösa eller förvärra perioral dermatit. Dock är den exakta orsaken ofta okänd, och det kan vara en kombination av flera faktorer som bidrar till utvecklingen av detta tillstånd.</p>'
             ),
             new Question(
-                  title: 'Kan jag ha akne även om jag är vuxen?',
-                  text: '<p class="p200">Ja, akne kan drabba vuxna och det är faktiskt ganska vanligt. Vuxenakne drabbar cirka 12-22% av alla kvinnor och 3% av alla män. Den kan uppkomma vid 20-, 30- och 40-årsåldern, och ibland ännu senare. Det kallas då för vuxenakne och har också med hormonerna i din kropp att göra, men faktorerna som triggar igång din akne är lite annorlunda än vid tonårsakne.</p>
-
-                        <p class="p200 mt-m">Vid tonårsakne ökar produktionen av det manliga könshormonet i din kropp. Det, i kombination med fettproduktionen, kan leda till att du drabbas av akne. Vid vuxen ålder däremot, kan aknen bero på sådant som graviditet, menstruation, alkohol, stress och preventivmedel. Alltså, yttre faktorer som triggar igång dina hormoner och får aknen att blomma upp.</p>
-
-                       <p class="p200 mt-m">Vuxenakne kan orsakas av flera faktorer, såsom hormonella förändringar, stress, genetik och användning av olämpliga hudvårdsprodukter. Hos kvinnor kan akne ofta vara kopplad till menstruationscykeln eller hormonella förändringar i samband med graviditet och menopaus.</p>
-
-                       <p class="p200 mt-m">Sammanfattningsvis kan akne drabba personer i alla åldrar, och det är viktigt att vara medveten om att akne inte bara är ett tonårsproblem.</p>'
+                  title: 'Är det några särskilda faktorer som ökar risken för att utveckla perioral dermatit, som exempelvis livsstil eller genetik?',
+                  text: '<p class="p200">Det finns flera faktorer som kan öka risken för att utveckla perioral dermatit. Kvinnor verkar vara mer benägna att utveckla tillståndet än män, och det verkar även vara vanligare bland personer i åldern 20-45 år. Långvarig användning av topiska steroider kan också vara en riskfaktor. Livsstilsfaktorer som stress eller hormonella förändringar (som graviditet eller användning av hormonella preventivmedel) kan också spela en roll. Det är dock viktigt att notera att perioral dermatit kan drabba vem som helst, och dess exakta orsak är inte alltid känd.</p>'
             ),
-            new Question(
-                  title: 'Förvärras min akne av att jag äter choklad?',
-                  text: '<p class="p200">Nej, det är en myt att choklad direkt skulle leda till akne. Ingen vetenskaplig forskning har tydligt påvisat ett direkt samband mellan chokladkonsumtion och uppkomsten av finnar. Det som potentiellt kan påverka din akne är stress. Om du upplever stress över att du ätit choklad, kan det i sin tur bidra till akneutbrott. Men en bit choklad då och då bör inte orsaka akneutbrott hos de flesta människor.</p>'
-            ),
-            new Question(
-                  title: 'Vad kan jag göra för att bli av med min akne?',
-                  text: '<p class="p200">Att bekämpa akne effektivt kräver en individuellt anpassad strategi som kombinerar lämpliga behandlingar och hudvårdsprodukter, utformade för att passa dina unika behov och din huds specifika tillstånd. På Acnespecialisten, erbjuder vi kostnadsfria hudkonsultationer där vi kan utvärdera ditt specifika fall av akne och hjälpa till att skräddarsy en effektiv behandlingsrutin.</p>'
-            )
       ),
-      'Behandling mot akne' => array(
+      'Behandling mot perioral dermatit' => array(
             new Question(
-                  title: 'Hur många behandlingar behövs?',
-                  text: '<p class="p200">Antalet behandlingar som behövs varierar från person till person och beror på flera faktorer, som din hudtyp, svårighetsgraden av din akne och din respons på behandlingen. Vanligtvis kan du se en förbättring efter 1 till 3 veckors regelbunden behandling.</p>
-
-                       <p class="p200 mt-m">Det är viktigt att påpeka att behandlingen hos oss inte fungerar i isolering. En väsentlig del av din framgång ligger i den dagliga användningen av de rekommenderade produkterna hemma. Det är kombinationen av professionell behandling och hemmavård som ger bästa möjliga resultat.</p>
-
-                        <p class="p200 mt-m">Om du inte upplever de förväntade förbättringarna efter en tid, uppmanar vi dig att ta kontakt med din personliga hudterapeut. Tillsammans kan vi se över dina hudvårdsrutiner och de produkter du använder, för att optimera din behandlingsplan.</p>'
+                  title: 'Vilka behandlingsalternativ finns tillgängliga för perioral dermatit?',
+                  text: '<p class="p200">Det finns flera behandlingsalternativ beroende på svårighetsgraden av tillståndet. Problemet behandlas effektivt med en skräddarsydd hudvårdsrutin i kombination med ansiktsbehandlingar. Det är också viktigt att undvika utlösande faktorer, såsom starka hudvårdsprodukter eller topiska steroider. I dessa fall rekommenderas en så kallad "nollbehandling" där man undviker samliga produkter för att identifiera och eliminera det som triggat igång problemet.</p>'
             ),
             new Question(
-                  title: 'Finns det en risk att min akne återkommer?',
-                  text: '<p class="p200">Ja, det finns en risk att akne återkommer, eftersom akne kan påverkas av flera faktorer såsom genetik, hormoner, livsstil och hudvård. Personer med en genetisk benägenhet för akne kan uppleva att aknen återkommer, särskilt under perioder av hormonella förändringar som pubertet, graviditet eller menstruation. Även faktorer som stress, kost och användning av olämpliga hudvårdsprodukter kan bidra till att aknen återkommer.</p>
-                       
-                       <p class="p200 mt-m">Det är dock viktigt att komma ihåg att regelbunden och korrekt hudvård kan hålla aknen i schack. Precis som vi borstar tänderna varje dag för att hålla karies borta, behöver vi underhålla vår hud för att hålla aknen borta. Det innebär att följa en anpassad hudvårdsrutin, hantera stress och upprätthålla en hälsosam livsstil. Så länge du tar hand om din hud regelbundet och på rätt sätt, kan du förhindra att aknen återkommer.</p>'
+                  title: 'Hur lång tid tar det att se förbättringar efter påbörjad behandling?',
+                  text: '<p class="p200">Tiden det tar att se förbättringar kan variera från person till person och beror på svårighetsgraden av tillståndet samt vilken behandling som används. Vid effektiv behandling brukar förbättring synas inom några veckor, men ett fullständigt resultat kan ta några månader. Det är viktigt att följa hudterapeutens anvisningar och att fullfölja hela behandlingskuren, även om symptomen förbättras.</p>'
             ),
             new Question(
-                  title: 'Vilken är den bästa behandlingen mot akne?',
-                  text: '<p class="p200">Vilken behandling som är bäst för akne varierar beroende på individens hudtyp, aknens svårighetsgrad och orsaker till akne. Den bästa behandlingen är en skräddarsydd behandlingsplan som kombinerar rätt behandlingar, produkter och rutiner för att effektivt ta itu med den aktiva aknen och förhindra att nya utbrott uppstår. Genom att först behandla och bli av med den aktiva aknen kan du uppnå en klarare hud. Därefter är det viktigt att bibehålla resultaten med lämpliga produkter och rutiner för att motverka att nya finnar uppstår och hålla aknen under kontroll. Det rekommenderas att konsultera en av våra specialister för att få en personlig och effektiv behandlingsplan som passar just din hud och akne.</p>'
+                  title: 'Är det möjligt att behandla perioral dermatit med naturliga metoder?',
+                  text: '<p class="p200">Vissa naturliga metoder, som att ändra på kost eller livsstil, kan möjligen ha en viss effekt, men vetenskapliga bevis för deras effektivitet är oftast begränsade. I de fall där perioral dermatit orsakats av en särskilt yttre faktor brukar det räcka med att undvika denna orsak. Men i vanliga fall är orsaken oklar och det är då viktigt att söka sig till en kunnig hudterapeut som kan identifiera problemet och ta fram en effektiv behandlingsplan.</p>'
             ),
             new Question(
-                  title: 'Gör aknebehandlingen ont?',
-                  text: '<p class="p200">vi strävar efter att göra aknebehandlingen så behaglig som möjligt för våra klienter. Det är sant att akne ibland innebär inflammation i porerna och kan göra ont när de öppnas upp och töms. Men vi vill påpeka att smärtupplevelsen kan variera från person till person och bero på behandlingsmetoden som används. Vår erfarna personal är välutbildad och tar stor hänsyn till din komfort under behandlingen. Om du känner någon obehag, tveka inte att informera din acnespecialist så att de kan justera behandlingen efter dina behov.</p>'
+                  title: 'Vilka är riskerna eller bieffekterna av att behandla perioral dermatit?',
+                  text: '<p class="p200">Som med alla behandlingar finns det potentiella bieffekter. En anpassad hudvårdsplan kan dock behandla problemet effektivt samtidigt som eventuella bieffekter under behandlingen minimeras. Det är därför viktigt att vända dig till en specialist som kan förklara vad behandlingen går ut på och vad du kan förvänta dig av processen.</p>'
             ),
             new Question(
-                  title: 'Vad ska jag tänka på innan behandlingen?',
-                  text: '<p class="p200">Vi vill att din behandling ska vara så smidig och bekväm som möjligt, och vi strävar efter att göra processen enkel för dig. Du behöver inte förbereda något särskilt inför ditt besök hos oss. Kom precis som du är, och vi tar hand om resten. Vi kommer att genomföra en grundlig hudanalys och skräddarsy en behandlingsplan som passar just dig och din hudtyp. Så, du kan lita på oss och bara slappna av inför din aknebehandling.</p>'
-            ),
-            new Question(
-                  title: 'Vad ska jag tänka på efter behandling?',
-                  text: '<p class="p200">Efter din aknebehandling hos Acnespecialisten kan du uppleva att huden blir något röd och irriterad. Detta är helt normalt och en del av hudens naturliga läkningsprocess. Rödheten och irritationen kommer att avta under dagarna efter behandlingen. Det är viktigt att du fortsätter att följa den hudvårdsrutin och de produktrekommendationer vi gett dig för att stödja hudens återhämtning och maximera resultaten av behandlingen.</p>
-                        
-                        <p class="p200 mt-m">Undvik att peta eller klämma på behandlade områden för att undvika eventuell ärrbildning och infektion. Dessutom är det bra att skydda huden från solen, då den kan vara extra känslig efter behandling. Använd solskyddsmedel och undvik direkt solljus så mycket som möjligt. Kom ihåg att vi på Acnespecialisten alltid finns här för dig om du har några frågor eller funderingar efter din behandling.</p>'
-            ),
-            new Question(
-                  title: 'Eftervård efter behandlingen?',
-                  text: '<p class="p200">Eftervården efter en aknebehandling hos Acnespecialisten är lika viktig som själva behandlingen. När aknen är utklämd och borta är det viktigt att förebygga uppkomsten av ny akne. Om du inte följer din eftervårdsplan kommer du att få resultat, men det kommer inte vara bestående, eftersom akneproduktionen sätter igång igen kort tid efter behandlingen.</p>
-
-                  <p class="p200 mt-m">För att hålla huden i kontroll och balans är det viktigt att följa de råd och rekommendationer vi ger dig angående hudvårdsrutin och produkter. Kontinuerlig behandling och förebyggande åtgärder är avgörande för att uppnå och bibehålla en klar och frisk hud. Kom ihåg att vi på Acnespecialisten alltid finns här för att hjälpa och stötta dig genom hela processen, både under och efter din behandling.</p>',
+                  title: 'Finns det något sätt att förebygga återkommande episoder av perioral dermatit?',
+                  text: '<p class="p200">Eftersom den exakta orsaken till perioral dermatit inte alltid är känd, kan det vara svårt att förebygga återkommande episoder helt och hållet. Undvikande av kända utlösande faktorer, såsom topiska steroider och vissa hudvårdsprodukter, kan dock minska risken för återfall. Genom att behandla huden med effektiva hudvårdsprodukter kan du anpassa behandlingens intensitet beroende på huden.</p>'
             ),
       ),
 );
 
 $faq_url_label = "Läs fler frågor & svar";
-$faq_url_title = "läs flera frågor relaterat till akne";
+$faq_url_title = "läs flera frågor relaterat till perioral dermatit";
 
 $skin_guide_articles = array(
       new SkinGuideArticle(
@@ -705,41 +667,41 @@ $skin_guide_articles = array(
 );
 
 $skinguide_url_label = "Läs fler guider";
-$skinguide_url_title = "Läs fler guider om akne";
+$skinguide_url_title = "Läs fler guider om perioral dermatit";
 
 $specialists = array(
       new Specialist(
             name: 'Cazzandra Lindberg',
             title: 'Hudterapeut sedan 2015',
             image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
-            image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i aknebehandling',
-            image_title: 'Cazzandra Lindberg - Expert på aknebehandling'
+            image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i behandling av perioral dermatit',
+            image_title: 'Cazzandra Lindberg - Expert på behandling av perioral dermatit'
       ),
       new Specialist(
             name: 'Veronika Benedik',
             title: 'Hudterapeut sedan 1999',
             image: 'images/specialists/312x312/hudterapeut-veronika.webp',
-            image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på akne',
-            image_title: 'Veronika Benedik - Specialist inom aknevård'
+            image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på perioral dermatit',
+            image_title: 'Veronika Benedik - Specialist inom perioral dermatit vård'
       ),
       new Specialist(
             name: 'Amira Maqboul',
             title: 'Hudterapeut sedan 2017',
             image: 'images/specialists/312x312/hudterapeut-amira.webp',
             image_alt: 'Amira Maqboul, hudterapeut med kunskap inom aknehantering',
-            image_title: 'Amira Maqboul - Hudterapeut specialiserad på akne'
+            image_title: 'Amira Maqboul - Hudterapeut specialiserad på perioral dermatit'
       ),
       new Specialist(
             name: 'Vilma Libom',
             title: 'Hudterapeut sedan 2019',
             image: 'images/specialists/312x312/hudterapeut-vilma.webp',
-            image_alt: 'Vilma Libom, hudterapeut med inriktning mot aknebehandling',
-            image_title: 'Vilma Libom - Expert inom aknebehandling'
+            image_alt: 'Vilma Libom, hudterapeut med inriktning mot behandling av perioral dermatit',
+            image_title: 'Vilma Libom - Expert inom behandling av perioral dermatit'
       )
 );
 
 $specialist_url_label = "Se alla specialister";
-$specialist_url_title = "Akne Specialiserade Hudterapeuter";
+$specialist_url_title = "Perioral dermatit Specialiserade Hudterapeuter";
 
 $related_problems = array(
       new RelatedProblem(
@@ -838,7 +800,7 @@ $brands = array(
 );
 
 $brands_url_label = "Se alla varumärken";
-$brands_url_title = "Varumärken för Aknebehandling";
+$brands_url_title = "Varumärken för behandling av perioral dermatit";
 
 ?>
 
