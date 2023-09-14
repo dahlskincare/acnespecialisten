@@ -94,9 +94,9 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Vem',
             title: 'får milier?',
-            content: '<p class="p200">Milier är en hudåkomma som kan drabba människor i alla åldrar, från spädbarn till äldre. Men det finns vissa grupper som är mer utsatta än andra. I det följande kommer vi att gå igenom de olika demografierna och förklara varför vissa människor är mer benägna att få milier. För det första är milier mycket vanliga hos nyfödda och spädbarn. Detta beror på att deras hud fortfarande utvecklas och det kan därför vara lättare för keratin eller döda hudceller att bli instängda. För spädbarn försvinner ofta milier av sig själv inom några veckor eller månader. I vuxen ålder kan milier drabba både män och kvinnor, men det är särskilt vanligt under perioder av hormonella förändringar som graviditet, menopaus eller menstruationscykeln. Hormonella obalanser kan påverka hudens talgproduktion och därmed bidra till att keratin blir instängd.</p>',
-            extended_content: '<p class="p200 mt-xl">Ett annat viktigt faktum är att personer med vissa hudtyper och hudtillstånd, såsom akne eller eksem, kan vara mer benägna att utveckla milier. Om du redan har en hudåkomma som innebär ökad talgproduktion eller hudirritation, kan detta öka chansen för att du får milier. Ytterligare en faktor som kan spela in är livsstil och skönhetsvanor. Personer som använder tung makeup eller hudvårdsprodukter som inte är icke-komedogena kan uppleva en högre frekvens av milier. Detta gäller särskilt för produkter som är oljebaserade eller innehåller ingredienser som kan blockera porer.</p>
-            <p class="p200 mt-xl">Slutligen bör vi inte förbise de genetiska faktorerna. Om det finns en historia av milier i din familj, kan du vara genetiskt predisponerad att utveckla dem. Detta kan förklara varför vissa personer, trots att ta väl hand om sin hud och undvika kända utlösande faktorer, ändå utvecklar milier. Sammanfattningsvis kan milier drabba i princip vem som helst, men det finns definitivt vissa grupper och livsstilar som ökar sannolikheten för att utveckla denna hudåkomma. Oavsett din ålder eller bakgrund, om du är orolig över milier, är det alltid en god idé att konsultera en hudspecialist för diagnos och behandling.</p>',
+            content: '<p class="p200">Milier är en hudåkomma som kan drabba människor i alla åldrar, från spädbarn till äldre. Men det finns vissa grupper som är mer utsatta än andra. I det följande kommer vi att gå igenom de olika demografierna och förklara varför vissa människor är mer benägna att få milier. För det första är milier mycket vanliga hos nyfödda och spädbarn. Detta beror på att deras hud fortfarande utvecklas och det kan därför vara lättare för keratin eller döda hudceller att bli instängda. För spädbarn försvinner ofta milier av sig själv inom några veckor eller månader. I vuxen ålder kan milier drabba både män och kvinnor, men det är särskilt vanligt under perioder av hormonella förändringar. Hormonella obalanser kan påverka hudens talgproduktion och därmed bidra till att keratin blir instängd.</p>',
+            extended_content: '<p class="p200 mt-xl">Ett annat viktigt faktum är att personer med vissa hudtyper och hudtillstånd, såsom akne eller eksem, kan vara mer benägna att utveckla milier. Om du redan har en hudåkomma som innebär ökad talgproduktion eller hudirritation, kan detta öka chansen för att du får milier. Ytterligare en faktor som kan spela in är livsstil och skönhetsvanor.</p>
+            <p class="p200 mt-xl">Slutligen bör vi inte förbise de genetiska faktorerna. Om det finns en historia av milier i din familj, kan du vara genetiskt predisponerad att utveckla dem. Detta kan förklara varför vissa personer, trots att ta väl hand om sin hud och undvika kända utlösande faktorer, ändå utvecklar milier. Sammanfattningsvis kan milier drabba i princip vem som helst, men det finns vissa grupper och livsstilar som ökar sannolikheten för att utveckla denna hudåkomma. Oavsett din ålder eller bakgrund, om du är orolig över milier, är det alltid en god idé att konsultera en hudspecialist för att identifiera problemet och skräddarsy behandling.</p>',
 
             icons: array('who-infants' => 'Barn', 'who-teenagers' => 'Ungdommar', 'who-adults' => 'Vuxna', 'who-elders' => 'Män & Kvinnor')
       ),
@@ -104,15 +104,15 @@ $trivias = array(
             prefix: 'Var',
             title: 'får man milier?',
             content: '<p class="p200">Milier kan uppträda på olika delar av kroppen, men de är mest framträdande i ansiktet, speciellt runt ögonen, kinderna och på näsan. De små, vita eller gula cystorna kan också ses på andra områden och detta kommer att utforskas ytterligare här. I ansiktet är områdena runt ögonen och på kindbenen särskilt känsliga för milier eftersom huden här är tunnare och mindre utsatt för naturlig exfoliering genom friktion. Detta gör det lättare för keratin och andra hudceller att bli instängda, vilket leder till utvecklingen av milier. Människor som ofta använder ögonkräm eller tung makeup i dessa områden kan vara mer mottagliga.</p>',
-            extended_content: '<p class="p200 mt-xl">Bortom ansiktet kan milier även dyka upp på halsen, bröstet och till och med genitala områden. I dessa fall kan orsaken vara en kombination av dålig hygien, friktion från kläder och användning av olämpliga hudvårdsprodukter. Till exempel kan vissa kroppslotioner och krämer som innehåller tunga oljor eller komedogena ingredienser förvärra problemet. Det är också viktigt att notera att milier kan uppträda som en reaktion på hudskador eller procedurer. Om du nyligen har genomgått en hudbehandling som laserterapi eller dermabrasion, eller om du har haft en skada som har orsakat blåmärken eller sår, kan detta störa hudens naturliga regenereringsprocess och därmed öka risken för milier.</p>
-            <p class="p200 mt-xl">Milier kan även uppträda på ögonlocken, en plats där huden är särskilt tunn och känslig. Här kan användning av oljebaserad ögonmakeup eller ögonkräm vara en bidragande faktor. Det är viktigt att alltid ta bort makeup noggrant och att använda produkter som är märkta som icke-komedogena, speciellt om du är benägen att utveckla milier. Sammanfattningsvis kan milier uppträda på en rad olika områden av kroppen, men de är särskilt vanliga i ansiktet och på andra känsliga eller tunna hudområden. Oavsett var de dyker upp är det viktigt att förstå de underliggande orsakerna och att vidta lämpliga åtgärder för att förhindra dem, vilket kan inkludera ändringar i hudvårdsrutin eller konsultation med en hudspecialist.</p>',
+            extended_content: '<p class="p200 mt-xl">Bortom ansiktet kan milier även dyka upp på halsen, bröstet och andra områden. Milier kan även uppträda på ögonlocken, en plats där huden är särskilt tunn och känslig. Sammanfattningsvis kan milier uppträda på en rad olika områden av kroppen, men de är särskilt vanliga i ansiktet och på andra känsliga eller tunna hudområden. Oavsett var de dyker upp är det viktigt att förstå de underliggande orsakerna och att vidta lämpliga åtgärder för att behandla och förhindra dem.</p>',
             icons: array('who-infants' => 'Ansiktet', 'who-teenagers' => 'Ryggen', 'who-adults' => 'Bröstet', 'who-elders' => 'Axlarna')
       ),
 );
+
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din aknetyp och skapar en individuell behandlingsplan.',
+            content: 'Hos AcneSpecialisten matchas du med en personlig hudterapeut som hjälper dig att identifierar dina milier och skapar en individuell behandlingsplan.',
 
             url_label: 'Få gratis konsultation',
             url: 'hudkonsultation',
@@ -120,30 +120,14 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika aknetyp, så att du snabbt och säkert blir av med problemet.',
+            content: 'Vi erbjuder målinriktade och effektiva behandlingar för milier, anpassade till din hud och dess unika behov. Vårt mål är att du ska kunna bli av med dina milier på ett säkert och effektivt sätt.',
 
-            url_label: 'Se aknebehandlingar',
-            url: 'behandlingar/akne',
-            url_title: 'Utforska våra skräddarsydda aknebehandlingar'
+            url_label: 'Se milierbehandlingar',
+            url: 'behandlingar/milier',
+            url_title: 'Utforska våra skräddarsydda behandlingar för milier'
       ),
-      new TreatmentStep(
-            title: 'Förebygga',
-            content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny akne och hålla din hud i balans.',
-
-            url_label: 'Se produkter',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
-            url_title: 'Hitta de bästa produkterna för att förebygga akne'
-      ),
-      new TreatmentStep(
-            title: 'Reparera',
-            content: 'När aknen är borta fokuserar vi på att reducera eventuella ärr med behandlingsmetoder som laser, microneedling och kemisk peeling för en jämn och problemfri hud.',
-
-            url_label: 'Se ärrbehandlingar',
-            url: 'behandlingar/aknearr',
-            url_title: 'Upptäck effektiva behandlingar för akneärr'
-      ),
-
 );
+
 $treatment_link = '<a href="problem/akne/aknebehandling" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra aknebehandlingar</a>';
 
 $types_title = 'Olika typer av akne';
