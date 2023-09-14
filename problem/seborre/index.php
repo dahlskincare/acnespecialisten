@@ -667,9 +667,13 @@ $brands_url_title = "Varumärken för Aknebehandling";
                                     <h2 class="h600"><?php echo $title ?></h2>
                                     <div class="mt-m aka">
                                           <span class="p200 l10n">Även kallat</span>
-                                          <?php foreach ($akas as $aka) { ?>
-                                                <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="b200 underline aka"><?php echo $aka->label ?></a>
-                                          <?php } ?>
+                                          <?php foreach ($akas as $aka) {
+                                                if (isset($aka->url)) { ?>
+                                                      <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="b200 underline aka"><?php echo $aka->label ?></a>
+                                                <?php } else { ?>
+                                                      <span class="b200 aka"><?php echo $aka->label ?></span>
+                                          <?php }
+                                          } ?>
                                           <div class="mt-xl">
                                                 <div class="columns is-2 is-variable">
                                                       <div class="column">
@@ -696,9 +700,11 @@ $brands_url_title = "Varumärken för Aknebehandling";
 
                               <?php foreach ($akas as $aka) { ?>
                                     <div>
-                                          <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="mt-xs button b50 bright">
-                                                <?php echo $aka->label ?>
-                                          </a>
+                                          <?php if (isset($aka->url)) { ?>
+                                                <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="mt-xs button b50 bright"><?php echo $aka->label ?></a>
+                                          <?php } else { ?>
+                                                <span class="mt-xs button b50 bright"><?php echo $aka->label ?></span>
+                                          <?php } ?>
                                     </div>
                               <?php } ?>
                               <hr class="mt-xl" />
@@ -733,9 +739,13 @@ $brands_url_title = "Varumärken för Aknebehandling";
                                     <h1 class="h600"><?php echo $title ?></h1>
                                     <div class="mt-s">
                                           <span class="h200 l10n">Även känt som:</span>
-                                          <?php foreach ($akas as $aka) { ?>
-                                                <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="b200 underline aka"><?php echo $aka->label ?></a>
-                                          <?php } ?>
+                                          <?php foreach ($akas as $aka) {
+                                                if (isset($aka->url)) { ?>
+                                                      <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="b200 underline aka"><?php echo $aka->label ?></a>
+                                                <?php } else { ?>
+                                                      <span class="b200 aka"><?php echo $aka->label ?></span>
+                                          <?php }
+                                          } ?>
                                     </div>
                                     <p class="mt-s p200"><?php echo $description ?></p>
                                     <div class="mt-xl flex-row" id="book-buttons">
