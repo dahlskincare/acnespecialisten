@@ -57,7 +57,7 @@ $floating_booking_url_title = "Boka Behandling för Torr och Känslig Hy";
 
 
 $nav_buttons = array(
-      'about' => 'Om akne',
+      'about' => 'Om torr och känslig hy',
       'approach' => 'Metoden',
       'types' => 'Typer',
       'symptoms' => 'Symptom',
