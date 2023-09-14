@@ -21,17 +21,17 @@ $akas = [
       new Link(
             label: 'Yttorr hy',
             url: null,
-            title: null,
+            title: 'Yttorr hy',
       ),
       new Link(
             label: 'Ömtålig hy',
             url: null,
-            title: null,
+            title: 'Ömtålig hy',
       ),
       new Link(
             label: 'Reaktiv hy',
             url: null,
-            title: null,
+            title: 'Reaktiv hy',
       ),
 ];
 
