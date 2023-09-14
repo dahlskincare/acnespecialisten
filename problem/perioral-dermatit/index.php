@@ -207,96 +207,41 @@ $type_categories = array(
             )
       ),
       new BasedTypeCategory(
-            title: 'Akne baserat på yttre faktorer',
-            content: '<p class="p200">Yttre faktorer kan också påverka uppkomsten av akne. Exempel på dessa är sol, friktion, kosmetika, mediciner och miljöfaktorer. Dessa kan bidra till eller förvärra akne genom att irritera huden, täppa till porer eller påverka hudens talgproduktion.</p>',
+            title: 'Perioral Dermatit baserat på yttre faktorer',
+            content: '<p class="p200">Yttre faktorer kan spela en viktig roll i utvecklingen och förvärringen av perioral dermatit. Dessa kan inkludera allt från kosmetiska produkter och hygienartiklar till miljömässiga förhållanden som kyla eller fuktighet. Det är viktigt att förstå hur dessa faktorer kan interagera med din hud för att bäst hantera och behandla tillståndet.</p>',
             types: array(
                   new BasedType(
-                        title: 'Mallorca akne',
-                        subtitle: 'även kallat Acne aestivalis',
+                        title: 'Kosmetiska produkter',
+                        subtitle: 'Användning av olämpliga kosmetiska produkter',
 
-                        image_url: 'images/problems/102x102/mallorca-akne.webp',
-                        image_alt: 'Bild av Mallorca akne',
-                        image_title: 'Exempel på Mallorca akne',
+                        image_url: 'images/problems/102x102/cosmetic-products.webp',
+                        image_alt: 'Bild av kosmetiska produkter',
+                        image_title: 'Kosmetiska produkter och perioral dermatit',
 
-                        url: 'problem/akne/typer/mallorca-akne',
-                        url_title: 'Läs mer om hur solen kan orsaka Mallorca akne'
+                        url: null,
+                        url_title: null,
                   ),
                   new BasedType(
-                        title: 'Hormonell akne',
-                        subtitle: 'akne orsakad av hormoner',
+                        title: 'Miljömässiga faktorer',
+                        subtitle: 'Kyla, värme, fuktighet och torr luft',
 
-                        image_url: 'images/problems/102x102/hormonell-akne.webp',
-                        image_alt: 'Bild av hormonell akne',
-                        image_title: 'Exempel på hormonell akne',
+                        image_url: 'images/problems/102x102/environmental-factors.webp',
+                        image_alt: 'Bild av miljömässiga faktorer',
+                        image_title: 'Miljömässiga faktorer och perioral dermatit',
 
-                        url: 'problem/akne/typer/hormonell-akne',
-                        url_title: 'Utforska mer om hur hormoner kan framkalla akne'
+                        url: null,
+                        url_title: null,
                   ),
                   new BasedType(
-                        title: 'kosmetika akne',
-                        subtitle: 'Även kallat Acne cosmetica',
+                        title: 'Hygienartiklar',
+                        subtitle: 'Tandkräm, munskölj och andra produkter',
 
-                        image_url: 'images/problems/102x102/kosmetika-akne.webp',
-                        image_alt: 'Bild av kosmetika akne',
-                        image_title: 'Exempel på kosmetika akne',
+                        image_url: 'images/problems/102x102/hygiene-products.webp',
+                        image_alt: 'Bild av hygienartiklar',
+                        image_title: 'Hygienartiklar och perioral dermatit',
 
-                        url: 'problem/akne/typer/kosmetika-akne',
-                        url_title: 'Lär dig mer om hur kosmetika kan ge akne'
-                  ),
-                  new BasedType(
-                        title: 'Akne från pillande',
-                        subtitle: 'Även kallat Acne exoriée ',
-
-                        image_url: 'images/problems/102x102/pill-akne.webp',
-                        image_alt: 'Bild av pill akne',
-                        image_title: 'Exempel på pill akne',
-
-                        url: 'problem/akne/typer/acne-exoriee',
-                        url_title: 'Läs mer om hur pillande kan leda till akne'
-                  ),
-                  new BasedType(
-                        title: 'Friktionsakne',
-                        subtitle: 'Även kallat Acne mechanica',
-
-                        image_url: 'images/problems/102x102/friktions-akne.webp',
-                        image_alt: 'Bild av friktions akne',
-                        image_title: 'Exempel på friktions akne',
-
-                        url: 'problem/akne/typer/akne-mekanisk',
-                        url_title: 'Utforska mer om hur friktion kan orsaka akne'
-                  ),
-                  new BasedType(
-                        title: 'Läkemedelsakne',
-                        subtitle: 'Även kallat Acne medicamentosa',
-
-                        image_url: 'images/problems/102x102/lakemedelsakne.webp',
-                        image_alt: 'Bild av läkemedelsakne',
-                        image_title: 'Exempel på läkemedelsakne',
-
-                        url: 'problem/akne/typer/lakemedelsakne',
-                        url_title: 'Lär dig mer om hur läkemedel kan orsaka akne'
-                  ),
-                  new BasedType(
-                        title: 'Kontaktakne',
-                        subtitle: 'Även kallat Acne venenata',
-
-                        image_url: 'images/problems/102x102/kontakt-akne.webp',
-                        image_alt: 'Bild av kontaktakne',
-                        image_title: 'Exempel på kontaktakne',
-
-                        url: 'problem/akne/typer/kontakt-akne',
-                        url_title: 'Utforska mer om hur direktkontakt kan påverka akne'
-                  ),
-                  new BasedType(
-                        title: 'Svampakne',
-                        subtitle: 'Även kallat fungal acne',
-
-                        image_url: 'images/problems/102x102/svamp-akne.webp',
-                        image_alt: 'Bild av svampakne',
-                        image_title: 'Exempel på svampakne',
-
-                        url: 'problem/akne/typer/fungal-akne',
-                        url_title: 'Lär dig mer om hur svamp relateras till akne'
+                        url: null,
+                        url_title: null,
                   )
             )
       ),
