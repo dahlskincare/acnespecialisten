@@ -186,7 +186,7 @@ $problems['arr-fran-finnar'] = new Problem(
 );
 $problems['perioral-dermatit'] = new Problem(
       label: 'Perioral dermatit',
-      url: 'problem/perioral-dermatitis',
+      url: 'problem/perioral-dermatit',
       url_title: 'Perioral dermatit',
       consultation_url: 'hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
