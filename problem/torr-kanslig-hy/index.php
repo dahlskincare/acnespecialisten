@@ -329,19 +329,6 @@ $symptoms_title = 'Torr och känslig hy symptom';
 
 $symptoms = array(
       new Symptom(
-            name: 'Öppna komedoner',
-            aka: 'Kända som pormaskar',
-            content: 'Pormaskar (öppna komedoner) är små, mörka prickar som uppstår när en por täpps igen av talg (hudens naturliga olja) och döda hudceller. De är ofta svarta eller bruna på grund av oxidation, som inträffar när melanin (hudens pigment) kommer i kontakt med luft. Pormaskar kan vara platta eller lätt upphöjda och är vanligt förekommande på näsan, kinderna, pannan och hakan.',
-
-            url_label: null,
-            url: null,
-            url_title: null,
-
-            image: 'images/symptoms/102x102/komedoner-oppna.webp',
-            image_alt: 'Bild av öppna komedoner (pormaskar)',
-            image_title: 'Öppna komedoner (pormaskar)'
-      ),
-      new Symptom(
           name: 'Rödhet',
           aka: 'Hudrodnad',
           content: 'Huden kan visa tecken på rodnad, särskilt efter exponering för väder eller kosmetiska produkter.',
@@ -350,32 +337,163 @@ $symptoms = array(
           url: null,
           url_title: null,
           
-          image: 'images/symptoms/102x102/redness.webp',
+          image: 'images/symptoms/102x102/rodnad.webp',
           image_alt: 'Bild av hud med rodnad',
           image_title: 'Rödhet i huden'
       ),
+      new Symptom(
+          name: 'Klåda',
+          aka: 'Pruritus',
+          content: 'Torr och känslig hy kan vara mycket irriterande och klåda är en vanlig känsla.',
+          
+          url_label: null,
+          url: null,
+          url_title: null,
+          
+          image: 'images/symptoms/102x102/klada.webp',
+          image_alt: 'Bild av hud med klåda',
+          image_title: 'Klåda'
+      ),
+      new Symptom(
+          name: 'Brännande Känsla',
+          aka: 'Hudbränna',
+          content: 'Det kan kännas som att huden bränner, särskilt efter applicering av hudvårdsprodukter eller exponering för vissa miljöfaktorer.',
+          
+          url_label: null,
+          url: null,
+          url_title: null,
+          
+          image: 'images/symptoms/102x102/brannande-hy.webp',
+          image_alt: 'Bild av hud med brännande känsla',
+          image_title: 'Brännande Känsla'
+      ),
+      new Symptom(
+          name: 'Hudflagor eller Fjällande Hud',
+          aka: 'Desquamation',
+          content: 'Det är vanligt att se små hudflagor, vilket är ett tecken på extrem torrhet.',
+          
+          url_label: null,
+          url: null,
+          url_title: null,
+          
+          image: 'images/symptoms/102x102/hudflagor.webp',
+          image_alt: 'Bild av hud med hudflagor eller fjällande hud',
+          image_title: 'Hudflagor eller Fjällande Hud'
+      ),
+      new Symptom(
+          name: 'Sprickor eller Skåror',
+          aka: 'Hudsprickor',
+          content: 'I mer allvarliga fall kan huden bli så torr att den spricker eller får små skåror, vilket kan vara mycket smärtsamt.',
+          
+          url_label: null,
+          url: null,
+          url_title: null,
+          
+          image: 'images/symptoms/102x102/sprickor.webp',
+          image_alt: 'Bild av hud med sprickor eller skåror',
+          image_title: 'Sprickor eller Skåror'
+      ),
+      new Symptom(
+          name: 'Känslighet för Produkter',
+          aka: 'Produktreaktion',
+          content: 'En reaktion på kosmetika, tvål, eller andra hudvårdsprodukter är vanligt.',
+          
+          url_label: null,
+          url: null,
+          url_title: null,
+          
+          image: 'images/symptoms/102x102/kanslighet-produkter.webp',
+          image_alt: 'Bild av hud känslig för produkter',
+          image_title: 'Känslighet för Produkter'
+      ),
+      new Symptom(
+          name: 'Stramhet i huden',
+          aka: 'Hudstramhet',
+          content: 'Huden kan kännas stram, särskilt efter tvätt eller bad.',
+          
+          url_label: null,
+          url: null,
+          url_title: null,
+          
+          image: 'images/symptoms/102x102/stram-hy.webp',
+          image_alt: 'Bild av hud med stramhet',
+          image_title: 'Stramhet i huden'
+      ),
+      new Symptom(
+          name: 'Ojämn hudton eller hyperpigmentering',
+          aka: 'Ojämn hudfärg',
+          content: 'I vissa fall kan torr och känslig hud leda till ojämn hudton eller mörka fläckar.',
+          
+          url_label: null,
+          url: null,
+          url_title: null,
+          
+          image: 'images/symptoms/102x102/ojamn-hudtonwebp',
+          image_alt: 'Bild av hud med ojämn ton eller hyperpigmentering',
+          image_title: 'Ojämn hudton eller hyperpigmentering'
+      ),
+      new Symptom(
+          name: 'Små knottror eller utslag',
+          aka: 'Hudknottror',
+          content: 'I vissa fall kan torr och känslig hy leda till små, icke-infekterade knottror på huden.',
+          
+          url_label: null,
+          url: null,
+          url_title: null,
+          
+          image: 'images/symptoms/102x102/knottror.webp',
+          image_alt: 'Bild av hud med små knottror eller utslag',
+          image_title: 'Små knottror eller utslag'
+      ),
+      new Symptom(
+          name: 'Ökad reaktivitet',
+          aka: 'Reaktiv hud',
+          content: 'Huden kan reagera mer än normalt på väderförändringar, som värme, kyla, eller vind.',
+          
+          url_label: null,
+          url: null,
+          url_title: null,
+          
+          image: 'images/symptoms/102x102/reaktivitet.webp',
+          image_alt: 'Bild av hud med ökad reaktivitet',
+          image_title: 'Ökad reaktivitet'
+      ),
+      new Symptom(
+          name: 'Torrhet runt ögonen, näsan eller munnen',
+          aka: 'Specifik torrhet',
+          content: 'Dessa områden är särskilt känsliga och kan visa tecken på torrhet och känslighet först.',
+          
+          url_label: null,
+          url: null,
+          url_title: null,
+          
+          image: 'images/symptoms/102x102/torrhet-ogon-nasa-mun.webp',
+          image_alt: 'Bild av hud med torrhet runt ögonen, näsan eller munnen',
+          image_title: 'Torrhet runt ögonen, näsan eller munnen'
+      ),
+
 );
 
-$headline01 = "01. Identifiera din akne";
+$headline01 = "01. Identifiera din torra och känsliga hy";
 
 $service = new Service(
-      title: 'Konsultation',
+      title: 'Konsultation för Torr och Känslig Hy',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Vid ett personligt möte med en acnespecialist utförs en undersökning av din akne. Vi tar före-bilder på din hud och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
+      content: 'Vid ett personligt möte med en specialist inom torr och känslig hy utförs en omfattande hudanalys. Vi tar före-bilder på din hud och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina unika behov och hudtyp.',
 
-      image_small: 'images/services/200x200/konsultation.webp',
-      image_large: 'images/services/200x200/konsultation.webp',
-      image_alt: 'Bild av en konsultation för aknebehandling',
-      image_title: 'Konsultation för aknebehandling',
+      image_small: 'images/services/200x200/konsultation_torr-kanslig-hy.webp',
+      image_large: 'images/services/200x200/konsultation_torr-kanslig-hy.webp',
+      image_alt: 'Bild av en konsultation för behandling av torr och känslig hy',
+      image_title: 'Konsultation för Torr och Känslig Hy',
 
-      url_label: 'Läs mer om vår hudkonsultation',
-      url: 'hudkonsultation',
-      url_title: 'Klicka här för att läsa mer om gratis hudkonsultation',
+      url_label: 'Läs mer om vår konsultation för torr och känslig hy',
+      url: 'hudkonsultation-for-torr-och-kanslig-hy',
+      url_title: 'Klicka här för att läsa mer om gratis konsultation för torr och känslig hy',
 
-      consultation_url_label: 'Boka tid för hudkonsultation',
-      consultation_url: 'consultation-booking?problem=acne',
-      consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för akne',
+      consultation_url_label: 'Boka tid för konsultation av torr och känslig hy',
+      consultation_url: 'consultation-booking?problem=torr-kanslig-hy',
+      consultation_url_title: 'Klicka för att boka tid för en konsultation för torr och känslig hy',
 
       booking_url_label: null,
       booking_url: null,
@@ -383,122 +501,52 @@ $service = new Service(
 
 );
 
-$headline02 = "02. Behandla aktiv akne";
+$headline02 = "02. Behandla torr och känslig hy";
 
 $services = array(
       new Service(
-            title: 'Ansiktsbehandling mot akne',
+            title: 'Ansiktsbehandling för torr och känslig hy',
             duration: '60 min',
             price: '995 kr',
-            content: 'En effektiv ansiktsbehandling mot akne fokuserar på att noggrant extrahera orenheter som orsakar inflammation och skador i huden. Genom att försiktigt klämma ut akne och pormaskar kan behandlingen bidra till att förebygga ärrbildning och främja en snabbare läkning.',
+            content: 'Denna ansiktsbehandling är specialdesignad för att lindra torr och känslig hud. Behandlingen innehåller djup rengöring, fuktgivande masker och serum som hjälper till att återställa hudens naturliga fuktbalans och minska irritation.',
 
-            image_small: 'images/services/200x200/ansiktsbehandling-akne.webp',
-            image_large: 'images/services/200x200/ansiktsbehandling-akne.webp',
-            image_alt: 'Bild av en ansiktsbehandling mot akne',
-            image_title: 'Ansiktsbehandling mot akne',
+            image_small: 'images/services/200x200/ansiktsbehandling-torr-kanslig-hy.webp',
+            image_large: 'images/services/200x200/ansiktsbehandling-torr-kanslig-hy.webp',
+            image_alt: 'Bild av en ansiktsbehandling för torr och känslig hy',
+            image_title: 'Ansiktsbehandling för torr och känslig hy',
 
-            url: 'behandlingar/ansiktsbehandling-acne',
-            url_label: 'Läs mer om ansiktsbehandling mot akne',
-            url_title: 'Klicka här för att läsa mer om ansiktsbehandling mot akne',
-
-            consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url: 'consultation-booking?problem=acne&service=classicFacials',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling mot akne',
-
-            booking_url_label: 'Boka tid för ansiktsbehandling mot akne',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
-            booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling mot akne'
-      ),
-      new Service(
-            title: 'Laser mot akne',
-            duration: '50 min',
-            price: '2595 kr',
-            content: 'En avancerad laserbehandling mot akne erbjuder en effektiv lösning för att bekämpa aktiv akne och ärr som kan uppstå efter utbrott. Lasertekniken riktar sig mot de bakterier som orsakar inflammation och hjälper till att minska produktionen av talg, vilket minskar risken för framtida utbrott.',
-
-            image_small: 'images/services/200x200/laser-akne.webp',
-            image_large: 'images/services/200x200/laser-akne.webp',
-            image_alt: 'Bild av laserbehandling mot akne',
-            image_title: 'Laserbehandling mot akne',
-
-            url_label: 'Läs mer om laser mot akne',
-            url: 'behandlingar/laser-akne',
-            url_title: 'Klicka här för att läsa mer om laserbehandling mot akne',
+            url: 'behandlingar/ansiktsbehandling-torr-kanslig',
+            url_label: 'Läs mer om ansiktsbehandling för torr och känslig hy',
+            url_title: 'Klicka här för att läsa mer om ansiktsbehandling för torr och känslig hy',
 
             consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url: 'consultation-booking?problem=acne&service=laser',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling mot akne',
+            consultation_url: 'consultation-booking?problem=dry-sensitive&service=classicFacials',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling för torr och känslig hy',
 
-            booking_url_label: 'Boka tid för laserbehandling mot akne',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
-            booking_url_title: 'Klicka för att boka tid för en laserbehandling mot akne'
-      ),
-      new Service(
-            title: 'Kemisk peeling mot akne',
-            duration: '30 min',
-            price: '1595 kr',
-            content: 'Kemisk peeling är en effektiv metod för att behandla akne. Genom att använda en speciellt framtagen lösning för att exfoliera huden, främjar kemisk peeling cellförnyelse, rensar tilltäppta porer och minskar inflammation. Resultatet är en jämnare hudton, mindre utbrott och färre synliga ärr. Det är en enkel och effektiv strategi för att ta kontroll över din akne och förbättra din hudhälsa.',
-
-            image_small: 'images/services/200x200/kemisk-peeling-akne.webp',
-            image_large: 'images/services/200x200/kemisk-peeling-akne.webp',
-            image_alt: 'Bild av kemisk peeling mot akne',
-            image_title: 'Kemisk peeling mot akne behandling',
-
-            url: 'behandlingar/kemisk-peeling-akne',
-            url_label: 'Läs mer om kemisk peeling mot akne',
-            url_title: 'Klicka här för att läsa mer om kemisk peeling mot akne',
-
-            consultation_url: 'consultation-booking?problem=acne&service=chemicalPeeling',
-            consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för kemisk peeling mot akne',
-
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
-            booking_url_label: 'Boka tid för kemisk peeling mot akne',
-            booking_url_title: 'Klicka för att boka tid för en kemisk peeling mot akne behandling'
-
+            booking_url_label: 'Boka tid för ansiktsbehandling för torr och känslig hy',
+            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/torr-kanslig-konsultation-1643922',
+            booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling för torr och känslig hy'
       ),
 
-      new Service(
-            title: 'Microneedling mot akne',
-            duration: '50 min',
-            price: '2595 kr',
-            content: 'Microneedling är en innovativ behandlingsmetod för akne. Detta utförs genom att skapa små mikroskopiska kanaler i huden vilket främjar hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. Denna behandling kan effektivt minska utbrott av akne, förbättra hudens struktur och minska synligheten av akneärr. Microneedling är en säker och effektiv strategi för att ta kontroll över din akne och förbättra din hudhälsa.',
-
-            image_small: 'images/services/200x200/kemisk-peeling-akne.webp',
-            image_large: 'images/services/200x200/kemisk-peeling-akne.webp',
-            image_alt: 'Bild av microneedling mot akne',
-            image_title: 'Microneedling mot akne behandling',
-
-            url: 'behandlingar/microneedling-akne',
-            url_label: 'Läs mer om microneedling mot akne',
-            url_title: 'Klicka här för att läsa mer om microneedling mot akne',
-
-            consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url: 'consultation-booking?problem=acne&service=microneedling',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling mot akne',
-
-            booking_url_label: 'Boka tid för microneedling mot akne',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
-            booking_url_title: 'Klicka för att boka tid för en microneedling mot akne behandling'
-      ),
 );
 
-$headline03 = "03. Förebygg uppkomsten av ny akne";
+$headline03 = "03. Förebygg uppkomsten av torr och känslig hy";
 
 $products = array(
       new Service(
-            title: 'Produkter mot akne',
+            title: 'Produkter för torr och känslig hy',
             duration: null,
             price: 'Pris från 1495 kr',
-            content: 'För att effektivt bekämpa och förebygga akne är daglig behandling med rätt produkter avgörande. Våra akneprodukter är speciellt utformade för att hålla din hud i balans och förhindra att ny akne uppstår.',
+            content: 'För att effektivt lindra symtom av torr och känslig hud är det viktigt med en daglig hudvårdsrutin med rätt produkter. Våra produkter för torr och känslig hy är speciellt utformade för att återfukta huden, minska irritation och återställa hudens naturliga barriär.',
 
-            image_small: 'images/services/200x200/produkter-akne.webp',
-            image_large: 'images/services/200x200/produkter-akne.webp',
-            image_alt: 'Bild av produkter designade för behandling av akne',
-            image_title: 'Effektiva produkter för bekämpning och förebyggande av akne',
+            image_small: 'images/services/200x200/produkter-torr-kanslig-hy.webp',
+            image_large: 'images/services/200x200/produkter-torr-kanslig-hy.webp',
+            image_alt: 'Bild av produkter designade för behandling av torr och känslig hy',
+            image_title: 'Effektiva produkter för lindring och vård av torr och känslig hy',
 
-            url_label: 'Läs mer om produkter mot akne',
+            url_label: 'Läs mer om produkter för torr och känslig hy',
             url: 'https://dahlskincare.se',
-            url_title: 'Klicka här för att läsa mer om produkter mot akne',
+            url_title: 'Klicka här för att läsa mer om produkter för torr och känslig hy',
 
             consultation_url_label: null,
             consultation_url: null,
@@ -507,56 +555,29 @@ $products = array(
             booking_url_label: null,
             booking_url: null,
             booking_url_title: null,
-      )
-);
-
-$headline04 = "04. Reparera post-akne";
-
-$procedures = array(
-      new Service(
-            title: 'Reparera acneärr',
-            duration: '4 behandlingsmetoder',
-            price: null,
-            content: 'Efter aktiv akne kan man uppleva post-akne, vilket innebär ärr i form av gropar i olika former och fläckar i olika färger på huden där aknen tidigare varit. Olika typer av ärr behandlas med olika metoder. Klicka här för att läsa mer om hur du kan reparera din hud och ta hand om post-akne.',
-
-            image_small: 'images/services/200x200/microneedling-aknearr.webp',
-            image_large: 'images/services/200x200/microneedling-aknearr.webp',
-            image_alt: 'Reparera acneärr',
-            image_title: 'Reparera acneärr',
-
-            url_label: 'Läs mer om behandlingar mot akneärr',
-            url: 'behandlingar/aknearr',
-            url_title: 'Klicka här för att läsa mer om våra behandlingar mot akneärr',
-
-            consultation_url_label: null,
-            consultation_url: null,
-            consultation_url_title: null,
-
-            booking_url_label: null,
-            booking_url: null,
-            booking_url_title: null,
-
       ),
 );
+
 $articles = array(
       new Article(
-            title: 'Varför AcneSpecialisten?!',
-            content: '<p class="p200">Du som vill ha det som är bäst mot akne bör välja Acnespecialisten eftersom vi är experter på att behandla akne och har över 30 års erfarenhet av att ha arbetat med olika typer av akne. Vi lever upp till vårt namn genom att erbjuda personlig och professionell hjälp för att hjälpa dig att uppnå en klar och frisk hud. Vi skräddarsyr behandlingar baserade på dina individuella problem och behov, vi rekommenderar de bästa akneprodukterna för att förebygga och behandla din hud och akne. </p><p class="p200 mt-m">Genom att välja Acnespecialisten får du den mest effektiva behandlingen för ditt specifika fall och en hudvårdspartner som stöttar dig genom hela processen.</p>',
-
+            title: 'När ska jag söka hjälp för min torra och känsliga hy?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'Varför AcneSpecialisten?!',
-            image_title: 'Varför AcneSpecialisten?!',
+            image_alt: 'När ska jag söka hjälp för min torra och känsliga hy?',
+            image_title: 'När ska jag söka hjälp för min torra och känsliga hy?',
+            content: '<p class="p200">Torr och känslig hud är en utmaning som många människor brottas med. Denna hudtyp kan kännas obekväm, stram och kan även flagna eller bli röd. Även om dessa symtom i många fall kan hanteras med rätt hudvårdsrutin, kan det för vissa bli en källa till stress eller obehag. Om du känner att din hud inte svarar väl på de produkter du använder, eller om din hudrutin inte verkar göra någon skillnad, kan det vara dags att överväga professionell hjälp.</p>
+            <p class="p200 mt-m">Genom att konsultera en hudspecialist kan du få en skräddarsydd lösning som matchar din huds unika behov. En expert kan bedöma din hud, diskutera orsakerna bakom torrheten och känsligheten, och rekommendera en behandlingsplan. Detta kan inkludera specialiserade produkter, behandlingar eller båda. Om du känner att din torra och känsliga hud har blivit ett problem, eller om du helt enkelt vill återställa hudens lyster och komfort, bör du inte tveka att söka professionell rådgivning. Det är aldrig för tidigt eller för sent att sträva efter en hälsosam hud.</p>',
       ),
       new Article(
-            title: 'När ska jag besöka AcneSpecialisten?',
-            content: '<p class="p200">Du bör besöka Acnespecialisten när du känner att din akne påverkar din livskvalitet eller om du har provat olika behandlingar och produkter utan att se några varaktiga förbättringar. Ju tidigare du söker hjälp, desto större är chansen att undvika ärrbildning och långvariga hudproblem. Acnespecialisten är här för att erbjuda dig expertis och skräddarsydda behandlingar oavsett om du har lindrig, måttlig eller svår akne. Tveka inte att kontakta oss för att boka en kostnadsfri konsultation och ta det första steget mot en klarare och friskare hud.</p><p class="p200 mt-m">Välj Acnespecialisten innan du går till en läkare, eftersom vi erbjuder en kostnadsfri konsultation där vi analyserar din akne och föreslår en individuell behandlingsplan. Våra specialister har stor erfarenhet av att behandla akne och kan ge dig råd om vilka produkter och behandlingar som är bäst för just din hudtyp. Att prova Acnespecialisten först kan hjälpa dig att undvika att använda tunga mediciner som kan ha biverkningar och påverka hela kroppen. Genom att boka en gratis konsultation hos oss får du en chans att se hur vi kan hjälpa dig att förbättra din hudhälsa innan du tar steget att besöka en läkare.</p>',
+            title: 'När ska jag besöka Specialisten för Torr & Känslig Hy?',
+            content: '<p class="p200">Om du känner att din torra och känsliga hud påverkar din livskvalitet, eller om du har provat olika behandlingar och produkter utan att se några varaktiga förbättringar, bör du överväga att besöka AcneSpecialisten. Ju tidigare du får professionell hjälp, desto bättre chanser har du att lösa ditt hudproblem på ett effektivt sätt. AcneSpecialisten är här för att erbjuda dig skräddarsydda lösningar, oavsett om du har milda eller mer allvarliga hudproblem. Tveka inte att boka en kostnadsfri konsultation och ta det första steget mot en mjukare och mer komfortabel hud.</p><p class="p200 mt-m">Vi erbjuder en kostnadsfri konsultation där vi analyserar din hud och föreslår en individuell behandlingsplan. Våra specialister har stor erfarenhet av att behandla torr och känslig hud och kan rekommendera vilka produkter och behandlingar som är bäst för just din hudtyp. Boka en gratis konsultation för att se hur vi kan hjälpa dig att förbättra din torra och känsliga hy.</p>',
 
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'När ska jag besöka AcneSpecialisten?',
-            image_title: 'När ska jag besöka AcneSpecialisten?',
+            image_alt: 'När ska jag besöka Specialisten för Torr & Känslig Hy?',
+            image_title: 'När ska jag besöka Specialisten för Torr & Känslig Hy?',
       ),
+
 );
 
 
@@ -588,7 +609,7 @@ $results = array(
 );
 
 $results_url_label = "Se fler resultat";
-$results_url_title = "se flera aknebehandlingsresultat";
+$results_url_title = "se flera behandlingsresultat";
 
 
 $reviews = array(
