@@ -8,7 +8,7 @@ class Link
         $this->title = $title;
     }
 
-    public string $url;
+    public ?string $url;
     public string $label;
-    public string $title;
+    public ?string $title;
 }
