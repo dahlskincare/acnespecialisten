@@ -242,49 +242,48 @@ $type_categories = array(
 
                         url: null,
                         url_title: null,
-                  )
+                  ),
             )
       ),
       new BasedTypeCategory(
-            title: 'Akne baserat på område',
-            content: '<p class="p200">Akne kan uppträda på olika områden på kroppen. Ansiktet är det vanligaste området, men akne kan också förekomma på bröst, rygg, axlar och andra delar av kroppen. Placeringen av akne kan ge en indikation på dess orsak, som hormonella förändringar, irritation från kläder eller yttre faktorer som sol och friktion.</p>',
+            title: 'Perioral Dermatit baserat på område',
+            content: '<p class="p200">Perioral dermatit är mest känd för att påverka området runt munnen, men det kan också förekomma runt näsan, ögonen eller till och med på andra delar av ansiktet. Placeringen av symptomen kan variera från person till person och kan ge insikter om eventuella yttre faktorer som kan påverka tillståndet.</p>',
             types: array(
                   new BasedType(
-                        title: 'Akne i ansiktet',
-                        subtitle: 'Även kallat Acne faciei',
+                        title: 'Runt munnen',
+                        subtitle: 'Vanligast förekommande',
 
-                        image_url: 'images/problems/102x102/akne-ansikte.webp',
-                        image_alt: 'Bild av akne i ansiktet',
-                        image_title: 'Exempel på akne i ansiktet',
+                        image_url: 'images/problems/102x102/perioral-mun.webp',
+                        image_alt: 'Bild av perioral dermatit runt munnen',
+                        image_title: 'Perioral Dermatit runt munnen',
 
-                        url: 'problem/akne/typer/akne-ansiktet',
-                        url_title: 'Läs mer om akne i ansiktet och dess potentiella behandlingar'
+                        url: null,
+                        url_title: null,
                   ),
                   new BasedType(
-                        title: 'Akne på ryggen',
-                        subtitle: 'Även kallat Acne dorsalis',
+                        title: 'Runt näsan',
+                        subtitle: 'Mindre vanligt men förekommande',
 
-                        image_url: 'images/problems/102x102/akne-rygg.webp',
-                        image_alt: 'Bild av akne på ryggen',
-                        image_title: 'Exempel på akne på ryggen',
+                        image_url: 'images/problems/102x102/perioral-nasa.webp',
+                        image_alt: 'Bild av perioral dermatit runt näsan',
+                        image_title: 'Perioral Dermatit runt näsan',
 
-                        url: 'problem/akne/typer/akne-ryggen',
-                        url_title: 'Läs mer om akne på ryggen och dess potentiella behandlingar'
+                        url: null,
+                        url_title: null,
                   ),
                   new BasedType(
-                        title: 'Akne på bröstet',
-                        subtitle: 'Även kallat Acne pectoralis',
+                        title: 'Runt ögonen',
+                        subtitle: 'Ännu mer sällsynt',
 
-                        image_url: 'images/problems/102x102/akne-brost.webp',
-                        image_alt: 'Bild av akne på bröstet',
-                        image_title: 'Exempel på akne på bröstet',
+                        image_url: 'images/problems/102x102/perioral-ogon.webp',
+                        image_alt: 'Bild av perioral dermatit runt ögonen',
+                        image_title: 'Perioral Dermatit runt ögonen',
 
-                        url: 'problem/akne/typer/akne-brostet',
-                        url_title: 'Läs mer om akne på bröstet och dess potentiella behandlingar'
-                  ),
-
+                        url: null,
+                        url_title: null,
+                  )
             )
-      )
+      ),
 
 );
 
