@@ -133,7 +133,7 @@ $types_title = 'Olika typer av milier';
 $type_categories = array(
       new BasedTypeCategory(
             title: 'Milier baserat på ålder',
-            content: '<p class="p200">Milier kan förekomma hos individer i alla åldrar men är vanligtvis mer framträdande i vissa livssteg. Spädbarnsmilier är vanliga och försvinner ofta av sig själva med tiden. Vuxenmilier är däremot mer bestående och kan uppstå på grund av olika faktorer såsom hudskador, solskador eller användning av vissa hudvårdsprodukter. Det är viktigt att förstå att milier inte är åldersdiskriminerande och kan påverka personer oavsett livsfas.</p>',
+            content: '<p class="p200">Milier kan förekomma hos individer i alla åldrar men är vanligtvis mer framträdande i vissa livssteg. Spädbarnsmilier är vanliga och försvinner ofta av sig själva med tiden. Vuxenmilier är däremot mer bestående och kan uppstå på grund av olika faktorer såsom hudskador, solskador eller användning av vissa hudvårdsprodukter. Det är viktigt att förstå att milier inte bara är kopplat till årder utan kan påverka personer oavsett livsfas.</p>',
             types: array(
                   new BasedType(
                         title: 'Vuxenmilier',
@@ -161,279 +161,143 @@ $type_categories = array(
             )
       ),
       new BasedTypeCategory(
-            title: 'Akne baserat på svårighetsgrad',
-            content: '<p class="p200">Akne kan variera i svårighetsgrad från milda till extremt allvarliga fall. I milda fall av akne är symptomen ofta mindre uttalade och består främst av pormaskar, medan mer allvarliga fall innefattar djupare inflammationer i form av cystor och noduler. Svårighetsgraden påverkar också hur akne påverkar en persons livskvalitet och hur den ska behandlas. Det är viktigt att diagnostisera och behandla akne utifrån dess svårighetsgrad för att säkerställa bästa möjliga behandlingsresultat och förhindra potentiella ärr och bestående skador på huden.</p>',
+            title: 'Milier baserat på yttre faktorer',
+            content: '<p class="p200">Yttre faktorer kan påverka förekomsten och svårighetsgraden av milier. Dessa inkluderar exponering för solen, hudskador, användning av kosmetika och hudvårdsprodukter, liksom miljöfaktorer som luftfuktighet och föroreningar. Dessa faktorer kan irritera huden, leda till överdriven keratinproduktion och därför bidra till bildandet av milier.</p>',
             types: array(
                   new BasedType(
-                        title: 'Mild akne',
-                        subtitle: 'även kallat acne comedonica',
+                        title: 'Sol-exponerade milier',
+                        subtitle: 'Framkallade av överdriven solexponering',
 
-                        image_url: 'images/problems/102x102/mild-akne.webp',
-                        image_alt: 'Bild av mild akne',
-                        image_title: 'Mild akne exemplifierad',
+                        image_url: 'images/problems/102x102/sol-exponerade-milier.webp',
+                        image_alt: 'Bild av milier orsakade av solen',
+                        image_title: 'Exempel på milier orsakade av solen',
 
-                        url: 'problem/akne/typer/mild-akne',
-                        url_title: 'Utforska mer information om mild akne'
+                        url: null,
+                        url_title: null,
                   ),
                   new BasedType(
-                        title: 'Medelsvår akne',
-                        subtitle: 'Även kallat acne papulopustulosa',
+                        title: 'Kosmetik-inducerade milier',
+                        subtitle: 'Orsakade av hudvårdsprodukter och kosmetika',
 
-                        image_url: 'images/problems/102x102/medelsvar-akne.webp',
-                        image_alt: 'Bild av medelsvår akne',
-                        image_title: 'Medelsvår akne exemplifierad',
+                        image_url: 'images/problems/102x102/kosmetik-inducerade-milier.webp',
+                        image_alt: 'Bild av milier orsakade av kosmetika',
+                        image_title: 'Exempel på milier orsakade av kosmetika',
 
-                        url: 'problem/akne/typer/medel-akne',
-                        url_title: 'Utforska mer information om medelsvår akne'
+                        url: null,
+                        url_title: null,
                   ),
                   new BasedType(
-                        title: 'Svår akne',
-                        subtitle: 'Även kallat Acne nodulocystica',
+                        title: 'Miljö-inducerade milier',
+                        subtitle: 'Påverkas av faktorer som luftfuktighet och föroreningar',
 
-                        image_url: 'images/problems/102x102/svar-akne.webp',
-                        image_alt: 'Bild av svår akne',
-                        image_title: 'Svår akne exemplifierad',
+                        image_url: 'images/problems/102x102/miljo-inducerade-milier.webp',
+                        image_alt: 'Bild av milier orsakade av miljöfaktorer',
+                        image_title: 'Exempel på milier påverkade av miljöfaktorer',
 
-                        url: 'problem/akne/typer/svar-akne',
-                        url_title: 'Utforska mer information om svår akne'
-                  ),
-                  new BasedType(
-                        title: 'Mycket svår akne',
-                        subtitle: 'Även kallat Acne conglobata',
-
-                        image_url: 'images/problems/102x102/mycket-svar-akne.webp',
-                        image_alt: 'Bild av mycket svår akne',
-                        image_title: 'Mycket svår akne exemplifierad',
-
-                        url: 'problem/akne/typer/mycket-svar-akne',
-                        url_title: 'Utforska mer information om mycket svår akne'
+                        url: null,
+                        url_title: null,
                   ),
             )
       ),
       new BasedTypeCategory(
-            title: 'Akne baserat på yttre faktorer',
-            content: '<p class="p200">Yttre faktorer kan också påverka uppkomsten av akne. Exempel på dessa är sol, friktion, kosmetika, mediciner och miljöfaktorer. Dessa kan bidra till eller förvärra akne genom att irritera huden, täppa till porer eller påverka hudens talgproduktion.</p>',
+            title: 'Milier baserat på område',
+            content: '<p class="p200">Milier kan uppstå på olika delar av ansiktet och kroppen. De är vanligast i ansiktet, speciellt runt ögon, näsa och kinder. De kan också förekomma på hals, bröst och till och med genitalområdet. Var milier dyker upp kan ge en indikation på dess möjliga orsaker, inklusive exponering för yttre faktorer, hudtyp eller andra underliggande medicinska tillstånd.</p>',
             types: array(
                   new BasedType(
-                        title: 'Mallorca akne',
-                        subtitle: 'även kallat Acne aestivalis',
+                        title: 'Milier runt ögonen',
+                        subtitle: 'Vanligaste området för milier',
+                        
+                        image_url: 'images/problems/102x102/milier-ogon.webp',
+                        image_alt: 'Bild av milier runt ögonen',
+                        image_title: 'Exempel på milier runt ögonen',
 
-                        image_url: 'images/problems/102x102/mallorca-akne.webp',
-                        image_alt: 'Bild av Mallorca akne',
-                        image_title: 'Exempel på Mallorca akne',
-
-                        url: 'problem/akne/typer/mallorca-akne',
-                        url_title: 'Läs mer om hur solen kan orsaka Mallorca akne'
+                        url: null,
+                        url_title: null,
                   ),
                   new BasedType(
-                        title: 'Hormonell akne',
-                        subtitle: 'akne orsakad av hormoner',
+                        title: 'Milier på kinderna',
+                        subtitle: 'Andra vanligaste området för milier',
+                        
+                        image_url: 'images/problems/102x102/milier-kinder.webp',
+                        image_alt: 'Bild av milier på kinderna',
+                        image_title: 'Exempel på milier på kinderna',
 
-                        image_url: 'images/problems/102x102/hormonell-akne.webp',
-                        image_alt: 'Bild av hormonell akne',
-                        image_title: 'Exempel på hormonell akne',
-
-                        url: 'problem/akne/typer/hormonell-akne',
-                        url_title: 'Utforska mer om hur hormoner kan framkalla akne'
+                        url: null,
+                        url_title: null,
                   ),
                   new BasedType(
-                        title: 'kosmetika akne',
-                        subtitle: 'Även kallat Acne cosmetica',
+                        title: 'Milier på halsen',
+                        subtitle: 'Ofta nära käklinjen',
+                        
+                        image_url: 'images/problems/102x102/milier-hals.webp',
+                        image_alt: 'Bild av milier på halsen',
+                        image_title: 'Exempel på milier på halsen',
 
-                        image_url: 'images/problems/102x102/kosmetika-akne.webp',
-                        image_alt: 'Bild av kosmetika akne',
-                        image_title: 'Exempel på kosmetika akne',
-
-                        url: 'problem/akne/typer/kosmetika-akne',
-                        url_title: 'Lär dig mer om hur kosmetika kan ge akne'
+                        url: null,
+                        url_title: null,
                   ),
                   new BasedType(
-                        title: 'Akne från pillande',
-                        subtitle: 'Även kallat Acne exoriée ',
+                        title: 'Milier på bröstet',
+                        subtitle: 'Kan förekomma hos både män och kvinnor',
 
-                        image_url: 'images/problems/102x102/pill-akne.webp',
-                        image_alt: 'Bild av pill akne',
-                        image_title: 'Exempel på pill akne',
+                        image_url: 'images/problems/102x102/milier-brost.webp',
+                        image_alt: 'Bild av milier på bröstet',
+                        image_title: 'Exempel på milier på bröstet',
 
-                        url: 'problem/akne/typer/acne-exoriee',
-                        url_title: 'Läs mer om hur pillande kan leda till akne'
+                        url: null,
+                        url_title: null,
                   ),
-                  new BasedType(
-                        title: 'Friktionsakne',
-                        subtitle: 'Även kallat Acne mechanica',
-
-                        image_url: 'images/problems/102x102/friktions-akne.webp',
-                        image_alt: 'Bild av friktions akne',
-                        image_title: 'Exempel på friktions akne',
-
-                        url: 'problem/akne/typer/akne-mekanisk',
-                        url_title: 'Utforska mer om hur friktion kan orsaka akne'
-                  ),
-                  new BasedType(
-                        title: 'Läkemedelsakne',
-                        subtitle: 'Även kallat Acne medicamentosa',
-
-                        image_url: 'images/problems/102x102/lakemedelsakne.webp',
-                        image_alt: 'Bild av läkemedelsakne',
-                        image_title: 'Exempel på läkemedelsakne',
-
-                        url: 'problem/akne/typer/lakemedelsakne',
-                        url_title: 'Lär dig mer om hur läkemedel kan orsaka akne'
-                  ),
-                  new BasedType(
-                        title: 'Kontaktakne',
-                        subtitle: 'Även kallat Acne venenata',
-
-                        image_url: 'images/problems/102x102/kontakt-akne.webp',
-                        image_alt: 'Bild av kontaktakne',
-                        image_title: 'Exempel på kontaktakne',
-
-                        url: 'problem/akne/typer/kontakt-akne',
-                        url_title: 'Utforska mer om hur direktkontakt kan påverka akne'
-                  ),
-                  new BasedType(
-                        title: 'Svampakne',
-                        subtitle: 'Även kallat fungal acne',
-
-                        image_url: 'images/problems/102x102/svamp-akne.webp',
-                        image_alt: 'Bild av svampakne',
-                        image_title: 'Exempel på svampakne',
-
-                        url: 'problem/akne/typer/fungal-akne',
-                        url_title: 'Lär dig mer om hur svamp relateras till akne'
-                  )
-            )
-      ),
-      new BasedTypeCategory(
-            title: 'Akne baserat på område',
-            content: '<p class="p200">Akne kan uppträda på olika områden på kroppen. Ansiktet är det vanligaste området, men akne kan också förekomma på bröst, rygg, axlar och andra delar av kroppen. Placeringen av akne kan ge en indikation på dess orsak, som hormonella förändringar, irritation från kläder eller yttre faktorer som sol och friktion.</p>',
-            types: array(
-                  new BasedType(
-                        title: 'Akne i ansiktet',
-                        subtitle: 'Även kallat Acne faciei',
-
-                        image_url: 'images/problems/102x102/akne-ansikte.webp',
-                        image_alt: 'Bild av akne i ansiktet',
-                        image_title: 'Exempel på akne i ansiktet',
-
-                        url: 'problem/akne/typer/akne-ansiktet',
-                        url_title: 'Läs mer om akne i ansiktet och dess potentiella behandlingar'
-                  ),
-                  new BasedType(
-                        title: 'Akne på ryggen',
-                        subtitle: 'Även kallat Acne dorsalis',
-
-                        image_url: 'images/problems/102x102/akne-rygg.webp',
-                        image_alt: 'Bild av akne på ryggen',
-                        image_title: 'Exempel på akne på ryggen',
-
-                        url: 'problem/akne/typer/akne-ryggen',
-                        url_title: 'Läs mer om akne på ryggen och dess potentiella behandlingar'
-                  ),
-                  new BasedType(
-                        title: 'Akne på bröstet',
-                        subtitle: 'Även kallat Acne pectoralis',
-
-                        image_url: 'images/problems/102x102/akne-brost.webp',
-                        image_alt: 'Bild av akne på bröstet',
-                        image_title: 'Exempel på akne på bröstet',
-
-                        url: 'problem/akne/typer/akne-brostet',
-                        url_title: 'Läs mer om akne på bröstet och dess potentiella behandlingar'
-                  ),
-
             )
       )
 
 );
 
-$types_url = '<a href="problem/akne/typer" title="Lär dig mer om olika typer av akne och deras behandling" class="mt-xl button b200 outline expand l10n is-hidden-tablet">Läs mer om olika typer av akne</a>
-              <a href="problem/akne/typer" title="Lär dig mer om olika typer av akne och deras behandling" class="mt-xl button b200 outline l10n is-hidden-mobile">Läs mer om olika typer av akne</a>';
 
-$symptoms_title = 'Akne symptom';
+$symptoms_title = 'Milier symptom';
 
 $symptoms = array(
       new Symptom(
-            name: 'Öppna komedoner',
-            aka: 'Kända som pormaskar',
-            content: 'Pormaskar (öppna komedoner) är små, mörka prickar som uppstår när en por täpps igen av talg (hudens naturliga olja) och döda hudceller. De är ofta svarta eller bruna på grund av oxidation, som inträffar när melanin (hudens pigment) kommer i kontakt med luft. Pormaskar kan vara platta eller lätt upphöjda och är vanligt förekommande på näsan, kinderna, pannan och hakan.',
+                  name: 'Vita eller gula knottror',
+                  aka: 'Vanligt kännetecken för milier',
+                  content: 'Dessa små, fasta cystor är vanligtvis vita eller gula och varierar i storlek från 1 till 2 mm i diameter. De är fyllda med keratin och är oftast ofarliga. Dessa knottror tenderar att förekomma i kluster, oftast i ansiktet, särskilt runt ögonen och kinderna.',
 
-            url_label: 'Läs mer om öppna komedoner',
-            url: 'problem/akne/typer/post-inflammatory-hyperpigmentaion',
-            url_title: 'Läs mer om öppna komedoner (pormaskar)',
+                  url_label: null,
+                  url: null,
+                  url_title: null,
 
-            image: 'images/symptoms/102x102/komedoner-oppna.webp',
-            image_alt: 'Bild av öppna komedoner (pormaskar)',
-            image_title: 'Öppna komedoner (pormaskar)'
-      ),
+                  image: 'images/symptoms/102x102/vita-gula-knottror.webp',
+                  image_alt: 'Bild av vita eller gula knottror',
+                  image_title: 'Vita eller gula knottror'
+            ),
       new Symptom(
-            name: 'Stängda komedoner',
-            aka: 'Kända som "whiteheads"',
-            content: 'Whiteheads (slutna komedoner) är små, vita eller hudfärgade utbuktningar som uppstår när en por täpps till av talg och döda hudceller under hudytan. De är täckta av ett tunt lager hud, vilket förhindrar oxidation och därmed behåller sin ljusa färg. Whiteheads kan vara platta eller lätt upphöjda och är vanligt förekommande på pannan, kinderna och hakan.',
+                  name: 'Hård konsistens',
+                  aka: 'Fasta och oelastiska',
+                  content: 'Milier är vanligtvis mycket fasta och oelastiska. De känns ofta som små pärlor under huden. På grund av deras fasta konsistens är de inte lätt att klämma eller avlägsna utan professionell behandling.',
 
-            url_label: 'Läs mer om stängda komedoner',
-            url: 'problem/akne/typer/atrophic-icepick-scars',
-            url_title: 'Läs mer om stängda komedoner (whiteheads)',
+                  url_label: null,
+                  url: null,
+                  url_title: null,
 
-            image: 'images/symptoms/102x102/komedoner-stangda.webp',
-            image_alt: 'Bild av stängda komedoner (whiteheads)',
-            image_title: 'Stängda komedoner (whiteheads)'
-      ),
+                  image: 'images/symptoms/102x102/hard-konsistens.webp',
+                  image_alt: 'Bild av hård konsistens',
+                  image_title: 'Hård konsistens'
+            ),
       new Symptom(
-            name: 'Papler',
-            aka: 'Kända som röda finnar',
-            content: 'Papuler är små, fasta, röda och inflammerade blemmor som uppstår när en hårsäck blir infekterad av bakterier, oftast Propionibacterium acnes. De är vanligtvis mindre än 5 mm i diameter och kan vara känsliga vid beröring. Papuler är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.',
+                  name: 'Långvariga',
+                  aka: 'Ihållande',
+                  content: 'Milier tenderar att vara långvariga och förändras inte mycket över tid om de inte behandlas. I vissa fall kan de till och med bestå i flera månader eller år, vilket kan vara kosmetiskt störande för vissa individer.',
 
-            url_label: 'Läs mer om papler',
-            url: 'problem/akne/typer/atrophic-boxcar-scars',
-            url_title: 'Läs mer om papler (röda finnar)',
+                  url_label: null,
+                  url: null,
+                  url_title: null,
 
-            image: 'images/symptoms/102x102/papler.webp',
-            image_alt: 'Bild av papler (röda finnar)',
-            image_title: 'Papler (röda finnar)'
-      ),
-      new Symptom(
-            name: 'Pustler',
-            aka: 'Kända som gula finnar',
-            content: 'Pustuler är röda och inflammerade blemmor som innehåller var (en blandning av döda bakterier, vita blodkroppar och döda hudceller). De ser ut som papuler men har en vit eller gul prick i mitten. Pustuler kan vara smärtsamma och är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.',
-
-            url_label: 'Läs mer om pustler',
-            url: 'problem/akne/typer/atrophic-rolling-scars',
-            url_title: 'Läs mer om pustler (gula finnar)',
-
-            image: 'images/symptoms/102x102/pustler.webp',
-            image_alt: 'Bild av pustler (gula finnar)',
-            image_title: 'Pustler (gula finnar)'
-      ),
-      new Symptom(
-            name: 'Noduler',
-            aka: 'Kända som innåtfinnar',
-            content: 'Noduler är större, djupare och ofta smärtsamma inflammerade blemmor som uppstår när en hårsäck blir kraftigt infekterad och inflammationen sprider sig till det omgivande vävnaden. De är vanligtvis större än 5 mm i diameter och kan vara fasta och ömma vid beröring. Noduler är vanligt förekommande på ansiktet, nacken, bröstet, ryggen och ibland även på överarmarna och skinkorna.',
-
-            url_label: 'Läs mer om noduler',
-            url: 'problem/akne/typer/hypertrophic-keloid',
-            url_title: 'Läs mer om noduler (innåtfinnar)',
-
-            image: 'images/symptoms/102x102/noduler.webp',
-            image_alt: 'Bild av noduler (innåtfinnar)',
-            image_title: 'Noduler (innåtfinnar)'
-      ),
-      new Symptom(
-            name: 'Cystor',
-            aka: 'Kända som bölder',
-            content: 'Cystor är stora, inflammerade och smärtsamma blemmor som är fyllda med var och bildas när en hårsäck blir mycket infekterad och inflammationen sprider sig djupt in i huden. De kan vara runda och mjuka eller fasta och ömma vid beröring. Cystor kan vara större än 5 mm i diameter och är vanligt förekommande på ansiktet, nacken, bröstet och ryggen. Cystisk akne kan leda till ärrbildning och kräver ofta professionell behandling.',
-
-            url_label: 'Läs mer om cystor',
-            url: 'problem/akne/typer/hypertrophic-keloid',
-            url_title: 'Läs mer om cystor (bölder)',
-
-            image: 'images/symptoms/102x102/cystor.webp',
-            image_alt: 'Bild av cystor (bölder)',
-            image_title: 'Cystor (bölder)'
-      ),
+                  image: 'images/symptoms/102x102/langvariga.webp',
+                  image_alt: 'Bild av långvariga milier',
+                  image_title: 'Långvarig'
+            ),
 );
 
-$headline01 = "01. Identifiera din akne";
+$headline01 = "01. Identifiera din milier";
 
 $service = new Service(
       title: 'Konsultation',
@@ -460,7 +324,7 @@ $service = new Service(
 
 );
 
-$headline02 = "02. Behandla aktiv akne";
+$headline02 = "02. Behandla milier";
 
 $services = array(
       new Service(
@@ -486,135 +350,8 @@ $services = array(
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
             booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling mot akne'
       ),
-      new Service(
-            title: 'Laser mot akne',
-            duration: '50 min',
-            price: '2595 kr',
-            content: 'En avancerad laserbehandling mot akne erbjuder en effektiv lösning för att bekämpa aktiv akne och ärr som kan uppstå efter utbrott. Lasertekniken riktar sig mot de bakterier som orsakar inflammation och hjälper till att minska produktionen av talg, vilket minskar risken för framtida utbrott.',
-
-            image_small: 'images/services/200x200/laser-akne.webp',
-            image_large: 'images/services/200x200/laser-akne.webp',
-            image_alt: 'Bild av laserbehandling mot akne',
-            image_title: 'Laserbehandling mot akne',
-
-            url_label: 'Läs mer om laser mot akne',
-            url: 'behandlingar/laser-akne',
-            url_title: 'Klicka här för att läsa mer om laserbehandling mot akne',
-
-            consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url: 'consultation-booking?problem=acne&service=laser',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling mot akne',
-
-            booking_url_label: 'Boka tid för laserbehandling mot akne',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
-            booking_url_title: 'Klicka för att boka tid för en laserbehandling mot akne'
-      ),
-      new Service(
-            title: 'Kemisk peeling mot akne',
-            duration: '30 min',
-            price: '1595 kr',
-            content: 'Kemisk peeling är en effektiv metod för att behandla akne. Genom att använda en speciellt framtagen lösning för att exfoliera huden, främjar kemisk peeling cellförnyelse, rensar tilltäppta porer och minskar inflammation. Resultatet är en jämnare hudton, mindre utbrott och färre synliga ärr. Det är en enkel och effektiv strategi för att ta kontroll över din akne och förbättra din hudhälsa.',
-
-            image_small: 'images/services/200x200/kemisk-peeling-akne.webp',
-            image_large: 'images/services/200x200/kemisk-peeling-akne.webp',
-            image_alt: 'Bild av kemisk peeling mot akne',
-            image_title: 'Kemisk peeling mot akne behandling',
-
-            url: 'behandlingar/kemisk-peeling-akne',
-            url_label: 'Läs mer om kemisk peeling mot akne',
-            url_title: 'Klicka här för att läsa mer om kemisk peeling mot akne',
-
-            consultation_url: 'consultation-booking?problem=acne&service=chemicalPeeling',
-            consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för kemisk peeling mot akne',
-
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
-            booking_url_label: 'Boka tid för kemisk peeling mot akne',
-            booking_url_title: 'Klicka för att boka tid för en kemisk peeling mot akne behandling'
-
-      ),
-
-      new Service(
-            title: 'Microneedling mot akne',
-            duration: '50 min',
-            price: '2595 kr',
-            content: 'Microneedling är en innovativ behandlingsmetod för akne. Detta utförs genom att skapa små mikroskopiska kanaler i huden vilket främjar hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. Denna behandling kan effektivt minska utbrott av akne, förbättra hudens struktur och minska synligheten av akneärr. Microneedling är en säker och effektiv strategi för att ta kontroll över din akne och förbättra din hudhälsa.',
-
-            image_small: 'images/services/200x200/kemisk-peeling-akne.webp',
-            image_large: 'images/services/200x200/kemisk-peeling-akne.webp',
-            image_alt: 'Bild av microneedling mot akne',
-            image_title: 'Microneedling mot akne behandling',
-
-            url: 'behandlingar/microneedling-akne',
-            url_label: 'Läs mer om microneedling mot akne',
-            url_title: 'Klicka här för att läsa mer om microneedling mot akne',
-
-            consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url: 'consultation-booking?problem=acne&service=microneedling',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling mot akne',
-
-            booking_url_label: 'Boka tid för microneedling mot akne',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
-            booking_url_title: 'Klicka för att boka tid för en microneedling mot akne behandling'
-      ),
 );
 
-$headline03 = "03. Förebygg uppkomsten av ny akne";
-
-$products = array(
-      new Service(
-            title: 'Produkter mot akne',
-            duration: null,
-            price: 'Pris från 1495 kr',
-            content: 'För att effektivt bekämpa och förebygga akne är daglig behandling med rätt produkter avgörande. Våra akneprodukter är speciellt utformade för att hålla din hud i balans och förhindra att ny akne uppstår.',
-
-            image_small: 'images/services/200x200/produkter-akne.webp',
-            image_large: 'images/services/200x200/produkter-akne.webp',
-            image_alt: 'Bild av produkter designade för behandling av akne',
-            image_title: 'Effektiva produkter för bekämpning och förebyggande av akne',
-
-            url_label: 'Läs mer om produkter mot akne',
-            url: 'https://dahlskincare.se',
-            url_title: 'Klicka här för att läsa mer om produkter mot akne',
-
-            consultation_url_label: null,
-            consultation_url: null,
-            consultation_url_title: null,
-
-            booking_url_label: null,
-            booking_url: null,
-            booking_url_title: null,
-      )
-);
-
-$headline04 = "04. Reparera post-akne";
-
-$procedures = array(
-      new Service(
-            title: 'Reparera acneärr',
-            duration: '4 behandlingsmetoder',
-            price: null,
-            content: 'Efter aktiv akne kan man uppleva post-akne, vilket innebär ärr i form av gropar i olika former och fläckar i olika färger på huden där aknen tidigare varit. Olika typer av ärr behandlas med olika metoder. Klicka här för att läsa mer om hur du kan reparera din hud och ta hand om post-akne.',
-
-            image_small: 'images/services/200x200/microneedling-aknearr.webp',
-            image_large: 'images/services/200x200/microneedling-aknearr.webp',
-            image_alt: 'Reparera acneärr',
-            image_title: 'Reparera acneärr',
-
-            url_label: 'Läs mer om behandlingar mot akneärr',
-            url: 'behandlingar/aknearr',
-            url_title: 'Klicka här för att läsa mer om våra behandlingar mot akneärr',
-
-            consultation_url_label: null,
-            consultation_url: null,
-            consultation_url_title: null,
-
-            booking_url_label: null,
-            booking_url: null,
-            booking_url_title: null,
-
-      ),
-);
 $articles = array(
       new Article(
             title: 'Varför AcneSpecialisten?!',
