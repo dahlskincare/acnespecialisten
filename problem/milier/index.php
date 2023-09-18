@@ -128,47 +128,34 @@ $treatment_steps = array(
       ),
 );
 
-$treatment_link = '<a href="problem/akne/aknebehandling" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra aknebehandlingar</a>';
-
-$types_title = 'Olika typer av akne';
+$types_title = 'Olika typer av milier';
 
 $type_categories = array(
       new BasedTypeCategory(
-            title: 'Akne baserat på ålder',
-            content: '<p class="p200">Akne är en hudåkomma som kan drabba både ungdomar och vuxna, även om det är vanligast under tonåren. Tonårsakne uppstår ofta på grund av hormonella förändringar under puberteten. Vuxenakne förekommer också, och det kan bero på en rad olika faktorer. Hos vuxna kan akne orsakas av faktorer som stress, hormonobalans och genetik. Oavsett ålder är det viktigt att förstå att akne kan påverka människor i alla livsstadier.</p>',
+            title: 'Milier baserat på ålder',
+            content: '<p class="p200">Milier kan förekomma hos individer i alla åldrar men är vanligtvis mer framträdande i vissa livssteg. Spädbarnsmilier är vanliga och försvinner ofta av sig själva med tiden. Vuxenmilier är däremot mer bestående och kan uppstå på grund av olika faktorer såsom hudskador, solskador eller användning av vissa hudvårdsprodukter. Det är viktigt att förstå att milier inte är åldersdiskriminerande och kan påverka personer oavsett livsfas.</p>',
             types: array(
                   new BasedType(
-                        title: 'Vuxenakne',
-                        subtitle: 'Även kallat acne tarda',
+                        title: 'Vuxenmilier',
+                        subtitle: 'Stannar ofta längre och kan kräva behandling',
 
-                        image_url: 'images/problems/102x102/vuxenakne.webp',
-                        image_alt: 'Bild av vuxenakne',
-                        image_title: 'Akne hos vuxna',
+                        image_url: 'images/problems/102x102/vuxenmilier.webp',
+                        image_alt: 'Bild av milier hos vuxna',
+                        image_title: 'Milier hos vuxna',
 
-                        url: 'problem/akne/typer/vuxenakne',
-                        url_title: 'Utforska information om vuxenakne'
+                        url: null,
+                        url_title: null,
                   ),
                   new BasedType(
-                        title: 'Tonårsakne',
-                        subtitle: 'Även kallat acne vulgaris',
+                        title: 'Spädbarnsmilier',
+                        subtitle: 'Vanligen temporära och försvinner ofta av sig själva',
 
-                        image_url: 'images/problems/102x102/tonarsakne.webp',
-                        image_alt: 'Bild av tonårsakne',
-                        image_title: 'Akne hos tonåringar',
+                        image_url: 'images/problems/102x102/spadbarnsmilier.webp',
+                        image_alt: 'Bild av milier hos spädbarn',
+                        image_title: 'Milier hos spädbarn',
 
-                        url: 'problem/akne/typer/tonårsakne',
-                        url_title: 'Utforska information om tonårsakne'
-                  ),
-                  new BasedType(
-                        title: 'Barnakne',
-                        subtitle: 'Även kallat acne neonatorum',
-
-                        image_url: 'images/problems/102x102/barnakne.webp',
-                        image_alt: 'Bild av barnakne',
-                        image_title: 'Akne hos barn',
-
-                        url: 'problem/akne/typer/barnakne',
-                        url_title: 'Utforska information om barnakne'
+                        url: null,
+                        url_title: null,
                   ),
 
             )
