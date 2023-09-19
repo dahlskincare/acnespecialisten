@@ -297,82 +297,83 @@ $symptoms = array(
             ),
 );
 
-$headline01 = "01. Identifiera din milier";
+$headline01 = "01. Identifiera dina milier";
 
 $service = new Service(
-      title: 'Konsultation',
+      title: 'Konsultation för milier',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Vid ett personligt möte med en acnespecialist utförs en undersökning av din akne. Vi tar före-bilder på din hud och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
+      content: 'Under ett personligt möte med en av AcneSpecialistens hudexperter utförs en undersökning av dina milier. Vi tar före-bilder på det drabbade området och rekommenderar en skräddarsydd behandlingsplan utformad efter dina specifika behov.',
 
-      image_small: 'images/services/200x200/konsultation.webp',
-      image_large: 'images/services/200x200/konsultation.webp',
-      image_alt: 'Bild av en konsultation för aknebehandling',
-      image_title: 'Konsultation för aknebehandling',
+      image_small: 'images/services/200x200/konsultation-milier.webp',
+      image_large: 'images/services/200x200/konsultation-milier.webp',
+      image_alt: 'Bild av en konsultation för milierbehandling',
+      image_title: 'Konsultation för milierbehandling',
 
-      url_label: 'Läs mer om vår hudkonsultation',
-      url: 'hudkonsultation',
-      url_title: 'Klicka här för att läsa mer om gratis hudkonsultation',
+      url_label: 'Läs mer om vår konsultation för milier',
+      url: 'hudkonsultation-milier',
+      url_title: 'Klicka här för att läsa mer om kostnadsfri konsultation för milier',
 
       consultation_url_label: 'Boka tid för hudkonsultation',
-      consultation_url: 'consultation-booking?problem=acne',
-      consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för akne',
+      consultation_url: 'consultation-booking?problem=milia',
+      consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för milier',
 
       booking_url_label: null,
       booking_url: null,
       booking_url_title: null,
-
 );
 
 $headline02 = "02. Behandla milier";
 
 $services = array(
       new Service(
-            title: 'Ansiktsbehandling mot akne',
+            title: 'Behandling mot milier',
             duration: '60 min',
             price: '995 kr',
-            content: 'En effektiv ansiktsbehandling mot akne fokuserar på att noggrant extrahera orenheter som orsakar inflammation och skador i huden. Genom att försiktigt klämma ut akne och pormaskar kan behandlingen bidra till att förebygga ärrbildning och främja en snabbare läkning.',
+            content: 'Vår behandling mot milier syftar till att noggrant avlägsna dessa små cystor. Genom att använda säkra och effektiva extraktionsmetoder, hjälper vi dig att bli av med milier och därmed förbättra hudens övergripande utseende.',
 
-            image_small: 'images/services/200x200/ansiktsbehandling-akne.webp',
-            image_large: 'images/services/200x200/ansiktsbehandling-akne.webp',
-            image_alt: 'Bild av en ansiktsbehandling mot akne',
-            image_title: 'Ansiktsbehandling mot akne',
+            image_small: 'images/services/200x200/behandling-milier.webp',
+            image_large: 'images/services/200x200/behandling-milier.webp',
+            image_alt: 'Bild av en behandling mot milier',
+            image_title: 'Behandling mot milier',
 
-            url: 'behandlingar/ansiktsbehandling-acne',
-            url_label: 'Läs mer om ansiktsbehandling mot akne',
-            url_title: 'Klicka här för att läsa mer om ansiktsbehandling mot akne',
+            url: 'behandlingar/behandling-milier',
+            url_label: 'Läs mer om behandling mot milier',
+            url_title: 'Klicka här för att läsa mer om behandling mot milier',
 
             consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url: 'consultation-booking?problem=acne&service=classicFacials',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling mot akne',
+            consultation_url: 'consultation-booking?problem=milia&service=miliaTreatment',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för behandling mot milier',
 
-            booking_url_label: 'Boka tid för ansiktsbehandling mot akne',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
-            booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling mot akne'
+            booking_url_label: 'Boka tid för behandling mot milier',
+            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/milier-konsultation-1643922',
+            booking_url_title: 'Klicka för att boka tid för en behandling mot milier'
       ),
 );
 
 $articles = array(
       new Article(
-            title: 'Varför AcneSpecialisten?!',
-            content: '<p class="p200">Du som vill ha det som är bäst mot akne bör välja Acnespecialisten eftersom vi är experter på att behandla akne och har över 30 års erfarenhet av att ha arbetat med olika typer av akne. Vi lever upp till vårt namn genom att erbjuda personlig och professionell hjälp för att hjälpa dig att uppnå en klar och frisk hud. Vi skräddarsyr behandlingar baserade på dina individuella problem och behov, vi rekommenderar de bästa akneprodukterna för att förebygga och behandla din hud och akne. </p><p class="p200 mt-m">Genom att välja Acnespecialisten får du den mest effektiva behandlingen för ditt specifika fall och en hudvårdspartner som stöttar dig genom hela processen.</p>',
-
+            title: 'När ska jag söka hjälp med mina milier?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'Varför AcneSpecialisten?!',
-            image_title: 'Varför AcneSpecialisten?!',
+            image_alt: 'När ska jag söka hjälp med mina milier?',
+            image_title: 'När ska jag söka hjälp med mina milier?',
+            content: '<p class="p200">Milier är små, vita eller gulaktiga cystor som kan uppstå på huden hos personer i alla åldrar. Även om milier är ofarliga och mestadels estetiska bekymmer, kan de ändå påverka självkänslan eller ge upphov till obehag. Om du har provat olika hudvårdsprodukter och hemmabehandlingar utan framgång, eller om milier börjar påverka ditt välbefinnande, kan det vara dags att söka professionell hjälp. Det finns ingen "minsta gräns" för när det är lämpligt att söka professionell vård för dina milier.</p>
+            <p class="p200 mt-m">Hos en hudspecialist, som de hos AcneSpecialisten, kan du få en personlig konsultation och en skräddarsydd behandlingsplan. En expert kan analysera din hudtyp och de områden där milier har uppstått, och sedan rekommendera den mest effektiva behandlingsmetoden för just ditt fall. Om du känner att dina milier har blivit en belastning eller om du helt enkelt vill förbättra din huds utseende, tveka inte att söka professionell hjälp. Det är aldrig för tidigt eller för sent att ta steget mot bättre hy.</p>',
       ),
+
       new Article(
-            title: 'När ska jag besöka AcneSpecialisten?',
-            content: '<p class="p200">Du bör besöka Acnespecialisten när du känner att din akne påverkar din livskvalitet eller om du har provat olika behandlingar och produkter utan att se några varaktiga förbättringar. Ju tidigare du söker hjälp, desto större är chansen att undvika ärrbildning och långvariga hudproblem. Acnespecialisten är här för att erbjuda dig expertis och skräddarsydda behandlingar oavsett om du har lindrig, måttlig eller svår akne. Tveka inte att kontakta oss för att boka en kostnadsfri konsultation och ta det första steget mot en klarare och friskare hud.</p><p class="p200 mt-m">Välj Acnespecialisten innan du går till en läkare, eftersom vi erbjuder en kostnadsfri konsultation där vi analyserar din akne och föreslår en individuell behandlingsplan. Våra specialister har stor erfarenhet av att behandla akne och kan ge dig råd om vilka produkter och behandlingar som är bäst för just din hudtyp. Att prova Acnespecialisten först kan hjälpa dig att undvika att använda tunga mediciner som kan ha biverkningar och påverka hela kroppen. Genom att boka en gratis konsultation hos oss får du en chans att se hur vi kan hjälpa dig att förbättra din hudhälsa innan du tar steget att besöka en läkare.</p>',
-
+            title: 'Varför ska jag besöka AcneSpecialisten för mina milier?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'När ska jag besöka AcneSpecialisten?',
-            image_title: 'När ska jag besöka AcneSpecialisten?',
+            image_alt: 'Varför ska jag besöka AcneSpecialisten för mina milier?',
+            image_title: 'Varför ska jag besöka AcneSpecialisten för mina milier?',
+            content: '<p class="p200">Om du letar efter en effektiv lösning för dina milier, är AcneSpecialisten det självklara valet. Med över 30 års erfarenhet inom hudvård och en specialisering i att behandla olika hudåkommor, inklusive milier, kan vi erbjuda en individuellt skräddarsydd behandlingsplan som är perfekt anpassad för dig.</p>
+            <p class="p200 mt-m">Vi använder oss av de mest beprövade metoderna inom hudvård för att ge dig bästa möjliga resultat. Vårt team av professionella hudterapeuter står redo att guida dig genom hela behandlingsprocessen. Med regelbundna uppföljningar och anpassade hemmavårdsprogram säkerställer vi en långvarig förbättring av din hud.</p>
+            <p class="p200 mt-m">När du väljer AcneSpecialisten för behandling av dina milier får du inte bara tillgång till den mest effektiva hudvården. Vi ser också dig som en partner i din hudvårdsresa och är engagerade i att hjälpa dig uppnå och bibehålla en klar och frisk hud. Vårt engagemang, vår kunskap och vår långa erfarenhet gör oss till ditt bästa val för behandling av milier.</p>',
       ),
-);
 
+);
 
 $results = array(
       new ResultCustomer(
@@ -402,7 +403,7 @@ $results = array(
 );
 
 $results_url_label = "Se fler resultat";
-$results_url_title = "se flera aknebehandlingsresultat";
+$results_url_title = "se flera milierbehandlingsresultat";
 
 
 $reviews = array(
@@ -439,92 +440,47 @@ $review_url_label = "Läs fler omdömen";
 $review_url_title = "AcneSpecialisten Omdömen";
 
 $faq_categories = array(
-      'Generellt om akne' => array(
+      'Generellt om milier' => array(
             new Question(
-                  title: 'Hur blir jag av med min akne snabbt?',
-                  text: '<p class="p200">Att bli av med akne snabbt är en utmaning, eftersom det inte finns någon quickfix när det gäller akne. Effektiv behandling kräver att du tar hand om din hud genom att använda rätt behandlingar och produkter som passar din specifika hudtyp och akne. För att få en skräddarsydd behandlingsplan som hjälper dig att bli av med aknen så snabbt som möjligt, rekommenderar vi att du bokar en kostnadsfri hudkonsultation hos oss. Under konsultationen kommer vi att analysera din hud och hjälpa dig att utforma en anpassad behandlingsrutin som ger dig de bästa förutsättningarna för att snabbt och effektivt behandla din akne.</p>'
+                  title: 'Är milier skadliga eller farliga för huden?',
+                  text: '<p class="p200">Milier är i allmänhet inte skadliga eller farliga för huden. De är små, vita eller gula cystor som i huvudsak är estetiska i sin natur. De är inte infektiösa och förvandlas inte till cancer. Det primära problemet med milier är ofta kosmetiskt, eftersom de kan vara störande för personen som har dem.</p>'
             ),
             new Question(
-                  title: 'Har jag akne även om jag bara har en finne?',
-                  text: '<p class="p200">ja, du har tekniskt sett akne även om du bara har en enstaka finne. Akne kan ta sig många olika former och innefattar alla typer av finnar, oavsett om det är enstaka eller flera, stora eller små, papler eller pustler. Många tror att de inte har akne om de endast upplever enstaka finnar då och då, men faktum är att alla dessa fall kategoriseras som akne.</p>'
+                  title: 'Kan milier försvinna av sig själva?',
+                  text: '<p class="p200">Milier tenderar sällan att försvinna av sig själva, särskilt om de har funnits under en längre tid. I vissa fall kan milier hos nyfödda försvinna spontant, men hos vuxna är det mindre troligt. Professionell behandling rekommenderas för att effektivt och säkert ta bort dem.</p>'
             ),
-            new Question(
-                  title: 'Ska jag klämma mina finnar?',
-                  text: '<p class="p200">Vi på Acnespecialisten rekommenderar att du inte klämmer finnar själv, eftersom felaktig teknik kan leda till ärrbildning och förvärra inflammationen genom att införa bakterier från dina fingrar. Det är dock sant att finnar kan behöva klämmas, men det måste göras på rätt sätt för att undvika skador på huden. Om du undviker att klämma helt kan ärrbildning också uppstå, eftersom fettsyran i finnen fortsätter att fräta på huden.</p>
 
-                        <p class="p200 mt-m">För att klämma finnar korrekt krävs både rätt utrustning och teknik. På Acnespecialisten har vi erfarna hudterapeuter som kan hjälpa dig att behandla dina finnar på ett säkert och effektivt sätt. Genom att vända dig till oss får du den expertis och omsorg du behöver för att hantera din akne på bästa sätt. Du kan läsa mer om våra aknebehandlingar och hur de kan hjälpa dig här.</p>'
+new Question(
+                  title: 'Det finns inget direkt samband mellan milier och akne eller eksem, även om de kan uppträda samtidigt. Milier är fyllda med keratin snarare än talg, som är fallet med akne. De kan dock förekomma i områden där huden är skadad eller inflammerad, som kan vara fallet med eksem.</p>'
             ),
-            new Question(
-                  title: 'Försvinner aknen efter tonåren?',
-                  text: '<p class="p200">Det är svårt att ge ett entydigt svar på den frågan eftersom det varierar från person till person. För vissa kan akne vara ett tonårsproblem som försvinner när de blir äldre, medan det för andra kan övergå till vuxenakne. Det är inte säkert att aknen försvinner efter tonåren, och det kan variera beroende på individuella faktorer som hormoner, genetik och livsstil.</p>
 
-                        <p class="p200 mt-m">Akne kan uppstå i olika faser av livet och dess svårighetsgrad varierar från person till person. Vissa individer upplever akne under tonåren, som sedan försvinner när de når vuxen ålder. Andra kan vara aknefria under tonåren, men drabbas av akne som vuxna. Den mest besvärliga situationen är när någon drabbas av akne under tonåren som sedan övergår till vuxenakne.</p>
-
-                        <p class="p200 mt-m">När man når vuxen ålder och aknen fortfarande inte har försvunnit, är det stor risk att aknen har lett till ärrbildning. Det är därför viktigt att behandla akne i alla åldrar för att förebygga och minimera risken för att drabbas av acneärr. Oavsett ålder och fas av akne, bör man söka hjälp för att behandla och kontrollera sitt tillstånd, för att minska risken för långsiktiga hudproblem som ärrbildning.</p>'
-            ),
-            new Question(
-                  title: 'Kan jag ha akne även om jag är vuxen?',
-                  text: '<p class="p200">Ja, akne kan drabba vuxna och det är faktiskt ganska vanligt. Vuxenakne drabbar cirka 12-22% av alla kvinnor och 3% av alla män. Den kan uppkomma vid 20-, 30- och 40-årsåldern, och ibland ännu senare. Det kallas då för vuxenakne och har också med hormonerna i din kropp att göra, men faktorerna som triggar igång din akne är lite annorlunda än vid tonårsakne.</p>
-
-                        <p class="p200 mt-m">Vid tonårsakne ökar produktionen av det manliga könshormonet i din kropp. Det, i kombination med fettproduktionen, kan leda till att du drabbas av akne. Vid vuxen ålder däremot, kan aknen bero på sådant som graviditet, menstruation, alkohol, stress och preventivmedel. Alltså, yttre faktorer som triggar igång dina hormoner och får aknen att blomma upp.</p>
-
-                       <p class="p200 mt-m">Vuxenakne kan orsakas av flera faktorer, såsom hormonella förändringar, stress, genetik och användning av olämpliga hudvårdsprodukter. Hos kvinnor kan akne ofta vara kopplad till menstruationscykeln eller hormonella förändringar i samband med graviditet och menopaus.</p>
-
-                       <p class="p200 mt-m">Sammanfattningsvis kan akne drabba personer i alla åldrar, och det är viktigt att vara medveten om att akne inte bara är ett tonårsproblem.</p>'
-            ),
-            new Question(
-                  title: 'Förvärras min akne av att jag äter choklad?',
-                  text: '<p class="p200">Nej, det är en myt att choklad direkt skulle leda till akne. Ingen vetenskaplig forskning har tydligt påvisat ett direkt samband mellan chokladkonsumtion och uppkomsten av finnar. Det som potentiellt kan påverka din akne är stress. Om du upplever stress över att du ätit choklad, kan det i sin tur bidra till akneutbrott. Men en bit choklad då och då bör inte orsaka akneutbrott hos de flesta människor.</p>'
-            ),
-            new Question(
-                  title: 'Vad kan jag göra för att bli av med min akne?',
-                  text: '<p class="p200">Att bekämpa akne effektivt kräver en individuellt anpassad strategi som kombinerar lämpliga behandlingar och hudvårdsprodukter, utformade för att passa dina unika behov och din huds specifika tillstånd. På Acnespecialisten, erbjuder vi kostnadsfria hudkonsultationer där vi kan utvärdera ditt specifika fall av akne och hjälpa till att skräddarsy en effektiv behandlingsrutin.</p>'
-            )
       ),
-      'Behandling mot akne' => array(
+      'Behandling mot milier' => array(
             new Question(
-                  title: 'Hur många behandlingar behövs?',
-                  text: '<p class="p200">Antalet behandlingar som behövs varierar från person till person och beror på flera faktorer, som din hudtyp, svårighetsgraden av din akne och din respons på behandlingen. Vanligtvis kan du se en förbättring efter 1 till 3 veckors regelbunden behandling.</p>
-
-                       <p class="p200 mt-m">Det är viktigt att påpeka att behandlingen hos oss inte fungerar i isolering. En väsentlig del av din framgång ligger i den dagliga användningen av de rekommenderade produkterna hemma. Det är kombinationen av professionell behandling och hemmavård som ger bästa möjliga resultat.</p>
-
-                        <p class="p200 mt-m">Om du inte upplever de förväntade förbättringarna efter en tid, uppmanar vi dig att ta kontakt med din personliga hudterapeut. Tillsammans kan vi se över dina hudvårdsrutiner och de produkter du använder, för att optimera din behandlingsplan.</p>'
+                  title: 'Vilka behandlingsmetoder finns för att ta bort milier?',
+                  text: '<p class="p200">Behandlas genom extraktion med en steril nål. Behandlingen utförs av en hudterapeut.</p>'
             ),
             new Question(
-                  title: 'Finns det en risk att min akne återkommer?',
-                  text: '<p class="p200">Ja, det finns en risk att akne återkommer, eftersom akne kan påverkas av flera faktorer såsom genetik, hormoner, livsstil och hudvård. Personer med en genetisk benägenhet för akne kan uppleva att aknen återkommer, särskilt under perioder av hormonella förändringar som pubertet, graviditet eller menstruation. Även faktorer som stress, kost och användning av olämpliga hudvårdsprodukter kan bidra till att aknen återkommer.</p>
-                       
-                       <p class="p200 mt-m">Det är dock viktigt att komma ihåg att regelbunden och korrekt hudvård kan hålla aknen i schack. Precis som vi borstar tänderna varje dag för att hålla karies borta, behöver vi underhålla vår hud för att hålla aknen borta. Det innebär att följa en anpassad hudvårdsrutin, hantera stress och upprätthålla en hälsosam livsstil. Så länge du tar hand om din hud regelbundet och på rätt sätt, kan du förhindra att aknen återkommer.</p>'
+                  title: 'Är behandlingar för att ta bort milier smärtsamma?',
+                  text: '<p class="p200">Smärtnivån varierar beroende på behandlingsmetoden och individens smärttolerans. Vissa metoder som elektrokauteri och kryoterapi kan kännas obekväma, men är oftast inte smärtsamma. Lokalbedövning kan användas för att minska obehag.</p>'
             ),
             new Question(
-                  title: 'Vilken är den bästa behandlingen mot akne?',
-                  text: '<p class="p200">Vilken behandling som är bäst för akne varierar beroende på individens hudtyp, aknens svårighetsgrad och orsaker till akne. Den bästa behandlingen är en skräddarsydd behandlingsplan som kombinerar rätt behandlingar, produkter och rutiner för att effektivt ta itu med den aktiva aknen och förhindra att nya utbrott uppstår. Genom att först behandla och bli av med den aktiva aknen kan du uppnå en klarare hud. Därefter är det viktigt att bibehålla resultaten med lämpliga produkter och rutiner för att motverka att nya finnar uppstår och hålla aknen under kontroll. Det rekommenderas att konsultera en av våra specialister för att få en personlig och effektiv behandlingsplan som passar just din hud och akne.</p>'
+                  title: 'Hur länge tar det att se resultat efter en behandling för milier?',
+                  text: '<p class="p200">Resultaten kan ses omedelbart efter behandlingen då milierna extraheras. Därefter kan det ta några dagar till veckor för huden att läka helt och för milier att försvinna helt, i vissa fall kan flera behandlingar krävs för att få bort milierna helt och hållet.</p>'
             ),
             new Question(
-                  title: 'Gör aknebehandlingen ont?',
-                  text: '<p class="p200">vi strävar efter att göra aknebehandlingen så behaglig som möjligt för våra klienter. Det är sant att akne ibland innebär inflammation i porerna och kan göra ont när de öppnas upp och töms. Men vi vill påpeka att smärtupplevelsen kan variera från person till person och bero på behandlingsmetoden som används. Vår erfarna personal är välutbildad och tar stor hänsyn till din komfort under behandlingen. Om du känner någon obehag, tveka inte att informera din acnespecialist så att de kan justera behandlingen efter dina behov.</p>'
+                  title: 'Finns det några biverkningar eller risker med behandlingen av milier?',
+                  text: '<p class="p200">Biverkningar är i allmänhet minimala men kan inkludera rodnad, svullnad eller en brännande känsla direkt efter behandlingen.</p>'
             ),
             new Question(
-                  title: 'Vad ska jag tänka på innan behandlingen?',
-                  text: '<p class="p200">Vi vill att din behandling ska vara så smidig och bekväm som möjligt, och vi strävar efter att göra processen enkel för dig. Du behöver inte förbereda något särskilt inför ditt besök hos oss. Kom precis som du är, och vi tar hand om resten. Vi kommer att genomföra en grundlig hudanalys och skräddarsy en behandlingsplan som passar just dig och din hudtyp. Så, du kan lita på oss och bara slappna av inför din aknebehandling.</p>'
-            ),
-            new Question(
-                  title: 'Vad ska jag tänka på efter behandling?',
-                  text: '<p class="p200">Efter din aknebehandling hos Acnespecialisten kan du uppleva att huden blir något röd och irriterad. Detta är helt normalt och en del av hudens naturliga läkningsprocess. Rödheten och irritationen kommer att avta under dagarna efter behandlingen. Det är viktigt att du fortsätter att följa den hudvårdsrutin och de produktrekommendationer vi gett dig för att stödja hudens återhämtning och maximera resultaten av behandlingen.</p>
-                        
-                        <p class="p200 mt-m">Undvik att peta eller klämma på behandlade områden för att undvika eventuell ärrbildning och infektion. Dessutom är det bra att skydda huden från solen, då den kan vara extra känslig efter behandling. Använd solskyddsmedel och undvik direkt solljus så mycket som möjligt. Kom ihåg att vi på Acnespecialisten alltid finns här för dig om du har några frågor eller funderingar efter din behandling.</p>'
-            ),
-            new Question(
-                  title: 'Eftervård efter behandlingen?',
-                  text: '<p class="p200">Eftervården efter en aknebehandling hos Acnespecialisten är lika viktig som själva behandlingen. När aknen är utklämd och borta är det viktigt att förebygga uppkomsten av ny akne. Om du inte följer din eftervårdsplan kommer du att få resultat, men det kommer inte vara bestående, eftersom akneproduktionen sätter igång igen kort tid efter behandlingen.</p>
-
-                  <p class="p200 mt-m">För att hålla huden i kontroll och balans är det viktigt att följa de råd och rekommendationer vi ger dig angående hudvårdsrutin och produkter. Kontinuerlig behandling och förebyggande åtgärder är avgörande för att uppnå och bibehålla en klar och frisk hud. Kom ihåg att vi på Acnespecialisten alltid finns här för att hjälpa och stötta dig genom hela processen, både under och efter din behandling.</p>',
+                  title: 'Hur kan jag förhindra att milier återkommer efter en behandling?',
+                  text: '<p class="p200">Förhindrande av milier inkluderar god hudvård som rengöring och återfuktning samt att identifiera de yttre faktorer som bidragit till att milierna uppstått.</p>'
             ),
       ),
 );
 
 $faq_url_label = "Läs fler frågor & svar";
-$faq_url_title = "läs flera frågor relaterat till akne";
+$faq_url_title = "läs flera frågor relaterat till milier";
 
 $skin_guide_articles = array(
       new SkinGuideArticle(
@@ -576,36 +532,36 @@ $skin_guide_articles = array(
 );
 
 $skinguide_url_label = "Läs fler guider";
-$skinguide_url_title = "Läs fler guider om akne";
+$skinguide_url_title = "Läs fler guider om milier";
 
 $specialists = array(
       new Specialist(
             name: 'Cazzandra Lindberg',
             title: 'Hudterapeut sedan 2015',
             image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
-            image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i aknebehandling',
-            image_title: 'Cazzandra Lindberg - Expert på aknebehandling'
+            image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i behandling av milier',
+            image_title: 'Cazzandra Lindberg - Expert på behandling av milier'
       ),
       new Specialist(
             name: 'Veronika Benedik',
             title: 'Hudterapeut sedan 1999',
             image: 'images/specialists/312x312/hudterapeut-veronika.webp',
-            image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på akne',
-            image_title: 'Veronika Benedik - Specialist inom aknevård'
+            image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på milier',
+            image_title: 'Veronika Benedik - Specialist inom vård av milier'
       ),
       new Specialist(
             name: 'Amira Maqboul',
             title: 'Hudterapeut sedan 2017',
             image: 'images/specialists/312x312/hudterapeut-amira.webp',
-            image_alt: 'Amira Maqboul, hudterapeut med kunskap inom aknehantering',
-            image_title: 'Amira Maqboul - Hudterapeut specialiserad på akne'
+            image_alt: 'Amira Maqboul, hudterapeut med kunskap inom behandling av milier',
+            image_title: 'Amira Maqboul - Hudterapeut specialiserad på milier'
       ),
       new Specialist(
             name: 'Vilma Libom',
             title: 'Hudterapeut sedan 2019',
             image: 'images/specialists/312x312/hudterapeut-vilma.webp',
-            image_alt: 'Vilma Libom, hudterapeut med inriktning mot aknebehandling',
-            image_title: 'Vilma Libom - Expert inom aknebehandling'
+            image_alt: 'Vilma Libom, hudterapeut med inriktning mot behandling av milier',
+            image_title: 'Vilma Libom - Expert inom behandling av milier'
       )
 );
 
@@ -614,13 +570,13 @@ $specialist_url_title = "Akne Specialiserade Hudterapeuter";
 
 $related_problems = array(
       new RelatedProblem(
-            name: 'Acneärr',
-            aka: 'gropar & Fläckar',
-            image: 'images/problems/102x102/acnearr.webp',
-            image_alt: 'Bild som visar acneärr, en typ av hudproblem som ofta följer efter akne',
-            image_title: 'Acneärr - en vanlig följd av akne',
-            url: '/problem/acnearr',
-            url_title: 'Acneärr'
+            name: 'Blandhy',
+            aka: 'Kombinationshy',
+            image: 'images/problems/102x102/blandhy.webp',
+            image_alt: 'Bild som visar blandhy, en typ av hudproblem där vissa områden är torra medan andra är oljiga',
+            image_title: 'Blandhy - en komplex hudtyp som kräver specialiserad vård',
+            url: '/problem/blandhy',
+            url_title: 'Blandhy'
       ),
       new RelatedProblem(
             name: 'Rosacea',
@@ -641,6 +597,7 @@ $related_problems = array(
             url_title: 'Perioral dermatit',
       ),
 );
+
 $brands = array(
       new Brand(
             label: 'Powerlite',
@@ -709,7 +666,7 @@ $brands = array(
 );
 
 $brands_url_label = "Se alla varumärken";
-$brands_url_title = "Varumärken för Aknebehandling";
+$brands_url_title = "Varumärken för Milierbehandling";
 
 ?>
 
@@ -1037,7 +994,7 @@ $brands_url_title = "Varumärken för Aknebehandling";
                               </a>
                         </div>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                        <a class="mt-xl button b200 outline expand auto-width is-hidden-desktop l10n" title="Se våra varumärken mot akne" href="varumarken">Se alla varumärken</a>
+                        <a class="mt-xl button b200 outline expand auto-width is-hidden-desktop l10n" title="Se våra varumärken mot milier" href="varumarken">Se alla varumärken</a>
 
                   </section>
             </div>
