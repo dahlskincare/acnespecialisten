@@ -167,44 +167,44 @@ $type_categories = array(
             )
       );
       new BasedTypeCategory(
-            title: 'Akne baserat på svårighetsgrad',
-            content: '<p class="p200">Akne kan variera i svårighetsgrad från milda till extremt allvarliga fall. I milda fall av akne är symptomen ofta mindre uttalade och består främst av pormaskar, medan mer allvarliga fall innefattar djupare inflammationer i form av cystor och noduler. Svårighetsgraden påverkar också hur akne påverkar en persons livskvalitet och hur den ska behandlas. Det är viktigt att diagnostisera och behandla akne utifrån dess svårighetsgrad för att säkerställa bästa möjliga behandlingsresultat och förhindra potentiella ärr och bestående skador på huden.</p>',
+            title: 'Ytliga blodkärl baserat på svårighetsgrad',
+            content: '<p class="p200">Ytliga blodkärl kan variera i svårighetsgrad från endast ett eller några få synliga blodkärl till större nätverk av blodkärl som täcker stora områden av huden. I milda fall är de oftast kosmetiska och inte särskilt störande, medan i svårare fall kan de vara kopplade till andra hudåkommor och till och med leda till obehag eller smärta. Det är viktigt att diagnostisera och behandla ytliga blodkärl utifrån deras svårighetsgrad för att säkerställa bästa möjliga behandlingsresultat.</p>',
             types: array(
                   new BasedType(
-                        title: 'Mild akne',
-                        subtitle: 'även kallat acne comedonica',
+                        title: 'Milda ytliga blodkärl',
+                        subtitle: 'Enstaka eller några få synliga blodkärl',
 
-                        image_url: 'images/problems/102x102/mild-akne.webp',
-                        image_alt: 'Bild av mild akne',
-                        image_title: 'Mild akne exemplifierad',
-
-                        url: null,
-                        url_title: null,
-                  ),
-                  new BasedType(
-                        title: 'Medelsvår akne',
-                        subtitle: 'Även kallat acne papulopustulosa',
-
-                        image_url: 'images/problems/102x102/medelsvar-akne.webp',
-                        image_alt: 'Bild av medelsvår akne',
-                        image_title: 'Medelsvår akne exemplifierad',
+                        image_url: 'images/problems/102x102/milda-blodkarl.webp',
+                        image_alt: 'Bild av milda ytliga blodkärl',
+                        image_title: 'Milda ytliga blodkärl exemplifierade',
 
                         url: null,
                         url_title: null,
                   ),
                   new BasedType(
-                        title: 'Svår akne',
-                        subtitle: 'Även kallat Acne nodulocystica',
+                        title: 'Medelsvåra ytliga blodkärl',
+                        subtitle: 'Flera synliga blodkärl eller mindre nätverk',
 
-                        image_url: 'images/problems/102x102/svar-akne.webp',
-                        image_alt: 'Bild av svår akne',
-                        image_title: 'Svår akne exemplifierad',
+                        image_url: 'images/problems/102x102/medelsvara-blodkarl.webp',
+                        image_alt: 'Bild av medelsvåra ytliga blodkärl',
+                        image_title: 'Medelsvåra ytliga blodkärl exemplifierade',
+
+                        url: null,
+                        url_title: null,
+                  ),
+                  new BasedType(
+                        title: 'Svåra ytliga blodkärl',
+                        subtitle: 'Stora nätverk av blodkärl eller kopplat till andra hudåkommor',
+
+                        image_url: 'images/problems/102x102/svara-blodkarl.webp',
+                        image_alt: 'Bild av svåra ytliga blodkärl',
+                        image_title: 'Svåra ytliga blodkärl exemplifierade',
 
                         url: null,
                         url_title: null,
                   ),
             )
-      ),
+      );
       new BasedTypeCategory(
             title: 'Akne baserat på yttre faktorer',
             content: '<p class="p200">Yttre faktorer kan också påverka uppkomsten av akne. Exempel på dessa är sol, friktion, kosmetika, mediciner och miljöfaktorer. Dessa kan bidra till eller förvärra akne genom att irritera huden, täppa till porer eller påverka hudens talgproduktion.</p>',
