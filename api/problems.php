@@ -15,7 +15,19 @@ $username = $_ENV['DB_USER'];
 $password = $_ENV['DB_PASSWORD'];
 $dbname = $_ENV['DB_NAME'];
 
-$query = "SELECT id, image_url, name_$language AS name, aka_$language AS aka FROM $dbname.problem LIMIT 1000";
+
+$where = array();
+if (array_key_exists('flowId', $_GET)) {
+    $flowId = $_GET['flowId'];
+    $where[] = "flow_id = '$flowId'";
+}
+if (empty($where)) {
+    $where = "1";
+} else {
+    $where = implode(' AND ', $where);
+}
+
+$query = "SELECT id, image_url, name_$language AS name, aka_$language AS aka FROM $dbname.problem WHERE $where LIMIT 1000";
 
 $conn = mysqli_connect($servername, $username, $password);
 if (!$conn) {
