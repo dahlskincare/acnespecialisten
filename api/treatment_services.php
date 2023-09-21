@@ -14,13 +14,18 @@ $username = $_ENV['DB_USER'];
 $password = $_ENV['DB_PASSWORD'];
 $dbname = $_ENV['DB_NAME'];
 
-
+$where = array();
 if (array_key_exists('flowId', $_GET)) {
     $flowId = $_GET['flowId'];
-    $query = "SELECT id, image_url, duration, price, name_$language AS name, description_$language AS description FROM $dbname.treatment_service WHERE flow_id = '$flowId'";
-} else {
-    $query = "SELECT id, image_url, duration, price, name_$language AS name, description_$language AS description FROM $dbname.treatment_service";
+    $where[] = "flow_id = '$flowId'";
 }
+if (empty($where)) {
+    $where = "1";
+} else {
+    $where = implode(' AND ', $where);
+}
+
+$query = "SELECT id, image_url, duration, price, name_$language AS name, description_$language AS description FROM $dbname.treatment_service WHERE $where LIMIT 1000";
 
 
 $conn = mysqli_connect($servername, $username, $password);
