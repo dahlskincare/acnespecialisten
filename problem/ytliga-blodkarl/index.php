@@ -74,41 +74,41 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
             title: 'är ytliga blodkärl?',
-            content: '<p class="p200">Akne är en ärftlig och hormonell hudförändring som uppstår när talgproduktionen i hudens porer ökar. Huden behöver en viss mängd talg för att hålla sig mjuk och smidig, men vid överproduktion har huden svårt att avlägsna hudrester, vilket leder till bakterier och små inflammationer. Dessa inflammationer orsakar akne, eller finnar som vi ofta säger i dagligt tal. Akne är en inflammation i huden som uppstår när porerna täpps till av talg, döda hudceller och bakterier.</p>',
-            extended_content: '<p class="p200 mt-xl">Både barn och vuxna kan drabbas av akne, men det är vanligast under tonåren. Vissa har besvär med akne under längre perioder, medan andra endast vid enstaka tillfällen. Akne kan se ut på många olika sätt, från små knottror på huden till variga större utslag. Det viktiga att komma ihåg är att akne kan behandlas. Ibland krävs behandling under en längre tidsperiod, men med rätt behandling kan både bestående ärrbildning och psykiskt lidande undvikas eller lindras.</p>       
-            <p class="p200 mt-xl">På Acnespecialisten kan du få hjälp med din akne. Vi har kunskap och erfarenhet av olika typer av behandlingar som ger goda resultat och många nöjda kunder. Vi börjar alltid med en kostnadsfri hudkonsultation där vi identifierar problemet och planerar den mest lämpliga behandlingen för dig och din hy. Du får även en effektiv hudvårdsrutin som du enkelt kan följa hemma. Vi rekommenderar att du tar hand om din allmänna hälsa: sov ordentligt, ät hälsosamt och motionera regelbundet. När du mår bra i sin helhet påverkar det din hud positivt.</p>',
+            content: '<p class="p200">Ytliga blodkärl är små, utvidgade blodkärl som ligger nära hudytan och blir därför synliga genom huden. Dessa blodkärl tenderar att vara röda, lila eller blå och uppträder ofta i ansiktet, speciellt på näsan, kinderna och runt ögonen. De kan variera i storlek och form men är vanligtvis mindre än 1-3 mm i diameter. Medan ytliga blodkärl oftast är kosmetiskt störande, och inte betraktas som farlika, kan deras närvaro vara en indikator på underliggande hudsjukdomar som rosacea eller andra inflammatoriska tillstånd. Därför kan det vara värt att konsultera en hudterapeut för att utesluta eventuella bakomliggande problem.</p>',
+            extended_content: '<p class="p200 mt-xl">Tekniskt sett är dessa synliga blodkärl en form av venös insufficiens, vilket innebär att de små venösa ventilerna inte fungerar optimalt, vilket leder till att blodet har svårigheter att flyta tillbaka till hjärtat. Detta orsakar en ansamling av blod i dessa små kärl, vilket gör dem mer synliga. Dessa kärl behandlas effektivt med hjäpl av IPL som anpassas efter kundens behov, så en individuell konsultation är ofta nödvändig för att fastställa den bästa behandlingsplanen för dig.</p>
+            <p class="p200 mt-xl">I korthet, medan ytliga blodkärl i ansiktet vanligtvis är en kosmetisk bekymmer, kan de vara symptom på andra hudåkommor och bör tas på allvar. En medicinsk konsultation kan hjälpa dig att förstå de underliggande orsakerna och de mest effektiva behandlingsalternativen för din situation.</p>',
             icons: array()
       ),
       new ProblemTrivia(
             prefix: 'Varför',
             title: 'får man ytliga blodkärl?',
-            content: '<p class="p200">Akne är en hudåkomma som beror på en kombination av genetiska, hormonella och miljömässiga faktorer. En normal talgproduktion är nödvändig för att huden ska må bra, men när huden överproducerar talg kan detta leda till akne. Detta beror bland annat på anlag man har ärvt från sina föräldrar. Vid en överproduktion av talg klarar porerna inte av att ta hand om överflödet, och tillsammans med hudrester täpps pormynningarna till, vilket leder till att bakterier samlas. Kroppen försvarar sig då med en inflammation, och det är just detta som syns på huden i form av akne.</p>',
-            extended_content: '<p class="p200 mt-xl">Hormoner får porerna i huden att överproducera talg. Det är vanligt att drabbas av akne under puberteten, när kroppen genomgår stora förändringar, men även små barn och vuxna kan få akne. Flera faktorer kan orsaka och försämra akne, såsom stress, vissa läkemedel, varma och fuktiga miljöer samt hormonförändringar vid graviditet, menstruation och klimakteriet. Även anabola steroider och p-piller kan orsaka akne. Stress påverkar ofta huden mer än vi kanske tror, och både stora och små händelser i livet kan öka kroppens stressnivå och orsaka hudförändringar i form av hormonell akne.</p>
-            <p class="p200 mt-xl">För att behandla akne är det viktigt att balansera kroppens talgproduktion med rätt hudvårdsprodukter och hållbara hudvårdsrutiner. Successivt kan aknen antingen bli mycket bättre eller helt försvinna. Vi som arbetar på Acnespecialisten har lång erfarenhet och stor kunskap av aknebehandlingar och kan hjälpa dig att hålla kroppens naturliga produktion av talg på en optimal nivå och på så sätt reducera dina besvär med akne.</p>',
+            content: '<p class="p200">Förekomsten av ytliga blodkärl i ansiktet kan bero på en rad olika faktorer, både inre och yttre. En av de vanligaste orsakerna är genetik. Om andra i din familj har haft problem med synliga blodkärl, är det mer troligt att du också kommer att uppleva det. En annan viktig faktor är ålder. Med tiden förlorar huden sin elasticitet och blir tunnare, vilket gör att blodkärlen under hudytan blir mer framträdande. Hormonella förändringar, särskilt de som inträffar under graviditet, menopaus eller som en bieffekt av hormonell medicinering, kan också vara en bidragande faktor.</p>',
+            extended_content: '<p class="p200 mt-xl">Exponering för solens strålar är en annan viktig variabel. UV-strålning kan försvaga kollagenet i huden, vilket gör blodkärlen mer synliga. Därför rekommenderas alltid användning av solskydd, särskilt på områden som är mest exponerade för solen som ansiktet. Livsstilsfaktorer som alkoholkonsumtion och rökning kan också spela en roll. Båda dessa faktorer kan påverka blodcirkulationen och därmed bidra till utvecklingen av synliga blodkärl. Andra möjliga orsaker inkluderar högt blodtryck, som kan sätta extra påfrestning på blodkärlen, och vissa hudåkommor som rosacea, som ofta associeras med förekomst av ytliga blodkärl.</p>
+            <p class="p200 mt-xl">Vissa yrken eller aktiviteter som kräver långvarig exponering för hård vind eller kyla kan också förvärra problemet. Dessutom kan kroniska inflammatoriska tillstånd och vissa medicinska behandlingar, som strålning, förvärra eller orsaka uppkomsten av ytliga blodkärl. Sammanfattningsvis, orsakerna till ytliga blodkärl i ansiktet är många och varierande. De kan vara genetiska eller förvärvade, och kan påverkas av allt från din livsstil till din exponering för olika miljöfaktorer. Om du är bekymrad över ytliga blodkärl, är det bäst att konsultera en hudterapeut för att diskutera dina specifika symptom och möjliga behandlingsalternativ.</p>',
             icons: array('who-infants' => 'Hormoner', 'who-teenagers' => 'Stress', 'who-adults' => 'Genetik', 'who-elders' => 'Livsstil')
       ),
       new ProblemTrivia(
             prefix: 'Vem',
             title: 'får ytliga blodkärl?',
-            content: '<p class="p200">Akne är vanligast bland tonåringar och unga vuxna, men det kan drabba människor i alla åldrar, oavsett kön och hudtyp. I puberteten ökar produktionen av könshormoner, vilket kan leda till akne vulgaris, även kallad tonårsakne. Denna form av akne kan variera från enstaka finnar till större besvär, med små gula eller röda utslag, stora knölar och smärtsamma blåsor. Eftersom akne oftast uppträder i ansiktet under en känslig period som tonåren, kan det påverka det mentala måendet och det är viktigt att behandla akne effektivt för att undvika ärrbildning och andra skador på huden.</p>',
-            extended_content: '<p class="p200 mt-xl">Akne drabbar inte bara tonåringar. Spädbarn och småbarn kan drabbas av lindriga former av akne, såsom akne neonatorum och akne infantum. Vuxenakne, kallad akne tarda, kan också uppstå om huden överproducerar talg. Kvinnor drabbas oftare av vuxenakne än män, eftersom de påverkas mer av hormonsvängningar under graviditet, mens och klimakteriet. Preventivmedel kan också påverka huden, men hur de påverkar varierar från individ till individ.</p>
-            <p class="p200 mt-xl">Yttre faktorer som stress och alkohol kan också påverka akne, både hos tonåringar och vuxna. Akne kan uppstå i ansiktet, på bröstet, axlarna och ryggen. För att behandla akne rekommenderas att boka en kostnadsfri hudkonsultation hos Acnespecialisten. Där görs en bedömning av din hud och du får förslag på behandlingar samt en personlig hudvårdsrutin anpassad efter din hudtyp. Detta hjälper dig att motverka ytterligare problem med akne, både i ansiktet och på andra delar av kroppen.</p>',
+            content: '<p class="p200">Det är en missuppfattning att endast äldre personer eller de med vissa hudåkommor får ytliga blodkärl; i verkligheten kan nästan vem som helst drabbas. Dock finns det vissa grupper som löper en högre risk än andra. Genetik spelar en viktig roll i denna fråga. Om det finns en familjehistoria av ytliga blodkärl eller relaterade hudproblem som rosacea, är det större sannolikhet att du också kommer att drabbas. Etnicitet kan också vara en faktor; personer med ljusare hudtyper är oftare drabbade än de med mörkare hudtoner. Ålder är en annan faktor som kan öka sannolikheten för att utveckla dessa synliga blodkärl. Med åldern blir huden tunnare och förlorar sin elasticitet, vilket gör blodkärlen mer framträdande. Hormonella förändringar, som de som sker under graviditet, menopaus eller som en bieffekt av hormonbehandlingar, kan också leda till ytliga blodkärl.</p>',
+            extended_content: '<p class="p200 mt-xl">Livsstilsval som rökning och alkoholkonsumtion kan bidra till utvecklingen av ytliga blodkärl. Dessa faktorer påverkar blodcirkulationen och kan göra blodkärlen mer synliga. Likaså kan långvarig exponering för solen utan adekvat solskydd förvärra tillståndet. Yrkesgrupper som är utsatta för extrema väderförhållanden, som byggarbetare eller utomhusidrottare, löper också en ökad risk. Stress och högt blodtryck har också varit knutna till utvecklingen av ytliga blodkärl.</p>
+            <p class="p200 mt-xl">Det är också viktigt att notera att vissa medicinska tillstånd och behandlingar kan göra dig mer benägen att utveckla ytliga blodkärl. Personer med rosacea, en kronisk inflammatorisk hudsjukdom, har högre förekomst av ytliga blodkärl. Detsamma gäller för personer som har genomgått strålbehandling. Sammanfattningsvis är ytliga blodkärl i ansiktet inte diskriminerande när det kommer till vem de drabbar, men vissa grupper har en högre riskfaktor på grund av genetik, ålder, livsstilsval och medicinska tillstånd. Om du tillhör någon av dessa riskgrupper och är orolig för ytliga blodkärl, är det rekommenderat att söka rådgivning från en hudspecialist.</p>',
 
             icons: array('who-infants' => 'Barn', 'who-teenagers' => 'Ungdommar', 'who-adults' => 'Vuxna', 'who-elders' => 'Män & Kvinnor')
       ),
       new ProblemTrivia(
             prefix: 'Var',
             title: 'får man ytliga blodkärl?',
-            content: '<p class="p200">Akne kan uppstå på flera delar av kroppen och påverka personer i olika åldrar och med olika hudtyper. Vanligast är att akne drabbar ansiktet, men det kan även förekomma på andra områden som bröstet, axlarna och ryggen. Placeringen av akne beror på var talgkörtlarna är aktiva och därmed kan överproducera talg, vilket leder till tilltäppta porer och inflammationer i huden.</p>',
-            extended_content: '<p class="p200 mt-xl">Akne i ansiktet är särskilt påtagligt, eftersom det är svårt att dölja och ofta påverkar en persons självkänsla och mentala välbefinnande. Det är vanligt att tonåringar drabbas av ansiktsakne under puberteten, då hormonella förändringar kan leda till ökad talgproduktion. Även vuxna kan drabbas av ansiktsakne, särskilt kvinnor som genomgår hormonella förändringar under graviditet, mens och klimakteriet.</p>
-            <p class="p200 mt-xl">Akne på bröstet, axlarna och ryggen är också vanligt och kan vara lika besvärande som ansiktsakne, även om det är lättare att dölja under kläder. Denna typ av akne kan orsakas av samma faktorer som ansiktsakne, men även av yttre faktorer som friktion från kläder eller väskor som gnider mot huden och skapar irritation. För att behandla och förebygga akne oavsett var på kroppen det uppstår, är det viktigt att följa en anpassad hudvårdsrutin, inklusive rengöring, återfuktning och eventuellt användning av aknebehandlingar som passar din hudtyp. Konsultera hos en av våra hudspecialister för att få råd om vilka produkter och behandlingar som är bäst lämpade för din specifika situation och för att minimera akneproblem på olika delar av kroppen.</p>',
+            content: '<p class="p200">Ytliga blodkärl i ansiktet, även kallade "spindelkärl" eller "brustna blodkärl," är oftast lokaliserade i särskilda områden beroende på en rad faktorer. De är vanligtvis mer synliga på platser där huden är tunn eller där det är ökad blodflöde. Näsan är en vanlig plats för ytliga blodkärl, särskilt runt näsvingarna och på näsryggen. Detta beror ofta på den tunna huden i detta område, samt det faktum att näsan är utsatt för många miljöfaktorer som sol, vind och kyla. Kinderna är ett annat vanligt område där ytliga blodkärl kan uppstå. Detta är delvis på grund av de större blodkärlen som finns i detta område, och de tunna lagren av hud och fett som täcker dem. Kinderna är också utsatta för miljöfaktorer och temperaturförändringar, vilket kan förvärra tillståndet.</p>',
+            extended_content: '<p class="p200 mt-xl">Pannan och området runt ögonen är också platser där man kan se ytliga blodkärl. Huden kring ögonen är extremt tunn, och detta område är särskilt känsligt för både interna och externa påverkningar. Detsamma gäller för pannan, som ofta utsätts för solljus och andra miljöfaktorer. Haka och området runt munnen är mindre vanliga platser för ytliga blodkärl, men de kan fortfarande förekomma där. Blodkärl kring munnen kan ibland bli mer framträdande på grund av saker som tandproblem, het mat och dryck, eller hormonella förändringar.</p>
+            <p class="p200 mt-xl">Eftersom dessa områden i ansiktet är särskilt utsatta för solskador, är det mycket viktigt att använda solskydd för att minimera risken för ytliga blodkärl. Oavsett var i ansiktet de förekommer, kan ytliga blodkärl vara både estetiskt störande och en indikation på underliggande hudproblem eller medicinska tillstånd. Därför är det viktigt att konsultera en hudspecialist för diagnos och behandlingsalternativ om du märker att de börjar utvecklas.</p>',
             icons: array('who-infants' => 'Ansiktet', 'who-teenagers' => 'Ryggen', 'who-adults' => 'Bröstet', 'who-elders' => 'Axlarna')
       ),
 );
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din aknetyp och skapar en individuell behandlingsplan.',
+            content: 'Hos AcneSpecialisten kopplas du till en personlig hudterapeut som hjälper dig identifiera de ytliga blodkärlen i ditt ansikte och skapar en individuell behandlingsplan.',
 
             url_label: 'Få gratis konsultation',
             url: 'hudkonsultation',
@@ -116,75 +116,56 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika aknetyp, så att du snabbt och säkert blir av med problemet.',
+            content: 'Vi utför skonsamma och effektiva behandlingar för ytliga blodkärl, anpassade till din specifika hudtyp och problemområden, så att du snabbt och säkert kan förbättra hudens utseende.',
 
-            url_label: 'Se aknebehandlingar',
-            url: 'behandlingar/akne',
-            url_title: 'Utforska våra skräddarsydda aknebehandlingar'
+            url_label: 'Se behandlingar för ytliga blodkärl',
+            url: 'behandlingar/ytliga-blodkarl',
+            url_title: 'Utforska våra skräddarsydda behandlingar för ytliga blodkärl'
       ),
-      new TreatmentStep(
-            title: 'Förebygga',
-            content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny akne och hålla din hud i balans.',
-
-            url_label: 'Se produkter',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
-            url_title: 'Hitta de bästa produkterna för att förebygga akne'
-      ),
-      new TreatmentStep(
-            title: 'Reparera',
-            content: 'När aknen är borta fokuserar vi på att reducera eventuella ärr med behandlingsmetoder som laser, microneedling och kemisk peeling för en jämn och problemfri hud.',
-
-            url_label: 'Se ärrbehandlingar',
-            url: 'behandlingar/aknearr',
-            url_title: 'Upptäck effektiva behandlingar för akneärr'
-      ),
-
 );
-$treatment_link = '<a href="problem/akne/aknebehandling" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra aknebehandlingar</a>';
 
-$types_title = 'Olika typer av akne';
+$types_title = 'Olika typer av ytliga blodkärl';
 
 $type_categories = array(
       new BasedTypeCategory(
-            title: 'Akne baserat på ålder',
-            content: '<p class="p200">Akne är en hudåkomma som kan drabba både ungdomar och vuxna, även om det är vanligast under tonåren. Tonårsakne uppstår ofta på grund av hormonella förändringar under puberteten. Vuxenakne förekommer också, och det kan bero på en rad olika faktorer. Hos vuxna kan akne orsakas av faktorer som stress, hormonobalans och genetik. Oavsett ålder är det viktigt att förstå att akne kan påverka människor i alla livsstadier.</p>',
+            title: 'Ytliga blodkärl baserat på ålder',
+            content: '<p class="p200">Ytliga blodkärl kan förekomma i olika åldrar men är vanligast bland vuxna och äldre. I yngre år kan de vara kopplade till specifika medicinska tillstånd eller hudirritation. Hos vuxna kan yttre faktorer som solskador och livsstilsval spela en roll. Hos äldre personer är det ofta en naturlig del av hudens åldrande.</p>',
             types: array(
                   new BasedType(
-                        title: 'Vuxenakne',
-                        subtitle: 'Även kallat acne tarda',
+                        title: 'Ytliga blodkärl hos vuxna',
+                        subtitle: 'Vanligast över 30 år',
 
-                        image_url: 'images/problems/102x102/vuxenakne.webp',
-                        image_alt: 'Bild av vuxenakne',
-                        image_title: 'Akne hos vuxna',
+                        image_url: 'images/problems/102x102/blodkarl-vuxna.webp',
+                        image_alt: 'Bild av ytliga blodkärl hos vuxna',
+                        image_title: 'Ytliga blodkärl hos vuxna',
 
-                        url: 'problem/akne/typer/vuxenakne',
-                        url_title: 'Utforska information om vuxenakne'
+                        url: null,
+                        url_title: null,
                   ),
                   new BasedType(
-                        title: 'Tonårsakne',
-                        subtitle: 'Även kallat acne vulgaris',
+                        title: 'Ytliga blodkärl hos äldre',
+                        subtitle: 'Vanligt som en del av hudens åldrande',
 
-                        image_url: 'images/problems/102x102/tonarsakne.webp',
-                        image_alt: 'Bild av tonårsakne',
-                        image_title: 'Akne hos tonåringar',
+                        image_url: 'images/problems/102x102/blodkarl-aldre.webp',
+                        image_alt: 'Bild av ytliga blodkärl hos äldre',
+                        image_title: 'Ytliga blodkärl hos äldre',
 
-                        url: 'problem/akne/typer/tonårsakne',
-                        url_title: 'Utforska information om tonårsakne'
+                        url: null,
+                        url_title: null,
                   ),
                   new BasedType(
-                        title: 'Barnakne',
-                        subtitle: 'Även kallat acne neonatorum',
+                        title: 'Ytliga blodkärl hos barn och ungdomar',
+                        subtitle: 'Ovanligt men inte omöjligt',
 
-                        image_url: 'images/problems/102x102/barnakne.webp',
-                        image_alt: 'Bild av barnakne',
-                        image_title: 'Akne hos barn',
+                        image_url: 'images/problems/102x102/blodkarl-ungdom.webp',
+                        image_alt: 'Bild av ytliga blodkärl hos barn och ungdomar',
+                        image_title: 'Ytliga blodkärl hos barn och ungdomar',
 
-                        url: 'problem/akne/typer/barnakne',
-                        url_title: 'Utforska information om barnakne'
+                        url: null,
+                        url_title: null,
                   ),
-
             )
-      ),
+      );
       new BasedTypeCategory(
             title: 'Akne baserat på svårighetsgrad',
             content: '<p class="p200">Akne kan variera i svårighetsgrad från milda till extremt allvarliga fall. I milda fall av akne är symptomen ofta mindre uttalade och består främst av pormaskar, medan mer allvarliga fall innefattar djupare inflammationer i form av cystor och noduler. Svårighetsgraden påverkar också hur akne påverkar en persons livskvalitet och hur den ska behandlas. Det är viktigt att diagnostisera och behandla akne utifrån dess svårighetsgrad för att säkerställa bästa möjliga behandlingsresultat och förhindra potentiella ärr och bestående skador på huden.</p>',
@@ -197,8 +178,8 @@ $type_categories = array(
                         image_alt: 'Bild av mild akne',
                         image_title: 'Mild akne exemplifierad',
 
-                        url: 'problem/akne/typer/mild-akne',
-                        url_title: 'Utforska mer information om mild akne'
+                        url: null,
+                        url_title: null,
                   ),
                   new BasedType(
                         title: 'Medelsvår akne',
@@ -208,8 +189,8 @@ $type_categories = array(
                         image_alt: 'Bild av medelsvår akne',
                         image_title: 'Medelsvår akne exemplifierad',
 
-                        url: 'problem/akne/typer/medel-akne',
-                        url_title: 'Utforska mer information om medelsvår akne'
+                        url: null,
+                        url_title: null,
                   ),
                   new BasedType(
                         title: 'Svår akne',
@@ -219,19 +200,8 @@ $type_categories = array(
                         image_alt: 'Bild av svår akne',
                         image_title: 'Svår akne exemplifierad',
 
-                        url: 'problem/akne/typer/svar-akne',
-                        url_title: 'Utforska mer information om svår akne'
-                  ),
-                  new BasedType(
-                        title: 'Mycket svår akne',
-                        subtitle: 'Även kallat Acne conglobata',
-
-                        image_url: 'images/problems/102x102/mycket-svar-akne.webp',
-                        image_alt: 'Bild av mycket svår akne',
-                        image_title: 'Mycket svår akne exemplifierad',
-
-                        url: 'problem/akne/typer/mycket-svar-akne',
-                        url_title: 'Utforska mer information om mycket svår akne'
+                        url: null,
+                        url_title: null,
                   ),
             )
       ),
@@ -247,8 +217,8 @@ $type_categories = array(
                         image_alt: 'Bild av Mallorca akne',
                         image_title: 'Exempel på Mallorca akne',
 
-                        url: 'problem/akne/typer/mallorca-akne',
-                        url_title: 'Läs mer om hur solen kan orsaka Mallorca akne'
+                        url: null,
+                        url_title: null,
                   ),
                   new BasedType(
                         title: 'Hormonell akne',
@@ -258,8 +228,8 @@ $type_categories = array(
                         image_alt: 'Bild av hormonell akne',
                         image_title: 'Exempel på hormonell akne',
 
-                        url: 'problem/akne/typer/hormonell-akne',
-                        url_title: 'Utforska mer om hur hormoner kan framkalla akne'
+                        url: null,
+                        url_title: null,
                   ),
                   new BasedType(
                         title: 'kosmetika akne',
@@ -269,8 +239,8 @@ $type_categories = array(
                         image_alt: 'Bild av kosmetika akne',
                         image_title: 'Exempel på kosmetika akne',
 
-                        url: 'problem/akne/typer/kosmetika-akne',
-                        url_title: 'Lär dig mer om hur kosmetika kan ge akne'
+                        url: null,
+                        url_title: null,
                   ),
                   new BasedType(
                         title: 'Akne från pillande',
@@ -280,8 +250,8 @@ $type_categories = array(
                         image_alt: 'Bild av pill akne',
                         image_title: 'Exempel på pill akne',
 
-                        url: 'problem/akne/typer/acne-exoriee',
-                        url_title: 'Läs mer om hur pillande kan leda till akne'
+                        url: null,
+                        url_title: null,
                   ),
                   new BasedType(
                         title: 'Friktionsakne',
@@ -291,8 +261,8 @@ $type_categories = array(
                         image_alt: 'Bild av friktions akne',
                         image_title: 'Exempel på friktions akne',
 
-                        url: 'problem/akne/typer/akne-mekanisk',
-                        url_title: 'Utforska mer om hur friktion kan orsaka akne'
+                        url: null,
+                        url_title: null,
                   ),
                   new BasedType(
                         title: 'Läkemedelsakne',
@@ -302,8 +272,8 @@ $type_categories = array(
                         image_alt: 'Bild av läkemedelsakne',
                         image_title: 'Exempel på läkemedelsakne',
 
-                        url: 'problem/akne/typer/lakemedelsakne',
-                        url_title: 'Lär dig mer om hur läkemedel kan orsaka akne'
+                        url: null,
+                        url_title: null,
                   ),
                   new BasedType(
                         title: 'Kontaktakne',
@@ -313,8 +283,8 @@ $type_categories = array(
                         image_alt: 'Bild av kontaktakne',
                         image_title: 'Exempel på kontaktakne',
 
-                        url: 'problem/akne/typer/kontakt-akne',
-                        url_title: 'Utforska mer om hur direktkontakt kan påverka akne'
+                        url: null,
+                        url_title: null,
                   ),
                   new BasedType(
                         title: 'Svampakne',
@@ -324,8 +294,8 @@ $type_categories = array(
                         image_alt: 'Bild av svampakne',
                         image_title: 'Exempel på svampakne',
 
-                        url: 'problem/akne/typer/fungal-akne',
-                        url_title: 'Lär dig mer om hur svamp relateras till akne'
+                        url: null,
+                        url_title: null,
                   )
             )
       ),
@@ -341,8 +311,8 @@ $type_categories = array(
                         image_alt: 'Bild av akne i ansiktet',
                         image_title: 'Exempel på akne i ansiktet',
 
-                        url: 'problem/akne/typer/akne-ansiktet',
-                        url_title: 'Läs mer om akne i ansiktet och dess potentiella behandlingar'
+                        url: null,
+                        url_title: null,
                   ),
                   new BasedType(
                         title: 'Akne på ryggen',
@@ -352,8 +322,8 @@ $type_categories = array(
                         image_alt: 'Bild av akne på ryggen',
                         image_title: 'Exempel på akne på ryggen',
 
-                        url: 'problem/akne/typer/akne-ryggen',
-                        url_title: 'Läs mer om akne på ryggen och dess potentiella behandlingar'
+                        url: null,
+                        url_title: null,
                   ),
                   new BasedType(
                         title: 'Akne på bröstet',
@@ -363,8 +333,8 @@ $type_categories = array(
                         image_alt: 'Bild av akne på bröstet',
                         image_title: 'Exempel på akne på bröstet',
 
-                        url: 'problem/akne/typer/akne-brostet',
-                        url_title: 'Läs mer om akne på bröstet och dess potentiella behandlingar'
+                        url: null,
+                        url_title: null,
                   ),
 
             )
