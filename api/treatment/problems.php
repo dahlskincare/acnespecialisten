@@ -27,7 +27,7 @@ if (empty($where)) {
     $where = implode(' AND ', $where);
 }
 
-$query = "SELECT id, image_url, name_$language AS name, aka_$language AS aka FROM $dbname.problem WHERE $where LIMIT 1000";
+$query = "SELECT id, image_url, name_$language AS name, aka_$language AS aka FROM $dbname.treatment_problem WHERE $where ORDER BY $dbname.treatment_problem.rank ASC LIMIT 1000";
 
 $conn = mysqli_connect($servername, $username, $password);
 if (!$conn) {

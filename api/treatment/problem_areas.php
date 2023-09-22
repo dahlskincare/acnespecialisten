@@ -9,12 +9,17 @@ header("Content-Type: application/json; charset=UTF-8");
 $language = array_key_exists('HTTP_ACCEPT_LANGUAGE', $_SERVER) ? $_SERVER['HTTP_ACCEPT_LANGUAGE'] : 'en';
 $language = substr($language, 0, 2);
 
+
 $servername = $_ENV['DB_URL'];
 $username = $_ENV['DB_USER'];
 $password = $_ENV['DB_PASSWORD'];
 $dbname = $_ENV['DB_NAME'];
 
 $where = array();
+if (array_key_exists('type', $_GET)) {
+    $type = $_GET['type'];
+    $where[] = "area_type = '$type'";
+}
 if (array_key_exists('flowId', $_GET)) {
     $flowId = $_GET['flowId'];
     $where[] = "flow_id = '$flowId'";
@@ -25,7 +30,7 @@ if (empty($where)) {
     $where = implode(' AND ', $where);
 }
 
-$query = "SELECT id, image_url, duration, price, name_$language AS name, description_$language AS description FROM $dbname.treatment_service WHERE $where LIMIT 1000";
+$query = "SELECT id, name_$language AS name, duration_minutes, price, area_type, image_url FROM $dbname.treatment_problem_area WHERE $where ORDER BY $dbname.treatment_problem_area.rank ASC LIMIT 1000";
 
 
 $conn = mysqli_connect($servername, $username, $password);
@@ -35,10 +40,10 @@ if (!$conn) {
 mysqli_set_charset($conn, 'utf8');
 
 $result = mysqli_query($conn, $query);
-
 if ($result == false) {
     http_response_code(500);
 } else {
+
     http_response_code(200);
     $output = array();
     foreach ($result as $row) {
