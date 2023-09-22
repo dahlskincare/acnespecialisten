@@ -245,184 +245,136 @@ $type_categories = array(
             )
       ),
       new BasedTypeCategory(
-            title: 'Akne baserat på område',
-            content: '<p class="p200">Akne kan uppträda på olika områden på kroppen. Ansiktet är det vanligaste området, men akne kan också förekomma på bröst, rygg, axlar och andra delar av kroppen. Placeringen av akne kan ge en indikation på dess orsak, som hormonella förändringar, irritation från kläder eller yttre faktorer som sol och friktion.</p>',
+            title: 'Ytliga blodkärl baserat på område',
+            content: '<p class="p200">Ytliga blodkärl kan uppstå på olika områden i ansiktet. De vanligaste platserna inkluderar näsan, kinderna och pannan. Placeringen kan ibland ge en indikation på orsaken, som kan vara genetisk predisposition, solskador eller andra yttre faktorer som påverkar blodcirkulationen i ansiktet.</p>',
             types: array(
                   new BasedType(
-                        title: 'Akne i ansiktet',
-                        subtitle: 'Även kallat Acne faciei',
+                        title: 'Blodkärl på näsan',
+                        subtitle: 'Även kallat Nasal Telangiectasia',
 
-                        image_url: 'images/problems/102x102/akne-ansikte.webp',
-                        image_alt: 'Bild av akne i ansiktet',
-                        image_title: 'Exempel på akne i ansiktet',
-
-                        url: null,
-                        url_title: null,
-                  ),
-                  new BasedType(
-                        title: 'Akne på ryggen',
-                        subtitle: 'Även kallat Acne dorsalis',
-
-                        image_url: 'images/problems/102x102/akne-rygg.webp',
-                        image_alt: 'Bild av akne på ryggen',
-                        image_title: 'Exempel på akne på ryggen',
+                        image_url: 'images/problems/102x102/blodkarl-nasa.webp',
+                        image_alt: 'Bild av blodkärl på näsan',
+                        image_title: 'Exempel på blodkärl på näsan',
 
                         url: null,
                         url_title: null,
                   ),
                   new BasedType(
-                        title: 'Akne på bröstet',
-                        subtitle: 'Även kallat Acne pectoralis',
+                        title: 'Blodkärl på kinderna',
+                        subtitle: 'Även kallat Cheek Telangiectasia',
 
-                        image_url: 'images/problems/102x102/akne-brost.webp',
-                        image_alt: 'Bild av akne på bröstet',
-                        image_title: 'Exempel på akne på bröstet',
+                        image_url: 'images/problems/102x102/blodkarl-kinder.webp',
+                        image_alt: 'Bild av blodkärl på kinderna',
+                        image_title: 'Exempel på blodkärl på kinderna',
 
                         url: null,
                         url_title: null,
                   ),
+                  new BasedType(
+                        title: 'Blodkärl i pannan',
+                        subtitle: 'Även kallat Forehead Telangiectasia',
 
+                        image_url: 'images/problems/102x102/blodkarl-panna.webp',
+                        image_alt: 'Bild av blodkärl i pannan',
+                        image_title: 'Exempel på blodkärl i pannan',
+
+                        url: null,
+                        url_title: null,
+                  ),
             )
       ),
 
 );
 
-$symptoms_title = 'Akne symptom';
+$symptoms_title = 'Ytliga blodkärl symptom';
 
 $symptoms = array(
       new Symptom(
-            name: 'Öppna komedoner',
-            aka: 'Kända som pormaskar',
-            content: 'Pormaskar (öppna komedoner) är små, mörka prickar som uppstår när en por täpps igen av talg (hudens naturliga olja) och döda hudceller. De är ofta svarta eller bruna på grund av oxidation, som inträffar när melanin (hudens pigment) kommer i kontakt med luft. Pormaskar kan vara platta eller lätt upphöjda och är vanligt förekommande på näsan, kinderna, pannan och hakan.',
-
-            url_label: 'Läs mer om öppna komedoner',
-            url: 'problem/akne/typer/post-inflammatory-hyperpigmentaion',
-            url_title: 'Läs mer om öppna komedoner (pormaskar)',
-
-            image: 'images/symptoms/102x102/komedoner-oppna.webp',
-            image_alt: 'Bild av öppna komedoner (pormaskar)',
-            image_title: 'Öppna komedoner (pormaskar)'
+            name: 'Röda Linjer eller Mönster',
+            aka: 'Kända som telangiektasier eller spindelvener',
+            content: 'Dessa är små, fina och utsträckta röda blodkärl som framträder i ett spindelnät- eller trädgrensmönster. Vanligtvis synliga på huden, framför allt på näsan och kinderna. De är mestadels ofarliga men kan vara estetiskt störande för många.',
+            
+            url_label: null,
+            url: null,
+            url_title: null,
+            
+            image: 'images/symptoms/102x102/roda-linjer.webp',
+            image_alt: 'Bild av röda linjer eller mönster på huden',
+            image_title: 'Röda Linjer eller Mönster på Huden'
       ),
+
       new Symptom(
-            name: 'Stängda komedoner',
-            aka: 'Kända som "whiteheads"',
-            content: 'Whiteheads (slutna komedoner) är små, vita eller hudfärgade utbuktningar som uppstår när en por täpps till av talg och döda hudceller under hudytan. De är täckta av ett tunt lager hud, vilket förhindrar oxidation och därmed behåller sin ljusa färg. Whiteheads kan vara platta eller lätt upphöjda och är vanligt förekommande på pannan, kinderna och hakan.',
-
-            url_label: 'Läs mer om stängda komedoner',
-            url: 'problem/akne/typer/atrophic-icepick-scars',
-            url_title: 'Läs mer om stängda komedoner (whiteheads)',
-
-            image: 'images/symptoms/102x102/komedoner-stangda.webp',
-            image_alt: 'Bild av stängda komedoner (whiteheads)',
-            image_title: 'Stängda komedoner (whiteheads)'
+            name: 'Färgförändringar',
+            aka: 'Även kallade vaskulära lesioner',
+            content: 'Ytliga blodkärl kan variera i färg från rött till lila eller blåaktigt. Denna färgvarians är oftast påverkad av kärlets djup och tjocklek samt hudens pigmentering.',
+            
+            url_label: null,
+            url: null,
+            url_title: null,
+            
+            image: 'images/symptoms/102x102/fargforandringar.webp',
+            image_alt: 'Bild av färgförändringar i blodkärl',
+            image_title: 'Färgförändringar i Ytliga Blodkärl'
       ),
+
       new Symptom(
-            name: 'Papler',
-            aka: 'Kända som röda finnar',
-            content: 'Papuler är små, fasta, röda och inflammerade blemmor som uppstår när en hårsäck blir infekterad av bakterier, oftast Propionibacterium acnes. De är vanligtvis mindre än 5 mm i diameter och kan vara känsliga vid beröring. Papuler är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.',
-
-            url_label: 'Läs mer om papler',
-            url: 'problem/akne/typer/atrophic-boxcar-scars',
-            url_title: 'Läs mer om papler (röda finnar)',
-
-            image: 'images/symptoms/102x102/papler.webp',
-            image_alt: 'Bild av papler (röda finnar)',
-            image_title: 'Papler (röda finnar)'
+            name: 'Lokalisering',
+            aka: 'Områden där ytliga blodkärl är vanligast',
+            content: 'Ytliga blodkärl är mest vanligt förekommande i ansiktet, särskilt på näsan och kinderna. De kan också förekomma runt näsvingarna, på pannan och ibland även runt munnen.',
+            
+            url_label: null,
+            url: null,
+            url_title: null,
+            
+            image: 'images/symptoms/102x102/lokalisering.webp',
+            image_alt: 'Bild av områden där ytliga blodkärl är vanligast',
+            image_title: 'Lokalisering av Ytliga Blodkärl'
       ),
+
       new Symptom(
-            name: 'Pustler',
-            aka: 'Kända som gula finnar',
-            content: 'Pustuler är röda och inflammerade blemmor som innehåller var (en blandning av döda bakterier, vita blodkroppar och döda hudceller). De ser ut som papuler men har en vit eller gul prick i mitten. Pustuler kan vara smärtsamma och är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.',
-
-            url_label: 'Läs mer om pustler',
-            url: 'problem/akne/typer/atrophic-rolling-scars',
-            url_title: 'Läs mer om pustler (gula finnar)',
-
-            image: 'images/symptoms/102x102/pustler.webp',
-            image_alt: 'Bild av pustler (gula finnar)',
-            image_title: 'Pustler (gula finnar)'
-      ),
-      new Symptom(
-            name: 'Noduler',
-            aka: 'Kända som innåtfinnar',
-            content: 'Noduler är större, djupare och ofta smärtsamma inflammerade blemmor som uppstår när en hårsäck blir kraftigt infekterad och inflammationen sprider sig till det omgivande vävnaden. De är vanligtvis större än 5 mm i diameter och kan vara fasta och ömma vid beröring. Noduler är vanligt förekommande på ansiktet, nacken, bröstet, ryggen och ibland även på överarmarna och skinkorna.',
-
-            url_label: 'Läs mer om noduler',
-            url: 'problem/akne/typer/hypertrophic-keloid',
-            url_title: 'Läs mer om noduler (innåtfinnar)',
-
-            image: 'images/symptoms/102x102/noduler.webp',
-            image_alt: 'Bild av noduler (innåtfinnar)',
-            image_title: 'Noduler (innåtfinnar)'
-      ),
-      new Symptom(
-            name: 'Cystor',
-            aka: 'Kända som bölder',
-            content: 'Cystor är stora, inflammerade och smärtsamma blemmor som är fyllda med var och bildas när en hårsäck blir mycket infekterad och inflammationen sprider sig djupt in i huden. De kan vara runda och mjuka eller fasta och ömma vid beröring. Cystor kan vara större än 5 mm i diameter och är vanligt förekommande på ansiktet, nacken, bröstet och ryggen. Cystisk akne kan leda till ärrbildning och kräver ofta professionell behandling.',
-
-            url_label: 'Läs mer om cystor',
-            url: 'problem/akne/typer/hypertrophic-keloid',
-            url_title: 'Läs mer om cystor (bölder)',
-
-            image: 'images/symptoms/102x102/cystor.webp',
-            image_alt: 'Bild av cystor (bölder)',
-            image_title: 'Cystor (bölder)'
+            name: 'Ingen Smärta',
+            aka: 'Vanligtvis smärtfria',
+            content: 'Ytliga blodkärl är i de flesta fall smärtfria. De kan dock kännas ömt eller vara mer känsliga i kallt väder, men de orsakar sällan någon fysisk obehag.',
+            
+            url_label: null,
+            url: null,
+            url_title: null,
+            
+            image: 'images/symptoms/102x102/smartfri.webp',
+            image_alt: 'Bild som illustrerar att ytliga blodkärl är smärtfria',
+            image_title: 'Ytliga Blodkärl är Vanligtvis Smärtfria'
       ),
 );
 
-$headline01 = "01. Identifiera din akne";
+$headline01 = "01. Identifiera dina ytliga blodkärl";
 
 $service = new Service(
-      title: 'Konsultation',
+      title: 'Konsultation för Ytliga Blodkärl',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Vid ett personligt möte med en acnespecialist utförs en undersökning av din akne. Vi tar före-bilder på din hud och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
+      content: 'Vid ett personligt möte med en specialist på ytliga blodkärl utförs en undersökning av ditt tillstånd. Vi tar före-bilder på din hud och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
 
       image_small: 'images/services/200x200/konsultation.webp',
       image_large: 'images/services/200x200/konsultation.webp',
-      image_alt: 'Bild av en konsultation för aknebehandling',
-      image_title: 'Konsultation för aknebehandling',
+      image_alt: 'Bild av en konsultation för behandling av ytliga blodkärl',
+      image_title: 'Konsultation för Ytliga Blodkärl',
 
-      url_label: 'Läs mer om vår hudkonsultation',
-      url: 'hudkonsultation',
-      url_title: 'Klicka här för att läsa mer om gratis hudkonsultation',
+      url_label: 'Läs mer om vår konsultation för ytliga blodkärl',
+      url: 'ipl-ytliga-blodkarl',
+      url_title: 'Klicka här för att läsa mer om gratis konsultation för ytliga blodkärl',
 
       consultation_url_label: 'Boka tid för hudkonsultation',
-      consultation_url: 'consultation-booking?problem=acne',
-      consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för akne',
-
+      consultation_url: 'consultation-booking?problem=ytliga-blodkarl',
+      consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ytliga blodkärl',
+      
       booking_url_label: null,
       booking_url: null,
       booking_url_title: null,
-
 );
 
-$headline02 = "02. Behandla aktiv akne";
+$headline02 = "02. Behandla ytliga blodkärl";
 
 $services = array(
-      new Service(
-            title: 'Ansiktsbehandling mot akne',
-            duration: '60 min',
-            price: '995 kr',
-            content: 'En effektiv ansiktsbehandling mot akne fokuserar på att noggrant extrahera orenheter som orsakar inflammation och skador i huden. Genom att försiktigt klämma ut akne och pormaskar kan behandlingen bidra till att förebygga ärrbildning och främja en snabbare läkning.',
-
-            image_small: 'images/services/200x200/ansiktsbehandling-akne.webp',
-            image_large: 'images/services/200x200/ansiktsbehandling-akne.webp',
-            image_alt: 'Bild av en ansiktsbehandling mot akne',
-            image_title: 'Ansiktsbehandling mot akne',
-
-            url: 'behandlingar/ansiktsbehandling-acne',
-            url_label: 'Läs mer om ansiktsbehandling mot akne',
-            url_title: 'Klicka här för att läsa mer om ansiktsbehandling mot akne',
-
-            consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url: 'consultation-booking?problem=acne&service=classicFacials',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling mot akne',
-
-            booking_url_label: 'Boka tid för ansiktsbehandling mot akne',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
-            booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling mot akne'
-      ),
       new Service(
             title: 'Laser mot akne',
             duration: '50 min',
@@ -446,112 +398,8 @@ $services = array(
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
             booking_url_title: 'Klicka för att boka tid för en laserbehandling mot akne'
       ),
-      new Service(
-            title: 'Kemisk peeling mot akne',
-            duration: '30 min',
-            price: '1595 kr',
-            content: 'Kemisk peeling är en effektiv metod för att behandla akne. Genom att använda en speciellt framtagen lösning för att exfoliera huden, främjar kemisk peeling cellförnyelse, rensar tilltäppta porer och minskar inflammation. Resultatet är en jämnare hudton, mindre utbrott och färre synliga ärr. Det är en enkel och effektiv strategi för att ta kontroll över din akne och förbättra din hudhälsa.',
-
-            image_small: 'images/services/200x200/kemisk-peeling-akne.webp',
-            image_large: 'images/services/200x200/kemisk-peeling-akne.webp',
-            image_alt: 'Bild av kemisk peeling mot akne',
-            image_title: 'Kemisk peeling mot akne behandling',
-
-            url: 'behandlingar/kemisk-peeling-akne',
-            url_label: 'Läs mer om kemisk peeling mot akne',
-            url_title: 'Klicka här för att läsa mer om kemisk peeling mot akne',
-
-            consultation_url: 'consultation-booking?problem=acne&service=chemicalPeeling',
-            consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för kemisk peeling mot akne',
-
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
-            booking_url_label: 'Boka tid för kemisk peeling mot akne',
-            booking_url_title: 'Klicka för att boka tid för en kemisk peeling mot akne behandling'
-
-      ),
-
-      new Service(
-            title: 'Microneedling mot akne',
-            duration: '50 min',
-            price: '2595 kr',
-            content: 'Microneedling är en innovativ behandlingsmetod för akne. Detta utförs genom att skapa små mikroskopiska kanaler i huden vilket främjar hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. Denna behandling kan effektivt minska utbrott av akne, förbättra hudens struktur och minska synligheten av akneärr. Microneedling är en säker och effektiv strategi för att ta kontroll över din akne och förbättra din hudhälsa.',
-
-            image_small: 'images/services/200x200/kemisk-peeling-akne.webp',
-            image_large: 'images/services/200x200/kemisk-peeling-akne.webp',
-            image_alt: 'Bild av microneedling mot akne',
-            image_title: 'Microneedling mot akne behandling',
-
-            url: 'behandlingar/microneedling-akne',
-            url_label: 'Läs mer om microneedling mot akne',
-            url_title: 'Klicka här för att läsa mer om microneedling mot akne',
-
-            consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url: 'consultation-booking?problem=acne&service=microneedling',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling mot akne',
-
-            booking_url_label: 'Boka tid för microneedling mot akne',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
-            booking_url_title: 'Klicka för att boka tid för en microneedling mot akne behandling'
-      ),
 );
 
-$headline03 = "03. Förebygg uppkomsten av ny akne";
-
-$products = array(
-      new Service(
-            title: 'Produkter mot akne',
-            duration: null,
-            price: 'Pris från 1495 kr',
-            content: 'För att effektivt bekämpa och förebygga akne är daglig behandling med rätt produkter avgörande. Våra akneprodukter är speciellt utformade för att hålla din hud i balans och förhindra att ny akne uppstår.',
-
-            image_small: 'images/services/200x200/produkter-akne.webp',
-            image_large: 'images/services/200x200/produkter-akne.webp',
-            image_alt: 'Bild av produkter designade för behandling av akne',
-            image_title: 'Effektiva produkter för bekämpning och förebyggande av akne',
-
-            url_label: 'Läs mer om produkter mot akne',
-            url: 'https://dahlskincare.se',
-            url_title: 'Klicka här för att läsa mer om produkter mot akne',
-
-            consultation_url_label: null,
-            consultation_url: null,
-            consultation_url_title: null,
-
-            booking_url_label: null,
-            booking_url: null,
-            booking_url_title: null,
-      )
-);
-
-$headline04 = "04. Reparera post-akne";
-
-$procedures = array(
-      new Service(
-            title: 'Reparera acneärr',
-            duration: '4 behandlingsmetoder',
-            price: null,
-            content: 'Efter aktiv akne kan man uppleva post-akne, vilket innebär ärr i form av gropar i olika former och fläckar i olika färger på huden där aknen tidigare varit. Olika typer av ärr behandlas med olika metoder. Klicka här för att läsa mer om hur du kan reparera din hud och ta hand om post-akne.',
-
-            image_small: 'images/services/200x200/microneedling-aknearr.webp',
-            image_large: 'images/services/200x200/microneedling-aknearr.webp',
-            image_alt: 'Reparera acneärr',
-            image_title: 'Reparera acneärr',
-
-            url_label: 'Läs mer om behandlingar mot akneärr',
-            url: 'behandlingar/aknearr',
-            url_title: 'Klicka här för att läsa mer om våra behandlingar mot akneärr',
-
-            consultation_url_label: null,
-            consultation_url: null,
-            consultation_url_title: null,
-
-            booking_url_label: null,
-            booking_url: null,
-            booking_url_title: null,
-
-      ),
-);
 $articles = array(
       new Article(
             title: 'Varför AcneSpecialisten?!',
