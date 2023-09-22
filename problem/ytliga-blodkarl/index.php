@@ -165,7 +165,7 @@ $type_categories = array(
                         url_title: null,
                   ),
             )
-      );
+      ),
       new BasedTypeCategory(
             title: 'Ytliga blodkärl baserat på svårighetsgrad',
             content: '<p class="p200">Ytliga blodkärl kan variera i svårighetsgrad från endast ett eller några få synliga blodkärl till större nätverk av blodkärl som täcker stora områden av huden. I milda fall är de oftast kosmetiska och inte särskilt störande, medan i svårare fall kan de vara kopplade till andra hudåkommor och till och med leda till obehag eller smärta. Det är viktigt att diagnostisera och behandla ytliga blodkärl utifrån deras svårighetsgrad för att säkerställa bästa möjliga behandlingsresultat.</p>',
@@ -204,99 +204,44 @@ $type_categories = array(
                         url_title: null,
                   ),
             )
-      );
+      ),
       new BasedTypeCategory(
-            title: 'Akne baserat på yttre faktorer',
-            content: '<p class="p200">Yttre faktorer kan också påverka uppkomsten av akne. Exempel på dessa är sol, friktion, kosmetika, mediciner och miljöfaktorer. Dessa kan bidra till eller förvärra akne genom att irritera huden, täppa till porer eller påverka hudens talgproduktion.</p>',
+            title: 'Ytliga blodkärl baserat på yttre faktorer',
+            content: '<p class="p200">Yttre faktorer som sol, temperatur, kosmetika och miljöfaktorer kan ha en betydande inverkan på uppkomsten eller förvärringen av ytliga blodkärl. Exponering för dessa faktorer kan leda till irritation i huden, ökad blodflöde eller svullnad i blodkärlen, vilket resulterar i synliga ytliga blodkärl.</p>',
             types: array(
                   new BasedType(
-                        title: 'Mallorca akne',
-                        subtitle: 'även kallat Acne aestivalis',
+                        title: 'Solinducerade blodkärl',
+                        subtitle: 'Orsakade av solskador',
 
-                        image_url: 'images/problems/102x102/mallorca-akne.webp',
-                        image_alt: 'Bild av Mallorca akne',
-                        image_title: 'Exempel på Mallorca akne',
-
-                        url: null,
-                        url_title: null,
-                  ),
-                  new BasedType(
-                        title: 'Hormonell akne',
-                        subtitle: 'akne orsakad av hormoner',
-
-                        image_url: 'images/problems/102x102/hormonell-akne.webp',
-                        image_alt: 'Bild av hormonell akne',
-                        image_title: 'Exempel på hormonell akne',
+                        image_url: 'images/problems/102x102/sol-blodkarl.webp',
+                        image_alt: 'Bild av solinducerade blodkärl',
+                        image_title: 'Exempel på solinducerade blodkärl',
 
                         url: null,
                         url_title: null,
                   ),
                   new BasedType(
-                        title: 'kosmetika akne',
-                        subtitle: 'Även kallat Acne cosmetica',
+                        title: 'Väderinducerade blodkärl',
+                        subtitle: 'Orsakade av extrem kyla eller värme',
 
-                        image_url: 'images/problems/102x102/kosmetika-akne.webp',
-                        image_alt: 'Bild av kosmetika akne',
-                        image_title: 'Exempel på kosmetika akne',
-
-                        url: null,
-                        url_title: null,
-                  ),
-                  new BasedType(
-                        title: 'Akne från pillande',
-                        subtitle: 'Även kallat Acne exoriée ',
-
-                        image_url: 'images/problems/102x102/pill-akne.webp',
-                        image_alt: 'Bild av pill akne',
-                        image_title: 'Exempel på pill akne',
+                        image_url: 'images/problems/102x102/vader-blodkarl.webp',
+                        image_alt: 'Bild av väderinducerade blodkärl',
+                        image_title: 'Exempel på väderinducerade blodkärl',
 
                         url: null,
                         url_title: null,
                   ),
                   new BasedType(
-                        title: 'Friktionsakne',
-                        subtitle: 'Även kallat Acne mechanica',
+                        title: 'Livsstilsinducerade blodkärl',
+                        subtitle: 'Orsakade av livsstilsfaktorer som stress, alkohol och dålig kost',
 
-                        image_url: 'images/problems/102x102/friktions-akne.webp',
-                        image_alt: 'Bild av friktions akne',
-                        image_title: 'Exempel på friktions akne',
-
-                        url: null,
-                        url_title: null,
-                  ),
-                  new BasedType(
-                        title: 'Läkemedelsakne',
-                        subtitle: 'Även kallat Acne medicamentosa',
-
-                        image_url: 'images/problems/102x102/lakemedelsakne.webp',
-                        image_alt: 'Bild av läkemedelsakne',
-                        image_title: 'Exempel på läkemedelsakne',
+                        image_url: 'images/problems/102x102/livsstil-blodkarl.webp',
+                        image_alt: 'Bild av livsstilsinducerade blodkärl',
+                        image_title: 'Exempel på livsstilsinducerade blodkärl',
 
                         url: null,
                         url_title: null,
                   ),
-                  new BasedType(
-                        title: 'Kontaktakne',
-                        subtitle: 'Även kallat Acne venenata',
-
-                        image_url: 'images/problems/102x102/kontakt-akne.webp',
-                        image_alt: 'Bild av kontaktakne',
-                        image_title: 'Exempel på kontaktakne',
-
-                        url: null,
-                        url_title: null,
-                  ),
-                  new BasedType(
-                        title: 'Svampakne',
-                        subtitle: 'Även kallat fungal acne',
-
-                        image_url: 'images/problems/102x102/svamp-akne.webp',
-                        image_alt: 'Bild av svampakne',
-                        image_title: 'Exempel på svampakne',
-
-                        url: null,
-                        url_title: null,
-                  )
             )
       ),
       new BasedTypeCategory(
@@ -338,7 +283,7 @@ $type_categories = array(
                   ),
 
             )
-      )
+      ),
 
 );
 
