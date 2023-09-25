@@ -680,7 +680,7 @@ $results = array(
             image_title: 'Resultat',
 
             treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne"">behandlingar mot akne</a>'
+                  duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne"">behandlingar mot akne</a>'
             ),
       ),
       new ResultCustomer(
@@ -692,13 +692,13 @@ $results = array(
             image_title: 'Resultat',
 
             treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne">behandlingar mot akne</a>',
+                  duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne">behandlingar mot akne</a>',
             )
       ),
 );
 
-$results_url_label = "Se fler resultat";
-$results_url_title = "se flera aknebehandlingsresultat";
+$show_all_results_label = "Se fler resultat";
+$show_all_results_title = "se flera aknebehandlingsresultat";
 
 
 $reviews = array(
@@ -707,7 +707,7 @@ $reviews = array(
             title: 'Supernöjd',
             text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
             signature: 'Sofia',
-            stars: 5,            
+            stars: 5,
             logo_url: 'images/brands/trustpilot.svg'
 
       ),
