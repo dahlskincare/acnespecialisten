@@ -144,43 +144,42 @@ $types_title = 'Olika typer av mogen hy';
 
 $type_categories = array(
       new BasedTypeCategory(
-            title: 'Akne baserat på ålder',
-            content: '<p class="p200">Akne är en hudåkomma som kan drabba både ungdomar och vuxna, även om det är vanligast under tonåren. Tonårsakne uppstår ofta på grund av hormonella förändringar under puberteten. Vuxenakne förekommer också, och det kan bero på en rad olika faktorer. Hos vuxna kan akne orsakas av faktorer som stress, hormonobalans och genetik. Oavsett ålder är det viktigt att förstå att akne kan påverka människor i alla livsstadier.</p>',
+            title: 'Mogen hy baserat på ålder',
+            content: '<p class="p200">Mogen hy uppträder oftast som ett resultat av den naturliga åldringsprocessen. Ålderstecken kan börja dyka upp så tidigt som i 30-årsåldern, intensifieras under 40- och 50-årsåldern, och bli mer framträdande efter 60. Dessa förändringar kan inkludera torrhet, rynkor, minskad elasticitet och en ojämn hudton. Faktorer som solskada, genetik och hudvårdsvanor spelar också en roll i hur huden åldras. Det är viktigt att förstå de unika behoven i varje livsfas för att bäst vårda och upprätthålla en frisk hud.</p>',
             types: array(
                   new BasedType(
-                        title: 'Vuxenakne',
-                        subtitle: 'Även kallat acne tarda',
+                        title: 'Tidig mogen hy',
+                        subtitle: 'Vanligtvis i 30-40 årsåldern',
 
-                        image_url: 'images/problems/102x102/vuxenakne.webp',
-                        image_alt: 'Bild av vuxenakne',
-                        image_title: 'Akne hos vuxna',
+                        image_url: 'images/problems/102x102/tidigmogenhy.webp',
+                        image_alt: 'Bild av tidig mogen hy',
+                        image_title: 'Mogen hy i tidig ålder',
 
-                        url: 'problem/akne/typer/vuxenakne',
-                        url_title: 'Utforska information om vuxenakne'
+                        url: 'problem/mogenhy/typer/tidigmogenhy',
+                        url_title: 'Utforska information om tidig mogen hy'
                   ),
                   new BasedType(
-                        title: 'Tonårsakne',
-                        subtitle: 'Även kallat acne vulgaris',
+                        title: 'Mogen hy',
+                        subtitle: 'Vanligtvis i 40-50 årsåldern',
 
-                        image_url: 'images/problems/102x102/tonarsakne.webp',
-                        image_alt: 'Bild av tonårsakne',
-                        image_title: 'Akne hos tonåringar',
+                        image_url: 'images/problems/102x102/mogenhy.webp',
+                        image_alt: 'Bild av mogen hy',
+                        image_title: 'Mogen hy under medelåldern',
 
-                        url: 'problem/akne/typer/tonårsakne',
-                        url_title: 'Utforska information om tonårsakne'
+                        url: 'problem/mogenhy/typer/mogenhy',
+                        url_title: 'Utforska information om mogen hy'
                   ),
                   new BasedType(
-                        title: 'Barnakne',
-                        subtitle: 'Även kallat acne neonatorum',
+                        title: 'Avancerad mogen hy',
+                        subtitle: '50 år och äldre',
 
-                        image_url: 'images/problems/102x102/barnakne.webp',
-                        image_alt: 'Bild av barnakne',
-                        image_title: 'Akne hos barn',
+                        image_url: 'images/problems/102x102/avanceradmogenhy.webp',
+                        image_alt: 'Bild av avancerad mogen hy',
+                        image_title: 'Mogen hy hos äldre',
 
-                        url: 'problem/akne/typer/barnakne',
-                        url_title: 'Utforska information om barnakne'
+                        url: 'problem/mogenhy/typer/avanceradmogenhy',
+                        url_title: 'Utforska information om avancerad mogen hy'
                   ),
-
             )
       ),
       new BasedTypeCategory(
@@ -195,8 +194,8 @@ $type_categories = array(
                         image_alt: 'Bild av mild akne',
                         image_title: 'Mild akne exemplifierad',
 
-                        url: 'problem/akne/typer/mild-akne',
-                        url_title: 'Utforska mer information om mild akne'
+                        url: null,
+                        url_title: null,
                   ),
                   new BasedType(
                         title: 'Medelsvår akne',
@@ -206,8 +205,8 @@ $type_categories = array(
                         image_alt: 'Bild av medelsvår akne',
                         image_title: 'Medelsvår akne exemplifierad',
 
-                        url: 'problem/akne/typer/medel-akne',
-                        url_title: 'Utforska mer information om medelsvår akne'
+                        url: null,
+                        url_title: null,
                   ),
                   new BasedType(
                         title: 'Svår akne',
@@ -217,19 +216,8 @@ $type_categories = array(
                         image_alt: 'Bild av svår akne',
                         image_title: 'Svår akne exemplifierad',
 
-                        url: 'problem/akne/typer/svar-akne',
-                        url_title: 'Utforska mer information om svår akne'
-                  ),
-                  new BasedType(
-                        title: 'Mycket svår akne',
-                        subtitle: 'Även kallat Acne conglobata',
-
-                        image_url: 'images/problems/102x102/mycket-svar-akne.webp',
-                        image_alt: 'Bild av mycket svår akne',
-                        image_title: 'Mycket svår akne exemplifierad',
-
-                        url: 'problem/akne/typer/mycket-svar-akne',
-                        url_title: 'Utforska mer information om mycket svår akne'
+                        url: null,
+                        url_title: null,
                   ),
             )
       ),
@@ -245,8 +233,8 @@ $type_categories = array(
                         image_alt: 'Bild av Mallorca akne',
                         image_title: 'Exempel på Mallorca akne',
 
-                        url: 'problem/akne/typer/mallorca-akne',
-                        url_title: 'Läs mer om hur solen kan orsaka Mallorca akne'
+                        url: null,
+                        url_title: null,
                   ),
                   new BasedType(
                         title: 'Hormonell akne',
@@ -256,8 +244,8 @@ $type_categories = array(
                         image_alt: 'Bild av hormonell akne',
                         image_title: 'Exempel på hormonell akne',
 
-                        url: 'problem/akne/typer/hormonell-akne',
-                        url_title: 'Utforska mer om hur hormoner kan framkalla akne'
+                        url: null,
+                        url_title: null,
                   ),
                   new BasedType(
                         title: 'kosmetika akne',
@@ -267,8 +255,8 @@ $type_categories = array(
                         image_alt: 'Bild av kosmetika akne',
                         image_title: 'Exempel på kosmetika akne',
 
-                        url: 'problem/akne/typer/kosmetika-akne',
-                        url_title: 'Lär dig mer om hur kosmetika kan ge akne'
+                        url: null,
+                        url_title: null,
                   ),
                   new BasedType(
                         title: 'Akne från pillande',
@@ -278,8 +266,8 @@ $type_categories = array(
                         image_alt: 'Bild av pill akne',
                         image_title: 'Exempel på pill akne',
 
-                        url: 'problem/akne/typer/acne-exoriee',
-                        url_title: 'Läs mer om hur pillande kan leda till akne'
+                        url: null,
+                        url_title: null,
                   ),
                   new BasedType(
                         title: 'Friktionsakne',
@@ -289,8 +277,8 @@ $type_categories = array(
                         image_alt: 'Bild av friktions akne',
                         image_title: 'Exempel på friktions akne',
 
-                        url: 'problem/akne/typer/akne-mekanisk',
-                        url_title: 'Utforska mer om hur friktion kan orsaka akne'
+                        url: null,
+                        url_title: null,
                   ),
                   new BasedType(
                         title: 'Läkemedelsakne',
@@ -300,8 +288,8 @@ $type_categories = array(
                         image_alt: 'Bild av läkemedelsakne',
                         image_title: 'Exempel på läkemedelsakne',
 
-                        url: 'problem/akne/typer/lakemedelsakne',
-                        url_title: 'Lär dig mer om hur läkemedel kan orsaka akne'
+                        url: null,
+                        url_title: null,
                   ),
                   new BasedType(
                         title: 'Kontaktakne',
@@ -311,8 +299,8 @@ $type_categories = array(
                         image_alt: 'Bild av kontaktakne',
                         image_title: 'Exempel på kontaktakne',
 
-                        url: 'problem/akne/typer/kontakt-akne',
-                        url_title: 'Utforska mer om hur direktkontakt kan påverka akne'
+                        url: null,
+                        url_title: null,
                   ),
                   new BasedType(
                         title: 'Svampakne',
@@ -322,8 +310,8 @@ $type_categories = array(
                         image_alt: 'Bild av svampakne',
                         image_title: 'Exempel på svampakne',
 
-                        url: 'problem/akne/typer/fungal-akne',
-                        url_title: 'Lär dig mer om hur svamp relateras till akne'
+                        url: null,
+                        url_title: null,
                   )
             )
       ),
@@ -339,8 +327,8 @@ $type_categories = array(
                         image_alt: 'Bild av akne i ansiktet',
                         image_title: 'Exempel på akne i ansiktet',
 
-                        url: 'problem/akne/typer/akne-ansiktet',
-                        url_title: 'Läs mer om akne i ansiktet och dess potentiella behandlingar'
+                        url: null,
+                        url_title: null,
                   ),
                   new BasedType(
                         title: 'Akne på ryggen',
@@ -350,8 +338,8 @@ $type_categories = array(
                         image_alt: 'Bild av akne på ryggen',
                         image_title: 'Exempel på akne på ryggen',
 
-                        url: 'problem/akne/typer/akne-ryggen',
-                        url_title: 'Läs mer om akne på ryggen och dess potentiella behandlingar'
+                        url: null,
+                        url_title: null,
                   ),
                   new BasedType(
                         title: 'Akne på bröstet',
@@ -361,8 +349,8 @@ $type_categories = array(
                         image_alt: 'Bild av akne på bröstet',
                         image_title: 'Exempel på akne på bröstet',
 
-                        url: 'problem/akne/typer/akne-brostet',
-                        url_title: 'Läs mer om akne på bröstet och dess potentiella behandlingar'
+                        url: null,
+                        url_title: null,
                   ),
 
             )
