@@ -51,6 +51,12 @@ $define_image_title = 'Hur vi tar bort och behandlar akne?';
 
 $define_content = '<p class="p200">Första steget i vår process att få bort akne är att kartlägga din aknetyp. Vi inleder med en kostnadsfri konsultation där vi analyserar din hud och diskuterar dina hudmål och tidigare erfarenheter. Förebilder tas för att kunna följa din huds framsteg och anpassa din behandlingsplan över tid. En personlig hudterapeut följer med dig genom hela behandlingsresan, vilket säkerställer en konsekvent omsorg anpassad efter dina specifika behov.</p>';
 
+$define_consultation_link = "https://www.acnespecialisten.se/boka-hudkonsultation";
+$define_consultation_link_label = "Boka Gratis Konsultation";
+$define_consultation_link_title = "klicka här för att boka din kostnadsfria hudkonsultation mot akne";
+
+
+
 $headline02 = "02. Behandla aktiv akne";
 
 $treat_content = '<p class="p200">När din aknetyp har identifierats, inleder vi fas två: behandling av den aktiva aknen. Här är målet framför allt att få bort inflammationerna och finnarna som riskerar att skada huden och leda till ärr. Vi tillämpar olika metoder för att anpassa behandlingen efter dina unika behov, vilket gör att vi kan maximera resultaten och minimera obehaget. Genom denna process minskar vi inflammation, rensar bort döda hudceller, och kontrollerar talgproduktionen, vilket över tid leder till minskad akne och dess förekomst. Vi anpassar behandlingsplanen efter din huds respons.</p>';
@@ -61,21 +67,26 @@ $services = array(
         image_large: 'https://via.placeholder.com/852x456.jpg',
         image_title: 'Effektiv Ansiktsbehandling mot Akne på Acnespecialisten',
         image_alt: 'Bild illustrerar en ansiktsbehandling mot akne utförd på Acnespecialisten',
+
         title: 'Ansiktsbehandling mot Akne',
         duration: '60 minuter',
         price: 'Pris från 799 kr',
         icons: array('who-infants' => 'Djuprengörande', 'who-elders' => 'Hudbalanserande', 'who-teenagers' => 'Porrensande', 'who-adults' => 'Anti-inflammatorisk'),
         content: '<p class="p200">Ansiktsbehandling mot akne på Acnespecialisten är en djuprengöring av huden som tar bort döda hudceller och frigör tilltäppta porer. Behandlingen inleds med en rengöring, följt av ångning för att öppna upp porerna. Därefter följer en djup porrengöring där orenheter och akne elimineras. Behandlingen avslutas med en lugnande mask och fuktgivande kräm anpassad för din hudtyp.</p>',
+
         consultation_url: 'boka-hudkonsultation-akne',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka Hudkonsultation för Akne på Acnespecialisten',
+
         booking_url: 'boka-djuprengörande-ansiktsbehandling-akne',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Din Ansiktsbehandling mot Akne på Acnespecialisten',
+
         url: 'behandlingar/ansiktsbehandlingar-problemhy/acnebehandling',
         url_label: 'Läs Mer om Vår Ansiktsbehandling mot Akne',
         url_title: 'Mer Information om Vår Ansiktsbehandling mot Akne',
-        short_title: 'Ansiktsbehandling'
+
+        // short_title: 'Ansiktsbehandling'
 
     ),
 
@@ -98,7 +109,8 @@ $services = array(
         url: 'behandlingar/laserbehandling-mot-akne',
         url_label: 'Läs mer om laserbehandlingar',
         url_title: 'Utforska mer om våra laserbehandlingar mot akne',
-        short_title: 'Laser'
+       
+       // short_title: 'Laser'
 
     ),
 
@@ -153,15 +165,17 @@ $headline03 = "03. Förebygg akne";
 
 $products = array(
     new Product(
+        image_small: 'https://via.placeholder.com/358x274.jpg',
+        image_large: 'https://via.placeholder.com/872x456.jpg',
+        image_title: 'Acnespecialistens effektiva hudvårdsprodukter mot akne',
+        image_alt: 'Bild på Acnespecialistens hudvårdsprodukter mot akne',
+
         url: 'produkter/mot-akne',
         url_label: 'Utforska våra hudvårdsprodukter mot akne',
         url_title: 'Information om Acnespecialistens hudvårdsprodukter mot akne',
         price: 'Acnespecialistens hudvårdsprodukter mot akne - Pris från 1295 kr',
         content: '<p class="p200">Att förebygga akne är en viktig del av processen för att hålla din hud aknefri, lika viktig som behandlingarna. För detta ändamål erbjuder vi en daglig hudvårdsrutin med specifika produkter mot akne. Denna rutin hjälper till att hålla din hy ren, balanserad och fri från överflödigt talg och bakterier. Denna dagliga vård hjälper till att förhindra framtida utbrott och är lika viktig som regelbundna besök hos oss på Acnespecialisten.</p>',
-        image_small: 'https://via.placeholder.com/358x274.jpg',
-        image_large: 'https://via.placeholder.com/872x456.jpg',
-        image_title: 'Acnespecialistens effektiva hudvårdsprodukter mot akne',
-        image_alt: 'Bild på Acnespecialistens hudvårdsprodukter mot akne',
+
 
 
     ),
@@ -169,10 +183,15 @@ $products = array(
 
 $headline04 = '04. Reparera post-akne (Acneärr)';
 
-$repair_content = '<p class="p200">När din akne har behandlats och aknen tagits bort, kan det hända att den lämnar ärr bakom sig. På Acnespecialisten kan vi hjälpa dig att reparera dessa ärr genom olika tekniker som laserteknik och microneedling. Dessa metoder främjar hudens egen regenerering, hjälper till att återställa en jämn hudstruktur och minska synligheten av ärr. Med oss vid din sida kan du känna att du har stödet du behöver för att ta bort akne och njuta av en klarare, friskare hy.</p>';
 $repair_image_small = 'https://via.placeholder.com/358x274.jpg';
 $repair_image_large = 'https://via.placeholder.com/872x456.jpg';
+
+$repair_content = '<p class="p200">När din akne har behandlats och aknen tagits bort, kan det hända att den lämnar ärr bakom sig. På Acnespecialisten kan vi hjälpa dig att reparera dessa ärr genom olika tekniker som laserteknik och microneedling. Dessa metoder främjar hudens egen regenerering, hjälper till att återställa en jämn hudstruktur och minska synligheten av ärr. Med oss vid din sida kan du känna att du har stödet du behöver för att ta bort akne och njuta av en klarare, friskare hy.</p>';
+
 $repair_url = 'treatments/acne';
+$repair_url_label = 'Se ärrbehandlingar';
+$repair_url_title = 'klicka här för att se våra ärrbehandlingar';
+
 
 $results = array(
     new ResultCustomer(
@@ -182,8 +201,9 @@ $results = array(
         image_after_large: 'https://via.placeholder.com/424x424.webm',
         image_alt: 'Resultat',
         image_title: 'Resultat',
+
         treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne"">behandlingar mot akne</a>'
+        duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne"">behandlingar mot akne</a>'
         ),
     ),
     new ResultCustomer(
@@ -193,11 +213,16 @@ $results = array(
         image_after_large: 'https://via.placeholder.com/424x424.webm',
         image_alt: 'Resultat',
         image_title: 'Resultat',
+
         treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne">behandlingar mot akne</a>',
+        duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne">behandlingar mot akne</a>',
         )
     ),
 );
+
+$results_url_label = "Se fler resultat";
+$results_url_title = "se flera aknebehandlingsresultat";
+
 
 $reviews = array(
     new Review(
@@ -243,7 +268,7 @@ $reviews = array(
 );
 
 $faq_categories = array(
-    'Behandlingar' => array(
+    '' => array(
         new Question(
             title: 'Vilka typer av behandlingar erbjuder Acnespecialisten för olika hudproblem?',
             text: 'Acnespecialisten erbjuder en rad olika behandlingar för hudproblem, inklusive acnebehandling, rosaceabehandling och portömning.'
@@ -263,94 +288,6 @@ $faq_categories = array(
         new Question(
             title: 'Kan alla hudtyper behandlas hos Acnespecialisten?',
             text: 'Ja, Acnespecialisten erbjuder behandlingar som passar alla hudtyper.'
-        ),
-    ),
-    'Konsultationer' => array(
-        new Question(
-            title: 'Hur bokar jag en konsultation hos Acnespecialisten?',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-        ),
-        new Question(
-            title: 'Vad kan jag förvänta mig under en konsultation?',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-        ),
-        new Question(
-            title: 'Är konsultationen gratis?',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-        ),
-        new Question(
-            title: 'Hur lång tid tar en konsultation?',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-        ),
-        new Question(
-            title: 'Kan jag boka en konsultation online?',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-        ),
-    ),
-    'Produkter' => array(
-        new Question(
-            title: 'Hur bokar jag en konsultation hos Acnespecialisten?',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-        ),
-        new Question(
-            title: 'Vad kan jag förvänta mig under en konsultation?',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-        ),
-        new Question(
-            title: 'Är konsultationen gratis?',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-        ),
-        new Question(
-            title: 'Hur lång tid tar en konsultation?',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-        ),
-        new Question(
-            title: 'Kan jag boka en konsultation online?',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-        ),
-    ),
-    'Skötselråd och rutiner' => array(
-        new Question(
-            title: 'Hur bokar jag en konsultation hos Acnespecialisten?',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-        ),
-        new Question(
-            title: 'Vad kan jag förvänta mig under en konsultation?',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-        ),
-        new Question(
-            title: 'Är konsultationen gratis?',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-        ),
-        new Question(
-            title: 'Hur lång tid tar en konsultation?',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-        ),
-        new Question(
-            title: 'Kan jag boka en konsultation online?',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-        ),
-    ),
-    'Priser och betalning' => array(
-        new Question(
-            title: 'Hur bokar jag en konsultation hos Acnespecialisten?',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-        ),
-        new Question(
-            title: 'Vad kan jag förvänta mig under en konsultation?',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-        ),
-        new Question(
-            title: 'Är konsultationen gratis?',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-        ),
-        new Question(
-            title: 'Hur lång tid tar en konsultation?',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-        ),
-        new Question(
-            title: 'Kan jag boka en konsultation online?',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
         ),
     ),
 );
@@ -605,7 +542,7 @@ $brands = array(
                     <h2 class="h500 l10n"><?php echo $headline01; ?></h2>
                     <img class="mt-xl step-image" src="<?php echo $define_image ?>" alt="<?php echo $define_image_alt ?>" title="<?php echo $define_image_title ?>" width="872" height="456" />
                     <div class="mt-xl"><?php echo $define_content ?></div>
-                    <a href="<?php echo $consultation_link ?>" title="<?php echo $consultation_link_title ?>" class="mt-xl button b200 l10n" title="Få gratis konsultation">Få gratis konsultation</a>
+                    <a href="<?php echo $define_consultation_link ?>" title="<?php echo $define_consultation_link_title ?>" class="mt-xl button b200 l10n"><?php echo $define_consultation_link_label ?></a>
                 </section>
                 <section id="treat">
                     <h2 class="h500 l10n"><?php echo $headline02 ?></h2>
@@ -632,9 +569,9 @@ $brands = array(
                         <img src="<?php echo $repair_image_large ?>" alt="<?php echo $repair_title ?>" title="<?php echo $repair_title ?>" class=" mt-xl" width="872" height="456" />
                     </picture>
                     <div class="mt-xl"><?php echo $repair_content ?></div>
-                    <a href="<?php echo $repair_url ?>" title="Se behandlingar" class="mt-xl button outline b200 expand is-hidden-tablet l10n" title="Se behandlingar">Se behandlingar</a>
-                    <a href="<?php echo $repair_url ?>" title="Se behandlingar" class="mt-xl button compact text b200 is-hidden-mobile">
-                        <span class="l10n">Se behandlingar</span>
+                    <a href="<?php echo $repair_url ?>" title="<?php echo $repair_url_title ?>" class="mt-xl button outline b200 expand is-hidden-tablet l10n"><?php echo $repair_url_label ?></a>
+                    <a href="<?php echo $repair_url ?>" title="<?php echo $repair_url_title ?>" class="mt-xl button compact text b200 is-hidden-mobile">
+                        <span class="l10n"><?php echo $repair_url_label ?></span>
                         <?php icon('navigate-next'); ?>
                     </a>
                 </section>
