@@ -2,10 +2,19 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
+$seo_title = 'Allt om Akne - Orsaker, Behandling och Förebyggande | Acnespecialisten';
+$seo_description = 'Lär dig allt om akne, från dess orsaker till hur man behandlar och förebygger det. Skräddarsydda lösningar och expertis från Acnespecialisten.';
+$seo_keywords = 'akne, aknebehandling, orsaker till akne, förebygga akne, ta bort akne, vuxenakne, tonårsakne, akneärr, finnar, pormaskar';
+
+// här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
+
+$seo_image = 'images/treatments/large/acne-scars.jpg';
+
 $image_large = 'images/treatments/large/acne-scars.jpg';
 $image_small = 'images/treatments/small/acne-scars.jpg';
 $image_alt = 'Alt-text här';
 $image_title = 'Bildtitel här';
+
 $title = 'Aknebehandlingar';
 $description = 'Här har vi samlat de mest effektiva metoderna för aknebehandling som hjälper dig att effektivt få bort akne oavsett typ. Oavsett ditt specifika behov, har vi rätt lösning för dig. Är du osäker på vilken aknebehandling som bäst passar din hudtyp för att få bort akne? Oroa dig inte, boka en kostnadsfri konsultation hos oss på Acnespecialisten så hjälper vi dig vidare mot en klarare och friskare hy.';
 
@@ -473,14 +482,18 @@ $brands = array(
 <html lang="<?php echo $lang ?>">
 
 <head>
-    <!-- TODO: Set title and meta tags -->
-    <title class="l10n">
-        Aknebehandling stockholm | AcneSpecialisten
-        <?php echo $title ?>
-    </title>
-    <meta name="description" content="" class="l10n">
-    <meta name="title" content="" class="l10n">
-    <meta name="keywords" content="" class="l10n">
+      <title><?php echo $seo_title ?></title>
+      <meta name="description" content="<?php echo $seo_description ?>">
+      <meta name="keywords" content="<?php echo $seo_keywords ?>">
+
+      <!-- Optional: Set canonical version of this page (https://support.google.com/webmasters/answer/10347851) -->
+      <meta property="og:title" content="<?php echo $seo_title ?>" />
+      <meta property="og:description" content="<?php echo $seo_description ?>" />
+      <meta property="og:image" content="<?php echo $seo_image ?>" />
+
+      <meta property="twitter:title" content="<?php echo $seo_title ?>" />
+      <meta property="twitter:description" content="<?php echo $seo_description ?>" />
+      <meta property="twitter:image" content="<?php echo $seo_image ?>" />
 
     <!-- Optional: Set canonical version of this page (https://support.google.com/webmasters/answer/10347851) -->
 
