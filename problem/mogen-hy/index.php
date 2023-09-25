@@ -5,59 +5,53 @@ include_once('../widgets/symptom-card/symptom.php');
 include_once('../widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Allt om Akne - Orsaker, Behandling och Förebyggande | Acnespecialisten';
-$seo_description = 'Lär dig allt om akne, från dess orsaker till hur man behandlar och förebygger det. Skräddarsydda lösningar och expertis från Acnespecialisten.';
-$seo_keywords = 'akne, aknebehandling, orsaker till akne, förebygga akne, ta bort akne, vuxenakne, tonårsakne, akneärr, finnar, pormaskar';
+$seo_title = 'Allt om Mogen Hy - Orsaker, Behandling och Förebyggande | Acnespecialisten';
+$seo_description = 'Lär dig allt om mogen hy, från dess orsaker till hur man behandlar och förebygger tecken på åldrande. Skräddarsydda lösningar och expertis från Acnespecialisten.';
+$seo_keywords = 'mogen hy, behandling av mogen hy, orsaker till mogen hy, förebygga ålderstecken, hudåldrande, rynkor, fina linjer, ålderfläckar, hudföryngring';
 
+$title = 'Mogen Hy';
 
-$title = 'Akne';
-
-$image_small = 'images/problems/424x324/akne.webp';
-$image_large = 'images/problems/424x456/akne.webp';
-$image_title = 'Visar en hud med akne';
-$image_alt = 'Bild som illustrerar hur akne ser ut på huden';
-$description = 'Här förklarar vi vad som kännetecknar akne, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av akne, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';
+$image_small = 'images/problems/424x324/mogen-hy.webp';
+$image_large = 'images/problems/424x456/mogen-hy.webp';
+$image_title = 'Visar en hud med tecken på åldrande';
+$image_alt = 'Bild som illustrerar hur mogen hy ser ut';
+$description = 'Här förklarar vi vad som kännetecknar mogen hy, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika tecken på åldrande, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';
 
 $akas = [
       new Link(
-            label: 'Finnar',
-            url: 'problem/finnar',
-            title: 'Allt du behöver veta om finnar och deras behandling'
+            label: 'Åldrande hy',
+            url: null,
+            title: 'Åldrande hy'
       ),
       new Link(
-            label: 'Vuxenakne',
-            url: 'problem/vuxenakne',
-            title: 'Utforska orsaker, symptom och behandlingar av vuxenakne'
-      ),
-      new Link(
-            label: 'Tonårsakne',
-            url: 'problem/tonarsakne',
-            title: 'Komplett guide om tonårsakne: orsaker, förebyggande och lösningar'
+            label: 'Ålderstecken',
+            url: null,
+            title: 'Ålderstecken'
       ),
 ];
 
 $consultation_url_label = "Få gratis konsultation";
-$consultation_url = "consultation-booking?problem=acne";
-$consultation_url_title = "Gratis Konsultation för Akne";
+$consultation_url = "consultation-booking?problem=mature-skin";
+$consultation_url_title = "Gratis Konsultation för Mogen Hy";
 
 $booking_url_label = "Boka behandling";
-$booking_url = "treatment-booking?problem=acne";
-$booking_url_title = "Boka Aknebehandling";
+$booking_url = "treatment-booking?problem=mature-skin";
+$booking_url_title = "Boka Behandling för Mogen Hy";
 
 $mobile_consultation_url_label = "Få gratis konsultation";
-$mobile_consultation_url_title = "Gratis Konsultation för Akne";
+$mobile_consultation_url_title = "Gratis Konsultation för Mogen Hy";
 
 $mobile_booking_url_label = "Boka behandling";
-$mobile_booking_url_title = "Boka Aknebehandling";
+$mobile_booking_url_title = "Boka Behandling för Mogen Hy";
 
 $floating_consultation_url_label = "Få gratis konsultation";
-$floating_consultation_url_title = "Gratis Konsultation för Akne";
+$floating_consultation_url_title = "Gratis Konsultation för Mogen Hy";
 
 $floating_booking_url_label = "Boka behandling";
-$floating_booking_url_title = "Boka Aknebehandling";
+$floating_booking_url_title = "Boka Behandling för Mogen Hy";
 
 $nav_buttons = array(
-      'about' => 'Om akne',
+      'about' => 'Om mogen hy',
       'approach' => 'Metoden',
       'types' => 'Typer',
       'symptoms' => 'Symptom',
@@ -73,40 +67,40 @@ $nav_buttons = array(
       'related-problems' => 'Relaterade problem',
 );
 
-$about_title = 'Om akne';
+$about_title = 'Om mogen hy';
 
 $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
-            title: 'är akne?',
-            content: '<p class="p200">Akne är en ärftlig och hormonell hudförändring som uppstår när talgproduktionen i hudens porer ökar. Huden behöver en viss mängd talg för att hålla sig mjuk och smidig, men vid överproduktion har huden svårt att avlägsna hudrester, vilket leder till bakterier och små inflammationer. Dessa inflammationer orsakar akne, eller finnar som vi ofta säger i dagligt tal. Akne är en inflammation i huden som uppstår när porerna täpps till av talg, döda hudceller och bakterier.</p>',
-            extended_content: '<p class="p200 mt-xl">Både barn och vuxna kan drabbas av akne, men det är vanligast under tonåren. Vissa har besvär med akne under längre perioder, medan andra endast vid enstaka tillfällen. Akne kan se ut på många olika sätt, från små knottror på huden till variga större utslag. Det viktiga att komma ihåg är att akne kan behandlas. Ibland krävs behandling under en längre tidsperiod, men med rätt behandling kan både bestående ärrbildning och psykiskt lidande undvikas eller lindras.</p>       
-            <p class="p200 mt-xl">På Acnespecialisten kan du få hjälp med din akne. Vi har kunskap och erfarenhet av olika typer av behandlingar som ger goda resultat och många nöjda kunder. Vi börjar alltid med en kostnadsfri hudkonsultation där vi identifierar problemet och planerar den mest lämpliga behandlingen för dig och din hy. Du får även en effektiv hudvårdsrutin som du enkelt kan följa hemma. Vi rekommenderar att du tar hand om din allmänna hälsa: sov ordentligt, ät hälsosamt och motionera regelbundet. När du mår bra i sin helhet påverkar det din hud positivt.</p>',
+            title: 'är mogen hy?',
+            content: '<p class="p200">Mogen hy är en term som oftast används för att beskriva hudens tillstånd när den börjar visa tecken på åldrande. Dessa tecken kan inkludera rynkor, fina linjer, förlust av spänst och elasticitet, torrhet, ojämn hudton, pigmentfläckar och förtjockning av huden. En annan viktig förändring är att huden kan bli tunnare och förlora sin naturliga förmåga att behålla fukt, vilket leder till torrhet. Mogen hy kan också vara mer benägen för rodnad eller ha en minskad förmåga att läka snabbt efter skador.</p>',
+            extended_content: '<p class="p200 mt-xl">Med tiden kan också hudens porer bli mer framträdande, särskilt om de tidigare varit blockerade av talg och döda hudceller. Även om oljeproduktionen kan minska med åldern, kan detta paradoxalt nog leda till både torrhet och förstorade porer på grund av en ansamling i porerna. Hudens yttre barriär kan också försvagas, vilket gör den mer sårbar för yttre skadliga faktorer som föroreningar och UV-strålar.</p>
+            <p class="p200 mt-xl">Utöver detta påverkas huden av de naturliga sänkningarna av vissa hormoner i kroppen. Till exempel minskar östrogennivåerna med åldern, vilket direkt påverkar hudens förmåga att producera kollagen och bevara fukt. Denna hormonella förändring kan leda till en ökad torrhet och en minskning av hudens övergripande tjocklek och densitet. Slutligen, med tiden, kan huden också förlora sin förmåga att effektivt förnya sig själv, vilket kan leda till en upphopning av döda hudceller på ytan, vilket resulterar i en tråkigare hudton.</p>',
             icons: array()
       ),
       new ProblemTrivia(
             prefix: 'Varför',
-            title: 'får man akne?',
-            content: '<p class="p200">Akne är en hudåkomma som beror på en kombination av genetiska, hormonella och miljömässiga faktorer. En normal talgproduktion är nödvändig för att huden ska må bra, men när huden överproducerar talg kan detta leda till akne. Detta beror bland annat på anlag man har ärvt från sina föräldrar. Vid en överproduktion av talg klarar porerna inte av att ta hand om överflödet, och tillsammans med hudrester täpps pormynningarna till, vilket leder till att bakterier samlas. Kroppen försvarar sig då med en inflammation, och det är just detta som syns på huden i form av akne.</p>',
-            extended_content: '<p class="p200 mt-xl">Hormoner får porerna i huden att överproducera talg. Det är vanligt att drabbas av akne under puberteten, när kroppen genomgår stora förändringar, men även små barn och vuxna kan få akne. Flera faktorer kan orsaka och försämra akne, såsom stress, vissa läkemedel, varma och fuktiga miljöer samt hormonförändringar vid graviditet, menstruation och klimakteriet. Även anabola steroider och p-piller kan orsaka akne. Stress påverkar ofta huden mer än vi kanske tror, och både stora och små händelser i livet kan öka kroppens stressnivå och orsaka hudförändringar i form av hormonell akne.</p>
-            <p class="p200 mt-xl">För att behandla akne är det viktigt att balansera kroppens talgproduktion med rätt hudvårdsprodukter och hållbara hudvårdsrutiner. Successivt kan aknen antingen bli mycket bättre eller helt försvinna. Vi som arbetar på Acnespecialisten har lång erfarenhet och stor kunskap av aknebehandlingar och kan hjälpa dig att hålla kroppens naturliga produktion av talg på en optimal nivå och på så sätt reducera dina besvär med akne.</p>',
+            title: 'får man mogen hy?',
+            content: '<p class="p200">Mogen hy är en oundviklig del av den naturliga åldringsprocessen, men vad är de bakomliggande orsakerna? För det första börjar biologisk åldrande redan i 20-årsåldern. Med tiden minskar kollagenproduktionen, en kritisk komponent för hudens struktur. Denna minskning av kollagen leder till att huden blir tunnare och mindre elastisk, vilket i sin tur ger upphov till rynkor och fina linjer. Dessutom minskar hudens naturliga oljeproduktion, vilket kan leda till torrhet. Även hudens självläkningsförmåga minskar med åldern, vilket resulterar i längre återhämtningstider efter skador.</p>',
+            extended_content: '<p class="p200 mt-xl">Hormonella förändringar spelar också en betydande roll. När vi åldras minskar nivåerna av vissa hormoner, såsom östrogen, vilket kan påverka hudens tjocklek, fuktighetsnivå och elasticitet. Denna hormonella förändring kan leda till en förlust av hudens fyllighet samt en ökning av torrhet och känslighet. Externa faktorer som UV-strålar från solen är också avgörande för hur vår hud åldras. UV-strålningen skadar hudens kollagen och elastin, vilket framkallar rynkor, åldersfläckar och andra åldrande tecken. Andra miljöfaktorer, såsom föroreningar och rök, kan också påskynda hudens åldrande. Rökning, särskilt, kan minska blodflödet till huden, vilket förvärrar åldrandet.</p>
+            <p class="p200 mt-xl">Våra livsstilsval kan även influera hur vår hud åldras. Saker som otillräcklig sömn, dålig kost, stress och överdriven alkoholkonsumtion kan alla bidra till att vår hud åldras i förtid. Omvänt kan en balanserad kost rik på antioxidanter, regelbunden motion och tillräckligt med sömn hjälpa till att stödja hudens hälsa och fördröja åldrandet. Slutligen spelar våra gener en roll i hur och när vi börjar visa tecken på åldrande. Vissa människor kan börja märka dessa tecken tidigare än andra på grund av deras genetiska predisposition. Medan vi inte kan kontrollera alla dessa faktorer, kan medvetna val och förståelse hjälpa oss att ta hand om vår hud på bästa möjliga sätt.</p>',
             icons: array('who-infants' => 'Hormoner', 'who-teenagers' => 'Stress', 'who-adults' => 'Genetik', 'who-elders' => 'Livsstil')
       ),
       new ProblemTrivia(
             prefix: 'Vem',
-            title: 'får akne?',
-            content: '<p class="p200">Akne är vanligast bland tonåringar och unga vuxna, men det kan drabba människor i alla åldrar, oavsett kön och hudtyp. I puberteten ökar produktionen av könshormoner, vilket kan leda till akne vulgaris, även kallad tonårsakne. Denna form av akne kan variera från enstaka finnar till större besvär, med små gula eller röda utslag, stora knölar och smärtsamma blåsor. Eftersom akne oftast uppträder i ansiktet under en känslig period som tonåren, kan det påverka det mentala måendet och det är viktigt att behandla akne effektivt för att undvika ärrbildning och andra skador på huden.</p>',
-            extended_content: '<p class="p200 mt-xl">Akne drabbar inte bara tonåringar. Spädbarn och småbarn kan drabbas av lindriga former av akne, såsom akne neonatorum och akne infantum. Vuxenakne, kallad akne tarda, kan också uppstå om huden överproducerar talg. Kvinnor drabbas oftare av vuxenakne än män, eftersom de påverkas mer av hormonsvängningar under graviditet, mens och klimakteriet. Preventivmedel kan också påverka huden, men hur de påverkar varierar från individ till individ.</p>
-            <p class="p200 mt-xl">Yttre faktorer som stress och alkohol kan också påverka akne, både hos tonåringar och vuxna. Akne kan uppstå i ansiktet, på bröstet, axlarna och ryggen. För att behandla akne rekommenderas att boka en kostnadsfri hudkonsultation hos Acnespecialisten. Där görs en bedömning av din hud och du får förslag på behandlingar samt en personlig hudvårdsrutin anpassad efter din hudtyp. Detta hjälper dig att motverka ytterligare problem med akne, både i ansiktet och på andra delar av kroppen.</p>',
+            title: 'får mogen hy?',
+            content: '<p class="p200">Alla människor kommer oundvikligen att uppleva mogen hy eftersom det är en del av den naturliga åldringsprocessen. Men hur och när tecknen på mogen hy framträder kan variera kraftigt mellan individer. Många faktorer, både genetiska och yttre, påverkar hur vår hud utvecklas med tiden. Genetik spelar en avgörande roll i när vi börjar visa tecken på mogen hy. Precis som vissa familjer kan ha en historia av tidigt gråa hår eller skallighet, kan vissa ha en genetisk predisposition för tidiga rynkor eller åldersfläckar. Medan vi inte kan ändra våra gener, kan vi vara medvetna om dessa genetiska tendenser och anpassa vår hudvård därefter.</p>',
+            extended_content: '<p class="p200 mt-xl">Etnicitet och hudtyp kan också påverka hur och när tecknen på mogen hy uppträder. Till exempel tenderar personer med ljusare hudtoner att visa tecken på åldrande snabbare jämfört med dem med mörkare hudtoner, eftersom ljusare hud är mer känslig för UV-skador. Men det betyder inte att personer med mörkare hud inte upplever mogen hy; de kan stöta på andra åldrande problem som ojämn hudton eller pigmentfläckar. Exponering för yttre faktorer påverkar också hudens åldrande. Människor som spenderar mycket tid i solen utan adekvat solskydd kommer troligtvis att märka tecken på mogen hy tidigare än de som undviker solen. Samspelet mellan solskador och genetik kan förstärka åldrandet av huden. Till exempel kan någon med en genetisk predisposition för rynkor som också spenderar mycket tid i solen uppleva djupare och mer framträdande rynkor.</p>
+            <p class="p200 mt-xl">Livsstil och allmänna hälsopraxis har också en inverkan. Rökare, till exempel, kan märka tecken på mogen hy tidigare än icke-rökare på grund av de skadliga kemikalierna i cigaretter. På samma sätt kan de som utsätter sig för mycket stress eller inte följer en hälsosam diet också se tecken på åldrande tidigare. Slutligen är det viktigt att förstå att åldrandet är en naturlig process, och medan vi kan vidta åtgärder för att fördröja tecknen på mogen hy, kommer alla till slut att uppleva dem. Emellertid kan medvetenhet och proaktiv vård hjälpa oss att omfamna denna fas med självförtroende och nåd.</p>',
 
             icons: array('who-infants' => 'Barn', 'who-teenagers' => 'Ungdommar', 'who-adults' => 'Vuxna', 'who-elders' => 'Män & Kvinnor')
       ),
       new ProblemTrivia(
             prefix: 'Var',
-            title: 'får man akne?',
-            content: '<p class="p200">Akne kan uppstå på flera delar av kroppen och påverka personer i olika åldrar och med olika hudtyper. Vanligast är att akne drabbar ansiktet, men det kan även förekomma på andra områden som bröstet, axlarna och ryggen. Placeringen av akne beror på var talgkörtlarna är aktiva och därmed kan överproducera talg, vilket leder till tilltäppta porer och inflammationer i huden.</p>',
-            extended_content: '<p class="p200 mt-xl">Akne i ansiktet är särskilt påtagligt, eftersom det är svårt att dölja och ofta påverkar en persons självkänsla och mentala välbefinnande. Det är vanligt att tonåringar drabbas av ansiktsakne under puberteten, då hormonella förändringar kan leda till ökad talgproduktion. Även vuxna kan drabbas av ansiktsakne, särskilt kvinnor som genomgår hormonella förändringar under graviditet, mens och klimakteriet.</p>
-            <p class="p200 mt-xl">Akne på bröstet, axlarna och ryggen är också vanligt och kan vara lika besvärande som ansiktsakne, även om det är lättare att dölja under kläder. Denna typ av akne kan orsakas av samma faktorer som ansiktsakne, men även av yttre faktorer som friktion från kläder eller väskor som gnider mot huden och skapar irritation. För att behandla och förebygga akne oavsett var på kroppen det uppstår, är det viktigt att följa en anpassad hudvårdsrutin, inklusive rengöring, återfuktning och eventuellt användning av aknebehandlingar som passar din hudtyp. Konsultera hos en av våra hudspecialister för att få råd om vilka produkter och behandlingar som är bäst lämpade för din specifika situation och för att minimera akneproblem på olika delar av kroppen.</p>',
+            title: 'får man mogen hy?',
+            content: '<p class="p200">När vi talar om var på kroppen man får mogen hy, refererar vi oftast till de områden som är mest utsatta för yttre påverkan och där tecknen på åldrande tydligt framträder. Ansiktet är det mest uppenbara området eftersom det ständigt är exponerat för omgivningen. Med tiden börjar huden på ansiktet visa tecken som fina linjer, rynkor, pigmentförändringar och förlust av elasticitet, särskilt runt ögonen, munnen och på pannan. Halsen och dekolletaget är andra områden där tecknen på mogen hy ofta blir synliga. Dessa områden har tunnare hud jämfört med andra delar av kroppen, vilket gör dem särskilt känsliga för solskador och andra yttre påverkande faktorer. Åldersfläckar, linjer och förlust av hudens fasthet är vanliga problem här.</p>',
+            extended_content: '<p class="p200 mt-xl">Händerna är ytterligare ett område där mogen hy kan bli särskilt märkbar. Händerna utsätts ständigt för elementen, och deras hud är ofta mindre skyddad jämfört med andra delar av kroppen. Detta kan leda till torrhet, fläckighet, och framträdande vener. Förutom dessa specifika områden kan huden på kroppen generellt förlora sin fasthet och smidighet över tid. Områden som armar, ben och buk kan visa tecken på mogen hy i form av slapp hud, särskilt om det har skett snabba viktfluktuationer.</p>
+            <p class="p200 mt-xl">Det är också värt att nämna att mogen hy kan påverka huden över hela kroppen, inte bara på ytan. Åldrandet kan påverka hudens djupare lager, vilket minskar produktionen av kollagen och elastin – två proteiner som är avgörande för hudens struktur och elasticitet. Det är viktigt att notera att medan dessa tecken på mogen hy är naturliga och en del av åldringsprocessen, finns det sätt att fördröja och minska deras framträdande genom solskydd, rätt hudvård och andra preventiva åtgärder. Oavsett var på kroppen tecknen på mogen hy uppträder, finns det strategier och behandlingar för att hantera dem och hjälpa individer att känna sig mer bekväma och självsäkra i sin hud.</p>',
             icons: array('who-infants' => 'Ansiktet', 'who-teenagers' => 'Ryggen', 'who-adults' => 'Bröstet', 'who-elders' => 'Axlarna')
       ),
 );
