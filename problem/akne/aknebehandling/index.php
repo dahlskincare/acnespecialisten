@@ -109,8 +109,8 @@ $services = array(
         url: 'behandlingar/laserbehandling-mot-akne',
         url_label: 'Läs mer om laserbehandlingar',
         url_title: 'Utforska mer om våra laserbehandlingar mot akne',
-       
-       // short_title: 'Laser'
+
+        // short_title: 'Laser'
 
     ),
 
@@ -203,7 +203,7 @@ $results = array(
         image_title: 'Resultat',
 
         treatment: new ResultTreatment(
-        duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne"">behandlingar mot akne</a>'
+            duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne"">behandlingar mot akne</a>'
         ),
     ),
     new ResultCustomer(
@@ -215,13 +215,13 @@ $results = array(
         image_title: 'Resultat',
 
         treatment: new ResultTreatment(
-        duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne">behandlingar mot akne</a>',
+            duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne">behandlingar mot akne</a>',
         )
     ),
 );
 
-$results_url_label = "Se fler resultat";
-$results_url_title = "se flera aknebehandlingsresultat";
+$show_all_results_label = "Se fler resultat blablalba";
+$show_all_results_title = "KLICKA PÅ MIG";
 
 
 $reviews = array(
@@ -267,6 +267,10 @@ $reviews = array(
     ),
 );
 
+$review_url_label = "Läs fler omdömen";
+$review_url_title = "AcneSpecialisten Omdömen";
+
+
 $faq_categories = array(
     '' => array(
         new Question(
@@ -291,6 +295,9 @@ $faq_categories = array(
         ),
     ),
 );
+
+$faq_url_label = "Läs fler frågor & svar";
+$faq_url_title = "läs flera frågor relaterat till aknebehandling";
 
 $skin_guide_articles = array(
     new SkinGuideArticle(
@@ -335,6 +342,9 @@ $skin_guide_articles = array(
     ),
 );
 
+$skinguide_url_label = "Läs fler guider";
+$skinguide_url_title = "Läs fler guider om aknebehandling";
+
 $specialists = array(
     new Specialist(
         name: 'Cassandra Lindberg',
@@ -366,6 +376,9 @@ $specialists = array(
         image_alt: 'Vilma Libom, hudterapeut sedan 2019 på Acnespecialisten'
     )
 );
+
+$specialist_url_label = "Se alla specialister hej hej hej";
+$specialist_url_title = "Akne Specialiserade Hudterapeuter";
 
 $brands = array(
     new Brand(
@@ -418,24 +431,27 @@ $brands = array(
     ),
 );
 
+$brands_url_label = "Se alla varumärken";
+$brands_url_title = "Varumärken för Aknebehandling";
+
 ?>
 
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
 
 <head>
-      <title><?php echo $seo_title ?></title>
-      <meta name="description" content="<?php echo $seo_description ?>">
-      <meta name="keywords" content="<?php echo $seo_keywords ?>">
+    <title><?php echo $seo_title ?></title>
+    <meta name="description" content="<?php echo $seo_description ?>">
+    <meta name="keywords" content="<?php echo $seo_keywords ?>">
 
-      <!-- Optional: Set canonical version of this page (https://support.google.com/webmasters/answer/10347851) -->
-      <meta property="og:title" content="<?php echo $seo_title ?>" />
-      <meta property="og:description" content="<?php echo $seo_description ?>" />
-      <meta property="og:image" content="<?php echo $seo_image ?>" />
+    <!-- Optional: Set canonical version of this page (https://support.google.com/webmasters/answer/10347851) -->
+    <meta property="og:title" content="<?php echo $seo_title ?>" />
+    <meta property="og:description" content="<?php echo $seo_description ?>" />
+    <meta property="og:image" content="<?php echo $seo_image ?>" />
 
-      <meta property="twitter:title" content="<?php echo $seo_title ?>" />
-      <meta property="twitter:description" content="<?php echo $seo_description ?>" />
-      <meta property="twitter:image" content="<?php echo $seo_image ?>" />
+    <meta property="twitter:title" content="<?php echo $seo_title ?>" />
+    <meta property="twitter:description" content="<?php echo $seo_description ?>" />
+    <meta property="twitter:image" content="<?php echo $seo_image ?>" />
 
     <!-- Optional: Set canonical version of this page (https://support.google.com/webmasters/answer/10347851) -->
 
@@ -601,7 +617,7 @@ $brands = array(
                     $reviews_narrow = true;
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                     ?>
-                    <a class="mt-xl button outline expand is-hidden-tablet l10n" title="Läs fler omdömen" href="https://se.trustpilot.com/review/acnespecialisten.se">Läs fler omdömen</a>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $review_url_title ?>" href="https://se.trustpilot.com/review/acnespecialisten.se"><?php echo $review_url_label ?></a>
                 </section>
                 <section id="faq">
                     <div class="flex-row align-end justify-space-between">
@@ -612,6 +628,7 @@ $brands = array(
                         </a>
                     </div>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $faq_url_title ?>" href="faq"><?php echo $faq_url_label ?></a>
                 </section>
                 <section id="skin-guide">
                     <div class="flex-row justify-space-between">
@@ -626,7 +643,7 @@ $brands = array(
                         </div>
                     </div>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide_narrow.php'); ?>
-                    <a class="mt-xl button outline expand is-hidden-tablet l10n" title="Hudguiden" href="skin-guide">Läs fler hudguider</a>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" href="skin-guide" title="<?php echo $skinguide_url_title ?>"><?php echo $skinguide_url_label ?></a>
                 </section>
                 <section id="specialists">
                     <div class="flex-row align-end justify-space-between">
@@ -639,7 +656,7 @@ $brands = array(
                     <?php
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php');
                     ?>
-                    <a href="specialister" title="Specialister" class="mt-xl button outline expand is-hidden-tablet l10n">Se alla specialister</a>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $specialist_url_title ?>" href="specialister"><?php echo $specialist_url_label ?></a>
                 </section>
             </div>
             <section id="brands">

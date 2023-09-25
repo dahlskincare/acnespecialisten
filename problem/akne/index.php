@@ -697,8 +697,8 @@ $results = array(
       ),
 );
 
-$results_url_label = "Se fler resultat";
-$results_url_title = "se flera aknebehandlingsresultat";
+$show_all_results_label = "Se fler resultat";
+$show_all_results_title = "se flera aknebehandlingsresultat";
 
 
 $reviews = array(
@@ -707,7 +707,7 @@ $reviews = array(
             title: 'Supernöjd',
             text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
             signature: 'Sofia',
-            stars: 5,            
+            stars: 5,
             logo_url: 'images/brands/trustpilot.svg'
 
       ),
@@ -1334,7 +1334,7 @@ $brands_url_title = "Varumärken för Aknebehandling";
                               </a>
                         </div>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                        <a class="mt-xl button b200 outline expand auto-width is-hidden-desktop l10n" title="Se våra varumärken mot akne" href="varumarken">Se alla varumärken</a>
+                        <a class="mt-xl button b200 outline expand auto-width is-hidden-desktop l10n" title="<?php echo $brands_url_title ?>" href="varumarken"><?php echo $brands_url_label ?></a>
 
                   </section>
             </div>
