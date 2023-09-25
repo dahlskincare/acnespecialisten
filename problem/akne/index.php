@@ -680,7 +680,7 @@ $results = array(
             image_title: 'Resultat',
 
             treatment: new ResultTreatment(
-                  duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne"">behandlingar mot akne</a>'
+            duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne"">behandlingar mot akne</a>'
             ),
       ),
       new ResultCustomer(
@@ -692,7 +692,7 @@ $results = array(
             image_title: 'Resultat',
 
             treatment: new ResultTreatment(
-                  duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne">behandlingar mot akne</a>',
+            duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne">behandlingar mot akne</a>',
             )
       ),
 );

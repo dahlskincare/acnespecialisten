@@ -292,6 +292,9 @@ $faq_categories = array(
     ),
 );
 
+$faq_url_label = "Läs fler frågor & svar";
+$faq_url_title = "läs flera frågor relaterat till aknebehandling";
+
 $skin_guide_articles = array(
     new SkinGuideArticle(
         url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
@@ -335,6 +338,9 @@ $skin_guide_articles = array(
     ),
 );
 
+$skinguide_url_label = "Läs fler guider";
+$skinguide_url_title = "Läs fler guider om aknebehandling";
+
 $specialists = array(
     new Specialist(
         name: 'Cassandra Lindberg',
@@ -366,6 +372,9 @@ $specialists = array(
         image_alt: 'Vilma Libom, hudterapeut sedan 2019 på Acnespecialisten'
     )
 );
+
+$specialist_url_label = "Se alla specialister hej hej hej";
+$specialist_url_title = "Akne Specialiserade Hudterapeuter";
 
 $brands = array(
     new Brand(
@@ -417,6 +426,9 @@ $brands = array(
         image_title: 'IP infusion',
     ),
 );
+
+$brands_url_label = "Se alla varumärken";
+$brands_url_title = "Varumärken för Aknebehandling";
 
 ?>
 
