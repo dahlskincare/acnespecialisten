@@ -9,6 +9,9 @@ $seo_title = 'Allt om Akne - Orsaker, Behandling och Förebyggande | Acnespecial
 $seo_description = 'Lär dig allt om akne, från dess orsaker till hur man behandlar och förebygger det. Skräddarsydda lösningar och expertis från Acnespecialisten.';
 $seo_keywords = 'akne, aknebehandling, orsaker till akne, förebygga akne, ta bort akne, vuxenakne, tonårsakne, akneärr, finnar, pormaskar';
 
+// här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
+
+$seo_image = 'images/treatments/large/acne-scars.jpg';
 
 $title = 'Akne';
 
@@ -1017,10 +1020,11 @@ $brands_url_title = "Varumärken för Aknebehandling";
       <!-- Optional: Set canonical version of this page (https://support.google.com/webmasters/answer/10347851) -->
       <meta property="og:title" content="<?php echo $seo_title ?>" />
       <meta property="og:description" content="<?php echo $seo_description ?>" />
-      <meta property="og:image" content="<?php echo $image_large ?>" />
+      <meta property="og:image" content="<?php echo $seo_image ?>" />
+
       <meta property="twitter:title" content="<?php echo $seo_title ?>" />
       <meta property="twitter:description" content="<?php echo $seo_description ?>" />
-      <meta property="twitter:image" content="<?php echo $image_large ?>" />
+      <meta property="twitter:image" content="<?php echo $seo_image ?>" />
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="stylesheet" href="/styles/default-layout.css">
       <link rel="stylesheet" href="problem/problem.css">
