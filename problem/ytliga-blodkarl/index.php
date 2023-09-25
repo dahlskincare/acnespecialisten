@@ -488,7 +488,7 @@ $review_url_label = "Läs fler omdömen";
 $review_url_title = "AcneSpecialisten Omdömen";
 
 $faq_categories = array(
-      'Generellt om akne' => array(
+      'Generellt om ytliga blodkärl' => array(
             new Question(
                   title: 'Är ytliga blodkärl farliga?',
                   text: '<p class="p200">Ytliga blodkärl är vanligtvis inte farliga och anses oftast vara en estetisk fråga snarare än en medicinsk. Men det är viktigt att inte avfärda dem helt, eftersom de i vissa sällsynta fall kan vara en indikator på underliggande hälsotillstånd som högt blodtryck eller blodsjukdomar. Om du märker en snabb ökning i antalet ytliga blodkärl eller om de förändras i färg eller form, rekommenderar vi att du konsulterar en hudläkare eller annan medicinsk specialist för att utesluta eventuella allvarliga problem.</p>'
@@ -499,11 +499,11 @@ $faq_categories = array(
             ),
             new Question(
                   title: 'Var på kroppen kan man få ytliga blodkärl?',
-                  text: '<p class="p200">Ytliga blodkärl kan dyka upp på olika delar av kroppen men är mest vanliga i ansiktet—särskilt runt näsan och kinderna—och på benen. I vissa fall kan de även förekomma på bröstet, ryggen, och armarna. Var de framträder kan ofta ge ledtrådar till deras orsak. Till exempel är de som uppstår på benen ofta relaterade till dålig cirkulation.</p>'
+                  text: '<p class="p200">Ytliga blodkärl kan dyka upp på olika delar av kroppen men är mest vanliga i ansiktet—särskilt runt näsan och kinderna—och på benen. I vissa fall kan de även förekomma på bröstet, ryggen, och armarna.</p>'
             ),
             new Question(
                   title: 'Kan man förebygga ytliga blodkärl?',
-                  text: '<p class="p200">Det finns inga fullständigt säkra metoder för att förebygga utvecklingen av ytliga blodkärl, men det finns flera försiktighetsåtgärder som kan hjälpa. Skydda din hud från stark sol och undvik extrema temperaturförändringar. Det är också bra att undvika exponering för skadliga kemikalier och irritanter. En sund livsstil med balanserad kost och regelbunden motion kan också minska risken.</p>'
+                  text: '<p class="p200">Det finns inga fullständigt säkra metoder för att förebygga utvecklingen av ytliga blodkärl, men det finns flera försiktighetsåtgärder som kan hjälpa. Skydda din hud från stark sol och undvik extrema temperaturförändringar. Det är också bra att undvika exponering för skadliga kemikalier och irritanter.</p>'
             ),
             new Question(
                   title: 'Hur vanliga är ytliga blodkärl?',
@@ -511,10 +511,10 @@ $faq_categories = array(
             ),
             new Question(
                   title: 'Påverkas ytliga blodkärl av livsstilsfaktorer som kost och motion?',
-                  text: '<p class="p200">Absolut, dåliga livsstilsval kan faktiskt förvärra problemet med ytliga blodkärl. En ohälsosam diet rik på socker och fett kan leda till viktökning och dålig cirkulation, vilket i sin tur kan förvärra ytliga blodkärl. Å andra sidan kan en balanserad diet och regelbunden motion förbättra blodflödet och potentiellt minska uppkomsten eller svårighetsgraden av ytliga blodkärl. Motion hjälper till att stärka och tonifiera blodkärlen, vilket gör dem mindre sannolika att bli ytliga eller skadade.</p>'
+                  text: '<p class="p200">Absolut, livsstilsval kan faktiskt förvärra problemet med ytliga blodkärl. En ohälsosam diet kan leda till viktökning och dålig cirkulation, vilket i sin tur kan förvärra ytliga blodkärl. Å andra sidan kan en balanserad diet och regelbunden motion förbättra blodflödet och potentiellt minska uppkomsten eller svårighetsgraden av ytliga blodkärl. Motion hjälper till att stärka och tonifiera blodkärlen, vilket gör dem mindre sannolika att bli ytliga eller skadade.</p>'
             ),
       ),
-      'Behandling mot akne' => array(
+      'Behandling mot ytliga blodkärl' => array(
             new Question(
                   title: 'Hur behandlas ytliga blodkärl?',
                   text: '<p class="p200">Ytliga blodkärl behandlas med hjälp av intensivt pulserat ljus, eller IPL. Denna teknologi fungerar genom att sända ut en serie av ljuspulser över en rad olika våglängder som absorberas av de röda blodkärlen. Värmen från ljuset får blodkärlen att koagulera och brytas ner, vilket resulterar i att de gradvis försvinner eller blir mindre framträdande. Eftersom IPL använder en bredare våglängd jämfört med laserterapi, kan det vara mer anpassningsbart och användbart för att behandla olika typer av ytliga blodkärl. IPL betraktas som en icke-invasiv behandlingsform och har därför kortare återhämtningstid jämfört med kirurgiska alternativ.</p>'
@@ -617,15 +617,15 @@ $specialists = array(
 );
 
 $specialist_url_label = "Se alla specialister";
-$specialist_url_title = "Akne Specialiserade Hudterapeuter";
+$specialist_url_title = "Hudterapeuter Specialiserade på Ytliga blodkärl";
 
 $related_problems = array(
       new RelatedProblem(
             name: 'Rosacea',
             aka: 'ansiktsrodnad',
             image: 'images/problems/200x200/rosacea.webp',
-            image_alt: 'Bild som illustrerar rosacea, ett hudtillstånd som kan förväxlas med akne',
-            image_title: 'Rosacea - en hudsjukdom som ofta förväxlas med akne',
+            image_alt: 'Bild som illustrerar rosacea',
+            image_title: 'Rosacea - en hudsjukdom som ofta associeras med ytliga blodkärl',
             url: 'problem/rosacea',
             url_title: 'Rosacea'
       ),
