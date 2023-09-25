@@ -81,17 +81,17 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Varför',
             title: 'får man mogen hy?',
-            content: '<p class="p200">Mogen hy är en oundviklig del av den naturliga åldringsprocessen, men vad är de bakomliggande orsakerna? För det första börjar biologisk åldrande redan i 20-årsåldern. Med tiden minskar kollagenproduktionen, en kritisk komponent för hudens struktur. Denna minskning av kollagen leder till att huden blir tunnare och mindre elastisk, vilket i sin tur ger upphov till rynkor och fina linjer. Dessutom minskar hudens naturliga oljeproduktion, vilket kan leda till torrhet. Även hudens självläkningsförmåga minskar med åldern, vilket resulterar i längre återhämtningstider efter skador.</p>',
+            content: '<p class="p200">Mogen hy är en oundviklig del av den naturliga åldringsprocessen, men vad är de bakomliggande orsakerna? För det första börjar biologisk åldrande redan i 20-årsåldern. Med tiden minskar kollagenproduktionen, en kritisk komponent för hudens struktur. Denna minskning av kollagen leder till att huden blir tunnare och mindre elastisk, vilket i sin tur ger upphov till rynkor och fina linjer. Dessutom minskar hudens naturliga talgproduktion, vilket kan leda till torrhet. Även hudens självläkningsförmåga minskar med åldern, vilket resulterar i längre återhämtningstider efter skador.</p>',
             extended_content: '<p class="p200 mt-xl">Hormonella förändringar spelar också en betydande roll. När vi åldras minskar nivåerna av vissa hormoner, såsom östrogen, vilket kan påverka hudens tjocklek, fuktighetsnivå och elasticitet. Denna hormonella förändring kan leda till en förlust av hudens fyllighet samt en ökning av torrhet och känslighet. Externa faktorer som UV-strålar från solen är också avgörande för hur vår hud åldras. UV-strålningen skadar hudens kollagen och elastin, vilket framkallar rynkor, åldersfläckar och andra åldrande tecken. Andra miljöfaktorer, såsom föroreningar och rök, kan också påskynda hudens åldrande. Rökning, särskilt, kan minska blodflödet till huden, vilket förvärrar åldrandet.</p>
-            <p class="p200 mt-xl">Våra livsstilsval kan även influera hur vår hud åldras. Saker som otillräcklig sömn, dålig kost, stress och överdriven alkoholkonsumtion kan alla bidra till att vår hud åldras i förtid. Omvänt kan en balanserad kost rik på antioxidanter, regelbunden motion och tillräckligt med sömn hjälpa till att stödja hudens hälsa och fördröja åldrandet. Slutligen spelar våra gener en roll i hur och när vi börjar visa tecken på åldrande. Vissa människor kan börja märka dessa tecken tidigare än andra på grund av deras genetiska predisposition. Medan vi inte kan kontrollera alla dessa faktorer, kan medvetna val och förståelse hjälpa oss att ta hand om vår hud på bästa möjliga sätt.</p>',
+            <p class="p200 mt-xl">Våra livsstilsval kan även influera hur vår hud åldras. Saker som otillräcklig sömn, dålig kost, stress och alkoholkonsumtion kan alla bidra till att vår hud åldras i förtid. Omvänt kan en balanserad kost rik på antioxidanter, regelbunden motion och tillräckligt med sömn hjälpa till att stödja hudens hälsa och fördröja åldrandet. Slutligen spelar våra gener en roll i hur och när vi börjar visa tecken på åldrande. Vissa människor kan börja märka dessa tecken tidigare än andra på grund av deras genetiska predisposition. Medan vi inte kan kontrollera alla dessa faktorer, kan medvetna val och förståelse hjälpa oss att ta hand om vår hud på bästa möjliga sätt.</p>',
             icons: array('who-infants' => 'Hormoner', 'who-teenagers' => 'Stress', 'who-adults' => 'Genetik', 'who-elders' => 'Livsstil')
       ),
       new ProblemTrivia(
             prefix: 'Vem',
             title: 'får mogen hy?',
             content: '<p class="p200">Alla människor kommer oundvikligen att uppleva mogen hy eftersom det är en del av den naturliga åldringsprocessen. Men hur och när tecknen på mogen hy framträder kan variera kraftigt mellan individer. Många faktorer, både genetiska och yttre, påverkar hur vår hud utvecklas med tiden. Genetik spelar en avgörande roll i när vi börjar visa tecken på mogen hy. Precis som vissa familjer kan ha en historia av tidigt gråa hår eller skallighet, kan vissa ha en genetisk predisposition för tidiga rynkor eller åldersfläckar. Medan vi inte kan ändra våra gener, kan vi vara medvetna om dessa genetiska tendenser och anpassa vår hudvård därefter.</p>',
-            extended_content: '<p class="p200 mt-xl">Etnicitet och hudtyp kan också påverka hur och när tecknen på mogen hy uppträder. Till exempel tenderar personer med ljusare hudtoner att visa tecken på åldrande snabbare jämfört med dem med mörkare hudtoner, eftersom ljusare hud är mer känslig för UV-skador. Men det betyder inte att personer med mörkare hud inte upplever mogen hy; de kan stöta på andra åldrande problem som ojämn hudton eller pigmentfläckar. Exponering för yttre faktorer påverkar också hudens åldrande. Människor som spenderar mycket tid i solen utan adekvat solskydd kommer troligtvis att märka tecken på mogen hy tidigare än de som undviker solen. Samspelet mellan solskador och genetik kan förstärka åldrandet av huden. Till exempel kan någon med en genetisk predisposition för rynkor som också spenderar mycket tid i solen uppleva djupare och mer framträdande rynkor.</p>
-            <p class="p200 mt-xl">Livsstil och allmänna hälsopraxis har också en inverkan. Rökare, till exempel, kan märka tecken på mogen hy tidigare än icke-rökare på grund av de skadliga kemikalierna i cigaretter. På samma sätt kan de som utsätter sig för mycket stress eller inte följer en hälsosam diet också se tecken på åldrande tidigare. Slutligen är det viktigt att förstå att åldrandet är en naturlig process, och medan vi kan vidta åtgärder för att fördröja tecknen på mogen hy, kommer alla till slut att uppleva dem. Emellertid kan medvetenhet och proaktiv vård hjälpa oss att omfamna denna fas med självförtroende och nåd.</p>',
+            extended_content: '<p class="p200 mt-xl">Hudtyp kan också påverka hur och när tecknen på mogen hy uppträder. Till exempel tenderar personer med ljusare hudtoner att visa tecken på åldrande snabbare jämfört med dem med mörkare hudtoner, eftersom ljusare hud är mer känslig för UV-skador. Exponering för yttre faktorer påverkar också hudens åldrande. Människor som spenderar mycket tid i solen utan adekvat solskydd kommer troligtvis att märka tecken på mogen hy tidigare än de som undviker solen. Samspelet mellan solskador och genetik kan förstärka åldrandet av huden. Till exempel kan någon med en genetisk predisposition för rynkor som också spenderar mycket tid i solen uppleva djupare och mer framträdande rynkor.</p>
+            <p class="p200 mt-xl">Livsstil och allmänna hälsa har också en inverkan. Rökare, till exempel, kan märka tecken på mogen hy tidigare än icke-rökare på grund av de skadliga kemikalierna i cigaretter. På samma sätt kan de som utsätter sig för mycket stress eller inte följer en hälsosam diet också se tecken på åldrande tidigare. Slutligen är det viktigt att förstå att åldrandet är en naturlig process, och medan vi kan vidta åtgärder för att fördröja tecknen på mogen hy, kommer alla till slut att uppleva dem. Emellertid kan medvetenhet och proaktiv vård hjälpa oss att omfamna denna fas med självförtroende och nåd.</p>',
 
             icons: array('who-infants' => 'Barn', 'who-teenagers' => 'Ungdommar', 'who-adults' => 'Vuxna', 'who-elders' => 'Män & Kvinnor')
       ),
@@ -104,10 +104,11 @@ $trivias = array(
             icons: array('who-infants' => 'Ansiktet', 'who-teenagers' => 'Ryggen', 'who-adults' => 'Bröstet', 'who-elders' => 'Axlarna')
       ),
 );
+
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din aknetyp och skapar en individuell behandlingsplan.',
+            content: 'Hos AcneSpecialisten kopplas du till en personlig hudterapeut som hjälper dig att identifiera tecknen på mogen hy och skapar en skräddarsydd behandlingsplan för dina specifika behov.',
 
             url_label: 'Få gratis konsultation',
             url: 'hudkonsultation',
@@ -115,33 +116,31 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika aknetyp, så att du snabbt och säkert blir av med problemet.',
+            content: 'Vi utför skonsamma och effektiva behandlingar särskilt anpassade för mogen hy. Våra metoder är designade för att ge din hud förnyad lyster, minska fina linjer och förbättra hudens elasticitet.',
 
-            url_label: 'Se aknebehandlingar',
-            url: 'behandlingar/akne',
-            url_title: 'Utforska våra skräddarsydda aknebehandlingar'
+            url_label: 'Se behandlingar för mogen hy',
+            url: 'behandlingar/mogenhy',
+            url_title: 'Utforska våra skräddarsydda behandlingar för mogen hy'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny akne och hålla din hud i balans.',
+            content: 'Vi rådgör dig om den bästa hudvårdsrutinen och produkterna för mogen hy, för att bevara hudens ungdomlighet och motverka framtida ålderstecken.',
 
             url_label: 'Se produkter',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
-            url_title: 'Hitta de bästa produkterna för att förebygga akne'
+            url: 'https://swedskin.com',
+            url_title: 'Hitta de bästa produkterna för mogen hy'
       ),
       new TreatmentStep(
             title: 'Reparera',
-            content: 'När aknen är borta fokuserar vi på att reducera eventuella ärr med behandlingsmetoder som laser, microneedling och kemisk peeling för en jämn och problemfri hud.',
+            content: 'Om din hud har ålderstecken såsom pigmentfläckar, förlorad elasticitet eller djupare rynkor, erbjuder vi behandlingsmetoder som laser, microneedling och kemisk peeling för att förnya och förbättra hudens utseende.',
 
-            url_label: 'Se ärrbehandlingar',
-            url: 'behandlingar/aknearr',
-            url_title: 'Upptäck effektiva behandlingar för akneärr'
+            url_label: 'Se behandlingar för ålderstecken',
+            url: 'behandlingar/ålderstecken',
+            url_title: 'Upptäck effektiva behandlingar för ålderstecken'
       ),
-
 );
-$treatment_link = '<a href="problem/akne/aknebehandling" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra aknebehandlingar</a>';
 
-$types_title = 'Olika typer av akne';
+$types_title = 'Olika typer av mogen hy';
 
 $type_categories = array(
       new BasedTypeCategory(
