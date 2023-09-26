@@ -592,37 +592,26 @@ $faq_categories = array(
                 title: 'Vad menas med termen "mogen hy"?',
                 text: '<p class="p200">Mogen hy hänvisar till huden som börjar visa tecken på åldrande. Dessa tecken kan inkludera rynkor, fina linjer, förlust av elasticitet, förtunning av huden, ojämn hudton, pigmentförändringar och minskad fuktighet. Medan åldrande är en naturlig process, kan yttre faktorer som solexponering, kost, och livsstilsval också påverka hudens åldrande.</p>'
             ),
-
             new Question(
                 title: 'Vid vilken ålder börjar huden oftast klassificeras som mogen?',
                 text: '<p class="p200">Det finns ingen exakt ålder där huden börjar klassificeras som "mogen", eftersom åldrande är en individuell process. Men många människor börjar märka förändringar i sin hud runt 40-årsåldern. Dessa förändringar kan vara mer eller mindre framträdande beroende på genetik, livsstil och hudvårdsvanor.</p>'
             ),
-
             new Question(
                 title: 'Hur påverkar hormonella förändringar, såsom menopaus, mogen hy?',
                 text: '<p class="p200">Menopaus och de hormonella förändringar som följer med den kan ha en märkbar inverkan på huden. Östrogen, ett hormon som minskar under menopaus, spelar en viktig roll i produktionen av kollagen och hudens naturliga oljor. När nivåerna av östrogen minskar, kan huden bli torrare, mindre elastisk, och mer benägen för rynkor och fina linjer.</p>'
             ),
-
             new Question(
                 title: 'Vilken roll spelar genetik i hur och när huden blir mogen?',
                 text: '<p class="p200">Genetik spelar en betydande roll i hudens åldrande process. Om dina föräldrar eller nära släktingar har en huds som åldras långsamt eller visa tecken på åldrande vid en högre ålder, kan du också ha en genetisk benägenhet att uppleva samma saker. Detta betyder dock inte att externa faktorer som solexponering och livsstilsval inte kommer att ha någon inverkan.</p>'
             ),
-
-            new Question(
-                title: 'Hur skiljer sig solskydd för mogen hy från andra typer av hud?',
-                text: '<p class="p200">Solskydd är avgörande för alla hudtyper och åldrar, men mogen hy kan dra nytta av formuleringar som också innehåller antioxidanter och fuktgivande ingredienser. Eftersom mogen hy ofta är torrare, kan en solkräm med extra fuktighetsgivande egenskaper vara fördelaktig.</p>'
-            ),
-
             new Question(
                 title: 'Vilken inverkan har kost och näring på mogen hy?',
                 text: '<p class="p200">Kost och näring spelar en avgörande roll för huden. En balanserad kost rik på antioxidanter, omega-3-fettsyror, vitaminer och mineraler kan bidra till en hälsosam hud. Mat som är rik på vitamin C och E, till exempel, kan hjälpa till att bekämpa fria radikaler och skydda huden från oxidativ stress.</p>'
             ),
-
             new Question(
                 title: 'Kan miljöfaktorer, som luftfuktighet och föroreningar, påverka mogen hy mer än yngre hy?',
                 text: '<p class="p200">Ja, mogen hy kan vara mer känslig för yttre påverkan som luftfuktighet och föroreningar. Denna hudtyp har ofta en minskad förmåga att hålla kvar fukt, vilket gör den mer sårbar för torrhet i låg luftfuktighet. Föroreningar kan också påskynda åldringsprocessen genom att orsaka oxidativ stress, vilket kan vara mer skadligt för en redan åldrande hud.</p>'
             ),
-
             new Question(
                 title: 'Är det möjligt att förhindra vissa tecken på åldrande, eller handlar det mest om att hantera dem när de uppstår?',
                 text: '<p class="p200">Medan vissa tecken på åldrande är oundvikliga på grund av genetik och den naturliga åldringsprocessen, kan många yttre tecken på åldrande förebyggas eller minimeras. Regelbunden hudvård, solskydd, en balanserad kost, och en hälsosam livsstil kan alla bidra till att minska eller fördröja tecknen på hudens åldrande. När tecknen väl dyker upp finns det behandlingar och produkter som kan hjälpa till att hantera dem.</p>'
@@ -630,18 +619,22 @@ $faq_categories = array(
       ),
       'Behandling mot mogen hy' => array(
             new Question(
-                  title: 'Hur många behandlingar behövs?',
-                  text: '<p class="p200">Antalet behandlingar som behövs varierar från person till person och beror på flera faktorer, som din hudtyp, svårighetsgraden av din akne och din respons på behandlingen. Vanligtvis kan du se en förbättring efter 1 till 3 veckors regelbunden behandling.</p>
-
-                       <p class="p200 mt-m">Det är viktigt att påpeka att behandlingen hos oss inte fungerar i isolering. En väsentlig del av din framgång ligger i den dagliga användningen av de rekommenderade produkterna hemma. Det är kombinationen av professionell behandling och hemmavård som ger bästa möjliga resultat.</p>
-
-                        <p class="p200 mt-m">Om du inte upplever de förväntade förbättringarna efter en tid, uppmanar vi dig att ta kontakt med din personliga hudterapeut. Tillsammans kan vi se över dina hudvårdsrutiner och de produkter du använder, för att optimera din behandlingsplan.</p>'
+                title: 'Vilka typer av behandlingar rekommenderas oftast för mogen hy?',
+                text: '<p class="p200">För mogen hy rekommenderas ofta behandlingar som fokuserar på återfuktning, återställande av hudens elasticitet och reduktion av fina linjer och rynkor. Detta kan inkludera mikroneedling, kemiska peelingar och laserbehandlingar. Det är också vanligt att rekommendera produkter med aktiva ingredienser som retinol, hyaluronsyra och antioxidanter.</p>'
+            ),
+            new Question(
+                title: 'Vilken roll spelar hemmavård i behandlingen av mogen hy?',
+                text: '<p class="p200">Hemmavård är avgörande för att upprätthålla resultaten av professionella behandlingar och för att stödja hudens hälsa. Detta innebär att använda kvalitativa produkter som är lämpliga för mogen hy och att följa en regelbunden hudvårdsrutin som rengöring, toning, återfuktning och solskydd.</p>'
+            ),
+            new Question(
+                title: 'Finns det några specifika ingredienser jag bör leta efter i produkter för mogen hy?',
+                text: '<p class="p200">Absolut, för mogen hy är det fördelaktigt att leta efter produkter som innehåller retinol, hyaluronsyra, peptider, ceramider, antioxidanter (som vitamin C och E) och solskyddsfaktor. Dessa ingredienser hjälper till att återställa hudens elasticitet, återfukta, skydda mot fria radikaler och förebygga ytterligare åldrande.</p>'
             ),
       ),
 );
 
 $faq_url_label = "Läs fler frågor & svar";
-$faq_url_title = "läs flera frågor relaterat till akne";
+$faq_url_title = "läs flera frågor relaterat till mogen hy";
 
 $skin_guide_articles = array(
       new SkinGuideArticle(
@@ -693,41 +686,41 @@ $skin_guide_articles = array(
 );
 
 $skinguide_url_label = "Läs fler guider";
-$skinguide_url_title = "Läs fler guider om akne";
+$skinguide_url_title = "Läs fler guider om mogen hy";
 
 $specialists = array(
       new Specialist(
             name: 'Cazzandra Lindberg',
             title: 'Hudterapeut sedan 2015',
             image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
-            image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i aknebehandling',
-            image_title: 'Cazzandra Lindberg - Expert på aknebehandling'
+            image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i behandling av mogen hy',
+            image_title: 'Cazzandra Lindberg - Expert på behandling av mogen hy'
       ),
       new Specialist(
             name: 'Veronika Benedik',
             title: 'Hudterapeut sedan 1999',
             image: 'images/specialists/312x312/hudterapeut-veronika.webp',
-            image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på akne',
-            image_title: 'Veronika Benedik - Specialist inom aknevård'
+            image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på mogen hy',
+            image_title: 'Veronika Benedik - Specialist inom vård av mogen hy'
       ),
       new Specialist(
             name: 'Amira Maqboul',
             title: 'Hudterapeut sedan 2017',
             image: 'images/specialists/312x312/hudterapeut-amira.webp',
-            image_alt: 'Amira Maqboul, hudterapeut med kunskap inom aknehantering',
-            image_title: 'Amira Maqboul - Hudterapeut specialiserad på akne'
+            image_alt: 'Amira Maqboul, hudterapeut med kunskap inom behandling av mogen hy',
+            image_title: 'Amira Maqboul - Hudterapeut specialiserad på mogen hy'
       ),
       new Specialist(
             name: 'Vilma Libom',
             title: 'Hudterapeut sedan 2019',
             image: 'images/specialists/312x312/hudterapeut-vilma.webp',
-            image_alt: 'Vilma Libom, hudterapeut med inriktning mot aknebehandling',
-            image_title: 'Vilma Libom - Expert inom aknebehandling'
+            image_alt: 'Vilma Libom, hudterapeut med inriktning mot behandling av mogen hy',
+            image_title: 'Vilma Libom - Expert inom vård av mogen hy'
       )
 );
 
 $specialist_url_label = "Se alla specialister";
-$specialist_url_title = "Akne Specialiserade Hudterapeuter";
+$specialist_url_title = "Hudterapeuter specialiserade på mogen hy";
 
 $related_problems = array(
       new RelatedProblem(
@@ -826,7 +819,7 @@ $brands = array(
 );
 
 $brands_url_label = "Se alla varumärken";
-$brands_url_title = "Varumärken för Aknebehandling";
+$brands_url_title = "Varumärken för behandling av mogen hy";
 
 ?>
 
