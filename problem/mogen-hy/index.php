@@ -589,8 +589,43 @@ $review_url_title = "AcneSpecialisten Omdömen";
 $faq_categories = array(
       'Generellt om mogen hy' => array(
             new Question(
-                  title: 'Hur blir jag av med min akne snabbt?',
-                  text: '<p class="p200">Att bli av med akne snabbt är en utmaning, eftersom det inte finns någon quickfix när det gäller akne. Effektiv behandling kräver att du tar hand om din hud genom att använda rätt behandlingar och produkter som passar din specifika hudtyp och akne. För att få en skräddarsydd behandlingsplan som hjälper dig att bli av med aknen så snabbt som möjligt, rekommenderar vi att du bokar en kostnadsfri hudkonsultation hos oss. Under konsultationen kommer vi att analysera din hud och hjälpa dig att utforma en anpassad behandlingsrutin som ger dig de bästa förutsättningarna för att snabbt och effektivt behandla din akne.</p>'
+                title: 'Vad menas med termen "mogen hy"?',
+                text: '<p class="p200">Mogen hy hänvisar till huden som börjar visa tecken på åldrande. Dessa tecken kan inkludera rynkor, fina linjer, förlust av elasticitet, förtunning av huden, ojämn hudton, pigmentförändringar och minskad fuktighet. Medan åldrande är en naturlig process, kan yttre faktorer som solexponering, kost, och livsstilsval också påverka hudens åldrande.</p>'
+            ),
+
+            new Question(
+                title: 'Vid vilken ålder börjar huden oftast klassificeras som mogen?',
+                text: '<p class="p200">Det finns ingen exakt ålder där huden börjar klassificeras som "mogen", eftersom åldrande är en individuell process. Men många människor börjar märka förändringar i sin hud runt 40-årsåldern. Dessa förändringar kan vara mer eller mindre framträdande beroende på genetik, livsstil och hudvårdsvanor.</p>'
+            ),
+
+            new Question(
+                title: 'Hur påverkar hormonella förändringar, såsom menopaus, mogen hy?',
+                text: '<p class="p200">Menopaus och de hormonella förändringar som följer med den kan ha en märkbar inverkan på huden. Östrogen, ett hormon som minskar under menopaus, spelar en viktig roll i produktionen av kollagen och hudens naturliga oljor. När nivåerna av östrogen minskar, kan huden bli torrare, mindre elastisk, och mer benägen för rynkor och fina linjer.</p>'
+            ),
+
+            new Question(
+                title: 'Vilken roll spelar genetik i hur och när huden blir mogen?',
+                text: '<p class="p200">Genetik spelar en betydande roll i hudens åldrande process. Om dina föräldrar eller nära släktingar har en huds som åldras långsamt eller visa tecken på åldrande vid en högre ålder, kan du också ha en genetisk benägenhet att uppleva samma saker. Detta betyder dock inte att externa faktorer som solexponering och livsstilsval inte kommer att ha någon inverkan.</p>'
+            ),
+
+            new Question(
+                title: 'Hur skiljer sig solskydd för mogen hy från andra typer av hud?',
+                text: '<p class="p200">Solskydd är avgörande för alla hudtyper och åldrar, men mogen hy kan dra nytta av formuleringar som också innehåller antioxidanter och fuktgivande ingredienser. Eftersom mogen hy ofta är torrare, kan en solkräm med extra fuktighetsgivande egenskaper vara fördelaktig.</p>'
+            ),
+
+            new Question(
+                title: 'Vilken inverkan har kost och näring på mogen hy?',
+                text: '<p class="p200">Kost och näring spelar en avgörande roll för huden. En balanserad kost rik på antioxidanter, omega-3-fettsyror, vitaminer och mineraler kan bidra till en hälsosam hud. Mat som är rik på vitamin C och E, till exempel, kan hjälpa till att bekämpa fria radikaler och skydda huden från oxidativ stress.</p>'
+            ),
+
+            new Question(
+                title: 'Kan miljöfaktorer, som luftfuktighet och föroreningar, påverka mogen hy mer än yngre hy?',
+                text: '<p class="p200">Ja, mogen hy kan vara mer känslig för yttre påverkan som luftfuktighet och föroreningar. Denna hudtyp har ofta en minskad förmåga att hålla kvar fukt, vilket gör den mer sårbar för torrhet i låg luftfuktighet. Föroreningar kan också påskynda åldringsprocessen genom att orsaka oxidativ stress, vilket kan vara mer skadligt för en redan åldrande hud.</p>'
+            ),
+
+            new Question(
+                title: 'Är det möjligt att förhindra vissa tecken på åldrande, eller handlar det mest om att hantera dem när de uppstår?',
+                text: '<p class="p200">Medan vissa tecken på åldrande är oundvikliga på grund av genetik och den naturliga åldringsprocessen, kan många yttre tecken på åldrande förebyggas eller minimeras. Regelbunden hudvård, solskydd, en balanserad kost, och en hälsosam livsstil kan alla bidra till att minska eller fördröja tecknen på hudens åldrande. När tecknen väl dyker upp finns det behandlingar och produkter som kan hjälpa till att hantera dem.</p>'
             ),
       ),
       'Behandling mot mogen hy' => array(
