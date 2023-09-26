@@ -326,7 +326,7 @@ $symptoms = array(
             url: null,
             url_title: null,
 
-            image: 'images/symptoms/102x102/saggy-skin.webp',
+            image: 'images/symptoms/102x102/forlorad-hudelasticitet.webp',
             image_alt: 'Bild av förlorad hudelasticitet',
             image_title: 'Förlorad hudelasticitet'
       ),
@@ -339,7 +339,7 @@ $symptoms = array(
             url: null,
             url_title: null,
 
-            image: 'images/symptoms/102x102/pigmentation.webp',
+            image: 'images/symptoms/102x102/pigmentatforandringar.webp',
             image_alt: 'Bild av pigmentförändringar',
             image_title: 'Pigmentförändringar'
       ),
@@ -352,22 +352,9 @@ $symptoms = array(
             url: null,
             url_title: null,
 
-            image: 'images/symptoms/102x102/dry-skin.webp',
+            image: 'images/symptoms/102x102/torr-hy.webp',
             image_alt: 'Bild av torr och skör hud',
             image_title: 'Torrt och skört'
-      ),
-      new Symptom(
-            name: 'Tunnare hud',
-            aka: 'Minskad hudtjocklek',
-            content: 'Med åldern kan huden bli tunnare och mer genomskinlig, vilket kan göra den känsligare och mer benägen för skador.',
-            
-            url_label: null,
-            url: null,
-            url_title: null,
-
-            image: 'images/symptoms/102x102/thin-skin.webp',
-            image_alt: 'Bild av tunnare hud',
-            image_title: 'Tunnare hud'
       ),
       new Symptom(
             name: 'Minskad kollagenproduktion',
@@ -378,53 +365,65 @@ $symptoms = array(
             url: null,
             url_title: null,
 
-            image: 'images/symptoms/102x102/low-collagen.webp',
+            image: 'images/symptoms/102x102/minskad-kollagenproduktion.webp',
             image_alt: 'Bild av minskad kollagenproduktion',
             image_title: 'Minskad kollagenproduktion'
       ),
       new Symptom(
-            name: 'Förlust av fettvävnad',
-            aka: 'Minskad fyllighet i ansiktet',
-            content: 'Med tiden kan fettvävnaden i ansiktet minskas eller omfördelas, vilket kan resultera i ihåliga kinder, skarpa käklinjer eller andra förändringar i ansiktets konturer.',
+            name: 'Förlust av hudens volym',
+            aka: 'Huden känns mindre fyllig',
+            content: 'Med åldrandet kan huden förlora sin naturliga volym, vilket leder till att den känns mindre fyllig och mindre elastisk. Detta kan orsakas av en kombination av minskad kollagenproduktion, förlust av fettvävnad och andra åldersrelaterade förändringar.',
             
             url_label: null,
             url: null,
             url_title: null,
 
-            image: 'images/symptoms/102x102/fat-loss.webp',
-            image_alt: 'Bild av förlust av fettvävnad',
-            image_title: 'Förlust av fettvävnad'
+            image: 'images/symptoms/102x102/forlust-volymwebp',
+            image_alt: 'Bild av förlust av hudens volym',
+            image_title: 'Förlust av hudens volym'
+      ),
+      new Symptom(
+            name: 'Minskad lyster',
+            aka: 'Trött och glåmig hy',
+            content: 'Lystern i huden kan minskas över tid på grund av en kombination av yttre skadliga faktorer som UV-strålning, föroreningar och rökning, samt inre faktorer som minskad blodcirkulation och hudcellsförnyelse. Resultatet är en hud som ser trött, glåmig och mindre livfull ut.',
+            
+            url_label: null,
+            url: null,
+            url_title: null,
+
+            image: 'images/symptoms/102x102/minskad-lyster.webp',
+            image_alt: 'Bild av minskad lyster',
+            image_title: 'Minskad lyster'
       ),
 );
 
-$headline01 = "01. Identifiera din akne";
+$headline01 = "01. Utforska din mogen hy";
 
 $service = new Service(
-      title: 'Konsultation',
+      title: 'Konsultation för mogen hy',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Vid ett personligt möte med en acnespecialist utförs en undersökning av din akne. Vi tar före-bilder på din hud och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
+      content: 'Vid ett personligt möte med en hudterapeut utförs en djupgående analys av din mogen hy. Vi tar före-bilder på din hud, identifierar tecken på åldrande, och rekommenderar en lämplig behandling. Vidare skräddarsyr vi en behandlingsplan anpassad efter dina individuella behov.',
 
-      image_small: 'images/services/200x200/konsultation.webp',
-      image_large: 'images/services/200x200/konsultation.webp',
-      image_alt: 'Bild av en konsultation för aknebehandling',
-      image_title: 'Konsultation för aknebehandling',
+      image_small: 'images/services/200x200/konsultation-mogenhy.webp',
+      image_large: 'images/services/200x200/konsultation-mogenhy.webp',
+      image_alt: 'Bild av en konsultation för mogen hy',
+      image_title: 'Konsultation för mogen hy',
 
-      url_label: 'Läs mer om vår hudkonsultation',
-      url: 'hudkonsultation',
-      url_title: 'Klicka här för att läsa mer om gratis hudkonsultation',
+      url_label: 'Läs mer om vår konsultation för mogen hy',
+      url: 'konsultation-mogenhy',
+      url_title: 'Klicka här för att läsa mer om konsultation för mogen hy',
 
-      consultation_url_label: 'Boka tid för hudkonsultation',
-      consultation_url: 'consultation-booking?problem=acne',
-      consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för akne',
+      consultation_url_label: 'Boka tid för konsultation för mogen hy',
+      consultation_url: 'consultation-booking?problem=mogenhy',
+      consultation_url_title: 'Klicka för att boka tid för en konsultation för mogen hy',
 
       booking_url_label: null,
       booking_url: null,
       booking_url_title: null,
-
 );
 
-$headline02 = "02. Behandla aktiv akne";
+$headline02 = "02. Behandla mogen hy";
 
 $services = array(
       new Service(
@@ -449,29 +448,6 @@ $services = array(
             booking_url_label: 'Boka tid för ansiktsbehandling mot akne',
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
             booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling mot akne'
-      ),
-      new Service(
-            title: 'Laser mot akne',
-            duration: '50 min',
-            price: '2595 kr',
-            content: 'En avancerad laserbehandling mot akne erbjuder en effektiv lösning för att bekämpa aktiv akne och ärr som kan uppstå efter utbrott. Lasertekniken riktar sig mot de bakterier som orsakar inflammation och hjälper till att minska produktionen av talg, vilket minskar risken för framtida utbrott.',
-
-            image_small: 'images/services/200x200/laser-akne.webp',
-            image_large: 'images/services/200x200/laser-akne.webp',
-            image_alt: 'Bild av laserbehandling mot akne',
-            image_title: 'Laserbehandling mot akne',
-
-            url_label: 'Läs mer om laser mot akne',
-            url: 'behandlingar/laser-akne',
-            url_title: 'Klicka här för att läsa mer om laserbehandling mot akne',
-
-            consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url: 'consultation-booking?problem=acne&service=laser',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling mot akne',
-
-            booking_url_label: 'Boka tid för laserbehandling mot akne',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
-            booking_url_title: 'Klicka för att boka tid för en laserbehandling mot akne'
       ),
       new Service(
             title: 'Kemisk peeling mot akne',
@@ -523,62 +499,6 @@ $services = array(
       ),
 );
 
-$headline03 = "03. Förebygg uppkomsten av ny akne";
-
-$products = array(
-      new Service(
-            title: 'Produkter mot akne',
-            duration: null,
-            price: 'Pris från 1495 kr',
-            content: 'För att effektivt bekämpa och förebygga akne är daglig behandling med rätt produkter avgörande. Våra akneprodukter är speciellt utformade för att hålla din hud i balans och förhindra att ny akne uppstår.',
-
-            image_small: 'images/services/200x200/produkter-akne.webp',
-            image_large: 'images/services/200x200/produkter-akne.webp',
-            image_alt: 'Bild av produkter designade för behandling av akne',
-            image_title: 'Effektiva produkter för bekämpning och förebyggande av akne',
-
-            url_label: 'Läs mer om produkter mot akne',
-            url: 'https://dahlskincare.se',
-            url_title: 'Klicka här för att läsa mer om produkter mot akne',
-
-            consultation_url_label: null,
-            consultation_url: null,
-            consultation_url_title: null,
-
-            booking_url_label: null,
-            booking_url: null,
-            booking_url_title: null,
-      )
-);
-
-$headline04 = "04. Reparera post-akne";
-
-$procedures = array(
-      new Service(
-            title: 'Reparera acneärr',
-            duration: '4 behandlingsmetoder',
-            price: null,
-            content: 'Efter aktiv akne kan man uppleva post-akne, vilket innebär ärr i form av gropar i olika former och fläckar i olika färger på huden där aknen tidigare varit. Olika typer av ärr behandlas med olika metoder. Klicka här för att läsa mer om hur du kan reparera din hud och ta hand om post-akne.',
-
-            image_small: 'images/services/200x200/microneedling-aknearr.webp',
-            image_large: 'images/services/200x200/microneedling-aknearr.webp',
-            image_alt: 'Reparera acneärr',
-            image_title: 'Reparera acneärr',
-
-            url_label: 'Läs mer om behandlingar mot akneärr',
-            url: 'behandlingar/aknearr',
-            url_title: 'Klicka här för att läsa mer om våra behandlingar mot akneärr',
-
-            consultation_url_label: null,
-            consultation_url: null,
-            consultation_url_title: null,
-
-            booking_url_label: null,
-            booking_url: null,
-            booking_url_title: null,
-
-      ),
-);
 $articles = array(
       new Article(
             title: 'Varför AcneSpecialisten?!',
