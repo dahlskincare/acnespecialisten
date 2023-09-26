@@ -183,38 +183,38 @@ $type_categories = array(
             )
       ),
       new BasedTypeCategory(
-            title: 'Akne baserat på svårighetsgrad',
-            content: '<p class="p200">Akne kan variera i svårighetsgrad från milda till extremt allvarliga fall. I milda fall av akne är symptomen ofta mindre uttalade och består främst av pormaskar, medan mer allvarliga fall innefattar djupare inflammationer i form av cystor och noduler. Svårighetsgraden påverkar också hur akne påverkar en persons livskvalitet och hur den ska behandlas. Det är viktigt att diagnostisera och behandla akne utifrån dess svårighetsgrad för att säkerställa bästa möjliga behandlingsresultat och förhindra potentiella ärr och bestående skador på huden.</p>',
+            title: 'Mogen hy baserat på svårighetsgrad',
+            content: '<p class="p200">Mogen hy kan variera i svårighetsgrad beroende på tecken på åldrande som torrhet, fina linjer, djupa rynkor, pigmentförändringar och minskad elasticitet. I milda fall kan tecknen på mogen hy vara subtila, som fina linjer och något minskad fasthet. Allvarligare fall kan visa djupa rynkor, betydande torrhet och betydande förlust av hudelasticitet. Svårighetsgraden kan påverka en persons självkänsla och hur de upplever sitt utseende. Det är viktigt att identifiera och vårda mogen hy baserat på dess svårighetsgrad för att säkerställa bästa möjliga hudvård och bevara hudens ungdomliga utseende så länge som möjligt.</p>',
             types: array(
                   new BasedType(
-                        title: 'Mild akne',
-                        subtitle: 'även kallat acne comedonica',
+                        title: 'Mild mogen hy',
+                        subtitle: 'Fina linjer och lätt torrhet',
 
-                        image_url: 'images/problems/102x102/mild-akne.webp',
-                        image_alt: 'Bild av mild akne',
-                        image_title: 'Mild akne exemplifierad',
-
-                        url: null,
-                        url_title: null,
-                  ),
-                  new BasedType(
-                        title: 'Medelsvår akne',
-                        subtitle: 'Även kallat acne papulopustulosa',
-
-                        image_url: 'images/problems/102x102/medelsvar-akne.webp',
-                        image_alt: 'Bild av medelsvår akne',
-                        image_title: 'Medelsvår akne exemplifierad',
+                        image_url: 'images/problems/102x102/mild-mogenhy.webp',
+                        image_alt: 'Bild av mild mogen hy',
+                        image_title: 'Mild mogen hy exemplifierad',
 
                         url: null,
                         url_title: null,
                   ),
                   new BasedType(
-                        title: 'Svår akne',
-                        subtitle: 'Även kallat Acne nodulocystica',
+                        title: 'Medelsvår mogen hy',
+                        subtitle: 'Djupare rynkor och märkbar torrhet',
 
-                        image_url: 'images/problems/102x102/svar-akne.webp',
-                        image_alt: 'Bild av svår akne',
-                        image_title: 'Svår akne exemplifierad',
+                        image_url: 'images/problems/102x102/medelsvar-mogenhy.webp',
+                        image_alt: 'Bild av medelsvår mogen hy',
+                        image_title: 'Medelsvår mogen hy exemplifierad',
+
+                        url: null,
+                        url_title: null,
+                  ),
+                  new BasedType(
+                        title: 'Svår mogen hy',
+                        subtitle: 'Betydande elasticitetsförlust och mycket torr',
+
+                        image_url: 'images/problems/102x102/svar-mogenhy.webp',
+                        image_alt: 'Bild av svår mogen hy',
+                        image_title: 'Svår mogen hy exemplifierad',
 
                         url: null,
                         url_title: null,
@@ -222,225 +222,178 @@ $type_categories = array(
             )
       ),
       new BasedTypeCategory(
-            title: 'Akne baserat på yttre faktorer',
-            content: '<p class="p200">Yttre faktorer kan också påverka uppkomsten av akne. Exempel på dessa är sol, friktion, kosmetika, mediciner och miljöfaktorer. Dessa kan bidra till eller förvärra akne genom att irritera huden, täppa till porer eller påverka hudens talgproduktion.</p>',
+            title: 'Mogen hy baserat på yttre faktorer',
+            content: '<p class="p200">Yttre faktorer kan påverka mogen hys tillstånd och framhäva tecken på åldrande. Exempelvis kan solskador, miljöföroreningar, felaktig hudvård, och andra yttre påverkan bidra till en för tidig åldring av huden. Dessa faktorer kan leda till bland annat pigmentförändringar, förlorad elasticitet, torrhet och djupare rynkor.</p>',
             types: array(
                   new BasedType(
-                        title: 'Mallorca akne',
-                        subtitle: 'även kallat Acne aestivalis',
+                        title: 'Solskadad hy',
+                        subtitle: 'Skador orsakade av UV-strålning',
 
-                        image_url: 'images/problems/102x102/mallorca-akne.webp',
-                        image_alt: 'Bild av Mallorca akne',
-                        image_title: 'Exempel på Mallorca akne',
-
-                        url: null,
-                        url_title: null,
-                  ),
-                  new BasedType(
-                        title: 'Hormonell akne',
-                        subtitle: 'akne orsakad av hormoner',
-
-                        image_url: 'images/problems/102x102/hormonell-akne.webp',
-                        image_alt: 'Bild av hormonell akne',
-                        image_title: 'Exempel på hormonell akne',
+                        image_url: 'images/problems/102x102/solskadad-hy.webp',
+                        image_alt: 'Bild av solskadad hy',
+                        image_title: 'Exempel på solskadad hy',
 
                         url: null,
                         url_title: null,
                   ),
                   new BasedType(
-                        title: 'kosmetika akne',
-                        subtitle: 'Även kallat Acne cosmetica',
+                        title: 'Miljöpåverkad hy',
+                        subtitle: 'Påverkan från föroreningar och toxiner',
 
-                        image_url: 'images/problems/102x102/kosmetika-akne.webp',
-                        image_alt: 'Bild av kosmetika akne',
-                        image_title: 'Exempel på kosmetika akne',
-
-                        url: null,
-                        url_title: null,
-                  ),
-                  new BasedType(
-                        title: 'Akne från pillande',
-                        subtitle: 'Även kallat Acne exoriée ',
-
-                        image_url: 'images/problems/102x102/pill-akne.webp',
-                        image_alt: 'Bild av pill akne',
-                        image_title: 'Exempel på pill akne',
+                        image_url: 'images/problems/102x102/miljopaverkad-hy.webp',
+                        image_alt: 'Bild av miljöpåverkad hy',
+                        image_title: 'Exempel på miljöpåverkad hy',
 
                         url: null,
                         url_title: null,
                   ),
                   new BasedType(
-                        title: 'Friktionsakne',
-                        subtitle: 'Även kallat Acne mechanica',
+                        title: 'Livsstilspåverkad hy',
+                        subtitle: 'Effekter av livsstilsval som kost, stress och sömn',
 
-                        image_url: 'images/problems/102x102/friktions-akne.webp',
-                        image_alt: 'Bild av friktions akne',
-                        image_title: 'Exempel på friktions akne',
-
-                        url: null,
-                        url_title: null,
-                  ),
-                  new BasedType(
-                        title: 'Läkemedelsakne',
-                        subtitle: 'Även kallat Acne medicamentosa',
-
-                        image_url: 'images/problems/102x102/lakemedelsakne.webp',
-                        image_alt: 'Bild av läkemedelsakne',
-                        image_title: 'Exempel på läkemedelsakne',
+                        image_url: 'images/problems/102x102/livsstilspaverkad-hy.webp',
+                        image_alt: 'Bild av livsstilspåverkad hy',
+                        image_title: 'Exempel på livsstilspåverkad hy',
 
                         url: null,
                         url_title: null,
                   ),
-                  new BasedType(
-                        title: 'Kontaktakne',
-                        subtitle: 'Även kallat Acne venenata',
-
-                        image_url: 'images/problems/102x102/kontakt-akne.webp',
-                        image_alt: 'Bild av kontaktakne',
-                        image_title: 'Exempel på kontaktakne',
-
-                        url: null,
-                        url_title: null,
-                  ),
-                  new BasedType(
-                        title: 'Svampakne',
-                        subtitle: 'Även kallat fungal acne',
-
-                        image_url: 'images/problems/102x102/svamp-akne.webp',
-                        image_alt: 'Bild av svampakne',
-                        image_title: 'Exempel på svampakne',
-
-                        url: null,
-                        url_title: null,
-                  )
             )
       ),
       new BasedTypeCategory(
-            title: 'Akne baserat på område',
-            content: '<p class="p200">Akne kan uppträda på olika områden på kroppen. Ansiktet är det vanligaste området, men akne kan också förekomma på bröst, rygg, axlar och andra delar av kroppen. Placeringen av akne kan ge en indikation på dess orsak, som hormonella förändringar, irritation från kläder eller yttre faktorer som sol och friktion.</p>',
+            title: 'Mogen hy baserat på område',
+            content: '<p class="p200">Mogen hy kan uppvisa tecken på åldrande på olika områden av kroppen. Ansiktet är där de mest framträdande tecknen på mogen hy oftast observeras, som fina linjer, rynkor och åldersfläckar. Men tecken på mogen hy kan även observeras på halsen, dekolletaget och händerna. Dessa områden kan visa åldersrelaterade förändringar på grund av solskador, genetik och andra yttre faktorer.</p>',
             types: array(
                   new BasedType(
-                        title: 'Akne i ansiktet',
-                        subtitle: 'Även kallat Acne faciei',
+                        title: 'Mogen hy i ansiktet',
+                        subtitle: 'De vanligaste tecknen på åldrande',
 
-                        image_url: 'images/problems/102x102/akne-ansikte.webp',
-                        image_alt: 'Bild av akne i ansiktet',
-                        image_title: 'Exempel på akne i ansiktet',
-
-                        url: null,
-                        url_title: null,
-                  ),
-                  new BasedType(
-                        title: 'Akne på ryggen',
-                        subtitle: 'Även kallat Acne dorsalis',
-
-                        image_url: 'images/problems/102x102/akne-rygg.webp',
-                        image_alt: 'Bild av akne på ryggen',
-                        image_title: 'Exempel på akne på ryggen',
+                        image_url: 'images/problems/102x102/mogen-hy-ansikte.webp',
+                        image_alt: 'Bild av mogen hy i ansiktet',
+                        image_title: 'Exempel på mogen hy i ansiktet',
 
                         url: null,
                         url_title: null,
                   ),
                   new BasedType(
-                        title: 'Akne på bröstet',
-                        subtitle: 'Även kallat Acne pectoralis',
+                        title: 'Mogen hy på halsen',
+                        subtitle: 'Visar ofta tidiga tecken på åldrande',
 
-                        image_url: 'images/problems/102x102/akne-brost.webp',
-                        image_alt: 'Bild av akne på bröstet',
-                        image_title: 'Exempel på akne på bröstet',
+                        image_url: 'images/problems/102x102/mogen-hy-hals.webp',
+                        image_alt: 'Bild av mogen hy på halsen',
+                        image_title: 'Exempel på mogen hy på halsen',
 
                         url: null,
                         url_title: null,
                   ),
+                  new BasedType(
+                        title: 'Mogen hy på händerna',
+                        subtitle: 'En ofta förbisedd indikator på åldrande',
 
+                        image_url: 'images/problems/102x102/mogen-hy-hand.webp',
+                        image_alt: 'Bild av mogen hy på händerna',
+                        image_title: 'Exempel på mogen hy på händerna',
+
+                        url: null,
+                        url_title: null,
+                  ),
             )
-      )
-
+      ),
 );
 
-$types_url = '<a href="problem/akne/typer" title="Lär dig mer om olika typer av akne och deras behandling" class="mt-xl button b200 outline expand l10n is-hidden-tablet">Läs mer om olika typer av akne</a>
-              <a href="problem/akne/typer" title="Lär dig mer om olika typer av akne och deras behandling" class="mt-xl button b200 outline l10n is-hidden-mobile">Läs mer om olika typer av akne</a>';
-
-$symptoms_title = 'Akne symptom';
+$symptoms_title = 'Mogen hy symptom';
 
 $symptoms = array(
       new Symptom(
-            name: 'Öppna komedoner',
-            aka: 'Kända som pormaskar',
-            content: 'Pormaskar (öppna komedoner) är små, mörka prickar som uppstår när en por täpps igen av talg (hudens naturliga olja) och döda hudceller. De är ofta svarta eller bruna på grund av oxidation, som inträffar när melanin (hudens pigment) kommer i kontakt med luft. Pormaskar kan vara platta eller lätt upphöjda och är vanligt förekommande på näsan, kinderna, pannan och hakan.',
+            name: 'Rynkor och fina linjer',
+            aka: 'Tecken på åldrande',
+            content: 'Med tiden, på grund av naturligt åldrande och yttre faktorer som UV-exponering, förlorar huden sin elasticitet och fukt, vilket resulterar i uppkomsten av rynkor och fina linjer.',
+            
+            url_label: null,
+            url: null,
+            url_title: null,
 
-            url_label: 'Läs mer om öppna komedoner',
-            url: 'problem/akne/typer/post-inflammatory-hyperpigmentaion',
-            url_title: 'Läs mer om öppna komedoner (pormaskar)',
-
-            image: 'images/symptoms/102x102/komedoner-oppna.webp',
-            image_alt: 'Bild av öppna komedoner (pormaskar)',
-            image_title: 'Öppna komedoner (pormaskar)'
+            image: 'images/symptoms/102x102/rynkor.webp',
+            image_alt: 'Bild av rynkor och fina linjer',
+            image_title: 'Rynkor och fina linjer'
       ),
       new Symptom(
-            name: 'Stängda komedoner',
-            aka: 'Kända som "whiteheads"',
-            content: 'Whiteheads (slutna komedoner) är små, vita eller hudfärgade utbuktningar som uppstår när en por täpps till av talg och döda hudceller under hudytan. De är täckta av ett tunt lager hud, vilket förhindrar oxidation och därmed behåller sin ljusa färg. Whiteheads kan vara platta eller lätt upphöjda och är vanligt förekommande på pannan, kinderna och hakan.',
+            name: 'Förlorad hudelasticitet',
+            aka: 'Hudens slapphet',
+            content: 'När huden förlorar sin elasticitet blir den mindre stram och fast. Detta leder till säckighet och ett äldre utseende.',
+            
+            url_label: null,
+            url: null,
+            url_title: null,
 
-            url_label: 'Läs mer om stängda komedoner',
-            url: 'problem/akne/typer/atrophic-icepick-scars',
-            url_title: 'Läs mer om stängda komedoner (whiteheads)',
-
-            image: 'images/symptoms/102x102/komedoner-stangda.webp',
-            image_alt: 'Bild av stängda komedoner (whiteheads)',
-            image_title: 'Stängda komedoner (whiteheads)'
+            image: 'images/symptoms/102x102/saggy-skin.webp',
+            image_alt: 'Bild av förlorad hudelasticitet',
+            image_title: 'Förlorad hudelasticitet'
       ),
       new Symptom(
-            name: 'Papler',
-            aka: 'Kända som röda finnar',
-            content: 'Papuler är små, fasta, röda och inflammerade blemmor som uppstår när en hårsäck blir infekterad av bakterier, oftast Propionibacterium acnes. De är vanligtvis mindre än 5 mm i diameter och kan vara känsliga vid beröring. Papuler är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.',
+            name: 'Pigmentförändringar',
+            aka: 'Åldersfläckar och ojämn hudton',
+            content: 'Ökad melaninproduktion kan leda till pigmentförändringar som åldersfläckar och ojämn hudton. Dessa mörka fläckar blir mer framträdande med åldern.',
+            
+            url_label: null,
+            url: null,
+            url_title: null,
 
-            url_label: 'Läs mer om papler',
-            url: 'problem/akne/typer/atrophic-boxcar-scars',
-            url_title: 'Läs mer om papler (röda finnar)',
-
-            image: 'images/symptoms/102x102/papler.webp',
-            image_alt: 'Bild av papler (röda finnar)',
-            image_title: 'Papler (röda finnar)'
+            image: 'images/symptoms/102x102/pigmentation.webp',
+            image_alt: 'Bild av pigmentförändringar',
+            image_title: 'Pigmentförändringar'
       ),
       new Symptom(
-            name: 'Pustler',
-            aka: 'Kända som gula finnar',
-            content: 'Pustuler är röda och inflammerade blemmor som innehåller var (en blandning av döda bakterier, vita blodkroppar och döda hudceller). De ser ut som papuler men har en vit eller gul prick i mitten. Pustuler kan vara smärtsamma och är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.',
+            name: 'Torrt och skör',
+            aka: 'Minskad fukt i huden',
+            content: 'Med tiden minskar hudens förmåga att behålla fukt, vilket gör den mer benägen att bli torr, skör och mindre smidig.',
+            
+            url_label: null,
+            url: null,
+            url_title: null,
 
-            url_label: 'Läs mer om pustler',
-            url: 'problem/akne/typer/atrophic-rolling-scars',
-            url_title: 'Läs mer om pustler (gula finnar)',
-
-            image: 'images/symptoms/102x102/pustler.webp',
-            image_alt: 'Bild av pustler (gula finnar)',
-            image_title: 'Pustler (gula finnar)'
+            image: 'images/symptoms/102x102/dry-skin.webp',
+            image_alt: 'Bild av torr och skör hud',
+            image_title: 'Torrt och skört'
       ),
       new Symptom(
-            name: 'Noduler',
-            aka: 'Kända som innåtfinnar',
-            content: 'Noduler är större, djupare och ofta smärtsamma inflammerade blemmor som uppstår när en hårsäck blir kraftigt infekterad och inflammationen sprider sig till det omgivande vävnaden. De är vanligtvis större än 5 mm i diameter och kan vara fasta och ömma vid beröring. Noduler är vanligt förekommande på ansiktet, nacken, bröstet, ryggen och ibland även på överarmarna och skinkorna.',
+            name: 'Tunnare hud',
+            aka: 'Minskad hudtjocklek',
+            content: 'Med åldern kan huden bli tunnare och mer genomskinlig, vilket kan göra den känsligare och mer benägen för skador.',
+            
+            url_label: null,
+            url: null,
+            url_title: null,
 
-            url_label: 'Läs mer om noduler',
-            url: 'problem/akne/typer/hypertrophic-keloid',
-            url_title: 'Läs mer om noduler (innåtfinnar)',
-
-            image: 'images/symptoms/102x102/noduler.webp',
-            image_alt: 'Bild av noduler (innåtfinnar)',
-            image_title: 'Noduler (innåtfinnar)'
+            image: 'images/symptoms/102x102/thin-skin.webp',
+            image_alt: 'Bild av tunnare hud',
+            image_title: 'Tunnare hud'
       ),
       new Symptom(
-            name: 'Cystor',
-            aka: 'Kända som bölder',
-            content: 'Cystor är stora, inflammerade och smärtsamma blemmor som är fyllda med var och bildas när en hårsäck blir mycket infekterad och inflammationen sprider sig djupt in i huden. De kan vara runda och mjuka eller fasta och ömma vid beröring. Cystor kan vara större än 5 mm i diameter och är vanligt förekommande på ansiktet, nacken, bröstet och ryggen. Cystisk akne kan leda till ärrbildning och kräver ofta professionell behandling.',
+            name: 'Minskad kollagenproduktion',
+            aka: 'Hudens stödstruktur försämras',
+            content: 'Kollagen är ett viktigt protein som ger huden dess styrka och elasticitet. Med åldern minskar produktionen, vilket kan leda till slapp hud och rynkor.',
+            
+            url_label: null,
+            url: null,
+            url_title: null,
 
-            url_label: 'Läs mer om cystor',
-            url: 'problem/akne/typer/hypertrophic-keloid',
-            url_title: 'Läs mer om cystor (bölder)',
+            image: 'images/symptoms/102x102/low-collagen.webp',
+            image_alt: 'Bild av minskad kollagenproduktion',
+            image_title: 'Minskad kollagenproduktion'
+      ),
+      new Symptom(
+            name: 'Förlust av fettvävnad',
+            aka: 'Minskad fyllighet i ansiktet',
+            content: 'Med tiden kan fettvävnaden i ansiktet minskas eller omfördelas, vilket kan resultera i ihåliga kinder, skarpa käklinjer eller andra förändringar i ansiktets konturer.',
+            
+            url_label: null,
+            url: null,
+            url_title: null,
 
-            image: 'images/symptoms/102x102/cystor.webp',
-            image_alt: 'Bild av cystor (bölder)',
-            image_title: 'Cystor (bölder)'
+            image: 'images/symptoms/102x102/fat-loss.webp',
+            image_alt: 'Bild av förlust av fettvävnad',
+            image_title: 'Förlust av fettvävnad'
       ),
 );
 
