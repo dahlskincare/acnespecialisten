@@ -421,20 +421,56 @@ $review_url_title = "AcneSpecialisten Omdömen";
 $faq_categories = array(
       'Generellt om akne' => array(
             new Question(
-                  title: 'Hur blir jag av med min akne snabbt?',
-                  text: '<p class="p200">Att bli av med akne snabbt är en utmaning, eftersom det inte finns någon quickfix när det gäller akne. Effektiv behandling kräver att du tar hand om din hud genom att använda rätt behandlingar och produkter som passar din specifika hudtyp och akne. För att få en skräddarsydd behandlingsplan som hjälper dig att bli av med aknen så snabbt som möjligt, rekommenderar vi att du bokar en kostnadsfri hudkonsultation hos oss. Under konsultationen kommer vi att analysera din hud och hjälpa dig att utforma en anpassad behandlingsrutin som ger dig de bästa förutsättningarna för att snabbt och effektivt behandla din akne.</p>'
+                title: 'Vad är en hudförändring och varför uppstår den?',
+                text: '<p class="p200">En hudförändring refererar till alla förändringar eller oregelbundenheter som uppträder på huden, vilka kan vara tillfälliga eller permanenta. De kan uppstå av en mängd olika skäl, inklusive genetik, exponering för sol, ålder, hormonella förändringar, skador eller infektioner.</p>'
+            ),
+            new Question(
+                title: 'Hur skiljer sig olika typer av hudförändringar åt?',
+                text: '<p class="p200">Det finns en mängd olika typer av hudförändringar, inklusive (men inte begränsat till) födelsemärken, leverfläckar, vårtor, fibromer, hemangiom och hudutväxter. De skiljer sig åt baserat på deras utseende, orsak, plats på kroppen, och om de är godartade eller maligna.</p>'
+            ),
+            new Question(
+                title: 'Är alla hudförändringar farliga eller skadliga?',
+                text: '<p class="p200">Nej, de flesta hudförändringar är ofarliga och godartade. Men det är viktigt att känna igen tecknen på potentiellt farliga hudförändringar, särskilt de som kan indikera hudcancer.</p>'
+            ),
+            new Question(
+                title: 'Hur kan jag skilja mellan en ofarlig och en potentiellt farlig hudförändring?',
+                text: '<p class="p200">Enkel regel som används för att identifiera potentiellt farliga hudförändringar är ABCDE-regeln: Asymmetry (Asymmetri), Border (Oregelbunden kant), Color (Flerfärgad eller onormal färg), Diameter (Större än 6mm) och Evolving (Förändras över tid). Om en hudförändring uppvisar något av dessa tecken bör man konsultera en hudläkare.</p>'
+            ),
+            new Question(
+                title: 'Är vissa personer mer benägna att utveckla hudförändringar än andra?',
+                text: '<p class="p200">Ja, genetik spelar en roll, och de med en familjehistoria av vissa hudförändringar kan vara mer benägna att utveckla dem. Exponering för sol, hudtyp, ålder och andra faktorer kan också påverka sannolikheten.</p>'
+            ),
+            new Question(
+                title: 'Kan livsstilsval som kost, rökning eller solning påverka risken för hudförändringar?',
+                text: '<p class="p200">Absolut. Överdriven solning utan adekvat solskydd kan leda till solskador och öka risken för hudförändringar. Rökning kan också påverka hudens hälsa negativt. Vissa studier antyder att en balanserad kost kan bidra till att upprätthålla en frisk hud.</p>'
+            ),
+            new Question(
+                title: 'Hur kan jag förebygga uppkomsten av hudförändringar?',
+                text: '<p class="p200">Några grundläggande åtgärder inkluderar att använda solskydd regelbundet, undvika överdriven solning, ha på sig skyddande klädsel under intensiv sol, inte röka, äta en balanserad kost, och genomgå regelbundna hudkontroller.</p>'
             ),
       ),
       'Behandling mot akne' => array(
             new Question(
-                  title: 'Hur många behandlingar behövs?',
-                  text: '<p class="p200">Antalet behandlingar som behövs varierar från person till person och beror på flera faktorer, som din hudtyp, svårighetsgraden av din akne och din respons på behandlingen. Vanligtvis kan du se en förbättring efter 1 till 3 veckors regelbunden behandling.</p>'
+                title: 'Är det smärtsamt att ta bort hudförändringar?',
+                text: '<p class="p200">Tack vare CryoPen kan vi med kryoterapi, vilket är en metod som använder kyla för att frysa och eliminera hudförändringar. Under behandlingen kan vissa individer uppleva en stickande känsla eller ett kortvarigt obehag när förändringen fryses. Storleken och placeringen av hudförändringen kan påverka obehagskänslan. Efter behandlingen kan det området uppvisa tecken på rodnad, svullnad eller bli lite ömt, men detta brukar vara övergående. Generellt sett anses CryoPen vara en av de mildare och mindre smärtsamma metoderna för att ta bort hudförändringar.</p>'
+            ),
+            new Question(
+                title: 'Hur lång tid tar det att återhämta sig efter borttagning av en hudförändring?',
+                text: '<p class="p200">Återhämtningstiden varierar beroende på behandlingsmetoden, vid behandling med CryoPen varierar beroende på storleken och placeringen av hudförändringen som har behandlats. Generellt sett, efter en CryoPen-behandling, kan området bli rött och svullet i början, men detta minskar vanligtvis inom några timmar till ett par dagar. Skorpbildning kan också uppstå, vilken naturligt släpper efter några dagar upp till en vecka, beroende på behandlingsområdet. Det är viktigt att följa eftervårdanvisningarna för att minimera risken för ärrbildning eller infektion.</p>'
+            ),
+            new Question(
+                title: 'Vilka alternativ finns till kirurgisk borttagning av hudförändringar?',
+                text: '<p class="p200">Det finns flera icke-kirurgiska alternativ för att ta bort hudförändringar. Ett populärt och effektivt alternativ är CryoPen, som använder kryoterapi för att frysa och eliminera hudförändringar.</p>'
+            ),
+            new Question(
+                title: 'Kan hudförändringar komma tillbaka efter behandling?',
+                text: '<p class="p200">Möjligheten finns att hudförändringar kan komma tillbaka även efter behandling. När vi tar bort en hudförändring adresserar vi den synliga manifestationen, men vi kanske inte alltid behandlar den underliggande orsaken som ledde till förändringen från första början. Således, om den ursprungliga utlösande faktorn inte har behandlats eller motverkats, kan nya hudförändringar potentiellt uppstå.</p>'
             ),
       ),
 );
 
 $faq_url_label = "Läs fler frågor & svar";
-$faq_url_title = "läs flera frågor relaterat till akne";
+$faq_url_title = "läs flera frågor relaterat till hudförändringar";
 
 $skin_guide_articles = array(
       new SkinGuideArticle(
@@ -486,71 +522,42 @@ $skin_guide_articles = array(
 );
 
 $skinguide_url_label = "Läs fler guider";
-$skinguide_url_title = "Läs fler guider om akne";
+$skinguide_url_title = "Läs fler guider om hudförändringar";
 
 $specialists = array(
       new Specialist(
-            name: 'Cazzandra Lindberg',
-            title: 'Hudterapeut sedan 2015',
-            image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
-            image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i aknebehandling',
-            image_title: 'Cazzandra Lindberg - Expert på aknebehandling'
+          name: 'Cazzandra Lindberg',
+          title: 'Hudterapeut sedan 2015',
+          image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
+          image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i behandling av hudförändringar',
+          image_title: 'Cazzandra Lindberg - Expert på behandling av hudförändringar'
       ),
       new Specialist(
-            name: 'Veronika Benedik',
-            title: 'Hudterapeut sedan 1999',
-            image: 'images/specialists/312x312/hudterapeut-veronika.webp',
-            image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på akne',
-            image_title: 'Veronika Benedik - Specialist inom aknevård'
+          name: 'Veronika Benedik',
+          title: 'Hudterapeut sedan 1999',
+          image: 'images/specialists/312x312/hudterapeut-veronika.webp',
+          image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på hudförändringar',
+          image_title: 'Veronika Benedik - Specialist inom hudförändringsvård'
       ),
       new Specialist(
-            name: 'Amira Maqboul',
-            title: 'Hudterapeut sedan 2017',
-            image: 'images/specialists/312x312/hudterapeut-amira.webp',
-            image_alt: 'Amira Maqboul, hudterapeut med kunskap inom aknehantering',
-            image_title: 'Amira Maqboul - Hudterapeut specialiserad på akne'
+          name: 'Amira Maqboul',
+          title: 'Hudterapeut sedan 2017',
+          image: 'images/specialists/312x312/hudterapeut-amira.webp',
+          image_alt: 'Amira Maqboul, hudterapeut med kunskap inom behandling av hudförändringar',
+          image_title: 'Amira Maqboul - Hudterapeut specialiserad på hudförändringar'
       ),
       new Specialist(
-            name: 'Vilma Libom',
-            title: 'Hudterapeut sedan 2019',
-            image: 'images/specialists/312x312/hudterapeut-vilma.webp',
-            image_alt: 'Vilma Libom, hudterapeut med inriktning mot aknebehandling',
-            image_title: 'Vilma Libom - Expert inom aknebehandling'
-      )
+          name: 'Vilma Libom',
+          title: 'Hudterapeut sedan 2019',
+          image: 'images/specialists/312x312/hudterapeut-vilma.webp',
+          image_alt: 'Vilma Libom, hudterapeut med inriktning mot behandling av hudförändringar',
+          image_title: 'Vilma Libom - Expert inom behandling av hudförändringar'
+      ),
 );
 
 $specialist_url_label = "Se alla specialister";
-$specialist_url_title = "Akne Specialiserade Hudterapeuter";
+$specialist_url_title = "Hudterapeuter specialisterade på hudförändringar";
 
-$related_problems = array(
-      new RelatedProblem(
-            name: 'Acneärr',
-            aka: 'gropar & Fläckar',
-            image: 'images/problems/102x102/acnearr.webp',
-            image_alt: 'Bild som visar acneärr, en typ av hudproblem som ofta följer efter akne',
-            image_title: 'Acneärr - en vanlig följd av akne',
-            url: '/problem/acnearr',
-            url_title: 'Acneärr'
-      ),
-      new RelatedProblem(
-            name: 'Rosacea',
-            aka: 'ansiktsrodnad',
-            image: 'images/problems/200x200/rosacea.webp',
-            image_alt: 'Bild som illustrerar rosacea, ett hudtillstånd som kan förväxlas med akne',
-            image_title: 'Rosacea - en hudsjukdom som ofta förväxlas med akne',
-            url: 'problem/rosacea',
-            url_title: 'Rosacea'
-      ),
-      new RelatedProblem(
-            name: 'Perioral dermatit',
-            aka: 'akne runt munnen',
-            image: 'images/problems/200x200/perioral-dermatit.webp',
-            image_alt: 'Bild som skildrar perioral dermatit, en hudåkomma som kan förväxlas med akne',
-            image_title: 'Perioral dermatit (acne runt munnen) ett hudproblem liknande akne',
-            url: 'perioral-dermatit',
-            url_title: 'Perioral dermatit',
-      ),
-);
 $brands = array(
       new Brand(
             label: 'Powerlite',
@@ -619,7 +626,7 @@ $brands = array(
 );
 
 $brands_url_label = "Se alla varumärken";
-$brands_url_title = "Varumärken för Aknebehandling";
+$brands_url_title = "Varumärken för behandling av hudförändringar";
 
 ?>
 
