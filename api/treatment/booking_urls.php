@@ -15,9 +15,13 @@ $password = $_ENV['DB_PASSWORD'];
 $dbname = $_ENV['DB_NAME'];
 
 $where = array();
-if (array_key_exists('serviceId', $_GET)) {
-    $serviceId = $_GET['serviceId'];
-    $where[] = "service_id = '$serviceId'";
+if (array_key_exists('categoryId', $_GET)) {
+    $categoryId = $_GET['categoryId'];
+    $where[] = "c_s.category_id = '$categoryId'";
+}
+if (array_key_exists('problemAreaId', $_GET)) {
+    $problemAreaId = $_GET['problemAreaId'];
+    $where[] = "pa_s.problem_area_id = '$problemAreaId'";
 }
 if (empty($where)) {
     $where = "1";
@@ -25,14 +29,23 @@ if (empty($where)) {
     $where = implode(' AND ', $where);
 }
 
-$query = "SELECT service_id, procedures, price, addon_id url_ostermalm, url_sodermalm, url_sundbyberg FROM $dbname.treatment_booking_url WHERE $where ORDER BY $dbname.treatment_booking_url.rank LIMIT 10000";
 
 $conn = mysqli_connect($servername, $username, $password);
 if (!$conn) {
     die("DB connection failed: " . mysqli_connect_error());
 }
 mysqli_set_charset($conn, 'utf8');
-
+mysqli_select_db($conn, $dbname);
+$query = "
+SELECT DISTINCT bu.*, s.name_en, s.description_en
+FROM treatment_booking_url AS bu
+INNER JOIN treatment_service s ON bu.service_id = s.id
+LEFT JOIN treatment_problem_area_service_ix pa_s ON s.id = pa_s.service_id
+LEFT JOIN treatment_category_service_ix c_s ON s.id = c_s.service_id
+WHERE $where
+ORDER BY bu.rank ASC
+LIMIT 10000;
+";
 $result = mysqli_query($conn, $query);
 if ($result == false) {
     echo mysqli_error($conn);
@@ -44,6 +57,5 @@ if ($result == false) {
     foreach ($result as $row) {
         $output[] = $row;
     }
-
     echo json_encode($output, JSON_UNESCAPED_SLASHES | JSON_NUMERIC_CHECK | JSON_UNESCAPED_UNICODE);
 }

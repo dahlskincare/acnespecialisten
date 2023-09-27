@@ -9,10 +9,12 @@ header("Content-Type: application/json; charset=UTF-8");
 $language = array_key_exists('HTTP_ACCEPT_LANGUAGE', $_SERVER) ? $_SERVER['HTTP_ACCEPT_LANGUAGE'] : 'en';
 $language = substr($language, 0, 2);
 
+
 $servername = $_ENV['DB_URL'];
 $username = $_ENV['DB_USER'];
 $password = $_ENV['DB_PASSWORD'];
 $dbname = $_ENV['DB_NAME'];
+
 
 $where = array();
 if (array_key_exists('flowId', $_GET)) {
@@ -25,7 +27,7 @@ if (empty($where)) {
     $where = implode(' AND ', $where);
 }
 
-$query = "SELECT id, image_url, name_$language AS name FROM $dbname.treatment_brand WHERE $where ORDER BY $dbname.treatment_brand.rank LIMIT 1000";
+$query = "SELECT id, category_type, image_url, title_$language AS title, subtitle_$language AS subtitle FROM $dbname.treatment_service_category WHERE $where ORDER BY $dbname.treatment_service_category.rank ASC LIMIT 10000";
 
 $conn = mysqli_connect($servername, $username, $password);
 if (!$conn) {
@@ -35,7 +37,6 @@ mysqli_set_charset($conn, 'utf8');
 
 $result = mysqli_query($conn, $query);
 if ($result == false) {
-    echo mysqli_error($conn);
     http_response_code(500);
 } else {
 
