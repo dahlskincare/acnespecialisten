@@ -5,37 +5,37 @@ include_once('../widgets/symptom-card/symptom.php');
 include_once('../widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Allt om Akne - Orsaker, Behandling och Förebyggande | Acnespecialisten';
-$seo_description = 'Lär dig allt om akne, från dess orsaker till hur man behandlar och förebygger det. Skräddarsydda lösningar och expertis från Acnespecialisten.';
-$seo_keywords = 'akne, aknebehandling, orsaker till akne, förebygga akne, ta bort akne, vuxenakne, tonårsakne, akneärr, finnar, pormaskar';
+$seo_title = 'Allt om Bristningar - Orsaker, Behandling och Förebyggande | Bristningsspecialisten';
+$seo_description = 'Lär dig allt om bristningar, från dess orsaker till hur man behandlar och förebygger dem. Skräddarsydda lösningar och expertis från Bristningsspecialisten.';
+$seo_keywords = 'bristningar, behandling av bristningar, orsaker till bristningar, förebygga bristningar, ta bort bristningar, graviditetsbristningar, tillväxtbristningar, hudärr, hudskador';
 
-// här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
+// här lägger du bild som du vill skall synas när du länkar i socialamedier eller sms
 
-$seo_image = 'images/treatments/large/acne-scars.jpg';
+$seo_image = 'images/treatments/large/bristningar.jpg';
 
-$title = 'Akne';
+$title = 'Bristningar';
 
-$image_small = 'images/problems/424x324/akne.webp';
-$image_large = 'images/problems/424x456/akne.webp';
-$image_title = 'Visar en hud med akne';
-$image_alt = 'Bild som illustrerar hur akne ser ut på huden';
-$description = 'Här förklarar vi vad som kännetecknar akne, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av akne, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';
+$image_small = 'images/problems/424x324/bristningar.webp';
+$image_large = 'images/problems/424x456/bristningar.webp';
+$image_title = 'Visar en hud med bristningar';
+$image_alt = 'Bild som illustrerar hur bristningar ser ut på huden';
+$description = 'Här förklarar vi vad som kännetecknar bristningar, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av bristningar, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';
 
 $akas = [
       new Link(
             label: 'Finnar',
             url: 'problem/finnar',
-            title: 'Allt du behöver veta om finnar och deras behandling'
+            title: null,
       ),
       new Link(
             label: 'Vuxenakne',
             url: 'problem/vuxenakne',
-            title: 'Utforska orsaker, symptom och behandlingar av vuxenakne'
+            title: null,
       ),
       new Link(
             label: 'Tonårsakne',
             url: 'problem/tonarsakne',
-            title: 'Komplett guide om tonårsakne: orsaker, förebyggande och lösningar'
+            title: null,
       ),
 ];
 
