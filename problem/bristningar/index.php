@@ -115,7 +115,7 @@ $trivias = array(
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din aknetyp och skapar en individuell behandlingsplan.',
+            content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera omfattningen och typen av dina bristningar och skapar en individuell behandlingsplan.',
 
             url_label: 'Få gratis konsultation',
             url: 'hudkonsultation',
@@ -123,57 +123,57 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika aknetyp, så att du snabbt och säkert blir av med problemet.',
+            content: 'Vi utför skonsamma och effektiva bristningsbehandlingar anpassade för din specifika hud och bristningstyp, så att du snabbt och säkert kan minska synligheten av dina bristningar.',
 
-            url_label: 'Se aknebehandlingar',
-            url: 'behandlingar/akne',
-            url_title: 'Utforska våra skräddarsydda aknebehandlingar'
+            url_label: 'Se bristningsbehandlingar',
+            url: 'behandlingar/bristningar',
+            url_title: 'Utforska våra skräddarsydda bristningsbehandlingar'
       ),
 );
 
-$types_title = 'Olika typer av akne';
+$types_title = 'Olika typer av bristningar';
 
 $type_categories = array(
       new BasedTypeCategory(
-            title: 'Akne baserat på ålder',
-            content: '<p class="p200">Akne är en hudåkomma som kan drabba både ungdomar och vuxna, även om det är vanligast under tonåren. Tonårsakne uppstår ofta på grund av hormonella förändringar under puberteten. Vuxenakne förekommer också, och det kan bero på en rad olika faktorer. Hos vuxna kan akne orsakas av faktorer som stress, hormonobalans och genetik. Oavsett ålder är det viktigt att förstå att akne kan påverka människor i alla livsstadier.</p>',
-            types: array(
-                  new BasedType(
-                        title: 'Vuxenakne',
-                        subtitle: 'Även kallat acne tarda',
+          title: 'Bristningar baserat på ålder',
+          content: '<p class="p200">Bristningar, kända som striae, kan uppträda i olika åldrar. Dessa ärrliknande linjer uppstår ofta som ett resultat av snabb tillväxt, hormonella förändringar eller snabba förändringar i kroppsvikten. Under tonåren kan bristningar uppstå på grund av tillväxtspurten som ofta följer med puberteten. I vuxenålder kan de uppstå till följd av bland annat snabba viktändringar. Äldre vuxna kan också drabbas, särskilt i samband med hudens förlorade elasticitet över tiden.</p>',
+          types: array(
+              new BasedType(
+                  title: 'Bristningar under tonåren',
+                  subtitle: 'Vanligt under tillväxtspurten',
 
-                        image_url: 'images/problems/102x102/vuxenakne.webp',
-                        image_alt: 'Bild av vuxenakne',
-                        image_title: 'Akne hos vuxna',
+                  image_url: 'images/problems/102x102/teen-stretchmarks.webp',
+                  image_alt: 'Bild av bristningar hos tonåringar',
+                  image_title: 'Bristningar under tonåren',
 
-                        url: 'problem/akne/typer/vuxenakne',
-                        url_title: 'Utforska information om vuxenakne'
-                  ),
-                  new BasedType(
-                        title: 'Tonårsakne',
-                        subtitle: 'Även kallat acne vulgaris',
+                  url: 'problem/bristningar/typer/tonår',
+                  url_title: 'Utforska information om bristningar under tonåren'
+              ),
+              new BasedType(
+                  title: 'Bristningar i vuxenålder',
+                  subtitle: 'Kan kopplas till viktändringar eller hormonförändringar',
 
-                        image_url: 'images/problems/102x102/tonarsakne.webp',
-                        image_alt: 'Bild av tonårsakne',
-                        image_title: 'Akne hos tonåringar',
+                  image_url: 'images/problems/102x102/adult-stretchmarks.webp',
+                  image_alt: 'Bild av bristningar hos vuxna',
+                  image_title: 'Bristningar i vuxenålder',
 
-                        url: 'problem/akne/typer/tonårsakne',
-                        url_title: 'Utforska information om tonårsakne'
-                  ),
-                  new BasedType(
-                        title: 'Barnakne',
-                        subtitle: 'Även kallat acne neonatorum',
+                  url: 'problem/bristningar/typer/vuxenålder',
+                  url_title: 'Utforska information om bristningar i vuxenålder'
+              ),
+              new BasedType(
+                  title: 'Bristningar hos äldre vuxna',
+                  subtitle: 'På grund av förlorad hudelasticitet',
 
-                        image_url: 'images/problems/102x102/barnakne.webp',
-                        image_alt: 'Bild av barnakne',
-                        image_title: 'Akne hos barn',
+                  image_url: 'images/problems/102x102/elderly-stretchmarks.webp',
+                  image_alt: 'Bild av bristningar hos äldre vuxna',
+                  image_title: 'Bristningar hos äldre vuxna',
 
-                        url: 'problem/akne/typer/barnakne',
-                        url_title: 'Utforska information om barnakne'
-                  ),
-
-            )
+                  url: 'problem/bristningar/typer/äldre',
+                  url_title: 'Utforska information om bristningar hos äldre vuxna'
+              ),
+          )
       ),
+
       new BasedTypeCategory(
             title: 'Akne baserat på svårighetsgrad',
             content: '<p class="p200">Akne kan variera i svårighetsgrad från milda till extremt allvarliga fall. I milda fall av akne är symptomen ofta mindre uttalade och består främst av pormaskar, medan mer allvarliga fall innefattar djupare inflammationer i form av cystor och noduler. Svårighetsgraden påverkar också hur akne påverkar en persons livskvalitet och hur den ska behandlas. Det är viktigt att diagnostisera och behandla akne utifrån dess svårighetsgrad för att säkerställa bästa möjliga behandlingsresultat och förhindra potentiella ärr och bestående skador på huden.</p>',
