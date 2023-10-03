@@ -142,7 +142,7 @@ $type_categories = array(
                   title: 'Bristningar under tonåren',
                   subtitle: 'Vanligt under tillväxtspurten',
 
-                  image_url: 'images/problems/102x102/teen-stretchmarks.webp',
+                  image_url: 'images/problems/102x102/bristningar-tonaringar.webp',
                   image_alt: 'Bild av bristningar hos tonåringar',
                   image_title: 'Bristningar under tonåren',
 
@@ -153,7 +153,7 @@ $type_categories = array(
                   title: 'Bristningar i vuxenålder',
                   subtitle: 'Kan kopplas till viktändringar eller hormonförändringar',
 
-                  image_url: 'images/problems/102x102/adult-stretchmarks.webp',
+                  image_url: 'images/problems/102x102/bristningar-vuxna.webp',
                   image_alt: 'Bild av bristningar hos vuxna',
                   image_title: 'Bristningar i vuxenålder',
 
@@ -164,7 +164,7 @@ $type_categories = array(
                   title: 'Bristningar hos äldre vuxna',
                   subtitle: 'På grund av förlorad hudelasticitet',
 
-                  image_url: 'images/problems/102x102/elderly-stretchmarks.webp',
+                  image_url: 'images/problems/102x102/bristningar-aldre.webp',
                   image_alt: 'Bild av bristningar hos äldre vuxna',
                   image_title: 'Bristningar hos äldre vuxna',
 
@@ -175,55 +175,45 @@ $type_categories = array(
       ),
 
       new BasedTypeCategory(
-            title: 'Akne baserat på svårighetsgrad',
-            content: '<p class="p200">Akne kan variera i svårighetsgrad från milda till extremt allvarliga fall. I milda fall av akne är symptomen ofta mindre uttalade och består främst av pormaskar, medan mer allvarliga fall innefattar djupare inflammationer i form av cystor och noduler. Svårighetsgraden påverkar också hur akne påverkar en persons livskvalitet och hur den ska behandlas. Det är viktigt att diagnostisera och behandla akne utifrån dess svårighetsgrad för att säkerställa bästa möjliga behandlingsresultat och förhindra potentiella ärr och bestående skador på huden.</p>',
-            types: array(
-                  new BasedType(
-                        title: 'Mild akne',
-                        subtitle: 'även kallat acne comedonica',
+          title: 'Bristningar baserat på svårighetsgrad',
+          content: '<p class="p200">Bristningar kan variera i svårighetsgrad baserat på deras djup, längd och färgintensitet. I milda fall av bristningar är de ofta tunna och ljusa, mindre synliga. Medelsvåra bristningar kan vara mörkare och mer framstående, medan svåra bristningar är mycket djupa, långa och har en distinkt färg. Svårighetsgraden kan påverka ens självkänsla och önskan om behandling. Det är viktigt att identifiera svårighetsgraden av bristningarna för att bestämma den mest effektiva behandlingen och förstå hur de kan utvecklas över tiden.</p>',
+          types: array(
+              new BasedType(
+                  title: 'Milda bristningar',
+                  subtitle: 'Tunna och ljusa linjer',
 
-                        image_url: 'images/problems/102x102/mild-akne.webp',
-                        image_alt: 'Bild av mild akne',
-                        image_title: 'Mild akne exemplifierad',
+                  image_url: 'images/problems/102x102/mild-bristningar.webp',
+                  image_alt: 'Bild av milda bristningar',
+                  image_title: 'Milda bristningar exemplifierade',
 
-                        url: 'problem/akne/typer/mild-akne',
-                        url_title: 'Utforska mer information om mild akne'
-                  ),
-                  new BasedType(
-                        title: 'Medelsvår akne',
-                        subtitle: 'Även kallat acne papulopustulosa',
+                  url: 'problem/bristningar/typer/milda-bristningar',
+                  url_title: 'Utforska mer information om milda bristningar'
+              ),
+              new BasedType(
+                  title: 'Medelsvåra bristningar',
+                  subtitle: 'Mörkare och mer framstående linjer',
 
-                        image_url: 'images/problems/102x102/medelsvar-akne.webp',
-                        image_alt: 'Bild av medelsvår akne',
-                        image_title: 'Medelsvår akne exemplifierad',
+                  image_url: 'images/problems/102x102/medelsvara-bristningar.webp',
+                  image_alt: 'Bild av medelsvåra bristningar',
+                  image_title: 'Medelsvåra bristningar exemplifierade',
 
-                        url: 'problem/akne/typer/medel-akne',
-                        url_title: 'Utforska mer information om medelsvår akne'
-                  ),
-                  new BasedType(
-                        title: 'Svår akne',
-                        subtitle: 'Även kallat Acne nodulocystica',
+                  url: 'problem/bristningar/typer/medelsvara-bristningar',
+                  url_title: 'Utforska mer information om medelsvåra bristningar'
+              ),
+              new BasedType(
+                  title: 'Svåra bristningar',
+                  subtitle: 'Djupa, långa och med distinkt färg',
 
-                        image_url: 'images/problems/102x102/svar-akne.webp',
-                        image_alt: 'Bild av svår akne',
-                        image_title: 'Svår akne exemplifierad',
+                  image_url: 'images/problems/102x102/svara-bristningar.webp',
+                  image_alt: 'Bild av svåra bristningar',
+                  image_title: 'Svåra bristningar exemplifierade',
 
-                        url: 'problem/akne/typer/svar-akne',
-                        url_title: 'Utforska mer information om svår akne'
-                  ),
-                  new BasedType(
-                        title: 'Mycket svår akne',
-                        subtitle: 'Även kallat Acne conglobata',
-
-                        image_url: 'images/problems/102x102/mycket-svar-akne.webp',
-                        image_alt: 'Bild av mycket svår akne',
-                        image_title: 'Mycket svår akne exemplifierad',
-
-                        url: 'problem/akne/typer/mycket-svar-akne',
-                        url_title: 'Utforska mer information om mycket svår akne'
-                  ),
-            )
+                  url: 'problem/bristningar/typer/svara-bristningar',
+                  url_title: 'Utforska mer information om svåra bristningar'
+              ),
+          )
       ),
+      
       new BasedTypeCategory(
             title: 'Akne baserat på yttre faktorer',
             content: '<p class="p200">Yttre faktorer kan också påverka uppkomsten av akne. Exempel på dessa är sol, friktion, kosmetika, mediciner och miljöfaktorer. Dessa kan bidra till eller förvärra akne genom att irritera huden, täppa till porer eller påverka hudens talgproduktion.</p>',
