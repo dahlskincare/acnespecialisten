@@ -182,7 +182,7 @@ $type_categories = array(
                   title: 'Milda bristningar',
                   subtitle: 'Tunna och ljusa linjer',
 
-                  image_url: 'images/problems/102x102/mild-bristningar.webp',
+                  image_url: 'images/problems/102x102/milda-bristningar.webp',
                   image_alt: 'Bild av milda bristningar',
                   image_title: 'Milda bristningar exemplifierade',
 
@@ -213,101 +213,47 @@ $type_categories = array(
               ),
           )
       ),
-      
+
       new BasedTypeCategory(
-            title: 'Akne baserat på yttre faktorer',
-            content: '<p class="p200">Yttre faktorer kan också påverka uppkomsten av akne. Exempel på dessa är sol, friktion, kosmetika, mediciner och miljöfaktorer. Dessa kan bidra till eller förvärra akne genom att irritera huden, täppa till porer eller påverka hudens talgproduktion.</p>',
+            title: 'Bristningar baserat på yttre faktorer',
+            content: '<p class="p200">Bristningar kan påverkas eller framkallas av olika yttre faktorer. Dessa kan sträcka huden snabbare än den kan anpassa sig, vilket leder till uppkomsten av bristningar. Några vanliga yttre faktorer inkluderar snabb viktökning, hormonella förändringar, och vissa medicinska och kosmetiska behandlingar.</p>',
             types: array(
                   new BasedType(
-                        title: 'Mallorca akne',
-                        subtitle: 'även kallat Acne aestivalis',
+                        title: 'Viktrelaterade bristningar',
+                        subtitle: 'Följd av snabb viktökning eller -minskning',
 
-                        image_url: 'images/problems/102x102/mallorca-akne.webp',
-                        image_alt: 'Bild av Mallorca akne',
-                        image_title: 'Exempel på Mallorca akne',
+                        image_url: 'images/bristningar/102x102/vikt-bristningar.webp',
+                        image_alt: 'Bild av viktrelaterade bristningar',
+                        image_title: 'Exempel på bristningar orsakade av viktändringar',
 
-                        url: 'problem/akne/typer/mallorca-akne',
-                        url_title: 'Läs mer om hur solen kan orsaka Mallorca akne'
+                        url: 'problem/bristningar/typer/vikt-bristningar',
+                        url_title: 'Läs mer om viktrelaterade bristningar'
                   ),
                   new BasedType(
-                        title: 'Hormonell akne',
-                        subtitle: 'akne orsakad av hormoner',
+                        title: 'Hormonella bristningar',
+                        subtitle: 'Bristningar orsakade av hormonfluktuationer',
 
-                        image_url: 'images/problems/102x102/hormonell-akne.webp',
-                        image_alt: 'Bild av hormonell akne',
-                        image_title: 'Exempel på hormonell akne',
+                        image_url: 'images/bristningar/102x102/hormonella-bristningar.webp',
+                        image_alt: 'Bild av hormonella bristningar',
+                        image_title: 'Exempel på bristningar orsakade av hormonella förändringar',
 
-                        url: 'problem/akne/typer/hormonell-akne',
-                        url_title: 'Utforska mer om hur hormoner kan framkalla akne'
+                        url: 'problem/bristningar/typer/hormonella-bristningar',
+                        url_title: 'Utforska mer om hur hormoner kan framkalla bristningar'
                   ),
                   new BasedType(
-                        title: 'kosmetika akne',
-                        subtitle: 'Även kallat Acne cosmetica',
+                        title: 'Medicinska bristningar',
+                        subtitle: 'Bristningar från medicinska behandlingar eller mediciner',
 
-                        image_url: 'images/problems/102x102/kosmetika-akne.webp',
-                        image_alt: 'Bild av kosmetika akne',
-                        image_title: 'Exempel på kosmetika akne',
+                        image_url: 'images/bristningar/102x102/medicinska-bristningar.webp',
+                        image_alt: 'Bild av medicinska bristningar',
+                        image_title: 'Exempel på bristningar orsakade av mediciner eller behandlingar',
 
-                        url: 'problem/akne/typer/kosmetika-akne',
-                        url_title: 'Lär dig mer om hur kosmetika kan ge akne'
+                        url: 'problem/bristningar/typer/medicinska-bristningar',
+                        url_title: 'Lär dig mer om hur mediciner och behandlingar kan orsaka bristningar'
                   ),
-                  new BasedType(
-                        title: 'Akne från pillande',
-                        subtitle: 'Även kallat Acne exoriée ',
-
-                        image_url: 'images/problems/102x102/pill-akne.webp',
-                        image_alt: 'Bild av pill akne',
-                        image_title: 'Exempel på pill akne',
-
-                        url: 'problem/akne/typer/acne-exoriee',
-                        url_title: 'Läs mer om hur pillande kan leda till akne'
-                  ),
-                  new BasedType(
-                        title: 'Friktionsakne',
-                        subtitle: 'Även kallat Acne mechanica',
-
-                        image_url: 'images/problems/102x102/friktions-akne.webp',
-                        image_alt: 'Bild av friktions akne',
-                        image_title: 'Exempel på friktions akne',
-
-                        url: 'problem/akne/typer/akne-mekanisk',
-                        url_title: 'Utforska mer om hur friktion kan orsaka akne'
-                  ),
-                  new BasedType(
-                        title: 'Läkemedelsakne',
-                        subtitle: 'Även kallat Acne medicamentosa',
-
-                        image_url: 'images/problems/102x102/lakemedelsakne.webp',
-                        image_alt: 'Bild av läkemedelsakne',
-                        image_title: 'Exempel på läkemedelsakne',
-
-                        url: 'problem/akne/typer/lakemedelsakne',
-                        url_title: 'Lär dig mer om hur läkemedel kan orsaka akne'
-                  ),
-                  new BasedType(
-                        title: 'Kontaktakne',
-                        subtitle: 'Även kallat Acne venenata',
-
-                        image_url: 'images/problems/102x102/kontakt-akne.webp',
-                        image_alt: 'Bild av kontaktakne',
-                        image_title: 'Exempel på kontaktakne',
-
-                        url: 'problem/akne/typer/kontakt-akne',
-                        url_title: 'Utforska mer om hur direktkontakt kan påverka akne'
-                  ),
-                  new BasedType(
-                        title: 'Svampakne',
-                        subtitle: 'Även kallat fungal acne',
-
-                        image_url: 'images/problems/102x102/svamp-akne.webp',
-                        image_alt: 'Bild av svampakne',
-                        image_title: 'Exempel på svampakne',
-
-                        url: 'problem/akne/typer/fungal-akne',
-                        url_title: 'Lär dig mer om hur svamp relateras till akne'
-                  )
             )
       ),
+
       new BasedTypeCategory(
             title: 'Akne baserat på område',
             content: '<p class="p200">Akne kan uppträda på olika områden på kroppen. Ansiktet är det vanligaste området, men akne kan också förekomma på bröst, rygg, axlar och andra delar av kroppen. Placeringen av akne kan ge en indikation på dess orsak, som hormonella förändringar, irritation från kläder eller yttre faktorer som sol och friktion.</p>',
