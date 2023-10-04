@@ -146,8 +146,8 @@ $type_categories = array(
                   image_alt: 'Bild av bristningar hos tonåringar',
                   image_title: 'Bristningar under tonåren',
 
-                  url: 'problem/bristningar/typer/tonår',
-                  url_title: 'Utforska information om bristningar under tonåren'
+                  url: null,
+                  url_title: null,
               ),
               new BasedType(
                   title: 'Bristningar i vuxenålder',
@@ -157,8 +157,8 @@ $type_categories = array(
                   image_alt: 'Bild av bristningar hos vuxna',
                   image_title: 'Bristningar i vuxenålder',
 
-                  url: 'problem/bristningar/typer/vuxenålder',
-                  url_title: 'Utforska information om bristningar i vuxenålder'
+                  url: null,
+                  url_title: null,
               ),
               new BasedType(
                   title: 'Bristningar hos äldre vuxna',
@@ -168,8 +168,8 @@ $type_categories = array(
                   image_alt: 'Bild av bristningar hos äldre vuxna',
                   image_title: 'Bristningar hos äldre vuxna',
 
-                  url: 'problem/bristningar/typer/äldre',
-                  url_title: 'Utforska information om bristningar hos äldre vuxna'
+                  url: null,
+                  url_title: null,
               ),
           )
       ),
@@ -186,8 +186,8 @@ $type_categories = array(
                   image_alt: 'Bild av milda bristningar',
                   image_title: 'Milda bristningar exemplifierade',
 
-                  url: 'problem/bristningar/typer/milda-bristningar',
-                  url_title: 'Utforska mer information om milda bristningar'
+                  url: null,
+                  url_title: null,
               ),
               new BasedType(
                   title: 'Medelsvåra bristningar',
@@ -197,8 +197,8 @@ $type_categories = array(
                   image_alt: 'Bild av medelsvåra bristningar',
                   image_title: 'Medelsvåra bristningar exemplifierade',
 
-                  url: 'problem/bristningar/typer/medelsvara-bristningar',
-                  url_title: 'Utforska mer information om medelsvåra bristningar'
+                  url: null,
+                  url_title: null,
               ),
               new BasedType(
                   title: 'Svåra bristningar',
@@ -208,8 +208,8 @@ $type_categories = array(
                   image_alt: 'Bild av svåra bristningar',
                   image_title: 'Svåra bristningar exemplifierade',
 
-                  url: 'problem/bristningar/typer/svara-bristningar',
-                  url_title: 'Utforska mer information om svåra bristningar'
+                  url: null,
+                  url_title: null,
               ),
           )
       ),
@@ -219,37 +219,83 @@ $type_categories = array(
             content: '<p class="p200">Bristningar kan påverkas eller framkallas av olika yttre faktorer. Dessa kan sträcka huden snabbare än den kan anpassa sig, vilket leder till uppkomsten av bristningar. Några vanliga yttre faktorer inkluderar snabb viktökning, hormonella förändringar, och vissa medicinska och kosmetiska behandlingar.</p>',
             types: array(
                   new BasedType(
-                        title: 'Viktrelaterade bristningar',
-                        subtitle: 'Följd av snabb viktökning eller -minskning',
-
-                        image_url: 'images/bristningar/102x102/vikt-bristningar.webp',
-                        image_alt: 'Bild av viktrelaterade bristningar',
-                        image_title: 'Exempel på bristningar orsakade av viktändringar',
-
-                        url: 'problem/bristningar/typer/vikt-bristningar',
-                        url_title: 'Läs mer om viktrelaterade bristningar'
+                      title: 'Viktrelaterade bristningar',
+                      subtitle: 'Följd av snabb viktökning eller -minskning',
+                      image_url: 'images/bristningar/102x102/vikt-bristningar.webp',
+                      image_alt: 'Bild av viktrelaterade bristningar',
+                      image_title: 'Exempel på bristningar orsakade av viktändringar',
+                      url: null,
+                      url_title: null,
                   ),
+
                   new BasedType(
-                        title: 'Hormonella bristningar',
-                        subtitle: 'Bristningar orsakade av hormonfluktuationer',
-
-                        image_url: 'images/bristningar/102x102/hormonella-bristningar.webp',
-                        image_alt: 'Bild av hormonella bristningar',
-                        image_title: 'Exempel på bristningar orsakade av hormonella förändringar',
-
-                        url: 'problem/bristningar/typer/hormonella-bristningar',
-                        url_title: 'Utforska mer om hur hormoner kan framkalla bristningar'
+                      title: 'Hormonella bristningar',
+                      subtitle: 'Bristningar orsakade av hormonfluktuationer',
+                      image_url: 'images/bristningar/102x102/hormonella-bristningar.webp',
+                      image_alt: 'Bild av hormonella bristningar',
+                      image_title: 'Exempel på bristningar orsakade av hormonella förändringar',
+                      url: null,
+                      url_title: null,
                   ),
+
                   new BasedType(
-                        title: 'Medicinska bristningar',
-                        subtitle: 'Bristningar från medicinska behandlingar eller mediciner',
+                      title: 'Medicinska bristningar',
+                      subtitle: 'Bristningar från medicinska behandlingar eller mediciner',
+                      image_url: 'images/bristningar/102x102/medicinska-bristningar.webp',
+                      image_alt: 'Bild av medicinska bristningar',
+                      image_title: 'Exempel på bristningar orsakade av mediciner eller behandlingar',
+                      url: null,
+                      url_title: null,
+                  ),
 
-                        image_url: 'images/bristningar/102x102/medicinska-bristningar.webp',
-                        image_alt: 'Bild av medicinska bristningar',
-                        image_title: 'Exempel på bristningar orsakade av mediciner eller behandlingar',
+                  new BasedType(
+                      title: 'Träningsrelaterade bristningar',
+                      subtitle: 'Från intensiv muskeltillväxt',
+                      image_url: 'images/bristningar/102x102/traning-bristningar.webp',
+                      image_alt: 'Bild av träningsrelaterade bristningar',
+                      image_title: 'Exempel på bristningar orsakade av snabb muskeltillväxt',
+                      url: null,
+                      url_title: null,
+                  ),
 
-                        url: 'problem/bristningar/typer/medicinska-bristningar',
-                        url_title: 'Lär dig mer om hur mediciner och behandlingar kan orsaka bristningar'
+                  new BasedType(
+                      title: 'Graviditetsbristningar',
+                      subtitle: 'Uppstår under graviditet',
+                      image_url: 'images/bristningar/102x102/graviditet-bristningar.webp',
+                      image_alt: 'Bild av graviditetsbristningar',
+                      image_title: 'Exempel på bristningar under graviditet',
+                      url: null,
+                      url_title: null,
+                  ),
+
+                  new BasedType(
+                      title: 'Bristningar från snabb tillväxt',
+                      subtitle: 'Vanligt under puberteten',
+                      image_url: 'images/bristningar/102x102/pubertet-bristningar.webp',
+                      image_alt: 'Bild av bristningar från snabb tillväxt',
+                      image_title: 'Exempel på bristningar från tillväxtspurter',
+                      url: null,
+                      url_title: null,
+                  ),
+
+                  new BasedType(
+                      title: 'Bristningar från kosmetiska ingrepp',
+                      subtitle: 'Efter ingrepp som fettsugning eller implantat',
+                      image_url: 'images/bristningar/102x102/kosmetiska-ingrepp-bristningar.webp',
+                      image_alt: 'Bild av bristningar från kosmetiska ingrepp',
+                      image_title: 'Exempel på bristningar efter kosmetiska behandlingar',
+                      url: null,
+                      url_title: null,
+                  ),
+
+                  new BasedType(
+                      title: 'Bristningar från hudsammandragande behandlingar',
+                      subtitle: 'Exempelvis vissa hudlyft',
+                      image_url: 'images/bristningar/102x102/hudsammandragande-behandlingar.webp',
+                      image_alt: 'Bild av bristningar från hudsammandragande behandlingar',
+                      image_title: 'Exempel på bristningar orsakade av behandlingar som stramar åt huden',
+                      url: null,
+                      url_title: null,
                   ),
             )
       ),
