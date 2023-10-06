@@ -97,7 +97,7 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Vem',
             title: 'får ärr?',
-            content: '<p class="p200">Ärrbildning är en universell mänsklig upplevelse, och alla, oavsett ålder, kön eller etnicitet, kan utveckla ärr efter en skada eller operation på huden. Dock påverkas omfattningen och typen av ärrbildning av flera olika faktorer. Ålder spelar en viktig roll i hur vår hud läker. Barns och ungdomars hud har en tendens att läka snabbare och kan ibland bilda tjockare ärr än hos vuxna eftersom de har en högre kollagenproduktion. Äldre individer kan däremot uppleva en långsammare läkningsprocess på grund av minskad kollagenproduktion och hudelasticitet, vilket kan resultera i tunnare och plattare ärr.</p>',
+            content: '<p class="p200">Ärrbildning är en universell mänsklig upplevelse som kan drabba alla efter en skada eller operation på huden. Dock påverkas omfattningen och typen av ärrbildning av flera olika faktorer. Ålder spelar en viktig roll i hur vår hud läker. Barns och ungdomars hud har en tendens att läka snabbare och kan ibland bilda tjockare ärr än hos vuxna eftersom de har en högre kollagenproduktion. Äldre individer kan däremot uppleva en långsammare läkningsprocess på grund av minskad kollagenproduktion och hudelasticitet, vilket kan resultera i tunnare och plattare ärr.</p>',
             extended_content: '<p class="p200 mt-xl">Genetik påverkar också ärrbildningens omfattning och karaktär. Vissa individer har en genetisk predisposition att utveckla specifika ärrtyper, som keloider eller hypertrofiska ärr. Sådana ärr går ofta i släkten, vilket innebär att om dina föräldrar eller syskon har utvecklat denna typ av ärr, finns det en större chans att du också kommer att göra det. Etnicitet och hudtyp kan också spela en roll. Till exempel är keloidärr mer vanliga hos personer med mörkare hudtoner, inklusive afrikanska, afrokaribiska och sydasiatiska befolkningsgrupper.</p>
             <p class="p200 mt-xl">Platsen för skadan eller incisionen på kroppen kan påverka ärrbildningen. Vissa områden, som bröstet eller skuldran, har en tendens att bilda tjockare och mer framträdande ärr, medan andra områden, som ansiktet, ofta läker med mindre synliga ärr. Till sist kan faktorer som den initiala skadans svårighetsgrad, typen av skada (brännskada, skärsår, skrapa), infektioner eller komplikationer under läkningsprocessen och enskilda hälsoförhållanden alla påverka ärrbildningsprocessen. Det är viktigt att notera att även om vissa personer kan vara mer benägna att utveckla distinkta eller framträdande ärr än andra, har ingen individ helt immunitet mot ärrbildning, eftersom det är kroppens naturliga sätt att läka efter en skada.</p>',
 
@@ -112,44 +112,27 @@ $trivias = array(
             icons: array('who-infants' => 'Ansiktet', 'who-teenagers' => 'Ryggen', 'who-adults' => 'Bröstet', 'who-elders' => 'Axlarna')
       ),
 );
+
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din aknetyp och skapar en individuell behandlingsplan.',
+            content: 'Hos AcneSpecialisten kopplas du ihop med en specialist inom ärrbehandling. De hjälper dig att identifiera typen av operations- och skadeärr och sätter upp en individuell behandlingsplan anpassad för dina behov.',
 
             url_label: 'Få gratis konsultation',
             url: 'hudkonsultation',
-            url_title: 'Boka din kostnadsfria hudkonsultation idag'
+            url_title: 'Boka din kostnadsfria konsultation gällande ärrbehandling idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika aknetyp, så att du snabbt och säkert blir av med problemet.',
-
-            url_label: 'Se aknebehandlingar',
-            url: 'behandlingar/akne',
-            url_title: 'Utforska våra skräddarsydda aknebehandlingar'
-      ),
-      new TreatmentStep(
-            title: 'Förebygga',
-            content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny akne och hålla din hud i balans.',
-
-            url_label: 'Se produkter',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
-            url_title: 'Hitta de bästa produkterna för att förebygga akne'
-      ),
-      new TreatmentStep(
-            title: 'Reparera',
-            content: 'När aknen är borta fokuserar vi på att reducera eventuella ärr med behandlingsmetoder som laser, microneedling och kemisk peeling för en jämn och problemfri hud.',
+            content: 'Vi erbjuder avancerade och skonsamma behandlingar för olika typer av operations- och skadeärr, designade för att effektivt minska ärrvävnadens framträdande och förbättra hudens utseende.',
 
             url_label: 'Se ärrbehandlingar',
-            url: 'behandlingar/aknearr',
-            url_title: 'Upptäck effektiva behandlingar för akneärr'
+            url: 'behandlingar/operations-skadearr',
+            url_title: 'Utforska våra specialanpassade behandlingar för operations- och skadeärr'
       ),
-
 );
-$treatment_link = '<a href="problem/akne/aknebehandling" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra aknebehandlingar</a>';
 
-$types_title = 'Olika typer av akne';
+$types_title = 'Olika typer av operations- och skadeärr';
 
 $type_categories = array(
       new BasedTypeCategory(
