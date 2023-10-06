@@ -135,96 +135,47 @@ $treatment_steps = array(
 $types_title = 'Olika typer av operations- och skadeärr';
 
 $type_categories = array(
+
       new BasedTypeCategory(
-            title: 'Akne baserat på ålder',
-            content: '<p class="p200">Akne är en hudåkomma som kan drabba både ungdomar och vuxna, även om det är vanligast under tonåren. Tonårsakne uppstår ofta på grund av hormonella förändringar under puberteten. Vuxenakne förekommer också, och det kan bero på en rad olika faktorer. Hos vuxna kan akne orsakas av faktorer som stress, hormonobalans och genetik. Oavsett ålder är det viktigt att förstå att akne kan påverka människor i alla livsstadier.</p>',
+            title: 'Operations- och skadeärr baserat på svårighetsgrad',
+            content: '<p class="p200">Operations- och skadeärr kan variera i svårighetsgrad från ytliga till djupa och omfattande ärr. Ytliga ärr är ofta mindre i storlek och djup, medan djupare ärr kan ha ett inbuktat eller upphöjt utseende och kan vara större och mer framträdande. Svårighetsgraden av ett ärr kan påverka både estetiken och funktionen av det drabbade området. Korrekt vård och behandling av ärr baserat på dess svårighetsgrad är avgörande för att minimera synligheten och potentiella komplikationer.</p>',
             types: array(
                   new BasedType(
-                        title: 'Vuxenakne',
-                        subtitle: 'Även kallat acne tarda',
+                        title: 'Ytliga ärr',
+                        subtitle: 'Mindre i storlek och djup',
 
-                        image_url: 'images/problems/102x102/vuxenakne.webp',
-                        image_alt: 'Bild av vuxenakne',
-                        image_title: 'Akne hos vuxna',
+                        image_url: 'images/problems/102x102/ytliga-arr.webp',
+                        image_alt: 'Bild av ytliga ärr',
+                        image_title: 'Ytliga ärr exemplifierade',
 
-                        url: 'problem/akne/typer/vuxenakne',
-                        url_title: 'Utforska information om vuxenakne'
+                        url: 'problem/arr/svarighetsgrad/ytliga-arr',
+                        url_title: 'Utforska information om ytliga ärr',
                   ),
                   new BasedType(
-                        title: 'Tonårsakne',
-                        subtitle: 'Även kallat acne vulgaris',
+                        title: 'Mellan djupa ärr',
+                        subtitle: 'Kan ha ett lätt inbuktat eller upphöjt utseende',
 
-                        image_url: 'images/problems/102x102/tonarsakne.webp',
-                        image_alt: 'Bild av tonårsakne',
-                        image_title: 'Akne hos tonåringar',
+                        image_url: 'images/problems/102x102/mellandjupa-arr.webp',
+                        image_alt: 'Bild av mellan djupa ärr',
+                        image_title: 'Mellan djupa ärr exemplifierade',
 
-                        url: 'problem/akne/typer/tonårsakne',
-                        url_title: 'Utforska information om tonårsakne'
+                        url: 'problem/arr/svarighetsgrad/mellandjupa-arr',
+                        url_title: 'Utforska information om mellan djupa ärr',
                   ),
                   new BasedType(
-                        title: 'Barnakne',
-                        subtitle: 'Även kallat acne neonatorum',
+                        title: 'Djupa och omfattande ärr',
+                        subtitle: 'Stora, framträdande och kan påverka rörelse',
 
-                        image_url: 'images/problems/102x102/barnakne.webp',
-                        image_alt: 'Bild av barnakne',
-                        image_title: 'Akne hos barn',
+                        image_url: 'images/problems/102x102/djupa-arr.webp',
+                        image_alt: 'Bild av djupa och omfattande ärr',
+                        image_title: 'Djupa och omfattande ärr exemplifierade',
 
-                        url: 'problem/akne/typer/barnakne',
-                        url_title: 'Utforska information om barnakne'
-                  ),
-
-            )
-      ),
-      new BasedTypeCategory(
-            title: 'Akne baserat på svårighetsgrad',
-            content: '<p class="p200">Akne kan variera i svårighetsgrad från milda till extremt allvarliga fall. I milda fall av akne är symptomen ofta mindre uttalade och består främst av pormaskar, medan mer allvarliga fall innefattar djupare inflammationer i form av cystor och noduler. Svårighetsgraden påverkar också hur akne påverkar en persons livskvalitet och hur den ska behandlas. Det är viktigt att diagnostisera och behandla akne utifrån dess svårighetsgrad för att säkerställa bästa möjliga behandlingsresultat och förhindra potentiella ärr och bestående skador på huden.</p>',
-            types: array(
-                  new BasedType(
-                        title: 'Mild akne',
-                        subtitle: 'även kallat acne comedonica',
-
-                        image_url: 'images/problems/102x102/mild-akne.webp',
-                        image_alt: 'Bild av mild akne',
-                        image_title: 'Mild akne exemplifierad',
-
-                        url: 'problem/akne/typer/mild-akne',
-                        url_title: 'Utforska mer information om mild akne'
-                  ),
-                  new BasedType(
-                        title: 'Medelsvår akne',
-                        subtitle: 'Även kallat acne papulopustulosa',
-
-                        image_url: 'images/problems/102x102/medelsvar-akne.webp',
-                        image_alt: 'Bild av medelsvår akne',
-                        image_title: 'Medelsvår akne exemplifierad',
-
-                        url: 'problem/akne/typer/medel-akne',
-                        url_title: 'Utforska mer information om medelsvår akne'
-                  ),
-                  new BasedType(
-                        title: 'Svår akne',
-                        subtitle: 'Även kallat Acne nodulocystica',
-
-                        image_url: 'images/problems/102x102/svar-akne.webp',
-                        image_alt: 'Bild av svår akne',
-                        image_title: 'Svår akne exemplifierad',
-
-                        url: 'problem/akne/typer/svar-akne',
-                        url_title: 'Utforska mer information om svår akne'
-                  ),
-                  new BasedType(
-                        title: 'Mycket svår akne',
-                        subtitle: 'Även kallat Acne conglobata',
-
-                        image_url: 'images/problems/102x102/mycket-svar-akne.webp',
-                        image_alt: 'Bild av mycket svår akne',
-                        image_title: 'Mycket svår akne exemplifierad',
-
-                        url: 'problem/akne/typer/mycket-svar-akne',
-                        url_title: 'Utforska mer information om mycket svår akne'
+                        url: 'problem/arr/svarighetsgrad/djupa-arr',
+                        url_title: 'Utforska information om djupa och omfattande ärr',
                   ),
             )
       ),
+      
       new BasedTypeCategory(
             title: 'Akne baserat på yttre faktorer',
             content: '<p class="p200">Yttre faktorer kan också påverka uppkomsten av akne. Exempel på dessa är sol, friktion, kosmetika, mediciner och miljöfaktorer. Dessa kan bidra till eller förvärra akne genom att irritera huden, täppa till porer eller påverka hudens talgproduktion.</p>',
@@ -237,8 +188,8 @@ $type_categories = array(
                         image_alt: 'Bild av Mallorca akne',
                         image_title: 'Exempel på Mallorca akne',
 
-                        url: 'problem/akne/typer/mallorca-akne',
-                        url_title: 'Läs mer om hur solen kan orsaka Mallorca akne'
+                        url: null,
+                        url_title: null,
                   ),
                   new BasedType(
                         title: 'Hormonell akne',
@@ -248,8 +199,8 @@ $type_categories = array(
                         image_alt: 'Bild av hormonell akne',
                         image_title: 'Exempel på hormonell akne',
 
-                        url: 'problem/akne/typer/hormonell-akne',
-                        url_title: 'Utforska mer om hur hormoner kan framkalla akne'
+                        url: null,
+                        url_title: null,
                   ),
                   new BasedType(
                         title: 'kosmetika akne',
@@ -259,8 +210,8 @@ $type_categories = array(
                         image_alt: 'Bild av kosmetika akne',
                         image_title: 'Exempel på kosmetika akne',
 
-                        url: 'problem/akne/typer/kosmetika-akne',
-                        url_title: 'Lär dig mer om hur kosmetika kan ge akne'
+                        url: null,
+                        url_title: null,
                   ),
                   new BasedType(
                         title: 'Akne från pillande',
@@ -270,8 +221,8 @@ $type_categories = array(
                         image_alt: 'Bild av pill akne',
                         image_title: 'Exempel på pill akne',
 
-                        url: 'problem/akne/typer/acne-exoriee',
-                        url_title: 'Läs mer om hur pillande kan leda till akne'
+                        url: null,
+                        url_title: null,
                   ),
                   new BasedType(
                         title: 'Friktionsakne',
@@ -281,8 +232,8 @@ $type_categories = array(
                         image_alt: 'Bild av friktions akne',
                         image_title: 'Exempel på friktions akne',
 
-                        url: 'problem/akne/typer/akne-mekanisk',
-                        url_title: 'Utforska mer om hur friktion kan orsaka akne'
+                        url: null,
+                        url_title: null,
                   ),
                   new BasedType(
                         title: 'Läkemedelsakne',
@@ -292,8 +243,8 @@ $type_categories = array(
                         image_alt: 'Bild av läkemedelsakne',
                         image_title: 'Exempel på läkemedelsakne',
 
-                        url: 'problem/akne/typer/lakemedelsakne',
-                        url_title: 'Lär dig mer om hur läkemedel kan orsaka akne'
+                        url: null,
+                        url_title: null,
                   ),
                   new BasedType(
                         title: 'Kontaktakne',
@@ -303,8 +254,8 @@ $type_categories = array(
                         image_alt: 'Bild av kontaktakne',
                         image_title: 'Exempel på kontaktakne',
 
-                        url: 'problem/akne/typer/kontakt-akne',
-                        url_title: 'Utforska mer om hur direktkontakt kan påverka akne'
+                        url: null,
+                        url_title: null,
                   ),
                   new BasedType(
                         title: 'Svampakne',
@@ -314,8 +265,8 @@ $type_categories = array(
                         image_alt: 'Bild av svampakne',
                         image_title: 'Exempel på svampakne',
 
-                        url: 'problem/akne/typer/fungal-akne',
-                        url_title: 'Lär dig mer om hur svamp relateras till akne'
+                        url: null,
+                        url_title: null,
                   )
             )
       ),
@@ -331,8 +282,8 @@ $type_categories = array(
                         image_alt: 'Bild av akne i ansiktet',
                         image_title: 'Exempel på akne i ansiktet',
 
-                        url: 'problem/akne/typer/akne-ansiktet',
-                        url_title: 'Läs mer om akne i ansiktet och dess potentiella behandlingar'
+                        url: null,
+                        url_title: null,
                   ),
                   new BasedType(
                         title: 'Akne på ryggen',
@@ -342,8 +293,8 @@ $type_categories = array(
                         image_alt: 'Bild av akne på ryggen',
                         image_title: 'Exempel på akne på ryggen',
 
-                        url: 'problem/akne/typer/akne-ryggen',
-                        url_title: 'Läs mer om akne på ryggen och dess potentiella behandlingar'
+                        url: null,
+                        url_title: null,
                   ),
                   new BasedType(
                         title: 'Akne på bröstet',
@@ -353,8 +304,8 @@ $type_categories = array(
                         image_alt: 'Bild av akne på bröstet',
                         image_title: 'Exempel på akne på bröstet',
 
-                        url: 'problem/akne/typer/akne-brostet',
-                        url_title: 'Läs mer om akne på bröstet och dess potentiella behandlingar'
+                        url: null,
+                        url_title: null,
                   ),
 
             )
