@@ -301,154 +301,178 @@ $type_categories = array(
       ),
 
       new BasedTypeCategory(
-            title: 'Akne baserat på område',
-            content: '<p class="p200">Akne kan uppträda på olika områden på kroppen. Ansiktet är det vanligaste området, men akne kan också förekomma på bröst, rygg, axlar och andra delar av kroppen. Placeringen av akne kan ge en indikation på dess orsak, som hormonella förändringar, irritation från kläder eller yttre faktorer som sol och friktion.</p>',
+            title: 'Bristningar baserat på område',
+            content: '<p class="p200">Bristningar kan uppträda på olika områden på kroppen. Vanliga områden inkluderar mage, lår, höfter, bröst och överarmar. Uppkomsten av bristningar kan vara kopplad till snabb viktökning, graviditet, hormonella förändringar eller tillväxtspurtar under tonåren.</p>',
             types: array(
                   new BasedType(
-                        title: 'Akne i ansiktet',
-                        subtitle: 'Även kallat Acne faciei',
+                        title: 'Bristningar på magen',
+                        subtitle: 'Vanligtvis kopplad till graviditet eller viktökning',
 
-                        image_url: 'images/problems/102x102/akne-ansikte.webp',
-                        image_alt: 'Bild av akne i ansiktet',
-                        image_title: 'Exempel på akne i ansiktet',
+                        image_url: 'images/problems/102x102/bristningar-mage.webp',
+                        image_alt: 'Bild av bristningar på magen',
+                        image_title: 'Exempel på bristningar på magen',
 
-                        url: 'problem/akne/typer/akne-ansiktet',
-                        url_title: 'Läs mer om akne i ansiktet och dess potentiella behandlingar'
+                        url: null,
+                        url_title: null,
                   ),
                   new BasedType(
-                        title: 'Akne på ryggen',
-                        subtitle: 'Även kallat Acne dorsalis',
+                        title: 'Bristningar på lår',
+                        subtitle: 'Ofta kopplat till snabb viktökning eller tillväxt',
 
-                        image_url: 'images/problems/102x102/akne-rygg.webp',
-                        image_alt: 'Bild av akne på ryggen',
-                        image_title: 'Exempel på akne på ryggen',
+                        image_url: 'images/problems/102x102/bristningar-lar.webp',
+                        image_alt: 'Bild av bristningar på lår',
+                        image_title: 'Exempel på bristningar på lår',
 
-                        url: 'problem/akne/typer/akne-ryggen',
-                        url_title: 'Läs mer om akne på ryggen och dess potentiella behandlingar'
+                        url: null,
+                        url_title: null,
                   ),
                   new BasedType(
-                        title: 'Akne på bröstet',
-                        subtitle: 'Även kallat Acne pectoralis',
+                        title: 'Bristningar på bröstet',
+                        subtitle: 'Kan vara resultat av graviditet, amning eller snabb tillväxt',
 
-                        image_url: 'images/problems/102x102/akne-brost.webp',
-                        image_alt: 'Bild av akne på bröstet',
-                        image_title: 'Exempel på akne på bröstet',
+                        image_url: 'images/problems/102x102/bristningar-brost.webp',
+                        image_alt: 'Bild av bristningar på bröstet',
+                        image_title: 'Exempel på bristningar på bröstet',
 
-                        url: 'problem/akne/typer/akne-brostet',
-                        url_title: 'Läs mer om akne på bröstet och dess potentiella behandlingar'
+                        url: null,
+                        url_title: null,
                   ),
+                  new BasedType(
+                        title: 'Bristningar på höfterna',
+                        subtitle: 'Ofta kopplat till graviditet eller snabb viktökning',
 
+                        image_url: 'images/problems/102x102/bristningar-hip.webp',
+                        image_alt: 'Bild av bristningar på höfterna',
+                        image_title: 'Exempel på bristningar på höfterna',
+
+                        url: null,
+                        url_title: null,
+                  ),
+                  new BasedType(
+                        title: 'Bristningar på överarmarna',
+                        subtitle: 'Kan uppkomma på grund av snabb viktuppgång eller styrketräning',
+
+                        image_url: 'images/problems/102x102/bristningar-arm.webp',
+                        image_alt: 'Bild av bristningar på överarmarna',
+                        image_title: 'Exempel på bristningar på överarmarna',
+
+                        url: null,
+                        url_title: null,
+                  ),
             )
       )
 
 );
 
-$types_url = '<a href="problem/akne/typer" title="Lär dig mer om olika typer av akne och deras behandling" class="mt-xl button b200 outline expand l10n is-hidden-tablet">Läs mer om olika typer av akne</a>
-              <a href="problem/akne/typer" title="Lär dig mer om olika typer av akne och deras behandling" class="mt-xl button b200 outline l10n is-hidden-mobile">Läs mer om olika typer av akne</a>';
-
-$symptoms_title = 'Akne symptom';
+$symptoms_title = 'Bristningar symptom';
 
 $symptoms = array(
       new Symptom(
-            name: 'Öppna komedoner',
-            aka: 'Kända som pormaskar',
-            content: 'Pormaskar (öppna komedoner) är små, mörka prickar som uppstår när en por täpps igen av talg (hudens naturliga olja) och döda hudceller. De är ofta svarta eller bruna på grund av oxidation, som inträffar när melanin (hudens pigment) kommer i kontakt med luft. Pormaskar kan vara platta eller lätt upphöjda och är vanligt förekommande på näsan, kinderna, pannan och hakan.',
+            name: 'Färgförändringar',
+            aka: 'Kända som början på bristningar',
+            content: 'Nya bristningar börjar ofta som rodnade, blåaktiga eller lila linjer.',
 
-            url_label: 'Läs mer om öppna komedoner',
-            url: 'problem/akne/typer/post-inflammatory-hyperpigmentaion',
-            url_title: 'Läs mer om öppna komedoner (pormaskar)',
+            url_label: null,
+            url: null,
+            url_title: null,
 
-            image: 'images/symptoms/102x102/komedoner-oppna.webp',
-            image_alt: 'Bild av öppna komedoner (pormaskar)',
-            image_title: 'Öppna komedoner (pormaskar)'
+            image: 'images/symptoms/102x102/fargforandringar.webp',
+            image_alt: 'Bild av bristningar med färgförändringar',
+            image_title: 'Färgförändringar på bristningar'
       ),
+
       new Symptom(
-            name: 'Stängda komedoner',
-            aka: 'Kända som "whiteheads"',
-            content: 'Whiteheads (slutna komedoner) är små, vita eller hudfärgade utbuktningar som uppstår när en por täpps till av talg och döda hudceller under hudytan. De är täckta av ett tunt lager hud, vilket förhindrar oxidation och därmed behåller sin ljusa färg. Whiteheads kan vara platta eller lätt upphöjda och är vanligt förekommande på pannan, kinderna och hakan.',
+            name: 'Ändrad hudtextur',
+            aka: 'Kända som textur av bristningar',
+            content: 'Bristningar kan kännas något upphöjda eller gropiga vid beröring.',
 
-            url_label: 'Läs mer om stängda komedoner',
-            url: 'problem/akne/typer/atrophic-icepick-scars',
-            url_title: 'Läs mer om stängda komedoner (whiteheads)',
+            url_label: null,
+            url: null,
+            url_title: null,
 
-            image: 'images/symptoms/102x102/komedoner-stangda.webp',
-            image_alt: 'Bild av stängda komedoner (whiteheads)',
-            image_title: 'Stängda komedoner (whiteheads)'
+            image: 'images/symptoms/102x102/hudtextur.webp',
+            image_alt: 'Bild av ändrad hudtextur på bristningar',
+            image_title: 'Ändrad hudtextur av bristningar'
       ),
+
       new Symptom(
-            name: 'Papler',
-            aka: 'Kända som röda finnar',
-            content: 'Papuler är små, fasta, röda och inflammerade blemmor som uppstår när en hårsäck blir infekterad av bakterier, oftast Propionibacterium acnes. De är vanligtvis mindre än 5 mm i diameter och kan vara känsliga vid beröring. Papuler är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.',
+            name: 'Linjära ärr',
+            aka: 'Kända som ärrade bristningar',
+            content: 'Med tiden kan bristningarna blekna till en ljusare, ärrliknande färg, oftast ljusare än omgivande hud.',
 
-            url_label: 'Läs mer om papler',
-            url: 'problem/akne/typer/atrophic-boxcar-scars',
-            url_title: 'Läs mer om papler (röda finnar)',
+            url_label: null,
+            url: null,
+            url_title: null,
 
-            image: 'images/symptoms/102x102/papler.webp',
-            image_alt: 'Bild av papler (röda finnar)',
-            image_title: 'Papler (röda finnar)'
+            image: 'images/symptoms/102x102/linjara.arr.webp',
+            image_alt: 'Bild av linjära ärr från bristningar',
+            image_title: 'Linjära ärr från bristningar'
       ),
+
       new Symptom(
-            name: 'Pustler',
-            aka: 'Kända som gula finnar',
-            content: 'Pustuler är röda och inflammerade blemmor som innehåller var (en blandning av döda bakterier, vita blodkroppar och döda hudceller). De ser ut som papuler men har en vit eller gul prick i mitten. Pustuler kan vara smärtsamma och är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.',
+            name: 'Klåda',
+            aka: 'Kända som klåda kring bristningar',
+            content: 'I vissa fall kan området runt bristningarna klia, särskilt när de först börjar bildas.',
 
-            url_label: 'Läs mer om pustler',
-            url: 'problem/akne/typer/atrophic-rolling-scars',
-            url_title: 'Läs mer om pustler (gula finnar)',
+            url_label: null,
+            url: null,
+            url_title: null,
 
-            image: 'images/symptoms/102x102/pustler.webp',
-            image_alt: 'Bild av pustler (gula finnar)',
-            image_title: 'Pustler (gula finnar)'
+            image: 'images/symptoms/102x102/klada.webp',
+            image_alt: 'Bild av område med klåda kring bristningar',
+            image_title: 'Klåda kring bristningar'
       ),
+
       new Symptom(
-            name: 'Noduler',
-            aka: 'Kända som innåtfinnar',
-            content: 'Noduler är större, djupare och ofta smärtsamma inflammerade blemmor som uppstår när en hårsäck blir kraftigt infekterad och inflammationen sprider sig till det omgivande vävnaden. De är vanligtvis större än 5 mm i diameter och kan vara fasta och ömma vid beröring. Noduler är vanligt förekommande på ansiktet, nacken, bröstet, ryggen och ibland även på överarmarna och skinkorna.',
+            name: 'Brännande känsla',
+            aka: 'Kända som brännskada av bristningar',
+            content: 'Vissa människor rapporterar en lätt brännande känsla i området med bristningar.',
 
-            url_label: 'Läs mer om noduler',
-            url: 'problem/akne/typer/hypertrophic-keloid',
-            url_title: 'Läs mer om noduler (innåtfinnar)',
+            url_label: null,
+            url: null,
+            url_title: null,
 
-            image: 'images/symptoms/102x102/noduler.webp',
-            image_alt: 'Bild av noduler (innåtfinnar)',
-            image_title: 'Noduler (innåtfinnar)'
+            image: 'images/symptoms/102x102/brannande.kansla.webp',
+            image_alt: 'Bild av område med brännande känsla från bristningar',
+            image_title: 'Brännande känsla från bristningar'
       ),
+
       new Symptom(
-            name: 'Cystor',
-            aka: 'Kända som bölder',
-            content: 'Cystor är stora, inflammerade och smärtsamma blemmor som är fyllda med var och bildas när en hårsäck blir mycket infekterad och inflammationen sprider sig djupt in i huden. De kan vara runda och mjuka eller fasta och ömma vid beröring. Cystor kan vara större än 5 mm i diameter och är vanligt förekommande på ansiktet, nacken, bröstet och ryggen. Cystisk akne kan leda till ärrbildning och kräver ofta professionell behandling.',
+            name: 'Utsträckning av huden',
+            aka: 'Kända som spänd hud',
+            content: 'Bristningar är ofta föregångna av en känsla av spänning eller sträckning i huden.',
 
-            url_label: 'Läs mer om cystor',
-            url: 'problem/akne/typer/hypertrophic-keloid',
-            url_title: 'Läs mer om cystor (bölder)',
+            url_label: null,
+            url: null,
+            url_title: null,
 
-            image: 'images/symptoms/102x102/cystor.webp',
-            image_alt: 'Bild av cystor (bölder)',
-            image_title: 'Cystor (bölder)'
+            image: 'images/symptoms/102x102/utstrackning.webp',
+            image_alt: 'Bild av utsträckt eller spänd hud',
+            image_title: 'Utsträckt eller spänd hud'
       ),
+
 );
 
-$headline01 = "01. Identifiera din akne";
+$headline01 = "01. Identifiera dina bristningar";
 
 $service = new Service(
       title: 'Konsultation',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Vid ett personligt möte med en acnespecialist utförs en undersökning av din akne. Vi tar före-bilder på din hud och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
+      content: 'Vid ett personligt möte med en specialist för bristningar utförs en undersökning av dina bristningar. Vi tar före-bilder på de drabbade områdena och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
 
       image_small: 'images/services/200x200/konsultation.webp',
       image_large: 'images/services/200x200/konsultation.webp',
-      image_alt: 'Bild av en konsultation för aknebehandling',
-      image_title: 'Konsultation för aknebehandling',
+      image_alt: 'Bild av en konsultation för bristningsbehandling',
+      image_title: 'Konsultation för bristningsbehandling',
 
-      url_label: 'Läs mer om vår hudkonsultation',
-      url: 'hudkonsultation',
+      url_label: 'Läs mer om vår konsultation',
+      url: 'konsultation',
       url_title: 'Klicka här för att läsa mer om gratis hudkonsultation',
 
       consultation_url_label: 'Boka tid för hudkonsultation',
-      consultation_url: 'consultation-booking?problem=acne',
-      consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för akne',
+      consultation_url: 'consultation-booking?problem=stretchmarks',
+      consultation_url_title: 'Klicka för att boka tid för en konsultation för bristningar',
 
       booking_url_label: null,
       booking_url: null,
@@ -456,180 +480,103 @@ $service = new Service(
 
 );
 
-$headline02 = "02. Behandla aktiv akne";
+$headline02 = "02. Behandla bristningar";
 
 $services = array(
       new Service(
-            title: 'Ansiktsbehandling mot akne',
-            duration: '60 min',
-            price: '995 kr',
-            content: 'En effektiv ansiktsbehandling mot akne fokuserar på att noggrant extrahera orenheter som orsakar inflammation och skador i huden. Genom att försiktigt klämma ut akne och pormaskar kan behandlingen bidra till att förebygga ärrbildning och främja en snabbare läkning.',
-
-            image_small: 'images/services/200x200/ansiktsbehandling-akne.webp',
-            image_large: 'images/services/200x200/ansiktsbehandling-akne.webp',
-            image_alt: 'Bild av en ansiktsbehandling mot akne',
-            image_title: 'Ansiktsbehandling mot akne',
-
-            url: 'behandlingar/ansiktsbehandling-acne',
-            url_label: 'Läs mer om ansiktsbehandling mot akne',
-            url_title: 'Klicka här för att läsa mer om ansiktsbehandling mot akne',
-
-            consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url: 'consultation-booking?problem=acne&service=classicFacials',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling mot akne',
-
-            booking_url_label: 'Boka tid för ansiktsbehandling mot akne',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
-            booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling mot akne'
-      ),
-      new Service(
-            title: 'Laser mot akne',
+            title: 'Laser mot bristningar',
             duration: '50 min',
             price: '2595 kr',
-            content: 'En avancerad laserbehandling mot akne erbjuder en effektiv lösning för att bekämpa aktiv akne och ärr som kan uppstå efter utbrott. Lasertekniken riktar sig mot de bakterier som orsakar inflammation och hjälper till att minska produktionen av talg, vilket minskar risken för framtida utbrott.',
+            content: 'En avancerad laserbehandling mot bristningar erbjuder en effektiv lösning för att behandla och minska utseendet av bristningar. Lasertekniken stimulerar kollagenproduktionen i huden, vilket hjälper till att förbättra hudens struktur och minska synligheten av bristningar.',
 
-            image_small: 'images/services/200x200/laser-akne.webp',
-            image_large: 'images/services/200x200/laser-akne.webp',
-            image_alt: 'Bild av laserbehandling mot akne',
-            image_title: 'Laserbehandling mot akne',
+            image_small: 'images/services/200x200/laser-bristningar.webp',
+            image_large: 'images/services/200x200/laser-bristningar.webp',
+            image_alt: 'Bild av laserbehandling mot bristningar',
+            image_title: 'Laserbehandling mot bristningar',
 
-            url_label: 'Läs mer om laser mot akne',
-            url: 'behandlingar/laser-akne',
-            url_title: 'Klicka här för att läsa mer om laserbehandling mot akne',
+            url_label: 'Läs mer om laser mot bristningar',
+            url: 'behandlingar/laser-bristningar',
+            url_title: 'Klicka här för att läsa mer om laserbehandling mot bristningar',
 
-            consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url: 'consultation-booking?problem=acne&service=laser',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling mot akne',
+            consultation_url_label: 'Boka tid för konsultation',
+            consultation_url: 'consultation-booking?problem=stretchmarks&service=laser',
+            consultation_url_title: 'Klicka för att boka tid för en konsultation för laserbehandling mot bristningar',
 
-            booking_url_label: 'Boka tid för laserbehandling mot akne',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
-            booking_url_title: 'Klicka för att boka tid för en laserbehandling mot akne'
+            booking_url_label: 'Boka tid för laserbehandling mot bristningar',
+            booking_url: 'https://www.bokadirekt.se/boka-tjanst/bristningsspecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/bristning-konsultation-1643922',
+            booking_url_title: 'Klicka för att boka tid för en laserbehandling mot bristningar'
       ),
       new Service(
-            title: 'Kemisk peeling mot akne',
+            title: 'Kemisk peeling mot bristningar',
             duration: '30 min',
             price: '1595 kr',
-            content: 'Kemisk peeling är en effektiv metod för att behandla akne. Genom att använda en speciellt framtagen lösning för att exfoliera huden, främjar kemisk peeling cellförnyelse, rensar tilltäppta porer och minskar inflammation. Resultatet är en jämnare hudton, mindre utbrott och färre synliga ärr. Det är en enkel och effektiv strategi för att ta kontroll över din akne och förbättra din hudhälsa.',
+            content: 'Kemisk peeling är en effektiv metod för att behandla bristningar. Genom att exfoliera huden, främjar kemisk peeling cellförnyelse och ökar kollagenproduktionen. Detta kan hjälpa till att förbättra hudens struktur och minska synligheten av bristningar. Kemisk peeling är en enkel och effektiv strategi för att förbättra utseendet av dina bristningar.',
 
-            image_small: 'images/services/200x200/kemisk-peeling-akne.webp',
-            image_large: 'images/services/200x200/kemisk-peeling-akne.webp',
-            image_alt: 'Bild av kemisk peeling mot akne',
-            image_title: 'Kemisk peeling mot akne behandling',
+            image_small: 'images/services/200x200/kemisk-peeling-bristningar.webp',
+            image_large: 'images/services/200x200/kemisk-peeling-bristningar.webp',
+            image_alt: 'Bild av kemisk peeling mot bristningar',
+            image_title: 'Kemisk peeling mot bristningar',
 
-            url: 'behandlingar/kemisk-peeling-akne',
-            url_label: 'Läs mer om kemisk peeling mot akne',
-            url_title: 'Klicka här för att läsa mer om kemisk peeling mot akne',
+            url: 'behandlingar/kemisk-peeling-bristningar',
+            url_label: 'Läs mer om kemisk peeling mot bristningar',
+            url_title: 'Klicka här för att läsa mer om kemisk peeling mot bristningar',
 
-            consultation_url: 'consultation-booking?problem=acne&service=chemicalPeeling',
-            consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för kemisk peeling mot akne',
+            consultation_url: 'consultation-booking?problem=stretchmarks&service=chemicalPeeling',
+            consultation_url_label: 'Boka tid för konsultation',
+            consultation_url_title: 'Klicka för att boka tid för en konsultation för kemisk peeling mot bristningar',
 
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
-            booking_url_label: 'Boka tid för kemisk peeling mot akne',
-            booking_url_title: 'Klicka för att boka tid för en kemisk peeling mot akne behandling'
-
+            booking_url: 'https://www.bokadirekt.se/boka-tjanst/bristningsspecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/bristning-konsultation-1643922',
+            booking_url_label: 'Boka tid för kemisk peeling mot bristningar',
+            booking_url_title: 'Klicka för att boka tid för en kemisk peeling mot bristningar behandling'
       ),
-
       new Service(
-            title: 'Microneedling mot akne',
+            title: 'Microneedling mot bristningar',
             duration: '50 min',
             price: '2595 kr',
-            content: 'Microneedling är en innovativ behandlingsmetod för akne. Detta utförs genom att skapa små mikroskopiska kanaler i huden vilket främjar hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. Denna behandling kan effektivt minska utbrott av akne, förbättra hudens struktur och minska synligheten av akneärr. Microneedling är en säker och effektiv strategi för att ta kontroll över din akne och förbättra din hudhälsa.',
+            content: 'Microneedling är en innovativ behandlingsmetod för bristningar. Genom att skapa små mikroskopiska kanaler i huden stimuleras hudens naturliga läkningsprocess och kollagenproduktionen ökar. Denna behandling kan effektivt förbättra hudens struktur och minska synligheten av bristningar. Microneedling är en säker och effektiv strategi för att förbättra utseendet av dina bristningar.',
 
-            image_small: 'images/services/200x200/kemisk-peeling-akne.webp',
-            image_large: 'images/services/200x200/kemisk-peeling-akne.webp',
-            image_alt: 'Bild av microneedling mot akne',
-            image_title: 'Microneedling mot akne behandling',
+            image_small: 'images/services/200x200/microneedling-bristningar.webp',
+            image_large: 'images/services/200x200/microneedling-bristningar.webp',
+            image_alt: 'Bild av microneedling mot bristningar',
+            image_title: 'Microneedling mot bristningar',
 
-            url: 'behandlingar/microneedling-akne',
-            url_label: 'Läs mer om microneedling mot akne',
-            url_title: 'Klicka här för att läsa mer om microneedling mot akne',
+            url: 'behandlingar/microneedling-bristningar',
+            url_label: 'Läs mer om microneedling mot bristningar',
+            url_title: 'Klicka här för att läsa mer om microneedling mot bristningar',
 
-            consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url: 'consultation-booking?problem=acne&service=microneedling',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling mot akne',
+            consultation_url_label: 'Boka tid för konsultation',
+            consultation_url: 'consultation-booking?problem=stretchmarks&service=microneedling',
+            consultation_url_title: 'Klicka för att boka tid för en konsultation för microneedling mot bristningar',
 
-            booking_url_label: 'Boka tid för microneedling mot akne',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
-            booking_url_title: 'Klicka för att boka tid för en microneedling mot akne behandling'
+            booking_url_label: 'Boka tid för microneedling mot bristningar',
+            booking_url: 'https://www.bokadirekt.se/boka-tjanst/bristningsspecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/bristning-konsultation-1643922',
+            booking_url_title: 'Klicka för att boka tid för en microneedling mot bristningar behandling'
       ),
 );
 
-$headline03 = "03. Förebygg uppkomsten av ny akne";
-
-$products = array(
-      new Service(
-            title: 'Produkter mot akne',
-            duration: null,
-            price: 'Pris från 1495 kr',
-            content: 'För att effektivt bekämpa och förebygga akne är daglig behandling med rätt produkter avgörande. Våra akneprodukter är speciellt utformade för att hålla din hud i balans och förhindra att ny akne uppstår.',
-
-            image_small: 'images/services/200x200/produkter-akne.webp',
-            image_large: 'images/services/200x200/produkter-akne.webp',
-            image_alt: 'Bild av produkter designade för behandling av akne',
-            image_title: 'Effektiva produkter för bekämpning och förebyggande av akne',
-
-            url_label: 'Läs mer om produkter mot akne',
-            url: 'https://dahlskincare.se',
-            url_title: 'Klicka här för att läsa mer om produkter mot akne',
-
-            consultation_url_label: null,
-            consultation_url: null,
-            consultation_url_title: null,
-
-            booking_url_label: null,
-            booking_url: null,
-            booking_url_title: null,
-      )
-);
-
-$headline04 = "04. Reparera post-akne";
-
-$procedures = array(
-      new Service(
-            title: 'Reparera acneärr',
-            duration: '4 behandlingsmetoder',
-            price: null,
-            content: 'Efter aktiv akne kan man uppleva post-akne, vilket innebär ärr i form av gropar i olika former och fläckar i olika färger på huden där aknen tidigare varit. Olika typer av ärr behandlas med olika metoder. Klicka här för att läsa mer om hur du kan reparera din hud och ta hand om post-akne.',
-
-            image_small: 'images/services/200x200/microneedling-aknearr.webp',
-            image_large: 'images/services/200x200/microneedling-aknearr.webp',
-            image_alt: 'Reparera acneärr',
-            image_title: 'Reparera acneärr',
-
-            url_label: 'Läs mer om behandlingar mot akneärr',
-            url: 'behandlingar/aknearr',
-            url_title: 'Klicka här för att läsa mer om våra behandlingar mot akneärr',
-
-            consultation_url_label: null,
-            consultation_url: null,
-            consultation_url_title: null,
-
-            booking_url_label: null,
-            booking_url: null,
-            booking_url_title: null,
-
-      ),
-);
 $articles = array(
-      new Article(
-            title: 'Varför AcneSpecialisten?!',
-            content: '<p class="p200">Du som vill ha det som är bäst mot akne bör välja Acnespecialisten eftersom vi är experter på att behandla akne och har över 30 års erfarenhet av att ha arbetat med olika typer av akne. Vi lever upp till vårt namn genom att erbjuda personlig och professionell hjälp för att hjälpa dig att uppnå en klar och frisk hud. Vi skräddarsyr behandlingar baserade på dina individuella problem och behov, vi rekommenderar de bästa akneprodukterna för att förebygga och behandla din hud och akne. </p><p class="p200 mt-m">Genom att välja Acnespecialisten får du den mest effektiva behandlingen för ditt specifika fall och en hudvårdspartner som stöttar dig genom hela processen.</p>',
 
+      new Article(
+            title: 'När ska jag söka hjälp med mina bristningar?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'Varför AcneSpecialisten?!',
-            image_title: 'Varför AcneSpecialisten?!',
+            image_alt: 'När ska jag söka hjälp med mina bristningar?',
+            image_title: 'När ska jag söka hjälp med mina bristningar?',
+            content: '<p class="p200">Bristningar är en av de vanligaste hudförändringarna som kan påverka både kvinnor och män, oavsett ålder. Även om de är helt ofarliga, kan bristningar orsaka självmedvetenhet och påverka ens självkänsla. Om du känner att dina bristningar stör dig estetiskt eller om du har försökt olika produkter och hemmabehandlingar utan framgång, kan det vara lämpligt att överväga professionell behandling.</p>
+            <p class="p200 mt-m">En hudterapeut kan bedöma svårighetsgraden av dina bristningar, diskutera potentiella behandlingsalternativ och rekommendera den bästa metoden för just din situation. Oavsett om bristningarna är nya och röda eller gamla och vita, finns det behandlingsmetoder som kan förbättra hudens utseende. Om du känner att bristningarna påverkar hur du känner för din kropp, tveka inte att söka professionell hjälp. Det är aldrig för tidigt eller för sent att arbeta mot en hud du trivs med.</p>',
       ),
-      new Article(
-            title: 'När ska jag besöka AcneSpecialisten?',
-            content: '<p class="p200">Du bör besöka Acnespecialisten när du känner att din akne påverkar din livskvalitet eller om du har provat olika behandlingar och produkter utan att se några varaktiga förbättringar. Ju tidigare du söker hjälp, desto större är chansen att undvika ärrbildning och långvariga hudproblem. Acnespecialisten är här för att erbjuda dig expertis och skräddarsydda behandlingar oavsett om du har lindrig, måttlig eller svår akne. Tveka inte att kontakta oss för att boka en kostnadsfri konsultation och ta det första steget mot en klarare och friskare hud.</p><p class="p200 mt-m">Välj Acnespecialisten innan du går till en läkare, eftersom vi erbjuder en kostnadsfri konsultation där vi analyserar din akne och föreslår en individuell behandlingsplan. Våra specialister har stor erfarenhet av att behandla akne och kan ge dig råd om vilka produkter och behandlingar som är bäst för just din hudtyp. Att prova Acnespecialisten först kan hjälpa dig att undvika att använda tunga mediciner som kan ha biverkningar och påverka hela kroppen. Genom att boka en gratis konsultation hos oss får du en chans att se hur vi kan hjälpa dig att förbättra din hudhälsa innan du tar steget att besöka en läkare.</p>',
 
+      new Article(
+            title: 'Varför ska jag besöka AcneSpecialisten för mina bristningar?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'När ska jag besöka AcneSpecialisten?',
-            image_title: 'När ska jag besöka AcneSpecialisten?',
+            image_alt: 'Varför ska jag besöka AcneSpecialisten för mina bristningar?',
+            image_title: 'Varför ska jag besöka AcneSpecialisten för mina bristningar?',
+            content: '<p class="p200">Om du är ute efter en effektiv och långsiktig lösning på dina bristningar, är AcneSpecialisten det självklara valet. Med över 30 års erfarenhet inom hudvård och en särskild expertis i att behandla bristningar, är vi väl rustade att hjälpa dig. Oavsett om du har några få bristningar eller områden med mer omfattande bristningar, kan vi erbjuda en skräddarsydd behandling för dig.</p>
+            <p class="p200 mt-m">Vi använder oss av de senaste behandlingsmetoderna och teknologierna inom hudvård för att ge dig bästa möjliga resultat. Vårt team av professionella hudterapeuter är redo att skapa en individuell behandlingsplan och stödja dig genom hela behandlingsprocessen. Med regelbundna uppföljningar och anpassade hemmavårdsprogram ser vi till att dina bristningar förbättras avsevärt.</p>
+            <p class="p200 mt-m">Att välja AcneSpecialisten innebär att du får tillgång till den mest avancerade och effektiva behandlingen för dina bristningar. Men vårt engagemang sträcker sig längre än så. Vi ser dig som en partner på din hudvårdsresa och är dedikerade till att hjälpa dig uppnå och bibehålla en smidig och jämn hud. Vår passion, kunskap och långa erfarenhet gör oss till ditt bästa val när det gäller behandling av bristningar.</p>',
       ),
+
 );
 
 
@@ -661,7 +608,7 @@ $results = array(
 );
 
 $show_all_results_label = "Se fler resultat";
-$show_all_results_title = "se flera aknebehandlingsresultat";
+$show_all_results_title = "se flera behandlingsresultat för bristningar";
 
 
 $reviews = array(
@@ -698,92 +645,52 @@ $review_url_label = "Läs fler omdömen";
 $review_url_title = "AcneSpecialisten Omdömen";
 
 $faq_categories = array(
-      'Generellt om akne' => array(
+      'Generellt om bristningar' => array(
             new Question(
-                  title: 'Hur blir jag av med min akne snabbt?',
-                  text: '<p class="p200">Att bli av med akne snabbt är en utmaning, eftersom det inte finns någon quickfix när det gäller akne. Effektiv behandling kräver att du tar hand om din hud genom att använda rätt behandlingar och produkter som passar din specifika hudtyp och akne. För att få en skräddarsydd behandlingsplan som hjälper dig att bli av med aknen så snabbt som möjligt, rekommenderar vi att du bokar en kostnadsfri hudkonsultation hos oss. Under konsultationen kommer vi att analysera din hud och hjälpa dig att utforma en anpassad behandlingsrutin som ger dig de bästa förutsättningarna för att snabbt och effektivt behandla din akne.</p>'
+                title: 'Vilka är de vanligaste områdena på kroppen som är mer benägna att utveckla bristningar?',
+                text: '<p class="p200">Bristningar kan uppträda på olika delar av kroppen, men de vanligaste områdena där de uppträder är buken, brösten, höfterna, skinkorna och låren. Dessa områden är mer mottagliga för bristningar på grund av deras större potentiella tillväxt och utsträckning, särskilt under perioder som graviditet, snabb viktökning eller intensiv muskeltillväxt.</p>'
             ),
             new Question(
-                  title: 'Har jag akne även om jag bara har en finne?',
-                  text: '<p class="p200">Ja, du har tekniskt sett akne även om du bara har en enstaka finne. Akne kan ta sig många olika former och innefattar alla typer av finnar, oavsett om det är enstaka eller flera, stora eller små, papler eller pustler. Många tror att de inte har akne om de endast upplever enstaka finnar då och då, men faktum är att alla dessa fall kategoriseras som akne.</p>'
+                title: 'Är det vanligt att man får bristningar under graviditet?',
+                text: '<p class="p200">Ja, det är mycket vanligt att kvinnor utvecklar bristningar under graviditet. Detta beror på den snabba utsträckning av huden, särskilt på buken, samt hormonella förändringar som kan påverka hudens elasticitet. Många kvinnor upplever att bristningarna uppträder under tredje trimestern när den snabbaste tillväxten av magen sker.</p>'
             ),
             new Question(
-                  title: 'Ska jag klämma mina finnar?',
-                  text: '<p class="p200">Vi på Acnespecialisten rekommenderar att du inte klämmer finnar själv, eftersom felaktig teknik kan leda till ärrbildning och förvärra inflammationen genom att införa bakterier från dina fingrar. Det är dock sant att finnar kan behöva klämmas, men det måste göras på rätt sätt för att undvika skador på huden. Om du undviker att klämma helt kan ärrbildning också uppstå, eftersom fettsyran i finnen fortsätter att fräta på huden.</p>
-
-                        <p class="p200 mt-m">För att klämma finnar korrekt krävs både rätt utrustning och teknik. På Acnespecialisten har vi erfarna hudterapeuter som kan hjälpa dig att behandla dina finnar på ett säkert och effektivt sätt. Genom att vända dig till oss får du den expertis och omsorg du behöver för att hantera din akne på bästa sätt. Du kan läsa mer om våra aknebehandlingar och hur de kan hjälpa dig här.</p>'
+                title: 'Kan både män och kvinnor få bristningar?',
+                text: '<p class="p200">Ja, både män och kvinnor kan utveckla bristningar. Även om det är mer vanligt hos kvinnor, särskilt under graviditet, kan män också få bristningar, särskilt vid snabb viktökning, snabb muskeltillväxt eller vid hormonella obalanser.</p>'
             ),
             new Question(
-                  title: 'Försvinner aknen efter tonåren?',
-                  text: '<p class="p200">Det är svårt att ge ett entydigt svar på den frågan eftersom det varierar från person till person. För vissa kan akne vara ett tonårsproblem som försvinner när de blir äldre, medan det för andra kan övergå till vuxenakne. Det är inte säkert att aknen försvinner efter tonåren, och det kan variera beroende på individuella faktorer som hormoner, genetik och livsstil.</p>
-
-                        <p class="p200 mt-m">Akne kan uppstå i olika faser av livet och dess svårighetsgrad varierar från person till person. Vissa individer upplever akne under tonåren, som sedan försvinner när de når vuxen ålder. Andra kan vara aknefria under tonåren, men drabbas av akne som vuxna. Den mest besvärliga situationen är när någon drabbas av akne under tonåren som sedan övergår till vuxenakne.</p>
-
-                        <p class="p200 mt-m">När man når vuxen ålder och aknen fortfarande inte har försvunnit, är det stor risk att aknen har lett till ärrbildning. Det är därför viktigt att behandla akne i alla åldrar för att förebygga och minimera risken för att drabbas av acneärr. Oavsett ålder och fas av akne, bör man söka hjälp för att behandla och kontrollera sitt tillstånd, för att minska risken för långsiktiga hudproblem som ärrbildning.</p>'
+                title: 'Förändras bristningarnas utseende över tid?',
+                text: '<p class="p200">Ja, bristningarnas utseende kan förändras över tiden. När de först uppträder kan de vara röda, lila eller rosa, men med tiden bleknar de ofta till en ljusare, pärlemorfärg eller till en vit eller silveraktig nyans. Även om de inte helt försvinner kan de bli mindre framträdande över åren.</p>'
             ),
             new Question(
-                  title: 'Kan jag ha akne även om jag är vuxen?',
-                  text: '<p class="p200">Ja, akne kan drabba vuxna och det är faktiskt ganska vanligt. Vuxenakne drabbar cirka 12-22% av alla kvinnor och 3% av alla män. Den kan uppkomma vid 20-, 30- och 40-årsåldern, och ibland ännu senare. Det kallas då för vuxenakne och har också med hormonerna i din kropp att göra, men faktorerna som triggar igång din akne är lite annorlunda än vid tonårsakne.</p>
-
-                        <p class="p200 mt-m">Vid tonårsakne ökar produktionen av det manliga könshormonet i din kropp. Det, i kombination med fettproduktionen, kan leda till att du drabbas av akne. Vid vuxen ålder däremot, kan aknen bero på sådant som graviditet, menstruation, alkohol, stress och preventivmedel. Alltså, yttre faktorer som triggar igång dina hormoner och får aknen att blomma upp.</p>
-
-                       <p class="p200 mt-m">Vuxenakne kan orsakas av flera faktorer, såsom hormonella förändringar, stress, genetik och användning av olämpliga hudvårdsprodukter. Hos kvinnor kan akne ofta vara kopplad till menstruationscykeln eller hormonella förändringar i samband med graviditet och menopaus.</p>
-
-                       <p class="p200 mt-m">Sammanfattningsvis kan akne drabba personer i alla åldrar, och det är viktigt att vara medveten om att akne inte bara är ett tonårsproblem.</p>'
+                title: 'Vilka faktorer kan öka risken för att utveckla bristningar?',
+                text: '<p class="p200">Flera faktorer kan öka risken att utveckla bristningar. Dessa inkluderar genetik, snabb viktökning, graviditet, användning av vissa mediciner.</p>'
             ),
             new Question(
-                  title: 'Förvärras min akne av att jag äter choklad?',
-                  text: '<p class="p200">Nej, det är en myt att choklad direkt skulle leda till akne. Ingen vetenskaplig forskning har tydligt påvisat ett direkt samband mellan chokladkonsumtion och uppkomsten av finnar. Det som potentiellt kan påverka din akne är stress. Om du upplever stress över att du ätit choklad, kan det i sin tur bidra till akneutbrott. Men en bit choklad då och då bör inte orsaka akneutbrott hos de flesta människor.</p>'
+                title: 'Är bristningar farliga eller skadliga för hälsan?',
+                text: '<p class="p200">Nej, bristningar är inte farliga eller skadliga för hälsan. De är mestadels en estetisk bekymmer för många människor. Även om de kan vara irriterande eller orsaka obehag, särskilt när de först uppträder, representerar de inget hot mot personens hälsa.</p>'
             ),
-            new Question(
-                  title: 'Vad kan jag göra för att bli av med min akne?',
-                  text: '<p class="p200">Att bekämpa akne effektivt kräver en individuellt anpassad strategi som kombinerar lämpliga behandlingar och hudvårdsprodukter, utformade för att passa dina unika behov och din huds specifika tillstånd. På Acnespecialisten, erbjuder vi kostnadsfria hudkonsultationer där vi kan utvärdera ditt specifika fall av akne och hjälpa till att skräddarsy en effektiv behandlingsrutin.</p>'
-            )
+
       ),
-      'Behandling mot akne' => array(
+      'Behandling mot bristningar' => array(
             new Question(
-                  title: 'Hur många behandlingar behövs?',
-                  text: '<p class="p200">Antalet behandlingar som behövs varierar från person till person och beror på flera faktorer, som din hudtyp, svårighetsgraden av din akne och din respons på behandlingen. Vanligtvis kan du se en förbättring efter 1 till 3 veckors regelbunden behandling.</p>
+                title: 'Vilka behandlingsalternativ finns tillgängliga för bristningar?',
+                text: '<p class="p200">Det finns olika behandlingsalternativ för att ta itu med bristningar, bland dessa är laserterapi, kemisk peeling och microneedling de mest populära. Laserterapi fungerar genom att stimulera produktionen av kollagen och elastin i huden, vilket kan förbättra bristningens utseende. Kemisk peeling använder syror för att exfoliera det översta hudlagret, vilket kan minska synligheten av yngre bristningar. Microneedling, å andra sidan, skapar mikroskopiska sår i huden för att stimulera hudens naturliga läkningsprocess och öka kollagenproduktionen. Valet av behandlingsmetod beror på individens specifika behov, bristningens ålder och svårighetsgrad, samt andra faktorer. En konsultation med en hudterapeut rekommenderas för att bestämma den bästa behandlingsplanen.</p>'
+            ),
+            new Question(
+                title: 'Hur effektiv är laserbehandling för bristningar?',
+                text: '<p class="p200">Laserbehandling kan vara mycket effektivt för vissa typer av bristningar, särskilt de som är nyare och har en röd eller lila färg. Laserterapi fungerar genom att stimulera produktionen av kollagen och elastin i huden, vilket kan hjälpa till att återställa hudens struktur och minska utseendet av bristningarna. Äldre, blekta bristningar kan vara svårare att behandla med laser, men vissa förbättringar kan fortfarande ses. Som alltid är det viktigt att ha realistiska förväntningar och rådgöra med en hudterapeut för att bestämma den bästa behandlingsplanen.</p>'
+            ),
+            new Question(
+                title: 'Hur lång tid tar det att se resultat efter en bristningsbehandling?',
+                text: '<p class="p200">Tiden det tar att se resultat efter en bristningsbehandling kan variera beroende på typen av behandling och individens specifika hudkarakteristik. Generellt sett kan det ta flera veckor till månader innan fulla resultat syns, särskilt med behandlingar som stimulerar kollagenproduktionen som laser eller mikronålning. För vissa behandlingar, som mikrodermabrasion eller kemiska peelingar, kan man se snabbare förbättringar. Det är viktigt att följa alla eftervårdsinstruktioner och att ha tålamod eftersom hudförnyelse kan ta tid.</p>'
+            ),
 
-                       <p class="p200 mt-m">Det är viktigt att påpeka att behandlingen hos oss inte fungerar i isolering. En väsentlig del av din framgång ligger i den dagliga användningen av de rekommenderade produkterna hemma. Det är kombinationen av professionell behandling och hemmavård som ger bästa möjliga resultat.</p>
-
-                        <p class="p200 mt-m">Om du inte upplever de förväntade förbättringarna efter en tid, uppmanar vi dig att ta kontakt med din personliga hudterapeut. Tillsammans kan vi se över dina hudvårdsrutiner och de produkter du använder, för att optimera din behandlingsplan.</p>'
-            ),
-            new Question(
-                  title: 'Finns det en risk att min akne återkommer?',
-                  text: '<p class="p200">Ja, det finns en risk att akne återkommer, eftersom akne kan påverkas av flera faktorer såsom genetik, hormoner, livsstil och hudvård. Personer med en genetisk benägenhet för akne kan uppleva att aknen återkommer, särskilt under perioder av hormonella förändringar som pubertet, graviditet eller menstruation. Även faktorer som stress, kost och användning av olämpliga hudvårdsprodukter kan bidra till att aknen återkommer.</p>
-                       
-                       <p class="p200 mt-m">Det är dock viktigt att komma ihåg att regelbunden och korrekt hudvård kan hålla aknen i schack. Precis som vi borstar tänderna varje dag för att hålla karies borta, behöver vi underhålla vår hud för att hålla aknen borta. Det innebär att följa en anpassad hudvårdsrutin, hantera stress och upprätthålla en hälsosam livsstil. Så länge du tar hand om din hud regelbundet och på rätt sätt, kan du förhindra att aknen återkommer.</p>'
-            ),
-            new Question(
-                  title: 'Vilken är den bästa behandlingen mot akne?',
-                  text: '<p class="p200">Vilken behandling som är bäst för akne varierar beroende på individens hudtyp, aknens svårighetsgrad och orsaker till akne. Den bästa behandlingen är en skräddarsydd behandlingsplan som kombinerar rätt behandlingar, produkter och rutiner för att effektivt ta itu med den aktiva aknen och förhindra att nya utbrott uppstår. Genom att först behandla och bli av med den aktiva aknen kan du uppnå en klarare hud. Därefter är det viktigt att bibehålla resultaten med lämpliga produkter och rutiner för att motverka att nya finnar uppstår och hålla aknen under kontroll. Det rekommenderas att konsultera en av våra specialister för att få en personlig och effektiv behandlingsplan som passar just din hud och akne.</p>'
-            ),
-            new Question(
-                  title: 'Gör aknebehandlingen ont?',
-                  text: '<p class="p200">Vi strävar efter att göra aknebehandlingen så behaglig som möjligt för våra klienter. Det är sant att akne ibland innebär inflammation i porerna och kan göra ont när de öppnas upp och töms. Men vi vill påpeka att smärtupplevelsen kan variera från person till person och bero på behandlingsmetoden som används. Vår erfarna personal är välutbildad och tar stor hänsyn till din komfort under behandlingen. Om du känner någon obehag, tveka inte att informera din acnespecialist så att de kan justera behandlingen efter dina behov.</p>'
-            ),
-            new Question(
-                  title: 'Vad ska jag tänka på innan behandlingen?',
-                  text: '<p class="p200">Vi vill att din behandling ska vara så smidig och bekväm som möjligt, och vi strävar efter att göra processen enkel för dig. Du behöver inte förbereda något särskilt inför ditt besök hos oss. Kom precis som du är, och vi tar hand om resten. Vi kommer att genomföra en grundlig hudanalys och skräddarsy en behandlingsplan som passar just dig och din hudtyp. Så, du kan lita på oss och bara slappna av inför din aknebehandling.</p>'
-            ),
-            new Question(
-                  title: 'Vad ska jag tänka på efter behandling?',
-                  text: '<p class="p200">Efter din aknebehandling hos Acnespecialisten kan du uppleva att huden blir något röd och irriterad. Detta är helt normalt och en del av hudens naturliga läkningsprocess. Rödheten och irritationen kommer att avta under dagarna efter behandlingen. Det är viktigt att du fortsätter att följa den hudvårdsrutin och de produktrekommendationer vi gett dig för att stödja hudens återhämtning och maximera resultaten av behandlingen.</p>
-                        
-                        <p class="p200 mt-m">Undvik att peta eller klämma på behandlade områden för att undvika eventuell ärrbildning och infektion. Dessutom är det bra att skydda huden från solen, då den kan vara extra känslig efter behandling. Använd solskyddsmedel och undvik direkt solljus så mycket som möjligt. Kom ihåg att vi på Acnespecialisten alltid finns här för dig om du har några frågor eller funderingar efter din behandling.</p>'
-            ),
-            new Question(
-                  title: 'Eftervård efter behandlingen?',
-                  text: '<p class="p200">Eftervården efter en aknebehandling hos Acnespecialisten är lika viktig som själva behandlingen. När aknen är utklämd och borta är det viktigt att förebygga uppkomsten av ny akne. Om du inte följer din eftervårdsplan kommer du att få resultat, men det kommer inte vara bestående, eftersom akneproduktionen sätter igång igen kort tid efter behandlingen.</p>
-
-                  <p class="p200 mt-m">För att hålla huden i kontroll och balans är det viktigt att följa de råd och rekommendationer vi ger dig angående hudvårdsrutin och produkter. Kontinuerlig behandling och förebyggande åtgärder är avgörande för att uppnå och bibehålla en klar och frisk hud. Kom ihåg att vi på Acnespecialisten alltid finns här för att hjälpa och stötta dig genom hela processen, både under och efter din behandling.</p>',
-            ),
       ),
 );
 
 $faq_url_label = "Läs fler frågor & svar";
-$faq_url_title = "läs flera frågor relaterat till akne";
+$faq_url_title = "läs flera frågor relaterat till bristningar";
 
 $skin_guide_articles = array(
       new SkinGuideArticle(
@@ -835,71 +742,42 @@ $skin_guide_articles = array(
 );
 
 $skinguide_url_label = "Läs fler guider";
-$skinguide_url_title = "Läs fler guider om akne";
+$skinguide_url_title = "Läs fler guider om bristningar";
 
 $specialists = array(
       new Specialist(
             name: 'Cazzandra Lindberg',
             title: 'Hudterapeut sedan 2015',
             image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
-            image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i aknebehandling',
-            image_title: 'Cazzandra Lindberg - Expert på aknebehandling'
+            image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i behandling av bristningar',
+            image_title: 'Cazzandra Lindberg - Expert på behandling av bristningar'
       ),
       new Specialist(
             name: 'Veronika Benedik',
             title: 'Hudterapeut sedan 1999',
             image: 'images/specialists/312x312/hudterapeut-veronika.webp',
-            image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på akne',
-            image_title: 'Veronika Benedik - Specialist inom aknevård'
+            image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på bristningar',
+            image_title: 'Veronika Benedik - Specialist inom vård av bristningar'
       ),
       new Specialist(
             name: 'Amira Maqboul',
             title: 'Hudterapeut sedan 2017',
             image: 'images/specialists/312x312/hudterapeut-amira.webp',
-            image_alt: 'Amira Maqboul, hudterapeut med kunskap inom aknehantering',
-            image_title: 'Amira Maqboul - Hudterapeut specialiserad på akne'
+            image_alt: 'Amira Maqboul, hudterapeut med kunskap inom hantering av bristningar',
+            image_title: 'Amira Maqboul - Hudterapeut specialiserad på bristningar'
       ),
       new Specialist(
             name: 'Vilma Libom',
             title: 'Hudterapeut sedan 2019',
             image: 'images/specialists/312x312/hudterapeut-vilma.webp',
-            image_alt: 'Vilma Libom, hudterapeut med inriktning mot aknebehandling',
-            image_title: 'Vilma Libom - Expert inom aknebehandling'
+            image_alt: 'Vilma Libom, hudterapeut med inriktning mot behandling av bristningar',
+            image_title: 'Vilma Libom - Expert inom behandling av bristningar'
       )
 );
 
 $specialist_url_label = "Se alla specialister";
-$specialist_url_title = "Akne Specialiserade Hudterapeuter";
+$specialist_url_title = "Hudterapeuter specialiserade på bristningar";
 
-$related_problems = array(
-      new RelatedProblem(
-            name: 'Acneärr',
-            aka: 'gropar & Fläckar',
-            image: 'images/problems/102x102/acnearr.webp',
-            image_alt: 'Bild som visar acneärr, en typ av hudproblem som ofta följer efter akne',
-            image_title: 'Acneärr - en vanlig följd av akne',
-            url: '/problem/acnearr',
-            url_title: 'Acneärr'
-      ),
-      new RelatedProblem(
-            name: 'Rosacea',
-            aka: 'ansiktsrodnad',
-            image: 'images/problems/200x200/rosacea.webp',
-            image_alt: 'Bild som illustrerar rosacea, ett hudtillstånd som kan förväxlas med akne',
-            image_title: 'Rosacea - en hudsjukdom som ofta förväxlas med akne',
-            url: 'problem/rosacea',
-            url_title: 'Rosacea'
-      ),
-      new RelatedProblem(
-            name: 'Perioral dermatit',
-            aka: 'akne runt munnen',
-            image: 'images/problems/200x200/perioral-dermatit.webp',
-            image_alt: 'Bild som skildrar perioral dermatit, en hudåkomma som kan förväxlas med akne',
-            image_title: 'Perioral dermatit (acne runt munnen) ett hudproblem liknande akne',
-            url: 'perioral-dermatit',
-            url_title: 'Perioral dermatit',
-      ),
-);
 $brands = array(
       new Brand(
             label: 'Powerlite',
@@ -968,7 +846,7 @@ $brands = array(
 );
 
 $brands_url_label = "Se alla varumärken";
-$brands_url_title = "Varumärken för Aknebehandling";
+$brands_url_title = "Varumärken för behandling av bristningar";
 
 ?>
 
