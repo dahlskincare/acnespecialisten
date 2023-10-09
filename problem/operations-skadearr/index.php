@@ -423,61 +423,46 @@ $faq_categories = array(
       'Generellt om operations- och skadeärr' => array(
             new Question(
                 title: 'Kan ärr blekna över tid?',
-                text: '<p class="p200">Ärr kan blekna över tid. Hur mycket och hur snabbt ett ärr bleknar varierar beroende på individen, ärrtypen och var på kroppen det sitter. Vissa ärr kan blekna betydligt inom några månader, medan andra kan ta flera år.</p>'
+                text: '<p class="p200">Ärr kan definitivt blekna över tid. Faktorer som ålder, hudens placering, storlek och typ av skada påverkar alla tiden det tar för ett ärr att blekna. Generellt kan ärr på ansiktet blekna snabbare jämfört med de på kroppen. Yngre hud har också en tendens att läka snabbare än äldre hud. Även om vissa ärr kan blekna betydligt inom några månader, kan andra ta flera år och vissa kan aldrig helt försvinna utan behandling. Regelbunden återfuktning och solskydd kan hjälpa till att påskynda blekningsprocessen.</p>'
             ),
-
             new Question(
                 title: 'Finns det olika typer av ärr?',
-                text: '<p class="p200">Ja, det finns olika typer av ärr. Keloidärr är tjocka, upphöjda ärr som kan växa större än såret. Hypertrofiska ärr är också upphöjda, men inte lika mycket som keloidärr och sprider sig inte utanför sårets gränser. Atrofiska ärr är försänkta och skapar en grop i huden. Kontrakturärr är resultatet av förlust av ett stort hudområde, oftast från brännskador.</p>'
+                text: '<p class="p200">Ja, det finns flera olika typer av ärr, var och en med sina egna egenskaper. Keloidärr är tjocka, upphöjda ärr som bildas när kroppen överproducerar kollagen efter en hudskada. Dessa kan växa större än såret och kan vara klåda eller smärtsamt. Hypertrofiska ärr liknar keloider men växer inte utanför sårets gränser. De är upphöjda, röda och kan också vara smärtsamma. Atrofiska ärr är försänkta ärr som ofta kommer från akne eller vattkoppor. De har en gropig yta och kan likna små kratrar. Kontrakturärr är ett resultat av förlust av ett stort hudområde, oftast från brännskador och kan begränsa rörelseförmågan på grund av hudens sammandragning.</p>'
             ),
-
             new Question(
                 title: 'Hur kan genetik påverka ärrbildningen?',
-                text: '<p class="p200">Genetik kan påverka hur en person läker och därmed risken för att utveckla vissa typer av ärr. Vissa personer kan vara mer benägna att bilda tjockare, upphöjda ärr, som keloider, baserat på sin genetiska bakgrund.</p>'
+                text: '<p class="p200">Genetik spelar en viktig roll i ärrbildning och kan påverka hur en person läker. Vissa genetiska faktorer kan göra en person mer benägen att utveckla tjocka, upphöjda ärr som keloider eller hypertrofiska ärr. Etnicitet kan också spela en roll, med vissa befolkningar som har en högre risk att utveckla dessa typer av ärr. Förståelse av familjens ärrhistoria kan ge insikt i hur en person kan förväntas läka efter en skada.</p>'
             ),
-
-            new Question(
-                title: 'Varför kliar vissa ärr?',
-                text: '<p class="p200">Vissa ärr kan klia, särskilt när de fortfarande håller på att läka. Detta kan vara ett resultat av nervregeneration eller den inflammatoriska processen. Om klådan är ihållande eller området runt ärret blir rött och inflammerat, bör man få ärret undersökt.</p>'
-            ),
-
             new Question(
                 title: 'Kan solen påverka hur ett ärr läker eller dess utseende över tid?',
-                text: '<p class="p200">Solen kan definitivt påverka hur ett ärr läker och dess utseende över tid. Direkt sol exponering kan orsaka att ärret mörknar eller hyperpigmenterar, vilket gör det mer synligt. Det är viktigt att skydda ärret från solen för att minska risken för missfärgning.</p>'
+                text: '<p class="p200">Solen har en signifikant inverkan på ärrs läkning och utseende. Direkt sol exponering kan leda till att nybildade ärr mörknar eller hyperpigmenterar, vilket kan göra dem mer framträdande. Solskador på ärr kan också minska hudens elasticitet, vilket kan förvärra ärrbildningens textur och kvalitet. Det är därför avgörande att använda solskydd, som solkräm eller kläder, för att skydda ärret från solen, särskilt under dess tidiga läkningsfaser.</p>'
             ),
-
             new Question(
                 title: 'Är det vanligt att känna smärta eller obehag runt ett ärr?',
-                text: '<p class="p200">Det är inte ovanligt att känna smärta eller obehag runt ett ärr, särskilt om det är ett nytt eller färskt ärr. När vävnaden läker, kan kollagenfibrerna bli strama och orsaka dragkänsla. Smärta kan också vara ett resultat av nervskada eller irritation.</p>'
+                text: '<p class="p200">Ja, många individer upplever smärta, klåda eller obehag i och runt ärrvävnaden. Särskilt under de tidiga stadierna av läkning kan kollagenfibrerna bli strama, vilket ger en dragande eller klämmande känsla. Smärta eller obehag kan också vara kopplat till nervskada, irritation eller inflammation i området. Med tiden tenderar dessa känslor att minska för de flesta ärr, men om smärtan kvarstår eller är svår, bör medicinsk rådgivning sökas.</p>'
             ),
-
       ),
       'Behandling mot operations- och skadeärr' => array(
             new Question(
                 title: 'Vilka är de vanligaste behandlingsmetoderna för operations- och skadeärr?',
-                text: '<p class="p200">Operations- och skadeärr behandlas med laser, microneedling eller kemisk peeling beroende på ärrets typ och placering.</p>'
+                text: '<p class="p200">Det finns flera behandlingsalternativ för operations- och skadeärr, och valet av metod beror på ärrets typ, placering och den enskilda patientens behov. De mest populära metoderna inkluderar laserbehandling, som bryter ner ärrvävnaden och stimulerar hudens naturliga läkningsprocess; microneedling, där små nålar används för att skapa mikroskopiska sår i huden vilket aktiverar kollagenproduktionen; och kemisk peeling, där syror appliceras för att ta bort de yttersta hudlagren och främja ny hudtillväxt.</p>'
             ),
 
             new Question(
                 title: 'Är laserbehandlingar effektiva för operations- och skadeärr?',
-                text: '<p class="p200">Ja, laserbehandlingar kan vara särskilt effektiva för att minska synligheten av operations- och skadeärr. De kan hjälpa till med att jämföra hudens textur, minska rodnad och förbättra ärrets färgton. Emellertid kan flera sessioner behövas för bästa möjliga resultat.</p>'
-            ),
-
-            new Question(
-                title: 'Hur viktig är eftervård efter en ärrbehandling?',
-                text: '<p class="p200">Ja, det är viktigt att följa eftervårdsinstruktionerna efter en ärrbehandling för att säkerställa läkningsprocessen och optimera resultatet. Detta kan inkludera att undvika direkt sol, applicera vissa krämer eller lotions, undvika vissa fysiska aktiviteter, eller hålla området rent.</p>'
+                text: '<p class="p200">Laserbehandlingar har visat sig vara mycket effektiva för att behandla operations- och skadeärr. De fungerar genom att rikta in ljusenergi på ärrvävnaden, vilket kan hjälpa till att bryta ner ärrvävnaden och stimulera produktionen av nytt kollagen. Olika typer av lasrar kan användas beroende på ärrets djup, färg och placering. Förutom att förbättra hudens textur kan laserbehandlingar också minska rodnad och förbättra ärrfärgen. Emellertid kräver de flesta patienter flera behandlingssessioner för att uppnå önskade resultat, och det finns en återhämtningsperiod efter varje session.</p>'
             ),
 
             new Question(
                 title: 'Vilka är de potentiella biverkningarna av ärrbehandling?',
-                text: '<p class="p200">Biverkningar av ärrbehandling varierar beroende på vilken behandling som används. Allmänna biverkningar kan inkludera rodnad, svullnad, obehag eller klåda på behandlingsstället. Dessa är oftast tillfälliga. Det är viktigt att diskutera potentiella biverkningar med din behandlare innan behandlingen påbörjas.</p>'
+                text: '<p class="p200">Biverkningarna av ärrbehandling kan variera beroende på vilken specifik metod som används. Allmänna biverkningar inkluderar rodnad, svullnad, obehag eller klåda på behandlingsstället. Dessa symtom är oftast tillfälliga och lindras inom några dagar. Andra potentiella biverkningar kan inkludera blåmärken, förändringar i hudfärgen, infektion, ärrförvärring eller till och med ärrbildning som ett resultat av behandlingen. I sällsynta fall kan patienter uppleva allergiska reaktioner på de produkter eller anordningar som används under behandlingen. Därför är det avgörande att diskutera alla potentiella biverkningar med en kvalificerad specialist innan man påbörjar en behandlingsregim.</p>'
             ),
 
       ),
 );
 
 $faq_url_label = "Läs fler frågor & svar";
-$faq_url_title = "läs flera frågor relaterat till akne";
+$faq_url_title = "läs flera frågor relaterat till operations- och skadeärr";
 
 $skin_guide_articles = array(
       new SkinGuideArticle(
@@ -529,71 +514,42 @@ $skin_guide_articles = array(
 );
 
 $skinguide_url_label = "Läs fler guider";
-$skinguide_url_title = "Läs fler guider om akne";
+$skinguide_url_title = "Läs fler guider om operations- och skadeärr";
 
 $specialists = array(
       new Specialist(
             name: 'Cazzandra Lindberg',
             title: 'Hudterapeut sedan 2015',
             image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
-            image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i aknebehandling',
-            image_title: 'Cazzandra Lindberg - Expert på aknebehandling'
+            image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i behandling av operation- och skadeärr',
+            image_title: 'Cazzandra Lindberg - Expert på behandling av operation- och skadeärr'
       ),
       new Specialist(
             name: 'Veronika Benedik',
             title: 'Hudterapeut sedan 1999',
             image: 'images/specialists/312x312/hudterapeut-veronika.webp',
-            image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på akne',
-            image_title: 'Veronika Benedik - Specialist inom aknevård'
+            image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på operation- och skadeärr',
+            image_title: 'Veronika Benedik - Specialist inom vård av operation- och skadeärr'
       ),
       new Specialist(
             name: 'Amira Maqboul',
             title: 'Hudterapeut sedan 2017',
             image: 'images/specialists/312x312/hudterapeut-amira.webp',
-            image_alt: 'Amira Maqboul, hudterapeut med kunskap inom aknehantering',
-            image_title: 'Amira Maqboul - Hudterapeut specialiserad på akne'
+            image_alt: 'Amira Maqboul, hudterapeut med kunskap inom hantering av operation- och skadeärr',
+            image_title: 'Amira Maqboul - Hudterapeut specialiserad på operation- och skadeärr'
       ),
       new Specialist(
             name: 'Vilma Libom',
             title: 'Hudterapeut sedan 2019',
             image: 'images/specialists/312x312/hudterapeut-vilma.webp',
-            image_alt: 'Vilma Libom, hudterapeut med inriktning mot aknebehandling',
-            image_title: 'Vilma Libom - Expert inom aknebehandling'
+            image_alt: 'Vilma Libom, hudterapeut med inriktning mot behandling av operation- och skadeärr',
+            image_title: 'Vilma Libom - Expert inom behandling av operation- och skadeärr'
       )
 );
 
 $specialist_url_label = "Se alla specialister";
-$specialist_url_title = "Akne Specialiserade Hudterapeuter";
+$specialist_url_title = "Ärr Specialiserade Hudterapeuter";
 
-$related_problems = array(
-      new RelatedProblem(
-            name: 'Acneärr',
-            aka: 'gropar & Fläckar',
-            image: 'images/problems/102x102/acnearr.webp',
-            image_alt: 'Bild som visar acneärr, en typ av hudproblem som ofta följer efter akne',
-            image_title: 'Acneärr - en vanlig följd av akne',
-            url: '/problem/acnearr',
-            url_title: 'Acneärr'
-      ),
-      new RelatedProblem(
-            name: 'Rosacea',
-            aka: 'ansiktsrodnad',
-            image: 'images/problems/200x200/rosacea.webp',
-            image_alt: 'Bild som illustrerar rosacea, ett hudtillstånd som kan förväxlas med akne',
-            image_title: 'Rosacea - en hudsjukdom som ofta förväxlas med akne',
-            url: 'problem/rosacea',
-            url_title: 'Rosacea'
-      ),
-      new RelatedProblem(
-            name: 'Perioral dermatit',
-            aka: 'akne runt munnen',
-            image: 'images/problems/200x200/perioral-dermatit.webp',
-            image_alt: 'Bild som skildrar perioral dermatit, en hudåkomma som kan förväxlas med akne',
-            image_title: 'Perioral dermatit (acne runt munnen) ett hudproblem liknande akne',
-            url: 'perioral-dermatit',
-            url_title: 'Perioral dermatit',
-      ),
-);
 $brands = array(
       new Brand(
             label: 'Powerlite',
@@ -662,7 +618,7 @@ $brands = array(
 );
 
 $brands_url_label = "Se alla varumärken";
-$brands_url_title = "Varumärken för Aknebehandling";
+$brands_url_title = "Varumärken för operations- och skadeärr behandling";
 
 ?>
 
