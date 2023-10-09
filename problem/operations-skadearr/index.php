@@ -175,148 +175,77 @@ $type_categories = array(
                   ),
             )
       ),
-      
+
       new BasedTypeCategory(
-            title: 'Akne baserat på yttre faktorer',
-            content: '<p class="p200">Yttre faktorer kan också påverka uppkomsten av akne. Exempel på dessa är sol, friktion, kosmetika, mediciner och miljöfaktorer. Dessa kan bidra till eller förvärra akne genom att irritera huden, täppa till porer eller påverka hudens talgproduktion.</p>',
+            title: 'Operations- och skadeärr baserat på yttre faktorer',
+            content: '<p class="p200">Yttre faktorer kan bidra till uppkomsten av operations- och skadeärr. Sådana faktorer inkluderar trauma från olyckor, kirurgiska ingrepp, brännskador, snabb hudsträckning som orsakar sträckmärken, och exponering för starka kemikalier eller extrema temperaturer. Ärr som bildas på grund av dessa faktorer kan variera i form, storlek och färg beroende på skadans omfattning och hur kroppen läker.</p>',
             types: array(
                   new BasedType(
-                        title: 'Mallorca akne',
-                        subtitle: 'även kallat Acne aestivalis',
+                        title: 'Traumatiska ärr',
+                        subtitle: 'Resultat av yttre skador',
 
-                        image_url: 'images/problems/102x102/mallorca-akne.webp',
-                        image_alt: 'Bild av Mallorca akne',
-                        image_title: 'Exempel på Mallorca akne',
-
-                        url: null,
-                        url_title: null,
-                  ),
-                  new BasedType(
-                        title: 'Hormonell akne',
-                        subtitle: 'akne orsakad av hormoner',
-
-                        image_url: 'images/problems/102x102/hormonell-akne.webp',
-                        image_alt: 'Bild av hormonell akne',
-                        image_title: 'Exempel på hormonell akne',
+                        image_url: 'images/problems/102x102/traumatic-scar.webp',
+                        image_alt: 'Bild av traumatiskt ärr',
+                        image_title: 'Exempel på traumatiskt ärr',
 
                         url: null,
                         url_title: null,
                   ),
                   new BasedType(
-                        title: 'kosmetika akne',
-                        subtitle: 'Även kallat Acne cosmetica',
+                        title: 'Kirurgiska ärr',
+                        subtitle: 'Efter kirurgiska ingrepp',
 
-                        image_url: 'images/problems/102x102/kosmetika-akne.webp',
-                        image_alt: 'Bild av kosmetika akne',
-                        image_title: 'Exempel på kosmetika akne',
-
-                        url: null,
-                        url_title: null,
-                  ),
-                  new BasedType(
-                        title: 'Akne från pillande',
-                        subtitle: 'Även kallat Acne exoriée ',
-
-                        image_url: 'images/problems/102x102/pill-akne.webp',
-                        image_alt: 'Bild av pill akne',
-                        image_title: 'Exempel på pill akne',
+                        image_url: 'images/problems/102x102/surgical-scar.webp',
+                        image_alt: 'Bild av kirurgiskt ärr',
+                        image_title: 'Exempel på kirurgiskt ärr',
 
                         url: null,
                         url_title: null,
                   ),
                   new BasedType(
-                        title: 'Friktionsakne',
-                        subtitle: 'Även kallat Acne mechanica',
+                        title: 'Brännskadeärr',
+                        subtitle: 'Från termiska, kemiska eller solbrännskador',
 
-                        image_url: 'images/problems/102x102/friktions-akne.webp',
-                        image_alt: 'Bild av friktions akne',
-                        image_title: 'Exempel på friktions akne',
-
-                        url: null,
-                        url_title: null,
-                  ),
-                  new BasedType(
-                        title: 'Läkemedelsakne',
-                        subtitle: 'Även kallat Acne medicamentosa',
-
-                        image_url: 'images/problems/102x102/lakemedelsakne.webp',
-                        image_alt: 'Bild av läkemedelsakne',
-                        image_title: 'Exempel på läkemedelsakne',
+                        image_url: 'images/problems/102x102/burn-scar.webp',
+                        image_alt: 'Bild av brännskadeärr',
+                        image_title: 'Exempel på brännskadeärr',
 
                         url: null,
                         url_title: null,
                   ),
                   new BasedType(
-                        title: 'Kontaktakne',
-                        subtitle: 'Även kallat Acne venenata',
+                        title: 'Ärr från bett eller stick',
+                        subtitle: 'Efter insektsbett, djurbett eller växtstick',
 
-                        image_url: 'images/problems/102x102/kontakt-akne.webp',
-                        image_alt: 'Bild av kontaktakne',
-                        image_title: 'Exempel på kontaktakne',
+                        image_url: 'images/problems/102x102/bite-scar.webp',
+                        image_alt: 'Bild av ärr från bett eller stick',
+                        image_title: 'Exempel på ärr från bett eller stick',
 
                         url: null,
                         url_title: null,
                   ),
-                  new BasedType(
-                        title: 'Svampakne',
-                        subtitle: 'Även kallat fungal acne',
-
-                        image_url: 'images/problems/102x102/svamp-akne.webp',
-                        image_alt: 'Bild av svampakne',
-                        image_title: 'Exempel på svampakne',
-
-                        url: null,
-                        url_title: null,
-                  )
             )
       ),
+
       new BasedTypeCategory(
-            title: 'Akne baserat på område',
-            content: '<p class="p200">Akne kan uppträda på olika områden på kroppen. Ansiktet är det vanligaste området, men akne kan också förekomma på bröst, rygg, axlar och andra delar av kroppen. Placeringen av akne kan ge en indikation på dess orsak, som hormonella förändringar, irritation från kläder eller yttre faktorer som sol och friktion.</p>',
-            types: array(
-                  new BasedType(
-                        title: 'Akne i ansiktet',
-                        subtitle: 'Även kallat Acne faciei',
-
-                        image_url: 'images/problems/102x102/akne-ansikte.webp',
-                        image_alt: 'Bild av akne i ansiktet',
-                        image_title: 'Exempel på akne i ansiktet',
-
-                        url: null,
-                        url_title: null,
-                  ),
-                  new BasedType(
-                        title: 'Akne på ryggen',
-                        subtitle: 'Även kallat Acne dorsalis',
-
-                        image_url: 'images/problems/102x102/akne-rygg.webp',
-                        image_alt: 'Bild av akne på ryggen',
-                        image_title: 'Exempel på akne på ryggen',
-
-                        url: null,
-                        url_title: null,
-                  ),
-                  new BasedType(
-                        title: 'Akne på bröstet',
-                        subtitle: 'Även kallat Acne pectoralis',
-
-                        image_url: 'images/problems/102x102/akne-brost.webp',
-                        image_alt: 'Bild av akne på bröstet',
-                        image_title: 'Exempel på akne på bröstet',
-
-                        url: null,
-                        url_title: null,
-                  ),
-
-            )
-      )
+          title: 'Operations- och skadeärr baserat på område',
+          content: '<p class="p200">Operations- och skadeärr kan variera beroende på var på kroppen de uppstår. Varje område av kroppen läker annorlunda, och vissa områden är mer benägna att bilda synliga ärr än andra.</p>',
+          types: array(
+              new BasedType(
+                  title: 'Ansiktsärr',
+                  subtitle: 'Ärr orsakade av operationer, akne, vattkoppor eller andra skador i ansiktet.',
+                  image_url: 'images/problems/102x102/ansiktsarr.webp',
+                  image_alt: 'Bild av ansiktsärr',
+                  image_title: 'Exempel på ansiktsärr',
+                  url: null,
+                  url_title: null,
+              ),
+          )
+      ),
 
 );
 
-$types_url = '<a href="problem/akne/typer" title="Lär dig mer om olika typer av akne och deras behandling" class="mt-xl button b200 outline expand l10n is-hidden-tablet">Läs mer om olika typer av akne</a>
-              <a href="problem/akne/typer" title="Lär dig mer om olika typer av akne och deras behandling" class="mt-xl button b200 outline l10n is-hidden-mobile">Läs mer om olika typer av akne</a>';
-
-$symptoms_title = 'Akne symptom';
+$symptoms_title = 'Operation- och skadeärr symptom';
 
 $symptoms = array(
       new Symptom(
@@ -331,71 +260,6 @@ $symptoms = array(
             image: 'images/symptoms/102x102/komedoner-oppna.webp',
             image_alt: 'Bild av öppna komedoner (pormaskar)',
             image_title: 'Öppna komedoner (pormaskar)'
-      ),
-      new Symptom(
-            name: 'Stängda komedoner',
-            aka: 'Kända som "whiteheads"',
-            content: 'Whiteheads (slutna komedoner) är små, vita eller hudfärgade utbuktningar som uppstår när en por täpps till av talg och döda hudceller under hudytan. De är täckta av ett tunt lager hud, vilket förhindrar oxidation och därmed behåller sin ljusa färg. Whiteheads kan vara platta eller lätt upphöjda och är vanligt förekommande på pannan, kinderna och hakan.',
-
-            url_label: 'Läs mer om stängda komedoner',
-            url: 'problem/akne/typer/atrophic-icepick-scars',
-            url_title: 'Läs mer om stängda komedoner (whiteheads)',
-
-            image: 'images/symptoms/102x102/komedoner-stangda.webp',
-            image_alt: 'Bild av stängda komedoner (whiteheads)',
-            image_title: 'Stängda komedoner (whiteheads)'
-      ),
-      new Symptom(
-            name: 'Papler',
-            aka: 'Kända som röda finnar',
-            content: 'Papuler är små, fasta, röda och inflammerade blemmor som uppstår när en hårsäck blir infekterad av bakterier, oftast Propionibacterium acnes. De är vanligtvis mindre än 5 mm i diameter och kan vara känsliga vid beröring. Papuler är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.',
-
-            url_label: 'Läs mer om papler',
-            url: 'problem/akne/typer/atrophic-boxcar-scars',
-            url_title: 'Läs mer om papler (röda finnar)',
-
-            image: 'images/symptoms/102x102/papler.webp',
-            image_alt: 'Bild av papler (röda finnar)',
-            image_title: 'Papler (röda finnar)'
-      ),
-      new Symptom(
-            name: 'Pustler',
-            aka: 'Kända som gula finnar',
-            content: 'Pustuler är röda och inflammerade blemmor som innehåller var (en blandning av döda bakterier, vita blodkroppar och döda hudceller). De ser ut som papuler men har en vit eller gul prick i mitten. Pustuler kan vara smärtsamma och är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.',
-
-            url_label: 'Läs mer om pustler',
-            url: 'problem/akne/typer/atrophic-rolling-scars',
-            url_title: 'Läs mer om pustler (gula finnar)',
-
-            image: 'images/symptoms/102x102/pustler.webp',
-            image_alt: 'Bild av pustler (gula finnar)',
-            image_title: 'Pustler (gula finnar)'
-      ),
-      new Symptom(
-            name: 'Noduler',
-            aka: 'Kända som innåtfinnar',
-            content: 'Noduler är större, djupare och ofta smärtsamma inflammerade blemmor som uppstår när en hårsäck blir kraftigt infekterad och inflammationen sprider sig till det omgivande vävnaden. De är vanligtvis större än 5 mm i diameter och kan vara fasta och ömma vid beröring. Noduler är vanligt förekommande på ansiktet, nacken, bröstet, ryggen och ibland även på överarmarna och skinkorna.',
-
-            url_label: 'Läs mer om noduler',
-            url: 'problem/akne/typer/hypertrophic-keloid',
-            url_title: 'Läs mer om noduler (innåtfinnar)',
-
-            image: 'images/symptoms/102x102/noduler.webp',
-            image_alt: 'Bild av noduler (innåtfinnar)',
-            image_title: 'Noduler (innåtfinnar)'
-      ),
-      new Symptom(
-            name: 'Cystor',
-            aka: 'Kända som bölder',
-            content: 'Cystor är stora, inflammerade och smärtsamma blemmor som är fyllda med var och bildas när en hårsäck blir mycket infekterad och inflammationen sprider sig djupt in i huden. De kan vara runda och mjuka eller fasta och ömma vid beröring. Cystor kan vara större än 5 mm i diameter och är vanligt förekommande på ansiktet, nacken, bröstet och ryggen. Cystisk akne kan leda till ärrbildning och kräver ofta professionell behandling.',
-
-            url_label: 'Läs mer om cystor',
-            url: 'problem/akne/typer/hypertrophic-keloid',
-            url_title: 'Läs mer om cystor (bölder)',
-
-            image: 'images/symptoms/102x102/cystor.webp',
-            image_alt: 'Bild av cystor (bölder)',
-            image_title: 'Cystor (bölder)'
       ),
 );
 
