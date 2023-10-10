@@ -172,7 +172,7 @@ $type_categories = array(
 
                   new BasedType(
                       title: 'Hallonmärke',
-                      subtitle: 'Hallonmärke'l,
+                      subtitle: 'Hallonmärke',
                       image_url: 'images/problems/102x102/hallonmarke.webp',
                       image_alt: 'Bild av Hallonmärke',
                       image_title: 'Exempel på Hallonmärke',

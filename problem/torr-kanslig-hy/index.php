@@ -753,7 +753,7 @@ $specialists = array(
             image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
             image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i behandling av torr och känslig hy',
             image_title: 'Cazzandra Lindberg - Expert på behandling av torr och känslig hy'
-      ), torr och känslig hy
+      ),
       new Specialist(
             name: 'Veronika Benedik',
             title: 'Hudterapeut sedan 1999',
