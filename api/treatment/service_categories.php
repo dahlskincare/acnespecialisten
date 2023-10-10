@@ -27,7 +27,7 @@ if (empty($where)) {
     $where = implode(' AND ', $where);
 }
 
-$query = "SELECT id, category_type, image_url, title_$language AS title, subtitle_$language AS subtitle FROM $dbname.treatment_service_category WHERE $where ORDER BY $dbname.treatment_service_category.rank ASC LIMIT 10000";
+$query = "SELECT id, category_type, image_url, name_$language AS name, subtitle_$language AS subtitle FROM $dbname.treatment_service_category WHERE $where ORDER BY $dbname.treatment_service_category.rank ASC LIMIT 10000";
 
 $conn = mysqli_connect($servername, $username, $password);
 if (!$conn) {
