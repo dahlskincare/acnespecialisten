@@ -132,7 +132,7 @@ $treatment_steps = array(
 
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/perioral-dermatit',
-            url_title: 'Hitta de bästa produkterna för att förebygga perioral dermatit'
+            url_title: 'Hitta de bästa produkterna för att förebygga perioral dermatit',
       ),
 );
 

@@ -450,8 +450,9 @@ $faq_categories = array(
                   text: '<p class="p200">Milier tenderar sällan att försvinna av sig själva, särskilt om de har funnits under en längre tid. I vissa fall kan milier hos nyfödda försvinna spontant, men hos vuxna är det mindre troligt. Professionell behandling rekommenderas för att effektivt och säkert ta bort dem.</p>'
             ),
 
-new Question(
-                  title: 'Det finns inget direkt samband mellan milier och akne eller eksem, även om de kan uppträda samtidigt. Milier är fyllda med keratin snarare än talg, som är fallet med akne. De kan dock förekomma i områden där huden är skadad eller inflammerad, som kan vara fallet med eksem.</p>'
+            new Question(
+                  title: 'Vad skiljer milier från finnar?',
+                  text: 'Det finns inget direkt samband mellan milier och akne eller eksem, även om de kan uppträda samtidigt. Milier är fyllda med keratin snarare än talg, som är fallet med akne. De kan dock förekomma i områden där huden är skadad eller inflammerad, som kan vara fallet med eksem.</p>'
             ),
 
       ),
