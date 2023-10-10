@@ -298,9 +298,9 @@ $problems['bristningar'] = new Problem(
       image_title: 'Bristningar',
       info: 'Bristningar, även kallade striae, är linjära ärr som uppträder på huden när den snabbt sträcks ut, exempelvis under graviditet, snabb viktökning eller tillväxtspurtar. De börjar ofta som röda eller lila streck och bleknar över tiden till en ljusare nyans. Bristningar förekommer vanligtvis på områden som buken, brösten, låren och höfterna. Även om de inte kan elimineras helt, finns det behandlingar för att förbättra deras utseende, såsom laserterapi, kemisk peeling och mikroneedling.'
 );
-$problems['operations-arr'] = new Problem(
+$problems['operations-skadearr'] = new Problem(
       label: 'Operations & Skadeärr',
-      url: 'problem/operations-arr',
+      url: 'problem/operations-skadearr',
       url_title: 'Operations & Skadeärr',
       consultation_url: 'hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
@@ -311,9 +311,9 @@ $problems['operations-arr'] = new Problem(
       image_title: 'Operations & Skadeärr',
       info: 'Ärr och skadeärr är resultatet av hudens naturliga läkningsprocess efter skador, såsom skärsår, brännskador eller akne. Dessa ärr kan variera i form, storlek och färg och kan påverka både utseendet och självkänslan hos den drabbade. På Acnespecialisten erbjuder vi effektiva behandlingsmetoder för att reducera och ta bort ärr, inklusive laserterapi, kemiska peelingar och mikroneedling.'
 );
-$problems['oonskad-harvaxt'] = new Problem(
+$problems['oonskat-har'] = new Problem(
       label: 'Oönskat hår',
-      url: 'problem/oonskad-harvaxt',
+      url: 'problem/oonskat-har',
       url_title: 'Oönskat hår',
       consultation_url: 'hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',

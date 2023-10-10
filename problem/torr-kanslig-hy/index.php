@@ -688,6 +688,7 @@ $faq_categories = array(
                   title: 'Är det några specifika behandlingar som kan vara fördelaktiga för torr och känslig hud?',
                   text: '<p class="p200">För torr och känslig hud bör mer aggressiva behandlingar som kemiska peelingar och mikrodermabrasion undvikas eller användas med stor försiktighet, då de kan orsaka ytterligare irritation och torrhet. Behandlingar som fuktgivande masker, mild exfoliering och hyaluronsyra-injektioner kan istället vara mer lämpliga. Det är alltid bäst att rådgöra med en hudvårdsexpert innan du inleder någon ny behandlingsregim.</p>'
             ),
+      ),
 );
 
 $faq_url_label = "Läs fler frågor & svar";

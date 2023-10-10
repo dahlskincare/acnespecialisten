@@ -22,7 +22,7 @@ $description = 'Här förklarar vi vad som kännetecknar olika typer av hudför�
 
 $akas = [
       new Link(
-            label: 'Födelsemären',
+            label: 'Födelsemärken',
             url: null,
             title: 'Födelsemärken',
       ),
@@ -142,7 +142,7 @@ $type_categories = array(
             types: array(
                   new BasedType(
                       title: 'Ansiktsvårta',
-                      subtitle: null,
+                      subtitle: 'Ansiktsvårta',
                       image_url: 'images/problems/102x102/ansiktsvarta.webp',
                       image_alt: 'Bild av Ansiktsvårta',
                       image_title: 'Exempel på Ansiktsvårta',
@@ -152,7 +152,7 @@ $type_categories = array(
 
                   new BasedType(
                       title: 'Fibrom',
-                      subtitle: null,
+                      subtitle: 'Fibrom',
                       image_url: 'images/problems/102x102/fibrom.webp',
                       image_alt: 'Bild av Fibrom',
                       image_title: 'Exempel på Fibrom',
@@ -162,7 +162,7 @@ $type_categories = array(
 
                   new BasedType(
                       title: 'Födelsemärke',
-                      subtitle: null,
+                      subtitle: 'Födelsemärke',
                       image_url: 'images/problems/102x102/fodelsemarke.webp',
                       image_alt: 'Bild av Födelsemärke',
                       image_title: 'Exempel på Födelsemärke',
@@ -172,7 +172,7 @@ $type_categories = array(
 
                   new BasedType(
                       title: 'Hallonmärke',
-                      subtitle: null,
+                      subtitle: 'Hallonmärke'l,
                       image_url: 'images/problems/102x102/hallonmarke.webp',
                       image_alt: 'Bild av Hallonmärke',
                       image_title: 'Exempel på Hallonmärke',
@@ -182,7 +182,7 @@ $type_categories = array(
 
                   new BasedType(
                       title: 'Jordgubbsmärke',
-                      subtitle: null,
+                      subtitle: 'Jordgubbsmärke',
                       image_url: 'images/problems/102x102/jordgubbsmarke.webp',
                       image_alt: 'Bild av Jordgubbsmärke',
                       image_title: 'Exempel på Jordgubbsmärke',
@@ -191,7 +191,7 @@ $type_categories = array(
                   ),
                   new BasedType(
                       title: 'Smultronmärke',
-                      subtitle: null,
+                      subtitle: 'Smultronmärke',
                       image_url: 'images/problems/102x102/smultronmarke.webp',
                       image_alt: 'Bild av Smultronmärke',
                       image_title: 'Exempel på Smultronmärke',
@@ -201,7 +201,7 @@ $type_categories = array(
 
                   new BasedType(
                       title: 'Hemangiom',
-                      subtitle: null,
+                      subtitle: 'Hemangiom',
                       image_url: 'images/problems/102x102/hemangiom.webp',
                       image_alt: 'Bild av Hemangiom',
                       image_title: 'Exempel på Hemangiom',
@@ -211,7 +211,7 @@ $type_categories = array(
 
                   new BasedType(
                       title: 'Hudflikar',
-                      subtitle: null,
+                      subtitle: 'Hudflikar',
                       image_url: 'images/problems/102x102/hudflikar.webp',
                       image_alt: 'Bild av Hudflikar',
                       image_title: 'Exempel på Hudflikar',
@@ -221,7 +221,7 @@ $type_categories = array(
 
                   new BasedType(
                       title: 'Hudutväxt',
-                      subtitle: null,
+                      subtitle: 'Hudutväxt',
                       image_url: 'images/problems/102x102/hudutvaxt.webp',
                       image_alt: 'Bild av Hudutväxt',
                       image_title: 'Exempel på Hudutväxt',
@@ -231,7 +231,7 @@ $type_categories = array(
 
                   new BasedType(
                       title: 'Leverfläckar',
-                      subtitle: null,
+                      subtitle: 'Leverfläckar',
                       image_url: 'images/problems/102x102/leverflackar.webp',
                       image_alt: 'Bild av Leverfläckar',
                       image_title: 'Exempel på Leverfläckar',
@@ -240,7 +240,7 @@ $type_categories = array(
                   ),
                   new BasedType(
                       title: 'Seborroisk Keratos',
-                      subtitle: null,
+                      subtitle: 'Seborroisk Keratos',
                       image_url: 'images/problems/102x102/seborroisk-keratos.webp',
                       image_alt: 'Bild av Seborroisk Keratos',
                       image_title: 'Exempel på Seborroisk Keratos',
@@ -250,7 +250,7 @@ $type_categories = array(
 
                   new BasedType(
                       title: 'Skintags',
-                      subtitle: null,
+                      subtitle: 'Skintags',
                       image_url: 'images/problems/102x102/skintags.webp',
                       image_alt: 'Bild av Skintags',
                       image_title: 'Exempel på Skintags',
@@ -260,7 +260,7 @@ $type_categories = array(
 
                   new BasedType(
                       title: 'Skönhetsfläck',
-                      subtitle: null,
+                      subtitle: 'Skönhetsfläck',
                       image_url: 'images/problems/102x102/skonhetsflack.webp',
                       image_alt: 'Bild av Skönhetsfläck',
                       image_title: 'Exempel på Skönhetsfläck',
@@ -270,7 +270,7 @@ $type_categories = array(
 
                   new BasedType(
                       title: 'Åldersvårta',
-                      subtitle: null,
+                      subtitle: 'Åldersvårta',
                       image_url: 'images/problems/102x102/aldersvarta.webp',
                       image_alt: 'Bild av Åldersvårta',
                       image_title: 'Exempel på Åldersvårta',
