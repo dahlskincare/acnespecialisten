@@ -824,25 +824,6 @@ $brands_url_title = "Varumärken för behandling av hudförändringar";
                                     <?php echo $types_url ?>
                               </section>
                         <?php } ?>
-                        <?php if (sizeof($symptoms) > 0) { ?>
-                              <section id="symptoms">
-                                    <h2 class="h500"><?php echo $symptoms_title ?></h2>
-                                    <div class="mt-m is-hidden-tablet" id="symptom-buttons">
-                                          <?php foreach ($symptoms as $symptom) { ?>
-                                                <a href="javascript:;" class="button b50 grey">
-                                                      <?php echo $symptom->name ?>
-                                                </a>
-                                          <?php } ?>
-                                    </div>
-                                    <div class="columns is-multiline is-variable is-3" id="symptom-cards">
-                                          <?php foreach ($symptoms as $symptom) { ?>
-                                                <div class="column is-half">
-                                                      <?php include('../widgets/symptom-card/symptom-card.php'); ?>
-                                                </div>
-                                          <?php } ?>
-                                    </div>
-                              </section>
-                        <?php } ?>
                         <section id="define">
                               <h2 class="h500 l10n"><?php echo $headline01 ?></h2>
                               <hr class="is-hidden-mobile">
@@ -853,22 +834,6 @@ $brands_url_title = "Varumärken för behandling av hudförändringar";
                               <h2 class="h500"><?php echo $headline02 ?></h2>
                               <hr class="is-hidden-mobile mt-xl">
                               <?php foreach ($services as $service) { ?>
-                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
-                                    <hr class="is-hidden-mobile mb-xxl">
-                              <?php } ?>
-                        </section>
-                        <section id="products">
-                              <h2 class="h500"><?php echo $headline03 ?></h2>
-                              <hr class="is-hidden-mobile mt-xl">
-                              <?php foreach ($products as $service) { ?>
-                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
-                                    <hr class="is-hidden-mobile mb-xxl">
-                              <?php } ?>
-                        </section>
-                        <section id="treatment-solutions">
-                              <h2 class="h500"><?php echo $headline04 ?></h2>
-                              <hr class="is-hidden-mobile mt-xl">
-                              <?php foreach ($procedures as $service) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
                                     <hr class="is-hidden-mobile mb-xxl">
                               <?php } ?>
