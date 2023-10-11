@@ -17,9 +17,9 @@ $dbname = $_ENV['DB_NAME'];
 
 
 $where = array();
-if (array_key_exists('flowId', $_GET)) {
-    $flowId = $_GET['flowId'];
-    $where[] = "flow_id = '$flowId'";
+if (array_key_exists('categoryId', $_GET)) {
+    $categoryId = $_GET['categoryId'];
+    $where[] = "ix.category_id = '$categoryId'";
 }
 if (empty($where)) {
     $where = "1";
@@ -28,11 +28,11 @@ if (empty($where)) {
 }
 
 $query = "
-SELECT id, category_type, image_url, name_$language AS name, subtitle_$language AS subtitle 
-FROM $dbname.treatment_service_category 
-WHERE $where 
-ORDER BY $dbname.treatment_service_category.rank ASC 
-LIMIT 10000
+    SELECT s.id, s.duration, s.price, s.name_$language AS name, s.description_$language AS description 
+    FROM $dbname.treatment_service s
+    LEFT JOIN $dbname.treatment_category_service_ix ix ON ix.service_id = s.id
+    WHERE $where
+    ORDER BY s.rank ASC LIMIT 10000
 ";
 
 $conn = mysqli_connect($servername, $username, $password);
@@ -43,6 +43,7 @@ mysqli_set_charset($conn, 'utf8');
 
 $result = mysqli_query($conn, $query);
 if ($result == false) {
+    echo mysqli_error($conn);
     http_response_code(500);
 } else {
 
