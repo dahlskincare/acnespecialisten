@@ -296,12 +296,16 @@ $service = new Service(
       image_title: 'Konsultation för behandling av hudförändringar',
 
       url_label: 'Läs mer om vår hudkonsultation för hudförändringar',
-      url: 'hudkonsultation-forandringar',
+      url: 'hudkonsultation',
       url_title: 'Klicka här för att läsa mer om gratis hudkonsultation för hudförändringar',
 
       consultation_url_label: 'Boka tid för hudkonsultation för hudförändringar',
       consultation_url: 'consultation-booking?problem=hudforandring',
       consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för hudförändringar',
+
+      booking_url_label: null,
+      booking_url: null,
+      booking_url_title: null,
 );
 
 $headline02 = "02. Behandla hudförändringar med Cryopen";
