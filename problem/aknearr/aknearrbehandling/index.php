@@ -60,7 +60,7 @@ $treat_image_large = 'https://via.placeholder.com/872x456.jpg';
 
 $treat_content = '<p class="p200">Efter att ha identifierat och analyserat dina akneärr, går vi vidare till nästa steg: behandling av ärrbildningen. Målet i denna fas är att reducera synligheten och strukturen av dessa ärr. Beroende på ärrtyp och djup, tillämpar vi olika metoder och tekniker för att säkerställa att varje ärr behandlas effektivt. Genom denna process stimulerar vi hudens naturliga regenerationsförmåga, främjar kollagenproduktionen, och förbättrar hudens struktur och ton. Vi fortsätter att anpassa behandlingsplanen baserat på hur din hud svarar, med syftet att ge bästa möjliga resultat och minskad synlighet av ärr.</p>';
 
-$treat_url = 'treatments/acne';
+$treat_url = 'treatments/acne-scars';
 $treat_url_label = 'Se ärrbehandlingar';
 $treat_url_title = 'klicka här för att se våra ärrbehandlingar';
 
@@ -80,14 +80,13 @@ $services = array(
         consultation_url: 'konsultation-laser',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för laserbehandling mot akne',
-        booking_url: 'boka-laserbehandling',
-        booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka din laserbehandling mot akne nu',
         url: 'behandlingar/laserbehandling-mot-akne',
         url_label: 'Läs mer om laserbehandlingar',
         url_title: 'Utforska mer om våra laserbehandlingar mot akne',
-
-        // short_title: 'Laser'
+        booking_url: 'boka-laserbehandling',
+        booking_url_label: 'Boka behandling',
+        booking_url_title: 'Boka din laserbehandling mot akne nu',
+        short_title: 'Laser'
 
     ),
 
