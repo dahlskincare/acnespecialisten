@@ -2,9 +2,9 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Behandling av Akneärr - Effektiv Behandling | AcneSpecialisten';
-$seo_description = 'Utforska de mest effektiva behandlingsmetoderna för akneärr. Få skräddarsydda råd, tips, och expertis från Acnespecialisten för att behandla och minska akneärr.';
-$seo_keywords = 'behandling av akneärr, akneärrbehandling, metod för akneärrbehandling, laserbehandling för akneärr, microneedling, kemisk peeling';
+$seo_title = 'Behandling av Ärr från Finnar - Effektiv Behandling | AcneSpecialisten';
+$seo_description = 'Utforska de mest effektiva behandlingsmetoderna för ärr från finnar. Få skräddarsydda råd, tips, och expertis från Acnespecialisten för att behandla och minska ärr orsakade av finnar.';
+$seo_keywords = 'behandling av ärr från finnar, ärr från finnar, metod för behandling av finnärr, laserbehandling för finnärr, microneedling, kemisk peeling';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
@@ -12,11 +12,12 @@ $seo_image = 'images/treatments/large/acne-scars.jpg';
 
 $image_large = 'images/treatments/large/acne-scars.jpg';
 $image_small = 'images/treatments/small/acne-scars.jpg';
-$image_alt = 'Bild som illustrerar akneärr';
-$image_title = 'Akneärr';
+$image_alt = 'Bild som illustrerar ärr från finnar';
+$image_title = 'Ärr från Finnar';
 
-$title = 'Behandling av Akneärr';
-$description = 'Här har vi samlat de mest effektiva metoderna för behandling av akneärr som hjälper dig att effektivt. Oavsett ditt specifika behov, har vi rätt lösning för dig. Är du osäker på vilken <a href="https://www.acnespecialisten.se">ärrehandling</a> som bäst passar din hudtyp för att få bort akneärr? Oroa dig inte, boka en kostnadsfri konsultation hos oss på AcneSpecialisten så hjälper vi dig vidare mot en hy fri från akneärr.';
+$title = 'Behandling av Ärr från Finnar';
+$description = 'Här har vi samlat de mest effektiva metoderna för behandling av ärr från finnar som hjälper dig att effektivt hantera dessa märken. Oavsett ditt specifika behov, har vi rätt lösning för dig. Är du osäker på vilken <a href="https://www.acnespecialisten.se">ärrehandling</a> som bäst passar din hudtyp för att ta hand om ärr orsakade av finnar? Oroa dig inte, boka en kostnadsfri konsultation hos oss på AcneSpecialisten så hjälper vi dig vidare mot en hy fri från märken orsakade av finnar.';
+
 
 $booking_link = 'rätt bokningslänk här';
 $booking_link_title = 'Boka behandling';
@@ -35,34 +36,34 @@ $nav_buttons = array(
     'specialists' => 'Specialister'
 );
 
-$about_title = 'Hur vi behandlar och tar bort akneärr?';
+$about_title = 'Hur vi behandlar och tar bort ärr från finnar?';
 
-$about_content = '<p class="p200">Att behandla och minska synligheten av akneärr kräver expertis och en genomtänkt strategi. På AcneSpecialisten använder vi avancerade metoder och behandlingar skräddarsydda för att effektivt hantera akneärr. Med vår kostnadsfria hudkonsultation identifierar vi skadans djup och omfattning, vilket möjliggör en personligt anpassad behandlingsplan.</p>
+$about_content = '<p class="p200">Att behandla och minska synligheten av ärr från finnar kräver expertis och en genomtänkt strategi. På AcneSpecialisten använder vi avancerade metoder och behandlingar skräddarsydda för att effektivt hantera dessa ärr. Med vår kostnadsfria hudkonsultation identifierar vi ärrskadans djup och omfattning, vilket möjliggör en personligt anpassad behandlingsplan.</p>
 
-    <p class="p200 mt-xl">Vår första prioritet är att effektivt behandla och reducera ärrvävnaden för att återställa hudens jämna yta. Efter att vi har behandlat de direkta ärrvävnaderna hjälper vi dig med en anpassad hudvårdsrutin som kan bidra till att förbättra hudens textur och elasticitet över tid. Om du också har aktiva akneutbrott, kommer vi att rekommendera lösningar för att hantera dessa, eftersom obehandlad akne kan bidra till ytterligare ärrbildning. Vårt team på Acnespecialisten är dedikerade till att stödja dig genom hela processen, från första konsultationen till att uppnå önskat resultat.</p>';
+    <p class="p200 mt-xl">Vår första prioritet är att effektivt behandla och reducera ärrvävnaden för att återställa hudens jämna yta. Efter att vi har behandlat de direkta ärrvävnaderna hjälper vi dig med en anpassad hudvårdsrutin som kan bidra till att förbättra hudens textur och elasticitet över tid. Om du också har aktiva finnutbrott, kommer vi att rekommendera lösningar för att hantera dessa, eftersom obehandlade finnar kan bidra till ytterligare ärrbildning. Vårt team på Acnespecialisten är dedikerade till att stödja dig genom hela processen, från första konsultationen till att uppnå önskat resultat.</p>';
 
-$headline01 = "01. Identifiera dina akneärr";
+$headline01 = "01. Identifiera dina ärr från finnar";
 
 $define_image = 'images/service-categories/large/consultation.jpg';
-$define_image_alt = 'Hur vi behandlar och tar bort akneärr?';
-$define_image_title = 'Hur vi behandlar och tar bort  akneärr?';
+$define_image_alt = 'Hur vi behandlar och tar bort ärr från finnar?';
+$define_image_title = 'Hur vi behandlar och tar bort ärr från finnar?';
 
-$define_content = '<p class="p200">Det första steget i vår process för att behandla akneärr är att kartlägga och analysera dina ärrs omfattning och djup. Vi inleder med en kostnadsfri konsultation där vi undersöker din hud och diskuterar dina hudmål samt tidigare erfarenheter. Förebilder tas för att kunna följa din huds framsteg och anpassa din behandlingsplan över tid. En personlig hudterapeut följer med dig genom hela behandlingsresan, vilket säkerställer att du får en konsekvent och anpassad omsorg baserat på dina specifika behov och önskemål.</p>';
+$define_content = '<p class="p200">Det första steget i vår process för att behandla ärr från finnar är att kartlägga och analysera dina ärrs omfattning och djup. Vi inleder med en kostnadsfri konsultation där vi undersöker din hud och diskuterar dina hudmål samt tidigare erfarenheter. Förebilder tas för att kunna följa din huds framsteg och anpassa din behandlingsplan över tid. En personlig hudterapeut följer med dig genom hela behandlingsresan, vilket säkerställer att du får en konsekvent och anpassad omsorg baserat på dina specifika behov och önskemål.</p>';
 
-$define_consultation_link = "https://www.acnespecialisten.se/boka-hudkonsultation-arr";
-$define_consultation_link_label = "Boka Gratis Konsultation för Akneärr";
-$define_consultation_link_title = "Klicka här för att boka din kostnadsfria hudkonsultation för akneärr";
+$define_consultation_link = "https://www.acnespecialisten.se/boka-hudkonsultation-finnarr";
+$define_consultation_link_label = "Boka Gratis Konsultation för Ärr från Finnar";
+$define_consultation_link_title = "Klicka här för att boka din kostnadsfria hudkonsultation för ärr från finnar";
 
-$headline02 = "02. Behandla akneärr";
+$headline02 = "02. Behandla ärr från finnar";
 
 $treat_image_small = 'https://via.placeholder.com/358x274.jpg';
 $treat_image_large = 'https://via.placeholder.com/872x456.jpg';
 
-$treat_content = '<p class="p200">Efter att ha identifierat och analyserat dina akneärr, går vi vidare till nästa steg: behandling av ärrbildningen. Målet i denna fas är att reducera synligheten och strukturen av dessa ärr. Beroende på ärrtyp och djup, tillämpar vi olika metoder och tekniker för att säkerställa att varje ärr behandlas effektivt. Genom denna process stimulerar vi hudens naturliga regenerationsförmåga, främjar kollagenproduktionen, och förbättrar hudens struktur och ton. Vi fortsätter att anpassa behandlingsplanen baserat på hur din hud svarar, med syftet att ge bästa möjliga resultat och minskad synlighet av ärr.</p>';
+$treat_content = '<p class="p200">Efter att ha identifierat och analyserat dina ärr från finnar, går vi vidare till nästa steg: behandling av ärrbildningen. Målet i denna fas är att reducera synligheten och strukturen av dessa ärr. Beroende på ärrtyp och djup, tillämpar vi olika metoder och tekniker för att säkerställa att varje ärr behandlas effektivt. Genom denna process stimulerar vi hudens naturliga regenerationsförmåga, främjar kollagenproduktionen, och förbättrar hudens struktur och ton. Vi fortsätter att anpassa behandlingsplanen baserat på hur din hud svarar, med syftet att ge bästa möjliga resultat och minskad synlighet av ärr från finnar.</p>';
 
-$treat_url = 'treatments/acne-scars';
-$treat_url_label = 'Se ärrbehandlingar';
-$treat_url_title = 'klicka här för att se våra ärrbehandlingar';
+$treat_url = 'treatments/arr-fran-finnar';
+$treat_url_label = 'Se behandlingar för ärr från finnar';
+$treat_url_title = 'klicka här för att se våra behandlingar för ärr från finnar';
 
 
 $services = array(
@@ -70,70 +71,69 @@ $services = array(
     new Service(
         image_small: 'https://via.placeholder.com/358x274.jpg',
         image_large: 'https://via.placeholder.com/852x456.jpg',
-        image_title: 'Klient som genomgår laserbehandling mot akneärr',
-        image_alt: 'Bild av laserbehandling mot akneärr hos Acnespecialisten',
-        title: 'Effektiv laserbehandling mot akneärr',
+        image_title: 'Klient som genomgår laserbehandling mot ärr från finnar',
+        image_alt: 'Bild av laserbehandling mot ärr från finnar hos Acnespecialisten',
+        title: 'Effektiv laserbehandling mot ärr från finnar',
         duration: '30-60 min',
         price: '1295 kr',
         icons: array('who-infants' => 'Precision', 'who-elders' => 'Icke-invasiv', 'who-teenagers' => 'Snabb', 'who-adults' => 'Effektiv'),
-        content: '<p class="p200">Laserbehandling för akneärr hos Acnespecialisten fungerar genom att använda ljusenergi för att minska synligheten av ärrbildning. Laserstrålen tränger ner och behandlar de djupa lager där ärrbildningen sitter, stimulerar kollagenproduktionen och förnyelsen av hudceller.</p>',
+        content: '<p class="p200">Laserbehandling för ärr från finnar hos Acnespecialisten fungerar genom att använda ljusenergi för att minska synligheten av ärrbildning. Laserstrålen tränger ner och behandlar de djupa lager där ärrbildningen sitter, stimulerar kollagenproduktionen och förnyelsen av hudceller.</p>',
         consultation_url: 'konsultation-laser',
         consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka en konsultation för laserbehandling mot akneärr',
-        url: 'behandlingar/laserbehandling-mot-aknearr',
-        url_label: 'Läs mer om laserbehandlingar mot akneärr',
-        url_title: 'Utforska mer om våra laserbehandlingar mot akneärr',
+        consultation_url_title: 'Boka en konsultation för laserbehandling mot ärr från finnar',
+        url: 'behandlingar/laserbehandling-mot-arren-fran-finnar',
+        url_label: 'Läs mer om laserbehandlingar mot ärr från finnar',
+        url_title: 'Utforska mer om våra laserbehandlingar mot ärr från finnar',
         booking_url: 'boka-laserbehandling',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka din laserbehandling mot akneärr nu',
-        short_title: 'Laser mot ärr'
+        booking_url_title: 'Boka din laserbehandling mot ärr från finnar nu',
+        short_title: 'Laser mot ärr från finnar'
     ),
 
     new Service(
         image_small: 'https://via.placeholder.com/358x274.jpg',
         image_large: 'https://via.placeholder.com/852x456.jpg',
-        image_title: 'Utförande av kemisk peelingbehandling för akneärr',
-        image_alt: 'Bild på kemisk peelingbehandling mot akneärr hos Acnespecialisten',
-        title: 'Kemisk peeling mot akneärr',
+        image_title: 'Utförande av kemisk peelingbehandling för ärr från finnar',
+        image_alt: 'Bild på kemisk peelingbehandling mot ärr från finnar hos Acnespecialisten',
+        title: 'Kemisk peeling mot ärr från finnar',
         duration: '30-60 min',
         price: '1295 kr',
         icons: array('who-infants' => 'Exfolierande', 'who-elders' => 'Förnyande', 'who-teenagers' => 'Uppfräschande', 'who-adults' => 'Ljusande'),
-        content: '<p class="p200">Kemisk peeling för akneärr på Acnespecialisten använder en speciell lösning som appliceras på huden för att avlägsna skadade yttre skikt, vilket ger plats åt ny, jämnare hud att växa fram. Detta bidrar till att reducera utseendet av ärrbildning och förbättrar hudens textur.</p>',
+        content: '<p class="p200">Kemisk peeling för ärr från finnar på Acnespecialisten använder en speciell lösning som appliceras på huden för att avlägsna skadade yttre skikt, vilket ger plats åt ny, jämnare hud att växa fram. Detta bidrar till att reducera utseendet av ärrbildning och förbättrar hudens textur.</p>',
         consultation_url: 'hudkonsultation',
         consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka en konsultation för kemisk peeling mot akneärr',
-        url: 'behandlingar/kemisk-peeling-mot-aknearr',
-        url_label: 'Läs mer om kemisk peeling mot akneärr',
-        url_title: 'Utforska mer om vår kemiska peelingbehandling mot akneärr',
+        consultation_url_title: 'Boka en konsultation för kemisk peeling mot ärr från finnar',
+        url: 'behandlingar/kemisk-peeling-mot-arren-fran-finnar',
+        url_label: 'Läs mer om kemisk peeling mot ärr från finnar',
+        url_title: 'Utforska mer om vår kemiska peelingbehandling mot ärr från finnar',
         booking_url: 'boka-kemisk-peeling',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka din kemiska peeling mot akneärr nu',
-        short_title: 'Kemisk Peeling mot ärr'
+        booking_url_title: 'Boka din kemiska peeling mot ärr från finnar nu',
+        short_title: 'Kemisk Peeling mot ärr från finnar'
     ),
 
     new Service(
         image_small: 'https://via.placeholder.com/358x274.jpg',
         image_large: 'https://via.placeholder.com/852x456.jpg',
-        image_title: 'Utförande av microneedlingbehandling för akneärr',
-        image_alt: 'Bild på microneedlingbehandling mot akneärr hos Acnespecialisten',
-        title: 'Effektiv microneedling mot akneärr',
+        image_title: 'Utförande av microneedlingbehandling för ärr från finnar',
+        image_alt: 'Bild på microneedlingbehandling mot ärr från finnar hos Acnespecialisten',
+        title: 'Effektiv microneedling mot ärr från finnar',
         duration: '30-60 min',
         price: '1295 kr',
         icons: array('who-infants' => 'Stimulerande', 'who-elders' => 'Förnyande', 'who-teenagers' => 'Djupgående', 'who-adults' => 'Minskning av ärr'),
-        content: '<p class="p200">Microneedling är en effektiv behandlingsmetod mot akneärr som använder små mikronålar för att skapa mikroskopiska kanaler i huden. Detta stimulerar hudens naturliga läkningsprocess och ökar produktionen av kollagen, vilket hjälper till att fylla ut och jämna ut ärrade områden.</p>',
+        content: '<p class="p200">Microneedling är en effektiv behandlingsmetod mot ärr från finnar som använder små mikronålar för att skapa mikroskopiska kanaler i huden. Detta stimulerar hudens naturliga läkningsprocess och ökar produktionen av kollagen, vilket hjälper till att fylla ut och jämna ut ärrade områden.</p>',
         consultation_url: 'microneedling-konsultation',
         consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka en konsultation för microneedling mot akneärr',
-        url: 'behandlingar/microneedling-mot-aknearr',
-        url_label: 'Läs mer om microneedling mot akneärr',
-        url_title: 'Utforska mer om vår microneedlingbehandling mot akneärr',
+        consultation_url_title: 'Boka en konsultation för microneedling mot ärr från finnar',
+        url: 'behandlingar/microneedling-mot-arren-fran-finnar',
+        url_label: 'Läs mer om microneedling mot ärr från finnar',
+        url_title: 'Utforska mer om vår microneedlingbehandling mot ärr från finnar',
         booking_url: 'boka-microneedling',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka din microneedling mot akneärr nu',
-        short_title: 'Microneedling mot ärr'
+        booking_url_title: 'Boka din microneedling mot ärr från finnar nu',
+        short_title: 'Microneedling mot ärr från finnar'
     ),
 );
-
 
 $results = array(
     new ResultCustomer(
@@ -145,7 +145,7 @@ $results = array(
         image_title: 'Resultat',
 
         treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders <a href="behandlingar/aknearr" title="Aknearr"">behandlingar mot aknearr</a>'
+            duration: 'Efter 3 månaders <a href="behandlingar/arr-fran-finnar" title="Aknearr"">behandlingar mot arr fran finnar</a>'
         ),
     ),
     new ResultCustomer(
@@ -157,13 +157,13 @@ $results = array(
         image_title: 'Resultat',
 
         treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders <a href="behandlingar/aknearr" title="Akne">behandlingar mot aknearr</a>',
+            duration: 'Efter 3 månaders <a href="behandlingar/arr-fran-finnar" title="Akne">behandlingar mot ärr från finnar</a>',
         )
     ),
 );
 
-$show_all_results_label = "Se fler resultat mot akneärr";
-$show_all_results_title = "Resultat mot akneärr";
+$show_all_results_label = "Se fler resultat mot ärr från finnar";
+$show_all_results_title = "Resultat mot ärr från finnar";
 
 
 $reviews = array(
