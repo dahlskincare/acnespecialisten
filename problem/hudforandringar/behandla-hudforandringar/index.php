@@ -39,28 +39,28 @@ $about_content = '<p class="p200">På AcneSpecialisten förstår vi att varje hu
 
     <p class="p200 mt-xl">Med vår kostnadsfria hudkonsultation bestämmer vi den bästa åtgärden för dina specifika behov. Oavsett om det handlar om en enkel hudfläck eller en mer omfattande förändring, är vårt primära mål att ge din hud dess naturliga, släta utseende tillbaka. Genom varje steg i processen, från den första konsultationen till att uppnå det önskade resultatet, är vårt engagerade team vid AcneSpecialisten här för att stödja dig.</p>';
 
-$headline01 = "01. Identifiera dina akneärr";
+$headline01 = "01. Identifiera dina hudförändringar";
 
 $define_image = 'images/service-categories/large/consultation.jpg';
-$define_image_alt = 'Hur vi behandlar och tar bort akneärr?';
-$define_image_title = 'Hur vi behandlar och tar bort akneärr?';
+$define_image_alt = 'Hur vi behandlar och tar bort hudförändringar?';
+$define_image_title = 'Hur vi behandlar och tar bort hudförändringar?';
 
-$define_content = '<p class="p200">Det första steget i vår process för att behandla akneärr är att kartlägga och analysera dina ärrs omfattning och djup. Vi inleder med en kostnadsfri konsultation där vi undersöker din hud och diskuterar dina hudmål samt tidigare erfarenheter. Förebilder tas för att kunna följa din huds framsteg och anpassa din behandlingsplan över tid. En personlig hudterapeut följer med dig genom hela behandlingsresan, vilket säkerställer att du får en konsekvent och anpassad omsorg baserat på dina specifika behov och önskemål.</p>';
+$define_content = '<p class="p200">Det första steget i vår process för att hantera hudförändringar är att kartlägga och analysera din huds förändringars omfattning och art. Vi inleder med en kostnadsfri konsultation där vi undersöker din hud, diskuterar dina hudmål samt tidigare erfarenheter. Förebilder tas för att kunna följa din huds framsteg och anpassa din behandlingsplan över tid. En personlig hudterapeut följer med dig genom hela behandlingsresan, vilket säkerställer att du får en konsekvent och anpassad omsorg baserat på dina specifika behov och önskemål.</p>';
 
-$define_consultation_link = "https://www.acnespecialisten.se/boka-hudkonsultation-arr";
-$define_consultation_link_label = "Boka Gratis Konsultation för Akneärr";
-$define_consultation_link_title = "Klicka här för att boka din kostnadsfria hudkonsultation för akneärr";
+$define_consultation_link = "https://www.acnespecialisten.se/boka-hudkonsultation-forandringar";
+$define_consultation_link_label = "Boka Gratis Konsultation för Hudförändringar";
+$define_consultation_link_title = "Klicka här för att boka din kostnadsfria hudkonsultation för hudförändringar";
 
-$headline02 = "02. Behandla akneärr";
+$headline02 = "02. Behandla hudförändringar";
 
 $treat_image_small = 'https://via.placeholder.com/358x274.jpg';
 $treat_image_large = 'https://via.placeholder.com/872x456.jpg';
 
-$treat_content = '<p class="p200">Efter att ha identifierat och analyserat dina akneärr, går vi vidare till nästa steg: behandling av ärrbildningen. Målet i denna fas är att reducera synligheten och strukturen av dessa ärr. Beroende på ärrtyp och djup, tillämpar vi olika metoder och tekniker för att säkerställa att varje ärr behandlas effektivt. Genom denna process stimulerar vi hudens naturliga regenerationsförmåga, främjar kollagenproduktionen, och förbättrar hudens struktur och ton. Vi fortsätter att anpassa behandlingsplanen baserat på hur din hud svarar, med syftet att ge bästa möjliga resultat och minskad synlighet av ärr.</p>';
+$treat_content = '<p class="p200">Efter att ha identifierat och analyserat dina hudförändringar, går vi vidare till nästa steg: behandling av dem. Ett av våra huvudsakliga verktyg för att behandla dessa förändringar är Cryopen, en avancerad frysbehandling. Denna metod är särskilt effektiv för att snabbt och skonsamt ta itu med olika hudförändringar. Genom att använda Cryopen kan vi precist rikta in oss på förändringen och frysa den på ett kontrollerat sätt, vilket stimulerar hudens naturliga regenerationsförmåga. Resultatet är en förbättrad hudstruktur och minskad synlighet av förändringen. Vi anpassar alltid behandlingsplanen baserat på hur din hud svarar, med syftet att ge bästa möjliga resultat.</p>';
 
-$treat_url = 'treatments/acne-scars';
-$treat_url_label = 'Se ärrbehandlingar';
-$treat_url_title = 'klicka här för att se våra ärrbehandlingar';
+$treat_url = 'treatments/hudförändringar';
+$treat_url_label = 'Se behandlingar för hudförändringar';
+$treat_url_title = 'klicka här för att se våra behandlingar för hudförändringar';
 
 
 $services = array(
@@ -68,68 +68,25 @@ $services = array(
     new Service(
         image_small: 'https://via.placeholder.com/358x274.jpg',
         image_large: 'https://via.placeholder.com/852x456.jpg',
-        image_title: 'Klient som genomgår laserbehandling mot akneärr',
-        image_alt: 'Bild av laserbehandling mot akneärr hos Acnespecialisten',
-        title: 'Effektiv laserbehandling mot akneärr',
-        duration: '30-60 min',
-        price: '1295 kr',
-        icons: array('who-infants' => 'Precision', 'who-elders' => 'Icke-invasiv', 'who-teenagers' => 'Snabb', 'who-adults' => 'Effektiv'),
-        content: '<p class="p200">Laserbehandling för akneärr hos Acnespecialisten fungerar genom att använda ljusenergi för att minska synligheten av ärrbildning. Laserstrålen tränger ner och behandlar de djupa lager där ärrbildningen sitter, stimulerar kollagenproduktionen och förnyelsen av hudceller.</p>',
-        consultation_url: 'konsultation-laser',
+        image_title: 'Utförande av Cryopen frysbehandling för hudförändringar',
+        image_alt: 'Bild på Cryopen frysbehandling mot hudförändringar hos Acnespecialisten',
+        title: 'Effektiv Cryopen behandling mot hudförändringar',
+        duration: '10-60 min',
+        price: '995 kr',
+        icons: array('who-infants' => 'Målriktad', 'who-elders' => 'Snabb', 'who-teenagers' => 'Skonsam', 'who-adults' => 'Resultatdriven'),
+        content: '<p class="p200">Cryopen är en avancerad frysbehandling som snabbt och skonsamt behandlar diverse hudförändringar. Med hjälp av denna metod kan vi precist rikta in oss på en hudförändring och frysa den på ett kontrollerat sätt, vilket stimulerar hudens naturliga regenerationsförmåga och leder till en förbättrad hudstruktur.</p>',
+        consultation_url: 'cryopen-konsultation',
         consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka en konsultation för laserbehandling mot akneärr',
-        url: 'behandlingar/laserbehandling-mot-aknearr',
-        url_label: 'Läs mer om laserbehandlingar mot akneärr',
-        url_title: 'Utforska mer om våra laserbehandlingar mot akneärr',
-        booking_url: 'boka-laserbehandling',
+        consultation_url_title: 'Boka en konsultation för Cryopen behandling mot hudförändringar',
+        url: 'behandlingar/cryopen-mot-hudforandringar',
+        url_label: 'Läs mer om Cryopen mot hudförändringar',
+        url_title: 'Utforska mer om vår Cryopen behandling mot hudförändringar',
+        booking_url: 'boka-cryopen',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka din laserbehandling mot akneärr nu',
-        short_title: 'Laser mot ärr'
+        booking_url_title: 'Boka din Cryopen behandling mot hudförändringar nu',
+        short_title: 'Cryopen mot hudförändringar'
     ),
 
-    new Service(
-        image_small: 'https://via.placeholder.com/358x274.jpg',
-        image_large: 'https://via.placeholder.com/852x456.jpg',
-        image_title: 'Utförande av kemisk peelingbehandling för akneärr',
-        image_alt: 'Bild på kemisk peelingbehandling mot akneärr hos Acnespecialisten',
-        title: 'Kemisk peeling mot akneärr',
-        duration: '30-60 min',
-        price: '1295 kr',
-        icons: array('who-infants' => 'Exfolierande', 'who-elders' => 'Förnyande', 'who-teenagers' => 'Uppfräschande', 'who-adults' => 'Ljusande'),
-        content: '<p class="p200">Kemisk peeling för akneärr på Acnespecialisten använder en speciell lösning som appliceras på huden för att avlägsna skadade yttre skikt, vilket ger plats åt ny, jämnare hud att växa fram. Detta bidrar till att reducera utseendet av ärrbildning och förbättrar hudens textur.</p>',
-        consultation_url: 'hudkonsultation',
-        consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka en konsultation för kemisk peeling mot akneärr',
-        url: 'behandlingar/kemisk-peeling-mot-aknearr',
-        url_label: 'Läs mer om kemisk peeling mot akneärr',
-        url_title: 'Utforska mer om vår kemiska peelingbehandling mot akneärr',
-        booking_url: 'boka-kemisk-peeling',
-        booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka din kemiska peeling mot akneärr nu',
-        short_title: 'Kemisk Peeling mot ärr'
-    ),
-
-    new Service(
-        image_small: 'https://via.placeholder.com/358x274.jpg',
-        image_large: 'https://via.placeholder.com/852x456.jpg',
-        image_title: 'Utförande av microneedlingbehandling för akneärr',
-        image_alt: 'Bild på microneedlingbehandling mot akneärr hos Acnespecialisten',
-        title: 'Effektiv microneedling mot akneärr',
-        duration: '30-60 min',
-        price: '1295 kr',
-        icons: array('who-infants' => 'Stimulerande', 'who-elders' => 'Förnyande', 'who-teenagers' => 'Djupgående', 'who-adults' => 'Minskning av ärr'),
-        content: '<p class="p200">Microneedling är en effektiv behandlingsmetod mot akneärr som använder små mikronålar för att skapa mikroskopiska kanaler i huden. Detta stimulerar hudens naturliga läkningsprocess och ökar produktionen av kollagen, vilket hjälper till att fylla ut och jämna ut ärrade områden.</p>',
-        consultation_url: 'microneedling-konsultation',
-        consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka en konsultation för microneedling mot akneärr',
-        url: 'behandlingar/microneedling-mot-aknearr',
-        url_label: 'Läs mer om microneedling mot akneärr',
-        url_title: 'Utforska mer om vår microneedlingbehandling mot akneärr',
-        booking_url: 'boka-microneedling',
-        booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka din microneedling mot akneärr nu',
-        short_title: 'Microneedling mot ärr'
-    ),
 );
 
 
