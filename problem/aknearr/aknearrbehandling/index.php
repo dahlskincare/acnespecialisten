@@ -70,90 +70,67 @@ $services = array(
     new Service(
         image_small: 'https://via.placeholder.com/358x274.jpg',
         image_large: 'https://via.placeholder.com/852x456.jpg',
-        image_title: 'Klient som genomgår laserbehandling mot akne',
-        image_alt: 'Bild av laserbehandling mot akne hos Acnespecialisten',
-        title: 'Effektiv laserbehandling mot akne',
+        image_title: 'Klient som genomgår laserbehandling mot akneärr',
+        image_alt: 'Bild av laserbehandling mot akneärr hos Acnespecialisten',
+        title: 'Effektiv laserbehandling mot akneärr',
         duration: '30-60 min',
         price: '1295 kr',
         icons: array('who-infants' => 'Precision', 'who-elders' => 'Icke-invasiv', 'who-teenagers' => 'Snabb', 'who-adults' => 'Effektiv'),
-        content: '<p class="p200">Laserbehandling för akne hos Acnespecialisten fungerar genom att använda ljusenergi för att behandla inflammationen i huden som orsakar akne. Laserstrålen tränger ner i huden och behandlar de djupa lager där akne börjar. Denna metod reducerar oljeproduktionen i huden och dödar bakterier som bidrar till akneutbrott.</p>',
+        content: '<p class="p200">Laserbehandling för akneärr hos Acnespecialisten fungerar genom att använda ljusenergi för att minska synligheten av ärrbildning. Laserstrålen tränger ner och behandlar de djupa lager där ärrbildningen sitter, stimulerar kollagenproduktionen och förnyelsen av hudceller.</p>',
         consultation_url: 'konsultation-laser',
         consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka en konsultation för laserbehandling mot akne',
-        url: 'behandlingar/laserbehandling-mot-akne',
-        url_label: 'Läs mer om laserbehandlingar',
-        url_title: 'Utforska mer om våra laserbehandlingar mot akne',
+        consultation_url_title: 'Boka en konsultation för laserbehandling mot akneärr',
+        url: 'behandlingar/laserbehandling-mot-aknearr',
+        url_label: 'Läs mer om laserbehandlingar mot akneärr',
+        url_title: 'Utforska mer om våra laserbehandlingar mot akneärr',
         booking_url: 'boka-laserbehandling',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka din laserbehandling mot akne nu',
-        short_title: 'Laser'
-
+        booking_url_title: 'Boka din laserbehandling mot akneärr nu',
+        short_title: 'Laser mot ärr'
     ),
 
     new Service(
         image_small: 'https://via.placeholder.com/358x274.jpg',
         image_large: 'https://via.placeholder.com/852x456.jpg',
-        image_title: 'Utförande av kemisk peelingbehandling för akne',
-        image_alt: 'Bild på kemisk peelingbehandling mot akne hos Acnespecialisten',
-        title: 'Kemisk peeling mot akne',
+        image_title: 'Utförande av kemisk peelingbehandling för akneärr',
+        image_alt: 'Bild på kemisk peelingbehandling mot akneärr hos Acnespecialisten',
+        title: 'Kemisk peeling mot akneärr',
         duration: '30-60 min',
         price: '1295 kr',
         icons: array('who-infants' => 'Exfolierande', 'who-elders' => 'Förnyande', 'who-teenagers' => 'Uppfräschande', 'who-adults' => 'Ljusande'),
-        content: '<p class="p200">Kemisk peeling är en av de mest effektiva metoderna för att behandla akne. På Acnespecialisten använder vi en speciell lösning som appliceras på huden för att avlägsna det översta lagret. Detta ger plats åt ny, frisk hud att växa fram, vilket bidrar till att reducera utseendet av akneärr och att förbättra hudens textur och utseende.</p>',
+        content: '<p class="p200">Kemisk peeling för akneärr på Acnespecialisten använder en speciell lösning som appliceras på huden för att avlägsna skadade yttre skikt, vilket ger plats åt ny, jämnare hud att växa fram. Detta bidrar till att reducera utseendet av ärrbildning och förbättrar hudens textur.</p>',
         consultation_url: 'hudkonsultation',
         consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka en konsultation för kemisk peeling mot akne',
-        url: 'behandlingar/kemisk-peeling-mot-akne',
-        url_label: 'Läs mer om kemisk peeling mot akne',
-        url_title: 'Utforska mer om vår kemiska peelingbehandling mot akne',
+        consultation_url_title: 'Boka en konsultation för kemisk peeling mot akneärr',
+        url: 'behandlingar/kemisk-peeling-mot-aknearr',
+        url_label: 'Läs mer om kemisk peeling mot akneärr',
+        url_title: 'Utforska mer om vår kemiska peelingbehandling mot akneärr',
         booking_url: 'boka-kemisk-peeling',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka din kemiska peeling mot akne nu',
-        short_title: 'Kemisk Peeling'
-
+        booking_url_title: 'Boka din kemiska peeling mot akneärr nu',
+        short_title: 'Kemisk Peeling mot ärr'
     ),
 
     new Service(
         image_small: 'https://via.placeholder.com/358x274.jpg',
         image_large: 'https://via.placeholder.com/852x456.jpg',
-        image_title: 'Utförande av microneedlingbehandling för akne',
-        image_alt: 'Bild på microneedlingbehandling mot akne hos Acnespecialisten',
-        title: 'Effektiv microneedling mot akne',
+        image_title: 'Utförande av microneedlingbehandling för akneärr',
+        image_alt: 'Bild på microneedlingbehandling mot akneärr hos Acnespecialisten',
+        title: 'Effektiv microneedling mot akneärr',
         duration: '30-60 min',
         price: '1295 kr',
         icons: array('who-infants' => 'Stimulerande', 'who-elders' => 'Förnyande', 'who-teenagers' => 'Djupgående', 'who-adults' => 'Minskning av ärr'),
-        content: '<p class="p200">Microneedling är en effektiv behandlingsmetod mot akne som använder små mikronålar för att skapa mikroskopiska kanaler i huden. Detta stimulerar hudens naturliga läkningsprocess och ökar produktionen av kollagen och elastin. Microneedling behandlar även de underliggande problemen med akne genom att tillåta aktiva ingredienser att tränga djupare in i huden.</p>',
+        content: '<p class="p200">Microneedling är en effektiv behandlingsmetod mot akneärr som använder små mikronålar för att skapa mikroskopiska kanaler i huden. Detta stimulerar hudens naturliga läkningsprocess och ökar produktionen av kollagen, vilket hjälper till att fylla ut och jämna ut ärrade områden.</p>',
         consultation_url: 'microneedling-konsultation',
         consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka en konsultation för microneedling mot akne',
-        url: 'behandlingar/microneedling-mot-akne',
-        url_label: 'Läs mer om microneedling mot akne',
-        url_title: 'Utforska mer om vår microneedlingbehandling mot akne',
+        consultation_url_title: 'Boka en konsultation för microneedling mot akneärr',
+        url: 'behandlingar/microneedling-mot-aknearr',
+        url_label: 'Läs mer om microneedling mot akneärr',
+        url_title: 'Utforska mer om vår microneedlingbehandling mot akneärr',
         booking_url: 'boka-microneedling',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka din microneedling mot akne nu',
-        short_title: 'Microneedling'
-
-    ),
-);
-
-$headline03 = "03. Förebygg akne";
-
-$products = array(
-    new Product(
-        image_small: 'https://via.placeholder.com/358x274.jpg',
-        image_large: 'https://via.placeholder.com/872x456.jpg',
-        image_title: 'Acnespecialistens effektiva hudvårdsprodukter mot akne',
-        image_alt: 'Bild på Acnespecialistens hudvårdsprodukter mot akne',
-
-        url: 'produkter/mot-akne',
-        url_label: 'Utforska våra hudvårdsprodukter mot akne',
-        url_title: 'Information om Acnespecialistens hudvårdsprodukter mot akne',
-        price: 'Acnespecialistens hudvårdsprodukter mot akne - Pris från 1295 kr',
-        content: '<p class="p200">Att förebygga akne är en viktig del av processen för att hålla din hud aknefri, lika viktig som behandlingarna. För detta ändamål erbjuder vi en daglig hudvårdsrutin med specifika produkter mot akne. Denna rutin hjälper till att hålla din hy ren, balanserad och fri från överflödigt talg och bakterier. Denna dagliga vård hjälper till att förhindra framtida utbrott och är lika viktig som regelbundna besök hos oss på Acnespecialisten.</p>',
-
-
-
+        booking_url_title: 'Boka din microneedling mot akneärr nu',
+        short_title: 'Microneedling mot ärr'
     ),
 );
 
@@ -168,7 +145,7 @@ $results = array(
         image_title: 'Resultat',
 
         treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne"">behandlingar mot akne</a>'
+            duration: 'Efter 3 månaders <a href="behandlingar/aknearr" title="Aknearr"">behandlingar mot aknearrr</a>'
         ),
     ),
     new ResultCustomer(
@@ -180,13 +157,13 @@ $results = array(
         image_title: 'Resultat',
 
         treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne">behandlingar mot akne</a>',
+            duration: 'Efter 3 månaders <a href="behandlingar/aknearr" title="Akne">behandlingar mot aknearr</a>',
         )
     ),
 );
 
-$show_all_results_label = "Se fler resultat blablalba";
-$show_all_results_title = "KLICKA PÅ MIG";
+$show_all_results_label = "Se fler resultat mot akneärr";
+$show_all_results_title = "Resultat mot akneärr";
 
 
 $reviews = array(
@@ -239,30 +216,30 @@ $review_url_title = "AcneSpecialisten Omdömen";
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Vilka typer av behandlingar erbjuder Acnespecialisten för olika hudproblem?',
-            text: 'Acnespecialisten erbjuder en rad olika behandlingar för hudproblem, inklusive acnebehandling, rosaceabehandling och portömning.'
+            title: 'Vilka typer av behandlingar erbjuder Acnespecialisten för akneärr?',
+            text: 'Acnespecialisten erbjuder en rad olika behandlingar för akneärr, inklusive laserbehandling, kemisk peeling och microneedling.'
         ),
         new Question(
-            title: 'Hur lång tid tar en behandling hos Acnespecialisten?',
-            text: 'En behandling hos Acnespecialisten tar vanligtvis cirka 60 - 90 minuter.'
+            title: 'Hur lång tid tar en behandling av akneärr hos Acnespecialisten?',
+            text: 'En behandling av akneärr hos Acnespecialisten tar vanligtvis cirka 30 - 60 minuter.'
         ),
         new Question(
-            title: 'Hur många behandlingar behövs för att se resultat?',
-            text: 'Antalet behandlingar som behövs för att se resultat varierar beroende på ditt specifika hudproblem och din hudtyp. Genomsnittligt antal behandlingar är mellan 2-4 stycken.'
+            title: 'Hur många behandlingar behövs för att se resultat på akneärr?',
+            text: 'Antalet behandlingar som behövs för att se resultat på akneärr varierar beroende på ärrskadans omfattning och din hudtyp. Genomsnittligt antal behandlingar är mellan 3-8 stycken.'
         ),
         new Question(
-            title: 'Är behandlingarna smärtsamma?',
-            text: 'Behandlingarna hos Acnespecialisten är utformade för att minimera obehag. När vi behandlar inflammerade områden och utför extraktioner kan det dock uppstå en tillfällig smärta. Denna känsla är dock övergående och försvinner snabbt, så du kan känna dig trygg under behandlingen.'
+            title: 'Är behandlingarna för akneärr smärtsamma?',
+            text: 'Behandlingarna för akneärr hos Acnespecialisten är utformade för att minimera obehag. När vi behandlar ärrade områden kan det dock uppstå en tillfällig smärta. Denna känsla är dock övergående och försvinner snabbt, så du kan känna dig trygg under behandlingen.'
         ),
         new Question(
-            title: 'Kan alla hudtyper behandlas hos Acnespecialisten?',
-            text: 'Ja, Acnespecialisten erbjuder behandlingar som passar alla hudtyper.'
+            title: 'Kan alla hudtyper behandlas för akneärr hos Acnespecialisten?',
+            text: 'Ja, Acnespecialisten erbjuder behandlingar för akneärr som passar alla hudtyper.'
         ),
     ),
 );
 
 $faq_url_label = "Läs fler frågor & svar";
-$faq_url_title = "läs flera frågor relaterat till aknebehandling";
+$faq_url_title = "läs flera frågor relaterat till behandling av akneärr";
 
 $skin_guide_articles = array(
     new SkinGuideArticle(
@@ -308,7 +285,7 @@ $skin_guide_articles = array(
 );
 
 $skinguide_url_label = "Läs fler guider";
-$skinguide_url_title = "Läs fler guider om aknebehandling";
+$skinguide_url_title = "Läs fler guider om behandling av akneärr";
 
 $specialists = array(
     new Specialist(
@@ -342,8 +319,8 @@ $specialists = array(
     )
 );
 
-$specialist_url_label = "Se alla specialister hej hej hej";
-$specialist_url_title = "Akne Specialiserade Hudterapeuter";
+$specialist_url_label = "Se alla specialister";
+$specialist_url_title = "Akneärr Specialiserade Hudterapeuter";
 
 $brands = array(
     new Brand(
@@ -397,7 +374,7 @@ $brands = array(
 );
 
 $brands_url_label = "Se alla varumärken";
-$brands_url_title = "Varumärken för Aknebehandling";
+$brands_url_title = "Varumärken för behandling av akneärr";
 
 ?>
 
