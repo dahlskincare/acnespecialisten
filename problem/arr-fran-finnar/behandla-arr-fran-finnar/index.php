@@ -44,7 +44,7 @@ $about_content = '<p class="p200">Att behandla och minska synligheten av ärr fr
 
 $headline01 = "01. Identifiera dina ärr från finnar";
 
-$define_image = 'images/service-categories/large/consultation.jpg';
+$define_image = 'images/service-categories/large/konsultation.jpg';
 $define_image_alt = 'Hur vi behandlar och tar bort ärr från finnar?';
 $define_image_title = 'Hur vi behandlar och tar bort ärr från finnar?';
 

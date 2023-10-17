@@ -45,7 +45,7 @@ $headline01 = "01. Identifiera dina akneärr";
 
 $define_image = 'images/service-categories/large/consultation.jpg';
 $define_image_alt = 'Hur vi behandlar och tar bort akneärr?';
-$define_image_title = 'Hur vi behandlar och tar bort  akneärr?';
+$define_image_title = 'Hur vi behandlar och tar bort akneärr?';
 
 $define_content = '<p class="p200">Det första steget i vår process för att behandla akneärr är att kartlägga och analysera dina ärrs omfattning och djup. Vi inleder med en kostnadsfri konsultation där vi undersöker din hud och diskuterar dina hudmål samt tidigare erfarenheter. Förebilder tas för att kunna följa din huds framsteg och anpassa din behandlingsplan över tid. En personlig hudterapeut följer med dig genom hela behandlingsresan, vilket säkerställer att du får en konsekvent och anpassad omsorg baserat på dina specifika behov och önskemål.</p>';
 

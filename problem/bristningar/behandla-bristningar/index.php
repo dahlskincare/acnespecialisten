@@ -2,33 +2,32 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Behandla Finnar - Behandling och Förebyggande | AcneSpecialisten';
-$seo_description = 'Lär dig allt om hur man behandlar och förebygger dem. Skräddarsydda lösningar och expertis från AcneSpecialisten.';
-$seo_keywords = 'finnar, behandling av finnar, orsaker till finnar, förebygga finnar, ta bort finnar, vuxenfinnar, tonårsfinnar, ärr från finnar, pormaskar';
+$seo_title = 'Behandling av Bristningar - Effektiv Behandling | AcneSpecialisten';
+$seo_description = 'Utforska de mest effektiva behandlingsmetoderna för bristningar. Få skräddarsydda råd, tips, och expertis från AcneSpecialisten för att behandla och minska bristningar.';
+$seo_keywords = 'behandling av bristningar, bristningsbehandling, metod för bristningsbehandling, laserbehandling för bristningar, microneedling, kemisk peeling';
 
-// här lägger du bild som du vill skall synas när du länkar i sociala medier eller sms
+// här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
-$seo_image = 'images/treatments/large/acne-scars.jpg';
+$seo_image = 'images/treatments/large/stretch-marks.jpg';
 
-$image_large = 'images/treatments/large/acne-scars.jpg';
-$image_small = 'images/treatments/small/acne-scars.jpg';
-$image_alt = 'Bild på behandling av finnar';
-$image_title = 'Behandling av finnar';
+$image_large = 'images/treatments/large/stretch-marks.jpg';
+$image_small = 'images/treatments/small/stretch-marks.jpg';
+$image_alt = 'Bild som illustrerar bristningar';
+$image_title = 'Bristningar';
 
-$title = 'Behandlingar för Finnar';
-$description = 'Här har vi samlat de mest effektiva metoderna för behandling av finnar som hjälper dig att effektivt bli av med finnarna oavsett typ. Oavsett ditt specifika behov, har vi rätt lösning för dig. Är du osäker på vilken <a href="https://www.acnespecialisten.se">behandling för finnar</a> som bäst passar din hudtyp för att bli av med finnarna? Oroa dig inte, boka en kostnadsfri konsultation hos oss på AcneSpecialisten så hjälper vi dig vidare mot en klarare och friskare hy.';
+$title = 'Behandling av Bristningar';
+$description = 'Här har vi samlat de mest effektiva metoderna för behandling av bristningar som hjälper dig att effektivt behandla dem. Oavsett ditt specifika behov har vi rätt lösning för dig. Är du osäker på vilken <a href="https://www.acnespecialisten.se">bristningsbehandling</a> som bäst passar din hudtyp? Oroa dig inte, boka en kostnadsfri konsultation hos oss på AcneSpecialisten så hjälper vi dig vidare mot en hy fri från bristningar.';
 
 $booking_link = 'rätt bokningslänk här';
 $booking_link_title = 'Boka behandling';
 $consultation_link = 'rätt konsultationslänk här';
 $consultation_link_title = 'Boka hudkonsultation';
 
+
 $nav_buttons = array(
     'about' => 'Info',
     'define' => 'Konsultation',
     'treat' => 'Behandlingar',
-    'prevent' => 'Produkter',
-    'repair' => 'Ärr från finnar',
     'results' => 'Resultat',
     'reviews' => 'Omdömen',
     'faq' => 'FAQ',
@@ -36,155 +35,107 @@ $nav_buttons = array(
     'specialists' => 'Specialister'
 );
 
-$about_title = 'Hur vi tar bort och behandlar finnar?';
+$about_title = 'Hur vi behandlar och minskar bristningar?';
 
-$about_content = '<p class="p200">Att behandla och ta bort finnar är ingen quickfix. På AcneSpecialisten använder vi vår expertis och de bästa verktygen för att effektivt och regelbundet bli av med finnar. Med vår kostnadsfria hudkonsultation kan vi identifiera din unika hudtyp och ta fram en individuell behandlingsplan.</p>
+$about_content = '<p class="p200">Att behandla och minska synligheten av bristningar kräver expertis och en genomtänkt strategi. På AcneSpecialisten använder vi avancerade metoder och behandlingar skräddarsydda för att effektivt hantera bristningar. Med vår kostnadsfria hudkonsultation identifierar vi skadans djup och omfattning, vilket möjliggör en personligt anpassad behandlingsplan.</p>
 
-    <p class="p200 mt-xl">Vår första prioritet är att bli av med inflammationen och finnarna, de huvudsakliga orsakerna till ärrbildning. Efter att den aktiva finnen har behandlats hjälper vi dig att skapa en anpassad hudvårdsrutin med produkter mot finnar för att förebygga framtida utbrott. Om finnarna har lämnat ärr bakom sig, har vi lösningar för att reparera huden. Vi ser fram emot att bli din guide på resan mot att bli av med finnar och återfå en klarare, friskare hy.</p>';
+    <p class="p200 mt-xl">Vår första prioritet är att effektivt behandla och reducera bristningarnas synlighet för att återställa hudens jämna yta. Efter att vi har behandlat bristningarna hjälper vi dig med en anpassad hudvårdsrutin som kan bidra till att förbättra hudens textur och elasticitet över tid. Om du också har andra hudproblem, kommer vi att rekommendera lösningar för dessa. Vårt team på AcneSpecialisten är dedikerade till att stödja dig genom hela processen, från första konsultationen till att uppnå önskat resultat.</p>';
 
-$headline01 = "01. Identifiera dina finnar";
+$headline01 = "01. Identifiera dina bristningar";
 
 $define_image = 'images/service-categories/large/konsultation.jpg';
-$define_image_alt = 'Hur vi tar bort och behandlar finnar?';
-$define_image_title = 'Hur vi tar bort och behandlar finnar?';
+$define_image_alt = 'Hur vi behandlar och minskar bristningar?';
+$define_image_title = 'Hur vi behandlar och minskar bristningar?';
 
-$define_content = '<p class="p200">Första steget i vår process att bli av med finnar är att kartlägga din finn-typ. Vi inleder med en kostnadsfri konsultation där vi analyserar din hud och diskuterar dina hudmål och tidigare erfarenheter. Förebilder tas för att kunna följa din huds framsteg och anpassa din behandlingsplan över tid. En personlig hudterapeut följer med dig genom hela behandlingsresan, vilket säkerställer en konsekvent omsorg anpassad efter dina specifika behov.</p>';
+$define_content = '<p class="p200">Det första steget i vår process för att behandla bristningar är att kartlägga och analysera bristningarnas omfattning och djup. Vi inleder med en kostnadsfri konsultation där vi undersöker din hud och diskuterar dina hudmål samt tidigare erfarenheter. Förebilder tas för att kunna följa din huds framsteg och anpassa din behandlingsplan över tid. En personlig hudterapeut följer med dig genom hela behandlingsresan, vilket säkerställer att du får en konsekvent och anpassad omsorg baserat på dina specifika behov och önskemål.</p>';
 
-$define_consultation_link = "https://www.acnespecialisten.se/boka-hudkonsultation";
-$define_consultation_link_label = "Boka Gratis Konsultation";
-$define_consultation_link_title = "klicka här för att boka din kostnadsfria hudkonsultation mot finnar";
+$define_consultation_link = "https://www.acnespecialisten.se/boka-hudkonsultation-bristningar";
+$define_consultation_link_label = "Boka Gratis Konsultation för Bristningar";
+$define_consultation_link_title = "Klicka här för att boka din kostnadsfria hudkonsultation för bristningar";
 
 
-$headline02 = "02. Behandla aktiva finnar";
+$headline02 = "02. Behandla bristningar";
 
-$treat_content = '<p class="p200">När din finntyp har identifierats, inleder vi fas två: behandling av de aktiva finnarna. Här är målet framför allt att få bort inflammationerna och finnarna som riskerar att skada huden och leda till ärr. Vi tillämpar olika metoder för att anpassa behandlingen efter dina unika behov, vilket gör att vi kan maximera resultaten och minimera obehaget. Genom denna process minskar vi inflammation, rensar bort döda hudceller, och kontrollerar talgproduktionen, vilket över tid leder till minskade finnar och dess förekomst. Vi anpassar behandlingsplanen efter din huds respons.</p>';
+$treat_image_small = 'https://via.placeholder.com/358x274.jpg';
+$treat_image_large = 'https://via.placeholder.com/872x456.jpg';
+
+$treat_content = '<p class="p200">Efter att ha identifierat och analyserat dina bristningar, går vi vidare till nästa steg: behandling av dessa. Målet i denna fas är att reducera synligheten och strukturen av bristningarna. Beroende på deras omfattning och djup, tillämpar vi olika metoder och tekniker för att säkerställa att varje bristning behandlas effektivt. Genom denna process stimulerar vi hudens naturliga regenerationsförmåga, främjar kollagenproduktionen, och förbättrar hudens struktur och ton. Vi fortsätter att anpassa behandlingsplanen baserat på hur din hud svarar, med syftet att ge bästa möjliga resultat och minskad synlighet av bristningarna.</p>';
+
+$treat_url = 'treatments/stretch-marks';
+$treat_url_label = 'Se bristningsbehandlingar';
+$treat_url_title = 'klicka här för att se våra bristningsbehandlingar';
+
 
 $services = array(
-    new Service(
-        image_small: 'https://via.placeholder.com/358x274.jpg',
-        image_large: 'https://via.placeholder.com/852x456.jpg',
-        image_title: 'Effektiv Ansiktsbehandling mot Finnar på AcneSpecialisten',
-        image_alt: 'Bild illustrerar en ansiktsbehandling mot finnar utförd på AcneSpecialisten',
-
-        title: 'Ansiktsbehandling mot Finnar',
-        duration: '60 minuter',
-        price: 'Pris från 799 kr',
-        icons: array('who-infants' => 'Djuprengörande', 'who-elders' => 'Hudbalanserande', 'who-teenagers' => 'Porrensande', 'who-adults' => 'Anti-inflammatorisk'),
-        content: '<p class="p200">Ansiktsbehandling mot finnar på AcneSpecialisten är en djuprengöring av huden som tar bort döda hudceller och frigör tilltäppta porer. Behandlingen inleds med en rengöring, följt av ångning för att öppna upp porerna. Därefter följer en djup porrengöring där orenheter och finnar elimineras. Behandlingen avslutas med en lugnande mask och fuktgivande kräm anpassad för din hudtyp.</p>',
-
-        consultation_url: 'boka-hudkonsultation-finnar',
-        consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka Hudkonsultation för Finnar på AcneSpecialisten',
-
-        booking_url: 'boka-djuprengörande-ansiktsbehandling-finnar',
-        booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka Din Ansiktsbehandling mot Finnar på AcneSpecialisten',
-
-        url: 'behandlingar/ansiktsbehandlingar-problemhy/finnarbehandling',
-        url_label: 'Läs Mer om Vår Ansiktsbehandling mot Finnar',
-        url_title: 'Mer Information om Vår Ansiktsbehandling mot Finnar',
-
-        // short_title: 'Ansiktsbehandling'
-
-    ),
 
     new Service(
         image_small: 'https://via.placeholder.com/358x274.jpg',
         image_large: 'https://via.placeholder.com/852x456.jpg',
-        image_title: 'Klient som genomgår laserbehandling mot finnar',
-        image_alt: 'Bild av laserbehandling mot finnar hos AcneSpecialisten',
-        title: 'Effektiv laserbehandling mot finnar',
+        image_title: 'Klient som genomgår laserbehandling mot bristningar',
+        image_alt: 'Bild av laserbehandling mot bristningar hos Acnespecialisten',
+        title: 'Effektiv laserbehandling mot bristningar',
         duration: '30-60 min',
         price: '1295 kr',
         icons: array('who-infants' => 'Precision', 'who-elders' => 'Icke-invasiv', 'who-teenagers' => 'Snabb', 'who-adults' => 'Effektiv'),
-        content: '<p class="p200">Laserbehandling för finnar hos AcneSpecialisten fungerar genom att använda ljusenergi för att behandla inflammationen i huden som orsakar finnar. Laserstrålen tränger ner i huden och behandlar de djupa lager där finnar börjar. Denna metod reducerar oljeproduktionen i huden och dödar bakterier som bidrar till finnarutbrott.</p>',
+        content: '<p class="p200">Laserbehandling för bristningar hos Acnespecialisten fungerar genom att använda ljusenergi för att minska synligheten av bristningar. Laserstrålen tränger ner och behandlar de djupa lager där bristningarna sitter, stimulerar kollagenproduktionen och förnyelsen av hudceller.</p>',
         consultation_url: 'konsultation-laser',
         consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka en konsultation för laserbehandling mot finnar',
-        booking_url: 'boka-laserbehandling-finnar',
+        consultation_url_title: 'Boka en konsultation för laserbehandling mot bristningar',
+        url: 'behandlingar/laserbehandling-mot-bristningar',
+        url_label: 'Läs mer om laserbehandlingar mot bristningar',
+        url_title: 'Utforska mer om våra laserbehandlingar mot bristningar',
+        booking_url: 'boka-laserbehandling',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka din laserbehandling mot finnar nu',
-        url: 'behandlingar/laserbehandling-mot-finnar',
-        url_label: 'Läs mer om laserbehandlingar mot finnar',
-        url_title: 'Utforska mer om våra laserbehandlingar mot finnar',
-
-        // short_title: 'Laser'
-
+        booking_url_title: 'Boka din laserbehandling mot bristningar nu',
+        short_title: 'Laser mot bristningar'
     ),
 
     new Service(
         image_small: 'https://via.placeholder.com/358x274.jpg',
         image_large: 'https://via.placeholder.com/852x456.jpg',
-        image_title: 'Utförande av kemisk peelingbehandling för finnar',
-        image_alt: 'Bild på kemisk peelingbehandling mot finnar hos AcneSpecialisten',
-        title: 'Kemisk peeling mot finnar',
+        image_title: 'Utförande av kemisk peelingbehandling för bristningar',
+        image_alt: 'Bild på kemisk peelingbehandling mot bristningar hos Acnespecialisten',
+        title: 'Kemisk peeling mot bristningar',
         duration: '30-60 min',
         price: '1295 kr',
         icons: array('who-infants' => 'Exfolierande', 'who-elders' => 'Förnyande', 'who-teenagers' => 'Uppfräschande', 'who-adults' => 'Ljusande'),
-        content: '<p class="p200">Kemisk peeling är en av de mest effektiva metoderna för att behandla finnar. På AcneSpecialisten använder vi en speciell lösning som appliceras på huden för att avlägsna det översta lagret. Detta ger plats åt ny, frisk hud att växa fram, vilket bidrar till att reducera utseendet av ärr från finnar och att förbättra hudens textur och utseende.</p>',
-        consultation_url: 'hudkonsultation-finnar',
+        content: '<p class="p200">Kemisk peeling för bristningar på Acnespecialisten använder en speciell lösning som appliceras på huden för att avlägsna skadade yttre skikt, vilket ger plats åt ny, jämnare hud att växa fram. Detta bidrar till att reducera utseendet av bristningar och förbättrar hudens textur.</p>',
+        consultation_url: 'hudkonsultation',
         consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka en konsultation för kemisk peeling mot finnar',
-        url: 'behandlingar/kemisk-peeling-mot-finnar',
-        url_label: 'Läs mer om kemisk peeling mot finnar',
-        url_title: 'Utforska mer om vår kemiska peelingbehandling mot finnar',
-        booking_url: 'boka-kemisk-peeling-finnar',
+        consultation_url_title: 'Boka en konsultation för kemisk peeling mot bristningar',
+        url: 'behandlingar/kemisk-peeling-mot-bristningar',
+        url_label: 'Läs mer om kemisk peeling mot bristningar',
+        url_title: 'Utforska mer om vår kemiska peelingbehandling mot bristningar',
+        booking_url: 'boka-kemisk-peeling',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka din kemiska peeling mot finnar nu',
-        short_title: 'Kemisk Peeling'
+        booking_url_title: 'Boka din kemiska peeling mot bristningar nu',
+        short_title: 'Kemisk Peeling mot bristningar'
     ),
 
     new Service(
         image_small: 'https://via.placeholder.com/358x274.jpg',
         image_large: 'https://via.placeholder.com/852x456.jpg',
-        image_title: 'Utförande av microneedlingbehandling för finnar',
-        image_alt: 'Bild på microneedlingbehandling mot finnar hos AcneSpecialisten',
-        title: 'Effektiv microneedling mot finnar',
+        image_title: 'Utförande av microneedlingbehandling för bristningar',
+        image_alt: 'Bild på microneedlingbehandling mot bristningar hos Acnespecialisten',
+        title: 'Effektiv microneedling mot bristningar',
         duration: '30-60 min',
         price: '1295 kr',
-        icons: array('who-infants' => 'Stimulerande', 'who-elders' => 'Förnyande', 'who-teenagers' => 'Djupgående', 'who-adults' => 'Minskning av ärr'),
-        content: '<p class="p200">Microneedling är en effektiv behandlingsmetod mot finnar som använder små mikronålar för att skapa mikroskopiska kanaler i huden. Detta stimulerar hudens naturliga läkningsprocess och ökar produktionen av kollagen och elastin. Microneedling behandlar även de underliggande problemen med finnar genom att tillåta aktiva ingredienser att tränga djupare in i huden.</p>',
-        consultation_url: 'microneedling-konsultation-finnar',
+        icons: array('who-infants' => 'Stimulerande', 'who-elders' => 'Förnyande', 'who-teenagers' => 'Djupgående', 'who-adults' => 'Minskning av bristningar'),
+        content: '<p class="p200">Microneedling är en effektiv behandlingsmetod mot bristningar som använder små mikronålar för att skapa mikroskopiska kanaler i huden. Detta stimulerar hudens naturliga läkningsprocess och ökar produktionen av kollagen, vilket hjälper till att fylla ut och jämna ut områden med bristningar.</p>',
+        consultation_url: 'microneedling-konsultation',
         consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka en konsultation för microneedling mot finnar',
-        url: 'behandlingar/microneedling-mot-finnar',
-        url_label: 'Läs mer om microneedling mot finnar',
-        url_title: 'Utforska mer om vår microneedlingbehandling mot finnar',
-        booking_url: 'boka-microneedling-finnar',
+        consultation_url_title: 'Boka en konsultation för microneedling mot bristningar',
+        url: 'behandlingar/microneedling-mot-bristningar',
+        url_label: 'Läs mer om microneedling mot bristningar',
+        url_title: 'Utforska mer om vår microneedlingbehandling mot bristningar',
+        booking_url: 'boka-microneedling',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka din microneedling mot finnar nu',
-        short_title: 'Microneedling'
+        booking_url_title: 'Boka din microneedling mot bristningar nu',
+        short_title: 'Microneedling mot bristningar'
     ),
 
 );
 
-$headline03 = "03. Förebygg finnar";
-
-$products = array(
-    new Product(
-        image_small: 'https://via.placeholder.com/358x274.jpg',
-        image_large: 'https://via.placeholder.com/872x456.jpg',
-        image_title: 'Acnespecialistens effektiva hudvårdsprodukter mot finnar',
-        image_alt: 'Bild på Acnespecialistens hudvårdsprodukter mot finnar',
-
-        url: 'produkter/mot-finnar',
-        url_label: 'Utforska våra hudvårdsprodukter mot finnar',
-        url_title: 'Information om Acnespecialistens hudvårdsprodukter mot finnar',
-        price: 'Acnespecialistens hudvårdsprodukter mot finnar - Pris från 1295 kr',
-        content: '<p class="p200">Att förebygga finnar är en viktig del av processen för att hålla din hud fri från finnar, lika viktig som behandlingarna. För detta ändamål erbjuder vi en daglig hudvårdsrutin med specifika produkter mot finnar. Denna rutin hjälper till att hålla din hy ren, balanserad och fri från överflödigt talg och bakterier. Denna dagliga vård hjälper till att förhindra framtida utbrott och är lika viktig som regelbundna besök hos oss på Acnespecialisten.</p>',
-    ),
-);
-
-$headline04 = '04. Reparera efter finnar (Ärr från finnar)';
-
-$repair_image_small = 'https://via.placeholder.com/358x274.jpg';
-$repair_image_large = 'https://via.placeholder.com/872x456.jpg';
-
-$repair_content = '<p class="p200">När dina finnar har behandlats och finnarna tagits bort, kan det hända att de lämnar ärr bakom sig. På Acnespecialisten kan vi hjälpa dig att reparera dessa ärr genom olika tekniker som laserteknik och microneedling. Dessa metoder främjar hudens egen regenerering, hjälper till att återställa en jämn hudstruktur och minska synligheten av ärr. Med oss vid din sida kan du känna att du har stödet du behöver för att ta bort finnar och njuta av en klarare, friskare hy.</p>';
-
-$repair_url = 'treatments/finnar';
-$repair_url_label = 'Se ärrbehandlingar efter finnar';
-$repair_url_title = 'klicka här för att se våra ärrbehandlingar efter finnar';
 
 $results = array(
     new ResultCustomer(
@@ -196,7 +147,7 @@ $results = array(
         image_title: 'Resultat',
 
         treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders <a href="behandlingar/finnar" title="Finnar"">behandlingar mot finnar</a>'
+            duration: 'Efter 3 månaders <a href="behandlingar/bristningar" title="Aknearr"">behandlingar mot bristningar</a>'
         ),
     ),
     new ResultCustomer(
@@ -208,13 +159,13 @@ $results = array(
         image_title: 'Resultat',
 
         treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Finnar">behandlingar mot finnar</a>',
+            duration: 'Efter 3 månaders <a href="behandlingar/bristningar" title="Akne">behandlingar mot bristningar</a>',
         )
     ),
 );
 
-$show_all_results_label = "Se fler resultat";
-$show_all_results_title = "Resultat mot finnar";
+$show_all_results_label = "Se fler resultat mot bristningar";
+$show_all_results_title = "Resultat mot bristningar";
 
 
 $reviews = array(
@@ -267,30 +218,30 @@ $review_url_title = "AcneSpecialisten Omdömen";
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Vilka typer av behandlingar erbjuder Acnespecialisten för olika hudproblem?',
-            text: 'Acnespecialisten erbjuder en rad olika behandlingar för hudproblem, inklusive behandling för finnar, rosaceabehandling och portömning.'
+            title: 'Vilka typer av behandlingar erbjuder Acnespecialisten för bristningar?',
+            text: 'Acnespecialisten erbjuder en rad olika behandlingar för bristningar, inklusive laserbehandling, kemisk peeling och microneedling.'
         ),
         new Question(
-            title: 'Hur lång tid tar en behandling hos Acnespecialisten?',
-            text: 'En behandling hos Acnespecialisten tar vanligtvis cirka 60 - 90 minuter.'
+            title: 'Hur lång tid tar en behandling av bristningar hos Acnespecialisten?',
+            text: 'En behandling av bristningar hos Acnespecialisten tar vanligtvis cirka 30 - 60 minuter.'
         ),
         new Question(
-            title: 'Hur många behandlingar behövs för att se resultat?',
-            text: 'Antalet behandlingar som behövs för att se resultat varierar beroende på ditt specifika hudproblem och din hudtyp. Genomsnittligt antal behandlingar är mellan 2-4 stycken.'
+            title: 'Hur många behandlingar behövs för att se resultat på bristningar?',
+            text: 'Antalet behandlingar som behövs för att se resultat på bristningar varierar beroende på skadans omfattning och din hudtyp. Genomsnittligt antal behandlingar är mellan 3-8 stycken.'
         ),
         new Question(
-            title: 'Är behandlingarna smärtsamma?',
-            text: 'Behandlingarna hos Acnespecialisten är utformade för att minimera obehag. När vi behandlar inflammerade områden och utför extraktioner kan det dock uppstå en tillfällig smärta. Denna känsla är dock övergående och försvinner snabbt, så du kan känna dig trygg under behandlingen.'
+            title: 'Är behandlingarna för bristningar smärtsamma?',
+            text: 'Behandlingarna för bristningar hos Acnespecialisten är utformade för att minimera obehag. När vi behandlar områden med bristningar kan det dock uppstå en tillfällig smärta. Denna känsla är dock övergående och försvinner snabbt, så du kan känna dig trygg under behandlingen.'
         ),
         new Question(
-            title: 'Kan alla hudtyper behandlas hos Acnespecialisten?',
-            text: 'Ja, Acnespecialisten erbjuder behandlingar som passar alla hudtyper.'
+            title: 'Kan alla hudtyper behandlas för bristningar hos Acnespecialisten?',
+            text: 'Ja, Acnespecialisten erbjuder behandlingar för bristningar som passar alla hudtyper.'
         ),
     ),
 );
 
 $faq_url_label = "Läs fler frågor & svar";
-$faq_url_title = "läs flera frågor relaterat till behandling av finnar";
+$faq_url_title = "läs flera frågor relaterat till behandling av bristnigar";
 
 $skin_guide_articles = array(
     new SkinGuideArticle(
@@ -336,7 +287,7 @@ $skin_guide_articles = array(
 );
 
 $skinguide_url_label = "Läs fler guider";
-$skinguide_url_title = "Läs fler guider om behandling av finnar";
+$skinguide_url_title = "Läs fler guider om behandling av bristningar";
 
 $specialists = array(
     new Specialist(
@@ -371,7 +322,7 @@ $specialists = array(
 );
 
 $specialist_url_label = "Se alla specialister";
-$specialist_url_title = "Hudterapeuter Specialiserade på finnar";
+$specialist_url_title = "Akneärr Specialiserade Hudterapeuter";
 
 $brands = array(
     new Brand(
@@ -425,7 +376,7 @@ $brands = array(
 );
 
 $brands_url_label = "Se alla varumärken";
-$brands_url_title = "Varumärken för behandling av finnar";
+$brands_url_title = "Varumärken för behandling av bristningar";
 
 ?>
 
