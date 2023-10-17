@@ -216,30 +216,30 @@ $review_url_title = "AcneSpecialisten Omdömen";
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Vilka typer av behandlingar erbjuder Acnespecialisten för akneärr?',
-            text: 'Acnespecialisten erbjuder en rad olika behandlingar för akneärr, inklusive laserbehandling, kemisk peeling och microneedling.'
+            title: 'Vilka typer av behandlingar erbjuder Acnespecialisten för ärr orsakade av finnar?',
+            text: 'Acnespecialisten erbjuder en rad olika behandlingar för ärr som uppstått på grund av finnar, inklusive laserbehandling, kemisk peeling och microneedling.'
         ),
         new Question(
-            title: 'Hur lång tid tar en behandling av akneärr hos Acnespecialisten?',
-            text: 'En behandling av akneärr hos Acnespecialisten tar vanligtvis cirka 30 - 60 minuter.'
+            title: 'Hur lång tid tar en behandling av ärr från finnar hos Acnespecialisten?',
+            text: 'En behandling av ärr som uppstått på grund av finnar hos Acnespecialisten tar vanligtvis cirka 30 - 60 minuter.'
         ),
         new Question(
-            title: 'Hur många behandlingar behövs för att se resultat på akneärr?',
-            text: 'Antalet behandlingar som behövs för att se resultat på akneärr varierar beroende på ärrskadans omfattning och din hudtyp. Genomsnittligt antal behandlingar är mellan 3-8 stycken.'
+            title: 'Hur många behandlingar behövs för att se resultat på ärr orsakade av finnar?',
+            text: 'Antalet behandlingar som behövs för att se resultat på ärr som uppstått av finnar varierar beroende på ärrskadans omfattning och din hudtyp. Genomsnittligt antal behandlingar är mellan 3-8 stycken.'
         ),
         new Question(
-            title: 'Är behandlingarna för akneärr smärtsamma?',
-            text: 'Behandlingarna för akneärr hos Acnespecialisten är utformade för att minimera obehag. När vi behandlar ärrade områden kan det dock uppstå en tillfällig smärta. Denna känsla är dock övergående och försvinner snabbt, så du kan känna dig trygg under behandlingen.'
+            title: 'Är behandlingarna för ärr orsakade av finnar smärtsamma?',
+            text: 'Behandlingarna för ärr som uppstått av finnar hos Acnespecialisten är utformade för att minimera obehag. När vi behandlar ärrade områden kan det dock uppstå en tillfällig smärta. Denna känsla är dock övergående och försvinner snabbt, så du kan känna dig trygg under behandlingen.'
         ),
         new Question(
-            title: 'Kan alla hudtyper behandlas för akneärr hos Acnespecialisten?',
-            text: 'Ja, Acnespecialisten erbjuder behandlingar för akneärr som passar alla hudtyper.'
+            title: 'Kan alla hudtyper behandlas för ärr orsakade av finnar hos Acnespecialisten?',
+            text: 'Ja, Acnespecialisten erbjuder behandlingar för ärr som uppstått av finnar som passar alla hudtyper.'
         ),
     ),
 );
 
 $faq_url_label = "Läs fler frågor & svar";
-$faq_url_title = "läs flera frågor relaterat till behandling av akneärr";
+$faq_url_title = "läs flera frågor relaterat till behandling av ärr från finnar";
 
 $skin_guide_articles = array(
     new SkinGuideArticle(
@@ -285,7 +285,7 @@ $skin_guide_articles = array(
 );
 
 $skinguide_url_label = "Läs fler guider";
-$skinguide_url_title = "Läs fler guider om behandling av akneärr";
+$skinguide_url_title = "Läs fler guider om behandling av ärr från finnar";
 
 $specialists = array(
     new Specialist(
@@ -320,7 +320,7 @@ $specialists = array(
 );
 
 $specialist_url_label = "Se alla specialister";
-$specialist_url_title = "Akneärr Specialiserade Hudterapeuter";
+$specialist_url_title = "På ärr från finnar Specialiserade Hudterapeuter";
 
 $brands = array(
     new Brand(
@@ -374,7 +374,7 @@ $brands = array(
 );
 
 $brands_url_label = "Se alla varumärken";
-$brands_url_title = "Varumärken för behandling av akneärr";
+$brands_url_title = "Varumärken för behandling av ärr från finnar";
 
 ?>
 
