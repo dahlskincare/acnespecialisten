@@ -1,4 +1,5 @@
 @import "../styles/util/floating_image";
+@import 'widgets/treatment-area-item-card/treatment-area-item-card';
 
 html {
     scroll-behavior: smooth;
@@ -132,6 +133,15 @@ section#header {
                 .service-combo-widget {
                     margin-top: -1px;
                 }
+            }
+        }
+
+        section#treatment-areas {
+            img.treatment-area-image {
+                margin-top: $xl4;
+                border-radius: $radius-l;
+                width: 100%;
+                height: auto;
             }
         }
 

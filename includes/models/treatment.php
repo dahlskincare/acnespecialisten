@@ -24,7 +24,7 @@ class TreatmentArea
 
 class TreatmentAreaItem
 {
-    public function __construct($image, $image_alt, $image_title, $title, $duration, $price)
+    public function __construct($image, $image_alt, $image_title, $title, $duration, $price, $url, $url_label, $url_title)
     {
         $this->image = $image;
         $this->image_alt = $image_alt;
@@ -32,6 +32,9 @@ class TreatmentAreaItem
         $this->title = $title;
         $this->duration = $duration;
         $this->price = $price;
+        $this->url = $url;
+        $this->url_label = $url_label;
+        $this->url_title = $url_title;
     }
     public ?string $image;
     public ?string $image_alt;
@@ -39,6 +42,9 @@ class TreatmentAreaItem
     public string $title;
     public string $duration;
     public string $price;
+    public string $url;
+    public string $url_label;
+    public string $url_title;
 }
 
 class TreatmentStep
