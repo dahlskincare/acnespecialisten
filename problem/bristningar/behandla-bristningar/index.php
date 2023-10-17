@@ -54,16 +54,16 @@ $define_consultation_link_label = "Boka Gratis Konsultation för Bristningar";
 $define_consultation_link_title = "Klicka här för att boka din kostnadsfria hudkonsultation för bristningar";
 
 
-$headline02 = "02. Behandla akneärr";
+$headline02 = "02. Behandla bristningar";
 
 $treat_image_small = 'https://via.placeholder.com/358x274.jpg';
 $treat_image_large = 'https://via.placeholder.com/872x456.jpg';
 
-$treat_content = '<p class="p200">Efter att ha identifierat och analyserat dina akneärr, går vi vidare till nästa steg: behandling av ärrbildningen. Målet i denna fas är att reducera synligheten och strukturen av dessa ärr. Beroende på ärrtyp och djup, tillämpar vi olika metoder och tekniker för att säkerställa att varje ärr behandlas effektivt. Genom denna process stimulerar vi hudens naturliga regenerationsförmåga, främjar kollagenproduktionen, och förbättrar hudens struktur och ton. Vi fortsätter att anpassa behandlingsplanen baserat på hur din hud svarar, med syftet att ge bästa möjliga resultat och minskad synlighet av ärr.</p>';
+$treat_content = '<p class="p200">Efter att ha identifierat och analyserat dina bristningar, går vi vidare till nästa steg: behandling av dessa. Målet i denna fas är att reducera synligheten och strukturen av bristningarna. Beroende på deras omfattning och djup, tillämpar vi olika metoder och tekniker för att säkerställa att varje bristning behandlas effektivt. Genom denna process stimulerar vi hudens naturliga regenerationsförmåga, främjar kollagenproduktionen, och förbättrar hudens struktur och ton. Vi fortsätter att anpassa behandlingsplanen baserat på hur din hud svarar, med syftet att ge bästa möjliga resultat och minskad synlighet av bristningarna.</p>';
 
-$treat_url = 'treatments/acne-scars';
-$treat_url_label = 'Se ärrbehandlingar';
-$treat_url_title = 'klicka här för att se våra ärrbehandlingar';
+$treat_url = 'treatments/stretch-marks';
+$treat_url_label = 'Se bristningsbehandlingar';
+$treat_url_title = 'klicka här för att se våra bristningsbehandlingar';
 
 
 $services = array(
@@ -71,68 +71,69 @@ $services = array(
     new Service(
         image_small: 'https://via.placeholder.com/358x274.jpg',
         image_large: 'https://via.placeholder.com/852x456.jpg',
-        image_title: 'Klient som genomgår laserbehandling mot akneärr',
-        image_alt: 'Bild av laserbehandling mot akneärr hos Acnespecialisten',
-        title: 'Effektiv laserbehandling mot akneärr',
+        image_title: 'Klient som genomgår laserbehandling mot bristningar',
+        image_alt: 'Bild av laserbehandling mot bristningar hos Acnespecialisten',
+        title: 'Effektiv laserbehandling mot bristningar',
         duration: '30-60 min',
         price: '1295 kr',
         icons: array('who-infants' => 'Precision', 'who-elders' => 'Icke-invasiv', 'who-teenagers' => 'Snabb', 'who-adults' => 'Effektiv'),
-        content: '<p class="p200">Laserbehandling för akneärr hos Acnespecialisten fungerar genom att använda ljusenergi för att minska synligheten av ärrbildning. Laserstrålen tränger ner och behandlar de djupa lager där ärrbildningen sitter, stimulerar kollagenproduktionen och förnyelsen av hudceller.</p>',
+        content: '<p class="p200">Laserbehandling för bristningar hos Acnespecialisten fungerar genom att använda ljusenergi för att minska synligheten av bristningar. Laserstrålen tränger ner och behandlar de djupa lager där bristningarna sitter, stimulerar kollagenproduktionen och förnyelsen av hudceller.</p>',
         consultation_url: 'konsultation-laser',
         consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka en konsultation för laserbehandling mot akneärr',
-        url: 'behandlingar/laserbehandling-mot-aknearr',
-        url_label: 'Läs mer om laserbehandlingar mot akneärr',
-        url_title: 'Utforska mer om våra laserbehandlingar mot akneärr',
+        consultation_url_title: 'Boka en konsultation för laserbehandling mot bristningar',
+        url: 'behandlingar/laserbehandling-mot-bristningar',
+        url_label: 'Läs mer om laserbehandlingar mot bristningar',
+        url_title: 'Utforska mer om våra laserbehandlingar mot bristningar',
         booking_url: 'boka-laserbehandling',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka din laserbehandling mot akneärr nu',
-        short_title: 'Laser mot ärr'
+        booking_url_title: 'Boka din laserbehandling mot bristningar nu',
+        short_title: 'Laser mot bristningar'
     ),
 
     new Service(
         image_small: 'https://via.placeholder.com/358x274.jpg',
         image_large: 'https://via.placeholder.com/852x456.jpg',
-        image_title: 'Utförande av kemisk peelingbehandling för akneärr',
-        image_alt: 'Bild på kemisk peelingbehandling mot akneärr hos Acnespecialisten',
-        title: 'Kemisk peeling mot akneärr',
+        image_title: 'Utförande av kemisk peelingbehandling för bristningar',
+        image_alt: 'Bild på kemisk peelingbehandling mot bristningar hos Acnespecialisten',
+        title: 'Kemisk peeling mot bristningar',
         duration: '30-60 min',
         price: '1295 kr',
         icons: array('who-infants' => 'Exfolierande', 'who-elders' => 'Förnyande', 'who-teenagers' => 'Uppfräschande', 'who-adults' => 'Ljusande'),
-        content: '<p class="p200">Kemisk peeling för akneärr på Acnespecialisten använder en speciell lösning som appliceras på huden för att avlägsna skadade yttre skikt, vilket ger plats åt ny, jämnare hud att växa fram. Detta bidrar till att reducera utseendet av ärrbildning och förbättrar hudens textur.</p>',
+        content: '<p class="p200">Kemisk peeling för bristningar på Acnespecialisten använder en speciell lösning som appliceras på huden för att avlägsna skadade yttre skikt, vilket ger plats åt ny, jämnare hud att växa fram. Detta bidrar till att reducera utseendet av bristningar och förbättrar hudens textur.</p>',
         consultation_url: 'hudkonsultation',
         consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka en konsultation för kemisk peeling mot akneärr',
-        url: 'behandlingar/kemisk-peeling-mot-aknearr',
-        url_label: 'Läs mer om kemisk peeling mot akneärr',
-        url_title: 'Utforska mer om vår kemiska peelingbehandling mot akneärr',
+        consultation_url_title: 'Boka en konsultation för kemisk peeling mot bristningar',
+        url: 'behandlingar/kemisk-peeling-mot-bristningar',
+        url_label: 'Läs mer om kemisk peeling mot bristningar',
+        url_title: 'Utforska mer om vår kemiska peelingbehandling mot bristningar',
         booking_url: 'boka-kemisk-peeling',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka din kemiska peeling mot akneärr nu',
-        short_title: 'Kemisk Peeling mot ärr'
+        booking_url_title: 'Boka din kemiska peeling mot bristningar nu',
+        short_title: 'Kemisk Peeling mot bristningar'
     ),
 
     new Service(
         image_small: 'https://via.placeholder.com/358x274.jpg',
         image_large: 'https://via.placeholder.com/852x456.jpg',
-        image_title: 'Utförande av microneedlingbehandling för akneärr',
-        image_alt: 'Bild på microneedlingbehandling mot akneärr hos Acnespecialisten',
-        title: 'Effektiv microneedling mot akneärr',
+        image_title: 'Utförande av microneedlingbehandling för bristningar',
+        image_alt: 'Bild på microneedlingbehandling mot bristningar hos Acnespecialisten',
+        title: 'Effektiv microneedling mot bristningar',
         duration: '30-60 min',
         price: '1295 kr',
-        icons: array('who-infants' => 'Stimulerande', 'who-elders' => 'Förnyande', 'who-teenagers' => 'Djupgående', 'who-adults' => 'Minskning av ärr'),
-        content: '<p class="p200">Microneedling är en effektiv behandlingsmetod mot akneärr som använder små mikronålar för att skapa mikroskopiska kanaler i huden. Detta stimulerar hudens naturliga läkningsprocess och ökar produktionen av kollagen, vilket hjälper till att fylla ut och jämna ut ärrade områden.</p>',
+        icons: array('who-infants' => 'Stimulerande', 'who-elders' => 'Förnyande', 'who-teenagers' => 'Djupgående', 'who-adults' => 'Minskning av bristningar'),
+        content: '<p class="p200">Microneedling är en effektiv behandlingsmetod mot bristningar som använder små mikronålar för att skapa mikroskopiska kanaler i huden. Detta stimulerar hudens naturliga läkningsprocess och ökar produktionen av kollagen, vilket hjälper till att fylla ut och jämna ut områden med bristningar.</p>',
         consultation_url: 'microneedling-konsultation',
         consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka en konsultation för microneedling mot akneärr',
-        url: 'behandlingar/microneedling-mot-aknearr',
-        url_label: 'Läs mer om microneedling mot akneärr',
-        url_title: 'Utforska mer om vår microneedlingbehandling mot akneärr',
+        consultation_url_title: 'Boka en konsultation för microneedling mot bristningar',
+        url: 'behandlingar/microneedling-mot-bristningar',
+        url_label: 'Läs mer om microneedling mot bristningar',
+        url_title: 'Utforska mer om vår microneedlingbehandling mot bristningar',
         booking_url: 'boka-microneedling',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka din microneedling mot akneärr nu',
-        short_title: 'Microneedling mot ärr'
+        booking_url_title: 'Boka din microneedling mot bristningar nu',
+        short_title: 'Microneedling mot bristningar'
     ),
+
 );
 
 
@@ -146,7 +147,7 @@ $results = array(
         image_title: 'Resultat',
 
         treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders <a href="behandlingar/aknearr" title="Aknearr"">behandlingar mot aknearr</a>'
+            duration: 'Efter 3 månaders <a href="behandlingar/bristningar" title="Aknearr"">behandlingar mot bristningar</a>'
         ),
     ),
     new ResultCustomer(
@@ -158,13 +159,13 @@ $results = array(
         image_title: 'Resultat',
 
         treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders <a href="behandlingar/aknearr" title="Akne">behandlingar mot aknearr</a>',
+            duration: 'Efter 3 månaders <a href="behandlingar/bristningar" title="Akne">behandlingar mot bristningar</a>',
         )
     ),
 );
 
-$show_all_results_label = "Se fler resultat mot akneärr";
-$show_all_results_title = "Resultat mot akneärr";
+$show_all_results_label = "Se fler resultat mot bristningar";
+$show_all_results_title = "Resultat mot bristningar";
 
 
 $reviews = array(
@@ -217,30 +218,30 @@ $review_url_title = "AcneSpecialisten Omdömen";
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Vilka typer av behandlingar erbjuder Acnespecialisten för akneärr?',
-            text: 'Acnespecialisten erbjuder en rad olika behandlingar för akneärr, inklusive laserbehandling, kemisk peeling och microneedling.'
+            title: 'Vilka typer av behandlingar erbjuder Acnespecialisten för bristningar?',
+            text: 'Acnespecialisten erbjuder en rad olika behandlingar för bristningar, inklusive laserbehandling, kemisk peeling och microneedling.'
         ),
         new Question(
-            title: 'Hur lång tid tar en behandling av akneärr hos Acnespecialisten?',
-            text: 'En behandling av akneärr hos Acnespecialisten tar vanligtvis cirka 30 - 60 minuter.'
+            title: 'Hur lång tid tar en behandling av bristningar hos Acnespecialisten?',
+            text: 'En behandling av bristningar hos Acnespecialisten tar vanligtvis cirka 30 - 60 minuter.'
         ),
         new Question(
-            title: 'Hur många behandlingar behövs för att se resultat på akneärr?',
-            text: 'Antalet behandlingar som behövs för att se resultat på akneärr varierar beroende på ärrskadans omfattning och din hudtyp. Genomsnittligt antal behandlingar är mellan 3-8 stycken.'
+            title: 'Hur många behandlingar behövs för att se resultat på bristningar?',
+            text: 'Antalet behandlingar som behövs för att se resultat på bristningar varierar beroende på skadans omfattning och din hudtyp. Genomsnittligt antal behandlingar är mellan 3-8 stycken.'
         ),
         new Question(
-            title: 'Är behandlingarna för akneärr smärtsamma?',
-            text: 'Behandlingarna för akneärr hos Acnespecialisten är utformade för att minimera obehag. När vi behandlar ärrade områden kan det dock uppstå en tillfällig smärta. Denna känsla är dock övergående och försvinner snabbt, så du kan känna dig trygg under behandlingen.'
+            title: 'Är behandlingarna för bristningar smärtsamma?',
+            text: 'Behandlingarna för bristningar hos Acnespecialisten är utformade för att minimera obehag. När vi behandlar områden med bristningar kan det dock uppstå en tillfällig smärta. Denna känsla är dock övergående och försvinner snabbt, så du kan känna dig trygg under behandlingen.'
         ),
         new Question(
-            title: 'Kan alla hudtyper behandlas för akneärr hos Acnespecialisten?',
-            text: 'Ja, Acnespecialisten erbjuder behandlingar för akneärr som passar alla hudtyper.'
+            title: 'Kan alla hudtyper behandlas för bristningar hos Acnespecialisten?',
+            text: 'Ja, Acnespecialisten erbjuder behandlingar för bristningar som passar alla hudtyper.'
         ),
     ),
 );
 
 $faq_url_label = "Läs fler frågor & svar";
-$faq_url_title = "läs flera frågor relaterat till behandling av akneärr";
+$faq_url_title = "läs flera frågor relaterat till behandling av bristnigar";
 
 $skin_guide_articles = array(
     new SkinGuideArticle(
@@ -286,7 +287,7 @@ $skin_guide_articles = array(
 );
 
 $skinguide_url_label = "Läs fler guider";
-$skinguide_url_title = "Läs fler guider om behandling av akneärr";
+$skinguide_url_title = "Läs fler guider om behandling av bristningar";
 
 $specialists = array(
     new Specialist(
@@ -375,7 +376,7 @@ $brands = array(
 );
 
 $brands_url_label = "Se alla varumärken";
-$brands_url_title = "Varumärken för behandling av akneärr";
+$brands_url_title = "Varumärken för behandling av bristningar";
 
 ?>
 
