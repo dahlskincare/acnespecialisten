@@ -25,19 +25,25 @@ $model = new Service(
             label: '1 procedure',
             full_price: null,
             price: '£1 995',
-            booking_url: 'https://bokadirekt.se'
+            booking_url: 'https://bokadirekt.se',
+            booking_url_label: 'Boka tid för behandling',
+            booking_url_title: 'Boka tid för behandling'
         ),
         new Procedure(
             label: '3 procedures',
             full_price: '£3 885',
             price: '£2 595',
-            booking_url: 'https://bokadirekt.se'
+            booking_url: 'https://bokadirekt.se',
+            booking_url_label: 'Boka tid för behandling',
+            booking_url_title: 'Boka tid för behandling'
         ),
         new Procedure(
             label: '5 procedures',
             full_price: '£6 475',
             price: '£3 995',
-            booking_url: 'https://bokadirekt.se'
+            booking_url: 'https://bokadirekt.se',
+            booking_url_label: 'Boka tid för behandling',
+            booking_url_title: 'Boka tid för behandling'
         )
     ),
     combos: array(
@@ -131,37 +137,49 @@ $treatment_areas = array(
         title: 'Body',
         description: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin.</p>',
         items: array(
-            'hands-n-fingers' => new TreatmentAreaItem(
+            new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webm',
                 image_alt: 'Hands & fingers',
                 image_title: 'Hands & fingers',
                 title: 'Hands & fingers',
                 duration: '30 min',
-                price: '1295 kr'
+                price: '1295 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
             ),
-            'shoulders' => new TreatmentAreaItem(
+            new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webm',
                 image_alt: 'Shoulders',
                 image_title: 'Shoulders',
                 title: 'Shoulders',
                 duration: '30 min',
-                price: '1295 kr'
+                price: '1295 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
             ),
-            'armpits' => new TreatmentAreaItem(
+            new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webm',
                 image_alt: 'Armpits',
                 image_title: 'Armpits',
                 title: 'Armpits',
                 duration: '30 min',
-                price: '1295 kr'
+                price: '1295 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
             ),
-            'chest' => new TreatmentAreaItem(
+            new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webm',
                 image_alt: 'Chest',
                 image_title: 'Chest',
                 title: 'Chest',
                 duration: '30 min',
-                price: '1295 kr'
+                price: '1295 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
             )
         )
     ),
@@ -173,29 +191,38 @@ $treatment_areas = array(
         title: 'Intimate',
         description: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin.</p>',
         items: array(
-            'bikini_line' => new TreatmentAreaItem(
-                image: null,
-                image_alt: null,
-                image_title: null,
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'Face',
+                image_title: 'Face',
                 title: 'Bikini line',
                 duration: '30 min',
-                price: '1295 kr'
+                price: '1295 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
             ),
-            'string' => new TreatmentAreaItem(
-                image: null,
-                image_alt: null,
-                image_title: null,
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'String',
+                image_title: 'String',
                 title: 'String',
                 duration: '30 min',
-                price: '1295 kr'
+                price: '1295 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
             ),
-            'brazilian' => new TreatmentAreaItem(
-                image: null,
-                image_alt: null,
-                image_title: null,
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'Brazze',
+                image_title: 'Brazze',
                 title: 'Brazilian',
                 duration: '30 min',
-                price: '1295 kr'
+                price: '1295 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
             )
         )
     ),
@@ -207,38 +234,50 @@ $treatment_areas = array(
         title: 'Face',
         description: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin.</p>',
         items: array(
-            'bikini_line' => new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webm',
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
                 image_alt: 'Bikini line',
                 image_title: 'Bikini line',
                 title: 'Ears',
                 duration: '30 min',
-                price: '1295 kr'
+                price: '1295 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
             ),
-            'string' => new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webm',
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
                 image_alt: 'Cheeks',
                 image_title: 'Cheeks',
                 title: 'Cheeks',
                 duration: '30 min',
-                price: '1295 kr'
+                price: '1295 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
             ),
-            'brazilian' => new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webm',
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
                 image_alt: 'Upper lip',
                 image_title: 'Upper lip',
                 title: 'Upper lip',
                 duration: '30 min',
-                price: '1295 kr'
+                price: '1295 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
             )
         ),
         all: new TreatmentAreaItem(
-            image: 'https://via.placeholder.com/102x102.webm',
+            image: 'https://via.placeholder.com/94x72.webm',
             image_alt: 'Whole face',
             image_title: 'Whole face',
             title: 'Whole face',
             duration: '30 min',
-            price: '1925 kr'
+            price: '1925 kr',
+            url: 'https://bokadirekt.se',
+            url_label: 'Boka',
+            url_title: 'Boka tid för behandling'
         )
     )
 );
@@ -881,7 +920,19 @@ $specialists = array(
                     <section id="treatment-areas" class="large-margin">
                         <h2 class="big l10n">Treatment areas</h2>
                         <div class="mt-xs"><?php echo $treatment_areas_text ?></div>
-                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/treatment_areas/treatment_areas.php') ?>
+                        <?php foreach ($treatment_areas as $treatment_area) { ?>
+                            <picture>
+                                <source media="(max-width: 799px)" srcset="<?php echo $treatment_area->image_small ?>">
+                                <source media="(min-width: 800px)" srcset="<?php echo $treatment_area->image_large ?>">
+                                <img class="treatment-area-image" src="<?php echo $treatment_area->image_small ?>" alt="<?php echo $treatment_area->image_alt ?>" title="<?php echo $treatment_area->image_title ?>" width="364" height="364" />
+                            </picture>
+                            <h3 class="h300 mt-xl"><?php echo $treatment_area->title ?></h3>
+                            <div class="mb-xl"><?php echo $treatment_area->description ?></div>
+                        <?php
+                            foreach ($treatment_area->items as $treatment_area_item) {
+                                include('../widgets/treatment-area-item-card/treatment-area-item-card.php');
+                            }
+                        } ?>
                     </section>
 
                 <?php } ?>
