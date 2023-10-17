@@ -881,7 +881,7 @@ $specialists = array(
                     <section id="treatment-areas" class="large-margin">
                         <h2 class="big l10n">Treatment areas</h2>
                         <div class="mt-xs"><?php echo $treatment_areas_text ?></div>
-                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/treatment_areas/treatment_areas.php') ?>
+
                     </section>
 
                 <?php } ?>
