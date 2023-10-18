@@ -18,8 +18,6 @@ $model = new Service(
     booking_url: 'https://bokadirekt.se',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
-    icons: null,
-    short_title: null,
     procedures: array(
         new Procedure(
             label: '1 procedure',
@@ -48,80 +46,89 @@ $model = new Service(
     ),
     combos: array(
         new ServiceCombo(
+            name: 'Combination 1',
             image_small: 'https://via.placeholder.com/200x200.webp',
             image_large: 'https://via.placeholder.com/361x274.webp',
             image_alt: 'Ansiktsbehandlingar för problemhy',
             image_title: 'Ansiktsbehandlingar för problemhy',
             duration: '50 min',
             price: '2595 kr',
-            full_price: '3885 kr',
             booking_url: 'https://bokadirekt.se',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling',
             items: array(
                 new ServiceComboItem(
                     title: 'Deep bikini',
-                    price: '995 kr'
+                    price: '995 kr',
+                    full_price: '1495 kr',
                 ),
                 new ServiceComboItem(
                     title: 'Armpits',
-                    price: '995 kr'
+                    price: '995 kr',
+                    full_price: '1495 kr',
                 )
             )
         ),
         new ServiceCombo(
+            name: 'Combination 2',
             image_small: 'https://via.placeholder.com/200x200.webp',
             image_large: 'https://via.placeholder.com/361x274.webp',
             image_alt: 'Ansiktsbehandlingar för problemhy',
             image_title: 'Ansiktsbehandlingar för problemhy',
             duration: '50 min',
             price: '2595 kr',
-            full_price: '3885 kr',
             booking_url: 'https://bokadirekt.se',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling',
             items: array(
                 new ServiceComboItem(
                     title: 'Deep bikini',
-                    price: '995 kr'
+                    price: '995 kr',
+                    full_price: '1495 kr',
                 ),
                 new ServiceComboItem(
                     title: 'Armpits',
-                    price: '995 kr'
+                    price: '995 kr',
+                    full_price: '1495 kr',
                 ),
                 new ServiceComboItem(
                     title: 'Legs',
-                    price: '995 kr'
+                    price: '995 kr',
+                    full_price: '1495 kr',
                 )
             )
         ),
         new ServiceCombo(
+            name: 'Combination 3',
             image_small: 'https://via.placeholder.com/200x200.webp',
             image_large: 'https://via.placeholder.com/361x274.webp',
             image_alt: 'Ansiktsbehandlingar för problemhy',
             image_title: 'Ansiktsbehandlingar för problemhy',
             duration: '50 min',
             price: '2595 kr',
-            full_price: '3885 kr',
             booking_url: 'https://bokadirekt.se',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling',
             items: array(
                 new ServiceComboItem(
                     title: 'Full legs',
-                    price: '995 kr'
+                    price: '995 kr',
+                    full_price: '1495 kr',
                 ),
                 new ServiceComboItem(
                     title: 'Arms up to the elbow',
-                    price: '995 kr'
+                    price: '995 kr',
+                    full_price: '1495 kr',
                 ),
                 new ServiceComboItem(
                     title: 'Deep bikini',
-                    price: '995 kr'
+                    price: '995 kr',
+                    full_price: '1495 kr',
                 ),
                 new ServiceComboItem(
                     title: 'Armpits',
-                    price: '995 kr'
+                    price: '995 kr',
+                    full_price: '1495 kr',
                 ),
             )
         )

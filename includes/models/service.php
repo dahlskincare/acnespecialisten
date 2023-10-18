@@ -72,28 +72,27 @@ class Service
 
 class ServiceCombo
 {
-    public function __construct($image_small, $image_large, $image_alt, $image_title, $duration, $price, $full_price, $booking_url, $booking_url_label, $booking_url_title, $items)
+    public function __construct($name, $image_small, $image_large, $image_alt, $image_title, $duration, $price, $booking_url, $booking_url_label, $booking_url_title, $items)
     {
+        $this->name = $name;
         $this->image_small = $image_small;
         $this->image_large = $image_large;
         $this->image_alt = $image_alt;
         $this->image_title = $image_title;
         $this->duration = $duration;
         $this->price = $price;
-        $this->full_price = $full_price;
         $this->booking_url = $booking_url;
         $this->booking_url_label = $booking_url_label;
         $this->booking_url_title = $booking_url_title;
         $this->items = $items;
     }
-
+    public string $name;
     public string $image_small;
     public string $image_large;
     public string $image_alt;
     public string $image_title;
     public string $duration;
     public string $price;
-    public string $full_price;
     public string $booking_url;
     public string $booking_url_label;
     public string $booking_url_title;
@@ -102,12 +101,14 @@ class ServiceCombo
 
 class ServiceComboItem
 {
-    public function __construct($title, $price)
+    public function __construct($title, $price, $full_price)
     {
         $this->title = $title;
         $this->price = $price;
+        $this->full_price = $full_price;
     }
 
     public string $title;
     public string $price;
+    public string $full_price;
 }
