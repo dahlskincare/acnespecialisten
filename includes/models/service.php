@@ -22,7 +22,6 @@ class Service
         $icons = array(),
         $short_title = null,
         $procedures = array(),
-        $combos = array(),
     ) {
         $this->title = $title;
         $this->duration = $duration;
@@ -44,7 +43,6 @@ class Service
         $this->icons = $icons;
         $this->short_title = $short_title;
         $this->procedures = $procedures;
-        $this->combos = $combos;
     }
 
     public string $title;
@@ -67,7 +65,6 @@ class Service
     public ?array $icons;
     public ?string $short_title;
     public array $procedures;
-    public array $combos;
 }
 
 class ServiceCombo
