@@ -170,24 +170,24 @@ $review_url_title = "AcneSpecialisten Omdömen";
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Vilka typer av behandlingar erbjuder Acnespecialisten för akneärr?',
-            text: 'Acnespecialisten erbjuder en rad olika behandlingar för akneärr, inklusive laserbehandling, kemisk peeling och microneedling.'
+            title: 'Vilka typer av behandlingar erbjuder Acnespecialisten för hudförändringar?',
+            text: 'Acnespecialisten erbjuder en rad olika behandlingar för hudförändringar, inklusive Cryopen frysbehandling, laserbehandling och andra specialiserade tekniker.'
         ),
         new Question(
-            title: 'Hur lång tid tar en behandling av akneärr hos Acnespecialisten?',
-            text: 'En behandling av akneärr hos Acnespecialisten tar vanligtvis cirka 30 - 60 minuter.'
+            title: 'Hur lång tid tar en behandling av hudförändringar hos Acnespecialisten?',
+            text: 'En behandling av hudförändringar hos Acnespecialisten tar vanligtvis mellan 10 - 30 minuter, beroende på omfattningen av förändringarna och vald behandlingsmetod.'
         ),
         new Question(
-            title: 'Hur många behandlingar behövs för att se resultat på akneärr?',
-            text: 'Antalet behandlingar som behövs för att se resultat på akneärr varierar beroende på ärrskadans omfattning och din hudtyp. Genomsnittligt antal behandlingar är mellan 3-8 stycken.'
+            title: 'Hur många behandlingar behövs för att se resultat på hudförändringar?',
+            text: 'Antalet behandlingar som behövs för att se resultat på hudförändringar varierar beroende på förändringens art och din hudtyp. Genomsnittligt antal behandlingar ligger mellan 1-5 stycken, beroende på problemets svårighetsgrad.'
         ),
         new Question(
-            title: 'Är behandlingarna för akneärr smärtsamma?',
-            text: 'Behandlingarna för akneärr hos Acnespecialisten är utformade för att minimera obehag. När vi behandlar ärrade områden kan det dock uppstå en tillfällig smärta. Denna känsla är dock övergående och försvinner snabbt, så du kan känna dig trygg under behandlingen.'
+            title: 'Är behandlingarna för hudförändringar smärtsamma?',
+            text: 'Behandlingarna för hudförändringar hos Acnespecialisten är utformade för att minimera obehag. Vissa behandlingsmetoder, som Cryopen, kan dock ge en kortvarig stickande känsla. Denna känsla är dock övergående, så du kan känna dig trygg under behandlingen.'
         ),
         new Question(
-            title: 'Kan alla hudtyper behandlas för akneärr hos Acnespecialisten?',
-            text: 'Ja, Acnespecialisten erbjuder behandlingar för akneärr som passar alla hudtyper.'
+            title: 'Kan alla hudtyper behandlas för hudförändringar hos Acnespecialisten?',
+            text: 'Ja, Acnespecialisten erbjuder behandlingar för hudförändringar som är lämpliga för alla hudtyper.'
         ),
     ),
 );
