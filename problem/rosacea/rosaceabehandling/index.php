@@ -64,86 +64,82 @@ $services = array(
     new Service(
         image_small: 'https://via.placeholder.com/358x274.jpg',
         image_large: 'https://via.placeholder.com/852x456.jpg',
-        image_title: 'Effektiv Ansiktsbehandling mot Akne på Acnespecialisten',
-        image_alt: 'Bild illustrerar en ansiktsbehandling mot akne utförd på Acnespecialisten',
+        image_title: 'Effektiv Ansiktsbehandling mot Rosacea på Acnespecialisten',
+        image_alt: 'Bild illustrerar en ansiktsbehandling mot rosacea utförd på Acnespecialisten',
 
-        title: 'Ansiktsbehandling mot Akne',
+        title: 'Ansiktsbehandling mot Rosacea',
         duration: '60 minuter',
         price: 'Pris från 799 kr',
         icons: array('who-infants' => 'Djuprengörande', 'who-elders' => 'Hudbalanserande', 'who-teenagers' => 'Porrensande', 'who-adults' => 'Anti-inflammatorisk'),
-        content: '<p class="p200">Ansiktsbehandling mot akne på Acnespecialisten är en djuprengöring av huden som tar bort döda hudceller och frigör tilltäppta porer. Behandlingen inleds med en rengöring, följt av ångning för att öppna upp porerna. Därefter följer en djup porrengöring där orenheter och akne elimineras. Behandlingen avslutas med en lugnande mask och fuktgivande kräm anpassad för din hudtyp.</p>',
+        content: '<p class="p200">Ansiktsbehandling mot rosacea på Acnespecialisten syftar till att lugna huden, minska rodnad och inflammation. Behandlingen inleds med en skonsam rengöring, följt av behandlingar som är anpassade för att stärka hudens barriär och minska symtomen av rosacea. Behandlingen avslutas med en lugnande mask och fuktgivande kräm speciellt anpassad för känslig hud eller hud med rosacea.</p>',
 
-        consultation_url: 'boka-hudkonsultation-akne',
+        consultation_url: 'boka-hudkonsultation-rosacea',
         consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka Hudkonsultation för Akne på Acnespecialisten',
+        consultation_url_title: 'Boka Hudkonsultation för Rosacea på Acnespecialisten',
 
-        booking_url: 'boka-djuprengörande-ansiktsbehandling-akne',
+        booking_url: 'boka-behandling-rosacea',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka Din Ansiktsbehandling mot Akne på Acnespecialisten',
+        booking_url_title: 'Boka Din Ansiktsbehandling mot Rosacea på Acnespecialisten',
 
-        url: 'behandlingar/ansiktsbehandlingar-problemhy/acnebehandling',
-        url_label: 'Läs Mer om Vår Ansiktsbehandling mot Akne',
-        url_title: 'Mer Information om Vår Ansiktsbehandling mot Akne',
+        url: 'behandlingar/ansiktsbehandlingar-problemhy/rosaceabehandling',
+        url_label: 'Läs Mer om Vår Ansiktsbehandling mot Rosacea',
+        url_title: 'Mer Information om Vår Ansiktsbehandling mot Rosacea',
 
         // short_title: 'Ansiktsbehandling'
-
     ),
 
     new Service(
         image_small: 'https://via.placeholder.com/358x274.jpg',
         image_large: 'https://via.placeholder.com/852x456.jpg',
-        image_title: 'Klient som genomgår laserbehandling mot akne',
-        image_alt: 'Bild av laserbehandling mot akne hos Acnespecialisten',
-        title: 'Effektiv laserbehandling mot akne',
+        image_title: 'Klient som genomgår IPL-behandling mot rosacea',
+        image_alt: 'Bild av IPL-behandling mot rosacea hos Acnespecialisten',
+        title: 'Effektiv IPL-behandling mot Rosacea',
         duration: '30-60 min',
         price: '1295 kr',
         icons: array('who-infants' => 'Precision', 'who-elders' => 'Icke-invasiv', 'who-teenagers' => 'Snabb', 'who-adults' => 'Effektiv'),
-        content: '<p class="p200">Laserbehandling för akne hos Acnespecialisten fungerar genom att använda ljusenergi för att behandla inflammationen i huden som orsakar akne. Laserstrålen tränger ner i huden och behandlar de djupa lager där akne börjar. Denna metod reducerar oljeproduktionen i huden och dödar bakterier som bidrar till akneutbrott.</p>',
-        consultation_url: 'konsultation-laser',
+        content: '<p class="p200">IPL-behandling för rosacea hos Acnespecialisten fungerar genom att använda ljuspulser för att minska rodnad och små blodkärl som ofta förknippas med rosacea. Ljuspulserna riktar sig specifikt mot de röda områdena, vilket minskar inflammationen och förbättrar hudens utseende.</p>',
+        consultation_url: 'konsultation-ipl',
         consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka en konsultation för laserbehandling mot akne',
-        booking_url: 'boka-laserbehandling',
+        consultation_url_title: 'Boka en konsultation för IPL-behandling mot rosacea',
+        booking_url: 'boka-iplbehandling',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka din laserbehandling mot akne nu',
-        url: 'behandlingar/laserbehandling-mot-akne',
-        url_label: 'Läs mer om laserbehandlingar',
-        url_title: 'Utforska mer om våra laserbehandlingar mot akne',
+        booking_url_title: 'Boka din IPL-behandling mot rosacea nu',
+        url: 'behandlingar/iplbehandling-mot-rosacea',
+        url_label: 'Läs mer om IPL-behandlingar',
+        url_title: 'Utforska mer om våra IPL-behandlingar mot rosacea',
 
-        // short_title: 'Laser'
-
+        // short_title: 'IPL'
     ),
+
 );
 
-$headline03 = "03. Förebygg akne";
+$headline03 = "03. Förebygg rosacea";
 
 $products = array(
     new Product(
         image_small: 'https://via.placeholder.com/358x274.jpg',
         image_large: 'https://via.placeholder.com/872x456.jpg',
-        image_title: 'Acnespecialistens effektiva hudvårdsprodukter mot akne',
-        image_alt: 'Bild på Acnespecialistens hudvårdsprodukter mot akne',
+        image_title: 'Acnespecialistens effektiva hudvårdsprodukter mot rosacea',
+        image_alt: 'Bild på Acnespecialistens hudvårdsprodukter mot rosacea',
 
-        url: 'produkter/mot-akne',
-        url_label: 'Utforska våra hudvårdsprodukter mot akne',
-        url_title: 'Information om Acnespecialistens hudvårdsprodukter mot akne',
-        price: 'Acnespecialistens hudvårdsprodukter mot akne - Pris från 1295 kr',
-        content: '<p class="p200">Att förebygga akne är en viktig del av processen för att hålla din hud aknefri, lika viktig som behandlingarna. För detta ändamål erbjuder vi en daglig hudvårdsrutin med specifika produkter mot akne. Denna rutin hjälper till att hålla din hy ren, balanserad och fri från överflödigt talg och bakterier. Denna dagliga vård hjälper till att förhindra framtida utbrott och är lika viktig som regelbundna besök hos oss på Acnespecialisten.</p>',
-
-
-
+        url: 'produkter/mot-rosacea',
+        url_label: 'Utforska våra hudvårdsprodukter mot rosacea',
+        url_title: 'Information om Acnespecialistens hudvårdsprodukter mot rosacea',
+        price: 'Acnespecialistens hudvårdsprodukter mot rosacea - Pris från 1295 kr',
+        content: '<p class="p200">Att förebygga rosacea är en viktig del av processen för att hålla din hud lugn och utan rodnad, lika viktig som behandlingarna. För detta ändamål erbjuder vi en daglig hudvårdsrutin med specifika produkter mot rosacea. Denna rutin hjälper till att hålla din hy balanserad, stärker hudens naturliga barriär och minskar symtom på rodnad och irritation. Denna dagliga vård hjälper till att förhindra förvärring av symtomen och är lika viktig som regelbundna besök hos oss på Acnespecialisten.</p>',
     ),
 );
 
-$headline04 = '04. Reparera post-akne (Acneärr)';
+$headline04 = '04. Behandla Ytliga Blodkärl';
 
 $repair_image_small = 'https://via.placeholder.com/358x274.jpg';
 $repair_image_large = 'https://via.placeholder.com/872x456.jpg';
 
-$repair_content = '<p class="p200">När din akne har behandlats och aknen tagits bort, kan det hända att den lämnar ärr bakom sig. På Acnespecialisten kan vi hjälpa dig att reparera dessa ärr genom olika tekniker som laserteknik och microneedling. Dessa metoder främjar hudens egen regenerering, hjälper till att återställa en jämn hudstruktur och minska synligheten av ärr. Med oss vid din sida kan du känna att du har stödet du behöver för att ta bort akne och njuta av en klarare, friskare hy.</p>';
+$repair_content = '<p class="p200">Ytliga blodkärl, även kända som spindelkärl eller brustna blodkärl, kan uppstå av flera orsaker och ge ett rodnat och fläckigt utseende på huden. På Acnespecialisten kan vi hjälpa dig att behandla dessa blodkärl med moderna tekniker som laserteknik och IPL (Intense Pulsed Light). Dessa metoder riktar sig direkt till blodkärlen, vilket får dem att kollapsa och successivt försvinna. Med oss vid din sida kan du känna dig trygg i att du får den bästa möjliga behandlingen och rådgivningen för att återställa en jämn hudton utan störande blodkärl.</p>';
 
-$repair_url = 'treatments/acne';
-$repair_url_label = 'Se ärrbehandlingar';
-$repair_url_title = 'klicka här för att se våra ärrbehandlingar';
+$repair_url = 'treatments/ytliga-blodkarl';
+$repair_url_label = 'Se behandlingar för ytliga blodkärl';
+$repair_url_title = 'Klicka här för att se våra behandlingar för ytliga blodkärl';
 
 
 $results = array(
@@ -156,7 +152,7 @@ $results = array(
         image_title: 'Resultat',
 
         treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne"">behandlingar mot akne</a>'
+            duration: 'Efter 3 månaders <a href="behandlingar/rosacea" title="Rosacea"">behandlingar mot rosacea</a>'
         ),
     ),
     new ResultCustomer(
@@ -168,13 +164,13 @@ $results = array(
         image_title: 'Resultat',
 
         treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne">behandlingar mot akne</a>',
+            duration: 'Efter 3 månaders <a href="behandlingar/rosacea" title="Rosacea">behandlingar mot rosacea</a>',
         )
     ),
 );
 
-$show_all_results_label = "Se fler resultat blablalba";
-$show_all_results_title = "KLICKA PÅ MIG";
+$show_all_results_label = "Se fler resultat mot rosacea";
+$show_all_results_title = "Se resultat";
 
 
 $reviews = array(
@@ -250,7 +246,7 @@ $faq_categories = array(
 );
 
 $faq_url_label = "Läs fler frågor & svar";
-$faq_url_title = "läs flera frågor relaterat till aknebehandling";
+$faq_url_title = "läs flera frågor relaterat till rosaceabehandling";
 
 $skin_guide_articles = array(
     new SkinGuideArticle(
@@ -296,7 +292,7 @@ $skin_guide_articles = array(
 );
 
 $skinguide_url_label = "Läs fler guider";
-$skinguide_url_title = "Läs fler guider om aknebehandling";
+$skinguide_url_title = "Läs fler guider om rosaceabehandling";
 
 $specialists = array(
     new Specialist(
@@ -330,8 +326,8 @@ $specialists = array(
     )
 );
 
-$specialist_url_label = "Se alla specialister hej hej hej";
-$specialist_url_title = "Akne Specialiserade Hudterapeuter";
+$specialist_url_label = "Se alla specialister";
+$specialist_url_title = "Rosacea Specialiserade Hudterapeuter";
 
 $brands = array(
     new Brand(
@@ -385,7 +381,7 @@ $brands = array(
 );
 
 $brands_url_label = "Se alla varumärken";
-$brands_url_title = "Varumärken för Aknebehandling";
+$brands_url_title = "Varumärken för Rosaceabehandling";
 
 ?>
 
