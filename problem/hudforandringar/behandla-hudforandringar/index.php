@@ -171,19 +171,19 @@ $faq_categories = array(
     '' => array(
         new Question(
             title: 'Vilka typer av behandlingar erbjuder Acnespecialisten för hudförändringar?',
-            text: 'Acnespecialisten erbjuder en rad olika behandlingar för hudförändringar, inklusive Cryopen frysbehandling, laserbehandling och andra specialiserade tekniker.'
+            text: 'Acnespecialisten behandlar vi hudförändringar med CryoPen.'
         ),
         new Question(
             title: 'Hur lång tid tar en behandling av hudförändringar hos Acnespecialisten?',
-            text: 'En behandling av hudförändringar hos Acnespecialisten tar vanligtvis mellan 10 - 30 minuter, beroende på omfattningen av förändringarna och vald behandlingsmetod.'
+            text: 'En behandling av hudförändringar hos Acnespecialisten tar vanligtvis mellan 10 - 30 minuter, beroende på omfattningen av förändringarna.'
         ),
         new Question(
             title: 'Hur många behandlingar behövs för att se resultat på hudförändringar?',
-            text: 'Antalet behandlingar som behövs för att se resultat på hudförändringar varierar beroende på förändringens art och din hudtyp. Genomsnittligt antal behandlingar ligger mellan 1-5 stycken, beroende på problemets svårighetsgrad.'
+            text: 'Antalet behandlingar som behövs för att se resultat på hudförändringar varierar beroende på förändringens art och din hudtyp. Genomsnittligt antal behandlingar ligger mellan 3-5 stycken, beroende på problemets svårighetsgrad.'
         ),
         new Question(
             title: 'Är behandlingarna för hudförändringar smärtsamma?',
-            text: 'Behandlingarna för hudförändringar hos Acnespecialisten är utformade för att minimera obehag. Vissa behandlingsmetoder, som Cryopen, kan dock ge en kortvarig stickande känsla. Denna känsla är dock övergående, så du kan känna dig trygg under behandlingen.'
+            text: 'Behandlingarna för hudförändringar hos Acnespecialisten är utformade för att minimera obehag. Cryopen kan dock ge en kortvarig stickande känsla. Denna känsla är dock övergående, så du kan känna dig trygg under behandlingen.'
         ),
         new Question(
             title: 'Kan alla hudtyper behandlas för hudförändringar hos Acnespecialisten?',
@@ -193,7 +193,7 @@ $faq_categories = array(
 );
 
 $faq_url_label = "Läs fler frågor & svar";
-$faq_url_title = "läs flera frågor relaterat till behandling av akneärr";
+$faq_url_title = "läs flera frågor relaterat till behandling av hudförändringar";
 
 $skin_guide_articles = array(
     new SkinGuideArticle(
@@ -239,7 +239,7 @@ $skin_guide_articles = array(
 );
 
 $skinguide_url_label = "Läs fler guider";
-$skinguide_url_title = "Läs fler guider om behandling av akneärr";
+$skinguide_url_title = "Läs fler guider om behandling av hudförändringar";
 
 $specialists = array(
     new Specialist(
@@ -274,61 +274,19 @@ $specialists = array(
 );
 
 $specialist_url_label = "Se alla specialister";
-$specialist_url_title = "Akneärr Specialiserade Hudterapeuter";
+$specialist_url_title = "Hudterapeuter Specialiserade på hudförändringar";
 
 $brands = array(
-    new Brand(
-        label: 'Powerlite',
-        image: 'images/brands/powerlite.svg',
-        image_alt: 'Powerlite',
-        image_title: 'Powerlite',
-    ),
-    new Brand(
-        label: 'Dermapen4',
-        image: 'images/brands/dermapen4.svg',
-        image_alt: 'Dermapen4',
-        image_title: 'Dermapen4',
-    ),
     new Brand(
         label: 'Cryopen',
         image: 'images/brands/cryopen.svg',
         image_alt: 'Cryopen',
         image_title: 'Cryopen',
     ),
-    new Brand(
-        label: 'Lumenis',
-        image: 'images/brands/lumenis.svg',
-        image_alt: 'Lumenis',
-        image_title: 'Lumenis',
-    ),
-    new Brand(
-        label: 'Alma',
-        image: 'images/brands/alma.svg',
-        image_alt: 'Alma',
-        image_title: 'Alma',
-    ),
-    new Brand(
-        label: 'PRXT',
-        image: 'images/brands/prxt.svg',
-        image_alt: 'PRXT',
-        image_title: 'PRXT',
-    ),
-    new Brand(
-        label: 'Hydrafacial',
-        image: 'images/brands/hydrafacial.svg',
-        image_alt: 'Hydrafacial',
-        image_title: 'Hydrafacial',
-    ),
-    new Brand(
-        label: 'IP infusion',
-        image: 'images/brands/ipinfusion.svg',
-        image_alt: 'IP infusion',
-        image_title: 'IP infusion',
-    ),
 );
 
 $brands_url_label = "Se alla varumärken";
-$brands_url_title = "Varumärken för behandling av akneärr";
+$brands_url_title = "Varumärken för behandling av hudförändringar";
 
 ?>
 
