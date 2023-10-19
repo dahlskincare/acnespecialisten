@@ -99,7 +99,7 @@ $results = array(
         image_title: 'Resultat',
 
         treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders <a href="behandlingar/aknearr" title="Aknearr"">behandlingar mot aknearr</a>'
+            duration: 'Efter 3 månaders <a href="behandlingar/hudforandringar" title="Hudförändringar"">behandlingar mot hudförändringar</a>'
         ),
     ),
     new ResultCustomer(
@@ -111,13 +111,13 @@ $results = array(
         image_title: 'Resultat',
 
         treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders <a href="behandlingar/aknearr" title="Akne">behandlingar mot aknearr</a>',
+            duration: 'Efter 3 månaders <a href="behandlingar/hudforandringar" title="Hudförändringar">behandlingar mot hudförändringar</a>',
         )
     ),
 );
 
-$show_all_results_label = "Se fler resultat mot akneärr";
-$show_all_results_title = "Resultat mot akneärr";
+$show_all_results_label = "Se fler resultat mot hudförändringar";
+$show_all_results_title = "Resultat mot hudförändringar";
 
 
 $reviews = array(
