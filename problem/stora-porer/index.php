@@ -207,26 +207,26 @@ $symptoms = array(
 
 );
 
-$headline01 = "01. Identifiera din akne";
+$headline01 = "01. Identifiera dina stora porer";
 
 $service = new Service(
-      title: 'Konsultation',
+      title: 'Konsultation för stora porer',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Vid ett personligt möte med en acnespecialist utförs en undersökning av din akne. Vi tar före-bilder på din hud och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
+      content: 'Vid ett personligt möte med en specialist på stora porer utförs en undersökning av din hud. Vi tar före-bilder på områdena med stora porer och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
 
       image_small: 'images/services/200x200/konsultation.webp',
       image_large: 'images/services/200x200/konsultation.webp',
-      image_alt: 'Bild av en konsultation för aknebehandling',
-      image_title: 'Konsultation för aknebehandling',
+      image_alt: 'Bild av en konsultation för behandling av stora porer',
+      image_title: 'Konsultation för behandling av stora porer',
 
-      url_label: 'Läs mer om vår hudkonsultation',
-      url: 'hudkonsultation',
-      url_title: 'Klicka här för att läsa mer om gratis hudkonsultation',
+      url_label: 'Läs mer om vår konsultation för stora porer',
+      url: 'hudkonsultation-stora-porer',
+      url_title: 'Klicka här för att läsa mer om gratis konsultation för stora porer',
 
-      consultation_url_label: 'Boka tid för hudkonsultation',
-      consultation_url: 'consultation-booking?problem=acne',
-      consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för akne',
+      consultation_url_label: 'Boka tid för konsultation om stora porer',
+      consultation_url: 'consultation-booking?problem=stora-porer',
+      consultation_url_title: 'Klicka för att boka tid för en konsultation om stora porer',
 
       booking_url_label: null,
       booking_url: null,
@@ -234,122 +234,123 @@ $service = new Service(
 
 );
 
-$headline02 = "02. Behandla aktiv akne";
+$headline02 = "02. Behandla stora porer";
 
 $services = array(
       new Service(
-            title: 'Ansiktsbehandling mot akne',
+            title: 'Ansiktsbehandling för stora porer',
             duration: '60 min',
             price: '995 kr',
-            content: 'En effektiv ansiktsbehandling mot akne fokuserar på att noggrant extrahera orenheter som orsakar inflammation och skador i huden. Genom att försiktigt klämma ut akne och pormaskar kan behandlingen bidra till att förebygga ärrbildning och främja en snabbare läkning.',
+            content: 'Denna behandling är utformad för att minska synligheten av stora porer och förbättra hudens textur. Genom djup rengöring, exfoliering och hydrering kan huden se mer jämn och fräsch ut.',
 
-            image_small: 'images/services/200x200/ansiktsbehandling-akne.webp',
-            image_large: 'images/services/200x200/ansiktsbehandling-akne.webp',
-            image_alt: 'Bild av en ansiktsbehandling mot akne',
-            image_title: 'Ansiktsbehandling mot akne',
+            image_small: 'images/services/200x200/ansiktsbehandling-stora-porer.webp',
+            image_large: 'images/services/200x200/ansiktsbehandling-stora-porer.webp',
+            image_alt: 'Bild av en ansiktsbehandling för stora porer',
+            image_title: 'Ansiktsbehandling för stora porer',
 
-            url: 'behandlingar/ansiktsbehandling-acne',
-            url_label: 'Läs mer om ansiktsbehandling mot akne',
-            url_title: 'Klicka här för att läsa mer om ansiktsbehandling mot akne',
+            url: 'behandlingar/ansiktsbehandling-stora-porer',
+            url_label: 'Läs mer om ansiktsbehandling för stora porer',
+            url_title: 'Klicka här för att läsa mer om ansiktsbehandling för stora porer',
 
             consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url: 'consultation-booking?problem=acne&service=classicFacials',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling mot akne',
+            consultation_url: 'consultation-booking?problem=large-pores&service=classicFacials',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling för stora porer',
 
-            booking_url_label: 'Boka tid för ansiktsbehandling mot akne',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
-            booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling mot akne'
+            booking_url_label: 'Boka tid för ansiktsbehandling för stora porer',
+            booking_url: 'https://www.bokadirekt.se/boka-tjanst/skonhetscenter-%C3%B6stermalm-43559/stora-porer-konsultation-1643922',
+            booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling för stora porer'
       ),
       new Service(
-            title: 'Laser mot akne',
+            title: 'Laserbehandling för stora porer',
             duration: '50 min',
             price: '2595 kr',
-            content: 'En avancerad laserbehandling mot akne erbjuder en effektiv lösning för att bekämpa aktiv akne och ärr som kan uppstå efter utbrott. Lasertekniken riktar sig mot de bakterier som orsakar inflammation och hjälper till att minska produktionen av talg, vilket minskar risken för framtida utbrott.',
+            content: 'Med hjälp av avancerad laserteknik kan denna behandling effektivt minska synligheten av stora porer och förbättra hudens textur. Lasern stimulerar kollagenproduktionen och elastinet i huden vilket resulterar i en jämnare och slätare hudstruktur.',
 
-            image_small: 'images/services/200x200/laser-akne.webp',
-            image_large: 'images/services/200x200/laser-akne.webp',
-            image_alt: 'Bild av laserbehandling mot akne',
-            image_title: 'Laserbehandling mot akne',
+            image_small: 'images/services/200x200/laser-stora-porer.webp',
+            image_large: 'images/services/200x200/laser-stora-porer.webp',
+            image_alt: 'Bild av laserbehandling för stora porer',
+            image_title: 'Laserbehandling för stora porer',
 
-            url_label: 'Läs mer om laser mot akne',
-            url: 'behandlingar/laser-akne',
-            url_title: 'Klicka här för att läsa mer om laserbehandling mot akne',
+            url_label: 'Läs mer om laser för stora porer',
+            url: 'behandlingar/laser-stora-porer',
+            url_title: 'Klicka här för att läsa mer om laserbehandling för stora porer',
 
             consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url: 'consultation-booking?problem=acne&service=laser',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling mot akne',
+            consultation_url: 'consultation-booking?problem=large-pores&service=laser',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling för stora porer',
 
-            booking_url_label: 'Boka tid för laserbehandling mot akne',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
-            booking_url_title: 'Klicka för att boka tid för en laserbehandling mot akne'
+            booking_url_label: 'Boka tid för laserbehandling för stora porer',
+            booking_url: 'https://www.bokadirekt.se/boka-tjanst/skonhetscenter-%C3%B6stermalm-43559/stora-porer-konsultation-1643922',
+            booking_url_title: 'Klicka för att boka tid för en laserbehandling för stora porer'
       ),
       new Service(
-            title: 'Kemisk peeling mot akne',
+            title: 'Kemisk peeling för stora porer',
             duration: '30 min',
             price: '1595 kr',
-            content: 'Kemisk peeling är en effektiv metod för att behandla akne. Genom att använda en speciellt framtagen lösning för att exfoliera huden, främjar kemisk peeling cellförnyelse, rensar tilltäppta porer och minskar inflammation. Resultatet är en jämnare hudton, mindre utbrott och färre synliga ärr. Det är en enkel och effektiv strategi för att ta kontroll över din akne och förbättra din hudhälsa.',
+            content: 'Kemisk peeling är en effektiv metod för att behandla och minska synligheten av stora porer. Genom att använda en speciellt framtagen lösning för att exfoliera huden främjar kemisk peeling cellförnyelse och rensar tilltäppta porer. Resultatet är en jämnare hudton och en förbättrad hudstruktur med mindre synliga porer. Det är en enkel och effektiv strategi för att förbättra din hudhälsa och reducera stora porer.',
 
-            image_small: 'images/services/200x200/kemisk-peeling-akne.webp',
-            image_large: 'images/services/200x200/kemisk-peeling-akne.webp',
-            image_alt: 'Bild av kemisk peeling mot akne',
-            image_title: 'Kemisk peeling mot akne behandling',
+            image_small: 'images/services/200x200/kemisk-peeling-stora-porer.webp',
+            image_large: 'images/services/200x200/kemisk-peeling-stora-porer.webp',
+            image_alt: 'Bild av kemisk peeling för stora porer',
+            image_title: 'Kemisk peeling för stora porer behandling',
 
-            url: 'behandlingar/kemisk-peeling-akne',
-            url_label: 'Läs mer om kemisk peeling mot akne',
-            url_title: 'Klicka här för att läsa mer om kemisk peeling mot akne',
+            url: 'behandlingar/kemisk-peeling-stora-porer',
+            url_label: 'Läs mer om kemisk peeling för stora porer',
+            url_title: 'Klicka här för att läsa mer om kemisk peeling för stora porer',
 
-            consultation_url: 'consultation-booking?problem=acne&service=chemicalPeeling',
+            consultation_url: 'consultation-booking?problem=large-pores&service=chemicalPeeling',
             consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för kemisk peeling mot akne',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för kemisk peeling för stora porer',
 
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
-            booking_url_label: 'Boka tid för kemisk peeling mot akne',
-            booking_url_title: 'Klicka för att boka tid för en kemisk peeling mot akne behandling'
+            booking_url: 'https://www.bokadirekt.se/boka-tjanst/skonhetscenter-%C3%B6stermalm-43559/stora-porer-konsultation-1643922',
+            booking_url_label: 'Boka tid för kemisk peeling för stora porer',
+            booking_url_title: 'Klicka för att boka tid för en kemisk peeling för stora porer behandling'
 
       ),
 
       new Service(
-            title: 'Microneedling mot akne',
+            title: 'Microneedling för stora porer',
             duration: '50 min',
             price: '2595 kr',
-            content: 'Microneedling är en innovativ behandlingsmetod för akne. Detta utförs genom att skapa små mikroskopiska kanaler i huden vilket främjar hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. Denna behandling kan effektivt minska utbrott av akne, förbättra hudens struktur och minska synligheten av akneärr. Microneedling är en säker och effektiv strategi för att ta kontroll över din akne och förbättra din hudhälsa.',
+            content: 'Microneedling är en innovativ behandlingsmetod för att reducera synligheten av stora porer. Genom att skapa små mikroskopiska kanaler i huden främjar detta hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. Denna behandling kan effektivt förbättra hudens struktur och minska synligheten av stora porer. Microneedling är en säker och effektiv strategi för att förbättra din hudhälsa och hantera stora porer.',
 
-            image_small: 'images/services/200x200/kemisk-peeling-akne.webp',
-            image_large: 'images/services/200x200/kemisk-peeling-akne.webp',
-            image_alt: 'Bild av microneedling mot akne',
-            image_title: 'Microneedling mot akne behandling',
+            image_small: 'images/services/200x200/microneedling-stora-porer.webp',
+            image_large: 'images/services/200x200/microneedling-stora-porer.webp',
+            image_alt: 'Bild av microneedling för stora porer',
+            image_title: 'Microneedling för stora porer behandling',
 
-            url: 'behandlingar/microneedling-akne',
-            url_label: 'Läs mer om microneedling mot akne',
-            url_title: 'Klicka här för att läsa mer om microneedling mot akne',
+            url: 'behandlingar/microneedling-stora-porer',
+            url_label: 'Läs mer om microneedling för stora porer',
+            url_title: 'Klicka här för att läsa mer om microneedling för stora porer',
 
             consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url: 'consultation-booking?problem=acne&service=microneedling',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling mot akne',
+            consultation_url: 'consultation-booking?problem=large-pores&service=microneedling',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling för stora porer',
 
-            booking_url_label: 'Boka tid för microneedling mot akne',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
-            booking_url_title: 'Klicka för att boka tid för en microneedling mot akne behandling'
+            booking_url_label: 'Boka tid för microneedling för stora porer',
+            booking_url: 'https://www.bokadirekt.se/boka-tjanst/skonhetscenter-%C3%B6stermalm-43559/stora-porer-konsultation-1643922',
+            booking_url_title: 'Klicka för att boka tid för en microneedling för stora porer behandling'
       ),
+
 );
 
-$headline03 = "03. Förebygg uppkomsten av ny akne";
+$headline03 = "03. Förebygg uppkomsten av större porer";
 
 $products = array(
       new Service(
-            title: 'Produkter mot akne',
+            title: 'Produkter för stora porer',
             duration: null,
             price: 'Pris från 1495 kr',
-            content: 'För att effektivt bekämpa och förebygga akne är daglig behandling med rätt produkter avgörande. Våra akneprodukter är speciellt utformade för att hålla din hud i balans och förhindra att ny akne uppstår.',
+            content: 'För att effektivt hantera och förebygga stora porer är daglig behandling med rätt produkter avgörande. Våra produkter för stora porer är speciellt utformade för att hålla din hud i balans och minska porernas synlighet.',
 
-            image_small: 'images/services/200x200/produkter-akne.webp',
-            image_large: 'images/services/200x200/produkter-akne.webp',
-            image_alt: 'Bild av produkter designade för behandling av akne',
-            image_title: 'Effektiva produkter för bekämpning och förebyggande av akne',
+            image_small: 'images/services/200x200/produkter-stora-porer.webp',
+            image_large: 'images/services/200x200/produkter-stora-porer.webp',
+            image_alt: 'Bild av produkter designade för att minska synligheten av stora porer',
+            image_title: 'Effektiva produkter för hantering och förebyggande av stora porer',
 
-            url_label: 'Läs mer om produkter mot akne',
+            url_label: 'Läs mer om produkter för stora porer',
             url: 'https://dahlskincare.se',
-            url_title: 'Klicka här för att läsa mer om produkter mot akne',
+            url_title: 'Klicka här för att läsa mer om produkter för stora porer',
 
             consultation_url_label: null,
             consultation_url: null,
@@ -361,23 +362,23 @@ $products = array(
       )
 );
 
-$headline04 = "04. Reparera post-akne";
+$headline04 = "04. Förbättra hudens struktur efter stora porer";
 
 $procedures = array(
       new Service(
-            title: 'Reparera acneärr',
+            title: 'Behandling för hudens struktur',
             duration: '4 behandlingsmetoder',
             price: null,
-            content: 'Efter aktiv akne kan man uppleva post-akne, vilket innebär ärr i form av gropar i olika former och fläckar i olika färger på huden där aknen tidigare varit. Olika typer av ärr behandlas med olika metoder. Klicka här för att läsa mer om hur du kan reparera din hud och ta hand om post-akne.',
+            content: 'Efter lång tid med stora porer kan huden ha en ojämn struktur, med förstoringade porer i vissa områden. Olika behandlingar kan hjälpa till att jämna ut huden och förbättra dess övergripande struktur. Klicka här för att läsa mer om hur du kan förbättra din huds struktur och minska synligheten av stora porer.',
 
-            image_small: 'images/services/200x200/microneedling-aknearr.webp',
-            image_large: 'images/services/200x200/microneedling-aknearr.webp',
-            image_alt: 'Reparera acneärr',
-            image_title: 'Reparera acneärr',
+            image_small: 'images/services/200x200/forbattra-hudstruktur.webp',
+            image_large: 'images/services/200x200/forbattra-hudstruktur.webp',
+            image_alt: 'Förbättra hudens struktur efter stora porer',
+            image_title: 'Förbättra hudens struktur',
 
-            url_label: 'Läs mer om behandlingar mot akneärr',
-            url: 'behandlingar/aknearr',
-            url_title: 'Klicka här för att läsa mer om våra behandlingar mot akneärr',
+            url_label: 'Läs mer om behandlingar för hudens struktur',
+            url: 'behandlingar/hudstruktur',
+            url_title: 'Klicka här för att läsa mer om våra behandlingar för hudens struktur',
 
             consultation_url_label: null,
             consultation_url: null,
@@ -386,28 +387,31 @@ $procedures = array(
             booking_url_label: null,
             booking_url: null,
             booking_url_title: null,
-
       ),
 );
+
 $articles = array(
       new Article(
-            title: 'Varför AcneSpecialisten?!',
-            content: '<p class="p200">Du som vill ha det som är bäst mot akne bör välja Acnespecialisten eftersom vi är experter på att behandla akne och har över 30 års erfarenhet av att ha arbetat med olika typer av akne. Vi lever upp till vårt namn genom att erbjuda personlig och professionell hjälp för att hjälpa dig att uppnå en klar och frisk hud. Vi skräddarsyr behandlingar baserade på dina individuella problem och behov, vi rekommenderar de bästa akneprodukterna för att förebygga och behandla din hud och akne. </p><p class="p200 mt-m">Genom att välja Acnespecialisten får du den mest effektiva behandlingen för ditt specifika fall och en hudvårdspartner som stöttar dig genom hela processen.</p>',
-
+            title: 'När ska jag söka hjälp med mina stora porer?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'Varför AcneSpecialisten?!',
-            image_title: 'Varför AcneSpecialisten?!',
+            image_alt: 'När ska jag söka hjälp med mina stora porer?',
+            image_title: 'När ska jag söka hjälp med mina stora porer?',
+            content: '<p class="p200">Stora porer är en vanlig hudbekymmer som kan drabba personer i alla åldrar. Även om de mestadels ses som en estetisk utmaning, kan de påverka självkänslan och ge upphov till obehag. Om du upplever att dina stora porer börjar påverka ditt välbefinnande, eller om du har provat olika produkter och behandlingar utan framgång, kan det vara dags att söka professionell hjälp. Det är viktigt att komma ihåg att alla kan söka hjälp, oavsett om problemet med stora porer är lätt eller mer utbrett. Det finns ingen "minsta gräns" för när det är lämpligt att söka professionell vård.</p>
+            <p class="p200 mt-m">Hos en hudterapeut kan du få en personlig konsultation och behandlingsplan skräddarsydd för ditt specifika hudproblem. En expert kan analysera din hudtyp, diskutera möjliga orsaker till dina stora porer och rekommendera den mest effektiva behandlingsmetoden för dig. Detta kan inkludera allt från djuprengöring till avancerade hudvårdsprodukter och tekniker. Så, om du känner att dina stora porer har blivit en belastning eller om du bara vill förbättra din huds utseende, tveka inte att söka professionell hjälp. Det är aldrig för tidigt eller för sent att ta steget mot en bättre hy.</p>',
       ),
+
       new Article(
-            title: 'När ska jag besöka AcneSpecialisten?',
-            content: '<p class="p200">Du bör besöka Acnespecialisten när du känner att din akne påverkar din livskvalitet eller om du har provat olika behandlingar och produkter utan att se några varaktiga förbättringar. Ju tidigare du söker hjälp, desto större är chansen att undvika ärrbildning och långvariga hudproblem. Acnespecialisten är här för att erbjuda dig expertis och skräddarsydda behandlingar oavsett om du har lindrig, måttlig eller svår akne. Tveka inte att kontakta oss för att boka en kostnadsfri konsultation och ta det första steget mot en klarare och friskare hud.</p><p class="p200 mt-m">Välj Acnespecialisten innan du går till en läkare, eftersom vi erbjuder en kostnadsfri konsultation där vi analyserar din akne och föreslår en individuell behandlingsplan. Våra specialister har stor erfarenhet av att behandla akne och kan ge dig råd om vilka produkter och behandlingar som är bäst för just din hudtyp. Att prova Acnespecialisten först kan hjälpa dig att undvika att använda tunga mediciner som kan ha biverkningar och påverka hela kroppen. Genom att boka en gratis konsultation hos oss får du en chans att se hur vi kan hjälpa dig att förbättra din hudhälsa innan du tar steget att besöka en läkare.</p>',
-
+            title: 'Varför ska jag besöka AcneSpecialisten för mina stora porer?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'När ska jag besöka AcneSpecialisten?',
-            image_title: 'När ska jag besöka AcneSpecialisten?',
+            image_alt: 'Varför ska jag besöka AcneSpecialisten för mina stora porer?',
+            image_title: 'Varför ska jag besöka AcneSpecialisten för mina stora porer?',
+            content: '<p class="p200">Om du är ute efter en effektiv och långsiktig lösning på dina stora porer, är AcneSpecialisten det självklara valet. Vi har över 30 års erfarenhet inom hudvård, inklusive en djup specialisering i att behandla stora porer. Oavsett om du har några enstaka stora porer eller ett mer omfattande problem, kan vi erbjuda en skräddarsydd lösning som passar just dina behov.</p>
+            <p class="p200 mt-m">Vi använder de senaste metoderna och teknologierna inom hudvård för att ge dig bästa möjliga resultat. Vårt team av hudterapeuter står redo att erbjuda en individuellt anpassad behandlingsplan och stötta dig genom hela processen. Med regelbundna uppföljningar och skräddarsydda hemmavårdsprogram ser vi till att du uppnår en bestående förbättring av dina porer.</p>
+            <p class="p200 mt-m">Att välja AcneSpecialisten innebär att du får tillgång till den mest avancerade och effektiva behandlingen för dina stora porer. Men det är inte allt. Vi ser dig som en partner i din hudvårdsresa och är dedikerade till att hjälpa dig uppnå och bibehålla en klar och frisk hud. Vårt engagemang, kunskap och erfarenhet gör oss till ditt bästa val när det kommer till behandling av stora porer.</p>',
       ),
+
 );
 
 
@@ -421,7 +425,7 @@ $results = array(
             image_title: 'Resultat',
 
             treatment: new ResultTreatment(
-                  duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne"">behandlingar mot akne</a>'
+                  duration: 'Efter 3 månaders <a href="behandlingar/stora-porer" title="Stora porer"">behandlingar mot stora porer</a>'
             ),
       ),
       new ResultCustomer(
@@ -433,13 +437,13 @@ $results = array(
             image_title: 'Resultat',
 
             treatment: new ResultTreatment(
-                  duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne">behandlingar mot akne</a>',
+                  duration: 'Efter 3 månaders <a href="behandlingar/stora-porer" title="Stora porer">behandlingar mot stora porer</a>',
             )
       ),
 );
 
 $show_all_results_label = "Se fler resultat";
-$show_all_results_title = "se flera aknebehandlingsresultat";
+$show_all_results_title = "se flera abehandlingsresultat mot stora porer";
 
 
 $reviews = array(
@@ -476,86 +480,24 @@ $review_url_label = "Läs fler omdömen";
 $review_url_title = "AcneSpecialisten Omdömen";
 
 $faq_categories = array(
-      'Generellt om akne' => array(
+      'Generellt om stora porer' => array(
             new Question(
-                  title: 'Hur blir jag av med min akne snabbt?',
-                  text: '<p class="p200">Att bli av med akne snabbt är en utmaning, eftersom det inte finns någon quickfix när det gäller akne. Effektiv behandling kräver att du tar hand om din hud genom att använda rätt behandlingar och produkter som passar din specifika hudtyp och akne. För att få en skräddarsydd behandlingsplan som hjälper dig att bli av med aknen så snabbt som möjligt, rekommenderar vi att du bokar en kostnadsfri hudkonsultation hos oss. Under konsultationen kommer vi att analysera din hud och hjälpa dig att utforma en anpassad behandlingsrutin som ger dig de bästa förutsättningarna för att snabbt och effektivt behandla din akne.</p>'
+                  title: 'Kan miljöfaktorer som solljus eller föroreningar bidra till stora porer?',
+                  text: '<p class="p200">Ja, miljöfaktorer kan definitivt påverka storleken på porerna. Solljus, särskilt överdriven exponering utan adekvat solskydd, kan orsaka att huden förlorar kollagen, vilket gör att porerna kan se större ut. Föroreningar, å andra sidan, kan leda till ansamling av smuts och olja i porerna, vilket kan få dem att förstoras. Det är därför det är viktigt att regelbundet rengöra huden och använda solskydd för att skydda den från dessa miljöfaktorer.</p>'
             ),
             new Question(
-                  title: 'Har jag akne även om jag bara har en finne?',
-                  text: '<p class="p200">Ja, du har tekniskt sett akne även om du bara har en enstaka finne. Akne kan ta sig många olika former och innefattar alla typer av finnar, oavsett om det är enstaka eller flera, stora eller små, papler eller pustler. Många tror att de inte har akne om de endast upplever enstaka finnar då och då, men faktum är att alla dessa fall kategoriseras som akne.</p>'
+                  title: 'Hur relaterar stora porer till andra hudåkommor som akne eller oljig hud?',
+                  text: '<p class="p200">Stora porer är ofta kopplade till oljig hud eftersom ökad oljeproduktion kan få porerna att vidgas. När dessa oljor kombineras med döda hudceller kan det leda till blockeringar i porerna, vilket i sin tur kan leda till pormaskar eller akne. Akne kan även förvärras av stora porer, eftersom bakterier har en större yta att kolonisera. Samtidigt kan inflammation från akneutbrott sträcka ut porerna, vilket gör dem mer synliga.</p>'
             ),
             new Question(
-                  title: 'Ska jag klämma mina finnar?',
-                  text: '<p class="p200">Vi på Acnespecialisten rekommenderar att du inte klämmer finnar själv, eftersom felaktig teknik kan leda till ärrbildning och förvärra inflammationen genom att införa bakterier från dina fingrar. Det är dock sant att finnar kan behöva klämmas, men det måste göras på rätt sätt för att undvika skador på huden. Om du undviker att klämma helt kan ärrbildning också uppstå, eftersom fettsyran i finnen fortsätter att fräta på huden.</p>
-
-                        <p class="p200 mt-m">För att klämma finnar korrekt krävs både rätt utrustning och teknik. På Acnespecialisten har vi erfarna hudterapeuter som kan hjälpa dig att behandla dina finnar på ett säkert och effektivt sätt. Genom att vända dig till oss får du den expertis och omsorg du behöver för att hantera din akne på bästa sätt. Du kan läsa mer om våra aknebehandlingar och hur de kan hjälpa dig här.</p>'
+                  title: 'Kan stora porer leda till andra hudproblem?',
+                  text: '<p class="p200">Ja, stora porer kan leda till andra hudproblem. Förutom ovan nämnda akne kan stora porer fyllas med smuts, olja och döda hudceller, vilket kan leda till komedoner (pormaskar och whiteheads). Om de inte rengörs ordentligt kan dessa blockeringar bli inflammerade och utvecklas till pustler, papler eller cystor. Dessutom kan huden med stora porer ha en grov och ojämn textur, vilket kan påverka dess övergripande utseende och känsla.</p>'
             ),
-            new Question(
-                  title: 'Försvinner aknen efter tonåren?',
-                  text: '<p class="p200">Det är svårt att ge ett entydigt svar på den frågan eftersom det varierar från person till person. För vissa kan akne vara ett tonårsproblem som försvinner när de blir äldre, medan det för andra kan övergå till vuxenakne. Det är inte säkert att aknen försvinner efter tonåren, och det kan variera beroende på individuella faktorer som hormoner, genetik och livsstil.</p>
-
-                        <p class="p200 mt-m">Akne kan uppstå i olika faser av livet och dess svårighetsgrad varierar från person till person. Vissa individer upplever akne under tonåren, som sedan försvinner när de når vuxen ålder. Andra kan vara aknefria under tonåren, men drabbas av akne som vuxna. Den mest besvärliga situationen är när någon drabbas av akne under tonåren som sedan övergår till vuxenakne.</p>
-
-                        <p class="p200 mt-m">När man når vuxen ålder och aknen fortfarande inte har försvunnit, är det stor risk att aknen har lett till ärrbildning. Det är därför viktigt att behandla akne i alla åldrar för att förebygga och minimera risken för att drabbas av acneärr. Oavsett ålder och fas av akne, bör man söka hjälp för att behandla och kontrollera sitt tillstånd, för att minska risken för långsiktiga hudproblem som ärrbildning.</p>'
-            ),
-            new Question(
-                  title: 'Kan jag ha akne även om jag är vuxen?',
-                  text: '<p class="p200">Ja, akne kan drabba vuxna och det är faktiskt ganska vanligt. Vuxenakne drabbar cirka 12-22% av alla kvinnor och 3% av alla män. Den kan uppkomma vid 20-, 30- och 40-årsåldern, och ibland ännu senare. Det kallas då för vuxenakne och har också med hormonerna i din kropp att göra, men faktorerna som triggar igång din akne är lite annorlunda än vid tonårsakne.</p>
-
-                        <p class="p200 mt-m">Vid tonårsakne ökar produktionen av det manliga könshormonet i din kropp. Det, i kombination med fettproduktionen, kan leda till att du drabbas av akne. Vid vuxen ålder däremot, kan aknen bero på sådant som graviditet, menstruation, alkohol, stress och preventivmedel. Alltså, yttre faktorer som triggar igång dina hormoner och får aknen att blomma upp.</p>
-
-                       <p class="p200 mt-m">Vuxenakne kan orsakas av flera faktorer, såsom hormonella förändringar, stress, genetik och användning av olämpliga hudvårdsprodukter. Hos kvinnor kan akne ofta vara kopplad till menstruationscykeln eller hormonella förändringar i samband med graviditet och menopaus.</p>
-
-                       <p class="p200 mt-m">Sammanfattningsvis kan akne drabba personer i alla åldrar, och det är viktigt att vara medveten om att akne inte bara är ett tonårsproblem.</p>'
-            ),
-            new Question(
-                  title: 'Förvärras min akne av att jag äter choklad?',
-                  text: '<p class="p200">Nej, det är en myt att choklad direkt skulle leda till akne. Ingen vetenskaplig forskning har tydligt påvisat ett direkt samband mellan chokladkonsumtion och uppkomsten av finnar. Det som potentiellt kan påverka din akne är stress. Om du upplever stress över att du ätit choklad, kan det i sin tur bidra till akneutbrott. Men en bit choklad då och då bör inte orsaka akneutbrott hos de flesta människor.</p>'
-            ),
-            new Question(
-                  title: 'Vad kan jag göra för att bli av med min akne?',
-                  text: '<p class="p200">Att bekämpa akne effektivt kräver en individuellt anpassad strategi som kombinerar lämpliga behandlingar och hudvårdsprodukter, utformade för att passa dina unika behov och din huds specifika tillstånd. På Acnespecialisten, erbjuder vi kostnadsfria hudkonsultationer där vi kan utvärdera ditt specifika fall av akne och hjälpa till att skräddarsy en effektiv behandlingsrutin.</p>'
-            )
       ),
       'Behandling mot akne' => array(
             new Question(
                   title: 'Hur många behandlingar behövs?',
-                  text: '<p class="p200">Antalet behandlingar som behövs varierar från person till person och beror på flera faktorer, som din hudtyp, svårighetsgraden av din akne och din respons på behandlingen. Vanligtvis kan du se en förbättring efter 1 till 3 veckors regelbunden behandling.</p>
-
-                       <p class="p200 mt-m">Det är viktigt att påpeka att behandlingen hos oss inte fungerar i isolering. En väsentlig del av din framgång ligger i den dagliga användningen av de rekommenderade produkterna hemma. Det är kombinationen av professionell behandling och hemmavård som ger bästa möjliga resultat.</p>
-
-                        <p class="p200 mt-m">Om du inte upplever de förväntade förbättringarna efter en tid, uppmanar vi dig att ta kontakt med din personliga hudterapeut. Tillsammans kan vi se över dina hudvårdsrutiner och de produkter du använder, för att optimera din behandlingsplan.</p>'
-            ),
-            new Question(
-                  title: 'Finns det en risk att min akne återkommer?',
-                  text: '<p class="p200">Ja, det finns en risk att akne återkommer, eftersom akne kan påverkas av flera faktorer såsom genetik, hormoner, livsstil och hudvård. Personer med en genetisk benägenhet för akne kan uppleva att aknen återkommer, särskilt under perioder av hormonella förändringar som pubertet, graviditet eller menstruation. Även faktorer som stress, kost och användning av olämpliga hudvårdsprodukter kan bidra till att aknen återkommer.</p>
-                       
-                       <p class="p200 mt-m">Det är dock viktigt att komma ihåg att regelbunden och korrekt hudvård kan hålla aknen i schack. Precis som vi borstar tänderna varje dag för att hålla karies borta, behöver vi underhålla vår hud för att hålla aknen borta. Det innebär att följa en anpassad hudvårdsrutin, hantera stress och upprätthålla en hälsosam livsstil. Så länge du tar hand om din hud regelbundet och på rätt sätt, kan du förhindra att aknen återkommer.</p>'
-            ),
-            new Question(
-                  title: 'Vilken är den bästa behandlingen mot akne?',
-                  text: '<p class="p200">Vilken behandling som är bäst för akne varierar beroende på individens hudtyp, aknens svårighetsgrad och orsaker till akne. Den bästa behandlingen är en skräddarsydd behandlingsplan som kombinerar rätt behandlingar, produkter och rutiner för att effektivt ta itu med den aktiva aknen och förhindra att nya utbrott uppstår. Genom att först behandla och bli av med den aktiva aknen kan du uppnå en klarare hud. Därefter är det viktigt att bibehålla resultaten med lämpliga produkter och rutiner för att motverka att nya finnar uppstår och hålla aknen under kontroll. Det rekommenderas att konsultera en av våra specialister för att få en personlig och effektiv behandlingsplan som passar just din hud och akne.</p>'
-            ),
-            new Question(
-                  title: 'Gör aknebehandlingen ont?',
-                  text: '<p class="p200">Vi strävar efter att göra aknebehandlingen så behaglig som möjligt för våra klienter. Det är sant att akne ibland innebär inflammation i porerna och kan göra ont när de öppnas upp och töms. Men vi vill påpeka att smärtupplevelsen kan variera från person till person och bero på behandlingsmetoden som används. Vår erfarna personal är välutbildad och tar stor hänsyn till din komfort under behandlingen. Om du känner någon obehag, tveka inte att informera din acnespecialist så att de kan justera behandlingen efter dina behov.</p>'
-            ),
-            new Question(
-                  title: 'Vad ska jag tänka på innan behandlingen?',
-                  text: '<p class="p200">Vi vill att din behandling ska vara så smidig och bekväm som möjligt, och vi strävar efter att göra processen enkel för dig. Du behöver inte förbereda något särskilt inför ditt besök hos oss. Kom precis som du är, och vi tar hand om resten. Vi kommer att genomföra en grundlig hudanalys och skräddarsy en behandlingsplan som passar just dig och din hudtyp. Så, du kan lita på oss och bara slappna av inför din aknebehandling.</p>'
-            ),
-            new Question(
-                  title: 'Vad ska jag tänka på efter behandling?',
-                  text: '<p class="p200">Efter din aknebehandling hos Acnespecialisten kan du uppleva att huden blir något röd och irriterad. Detta är helt normalt och en del av hudens naturliga läkningsprocess. Rödheten och irritationen kommer att avta under dagarna efter behandlingen. Det är viktigt att du fortsätter att följa den hudvårdsrutin och de produktrekommendationer vi gett dig för att stödja hudens återhämtning och maximera resultaten av behandlingen.</p>
-                        
-                        <p class="p200 mt-m">Undvik att peta eller klämma på behandlade områden för att undvika eventuell ärrbildning och infektion. Dessutom är det bra att skydda huden från solen, då den kan vara extra känslig efter behandling. Använd solskyddsmedel och undvik direkt solljus så mycket som möjligt. Kom ihåg att vi på Acnespecialisten alltid finns här för dig om du har några frågor eller funderingar efter din behandling.</p>'
-            ),
-            new Question(
-                  title: 'Eftervård efter behandlingen?',
-                  text: '<p class="p200">Eftervården efter en aknebehandling hos Acnespecialisten är lika viktig som själva behandlingen. När aknen är utklämd och borta är det viktigt att förebygga uppkomsten av ny akne. Om du inte följer din eftervårdsplan kommer du att få resultat, men det kommer inte vara bestående, eftersom akneproduktionen sätter igång igen kort tid efter behandlingen.</p>
-
-                  <p class="p200 mt-m">För att hålla huden i kontroll och balans är det viktigt att följa de råd och rekommendationer vi ger dig angående hudvårdsrutin och produkter. Kontinuerlig behandling och förebyggande åtgärder är avgörande för att uppnå och bibehålla en klar och frisk hud. Kom ihåg att vi på Acnespecialisten alltid finns här för att hjälpa och stötta dig genom hela processen, både under och efter din behandling.</p>',
+                  text: '<p class="p200">Antalet behandlingar som behövs varierar från person till person och beror på flera faktorer, som din hudtyp, svårighetsgraden av din akne och din respons på behandlingen. Vanligtvis kan du se en förbättring efter 1 till 3 veckors regelbunden behandling.</p>'
             ),
       ),
 );
