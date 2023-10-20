@@ -483,27 +483,43 @@ $faq_categories = array(
       'Generellt om stora porer' => array(
             new Question(
                   title: 'Kan miljöfaktorer som solljus eller föroreningar bidra till stora porer?',
-                  text: '<p class="p200">Ja, miljöfaktorer kan definitivt påverka storleken på porerna. Solljus, särskilt överdriven exponering utan adekvat solskydd, kan orsaka att huden förlorar kollagen, vilket gör att porerna kan se större ut. Föroreningar, å andra sidan, kan leda till ansamling av smuts och olja i porerna, vilket kan få dem att förstoras. Det är därför det är viktigt att regelbundet rengöra huden och använda solskydd för att skydda den från dessa miljöfaktorer.</p>'
+                  text: '<p class="p200">Ja, miljöfaktorer kan definitivt påverka storleken på porerna. Solljus, särskilt överdriven exponering utan adekvat solskydd, kan orsaka att huden förlorar kollagen, vilket gör att porerna kan se större ut. Föroreningar, å andra sidan, kan leda till ansamling av smuts och talg i porerna, vilket kan få dem att förstoras. Det är därför det är viktigt att regelbundet rengöra huden och använda solskydd för att skydda den från dessa miljöfaktorer.</p>'
             ),
             new Question(
                   title: 'Hur relaterar stora porer till andra hudåkommor som akne eller oljig hud?',
-                  text: '<p class="p200">Stora porer är ofta kopplade till oljig hud eftersom ökad oljeproduktion kan få porerna att vidgas. När dessa oljor kombineras med döda hudceller kan det leda till blockeringar i porerna, vilket i sin tur kan leda till pormaskar eller akne. Akne kan även förvärras av stora porer, eftersom bakterier har en större yta att kolonisera. Samtidigt kan inflammation från akneutbrott sträcka ut porerna, vilket gör dem mer synliga.</p>'
+                  text: '<p class="p200">Stora porer är ofta kopplade till oljig hud eftersom ökad talgproduktion kan få porerna att vidgas. När talget kombineras med döda hudceller kan det leda till blockeringar i porerna, vilket i sin tur kan leda till pormaskar eller akne. Akne kan även förvärras av stora porer, eftersom bakterier har en större yta att kolonisera. Samtidigt kan inflammation från akneutbrott sträcka ut porerna, vilket gör dem mer synliga.</p>'
             ),
             new Question(
                   title: 'Kan stora porer leda till andra hudproblem?',
-                  text: '<p class="p200">Ja, stora porer kan leda till andra hudproblem. Förutom ovan nämnda akne kan stora porer fyllas med smuts, olja och döda hudceller, vilket kan leda till komedoner (pormaskar och whiteheads). Om de inte rengörs ordentligt kan dessa blockeringar bli inflammerade och utvecklas till pustler, papler eller cystor. Dessutom kan huden med stora porer ha en grov och ojämn textur, vilket kan påverka dess övergripande utseende och känsla.</p>'
+                  text: '<p class="p200">Ja, stora porer kan leda till andra hudproblem. Förutom ovan nämnda akne kan stora porer fyllas med smuts, talg och döda hudceller, vilket kan leda till komedoner (pormaskar och whiteheads). Om de inte rengörs ordentligt kan dessa blockeringar bli inflammerade och utvecklas till pustler, papler eller cystor. Dessutom kan huden med stora porer ha en grov och ojämn textur, vilket kan påverka dess övergripande utseende och känsla.</p>'
             ),
       ),
       'Behandling mot akne' => array(
             new Question(
-                  title: 'Hur många behandlingar behövs?',
-                  text: '<p class="p200">Antalet behandlingar som behövs varierar från person till person och beror på flera faktorer, som din hudtyp, svårighetsgraden av din akne och din respons på behandlingen. Vanligtvis kan du se en förbättring efter 1 till 3 veckors regelbunden behandling.</p>'
+                  title: 'Vilka typer av behandlingar finns för stora porer?',
+                  text: '<p class="p200">Det finns flera behandlingsalternativ tillgängliga för stora porer. Traditionella ansiktsbehandlingar kan vara till stor hjälp för att djuprengöra huden och dra samman porerna. Microneedling, även känd som kollageninduktionsterapi, involverar användning av små nålar för att skapa mikroskador i huden, vilket uppmuntrar produktionen av kollagen och kan förbättra hudens textur och minska porstorleken. Laserbehandlingar använder ljusenergi för att effektivt minska porernas storlek och stimulera produktionen av kollagen, vilket ger en jämnare hudton. Kemiska peelingar, som använder syror för att exfoliera huden, kan också rensa ut porerna och stimulera kollagenproduktion, vilket resulterar i mindre och mindre framstående porer. Med rätt behandlingsalternativ kan stora porer behandlas effektivt och ge en klarare, jämnare hudton.</p>'
+            ),
+            new Question(
+                title: 'Hur ofta bör jag genomgå ansiktsbehandlingar, microneedling, laser och kemisk peeling?',
+                text: '<p class="p200">Frekvensen för behandlingarna varierar beroende på vilken typ du väljer. Regelbundna ansiktsbehandlingar kan rekommenderas månatligen, medan microneedling kan kräva färre sessioner med några veckors mellanrum. Laserbehandlingar kan vara ännu mer sällsynta beroende på intensiteten, och kemiska peelingar kan kräva varierande tidsintervall beroende på styrkan av peelingen. Rådgör alltid med en hudterapeut för att avgöra vad som passar bäst för din hudtyp och dina individuella behov.</p>'
+            ),
+            new Question(
+                title: 'Är resultaten från ansiktsbehandlingar, microneedling, laser och kemisk peeling permanenta?',
+                text: '<p class="p200">Ingen behandling erbjuder permanenta resultat eftersom huden naturligt förändras med tiden och påverkas av olika faktorer. Men regelbunden behandling och rätt hudvård kan förlänga effekterna av varje session. Medan vissa tekniker, som laserbehandling, kan ge mer långvariga resultat, kommer upprepade behandlingar förmodligen att behövas över tid.</p>'
+            ),
+            new Question(
+                title: 'Vilka biverkningar kan jag förvänta mig efter ansiktsbehandlingar, microneedling, laser och kemisk peeling?',
+                text: '<p class="p200">Efter ansiktsbehandlingar kan man uppleva lätt rodnad. Microneedling kan leda till svullnad och rodnad. Laserbehandlingar kan orsaka rodnad, svullnad och i sällsynta fall skorpor. Kemiska peelingar kan orsaka rodnad, torrhet, flagning eller i intensiva fall skälning av huden. Det är viktigt att diskutera och förstå alla potentiella biverkningar med din hudspecialist innan du påbörjar någon behandling.</p>'
+            ),
+            new Question(
+                title: 'Hur länge behöver jag vänta mellan sessioner av ansiktsbehandlingar, microneedling, laser och kemisk peeling?',
+                text: '<p class="p200">Väntetiden mellan sessioner varierar. Ansiktsbehandlingar kan oftast utföras månatligen. Microneedling kan kräva några veckors mellanrum, medan laserbehandlingar kan behöva flera månader beroende på hudens respons och behandlingens intensitet. Kemiska peelingar har också varierande väntetider beroende på deras styrka. En hudspecialist kommer att ge dig en detaljerad plan baserad på den specifika behandlingen och dina huds behov.</p>'
             ),
       ),
 );
 
 $faq_url_label = "Läs fler frågor & svar";
-$faq_url_title = "läs flera frågor relaterat till akne";
+$faq_url_title = "läs flera frågor relaterat till stora porer";
 
 $skin_guide_articles = array(
       new SkinGuideArticle(
@@ -555,43 +571,52 @@ $skin_guide_articles = array(
 );
 
 $skinguide_url_label = "Läs fler guider";
-$skinguide_url_title = "Läs fler guider om akne";
+$skinguide_url_title = "Läs fler guider om stora porer";
 
 $specialists = array(
       new Specialist(
             name: 'Cazzandra Lindberg',
             title: 'Hudterapeut sedan 2015',
             image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
-            image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i aknebehandling',
-            image_title: 'Cazzandra Lindberg - Expert på aknebehandling'
+            image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i behandling av stora porer',
+            image_title: 'Cazzandra Lindberg - Expert på behandling av stora porer'
       ),
       new Specialist(
             name: 'Veronika Benedik',
             title: 'Hudterapeut sedan 1999',
             image: 'images/specialists/312x312/hudterapeut-veronika.webp',
-            image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på akne',
-            image_title: 'Veronika Benedik - Specialist inom aknevård'
+            image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på stora porer',
+            image_title: 'Veronika Benedik - Specialist inom vård av stora porer'
       ),
       new Specialist(
             name: 'Amira Maqboul',
             title: 'Hudterapeut sedan 2017',
             image: 'images/specialists/312x312/hudterapeut-amira.webp',
-            image_alt: 'Amira Maqboul, hudterapeut med kunskap inom aknehantering',
-            image_title: 'Amira Maqboul - Hudterapeut specialiserad på akne'
+            image_alt: 'Amira Maqboul, hudterapeut med kunskap inom hantering av stora porer',
+            image_title: 'Amira Maqboul - Hudterapeut specialiserad på stora porer'
       ),
       new Specialist(
             name: 'Vilma Libom',
             title: 'Hudterapeut sedan 2019',
             image: 'images/specialists/312x312/hudterapeut-vilma.webp',
-            image_alt: 'Vilma Libom, hudterapeut med inriktning mot aknebehandling',
-            image_title: 'Vilma Libom - Expert inom aknebehandling'
+            image_alt: 'Vilma Libom, hudterapeut med inriktning mot behandling av stora porer',
+            image_title: 'Vilma Libom - Expert inom behandling av stora porer'
       )
 );
 
 $specialist_url_label = "Se alla specialister";
-$specialist_url_title = "Akne Specialiserade Hudterapeuter";
+$specialist_url_title = "Hudterapeuter Specialiserade på Stora porer";
 
 $related_problems = array(
+      new RelatedProblem(
+            name: 'Akne',
+            aka: 'Finnar',
+            image: 'images/problems/102x102/akne.webp',
+            image_alt: 'Bild som visar aktiv akne, en vanlig hudåkomma',
+            image_title: 'Akne - en vanlig hudåkomma',
+            url: 'problem/akne',
+            url_title: 'Akne'
+      ),
       new RelatedProblem(
             name: 'Acneärr',
             aka: 'gropar & Fläckar',
@@ -600,24 +625,6 @@ $related_problems = array(
             image_title: 'Acneärr - en vanlig följd av akne',
             url: '/problem/acnearr',
             url_title: 'Acneärr'
-      ),
-      new RelatedProblem(
-            name: 'Rosacea',
-            aka: 'ansiktsrodnad',
-            image: 'images/problems/200x200/rosacea.webp',
-            image_alt: 'Bild som illustrerar rosacea, ett hudtillstånd som kan förväxlas med akne',
-            image_title: 'Rosacea - en hudsjukdom som ofta förväxlas med akne',
-            url: 'problem/rosacea',
-            url_title: 'Rosacea'
-      ),
-      new RelatedProblem(
-            name: 'Perioral dermatit',
-            aka: 'akne runt munnen',
-            image: 'images/problems/200x200/perioral-dermatit.webp',
-            image_alt: 'Bild som skildrar perioral dermatit, en hudåkomma som kan förväxlas med akne',
-            image_title: 'Perioral dermatit (acne runt munnen) ett hudproblem liknande akne',
-            url: 'perioral-dermatit',
-            url_title: 'Perioral dermatit',
       ),
 );
 $brands = array(
@@ -688,7 +695,7 @@ $brands = array(
 );
 
 $brands_url_label = "Se alla varumärken";
-$brands_url_title = "Varumärken för Aknebehandling";
+$brands_url_title = "Varumärken för behandling av stora porer";
 
 ?>
 
