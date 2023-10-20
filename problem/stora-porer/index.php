@@ -152,18 +152,59 @@ $symptoms_title = 'Stora porer symptom';
 
 $symptoms = array(
       new Symptom(
-            name: 'Öppna komedoner',
-            aka: 'Kända som pormaskar',
-            content: 'Pormaskar (öppna komedoner) är små, mörka prickar som uppstår när en por täpps igen av talg (hudens naturliga olja) och döda hudceller. De är ofta svarta eller bruna på grund av oxidation, som inträffar när melanin (hudens pigment) kommer i kontakt med luft. Pormaskar kan vara platta eller lätt upphöjda och är vanligt förekommande på näsan, kinderna, pannan och hakan.',
+          name: 'Förstorade öppningar',
+          aka: 'Kända som stora porer',
+          content: 'Det mest uppenbara tecknet på stora porer är synligt större poröppningar, särskilt i områdena kring näsan, kinderna och pannan.',
 
-            url_label: 'Läs mer om öppna komedoner',
-            url: 'problem/akne/typer/post-inflammatory-hyperpigmentaion',
-            url_title: 'Läs mer om öppna komedoner (pormaskar)',
+          url_label: 'Läs mer om förstorade öppningar',
+          url: 'problem/stora-porer/typer/forstorade-oppningar',
+          url_title: 'Läs mer om synliga tecken på stora porer',
 
-            image: 'images/symptoms/102x102/komedoner-oppna.webp',
-            image_alt: 'Bild av öppna komedoner (pormaskar)',
-            image_title: 'Öppna komedoner (pormaskar)'
+          image: 'images/symptoms/102x102/forstorade-oppningar.webp',
+          image_alt: 'Bild av synligt förstorade porer',
+          image_title: 'Synligt förstorade porer'
       ),
+
+      new Symptom(
+          name: 'Ojämn hudtextur',
+          content: 'Huden kan kännas ojämn eller gropig till följd av de utvidgade porerna.',
+
+          url_label: 'Läs mer om ojämn hudtextur',
+          url: 'problem/stora-porer/typer/ojamn-hudtextur',
+          url_title: 'Läs mer om hur stora porer påverkar hudens textur',
+
+          image: 'images/symptoms/102x102/ojamn-hudtextur.webp',
+          image_alt: 'Bild som illustrerar en ojämn hudtextur',
+          image_title: 'Ojämn hudtextur'
+      ),
+
+      new Symptom(
+          name: 'Ökad oljeproduktion',
+          content: 'Stora porer är ofta förknippade med fet hud eftersom talgkörtlarna producerar mer olja, vilket kan leda till att porerna vidgas.',
+
+          url_label: 'Läs mer om ökad oljeproduktion',
+          url: 'problem/stora-porer/typer/okad-oljeproduktion',
+          url_title: 'Läs mer om talgproduktion och dess relation till stora porer',
+
+          image: 'images/symptoms/102x102/okad-oljeproduktion.webp',
+          image_alt: 'Bild av fet hud med ökad oljeproduktion',
+          image_title: 'Ökad oljeproduktion'
+      ),
+
+      new Symptom(
+          name: 'Pormaskar och komedoner',
+          aka: 'Kända som tilltäppta porer',
+          content: 'Förstorade porer kan lätt bli tilltäppta av olja, smuts och döda hudceller, vilket kan resultera i svarta eller vita pormaskar.',
+
+          url_label: 'Läs mer om pormaskar och komedoner',
+          url: 'problem/stora-porer/typer/pormaskar-komedoner',
+          url_title: 'Läs mer om hur pormaskar och komedoner utvecklas',
+
+          image: 'images/symptoms/102x102/pormaskar-komedoner.webp',
+          image_alt: 'Bild av pormaskar och komedoner',
+          image_title: 'Pormaskar och komedoner'
+      ),
+
 );
 
 $headline01 = "01. Identifiera din akne";
