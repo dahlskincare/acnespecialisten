@@ -20,12 +20,12 @@ $description = 'Här förklarar vi vad som kännetecknar ytliga blodkärl, varf�
 $akas = [
       new Link(
             label: 'Spindelkärl',
-            url: 'problem/spindelkarl',
+            url: null,
             title: 'Spindelkärl',
       ),
       new Link(
             label: 'Brustna blodkärl',
-            url: 'problem/rosacea',
+            url: null,
             title: 'Brustna blodkärl',
       ),
 ];

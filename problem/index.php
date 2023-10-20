@@ -335,7 +335,7 @@ $problem_areas = array(
       new ProblemArea(
             label: 'Ansikte',
             icon: 'area-face',
-            problem_ids: array('akne', 'aknearr', 'rosacea', 'pormaskar', 'stora porer', 'milier', 'blandhy', 'finnar', 'arr-fran-finnar', 'perioral-dermatit', 'seborre', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar', 'mogen-hy', 'bristningar', 'hudforandringar', 'operations-arr', 'oonskad-harvaxt')
+            problem_ids: array('akne', 'aknearr', 'rosacea', 'pormaskar', 'stora-porer', 'milier', 'blandhy', 'finnar', 'arr-fran-finnar', 'perioral-dermatit', 'seborre', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar', 'mogen-hy', 'bristningar', 'hudforandringar', 'operations-arr', 'oonskad-harvaxt')
       ),
       new ProblemArea(
             label: 'Kropp',
