@@ -191,7 +191,7 @@ $results = array(
         image_title: 'Resultat',
 
         treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders <a href="behandlingar/stora-porer" title="Stora porer"">behandlingar mot stora porer/a>'
+            duration: 'Efter 3 månaders <a href="behandlingar/stora-porer" title="Stora porer">behandlingar mot stora porer/a>'
         ),
     ),
     new ResultCustomer(

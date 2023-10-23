@@ -29,7 +29,7 @@ $nav_buttons = array(
     'define' => 'Konsultation',
     'treat' => 'Behandlingar',
     'prevent' => 'Produkter',
-    'repair' => 'Reducera',
+    'repair' => 'Pormaskar',
     'results' => 'Resultat',
     'reviews' => 'Omdömen',
     'faq' => 'FAQ',
@@ -175,16 +175,16 @@ $products = array(
     ),
 );
 
-$headline04 = '04. Reducera pormaskar';
+$$headline04 = '04. Reducera pormaskar genom att minska porstorleken';
 
 $repair_image_small = 'https://via.placeholder.com/358x274.jpg';
 $repair_image_large = 'https://via.placeholder.com/872x456.jpg';
 
-$repair_content = '<p class="p200">När din akne har behandlats och aknen tagits bort, kan det hända att den lämnar ärr bakom sig. På Acnespecialisten kan vi hjälpa dig att reparera dessa ärr genom olika tekniker som laserteknik och microneedling. Dessa metoder främjar hudens egen regenerering, hjälper till att återställa en jämn hudstruktur och minska synligheten av ärr. Med oss vid din sida kan du känna att du har stödet du behöver för att ta bort akne och njuta av en klarare, friskare hy.</p>';
+$repair_content = '<p class="p200">Ett av de mest effektiva sätten att behandla pormaskar är att rikta in sig på att minska storleken på porerna. Stora porer kan ofta fyllas med talg och döda hudceller, vilket resulterar i pormaskar. På AcneSpecialisten erbjuder vi avancerade behandlingar för att minska porstorleken, vilket i sin tur hjälper till att reducera pormaskar. Genom att kombinera rätt produkter och behandlingsmetoder kan vi hjälpa dig att uppnå en jämnare, renare och mer strålande hud.</p>';
 
-$repair_url = 'treatments/acne';
-$repair_url_label = 'Se ärrbehandlingar';
-$repair_url_title = 'klicka här för att se våra ärrbehandlingar';
+$repair_url = 'treatments/pores';
+$repair_url_label = 'Se behandlingar för att minska porstorlek';
+$repair_url_title = 'klicka här för att se våra behandlingar för att minska porstorlek';
 
 
 $results = array(
@@ -197,7 +197,7 @@ $results = array(
         image_title: 'Resultat',
 
         treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne"">behandlingar mot akne</a>'
+            duration: 'Efter 3 månaders <a href="behandlingar/pormaskar title="Pormaskar>behandlingar mot pormaskar</a>'
         ),
     ),
     new ResultCustomer(
@@ -209,7 +209,7 @@ $results = array(
         image_title: 'Resultat',
 
         treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne">behandlingar mot akne</a>',
+            duration: 'Efter 3 månaders <a href="behandlingar/pormaskar" title="Pormaskar">behandlingar mot pormaskar</a>',
         )
     ),
 );
