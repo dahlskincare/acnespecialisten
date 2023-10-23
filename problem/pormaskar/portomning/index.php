@@ -171,7 +171,7 @@ $products = array(
         url_label: 'Utforska våra hudvårdsprodukter mot pormaskar',
         url_title: 'Information om AcneSpecialistens hudvårdsprodukter mot pormaskar',
         price: 'AcneSpecialistens hudvårdsprodukter mot pormaskar - Pris från 1295 kr',
-        content: '<p class="p200">Att förebygga pormaskar är en avgörande del av hudvårdsprocessen, lika viktig som behandlingar. För att stödja detta mål erbjuder vi en specifik daglig hudvårdsrutin med produkter riktade mot pormaskar. Denna rutin säkerställer att din hy hålls ren, balanserad och fri från överflödigt talg och orenheter. Denna dagliga vård hjälper inte bara till att minska nuvarande pormaskar utan även att förhindra nya från att bildas, vilket gör den lika viktig som dina regelbundna besök hos oss på AcneSpecialisten.</p>',
+        content: '<p class="p200">Bekämpning av pormaskar kräver en riktad strategi, och att använda rätt hudvårdsprodukter är kärnan i denna process. Hos AcneSpecialisten förstår vi detta behov och erbjuder en skräddarsydd daglig hudvårdsrutin designad specifikt för att hantera pormaskar. Med rätt produkter ser denna rutin till att din hud är ren, balanserad, och framför allt, fri från det som orsakar pormaskar. Med konsekvent användning kan du inte bara minska befintliga pormaskar men också effektivt förhindra nya från att uppträda. Genom att följa denna rutin kompletterar du perfekt de behandlingar du gör hos oss på AcneSpecialisten.</p>',
     ),
 );
 
