@@ -109,80 +109,76 @@ $services = array(
     new Service(
         image_small: 'https://via.placeholder.com/358x274.jpg',
         image_large: 'https://via.placeholder.com/852x456.jpg',
-        image_title: 'Utförande av kemisk peelingbehandling för akne',
-        image_alt: 'Bild på kemisk peelingbehandling mot akne hos Acnespecialisten',
-        title: 'Kemisk peeling mot akne',
+        image_title: 'Utförande av kemisk peelingbehandling för stora porer',
+        image_alt: 'Bild på kemisk peelingbehandling mot stora porer hos AcneSpecialisten',
+        title: 'Kemisk peeling mot stora porer',
         duration: '30-60 min',
         price: '1295 kr',
-        icons: array('who-infants' => 'Exfolierande', 'who-elders' => 'Förnyande', 'who-teenagers' => 'Uppfräschande', 'who-adults' => 'Ljusande'),
-        content: '<p class="p200">Kemisk peeling är en av de mest effektiva metoderna för att behandla akne. På Acnespecialisten använder vi en speciell lösning som appliceras på huden för att avlägsna det översta lagret. Detta ger plats åt ny, frisk hud att växa fram, vilket bidrar till att reducera utseendet av akneärr och att förbättra hudens textur och utseende.</p>',
-        consultation_url: 'hudkonsultation',
+        icons: array('who-infants' => 'Exfolierande', 'who-elders' => 'Förnyande', 'who-teenagers' => 'Uppfräschande', 'who-adults' => 'Poreförminskande'),
+        content: '<p class="p200">Kemisk peeling är en effektiv metod för att behandla stora porer. Vi använder en speciell lösning som appliceras på huden för att avlägsna det översta lagret. Detta hjälper till att minska synligheten av stora porer och ger plats åt ny, frisk hud att växa fram, vilket förbättrar hudens textur och utseende.</p>',
+        consultation_url: 'hudkonsultation-porer',
         consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka en konsultation för kemisk peeling mot akne',
-        url: 'behandlingar/kemisk-peeling-mot-akne',
-        url_label: 'Läs mer om kemisk peeling mot akne',
-        url_title: 'Utforska mer om vår kemiska peelingbehandling mot akne',
-        booking_url: 'boka-kemisk-peeling',
+        consultation_url_title: 'Boka en konsultation för kemisk peeling mot stora porer',
+        url: 'behandlingar/kemisk-peeling-mot-porer',
+        url_label: 'Läs mer om kemisk peeling mot stora porer',
+        url_title: 'Utforska mer om vår kemiska peelingbehandling mot stora porer',
+        booking_url: 'boka-kemisk-peeling-porer',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka din kemiska peeling mot akne nu',
+        booking_url_title: 'Boka din kemiska peeling mot stora porer nu',
         short_title: 'Kemisk Peeling'
-
     ),
 
     new Service(
         image_small: 'https://via.placeholder.com/358x274.jpg',
         image_large: 'https://via.placeholder.com/852x456.jpg',
-        image_title: 'Utförande av microneedlingbehandling för akne',
-        image_alt: 'Bild på microneedlingbehandling mot akne hos Acnespecialisten',
-        title: 'Effektiv microneedling mot akne',
+        image_title: 'Utförande av microneedlingbehandling för stora porer',
+        image_alt: 'Bild på microneedlingbehandling mot stora porer hos AcneSpecialisten',
+        title: 'Effektiv microneedling mot stora porer',
         duration: '30-60 min',
         price: '1295 kr',
-        icons: array('who-infants' => 'Stimulerande', 'who-elders' => 'Förnyande', 'who-teenagers' => 'Djupgående', 'who-adults' => 'Minskning av ärr'),
-        content: '<p class="p200">Microneedling är en effektiv behandlingsmetod mot akne som använder små mikronålar för att skapa mikroskopiska kanaler i huden. Detta stimulerar hudens naturliga läkningsprocess och ökar produktionen av kollagen och elastin. Microneedling behandlar även de underliggande problemen med akne genom att tillåta aktiva ingredienser att tränga djupare in i huden.</p>',
-        consultation_url: 'microneedling-konsultation',
+        icons: array('who-infants' => 'Stimulerande', 'who-elders' => 'Förnyande', 'who-teenagers' => 'Djupgående', 'who-adults' => 'Poreförminskande'),
+        content: '<p class="p200">Microneedling är en effektiv behandlingsmetod mot stora porer som använder små mikronålar för att skapa mikroskopiska kanaler i huden. Detta stimulerar hudens naturliga läkningsprocess och ökar produktionen av kollagen och elastin, vilket bidrar till att minska synligheten av stora porer och förbättrar hudens textur och ton.</p>',
+        consultation_url: 'microneedling-konsultation-porer',
         consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka en konsultation för microneedling mot akne',
-        url: 'behandlingar/microneedling-mot-akne',
-        url_label: 'Läs mer om microneedling mot akne',
-        url_title: 'Utforska mer om vår microneedlingbehandling mot akne',
-        booking_url: 'boka-microneedling',
+        consultation_url_title: 'Boka en konsultation för microneedling mot stora porer',
+        url: 'behandlingar/microneedling-mot-porer',
+        url_label: 'Läs mer om microneedling mot stora porer',
+        url_title: 'Utforska mer om vår microneedlingbehandling mot stora porer',
+        booking_url: 'boka-microneedling-porer',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka din microneedling mot akne nu',
+        booking_url_title: 'Boka din microneedling mot stora porer nu',
         short_title: 'Microneedling'
-
     ),
+
 );
 
-$headline03 = "03. Förebygg akne";
+$headline03 = "03. Förebygg stora porer";
 
 $products = array(
     new Product(
         image_small: 'https://via.placeholder.com/358x274.jpg',
         image_large: 'https://via.placeholder.com/872x456.jpg',
-        image_title: 'Acnespecialistens effektiva hudvårdsprodukter mot akne',
-        image_alt: 'Bild på Acnespecialistens hudvårdsprodukter mot akne',
+        image_title: 'Acnespecialistens effektiva hudvårdsprodukter mot stora porer',
+        image_alt: 'Bild på Acnespecialistens hudvårdsprodukter mot stora porer',
 
-        url: 'produkter/mot-akne',
-        url_label: 'Utforska våra hudvårdsprodukter mot akne',
-        url_title: 'Information om Acnespecialistens hudvårdsprodukter mot akne',
-        price: 'Acnespecialistens hudvårdsprodukter mot akne - Pris från 1295 kr',
-        content: '<p class="p200">Att förebygga akne är en viktig del av processen för att hålla din hud aknefri, lika viktig som behandlingarna. För detta ändamål erbjuder vi en daglig hudvårdsrutin med specifika produkter mot akne. Denna rutin hjälper till att hålla din hy ren, balanserad och fri från överflödigt talg och bakterier. Denna dagliga vård hjälper till att förhindra framtida utbrott och är lika viktig som regelbundna besök hos oss på Acnespecialisten.</p>',
-
-
-
+        url: 'produkter/stora-porer',
+        url_label: 'Utforska våra hudvårdsprodukter mot stora porer',
+        url_title: 'Information om Acnespecialistens hudvårdsprodukter mot stora porer',
+        price: 'Acnespecialistens hudvårdsprodukter mot stora porer - Pris från 1295 kr',
+        content: '<p class="p200">Att förebygga och minska synligheten av stora porer är avgörande för att uppnå en jämn och klar hud. Vi erbjuder en daglig hudvårdsrutin med specifika produkter mot stora porer. Denna rutin hjälper till att hålla din hy ren, balanserad och minskar risken för tilltäppningar. Regelbunden användning av dessa produkter, tillsammans med våra behandlingar, ger bäst resultat för att hantera stora porer.</p>',
     ),
 );
 
-$headline04 = '04. Reparera post-akne (Acneärr)';
+$headline04 = '04. Reducera stora porer';
 
 $repair_image_small = 'https://via.placeholder.com/358x274.jpg';
 $repair_image_large = 'https://via.placeholder.com/872x456.jpg';
 
-$repair_content = '<p class="p200">När din akne har behandlats och aknen tagits bort, kan det hända att den lämnar ärr bakom sig. På Acnespecialisten kan vi hjälpa dig att reparera dessa ärr genom olika tekniker som laserteknik och microneedling. Dessa metoder främjar hudens egen regenerering, hjälper till att återställa en jämn hudstruktur och minska synligheten av ärr. Med oss vid din sida kan du känna att du har stödet du behöver för att ta bort akne och njuta av en klarare, friskare hy.</p>';
+$repair_content = '<p class="p200">Efter framgångsrik behandling av stora porer kan det fortfarande vara nödvändigt att förbättra hudstrukturen ytterligare. På Acnespecialisten erbjuder vi olika tekniker, som laserteknik och microneedling, som hjälper till att förbättra hudens textur och utseende efter behandling av stora porer. Dessa metoder stöder hudens egen regenerering och främjar en jämnare och fräschare hud. Vår expertis säkerställer att du får bästa möjliga resultat.</p>';
 
-$repair_url = 'treatments/acne';
-$repair_url_label = 'Se ärrbehandlingar';
-$repair_url_title = 'klicka här för att se våra ärrbehandlingar';
+$repair_url = 'treatments/pores';
+$repair_url_label = 'Se behandlingar för hudstruktur';
+$repair_url_title = 'Klicka här för att se våra behandlingar för hudstruktur';
 
 
 $results = array(
@@ -195,7 +191,7 @@ $results = array(
         image_title: 'Resultat',
 
         treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne"">behandlingar mot akne</a>'
+            duration: 'Efter 3 månaders <a href="behandlingar/stora-porer" title="Stora porer"">behandlingar mot stora porer/a>'
         ),
     ),
     new ResultCustomer(
@@ -207,13 +203,13 @@ $results = array(
         image_title: 'Resultat',
 
         treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne">behandlingar mot akne</a>',
+            duration: 'Efter 3 månaders <a href="behandlingar/stora-porer" title="Stora porer">behandlingar mot stora porer</a>',
         )
     ),
 );
 
-$show_all_results_label = "Se fler resultat blablalba";
-$show_all_results_title = "KLICKA PÅ MIG";
+$show_all_results_label = "Se fler resultat mot stora porer";
+$show_all_results_title = "Resultat mot stora porer";
 
 
 $reviews = array(
@@ -266,30 +262,31 @@ $review_url_title = "AcneSpecialisten Omdömen";
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Vilka typer av behandlingar erbjuder Acnespecialisten för olika hudproblem?',
-            text: 'Acnespecialisten erbjuder en rad olika behandlingar för hudproblem, inklusive acnebehandling, rosaceabehandling och portömning.'
+            title: 'Vilka typer av behandlingar erbjuder AcneSpecialisten för stora porer?',
+            text: 'Acnespecialisten erbjuder en rad olika behandlingar för stora porer, inklusive porförminskning, djuprengöring och specialiserad portömning.'
         ),
         new Question(
-            title: 'Hur lång tid tar en behandling hos Acnespecialisten?',
-            text: 'En behandling hos Acnespecialisten tar vanligtvis cirka 60 - 90 minuter.'
+            title: 'Hur lång tid tar en behandling för stora porer hos Acnespecialisten?',
+            text: 'En behandling för stora porer hos Acnespecialisten tar vanligtvis cirka 30 - 90 minuter.'
         ),
         new Question(
-            title: 'Hur många behandlingar behövs för att se resultat?',
-            text: 'Antalet behandlingar som behövs för att se resultat varierar beroende på ditt specifika hudproblem och din hudtyp. Genomsnittligt antal behandlingar är mellan 2-4 stycken.'
+            title: 'Hur många behandlingar behövs för att se resultat vid stora porer?',
+            text: 'Antalet behandlingar som behövs för att se en förbättring i stora porer varierar beroende på din hudtyp och hur framträdande porerna är. Genomsnittligt antal behandlingar är mellan 3-5 stycken.'
         ),
         new Question(
-            title: 'Är behandlingarna smärtsamma?',
-            text: 'Behandlingarna hos Acnespecialisten är utformade för att minimera obehag. När vi behandlar inflammerade områden och utför extraktioner kan det dock uppstå en tillfällig smärta. Denna känsla är dock övergående och försvinner snabbt, så du kan känna dig trygg under behandlingen.'
+            title: 'Är behandlingarna för stora porer smärtsamma?',
+            text: 'Behandlingarna hos Acnespecialisten är utformade för att minimera obehag. När vi behandlar områden med särskilt stora porer och utför djuprengöring kan det dock uppstå en tillfällig känsla av obehag. Denna känsla är dock kortvarig, så du kan känna dig bekväm under behandlingen.'
         ),
         new Question(
-            title: 'Kan alla hudtyper behandlas hos Acnespecialisten?',
-            text: 'Ja, Acnespecialisten erbjuder behandlingar som passar alla hudtyper.'
+            title: 'Kan alla hudtyper behandlas hos AcneSpecialisten för stora porer?',
+            text: 'Ja, AcneSpecialisten erbjuder behandlingar mot stora porer som passar alla hudtyper.'
         ),
+
     ),
 );
 
 $faq_url_label = "Läs fler frågor & svar";
-$faq_url_title = "läs flera frågor relaterat till aknebehandling";
+$faq_url_title = "läs flera frågor relaterat till behandling av stora porer";
 
 $skin_guide_articles = array(
     new SkinGuideArticle(
@@ -335,7 +332,7 @@ $skin_guide_articles = array(
 );
 
 $skinguide_url_label = "Läs fler guider";
-$skinguide_url_title = "Läs fler guider om aknebehandling";
+$skinguide_url_title = "Läs fler guider om behandling av stora porer";
 
 $specialists = array(
     new Specialist(
@@ -369,8 +366,8 @@ $specialists = array(
     )
 );
 
-$specialist_url_label = "Se alla specialister hej hej hej";
-$specialist_url_title = "Akne Specialiserade Hudterapeuter";
+$specialist_url_label = "Se alla specialister";
+$specialist_url_title = "Hudterapeuter Specialiserade på stora porer";
 
 $brands = array(
     new Brand(
@@ -424,7 +421,7 @@ $brands = array(
 );
 
 $brands_url_label = "Se alla varumärken";
-$brands_url_title = "Varumärken för Aknebehandling";
+$brands_url_title = "Varumärken för behandling av Stora porer";
 
 ?>
 
