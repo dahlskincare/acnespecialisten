@@ -4,7 +4,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Behandla Pormaskar - Effektiv Behandling och Förebyggande | Acnespecialisten';
 $seo_description = 'Lär dig allt om behandlingen av pormaskar, från dess orsaker till hur man behandlar och förebygger dem. Skräddarsydda lösningar och expertis från Acnespecialisten.';
-$seo_keywords = 'pormaskar, pormaskbehandling, orsaker till pormaskar, förebygga pormaskar, ta bort pormaskar, djupa porer, rengöring av porer, svarta prickar, vita pormaskar';
+$seo_keywords = 'pormaskar, portömning, pormaskbehandling, orsaker till pormaskar, förebygga pormaskar, ta bort pormaskar, djupa porer, rengöring av porer, svarta prickar, vita pormaskar';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
@@ -15,7 +15,7 @@ $image_small = 'images/treatments/small/pormaskar.jpg';
 $image_alt = 'Alt-text här';
 $image_title = 'Bildtitel här';
 
-$title = 'Portömning';
+$title = 'Pormaskbehandling';
 $description = 'Här har vi samlat de mest effektiva metoderna för behandling av pormaskar som hjälper dig att effektivt reducera synligheten av porer och få bort pormaskar. Oavsett ditt specifika behov, har vi rätt lösning för dig. Är du osäker på vilken <a href="https://www.acnespecialisten.se">pormaskbehandling</a> som bäst passar din hudtyp för att rengöra och förminska porer? Oroa dig inte, boka en kostnadsfri konsultation hos oss på Acnespecialisten så hjälper vi dig vidare mot en klarare och friskare hy.';
 
 $booking_link = 'rätt bokningslänk här';
@@ -37,7 +37,7 @@ $nav_buttons = array(
     'specialists' => 'Specialister'
 );
 
-$about_title = 'Hur vi reducerar och behandlar pormaskar?';
+$about_title = 'Hur vi reducerar och behandling av pormaskar?';
 
 $about_content = '<p class="p200">Att behandla och reducera pormaskar kräver rätt behandlingar och produkter. På AcneSpecialisten använder vi vår långa erfarenhet och expertis för att effektivt och regelbundet minska synligheten och få bort pormaskar. Med vår kostnadsfria hudkonsultation kan vi identifiera din unika hudtyp och ta fram en individuell behandlingsplan.</p>
 
@@ -214,8 +214,8 @@ $results = array(
     ),
 );
 
-$show_all_results_label = "Se fler resultat blablalba";
-$show_all_results_title = "KLICKA PÅ MIG";
+$show_all_results_label = "Se fler resultat mot pormaskar";
+$show_all_results_title = "Resultat mot pormaskar";
 
 
 $reviews = array(
@@ -268,30 +268,30 @@ $review_url_title = "AcneSpecialisten Omdömen";
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Vilka typer av behandlingar erbjuder Acnespecialisten för olika hudproblem?',
-            text: 'Acnespecialisten erbjuder en rad olika behandlingar för hudproblem, inklusive acnebehandling, rosaceabehandling och portömning.'
+            title: 'Vilka behandlingar erbjuder AcneSpecialisten för pormaskar?',
+            text: 'AcneSpecialisten erbjuder en rad olika behandlingar specifikt riktade mot pormaskar, inklusive portömning, laser, kemisk peeling, microneedling och specialiserade produkter för daglig hudvård.'
         ),
         new Question(
-            title: 'Hur lång tid tar en behandling hos Acnespecialisten?',
-            text: 'En behandling hos Acnespecialisten tar vanligtvis cirka 60 - 90 minuter.'
+            title: 'Hur lång tid tar en pormaskbehandling hos Acnespecialisten?',
+            text: 'En pormaskbehandling hos Acnespecialisten tar vanligtvis mellan 30 - 90 minuter.'
         ),
         new Question(
-            title: 'Hur många behandlingar behövs för att se resultat?',
-            text: 'Antalet behandlingar som behövs för att se resultat varierar beroende på ditt specifika hudproblem och din hudtyp. Genomsnittligt antal behandlingar är mellan 2-4 stycken.'
+            title: 'Hur många behandlingar behövs för att se en minskning av pormaskar?',
+            text: 'Antalet behandlingar som krävs för att se en märkbar minskning av pormaskar varierar beroende på hur omfattande problemet är samt din hudtyp. De flesta klienter ser resultat efter 3-5 behandlingar.'
         ),
         new Question(
-            title: 'Är behandlingarna smärtsamma?',
-            text: 'Behandlingarna hos Acnespecialisten är utformade för att minimera obehag. När vi behandlar inflammerade områden och utför extraktioner kan det dock uppstå en tillfällig smärta. Denna känsla är dock övergående och försvinner snabbt, så du kan känna dig trygg under behandlingen.'
+            title: 'Är behandlingarna mot pormaskar smärtsamma?',
+            text: 'De behandlingar som erbjuds av AcneSpecialisten är utformade för att minimera obehag. Vid portömning kan det uppstå en tillfällig smärta, men denna känsla är kortvarig och många finner den hanterbar.'
         ),
         new Question(
-            title: 'Kan alla hudtyper behandlas hos Acnespecialisten?',
-            text: 'Ja, Acnespecialisten erbjuder behandlingar som passar alla hudtyper.'
+            title: 'Kan pormaskar på alla hudtyper behandlas hos Acnespecialisten?',
+            text: 'Ja, Acnespecialisten erbjuder behandlingar mot pormaskar som är lämpliga för alla hudtyper.'
         ),
     ),
 );
 
 $faq_url_label = "Läs fler frågor & svar";
-$faq_url_title = "läs flera frågor relaterat till aknebehandling";
+$faq_url_title = "läs flera frågor relaterat till pormaskbehandling";
 
 $skin_guide_articles = array(
     new SkinGuideArticle(
@@ -337,7 +337,7 @@ $skin_guide_articles = array(
 );
 
 $skinguide_url_label = "Läs fler guider";
-$skinguide_url_title = "Läs fler guider om aknebehandling";
+$skinguide_url_title = "Läs fler guider om pormaskbehandling";
 
 $specialists = array(
     new Specialist(
