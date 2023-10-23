@@ -2,21 +2,21 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Allt om Akne - Orsaker, Behandling och Förebyggande | Acnespecialisten';
-$seo_description = 'Lär dig allt om akne, från dess orsaker till hur man behandlar och förebygger det. Skräddarsydda lösningar och expertis från Acnespecialisten.';
-$seo_keywords = 'akne, aknebehandling, orsaker till akne, förebygga akne, ta bort akne, vuxenakne, tonårsakne, akneärr, finnar, pormaskar';
+$seo_title = 'Behandla Mogen Hy - Effektiv Behandling och Förebyggande | Acnespecialisten';
+$seo_description = 'Upptäck skräddarsydda behandlingsalternativ för mogen hy hos Acnespecialisten. Vår kunskap hjälper dig att behandla och förebygga åldrande hud med effektiva lösningar.';
+$seo_keywords = 'mogen hy, hudåldrande, åldrande hud, hudvårdsbehandlingar, åldrande hudbehandling, rynkor, fina linjer, åldrande hudvård';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
-$seo_image = 'images/treatments/large/acne-scars.jpg';
+$seo_image = 'images/treatments/large/mogen-hy.jpg';
 
-$image_large = 'images/treatments/large/acne-scars.jpg';
-$image_small = 'images/treatments/small/acne-scars.jpg';
-$image_alt = 'Alt-text här';
-$image_title = 'Bildtitel här';
+$image_large = 'images/treatments/large/mogen-hy.jpg';
+$image_small = 'images/treatments/small/mogen-hy.jpg';
+$image_alt = 'Bild som illustrerar mogen hy';
+$image_title = 'Mogen hy';
 
-$title = 'Aknebehandlingar';
-$description = 'Här har vi samlat de mest effektiva metoderna för aknebehandling som hjälper dig att effektivt få bort akne oavsett typ. Oavsett ditt specifika behov, har vi rätt lösning för dig. Är du osäker på vilken <a href="https://www.acnespecialisten.se">aknebehandling</a> som bäst passar din hudtyp för att få bort akne? Oroa dig inte, boka en kostnadsfri konsultation hos oss på Acnespecialisten så hjälper vi dig vidare mot en klarare och friskare hy.';
+$title = 'Behandlingar för Mogen Hy';
+$description = 'Upptäck våra skräddarsydda behandlingsalternativ för mogen hy som hjälper dig att effektivt behandla och vårda åldrande hud. Oavsett dina specifika behov, har vi rätt lösningar för dig. Är du osäker på vilken <a href="https://www.acnespecialisten.se">hudvårdsbehandling</a> som passar bäst för din mogen hy? Oroa dig inte, boka en kostnadsfri konsultation hos oss på AcneSpecialisten så hjälper vi dig vidare mot en friskare och mer ungdomlig hud.';
 
 $booking_link = 'rätt bokningslänk här';
 $booking_link_title = 'Boka behandling';
@@ -29,7 +29,7 @@ $nav_buttons = array(
     'define' => 'Konsultation',
     'treat' => 'Behandlingar',
     'prevent' => 'Produkter',
-    'repair' => 'Akneärr',
+    'repair' => 'Rynkor & fina linjer',
     'results' => 'Resultat',
     'reviews' => 'Omdömen',
     'faq' => 'FAQ',
@@ -181,7 +181,7 @@ $products = array(
     ),
 );
 
-$headline04 = '04. Reparera post-akne (Acneärr)';
+$headline04 = '04. Reparera Rynkor och fina linjer';
 
 $repair_image_small = 'https://via.placeholder.com/358x274.jpg';
 $repair_image_large = 'https://via.placeholder.com/872x456.jpg';
