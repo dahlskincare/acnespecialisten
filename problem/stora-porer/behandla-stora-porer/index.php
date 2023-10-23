@@ -57,7 +57,7 @@ $define_consultation_link_title = "Klicka här för att boka din kostnadsfria hu
 
 $headline02 = "02. Behandla stora porer";
 
-$treat_content = '<p class="p200">När din hudtyp och storleken på dina porer har identifierats, inleder vi fas två: behandling av stora porer. Här är målet framför allt att djuprengöra och minska porernas synlighet som kan påverka hudens textur och utseende. Vi tillämpar olika metoder för att anpassa behandlingen efter dina unika behov, vilket gör att vi kan maximera resultaten och minimera obehaget. Genom denna process rengör vi porerna, tar bort döda hudceller och överflödig talg, och balanserar talgproduktionen. Vi utför också porsammandragande behandlingar som minskar porernas storlek och jämnar ut hudytan. Vi anpassar behandlingsplanen efter din huds respons.</p>';
+$treat_content = '<p class="p200">När din hudtyp och storleken på dina porer har identifierats, därefter påbörjar vi behandlingen av stora porer. Här är målet framför allt att djuprengöra och minska porernas synlighet som kan påverka hudens textur och utseende. Vi tillämpar olika metoder för att anpassa behandlingen efter dina unika behov, vilket gör att vi kan maximera resultaten och minimera obehaget. Genom denna process rengör vi porerna, tar bort döda hudceller och överflödig talg, och balanserar talgproduktionen. Vi utför också porsammandragande behandlingar som minskar porernas storlek och jämnar ut hudytan. Vi anpassar behandlingsplanen efter din huds respons.</p>';
 
 $services = array(
     new Service(
@@ -70,7 +70,7 @@ $services = array(
         duration: '60 minuter',
         price: 'Pris från 799 kr',
         icons: array('who-infants' => 'Djuprengörande', 'who-elders' => 'Hudbalanserande', 'who-teenagers' => 'Porreducerande', 'who-adults' => 'Refining'),
-        content: '<p class="p200">Ansiktsbehandling mot stora porer är en djuprengöring av huden som minimerar porernas utseende och renar dem från smuts och olja. Behandlingen inleds med en rengöring, följt av ångning för att öppna upp porerna. Därefter görs en omfattande porrengöring. Behandlingen avslutas med en pore-minimerande mask och fuktgivande kräm anpassad för din hudtyp.</p>',
+        content: '<p class="p200">Behandlingen riktar sig specifikt mot stora porer och syftar till att djuprengöra och minimera deras utseende. Den inleder med en noggrann rengöring, följt av ångning för att öppna upp porerna. Sedan utförs en omfattande rengöring av porerna för att avlägsna ansamlade döda hudceller och talg. Behandlingen avrundas med en mask som minskar porernas storlek, samt en fuktgivande kräm som väljs utifrån din specifika hudtyp.</p>',
 
         consultation_url: 'boka-hudkonsultation-porer',
         consultation_url_label: 'Boka konsultation',
@@ -94,7 +94,7 @@ $services = array(
         duration: '30-60 min',
         price: '1295 kr',
         icons: array('who-infants' => 'Precision', 'who-elders' => 'Icke-invasiv', 'who-teenagers' => 'Snabb', 'who-adults' => 'Effektiv'),
-        content: '<p class="p200">Laserbehandling för stora porer fungerar genom att använda ljusenergi för att minskar storleken och synligheten av porerna. Laserstrålen tränger ner i huden och stimulerar kollagenproduktionen vilket bidrar till att porerna krymper.</p>',
+        content: '<p class="p200">Laserbehandling syftar till att specifikt reducera storleken på stora porer. Genom att använda fokuserad ljusenergi, tränger laserstrålen ner i huden för att stimulera kollagenproduktion. Resultatet blir minskad synlighet av porer tack vare den upphöjda kollagenproduktionen som får porerna att krympa.</p>',
         consultation_url: 'konsultation-laser-porer',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för laserbehandling mot stora porer',
@@ -115,7 +115,7 @@ $services = array(
         duration: '30-60 min',
         price: '1295 kr',
         icons: array('who-infants' => 'Exfolierande', 'who-elders' => 'Förnyande', 'who-teenagers' => 'Uppfräschande', 'who-adults' => 'Poreförminskande'),
-        content: '<p class="p200">Kemisk peeling är en effektiv metod för att behandla stora porer. Vi använder en speciell lösning som appliceras på huden för att avlägsna det översta lagret. Detta hjälper till att minska synligheten av stora porer och ger plats åt ny, frisk hud att växa fram, vilket förbättrar hudens textur och utseende.</p>',
+        content: '<p class="p200">För dem med stora porer är kemisk peeling en framstående behandlingsmetod. Med hjälp av en syror avlägsnas hudens översta lager, vilket i sin tur reducerar synligheten av de stora porerna. Genom att ta bort döda hudceller och talg ger det plats för ny, strålande hud att ta framträdande roll, vilket leder till en jämnare hudtextur och klarhet.</p>',
         consultation_url: 'hudkonsultation-porer',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för kemisk peeling mot stora porer',
@@ -137,7 +137,7 @@ $services = array(
         duration: '30-60 min',
         price: '1295 kr',
         icons: array('who-infants' => 'Stimulerande', 'who-elders' => 'Förnyande', 'who-teenagers' => 'Djupgående', 'who-adults' => 'Poreförminskande'),
-        content: '<p class="p200">Microneedling är en effektiv behandlingsmetod mot stora porer som använder små mikronålar för att skapa mikroskopiska kanaler i huden. Detta stimulerar hudens naturliga läkningsprocess och ökar produktionen av kollagen och elastin, vilket bidrar till att minska synligheten av stora porer och förbättrar hudens textur och ton.</p>',
+        content: '<p class="p200">Microneedling är en beprövad metod för att tackla problem med stora porer. Genom att använda tunna mikronålar skapas små kanaler i huden. Denna process ger upphov till hudens naturliga läkningsmekanism och stimulerar produktionen av kollagen och elastin. Detta resulterar i minskad synlighet av stora porer och en övergripande förbättring av hudens kvalitet och ton.</p>',
         consultation_url: 'microneedling-konsultation-porer',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för microneedling mot stora porer',

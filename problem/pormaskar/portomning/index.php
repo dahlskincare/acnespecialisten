@@ -37,54 +37,52 @@ $nav_buttons = array(
     'specialists' => 'Specialister'
 );
 
-$about_title = 'Hur vi tar bort och behandlar akne?';
+$about_title = 'Hur vi reducerar och behandlar pormaskar?';
 
-$about_content = '<p class="p200">Att behandla och ta bort akne är ingen quickfix. På Acnespecialisten använder vi vår expertis och de bästa verktygen för att effektivt och regelbundet få bort akne. Med vår kostnadsfria hudkonsultation kan vi identifiera din unika hudtyp och ta fram en individuell behandlingsplan.</p>
+$about_content = '<p class="p200">Att behandla och reducera pormaskar kräver rätt behandlingar och produkter. På AcneSpecialisten använder vi vår långa erfarenhet och expertis för att effektivt och regelbundet minska synligheten och få bort pormaskar. Med vår kostnadsfria hudkonsultation kan vi identifiera din unika hudtyp och ta fram en individuell behandlingsplan.</p>
 
-    <p class="p200 mt-xl">Vår första prioritet är att få bort inflammationen och finnarna, de huvudsakliga orsakerna till ärrbildning. Efter att den aktiva aknen har behandlats hjälper vi dig att skapa en anpassad hudvårdsrutin med produkter mot akne för att förebygga framtida utbrott. Om aknen har lämnat ärr bakom sig, har vi lösningar för att reparera huden. Vi ser fram emot att bli din guide på resan mot att ta bort akne och återfå en klarare, friskare hy.</p>';
+    <p class="p200 mt-xl">Vår första prioritet är att rensa och minimera porerna, vilket förhindrar ansamling av talg och döda hudceller. Efter att porerna har behandlats hjälper vi dig att skapa en anpassad hudvårdsrutin med produkter mot pormaskar för att förhindra att de blir blockerade igen. Om dina pormaskar har lett till andra hudproblem, har vi lösningar för att förbättra huden. Vi ser fram emot att bli din guide på resan mot att reducera pormaskar och återfå en klarare, friskare hy.</p>';
 
-$headline01 = "01. Identifiera din akne";
+$headline01 = "01. Identifiera dina pormaskar";
 
 $define_image = 'images/service-categories/large/konsultation.jpg';
-$define_image_alt = 'Hur vi tar bort och behandlar akne?';
-$define_image_title = 'Hur vi tar bort och behandlar akne?';
+$define_image_alt = 'Hur vi reducerar och behandlar pormaskar?';
+$define_image_title = 'Hur vi reducerar och behandlar pormaskar?';
 
-$define_content = '<p class="p200">Första steget i vår process att få bort akne är att kartlägga din aknetyp. Vi inleder med en kostnadsfri konsultation där vi analyserar din hud och diskuterar dina hudmål och tidigare erfarenheter. Förebilder tas för att kunna följa din huds framsteg och anpassa din behandlingsplan över tid. En personlig hudterapeut följer med dig genom hela behandlingsresan, vilket säkerställer en konsekvent omsorg anpassad efter dina specifika behov.</p>';
+$define_content = '<p class="p200">Första steget i vår process att behandla pormaskar är att kartlägga omfattningen av dina pormaskar. Vi inleder med en kostnadsfri konsultation där vi analyserar din hud och diskuterar dina hudmål och tidigare erfarenheter. Förebilder tas för att kunna följa din huds framsteg och anpassa din behandlingsplan över tid. Din personliga hudterapeut följer med dig genom hela behandlingsresan, vilket säkerställer en konsekvent omsorg anpassad efter dina specifika behov.</p>';
 
 $define_consultation_link = "https://www.acnespecialisten.se/boka-hudkonsultation";
 $define_consultation_link_label = "Boka Gratis Konsultation";
-$define_consultation_link_title = "klicka här för att boka din kostnadsfria hudkonsultation mot akne";
+$define_consultation_link_title = "klicka här för att boka din kostnadsfria hudkonsultation mot pormaskar";
 
+$headline02 = "02. Behandla pormaskar";
 
-
-$headline02 = "02. Behandla aktiv akne";
-
-$treat_content = '<p class="p200">När din aknetyp har identifierats, inleder vi fas två: behandling av den aktiva aknen. Här är målet framför allt att få bort inflammationerna och finnarna som riskerar att skada huden och leda till ärr. Vi tillämpar olika metoder för att anpassa behandlingen efter dina unika behov, vilket gör att vi kan maximera resultaten och minimera obehaget. Genom denna process minskar vi inflammation, rensar bort döda hudceller, och kontrollerar talgproduktionen, vilket över tid leder till minskad akne och dess förekomst. Vi anpassar behandlingsplanen efter din huds respons.</p>';
+$treat_content = '<p class="p200">Här är målet framför allt att rensa och rengöra porerna på djupet. Vi tillämpar olika metoder för att anpassa behandlingen efter dina unika behov, vilket gör att vi kan maximera resultaten och minimera obehaget. Genom denna process rensar vi bort döda hudceller, kontrollerar talgproduktionen och säkerställer att porerna förblir rena.</p>';
 
 $services = array(
     new Service(
         image_small: 'https://via.placeholder.com/358x274.jpg',
         image_large: 'https://via.placeholder.com/852x456.jpg',
-        image_title: 'Effektiv Ansiktsbehandling mot Akne på Acnespecialisten',
-        image_alt: 'Bild illustrerar en ansiktsbehandling mot akne utförd på Acnespecialisten',
+        image_title: 'Effektiv Ansiktsbehandling mot Pormaskar på Acnespecialisten',
+        image_alt: 'Bild illustrerar en ansiktsbehandling mot pormaskar utförd på Acnespecialisten',
 
-        title: 'Ansiktsbehandling mot Akne',
+        title: 'Ansiktsbehandling mot Pormaskar',
         duration: '60 minuter',
         price: 'Pris från 799 kr',
         icons: array('who-infants' => 'Djuprengörande', 'who-elders' => 'Hudbalanserande', 'who-teenagers' => 'Porrensande', 'who-adults' => 'Anti-inflammatorisk'),
-        content: '<p class="p200">Ansiktsbehandling mot akne på Acnespecialisten är en djuprengöring av huden som tar bort döda hudceller och frigör tilltäppta porer. Behandlingen inleds med en rengöring, följt av ångning för att öppna upp porerna. Därefter följer en djup porrengöring där orenheter och akne elimineras. Behandlingen avslutas med en lugnande mask och fuktgivande kräm anpassad för din hudtyp.</p>',
+        content: '<p class="p200">Ansiktsbehandling mot pormaskar på Acnespecialisten är speciellt framtagen för att djuprengöra huden, avlägsna döda hudceller och bekämpa tilltäppta porer. Processen börjar med en rengöring, följt av ångning för att mjuka upp och öppna porerna. Därefter görs en noggrann porrengöring där pormaskar och andra orenheter avlägsnas. Behandlingen avrundas med en lugnande mask och en fuktgivande kräm som är anpassad för din hudtyp.</p>',
 
-        consultation_url: 'boka-hudkonsultation-akne',
+        consultation_url: 'boka-hudkonsultation-pormaskar',
         consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka Hudkonsultation för Akne på Acnespecialisten',
+        consultation_url_title: 'Boka Hudkonsultation för Pormaskar på Acnespecialisten',
 
-        booking_url: 'boka-djuprengörande-ansiktsbehandling-akne',
+        booking_url: 'boka-djuprengörande-ansiktsbehandling-pormaskar',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka Din Ansiktsbehandling mot Akne på Acnespecialisten',
+        booking_url_title: 'Boka Din Ansiktsbehandling mot Pormaskar på Acnespecialisten',
 
-        url: 'behandlingar/ansiktsbehandlingar-problemhy/acnebehandling',
-        url_label: 'Läs Mer om Vår Ansiktsbehandling mot Akne',
-        url_title: 'Mer Information om Vår Ansiktsbehandling mot Akne',
+        url: 'behandlingar/ansiktsbehandlingar-problemhy/pormaskarbehandling',
+        url_label: 'Läs Mer om Vår Ansiktsbehandling mot Pormaskar',
+        url_title: 'Mer Information om Vår Ansiktsbehandling mot Pormaskar',
 
         // short_title: 'Ansiktsbehandling'
 
@@ -93,22 +91,22 @@ $services = array(
     new Service(
         image_small: 'https://via.placeholder.com/358x274.jpg',
         image_large: 'https://via.placeholder.com/852x456.jpg',
-        image_title: 'Klient som genomgår laserbehandling mot akne',
-        image_alt: 'Bild av laserbehandling mot akne hos Acnespecialisten',
-        title: 'Effektiv laserbehandling mot akne',
+        image_title: 'Klient som genomgår laserbehandling mot pormaskar',
+        image_alt: 'Bild av laserbehandling mot pormaskar hos Acnespecialisten',
+        title: 'Effektiv laserbehandling mot pormaskar',
         duration: '30-60 min',
         price: '1295 kr',
         icons: array('who-infants' => 'Precision', 'who-elders' => 'Icke-invasiv', 'who-teenagers' => 'Snabb', 'who-adults' => 'Effektiv'),
-        content: '<p class="p200">Laserbehandling för akne hos Acnespecialisten fungerar genom att använda ljusenergi för att behandla inflammationen i huden som orsakar akne. Laserstrålen tränger ner i huden och behandlar de djupa lager där akne börjar. Denna metod reducerar oljeproduktionen i huden och dödar bakterier som bidrar till akneutbrott.</p>',
-        consultation_url: 'konsultation-laser',
+        content: '<p class="p200">Laserbehandling riktad mot pormaskar hos AcneSpecialisten använder ljusenergi för att specifikt behandla och minska pormaskarnas synlighet. Laserstrålens penetration i huden fokuserar på de områden där pormaskarna dominerar, balanserar hudens talgproduktion och minskar ansamlingen av döda hudceller, vilket ofta är orsaken till pormaskar.</p>',
+        consultation_url: 'konsultation-laser-pormaskar',
         consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka en konsultation för laserbehandling mot akne',
-        booking_url: 'boka-laserbehandling',
+        consultation_url_title: 'Boka en konsultation för laserbehandling mot pormaskar',
+        booking_url: 'boka-laserbehandling-pormaskar',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka din laserbehandling mot akne nu',
-        url: 'behandlingar/laserbehandling-mot-akne',
-        url_label: 'Läs mer om laserbehandlingar',
-        url_title: 'Utforska mer om våra laserbehandlingar mot akne',
+        booking_url_title: 'Boka din laserbehandling mot pormaskar nu',
+        url: 'behandlingar/laserbehandling-mot-pormaskar',
+        url_label: 'Läs mer om laserbehandlingar mot pormaskar',
+        url_title: 'Utforska mer om våra laserbehandlingar mot pormaskar',
 
         // short_title: 'Laser'
 
@@ -117,71 +115,67 @@ $services = array(
     new Service(
         image_small: 'https://via.placeholder.com/358x274.jpg',
         image_large: 'https://via.placeholder.com/852x456.jpg',
-        image_title: 'Utförande av kemisk peelingbehandling för akne',
-        image_alt: 'Bild på kemisk peelingbehandling mot akne hos Acnespecialisten',
-        title: 'Kemisk peeling mot akne',
+        image_title: 'Utförande av kemisk peelingbehandling för pormaskar',
+        image_alt: 'Bild på kemisk peelingbehandling mot pormaskar hos Acnespecialisten',
+        title: 'Kemisk peeling mot pormaskar',
         duration: '30-60 min',
         price: '1295 kr',
         icons: array('who-infants' => 'Exfolierande', 'who-elders' => 'Förnyande', 'who-teenagers' => 'Uppfräschande', 'who-adults' => 'Ljusande'),
-        content: '<p class="p200">Kemisk peeling är en av de mest effektiva metoderna för att behandla akne. På Acnespecialisten använder vi en speciell lösning som appliceras på huden för att avlägsna det översta lagret. Detta ger plats åt ny, frisk hud att växa fram, vilket bidrar till att reducera utseendet av akneärr och att förbättra hudens textur och utseende.</p>',
-        consultation_url: 'hudkonsultation',
+        content: '<p class="p200">För att effektivt behandla pormaskar starka syror under en kemisk peeling behandling. Vi applicerar en särskilt framtagen lösning på huden som avlägsnar det översta lagret av hudceller och luckra upp tilltäpta porer. Genom att ge plats för ny, frisk hud att framträda, minskas synligheten av pormaskar samtidigt som hudens textur och utseende förbättras betydligt.</p>',
+        consultation_url: 'hudkonsultation-pormaskar',
         consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka en konsultation för kemisk peeling mot akne',
-        url: 'behandlingar/kemisk-peeling-mot-akne',
-        url_label: 'Läs mer om kemisk peeling mot akne',
-        url_title: 'Utforska mer om vår kemiska peelingbehandling mot akne',
-        booking_url: 'boka-kemisk-peeling',
+        consultation_url_title: 'Boka en konsultation för kemisk peeling mot pormaskar',
+        url: 'behandlingar/kemisk-peeling-mot-pormaskar',
+        url_label: 'Läs mer om kemisk peeling mot pormaskar',
+        url_title: 'Utforska mer om vår kemiska peelingbehandling mot pormaskar',
+        booking_url: 'boka-kemisk-peeling-pormaskar',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka din kemiska peeling mot akne nu',
+        booking_url_title: 'Boka din kemiska peeling mot pormaskar nu',
         short_title: 'Kemisk Peeling'
-
     ),
 
     new Service(
         image_small: 'https://via.placeholder.com/358x274.jpg',
         image_large: 'https://via.placeholder.com/852x456.jpg',
-        image_title: 'Utförande av microneedlingbehandling för akne',
-        image_alt: 'Bild på microneedlingbehandling mot akne hos Acnespecialisten',
-        title: 'Effektiv microneedling mot akne',
+        image_title: 'Utförande av microneedlingbehandling för pormaskar',
+        image_alt: 'Bild på microneedlingbehandling mot pormaskar hos Acnespecialisten',
+        title: 'Effektiv microneedling mot pormaskar',
         duration: '30-60 min',
         price: '1295 kr',
-        icons: array('who-infants' => 'Stimulerande', 'who-elders' => 'Förnyande', 'who-teenagers' => 'Djupgående', 'who-adults' => 'Minskning av ärr'),
-        content: '<p class="p200">Microneedling är en effektiv behandlingsmetod mot akne som använder små mikronålar för att skapa mikroskopiska kanaler i huden. Detta stimulerar hudens naturliga läkningsprocess och ökar produktionen av kollagen och elastin. Microneedling behandlar även de underliggande problemen med akne genom att tillåta aktiva ingredienser att tränga djupare in i huden.</p>',
-        consultation_url: 'microneedling-konsultation',
+        icons: array('who-infants' => 'Stimulerande', 'who-elders' => 'Förnyande', 'who-teenagers' => 'Djupgående', 'who-adults' => 'Minskning av porstorlek'),
+        content: '<p class="p200">Microneedling erbjuds som en kraftfull metod för att bekämpa pormaskar. Genom att använda mikronålar skapas små kanaler i huden, vilket uppmuntrar hudens naturliga läkning och ökar kollagen- och elastinproduktionen. Microneedling adresserar även de bakomliggande orsakerna till pormaskar genom att tillåta aktiva ingredienser att penetrera djupare in i huden, vilket aktivt bidrar till att minska både storlek och mängd av pormaskar.</p>',
+        consultation_url: 'microneedling-konsultation-pormaskar',
         consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka en konsultation för microneedling mot akne',
-        url: 'behandlingar/microneedling-mot-akne',
-        url_label: 'Läs mer om microneedling mot akne',
-        url_title: 'Utforska mer om vår microneedlingbehandling mot akne',
-        booking_url: 'boka-microneedling',
+        consultation_url_title: 'Boka en konsultation för microneedling mot pormaskar',
+        url: 'behandlingar/microneedling-mot-pormaskar',
+        url_label: 'Läs mer om microneedling mot pormaskar',
+        url_title: 'Utforska mer om vår microneedlingbehandling mot pormaskar',
+        booking_url: 'boka-microneedling-pormaskar',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka din microneedling mot akne nu',
+        booking_url_title: 'Boka din microneedling mot pormaskar nu',
         short_title: 'Microneedling'
-
     ),
+
 );
 
-$headline03 = "03. Förebygg akne";
+$headline03 = "03. Förebygg pormaskar";
 
 $products = array(
     new Product(
         image_small: 'https://via.placeholder.com/358x274.jpg',
         image_large: 'https://via.placeholder.com/872x456.jpg',
-        image_title: 'Acnespecialistens effektiva hudvårdsprodukter mot akne',
-        image_alt: 'Bild på Acnespecialistens hudvårdsprodukter mot akne',
+        image_title: 'AcneSpecialistens effektiva hudvårdsprodukter mot pormaskar',
+        image_alt: 'Bild på AcneSpecialistens hudvårdsprodukter mot pormaskar',
 
-        url: 'produkter/mot-akne',
-        url_label: 'Utforska våra hudvårdsprodukter mot akne',
-        url_title: 'Information om Acnespecialistens hudvårdsprodukter mot akne',
-        price: 'Acnespecialistens hudvårdsprodukter mot akne - Pris från 1295 kr',
-        content: '<p class="p200">Att förebygga akne är en viktig del av processen för att hålla din hud aknefri, lika viktig som behandlingarna. För detta ändamål erbjuder vi en daglig hudvårdsrutin med specifika produkter mot akne. Denna rutin hjälper till att hålla din hy ren, balanserad och fri från överflödigt talg och bakterier. Denna dagliga vård hjälper till att förhindra framtida utbrott och är lika viktig som regelbundna besök hos oss på Acnespecialisten.</p>',
-
-
-
+        url: 'produkter/pormaskar',
+        url_label: 'Utforska våra hudvårdsprodukter mot pormaskar',
+        url_title: 'Information om AcneSpecialistens hudvårdsprodukter mot pormaskar',
+        price: 'AcneSpecialistens hudvårdsprodukter mot pormaskar - Pris från 1295 kr',
+        content: '<p class="p200">Att förebygga pormaskar är en avgörande del av hudvårdsprocessen, lika viktig som behandlingar. För att stödja detta mål erbjuder vi en specifik daglig hudvårdsrutin med produkter riktade mot pormaskar. Denna rutin säkerställer att din hy hålls ren, balanserad och fri från överflödigt talg och orenheter. Denna dagliga vård hjälper inte bara till att minska nuvarande pormaskar utan även att förhindra nya från att bildas, vilket gör den lika viktig som dina regelbundna besök hos oss på AcneSpecialisten.</p>',
     ),
 );
 
-$headline04 = '04. Reparera post-akne (Acneärr)';
+$headline04 = '04. Reducera pormaskar';
 
 $repair_image_small = 'https://via.placeholder.com/358x274.jpg';
 $repair_image_large = 'https://via.placeholder.com/872x456.jpg';
