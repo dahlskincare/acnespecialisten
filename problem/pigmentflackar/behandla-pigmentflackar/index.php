@@ -40,7 +40,7 @@ $about_title = 'Hur vi reducerar och tar bort pigmentfläckar';
 
 $about_content = '<p class="p200">Att behandla och reducera pigmentfläckar är en process som kräver noggrannhet. På Acnespecialisten använder vi vår expertis och de mest effektiva metoderna för att framgångsrikt behandla och minska pigmentfläckar. Med vår kostnadsfria hudkonsultation kan vi identifiera din unika hudtyp och skapa en individuell behandlingsplan som passar just dig.</p>
 
-    <p class="p200 mt-xl">Vårt första mål är att minska hyperpigmentering och ge dig en mer jämn hudton. Vi använder skonsamma och effektiva produkter och metoder för att behandla pigmentfläckarna. Om dina pigmentfläckar har lämnat spår efter sig, erbjuder vi lösningar för att reparera och förbättra din hud. Låt oss guida dig på vägen mot att behandla pigmentfläckar och uppnå en strålande och jämn hud.</p>';
+    <p class="p200 mt-xl">Med vår kostnadsfria hudkonsultation bestämmer vi den bästa åtgärden för att behandla dina specifika pigmentfläckar. Oavsett om det handlar om en enstaka fläck eller ett mer omfattande område, är vårt huvudsyfte att återge din hud dess naturliga, jämnare utseende. Genom varje steg i processen, från den inledande konsultationen till att uppnå det önskade resultatet, är vårt dedikerade team på AcneSpecialisten här för att stödja dig.</p>';
 
 $headline01 = "01. Identifiera dina pigmentfläckar";
 
@@ -48,119 +48,116 @@ $define_image = 'images/service-categories/large/konsultation.jpg';
 $define_image_alt = 'Behandling av Pigmentfläckar';
 $define_image_title = 'Behandling av Pigmentfläckar';
 
-$define_content = '<p class="p200">Det första steget i vår process för att behandla pigmentfläckar är att förstå din specifika hudtillstånd och pigmentfläckarnas natur. Vi börjar med en kostnadsfri konsultation där vi analyserar din hud noggrant och diskuterar dina mål samt dina tidigare erfarenheter med pigmentfläckar. Vi tar förebilder för att noga övervaka dina framsteg och skapa en skräddarsydd behandlingsplan som är utformad speciellt för dig. En personlig hudterapeut kommer att vara din följeslagare genom hela din resa mot en klarare hud, vilket garanterar att du får den bästa möjliga vården.</p>';
+$define_content = '<p class="p200">För att kunna hjäpla dig med dina pigmentfläckar är det viktigt att vi förstår ditt specifika hudtillstånd och dina pigmentfläckarnas natur. Vi börjar med en kostnadsfri konsultation där vi analyserar din hud noggrant och diskuterar dina mål samt dina tidigare erfarenheter med pigmentfläckar. Vi tar förebilder för att noga övervaka dina framsteg och skapa en skräddarsydd behandlingsplan som är utformad speciellt för dig. En personlig hudterapeut kommer att vara din följeslagare genom hela din resa mot en klarare hud, vilket garanterar att du får den bästa möjliga vården.</p>';
 
 $define_consultation_link = "https://www.acnespecialisten.se/boka-hudkonsultation";
 $define_consultation_link_label = "Boka Gratis Konsultation";
 $define_consultation_link_title = "Klicka här för att boka din kostnadsfria hudkonsultation för behandling av pigmentfläckar";
 
 
-$headline02 = "02. Behandla aktiv akne";
+$headline02 = "02. Behandling av pigmentfläckar";
 
-$treat_content = '<p class="p200">När din aknetyp har identifierats, inleder vi fas två: behandling av den aktiva aknen. Här är målet framför allt att få bort inflammationerna och finnarna som riskerar att skada huden och leda till ärr. Vi tillämpar olika metoder för att anpassa behandlingen efter dina unika behov, vilket gör att vi kan maximera resultaten och minimera obehaget. Genom denna process minskar vi inflammation, rensar bort döda hudceller, och kontrollerar talgproduktionen, vilket över tid leder till minskad akne och dess förekomst. Vi anpassar behandlingsplanen efter din huds respons.</p>';
+$treat_content = '<p class="p200">När vi har identifierat dina pigmentfläckar, inleder vi behandlingen för att reducera eller eliminera pigmentfläkcarna för att återställa en jämnare hudton. Vi använder olika metoder och behandlingar som är skräddarsydda efter dina specifika behov. Detta gör att vi kan maximera resultaten och minimera eventuellt obehag. Genom denna process arbetar vi för att minska pigmentfläckarnas synlighet och förbättra hudens utseende över tid.</p>';
 
 $services = array(
-    new Service(
-        image_small: 'https://via.placeholder.com/358x274.jpg',
-        image_large: 'https://via.placeholder.com/852x456.jpg',
-        image_title: 'Effektiv Ansiktsbehandling mot Akne på Acnespecialisten',
-        image_alt: 'Bild illustrerar en ansiktsbehandling mot akne utförd på Acnespecialisten',
-
-        title: 'Ansiktsbehandling mot Akne',
-        duration: '60 minuter',
-        price: 'Pris från 799 kr',
-        icons: array('who-infants' => 'Djuprengörande', 'who-elders' => 'Hudbalanserande', 'who-teenagers' => 'Porrensande', 'who-adults' => 'Anti-inflammatorisk'),
-        content: '<p class="p200">Ansiktsbehandling mot akne på Acnespecialisten är en djuprengöring av huden som tar bort döda hudceller och frigör tilltäppta porer. Behandlingen inleds med en rengöring, följt av ångning för att öppna upp porerna. Därefter följer en djup porrengöring där orenheter och akne elimineras. Behandlingen avslutas med en lugnande mask och fuktgivande kräm anpassad för din hudtyp.</p>',
-
-        consultation_url: 'boka-hudkonsultation-akne',
-        consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka Hudkonsultation för Akne på Acnespecialisten',
-
-        booking_url: 'boka-djuprengörande-ansiktsbehandling-akne',
-        booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka Din Ansiktsbehandling mot Akne på Acnespecialisten',
-
-        url: 'behandlingar/ansiktsbehandlingar-problemhy/acnebehandling',
-        url_label: 'Läs Mer om Vår Ansiktsbehandling mot Akne',
-        url_title: 'Mer Information om Vår Ansiktsbehandling mot Akne',
-
-        // short_title: 'Ansiktsbehandling'
-
-    ),
 
     new Service(
         image_small: 'https://via.placeholder.com/358x274.jpg',
         image_large: 'https://via.placeholder.com/852x456.jpg',
-        image_title: 'Klient som genomgår laserbehandling mot akne',
-        image_alt: 'Bild av laserbehandling mot akne hos Acnespecialisten',
-        title: 'Effektiv laserbehandling mot akne',
+        image_title: 'Klient som genomgår IPL-behandling mot pigmentfläckar',
+        image_alt: 'Bild av IPL-behandling mot pigmentfläckar hos AcneSpecialisten',
+        title: 'Effektiv IPL-behandling mot pigmentfläckar',
         duration: '30-60 min',
         price: '1295 kr',
         icons: array('who-infants' => 'Precision', 'who-elders' => 'Icke-invasiv', 'who-teenagers' => 'Snabb', 'who-adults' => 'Effektiv'),
-        content: '<p class="p200">Laserbehandling för akne hos Acnespecialisten fungerar genom att använda ljusenergi för att behandla inflammationen i huden som orsakar akne. Laserstrålen tränger ner i huden och behandlar de djupa lager där akne börjar. Denna metod reducerar oljeproduktionen i huden och dödar bakterier som bidrar till akneutbrott.</p>',
-        consultation_url: 'konsultation-laser',
+        content: '<p class="p200">IPL-behandling för att reducera pigmentfläckar hos Acnespecialisten använder intensivt pulserande ljus för att noggrant behandla områden med ökad pigmentering. Ljusenergin tränger djupt in i huden och riktar sig mot de områden där pigmentfläckarna är mest synliga. Denna metod minskar produktionen av melanin i huden och hjälper till att återställa en mer jämn hudton.</p>',
+        consultation_url: 'konsultation-ipl',
         consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka en konsultation för laserbehandling mot akne',
-        booking_url: 'boka-laserbehandling',
+        consultation_url_title: 'Boka en konsultation för IPL-behandling mot pigmentfläckar',
+        booking_url: 'boka-ipl-behandling',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka din laserbehandling mot akne nu',
-        url: 'behandlingar/laserbehandling-mot-akne',
-        url_label: 'Läs mer om laserbehandlingar',
-        url_title: 'Utforska mer om våra laserbehandlingar mot akne',
-
-        // short_title: 'Laser'
-
+        booking_url_title: 'Boka din IPL-behandling mot pigmentfläckar nu',
+        url: 'behandlingar/ipl-behandling-mot-pigmentflackar',
+        url_label: 'Läs mer om IPL-behandlingar för pigmentfläckar',
+        url_title: 'Utforska mer om våra IPL-behandlingar mot pigmentfläckar',
+        short_title: 'IPL'
     ),
 
     new Service(
         image_small: 'https://via.placeholder.com/358x274.jpg',
         image_large: 'https://via.placeholder.com/852x456.jpg',
-        image_title: 'Utförande av kemisk peelingbehandling för akne',
-        image_alt: 'Bild på kemisk peelingbehandling mot akne hos Acnespecialisten',
-        title: 'Kemisk peeling mot akne',
+        image_title: 'Utförande av kemisk peelingbehandling för pigmentfläckar',
+        image_alt: 'Bild på kemisk peelingbehandling mot pigmentfläckar hos Acnespecialisten',
+        title: 'Kemisk peeling mot pigmentfläckar',
         duration: '30-60 min',
         price: '1295 kr',
         icons: array('who-infants' => 'Exfolierande', 'who-elders' => 'Förnyande', 'who-teenagers' => 'Uppfräschande', 'who-adults' => 'Ljusande'),
-        content: '<p class="p200">Kemisk peeling är en av de mest effektiva metoderna för att behandla akne. På Acnespecialisten använder vi en speciell lösning som appliceras på huden för att avlägsna det översta lagret. Detta ger plats åt ny, frisk hud att växa fram, vilket bidrar till att reducera utseendet av akneärr och att förbättra hudens textur och utseende.</p>',
+        content: '<p class="p200">Kemisk peeling behandlar effektivt pigmentfläckar med hjälp av syror som avlägsnar det yttersta hudlagret. Detta främjar cellförnyelse och bidrar till att reducera synligheten av pigmentfläckar samt förbättra hudens struktur och utseende.</p>',
         consultation_url: 'hudkonsultation',
         consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka en konsultation för kemisk peeling mot akne',
-        url: 'behandlingar/kemisk-peeling-mot-akne',
-        url_label: 'Läs mer om kemisk peeling mot akne',
-        url_title: 'Utforska mer om vår kemiska peelingbehandling mot akne',
+        consultation_url_title: 'Boka en konsultation för kemisk peeling mot pigmentfläckar',
+        url: 'behandlingar/kemisk-peeling-mot-pigmentflackar',
+        url_label: 'Läs mer om kemisk peeling mot pigmentfläckar',
+        url_title: 'Utforska mer om vår kemiska peelingbehandling mot pigmentfläckar',
         booking_url: 'boka-kemisk-peeling',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka din kemiska peeling mot akne nu',
+        booking_url_title: 'Boka din kemiska peeling mot pigmentfläckar nu',
         short_title: 'Kemisk Peeling'
-
     ),
 
     new Service(
         image_small: 'https://via.placeholder.com/358x274.jpg',
         image_large: 'https://via.placeholder.com/852x456.jpg',
-        image_title: 'Utförande av microneedlingbehandling för akne',
-        image_alt: 'Bild på microneedlingbehandling mot akne hos Acnespecialisten',
-        title: 'Effektiv microneedling mot akne',
+        image_title: 'Utförande av microneedlingbehandling för pigmentfläckar',
+        image_alt: 'Bild på microneedlingbehandling mot pigmentfläckar hos Acnespecialisten',
+        title: 'Effektiv microneedling mot pigmentfläckar',
         duration: '30-60 min',
         price: '1295 kr',
         icons: array('who-infants' => 'Stimulerande', 'who-elders' => 'Förnyande', 'who-teenagers' => 'Djupgående', 'who-adults' => 'Minskning av ärr'),
-        content: '<p class="p200">Microneedling är en effektiv behandlingsmetod mot akne som använder små mikronålar för att skapa mikroskopiska kanaler i huden. Detta stimulerar hudens naturliga läkningsprocess och ökar produktionen av kollagen och elastin. Microneedling behandlar även de underliggande problemen med akne genom att tillåta aktiva ingredienser att tränga djupare in i huden.</p>',
+        content: '<p class="p200">Microneedling är en effektiv behandlingsmetod för att behandla och minska pigmentfläckar. Den använder små mikronålar för att skapa mikroskopiska kanaler i huden, vilket stimulerar hudens naturliga läkningsprocess och ökar produktionen av kollagen och elastin. Detta bidrar till att minska synligheten av pigmentfläckar och främjar en jämnare hudton. Microneedling möjliggör även djupare penetration av aktiva ingredienser som hjälper till att reducera pigmentfläckar.</p>',
         consultation_url: 'microneedling-konsultation',
         consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka en konsultation för microneedling mot akne',
-        url: 'behandlingar/microneedling-mot-akne',
-        url_label: 'Läs mer om microneedling mot akne',
-        url_title: 'Utforska mer om vår microneedlingbehandling mot akne',
+        consultation_url_title: 'Boka en konsultation för microneedling mot pigmentfläckar',
+        url: 'behandlingar/microneedling-mot-pigmentflackar',
+        url_label: 'Läs mer om microneedling mot pigmentfläckar',
+        url_title: 'Utforska mer om vår microneedlingbehandling mot pigmentfläckar',
         booking_url: 'boka-microneedling',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka din microneedling mot akne nu',
+        booking_url_title: 'Boka din microneedling mot pigmentfläckar nu',
         short_title: 'Microneedling'
-
     ),
+
+    new Service(
+        image_small: 'https://via.placeholder.com/358x274.jpg',
+        image_large: 'https://via.placeholder.com/852x456.jpg',
+        image_title: 'Effektiv behandling med CryoPen mot pigmentfläckar på Acnespecialisten',
+        image_alt: 'Bild illustrerar en behandling med CryoPen mot pigmentfläckar utförd på Acnespecialisten',
+
+        title: 'Behandling med CryoPen mot pigmentfläckar',
+        duration: '30-60 minuter',
+        price: 'Pris från 899 kr',
+        icons: array('who-infants' => 'Precis', 'who-elders' => 'Icke-invasiv', 'who-teenagers' => 'Effektiv', 'who-adults' => 'Pigmentfläcksreducerande'),
+        content: '<p class="p200">CryoPen-behandling för pigmentfläckar på Acnespecialisten använder extrem kyla för att noggrant och skonsamt behandla pigmentfläckar. CryoPen-enheten applicerar kontrollerad kyla på pigmentfläckarna, vilket resulterar i deras nedbrytning och minskad synlighet. Denna metod är effektiv och minimalt invasiv, vilket innebär minimalt obehag och ingen återhämtningstid.</p>',
+
+        consultation_url: 'boka-hudkonsultation-pigmentflackar',
+        consultation_url_label: 'Boka konsultation',
+        consultation_url_title: 'Boka Hudkonsultation för CryoPen mot pigmentfläckar på Acnespecialisten',
+
+        booking_url: 'boka-cryopen-pigmentflackar',
+        booking_url_label: 'Boka behandling',
+        booking_url_title: 'Boka Din CryoPen-behandling mot pigmentfläckar på Acnespecialisten',
+
+        url: 'behandlingar/cryopen-behandling-mot-pigmentflackar',
+        url_label: 'Läs Mer om Vår CryoPen-behandling mot pigmentfläckar',
+        url_title: 'Mer Information om Vår CryoPen-behandling mot pigmentfläckar',
+
+        short_title: 'CryoPen'
+    ),
+
 );
 
-$show_all_results_label = "Se fler resultat blablalba";
-$show_all_results_title = "KLICKA PÅ MIG";
+$show_all_results_label = "Se fler resultat";
+$show_all_results_title = "Se fler resultat mot pigmentfläckar";
 
 
 $reviews = array(
@@ -213,30 +210,35 @@ $review_url_title = "AcneSpecialisten Omdömen";
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Vilka typer av behandlingar erbjuder Acnespecialisten för olika hudproblem?',
-            text: 'Acnespecialisten erbjuder en rad olika behandlingar för hudproblem, inklusive acnebehandling, rosaceabehandling och portömning.'
+            title: 'Vilka typer av pigmentfläcksbehandlingar erbjuder Acnespecialisten?',
+            text: 'Acnespecialisten erbjuder flera olika typer av behandlingar för att reducera och behandla pigmentfläckar, inklusive laserbehandling, kemisk peeling, microneedling och cryopen.'
         ),
+
         new Question(
-            title: 'Hur lång tid tar en behandling hos Acnespecialisten?',
-            text: 'En behandling hos Acnespecialisten tar vanligtvis cirka 60 - 90 minuter.'
+            title: 'Hur lång tid tar en pigmentfläcksbehandling hos Acnespecialisten?',
+            text: 'En pigmentfläcksbehandling hos Acnespecialisten tar vanligtvis cirka 30-60 minuter, beroende på den specifika behandlingsmetoden.'
         ),
+
         new Question(
-            title: 'Hur många behandlingar behövs för att se resultat?',
-            text: 'Antalet behandlingar som behövs för att se resultat varierar beroende på ditt specifika hudproblem och din hudtyp. Genomsnittligt antal behandlingar är mellan 2-4 stycken.'
+            title: 'Hur många behandlingar behövs för att se resultat vid pigmentfläcksbehandling?',
+            text: 'Antalet behandlingar som behövs för att se resultat vid pigmentfläcksbehandling varierar beroende på pigmentfläckarnas svårighetsgrad och din hudtyp. I genomsnitt krävs vanligtvis 3-5 behandlingar.'
         ),
+
         new Question(
-            title: 'Är behandlingarna smärtsamma?',
-            text: 'Behandlingarna hos Acnespecialisten är utformade för att minimera obehag. När vi behandlar inflammerade områden och utför extraktioner kan det dock uppstå en tillfällig smärta. Denna känsla är dock övergående och försvinner snabbt, så du kan känna dig trygg under behandlingen.'
+            title: 'Är pigmentfläcksbehandlingar smärtsamma?',
+            text: 'Pigmentfläcksbehandlingar hos Acnespecialisten är utformade för att minimera obehag. Vissa behandlingsmetoder kan orsaka en mild känsla av obehag eller stickande under själva behandlingen, men detta är vanligtvis övergående och försvinner snabbt.'
         ),
+
         new Question(
-            title: 'Kan alla hudtyper behandlas hos Acnespecialisten?',
-            text: 'Ja, Acnespecialisten erbjuder behandlingar som passar alla hudtyper.'
+            title: 'Kan alla hudtyper behandlas för pigmentfläckar hos Acnespecialisten?',
+            text: 'Ja, Acnespecialisten erbjuder pigmentfläcksbehandlingar som kan anpassas för att passa alla hudtyper och hudtoner.'
         ),
+
     ),
 );
 
 $faq_url_label = "Läs fler frågor & svar";
-$faq_url_title = "läs flera frågor relaterat till aknebehandling";
+$faq_url_title = "läs flera frågor relaterat till pigmentfläcksbehandling";
 
 $skin_guide_articles = array(
     new SkinGuideArticle(
@@ -282,7 +284,7 @@ $skin_guide_articles = array(
 );
 
 $skinguide_url_label = "Läs fler guider";
-$skinguide_url_title = "Läs fler guider om aknebehandling";
+$skinguide_url_title = "Läs fler guider om pigmentfläcksbehandling";
 
 $specialists = array(
     new Specialist(
@@ -316,8 +318,8 @@ $specialists = array(
     )
 );
 
-$specialist_url_label = "Se alla specialister hej hej hej";
-$specialist_url_title = "Akne Specialiserade Hudterapeuter";
+$specialist_url_label = "Se alla specialister ";
+$specialist_url_title = "Pigmentfläcks Specialiserade Hudterapeuter";
 
 $brands = array(
     new Brand(
@@ -371,7 +373,7 @@ $brands = array(
 );
 
 $brands_url_label = "Se alla varumärken";
-$brands_url_title = "Varumärken för Aknebehandling";
+$brands_url_title = "Varumärken för pigmentfläcksbehandling";
 
 ?>
 
