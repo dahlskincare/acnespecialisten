@@ -2,14 +2,14 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Allt om Stora Porer - Effektiv Behandling och Förebyggande | Acnespecialisten';
+$seo_title = 'Behandling av Stora Porer - Effektiv Behandling och Förebyggande | Acnespecialisten';
 $seo_description = 'Lär dig allt om stora porer, från dess orsaker till hur man behandlar och förebygger dem. Skräddarsydda lösningar och expertis från Acnespecialisten.';
 $seo_keywords = 'stora porer, behandling av stora porer, orsaker till stora porer, förebygga stora porer, minska porer, öppna porer, förstorade porer, hudtextur';
 
-$seo_image = 'images/treatments/large/large-pores.jpg';
+$seo_image = 'images/treatments/large/stora-porer.jpg';
 
-$image_large = 'images/treatments/large/large-pores.jpg';
-$image_small = 'images/treatments/small/large-pores.jpg';
+$image_large = 'images/treatments/large/stora-porer.jpg';
+$image_small = 'images/treatments/small/stora-porer.jpg';
 $image_alt = 'Bild på behandling för stora porer';
 $image_title = 'Behandling för stora porer';
 
@@ -27,7 +27,7 @@ $nav_buttons = array(
     'define' => 'Konsultation',
     'treat' => 'Behandlingar',
     'prevent' => 'Produkter',
-    'repair' => 'Akneärr',
+    'repair' => 'Reducera',
     'results' => 'Resultat',
     'reviews' => 'Omdömen',
     'faq' => 'FAQ',
@@ -35,81 +35,75 @@ $nav_buttons = array(
     'specialists' => 'Specialister'
 );
 
-$about_title = 'Hur vi tar bort och behandlar akne?';
+$about_title = 'Hur vi behandlar och minskar stora porer?';
 
-$about_content = '<p class="p200">Att behandla och ta bort akne är ingen quickfix. På Acnespecialisten använder vi vår expertis och de bästa verktygen för att effektivt och regelbundet få bort akne. Med vår kostnadsfria hudkonsultation kan vi identifiera din unika hudtyp och ta fram en individuell behandlingsplan.</p>
+$about_content = '<p class="p200">Att behandla stora porer kräver en genomtänkt och individuell behandlingsplan. På Acnespecialisten använder vi vår erfarenhet och kunskap i kombination med de bästa behandlingarna och verktygen för att effektivt och regelbundet minska synligheten av stora porer. Med vår kostnadsfria hudkonsultation kan vi identifiera din unika hudtyp och ta fram en individuell behandlingsplan.</p>
 
-    <p class="p200 mt-xl">Vår första prioritet är att få bort inflammationen och finnarna, de huvudsakliga orsakerna till ärrbildning. Efter att den aktiva aknen har behandlats hjälper vi dig att skapa en anpassad hudvårdsrutin med produkter mot akne för att förebygga framtida utbrott. Om aknen har lämnat ärr bakom sig, har vi lösningar för att reparera huden. Vi ser fram emot att bli din guide på resan mot att ta bort akne och återfå en klarare, friskare hy.</p>';
+    <p class="p200 mt-xl">Vi behandlar stora porer oavsett orsak och kan hjäpla dig med anpassade produkter och behandlingar för att reducera porerna och motverka att de vidgas. Om porerna har skapat ojämnheter eller andra hudproblem, har vi lösningar för att förbättra huden. Vi ser fram emot att bli din guide på resan mot att minska stora porer och återfå en jämnare och mer strålande hy.</p>';
 
-$headline01 = "01. Identifiera din akne";
+$headline01 = "01. Identifiera dina stora porer";
 
 $define_image = 'images/service-categories/large/konsultation.jpg';
-$define_image_alt = 'Hur vi tar bort och behandlar akne?';
-$define_image_title = 'Hur vi tar bort och behandlar akne?';
+$define_image_alt = 'Hur vi behandlar och minskar stora porer?';
+$define_image_title = 'Hur vi behandlar och minskar stora porer?';
 
-$define_content = '<p class="p200">Första steget i vår process att få bort akne är att kartlägga din aknetyp. Vi inleder med en kostnadsfri konsultation där vi analyserar din hud och diskuterar dina hudmål och tidigare erfarenheter. Förebilder tas för att kunna följa din huds framsteg och anpassa din behandlingsplan över tid. En personlig hudterapeut följer med dig genom hela behandlingsresan, vilket säkerställer en konsekvent omsorg anpassad efter dina specifika behov.</p>';
+$define_content = '<p class="p200">Första steget i vår process att behandla stora porer är att kartlägga din hud och porstorlek. Vi inleder med en kostnadsfri konsultation där vi analyserar din hud och berättar om orsaken till dina stora porer samt hur vi effektivt kan behandla dem. Förebilder tas för att kunna följa din huds framsteg och anpassa din behandlingsplan över tid. En personlig hudterapeut följer med dig genom hela behandlingsresan, vilket säkerställer en konsekvent omsorg anpassad efter dina specifika behov.</p>';
 
 $define_consultation_link = "https://www.acnespecialisten.se/boka-hudkonsultation";
 $define_consultation_link_label = "Boka Gratis Konsultation";
-$define_consultation_link_title = "klicka här för att boka din kostnadsfria hudkonsultation mot akne";
+$define_consultation_link_title = "Klicka här för att boka din kostnadsfria hudkonsultation mot stora porer";
 
 
 
-$headline02 = "02. Behandla aktiv akne";
+$headline02 = "02. Behandla stora porer";
 
-$treat_content = '<p class="p200">När din aknetyp har identifierats, inleder vi fas två: behandling av den aktiva aknen. Här är målet framför allt att få bort inflammationerna och finnarna som riskerar att skada huden och leda till ärr. Vi tillämpar olika metoder för att anpassa behandlingen efter dina unika behov, vilket gör att vi kan maximera resultaten och minimera obehaget. Genom denna process minskar vi inflammation, rensar bort döda hudceller, och kontrollerar talgproduktionen, vilket över tid leder till minskad akne och dess förekomst. Vi anpassar behandlingsplanen efter din huds respons.</p>';
+$treat_content = '<p class="p200">När din hudtyp och storleken på dina porer har identifierats, inleder vi fas två: behandling av stora porer. Här är målet framför allt att djuprengöra och minska porernas synlighet som kan påverka hudens textur och utseende. Vi tillämpar olika metoder för att anpassa behandlingen efter dina unika behov, vilket gör att vi kan maximera resultaten och minimera obehaget. Genom denna process rengör vi porerna, tar bort döda hudceller och överflödig talg, och balanserar talgproduktionen. Vi utför också porsammandragande behandlingar som minskar porernas storlek och jämnar ut hudytan. Vi anpassar behandlingsplanen efter din huds respons.</p>';
 
 $services = array(
     new Service(
         image_small: 'https://via.placeholder.com/358x274.jpg',
         image_large: 'https://via.placeholder.com/852x456.jpg',
-        image_title: 'Effektiv Ansiktsbehandling mot Akne på Acnespecialisten',
-        image_alt: 'Bild illustrerar en ansiktsbehandling mot akne utförd på Acnespecialisten',
+        image_title: 'Effektiv Ansiktsbehandling mot Stora Porer på AcneSpecialisten',
+        image_alt: 'Bild illustrerar en ansiktsbehandling mot stora porer utförd på AcneSpecialisten',
 
-        title: 'Ansiktsbehandling mot Akne',
+        title: 'Ansiktsbehandling mot Stora Porer',
         duration: '60 minuter',
         price: 'Pris från 799 kr',
-        icons: array('who-infants' => 'Djuprengörande', 'who-elders' => 'Hudbalanserande', 'who-teenagers' => 'Porrensande', 'who-adults' => 'Anti-inflammatorisk'),
-        content: '<p class="p200">Ansiktsbehandling mot akne på Acnespecialisten är en djuprengöring av huden som tar bort döda hudceller och frigör tilltäppta porer. Behandlingen inleds med en rengöring, följt av ångning för att öppna upp porerna. Därefter följer en djup porrengöring där orenheter och akne elimineras. Behandlingen avslutas med en lugnande mask och fuktgivande kräm anpassad för din hudtyp.</p>',
+        icons: array('who-infants' => 'Djuprengörande', 'who-elders' => 'Hudbalanserande', 'who-teenagers' => 'Porreducerande', 'who-adults' => 'Refining'),
+        content: '<p class="p200">Ansiktsbehandling mot stora porer är en djuprengöring av huden som minimerar porernas utseende och renar dem från smuts och olja. Behandlingen inleds med en rengöring, följt av ångning för att öppna upp porerna. Därefter görs en omfattande porrengöring. Behandlingen avslutas med en pore-minimerande mask och fuktgivande kräm anpassad för din hudtyp.</p>',
 
-        consultation_url: 'boka-hudkonsultation-akne',
+        consultation_url: 'boka-hudkonsultation-porer',
         consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka Hudkonsultation för Akne på Acnespecialisten',
+        consultation_url_title: 'Boka Hudkonsultation för Stora Porer på AcneSpecialisten',
 
-        booking_url: 'boka-djuprengörande-ansiktsbehandling-akne',
+        booking_url: 'boka-djuprengörande-ansiktsbehandling-porer',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka Din Ansiktsbehandling mot Akne på Acnespecialisten',
+        booking_url_title: 'Boka Din Ansiktsbehandling mot Stora Porer på AcneSpecialistenn',
 
-        url: 'behandlingar/ansiktsbehandlingar-problemhy/acnebehandling',
-        url_label: 'Läs Mer om Vår Ansiktsbehandling mot Akne',
-        url_title: 'Mer Information om Vår Ansiktsbehandling mot Akne',
-
-        // short_title: 'Ansiktsbehandling'
-
+        url: 'behandlingar/ansiktsbehandlingar-problemhy/porebehandling',
+        url_label: 'Läs Mer om Vår Ansiktsbehandling mot Stora Porer',
+        url_title: 'Mer Information om Vår Ansiktsbehandling mot Stora Porer',
     ),
 
     new Service(
         image_small: 'https://via.placeholder.com/358x274.jpg',
         image_large: 'https://via.placeholder.com/852x456.jpg',
-        image_title: 'Klient som genomgår laserbehandling mot akne',
-        image_alt: 'Bild av laserbehandling mot akne hos Acnespecialisten',
-        title: 'Effektiv laserbehandling mot akne',
+        image_title: 'Klient som genomgår laserbehandling mot stora porer',
+        image_alt: 'Bild av laserbehandling mot stora porer hos AcneSpecialisten',
+        title: 'Effektiv laserbehandling mot stora porer',
         duration: '30-60 min',
         price: '1295 kr',
         icons: array('who-infants' => 'Precision', 'who-elders' => 'Icke-invasiv', 'who-teenagers' => 'Snabb', 'who-adults' => 'Effektiv'),
-        content: '<p class="p200">Laserbehandling för akne hos Acnespecialisten fungerar genom att använda ljusenergi för att behandla inflammationen i huden som orsakar akne. Laserstrålen tränger ner i huden och behandlar de djupa lager där akne börjar. Denna metod reducerar oljeproduktionen i huden och dödar bakterier som bidrar till akneutbrott.</p>',
-        consultation_url: 'konsultation-laser',
+        content: '<p class="p200">Laserbehandling för stora porer fungerar genom att använda ljusenergi för att minskar storleken och synligheten av porerna. Laserstrålen tränger ner i huden och stimulerar kollagenproduktionen vilket bidrar till att porerna krymper.</p>',
+        consultation_url: 'konsultation-laser-porer',
         consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka en konsultation för laserbehandling mot akne',
-        booking_url: 'boka-laserbehandling',
+        consultation_url_title: 'Boka en konsultation för laserbehandling mot stora porer',
+        booking_url: 'boka-laserbehandling-porer',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka din laserbehandling mot akne nu',
-        url: 'behandlingar/laserbehandling-mot-akne',
-        url_label: 'Läs mer om laserbehandlingar',
-        url_title: 'Utforska mer om våra laserbehandlingar mot akne',
-
-        // short_title: 'Laser'
-
+        booking_url_title: 'Boka din laserbehandling mot stora porer nu',
+        url: 'behandlingar/laserbehandling-mot-porer',
+        url_label: 'Läs mer om laserbehandlingar mot stora porer',
+        url_title: 'Utforska mer om våra laserbehandlingar mot stora porer',
     ),
 
     new Service(
