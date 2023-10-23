@@ -366,7 +366,7 @@ $specialists = array(
     )
 );
 
-$specialist_url_label = "Se alla specialister";
+$specialist_url_label = "Se alla specialister på stora porer";
 $specialist_url_title = "Hudterapeuter Specialiserade på stora porer";
 
 $brands = array(

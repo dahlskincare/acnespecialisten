@@ -371,8 +371,8 @@ $specialists = array(
     )
 );
 
-$specialist_url_label = "Se alla specialister hej hej hej";
-$specialist_url_title = "Akne Specialiserade Hudterapeuter";
+$specialist_url_label = "Se alla specialister på pormaskar";
+$specialist_url_title = "Pormask Specialiserade Hudterapeuter";
 
 $brands = array(
     new Brand(
@@ -426,7 +426,7 @@ $brands = array(
 );
 
 $brands_url_label = "Se alla varumärken";
-$brands_url_title = "Varumärken för Aknebehandling";
+$brands_url_title = "Varumärken för pormaskbehandling";
 
 ?>
 
