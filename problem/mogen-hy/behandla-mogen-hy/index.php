@@ -37,11 +37,12 @@ $nav_buttons = array(
     'specialists' => 'Specialister'
 );
 
-$about_title = 'Hur vi tar bort och behandlar akne?';
+$about_title = 'Hur vi vårdar och behandlar mogen hy';
 
-$about_content = '<p class="p200">Att behandla och ta bort akne är ingen quickfix. På Acnespecialisten använder vi vår expertis och de bästa verktygen för att effektivt och regelbundet få bort akne. Med vår kostnadsfria hudkonsultation kan vi identifiera din unika hudtyp och ta fram en individuell behandlingsplan.</p>
+$about_content = '<p class="p200">Mogen hy förtjänar särskild omtanke och behandling. Vi på AcneSpecialisten har lång erfarenhet av att ta hand om mogen hy och bekämpa ålderstecken. Med vår kostnadsfria hudkonsultation skapar vi en skräddarsydd plan för att ta hand om din mogen hy.</p>
 
-    <p class="p200 mt-xl">Vår första prioritet är att få bort inflammationen och finnarna, de huvudsakliga orsakerna till ärrbildning. Efter att den aktiva aknen har behandlats hjälper vi dig att skapa en anpassad hudvårdsrutin med produkter mot akne för att förebygga framtida utbrott. Om aknen har lämnat ärr bakom sig, har vi lösningar för att reparera huden. Vi ser fram emot att bli din guide på resan mot att ta bort akne och återfå en klarare, friskare hy.</p>';
+<p class="p200 mt-xl">Vi återställer hudens elasticitet och minska synligheten av fina linjer och rynkor, vanliga tecken på mogen hy. Vårt mål är att ge dig en strålande och ungdomligare hy. Vi kommer att guida dig genom skapandet av en personlig hudvårdsrutin med produkter och behandlingar som passar din mogen hy perfekt. Hos Acnespecialisten ser vi fram emot att hjälpa dig på din resa mot en vackrare och friskare hy, oavsett din ålder.</p>';
+
 
 $headline01 = "01. Identifiera din akne";
 
