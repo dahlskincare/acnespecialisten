@@ -35,7 +35,7 @@ $nav_buttons = array(
     'specialists' => 'Specialister'
 );
 
-$about_title = 'Hur vi behandlar och minskar bristningar?';
+$about_title = 'Hur vi behandlar och minskar bristningar';
 
 $about_content = '<p class="p200">Att behandla och minska synligheten av bristningar kräver expertis och en genomtänkt strategi. På AcneSpecialisten använder vi avancerade metoder och behandlingar skräddarsydda för att effektivt hantera bristningar. Med vår kostnadsfria hudkonsultation identifierar vi skadans djup och omfattning, vilket möjliggör en personligt anpassad behandlingsplan.</p>
 
