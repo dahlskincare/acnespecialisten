@@ -28,8 +28,6 @@ $nav_buttons = array(
     'about' => 'Info',
     'define' => 'Konsultation',
     'treat' => 'Behandlingar',
-    'prevent' => 'Produkter',
-    'repair' => 'Rynkor & fina linjer',
     'results' => 'Resultat',
     'reviews' => 'Omdömen',
     'faq' => 'FAQ',
@@ -43,73 +41,69 @@ $about_content = '<p class="p200">Mogen hy förtjänar särskild omtanke och beh
 
 <p class="p200 mt-xl">Vi återställer hudens elasticitet och minska synligheten av fina linjer och rynkor, vanliga tecken på mogen hy. Vårt mål är att ge dig en strålande och ungdomligare hy. Vi kommer att guida dig genom skapandet av en personlig hudvårdsrutin med produkter och behandlingar som passar din mogen hy perfekt. Hos Acnespecialisten ser vi fram emot att hjälpa dig på din resa mot en vackrare och friskare hy, oavsett din ålder.</p>';
 
-
-$headline01 = "01. Identifiera din akne";
+$headline01 = "01. Identifiera din mogna hy";
 
 $define_image = 'images/service-categories/large/konsultation.jpg';
-$define_image_alt = 'Hur vi tar bort och behandlar akne?';
-$define_image_title = 'Hur vi tar bort och behandlar akne?';
+$define_image_alt = 'Hur vi tar hand om och behandlar mogen hy?';
+$define_image_title = 'Hur vi tar hand om och behandlar mogen hy?';
 
-$define_content = '<p class="p200">Första steget i vår process att få bort akne är att kartlägga din aknetyp. Vi inleder med en kostnadsfri konsultation där vi analyserar din hud och diskuterar dina hudmål och tidigare erfarenheter. Förebilder tas för att kunna följa din huds framsteg och anpassa din behandlingsplan över tid. En personlig hudterapeut följer med dig genom hela behandlingsresan, vilket säkerställer en konsekvent omsorg anpassad efter dina specifika behov.</p>';
+$define_content = '<p class="p200">För att vårda mogen hy på bästa sätt är det avgörande att fastställa din unika hudtyp och dess behov. Vi erbjuder en kostnadsfri konsultation där vi noggrant analyserar din mogen hy och lyssnar på dina mål och tidigare erfarenheter. Genom att ta förebilder av din hud kan vi följa utvecklingen över tiden och skapa en skräddarsydd hudvårdsplan som passar just din mogen hy. Vår personliga hudterapeut kommer att vara med dig genom hela din resa för att säkerställa att du får den bästa möjliga vården.</p>';
 
 $define_consultation_link = "https://www.acnespecialisten.se/boka-hudkonsultation";
 $define_consultation_link_label = "Boka Gratis Konsultation";
-$define_consultation_link_title = "klicka här för att boka din kostnadsfria hudkonsultation mot akne";
+$define_consultation_link_title = "Klicka här för att boka din kostnadsfria hudkonsultation för behandling av mogen hy";
 
 
+$headline02 = "02. Behandla mogen hy";
 
-$headline02 = "02. Behandla aktiv akne";
-
-$treat_content = '<p class="p200">När din aknetyp har identifierats, inleder vi fas två: behandling av den aktiva aknen. Här är målet framför allt att få bort inflammationerna och finnarna som riskerar att skada huden och leda till ärr. Vi tillämpar olika metoder för att anpassa behandlingen efter dina unika behov, vilket gör att vi kan maximera resultaten och minimera obehaget. Genom denna process minskar vi inflammation, rensar bort döda hudceller, och kontrollerar talgproduktionen, vilket över tid leder till minskad akne och dess förekomst. Vi anpassar behandlingsplanen efter din huds respons.</p>';
+$treat_content = '<p class="p200">När din hudtyp och dess specifika behov har identifierats, går vi vidare till att behandla och vårda mogen hy. Här är vårt huvudmål att minska ålderstecken och förbättra hudens övergripande hälsa. Vi använder olika anpassade metoder för att optimera resultaten och minimera eventuellt obehag. Genom denna process arbetar vi med att minska synliga tecken på åldrande, förbättra hudens textur och vitalitet samt anpassar behandlingsplanen efter din huds respons.</p>';
 
 $services = array(
+
     new Service(
         image_small: 'https://via.placeholder.com/358x274.jpg',
         image_large: 'https://via.placeholder.com/852x456.jpg',
-        image_title: 'Effektiv Ansiktsbehandling mot Akne på Acnespecialisten',
-        image_alt: 'Bild illustrerar en ansiktsbehandling mot akne utförd på Acnespecialisten',
+        image_title: 'Effektiv Ansiktsbehandling för Mogen Hy på AcneSpecialisten',
+        image_alt: 'Bild illustrerar en ansiktsbehandling för mogen hy utförd på AcneSpecialisten',
 
-        title: 'Ansiktsbehandling mot Akne',
+        title: 'Ansiktsbehandling för Mogen Hy',
         duration: '60 minuter',
-        price: 'Pris från 799 kr',
-        icons: array('who-infants' => 'Djuprengörande', 'who-elders' => 'Hudbalanserande', 'who-teenagers' => 'Porrensande', 'who-adults' => 'Anti-inflammatorisk'),
-        content: '<p class="p200">Ansiktsbehandling mot akne på Acnespecialisten är en djuprengöring av huden som tar bort döda hudceller och frigör tilltäppta porer. Behandlingen inleds med en rengöring, följt av ångning för att öppna upp porerna. Därefter följer en djup porrengöring där orenheter och akne elimineras. Behandlingen avslutas med en lugnande mask och fuktgivande kräm anpassad för din hudtyp.</p>',
+        price: 'Pris från 1199 kr',
+        icons: array('who-infants' => 'Djuprengörande', 'who-elders' => 'Hudbalanserande', 'who-teenagers' => 'Porrensande', 'who-adults' => 'Anti-åldrande'),
+        content: '<p class="p200">Ansiktsbehandling för mogen hy på Acnespecialisten är särskilt anpassad för att återuppliva och ge näring åt mogen hud. Behandlingen inleds med en skonsam rengöring för att ta bort orenheter och friska upp huden. Efter rengöringen introduceras LED-ljusterapin, känd för sina föryngrande egenskaper, som hjälper till att stimulera kollagenproduktionen och minska synligheten av fina linjer och rynkor. Behandlingen avslutas med en närande mask och en fuktgivande kräm som är speciellt framtagen för mogen hud, vilket ger en ljusare, fastare och mer ungdomlig hud.</p>',
 
-        consultation_url: 'boka-hudkonsultation-akne',
+        consultation_url: 'boka-hudkonsultation-mogen-hy',
         consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka Hudkonsultation för Akne på Acnespecialisten',
+        consultation_url_title: 'Boka Hudkonsultation för Mogen Hy på AcneSpecialisten',
 
-        booking_url: 'boka-djuprengörande-ansiktsbehandling-akne',
+        booking_url: 'boka-djuprengörande-ansiktsbehandling-mogen-hy',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka Din Ansiktsbehandling mot Akne på Acnespecialisten',
+        booking_url_title: 'Boka Din Ansiktsbehandling för Mogen Hy på AcneSpecialisten',
 
-        url: 'behandlingar/ansiktsbehandlingar-problemhy/acnebehandling',
-        url_label: 'Läs Mer om Vår Ansiktsbehandling mot Akne',
-        url_title: 'Mer Information om Vår Ansiktsbehandling mot Akne',
-
-        // short_title: 'Ansiktsbehandling'
-
+        url: 'behandlingar/ansiktsbehandlingar-problemhy/mogen-hy-behandling',
+        url_label: 'Läs Mer om Vår Ansiktsbehandling för Mogen Hy',
+        url_title: 'Mer Information om Vår Ansiktsbehandling för Mogen Hy'
     ),
 
     new Service(
         image_small: 'https://via.placeholder.com/358x274.jpg',
         image_large: 'https://via.placeholder.com/852x456.jpg',
-        image_title: 'Klient som genomgår laserbehandling mot akne',
-        image_alt: 'Bild av laserbehandling mot akne hos Acnespecialisten',
-        title: 'Effektiv laserbehandling mot akne',
+        image_title: 'Klient som genomgår laserbehandling för mogen hy',
+        image_alt: 'Bild av laserbehandling för mogen hy hos Acnespecialisten',
+        title: 'Effektiv laserbehandling för mogen hy',
         duration: '30-60 min',
         price: '1295 kr',
         icons: array('who-infants' => 'Precision', 'who-elders' => 'Icke-invasiv', 'who-teenagers' => 'Snabb', 'who-adults' => 'Effektiv'),
-        content: '<p class="p200">Laserbehandling för akne hos Acnespecialisten fungerar genom att använda ljusenergi för att behandla inflammationen i huden som orsakar akne. Laserstrålen tränger ner i huden och behandlar de djupa lager där akne börjar. Denna metod reducerar talgproduktionen i huden och dödar bakterier som bidrar till akneutbrott.</p>',
-        consultation_url: 'konsultation-laser',
+        content: '<p class="p200">Laserbehandling för mogen hy hos Acnespecialisten fungerar genom att använda ljusenergi för att förnya och stimulera hudens kollagenproduktion. Denna metod hjälper till att minska fina linjer, rynkor och ger huden ett upplyft och fräscht utseende.</p>',
+        consultation_url: 'konsultation-laser-mogen-hy',
         consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka en konsultation för laserbehandling mot akne',
-        booking_url: 'boka-laserbehandling',
+        consultation_url_title: 'Boka en konsultation för laserbehandling för mogen hy',
+        booking_url: 'boka-laserbehandling-mogen-hy',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka din laserbehandling mot akne nu',
-        url: 'behandlingar/laserbehandling-mot-akne',
-        url_label: 'Läs mer om laserbehandlingar',
-        url_title: 'Utforska mer om våra laserbehandlingar mot akne',
+        booking_url_title: 'Boka din laserbehandling för mogen hy nu',
+        url: 'behandlingar/laserbehandling-for-mogen-hy',
+        url_label: 'Läs mer om laserbehandlingar för mogen hy',
+        url_title: 'Utforska mer om våra laserbehandlingar för mogen hy',
 
         // short_title: 'Laser'
 
@@ -118,81 +112,50 @@ $services = array(
     new Service(
         image_small: 'https://via.placeholder.com/358x274.jpg',
         image_large: 'https://via.placeholder.com/852x456.jpg',
-        image_title: 'Utförande av kemisk peelingbehandling för akne',
-        image_alt: 'Bild på kemisk peelingbehandling mot akne hos Acnespecialisten',
-        title: 'Kemisk peeling mot akne',
+        image_title: 'Utförande av kemisk peelingbehandling för mogen hy',
+        image_alt: 'Bild på kemisk peelingbehandling för mogen hy hos Acnespecialisten',
+        title: 'Kemisk peeling för mogen hy',
         duration: '30-60 min',
         price: '1295 kr',
         icons: array('who-infants' => 'Exfolierande', 'who-elders' => 'Förnyande', 'who-teenagers' => 'Uppfräschande', 'who-adults' => 'Ljusande'),
-        content: '<p class="p200">Kemisk peeling är en av de mest effektiva metoderna för att behandla akne. På Acnespecialisten använder vi en speciell lösning som appliceras på huden för att avlägsna det översta lagret. Detta ger plats åt ny, frisk hud att växa fram, vilket bidrar till att reducera utseendet av akneärr och att förbättra hudens textur och utseende.</p>',
-        consultation_url: 'hudkonsultation',
+        content: '<p class="p200">Kemisk peeling för mogen hy hos Acnespecialisten syftar till att ta bort det översta lagret av döda hudceller och främjar tillväxten av ny, frisk hud. Denna behandling hjälper till att minska tecken på åldrande, som fina linjer och rynkor, samtidigt som den förbättrar hudens textur och lyster.</p>',
+        consultation_url: 'hudkonsultation-for-mogen-hy',
         consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka en konsultation för kemisk peeling mot akne',
-        url: 'behandlingar/kemisk-peeling-mot-akne',
-        url_label: 'Läs mer om kemisk peeling mot akne',
-        url_title: 'Utforska mer om vår kemiska peelingbehandling mot akne',
-        booking_url: 'boka-kemisk-peeling',
+        consultation_url_title: 'Boka en konsultation för kemisk peeling för mogen hy',
+        url: 'behandlingar/kemisk-peeling-for-mogen-hy',
+        url_label: 'Läs mer om kemisk peeling för mogen hy',
+        url_title: 'Utforska mer om vår kemiska peelingbehandling för mogen hy',
+        booking_url: 'boka-kemisk-peeling-for-mogen-hy',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka din kemiska peeling mot akne nu',
-        short_title: 'Kemisk Peeling'
+        booking_url_title: 'Boka din kemiska peeling för mogen hy nu',
+        short_title: 'Kemisk Peeling för Mogen Hy'
 
     ),
 
     new Service(
         image_small: 'https://via.placeholder.com/358x274.jpg',
         image_large: 'https://via.placeholder.com/852x456.jpg',
-        image_title: 'Utförande av microneedlingbehandling för akne',
-        image_alt: 'Bild på microneedlingbehandling mot akne hos Acnespecialisten',
-        title: 'Effektiv microneedling mot akne',
+        image_title: 'Utförande av microneedlingbehandling för mogen hy',
+        image_alt: 'Bild på microneedlingbehandling för mogen hy hos Acnespecialisten',
+        title: 'Effektiv microneedling för mogen hy',
         duration: '30-60 min',
         price: '1295 kr',
-        icons: array('who-infants' => 'Stimulerande', 'who-elders' => 'Förnyande', 'who-teenagers' => 'Djupgående', 'who-adults' => 'Minskning av ärr'),
-        content: '<p class="p200">Microneedling är en effektiv behandlingsmetod mot akne som använder små mikronålar för att skapa mikroskopiska kanaler i huden. Detta stimulerar hudens naturliga läkningsprocess och ökar produktionen av kollagen och elastin. Microneedling behandlar även de underliggande problemen med akne genom att tillåta aktiva ingredienser att tränga djupare in i huden.</p>',
-        consultation_url: 'microneedling-konsultation',
+        icons: array('who-infants' => 'Stimulerande', 'who-elders' => 'Förnyande', 'who-teenagers' => 'Djupgående', 'who-adults' => 'Förbättring av hudstruktur'),
+        content: '<p class="p200">Microneedling är en framstående behandlingsmetod för mogen hy som används för att öka hudens produktion av kollagen och elastin. Denna teknik använder små mikronålar för att skapa fina kanaler i huden, vilket förbättrar hudens textur, reducerar fina linjer och återupplivar hudens ungdomliga utseende.</p>',
+        consultation_url: 'microneedling-konsultation-for-mogen-hy',
         consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka en konsultation för microneedling mot akne',
-        url: 'behandlingar/microneedling-mot-akne',
-        url_label: 'Läs mer om microneedling mot akne',
-        url_title: 'Utforska mer om vår microneedlingbehandling mot akne',
-        booking_url: 'boka-microneedling',
+        consultation_url_title: 'Boka en konsultation för microneedling för mogen hy',
+        url: 'behandlingar/microneedling-for-mogen-hy',
+        url_label: 'Läs mer om microneedling för mogen hy',
+        url_title: 'Utforska mer om vår microneedlingbehandling för mogen hy',
+        booking_url: 'boka-microneedling-for-mogen-hy',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka din microneedling mot akne nu',
-        short_title: 'Microneedling'
+        booking_url_title: 'Boka din microneedling för mogen hy nu',
+        short_title: 'Microneedling för Mogen Hy'
 
     ),
+
 );
-
-$headline03 = "03. Förebygg akne";
-
-$products = array(
-    new Product(
-        image_small: 'https://via.placeholder.com/358x274.jpg',
-        image_large: 'https://via.placeholder.com/872x456.jpg',
-        image_title: 'Acnespecialistens effektiva hudvårdsprodukter mot akne',
-        image_alt: 'Bild på Acnespecialistens hudvårdsprodukter mot akne',
-
-        url: 'produkter/mot-akne',
-        url_label: 'Utforska våra hudvårdsprodukter mot akne',
-        url_title: 'Information om Acnespecialistens hudvårdsprodukter mot akne',
-        price: 'Acnespecialistens hudvårdsprodukter mot akne - Pris från 1295 kr',
-        content: '<p class="p200">Att förebygga akne är en viktig del av processen för att hålla din hud aknefri, lika viktig som behandlingarna. För detta ändamål erbjuder vi en daglig hudvårdsrutin med specifika produkter mot akne. Denna rutin hjälper till att hålla din hy ren, balanserad och fri från överflödigt talg och bakterier. Denna dagliga vård hjälper till att förhindra framtida utbrott och är lika viktig som regelbundna besök hos oss på Acnespecialisten.</p>',
-
-
-
-    ),
-);
-
-$headline04 = '04. Reparera Rynkor och fina linjer';
-
-$repair_image_small = 'https://via.placeholder.com/358x274.jpg';
-$repair_image_large = 'https://via.placeholder.com/872x456.jpg';
-
-$repair_content = '<p class="p200">När din akne har behandlats och aknen tagits bort, kan det hända att den lämnar ärr bakom sig. På Acnespecialisten kan vi hjälpa dig att reparera dessa ärr genom olika tekniker som laserteknik och microneedling. Dessa metoder främjar hudens egen regenerering, hjälper till att återställa en jämn hudstruktur och minska synligheten av ärr. Med oss vid din sida kan du känna att du har stödet du behöver för att ta bort akne och njuta av en klarare, friskare hy.</p>';
-
-$repair_url = 'treatments/acne';
-$repair_url_label = 'Se ärrbehandlingar';
-$repair_url_title = 'klicka här för att se våra ärrbehandlingar';
-
 
 $results = array(
     new ResultCustomer(
@@ -204,7 +167,7 @@ $results = array(
         image_title: 'Resultat',
 
         treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne">behandlingar mot akne</a>'
+            duration: 'Efter 3 månaders <a href="behandlingar/mogen-hy" title="Mogen hy">behandlingar mot mogen hy</a>'
         ),
     ),
     new ResultCustomer(
@@ -216,13 +179,13 @@ $results = array(
         image_title: 'Resultat',
 
         treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne">behandlingar mot akne</a>',
+            duration: 'Efter 3 månaders <a href="behandlingar/mogen-hy" title="Mogen hy">behandlingar mot mogen hy</a>',
         )
     ),
 );
 
-$show_all_results_label = "Se fler resultat blablalba";
-$show_all_results_title = "KLICKA PÅ MIG";
+$show_all_results_label = "Se fler resultat";
+$show_all_results_title = "Resultat på behandling av mogen hy";
 
 
 $reviews = array(
@@ -275,30 +238,30 @@ $review_url_title = "AcneSpecialisten Omdömen";
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Vilka typer av behandlingar erbjuder Acnespecialisten för olika hudproblem?',
-            text: 'Acnespecialisten erbjuder en rad olika behandlingar för hudproblem, inklusive acnebehandling, rosaceabehandling och portömning.'
+            title: 'Vilka typer av behandlingar erbjuder AcneSpecialisten för mogen hy?',
+            text: 'Acnespecialisten erbjuder en rad olika behandlingar för mogen hy, inklusive kemisk peeling, microneedling, laser och anti-aging-behandlingar.'
         ),
         new Question(
-            title: 'Hur lång tid tar en behandling hos Acnespecialisten?',
-            text: 'En behandling hos Acnespecialisten tar vanligtvis cirka 60 - 90 minuter.'
+            title: 'Hur lång tid tar en behandling för mogen hy hos Acnespecialisten?',
+            text: 'En behandling för mogen hy hos AcneSpecialisten tar vanligtvis cirka 60 - 90 minuter, beroende på behandlingstyp.'
         ),
         new Question(
-            title: 'Hur många behandlingar behövs för att se resultat?',
-            text: 'Antalet behandlingar som behövs för att se resultat varierar beroende på ditt specifika hudproblem och din hudtyp. Genomsnittligt antal behandlingar är mellan 2-4 stycken.'
+            title: 'Hur många behandlingar behövs för att se resultat på mogen hy?',
+            text: 'Antalet behandlingar som behövs för att se resultat på mogen hy varierar beroende på ditt specifika hudtillstånd och dina mål. Genomsnittligt antal behandlingar för mogen hy är mellan 3-5 stycken.'
         ),
         new Question(
-            title: 'Är behandlingarna smärtsamma?',
-            text: 'Behandlingarna hos Acnespecialisten är utformade för att minimera obehag. När vi behandlar inflammerade områden och utför extraktioner kan det dock uppstå en tillfällig smärta. Denna känsla är dock övergående och försvinner snabbt, så du kan känna dig trygg under behandlingen.'
+            title: 'Är behandlingarna för mogen hy smärtsamma?',
+            text: 'Behandlingarna för mogen hy hos Acnespecialisten är utformade för att minimera obehag. Några procedurer kan dock medföra en lätt stickande känsla eller värme, men detta är oftast övergående. Vårt team ser till att du är bekväm under hela processen.'
         ),
         new Question(
-            title: 'Kan alla hudtyper behandlas hos Acnespecialisten?',
-            text: 'Ja, Acnespecialisten erbjuder behandlingar som passar alla hudtyper.'
+            title: 'Kan alla hudtyper med tecken på åldrande behandlas hos Acnespecialisten?',
+            text: 'Ja, Acnespecialisten erbjuder behandlingar som är anpassade för alla hudtyper med tecken på åldrande.'
         ),
     ),
 );
 
 $faq_url_label = "Läs fler frågor & svar";
-$faq_url_title = "läs flera frågor relaterat till aknebehandling";
+$faq_url_title = "läs flera frågor relaterat till behandling för mogen hy";
 
 $skin_guide_articles = array(
     new SkinGuideArticle(
@@ -344,7 +307,7 @@ $skin_guide_articles = array(
 );
 
 $skinguide_url_label = "Läs fler guider";
-$skinguide_url_title = "Läs fler guider om aknebehandling";
+$skinguide_url_title = "Läs fler guider om behandling för mogen hy";
 
 $specialists = array(
     new Specialist(
@@ -378,8 +341,8 @@ $specialists = array(
     )
 );
 
-$specialist_url_label = "Se alla specialister hej hej hej";
-$specialist_url_title = "Akne Specialiserade Hudterapeuter";
+$specialist_url_label = "Se alla specialister";
+$specialist_url_title = "Mogen hy Specialiserade Hudterapeuter";
 
 $brands = array(
     new Brand(
@@ -433,7 +396,7 @@ $brands = array(
 );
 
 $brands_url_label = "Se alla varumärken";
-$brands_url_title = "Varumärken för Aknebehandling";
+$brands_url_title = "Varumärken för behandling av mogen hy";
 
 ?>
 
@@ -569,28 +532,6 @@ $brands_url_title = "Varumärken för Aknebehandling";
                         <?php foreach ($services as $service) {
                             include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card_big/service_card_big.php');
                         } ?>
-                </section>
-                <?php if (isset($products) && sizeof($products) > 0) { ?>
-                    <section id="prevent">
-                        <h2 class="h500 l10n"><?php echo $headline03 ?></h2>
-                        <?php foreach ($products as $product) {
-                            include('../../widgets/product-card/product-card.php');
-                        } ?>
-                    </section>
-                <?php } ?>
-                <section id="repair">
-                    <h2 class="h500 l10n"><?php echo $headline04 ?></h2>
-                    <picture>
-                        <source media="(max-width: 799px)" srcset="<?php echo $repair_image_small ?>">
-                        <source media="(min-width: 800px)" srcset="<?php echo $repair_image_large ?>">
-                        <img src="<?php echo $repair_image_large ?>" alt="<?php echo $repair_title ?>" title="<?php echo $repair_title ?>" class=" mt-xl" width="872" height="456" />
-                    </picture>
-                    <div class="mt-xl"><?php echo $repair_content ?></div>
-                    <a href="<?php echo $repair_url ?>" title="<?php echo $repair_url_title ?>" class="mt-xl button outline b200 expand is-hidden-tablet l10n"><?php echo $repair_url_label ?></a>
-                    <a href="<?php echo $repair_url ?>" title="<?php echo $repair_url_title ?>" class="mt-xl button compact text b200 is-hidden-mobile">
-                        <span class="l10n"><?php echo $repair_url_label ?></span>
-                        <?php icon('navigate-next'); ?>
-                    </a>
                 </section>
                 <section id="results">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php'); ?>

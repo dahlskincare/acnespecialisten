@@ -176,7 +176,7 @@ $repair_image_large = 'https://via.placeholder.com/872x456.jpg';
 
 $repair_content = '<p class="p200">Efter framgångsrik behandling av stora porer kan det fortfarande vara nödvändigt att förbättra hudstrukturen ytterligare. På Acnespecialisten erbjuder vi olika tekniker, som laserteknik och microneedling, som hjälper till att förbättra hudens textur och utseende efter behandling av stora porer. Dessa metoder stöder hudens egen regenerering och främjar en jämnare och fräschare hud. Vår expertis säkerställer att du får bästa möjliga resultat.</p>';
 
-$repair_url = 'treatments/pores';
+$repair_url = 'treatments/stora-porer';
 $repair_url_label = 'Se behandlingar för hudstruktur';
 $repair_url_title = 'Klicka här för att se våra behandlingar för hudstruktur';
 
