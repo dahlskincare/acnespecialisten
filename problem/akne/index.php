@@ -165,8 +165,8 @@ $type_categories = array(
                         image_alt: 'Bild av vuxenakne',
                         image_title: 'Akne hos vuxna',
 
-                        url: 'problem/akne/typer/vuxenakne',
-                        url_title: 'Utforska information om vuxenakne'
+                        //url: 'problem/akne/typer/vuxenakne',
+                        // url_title: 'Utforska information om vuxenakne'
                   ),
                   new BasedType(
                         title: 'Tonårsakne',
