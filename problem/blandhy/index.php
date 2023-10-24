@@ -275,14 +275,14 @@ $service = new Service(
 
 );
 
-$headline02 = "02. Behandla aktiv akne";
+$headline02 = "02. Behandla blandhy";
 
 $services = array(
       new Service(
             title: 'Ansiktsbehandling för blandhy',
             duration: '60 min',
             price: '995 kr',
-            content: 'En effektiv ansiktsbehandling för blandhy fokuserar på att balansera de områden av huden som är torra eller oljiga. Genom att rengöra, exfoliera och återfukta på rätt sätt kan behandlingen ge huden en jämnare textur och lyster.',
+            content: 'Denna skräddarsydda ansiktsbehandling för blandhy tar sikte på hudens specifika behov, särskilt de torra och oljiga partierna. Genom djup rengöring, rätt exfoliering och intensiv återfuktning ger behandlingen huden en harmoniserad känsla, förbättrad textur och en naturlig lyster.',
 
             image_small: 'images/services/200x200/ansiktsbehandling-blandhy.webp',
             image_large: 'images/services/200x200/ansiktsbehandling-blandhy.webp',
@@ -305,7 +305,7 @@ $services = array(
             title: 'Laserbehandling för blandhy',
             duration: '50 min',
             price: '2595 kr',
-            content: 'En avancerad laserbehandling för blandhy erbjuder en effektiv lösning för att jämna ut hudens textur, reducera synligheten av porer och balansera talgproduktionen. Lasertekniken hjälper till att minska de oljiga områdena och återfukta de torra, vilket ger huden en friskare lyster.',
+            content: 'Laserbehandling för blandhy utnyttjar avancerad laserteknik för att specifikt adressera hudens ojämnheter. Den arbetar målinriktat för att reducera överproduktion av talg samtidigt som den boostar fuktnivåerna i torra partier. Efter behandlingen framstår huden mer balanserad med en förnyad lyster och jämnare yta.',
 
             image_small: 'images/services/200x200/laser-blandhy.webp',
             image_large: 'images/services/200x200/laser-blandhy.webp',
@@ -326,53 +326,54 @@ $services = array(
       ),
 
       new Service(
-            title: 'Kemisk peeling mot akne',
+            title: 'Kemisk peeling för blandhy',
             duration: '30 min',
             price: '1595 kr',
-            content: 'Kemisk peeling är en effektiv metod för att behandla akne. Genom att använda en speciellt framtagen lösning för att exfoliera huden, främjar kemisk peeling cellförnyelse, rensar tilltäppta porer och minskar inflammation. Resultatet är en jämnare hudton, mindre utbrott och färre synliga ärr. Det är en enkel och effektiv strategi för att ta kontroll över din akne och förbättra din hudhälsa.',
+            content: 'Kemisk peeling anpassad för blandhy använder sig av en unik lösning designad för att exfoliera och återfukta hudens särskilda behov. Den främjar en accelererad cellförnyelse, vilket bidrar till att balansera både oljiga och torra partier av huden.',
 
-            image_small: 'images/services/200x200/kemisk-peeling-akne.webp',
-            image_large: 'images/services/200x200/kemisk-peeling-akne.webp',
-            image_alt: 'Bild av kemisk peeling mot akne',
-            image_title: 'Kemisk peeling mot akne behandling',
+            image_small: 'images/services/200x200/kemisk-peeling-blandhy.webp',
+            image_large: 'images/services/200x200/kemisk-peeling-blandhy.webp',
+            image_alt: 'Bild av kemisk peeling för blandhy',
+            image_title: 'Kemisk peeling för blandhy behandling',
 
-            url: 'behandlingar/kemisk-peeling-akne',
-            url_label: 'Läs mer om kemisk peeling mot akne',
-            url_title: 'Klicka här för att läsa mer om kemisk peeling mot akne',
+            url: 'behandlingar/kemisk-peeling-blandhy',
+            url_label: 'Läs mer om kemisk peeling för blandhy',
+            url_title: 'Klicka här för att läsa mer om kemisk peeling för blandhy',
 
-            consultation_url: 'consultation-booking?problem=acne&service=chemicalPeeling',
+            consultation_url: 'consultation-booking?problem=blandhy&service=chemicalPeeling',
             consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för kemisk peeling mot akne',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för kemisk peeling för blandhy',
 
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
-            booking_url_label: 'Boka tid för kemisk peeling mot akne',
-            booking_url_title: 'Klicka för att boka tid för en kemisk peeling mot akne behandling'
+            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/blandhy-peeling-konsultation',
+            booking_url_label: 'Boka tid för kemisk peeling för blandhy',
+            booking_url_title: 'Klicka för att boka tid för en kemisk peeling för blandhy behandling'
 
       ),
 
       new Service(
-            title: 'Microneedling mot akne',
+            title: 'Microneedling för blandhy',
             duration: '50 min',
             price: '2595 kr',
-            content: 'Microneedling är en innovativ behandlingsmetod för akne. Detta utförs genom att skapa små mikroskopiska kanaler i huden vilket främjar hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. Denna behandling kan effektivt minska utbrott av akne, förbättra hudens struktur och minska synligheten av akneärr. Microneedling är en säker och effektiv strategi för att ta kontroll över din akne och förbättra din hudhälsa.',
+            content: 'Microneedling för blandhy är en banbrytande teknik som direkt adresserar hudens komplexa behov. Genom att skapa fina kanaler i huden, boostar behandlingen hudens förmåga att läka samt stimulerar kollagenproduktion. Denna process hjälper till att jämna ut både torra och oljiga regioner, vilket förbättrar hudens yta och återställer en naturliga balans.',
 
-            image_small: 'images/services/200x200/kemisk-peeling-akne.webp',
-            image_large: 'images/services/200x200/kemisk-peeling-akne.webp',
-            image_alt: 'Bild av microneedling mot akne',
-            image_title: 'Microneedling mot akne behandling',
+            image_small: 'images/services/200x200/microneedling-blandhy.webp',
+            image_large: 'images/services/200x200/microneedling-blandhy.webp',
+            image_alt: 'Bild av microneedling för blandhy',
+            image_title: 'Microneedling för blandhy behandling',
 
-            url: 'behandlingar/microneedling-akne',
-            url_label: 'Läs mer om microneedling mot akne',
-            url_title: 'Klicka här för att läsa mer om microneedling mot akne',
+            url: 'behandlingar/microneedling-blandhy',
+            url_label: 'Läs mer om microneedling för blandhy',
+            url_title: 'Klicka här för att läsa mer om microneedling för blandhy',
 
             consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url: 'consultation-booking?problem=acne&service=microneedling',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling mot akne',
+            consultation_url: 'consultation-booking?problem=blandhy&service=microneedling',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling för blandhy',
 
-            booking_url_label: 'Boka tid för microneedling mot akne',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
-            booking_url_title: 'Klicka för att boka tid för en microneedling mot akne behandling'
+            booking_url_label: 'Boka tid för microneedling för blandhy',
+            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/blandhy-microneedling-konsultation',
+            booking_url_title: 'Klicka för att boka tid för en microneedling för blandhy behandling'
       ),
+
 );
 
 $headline03 = "03. Förebygg uppkomsten av ny akne";
@@ -431,6 +432,7 @@ $procedures = array(
 
       ),
 );
+
 $articles = array(
       new Article(
             title: 'Varför AcneSpecialisten?!',
