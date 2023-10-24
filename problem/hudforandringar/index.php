@@ -133,6 +133,8 @@ $treatment_steps = array(
 
 );
 
+$treatment_link = '<a href="problem/hudforandringar/behandla-hudforandringar" title="Utforska effektiva behandlingar mot hudförändringar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot hudförändringar</a>';
+
 $types_title = 'Olika typer av hudförändringar';
 
 $type_categories = array(

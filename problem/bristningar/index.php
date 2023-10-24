@@ -131,6 +131,8 @@ $treatment_steps = array(
       ),
 );
 
+$treatment_link = '<a href="problem/bristningar/behandla-bristningar" title="Utforska effektiva behandlingar mot bristningar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot bristningar</a>';
+
 $types_title = 'Olika typer av bristningar';
 
 $type_categories = array(

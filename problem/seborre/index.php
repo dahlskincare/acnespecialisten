@@ -732,7 +732,6 @@ $brands_url_title = "Varumärken för Aknebehandling";
                                     } ?>
                               </div>
                               <hr class="mt-xl3 is-hidden-mobile">
-                              <?php echo $treatment_link ?>
 
                         </section>
                         <?php if (sizeof($symptoms) > 0) { ?>

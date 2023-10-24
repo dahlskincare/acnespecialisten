@@ -128,7 +128,7 @@ $treatment_steps = array(
       ),
 
 );
-$treatment_link = '<a href="problem/pormaskar/behandling" title="Utforska effektiv portömning" class="mt-xl button b200 outline expand auto-width">Läs mer om vå portömning</a>';
+$treatment_link = '<a href="problem/pormaskar/pormaskbehandling" title="Utforska effektiv portömning" class="mt-xl button b200 outline expand auto-width">Läs mer om vår portömning</a>';
 
 $types_title = 'Olika typer av pormaskar';
 

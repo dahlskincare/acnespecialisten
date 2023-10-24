@@ -949,7 +949,6 @@ $brands_url_title = "Varumärken för behandling av perioral dermatit";
                                     } ?>
                               </div>
                               <hr class="mt-xl3 is-hidden-mobile">
-                              <?php echo $treatment_link ?>
 
                         </section>
                         <?php if (sizeof($type_categories) > 0) { ?>
