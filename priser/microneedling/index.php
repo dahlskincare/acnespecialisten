@@ -22,7 +22,7 @@ $services_per_category = array(
         new ServiceInfo(
             name: '2x Areas',
             price: '1895 kr',
-            full_price: '2485 kr',
+            savings: 'save 1000 kr',
             booking_url: ''
         )
     ),
@@ -36,12 +36,12 @@ $services_per_category = array(
                 new ServiceInfoComboItem(
                     name: 'Label',
                     price: '995 kr',
-                    full_price: '1485 kr'
+                    savings: 'save 500 kr'
                 ),
                 new ServiceInfoComboItem(
                     name: 'Label',
                     price: '995 kr',
-                    full_price: '1485 kr'
+                    savings: 'save 500 kr'
                 ),
                 new ServiceInfoComboItem(
                     name: 'Label',

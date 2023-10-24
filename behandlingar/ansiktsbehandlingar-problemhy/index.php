@@ -28,24 +28,24 @@ $model = new Service(
     procedures: array(
         new Procedure(
             label: '1 procedure',
-            full_price: null,
             price: '£1 995',
+            savings: null,
             booking_url: 'https://bokadirekt.se',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
         ),
         new Procedure(
             label: '3 procedures',
-            full_price: '£3 885',
             price: '£2 595',
+            savings: 'save £1 000',
             booking_url: 'https://bokadirekt.se',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
         ),
         new Procedure(
             label: '5 procedures',
-            full_price: '£6 475',
             price: '£3 995',
+            savings: 'save £1 000',
             booking_url: 'https://bokadirekt.se',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
@@ -203,19 +203,19 @@ $big_types = array(
         procedures: array(
             new Procedure(
                 label: '1 procedure',
-                full_price: null,
                 price: '£1 995',
+                savings: 'save $500',
                 booking_url: 'https://www.bokadirekt.se'
             ),
             new Procedure(
                 label: '3 procedures',
-                full_price: '£3 885',
+                savings: 'save $500',
                 price: '£2 595',
                 booking_url: 'https://www.bokadirekt.se'
             ),
             new Procedure(
                 label: '5 procedures',
-                full_price: '£6 475',
+                savings: 'save $500',
                 price: '£3 995',
                 booking_url: 'https://www.bokadirekt.se'
             )
@@ -240,20 +240,20 @@ $big_types = array(
         procedures: array(
             new Procedure(
                 label: '1 procedure',
-                full_price: null,
                 price: '£1 995',
+                savings: null,
                 booking_url: 'https://www.bokadirekt.se'
             ),
             new Procedure(
                 label: '3 procedures',
-                full_price: '£3 885',
                 price: '£2 595',
+                savings: 'save $1000!',
                 booking_url: 'https://www.bokadirekt.se'
             ),
             new Procedure(
                 label: '5 procedures',
-                full_price: '£6 475',
                 price: '£3 995',
+                savings: 'save 1 million!',
                 booking_url: 'https://www.bokadirekt.se'
             )
         )
@@ -277,20 +277,19 @@ $big_types = array(
         procedures: array(
             new Procedure(
                 label: '1 procedure',
-                full_price: null,
                 price: '£1 995',
                 booking_url: 'https://www.bokadirekt.se'
             ),
             new Procedure(
                 label: '3 procedures',
-                full_price: '£3 885',
                 price: '£2 595',
+                savings: 'Save 1000',
                 booking_url: 'https://www.bokadirekt.se'
             ),
             new Procedure(
                 label: '5 procedures',
-                full_price: '£6 475',
                 price: '£3 995',
+                savings: 'Save 1000',
                 booking_url: 'https://www.bokadirekt.se'
             )
         )
@@ -314,20 +313,19 @@ $big_types = array(
         procedures: array(
             new Procedure(
                 label: '1 procedure',
-                full_price: null,
                 price: '£1 995',
                 booking_url: 'https://www.bokadirekt.se'
             ),
             new Procedure(
                 label: '3 procedures',
-                full_price: '£3 885',
                 price: '£2 595',
+                savings: 'hej',
                 booking_url: 'https://www.bokadirekt.se'
             ),
             new Procedure(
                 label: '5 procedures',
-                full_price: '£6 475',
                 price: '£3 995',
+                savings: 'hej',
                 booking_url: 'https://www.bokadirekt.se'
             )
         )
@@ -351,12 +349,12 @@ $combos = array(
             new ServiceComboItem(
                 title: 'Deep bikini',
                 price: '995 kr',
-                full_price: '1495 kr',
+                savings: 'save 500 kr',
             ),
             new ServiceComboItem(
                 title: 'Armpits',
                 price: '995 kr',
-                full_price: '1495 kr',
+                savings: 'save 500 kr',
             )
         )
     ),
@@ -375,17 +373,17 @@ $combos = array(
             new ServiceComboItem(
                 title: 'Deep bikini',
                 price: '995 kr',
-                full_price: '1495 kr',
+                savings: 'Save hejhej'
             ),
             new ServiceComboItem(
                 title: 'Armpits',
                 price: '995 kr',
-                full_price: '1495 kr',
+                savings: 'Save hejhej'
             ),
             new ServiceComboItem(
                 title: 'Legs',
                 price: '995 kr',
-                full_price: '1495 kr',
+                savings: 'Save hejhej'
             )
         )
     ),
@@ -404,22 +402,22 @@ $combos = array(
             new ServiceComboItem(
                 title: 'Full legs',
                 price: '995 kr',
-                full_price: '1495 kr',
+                savings: 'Save hejhej'
             ),
             new ServiceComboItem(
                 title: 'Arms up to the elbow',
                 price: '995 kr',
-                full_price: '1495 kr',
+                savings: 'Save hejhej'
             ),
             new ServiceComboItem(
                 title: 'Deep bikini',
                 price: '995 kr',
-                full_price: '1495 kr',
+                savings: 'Save hejhej'
             ),
             new ServiceComboItem(
                 title: 'Armpits',
                 price: '995 kr',
-                full_price: '1495 kr',
+                savings: 'Save hejhej'
             ),
         )
     )
@@ -823,17 +821,17 @@ $all_brands = array(
 
 <head>
     <title><?php echo $seo_title ?></title>
-      <meta name="description" content="<?php echo $seo_description ?>">
-      <meta name="keywords" content="<?php echo $seo_keywords ?>">
+    <meta name="description" content="<?php echo $seo_description ?>">
+    <meta name="keywords" content="<?php echo $seo_keywords ?>">
 
-      <!-- Optional: Set canonical version of this page (https://support.google.com/webmasters/answer/10347851) -->
-      <meta property="og:title" content="<?php echo $seo_title ?>" />
-      <meta property="og:description" content="<?php echo $seo_description ?>" />
-      <meta property="og:image" content="<?php echo $seo_image ?>" />
+    <!-- Optional: Set canonical version of this page (https://support.google.com/webmasters/answer/10347851) -->
+    <meta property="og:title" content="<?php echo $seo_title ?>" />
+    <meta property="og:description" content="<?php echo $seo_description ?>" />
+    <meta property="og:image" content="<?php echo $seo_image ?>" />
 
-      <meta property="twitter:title" content="<?php echo $seo_title ?>" />
-      <meta property="twitter:description" content="<?php echo $seo_description ?>" />
-      <meta property="twitter:image" content="<?php echo $seo_image ?>" />
+    <meta property="twitter:title" content="<?php echo $seo_title ?>" />
+    <meta property="twitter:description" content="<?php echo $seo_description ?>" />
+    <meta property="twitter:image" content="<?php echo $seo_image ?>" />
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
 
@@ -868,8 +866,8 @@ $all_brands = array(
                                             <?php echo $procedure->label ?>
                                         </div>
                                         <div class="floating-procedure-price">
-                                            <span class="p200 strikethrough mr-xs"><?php echo $procedure->full_price ?></span>
-                                            <span class="h200"><?php echo $procedure->price ?></span>
+                                            <span class="h200 mr-xs"><?php echo $procedure->price ?></span>
+                                            <span class="p200"><?php echo $procedure->savings ?></span>
                                         </div>
                                     </div>
                                 <?php } ?>
@@ -910,8 +908,8 @@ $all_brands = array(
                                 <div class="procedure">
                                     <div class="p200"><?php echo $procedure->label ?></div>
                                     <div>
-                                        <span class="p200 strikethrough mr-xs"><?php echo $procedure->full_price ?></span>
-                                        <span class="h200"><?php echo $procedure->price ?></span>
+                                        <span class="h200 mr-xs"><?php echo $procedure->price ?></span>
+                                        <span class="p200"><?php echo $procedure->savings ?></span>
                                     </div>
                                 </div>
                             <?php } ?>
@@ -957,8 +955,8 @@ $all_brands = array(
                                     <div class="large-procedure">
                                         <div class="p200 l10n"><?php echo $procedure->label ?></div>
                                         <div>
-                                            <span class="p200 strikethrough mr-xs"><?php echo $procedure->full_price ?></span>
-                                            <span class="h200"><?php echo $procedure->price ?></span>
+                                            <span class="h200 mr-xs"><?php echo $procedure->price ?></span>
+                                            <span class="p200"><?php echo $procedure->savings ?></span>
                                         </div>
                                     </div>
                                 <?php } ?>
