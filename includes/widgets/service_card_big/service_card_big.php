@@ -42,8 +42,8 @@
                         <div>
                             <div class="procedure-label"><?php echo $procedure->label ?></div>
                             <div>
-                                <span class="full-price"><?php echo $procedure->full_price ?></span>
                                 <span class="price"><?php echo $procedure->price ?></span>
+                                <span class="savings"><?php echo $procedure->savings ?></span>
                             </div>
                         </div>
                         <?php if (isset($procedure->booking_url)) { ?>
@@ -58,8 +58,8 @@
                     <div class="procedure">
                         <div class="procedure-label"><?php echo $procedure->label ?></div>
                         <div class="procedure-price">
-                            <span class="full-price"><?php echo $procedure->full_price ?></span>
                             <span class="price"><?php echo $procedure->price ?></span>
+                            <span class="savings"><?php echo $procedure->savings ?></span>
                         </div>
                         <?php if (isset($procedure->booking_url)) { ?>
                             <a href="<?php echo $procedure->booking_url ?>" title="<?php echo $procedure->booking_url_title ?>" class="button" title="<?php echo $procedure->booking_url_label ?>"><?php echo $procedure->booking_url_label ?></a>

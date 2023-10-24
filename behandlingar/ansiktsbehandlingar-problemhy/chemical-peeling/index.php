@@ -23,20 +23,20 @@ $model = new Service(
     procedures: array(
         new Procedure(
             label: '1 procedure',
-            full_price: null,
             price: '£1 995',
+            savings: 'Hej savings!',
             booking_url: 'https://bokadirekt.se'
         ),
         new Procedure(
             label: '3 procedures',
-            full_price: '£3 885',
             price: '£2 595',
+            savings: 'Hej savings!',
             booking_url: 'https://bokadirekt.se'
         ),
         new Procedure(
             label: '5 procedures',
-            full_price: '£6 475',
             price: '£3 995',
+            savings: 'Hej savings!',
             booking_url: 'https://bokadirekt.se'
         )
     )
@@ -50,7 +50,10 @@ $treatment_areas = array(
             image_title: 'Face',
             title: 'Face',
             duration: '30 min',
-            price: '1295 kr'
+            price: '1295 kr',
+            url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
+            url_label: 'Book a treatment',
+            url_title: 'Book a treatment'
         ),
         'chest' => new TreatmentAreaItem(
             image: 'https://via.placeholder.com/102x102.webm',
@@ -58,7 +61,10 @@ $treatment_areas = array(
             image_title: 'Chest',
             title: 'Chest',
             duration: '30 min',
-            price: '1295 kr'
+            price: '1295 kr',
+            url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
+            url_label: 'Book a treatment',
+            url_title: 'Book a treatment'
         ),
         'back' => new TreatmentAreaItem(
             image: 'https://via.placeholder.com/102x102.webm',
@@ -66,7 +72,10 @@ $treatment_areas = array(
             image_title: 'Back',
             title: 'Back',
             duration: '30 min',
-            price: '1295 kr'
+            price: '1295 kr',
+            url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
+            url_label: 'Book a treatment',
+            url_title: 'Book a treatment'
         )
     ))
 );
@@ -283,8 +292,8 @@ $specialists = array(
                                             <?php echo $procedure->label ?>
                                         </div>
                                         <div class="floating-procedure-price">
-                                            <span class="p200 strikethrough mr-xs"><?php echo $procedure->full_price ?></span>
-                                            <span class="h200"><?php echo $procedure->price ?></span>
+                                            <span class="h200 mr-xs"><?php echo $procedure->price ?></span>
+                                            <span class="p200 mr-xs"><?php echo $procedure->savings ?></span>
                                         </div>
                                     </div>
                                 <?php } ?>
@@ -325,8 +334,8 @@ $specialists = array(
                                 <div class="procedure">
                                     <div class="p200 l10n"><?php echo $procedure->label ?></div>
                                     <div>
-                                        <span class="p200 strikethrough mr-xs"><?php echo $procedure->full_price ?></span>
-                                        <span class="h200"><?php echo $procedure->price ?></span>
+                                        <span class="h200 mr-xs"><?php echo $procedure->price ?></span>
+                                        <span class="p200"><?php echo $procedure->savings ?></span>
                                     </div>
                                 </div>
                             <?php } ?>
@@ -372,8 +381,8 @@ $specialists = array(
                                     <div class="large-procedure">
                                         <div class="p200"><?php echo $procedure->label ?></div>
                                         <div>
-                                            <span class="p200 strikethrough mr-xs"><?php echo $procedure->full_price ?></span>
-                                            <span class="h200"><?php echo $procedure->price ?></span>
+                                            <span class="h200 mr-xs"><?php echo $procedure->price ?></span>
+                                            <span class="p200"><?php echo $procedure->savings ?></span>
                                         </div>
                                     </div>
                                 <?php } ?>

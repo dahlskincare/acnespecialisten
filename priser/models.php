@@ -40,12 +40,12 @@ class ServiceCategoryInfo
 
 class ServiceInfo
 {
-    public function __construct($name, $price, $booking_url, $image = null, $full_price = null, $combo_items = null)
+    public function __construct($name, $price, $booking_url, $image = null, $savings = null, $combo_items = null)
     {
         $this->name = $name;
         $this->price = $price;
         $this->booking_url = $booking_url;
-        $this->full_price = $full_price;
+        $this->savings = $savings;
         $this->image = $image;
         $this->combo_items = $combo_items;
     }
@@ -54,19 +54,19 @@ class ServiceInfo
     public string $price;
     public string $booking_url;
     public ?string $image;
-    public ?string $full_price;
+    public ?string $savings;
     public ?array $combo_items;
 }
 
 class ServiceInfoComboItem
 {
-    public function __construct($name, $price, $full_price = null)
+    public function __construct($name, $price, $savings = null)
     {
         $this->name = $name;
         $this->price = $price;
-        $this->full_price = $full_price;
+        $this->savings = $savings;
     }
     public string $name;
     public string $price;
-    public ?string $full_price;
+    public ?string $savings;
 }

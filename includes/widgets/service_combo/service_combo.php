@@ -16,8 +16,8 @@
                 <div class="service-combo-item">
                     <span class="h200"><?php echo $combo_item->title ?></span>
                     <div>
-                        <span class="p200 strikethrough"><?php echo $combo_item->full_price ?></span>
                         <span class="p200"><?php echo $combo_item->price ?></span>
+                        <span class="p200 savings"><?php echo $combo_item->savings ?></span>
                     </div>
                 </div>
             <?php } ?>
@@ -44,8 +44,8 @@
                     <div class="service-combo-item">
                         <span class="h200"><?php echo $combo_item->title ?></span>
                         <div>
-                            <span class="p200 strikethrough"><?php echo $combo_item->full_price ?></span>
                             <span class="p200"><?php echo $combo_item->price ?></span>
+                            <span class="p200 savings"><?php echo $combo_item->savings ?></span>
                         </div>
                     </div>
                 <?php } ?>

@@ -98,14 +98,14 @@ class ServiceCombo
 
 class ServiceComboItem
 {
-    public function __construct($title, $price, $full_price)
+    public function __construct($title, $price, $savings)
     {
         $this->title = $title;
         $this->price = $price;
-        $this->full_price = $full_price;
+        $this->savings = $savings;
     }
 
     public string $title;
     public string $price;
-    public string $full_price;
+    public string $savings;
 }

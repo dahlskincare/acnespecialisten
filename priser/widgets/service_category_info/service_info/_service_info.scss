@@ -40,11 +40,9 @@
                 }
 
                 .tiw-service-price {
-                    @include p200;
-                    color: $dark-200;
 
-                    .tiw-service-full-price {
-                        text-decoration: line-through;
+                    .tiw-service-savings {
+                        color: $dark-200;
                     }
                 }
             }
@@ -67,9 +65,8 @@
                 .tiw-combo-item-prices {
                     @include p200;
 
-                    .tiw-combo-item-fullprice {
+                    .tiw-combo-item-savings {
                         color: $dark-200;
-                        text-decoration: line-through;
                     }
                 }
             }
