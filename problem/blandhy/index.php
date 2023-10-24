@@ -212,9 +212,9 @@ $symptoms = array(
             aka: 'Även känt som vidgade porer',
             content: 'Pustuler är röda och inflammerade blemmor som innehåller var (en blandning av döda bakterier, vita blodkroppar och döda hudceller). De ser ut som papuler men har en vit eller gul prick i mitten. Pustuler kan vara smärtsamma och är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.',
 
-            url_label: 'Läs mer om pustler',
-            url: 'problem/akne/typer/atrophic-rolling-scars',
-            url_title: 'Läs mer om pustler (gula finnar)',
+            url_label: null,
+            url: null,
+            url_title: null,
 
             image: 'images/symptoms/102x102/pustler.webp',
             image_alt: 'Bild av pustler (gula finnar)',
@@ -225,9 +225,9 @@ $symptoms = array(
             aka: 'Även kallat akne',
             content: 'Noduler är större, djupare och ofta smärtsamma inflammerade blemmor som uppstår när en hårsäck blir kraftigt infekterad och inflammationen sprider sig till det omgivande vävnaden. De är vanligtvis större än 5 mm i diameter och kan vara fasta och ömma vid beröring. Noduler är vanligt förekommande på ansiktet, nacken, bröstet, ryggen och ibland även på överarmarna och skinkorna.',
 
-            url_label: 'Läs mer om noduler',
-            url: 'problem/akne/typer/hypertrophic-keloid',
-            url_title: 'Läs mer om noduler (innåtfinnar)',
+            url_label: null,
+            url: null,
+            url_title: null,
 
             image: 'images/symptoms/102x102/noduler.webp',
             image_alt: 'Bild av noduler (innåtfinnar)',
@@ -238,9 +238,9 @@ $symptoms = array(
             aka: 'Kända som bölder',
             content: 'Cystor är stora, inflammerade och smärtsamma blemmor som är fyllda med var och bildas när en hårsäck blir mycket infekterad och inflammationen sprider sig djupt in i huden. De kan vara runda och mjuka eller fasta och ömma vid beröring. Cystor kan vara större än 5 mm i diameter och är vanligt förekommande på ansiktet, nacken, bröstet och ryggen. Cystisk akne kan leda till ärrbildning och kräver ofta professionell behandling.',
 
-            url_label: 'Läs mer om cystor',
-            url: 'problem/akne/typer/hypertrophic-keloid',
-            url_title: 'Läs mer om cystor (bölder)',
+            url_label: null,
+            url: null,
+            url_title: null,
 
             image: 'images/symptoms/102x102/cystor.webp',
             image_alt: 'Bild av cystor (bölder)',
@@ -248,26 +248,26 @@ $symptoms = array(
       ),
 );
 
-$headline01 = "01. Identifiera din akne";
+$headline01 = "01. Identifiera din blandhy";
 
 $service = new Service(
-      title: 'Konsultation',
+      title: 'Konsultation för blandhy',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Vid ett personligt möte med en acnespecialist utförs en undersökning av din akne. Vi tar före-bilder på din hud och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
+      content: 'Vi börjar med ett personligt möte med en hudterapeut från AcneSpecialisten utförs en undersökning av din blandhy. Vi tar före-bilder på din hud och rekommenderar rätt behandlingsmetod för just din hy samt tar fram en skräddarsydd behandlingsplan för just dig.',
 
-      image_small: 'images/services/200x200/konsultation.webp',
-      image_large: 'images/services/200x200/konsultation.webp',
-      image_alt: 'Bild av en konsultation för aknebehandling',
-      image_title: 'Konsultation för aknebehandling',
+      image_small: 'images/services/200x200/konsultation_blandhy.webp',
+      image_large: 'images/services/200x200/konsultation_blandhy.webp',
+      image_alt: 'Bild av en konsultation för blandhy',
+      image_title: 'Konsultation för blandhy',
 
-      url_label: 'Läs mer om vår hudkonsultation',
-      url: 'hudkonsultation',
-      url_title: 'Klicka här för att läsa mer om gratis hudkonsultation',
+      url_label: 'Läs mer om vår konsultation för blandhy',
+      url: 'hudkonsultation-blandhy',
+      url_title: 'Klicka här för att läsa mer om konsultation för blandhy',
 
-      consultation_url_label: 'Boka tid för hudkonsultation',
-      consultation_url: 'consultation-booking?problem=acne',
-      consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för akne',
+      consultation_url_label: 'Boka tid för konsultation om blandhy',
+      consultation_url: 'consultation-booking?problem=blandhy',
+      consultation_url_title: 'Klicka för att boka tid för en konsultation om blandhy',
 
       booking_url_label: null,
       booking_url: null,
@@ -279,51 +279,52 @@ $headline02 = "02. Behandla aktiv akne";
 
 $services = array(
       new Service(
-            title: 'Ansiktsbehandling mot akne',
+            title: 'Ansiktsbehandling för blandhy',
             duration: '60 min',
             price: '995 kr',
-            content: 'En effektiv ansiktsbehandling mot akne fokuserar på att noggrant extrahera orenheter som orsakar inflammation och skador i huden. Genom att försiktigt klämma ut akne och pormaskar kan behandlingen bidra till att förebygga ärrbildning och främja en snabbare läkning.',
+            content: 'En effektiv ansiktsbehandling för blandhy fokuserar på att balansera de områden av huden som är torra eller oljiga. Genom att rengöra, exfoliera och återfukta på rätt sätt kan behandlingen ge huden en jämnare textur och lyster.',
 
-            image_small: 'images/services/200x200/ansiktsbehandling-akne.webp',
-            image_large: 'images/services/200x200/ansiktsbehandling-akne.webp',
-            image_alt: 'Bild av en ansiktsbehandling mot akne',
-            image_title: 'Ansiktsbehandling mot akne',
+            image_small: 'images/services/200x200/ansiktsbehandling-blandhy.webp',
+            image_large: 'images/services/200x200/ansiktsbehandling-blandhy.webp',
+            image_alt: 'Bild av en ansiktsbehandling för blandhy',
+            image_title: 'Ansiktsbehandling för blandhy',
 
-            url: 'behandlingar/ansiktsbehandling-acne',
-            url_label: 'Läs mer om ansiktsbehandling mot akne',
-            url_title: 'Klicka här för att läsa mer om ansiktsbehandling mot akne',
+            url: 'behandlingar/ansiktsbehandling-blandhy',
+            url_label: 'Läs mer om ansiktsbehandling för blandhy',
+            url_title: 'Klicka här för att läsa mer om ansiktsbehandling för blandhy',
 
             consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url: 'consultation-booking?problem=acne&service=classicFacials',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling mot akne',
+            consultation_url: 'consultation-booking?problem=blandhy&service=classicFacials',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling för blandhy',
 
-            booking_url_label: 'Boka tid för ansiktsbehandling mot akne',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
-            booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling mot akne'
+            booking_url_label: 'Boka tid för ansiktsbehandling för blandhy',
+            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/blandhy-konsultation',
+            booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling för blandhy'
       ),
       new Service(
-            title: 'Laser mot akne',
+            title: 'Laserbehandling för blandhy',
             duration: '50 min',
             price: '2595 kr',
-            content: 'En avancerad laserbehandling mot akne erbjuder en effektiv lösning för att bekämpa aktiv akne och ärr som kan uppstå efter utbrott. Lasertekniken riktar sig mot de bakterier som orsakar inflammation och hjälper till att minska produktionen av talg, vilket minskar risken för framtida utbrott.',
+            content: 'En avancerad laserbehandling för blandhy erbjuder en effektiv lösning för att jämna ut hudens textur, reducera synligheten av porer och balansera talgproduktionen. Lasertekniken hjälper till att minska de oljiga områdena och återfukta de torra, vilket ger huden en friskare lyster.',
 
-            image_small: 'images/services/200x200/laser-akne.webp',
-            image_large: 'images/services/200x200/laser-akne.webp',
-            image_alt: 'Bild av laserbehandling mot akne',
-            image_title: 'Laserbehandling mot akne',
+            image_small: 'images/services/200x200/laser-blandhy.webp',
+            image_large: 'images/services/200x200/laser-blandhy.webp',
+            image_alt: 'Bild av laserbehandling för blandhy',
+            image_title: 'Laserbehandling för blandhy',
 
-            url_label: 'Läs mer om laser mot akne',
-            url: 'behandlingar/laser-akne',
-            url_title: 'Klicka här för att läsa mer om laserbehandling mot akne',
+            url_label: 'Läs mer om laser för blandhy',
+            url: 'behandlingar/laser-blandhy',
+            url_title: 'Klicka här för att läsa mer om laserbehandling för blandhy',
 
             consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url: 'consultation-booking?problem=acne&service=laser',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling mot akne',
+            consultation_url: 'consultation-booking?problem=blandhy&service=laser',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling för blandhy',
 
-            booking_url_label: 'Boka tid för laserbehandling mot akne',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
-            booking_url_title: 'Klicka för att boka tid för en laserbehandling mot akne'
+            booking_url_label: 'Boka tid för laserbehandling för blandhy',
+            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/blandhy-laser-konsultation',
+            booking_url_title: 'Klicka för att boka tid för en laserbehandling för blandhy'
       ),
+
       new Service(
             title: 'Kemisk peeling mot akne',
             duration: '30 min',
