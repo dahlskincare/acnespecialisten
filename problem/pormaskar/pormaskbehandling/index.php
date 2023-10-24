@@ -175,18 +175,6 @@ $products = array(
     ),
 );
 
-$$headline04 = '04. Reducera pormaskar genom att minska porstorleken';
-
-$repair_image_small = 'https://via.placeholder.com/358x274.jpg';
-$repair_image_large = 'https://via.placeholder.com/872x456.jpg';
-
-$repair_content = '<p class="p200">Ett av de mest effektiva sätten att behandla pormaskar är att rikta in sig på att minska storleken på porerna. Stora porer kan ofta fyllas med talg och döda hudceller, vilket resulterar i pormaskar. På AcneSpecialisten erbjuder vi avancerade behandlingar för att minska porstorleken, vilket i sin tur hjälper till att reducera pormaskar. Genom att kombinera rätt produkter och behandlingsmetoder kan vi hjälpa dig att uppnå en jämnare, renare och mer strålande hud.</p>';
-
-$repair_url = 'treatments/pores';
-$repair_url_label = 'Se behandlingar för att minska porstorlek';
-$repair_url_title = 'klicka här för att se våra behandlingar för att minska porstorlek';
-
-
 $results = array(
     new ResultCustomer(
         image_before_small: 'https://via.placeholder.com/358x358.webm',
@@ -571,20 +559,6 @@ $brands_url_title = "Varumärken för pormaskbehandling";
                         } ?>
                     </section>
                 <?php } ?>
-                <section id="repair">
-                    <h2 class="h500 l10n"><?php echo $headline04 ?></h2>
-                    <picture>
-                        <source media="(max-width: 799px)" srcset="<?php echo $repair_image_small ?>">
-                        <source media="(min-width: 800px)" srcset="<?php echo $repair_image_large ?>">
-                        <img src="<?php echo $repair_image_large ?>" alt="<?php echo $repair_title ?>" title="<?php echo $repair_title ?>" class=" mt-xl" width="872" height="456" />
-                    </picture>
-                    <div class="mt-xl"><?php echo $repair_content ?></div>
-                    <a href="<?php echo $repair_url ?>" title="<?php echo $repair_url_title ?>" class="mt-xl button outline b200 expand is-hidden-tablet l10n"><?php echo $repair_url_label ?></a>
-                    <a href="<?php echo $repair_url ?>" title="<?php echo $repair_url_title ?>" class="mt-xl button compact text b200 is-hidden-mobile">
-                        <span class="l10n"><?php echo $repair_url_label ?></span>
-                        <?php icon('navigate-next'); ?>
-                    </a>
-                </section>
                 <section id="results">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php'); ?>
                 </section>

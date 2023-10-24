@@ -27,7 +27,6 @@ $nav_buttons = array(
     'define' => 'Konsultation',
     'treat' => 'Behandlingar',
     'prevent' => 'Produkter',
-    'repair' => 'Reducera',
     'results' => 'Resultat',
     'reviews' => 'Omdömen',
     'faq' => 'FAQ',
@@ -168,18 +167,6 @@ $products = array(
         content: '<p class="p200">Att förebygga och minska synligheten av stora porer är avgörande för att uppnå en jämn och klar hud. Vi erbjuder en daglig hudvårdsrutin med specifika produkter mot stora porer. Denna rutin hjälper till att hålla din hy ren, balanserad och minskar risken för tilltäppningar. Regelbunden användning av dessa produkter, tillsammans med våra behandlingar, ger bäst resultat för att hantera stora porer.</p>',
     ),
 );
-
-$headline04 = '04. Reducera stora porer';
-
-$repair_image_small = 'https://via.placeholder.com/358x274.jpg';
-$repair_image_large = 'https://via.placeholder.com/872x456.jpg';
-
-$repair_content = '<p class="p200">Efter framgångsrik behandling av stora porer kan det fortfarande vara nödvändigt att förbättra hudstrukturen ytterligare. På Acnespecialisten erbjuder vi olika tekniker, som laserteknik och microneedling, som hjälper till att förbättra hudens textur och utseende efter behandling av stora porer. Dessa metoder stöder hudens egen regenerering och främjar en jämnare och fräschare hud. Vår expertis säkerställer att du får bästa möjliga resultat.</p>';
-
-$repair_url = 'treatments/stora-porer';
-$repair_url_label = 'Se behandlingar för hudstruktur';
-$repair_url_title = 'Klicka här för att se våra behandlingar för hudstruktur';
-
 
 $results = array(
     new ResultCustomer(
@@ -566,20 +553,6 @@ $brands_url_title = "Varumärken för behandling av Stora porer";
                         } ?>
                     </section>
                 <?php } ?>
-                <section id="repair">
-                    <h2 class="h500 l10n"><?php echo $headline04 ?></h2>
-                    <picture>
-                        <source media="(max-width: 799px)" srcset="<?php echo $repair_image_small ?>">
-                        <source media="(min-width: 800px)" srcset="<?php echo $repair_image_large ?>">
-                        <img src="<?php echo $repair_image_large ?>" alt="<?php echo $repair_title ?>" title="<?php echo $repair_title ?>" class=" mt-xl" width="872" height="456" />
-                    </picture>
-                    <div class="mt-xl"><?php echo $repair_content ?></div>
-                    <a href="<?php echo $repair_url ?>" title="<?php echo $repair_url_title ?>" class="mt-xl button outline b200 expand is-hidden-tablet l10n"><?php echo $repair_url_label ?></a>
-                    <a href="<?php echo $repair_url ?>" title="<?php echo $repair_url_title ?>" class="mt-xl button compact text b200 is-hidden-mobile">
-                        <span class="l10n"><?php echo $repair_url_label ?></span>
-                        <?php icon('navigate-next'); ?>
-                    </a>
-                </section>
                 <section id="results">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php'); ?>
                 </section>

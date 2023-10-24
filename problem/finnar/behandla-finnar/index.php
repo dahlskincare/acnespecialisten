@@ -182,7 +182,7 @@ $repair_image_large = 'https://via.placeholder.com/872x456.jpg';
 
 $repair_content = '<p class="p200">När dina finnar har behandlats och finnarna tagits bort, kan det hända att de lämnar ärr bakom sig. På Acnespecialisten kan vi hjälpa dig att reparera dessa ärr genom olika tekniker som laserteknik och microneedling. Dessa metoder främjar hudens egen regenerering, hjälper till att återställa en jämn hudstruktur och minska synligheten av ärr. Med oss vid din sida kan du känna att du har stödet du behöver för att ta bort finnar och njuta av en klarare, friskare hy.</p>';
 
-$repair_url = 'treatments/finnar';
+$repair_url = 'problem/arr-fran-finnar/behandla-arr-fran-finnar';
 $repair_url_label = 'Se ärrbehandlingar efter finnar';
 $repair_url_title = 'klicka här för att se våra ärrbehandlingar efter finnar';
 

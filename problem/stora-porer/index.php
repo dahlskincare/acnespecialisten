@@ -362,34 +362,6 @@ $products = array(
       )
 );
 
-$headline04 = "04. Förbättra hudens struktur efter stora porer";
-
-$procedures = array(
-      new Service(
-            title: 'Behandling för hudens struktur',
-            duration: '4 behandlingsmetoder',
-            price: null,
-            content: 'Efter lång tid med stora porer kan huden ha en ojämn struktur, med förstoringade porer i vissa områden. Olika behandlingar kan hjälpa till att jämna ut huden och förbättra dess övergripande struktur. Klicka här för att läsa mer om hur du kan förbättra din huds struktur och minska synligheten av stora porer.',
-
-            image_small: 'images/services/200x200/forbattra-hudstruktur.webp',
-            image_large: 'images/services/200x200/forbattra-hudstruktur.webp',
-            image_alt: 'Förbättra hudens struktur efter stora porer',
-            image_title: 'Förbättra hudens struktur',
-
-            url_label: 'Läs mer om behandlingar för hudens struktur',
-            url: 'behandlingar/hudstruktur',
-            url_title: 'Klicka här för att läsa mer om våra behandlingar för hudens struktur',
-
-            consultation_url_label: null,
-            consultation_url: null,
-            consultation_url_title: null,
-
-            booking_url_label: null,
-            booking_url: null,
-            booking_url_title: null,
-      ),
-);
-
 $articles = array(
       new Article(
             title: 'När ska jag söka hjälp med mina stora porer?',
