@@ -3,6 +3,13 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
+$seo_title = 'Allt om Akne - Orsaker, Behandling och Förebyggande | Acnespecialisten';
+$seo_description = 'Lär dig allt om akne, från dess orsaker till hur man behandlar och förebygger det. Skräddarsydda lösningar och expertis från Acnespecialisten.';
+$seo_keywords = 'akne, aknebehandling, orsaker till akne, förebygga akne, ta bort akne, vuxenakne, tonårsakne, akneärr, finnar, pormaskar';
+
+$seo_image = 'images/treatments/large/acne-scars.jpg';
+
+
 $model = new Service(
     title: 'Ansiktsbehandlingar för problemhy',
     duration: '50 min',
@@ -815,13 +822,18 @@ $all_brands = array(
 <html lang="<?php echo $lang ?>">
 
 <head>
-    <!-- TODO: Set title and meta tags -->
-    <title class="l10n">Acnespecialisten | <?php echo $model->title ?></title>
-    <meta name="description" content="" class="l10n">
-    <meta name="title" content="" class="l10n">
-    <meta name="keywords" content="" class="l10n">
+    <title><?php echo $seo_title ?></title>
+      <meta name="description" content="<?php echo $seo_description ?>">
+      <meta name="keywords" content="<?php echo $seo_keywords ?>">
 
-    <!-- Optional: Set canonical version of this page (https://support.google.com/webmasters/answer/10347851) -->
+      <!-- Optional: Set canonical version of this page (https://support.google.com/webmasters/answer/10347851) -->
+      <meta property="og:title" content="<?php echo $seo_title ?>" />
+      <meta property="og:description" content="<?php echo $seo_description ?>" />
+      <meta property="og:image" content="<?php echo $seo_image ?>" />
+
+      <meta property="twitter:title" content="<?php echo $seo_title ?>" />
+      <meta property="twitter:description" content="<?php echo $seo_description ?>" />
+      <meta property="twitter:image" content="<?php echo $seo_image ?>" />
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
 
