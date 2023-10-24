@@ -376,23 +376,23 @@ $services = array(
 
 );
 
-$headline03 = "03. Förebygg uppkomsten av ny akne";
+$headline03 = "03. Förebygg uppkomsten av ny blandhy";
 
 $products = array(
       new Service(
-            title: 'Produkter mot akne',
+            title: 'Produkter mot blandhy',
             duration: null,
             price: 'Pris från 1495 kr',
-            content: 'För att effektivt bekämpa och förebygga akne är daglig behandling med rätt produkter avgörande. Våra akneprodukter är speciellt utformade för att hålla din hud i balans och förhindra att ny akne uppstår.',
+            content: 'Att hantera blandhy kräver speciellt utvalda produkter som kan balansera huden och ta hand om både dess torra och oljiga delar. Med daglig användning av våra produkter för blandhy kan du uppnå en balanserad hud som både känns och ser bättre ut.',
 
-            image_small: 'images/services/200x200/produkter-akne.webp',
-            image_large: 'images/services/200x200/produkter-akne.webp',
-            image_alt: 'Bild av produkter designade för behandling av akne',
-            image_title: 'Effektiva produkter för bekämpning och förebyggande av akne',
+            image_small: 'images/services/200x200/produkter-blandhy.webp',
+            image_large: 'images/services/200x200/produkter-blandhy.webp',
+            image_alt: 'Bild av produkter designade för behandling av blandhy',
+            image_title: 'Effektiva produkter för balansering av blandhy',
 
-            url_label: 'Läs mer om produkter mot akne',
+            url_label: 'Läs mer om produkter för blandhy',
             url: 'https://dahlskincare.se',
-            url_title: 'Klicka här för att läsa mer om produkter mot akne',
+            url_title: 'Klicka här för att läsa mer om produkter för blandhy',
 
             consultation_url_label: null,
             consultation_url: null,
@@ -404,23 +404,23 @@ $products = array(
       )
 );
 
-$headline04 = "04. Reparera post-akne";
+$headline04 = "04. Reparera huden";
 
 $procedures = array(
       new Service(
-            title: 'Reparera acneärr',
+            title: 'Reparera huden',
             duration: '4 behandlingsmetoder',
             price: null,
-            content: 'Efter aktiv akne kan man uppleva post-akne, vilket innebär ärr i form av gropar i olika former och fläckar i olika färger på huden där aknen tidigare varit. Olika typer av ärr behandlas med olika metoder. Klicka här för att läsa mer om hur du kan reparera din hud och ta hand om post-akne.',
+            content: 'Med blandhy kan det ibland uppkomma fläckar och en ojämn hudstruktur. För att hantera dessa utmaningar har vi olika behandlingsmetoder som effektivt riktar sig mot både pigmentfläckar och ojämn hudstruktur. Klicka här för att läsa mer om hur du kan förbättra din hud med våra skräddarsydda behandlingar.',
 
-            image_small: 'images/services/200x200/microneedling-aknearr.webp',
-            image_large: 'images/services/200x200/microneedling-aknearr.webp',
-            image_alt: 'Reparera acneärr',
-            image_title: 'Reparera acneärr',
+            image_small: 'images/services/200x200/behandlingar-ojamnhud.webp',
+            image_large: 'images/services/200x200/behandlingar-ojamnhud.webp',
+            image_alt: 'Behandlingar för fläckar och ojämn hudstruktur',
+            image_title: 'Behandlingar för en jämnare hudton',
 
-            url_label: 'Läs mer om behandlingar mot akneärr',
-            url: 'behandlingar/aknearr',
-            url_title: 'Klicka här för att läsa mer om våra behandlingar mot akneärr',
+            url_label: 'Läs mer om behandlingar för ojämn hudstruktur',
+            url: 'behandlingar/ojamnhud',
+            url_title: 'Klicka här för att läsa mer om våra behandlingar för ojämn hudstruktur',
 
             consultation_url_label: null,
             consultation_url: null,
@@ -429,29 +429,32 @@ $procedures = array(
             booking_url_label: null,
             booking_url: null,
             booking_url_title: null,
-
       ),
 );
 
 $articles = array(
-      new Article(
-            title: 'Varför AcneSpecialisten?!',
-            content: '<p class="p200">Du som vill ha det som är bäst mot akne bör välja Acnespecialisten eftersom vi är experter på att behandla akne och har över 30 års erfarenhet av att ha arbetat med olika typer av akne. Vi lever upp till vårt namn genom att erbjuda personlig och professionell hjälp för att hjälpa dig att uppnå en klar och frisk hud. Vi skräddarsyr behandlingar baserade på dina individuella problem och behov, vi rekommenderar de bästa akneprodukterna för att förebygga och behandla din hud och akne. </p><p class="p200 mt-m">Genom att välja Acnespecialisten får du den mest effektiva behandlingen för ditt specifika fall och en hudvårdspartner som stöttar dig genom hela processen.</p>',
 
+      new Article(
+            title: 'När ska jag söka hjälp med min blandhy?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'Varför AcneSpecialisten?!',
-            image_title: 'Varför AcneSpecialisten?!',
+            image_alt: 'När ska jag söka hjälp med min blandhy?',
+            image_title: 'När ska jag söka hjälp med min blandhy?',
+            content: '<p class="p200">Blandhy, som kännetecknas av både torra och oljiga partier, är en vanlig hudtyp och kan drabba personer i alla åldrar. Även om det mestadels är en estetisk bekymmer, kan det påverka självkänslan och leda till andra hudproblem. Om du känner att din blandhy börjar påverka ditt välbefinnande, eller om du har testat olika produkter utan framgång, kan det vara dags att söka professionell hjälp. Det finns ingen "minsta gräns" för när det är lämpligt att söka råd från en specialist.</p>
+            <p class="p200 mt-m">Hos en hudspecialist kan du få en personlig konsultation och behandlingsplan skräddarsydd för din unika hudtyp. En expert kan analysera din hud, identifiera de specifika problemområdena och rekommendera den mest effektiva behandlingsmetoden. Detta kan inkludera allt från balanserande hudvårdsprodukter till specialbehandlingar för att jämna ut hudens textur. Om du känner att din blandhy har blivit en utmaning eller om du bara strävar efter en jämnare hudton, tveka inte att ta steget mot professionell rådgivning och vård. Det är aldrig för tidigt eller för sent att investera i din hudhälsa.</p>',
       ),
-      new Article(
-            title: 'När ska jag besöka AcneSpecialisten?',
-            content: '<p class="p200">Du bör besöka Acnespecialisten när du känner att din akne påverkar din livskvalitet eller om du har provat olika behandlingar och produkter utan att se några varaktiga förbättringar. Ju tidigare du söker hjälp, desto större är chansen att undvika ärrbildning och långvariga hudproblem. Acnespecialisten är här för att erbjuda dig expertis och skräddarsydda behandlingar oavsett om du har lindrig, måttlig eller svår akne. Tveka inte att kontakta oss för att boka en kostnadsfri konsultation och ta det första steget mot en klarare och friskare hud.</p><p class="p200 mt-m">Välj Acnespecialisten innan du går till en läkare, eftersom vi erbjuder en kostnadsfri konsultation där vi analyserar din akne och föreslår en individuell behandlingsplan. Våra specialister har stor erfarenhet av att behandla akne och kan ge dig råd om vilka produkter och behandlingar som är bäst för just din hudtyp. Att prova Acnespecialisten först kan hjälpa dig att undvika att använda tunga mediciner som kan ha biverkningar och påverka hela kroppen. Genom att boka en gratis konsultation hos oss får du en chans att se hur vi kan hjälpa dig att förbättra din hudhälsa innan du tar steget att besöka en läkare.</p>',
 
+      new Article(
+            title: 'Varför ska jag besöka AcneSpecialisten för min blandhy?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'När ska jag besöka AcneSpecialisten?',
-            image_title: 'När ska jag besöka AcneSpecialisten?',
+            image_alt: 'Varför ska jag besöka AcneSpecialisten för min blandhy?',
+            image_title: 'Varför ska jag besöka AcneSpecialisten för min blandhy?',
+            content: '<p class="p200">Om du strävar efter en effektiv och långsiktig lösning för din blandhy, är AcneSpecialisten det självklara valet. Med över 30 års erfarenhet inom hudvård och en specialisering i att behandla olika hudproblem, inklusive blandhy, är vi experter på att erbjuda skräddarsydda lösningar för varje enskild individs behov.</p>
+            <p class="p200 mt-m">Vi använder oss av de senaste metoderna och teknologierna inom hudvård för att säkerställa bästa möjliga resultat. Vårt dedikerade team av hudterapeuter är redo att erbjuda en individuellt anpassad behandlingsplan och att stötta dig genom hela processen. Genom regelbundna uppföljningar och anpassade hemmavårdsprogram ser vi till att din blandhy får en hållbar förbättring.</p>
+            <p class="p200 mt-m">Att välja AcneSpecialisten innebär att du får tillgång till den mest avancerade och effektiva behandlingen för din blandhy. Men det är inte allt. Vi ser dig som en partner i din hudvårdsresa och är dedikerade till att hjälpa dig att uppnå och bibehålla en balanserad och strålande hud. Vårt engagemang, kunskap och erfarenhet gör oss till ditt bästa val när det kommer till behandling av blandhy.</p>',
       ),
+
 );
 
 
