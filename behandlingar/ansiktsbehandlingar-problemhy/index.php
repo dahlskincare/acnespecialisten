@@ -55,21 +55,22 @@ $model = new Service(
 );
 
 $nav_buttons = array(
-    'about' => 'Overview',
-    'preparing' => 'Preparing',
-    'process' => 'Process',
-    'types' => 'Types',
-    'treatment-areas' => 'Areas',
-    'aftercare' => 'Aftercare',
-    'service-brands' => 'Brands',
-    'results' => 'Results',
-    'reviews' => 'Reviews',
+    'about' => 'Om ansiktsbehandlingar mot problemhy',
+    'preparing' => 'Förberedelser',
+    'process' => 'Processen',
+    'types' => 'Typer',
+    'treatment-areas' => 'Områden',
+    'aftercare' => 'Eftervård',
+    'results' => 'Resultat',
+    'reviews' => 'Omdömen',
     'faq' => 'FAQ',
-    'skin-guide' => 'Skin guide',
-    'specialists' => 'Facials specialists',
+    'skin-guide' => 'Hudguide',
+    'specialists' => 'Specialister',
+    'service-brands' => 'Märken',
 );
-$description_title = 'What is problem skin facials?';
-$description_text = '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>';
+
+$description_title = 'Vad innebär ansiktsbehandlingar för problemhy?';
+$description_text = '<p class="p200">Denna behandling är skräddarsydd för dem med problemhy och erbjuder en effektiv start på hudens förbättring. Behandlingen rengör huden på djupet, särskilt nyttigt för de som lider av akne, finnar eller pormaskar. Med hjälp av en vapozone öppnas porerna upp genom ånga, vilket möjliggör en noggrann rengöring.</p><p class="p200 mt-m">Oavsett om du har blandhy, oljig, kombinerad, torr eller känslig hud, eller lider av specifika tillstånd som rosacea, seborré, perioral dermatit eller stora porer, anpassar denna behandling sig efter dina unika behov. Målet är att återställa hudens balans och ge den lyster och vitalitet den förtjänar.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
