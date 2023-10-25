@@ -162,7 +162,7 @@ $treatment_steps = array(
 
 );
 
-$treatment_link = '<a href="problem/blandhy/blandhybehandlingar" title="Utforska effektiv blandhybehandling" class="mt-xl button b200 outline expand auto-width">Läs mer om vår blandhybehandling</a>';
+$treatment_link = '<a href="problem/blandhy/blandhybehandling" title="Utforska effektiv blandhybehandling" class="mt-xl button b200 outline expand auto-width">Läs mer om vår blandhybehandling</a>';
 
 
 $symptoms_title = 'Blandhy symptom';
