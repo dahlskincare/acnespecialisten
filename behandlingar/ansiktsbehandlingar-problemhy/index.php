@@ -3,17 +3,18 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Allt om Akne - Orsaker, Behandling och Förebyggande | Acnespecialisten';
-$seo_description = 'Lär dig allt om akne, från dess orsaker till hur man behandlar och förebygger det. Skräddarsydda lösningar och expertis från Acnespecialisten.';
-$seo_keywords = 'akne, aknebehandling, orsaker till akne, förebygga akne, ta bort akne, vuxenakne, tonårsakne, akneärr, finnar, pormaskar';
+$seo_title = 'Ansiktsbehandlingar för Problemhy - Effektiva behandlingar | Acnespecialisten';
+$seo_description = 'Utforska AcneSpecialistens skräddarsydda ansiktsbehandlingar för problemhy. Få djupgående kunskap om olika hudåkommor och vägledning för hur du bäst tar hand om dem. Expertbehandling och professionell rådgivning endast ett steg bort.';
+$seo_keywords = 'problemhy, ansiktsbehandlingar, hudproblem, förebygga problemhy, behandla problemhy, oren hud, hudrodnad, hudutslag, pormaskar, torr hud, oljig hud';
 
-$seo_image = 'images/treatments/large/acne-scars.jpg';
+
+$seo_image = 'images/treatments/large/ansiktsbehandlingar-problemhy.jpg';
 
 
 $model = new Service(
     title: 'Ansiktsbehandlingar för problemhy',
-    duration: '50 min',
-    price: '995 kr',
+    duration: '60 min',
+    price: 'Från 799 kr',
     content: '',
     image_small: 'https://via.placeholder.com/358x274.webp',
     image_large: 'https://via.placeholder.com/424x456.webp',
@@ -28,7 +29,7 @@ $model = new Service(
     procedures: array(
         new Procedure(
             label: '1 procedure',
-            price: '£1 995',
+            price: '995 kr',
             savings: null,
             booking_url: 'https://bokadirekt.se',
             booking_url_label: 'Boka tid för behandling',
@@ -36,16 +37,16 @@ $model = new Service(
         ),
         new Procedure(
             label: '3 procedures',
-            price: '£2 595',
-            savings: 'save £1 000',
+            price: '2595 kr',
+            savings: '865 kr per behandling',
             booking_url: 'https://bokadirekt.se',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
         ),
         new Procedure(
             label: '5 procedures',
-            price: '£3 995',
-            savings: 'save £1 000',
+            price: '3995 kr',
+            savings: '799 kr per behandling',
             booking_url: 'https://bokadirekt.se',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
