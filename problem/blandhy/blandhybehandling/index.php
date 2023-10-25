@@ -40,52 +40,53 @@ $nav_buttons = array(
 
 $about_title = 'Hur vi balanserar och behandlar blandhy';
 
-$about_content = '<p class="p200">Att hantera och balansera blandhy kräver en specialiserad och individuell strategi. På Acnespecialisten kombinerar vi vår kunskap med ledande metoder för att skräddarsy en behandlingsplan för blandhy. Genom vår kostnadsfria hudkonsultation kan vi noggrant förstå din huds specifika behov och rekommendera rätt lösningar.</p>
+$about_content = '<p class="p200">Blandhy ställer unika krav på behandling med en kombination av de besta metoderna och vår djupgående erfarenhet för att ge dig den balans du söker. Med vår kostnadsfria konsultation utforskar vi din huds nyanser och utformar en handlingsplan som svarar mot dess unika behov.</p>
 
-    <p class="p200 mt-xl">Vårt huvudsakliga mål är att jämna ut hudens oljiga och torra zoner, vilket hjälper till att förhindra oönskade hudproblem. Efter att vi har uppnått en balanserad hud hjälper vi dig att fastställa en daglig hudvårdsrutin med produkter anpassade för blandhy. Om du redan har upplevt hudutmaningar på grund av din blandhy, har vi effektiva metoder för att rätta till dessa problem. Låt oss guida dig på din resa mot en mer balanserad och strålande hy.</p>';
+    <p class="p200 mt-xl">Vi siktar på att skapa en perfekt balans mellan de oljiga och torra delarna av ditt ansikte, undvika utbrott och maximera hudens naturliga lyster. Oavsett dina tidigare hudutmaningar, står vi redo att förvandla din hud. Tillsammans hjälper vi dig från början tills du uppnått den balanserade hy du förtjänar!</p>';
 
-$headline01 = "01. Identifiera din akne";
+
+$headline01 = "01. Identifiera din blandhy";
 
 $define_image = 'images/service-categories/large/konsultation.jpg';
-$define_image_alt = 'Hur vi tar bort och behandlar akne?';
-$define_image_title = 'Hur vi tar bort och behandlar akne?';
+$define_image_alt = 'Vår process för att balansera och behandla blandhy';
+$define_image_title = 'Vår process för att balansera och behandla blandhy';
 
-$define_content = '<p class="p200">Första steget i vår process att få bort akne är att kartlägga din aknetyp. Vi inleder med en kostnadsfri konsultation där vi analyserar din hud och diskuterar dina hudmål och tidigare erfarenheter. Förebilder tas för att kunna följa din huds framsteg och anpassa din behandlingsplan över tid. En personlig hudterapeut följer med dig genom hela behandlingsresan, vilket säkerställer en konsekvent omsorg anpassad efter dina specifika behov.</p>';
+$define_content = '<p class="p200">Det första steget i vår process att balansera blandhy är att kartlägga dina specifika behov. Vi börjar med en kostnadsfri konsultation där vi analyserar din hud, diskuterar dina mål med huden och tidigare erfarenheter. Förebilder tas för att kunna följa din huds framsteg och justera din behandlingsplan över tid. Din personliga hudterapeut står vid din sida genom hela resan, säkerställande en konsekvent och individanpassad omsorg.</p>';
 
 $define_consultation_link = "https://www.acnespecialisten.se/boka-hudkonsultation";
 $define_consultation_link_label = "Boka Gratis Konsultation";
-$define_consultation_link_title = "klicka här för att boka din kostnadsfria hudkonsultation mot akne";
+$define_consultation_link_title = "klicka här för att boka din kostnadsfria hudkonsultation för blandhy";
 
 
+$headline02 = "02. Behandla blandhy";
 
-$headline02 = "02. Behandla aktiv akne";
+$treat_content = '<p class="p200">Efter att ha förstått dina behov inlder vi processen av att behandla och balansera din blandhy. Vårt mål är att hitta rätt balans där din hy blir symtomfri så att du slipper tänka på din blandhy. Vi använder metoder skräddarsydda för dina unika behov, vilket ger optimala resultat. Genom denna behandlingsprocess minskar vi obalanser, främjar cellförnyelse och optimerar hudens fuktbalans. Behandlingsplanen anpassas efter hur din hud reagerar och utvecklas.</p>';
 
-$treat_content = '<p class="p200">När din aknetyp har identifierats, inleder vi fas två: behandling av den aktiva aknen. Här är målet framför allt att få bort inflammationerna och finnarna som riskerar att skada huden och leda till ärr. Vi tillämpar olika metoder för att anpassa behandlingen efter dina unika behov, vilket gör att vi kan maximera resultaten och minimera obehaget. Genom denna process minskar vi inflammation, rensar bort döda hudceller, och kontrollerar talgproduktionen, vilket över tid leder till minskad akne och dess förekomst. Vi anpassar behandlingsplanen efter din huds respons.</p>';
 
 $services = array(
     new Service(
         image_small: 'https://via.placeholder.com/358x274.jpg',
         image_large: 'https://via.placeholder.com/852x456.jpg',
-        image_title: 'Effektiv Ansiktsbehandling mot Akne på Acnespecialisten',
-        image_alt: 'Bild illustrerar en ansiktsbehandling mot akne utförd på Acnespecialisten',
+        image_title: 'Ansiktsbehandling för Blandhy hos Acnespecialisten',
+        image_alt: 'Bild illustrerar en ansiktsbehandling för blandhy utförd på Acnespecialisten',
 
-        title: 'Ansiktsbehandling mot Akne',
+        title: 'Ansiktsbehandling för Blandhy',
         duration: '60 minuter',
         price: 'Pris från 799 kr',
-        icons: array('who-infants' => 'Djuprengörande', 'who-elders' => 'Hudbalanserande', 'who-teenagers' => 'Porrensande', 'who-adults' => 'Anti-inflammatorisk'),
-        content: '<p class="p200">Ansiktsbehandling mot akne på Acnespecialisten är en djuprengöring av huden som tar bort döda hudceller och frigör tilltäppta porer. Behandlingen inleds med en rengöring, följt av ångning för att öppna upp porerna. Därefter följer en djup porrengöring där orenheter och akne elimineras. Behandlingen avslutas med en lugnande mask och fuktgivande kräm anpassad för din hudtyp.</p>',
+        icons: array('who-infants' => 'Balanserande', 'who-elders' => 'Hudbalanserande', 'who-teenagers' => 'Porrensande', 'who-adults' => 'Fuktgivande'),
+        content: '<p class="p200">Ansiktsbehandling för blandhy hos Acnespecialisten fokuserar på att balansera hudens oljiga och torra områden. Behandlingen inleds med en rengöring, följt av ångning för att öppna upp porerna. Därefter utförs en mild exfoliering för att jämna ut hudtonen och en djup porrengöring för att rensa orenheter. Avslutningsvis appliceras en lugnande mask och en fuktgivande kräm anpassad för blandhy.</p>',
 
-        consultation_url: 'boka-hudkonsultation-akne',
+        consultation_url: 'boka-hudkonsultation-blandhy',
         consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka Hudkonsultation för Akne på Acnespecialisten',
+        consultation_url_title: 'Boka Hudkonsultation för Blandhy hos Acnespecialisten',
 
-        booking_url: 'boka-djuprengörande-ansiktsbehandling-akne',
+        booking_url: 'boka-balanserande-ansiktsbehandling-blandhy',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka Din Ansiktsbehandling mot Akne på Acnespecialisten',
+        booking_url_title: 'Boka Din Ansiktsbehandling för Blandhy hos Acnespecialisten',
 
-        url: 'behandlingar/ansiktsbehandlingar-problemhy/acnebehandling',
-        url_label: 'Läs Mer om Vår Ansiktsbehandling mot Akne',
-        url_title: 'Mer Information om Vår Ansiktsbehandling mot Akne',
+        url: 'behandlingar/ansiktsbehandlingar-problemhy/blandhybehandling',
+        url_label: 'Läs Mer om Vår Ansiktsbehandling för Blandhy',
+        url_title: 'Mer Information om Vår Ansiktsbehandling för Blandhy',
 
         // short_title: 'Ansiktsbehandling'
 
@@ -94,22 +95,22 @@ $services = array(
     new Service(
         image_small: 'https://via.placeholder.com/358x274.jpg',
         image_large: 'https://via.placeholder.com/852x456.jpg',
-        image_title: 'Klient som genomgår laserbehandling mot akne',
-        image_alt: 'Bild av laserbehandling mot akne hos Acnespecialisten',
-        title: 'Effektiv laserbehandling mot akne',
+        image_title: 'Klient som genomgår laserbehandling för Blandhy',
+        image_alt: 'Bild av laserbehandling för blandhy hos Acnespecialisten',
+        title: 'Effektiv laserbehandling för Blandhy',
         duration: '30-60 min',
         price: '1295 kr',
-        icons: array('who-infants' => 'Precision', 'who-elders' => 'Icke-invasiv', 'who-teenagers' => 'Snabb', 'who-adults' => 'Effektiv'),
-        content: '<p class="p200">Laserbehandling för akne hos Acnespecialisten fungerar genom att använda ljusenergi för att behandla inflammationen i huden som orsakar akne. Laserstrålen tränger ner i huden och behandlar de djupa lager där akne börjar. Denna metod reducerar talgproduktionen i huden och dödar bakterier som bidrar till akneutbrott.</p>',
-        consultation_url: 'konsultation-laser',
+        icons: array('who-infants' => 'Precision', 'who-elders' => 'Icke-invasiv', 'who-teenagers' => 'Snabb', 'who-adults' => 'Balanserande'),
+        content: '<p class="p200">Laserbehandling för blandhy hos Acnespecialisten syftar till att balansera hudens torra och oljiga områden. Med hjälp av ljusenergi stimuleras huden att producera kollagen och balansera talgproduktionen. Resultatet är en jämnare och mer balanserad hudstruktur.</p>',
+        consultation_url: 'konsultation-laser-blandhy',
         consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka en konsultation för laserbehandling mot akne',
-        booking_url: 'boka-laserbehandling',
+        consultation_url_title: 'Boka en konsultation för laserbehandling för Blandhy',
+        booking_url: 'boka-laserbehandling-blandhy',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka din laserbehandling mot akne nu',
-        url: 'behandlingar/laserbehandling-mot-akne',
-        url_label: 'Läs mer om laserbehandlingar',
-        url_title: 'Utforska mer om våra laserbehandlingar mot akne',
+        booking_url_title: 'Boka din laserbehandling för Blandhy nu',
+        url: 'behandlingar/laserbehandling-mot-blandhy',
+        url_label: 'Läs mer om laserbehandlingar för Blandhy',
+        url_title: 'Utforska mer om våra laserbehandlingar för Blandhy',
 
         // short_title: 'Laser'
 
@@ -118,22 +119,22 @@ $services = array(
     new Service(
         image_small: 'https://via.placeholder.com/358x274.jpg',
         image_large: 'https://via.placeholder.com/852x456.jpg',
-        image_title: 'Utförande av kemisk peelingbehandling för akne',
-        image_alt: 'Bild på kemisk peelingbehandling mot akne hos Acnespecialisten',
-        title: 'Kemisk peeling mot akne',
+        image_title: 'Utförande av kemisk peelingbehandling för blandhy',
+        image_alt: 'Bild på kemisk peelingbehandling för blandhy hos Acnespecialisten',
+        title: 'Kemisk peeling för blandhy',
         duration: '30-60 min',
         price: '1295 kr',
-        icons: array('who-infants' => 'Exfolierande', 'who-elders' => 'Förnyande', 'who-teenagers' => 'Uppfräschande', 'who-adults' => 'Ljusande'),
-        content: '<p class="p200">Kemisk peeling är en av de mest effektiva metoderna för att behandla akne. På Acnespecialisten använder vi en speciell lösning som appliceras på huden för att avlägsna det översta lagret. Detta ger plats åt ny, frisk hud att växa fram, vilket bidrar till att reducera utseendet av akneärr och att förbättra hudens textur och utseende.</p>',
-        consultation_url: 'hudkonsultation',
+        icons: array('who-infants' => 'Exfolierande', 'who-elders' => 'Förnyande', 'who-teenagers' => 'Uppfräschande', 'who-adults' => 'Balanserande'),
+        content: '<p class="p200">Kemisk peeling är en effektiv metod för att behandla och balansera blandhy. På Acnespecialisten använder vi en speciell lösning som appliceras på huden för att avlägsna det översta lagret. Detta ger plats åt ny, frisk hud att växa fram, vilket bidrar till en jämnare hudton och förbättrad textur.</p>',
+        consultation_url: 'hudkonsultation-blandhy',
         consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka en konsultation för kemisk peeling mot akne',
-        url: 'behandlingar/kemisk-peeling-mot-akne',
-        url_label: 'Läs mer om kemisk peeling mot akne',
-        url_title: 'Utforska mer om vår kemiska peelingbehandling mot akne',
-        booking_url: 'boka-kemisk-peeling',
+        consultation_url_title: 'Boka en konsultation för kemisk peeling för blandhy',
+        url: 'behandlingar/kemisk-peeling-for-blandhy',
+        url_label: 'Läs mer om kemisk peeling för blandhy',
+        url_title: 'Utforska mer om vår kemiska peelingbehandling för blandhy',
+        booking_url: 'boka-kemisk-peeling-blandhy',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka din kemiska peeling mot akne nu',
+        booking_url_title: 'Boka din kemiska peeling för blandhy nu',
         short_title: 'Kemisk Peeling'
 
     ),
@@ -141,25 +142,26 @@ $services = array(
     new Service(
         image_small: 'https://via.placeholder.com/358x274.jpg',
         image_large: 'https://via.placeholder.com/852x456.jpg',
-        image_title: 'Utförande av microneedlingbehandling för akne',
-        image_alt: 'Bild på microneedlingbehandling mot akne hos Acnespecialisten',
-        title: 'Effektiv microneedling mot akne',
+        image_title: 'Utförande av microneedlingbehandling för blandhy',
+        image_alt: 'Bild på microneedlingbehandling för blandhy hos Acnespecialisten',
+        title: 'Effektiv microneedling för blandhy',
         duration: '30-60 min',
         price: '1295 kr',
-        icons: array('who-infants' => 'Stimulerande', 'who-elders' => 'Förnyande', 'who-teenagers' => 'Djupgående', 'who-adults' => 'Minskning av ärr'),
-        content: '<p class="p200">Microneedling är en effektiv behandlingsmetod mot akne som använder små mikronålar för att skapa mikroskopiska kanaler i huden. Detta stimulerar hudens naturliga läkningsprocess och ökar produktionen av kollagen och elastin. Microneedling behandlar även de underliggande problemen med akne genom att tillåta aktiva ingredienser att tränga djupare in i huden.</p>',
-        consultation_url: 'microneedling-konsultation',
+        icons: array('who-infants' => 'Stimulerande', 'who-elders' => 'Förnyande', 'who-teenagers' => 'Djupgående', 'who-adults' => 'Balanserande'),
+        content: '<p class="p200">Microneedling för blandhy stimulerar hudens naturliga förnyelseprocess för att balansera torra och oljiga områden. Genom att skapa mikroskopiska kanaler i huden, ökar behandlingen produktionen av kollagen och elastin. Dessutom tillåter microneedling aktiva ingredienser att tränga djupare in i huden, vilket hjälper till att balansera hudens textur och ton.</p>',
+        consultation_url: 'microneedling-konsultation-blandhy',
         consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka en konsultation för microneedling mot akne',
-        url: 'behandlingar/microneedling-mot-akne',
-        url_label: 'Läs mer om microneedling mot akne',
-        url_title: 'Utforska mer om vår microneedlingbehandling mot akne',
-        booking_url: 'boka-microneedling',
+        consultation_url_title: 'Boka en konsultation för microneedling för blandhy',
+        url: 'behandlingar/microneedling-for-blandhy',
+        url_label: 'Läs mer om microneedling för blandhy',
+        url_title: 'Utforska mer om vår microneedlingbehandling för blandhy',
+        booking_url: 'boka-microneedling-blandhy',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka din microneedling mot akne nu',
+        booking_url_title: 'Boka din microneedling för blandhy nu',
         short_title: 'Microneedling'
 
     ),
+
 );
 
 $headline03 = "03. Förebygg akne";
