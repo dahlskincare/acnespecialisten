@@ -530,11 +530,11 @@ $faq_categories = array(
             ),
             new Question(
                   title: 'Är blandhy genetiskt eller orsakat av yttre faktorer?',
-                  text: '<p class="p200">Blandhy är i grunden genetiskt, vilket betyder att om dina föräldrar eller nära släktingar har blandhy, kan du också ha en större benägenhet för det. För den som har dessa anlag kan yttre faktorer påverka huden och orsaka att blandhy uppstår. Faktorer som klimatförändringar, användning av vissa hudvårdsprodukter, hormonella förändringar, diet och livsstil kan alla påverka balansen mellan oljiga och torra områden på huden.</p>'
+                  text: '<p class="p200">Blandhy är i grunden genetiskt, vilket betyder att om dina föräldrar eller nära släktingar har blandhy, kan du också ha en större benägenhet för det. För den som har dessa anlag kan yttre faktorer påverka huden och orsaka att blandhy uppstår. Faktorer som klimat, användning av vissa hudvårdsprodukter, hormonella förändringar och livsstil kan alla påverka balansen mellan oljiga och torra områden på huden.</p>'
             ),
             new Question(
                   title: 'Kan jag förändra min hudtyp över tid?',
-                  text: '<p class="p200">Ja, din hudtyp kan förändras över tid beroende på flera faktorer. Åldrande är en stor faktor, eftersom huden tenderar att bli torrare med tiden. Hormonella förändringar, som de som uppstår under graviditet eller menopaus, kan också påverka hudtypen. Dessutom kan faktorer som klimat, användning av vissa mediciner, kost och hur du sköter om din hud alla leda till förändringar i hudtyp över tid.</p>'
+                  text: '<p class="p200">Ja, din hudtyp kan förändras över tid beroende på flera faktorer. Åldrande är en stor faktor, eftersom huden tenderar att bli torrare med tiden. Hormonella förändringar, som de som uppstår under graviditet eller menopaus, kan också påverka hudtypen. Dessutom kan faktorer som klimat, användning av vissa mediciner och hur du sköter om din hud alla leda till förändringar i hudtyp över tid.</p>'
             ),
             new Question(
                   title: 'Hur påverkar årstiderna och klimatet blandhy?',
@@ -544,11 +544,11 @@ $faq_categories = array(
       'Behandling mot akne' => array(
             new Question(
                   title: 'Vad är den mest effektiva behandlingsmetoden för blandhy?',
-                  text: '<p class="p200">Blandhy är unik eftersom det innebär att man har både torra och oljiga områden på huden, oftast torra kinder och en oljig T-zon (panna, näsa och haka). Den mest effektiva behandlingsmetoden är därför ofta en kombination av produkter och rutiner. Det handlar om att använda lättare, oljefria produkter på de oljiga områdena och mer återfuktande produkter på de torra delarna. Rengöring med ett mild rengöringsmedel som inte torkar ut huden är också viktigt. För många kan det också vara fördelaktigt att använda en toner som balanserar hudens pH-värde.</p>'
+                  text: '<p class="p200">Blandhy är unik eftersom det innebär att man har både torra och oljiga områden på huden, oftast torra kinder och en oljig T-zon (panna, näsa och haka). Den mest effektiva behandlingsmetoden är därför ofta en kombination av produkter och behandlingar. Det handlar om att använda återfukta och balansera huden effektivt för att reklera både de oljia och torra partierna.</p>'
             ),
             new Question(
                   title: 'Är det viktigt att använda en fuktkräm även på de oljiga delarna av mitt ansikte?',
-                  text: '<p class="p200">Ja, det är viktigt. Många tror felaktigt att de oljiga delarna av ansiktet inte behöver återfuktning, men olja och fukt är två olika saker. De oljiga delarna av ansiktet kan faktiskt vara uttorkade, vilket kan stimulera huden att producera ännu mer olja. Användning av en lätt, oljefri fuktkräm kan hjälpa till att balansera oljeproduktionen och ge huden den fukt den behöver.</p>'
+                  text: '<p class="p200">Ja, det är viktigt. Många tror felaktigt att de oljiga delarna av ansiktet har ett överskott av fukt ochdärför inte behöver återfuktning. Men i själva verket är oljiga partier och fukt två helt olika saker. Oljan är i själva verket talg som produceras av huden för att skydda och återfukta torr hud. Därför är det viktigt att återfukta både oljiga och torra delar av huden för att reglera och reducera talgproduktionen.</p>'
             ),
             new Question(
                   title: 'Finns det några professionella behandlingar som är särskilt bra för blandhy?',
@@ -556,7 +556,7 @@ $faq_categories = array(
             ),
             new Question(
                   title: 'Hur många behandlingar behövs?',
-                  text: '<p class="p200">Solskydd är avgörande för alla hudtyper, inklusive blandhy. Solens UV-strålar kan orsaka för tidigt åldrande, pigmentfläckar och öka risken för hudcancer. För personer med blandhy är det ofta bäst att välja en lätt, oljefri solkräm med bred spektrum (skydd mot både UVA- och UVB-strålar). Det finns även mattande solkrämer på marknaden som kan vara bra för de oljigare delarna av ansiktet. Det viktiga är att hitta en solkräm som känns behaglig på huden och att använda den dagligen, oavsett väder.</p>'
+                  text: '<p class="p200">Solskydd är avgörande för alla hudtyper, inklusive blandhy. Solens UV-strålar kan orsaka för tidigt åldrande, pigmentfläckar och öka risken för hudcancer. För personer med blandhy är det ofta bäst att välja en solkräm med bred spektrum (skydd mot både UVA- och UVB-strålar).  Det viktiga är att hitta en solkräm som är anpassad för huden i ansiktet och att använda den dagligen, oavsett väder.</p>'
             ),
       ),
 );
@@ -614,7 +614,7 @@ $skin_guide_articles = array(
 );
 
 $skinguide_url_label = "Läs fler guider";
-$skinguide_url_title = "Läs fler guider om akne";
+$skinguide_url_title = "Läs fler guider om blandhy";
 
 $specialists = array(
       new Specialist(
@@ -648,7 +648,7 @@ $specialists = array(
 );
 
 $specialist_url_label = "Se alla specialister";
-$specialist_url_title = "Akne Specialiserade Hudterapeuter";
+$specialist_url_title = "Blandhy Specialiserade Hudterapeuter";
 
 $related_problems = array(
       new RelatedProblem(
@@ -747,7 +747,7 @@ $brands = array(
 );
 
 $brands_url_label = "Se alla varumärken";
-$brands_url_title = "Varumärken för Aknebehandling";
+$brands_url_title = "Varumärken för Blandhybehandling";
 
 ?>
 
