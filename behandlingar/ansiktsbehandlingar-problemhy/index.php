@@ -70,50 +70,52 @@ $nav_buttons = array(
 );
 
 $description_title = 'Vad innebär ansiktsbehandlingar för problemhy?';
-$description_text = '<p class="p200">Denna behandling är skräddarsydd för dem med problemhy och erbjuder en effektiv start på hudens förbättring. Behandlingen rengör huden på djupet, särskilt nyttigt för de som lider av akne, finnar eller pormaskar. Med hjälp av en vapozone öppnas porerna upp genom ånga, vilket möjliggör en noggrann rengöring.</p><p class="p200 mt-m">Oavsett om du har blandhy, oljig, kombinerad, torr eller känslig hud, eller lider av specifika tillstånd som rosacea, seborré, perioral dermatit eller stora porer, anpassar denna behandling sig efter dina unika behov. Målet är att återställa hudens balans och ge den lyster och vitalitet den förtjänar.</p>';
+$description_text = '<p class="p200">Denna behandling är skräddarsydd för dem med problemhy och erbjuder en effektiv start på hudens förbättring. Behandlingen rengör huden på djupet, särskilt nyttigt för de som lider av akne, finnar eller pormaskar. Med hjälp av en vapozone öppnas porerna upp genom ånga, vilket möjliggör en noggrann rengöring.</p>
+<p class="p200 mt-m">Oavsett om du har blandhy, oljig, kombinerad, torr eller känslig hud, eller lider av specifika tillstånd som rosacea, seborré, perioral dermatit eller stora porer, anpassar denna behandling sig efter dina unika behov. Målet är att återställa hudens balans och ge den lyster och vitalitet den förtjänar.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Preparing for problem skin facials',
+        title: 'Förberedelser inför ansiktsbehandlingar för problemhy',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Preparing for problem skin facials',
-        image_title: 'Preparing for problem skin facials',
-        content: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>',
+        image_alt: 'Förberedelser inför ansiktsbehandlingar för problemhy',
+        image_title: 'Förberedelser inför ansiktsbehandlingar för problemhy',
+        content: '<p class="p200">Inför din ansiktsbehandling för problemhy hos oss behöver du inte tänka på något särskilt. Kom som du är, och vi tar hand om resten. Om du vill förbereda dig lite extra kan du tänka på följande: undvik att exfoliera huden dagen innan och undvik att sola några dagar innan behandlingen. Det kan också vara bra att komma med ett rent ansikte, utan smink. Informera gärna din hudterapeut i förväg om du tar några mediciner eller har några aktiva hudåkommor, så att behandlingen kan anpassas efter dina behov. Men det viktigaste är att du känner dig bekväm, så välj det som känns bäst för dig.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
-            label: 'Steam'
+            label: 'Ånga'
         ), new ArticleTag(
             icon: 'article-tag-extraction',
-            label: 'Extraction'
+            label: 'Extraktion'
         ), new ArticleTag(
             icon: 'article-tag-mask',
             label: 'Mask'
         ), new ArticleTag(
             icon: 'article-tag-cleansing',
-            label: 'Cleansing'
-        ))
+            label: 'Rengöring'
+        ),
     ),
     'process' => new Article(
-        title: 'Procedure process',
+        title: 'Hur går en ansiktsbehandling för problemhy till?',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Procedure process',
-        image_title: 'Procedure process',
-        content: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>',
+        image_alt: 'Processen för ansiktsbehandling mot problemhy',
+        image_title: 'Processen för ansiktsbehandling mot problemhy',
+        content: '<p class="p200">Vår ansiktsbehandling för problemhy är särskilt anpassad för att ta hand om hud med akne, pormaskar och andra problem. Behandlingen inleds med en rengöring av huden för att ta bort orenheter. Med hjälp av vapozone ångas huden upp, vilket öppnar porerna och förbereder huden för nästa steg.</p>
+        <p class="p200 mt-m">Efter ångprocessen fortsätter vi med en noggrann extraktion för att ta bort pormaskar och andra orenheter. Därefter appliceras en lugnande mask som hjälper till att minska rodnad och inflammation. Avslutningsvis rengörs huden ytterligare en gång och återfuktas för att ge ett fräscht och rent resultat. Vårt mål är att din hud ska kännas ren, frisk och förnyad efter behandlingen.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
-            label: 'Steam'
+            label: 'Ånga'
         ), new ArticleTag(
             icon: 'article-tag-extraction',
-            label: 'Extraction'
+            label: 'Extraktion'
         ), new ArticleTag(
             icon: 'article-tag-mask',
             label: 'Mask'
         ), new ArticleTag(
             icon: 'article-tag-cleansing',
-            label: 'Cleansing'
-        ))
+            label: 'Rengöring'
+        ),
     ),
 );
 
