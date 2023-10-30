@@ -121,8 +121,8 @@ $top_articles = array(
     ),
 );
 
-$types_title = 'Problem facials we provide';
-$types_description = 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.';
+$types_title = 'Ansiktsbehandlingar för problemhy';
+$types_description = '';
 $types = array(
     new Service(
         title: 'Chemical peeling',
