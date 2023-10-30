@@ -101,8 +101,10 @@ $top_articles = array(
         image_large: 'https://via.placeholder.com/872x456.webp',
         image_alt: 'Processen för ansiktsbehandling mot problemhy',
         image_title: 'Processen för ansiktsbehandling mot problemhy',
-        content: '<p class="p200">Vår ansiktsbehandling för problemhy är särskilt anpassad för att ta hand om hud med akne, pormaskar och andra problem. Behandlingen inleds med en rengöring av huden för att ta bort orenheter. Med hjälp av vapozone ångas huden upp, vilket öppnar porerna och förbereder huden för nästa steg.</p>
-        <p class="p200 mt-m">Efter ångprocessen fortsätter vi med en noggrann extraktion för att rensa porerna för att bli av med bland annat finnar och pormaskar. Därefter appliceras en lugnande mask som hjälper till att minska rodnad och inflammation.</p>',
+        content: '<p class="p200">Hos oss hittar du ansiktsbehandlingar designade för alla typer av problemhy. Vi förstår att varje persons hud är unik, och därför skräddarsyr vi varje behandling baserat på dina personliga och individuella behov. Vår expertis och omfattande kunskap säkerställer att du får den bästa möjliga vården för din hud.</p>
+
+        <p class="p200 mt-m">Varje behandling inleds med en noggrann rengöring för att avlägsna inkapslingar och tilltäpptheter. Därefter används en vapozone för att varsamt öppna upp huden och göra porerna mer mottagliga. Efter detta steg genomför vi en detaljerad extraktion där vi noggrant tömmer porerna på oönskade finnar, pormaskar och andra orenheter. För att lugna huden och minska eventuell rodnad eller irritation appliceras sedan en lugnande mask. Slutligen avslutas behandlingen med en intensiv återfuktning, vilket hjälper din hud att återhämta sig och känna sig förnyad.</p>',
+
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Ånga'
