@@ -93,7 +93,7 @@ $top_articles = array(
         ), new ArticleTag(
             icon: 'article-tag-cleansing',
             label: 'Rengöring'
-        ),
+        ))
     ),
     'process' => new Article(
         title: 'Hur går en ansiktsbehandling för problemhy till?',
@@ -117,7 +117,7 @@ $top_articles = array(
         ), new ArticleTag(
             icon: 'article-tag-cleansing',
             label: 'Rengöring'
-        ),
+        ))
     ),
 );
 
