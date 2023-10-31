@@ -23,19 +23,14 @@ $image_alt = 'Bild som illustrerar hur en blandhy ser ut';
 
 $akas = [
       new Link(
-            label: 'Finnar',
-            url: 'problem/finnar',
-            title: 'Allt du behöver veta om finnar och deras behandling'
+            label: 'Oljig & torr hy',
+            url: null,
+            title: 'Oljig & torr hy'
       ),
       new Link(
-            label: 'Vuxenakne',
-            url: 'problem/vuxenakne',
-            title: 'Utforska orsaker, symptom och behandlingar av vuxenakne'
-      ),
-      new Link(
-            label: 'Tonårsakne',
-            url: 'problem/tonarsakne',
-            title: 'Komplett guide om tonårsakne: orsaker, förebyggande och lösningar'
+            label: 'Yttorr hy',
+            url: null,
+            title: 'Yttorr hy'
       ),
 ];
 
