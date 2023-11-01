@@ -13,6 +13,7 @@ $seo_image = 'images/treatments/large/ansiktsbehandlingar-klassiska.jpg';
 
 $model = new Service(
     title: 'Klassiska ansiktsbehandlingar',
+    duration: null,
     price: 'Från 799 kr',
     content: 'Information om klassiska ansiktsbehandlingar',
     image_small: 'https://via.placeholder.com/358x274.webp',
