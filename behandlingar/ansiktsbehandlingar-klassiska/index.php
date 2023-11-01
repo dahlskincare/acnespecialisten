@@ -12,10 +12,9 @@ $seo_image = 'images/treatments/large/ansiktsbehandlingar-klassiska.jpg';
 
 
 $model = new Service(
-    title: 'Ansiktsbehandlingar för problemhy',
-    duration: '60 min',
+    title: 'Klassiska ansiktsbehandlingar',
     price: 'Från 799 kr',
-    content: '',
+    content: 'Information om klassiska ansiktsbehandlingar',
     image_small: 'https://via.placeholder.com/358x274.webp',
     image_large: 'https://via.placeholder.com/424x456.webp',
     image_alt: 'Ansiktsbehandlingar för problemhy',
@@ -26,32 +25,6 @@ $model = new Service(
     booking_url: 'https://bokadirekt.se',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
-    procedures: array(
-        new Procedure(
-            label: '1 procedure',
-            price: '995 kr',
-            savings: null,
-            booking_url: 'https://bokadirekt.se',
-            booking_url_label: 'Boka tid för behandling',
-            booking_url_title: 'Boka tid för behandling'
-        ),
-        new Procedure(
-            label: '3 procedures',
-            price: '2595 kr',
-            savings: '865 kr per behandling',
-            booking_url: 'https://bokadirekt.se',
-            booking_url_label: 'Boka tid för behandling',
-            booking_url_title: 'Boka tid för behandling'
-        ),
-        new Procedure(
-            label: '5 procedures',
-            price: '3995 kr',
-            savings: '799 kr per behandling',
-            booking_url: 'https://bokadirekt.se',
-            booking_url_label: 'Boka tid för behandling',
-            booking_url_title: 'Boka tid för behandling'
-        )
-    ),
 );
 
 $nav_buttons = array(
@@ -1108,7 +1081,7 @@ $all_brands = array(
                 </section>
                 <section id="skin-guide" class="large-margin">
                     <div class="flex-row justify-space-between">
-                        <h2 class="big l10n"><?php echo $skine_guide_title ?></h2>
+                        <h2 class="big l10n"><?php echo $skin_guide_title ?></h2>
                         <div class="is-hidden-touch">
                             <button class="round-large grey" onclick="scrollSkinGuide(-1)">
                                 <?php icon('arrow-left') ?>
