@@ -38,7 +38,7 @@ $model = new Service(
         new Procedure(
             label: '3 behandlingar',
             price: '2595 kr',
-            savings: '865 kr / st',
+            savings: '865 kr per besök',
             booking_url: 'https://bokadirekt.se',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
@@ -46,7 +46,7 @@ $model = new Service(
         new Procedure(
             label: '5 behandlingar',
             price: '3995 kr',
-            savings: '799 kr / st',
+            savings: '799 kr per besök',
             booking_url: 'https://bokadirekt.se',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
