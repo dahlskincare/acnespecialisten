@@ -3,12 +3,12 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Ansiktsbehandlingar för Problemhy - Effektiva behandlingar | Acnespecialisten';
-$seo_description = 'Utforska AcneSpecialistens skräddarsydda ansiktsbehandlingar för problemhy. Få djupgående kunskap om olika hudåkommor och vägledning för hur du bäst tar hand om dem. Expertbehandling och professionell rådgivning endast ett steg bort.';
-$seo_keywords = 'problemhy, ansiktsbehandlingar, hudproblem, förebygga problemhy, behandla problemhy, oren hud, hudrodnad, hudutslag, pormaskar, torr hud, oljig hud';
+$seo_title = 'Klassiska Ansiktsbehandlingar - Professionell Hudvård | AcneSpecialisten';
+$seo_description = 'Upptäck AcneSpecialistens klassiska ansiktsbehandlingar för optimal hudvård. Med vår expertis ger vi din hud den bästa omvårdnaden den förtjänar. Professionella behandlingar och rådgivning endast ett steg bort.';
+$seo_keywords = 'klassiska ansiktsbehandlingar, hudvård, förebyggande hudvård, professionell hudvård, hudförbättring, återfuktning, hudrengöring, AcneSpecialisten';
 
 
-$seo_image = 'images/treatments/large/ansiktsbehandlingar-problemhy.jpg';
+$seo_image = 'images/treatments/large/ansiktsbehandlingar-klassiska.jpg';
 
 
 $model = new Service(
