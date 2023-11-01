@@ -441,6 +441,7 @@ $faq_categories = array(
 
 $faq_view_more = 'Se alla frågor & svar';
 
+$skin_guide_title = 'Hudguiden';
 $skin_guide_articles = array(
     new SkinGuideArticle(
         url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
@@ -829,7 +830,7 @@ $all_brands = array(
                 </section>
                 <section id="skin-guide" class="large-margin">
                     <div class="flex-row justify-space-between">
-                        <h2 class="big l10n">Skin guide</h2>
+                        <h2 class="big l10n"><?php echo $skine_guide_title ?></h2>
                         <div class="is-hidden-touch">
                             <button class="round-large grey" onclick="scrollSkinGuide(-1)">
                                 <?php icon('arrow-left') ?>

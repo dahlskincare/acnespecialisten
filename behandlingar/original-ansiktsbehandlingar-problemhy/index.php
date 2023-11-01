@@ -334,7 +334,7 @@ $big_types = array(
     )
 );
 
-$combos_title = 'Popular treatment combinations';
+$combos_title = 'Populära behandlingskombinationer';
 $combos = array(
     new ServiceCombo(
         name: 'Combination 1',
@@ -591,7 +591,7 @@ $bottom_articles = array('aftercare' => new Article(
     tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
 
-$service_brands_title = 'Ansiktsbehandlingar för problemhy brands';
+$service_brands_title = 'Märken för ansiktsbehandlingar för problemhy';
 $service_brands_text = '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>';
 $service_brands = array(
     new Brand(
@@ -675,7 +675,7 @@ $results = array(
     ),
 );
 
-$reviews_title = 'Reviews';
+$reviews_title = 'Omdömen';
 $reviews = array(
     new Review(
         stars: 5,
@@ -694,9 +694,9 @@ $reviews = array(
         signature: 'Emily'
     )
 );
-$reviews_view_more = 'View all reviews';
+$reviews_view_more = 'Se alla omdömen';
 
-$faq_title = 'Questions & answers';
+$faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
@@ -717,8 +717,9 @@ $faq_categories = array(
         )
     )
 );
-$faq_view_more = 'View all questions';
+$faq_view_more = 'Se alla frågor & svar';
 
+$skin_guide_title = 'Hudguiden';
 $skin_guide_articles = array(
     new SkinGuideArticle(
         url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
@@ -731,9 +732,9 @@ $skin_guide_articles = array(
         image_title: 'Hormones effect',
     ),
 );
-$skin_guide_view_more = 'View all articles';
+$skin_guide_view_more = 'Se alla artiklar';
 
-$specialists_title = 'Our specialists';
+$specialists_title = 'Våra hudterpaueter';
 $specialists = array(
     new Specialist(
         name: 'Cazzandra Lindberg',
@@ -764,9 +765,9 @@ $specialists = array(
         image_title: 'Vilma Libom'
     )
 );
-$specialists_view_more = 'View all specialists';
+$specialists_view_more = 'Se alla hudterapeuter';
 
-$brands_title = 'Brands we use';
+$brands_title = 'Märken vi jobbar med';
 $all_brands = array(
     new Brand(
         label: 'Powerlite',
@@ -1107,7 +1108,7 @@ $all_brands = array(
                 </section>
                 <section id="skin-guide" class="large-margin">
                     <div class="flex-row justify-space-between">
-                        <h2 class="big l10n">Skin guide</h2>
+                        <h2 class="big l10n"><?php echo $skine_guide_title ?></h2>
                         <div class="is-hidden-touch">
                             <button class="round-large grey" onclick="scrollSkinGuide(-1)">
                                 <?php icon('arrow-left') ?>
