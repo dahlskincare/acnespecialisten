@@ -326,25 +326,8 @@ $bottom_articles = array('aftercare' => new Article(
     image_title: 'Eftervård och omhändertagande',
     content: '<p class="p200">Efter en ansiktsbehandling är det viktigt med rätt eftervård för att behandla och bibehålla hudens skick. Genom att fortsätta ta hand om huden med rätt hemmavård kan du förlänga och förstärka effekterna av behandlingen. Det handlar inte bara om att använda produkter utan också om att följa rätt behandlingsrutiner för just ditt behov.</p>
     <p class="p200 mt-m">Vi på AcneSpecialisten finns här för att hjälpa dig att ta fram den bästa hudvårdsplanen för din hudtyp. Oavsett om det handlar om daglig rengöring, återfuktning eller specialbehandlingar, så kommer vi att vägleda dig genom varje steg för att säkerställa att din hud får den vård den förtjänar. Kom ihåg, rätt eftervård är nyckeln till en frisk och strålande hud!</p>',
-    tags: array(new ArticleTag('article-tag-homecare', 'Hemmavård'), new ArticleTag('article-tag-maintenance', 'Underhåll'), new ArticleTag('article-tag-routine', 'Behandlingsrutiner'), new ArticleTag('article-tag-guidance', 'Vägledning'))
+    tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
-
-$service_brands_title = 'Ansiktsbehandlingar för problemhy brands';
-$service_brands_text = '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>';
-$service_brands = array(
-    new Brand(
-        label: 'Powerlite',
-        image: 'images/brands/powerlite.svg',
-        image_alt: 'Powerlite',
-        image_title: 'Powerlite'
-    ),
-    new Brand(
-        label: 'Dermapen4',
-        image: 'images/brands/dermapen4.svg',
-        image_alt: 'Dermapen4',
-        image_title: 'Dermapen4'
-    )
-);
 
 $results = array(
     new ResultCustomer(
@@ -432,30 +415,31 @@ $reviews = array(
         signature: 'Emily'
     )
 );
-$reviews_view_more = 'View all reviews';
+$reviews_view_more = 'Se alla omdömen';
 
-$faq_title = 'Questions & answers';
+$faq_title = 'Frågor & svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'How many treatments are needed?',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            title: 'Passar era ansiktsbehandlingar alla hudtyper?',
+            text: 'Ja, vi har ansiktsbehandlingar som passar alla hudtyper. Vi anpassar dessutom alltid våra behandlingar efter dina individuella behov så att du ska få ett så bra resultat som möjligt.'
         ),
         new Question(
-            title: 'Can my acne come back?',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            title: 'Är ansiktsbehandlingar effektiva mot pormaskar?',
+            text: 'Ja, många av våra ansiktsbehandlingar syftar till att djuprengöra porerna och kan vara särskilt effektiva mot pormaskar. Genom regelbundna behandlingar kan vi hjälpa till att minska och förebygga uppkomsten av nya pormaskar.'
         ),
         new Question(
-            title: 'How do I get rid of my acne fast?',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            title: 'Hur ofta bör jag boka en ansiktsbehandling för bästa resultat?',
+            text: 'Det beror på din specifika hudtyp och de problem du vill adressera. För vissa kan en månadsvis behandling vara optimal, medan andra kanske vill komma oftare i början för att hantera specifika hudproblem.'
         ),
         new Question(
-            title: 'Do I have acne even if I only have one pimple?',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            title: 'Hur vet jag vilken behandling som passar bäst för min problemhy?',
+            text: 'Det är bäst att boka en konsultation med en av våra hudterapeuter. Under konsultationen kommer vi att analysera din hud, diskutera dina bekymmer och rekommendera den bästa behandlingsplanen anpassad för dina specifika behov.'
         )
     )
 );
-$faq_view_more = 'View all questions';
+
+$faq_view_more = 'Se alla frågor & svar';
 
 $skin_guide_articles = array(
     new SkinGuideArticle(
@@ -469,9 +453,9 @@ $skin_guide_articles = array(
         image_title: 'Hormones effect',
     ),
 );
-$skin_guide_view_more = 'View all articles';
+$skin_guide_view_more = 'Visa alla artiklar';
 
-$specialists_title = 'Our specialists';
+$specialists_title = 'Våra hudterapeuter';
 $specialists = array(
     new Specialist(
         name: 'Cazzandra Lindberg',
@@ -502,9 +486,9 @@ $specialists = array(
         image_title: 'Vilma Libom'
     )
 );
-$specialists_view_more = 'View all specialists';
+$specialists_view_more = 'Se alla hudterapeuter';
 
-$brands_title = 'Brands we use';
+$brands_title = 'Märken vi jobbar med';
 $all_brands = array(
     new Brand(
         label: 'Powerlite',
