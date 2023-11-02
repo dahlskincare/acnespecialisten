@@ -94,12 +94,14 @@ $top_articles = array(
     ),
 );
 
+$types_title = 'Våra klassiska ansiktsbehandlingar';
+$types_description = 'Här hittar du vårt utbud av klassiska ansiktsbehandlingar.';
 $big_types = array(
     new Service(
         title: 'Klassisk',
         duration: '60 min',
         price: null,
-        content: 'Vår klassiska ansiktsbehandling passar för alla hudtyper. Behandlingen rengör och vårdar på djupet samtidigt som den återfuktar och fräschar upp. Under behandlingen rengörs din hy och döda hudceller rensas bort med en peeling. Sedan ångar vi upp hyn för att öppna upp porerna och genomför en lättare porrengöring, samt plock av dina bryn. Avslutningsvis lägger vi en ansiktsmask och en fuktbevarande dagkräm - självklart anpassad efter din hudtyp.',
+        content: '<p class="p200">Vår klassiska ansiktsbehandling är idealisk för alla, oavsett hudtyp. Den rengör, vårdar och återfuktar huden för att ge den ny lyster. Behandlingsprocessen inleds med rengöring, följt av en exfoliering som tar bort döda hudceller. Efter en varsam ångprocess som öppnar porerna, utför vi en försiktig porrengöring och brynplockning. Slutligen appliceras en närande ansiktsmask och en återfuktande dagkräm, skräddarsydd för just din hud.</p>',
         image_small: 'https://via.placeholder.com/358x274.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
         image_alt: 'Klassisk',
@@ -133,20 +135,45 @@ $big_types = array(
         )
     ),
     new Service(
-        title: "The skin therapist's choice",
+        title: 'Ansiktsbehandling - Antistress',
         duration: '60 min',
         price: null,
-        content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
+        content: '<p class="p200">Unna dig en paus från vardagens hektik med vår Ansiktsbehandling Antistress. Den börjar med en lätt rengöring för att varsamt fräscha upp huden. Den vitaliserande oljemassagen ger en känsla av avkoppling och balans. Behandlingen avslutas med vår skräddarsydda LED-ljusterapi och en närande kräm, allt för att säkerställa en total känsla av välbefinnande.</p>',
         image_small: 'https://via.placeholder.com/358x274.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: "The skin therapist's choice",
-        image_title: "The skin therapist's choice",
+        image_alt: 'Ansiktsbehandling - Antistress',
+        image_title: 'Ansiktsbehandling - Antistress',
         consultation_url: 'hudkonsultation',
         consultation_url_label: 'Boka tid för hudkonsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: "Book a skin therapist's choice treatment",
-        booking_url_title: "Book a skin therapist's choice treatment",
+        booking_url_label: 'Boka en Antistress ansiktsbehandling',
+        booking_url_title: 'Boka en Antistress ansiktsbehandling',
+        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
+        procedures: array(
+            new Procedure(
+                label: '1 procedure',
+                price: '1295 kr',
+                savings: null,
+                booking_url: 'https://www.bokadirekt.se'
+            ),
+        )
+    ),
+    new Service(
+        title: 'Hudterapeutens val',
+        duration: '60 min',
+        price: null,
+        content: '<p class="p200">En ansiktsbehandling som skräddarsys helt efter dina behov och vår hudterapeuts rekommendationer. Behandlingen inkluderar en Lumafuse med LED-mask och kompletteras med olika moment som bäst passar din hudtyp. Exempelvis kan detta inkludera en djuprengöring med Peel2glow, brynstyling samt olika masker och serum som är särskilt utvalda för dig.</p>',
+        image_small: 'https://via.placeholder.com/358x274.webp',
+        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_alt: 'Hudterapeutens val',
+        image_title: 'Hudterapeutens val',
+        consultation_url: 'hudkonsultation',
+        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka en behandling enligt hudterapeutens val',
+        booking_url_title: 'Boka en behandling enligt hudterapeutens val',
         icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
         procedures: array(
             new Procedure(
@@ -173,7 +200,7 @@ $big_types = array(
         title: 'Peel, Boost & Glow',
         duration: '60 min',
         price: null,
-        content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
+        content: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... </p>',
         image_small: 'https://via.placeholder.com/358x274.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
         image_alt: 'Peel, Boost & Glow',
@@ -209,7 +236,7 @@ $big_types = array(
         title: 'Luxury',
         duration: '60 min',
         price: null,
-        content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
+        content: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin...</p>',
         image_small: 'https://via.placeholder.com/358x274.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
         image_alt: 'Luxury',
