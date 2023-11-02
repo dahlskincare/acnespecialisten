@@ -99,7 +99,7 @@ $big_types = array(
         title: 'Klassisk',
         duration: '60 min',
         price: null,
-        content: 'Vår klassiska ansiktsbehandling passar för alla hudtyper. Behandlingen rengör och vårdar på djupet samtidigt som den återfuktar och fräschar upp. Under behandlingen rengörs din hy och döda hudceller rensas bort med en peeling. Sedan ångar vi upp hyn för att öppna upp porerna och genomför en lättare porrengöring, samt plock av dina bryn. Avslutningsvis lägger vi en ansiktsmask och en fuktbevarande dagkräm - självklart anpassad efter din hudtyp.',
+        content: 'Vår klassiska ansiktsbehandling är idealisk för alla, oavsett hudtyp. Den rengör, vårdar och återfuktar huden för att ge den ny lyster. Behandlingsprocessen inleds med rengöring, följt av en exfoliering som tar bort döda hudceller. Efter en varsam ångprocess som öppnar porerna, utför vi en försiktig porrengöring och brynplockning. Slutligen appliceras en närande ansiktsmask och en återfuktande dagkräm, skräddarsydd för just din hud.',
         image_small: 'https://via.placeholder.com/358x274.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
         image_alt: 'Klassisk',
@@ -130,6 +130,31 @@ $big_types = array(
                 price: '799 kr per besök',
                 booking_url: 'https://www.bokadirekt.se'
             )
+        )
+    ),
+    new Service(
+        title: 'Ansiktsbehandling - Antistress',
+        duration: '60 min',
+        price: null,
+        content: 'Unna dig en paus från vardagens hektik med vår Ansiktsbehandling Antistress. Den börjar med en lätt rengöring för att varsamt fräscha upp huden. Den vitaliserande oljemassagen ger en känsla av avkoppling och balans. Behandlingen avslutas med vår skräddarsydda LED-ljusterapi och en närande kräm, allt för att säkerställa en total känsla av välbefinnande.',
+        image_small: 'https://via.placeholder.com/358x274.webp',
+        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_alt: 'Ansiktsbehandling - Antistress',
+        image_title: 'Ansiktsbehandling - Antistress',
+        consultation_url: 'hudkonsultation',
+        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka en Antistress ansiktsbehandling',
+        booking_url_title: 'Boka en Antistress ansiktsbehandling',
+        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
+        procedures: array(
+            new Procedure(
+                label: '1 procedure',
+                price: '1295 kr',
+                savings: null,
+                booking_url: 'https://www.bokadirekt.se'
+            ),
         )
     ),
     new Service(
