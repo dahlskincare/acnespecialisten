@@ -15,7 +15,7 @@ $model = new Service(
     title: 'Klassiska ansiktsbehandlingar',
     duration: null,
     price: 'Från 799 kr',
-    content: 'Hos oss på AcneSpecialisten erbjuder vi ett brett utbud av klassiska ansiktsbehandlingar anpassade för varje individs unika behov. Oavsett om du befinner dig på Östermalm, Södermalm eller i Sundbyberg, kan du välja den behandling som bäst matchar din hudtyp och dina önskemål. Vare sig du är ute efter att ge din mogen hy lite extra omsorg, vill återfukta huden eller bara vill unna dig själv en stunds lyx – vi har något för alla.',
+    content: '<p class="p200">Hos oss på AcneSpecialisten erbjuder vi ett brett utbud av klassiska ansiktsbehandlingar anpassade för varje individs unika behov. Oavsett om du befinner dig på Östermalm, Södermalm eller i Sundbyberg, kan du välja den behandling som bäst matchar din hudtyp och dina önskemål. Vare sig du är ute efter att ge din mogen hy lite extra omsorg, vill återfukta huden eller bara vill unna dig själv en stunds lyx – vi har något för alla.</p>',
     image_small: 'https://via.placeholder.com/358x274.webp',
     image_large: 'https://via.placeholder.com/424x456.webp',
     image_alt: 'Ansiktsbehandlingar för problemhy',
@@ -115,19 +115,19 @@ $big_types = array(
             new Procedure(
                 label: '1 procedure',
                 price: '995 kr',
-                savings: 'save $500',
+                savings: null,
                 booking_url: 'https://www.bokadirekt.se'
             ),
             new Procedure(
                 label: '3 procedures',
-                savings: 'save $500',
-                price: '£2 595',
+                price: '2595 kr',
+                savings: '865 kr per besök',
                 booking_url: 'https://www.bokadirekt.se'
             ),
             new Procedure(
                 label: '5 procedures',
-                savings: 'save $500',
-                price: '£3 995',
+                savings: '2595 kr',
+                price: '799 kr per besök',
                 booking_url: 'https://www.bokadirekt.se'
             )
         )
