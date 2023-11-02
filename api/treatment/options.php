@@ -42,4 +42,4 @@ foreach ($result as $row) {
     $options[] = $row;
 }
 
-echo json_encode($options, JSON_UNESCAPED_SLASHES | JSON_NUMERIC_CHECK | JSON_UNESCAPED_UNICODE);
+echo json_encode($options, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
