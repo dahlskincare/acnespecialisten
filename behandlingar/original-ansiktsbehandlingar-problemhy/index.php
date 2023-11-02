@@ -211,14 +211,14 @@ $big_types = array(
             ),
             new Procedure(
                 label: '3 procedures',
-                savings: 'save $500',
                 price: '£2 595',
+                savings: 'save $500',
                 booking_url: 'https://www.bokadirekt.se'
             ),
             new Procedure(
                 label: '5 procedures',
-                savings: 'save $500',
                 price: '£3 995',
+                savings: 'save $500',
                 booking_url: 'https://www.bokadirekt.se'
             )
         )

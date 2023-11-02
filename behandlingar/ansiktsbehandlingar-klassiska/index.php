@@ -15,7 +15,7 @@ $model = new Service(
     title: 'Klassiska ansiktsbehandlingar',
     duration: null,
     price: 'Från 799 kr',
-    content: 'Hos oss på AcneSpecialisten erbjuder vi ett brett utbud av klassiska ansiktsbehandlingar anpassade för varje individs unika behov. Oavsett om du befinner dig på Östermalm, Södermalm eller i Sundbyberg, kan du välja den behandling som bäst matchar din hudtyp och dina önskemål. Vare sig du är ute efter att ge din mogen hy lite extra omsorg, vill återfukta huden eller bara vill unna dig själv en stunds lyx – vi har något för alla.',
+    content: '<p class="p200">Hos oss på AcneSpecialisten erbjuder vi ett brett utbud av klassiska ansiktsbehandlingar anpassade för varje individs unika behov. Oavsett om du befinner dig på Östermalm, Södermalm eller i Sundbyberg, kan du välja den behandling som bäst matchar din hudtyp och dina önskemål. Vare sig du är ute efter att ge din mogen hy lite extra omsorg, vill återfukta huden eller bara vill unna dig själv en stunds lyx – vi har något för alla.</p>',
     image_small: 'https://via.placeholder.com/358x274.webp',
     image_large: 'https://via.placeholder.com/424x456.webp',
     image_alt: 'Ansiktsbehandlingar för problemhy',
@@ -76,8 +76,8 @@ $top_articles = array(
     image_large: 'https://via.placeholder.com/872x456.webp',
     image_alt: 'Processen för klassiska ansiktsbehandlingar',
     image_title: 'Processen för klassiska ansiktsbehandlingar',
-    content: '<p class="p200">Våra klassiska ansiktsbehandlingar inleds med en noggrann rengöring av huden. Under behandlingen öppnas porerna upp med hjälp av en vapozone som ångar upp huden, vilket möjliggör en djup rengöring. Detta steg är särskilt viktigt för att ta bort orenheter, smuts och olja som kan leda till akne och finnar.</p>
-    <p class="p200 mt-m">Efter rengöringen tillämpas individuellt anpassade produkter och tekniker beroende på hudens tillstånd och behov. Det kan inkludera fuktgivande behandlingar, exfoliering eller särskilda masker. Vårt mål är att ge din hud den omsorg och uppmärksamhet den behöver, och att du ska lämna vår klinik med en förnyad, återfuktad och strålande hy. Hos AcneSpecialisten är du alltid i trygga händer.</p>',
+    content: '<p class="p200">Hos AcneSpecialisten anpassas varje ansiktsbehandling efter den specifika behandling du väljer, men det finns vissa gemensamma steg som ingår i de flesta av våra klassiska ansiktsbehandlingar. Behandlingen inleds alltid med en rengöring av huden för att avlägsna smuts, talg och orenheter. Detta förbereder huden för de följande stegen och säkerställer att den kan dra nytta av de produkter och metoder som används.</p>
+    <p class="p200 mt-m">Efter rengöringen kan en exfoliering genomföras för att ta bort döda hudceller och främja cellförnyelse. En ångbehandling kan också inkluderas för att öppna upp porerna och underlätta extraktion av pormaskar och akne. Därefter kan individuellt anpassade masker och serum appliceras baserat på hudens behov. Behandlingen avslutas ofta med en fuktighetskräm eller solskydd. Genom hela processen prioriteras din huds välbefinnande och komfort, och varje steg är skräddarsytt för att ge optimala resultat.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -94,108 +94,40 @@ $top_articles = array(
     ),
 );
 
-$types_title = 'Problem facials we provide';
-$types_description = 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.';
-$types = array(
-    new Service(
-        title: 'Chemical peeling',
-        duration: null,
-        price: null,
-        content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
-        image_small: 'https://via.placeholder.com/102x102.jpg',
-        image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Chemical peeling',
-        image_title: 'Chemical peeling',
-        consultation_url: 'hudkonsultation',
-        consultation_url_label: 'Boka tid för hudkonsultation',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Book a chemical peeling',
-        booking_url_title: 'Book a chemical peeling',
-    ),
-    new Service(
-        title: 'Laser',
-        duration: null,
-        price: null,
-        content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
-        image_small: 'https://via.placeholder.com/102x102.jpg',
-        image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Laser',
-        image_title: 'Laser',
-        consultation_url: 'hudkonsultation',
-        consultation_url_label: 'Boka tid för hudkonsultation',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Book a laser treatment',
-        booking_url_title: 'Book a laser treatment',
-    ),
-    new Service(
-        title: 'IPL',
-        duration: null,
-        price: null,
-        content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
-        image_small: 'https://via.placeholder.com/102x102.jpg',
-        image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'IPL',
-        image_title: 'IPL',
-        consultation_url: 'hudkonsultation',
-        consultation_url_label: 'Boka tid för hudkonsultation',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Book a IPL treatment',
-        booking_url_title: 'Book a IPL treatment',
-    ),
-    new Service(
-        title: 'FreezeTreat',
-        duration: null,
-        price: null,
-        content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
-        image_small: 'https://via.placeholder.com/102x102.jpg',
-        image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'FreezeTreat',
-        image_title: 'FreezeTreat',
-        consultation_url: 'hudkonsultation',
-        consultation_url_label: 'Boka tid för hudkonsultation',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Book a FreezeTreat treatment',
-        booking_url_title: 'Book a FreezeTreat treatment',
-    )
-);
 $big_types = array(
     new Service(
-        title: 'Classic',
+        title: 'Klassisk',
         duration: '60 min',
         price: null,
-        content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
+        content: 'Vår klassiska ansiktsbehandling passar för alla hudtyper. Behandlingen rengör och vårdar på djupet samtidigt som den återfuktar och fräschar upp. Under behandlingen rengörs din hy och döda hudceller rensas bort med en peeling. Sedan ångar vi upp hyn för att öppna upp porerna och genomför en lättare porrengöring, samt plock av dina bryn. Avslutningsvis lägger vi en ansiktsmask och en fuktbevarande dagkräm - självklart anpassad efter din hudtyp.',
         image_small: 'https://via.placeholder.com/358x274.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Classic',
-        image_title: 'Classic',
+        image_alt: 'Klassisk',
+        image_title: 'Klassisk',
         consultation_url: 'hudkonsultation',
         consultation_url_label: 'Boka tid för hudkonsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Book a classic treatment',
-        booking_url_title: 'Book a classic treatment',
+        booking_url_label: 'Boka klassisk behandling',
+        booking_url_title: 'Boka klassisk behandling',
         icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
         procedures: array(
             new Procedure(
                 label: '1 procedure',
-                price: '£1 995',
-                savings: 'save $500',
+                price: '995 kr',
+                savings: null,
                 booking_url: 'https://www.bokadirekt.se'
             ),
             new Procedure(
                 label: '3 procedures',
-                savings: 'save $500',
-                price: '£2 595',
+                price: '2595 kr',
+                savings: '865 kr per besök',
                 booking_url: 'https://www.bokadirekt.se'
             ),
             new Procedure(
                 label: '5 procedures',
-                savings: 'save $500',
-                price: '£3 995',
+                savings: '2595 kr',
+                price: '799 kr per besök',
                 booking_url: 'https://www.bokadirekt.se'
             )
         )
