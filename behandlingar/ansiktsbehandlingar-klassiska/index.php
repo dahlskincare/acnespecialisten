@@ -94,6 +94,8 @@ $top_articles = array(
     ),
 );
 
+$types_title = 'Våra klassiska ansiktsbehandlingar';
+$types_description = 'Här hittar du vårt utbud av klassiska ansiktsbehandlingar.';
 $big_types = array(
     new Service(
         title: 'Klassisk',
@@ -158,20 +160,20 @@ $big_types = array(
         )
     ),
     new Service(
-        title: "The skin therapist's choice",
+        title: 'Hudterapeutens val',
         duration: '60 min',
         price: null,
-        content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
+        content: 'En ansiktsbehandling som skräddarsys helt efter dina behov och vår hudterapeuts rekommendationer. Behandlingen inkluderar en Lumafuse med LED-mask och kompletteras med olika moment som bäst passar din hudtyp. Exempelvis kan detta inkludera en djuprengöring med Peel2glow, brynstyling samt olika masker och serum som är särskilt utvalda för dig.',
         image_small: 'https://via.placeholder.com/358x274.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: "The skin therapist's choice",
-        image_title: "The skin therapist's choice",
+        image_alt: 'Hudterapeutens val',
+        image_title: 'Hudterapeutens val',
         consultation_url: 'hudkonsultation',
         consultation_url_label: 'Boka tid för hudkonsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: "Book a skin therapist's choice treatment",
-        booking_url_title: "Book a skin therapist's choice treatment",
+        booking_url_label: 'Boka en behandling enligt hudterapeutens val',
+        booking_url_title: 'Boka en behandling enligt hudterapeutens val',
         icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
         procedures: array(
             new Procedure(
