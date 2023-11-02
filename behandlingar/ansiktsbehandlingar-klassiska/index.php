@@ -49,12 +49,13 @@ $description_text = '<p class="p200">Klassiska ansiktsbehandlingar är en grunds
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Preparing for problem skin facials',
+        title: 'Förberedelse inför klassiska ansiktsbehandlingar',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Preparing for problem skin facials',
-        image_title: 'Preparing for problem skin facials',
-        content: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>',
+        image_alt: 'Förberedelse inför klassiska ansiktsbehandlingar',
+        image_title: 'Förberedelse inför klassiska ansiktsbehandlingar',
+        content: '<p class="p200">Hos AcneSpecialisten är vårt främsta mål att du ska känna dig bekväm och väl omhändertagen. Om du vill kan du vidta vissa förberedande åtgärder innan din ansiktsbehandling, såsom att undvika starka hudprodukter eller direkt solljus. Men det är viktigt att betona att du alltid kan komma precis som du är. Vi förstår att varje individ är unik, och vi anpassar varje behandling efter dina specifika behov och önskemål.</p>
+        <p class="p200 mt-m">Om du har några specifika bekymmer eller frågor inför din behandling, tveka inte att meddela oss. Vår prioritet är din komfort och att leverera den bästa möjliga behandlingen för dig. Välkommen till en avslappnande och förnyande upplevelse hos oss på AcneSpecialisten!</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -70,12 +71,13 @@ $top_articles = array(
         ))
     ),
     'process' => new Article(
-        title: 'Procedure process',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Procedure process',
-        image_title: 'Procedure process',
-        content: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>',
+        title: 'Processen för klassiska ansiktsbehandlingar',
+    image_small: 'https://via.placeholder.com/358x272.webp',
+    image_large: 'https://via.placeholder.com/872x456.webp',
+    image_alt: 'Processen för klassiska ansiktsbehandlingar',
+    image_title: 'Processen för klassiska ansiktsbehandlingar',
+    content: '<p class="p200">Våra klassiska ansiktsbehandlingar inleds med en noggrann rengöring av huden. Under behandlingen öppnas porerna upp med hjälp av en vapozone som ångar upp huden, vilket möjliggör en djup rengöring. Detta steg är särskilt viktigt för att ta bort orenheter, smuts och olja som kan leda till akne och finnar.</p>
+    <p class="p200 mt-m">Efter rengöringen tillämpas individuellt anpassade produkter och tekniker beroende på hudens tillstånd och behov. Det kan inkludera fuktgivande behandlingar, exfoliering eller särskilda masker. Vårt mål är att ge din hud den omsorg och uppmärksamhet den behöver, och att du ska lämna vår klinik med en förnyad, återfuktad och strålande hy. Hos AcneSpecialisten är du alltid i trygga händer.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
