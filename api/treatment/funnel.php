@@ -33,7 +33,9 @@ $query = "
     SELECT flow.id, 
     step1.title_$language AS step1_title, step2.title_$language AS step2_title, step3.title_$language AS step3_title, step4.title_$language AS step4_title,
     step1.consultation_banner AS step1_consultation_banner, step2.consultation_banner AS step2_consultation_banner, step3.consultation_banner AS step3_consultation_banner, step4.consultation_banner AS step4_consultation_banner,
-    step1.can_skip AS step1_can_skip, step2.can_skip AS step2_can_skip, step3.can_skip AS step3_can_skip, step4.can_skip AS step4_can_skip
+    step1.can_skip AS step1_can_skip, step2.can_skip AS step2_can_skip, step3.can_skip AS step3_can_skip, step4.can_skip AS step4_can_skip,
+    step1.multiselect AS step1_multiselect, step2.multiselect AS step2_multiselect, step3.multiselect AS step3_multiselect, step4.multiselect AS step4_multiselect,
+    step1.next_step_label_$language AS step1_next_step_label, step2.next_step_label_$language AS step2_next_step_label, step3.next_step_label_$language AS step3_next_step_label, step4.next_step_label_$language AS step4_next_step_label,
     FROM t_flow flow
     LEFT JOIN t_step step1 ON step1.id = flow.step1_id
     LEFT JOIN t_step step2 ON step2.id = flow.step2_id
@@ -54,11 +56,14 @@ if (!$rs) {
 
 $steps = array();
 for ($i = 1; $i < 5; $i++) {
+
     if (isset($rs['step' . $i . '_title'])) {
         $steps[] = array(
             'title' => $rs['step' . $i . '_title'],
             'consultation_banner' => $rs['step' . $i . '_consultation_banner'],
-            'can_skip' => $rs['step' . $i . '_can_skip']
+            'can_skip' => $rs['step' . $i . '_can_skip'],
+            'multiselect' => $rs['step' . $i . '_multiselect'],
+            'next_step_label' => $rs['step' . $i . '_next_step_label'],
         );
     }
 }
