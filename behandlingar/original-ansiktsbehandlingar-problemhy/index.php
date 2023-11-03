@@ -1139,9 +1139,9 @@ $all_brands = array(
             </div>
             <section id="brands">
                 <div class="flex-row align-end justify-space-between">
-                    <h2 class="big l10n">Brands we use</h2>
+                    <h2 class="big l10n"><?php echo $brands_title ?></h2>
                     <a href="varumarken" class="button compact text is-hidden-mobile">
-                        <span class="l10n">View all brands</span>
+                        <span class="l10n">Se alla märken</span>
                         <?php icon('navigate-next') ?>
                     </a>
                 </div>
