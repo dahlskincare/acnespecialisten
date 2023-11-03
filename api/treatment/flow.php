@@ -26,7 +26,7 @@ if (!array_key_exists('flowUrl', $_GET)) {
     http_response_code(400);
     die('Missing required parameter: flowUrl');
 }
-$where = "flow.url = '" . mysqli_real_escape_string($conn, $_GET['flowUrl']) . "'";
+$where = "flow.url = '" . mysqli_real_escape_string($conn, $_GET['id']) . "'";
 
 // Get flow steps
 $query = "
