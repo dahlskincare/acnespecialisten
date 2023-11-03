@@ -22,9 +22,9 @@ if (!$conn) {
 mysqli_set_charset($conn, 'utf8');
 mysqli_select_db($conn, $dbname);
 
-if (!array_key_exists('flowUrl', $_GET)) {
+if (!array_key_exists('id', $_GET)) {
     http_response_code(400);
-    die('Missing required parameter: flowUrl');
+    die('Missing required parameter: id');
 }
 $where = "flow.url = '" . mysqli_real_escape_string($conn, $_GET['id']) . "'";
 
