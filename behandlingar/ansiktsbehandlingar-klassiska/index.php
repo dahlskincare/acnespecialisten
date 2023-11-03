@@ -185,13 +185,13 @@ $big_types = array(
             new Procedure(
                 label: '3 procedures',
                 price: '3995 kr',
-                savings: 'save $1000!',
+                savings: 'spara 790 kr',
                 booking_url: 'https://www.bokadirekt.se'
             ),
             new Procedure(
                 label: '5 procedures',
-                price: '4995 kr',
-                savings: 'save 1 million!',
+                price: '5995 kr',
+                savings: 'spara 1980 kr',
                 booking_url: 'https://www.bokadirekt.se'
             )
         )
