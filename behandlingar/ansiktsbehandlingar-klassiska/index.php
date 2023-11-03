@@ -115,19 +115,19 @@ $big_types = array(
         icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
         procedures: array(
             new Procedure(
-                label: '1 procedure',
+                label: '1 behandling',
                 price: '995 kr',
                 savings: null,
                 booking_url: 'https://www.bokadirekt.se'
             ),
             new Procedure(
-                label: '3 procedures',
+                label: '3 behandlingar',
                 price: '2595 kr',
                 savings: '865 kr per besök',
                 booking_url: 'https://www.bokadirekt.se'
             ),
             new Procedure(
-                label: '5 procedures',
+                label: '5 behandlingar',
                 savings: '2595 kr',
                 price: '799 kr per besök',
                 booking_url: 'https://www.bokadirekt.se'
@@ -152,7 +152,7 @@ $big_types = array(
         icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
         procedures: array(
             new Procedure(
-                label: '1 procedure',
+                label: '1 behandling',
                 price: '1295 kr',
                 savings: null,
                 booking_url: 'https://www.bokadirekt.se'
@@ -163,7 +163,7 @@ $big_types = array(
         title: 'Hudterapeutens val',
         duration: '60 min',
         price: null,
-        content: '<p class="p200">En ansiktsbehandling som skräddarsys helt efter dina behov och vår hudterapeuts rekommendationer. Behandlingen inkluderar en Lumafuse med LED-mask och kompletteras med olika moment som bäst passar din hudtyp. Exempelvis kan detta inkludera en djuprengöring med Peel2glow, brynstyling samt olika masker och serum som är särskilt utvalda för dig.</p>',
+        content: '<p class="p200">En ansiktsbehandling som skräddarsys helt efter dina behov och vår hudterapeuts rekommendationer. Behandlingen inkluderar en Lumafuse med LED-mask och kompletteras med olika moment som bäst passar din hudtyp. Exempelvis kan detta inkludera en djuprengöring med peel, boost & glow, brynstyling samt olika masker och serum som är särskilt utvalda för dig.</p>',
         image_small: 'https://via.placeholder.com/358x274.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
         image_alt: 'Hudterapeutens val',
@@ -177,19 +177,19 @@ $big_types = array(
         icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
         procedures: array(
             new Procedure(
-                label: '1 procedure',
+                label: '1 behandling',
                 price: '1595 kr',
                 savings: null,
                 booking_url: 'https://www.bokadirekt.se'
             ),
             new Procedure(
-                label: '3 procedures',
+                label: '3 behandlingar',
                 price: '3995 kr',
                 savings: 'spara 790 kr',
                 booking_url: 'https://www.bokadirekt.se'
             ),
             new Procedure(
-                label: '5 procedures',
+                label: '5 behandlingar',
                 price: '5995 kr',
                 savings: 'spara 1980 kr',
                 booking_url: 'https://www.bokadirekt.se'
@@ -200,7 +200,7 @@ $big_types = array(
         title: 'Peel, Boost & Glow',
         duration: '60 min',
         price: null,
-        content: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... </p>',
+         content: '<p class="p200">För en uppfriskande och lystergivande upplevelse, prova vår Peel, Boost & Glow behandling. Den här sessionen är idealisk för dig som söker en intensiv fuktboost kombinerat med en omedelbar lyster. Vi använder oss av avancerade syrabaserade produkter för att noggrant rena huden och minimera porerna. Brynplock ingår också i behandlingen för att fullända din look. Avslutningsvis applicerar vi en djupt återfuktande sheetmask och använder LED-ljusteknik för att främja anti-age effekter och förbättra mikrocirkulationen i huden.</p>',
         image_small: 'https://via.placeholder.com/358x274.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
         image_alt: 'Peel, Boost & Glow',
@@ -209,340 +209,80 @@ $big_types = array(
         consultation_url_label: 'Boka tid för hudkonsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Book a Peel, Boost & Glow treatment',
-        booking_url_title: 'Book a Peel, Boost & Glow treatment',
+        booking_url_label: 'Boka Peel, Boost & Glow behandling',
+        booking_url_title: 'Boka Peel, Boost & Glow behandling',
         icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
         procedures: array(
             new Procedure(
-                label: '1 procedure',
-                price: '£1 995',
+                label: '1 behandling',
+                price: '1595 kr',
+                savings: null,
                 booking_url: 'https://www.bokadirekt.se'
             ),
             new Procedure(
-                label: '3 procedures',
-                price: '£2 595',
-                savings: 'Save 1000',
+                label: '3 behandlingar',
+                price: '3995 kr',
+                savings: 'spara 790 kr',
                 booking_url: 'https://www.bokadirekt.se'
             ),
             new Procedure(
-                label: '5 procedures',
-                price: '£3 995',
-                savings: 'Save 1000',
+                label: '5 behandlingar',
+                price: '5995 kr',
+                savings: 'spara 1980 kr',
                 booking_url: 'https://www.bokadirekt.se'
             )
         )
     ),
     new Service(
         title: 'Luxury',
-        duration: '60 min',
+        duration: '90 min',
         price: null,
-        content: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin...</p>',
+        content: '<p class="p200">Unna dig vår mest exklusiva och avkopplande ansiktsbehandling – Luxury Facial. Denna omfattande session börjar med en grundlig djuprengöring av huden, följd av en avslappnande massage för ansikte och dekolletage med en närande ansiktsolja som stimulerar cellförnyelsen och förbättrar kollagensyntesen. En lyxig exfoliering med syra förfinar huden och förbättrar dess elasticitet, fasthet och ton. Ögonbrynen och fransarna får också extra omsorg med en professionell färgning och formning som passar ditt ansikte. Behandlingen avslutas med en intensivt återfuktande sheetmask och en avancerad LED-mask som stimulerar blodcirkulationen, främjar hudens naturliga reparationsprocess och verkar anti-inflammatoriskt. Det är en fulländad upplevelse som inte bara förskönar utan också ger djup avslappning.</p>',
         image_small: 'https://via.placeholder.com/358x274.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Luxury',
-        image_title: 'Luxury',
+        image_alt: 'Ansiktsbehandling Lyx',
+        image_title: 'Ansiktsbehandling Lyx',
         consultation_url: 'hudkonsultation',
-        consultation_url_label: 'Boka tid för hudkonsultation',
-        consultation_url_title: 'Boka tid för hudkonsultation',
+        consultation_url_label: 'Boka Ansiktsbehandling Lyx',
+        consultation_url_title: 'Boka Ansiktsbehandling Lyx',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Book a Luxury treatment',
-        booking_url_title: 'Book a Luxury treatment',
+        booking_url_label: 'Boka Ansiktsbehandling Lyx',
+        booking_url_title: 'Boka Ansiktsbehandling Lyx',
         icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
         procedures: array(
             new Procedure(
-                label: '1 procedure',
-                price: '£1 995',
+                label: '1 behandling',
+                price: '1995 kr',
+                savings: null,
                 booking_url: 'https://www.bokadirekt.se'
             ),
             new Procedure(
-                label: '3 procedures',
-                price: '£2 595',
-                savings: 'hej',
+                label: '3 behandlingar',
+                price: '4995 kr',
+                savings: 'spara 990 kr',
                 booking_url: 'https://www.bokadirekt.se'
             ),
             new Procedure(
-                label: '5 procedures',
-                price: '£3 995',
-                savings: 'hej',
+                label: '5 behandlingar',
+                price: '7995 kr',
+                savings: 'spara 1980 kr',
                 booking_url: 'https://www.bokadirekt.se'
             )
         )
-    )
-);
+    ),
 
-$combos_title = 'Populära behandlingskombinationer';
-$combos = array(
-    new ServiceCombo(
-        name: 'Combination 1',
-        image_small: 'https://via.placeholder.com/200x200.webp',
-        image_large: 'https://via.placeholder.com/361x274.webp',
-        image_alt: 'Ansiktsbehandlingar för problemhy',
-        image_title: 'Ansiktsbehandlingar för problemhy',
-        duration: '50 min',
-        price: '2595 kr',
-        booking_url: 'https://bokadirekt.se',
-        booking_url_label: 'Boka tid för behandling',
-        booking_url_title: 'Boka tid för behandling',
-        items: array(
-            new ServiceComboItem(
-                title: 'Deep bikini',
-                price: '995 kr',
-                savings: 'save 500 kr',
-            ),
-            new ServiceComboItem(
-                title: 'Armpits',
-                price: '995 kr',
-                savings: 'save 500 kr',
-            )
-        )
-    ),
-    new ServiceCombo(
-        name: 'Combination 2',
-        image_small: 'https://via.placeholder.com/200x200.webp',
-        image_large: 'https://via.placeholder.com/361x274.webp',
-        image_alt: 'Ansiktsbehandlingar för problemhy',
-        image_title: 'Ansiktsbehandlingar för problemhy',
-        duration: '50 min',
-        price: '2595 kr',
-        booking_url: 'https://bokadirekt.se',
-        booking_url_label: 'Boka tid för behandling',
-        booking_url_title: 'Boka tid för behandling',
-        items: array(
-            new ServiceComboItem(
-                title: 'Deep bikini',
-                price: '995 kr',
-                savings: 'Save hejhej'
-            ),
-            new ServiceComboItem(
-                title: 'Armpits',
-                price: '995 kr',
-                savings: 'Save hejhej'
-            ),
-            new ServiceComboItem(
-                title: 'Legs',
-                price: '995 kr',
-                savings: 'Save hejhej'
-            )
-        )
-    ),
-    new ServiceCombo(
-        name: 'Combination 3',
-        image_small: 'https://via.placeholder.com/200x200.webp',
-        image_large: 'https://via.placeholder.com/361x274.webp',
-        image_alt: 'Ansiktsbehandlingar för problemhy',
-        image_title: 'Ansiktsbehandlingar för problemhy',
-        duration: '50 min',
-        price: '2595 kr',
-        booking_url: 'https://bokadirekt.se',
-        booking_url_label: 'Boka tid för behandling',
-        booking_url_title: 'Boka tid för behandling',
-        items: array(
-            new ServiceComboItem(
-                title: 'Full legs',
-                price: '995 kr',
-                savings: 'Save hejhej'
-            ),
-            new ServiceComboItem(
-                title: 'Arms up to the elbow',
-                price: '995 kr',
-                savings: 'Save hejhej'
-            ),
-            new ServiceComboItem(
-                title: 'Deep bikini',
-                price: '995 kr',
-                savings: 'Save hejhej'
-            ),
-            new ServiceComboItem(
-                title: 'Armpits',
-                price: '995 kr',
-                savings: 'Save hejhej'
-            ),
-        )
-    )
-);
-
-$treatment_areas_text = '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>';
-$treatment_areas_title = 'Treatment areas';
-$treatment_areas = array(
-    new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
-        image_alt: 'Body',
-        image_title: 'Body',
-        title: 'Body',
-        description: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin.</p>',
-        items: array(
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webm',
-                image_alt: 'Hands & fingers',
-                image_title: 'Hands & fingers',
-                title: 'Hands & fingers',
-                duration: '30 min',
-                price: '1295 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling'
-            ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webm',
-                image_alt: 'Shoulders',
-                image_title: 'Shoulders',
-                title: 'Shoulders',
-                duration: '30 min',
-                price: '1295 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling'
-            ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webm',
-                image_alt: 'Armpits',
-                image_title: 'Armpits',
-                title: 'Armpits',
-                duration: '30 min',
-                price: '1295 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling'
-            ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webm',
-                image_alt: 'Chest',
-                image_title: 'Chest',
-                title: 'Chest',
-                duration: '30 min',
-                price: '1295 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling'
-            )
-        )
-    ),
-    new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
-        image_alt: 'Face',
-        image_title: 'Face',
-        title: 'Intimate',
-        description: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin.</p>',
-        items: array(
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webm',
-                image_alt: 'Face',
-                image_title: 'Face',
-                title: 'Bikini line',
-                duration: '30 min',
-                price: '1295 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling'
-            ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webm',
-                image_alt: 'String',
-                image_title: 'String',
-                title: 'String',
-                duration: '30 min',
-                price: '1295 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling'
-            ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webm',
-                image_alt: 'Brazze',
-                image_title: 'Brazze',
-                title: 'Brazilian',
-                duration: '30 min',
-                price: '1295 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling'
-            )
-        )
-    ),
-    new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
-        image_alt: 'Face',
-        image_title: 'Face',
-        title: 'Face',
-        description: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin.</p>',
-        items: array(
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webm',
-                image_alt: 'Bikini line',
-                image_title: 'Bikini line',
-                title: 'Ears',
-                duration: '30 min',
-                price: '1295 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling'
-            ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webm',
-                image_alt: 'Cheeks',
-                image_title: 'Cheeks',
-                title: 'Cheeks',
-                duration: '30 min',
-                price: '1295 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling'
-            ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webm',
-                image_alt: 'Upper lip',
-                image_title: 'Upper lip',
-                title: 'Upper lip',
-                duration: '30 min',
-                price: '1295 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling'
-            )
-        ),
-        all: new TreatmentAreaItem(
-            image: 'https://via.placeholder.com/94x72.webm',
-            image_alt: 'Whole face',
-            image_title: 'Whole face',
-            title: 'Whole face',
-            duration: '30 min',
-            price: '1925 kr',
-            url: 'https://bokadirekt.se',
-            url_label: 'Boka',
-            url_title: 'Boka tid för behandling'
-        )
-    )
 );
 
 $bottom_articles = array('aftercare' => new Article(
-    title: 'Aftercare and maintenance',
+    title: 'Eftervård och underhåll',
     image_small: 'https://via.placeholder.com/358x272.webp',
     image_large: 'https://via.placeholder.com/872x456.webp',
-    image_alt: 'Aftercare and maintenance',
-    image_title: 'Aftercare and maintenance',
-    content: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>',
+    image_alt: 'Eftervård och underhåll',
+    image_title: 'Eftervård och underhåll',
+    content: '<p class="p200">Våra klassiska ansiktsbehandlingar erbjuder en grundlig rengöring och uppfräschning av huden. Efter din behandling är det viktigt att följa några enkla eftervårdsinstruktioner för att bibehålla resultatet. Undvik starkt solsken och använd en hög SPF för att skydda huden. Vi rekommenderar också att du undviker tung makeup och hudirriterande ämnen de första 24 timmarna efter behandlingen. Fortsätt att återfukta huden väl och använd de produkter som rekommenderats av din hudterapeut för att stödja hudens läkning och förbättring.</p>
+    <p class="p200 mt-m">För dig som gjort en lite mer resultatinriktad behandling är det viktigt att komma ihåg att inte plocka eller skrapa på huden om det skulle uppstå några orenheter efter behandlingen. Om du fick en kemisk peeling eller exfoliering, se till att vara extra varsam med huden och undvik exfolierande produkter ett tag. Drick mycket vatten och fortsätt med en balanserad kost för att stödja huden inifrån och ut. Om du har några frågor om din eftervård, tveka inte att kontakta oss för personliga råd.</p>',
     tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
-
-$service_brands_title = 'Märken för ansiktsbehandlingar för problemhy';
-$service_brands_text = '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>';
-$service_brands = array(
-    new Brand(
-        label: 'Powerlite',
-        image: 'images/brands/powerlite.svg',
-        image_alt: 'Powerlite',
-        image_title: 'Powerlite'
-    ),
-    new Brand(
-        label: 'Dermapen4',
-        image: 'images/brands/dermapen4.svg',
-        image_alt: 'Dermapen4',
-        image_title: 'Dermapen4'
-    )
-);
 
 $results = array(
     new ResultCustomer(
@@ -636,23 +376,24 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'How many treatments are needed?',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            title: 'Hur många behandlingar behövs?',
+            text: 'Antalet behandlingar kan variera beroende på individens hudtyp och hudens tillstånd. Generellt rekommenderas en serie av behandlingar för bästa möjliga resultat och sedan underhållsbehandlingar för långsiktig effekt.'
         ),
         new Question(
-            title: 'Can my acne come back?',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            title: 'Hur ofta ska jag boka en klassisk ansiktsbehandling?',
+            text: 'För att upprätthålla resultat och hudens hälsa, rekommenderar vi en klassisk ansiktsbehandling var fjärde till sjätte vecka. Det kan justeras beroende på personliga behov och hudens tillstånd.'
         ),
         new Question(
-            title: 'How do I get rid of my acne fast?',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            title: 'Vad kan jag förvänta mig direkt efter behandlingen?',
+            text: 'Efter en klassisk ansiktsbehandling kan huden vara lite rosig och kännas extra mjuk och återfuktad. Det är viktigt att följa eftervårdsinstruktionerna för att maximera behandlingens effekt.'
         ),
         new Question(
-            title: 'Do I have acne even if I only have one pimple?',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            title: 'Behövs speciell eftervård efter en klassisk ansiktsbehandling?',
+            text: 'Eftervård är viktigt för att bevara resultatet av din ansiktsbehandling. Det innefattar solskydd, mild hudvård, och att undvika starka hudirriterande ämnen ett par dagar efter behandlingen.'
         )
     )
 );
+
 $faq_view_more = 'Se alla frågor & svar';
 
 $skin_guide_title = 'Hudguiden';
