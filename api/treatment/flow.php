@@ -30,7 +30,8 @@ $where = "flow.url = '" . mysqli_real_escape_string($conn, $_GET['id']) . "'";
 
 // Get flow steps
 $query = "
-    SELECT flow.id, 
+    SELECT flow.id, flow.name_$language AS name,
+    step1.id AS step1_id, step2.id AS step2_id, step3.id AS step3_id, step4.id AS step4_id,
     step1.title_$language AS step1_title, step2.title_$language AS step2_title, step3.title_$language AS step3_title, step4.title_$language AS step4_title,
     step1.consultation_banner AS step1_consultation_banner, step2.consultation_banner AS step2_consultation_banner, step3.consultation_banner AS step3_consultation_banner, step4.consultation_banner AS step4_consultation_banner,
     step1.can_skip AS step1_can_skip, step2.can_skip AS step2_can_skip, step3.can_skip AS step3_can_skip, step4.can_skip AS step4_can_skip,
@@ -59,6 +60,7 @@ for ($i = 1; $i < 5; $i++) {
 
     if (isset($rs['step' . $i . '_title'])) {
         $steps[] = array(
+            'id' => $rs['step' . $i . '_id'],
             'title' => $rs['step' . $i . '_title'],
             'consultation_banner' => $rs['step' . $i . '_consultation_banner'],
             'can_skip' => $rs['step' . $i . '_can_skip'],
@@ -87,4 +89,9 @@ foreach ($result as $row) {
     $funnels[] = $row;
 }
 
-echo json_encode(array('steps' => $steps, 'funnels' => $funnels), JSON_UNESCAPED_SLASHES | JSON_NUMERIC_CHECK | JSON_UNESCAPED_UNICODE);
+echo json_encode(array(
+    'id' => $rs['id'],
+    'name' => $rs['name'],
+    'steps' => $steps,
+    'funnels' => $funnels
+), JSON_UNESCAPED_SLASHES | JSON_NUMERIC_CHECK | JSON_UNESCAPED_UNICODE);
