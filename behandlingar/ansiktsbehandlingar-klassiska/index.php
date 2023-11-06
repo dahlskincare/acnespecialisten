@@ -270,6 +270,46 @@ $big_types = array(
             )
         )
     ),
+    new Service(
+        title: 'Porrengöring',
+        duration: '60 min',
+        price: null,
+        content: '<p class="p200">Vår porrengöringsbehandling är speciellt framtagen för att effektivt rensa tilltäppta porer och främja en klarare hud. Behandlingen börjar med en djupgående rengöring som förbereder huden för exfoliering. Efter exfolieringen tillämpas en mjukgörande ångprocess för att öppna upp och mjuka upp porerna. Noggrann manuell porrengöring följer för att varsamt avlägsna orenheter och komedoner. Vi avslutar med en lugnande ansiktsmask och lägger på en återfuktande kräm som är anpassad för din hudtyp.</p>',
+        image_small: 'https://via.placeholder.com/358x274.webp',
+        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_alt: 'Porrengöring',
+        image_title: 'Porrengöring',
+        consultation_url: 'hudkonsultation',
+        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka porrengöringsbehandling',
+        booking_url_title: 'Boka porrengöringsbehandling',
+        icons: array(
+            'who-teenagers' => 'Teenagers',
+            'who-adults' => 'Adults'
+        ),
+        procedures: array(
+            new Procedure(
+                label: '1 porrengöringsbehandling',
+                price: '1095 kr',
+                savings: null,
+                booking_url: 'https://www.bokadirekt.se'
+            ),
+            new Procedure(
+                label: '3 porrengöringsbehandlingar',
+                price: '2995 kr',
+                savings: '795 kr per besök',
+                booking_url: 'https://www.bokadirekt.se'
+            ),
+            new Procedure(
+                label: '5 porrengöringsbehandlingar',
+                price: '4795 kr',
+                savings: '1199 kr per besök',
+                booking_url: 'https://www.bokadirekt.se'
+            )
+        )
+    ),
 
 );
 
