@@ -96,28 +96,6 @@ $top_articles = array(
             label: 'Cleansing'
         ))
     ),
-    'process' => new Article(
-        title: 'Hur går en ansiktsbehandling mot akne till?',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Hur går en ansiktsbehandling mot akne till?',
-        image_title: 'Hur går en ansiktsbehandling mot akne till?',
-        content: '<p class="p200">Vår ansiktsbehandling för akne är noggrant utformad för att möta de specifika behoven hos hud som drabbats av akne och finnar. Behandlingen inleds med en grundlig rengöring för att ta bort talg, smuts och andra particlar från hudytan. Efter rengöringen använder vi en vapozon, en apparat som genererar varm ånga, vilket öppnar upp porerna och förbereder huden för de efterföljande stegen.</p>
-            <p class="p200 mt-m">Efter ångbehandlingen kan vi göra en varsam men effektiv manuell utrensning av porerna för att avlägsna olika typer av inkapslingar såsom finnar, papler, pustler och komedoner (svarta och vita pormaskar). Behandlingen avslutas med en lugnande mask och återfuktande för att hjäpla huden att återhämta sig.</p>',
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Steam'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraction'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Cleansing'
-        ))
-    ),
 );
 
 $treatment_areas_title = 'Behandlingsområden för akne';
@@ -169,37 +147,6 @@ $treatment_areas = array(
 );
 
 $bottom_articles = array(
-    'aftercare' => new Article(
-        title: 'Aftercare and maintenance',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Aftercare and maintenance',
-        image_title: 'Aftercare and maintenance',
-        content: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>',
-        tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
-    ),
-    'preparing' => new Article(
-        title: 'Förberedelser inför ansiktsbehandlingar mot akne',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Förberedelser inför ansiktsbehandlingar mot akne',
-        image_title: 'Förberedelser inför ansiktsbehandlingar mot akne',
-        content: '<p class="p200">Du är välkommen alltid välkommen att boka en aknebehandling hos oss på AcneSpecialisten och komma precis som du är. Men för dig som vill kan du effektivisera behandlingen med hjälp av några enkla förberedelser kan göra stor skillnad för behandlingens effektivitet. Vi föreslår att du, om möjligt, undviker produkter med starka ingredienser som och exfolierande syror dagarna innan din behandling. Detta för att minimera risken för hudirritation och för att din hud ska vara i sitt mest mottagliga skick. </p>
-                  <p class="p200 mt-m">Det finns ingen nödvändighet att komma osminkad – det är helt upp till dig. Men om du har möjlighet, kan det vara bra att komma med ett rent ansikte utan makeup för att tillåta en direkt och grundlig hudanalys. Oavsett ditt val, ser vi fram emot att välkomna dig och skapa en individuell behandlingsplan för din hud, vare sig det handlar om akne i ansiktet, på bröstet eller ryggen.</p>',
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Steam'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraction'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Cleansing'
-        ))
-    ),
     'process' => new Article(
         title: 'Hur går en ansiktsbehandling mot akne till?',
         image_small: 'https://via.placeholder.com/358x272.webp',
@@ -222,23 +169,74 @@ $bottom_articles = array(
             label: 'Cleansing'
         ))
     ),
+    'boost' => new Article(
+        title: 'Boosta din ansiktsbehandling mot akne med laser',
+        image_small: 'https://via.placeholder.com/358x272.webp',
+        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_alt: 'Förbättra ansiktsbehandling mot akne med laser',
+        image_title: 'Förbättra ansiktsbehandling mot akne med laser',
+        content: '<p class="p200">På vår klinik tar vi din aknebehandling till nästa nivå genom att kombinera beprövade metoder med innovativ laserterapi. För att få ut det mesta av din behandling rekommenderar vi att komplettera din ansiktsbehandling med en lasersession. Laserterapin kan bidra till att minska akne och ärrbildning samt förbättra hudens övergripande textur och ton. </p>
+        <p class="p200 mt-m">Innan din behandling är det fördelaktigt att undvika hudirriterande produkter, inklusive de med exfolierande syror och retinol, för att din hud ska vara så mottaglig som möjligt för både ansiktsbehandlingen och laserterapin. Det är inte nödvändigt att komma osminkad, men ett ansikte fritt från smink underlättar för oss att göra en noggrann hudanalys direkt vid ankomst. Vi är här för att ta hand om dig och erbjuda en skräddarsydd lösning som adresserar din unika hudtyp och akneproblem, oavsett om det är i ansiktet, på bröstet eller ryggen.</p>',
+        tags: array(new ArticleTag(
+            icon: 'article-tag-steam',
+            label: 'Steam'
+        ), new ArticleTag(
+            icon: 'article-tag-extraction',
+            label: 'Extraction'
+        ), new ArticleTag(
+            icon: 'article-tag-mask',
+            label: 'Mask'
+        ), new ArticleTag(
+            icon: 'article-tag-cleansing',
+            label: 'Cleansing'
+        ))
+    ),
+    'aftercare' => new Article(
+        title: 'Eftervård och underhåll efter ansiktsbehandling för akne',
+        image_small: 'https://via.placeholder.com/358x272.webp',
+        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_alt: 'Eftervård och underhåll',
+        image_title: 'Eftervård och underhåll',
+        content: '<p class="p200">På Acnespecialisten vet vi att det inte finns någon enkel lösning för akne, därför är det viktigt att du tar hand om din hud efter en ansiktsbehandling för att säkerställa bästa möjliga resultat. Det är viktigt att låta huden läka ordentligt och bidra med återfuktning så att du hjäpler huden att återhämta sig. Det är också viktigt att komma igång med din dagliga hudvårdsrutin med produkter speciellt framtagna för aknebenägen hud. Vi rekommenderar DAHL Skincares linje av akneprodukter, som hjälper till att bibehålla hudens balans och förebygga framtida utbrott. Att engagera sig i en regelbunden hudvårdsrutin är essentiellt för att hantera din akne effektivt både hemma och med återkommande professionella behandlingar.</p>
+        <p class="p200">Vi förstår att varje individ har unika behov, och är därför med dig under hela processen där vi berätta vilka produkter och rutiner som passar just dig för att förstärka och förlänga effekten av din behandling. Att använda DAHL Skincares produkter regelbundet kan inte bara stödja de förbättringar som görs under behandlingen utan även bidra till en problemhy och mer balanserad hud över tid. Låt oss på Acnespecialisten hjälpa dig att ta kontroll över din hudhälsa och leda dig mot en klar och strålande hud. Välkommen till en partner i din hudvårdsresa.</p>',
+        tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
+    ),
 );
 
-$service_brands_title = 'Märken för ansiktsbehandlingar för problemhy';
-$service_brands_text = '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>';
-$service_brands = array(
-    new Brand(
-        label: 'Powerlite',
-        image: 'images/brands/powerlite.svg',
-        image_alt: 'Powerlite',
-        image_title: 'Powerlite'
-    ),
-    new Brand(
-        label: 'Dermapen4',
-        image: 'images/brands/dermapen4.svg',
-        image_alt: 'Dermapen4',
-        image_title: 'Dermapen4'
-    )
+$treatment_steps = array(
+      new TreatmentStep(
+            title: 'Identifiera',
+            content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din aknetyp och skapar en individuell behandlingsplan.',
+
+            url_label: 'Få gratis konsultation',
+            url: 'hudkonsultation',
+            url_title: 'Boka din kostnadsfria hudkonsultation idag'
+      ),
+      new TreatmentStep(
+            title: 'Behandla',
+            content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika aknetyp, så att du snabbt och säkert blir av med problemet.',
+
+            url_label: 'Se aknebehandlingar',
+            url: 'behandlingar/akne',
+            url_title: 'Utforska våra skräddarsydda aknebehandlingar'
+      ),
+      new TreatmentStep(
+            title: 'Förebygga',
+            content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny akne och hålla din hud i balans.',
+
+            url_label: 'Se produkter',
+            url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
+            url_title: 'Hitta de bästa produkterna för att förebygga akne'
+      ),
+      new TreatmentStep(
+            title: 'Reparera',
+            content: 'När aknen är borta fokuserar vi på att reducera eventuella ärr med behandlingsmetoder som laser, microneedling och kemisk peeling för en jämn och problemfri hud.',
+
+            url_label: 'Se ärrbehandlingar',
+            url: 'behandlingar/aknearr',
+            url_title: 'Upptäck effektiva behandlingar för akneärr'
+      ),
+
 );
 
 $results = array(
@@ -333,21 +331,21 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'How many treatments are needed?',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            title: 'Hur många behandlingar krävs?',
+            text: 'Antalet behandlingar varierar beroende på hudens skick och hur den reagerar på behandlingen. De flesta ser en förbättring efter 3 till 5 sessioner. Det är dock individuellt och vi rekommenderar en konsultation för att skapa en personlig behandlingsplan.'
         ),
         new Question(
-            title: 'Can my acne come back?',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            title: 'Kan min akne komma tillbaka efter behandlingen?',
+            text: 'Under behandlingen stimuleras huden vilket gör att underliggande finnar kommer upp till ytan och ut. Därför är det viktigt att komma ihång med hudvårdsrutinerna för att bekämpa de nya finnarna för att göra huden probelmfri.'
         ),
         new Question(
-            title: 'How do I get rid of my acne fast?',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            title: 'Hur blir jag av med min akne snabbt?',
+            text: 'Även om det finns behandlingar som kan ge snabbare resultat, är det viktigt att förstå att aknebehandling är en process. En kombination av professionella behandlingar och en skräddarsydd hudvårdsrutin är det bästa sättet att uppnå hållbara resultat.'
         ),
         new Question(
-            title: 'Do I have acne even if I only have one pimple?',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-        )
+            title: 'Har jag akne även om jag bara har en finne?',
+            text: 'Ja, det är fortfarande akne även om man endast har en enstaka finne. Det finns däremot ingen gräns på hur mågna finnar man behöver ha innan det går att behandla aknen utan vi kan behandla alla nivåer av problemhy.'
+        ),
     )
 );
 $faq_view_more = 'Se alla frågor & svar';
@@ -710,6 +708,17 @@ $all_brands = array(
                         </div>
                     </section>
                 <?php } ?>
+                <section id="approach">
+                      <h2 class="h500 l10n">Metoden</h2>
+                      <hr class="mt-xl mb-xl3 is-hidden-mobile">
+                      <div class="columns is-variable is-2">
+                            <?php for ($i = 0; $i < sizeof($treatment_steps); $i++) {
+                                  echo '<div class="column">';
+                                  include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/treatment_step_card/treatment_step_card.php');
+                                  echo '</div>';
+                            } ?>
+                      </div>
+                </section>
                 <section id="results" class="large-margin">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php') ?>
                 </section>
