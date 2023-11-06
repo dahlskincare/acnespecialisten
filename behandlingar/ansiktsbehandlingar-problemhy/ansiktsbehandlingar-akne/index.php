@@ -120,7 +120,7 @@ $top_articles = array(
     ),
 );
 
-$treatment_areas_title = 'Behandlingsområden för akne';
+$treatment_areas_title = 'Behandlingsområden för akne2';
 $treatment_areas_text = '<p class="p200">Akne är en hudåkomma som uppstår när talgkörtlarna blir inflammerade, vilket ofta är kopplat till hormoner och ärftlighet snarare än dålig hygien. Akne är vanligast i ansiktet men kan även uppstå på bröstet och ryggen. Utslagen kan variera i utseende och antal.</p>';
 $treatment_areas = array(
     new TreatmentArea(
