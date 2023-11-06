@@ -72,7 +72,6 @@ $description_title = 'Vad innebär ansiktsbehandlingar mot akne?';
 $description_text = '<p class="p200">Våra ansiktsbehandlingar är noggrant utformade för att bekämpa akne och förse dig med en långsiktig lösning för en klarare hud. Genom att använda effektiva som vapozone öppnar vi porerna med ånga för att kunna utföra en grundlig rengöring som är effektiv mot finnar, pormaskar och andra former av akne.</p>
     <p class="p200 mt-m">Behandlingarna är anpassade för alla hudtyper som är benägna till akne, vare sig det rör sig om oljig, torr eller kombinerad hud, och även för hudtillstånd som kan förvärra akne, såsom rosacea eller seborré. Vi siktar på att återställa hudens hälsa och balans, samtidigt som vi ger den den näring och vård den behöver för att motstå framtida utbrott.</p>';
 
-
 $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelser inför ansiktsbehandlingar mot akne',
@@ -99,7 +98,7 @@ $top_articles = array(
 );
 
 $treatment_areas_title = 'Behandlingsområden för akne';
-$treatment_areas_text = '<p class="p200">Akne är en hudåkomma som uppstår när talgkörtlarna blir inflammerade, vilket ofta är kopplat till hormoner och ärftlighet snarare än dålig hygien. Akne är vanligast i ansiktet men kan även uppstå på bröstet och ryggen. Utslagen kan variera i utseende och antal.</p>';
+$treatment_areas_text = '<p class="p200">Vi behandlar akne överallt där det förekommer vilket är i ansiktet, på bröstet och på ryggen.</p>';
 $treatment_areas = array(
     new TreatmentArea(
         image_small: null,

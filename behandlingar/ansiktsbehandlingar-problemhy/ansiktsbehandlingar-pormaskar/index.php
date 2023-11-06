@@ -67,10 +67,9 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Hur går en portömning till?';
-$description_text = '<p class="p200">Portömning är en noggrann rengöringsprocess med målet att djuprengöra porerna och avlägsna orenheter som pormaskar, vilket bidrar till en jämnare hudton och textur. Behandlingen påbörjas med att huden varsamt rengörs för att tvätta bort yttre orenheter såsom talg och smuts, följt av en peelingtvätt som exfolierar och tar bort döda hudceller. Denna exfoliering är viktig då den förbereder huden genom att öppna upp porerna, vilket gör dem redo för den följande djuprengöringen.</p>
-<p class="p200 mt-m">Efter peelingen tillämpas en mild ångbehandling med hjälp av en Vapozon. Ångan mjukar upp huden och öppnar porerna ytterligare, vilket gör det enklare att ta bort pormaskar och andra blockeringar. Detta steg är avgörande eftersom det förbereder huden för den manuella portömningen där en terapeut varsamt tömmer porerna. För de mest envisa tilltäppningarna kan en lansett användas för att försiktigt göra en öppning och möjliggöra en mer effektiv rengöring.</p>
-<p class="p200 mt-m">Efter den manuella rengöringen lugnas huden med en specialanpassad lermask, som har förmågan att minska rodnad och dra ihop porerna, vilket efterlämnar en slät och jämn hud. Avslutningsvis återfuktas huden med en närande dagkräm. Denna sista fas av behandlingen är viktig för hudens återhämtning och för att skapa en skyddande barriär mot yttre miljöfaktorer. Genom hela processen är målet inte bara att rengöra porerna utan också att återställa hudens naturliga balans och förebygga framtida hudproblem.</p>';
+$description_title = 'Vad är ansiktsbehandlingar mot pormaskar?';
+$description_text = '<p class="p200">Våra ansiktsbehandlingar är specialanpassade för att målmedvetet angripa och reducera pormaskar, och ge dig en långvarig behandlingsmetod för en problemfri hy. Genom specialicerade tekniker som vapozone använder vi ånga för att varsamt öppna upp porerna, vilket möjliggör en djup och effektiv rengöring speciellt inriktad på borttagning av pormaskar och andra tilltäpptheter.</p>
+    <p class="p200 mt-m">Dessa behandlingar är skräddarsydda för olika hudtyper som är benägna till pormaskar, oavsett om din hud är oljig, torr eller en kombination. Vårt mål är att förbättra hudens övergripande tillstånd och återställa en naturlig balans, samtidigt som vi tillhandahåller den med näring och omsorg som krävs för att förebygga framtida tilltäpptheter och uppkomsten av nya pormaskar.</p>';
 
 
 $top_articles = array(
@@ -80,8 +79,8 @@ $top_articles = array(
         image_large: 'https://via.placeholder.com/872x456.webp',
         image_alt: 'Förberedelser inför portömning',
         image_title: 'Förberedelser inför pportömning',
-        content: '<p class="p200">Vi ser fram emot ditt besök hos AcneSpecialisten för en portömning, och du är alltid välkommen att komma som du är. Dock kan några enkla förberedelser optimera effekten av din behandling. Vi råder dig att, om möjligt, undvika hudvårdsprodukter med starka ingredienser eller exfolierande syror några dagar före din behandling för att minska risken för irritation och göra din hud mer mottaglig för behandlingen.</p>
-            <p class="p200 mt-m">Att komma utan smink är inte ett krav, utan ett val. Men om det är möjligt för dig, uppskattar vi att du kommer med ett rent ansikte för att vi direkt ska kunna göra en noggrann hudanalys. Oavsett om du väljer att komma sminkad eller inte, ser vi fram emot att ta emot dig och erbjuda en skräddarsydd behandlingsplan, anpassad efter dina behov, oavsett om det är för pormaskar i ansiktet, på bröstet eller ryggen.</p>',
+        content: '<p class="p200">Du är alltid välkommen att komma som du är till en portömning hos oss på AcneSpecialisten. Dock kan några enkla förberedelser optimera effekten av din behandling. Vi råder dig att, om möjligt, undvika hudvårdsprodukter med starka ingredienser eller exfolierande syror några dagar före din behandling för att minska risken för irritation och göra din hud mer mottaglig för behandlingen.</p>
+            <p class="p200 mt-m">Vi har inte heller några krav på att du ska komma osminkad utan detta kan vi hjäpla dig att tvätta bort i samband med att behandlingen inleds. Vi ser fram emot att ta emot dig och erbjuda en skräddarsydd behandlingsplan, anpassad efter dina behov, oavsett om det är för pormaskar i ansiktet, på bröstet eller ryggen.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -98,8 +97,8 @@ $top_articles = array(
     ),
 );
 
-$treatment_areas_title = 'Behandlingsområden för akne';
-$treatment_areas_text = '<p class="p200">Akne är en hudåkomma som uppstår när talgkörtlarna blir inflammerade, vilket ofta är kopplat till hormoner och ärftlighet snarare än dålig hygien. Akne är vanligast i ansiktet men kan även uppstå på bröstet och ryggen. Utslagen kan variera i utseende och antal.</p>';
+$treatment_areas_title = 'Behandlingsområden för portömning';
+$treatment_areas_text = '<p class="p200">Pormaskar kan uppstå överallt på kroppen där det finns porer. Vi utför därför inte bara portömning i ansiktet utan även på brötstet och på ryggen.</p>';
 $treatment_areas = array(
     new TreatmentArea(
         image_small: null,
@@ -111,36 +110,36 @@ $treatment_areas = array(
         items: array(
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webm',
-                image_alt: 'Ansiktsbehandling mot akne i ansiktet',
-                image_title: 'Ansiktsbehandling mot akne i ansiktet',
+                image_alt: 'Portömning i ansiktet',
+                image_title: 'Portömning i ansiktet',
                 title: 'Ansikte',
                 duration: '60 min',
                 price: '995 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för ansiktsbehandling mot akne'
+                url_title: 'Boka tid för portömning i ansiktet'
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webm',
-                image_alt: 'Behandling mot akne på bröstet',
-                image_title: 'Behandling mot akne på bröstet',
+                image_alt: 'Portömning på bröstet',
+                image_title: 'Portömning på bröstet',
                 title: 'Bröst',
                 duration: '60 min',
                 price: '995 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för behandling mot akne på bröstet'
+                url_title: 'Boka tid för portömning på bröstet'
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webm',
-                image_alt: 'Behandling mot akne på ryggen',
-                image_title: 'Behandling mot akne på ryggen',
+                image_alt: 'Portömning på ryggen',
+                image_title: 'Portömning på ryggen',
                 title: 'Rygg',
                 duration: '60 min',
                 price: '995 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för behandling mot akne på ryggen'
+                url_title: 'Boka tid för portömning på ryggen'
             ),
         )
     ),
@@ -148,13 +147,14 @@ $treatment_areas = array(
 
 $bottom_articles = array(
     'process' => new Article(
-        title: 'Hur går en ansiktsbehandling mot akne till?',
+        title: 'Hur går en portömning till?',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Hur går en ansiktsbehandling mot akne till?',
-        image_title: 'Hur går en ansiktsbehandling mot akne till?',
-        content: '<p class="p200">Vår ansiktsbehandling för akne är noggrant utformad för att möta de specifika behoven hos hud som drabbats av akne och finnar. Behandlingen inleds med en grundlig rengöring för att ta bort talg, smuts och andra particlar från hudytan. Efter rengöringen använder vi en vapozon, en apparat som genererar varm ånga, vilket öppnar upp porerna och förbereder huden för de efterföljande stegen.</p>
-            <p class="p200 mt-m">Efter ångbehandlingen kan vi göra en varsam men effektiv manuell utrensning av porerna för att avlägsna olika typer av inkapslingar såsom finnar, papler, pustler och komedoner (svarta och vita pormaskar). Behandlingen avslutas med en lugnande mask och återfuktande för att hjäpla huden att återhämta sig.</p>',
+        image_alt: 'Hur går en portömning till?',
+        image_title: 'Hur går en portömning till?',
+        content: '<p class="p200">Portömning är en noggrann rengöringsprocess med målet att djuprengöra porerna och avlägsna orenheter som pormaskar, vilket bidrar till en jämnare hudton och textur. Behandlingen påbörjas med att huden varsamt rengörs för att tvätta bort yttre orenheter såsom talg och smuts, följt av en peelingtvätt som exfolierar och tar bort döda hudceller. Denna exfoliering är viktig då den förbereder huden genom att öppna upp porerna, vilket gör dem redo för den följande djuprengöringen.</p>
+        <p class="p200 mt-m">Efter peelingen tillämpas en mild ångbehandling med hjälp av en Vapozon. Ångan mjukar upp huden och öppnar porerna ytterligare, vilket gör det enklare att ta bort pormaskar och andra blockeringar. Detta steg är avgörande eftersom det förbereder huden för den manuella portömningen där en terapeut varsamt tömmer porerna. För de mest envisa tilltäppningarna kan en lansett användas för att försiktigt göra en öppning och möjliggöra en mer effektiv rengöring.</p>
+        <p class="p200 mt-m">Efter den manuella rengöringen lugnas huden med en specialanpassad lermask, som har förmågan att minska rodnad och dra ihop porerna, vilket efterlämnar en slät och jämn hud. Avslutningsvis återfuktas huden med en närande dagkräm. Denna sista fas av behandlingen är viktig för hudens återhämtning och för att skapa en skyddande barriär mot yttre miljöfaktorer. Genom hela processen är målet inte bara att rengöra porerna utan också att återställa hudens naturliga balans och förebygga framtida hudproblem.</p>';
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
