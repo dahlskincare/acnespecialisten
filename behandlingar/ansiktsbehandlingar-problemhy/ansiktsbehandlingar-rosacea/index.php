@@ -3,14 +3,14 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Ansiktsbehandlingar för Rosacea - Effektiv behandling | AcneSpecialisten';
+$seo_title = 'Ansiktsbehandling för Rosacea - Effektiv behandling | AcneSpecialisten';
 $seo_description = 'AcneSpecialisten erbjuder specialanpassade ansiktsbehandlingar designade för att lugna och vårda rosacea-drabbad hud. Våra behandlingar är skonsamma och inriktade på att minska rodnad och irritation, samtidigt som de förbättrar hudens allmänna tillstånd. Få professionell vägledning och individuellt anpassade hudvårdsråd för att hantera din rosacea.';
 $seo_keywords = 'ansiktsbehandlingar för rosacea, rosaceabehandling, lugnande hudvård, behandla rodnad i ansiktet, AcneSpecialisten, skonsam hudvård, milda ansiktsbehandlingar, rosacealindring, hudvård vid rosacea, minska hudrodnad, lindra rosacea';
 
 $seo_image = 'images/treatments/large/ansiktsbehandlingar-rosacea.jpg';
 
 $model = new Service(
-    title: 'Ansiktsbehandlingar mot rosacea',
+    title: 'Ansiktsbehandling mot rosacea',
     duration: '60 min',
     price: 'Från 799 kr',
     content: '',
@@ -53,7 +53,7 @@ $model = new Service(
 );
 
 $nav_buttons = array(
-    'about' => 'Om ansiktsbehandlingar mot rosacea',
+    'about' => 'Om ansiktsbehandling mot rosacea',
     'preparing' => 'Förberedelser',
     'process' => 'Processen',
     'types' => 'Typer',
@@ -67,19 +67,19 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Vad är ansiktsbehandlingar för rosacea?';
+$description_title = 'Vad är ansiktsbehandling för rosacea?';
 $description_text = '<p class="p200">Våra ansiktsbehandlingar är specialanpassade för att varsamt behandla och lindra tillståndet rosacea, och erbjuder dig en skonsam väg till en mer balanserad och lugn hud. Vi använder skräddarsydda tekniker som är speciellt utformade för att vara mjuka mot huden, vilket minimerar risken för irritation samtidigt som det bidrar till att minska rodnad och inflammation.</p>
     <p class="p200 mt-m">Anpassade för individer med rosacea, är våra behandlingar framtagen för att behandla och lugna olika hudtyper påverkade av detta tillstånd, vare sig huden är känslig, torr, eller en blandhud. Målet med varje behandling är att förbättra hudens tillstånd och dess förmåga att hantera symptomen på rosacea, återställa hudens naturliga lugn och balans. Vi strävar efter att ge din hud de näringsämnen och den omsorg den behöver för att stärka dess skyddande barriär och minska risken för framtida utbrott.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelser inför ansitksbehandlingar mot rosacea',
+        title: 'Förberedelser inför ansitksbehandling mot rosacea',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Förberedelser inför portömning',
+        image_alt: 'Förberedelser inför ansiktsbehandling mot rosacea',
         image_title: 'Förberedelser inför ansiktsbehandlingar mot rosacea',
-        content: '<p class="p200">På AcneSpecialisten välkomnar vi dig varmt till våra anpassade behandlingar för rosacea. För att förbereda din hud och maximera fördelarna med din behandling, rekommenderar vi att du avstår från att använda hudvårdsprodukter med starka ingredienser eller exfolierande syror några dagar innan din tid. Detta för att undvika onödig irritation och för att göra din hud mer mottaglig för de lugnande behandlingarna.</p>
-        <p class="p200 mt-m">Det är inte nödvändigt att du kommer utan smink till din behandling, då vi kan ta hand om att varsamt avlägsna det vid sessionens början. Vi ser fram emot att välkomna dig och sätta ihop en personligt anpassad behandlingsplan. Våra behandlingar är utformade för att vara skonsamma och effektiva, inte bara för ansiktet utan även för områden som bröstet och ryggen som kan påverkas av rosacea.</p>',
+        content: '<p class="p200">Du kan alltid besöka AcneSpecialisten för en rosaceabehandling precis som du är utan några särskilda förberedeler. Men för dig som vill göra det där lilla extra för att maximera fördelarna med behandlingen rekommenderar vi att du avstår från att använda hudvårdsprodukter med starka ingredienser eller exfolierande syror några dagar innan din tid. Detta för att undvika onödig irritation och för att göra din hud mer mottaglig för de lugnande behandlingarna.</p>
+        <p class="p200 mt-m">Det är inte nödvändigt att du kommer utan smink till din behandling, då vi kan ta hand om att varsamt avlägsna det vid sessionens början. Vi ser fram emot att välkomna dig och sätta ihop en personligt anpassad behandlingsplan.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -96,86 +96,56 @@ $top_articles = array(
     ),
 );
 
-$treatment_areas_title = 'Behandlingsområden för portömning';
-$treatment_areas_text = '<p class="p200">Pormaskar kan uppstå överallt på kroppen där det finns porer. Vi utför därför inte bara portömning i ansiktet utan även på brötstet och på ryggen.</p>';
-$treatment_areas = array(
-    new TreatmentArea(
-        image_small: null,
-        image_large: null,
-        image_alt: null,
-        image_title: null,
-        title: null,
-        description: null,
-        items: array(
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webm',
-                image_alt: 'Portömning i ansiktet',
-                image_title: 'Portömning i ansiktet',
-                title: 'Ansikte',
-                duration: '60 min',
-                price: '995 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för portömning i ansiktet'
+$types_title = null;
+$types_description = null;
+$big_types = array(
+    'process' => new Service(
+        title: 'Ansiktsbehandling mot rosacea',
+        duration: '60 min',
+        price: null,
+        content: '<p class="p200">Varje session börjar med en mild rengöring utformad för att förbereda och lugna rosacea-drabbad hud. Vi undviker aggressiv exfoliering och använder istället skonsamma produkter som är anpassade för att minska inflammation och rodnad associerad med rosacea. Vår behandling inkluderar noggrant utvalda lugnande metoder för att stärka hudens barriär utan att framkalla irritation. Om ytterligare exfoliering är nödvändig utförs den med yttersta varsamhet. Behandlingen avslutas med en särskilt utformad lugnande mask som minskar rodnad och ger komfort till huden, följt av en återfuktande kräm som hjälper till att balansera och skydda din känsliga hud. Denna omsorgsfullt anpassade behandlingsmetod bidrar till att lindra symtomen på rosacea och främjar en klarare och mer balanserad hudton.</p>',
+        image_small: 'https://via.placeholder.com/358x274.webp',
+        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_alt: 'Ansiktsbehandling mot rosacea',
+        image_title: 'Ansiktsbehandling mot rosacea',
+        consultation_url: 'hudkonsultation',
+        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka Ansiktsbehandling mot rosacea',
+        booking_url_title: 'Ansiktsbehandling mot rosacea',
+        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
+        procedures: array(
+            new Procedure(
+                label: '1 behandling',
+                price: '1295 kr',
+                savings: null,
+                booking_url: 'https://www.bokadirekt.se'
             ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webm',
-                image_alt: 'Portömning på bröstet',
-                image_title: 'Portömning på bröstet',
-                title: 'Bröst',
-                duration: '60 min',
-                price: '995 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för portömning på bröstet'
+            new Procedure(
+                label: '3 behandlingar',
+                price: '2595 kr',
+                savings: '865 kr per besök',
+                booking_url: 'https://www.bokadirekt.se'
             ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webm',
-                image_alt: 'Portömning på ryggen',
-                image_title: 'Portömning på ryggen',
-                title: 'Rygg',
-                duration: '60 min',
-                price: '995 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för portömning på ryggen'
-            ),
+            new Procedure(
+                label: '5 behandlingar',
+                savings: '2595 kr',
+                price: '799 kr per besök',
+                booking_url: 'https://www.bokadirekt.se'
+            )
         )
     ),
 );
 
 $bottom_articles = array(
-    'process' => new Article(
-        title: 'Hur går en portömning till?',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Hur går en portömning till?',
-        image_title: 'Hur går en portömning till?',
-        content: '<p class="p200">Portömning är en noggrann rengöringsprocess med målet att djuprengöra porerna och avlägsna orenheter som pormaskar, vilket bidrar till en jämnare hudton och textur. Behandlingen påbörjas med att huden varsamt rengörs för att tvätta bort yttre orenheter såsom talg och smuts, följt av en peelingtvätt som exfolierar och tar bort döda hudceller. Denna exfoliering är viktig då den förbereder huden genom att öppna upp porerna, vilket gör dem redo för den följande djuprengöringen.</p>
-        <p class="p200 mt-m">Efter peelingen tillämpas en mild ångbehandling med hjälp av en Vapozon. Ångan mjukar upp huden och öppnar porerna ytterligare, vilket gör det enklare att ta bort pormaskar och andra blockeringar. Detta steg är avgörande eftersom det förbereder huden för den manuella portömningen där en terapeut varsamt tömmer porerna. För de mest envisa tilltäppningarna kan en lansett användas för att försiktigt göra en öppning och möjliggöra en mer effektiv rengöring.</p>
-        <p class="p200 mt-m">Efter den manuella rengöringen lugnas huden med en specialanpassad lermask, som har förmågan att minska rodnad och dra ihop porerna, vilket efterlämnar en slät och jämn hud. Avslutningsvis återfuktas huden med en närande dagkräm. Denna sista fas av behandlingen är viktig för hudens återhämtning och för att skapa en skyddande barriär mot yttre miljöfaktorer. Genom hela processen är målet inte bara att rengöra porerna utan också att återställa hudens naturliga balans och förebygga framtida hudproblem.</p>',
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Steam'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraction'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Cleansing'
-        ))
-    ),
     'boost' => new Article(
-        title: 'Boosta din portömning med laser',
+        title: 'Boosta din ansiktsbehandling mot rosacea med IPL',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Förbättra portömning med laser',
-        image_title: 'Förbättra portömning med laser',
-        content: '<p class="p200">I strävan att förbättra och maximera effekten av portömningar erbjuder vi på vår klinik en banbrytande kombination av traditionell rengöring och avancerad laserbehandling. Genom att integrera en lasersession med din portömning, intensifieras behandlingen vilket leder till en djupare rening och kan bidra till att effektivt minska synligheten av pormaskar och fina linjer, samt främja en slätare och mer jämn hudton.</p>
-        <p class="p200 mt-m">För att förbereda din hud för denna kraftfulla behandling, rekommenderar vi att du undviker produkter som kan irritera huden, som de som innehåller exfolierande syror och retinol, innan din session. Medan det inte är ett krav att du anländer utan makeup, så hjälper ett omakeupat ansikte oss att utföra en omedelbar och grundlig hudanalys. Vårt team är här för att ge dig en personligt anpassad upplevelse som inte bara rengör dina porer på djupet utan också använder laserens kraft för att ge din hud en extra boost och därmed tackla dina hudbekymmer mer heltäckande, vare sig det är på ansiktet, bröstet eller ryggen.</p>',
+        image_alt: 'Förbättra ansiktsbehandling mot rosacea med IPL',
+        image_title: 'Förbättra ansiktsbehandling mot rosacea med IPL',
+        content: '<p class="p200">För att förstärka effekten kan du kombinera din ansiktsbehandlijng med den senaste IPL-tekniken (Intensivt Pulserande Ljus). En IPL-behandling kan minska kärlförändringar och eliminerar de ytliga blodkärl som ofta associeras med rosacea, vilket ger en klarare och mer jämn hudton.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -191,13 +161,13 @@ $bottom_articles = array(
         ))
     ),
     'aftercare' => new Article(
-        title: 'Eftervård och underhåll efter porrengöring',
+        title: 'Eftervård och underhåll efter ansiktsbehandling mot rosacea',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
         image_alt: 'Eftervård och underhåll',
         image_title: 'Eftervård och underhåll',
-        content: '<p class="p200">Efter en noggrann portömning hos Acnespecialisten är rätt eftervård avgörande för att upprätthålla resultaten och främja hudens läkning. Vi rekommenderar att efter behandlingen fortsätter du med en daglig hudvårdsrutin som omfattar produkter särskilt anpassade för att vårda och balansera porerna efter tömning. För detta ändamål rekommenderar vi produkter från DAHL Skincare, som stöder balansen i din hud och arbetar för att avlägsna och minimera pormaskar.</p>
-        <p class="p200 mt-m">Bra hudvård är anpassad efter dig och vi på Acnespecialisten strävar efter att skräddarsy rekommendationer som kompletterar din specifika hudtyp och behov. Genom att använda rätt hudvårdsprodukter i din dagliga rutin kan du inte bara upprätthålla de positiva effekterna av portömningen utan också stärka din hud mot framtida problem. Vi är dedikerade till att stötta dig genom hela din hudvårdsresa och ser fram emot att hjälpa dig uppnå och bibehålla en klar och hälsosam hud. Låt Acnespecialisten vara din guide och stöd på vägen mot en sund hudvårdsvana.</p>',
+        content: '<p class="p200">Efter din ansiktsbehandling mot rosacea är en konsekvent och rätt anpassad eftervård essentiell för att bevara de resultat som uppnåtts och underlätta hudens återhämtning. Det är viktigt att fortsätta med en daglig hudvårdsrutin som innehåller specialutformade produkter för att vårda och upprätthålla den känsliga huden med rosacea. Vi rekommenderar produkter från DAHL Skincare som är utvecklade för att stödja och bibehålla hudens balans och minska rodnad och irritation associerad med rosacea.</p>
+        <p class="p200 mt-m">Personlig hudvård är nyckeln, och vi på Acnespecialisten är dedikerade till att hjälpa dig hitta en hudvårdsrutin som passar just dina behov och hudtyp. Att använda de rätta produkterna efter din ansiktsbehandling för rosacea kan inte bara långsiktigt bevara behandlingens positiva effekter utan även stärka huden för att motstå framtida utbrott. Vi är engagerade i att stödja dig genom din resa mot en bättre hudhälsa och ser fram emot att assistera dig i att uppnå och upprätthålla en sund hud med hjälp av vår expertis. Låt Acnespecialisten vara din partner på vägen mot en effektiv och hållbar hudvårdsrutin för rosacea.</p>',
         tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
     ),
 );
@@ -205,24 +175,31 @@ $bottom_articles = array(
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera dina pormaskar och skapar en individuell behandlingsplan.',
-            url: 'hudkonsultation',
+            content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din rosacea och skapar en individuell behandlingsplan.',
             url_label: 'Få gratis konsultation',
+            url: 'hudkonsultation',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi utför skonsamma och effektiva portömning anpassade för dina pormaskar, så att du snabbt och säkert blir av med problemet.',
-            url: 'behandlingar/pormaskar',
-            url_label: 'Se portömning',
-            url_title: 'Utforska våra skräddarsydda portömning'
+            content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika rosacea, så att du snabbt och säkert blir av med problemet.',
+            url_label: 'Se behandlingar',
+            url: 'behandlingar/rosacea',
+            url_title: 'Utforska våra skräddarsydda rosaceabehandlingar'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga nya pormaskar och hålla din hud i balans.',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/pormaskar',
+            content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny rosacea och hålla din hud i balans.',
             url_label: 'Se produkter',
-            url_title: 'Hitta de bästa produkterna för att förebygga pormaskar'
+            url: 'https://dahlskincare.se/produktkategorier/produktpaket/rosacea',
+            url_title: 'Hitta de bästa produkterna för att förebygga rosacea'
+      ),
+      new TreatmentStep(
+            title: 'Reparera',
+            content: 'När rosacean är borta fokuserar vi på att reducera eventuella ytliga blodkärl med behandlingsmetoder som IPL för en jämn och problemfri hud.',
+            url_label: 'Se IPL-behandlingar',
+            url: 'behandlingar/rosacea',
+            url_title: 'Upptäck effektiva behandlingar för ytliga blodkärl'
       ),
 
 );
@@ -319,20 +296,20 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
             new Question(
-                title: 'Hur ofta bör jag genomgå en portömning?',
-                text: 'Frekvensen av portömningar varierar beroende på din hudtyp och graden av pormaskar. Ofta behöver ett kortare interval i början och därefter underhålls huden med en behandling varannan månad. För att skapa en anpassad behandlingsplan rekommenderar vi att du genomgår en konsultation med en hudspecialist.'
+                title: 'Hur ofta bör jag genomgå en ansiktsbehandling mot rosacea?',
+                text: 'Frekvensen för ansiktsbehandlingar mot rosacea bör anpassas individuellt. Vissa kan behöva regelbundna sessioner medan andra kanske bara behöver sporadiska underhållsbehandlingar. Det bästa är att konsultera med din hudterapeut för att utarbeta en plan som är skräddarsydd för din huds behov och din rosaceas svårighetsgrad.'
             ),
             new Question(
-                title: 'Kommer pormaskarna tillbaka efter en portömning?',
-                text: 'Portömning är effektivt för att ta bort befintliga pormaskar, men det kan inte förhindra nya från att bildas. Det är avgörande att upprätthålla en god hudvårdsrutin efter behandlingen för att minimera risken för nya pormaskar.'
+                title: 'Kan ansiktsbehandlingar mot rosacea helt eliminera min rodnad?',
+                text: 'Ansiktsbehandlingar kan avsevärt minska rodnaden och andra symptom associerade med rosacea, men det är en pågående tillstånd som ofta kräver kontinuerlig behandling. Genom att följa din skräddarsydda hudvårdsrutin kan du upprätthålla resultatet och minimera framtida utbrott.'
             ),
             new Question(
-                title: 'Hur snabbt kan jag se resultat från portömning?',
-                text: 'Många kunder ser en förbättring direkt efter första behandlingen, men för att uppnå bästa möjliga resultat kan det krävas flera sessioner över en tidsperiod. Kombinationen av regelbundna portömningar och rätt hemvård är nyckeln till långsiktiga resultat.'
+                title: 'Hur snabbt kan jag förvänta mig att se resultat efter en ansiktsbehandling för rosacea?',
+                text: 'Resultaten kan variera beroende på individens hud och svårighetsgraden av rosacea. Men med rätt kombination av behandlingar och produkter ser många en förbättring redan inom några veckor. Kontinuerlig vård och regelbundna behandlingar rekommenderas för bästa långsiktiga resultat.'
             ),
             new Question(
-                title: 'Behöver jag en portömning även om jag bara har några få pormaskar?',
-                text: 'Ja, även ett fåtal pormaskar kan behandlas med portömning. Det finns ingen minimumgräns för antalet pormaskar som krävs för att dra nytta av behandlingen. Varje hudtillstånd är unikt och kan gagnas av en personligt anpassad hudvårdsstrategi.'
+                title: 'Är ansiktsbehandlingar mot rosacea nödvändiga även för milda fall?',
+                text: 'Även mild rosacea kan dra nytta av anpassade ansiktsbehandlingar för att hantera symtom och förhindra försämring. Det är viktigt att konsultera med en hudterapeut för att bedöma dina behov och bestämma den bästa behandlingsstrategin för din hud.'
             ),
     )
 );
