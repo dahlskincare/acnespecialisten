@@ -67,9 +67,9 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Vad är ansiktsbehandlingar mot pormaskar?';
-$description_text = '<p class="p200">Våra ansiktsbehandlingar är specialanpassade för att målmedvetet angripa och reducera pormaskar, och ge dig en långvarig behandlingsmetod för en problemfri hy. Genom specialicerade tekniker som vapozone använder vi ånga för att varsamt öppna upp porerna, vilket möjliggör en djup och effektiv rengöring speciellt inriktad på borttagning av pormaskar och andra tilltäpptheter.</p>
-    <p class="p200 mt-m">Dessa behandlingar är skräddarsydda för olika hudtyper som är benägna till pormaskar, oavsett om din hud är oljig, torr eller en kombination. Vårt mål är att förbättra hudens övergripande tillstånd och återställa en naturlig balans, samtidigt som vi tillhandahåller den med näring och omsorg som krävs för att förebygga framtida tilltäpptheter och uppkomsten av nya pormaskar.</p>';
+$description_title = 'Vad är ansiktsbehandlingar för rosacea?';
+$description_text = '<p class="p200">Våra ansiktsbehandlingar är specialanpassade för att varsamt behandla och lindra tillståndet rosacea, och erbjuder dig en skonsam väg till en mer balanserad och lugn hud. Vi använder skräddarsydda tekniker som är speciellt utformade för att vara mjuka mot huden, vilket minimerar risken för irritation samtidigt som det bidrar till att minska rodnad och inflammation.</p>
+    <p class="p200 mt-m">Anpassade för individer med rosacea, är våra behandlingar designade för att hantera och lugna olika hudtyper påverkade av detta tillstånd, vare sig huden är känslig, torr, eller en blandhud. Målet med varje behandling är att förbättra hudens tillstånd och dess förmåga att hantera symptomen på rosacea, återställa hudens naturliga lugn och balans. Vi strävar efter att ge din hud de näringsämnen och den omsorg den behöver för att stärka dess skyddande barriär och minska risken för framtida utbrott.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
