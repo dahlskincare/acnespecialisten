@@ -3,14 +3,14 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Ansiktsbehandlingar mot Pormaskar - Portömning | AcneSpecialisten';
-$seo_description = 'AcneSpecialisten erbjuder specialiserade porrengöringsbehandlingar riktade mot pormaskar och orenheter. Våra skräddarsydda behandlingar renar porerna och bidrar till en jämnare hudtextur. Få professionell hjälp och skräddarsydda hudvårdsråd för att uppnå en sundare hud och reducera synligheten av pormaskar.';
-$seo_keywords = 'ansiktsbehandlingar mot pormaskar, portömning, rengöring av pormaskar, behandling av pormaskar, pormaskrengöring, hudvård, klara porer, AcneSpecialisten, djuprengöring av huden, förebygga pormaskar, minska pormaskar, rena porer';
+$seo_title = 'Ansiktsbehandlingar för Milier - Milierbehandling | AcneSpecialisten';
+$seo_description = 'Hos AcneSpecialisten finner du effektiva ansiktsbehandlingar och milierbehandlingar skräddarsydda för att ta bort milier och ge en slät hud. Våra behandlingar är utformade för att försiktigt avlägsna milier och förbättra hudens textur. Få tillgång till expertis och personliga hudvårdsråd för att uppnå en strålande hud utan milier.';
+$seo_keywords = 'ansiktsbehandlingar för milier, milierbehandling, borttagning av milier, behandla milier, hudvård för slät hud, slätrakad hud, AcneSpecialisten, metoder för att ta bort milier, förebygga milier, reducera milier';
 
-$seo_image = 'images/treatments/large/ansiktsbehandlingar-pormaskar.jpg';
+$seo_image = 'images/treatments/large/ansiktsbehandlingar-milier.jpg';
 
 $model = new Service(
-    title: 'Ansiktsbehandlingar mot pormaskar',
+    title: 'Ansiktsbehandlingar mot milier',
     duration: '60 min',
     price: 'Från 799 kr',
     content: '',
@@ -53,7 +53,7 @@ $model = new Service(
 );
 
 $nav_buttons = array(
-    'about' => 'Om ansiktsbehandlingar mot pormaskar',
+    'about' => 'Om ansiktsbehandlingar mot milier',
     'preparing' => 'Förberedelser',
     'process' => 'Processen',
     'types' => 'Typer',
@@ -67,20 +67,19 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Vad är ansiktsbehandlingar mot pormaskar?';
-$description_text = '<p class="p200">Våra ansiktsbehandlingar är specialanpassade för att målmedvetet angripa och reducera pormaskar, och ge dig en långvarig behandlingsmetod för en problemfri hy. Genom specialicerade tekniker som vapozone använder vi ånga för att varsamt öppna upp porerna, vilket möjliggör en djup och effektiv rengöring speciellt inriktad på borttagning av pormaskar och andra tilltäpptheter.</p>
-    <p class="p200 mt-m">Dessa behandlingar är skräddarsydda för olika hudtyper som är benägna till pormaskar, oavsett om din hud är oljig, torr eller en kombination. Vårt mål är att förbättra hudens övergripande tillstånd och återställa en naturlig balans, samtidigt som vi tillhandahåller den med näring och omsorg som krävs för att förebygga framtida tilltäpptheter och uppkomsten av nya pormaskar.</p>';
-
+$description_title = 'Vad är milierbehandling?';
+$description_text = '<p class="p200">Våra milierbehandlingar är specifikt utvecklade för att effektivt ta bort milier vilket är små, fasta vita knölar som ofta uppkommer när keratin samlas under huden. Med hjälp av säkra och effektiva metoder arbetar vi för att rengöra huden och avlägsna milier, vilket bidrar till en jämn och ren hudytan.</p>
+    <p class="p200 mt-m">Behandlingarna är anpassade efter individens hudtyp och hudens specifika behov. Vi strävar efter att inte bara behandla befintliga milier utan också att förbättra hudens hälsa på lång sikt. Genom noggrann rengöring och specialiserad vård hjälper vi din hud att behålla sin släthet och förebygga nya milier från att bildas.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelser inför portömning',
+        title: 'Förberedelser inför milierbehandling',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Förberedelser inför portömning',
-        image_title: 'Förberedelser inför portömning',
-        content: '<p class="p200">Du är alltid välkommen att komma som du är till en portömning hos oss på AcneSpecialisten. Dock kan några enkla förberedelser optimera effekten av din behandling. Vi råder dig att, om möjligt, undvika hudvårdsprodukter med starka ingredienser eller exfolierande syror några dagar före din behandling för att minska risken för irritation och göra din hud mer mottaglig för behandlingen.</p>
-            <p class="p200 mt-m">Vi har inte heller några krav på att du ska komma osminkad utan detta kan vi hjäpla dig att tvätta bort i samband med att behandlingen inleds. Vi ser fram emot att ta emot dig och erbjuda en skräddarsydd behandlingsplan, anpassad efter dina behov, oavsett om det är för pormaskar i ansiktet, på bröstet eller ryggen.</p>',
+        image_alt: 'Förberedelser inför milierbehandling',
+        image_title: 'Förberedelser inför milierbehandling',
+        content: '<p class="p200">För att förbereda din hud för behandlingen och optimera resultaten rekommenderar vi några enkla åtgärder. Undvik helst produkter med starka ingredienser eller exfolierande syror ett par dagar före din behandling för att minska risken för hudirritation och för att göra huden mer mottaglig för den behandling vi ska utföra.</p>
+            <p class="p200 mt-m">Det är inte nödvändigt att du kommer osminkad; vi kan varsamt rengöra din hud på plats. Vår prioritet är att ge dig en personligt anpassad behandlingserfarenhet och en behandlingsplan som är skräddarsydd för just dina behov, oavsett om det gäller milier i ansiktet eller på andra delar av kroppen.</p>'
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
