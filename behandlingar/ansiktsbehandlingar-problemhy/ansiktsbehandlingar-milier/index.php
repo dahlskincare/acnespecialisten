@@ -27,7 +27,7 @@ $model = new Service(
     procedures: array(
         new Procedure(
             label: '1 behandling',
-            price: '995 kr',
+            price: '1295 kr',
             savings: null,
             booking_url: 'https://bokadirekt.se',
             booking_url_label: 'Boka tid för behandling',
@@ -56,8 +56,6 @@ $nav_buttons = array(
     'about' => 'Om ansiktsbehandlingar mot milier',
     'preparing' => 'Förberedelser',
     'process' => 'Processen',
-    'types' => 'Typer',
-    'treatment-areas' => 'Områden',
     'aftercare' => 'Eftervård',
     'results' => 'Resultat',
     'reviews' => 'Omdömen',
@@ -79,7 +77,7 @@ $top_articles = array(
         image_alt: 'Förberedelser inför milierbehandling',
         image_title: 'Förberedelser inför milierbehandling',
         content: '<p class="p200">För att förbereda din hud för behandlingen och optimera resultaten rekommenderar vi några enkla åtgärder. Undvik helst produkter med starka ingredienser eller exfolierande syror ett par dagar före din behandling för att minska risken för hudirritation och för att göra huden mer mottaglig för den behandling vi ska utföra.</p>
-            <p class="p200 mt-m">Det är inte nödvändigt att du kommer osminkad; vi kan varsamt rengöra din hud på plats. Vår prioritet är att ge dig en personligt anpassad behandlingserfarenhet och en behandlingsplan som är skräddarsydd för just dina behov, oavsett om det gäller milier i ansiktet eller på andra delar av kroppen.</p>'
+            <p class="p200 mt-m">Det är inte nödvändigt att du kommer osminkad; vi kan varsamt rengöra din hud på plats. Vår prioritet är att ge dig en personligt anpassad behandlingserfarenhet och en behandlingsplan som är skräddarsydd för just dina behov, oavsett om det gäller milier i ansiktet eller på andra delar av kroppen.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -96,108 +94,57 @@ $top_articles = array(
     ),
 );
 
-$treatment_areas_title = 'Behandlingsområden för portömning';
-$treatment_areas_text = '<p class="p200">Pormaskar kan uppstå överallt på kroppen där det finns porer. Vi utför därför inte bara portömning i ansiktet utan även på brötstet och på ryggen.</p>';
-$treatment_areas = array(
-    new TreatmentArea(
-        image_small: null,
-        image_large: null,
-        image_alt: null,
-        image_title: null,
-        title: null,
-        description: null,
-        items: array(
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webm',
-                image_alt: 'Portömning i ansiktet',
-                image_title: 'Portömning i ansiktet',
-                title: 'Ansikte',
-                duration: '60 min',
-                price: '995 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för portömning i ansiktet'
+$types_title = null;
+$types_description = null;
+$big_types = array(
+    'process' => new Service(
+        title: 'Milierbehandling',
+        duration: '60 min',
+        price: null,
+        content: '<p class="p200">Vi inleder med en grundlig rengöring för att förbereda huden. Istället för traditionell exfoliering som kan vara för hård för huden med milier, använder vi skonsamma metoder för att lösgöra de små cystorna. Därefter tillämpar vi specialtekniker för att försiktigt avlägsna milier utan att skada huden. Om det finns ett behov av porrengöring utförs detta med stor omsorg för att inte irritera huden ytterligare. Efter behandlingen använder vi en lugnande mask för att minimera rodnad och lugna huden, följt av en återfuktande kräm som är anpassad efter din huds individuella behov. Denna terapeutiska process inte bara behandlar milier utan bidrar också till en jämn och förfinad hudton.</p>',
+        image_small: 'https://via.placeholder.com/358x274.webp',
+        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_alt: 'Milierbehandling',
+        image_title: 'Milierbehandling',
+        consultation_url: 'hudkonsultation',
+        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka Milierbehandling',
+        booking_url_title: 'Boka Milierbehandling',
+        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
+        procedures: array(
+            new Procedure(
+                label: '1 behandling',
+                price: '1295 kr',
+                savings: null,
+                booking_url: 'https://www.bokadirekt.se'
             ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webm',
-                image_alt: 'Portömning på bröstet',
-                image_title: 'Portömning på bröstet',
-                title: 'Bröst',
-                duration: '60 min',
-                price: '995 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för portömning på bröstet'
+            new Procedure(
+                label: '3 behandlingar',
+                price: '2595 kr',
+                savings: '865 kr per besök',
+                booking_url: 'https://www.bokadirekt.se'
             ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webm',
-                image_alt: 'Portömning på ryggen',
-                image_title: 'Portömning på ryggen',
-                title: 'Rygg',
-                duration: '60 min',
-                price: '995 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för portömning på ryggen'
-            ),
+            new Procedure(
+                label: '5 behandlingar',
+                savings: '2595 kr',
+                price: '799 kr per besök',
+                booking_url: 'https://www.bokadirekt.se'
+            )
         )
     ),
 );
 
 $bottom_articles = array(
-    'process' => new Article(
-        title: 'Hur går en portömning till?',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Hur går en portömning till?',
-        image_title: 'Hur går en portömning till?',
-        content: '<p class="p200">Portömning är en noggrann rengöringsprocess med målet att djuprengöra porerna och avlägsna orenheter som pormaskar, vilket bidrar till en jämnare hudton och textur. Behandlingen påbörjas med att huden varsamt rengörs för att tvätta bort yttre orenheter såsom talg och smuts, följt av en peelingtvätt som exfolierar och tar bort döda hudceller. Denna exfoliering är viktig då den förbereder huden genom att öppna upp porerna, vilket gör dem redo för den följande djuprengöringen.</p>
-        <p class="p200 mt-m">Efter peelingen tillämpas en mild ångbehandling med hjälp av en Vapozon. Ångan mjukar upp huden och öppnar porerna ytterligare, vilket gör det enklare att ta bort pormaskar och andra blockeringar. Detta steg är avgörande eftersom det förbereder huden för den manuella portömningen där en terapeut varsamt tömmer porerna. För de mest envisa tilltäppningarna kan en lansett användas för att försiktigt göra en öppning och möjliggöra en mer effektiv rengöring.</p>
-        <p class="p200 mt-m">Efter den manuella rengöringen lugnas huden med en specialanpassad lermask, som har förmågan att minska rodnad och dra ihop porerna, vilket efterlämnar en slät och jämn hud. Avslutningsvis återfuktas huden med en närande dagkräm. Denna sista fas av behandlingen är viktig för hudens återhämtning och för att skapa en skyddande barriär mot yttre miljöfaktorer. Genom hela processen är målet inte bara att rengöra porerna utan också att återställa hudens naturliga balans och förebygga framtida hudproblem.</p>',
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Steam'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraction'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Cleansing'
-        ))
-    ),
-    'boost' => new Article(
-        title: 'Boosta din portömning med laser',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Förbättra portömning med laser',
-        image_title: 'Förbättra portömning med laser',
-        content: '<p class="p200">I strävan att förbättra och maximera effekten av portömningar erbjuder vi på vår klinik en banbrytande kombination av traditionell rengöring och avancerad laserbehandling. Genom att integrera en lasersession med din portömning, intensifieras behandlingen vilket leder till en djupare rening och kan bidra till att effektivt minska synligheten av pormaskar och fina linjer, samt främja en slätare och mer jämn hudton.</p>
-        <p class="p200 mt-m">För att förbereda din hud för denna kraftfulla behandling, rekommenderar vi att du undviker produkter som kan irritera huden, som de som innehåller exfolierande syror och retinol, innan din session. Medan det inte är ett krav att du anländer utan makeup, så hjälper ett omakeupat ansikte oss att utföra en omedelbar och grundlig hudanalys. Vårt team är här för att ge dig en personligt anpassad upplevelse som inte bara rengör dina porer på djupet utan också använder laserens kraft för att ge din hud en extra boost och därmed tackla dina hudbekymmer mer heltäckande, vare sig det är på ansiktet, bröstet eller ryggen.</p>',
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Steam'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraction'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Cleansing'
-        ))
-    ),
     'aftercare' => new Article(
-        title: 'Eftervård och underhåll efter porrengöring',
+        title: 'Eftervård och underhåll efter milierbehandling',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
         image_alt: 'Eftervård och underhåll',
         image_title: 'Eftervård och underhåll',
-        content: '<p class="p200">Efter en noggrann portömning hos Acnespecialisten är rätt eftervård avgörande för att upprätthålla resultaten och främja hudens läkning. Vi rekommenderar att efter behandlingen fortsätter du med en daglig hudvårdsrutin som omfattar produkter särskilt anpassade för att vårda och balansera porerna efter tömning. För detta ändamål rekommenderar vi produkter från DAHL Skincare, som stöder balansen i din hud och arbetar för att avlägsna och minimera pormaskar.</p>
-        <p class="p200 mt-m">Bra hudvård är anpassad efter dig och vi på Acnespecialisten strävar efter att skräddarsy rekommendationer som kompletterar din specifika hudtyp och behov. Genom att använda rätt hudvårdsprodukter i din dagliga rutin kan du inte bara upprätthålla de positiva effekterna av portömningen utan också stärka din hud mot framtida problem. Vi är dedikerade till att stötta dig genom hela din hudvårdsresa och ser fram emot att hjälpa dig uppnå och bibehålla en klar och hälsosam hud. Låt Acnespecialisten vara din guide och stöd på vägen mot en sund hudvårdsvana.</p>',
+        content: '<p class="p200">Efter en specialiserad milierbehandling hos AcneSpecialisten är korrekt eftervård essentiell för att bibehålla resultaten och underlätta hudens återhämtning. För att vårda din hud efter milierborttagningen rekommenderar vi att du fortsätter med en hudvårdsrutin som innefattar produkter specifikt utvalda för att nära och skydda huden. Vi föreslår att du använder DAHL Skincare-serien som är framtagen för att upprätthålla hudens balans och förebygga nya hudproblem.</p>
+        <p class="p200 mt-m">En effektiv hudvårdsregim bör vara personligt anpassad. På AcneSpecialisten är vi engagerade i att erbjuda skräddarsydda lösningar som uppfyller kraven för din unika hudtyp och dess speciella förhållanden. Genom att använda lämpliga hudvårdsprodukter regelbundet kan du inte bara behålla de positiva resultaten av milierbehandlingen men också förstärka hudens motståndskraft mot framtida hudproblem. Vi är här för att stödja dig genom varje steg i din hudvård, och vi ser fram emot att hjälpa dig att nå och upprätthålla en ren och hälsosam hud. Låt AcneSpecialisten vara din partner i strävan efter bestående hudhälsa.</p>',
         tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
     ),
 );
