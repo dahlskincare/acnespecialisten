@@ -69,17 +69,17 @@ $nav_buttons = array(
 
 $description_title = 'Vad är ansiktsbehandlingar för rosacea?';
 $description_text = '<p class="p200">Våra ansiktsbehandlingar är specialanpassade för att varsamt behandla och lindra tillståndet rosacea, och erbjuder dig en skonsam väg till en mer balanserad och lugn hud. Vi använder skräddarsydda tekniker som är speciellt utformade för att vara mjuka mot huden, vilket minimerar risken för irritation samtidigt som det bidrar till att minska rodnad och inflammation.</p>
-    <p class="p200 mt-m">Anpassade för individer med rosacea, är våra behandlingar designade för att hantera och lugna olika hudtyper påverkade av detta tillstånd, vare sig huden är känslig, torr, eller en blandhud. Målet med varje behandling är att förbättra hudens tillstånd och dess förmåga att hantera symptomen på rosacea, återställa hudens naturliga lugn och balans. Vi strävar efter att ge din hud de näringsämnen och den omsorg den behöver för att stärka dess skyddande barriär och minska risken för framtida utbrott.</p>';
+    <p class="p200 mt-m">Anpassade för individer med rosacea, är våra behandlingar framtagen för att behandla och lugna olika hudtyper påverkade av detta tillstånd, vare sig huden är känslig, torr, eller en blandhud. Målet med varje behandling är att förbättra hudens tillstånd och dess förmåga att hantera symptomen på rosacea, återställa hudens naturliga lugn och balans. Vi strävar efter att ge din hud de näringsämnen och den omsorg den behöver för att stärka dess skyddande barriär och minska risken för framtida utbrott.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelser inför portömning',
+        title: 'Förberedelser inför ansitksbehandlingar mot rosacea',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
         image_alt: 'Förberedelser inför portömning',
-        image_title: 'Förberedelser inför portömning',
-        content: '<p class="p200">Du är alltid välkommen att komma som du är till en portömning hos oss på AcneSpecialisten. Dock kan några enkla förberedelser optimera effekten av din behandling. Vi råder dig att, om möjligt, undvika hudvårdsprodukter med starka ingredienser eller exfolierande syror några dagar före din behandling för att minska risken för irritation och göra din hud mer mottaglig för behandlingen.</p>
-            <p class="p200 mt-m">Vi har inte heller några krav på att du ska komma osminkad utan detta kan vi hjäpla dig att tvätta bort i samband med att behandlingen inleds. Vi ser fram emot att ta emot dig och erbjuda en skräddarsydd behandlingsplan, anpassad efter dina behov, oavsett om det är för pormaskar i ansiktet, på bröstet eller ryggen.</p>',
+        image_title: 'Förberedelser inför ansiktsbehandlingar mot rosacea',
+        content: '<p class="p200">På AcneSpecialisten välkomnar vi dig varmt till våra anpassade behandlingar för rosacea. För att förbereda din hud och maximera fördelarna med din behandling, rekommenderar vi att du avstår från att använda hudvårdsprodukter med starka ingredienser eller exfolierande syror några dagar innan din tid. Detta för att undvika onödig irritation och för att göra din hud mer mottaglig för de lugnande behandlingarna.</p>
+        <p class="p200 mt-m">Det är inte nödvändigt att du kommer utan smink till din behandling, då vi kan ta hand om att varsamt avlägsna det vid sessionens början. Vi ser fram emot att välkomna dig och sätta ihop en personligt anpassad behandlingsplan. Våra behandlingar är utformade för att vara skonsamma och effektiva, inte bara för ansiktet utan även för områden som bröstet och ryggen som kan påverkas av rosacea.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
