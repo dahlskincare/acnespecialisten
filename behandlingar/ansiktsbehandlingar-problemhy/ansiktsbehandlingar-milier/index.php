@@ -143,8 +143,7 @@ $bottom_articles = array(
         image_large: 'https://via.placeholder.com/872x456.webp',
         image_alt: 'Eftervård och underhåll',
         image_title: 'Eftervård och underhåll',
-        content: '<p class="p200">Efter en specialiserad milierbehandling hos AcneSpecialisten är korrekt eftervård essentiell för att bibehålla resultaten och underlätta hudens återhämtning. För att vårda din hud efter milierborttagningen rekommenderar vi att du fortsätter med en hudvårdsrutin som innefattar produkter specifikt utvalda för att nära och skydda huden. Vi föreslår att du använder DAHL Skincare-serien som är framtagen för att upprätthålla hudens balans och förebygga nya hudproblem.</p>
-        <p class="p200 mt-m">En effektiv hudvårdsregim bör vara personligt anpassad. På AcneSpecialisten är vi engagerade i att erbjuda skräddarsydda lösningar som uppfyller kraven för din unika hudtyp och dess speciella förhållanden. Genom att använda lämpliga hudvårdsprodukter regelbundet kan du inte bara behålla de positiva resultaten av milierbehandlingen men också förstärka hudens motståndskraft mot framtida hudproblem. Vi är här för att stödja dig genom varje steg i din hudvård, och vi ser fram emot att hjälpa dig att nå och upprätthålla en ren och hälsosam hud. Låt AcneSpecialisten vara din partner i strävan efter bestående hudhälsa.</p>',
+        content: '<p class="p200">Efter en specialiserad milierbehandling hos AcneSpecialisten är korrekt eftervård essentiell för att bibehålla resultaten och underlätta hudens återhämtning. För att vårda din hud efter milierborttagningen rekommenderar vi att du fortsätter med en hudvårdsrutin som innefattar produkter specifikt utvalda för att nära och skydda huden. En effektiv hudvårdsregim bör vara personligt anpassad. Genom att använda lämpliga hudvårdsprodukter regelbundet kan du inte bara behålla de positiva resultaten av milierbehandlingen men också förstärka hudens motståndskraft mot framtida hudproblem.</p>',
         tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
     ),
 );
@@ -152,26 +151,20 @@ $bottom_articles = array(
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera dina pormaskar och skapar en individuell behandlingsplan.',
-            url: 'hudkonsultation',
+            content: 'Hos AcneSpecialisten matchas du med en personlig hudterapeut som hjälper dig att identifierar dina milier och skapar en individuell behandlingsplan.',
+
             url_label: 'Få gratis konsultation',
+            url: 'hudkonsultation',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi utför skonsamma och effektiva portömning anpassade för dina pormaskar, så att du snabbt och säkert blir av med problemet.',
-            url: 'behandlingar/pormaskar',
-            url_label: 'Se portömning',
-            url_title: 'Utforska våra skräddarsydda portömning'
-      ),
-      new TreatmentStep(
-            title: 'Förebygga',
-            content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga nya pormaskar och hålla din hud i balans.',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/pormaskar',
-            url_label: 'Se produkter',
-            url_title: 'Hitta de bästa produkterna för att förebygga pormaskar'
-      ),
+            content: 'Vi erbjuder målinriktade och effektiva behandlingar för milier, anpassade till din hud och dess unika behov. Vårt mål är att du ska kunna bli av med dina milier på ett säkert och effektivt sätt.',
 
+            url_label: 'Se milierbehandlingar',
+            url: 'behandlingar/milier',
+            url_title: 'Utforska våra skräddarsydda behandlingar för milier'
+      ),
 );
 
 $results = array(
@@ -266,21 +259,22 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
             new Question(
-                title: 'Hur ofta bör jag genomgå en portömning?',
-                text: 'Frekvensen av portömningar varierar beroende på din hudtyp och graden av pormaskar. Ofta behöver ett kortare interval i början och därefter underhålls huden med en behandling varannan månad. För att skapa en anpassad behandlingsplan rekommenderar vi att du genomgår en konsultation med en hudspecialist.'
+                title: 'Hur ofta bör jag genomgå en milierbehandling?',
+                text: 'Frekvensen av milierbehandlingar kan variera beroende på din hudtyp och hur benägen din hud är för att utveckla milier. I början kan behandlingar behövas oftare för att komma till rätta med befintliga milier, men efter det kan regelbundna underhållsbehandlingar var tredje till var sjätte månad vara tillräckligt. En individuell konsultation med en hudvårdsexpert kan ge en mer skräddarsydd behandlingsplan.'
             ),
             new Question(
-                title: 'Kommer pormaskarna tillbaka efter en portömning?',
-                text: 'Portömning är effektivt för att ta bort befintliga pormaskar, men det kan inte förhindra nya från att bildas. Det är avgörande att upprätthålla en god hudvårdsrutin efter behandlingen för att minimera risken för nya pormaskar.'
+                title: 'Kommer milier att komma tillbaka efter behandling?',
+                text: 'Milierbehandling tar bort de milier som för närvarande finns, men det finns alltid en möjlighet att nya milier kan utvecklas. Det är viktigt med en adekvat hemvårdsrutin och potentiellt livsstilsförändringar för att minimera återkomsten av milier.'
             ),
             new Question(
-                title: 'Hur snabbt kan jag se resultat från portömning?',
-                text: 'Många kunder ser en förbättring direkt efter första behandlingen, men för att uppnå bästa möjliga resultat kan det krävas flera sessioner över en tidsperiod. Kombinationen av regelbundna portömningar och rätt hemvård är nyckeln till långsiktiga resultat.'
+                title: 'Hur snabbt kan jag se resultat från milierbehandling?',
+                text: 'Resultatet är omedelbart då vi manuellt tömmer milierna, men ibland kan det krävas upprepade sessioner för att hantera mer ihållande eller omfattande milier. Kontinuerliga behandlingar, i kombination med en anpassad hudvårdsrutin, bidrar till de bästa långsiktiga resultaten.'
             ),
             new Question(
-                title: 'Behöver jag en portömning även om jag bara har några få pormaskar?',
-                text: 'Ja, även ett fåtal pormaskar kan behandlas med portömning. Det finns ingen minimumgräns för antalet pormaskar som krävs för att dra nytta av behandlingen. Varje hudtillstånd är unikt och kan gagnas av en personligt anpassad hudvårdsstrategi.'
-            ),
+                title: 'Är milierbehandling nödvändig även om jag bara har några milier?',
+                text: 'Ja, milierbehandling kan vara fördelaktigt även om du bara har några få milier. Det är inte antalet milier som är avgörande utan önskan om att förbättra hudens utseende. En behandling kan anpassas för att rikta sig specifikt mot de milier du har, oavsett antal.'
+),
+
     )
 );
 $faq_view_more = 'Se alla frågor & svar';
