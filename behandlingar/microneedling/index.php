@@ -250,8 +250,51 @@ $types = array(
 );
 
 $treatment_areas_title = 'Behandlingsområden för Microneedling';
-$treatment_areas_text = '<p class="p200">Microneedling är en mångsidig behandlingsmetod som inte bara är effektiv för att behandla acne, utan också för att förbättra en rad olika hudtillstånd över hela kroppen. Vanligtvis behandlas ansiktet för att reducera ärr, fina linjer och ojämn pigmentering, men metoden är även kraftfull för att ta itu med hudproblem på axlar, rygg och bröst. Microneedling kan hjälpa till att förbättra hudens textur och utseende genom att stimulera hudens naturliga läkningsprocess och kollagenproduktion, vilket resulterar i en jämnare och mer lysterfylld hud. Varje behandling anpassas individuellt för att möta unika hudtillstånd och kan variera i intensitet och omfattning beroende på det specifika området och problemet som behandlas.</p>';
+$treatment_areas_text = '<p class="p200">Microneedling är en mångsidig behandling lämplig för ansikte, axlar, rygg och bröst. Den förbättrar hudens struktur och lyster genom att stimulera kollagenproduktion och läkning, anpassad efter varje unikt hudtillstånd och område.</p>';
 $treatment_areas = array(
+    new TreatmentArea(
+        image_small: 'https://via.placeholder.com/361x274.webm',
+        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_alt: 'Face',
+        image_title: 'Face',
+        title: 'Intimate',
+        description: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin.</p>',
+        items: array(
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'Face',
+                image_title: 'Face',
+                title: 'Bikini line',
+                duration: '30 min',
+                price: '1295 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'String',
+                image_title: 'String',
+                title: 'String',
+                duration: '30 min',
+                price: '1295 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'Brazze',
+                image_title: 'Brazze',
+                title: 'Brazilian',
+                duration: '30 min',
+                price: '1295 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            )
+        )
+    ),
     new TreatmentArea(
         image_small: 'https://via.placeholder.com/361x274.webm',
         image_large: 'https://via.placeholder.com/872x456.webm',
@@ -306,49 +349,7 @@ $treatment_areas = array(
             )
         )
     ),
-    new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
-        image_alt: 'Face',
-        image_title: 'Face',
-        title: 'Intimate',
-        description: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin.</p>',
-        items: array(
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webm',
-                image_alt: 'Face',
-                image_title: 'Face',
-                title: 'Bikini line',
-                duration: '30 min',
-                price: '1295 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling'
-            ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webm',
-                image_alt: 'String',
-                image_title: 'String',
-                title: 'String',
-                duration: '30 min',
-                price: '1295 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling'
-            ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webm',
-                image_alt: 'Brazze',
-                image_title: 'Brazze',
-                title: 'Brazilian',
-                duration: '30 min',
-                price: '1295 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling'
-            )
-        )
-    ),
+    
     new TreatmentArea(
         image_small: 'https://via.placeholder.com/361x274.webm',
         image_large: 'https://via.placeholder.com/872x456.webm',
