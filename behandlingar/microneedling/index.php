@@ -142,73 +142,111 @@ $top_articles = array(
     ),
 );
 
-$types_title = 'Problem facials we provide';
-$types_description = 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.';
+$types_title = 'Hudproblem som behandlas med microneedling';
+$types_description = 'Microneedling är en mångsidig behandling som kan hantera en rad hudproblem. Denna teknik stimulerar hudens naturliga läkningsprocess och främjar ny kollagenproduktion, vilket är effektivt för att behandla en rad hudtillstånd. Microneedling kan användas för att adressera och förbättra tillstånd och du hittar alla problem vi behandlar här.';
 $types = array(
     new Service(
-        title: 'Chemical peeling',
-        duration: null,
-        price: null,
-        content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
+        title: 'Microneedling för Aktiv Acne',
+        duration: '50 minuter',
+        price: '2595 kr',
+        content: 'Effektivt målinriktad behandling av aktiv acne med vår microneedlingmetod. Denna teknik använder små nålar för att försiktigt sticka i huden, vilket främjar läkning och minskar förekomsten av acne.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Chemical peeling',
-        image_title: 'Chemical peeling',
-        consultation_url: 'hudkonsultation',
-        consultation_url_label: 'Boka tid för hudkonsultation',
-        consultation_url_title: 'Boka tid för hudkonsultation',
+        image_alt: 'Microneedling för Aktiv Acne',
+        image_title: 'Microneedling för Aktiv Acne',
+        consultation_url: 'konsultation-aktiv-acne',
+        consultation_url_label: 'Boka konsultation för behandling av aktiv acne',
+        consultation_url_title: 'Boka konsultation för behandling av aktiv acne',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Book a chemical peeling',
-        booking_url_title: 'Book a chemical peeling',
+        booking_url_label: 'Boka microneedling för aktiv acne',
+        booking_url_title: 'Boka microneedling för aktiv acne',
     ),
+
     new Service(
-        title: 'Laser',
-        duration: null,
-        price: null,
-        content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
+        title: 'Microneedling för Acneärr',
+        duration: '50 minuter',
+        price: '2595 kr',
+        content: 'Vår microneedlingbehandling för acneärr stimulerar kollagenproduktion för att minska synligheten av ärr och förbättra hudens textur.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Laser',
-        image_title: 'Laser',
-        consultation_url: 'hudkonsultation',
-        consultation_url_label: 'Boka tid för hudkonsultation',
-        consultation_url_title: 'Boka tid för hudkonsultation',
+        image_alt: 'Microneedling för Acneärr',
+        image_title: 'Microneedling för Acneärr',
+        consultation_url: 'konsultation-acnearr',
+        consultation_url_label: 'Boka konsultation för behandling av acneärr',
+        consultation_url_title: 'Boka konsultation för behandling av acneärr',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Book a laser treatment',
-        booking_url_title: 'Book a laser treatment',
+        booking_url_label: 'Boka microneedling för acneärr',
+        booking_url_title: 'Boka microneedling för acneärr',
     ),
+
     new Service(
-        title: 'IPL',
-        duration: null,
-        price: null,
-        content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
+        title: 'Microneedling för Rynkor & Fina Linjer',
+        duration: '50 minuter',
+        price: '2595 kr',
+        content: 'Utjämna rynkor och fina linjer med vår microneedlingbehandling som hjälper till att förnya och strama upp huden.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'IPL',
-        image_title: 'IPL',
-        consultation_url: 'hudkonsultation',
-        consultation_url_label: 'Boka tid för hudkonsultation',
-        consultation_url_title: 'Boka tid för hudkonsultation',
+        image_alt: 'Microneedling för Rynkor & Fina Linjer',
+        image_title: 'Microneedling för Rynkor & Fina Linjer',
+        consultation_url: 'konsultation-rynkor-fina-linjer',
+        consultation_url_label: 'Boka konsultation för behandling av rynkor och fina linjer',
+        consultation_url_title: 'Boka konsultation för behandling av rynkor och fina linjer',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Book a IPL treatment',
-        booking_url_title: 'Book a IPL treatment',
+        booking_url_label: 'Boka microneedling för rynkor & fina linjer',
+        booking_url_title: 'Boka microneedling för rynkor & fina linjer',
     ),
+
     new Service(
-        title: 'FreezeTreat',
-        duration: null,
-        price: null,
-        content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
+        title: 'Microneedling för Stora Porer',
+        duration: '50 minuter',
+        price: '2595 kr',
+        content: 'Förfining och minskning av stora porer med våra riktade microneedlingbehandlingar som främjar en slätare hud.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'FreezeTreat',
-        image_title: 'FreezeTreat',
-        consultation_url: 'hudkonsultation',
-        consultation_url_label: 'Boka tid för hudkonsultation',
-        consultation_url_title: 'Boka tid för hudkonsultation',
+        image_alt: 'Microneedling för Stora Porer',
+        image_title: 'Microneedling för Stora Porer',
+        consultation_url: 'konsultation-stora-porer',
+        consultation_url_label: 'Boka konsultation för behandling av stora porer',
+        consultation_url_title: 'Boka konsultation för behandling av stora porer',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Book a FreezeTreat treatment',
-        booking_url_title: 'Book a FreezeTreat treatment',
-    )
+        booking_url_label: 'Boka microneedling för stora porer',
+        booking_url_title: 'Boka microneedling för stora porer',
+    ),
+
+    new Service(
+        title: 'Microneedling för Pigmentfläckar',
+        duration: '50 minuter',
+        price: '2595 kr',
+        content: 'Minska synligheten av pigmentfläckar och återställ en jämn hudton med vår microneedlingbehandling.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Microneedling för Pigmentfläckar',
+        image_title: 'Microneedling för Pigmentfläckar',
+        consultation_url: 'konsultation-pigmentflackar',
+        consultation_url_label: 'Boka konsultation för behandling av pigmentfläckar',
+        consultation_url_title: 'Boka konsultation för behandling av pigmentfläckar',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka microneedling för pigmentfläckar',
+        booking_url_title: 'Boka microneedling för pigmentfläckar',
+    ),
+
+    new Service(
+        title: 'Microneedling för Bristningar',
+        duration: '50 minuter',
+        price: '2595 kr',
+        content: 'Förbättra utseendet på bristningar med vår microneedlingbehandling som hjälper till att återuppbygga kollagen och elastin i huden.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Microneedling för Bristningar',
+        image_title: 'Microneedling för Bristningar',
+        consultation_url: 'konsultation-bristningar',
+        consultation_url_label: 'Boka konsultation för behandling av bristningar',
+        consultation_url_title: 'Boka konsultation för behandling av bristningar',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka microneedling för bristningar',
+        booking_url_title: 'Boka microneedling för bristningar',
+    ),
+
 );
 $big_types = array(
     new Service(
@@ -355,97 +393,6 @@ $big_types = array(
                 savings: 'hej',
                 booking_url: 'https://www.bokadirekt.se'
             )
-        )
-    )
-);
-
-$combos_title = 'Populära behandlingskombinationer';
-$combos = array(
-    new ServiceCombo(
-        name: 'Combination 1',
-        image_small: 'https://via.placeholder.com/200x200.webp',
-        image_large: 'https://via.placeholder.com/361x274.webp',
-        image_alt: 'Ansiktsbehandlingar för problemhy',
-        image_title: 'Ansiktsbehandlingar för problemhy',
-        duration: '50 min',
-        price: '2595 kr',
-        booking_url: 'https://bokadirekt.se',
-        booking_url_label: 'Boka tid för behandling',
-        booking_url_title: 'Boka tid för behandling',
-        items: array(
-            new ServiceComboItem(
-                title: 'Deep bikini',
-                price: '995 kr',
-                savings: 'save 500 kr',
-            ),
-            new ServiceComboItem(
-                title: 'Armpits',
-                price: '995 kr',
-                savings: 'save 500 kr',
-            )
-        )
-    ),
-    new ServiceCombo(
-        name: 'Combination 2',
-        image_small: 'https://via.placeholder.com/200x200.webp',
-        image_large: 'https://via.placeholder.com/361x274.webp',
-        image_alt: 'Ansiktsbehandlingar för problemhy',
-        image_title: 'Ansiktsbehandlingar för problemhy',
-        duration: '50 min',
-        price: '2595 kr',
-        booking_url: 'https://bokadirekt.se',
-        booking_url_label: 'Boka tid för behandling',
-        booking_url_title: 'Boka tid för behandling',
-        items: array(
-            new ServiceComboItem(
-                title: 'Deep bikini',
-                price: '995 kr',
-                savings: 'Save hejhej'
-            ),
-            new ServiceComboItem(
-                title: 'Armpits',
-                price: '995 kr',
-                savings: 'Save hejhej'
-            ),
-            new ServiceComboItem(
-                title: 'Legs',
-                price: '995 kr',
-                savings: 'Save hejhej'
-            )
-        )
-    ),
-    new ServiceCombo(
-        name: 'Combination 3',
-        image_small: 'https://via.placeholder.com/200x200.webp',
-        image_large: 'https://via.placeholder.com/361x274.webp',
-        image_alt: 'Ansiktsbehandlingar för problemhy',
-        image_title: 'Ansiktsbehandlingar för problemhy',
-        duration: '50 min',
-        price: '2595 kr',
-        booking_url: 'https://bokadirekt.se',
-        booking_url_label: 'Boka tid för behandling',
-        booking_url_title: 'Boka tid för behandling',
-        items: array(
-            new ServiceComboItem(
-                title: 'Full legs',
-                price: '995 kr',
-                savings: 'Save hejhej'
-            ),
-            new ServiceComboItem(
-                title: 'Arms up to the elbow',
-                price: '995 kr',
-                savings: 'Save hejhej'
-            ),
-            new ServiceComboItem(
-                title: 'Deep bikini',
-                price: '995 kr',
-                savings: 'Save hejhej'
-            ),
-            new ServiceComboItem(
-                title: 'Armpits',
-                price: '995 kr',
-                savings: 'Save hejhej'
-            ),
         )
     )
 );
