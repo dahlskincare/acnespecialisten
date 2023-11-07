@@ -54,6 +54,7 @@ foreach ($commands as $command) {
         $result = mysqli_query($conn, $command);
         if ($result == false) {
             echo mysqli_error($conn);
+            echo PHP_EOL;
         }
     } catch (Error $e) {} catch (Exception $e) {}
 }
