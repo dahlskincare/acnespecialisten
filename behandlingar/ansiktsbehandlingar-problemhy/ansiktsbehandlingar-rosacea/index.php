@@ -3,22 +3,21 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Ansiktsbehandlingar mot Akne - Effektiv behandling | AcneSpecialisten';
-$seo_description = 'Upplev AcneSpecialistens expertanpassade ansiktsbehandlingar speciellt utformade för aknebenägen hud. Upptäck våra avancerade metoder för att effektivt hantera utbrott och uppnå en klarare hud. Professionell behandling och personlig rådgivning väntar för att hjälpa dig till en bättre hudhälsa.';
-$seo_keywords = 'aknebehandling, ansiktsbehandlingar för akne, bekämpa akne, effektiv aknevård, acne specialister, akne lösningar, finnar, blemmor, akneärr, inflammerad hud, hudvård för akne';
+$seo_title = 'Ansiktsbehandlingar för Rosacea - Effektiv behandling | AcneSpecialisten';
+$seo_description = 'AcneSpecialisten erbjuder specialanpassade ansiktsbehandlingar designade för att lugna och vårda rosacea-drabbad hud. Våra behandlingar är skonsamma och inriktade på att minska rodnad och irritation, samtidigt som de förbättrar hudens allmänna tillstånd. Få professionell vägledning och individuellt anpassade hudvårdsråd för att hantera din rosacea.';
+$seo_keywords = 'ansiktsbehandlingar för rosacea, rosaceabehandling, lugnande hudvård, behandla rodnad i ansiktet, AcneSpecialisten, skonsam hudvård, milda ansiktsbehandlingar, rosacealindring, hudvård vid rosacea, minska hudrodnad, lindra rosacea';
 
-$seo_image = 'images/treatments/large/ansiktsbehandlingar-akne.jpg';
-
+$seo_image = 'images/treatments/large/ansiktsbehandlingar-rosacea.jpg';
 
 $model = new Service(
-    title: 'Ansiktsbehandlingar mot akne',
+    title: 'Ansiktsbehandlingar mot rosacea',
     duration: '60 min',
     price: 'Från 799 kr',
     content: '',
     image_small: 'https://via.placeholder.com/358x274.webp',
     image_large: 'https://via.placeholder.com/424x456.webp',
-    image_alt: 'Ansiktsbehandlingar mot akne',
-    image_title: 'Ansiktsbehandlingar mot akne',
+    image_alt: 'Ansiktsbehandlingar mot rosacea',
+    image_title: 'Ansiktsbehandlingar mot rosacea',
     consultation_url: 'https://bokadirekt.se',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
@@ -54,7 +53,7 @@ $model = new Service(
 );
 
 $nav_buttons = array(
-    'about' => 'Om ansiktsbehandlingar mot akne',
+    'about' => 'Om ansiktsbehandlingar mot rosacea',
     'preparing' => 'Förberedelser',
     'process' => 'Processen',
     'types' => 'Typer',
@@ -68,19 +67,19 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Vad innebär ansiktsbehandlingar mot akne?';
-$description_text = '<p class="p200">Våra ansiktsbehandlingar är noggrant utformade för att bekämpa akne och förse dig med en långsiktig lösning för en klarare hud. Genom att använda effektiva som vapozone öppnar vi porerna med ånga för att kunna utföra en grundlig rengöring som är effektiv mot finnar, pormaskar och andra former av akne.</p>
-    <p class="p200 mt-m">Behandlingarna är anpassade för alla hudtyper som är benägna till akne, vare sig det rör sig om oljig, torr eller kombinerad hud, och även för hudtillstånd som kan förvärra akne, såsom rosacea eller seborré. Vi siktar på att återställa hudens hälsa och balans, samtidigt som vi ger den den näring och vård den behöver för att motstå framtida utbrott.</p>';
+$description_title = 'Vad är ansiktsbehandlingar mot pormaskar?';
+$description_text = '<p class="p200">Våra ansiktsbehandlingar är specialanpassade för att målmedvetet angripa och reducera pormaskar, och ge dig en långvarig behandlingsmetod för en problemfri hy. Genom specialicerade tekniker som vapozone använder vi ånga för att varsamt öppna upp porerna, vilket möjliggör en djup och effektiv rengöring speciellt inriktad på borttagning av pormaskar och andra tilltäpptheter.</p>
+    <p class="p200 mt-m">Dessa behandlingar är skräddarsydda för olika hudtyper som är benägna till pormaskar, oavsett om din hud är oljig, torr eller en kombination. Vårt mål är att förbättra hudens övergripande tillstånd och återställa en naturlig balans, samtidigt som vi tillhandahåller den med näring och omsorg som krävs för att förebygga framtida tilltäpptheter och uppkomsten av nya pormaskar.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelser inför ansiktsbehandlingar mot akne',
+        title: 'Förberedelser inför portömning',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Förberedelser inför ansiktsbehandlingar mot akne',
-        image_title: 'Förberedelser inför ansiktsbehandlingar mot akne',
-        content: '<p class="p200">Du är välkommen alltid välkommen att boka en aknebehandling hos oss på AcneSpecialisten och komma precis som du är. Men för dig som vill kan du effektivisera behandlingen med hjälp av några enkla förberedelser kan göra stor skillnad för behandlingens effektivitet. Vi föreslår att du, om möjligt, undviker produkter med starka ingredienser som och exfolierande syror dagarna innan din behandling. Detta för att minimera risken för hudirritation och för att din hud ska vara i sitt mest mottagliga skick. </p>
-                  <p class="p200 mt-m">Det finns ingen nödvändighet att komma osminkad – det är helt upp till dig. Men om du har möjlighet, kan det vara bra att komma med ett rent ansikte utan makeup för att tillåta en direkt och grundlig hudanalys. Oavsett ditt val, ser vi fram emot att välkomna dig och skapa en individuell behandlingsplan för din hud, vare sig det handlar om akne i ansiktet, på bröstet eller ryggen.</p>',
+        image_alt: 'Förberedelser inför portömning',
+        image_title: 'Förberedelser inför portömning',
+        content: '<p class="p200">Du är alltid välkommen att komma som du är till en portömning hos oss på AcneSpecialisten. Dock kan några enkla förberedelser optimera effekten av din behandling. Vi råder dig att, om möjligt, undvika hudvårdsprodukter med starka ingredienser eller exfolierande syror några dagar före din behandling för att minska risken för irritation och göra din hud mer mottaglig för behandlingen.</p>
+            <p class="p200 mt-m">Vi har inte heller några krav på att du ska komma osminkad utan detta kan vi hjäpla dig att tvätta bort i samband med att behandlingen inleds. Vi ser fram emot att ta emot dig och erbjuda en skräddarsydd behandlingsplan, anpassad efter dina behov, oavsett om det är för pormaskar i ansiktet, på bröstet eller ryggen.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -97,8 +96,8 @@ $top_articles = array(
     ),
 );
 
-$treatment_areas_title = 'Behandlingsområden för akne';
-$treatment_areas_text = '<p class="p200">Vi behandlar akne överallt där det förekommer vilket är i ansiktet, på bröstet och på ryggen.</p>';
+$treatment_areas_title = 'Behandlingsområden för portömning';
+$treatment_areas_text = '<p class="p200">Pormaskar kan uppstå överallt på kroppen där det finns porer. Vi utför därför inte bara portömning i ansiktet utan även på brötstet och på ryggen.</p>';
 $treatment_areas = array(
     new TreatmentArea(
         image_small: null,
@@ -110,36 +109,36 @@ $treatment_areas = array(
         items: array(
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webm',
-                image_alt: 'Ansiktsbehandling mot akne i ansiktet',
-                image_title: 'Ansiktsbehandling mot akne i ansiktet',
+                image_alt: 'Portömning i ansiktet',
+                image_title: 'Portömning i ansiktet',
                 title: 'Ansikte',
                 duration: '60 min',
                 price: '995 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för ansiktsbehandling mot akne'
+                url_title: 'Boka tid för portömning i ansiktet'
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webm',
-                image_alt: 'Behandling mot akne på bröstet',
-                image_title: 'Behandling mot akne på bröstet',
+                image_alt: 'Portömning på bröstet',
+                image_title: 'Portömning på bröstet',
                 title: 'Bröst',
                 duration: '60 min',
                 price: '995 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för behandling mot akne på bröstet'
+                url_title: 'Boka tid för portömning på bröstet'
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webm',
-                image_alt: 'Behandling mot akne på ryggen',
-                image_title: 'Behandling mot akne på ryggen',
+                image_alt: 'Portömning på ryggen',
+                image_title: 'Portömning på ryggen',
                 title: 'Rygg',
                 duration: '60 min',
                 price: '995 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för behandling mot akne på ryggen'
+                url_title: 'Boka tid för portömning på ryggen'
             ),
         )
     ),
@@ -147,13 +146,14 @@ $treatment_areas = array(
 
 $bottom_articles = array(
     'process' => new Article(
-        title: 'Hur går en ansiktsbehandling mot akne till?',
+        title: 'Hur går en portömning till?',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Hur går en ansiktsbehandling mot akne till?',
-        image_title: 'Hur går en ansiktsbehandling mot akne till?',
-        content: '<p class="p200">Vår ansiktsbehandling för akne är noggrant utformad för att möta de specifika behoven hos hud som drabbats av akne och finnar. Behandlingen inleds med en grundlig rengöring för att ta bort talg, smuts och andra particlar från hudytan. Efter rengöringen använder vi en vapozon, en apparat som genererar varm ånga, vilket öppnar upp porerna och förbereder huden för de efterföljande stegen.</p>
-            <p class="p200 mt-m">Efter ångbehandlingen kan vi göra en varsam men effektiv manuell utrensning av porerna för att avlägsna olika typer av inkapslingar såsom finnar, papler, pustler och komedoner (svarta och vita pormaskar). Behandlingen avslutas med en lugnande mask och återfuktande för att hjäpla huden att återhämta sig.</p>',
+        image_alt: 'Hur går en portömning till?',
+        image_title: 'Hur går en portömning till?',
+        content: '<p class="p200">Portömning är en noggrann rengöringsprocess med målet att djuprengöra porerna och avlägsna orenheter som pormaskar, vilket bidrar till en jämnare hudton och textur. Behandlingen påbörjas med att huden varsamt rengörs för att tvätta bort yttre orenheter såsom talg och smuts, följt av en peelingtvätt som exfolierar och tar bort döda hudceller. Denna exfoliering är viktig då den förbereder huden genom att öppna upp porerna, vilket gör dem redo för den följande djuprengöringen.</p>
+        <p class="p200 mt-m">Efter peelingen tillämpas en mild ångbehandling med hjälp av en Vapozon. Ångan mjukar upp huden och öppnar porerna ytterligare, vilket gör det enklare att ta bort pormaskar och andra blockeringar. Detta steg är avgörande eftersom det förbereder huden för den manuella portömningen där en terapeut varsamt tömmer porerna. För de mest envisa tilltäppningarna kan en lansett användas för att försiktigt göra en öppning och möjliggöra en mer effektiv rengöring.</p>
+        <p class="p200 mt-m">Efter den manuella rengöringen lugnas huden med en specialanpassad lermask, som har förmågan att minska rodnad och dra ihop porerna, vilket efterlämnar en slät och jämn hud. Avslutningsvis återfuktas huden med en närande dagkräm. Denna sista fas av behandlingen är viktig för hudens återhämtning och för att skapa en skyddande barriär mot yttre miljöfaktorer. Genom hela processen är målet inte bara att rengöra porerna utan också att återställa hudens naturliga balans och förebygga framtida hudproblem.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -169,13 +169,13 @@ $bottom_articles = array(
         ))
     ),
     'boost' => new Article(
-        title: 'Boosta din ansiktsbehandling mot akne med laser',
+        title: 'Boosta din portömning med laser',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Förbättra ansiktsbehandling mot akne med laser',
-        image_title: 'Förbättra ansiktsbehandling mot akne med laser',
-        content: '<p class="p200">På vår klinik tar vi din aknebehandling till nästa nivå genom att kombinera beprövade metoder med innovativ laserterapi. För att få ut det mesta av din behandling rekommenderar vi att komplettera din ansiktsbehandling med en lasersession. Laserterapin kan bidra till att minska akne och ärrbildning samt förbättra hudens övergripande textur och ton. </p>
-        <p class="p200 mt-m">Innan din behandling är det fördelaktigt att undvika hudirriterande produkter, inklusive de med exfolierande syror och retinol, för att din hud ska vara så mottaglig som möjligt för både ansiktsbehandlingen och laserterapin. Det är inte nödvändigt att komma osminkad, men ett ansikte fritt från smink underlättar för oss att göra en noggrann hudanalys direkt vid ankomst. Vi är här för att ta hand om dig och erbjuda en skräddarsydd lösning som adresserar din unika hudtyp och akneproblem, oavsett om det är i ansiktet, på bröstet eller ryggen.</p>',
+        image_alt: 'Förbättra portömning med laser',
+        image_title: 'Förbättra portömning med laser',
+        content: '<p class="p200">I strävan att förbättra och maximera effekten av portömningar erbjuder vi på vår klinik en banbrytande kombination av traditionell rengöring och avancerad laserbehandling. Genom att integrera en lasersession med din portömning, intensifieras behandlingen vilket leder till en djupare rening och kan bidra till att effektivt minska synligheten av pormaskar och fina linjer, samt främja en slätare och mer jämn hudton.</p>
+        <p class="p200 mt-m">För att förbereda din hud för denna kraftfulla behandling, rekommenderar vi att du undviker produkter som kan irritera huden, som de som innehåller exfolierande syror och retinol, innan din session. Medan det inte är ett krav att du anländer utan makeup, så hjälper ett omakeupat ansikte oss att utföra en omedelbar och grundlig hudanalys. Vårt team är här för att ge dig en personligt anpassad upplevelse som inte bara rengör dina porer på djupet utan också använder laserens kraft för att ge din hud en extra boost och därmed tackla dina hudbekymmer mer heltäckande, vare sig det är på ansiktet, bröstet eller ryggen.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -191,13 +191,13 @@ $bottom_articles = array(
         ))
     ),
     'aftercare' => new Article(
-        title: 'Eftervård och underhåll efter ansiktsbehandling för akne',
+        title: 'Eftervård och underhåll efter porrengöring',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
         image_alt: 'Eftervård och underhåll',
         image_title: 'Eftervård och underhåll',
-        content: '<p class="p200">På Acnespecialisten vet vi att det inte finns någon enkel lösning för akne, därför är det viktigt att du tar hand om din hud efter en ansiktsbehandling för att säkerställa bästa möjliga resultat. Det är viktigt att låta huden läka ordentligt och bidra med återfuktning så att du hjäpler huden att återhämta sig. Det är också viktigt att komma igång med din dagliga hudvårdsrutin med produkter speciellt framtagna för aknebenägen hud. Vi rekommenderar DAHL Skincares linje av akneprodukter, som hjälper till att bibehålla hudens balans och förebygga framtida utbrott. Att engagera sig i en regelbunden hudvårdsrutin är essentiellt för att hantera din akne effektivt både hemma och med återkommande professionella behandlingar.</p>
-        <p class="p200">Vi förstår att varje individ har unika behov, och är därför med dig under hela processen där vi berätta vilka produkter och rutiner som passar just dig för att förstärka och förlänga effekten av din behandling. Att använda DAHL Skincares produkter regelbundet kan inte bara stödja de förbättringar som görs under behandlingen utan även bidra till en problemhy och mer balanserad hud över tid. Låt oss på Acnespecialisten hjälpa dig att ta kontroll över din hudhälsa och leda dig mot en klar och strålande hud. Välkommen till en partner i din hudvårdsresa.</p>',
+        content: '<p class="p200">Efter en noggrann portömning hos Acnespecialisten är rätt eftervård avgörande för att upprätthålla resultaten och främja hudens läkning. Vi rekommenderar att efter behandlingen fortsätter du med en daglig hudvårdsrutin som omfattar produkter särskilt anpassade för att vårda och balansera porerna efter tömning. För detta ändamål rekommenderar vi produkter från DAHL Skincare, som stöder balansen i din hud och arbetar för att avlägsna och minimera pormaskar.</p>
+        <p class="p200 mt-m">Bra hudvård är anpassad efter dig och vi på Acnespecialisten strävar efter att skräddarsy rekommendationer som kompletterar din specifika hudtyp och behov. Genom att använda rätt hudvårdsprodukter i din dagliga rutin kan du inte bara upprätthålla de positiva effekterna av portömningen utan också stärka din hud mot framtida problem. Vi är dedikerade till att stötta dig genom hela din hudvårdsresa och ser fram emot att hjälpa dig uppnå och bibehålla en klar och hälsosam hud. Låt Acnespecialisten vara din guide och stöd på vägen mot en sund hudvårdsvana.</p>',
         tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
     ),
 );
@@ -205,35 +205,24 @@ $bottom_articles = array(
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din aknetyp och skapar en individuell behandlingsplan.',
-
-            url_label: 'Få gratis konsultation',
+            content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera dina pormaskar och skapar en individuell behandlingsplan.',
             url: 'hudkonsultation',
+            url_label: 'Få gratis konsultation',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika aknetyp, så att du snabbt och säkert blir av med problemet.',
-
-            url_label: 'Se aknebehandlingar',
-            url: 'behandlingar/akne',
-            url_title: 'Utforska våra skräddarsydda aknebehandlingar'
+            content: 'Vi utför skonsamma och effektiva portömning anpassade för dina pormaskar, så att du snabbt och säkert blir av med problemet.',
+            url: 'behandlingar/pormaskar',
+            url_label: 'Se portömning',
+            url_title: 'Utforska våra skräddarsydda portömning'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny akne och hålla din hud i balans.',
-
+            content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga nya pormaskar och hålla din hud i balans.',
+            url: 'https://dahlskincare.se/produktkategorier/produktpaket/pormaskar',
             url_label: 'Se produkter',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
-            url_title: 'Hitta de bästa produkterna för att förebygga akne'
-      ),
-      new TreatmentStep(
-            title: 'Reparera',
-            content: 'När aknen är borta fokuserar vi på att reducera eventuella ärr med behandlingsmetoder som laser, microneedling och kemisk peeling för en jämn och problemfri hud.',
-
-            url_label: 'Se ärrbehandlingar',
-            url: 'behandlingar/aknearr',
-            url_title: 'Upptäck effektiva behandlingar för akneärr'
+            url_title: 'Hitta de bästa produkterna för att förebygga pormaskar'
       ),
 
 );
@@ -329,22 +318,22 @@ $reviews_view_more = 'Se alla omdömen';
 $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
-        new Question(
-            title: 'Hur många behandlingar krävs?',
-            text: 'Antalet behandlingar varierar beroende på hudens skick och hur den reagerar på behandlingen. De flesta ser en förbättring efter 3 till 5 sessioner. Det är dock individuellt och vi rekommenderar en konsultation för att skapa en personlig behandlingsplan.'
-        ),
-        new Question(
-            title: 'Kan min akne komma tillbaka efter behandlingen?',
-            text: 'Under behandlingen stimuleras huden vilket gör att underliggande finnar kommer upp till ytan och ut. Därför är det viktigt att komma ihång med hudvårdsrutinerna för att bekämpa de nya finnarna för att göra huden probelmfri.'
-        ),
-        new Question(
-            title: 'Hur blir jag av med min akne snabbt?',
-            text: 'Även om det finns behandlingar som kan ge snabbare resultat, är det viktigt att förstå att aknebehandling är en process. En kombination av professionella behandlingar och en skräddarsydd hudvårdsrutin är det bästa sättet att uppnå hållbara resultat.'
-        ),
-        new Question(
-            title: 'Har jag akne även om jag bara har en finne?',
-            text: 'Ja, det är fortfarande akne även om man endast har en enstaka finne. Det finns däremot ingen gräns på hur mågna finnar man behöver ha innan det går att behandla aknen utan vi kan behandla alla nivåer av problemhy.'
-        ),
+            new Question(
+                title: 'Hur ofta bör jag genomgå en portömning?',
+                text: 'Frekvensen av portömningar varierar beroende på din hudtyp och graden av pormaskar. Ofta behöver ett kortare interval i början och därefter underhålls huden med en behandling varannan månad. För att skapa en anpassad behandlingsplan rekommenderar vi att du genomgår en konsultation med en hudspecialist.'
+            ),
+            new Question(
+                title: 'Kommer pormaskarna tillbaka efter en portömning?',
+                text: 'Portömning är effektivt för att ta bort befintliga pormaskar, men det kan inte förhindra nya från att bildas. Det är avgörande att upprätthålla en god hudvårdsrutin efter behandlingen för att minimera risken för nya pormaskar.'
+            ),
+            new Question(
+                title: 'Hur snabbt kan jag se resultat från portömning?',
+                text: 'Många kunder ser en förbättring direkt efter första behandlingen, men för att uppnå bästa möjliga resultat kan det krävas flera sessioner över en tidsperiod. Kombinationen av regelbundna portömningar och rätt hemvård är nyckeln till långsiktiga resultat.'
+            ),
+            new Question(
+                title: 'Behöver jag en portömning även om jag bara har några få pormaskar?',
+                text: 'Ja, även ett fåtal pormaskar kan behandlas med portömning. Det finns ingen minimumgräns för antalet pormaskar som krävs för att dra nytta av behandlingen. Varje hudtillstånd är unikt och kan gagnas av en personligt anpassad hudvårdsstrategi.'
+            ),
     )
 );
 $faq_view_more = 'Se alla frågor & svar';
@@ -639,13 +628,19 @@ $all_brands = array(
                             <div class="mt-xs"><?php echo $treatment_areas_text ?></div>
                         <?php } ?>
                         <?php foreach ($treatment_areas as $treatment_area) { ?>
-                            <picture>
-                                <source media="(max-width: 799px)" srcset="<?php echo $treatment_area->image_small ?>">
-                                <source media="(min-width: 800px)" srcset="<?php echo $treatment_area->image_large ?>">
-                                <img class="treatment-area-image" src="<?php echo $treatment_area->image_small ?>" alt="<?php echo $treatment_area->image_alt ?>" title="<?php echo $treatment_area->image_title ?>" width="364" height="364" />
-                            </picture>
+                            <?php if (isset($treatment_area->image_small)) { ?>
+                                <picture>
+                                    <source media="(max-width: 799px)" srcset="<?php echo $treatment_area->image_small ?>">
+                                    <source media="(min-width: 800px)" srcset="<?php echo $treatment_area->image_large ?>">
+                                    <img class="treatment-area-image" src="<?php echo $treatment_area->image_small ?>" alt="<?php echo $treatment_area->image_alt ?>" title="<?php echo $treatment_area->image_title ?>" width="364" height="364" />
+                                </picture>
+                            <? } ?>
+                            <?php if (isset($treatment_area->title)) { ?>
                             <h3 class="h300 mt-xl"><?php echo $treatment_area->title ?></h3>
+                            <?php } ?>
+                            <?php if (isset($treatment_area->description)) { ?>
                             <div class="mb-xl"><?php echo $treatment_area->description ?></div>
+                            <?php } ?>  
                         <?php
                             foreach ($treatment_area->items as $treatment_area_item) {
                                 include('../../widgets/treatment-area-item-card/treatment-area-item-card.php');

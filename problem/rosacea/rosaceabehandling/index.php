@@ -2,7 +2,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Allt om Rosacea - Behandling och Förebyggande | Acnespecialisten';
+$seo_title = 'Rosaceabehandling - Behandling och Förebyggande | Acnespecialisten';
 $seo_description = 'Lär dig allt om rosacea, från behandling till hur man förebygger det. Skräddarsydda lösningar och expertis från Acnespecialisten.';
 $seo_keywords = 'rosacea, rosaceabehandling, orsaker till rosacea, förebygga rosacea, behandla rosacea, symptom på rosacea';
 
