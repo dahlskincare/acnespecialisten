@@ -3,7 +3,7 @@
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json; charset=UTF-8");
 
-// validate request using basic authentication
+// validate request with basic authentication
 if (!isset($_SERVER['PHP_AUTH_USER'])) {
     header('WWW-Authenticate: Basic realm="My Realm"');
     header('HTTP/1.0 401 Unauthorized');
@@ -21,6 +21,12 @@ if (!isset($_SERVER['PHP_AUTH_USER'])) {
     }
 }
 
+// get the request method
+$method = $_SERVER['REQUEST_METHOD'];
+if ($method != 'POST') {
+    http_response_code(405);
+    die('Method not allowed');
+}
 
 require $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
 $dotenv = Dotenv\Dotenv::createImmutable($_SERVER['DOCUMENT_ROOT'] . '/api');
@@ -37,5 +43,22 @@ if (!$conn) {
 }
 mysqli_set_charset($conn, 'utf8');
 mysqli_select_db($conn, $dbname);
+
+// Get the posted data.
+$postdata = file_get_contents("php://input");
+// split string on ';'
+$commands = explode(';', $postdata);
+
+foreach ($commands as $command) {
+    try {
+        $result = mysqli_query($conn, $command);
+        if ($result == false) {
+            echo mysqli_error($conn);
+        }
+    } catch (Error $e) {} catch (Exception $e) {}
+}
+// add a linebreak
+echo PHP_EOL;
+
+echo 'Build completed';
 http_response_code(200);
-echo 'hi!';
