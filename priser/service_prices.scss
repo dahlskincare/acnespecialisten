@@ -19,10 +19,13 @@ html {
                         display: flex;
                         justify-content: space-between;
                         padding: $m 0;
-                    }
-
-                    .procedure {
                         border-bottom: 1px solid $white-200;
+        
+                        div:last-child {
+                            .p200 {
+                                font-size: 0.9em;
+                            }
+                        }
                     }
 
                     .procedure:first-child {
@@ -42,16 +45,22 @@ html {
                     .large-procedures {
                         border-radius: $radius-l;
                         overflow: hidden;
-
+        
                         .large-procedure {
                             padding: $m;
                             background-color: $deep-sea-500;
                             flex: 1;
                             margin-right: 1px;
-
-                            .p200 {
-                                color: $white-800;
+        
+                            div:last-child {
+                                white-space: nowrap;
+            
+                                .p200 {
+                                    font-size: 0.9em;
+                                    color: $white-800;
+                                }
                             }
+        
                         }
                     }
 
