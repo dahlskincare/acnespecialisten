@@ -493,18 +493,18 @@ $reviews_view_more = 'Se alla omdömen';
 $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
-        new Question(
-            title: 'Hur många Exceed behandlingar behövs?',
-            text: 'Hur många behandlingar som krävs varierar från person till person och beror på hudens tillstånd. Det optimala antalet Exceed sessioner är individuellt och baseras på hudens skick samt önskade mål. Vanligtvis föreslås en behandlingsserie bestående av 3 till 8 sessioner, med pauser på 4 till 6 veckor emellan, för att uppnå de bästa resultaten. En anpassad behandlingsplan utarbetas efter din första konsultation.'
-        ),
-        new Question(
-            title: 'Är det en risk att hudproblemen återvänder efter en Exceed session?',
-            text: 'Exceed är effektivt för att behandla och förbättra nuvarande hudtillstånd, men kan inte motverka att nya problem inte uppstår. För att bevara resultatet och förebygga framtida hudproblem är en regelbunden hudvårdsrutin, kompletterad med rätt produkter och eventuella uppföljningsbehandlingar, att rekommendera.'
-        ),
-        new Question(
-            title: 'När kan jag förvänta mig resultat från min Exceed behandling?',
-            text: 'Tidsramen för synliga resultat efter en Exceed behandling skiljer sig åt mellan individer. Medan vissa noterar förbättring inom några få dagar, kan andra behöva vänta flera veckor för att uppleva fullständig effekt. Kollagenproduktionen och hudförbättringen kan fortsätta att utvecklas under månaderna efter behandlingen.'
-        ),
+            new Question(
+                title: 'Hur ofta bör jag genomgå Exceed microneedling?',
+                text: 'Antalet Exceed microneedling sessioner som rekommenderas varierar baserat på individens hudtillstånd och de mål man vill uppnå. Generellt sett kan man förvänta sig att behöva mellan 3 och 8 behandlingar, med 4 till 6 veckors mellanrum, för att nå önskvärt resultat. En skräddarsydd behandlingsplan kommer att utarbetas under din initiala konsultation.'
+            ),
+            new Question(
+                title: 'Finns det risk för att mina hudproblem kommer tillbaka efter Exceed-behandling?',
+                text: 'Medan Exceed-behandling kan ge betydande förbättringar i hudens tillstånd, kan den inte garantera att nya hudproblem inte uppstår i framtiden. Det är viktigt med en kontinuerlig hudvårdsrutin och möjligtvis ytterligare uppföljningsbehandlingar för att bibehålla och skydda resultaten på lång sikt.'
+            ),
+            new Question(
+                title: 'Hur snabbt kan jag se resultat efter en Exceed-behandling?',
+                text: 'Resultaten från Exceed-behandling kan variera från person till person. En del kan se förbättringar redan inom några dagar, medan andra kanske behöver vänta flera veckor för att se full effekt. Huden kan fortsätta att förbättras och kollagenproduktionen kan öka under flera månader efter behandlingen.'
+            ),
     )
 );
 $faq_view_more = 'Se alla frågor & svar';
