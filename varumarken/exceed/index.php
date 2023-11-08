@@ -114,14 +114,14 @@ $top_articles = array(
     ),
 );
 
-$types_title = 'Hudproblem som Exceed kan förbättra';
-$types_description = 'Exceed är en innovativ behandlingsmetod som effektivt angriper en mängd hudproblem genom att skapa mikroskopiska perforeringar i huden. Dessa små punkteringar sätter igång kroppens naturliga reparation och regenereringsprocesser, vilket stimulerar nybildningen av kollagen och elastin. Tack vare sin förmåga att målriktat påverka hudens djupare skikt, kan Exceed hjälpa till att avsevärt förbättra många olika hudåkommor. Utforska vilka hudproblem som kan behandlas och lindras med Exceed här.'
+$types_title = 'Hudåkommor som Exceed kan adressera';
+$types_description = 'Exceed systematiskt tar itu med en bred spektrum av hudutmaningar genom att initiera hudens inre läkningsmekanismer med dess mikronålsteknologi. Denna metod framkallar små, precisa perforeringar i huden, vilket kickstartar kroppens egna reparerande processer och stimulerar produktionen av kollagen och elastin. Exceeds förmåga att penetrera hudens djupare lager gör det möjligt att signifikant förbättra olika typer av hudproblem. Upptäck de hudåkommor som Exceed effektivt kan minska och föryngra här.'
 $types = array(
     new Service(
         title: 'Exceed för Aktiv Acne',
         duration: '50 minuter',
         price: '2595 kr',
-        content: 'Exceed behandlar aktiv acne genom att använda mikronålar för att stimulera hudens egen läkningsförmåga, vilket reducerar inflammation och hjälper till att förebygga framtida utbrott.',
+        content: 'Genom en innovativ användning av mikronålar aktiverar Exceed behandlingen hudens självläkande mekanismer, vilket minskar inflammationen som är förknippad med aktiv acne och bidrar till att förebygga nya utbrott.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
         image_alt: 'Exceed för Aktiv Acne',
@@ -138,7 +138,7 @@ $types = array(
         title: 'Exceed för Acneärr',
         duration: '50 minuter',
         price: '2595 kr',
-        content: 'Exceed mot acneärr använder mikronålar för att skapa små skador i huden, vilket kickstartar kroppens naturliga läkning och kollagenbildning, vilket jämnar ut ärr och förbättrar hudens struktur.',
+        content: 'Exceed-terapi för acneärr använder precisionsmikronålar för att inducera minimala hudskador, vilket startar kroppens läkande processer och stimulerar ny kollagenbildning för att mjuka upp ärrvävnad och förbättra hudens textur.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
         image_alt: 'Exceed för Acneärr',
@@ -155,7 +155,7 @@ $types = array(
         title: 'Exceed för Rynkor & Fina Linjer',
         duration: '50 minuter',
         price: '2595 kr',
-        content: 'Exceed mot rynkor och fina linjer använder mikronålning för att stimulera hudens föryngringsprocess, vilket resulterar i ökad kollagenproduktion och en slätare, mer ungdomlig hudtextur.',
+        content: 'Exceed-behandling för rynkor och fina linjer tillämpar mikronålingsteknik för att kickstarta hudens föryngringsmekanismer, vilket leder till en förhöjd kollagenproduktion och ger en slätare, föryngrad hud.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
         image_alt: 'Exceed för Rynkor & Fina Linjer',
@@ -172,7 +172,7 @@ $types = array(
         title: 'Exceed för Stora Porer',
         duration: '50 minuter',
         price: '2595 kr',
-        content: 'Exceed för stora porer stimulerar huden på djupet för att öka kollagenproduktionen, vilket kan bidra till att dra åt och minska utseendet av förstorade porer, och ger en jämnare hudstruktur.',
+        content: 'Exceed-metoden för stora porer riktar sig in på hudens djupare lager för att stimulera kollagenförnyelse, vilket effektivt kan minska synligheten av stora porer och förfina hudens övergripande struktur.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
         image_alt: 'Exceed för Stora Porer',
@@ -189,7 +189,7 @@ $types = array(
         title: 'Exceed för Pigmentfläckar',
         duration: '50 minuter',
         price: '2595 kr',
-        content: 'Exceed för pigmentfläckar främjar hudens förnyelseprocess och hjälper till att bryta ned pigmentansamlingar, vilket leder till en mer enhetlig hudton och minskade pigmenteringar.',
+        content: 'Exceed-behandling för pigmentfläckar optimerar hudens naturliga förnyelsecykel och stödjer nedbrytningen av pigmentkoncentrationer, vilket resulterar i en jämnare hudton och ljusare pigmentfläckar.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
         image_alt: 'Exceed för Pigmentfläckar',
@@ -206,7 +206,7 @@ $types = array(
         title: 'Exceed för Bristningar',
         duration: '50 minuter',
         price: '2595 kr',
-        content: 'Exceed stimulerar hudens förmåga att läka och producera nytt kollagen och elastin, vilket kan minska utseendet av bristningar genom att förbättra hudens struktur och elasticitet.',
+        content: 'Exceed-behandling mot bristningar vitaliserar hudens egen reparationsförmåga och kollagen- samt elastinproduktion, vilket effektivt kan minska synligheten av bristningar och förbättra hudens textur och elasticitet.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
         image_alt: 'Exceed för Bristningar',
@@ -221,8 +221,8 @@ $types = array(
 
 );
 
-$treatment_areas_title = 'Behandlingsområden för Exceed';
-$treatment_areas_text = '<p class="p200">Exceed är en mångsidig behandling lämplig för ansikte, axlar, rygg och bröst. Den förbättrar hudens struktur och lyster genom att stimulera kollagenproduktion och läkning, anpassad efter varje unikt hudtillstånd och område.</p>';
+$treatment_areas_title = 'Områden som förbättras med Exceed';
+$treatment_areas_text = '<p class="p200">Exceed erbjuder anpassningsbar behandling för diverse områden inklusive ansiktet, nacken, dekolletaget och andra kroppsdelar. Denna teknik är expert på att förbättra hudens textur och ge en ökad lyster genom att aktivera kollagenproduktionen och stödja naturliga läkningsprocesser, skräddarsydd för varje specifikt hudområde.</p>';
 $treatment_areas = array(
     new TreatmentArea(
         image_small: 'https://via.placeholder.com/361x274.webm',
@@ -230,7 +230,7 @@ $treatment_areas = array(
         image_alt: 'Ansikte',
         image_title: 'Ansikte',
         title: 'Ansikte',
-        description: '<p class="p200">Exceed behandlar och förbättrar huden i ansiktet och kan utföras i hela ansiktet eller på utvalda zoner.</p>',
+        description: '<p class="p200">Exceed förfinar och revitaliserar ansiktshuden och kan appliceras över hela ansiktet eller riktas mot specifika områden efter behov.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/94x72.webp',
@@ -296,7 +296,7 @@ $treatment_areas = array(
         image_alt: 'Kropp',
         image_title: 'Kropp',
         title: 'Kropp',
-        description: '<p class="p200">Exceed är anpassningsbar för behandling av olika kroppsdelar.</p>',
+        description: '<p class="p200">Exceed är flexibel och kan skräddarsys för att behandla många olika delar av kroppen.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webp',
@@ -339,7 +339,7 @@ $treatment_areas = array(
         image_alt: 'Kombinera områden',
         image_title: 'Kombinera områden',
         title: 'Kombinera områden',
-        description: '<p class="p200">Exceed är effektiv för att samtidigt behandla mångfaldiga områden.</p>',
+        description: '<p class="p200">Exceed kan effektivt rikta in sig på flera behandlingsområden samtidigt.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webp',
@@ -379,14 +379,14 @@ $treatment_areas = array(
 );
 
 $bottom_articles = array('aftercare' => new Article(
-    title: 'Efter Exceed behandling',
+    title: 'Eftervård Exceed behandling',
     image_small: 'https://via.placeholder.com/358x272.webp',
     image_large: 'https://via.placeholder.com/872x456.webp',
-    image_alt: 'Efter Exceed behandling',
-    image_title: 'Efter Exceed behandling',
-    content: '<p class="p200">Eftervården spelar en stor roll för framgången med din Exceedbehandling. Det är helt normalt att uppleva rödhet och svullnad efter behandlingen. Det är essentiellt att hålla behandlingsområdet rent och avstå från att applicera makeup under det första dygnet för att minska risken för infektioner och irritation.</p>
-    <p class="p200 mt-m">För att underlätta läkningen bör du undvika intensiv träning, bastubad, och varma duschar de första dagarna som kan förvärra svullnad och irritation. Vikten av solskydd kan inte understrykas nog; använd ett högkvalitativt solskyddsfaktor dagligen för att skydda den nybehandlade huden mot solens strålar.</p>
-    <p class="p200 mt-m">Följ de instruktioner för eftervård du får från din behandlare noggrant. Om du har några frågor eller bekymmer, är du alltid välkommen att kontakta din klinik. Baserat på hur din hud reagerar kan ytterligare uppföljning och behandlingar vara nödvändiga för att uppnå dina hudvårdsambitioner.</p>',
+    image_alt: 'Eftervård Exceed behandling',
+    image_title: 'Eftervård Exceed behandling',
+    content: '<p class="p200">Eftervården är avgörande för att säkerställa bästa möjliga resultat från din Exceed-behandling. En lätt rodnad och svullnad är vanliga reaktioner efter behandlingen, och det är kritiskt att du håller det behandlade området rent och undviker att applicera smink under de första 24 timmarna för att minimera risken för infektion och irritation.</p>
+    <p class="p200 mt-m">Det är även rekommenderat att du avstår från aktiviteter som intensiv fysisk träning, besök i bastu, och varma duschar de första dagarna efter behandlingen, eftersom detta kan öka svullnad och irritation. Användning av hög SPF-solskydd är essentiellt för att skydda den känsliga huden mot solens strålar post-behandling.</p>
+    <p class="p200 mt-m">Följ noga de eftervårdsinstruktioner som din hudterapeut ger dig, och tveka inte att kontakta din klinik om du har några frågor eller funderingar angående återhämtningen. Beroende på din huds respons på behandlingen kan ytterligare uppföljningar och sessioner rekommenderas för att nå dina hudvårds mål.</p>',
     tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
 
@@ -494,8 +494,8 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Vilket är det rekommenderade antalet Exceed sessioner?',
-            text: 'Det optimala antalet Exceed sessioner är individuellt och baseras på hudens skick samt önskade mål. Vanligtvis föreslås en behandlingsserie bestående av 3 till 8 sessioner, med pauser på 4 till 6 veckor emellan, för att uppnå de bästa resultaten. En anpassad behandlingsplan utarbetas efter din första konsultation.'
+            title: 'Hur många Exceed behandlingar behövs?',
+            text: 'Hur många behandlingar som krävs varierar från person till person och beror på hudens tillstånd. Det optimala antalet Exceed sessioner är individuellt och baseras på hudens skick samt önskade mål. Vanligtvis föreslås en behandlingsserie bestående av 3 till 8 sessioner, med pauser på 4 till 6 veckor emellan, för att uppnå de bästa resultaten. En anpassad behandlingsplan utarbetas efter din första konsultation.'
         ),
         new Question(
             title: 'Är det en risk att hudproblemen återvänder efter en Exceed session?',
