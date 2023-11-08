@@ -42,19 +42,19 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Dermapen - en innovativ hudföryngringsteknik';
-$description_text = '<p class="p200">Dermapen är en framstående och skonsam behandlingsmetod som är lämplig för alla hudtyper, inriktad på att vitalisera och föryngra huden. Med en patenterad teknologi använder Dermapen avancerade mikronålar för att skapa fina, precisionsinriktade mikrokanaler i huden. Detta underlättar djupgående absorption av aktiva serum som är rika på näringsämnen och stimulerar hudens kollagenproduktion och naturliga läkningsprocess.</p>
-    <p class="p200 mt-m">Denna digitala och kontrollerade microneedling-teknik erbjuder en nästan smärtfri upplevelse i jämförelse med äldre metoder. Dermapen är mångsidig och kan effektivt behandla en rad hudåkommor, inklusive rynkor, ärr, ojämn hudton och struktur. Genom att stimulera hudens egna reparationsprocesser förbättras dess elasticitet, lyster och övergripande hälsa, vilket ger en märkbart yngre och mer strålande hud.</p>';
+$description_title = 'Exceed - en ledande teknik inom avancerad hudförbättring';
+$description_text = '<p class="p200">Exceed är en toppmodern behandling som passar alla hudtyper, utformad för att vitalisera och förbättra hudens kvalitet. Denna avancerade metod använder preciserade mikronålar för att skapa små, exakta mikrokanaler i huden, vilket främjar djupt upptag av näringsrika serum och stimulerar hudens naturliga kollagenproduktion och läkningsmekanismer.</p>
+    <p class="p200 mt-m">Som en digitalt styrd microneedling-teknik, erbjuder Exceed en behandling med minimal obehag jämfört med traditionella metoder. Exceed är anpassningsbar och kan målinriktat förbättra en mängd hudtillstånd som rynkor, ärr, ojämn hudton och textur. Genom att aktivera hudens egna reparationsförmåga ökas dess elasticitet och lyster, vilket resulterar i en synbart yngre och mer strålande hud.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelser inför Dermapen-behandling',
+        title: 'Förberedelser inför behandling med Exceed',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Förberedelser inför Dermapen-behandling',
-        image_title: 'Förberedelser inför Dermapen-behandling',
-        content: '<p class="p200">Att förbereda sig för en Dermapen-behandling innebär att först genomgå en detaljerad konsultation med en av våra hudspecialister. Under konsultationen utförs en noggrann bedömning av din hud för att identifiera individuella behov och särskilda hudproblem. Denna initiala analys är kritisk för att utforma en personlig behandlingsplan som är perfekt anpassad för dina unika hudvårdsbehov.</p>
-        <p class="p200 mt-m">För optimala resultat bör huden inte vara solskadad vid tidpunkten för behandlingen. Vi rekommenderar också att du avstår från att använda hudirriterande produkter som innehåller starka syror några dagar före behandlingen. Vår hudterapeut kommer att ge dig fullständig vägledning för att förbereda din hud inför behandlingen med Dermapen, för att säkerställa en effektiv och trygg upplevelse.</p>',
+        image_alt: 'Förberedelser inför behandling med Exceed',
+        image_title: 'Förberedelser inför behandling med Exceed',
+        content: '<p class="p200">En grundlig förberedelse är viktig inför din Exceed-behandling och inleds med en detaljerad konsultation hos en av våra hudexperter. Konsultationen innebär en djupgående hudanalys där vi identifierar dina specifika behov och eventuella hudproblem. Denna initiala bedömning är avgörande för att skräddarsy en behandlingsplan som är unikt anpassad efter din huds egna förutsättningar.</p>
+        <p class="p200 mt-m">För att säkerställa att du får de bästa möjliga resultaten, är det viktigt att din hud inte uppvisar tecken på solskador vid tiden för behandlingen. Vi råder också till att undvika hudretande produkter med starka syror eller andra irritanter några dagar innan din session. Vår hudterapeut kommer att ge dig omfattande råd och instruktioner om hur du på bästa sätt förbereder din hud för Exceed-behandlingen, vilket garanterar en både effektiv och säker behandlingsupplevelse.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -70,13 +70,13 @@ $top_articles = array(
         ))
     ),
     'process' => new Article(
-        title: 'Dermapen behandlingsprocess',
+        title: 'Exceed behandlingsprocess',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Dermapen behandlingsprocess',
-        image_title: 'Dermapen behandlingsprocess',
-        content: '<p class="p200">En Dermapen-behandling är en effektiv procedur för hudföryngring som använder avancerad teknik för att förbättra hudens utseende och struktur. När du kommer till kliniken börjar behandlingen med en grundlig rengöring av ditt ansikte för att ta bort smink och smuts.</p>
-        <p class="p200 mt-m">Dermapen-apparaten, utrustad med små, fina, sterila nålar, glider över huden för att punktera den med mikroskopiska hål. Dessa mikro-skador stimulerar hudens egen läkningsförmåga och leder till nyproduktion av kollagen och elastin. Under behandlingen appliceras även specialanpassade serum för att ge näring och främja en effektiv läkning. Efter proceduren är det vanligt med en viss rodnad och svullnad, men detta är ett tecken på att återhämtningsprocessen har startat. Resultatet över tid blir en märkbart slätare, fastare och mer lysterrik hud.</p>',
+        image_alt: 'Exceed behandlingsprocess',
+        image_title: 'Exceed behandlingsprocess',
+        content: '<p class="p200">En Exceed-behandling är en effektiv procedur för hudföryngring som använder avancerad teknik för att förbättra hudens utseende och struktur. När du kommer till kliniken börjar behandlingen med en grundlig rengöring av ditt ansikte för att ta bort smink och smuts.</p>
+        <p class="p200 mt-m">Exceed-apparaten, utrustad med små, fina, sterila nålar, glider över huden för att punktera den med mikroskopiska hål. Dessa mikro-skador stimulerar hudens egen läkningsförmåga och leder till nyproduktion av kollagen och elastin. Under behandlingen appliceras även specialanpassade serum för att ge näring och främja en effektiv läkning. Efter proceduren är det vanligt med en viss rodnad och svullnad, men detta är ett tecken på att återhämtningsprocessen har startat. Resultatet över tid blir en märkbart slätare, fastare och mer lysterrik hud.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -92,12 +92,12 @@ $top_articles = array(
         ))
     ),
     'boost' => new Article(
-        title: 'Boosta din Dermapen-behandling med PRX-T33-behandling',
+        title: 'Boosta din Exceed-behandling med PRX-T33-behandling',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Boosta Dermapen-behandling effekten med PRX-T33',
-        image_title: 'Dermapen-behandling effekten med PRX-T33',
-        content: '<p class="p200">För att ta din Dermapen-behandling till nästa nivå erbjuder vi en specialiserad booster med PRX-T33, en nyskapande behandling som intensifierar hudföryngringseffekten. Denna kombination är idealisk för dig som vill utöka resultatet utan den längre återhämtning som andra behandlingar kräver. PRX-T33 är en icke-invasiv behandling som inte använder nålar och som därmed kompletterar Dermapen perfekt genom att förstärka och förlänga dess fördelaktiga effekter. Den kombinerade behandlingen lovar en synlig förbättring av hudens ton och textur samt en avsevärd minskning av fina linjer och ojämnheter, för en jämnare och mer ungdomlig hud.</p>',
+        image_alt: 'Boosta Exceed-behandling effekten med PRX-T33',
+        image_title: 'Exceed-behandling effekten med PRX-T33',
+        content: '<p class="p200">För att ta din Exceed-behandling till nästa nivå erbjuder vi en specialiserad booster med PRX-T33, en nyskapande behandling som intensifierar hudföryngringseffekten. Denna kombination är idealisk för dig som vill utöka resultatet utan den längre återhämtning som andra behandlingar kräver. PRX-T33 är en icke-invasiv behandling som inte använder nålar och som därmed kompletterar Exceed perfekt genom att förstärka och förlänga dess fördelaktiga effekter. Den kombinerade behandlingen lovar en synlig förbättring av hudens ton och textur samt en avsevärd minskning av fina linjer och ojämnheter, för en jämnare och mer ungdomlig hud.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -114,115 +114,115 @@ $top_articles = array(
     ),
 );
 
-$types_title = 'Hudproblem som Dermapen kan förbättra';
-$types_description = 'Dermapen är en innovativ behandlingsmetod som effektivt angriper en mängd hudproblem genom att skapa mikroskopiska perforeringar i huden. Dessa små punkteringar sätter igång kroppens naturliga reparation och regenereringsprocesser, vilket stimulerar nybildningen av kollagen och elastin. Tack vare sin förmåga att målriktat påverka hudens djupare skikt, kan Dermapen hjälpa till att avsevärt förbättra många olika hudåkommor. Utforska vilka hudproblem som kan behandlas och lindras med Dermapen här.'
+$types_title = 'Hudproblem som Exceed kan förbättra';
+$types_description = 'Exceed är en innovativ behandlingsmetod som effektivt angriper en mängd hudproblem genom att skapa mikroskopiska perforeringar i huden. Dessa små punkteringar sätter igång kroppens naturliga reparation och regenereringsprocesser, vilket stimulerar nybildningen av kollagen och elastin. Tack vare sin förmåga att målriktat påverka hudens djupare skikt, kan Exceed hjälpa till att avsevärt förbättra många olika hudåkommor. Utforska vilka hudproblem som kan behandlas och lindras med Exceed här.'
 $types = array(
     new Service(
-        title: 'Dermapen för Aktiv Acne',
+        title: 'Exceed för Aktiv Acne',
         duration: '50 minuter',
         price: '2595 kr',
-        content: 'Dermapen behandlar aktiv acne genom att använda mikronålar för att stimulera hudens egen läkningsförmåga, vilket reducerar inflammation och hjälper till att förebygga framtida utbrott.',
+        content: 'Exceed behandlar aktiv acne genom att använda mikronålar för att stimulera hudens egen läkningsförmåga, vilket reducerar inflammation och hjälper till att förebygga framtida utbrott.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Dermapen för Aktiv Acne',
-        image_title: 'Dermapen för Aktiv Acne',
+        image_alt: 'Exceed för Aktiv Acne',
+        image_title: 'Exceed för Aktiv Acne',
         consultation_url: 'konsultation-aktiv-acne',
         consultation_url_label: 'Boka konsultation för behandling av aktiv acne',
         consultation_url_title: 'Boka konsultation för behandling av aktiv acne',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka Dermapen för aktiv acne',
-        booking_url_title: 'Boka Dermapen för aktiv acne',
+        booking_url_label: 'Boka Exceed för aktiv acne',
+        booking_url_title: 'Boka Exceed för aktiv acne',
     ),
 
     new Service(
-        title: 'Dermapen för Acneärr',
+        title: 'Exceed för Acneärr',
         duration: '50 minuter',
         price: '2595 kr',
-        content: 'Dermapen mot acneärr använder mikronålar för att skapa små skador i huden, vilket kickstartar kroppens naturliga läkning och kollagenbildning, vilket jämnar ut ärr och förbättrar hudens struktur.',
+        content: 'Exceed mot acneärr använder mikronålar för att skapa små skador i huden, vilket kickstartar kroppens naturliga läkning och kollagenbildning, vilket jämnar ut ärr och förbättrar hudens struktur.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Dermapen för Acneärr',
-        image_title: 'Dermapen för Acneärr',
+        image_alt: 'Exceed för Acneärr',
+        image_title: 'Exceed för Acneärr',
         consultation_url: 'konsultation-acnearr',
         consultation_url_label: 'Boka konsultation för behandling av acneärr',
         consultation_url_title: 'Boka konsultation för behandling av acneärr',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka Dermapen för acneärr',
-        booking_url_title: 'Boka Dermapen för acneärr',
+        booking_url_label: 'Boka Exceed för acneärr',
+        booking_url_title: 'Boka Exceed för acneärr',
     ),
 
     new Service(
-        title: 'Dermapen för Rynkor & Fina Linjer',
+        title: 'Exceed för Rynkor & Fina Linjer',
         duration: '50 minuter',
         price: '2595 kr',
-        content: 'Dermapen mot rynkor och fina linjer använder mikronålning för att stimulera hudens föryngringsprocess, vilket resulterar i ökad kollagenproduktion och en slätare, mer ungdomlig hudtextur.',
+        content: 'Exceed mot rynkor och fina linjer använder mikronålning för att stimulera hudens föryngringsprocess, vilket resulterar i ökad kollagenproduktion och en slätare, mer ungdomlig hudtextur.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Dermapen för Rynkor & Fina Linjer',
-        image_title: 'Dermapen för Rynkor & Fina Linjer',
+        image_alt: 'Exceed för Rynkor & Fina Linjer',
+        image_title: 'Exceed för Rynkor & Fina Linjer',
         consultation_url: 'konsultation-rynkor-fina-linjer',
         consultation_url_label: 'Boka konsultation för behandling av rynkor och fina linjer',
         consultation_url_title: 'Boka konsultation för behandling av rynkor och fina linjer',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka Dermapen för rynkor & fina linjer',
-        booking_url_title: 'Boka Dermapen för rynkor & fina linjer',
+        booking_url_label: 'Boka Exceed för rynkor & fina linjer',
+        booking_url_title: 'Boka Exceed för rynkor & fina linjer',
     ),
 
     new Service(
-        title: 'Dermapen för Stora Porer',
+        title: 'Exceed för Stora Porer',
         duration: '50 minuter',
         price: '2595 kr',
-        content: 'Dermapen för stora porer stimulerar huden på djupet för att öka kollagenproduktionen, vilket kan bidra till att dra åt och minska utseendet av förstorade porer, och ger en jämnare hudstruktur.',
+        content: 'Exceed för stora porer stimulerar huden på djupet för att öka kollagenproduktionen, vilket kan bidra till att dra åt och minska utseendet av förstorade porer, och ger en jämnare hudstruktur.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Dermapen för Stora Porer',
-        image_title: 'Dermapen för Stora Porer',
+        image_alt: 'Exceed för Stora Porer',
+        image_title: 'Exceed för Stora Porer',
         consultation_url: 'konsultation-stora-porer',
         consultation_url_label: 'Boka konsultation för behandling av stora porer',
         consultation_url_title: 'Boka konsultation för behandling av stora porer',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka Dermapen för stora porer',
-        booking_url_title: 'Boka Dermapen för stora porer',
+        booking_url_label: 'Boka Exceed för stora porer',
+        booking_url_title: 'Boka Exceed för stora porer',
     ),
 
     new Service(
-        title: 'Dermapen för Pigmentfläckar',
+        title: 'Exceed för Pigmentfläckar',
         duration: '50 minuter',
         price: '2595 kr',
-        content: 'Dermapen för pigmentfläckar främjar hudens förnyelseprocess och hjälper till att bryta ned pigmentansamlingar, vilket leder till en mer enhetlig hudton och minskade pigmenteringar.',
+        content: 'Exceed för pigmentfläckar främjar hudens förnyelseprocess och hjälper till att bryta ned pigmentansamlingar, vilket leder till en mer enhetlig hudton och minskade pigmenteringar.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Dermapen för Pigmentfläckar',
-        image_title: 'Dermapen för Pigmentfläckar',
+        image_alt: 'Exceed för Pigmentfläckar',
+        image_title: 'Exceed för Pigmentfläckar',
         consultation_url: 'konsultation-pigmentflackar',
         consultation_url_label: 'Boka konsultation för behandling av pigmentfläckar',
         consultation_url_title: 'Boka konsultation för behandling av pigmentfläckar',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka Dermapen för pigmentfläckar',
-        booking_url_title: 'Boka Dermapen för pigmentfläckar',
+        booking_url_label: 'Boka Exceed för pigmentfläckar',
+        booking_url_title: 'Boka Exceed för pigmentfläckar',
     ),
 
     new Service(
-        title: 'Dermapen för Bristningar',
+        title: 'Exceed för Bristningar',
         duration: '50 minuter',
         price: '2595 kr',
-        content: 'Dermapen stimulerar hudens förmåga att läka och producera nytt kollagen och elastin, vilket kan minska utseendet av bristningar genom att förbättra hudens struktur och elasticitet.',
+        content: 'Exceed stimulerar hudens förmåga att läka och producera nytt kollagen och elastin, vilket kan minska utseendet av bristningar genom att förbättra hudens struktur och elasticitet.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Dermapen för Bristningar',
-        image_title: 'Dermapen för Bristningar',
+        image_alt: 'Exceed för Bristningar',
+        image_title: 'Exceed för Bristningar',
         consultation_url: 'konsultation-bristningar',
         consultation_url_label: 'Boka konsultation för behandling av bristningar',
         consultation_url_title: 'Boka konsultation för behandling av bristningar',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka Dermapen för bristningar',
-        booking_url_title: 'Boka Dermapen för bristningar',
+        booking_url_label: 'Boka Exceed för bristningar',
+        booking_url_title: 'Boka Exceed för bristningar',
     ),
 
 );
 
-$treatment_areas_title = 'Behandlingsområden för Dermapen';
-$treatment_areas_text = '<p class="p200">Dermapen är en mångsidig behandling lämplig för ansikte, axlar, rygg och bröst. Den förbättrar hudens struktur och lyster genom att stimulera kollagenproduktion och läkning, anpassad efter varje unikt hudtillstånd och område.</p>';
+$treatment_areas_title = 'Behandlingsområden för Exceed';
+$treatment_areas_text = '<p class="p200">Exceed är en mångsidig behandling lämplig för ansikte, axlar, rygg och bröst. Den förbättrar hudens struktur och lyster genom att stimulera kollagenproduktion och läkning, anpassad efter varje unikt hudtillstånd och område.</p>';
 $treatment_areas = array(
     new TreatmentArea(
         image_small: 'https://via.placeholder.com/361x274.webm',
@@ -230,7 +230,7 @@ $treatment_areas = array(
         image_alt: 'Ansikte',
         image_title: 'Ansikte',
         title: 'Ansikte',
-        description: '<p class="p200">Dermapen behandlar och förbättrar huden i ansiktet och kan utföras i hela ansiktet eller på utvalda zoner.</p>',
+        description: '<p class="p200">Exceed behandlar och förbättrar huden i ansiktet och kan utföras i hela ansiktet eller på utvalda zoner.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/94x72.webp',
@@ -296,7 +296,7 @@ $treatment_areas = array(
         image_alt: 'Kropp',
         image_title: 'Kropp',
         title: 'Kropp',
-        description: '<p class="p200">Dermapen är anpassningsbar för behandling av olika kroppsdelar.</p>',
+        description: '<p class="p200">Exceed är anpassningsbar för behandling av olika kroppsdelar.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webp',
@@ -339,7 +339,7 @@ $treatment_areas = array(
         image_alt: 'Kombinera områden',
         image_title: 'Kombinera områden',
         title: 'Kombinera områden',
-        description: '<p class="p200">Dermapen är effektiv för att samtidigt behandla mångfaldiga områden.</p>',
+        description: '<p class="p200">Exceed är effektiv för att samtidigt behandla mångfaldiga områden.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webp',
@@ -379,19 +379,19 @@ $treatment_areas = array(
 );
 
 $bottom_articles = array('aftercare' => new Article(
-    title: 'Efter Dermapen behandling',
+    title: 'Efter Exceed behandling',
     image_small: 'https://via.placeholder.com/358x272.webp',
     image_large: 'https://via.placeholder.com/872x456.webp',
-    image_alt: 'Efter Dermapen behandling',
-    image_title: 'Efter Dermapen behandling',
-    content: '<p class="p200">Eftervården spelar en stor roll för framgången med din Dermapenbehandling. Det är helt normalt att uppleva rödhet och svullnad efter behandlingen. Det är essentiellt att hålla behandlingsområdet rent och avstå från att applicera makeup under det första dygnet för att minska risken för infektioner och irritation.</p>
+    image_alt: 'Efter Exceed behandling',
+    image_title: 'Efter Exceed behandling',
+    content: '<p class="p200">Eftervården spelar en stor roll för framgången med din Exceedbehandling. Det är helt normalt att uppleva rödhet och svullnad efter behandlingen. Det är essentiellt att hålla behandlingsområdet rent och avstå från att applicera makeup under det första dygnet för att minska risken för infektioner och irritation.</p>
     <p class="p200 mt-m">För att underlätta läkningen bör du undvika intensiv träning, bastubad, och varma duschar de första dagarna som kan förvärra svullnad och irritation. Vikten av solskydd kan inte understrykas nog; använd ett högkvalitativt solskyddsfaktor dagligen för att skydda den nybehandlade huden mot solens strålar.</p>
     <p class="p200 mt-m">Följ de instruktioner för eftervård du får från din behandlare noggrant. Om du har några frågor eller bekymmer, är du alltid välkommen att kontakta din klinik. Baserat på hur din hud reagerar kan ytterligare uppföljning och behandlingar vara nödvändiga för att uppnå dina hudvårdsambitioner.</p>',
     tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
 
-$service_brands_title = 'Metoder för Dermapen';
-$service_brands_text = '<p class="p200">Dermapen är en form av microneedling behandling.</p>';
+$service_brands_title = 'Metoder för Exceed';
+$service_brands_text = '<p class="p200">Exceed är en form av microneedling behandling.</p>';
 $service_brands = array(
 
     new Brand(
@@ -494,16 +494,16 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Vilket är det rekommenderade antalet Dermapen sessioner?',
-            text: 'Det optimala antalet Dermapen sessioner är individuellt och baseras på hudens skick samt önskade mål. Vanligtvis föreslås en behandlingsserie bestående av 3 till 8 sessioner, med pauser på 4 till 6 veckor emellan, för att uppnå de bästa resultaten. En anpassad behandlingsplan utarbetas efter din första konsultation.'
+            title: 'Vilket är det rekommenderade antalet Exceed sessioner?',
+            text: 'Det optimala antalet Exceed sessioner är individuellt och baseras på hudens skick samt önskade mål. Vanligtvis föreslås en behandlingsserie bestående av 3 till 8 sessioner, med pauser på 4 till 6 veckor emellan, för att uppnå de bästa resultaten. En anpassad behandlingsplan utarbetas efter din första konsultation.'
         ),
         new Question(
-            title: 'Är det en risk att hudproblemen återvänder efter en Dermapen session?',
-            text: 'Dermapen är effektivt för att behandla och förbättra nuvarande hudtillstånd, men kan inte motverka att nya problem inte uppstår. För att bevara resultatet och förebygga framtida hudproblem är en regelbunden hudvårdsrutin, kompletterad med rätt produkter och eventuella uppföljningsbehandlingar, att rekommendera.'
+            title: 'Är det en risk att hudproblemen återvänder efter en Exceed session?',
+            text: 'Exceed är effektivt för att behandla och förbättra nuvarande hudtillstånd, men kan inte motverka att nya problem inte uppstår. För att bevara resultatet och förebygga framtida hudproblem är en regelbunden hudvårdsrutin, kompletterad med rätt produkter och eventuella uppföljningsbehandlingar, att rekommendera.'
         ),
         new Question(
-            title: 'När kan jag förvänta mig resultat från min Dermapen behandling?',
-            text: 'Tidsramen för synliga resultat efter en Dermapen behandling skiljer sig åt mellan individer. Medan vissa noterar förbättring inom några få dagar, kan andra behöva vänta flera veckor för att uppleva fullständig effekt. Kollagenproduktionen och hudförbättringen kan fortsätta att utvecklas under månaderna efter behandlingen.'
+            title: 'När kan jag förvänta mig resultat från min Exceed behandling?',
+            text: 'Tidsramen för synliga resultat efter en Exceed behandling skiljer sig åt mellan individer. Medan vissa noterar förbättring inom några få dagar, kan andra behöva vänta flera veckor för att uppleva fullständig effekt. Kollagenproduktionen och hudförbättringen kan fortsätta att utvecklas under månaderna efter behandlingen.'
         ),
     )
 );
@@ -566,10 +566,10 @@ $all_brands = array(
         image_title: 'Powerlite',
     ),
     new Brand(
-        label: 'Dermapen4',
-        image: 'images/brands/dermapen4.svg',
-        image_alt: 'Dermapen4',
-        image_title: 'Dermapen4',
+        label: 'Exceed4',
+        image: 'images/brands/Exceed4.svg',
+        image_alt: 'Exceed4',
+        image_title: 'Exceed4',
     ),
     new Brand(
         label: 'Cryopen',
