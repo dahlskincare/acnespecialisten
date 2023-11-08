@@ -11,11 +11,10 @@ $seo_image = 'images/treatments/large/dermapen.jpg';
 
 
 $model = new Service(
-    title: 'Microneedling',
+    title: 'Dermapen',
     duration: null,
     price: 'Från 2332 kr',
-    content: '<p class="p200">Som ledande experter på microneedling i Sverige, erbjuder vi toppmodern behandling för att revitalisera din hud. Oavsett var du är, från Östermalm till Södermalm eller Sundbyberg, har du tillgång till denna effektiva metod som genom en kontrollerad process stimulerar huden att reparera sig själv. Detta uppnås genom att försiktigt och strategiskt inducera mikroskopiska skador i hudens yttre lager, vilket kickstartar produktionen av kollagen – ett avgörande protein för att upprätthålla hudens styrka och smidighet.</p>
-    <p class="p200">Microneedling är idealiskt för dig som önskar att förbättra hudens ton och textur, reducera ärr och fina linjer eller helt enkelt öka hudens vitalitet och lyster. Våra behandlingar är skräddarsydda för att matcha en rad olika hudtillstånd och är specifikt utformade för att maximera hudens egen förmåga till förnyelse och förbättring.</p>',
+    content: '<p class="p200">Dermapen är optimal för dig som vill förbättra hudens struktur och elasticitet, minska synligheten av ärr, rynkor och linjer, samt återskapa hudens naturliga vitalitet och glöd. Våra Dermapen-behandlingar är personligt anpassade för att möta en mängd hudbehov och är omsorgsfullt utformade för att maximera hudens potential till regenerering och föryngring.</p>',
     image_small: 'https://via.placeholder.com/358x274.webp',
     image_large: 'https://via.placeholder.com/424x456.webp',
     image_alt: 'Ansiktsbehandlingar för problemhy',
@@ -26,36 +25,10 @@ $model = new Service(
     booking_url: 'https://bokadirekt.se',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
-    procedures: array(
-        new Procedure(
-            label: '1 procedure',
-            price: '2595 kr',
-            savings: null,
-            booking_url: 'https://bokadirekt.se',
-            booking_url_label: 'Boka tid för behandling',
-            booking_url_title: 'Boka tid för behandling'
-        ),
-        new Procedure(
-            label: '3 procedures',
-            price: '6995 kr',
-            savings: 'Spara 790 kr',
-            booking_url: 'https://bokadirekt.se',
-            booking_url_label: 'Boka tid för behandling',
-            booking_url_title: 'Boka tid för behandling'
-        ),
-        new Procedure(
-            label: '5 procedures',
-            price: '9995 kr',
-            savings: 'Spara 2980 kr',
-            booking_url: 'https://bokadirekt.se',
-            booking_url_label: 'Boka tid för behandling',
-            booking_url_title: 'Boka tid för behandling'
-        )
-    ),
 );
 
 $nav_buttons = array(
-    'about' => 'Om microneedling',
+    'about' => 'Om dermapen',
     'preparing' => 'Förberedelser',
     'process' => 'Processen',
     'types' => 'Typer',
@@ -69,19 +42,19 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Microneedling - vad är det?';
-$description_text = '<p class="p200">Microneedling är en skonsam och revolutionerande behandlingsmetod anpassad för alla hudtyper som syftar till att förbättra hudens struktur och utseende. Med hjälp av 16 tunna, medicinska engångsnålar skapas tusentals mikroskopiska kanaler i huden, vilket möjliggör djup penetration av uppbyggande och näringsrika serum. Denna process stimulerar hudens egen förmåga till förnyelse och reparationsmekanismer.</p>
-    <p class="p200 mt-m">Den här helt digitala microneedling-tekniken är ett smärtfritt alternativ till traditionella metoder som laser, och erbjuder minimala risker för biverkningar. Det passar en mångfald av hudtillstånd, inklusive men inte begränsat till åldrande hud, ärrbildningar, ojämn hudton och textur. Genom att aktivera hudens egen kollagenproduktion, förbättras spänsten, lystern och konditionen i huden, vilket resulterar i en fräschare och mer ungdomlig hy.</p>';
+$description_title = 'Dermapen - en innovativ hudföryngringsteknik';
+$description_text = '<p class="p200">Dermapen är en framstående och skonsam behandlingsmetod som är lämplig för alla hudtyper, inriktad på att vitalisera och föryngra huden. Med en patenterad teknologi använder Dermapen avancerade mikronålar för att skapa fina, precisionsinriktade mikrokanaler i huden. Detta underlättar djupgående absorption av aktiva serum som är rika på näringsämnen och stimulerar hudens kollagenproduktion och naturliga läkningsprocess.</p>
+    <p class="p200 mt-m">Denna digitala och kontrollerade microneedling-teknik erbjuder en nästan smärtfri upplevelse i jämförelse med äldre metoder. Dermapen är mångsidig och kan effektivt behandla en rad hudåkommor, inklusive rynkor, ärr, ojämn hudton och struktur. Genom att stimulera hudens egna reparationsprocesser förbättras dess elasticitet, lyster och övergripande hälsa, vilket ger en märkbart yngre och mer strålande hud.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelser inför Microneedling-behandling',
+        title: 'Förberedelser inför Dermapen-behandling',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Förberedelser inför Microneedling-behandling',
-        image_title: 'Förberedelser inför Microneedling-behandling',
-        content: '<p class="p200">Förberedelse inför en Microneedling-behandling börjar med en noggrann konsultation där du får träffa en av våra erfarna hudterapeuter. Under konsultationen kommer hudterapeuten att genomföra en omfattande undersökning av din hud för att identifiera specifika behov och hudtillstånd. Detta steg är avgörande för att kunna ta fram en personlig och skräddarsydd behandlingsplan som är optimerad för just dina hudvårdsbehov.</p>
-        <p class="p200 mt-m">Innan behandlingen är det viktigt att huden inte är solbränd. Dessutom bör du undvika starka hudvårdsprodukter som innehåller syror några dagar före behandlingen för att minimera risken för irritation. Din hudterapeut kommer att ge dig all information du behöver för att förbereda din hud på bästa sätt inför din Microneedling-session, säkerställandes att du får en så effektiv och säker behandling som möjligt.</p>',
+        image_alt: 'Förberedelser inför Dermapen-behandling',
+        image_title: 'Förberedelser inför Dermapen-behandling',
+        content: '<p class="p200">Att förbereda sig för en Dermapen-behandling innebär att först genomgå en detaljerad konsultation med en av våra hudspecialister. Under konsultationen utförs en noggrann bedömning av din hud för att identifiera individuella behov och särskilda hudproblem. Denna initiala analys är kritisk för att utforma en personlig behandlingsplan som är perfekt anpassad för dina unika hudvårdsbehov.</p>
+        <p class="p200 mt-m">För optimala resultat bör huden inte vara solskadad vid tidpunkten för behandlingen. Vi rekommenderar också att du avstår från att använda hudirriterande produkter som innehåller starka syror några dagar före behandlingen. Vår hudterapeut kommer att ge dig fullständig vägledning för att förbereda din hud inför behandlingen med Dermapen, för att säkerställa en effektiv och trygg upplevelse.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -97,13 +70,13 @@ $top_articles = array(
         ))
     ),
     'process' => new Article(
-        title: 'Microneedling behandlingsprocess',
+        title: 'Dermapen behandlingsprocess',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Microneedling behandlingsprocess',
-        image_title: 'Microneedling behandlingsprocess',
-        content: '<p class="p200">Microneedling är en avancerad hudförnyande behandlingsmetod som kickstartar hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. När du anländer till kliniken, kommer din hud att rengöras grundligt för att avlägsna makeup och orenheter. Därefter appliceras en bedövningskräm för att minska eventuellt obehag under behandlingen.</p>
-        p class="p200 mt-m">Vår speciellt utformade microneedling-enhet använder en serie fina, sterila nålar för att skapa mikroskopiska kanaler i huden. Detta initierar hudens egen reparationsmekanism och leder till ökad elastin- och kollagenproduktion. Under behandlingen använder vi också en näringsrik serum för att maximera hudens upptagningsförmåga och stimulera förnyelseprocessen. Efter behandlingen kan du förvänta dig en viss rodnad, men detta är normalt och indikerar att hudens läkningsprocess har börjat. Med tiden kommer du att märka en förbättrad hudtextur, minskning av fina linjer och en övergripande mer strålande hy.</p>',
+        image_alt: 'Dermapen behandlingsprocess',
+        image_title: 'Dermapen behandlingsprocess',
+        content: '<p class="p200">En Dermapen-behandling är en effektiv procedur för hudföryngring som använder avancerad teknik för att förbättra hudens utseende och struktur. När du kommer till kliniken börjar behandlingen med en grundlig rengöring av ditt ansikte för att ta bort smink och smuts.</p>
+        <p class="p200 mt-m">Dermapen-apparaten, utrustad med små, fina, sterila nålar, glider över huden för att punktera den med mikroskopiska hål. Dessa mikro-skador stimulerar hudens egen läkningsförmåga och leder till nyproduktion av kollagen och elastin. Under behandlingen appliceras även specialanpassade serum för att ge näring och främja en effektiv läkning. Efter proceduren är det vanligt med en viss rodnad och svullnad, men detta är ett tecken på att återhämtningsprocessen har startat. Resultatet över tid blir en märkbart slätare, fastare och mer lysterrik hud.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -119,13 +92,12 @@ $top_articles = array(
         ))
     ),
     'boost' => new Article(
-        title: 'Boosta din Microneedling med PRX-T33-behandling',
+        title: 'Boosta din Dermapen-behandling med PRX-T33-behandling',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Boosta Microneedling effekten med PRX-T33',
-        image_title: 'Boosta Microneedling effekten med PRX-T33',
-        content: '<p class="p200">I strävan efter optimala resultat av din hudvård, erbjuder vår klinik en unik kombinationsbehandling som förstärker effekten av microneedling genom att integrera PRX-T33, en banbrytande biorevitaliserande behandling. Denna synergiska behandlingsstrategi är utformad för att förbättra hudens struktur, elasticitet och lyster utan lång återhämtningstid.</p>
-                <p class="p200 mt-m">Inför din microneedling-behandling är det viktigt att undvika produkter som kan irritera huden, som exfolierande syror och retinol. PRX-T33-behandlingen appliceras efter microneedling-sessionen för att boosta hudens regenerativa processer och kollagenproduktion ännu mer. Eftersom PRX-T33 inte kräver nålar eller orsakar hudskada, är det ett utmärkt komplement för att förstärka och förlänga de positiva effekterna av microneedling. Förbered dig för att se en märkbar skillnad i din hud med en förbättrad ton, textur och en dramatisk minskning av fina linjer och ojämnheter.</p>',
+        image_alt: 'Boosta Dermapen-behandling effekten med PRX-T33',
+        image_title: 'Dermapen-behandling effekten med PRX-T33',
+        content: '<p class="p200">För att ta din Dermapen-behandling till nästa nivå erbjuder vi en specialiserad booster med PRX-T33, en nyskapande behandling som intensifierar hudföryngringseffekten. Denna kombination är idealisk för dig som vill utöka resultatet utan den längre återhämtning som andra behandlingar kräver. PRX-T33 är en icke-invasiv behandling som inte använder nålar och som därmed kompletterar Dermapen perfekt genom att förstärka och förlänga dess fördelaktiga effekter. Den kombinerade behandlingen lovar en synlig förbättring av hudens ton och textur samt en avsevärd minskning av fina linjer och ojämnheter, för en jämnare och mer ungdomlig hud.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -142,115 +114,115 @@ $top_articles = array(
     ),
 );
 
-$types_title = 'Hudproblem som behandlas med microneedling';
-$types_description = 'Microneedling är en mångsidig behandling som kan hantera en rad hudproblem. Denna teknik stimulerar hudens naturliga läkningsprocess och främjar ny kollagenproduktion, vilket är effektivt för att behandla en rad hudtillstånd. Microneedling kan användas för att adressera och förbättra tillstånd och du hittar alla problem vi behandlar här.';
+$types_title = 'Hudproblem som Dermapen kan förbättra';
+$types_description = 'Dermapen är en innovativ behandlingsmetod som effektivt angriper en mängd hudproblem genom att skapa mikroskopiska perforeringar i huden. Dessa små punkteringar sätter igång kroppens naturliga reparation och regenereringsprocesser, vilket stimulerar nybildningen av kollagen och elastin. Tack vare sin förmåga att målriktat påverka hudens djupare skikt, kan Dermapen hjälpa till att avsevärt förbättra många olika hudåkommor. Utforska vilka hudproblem som kan behandlas och lindras med Dermapen här.'
 $types = array(
     new Service(
-        title: 'Microneedling för Aktiv Acne',
+        title: 'Dermapen för Aktiv Acne',
         duration: '50 minuter',
         price: '2595 kr',
-        content: 'Effektivt målinriktad behandling av aktiv acne med vår microneedlingmetod. Denna teknik använder små nålar för att försiktigt sticka i huden, vilket främjar läkning och minskar förekomsten av acne.',
+        content: 'Effektivt målinriktad behandling av aktiv acne med vår Dermapenmetod. Denna teknik använder små nålar för att försiktigt sticka i huden, vilket främjar läkning och minskar förekomsten av acne.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Microneedling för Aktiv Acne',
-        image_title: 'Microneedling för Aktiv Acne',
+        image_alt: 'Dermapen för Aktiv Acne',
+        image_title: 'Dermapen för Aktiv Acne',
         consultation_url: 'konsultation-aktiv-acne',
         consultation_url_label: 'Boka konsultation för behandling av aktiv acne',
         consultation_url_title: 'Boka konsultation för behandling av aktiv acne',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka microneedling för aktiv acne',
-        booking_url_title: 'Boka microneedling för aktiv acne',
+        booking_url_label: 'Boka Dermapen för aktiv acne',
+        booking_url_title: 'Boka Dermapen för aktiv acne',
     ),
 
     new Service(
-        title: 'Microneedling för Acneärr',
+        title: 'Dermapen för Acneärr',
         duration: '50 minuter',
         price: '2595 kr',
-        content: 'Vår microneedlingbehandling för acneärr stimulerar kollagenproduktion för att minska synligheten av ärr och förbättra hudens textur.',
+        content: 'Vår Dermapenbehandling för acneärr stimulerar kollagenproduktion för att minska synligheten av ärr och förbättra hudens textur.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Microneedling för Acneärr',
-        image_title: 'Microneedling för Acneärr',
+        image_alt: 'Dermapen för Acneärr',
+        image_title: 'Dermapen för Acneärr',
         consultation_url: 'konsultation-acnearr',
         consultation_url_label: 'Boka konsultation för behandling av acneärr',
         consultation_url_title: 'Boka konsultation för behandling av acneärr',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka microneedling för acneärr',
-        booking_url_title: 'Boka microneedling för acneärr',
+        booking_url_label: 'Boka Dermapen för acneärr',
+        booking_url_title: 'Boka Dermapen för acneärr',
     ),
 
     new Service(
-        title: 'Microneedling för Rynkor & Fina Linjer',
+        title: 'Dermapen för Rynkor & Fina Linjer',
         duration: '50 minuter',
         price: '2595 kr',
-        content: 'Utjämna rynkor och fina linjer med vår microneedlingbehandling som hjälper till att förnya och strama upp huden.',
+        content: 'Utjämna rynkor och fina linjer med vår Dermapenbehandling som hjälper till att förnya och strama upp huden.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Microneedling för Rynkor & Fina Linjer',
-        image_title: 'Microneedling för Rynkor & Fina Linjer',
+        image_alt: 'Dermapen för Rynkor & Fina Linjer',
+        image_title: 'Dermapen för Rynkor & Fina Linjer',
         consultation_url: 'konsultation-rynkor-fina-linjer',
         consultation_url_label: 'Boka konsultation för behandling av rynkor och fina linjer',
         consultation_url_title: 'Boka konsultation för behandling av rynkor och fina linjer',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka microneedling för rynkor & fina linjer',
-        booking_url_title: 'Boka microneedling för rynkor & fina linjer',
+        booking_url_label: 'Boka Dermapen för rynkor & fina linjer',
+        booking_url_title: 'Boka Dermapen för rynkor & fina linjer',
     ),
 
     new Service(
-        title: 'Microneedling för Stora Porer',
+        title: 'Dermapen för Stora Porer',
         duration: '50 minuter',
         price: '2595 kr',
-        content: 'Förfining och minskning av stora porer med våra riktade microneedlingbehandlingar som främjar en slätare hud.',
+        content: 'Förfining och minskning av stora porer med våra riktade Dermapenbehandlingar som främjar en slätare hud.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Microneedling för Stora Porer',
-        image_title: 'Microneedling för Stora Porer',
+        image_alt: 'Dermapen för Stora Porer',
+        image_title: 'Dermapen för Stora Porer',
         consultation_url: 'konsultation-stora-porer',
         consultation_url_label: 'Boka konsultation för behandling av stora porer',
         consultation_url_title: 'Boka konsultation för behandling av stora porer',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka microneedling för stora porer',
-        booking_url_title: 'Boka microneedling för stora porer',
+        booking_url_label: 'Boka Dermapen för stora porer',
+        booking_url_title: 'Boka Dermapen för stora porer',
     ),
 
     new Service(
-        title: 'Microneedling för Pigmentfläckar',
+        title: 'Dermapen för Pigmentfläckar',
         duration: '50 minuter',
         price: '2595 kr',
-        content: 'Minska synligheten av pigmentfläckar och återställ en jämn hudton med vår microneedlingbehandling.',
+        content: 'Minska synligheten av pigmentfläckar och återställ en jämn hudton med vår Dermapenbehandling.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Microneedling för Pigmentfläckar',
-        image_title: 'Microneedling för Pigmentfläckar',
+        image_alt: 'Dermapen för Pigmentfläckar',
+        image_title: 'Dermapen för Pigmentfläckar',
         consultation_url: 'konsultation-pigmentflackar',
         consultation_url_label: 'Boka konsultation för behandling av pigmentfläckar',
         consultation_url_title: 'Boka konsultation för behandling av pigmentfläckar',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka microneedling för pigmentfläckar',
-        booking_url_title: 'Boka microneedling för pigmentfläckar',
+        booking_url_label: 'Boka Dermapen för pigmentfläckar',
+        booking_url_title: 'Boka Dermapen för pigmentfläckar',
     ),
 
     new Service(
-        title: 'Microneedling för Bristningar',
+        title: 'Dermapen för Bristningar',
         duration: '50 minuter',
         price: '2595 kr',
-        content: 'Förbättra utseendet på bristningar med vår microneedlingbehandling som hjälper till att återuppbygga kollagen och elastin i huden.',
+        content: 'Förbättra utseendet på bristningar med vår Dermapenbehandling som hjälper till att återuppbygga kollagen och elastin i huden.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Microneedling för Bristningar',
-        image_title: 'Microneedling för Bristningar',
+        image_alt: 'Dermapen för Bristningar',
+        image_title: 'Dermapen för Bristningar',
         consultation_url: 'konsultation-bristningar',
         consultation_url_label: 'Boka konsultation för behandling av bristningar',
         consultation_url_title: 'Boka konsultation för behandling av bristningar',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka microneedling för bristningar',
-        booking_url_title: 'Boka microneedling för bristningar',
+        booking_url_label: 'Boka Dermapen för bristningar',
+        booking_url_title: 'Boka Dermapen för bristningar',
     ),
 
 );
 
-$treatment_areas_title = 'Behandlingsområden för Microneedling';
-$treatment_areas_text = '<p class="p200">Microneedling är en mångsidig behandling lämplig för ansikte, axlar, rygg och bröst. Den förbättrar hudens struktur och lyster genom att stimulera kollagenproduktion och läkning, anpassad efter varje unikt hudtillstånd och område.</p>';
+$treatment_areas_title = 'Behandlingsområden för Dermapen';
+$treatment_areas_text = '<p class="p200">Dermapen är en mångsidig behandling lämplig för ansikte, axlar, rygg och bröst. Den förbättrar hudens struktur och lyster genom att stimulera kollagenproduktion och läkning, anpassad efter varje unikt hudtillstånd och område.</p>';
 $treatment_areas = array(
     new TreatmentArea(
         image_small: 'https://via.placeholder.com/361x274.webm',
@@ -258,7 +230,7 @@ $treatment_areas = array(
         image_alt: 'Ansikte',
         image_title: 'Ansikte',
         title: 'Ansikte',
-        description: '<p class="p200">Microneedling behandlar och förbättrar huden i ansiktet och kan utföras i hela ansiktet eller på utvalda zoner.</p>',
+        description: '<p class="p200">Dermapen behandlar och förbättrar huden i ansiktet och kan utföras i hela ansiktet eller på utvalda zoner.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/94x72.webp',
@@ -324,7 +296,7 @@ $treatment_areas = array(
         image_alt: 'Kropp',
         image_title: 'Kropp',
         title: 'Kropp',
-        description: '<p class="p200">Med microneedling kan vi behandla flera olika delar av kroppen.</p>',
+        description: '<p class="p200">Med Dermapen kan vi behandla flera olika delar av kroppen.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webp',
@@ -407,19 +379,19 @@ $treatment_areas = array(
 );
 
 $bottom_articles = array('aftercare' => new Article(
-    title: 'Efter microneedling behandling',
+    title: 'Efter Dermapen behandling',
     image_small: 'https://via.placeholder.com/358x272.webp',
     image_large: 'https://via.placeholder.com/872x456.webp',
-    image_alt: 'Efter microneedling behandling',
-    image_title: 'Efter microneedling behandling',
-    content: '<p class="p200">Efter en microneedlingbehandling är det flera viktiga steg du bör följa för att främja läkning och optimera resultatet av din behandling. Direkt efter proceduren är det normalt att huden blir röd och svullen. Det är kritiskt att undvika att röra behandlingsområdet med smutsiga händer och att inte applicera makeup de första 24 timmarna för att minimera risken för infektioner eller irritationer.</p>
-    <p class="p200 mt-m">Under de första dagarna efter behandlingen, undvik kraftig motion, bastu, och långa varma duschar som kan öka svullnad och irritation i huden. Solskydd är också av yttersta vikt; applicera en bredspektrum solskyddsfaktor dagligen för att skydda din hud mot UV-strålning, som kan vara extra skadlig för den nya känsliga huden efter microneedling. Dessutom rekommenderas att du använder milda, återfuktande produkter utan parfym eller andra irriterande ingredienser för att hjälpa till med läkningsprocessen och behålla hudens fuktbalans.</p>
+    image_alt: 'Efter Dermapen behandling',
+    image_title: 'Efter Dermapen behandling',
+    content: '<p class="p200">Efter en Dermapenbehandling är det flera viktiga steg du bör följa för att främja läkning och optimera resultatet av din behandling. Direkt efter proceduren är det normalt att huden blir röd och svullen. Det är kritiskt att undvika att röra behandlingsområdet med smutsiga händer och att inte applicera makeup de första 24 timmarna för att minimera risken för infektioner eller irritationer.</p>
+    <p class="p200 mt-m">Under de första dagarna efter behandlingen, undvik kraftig motion, bastu, och långa varma duschar som kan öka svullnad och irritation i huden. Solskydd är också av yttersta vikt; applicera en bredspektrum solskyddsfaktor dagligen för att skydda din hud mot UV-strålning, som kan vara extra skadlig för den nya känsliga huden efter Dermapen. Dessutom rekommenderas att du använder milda, återfuktande produkter utan parfym eller andra irriterande ingredienser för att hjälpa till med läkningsprocessen och behålla hudens fuktbalans.</p>
     <p class="p200 mt-m">Följ noggrant de eftervårdsinstruktioner som din behandlare ger dig och tveka inte att kontakta kliniken om du har några frågor eller oro kring din eftervård. Regelbunden uppföljning och eventuellt ytterligare behandlingar kan rekommenderas beroende på din huds individuella svar och de mål du strävar efter med din hudvård.</p>',
     tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
 
-$service_brands_title = 'Märken för microneedling';
-$service_brands_text = '<p class="p200">Vi utför microneedling med Dermapen och Exceed vilket är de modernaste och mest effektiva metoderna på markanden.</p>';
+$service_brands_title = 'Märken för Dermapen';
+$service_brands_text = '<p class="p200">Vi utför Dermapen med Dermapen och Exceed vilket är de modernaste och mest effektiva metoderna på markanden.</p>';
 $service_brands = array(
 
     new Brand(
@@ -528,16 +500,16 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Hur många microneedling behandlingar behövs?',
-            text: 'Antalet microneedling behandlingar som behövs varierar beroende på individens hudtillstånd och de mål man önskar uppnå. Generellt rekommenderas en serie på 3-8 behandlingar med intervaller på 4-6 veckor mellan varje session för bästa resultat. Ditt hudvårdsteam kan ge dig en personlig rekommendation efter en initial konsultation.'
+            title: 'Hur många Dermapen behandlingar behövs?',
+            text: 'Antalet Dermapen behandlingar som behövs varierar beroende på individens hudtillstånd och de mål man önskar uppnå. Generellt rekommenderas en serie på 3-8 behandlingar med intervaller på 4-6 veckor mellan varje session för bästa resultat. Ditt hudvårdsteam kan ge dig en personlig rekommendation efter en initial konsultation.'
         ),
         new Question(
-            title: 'Kan mina hudproblem återkomma efter microneedling?',
-            text: 'Medan microneedling behandlar vi befintliga hudproblem effektivt men vi kan inte motverka uppkomsten av att nya uppstår. Därför är det viktigt att kombinera microneedling behandlingen med behandlingar och produkter som motverkar uppkomsten av det ursprungliga problemet. En fortsatt hudvårdsrutin och eventuellt uppföljande behandlingar kan vara nödvändiga för att underhålla resultaten.'
+            title: 'Kan mina hudproblem återkomma efter Dermapen?',
+            text: 'Medan Dermapen behandlar vi befintliga hudproblem effektivt men vi kan inte motverka uppkomsten av att nya uppstår. Därför är det viktigt att kombinera Dermapen behandlingen med behandlingar och produkter som motverkar uppkomsten av det ursprungliga problemet. En fortsatt hudvårdsrutin och eventuellt uppföljande behandlingar kan vara nödvändiga för att underhålla resultaten.'
         ),
         new Question(
-            title: 'Hur snabbt kan jag se resultat efter en microneedling behandling?',
-            text: 'Resultatet efter microneedling varierar från person till person. Vissa kan märka förbättringar så tidigt som några dagar efter behandlingen, medan andra kan behöva vänta några veckor för att se fullständiga resultat. Hudens naturliga kollagenproduktion kan ta tid, och förbättringar fortsätter ofta under flera månader efter behandlingen.'
+            title: 'Hur snabbt kan jag se resultat efter en Dermapen behandling?',
+            text: 'Resultatet efter Dermapen varierar från person till person. Vissa kan märka förbättringar så tidigt som några dagar efter behandlingen, medan andra kan behöva vänta några veckor för att se fullständiga resultat. Hudens naturliga kollagenproduktion kan ta tid, och förbättringar fortsätter ofta under flera månader efter behandlingen.'
         ),
     )
 );
