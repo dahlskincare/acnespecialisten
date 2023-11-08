@@ -3,15 +3,15 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Dermapen - Effektiv hudföryngring | Acnespecialisten';
-$seo_description = 'Upptäck AcneSpecialistens Dermapen-behandlingar, den ledande tekniken inom hudföryngring som aktivt bekämpar åldrande och texturförändringar. Med expertis och skräddarsydda behandlingsprogram, stimulerar vi din hud att självläka och återfå sin spänst och lyster.';
-$seo_keywords = 'Dermapen, hudföryngring, behandla texturförändringar, reducera ålderslinjer, stimulera kollagen, hudförbättring, förfinad hudstruktur, jämna ut hudton, öka hudens elasticitet, föryngra huden';
+$seo_title = 'Exceed - Avancerad microneedling | Acnespecialisten';
+$seo_description = 'Utforska AcneSpecialistens Exceed-behandlingar, framkantstekniken för avancerad microneedling som effektivt tar itu med ålderstecken och hudens textur. Genom våra experter och anpassade behandlingsplaner, främjar vi hudens naturliga regenereringsprocess för att återställa dess fasthet och lyster.';
+$seo_keywords = 'Exceed, avancerad microneedling, behandla hudtextur, minska ålderstecken, främja kollagenproduktion, hudförbättringar, förbättrad hudstruktur, jämn hudton, förbättrad hudelasticitet, hudförnyelse';
 
-$seo_image = 'images/treatments/large/dermapen.jpg';
+$seo_image = 'images/treatments/large/exceed.jpg';
 
 
 $model = new Service(
-    title: 'Dermapen',
+    title: 'Exceed',
     duration: null,
     price: 'Från 2332 kr',
     content: '<p class="p200">Dermapen är optimal för dig som vill förbättra hudens struktur och elasticitet, minska synligheten av ärr, rynkor och linjer, samt återskapa hudens naturliga vitalitet och glöd. Våra Dermapen-behandlingar är personligt anpassade för att möta en mängd hudbehov och är omsorgsfullt utformade för att maximera hudens potential till regenerering och föryngring.</p>',
@@ -28,7 +28,7 @@ $model = new Service(
 );
 
 $nav_buttons = array(
-    'about' => 'Om dermapen',
+    'about' => 'Om Exceed',
     'preparing' => 'Förberedelser',
     'process' => 'Processen',
     'types' => 'Typer',
