@@ -255,155 +255,112 @@ $treatment_areas = array(
     new TreatmentArea(
         image_small: 'https://via.placeholder.com/361x274.webm',
         image_large: 'https://via.placeholder.com/872x456.webm',
-        image_alt: 'Face',
-        image_title: 'Face',
-        title: 'Intimate',
-        description: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin.</p>',
+        image_alt: 'Ansikte',
+        image_title: 'Ansikte',
+        title: 'Ansikte',
+        description: '<p class="p200">Microneedling behandlar och förbättrar huden i ansiktet och kan utföras i hela ansiktet eller på utvalda zoner.</p>',
         items: array(
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webm',
-                image_alt: 'Face',
-                image_title: 'Face',
-                title: 'Bikini line',
-                duration: '30 min',
-                price: '1295 kr',
+                image: 'https://via.placeholder.com/94x72.webp',
+                image_alt: 'Ansikte',
+                image_title: 'Ansikte',
+                title: 'Ansikte',
+                duration: '50 min',
+                price: '2595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för behandling'
+                url_title: 'Boka tid för ansiktsbehandling'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webm',
-                image_alt: 'String',
-                image_title: 'String',
-                title: 'String',
+                image: 'https://via.placeholder.com/94x72.webp',
+                image_alt: 'Näsa',
+                image_title: 'Näsa',
+                title: 'Näsa',
                 duration: '30 min',
                 price: '1295 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för behandling'
+                url_title: 'Boka tid för näsbehandling'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webm',
-                image_alt: 'Brazze',
-                image_title: 'Brazze',
-                title: 'Brazilian',
+                image: 'https://via.placeholder.com/94x72.webp',
+                image_alt: 'Kinder',
+                image_title: 'Kinder',
+                title: 'Kinder',
                 duration: '30 min',
                 price: '1295 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för behandling'
-            )
+                url_title: 'Boka tid för kindbehandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webp',
+                image_alt: 'Överläpp',
+                image_title: 'Överläpp',
+                title: 'Överläpp',
+                duration: '30 min',
+                price: '1295 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för överläppsbehandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webp',
+                image_alt: 'Haka',
+                image_title: 'Haka',
+                title: 'Haka',
+                duration: '30 min',
+                price: '1295 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för hakbehandling'
+            ),
+
         )
     ),
     new TreatmentArea(
         image_small: 'https://via.placeholder.com/361x274.webm',
         image_large: 'https://via.placeholder.com/872x456.webm',
-        image_alt: 'Body',
-        image_title: 'Body',
-        title: 'Body',
-        description: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin.</p>',
+        image_alt: 'Kropp',
+        image_title: 'Kropp',
+        title: 'Kropp',
+        description: '<p class="p200">Med microneedling kan vi behandla flera olika delar av kroppen.</p>',
         items: array(
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webm',
-                image_alt: 'Hands & fingers',
-                image_title: 'Hands & fingers',
-                title: 'Hands & fingers',
-                duration: '30 min',
-                price: '1295 kr',
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: 'Hals',
+                image_title: 'Hals',
+                title: 'Hals',
+                duration: '50 min',
+                price: '2595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för behandling'
+                url_title: 'Boka tid för halsbehandling'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webm',
-                image_alt: 'Shoulders',
-                image_title: 'Shoulders',
-                title: 'Shoulders',
-                duration: '30 min',
-                price: '1295 kr',
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: 'Rygg',
+                image_title: 'Rygg',
+                title: 'Dekolletage',
+                duration: '50 min',
+                price: '2595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för behandling'
+                url_title: 'Boka tid för dekolletagebehandling'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webm',
-                image_alt: 'Armpits',
-                image_title: 'Armpits',
-                title: 'Armpits',
-                duration: '30 min',
-                price: '1295 kr',
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: 'Rygg',
+                image_title: 'Rygg',
+                title: 'Rygg',
+                duration: '50 min',
+                price: '2595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för behandling'
+                url_title: 'Boka tid för ryggbehandling'
             ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webm',
-                image_alt: 'Chest',
-                image_title: 'Chest',
-                title: 'Chest',
-                duration: '30 min',
-                price: '1295 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling'
-            )
         )
     ),
-    
-    new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
-        image_alt: 'Face',
-        image_title: 'Face',
-        title: 'Face',
-        description: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin.</p>',
-        items: array(
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webm',
-                image_alt: 'Bikini line',
-                image_title: 'Bikini line',
-                title: 'Ears',
-                duration: '30 min',
-                price: '1295 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling'
-            ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webm',
-                image_alt: 'Cheeks',
-                image_title: 'Cheeks',
-                title: 'Cheeks',
-                duration: '30 min',
-                price: '1295 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling'
-            ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webm',
-                image_alt: 'Upper lip',
-                image_title: 'Upper lip',
-                title: 'Upper lip',
-                duration: '30 min',
-                price: '1295 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling'
-            )
-        ),
-        all: new TreatmentAreaItem(
-            image: 'https://via.placeholder.com/94x72.webm',
-            image_alt: 'Whole face',
-            image_title: 'Whole face',
-            title: 'Whole face',
-            duration: '30 min',
-            price: '1925 kr',
-            url: 'https://bokadirekt.se',
-            url_label: 'Boka',
-            url_title: 'Boka tid för behandling'
-        )
-    )
 );
 
 $bottom_articles = array('aftercare' => new Article(
