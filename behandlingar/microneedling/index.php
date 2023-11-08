@@ -427,7 +427,7 @@ $service_brands = array(
         image: 'images/brands/dermapen4.svg',
         image_alt: 'Dermapen4',
         image_title: 'Dermapen4'
-    )
+    ),
     new Brand(
         label: 'Exceed',
         image: 'images/brands/exceed.svg',
