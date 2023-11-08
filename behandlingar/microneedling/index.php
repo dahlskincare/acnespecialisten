@@ -339,8 +339,8 @@ $treatment_areas = array(
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webp',
-                image_alt: 'Rygg',
-                image_title: 'Rygg',
+                image_alt: 'Dekolletage',
+                image_title: 'Dekolletage',
                 title: 'Dekolletage',
                 duration: '50 min',
                 price: '2595 kr',
@@ -361,33 +361,79 @@ $treatment_areas = array(
             ),
         )
     ),
+    new TreatmentArea(
+        image_small: 'https://via.placeholder.com/361x274.webm',
+        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_alt: 'Kombinera områden',
+        image_title: 'Kombinera områden',
+        title: 'Kombinera områden',
+        description: '<p class="p200">Behandlingen fungerar även utmärkt om du vill kombinera flera olika områden.</p>',
+        items: array(
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: '1x område',
+                image_title: '1x område',
+                title: '1x områdes',
+                duration: '50 min',
+                price: '2595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för halsbehandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: '2x områden',
+                image_title: '2x områden',
+                title: '2x områden',
+                duration: '70 min',
+                price: '3595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för dekolletagebehandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: '3x områden',
+                image_title: '3x områden',
+                title: '3x områden',
+                duration: '90 min',
+                price: '4595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för ryggbehandling'
+            ),
+        )
+    ),
 );
 
 $bottom_articles = array('aftercare' => new Article(
-    title: 'Aftercare and maintenance',
+    title: 'Efter microneedling behandling',
     image_small: 'https://via.placeholder.com/358x272.webp',
     image_large: 'https://via.placeholder.com/872x456.webp',
-    image_alt: 'Aftercare and maintenance',
-    image_title: 'Aftercare and maintenance',
-    content: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>',
+    image_alt: 'Efter microneedling behandling',
+    image_title: 'Efter microneedling behandling',
+    content: '<p class="p200">Efter en microneedlingbehandling är det flera viktiga steg du bör följa för att främja läkning och optimera resultatet av din behandling. Direkt efter proceduren är det normalt att huden blir röd och svullen. Det är kritiskt att undvika att röra behandlingsområdet med smutsiga händer och att inte applicera makeup de första 24 timmarna för att minimera risken för infektioner eller irritationer.</p>
+    <p class="p200 mt-m">Under de första dagarna efter behandlingen, undvik kraftig motion, bastu, och långa varma duschar som kan öka svullnad och irritation i huden. Solskydd är också av yttersta vikt; applicera en bredspektrum solskyddsfaktor dagligen för att skydda din hud mot UV-strålning, som kan vara extra skadlig för den nya känsliga huden efter microneedling. Dessutom rekommenderas att du använder milda, återfuktande produkter utan parfym eller andra irriterande ingredienser för att hjälpa till med läkningsprocessen och behålla hudens fuktbalans.</p>
+    <p class="p200 mt-m">Följ noggrant de eftervårdsinstruktioner som din behandlare ger dig och tveka inte att kontakta kliniken om du har några frågor eller oro kring din eftervård. Regelbunden uppföljning och eventuellt ytterligare behandlingar kan rekommenderas beroende på din huds individuella svar och de mål du strävar efter med din hudvård.</p>',
     tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
 
-$service_brands_title = 'Märken för ansiktsbehandlingar för problemhy';
-$service_brands_text = '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>';
+$service_brands_title = 'Märken för microneedling';
+$service_brands_text = '<p class="p200">Vi utför microneedling med Dermapen och Exceed vilket är de modernaste och mest effektiva metoderna på markanden.</p>';
 $service_brands = array(
-    new Brand(
-        label: 'Powerlite',
-        image: 'images/brands/powerlite.svg',
-        image_alt: 'Powerlite',
-        image_title: 'Powerlite'
-    ),
+
     new Brand(
         label: 'Dermapen4',
         image: 'images/brands/dermapen4.svg',
         image_alt: 'Dermapen4',
         image_title: 'Dermapen4'
     )
+    new Brand(
+        label: 'Exceed',
+        image: 'images/brands/exceed.svg',
+        image_alt: 'Exceed',
+        image_title: 'Exceed'
+    ),
 );
 
 $results = array(
@@ -482,21 +528,17 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'How many treatments are needed?',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            title: 'Hur många microneedling behandlingar behövs?',
+            text: 'Antalet microneedling behandlingar som behövs varierar beroende på individens hudtillstånd och de mål man önskar uppnå. Generellt rekommenderas en serie på 3-8 behandlingar med intervaller på 4-6 veckor mellan varje session för bästa resultat. Ditt hudvårdsteam kan ge dig en personlig rekommendation efter en initial konsultation.'
         ),
         new Question(
-            title: 'Can my acne come back?',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            title: 'Kan mina hudproblem återkomma efter microneedling?',
+            text: 'Medan microneedling behandlar vi befintliga hudproblem effektivt men vi kan inte motverka uppkomsten av att nya uppstår. Därför är det viktigt att kombinera microneedling behandlingen med behandlingar och produkter som motverkar uppkomsten av det ursprungliga problemet. En fortsatt hudvårdsrutin och eventuellt uppföljande behandlingar kan vara nödvändiga för att underhålla resultaten.'
         ),
         new Question(
-            title: 'How do I get rid of my acne fast?',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            title: 'Hur snabbt kan jag se resultat efter en microneedling behandling?',
+            text: 'Resultatet efter microneedling varierar från person till person. Vissa kan märka förbättringar så tidigt som några dagar efter behandlingen, medan andra kan behöva vänta några veckor för att se fullständiga resultat. Hudens naturliga kollagenproduktion kan ta tid, och förbättringar fortsätter ofta under flera månader efter behandlingen.'
         ),
-        new Question(
-            title: 'Do I have acne even if I only have one pimple?',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-        )
     )
 );
 $faq_view_more = 'Se alla frågor & svar';
