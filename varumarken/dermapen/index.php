@@ -28,7 +28,7 @@ $model = new Service(
 );
 
 $nav_buttons = array(
-    'about' => 'Om dermapen',
+    'about' => 'Om Dermapen',
     'preparing' => 'Förberedelser',
     'process' => 'Processen',
     'types' => 'Typer',

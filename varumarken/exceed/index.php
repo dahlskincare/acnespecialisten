@@ -14,7 +14,7 @@ $model = new Service(
     title: 'Exceed',
     duration: null,
     price: 'Från 2332 kr',
-    content: '<p class="p200">Dermapen är optimal för dig som vill förbättra hudens struktur och elasticitet, minska synligheten av ärr, rynkor och linjer, samt återskapa hudens naturliga vitalitet och glöd. Våra Dermapen-behandlingar är personligt anpassade för att möta en mängd hudbehov och är omsorgsfullt utformade för att maximera hudens potential till regenerering och föryngring.</p>',
+    content: '<p class="p200">Exceed är idealisk för den som siktar på att förhöja hudens kvalitet och spänst, dämpa framträdandet av ärrvävnad, rynkor och fina linjer, samt återställa hudens naturliga vitalitet och utstrålning. Våra Exceed-behandlingar är skräddarsydda för att tillgodose en bredd av hudtillstånd och är noggrant framtagen för att optimera hudens återhämtningsförmåga och ungdomliga framtoning.</p>',
     image_small: 'https://via.placeholder.com/358x274.webp',
     image_large: 'https://via.placeholder.com/424x456.webp',
     image_alt: 'Ansiktsbehandlingar för problemhy',
