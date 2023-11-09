@@ -95,7 +95,7 @@ $top_articles = array(
 );
 
 $types_title = 'Hudförändringar som behandlas med frysbehandling';
-$types_description = 'Frysbehandling, eller kryoterapi, är en väl beprövad metod för att effektivt hantera olika hudförändringar. Genom att tillämpa extrem kyla på specifika områden kan denna behandling målmedvetet frysa och eliminera oönskade hudförändringar.'
+$types_description = 'Frysbehandling, eller kryoterapi, är en väl beprövad metod för att effektivt hantera olika hudförändringar. Genom att tillämpa extrem kyla på specifika områden kan denna behandling målmedvetet frysa och eliminera oönskade hudförändringar.';
 $types = array(
     new Service(
         title: 'Frysbehandling mot ansiktsvårtor',
