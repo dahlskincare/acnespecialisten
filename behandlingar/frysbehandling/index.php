@@ -25,7 +25,6 @@ $model = new Service(
     booking_url: 'https://bokadirekt.se',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
-    ),
 );
 
 $nav_buttons = array(
