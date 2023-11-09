@@ -3,19 +3,18 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Microneedling - Avancerad hudförbättring | Acnespecialisten';
-$seo_description = 'Upptäck AcneSpecialistens avancerade microneedling-behandlingar som revitaliserar och förbättrar hudens utseende. Få tillgång till expertkunskap och behandlingar anpassade för att stimulera hudens naturliga läkningsprocess och främja en jämn, fast och klar hud.';
-$seo_keywords = 'microneedling, hudföryngring, behandla ärr, reducera fina linjer, stimulera kollagenproduktion, hudförbättring, hudstruktur, förbättra hudton, elastisk hud, föryngra huden';
+$seo_title = 'Frysbehandling - Effektiv hudkorrigering | Acnespecialisten';
+$seo_description = 'Utforska AcneSpecialistens expertfrysbehandlingar för att selektivt och effektivt ta bort hudförändringar. Dra nytta av behandlingar som använder sig av kryoterapi för att noggrant avlägsna oönskade hudlesioner och främja en slätare hudstruktur.';
+$seo_keywords = 'frysbehandling, hudkorrigering, avlägsna vårtor, behandla hudutväxter, reducera pigmentfläckar, kryoterapi, hudläkning, förbättra hudstruktur, estetisk dermatologi, hudvård';
 
-$seo_image = 'images/treatments/large/microneedling.jpg';
+$seo_image = 'images/treatments/large/frysbehandling.jpg';
 
 
 $model = new Service(
-    title: 'Microneedling',
+    title: 'Frysbehandling',
     duration: null,
     price: 'Från 2332 kr',
-    content: '<p class="p200">Som ledande experter på microneedling i Sverige, erbjuder vi toppmodern behandling för att revitalisera din hud. Oavsett var du är, från Östermalm till Södermalm eller Sundbyberg, har du tillgång till denna effektiva metod som genom en kontrollerad process stimulerar huden att reparera sig själv. Detta uppnås genom att försiktigt och strategiskt inducera mikroskopiska skador i hudens yttre lager, vilket kickstartar produktionen av kollagen – ett avgörande protein för att upprätthålla hudens styrka och smidighet.</p>
-    <p class="p200">Microneedling är idealiskt för dig som önskar att förbättra hudens ton och textur, reducera ärr och fina linjer eller helt enkelt öka hudens vitalitet och lyster. Våra behandlingar är skräddarsydda för att matcha en rad olika hudtillstånd och är specifikt utformade för att maximera hudens egen förmåga till förnyelse och förbättring.</p>',
+    content: '<p class="p200">Vi är ledande på frysbehandlingar mot hudförändinrgar i Sverige. Denna metod är ett utmärkt alternativ för dig som vill avlägsna hudförändringar och återställa huden till en mer jämn och estetiskt tilltalande struktur. Våra behandlingsprotokoll är noggrant anpassade för att möta olika hudproblem och är utformade för att erbjuda en säker och icke-invasiv väg till förbättrad hudkvalitet.</p>',
     image_small: 'https://via.placeholder.com/358x274.webp',
     image_large: 'https://via.placeholder.com/424x456.webp',
     image_alt: 'Ansiktsbehandlingar för problemhy',
@@ -26,36 +25,11 @@ $model = new Service(
     booking_url: 'https://bokadirekt.se',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
-    procedures: array(
-        new Procedure(
-            label: '1 procedure',
-            price: '2595 kr',
-            savings: null,
-            booking_url: 'https://bokadirekt.se',
-            booking_url_label: 'Boka tid för behandling',
-            booking_url_title: 'Boka tid för behandling'
-        ),
-        new Procedure(
-            label: '3 procedures',
-            price: '6995 kr',
-            savings: 'Spara 790 kr',
-            booking_url: 'https://bokadirekt.se',
-            booking_url_label: 'Boka tid för behandling',
-            booking_url_title: 'Boka tid för behandling'
-        ),
-        new Procedure(
-            label: '5 procedures',
-            price: '9995 kr',
-            savings: 'Spara 2980 kr',
-            booking_url: 'https://bokadirekt.se',
-            booking_url_label: 'Boka tid för behandling',
-            booking_url_title: 'Boka tid för behandling'
-        )
     ),
 );
 
 $nav_buttons = array(
-    'about' => 'Om microneedling',
+    'about' => 'Om frysbehandlingar',
     'preparing' => 'Förberedelser',
     'process' => 'Processen',
     'types' => 'Typer',
@@ -69,19 +43,19 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Microneedling - vad är det?';
-$description_text = '<p class="p200">Microneedling är en skonsam och revolutionerande behandlingsmetod anpassad för alla hudtyper som syftar till att förbättra hudens struktur och utseende. Med hjälp av 16 tunna, medicinska engångsnålar skapas tusentals mikroskopiska kanaler i huden, vilket möjliggör djup penetration av uppbyggande och näringsrika serum. Denna process stimulerar hudens egen förmåga till förnyelse och reparationsmekanismer.</p>
-    <p class="p200 mt-m">Den här helt digitala microneedling-tekniken är ett smärtfritt alternativ till traditionella metoder som laser, och erbjuder minimala risker för biverkningar. Det passar en mångfald av hudtillstånd, inklusive men inte begränsat till åldrande hud, ärrbildningar, ojämn hudton och textur. Genom att aktivera hudens egen kollagenproduktion, förbättras spänsten, lystern och konditionen i huden, vilket resulterar i en fräschare och mer ungdomlig hy.</p>';
+$description_title = 'Frysbehandling - vad är det?';
+$description_text = '<p class="p200">Frysbehandling, även känd som kryoterapi, är en icke-invasiv metod som använder extrem kyla för att selektivt behandla och avlägsna hudförändringar såsom vårtor, skintags och vissa typer av pigmentfläckar. Behandlingen innebär att vi applicerar kyla direkt på den oönskade hudlesionen, vilket får cellerna att frysa och i slutändan falla av.</p>
+    <p class="p200 mt-m">Denna precisionsbehandling är snabb och effektiv, och eftersom den är så riktad kan den minska risken för skador på omgivande vävnader. Frysbehandling är känt för sin snabba och smidiga process och efterlämnar oftast minimala ärr. Det är en säker behandlingsmetod för en mängd hudproblem och kräver oftast ingen lång återhämtningsperiod. Genom att stimulera en naturlig läkningsprocess hjälper det också till att främja en slätare och jämnare hudstruktur efter behandling.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelser inför Microneedling-behandling',
+        title: 'Inför frysbehandling',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Förberedelser inför Microneedling-behandling',
-        image_title: 'Förberedelser inför Microneedling-behandling',
-        content: '<p class="p200">Förberedelse inför en Microneedling-behandling börjar med en noggrann konsultation där du får träffa en av våra erfarna hudterapeuter. Under konsultationen kommer hudterapeuten att genomföra en omfattande undersökning av din hud för att identifiera specifika behov och hudtillstånd. Detta steg är avgörande för att kunna ta fram en personlig och skräddarsydd behandlingsplan som är optimerad för just dina hudvårdsbehov.</p>
-        <p class="p200 mt-m">Innan behandlingen är det viktigt att huden inte är solbränd. Dessutom bör du undvika starka hudvårdsprodukter som innehåller syror några dagar före behandlingen för att minimera risken för irritation. Din hudterapeut kommer att ge dig all information du behöver för att förbereda din hud på bästa sätt inför din Microneedling-session, säkerställandes att du får en så effektiv och säker behandling som möjligt.</p>',
+        image_alt: 'Inför frysbehandling',
+        image_title: 'Inför frysbehandling',
+        content: '<p class="p200">Frysbehandling börjar alltid med en kostnadsfri konsultation där du möter en av våra kvalificerade hudterapeuter. Under denna första konsultation kommer specialisten att noga undersöka dina hudförändringar för att fastställa den mest effektiva behandlingsplanen. Detta är ett viktigt steg för att säkerställa att behandlingen är anpassad efter just dina behov och för att identifiera det mest lämpliga tillvägagångssättet.</p>
+        <p class="p200 mt-m">Vi rekommenderar att du inte behandlar eller irriterar området som ska behandlas innan din besök. Det är även bäst att undvika att utsätta huden för solen eller stark kyla innan behandlingen. Vid din konsultation kommer du att få detaljerad information om hur du kan förbereda dig inför behandlingen för att säkerställa bästa möjliga resultat. I många fall kan vi påbörja behandlingen redan vid ditt första besök, förutsatt att din hud är i rätt skick och att inga ytterligare förberedelser krävs.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -97,13 +71,14 @@ $top_articles = array(
         ))
     ),
     'process' => new Article(
-        title: 'Microneedling behandlingsprocess',
+        title: 'Hur går en frysbehandling till?',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Microneedling behandlingsprocess',
-        image_title: 'Microneedling behandlingsprocess',
-        content: '<p class="p200">Microneedling är en avancerad hudförnyande behandlingsmetod som kickstartar hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. När du anländer till kliniken, kommer din hud att rengöras grundligt för att avlägsna makeup och orenheter. Därefter appliceras en bedövningskräm för att minska eventuellt obehag under behandlingen.</p>
-        p class="p200 mt-m">Vår speciellt utformade microneedling-enhet använder en serie fina, sterila nålar för att skapa mikroskopiska kanaler i huden. Detta initierar hudens egen reparationsmekanism och leder till ökad elastin- och kollagenproduktion. Under behandlingen använder vi också en näringsrik serum för att maximera hudens upptagningsförmåga och stimulera förnyelseprocessen. Efter behandlingen kan du förvänta dig en viss rodnad, men detta är normalt och indikerar att hudens läkningsprocess har börjat. Med tiden kommer du att märka en förbättrad hudtextur, minskning av fina linjer och en övergripande mer strålande hy.</p>',
+        image_alt: 'Hur går en frysbehandling till?',
+        image_title: 'Hur går en frysbehandling till?',
+        content: '<p class="p200">Frysbehandling, även känd som kryoterapi, är en icke-invasiv metod som använder extrem kyla för att frysa och ta bort oönskade hudförändringar, såsom vårtor och vissa typer av hudfläckar. När du anländer till kliniken för din frysbehandling, börjar vi med att noggrant rengöra huden på och runt området som ska behandlas för att säkerställa en steril miljö.</p>
+        <p class="p200 mt-m">Vår erfarna specialist kommer sedan att använda en specifik enhet som riktar en kontrollerad ström av kylmedel, oftast flytande kväve, direkt på hudförändringen. Denna process är snabb och fokuserad, och kan kännas som en brännande eller stickande känsla, men är övergående. Behandlingen är designad för att omedelbart frysa och förstöra det specifika vävnadsområdet utan att skada omkringliggande hud.</p>
+        <p class="p200 mt-m">Efter behandlingen kan det behandlade området bli rött och svullet, och i vissa fall kan en blåsa bildas. Dessa är vanliga reaktioner och en del av läkningsprocessen. Din specialist kommer att ge dig noggranna eftervårdsinstruktioner för att hantera området post-behandling och främja snabb läkning. Över tid kommer den frysta vävnaden att torka ut och naturligt falla av, vilket lämnar frisk hud bakom sig.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
