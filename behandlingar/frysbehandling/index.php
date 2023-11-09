@@ -96,7 +96,217 @@ $top_articles = array(
 
 $types_title = 'Hudförändringar som behandlas med frysbehandling';
 $types_description = 'Frysbehandling, eller kryoterapi, är en väl beprövad metod för att effektivt hantera olika hudförändringar. Genom att tillämpa extrem kyla på specifika områden kan denna behandling målmedvetet frysa och eliminera oönskade hudförändringar.'
+$types = array(
+    new Service(
+        title: 'Frysbehandling mot ansiktsvårtor',
+        duration: '20 minuter',
+        price: '995 kr',
+        content: 'För dig som har ansiktsvårtor.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Frysbehandling för ansiktsvårtor',
+        image_title: 'Frysbehandling för ansiktsvårtor',
+        consultation_url: 'konsultation-ansiktsvartor',
+        consultation_url_label: 'Boka konsultation för behandling av ansiktsvårtor',
+        consultation_url_title: 'Boka konsultation för behandling av ansiktsvårtor',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka frysbehandling för ansiktsvårtor',
+        booking_url_title: 'Boka frysbehandling för ansiktsvårtor',
+    ),
+    new Service(
+        title: 'Frysbehandling av fibrom',
+        duration: '20 minuter',
+        price: '995 kr',
+        content: 'För dig som har fibrom.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Frysbehandling för fibrom',
+        image_title: 'Frysbehandling för fibrom',
+        consultation_url: 'konsultation-fibrom',
+        consultation_url_label: 'Boka konsultation för behandling av fibrom',
+        consultation_url_title: 'Boka konsultation för behandling av fibrom',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka frysbehandling för fibrom',
+        booking_url_title: 'Boka frysbehandling för fibrom',
+    ),
+    new Service(
+        title: 'Frysbehandling av födelsemärken',
+        duration: '20 minuter',
+        price: '995 kr',
+        content: 'För dig som har födelsemärken.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Frysbehandling för födelsemärken',
+        image_title: 'Frysbehandling för födelsemärken',
+        consultation_url: 'konsultation-fodelsemarken',
+        consultation_url_label: 'Boka konsultation för behandling av födelsemärken',
+        consultation_url_title: 'Boka konsultation för behandling av födelsemärken',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka frysbehandling för födelsemärken',
+        booking_url_title: 'Boka frysbehandling för födelsemärken',
+    ),
+    new Service(
+        title: 'Frysbehandling av Hallonmärke - Jordgubbsmärke - Smultronmärke',
+        duration: '20 minuter',
+        price: '995 kr',
+        content: 'För dig som har hallonmärken, jordgubbsmärken eller smultromärken.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Frysbehandling av kärlförändringar',
+        image_title: 'Frysbehandling av kärlförändringar',
+        consultation_url: 'konsultation-karlforandringar',
+        consultation_url_label: 'Boka konsultation för kärlförändringar',
+        consultation_url_title: 'Boka konsultation för kärlförändringar',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka frysbehandling för kärlförändringar',
+        booking_url_title: 'Boka frysbehandling för kärlförändringar',
+    ),
+    new Service(
+        title: 'Frysbehandling av hemangiom',
+        duration: '20 minuter',
+        price: '995 kr',
+        content: 'För dig som har hemangiom.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Frysbehandling för hemangiom',
+        image_title: 'Frysbehandling för hemangiom',
+        consultation_url: 'konsultation-hemangiom',
+        consultation_url_label: 'Boka konsultation för hemangiom',
+        consultation_url_title: 'Boka konsultation för hemangiom',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka frysbehandling för hemangiom',
+        booking_url_title: 'Boka frysbehandling för hemangiom',
+    ),
 
+    new Service(
+        title: 'Frysbehandling av hudflikar',
+        duration: '20 minuter',
+        price: '995 kr',
+        content: 'För dig som har hudflikar.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Frysbehandling för hudflikar',
+        image_title: 'Frysbehandling för hudflikar',
+        consultation_url: 'konsultation-hudflikar',
+        consultation_url_label: 'Boka konsultation för behandling av hudflikar',
+        consultation_url_title: 'Boka konsultation för behandling av hudflikar',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka frysbehandling för hudflikar',
+        booking_url_title: 'Boka frysbehandling för hudflikar',
+    ),
+    new Service(
+        title: 'Frysbehandling av hudutväxter',
+        duration: '20 minuter',
+        price: '995 kr',
+        content: 'För dig som har hudutväxter.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Frysbehandling för hudutväxter',
+        image_title: 'Frysbehandling för hudutväxter',
+        consultation_url: 'konsultation-hudutvaxter',
+        consultation_url_label: 'Boka konsultation för hudutväxter',
+        consultation_url_title: 'Boka konsultation för hudutväxter',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka frysbehandling för hudutväxter',
+        booking_url_title: 'Boka frysbehandling för hudutväxter',
+    ),
+    new Service(
+        title: 'Frysbehandling för leverfläckar',
+        duration: '20 minuter',
+        price: '995 kr',
+        content: 'För dig som har leverfläckar.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Frysbehandling av leverfläckar',
+        image_title: 'Frysbehandling av leverfläckar',
+        consultation_url: 'konsultation-leverflackar',
+        consultation_url_label: 'Boka konsultation för leverfläckar',
+        consultation_url_title: 'Boka konsultation för leverfläckar',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka frysbehandling för leverfläckar',
+        booking_url_title: 'Boka frysbehandling för leverfläckar',
+    ),
+    new Service(
+        title: 'Frysbehandling för mole',
+        duration: '20 minuter',
+        price: '995 kr',
+        content: 'För dig som har mole.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Frysbehandling för mole',
+        image_title: 'Frysbehandling för mole',
+        consultation_url: 'konsultation-mole',
+        consultation_url_label: 'Boka konsultation för mole',
+        consultation_url_title: 'Boka konsultation för mole',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka frysbehandling för mole',
+        booking_url_title: 'Boka frysbehandling för mole',
+    ),
+    new Service(
+        title: 'Frysbehandling för seborroisk keratos',
+        duration: '15 minuter',
+        price: '895 kr',
+        content: 'För dig som har seborroisk keratos.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Frysbehandling av seborroisk keratos',
+        image_title: 'Frysbehandling av seborroisk keratos',
+        consultation_url: 'konsultation-seborroisk-keratos',
+        consultation_url_label: 'Boka konsultation för seborroisk keratos',
+        consultation_url_title: 'Boka konsultation för seborroisk keratos',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka frysbehandling för seborroisk keratos',
+        booking_url_title: 'Boka frysbehandling för seborroisk keratos',
+    ),
+    new Service(
+        title: 'Frysbehandling för skintags',
+        duration: '15 minuter',
+        price: '895 kr',
+        content: 'För dig som har skintags.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Frysbehandling av hudflikar',
+        image_title: 'Frysbehandling av hudflikar',
+        consultation_url: 'konsultation-hudflikar',
+        consultation_url_label: 'Boka konsultation för hudflikar',
+        consultation_url_title: 'Boka konsultation för hudflikar',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka frysbehandling för hudflikar',
+        booking_url_title: 'Boka frysbehandling för hudflikar',
+    ),
+    new Service(
+        title: 'Frysbehandling för skönhetsfläckar',
+        duration: '20 minuter',
+        price: '995 kr',
+        content: 'För dig som har skönhetsfläckar.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Frysbehandling av skönhetsfläckar',
+        image_title: 'Frysbehandling av skönhetsfläckar',
+        consultation_url: 'konsultation-skonhetsflackar',
+        consultation_url_label: 'Boka konsultation för skönhetsfläckar',
+        consultation_url_title: 'Boka konsultation för skönhetsfläckar',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka frysbehandling för skönhetsfläckar',
+        booking_url_title: 'Boka frysbehandling för skönhetsfläckar',
+    ),
+    new Service(
+        title: 'Frysbehandling för åldersvårtor',
+        duration: '20 minuter',
+        price: '995 kr',
+        content: 'För dig som har åldersvårtor.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Frysbehandling av åldersvårtor',
+        image_title: 'Frysbehandling av åldersvårtor',
+        consultation_url: 'konsultation-aldersvartor',
+        consultation_url_label: 'Boka konsultation för åldersvårtor',
+        consultation_url_title: 'Boka konsultation för åldersvårtor',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka frysbehandling för åldersvårtor',
+        booking_url_title: 'Boka frysbehandling för åldersvårtor',
+    ),
+);
 
 $treatment_areas_title = 'Behandlingsområden för Frysbehandling';
 $treatment_areas_text = '<p class="p200">Frysbehandlingen är en flexibel procedur som kan anpassas för att effektivt ta bort hudförändringar. Behandlingen kan utföras på flera olika områden, inklusive ansikte, hals, axlar och rygg, och är skräddarsydd efter antalet hudförändringar samt deras storlek och placering för bästa möjliga resultat.</p>';
@@ -104,10 +314,10 @@ $treatment_areas = array(
     new TreatmentArea(
         image_small: 'https://via.placeholder.com/361x274.webm',
         image_large: 'https://via.placeholder.com/872x456.webm',
-        image_alt: '1 st',
-        image_title: '1 st',
-        title: '1 st',
-        description: null,
+        image_alt: 'Antal hudförändringar',
+        image_title: 'Antal hudförändringar',
+        title: 'Antal hudförändringar',
+        description: '<p class="p200">Behandlingen utgår ifrån antalet hudförändringar du vill behandla..</p>',
         items: array(
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/94x72.webp',
@@ -120,17 +330,6 @@ $treatment_areas = array(
                 url_label: 'Boka',
                 url_title: 'Boka tid förfrysbehandling'
             ),
-
-        )
-    ),
-    new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
-        image_alt: '2 - 3 st',
-        image_title: '2 - 3 st',
-        title: '2 - 3 st',
-        description: null,
-        items: array(
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/94x72.webp',
                 image_alt: '2 - 3 st',
@@ -142,17 +341,6 @@ $treatment_areas = array(
                 url_label: 'Boka',
                 url_title: 'Boka tid förfrysbehandling'
             ),
-
-        )
-    ),
-    new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
-        image_alt: '4 - 6 st',
-        image_title: '4 - 6 st',
-        title: '4 - 6 st',
-        description: null,
-        items: array(
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/94x72.webp',
                 image_alt: '4 - 6 st',
@@ -164,17 +352,6 @@ $treatment_areas = array(
                 url_label: 'Boka',
                 url_title: 'Boka tid förfrysbehandling'
             ),
-
-        )
-    ),
-    new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
-        image_alt: '7 - 10 st',
-        image_title: '7 - 10 st',
-        title: '7 - 10 st',
-        description: null,
-        items: array(
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/94x72.webp',
                 image_alt: '7 - 10 st',
@@ -186,17 +363,6 @@ $treatment_areas = array(
                 url_label: 'Boka',
                 url_title: 'Boka tid förfrysbehandling'
             ),
-
-        )
-    ),
-    new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
-        image_alt: '20 st',
-        image_title: '20 st',
-        title: '20 st',
-        description: null,
-        items: array(
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/94x72.webp',
                 image_alt: '20 st',
@@ -208,17 +374,6 @@ $treatment_areas = array(
                 url_label: 'Boka',
                 url_title: 'Boka tid förfrysbehandling'
             ),
-
-        )
-    ),
-    new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
-        image_alt: '50 st',
-        image_title: '50 st',
-        title: '50 st',
-        description: null,
-        items: array(
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/94x72.webp',
                 image_alt: '50 st',
@@ -230,17 +385,6 @@ $treatment_areas = array(
                 url_label: 'Boka',
                 url_title: 'Boka tid förfrysbehandling'
             ),
-
-        )
-    ),
-    new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
-        image_alt: 'Återbesök',
-        image_title: 'Återbesök',
-        title: 'Återbesök',
-        description: null,
-        items: array(
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/94x72.webp',
                 image_alt: 'Återbesök',
@@ -258,32 +402,26 @@ $treatment_areas = array(
 );
 
 $bottom_articles = array('aftercare' => new Article(
-    title: 'Efter microneedling behandling',
+    title: 'Efter frysbehandling',
     image_small: 'https://via.placeholder.com/358x272.webp',
     image_large: 'https://via.placeholder.com/872x456.webp',
-    image_alt: 'Efter microneedling behandling',
-    image_title: 'Efter microneedling behandling',
-    content: '<p class="p200">Efter en microneedlingbehandling är det flera viktiga steg du bör följa för att främja läkning och optimera resultatet av din behandling. Direkt efter proceduren är det normalt att huden blir röd och svullen. Det är kritiskt att undvika att röra behandlingsområdet med smutsiga händer och att inte applicera makeup de första 24 timmarna för att minimera risken för infektioner eller irritationer.</p>
-    <p class="p200 mt-m">Under de första dagarna efter behandlingen, undvik kraftig motion, bastu, och långa varma duschar som kan öka svullnad och irritation i huden. Solskydd är också av yttersta vikt; applicera en bredspektrum solskyddsfaktor dagligen för att skydda din hud mot UV-strålning, som kan vara extra skadlig för den nya känsliga huden efter microneedling. Dessutom rekommenderas att du använder milda, återfuktande produkter utan parfym eller andra irriterande ingredienser för att hjälpa till med läkningsprocessen och behålla hudens fuktbalans.</p>
-    <p class="p200 mt-m">Följ noggrant de eftervårdsinstruktioner som din behandlare ger dig och tveka inte att kontakta kliniken om du har några frågor eller oro kring din eftervård. Regelbunden uppföljning och eventuellt ytterligare behandlingar kan rekommenderas beroende på din huds individuella svar och de mål du strävar efter med din hudvård.</p>',
+    image_alt: 'Efter frysbehandling',
+    image_title: 'Efter frysbehandlingg',
+    content: '<p class="p200">Eftervården är en viktig del av processen när du genomgått en frysbehandling för att ta bort hudförändringar. Direkt efter ingreppet kan det drabbade området visa tecken på irritation såsom rodnad eller svullnad. Det är viktigt att du undviker att röra vid området med orena händer och undviker att lägga på makeup under de första 24 timmarna efter behandlingen för att minska risken för infektion och irritation.</p>
+    <p class="p200 mt-m">Under dagarna som följer behandlingen är det bäst att undvika aktiviteter som kan förvärra svullnaden eller irritationen, som till exempel intensiv träning, bastubad och långa, heta duschar. Även om det behandlade området inte är i direkt solljus, är det viktigt att fortsätta använda solskydd för att skydda huden från UV-strålning och främja läkningen. Använd milda och fuktgivande hudvårdsprodukter som inte innehåller parfym eller andra irriterande ämnen för att hjälpa till i läkningen och upprätthålla en bra fuktbalans i huden.</p>
+    <p class="p200 mt-m">Följ de eftervårdsinstruktioner du får från din hudterapeut noga. Om du har några frågor eller känner oro kring ditt tillstånd efter behandlingen, tveka inte att kontakta kliniken. Beroende på hur din hud reagerar kan ytterligare uppföljning eller behandlingar rekommenderas för att uppnå bästa möjliga resultat.</p>',
     tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
 
-$service_brands_title = 'Märken för microneedling';
-$service_brands_text = '<p class="p200">Vi utför microneedling med Dermapen och Exceed vilket är de modernaste och mest effektiva metoderna på markanden.</p>';
+$service_brands_title = 'Märken för frysbehandling';
+$service_brands_text = '<p class="p200">Vi utför frysbehandling med CryoPen vilket är de modernaste och mest effektiva metoden av sitt slag.</p>';
 $service_brands = array(
 
     new Brand(
-        label: 'Dermapen4',
-        image: 'images/brands/dermapen4.svg',
-        image_alt: 'Dermapen4',
-        image_title: 'Dermapen4'
-    ),
-    new Brand(
-        label: 'Exceed',
-        image: 'images/brands/exceed.svg',
-        image_alt: 'Exceed',
-        image_title: 'Exceed'
+        label: 'CryoPen',
+        image: 'images/brands/cryopen.svg',
+        image_alt: 'CryoPen',
+        image_title: 'CryoPen',
     ),
 );
 
@@ -379,16 +517,16 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Hur många microneedling behandlingar behövs?',
-            text: 'Antalet microneedling behandlingar som behövs varierar beroende på individens hudtillstånd och de mål man önskar uppnå. Generellt rekommenderas en serie på 3-8 behandlingar med intervaller på 4-6 veckor mellan varje session för bästa resultat. Ditt hudvårdsteam kan ge dig en personlig rekommendation efter en initial konsultation.'
+            title: 'Hur lång tid tar det att läka efter en frysbehandling?',
+            text: 'Läkningstiden efter en frysbehandling varierar från person till person och beroende på omfattningen av behandlingen. Mindre hudförändringar kan läka inom några dagar, medan större eller flera behandlade områden kan ta några veckor. Svullnad och rodnad är normalt och bör avta inom de första dagarna.'
         ),
         new Question(
-            title: 'Kan mina hudproblem återkomma efter microneedling?',
-            text: 'Medan microneedling behandlar vi befintliga hudproblem effektivt men vi kan inte motverka uppkomsten av att nya uppstår. Därför är det viktigt att kombinera microneedling behandlingen med behandlingar och produkter som motverkar uppkomsten av det ursprungliga problemet. En fortsatt hudvårdsrutin och eventuellt uppföljande behandlingar kan vara nödvändiga för att underhålla resultaten.'
+            title: 'Kan hudförändringar återkomma efter frysbehandling?',
+            text: 'Frysbehandling syftar till att permanent ta bort specifika hudförändringar. Det är dock möjligt att nya hudförändringar kan uppkomma på andra ställen på kroppen. Att följa en god hudvårdsrutin och skydda huden mot solen kan bidra till att minimera risken för nya hudproblem.'
         ),
         new Question(
-            title: 'Hur snabbt kan jag se resultat efter en microneedling behandling?',
-            text: 'Resultatet efter microneedling varierar från person till person. Vissa kan märka förbättringar så tidigt som några dagar efter behandlingen, medan andra kan behöva vänta några veckor för att se fullständiga resultat. Hudens naturliga kollagenproduktion kan ta tid, och förbättringar fortsätter ofta under flera månader efter behandlingen.'
+            title: 'Vad bör jag undvika efter en frysbehandling?',
+            text: 'Efter en frysbehandling bör du undvika att röra vid det behandlade området med smutsiga händer, och undvika att utsätta huden för direkt solljus utan solskydd. Det är också rekommenderat att undvika smink på det behandlade området, intensiv träning, bastu, och långa heta duschar under de första 24-48 timmarna för att ge huden bästa möjliga förutsättningar att läka.'
         ),
     )
 );
