@@ -316,26 +316,158 @@ $types = array(
 );
 
 $treatment_areas_title = 'Behandlingsområden för Frysbehandling';
-$treatment_areas_text = '<p class="p200">Frysbehandlingen är en flexibel procedur som kan anpassas för att effektivt ta bort hudförändringar såsom vårtor, leverfläckar och andra hudutväxter. Behandlingen kan utföras på flera olika områden, inklusive ansikte, hals, axlar och rygg, och är skräddarsydd efter antalet hudförändringar samt deras storlek och placering för bästa möjliga resultat.</p>';
+$treatment_areas_text = '<p class="p200">Frysbehandlingen är en flexibel procedur som kan anpassas för att effektivt ta bort hudförändringar. Behandlingen kan utföras på flera olika områden, inklusive ansikte, hals, axlar och rygg, och är skräddarsydd efter antalet hudförändringar samt deras storlek och placering för bästa möjliga resultat.</p>';
 $treatment_areas = array(
     new TreatmentArea(
         image_small: 'https://via.placeholder.com/361x274.webm',
         image_large: 'https://via.placeholder.com/872x456.webm',
-        image_alt: 'Ansikte',
-        image_title: 'Ansikte',
-        title: 'Ansikte',
-        description: '<p class="p200">Microneedling behandlar och förbättrar huden i ansiktet och kan utföras i hela ansiktet eller på utvalda zoner.</p>',
+        image_alt: '1 st',
+        image_title: '1 st',
+        title: '1 st',
+        description: null,
         items: array(
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/94x72.webp',
-                image_alt: 'Ansikte',
-                image_title: 'Ansikte',
-                title: 'Ansikte',
-                duration: '50 min',
+                image_alt: '1 st',
+                image_title: '1 st',
+                title: '1 st',
+                duration: '20 min',
+                price: '995 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid förfrysbehandling'
+            ),
+
+        )
+    ),
+    new TreatmentArea(
+        image_small: 'https://via.placeholder.com/361x274.webm',
+        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_alt: '2 - 3 st',
+        image_title: '2 - 3 st',
+        title: '2 - 3 st',
+        description: null,
+        items: array(
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webp',
+                image_alt: '2 - 3 st',
+                image_title: '2 - 3 st',
+                title: '2 - 3 st',
+                duration: '20 min',
+                price: '1595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid förfrysbehandling'
+            ),
+
+        )
+    ),
+    new TreatmentArea(
+        image_small: 'https://via.placeholder.com/361x274.webm',
+        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_alt: '4 - 6 st',
+        image_title: '4 - 6 st',
+        title: '4 - 6 st',
+        description: null,
+        items: array(
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webp',
+                image_alt: '4 - 6 st',
+                image_title: '4 - 6 st',
+                title: '4 - 6 st',
+                duration: '20 min',
+                price: '1995 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid förfrysbehandling'
+            ),
+
+        )
+    ),
+    new TreatmentArea(
+        image_small: 'https://via.placeholder.com/361x274.webm',
+        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_alt: '7 - 10 st',
+        image_title: '7 - 10 st',
+        title: '7 - 10 st',
+        description: null,
+        items: array(
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webp',
+                image_alt: '7 - 10 st',
+                image_title: '7 - 10 st',
+                title: '7 - 10 st',
+                duration: '30 min',
                 price: '2595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för ansiktsbehandling'
+                url_title: 'Boka tid förfrysbehandling'
+            ),
+
+        )
+    ),
+    new TreatmentArea(
+        image_small: 'https://via.placeholder.com/361x274.webm',
+        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_alt: '20 st',
+        image_title: '20 st',
+        title: '20 st',
+        description: null,
+        items: array(
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webp',
+                image_alt: '20 st',
+                image_title: '20 st',
+                title: '20 st',
+                duration: '30 min',
+                price: '4995 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid förfrysbehandling'
+            ),
+
+        )
+    ),
+    new TreatmentArea(
+        image_small: 'https://via.placeholder.com/361x274.webm',
+        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_alt: '50 st',
+        image_title: '50 st',
+        title: '50 st',
+        description: null,
+        items: array(
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webp',
+                image_alt: '50 st',
+                image_title: '50 st',
+                title: '50 st',
+                duration: '70 min',
+                price: '9995 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid förfrysbehandling'
+            ),
+
+        )
+    ),
+    new TreatmentArea(
+        image_small: 'https://via.placeholder.com/361x274.webm',
+        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_alt: 'Återbesök',
+        image_title: 'Återbesök',
+        title: 'Återbesök',
+        description: null,
+        items: array(
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webp',
+                image_alt: 'Återbesök',
+                image_title: 'Återbesök',
+                title: 'Återbesökt',
+                duration: '20 min',
+                price: 'Från 250 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid förfrysbehandling'
             ),
 
         )
