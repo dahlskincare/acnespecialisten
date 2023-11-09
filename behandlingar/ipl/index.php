@@ -3,19 +3,18 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Microneedling - Avancerad hudförbättring | Acnespecialisten';
-$seo_description = 'Upptäck AcneSpecialistens avancerade microneedling-behandlingar som revitaliserar och förbättrar hudens utseende. Få tillgång till expertkunskap och behandlingar anpassade för att stimulera hudens naturliga läkningsprocess och främja en jämn, fast och klar hud.';
-$seo_keywords = 'microneedling, hudföryngring, behandla ärr, reducera fina linjer, stimulera kollagenproduktion, hudförbättring, hudstruktur, förbättra hudton, elastisk hud, föryngra huden';
+$seo_title = 'IPL för Blodkärl, Pigmentfläckar & Rosacea | Acnespecialisten';
+$seo_description = 'Specialiserade på att behandla ytliga blodkärl, pigmentfläckar och rosacea, erbjuder AcneSpecialisten avancerade IPL-behandlingar. Denna ljusbaserade teknologi riktar sig selektivt mot hudens ojämnheter, reducerar synligheten av blodkärl, pigmentering och symtom på rosacea för en klarare och mer harmonisk hudton.';
+$seo_keywords = 'IPL-behandling, ytliga blodkärl, pigmentfläckar, rosacea-behandling, ljusbaserad hudföryngring, hudjämnhetsförbättring, reducera rödhet, ljusa upp pigmentering, harmonisk hudton, avancerad hudvård';
 
-$seo_image = 'images/treatments/large/microneedling.jpg';
+$seo_image = 'images/treatments/large/ipl.jpg';
 
 
 $model = new Service(
-    title: 'Microneedling',
+    title: 'IPL',
     duration: null,
     price: 'Från 2332 kr',
-    content: '<p class="p200">Som ledande experter på microneedling i Sverige, erbjuder vi toppmodern behandling för att revitalisera din hud. Oavsett var du är, från Östermalm till Södermalm eller Sundbyberg, har du tillgång till denna effektiva metod som genom en kontrollerad process stimulerar huden att reparera sig själv. Detta uppnås genom att försiktigt och strategiskt inducera mikroskopiska skador i hudens yttre lager, vilket kickstartar produktionen av kollagen – ett avgörande protein för att upprätthålla hudens styrka och smidighet.</p>
-    <p class="p200">Microneedling är idealiskt för dig som önskar att förbättra hudens ton och textur, reducera ärr och fina linjer eller helt enkelt öka hudens vitalitet och lyster. Våra behandlingar är skräddarsydda för att matcha en rad olika hudtillstånd och är specifikt utformade för att maximera hudens egen förmåga till förnyelse och förbättring.</p>',
+    content: '<p class="p200">IPL är en idealisk lösning för dig som söker en jämnare hudton genom att reducera pigmenteringar och ytliga blodkärl eller strävar efter att lindra symtomen på rosacea. Våra behandlingar är skräddarsydda och anpassade efter dina specifika hudbehov, och utformade för att effektivt stimulera hudens egna läkningsmekanismer och förbättra hudens övergripande kondition.</p>',
     image_small: 'https://via.placeholder.com/358x274.webp',
     image_large: 'https://via.placeholder.com/424x456.webp',
     image_alt: 'Ansiktsbehandlingar för problemhy',
@@ -26,36 +25,10 @@ $model = new Service(
     booking_url: 'https://bokadirekt.se',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
-    procedures: array(
-        new Procedure(
-            label: '1 procedure',
-            price: '2595 kr',
-            savings: null,
-            booking_url: 'https://bokadirekt.se',
-            booking_url_label: 'Boka tid för behandling',
-            booking_url_title: 'Boka tid för behandling'
-        ),
-        new Procedure(
-            label: '3 procedures',
-            price: '6995 kr',
-            savings: 'Spara 790 kr',
-            booking_url: 'https://bokadirekt.se',
-            booking_url_label: 'Boka tid för behandling',
-            booking_url_title: 'Boka tid för behandling'
-        ),
-        new Procedure(
-            label: '5 procedures',
-            price: '9995 kr',
-            savings: 'Spara 2980 kr',
-            booking_url: 'https://bokadirekt.se',
-            booking_url_label: 'Boka tid för behandling',
-            booking_url_title: 'Boka tid för behandling'
-        )
-    ),
 );
 
 $nav_buttons = array(
-    'about' => 'Om microneedling',
+    'about' => 'Om IPL',
     'preparing' => 'Förberedelser',
     'process' => 'Processen',
     'types' => 'Typer',
@@ -69,19 +42,19 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Microneedling - vad är det?';
-$description_text = '<p class="p200">Microneedling är en skonsam och revolutionerande behandlingsmetod anpassad för alla hudtyper som syftar till att förbättra hudens struktur och utseende. Med hjälp av 16 tunna, medicinska engångsnålar skapas tusentals mikroskopiska kanaler i huden, vilket möjliggör djup penetration av uppbyggande och näringsrika serum. Denna process stimulerar hudens egen förmåga till förnyelse och reparationsmekanismer.</p>
-    <p class="p200 mt-m">Den här helt digitala microneedling-tekniken är ett smärtfritt alternativ till traditionella metoder som laser, och erbjuder minimala risker för biverkningar. Det passar en mångfald av hudtillstånd, inklusive men inte begränsat till åldrande hud, ärrbildningar, ojämn hudton och textur. Genom att aktivera hudens egen kollagenproduktion, förbättras spänsten, lystern och konditionen i huden, vilket resulterar i en fräschare och mer ungdomlig hy.</p>';
+$description_title = 'IPL - vad är det?';
+$description_text = '<p class="p200">IPL, som står för Intensivt Pulserande Ljus, är en ljusbaserad behandlingsmetod som används för att förbättra hudens färg och textur utan kirurgi. Behandlingen innebär användning av ljuspulser som genomtränger huden och behandlar olika tillstånd genom att rikta in sig på melanin i pigmentfläckar och hemoglobin i blodkärl. Denna teknik är särskilt effektiv för att reducera ytliga blodkärl, pigmentfläckar och symtom på rosacea.</p>
+    <p class="p200 mt-m">IPL-teknologin är mångsidig och kan anpassas efter patientens individuella hudförhållanden, vilket gör det möjligt att behandla en rad hudproblem med precision. Behandlingen är vanligtvis skonsam med få biverkningar, och patienter kan återgå till sina normala aktiviteter kort efter en session. Det är en populär behandlingsmetod för att främja en mer jämn hudton, minska rödhet och bruna fläckar, samt att förbättra hudens övergripande utseende.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelser inför Microneedling-behandling',
+        title: 'Förberedelser inför behandling med IPL',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Förberedelser inför Microneedling-behandling',
-        image_title: 'Förberedelser inför Microneedling-behandling',
-        content: '<p class="p200">Förberedelse inför en Microneedling-behandling börjar med en noggrann konsultation där du får träffa en av våra erfarna hudterapeuter. Under konsultationen kommer hudterapeuten att genomföra en omfattande undersökning av din hud för att identifiera specifika behov och hudtillstånd. Detta steg är avgörande för att kunna ta fram en personlig och skräddarsydd behandlingsplan som är optimerad för just dina hudvårdsbehov.</p>
-        <p class="p200 mt-m">Innan behandlingen är det viktigt att huden inte är solbränd. Dessutom bör du undvika starka hudvårdsprodukter som innehåller syror några dagar före behandlingen för att minimera risken för irritation. Din hudterapeut kommer att ge dig all information du behöver för att förbereda din hud på bästa sätt inför din Microneedling-session, säkerställandes att du får en så effektiv och säker behandling som möjligt.</p>',
+        image_alt: 'Förberedelser inför behandling med IPL',
+        image_title: 'Förberedelser inför behandling med IPL',
+        content: '<p class="p200">Inför en IPL-behandling är det viktigt att följa några grundläggande steg för att säkerställa att din hud är i bästa möjliga skick och redo för behandlingen. En konsultation med en erfaren hudterapeut är det första steget, där hudens kondition noggrant analyseras och en individuell behandlingsplan utformas för att uppnå optimala resultat med IPL-tekniken.</p>
+        <p class="p200 mt-m">För att förbereda huden bör du undvika solning och inte använda självbrunande produkter minst två veckor före behandlingen för att minska risken för pigmentförändringar. IPL-behandling kräver att huden är så naturligt i sin ton som möjligt för att ljuspulserna ska kunna rikta sig korrekt mot oönskade pigment eller blodkärl. Det är också viktigt att undvika produkter med retinol eller andra starka exfolierande ingredienser under veckan innan din behandling. Din hudterapeut kommer att informera dig om ytterligare förberedelser och ge dig råd om hur du bäst tar hand om din hud både före och efter din IPL-session för att säkerställa en trygg behandling och effektiv läkning.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
