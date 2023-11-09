@@ -408,7 +408,7 @@ $bottom_articles = array('aftercare' => new Article(
     image_alt: 'Efter frysbehandling',
     image_title: 'Efter frysbehandlingg',
     content: '<p class="p200">Eftervården är en viktig del av processen när du genomgått en frysbehandling för att ta bort hudförändringar. Direkt efter ingreppet kan det drabbade området visa tecken på irritation såsom rodnad eller svullnad. Det är viktigt att du undviker att röra vid området med orena händer och undviker att lägga på makeup under de första 24 timmarna efter behandlingen för att minska risken för infektion och irritation.</p>
-    <p class="p200 mt-m">Under dagarna som följer behandlingen är det bäst att undvika aktiviteter som kan förvärra svullnaden eller irritationen, som till exempel intensiv träning, bastubad och långa, heta duschar. Även om det behandlade området inte är i direkt solljus, är det viktigt att fortsätta använda solskydd för att skydda huden från UV-strålning och främja läkningen. Använd milda och fuktgivande hudvårdsprodukter som inte innehåller parfym eller andra irriterande ämnen för att hjälpa till i läkningen och upprätthålla en bra fuktbalans i huden.</p>
+    <p class="p200 mt-m">Under dagarna som följer behandlingen är det bäst att undvika aktiviteter som kan förvärra svullnaden eller irritationen, som till exempel intensiv träning, bastubad och långa, heta duschar. Även om det behandlade området inte är i direkt solljus, är det viktigt att fortsätta använda solskydd för att skydda huden från UV-strålning och främja läkningen.</p>
     <p class="p200 mt-m">Följ de eftervårdsinstruktioner du får från din hudterapeut noga. Om du har några frågor eller känner oro kring ditt tillstånd efter behandlingen, tveka inte att kontakta kliniken. Beroende på hur din hud reagerar kan ytterligare uppföljning eller behandlingar rekommenderas för att uppnå bästa möjliga resultat.</p>',
     tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
@@ -527,6 +527,10 @@ $faq_categories = array(
         new Question(
             title: 'Vad bör jag undvika efter en frysbehandling?',
             text: 'Efter en frysbehandling bör du undvika att röra vid det behandlade området med smutsiga händer, och undvika att utsätta huden för direkt solljus utan solskydd. Det är också rekommenderat att undvika smink på det behandlade området, intensiv träning, bastu, och långa heta duschar under de första 24-48 timmarna för att ge huden bästa möjliga förutsättningar att läka.'
+        ),
+        new Question(
+            title: 'Hur många återbesök kan krävas efter en frysbehandling?',
+            text: 'Efter en frysbehandling kan antalet nödvändiga återbesök variera beroende på den enskilda patientens respons på behandlingen. I allmänhet kan man förvänta sig att 1-3 återbesök är tillräckliga för att fullfölja behandlingen av mindre hudförändringar. Detta förutsätter att hudförändringarna är relativt små och att huden läker som förväntat. För större eller mer motståndskraftiga hudförändringar, eller när det finns många hudförändringar att behandla, kan det vara nödvändigt med ytterligare sessioner.'
         ),
     )
 );

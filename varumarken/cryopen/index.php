@@ -3,18 +3,18 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Frysbehandling - Effektiv hudkorrigering | Acnespecialisten';
-$seo_description = 'Utforska AcneSpecialistens expertfrysbehandlingar för att selektivt och effektivt ta bort hudförändringar. Dra nytta av behandlingar som använder sig av kryoterapi för att noggrant avlägsna oönskade hudlesioner och främja en slätare hudstruktur.';
-$seo_keywords = 'frysbehandling, hudkorrigering, avlägsna vårtor, behandla hudutväxter, reducera pigmentfläckar, kryoterapi, hudläkning, förbättra hudstruktur, estetisk dermatologi, hudvård';
+$seo_title = 'CryoPen - Precisionsstyrd Cryoterapi för hudförändringar | Acnespecialisten';
+$seo_description = 'Upplev precisionen med CryoPen hos Acnespecialisten, den moderna lösningen för att utan smärta och med stor noggrannhet behandla och ta bort hudförändringar som födelsemärken, skintags och leverfläckar. CryoPen använder avancerad kryoteknik för att effektivt minska hudförändringar och främja en jämn hudton.';
+$seo_keywords = 'CryoPen behandling, cryoterapi precision, smärtfri hudlesionsborttagning, hudlesioner, CryoPen för vårtor, skintags, pigmentfläckar reduktion, avancerad kryoteknik, jämna ut hudton, estetisk hudvård';
 
-$seo_image = 'images/treatments/large/frysbehandling.jpg';
+$seo_image = 'images/treatments/large/cryopen.jpg';
 
 
 $model = new Service(
-    title: 'Frysbehandling',
+    title: 'CryoPen',
     duration: null,
     price: 'Från 2332 kr',
-    content: '<p class="p200">Vi är ledande på frysbehandlingar mot hudförändinrgar i Sverige. Denna metod är ett utmärkt alternativ för dig som vill avlägsna hudförändringar och återställa huden till en mer jämn och estetiskt tilltalande struktur. Våra behandlingsprotokoll är noggrant anpassade för att möta olika hudproblem och är utformade för att erbjuda en säker och icke-invasiv väg till förbättrad hudkvalitet.</p>',
+    content: '<p class="p200">CryoPen är en framstående metod för att snabbt och effektivt behandla en rad hudförändringar, inklusive födelsemärken, skintags och leverfläckar. Denna icke-invasiva teknik erbjuder en precisionsstyrd behandling som fryser och förstör oönskade hudlesioner med minimal påverkan på den omgivande huden. Våra CryoPen-behandlingar är säkra, kräver minimal återhämtningstid och är idealiska för att återställa en slät hudton utan behov av kirurgiska ingrepp.</p>',
     image_small: 'https://via.placeholder.com/358x274.webp',
     image_large: 'https://via.placeholder.com/424x456.webp',
     image_alt: 'Ansiktsbehandlingar för problemhy',
@@ -28,7 +28,7 @@ $model = new Service(
 );
 
 $nav_buttons = array(
-    'about' => 'Om frysbehandlingar',
+    'about' => 'Om CryoPen',
     'preparing' => 'Förberedelser',
     'process' => 'Processen',
     'types' => 'Typer',
@@ -42,19 +42,19 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Frysbehandling - vad är det?';
-$description_text = '<p class="p200">Frysbehandling, även känd som kryoterapi, är en icke-invasiv metod som använder extrem kyla för att selektivt behandla och avlägsna hudförändringar såsom vårtor, skintags och vissa typer av pigmentfläckar. Behandlingen innebär att vi applicerar kyla direkt på den oönskade hudlesionen, vilket får cellerna att frysa och i slutändan falla av.</p>
-    <p class="p200 mt-m">Denna precisionsbehandling är snabb och effektiv, och eftersom den är så riktad kan den minska risken för skador på omgivande vävnader. Frysbehandling är känt för sin snabba och smidiga process och efterlämnar oftast minimala ärr. Det är en säker behandlingsmetod för en mängd hudproblem och kräver oftast ingen lång återhämtningsperiod. Genom att stimulera en naturlig läkningsprocess hjälper det också till att främja en slätare och jämnare hudstruktur efter behandling.</p>';
+$description_title = 'CryoPen - Effektiv behandling för hudförändringar';
+$description_text = '<p class="p200">CryoPen är en avancerad form av kryoterapi, en snabb och icke-invasiv metod för att avlägsna hudförändringar som födelsemärken, hudflikar och ansitksvårtor, och olika typer av märken och skönhetsfläckar. Den här behandlingen använder en preciserad kylteknologi för att selektivt frysa och förstöra oönskade hudförändringar.</p>
+    <p class="p200 mt-m">Genom att rikta in sig på specifika områden med extrem kyla, kan CryoPen behandla hudförändringar effektivt utan att skada omgivande hud. Den naturliga läkningsprocessen som stimuleras efter behandlingen resulterar i en jämnare och mer estetisk hudyta.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Inför frysbehandling',
+        title: 'Inför CryoPenbehandling',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Inför frysbehandling',
-        image_title: 'Inför frysbehandling',
-        content: '<p class="p200">Frysbehandling börjar alltid med en kostnadsfri konsultation där du möter en av våra kvalificerade hudterapeuter. Under denna första konsultation kommer specialisten att noga undersöka dina hudförändringar för att fastställa den mest effektiva behandlingsplanen. Detta är ett viktigt steg för att säkerställa att behandlingen är anpassad efter just dina behov och för att identifiera det mest lämpliga tillvägagångssättet.</p>
-        <p class="p200 mt-m">Vi rekommenderar att du inte behandlar eller irriterar området som ska behandlas innan din besök. Det är även bäst att undvika att utsätta huden för solen eller stark kyla innan behandlingen. Vid din konsultation kommer du att få detaljerad information om hur du kan förbereda dig inför behandlingen för att säkerställa bästa möjliga resultat. I många fall kan vi påbörja behandlingen redan vid ditt första besök, förutsatt att din hud är i rätt skick och att inga ytterligare förberedelser krävs.</p>',
+        image_alt: 'Inför CryoPenbehandling',
+        image_title: 'Inför CryoPenbehandling',
+        content: '<p class="p200">Inför din CryoPen behandling erbjuder vi alltid en kostnadsfri konsultation där du möter en av våra erfarna hudterapeuter. Under konsultationen kommer din hudterapeut att noggrant undersöka de hudförändringar du önskar behandla. Detta steg är avgörande för att vi ska kunna utforma en behandlingsplan som är skräddarsydd för just dina hudproblem och för att besluta om CryoPen är den optimala metoden för dig.</p>
+        <p class="p200 mt-m">För att förbereda huden inför behandlingen är det viktigt att du låter bli att manipulera eller irritera området som ska behandlas. Det är också fördelaktigt att inte utsätta huden för intensiv solning eller stark kyla före din session. Under konsultationen kommer vi att ge dig omfattande information om hur du bäst förbereder dig och vad du kan förvänta dig av behandlingen. Om förhållandena tillåter, och området är lämpligt, kan vi ofta påbörja din CryoPen behandling direkt vid konsultationstillfället.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -70,14 +70,14 @@ $top_articles = array(
         ))
     ),
     'process' => new Article(
-        title: 'Hur går en frysbehandling till?',
+        title: 'Hur går CryoPen till?',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Hur går en frysbehandling till?',
-        image_title: 'Hur går en frysbehandling till?',
-        content: '<p class="p200">Frysbehandling, även känd som kryoterapi, är en icke-invasiv metod som använder extrem kyla för att frysa och ta bort oönskade hudförändringar, såsom vårtor och vissa typer av hudfläckar. När du anländer till kliniken för din frysbehandling, börjar vi med att noggrant rengöra huden på och runt området som ska behandlas för att säkerställa en steril miljö.</p>
-        <p class="p200 mt-m">Vår erfarna hudterapeut kommer sedan att använda en specifik enhet som riktar en kontrollerad ström av kylmedel direkt på hudförändringen. Denna process är snabb och fokuserad, och kan kännas som en brännande eller stickande känsla, men är övergående. Behandlingen är designad för att omedelbart frysa och förstöra det specifika vävnadsområdet utan att skada omkringliggande hud.</p>
-        <p class="p200 mt-m">Efter behandlingen kan det behandlade området bli rött och svullet, och i vissa fall kan en blåsa bildas. Dessa är vanliga reaktioner och en del av läkningsprocessen. Din hudterapeut kommer att ge dig noggranna eftervårdsinstruktioner för att hantera området post-behandling och främja snabb läkning. Över tid kommer den frysta vävnaden att torka ut och naturligt falla av, vilket lämnar frisk hud bakom sig.</p>',
+        image_alt: 'Hur går CryoPen till?',
+        image_title: 'Hur går CryoPen till?',
+        content: '<p class="p200">CryoPen behandling är en precisionsmetod för att frysa och avlägsna oönskade hudförändringar. Vid ankomst till vår klinik kommer vi att inleda med en grundlig rengöring av huden för att förbereda det aktuella området för behandling.</p>
+        <p class="p200 mt-m">Med hjälp av CryoPen-apparaten applicerar vår kvalificerade hudterapeut en exakt dos av kylmedel direkt på den oönskade hudförändringen. Denna riktade kyla är mycket effektiv och behandlingen tar bara några sekunder. Känslan under behandlingen kan jämföras med en nypande eller stickande känsla, men är normalt sett kortvarig och hanterbar.</p>
+        <p class="p200 mt-m">Omedelbart efter CryoPen-behandlingen kan det behandlade området uppvisa rodnad eller svullnad, och ibland kan en liten blåsa uppstå. Detta är en normal reaktion och en del av den naturliga läkningsprocessen. Efter behandlingen kommer du att få detaljerade instruktioner för att ta hand om huden hemma. Den frysta hudförändringen kommer att torka och så småningom falla av inom några veckor, vilket lämnar ett jämnare och renare hudområde.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -94,222 +94,222 @@ $top_articles = array(
     ),
 );
 
-$types_title = 'Hudförändringar som behandlas med frysbehandling';
-$types_description = 'Frysbehandling, eller kryoterapi, är en väl beprövad metod för att effektivt hantera olika hudförändringar. Genom att tillämpa extrem kyla på specifika områden kan denna behandling målmedvetet frysa och eliminera oönskade hudförändringar.';
+$types_title = 'Vilka hudförändringar kan CryoPen avlägsna?';
+$types_description = 'CryoPen är en avancerad behandlingsteknik inom kryoterapi som specialiserar sig på att noggrant och effektivt frysa bort ett brett spektrum av hudförändringar.';
 $types = array(
     new Service(
-        title: 'Frysbehandling mot ansiktsvårtor',
+        title: 'CryoPen mot ansiktsvårtor',
         duration: '20 minuter',
         price: '995 kr',
         content: 'För dig som har ansiktsvårtor.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Frysbehandling för ansiktsvårtor',
-        image_title: 'Frysbehandling för ansiktsvårtor',
+        image_alt: 'CryoPen för ansiktsvårtor',
+        image_title: 'CryoPen för ansiktsvårtor',
         consultation_url: 'konsultation-ansiktsvartor',
         consultation_url_label: 'Boka konsultation för behandling av ansiktsvårtor',
         consultation_url_title: 'Boka konsultation för behandling av ansiktsvårtor',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka frysbehandling för ansiktsvårtor',
-        booking_url_title: 'Boka frysbehandling för ansiktsvårtor',
+        booking_url_label: 'Boka CryoPen för ansiktsvårtor',
+        booking_url_title: 'Boka CryoPen för ansiktsvårtor',
     ),
     new Service(
-        title: 'Frysbehandling av fibrom',
+        title: 'CryoPen av fibrom',
         duration: '20 minuter',
         price: '995 kr',
         content: 'För dig som har fibrom.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Frysbehandling för fibrom',
-        image_title: 'Frysbehandling för fibrom',
+        image_alt: 'CryoPen för fibrom',
+        image_title: 'CryoPen för fibrom',
         consultation_url: 'konsultation-fibrom',
         consultation_url_label: 'Boka konsultation för behandling av fibrom',
         consultation_url_title: 'Boka konsultation för behandling av fibrom',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka frysbehandling för fibrom',
-        booking_url_title: 'Boka frysbehandling för fibrom',
+        booking_url_label: 'Boka CryoPen för fibrom',
+        booking_url_title: 'Boka CryoPen för fibrom',
     ),
     new Service(
-        title: 'Frysbehandling av födelsemärken',
+        title: 'CryoPen av födelsemärken',
         duration: '20 minuter',
         price: '995 kr',
         content: 'För dig som har födelsemärken.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Frysbehandling för födelsemärken',
-        image_title: 'Frysbehandling för födelsemärken',
+        image_alt: 'CryoPen för födelsemärken',
+        image_title: 'CryoPen för födelsemärken',
         consultation_url: 'konsultation-fodelsemarken',
         consultation_url_label: 'Boka konsultation för behandling av födelsemärken',
         consultation_url_title: 'Boka konsultation för behandling av födelsemärken',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka frysbehandling för födelsemärken',
-        booking_url_title: 'Boka frysbehandling för födelsemärken',
+        booking_url_label: 'Boka CryoPen för födelsemärken',
+        booking_url_title: 'Boka CryoPen för födelsemärken',
     ),
     new Service(
-        title: 'Frysbehandling av Hallonmärke - Jordgubbsmärke - Smultronmärke',
+        title: 'CryoPen av Hallonmärke - Jordgubbsmärke - Smultronmärke',
         duration: '20 minuter',
         price: '995 kr',
         content: 'För dig som har hallonmärken, jordgubbsmärken eller smultromärken.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Frysbehandling av kärlförändringar',
-        image_title: 'Frysbehandling av kärlförändringar',
+        image_alt: 'CryoPen av kärlförändringar',
+        image_title: 'CryoPen av kärlförändringar',
         consultation_url: 'konsultation-karlforandringar',
         consultation_url_label: 'Boka konsultation för kärlförändringar',
         consultation_url_title: 'Boka konsultation för kärlförändringar',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka frysbehandling för kärlförändringar',
-        booking_url_title: 'Boka frysbehandling för kärlförändringar',
+        booking_url_label: 'Boka CryoPen för kärlförändringar',
+        booking_url_title: 'Boka CryoPen för kärlförändringar',
     ),
     new Service(
-        title: 'Frysbehandling av hemangiom',
+        title: 'CryoPen av hemangiom',
         duration: '20 minuter',
         price: '995 kr',
         content: 'För dig som har hemangiom.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Frysbehandling för hemangiom',
-        image_title: 'Frysbehandling för hemangiom',
+        image_alt: 'CryoPen för hemangiom',
+        image_title: 'CryoPen för hemangiom',
         consultation_url: 'konsultation-hemangiom',
         consultation_url_label: 'Boka konsultation för hemangiom',
         consultation_url_title: 'Boka konsultation för hemangiom',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka frysbehandling för hemangiom',
-        booking_url_title: 'Boka frysbehandling för hemangiom',
+        booking_url_label: 'Boka CryoPen för hemangiom',
+        booking_url_title: 'Boka CryoPen för hemangiom',
     ),
 
     new Service(
-        title: 'Frysbehandling av hudflikar',
+        title: 'CryoPen av hudflikar',
         duration: '20 minuter',
         price: '995 kr',
         content: 'För dig som har hudflikar.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Frysbehandling för hudflikar',
-        image_title: 'Frysbehandling för hudflikar',
+        image_alt: 'CryoPen för hudflikar',
+        image_title: 'CryoPen för hudflikar',
         consultation_url: 'konsultation-hudflikar',
         consultation_url_label: 'Boka konsultation för behandling av hudflikar',
         consultation_url_title: 'Boka konsultation för behandling av hudflikar',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka frysbehandling för hudflikar',
-        booking_url_title: 'Boka frysbehandling för hudflikar',
+        booking_url_label: 'Boka CryoPen för hudflikar',
+        booking_url_title: 'Boka CryoPen för hudflikar',
     ),
     new Service(
-        title: 'Frysbehandling av hudutväxter',
+        title: 'CryoPen av hudutväxter',
         duration: '20 minuter',
         price: '995 kr',
         content: 'För dig som har hudutväxter.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Frysbehandling för hudutväxter',
-        image_title: 'Frysbehandling för hudutväxter',
+        image_alt: 'CryoPen för hudutväxter',
+        image_title: 'CryoPen för hudutväxter',
         consultation_url: 'konsultation-hudutvaxter',
         consultation_url_label: 'Boka konsultation för hudutväxter',
         consultation_url_title: 'Boka konsultation för hudutväxter',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka frysbehandling för hudutväxter',
-        booking_url_title: 'Boka frysbehandling för hudutväxter',
+        booking_url_label: 'Boka CryoPen för hudutväxter',
+        booking_url_title: 'Boka CryoPen för hudutväxter',
     ),
     new Service(
-        title: 'Frysbehandling för leverfläckar',
+        title: 'CryoPen för leverfläckar',
         duration: '20 minuter',
         price: '995 kr',
         content: 'För dig som har leverfläckar.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Frysbehandling av leverfläckar',
-        image_title: 'Frysbehandling av leverfläckar',
+        image_alt: 'CryoPen av leverfläckar',
+        image_title: 'CryoPen av leverfläckar',
         consultation_url: 'konsultation-leverflackar',
         consultation_url_label: 'Boka konsultation för leverfläckar',
         consultation_url_title: 'Boka konsultation för leverfläckar',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka frysbehandling för leverfläckar',
-        booking_url_title: 'Boka frysbehandling för leverfläckar',
+        booking_url_label: 'Boka CryoPen för leverfläckar',
+        booking_url_title: 'Boka CryoPen för leverfläckar',
     ),
     new Service(
-        title: 'Frysbehandling för mole',
+        title: 'CryoPen för mole',
         duration: '20 minuter',
         price: '995 kr',
         content: 'För dig som har mole.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Frysbehandling för mole',
-        image_title: 'Frysbehandling för mole',
+        image_alt: 'CryoPen för mole',
+        image_title: 'CryoPen för mole',
         consultation_url: 'konsultation-mole',
         consultation_url_label: 'Boka konsultation för mole',
         consultation_url_title: 'Boka konsultation för mole',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka frysbehandling för mole',
-        booking_url_title: 'Boka frysbehandling för mole',
+        booking_url_label: 'Boka CryoPen för mole',
+        booking_url_title: 'Boka CryoPen för mole',
     ),
     new Service(
-        title: 'Frysbehandling för seborroisk keratos',
+        title: 'CryoPen för seborroisk keratos',
         duration: '15 minuter',
         price: '895 kr',
         content: 'För dig som har seborroisk keratos.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Frysbehandling av seborroisk keratos',
-        image_title: 'Frysbehandling av seborroisk keratos',
+        image_alt: 'CryoPen av seborroisk keratos',
+        image_title: 'CryoPen av seborroisk keratos',
         consultation_url: 'konsultation-seborroisk-keratos',
         consultation_url_label: 'Boka konsultation för seborroisk keratos',
         consultation_url_title: 'Boka konsultation för seborroisk keratos',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka frysbehandling för seborroisk keratos',
-        booking_url_title: 'Boka frysbehandling för seborroisk keratos',
+        booking_url_label: 'Boka CryoPen för seborroisk keratos',
+        booking_url_title: 'Boka CryoPen för seborroisk keratos',
     ),
     new Service(
-        title: 'Frysbehandling för skintags',
+        title: 'CryoPen för skintags',
         duration: '15 minuter',
         price: '895 kr',
         content: 'För dig som har skintags.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Frysbehandling av hudflikar',
-        image_title: 'Frysbehandling av hudflikar',
+        image_alt: 'CryoPen av hudflikar',
+        image_title: 'CryoPen av hudflikar',
         consultation_url: 'konsultation-hudflikar',
         consultation_url_label: 'Boka konsultation för hudflikar',
         consultation_url_title: 'Boka konsultation för hudflikar',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka frysbehandling för hudflikar',
-        booking_url_title: 'Boka frysbehandling för hudflikar',
+        booking_url_label: 'Boka CryoPen för hudflikar',
+        booking_url_title: 'Boka CryoPen för hudflikar',
     ),
     new Service(
-        title: 'Frysbehandling för skönhetsfläckar',
+        title: 'CryoPen för skönhetsfläckar',
         duration: '20 minuter',
         price: '995 kr',
         content: 'För dig som har skönhetsfläckar.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Frysbehandling av skönhetsfläckar',
-        image_title: 'Frysbehandling av skönhetsfläckar',
+        image_alt: 'CryoPen av skönhetsfläckar',
+        image_title: 'CryoPen av skönhetsfläckar',
         consultation_url: 'konsultation-skonhetsflackar',
         consultation_url_label: 'Boka konsultation för skönhetsfläckar',
         consultation_url_title: 'Boka konsultation för skönhetsfläckar',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka frysbehandling för skönhetsfläckar',
-        booking_url_title: 'Boka frysbehandling för skönhetsfläckar',
+        booking_url_label: 'Boka CryoPen för skönhetsfläckar',
+        booking_url_title: 'Boka CryoPen för skönhetsfläckar',
     ),
     new Service(
-        title: 'Frysbehandling för åldersvårtor',
+        title: 'CryoPen för åldersvårtor',
         duration: '20 minuter',
         price: '995 kr',
         content: 'För dig som har åldersvårtor.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Frysbehandling av åldersvårtor',
-        image_title: 'Frysbehandling av åldersvårtor',
+        image_alt: 'CryoPen av åldersvårtor',
+        image_title: 'CryoPen av åldersvårtor',
         consultation_url: 'konsultation-aldersvartor',
         consultation_url_label: 'Boka konsultation för åldersvårtor',
         consultation_url_title: 'Boka konsultation för åldersvårtor',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka frysbehandling för åldersvårtor',
-        booking_url_title: 'Boka frysbehandling för åldersvårtor',
+        booking_url_label: 'Boka CryoPen för åldersvårtor',
+        booking_url_title: 'Boka CryoPen för åldersvårtor',
     ),
 );
 
-$treatment_areas_title = 'Behandlingsområden för Frysbehandling';
-$treatment_areas_text = '<p class="p200">Frysbehandlingen är en flexibel procedur som kan anpassas för att effektivt ta bort hudförändringar. Behandlingen kan utföras på flera olika områden, inklusive ansikte, hals, axlar och rygg, och är skräddarsydd efter antalet hudförändringar samt deras storlek och placering för bästa möjliga resultat.</p>';
+$treatment_areas_title = 'Användningsområden för CryoPen Behandling';
+$treatment_areas_text = '<p class="p200">CryoPen erbjuder en mångsidig lösning för att avlägsna hudförändringar i många olika delar av kroppen. Med dess precision kan behandlingen utföras på känsliga och svåråtkomliga områden som ansiktet, samt mer utbredda regioner som hals, axlar, och rygg. CryoPen är idealisk för att behandla enstaka eller flera hudförändringar, oavsett deras storlek och placering, och anpassas för att leverera optimala resultat för varje unikt fall.</p>';
 $treatment_areas = array(
     new TreatmentArea(
         image_small: 'https://via.placeholder.com/361x274.webm',
@@ -328,7 +328,7 @@ $treatment_areas = array(
                 price: '995 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid förfrysbehandling'
+                url_title: 'Boka tid förCryoPen'
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/94x72.webp',
@@ -339,7 +339,7 @@ $treatment_areas = array(
                 price: '1595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid förfrysbehandling'
+                url_title: 'Boka tid förCryoPen'
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/94x72.webp',
@@ -350,7 +350,7 @@ $treatment_areas = array(
                 price: '1995 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid förfrysbehandling'
+                url_title: 'Boka tid förCryoPen'
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/94x72.webp',
@@ -361,7 +361,7 @@ $treatment_areas = array(
                 price: '2595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid förfrysbehandling'
+                url_title: 'Boka tid förCryoPen'
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/94x72.webp',
@@ -372,7 +372,7 @@ $treatment_areas = array(
                 price: '4995 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid förfrysbehandling'
+                url_title: 'Boka tid förCryoPen'
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/94x72.webp',
@@ -383,7 +383,7 @@ $treatment_areas = array(
                 price: '9995 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid förfrysbehandling'
+                url_title: 'Boka tid förCryoPen'
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/94x72.webp',
@@ -394,7 +394,7 @@ $treatment_areas = array(
                 price: 'Från 250 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid förfrysbehandling'
+                url_title: 'Boka tid förCryoPen'
             ),
 
         )
@@ -402,26 +402,26 @@ $treatment_areas = array(
 );
 
 $bottom_articles = array('aftercare' => new Article(
-    title: 'Efter frysbehandling',
+    title: 'Efter CryoPen',
     image_small: 'https://via.placeholder.com/358x272.webp',
     image_large: 'https://via.placeholder.com/872x456.webp',
-    image_alt: 'Efter frysbehandling',
-    image_title: 'Efter frysbehandlingg',
-    content: '<p class="p200">Eftervården är en viktig del av processen när du genomgått en frysbehandling för att ta bort hudförändringar. Direkt efter ingreppet kan det drabbade området visa tecken på irritation såsom rodnad eller svullnad. Det är viktigt att du undviker att röra vid området med orena händer och undviker att lägga på makeup under de första 24 timmarna efter behandlingen för att minska risken för infektion och irritation.</p>
-    <p class="p200 mt-m">Under dagarna som följer behandlingen är det bäst att undvika aktiviteter som kan förvärra svullnaden eller irritationen, som till exempel intensiv träning, bastubad och långa, heta duschar. Även om det behandlade området inte är i direkt solljus, är det viktigt att fortsätta använda solskydd för att skydda huden från UV-strålning och främja läkningen. Använd milda och fuktgivande hudvårdsprodukter som inte innehåller parfym eller andra irriterande ämnen för att hjälpa till i läkningen och upprätthålla en bra fuktbalans i huden.</p>
-    <p class="p200 mt-m">Följ de eftervårdsinstruktioner du får från din hudterapeut noga. Om du har några frågor eller känner oro kring ditt tillstånd efter behandlingen, tveka inte att kontakta kliniken. Beroende på hur din hud reagerar kan ytterligare uppföljning eller behandlingar rekommenderas för att uppnå bästa möjliga resultat.</p>',
+    image_alt: 'Efter CryoPen',
+    image_title: 'Efter CryoPeng',
+    content: '<p class="p200">Efter en CryoPen-behandling är korrekt eftervård avgörande för att säkerställa en effektiv läkning och undvika komplikationer. Direkt efter behandlingen kan området vara rött och svullet, vilket är normalt. Det är viktigt att skydda det behandlade området från att smutsas ner; undvik därför att röra det med händerna och att applicera smink inom de första 24 timmarna efter ingreppet.</p>
+    <p class="p200 mt-m">För att minska risken för irritation och svullnad, bör du avstå från att delta i ansträngande aktiviteter som intensiv träning, bastu och exponering för mycket varmt vatten under de initiala dagarna efter behandlingen. Även om det behandlade området inte utsätts för direkt solljus, är det kritiskt att applicera solskydd för att skydda huden mot UV-strålning och understödja läkningsprocessen.</p>
+    <p class="p200 mt-m">Det är viktigt att du följer de eftervårdsinstruktioner som din hudterapeut ger dig. Om du upplever några osäkerheter eller bekymmer angående din läkning efter behandlingen, kontakta din klinik för råd. Baserat på din huds respons på behandlingen rekommenderas en eller flera uppföljningar eller behandlingar för optimala resultat.</p>',
     tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
 
-$service_brands_title = 'Märken för frysbehandling';
-$service_brands_text = '<p class="p200">Vi utför frysbehandling med CryoPen vilket är de modernaste och mest effektiva metoden av sitt slag.</p>';
+$service_brands_title = 'Metoder för CryoPen';
+$service_brands_text = '<p class="p200">Cryopen är en form av frysbehandling</p>';
 $service_brands = array(
 
     new Brand(
-        label: 'CryoPen',
-        image: 'images/brands/cryopen.svg',
-        image_alt: 'CryoPen',
-        image_title: 'CryoPen',
+        label: 'Frysbehandling',
+        image: 'images/metoder/frysbehandling.svg',
+        image_alt: 'Frysbehandling',
+        image_title: 'Frysbehandling',
     ),
 );
 
@@ -517,16 +517,20 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Hur lång tid tar det att läka efter en frysbehandling?',
-            text: 'Läkningstiden efter en frysbehandling varierar från person till person och beroende på omfattningen av behandlingen. Mindre hudförändringar kan läka inom några dagar, medan större eller flera behandlade områden kan ta några veckor. Svullnad och rodnad är normalt och bör avta inom de första dagarna.'
+            title: 'Vilken är den vanliga läkningstiden efter en behandling med CryoPen?',
+            text: 'Läkningstiden efter en CryoPen-behandling varierar beroende på individens hudtyp, omfattningen och storleken på de behandlade hudförändringarna. Små lesioner tenderar att läka inom några dagar, medan större eller fler behandlade områden kan kräva flera veckor. Initial svullnad och rodnad är att förvänta och bör subside inom de första dagarna post-behandling.'
         ),
         new Question(
-            title: 'Kan hudförändringar återkomma efter frysbehandling?',
-            text: 'Frysbehandling syftar till att permanent ta bort specifika hudförändringar. Det är dock möjligt att nya hudförändringar kan uppkomma på andra ställen på kroppen. Att följa en god hudvårdsrutin och skydda huden mot solen kan bidra till att minimera risken för nya hudproblem.'
+            title: 'Finns det en risk att hudförändringar återkommer efter att ha använt CryoPen?',
+            text: 'CryoPen är utformad för att permanent eliminera behandlade hudförändringar. Även om de specifika förändringarna som behandlats typiskt inte återkommer, är det möjligt att nya hudförändringar kan utvecklas på andra områden av huden. Att upprätthålla en bra hudvårdsrutin och att skydda huden mot överdriven solexponering kan minska sannolikheten för framtida hudproblem.'
         ),
         new Question(
-            title: 'Vad bör jag undvika efter en frysbehandling?',
-            text: 'Efter en frysbehandling bör du undvika att röra vid det behandlade området med smutsiga händer, och undvika att utsätta huden för direkt solljus utan solskydd. Det är också rekommenderat att undvika smink på det behandlade området, intensiv träning, bastu, och långa heta duschar under de första 24-48 timmarna för att ge huden bästa möjliga förutsättningar att läka.'
+            title: 'Vad ska jag undvika efter behandling med CryoPen?',
+            text: 'Efter en CryoPen-behandling är det viktigt att inte röra det behandlade området med orena händer för att förhindra infektion. Du bör också skydda området från direkt solljus och använda solskydd för att undvika pigmentförändringar. Undvik att applicera makeup, utsättande för intensiv värme såsom bastu, och att ta långa varma duschar under de första 24 till 48 timmarna. Dessa försiktighetsåtgärder bidrar till att ge din hud de bästa förutsättningarna för att läka på ett korrekt sätt.'
+        ),
+        new Question(
+            title: 'Hur många återbesök kan behövas efter en CryoPen-behandling?',
+            text: 'Vanligtvis kan 1-3 återbesök vara tillräckliga för att uppnå önskat resultat med CryoPen-behandling. Detta antagande baseras på genomsnittliga fall där hudförändringarna är av mindre storlek och reagerar väl på behandlingen. Det är dock viktigt att notera att varje individs hud är unik, och i vissa fall kan det vara nödvändigt med fler behandlingar för att fullständigt avlägsna hudförändringar, särskilt om de är större, djupare eller om det finns ett större antal att behandla.'
         ),
     )
 );
