@@ -167,8 +167,8 @@ new Service(
 
 );
 
-$treatment_areas_title = 'Behandlingsområden för Microneedling';
-$treatment_areas_text = '<p class="p200">Microneedling är en mångsidig behandling lämplig för ansikte, axlar, rygg och bröst. Den förbättrar hudens struktur och lyster genom att stimulera kollagenproduktion och läkning, anpassad efter varje unikt hudtillstånd och område.</p>';
+$treatment_areas_title = 'Behandlingsområden för IPL';
+$treatment_areas_text = '<p class="p200">IPL (Intensivt Pulserande Ljus) är en flexibel behandlingsmetod som passar för en rad olika områden på kroppen, inklusive ansikte, hals, händer och bröst.</p>';
 $treatment_areas = array(
     new TreatmentArea(
         image_small: 'https://via.placeholder.com/361x274.webm',
@@ -176,64 +176,63 @@ $treatment_areas = array(
         image_alt: 'Ansikte',
         image_title: 'Ansikte',
         title: 'Ansikte',
-        description: '<p class="p200">Microneedling behandlar och förbättrar huden i ansiktet och kan utföras i hela ansiktet eller på utvalda zoner.</p>',
+        description: '<p class="p200">IPL kan utföras i hela ansiktet eller på utvalda zoner.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/94x72.webp',
-                image_alt: 'Ansikte',
-                image_title: 'Ansikte',
-                title: 'Ansikte',
-                duration: '50 min',
-                price: '2595 kr',
+                image_alt: 'Panna',
+                image_title: 'Panna',
+                title: 'IPL för Panna',
+                duration: '30 min',
+                price: '1595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för ansiktsbehandling'
+                url_title: 'Boka tid för IPL-behandling av pannan'
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/94x72.webp',
                 image_alt: 'Näsa',
                 image_title: 'Näsa',
-                title: 'Näsa',
+                title: 'IPL för Näsa',
                 duration: '30 min',
-                price: '1295 kr',
+                price: '1595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för näsbehandling'
+                url_title: 'Boka tid för IPL-behandling av näsan'
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/94x72.webp',
                 image_alt: 'Kinder',
                 image_title: 'Kinder',
-                title: 'Kinder',
+                title: 'IPL för Kinder',
                 duration: '30 min',
-                price: '1295 kr',
+                price: '1595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för kindbehandling'
+                url_title: 'Boka tid för IPL-behandling av kinderna'
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/94x72.webp',
                 image_alt: 'Överläpp',
                 image_title: 'Överläpp',
-                title: 'Överläpp',
+                title: 'IPL för Överläpp',
                 duration: '30 min',
-                price: '1295 kr',
+                price: '1595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för överläppsbehandling'
+                url_title: 'Boka tid för IPL-behandling av överläppen'
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/94x72.webp',
                 image_alt: 'Haka',
                 image_title: 'Haka',
-                title: 'Haka',
+                title: 'IPL för Haka',
                 duration: '30 min',
-                price: '1295 kr',
+                price: '1595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för hakbehandling'
+                url_title: 'Boka tid för IPL-behandling av hakan'
             ),
-
         )
     ),
     new TreatmentArea(
@@ -242,7 +241,7 @@ $treatment_areas = array(
         image_alt: 'Kropp',
         image_title: 'Kropp',
         title: 'Kropp',
-        description: '<p class="p200">Med microneedling kan vi behandla flera olika delar av kroppen.</p>',
+        description: '<p class="p200">IPL kan behandla flera olika delar av kroppen.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webp',
@@ -254,28 +253,6 @@ $treatment_areas = array(
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
                 url_title: 'Boka tid för halsbehandling'
-            ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
-                image_alt: 'Dekolletage',
-                image_title: 'Dekolletage',
-                title: 'Dekolletage',
-                duration: '50 min',
-                price: '2595 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för dekolletagebehandling'
-            ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
-                image_alt: 'Rygg',
-                image_title: 'Rygg',
-                title: 'Rygg',
-                duration: '50 min',
-                price: '2595 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för ryggbehandling'
             ),
         )
     ),
