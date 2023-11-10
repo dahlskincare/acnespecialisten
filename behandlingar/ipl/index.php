@@ -70,35 +70,14 @@ $top_articles = array(
         ))
     ),
     'process' => new Article(
-        title: 'Microneedling behandlingsprocess',
+        title: 'Hur går en IPL behandling till?',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Microneedling behandlingsprocess',
-        image_title: 'Microneedling behandlingsprocess',
-        content: '<p class="p200">Microneedling är en avancerad hudförnyande behandlingsmetod som kickstartar hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. När du anländer till kliniken, kommer din hud att rengöras grundligt för att avlägsna makeup och orenheter. Därefter appliceras en bedövningskräm för att minska eventuellt obehag under behandlingen.</p>
-        p class="p200 mt-m">Vår speciellt utformade microneedling-enhet använder en serie fina, sterila nålar för att skapa mikroskopiska kanaler i huden. Detta initierar hudens egen reparationsmekanism och leder till ökad elastin- och kollagenproduktion. Under behandlingen använder vi också en näringsrik serum för att maximera hudens upptagningsförmåga och stimulera förnyelseprocessen. Efter behandlingen kan du förvänta dig en viss rodnad, men detta är normalt och indikerar att hudens läkningsprocess har börjat. Med tiden kommer du att märka en förbättrad hudtextur, minskning av fina linjer och en övergripande mer strålande hy.</p>',
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Steam'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraction'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Cleansing'
-        ))
-    ),
-    'boost' => new Article(
-        title: 'Boosta din Microneedling med PRX-T33-behandling',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Boosta Microneedling effekten med PRX-T33',
-        image_title: 'Boosta Microneedling effekten med PRX-T33',
-        content: '<p class="p200">I strävan efter optimala resultat av din hudvård, erbjuder vår klinik en unik kombinationsbehandling som förstärker effekten av microneedling genom att integrera PRX-T33, en banbrytande biorevitaliserande behandling. Denna synergiska behandlingsstrategi är utformad för att förbättra hudens struktur, elasticitet och lyster utan lång återhämtningstid.</p>
-                <p class="p200 mt-m">Inför din microneedling-behandling är det viktigt att undvika produkter som kan irritera huden, som exfolierande syror och retinol. PRX-T33-behandlingen appliceras efter microneedling-sessionen för att boosta hudens regenerativa processer och kollagenproduktion ännu mer. Eftersom PRX-T33 inte kräver nålar eller orsakar hudskada, är det ett utmärkt komplement för att förstärka och förlänga de positiva effekterna av microneedling. Förbered dig för att se en märkbar skillnad i din hud med en förbättrad ton, textur och en dramatisk minskning av fina linjer och ojämnheter.</p>',
+        image_alt: 'Hur går en IPL behandling till?',
+        image_title: 'Hur går en IPL behandling till?',
+        content: '<p class="p200">IPL-behandling är en effektiv metod för hudföryngring och korrigering av olika hudproblem såsom pigmentfläckar, ytliga blodkärl och rosacea. När du anländer till vår klinik, kommer din hud att rengöras grundligt för att avlägsna makeup och orenheter. Därefter appliceras ett särskilt skydd på dina ögon för att säkerställa att de inte utsätts för det intensiva ljuset.</p>
+        <p class="p200 mt-m">Vår IPL-enhet justeras sedan för att anpassa ljuspulsernas intensitet och våglängd beroende på ditt specifika hudtillstånd och behandlingsområde. Under behandlingen avges korta, intensiva pulser av ljus som tränger in i huden. Dessa ljuspulser målriktar pigmentfläckar, blodkärl eller hårfolliklar och omvandlar ljusenergin till värme, vilket bryter ner det oönskade pigmentet eller krymper blodkärlen utan att skada den omgivande huden.</p>
+        <p class="p200 mt-m">Efter behandlingen kan du uppleva en viss rodnad och värme i huden, liknande en mild solbränna, men detta är vanligt och bör avta inom kort. Resultaten av IPL-behandlingen utvecklas över tid, och du kan förvänta dig att se en gradvis förbättring av hudens utseende med minskning av ojämnheter, en jämnare hudton och en övergripande förbättrad hudkvalitet. Efter behandlingen kommer din hudterapeut att ge dig rekommendationer för eftervård för att maximera resultatet och främja en snabb läkning.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
