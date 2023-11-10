@@ -101,9 +101,9 @@ $top_articles = array(
         image_large: 'https://via.placeholder.com/872x456.webp',
         image_alt: 'Hur går en IPL mot rosacea till?',
         image_title: 'Hur går en IPL mot rosacea till',
-        content: '<p class="p200">IPL-behandling är en effektiv metod för hudföryngring och korrigering av olika hudproblem såsom pigmentfläckar, ytliga blodkärl och rosacea. När du anländer till vår klinik, kommer din hud att rengöras grundligt för att avlägsna makeup och orenheter. Därefter appliceras ett särskilt skydd på dina ögon för att säkerställa att de inte utsätts för det intensiva ljuset.</p>
-        <p class="p200 mt-m">Vår IPL-enhet justeras sedan för att anpassa ljuspulsernas intensitet och våglängd beroende på ditt specifika hudtillstånd och behandlingsområde. Under behandlingen avges korta, intensiva pulser av ljus som tränger in i huden. Dessa ljuspulser målriktar pigmentfläckar, blodkärl eller hårfolliklar och omvandlar ljusenergin till värme, vilket bryter ner det oönskade pigmentet eller krymper blodkärlen utan att skada den omgivande huden.</p>
-        <p class="p200 mt-m">Efter behandlingen kan du uppleva en viss rodnad och värme i huden, liknande en mild solbränna, men detta är vanligt och bör avta inom kort. Resultaten av IPL-behandlingen utvecklas över tid, och du kan förvänta dig att se en gradvis förbättring av hudens utseende med minskning av ojämnheter, en jämnare hudton och en övergripande förbättrad hudkvalitet. Efter behandlingen kommer din hudterapeut att ge dig rekommendationer för eftervård för att maximera resultatet och främja en snabb läkning.</p>',
+        content: '<p class="p200">IPL-behandling mot rosacea är en speciell procedur som använder Intensivt Pulserande Ljus för att effektivt minska rodnad och andra symptom associerade med rosacea. När du kommer till kliniken, kommer vi först att rengöra din hud noggrant för att avlägsna eventuell makeup och orenheter. Dina ögon skyddas också med speciella glasögon för att förhindra exponering för det intensiva ljuset.</p>
+        <p class="p200 mt-m">Vår IPL-enhet ställs sedan in för att skräddarsy ljuspulsens intensitet och våglängd till ditt specifika hudtillstånd. Under behandlingen appliceras korta, intensiva ljuspulser direkt på de områden av huden som påverkas av rosacea. Ljuset absorberas av de blodkärl som bidrar till rodnad, vilket minskar deras framträdande och lindrar andra symptom på rosacea utan att skada den omgivande huden.</p>
+        <p class="p200 mt-m">Efter behandlingen kan det behandlade området kännas varmt och se något rött ut, vilket liknar känslan av en mild solbränna. Dessa symtom är vanligtvis övergående och bör lindras inom några timmar till några dagar. Resultaten av IPL-behandlingen blir ofta synliga över tid, med en gradvis minskning av hudrodnad och förbättring av hudens övergripande tillstånd. Din hudterapeut kommer att ge dig råd om lämplig eftervård och rekommendera eventuella uppföljningsbehandlingar för att upprätthålla och förbättra resultaten från din IPL-behandling mot rosacea.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -120,81 +120,8 @@ $top_articles = array(
     ),
 );
 
-$types_title = 'Hudproblem som behandlas med IPL';
-$types_description = 'IPL (Intensivt Pulserande Ljus) är en mångsidig och effektiv behandlingsmetod som används för att adressera en rad olika hudproblem. Här kan du utforska de olika hudtillstånden som vi framgångsrikt behandlar med vår IPL-teknik.';
-$types = array(
-    new Service(
-        title: 'IPL-behandling för Rosacea',
-        duration: '30 minuter',
-        price: '1995 kr',
-        content: 'Effektiv behandling av rosacea med vår avancerade IPL-teknik. Genom att använda målinriktade ljuspulser kan vi mildra rodnad och andra symtom associerade med rosacea, vilket ger en jämnare hudton och en förbättrad hudkvalitet.',
-        image_small: 'https://via.placeholder.com/102x102.jpg',
-        image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'IPL-behandling för Rosacea',
-        image_title: 'IPL-behandling för Rosacea',
-        consultation_url: 'konsultation-rosacea',
-        consultation_url_label: 'Boka konsultation för IPL-behandling av rosacea',
-        consultation_url_title: 'Boka konsultation för IPL-behandling av rosacea',
-        booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka IPL-behandling för rosacea',
-        booking_url_title: 'Boka IPL-behandling för rosacea',
-    ),
-
-new Service(
-        title: 'IPL-behandling för Ytliga Blodkärl',
-        duration: '30 minuter',
-        price: '1995 kr',
-        content: 'Effektiv och skonsam IPL-behandling för att minska synligheten av ytliga blodkärl. Denna behandling används för att selektivt målriktad de drabbade blodkärlen, vilket resulterar i en klarare och mer enhetlig hudton.',
-        image_small: 'https://via.placeholder.com/102x102.jpg',
-        image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'IPL-behandling för Ytliga Blodkärl',
-        image_title: 'IPL-behandling för Ytliga Blodkärl',
-        consultation_url: 'konsultation-ytliga-blodkarl',
-        consultation_url_label: 'Boka konsultation för IPL-behandling av ytliga blodkärl',
-        consultation_url_title: 'Boka konsultation för IPL-behandling av ytliga blodkärl',
-        booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka IPL-behandling för ytliga blodkärl',
-        booking_url_title: 'Boka IPL-behandling för ytliga blodkärl',
-    ),
-
-new Service(
-        title: 'IPL-behandling för Pigmentfläckar',
-        duration: '30 minuter',
-        price: '1995 kr',
-        content: 'Minska och ljusa upp pigmentfläckar med vår IPL-behandling. Denna metod är idealisk för att effektivt målriktad och reducera mörka fläckar och ojämnheter i hudtonen, vilket ger en jämnare och mer strålande hud.',
-        image_small: 'https://via.placeholder.com/102x102.jpg',
-        image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'IPL-behandling för Pigmentfläckar',
-        image_title: 'IPL-behandling för Pigmentfläckar',
-        consultation_url: 'konsultation-pigmentflackar',
-        consultation_url_label: 'Boka konsultation för IPL-behandling av pigmentfläckar',
-        consultation_url_title: 'Boka konsultation för IPL-behandling av pigmentfläckar',
-        booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka IPL-behandling för pigmentfläckar',
-        booking_url_title: 'Boka IPL-behandling för pigmentfläckar',
-    ),
-
-new Service(
-        title: 'IPL-behandling för Melasma',
-        duration: '30 minuter',
-        price: '1995 kr',
-        content: 'Behandla melasma effektivt med IPL. Vår behandling hjälper till att ljusa upp och jämna ut hudtonen genom att selektivt behandla de hyperpigmenterade områdena, vilket ger en märkbar förbättring i hudens utseende.',
-        image_small: 'https://via.placeholder.com/102x102.jpg',
-        image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'IPL-behandling för Melasma',
-        image_title: 'IPL-behandling för Melasma',
-        consultation_url: 'konsultation-melasma',
-        consultation_url_label: 'Boka konsultation för IPL-behandling av melasma',
-        consultation_url_title: 'Boka konsultation för IPL-behandling av melasma',
-        booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka IPL-behandling för melasma',
-        booking_url_title: 'Boka IPL-behandling för melasma',
-    ),
-
-);
-
-$treatment_areas_title = 'Behandlingsområden för IPL';
-$treatment_areas_text = '<p class="p200">IPL (Intensivt Pulserande Ljus) är en flexibel behandlingsmetod som passar för en rad olika områden på kroppen, inklusive ansikte, hals, händer och bröst.</p>';
+$treatment_areas_title = 'Behandlingsområden för IPL mot rosacea';
+$treatment_areas_text = '<p class="p200">Med IPL behandlar vi både hela och delar av ansiktet</p>';
 $treatment_areas = array(
     new TreatmentArea(
         image_small: 'https://via.placeholder.com/361x274.webm',
@@ -209,22 +136,11 @@ $treatment_areas = array(
                 image_alt: 'Ansikte',
                 image_title: 'Ansikte',
                 title: 'IPL för Ansikte',
-                duration: '40 min',
-                price: '2295 kr',
+                duration: '50 min',
+                price: '2595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL-behandling av ansiktet'
-            ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webp',
-                image_alt: 'Panna',
-                image_title: 'Panna',
-                title: 'IPL för Panna',
-                duration: '30 min',
-                price: '1595 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för IPL-behandling av pannan'
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/94x72.webp',
@@ -248,151 +164,53 @@ $treatment_areas = array(
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL-behandling av kinderna'
             ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webp',
-                image_alt: 'Överläpp',
-                image_title: 'Överläpp',
-                title: 'IPL för Överläpp',
-                duration: '30 min',
-                price: '1595 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för IPL-behandling av överläppen'
-            ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webp',
-                image_alt: 'Haka',
-                image_title: 'Haka',
-                title: 'IPL för Haka',
-                duration: '30 min',
-                price: '1595 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för IPL-behandling av hakan'
-            ),
-        )
-    ),
-    new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
-        image_alt: 'Kropp',
-        image_title: 'Kropp',
-        title: 'Kropp',
-        description: '<p class="p200">IPL kan behandla flera olika delar av kroppen.</p>',
-        items: array(
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
-                image_alt: 'Hals',
-                image_title: 'Hals',
-                title: 'IPL för Hals',
-                duration: '30 min',
-                price: '1895 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för IPL-behandling av halsen'
-            ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
-                image_alt: 'Dekolletage',
-                image_title: 'Dekolletage',
-                title: 'IPL för Dekolletage',
-                duration: '40 min',
-                price: '2295 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för IPL-behandling av dekolletaget'
-            ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
-                image_alt: 'Händer',
-                image_title: 'Händer',
-                title: 'IPL för Händer',
-                duration: '30 min',
-                price: '1895 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för IPL-behandling av händerna'
-            ),
-        )
-    ),
-    new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
-        image_alt: 'Kombinera områden',
-        image_title: 'Kombinera områden',
-        title: 'Kombinera områden',
-        description: '<p class="p200">Behandlingen fungerar även utmärkt om du vill kombinera flera olika områden.</p>',
-        items: array(
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
-                image_alt: '1x zon',
-                image_title: '1x zon',
-                title: '1x zon',
-                duration: '20 min',
-                price: '1595 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling av 1 zon.'
-            ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
-                image_alt: '2x zoner',
-                image_title: '2x zoner',
-                title: '2x zoner',
-                duration: '30 min',
-                price: '1995 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling av 2x zoner.'
-            ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
-                image_alt: '1x område',
-                image_title: '1x område',
-                title: '1x område',
-                duration: '50 min',
-                price: '2595 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling av 1 område.'
-            ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
-                image_alt: '2x områden',
-                image_title: '2x områden',
-                title: '2x områden',
-                duration: '60 min',
-                price: '3595 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling av 2 områden.'
-            ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
-                image_alt: '3x områden',
-                image_title: '3x områden',
-                title: '3x områden',
-                duration: '70 min',
-                price: '4595 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling av 3 områden.'
-            ),
         )
     ),
 );
 
 $bottom_articles = array('aftercare' => new Article(
-    title: 'Efter IPL-behandling',
+    title: 'Eftervård för IPL-behandling mot rosacea',
     image_small: 'https://via.placeholder.com/358x272.webp',
     image_large: 'https://via.placeholder.com/872x456.webp',
-    image_alt: 'Efter IPL-behandling',
-    image_title: 'Efter IPL-behandling',
-    content: '<p class="p200">Eftervården efter en IPL-behandling är avgörande för att uppnå bästa resultat och säkerställa en effektiv läkningsprocess. Efter behandlingen kan det vara normalt att uppleva viss rodnad och svullnad i det behandlade området. Det är viktigt att du undviker att röra området med orena händer och att inte applicera makeup eller parfymerade produkter under de första 24 timmarna för att minimera risken för irritation eller infektioner.</p>
-    <p class="p200 mt-m">Under de första dagarna efter behandlingen bör du undvika intensiv fysisk aktivitet, bastu och långa varma duschar som kan förvärra svullnad och irritation. Användning av solskydd är kritiskt; det är viktigt att regelbundet applicera en hög SPF för att skydda huden mot UV-strålning, vilket är särskilt viktigt för det behandlade området. Vi rekommenderar även att du använder milda och återfuktande hudvårdsprodukter utan starka ingredienser för att främja läkningsprocessen och upprätthålla hudens fuktbalans.</p>
-    <p class="p200 mt-m">Se till att följa de specifika eftervårdsinstruktioner som din behandlare ger dig, och tveka inte att kontakta kliniken om du har frågor eller funderingar kring din eftervård. Beroende på din huds respons kan uppföljande behandlingar rekommenderas för att uppnå och underhålla önskade resultat.</p>',
+    image_alt: 'Eftervård för IPL-behandling mot rosacea',
+    image_title: 'Eftervård för IPL-behandling mot rosacea',
+    content: '<p class="p200">Eftervården är en viktig del av din återhämtningsprocess efter en IPL-behandling mot rosacea. Omedelbart efter behandlingen kan det behandlade området uppvisa viss rodnad och i vissa fall en lätt svullnad. Dessa reaktioner är normala och bör avta inom kort. För att minimera risken för irritation och infektion är det viktigt att du inte rör området med smutsiga händer och undviker att applicera makeup eller parfymerade produkter under de första 24 timmarna efter behandlingen.</p>
+    <p class="p200 mt-m">Under de första dagarna efter din IPL-behandling rekommenderas det att du undviker stark fysisk ansträngning, bastubad och långa heta duschar, då dessa aktiviteter kan förvärra svullnad och irritation. Det är även viktigt att skydda din hud mot solen. Använd en solskyddskräm med hög SPF regelbundet, särskilt på det behandlade området, för att undvika ytterligare solskador och stödja läkningsprocessen. Använd gärna milda och återfuktande hudvårdsprodukter som inte innehåller irriterande ingredienser för att lugna huden och upprätthålla dess fuktbalans.</p>
+    <p class="p200 mt-m">Följ noga de eftervårdsinstruktioner som du får från din hudterapeut. Om du har några frågor eller funderingar kring din återhämtning efter behandlingen, tveka inte att kontakta din klinik. Ytterligare uppföljande behandlingar kan rekommenderas för att bibehålla och förbättra resultaten av din IPL-behandling mot rosacea.</p>',
     tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
+
+$treatment_steps = array(
+      new TreatmentStep(
+            title: 'Identifiera',
+            content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din rosacea och skapar en individuell behandlingsplan.',
+            url_label: 'Få gratis konsultation',
+            url: 'hudkonsultation',
+            url_title: 'Boka din kostnadsfria hudkonsultation idag'
+      ),
+      new TreatmentStep(
+            title: 'Behandla',
+            content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika rosacea, så att du snabbt och säkert blir av med problemet.',
+            url_label: 'Se behandlingar',
+            url: 'behandlingar/rosacea',
+            url_title: 'Utforska våra skräddarsydda rosaceabehandlingar'
+      ),
+      new TreatmentStep(
+            title: 'Förebygga',
+            content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny rosacea och hålla din hud i balans.',
+            url_label: 'Se produkter',
+            url: 'https://dahlskincare.se/produktkategorier/produktpaket/rosacea',
+            url_title: 'Hitta de bästa produkterna för att förebygga rosacea'
+      ),
+      new TreatmentStep(
+            title: 'Reparera',
+            content: 'När rosacean är borta fokuserar vi på att reducera eventuella ytliga blodkärl med behandlingsmetoder som IPL för en jämn och problemfri hud.',
+            url_label: 'Se IPL-behandlingar',
+            url: 'behandlingar/rosacea',
+            url_title: 'Upptäck effektiva behandlingar för ytliga blodkärl'
+      ),
+
+);
 
 $service_brands_title = 'Märken för IPL';
 $service_brands_text = '<p class="p200">Vi utför IPL med Alma Rejuve DyeVL, Alma Harmony XL, Photonova som är de bästa maskinerna på marknaden.</p>';
@@ -510,16 +328,16 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Hur många IPL-behandlingar behövs vanligtvis?',
-            text: 'Antalet IPL-behandlingar som krävs varierar beroende på individens specifika hudtillstånd och de mål som satts upp. Generellt sett kan man behöva 3-8 behandlingar med ungefär 4 veckors mellanrum för att uppnå optimala resultat. En individuell behandlingsplan upprättas under din initiala konsultation baserat på dina unika hudbehov.'
+            title: 'Hur många behandlingar med IPL krävs för att behandla rosacea?',
+            text: 'Antalet IPL-behandlingar för rosacea varierar beroende på hudens tillstånd och svårighetsgraden av rosacea. Generellt kan det krävas 3-8 behandlingar med intervaller på ungefär 4 veckor för att se en märkbar förbättring. Din hudterapeut kommer att utforma en personligt anpassad behandlingsplan under den initiala konsultationen.'
         ),
         new Question(
-            title: 'Kan mina hudproblem återkomma efter en IPL-behandling?',
-            text: 'IPL-behandlingar är mycket effektiva för att adressera befintliga hudproblem som pigmentfläckar, ytliga blodkärl och rosacea. Men det är viktigt att notera att nya hudproblem kan uppstå på grund av faktorer som åldrande och solskador. En regelbunden hudvårdsrutin och skydd mot solen är viktigt för att underhålla resultaten, och ytterligare behandlingar kan behövas för att upprätthålla effekterna över tid.'
+            title: 'Kan symtomen på rosacea återkomma efter en IPL-behandling?',
+            text: 'IPL-behandling kan ge betydande förbättringar av rosaceas symtom, men det är viktigt att förstå att rosacea är en kronisk hudåkomma som kan kräva kontinuerlig hantering. Även om IPL kan minska rodnad och blodkärl associerade med rosacea, kan regelbundna uppföljningsbehandlingar behövas för att upprätthålla resultaten, särskilt om nya symtom uppstår.'
         ),
         new Question(
-            title: 'Hur snabbt kan jag se resultat efter en IPL-behandling?',
-            text: 'Resultaten från en IPL-behandling kan variera från person till person. Många upplever en synlig förbättring redan efter den första behandlingen, men de fullständiga effekterna blir ofta tydligare efter en serie behandlingar. Förändringar i hudens utseende och kvalitet fortsätter vanligtvis att utvecklas och förbättras under veckorna mellan behandlingarna och efter behandlingsserien är avslutad.'
+            title: 'När börjar jag se resultat efter IPL-behandling mot rosacea?',
+            text: 'De första resultaten av IPL-behandling mot rosacea kan ofta märkas inom några dagar till en vecka efter behandlingen, med fortsatt förbättring över tid. De flesta patienter upplever en gradvis minskning av rodnad och synligheten av blodkärl efter varje behandling. Fullständiga resultat och den långsiktiga effekten kan dock variera, och det kan krävas flera behandlingar för att uppnå optimala resultat.'
         ),
     )
 );
@@ -884,6 +702,17 @@ $all_brands = array(
                         </div>
                     </section>
                 <?php } ?>
+                <section id="approach">
+                      <h2 class="h500 l10n">Metoden</h2>
+                      <hr class="mt-xl mb-xl3 is-hidden-mobile">
+                      <div class="columns is-variable is-2">
+                            <?php for ($i = 0; $i < sizeof($treatment_steps); $i++) {
+                                  echo '<div class="column">';
+                                  include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/treatment_step_card/treatment_step_card.php');
+                                  echo '</div>';
+                            } ?>
+                      </div>
+                </section>
                 <section id="results" class="large-margin">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php') ?>
                 </section>

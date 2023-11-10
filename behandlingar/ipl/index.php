@@ -183,8 +183,8 @@ $treatment_areas = array(
                 image_alt: 'Ansikte',
                 image_title: 'Ansikte',
                 title: 'IPL för Ansikte',
-                duration: '40 min',
-                price: '2295 kr',
+                duration: '50 min',
+                price: '2595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL-behandling av ansiktet'
