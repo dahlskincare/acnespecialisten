@@ -373,12 +373,12 @@ $treatment_areas = array(
                 image: 'https://via.placeholder.com/102x102.webp',
                 image_alt: '1x område',
                 image_title: '1x område',
-                title: '1x områdes',
+                title: '1x område',
                 duration: '50 min',
                 price: '2595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för halsbehandling'
+                url_title: 'Boka tid för behandling av 1 område.'
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webp',
@@ -389,7 +389,7 @@ $treatment_areas = array(
                 price: '3595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för dekolletagebehandling'
+                url_title: 'Boka tid för behandling av 2 områden.'
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webp',
@@ -400,7 +400,7 @@ $treatment_areas = array(
                 price: '4595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för ryggbehandling'
+                url_title: 'Boka tid för behandling av 3 områden.'
             ),
         )
     ),

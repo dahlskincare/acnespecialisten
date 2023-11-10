@@ -179,6 +179,17 @@ $treatment_areas = array(
         description: '<p class="p200">IPL kan utföras i hela ansiktet eller på utvalda zoner.</p>',
         items: array(
             new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: 'Ansikte',
+                image_title: 'Ansikte',
+                title: 'IPL för Ansikte',
+                duration: '40 min',
+                price: '2295 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för IPL-behandling av ansiktet'
+            ),
+            new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/94x72.webp',
                 image_alt: 'Panna',
                 image_title: 'Panna',
@@ -247,12 +258,34 @@ $treatment_areas = array(
                 image: 'https://via.placeholder.com/102x102.webp',
                 image_alt: 'Hals',
                 image_title: 'Hals',
-                title: 'Hals',
-                duration: '50 min',
-                price: '2595 kr',
+                title: 'IPL för Hals',
+                duration: '30 min',
+                price: '1895 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för halsbehandling'
+                url_title: 'Boka tid för IPL-behandling av halsen'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: 'Dekolletage',
+                image_title: 'Dekolletage',
+                title: 'IPL för Dekolletage',
+                duration: '40 min',
+                price: '2295 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för IPL-behandling av dekolletaget'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: 'Händer',
+                image_title: 'Händer',
+                title: 'IPL för Händer',
+                duration: '30 min',
+                price: '1895 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för IPL-behandling av händerna'
             ),
         )
     ),
@@ -266,47 +299,69 @@ $treatment_areas = array(
         items: array(
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: '1x zon',
+                image_title: '1x zon',
+                title: '1x zon',
+                duration: '20 min',
+                price: '1595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling av 1 zon.'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: '2x zoner',
+                image_title: '2x zoner',
+                title: '2x zoner',
+                duration: '30 min',
+                price: '1995 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling av 2x zoner.'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
                 image_alt: '1x område',
                 image_title: '1x område',
-                title: '1x områdes',
+                title: '1x område',
                 duration: '50 min',
                 price: '2595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för halsbehandling'
+                url_title: 'Boka tid för behandling av 1 område.'
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webp',
                 image_alt: '2x områden',
                 image_title: '2x områden',
                 title: '2x områden',
-                duration: '70 min',
+                duration: '60 min',
                 price: '3595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för dekolletagebehandling'
+                url_title: 'Boka tid för behandling av 2 områden.'
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webp',
                 image_alt: '3x områden',
                 image_title: '3x områden',
                 title: '3x områden',
-                duration: '90 min',
+                duration: '70 min',
                 price: '4595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för ryggbehandling'
+                url_title: 'Boka tid för behandling av 3 områden.'
             ),
         )
     ),
 );
 
 $bottom_articles = array('aftercare' => new Article(
-    title: 'Efter microneedling behandling',
+    title: 'Efter IPL-behandling',
     image_small: 'https://via.placeholder.com/358x272.webp',
     image_large: 'https://via.placeholder.com/872x456.webp',
-    image_alt: 'Efter microneedling behandling',
-    image_title: 'Efter microneedling behandling',
+    image_alt: 'Efter IPL-behandling',
+    image_title: 'Efter IPL-behandling',
     content: '<p class="p200">Efter en microneedlingbehandling är det flera viktiga steg du bör följa för att främja läkning och optimera resultatet av din behandling. Direkt efter proceduren är det normalt att huden blir röd och svullen. Det är kritiskt att undvika att röra behandlingsområdet med smutsiga händer och att inte applicera makeup de första 24 timmarna för att minimera risken för infektioner eller irritationer.</p>
     <p class="p200 mt-m">Under de första dagarna efter behandlingen, undvik kraftig motion, bastu, och långa varma duschar som kan öka svullnad och irritation i huden. Solskydd är också av yttersta vikt; applicera en bredspektrum solskyddsfaktor dagligen för att skydda din hud mot UV-strålning, som kan vara extra skadlig för den nya känsliga huden efter microneedling. Dessutom rekommenderas att du använder milda, återfuktande produkter utan parfym eller andra irriterande ingredienser för att hjälpa till med läkningsprocessen och behålla hudens fuktbalans.</p>
     <p class="p200 mt-m">Följ noggrant de eftervårdsinstruktioner som din behandlare ger dig och tveka inte att kontakta kliniken om du har några frågor eller oro kring din eftervård. Regelbunden uppföljning och eventuellt ytterligare behandlingar kan rekommenderas beroende på din huds individuella svar och de mål du strävar efter med din hudvård.</p>',
