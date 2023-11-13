@@ -95,8 +95,8 @@ $top_articles = array(
     ),
 );
 
-$treatment_areas_title = 'Behandlingsområden för IPL mot rosacea';
-$treatment_areas_text = '<p class="p200">Med IPL behandlar vi både hela och delar av ansiktet</p>';
+$treatment_areas_title = 'Behandlingsområden för IPL mot ytliga blodkärl';
+$treatment_areas_text = '<p class="p200">Med IPL behandlar vi ytliga blodkärl i ansiktet.</p>';
 $treatment_areas = array(
     new TreatmentArea(
         image_small: 'https://via.placeholder.com/361x274.webm',
@@ -137,21 +137,32 @@ $treatment_areas = array(
                 price: '1595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för IPL-behandling av kinderna'
+                url_title: 'Boka tid för IPL-behandling av kinderna',
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webp',
+                image_alt: '1 st Ytligt blodkärl',
+                image_title: '1 st Ytligt blodkärl',
+                title: 'IPL för 1 st Ytligt blodkärl',
+                duration: '20 min',
+                price: '995 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för IPL-behandling av 1 st Ytligt blodkärl',
             ),
         )
     ),
 );
 
 $bottom_articles = array('aftercare' => new Article(
-    title: 'Eftervård för IPL-behandling mot rosacea',
+    title: 'Eftervård för IPL mot ytliga blodkärl',
     image_small: 'https://via.placeholder.com/358x272.webp',
     image_large: 'https://via.placeholder.com/872x456.webp',
-    image_alt: 'Eftervård för IPL-behandling mot rosacea',
-    image_title: 'Eftervård för IPL-behandling mot rosacea',
-    content: '<p class="p200">Eftervården är en viktig del av din återhämtningsprocess efter en IPL-behandling mot rosacea. Omedelbart efter behandlingen kan det behandlade området uppvisa viss rodnad och i vissa fall en lätt svullnad. Dessa reaktioner är normala och bör avta inom kort. För att minimera risken för irritation och infektion är det viktigt att du inte rör området med smutsiga händer och undviker att applicera makeup eller parfymerade produkter under de första 24 timmarna efter behandlingen.</p>
-    <p class="p200 mt-m">Under de första dagarna efter din IPL-behandling rekommenderas det att du undviker stark fysisk ansträngning, bastubad och långa heta duschar, då dessa aktiviteter kan förvärra svullnad och irritation. Det är även viktigt att skydda din hud mot solen. Använd en solskyddskräm med hög SPF regelbundet, särskilt på det behandlade området, för att undvika ytterligare solskador och stödja läkningsprocessen. Använd gärna milda och återfuktande hudvårdsprodukter som inte innehåller irriterande ingredienser för att lugna huden och upprätthålla dess fuktbalans.</p>
-    <p class="p200 mt-m">Följ noga de eftervårdsinstruktioner som du får från din hudterapeut. Om du har några frågor eller funderingar kring din återhämtning efter behandlingen, tveka inte att kontakta din klinik. Ytterligare uppföljande behandlingar kan rekommenderas för att bibehålla och förbättra resultaten av din IPL-behandling mot rosacea.</p>',
+    image_alt: 'Eftervård för IPL-behandling mot ytliga blodkärl',
+    image_title: 'Eftervård för IPL mot ytliga blodkärl',
+    content: '<p class="p200">Eftervården är en central del av återhämtningsprocessen efter en IPL-behandling mot ytliga blodkärl. Efter behandlingen kan det förekomma en viss rodnad och ibland en mild svullnad i de behandlade områdena. Dessa reaktioner är vanliga och bör avta relativt snabbt. Det är viktigt för att undvika irritation och infektion att inte röra det behandlade området med smutsiga händer och att undvika att applicera makeup eller parfymerade produkter under de första 24 timmarna efter behandlingen.</p>
+    <p class="p200 mt-m">Under de första dagarna efter din IPL-behandling är det rekommenderat att du avstår från intensiv fysisk aktivitet, bastubad och långa varma duschar, eftersom dessa kan öka svullnad och irritation. Det är också viktigt att skydda huden mot solen. Använd solskyddskräm med hög SPF regelbundet, särskilt på de behandlade områdena, för att förhindra ytterligare solskador och främja läkning. Använd gärna milda, återfuktande hudvårdsprodukter som inte innehåller irriterande ämnen för att lugna huden och bibehålla dess fuktbalans.</p>
+    <p class="p200 mt-m">Följ noggrant de eftervårdsinstruktioner du får från din hudterapeut. Om du har några frågor eller bekymmer om din återhämtning efter behandlingen, tveka inte att kontakta din klinik. Ytterligare uppföljningsbehandlingar kan rekommenderas för att bibehålla och förbättra resultaten av din IPL-behandling mot ytliga blodkärl.</p>',
     tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
 
@@ -188,7 +199,7 @@ $treatment_steps = array(
 );
 
 $service_brands_title = 'Märken för IPL';
-$service_brands_text = '<p class="p200">Vi utför IPL med Alma Rejuve DyeVL, Alma Harmony XL, Photonova som är de bästa maskinerna på marknaden.</p>';
+$service_brands_text = '<p class="p200">Vi utför IPL mot ytliga blodkärl med Alma Rejuve DyeVL, Alma Harmony XL, Photonova som är de bästa maskinerna på marknaden.</p>';
 $service_brands = array(
 
     new Brand(
@@ -303,16 +314,16 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Hur många behandlingar med IPL krävs för att behandla rosacea?',
-            text: 'Antalet IPL-behandlingar för rosacea varierar beroende på hudens tillstånd och svårighetsgraden av rosacea. Generellt kan det krävas 3-8 behandlingar med intervaller på ungefär 4 veckor för att se en märkbar förbättring. Din hudterapeut kommer att utforma en personligt anpassad behandlingsplan under den initiala konsultationen.'
+            title: 'Hur många behandlingar med IPL krävs för att behandla ytliga blodkärl?',
+            text: 'Antalet IPL-behandlingar som krävs för att effektivt minska ytliga blodkärl varierar beroende på individens hudtillstånd och omfattningen av blodkärlen. Vanligtvis kan det krävas mellan 3-8 behandlingar, med intervaller på cirka 4 veckor, för att uppnå märkbar förbättring. Din hudterapeut kommer att skapa en anpassad behandlingsplan baserad på en initial konsultation.'
         ),
         new Question(
-            title: 'Kan symtomen på rosacea återkomma efter en IPL-behandling?',
-            text: 'IPL-behandling kan ge betydande förbättringar av rosaceas symtom, men det är viktigt att förstå att rosacea är en kronisk hudåkomma som kan kräva kontinuerlig hantering. Även om IPL kan minska rodnad och blodkärl associerade med rosacea, kan regelbundna uppföljningsbehandlingar behövas för att upprätthålla resultaten, särskilt om nya symtom uppstår.'
+            title: 'Kan ytliga blodkärl återkomma efter en IPL-behandling?',
+            text: 'IPL-behandling kan effektivt minska synligheten av ytliga blodkärl, men det är viktigt att komma ihåg att vissa livsstilsfaktorer, som sol exponering och genetiska förutsättningar, kan påverka deras återkomst. Regelbundna uppföljningsbehandlingar och adekvat hudvård kan behövas för att bibehålla resultaten över tid.'
         ),
         new Question(
-            title: 'När börjar jag se resultat efter IPL-behandling mot rosacea?',
-            text: 'De första resultaten av IPL-behandling mot rosacea kan ofta märkas inom några dagar till en vecka efter behandlingen, med fortsatt förbättring över tid. De flesta patienter upplever en gradvis minskning av rodnad och synligheten av blodkärl efter varje behandling. Fullständiga resultat och den långsiktiga effekten kan dock variera, och det kan krävas flera behandlingar för att uppnå optimala resultat.'
+            title: 'När börjar jag se resultat efter IPL-behandling mot ytliga blodkärl?',
+            text: 'De första resultaten av IPL-behandling mot ytliga blodkärl kan ofta ses inom några dagar till en vecka efter behandlingen, med fortsatt förbättring efter varje session. Många patienter rapporterar en gradvis minskning av synligheten av blodkärl efter varje behandling. Fullständiga och långsiktiga resultat kan dock variera beroende på individens hudtillstånd och antal genomförda behandlingar.'
         ),
     )
 );
