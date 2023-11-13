@@ -3,22 +3,22 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'IPL för Blodkärl, Pigmentfläckar & Rosacea | Acnespecialisten';
-$seo_description = 'Specialiserade på att behandla ytliga blodkärl, pigmentfläckar och rosacea, erbjuder AcneSpecialisten avancerade IPL-behandlingar. Denna ljusbaserade teknologi riktar sig selektivt mot hudens ojämnheter, reducerar synligheten av blodkärl, pigmentering och symtom på rosacea för en klarare och mer harmonisk hudton.';
-$seo_keywords = 'IPL-behandling, ytliga blodkärl, pigmentfläckar, rosacea-behandling, ljusbaserad hudföryngring, hudjämnhetsförbättring, reducera rödhet, ljusa upp pigmentering, harmonisk hudton, avancerad hudvård';
+$seo_title = 'IPL mot Pigmentfläckar | AcneSpecialisten';
+$seo_description = 'På AcneSpecialisten erbjuder vi avancerade IPL-behandlingar särskilt inriktade på att reducera pigmentfläckar och förbättra hudtonen. Vår ljusbaserade teknologi selektivt målriktar pigmenteringar, vilket minskar synligheten av pigmentfläckar och leder till en klarare och mer enhetlig hudton.';
+$seo_keywords = 'IPL-behandling, pigmentfläckar, minska pigmentering, jämn hudton, ljusbaserad hudförbättring, hudjämnhet, ljusa upp huden, harmonisk hudton, avancerad hudvård, AcneSpecialisten';
 
-$seo_image = 'images/treatments/large/ipl.jpg';
+$seo_image = 'images/treatments/large/ipl-pigmentflackar.jpg';
 
 
 $model = new Service(
-    title: 'IPL',
+    title: 'IPL mot pigmentfläckar',
     duration: null,
     price: 'Från 2332 kr',
-    content: '<p class="p200">IPL är en idealisk lösning för dig som söker en jämnare hudton genom att reducera pigmenteringar och ytliga blodkärl eller strävar efter att lindra symtomen på rosacea. Våra behandlingar är skräddarsydda och anpassade efter dina specifika hudbehov, och utformade för att effektivt stimulera hudens egna läkningsmekanismer och förbättra hudens övergripande kondition.</p>',
+    content: '<p class="p200">IPL utgör en effektiv lösning för dig som önskar en jämnare hudton genom att effektivt reducera pigmentfläckar. Denna behandling passar utmärkt för att ljusa upp och jämna ut områden med överpigmentering. Våra IPL-behandlingar är individuellt anpassade efter dina unika hudbehov. De är utformade för att inte bara minska synligheten av pigmentfläckar, utan också för att stimulera hudens egna läkningsprocesser och därmed förbättra hudens övergripande hälsa och utseende.</p>',
     image_small: 'https://via.placeholder.com/358x274.webp',
     image_large: 'https://via.placeholder.com/424x456.webp',
-    image_alt: 'IPL',
-    image_title: 'IPL',
+    image_alt: 'IPL mot pigmentfläckar',
+    image_title: 'IPL mot pigmentfläckar',
     consultation_url: 'https://bokadirekt.se',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
@@ -28,7 +28,7 @@ $model = new Service(
 );
 
 $nav_buttons = array(
-    'about' => 'Om IPL',
+    'about' => 'Om IPL mot pigmentfläckar',
     'preparing' => 'Förberedelser',
     'process' => 'Processen',
     'types' => 'Typer',
@@ -42,19 +42,19 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'IPL - vad är det?';
-$description_text = '<p class="p200">IPL, som står för Intensivt Pulserande Ljus, är en ljusbaserad behandlingsmetod som används för att förbättra hudens färg och textur utan kirurgi. Behandlingen innebär användning av ljuspulser som genomtränger huden och behandlar olika tillstånd genom att rikta in sig på melanin i pigmentfläckar och hemoglobin i blodkärl. Denna teknik är särskilt effektiv för att reducera ytliga blodkärl, pigmentfläckar och symtom på rosacea.</p>
-    <p class="p200 mt-m">IPL-teknologin är mångsidig och kan anpassas efter patientens individuella hudförhållanden, vilket gör det möjligt att behandla en rad hudproblem med precision. Behandlingen är vanligtvis skonsam med få biverkningar, och patienter kan återgå till sina normala aktiviteter kort efter en session. Det är en populär behandlingsmetod för att främja en mer jämn hudton, minska rödhet och bruna fläckar, samt att förbättra hudens övergripande utseende.</p>';
+$description_title = 'Vad är IPL av pigmentfläckar?';
+$description_text = '<p class="p200">IPL, som står för Intensivt Pulserande Ljus, är en ljusbaserad behandlingsmetod som effektivt förbättrar hudens färg och textur utan behov av kirurgiska ingrepp. Denna teknik innefattar användning av ljuspulser som penetrerar huden och selektivt riktar sig mot melanin i pigmentfläckar. IPL är därmed särskilt effektivt för att reducera och ljusa upp pigmentfläckar och för att ge en jämnare hudton.</p>
+<p class="p200 mt-m">Med sin mångsidighet kan IPL-teknologin anpassas efter varje patients unika hudtillstånd, vilket gör det möjligt att behandla pigmentfläckar med precision. Behandlingen är skonsam och medför få biverkningar, vilket tillåter patienter att snabbt återgå till sina dagliga aktiviteter efter en session. IPL är en populär metod för att effektivt minska synligheten av pigmentfläckar och främja en mer harmonisk och klar hudton.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelser inför behandling med IPL',
+        title: 'Inför behandling med IPL mot pigmentfläckar',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Förberedelser inför behandling med IPL',
-        image_title: 'Förberedelser inför behandling med IPL',
-        content: '<p class="p200">Inför en IPL-behandling är det viktigt att följa några grundläggande steg för att säkerställa att din hud är i bästa möjliga skick och redo för behandlingen. En konsultation med en erfaren hudterapeut är det första steget, där hudens kondition noggrant analyseras och en individuell behandlingsplan utformas för att uppnå optimala resultat med IPL-tekniken.</p>
-        <p class="p200 mt-m">För att förbereda huden bör du undvika solning och inte använda självbrunande produkter minst två veckor före behandlingen för att minska risken för pigmentförändringar. IPL-behandling kräver att huden är så naturligt i sin ton som möjligt för att ljuspulserna ska kunna rikta sig korrekt mot oönskade pigment eller blodkärl. Det är också viktigt att undvika produkter med retinol eller andra starka exfolierande ingredienser under veckan innan din behandling. Din hudterapeut kommer att informera dig om ytterligare förberedelser och ge dig råd om hur du bäst tar hand om din hud både före och efter din IPL-session för att säkerställa en trygg behandling och effektiv läkning.</p>',
+        image_alt: 'Inför behandling med IPL mot pigmentfläckar',
+        image_title: 'Inför behandling med IPL mot pigmentfläckar',
+        content: '<p class="p200">Att förbereda sig inför en IPL-behandling för att reducera pigmentfläckar innebär att följa viktiga steg för att säkerställa att din hud är optimalt förberedd för proceduren. En initial konsultation med en kvalificerad hudterapeut är avgörande. Under detta möte kommer din hud att noggrant analyseras för att skapa en skräddarsydd behandlingsplan som är inriktad på att minska dina pigmentfläckar med IPL-teknik.</p>
+        <p class="p200 mt-m">För att förbereda din hud är det viktigt att undvika direkt sol exponering och inte använda självbrunande produkter minst två veckor före behandlingen. Detta är för att minska risken för ojämn pigmentering, eftersom IPL-behandlingen är mest effektiv när huden är i sin naturligaste ton. Dessutom bör du undvika hudvårdsprodukter som innehåller retinol eller andra starka exfolierande ingredienser under veckan före din behandling. Din hudterapeut kommer att ge dig fullständiga instruktioner om ytterligare förberedelser och råd om hur du kan ta hand om din hud både före och efter din IPL-behandling för att säkerställa optimala resultat och en säker läkningsprocess.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
