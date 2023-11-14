@@ -42,4 +42,4 @@ foreach ($result as $row) {
     $combos[] = $row;
 }
 
-echo json_encode($combos, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
+echo json_encode($combos, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_NUMERIC_CHECK);
