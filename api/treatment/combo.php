@@ -25,7 +25,7 @@ mysqli_select_db($conn, $dbname);
 
 $query = "
     SELECT 
-    id, name_$language AS name, subtitle_$language AS subtitle, s, m, l, xl
+    id, name_$language AS name, subtitle_$language AS subtitle, s, m, l, xl, url_ostermalm, url_sodermalm, url_sundbyberg
     FROM t_combo    
     WHERE 1
     LIMIT 99999";
