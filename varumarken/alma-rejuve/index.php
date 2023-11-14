@@ -3,12 +3,11 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'IPL för Blodkärl, Pigmentfläckar & Rosacea | Acnespecialisten';
-$seo_description = 'Specialiserade på att behandla ytliga blodkärl, pigmentfläckar och rosacea, erbjuder AcneSpecialisten avancerade IPL-behandlingar. Denna ljusbaserade teknologi riktar sig selektivt mot hudens ojämnheter, reducerar synligheten av blodkärl, pigmentering och symtom på rosacea för en klarare och mer harmonisk hudton.';
-$seo_keywords = 'IPL-behandling, ytliga blodkärl, pigmentfläckar, rosacea-behandling, ljusbaserad hudföryngring, hudjämnhetsförbättring, reducera rödhet, ljusa upp pigmentering, harmonisk hudton, avancerad hudvård';
+$seo_title = 'Alma Rejuve IPL: Effektiv Behandling för Pigmentfläckar, Blodkärl & Rosacea | AcneSpecialisten';
+$seo_description = 'AcneSpecialisten presenterar Alma Rejuve, en toppmodern IPL-teknologi, för att behandla pigmentfläckar, ytliga blodkärl och rosacea effektivt. Alma Rejuve använder avancerad ljusbaserad teknologi som selektivt riktar sig mot och reducerar hudens ojämnheter. Upplev en märkbar förbättring i hudens ton och textur, och uppnå en klarare och mer harmonisk hudton.';
+$seo_keywords = 'Alma Rejuve, IPL-behandling, behandla pigmentfläckar, minska ytliga blodkärl, rosacea-behandling, ljusbaserad teknologi, hudtonsförbättring, avancerad hudföryngring, jämn hudton, AcneSpecialisten';
 
-$seo_image = 'images/treatments/large/ipl.jpg';
-
+$seo_image = 'images/treatments/large/alma-rejuve.jpg';
 
 $model = new Service(
     title: 'IPL',
