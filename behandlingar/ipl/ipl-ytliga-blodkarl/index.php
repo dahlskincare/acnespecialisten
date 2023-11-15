@@ -215,10 +215,10 @@ $service_brands = array(
         image_title: 'Alma Harmony XL',
     ),
     new Brand(
-        label: 'Photonova',
-        image: 'images/brands/photonova.svg',
-        image_alt: 'Photonova',
-        image_title: 'Photonova',
+        label: 'Powerlite Photonova',
+        image: 'images/brands/powerlite-photonova.svg',
+        image_alt: 'Powerlite Photonova',
+        image_title: 'Powerlite Photonova',
     ),
 );
 
