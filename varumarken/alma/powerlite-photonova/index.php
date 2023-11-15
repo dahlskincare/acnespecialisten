@@ -3,18 +3,17 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Alma Rejuve Dye-VL: Specialiserad IPL-teknik för Hudförbättring | AcneSpecialisten';
-$seo_description = 'På AcneSpecialisten introducerar vi Alma Rejuve Dye-VL, en avancerad version av IPL-tekniken, specialdesignad för att effektivt behandla pigmentfläckar, ytliga blodkärl och rosacea. Dye-VL-tekniken använder en unik ljusvåglängd som är optimal för att selektivt rikta sig mot och behandla hudens ojämnheter, vilket leder till en betydande förbättring i hudens ton och textur för en klarare och mer enhetlig hudton.';
-$seo_keywords = 'Alma Rejuve Dye-VL, specialiserad IPL-behandling, pigmentfläckar behandling, reducera ytliga blodkärl, rosacea-behandling, Dye-VL teknik, hudförbättring, avancerad hudföryngring, jämn hudton, AcneSpecialisten';
+$seo_title = 'Powerlite Photonova - Effektiv IPL behandling | AcneSpecialisten';
+$seo_description = 'Hos AcneSpecialisten välkomnar vi Powerlite Photonova, en effektiv IPL-behandling utformad för att effektivt behandla allt från pigmentfläckar, ytliga blodkärl och rosacea. Med Powerlite Photonova uppnår vi enastående resultat genom att förbättra hudens ton och textur, och skapar en jämnare och klarare hudton.';
+$seo_keywords = 'Powerlite Photonova, IPL-behandling, avancerad hudvård, behandla pigmentfläckar, ytliga blodkärl, rosacea, hudföryngring, jämn hudton, klar hud, AcneSpecialisten';
 
-$seo_image = 'images/treatments/large/alma-rejuve-dye-vl.jpg';
-
+$seo_image = 'images/treatments/large/powerlite-photonova-ipl.jpg';
 
 $model = new Service(
-    title: 'Alma Rejuve Dye-VL',
+    title: 'Powerlite Photonova',
     duration: null,
     price: 'Från 2332 kr',
-    content: '<p class="p200">Alma Rejuve Dye-VL är den optimala lösningen för dig som önskar en jämnare hudton och vill reducera pigmenteringar, ytliga blodkärl eller lindra symtomen på rosacea. Denna avancerade IPL-teknik är skräddarsydd för att passa dina specifika hudbehov. Med sin unika Dye-VL-teknologi stimulerar Alma Rejuve effektivt hudens naturliga läkningsprocesser och bidrar till en markant förbättring av hudens övergripande kvalitet och utseende.</p>',
+    content: '<p class="p200">Powerlite Photonova erbjuder effektiv IPL behandling för dig som strävar efter en jämnare hudton och önskar behandla hudproblem som pigmentfläckar, ytliga blodkärl eller lindra symtomen på rosacea. Powerlite Photonova utnyttjar avancerad ljusenergi för att effektivt stimulera hudens läkningsmekanismer, vilket bidrar till en betydande förbättring av hudens kvalitet och utseende, resulterande i en klarare och mer enhetlig hudton.</p>',
     image_small: 'https://via.placeholder.com/358x274.webp',
     image_large: 'https://via.placeholder.com/424x456.webp',
     image_alt: 'IPL',
@@ -28,7 +27,7 @@ $model = new Service(
 );
 
 $nav_buttons = array(
-    'about' => 'Om IPL',
+    'about' => 'Om Powerlite Photonova',
     'preparing' => 'Förberedelser',
     'process' => 'Processen',
     'types' => 'Typer',
@@ -42,19 +41,19 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Vad är Alma Rejuve Dye-VL?';
-$description_text = '<p class="p200">Alma Rejuve Dye-VL representerar en specialiserad form av IPL (Intensivt Pulserande Ljus)-teknik, utvecklad för att förbättra hudens ton och textur utan kirurgiska ingrepp. Denna avancerade version av IPL använder en unik Dye-VL-teknologi, vilken är optimal för att effektivt behandla hudtillstånd genom att målinrikta melanin i pigmentfläckar och hemoglobin i blodkärl. Detta gör Dye-VL särskilt effektivt för att reducera pigmentfläckar, ytliga blodkärl och symtom på rosacea.</p>
-    <p class="p200 mt-m">Alma Rejuve Dye-VL skiljer sig från traditionella IPL-behandlingar genom sin förmåga att mer specifikt och effektivt behandla olika hudproblem. Med sin anpassningsbara teknologi kan den skräddarsys för individuella hudförhållanden, vilket ger en precis och skonsam behandling med minimala biverkningar. Patienter kan återgå till sina dagliga aktiviteter snabbt efter behandlingen. Alma Rejuve Dye-VL är idealisk för att uppnå en jämnare hudton, minska synliga hudproblem och förbättra den övergripande hudkvaliteten.</p>';
+$description_title = 'Vad är Powerlite Photonova?';
+$description_text = '<p class="p200">Powerlite är varumärket bakom Photonova, en avancerad IPL (Intensivt Pulserande Ljus)-maskin, designad för att effektivt förbättra hudens ton och textur. Photonova, som är en del av Powerlites produktlinje, använder högteknologisk IPL-teknik skräddarsydd för att behandla en rad hudtillstånd, såsom pigmentfläckar, ytliga blodkärl och rosacea, genom att specifikt rikta in sig på och behandla melanin och hemoglobin i huden.</p>
+<p class="p200 mt-m">Photonova-maskinen under Powerlite-varumärket skiljer sig från traditionella IPL-behandlingar genom sin avancerade teknologi som möjliggör mer preciserade och effektiva behandlingar av olika hudproblem. Med dess förmåga att finjusteras efter varje individs hudbehov, erbjuder Photonova en säker och skonsam upplevelse med minimala biverkningar. Denna behandlingsmetod möjliggör snabb återgång till vardagsaktiviteter och är idealisk för de som önskar en jämnare hudton och en förbättrad övergripande hudkvalitet.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelser inför Rejuve Dye-VL',
+        title: 'Förberedelser inför behandling med Powerlite Photonova',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Förberedelser inför Rejuve Dye-VL',
-        image_title: 'Förberedelser inför Rejuve Dye-VL',
-        content: '<p class="p200">Förberedelserna inför en Rejuve Dye-VL-behandling är avgörande för att din hud ska vara i optimalt skick för behandlingen. Det första steget är en konsultation med en erfaren hudterapeut, där din hudtyp och specifika behov noggrant analyseras. Här skapas en personligt anpassad behandlingsplan med Dye-VL-tekniken för att säkerställa bästa möjliga resultat.</p>
-        <p class="p200 mt-m">För att förbereda din hud, bör du undvika solning och användning av självbrunande produkter minst två veckor innan behandlingen. Detta minskar risken för pigmentförändringar eftersom Dye-VL-behandlingen kräver att huden är i sin mest naturliga ton för effektivt riktad behandling av pigment och blodkärl. Undvik även hudvårdsprodukter som innehåller kraftiga exfolierande ingredienser veckan före din behandling. Din hudterapeut kommer att ge dig detaljerade instruktioner om ytterligare förberedelser och råd om hur du tar hand om din hud både före och efter din Rejuve Dye-VL-session, för att garantera en säker behandling och effektiv läkningsprocess.</p>',
+        image_alt: 'Förberedelser inför behandling med Powerlite Photonova',
+        image_title: 'Förberedelser inför behandling med Powerlite Photonova',
+        content: '<p class="p200">Att förbereda sig inför en Powerlite Photonova-behandling är ett viktigt steg för att säkerställa att din hud är i bästa möjliga skick. Det första steget är en konsultation med en erfaren hudterapeut där din hudtyp och dina unika behov noggrant utvärderas. Under denna konsultation skapas en individuellt anpassad behandlingsplan med Powerlite Photonova-tekniken för att uppnå de bästa resultaten.</p>
+        <p class="p200 mt-m">För att förbereda din hud bör du undvika solning och inte använda självbrunande produkter minst två veckor före behandlingen för att minska risken för oönskade pigmentförändringar. Detta är viktigt eftersom Powerlite Photonova-behandlingen är mest effektiv när huden är i sin naturliga ton. Undvik även hudvårdsprodukter som innehåller starka exfolierande ingredienser under veckan innan din behandling. Din hudterapeut kommer att ge dig omfattande råd och instruktioner för förberedelser och eftervård, för att säkerställa en säker behandlingsupplevelse och en effektiv återhämtningsprocess.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
