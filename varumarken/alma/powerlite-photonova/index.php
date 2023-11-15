@@ -69,14 +69,14 @@ $top_articles = array(
         ))
     ),
     'process' => new Article(
-        title: 'Hur går en Rejuve Dye-VL behandling till?',
+        title: 'Hur går en Powerlite Photonova behandling till?',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Hur går en Rejuve Dye-VL behandling till?',
-        image_title: 'Hur går en Rejuve Dye-VL behandling till?',
-        content: '<p class="p200">Rejuve Dye-VL-behandling är en framstående metod för att förbättra hudens utseende, speciellt anpassad för att korrigera problem som pigmentfläckar, ytliga blodkärl och rosacea. När du anländer till vår klinik börjar vi med att rengöra din hud grundligt för att avlägsna alla spår av makeup och orenheter. Ett speciellt skydd placeras över dina ögon för att skydda dem från det intensiva ljuset under behandlingen.</p>
-        <p class="p200 mt-m">Vår Rejuve Dye-VL-enhet justeras sedan noggrant för att matcha ljuspulsernas intensitet och våglängd med ditt unika hudtillstånd och de specifika områdena som ska behandlas. Behandlingen involverar korta, intensiva ljuspulser som tränger in i huden. Dessa pulser är precist riktade för att behandla pigmentfläckar och blodkärl, där ljusenergin omvandlas till värme för att effektivt bryta ner det oönskade pigmentet eller minska blodkärlen, utan att skada omgivande hud.</p>
-        <p class="p200 mt-m">Efter behandlingen är det normalt att känna en lätt rodnad och uppleva en värmande känsla i huden, liknande en mild solbränna. Dessa symptom är övergående och avtar vanligtvis snabbt. Resultaten från en Rejuve Dye-VL-behandling utvecklas gradvis. Du kan förvänta dig att se en kontinuerlig förbättring av din hud, med minskade ojämnheter, en jämnare hudton och förbättrad övergripande hudkvalitet. Efter behandlingen ger din hudterapeut dig skräddarsydda råd för eftervård för att maximera resultatet och främja snabb läkning.</p>',
+        image_alt: 'Hur går en Rejuve Powerlite Photonova behandling till?',
+        image_title: 'Hur går en Powerlite Photonova behandling till?',
+        content: '<p class="p200">Powerlite Photonova-behandlingen är en avancerad metod för att förbättra hudens utseende, speciellt utvecklad för att korrigera hudproblem såsom pigmentfläckar, ytliga blodkärl och rosacea. När du kommer till vår klinik inleder vi med att noggrant rengöra din hud för att avlägsna alla spår av makeup och orenheter. Dina ögon skyddas sedan med speciella skyddsglasögon för att förhindra exponering för det intensiva IPL-ljuset under behandlingen.</p>
+        <p class="p200 mt-m">Vår Powerlite Photonova-enhet kalibreras omsorgsfullt för att anpassa ljuspulsernas intensitet och våglängd till ditt specifika hudtillstånd och de områden som ska behandlas. Behandlingen består av korta, intensiva ljuspulser som penetrerar huden. Dessa pulser är riktade för att precist behandla pigmentfläckar, blodkärl och andra hudproblem, där ljusenergin omvandlas till värme för att effektivt reducera oönskat pigment och blodkärl utan att skada den omgivande huden.</p>
+        <p class="p200 mt-m">Efter behandlingen är det vanligt att uppleva en viss rodnad och en värmande känsla i huden, liknande den efter en mild solbränna. Dessa reaktioner är övergående och bör avta inom kort tid. Resultaten av Powerlite Photonova-behandlingen utvecklas gradvis, och du kan förvänta dig en fortsatt förbättring av din hud över tid, med en minskning av ojämnheter och en jämnare och förbättrad hudton. Din hudterapeut kommer att ge dig skräddarsydda råd för eftervården för att säkerställa bästa möjliga resultat och främja en snabb läkning.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -93,8 +93,8 @@ $top_articles = array(
     ),
 );
 
-$types_title = 'Hudtillstånd behandlade med Rejuve Dye-VL';
-$types_description = 'Alma Rejuve Dye-VL erbjuder en högspecialiserad form av IPL (Intensivt Pulserande Ljus)-behandling, anpassad för att effektivt hantera en mängd olika hudproblem. Upptäck vilka hudtillstånd som kan förbättras och behandlas framgångsrikt med vår avancerade Dye-VL-teknologi.';
+$types_title = 'Behandlingsområden med Powerlite Photonova';
+$types_description = 'Utforska de många hudtillstånden som kan behandlas med Powerlite Photonova, från pigmentfläckar och ytliga blodkärl till rosacea och mer, och upplev hur vi kan förbättra din hud med denna innovativa teknik.';
 $types = array(
     new Service(
         title: 'Rejuve Dye-VL behandling för Rosacea',
