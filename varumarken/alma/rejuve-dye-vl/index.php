@@ -362,22 +362,16 @@ $bottom_articles = array('aftercare' => new Article(
     image_large: 'https://via.placeholder.com/872x456.webp',
     image_alt: 'Efter behandling med Rejuve Dye-VL',
     image_title: 'Efter behandling med Rejuve Dye-VL',
-    content: '<p class="p200">Eftervården är en kritisk del av processen efter en Alma Rejuve Dye-VL-behandling och är avgörande för att uppnå optimala resultat och en smidig läkningsprocess. Det är vanligt att uppleva en viss rodnad och svullnad i det behandlade området direkt efter sessionen. För att minimera risken för irritation och infektioner är det viktigt att inte röra området med smutsiga händer och att undvika att applicera makeup eller parfymerade produkter under de första 24 timmarna.</p>
+    content: '<p class="p200">Eftervården är en viktig del av processen efter en Rejuve Dye-VL-behandling för att uppnå optimala resultat och en smidig läkningsprocess. Det är vanligt att uppleva en viss rodnad och svullnad i det behandlade området direkt efter sessionen. För att minimera risken för irritation och infektioner är det viktigt att inte röra området med smutsiga händer och att undvika att applicera makeup eller parfymerade produkter under de första 24 timmarna.</p>
     <p class="p200 mt-m">Under de första dagarna efter din Alma Rejuve Dye-VL-behandling är det rekommenderat att undvika intensiva fysiska aktiviteter, bastu och långa varma duschar, eftersom dessa kan öka svullnad och irritation. Regelbunden användning av solskydd med hög SPF är essentiellt för att skydda huden mot UV-strålning, särskilt på de behandlade områdena. Vi råder också att använda milda och återfuktande hudvårdsprodukter utan starka ingredienser för att främja läkningsprocessen och bibehålla hudens fuktbalans.</p>
     <p class="p200 mt-m">Det är viktigt att du följer de specifika eftervårdsinstruktionerna som ges av din behandlare noggrant. Om du har några frågor eller oro kring din eftervård, tveka inte att kontakta kliniken. Ytterligare behandlingar kan rekommenderas baserat på din huds respons för att uppnå och bibehålla de bästa resultaten från din behandling med Alma Rejuve Dye-VL.</p>',
     tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
 
-$service_brands_title = 'Märken för IPL';
-$service_brands_text = '<p class="p200">Vi utför IPL med Alma Rejuve DyeVL, Alma Harmony XL, Photonova som är de bästa maskinerna på marknaden.</p>';
+$service_brands_title = 'Andra märken för IPL';
+$service_brands_text = '<p class="p200">Utöver Rejuve DyeVL använder vi även Alma Harmony XL och Photonova som är de bästa maskinerna på marknaden för IPL.</p>';
 $service_brands = array(
 
-    new Brand(
-        label: 'Alma Rejuve DyeVL',
-        image: 'images/brands/alma-rejuve-dyevl.svg',
-        image_alt: 'Alma Rejuve DyeVL',
-        image_title: 'Alma Rejuve DyeVL',
-    ),
     new Brand(
         label: 'Alma Harmony XL',
         image: 'images/brands/alma-harmony-xl.svg',
@@ -484,16 +478,16 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Hur många IPL-behandlingar behövs vanligtvis?',
-            text: 'Antalet IPL-behandlingar som krävs varierar beroende på individens specifika hudtillstånd och de mål som satts upp. Generellt sett kan man behöva 3-8 behandlingar med ungefär 4 veckors mellanrum för att uppnå optimala resultat. En individuell behandlingsplan upprättas under din initiala konsultation baserat på dina unika hudbehov.'
+            title: 'Hur många behandlingar med Rejuve Dye-VL krävs vanligtvis?',
+            text: 'Antalet behandlingar med Rejuve Dye-VL som behövs varierar beroende på individens unika hudtillstånd och de önskade målen. Vanligtvis kan det krävas mellan 3-8 sessioner med cirka 4 veckors mellanrum för att uppnå bästa möjliga resultat. En skräddarsydd behandlingsplan utformas under din initiala konsultation, anpassad efter dina specifika hudbehov.'
         ),
         new Question(
-            title: 'Kan mina hudproblem återkomma efter en IPL-behandling?',
-            text: 'IPL-behandlingar är mycket effektiva för att adressera befintliga hudproblem som pigmentfläckar, ytliga blodkärl och rosacea. Men det är viktigt att notera att nya hudproblem kan uppstå på grund av faktorer som åldrande och solskador. En regelbunden hudvårdsrutin och skydd mot solen är viktigt för att underhålla resultaten, och ytterligare behandlingar kan behövas för att upprätthålla effekterna över tid.'
+            title: 'Kan hudproblem återkomma efter en Rejuve Dye-VL-behandling?',
+            text: 'Även om Rejuve Dye-VL är effektiv för att behandla befintliga hudproblem som pigmentfläckar, ytliga blodkärl och rosacea, kan nya problem uppstå på grund av externa faktorer såsom åldrande och solskador. Regelbunden hudvård och solskydd är avgörande för att underhålla resultaten. Ytterligare Rejuve Dye-VL-behandlingar kan rekommenderas för att bevara effekterna över tid.'
         ),
         new Question(
-            title: 'Hur snabbt kan jag se resultat efter en IPL-behandling?',
-            text: 'Resultaten från en IPL-behandling kan variera från person till person. Många upplever en synlig förbättring redan efter den första behandlingen, men de fullständiga effekterna blir ofta tydligare efter en serie behandlingar. Förändringar i hudens utseende och kvalitet fortsätter vanligtvis att utvecklas och förbättras under veckorna mellan behandlingarna och efter behandlingsserien är avslutad.'
+            title: 'Hur snabbt ser jag resultat efter en Rejuve Dye-VL-behandling?',
+            text: 'Resultaten från en Rejuve Dye-VL-behandling varierar mellan individer. Många ser en förbättring efter den första behandlingen, men de mest påtagliga resultaten framträder ofta efter en fullständig serie av behandlingar. Förbättringar i hudens utseende och kvalitet fortsätter vanligtvis att utvecklas både under behandlingsförloppet och efter avslutade sessioner.'
         ),
     )
 );
