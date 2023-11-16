@@ -122,16 +122,16 @@ $combos = array(
 );
 
 $treatment_areas_title = 'Behandlingsområden för Permanent Hårborttagning';
-$treatment_areas_text = '<p class="p200">Permanent hårborttagning med laser är en effektiv metod för att avlägsna oönskat hår från olika delar av kroppen. Vanliga behandlingsområden inkluderar ansiktet, speciellt överläppen och hakan, vilka är vanliga områden för oönskad hårväxt. Även andra delar som ben, armar, underarmar, bikinilinjen och ryggen är populära områden för denna behandling. Denna metod är också effektiv för större ytor som bröstet och axlarna, där hårväxt kan vara oönskad eller överdriven.</p><p class="p200 mt-m">Vår laserbehandling är skonsam nog för att användas även på känsliga områden och är anpassad för att ge optimala resultat oavsett hudtyp.</p>';
+$treatment_areas_text = '<p class="p200">Permanent hårborttagning med laser är en effektiv metod för att avlägsna oönskat hår från olika delar av kroppen. Vi behandlar hela kroppen från ansiktet till intima områden.</p>';
 
 $treatment_areas = array(
     new TreatmentArea(
         image_small: 'https://via.placeholder.com/361x274.webm',
         image_large: 'https://via.placeholder.com/872x456.webm',
-        image_alt: 'Face',
-        image_title: 'Face',
-        title: 'Intimate',
-        description: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin.</p>',
+        image_alt: 'Ansikte',
+        image_title: 'Ansikte',
+        title: 'Ansikte',
+        description: '<p class="p200">Behandla hela ansiktet eller individuella zoner.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/94x72.webm',
@@ -165,16 +165,16 @@ $treatment_areas = array(
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
-            )
+            ),
         )
     ),
     new TreatmentArea(
         image_small: 'https://via.placeholder.com/361x274.webm',
         image_large: 'https://via.placeholder.com/872x456.webm',
-        image_alt: 'Body',
-        image_title: 'Body',
-        title: 'Body',
-        description: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin.</p>',
+        image_alt: 'Kropp',
+        image_title: 'Kropp',
+        title: 'Kropp',
+        description: '<p class="p200">Vi behandlar alla delar av kroppen.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webm',
@@ -219,15 +219,15 @@ $treatment_areas = array(
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
-            )
+            ),
         )
     ),
     new TreatmentArea(
         image_small: 'https://via.placeholder.com/361x274.webm',
         image_large: 'https://via.placeholder.com/872x456.webm',
-        image_alt: 'Face',
-        image_title: 'Face',
-        title: 'Face',
+        image_alt: 'Intim (Kvinna)',
+        image_title: 'Intim (Kvinna)',
+        title: 'Intim (Kvinna)',
         description: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin.</p>',
         items: array(
             new TreatmentAreaItem(
@@ -262,20 +262,95 @@ $treatment_areas = array(
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
-            )
-        ),
-        all: new TreatmentAreaItem(
-            image: 'https://via.placeholder.com/94x72.webm',
-            image_alt: 'Whole face',
-            image_title: 'Whole face',
-            title: 'Whole face',
-            duration: '30 min',
-            price: '1925 kr',
-            url: 'https://bokadirekt.se',
-            url_label: 'Boka',
-            url_title: 'Boka tid för behandling'
+            ),
         )
-    )
+    ),
+    new TreatmentArea(
+        image_small: 'https://via.placeholder.com/361x274.webm',
+        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_alt: 'Intim (Man)',
+        image_title: 'Intim (Man)',
+        title: 'Intim (Man)',
+        description: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin.</p>',
+        items: array(
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'Bikini line',
+                image_title: 'Bikini line',
+                title: 'Ears',
+                duration: '30 min',
+                price: '1295 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'Cheeks',
+                image_title: 'Cheeks',
+                title: 'Cheeks',
+                duration: '30 min',
+                price: '1295 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'Upper lip',
+                image_title: 'Upper lip',
+                title: 'Upper lip',
+                duration: '30 min',
+                price: '1295 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+        )
+    ),
+    new TreatmentArea(
+        image_small: 'https://via.placeholder.com/361x274.webm',
+        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_alt: 'Ben',
+        image_title: 'Ben',
+        title: 'Ben',
+        description: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin.</p>',
+        items: array(
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'Bikini line',
+                image_title: 'Bikini line',
+                title: 'Ears',
+                duration: '30 min',
+                price: '1295 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'Cheeks',
+                image_title: 'Cheeks',
+                title: 'Cheeks',
+                duration: '30 min',
+                price: '1295 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'Upper lip',
+                image_title: 'Upper lip',
+                title: 'Upper lip',
+                duration: '30 min',
+                price: '1295 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+        )
+    ),
 );
 
 $bottom_articles = array('aftercare' => new Article(
