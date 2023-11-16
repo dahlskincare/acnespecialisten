@@ -96,97 +96,78 @@ $top_articles = array(
 $combos_title = 'Populära behandlingskombinationer';
 $combos = array(
     new ServiceCombo(
-        name: 'Combination 1',
+        name: 'Bikinilinje + Hela ben',
         image_small: 'https://via.placeholder.com/200x200.webp',
         image_large: 'https://via.placeholder.com/361x274.webp',
-        image_alt: 'Ansiktsbehandlingar för problemhy',
-        image_title: 'Ansiktsbehandlingar för problemhy',
-        duration: '50 min',
-        price: '2595 kr',
+        image_alt: 'Bikinilinje + Hela ben',
+        image_title: 'Bikinilinje + Hela ben',
+        duration: '80 min',
+        price: '4190 kr',
         booking_url: 'https://bokadirekt.se',
         booking_url_label: 'Boka tid för behandling',
         booking_url_title: 'Boka tid för behandling',
         items: array(
             new ServiceComboItem(
-                title: 'Deep bikini',
-                price: '995 kr',
-                savings: 'save 500 kr',
+                title: 'Bikinilinje',
+                price: '1595 kr',
+                savings: null,
             ),
             new ServiceComboItem(
-                title: 'Armpits',
-                price: '995 kr',
-                savings: 'save 500 kr'
+                title: 'Hela ben',
+                price: '2595 kr',
+                savings: null,
             )
         )
     ),
-    new ServiceCombo(
-        name: 'Combination 2',
-        image_small: 'https://via.placeholder.com/200x200.webp',
-        image_large: 'https://via.placeholder.com/361x274.webp',
-        image_alt: 'Ansiktsbehandlingar för problemhy',
-        image_title: 'Ansiktsbehandlingar för problemhy',
-        duration: '50 min',
-        price: '2595 kr',
-        booking_url: 'https://bokadirekt.se',
-        booking_url_label: 'Boka tid för behandling',
-        booking_url_title: 'Boka tid för behandling',
-        items: array(
-            new ServiceComboItem(
-                title: 'Deep bikini',
-                price: '995 kr',
-                savings: 'Save hejhej'
-            ),
-            new ServiceComboItem(
-                title: 'Armpits',
-                price: '995 kr',
-                savings: 'Save hejhej'
-            ),
-            new ServiceComboItem(
-                title: 'Legs',
-                price: '995 kr',
-                savings: 'Save hejhej'
-            )
-        )
-    ),
-    new ServiceCombo(
-        name: 'Combination 3',
-        image_small: 'https://via.placeholder.com/200x200.webp',
-        image_large: 'https://via.placeholder.com/361x274.webp',
-        image_alt: 'Ansiktsbehandlingar för problemhy',
-        image_title: 'Ansiktsbehandlingar för problemhy',
-        duration: '50 min',
-        price: '2595 kr',
-        booking_url: 'https://bokadirekt.se',
-        booking_url_label: 'Boka tid för behandling',
-        booking_url_title: 'Boka tid för behandling',
-        items: array(
-            new ServiceComboItem(
-                title: 'Full legs',
-                price: '995 kr',
-                savings: 'Save hejhej'
-            ),
-            new ServiceComboItem(
-                title: 'Arms up to the elbow',
-                price: '995 kr',
-                savings: 'Save hejhej'
-            ),
-            new ServiceComboItem(
-                title: 'Deep bikini',
-                price: '995 kr',
-                savings: 'Save hejhej'
-            ),
-            new ServiceComboItem(
-                title: 'Armpits',
-                price: '995 kr',
-                savings: 'Save hejhej'
-            ),
-        )
-    )
 );
 
-$treatment_areas_text = '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>';
-$treatment_areas_title = 'Treatment areas';
+$treatment_areas_title = 'Behandlingsområden för Permanent Hårborttagning';
+$treatment_areas_text = '<p class="p200">Permanent hårborttagning med laser är en effektiv metod för att avlägsna oönskat hår från olika delar av kroppen. Vanliga behandlingsområden inkluderar ansiktet, speciellt överläppen och hakan, vilka är vanliga områden för oönskad hårväxt. Även andra delar som ben, armar, underarmar, bikinilinjen och ryggen är populära områden för denna behandling. Denna metod är också effektiv för större ytor som bröstet och axlarna, där hårväxt kan vara oönskad eller överdriven.</p><p class="p200 mt-m">Vår laserbehandling är skonsam nog för att användas även på känsliga områden och är anpassad för att ge optimala resultat oavsett hudtyp.</p>';
+
 $treatment_areas = array(
+    new TreatmentArea(
+        image_small: 'https://via.placeholder.com/361x274.webm',
+        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_alt: 'Face',
+        image_title: 'Face',
+        title: 'Intimate',
+        description: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin.</p>',
+        items: array(
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'Face',
+                image_title: 'Face',
+                title: 'Bikini line',
+                duration: '30 min',
+                price: '1295 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'String',
+                image_title: 'String',
+                title: 'String',
+                duration: '30 min',
+                price: '1295 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'Brazze',
+                image_title: 'Brazze',
+                title: 'Brazilian',
+                duration: '30 min',
+                price: '1295 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            )
+        )
+    ),
     new TreatmentArea(
         image_small: 'https://via.placeholder.com/361x274.webm',
         image_large: 'https://via.placeholder.com/872x456.webm',
@@ -233,49 +214,6 @@ $treatment_areas = array(
                 image_alt: 'Chest',
                 image_title: 'Chest',
                 title: 'Chest',
-                duration: '30 min',
-                price: '1295 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling'
-            )
-        )
-    ),
-    new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
-        image_alt: 'Face',
-        image_title: 'Face',
-        title: 'Intimate',
-        description: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin.</p>',
-        items: array(
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webm',
-                image_alt: 'Face',
-                image_title: 'Face',
-                title: 'Bikini line',
-                duration: '30 min',
-                price: '1295 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling'
-            ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webm',
-                image_alt: 'String',
-                image_title: 'String',
-                title: 'String',
-                duration: '30 min',
-                price: '1295 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling'
-            ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webm',
-                image_alt: 'Brazze',
-                image_title: 'Brazze',
-                title: 'Brazilian',
                 duration: '30 min',
                 price: '1295 kr',
                 url: 'https://bokadirekt.se',
