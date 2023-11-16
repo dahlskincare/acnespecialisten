@@ -167,7 +167,7 @@ $types = array(
 );
 
 $treatment_areas_title = 'Behandlingsområden för Powerlite Photonova';
-$treatment_areas_text = '<p class="p200">Med denna mångsidiga behandlingsmetod för olika delar av kroppen. Denna avancerade teknik är särskilt anpassad för områden som ansikte, hals, händer och bröst, där den effektivt kan behandla en mängd hudtillstånd. Detta inkluderar allt från pigmentfläckar och ytliga blodkärl till ojämnheter i hudtonen, vilket gör den till en idealisk lösning för att uppnå en jämnare och mer enhetlig hudton.</p>';
+$treatment_areas_text = '<p class="p200">Med denna mångsidiga behandlingsmetod för olika delar av kroppen såsom ansikte, hals, händer och bröst.</p>';
 $treatment_areas = array(
     new TreatmentArea(
         image_small: 'https://via.placeholder.com/361x274.webm',
@@ -175,13 +175,13 @@ $treatment_areas = array(
         image_alt: 'Ansikte',
         image_title: 'Ansikte',
         title: 'Ansikte',
-        description: '<p class="p200">Rejuve Dye-VL kan utföras i hela ansiktet eller på utvalda zoner.</p>',
+        description: '<p class="p200">Powerlite Photonova kan utföras i hela ansiktet eller på utvalda zoner.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webp',
                 image_alt: 'Ansikte',
                 image_title: 'Ansikte',
-                title: 'Rejuve Dye-VL för Ansikte',
+                title: 'Powerlite Photonova för Ansikte',
                 duration: '50 min',
                 price: '2595 kr',
                 url: 'https://bokadirekt.se',
@@ -192,7 +192,7 @@ $treatment_areas = array(
                 image: 'https://via.placeholder.com/94x72.webp',
                 image_alt: 'Panna',
                 image_title: 'Panna',
-                title: 'Rejuve Dye-VL för Panna',
+                title: 'Powerlite Photonova för Panna',
                 duration: '30 min',
                 price: '1595 kr',
                 url: 'https://bokadirekt.se',
@@ -203,7 +203,7 @@ $treatment_areas = array(
                 image: 'https://via.placeholder.com/94x72.webp',
                 image_alt: 'Näsa',
                 image_title: 'Näsa',
-                title: 'Rejuve Dye-VL för Näsa',
+                title: 'Powerlite Photonova för Näsa',
                 duration: '30 min',
                 price: '1595 kr',
                 url: 'https://bokadirekt.se',
@@ -214,7 +214,7 @@ $treatment_areas = array(
                 image: 'https://via.placeholder.com/94x72.webp',
                 image_alt: 'Kinder',
                 image_title: 'Kinder',
-                title: 'Rejuve Dye-VL för Kinder',
+                title: 'Powerlite Photonova för Kinder',
                 duration: '30 min',
                 price: '1595 kr',
                 url: 'https://bokadirekt.se',
@@ -225,7 +225,7 @@ $treatment_areas = array(
                 image: 'https://via.placeholder.com/94x72.webp',
                 image_alt: 'Överläpp',
                 image_title: 'Överläpp',
-                title: 'Rejuve Dye-VL för Överläpp',
+                title: 'Powerlite Photonova för Överläpp',
                 duration: '30 min',
                 price: '1595 kr',
                 url: 'https://bokadirekt.se',
@@ -236,7 +236,7 @@ $treatment_areas = array(
                 image: 'https://via.placeholder.com/94x72.webp',
                 image_alt: 'Haka',
                 image_title: 'Haka',
-                title: 'Rejuve Dye-VL för Haka',
+                title: 'Powerlite Photonova för Haka',
                 duration: '30 min',
                 price: '1595 kr',
                 url: 'https://bokadirekt.se',
@@ -251,18 +251,18 @@ $treatment_areas = array(
         image_alt: 'Kropp',
         image_title: 'Kropp',
         title: 'Kropp',
-        description: '<p class="p200">Rejuve Dye-VL kan behandla flera olika delar av kroppen.</p>',
+        description: '<p class="p200">Powerlite Photonova kan även behandla olika av kroppen.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webp',
                 image_alt: 'Hals',
                 image_title: 'Hals',
-                title: 'Rejuve Dye-VL för Hals',
+                title: 'Powerlite Photonova för Hals',
                 duration: '30 min',
                 price: '1895 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för Rejuve Dye-VL-behandling av halsen'
+                url_title: 'Boka tid för behandling med Powerlite Photonova på halsen'
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webp',
@@ -273,7 +273,7 @@ $treatment_areas = array(
                 price: '2295 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för Rejuve Dye-VL-behandling av dekolletaget'
+                url_title: 'Boka tid för behandling med Powerlite Photonova på dekolletaget'
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webp',
@@ -284,7 +284,7 @@ $treatment_areas = array(
                 price: '1895 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för Rejuve Dye-VL-behandling av händerna'
+                url_title: 'Boka tid för behandling med Powerlite Photonova på händerna'
             ),
         )
     ),
@@ -356,14 +356,14 @@ $treatment_areas = array(
 );
 
 $bottom_articles = array('aftercare' => new Article(
-    title: 'Efter behandling med Rejuve Dye-VL',
+    title: 'Eftervård för Powerlite Photonova',
     image_small: 'https://via.placeholder.com/358x272.webp',
     image_large: 'https://via.placeholder.com/872x456.webp',
-    image_alt: 'Efter behandling med Rejuve Dye-VL',
-    image_title: 'Efter behandling med Rejuve Dye-VL',
-    content: '<p class="p200">Eftervården är en viktig del av processen efter en Rejuve Dye-VL-behandling för att uppnå optimala resultat och en smidig läkningsprocess. Det är vanligt att uppleva en viss rodnad och svullnad i det behandlade området direkt efter sessionen. För att minimera risken för irritation och infektioner är det viktigt att inte röra området med smutsiga händer och att undvika att applicera makeup eller parfymerade produkter under de första 24 timmarna.</p>
-    <p class="p200 mt-m">Under de första dagarna efter din Alma Rejuve Dye-VL-behandling är det rekommenderat att undvika intensiva fysiska aktiviteter, bastu och långa varma duschar, eftersom dessa kan öka svullnad och irritation. Regelbunden användning av solskydd med hög SPF är essentiellt för att skydda huden mot UV-strålning, särskilt på de behandlade områdena. Vi råder också att använda milda och återfuktande hudvårdsprodukter utan starka ingredienser för att främja läkningsprocessen och bibehålla hudens fuktbalans.</p>
-    <p class="p200 mt-m">Det är viktigt att du följer de specifika eftervårdsinstruktionerna som ges av din behandlare noggrant. Om du har några frågor eller oro kring din eftervård, tveka inte att kontakta kliniken. Ytterligare behandlingar kan rekommenderas baserat på din huds respons för att uppnå och bibehålla de bästa resultaten från din behandling med Alma Rejuve Dye-VL.</p>',
+    image_alt: 'Eftervård för Powerlite Photonova',
+    image_title: 'Eftervård för Powerlite Photonova',
+    content: '<p class="p200">Eftervården är en viktigt del av Powerlite Photonova processen för att säkerställa ett bra resultat och en effektiv återhämtningsprocess. Efter behandlingen är det vanligt att uppleva en viss rodnad och svullnad i det behandlade området. För att minska risken för irritation och infektioner, bör du undvika att röra området med orena händer och avstå från att applicera makeup eller parfymerade produkter under de första 24 timmarna.</p>
+    <p class="p200 mt-m">Det är rekommenderat att undvika intensiva fysiska aktiviteter, bastubad och långa varma duschar under de första dagarna efter din Powerlite Photonova-behandling, eftersom dessa kan förvärra svullnad och irritation. Användning av solskydd med hög SPF är också viktigt för att skydda huden från UV-strålning, särskilt på de behandlade områdena. Vi råder att använda milda och återfuktande hudvårdsprodukter utan starka ingredienser för att stödja läkningsprocessen och bevara hudens fuktbalans.</p>
+    <p class="p200 mt-m">Det är essentiellt att du noggrant följer de eftervårdsinstruktioner som ges av din behandlare. Vid frågor eller funderingar kring din eftervård, tveka inte att kontakta kliniken. Baserat på hur din hud reagerar, kan ytterligare behandlingar med Powerlite Photonova rekommenderas för att uppnå och bibehålla optimala resultat.</p>',
     tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
 
@@ -477,16 +477,16 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Hur många behandlingar med Rejuve Dye-VL krävs vanligtvis?',
-            text: 'Antalet behandlingar med Rejuve Dye-VL som behövs varierar beroende på individens unika hudtillstånd och de önskade målen. Vanligtvis kan det krävas mellan 3-8 sessioner med cirka 4 veckors mellanrum för att uppnå bästa möjliga resultat. En skräddarsydd behandlingsplan utformas under din initiala konsultation, anpassad efter dina specifika hudbehov.'
+            title: 'Hur många behandlingar med Powerlite Photonova krävs vanligtvis?',
+            text: 'Antalet behandlingar som behövs med Powerlite Photonova beror på individens hudtillstånd och de mål man önskar uppnå. Oftast krävs det mellan 3-8 sessioner, med ungefär 4 veckors intervall, för att nå optimala resultat. En individuellt anpassad behandlingsplan utarbetas under den initiala konsultationen, baserat på dina specifika behov och hudtillstånd.'
         ),
         new Question(
-            title: 'Kan hudproblem återkomma efter en Rejuve Dye-VL-behandling?',
-            text: 'Även om Rejuve Dye-VL är effektiv för att behandla befintliga hudproblem som pigmentfläckar, ytliga blodkärl och rosacea, kan nya problem uppstå på grund av externa faktorer såsom åldrande och solskador. Regelbunden hudvård och solskydd är avgörande för att underhålla resultaten. Ytterligare Rejuve Dye-VL-behandlingar kan rekommenderas för att bevara effekterna över tid.'
+            title: 'Kan hudproblem återkomma efter en Powerlite Photonova-behandling?',
+            text: 'Medan Powerlite Photonova är effektivt för att behandla befintliga hudproblem såsom pigmentfläckar, ytliga blodkärl och rosacea, finns det en risk att nya hudproblem kan utvecklas, speciellt orsakade av faktorer som åldrande och solskador. En bra hudvårdsrutin och skydd mot solen är avgörande för att underhålla resultaten. Ytterligare Powerlite Photonova-behandlingar kan behövas för att upprätthålla effekterna över tid.'
         ),
         new Question(
-            title: 'Hur snabbt ser jag resultat efter en Rejuve Dye-VL-behandling?',
-            text: 'Resultaten från en Rejuve Dye-VL-behandling varierar mellan individer. Många ser en förbättring efter den första behandlingen, men de mest påtagliga resultaten framträder ofta efter en fullständig serie av behandlingar. Förbättringar i hudens utseende och kvalitet fortsätter vanligtvis att utvecklas både under behandlingsförloppet och efter avslutade sessioner.'
+            title: 'Hur snabbt kan jag se resultat efter en Powerlite Photonova-behandling?',
+            text: 'Resultaten från en Powerlite Photonova-behandling varierar beroende på individen. Många patienter ser en märkbar förbättring redan efter den första sessionen, men de mest framträdande resultaten uppnås ofta efter en hel serie behandlingar. Förbättringar i hudens utseende och kvalitet fortsätter att utvecklas under behandlingsserien och även efter avslutade sessioner.'
         ),
     )
 );
