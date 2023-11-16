@@ -3,22 +3,22 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Ansiktsbehandlingar för Problemhy - Effektiva behandlingar | Acnespecialisten';
-$seo_description = 'Utforska AcneSpecialistens skräddarsydda ansiktsbehandlingar för problemhy. Få djupgående kunskap om olika hudåkommor och vägledning för hur du bäst tar hand om dem. Expertbehandling och professionell rådgivning endast ett steg bort.';
-$seo_keywords = 'problemhy, ansiktsbehandlingar, hudproblem, förebygga problemhy, behandla problemhy, oren hud, hudrodnad, hudutslag, pormaskar, torr hud, oljig hud';
+$seo_title = 'Permanent Hårborttagning - Effektiva Laserbehandlingar | Acnespecialisten';
+$seo_description = 'Upptäck AcneSpecialistens professionella laserbehandlingar för permanent hårborttagning. Avancerade lösningar för att effektivt avlägsna oönskat hår på ett säkert och långvarigt sätt. Få expertvägledning och behandlingar anpassade för din unika hud- och hårtyp.';
+$seo_keywords = 'permanent hårborttagning, laserhårborttagning, oönskat hår, effektiv hårborttagning, säker laserbehandling, hårfri hud, långvarig hårborttagning, avancerade laserbehandlingar';
 
-$seo_image = 'images/treatments/large/ansiktsbehandlingar-problemhy.jpg';
+$seo_image = 'images/treatments/large/permanent-hair-removal.jpg';
 
 
 $model = new Service(
-    title: 'Ansiktsbehandlingar för problemhy',
+    title: 'Permanent Hårborttagning',
     duration: null,
     price: 'Från 995 kr',
-    content: '<p class="p200">IPL är en idealisk lösning för dig som söker en jämnare hudton genom att reducera pigmenteringar och ytliga blodkärl eller strävar efter att lindra symtomen på rosacea. Våra behandlingar är skräddarsydda och anpassade efter dina specifika hudbehov, och utformade för att effektivt stimulera hudens egna läkningsmekanismer och förbättra hudens övergripande kondition.</p>',
+    content: '<p class="p200">Permanent hårborttagning med laser erbjuder en effektiv lösning för dig som önskar att minska oönskat hår permanent. Våra laserbehandlingar är skräddarsydda och anpassade efter dina specifika behov och områden där du önskar hårborttagning. Denna metod är utformad för att målriktat och effektivt avlägsna hårstrån genom att skada hårfolliklarna, vilket reducerar hårproduktionen och leder till hårfri hud. Med vår expertis och avancerade teknologi erbjuder vi en säker och bekväm upplevelse som inte bara avlägsnar oönskat hår utan också kan förbättra hudens kvalitet och textur.</p>',
     image_small: 'https://via.placeholder.com/358x274.webp',
     image_large: 'https://via.placeholder.com/424x456.webp',
-    image_alt: 'Ansiktsbehandlingar för problemhy',
-    image_title: 'Ansiktsbehandlingar för problemhy',
+    image_alt: 'Permanent Hårborttagning',
+    image_title: 'Permanent Hårborttagning',
     consultation_url: 'https://bokadirekt.se',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
