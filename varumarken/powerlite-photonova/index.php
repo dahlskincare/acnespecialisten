@@ -93,81 +93,81 @@ $top_articles = array(
     ),
 );
 
-$types_title = 'Behandlingsområden med Powerlite Photonova';
-$types_description = 'Utforska de många hudtillstånden som kan behandlas med Powerlite Photonova, från pigmentfläckar och ytliga blodkärl till rosacea och mer, och upplev hur vi kan förbättra din hud med denna innovativa teknik.';
+$types_title = 'Hudtillstånd Behandlade med Powerlite Photonova';
+$types_description = 'Powerlite Photonova är en högteknologisk IPL (Intensivt Pulserande Ljus)-lösning som effektivt tar itu med en rad olika hudproblem.';
 $types = array(
     new Service(
-        title: 'Rejuve Dye-VL behandling för Rosacea',
+        title: 'Powerlite Photonova behandling för Rosacea',
         duration: '30 minuter',
         price: '1995 kr',
-        content: 'Utnyttja kraften i Rejuve Dye-VL för att effektivt behandla rosacea. Denna specialiserade IPL-metod fokuserar på att mildra rodnad och andra symtom associerade med rosacea, för att skapa en jämnare hudton och förbättra hudens kvalitet.',
+        content: 'Utnyttja effektiviteten hos Powerlite Photonova för att behandla rosacea. Denna avancerade IPL-metod är inriktad på att mildra rodnad och andra symtom associerade med rosacea, vilket resulterar i en jämnare hudton och förbättrad hudkvalitet.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Rejuve Dye-VL behandling för Rosacea',
-        image_title: 'Rejuve Dye-VL behandling för Rosacea',
+        image_alt: 'Powerlite Photonova behandling för Rosacea',
+        image_title: 'Powerlite Photonova behandling för Rosacea',
         consultation_url: 'konsultation-rosacea',
-        consultation_url_label: 'Boka konsultation för Rejuve Dye-VL behandling av rosacea',
-        consultation_url_title: 'Boka konsultation för Rejuve Dye-VL behandling av rosacea',
+        consultation_url_label: 'Boka konsultation för Powerlite Photonova behandling av rosacea',
+        consultation_url_title: 'Boka konsultation för Powerlite Photonova behandling av rosacea',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka Rejuve Dye-VL behandling för rosacea',
-        booking_url_title: 'Boka Rejuve Dye-VL behandling för rosacea',
+        booking_url_label: 'Boka Powerlite Photonova behandling för rosacea',
+        booking_url_title: 'Boka Powerlite Photonova behandling för rosacea',
     ),
 
     new Service(
-        title: 'Rejuve Dye-VL behandling för Ytliga Blodkärl',
+        title: 'Powerlite Photonova behandling för Ytliga Blodkärl',
         duration: '30 minuter',
         price: '1995 kr',
-        content: 'Rejuve Dye-VL erbjuder en skonsam och effektiv lösning för att minska synligheten av ytliga blodkärl. Denna behandling är idealisk för att selektivt målriktad och behandla drabbade områden, vilket resulterar i en klarare och jämnare hudton.',
+        content: 'Powerlite Photonova erbjuder en effektiv lösning för att minska synligheten av ytliga blodkärl. Denna IPL-behandling är skräddarsydd för att selektivt och skonsamt behandla de berörda områdena, vilket leder till en klarare och mer enhetlig hudton.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Rejuve Dye-VL behandling för Ytliga Blodkärl',
-        image_title: 'Rejuve Dye-VL behandling för Ytliga Blodkärl',
+        image_alt: 'Powerlite Photonova behandling för Ytliga Blodkärl',
+        image_title: 'Powerlite Photonova behandling för Ytliga Blodkärl',
         consultation_url: 'konsultation-ytliga-blodkarl',
-        consultation_url_label: 'Boka konsultation för Rejuve Dye-VL behandling av ytliga blodkärl',
-        consultation_url_title: 'Boka konsultation för Rejuve Dye-VL behandling av ytliga blodkärl',
+        consultation_url_label: 'Boka konsultation för Powerlite Photonova behandling av ytliga blodkärl',
+        consultation_url_title: 'Boka konsultation för Powerlite Photonova behandling av ytliga blodkärl',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka Rejuve Dye-VL behandling för ytliga blodkärl',
-        booking_url_title: 'Boka Rejuve Dye-VL behandling för ytliga blodkärl',
+        booking_url_label: 'Boka Powerlite Photonova behandling för ytliga blodkärl',
+        booking_url_title: 'Boka Powerlite Photonova behandling för ytliga blodkärl',
     ),
 
     new Service(
-        title: 'Rejuve Dye-VL behandling för Pigmentfläckar',
+        title: 'Powerlite Photonova behandling för Pigmentfläckar',
         duration: '30 minuter',
         price: '1995 kr',
-        content: 'Använd fördelarna med Rejuve Dye-VL för att effektivt minska och ljusa upp pigmentfläckar. Denna metod är idealisk för att målriktat behandla mörka fläckar och ojämnheter i hudtonen, vilket ger en jämnare och strålande hud.',
+        content: 'Med Powerlite Photonova kan du effektivt minska och ljusa upp pigmentfläckar. Denna skonsamma, men effektiva IPL-metod är perfekt för att målriktat behandla mörka fläckar och ojämnheter i hudtonen, vilket ger en jämnare och strålande hud.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Rejuve Dye-VL behandling för Pigmentfläckar',
-        image_title: 'Rejuve Dye-VL behandling för Pigmentfläckar',
+        image_alt: 'Powerlite Photonova behandling för Pigmentfläckar',
+        image_title: 'Powerlite Photonova behandling för Pigmentfläckar',
         consultation_url: 'konsultation-pigmentflackar',
-        consultation_url_label: 'Boka konsultation för Rejuve Dye-VL behandling av pigmentfläckar',
-        consultation_url_title: 'Boka konsultation för Rejuve Dye-VL behandling av pigmentfläckar',
+        consultation_url_label: 'Boka konsultation för Powerlite Photonova behandling av pigmentfläckar',
+        consultation_url_title: 'Boka konsultation för Powerlite Photonova behandling av pigmentfläckar',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka Rejuve Dye-VL behandling för pigmentfläckar',
-        booking_url_title: 'Boka Rejuve Dye-VL behandling för pigmentfläckar',
+        booking_url_label: 'Boka Powerlite Photonova behandling för pigmentfläckar',
+        booking_url_title: 'Boka Powerlite Photonova behandling för pigmentfläckar',
     ),
 
     new Service(
-        title: 'Rejuve Dye-VL behandling för Melasma',
+        title: 'Powerlite Photonova behandling för Melasma',
         duration: '30 minuter',
         price: '1995 kr',
-        content: 'Med Rejuve Dye-VL kan du effektivt behandla melasma. Denna teknik hjälper till att ljusa upp och jämna ut hudtonen genom att selektivt rikta in sig på hyperpigmenterade områden, vilket bidrar till en märkbar förbättring av hudens utseende.',
+        content: 'Behandla melasma effektivt med Powerlite Photonova. Denna teknik är inriktad på att ljusa upp och jämna ut hudtonen genom att selektivt behandla hyperpigmenterade områden, vilket bidrar till en märkbar förbättring av hudens utseende.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Rejuve Dye-VL behandling för Melasma',
-        image_title: 'Rejuve Dye-VL behandling för Melasma',
+        image_alt: 'Powerlite Photonova behandling för Melasma',
+        image_title: 'Powerlite Photonova behandling för Melasma',
         consultation_url: 'konsultation-melasma',
-        consultation_url_label: 'Boka konsultation för Rejuve Dye-VL behandling av melasma',
-        consultation_url_title: 'Boka konsultation för Rejuve Dye-VL behandling av melasma',
+        consultation_url_label: 'Boka konsultation för Powerlite Photonova behandling av melasma',
+        consultation_url_title: 'Boka konsultation för Powerlite Photonova behandling av melasma',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka Rejuve Dye-VL behandling för melasma',
-        booking_url_title: 'Boka Rejuve Dye-VL behandling för melasma',
+        booking_url_label: 'Boka Powerlite Photonova behandling för melasma',
+        booking_url_title: 'Boka Powerlite Photonova behandling för melasma',
     ),
 
 );
 
-$treatment_areas_title = 'Behandlingsområden för Rejuve Dye-VL';
-$treatment_areas_text = '<p class="p200">Rejuve Dye-VL, en avancerad form av IPL (Intensivt Pulserande Ljus), erbjuder mångsidig behandling för olika områden på kroppen. Denna specialiserade teknik är särskilt effektiv för ansikte, hals, händer och bröst, där den kan målriktat behandla hudproblem som pigmentfläckar, ytliga blodkärl och ojämn hudton.</p>';
+$treatment_areas_title = 'Behandlingsområden för Powerlite Photonova';
+$treatment_areas_text = '<p class="p200">Med denna mångsidiga behandlingsmetod för olika delar av kroppen. Denna avancerade teknik är särskilt anpassad för områden som ansikte, hals, händer och bröst, där den effektivt kan behandla en mängd hudtillstånd. Detta inkluderar allt från pigmentfläckar och ytliga blodkärl till ojämnheter i hudtonen, vilket gör den till en idealisk lösning för att uppnå en jämnare och mer enhetlig hudton.</p>';
 $treatment_areas = array(
     new TreatmentArea(
         image_small: 'https://via.placeholder.com/361x274.webm',
