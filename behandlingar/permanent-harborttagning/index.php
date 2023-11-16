@@ -7,7 +7,7 @@ $seo_title = 'Permanent Hårborttagning - Effektiva Laserbehandlingar | Acnespec
 $seo_description = 'Upptäck AcneSpecialistens professionella laserbehandlingar för permanent hårborttagning. Avancerade lösningar för att effektivt avlägsna oönskat hår på ett säkert och långvarigt sätt. Få expertvägledning och behandlingar anpassade för din unika hud- och hårtyp.';
 $seo_keywords = 'permanent hårborttagning, laserhårborttagning, oönskat hår, effektiv hårborttagning, säker laserbehandling, hårfri hud, långvarig hårborttagning, avancerade laserbehandlingar';
 
-$seo_image = 'images/treatments/large/permanent-hair-removal.jpg';
+$seo_image = 'images/treatments/large/permanent-harborttagning.jpg';
 
 
 $model = new Service(
@@ -28,7 +28,7 @@ $model = new Service(
 );
 
 $nav_buttons = array(
-    'about' => 'Om ansiktsbehandlingar mot problemhy',
+    'about' => 'Om Permanent Hårborttagning',
     'preparing' => 'Förberedelser',
     'process' => 'Processen',
     'types' => 'Typer',
@@ -42,8 +42,8 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Vad innebär ansiktsbehandlingar för problemhy?';
-$description_text = '<p class="p200">Denna behandling är skräddarsydd för dem med problemhy och erbjuder en effektiv start på hudens förbättring. Behandlingen rengör huden på djupet, särskilt nyttigt för de som lider av akne, finnar eller pormaskar. Med hjälp av en vapozone öppnas porerna upp genom ånga, vilket möjliggör en noggrann rengöring.</p><p class="p200 mt-m">Oavsett om du har blandhy, oljig, kombinerad, torr eller känslig hud, eller lider av specifika tillstånd som rosacea, seborré, perioral dermatit eller stora porer, anpassar denna behandling sig efter dina unika behov. Målet är att återställa hudens balans och ge den lyster och vitalitet den förtjänar.</p>';
+$description_title = 'Vad är Permanent Hårborttagning?';
+$description_text = '<p class="p200">Vi är stolta över att vara först i Sverige med Splendor X, en banbrytande teknik inom permanent hårborttagning. Denna avancerade metod eliminerar behovet av gel som vanligtvis används i laserbehandlingar och är särskilt effektiv även på ljusa hårstrån. Splendor X, nu tillgänglig på Strandvägen 7 i Stockholm, är den senaste innovationen inom laserbaserad hårborttagning och kan behandla alla hudtyper samt en mängd olika hårstrån – ljusa, mörka, tunna och grova.</p><p class="p200 mt-m">Med Splendor X upplever du en smidig, nästan smärtfri process för att avlägsna oönskat hår. Denna toppmoderna teknik, erkänd som en av världens främsta metoder för hårborttagning, arbetar på tre nivåer för att effektivt nå och behandla hårstrån i olika tillväxtstadier, vilket säkerställer en noggrann och omfattande hårborttagning. Med Splendor X blir resultatet hårfri och slät hud utan lång återhämtningstid, lämplig för alla kroppsdelar inklusive ben, armhålor och bikinilinjen. Observera att Splendor X inte behandlar gråa, blonda eller röda hårstrån.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
