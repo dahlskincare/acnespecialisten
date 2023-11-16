@@ -42,17 +42,19 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Vad är Permanent Hårborttagning?';
-$description_text = '<p class="p200">Vi är stolta över att vara först i Sverige med Splendor X, en banbrytande teknik inom permanent hårborttagning. Denna avancerade metod eliminerar behovet av gel som vanligtvis används i laserbehandlingar och är särskilt effektiv även på ljusa hårstrån. Splendor X, nu tillgänglig på Strandvägen 7 i Stockholm, är den senaste innovationen inom laserbaserad hårborttagning och kan behandla alla hudtyper samt en mängd olika hårstrån – ljusa, mörka, tunna och grova.</p><p class="p200 mt-m">Med Splendor X upplever du en smidig, nästan smärtfri process för att avlägsna oönskat hår. Denna toppmoderna teknik, erkänd som en av världens främsta metoder för hårborttagning, arbetar på tre nivåer för att effektivt nå och behandla hårstrån i olika tillväxtstadier, vilket säkerställer en noggrann och omfattande hårborttagning. Med Splendor X blir resultatet hårfri och slät hud utan lång återhämtningstid, lämplig för alla kroppsdelar inklusive ben, armhålor och bikinilinjen. Observera att Splendor X inte behandlar gråa, blonda eller röda hårstrån.</p>';
+$description_title = 'Vad är permanent hårborttagning med laser?';
+$description_text = '<p class="p200">Permanent hårborttagning med laser representerar den senaste och mest avancerade metoden för att effektivt och långvarigt reducera oönskat hår. Denna högteknologiska metod är effektiv på en mängd olika kroppsdelar, inklusive ansiktet, benen, armarna och bikinilinjen. Laserbehandlingarna fungerar genom att rikta energi direkt mot hårfolliklarna, vilket förhindrar framtida hårväxt på ett säkert och effektivt sätt.</p>
+<p class="p200 mt-m">Vår laserbehandling är anpassningsbar för alla hud- och hårtyper, och är ett utmärkt alternativ till traditionella metoder som rakning eller vaxning. Dess unika förmåga att arbeta på tre olika djupnivåer säkerställer en grundlig behandling och minimerar risken för missade hårstrån. Denna smärtfria och tidsbesparande metod ger dig slät och hårfri hud utan behov av återhämtningstid. Vi behandlar de flesta hårtyper och hudfärger, men notera att gråa, blonda eller röda hårstrån inte kan behandlas med denna teknik.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Preparing for problem skin facials',
+        title: 'Förberedelser inför permanent hårborttagning',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Preparing for problem skin facials',
-        image_title: 'Preparing for problem skin facials',
-        content: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>',
+        image_alt: 'Förberedelser inför permanent hårborttagning',
+        image_title: 'Förberedelser inför permanent hårborttagning',
+        content: '<p class="p200">Förberedelserna inför permanent hårborttagning är en viktig del av processen för att uppnå bästa möjliga resultat. Denna behandling är skräddarsydd för att effektivt och säkert reducera oönskat hår på olika delar av kroppen. Innan din laserbehandling rekommenderar vi att du undviker att vaxa eller noppa hår i behandlingsområdet, eftersom laserenergin fokuserar på hårfolliklarna som måste vara intakta för effektiv behandling. Istället ska området rakas dagen innan behandlingen.</p>
+        <p class="p200 mt-m">Det är också viktigt att skydda huden från solen och inte sola under de veckor som leder upp till din behandling, eftersom solbränd hud kan påverka effektiviteten av laserbehandlingen och öka risken för biverkningar. Dessa förberedelser hjälper till att säkerställa att din hud är i optimalt skick för att motta laserbehandlingen och bidrar till en smidigare och mer effektiv hårborttagningsprocess.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -68,12 +70,13 @@ $top_articles = array(
         ))
     ),
     'process' => new Article(
-        title: 'Procedure process',
+        title: 'Hur går behandlingen till?',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Procedure process',
-        image_title: 'Procedure process',
-        content: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>',
+        image_alt: 'Hur går behandlingen till?',
+        image_title: 'Hur går behandlingen till?',
+        content: '<p class="p200">Permanent hårborttagning med laser är en noggrant anpassad behandling som effektivt minskar oönskad hårväxt. Under behandlingen appliceras laserljus på de områden där hårborttagning önskas. Ljuset absorberas av pigmentet i hårfolliklarna och omvandlas till värme, vilket skadar folliklarna och därmed hindrar framtida hårväxt. Denna metod är noggrann och riktar sig selektivt mot håret, vilket minimerar påverkan på den omgivande huden. Behandlingen utförs med precision för att säkerställa optimal komfort och effektivitet.</p>
+        <p class="p200 mt-m">Efter behandlingen kan du märka en viss rodnad och svullnad i de behandlade områdena, vilket är en normal reaktion och bör avta inom kort. Eftersom hår växer i olika faser kan flera behandlingar behövas för att uppnå fullständigt och långvarigt resultat. Vår expertis inom permanent hårborttagning med laser garanterar en säker och effektiv process, vilket ger dig slät och hårfri hud.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -88,223 +91,6 @@ $top_articles = array(
             label: 'Cleansing'
         ))
     ),
-);
-
-$types_title = 'Problem facials we provide';
-$types_description = 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.';
-$types = array(
-    new Service(
-        title: 'Chemical peeling',
-        duration: null,
-        price: null,
-        content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
-        image_small: 'https://via.placeholder.com/102x102.jpg',
-        image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Chemical peeling',
-        image_title: 'Chemical peeling',
-        consultation_url: 'hudkonsultation',
-        consultation_url_label: 'Boka tid för hudkonsultation',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Book a chemical peeling',
-        booking_url_title: 'Book a chemical peeling',
-    ),
-    new Service(
-        title: 'Laser',
-        duration: null,
-        price: null,
-        content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
-        image_small: 'https://via.placeholder.com/102x102.jpg',
-        image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Laser',
-        image_title: 'Laser',
-        consultation_url: 'hudkonsultation',
-        consultation_url_label: 'Boka tid för hudkonsultation',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Book a laser treatment',
-        booking_url_title: 'Book a laser treatment',
-    ),
-    new Service(
-        title: 'IPL',
-        duration: null,
-        price: null,
-        content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
-        image_small: 'https://via.placeholder.com/102x102.jpg',
-        image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'IPL',
-        image_title: 'IPL',
-        consultation_url: 'hudkonsultation',
-        consultation_url_label: 'Boka tid för hudkonsultation',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Book a IPL treatment',
-        booking_url_title: 'Book a IPL treatment',
-    ),
-    new Service(
-        title: 'FreezeTreat',
-        duration: null,
-        price: null,
-        content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
-        image_small: 'https://via.placeholder.com/102x102.jpg',
-        image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'FreezeTreat',
-        image_title: 'FreezeTreat',
-        consultation_url: 'hudkonsultation',
-        consultation_url_label: 'Boka tid för hudkonsultation',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Book a FreezeTreat treatment',
-        booking_url_title: 'Book a FreezeTreat treatment',
-    )
-);
-$big_types = array(
-    new Service(
-        title: 'Classic',
-        duration: '60 min',
-        price: null,
-        content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Classic',
-        image_title: 'Classic',
-        consultation_url: 'hudkonsultation',
-        consultation_url_label: 'Boka tid för hudkonsultation',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Book a classic treatment',
-        booking_url_title: 'Book a classic treatment',
-        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
-        procedures: array(
-            new Procedure(
-                label: '1 procedure',
-                price: '£1 995',
-                savings: 'save $500',
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '3 procedures',
-                price: '£2 595',
-                savings: 'save $500',
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '5 procedures',
-                price: '£3 995',
-                savings: 'save $500',
-                booking_url: 'https://www.bokadirekt.se'
-            )
-        )
-    ),
-    new Service(
-        title: "The skin therapist's choice",
-        duration: '60 min',
-        price: null,
-        content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: "The skin therapist's choice",
-        image_title: "The skin therapist's choice",
-        consultation_url: 'hudkonsultation',
-        consultation_url_label: 'Boka tid för hudkonsultation',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: "Book a skin therapist's choice treatment",
-        booking_url_title: "Book a skin therapist's choice treatment",
-        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
-        procedures: array(
-            new Procedure(
-                label: '1 procedure',
-                price: '£1 995',
-                savings: null,
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '3 procedures',
-                price: '£2 595',
-                savings: 'save $1000!',
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '5 procedures',
-                price: '£3 995',
-                savings: 'save 1 million!',
-                booking_url: 'https://www.bokadirekt.se'
-            )
-        )
-    ),
-    new Service(
-        title: 'Peel, Boost & Glow',
-        duration: '60 min',
-        price: null,
-        content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Peel, Boost & Glow',
-        image_title: 'Peel, Boost & Glow',
-        consultation_url: 'hudkonsultation',
-        consultation_url_label: 'Boka tid för hudkonsultation',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Book a Peel, Boost & Glow treatment',
-        booking_url_title: 'Book a Peel, Boost & Glow treatment',
-        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
-        procedures: array(
-            new Procedure(
-                label: '1 procedure',
-                price: '£1 995',
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '3 procedures',
-                price: '£2 595',
-                savings: 'Save 1000',
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '5 procedures',
-                price: '£3 995',
-                savings: 'Save 1000',
-                booking_url: 'https://www.bokadirekt.se'
-            )
-        )
-    ),
-    new Service(
-        title: 'Luxury',
-        duration: '60 min',
-        price: null,
-        content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Luxury',
-        image_title: 'Luxury',
-        consultation_url: 'hudkonsultation',
-        consultation_url_label: 'Boka tid för hudkonsultation',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Book a Luxury treatment',
-        booking_url_title: 'Book a Luxury treatment',
-        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
-        procedures: array(
-            new Procedure(
-                label: '1 procedure',
-                price: '£1 995',
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '3 procedures',
-                price: '£2 595',
-                savings: 'hej',
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '5 procedures',
-                price: '£3 995',
-                savings: 'hej',
-                booking_url: 'https://www.bokadirekt.se'
-            )
-        )
-    )
 );
 
 $combos_title = 'Populära behandlingskombinationer';
@@ -329,7 +115,7 @@ $combos = array(
             new ServiceComboItem(
                 title: 'Armpits',
                 price: '995 kr',
-                savings: 'save 500 kr',
+                savings: 'save 500 kr'
             )
         )
     ),
