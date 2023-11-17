@@ -10,7 +10,7 @@ $seo_keywords = 'kemisk peeling, hudföryngring, aknebehandling, hudtonsförbät
 $seo_image = 'images/treatments/large/kemisk-peeling.jpg';
 
 $model = new Service(
-    title: 'Ansiktsbehandlingar för problemhy',
+    title: 'Kemisk Peeling',
     duration: '60 min',
     price: 'Från 799 kr',
     content: '',
