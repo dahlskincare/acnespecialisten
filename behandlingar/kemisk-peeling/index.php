@@ -3,19 +3,17 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Klassiska Ansiktsbehandlingar - Professionell Hudvård | AcneSpecialisten';
-$seo_description = 'Upptäck AcneSpecialistens klassiska ansiktsbehandlingar för optimal hudvård. Med vår expertis ger vi din hud den bästa omvårdnaden den förtjänar. Professionella behandlingar och rådgivning endast ett steg bort.';
-$seo_keywords = 'klassiska ansiktsbehandlingar, hudvård, förebyggande hudvård, professionell hudvård, hudförbättring, återfuktning, hudrengöring, AcneSpecialisten';
+$seo_title = 'Kemisk Peeling - Effektiva Hudförbättrande Behandlingar | Acnespecialisten';
+$seo_description = 'Upptäck AcneSpecialistens expertutbud av kemiska peelings för att förbättra hudens utseende och hälsa. Våra anpassade peelingar behandlar allt från akne till åldrande, och erbjuder djupgående lösningar för diverse hudproblem. Med vår specialkunskap och avancerade behandlingar är din väg till en klarare och mer strålande hud inom räckhåll.';
+$seo_keywords = 'kemisk peeling, hudföryngring, aknebehandling, hudtonsförbättring, hudproblem, exfoliering, fina linjer, pigmentering, hudens textur, professionell hudvård';
 
-
-$seo_image = 'images/treatments/large/ansiktsbehandlingar-klassiska.jpg';
-
+$seo_image = 'images/treatments/large/kemisk-peeling.jpg';
 
 $model = new Service(
-    title: 'Klassiska ansiktsbehandlingar',
-    duration: null,
+    title: 'Ansiktsbehandlingar för problemhy',
+    duration: '60 min',
     price: 'Från 799 kr',
-    content: '<p class="p200">Hos oss på AcneSpecialisten erbjuder vi ett brett utbud av klassiska ansiktsbehandlingar anpassade för varje individs unika behov. Oavsett om du befinner dig på Östermalm, Södermalm eller i Sundbyberg, kan du välja den behandling som bäst matchar din hudtyp och dina önskemål. Vare sig du är ute efter att ge din mogen hy lite extra omsorg, vill återfukta huden eller bara vill unna dig själv en stunds lyx – vi har något för alla.</p>',
+    content: '',
     image_small: 'https://via.placeholder.com/358x274.webp',
     image_large: 'https://via.placeholder.com/424x456.webp',
     image_alt: 'Ansiktsbehandlingar för problemhy',
@@ -26,6 +24,32 @@ $model = new Service(
     booking_url: 'https://bokadirekt.se',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
+    procedures: array(
+        new Procedure(
+            label: '1 behandling',
+            price: '995 kr',
+            savings: null,
+            booking_url: 'https://bokadirekt.se',
+            booking_url_label: 'Boka tid för behandling',
+            booking_url_title: 'Boka tid för behandling'
+        ),
+        new Procedure(
+            label: '3 behandlingar',
+            price: '2595 kr',
+            savings: '865 kr per besök',
+            booking_url: 'https://bokadirekt.se',
+            booking_url_label: 'Boka tid för behandling',
+            booking_url_title: 'Boka tid för behandling'
+        ),
+        new Procedure(
+            label: '5 behandlingar',
+            price: '3995 kr',
+            savings: '799 kr per besök',
+            booking_url: 'https://bokadirekt.se',
+            booking_url_label: 'Boka tid för behandling',
+            booking_url_title: 'Boka tid för behandling'
+        )
+    ),
 );
 
 $nav_buttons = array(
@@ -43,284 +67,263 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Vad är klassiska ansiktsbehandlingar?';
-$description_text = '<p class="p200">Klassiska ansiktsbehandlingar är en grundsten inom hudvård och erbjuder en upplevelse av avkoppling samtidigt som huden får den vård den behöver. Behandlingarna går ut på att rengöra, återfukta, balansera och revitalisera huden, samt att hantera specifika hudproblem.</p>
-<p class="p200 mt-m">Hos oss på AcneSpecialisten kan du välja mellan flera typer av klassiska ansiktsbehandlingar. Vi erbjuder allt från den traditionella Klassisk ansiktsbehandling till Antistress, där fokus ligger på avslappning. Hudterapeutens val anpassas helt efter dina behov, medan Peel, Boost & Glow siktar på att ge huden en extra boost. För den som vill ha det lilla extra erbjuder vi Lyx behandlingen. Oavsett vilken behandling du väljer, är vårt mål att ge din hud den bästa möjliga omsorgen.</p>';
+$description_title = 'Vad innebär ansiktsbehandlingar för problemhy?';
+$description_text = '<p class="p200">Denna behandling är skräddarsydd för dem med problemhy och erbjuder en effektiv start på hudens förbättring. Behandlingen rengör huden på djupet, särskilt nyttigt för de som lider av akne, finnar eller pormaskar. Med hjälp av en vapozone öppnas porerna upp genom ånga, vilket möjliggör en noggrann rengöring.</p>
+<p class="p200 mt-m">Oavsett om du har blandhy, oljig, kombinerad, torr eller känslig hud, eller lider av specifika tillstånd som rosacea, seborré, perioral dermatit eller stora porer, anpassar denna behandling sig efter dina unika behov. Målet är att återställa hudens balans och ge den lyster och vitalitet den förtjänar.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelse inför klassiska ansiktsbehandlingar',
+        title: 'Förberedelser inför ansiktsbehandlingar för problemhy',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Förberedelse inför klassiska ansiktsbehandlingar',
-        image_title: 'Förberedelse inför klassiska ansiktsbehandlingar',
-        content: '<p class="p200">Hos AcneSpecialisten är vårt främsta mål att du ska känna dig bekväm och väl omhändertagen. Om du vill kan du vidta vissa förberedande åtgärder innan din ansiktsbehandling, såsom att undvika starka hudprodukter eller direkt solljus. Men det är viktigt att betona att du alltid kan komma precis som du är. Vi förstår att varje individ är unik, och vi anpassar varje behandling efter dina specifika behov och önskemål.</p>
-        <p class="p200 mt-m">Om du har några specifika bekymmer eller frågor inför din behandling, tveka inte att meddela oss. Vår prioritet är din komfort och att leverera den bästa möjliga behandlingen för dig. Välkommen till en avslappnande och förnyande upplevelse hos oss på AcneSpecialisten!</p>',
+        image_alt: 'Förberedelser inför ansiktsbehandlingar för problemhy',
+        image_title: 'Förberedelser inför ansiktsbehandlingar för problemhy',
+        content: '<p class="p200">Inför din ansiktsbehandling för problemhy hos oss behöver du inte tänka på något särskilt. Kom som du är, och vi tar hand om resten. Om du vill förbereda dig lite extra kan du tänka på följande: undvik att exfoliera huden dagen innan och undvik att sola några dagar innan behandlingen. Det kan också vara bra att komma med ett rent ansikte, utan smink. Informera gärna din hudterapeut i förväg om du tar några mediciner eller har några aktiva hudåkommor, så att behandlingen kan anpassas efter dina behov. Men det viktigaste är att du känner dig bekväm, så välj det som känns bäst för dig.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
-            label: 'Steam'
+            label: 'Ånga'
         ), new ArticleTag(
             icon: 'article-tag-extraction',
-            label: 'Extraction'
+            label: 'Extraktion'
         ), new ArticleTag(
             icon: 'article-tag-mask',
             label: 'Mask'
         ), new ArticleTag(
             icon: 'article-tag-cleansing',
-            label: 'Cleansing'
+            label: 'Rengöring'
         ))
     ),
     'process' => new Article(
-        title: 'Processen för klassiska ansiktsbehandlingar',
-    image_small: 'https://via.placeholder.com/358x272.webp',
-    image_large: 'https://via.placeholder.com/872x456.webp',
-    image_alt: 'Processen för klassiska ansiktsbehandlingar',
-    image_title: 'Processen för klassiska ansiktsbehandlingar',
-    content: '<p class="p200">Hos AcneSpecialisten anpassas varje ansiktsbehandling efter den specifika behandling du väljer, men det finns vissa gemensamma steg som ingår i de flesta av våra klassiska ansiktsbehandlingar. Behandlingen inleds alltid med en rengöring av huden för att avlägsna smuts, talg och orenheter. Detta förbereder huden för de följande stegen och säkerställer att den kan dra nytta av de produkter och metoder som används.</p>
-    <p class="p200 mt-m">Efter rengöringen kan en exfoliering genomföras för att ta bort döda hudceller och främja cellförnyelse. En ångbehandling kan också inkluderas för att öppna upp porerna och underlätta extraktion av pormaskar och akne. Därefter kan individuellt anpassade masker och serum appliceras baserat på hudens behov. Behandlingen avslutas ofta med en fuktighetskräm eller solskydd. Genom hela processen prioriteras din huds välbefinnande och komfort, och varje steg är skräddarsytt för att ge optimala resultat.</p>',
+        title: 'Hur går en ansiktsbehandling för problemhy till?',
+        image_small: 'https://via.placeholder.com/358x272.webp',
+        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_alt: 'Processen för ansiktsbehandling mot problemhy',
+        image_title: 'Processen för ansiktsbehandling mot problemhy',
+        content: '<p class="p200">Hos oss hittar du ansiktsbehandlingar designade för alla typer av problemhy. Vi förstår att varje persons hud är unik, och därför skräddarsyr vi varje behandling baserat på dina personliga och individuella behov. Vår expertis och omfattande kunskap säkerställer att du får den bästa möjliga vården för din hud.</p>
+
+        <p class="p200 mt-m">Varje behandling inleds med en noggrann rengöring för att avlägsna inkapslingar och tilltäpptheter. Därefter används en vapozone för att varsamt öppna upp huden och göra porerna mer mottagliga. Efter detta steg genomför vi en detaljerad extraktion där vi noggrant tömmer porerna på oönskade finnar, pormaskar och andra orenheter. För att lugna huden och minska eventuell rodnad eller irritation appliceras sedan en lugnande mask. Slutligen avslutas behandlingen med en intensiv återfuktning, vilket hjälper din hud att återhämta sig och känna sig förnyad.</p>',
+
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
-            label: 'Steam'
+            label: 'Ånga'
         ), new ArticleTag(
             icon: 'article-tag-extraction',
-            label: 'Extraction'
+            label: 'Extraktion'
         ), new ArticleTag(
             icon: 'article-tag-mask',
             label: 'Mask'
         ), new ArticleTag(
             icon: 'article-tag-cleansing',
-            label: 'Cleansing'
+            label: 'Rengöring'
         ))
     ),
 );
 
-$types_title = 'Våra klassiska ansiktsbehandlingar';
-$types_description = 'Här hittar du vårt utbud av klassiska ansiktsbehandlingar.';
-$big_types = array(
+$types_title = 'Ansiktsbehandlingar för problemhy';
+$types_description = '';
+$types = array(
     new Service(
-        title: 'Klassisk',
-        duration: '60 min',
+        title: 'Ansiktsbehandling mot Akne',
+        duration: null,
         price: null,
-        content: '<p class="p200">Vår klassiska ansiktsbehandling är idealisk för alla, oavsett hudtyp. Den rengör, vårdar och återfuktar huden för att ge den ny lyster. Behandlingsprocessen inleds med rengöring, följt av en exfoliering som tar bort döda hudceller. Efter en varsam ångprocess som öppnar porerna, utför vi en försiktig porrengöring och brynplockning. Slutligen appliceras en närande ansiktsmask och en återfuktande dagkräm, skräddarsydd för just din hud.</p>',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Klassisk',
-        image_title: 'Klassisk',
+        content: 'Ansiktsbehandling anpassad för akne med papler, pustler och komedoner.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Ansiktsbehandling mot Akne',
+        image_title: 'Ansiktsbehandling mot Akne',
         consultation_url: 'hudkonsultation',
         consultation_url_label: 'Boka tid för hudkonsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka klassisk behandling',
-        booking_url_title: 'Boka klassisk behandling',
-        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
-        procedures: array(
-            new Procedure(
-                label: '1 behandling',
-                price: '995 kr',
-                savings: null,
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '3 behandlingar',
-                price: '2595 kr',
-                savings: '865 kr per besök',
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '5 behandlingar',
-                savings: '2595 kr',
-                price: '799 kr per besök',
-                booking_url: 'https://www.bokadirekt.se'
-            )
-        )
+        booking_url_label: 'Boka en Ansiktsbehandling mot Akne',
+        booking_url_title: 'Boka en Ansiktsbehandling mot Akne',
     ),
     new Service(
-        title: 'Ansiktsbehandling - Antistress',
-        duration: '60 min',
+        title: 'Ansiktsbehandling för Blandhy',
+        duration: null,
         price: null,
-        content: '<p class="p200">Unna dig en paus från vardagens hektik med vår Ansiktsbehandling Antistress. Den börjar med en lätt rengöring för att varsamt fräscha upp huden. Den vitaliserande oljemassagen ger en känsla av avkoppling och balans. Behandlingen avslutas med vår skräddarsydda LED-ljusterapi och en närande kräm, allt för att säkerställa en total känsla av välbefinnande.</p>',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Ansiktsbehandling - Antistress',
-        image_title: 'Ansiktsbehandling - Antistress',
+        content: 'Behandling skräddarsydd för blandhy, idealisk för dig som har områden med både torrhet och oljighet på huden.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Ansiktsbehandling för Blandhy',
+        image_title: 'Ansiktsbehandling för Blandhy',
         consultation_url: 'hudkonsultation',
         consultation_url_label: 'Boka tid för hudkonsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka en Antistress ansiktsbehandling',
-        booking_url_title: 'Boka en Antistress ansiktsbehandling',
-        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
-        procedures: array(
-            new Procedure(
-                label: '1 behandling',
-                price: '1295 kr',
-                savings: null,
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-        )
+        booking_url_label: 'Boka en Ansiktsbehandling för Blandhy',
+        booking_url_title: 'Boka en Ansiktsbehandling för Blandhy',
     ),
     new Service(
-        title: 'Hudterapeutens val',
-        duration: '60 min',
+        title: 'Ansiktsbehandling mot Finnar',
+        duration: null,
         price: null,
-        content: '<p class="p200">En ansiktsbehandling som skräddarsys helt efter dina behov och vår hudterapeuts rekommendationer. Behandlingen inkluderar en Lumafuse med LED-mask och kompletteras med olika moment som bäst passar din hudtyp. Exempelvis kan detta inkludera en djuprengöring med peel, boost & glow, brynstyling samt olika masker och serum som är särskilt utvalda för dig.</p>',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Hudterapeutens val',
-        image_title: 'Hudterapeutens val',
+        content: 'Denna behandling är specialanpassad för att hantera och behandla finnar, vilket bidrar till att minska inflammation och förbättra hudens övergripande utseende.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Ansiktsbehandling mot Finnar',
+        image_title: 'Ansiktsbehandling mot Finnar',
         consultation_url: 'hudkonsultation',
         consultation_url_label: 'Boka tid för hudkonsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka en behandling enligt hudterapeutens val',
-        booking_url_title: 'Boka en behandling enligt hudterapeutens val',
-        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
-        procedures: array(
-            new Procedure(
-                label: '1 behandling',
-                price: '1595 kr',
-                savings: null,
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '3 behandlingar',
-                price: '3995 kr',
-                savings: 'spara 790 kr',
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '5 behandlingar',
-                price: '5995 kr',
-                savings: 'spara 1980 kr',
-                booking_url: 'https://www.bokadirekt.se'
-            )
-        )
+        booking_url_label: 'Boka en Ansiktsbehandling mot Finnar',
+        booking_url_title: 'Boka en Ansiktsbehandling mot Finnar',
     ),
     new Service(
-        title: 'Peel, Boost & Glow',
-        duration: '60 min',
+        title: 'Ansiktsbehandling mot Milier',
+        duration: null,
         price: null,
-         content: '<p class="p200">För en uppfriskande och lystergivande upplevelse, prova vår Peel, Boost & Glow behandling. Den här sessionen är idealisk för dig som söker en intensiv fuktboost kombinerat med en omedelbar lyster. Vi använder oss av avancerade syrabaserade produkter för att noggrant rena huden och minimera porerna. Brynplock ingår också i behandlingen för att fullända din look. Avslutningsvis applicerar vi en djupt återfuktande sheetmask och använder LED-ljusteknik för att främja anti-age effekter och förbättra mikrocirkulationen i huden.</p>',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Peel, Boost & Glow',
-        image_title: 'Peel, Boost & Glow',
+        content: 'Denna behandling är specialanpassad för att effektivt behandla milier och bidra till att förbättra hudens textur och utseende.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Ansiktsbehandling mot Milier',
+        image_title: 'Ansiktsbehandling mot Milier',
         consultation_url: 'hudkonsultation',
         consultation_url_label: 'Boka tid för hudkonsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka Peel, Boost & Glow behandling',
-        booking_url_title: 'Boka Peel, Boost & Glow behandling',
-        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
-        procedures: array(
-            new Procedure(
-                label: '1 behandling',
-                price: '1595 kr',
-                savings: null,
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '3 behandlingar',
-                price: '3995 kr',
-                savings: 'spara 790 kr',
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '5 behandlingar',
-                price: '5995 kr',
-                savings: 'spara 1980 kr',
-                booking_url: 'https://www.bokadirekt.se'
-            )
-        )
+        booking_url_label: 'Boka en Ansiktsbehandling mot Milier',
+        booking_url_title: 'Boka en Ansiktsbehandling mot Milier',
     ),
     new Service(
-        title: 'Luxury',
-        duration: '90 min',
+        title: 'Ansiktsbehandling för Oljig & Kombinerad Hy',
+        duration: null,
         price: null,
-        content: '<p class="p200">Unna dig vår mest exklusiva och avkopplande ansiktsbehandling – Luxury Facial. Denna omfattande session börjar med en grundlig djuprengöring av huden, följd av en avslappnande massage för ansikte och dekolletage med en närande ansiktsolja som stimulerar cellförnyelsen och förbättrar kollagensyntesen. En lyxig exfoliering med syra förfinar huden och förbättrar dess elasticitet, fasthet och ton. Ögonbrynen och fransarna får också extra omsorg med en professionell färgning och formning som passar ditt ansikte. Behandlingen avslutas med en intensivt återfuktande sheetmask och en avancerad LED-mask som stimulerar blodcirkulationen, främjar hudens naturliga reparationsprocess och verkar anti-inflammatoriskt. Det är en fulländad upplevelse som inte bara förskönar utan också ger djup avslappning.</p>',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Ansiktsbehandling Lyx',
-        image_title: 'Ansiktsbehandling Lyx',
-        consultation_url: 'hudkonsultation',
-        consultation_url_label: 'Boka Ansiktsbehandling Lyx',
-        consultation_url_title: 'Boka Ansiktsbehandling Lyx',
-        booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka Ansiktsbehandling Lyx',
-        booking_url_title: 'Boka Ansiktsbehandling Lyx',
-        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
-        procedures: array(
-            new Procedure(
-                label: '1 behandling',
-                price: '1995 kr',
-                savings: null,
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '3 behandlingar',
-                price: '4995 kr',
-                savings: 'spara 990 kr',
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '5 behandlingar',
-                price: '7995 kr',
-                savings: 'spara 1980 kr',
-                booking_url: 'https://www.bokadirekt.se'
-            )
-        )
-    ),
-    new Service(
-        title: 'Porrengöring',
-        duration: '60 min',
-        price: null,
-        content: '<p class="p200">Vår porrengöringsbehandling är speciellt framtagen för att effektivt rensa tilltäppta porer och främja en klarare hud. Behandlingen börjar med en djupgående rengöring som förbereder huden för exfoliering. Efter exfolieringen tillämpas en mjukgörande ångprocess för att öppna upp och mjuka upp porerna. Noggrann manuell porrengöring följer för att varsamt avlägsna orenheter och komedoner. Vi avslutar med en lugnande ansiktsmask och lägger på en återfuktande kräm som är anpassad för din hudtyp.</p>',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Porrengöring',
-        image_title: 'Porrengöring',
+        content: 'Behandlingen är skräddarsydd för att balansera oljig och kombinerad hud. Vi fokuserar på att rensa porer, balansera hudens fuktighet och ge en mattare finish.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Ansiktsbehandling för Oljig & Kombinerad Hy',
+        image_title: 'Ansiktsbehandling för Oljig & Kombinerad Hy',
         consultation_url: 'hudkonsultation',
         consultation_url_label: 'Boka tid för hudkonsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka porrengöringsbehandling',
-        booking_url_title: 'Boka porrengöringsbehandling',
-        icons: array(
-            'who-teenagers' => 'Teenagers',
-            'who-adults' => 'Adults'
-        ),
-        procedures: array(
-            new Procedure(
-                label: '1 porrengöringsbehandling',
-                price: '1095 kr',
-                savings: null,
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '3 porrengöringsbehandlingar',
-                price: '2995 kr',
-                savings: '795 kr per besök',
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '5 porrengöringsbehandlingar',
-                price: '4795 kr',
-                savings: '1199 kr per besök',
-                booking_url: 'https://www.bokadirekt.se'
-            )
-        )
+        booking_url_label: 'Boka en Ansiktsbehandling för Oljig & Kombinerad Hy',
+        booking_url_title: 'Boka en Ansiktsbehandling för Oljig & Kombinerad Hy',
     ),
-
+    new Service(
+        title: 'Ansiktsbehandling för Perioral Dermatit',
+        duration: null,
+        price: null,
+        content: 'Denna behandling är särskilt framtagen för de som lider av perioral dermatit. Med fokus på att lugna och återställa huden, använder vi milda och icke-irriterande produkter som hjälper till att reducera inflammation och rodnad.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Ansiktsbehandling för Perioral Dermatit',
+        image_title: 'Ansiktsbehandling för Perioral Dermatit',
+        consultation_url: 'hudkonsultation',
+        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka en Ansiktsbehandling för Perioral Dermatit',
+        booking_url_title: 'Boka en Ansiktsbehandling för Perioral Dermatit',
+    ),
+    new Service(
+        title: 'Ansiktsbehandling mot Pormaskar',
+        duration: null,
+        price: null,
+        content: 'Denna behandling är speciellt designad för att effektivt rengöra och behandla pormaskar. Genom en kombination av djuprengöring och specialanpassade produkter, hjälper vi till att klara upp porerna och minska uppkomsten av nya pormaskar.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Ansiktsbehandling mot Pormaskar',
+        image_title: 'Ansiktsbehandling mot Pormaskar',
+        consultation_url: 'hudkonsultation',
+        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka en Ansiktsbehandling mot Pormaskar',
+        booking_url_title: 'Boka en Ansiktsbehandling mot Pormaskar',
+    ),
+    new Service(
+        title: 'Ansiktsbehandling för Problemhy',
+        duration: null,
+        price: null,
+        content: 'Denna behandling är särskilt framtagen för att hantera och behandla problemhy. Med hjälp av noggrant utvalda produkter och tekniker, arbetar vi för att balansera huden, behandla befintliga problem och förebygga framtida utbrott.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Ansiktsbehandling för Problemhy',
+        image_title: 'Ansiktsbehandling för Problemhy',
+        consultation_url: 'hudkonsultation',
+        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka en Ansiktsbehandling för Problemhy',
+        booking_url_title: 'Boka en Ansiktsbehandling för Problemhy',
+    ),
+    new Service(
+        title: 'Ansiktsbehandling för Rosacea',
+        duration: null,
+        price: null,
+        content: 'Denna behandling är speciellt utformad för att skonsamt behandla och lindra symptom associerade med rosacea. Minskar rodnad och inflammation, samtidigt som vi ger näring och skydd till den känsliga huden.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Ansiktsbehandling för Rosacea',
+        image_title: 'Ansiktsbehandling för Rosacea',
+        consultation_url: 'hudkonsultation',
+        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka en Ansiktsbehandling för Rosacea',
+        booking_url_title: 'Boka en Ansiktsbehandling för Rosacea',
+    ),
+    new Service(
+        title: 'Ansiktsbehandling för Seborré',
+        duration: null,
+        price: null,
+        content: 'Denna behandling är specifikt framtagen för att behandla och balansera huden som drabbats av seborré. Genom att använda specialanpassade produkter syftar vi till att kontrollera överdriven oljeproduktion och minska inflammation, vilket ger huden en friskare och jämnare ton.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Ansiktsbehandling för Seborré',
+        image_title: 'Ansiktsbehandling för Seborré',
+        consultation_url: 'hudkonsultation',
+        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka en Ansiktsbehandling för Seborré',
+        booking_url_title: 'Boka en Ansiktsbehandling för Seborré',
+    ),
+    new Service(
+        title: 'Ansiktsbehandling för Stora Porer',
+        duration: null,
+        price: null,
+        content: 'Denna behandling är specifikt framtagen för att behandla och minska framträdande stora porer. Med hjälp av specialanpassade produkter syftar vi till att rengöra porerna på djupet, förminska deras storlek och ge huden en slätare och mer jämn yta.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Ansiktsbehandling för Stora Porer',
+        image_title: 'Ansiktsbehandling för Stora Porer',
+        consultation_url: 'hudkonsultation',
+        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka en Ansiktsbehandling för Stora Porer',
+        booking_url_title: 'Boka en Ansiktsbehandling för Stora Porer',
+    ),
+    new Service(
+        title: 'Ansiktsbehandling för Torr & Känslig Hy',
+        duration: null,
+        price: null,
+        content: 'Denna behandling är specifikt framtagen för att nära och lugna torr samt känslig hy. Genom att använda specialanpassade produkter syftar vi till att återställa hudens fuktbalans, minska rodnad och irritation, och ge huden en mjuk och behaglig känsla.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Ansiktsbehandling för Torr & Känslig Hy',
+        image_title: 'Ansiktsbehandling för Torr & Känslig Hy',
+        consultation_url: 'hudkonsultation',
+        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka en Ansiktsbehandling för Torr & Känslig Hy',
+        booking_url_title: 'Boka en Ansiktsbehandling för Torr & Känslig Hy',
+    ),
 );
 
 $bottom_articles = array('aftercare' => new Article(
-    title: 'Eftervård och underhåll',
+    title: 'Eftervård och omhändertagande',
     image_small: 'https://via.placeholder.com/358x272.webp',
     image_large: 'https://via.placeholder.com/872x456.webp',
-    image_alt: 'Eftervård och underhåll',
-    image_title: 'Eftervård och underhåll',
-    content: '<p class="p200">Våra klassiska ansiktsbehandlingar erbjuder en grundlig rengöring och uppfräschning av huden. Efter din behandling är det viktigt att följa några enkla eftervårdsinstruktioner för att bibehålla resultatet. Undvik starkt solsken och använd en hög SPF för att skydda huden. Vi rekommenderar också att du undviker tung makeup och hudirriterande ämnen de första 24 timmarna efter behandlingen. Fortsätt att återfukta huden väl och använd de produkter som rekommenderats av din hudterapeut för att stödja hudens läkning och förbättring.</p>
-    <p class="p200 mt-m">För dig som gjort en lite mer resultatinriktad behandling är det viktigt att komma ihåg att inte plocka eller skrapa på huden om det skulle uppstå några orenheter efter behandlingen. Om du fick en kemisk peeling eller exfoliering, se till att vara extra varsam med huden och undvik exfolierande produkter ett tag. Drick mycket vatten och fortsätt med en balanserad kost för att stödja huden inifrån och ut. Om du har några frågor om din eftervård, tveka inte att kontakta oss för personliga råd.</p>',
+    image_alt: 'Eftervård och omhändertagande',
+    image_title: 'Eftervård och omhändertagande',
+    content: '<p class="p200">Efter en ansiktsbehandling är det viktigt med rätt eftervård för att behandla och bibehålla hudens skick. Genom att fortsätta ta hand om huden med rätt hemmavård kan du förlänga och förstärka effekterna av behandlingen. Det handlar inte bara om att använda produkter utan också om att följa rätt behandlingsrutiner för just ditt behov.</p>
+    <p class="p200 mt-m">Vi på AcneSpecialisten finns här för att hjälpa dig att ta fram den bästa hudvårdsplanen för din hudtyp. Oavsett om det handlar om daglig rengöring, återfuktning eller specialbehandlingar, så kommer vi att vägleda dig genom varje steg för att säkerställa att din hud får den vård den förtjänar. Kom ihåg, rätt eftervård är nyckeln till en frisk och strålande hud!</p>',
     tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
 
@@ -391,7 +394,7 @@ $results = array(
     ),
 );
 
-$reviews_title = 'Omdömen';
+$reviews_title = 'Reviews';
 $reviews = array(
     new Review(
         stars: 5,
@@ -412,24 +415,24 @@ $reviews = array(
 );
 $reviews_view_more = 'Se alla omdömen';
 
-$faq_title = 'Frågor & Svar';
+$faq_title = 'Frågor & svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Hur många behandlingar behövs?',
-            text: 'Antalet behandlingar kan variera beroende på individens hudtyp och hudens tillstånd. Generellt rekommenderas en serie av behandlingar för bästa möjliga resultat och sedan underhållsbehandlingar för långsiktig effekt.'
+            title: 'Passar era ansiktsbehandlingar alla hudtyper?',
+            text: 'Ja, vi har ansiktsbehandlingar som passar alla hudtyper. Vi anpassar dessutom alltid våra behandlingar efter dina individuella behov så att du ska få ett så bra resultat som möjligt.'
         ),
         new Question(
-            title: 'Hur ofta ska jag boka en klassisk ansiktsbehandling?',
-            text: 'För att upprätthålla resultat och hudens hälsa, rekommenderar vi en klassisk ansiktsbehandling var fjärde till sjätte vecka. Det kan justeras beroende på personliga behov och hudens tillstånd.'
+            title: 'Är ansiktsbehandlingar effektiva mot pormaskar?',
+            text: 'Ja, många av våra ansiktsbehandlingar syftar till att djuprengöra porerna och kan vara särskilt effektiva mot pormaskar. Genom regelbundna behandlingar kan vi hjälpa till att minska och förebygga uppkomsten av nya pormaskar.'
         ),
         new Question(
-            title: 'Vad kan jag förvänta mig direkt efter behandlingen?',
-            text: 'Efter en klassisk ansiktsbehandling kan huden vara lite rosig och kännas extra mjuk och återfuktad. Det är viktigt att följa eftervårdsinstruktionerna för att maximera behandlingens effekt. I de fall där en mer resultatinriktad behandling gjorts kan upplevelsen av huden variera.'
+            title: 'Hur ofta bör jag boka en ansiktsbehandling för bästa resultat?',
+            text: 'Det beror på din specifika hudtyp och de problem du vill adressera. För vissa kan en månadsvis behandling vara optimal, medan andra kanske vill komma oftare i början för att hantera specifika hudproblem.'
         ),
         new Question(
-            title: 'Behövs speciell eftervård efter en klassisk ansiktsbehandling?',
-            text: 'Eftervård är viktigt för att bevara resultatet av din ansiktsbehandling. Det innefattar solskydd, mild hudvård, och att undvika starka hudirriterande ämnen ett par dagar efter behandlingen.'
+            title: 'Hur vet jag vilken behandling som passar bäst för min problemhy?',
+            text: 'Det är bäst att boka en konsultation med en av våra hudterapeuter. Under konsultationen kommer vi att analysera din hud, diskutera dina bekymmer och rekommendera den bästa behandlingsplanen anpassad för dina specifika behov.'
         )
     )
 );
@@ -449,9 +452,9 @@ $skin_guide_articles = array(
         image_title: 'Hormones effect',
     ),
 );
-$skin_guide_view_more = 'Se alla artiklar';
+$skin_guide_view_more = 'Visa alla artiklar';
 
-$specialists_title = 'Våra hudterpaueter';
+$specialists_title = 'Våra hudterapeuter';
 $specialists = array(
     new Specialist(
         name: 'Cazzandra Lindberg',
