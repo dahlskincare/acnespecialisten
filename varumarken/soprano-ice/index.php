@@ -457,21 +457,21 @@ $bottom_articles = array('aftercare' => new Article(
     image_large: 'https://via.placeholder.com/872x456.webp',
     image_alt: 'Soprano Ice eftervård',
     image_title: 'Soprano Ice eftervård',
-    content: '<p class="p200">Eftervården efter en Splendor X-behandling för permanent hårborttagning är avgörande för att främja en förbättrad och effektiv återhämtning. Splendor X-teknologin är utformad för att vara skonsam mot huden, vilket bidrar till en snabbare återhämtning jämfört med traditionella laserbehandlingar. Dock är det viktigt att följa eftervårdsråden för att maximera denna fördel.</p>
-    <p class="p200 mt-m">Efter behandlingen kan man uppleva mild rodnad och en lätt värmande känsla i de behandlade områdena. Dessa symtom är normala och bör avta relativt snabbt, vilket är ett tecken på den skonsamma naturen hos Splendor X. För att stödja och påskynda återhämtningsprocessen, rekommenderas det att man sköter det behandlade området varsamt, undviker direkt solljus och använder ett högt SPF-solskydd för att skydda huden.</p>
-    <p class="p200 mt-m">Undvik att skrubba huden eller använda irriterande hudvårdsprodukter, och avstå från andra hårborttagningsmetoder som vaxning eller plockning. Genom att följa dessa steg säkerställer du att huden återhämtar sig effektivt och behåller de optimala resultaten från din Splendor X-behandling.</p>',
+    content: '<p class="p200">Eftervården efter en Soprano ICE-behandling för permanent hårborttagning är en viktig del av processen och spelar en avgörande roll för en smidig och effektiv återhämtning. Soprano ICE är känd för sin skonsamma behandlingsmetod, vilket ofta leder till en snabbare återhämtning jämfört med traditionella laserbehandlingar. Att följa eftervårdsråden är dock viktigt för att uppnå bästa möjliga resultat.</p>
+    <p class="p200 mt-m">Efter din behandling kan du uppleva mild rodnad och en lätt värmande känsla i det behandlade området, vilket är normala reaktioner som vanligtvis avtar inom kort tid. Detta indikerar Soprano ICE:s skonsamma effekt på huden. För att främja en snabb återhämtning bör du behandla området varsamt, undvika direkt exponering för solljus och använda solskyddsmedel med hög SPF för att skydda huden.</p>
+    <p class="p200 mt-m">Undvik att skrubba eller irritera huden med starka hudvårdsprodukter och undvik andra hårborttagningsmetoder som vaxning eller plockning under återhämtningsperioden. Genom att följa dessa riktlinjer kan du säkerställa att din hud återhämtar sig på bästa sätt och behåller de optimala resultaten från din Soprano ICE-behandling.</p>',
     tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
 
 $service_brands_title = 'Märken för Permanent Hårborttagning';
-$service_brands_text = '<p class="p200">Utöver Splendor X utför vi även permanent hårborttagning med Soprano Ice.</p>';
+$service_brands_text = '<p class="p200">Utöver Soprano Ice utför vi även permanent hårborttagning med Splendor X.</p>';
 $service_brands = array(
 
     new Brand(
-        label: 'Soprano Ice',
-        image: 'images/brands/soprano-ice.svg',
-        image_alt: 'Soprano Ice',
-        image_title: 'Soprano Ice',
+        label: 'Splendor X',
+        image: 'images/brands/splendor-x.svg',
+        image_alt: 'Splendor X',
+        image_title: 'Splendor X',
     ),
 );
 
@@ -567,20 +567,20 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Hur många Splendor X-behandlingar krävs för permanent hårborttagning?',
-            text: 'Antalet Splendor X-behandlingar som krävs för permanent hårborttagning varierar beroende på individuella faktorer som hårtyp, hårfärg och behandlingsområde. Generellt sett kan det behövas 8-12 behandlingar för att uppnå optimala resultat med Splendor X. Behandlingarna utförs med några veckors mellanrum för att effektivt följa hårets olika tillväxtfaser.'
+            title: 'Hur många behandlingar med Soprano ICE krävs för permanent hårborttagning?',
+            text: 'Antalet behandlingar med Soprano ICE för permanent hårborttagning varierar beroende på individuella faktorer som hårtyp, hårfärg och behandlingsområde. Generellt sett kan det krävas 8-12 behandlingar för att uppnå optimala resultat. Behandlingarna utförs med några veckors mellanrum för att effektivt följa hårets tillväxtcykel.'
         ),
         new Question(
-            title: 'Hur långvariga är resultaten med Splendor X?',
-            text: 'Resultaten av permanent hårborttagning med Splendor X är vanligtvis långvariga. Efter en komplett serie av behandlingar kan kunder förvänta sig en betydande och varaktig minskning av hårväxt. För att upprätthålla resultaten över tid kan periodiska underhållsbehandlingar vara nödvändiga, speciellt för att hantera eventuell finare återväxt.'
+            title: 'Hur långvariga är resultaten med Soprano ICE?',
+            text: 'Resultaten av permanent hårborttagning med Soprano ICE är vanligtvis långvariga. De flesta klienter upplever en betydande och varaktig minskning av hårväxt efter en fullständig serie av behandlingar. Vissa klienter kan behöva periodiska underhållsbehandlingar för att hantera eventuell återväxt av finare hårstrån.'
         ),
         new Question(
-            title: 'Hur förbereder jag mig inför en Splendor X-behandling?',
-            text: 'Inför din Splendor X-behandling bör du undvika att vaxa eller noppa hår i behandlingsområdet. Det är viktigt att raka området dagen före behandlingen för att optimera effektiviteten. Dessutom är det kritiskt att skydda huden från solen i veckorna före behandlingen för att minimera risken för biverkningar och förbättra behandlingens resultat.'
+            title: 'Hur förbereder jag mig inför en Soprano ICE-behandling?',
+            text: 'För att förbereda dig för en Soprano ICE-behandling är det viktigt att du inte vaxar eller noppar hår i det område som ska behandlas. Raka området dagen före din behandling för att förbättra resultatet. Det är också viktigt att undvika solning och använda solskydd i veckorna före din behandling för att minska risken för biverkningar och maximera effektiviteten.'
         ),
         new Question(
-            title: 'Är Splendor X-behandling smärtsam?',
-            text: 'Splendor X-behandlingen är känd för att vara mindre smärtsam jämfört med traditionella laserbehandlingar för hårborttagning. Tack vare den avancerade kyltekniken och den precisa laserstrålen upplever de flesta en minimalt obehaglig känsla, som ofta beskrivs som lätt snäpp mot huden. Smärtupplevelsen varierar dock från person till person.'
+            title: 'Är behandling med Soprano ICE smärtsam?',
+            text: 'Många upplever att behandling med Soprano ICE är mindre smärtsam än andra former av laserbehandling för hårborttagning. Tack vare dess avancerade kylsystem och mjuka lasermetod rapporterar de flesta endast en lätt snäppkänsla mot huden. Smärtupplevelsen kan dock variera beroende på individens smärttröskel och behandlingsområde.'
         ),
     )
 );
