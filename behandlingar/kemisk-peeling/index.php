@@ -47,12 +47,13 @@ $description_text = '<p class="p200">Kemisk peeling hos AcneSpecialisten innefat
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelser inför ansiktsbehandlingar för problemhy',
+        title: 'Förberedelser inför kemisk peeling',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Förberedelser inför ansiktsbehandlingar för problemhy',
-        image_title: 'Förberedelser inför ansiktsbehandlingar för problemhy',
-        content: '<p class="p200">Inför din ansiktsbehandling för problemhy hos oss behöver du inte tänka på något särskilt. Kom som du är, och vi tar hand om resten. Om du vill förbereda dig lite extra kan du tänka på följande: undvik att exfoliera huden dagen innan och undvik att sola några dagar innan behandlingen. Det kan också vara bra att komma med ett rent ansikte, utan smink. Informera gärna din hudterapeut i förväg om du tar några mediciner eller har några aktiva hudåkommor, så att behandlingen kan anpassas efter dina behov. Men det viktigaste är att du känner dig bekväm, så välj det som känns bäst för dig.</p>',
+        image_alt: 'Förberedelser inför kemisk peeling',
+        image_title: 'Förberedelser inför kemisk peeling',
+        content: '<p class="p200">När du förbereder dig för en kemisk peeling hos AcneSpecialisten finns det några enkla steg du kan följa för att optimera din behandlingsupplevelse. För det första är det bra att undvika att exfoliera huden några dagar före din behandling, då själva peelingen kommer att ta hand om detta. Det är också viktigt att inte sola eller använda brun-utan-sol-produkter veckan innan behandlingen för att minska risken för hudirritationer.</p>
+        <p class="p200 mt-m">Vi rekommenderar att du kommer med ett rent ansikte utan smink, vilket underlättar en jämn applicering av peelingprodukten. Dessutom är det viktigt att informera din hudterapeut om eventuella mediciner du tar eller om du har aktiva hudåkommor, så att vi kan anpassa behandlingen på bästa sätt. Kom ihåg att det viktigaste är att du känner dig bekväm och trygg, så om du har några frågor eller funderingar, tveka inte att kontakta oss före din behandling.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Ånga'
