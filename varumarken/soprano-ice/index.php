@@ -3,14 +3,14 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Splendor X Laserbehandling - Revolutionerande Permanent Hårborttagning | Acnespecialisten';
-$seo_description = 'Välkommen till AcneSpecialisten, där vi stolt presenterar Splendor X - nästa generations laser för permanent hårborttagning. Upplev en överlägsen behandling som effektivt tar bort oönskat hår för alla hudtyper. Splendor X kombinerar kraftfull teknik och skonsamhet för att ge dig snabba och hållbara resultat.';
-$seo_keywords = 'Splendor X, permanent hårborttagning, avancerad laserbehandling, effektiv hårborttagning, säkerhet och komfort, långvariga resultat, alla hudtyper, snabb hårborttagning';
+$seo_title = 'Soprano ICE Laserbehandling - Effektiv Permanent Hårborttagning | Acnespecialisten';
+$seo_description = 'Upptäck Soprano ICE hos AcneSpecialisten, en ledande teknologi inom permanent hårborttagning. Denna innovativa laserbehandling är utformad för att skonsamt och effektivt avlägsna oönskat hår på alla hudtyper. Soprano ICE erbjuder en unik kombination av effektivitet och patientkomfort, vilket garanterar både snabba och långvariga resultat.';
+$seo_keywords = 'Soprano ICE, permanent hårborttagning, laserbehandling, skonsam hårborttagning, effektiv metod, alla hudtyper, säker laserbehandling, långvariga resultat';
 
-$seo_image = 'images/treatments/large/splendor-x-harborttagning.jpg';
+$seo_image = 'images/treatments/large/soprano-ice.jpg';
 
 $model = new Service(
-    title: 'Splendor X',
+    title: 'Soprano Ice',
     duration: null,
     price: 'Från 995 kr',
     content: '<p class="p200">Splendor X representerar en banbrytande utveckling inom permanent hårborttagning med laser, och erbjuder en avancerad lösning för dig som önskar att permanent minska oönskat hår. Våra Splendor X-behandlingar är individuellt anpassade för att möta dina unika behov, och vi behandlar effektivt olika områden på kroppen. Denna toppmoderna metod använder en kombination av laserljus med dubbla våglängder för att målriktat och skonsamt avlägsna hårstrån genom att skada hårfolliklarna. Detta minskar hårproduktionen och resulterar i en hårfri och mjuk hud. Splendor X är inte bara effektiv för att avlägsna oönskat hår, utan bidrar även till att förbättra hudens kvalitet och textur, vilket gör den till en idealisk behandling för en rad olika hudtyper och hårfärger.</p>',
