@@ -363,33 +363,44 @@ $treatment_areas = array(
         items: array(
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/94x72.webm',
-                image_alt: 'Bikini line',
-                image_title: 'Bikini line',
-                title: 'Ears',
-                duration: '30 min',
-                price: '1295 kr',
+                image_alt: 'Konsultation - Manzilian',
+                image_title: 'Konsultation - Manzilian',
+                title: 'Konsultation - Manzilian',
+                duration: '20 min',
+                price: 'Gratis',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/94x72.webm',
-                image_alt: 'Cheeks',
-                image_title: 'Cheeks',
-                title: 'Cheeks',
-                duration: '30 min',
-                price: '1295 kr',
+                image_alt: 'Manzillian',
+                image_title: 'Manzillian',
+                title: 'Manzillian',
+                duration: '60 min',
+                price: '2595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/94x72.webm',
-                image_alt: 'Upper lip',
-                image_title: 'Upper lip',
-                title: 'Upper lip',
-                duration: '30 min',
-                price: '1295 kr',
+                image_alt: 'Manzillian + Runt Anus',
+                image_title: 'Manzillian + Runt Anus',
+                title: 'Manzillian + Runt Anus',
+                duration: '60 min',
+                price: '2995 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'Runt Anus',
+                image_title: 'Runt Anus',
+                title: 'Runt Anus',
+                duration: '40 min',
+                price: '1995 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
@@ -402,35 +413,35 @@ $treatment_areas = array(
         image_alt: 'Ben',
         image_title: 'Ben',
         title: 'Ben',
-        description: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin.</p>',
+        description: '<p class="p200">Kom ihåg att alltid börja med en kostnadsfri konsultation.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/94x72.webm',
-                image_alt: 'Bikini line',
-                image_title: 'Bikini line',
-                title: 'Ears',
-                duration: '30 min',
-                price: '1295 kr',
+                image_alt: 'Halva Ben',
+                image_title: 'Halva Ben',
+                title: 'Halva Ben',
+                duration: '40 min',
+                price: '1995 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/94x72.webm',
-                image_alt: 'Cheeks',
-                image_title: 'Cheeks',
-                title: 'Cheeks',
-                duration: '30 min',
-                price: '1295 kr',
+                image_alt: 'Hela Ben',
+                image_title: 'Hela Ben',
+                title: 'Hela Ben',
+                duration: '60 min',
+                price: '2595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/94x72.webm',
-                image_alt: 'Upper lip',
-                image_title: 'Upper lip',
-                title: 'Upper lip',
+                image_alt: 'Fötter & Tår',
+                image_title: 'Fötter & Tår',
+                title: 'Fötter & Tår',
                 duration: '30 min',
                 price: '1295 kr',
                 url: 'https://bokadirekt.se',
@@ -442,30 +453,33 @@ $treatment_areas = array(
 );
 
 $bottom_articles = array('aftercare' => new Article(
-    title: 'Aftercare and maintenance',
+    title: 'Eftervård för Permanent Hårborttagning',
     image_small: 'https://via.placeholder.com/358x272.webp',
     image_large: 'https://via.placeholder.com/872x456.webp',
-    image_alt: 'Aftercare and maintenance',
-    image_title: 'Aftercare and maintenance',
-    content: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>',
+    image_alt: 'Eftervård för Permanent Hårborttagning',
+    image_title: 'Eftervård för Permanent Hårborttagning',
+    content: '<p class="p200">Efter en behandling med permanent hårborttagning är en smidig återhämtning avgörande för att säkerställa de bästa resultaten. Du kan förvänta dig en viss rodnad och en lätt värmande känsla i det behandlade området, men dessa symtom är vanligtvis milda och avtar snabbt. För att underlätta återhämtningen, rekommenderar vi att du tar hand om området försiktigt och undviker direkt exponering för solen under de första dagarna efter behandlingen.</p>
+    <p class="p200 mt-m">Undvik hård skrubbning och använd inte irriterande hudvårdsprodukter. Det är också viktigt att undvika andra hårborttagningsmetoder som vaxning eller plockning under läkningsperioden. Använd ett högt SPF-solskydd om du måste vara utomhus, för att skydda huden från ytterligare skador och stödja återhämtningsprocessen.</p>
+    <p class="p200 mt-m">Om du upplever någon ovanlig irritation eller har frågor om din återhämtning, är det viktigt att du kontaktar oss. En korrekt skötsel efter din behandling för permanent hårborttagning är nyckeln till en snabb och problemfri återhämtning, och hjälper till att upprätthålla och optimera behandlingens resultat.</p>',
     tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
 
-$service_brands_title = 'Märken för ansiktsbehandlingar för problemhy';
-$service_brands_text = '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>';
+$service_brands_title = 'Märken för Permanent Hårborttagning';
+$service_brands_text = '<p class="p200">Vi utför Permanent Hårborttagning med Splendor X och Soprano Ice som är de två bästa maskinerna på marknaden.</p>';
 $service_brands = array(
+
     new Brand(
-        label: 'Powerlite',
-        image: 'images/brands/powerlite.svg',
-        image_alt: 'Powerlite',
-        image_title: 'Powerlite'
+        label: 'Splendor X',
+        image: 'images/brands/splendor-x.svg',
+        image_alt: 'Splendor X',
+        image_title: 'Splendor X',
     ),
     new Brand(
-        label: 'Dermapen4',
-        image: 'images/brands/dermapen4.svg',
-        image_alt: 'Dermapen4',
-        image_title: 'Dermapen4'
-    )
+        label: 'Soprano Ice',
+        image: 'images/brands/soprano-ice.svg',
+        image_alt: 'Soprano Ice',
+        image_title: 'Soprano Ice',
+    ),
 );
 
 $results = array(
