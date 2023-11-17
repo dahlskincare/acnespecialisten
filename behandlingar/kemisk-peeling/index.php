@@ -11,9 +11,9 @@ $seo_image = 'images/treatments/large/kemisk-peeling.jpg';
 
 $model = new Service(
     title: 'Kemisk Peeling',
-    duration: '60 min',
-    price: 'Från 799 kr',
-    content: '',
+    duration: '30 min',
+    price: null,
+    content: '<p class="p200">På vår klinik är vi specialiserade på kemisk peeling, en högeffektiv metod för att förbättra hudens utseende och struktur. Denna behandling är ett utmärkt val för dig som önskar minska synligheten av hudåkommor såsom fina linjer, akne, ojämn pigmentering och solskador. Våra skräddarsydda behandlingsprotokoll är utformade för att säkerställa en individanpassad och icke-invasiv behandling, vilket ger en jämnare, klarare och mer strålande hud. Med vår expertis och noggrant utvalda peelinglösningar, strävar vi efter att ge varje klient optimala resultat och en förbättrad hudkvalitet.</p>',
     image_small: 'https://via.placeholder.com/358x274.webp',
     image_large: 'https://via.placeholder.com/424x456.webp',
     image_alt: 'Ansiktsbehandlingar för problemhy',
