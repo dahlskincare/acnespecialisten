@@ -3,7 +3,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Kemisk Peeling - Effektiva Hudförbättrande Behandlingar | Acnespecialisten';
+$seo_title = 'Kemisk Peeling - Effektiva Hudförbättrande Behandlingar | AcneSpecialisten';
 $seo_description = 'Upptäck AcneSpecialistens expertutbud av kemiska peelings för att förbättra hudens utseende och hälsa. Våra anpassade peelingar behandlar allt från akne till åldrande, och erbjuder djupgående lösningar för diverse hudproblem. Med vår specialkunskap och avancerade behandlingar är din väg till en klarare och mer strålande hud inom räckhåll.';
 $seo_keywords = 'kemisk peeling, hudföryngring, aknebehandling, hudtonsförbättring, hudproblem, exfoliering, fina linjer, pigmentering, hudens textur, professionell hudvård';
 
@@ -13,7 +13,7 @@ $model = new Service(
     title: 'Kemisk Peeling',
     duration: '30 min',
     price: null,
-    content: '<p class="p200">På vår klinik är vi specialiserade på kemisk peeling, en högeffektiv metod för att förbättra hudens utseende och struktur. Denna behandling är ett utmärkt val för dig som önskar minska synligheten av hudåkommor såsom fina linjer, akne, ojämn pigmentering och solskador. Våra skräddarsydda behandlingsprotokoll är utformade för att säkerställa en individanpassad och icke-invasiv behandling, vilket ger en jämnare, klarare och mer strålande hud. Med vår expertis och noggrant utvalda peelinglösningar, strävar vi efter att ge varje klient optimala resultat och en förbättrad hudkvalitet.</p>',
+    content: '<p class="p200">På AcneSpecialisten är vi specialister på kemisk peeling för att effektivt behandla olika typer av hudproblem. Vår metod är idealisk för dig som önskar att förbättra hudens utseende genom att minska akne, acneärr, bristningar, melasma, pigmentfläckar, pormaskar, stora porer, rynkor, fina linjer och solskador. Våra behandlingsprotokoll är skräddarsydda och noggrant anpassade för att erbjuda en säker och icke-invasiv behandling, som ger en jämnare och mer estetiskt tilltalande hudstruktur. Vi på AcneSpecialisten strävar efter att ge varje klient en förbättrad hudkvalitet med våra professionella och effektiva kemiska peelingbehandlingar.</p>',
     image_small: 'https://via.placeholder.com/358x274.webp',
     image_large: 'https://via.placeholder.com/424x456.webp',
     image_alt: 'Ansiktsbehandlingar för problemhy',
@@ -24,36 +24,10 @@ $model = new Service(
     booking_url: 'https://bokadirekt.se',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
-    procedures: array(
-        new Procedure(
-            label: '1 behandling',
-            price: '995 kr',
-            savings: null,
-            booking_url: 'https://bokadirekt.se',
-            booking_url_label: 'Boka tid för behandling',
-            booking_url_title: 'Boka tid för behandling'
-        ),
-        new Procedure(
-            label: '3 behandlingar',
-            price: '2595 kr',
-            savings: '865 kr per besök',
-            booking_url: 'https://bokadirekt.se',
-            booking_url_label: 'Boka tid för behandling',
-            booking_url_title: 'Boka tid för behandling'
-        ),
-        new Procedure(
-            label: '5 behandlingar',
-            price: '3995 kr',
-            savings: '799 kr per besök',
-            booking_url: 'https://bokadirekt.se',
-            booking_url_label: 'Boka tid för behandling',
-            booking_url_title: 'Boka tid för behandling'
-        )
-    ),
 );
 
 $nav_buttons = array(
-    'about' => 'Om ansiktsbehandlingar mot problemhy',
+    'about' => 'Om Kemisk Peeling',
     'preparing' => 'Förberedelser',
     'process' => 'Processen',
     'types' => 'Typer',
@@ -67,9 +41,9 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Vad innebär ansiktsbehandlingar för problemhy?';
-$description_text = '<p class="p200">Denna behandling är skräddarsydd för dem med problemhy och erbjuder en effektiv start på hudens förbättring. Behandlingen rengör huden på djupet, särskilt nyttigt för de som lider av akne, finnar eller pormaskar. Med hjälp av en vapozone öppnas porerna upp genom ånga, vilket möjliggör en noggrann rengöring.</p>
-<p class="p200 mt-m">Oavsett om du har blandhy, oljig, kombinerad, torr eller känslig hud, eller lider av specifika tillstånd som rosacea, seborré, perioral dermatit eller stora porer, anpassar denna behandling sig efter dina unika behov. Målet är att återställa hudens balans och ge den lyster och vitalitet den förtjänar.</p>';
+$description_title = 'Vad är kemisk peeling?';
+$description_text = '<p class="p200">Kemisk peeling hos AcneSpecialisten innefattar en rad avancerade behandlingar som är speciellt utformade för att effektivt hantera olika hudproblem och förbättra hudens kvalitet på djupet. Genom att tillämpa specialiserade tekniker som Easy Phytic Peel, Easy Droxy Versicolor Peel, Easy TCA Pain Control och PRX-T33, arbetar vi på cellnivå för att varsamt exfoliera, förnya och vitalisera huden.</p>
+<p class="p200 mt-m">Våra behandlingar är idealiska för att ta itu med ett brett spektrum av hudproblem. Från att mildra acneärr och bekämpa aktiv akne, till att effektivt minska bristningar, melasma och pigmentfläckar. Dessutom är de mycket effektiva mot pormaskar och stora porer, rynkor och fina linjer samt solskadad hy. Varje kemisk peeling vi erbjuder är skräddarsydd för att matcha individens unika hudtyp och problem, och syftar till att återställa hudens naturliga balans. Vårt mål är att ge varje klient en hud som inte bara ser jämnare och klarare ut, utan som också känns friskare och mer ungdomlig.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
