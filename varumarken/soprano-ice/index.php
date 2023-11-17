@@ -13,7 +13,7 @@ $model = new Service(
     title: 'Soprano Ice',
     duration: null,
     price: 'Från 995 kr',
-    content: '<p class="p200">Splendor X representerar en banbrytande utveckling inom permanent hårborttagning med laser, och erbjuder en avancerad lösning för dig som önskar att permanent minska oönskat hår. Våra Splendor X-behandlingar är individuellt anpassade för att möta dina unika behov, och vi behandlar effektivt olika områden på kroppen. Denna toppmoderna metod använder en kombination av laserljus med dubbla våglängder för att målriktat och skonsamt avlägsna hårstrån genom att skada hårfolliklarna. Detta minskar hårproduktionen och resulterar i en hårfri och mjuk hud. Splendor X är inte bara effektiv för att avlägsna oönskat hår, utan bidrar även till att förbättra hudens kvalitet och textur, vilket gör den till en idealisk behandling för en rad olika hudtyper och hårfärger.</p>',
+    content: '<p class="p200">Soprano ICE är en revolution inom området för permanent hårborttagning med laser, som erbjuder en toppmodern lösning för dig som önskar att effektivt och varaktigt minska oönskad hårväxt. Denna avancerade teknik använder en kombination av flera våglängder för att på ett målriktat och skonsamt sätt avlägsna hårstrån genom att selektivt påverka hårfolliklarna. Detta leder till minskad hårproduktion och en hårfri, len hud. Det gör Soprano ICE till en idealisk behandlingsmetod för en mängd olika hudtyper och hårnyanser, och erbjuder en skonsam, men ändå effektiv lösning för permanent hårborttagning.</p>',
     image_small: 'https://via.placeholder.com/358x274.webp',
     image_large: 'https://via.placeholder.com/424x456.webp',
     image_alt: 'Permanent Hårborttagning',
@@ -27,7 +27,7 @@ $model = new Service(
 );
 
 $nav_buttons = array(
-    'about' => 'Om Splendor X',
+    'about' => 'Om Soprano Ice',
     'preparing' => 'Förberedelser',
     'process' => 'Processen',
     'types' => 'Typer',
@@ -41,19 +41,19 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Vad är Splendor X för permanent hårborttagning?';
-$description_text = '<p class="p200">Splendor X står i frontlinjen för innovation inom permanent hårborttagning. Denna avancerade metod kombinerar ljus med två olika våglängder för att effektivt behandla en mångfald av hårtyper. Med sin unika och effektiva kylmetod erbjuder Splendor X en nästan helt smärtfri upplevelse, vilket revolutionerar traditionell laserbehandling.</p>
-<p class="p200 mt-m">En av de stora fördelarna med Splendor X är dess flexibilitet. Till skillnad från äldre metoder är denna behandling inte begränsad av solbränd hud, vilket gör den tillgänglig för behandling året runt. Den är otroligt snabb och effektiv, och kräver ingen återhämtningstid, vilket gör den idealisk för alla områden på kroppen, från ansikte till ben. Splendor X behandlar de vanligaste nyanserna av hårstrån och fjun, men det bör noteras att gråa och röda hårstrån inte kan behandlas med denna teknik.</p>';
+$description_title = 'Vad är Soprano ICE för permanent hårborttagning?';
+$description_text = '<p class="p200">Soprano ICE är en innovation inom området permanent hårborttagning. Denna avancerade laserbehandling kombinerar flera våglängder för att effektivt och skonsamt behandla en bred variation av hårtyper. Känd för sin revolutionerande kylteknik, erbjuder Soprano ICE en nästan helt smärtfri upplevelse, vilket utmärker den från traditionella lasermetoder.</p>
+<p class="p200 mt-m">Soprano ICE:s stora fördel är dess mångsidighet och förmåga att behandla patienter året runt, även de med solbränd hud. Behandlingen är exceptionellt snabb och kräver ingen återhämtningstid, vilket gör den idealisk för alla områden på kroppen, inklusive känsliga områden som ansiktet. Soprano ICE är effektiv för de flesta hårtyper och nyanser, även om det bör noteras att vissa hårtyper som grått och mycket ljust hår kan vara svårare att behandla med denna metod.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelser inför Splendor X',
+        title: 'Förberedelser inför Soprano Ice',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
         image_alt: 'Förberedelser inför Splendor X',
         image_title: 'Förberedelser inför Splendor X',
-        content: '<p class="p200">Att förbereda sig noggrant inför en Splendor X-behandling är avgörande för att uppnå de bästa resultaten i permanent hårborttagning. Denna avancerade laserbehandling kräver specifika förberedelser för att säkerställa en effektiv och säker behandling. Innan din Splendor X-session är det viktigt att du avstår från att vaxa eller noppa hår i området som ska behandlas. Laseren behöver intakta hårfolliklar för att kunna verka effektivt. Istället bör du raka området noggrant dagen före din behandling.</p>
-        <p class="p200 mt-m">För att optimera säkerheten och effektiviteten av Splendor X-behandlingen bör du även undvika solning och användning av självbruningsprodukter under de veckor som leder upp till behandlingen. Solbränd hud kan påverka hur laserljuset absorberas och öka risken för biverkningar. Genom att följa dessa riktlinjer ser du till att din hud är väl förberedd för Splendor X-behandlingen, vilket bidrar till en smidig och framgångsrik hårborttagningsprocess.</p>',
+        content: '<p class="p200">Att noggrant förbereda sig inför en Soprano ICE-behandling är essentiellt för att uppnå optimala resultat i permanent hårborttagning. Denna toppmoderna laserbehandling kräver specifika förberedelser för att garantera en effektiv och säker session. Innan din Soprano ICE-behandling är det viktigt att du inte vaxar eller noppar hår i det område som ska behandlas. Lasern fungerar bäst när hårfolliklarna är intakta, så det rekommenderas att du raka området noga dagen före din behandling.</p>
+        <p class="p200 mt-m">För att maximera säkerheten och effektiviteten med Soprano ICE, bör du undvika solning och användning av självbruningsprodukter under veckorna före din behandling. Solbränd hud kan påverka behandlingens utfall och öka risken för biverkningar. Genom att följa dessa förberedelser säkerställer du att din hud är i bästa möjliga skick inför Soprano ICE-behandlingen, vilket bidrar till en effektiv och problemfri hårborttagningsprocess.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -69,13 +69,13 @@ $top_articles = array(
         ))
     ),
     'process' => new Article(
-        title: 'Hur går behandling med Splendor X till?',
+        title: 'Hur går behandling med Soprano Ice till?',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Hur går behandlingen med Splendor X till?',
-        image_title: 'Hur går behandlingen med Splendor X till?',
-        content: '<p class="p200">Splendor X-behandlingen revolutionerar den permanenta hårborttagningen med sin unika gelfria och därmed kladdfria metod. När du genomgår en Splendor X-behandling appliceras specialiserat laserljus på de områden där du önskar hårborttagning. Detta ljus absorberas av pigmentet i hårfolliklarna och omvandlas till värme. Denna värme skadar effektivt folliklarna utan att skada omgivande vävnad, vilket förhindrar framtida hårväxt på ett precist och säkert sätt.</p>
-        <p class="p200 mt-m">En av de största fördelarna med Splendor X är att den inte kräver användning av gel under behandlingen, vilket gör hela processen renare och bekvämare för dig som patient. Efter behandlingen kan det förekomma en viss rodnad och svullnad i de behandlade områdena, men dessa reaktioner är milda och försvinner vanligtvis snabbt. För att uppnå optimala och långvariga resultat kan det vara nödvändigt med flera behandlingssessioner, då hår växer i olika faser och varje strå måste behandlas vid rätt tidpunkt. Vår expertis och avancerade teknik med Splendor X säkerställer en effektiv, säker och bekväm upplevelse, vilket resulterar i slät och hårfri hud.</p>',
+        image_alt: 'Hur går behandlingen med Soprano Ice till?',
+        image_title: 'Hur går behandlingen med Soprano Ice till?',
+        content: '<p class="p200">Under en Soprano ICE-session appliceras specialiserat laserljus på de önskade områdena för hårborttagning. Denna laser använder en unik kombination av våglängder som absorberas av pigmentet i hårfolliklarna och omvandlas till värme, vilket effektivt skadar folliklarna och förhindrar framtida hårväxt.</p>
+        <p class="p200 mt-m">En viktig del av Soprano ICE-behandlingen är användningen av en speciell gel som hjälper till att leda laserljuset effektivt och öka patientkomforten. Denna gel hjälper till att skydda huden under behandlingen och bidrar till en jämnare fördelning av laserns värme. Efter behandlingen kan det uppstå en viss rodnad och svullnad i de behandlade områdena, men dessa symtom är normalt milda och övergående. För att uppnå bästa möjliga och långvariga resultat är det ofta nödvändigt med flera behandlingssessioner. Vår expertis och användning av Soprano ICE säkerställer en effektiv, säker och bekväm upplevelse för permanent hårborttagning, vilket resulterar i en mjuk och hårfri hud.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -120,8 +120,8 @@ $combos = array(
     ),
 );
 
-$treatment_areas_title = 'Behandlingsområden för Splendor X';
-$treatment_areas_text = '<p class="p200">Splendor X behandlar effektivt hårväxt på hela kroppen, från topp till tå.</p>';
+$treatment_areas_title = 'Behandlingsområden för Soprano Ice';
+$treatment_areas_text = '<p class="p200">Soprano Ice behandlar effektivt hårväxt på hela kroppen.</p>';
 
 $treatment_areas = array(
     new TreatmentArea(
@@ -452,11 +452,11 @@ $treatment_areas = array(
 );
 
 $bottom_articles = array('aftercare' => new Article(
-    title: 'Splendor X eftervård',
+    title: 'Soprano Ice eftervård',
     image_small: 'https://via.placeholder.com/358x272.webp',
     image_large: 'https://via.placeholder.com/872x456.webp',
-    image_alt: 'Splendor X eftervård',
-    image_title: 'Splendor X eftervård',
+    image_alt: 'Soprano Ice eftervård',
+    image_title: 'Soprano Ice eftervård',
     content: '<p class="p200">Eftervården efter en Splendor X-behandling för permanent hårborttagning är avgörande för att främja en förbättrad och effektiv återhämtning. Splendor X-teknologin är utformad för att vara skonsam mot huden, vilket bidrar till en snabbare återhämtning jämfört med traditionella laserbehandlingar. Dock är det viktigt att följa eftervårdsråden för att maximera denna fördel.</p>
     <p class="p200 mt-m">Efter behandlingen kan man uppleva mild rodnad och en lätt värmande känsla i de behandlade områdena. Dessa symtom är normala och bör avta relativt snabbt, vilket är ett tecken på den skonsamma naturen hos Splendor X. För att stödja och påskynda återhämtningsprocessen, rekommenderas det att man sköter det behandlade området varsamt, undviker direkt solljus och använder ett högt SPF-solskydd för att skydda huden.</p>
     <p class="p200 mt-m">Undvik att skrubba huden eller använda irriterande hudvårdsprodukter, och avstå från andra hårborttagningsmetoder som vaxning eller plockning. Genom att följa dessa steg säkerställer du att huden återhämtar sig effektivt och behåller de optimala resultaten från din Splendor X-behandling.</p>',
