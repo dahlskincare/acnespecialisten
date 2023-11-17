@@ -3,18 +3,17 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Permanent Hårborttagning - Effektiva Laserbehandlingar | Acnespecialisten';
-$seo_description = 'Upptäck AcneSpecialistens professionella laserbehandlingar för permanent hårborttagning. Avancerade lösningar för att effektivt avlägsna oönskat hår på ett säkert och långvarigt sätt. Få expertvägledning och behandlingar anpassade för din unika hud- och hårtyp.';
-$seo_keywords = 'permanent hårborttagning, laserhårborttagning, oönskat hår, effektiv hårborttagning, säker laserbehandling, hårfri hud, långvarig hårborttagning, avancerade laserbehandlingar';
+$seo_title = 'Splendor X Laserbehandling - Revolutionerande Permanent Hårborttagning | Acnespecialisten';
+$seo_description = 'Välkommen till AcneSpecialisten, där vi stolt presenterar Splendor X - nästa generations laser för permanent hårborttagning. Upplev en överlägsen behandling som effektivt tar bort oönskat hår för alla hudtyper. Splendor X kombinerar kraftfull teknik och skonsamhet för att ge dig snabba och hållbara resultat.';
+$seo_keywords = 'Splendor X, permanent hårborttagning, avancerad laserbehandling, effektiv hårborttagning, säkerhet och komfort, långvariga resultat, alla hudtyper, snabb hårborttagning';
 
-$seo_image = 'images/treatments/large/permanent-harborttagning.jpg';
-
+$seo_image = 'images/treatments/large/splendor-x-harborttagning.jpg';
 
 $model = new Service(
-    title: 'Permanent Hårborttagning',
+    title: 'Splendor X',
     duration: null,
     price: 'Från 995 kr',
-    content: '<p class="p200">Permanent hårborttagning med laser erbjuder en effektiv lösning för dig som önskar att minska oönskat hår permanent. Våra laserbehandlingar är skräddarsydda och anpassade efter dina specifika behov och områden där du önskar hårborttagning. Denna metod är utformad för att målriktat och effektivt avlägsna hårstrån genom att skada hårfolliklarna, vilket reducerar hårproduktionen och leder till hårfri hud. Med vår expertis och avancerade teknologi erbjuder vi en säker och bekväm upplevelse som inte bara avlägsnar oönskat hår utan också kan förbättra hudens kvalitet och textur.</p>',
+    content: '<p class="p200">Splendor X representerar en banbrytande utveckling inom permanent hårborttagning med laser, och erbjuder en avancerad lösning för dig som önskar att permanent minska oönskat hår. Våra Splendor X-behandlingar är individuellt anpassade för att möta dina unika behov, och vi behandlar effektivt olika områden på kroppen. Denna toppmoderna metod använder en kombination av laserljus med dubbla våglängder för att målriktat och skonsamt avlägsna hårstrån genom att skada hårfolliklarna. Detta minskar hårproduktionen och resulterar i en hårfri och mjuk hud. Splendor X är inte bara effektiv för att avlägsna oönskat hår, utan bidrar även till att förbättra hudens kvalitet och textur, vilket gör den till en idealisk behandling för en rad olika hudtyper och hårfärger.</p>',
     image_small: 'https://via.placeholder.com/358x274.webp',
     image_large: 'https://via.placeholder.com/424x456.webp',
     image_alt: 'Permanent Hårborttagning',
@@ -28,7 +27,7 @@ $model = new Service(
 );
 
 $nav_buttons = array(
-    'about' => 'Om Permanent Hårborttagning',
+    'about' => 'Om Splendor X',
     'preparing' => 'Förberedelser',
     'process' => 'Processen',
     'types' => 'Typer',
@@ -42,19 +41,19 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Vad är permanent hårborttagning med laser?';
-$description_text = '<p class="p200">Permanent hårborttagning med laser representerar den senaste och mest avancerade metoden för att effektivt och långvarigt reducera oönskat hår. Denna högteknologiska metod är effektiv på en mängd olika kroppsdelar, inklusive ansiktet, benen, armarna och bikinilinjen. Laserbehandlingarna fungerar genom att rikta energi direkt mot hårfolliklarna, vilket förhindrar framtida hårväxt på ett säkert och effektivt sätt.</p>
-<p class="p200 mt-m">Vår laserbehandling är anpassningsbar för alla hud- och hårtyper, och är ett utmärkt alternativ till traditionella metoder som rakning eller vaxning. Dess unika förmåga att arbeta på tre olika djupnivåer säkerställer en grundlig behandling och minimerar risken för missade hårstrån. Denna smärtfria och tidsbesparande metod ger dig slät och hårfri hud utan behov av återhämtningstid. Vi behandlar de flesta hårtyper och hudfärger, men notera att gråa, blonda eller röda hårstrån inte kan behandlas med denna teknik.</p>';
+$description_title = 'Vad är Splendor X för permanent hårborttagning?';
+$description_text = '<p class="p200">Splendor X står i frontlinjen för innovation inom permanent hårborttagning. Denna avancerade metod kombinerar ljus med två olika våglängder för att effektivt behandla en mångfald av hårtyper. Med sin unika och effektiva kylmetod erbjuder Splendor X en nästan helt smärtfri upplevelse, vilket revolutionerar traditionell laserbehandling.</p>
+<p class="p200 mt-m">En av de stora fördelarna med Splendor X är dess flexibilitet. Till skillnad från äldre metoder är denna behandling inte begränsad av solbränd hud, vilket gör den tillgänglig för behandling året runt. Den är otroligt snabb och effektiv, och kräver ingen återhämtningstid, vilket gör den idealisk för alla områden på kroppen, från ansikte till ben. Splendor X behandlar de vanligaste nyanserna av hårstrån och fjun, men det bör noteras att gråa och röda hårstrån inte kan behandlas med denna teknik.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelser inför permanent hårborttagning',
+        title: 'Förberedelser inför Splendor X',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Förberedelser inför permanent hårborttagning',
-        image_title: 'Förberedelser inför permanent hårborttagning',
-        content: '<p class="p200">Förberedelserna inför permanent hårborttagning är en viktig del av processen för att uppnå bästa möjliga resultat. Denna behandling är skräddarsydd för att effektivt och säkert reducera oönskat hår på olika delar av kroppen. Innan din laserbehandling rekommenderar vi att du undviker att vaxa eller noppa hår i behandlingsområdet, eftersom laserenergin fokuserar på hårfolliklarna som måste vara intakta för effektiv behandling. Istället ska området rakas dagen innan behandlingen.</p>
-        <p class="p200 mt-m">Det är också viktigt att skydda huden från solen och inte sola under de veckor som leder upp till din behandling, eftersom solbränd hud kan påverka effektiviteten av laserbehandlingen och öka risken för biverkningar. Dessa förberedelser hjälper till att säkerställa att din hud är i optimalt skick för att motta laserbehandlingen och bidrar till en smidigare och mer effektiv hårborttagningsprocess.</p>',
+        image_alt: 'Förberedelser inför Splendor X',
+        image_title: 'Förberedelser inför Splendor X',
+        content: '<p class="p200">Att förbereda sig noggrant inför en Splendor X-behandling är avgörande för att uppnå de bästa resultaten i permanent hårborttagning. Denna avancerade laserbehandling kräver specifika förberedelser för att säkerställa en effektiv och säker behandling. Innan din Splendor X-session är det viktigt att du avstår från att vaxa eller noppa hår i området som ska behandlas. Laseren behöver intakta hårfolliklar för att kunna verka effektivt. Istället bör du raka området noggrant dagen före din behandling.</p>
+        <p class="p200 mt-m">För att optimera säkerheten och effektiviteten av Splendor X-behandlingen bör du även undvika solning och användning av självbruningsprodukter under de veckor som leder upp till behandlingen. Solbränd hud kan påverka hur laserljuset absorberas och öka risken för biverkningar. Genom att följa dessa riktlinjer ser du till att din hud är väl förberedd för Splendor X-behandlingen, vilket bidrar till en smidig och framgångsrik hårborttagningsprocess.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -70,13 +69,13 @@ $top_articles = array(
         ))
     ),
     'process' => new Article(
-        title: 'Hur går behandlingen till?',
+        title: 'Hur går behandling med Splendor X till?',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Hur går behandlingen till?',
-        image_title: 'Hur går behandlingen till?',
-        content: '<p class="p200">Permanent hårborttagning med laser är en noggrant anpassad behandling som effektivt minskar oönskad hårväxt. Under behandlingen appliceras laserljus på de områden där hårborttagning önskas. Ljuset absorberas av pigmentet i hårfolliklarna och omvandlas till värme, vilket skadar folliklarna och därmed hindrar framtida hårväxt. Denna metod är noggrann och riktar sig selektivt mot håret, vilket minimerar påverkan på den omgivande huden. Behandlingen utförs med precision för att säkerställa optimal komfort och effektivitet.</p>
-        <p class="p200 mt-m">Efter behandlingen kan du märka en viss rodnad och svullnad i de behandlade områdena, vilket är en normal reaktion och bör avta inom kort. Eftersom hår växer i olika faser kan flera behandlingar behövas för att uppnå fullständigt och långvarigt resultat. Vår expertis inom permanent hårborttagning med laser garanterar en säker och effektiv process, vilket ger dig slät och hårfri hud.</p>',
+        image_alt: 'Hur går behandlingen med Splendor X till?',
+        image_title: 'Hur går behandlingen med Splendor X till?',
+        content: '<p class="p200">Splendor X-behandlingen revolutionerar den permanenta hårborttagningen med sin unika gelfria och därmed kladdfria metod. När du genomgår en Splendor X-behandling appliceras specialiserat laserljus på de områden där du önskar hårborttagning. Detta ljus absorberas av pigmentet i hårfolliklarna och omvandlas till värme. Denna värme skadar effektivt folliklarna utan att skada omgivande vävnad, vilket förhindrar framtida hårväxt på ett precist och säkert sätt.</p>
+        <p class="p200 mt-m">En av de största fördelarna med Splendor X är att den inte kräver användning av gel under behandlingen, vilket gör hela processen renare och bekvämare för dig som patient. Efter behandlingen kan det förekomma en viss rodnad och svullnad i de behandlade områdena, men dessa reaktioner är milda och försvinner vanligtvis snabbt. För att uppnå optimala och långvariga resultat kan det vara nödvändigt med flera behandlingssessioner, då hår växer i olika faser och varje strå måste behandlas vid rätt tidpunkt. Vår expertis och avancerade teknik med Splendor X säkerställer en effektiv, säker och bekväm upplevelse, vilket resulterar i slät och hårfri hud.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
