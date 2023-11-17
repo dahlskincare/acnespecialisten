@@ -574,21 +574,21 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'How many treatments are needed?',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            title: 'Hur många behandlingar behövs för permanent hårborttagning?',
+            text: 'Antalet behandlingar för permanent hårborttagning varierar beroende på individens hårtyp, hårfärg och det område som behandlas. Generellt krävs det 8-12 behandlingar för att uppnå optimala resultat. Varje behandling utförs med några veckors mellanrum för att följa hårets tillväxtcykel.'
         ),
         new Question(
-            title: 'Can my acne come back?',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            title: 'Är resultatet av permanent hårborttagning varaktigt?',
+            text: 'Permanent hårborttagning med laser ger långvariga resultat. Efter en fullständig behandlingsserie kan de flesta förvänta sig en betydande minskning av hårväxt. I vissa fall kan lättare underhållsbehandlingar krävas för att hantera eventuell återväxt av finare hårstrån.'
         ),
         new Question(
-            title: 'How do I get rid of my acne fast?',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            title: 'Hur förbereder jag mig inför en behandling för permanent hårborttagning?',
+            text: 'För att förbereda dig inför en laserbehandling för permanent hårborttagning bör du undvika att vaxa eller noppa håret i området som ska behandlas, men det är viktigt att raka området dagen innan behandlingen. Det är också viktigt att skydda huden från solen innan behandlingen för att undvika komplikationer och optimera resultatet.'
         ),
         new Question(
-            title: 'Do I have acne even if I only have one pimple?',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-        )
+            title: 'Är laserbehandling för permanent hårborttagning smärtsamt?',
+            text: 'Många upplever laserbehandling för permanent hårborttagning som mindre smärtsam än andra metoder som vaxning. Känslan beskrivs ofta som ett lätt snäpp mot huden. Smärtupplevelsen kan variera beroende på individens smärttröskel och det behandlade området.'
+        ),
     )
 );
 $faq_view_more = 'Se alla frågor & svar';
