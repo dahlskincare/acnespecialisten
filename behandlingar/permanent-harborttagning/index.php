@@ -3,58 +3,32 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'IPL-behandling mot Rosacea | Acnespecialisten';
-$seo_description = 'Acnespecialisten är experter på att använda IPL-teknik för effektiv behandling av rosacea. Genom att använda målinriktat ljus, kan vi signifikant minska rodnad och andra karakteristiska symtom på rosacea, vilket ger en jämnare hudton och förbättrar hudens övergripande utseende.';
-$seo_keywords = 'IPL-behandling för rosacea, reducera rodnad, behandling av rosacea, ljusbaserad hudterapi, förbättra hudton, minska symtom på rosacea, jämn hudton, avancerad hudvård, specialister på rosacea';
+$seo_title = 'Permanent Hårborttagning - Effektiva Laserbehandlingar | Acnespecialisten';
+$seo_description = 'Upptäck AcneSpecialistens professionella laserbehandlingar för permanent hårborttagning. Avancerade lösningar för att effektivt avlägsna oönskat hår på ett säkert och långvarigt sätt. Få expertvägledning och behandlingar anpassade för din unika hud- och hårtyp.';
+$seo_keywords = 'permanent hårborttagning, laserhårborttagning, oönskat hår, effektiv hårborttagning, säker laserbehandling, hårfri hud, långvarig hårborttagning, avancerade laserbehandlingar';
 
-$seo_image = 'images/treatments/large/ipl-rosacea.jpg';
+$seo_image = 'images/treatments/large/permanent-harborttagning.jpg';
 
 
 $model = new Service(
-    title: 'IPL mot Rosacea',
-    duration: '60 min',
-    price: 'Från 2332 kr',
-    content: '',
+    title: 'Permanent Hårborttagning',
+    duration: null,
+    price: 'Från 995 kr',
+    content: '<p class="p200">Permanent hårborttagning med laser erbjuder en effektiv lösning för dig som önskar att minska oönskat hår permanent. Våra laserbehandlingar är skräddarsydda och anpassade efter dina specifika behov och områden där du önskar hårborttagning. Denna metod är utformad för att målriktat och effektivt avlägsna hårstrån genom att skada hårfolliklarna, vilket reducerar hårproduktionen och leder till hårfri hud. Med vår expertis och avancerade teknologi erbjuder vi en säker och bekväm upplevelse som inte bara avlägsnar oönskat hår utan också kan förbättra hudens kvalitet och textur.</p>',
     image_small: 'https://via.placeholder.com/358x274.webp',
     image_large: 'https://via.placeholder.com/424x456.webp',
-    image_alt: 'IPL mot rosacea',
-    image_title: 'IPL mot rosacea',
+    image_alt: 'Permanent Hårborttagning',
+    image_title: 'Permanent Hårborttagning',
     consultation_url: 'https://bokadirekt.se',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
     booking_url: 'https://bokadirekt.se',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
-    procedures: array(
-        new Procedure(
-            label: '1 procedure',
-            price: '2595 kr',
-            savings: null,
-            booking_url: 'https://bokadirekt.se',
-            booking_url_label: 'Boka tid för behandling',
-            booking_url_title: 'Boka tid för behandling'
-        ),
-        new Procedure(
-            label: '3 procedures',
-            price: '6995 kr',
-            savings: 'Spara 790 kr',
-            booking_url: 'https://bokadirekt.se',
-            booking_url_label: 'Boka tid för behandling',
-            booking_url_title: 'Boka tid för behandling'
-        ),
-        new Procedure(
-            label: '5 procedures',
-            price: '9995 kr',
-            savings: 'Spara 2980 kr',
-            booking_url: 'https://bokadirekt.se',
-            booking_url_label: 'Boka tid för behandling',
-            booking_url_title: 'Boka tid för behandling'
-        )
-    ),
 );
 
 $nav_buttons = array(
-    'about' => 'Om IPL mot rosacea',
+    'about' => 'Om Permanent Hårborttagning',
     'preparing' => 'Förberedelser',
     'process' => 'Processen',
     'types' => 'Typer',
@@ -68,19 +42,19 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Vad är IPL-behandling mot rosacea?';
-$description_text = '<p class="p200">IPL, som står för Intensivt Pulserande Ljus, är en effektiv och icke-invasiv behandlingsmetod speciellt användbar för att hantera symtom på rosacea. Denna ljusbaserade teknik sänder ut pulser av ljus som varsamt tränger igenom huden och behandlar rosacea genom att minska rodnad och inflammation. IPL verkar genom att rikta in sig på de små blodkärlen som bidrar till rosaceas karakteristiska rodnad och synliga blodkärl.</p>
-    <p class="p200 mt-m">IPL för rosacea hjälper inte bara till att minska rodnad och förbättra hudens ton, utan kan även lugna huden och minska frekvensen av rosaceautbrott. Behandlingen anpassas individuellt för att passa varje patients unika hudförhållanden och är känd för att vara skonsam med minimala risker för biverkningar. Många patienter upplever signifikanta förbättringar efter bara några behandlingssessioner, vilket gör IPL till en populär och effektiv lösning för dem som kämpar med symtom på rosacea.</p>';
+$description_title = 'Vad är permanent hårborttagning med laser?';
+$description_text = '<p class="p200">Permanent hårborttagning med laser representerar den senaste och mest avancerade metoden för att effektivt och långvarigt reducera oönskat hår. Denna högteknologiska metod är effektiv på en mängd olika kroppsdelar, inklusive ansiktet, benen, armarna och bikinilinjen. Laserbehandlingarna fungerar genom att rikta energi direkt mot hårfolliklarna, vilket förhindrar framtida hårväxt på ett säkert och effektivt sätt.</p>
+<p class="p200 mt-m">Vår laserbehandling är anpassningsbar för alla hud- och hårtyper, och är ett utmärkt alternativ till traditionella metoder som rakning eller vaxning. Dess unika förmåga att arbeta på tre olika djupnivåer säkerställer en grundlig behandling och minimerar risken för missade hårstrån. Denna smärtfria och tidsbesparande metod ger dig slät och hårfri hud utan behov av återhämtningstid. Vi behandlar de flesta hårtyper och hudfärger, men notera att gråa, blonda eller röda hårstrån inte kan behandlas med denna teknik.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelser inför behandling med IPL mot rosacea',
+        title: 'Förberedelser inför permanent hårborttagning',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Förberedelser inför behandling med IPL mot rosacea',
-        image_title: 'Förberedelser inför behandling med IPL mot rosacea',
-        content: '<p class="p200">Att förbereda sig inför en IPL-behandling mot rosacea innebär att vidta vissa försiktighetsåtgärder för att optimera behandlingens effektivitet och säkerhet. Din förberedelse börjar med en noggrann konsultation hos en erfaren hudterapeut som kommer att utvärdera din hudtyp och rosaceas tillstånd. Under denna konsultation diskuteras en skräddarsydd behandlingsplan som är anpassad för att ge bästa möjliga resultat.</p>
-        <p class="p200 mt-m">För att förbereda din hud för behandlingen är det viktigt att du undviker solning och användning av självbrunande produkter minst två veckor före din session. Detta är för att minska risken för ojämn pigmentering, då IPL behandlar pigment och blodkärl i huden. Du bör även undvika hudvårdsprodukter som innehåller retinol, starka syror eller andra exfolierande ämnen under veckan före behandlingen. Detta för att säkerställa att din hud inte är överkänslig eller irriterad vid behandlingstillfället. Din hudterapeut kommer att ge dig fullständiga instruktioner om hur du bäst förbereder dig inför din IPL-behandling, och vilka steg du bör ta efteråt för att främja en smidig och effektiv läkningsprocess.</p>',
+        image_alt: 'Förberedelser inför permanent hårborttagning',
+        image_title: 'Förberedelser inför permanent hårborttagning',
+        content: '<p class="p200">Förberedelserna inför permanent hårborttagning är en viktig del av processen för att uppnå bästa möjliga resultat. Denna behandling är skräddarsydd för att effektivt och säkert reducera oönskat hår på olika delar av kroppen. Innan din laserbehandling rekommenderar vi att du undviker att vaxa eller noppa hår i behandlingsområdet, eftersom laserenergin fokuserar på hårfolliklarna som måste vara intakta för effektiv behandling. Istället ska området rakas dagen innan behandlingen.</p>
+        <p class="p200 mt-m">Det är också viktigt att skydda huden från solen och inte sola under de veckor som leder upp till din behandling, eftersom solbränd hud kan påverka effektiviteten av laserbehandlingen och öka risken för biverkningar. Dessa förberedelser hjälper till att säkerställa att din hud är i optimalt skick för att motta laserbehandlingen och bidrar till en smidigare och mer effektiv hårborttagningsprocess.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -96,14 +70,13 @@ $top_articles = array(
         ))
     ),
     'process' => new Article(
-        title: 'Hur går en IPL mot rosacea till?',
+        title: 'Hur går behandlingen till?',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Hur går en IPL mot rosacea till?',
-        image_title: 'Hur går en IPL mot rosacea till',
-        content: '<p class="p200">IPL-behandling mot rosacea är en speciell procedur som använder Intensivt Pulserande Ljus för att effektivt minska rodnad och andra symptom associerade med rosacea. När du kommer till kliniken, kommer vi först att rengöra din hud noggrant för att avlägsna eventuell makeup och orenheter. Dina ögon skyddas också med speciella glasögon för att förhindra exponering för det intensiva ljuset.</p>
-        <p class="p200 mt-m">Vår IPL-enhet ställs sedan in för att skräddarsy ljuspulsens intensitet och våglängd till ditt specifika hudtillstånd. Under behandlingen appliceras korta, intensiva ljuspulser direkt på de områden av huden som påverkas av rosacea. Ljuset absorberas av de blodkärl som bidrar till rodnad, vilket minskar deras framträdande och lindrar andra symptom på rosacea utan att skada den omgivande huden.</p>
-        <p class="p200 mt-m">Efter behandlingen kan det behandlade området kännas varmt och se något rött ut, vilket liknar känslan av en mild solbränna. Dessa symtom är vanligtvis övergående och bör lindras inom några timmar till några dagar. Resultaten av IPL-behandlingen blir ofta synliga över tid, med en gradvis minskning av hudrodnad och förbättring av hudens övergripande tillstånd. Din hudterapeut kommer att ge dig råd om lämplig eftervård och rekommendera eventuella uppföljningsbehandlingar för att upprätthålla och förbättra resultaten från din IPL-behandling mot rosacea.</p>',
+        image_alt: 'Hur går behandlingen till?',
+        image_title: 'Hur går behandlingen till?',
+        content: '<p class="p200">Permanent hårborttagning med laser är en noggrant anpassad behandling som effektivt minskar oönskad hårväxt. Under behandlingen appliceras laserljus på de områden där hårborttagning önskas. Ljuset absorberas av pigmentet i hårfolliklarna och omvandlas till värme, vilket skadar folliklarna och därmed hindrar framtida hårväxt. Denna metod är noggrann och riktar sig selektivt mot håret, vilket minimerar påverkan på den omgivande huden. Behandlingen utförs med precision för att säkerställa optimal komfort och effektivitet.</p>
+        <p class="p200 mt-m">Efter behandlingen kan du märka en viss rodnad och svullnad i de behandlade områdena, vilket är en normal reaktion och bör avta inom kort. Eftersom hår växer i olika faser kan flera behandlingar behövas för att uppnå fullständigt och långvarigt resultat. Vår expertis inom permanent hårborttagning med laser garanterar en säker och effektiv process, vilket ger dig slät och hårfri hud.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -120,8 +93,37 @@ $top_articles = array(
     ),
 );
 
-$treatment_areas_title = 'Behandlingsområden för IPL mot rosacea';
-$treatment_areas_text = '<p class="p200">Med IPL behandlar vi både hela och delar av ansiktet.</p>';
+$combos_title = 'Populära behandlingskombinationer';
+$combos = array(
+    new ServiceCombo(
+        name: 'Bikinilinje + Hela ben',
+        image_small: 'https://via.placeholder.com/200x200.webp',
+        image_large: 'https://via.placeholder.com/361x274.webp',
+        image_alt: 'Bikinilinje + Hela ben',
+        image_title: 'Bikinilinje + Hela ben',
+        duration: '80 min',
+        price: '4190 kr',
+        booking_url: 'https://bokadirekt.se',
+        booking_url_label: 'Boka tid för behandling',
+        booking_url_title: 'Boka tid för behandling',
+        items: array(
+            new ServiceComboItem(
+                title: 'Bikinilinje',
+                price: '1595 kr',
+                savings: null,
+            ),
+            new ServiceComboItem(
+                title: 'Hela ben',
+                price: '2595 kr',
+                savings: null,
+            )
+        )
+    ),
+);
+
+$treatment_areas_title = 'Behandlingsområden för Permanent Hårborttagning';
+$treatment_areas_text = '<p class="p200">Permanent hårborttagning med laser är en effektiv metod för att avlägsna oönskat hår från olika delar av kroppen. Vi behandlar hela kroppen från ansiktet till intima områden.</p>';
+
 $treatment_areas = array(
     new TreatmentArea(
         image_small: 'https://via.placeholder.com/361x274.webm',
@@ -129,110 +131,354 @@ $treatment_areas = array(
         image_alt: 'Ansikte',
         image_title: 'Ansikte',
         title: 'Ansikte',
-        description: '<p class="p200">IPL kan utföras i hela ansiktet eller på utvalda zoner.</p>',
+        description: '<p class="p200">Kom ihåg att alltid börja med en kostnadsfri konsultation.</p>',
         items: array(
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
-                image_alt: 'Ansikte',
-                image_title: 'Ansikte',
-                title: 'IPL för Ansikte',
-                duration: '50 min',
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'Hela Ansiktet',
+                image_title: 'Hela Ansiktet',
+                title: 'Hela Ansiktet',
+                duration: '30 min',
+                price: '1995 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'Öron',
+                image_title: 'Öron',
+                title: 'Öron',
+                duration: '20 min',
+                price: '995 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'Kinder',
+                image_title: 'Kinder',
+                title: 'Kinder',
+                duration: '20 min',
+                price: '995 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'Överläpp',
+                image_title: 'Överläpp',
+                title: 'Överläpp',
+                duration: '20 min',
+                price: '995 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'Haka',
+                image_title: 'Haka',
+                title: 'Haka',
+                duration: '20 min',
+                price: '995 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'Skägglinje',
+                image_title: 'Skägglinje',
+                title: 'Skägglinje',
+                duration: '20 min',
+                price: '995 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+        )
+    ),
+    new TreatmentArea(
+        image_small: 'https://via.placeholder.com/361x274.webm',
+        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_alt: 'Kropp',
+        image_title: 'Kropp',
+        title: 'Kropp',
+        description: '<p class="p200">Kom ihåg att alltid börja med en kostnadsfri konsultation.</p>',
+        items: array(
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webm',
+                image_alt: 'Axlar',
+                image_title: 'Axlar',
+                title: 'Axlar',
+                duration: '30 min',
+                price: '1595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webm',
+                image_alt: 'Armhålor',
+                image_title: 'Armhålor',
+                title: 'Armhålor',
+                duration: '30 min',
+                price: '1595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webm',
+                image_alt: 'Bröst',
+                image_title: 'Bröst',
+                title: 'Bröst',
+                duration: '30 min',
+                price: '1595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webm',
+                image_alt: 'Mage',
+                image_title: 'Mage',
+                title: 'Mage',
+                duration: '30 min',
+                price: '1595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webm',
+                image_alt: 'Rygg',
+                image_title: 'Rygg',
+                title: 'Rygg',
+                duration: '40 min',
                 price: '2595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för IPL-behandling av ansiktet'
+                url_title: 'Boka tid för behandling'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webp',
-                image_alt: 'Näsa',
-                image_title: 'Näsa',
-                title: 'IPL för Näsa',
+                image: 'https://via.placeholder.com/102x102.webm',
+                image_alt: 'Svank',
+                image_title: 'Svank',
+                title: 'Svank',
                 duration: '30 min',
                 price: '1595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för IPL-behandling av näsan'
+                url_title: 'Boka tid för behandling'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webp',
-                image_alt: 'Kinder',
-                image_title: 'Kinder',
-                title: 'IPL för Kinder',
+                image: 'https://via.placeholder.com/102x102.webm',
+                image_alt: 'Armar',
+                image_title: 'Armar',
+                title: 'Armar',
+                duration: '40 min',
+                price: '1995 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webm',
+                image_alt: 'Händer & Fingrar',
+                image_title: 'Händer & Fingrar',
+                title: 'Händer & Fingrar',
                 duration: '30 min',
                 price: '1595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för IPL-behandling av kinderna',
+                url_title: 'Boka tid för behandling'
+            ),
+        )
+    ),
+    new TreatmentArea(
+        image_small: 'https://via.placeholder.com/361x274.webm',
+        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_alt: 'Intim (Kvinna)',
+        image_title: 'Intim (Kvinna)',
+        title: 'Intim (Kvinna)',
+        description: '<p class="p200">Kom ihåg att alltid börja med en kostnadsfri konsultation.</p>',
+        items: array(
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'Bikinilinje',
+                image_title: 'Bikinilinje',
+                title: 'Bikinilinje',
+                duration: '30 min',
+                price: '1595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'String',
+                image_title: 'String',
+                title: 'String',
+                duration: '30 min',
+                price: '1595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'Brasiliansk + Runt Anus',
+                image_title: 'Brasiliansk + Runt Anus',
+                title: 'Brasiliansk + Runt Anus',
+                duration: '40 min',
+                price: '2595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'Runt Anus',
+                image_title: 'Runt Anus',
+                title: 'Runt Anus',
+                duration: '30 min',
+                price: '1595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+        )
+    ),
+    new TreatmentArea(
+        image_small: 'https://via.placeholder.com/361x274.webm',
+        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_alt: 'Intim (Man)',
+        image_title: 'Intim (Man)',
+        title: 'Intim (Man)',
+        description: '<p class="p200">Kom ihåg att alltid börja med en kostnadsfri konsultation.</p>',
+        items: array(
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'Konsultation - Manzilian',
+                image_title: 'Konsultation - Manzilian',
+                title: 'Konsultation - Manzilian',
+                duration: '20 min',
+                price: 'Gratis',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'Manzillian',
+                image_title: 'Manzillian',
+                title: 'Manzillian',
+                duration: '60 min',
+                price: '2595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'Manzillian + Runt Anus',
+                image_title: 'Manzillian + Runt Anus',
+                title: 'Manzillian + Runt Anus',
+                duration: '60 min',
+                price: '2995 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'Runt Anus',
+                image_title: 'Runt Anus',
+                title: 'Runt Anus',
+                duration: '40 min',
+                price: '1995 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+        )
+    ),
+    new TreatmentArea(
+        image_small: 'https://via.placeholder.com/361x274.webm',
+        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_alt: 'Ben',
+        image_title: 'Ben',
+        title: 'Ben',
+        description: '<p class="p200">Kom ihåg att alltid börja med en kostnadsfri konsultation.</p>',
+        items: array(
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'Halva Ben',
+                image_title: 'Halva Ben',
+                title: 'Halva Ben',
+                duration: '40 min',
+                price: '1995 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'Hela Ben',
+                image_title: 'Hela Ben',
+                title: 'Hela Ben',
+                duration: '60 min',
+                price: '2595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'Fötter & Tår',
+                image_title: 'Fötter & Tår',
+                title: 'Fötter & Tår',
+                duration: '30 min',
+                price: '1295 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
             ),
         )
     ),
 );
 
 $bottom_articles = array('aftercare' => new Article(
-    title: 'Eftervård för IPL-behandling mot rosacea',
+    title: 'Eftervård för Permanent Hårborttagning',
     image_small: 'https://via.placeholder.com/358x272.webp',
     image_large: 'https://via.placeholder.com/872x456.webp',
-    image_alt: 'Eftervård för IPL-behandling mot rosacea',
-    image_title: 'Eftervård för IPL-behandling mot rosacea',
-    content: '<p class="p200">Eftervården är en viktig del av din återhämtningsprocess efter en IPL-behandling mot rosacea. Omedelbart efter behandlingen kan det behandlade området uppvisa viss rodnad och i vissa fall en lätt svullnad. Dessa reaktioner är normala och bör avta inom kort. För att minimera risken för irritation och infektion är det viktigt att du inte rör området med smutsiga händer och undviker att applicera makeup eller parfymerade produkter under de första 24 timmarna efter behandlingen.</p>
-    <p class="p200 mt-m">Under de första dagarna efter din IPL-behandling rekommenderas det att du undviker stark fysisk ansträngning, bastubad och långa heta duschar, då dessa aktiviteter kan förvärra svullnad och irritation. Det är även viktigt att skydda din hud mot solen. Använd en solskyddskräm med hög SPF regelbundet, särskilt på det behandlade området, för att undvika ytterligare solskador och stödja läkningsprocessen. Använd gärna milda och återfuktande hudvårdsprodukter som inte innehåller irriterande ingredienser för att lugna huden och upprätthålla dess fuktbalans.</p>
-    <p class="p200 mt-m">Följ noga de eftervårdsinstruktioner som du får från din hudterapeut. Om du har några frågor eller funderingar kring din återhämtning efter behandlingen, tveka inte att kontakta din klinik. Ytterligare uppföljande behandlingar kan rekommenderas för att bibehålla och förbättra resultaten av din IPL-behandling mot rosacea.</p>',
+    image_alt: 'Eftervård för Permanent Hårborttagning',
+    image_title: 'Eftervård för Permanent Hårborttagning',
+    content: '<p class="p200">Efter en behandling med permanent hårborttagning är en smidig återhämtning avgörande för att säkerställa de bästa resultaten. Du kan förvänta dig en viss rodnad och en lätt värmande känsla i det behandlade området, men dessa symtom är vanligtvis milda och avtar snabbt. För att underlätta återhämtningen, rekommenderar vi att du tar hand om området försiktigt och undviker direkt exponering för solen under de första dagarna efter behandlingen.</p>
+    <p class="p200 mt-m">Undvik hård skrubbning och använd inte irriterande hudvårdsprodukter. Det är också viktigt att undvika andra hårborttagningsmetoder som vaxning eller plockning under läkningsperioden. Använd ett högt SPF-solskydd om du måste vara utomhus, för att skydda huden från ytterligare skador och stödja återhämtningsprocessen.</p>
+    <p class="p200 mt-m">Om du upplever någon ovanlig irritation eller har frågor om din återhämtning, är det viktigt att du kontaktar oss. En korrekt skötsel efter din behandling för permanent hårborttagning är nyckeln till en snabb och problemfri återhämtning, och hjälper till att upprätthålla och optimera behandlingens resultat.</p>',
     tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
 
-$treatment_steps = array(
-      new TreatmentStep(
-            title: 'Identifiera',
-            content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din rosacea och skapar en individuell behandlingsplan.',
-            url_label: 'Få gratis konsultation',
-            url: 'hudkonsultation',
-            url_title: 'Boka din kostnadsfria hudkonsultation idag'
-      ),
-      new TreatmentStep(
-            title: 'Behandla',
-            content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika rosacea, så att du snabbt och säkert blir av med problemet.',
-            url_label: 'Se behandlingar',
-            url: 'behandlingar/rosacea',
-            url_title: 'Utforska våra skräddarsydda rosaceabehandlingar'
-      ),
-      new TreatmentStep(
-            title: 'Förebygga',
-            content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny rosacea och hålla din hud i balans.',
-            url_label: 'Se produkter',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/rosacea',
-            url_title: 'Hitta de bästa produkterna för att förebygga rosacea'
-      ),
-      new TreatmentStep(
-            title: 'Reparera',
-            content: 'När rosacean är borta fokuserar vi på att reducera eventuella ytliga blodkärl med behandlingsmetoder som IPL för en jämn och problemfri hud.',
-            url_label: 'Se IPL-behandlingar',
-            url: 'behandlingar/rosacea',
-            url_title: 'Upptäck effektiva behandlingar för ytliga blodkärl'
-      ),
-
-);
-
-$service_brands_title = 'Märken för IPL';
-$service_brands_text = '<p class="p200">Vi utför IPL mot rosacea med Alma Rejuve DyeVL, Alma Harmony XL, Photonova som är de bästa maskinerna på marknaden.</p>';
+$service_brands_title = 'Märken för Permanent Hårborttagning';
+$service_brands_text = '<p class="p200">Vi utför Permanent Hårborttagning med Splendor X och Soprano Ice som är de två bästa maskinerna på marknaden.</p>';
 $service_brands = array(
 
     new Brand(
-        label: 'Alma Rejuve DyeVL',
-        image: 'images/brands/alma-rejuve-dyevl.svg',
-        image_alt: 'Alma Rejuve DyeVL',
-        image_title: 'Alma Rejuve DyeVL',
+        label: 'Splendor X',
+        image: 'images/brands/splendor-x.svg',
+        image_alt: 'Splendor X',
+        image_title: 'Splendor X',
     ),
     new Brand(
-        label: 'Alma Harmony XL',
-        image: 'images/brands/alma-harmony-xl.svg',
-        image_alt: 'Alma Harmony XL',
-        image_title: 'Alma Harmony XL',
-    ),
-    new Brand(
-        label: 'Powerlite Photonova',
-        image: 'images/brands/powerlite-photonova.svg',
-        image_alt: 'Powerlite Photonova',
-        image_title: 'Powerlite Photonova',
+        label: 'Soprano Ice',
+        image: 'images/brands/soprano-ice.svg',
+        image_alt: 'Soprano Ice',
+        image_title: 'Soprano Ice',
     ),
 );
 
@@ -328,16 +574,20 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Hur många behandlingar med IPL krävs för att behandla rosacea?',
-            text: 'Antalet IPL-behandlingar för rosacea varierar beroende på hudens tillstånd och svårighetsgraden av rosacea. Generellt kan det krävas 3-8 behandlingar med intervaller på ungefär 4 veckor för att se en märkbar förbättring. Din hudterapeut kommer att utforma en personligt anpassad behandlingsplan under den initiala konsultationen.'
+            title: 'Hur många behandlingar behövs för permanent hårborttagning?',
+            text: 'Antalet behandlingar för permanent hårborttagning varierar beroende på individens hårtyp, hårfärg och det område som behandlas. Generellt krävs det 8-12 behandlingar för att uppnå optimala resultat. Varje behandling utförs med några veckors mellanrum för att följa hårets tillväxtcykel.'
         ),
         new Question(
-            title: 'Kan symtomen på rosacea återkomma efter en IPL-behandling?',
-            text: 'IPL-behandling kan ge betydande förbättringar av rosaceas symtom, men det är viktigt att förstå att rosacea är en kronisk hudåkomma som kan kräva kontinuerlig hantering. Även om IPL kan minska rodnad och blodkärl associerade med rosacea, kan regelbundna uppföljningsbehandlingar behövas för att upprätthålla resultaten, särskilt om nya symtom uppstår.'
+            title: 'Är resultatet av permanent hårborttagning varaktigt?',
+            text: 'Permanent hårborttagning med laser ger långvariga resultat. Efter en fullständig behandlingsserie kan de flesta förvänta sig en betydande minskning av hårväxt. I vissa fall kan lättare underhållsbehandlingar krävas för att hantera eventuell återväxt av finare hårstrån.'
         ),
         new Question(
-            title: 'När börjar jag se resultat efter IPL-behandling mot rosacea?',
-            text: 'De första resultaten av IPL-behandling mot rosacea kan ofta märkas inom några dagar till en vecka efter behandlingen, med fortsatt förbättring över tid. De flesta patienter upplever en gradvis minskning av rodnad och synligheten av blodkärl efter varje behandling. Fullständiga resultat och den långsiktiga effekten kan dock variera, och det kan krävas flera behandlingar för att uppnå optimala resultat.'
+            title: 'Hur förbereder jag mig inför en behandling för permanent hårborttagning?',
+            text: 'För att förbereda dig inför en laserbehandling för permanent hårborttagning bör du undvika att vaxa eller noppa håret i området som ska behandlas, men det är viktigt att raka området dagen innan behandlingen. Det är också viktigt att skydda huden från solen innan behandlingen för att undvika komplikationer och optimera resultatet.'
+        ),
+        new Question(
+            title: 'Är laserbehandling för permanent hårborttagning smärtsamt?',
+            text: 'Många upplever laserbehandling för permanent hårborttagning som mindre smärtsam än andra metoder som vaxning. Känslan beskrivs ofta som ett lätt snäpp mot huden. Smärtupplevelsen kan variera beroende på individens smärttröskel och det behandlade området.'
         ),
     )
 );
@@ -702,17 +952,6 @@ $all_brands = array(
                         </div>
                     </section>
                 <?php } ?>
-                <section id="approach">
-                      <h2 class="h500 l10n">Metoden</h2>
-                      <hr class="mt-xl mb-xl3 is-hidden-mobile">
-                      <div class="columns is-variable is-2">
-                            <?php for ($i = 0; $i < sizeof($treatment_steps); $i++) {
-                                  echo '<div class="column">';
-                                  include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/treatment_step_card/treatment_step_card.php');
-                                  echo '</div>';
-                            } ?>
-                      </div>
-                </section>
                 <section id="results" class="large-margin">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php') ?>
                 </section>

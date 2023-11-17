@@ -3,18 +3,17 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'IPL för Blodkärl, Pigmentfläckar & Rosacea | Acnespecialisten';
-$seo_description = 'Specialiserade på att behandla ytliga blodkärl, pigmentfläckar och rosacea, erbjuder AcneSpecialisten avancerade IPL-behandlingar. Denna ljusbaserade teknologi riktar sig selektivt mot hudens ojämnheter, reducerar synligheten av blodkärl, pigmentering och symtom på rosacea för en klarare och mer harmonisk hudton.';
-$seo_keywords = 'IPL-behandling, ytliga blodkärl, pigmentfläckar, rosacea-behandling, ljusbaserad hudföryngring, hudjämnhetsförbättring, reducera rödhet, ljusa upp pigmentering, harmonisk hudton, avancerad hudvård';
+$seo_title = 'Powerlite Photonova - Effektiv IPL behandling | AcneSpecialisten';
+$seo_description = 'Hos AcneSpecialisten välkomnar vi Powerlite Photonova, en effektiv IPL-behandling utformad för att effektivt behandla allt från pigmentfläckar, ytliga blodkärl och rosacea. Med Powerlite Photonova uppnår vi enastående resultat genom att förbättra hudens ton och textur, och skapar en jämnare och klarare hudton.';
+$seo_keywords = 'Powerlite Photonova, IPL-behandling, avancerad hudvård, behandla pigmentfläckar, ytliga blodkärl, rosacea, hudföryngring, jämn hudton, klar hud, AcneSpecialisten';
 
-$seo_image = 'images/treatments/large/ipl.jpg';
-
+$seo_image = 'images/treatments/large/powerlite-photonova-ipl.jpg';
 
 $model = new Service(
-    title: 'IPL',
+    title: 'Powerlite Photonova',
     duration: null,
     price: 'Från 2332 kr',
-    content: '<p class="p200">IPL är en idealisk lösning för dig som söker en jämnare hudton genom att reducera pigmenteringar och ytliga blodkärl eller strävar efter att lindra symtomen på rosacea. Våra behandlingar är skräddarsydda och anpassade efter dina specifika hudbehov, och utformade för att effektivt stimulera hudens egna läkningsmekanismer och förbättra hudens övergripande kondition.</p>',
+    content: '<p class="p200">Powerlite Photonova erbjuder effektiv IPL behandling för dig som strävar efter en jämnare hudton och önskar behandla hudproblem som pigmentfläckar, ytliga blodkärl eller lindra symtomen på rosacea. Powerlite Photonova utnyttjar avancerad ljusenergi för att effektivt stimulera hudens läkningsmekanismer, vilket bidrar till en betydande förbättring av hudens kvalitet och utseende, resulterande i en klarare och mer enhetlig hudton.</p>',
     image_small: 'https://via.placeholder.com/358x274.webp',
     image_large: 'https://via.placeholder.com/424x456.webp',
     image_alt: 'IPL',
@@ -28,7 +27,7 @@ $model = new Service(
 );
 
 $nav_buttons = array(
-    'about' => 'Om IPL',
+    'about' => 'Om Powerlite Photonova',
     'preparing' => 'Förberedelser',
     'process' => 'Processen',
     'types' => 'Typer',
@@ -42,19 +41,19 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'IPL - vad är det?';
-$description_text = '<p class="p200">IPL, som står för Intensivt Pulserande Ljus, är en ljusbaserad behandlingsmetod som används för att förbättra hudens färg och textur utan kirurgi. Behandlingen innebär användning av ljuspulser som genomtränger huden och behandlar olika tillstånd genom att rikta in sig på melanin i pigmentfläckar och hemoglobin i blodkärl. Denna teknik är särskilt effektiv för att reducera ytliga blodkärl, pigmentfläckar och symtom på rosacea.</p>
-    <p class="p200 mt-m">IPL-teknologin är mångsidig och kan anpassas efter patientens individuella hudförhållanden, vilket gör det möjligt att behandla en rad hudproblem med precision. Behandlingen är vanligtvis skonsam med få biverkningar, och patienter kan återgå till sina normala aktiviteter kort efter en session. Det är en populär behandlingsmetod för att främja en mer jämn hudton, minska rödhet och bruna fläckar, samt att förbättra hudens övergripande utseende.</p>';
+$description_title = 'Vad är Powerlite Photonova?';
+$description_text = '<p class="p200">Powerlite är varumärket bakom Photonova, en avancerad IPL (Intensivt Pulserande Ljus)-maskin, designad för att effektivt förbättra hudens ton och textur. Photonova, som är en del av Powerlites produktlinje, använder högteknologisk IPL-teknik skräddarsydd för att behandla en rad hudtillstånd, såsom pigmentfläckar, ytliga blodkärl och rosacea, genom att specifikt rikta in sig på och behandla melanin och hemoglobin i huden.</p>
+<p class="p200 mt-m">Photonova-maskinen under Powerlite-varumärket skiljer sig från traditionella IPL-behandlingar genom sin avancerade teknologi som möjliggör mer preciserade och effektiva behandlingar av olika hudproblem. Med dess förmåga att finjusteras efter varje individs hudbehov, erbjuder Photonova en säker och skonsam upplevelse med minimala biverkningar. Denna behandlingsmetod möjliggör snabb återgång till vardagsaktiviteter och är idealisk för de som önskar en jämnare hudton och en förbättrad övergripande hudkvalitet.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelser inför behandling med IPL',
+        title: 'Förberedelser inför behandling med Powerlite Photonova',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Förberedelser inför behandling med IPL',
-        image_title: 'Förberedelser inför behandling med IPL',
-        content: '<p class="p200">Inför en IPL-behandling är det viktigt att följa några grundläggande steg för att säkerställa att din hud är i bästa möjliga skick och redo för behandlingen. En konsultation med en erfaren hudterapeut är det första steget, där hudens kondition noggrant analyseras och en individuell behandlingsplan utformas för att uppnå optimala resultat med IPL-tekniken.</p>
-        <p class="p200 mt-m">För att förbereda huden bör du undvika solning och inte använda självbrunande produkter minst två veckor före behandlingen för att minska risken för pigmentförändringar. IPL-behandling kräver att huden är så naturligt i sin ton som möjligt för att ljuspulserna ska kunna rikta sig korrekt mot oönskade pigment eller blodkärl. Det är också viktigt att undvika produkter med retinol eller andra starka exfolierande ingredienser under veckan innan din behandling. Din hudterapeut kommer att informera dig om ytterligare förberedelser och ge dig råd om hur du bäst tar hand om din hud både före och efter din IPL-session för att säkerställa en trygg behandling och effektiv läkning.</p>',
+        image_alt: 'Förberedelser inför behandling med Powerlite Photonova',
+        image_title: 'Förberedelser inför behandling med Powerlite Photonova',
+        content: '<p class="p200">Att förbereda sig inför en Powerlite Photonova-behandling är ett viktigt steg för att säkerställa att din hud är i bästa möjliga skick. Det första steget är en konsultation med en erfaren hudterapeut där din hudtyp och dina unika behov noggrant utvärderas. Under denna konsultation skapas en individuellt anpassad behandlingsplan med Powerlite Photonova-tekniken för att uppnå de bästa resultaten.</p>
+        <p class="p200 mt-m">För att förbereda din hud bör du undvika solning och inte använda självbrunande produkter minst två veckor före behandlingen för att minska risken för oönskade pigmentförändringar. Detta är viktigt eftersom Powerlite Photonova-behandlingen är mest effektiv när huden är i sin naturliga ton. Undvik även hudvårdsprodukter som innehåller starka exfolierande ingredienser under veckan innan din behandling. Din hudterapeut kommer att ge dig omfattande råd och instruktioner för förberedelser och eftervård, för att säkerställa en säker behandlingsupplevelse och en effektiv återhämtningsprocess.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -70,14 +69,14 @@ $top_articles = array(
         ))
     ),
     'process' => new Article(
-        title: 'Hur går en IPL behandling till?',
+        title: 'Hur går en Powerlite Photonova behandling till?',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Hur går en IPL behandling till?',
-        image_title: 'Hur går en IPL behandling till?',
-        content: '<p class="p200">IPL-behandling är en effektiv metod för hudföryngring och korrigering av olika hudproblem såsom pigmentfläckar, ytliga blodkärl och rosacea. När du anländer till vår klinik, kommer din hud att rengöras grundligt för att avlägsna makeup och orenheter. Därefter appliceras ett särskilt skydd på dina ögon för att säkerställa att de inte utsätts för det intensiva ljuset.</p>
-        <p class="p200 mt-m">Vår IPL-enhet justeras sedan för att anpassa ljuspulsernas intensitet och våglängd beroende på ditt specifika hudtillstånd och behandlingsområde. Under behandlingen avges korta, intensiva pulser av ljus som tränger in i huden. Dessa ljuspulser målriktar pigmentfläckar, blodkärl eller hårfolliklar och omvandlar ljusenergin till värme, vilket bryter ner det oönskade pigmentet eller krymper blodkärlen utan att skada den omgivande huden.</p>
-        <p class="p200 mt-m">Efter behandlingen kan du uppleva en viss rodnad och värme i huden, liknande en mild solbränna, men detta är vanligt och bör avta inom kort. Resultaten av IPL-behandlingen utvecklas över tid, och du kan förvänta dig att se en gradvis förbättring av hudens utseende med minskning av ojämnheter, en jämnare hudton och en övergripande förbättrad hudkvalitet. Efter behandlingen kommer din hudterapeut att ge dig rekommendationer för eftervård för att maximera resultatet och främja en snabb läkning.</p>',
+        image_alt: 'Hur går en Rejuve Powerlite Photonova behandling till?',
+        image_title: 'Hur går en Powerlite Photonova behandling till?',
+        content: '<p class="p200">Powerlite Photonova-behandlingen är en avancerad metod för att förbättra hudens utseende, speciellt utvecklad för att korrigera hudproblem såsom pigmentfläckar, ytliga blodkärl och rosacea. När du kommer till vår klinik inleder vi med att noggrant rengöra din hud för att avlägsna alla spår av makeup och orenheter. Dina ögon skyddas sedan med speciella skyddsglasögon för att förhindra exponering för det intensiva IPL-ljuset under behandlingen.</p>
+        <p class="p200 mt-m">Vår Powerlite Photonova-enhet kalibreras omsorgsfullt för att anpassa ljuspulsernas intensitet och våglängd till ditt specifika hudtillstånd och de områden som ska behandlas. Behandlingen består av korta, intensiva ljuspulser som penetrerar huden. Dessa pulser är riktade för att precist behandla pigmentfläckar, blodkärl och andra hudproblem, där ljusenergin omvandlas till värme för att effektivt reducera oönskat pigment och blodkärl utan att skada den omgivande huden.</p>
+        <p class="p200 mt-m">Efter behandlingen är det vanligt att uppleva en viss rodnad och en värmande känsla i huden, liknande den efter en mild solbränna. Dessa reaktioner är övergående och bör avta inom kort tid. Resultaten av Powerlite Photonova-behandlingen utvecklas gradvis, och du kan förvänta dig en fortsatt förbättring av din hud över tid, med en minskning av ojämnheter och en jämnare och förbättrad hudton. Din hudterapeut kommer att ge dig skräddarsydda råd för eftervården för att säkerställa bästa möjliga resultat och främja en snabb läkning.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -94,81 +93,81 @@ $top_articles = array(
     ),
 );
 
-$types_title = 'Hudproblem som behandlas med IPL';
-$types_description = 'IPL (Intensivt Pulserande Ljus) är en mångsidig och effektiv behandlingsmetod som används för att adressera en rad olika hudproblem. Här kan du utforska de olika hudtillstånden som vi framgångsrikt behandlar med vår IPL-teknik.';
+$types_title = 'Hudtillstånd Behandlade med Powerlite Photonova';
+$types_description = 'Powerlite Photonova är en högteknologisk IPL (Intensivt Pulserande Ljus)-lösning som effektivt tar itu med en rad olika hudproblem.';
 $types = array(
     new Service(
-        title: 'IPL-behandling för Rosacea',
+        title: 'Powerlite Photonova behandling för Rosacea',
         duration: '30 minuter',
         price: '1995 kr',
-        content: 'Effektiv behandling av rosacea med vår avancerade IPL-teknik. Genom att använda målinriktade ljuspulser kan vi mildra rodnad och andra symtom associerade med rosacea, vilket ger en jämnare hudton och en förbättrad hudkvalitet.',
+        content: 'Utnyttja effektiviteten hos Powerlite Photonova för att behandla rosacea. Denna avancerade IPL-metod är inriktad på att mildra rodnad och andra symtom associerade med rosacea, vilket resulterar i en jämnare hudton och förbättrad hudkvalitet.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'IPL-behandling för Rosacea',
-        image_title: 'IPL-behandling för Rosacea',
+        image_alt: 'Powerlite Photonova behandling för Rosacea',
+        image_title: 'Powerlite Photonova behandling för Rosacea',
         consultation_url: 'konsultation-rosacea',
-        consultation_url_label: 'Boka konsultation för IPL-behandling av rosacea',
-        consultation_url_title: 'Boka konsultation för IPL-behandling av rosacea',
+        consultation_url_label: 'Boka konsultation för Powerlite Photonova behandling av rosacea',
+        consultation_url_title: 'Boka konsultation för Powerlite Photonova behandling av rosacea',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka IPL-behandling för rosacea',
-        booking_url_title: 'Boka IPL-behandling för rosacea',
+        booking_url_label: 'Boka Powerlite Photonova behandling för rosacea',
+        booking_url_title: 'Boka Powerlite Photonova behandling för rosacea',
     ),
 
-new Service(
-        title: 'IPL-behandling för Ytliga Blodkärl',
+    new Service(
+        title: 'Powerlite Photonova behandling för Ytliga Blodkärl',
         duration: '30 minuter',
         price: '1995 kr',
-        content: 'Effektiv och skonsam IPL-behandling för att minska synligheten av ytliga blodkärl. Denna behandling används för att selektivt målriktad de drabbade blodkärlen, vilket resulterar i en klarare och mer enhetlig hudton.',
+        content: 'Powerlite Photonova erbjuder en effektiv lösning för att minska synligheten av ytliga blodkärl. Denna IPL-behandling är skräddarsydd för att selektivt och skonsamt behandla de berörda områdena, vilket leder till en klarare och mer enhetlig hudton.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'IPL-behandling för Ytliga Blodkärl',
-        image_title: 'IPL-behandling för Ytliga Blodkärl',
+        image_alt: 'Powerlite Photonova behandling för Ytliga Blodkärl',
+        image_title: 'Powerlite Photonova behandling för Ytliga Blodkärl',
         consultation_url: 'konsultation-ytliga-blodkarl',
-        consultation_url_label: 'Boka konsultation för IPL-behandling av ytliga blodkärl',
-        consultation_url_title: 'Boka konsultation för IPL-behandling av ytliga blodkärl',
+        consultation_url_label: 'Boka konsultation för Powerlite Photonova behandling av ytliga blodkärl',
+        consultation_url_title: 'Boka konsultation för Powerlite Photonova behandling av ytliga blodkärl',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka IPL-behandling för ytliga blodkärl',
-        booking_url_title: 'Boka IPL-behandling för ytliga blodkärl',
+        booking_url_label: 'Boka Powerlite Photonova behandling för ytliga blodkärl',
+        booking_url_title: 'Boka Powerlite Photonova behandling för ytliga blodkärl',
     ),
 
-new Service(
-        title: 'IPL-behandling för Pigmentfläckar',
+    new Service(
+        title: 'Powerlite Photonova behandling för Pigmentfläckar',
         duration: '30 minuter',
         price: '1995 kr',
-        content: 'Minska och ljusa upp pigmentfläckar med vår IPL-behandling. Denna metod är idealisk för att effektivt målriktad och reducera mörka fläckar och ojämnheter i hudtonen, vilket ger en jämnare och mer strålande hud.',
+        content: 'Med Powerlite Photonova kan du effektivt minska och ljusa upp pigmentfläckar. Denna skonsamma, men effektiva IPL-metod är perfekt för att målriktat behandla mörka fläckar och ojämnheter i hudtonen, vilket ger en jämnare och strålande hud.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'IPL-behandling för Pigmentfläckar',
-        image_title: 'IPL-behandling för Pigmentfläckar',
+        image_alt: 'Powerlite Photonova behandling för Pigmentfläckar',
+        image_title: 'Powerlite Photonova behandling för Pigmentfläckar',
         consultation_url: 'konsultation-pigmentflackar',
-        consultation_url_label: 'Boka konsultation för IPL-behandling av pigmentfläckar',
-        consultation_url_title: 'Boka konsultation för IPL-behandling av pigmentfläckar',
+        consultation_url_label: 'Boka konsultation för Powerlite Photonova behandling av pigmentfläckar',
+        consultation_url_title: 'Boka konsultation för Powerlite Photonova behandling av pigmentfläckar',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka IPL-behandling för pigmentfläckar',
-        booking_url_title: 'Boka IPL-behandling för pigmentfläckar',
+        booking_url_label: 'Boka Powerlite Photonova behandling för pigmentfläckar',
+        booking_url_title: 'Boka Powerlite Photonova behandling för pigmentfläckar',
     ),
 
-new Service(
-        title: 'IPL-behandling för Melasma',
+    new Service(
+        title: 'Powerlite Photonova behandling för Melasma',
         duration: '30 minuter',
         price: '1995 kr',
-        content: 'Behandla melasma effektivt med IPL. Vår behandling hjälper till att ljusa upp och jämna ut hudtonen genom att selektivt behandla de hyperpigmenterade områdena, vilket ger en märkbar förbättring i hudens utseende.',
+        content: 'Behandla melasma effektivt med Powerlite Photonova. Denna teknik är inriktad på att ljusa upp och jämna ut hudtonen genom att selektivt behandla hyperpigmenterade områden, vilket bidrar till en märkbar förbättring av hudens utseende.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'IPL-behandling för Melasma',
-        image_title: 'IPL-behandling för Melasma',
+        image_alt: 'Powerlite Photonova behandling för Melasma',
+        image_title: 'Powerlite Photonova behandling för Melasma',
         consultation_url: 'konsultation-melasma',
-        consultation_url_label: 'Boka konsultation för IPL-behandling av melasma',
-        consultation_url_title: 'Boka konsultation för IPL-behandling av melasma',
+        consultation_url_label: 'Boka konsultation för Powerlite Photonova behandling av melasma',
+        consultation_url_title: 'Boka konsultation för Powerlite Photonova behandling av melasma',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka IPL-behandling för melasma',
-        booking_url_title: 'Boka IPL-behandling för melasma',
+        booking_url_label: 'Boka Powerlite Photonova behandling för melasma',
+        booking_url_title: 'Boka Powerlite Photonova behandling för melasma',
     ),
 
 );
 
-$treatment_areas_title = 'Behandlingsområden för IPL';
-$treatment_areas_text = '<p class="p200">IPL (Intensivt Pulserande Ljus) är en flexibel behandlingsmetod som passar för en rad olika områden på kroppen, inklusive ansikte, hals, händer och bröst.</p>';
+$treatment_areas_title = 'Behandlingsområden för Powerlite Photonova';
+$treatment_areas_text = '<p class="p200">Med denna mångsidiga behandlingsmetod för olika delar av kroppen såsom ansikte, hals, händer och bröst.</p>';
 $treatment_areas = array(
     new TreatmentArea(
         image_small: 'https://via.placeholder.com/361x274.webm',
@@ -176,73 +175,73 @@ $treatment_areas = array(
         image_alt: 'Ansikte',
         image_title: 'Ansikte',
         title: 'Ansikte',
-        description: '<p class="p200">IPL kan utföras i hela ansiktet eller på utvalda zoner.</p>',
+        description: '<p class="p200">Powerlite Photonova kan utföras i hela ansiktet eller på utvalda zoner.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webp',
                 image_alt: 'Ansikte',
                 image_title: 'Ansikte',
-                title: 'IPL för Ansikte',
+                title: 'Powerlite Photonova för Ansikte',
                 duration: '50 min',
                 price: '2595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för IPL-behandling av ansiktet'
+                url_title: 'Boka tid för Rejuve Dye-VL-behandling av ansiktet'
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/94x72.webp',
                 image_alt: 'Panna',
                 image_title: 'Panna',
-                title: 'IPL för Panna',
+                title: 'Powerlite Photonova för Panna',
                 duration: '30 min',
                 price: '1595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för IPL-behandling av pannan'
+                url_title: 'Boka tid för Rejuve Dye-VL-behandling av pannan'
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/94x72.webp',
                 image_alt: 'Näsa',
                 image_title: 'Näsa',
-                title: 'IPL för Näsa',
+                title: 'Powerlite Photonova för Näsa',
                 duration: '30 min',
                 price: '1595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för IPL-behandling av näsan'
+                url_title: 'Boka tid för Rejuve Dye-VL-behandling av näsan'
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/94x72.webp',
                 image_alt: 'Kinder',
                 image_title: 'Kinder',
-                title: 'IPL för Kinder',
+                title: 'Powerlite Photonova för Kinder',
                 duration: '30 min',
                 price: '1595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för IPL-behandling av kinderna'
+                url_title: 'Boka tid för Rejuve Dye-VL-behandling av kinderna'
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/94x72.webp',
                 image_alt: 'Överläpp',
                 image_title: 'Överläpp',
-                title: 'IPL för Överläpp',
+                title: 'Powerlite Photonova för Överläpp',
                 duration: '30 min',
                 price: '1595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för IPL-behandling av överläppen'
+                url_title: 'Boka tid för Rejuve Dye-VL-behandling av överläppen'
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/94x72.webp',
                 image_alt: 'Haka',
                 image_title: 'Haka',
-                title: 'IPL för Haka',
+                title: 'Powerlite Photonova för Haka',
                 duration: '30 min',
                 price: '1595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för IPL-behandling av hakan'
+                url_title: 'Boka tid för Rejuve Dye-VL-behandling av hakan'
             ),
         )
     ),
@@ -252,40 +251,40 @@ $treatment_areas = array(
         image_alt: 'Kropp',
         image_title: 'Kropp',
         title: 'Kropp',
-        description: '<p class="p200">IPL kan behandla flera olika delar av kroppen.</p>',
+        description: '<p class="p200">Powerlite Photonova kan även behandla olika av kroppen.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webp',
                 image_alt: 'Hals',
                 image_title: 'Hals',
-                title: 'IPL för Hals',
+                title: 'Powerlite Photonova för Hals',
                 duration: '30 min',
                 price: '1895 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för IPL-behandling av halsen'
+                url_title: 'Boka tid för behandling med Powerlite Photonova på halsen'
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webp',
                 image_alt: 'Dekolletage',
                 image_title: 'Dekolletage',
-                title: 'IPL för Dekolletage',
+                title: 'Rejuve Dye-VL för Dekolletage',
                 duration: '40 min',
                 price: '2295 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för IPL-behandling av dekolletaget'
+                url_title: 'Boka tid för behandling med Powerlite Photonova på dekolletaget'
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webp',
                 image_alt: 'Händer',
                 image_title: 'Händer',
-                title: 'IPL för Händer',
+                title: 'Rejuve Dye-VL för Händer',
                 duration: '30 min',
                 price: '1895 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för IPL-behandling av händerna'
+                url_title: 'Boka tid för behandling med Powerlite Photonova på händerna'
             ),
         )
     ),
@@ -357,19 +356,19 @@ $treatment_areas = array(
 );
 
 $bottom_articles = array('aftercare' => new Article(
-    title: 'Efter IPL-behandling',
+    title: 'Eftervård för Powerlite Photonova',
     image_small: 'https://via.placeholder.com/358x272.webp',
     image_large: 'https://via.placeholder.com/872x456.webp',
-    image_alt: 'Efter IPL-behandling',
-    image_title: 'Efter IPL-behandling',
-    content: '<p class="p200">Eftervården efter en IPL-behandling är avgörande för att uppnå bästa resultat och säkerställa en effektiv läkningsprocess. Efter behandlingen kan det vara normalt att uppleva viss rodnad och svullnad i det behandlade området. Det är viktigt att du undviker att röra området med orena händer och att inte applicera makeup eller parfymerade produkter under de första 24 timmarna för att minimera risken för irritation eller infektioner.</p>
-    <p class="p200 mt-m">Under de första dagarna efter behandlingen bör du undvika intensiv fysisk aktivitet, bastu och långa varma duschar som kan förvärra svullnad och irritation. Användning av solskydd är kritiskt; det är viktigt att regelbundet applicera en hög SPF för att skydda huden mot UV-strålning, vilket är särskilt viktigt för det behandlade området. Vi rekommenderar även att du använder milda och återfuktande hudvårdsprodukter utan starka ingredienser för att främja läkningsprocessen och upprätthålla hudens fuktbalans.</p>
-    <p class="p200 mt-m">Se till att följa de specifika eftervårdsinstruktioner som din behandlare ger dig, och tveka inte att kontakta kliniken om du har frågor eller funderingar kring din eftervård. Beroende på din huds respons kan uppföljande behandlingar rekommenderas för att uppnå och underhålla önskade resultat.</p>',
+    image_alt: 'Eftervård för Powerlite Photonova',
+    image_title: 'Eftervård för Powerlite Photonova',
+    content: '<p class="p200">Eftervården är en viktigt del av Powerlite Photonova processen för att säkerställa ett bra resultat och en effektiv återhämtningsprocess. Efter behandlingen är det vanligt att uppleva en viss rodnad och svullnad i det behandlade området. För att minska risken för irritation och infektioner, bör du undvika att röra området med orena händer och avstå från att applicera makeup eller parfymerade produkter under de första 24 timmarna.</p>
+    <p class="p200 mt-m">Det är rekommenderat att undvika intensiva fysiska aktiviteter, bastubad och långa varma duschar under de första dagarna efter din Powerlite Photonova-behandling, eftersom dessa kan förvärra svullnad och irritation. Användning av solskydd med hög SPF är också viktigt för att skydda huden från UV-strålning, särskilt på de behandlade områdena. Vi råder att använda milda och återfuktande hudvårdsprodukter utan starka ingredienser för att stödja läkningsprocessen och bevara hudens fuktbalans.</p>
+    <p class="p200 mt-m">Det är essentiellt att du noggrant följer de eftervårdsinstruktioner som ges av din behandlare. Vid frågor eller funderingar kring din eftervård, tveka inte att kontakta kliniken. Baserat på hur din hud reagerar, kan ytterligare behandlingar med Powerlite Photonova rekommenderas för att uppnå och bibehålla optimala resultat.</p>',
     tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
 
-$service_brands_title = 'Märken för IPL';
-$service_brands_text = '<p class="p200">Vi utför IPL med Alma Rejuve DyeVL, Alma Harmony XL, Photonova som är de bästa maskinerna på marknaden.</p>';
+$service_brands_title = 'Andra märken för IPL';
+$service_brands_text = '<p class="p200">Utöver Rejuve DyeVL använder vi även Alma Harmony XL och Photonova som är de bästa maskinerna på marknaden för IPL.</p>';
 $service_brands = array(
 
     new Brand(
@@ -383,12 +382,6 @@ $service_brands = array(
         image: 'images/brands/alma-harmony-xl.svg',
         image_alt: 'Alma Harmony XL',
         image_title: 'Alma Harmony XL',
-    ),
-    new Brand(
-        label: 'Photonova',
-        image: 'images/brands/photonova.svg',
-        image_alt: 'Photonova',
-        image_title: 'Photonova',
     ),
 );
 
@@ -484,16 +477,16 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Hur många IPL-behandlingar behövs vanligtvis?',
-            text: 'Antalet IPL-behandlingar som krävs varierar beroende på individens specifika hudtillstånd och de mål som satts upp. Generellt sett kan man behöva 3-8 behandlingar med ungefär 4 veckors mellanrum för att uppnå optimala resultat. En individuell behandlingsplan upprättas under din initiala konsultation baserat på dina unika hudbehov.'
+            title: 'Hur många behandlingar med Powerlite Photonova krävs vanligtvis?',
+            text: 'Antalet behandlingar som behövs med Powerlite Photonova beror på individens hudtillstånd och de mål man önskar uppnå. Oftast krävs det mellan 3-8 sessioner, med ungefär 4 veckors intervall, för att nå optimala resultat. En individuellt anpassad behandlingsplan utarbetas under den initiala konsultationen, baserat på dina specifika behov och hudtillstånd.'
         ),
         new Question(
-            title: 'Kan mina hudproblem återkomma efter en IPL-behandling?',
-            text: 'IPL-behandlingar är mycket effektiva för att adressera befintliga hudproblem som pigmentfläckar, ytliga blodkärl och rosacea. Men det är viktigt att notera att nya hudproblem kan uppstå på grund av faktorer som åldrande och solskador. En regelbunden hudvårdsrutin och skydd mot solen är viktigt för att underhålla resultaten, och ytterligare behandlingar kan behövas för att upprätthålla effekterna över tid.'
+            title: 'Kan hudproblem återkomma efter en Powerlite Photonova-behandling?',
+            text: 'Medan Powerlite Photonova är effektivt för att behandla befintliga hudproblem såsom pigmentfläckar, ytliga blodkärl och rosacea, finns det en risk att nya hudproblem kan utvecklas, speciellt orsakade av faktorer som åldrande och solskador. En bra hudvårdsrutin och skydd mot solen är avgörande för att underhålla resultaten. Ytterligare Powerlite Photonova-behandlingar kan behövas för att upprätthålla effekterna över tid.'
         ),
         new Question(
-            title: 'Hur snabbt kan jag se resultat efter en IPL-behandling?',
-            text: 'Resultaten från en IPL-behandling kan variera från person till person. Många upplever en synlig förbättring redan efter den första behandlingen, men de fullständiga effekterna blir ofta tydligare efter en serie behandlingar. Förändringar i hudens utseende och kvalitet fortsätter vanligtvis att utvecklas och förbättras under veckorna mellan behandlingarna och efter behandlingsserien är avslutad.'
+            title: 'Hur snabbt kan jag se resultat efter en Powerlite Photonova-behandling?',
+            text: 'Resultaten från en Powerlite Photonova-behandling varierar beroende på individen. Många patienter ser en märkbar förbättring redan efter den första sessionen, men de mest framträdande resultaten uppnås ofta efter en hel serie behandlingar. Förbättringar i hudens utseende och kvalitet fortsätter att utvecklas under behandlingsserien och även efter avslutade sessioner.'
         ),
     )
 );

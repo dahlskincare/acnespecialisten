@@ -3,58 +3,31 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'IPL-behandling mot Rosacea | Acnespecialisten';
-$seo_description = 'Acnespecialisten är experter på att använda IPL-teknik för effektiv behandling av rosacea. Genom att använda målinriktat ljus, kan vi signifikant minska rodnad och andra karakteristiska symtom på rosacea, vilket ger en jämnare hudton och förbättrar hudens övergripande utseende.';
-$seo_keywords = 'IPL-behandling för rosacea, reducera rodnad, behandling av rosacea, ljusbaserad hudterapi, förbättra hudton, minska symtom på rosacea, jämn hudton, avancerad hudvård, specialister på rosacea';
+$seo_title = 'Kemisk Peeling - Effektiva Hudförbättrande Behandlingar | AcneSpecialisten';
+$seo_description = 'Upptäck AcneSpecialistens expertutbud av kemiska peelings för att förbättra hudens utseende och hälsa. Våra anpassade peelingar behandlar allt från akne till åldrande, och erbjuder djupgående lösningar för diverse hudproblem. Med vår specialkunskap och avancerade behandlingar är din väg till en klarare och mer strålande hud inom räckhåll.';
+$seo_keywords = 'kemisk peeling, hudföryngring, aknebehandling, hudtonsförbättring, hudproblem, exfoliering, fina linjer, pigmentering, hudens textur, professionell hudvård';
 
-$seo_image = 'images/treatments/large/ipl-rosacea.jpg';
-
+$seo_image = 'images/treatments/large/kemisk-peeling.jpg';
 
 $model = new Service(
-    title: 'IPL mot Rosacea',
-    duration: '60 min',
-    price: 'Från 2332 kr',
-    content: '',
+    title: 'Kemisk Peeling',
+    duration: '30 min',
+    price: null,
+    content: '<p class="p200">På AcneSpecialisten är vi specialister på kemisk peeling för att effektivt behandla olika typer av hudproblem. Vår metod är idealisk för dig som önskar att förbättra hudens utseende genom att minska akne, acneärr, bristningar, melasma, pigmentfläckar, pormaskar, stora porer, rynkor, fina linjer och solskador. Våra behandlingsprotokoll är skräddarsydda och noggrant anpassade för att erbjuda en säker och icke-invasiv behandling, som ger en jämnare och mer estetiskt tilltalande hudstruktur. Vi på AcneSpecialisten strävar efter att ge varje klient en förbättrad hudkvalitet med våra professionella och effektiva kemiska peelingbehandlingar.</p>',
     image_small: 'https://via.placeholder.com/358x274.webp',
     image_large: 'https://via.placeholder.com/424x456.webp',
-    image_alt: 'IPL mot rosacea',
-    image_title: 'IPL mot rosacea',
+    image_alt: 'Ansiktsbehandlingar för problemhy',
+    image_title: 'Ansiktsbehandlingar för problemhy',
     consultation_url: 'https://bokadirekt.se',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
     booking_url: 'https://bokadirekt.se',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
-    procedures: array(
-        new Procedure(
-            label: '1 procedure',
-            price: '2595 kr',
-            savings: null,
-            booking_url: 'https://bokadirekt.se',
-            booking_url_label: 'Boka tid för behandling',
-            booking_url_title: 'Boka tid för behandling'
-        ),
-        new Procedure(
-            label: '3 procedures',
-            price: '6995 kr',
-            savings: 'Spara 790 kr',
-            booking_url: 'https://bokadirekt.se',
-            booking_url_label: 'Boka tid för behandling',
-            booking_url_title: 'Boka tid för behandling'
-        ),
-        new Procedure(
-            label: '5 procedures',
-            price: '9995 kr',
-            savings: 'Spara 2980 kr',
-            booking_url: 'https://bokadirekt.se',
-            booking_url_label: 'Boka tid för behandling',
-            booking_url_title: 'Boka tid för behandling'
-        )
-    ),
 );
 
 $nav_buttons = array(
-    'about' => 'Om IPL mot rosacea',
+    'about' => 'Om Kemisk Peeling',
     'preparing' => 'Förberedelser',
     'process' => 'Processen',
     'types' => 'Typer',
@@ -68,173 +41,266 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Vad är IPL-behandling mot rosacea?';
-$description_text = '<p class="p200">IPL, som står för Intensivt Pulserande Ljus, är en effektiv och icke-invasiv behandlingsmetod speciellt användbar för att hantera symtom på rosacea. Denna ljusbaserade teknik sänder ut pulser av ljus som varsamt tränger igenom huden och behandlar rosacea genom att minska rodnad och inflammation. IPL verkar genom att rikta in sig på de små blodkärlen som bidrar till rosaceas karakteristiska rodnad och synliga blodkärl.</p>
-    <p class="p200 mt-m">IPL för rosacea hjälper inte bara till att minska rodnad och förbättra hudens ton, utan kan även lugna huden och minska frekvensen av rosaceautbrott. Behandlingen anpassas individuellt för att passa varje patients unika hudförhållanden och är känd för att vara skonsam med minimala risker för biverkningar. Många patienter upplever signifikanta förbättringar efter bara några behandlingssessioner, vilket gör IPL till en populär och effektiv lösning för dem som kämpar med symtom på rosacea.</p>';
+$description_title = 'Vad är kemisk peeling?';
+$description_text = '<p class="p200">Kemisk peeling hos AcneSpecialisten innefattar en rad avancerade behandlingar som är speciellt utformade för att effektivt hantera olika hudproblem och förbättra hudens kvalitet på djupet. Genom att tillämpa specialiserade tekniker som Easy Phytic Peel, Easy Droxy Versicolor Peel, Easy TCA Pain Control och PRX-T33, arbetar vi på cellnivå för att varsamt exfoliera, förnya och vitalisera huden.</p>
+<p class="p200 mt-m">Våra behandlingar är idealiska för att ta itu med ett brett spektrum av hudproblem. Från att mildra acneärr och bekämpa aktiv akne, till att effektivt minska bristningar, melasma och pigmentfläckar. Dessutom är de mycket effektiva mot pormaskar och stora porer, rynkor och fina linjer samt solskadad hy. Varje kemisk peeling vi erbjuder är skräddarsydd för att matcha individens unika hudtyp och problem, och syftar till att återställa hudens naturliga balans. Vårt mål är att ge varje klient en hud som inte bara ser jämnare och klarare ut, utan som också känns friskare och mer ungdomlig.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelser inför behandling med IPL mot rosacea',
+        title: 'Förberedelser inför kemisk peeling',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Förberedelser inför behandling med IPL mot rosacea',
-        image_title: 'Förberedelser inför behandling med IPL mot rosacea',
-        content: '<p class="p200">Att förbereda sig inför en IPL-behandling mot rosacea innebär att vidta vissa försiktighetsåtgärder för att optimera behandlingens effektivitet och säkerhet. Din förberedelse börjar med en noggrann konsultation hos en erfaren hudterapeut som kommer att utvärdera din hudtyp och rosaceas tillstånd. Under denna konsultation diskuteras en skräddarsydd behandlingsplan som är anpassad för att ge bästa möjliga resultat.</p>
-        <p class="p200 mt-m">För att förbereda din hud för behandlingen är det viktigt att du undviker solning och användning av självbrunande produkter minst två veckor före din session. Detta är för att minska risken för ojämn pigmentering, då IPL behandlar pigment och blodkärl i huden. Du bör även undvika hudvårdsprodukter som innehåller retinol, starka syror eller andra exfolierande ämnen under veckan före behandlingen. Detta för att säkerställa att din hud inte är överkänslig eller irriterad vid behandlingstillfället. Din hudterapeut kommer att ge dig fullständiga instruktioner om hur du bäst förbereder dig inför din IPL-behandling, och vilka steg du bör ta efteråt för att främja en smidig och effektiv läkningsprocess.</p>',
+        image_alt: 'Förberedelser inför kemisk peeling',
+        image_title: 'Förberedelser inför kemisk peeling',
+        content: '<p class="p200">När du förbereder dig för en kemisk peeling hos AcneSpecialisten finns det några enkla steg du kan följa för att optimera din behandlingsupplevelse. För det första är det bra att undvika att exfoliera huden några dagar före din behandling, då själva peelingen kommer att ta hand om detta. Det är också viktigt att inte sola eller använda brun-utan-sol-produkter veckan innan behandlingen för att minska risken för hudirritationer.</p>
+        <p class="p200 mt-m">Vi rekommenderar att du kommer med ett rent ansikte utan smink, vilket underlättar en jämn applicering av peelingprodukten. Dessutom är det viktigt att informera din hudterapeut om eventuella mediciner du tar eller om du har aktiva hudåkommor, så att vi kan anpassa behandlingen på bästa sätt. Kom ihåg att det viktigaste är att du känner dig bekväm och trygg, så om du har några frågor eller funderingar, tveka inte att kontakta oss före din behandling.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
-            label: 'Steam'
+            label: 'Ånga'
         ), new ArticleTag(
             icon: 'article-tag-extraction',
-            label: 'Extraction'
+            label: 'Extraktion'
         ), new ArticleTag(
             icon: 'article-tag-mask',
             label: 'Mask'
         ), new ArticleTag(
             icon: 'article-tag-cleansing',
-            label: 'Cleansing'
+            label: 'Rengöring'
         ))
     ),
     'process' => new Article(
-        title: 'Hur går en IPL mot rosacea till?',
+        title: 'Hur går en ansiktsbehandling för problemhy till?',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Hur går en IPL mot rosacea till?',
-        image_title: 'Hur går en IPL mot rosacea till',
-        content: '<p class="p200">IPL-behandling mot rosacea är en speciell procedur som använder Intensivt Pulserande Ljus för att effektivt minska rodnad och andra symptom associerade med rosacea. När du kommer till kliniken, kommer vi först att rengöra din hud noggrant för att avlägsna eventuell makeup och orenheter. Dina ögon skyddas också med speciella glasögon för att förhindra exponering för det intensiva ljuset.</p>
-        <p class="p200 mt-m">Vår IPL-enhet ställs sedan in för att skräddarsy ljuspulsens intensitet och våglängd till ditt specifika hudtillstånd. Under behandlingen appliceras korta, intensiva ljuspulser direkt på de områden av huden som påverkas av rosacea. Ljuset absorberas av de blodkärl som bidrar till rodnad, vilket minskar deras framträdande och lindrar andra symptom på rosacea utan att skada den omgivande huden.</p>
-        <p class="p200 mt-m">Efter behandlingen kan det behandlade området kännas varmt och se något rött ut, vilket liknar känslan av en mild solbränna. Dessa symtom är vanligtvis övergående och bör lindras inom några timmar till några dagar. Resultaten av IPL-behandlingen blir ofta synliga över tid, med en gradvis minskning av hudrodnad och förbättring av hudens övergripande tillstånd. Din hudterapeut kommer att ge dig råd om lämplig eftervård och rekommendera eventuella uppföljningsbehandlingar för att upprätthålla och förbättra resultaten från din IPL-behandling mot rosacea.</p>',
+        image_alt: 'Processen för ansiktsbehandling mot problemhy',
+        image_title: 'Processen för ansiktsbehandling mot problemhy',
+        content: '<p class="p200">Hos oss hittar du ansiktsbehandlingar designade för alla typer av problemhy. Vi förstår att varje persons hud är unik, och därför skräddarsyr vi varje behandling baserat på dina personliga och individuella behov. Vår expertis och omfattande kunskap säkerställer att du får den bästa möjliga vården för din hud.</p>
+
+        <p class="p200 mt-m">Varje behandling inleds med en noggrann rengöring för att avlägsna inkapslingar och tilltäpptheter. Därefter används en vapozone för att varsamt öppna upp huden och göra porerna mer mottagliga. Efter detta steg genomför vi en detaljerad extraktion där vi noggrant tömmer porerna på oönskade finnar, pormaskar och andra orenheter. För att lugna huden och minska eventuell rodnad eller irritation appliceras sedan en lugnande mask. Slutligen avslutas behandlingen med en intensiv återfuktning, vilket hjälper din hud att återhämta sig och känna sig förnyad.</p>',
+
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
-            label: 'Steam'
+            label: 'Ånga'
         ), new ArticleTag(
             icon: 'article-tag-extraction',
-            label: 'Extraction'
+            label: 'Extraktion'
         ), new ArticleTag(
             icon: 'article-tag-mask',
             label: 'Mask'
         ), new ArticleTag(
             icon: 'article-tag-cleansing',
-            label: 'Cleansing'
+            label: 'Rengöring'
         ))
     ),
 );
 
-$treatment_areas_title = 'Behandlingsområden för IPL mot rosacea';
-$treatment_areas_text = '<p class="p200">Med IPL behandlar vi både hela och delar av ansiktet.</p>';
-$treatment_areas = array(
-    new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
-        image_alt: 'Ansikte',
-        image_title: 'Ansikte',
-        title: 'Ansikte',
-        description: '<p class="p200">IPL kan utföras i hela ansiktet eller på utvalda zoner.</p>',
-        items: array(
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
-                image_alt: 'Ansikte',
-                image_title: 'Ansikte',
-                title: 'IPL för Ansikte',
-                duration: '50 min',
-                price: '2595 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för IPL-behandling av ansiktet'
-            ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webp',
-                image_alt: 'Näsa',
-                image_title: 'Näsa',
-                title: 'IPL för Näsa',
-                duration: '30 min',
-                price: '1595 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för IPL-behandling av näsan'
-            ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webp',
-                image_alt: 'Kinder',
-                image_title: 'Kinder',
-                title: 'IPL för Kinder',
-                duration: '30 min',
-                price: '1595 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för IPL-behandling av kinderna',
-            ),
-        )
+$types_title = 'Ansiktsbehandlingar för problemhy';
+$types_description = '';
+$types = array(
+    new Service(
+        title: 'Ansiktsbehandling mot Akne',
+        duration: null,
+        price: null,
+        content: 'Ansiktsbehandling anpassad för akne med papler, pustler och komedoner.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Ansiktsbehandling mot Akne',
+        image_title: 'Ansiktsbehandling mot Akne',
+        consultation_url: 'hudkonsultation',
+        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka en Ansiktsbehandling mot Akne',
+        booking_url_title: 'Boka en Ansiktsbehandling mot Akne',
+    ),
+    new Service(
+        title: 'Ansiktsbehandling för Blandhy',
+        duration: null,
+        price: null,
+        content: 'Behandling skräddarsydd för blandhy, idealisk för dig som har områden med både torrhet och oljighet på huden.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Ansiktsbehandling för Blandhy',
+        image_title: 'Ansiktsbehandling för Blandhy',
+        consultation_url: 'hudkonsultation',
+        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka en Ansiktsbehandling för Blandhy',
+        booking_url_title: 'Boka en Ansiktsbehandling för Blandhy',
+    ),
+    new Service(
+        title: 'Ansiktsbehandling mot Finnar',
+        duration: null,
+        price: null,
+        content: 'Denna behandling är specialanpassad för att hantera och behandla finnar, vilket bidrar till att minska inflammation och förbättra hudens övergripande utseende.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Ansiktsbehandling mot Finnar',
+        image_title: 'Ansiktsbehandling mot Finnar',
+        consultation_url: 'hudkonsultation',
+        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka en Ansiktsbehandling mot Finnar',
+        booking_url_title: 'Boka en Ansiktsbehandling mot Finnar',
+    ),
+    new Service(
+        title: 'Ansiktsbehandling mot Milier',
+        duration: null,
+        price: null,
+        content: 'Denna behandling är specialanpassad för att effektivt behandla milier och bidra till att förbättra hudens textur och utseende.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Ansiktsbehandling mot Milier',
+        image_title: 'Ansiktsbehandling mot Milier',
+        consultation_url: 'hudkonsultation',
+        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka en Ansiktsbehandling mot Milier',
+        booking_url_title: 'Boka en Ansiktsbehandling mot Milier',
+    ),
+    new Service(
+        title: 'Ansiktsbehandling för Oljig & Kombinerad Hy',
+        duration: null,
+        price: null,
+        content: 'Behandlingen är skräddarsydd för att balansera oljig och kombinerad hud. Vi fokuserar på att rensa porer, balansera hudens fuktighet och ge en mattare finish.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Ansiktsbehandling för Oljig & Kombinerad Hy',
+        image_title: 'Ansiktsbehandling för Oljig & Kombinerad Hy',
+        consultation_url: 'hudkonsultation',
+        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka en Ansiktsbehandling för Oljig & Kombinerad Hy',
+        booking_url_title: 'Boka en Ansiktsbehandling för Oljig & Kombinerad Hy',
+    ),
+    new Service(
+        title: 'Ansiktsbehandling för Perioral Dermatit',
+        duration: null,
+        price: null,
+        content: 'Denna behandling är särskilt framtagen för de som lider av perioral dermatit. Med fokus på att lugna och återställa huden, använder vi milda och icke-irriterande produkter som hjälper till att reducera inflammation och rodnad.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Ansiktsbehandling för Perioral Dermatit',
+        image_title: 'Ansiktsbehandling för Perioral Dermatit',
+        consultation_url: 'hudkonsultation',
+        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka en Ansiktsbehandling för Perioral Dermatit',
+        booking_url_title: 'Boka en Ansiktsbehandling för Perioral Dermatit',
+    ),
+    new Service(
+        title: 'Ansiktsbehandling mot Pormaskar',
+        duration: null,
+        price: null,
+        content: 'Denna behandling är speciellt designad för att effektivt rengöra och behandla pormaskar. Genom en kombination av djuprengöring och specialanpassade produkter, hjälper vi till att klara upp porerna och minska uppkomsten av nya pormaskar.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Ansiktsbehandling mot Pormaskar',
+        image_title: 'Ansiktsbehandling mot Pormaskar',
+        consultation_url: 'hudkonsultation',
+        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka en Ansiktsbehandling mot Pormaskar',
+        booking_url_title: 'Boka en Ansiktsbehandling mot Pormaskar',
+    ),
+    new Service(
+        title: 'Ansiktsbehandling för Problemhy',
+        duration: null,
+        price: null,
+        content: 'Denna behandling är särskilt framtagen för att hantera och behandla problemhy. Med hjälp av noggrant utvalda produkter och tekniker, arbetar vi för att balansera huden, behandla befintliga problem och förebygga framtida utbrott.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Ansiktsbehandling för Problemhy',
+        image_title: 'Ansiktsbehandling för Problemhy',
+        consultation_url: 'hudkonsultation',
+        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka en Ansiktsbehandling för Problemhy',
+        booking_url_title: 'Boka en Ansiktsbehandling för Problemhy',
+    ),
+    new Service(
+        title: 'Ansiktsbehandling för Rosacea',
+        duration: null,
+        price: null,
+        content: 'Denna behandling är speciellt utformad för att skonsamt behandla och lindra symptom associerade med rosacea. Minskar rodnad och inflammation, samtidigt som vi ger näring och skydd till den känsliga huden.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Ansiktsbehandling för Rosacea',
+        image_title: 'Ansiktsbehandling för Rosacea',
+        consultation_url: 'hudkonsultation',
+        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka en Ansiktsbehandling för Rosacea',
+        booking_url_title: 'Boka en Ansiktsbehandling för Rosacea',
+    ),
+    new Service(
+        title: 'Ansiktsbehandling för Seborré',
+        duration: null,
+        price: null,
+        content: 'Denna behandling är specifikt framtagen för att behandla och balansera huden som drabbats av seborré. Genom att använda specialanpassade produkter syftar vi till att kontrollera överdriven oljeproduktion och minska inflammation, vilket ger huden en friskare och jämnare ton.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Ansiktsbehandling för Seborré',
+        image_title: 'Ansiktsbehandling för Seborré',
+        consultation_url: 'hudkonsultation',
+        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka en Ansiktsbehandling för Seborré',
+        booking_url_title: 'Boka en Ansiktsbehandling för Seborré',
+    ),
+    new Service(
+        title: 'Ansiktsbehandling för Stora Porer',
+        duration: null,
+        price: null,
+        content: 'Denna behandling är specifikt framtagen för att behandla och minska framträdande stora porer. Med hjälp av specialanpassade produkter syftar vi till att rengöra porerna på djupet, förminska deras storlek och ge huden en slätare och mer jämn yta.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Ansiktsbehandling för Stora Porer',
+        image_title: 'Ansiktsbehandling för Stora Porer',
+        consultation_url: 'hudkonsultation',
+        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka en Ansiktsbehandling för Stora Porer',
+        booking_url_title: 'Boka en Ansiktsbehandling för Stora Porer',
+    ),
+    new Service(
+        title: 'Ansiktsbehandling för Torr & Känslig Hy',
+        duration: null,
+        price: null,
+        content: 'Denna behandling är specifikt framtagen för att nära och lugna torr samt känslig hy. Genom att använda specialanpassade produkter syftar vi till att återställa hudens fuktbalans, minska rodnad och irritation, och ge huden en mjuk och behaglig känsla.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Ansiktsbehandling för Torr & Känslig Hy',
+        image_title: 'Ansiktsbehandling för Torr & Känslig Hy',
+        consultation_url: 'hudkonsultation',
+        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka en Ansiktsbehandling för Torr & Känslig Hy',
+        booking_url_title: 'Boka en Ansiktsbehandling för Torr & Känslig Hy',
     ),
 );
 
 $bottom_articles = array('aftercare' => new Article(
-    title: 'Eftervård för IPL-behandling mot rosacea',
+    title: 'Eftervård och omhändertagande',
     image_small: 'https://via.placeholder.com/358x272.webp',
     image_large: 'https://via.placeholder.com/872x456.webp',
-    image_alt: 'Eftervård för IPL-behandling mot rosacea',
-    image_title: 'Eftervård för IPL-behandling mot rosacea',
-    content: '<p class="p200">Eftervården är en viktig del av din återhämtningsprocess efter en IPL-behandling mot rosacea. Omedelbart efter behandlingen kan det behandlade området uppvisa viss rodnad och i vissa fall en lätt svullnad. Dessa reaktioner är normala och bör avta inom kort. För att minimera risken för irritation och infektion är det viktigt att du inte rör området med smutsiga händer och undviker att applicera makeup eller parfymerade produkter under de första 24 timmarna efter behandlingen.</p>
-    <p class="p200 mt-m">Under de första dagarna efter din IPL-behandling rekommenderas det att du undviker stark fysisk ansträngning, bastubad och långa heta duschar, då dessa aktiviteter kan förvärra svullnad och irritation. Det är även viktigt att skydda din hud mot solen. Använd en solskyddskräm med hög SPF regelbundet, särskilt på det behandlade området, för att undvika ytterligare solskador och stödja läkningsprocessen. Använd gärna milda och återfuktande hudvårdsprodukter som inte innehåller irriterande ingredienser för att lugna huden och upprätthålla dess fuktbalans.</p>
-    <p class="p200 mt-m">Följ noga de eftervårdsinstruktioner som du får från din hudterapeut. Om du har några frågor eller funderingar kring din återhämtning efter behandlingen, tveka inte att kontakta din klinik. Ytterligare uppföljande behandlingar kan rekommenderas för att bibehålla och förbättra resultaten av din IPL-behandling mot rosacea.</p>',
+    image_alt: 'Eftervård och omhändertagande',
+    image_title: 'Eftervård och omhändertagande',
+    content: '<p class="p200">Efter en ansiktsbehandling är det viktigt med rätt eftervård för att behandla och bibehålla hudens skick. Genom att fortsätta ta hand om huden med rätt hemmavård kan du förlänga och förstärka effekterna av behandlingen. Det handlar inte bara om att använda produkter utan också om att följa rätt behandlingsrutiner för just ditt behov.</p>
+    <p class="p200 mt-m">Vi på AcneSpecialisten finns här för att hjälpa dig att ta fram den bästa hudvårdsplanen för din hudtyp. Oavsett om det handlar om daglig rengöring, återfuktning eller specialbehandlingar, så kommer vi att vägleda dig genom varje steg för att säkerställa att din hud får den vård den förtjänar. Kom ihåg, rätt eftervård är nyckeln till en frisk och strålande hud!</p>',
     tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
-
-$treatment_steps = array(
-      new TreatmentStep(
-            title: 'Identifiera',
-            content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din rosacea och skapar en individuell behandlingsplan.',
-            url_label: 'Få gratis konsultation',
-            url: 'hudkonsultation',
-            url_title: 'Boka din kostnadsfria hudkonsultation idag'
-      ),
-      new TreatmentStep(
-            title: 'Behandla',
-            content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika rosacea, så att du snabbt och säkert blir av med problemet.',
-            url_label: 'Se behandlingar',
-            url: 'behandlingar/rosacea',
-            url_title: 'Utforska våra skräddarsydda rosaceabehandlingar'
-      ),
-      new TreatmentStep(
-            title: 'Förebygga',
-            content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny rosacea och hålla din hud i balans.',
-            url_label: 'Se produkter',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/rosacea',
-            url_title: 'Hitta de bästa produkterna för att förebygga rosacea'
-      ),
-      new TreatmentStep(
-            title: 'Reparera',
-            content: 'När rosacean är borta fokuserar vi på att reducera eventuella ytliga blodkärl med behandlingsmetoder som IPL för en jämn och problemfri hud.',
-            url_label: 'Se IPL-behandlingar',
-            url: 'behandlingar/rosacea',
-            url_title: 'Upptäck effektiva behandlingar för ytliga blodkärl'
-      ),
-
-);
-
-$service_brands_title = 'Märken för IPL';
-$service_brands_text = '<p class="p200">Vi utför IPL mot rosacea med Alma Rejuve DyeVL, Alma Harmony XL, Photonova som är de bästa maskinerna på marknaden.</p>';
-$service_brands = array(
-
-    new Brand(
-        label: 'Alma Rejuve DyeVL',
-        image: 'images/brands/alma-rejuve-dyevl.svg',
-        image_alt: 'Alma Rejuve DyeVL',
-        image_title: 'Alma Rejuve DyeVL',
-    ),
-    new Brand(
-        label: 'Alma Harmony XL',
-        image: 'images/brands/alma-harmony-xl.svg',
-        image_alt: 'Alma Harmony XL',
-        image_title: 'Alma Harmony XL',
-    ),
-    new Brand(
-        label: 'Powerlite Photonova',
-        image: 'images/brands/powerlite-photonova.svg',
-        image_alt: 'Powerlite Photonova',
-        image_title: 'Powerlite Photonova',
-    ),
-);
 
 $results = array(
     new ResultCustomer(
@@ -303,7 +369,7 @@ $results = array(
     ),
 );
 
-$reviews_title = 'Omdömen';
+$reviews_title = 'Reviews';
 $reviews = array(
     new Review(
         stars: 5,
@@ -324,23 +390,28 @@ $reviews = array(
 );
 $reviews_view_more = 'Se alla omdömen';
 
-$faq_title = 'Frågor & Svar';
+$faq_title = 'Frågor & svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Hur många behandlingar med IPL krävs för att behandla rosacea?',
-            text: 'Antalet IPL-behandlingar för rosacea varierar beroende på hudens tillstånd och svårighetsgraden av rosacea. Generellt kan det krävas 3-8 behandlingar med intervaller på ungefär 4 veckor för att se en märkbar förbättring. Din hudterapeut kommer att utforma en personligt anpassad behandlingsplan under den initiala konsultationen.'
+            title: 'Passar era ansiktsbehandlingar alla hudtyper?',
+            text: 'Ja, vi har ansiktsbehandlingar som passar alla hudtyper. Vi anpassar dessutom alltid våra behandlingar efter dina individuella behov så att du ska få ett så bra resultat som möjligt.'
         ),
         new Question(
-            title: 'Kan symtomen på rosacea återkomma efter en IPL-behandling?',
-            text: 'IPL-behandling kan ge betydande förbättringar av rosaceas symtom, men det är viktigt att förstå att rosacea är en kronisk hudåkomma som kan kräva kontinuerlig hantering. Även om IPL kan minska rodnad och blodkärl associerade med rosacea, kan regelbundna uppföljningsbehandlingar behövas för att upprätthålla resultaten, särskilt om nya symtom uppstår.'
+            title: 'Är ansiktsbehandlingar effektiva mot pormaskar?',
+            text: 'Ja, många av våra ansiktsbehandlingar syftar till att djuprengöra porerna och kan vara särskilt effektiva mot pormaskar. Genom regelbundna behandlingar kan vi hjälpa till att minska och förebygga uppkomsten av nya pormaskar.'
         ),
         new Question(
-            title: 'När börjar jag se resultat efter IPL-behandling mot rosacea?',
-            text: 'De första resultaten av IPL-behandling mot rosacea kan ofta märkas inom några dagar till en vecka efter behandlingen, med fortsatt förbättring över tid. De flesta patienter upplever en gradvis minskning av rodnad och synligheten av blodkärl efter varje behandling. Fullständiga resultat och den långsiktiga effekten kan dock variera, och det kan krävas flera behandlingar för att uppnå optimala resultat.'
+            title: 'Hur ofta bör jag boka en ansiktsbehandling för bästa resultat?',
+            text: 'Det beror på din specifika hudtyp och de problem du vill adressera. För vissa kan en månadsvis behandling vara optimal, medan andra kanske vill komma oftare i början för att hantera specifika hudproblem.'
         ),
+        new Question(
+            title: 'Hur vet jag vilken behandling som passar bäst för min problemhy?',
+            text: 'Det är bäst att boka en konsultation med en av våra hudterapeuter. Under konsultationen kommer vi att analysera din hud, diskutera dina bekymmer och rekommendera den bästa behandlingsplanen anpassad för dina specifika behov.'
+        )
     )
 );
+
 $faq_view_more = 'Se alla frågor & svar';
 
 $skin_guide_title = 'Hudguiden';
@@ -356,9 +427,9 @@ $skin_guide_articles = array(
         image_title: 'Hormones effect',
     ),
 );
-$skin_guide_view_more = 'Se alla artiklar';
+$skin_guide_view_more = 'Visa alla artiklar';
 
-$specialists_title = 'Våra hudterpaueter';
+$specialists_title = 'Våra hudterapeuter';
 $specialists = array(
     new Specialist(
         name: 'Cazzandra Lindberg',
@@ -702,17 +773,6 @@ $all_brands = array(
                         </div>
                     </section>
                 <?php } ?>
-                <section id="approach">
-                      <h2 class="h500 l10n">Metoden</h2>
-                      <hr class="mt-xl mb-xl3 is-hidden-mobile">
-                      <div class="columns is-variable is-2">
-                            <?php for ($i = 0; $i < sizeof($treatment_steps); $i++) {
-                                  echo '<div class="column">';
-                                  include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/treatment_step_card/treatment_step_card.php');
-                                  echo '</div>';
-                            } ?>
-                      </div>
-                </section>
                 <section id="results" class="large-margin">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php') ?>
                 </section>

@@ -3,58 +3,32 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'IPL-behandling mot Rosacea | Acnespecialisten';
-$seo_description = 'Acnespecialisten är experter på att använda IPL-teknik för effektiv behandling av rosacea. Genom att använda målinriktat ljus, kan vi signifikant minska rodnad och andra karakteristiska symtom på rosacea, vilket ger en jämnare hudton och förbättrar hudens övergripande utseende.';
-$seo_keywords = 'IPL-behandling för rosacea, reducera rodnad, behandling av rosacea, ljusbaserad hudterapi, förbättra hudton, minska symtom på rosacea, jämn hudton, avancerad hudvård, specialister på rosacea';
+$seo_title = 'Alma Rejuve Dye-VL: Specialiserad IPL-teknik för Hudförbättring | AcneSpecialisten';
+$seo_description = 'På AcneSpecialisten introducerar vi Alma Rejuve Dye-VL, en avancerad version av IPL-tekniken, specialdesignad för att effektivt behandla pigmentfläckar, ytliga blodkärl och rosacea. Dye-VL-tekniken använder en unik ljusvåglängd som är optimal för att selektivt rikta sig mot och behandla hudens ojämnheter, vilket leder till en betydande förbättring i hudens ton och textur för en klarare och mer enhetlig hudton.';
+$seo_keywords = 'Alma Rejuve Dye-VL, specialiserad IPL-behandling, pigmentfläckar behandling, reducera ytliga blodkärl, rosacea-behandling, Dye-VL teknik, hudförbättring, avancerad hudföryngring, jämn hudton, AcneSpecialisten';
 
-$seo_image = 'images/treatments/large/ipl-rosacea.jpg';
+$seo_image = 'images/treatments/large/alma-rejuve-dye-vl.jpg';
 
 
 $model = new Service(
-    title: 'IPL mot Rosacea',
-    duration: '60 min',
+    title: 'Alma Rejuve Dye-VL',
+    duration: null,
     price: 'Från 2332 kr',
-    content: '',
+    content: '<p class="p200">Alma Rejuve Dye-VL är den optimala lösningen för dig som önskar en jämnare hudton och vill reducera pigmenteringar, ytliga blodkärl eller lindra symtomen på rosacea. Denna avancerade IPL-teknik är skräddarsydd för att passa dina specifika hudbehov. Med sin unika Dye-VL-teknologi stimulerar Alma Rejuve effektivt hudens naturliga läkningsprocesser och bidrar till en markant förbättring av hudens övergripande kvalitet och utseende.</p>',
     image_small: 'https://via.placeholder.com/358x274.webp',
     image_large: 'https://via.placeholder.com/424x456.webp',
-    image_alt: 'IPL mot rosacea',
-    image_title: 'IPL mot rosacea',
+    image_alt: 'IPL',
+    image_title: 'IPL',
     consultation_url: 'https://bokadirekt.se',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
     booking_url: 'https://bokadirekt.se',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
-    procedures: array(
-        new Procedure(
-            label: '1 procedure',
-            price: '2595 kr',
-            savings: null,
-            booking_url: 'https://bokadirekt.se',
-            booking_url_label: 'Boka tid för behandling',
-            booking_url_title: 'Boka tid för behandling'
-        ),
-        new Procedure(
-            label: '3 procedures',
-            price: '6995 kr',
-            savings: 'Spara 790 kr',
-            booking_url: 'https://bokadirekt.se',
-            booking_url_label: 'Boka tid för behandling',
-            booking_url_title: 'Boka tid för behandling'
-        ),
-        new Procedure(
-            label: '5 procedures',
-            price: '9995 kr',
-            savings: 'Spara 2980 kr',
-            booking_url: 'https://bokadirekt.se',
-            booking_url_label: 'Boka tid för behandling',
-            booking_url_title: 'Boka tid för behandling'
-        )
-    ),
 );
 
 $nav_buttons = array(
-    'about' => 'Om IPL mot rosacea',
+    'about' => 'Om IPL',
     'preparing' => 'Förberedelser',
     'process' => 'Processen',
     'types' => 'Typer',
@@ -68,19 +42,19 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Vad är IPL-behandling mot rosacea?';
-$description_text = '<p class="p200">IPL, som står för Intensivt Pulserande Ljus, är en effektiv och icke-invasiv behandlingsmetod speciellt användbar för att hantera symtom på rosacea. Denna ljusbaserade teknik sänder ut pulser av ljus som varsamt tränger igenom huden och behandlar rosacea genom att minska rodnad och inflammation. IPL verkar genom att rikta in sig på de små blodkärlen som bidrar till rosaceas karakteristiska rodnad och synliga blodkärl.</p>
-    <p class="p200 mt-m">IPL för rosacea hjälper inte bara till att minska rodnad och förbättra hudens ton, utan kan även lugna huden och minska frekvensen av rosaceautbrott. Behandlingen anpassas individuellt för att passa varje patients unika hudförhållanden och är känd för att vara skonsam med minimala risker för biverkningar. Många patienter upplever signifikanta förbättringar efter bara några behandlingssessioner, vilket gör IPL till en populär och effektiv lösning för dem som kämpar med symtom på rosacea.</p>';
+$description_title = 'Vad är Alma Rejuve Dye-VL?';
+$description_text = '<p class="p200">Alma Rejuve Dye-VL representerar en specialiserad form av IPL (Intensivt Pulserande Ljus)-teknik, utvecklad för att förbättra hudens ton och textur. Denna avancerade version av IPL använder en unik Dye-VL-teknologi, vilken är optimal för att effektivt behandla hudtillstånd genom att målinrikta melanin i pigmentfläckar och hemoglobin i blodkärl. Detta gör Dye-VL särskilt effektivt för att reducera pigmentfläckar, ytliga blodkärl och symtom på rosacea.</p>
+    <p class="p200 mt-m">Alma Rejuve Dye-VL skiljer sig från traditionella IPL-behandlingar genom sin förmåga att mer specifikt och effektivt behandla olika hudproblem. Med sin anpassningsbara teknologi kan den skräddarsys för individuella hudförhållanden, vilket ger en precis och skonsam behandling med minimala biverkningar. Patienter kan återgå till sina dagliga aktiviteter snabbt efter behandlingen. Alma Rejuve Dye-VL är idealisk för att uppnå en jämnare hudton, minska synliga hudproblem och förbättra den övergripande hudkvaliteten.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelser inför behandling med IPL mot rosacea',
+        title: 'Förberedelser inför Rejuve Dye-VL',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Förberedelser inför behandling med IPL mot rosacea',
-        image_title: 'Förberedelser inför behandling med IPL mot rosacea',
-        content: '<p class="p200">Att förbereda sig inför en IPL-behandling mot rosacea innebär att vidta vissa försiktighetsåtgärder för att optimera behandlingens effektivitet och säkerhet. Din förberedelse börjar med en noggrann konsultation hos en erfaren hudterapeut som kommer att utvärdera din hudtyp och rosaceas tillstånd. Under denna konsultation diskuteras en skräddarsydd behandlingsplan som är anpassad för att ge bästa möjliga resultat.</p>
-        <p class="p200 mt-m">För att förbereda din hud för behandlingen är det viktigt att du undviker solning och användning av självbrunande produkter minst två veckor före din session. Detta är för att minska risken för ojämn pigmentering, då IPL behandlar pigment och blodkärl i huden. Du bör även undvika hudvårdsprodukter som innehåller retinol, starka syror eller andra exfolierande ämnen under veckan före behandlingen. Detta för att säkerställa att din hud inte är överkänslig eller irriterad vid behandlingstillfället. Din hudterapeut kommer att ge dig fullständiga instruktioner om hur du bäst förbereder dig inför din IPL-behandling, och vilka steg du bör ta efteråt för att främja en smidig och effektiv läkningsprocess.</p>',
+        image_alt: 'Förberedelser inför Rejuve Dye-VL',
+        image_title: 'Förberedelser inför Rejuve Dye-VL',
+        content: '<p class="p200">Förberedelserna inför en Rejuve Dye-VL-behandling är avgörande för att din hud ska vara i optimalt skick för behandlingen. Det första steget är en konsultation med en erfaren hudterapeut, där din hudtyp och specifika behov noggrant analyseras. Här skapas en personligt anpassad behandlingsplan med Dye-VL-tekniken för att säkerställa bästa möjliga resultat.</p>
+        <p class="p200 mt-m">För att förbereda din hud, bör du undvika solning och användning av självbrunande produkter minst två veckor innan behandlingen. Detta minskar risken för pigmentförändringar eftersom Dye-VL-behandlingen kräver att huden är i sin mest naturliga ton för effektivt riktad behandling av pigment och blodkärl. Undvik även hudvårdsprodukter som innehåller kraftiga exfolierande ingredienser veckan före din behandling. Din hudterapeut kommer att ge dig detaljerade instruktioner om ytterligare förberedelser och råd om hur du tar hand om din hud både före och efter din Rejuve Dye-VL-session, för att garantera en säker behandling och effektiv läkningsprocess.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -96,14 +70,14 @@ $top_articles = array(
         ))
     ),
     'process' => new Article(
-        title: 'Hur går en IPL mot rosacea till?',
+        title: 'Hur går en Rejuve Dye-VL behandling till?',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Hur går en IPL mot rosacea till?',
-        image_title: 'Hur går en IPL mot rosacea till',
-        content: '<p class="p200">IPL-behandling mot rosacea är en speciell procedur som använder Intensivt Pulserande Ljus för att effektivt minska rodnad och andra symptom associerade med rosacea. När du kommer till kliniken, kommer vi först att rengöra din hud noggrant för att avlägsna eventuell makeup och orenheter. Dina ögon skyddas också med speciella glasögon för att förhindra exponering för det intensiva ljuset.</p>
-        <p class="p200 mt-m">Vår IPL-enhet ställs sedan in för att skräddarsy ljuspulsens intensitet och våglängd till ditt specifika hudtillstånd. Under behandlingen appliceras korta, intensiva ljuspulser direkt på de områden av huden som påverkas av rosacea. Ljuset absorberas av de blodkärl som bidrar till rodnad, vilket minskar deras framträdande och lindrar andra symptom på rosacea utan att skada den omgivande huden.</p>
-        <p class="p200 mt-m">Efter behandlingen kan det behandlade området kännas varmt och se något rött ut, vilket liknar känslan av en mild solbränna. Dessa symtom är vanligtvis övergående och bör lindras inom några timmar till några dagar. Resultaten av IPL-behandlingen blir ofta synliga över tid, med en gradvis minskning av hudrodnad och förbättring av hudens övergripande tillstånd. Din hudterapeut kommer att ge dig råd om lämplig eftervård och rekommendera eventuella uppföljningsbehandlingar för att upprätthålla och förbättra resultaten från din IPL-behandling mot rosacea.</p>',
+        image_alt: 'Hur går en Rejuve Dye-VL behandling till?',
+        image_title: 'Hur går en Rejuve Dye-VL behandling till?',
+        content: '<p class="p200">Rejuve Dye-VL-behandling är en framstående metod för att förbättra hudens utseende, speciellt anpassad för att korrigera problem som pigmentfläckar, ytliga blodkärl och rosacea. När du anländer till vår klinik börjar vi med att rengöra din hud grundligt för att avlägsna alla spår av makeup och orenheter. Ett speciellt skydd placeras över dina ögon för att skydda dem från det intensiva ljuset under behandlingen.</p>
+        <p class="p200 mt-m">Vår Rejuve Dye-VL-enhet justeras sedan noggrant för att matcha ljuspulsernas intensitet och våglängd med ditt unika hudtillstånd och de specifika områdena som ska behandlas. Behandlingen involverar korta, intensiva ljuspulser som tränger in i huden. Dessa pulser är precist riktade för att behandla pigmentfläckar och blodkärl, där ljusenergin omvandlas till värme för att effektivt bryta ner det oönskade pigmentet eller minska blodkärlen, utan att skada omgivande hud.</p>
+        <p class="p200 mt-m">Efter behandlingen är det normalt att känna en lätt rodnad och uppleva en värmande känsla i huden, liknande en mild solbränna. Dessa symptom är övergående och avtar vanligtvis snabbt. Resultaten från en Rejuve Dye-VL-behandling utvecklas gradvis. Du kan förvänta dig att se en kontinuerlig förbättring av din hud, med minskade ojämnheter, en jämnare hudton och förbättrad övergripande hudkvalitet. Efter behandlingen ger din hudterapeut dig skräddarsydda råd för eftervård för att maximera resultatet och främja snabb läkning.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -120,8 +94,81 @@ $top_articles = array(
     ),
 );
 
-$treatment_areas_title = 'Behandlingsområden för IPL mot rosacea';
-$treatment_areas_text = '<p class="p200">Med IPL behandlar vi både hela och delar av ansiktet.</p>';
+$types_title = 'Hudtillstånd behandlade med Rejuve Dye-VL';
+$types_description = 'Alma Rejuve Dye-VL erbjuder en högspecialiserad form av IPL (Intensivt Pulserande Ljus)-behandling, anpassad för att effektivt hantera en mängd olika hudproblem. Upptäck vilka hudtillstånd som kan förbättras och behandlas framgångsrikt med vår avancerade Dye-VL-teknologi.';
+$types = array(
+    new Service(
+        title: 'Rejuve Dye-VL behandling för Rosacea',
+        duration: '30 minuter',
+        price: '1995 kr',
+        content: 'Utnyttja kraften i Rejuve Dye-VL för att effektivt behandla rosacea. Denna specialiserade IPL-metod fokuserar på att mildra rodnad och andra symtom associerade med rosacea, för att skapa en jämnare hudton och förbättra hudens kvalitet.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Rejuve Dye-VL behandling för Rosacea',
+        image_title: 'Rejuve Dye-VL behandling för Rosacea',
+        consultation_url: 'konsultation-rosacea',
+        consultation_url_label: 'Boka konsultation för Rejuve Dye-VL behandling av rosacea',
+        consultation_url_title: 'Boka konsultation för Rejuve Dye-VL behandling av rosacea',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka Rejuve Dye-VL behandling för rosacea',
+        booking_url_title: 'Boka Rejuve Dye-VL behandling för rosacea',
+    ),
+
+    new Service(
+        title: 'Rejuve Dye-VL behandling för Ytliga Blodkärl',
+        duration: '30 minuter',
+        price: '1995 kr',
+        content: 'Rejuve Dye-VL erbjuder en skonsam och effektiv lösning för att minska synligheten av ytliga blodkärl. Denna behandling är idealisk för att selektivt målriktad och behandla drabbade områden, vilket resulterar i en klarare och jämnare hudton.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Rejuve Dye-VL behandling för Ytliga Blodkärl',
+        image_title: 'Rejuve Dye-VL behandling för Ytliga Blodkärl',
+        consultation_url: 'konsultation-ytliga-blodkarl',
+        consultation_url_label: 'Boka konsultation för Rejuve Dye-VL behandling av ytliga blodkärl',
+        consultation_url_title: 'Boka konsultation för Rejuve Dye-VL behandling av ytliga blodkärl',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka Rejuve Dye-VL behandling för ytliga blodkärl',
+        booking_url_title: 'Boka Rejuve Dye-VL behandling för ytliga blodkärl',
+    ),
+
+    new Service(
+        title: 'Rejuve Dye-VL behandling för Pigmentfläckar',
+        duration: '30 minuter',
+        price: '1995 kr',
+        content: 'Använd fördelarna med Rejuve Dye-VL för att effektivt minska och ljusa upp pigmentfläckar. Denna metod är idealisk för att målriktat behandla mörka fläckar och ojämnheter i hudtonen, vilket ger en jämnare och strålande hud.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Rejuve Dye-VL behandling för Pigmentfläckar',
+        image_title: 'Rejuve Dye-VL behandling för Pigmentfläckar',
+        consultation_url: 'konsultation-pigmentflackar',
+        consultation_url_label: 'Boka konsultation för Rejuve Dye-VL behandling av pigmentfläckar',
+        consultation_url_title: 'Boka konsultation för Rejuve Dye-VL behandling av pigmentfläckar',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka Rejuve Dye-VL behandling för pigmentfläckar',
+        booking_url_title: 'Boka Rejuve Dye-VL behandling för pigmentfläckar',
+    ),
+
+    new Service(
+        title: 'Rejuve Dye-VL behandling för Melasma',
+        duration: '30 minuter',
+        price: '1995 kr',
+        content: 'Med Rejuve Dye-VL kan du effektivt behandla melasma. Denna teknik hjälper till att ljusa upp och jämna ut hudtonen genom att selektivt rikta in sig på hyperpigmenterade områden, vilket bidrar till en märkbar förbättring av hudens utseende.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Rejuve Dye-VL behandling för Melasma',
+        image_title: 'Rejuve Dye-VL behandling för Melasma',
+        consultation_url: 'konsultation-melasma',
+        consultation_url_label: 'Boka konsultation för Rejuve Dye-VL behandling av melasma',
+        consultation_url_title: 'Boka konsultation för Rejuve Dye-VL behandling av melasma',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka Rejuve Dye-VL behandling för melasma',
+        booking_url_title: 'Boka Rejuve Dye-VL behandling för melasma',
+    ),
+
+);
+
+$treatment_areas_title = 'Behandlingsområden för Rejuve Dye-VL';
+$treatment_areas_text = '<p class="p200">Rejuve Dye-VL, en avancerad form av IPL (Intensivt Pulserande Ljus), erbjuder mångsidig behandling för olika områden på kroppen. Denna specialiserade teknik är särskilt effektiv för ansikte, hals, händer och bröst, där den kan målriktat behandla hudproblem som pigmentfläckar, ytliga blodkärl och ojämn hudton.</p>';
 $treatment_areas = array(
     new TreatmentArea(
         image_small: 'https://via.placeholder.com/361x274.webm',
@@ -129,99 +176,202 @@ $treatment_areas = array(
         image_alt: 'Ansikte',
         image_title: 'Ansikte',
         title: 'Ansikte',
-        description: '<p class="p200">IPL kan utföras i hela ansiktet eller på utvalda zoner.</p>',
+        description: '<p class="p200">Rejuve Dye-VL kan utföras i hela ansiktet eller på utvalda zoner.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webp',
                 image_alt: 'Ansikte',
                 image_title: 'Ansikte',
-                title: 'IPL för Ansikte',
+                title: 'Rejuve Dye-VL för Ansikte',
                 duration: '50 min',
                 price: '2595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för IPL-behandling av ansiktet'
+                url_title: 'Boka tid för Rejuve Dye-VL-behandling av ansiktet'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webp',
+                image_alt: 'Panna',
+                image_title: 'Panna',
+                title: 'Rejuve Dye-VL för Panna',
+                duration: '30 min',
+                price: '1595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för Rejuve Dye-VL-behandling av pannan'
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/94x72.webp',
                 image_alt: 'Näsa',
                 image_title: 'Näsa',
-                title: 'IPL för Näsa',
+                title: 'Rejuve Dye-VL för Näsa',
                 duration: '30 min',
                 price: '1595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för IPL-behandling av näsan'
+                url_title: 'Boka tid för Rejuve Dye-VL-behandling av näsan'
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/94x72.webp',
                 image_alt: 'Kinder',
                 image_title: 'Kinder',
-                title: 'IPL för Kinder',
+                title: 'Rejuve Dye-VL för Kinder',
                 duration: '30 min',
                 price: '1595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för IPL-behandling av kinderna',
+                url_title: 'Boka tid för Rejuve Dye-VL-behandling av kinderna'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webp',
+                image_alt: 'Överläpp',
+                image_title: 'Överläpp',
+                title: 'Rejuve Dye-VL för Överläpp',
+                duration: '30 min',
+                price: '1595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för Rejuve Dye-VL-behandling av överläppen'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webp',
+                image_alt: 'Haka',
+                image_title: 'Haka',
+                title: 'Rejuve Dye-VL för Haka',
+                duration: '30 min',
+                price: '1595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för Rejuve Dye-VL-behandling av hakan'
+            ),
+        )
+    ),
+    new TreatmentArea(
+        image_small: 'https://via.placeholder.com/361x274.webm',
+        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_alt: 'Kropp',
+        image_title: 'Kropp',
+        title: 'Kropp',
+        description: '<p class="p200">Rejuve Dye-VL kan behandla flera olika delar av kroppen.</p>',
+        items: array(
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: 'Hals',
+                image_title: 'Hals',
+                title: 'Rejuve Dye-VL för Hals',
+                duration: '30 min',
+                price: '1895 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för Rejuve Dye-VL-behandling av halsen'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: 'Dekolletage',
+                image_title: 'Dekolletage',
+                title: 'Rejuve Dye-VL för Dekolletage',
+                duration: '40 min',
+                price: '2295 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för Rejuve Dye-VL-behandling av dekolletaget'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: 'Händer',
+                image_title: 'Händer',
+                title: 'Rejuve Dye-VL för Händer',
+                duration: '30 min',
+                price: '1895 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för Rejuve Dye-VL-behandling av händerna'
+            ),
+        )
+    ),
+    new TreatmentArea(
+        image_small: 'https://via.placeholder.com/361x274.webm',
+        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_alt: 'Kombinera områden',
+        image_title: 'Kombinera områden',
+        title: 'Kombinera områden',
+        description: '<p class="p200">Behandlingen fungerar även utmärkt om du vill kombinera flera olika områden.</p>',
+        items: array(
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: '1x zon',
+                image_title: '1x zon',
+                title: '1x zon',
+                duration: '20 min',
+                price: '1595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling av 1 zon.'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: '2x zoner',
+                image_title: '2x zoner',
+                title: '2x zoner',
+                duration: '30 min',
+                price: '1995 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling av 2x zoner.'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: '1x område',
+                image_title: '1x område',
+                title: '1x område',
+                duration: '50 min',
+                price: '2595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling av 1 område.'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: '2x områden',
+                image_title: '2x områden',
+                title: '2x områden',
+                duration: '60 min',
+                price: '3595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling av 2 områden.'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: '3x områden',
+                image_title: '3x områden',
+                title: '3x områden',
+                duration: '70 min',
+                price: '4595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling av 3 områden.'
             ),
         )
     ),
 );
 
 $bottom_articles = array('aftercare' => new Article(
-    title: 'Eftervård för IPL-behandling mot rosacea',
+    title: 'Efter behandling med Rejuve Dye-VL',
     image_small: 'https://via.placeholder.com/358x272.webp',
     image_large: 'https://via.placeholder.com/872x456.webp',
-    image_alt: 'Eftervård för IPL-behandling mot rosacea',
-    image_title: 'Eftervård för IPL-behandling mot rosacea',
-    content: '<p class="p200">Eftervården är en viktig del av din återhämtningsprocess efter en IPL-behandling mot rosacea. Omedelbart efter behandlingen kan det behandlade området uppvisa viss rodnad och i vissa fall en lätt svullnad. Dessa reaktioner är normala och bör avta inom kort. För att minimera risken för irritation och infektion är det viktigt att du inte rör området med smutsiga händer och undviker att applicera makeup eller parfymerade produkter under de första 24 timmarna efter behandlingen.</p>
-    <p class="p200 mt-m">Under de första dagarna efter din IPL-behandling rekommenderas det att du undviker stark fysisk ansträngning, bastubad och långa heta duschar, då dessa aktiviteter kan förvärra svullnad och irritation. Det är även viktigt att skydda din hud mot solen. Använd en solskyddskräm med hög SPF regelbundet, särskilt på det behandlade området, för att undvika ytterligare solskador och stödja läkningsprocessen. Använd gärna milda och återfuktande hudvårdsprodukter som inte innehåller irriterande ingredienser för att lugna huden och upprätthålla dess fuktbalans.</p>
-    <p class="p200 mt-m">Följ noga de eftervårdsinstruktioner som du får från din hudterapeut. Om du har några frågor eller funderingar kring din återhämtning efter behandlingen, tveka inte att kontakta din klinik. Ytterligare uppföljande behandlingar kan rekommenderas för att bibehålla och förbättra resultaten av din IPL-behandling mot rosacea.</p>',
+    image_alt: 'Efter behandling med Rejuve Dye-VL',
+    image_title: 'Efter behandling med Rejuve Dye-VL',
+    content: '<p class="p200">Eftervården är en viktig del av processen efter en Rejuve Dye-VL-behandling för att uppnå optimala resultat och en smidig läkningsprocess. Det är vanligt att uppleva en viss rodnad och svullnad i det behandlade området direkt efter sessionen. För att minimera risken för irritation och infektioner är det viktigt att inte röra området med smutsiga händer och att undvika att applicera makeup eller parfymerade produkter under de första 24 timmarna.</p>
+    <p class="p200 mt-m">Under de första dagarna efter din Alma Rejuve Dye-VL-behandling är det rekommenderat att undvika intensiva fysiska aktiviteter, bastu och långa varma duschar, eftersom dessa kan öka svullnad och irritation. Regelbunden användning av solskydd med hög SPF är essentiellt för att skydda huden mot UV-strålning, särskilt på de behandlade områdena. Vi råder också att använda milda och återfuktande hudvårdsprodukter utan starka ingredienser för att främja läkningsprocessen och bibehålla hudens fuktbalans.</p>
+    <p class="p200 mt-m">Det är viktigt att du följer de specifika eftervårdsinstruktionerna som ges av din behandlare noggrant. Om du har några frågor eller oro kring din eftervård, tveka inte att kontakta kliniken. Ytterligare behandlingar kan rekommenderas baserat på din huds respons för att uppnå och bibehålla de bästa resultaten från din behandling med Alma Rejuve Dye-VL.</p>',
     tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
 
-$treatment_steps = array(
-      new TreatmentStep(
-            title: 'Identifiera',
-            content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din rosacea och skapar en individuell behandlingsplan.',
-            url_label: 'Få gratis konsultation',
-            url: 'hudkonsultation',
-            url_title: 'Boka din kostnadsfria hudkonsultation idag'
-      ),
-      new TreatmentStep(
-            title: 'Behandla',
-            content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika rosacea, så att du snabbt och säkert blir av med problemet.',
-            url_label: 'Se behandlingar',
-            url: 'behandlingar/rosacea',
-            url_title: 'Utforska våra skräddarsydda rosaceabehandlingar'
-      ),
-      new TreatmentStep(
-            title: 'Förebygga',
-            content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny rosacea och hålla din hud i balans.',
-            url_label: 'Se produkter',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/rosacea',
-            url_title: 'Hitta de bästa produkterna för att förebygga rosacea'
-      ),
-      new TreatmentStep(
-            title: 'Reparera',
-            content: 'När rosacean är borta fokuserar vi på att reducera eventuella ytliga blodkärl med behandlingsmetoder som IPL för en jämn och problemfri hud.',
-            url_label: 'Se IPL-behandlingar',
-            url: 'behandlingar/rosacea',
-            url_title: 'Upptäck effektiva behandlingar för ytliga blodkärl'
-      ),
-
-);
-
-$service_brands_title = 'Märken för IPL';
-$service_brands_text = '<p class="p200">Vi utför IPL mot rosacea med Alma Rejuve DyeVL, Alma Harmony XL, Photonova som är de bästa maskinerna på marknaden.</p>';
+$service_brands_title = 'Andra märken för IPL';
+$service_brands_text = '<p class="p200">Utöver Rejuve DyeVL använder vi även Alma Harmony XL och Photonova som är de bästa maskinerna på marknaden för IPL.</p>';
 $service_brands = array(
 
-    new Brand(
-        label: 'Alma Rejuve DyeVL',
-        image: 'images/brands/alma-rejuve-dyevl.svg',
-        image_alt: 'Alma Rejuve DyeVL',
-        image_title: 'Alma Rejuve DyeVL',
-    ),
     new Brand(
         label: 'Alma Harmony XL',
         image: 'images/brands/alma-harmony-xl.svg',
@@ -328,16 +478,16 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Hur många behandlingar med IPL krävs för att behandla rosacea?',
-            text: 'Antalet IPL-behandlingar för rosacea varierar beroende på hudens tillstånd och svårighetsgraden av rosacea. Generellt kan det krävas 3-8 behandlingar med intervaller på ungefär 4 veckor för att se en märkbar förbättring. Din hudterapeut kommer att utforma en personligt anpassad behandlingsplan under den initiala konsultationen.'
+            title: 'Hur många behandlingar med Rejuve Dye-VL krävs vanligtvis?',
+            text: 'Antalet behandlingar med Rejuve Dye-VL som behövs varierar beroende på individens unika hudtillstånd och de önskade målen. Vanligtvis kan det krävas mellan 3-8 sessioner med cirka 4 veckors mellanrum för att uppnå bästa möjliga resultat. En skräddarsydd behandlingsplan utformas under din initiala konsultation, anpassad efter dina specifika hudbehov.'
         ),
         new Question(
-            title: 'Kan symtomen på rosacea återkomma efter en IPL-behandling?',
-            text: 'IPL-behandling kan ge betydande förbättringar av rosaceas symtom, men det är viktigt att förstå att rosacea är en kronisk hudåkomma som kan kräva kontinuerlig hantering. Även om IPL kan minska rodnad och blodkärl associerade med rosacea, kan regelbundna uppföljningsbehandlingar behövas för att upprätthålla resultaten, särskilt om nya symtom uppstår.'
+            title: 'Kan hudproblem återkomma efter en Rejuve Dye-VL-behandling?',
+            text: 'Även om Rejuve Dye-VL är effektiv för att behandla befintliga hudproblem som pigmentfläckar, ytliga blodkärl och rosacea, kan nya problem uppstå på grund av externa faktorer såsom åldrande och solskador. Regelbunden hudvård och solskydd är avgörande för att underhålla resultaten. Ytterligare Rejuve Dye-VL-behandlingar kan rekommenderas för att bevara effekterna över tid.'
         ),
         new Question(
-            title: 'När börjar jag se resultat efter IPL-behandling mot rosacea?',
-            text: 'De första resultaten av IPL-behandling mot rosacea kan ofta märkas inom några dagar till en vecka efter behandlingen, med fortsatt förbättring över tid. De flesta patienter upplever en gradvis minskning av rodnad och synligheten av blodkärl efter varje behandling. Fullständiga resultat och den långsiktiga effekten kan dock variera, och det kan krävas flera behandlingar för att uppnå optimala resultat.'
+            title: 'Hur snabbt ser jag resultat efter en Rejuve Dye-VL-behandling?',
+            text: 'Resultaten från en Rejuve Dye-VL-behandling varierar mellan individer. Många ser en förbättring efter den första behandlingen, men de mest påtagliga resultaten framträder ofta efter en fullständig serie av behandlingar. Förbättringar i hudens utseende och kvalitet fortsätter vanligtvis att utvecklas både under behandlingsförloppet och efter avslutade sessioner.'
         ),
     )
 );
@@ -702,17 +852,6 @@ $all_brands = array(
                         </div>
                     </section>
                 <?php } ?>
-                <section id="approach">
-                      <h2 class="h500 l10n">Metoden</h2>
-                      <hr class="mt-xl mb-xl3 is-hidden-mobile">
-                      <div class="columns is-variable is-2">
-                            <?php for ($i = 0; $i < sizeof($treatment_steps); $i++) {
-                                  echo '<div class="column">';
-                                  include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/treatment_step_card/treatment_step_card.php');
-                                  echo '</div>';
-                            } ?>
-                      </div>
-                </section>
                 <section id="results" class="large-margin">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php') ?>
                 </section>

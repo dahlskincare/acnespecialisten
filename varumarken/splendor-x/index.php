@@ -3,58 +3,31 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'IPL-behandling mot Rosacea | Acnespecialisten';
-$seo_description = 'Acnespecialisten är experter på att använda IPL-teknik för effektiv behandling av rosacea. Genom att använda målinriktat ljus, kan vi signifikant minska rodnad och andra karakteristiska symtom på rosacea, vilket ger en jämnare hudton och förbättrar hudens övergripande utseende.';
-$seo_keywords = 'IPL-behandling för rosacea, reducera rodnad, behandling av rosacea, ljusbaserad hudterapi, förbättra hudton, minska symtom på rosacea, jämn hudton, avancerad hudvård, specialister på rosacea';
+$seo_title = 'Splendor X Laserbehandling - Revolutionerande Permanent Hårborttagning | Acnespecialisten';
+$seo_description = 'Välkommen till AcneSpecialisten, där vi stolt presenterar Splendor X - nästa generations laser för permanent hårborttagning. Upplev en överlägsen behandling som effektivt tar bort oönskat hår för alla hudtyper. Splendor X kombinerar kraftfull teknik och skonsamhet för att ge dig snabba och hållbara resultat.';
+$seo_keywords = 'Splendor X, permanent hårborttagning, avancerad laserbehandling, effektiv hårborttagning, säkerhet och komfort, långvariga resultat, alla hudtyper, snabb hårborttagning';
 
-$seo_image = 'images/treatments/large/ipl-rosacea.jpg';
-
+$seo_image = 'images/treatments/large/splendor-x-harborttagning.jpg';
 
 $model = new Service(
-    title: 'IPL mot Rosacea',
-    duration: '60 min',
-    price: 'Från 2332 kr',
-    content: '',
+    title: 'Splendor X',
+    duration: null,
+    price: 'Från 995 kr',
+    content: '<p class="p200">Splendor X representerar en banbrytande utveckling inom permanent hårborttagning med laser, och erbjuder en avancerad lösning för dig som önskar att permanent minska oönskat hår. Våra Splendor X-behandlingar är individuellt anpassade för att möta dina unika behov, och vi behandlar effektivt olika områden på kroppen. Denna toppmoderna metod använder en kombination av laserljus med dubbla våglängder för att målriktat och skonsamt avlägsna hårstrån genom att skada hårfolliklarna. Detta minskar hårproduktionen och resulterar i en hårfri och mjuk hud. Splendor X är inte bara effektiv för att avlägsna oönskat hår, utan bidrar även till att förbättra hudens kvalitet och textur, vilket gör den till en idealisk behandling för en rad olika hudtyper och hårfärger.</p>',
     image_small: 'https://via.placeholder.com/358x274.webp',
     image_large: 'https://via.placeholder.com/424x456.webp',
-    image_alt: 'IPL mot rosacea',
-    image_title: 'IPL mot rosacea',
+    image_alt: 'Permanent Hårborttagning',
+    image_title: 'Permanent Hårborttagning',
     consultation_url: 'https://bokadirekt.se',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
     booking_url: 'https://bokadirekt.se',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
-    procedures: array(
-        new Procedure(
-            label: '1 procedure',
-            price: '2595 kr',
-            savings: null,
-            booking_url: 'https://bokadirekt.se',
-            booking_url_label: 'Boka tid för behandling',
-            booking_url_title: 'Boka tid för behandling'
-        ),
-        new Procedure(
-            label: '3 procedures',
-            price: '6995 kr',
-            savings: 'Spara 790 kr',
-            booking_url: 'https://bokadirekt.se',
-            booking_url_label: 'Boka tid för behandling',
-            booking_url_title: 'Boka tid för behandling'
-        ),
-        new Procedure(
-            label: '5 procedures',
-            price: '9995 kr',
-            savings: 'Spara 2980 kr',
-            booking_url: 'https://bokadirekt.se',
-            booking_url_label: 'Boka tid för behandling',
-            booking_url_title: 'Boka tid för behandling'
-        )
-    ),
 );
 
 $nav_buttons = array(
-    'about' => 'Om IPL mot rosacea',
+    'about' => 'Om Splendor X',
     'preparing' => 'Förberedelser',
     'process' => 'Processen',
     'types' => 'Typer',
@@ -68,19 +41,19 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Vad är IPL-behandling mot rosacea?';
-$description_text = '<p class="p200">IPL, som står för Intensivt Pulserande Ljus, är en effektiv och icke-invasiv behandlingsmetod speciellt användbar för att hantera symtom på rosacea. Denna ljusbaserade teknik sänder ut pulser av ljus som varsamt tränger igenom huden och behandlar rosacea genom att minska rodnad och inflammation. IPL verkar genom att rikta in sig på de små blodkärlen som bidrar till rosaceas karakteristiska rodnad och synliga blodkärl.</p>
-    <p class="p200 mt-m">IPL för rosacea hjälper inte bara till att minska rodnad och förbättra hudens ton, utan kan även lugna huden och minska frekvensen av rosaceautbrott. Behandlingen anpassas individuellt för att passa varje patients unika hudförhållanden och är känd för att vara skonsam med minimala risker för biverkningar. Många patienter upplever signifikanta förbättringar efter bara några behandlingssessioner, vilket gör IPL till en populär och effektiv lösning för dem som kämpar med symtom på rosacea.</p>';
+$description_title = 'Vad är Splendor X för permanent hårborttagning?';
+$description_text = '<p class="p200">Splendor X står i frontlinjen för innovation inom permanent hårborttagning. Denna avancerade metod kombinerar ljus med två olika våglängder för att effektivt behandla en mångfald av hårtyper. Med sin unika och effektiva kylmetod erbjuder Splendor X en nästan helt smärtfri upplevelse, vilket revolutionerar traditionell laserbehandling.</p>
+<p class="p200 mt-m">En av de stora fördelarna med Splendor X är dess flexibilitet. Till skillnad från äldre metoder är denna behandling inte begränsad av solbränd hud, vilket gör den tillgänglig för behandling året runt. Den är otroligt snabb och effektiv, och kräver ingen återhämtningstid, vilket gör den idealisk för alla områden på kroppen, från ansikte till ben. Splendor X behandlar de vanligaste nyanserna av hårstrån och fjun, men det bör noteras att gråa och röda hårstrån inte kan behandlas med denna teknik.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelser inför behandling med IPL mot rosacea',
+        title: 'Förberedelser inför Splendor X',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Förberedelser inför behandling med IPL mot rosacea',
-        image_title: 'Förberedelser inför behandling med IPL mot rosacea',
-        content: '<p class="p200">Att förbereda sig inför en IPL-behandling mot rosacea innebär att vidta vissa försiktighetsåtgärder för att optimera behandlingens effektivitet och säkerhet. Din förberedelse börjar med en noggrann konsultation hos en erfaren hudterapeut som kommer att utvärdera din hudtyp och rosaceas tillstånd. Under denna konsultation diskuteras en skräddarsydd behandlingsplan som är anpassad för att ge bästa möjliga resultat.</p>
-        <p class="p200 mt-m">För att förbereda din hud för behandlingen är det viktigt att du undviker solning och användning av självbrunande produkter minst två veckor före din session. Detta är för att minska risken för ojämn pigmentering, då IPL behandlar pigment och blodkärl i huden. Du bör även undvika hudvårdsprodukter som innehåller retinol, starka syror eller andra exfolierande ämnen under veckan före behandlingen. Detta för att säkerställa att din hud inte är överkänslig eller irriterad vid behandlingstillfället. Din hudterapeut kommer att ge dig fullständiga instruktioner om hur du bäst förbereder dig inför din IPL-behandling, och vilka steg du bör ta efteråt för att främja en smidig och effektiv läkningsprocess.</p>',
+        image_alt: 'Förberedelser inför Splendor X',
+        image_title: 'Förberedelser inför Splendor X',
+        content: '<p class="p200">Att förbereda sig noggrant inför en Splendor X-behandling är avgörande för att uppnå de bästa resultaten i permanent hårborttagning. Denna avancerade laserbehandling kräver specifika förberedelser för att säkerställa en effektiv och säker behandling. Innan din Splendor X-session är det viktigt att du avstår från att vaxa eller noppa hår i området som ska behandlas. Laseren behöver intakta hårfolliklar för att kunna verka effektivt. Istället bör du raka området noggrant dagen före din behandling.</p>
+        <p class="p200 mt-m">För att optimera säkerheten och effektiviteten av Splendor X-behandlingen bör du även undvika solning och användning av självbruningsprodukter under de veckor som leder upp till behandlingen. Solbränd hud kan påverka hur laserljuset absorberas och öka risken för biverkningar. Genom att följa dessa riktlinjer ser du till att din hud är väl förberedd för Splendor X-behandlingen, vilket bidrar till en smidig och framgångsrik hårborttagningsprocess.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -96,14 +69,13 @@ $top_articles = array(
         ))
     ),
     'process' => new Article(
-        title: 'Hur går en IPL mot rosacea till?',
+        title: 'Hur går behandling med Splendor X till?',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Hur går en IPL mot rosacea till?',
-        image_title: 'Hur går en IPL mot rosacea till',
-        content: '<p class="p200">IPL-behandling mot rosacea är en speciell procedur som använder Intensivt Pulserande Ljus för att effektivt minska rodnad och andra symptom associerade med rosacea. När du kommer till kliniken, kommer vi först att rengöra din hud noggrant för att avlägsna eventuell makeup och orenheter. Dina ögon skyddas också med speciella glasögon för att förhindra exponering för det intensiva ljuset.</p>
-        <p class="p200 mt-m">Vår IPL-enhet ställs sedan in för att skräddarsy ljuspulsens intensitet och våglängd till ditt specifika hudtillstånd. Under behandlingen appliceras korta, intensiva ljuspulser direkt på de områden av huden som påverkas av rosacea. Ljuset absorberas av de blodkärl som bidrar till rodnad, vilket minskar deras framträdande och lindrar andra symptom på rosacea utan att skada den omgivande huden.</p>
-        <p class="p200 mt-m">Efter behandlingen kan det behandlade området kännas varmt och se något rött ut, vilket liknar känslan av en mild solbränna. Dessa symtom är vanligtvis övergående och bör lindras inom några timmar till några dagar. Resultaten av IPL-behandlingen blir ofta synliga över tid, med en gradvis minskning av hudrodnad och förbättring av hudens övergripande tillstånd. Din hudterapeut kommer att ge dig råd om lämplig eftervård och rekommendera eventuella uppföljningsbehandlingar för att upprätthålla och förbättra resultaten från din IPL-behandling mot rosacea.</p>',
+        image_alt: 'Hur går behandlingen med Splendor X till?',
+        image_title: 'Hur går behandlingen med Splendor X till?',
+        content: '<p class="p200">Splendor X-behandlingen revolutionerar den permanenta hårborttagningen med sin unika gelfria och därmed kladdfria metod. När du genomgår en Splendor X-behandling appliceras specialiserat laserljus på de områden där du önskar hårborttagning. Detta ljus absorberas av pigmentet i hårfolliklarna och omvandlas till värme. Denna värme skadar effektivt folliklarna utan att skada omgivande vävnad, vilket förhindrar framtida hårväxt på ett precist och säkert sätt.</p>
+        <p class="p200 mt-m">En av de största fördelarna med Splendor X är att den inte kräver användning av gel under behandlingen, vilket gör hela processen renare och bekvämare för dig som patient. Efter behandlingen kan det förekomma en viss rodnad och svullnad i de behandlade områdena, men dessa reaktioner är milda och försvinner vanligtvis snabbt. För att uppnå optimala och långvariga resultat kan det vara nödvändigt med flera behandlingssessioner, då hår växer i olika faser och varje strå måste behandlas vid rätt tidpunkt. Vår expertis och avancerade teknik med Splendor X säkerställer en effektiv, säker och bekväm upplevelse, vilket resulterar i slät och hårfri hud.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -120,8 +92,37 @@ $top_articles = array(
     ),
 );
 
-$treatment_areas_title = 'Behandlingsområden för IPL mot rosacea';
-$treatment_areas_text = '<p class="p200">Med IPL behandlar vi både hela och delar av ansiktet.</p>';
+$combos_title = 'Populära behandlingskombinationer';
+$combos = array(
+    new ServiceCombo(
+        name: 'Bikinilinje + Hela ben',
+        image_small: 'https://via.placeholder.com/200x200.webp',
+        image_large: 'https://via.placeholder.com/361x274.webp',
+        image_alt: 'Bikinilinje + Hela ben',
+        image_title: 'Bikinilinje + Hela ben',
+        duration: '80 min',
+        price: '4190 kr',
+        booking_url: 'https://bokadirekt.se',
+        booking_url_label: 'Boka tid för behandling',
+        booking_url_title: 'Boka tid för behandling',
+        items: array(
+            new ServiceComboItem(
+                title: 'Bikinilinje',
+                price: '1595 kr',
+                savings: null,
+            ),
+            new ServiceComboItem(
+                title: 'Hela ben',
+                price: '2595 kr',
+                savings: null,
+            )
+        )
+    ),
+);
+
+$treatment_areas_title = 'Behandlingsområden för Splendor X';
+$treatment_areas_text = '<p class="p200">Splendor X behandlar effektivt hårväxt på hela kroppen, från topp till tå.</p>';
+
 $treatment_areas = array(
     new TreatmentArea(
         image_small: 'https://via.placeholder.com/361x274.webm',
@@ -129,110 +130,348 @@ $treatment_areas = array(
         image_alt: 'Ansikte',
         image_title: 'Ansikte',
         title: 'Ansikte',
-        description: '<p class="p200">IPL kan utföras i hela ansiktet eller på utvalda zoner.</p>',
+        description: '<p class="p200">Kom ihåg att alltid börja med en kostnadsfri konsultation.</p>',
         items: array(
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
-                image_alt: 'Ansikte',
-                image_title: 'Ansikte',
-                title: 'IPL för Ansikte',
-                duration: '50 min',
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'Hela Ansiktet',
+                image_title: 'Hela Ansiktet',
+                title: 'Hela Ansiktet',
+                duration: '30 min',
+                price: '1995 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'Öron',
+                image_title: 'Öron',
+                title: 'Öron',
+                duration: '20 min',
+                price: '995 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'Kinder',
+                image_title: 'Kinder',
+                title: 'Kinder',
+                duration: '20 min',
+                price: '995 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'Överläpp',
+                image_title: 'Överläpp',
+                title: 'Överläpp',
+                duration: '20 min',
+                price: '995 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'Haka',
+                image_title: 'Haka',
+                title: 'Haka',
+                duration: '20 min',
+                price: '995 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'Skägglinje',
+                image_title: 'Skägglinje',
+                title: 'Skägglinje',
+                duration: '20 min',
+                price: '995 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+        )
+    ),
+    new TreatmentArea(
+        image_small: 'https://via.placeholder.com/361x274.webm',
+        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_alt: 'Kropp',
+        image_title: 'Kropp',
+        title: 'Kropp',
+        description: '<p class="p200">Kom ihåg att alltid börja med en kostnadsfri konsultation.</p>',
+        items: array(
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webm',
+                image_alt: 'Axlar',
+                image_title: 'Axlar',
+                title: 'Axlar',
+                duration: '30 min',
+                price: '1595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webm',
+                image_alt: 'Armhålor',
+                image_title: 'Armhålor',
+                title: 'Armhålor',
+                duration: '30 min',
+                price: '1595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webm',
+                image_alt: 'Bröst',
+                image_title: 'Bröst',
+                title: 'Bröst',
+                duration: '30 min',
+                price: '1595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webm',
+                image_alt: 'Mage',
+                image_title: 'Mage',
+                title: 'Mage',
+                duration: '30 min',
+                price: '1595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webm',
+                image_alt: 'Rygg',
+                image_title: 'Rygg',
+                title: 'Rygg',
+                duration: '40 min',
                 price: '2595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för IPL-behandling av ansiktet'
+                url_title: 'Boka tid för behandling'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webp',
-                image_alt: 'Näsa',
-                image_title: 'Näsa',
-                title: 'IPL för Näsa',
+                image: 'https://via.placeholder.com/102x102.webm',
+                image_alt: 'Svank',
+                image_title: 'Svank',
+                title: 'Svank',
                 duration: '30 min',
                 price: '1595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för IPL-behandling av näsan'
+                url_title: 'Boka tid för behandling'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webp',
-                image_alt: 'Kinder',
-                image_title: 'Kinder',
-                title: 'IPL för Kinder',
+                image: 'https://via.placeholder.com/102x102.webm',
+                image_alt: 'Armar',
+                image_title: 'Armar',
+                title: 'Armar',
+                duration: '40 min',
+                price: '1995 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webm',
+                image_alt: 'Händer & Fingrar',
+                image_title: 'Händer & Fingrar',
+                title: 'Händer & Fingrar',
                 duration: '30 min',
                 price: '1595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för IPL-behandling av kinderna',
+                url_title: 'Boka tid för behandling'
+            ),
+        )
+    ),
+    new TreatmentArea(
+        image_small: 'https://via.placeholder.com/361x274.webm',
+        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_alt: 'Intim (Kvinna)',
+        image_title: 'Intim (Kvinna)',
+        title: 'Intim (Kvinna)',
+        description: '<p class="p200">Kom ihåg att alltid börja med en kostnadsfri konsultation.</p>',
+        items: array(
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'Bikinilinje',
+                image_title: 'Bikinilinje',
+                title: 'Bikinilinje',
+                duration: '30 min',
+                price: '1595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'String',
+                image_title: 'String',
+                title: 'String',
+                duration: '30 min',
+                price: '1595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'Brasiliansk + Runt Anus',
+                image_title: 'Brasiliansk + Runt Anus',
+                title: 'Brasiliansk + Runt Anus',
+                duration: '40 min',
+                price: '2595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'Runt Anus',
+                image_title: 'Runt Anus',
+                title: 'Runt Anus',
+                duration: '30 min',
+                price: '1595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+        )
+    ),
+    new TreatmentArea(
+        image_small: 'https://via.placeholder.com/361x274.webm',
+        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_alt: 'Intim (Man)',
+        image_title: 'Intim (Man)',
+        title: 'Intim (Man)',
+        description: '<p class="p200">Kom ihåg att alltid börja med en kostnadsfri konsultation.</p>',
+        items: array(
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'Konsultation - Manzilian',
+                image_title: 'Konsultation - Manzilian',
+                title: 'Konsultation - Manzilian',
+                duration: '20 min',
+                price: 'Gratis',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'Manzillian',
+                image_title: 'Manzillian',
+                title: 'Manzillian',
+                duration: '60 min',
+                price: '2595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'Manzillian + Runt Anus',
+                image_title: 'Manzillian + Runt Anus',
+                title: 'Manzillian + Runt Anus',
+                duration: '60 min',
+                price: '2995 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'Runt Anus',
+                image_title: 'Runt Anus',
+                title: 'Runt Anus',
+                duration: '40 min',
+                price: '1995 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+        )
+    ),
+    new TreatmentArea(
+        image_small: 'https://via.placeholder.com/361x274.webm',
+        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_alt: 'Ben',
+        image_title: 'Ben',
+        title: 'Ben',
+        description: '<p class="p200">Kom ihåg att alltid börja med en kostnadsfri konsultation.</p>',
+        items: array(
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'Halva Ben',
+                image_title: 'Halva Ben',
+                title: 'Halva Ben',
+                duration: '40 min',
+                price: '1995 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'Hela Ben',
+                image_title: 'Hela Ben',
+                title: 'Hela Ben',
+                duration: '60 min',
+                price: '2595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webm',
+                image_alt: 'Fötter & Tår',
+                image_title: 'Fötter & Tår',
+                title: 'Fötter & Tår',
+                duration: '30 min',
+                price: '1295 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
             ),
         )
     ),
 );
 
 $bottom_articles = array('aftercare' => new Article(
-    title: 'Eftervård för IPL-behandling mot rosacea',
+    title: 'Splendor X eftervård',
     image_small: 'https://via.placeholder.com/358x272.webp',
     image_large: 'https://via.placeholder.com/872x456.webp',
-    image_alt: 'Eftervård för IPL-behandling mot rosacea',
-    image_title: 'Eftervård för IPL-behandling mot rosacea',
-    content: '<p class="p200">Eftervården är en viktig del av din återhämtningsprocess efter en IPL-behandling mot rosacea. Omedelbart efter behandlingen kan det behandlade området uppvisa viss rodnad och i vissa fall en lätt svullnad. Dessa reaktioner är normala och bör avta inom kort. För att minimera risken för irritation och infektion är det viktigt att du inte rör området med smutsiga händer och undviker att applicera makeup eller parfymerade produkter under de första 24 timmarna efter behandlingen.</p>
-    <p class="p200 mt-m">Under de första dagarna efter din IPL-behandling rekommenderas det att du undviker stark fysisk ansträngning, bastubad och långa heta duschar, då dessa aktiviteter kan förvärra svullnad och irritation. Det är även viktigt att skydda din hud mot solen. Använd en solskyddskräm med hög SPF regelbundet, särskilt på det behandlade området, för att undvika ytterligare solskador och stödja läkningsprocessen. Använd gärna milda och återfuktande hudvårdsprodukter som inte innehåller irriterande ingredienser för att lugna huden och upprätthålla dess fuktbalans.</p>
-    <p class="p200 mt-m">Följ noga de eftervårdsinstruktioner som du får från din hudterapeut. Om du har några frågor eller funderingar kring din återhämtning efter behandlingen, tveka inte att kontakta din klinik. Ytterligare uppföljande behandlingar kan rekommenderas för att bibehålla och förbättra resultaten av din IPL-behandling mot rosacea.</p>',
+    image_alt: 'Splendor X eftervård',
+    image_title: 'Splendor X eftervård',
+    content: '<p class="p200">Eftervården efter en Splendor X-behandling för permanent hårborttagning är avgörande för att främja en förbättrad och effektiv återhämtning. Splendor X-teknologin är utformad för att vara skonsam mot huden, vilket bidrar till en snabbare återhämtning jämfört med traditionella laserbehandlingar. Dock är det viktigt att följa eftervårdsråden för att maximera denna fördel.</p>
+    <p class="p200 mt-m">Efter behandlingen kan man uppleva mild rodnad och en lätt värmande känsla i de behandlade områdena. Dessa symtom är normala och bör avta relativt snabbt, vilket är ett tecken på den skonsamma naturen hos Splendor X. För att stödja och påskynda återhämtningsprocessen, rekommenderas det att man sköter det behandlade området varsamt, undviker direkt solljus och använder ett högt SPF-solskydd för att skydda huden.</p>
+    <p class="p200 mt-m">Undvik att skrubba huden eller använda irriterande hudvårdsprodukter, och avstå från andra hårborttagningsmetoder som vaxning eller plockning. Genom att följa dessa steg säkerställer du att huden återhämtar sig effektivt och behåller de optimala resultaten från din Splendor X-behandling.</p>',
     tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
 
-$treatment_steps = array(
-      new TreatmentStep(
-            title: 'Identifiera',
-            content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din rosacea och skapar en individuell behandlingsplan.',
-            url_label: 'Få gratis konsultation',
-            url: 'hudkonsultation',
-            url_title: 'Boka din kostnadsfria hudkonsultation idag'
-      ),
-      new TreatmentStep(
-            title: 'Behandla',
-            content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika rosacea, så att du snabbt och säkert blir av med problemet.',
-            url_label: 'Se behandlingar',
-            url: 'behandlingar/rosacea',
-            url_title: 'Utforska våra skräddarsydda rosaceabehandlingar'
-      ),
-      new TreatmentStep(
-            title: 'Förebygga',
-            content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny rosacea och hålla din hud i balans.',
-            url_label: 'Se produkter',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/rosacea',
-            url_title: 'Hitta de bästa produkterna för att förebygga rosacea'
-      ),
-      new TreatmentStep(
-            title: 'Reparera',
-            content: 'När rosacean är borta fokuserar vi på att reducera eventuella ytliga blodkärl med behandlingsmetoder som IPL för en jämn och problemfri hud.',
-            url_label: 'Se IPL-behandlingar',
-            url: 'behandlingar/rosacea',
-            url_title: 'Upptäck effektiva behandlingar för ytliga blodkärl'
-      ),
-
-);
-
-$service_brands_title = 'Märken för IPL';
-$service_brands_text = '<p class="p200">Vi utför IPL mot rosacea med Alma Rejuve DyeVL, Alma Harmony XL, Photonova som är de bästa maskinerna på marknaden.</p>';
+$service_brands_title = 'Märken för Permanent Hårborttagning';
+$service_brands_text = '<p class="p200">Utöver Splendor X utför vi även permanent hårborttagning med Soprano Ice.</p>';
 $service_brands = array(
 
     new Brand(
-        label: 'Alma Rejuve DyeVL',
-        image: 'images/brands/alma-rejuve-dyevl.svg',
-        image_alt: 'Alma Rejuve DyeVL',
-        image_title: 'Alma Rejuve DyeVL',
-    ),
-    new Brand(
-        label: 'Alma Harmony XL',
-        image: 'images/brands/alma-harmony-xl.svg',
-        image_alt: 'Alma Harmony XL',
-        image_title: 'Alma Harmony XL',
-    ),
-    new Brand(
-        label: 'Powerlite Photonova',
-        image: 'images/brands/powerlite-photonova.svg',
-        image_alt: 'Powerlite Photonova',
-        image_title: 'Powerlite Photonova',
+        label: 'Soprano Ice',
+        image: 'images/brands/soprano-ice.svg',
+        image_alt: 'Soprano Ice',
+        image_title: 'Soprano Ice',
     ),
 );
 
@@ -328,19 +567,24 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Hur många behandlingar med IPL krävs för att behandla rosacea?',
-            text: 'Antalet IPL-behandlingar för rosacea varierar beroende på hudens tillstånd och svårighetsgraden av rosacea. Generellt kan det krävas 3-8 behandlingar med intervaller på ungefär 4 veckor för att se en märkbar förbättring. Din hudterapeut kommer att utforma en personligt anpassad behandlingsplan under den initiala konsultationen.'
+            title: 'Hur många Splendor X-behandlingar krävs för permanent hårborttagning?',
+            text: 'Antalet Splendor X-behandlingar som krävs för permanent hårborttagning varierar beroende på individuella faktorer som hårtyp, hårfärg och behandlingsområde. Generellt sett kan det behövas 8-12 behandlingar för att uppnå optimala resultat med Splendor X. Behandlingarna utförs med några veckors mellanrum för att effektivt följa hårets olika tillväxtfaser.'
         ),
         new Question(
-            title: 'Kan symtomen på rosacea återkomma efter en IPL-behandling?',
-            text: 'IPL-behandling kan ge betydande förbättringar av rosaceas symtom, men det är viktigt att förstå att rosacea är en kronisk hudåkomma som kan kräva kontinuerlig hantering. Även om IPL kan minska rodnad och blodkärl associerade med rosacea, kan regelbundna uppföljningsbehandlingar behövas för att upprätthålla resultaten, särskilt om nya symtom uppstår.'
+            title: 'Hur långvariga är resultaten med Splendor X?',
+            text: 'Resultaten av permanent hårborttagning med Splendor X är vanligtvis långvariga. Efter en komplett serie av behandlingar kan kunder förvänta sig en betydande och varaktig minskning av hårväxt. För att upprätthålla resultaten över tid kan periodiska underhållsbehandlingar vara nödvändiga, speciellt för att hantera eventuell finare återväxt.'
         ),
         new Question(
-            title: 'När börjar jag se resultat efter IPL-behandling mot rosacea?',
-            text: 'De första resultaten av IPL-behandling mot rosacea kan ofta märkas inom några dagar till en vecka efter behandlingen, med fortsatt förbättring över tid. De flesta patienter upplever en gradvis minskning av rodnad och synligheten av blodkärl efter varje behandling. Fullständiga resultat och den långsiktiga effekten kan dock variera, och det kan krävas flera behandlingar för att uppnå optimala resultat.'
+            title: 'Hur förbereder jag mig inför en Splendor X-behandling?',
+            text: 'Inför din Splendor X-behandling bör du undvika att vaxa eller noppa hår i behandlingsområdet. Det är viktigt att raka området dagen före behandlingen för att optimera effektiviteten. Dessutom är det kritiskt att skydda huden från solen i veckorna före behandlingen för att minimera risken för biverkningar och förbättra behandlingens resultat.'
+        ),
+        new Question(
+            title: 'Är Splendor X-behandling smärtsam?',
+            text: 'Splendor X-behandlingen är känd för att vara mindre smärtsam jämfört med traditionella laserbehandlingar för hårborttagning. Tack vare den avancerade kyltekniken och den precisa laserstrålen upplever de flesta en minimalt obehaglig känsla, som ofta beskrivs som lätt snäpp mot huden. Smärtupplevelsen varierar dock från person till person.'
         ),
     )
 );
+
 $faq_view_more = 'Se alla frågor & svar';
 
 $skin_guide_title = 'Hudguiden';
@@ -702,17 +946,6 @@ $all_brands = array(
                         </div>
                     </section>
                 <?php } ?>
-                <section id="approach">
-                      <h2 class="h500 l10n">Metoden</h2>
-                      <hr class="mt-xl mb-xl3 is-hidden-mobile">
-                      <div class="columns is-variable is-2">
-                            <?php for ($i = 0; $i < sizeof($treatment_steps); $i++) {
-                                  echo '<div class="column">';
-                                  include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/treatment_step_card/treatment_step_card.php');
-                                  echo '</div>';
-                            } ?>
-                      </div>
-                </section>
                 <section id="results" class="large-margin">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php') ?>
                 </section>
