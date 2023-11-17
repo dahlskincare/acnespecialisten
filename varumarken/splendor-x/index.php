@@ -120,8 +120,8 @@ $combos = array(
     ),
 );
 
-$treatment_areas_title = 'Behandlingsområden för Permanent Hårborttagning';
-$treatment_areas_text = '<p class="p200">Permanent hårborttagning med laser är en effektiv metod för att avlägsna oönskat hår från olika delar av kroppen. Vi behandlar hela kroppen från ansiktet till intima områden.</p>';
+$treatment_areas_title = 'Behandlingsområden för Splendor X';
+$treatment_areas_text = '<p class="p200">Splendor X behandlar effektivt hårväxt på hela kroppen, från topp till tå.</p>';
 
 $treatment_areas = array(
     new TreatmentArea(
@@ -452,14 +452,14 @@ $treatment_areas = array(
 );
 
 $bottom_articles = array('aftercare' => new Article(
-    title: 'Eftervård för Permanent Hårborttagning',
+    title: 'Splendor X eftervård',
     image_small: 'https://via.placeholder.com/358x272.webp',
     image_large: 'https://via.placeholder.com/872x456.webp',
-    image_alt: 'Eftervård för Permanent Hårborttagning',
-    image_title: 'Eftervård för Permanent Hårborttagning',
-    content: '<p class="p200">Efter en behandling med permanent hårborttagning är en smidig återhämtning avgörande för att säkerställa de bästa resultaten. Du kan förvänta dig en viss rodnad och en lätt värmande känsla i det behandlade området, men dessa symtom är vanligtvis milda och avtar snabbt. För att underlätta återhämtningen, rekommenderar vi att du tar hand om området försiktigt och undviker direkt exponering för solen under de första dagarna efter behandlingen.</p>
-    <p class="p200 mt-m">Undvik hård skrubbning och använd inte irriterande hudvårdsprodukter. Det är också viktigt att undvika andra hårborttagningsmetoder som vaxning eller plockning under läkningsperioden. Använd ett högt SPF-solskydd om du måste vara utomhus, för att skydda huden från ytterligare skador och stödja återhämtningsprocessen.</p>
-    <p class="p200 mt-m">Om du upplever någon ovanlig irritation eller har frågor om din återhämtning, är det viktigt att du kontaktar oss. En korrekt skötsel efter din behandling för permanent hårborttagning är nyckeln till en snabb och problemfri återhämtning, och hjälper till att upprätthålla och optimera behandlingens resultat.</p>',
+    image_alt: 'Splendor X eftervård',
+    image_title: 'Splendor X eftervård',
+    content: '<p class="p200">Eftervården är en viktig del av processen efter en Splendor X-behandling för permanent hårborttagning. Vanligtvis kan du förvänta dig en viss rodnad och lätt värme i det behandlade området, men dessa reaktioner är milda och övergående. För en smidig återhämtning är det viktigt att du sköter området varsamt och undviker direkt sol exponering de första dagarna efter behandlingen.</p>
+    <p class="p200 mt-m">Vi rekommenderar att undvika hård skrubbning eller användning av irriterande hudvårdsprodukter på det behandlade området. Det är också viktigt att inte använda andra hårborttagningsmetoder som vaxning eller plockning under läkningsperioden. Användning av solskydd med hög SPF är nödvändigt om du vistas utomhus, för att skydda huden och främja en effektiv läkning.</p>
+    <p class="p200 mt-m">Om du upplever någon ovanlig irritation eller har frågor kring din återhämtning, tveka inte att kontakta oss för råd. Korrekt eftervård är avgörande för att säkerställa bästa möjliga resultat från din Splendor X-behandling och för en snabb och problemfri återhämtning.</p>',
     tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
 
