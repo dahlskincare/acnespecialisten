@@ -98,17 +98,18 @@ $big_types = array(
         title: 'Skintech Easy Phytic Peel',
         duration: '30 min',
         price: null,
-        content: '<p class="p200">Vår klassiska ansiktsbehandling är idealisk för alla, oavsett hudtyp. Den rengör, vårdar och återfuktar huden för att ge den ny lyster. Behandlingsprocessen inleds med rengöring, följt av en exfoliering som tar bort döda hudceller. Efter en varsam ångprocess som öppnar porerna, utför vi en försiktig porrengöring och brynplockning. Slutligen appliceras en närande ansiktsmask och en återfuktande dagkräm, skräddarsydd för just din hud.</p>',
+        content: '<p class="p200">SkinTech Easy Phytic Peel är en skonsam men effektiv kemisk peeling, perfekt för dem som vill förbättra hudens textur och lyster utan lång återhämtningstid. Denna peeling är idealisk för en mängd olika hudtyper och särskilt effektiv mot fina linjer, pigmentfläckar och en matt hudton. Behandlingen börjar med en grundlig rengöring, följt av appliceringen av Easy Phytic-lösningen som arbetar för att exfoliera huden varsamt och främja cellförnyelse.</p>
+        <p class="p200 mt-m">Efter peelingen följer en lugnande fas där huden svalkas och återfuktas för att minska eventuell rodnad och ge maximal komfort. SkinTech Easy Phytic Peel behöver inte neutraliseras och tvättas inte bort, vilket gör behandlingen bekväm och tidsbesparande. Resultatet är en fräschare, klarare och mer strålande hud. Denna peeling är ett utmärkt val för dem som vill ha en mild men ändå kraftfull förbättring av hudens kvalitet.</p>',
         image_small: 'https://via.placeholder.com/358x274.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Klassisk',
-        image_title: 'Klassisk',
+        image_alt: 'Skintech Easy Phytic Peel',
+        image_title: 'Skintech Easy Phytic Peel',
         consultation_url: 'hudkonsultation',
         consultation_url_label: 'Boka tid för hudkonsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka klassisk behandling',
-        booking_url_title: 'Boka klassisk behandling',
+        booking_url_label: 'Boka Skintech Easy Phytic Peel',
+        booking_url_title: 'Boka Skintech Easy Phytic Peel',
         icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
         procedures: array(
             new Procedure(
