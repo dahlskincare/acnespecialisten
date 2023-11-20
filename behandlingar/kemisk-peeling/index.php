@@ -254,7 +254,7 @@ $types_title = 'Hudproblem vi behandlar med kemisk peeling';
 $types_description = '<p class="p200">På AcneSpecialisten erbjuder vi skräddarsydda kemiska peelings för en rad hudproblem. Våra behandlingar är specifikt utformade för att effektivt hantera allt från acneärr och aktiv akne till bristningar, melasma och pigmentfläckar. Vi tar även hand om pormaskar, stora porer, samt rynkor och fina linjer. Genom att välja rätt typ av kemisk peeling för varje specifikt hudproblem, kan vi erbjuda behandlingar som inte bara förbättrar hudens utseende, utan också dess övergripande hälsa och vitalitet.</p>';
 $types = array(
     new Service(
-        title: 'Kemisk Peeling för Melasma',
+        title: 'Kemisk Peeling mot Melasma',
         duration: '30 min',
         price: '1995 kr',
         content: 'Effektiv behandling för att ljusa upp och behandla melasma, vilket ger en jämnare och klarare hudton.',
@@ -270,7 +270,7 @@ $types = array(
         booking_url_title: 'Boka Kemisk Peeling för Melasma',
     ),
     new Service(
-        title: 'Kemisk Peeling för Pigmentfläckar',
+        title: 'Kemisk Peeling mot Pigmentfläckar',
         duration: '30 min',
         price: '1995 kr',
         content: 'Denna behandling riktar sig mot pigmentfläckar, vilket hjälper till att jämföra hudton och reducera synliga fläckar.',
@@ -286,7 +286,7 @@ $types = array(
         booking_url_title: 'Boka Kemisk Peeling för Pigmentfläckar',
     ),
     new Service(
-        title: 'Kemisk Peeling för Bristningar',
+        title: 'Kemisk Peeling mot Bristningar',
         duration: '30 min',
         price: '1995 kr',
         content: 'Denna peelingbehandling hjälper till att minska synligheten av bristningar, vilket förbättrar hudens struktur och utseende.',
@@ -302,7 +302,7 @@ $types = array(
         booking_url_title: 'Boka Kemisk Peeling för Bristningar',
     ),
     new Service(
-        title: 'Kemisk Peeling för Rynkor & Fina Linjer',
+        title: 'Kemisk Peeling mot Rynkor & Fina Linjer',
         duration: '30 min',
         price: '1995 kr',
         content: 'Anpassad för att behandla åldrande hud, denna peeling minskar rynkor och fina linjer, vilket ger en mer ungdomlig och slät hud.',
@@ -318,7 +318,7 @@ $types = array(
         booking_url_title: 'Boka Kemisk Peeling för Rynkor och Fina Linjer',
     ),
     new Service(
-        title: 'Kemisk Peeling för Solskadad Hy',
+        title: 'Kemisk Peeling mot Solskadad Hy',
         duration: '30 min',
         price: '1995 kr',
         content: 'Denna peeling riktar sig specifikt mot solskadad hud och hjälper till att reparera och förbättra hudens utseende efter solens påverkan.',
@@ -350,7 +350,7 @@ $types = array(
         booking_url_title: 'Boka kemisk peeling mot acneärr',
     ),
     new Service(
-        title: 'Kemisk Peeling för Aktiv Akne',
+        title: 'Kemisk Peeling mot Aktiv Akne',
         duration: '30 min',
         price: '1595 kr',
         content: 'Specialiserad peeling för att behandla aktiv akne. Hjälper till att rengöra porer, minska inflammation och förhindra framtida utbrott.',
@@ -366,7 +366,7 @@ $types = array(
         booking_url_title: 'Boka Kemisk Peeling för Aktiv Akne',
     ),
     new Service(
-        title: 'Kemisk Peeling för Pormaskar & Stora Porer',
+        title: 'Kemisk Peeling mot Pormaskar & Stora Porer',
         duration: '30 min',
         price: '1595 kr',
         content: 'Denna behandling är idealisk för att djuprengöra huden, minska synligheten av pormaskar och förminska stora porer, vilket bidrar till en jämnare hudton och textur.',
@@ -380,6 +380,65 @@ $types = array(
         booking_url: 'https://www.bokadirekt.se/',
         booking_url_label: 'Boka Kemisk Peeling för Pormaskar och Stora Porer',
         booking_url_title: 'Boka Kemisk Peeling för Pormaskar och Stora Porer',
+    ),
+);
+
+$treatment_areas_title = 'Behandlingsområden för Kemisk Peeling';
+$treatment_areas_text = '<p class="p200">Kemisk peeling är en mångsidig behandlingsmetod som är lämplig för att förbättra hudens tillstånd i ansiktet, på halsen, dekolletaget och ryggen.</p>';
+$treatment_areas = array(
+    new TreatmentArea(
+        image_small: 'https://via.placeholder.com/361x274.webm',
+        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_alt: 'Ansikte & kropp',
+        image_title: 'Ansikte & kropp',
+        title: 'Ansikte & kropp',
+        description: '<p class="p200">Vår kemiska peeling kan appliceras på flera olika områden, anpassad efter dina behov.</p>',
+        items: array(
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: 'Ansikte',
+                image_title: 'Ansikte',
+                title: 'Ansikte',
+                duration: '30 min',
+                price: '1995 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för ansiktsbehandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: 'Hals',
+                image_title: 'Hals',
+                title: 'Hals',
+                duration: '30 min',
+                price: '1995 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för halsbehandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: 'Dekolletage',
+                image_title: 'Dekolletage',
+                title: 'Dekolletage',
+                duration: '30 min',
+                price: '1995 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för dekolletagebehandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: 'Rygg',
+                image_title: 'Rygg',
+                title: 'Rygg',
+                duration: '30 min',
+                price: '1995 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för ryggbehandling'
+            ),
+        )
     ),
 );
 

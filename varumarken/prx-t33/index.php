@@ -164,11 +164,12 @@ $big_types = array(
 
 );
 
-$types_title = 'Hudproblem vi behandlar med kemisk peeling';
-$types_description = '<p class="p200">På AcneSpecialisten erbjuder vi skräddarsydda kemiska peelings för en rad hudproblem. Våra behandlingar är specifikt utformade för att effektivt hantera allt från acneärr och aktiv akne till bristningar, melasma och pigmentfläckar. Vi tar även hand om pormaskar, stora porer, samt rynkor och fina linjer. Genom att välja rätt typ av kemisk peeling för varje specifikt hudproblem, kan vi erbjuda behandlingar som inte bara förbättrar hudens utseende, utan också dess övergripande hälsa och vitalitet.</p>';
+$types_title = 'Hudproblem vi behandlar med PRX-T33';
+$types_description = '<p class="p200">Hos AcneSpecialisten använder vi PRX-T33, en avancerad form av kemisk peeling, för att effektivt hantera en mängd hudproblem. Denna banbrytande behandling är särskilt utformad för att ta itu med en rad olika hudutmaningar, inklusive acneärr, aktiv akne, bristningar, melasma och pigmentfläckar. PRX-T33 är också ett utmärkt val för att behandla pormaskar och stora porer samt att minska synligheten av rynkor och fina linjer.</p>';
+
 $types = array(
     new Service(
-        title: 'Kemisk Peeling för Melasma',
+        title: 'PRX-T33 mot Melasma',
         duration: '30 min',
         price: '1995 kr',
         content: 'Effektiv behandling för att ljusa upp och behandla melasma, vilket ger en jämnare och klarare hudton.',
@@ -184,7 +185,7 @@ $types = array(
         booking_url_title: 'Boka Kemisk Peeling för Melasma',
     ),
     new Service(
-        title: 'Kemisk Peeling för Pigmentfläckar',
+        title: 'PRX-T33 mot Pigmentfläckar',
         duration: '30 min',
         price: '1995 kr',
         content: 'Denna behandling riktar sig mot pigmentfläckar, vilket hjälper till att jämföra hudton och reducera synliga fläckar.',
@@ -200,7 +201,7 @@ $types = array(
         booking_url_title: 'Boka Kemisk Peeling för Pigmentfläckar',
     ),
     new Service(
-        title: 'Kemisk Peeling för Bristningar',
+        title: 'PRX-T33 mot Bristningar',
         duration: '30 min',
         price: '1995 kr',
         content: 'Denna peelingbehandling hjälper till att minska synligheten av bristningar, vilket förbättrar hudens struktur och utseende.',
@@ -216,7 +217,7 @@ $types = array(
         booking_url_title: 'Boka Kemisk Peeling för Bristningar',
     ),
     new Service(
-        title: 'Kemisk Peeling för Rynkor & Fina Linjer',
+        title: 'PRX-T33 mot Rynkor & Fina Linjer',
         duration: '30 min',
         price: '1995 kr',
         content: 'Anpassad för att behandla åldrande hud, denna peeling minskar rynkor och fina linjer, vilket ger en mer ungdomlig och slät hud.',
@@ -232,7 +233,7 @@ $types = array(
         booking_url_title: 'Boka Kemisk Peeling för Rynkor och Fina Linjer',
     ),
     new Service(
-        title: 'Kemisk Peeling för Solskadad Hy',
+        title: 'PRX-T33 mot Solskadad Hy',
         duration: '30 min',
         price: '1995 kr',
         content: 'Denna peeling riktar sig specifikt mot solskadad hud och hjälper till att reparera och förbättra hudens utseende efter solens påverkan.',
@@ -248,7 +249,7 @@ $types = array(
         booking_url_title: 'Boka Kemisk Peeling för Solskadad Hy',
     ),
     new Service(
-        title: 'Kemisk peeling mot acneärr',
+        title: 'PRX-T33 mot acneärr',
         duration: '30 min',
         price: null,
         content: 'Vår specialanpassade kemiska peeling är utformad för att effektivt behandla och minska synligheten av acneärr. Denna behandling arbetar på djupet för att jämna ut både ytan och hudtonen där ärrbildning har skett.',
@@ -264,7 +265,7 @@ $types = array(
         booking_url_title: 'Boka kemisk peeling mot acneärr',
     ),
     new Service(
-        title: 'Kemisk Peeling för Aktiv Akne',
+        title: 'PRX-T33 mot Aktiv Akne',
         duration: '30 min',
         price: '1595 kr',
         content: 'Specialiserad peeling för att behandla aktiv akne. Hjälper till att rengöra porer, minska inflammation och förhindra framtida utbrott.',
@@ -280,7 +281,7 @@ $types = array(
         booking_url_title: 'Boka Kemisk Peeling för Aktiv Akne',
     ),
     new Service(
-        title: 'Kemisk Peeling för Pormaskar & Stora Porer',
+        title: 'PRX-T33 mot Pormaskar & Stora Porer',
         duration: '30 min',
         price: '1595 kr',
         content: 'Denna behandling är idealisk för att djuprengöra huden, minska synligheten av pormaskar och förminska stora porer, vilket bidrar till en jämnare hudton och textur.',
@@ -297,27 +298,90 @@ $types = array(
     ),
 );
 
+$treatment_areas_title = 'Behandlingsområden för PRX-T33';
+$treatment_areas_text = '<p class="p200">PRX-T33 är en avancerad form av kemisk peeling som effektivt används för att behandla och förbättra hudens tillstånd i olika områden. Denna unika behandling är särskilt lämplig för ansiktet, halsen, dekolletaget och ryggen, där den kan bidra till att förbättra hudens textur och utseende.</p>';
+$treatment_areas = array(
+    new TreatmentArea(
+        image_small: 'https://via.placeholder.com/361x274.webm',
+        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_alt: 'Ansikte & kropp',
+        image_title: 'Ansikte & kropp',
+        title: 'Ansikte & kropp',
+        description: '<p class="p200">Vår kemiska peeling kan appliceras på flera olika områden, anpassad efter dina behov.</p>',
+        items: array(
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: 'Ansikte',
+                image_title: 'Ansikte',
+                title: 'Ansikte',
+                duration: '30 min',
+                price: '1995 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för ansiktsbehandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: 'Hals',
+                image_title: 'Hals',
+                title: 'Hals',
+                duration: '30 min',
+                price: '1995 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för halsbehandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: 'Dekolletage',
+                image_title: 'Dekolletage',
+                title: 'Dekolletage',
+                duration: '30 min',
+                price: '1995 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för dekolletagebehandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: 'Rygg',
+                image_title: 'Rygg',
+                title: 'Rygg',
+                duration: '30 min',
+                price: '1995 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för ryggbehandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: 'Händer',
+                image_title: 'Händer',
+                title: 'Händer',
+                duration: '30 min',
+                price: '1995 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för handbehandling'
+            ),
+        )
+    ),
+);
+
 $bottom_articles = array('aftercare' => new Article(
-    title: 'Eftervård för kemisk peeling',
+    title: 'Eftervård vid PRX-T33',
     image_small: 'https://via.placeholder.com/358x272.webp',
     image_large: 'https://via.placeholder.com/872x456.webp',
-    image_alt: 'Eftervård för kemisk peeling',
-    image_title: 'Eftervård för kemisk peeling',
+    image_alt: 'Eftervård vid PRX-T33',
+    image_title: 'Eftervård vid PRX-T33',
     content: '<p class="p200"><p class="p200">Eftervård är avgörande för att maximera resultaten av din kemiska peeling. För att underhålla och förbättra din hudkvalitet efter behandlingen, är det viktigt att följa en skräddarsydd hudvårdsrutin. Det innebär inte bara att använda rätt produkter, utan också att följa en rutin som är anpassad för din specifika hudtyp och de behov som uppstått efter peelingen.</p>
     <p class="p200 mt-m">På AcneSpecialisten hjälper vi dig att skapa en effektiv eftervårdsplan som passar just din hud. Detta kan innefatta allt från noggrann rengöring och återfuktning till speciella vårdåtgärder som lugnar och främjar hudens läkningsprocess. Vi guidar dig genom varje steg för att försäkra att du ger din hud den optimala vård den behöver för att återhämta sig och bibehålla de positiva effekterna av peelingen. Rätt eftervård är essentiell för att upprätthålla en hälsosam, välvårdad och strålande hud.</p>',
     tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
 
 $service_brands_title = 'Märken för kemisk peeling';
-$service_brands_text = '<p class="p200">Vi utför kemisk peeling med Skin Tech och PRX-T33.</p>';
+$service_brands_text = '<p class="p200">Utöver Skin Tech jobbar vi även med PRX-T33 för kemisk peeling.</p>';
 $service_brands = array(
-
-    new Brand(
-        label: 'Skin Tech',
-        image: 'images/brands/skin-tech.svg',
-        image_alt: 'Skin Tech',
-        image_title: 'SkinTech',
-    ),
     new Brand(
         label: 'PRX-T33',
         image: 'images/brands/prx-t33.svg',
