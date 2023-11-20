@@ -98,8 +98,8 @@ $big_types = array(
         title: 'Skintech Easy Phytic Peel',
         duration: '30 min',
         price: null,
-        content: '<p class="p200">SkinTech Easy Phytic Peel är en skonsam men effektiv kemisk peeling, perfekt för dem som vill förbättra hudens textur och lyster utan lång återhämtningstid. Denna peeling är idealisk för en mängd olika hudtyper och särskilt effektiv mot fina linjer, pigmentfläckar och en matt hudton. Behandlingen börjar med en grundlig rengöring, följt av appliceringen av Easy Phytic-lösningen som arbetar för att exfoliera huden varsamt och främja cellförnyelse.</p>
-        <p class="p200 mt-m">Efter peelingen följer en lugnande fas där huden svalkas och återfuktas för att minska eventuell rodnad och ge maximal komfort. SkinTech Easy Phytic Peel behöver inte neutraliseras och tvättas inte bort, vilket gör behandlingen bekväm och tidsbesparande. Resultatet är en fräschare, klarare och mer strålande hud. Denna peeling är ett utmärkt val för dem som vill ha en mild men ändå kraftfull förbättring av hudens kvalitet.</p>',
+        content: '<p class="p200">SkinTech Easy Phytic Peel är perfekt för dig som vill behandla orenheter, igentäppt hy och pigmenteringar, då den passar för alla hudtyper. Denna milda peeling ger en fördjupad rengöring och förbättrar hudens övergripande utseende utan att kräva en lång återhämtningsperiod. Den unika formulan i Easy Phytic Peel exfolierar försiktigt hudens yttre lager, vilket bidrar till en minskning av synliga ojämnheter och en förnyelse av hudcellerna.</p>
+        <p class="p200 mt-m">Efter appliceringen av peelingen får huden en chans att återhämta sig med en lugnande behandling som återinför fukt och lindrar eventuell rodnad. En av de största fördelarna med Easy Phytic Peel är att den inte kräver neutralisering eller avtvättning, vilket gör behandlingsprocessen smidig och enkel. Resultatet är en betydligt klarare, jämnare och mer strålande hud. SkinTech Easy Phytic Peel är perfekt för dig som söker en effektiv lösning på hudproblem utan att kompromissa med hudens känslighet eller komfort.</p>',
         image_small: 'https://via.placeholder.com/358x274.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
         image_alt: 'Skintech Easy Phytic Peel',
@@ -126,10 +126,86 @@ $big_types = array(
             ),
             new Procedure(
                 label: '6 behandlingar',
+                savings: '7595 kr',
+                price: 'Spara 1975 kr',
+                booking_url: 'https://www.bokadirekt.se'
+            ),
+        )
+    ),
+    new Service(
+        title: 'Skintech Easy Droxy Versicolor Peel',
+        duration: '30 min',
+        price: null,
+        content: '<p class="p200">SkinTech Easy Droxy Versicolor Peel är en utmärkt behandling för dig som söker en uppfräschning av huden och en effektiv lösning mot pigmenteringar. Denna peeling är skonsam och passar för en mängd olika hudtyper, och är särskilt effektiv för att ge huden en fräschare, klarare och mer ungdomlig utstrålning. Den arbetar genom att varsamt exfoliera hudens yttre lager, vilket hjälper till att reducera ojämnheter och främja en jämn hudton.</p>
+        <p class="p200 mt-m">Easy Droxy Versicolor Peel är designad för att ge maximal komfort under behandlingen och kräver ingen neutralisering. Efter behandlingen återställs hudens fuktbalans och rodnad minskas, vilket gör att huden känns lugn och återfuktad. Denna peeling är idealisk för de som önskar synliga resultat utan en lång återhämtningsperiod. Användningen av Easy Droxy Versicolor Peel är ett effektivt steg mot en mer strålande och jämn hud, och den är ett utmärkt val för alla som vill ge sin hud en snabb och effektiv uppfräschning.</p>',
+        image_small: 'https://via.placeholder.com/358x274.webp',
+        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_alt: 'Skintech Easy Droxy Versicolor Peel',
+        image_title: 'Skintech Easy Droxy Versicolor Peel',
+        consultation_url: 'hudkonsultation',
+        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka Skintech Easy Droxy Versicolor Peel',
+        booking_url_title: 'Boka Skintech Easy Droxy Versicolor Peel',
+        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
+        procedures: array(
+            new Procedure(
+                label: '1 behandling',
+                price: '1595 kr',
+                savings: null,
+                booking_url: 'https://www.bokadirekt.se'
+            ),
+            new Procedure(
+                label: '4 behandlingar',
+                price: '5595 kr',
+                savings: 'Spara 785 kr',
+                booking_url: 'https://www.bokadirekt.se'
+            ),
+            new Procedure(
+                label: '6 behandlingar',
+                savings: '7595 kr',
+                price: 'Spara 1975 kr',
+                booking_url: 'https://www.bokadirekt.se'
+            ),
+        )
+    ),
+    new Service(
+        title: 'Skintech Easy TCA Pain Control',
+        duration: '30 min',
+        price: null,
+        content: '<p class="p200">SkinTech Easy Droxy Versicolor Peel är en utmärkt behandling för dig som söker en uppfräschning av huden och en effektiv lösning mot pigmenteringar. Denna peeling är skonsam och passar för en mängd olika hudtyper, och är särskilt effektiv för att ge huden en fräschare, klarare och mer ungdomlig utstrålning. Den arbetar genom att varsamt exfoliera hudens yttre lager, vilket hjälper till att reducera ojämnheter och främja en jämn hudton.</p>
+        <p class="p200 mt-m">Easy Droxy Versicolor Peel är designad för att ge maximal komfort under behandlingen och kräver ingen neutralisering. Efter behandlingen återställs hudens fuktbalans och rodnad minskas, vilket gör att huden känns lugn och återfuktad. Denna peeling är idealisk för de som önskar synliga resultat utan en lång återhämtningsperiod. Användningen av Easy Droxy Versicolor Peel är ett effektivt steg mot en mer strålande och jämn hud, och den är ett utmärkt val för alla som vill ge sin hud en snabb och effektiv uppfräschning.</p>',
+        image_small: 'https://via.placeholder.com/358x274.webp',
+        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_alt: 'Skintech Easy Droxy Versicolor Peel',
+        image_title: 'Skintech Easy Droxy Versicolor Peel',
+        consultation_url: 'hudkonsultation',
+        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka Skintech Easy Droxy Versicolor Peel',
+        booking_url_title: 'Boka Skintech Easy Droxy Versicolor Peel',
+        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
+        procedures: array(
+            new Procedure(
+                label: '1 behandling',
+                price: '1995 kr',
+                savings: null,
+                booking_url: 'https://www.bokadirekt.se'
+            ),
+            new Procedure(
+                label: '4 behandlingar',
+                price: '6995 kr',
+                savings: 'Spara 785 kr',
+                booking_url: 'https://www.bokadirekt.se'
+            ),
+            new Procedure(
+                label: '6 behandlingar',
                 savings: '8995 kr',
                 price: 'Spara 2975 kr',
                 booking_url: 'https://www.bokadirekt.se'
-            )
+            ),
         )
     ),
 
