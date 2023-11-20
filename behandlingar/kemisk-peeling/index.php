@@ -126,8 +126,8 @@ $big_types = array(
             ),
             new Procedure(
                 label: '6 behandlingar',
-                savings: '7595 kr',
-                price: 'Spara 1975 kr',
+                price: '7595 kr',
+                savings: 'Spara 1975 kr',
                 booking_url: 'https://www.bokadirekt.se'
             ),
         )
@@ -164,8 +164,8 @@ $big_types = array(
             ),
             new Procedure(
                 label: '6 behandlingar',
-                savings: '7595 kr',
-                price: 'Spara 1975 kr',
+                price: '7595 kr',
+                savings: 'Spara 1975 kr',
                 booking_url: 'https://www.bokadirekt.se'
             ),
         )
@@ -202,8 +202,8 @@ $big_types = array(
             ),
             new Procedure(
                 label: '6 behandlingar',
-                savings: '8995 kr',
-                price: 'Spara 2975 kr',
+                price: '8995 kr',
+                savings: 'Spara 2975 kr',
                 booking_url: 'https://www.bokadirekt.se'
             ),
         )
@@ -241,8 +241,8 @@ $big_types = array(
             ),
             new Procedure(
                 label: '6 behandlingar',
-                savings: '8995 kr',
-                price: 'Spara 2975 kr',
+                price: '8995 kr',
+                savings: 'Spara 2975 kr',
                 booking_url: 'https://www.bokadirekt.se'
             ),
         )
