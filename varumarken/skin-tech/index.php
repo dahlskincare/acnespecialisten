@@ -3,17 +3,18 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Kemisk Peeling - Effektiva Hudförbättrande Behandlingar | AcneSpecialisten';
-$seo_description = 'Upptäck AcneSpecialistens expertutbud av kemiska peelings för att förbättra hudens utseende och hälsa. Våra anpassade peelingar behandlar allt från akne till åldrande, och erbjuder djupgående lösningar för diverse hudproblem. Med vår specialkunskap och avancerade behandlingar är din väg till en klarare och mer strålande hud inom räckhåll.';
-$seo_keywords = 'kemisk peeling, hudföryngring, aknebehandling, hudtonsförbättring, hudproblem, exfoliering, fina linjer, pigmentering, hudens textur, professionell hudvård';
+$seo_title = 'PRX-T33 - Revolutionerande Kemisk Peeling | AcneSpecialisten';
+$seo_description = 'På AcneSpecialisten erbjuder vi PRX-T33, en banbrytande kemisk peeling som revolutionerar hudvårdsbehandlingar. Denna unika peeling ger djupgående resultat mot rynkor, fina linjer, pigmenteringar och bristningar, utan den avskalning som traditionella peelings medför. Idealisk för alla som söker effektiva lösningar på sina hudproblem med minimal återhämtningstid.';
+$seo_keywords = 'PRX-T33, kemisk peeling, hudföryngring, anti-age, pigmenteringar, bristningar, fina linjer, hudförbättring, avancerad hudvård, AcneSpecialisten';
 
-$seo_image = 'images/treatments/large/kemisk-peeling.jpg';
+$seo_image = 'images/treatments/large/prx-t33.jpg';
 
 $model = new Service(
-    title: 'Kemisk Peeling',
+    title: 'PRX-T33',
     duration: '30 min',
     price: null,
-    content: '<p class="p200">På AcneSpecialisten är vi specialister på kemisk peeling för att effektivt behandla olika typer av hudproblem. Vår metod är idealisk för dig som önskar att förbättra hudens utseende genom att minska akne, acneärr, bristningar, melasma, pigmentfläckar, pormaskar, stora porer, rynkor, fina linjer och solskador. Våra behandlingsprotokoll är skräddarsydda och noggrant anpassade för att erbjuda en säker och icke-invasiv behandling, som ger en jämnare och mer estetiskt tilltalande hudstruktur. Vi på AcneSpecialisten strävar efter att ge varje klient en förbättrad hudkvalitet med våra professionella och effektiva kemiska peelingbehandlingar.</p>',
+    content: '<p class="p200">På AcneSpecialisten är vi stolta över att erbjuda PRX-T33, en avancerad form av kemisk peeling som specialiserar sig på att effektivt förbättra hudens utseende och kvalitet. Denna innovativa behandling är särskilt lämplig för dig som vill adressera hudproblem såsom acneärr, bristningar, melasma, pigmentfläckar, pormaskar, stora porer, samt rynkor och fina linjer. Vår PRX-T33-behandling är utformad för att vara både skonsam och kraftfull, vilket möjliggör en betydande förbättring av hudens struktur och ton utan den avskalning som ofta förekommer vid traditionell kemisk peeling.</p>
+    <p class="p200 mt-m">Varje PRX-T33-behandling på AcneSpecialisten är anpassad efter klientens individuella hudbehov, med målet att erbjuda en säker och icke-invasiv väg till en klarare, mer jämn och strålande hud. Vårt engagemang för expertis och kvalitet garanterar att varje klient upplever en märkbar förbättring i sin hudkvalitet, tack vare våra effektiva och professionellt genomförda behandlingar.</p>',
     image_small: 'https://via.placeholder.com/358x274.webp',
     image_large: 'https://via.placeholder.com/424x456.webp',
     image_alt: 'Ansiktsbehandlingar för problemhy',
@@ -24,10 +25,36 @@ $model = new Service(
     booking_url: 'https://bokadirekt.se',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
+    procedures: array(
+        new Procedure(
+            label: '1 procedure',
+            price: '1995 kr',
+            savings: null,
+            booking_url: 'https://bokadirekt.se',
+            booking_url_label: 'Boka tid för behandling',
+            booking_url_title: 'Boka tid för behandling'
+        ),
+        new Procedure(
+            label: '4 procedures',
+            price: '6995 kr',
+            savings: 'Spara 985 kr',
+            booking_url: 'https://bokadirekt.se',
+            booking_url_label: 'Boka tid för behandling',
+            booking_url_title: 'Boka tid för behandling'
+        ),
+        new Procedure(
+            label: '6 procedures',
+            price: '8995 kr',
+            savings: 'Spara 2975 kr',
+            booking_url: 'https://bokadirekt.se',
+            booking_url_label: 'Boka tid för behandling',
+            booking_url_title: 'Boka tid för behandling'
+        )
+    ),
 );
 
 $nav_buttons = array(
-    'about' => 'Om Kemisk Peeling',
+    'about' => 'Om PRX-T33',
     'preparing' => 'Förberedelser',
     'process' => 'Processen',
     'types' => 'Typer',
@@ -41,19 +68,19 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Vad är kemisk peeling?';
-$description_text = '<p class="p200">Kemisk peeling hos AcneSpecialisten innefattar en rad avancerade behandlingar som är speciellt utformade för att effektivt hantera olika hudproblem och förbättra hudens kvalitet på djupet. Genom att tillämpa specialiserade tekniker som Easy Phytic Peel, Easy Droxy Versicolor Peel, Easy TCA Pain Control och PRX-T33, arbetar vi på cellnivå för att varsamt exfoliera, förnya och vitalisera huden.</p>
-<p class="p200 mt-m">Våra behandlingar är idealiska för att ta itu med ett brett spektrum av hudproblem. Från att mildra acneärr och bekämpa aktiv akne, till att effektivt minska bristningar, melasma och pigmentfläckar. Dessutom är de mycket effektiva mot pormaskar och stora porer, rynkor och fina linjer samt solskadad hy. Varje kemisk peeling vi erbjuder är skräddarsydd för att matcha individens unika hudtyp och problem, och syftar till att återställa hudens naturliga balans. Vårt mål är att ge varje klient en hud som inte bara ser jämnare och klarare ut, utan som också känns friskare och mer ungdomlig.</p>';
+$description_title = 'Vad är PRX-T33?';
+$description_text = '<p class="p200">PRX-T33, som erbjuds hos AcneSpecialisten, är en banbrytande form av kemisk peeling som revolutionerar hudvårdsbehandlingar. Denna unika peeling kombinerar egenskaperna hos TCA (triklorättiksyra) med väteperoxid, vilket ger en djupgående effekt på huden utan den avskalning och irritation som ofta associeras med traditionella kemiska peelings.</p>
+<p class="p200 mt-m">PRX-T33 är särskilt utvecklad för att förbättra hudens struktur och utseende genom att stimulera hudens underliggande strukturer utan att skada dess yttre lager. Detta gör den idealisk för behandling av acneärr, bristningar, melasma, fina linjer, rynkor och pigmentfläckar. PRX-T33 ger synliga resultat redan efter första behandlingen och är lämplig för alla hudtyper, inklusive känslig hud. Behandlingen är smärtfri, kräver ingen återhämtningstid och kan utföras året om, vilket gör den till ett attraktivt val för dem som söker effektiva men skonsamma hudförbättringar.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelser inför kemisk peeling',
+        title: 'Förberedelser inför PRX-T33-behandling',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Förberedelser inför kemisk peeling',
-        image_title: 'Förberedelser inför kemisk peeling',
-        content: '<p class="p200">När du förbereder dig för en kemisk peeling hos AcneSpecialisten finns det några enkla steg du kan följa för att optimera din behandlingsupplevelse. För det första är det bra att undvika att exfoliera huden några dagar före din behandling, då själva peelingen kommer att ta hand om detta. Det är också viktigt att inte sola eller använda brun-utan-sol-produkter veckan innan behandlingen för att minska risken för hudirritationer.</p>
-        <p class="p200 mt-m">Dessutom är det viktigt att informera din hudterapeut om eventuella mediciner du tar eller om du har aktiva hudåkommor, så att vi kan anpassa behandlingen på bästa sätt. Kom ihåg att det viktigaste är att du känner dig bekväm och trygg, så om du har några frågor eller funderingar, tveka inte att kontakta oss före din behandling.</p>',
+        image_alt: 'Förberedelser inför PRX-T33-behandling',
+        image_title: 'Förberedelser inför PRX-T33-behandling',
+        content: '<p class="p200">För att förbereda dig optimalt för din PRX-T33-behandling hos AcneSpecialisten, rekommenderar vi att du följer några enkla men viktiga steg. Börja med att undvika exfoliering av huden några dagar före din behandling. Eftersom PRX-T33 agerar djupt på huden, är det bäst att låta huden vara så orörd som möjligt innan peelingen.</p>
+        <p class="p200 mt-m">Det är också viktigt att skydda din hud mot solen och undvika att använda brun-utan-sol-produkter veckan före din behandling. Denna försiktighetsåtgärd minskar risken för oönskade reaktioner och säkerställer att din hud är i bästa skick för att ta emot behandlingen. Vidare, informera din hudterapeut om eventuella mediciner du använder eller om du har några aktuella hudtillstånd, så att behandlingen kan anpassas på ett säkert och effektivt sätt. Tveka inte att kontakta oss om du har några frågor eller oro inför din PRX-T33-behandling – vi är här för att se till att din upplevelse blir så bekväm och givande som möjligt.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Ånga'
@@ -69,13 +96,14 @@ $top_articles = array(
         ))
     ),
     'process' => new Article(
-        title: 'Hur går kemisk peeling behandlingar till?',
+        title: 'Hur går behandling med PRX-T33 till?',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Hur går kemisk peeling behandlingar till?',
-        image_title: 'Hur går kemisk peeling behandlingar till?',
-        content: '<p class="p200">På AcneSpecialisten erbjuder vi specialiserade kemiska peelingbehandlingar som är anpassade för att möta en mängd olika hudproblem. Vi förstår att varje persons hud är unik och skräddarsyr därför varje behandling för att passa just dina individuella behov och hudtillstånd. Våra erfarna hudterapeuter använder sin expertis och djupgående kunskap för att ge dig den bästa möjliga vård och resultat.</p>
-        <p class="p200 mt-m">Varje kemisk peelingbehandling inleds med en grundlig rengöring för att förbereda huden. Detta följs av appliceringen av en specifikt utvald peelinglösning, som är anpassad efter din hudtyp och de hudproblem som ska behandlas. Denna lösning arbetar för att exfoliera de övre hudlagren och stimulerar hudens naturliga förnyelseprocess. Beroende på behandlingens intensitet, kan du uppleva en lätt stickande känsla under denna fas. Efter att peelingen har verkat tillräckligt länge neutraliseras den noggrant för att säkerställa din komfort och säkerhet. Avslutningsvis appliceras en lugnande och återfuktande mask för att lugna huden och minska eventuell rodnad eller irritation. Behandlingen avslutas med en återfuktande kräm som hjälper din hud att känna sig återupplivad och förnyad.</p>',
+        image_alt: 'Hur går behandling med PRX-T33 till?',
+        image_title: 'Hur går behandling med PRX-T33 till?',
+        content: '<p class="p200">På AcneSpecialisten tar vi hudvården till nästa nivå med PRX-T33, en innovativ kemisk peeling som är skräddarsydd för att återuppliva och förbättra din hud. Vi förstår att varje persons hud är unik, och därför är varje PRX-T33-behandling noggrant anpassad efter dina specifika behov och hudtillstånd.</p>
+        <p class="p200 mt-m">Behandlingen inleds med en noggrann rengöring av huden för att skapa en optimal grund för peelingen. Därefter appliceras PRX-T33-lösningen varsamt på huden. Denna unika formula är utformad för att djupgående exfoliera utan att orsaka den avskalning som traditionella kemiska peelings kan ge. Du kan känna en mild stickande känsla, men processen är i stort sett smärtfri tack vare PRX-T33:s avancerade sammansättning.</p>
+        <p class="p200 mt-m">Efter att peelingen har verkat i rätt tid, följer en lugnande fas där vi applicerar en återfuktande och lugnande mask för att maximera komforten och minimera eventuell rodnad. Slutligen avslutas behandlingen med en närande kräm som hjälper till att återställa hudens fuktbalans och ger en omedelbar lyster. Med PRX-T33-behandlingen hos AcneSpecialisten kan du förvänta dig en snabb och effektiv förbättring av hudens textur och utseende, utan den nedtid som associeras med traditionell kemisk peeling.</p>',
 
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
@@ -94,120 +122,6 @@ $top_articles = array(
 );
 
 $big_types = array(
-    new Service(
-        title: 'Skin Tech Easy Phytic Peel',
-        duration: '30 min',
-        price: null,
-        content: '<p class="p200">Skin Tech Easy Phytic Peel är perfekt för dig som vill behandla orenheter, igentäppt hy och pigmenteringar, då den passar för alla hudtyper. Denna milda peeling ger en fördjupad rengöring och förbättrar hudens övergripande utseende utan att kräva en lång återhämtningsperiod. Den unika formulan i Easy Phytic Peel exfolierar försiktigt hudens yttre lager, vilket bidrar till en minskning av synliga ojämnheter och en förnyelse av hudcellerna.</p>
-        <p class="p200 mt-m">Efter appliceringen av peelingen får huden en chans att återhämta sig med en lugnande behandling som återinför fukt och lindrar eventuell rodnad. En av de största fördelarna med Easy Phytic Peel är att den inte kräver neutralisering eller avtvättning, vilket gör behandlingsprocessen smidig och enkel. Resultatet är en betydligt klarare, jämnare och mer strålande hud. Skin Tech Easy Phytic Peel är perfekt för dig som söker en effektiv lösning på hudproblem utan att kompromissa med hudens känslighet eller komfort.</p>',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Skin Tech Easy Phytic Peel',
-        image_title: 'Skin Tech Easy Phytic Peel',
-        consultation_url: 'hudkonsultation',
-        consultation_url_label: 'Boka tid för hudkonsultation',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka Skin Tech Easy Phytic Peel',
-        booking_url_title: 'Boka Skin Tech Easy Phytic Peel',
-        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
-        procedures: array(
-            new Procedure(
-                label: '1 behandling',
-                price: '1595 kr',
-                savings: null,
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '4 behandlingar',
-                price: '5595 kr',
-                savings: 'Spara 785 kr',
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '6 behandlingar',
-                price: '7595 kr',
-                savings: 'Spara 1975 kr',
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-        )
-    ),
-    new Service(
-        title: 'Skin Tech Easy Droxy Versicolor Peel',
-        duration: '30 min',
-        price: null,
-        content: '<p class="p200">Skin Tech Easy Droxy Versicolor Peel är en utmärkt behandling för dig som söker en uppfräschning av huden och en effektiv lösning mot pigmenteringar. Denna peeling är skonsam och passar för en mängd olika hudtyper, och är särskilt effektiv för att ge huden en fräschare, klarare och mer ungdomlig utstrålning. Den arbetar genom att varsamt exfoliera hudens yttre lager, vilket hjälper till att reducera ojämnheter och främja en jämn hudton.</p>
-        <p class="p200 mt-m">Easy Droxy Versicolor Peel är designad för att ge maximal komfort under behandlingen och kräver ingen neutralisering. Efter behandlingen återställs hudens fuktbalans och rodnad minskas, vilket gör att huden känns lugn och återfuktad. Denna peeling är idealisk för de som önskar synliga resultat utan en lång återhämtningsperiod. Användningen av Easy Droxy Versicolor Peel är ett effektivt steg mot en mer strålande och jämn hud, och den är ett utmärkt val för alla som vill ge sin hud en snabb och effektiv uppfräschning.</p>',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Skin Tech Easy Droxy Versicolor Peel',
-        image_title: 'Skin Tech Easy Droxy Versicolor Peel',
-        consultation_url: 'hudkonsultation',
-        consultation_url_label: 'Boka tid för hudkonsultation',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka Skin Tech Easy Droxy Versicolor Peel',
-        booking_url_title: 'Boka Skin Tech Easy Droxy Versicolor Peel',
-        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
-        procedures: array(
-            new Procedure(
-                label: '1 behandling',
-                price: '1595 kr',
-                savings: null,
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '4 behandlingar',
-                price: '5595 kr',
-                savings: 'Spara 785 kr',
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '6 behandlingar',
-                price: '7595 kr',
-                savings: 'Spara 1975 kr',
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-        )
-    ),
-    new Service(
-        title: 'Skin Tech Easy TCA Pain Control',
-        duration: '30 min',
-        price: null,
-        content: '<p class="p200">Skin Tech Easy TCA Pain Control är en avancerad kemisk peeling som erbjuder kraftfulla resultat i kampen mot åldrande, ojämn hudstruktur och hudton, samt missfärgningar. Denna peeling är särskilt utformad för att erbjuda en djupgående förnyelse av huden, vilket gör den perfekt för de som söker märkbara förbättringar i hudens utseende och kvalitet.</p>
-        <p class="p200 mt-m">Under behandlingen appliceras Easy TCA Pain Control varsamt för att behandla hudens djupare lager, vilket stimulerar cellförnyelse och kollagenproduktion. Denna process bidrar till att dramatiskt reducera synliga tecken på åldrande som fina linjer och rynkor, och hjälper till att jämnar ut hudtonen och strukturen. En av de stora fördelarna med Easy TCA Pain Control är dess förmåga att kontrollera obehag under behandlingen, vilket säkerställer en bekvämare upplevelse för patienten. Efter peelingen får huden nödvändig vård för att återhämta sig och för att maximera behandlingseffekten. Skin Tech Easy TCA Pain Control är idealisk för de som önskar en djup och effektiv behandling för att återställa hudens ungdomliga glöd.</p>',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Skin Tech Easy Droxy Versicolor Peel',
-        image_title: 'Skin Tech Easy Droxy Versicolor Peel',
-        consultation_url: 'hudkonsultation',
-        consultation_url_label: 'Boka tid för hudkonsultation',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka Skin Tech Easy Droxy Versicolor Peel',
-        booking_url_title: 'Boka Skin Tech Easy Droxy Versicolor Peel',
-        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
-        procedures: array(
-            new Procedure(
-                label: '1 behandling',
-                price: '1995 kr',
-                savings: null,
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '4 behandlingar',
-                price: '6995 kr',
-                savings: 'Spara 785 kr',
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '6 behandlingar',
-                price: '8995 kr',
-                savings: 'Spara 2975 kr',
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-        )
-    ),
     new Service(
         title: 'PRX-T33',
         duration: '30 min',
