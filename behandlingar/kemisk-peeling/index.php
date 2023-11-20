@@ -95,21 +95,21 @@ $top_articles = array(
 
 $big_types = array(
     new Service(
-        title: 'Skintech Easy Phytic Peel',
+        title: 'Skin Tech Easy Phytic Peel',
         duration: '30 min',
         price: null,
-        content: '<p class="p200">SkinTech Easy Phytic Peel är perfekt för dig som vill behandla orenheter, igentäppt hy och pigmenteringar, då den passar för alla hudtyper. Denna milda peeling ger en fördjupad rengöring och förbättrar hudens övergripande utseende utan att kräva en lång återhämtningsperiod. Den unika formulan i Easy Phytic Peel exfolierar försiktigt hudens yttre lager, vilket bidrar till en minskning av synliga ojämnheter och en förnyelse av hudcellerna.</p>
-        <p class="p200 mt-m">Efter appliceringen av peelingen får huden en chans att återhämta sig med en lugnande behandling som återinför fukt och lindrar eventuell rodnad. En av de största fördelarna med Easy Phytic Peel är att den inte kräver neutralisering eller avtvättning, vilket gör behandlingsprocessen smidig och enkel. Resultatet är en betydligt klarare, jämnare och mer strålande hud. SkinTech Easy Phytic Peel är perfekt för dig som söker en effektiv lösning på hudproblem utan att kompromissa med hudens känslighet eller komfort.</p>',
+        content: '<p class="p200">Skin Tech Easy Phytic Peel är perfekt för dig som vill behandla orenheter, igentäppt hy och pigmenteringar, då den passar för alla hudtyper. Denna milda peeling ger en fördjupad rengöring och förbättrar hudens övergripande utseende utan att kräva en lång återhämtningsperiod. Den unika formulan i Easy Phytic Peel exfolierar försiktigt hudens yttre lager, vilket bidrar till en minskning av synliga ojämnheter och en förnyelse av hudcellerna.</p>
+        <p class="p200 mt-m">Efter appliceringen av peelingen får huden en chans att återhämta sig med en lugnande behandling som återinför fukt och lindrar eventuell rodnad. En av de största fördelarna med Easy Phytic Peel är att den inte kräver neutralisering eller avtvättning, vilket gör behandlingsprocessen smidig och enkel. Resultatet är en betydligt klarare, jämnare och mer strålande hud. Skin Tech Easy Phytic Peel är perfekt för dig som söker en effektiv lösning på hudproblem utan att kompromissa med hudens känslighet eller komfort.</p>',
         image_small: 'https://via.placeholder.com/358x274.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Skintech Easy Phytic Peel',
-        image_title: 'Skintech Easy Phytic Peel',
+        image_alt: 'Skin Tech Easy Phytic Peel',
+        image_title: 'Skin Tech Easy Phytic Peel',
         consultation_url: 'hudkonsultation',
         consultation_url_label: 'Boka tid för hudkonsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka Skintech Easy Phytic Peel',
-        booking_url_title: 'Boka Skintech Easy Phytic Peel',
+        booking_url_label: 'Boka Skin Tech Easy Phytic Peel',
+        booking_url_title: 'Boka Skin Tech Easy Phytic Peel',
         icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
         procedures: array(
             new Procedure(
@@ -133,21 +133,21 @@ $big_types = array(
         )
     ),
     new Service(
-        title: 'Skintech Easy Droxy Versicolor Peel',
+        title: 'Skin Tech Easy Droxy Versicolor Peel',
         duration: '30 min',
         price: null,
-        content: '<p class="p200">SkinTech Easy Droxy Versicolor Peel är en utmärkt behandling för dig som söker en uppfräschning av huden och en effektiv lösning mot pigmenteringar. Denna peeling är skonsam och passar för en mängd olika hudtyper, och är särskilt effektiv för att ge huden en fräschare, klarare och mer ungdomlig utstrålning. Den arbetar genom att varsamt exfoliera hudens yttre lager, vilket hjälper till att reducera ojämnheter och främja en jämn hudton.</p>
+        content: '<p class="p200">Skin Tech Easy Droxy Versicolor Peel är en utmärkt behandling för dig som söker en uppfräschning av huden och en effektiv lösning mot pigmenteringar. Denna peeling är skonsam och passar för en mängd olika hudtyper, och är särskilt effektiv för att ge huden en fräschare, klarare och mer ungdomlig utstrålning. Den arbetar genom att varsamt exfoliera hudens yttre lager, vilket hjälper till att reducera ojämnheter och främja en jämn hudton.</p>
         <p class="p200 mt-m">Easy Droxy Versicolor Peel är designad för att ge maximal komfort under behandlingen och kräver ingen neutralisering. Efter behandlingen återställs hudens fuktbalans och rodnad minskas, vilket gör att huden känns lugn och återfuktad. Denna peeling är idealisk för de som önskar synliga resultat utan en lång återhämtningsperiod. Användningen av Easy Droxy Versicolor Peel är ett effektivt steg mot en mer strålande och jämn hud, och den är ett utmärkt val för alla som vill ge sin hud en snabb och effektiv uppfräschning.</p>',
         image_small: 'https://via.placeholder.com/358x274.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Skintech Easy Droxy Versicolor Peel',
-        image_title: 'Skintech Easy Droxy Versicolor Peel',
+        image_alt: 'Skin Tech Easy Droxy Versicolor Peel',
+        image_title: 'Skin Tech Easy Droxy Versicolor Peel',
         consultation_url: 'hudkonsultation',
         consultation_url_label: 'Boka tid för hudkonsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka Skintech Easy Droxy Versicolor Peel',
-        booking_url_title: 'Boka Skintech Easy Droxy Versicolor Peel',
+        booking_url_label: 'Boka Skin Tech Easy Droxy Versicolor Peel',
+        booking_url_title: 'Boka Skin Tech Easy Droxy Versicolor Peel',
         icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
         procedures: array(
             new Procedure(
@@ -171,21 +171,60 @@ $big_types = array(
         )
     ),
     new Service(
-        title: 'Skintech Easy TCA Pain Control',
+        title: 'Skin Tech Easy TCA Pain Control',
         duration: '30 min',
         price: null,
-        content: '<p class="p200">SkinTech Easy Droxy Versicolor Peel är en utmärkt behandling för dig som söker en uppfräschning av huden och en effektiv lösning mot pigmenteringar. Denna peeling är skonsam och passar för en mängd olika hudtyper, och är särskilt effektiv för att ge huden en fräschare, klarare och mer ungdomlig utstrålning. Den arbetar genom att varsamt exfoliera hudens yttre lager, vilket hjälper till att reducera ojämnheter och främja en jämn hudton.</p>
-        <p class="p200 mt-m">Easy Droxy Versicolor Peel är designad för att ge maximal komfort under behandlingen och kräver ingen neutralisering. Efter behandlingen återställs hudens fuktbalans och rodnad minskas, vilket gör att huden känns lugn och återfuktad. Denna peeling är idealisk för de som önskar synliga resultat utan en lång återhämtningsperiod. Användningen av Easy Droxy Versicolor Peel är ett effektivt steg mot en mer strålande och jämn hud, och den är ett utmärkt val för alla som vill ge sin hud en snabb och effektiv uppfräschning.</p>',
+        content: '<p class="p200">Skin Tech Easy TCA Pain Control är en avancerad kemisk peeling som erbjuder kraftfulla resultat i kampen mot åldrande, ojämn hudstruktur och hudton, samt missfärgningar. Denna peeling är särskilt utformad för att erbjuda en djupgående förnyelse av huden, vilket gör den perfekt för de som söker märkbara förbättringar i hudens utseende och kvalitet.</p>
+        <p class="p200 mt-m">Under behandlingen appliceras Easy TCA Pain Control varsamt för att behandla hudens djupare lager, vilket stimulerar cellförnyelse och kollagenproduktion. Denna process bidrar till att dramatiskt reducera synliga tecken på åldrande som fina linjer och rynkor, och hjälper till att jämnar ut hudtonen och strukturen. En av de stora fördelarna med Easy TCA Pain Control är dess förmåga att kontrollera obehag under behandlingen, vilket säkerställer en bekvämare upplevelse för patienten. Efter peelingen får huden nödvändig vård för att återhämta sig och för att maximera behandlingseffekten. Skin Tech Easy TCA Pain Control är idealisk för de som önskar en djup och effektiv behandling för att återställa hudens ungdomliga glöd.</p>',
         image_small: 'https://via.placeholder.com/358x274.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Skintech Easy Droxy Versicolor Peel',
-        image_title: 'Skintech Easy Droxy Versicolor Peel',
+        image_alt: 'Skin Tech Easy Droxy Versicolor Peel',
+        image_title: 'Skin Tech Easy Droxy Versicolor Peel',
         consultation_url: 'hudkonsultation',
         consultation_url_label: 'Boka tid för hudkonsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka Skintech Easy Droxy Versicolor Peel',
-        booking_url_title: 'Boka Skintech Easy Droxy Versicolor Peel',
+        booking_url_label: 'Boka Skin Tech Easy Droxy Versicolor Peel',
+        booking_url_title: 'Boka Skin Tech Easy Droxy Versicolor Peel',
+        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
+        procedures: array(
+            new Procedure(
+                label: '1 behandling',
+                price: '1995 kr',
+                savings: null,
+                booking_url: 'https://www.bokadirekt.se'
+            ),
+            new Procedure(
+                label: '4 behandlingar',
+                price: '6995 kr',
+                savings: 'Spara 785 kr',
+                booking_url: 'https://www.bokadirekt.se'
+            ),
+            new Procedure(
+                label: '6 behandlingar',
+                savings: '8995 kr',
+                price: 'Spara 2975 kr',
+                booking_url: 'https://www.bokadirekt.se'
+            ),
+        )
+    ),
+    new Service(
+        title: 'PRX-T33',
+        duration: '30 min',
+        price: null,
+        content: '<p class="p200">PRX-T33 är en innovativ kemisk peeling som erbjuder exceptionella resultat för att bekämpa tecken på åldrande, som rynkor, fina linjer, pigmenteringar och bristningar. Denna avancerade behandling är utformad för att ge intensiv förnyelse och förbättring av hudens struktur och ton utan den avskalning som traditionella peelings kan medföra.</p>
+        <p class="p200 mt-m">Under PRX-T33-behandlingen appliceras en speciell lösning som verkar djupt in i huden för att stimulera kollagenproduktionen och förnya hudcellerna. Detta bidrar till att effektivt minska tecken på åldrande och förbättra hudens övergripande utseende. Unikt för PRX-T33 är dess förmåga att ge dramatiska resultat utan längre återhämtningstid, vilket gör den idealisk för de som önskar snabba, märkbara förbättringar.</p>
+        <p class="p200 mt-m">PRX-T33 är särskilt lämplig för de som vill återställa hudens lyster och ungdomliga utstrålning. Dess skonsamma men effektiva formula säkerställer en behaglig behandlingsupplevelse, vilket gör den till ett utmärkt val för de som söker en kraftfull men icke-invasiv lösning för att förbättra hudens kvalitet.</p>',
+        image_small: 'https://via.placeholder.com/358x274.webp',
+        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_alt: 'PRX-T33',
+        image_title: 'PRX-T33',
+        consultation_url: 'hudkonsultation',
+        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka PRX-T33',
+        booking_url_title: 'Boka PRX-T33',
         icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
         procedures: array(
             new Procedure(
@@ -216,8 +255,8 @@ $types_description = '<p class="p200">På AcneSpecialisten erbjuder vi skräddar
 $types = array(
     new Service(
         title: 'Kemisk Peeling för Melasma',
-        duration: 'Varierar',
-        price: 'Kontakta för prisuppgift',
+        duration: '30 min',
+        price: '1995 kr',
         content: 'Effektiv behandling för att ljusa upp och behandla melasma, vilket ger en jämnare och klarare hudton.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
@@ -232,8 +271,8 @@ $types = array(
     ),
     new Service(
         title: 'Kemisk Peeling för Pigmentfläckar',
-        duration: 'Varierar',
-        price: 'Kontakta för prisuppgift',
+        duration: '30 min',
+        price: '1995 kr',
         content: 'Denna behandling riktar sig mot pigmentfläckar, vilket hjälper till att jämföra hudton och reducera synliga fläckar.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
@@ -248,8 +287,8 @@ $types = array(
     ),
     new Service(
         title: 'Kemisk Peeling för Bristningar',
-        duration: 'Varierar',
-        price: 'Kontakta för prisuppgift',
+        duration: '30 min',
+        price: '1995 kr',
         content: 'Denna peelingbehandling hjälper till att minska synligheten av bristningar, vilket förbättrar hudens struktur och utseende.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
@@ -264,8 +303,8 @@ $types = array(
     ),
     new Service(
         title: 'Kemisk Peeling för Rynkor & Fina Linjer',
-        duration: 'Varierar',
-        price: 'Kontakta för prisuppgift',
+        duration: '30 min',
+        price: '1995 kr',
         content: 'Anpassad för att behandla åldrande hud, denna peeling minskar rynkor och fina linjer, vilket ger en mer ungdomlig och slät hud.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
@@ -280,8 +319,8 @@ $types = array(
     ),
     new Service(
         title: 'Kemisk Peeling för Solskadad Hy',
-        duration: 'Varierar',
-        price: 'Kontakta för prisuppgift',
+        duration: '30 min',
+        price: '1995 kr',
         content: 'Denna peeling riktar sig specifikt mot solskadad hud och hjälper till att reparera och förbättra hudens utseende efter solens påverkan.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
@@ -296,7 +335,7 @@ $types = array(
     ),
     new Service(
         title: 'Kemisk peeling mot acneärr',
-        duration: null,
+        duration: '30 min',
         price: null,
         content: 'Vår specialanpassade kemiska peeling är utformad för att effektivt behandla och minska synligheten av acneärr. Denna behandling arbetar på djupet för att jämna ut både ytan och hudtonen där ärrbildning har skett.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
@@ -312,8 +351,8 @@ $types = array(
     ),
     new Service(
         title: 'Kemisk Peeling för Aktiv Akne',
-        duration: 'Varierar',
-        price: 'Kontakta för prisuppgift',
+        duration: '30 min',
+        price: '1595 kr',
         content: 'Specialiserad peeling för att behandla aktiv akne. Hjälper till att rengöra porer, minska inflammation och förhindra framtida utbrott.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
@@ -328,8 +367,8 @@ $types = array(
     ),
     new Service(
         title: 'Kemisk Peeling för Pormaskar & Stora Porer',
-        duration: 'Varierar',
-        price: 'Kontakta för prisuppgift',
+        duration: '30 min',
+        price: '1595 kr',
         content: 'Denna behandling är idealisk för att djuprengöra huden, minska synligheten av pormaskar och förminska stora porer, vilket bidrar till en jämnare hudton och textur.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
@@ -354,6 +393,24 @@ $bottom_articles = array('aftercare' => new Article(
     <p class="p200 mt-m">På AcneSpecialisten hjälper vi dig att skapa en effektiv eftervårdsplan som passar just din hud. Detta kan innefatta allt från noggrann rengöring och återfuktning till speciella vårdåtgärder som lugnar och främjar hudens läkningsprocess. Vi guidar dig genom varje steg för att försäkra att du ger din hud den optimala vård den behöver för att återhämta sig och bibehålla de positiva effekterna av peelingen. Rätt eftervård är essentiell för att upprätthålla en hälsosam, välvårdad och strålande hud.</p>',
     tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
+
+$service_brands_title = 'Märken för kemisk peeling';
+$service_brands_text = '<p class="p200">Vi utför kemisk peeling med Skin Tech och PRX-T33.</p>';
+$service_brands = array(
+
+    new Brand(
+        label: 'Skin Tech',
+        image: 'images/brands/skin-tech.svg',
+        image_alt: 'Skin Tech',
+        image_title: 'SkinTech',
+    ),
+    new Brand(
+        label: 'PRX-T33',
+        image: 'images/brands/prx-t33.svg',
+        image_alt: 'PRX-T33',
+        image_title: 'PRX-T33'
+    ),
+);
 
 $results = array(
     new ResultCustomer(
@@ -447,21 +504,21 @@ $faq_title = 'Frågor & svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Passar era ansiktsbehandlingar alla hudtyper?',
-            text: 'Ja, vi har ansiktsbehandlingar som passar alla hudtyper. Vi anpassar dessutom alltid våra behandlingar efter dina individuella behov så att du ska få ett så bra resultat som möjligt.'
+            title: 'Är kemisk peeling lämplig för alla hudtyper?',
+            text: 'Ja, vi erbjuder olika typer av kemiska peelings som är anpassade för olika hudtyper. Vi anpassar varje behandling individuellt för att säkerställa att den passar dina hudbehov och ger bästa möjliga resultat.'
         ),
         new Question(
-            title: 'Är ansiktsbehandlingar effektiva mot pormaskar?',
-            text: 'Ja, många av våra ansiktsbehandlingar syftar till att djuprengöra porerna och kan vara särskilt effektiva mot pormaskar. Genom regelbundna behandlingar kan vi hjälpa till att minska och förebygga uppkomsten av nya pormaskar.'
+            title: 'Kan kemisk peeling hjälpa till med acneärr och pigmentfläckar?',
+            text: 'Absolut, kemisk peeling är en effektiv metod för att behandla acneärr och pigmentfläckar. Genom att exfoliera och främja cellförnyelse kan dessa behandlingar signifikant förbättra hudens textur och minska synligheten av ärr och fläckar.'
         ),
         new Question(
-            title: 'Hur ofta bör jag boka en ansiktsbehandling för bästa resultat?',
-            text: 'Det beror på din specifika hudtyp och de problem du vill adressera. För vissa kan en månadsvis behandling vara optimal, medan andra kanske vill komma oftare i början för att hantera specifika hudproblem.'
+            title: 'Hur ofta bör jag genomgå en kemisk peeling?',
+            text: 'Frekvensen av kemisk peeling beror på din hudtyp och de specifika problem du vill adressera. En del kan behöva behandlingar var fjärde till sjätte vecka, medan andra kan ha behov av mer eller mindre frekventa sessioner. Våra experter kommer att rekommendera en behandlingsplan baserad på din hudanalys.'
         ),
         new Question(
-            title: 'Hur vet jag vilken behandling som passar bäst för min problemhy?',
-            text: 'Det är bäst att boka en konsultation med en av våra hudterapeuter. Under konsultationen kommer vi att analysera din hud, diskutera dina bekymmer och rekommendera den bästa behandlingsplanen anpassad för dina specifika behov.'
-        )
+            title: 'Vilken typ av kemisk peeling ska jag välja för min hud?',
+            text: 'För att hitta den bästa kemiska peelingen för din hud rekommenderar vi en personlig konsultation. Under denna tid kommer våra hudterapeuter att analysera din hudtyp och behov, och rekommendera den mest effektiva behandlingen, vare sig det är Easy Phytic Peel, Easy TCA Pain Control, PRX-T33, eller någon annan.'
+        ),
     )
 );
 
