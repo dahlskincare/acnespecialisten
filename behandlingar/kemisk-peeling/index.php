@@ -93,9 +93,130 @@ $top_articles = array(
     ),
 );
 
+$big_types = array(
+    new Service(
+        title: 'Skintech Easy Phytic Peel',
+        duration: '30 min',
+        price: null,
+        content: '<p class="p200">Vår klassiska ansiktsbehandling är idealisk för alla, oavsett hudtyp. Den rengör, vårdar och återfuktar huden för att ge den ny lyster. Behandlingsprocessen inleds med rengöring, följt av en exfoliering som tar bort döda hudceller. Efter en varsam ångprocess som öppnar porerna, utför vi en försiktig porrengöring och brynplockning. Slutligen appliceras en närande ansiktsmask och en återfuktande dagkräm, skräddarsydd för just din hud.</p>',
+        image_small: 'https://via.placeholder.com/358x274.webp',
+        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_alt: 'Klassisk',
+        image_title: 'Klassisk',
+        consultation_url: 'hudkonsultation',
+        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka klassisk behandling',
+        booking_url_title: 'Boka klassisk behandling',
+        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
+        procedures: array(
+            new Procedure(
+                label: '1 behandling',
+                price: '1595 kr',
+                savings: null,
+                booking_url: 'https://www.bokadirekt.se'
+            ),
+            new Procedure(
+                label: '4 behandlingar',
+                price: '5595 kr',
+                savings: 'Spara 785 kr',
+                booking_url: 'https://www.bokadirekt.se'
+            ),
+            new Procedure(
+                label: '6 behandlingar',
+                savings: '8995 kr',
+                price: 'Spara 2975 kr',
+                booking_url: 'https://www.bokadirekt.se'
+            )
+        )
+    ),
+
+);
+
 $types_title = 'Hudproblem vi behandlar med kemisk peeling';
 $types_description = '<p class="p200">På AcneSpecialisten erbjuder vi skräddarsydda kemiska peelings för en rad hudproblem. Våra behandlingar är specifikt utformade för att effektivt hantera allt från acneärr och aktiv akne till bristningar, melasma och pigmentfläckar. Vi tar även hand om pormaskar, stora porer, samt rynkor och fina linjer. Genom att välja rätt typ av kemisk peeling för varje specifikt hudproblem, kan vi erbjuda behandlingar som inte bara förbättrar hudens utseende, utan också dess övergripande hälsa och vitalitet.</p>';
 $types = array(
+    new Service(
+        title: 'Kemisk Peeling för Melasma',
+        duration: 'Varierar',
+        price: 'Kontakta för prisuppgift',
+        content: 'Effektiv behandling för att ljusa upp och behandla melasma, vilket ger en jämnare och klarare hudton.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Kemisk Peeling för Melasma',
+        image_title: 'Kemisk Peeling för Melasma',
+        consultation_url: 'hudkonsultation-melasma',
+        consultation_url_label: 'Boka tid för konsultation om Melasma',
+        consultation_url_title: 'Boka tid för konsultation om Melasma',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka Kemisk Peeling för Melasma',
+        booking_url_title: 'Boka Kemisk Peeling för Melasma',
+    ),
+    new Service(
+        title: 'Kemisk Peeling för Pigmentfläckar',
+        duration: 'Varierar',
+        price: 'Kontakta för prisuppgift',
+        content: 'Denna behandling riktar sig mot pigmentfläckar, vilket hjälper till att jämföra hudton och reducera synliga fläckar.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Kemisk Peeling för Pigmentfläckar',
+        image_title: 'Kemisk Peeling för Pigmentfläckar',
+        consultation_url: 'hudkonsultation-pigmentflackar',
+        consultation_url_label: 'Boka tid för konsultation om Pigmentfläckar',
+        consultation_url_title: 'Boka tid för konsultation om Pigmentfläckar',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka Kemisk Peeling för Pigmentfläckar',
+        booking_url_title: 'Boka Kemisk Peeling för Pigmentfläckar',
+    ),
+    new Service(
+        title: 'Kemisk Peeling för Bristningar',
+        duration: 'Varierar',
+        price: 'Kontakta för prisuppgift',
+        content: 'Denna peelingbehandling hjälper till att minska synligheten av bristningar, vilket förbättrar hudens struktur och utseende.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Kemisk Peeling för Bristningar',
+        image_title: 'Kemisk Peeling för Bristningar',
+        consultation_url: 'hudkonsultation-bristningar',
+        consultation_url_label: 'Boka tid för konsultation om Bristningar',
+        consultation_url_title: 'Boka tid för konsultation om Bristningar',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka Kemisk Peeling för Bristningar',
+        booking_url_title: 'Boka Kemisk Peeling för Bristningar',
+    ),
+    new Service(
+        title: 'Kemisk Peeling för Rynkor & Fina Linjer',
+        duration: 'Varierar',
+        price: 'Kontakta för prisuppgift',
+        content: 'Anpassad för att behandla åldrande hud, denna peeling minskar rynkor och fina linjer, vilket ger en mer ungdomlig och slät hud.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Kemisk Peeling för Rynkor och Fina Linjer',
+        image_title: 'Kemisk Peeling för Rynkor och Fina Linjer',
+        consultation_url: 'hudkonsultation-rynkor',
+        consultation_url_label: 'Boka tid för konsultation om Rynkor och Fina Linjer',
+        consultation_url_title: 'Boka tid för konsultation om Rynkor och Fina Linjer',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka Kemisk Peeling för Rynkor och Fina Linjer',
+        booking_url_title: 'Boka Kemisk Peeling för Rynkor och Fina Linjer',
+    ),
+    new Service(
+        title: 'Kemisk Peeling för Solskadad Hy',
+        duration: 'Varierar',
+        price: 'Kontakta för prisuppgift',
+        content: 'Denna peeling riktar sig specifikt mot solskadad hud och hjälper till att reparera och förbättra hudens utseende efter solens påverkan.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Kemisk Peeling för Solskadad Hy',
+        image_title: 'Kemisk Peeling för Solskadad Hy',
+        consultation_url: 'hudkonsultation-solskadadhy',
+        consultation_url_label: 'Boka tid för konsultation om Solskadad Hy',
+        consultation_url_title: 'Boka tid för konsultation om Solskadad Hy',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka Kemisk Peeling för Solskadad Hy',
+        booking_url_title: 'Boka Kemisk Peeling för Solskadad Hy',
+    ),
     new Service(
         title: 'Kemisk peeling mot acneärr',
         duration: null,
@@ -112,16 +233,48 @@ $types = array(
         booking_url_label: 'Boka kemisk peeling mot acneärr',
         booking_url_title: 'Boka kemisk peeling mot acneärr',
     ),
+    new Service(
+        title: 'Kemisk Peeling för Aktiv Akne',
+        duration: 'Varierar',
+        price: 'Kontakta för prisuppgift',
+        content: 'Specialiserad peeling för att behandla aktiv akne. Hjälper till att rengöra porer, minska inflammation och förhindra framtida utbrott.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Kemisk Peeling för Aktiv Akne',
+        image_title: 'Kemisk Peeling för Aktiv Akne',
+        consultation_url: 'hudkonsultation-aktivakne',
+        consultation_url_label: 'Boka tid för konsultation om Aktiv Akne',
+        consultation_url_title: 'Boka tid för konsultation om Aktiv Akne',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka Kemisk Peeling för Aktiv Akne',
+        booking_url_title: 'Boka Kemisk Peeling för Aktiv Akne',
+    ),
+    new Service(
+        title: 'Kemisk Peeling för Pormaskar & Stora Porer',
+        duration: 'Varierar',
+        price: 'Kontakta för prisuppgift',
+        content: 'Denna behandling är idealisk för att djuprengöra huden, minska synligheten av pormaskar och förminska stora porer, vilket bidrar till en jämnare hudton och textur.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Kemisk Peeling för Pormaskar och Stora Porer',
+        image_title: 'Kemisk Peeling för Pormaskar och Stora Porer',
+        consultation_url: 'hudkonsultation-pormaskar',
+        consultation_url_label: 'Boka tid för konsultation om Pormaskar och Stora Porer',
+        consultation_url_title: 'Boka tid för konsultation om Pormaskar och Stora Porer',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka Kemisk Peeling för Pormaskar och Stora Porer',
+        booking_url_title: 'Boka Kemisk Peeling för Pormaskar och Stora Porer',
+    ),
 );
 
 $bottom_articles = array('aftercare' => new Article(
-    title: 'Eftervård och omhändertagande',
+    title: 'Eftervård för kemisk peeling',
     image_small: 'https://via.placeholder.com/358x272.webp',
     image_large: 'https://via.placeholder.com/872x456.webp',
-    image_alt: 'Eftervård och omhändertagande',
-    image_title: 'Eftervård och omhändertagande',
-    content: '<p class="p200">Efter en ansiktsbehandling är det viktigt med rätt eftervård för att behandla och bibehålla hudens skick. Genom att fortsätta ta hand om huden med rätt hemmavård kan du förlänga och förstärka effekterna av behandlingen. Det handlar inte bara om att använda produkter utan också om att följa rätt behandlingsrutiner för just ditt behov.</p>
-    <p class="p200 mt-m">Vi på AcneSpecialisten finns här för att hjälpa dig att ta fram den bästa hudvårdsplanen för din hudtyp. Oavsett om det handlar om daglig rengöring, återfuktning eller specialbehandlingar, så kommer vi att vägleda dig genom varje steg för att säkerställa att din hud får den vård den förtjänar. Kom ihåg, rätt eftervård är nyckeln till en frisk och strålande hud!</p>',
+    image_alt: 'Eftervård för kemisk peeling',
+    image_title: 'Eftervård för kemisk peeling',
+    content: '<p class="p200"><p class="p200">Eftervård är avgörande för att maximera resultaten av din kemiska peeling. För att underhålla och förbättra din hudkvalitet efter behandlingen, är det viktigt att följa en skräddarsydd hudvårdsrutin. Det innebär inte bara att använda rätt produkter, utan också att följa en rutin som är anpassad för din specifika hudtyp och de behov som uppstått efter peelingen.</p>
+    <p class="p200 mt-m">På AcneSpecialisten hjälper vi dig att skapa en effektiv eftervårdsplan som passar just din hud. Detta kan innefatta allt från noggrann rengöring och återfuktning till speciella vårdåtgärder som lugnar och främjar hudens läkningsprocess. Vi guidar dig genom varje steg för att försäkra att du ger din hud den optimala vård den behöver för att återhämta sig och bibehålla de positiva effekterna av peelingen. Rätt eftervård är essentiell för att upprätthålla en hälsosam, välvårdad och strålande hud.</p>',
     tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
 
