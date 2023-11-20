@@ -482,20 +482,20 @@ $faq_title = 'Frågor & svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Är kemisk peeling lämplig för alla hudtyper?',
-            text: 'Ja, vi erbjuder olika typer av kemiska peelings som är anpassade för olika hudtyper. Vi anpassar varje behandling individuellt för att säkerställa att den passar dina hudbehov och ger bästa möjliga resultat.'
+            title: 'Är PRX-T33 lämplig för alla hudtyper?',
+            text: 'Ja, PRX-T33 är en flexibel kemisk peeling som passar för många olika hudtyper. Denna behandling är skonsam och effektiv, och vi anpassar den individuellt för att säkerställa att den passar dina specifika hudbehov och ger optimala resultat.'
         ),
         new Question(
-            title: 'Kan kemisk peeling hjälpa till med acneärr och pigmentfläckar?',
-            text: 'Absolut, kemisk peeling är en effektiv metod för att behandla acneärr och pigmentfläckar. Genom att exfoliera och främja cellförnyelse kan dessa behandlingar signifikant förbättra hudens textur och minska synligheten av ärr och fläckar.'
+            title: 'Kan PRX-T33 behandling hjälpa till med acneärr och pigmentfläckar?',
+            text: 'Definitivt, PRX-T33 är särskilt effektiv för att behandla acneärr och pigmentfläckar. Denna peeling hjälper till att exfoliera huden och främja cellförnyelse, vilket kan minska synligheten av acneärr och jämna ut pigmentfläckar.'
         ),
         new Question(
-            title: 'Hur ofta bör jag genomgå en kemisk peeling?',
-            text: 'Frekvensen av kemisk peeling beror på din hudtyp och de specifika problem du vill adressera. En del kan behöva behandlingar var fjärde till sjätte vecka, medan andra kan ha behov av mer eller mindre frekventa sessioner. Våra experter kommer att rekommendera en behandlingsplan baserad på din hudanalys.'
+            title: 'Hur ofta bör jag genomgå en PRX-T33 behandling?',
+            text: 'Behandlingsintervall för PRX-T33 varierar beroende på din hudtyp och de problem du vill åtgärda. Vissa kan ha fördel av behandlingar var fjärde till sjätte vecka, medan andra kan behöva behandlas med längre eller kortare mellanrum. Vi kommer att rekommendera en behandlingsplan anpassad efter din personliga hudanalys.'
         ),
         new Question(
-            title: 'Vilken typ av kemisk peeling ska jag välja för min hud?',
-            text: 'För att hitta den bästa kemiska peelingen för din hud rekommenderar vi en personlig konsultation. Under denna tid kommer våra hudterapeuter att analysera din hudtyp och behov, och rekommendera den mest effektiva behandlingen, vare sig det är Easy Phytic Peel, Easy TCA Pain Control, PRX-T33, eller någon annan.'
+            title: 'Vilken typ av PRX-T33 behandling ska jag välja för min hud?',
+            text: 'För att bestämma vilken PRX-T33 behandling som är bäst för din hud, rekommenderar vi en konsultation med våra erfarna hudterapeuter. Under konsultationen analyserar vi din hudtyp och dina specifika behov för att kunna rekommendera den mest effektiva behandlingen för dig.'
         ),
     )
 );
