@@ -3,21 +3,22 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Kemisk Peeling - Effektiva Hudförbättrande Behandlingar | AcneSpecialisten';
-$seo_description = 'Upptäck AcneSpecialistens expertutbud av kemiska peelings för att förbättra hudens utseende och hälsa. Våra anpassade peelingar behandlar allt från akne till åldrande, och erbjuder djupgående lösningar för diverse hudproblem. Med vår specialkunskap och avancerade behandlingar är din väg till en klarare och mer strålande hud inom räckhåll.';
-$seo_keywords = 'kemisk peeling, hudföryngring, aknebehandling, hudtonsförbättring, hudproblem, exfoliering, fina linjer, pigmentering, hudens textur, professionell hudvård';
+$seo_title = 'Skin Tech - Avancerade Kemiska Peelings | AcneSpecialisten';
+$seo_description = 'AcneSpecialisten är stolta över att erbjuda Skin Techs sortiment av avancerade kemiska peelings. Dessa högkvalitativa behandlingar är designade för att effektivt hantera en rad hudproblem, inklusive acneärr, åldrande hud, hyperpigmentering och mycket mer. Skin Techs innovativa peelingar ger märkbara resultat med fokus på säkerhet och kundnöjdhet.';
+$seo_keywords = 'Skin Tech, kemisk peeling, hudproblem, acneärr, åldrande hud, hyperpigmentering, hudföryngring, AcneSpecialisten, avancerad hudvård';
 
-$seo_image = 'images/treatments/large/kemisk-peeling.jpg';
+$seo_image = 'images/treatments/large/skin-tech.jpg';
 
 $model = new Service(
-    title: 'Kemisk Peeling',
+    title: 'Skin Tech',
     duration: '30 min',
     price: null,
-    content: '<p class="p200">På AcneSpecialisten är vi specialister på kemisk peeling för att effektivt behandla olika typer av hudproblem. Vår metod är idealisk för dig som önskar att förbättra hudens utseende genom att minska akne, acneärr, bristningar, melasma, pigmentfläckar, pormaskar, stora porer, rynkor, fina linjer och solskador. Våra behandlingsprotokoll är skräddarsydda och noggrant anpassade för att erbjuda en säker och icke-invasiv behandling, som ger en jämnare och mer estetiskt tilltalande hudstruktur. Vi på AcneSpecialisten strävar efter att ge varje klient en förbättrad hudkvalitet med våra professionella och effektiva kemiska peelingbehandlingar.</p>',
+    content: '<p class="p200">Skin Tech är en avancerad serie kemiska peelingar, designade för att ge kraftfulla och anpassade hudvårdsbehandlingar. Våra Skin Tech-behandlingar är särskilt utvecklade för att effektivt hantera en mängd hudproblem, inklusive acneärr, åldrande hud, hyperpigmentering och mer. Dessa innovativa peelings kombinerar skonsamma metoder med kraftfulla resultat, vilket gör dem idealiska för dem som söker en djupgående förbättring av hudens utseende och kvalitet.</p>
+    <p class="p200 mt-m">Varje Skin Tech-behandling hos AcneSpecialisten är noggrant anpassad för att passa din unika hudtyp och behov. Vårt mål är att erbjuda behandlingar som inte bara förbättrar hudens utseende, utan även dess övergripande hälsa och vitalitet. Med vårt engagemang för kvalitet och expertis, kan du förvänta dig att uppleva en märkbar skillnad i din hud, vilket resulterar i en klarare, jämnare och mer strålande hudton.</p>',
     image_small: 'https://via.placeholder.com/358x274.webp',
     image_large: 'https://via.placeholder.com/424x456.webp',
-    image_alt: 'Kemisk peeling behandlingar',
-    image_title: 'Kemisk peeling behandlingar',
+    image_alt: 'Skin Tech behandlingar',
+    image_title: 'Skin Tech behandlingar',
     consultation_url: 'https://bokadirekt.se',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
@@ -27,7 +28,7 @@ $model = new Service(
 );
 
 $nav_buttons = array(
-    'about' => 'Om Kemisk Peeling',
+    'about' => 'Om Skin Tech',
     'preparing' => 'Förberedelser',
     'process' => 'Processen',
     'types' => 'Typer',
