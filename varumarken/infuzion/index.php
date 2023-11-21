@@ -245,28 +245,7 @@ $bottom_articles = array(
         ), new ArticleTag(
             icon: 'article-tag-cleansing',
             label: 'Cleansing'
-        ),
-        procedures: array(
-            new Procedure(
-                label: '1 behandling',
-                price: '3995 kr',
-                savings: null,
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '3 behandlingar',
-                price: '6995 kr',
-                savings: 'Spara 3990 kr',
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '5 behandlingar',
-                savings: '10995 kr',
-                price: 'Spara 8980 kr',
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-        )
-    )
+        ))
     ),
     'aftercare' => new Article(
         title: 'Eftervård för Infuzion & Multifuzion',
