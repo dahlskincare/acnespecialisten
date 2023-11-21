@@ -345,8 +345,8 @@ $types = array(
     ),
 );
 
-$treatment_areas_title = 'Behandlingsområden för Kemisk Peeling';
-$treatment_areas_text = '<p class="p200">Kemisk peeling är en mångsidig behandlingsmetod som är lämplig för att förbättra hudens tillstånd i ansiktet, på halsen, dekolletaget och ryggen.</p>';
+$treatment_areas_title = 'Områden som Behandlas med Skin Tech Peeling';
+$treatment_areas_text = '<p class="p200">Skin Techs kemiska peelingar erbjuder mångsidiga lösningar för hudförbättring i olika områden, inklusive ansiktet, halsen, dekolletaget och ryggen. Dessa behandlingar är anpassade för att effektivt hantera specifika hudproblem i varje område.</p>';
 $treatment_areas = array(
     new TreatmentArea(
         image_small: 'https://via.placeholder.com/361x274.webm',
@@ -405,26 +405,19 @@ $treatment_areas = array(
 );
 
 $bottom_articles = array('aftercare' => new Article(
-    title: 'Eftervård för kemisk peeling',
+    title: 'Skin Techs eftervård',
     image_small: 'https://via.placeholder.com/358x272.webp',
     image_large: 'https://via.placeholder.com/872x456.webp',
-    image_alt: 'Eftervård för kemisk peeling',
-    image_title: 'Eftervård för kemisk peeling',
-    content: '<p class="p200"><p class="p200">Eftervård är avgörande för att maximera resultaten av din kemiska peeling. För att underhålla och förbättra din hudkvalitet efter behandlingen, är det viktigt att följa en skräddarsydd hudvårdsrutin. Det innebär inte bara att använda rätt produkter, utan också att följa en rutin som är anpassad för din specifika hudtyp och de behov som uppstått efter peelingen.</p>
-    <p class="p200 mt-m">På AcneSpecialisten hjälper vi dig att skapa en effektiv eftervårdsplan som passar just din hud. Detta kan innefatta allt från noggrann rengöring och återfuktning till speciella vårdåtgärder som lugnar och främjar hudens läkningsprocess. Vi guidar dig genom varje steg för att försäkra att du ger din hud den optimala vård den behöver för att återhämta sig och bibehålla de positiva effekterna av peelingen. Rätt eftervård är essentiell för att upprätthålla en hälsosam, välvårdad och strålande hud.</p>',
+    image_alt: 'Skin Techs eftervård',
+    image_title: 'Skin Techs eftervård',
+    content: '<p class="p200">Att följa rätt eftervårdsrutin är kritiskt efter en kemisk peeling med Skin Tech för att säkerställa de bästa och mest hållbara resultaten. En korrekt eftervårdsplan hjälper inte bara din hud att återhämta sig efter behandlingen, utan främjar även en fortsatt hudförbättring.</p>
+    <p class="p200 mt-m">Vid AcneSpecialisten är vi dedikerade till att stödja dig genom din hudvårdsresa efter din peeling. Vi skapar en personlig eftervårdsplan som inkluderar allt från skonsam rengöring och intensiv återfuktning till produkter som effektivt lugnar och stödjer hudens återhämtningsprocess. Genom att följa våra rekommenderade eftervårdsinstruktioner kan du förlänga och förstärka de fördelar som kemisk peeling med Skin Tech ger, för en bestående och strålande hudhälsa.</p>',
     tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
 
 $service_brands_title = 'Märken för kemisk peeling';
-$service_brands_text = '<p class="p200">Vi utför kemisk peeling med Skin Tech och PRX-T33.</p>';
+$service_brands_text = '<p class="p200">Utöver Skin Tech jobbar vi även med PRX-T33 för kemisk peeling.</p>';
 $service_brands = array(
-
-    new Brand(
-        label: 'Skin Tech',
-        image: 'images/brands/skin-tech.svg',
-        image_alt: 'Skin Tech',
-        image_title: 'SkinTech',
-    ),
     new Brand(
         label: 'PRX-T33',
         image: 'images/brands/prx-t33.svg',
@@ -525,20 +518,23 @@ $faq_title = 'Frågor & svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Är kemisk peeling lämplig för alla hudtyper?',
-            text: 'Ja, vi erbjuder olika typer av kemiska peelings som är anpassade för olika hudtyper. Vi anpassar varje behandling individuellt för att säkerställa att den passar dina hudbehov och ger bästa möjliga resultat.'
+            title: 'Passar Skin Techs kemiska peelingar för alla hudtyper?',
+            text: 'Absolut, vårt utbud av Skin Techs kemiska peelingar är anpassat för att passa en mängd olika hudtyper. Varje behandling anpassas individuellt för att ge optimala resultat baserat på dina specifika hudbehov.'
         ),
+
         new Question(
-            title: 'Kan kemisk peeling hjälpa till med acneärr och pigmentfläckar?',
-            text: 'Absolut, kemisk peeling är en effektiv metod för att behandla acneärr och pigmentfläckar. Genom att exfoliera och främja cellförnyelse kan dessa behandlingar signifikant förbättra hudens textur och minska synligheten av ärr och fläckar.'
+            title: 'Är Skin Techs kemiska peeling effektiv mot acneärr och pigmentfläckar?',
+            text: 'Ja, våra Skin Techs kemiska peelingbehandlingar är utmärkta för att minska synligheten av acneärr och pigmentfläckar. De arbetar genom att exfoliera och främja cellförnyelsen, vilket leder till förbättrad hudtextur och minskad synlighet av ojämnheter.'
         ),
+
         new Question(
-            title: 'Hur ofta bör jag genomgå en kemisk peeling?',
-            text: 'Frekvensen av kemisk peeling beror på din hudtyp och de specifika problem du vill adressera. En del kan behöva behandlingar var fjärde till sjätte vecka, medan andra kan ha behov av mer eller mindre frekventa sessioner. Våra experter kommer att rekommendera en behandlingsplan baserad på din hudanalys.'
+            title: 'Vilken frekvens rekommenderas för Skin Techs kemiska peeling?',
+            text: 'Behandlingsfrekvensen för Skin Techs kemiska peeling varierar beroende på individens hudtyp och specifika behov. I vissa fall rekommenderas behandling var fjärde till sjätte vecka, medan andra kan behöva anpassade intervaller. Vi kommer att ge dig en personlig rekommendation efter en noggrann hudanalys.'
         ),
+
         new Question(
-            title: 'Vilken typ av kemisk peeling ska jag välja för min hud?',
-            text: 'För att hitta den bästa kemiska peelingen för din hud rekommenderar vi en personlig konsultation. Under denna tid kommer våra hudterapeuter att analysera din hudtyp och behov, och rekommendera den mest effektiva behandlingen, vare sig det är Easy Phytic Peel, Easy TCA Pain Control, PRX-T33, eller någon annan.'
+            title: 'Hur väljer jag rätt Skin Tech kemisk peeling för min hud?',
+            text: 'För att bestämma vilken Skin Tech kemisk peeling som är bäst för din hud, erbjuder vi en konsultation där våra hudterapeuter analyserar din hud och diskuterar dina mål. Baserat på detta ger vi rekommendationer om lämpliga behandlingar, från Easy Phytic Peel till Easy TCA Pain Control eller PRX-T33.'
         ),
     )
 );

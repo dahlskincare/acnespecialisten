@@ -380,13 +380,13 @@ $bottom_articles = array('aftercare' => new Article(
 ));
 
 $service_brands_title = 'Märken för kemisk peeling';
-$service_brands_text = '<p class="p200">Utöver Skin Tech jobbar vi även med PRX-T33 för kemisk peeling.</p>';
+$service_brands_text = '<p class="p200">Utöver PRX-T33 jobbar vi även med Skin Tech för kemisk peeling.</p>';
 $service_brands = array(
     new Brand(
-        label: 'PRX-T33',
-        image: 'images/brands/prx-t33.svg',
-        image_alt: 'PRX-T33',
-        image_title: 'PRX-T33'
+        label: 'Skin Tech',
+        image: 'images/brands/skin-tech.svg',
+        image_alt: 'Skin Tech',
+        image_title: 'Skin Tech'
     ),
 );
 
