@@ -22,12 +22,21 @@ html {
     overflow: hidden;
 
     div.floating-procedure {
+        white-space: nowrap;
         background-color: $white-200;
         margin-bottom: 1px;
         padding: $m;
         display: flex;
         align-items: center;
         justify-content: space-between;
+
+        .floating-procedure-price {
+
+
+            span.p200 {
+                font-size: 0.8em;
+            }
+        }
     }
 }
 
@@ -82,7 +91,7 @@ section#header {
 
                     div:last-child {
                         white-space: nowrap;
-    
+
                         .p200 {
                             font-size: 0.9em;
                             color: $white-800;

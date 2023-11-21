@@ -203,38 +203,38 @@ $bottom_articles = array(
 );
 
 $treatment_steps = array(
-      new TreatmentStep(
-            title: 'Identifiera',
-            content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din aknetyp och skapar en individuell behandlingsplan.',
+    new TreatmentStep(
+        title: 'Identifiera',
+        content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din aknetyp och skapar en individuell behandlingsplan.',
 
-            url_label: 'Få gratis konsultation',
-            url: 'hudkonsultation',
-            url_title: 'Boka din kostnadsfria hudkonsultation idag'
-      ),
-      new TreatmentStep(
-            title: 'Behandla',
-            content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika aknetyp, så att du snabbt och säkert blir av med problemet.',
+        url_label: 'Få gratis konsultation',
+        url: 'hudkonsultation',
+        url_title: 'Boka din kostnadsfria hudkonsultation idag'
+    ),
+    new TreatmentStep(
+        title: 'Behandla',
+        content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika aknetyp, så att du snabbt och säkert blir av med problemet.',
 
-            url_label: 'Se aknebehandlingar',
-            url: 'behandlingar/akne',
-            url_title: 'Utforska våra skräddarsydda aknebehandlingar'
-      ),
-      new TreatmentStep(
-            title: 'Förebygga',
-            content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny akne och hålla din hud i balans.',
+        url_label: 'Se aknebehandlingar',
+        url: 'behandlingar/akne',
+        url_title: 'Utforska våra skräddarsydda aknebehandlingar'
+    ),
+    new TreatmentStep(
+        title: 'Förebygga',
+        content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny akne och hålla din hud i balans.',
 
-            url_label: 'Se produkter',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
-            url_title: 'Hitta de bästa produkterna för att förebygga akne'
-      ),
-      new TreatmentStep(
-            title: 'Reparera',
-            content: 'När aknen är borta fokuserar vi på att reducera eventuella ärr med behandlingsmetoder som laser, microneedling och kemisk peeling för en jämn och problemfri hud.',
+        url_label: 'Se produkter',
+        url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
+        url_title: 'Hitta de bästa produkterna för att förebygga akne'
+    ),
+    new TreatmentStep(
+        title: 'Reparera',
+        content: 'När aknen är borta fokuserar vi på att reducera eventuella ärr med behandlingsmetoder som laser, microneedling och kemisk peeling för en jämn och problemfri hud.',
 
-            url_label: 'Se ärrbehandlingar',
-            url: 'behandlingar/aknearr',
-            url_title: 'Upptäck effektiva behandlingar för akneärr'
-      ),
+        url_label: 'Se ärrbehandlingar',
+        url: 'behandlingar/aknearr',
+        url_title: 'Upptäck effektiva behandlingar för akneärr'
+    ),
 
 );
 
@@ -639,11 +639,13 @@ $all_brands = array(
                             <div class="mt-xs"><?php echo $treatment_areas_text ?></div>
                         <?php } ?>
                         <?php foreach ($treatment_areas as $treatment_area) { ?>
-                            <picture>
-                                <source media="(max-width: 799px)" srcset="<?php echo $treatment_area->image_small ?>">
-                                <source media="(min-width: 800px)" srcset="<?php echo $treatment_area->image_large ?>">
-                                <img class="treatment-area-image" src="<?php echo $treatment_area->image_small ?>" alt="<?php echo $treatment_area->image_alt ?>" title="<?php echo $treatment_area->image_title ?>" width="364" height="364" />
-                            </picture>
+                            <?php if (isset($treatment_area->image_small)) { ?>
+                                <picture>
+                                    <source media="(max-width: 799px)" srcset="<?php echo $treatment_area->image_small ?>">
+                                    <source media="(min-width: 800px)" srcset="<?php echo $treatment_area->image_large ?>">
+                                    <img class="treatment-area-image" src="<?php echo $treatment_area->image_small ?>" alt="<?php echo $treatment_area->image_alt ?>" title="<?php echo $treatment_area->image_title ?>" width="364" height="364" />
+                                </picture>
+                            <?php } ?>
                             <h3 class="h300 mt-xl"><?php echo $treatment_area->title ?></h3>
                             <div class="mb-xl"><?php echo $treatment_area->description ?></div>
                         <?php
@@ -708,15 +710,15 @@ $all_brands = array(
                     </section>
                 <?php } ?>
                 <section id="approach">
-                      <h2 class="h500 l10n">Metoden</h2>
-                      <hr class="mt-xl mb-xl3 is-hidden-mobile">
-                      <div class="columns is-variable is-2">
-                            <?php for ($i = 0; $i < sizeof($treatment_steps); $i++) {
-                                  echo '<div class="column">';
-                                  include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/treatment_step_card/treatment_step_card.php');
-                                  echo '</div>';
-                            } ?>
-                      </div>
+                    <h2 class="h500 l10n">Metoden</h2>
+                    <hr class="mt-xl mb-xl3 is-hidden-mobile">
+                    <div class="columns is-variable is-2">
+                        <?php for ($i = 0; $i < sizeof($treatment_steps); $i++) {
+                            echo '<div class="column">';
+                            include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/treatment_step_card/treatment_step_card.php');
+                            echo '</div>';
+                        } ?>
+                    </div>
                 </section>
                 <section id="results" class="large-margin">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php') ?>
