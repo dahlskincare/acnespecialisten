@@ -3,58 +3,32 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'PRX-T33 - Revolutionerande Kemisk Peeling | AcneSpecialisten';
-$seo_description = 'På AcneSpecialisten erbjuder vi PRX-T33, en banbrytande kemisk peeling som revolutionerar hudvårdsbehandlingar. Denna unika peeling ger djupgående resultat mot rynkor, fina linjer, pigmenteringar och bristningar, utan den avskalning som traditionella peelings medför. Idealisk för alla som söker effektiva lösningar på sina hudproblem med minimal återhämtningstid.';
-$seo_keywords = 'PRX-T33, kemisk peeling, hudföryngring, anti-age, pigmenteringar, bristningar, fina linjer, hudförbättring, avancerad hudvård, AcneSpecialisten';
+$seo_title = 'Skin Tech - Avancerade Kemiska Peelings | AcneSpecialisten';
+$seo_description = 'AcneSpecialisten är stolta över att erbjuda Skin Techs sortiment av avancerade kemiska peelings. Dessa högkvalitativa behandlingar är designade för att effektivt hantera en rad hudproblem, inklusive acneärr, åldrande hud, hyperpigmentering och mycket mer. Skin Techs innovativa peelingar ger märkbara resultat med fokus på säkerhet och kundnöjdhet.';
+$seo_keywords = 'Skin Tech, kemisk peeling, hudproblem, acneärr, åldrande hud, hyperpigmentering, hudföryngring, AcneSpecialisten, avancerad hudvård';
 
-$seo_image = 'images/treatments/large/prx-t33.jpg';
+$seo_image = 'images/treatments/large/skin-tech.jpg';
 
 $model = new Service(
-    title: 'PRX-T33',
+    title: 'Skin Tech',
     duration: '30 min',
     price: null,
-    content: '<p class="p200">På AcneSpecialisten är vi stolta över att erbjuda PRX-T33, en avancerad form av kemisk peeling som specialiserar sig på att effektivt förbättra hudens utseende och kvalitet. Denna innovativa behandling är särskilt lämplig för dig som vill adressera hudproblem såsom acneärr, bristningar, melasma, pigmentfläckar, pormaskar, stora porer, samt rynkor och fina linjer. Vår PRX-T33-behandling är utformad för att vara både skonsam och kraftfull, vilket möjliggör en betydande förbättring av hudens struktur och ton utan den avskalning som ofta förekommer vid traditionell kemisk peeling.</p>
-    <p class="p200 mt-m">Varje PRX-T33-behandling på AcneSpecialisten är anpassad efter klientens individuella hudbehov, med målet att erbjuda en säker och icke-invasiv väg till en klarare, mer jämn och strålande hud. Vårt engagemang för expertis och kvalitet garanterar att varje klient upplever en märkbar förbättring i sin hudkvalitet, tack vare våra effektiva och professionellt genomförda behandlingar.</p>',
+    content: '<p class="p200">AcneSpecialisten presenterar stolt Skin Techs serie av avancerade kemiska peelings, designade för att ge kraftfulla och anpassade hudvårdsbehandlingar. Våra Skin Tech-behandlingar är särskilt utvecklade för att effektivt hantera en mängd hudproblem, inklusive acneärr, åldrande hud, hyperpigmentering och mer. Dessa innovativa peelings kombinerar skonsamma metoder med kraftfulla resultat, vilket gör dem idealiska för dem som söker en djupgående förbättring av hudens utseende och kvalitet.</p>
+    <p class="p200 mt-m">Varje Skin Tech-behandling hos AcneSpecialisten är noggrant anpassad för att passa din unika hudtyp och behov. Vårt mål är att erbjuda behandlingar som inte bara förbättrar hudens utseende, utan även dess övergripande hälsa och vitalitet. Med vårt engagemang för kvalitet och expertis, kan du förvänta dig att uppleva en märkbar skillnad i din hud, vilket resulterar i en klarare, jämnare och mer strålande hudton.</p>',
     image_small: 'https://via.placeholder.com/358x274.webp',
     image_large: 'https://via.placeholder.com/424x456.webp',
-    image_alt: 'PRX-T33 behandlingar',
-    image_title: 'PRX-T33 behandlingar',
+    image_alt: 'Skin Tech behandlingar',
+    image_title: 'Skin Tech behandlingar',
     consultation_url: 'https://bokadirekt.se',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
     booking_url: 'https://bokadirekt.se',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
-    procedures: array(
-        new Procedure(
-            label: '1 procedure',
-            price: '1995 kr',
-            savings: null,
-            booking_url: 'https://bokadirekt.se',
-            booking_url_label: 'Boka tid för behandling',
-            booking_url_title: 'Boka tid för behandling'
-        ),
-        new Procedure(
-            label: '4 procedures',
-            price: '6995 kr',
-            savings: 'Spara 985 kr',
-            booking_url: 'https://bokadirekt.se',
-            booking_url_label: 'Boka tid för behandling',
-            booking_url_title: 'Boka tid för behandling'
-        ),
-        new Procedure(
-            label: '6 procedures',
-            price: '8995 kr',
-            savings: 'Spara 2975 kr',
-            booking_url: 'https://bokadirekt.se',
-            booking_url_label: 'Boka tid för behandling',
-            booking_url_title: 'Boka tid för behandling'
-        )
-    ),
 );
 
 $nav_buttons = array(
-    'about' => 'Om PRX-T33',
+    'about' => 'Om Skin Tech',
     'preparing' => 'Förberedelser',
     'process' => 'Processen',
     'types' => 'Typer',
