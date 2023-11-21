@@ -233,43 +233,19 @@ $bottom_articles = array(
         content: '<p class="p200"><p class="p200">Multifuzion är en avancerad behandlingsmetod som kombinerar effekterna av microneedling och Infuzion skinbooster. Denna behandling börjar med microneedling, en teknik där små nålar skapar mikroskopiska kanaler i huden. Denna process stimulerar hudens naturliga läkningsprocess och ökar kollagenproduktionen, vilket bidrar till förbättrad hudstruktur och minskning av fina linjer och ärr.</p>
         <p class="p200 mt-m">Efter microneedling följer Infuzion-behandlingen. Tack vare de mikroskopiska kanalerna som skapats under microneedling, kan Infuzion serumet, som är rikt på hyaluronsyra och näringsämnen, tränga djupare ner i huden. Detta maximerar hydreringen och näringstillförseln till hudcellerna, vilket resulterar i en mer intensiv och långvarig effekt. </p>
         <p class="p200 mt-m">Multifuzion är en idealisk behandling för att effektivt hantera hudproblem som åldrande, torrhet, ojämn hudton och textur, samt för att ge huden en mer ungdomlig och strålande lyster. Denna kombinationsbehandling ger en synergistisk effekt som inte bara förbättrar hudens yttre utseende, men även dess övergripande hälsa och kvalitet.</p>',
-        tags: array(
-            new ArticleTag(
+        tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
-        ), 
-            new ArticleTag(
+        ), new ArticleTag(
             icon: 'article-tag-extraction',
             label: 'Extraction'
-        ), 
-            new ArticleTag(
+        ), new ArticleTag(
             icon: 'article-tag-mask',
             label: 'Mask'
-        ), 
-            new ArticleTag(
+        ), new ArticleTag(
             icon: 'article-tag-cleansing',
             label: 'Cleansing'
-        ),
-        procedures: array(
-            new Procedure(
-                label: '1 behandling',
-                price: '1295 kr',
-                savings: null,
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '3 behandlingar',
-                price: '2595 kr',
-                savings: '865 kr per besök',
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '5 behandlingar',
-                savings: '2595 kr',
-                price: '799 kr per besök',
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-        )
+        ))
     ),
     'aftercare' => new Article(
         title: 'Eftervård för Infuzion & Multifuzion',
