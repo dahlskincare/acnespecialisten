@@ -1,5 +1,7 @@
 <div class="treatment-area-item-card">
-    <img src="<?php echo $treatment_area_item->image ?>" alt="<?php echo $treatment_area_item->image_alt ?>" title="<?php echo $treatment_area_item->image_title ?>" width="94" height="72" />
+    <?php if (isset($treamtne_area_item->image)) { ?>
+        <img src="<?php echo $treatment_area_item->image ?>" alt="<?php echo $treatment_area_item->image_alt ?>" title="<?php echo $treatment_area_item->image_title ?>" width="94" height="72" />
+    <?php } ?>
     <div class="tac-labels">
         <div class="name"><?php echo $treatment_area_item->title ?></div>
         <div class="info">
