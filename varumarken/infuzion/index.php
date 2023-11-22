@@ -3,11 +3,11 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Infuzion Skinbooster - Djup Återfuktning för Huden | AcneSpecialisten';
-$seo_description = 'Upptäck Infuzion hos AcneSpecialisten, en banbrytande skinbooster som djupt återfuktar och revitaliserar huden. Denna avancerade behandling är idealisk för att återställa hudens lyster och ungdomliga utseende, särskilt effektiv för torr och åldrande hud. Förvandla din hud med vår skräddarsydda Infuzion-behandling.';
-$seo_keywords = 'Infuzion, skinbooster, djup återfuktning, revitalisera huden, hudföryngring, torr hud, åldrande hud, AcneSpecialisten, avancerad hudvård, hudens lyster';
+$seo_title = 'Infuzion - Djup Återfuktning för Huden | AcneSpecialisten';
+$seo_description = 'Upptäck Infuzion hos AcneSpecialisten, en banbrytande som djupt återfuktar och revitaliserar huden. Denna avancerade behandling är idealisk för att återställa hudens lyster och ungdomliga utseende, särskilt effektiv för torr och åldrande hud. Förvandla din hud med vår skräddarsydda Infuzion-behandling.';
+$seo_keywords = 'Infuzion, djup återfuktning, revitalisera huden, hudföryngring, torr hud, åldrande hud, AcneSpecialisten, avancerad hudvård, hudens lyster';
 
-$seo_image = 'images/treatments/large/infuzion-skinbooster.jpg';
+$seo_image = 'images/treatments/large/infuzion.jpg';
 
 $model = new Service(
     title: 'Infuzion',
@@ -225,7 +225,7 @@ $bottom_articles = array(
         ))
     ),
     'boost' => new Article(
-        title: 'Multizuion - Infuzion + Microneedling',
+        title: 'Multifuzion - Infuzion + Microneedling',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
         image_alt: 'Multizuion - Infuzion + Microneedling',

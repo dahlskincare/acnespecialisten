@@ -3,14 +3,14 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Infuzion Skinbooster - Djup Återfuktning för Huden | AcneSpecialisten';
-$seo_description = 'Upptäck Infuzion hos AcneSpecialisten, en banbrytande skinbooster som djupt återfuktar och revitaliserar huden. Denna avancerade behandling är idealisk för att återställa hudens lyster och ungdomliga utseende, särskilt effektiv för torr och åldrande hud. Förvandla din hud med vår skräddarsydda Infuzion-behandling.';
-$seo_keywords = 'Infuzion, skinbooster, djup återfuktning, revitalisera huden, hudföryngring, torr hud, åldrande hud, AcneSpecialisten, avancerad hudvård, hudens lyster';
+$seo_title = 'Skinbooster Behandlingar - Återfukta och Föryngra Din Hud | AcneSpecialisten';
+$seo_description = 'AcneSpecialisten presenterar skinbooster-behandlingar, en idealisk lösning för att djupt återfukta och vitalisera din hud. Våra skinboosters är skräddarsydda för att bekämpa tecken på torrhet och åldrande, och återställa hudens naturliga glans och ungdomlighet.';
+$seo_keywords = 'skinbooster, återfuktning, hudföryngring, vitalisera huden, torr hud, åldrande hud, AcneSpecialisten, avancerad hudvård, hudens elasticitet';
 
-$seo_image = 'images/treatments/large/infuzion-skinbooster.jpg';
+$seo_image = 'images/treatments/large/skinbooster.jpg';
 
 $model = new Service(
-    title: 'Infuzion',
+    title: 'Skinbooster',
     duration: '50 min',
     price: '2595 kr',
     content: '',
@@ -53,7 +53,7 @@ $model = new Service(
 );
 
 $nav_buttons = array(
-    'about' => 'Om Infuzion',
+    'about' => 'Om Skinbooster',
     'preparing' => 'Förberedelser',
     'process' => 'Processen',
     'types' => 'Typer',
@@ -67,20 +67,20 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Infuzion - en kombination av fillers och skinbooster';
-$description_text = '<p class="p200">Infuzion är en unik skinbooster-behandling som kombinerar fördelarna med fillers och skinboosters, men helt utan nålars bieffekter. Detta innovativa koncept använder Cytocare 532, ett serum berikat med hyaluronsyra och 52 vitala vitaminer och mineraler, för att djupgående återfukta huden och stimulera produktionen av kollagen och elastin. Dessa ämnen är avgörande för att bibehålla hudens fyllighet, elasticitet och fräschör.</p>
-<p class="p200 mt-m">Infuzion-behandlingen utförs med en specialroller och galvanisk ström, som slussar serumet 3mm djupt in i huden och når varje enskild cell. Denna metod är särskilt effektiv eftersom den tillåter behandling nära ögonen och andra känsliga områden, utan nålar. Behandlingen är idealisk för ansiktet, halsen, dekolletaget och händerna, och erbjuder en rad fördelar, såsom minskning av mörka ringar, utfyllnad under ögonen, förbättrad hudfasthet och elasticitet, samt reduktion av fina linjer och torrhet. Den ger huden en fräschare lyster och en jämnare hudton och textur.</p>
-<p class="p200 mt-m">För optimala och långvariga resultat rekommenderas tre behandlingar med en veckas mellanrum, vilket ger effekter som varar i upp till sex månader. Därefter räcker det med en underhållsbehandling var sjätte månad. Vi erbjuder även Multifuzion, en kombination av microneedling och Infuzion, för att öka effekten och möjliggöra djupare penetration av serumet efter microneedling. Denna kombinationsbehandling är särskilt effektiv för att stimulera naturlig proteinproduktion och strama upp åldrande hud.</p>';
+$description_title = 'Vad är Skinbooster?';
+$description_text = '<p class="p200">Skinbooster är en innovativ behandling som kombinerar effekterna av fillers och skinboosters för att förbättra hudens kvalitet, utan de vanliga bieffekterna som kommer med nålbehandlingar. Denna unika behandlingsmetod använder ett specialutvecklat serum, Cytocare 532, som innehåller hyaluronsyra och en rik blandning av 52 essentiella vitaminer och mineraler. Dessa ingredienser tränger djupt in i huden för att intensivt återfukta och stimulera kollagen- och elastinproduktionen, vilket är nödvändigt för att upprätthålla hudens fyllighet, elasticitet och fräschhet.</p>
+<p class="p200 mt-m">Under en Skinbooster-behandling används en roller i kombination med galvanisk ström för att föra ner serumet 3 mm under huden, vilket säkerställer att varje hudcell når och absorberar näringsämnena effektivt. Denna nålfria metod gör det möjligt att behandla även känsliga områden nära ögonen. Skinbooster är idealisk för att förbättra hudens utseende i ansiktet, halsen, dekolletaget och på händerna, och ger flera fördelar som minskning av mörka ringar, utjämning av fina linjer, förbättring av hudens fasthet och elasticitet samt en övergripande förbättring av hudens lyster och textur.</p>
+<p class="p200 mt-m">För att uppnå de bästa resultaten rekommenderas en serie av tre behandlingar med en veckas mellanrum, efterföljt av underhållsbehandlingar var sjätte månad. Vi erbjuder även Multifuzion, en kombinationsbehandling som innefattar både microneedling och Skinbooster för en ännu djupare effekt och stimulans av hudens naturliga proteinproduktion, vilket är särskilt effektivt för att återfå en ungdomligare och fastare hud.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelser inför Infuzion',
+        title: 'Förberedelser inför Skinbooster',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Förberedelser inför Infuzion',
-        image_title: 'Förberedelser inför Infuzion',
-        content: '<p class="p200"><p class="p200">Inför din Infuzion-behandling hos AcneSpecialisten finns några enkla förberedelser som kan hjälpa till att maximera effekten av behandlingen. Vi rekommenderar att du undviker användning av starka hudvårdsprodukter och exfolierande syror några dagar före din session. Detta minskar risken för hudirritation och gör din hud mer mottaglig för behandlingen.</p>
-        <p class="p200 mt-m">Medan det inte är ett krav att komma utan makeup, kan det vara fördelaktigt att ha ett rent ansikte vid din ankomst. Detta gör det möjligt för våra hudterapeuter att göra en mer exakt hudanalys och anpassa behandlingen effektivt efter dina behov. Oavsett om du väljer att komma osminkad eller inte, ser vi fram emot att välkomna dig och utforma en skräddarsydd behandlingsplan som passar din hudtyp och dina specifika hudproblem.</p>',
+        image_alt: 'Förberedelser inför Skinbooster',
+        image_title: 'Förberedelser inför Skinbooster',
+        content: '<p class="p200">När du förbereder dig för en Skinbooster-behandling hos AcneSpecialisten, finns det några enkla steg du kan följa för att optimera behandlingens effekt. Vi rekommenderar att du minskar användningen av produkter som innehåller starka aktiva ingredienser, såsom exfolierande syror, några dagar innan din behandling. Detta hjälper till att minska risken för irritation och gör din hud mer mottaglig för de näringsrika ämnena i behandlingen.</p>
+        <p class="p200 mt-m">Att komma med ett rent ansikte utan makeup är fördelaktigt, men inte ett krav. Ett osminkat ansikte underlättar en mer precis hudanalys och möjliggör en mer effektiv anpassning av behandlingen till dina hudbehov. Vårt team på AcneSpecialisten är redo att välkomna dig och skapa en personlig behandlingsplan som riktar sig specifikt till din hudtyp och de utmaningar du vill adressera. Vi ser fram emot att hjälpa dig på din resa mot en förbättrad hudhälsa.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -97,8 +97,8 @@ $top_articles = array(
     ),
 );
 
-$treatment_areas_title = 'Behandlingsområden för Infuzion';
-$treatment_areas_text = '<p class="p200">Infuzion är en flexibel metod som kan användas för att behandla flera olika delar av kroppen.</p>';
+$treatment_areas_title = 'Behandlingsområden för Skinbooster';
+$treatment_areas_text = '<p class="p200">Skinbooster kan anvädnas på flera delar av kroppen för fina resultat..</p>';
 $treatment_areas = array(
     new TreatmentArea(
         image_small: null,
@@ -110,47 +110,47 @@ $treatment_areas = array(
         items: array(
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webm',
-                image_alt: 'Infuzion behandling i ansiktet',
-                image_title: 'Infuzion behandling i ansiktet',
+                image_alt: 'Skinbooster för ansiktet',
+                image_title: 'Skinbooster för ansiktet',
                 title: 'Ansikte',
                 duration: '50 min',
                 price: '2595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för Infuzion behandling i ansiktet'
+                url_title: 'Boka tid för Skinbooster i ansiktet'
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webm',
-                image_alt: 'Infuzion behandling för halsen',
-                image_title: 'Infuzion behandling för halsen',
+                image_alt: 'Skinbooster för halsen',
+                image_title: 'Skinbooster för halsen',
                 title: 'Hals',
                 duration: '50 min',
                 price: '2595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för Infuzion behandling för halsen'
+                url_title: 'Boka tid för Skinbooster på halsen'
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webm',
-                image_alt: 'Infuzion behandling för dekolletaget',
-                image_title: 'Infuzion behandling för dekolletaget',
+                image_alt: 'Skinbooster för dekolletaget',
+                image_title: 'Skinbooster för dekolletaget',
                 title: 'Dekolletage',
                 duration: '50 min',
                 price: '2595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för Infuzion behandling för dekolletaget'
+                url_title: 'Boka tid för Skinbooster på dekolletaget'
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webm',
-                image_alt: 'Infuzion behandling för händerna',
-                image_title: 'Infuzion behandling för händerna',
+                image_alt: 'Skinbooster för händerna',
+                image_title: 'Skinbooster för händerna',
                 title: 'Händer',
                 duration: '50 min',
                 price: '2595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för Infuzion behandling för händerna'
+                url_title: 'Boka tid för Skinbooster på händerna'
             ),
 
         )
@@ -161,7 +161,7 @@ $treatment_areas = array(
         image_alt: 'Kombinera områden',
         image_title: 'Kombinera områden',
         title: 'Kombinera områden',
-        description: '<p class="p200">Med Infuzion kan du kombinera flera områden.</p>',
+        description: '<p class="p200">Med Skinbooster kan vi kombinera flera områden.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webp',
@@ -202,14 +202,14 @@ $treatment_areas = array(
 
 $bottom_articles = array(
     'process' => new Article(
-        title: 'Hur går behandlingen med Infuzion till?',
+        title: 'Hur går Skinbooster behandlingen till?',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Hur går behandlingen med Infuzion till?',
-        image_title: 'Hur går behandlingen med Infuzion till?',
-        content: '<p class="p200">Infuzion är en unik skinbooster-behandling som kombinerar fördelarna med fillers och skinboosters, men utan användning av nålar. Behandlingen börjar med en noggrann rengöring av det valda området - ansikte, hals, dekolletage eller händer - för att förbereda huden för serumets applicering.</p>
-        <p class="p200 mt-m">Vi använder Cytocare 532, ett serum som innehåller hyaluronsyra och 52 olika vitaminer och mineraler, vilket ger intensiv återfuktning och stimulerar produktionen av kroppens naturliga proteiner, elastin och kollagen. Serumet appliceras med en specialroller och galvanisk ström, vilket gör att det kan nå upp till 3mm djup i huden, påverkande varje enskild cell och komma nära ögon och andra känsliga områden.</p>
-        <p class="p200 mt-m">Behandlingen avslutas med en lugnande och återfuktande process för att maximera komfort och effekt. För att uppnå bästa resultat rekommenderas tre behandlingar med en veckas mellanrum. Därefter räcker det med en uppföljningsbehandling var sjätte månad för att bibehålla effekterna. Infuzion är en idealisk behandling för dem som önskar en fylligare, elastisk och strålande hud utan nålstick eller lång återhämtningsperiod.</p>',
+        image_alt: 'Hur går Skinbooster behandlingen till?',
+        image_title: 'Hur går Skinbooster behandlingen till?',
+        content: '<p class="p200">Skinbooster är en innovativ behandling som erbjuder de fördelar man finner i både fillers och skinboosters, men helt utan användning av nålar. Denna skonsamma men effektiva behandling passar perfekt för att förbättra hudens utseende och kvalitet på ansiktet, halsen, dekolletaget eller händerna.</p>
+        <p class="p200 mt-m">Under behandlingen appliceras Cytocare 532, ett serum rikt på hyaluronsyra och en blandning av 52 essentiella vitaminer och mineraler. Denna kraftfulla formula återfuktar huden på djupet och stimulerar produktionen av elastin och kollagen, vilket bidrar till en förbättrad hudstruktur och elasticitet. Applikationen görs med en unik roller som använder galvanisk ström, vilket möjliggör penetration av serumet upp till 3mm under hudytan och säkerställer en jämn fördelning över behandlingsområdet.</p>
+        <p class="p200 mt-m">Efter behandlingen får huden en lugnande vård för att maximera resultatet och komforten. Vi rekommenderar att genomgå en serie av tre behandlingar med en veckas mellanrum för optimala resultat, som kan varar i upp till sex månader. En uppföljningsbehandling var sjätte månad hjälper till att upprätthålla hudens ungdomliga utseende och lyster. Infuzion är en idealisk lösning för dem som söker en effektiv, smärtfri behandling för att återfå en fräsch och återfuktad hud.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -225,14 +225,14 @@ $bottom_articles = array(
         ))
     ),
     'boost' => new Article(
-        title: 'Multizuion - Infuzion + Microneedling',
+        title: 'Kombinera Skinbooster med Microneedling för Mutifuzion',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Multizuion - Infuzion + Microneedling',
-        image_title: 'Multizuion - Infuzion + Microneedling',
-        content: '<p class="p200"><p class="p200">Multifuzion är en avancerad behandlingsmetod som kombinerar effekterna av microneedling och Infuzion skinbooster. Denna behandling börjar med microneedling, en teknik där små nålar skapar mikroskopiska kanaler i huden. Denna process stimulerar hudens naturliga läkningsprocess och ökar kollagenproduktionen, vilket bidrar till förbättrad hudstruktur och minskning av fina linjer och ärr.</p>
-        <p class="p200 mt-m">Efter microneedling följer Infuzion-behandlingen. Tack vare de mikroskopiska kanalerna som skapats under microneedling, kan Infuzion serumet, som är rikt på hyaluronsyra och näringsämnen, tränga djupare ner i huden. Detta maximerar hydreringen och näringstillförseln till hudcellerna, vilket resulterar i en mer intensiv och långvarig effekt. </p>
-        <p class="p200 mt-m">Multifuzion är en idealisk behandling för att effektivt hantera hudproblem som åldrande, torrhet, ojämn hudton och textur, samt för att ge huden en mer ungdomlig och strålande lyster. Denna kombinationsbehandling ger en synergistisk effekt som inte bara förbättrar hudens yttre utseende, men även dess övergripande hälsa och kvalitet.</p>',
+        image_alt: 'Kombinera Skinbooster med Microneedling för Mutifuzion',
+        image_title: 'Kombinera Skinbooster med Microneedling för Mutifuzion',
+        content: '<p class="p200">Multifuzion är en innovativ behandling som kombinerar kraften hos microneedling med fördelarna av en Skinbooster, för en omfattande hudförbättring. Behandlingen inleds med microneedling, där fina nålar skapar mikrokanaler i huden. Denna teknik främjar hudens egen läkningsförmåga och stimulerar produktionen av kollagen, vilket leder till en förstärkt hudstruktur och en minskning av ärr och fina linjer.</p>
+        <p class="p200 mt-m">Direkt efter microneedling tillämpas Skinbooster. De mikrokanaler som skapas under microneedling möjliggör för Infuzion-serumet, som är laddat med hyaluronsyra och vitala näringsämnen, att penetrera djupare in i huden. Detta intensifierar hydreringen och näringsförsörjningen till hudcellerna, vilket resulterar i en djupare och mer långvarig effekt.</p>
+        <p class="p200 mt-m">Multifuzion är en utmärkt behandling för att adressera en rad hudproblem som åldrande, torrhet, ojämn hudton och struktur. Genom att kombinera dessa två kraftfulla behandlingar ger Multifuzion en omfattande förbättring av huden, inte bara i utseende utan även i dess struktur och kvalitet, vilket ger en mer ungdomlig och strålande lyster.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -248,15 +248,28 @@ $bottom_articles = array(
         ))
     ),
     'aftercare' => new Article(
-        title: 'Eftervård för Infuzion & Multifuzion',
+        title: 'Eftervård för Skinbooster',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Eftervård för Infuzion & Multifuzion',
-        image_title: 'Eftervård för Infuzion & Multifuzion',
-        content: '<p class="p200">Eftervård är en väsentlig del av din Infuzion och Multifuzion behandling hos AcneSpecialisten. För att upprätthålla och maximera behandlingens fördelar, är det viktigt att du följer en anpassad hudvårdsrutin. Efter en Infuzion eller Multifuzion behandling kan huden vara extra mottaglig för näring och hydrering, därför är det avgörande att ge den rätt vård för att underlätta återhämtningen och förstärka resultaten.</p>
-        <p class="p200 mt-m">Vi rekommenderar att du använder milda och återfuktande produkter som inte irriterar huden. Det är också viktigt att skydda huden mot solen, särskilt efter behandlingen, då huden kan vara mer känslig för UV-strålar. Använd en hög SPF och undvik direkt solljus för att förebygga eventuell hyperpigmentering och skada på den behandlade huden.</p>
-        <p class="p200 mt-m">Vi på AcneSpecialisten erbjuder en uppföljning och skräddarsydda råd för att hjälpa dig att upprätthålla de positiva effekterna av din Infuzion eller Multifuzion behandling. Det är viktigt att du följer dessa råd noggrant och återvänder till oss för eventuella uppföljningsbehandlingar eller rådgivning. Vårt mål är att hjälpa dig att uppnå och bibehålla en strålande, hydrerad och välmående hud.</p>',
+        image_alt: 'Eftervård för Skinbooster',
+        image_title: 'Eftervård för Skinbooster',
+        content: '<p class="p200">Eftervård är en kritisk aspekt för att uppnå optimala resultat från din Infuzion skinbooster och Multifuzion behandlingar hos AcneSpecialisten. Efter dessa behandlingar är din hud mer mottaglig för vård och näring, och det är därför viktigt att ge den rätt behandling för att stödja återhämtningen och optimera resultatet.</p>
+        <p class="p200 mt-m">För Infuzion-behandlingen rekommenderar vi att du använder skonsamma, återfuktande hudvårdsprodukter som inte irriterar huden. Eftersom huden kan vara extra känslig efter behandlingen är det viktigt att skydda den mot solen. Använd solskyddsmedel med hög SPF och undvik direkt solljus för att förhindra hyperpigmentering och skada på den behandlade huden.</p>
+        <p class="p200 mt-m">Om du har genomgått Multifuzion, som kombinerar microneedling och Infuzion, kan din hud behöva extra omsorg. Det är viktigt att undvika exfolierande produkter eller starka ingredienser i några dagar efter behandlingen för att låta huden återhämta sig. Håll även huden väl återfuktad och skydda den från solen.</p>
+        <p class="p200 mt-m">Vi på AcneSpecialisten är här för att stödja dig genom din hudvårdsresa. Vi erbjuder skräddarsydda råd och uppföljning för att säkerställa att du upprätthåller de positiva resultaten från din behandling. Genom att noggrant följa våra rekommenderade eftervårdsinstruktioner kan du bidra till en hälsosam, återfuktad och strålande hud långt efter din behandling.</p>',
         tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
+    ),
+);
+
+$service_brands_title = 'Märken för Skinbooster';
+$service_brands_text = '<p class="p200">Vi utför Skinbooster med Infuzion.</p>';
+$service_brands = array(
+
+    new Brand(
+        label: 'Infuzion',
+        image: 'images/brands/infuzion.svg',
+        image_alt: 'Infuzion',
+        image_title: 'Infuzion'
     ),
 );
 
