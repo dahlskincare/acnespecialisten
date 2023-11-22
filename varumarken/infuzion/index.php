@@ -353,7 +353,7 @@ $faq_categories = array(
     '' => array(
         new Question(
             title: 'Hur många Infuzion eller Multifuzion behandlingar rekommenderas?',
-            text: 'För att uppnå optimala resultat med Infuzion eller Multifuzion behandlingar, rekommenderas vanligtvis en serie av 3 till 5 sessioner. Det exakta antalet kan variera beroende på din specifika hudtyp och de hudproblem du vill adressera. En personlig konsultation med en av våra experter hjälper till att bestämma den mest effektiva behandlingsplanen för dig.'
+            text: 'Behandlingen inleds med en uppbyggnadsfas där 3 Infuzion behandlingar rekommenderas och därefter utförs regelbundna behandlingar för att bibehålla resultatet. Vid Multifuzion utförs en microneedling behandling under den första behandlingen, detta för att utöka resultatet från behandlignen.'
         ),
 
         new Question(

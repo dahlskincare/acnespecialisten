@@ -365,24 +365,24 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Hur många Infuzion eller Multifuzion behandlingar rekommenderas?',
-            text: 'För att uppnå optimala resultat med Infuzion eller Multifuzion behandlingar, rekommenderas vanligtvis en serie av 3 till 5 sessioner. Det exakta antalet kan variera beroende på din specifika hudtyp och de hudproblem du vill adressera. En personlig konsultation med en av våra experter hjälper till att bestämma den mest effektiva behandlingsplanen för dig.'
+            title: 'Hur många Skinbooster behandlingar rekommenderas?',
+            text: 'För optimalt resultat rekommenderas en uppbyggnadsfas av 3 behandlingar och därefter att resultatet bibehålls med regelbundna behandlingar.'
         ),
 
-        new Question(
-            title: 'Är resultaten från Infuzion eller Multifuzion behandlingar långvariga?',
-            text: 'Resultaten från Infuzion och Multifuzion behandlingar kan vara långvariga, speciellt när de kombineras med en regelbunden och korrekt hudvårdsrutin. Det är dock viktigt att notera att hudens åldrande och miljöfaktorer kan påverka hållbarheten av resultaten. Regelbundna uppföljningsbehandlingar kan rekommenderas för att upprätthålla hudens förbättrade skick.'
-        ),
+            new Question(
+                title: 'Är effekterna från Infuzion eller Multifuzion varaktiga?',
+                text: 'Resultaten från Infuzion och Multifuzion kan vara långvariga, särskilt om de stöds av en kontinuerlig och lämplig hudvårdsrutin. Åldrande och miljöfaktorer kan dock påverka hur länge resultaten varar. För att bibehålla och förstärka effekterna kan periodiska underhållsbehandlingar vara nödvändiga.'
+            ),
 
-        new Question(
-            title: 'Hur förbereder jag mig bäst inför en Infuzion eller Multifuzion behandling?',
-            text: 'För att förbereda dig för en Infuzion eller Multifuzion behandling, bör du undvika starka hudvårdsprodukter och exfoliering några dagar innan. Det är också bra att hålla huden väl hydrerad och skyddad från solen. Vid din konsultation kommer vi att ge dig skräddarsydda råd baserade på din hudtyp och de specifika behov du har.'
-        ),
+            new Question(
+                title: 'Vad ska jag tänka på inför min Infuzion eller Multifuzion behandling?',
+                text: 'Innan du genomgår en Infuzion eller Multifuzion behandling är det bäst att undvika produkter som kan irritera huden, såsom starka exfolierande syror. Håll huden återfuktad och skyddad mot solen. Vid din konsultation kommer vi att ge dig anpassade råd för att förbereda din hud optimalt för behandlingen.'
+            ),
 
-        new Question(
-            title: 'Vad skiljer Infuzion och Multifuzion från traditionella skinboosters och fillers?',
-            text: 'Skillnaden mellan Infuzion och Multifuzion jämfört med traditionella skinboosters och fillers ligger i deras unika applikationsmetod och sammansättning. Infuzion och Multifuzion erbjuder djup hydrering och förbättring av hudens kvalitet utan användning av nålar. Dessa behandlingar är särskilt effektiva för att förbättra hudens textur, elasticitet och lyster genom att leverera näringsämnen direkt till hudens djupare lager.'
-        ),
+            new Question(
+                title: 'Vad är skillnaden mellan Infuzion, Multifuzion och traditionella skinboosters och fillers?',
+                text: 'Infuzion och Multifuzion skiljer sig från traditionella skinboosters och fillers genom deras unika applikationsmetod och ingredienser. De erbjuder intensiv hydrering och hudförbättring utan användning av nålar, vilket gör dem till ett skonsamt alternativ. Dessa behandlingar är särskilt bra för att förbättra hudens textur, elasticitet och lyster genom att effektivt tillföra näringsämnen till hudens djupare lager.'
+            ),
 
     )
 );
