@@ -216,11 +216,11 @@ $big_types = array(
 );
 
 $bottom_articles = array('aftercare' => new Article(
-    title: 'Eftervård och underhåll',
+    title: 'Eftervård för Dermabrasion',
     image_small: 'https://via.placeholder.com/358x272.webp',
     image_large: 'https://via.placeholder.com/872x456.webp',
-    image_alt: 'Eftervård och underhåll',
-    image_title: 'Eftervård och underhåll',
+    image_alt: 'Eftervård för Dermabrasion',
+    image_title: 'Eftervård för Dermabrasion',
     content: '<p class="p200">Våra klassiska ansiktsbehandlingar erbjuder en grundlig rengöring och uppfräschning av huden. Efter din behandling är det viktigt att följa några enkla eftervårdsinstruktioner för att bibehålla resultatet. Undvik starkt solsken och använd en hög SPF för att skydda huden. Vi rekommenderar också att du undviker tung makeup och hudirriterande ämnen de första 24 timmarna efter behandlingen. Fortsätt att återfukta huden väl och använd de produkter som rekommenderats av din hudterapeut för att stödja hudens läkning och förbättring.</p>
     <p class="p200 mt-m">För dig som gjort en lite mer resultatinriktad behandling är det viktigt att komma ihåg att inte plocka eller skrapa på huden om det skulle uppstå några orenheter efter behandlingen. Om du fick en kemisk peeling eller exfoliering, se till att vara extra varsam med huden och undvik exfolierande produkter ett tag. Drick mycket vatten och fortsätt med en balanserad kost för att stödja huden inifrån och ut. Om du har några frågor om din eftervård, tveka inte att kontakta oss för personliga råd.</p>',
     tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
