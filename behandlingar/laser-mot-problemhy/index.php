@@ -617,16 +617,20 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Hur många microneedling behandlingar behövs?',
-            text: 'Antalet microneedling behandlingar som behövs varierar beroende på individens hudtillstånd och de mål man önskar uppnå. Generellt rekommenderas en serie på 3-8 behandlingar med intervaller på 4-6 veckor mellan varje session för bästa resultat. Ditt hudvårdsteam kan ge dig en personlig rekommendation efter en initial konsultation.'
+            title: 'Hur många laserbehandlingar mot problemhy krävs?',
+            text: 'Antalet laserbehandlingar för problemhy varierar beroende på individens specifika hudtillstånd och mål. Ofta rekommenderas en serie av 3-5 behandlingar med några veckors mellanrum. En individuell behandlingsplan och rekommendationer kommer att ges under en konsultation.'
         ),
         new Question(
-            title: 'Kan mina hudproblem återkomma efter microneedling?',
-            text: 'Medan microneedling behandlar vi befintliga hudproblem effektivt men vi kan inte motverka uppkomsten av att nya uppstår. Därför är det viktigt att kombinera microneedling behandlingen med behandlingar och produkter som motverkar uppkomsten av det ursprungliga problemet. En fortsatt hudvårdsrutin och eventuellt uppföljande behandlingar kan vara nödvändiga för att underhålla resultaten.'
+            title: 'Är resultaten från laserbehandling mot problemhy bestående?',
+            text: 'Laserbehandlingar kan ge långsiktiga förbättringar, men det är viktigt att komma ihåg att hudens åldrande och yttre faktorer kan påverka hållbarheten av resultaten. En kontinuerlig hudvårdsrutin och eventuellt periodiska uppföljningsbehandlingar kan behövas för att bibehålla effekterna.'
         ),
         new Question(
-            title: 'Hur snabbt kan jag se resultat efter en microneedling behandling?',
-            text: 'Resultatet efter microneedling varierar från person till person. Vissa kan märka förbättringar så tidigt som några dagar efter behandlingen, medan andra kan behöva vänta några veckor för att se fullständiga resultat. Hudens naturliga kollagenproduktion kan ta tid, och förbättringar fortsätter ofta under flera månader efter behandlingen.'
+            title: 'Vad kan jag förvänta mig direkt efter en laserbehandling mot problemhy?',
+            text: 'Efter en laserbehandling mot problemhy kan du uppleva viss rodnad, svullnad eller känslighet i det behandlade området. Dessa reaktioner är normala och bör avta inom några dagar. Det är viktigt att följa eftervårdsinstruktionerna och skydda huden mot solen.'
+        ),
+        new Question(
+            title: 'Behöver jag speciell eftervård efter en laserbehandling mot problemhy?',
+            text: 'Eftervård är viktig för att upprätthålla resultaten av din laserbehandling. Det innefattar användning av solskydd, undvikande av direkt solstrålning och användning av milda hudvårdsprodukter. Din hudterapeut kommer att ge dig specifika råd baserade på din behandling och hudtyp.'
         ),
     )
 );
