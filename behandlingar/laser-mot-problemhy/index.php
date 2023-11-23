@@ -304,8 +304,8 @@ $types = array(
     ),
 );
 
-$treatment_areas_title = 'Behandlingsområden för Microneedling';
-$treatment_areas_text = '<p class="p200">Microneedling är en mångsidig behandling lämplig för ansikte, axlar, rygg och bröst. Den förbättrar hudens struktur och lyster genom att stimulera kollagenproduktion och läkning, anpassad efter varje unikt hudtillstånd och område.</p>';
+$treatment_areas_title = 'Behandlingsområden för Laser';
+$treatment_areas_text = '<p class="p200">Vår laserbehandling är anpassningsbar för en rad olika områden, vilket gör den idealisk för att adressera specifika hudproblem på olika delar av kroppen. Vi använder fraktionerad CO2-laser för att behandla hudområden som ansikte, hals, dekolletage, rygg och händer, samt specifika ansiktsområden som panna, näsa, kinder, överläpp och haka. Denna teknik möjliggör precisionsbehandling för att förbättra hudens kvalitet och utseende, oavsett område.</p>';
 $treatment_areas = array(
     new TreatmentArea(
         image_small: 'https://via.placeholder.com/361x274.webm',
@@ -313,26 +313,37 @@ $treatment_areas = array(
         image_alt: 'Ansikte',
         image_title: 'Ansikte',
         title: 'Ansikte',
-        description: '<p class="p200">Microneedling behandlar och förbättrar huden i ansiktet och kan utföras i hela ansiktet eller på utvalda zoner.</p>',
+        description: '<p class="p200">Vi behandlar både hela och delar av ansiktet med laser.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/94x72.webp',
                 image_alt: 'Ansikte',
                 image_title: 'Ansikte',
                 title: 'Ansikte',
-                duration: '50 min',
-                price: '2595 kr',
+                duration: '90 min',
+                price: '4595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
                 url_title: 'Boka tid för ansiktsbehandling'
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/94x72.webp',
+                image_alt: 'Panna',
+                image_title: 'Panna',
+                title: 'Panna',
+                duration: '20 min',
+                price: '1595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling i pannan'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webp',
                 image_alt: 'Näsa',
                 image_title: 'Näsa',
                 title: 'Näsa',
-                duration: '30 min',
-                price: '1295 kr',
+                duration: '20 min',
+                price: '1595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
                 url_title: 'Boka tid för näsbehandling'
@@ -342,8 +353,8 @@ $treatment_areas = array(
                 image_alt: 'Kinder',
                 image_title: 'Kinder',
                 title: 'Kinder',
-                duration: '30 min',
-                price: '1295 kr',
+                duration: '20 min',
+                price: '1595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
                 url_title: 'Boka tid för kindbehandling'
@@ -353,8 +364,8 @@ $treatment_areas = array(
                 image_alt: 'Överläpp',
                 image_title: 'Överläpp',
                 title: 'Överläpp',
-                duration: '30 min',
-                price: '1295 kr',
+                duration: '20 min',
+                price: '1595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
                 url_title: 'Boka tid för överläppsbehandling'
@@ -364,8 +375,8 @@ $treatment_areas = array(
                 image_alt: 'Haka',
                 image_title: 'Haka',
                 title: 'Haka',
-                duration: '30 min',
-                price: '1295 kr',
+                duration: '20 min',
+                price: '1595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
                 url_title: 'Boka tid för hakbehandling'
@@ -379,15 +390,15 @@ $treatment_areas = array(
         image_alt: 'Kropp',
         image_title: 'Kropp',
         title: 'Kropp',
-        description: '<p class="p200">Med microneedling kan vi behandla flera olika delar av kroppen.</p>',
+        description: '<p class="p200">Vi behandlar flera olika delar av kroppen.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webp',
                 image_alt: 'Hals',
                 image_title: 'Hals',
                 title: 'Hals',
-                duration: '50 min',
-                price: '2595 kr',
+                duration: '90 min',
+                price: '4595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
                 url_title: 'Boka tid för halsbehandling'
@@ -397,8 +408,8 @@ $treatment_areas = array(
                 image_alt: 'Dekolletage',
                 image_title: 'Dekolletage',
                 title: 'Dekolletage',
-                duration: '50 min',
-                price: '2595 kr',
+                duration: '90 min',
+                price: '4595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
                 url_title: 'Boka tid för dekolletagebehandling'
@@ -408,11 +419,22 @@ $treatment_areas = array(
                 image_alt: 'Rygg',
                 image_title: 'Rygg',
                 title: 'Rygg',
-                duration: '50 min',
-                price: '2595 kr',
+                duration: '90 min',
+                price: '4595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
                 url_title: 'Boka tid för ryggbehandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: 'Händer',
+                image_title: 'Händer',
+                title: 'Händer',
+                duration: '90 min',
+                price: '4595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för handbehandling'
             ),
         )
     ),
@@ -422,15 +444,15 @@ $treatment_areas = array(
         image_alt: 'Kombinera områden',
         image_title: 'Kombinera områden',
         title: 'Kombinera områden',
-        description: '<p class="p200">Behandlingen fungerar även utmärkt om du vill kombinera flera olika områden.</p>',
+        description: '<p class="p200">Kombinera flera områden för bättre effekt..</p>',
         items: array(
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webp',
                 image_alt: '1x område',
                 image_title: '1x område',
                 title: '1x område',
-                duration: '50 min',
-                price: '2595 kr',
+                duration: '90 min',
+                price: '4595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 1 område.'
@@ -440,8 +462,8 @@ $treatment_areas = array(
                 image_alt: '2x områden',
                 image_title: '2x områden',
                 title: '2x områden',
-                duration: '70 min',
-                price: '3595 kr',
+                duration: '90 min',
+                price: '5595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 2 områden.'
@@ -452,7 +474,7 @@ $treatment_areas = array(
                 image_title: '3x områden',
                 title: '3x områden',
                 duration: '90 min',
-                price: '4595 kr',
+                price: '6595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 3 områden.'
@@ -462,32 +484,44 @@ $treatment_areas = array(
 );
 
 $bottom_articles = array('aftercare' => new Article(
-    title: 'Efter microneedling behandling',
+    title: 'Eftervård för laserbehandling',
     image_small: 'https://via.placeholder.com/358x272.webp',
     image_large: 'https://via.placeholder.com/872x456.webp',
-    image_alt: 'Efter microneedling behandling',
-    image_title: 'Efter microneedling behandling',
-    content: '<p class="p200">Efter en microneedlingbehandling är det flera viktiga steg du bör följa för att främja läkning och optimera resultatet av din behandling. Direkt efter proceduren är det normalt att huden blir röd och svullen. Det är kritiskt att undvika att röra behandlingsområdet med smutsiga händer och att inte applicera makeup de första 24 timmarna för att minimera risken för infektioner eller irritationer.</p>
-    <p class="p200 mt-m">Under de första dagarna efter behandlingen, undvik kraftig motion, bastu, och långa varma duschar som kan öka svullnad och irritation i huden. Solskydd är också av yttersta vikt; applicera en bredspektrum solskyddsfaktor dagligen för att skydda din hud mot UV-strålning, som kan vara extra skadlig för den nya känsliga huden efter microneedling. Dessutom rekommenderas att du använder milda, återfuktande produkter utan parfym eller andra irriterande ingredienser för att hjälpa till med läkningsprocessen och behålla hudens fuktbalans.</p>
-    <p class="p200 mt-m">Följ noggrant de eftervårdsinstruktioner som din behandlare ger dig och tveka inte att kontakta kliniken om du har några frågor eller oro kring din eftervård. Regelbunden uppföljning och eventuellt ytterligare behandlingar kan rekommenderas beroende på din huds individuella svar och de mål du strävar efter med din hudvård.</p>',
+    image_alt: 'Eftervård för laserbehandling',
+    image_title: 'Eftervård för laserbehandling',
+    content: '<p class="p200">Eftervård är en avgörande del av din laserbehandlingsprocess för att säkerställa bästa möjliga resultat och snabb återhämtning. Omedelbart efter din laserbehandling kan du uppleva rodnad och viss svullnad i det behandlade området, vilket är normalt. Det är viktigt att inte röra området med orena händer och att undvika att applicera makeup under de första 24 timmarna för att förhindra irritation och infektioner.</p>
+    <p class="p200 mt-m">Under återhämtningsperioden, undvik intensiv fysisk aktivitet, heta duschar och bastu, då detta kan förvärra svullnad och rodnad. Användning av hög SPF-solskydd är avgörande för att skydda den känsliga huden från solskador. Välj milda, återfuktande hudvårdsprodukter utan parfym eller irriterande ämnen för att hjälpa till med läkningsprocessen och bevara hudens fuktighet.</p>
+    <p class="p200 mt-m">Följ de specifika eftervårdsinstruktionerna som ges av din hudterapeut noggrant. Om du har några frågor eller funderingar efter din behandling, tveka inte att kontakta din klinik för råd. Regelbundna uppföljningar och ytterligare behandlingar kan rekommenderas baserat på din hudtyp och de mål du har för din hudvård.</p>',
     tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
 
-$service_brands_title = 'Märken för microneedling';
-$service_brands_text = '<p class="p200">Vi utför microneedling med Dermapen och Exceed vilket är de modernaste och mest effektiva metoderna på markanden.</p>';
+$service_brands_title = 'Märken för laser mot problemhy';
+$service_brands_text = '<p class="p200">Vi har ett stort utbud av lasermaskiner för att kunna välja rätt metod för just dina behov.</p>';
 $service_brands = array(
 
     new Brand(
-        label: 'Dermapen',
-        image: 'images/brands/dermapen.svg',
-        image_alt: 'Dermapen',
-        image_title: 'Dermapen'
+        label: 'Alma Hybrid',
+        image: 'images/brands/alma-hybrid.svg',
+        image_alt: 'Alma HybridL',
+        image_title: 'Alma Hybrid',
     ),
     new Brand(
-        label: 'Exceed',
-        image: 'images/brands/exceed.svg',
-        image_alt: 'Exceed',
-        image_title: 'Exceed'
+        label: 'Alma Rejuve DyeVL',
+        image: 'images/brands/alma-rejuve-dyevl.svg',
+        image_alt: 'Alma Rejuve DyeVL',
+        image_title: 'Alma Rejuve DyeVL',
+    ),
+    new Brand(
+        label: 'Alma Harmony XL',
+        image: 'images/brands/alma-harmony-xl.svg',
+        image_alt: 'Alma Harmony XL',
+        image_title: 'Alma Harmony XL',
+    ),
+    new Brand(
+        label: 'Powerlite Photonova',
+        image: 'images/brands/powerlite-photonova.svg',
+        image_alt: 'Powerlite Photonova',
+        image_title: 'Powerlite Photonova',
     ),
 );
 
