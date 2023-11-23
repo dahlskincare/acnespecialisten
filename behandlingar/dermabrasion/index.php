@@ -52,8 +52,8 @@ $top_articles = array(
         image_large: 'https://via.placeholder.com/872x456.webp',
         image_alt: 'Förberedelse inför klassiska ansiktsbehandlingar',
         image_title: 'Förberedelse inför klassiska ansiktsbehandlingar',
-        content: '<p class="p200">Hos AcneSpecialisten är vårt främsta mål att du ska känna dig bekväm och väl omhändertagen. Om du vill kan du vidta vissa förberedande åtgärder innan din ansiktsbehandling, såsom att undvika starka hudprodukter eller direkt solljus. Men det är viktigt att betona att du alltid kan komma precis som du är. Vi förstår att varje individ är unik, och vi anpassar varje behandling efter dina specifika behov och önskemål.</p>
-        <p class="p200 mt-m">Om du har några specifika bekymmer eller frågor inför din behandling, tveka inte att meddela oss. Vår prioritet är din komfort och att leverera den bästa möjliga behandlingen för dig. Välkommen till en avslappnande och förnyande upplevelse hos oss på AcneSpecialisten!</p>',
+        content: '<p class="p200">Inför din dermabrasion-behandling på AcneSpecialisten är det viktigt att förbereda huden för att maximera resultatet. Vi rekommenderar att du undviker att använda starka hudvårdsprodukter, såsom exfolierande syror, några dagar innan behandlingen. Detta för att minska risken för irritation och göra huden mer mottaglig för behandlingen.</p>
+        <p class="p200 mt-m">Det är också klokt att skydda din hud från stark sol och undvika solbränna innan din session. Solbränd hud kan vara mer känslig och kan påverka resultatet av dermabrasion. Om du tar mediciner som påverkar huden, eller om du har några hudrelaterade tillstånd, informera oss gärna om detta i förväg så att vi kan anpassa behandlingen efter dina behov. Kom ihåg att det är viktigt att du känner dig trygg och bekväm, så tveka inte att ställa frågor eller uttrycka dina önskemål när du kommer till oss på AcneSpecialisten för din behandling.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -69,13 +69,14 @@ $top_articles = array(
         ))
     ),
     'process' => new Article(
-        title: 'Processen för klassiska ansiktsbehandlingar',
+        title: 'Processen för dermabrasion',
     image_small: 'https://via.placeholder.com/358x272.webp',
     image_large: 'https://via.placeholder.com/872x456.webp',
-    image_alt: 'Processen för klassiska ansiktsbehandlingar',
-    image_title: 'Processen för klassiska ansiktsbehandlingar',
-    content: '<p class="p200">Hos AcneSpecialisten anpassas varje ansiktsbehandling efter den specifika behandling du väljer, men det finns vissa gemensamma steg som ingår i de flesta av våra klassiska ansiktsbehandlingar. Behandlingen inleds alltid med en rengöring av huden för att avlägsna smuts, talg och orenheter. Detta förbereder huden för de följande stegen och säkerställer att den kan dra nytta av de produkter och metoder som används.</p>
-    <p class="p200 mt-m">Efter rengöringen kan en exfoliering genomföras för att ta bort döda hudceller och främja cellförnyelse. En ångbehandling kan också inkluderas för att öppna upp porerna och underlätta extraktion av pormaskar och akne. Därefter kan individuellt anpassade masker och serum appliceras baserat på hudens behov. Behandlingen avslutas ofta med en fuktighetskräm eller solskydd. Genom hela processen prioriteras din huds välbefinnande och komfort, och varje steg är skräddarsytt för att ge optimala resultat.</p>',
+    image_alt: 'Processen för dermabrasion',
+    image_title: 'Processen för dermabrasion',
+    content: '<p class="p200">Vid en dermabrasion-behandling på AcneSpecialisten inleds sessionen med att noggrant rengöra huden för att eliminera smuts, olja och andra orenheter. Denna rengöringsprocess är avgörande för att säkerställa att huden är fullständigt förberedd för dermabrasionens exfolierande effekter.</p>
+    <p class="p200 mt-m">Efter rengöringen utförs själva dermabrasionen, en mekanisk peeling där ett specialverktyg används för att försiktigt men effektivt slipa bort det yttersta lagret av döda hudceller. Denna process stimulerar hudens naturliga förnyelseprocess, vilket kan förbättra hudens textur och ton samt minska synligheten av fina linjer, ärr och hyperpigmentering.</p>
+    <p class="p200 mt-m">Efter dermabrasionen kan en lugnande och återfuktande mask appliceras för att lugna huden och minska eventuell rodnad eller irritation. Behandlingen avslutas med en närande fuktighetskräm som skyddar och återställer huden. Vår expertpersonal ser till att varje steg i din dermabrasion-behandling är skräddarsytt för att passa din specifika hudtyp och dina behov, med målet att ge dig en friskare, mer strålande hud.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -92,14 +93,16 @@ $top_articles = array(
     ),
 );
 
-$types_title = 'Våra klassiska ansiktsbehandlingar';
-$types_description = 'Här hittar du vårt utbud av klassiska ansiktsbehandlingar.';
+$types_title = 'Dermabrasion och tillval';
+$types_description = 'Dermabrasion är en effektiv behandling som anpassas efter dina behov.';
 $big_types = array(
     new Service(
-        title: 'Klassisk',
-        duration: '60 min',
+        title: 'Dermabrasion',
+        duration: '40 min',
         price: null,
-        content: '<p class="p200">Vår klassiska ansiktsbehandling är idealisk för alla, oavsett hudtyp. Den rengör, vårdar och återfuktar huden för att ge den ny lyster. Behandlingsprocessen inleds med rengöring, följt av en exfoliering som tar bort döda hudceller. Efter en varsam ångprocess som öppnar porerna, utför vi en försiktig porrengöring och brynplockning. Slutligen appliceras en närande ansiktsmask och en återfuktande dagkräm, skräddarsydd för just din hud.</p>',
+        content: '<p class="p200">Vår dermabrasion-behandling är en effektiv lösning för att förbättra hudens utseende och struktur. Denna behandling är lämplig för många hudtyper och fokuserar på att varsamt slipa bort det yttersta hudlagret. Processen börjar med en grundlig rengöring för att förbereda huden, vilket är avgörande för behandlingens framgång.</p>
+        <p class="p200 mt-m">Efter rengöringen påbörjas själva dermabrasionen, där vi använder specialutrustning för att försiktigt men effektivt exfoliera huden. Detta hjälper till att avlägsna döda hudceller och stimulerar hudens förnyelseprocess, vilket kan minska synligheten av ärr, fina linjer och hyperpigmenteringar. Denna metod är djupgående och bidrar till en jämnare och mer strålande hudton.</p>
+        <p class="p200 mt-m">Behandlingen avslutas med en återfuktande och lugnande behandling för att återställa och skydda huden. Efter dermabrasionen är det viktigt att huden får den vård den behöver för att optimera och förlänga resultaten av behandlingen. Vi erbjuder en skräddarsydd eftervårdsplan för att säkerställa att din hud får den näring och skydd den behöver.</p>',
         image_small: 'https://via.placeholder.com/358x274.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
         image_alt: 'Klassisk',
@@ -114,68 +117,6 @@ $big_types = array(
         procedures: array(
             new Procedure(
                 label: '1 behandling',
-                price: '995 kr',
-                savings: null,
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '3 behandlingar',
-                price: '2595 kr',
-                savings: '865 kr per besök',
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '5 behandlingar',
-                savings: '2595 kr',
-                price: '799 kr per besök',
-                booking_url: 'https://www.bokadirekt.se'
-            )
-        )
-    ),
-    new Service(
-        title: 'Ansiktsbehandling - Antistress',
-        duration: '60 min',
-        price: null,
-        content: '<p class="p200">Unna dig en paus från vardagens hektik med vår Ansiktsbehandling Antistress. Den börjar med en lätt rengöring för att varsamt fräscha upp huden. Den vitaliserande oljemassagen ger en känsla av avkoppling och balans. Behandlingen avslutas med vår skräddarsydda LED-ljusterapi och en närande kräm, allt för att säkerställa en total känsla av välbefinnande.</p>',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Ansiktsbehandling - Antistress',
-        image_title: 'Ansiktsbehandling - Antistress',
-        consultation_url: 'hudkonsultation',
-        consultation_url_label: 'Boka tid för hudkonsultation',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka en Antistress ansiktsbehandling',
-        booking_url_title: 'Boka en Antistress ansiktsbehandling',
-        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
-        procedures: array(
-            new Procedure(
-                label: '1 behandling',
-                price: '1295 kr',
-                savings: null,
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-        )
-    ),
-    new Service(
-        title: 'Hudterapeutens val',
-        duration: '60 min',
-        price: null,
-        content: '<p class="p200">En ansiktsbehandling som skräddarsys helt efter dina behov och vår hudterapeuts rekommendationer. Behandlingen inkluderar en Lumafuse med LED-mask och kompletteras med olika moment som bäst passar din hudtyp. Exempelvis kan detta inkludera en djuprengöring med peel, boost & glow, brynstyling samt olika masker och serum som är särskilt utvalda för dig.</p>',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Hudterapeutens val',
-        image_title: 'Hudterapeutens val',
-        consultation_url: 'hudkonsultation',
-        consultation_url_label: 'Boka tid för hudkonsultation',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka en behandling enligt hudterapeutens val',
-        booking_url_title: 'Boka en behandling enligt hudterapeutens val',
-        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
-        procedures: array(
-            new Procedure(
-                label: '1 behandling',
                 price: '1595 kr',
                 savings: null,
                 booking_url: 'https://www.bokadirekt.se'
@@ -183,69 +124,34 @@ $big_types = array(
             new Procedure(
                 label: '3 behandlingar',
                 price: '3995 kr',
-                savings: 'spara 790 kr',
+                savings: 'Spara 790 kr',
                 booking_url: 'https://www.bokadirekt.se'
             ),
             new Procedure(
                 label: '5 behandlingar',
-                price: '5995 kr',
-                savings: 'spara 1980 kr',
+                savings: '5995 kr',
+                price: 'Spara 1980 kr',
                 booking_url: 'https://www.bokadirekt.se'
             )
         )
     ),
     new Service(
-        title: 'Peel, Boost & Glow',
-        duration: '60 min',
+        title: 'Dermabrasion - Dermabuilder Serum - Boost & Glow',
+        duration: '40 min',
         price: null,
-         content: '<p class="p200">För en uppfriskande och lystergivande upplevelse, prova vår Peel, Boost & Glow behandling. Den här sessionen är idealisk för dig som söker en intensiv fuktboost kombinerat med en omedelbar lyster. Vi använder oss av avancerade syrabaserade produkter för att noggrant rena huden och minimera porerna. Brynplock ingår också i behandlingen för att fullända din look. Avslutningsvis applicerar vi en djupt återfuktande sheetmask och använder LED-ljusteknik för att främja anti-age effekter och förbättra mikrocirkulationen i huden.</p>',
+        content: '<p class="p200">För att ge mogen hud ett riktigt lyft, inkluderar vi Dermabuilder serum i vår behandling. Detta specialserum är en riktig kraftkälla, särskilt utvecklad för att vitalisera och förstärka huden inifrån. Med en potentiell blandning av två aktiva peptider stimulerar det hudens naturliga proteinproduktion, vilket är avgörande för att bibehålla hudens elasticitet och fasthet.</p>
+        <p class="p200 mt-m">Under behandlingen slussas Dermabuilder serum djupt in i huden, där det arbetar för att återuppbygga och förstärka hudstrukturen. Denna process bidrar till att fylla ut och reducera uppkomsten av rynkor och fina linjer, vilket ger ansiktet en mer ungdomlig och fast kontur. Det är en idealisk behandling för dig som vill återskapa hudens ungdomliga glöd och vitalitet.</p>
+        <p class="p200 mt-m">Resultatet är inte bara en synligt jämnare och slätare hud, utan även en förstärkt och mer motståndskraftig hudkvalitet. Vårt Dermabuilder serum ger en effektiv boost och glow, och är en perfekt lösning för dem som vill ge sin mogen hud den extra vård och uppmärksamhet den förtjänar.</p>',
         image_small: 'https://via.placeholder.com/358x274.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Peel, Boost & Glow',
-        image_title: 'Peel, Boost & Glow',
+        image_alt: 'Klassisk',
+        image_title: 'Klassisk',
         consultation_url: 'hudkonsultation',
         consultation_url_label: 'Boka tid för hudkonsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka Peel, Boost & Glow behandling',
-        booking_url_title: 'Boka Peel, Boost & Glow behandling',
-        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
-        procedures: array(
-            new Procedure(
-                label: '1 behandling',
-                price: '1595 kr',
-                savings: null,
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '3 behandlingar',
-                price: '3995 kr',
-                savings: 'spara 790 kr',
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '5 behandlingar',
-                price: '5995 kr',
-                savings: 'spara 1980 kr',
-                booking_url: 'https://www.bokadirekt.se'
-            )
-        )
-    ),
-    new Service(
-        title: 'Luxury',
-        duration: '90 min',
-        price: null,
-        content: '<p class="p200">Unna dig vår mest exklusiva och avkopplande ansiktsbehandling – Luxury Facial. Denna omfattande session börjar med en grundlig djuprengöring av huden, följd av en avslappnande massage för ansikte och dekolletage med en närande ansiktsolja som stimulerar cellförnyelsen och förbättrar kollagensyntesen. En lyxig exfoliering med syra förfinar huden och förbättrar dess elasticitet, fasthet och ton. Ögonbrynen och fransarna får också extra omsorg med en professionell färgning och formning som passar ditt ansikte. Behandlingen avslutas med en intensivt återfuktande sheetmask och en avancerad LED-mask som stimulerar blodcirkulationen, främjar hudens naturliga reparationsprocess och verkar anti-inflammatoriskt. Det är en fulländad upplevelse som inte bara förskönar utan också ger djup avslappning.</p>',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Ansiktsbehandling Lyx',
-        image_title: 'Ansiktsbehandling Lyx',
-        consultation_url: 'hudkonsultation',
-        consultation_url_label: 'Boka Ansiktsbehandling Lyx',
-        consultation_url_title: 'Boka Ansiktsbehandling Lyx',
-        booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka Ansiktsbehandling Lyx',
-        booking_url_title: 'Boka Ansiktsbehandling Lyx',
+        booking_url_label: 'Boka klassisk behandling',
+        booking_url_title: 'Boka klassisk behandling',
         icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
         procedures: array(
             new Procedure(
@@ -257,58 +163,56 @@ $big_types = array(
             new Procedure(
                 label: '3 behandlingar',
                 price: '4995 kr',
-                savings: 'spara 990 kr',
+                savings: 'Spara 990 kr',
                 booking_url: 'https://www.bokadirekt.se'
             ),
             new Procedure(
                 label: '5 behandlingar',
-                price: '7995 kr',
-                savings: 'spara 1980 kr',
+                savings: '7995 kr',
+                price: 'Spara 1980 kr',
                 booking_url: 'https://www.bokadirekt.se'
             )
         )
     ),
     new Service(
-        title: 'Porrengöring',
-        duration: '60 min',
+        title: 'Dermabrasion - Glycal Acid Peel - Mot Pormaskar',
+        duration: '40 min',
         price: null,
-        content: '<p class="p200">Vår porrengöringsbehandling är speciellt framtagen för att effektivt rensa tilltäppta porer och främja en klarare hud. Behandlingen börjar med en djupgående rengöring som förbereder huden för exfoliering. Efter exfolieringen tillämpas en mjukgörande ångprocess för att öppna upp och mjuka upp porerna. Noggrann manuell porrengöring följer för att varsamt avlägsna orenheter och komedoner. Vi avslutar med en lugnande ansiktsmask och lägger på en återfuktande kräm som är anpassad för din hudtyp.</p>',
+        content: '<p class="p200">För att effektivt ta itu med problemhud som pormaskar och finnar, erbjuder vi en specialiserad hydrafacial med Glycal Acid Peel. Denna behandling är speciellt utformad för att djuprengöra huden och hantera överproduktionen av talg, vilket ofta ligger bakom dessa hudproblem.</p>
+        <p class="p200 mt-m">Vår Glycal Acid Peel kombinerar kraften av två aktiva syror för att penetrera huden på djupet. Denna intensiva peelingprocess hjälper till att lösa upp och avlägsna orenheter, vilket resulterar i en grundlig rengöring av porerna. Denna metod är effektiv för att minska uppkomsten av pormaskar och finnar, samtidigt som den bidrar till en klarare och mer balanserad hudton.</p>
+        <p class="p200 mt-m">Behandlingen är idealisk för dig som kämpar med problemhy och söker en lösning som inte bara rengör på ytan, utan även arbetar aktivt på djupet. Med Glycal Acid Peel får du en rengjord och förnyad hud, fri från de vanligaste orsakerna till problemhy.</p>',
         image_small: 'https://via.placeholder.com/358x274.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Porrengöring',
-        image_title: 'Porrengöring',
+        image_alt: 'Klassisk',
+        image_title: 'Klassisk',
         consultation_url: 'hudkonsultation',
         consultation_url_label: 'Boka tid för hudkonsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka porrengöringsbehandling',
-        booking_url_title: 'Boka porrengöringsbehandling',
-        icons: array(
-            'who-teenagers' => 'Teenagers',
-            'who-adults' => 'Adults'
-        ),
+        booking_url_label: 'Boka klassisk behandling',
+        booking_url_title: 'Boka klassisk behandling',
+        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
         procedures: array(
             new Procedure(
-                label: '1 porrengöringsbehandling',
-                price: '1095 kr',
+                label: '1 behandling',
+                price: '1995 kr',
                 savings: null,
                 booking_url: 'https://www.bokadirekt.se'
             ),
             new Procedure(
-                label: '3 porrengöringsbehandlingar',
-                price: '2995 kr',
-                savings: '795 kr per besök',
+                label: '3 behandlingar',
+                price: '4995 kr',
+                savings: 'Spara 990 kr',
                 booking_url: 'https://www.bokadirekt.se'
             ),
             new Procedure(
-                label: '5 porrengöringsbehandlingar',
-                price: '4795 kr',
-                savings: '1199 kr per besök',
+                label: '5 behandlingar',
+                savings: '7995 kr',
+                price: 'Spara 1980 kr',
                 booking_url: 'https://www.bokadirekt.se'
             )
         )
     ),
-
 );
 
 $bottom_articles = array('aftercare' => new Article(
