@@ -54,8 +54,9 @@ $top_articles = array(
         image_large: 'https://via.placeholder.com/872x456.webp',
         image_alt: 'Förberedelser inför laser mot problemhy',
         image_title: 'Förberedelser inför laser mot problemhy',
-        content: '<p class="p200">Förberedelse inför en Microneedling-behandling börjar med en noggrann konsultation där du får träffa en av våra erfarna hudterapeuter. Under konsultationen kommer hudterapeuten att genomföra en omfattande undersökning av din hud för att identifiera specifika behov och hudtillstånd. Detta steg är avgörande för att kunna ta fram en personlig och skräddarsydd behandlingsplan som är optimerad för just dina hudvårdsbehov.</p>
-        <p class="p200 mt-m">Innan behandlingen är det viktigt att huden inte är solbränd. Dessutom bör du undvika starka hudvårdsprodukter som innehåller syror några dagar före behandlingen för att minimera risken för irritation. Din hudterapeut kommer att ge dig all information du behöver för att förbereda din hud på bästa sätt inför din Microneedling-session, säkerställandes att du får en så effektiv och säker behandling som möjligt.</p>',
+        content: '<p class="p200">Inför din laserbehandling mot problemhy på AcneSpecialisten, är det viktigt att noggrant förbereda huden. Detta inkluderar att undvika solbränna och att inte exponera huden för stark sol under veckorna före behandlingen, då solbränd hud kan vara mer känslig och detta kan påverka behandlingens effektivitet och säkerhet.</p>
+        <p class="p200 mt-m">Det är också rekommenderat att undvika hudvårdsprodukter med starka ingredienser som retinol eller exfolierande syror minst en vecka före din behandling. Dessa produkter kan göra huden mer känslig och öka risken för irritation under och efter behandlingen. Vi erbjuder en personlig konsultation för att gå igenom alla förberedelser och svara på eventuella frågor du kan ha. Under konsultationen kommer vi att diskutera din hudhistorik och eventuella mediciner som kan påverka huden och behandlingen.</p>
+        <p class="p200 mt-m">Din säkerhet och komfort är vår prioritet, och därför är det viktigt att du informerar oss om alla hudrelaterade tillstånd eller bekymmer inför behandlingen. Vi ser till att anpassa varje behandling efter dina unika behov och ser fram emot att hjälpa dig uppnå dina hudvårds mål med vår laserbehandling.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -71,11 +72,11 @@ $top_articles = array(
         ))
     ),
     'process' => new Article(
-        title: 'Microneedling behandlingsprocess',
+        title: 'Hur går laser mot problemhy till?',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Microneedling behandlingsprocess',
-        image_title: 'Microneedling behandlingsprocess',
+        image_alt: 'Hur går laser mot problemhy till?',
+        image_title: 'Hur går laser mot problemhy till?',
         content: '<p class="p200">Microneedling är en avancerad hudförnyande behandlingsmetod som kickstartar hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. När du anländer till kliniken, kommer din hud att rengöras grundligt för att avlägsna makeup och orenheter. Därefter appliceras en bedövningskräm för att minska eventuellt obehag under behandlingen.</p>
         p class="p200 mt-m">Vår speciellt utformade microneedling-enhet använder en serie fina, sterila nålar för att skapa mikroskopiska kanaler i huden. Detta initierar hudens egen reparationsmekanism och leder till ökad elastin- och kollagenproduktion. Under behandlingen använder vi också en näringsrik serum för att maximera hudens upptagningsförmåga och stimulera förnyelseprocessen. Efter behandlingen kan du förvänta dig en viss rodnad, men detta är normalt och indikerar att hudens läkningsprocess har börjat. Med tiden kommer du att märka en förbättrad hudtextur, minskning av fina linjer och en övergripande mer strålande hy.</p>',
         tags: array(new ArticleTag(
