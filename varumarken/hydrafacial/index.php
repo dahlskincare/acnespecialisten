@@ -3,14 +3,14 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Dermabrasion - Avancerad Hudförnyelse | AcneSpecialisten';
-$seo_description = 'Utforska AcneSpecialistens dermabrasion-behandlingar för att dramatiskt förbättra hudens textur och utseende. Med vår avancerade teknik och expertis ger vi dig en djupgående hudförnyelse och återuppbyggnad. Upplev skillnaden med professionell dermabrasion.';
-$seo_keywords = 'dermabrasion, hudföryngring, acneärrbehandling, hudslipning, hudförbättring, avancerad hudvård, fina linjer, hyperpigmentering, AcneSpecialisten';
+$seo_title = 'Hydrafacial - Djupgående Hudvård och Förnyelse | AcneSpecialisten';
+$seo_description = 'Upptäck Hydrafacial hos AcneSpecialisten, en mångsidig behandling som kombinerar djup rengöring, exfoliering, och hydrering för att revitalisera din hud. Perfekt för alla hudtyper, denna behandling erbjuder omedelbar lyster och förbättrar hudens kvalitet på lång sikt.';
+$seo_keywords = 'Hydrafacial, hudvård, djupgående rengöring, exfoliering, hydrering, lyster, hudförbättring, AcneSpecialisten, hudens kvalitet, alla hudtyper';
 
-$seo_image = 'images/treatments/large/dermabrasion.jpg';
+$seo_image = 'images/treatments/large/hydrafacial.jpg';
 
 $model = new Service(
-    title: 'Dermabrasion',
+    title: 'HydraFacial',
     duration: null,
     price: 'Från 1595 kr',
     content: '<p class="p200">Dermabrasion hos AcneSpecialisten är en effektiv behandling för att förbättra hudens textur och utseende. Denna metod är särskilt användbar för att behandla acneärr, fina linjer och pigmentering, vilket ger en slätare och mer jämn hudton. Vår dermabrasion-teknik skräddarsys för att passa din hudtyp och ger en djup exfoliering som främjar hudens förnyelse och kollagenproduktion.</p>',
