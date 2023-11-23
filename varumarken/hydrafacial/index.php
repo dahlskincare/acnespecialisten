@@ -13,11 +13,11 @@ $model = new Service(
     title: 'HydraFacial',
     duration: null,
     price: 'Från 1595 kr',
-    content: '<p class="p200">Dermabrasion hos AcneSpecialisten är en effektiv behandling för att förbättra hudens textur och utseende. Denna metod är särskilt användbar för att behandla acneärr, fina linjer och pigmentering, vilket ger en slätare och mer jämn hudton. Vår dermabrasion-teknik skräddarsys för att passa din hudtyp och ger en djup exfoliering som främjar hudens förnyelse och kollagenproduktion.</p>',
+    content: '<p class="p200">Hydrafacial hos AcneSpecialisten är en djupgående hudvårdsbehandling som kombinerar rengöring, exfoliering och hydrering för att vitalisera huden. Denna skonsamma men effektiva metod är idealisk för alla hudtyper och ger omedelbar förbättring av hudens lyster och textur. Med Hydrafacial upplever du en fräschare, klarare och mer strålande hud, tack vare behandlingens förmåga att djuprengöra och återfukta på en och samma gång.</p>',
     image_small: 'https://via.placeholder.com/358x274.webp',
     image_large: 'https://via.placeholder.com/424x456.webp',
-    image_alt: 'Ansiktsbehandlingar för problemhy',
-    image_title: 'Ansiktsbehandlingar för problemhy',
+    image_alt: 'HydraFacial',
+    image_title: 'HydraFacial',
     consultation_url: 'https://bokadirekt.se',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
@@ -27,7 +27,7 @@ $model = new Service(
 );
 
 $nav_buttons = array(
-    'about' => 'Om Dermabrasion',
+    'about' => 'Om HydraFacial',
     'preparing' => 'Förberedelser',
     'process' => 'Processen',
     'types' => 'Typer',
