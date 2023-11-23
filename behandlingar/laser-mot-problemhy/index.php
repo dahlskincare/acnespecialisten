@@ -3,18 +3,18 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Laserbehandling för Problemhy - Effektiva Resultat | AcneSpecialisten';
+$seo_title = 'Laser mot Problemhy - Effektiva Resultat | AcneSpecialisten';
 $seo_description = 'AcneSpecialisten erbjuder avancerade laserbehandlingar för att effektivt hantera problemhy. Våra CO2-laserbehandlingar är speciellt designade för att behandla acneärr, ojämn hudton och textur. Upplev förbättrad hudkvalitet och reduktion av hudproblem med vår expertis inom laserterapi.';
 $seo_keywords = 'CO2-laser, laserbehandling, problemhy, acneärr, förbättrad hudton, hudtextur, avancerad hudvård, AcneSpecialisten, effektiv hudbehandling, hudförnyelse';
 
-$seo_image = 'images/treatments/large/laserbehandling-problemhy.jpg';
+$seo_image = 'images/treatments/large/laser-mot-problemhy.jpg';
 
 $model = new Service(
-    title: 'Microneedling',
+    title: 'Laser mot problemhy',
     duration: null,
-    price: 'Från 2332 kr',
-    content: '<p class="p200">Som ledande experter på microneedling i Sverige, erbjuder vi toppmodern behandling för att revitalisera din hud. Oavsett var du är, från Östermalm till Södermalm eller Sundbyberg, har du tillgång till denna effektiva metod som genom en kontrollerad process stimulerar huden att reparera sig själv. Detta uppnås genom att försiktigt och strategiskt inducera mikroskopiska skador i hudens yttre lager, vilket kickstartar produktionen av kollagen – ett avgörande protein för att upprätthålla hudens styrka och smidighet.</p>
-    <p class="p200">Microneedling är idealiskt för dig som önskar att förbättra hudens ton och textur, reducera ärr och fina linjer eller helt enkelt öka hudens vitalitet och lyster. Våra behandlingar är skräddarsydda för att matcha en rad olika hudtillstånd och är specifikt utformade för att maximera hudens egen förmåga till förnyelse och förbättring.</p>',
+    price: 'Från 4595 kr',
+    content: '<p class="p200">På AcneSpecialisten erbjuder vi fraktionerad CO2-laserbehandling, en avancerad metod för att effektivt behandla problemhy. Denna laserterapi är särskilt effektiv mot acneärr, ojämn hudton och textur, och ger märkbara förbättringar i hudkvaliteten. Med vår expertis inom laserbehandling och individuellt anpassade behandlingsplaner kan du förvänta dig konkreta resultat i din strävan efter en klarare och jämnare hud.</p>
+    <p class="p200 mt-m">Vår CO2-laserbehandling fungerar genom att försiktigt och kontrollerat skapa mikroskopiska skador i hudens övre lager, vilket stimulerar hudens naturliga läkningsprocess och främjar ny kollagenproduktion. Denna process bidrar till att minska synligheten av ärr och förbättrar hudens övergripande struktur och ton. CO2-laser är ett utmärkt alternativ för dig som söker en effektiv behandling mot problemhy utan lång återhämtningstid.</p>',
     image_small: 'https://via.placeholder.com/358x274.webp',
     image_large: 'https://via.placeholder.com/424x456.webp',
     image_alt: 'Ansiktsbehandlingar för problemhy',
@@ -25,36 +25,10 @@ $model = new Service(
     booking_url: 'https://bokadirekt.se',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
-    procedures: array(
-        new Procedure(
-            label: '1 procedure',
-            price: '2595 kr',
-            savings: null,
-            booking_url: 'https://bokadirekt.se',
-            booking_url_label: 'Boka tid för behandling',
-            booking_url_title: 'Boka tid för behandling'
-        ),
-        new Procedure(
-            label: '3 procedures',
-            price: '6995 kr',
-            savings: 'Spara 790 kr',
-            booking_url: 'https://bokadirekt.se',
-            booking_url_label: 'Boka tid för behandling',
-            booking_url_title: 'Boka tid för behandling'
-        ),
-        new Procedure(
-            label: '5 procedures',
-            price: '9995 kr',
-            savings: 'Spara 2980 kr',
-            booking_url: 'https://bokadirekt.se',
-            booking_url_label: 'Boka tid för behandling',
-            booking_url_title: 'Boka tid för behandling'
-        )
-    ),
 );
 
 $nav_buttons = array(
-    'about' => 'Om microneedling',
+    'about' => 'Om laser mot problemhy',
     'preparing' => 'Förberedelser',
     'process' => 'Processen',
     'types' => 'Typer',
@@ -68,17 +42,18 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Microneedling - vad är det?';
-$description_text = '<p class="p200">Microneedling är en skonsam och revolutionerande behandlingsmetod anpassad för alla hudtyper som syftar till att förbättra hudens struktur och utseende. Med hjälp av 16 tunna, medicinska engångsnålar skapas tusentals mikroskopiska kanaler i huden, vilket möjliggör djup penetration av uppbyggande och näringsrika serum. Denna process stimulerar hudens egen förmåga till förnyelse och reparationsmekanismer.</p>
-    <p class="p200 mt-m">Den här helt digitala microneedling-tekniken är ett smärtfritt alternativ till traditionella metoder som laser, och erbjuder minimala risker för biverkningar. Det passar en mångfald av hudtillstånd, inklusive men inte begränsat till åldrande hud, ärrbildningar, ojämn hudton och textur. Genom att aktivera hudens egen kollagenproduktion, förbättras spänsten, lystern och konditionen i huden, vilket resulterar i en fräschare och mer ungdomlig hy.</p>';
+$description_title = 'Vad är laser mot problemhy?';
+$description_text = '<p class="p200">Vår fraktionerade CO2-laserbehandling på AcneSpecialisten sträcker sig även till att effektivt behandla stora porer, ett vanligt hudproblem som många upplever. Denna avancerade lasermetod är idealisk för att förfina hudens textur och minska synligheten av förstorade porer. Genom att målinriktat behandla de drabbade områdena, arbetar lasern för att stimulera hudens naturliga förnyelseprocess och därigenom förbättra hudens struktur.</p>
+<p class="p200 mt-m">Genom att exfoliera det yttre hudlagret och stimulera kollagenproduktionen under huden, bidrar behandlingen till att dra åt och minimera storleken på porerna. Detta leder inte bara till en synlig förbättring av porernas utseende utan även till en övergripande jämnare och klarare hudton. Vår fraktionerade CO2-laser är således en utmärkt behandlingsmetod för dig som vill uppnå en förfinad hudtextur och en minskning av stora porer, samtidigt som du behandlar andra hudproblem som ärrbildning, rynkor och fina linjer.</p>
+<p class="p200 mt-m">Oavsett dina hudproblem, vårt mål på AcneSpecialisten är att erbjuda effektiva och skräddarsydda behandlingar som förbättrar din hudkvalitet och ger dig en mer ungdomlig och fräsch utstrålning.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelser inför Microneedling-behandling',
+        title: 'Förberedelser inför laser mot problemhy',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Förberedelser inför Microneedling-behandling',
-        image_title: 'Förberedelser inför Microneedling-behandling',
+        image_alt: 'Förberedelser inför laser mot problemhy',
+        image_title: 'Förberedelser inför laser mot problemhy',
         content: '<p class="p200">Förberedelse inför en Microneedling-behandling börjar med en noggrann konsultation där du får träffa en av våra erfarna hudterapeuter. Under konsultationen kommer hudterapeuten att genomföra en omfattande undersökning av din hud för att identifiera specifika behov och hudtillstånd. Detta steg är avgörande för att kunna ta fram en personlig och skräddarsydd behandlingsplan som är optimerad för just dina hudvårdsbehov.</p>
         <p class="p200 mt-m">Innan behandlingen är det viktigt att huden inte är solbränd. Dessutom bör du undvika starka hudvårdsprodukter som innehåller syror några dagar före behandlingen för att minimera risken för irritation. Din hudterapeut kommer att ge dig all information du behöver för att förbereda din hud på bästa sätt inför din Microneedling-session, säkerställandes att du får en så effektiv och säker behandling som möjligt.</p>',
         tags: array(new ArticleTag(
