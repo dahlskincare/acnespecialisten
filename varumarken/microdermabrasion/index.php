@@ -13,7 +13,7 @@ $model = new Service(
     title: 'Microdermabrasion',
     duration: null,
     price: 'Från 1595 kr',
-    content: '<p class="p200">Microdermabrasion hos AcneSpecialisten är en avancerad hudslipningsbehandling som effektivt förbättrar hudens textur och lyster. Denna metod använder mikrokristaller för att varsamt exfoliera det yttersta lagret av döda hudceller, vilket stimulerar cellförnyelse och kollagenproduktion. Idealisk för alla hudtyper, bidrar microdermabrasion till en klarare och mer jämn hudton, minskar fina linjer och gör huden synbart fräschare och mer strålande.</p>',
+    content: '',
     image_small: 'https://via.placeholder.com/358x274.webp',
     image_large: 'https://via.placeholder.com/424x456.webp',
     image_alt: 'Microdermabrasion',
@@ -24,6 +24,32 @@ $model = new Service(
     booking_url: 'https://bokadirekt.se',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
+    procedures: array(
+        new Procedure(
+            label: '1 procedure',
+            price: '2595 kr',
+            savings: null,
+            booking_url: 'https://bokadirekt.se',
+            booking_url_label: 'Boka tid för behandling',
+            booking_url_title: 'Boka tid för behandling'
+        ),
+        new Procedure(
+            label: '3 procedures',
+            price: '3995 kr',
+            savings: 'Spara 790 kr',
+            booking_url: 'https://bokadirekt.se',
+            booking_url_label: 'Boka tid för behandling',
+            booking_url_title: 'Boka tid för behandling'
+        ),
+        new Procedure(
+            label: '5 procedures',
+            price: '5995 kr',
+            savings: 'Spara 1980 kr',
+            booking_url: 'https://bokadirekt.se',
+            booking_url_label: 'Boka tid för behandling',
+            booking_url_title: 'Boka tid för behandling'
+        )
+    ),
 );
 
 $nav_buttons = array(
@@ -42,8 +68,7 @@ $nav_buttons = array(
 );
 
 $description_title = 'Vad är Microdermabrasion?';
-$description_text = '<p class="p200">Microdermabrasion är en innovativ och skonsam hudvårdsbehandling som kombinerar rengöring, exfoliering och intensiv återfuktning för att förnya och vitalisera huden. Denna behandling använder en unik teknik som kallas "vortex-fusion", där en spiralformad tipps design möjliggör djuprengöring samtidigt som den tillför antioxidanter, peptider och hyaluronsyra.</p>
-<p class="p200 mt-m">På AcneSpecialisten anpassar vi varje Microdermabrasion-behandling efter individuella hudbehov. Behandlingen är effektiv för att minska synliga tecken på åldrande, som fina linjer och rynkor, samt att hantera problem som acne, förstorade porer och hyperpigmentering. Dessutom förbättrar Microdermabrasion hudens övergripande hälsa och lyster genom att öka fuktnivåerna och skydda mot miljömässiga skador. Microdermabrasion är en perfekt lösning för alla som vill ha en direkt synlig förbättring av sin hudkvalitet utan någon återhämtningstid.</p>';
+$description_text = '<p class="p200">Microdermabrasion på AcneSpecialisten är en effektiv behandlingsmetod för att föryngra och vitalisera huden. Denna process fokuserar på att varsamt skrapa bort det yttersta lagret av döda hudceller, vilket stimulerar huden att påbörja en naturlig läkningsprocess. Genom denna slipning avlägsnas gamla celler och ger plats åt nya, fräscha hudceller, vilket bidrar till en starkare, friskare och mer strålande hud. Behandlingen är designad för att kickstarta hudens förnyelse och är särskilt effektiv för att skapa en jämnare hudton och förbättra hudens övergripande kvalitet.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
@@ -52,8 +77,7 @@ $top_articles = array(
         image_large: 'https://via.placeholder.com/872x456.webp',
         image_alt: 'Förberedelse inför Microdermabrasiona ansiktsbehandlingar',
         image_title: 'Förberedelse inför Microdermabrasiona ansiktsbehandlingar',
-        content: '<p class="p200">Inför din Microdermabrasion-behandling hos AcneSpecialisten är det viktigt att förbereda huden för att optimera behandlingens effekt. Vi rekommenderar att du undviker starka hudvårdsprodukter, såsom exfolierande syror eller retinol, några dagar före din session. Detta hjälper till att minska risken för hudirritation och gör huden mer mottaglig för behandlingen.</p>
-        <p class="p200 mt-m">Skydda din hud mot stark sol och undvik solbränna innan din Microdermabrasion-behandling, då solbränd hud kan vara mer känslig och detta kan påverka behandlingens resultat. Om du använder mediciner som påverkar huden, eller har hudtillstånd som akne eller rosacea, är det viktigt att informera oss i förväg så att vi kan anpassa behandlingen efter dina unika behov. Kom ihåg att det är viktigt att du känner dig trygg och bekväm, så tveka inte att kontakta oss med eventuella frågor eller funderingar inför din behandling hos AcneSpecialisten.</p>',
+        content: '<p class="p200">När du förbereder dig för din Microdermabrasion-behandling hos AcneSpecialisten, är det viktigt att ta vissa steg för att din hud ska vara i bästa möjliga skick. För att säkerställa att du är fullständigt informerad och bekväm med processen, erbjuder vi en konsultation där vi går igenom allt du behöver veta inför din Microdermabrasion-behandling. Under konsultationen kommer vi att diskutera din hudtyp, eventuella specifika bekymmer och vad du kan förvänta dig av behandlingen. Detta är också ett utmärkt tillfälle för dig att ställa frågor och uttrycka eventuella funderingar. Vår prioritet är att du känner dig helt trygg och förberedd inför din behandling hos AcneSpecialisten.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -74,10 +98,10 @@ $top_articles = array(
     image_large: 'https://via.placeholder.com/872x456.webp',
     image_alt: 'Processen för Microdermabrasion',
     image_title: 'Processen för Microdermabrasion',
-    content: '<p class="p200">En Microdermabrasion-behandling hos AcneSpecialisten börjar med en grundlig rengöring av huden för att avlägsna smuts och orenheter. Detta första steg är viktigt för att förbereda huden för behandlingens nästa faser.</p>
-    <p class="p200 mt-m">Efter rengöringen följer Microdermabrasionens huvudsteg, där vi använder en specialiserad apparatur för att utföra en skonsam men djupgående exfoliering. Apparaten kombinerar rengöring, exfoliering och extraktion för att ta bort döda hudceller och rengöra porerna, samtidigt som den tillför intensiva fuktgivande serum anpassade efter din hudtyp.</p>
-    <p class="p200 mt-m">Behandlingen fortsätter med införande av näring och antioxidanter som vitaliserar och ger huden en fräsch, strålande lyster. Microdermabrasionen avslutas med att lugnande och skyddande ämnen appliceras på huden för att maximera återhämtningen och skydda mot miljöpåverkan.</p>
-    <p class="p200 mt-m">Våra experter vid AcneSpecialisten anpassar varje Microdermabrasion-behandling individuellt för att uppnå bästa möjliga resultat. Denna behandling är perfekt för alla som söker en djup men skonsam rengöring och önskar en synbart förbättrad hudkvalitet.</p>',
+    content: '<p class="p200">Microdermabrasion-processen på AcneSpecialisten är en noggrant utformad behandling som syftar till att förbättra hudens kvalitet genom en skonsam men effektiv exfoliering. Behandlingen inleds med en grundlig rengöring av huden för att avlägsna smuts, olja och orenheter. Detta steg är viktigt för att förbereda huden för microdermabrasionen.</p>
+    <p class="p200 mt-m">Nästa steg i processen är själva microdermabrasionen, där vi använder en specialapparat för att skonsamt men djupgående exfoliera hudens yttre lager. Denna teknik använder mikrokristaller eller en diamantspets för att försiktigt slipa bort döda hudceller, vilket främjar cellförnyelse och förbättrar hudens textur och lyster.</p>
+    <p class="p200 mt-m">Efter exfolieringen appliceras specifika serum och näringsämnen för att ytterligare förbättra hudens hälsa och utseende. Dessa produkter är utvalda för att passa din specifika hudtyp och behov, och kan innefatta ingredienser som hyaluronsyra, antioxidanter och vitaminer.</p>
+    <p class="p200 mt-m">Behandlingen avslutas med applicering av en lugnande och återfuktande kräm för att maximera hudens återhämtning och skydda den från yttre påverkan. Microdermabrasion är en idealisk behandling för dig som vill förbättra hudens textur och utseende, och passar för en rad olika hudtyper och tillstånd. Vårt mål är att ge dig en förbättrad, mjukare och mer strålande hud efter varje behandling.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -94,137 +118,14 @@ $top_articles = array(
     ),
 );
 
-$types_title = 'Microdermabrasion och tillval';
-$types_description = 'Med hjälp av våra tillval anpassar vi behandingen för just dina behov..';
-$big_types = array(
-    new Service(
-        title: 'Microdermabrasion',
-        duration: '40 min',
-        price: null,
-        content: '<p class="p200">Microdermabrasion hos AcneSpecialisten är en mångsidig och effektiv hudvårdsbehandling som passar en mängd olika hudtyper. Behandlingen fokuserar på djupgående rengöring, hydrering och förnyelse av hudens yta, vilket ger en fräsch och strålande lyster.</p>
-        <p class="p200 mt-m">Behandlingen inleds med en varsam men grundlig rengöring som förbereder huden för Microdermabrasionens nästa steg. Därefter används en specialapparat för att utföra en mild exfoliering, som tar bort döda hudceller och rengör porerna på djupet. Samtidigt tillförs närande och fuktgivande serum som är skräddarsydda efter din hudtyp och dina behov.</p>
-        <p class="p200 mt-m">Efter den exfolierande fasen följer en infusion av antioxidanter och hyaluronsyra som djupt återfuktar huden och bidrar till dess vitalitet och utstrålning. Behandlingen avslutas med en lugnande fas där huden får extra vård och skydd för att bevara de långvariga effekterna av Microdermabrasion.</p>
-        <p class="p200 mt-m">På AcneSpecialisten ger vi dig en skräddarsydd behandling och eftervård som maximerar fördelarna av Microdermabrasion. Denna behandling är idealisk för dig som söker en omfattande lösning för att förbättra din hudhälsa och utstrålning.</p>',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Microdermabrasion',
-        image_title: 'Microdermabrasion',
-        consultation_url: 'hudkonsultation',
-        consultation_url_label: 'Boka tid för hudkonsultation',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka Microdermabrasion behandling',
-        booking_url_title: 'Boka Microdermabrasion behandling',
-        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
-        procedures: array(
-            new Procedure(
-                label: '1 behandling',
-                price: '1595 kr',
-                savings: null,
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '3 behandlingar',
-                price: '3995 kr',
-                savings: 'Spara 790 kr',
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '5 behandlingar',
-                savings: '5995 kr',
-                price: 'Spara 1980 kr',
-                booking_url: 'https://www.bokadirekt.se'
-            )
-        )
-    ),
-    new Service(
-        title: 'Microdermabrasion - Dermabuilder Serum - Boost & Glow',
-        duration: '40 min',
-        price: null,
-        content: '<p class="p200">Microdermabrasion-behandlingen med Dermabuilder Serum hos AcneSpecialisten är en exceptionell upplevelse för den mogna huden. Detta avancerade serum är särskilt framtaget för att djupt vitalisera och stärka huden. Med en kraftfull blandning av två aktiva peptider, arbetar serumet för att stimulera produktionen av hudens egna proteiner, vilket är avgörande för hudens elasticitet och fasthet.</p>
-        <p class="p200 mt-m">I denna behandling tränger Dermabuilder Serum in i hudens djupare lager för att effektivt bygga upp och stärka hudstrukturen inifrån. Detta bidrar till att synbart minska rynkor och fina linjer, och ger ansiktet en fastare och mer ungdomlig profil. Behandlingen är perfekt för dig som vill återställa och bevara hudens ungdomliga utstrålning och vitalitet.</p>
-        <p class="p200 mt-m">Med Microdermabrasion och Dermabuilder Serum får du inte bara en slätare och jämnare hud, utan också en mer motståndskraftig och välvårdad hudkvalitet. Detta serum är en idealisk lösning för att ge din mogen hud en omedelbar boost.</p>',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Microdermabrasion',
-        image_title: 'Microdermabrasion',
-        consultation_url: 'hudkonsultation',
-        consultation_url_label: 'Boka tid för hudkonsultation',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka Microdermabrasion behandling',
-        booking_url_title: 'Boka Microdermabrasion behandling',
-        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
-        procedures: array(
-            new Procedure(
-                label: '1 behandling',
-                price: '1995 kr',
-                savings: null,
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '3 behandlingar',
-                price: '4995 kr',
-                savings: 'Spara 990 kr',
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '5 behandlingar',
-                savings: '7995 kr',
-                price: 'Spara 1980 kr',
-                booking_url: 'https://www.bokadirekt.se'
-            )
-        )
-    ),
-    new Service(
-        title: 'Microdermabrasion - Glycal Acid Peel - Mot Pormaskar',
-        duration: '40 min',
-        price: null,
-        content: '<p class="p200">Microdermabrasion-behandlingen hos AcneSpecialisten, förstärkt med Glycal Acid Peel, är skräddarsydd för att effektivt hantera hud med pormaskar och finnar. Denna specialanpassade behandling fokuserar på att djuprengöra huden och adressera överproduktionen av talg, en vanlig orsak till dessa hudtillstånd.</p>
-        <p class="p200 mt-m">Glycal Acid Peel är en kraftfull kombination av aktiva syror som tränger djupt in i hudlagren för att lösgöra och avlägsna inbyggda orenheter. Denna intensiva exfolieringsprocess renar effektivt porerna, vilket minskar synligheten av pormaskar och finnar och bidrar till en klarare och jämnare hudton.</p>
-        <p class="p200 mt-m">Denna behandling är idealisk för dig som söker en djupgående lösning på problemhy. Med vår Glycal Acid Peel får du inte bara en yttre rengöring, utan en behandling som aktivt arbetar för att rena huden på djupet. Resultatet är en ren, förnyad hud som är fri från de vanligaste orsakerna till problemhy.</p>',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Microdermabrasion',
-        image_title: 'Microdermabrasion',
-        consultation_url: 'hudkonsultation',
-        consultation_url_label: 'Boka tid för hudkonsultation',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka Microdermabrasion behandling',
-        booking_url_title: 'Boka Microdermabrasion behandling',
-        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
-        procedures: array(
-            new Procedure(
-                label: '1 behandling',
-                price: '1995 kr',
-                savings: null,
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '3 behandlingar',
-                price: '4995 kr',
-                savings: 'Spara 990 kr',
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '5 behandlingar',
-                savings: '7995 kr',
-                price: 'Spara 1980 kr',
-                booking_url: 'https://www.bokadirekt.se'
-            )
-        )
-    ),
-);
-
 $bottom_articles = array('aftercare' => new Article(
     title: 'Eftervård för Microdermabrasion',
     image_small: 'https://via.placeholder.com/358x272.webp',
     image_large: 'https://via.placeholder.com/872x456.webp',
     image_alt: 'Eftervård för Microdermabrasion',
     image_title: 'Eftervård för Microdermabrasion',
-    content: '<p class="p200">Efter din Microdermabrasion-behandling hos AcneSpecialisten är det viktigt att noggrant följa eftervårdsinstruktioner för att bibehålla och förlänga behandlingens positiva effekter. Direkt efter behandlingen ska huden behandlas varsamt. Undvik stark sol och använd ett högkvalitativt solskydd med hög SPF för att skydda huden från UV-strålar.</p>
-    <p class="p200 mt-m">För att stödja huden i dess återhämtningsprocess, är det viktigt att regelbundet återfukta med lämpliga hudvårdsprodukter, som rekommenderats av din hudterapeut. Om din behandling inkluderade en kemisk peeling eller en djup exfoliering, bör du undvika att skrubba eller irritera huden och låta eventuella mindre orenheter läka på egen hand. Det är även viktigt att hålla en god hydrering genom att dricka tillräckligt med vatten och upprätthålla en näringsrik kost för att stödja huden inifrån. Tveka inte att kontakta oss på AcneSpecialisten för ytterligare råd eller frågor om din eftervård.</p>',
+    content: '<p class="p200">Efter en Microdermabrasion-behandling hos AcneSpecialisten är det essentiellt att du följer våra eftervårdsinstruktioner för att säkerställa bästa möjliga resultat. Det är viktigt att behandla din hud med omsorg under de första dagarna efter behandlingen. Börja med att skydda huden från solen och använd ett högkvalitativt solskydd med hög SPF för att förebygga skador från UV-strålar.</p>
+    <p class="p200 mt-m">Om du har några frågor eller behöver ytterligare rådgivning angående din eftervård, är du alltid välkommen att kontakta oss på AcneSpecialisten. Vi är här för att stödja dig i din resa mot en friskare och mer strålande hud.</p>',
     tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
 
@@ -332,20 +233,20 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Hur lång tid tar det att se resultat efter en Microdermabrasion?',
-            text: 'Resultaten från en Microdermabrasion kan ofta ses omedelbart efter behandlingen, där många upplever en mer strålande och jämn hudton. För att uppnå och upprätthålla optimala resultat rekommenderas regelbundna behandlingar anpassade efter individens hudbehov.'
+            title: 'Hur snabbt ser man resultat efter Microdermabrasion?',
+            text: 'De flesta kunder märker en omedelbar förbättring i hudens lyster och känsla direkt efter en Microdermabrasion-behandling. För långsiktiga och mer dramatiska förbättringar rekommenderas regelbundna sessioner, som ger progressiv förbättring av hudens utseende och kvalitet.'
         ),
         new Question(
-            title: 'Är det säkert att göra Microdermabrasion regelbundet?',
-            text: 'Ja, Microdermabrasion är en säker och skonsam behandling som kan utföras regelbundet. Den är utformad för att vara skonsam mot huden samtidigt som den erbjuder effektiva resultat, vilket gör den till en idealisk lösning för kontinuerlig hudvård och underhåll.'
+            title: 'Är det säkert att göra Microdermabrasion på regelbunden basis?',
+            text: 'Ja, Microdermabrasion är en skonsam behandling som är säker att utföra regelbundet. Den är utformad för att varsamt men effektivt förbättra hudens yta utan att orsaka skador, vilket gör den idealisk för kontinuerlig användning i en hudvårdsrutin.'
         ),
         new Question(
-            title: 'Kan Microdermabrasion hjälpa mot specifika hudproblem?',
-            text: 'Ja, Microdermabrasion är effektiv för en mängd olika hudproblem, inklusive torrhet, fina linjer, acne och hyperpigmentering. Behandlingen är anpassningsbar, vilket gör det möjligt att rikta in sig på specifika problemområden och hudtillstånd.'
+            title: 'Kan Microdermabrasion behandla specifika hudåkommor?',
+            text: 'Absolut. Microdermabrasion är effektiv för att behandla en rad hudproblem som fina linjer, lättare pigmentförändringar, torrhet och till viss del acne. Den kan skräddarsys för att fokusera på dina specifika hudbehov och problemområden.'
         ),
         new Question(
-            title: 'Vilka är de främsta fördelarna med Microdermabrasion jämfört med andra hudvårdsbehandlingar?',
-            text: 'Microdermabrasion utmärker sig genom sin förmåga att djuprengöra, exfoliera och återfukta huden på ett skonsamt sätt. Dess unika teknik och anpassningsförmåga gör den effektiv för en rad olika hudtyper och problem, med mindre risk för irritation jämfört med mer aggressiva behandlingar.'
+            title: 'Vad är de huvudsakliga fördelarna med Microdermabrasion jämfört med andra hudvårdsbehandlingar?',
+            text: 'En av de största fördelarna med Microdermabrasion är dess förmåga att effektivt exfoliera och förnya huden utan aggressivitet. Detta gör behandlingen särskilt lämplig för känsliga hudtyper och dem som söker en mild men effektiv hudförbättring. Dessutom ger Microdermabrasion snabba resultat med minimal återhämtningstid jämfört med vissa mer invasiva behandlingsalternativ.'
         ),
     )
 );
