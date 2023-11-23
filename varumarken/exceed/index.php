@@ -390,15 +390,15 @@ $bottom_articles = array('aftercare' => new Article(
     tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
 
-$service_brands_title = 'Metoder för Exceed';
-$service_brands_text = '<p class="p200">Exceed är en form av microneedling behandling.</p>';
+$service_brands_title = 'Andra märken för microneedling';
+$service_brands_text = '<p class="p200">Utöver exceed utför vi även microneeding med Dermapen.</p>';
 $service_brands = array(
 
     new Brand(
-        label: 'Microneedling',
-        image: 'images/behandling/microneedling.svg',
-        image_alt: 'Microneedling',
-        image_title: 'Microneedling'
+        label: 'Dermapen',
+        image: 'images/brands/dermapen.svg',
+        image_alt: 'Dermapen',
+        image_title: 'Dermapen'
     ),
 );
 

@@ -423,10 +423,10 @@ $service_brands_text = '<p class="p200">Vi utför microneedling med Dermapen och
 $service_brands = array(
 
     new Brand(
-        label: 'Dermapen4',
-        image: 'images/brands/dermapen4.svg',
-        image_alt: 'Dermapen4',
-        image_title: 'Dermapen4'
+        label: 'Dermapen',
+        image: 'images/brands/dermapen.svg',
+        image_alt: 'Dermapen',
+        image_title: 'Dermapen'
     ),
     new Brand(
         label: 'Exceed',

@@ -221,10 +221,28 @@ $bottom_articles = array('aftercare' => new Article(
     image_large: 'https://via.placeholder.com/872x456.webp',
     image_alt: 'Eftervård för Dermabrasion',
     image_title: 'Eftervård för Dermabrasion',
-    content: '<p class="p200">Våra klassiska ansiktsbehandlingar erbjuder en grundlig rengöring och uppfräschning av huden. Efter din behandling är det viktigt att följa några enkla eftervårdsinstruktioner för att bibehålla resultatet. Undvik starkt solsken och använd en hög SPF för att skydda huden. Vi rekommenderar också att du undviker tung makeup och hudirriterande ämnen de första 24 timmarna efter behandlingen. Fortsätt att återfukta huden väl och använd de produkter som rekommenderats av din hudterapeut för att stödja hudens läkning och förbättring.</p>
-    <p class="p200 mt-m">För dig som gjort en lite mer resultatinriktad behandling är det viktigt att komma ihåg att inte plocka eller skrapa på huden om det skulle uppstå några orenheter efter behandlingen. Om du fick en kemisk peeling eller exfoliering, se till att vara extra varsam med huden och undvik exfolierande produkter ett tag. Drick mycket vatten och fortsätt med en balanserad kost för att stödja huden inifrån och ut. Om du har några frågor om din eftervård, tveka inte att kontakta oss för personliga råd.</p>',
+    content: '<p class="p200">Efter din dermabrasion-behandling är det avgörande att följa rätt eftervårdsrutiner för att säkerställa och förlänga resultaten. Det är viktigt att vara extra försiktig med huden direkt efter behandlingen. Undvik direkt exponering för solen och applicera solskydd med hög SPF för att skydda den behandlade huden. Det är också klokt att avstå från att använda irriterande hudprodukter under de första 24 timmarna.</p>
+    <p class="p200 mt-m">För att främja läkning och bibehålla hudens kondition, rekommenderar vi att du återfuktar huden regelbundet med de produkter som din hudterapeut har rådgivit. Om din behandling inkluderade en kemisk peeling eller intensiv exfoliering, bör du vara försiktig och undvika att skrubba eller plocka på huden, även om du upplever några mindre orenheter. Det är även viktigt att upprätthålla en god vätskebalans genom att dricka mycket vatten och hålla en hälsosam kost för att stödja huden från insidan. Om du har några ytterligare frågor eller funderingar kring din eftervård, är du alltid välkommen att kontakta oss för skräddarsydda råd.</p>',
     tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
+
+$service_brands_title = 'Märken för Dermabrasion';
+$service_brands_text = '<p class="p200">Vi utför dermabrasion med HydraFacial och Micro Dermabrasion vilket är de modernaste och mest effektiva metoderna på markanden.</p>';
+$service_brands = array(
+
+    new Brand(
+        label: 'HydraFacial',
+        image: 'images/brands/hydrafacial.svg',
+        image_alt: 'HydraFacial',
+        image_title: 'HydraFacial'
+    ),
+    new Brand(
+        label: 'Micro Dermabrasion',
+        image: 'images/brands/micro-dermabrasion.svg',
+        image_alt: 'Micro Dermabrasion',
+        image_title: 'Micro Dermabrasion'
+    ),
+);
 
 $results = array(
     new ResultCustomer(
@@ -318,21 +336,21 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Hur många behandlingar behövs?',
-            text: 'Antalet behandlingar kan variera beroende på individens hudtyp och hudens tillstånd. Generellt rekommenderas en serie av behandlingar för bästa möjliga resultat och sedan underhållsbehandlingar för långsiktig effekt.'
+            title: 'Hur många dermabrasion-behandlingar krävs för att se resultat?',
+            text: 'Antalet dermabrasion-behandlingar som krävs varierar från person till person, beroende på hudtyp och de specifika hudproblem som ska adresseras. Oftast rekommenderas en serie av behandlingar för att uppnå önskade resultat, med regelbundna underhållsbehandlingar för att bibehålla hudens förbättrade tillstånd.'
         ),
         new Question(
-            title: 'Hur ofta ska jag boka en klassisk ansiktsbehandling?',
-            text: 'För att upprätthålla resultat och hudens hälsa, rekommenderar vi en klassisk ansiktsbehandling var fjärde till sjätte vecka. Det kan justeras beroende på personliga behov och hudens tillstånd.'
+            title: 'Hur ofta bör jag genomgå dermabrasion?',
+            text: 'Det rekommenderas att genomgå dermabrasion regelbundet för att upprätthålla resultat. För de flesta är en behandling var fjärde till sjätte vecka idealisk, men frekvensen kan anpassas efter individuella behov och hudens respons på behandlingen.'
         ),
         new Question(
-            title: 'Vad kan jag förvänta mig direkt efter behandlingen?',
-            text: 'Efter en klassisk ansiktsbehandling kan huden vara lite rosig och kännas extra mjuk och återfuktad. Det är viktigt att följa eftervårdsinstruktionerna för att maximera behandlingens effekt. I de fall där en mer resultatinriktad behandling gjorts kan upplevelsen av huden variera.'
+            title: 'Vad kan jag förvänta mig efter en dermabrasion-behandling?',
+            text: 'Efter en dermabrasion-behandling kan du uppleva en viss rodnad och en känsla av mjukhet i huden. Det är viktigt att följa eftervårdsinstruktionerna för att främja läkning och optimera resultatet. Vid mer intensiva behandlingar kan hudens reaktion vara mer märkbar, såsom lätt svullnad eller känslighet.'
         ),
         new Question(
-            title: 'Behövs speciell eftervård efter en klassisk ansiktsbehandling?',
-            text: 'Eftervård är viktigt för att bevara resultatet av din ansiktsbehandling. Det innefattar solskydd, mild hudvård, och att undvika starka hudirriterande ämnen ett par dagar efter behandlingen.'
-        )
+            title: 'Krävs särskild vård efter en dermabrasion-behandling?',
+            text: 'Ja, eftervård är viktig för att underhålla resultaten av en dermabrasion-behandling. Detta inkluderar användning av solskydd, undvikande av direkta solstrålar, och att hålla sig till en mild hudvårdsrutin. Undvik även att använda irriterande eller exfolierande produkter under de första dagarna efter behandlingen.'
+        ),
     )
 );
 
