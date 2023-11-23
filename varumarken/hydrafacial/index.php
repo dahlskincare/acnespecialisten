@@ -50,10 +50,10 @@ $top_articles = array(
         title: 'Förberedelse inför HydraFacial',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Förberedelse inför klassiska ansiktsbehandlingar',
-        image_title: 'Förberedelse inför klassiska ansiktsbehandlingar',
-        content: '<p class="p200">Inför din dermabrasion-behandling på AcneSpecialisten är det viktigt att förbereda huden för att maximera resultatet. Vi rekommenderar att du undviker att använda starka hudvårdsprodukter, såsom exfolierande syror, några dagar innan behandlingen. Detta för att minska risken för irritation och göra huden mer mottaglig för behandlingen.</p>
-        <p class="p200 mt-m">Det är också klokt att skydda din hud från stark sol och undvika solbränna innan din session. Solbränd hud kan vara mer känslig och kan påverka resultatet av dermabrasion. Om du tar mediciner som påverkar huden, eller om du har några hudrelaterade tillstånd, informera oss gärna om detta i förväg så att vi kan anpassa behandlingen efter dina behov. Kom ihåg att det är viktigt att du känner dig trygg och bekväm, så tveka inte att ställa frågor eller uttrycka dina önskemål när du kommer till oss på AcneSpecialisten för din behandling.</p>',
+        image_alt: 'Förberedelse inför HydraFaciala ansiktsbehandlingar',
+        image_title: 'Förberedelse inför HydraFaciala ansiktsbehandlingar',
+        content: '<p class="p200">Inför din HydraFacial-behandling hos AcneSpecialisten är det viktigt att förbereda huden för att optimera behandlingens effekt. Vi rekommenderar att du undviker starka hudvårdsprodukter, såsom exfolierande syror eller retinol, några dagar före din session. Detta hjälper till att minska risken för hudirritation och gör huden mer mottaglig för behandlingen.</p>
+        <p class="p200 mt-m">Skydda din hud mot stark sol och undvik solbränna innan din HydraFacial-behandling, då solbränd hud kan vara mer känslig och detta kan påverka behandlingens resultat. Om du använder mediciner som påverkar huden, eller har hudtillstånd som akne eller rosacea, är det viktigt att informera oss i förväg så att vi kan anpassa behandlingen efter dina unika behov. Kom ihåg att det är viktigt att du känner dig trygg och bekväm, så tveka inte att kontakta oss med eventuella frågor eller funderingar inför din behandling hos AcneSpecialisten.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -69,14 +69,15 @@ $top_articles = array(
         ))
     ),
     'process' => new Article(
-        title: 'Processen för dermabrasion',
+        title: 'Processen för HydraFacial',
     image_small: 'https://via.placeholder.com/358x272.webp',
     image_large: 'https://via.placeholder.com/872x456.webp',
-    image_alt: 'Processen för dermabrasion',
-    image_title: 'Processen för dermabrasion',
-    content: '<p class="p200">Vid en dermabrasion-behandling på AcneSpecialisten inleds sessionen med att noggrant rengöra huden för att eliminera smuts, olja och andra orenheter. Denna rengöringsprocess är avgörande för att säkerställa att huden är fullständigt förberedd för dermabrasionens exfolierande effekter.</p>
-    <p class="p200 mt-m">Efter rengöringen utförs själva dermabrasionen, en mekanisk peeling där ett specialverktyg används för att försiktigt men effektivt slipa bort det yttersta lagret av döda hudceller. Denna process stimulerar hudens naturliga förnyelseprocess, vilket kan förbättra hudens textur och ton samt minska synligheten av fina linjer, ärr och hyperpigmentering.</p>
-    <p class="p200 mt-m">Efter dermabrasionen kan en lugnande och återfuktande mask appliceras för att lugna huden och minska eventuell rodnad eller irritation. Behandlingen avslutas med en närande fuktighetskräm som skyddar och återställer huden. Vår expertpersonal ser till att varje steg i din dermabrasion-behandling är skräddarsytt för att passa din specifika hudtyp och dina behov, med målet att ge dig en friskare, mer strålande hud.</p>',
+    image_alt: 'Processen för HydraFacial',
+    image_title: 'Processen för HydraFacial',
+    content: '<p class="p200">En HydraFacial-behandling hos AcneSpecialisten börjar med en grundlig rengöring av huden för att avlägsna smuts och orenheter. Detta första steg är viktigt för att förbereda huden för behandlingens nästa faser.</p>
+    <p class="p200 mt-m">Efter rengöringen följer HydraFacialens huvudsteg, där vi använder en specialiserad apparatur för att utföra en skonsam men djupgående exfoliering. Apparaten kombinerar rengöring, exfoliering och extraktion för att ta bort döda hudceller och rengöra porerna, samtidigt som den tillför intensiva fuktgivande serum anpassade efter din hudtyp.</p>
+    <p class="p200 mt-m">Behandlingen fortsätter med införande av näring och antioxidanter som vitaliserar och ger huden en fräsch, strålande lyster. HydraFacialen avslutas med att lugnande och skyddande ämnen appliceras på huden för att maximera återhämtningen och skydda mot miljöpåverkan.</p>
+    <p class="p200 mt-m">Våra experter vid AcneSpecialisten anpassar varje HydraFacial-behandling individuellt för att uppnå bästa möjliga resultat. Denna behandling är perfekt för alla som söker en djup men skonsam rengöring och önskar en synbart förbättrad hudkvalitet.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -93,26 +94,27 @@ $top_articles = array(
     ),
 );
 
-$types_title = 'Dermabrasion och tillval';
-$types_description = 'Dermabrasion är en effektiv behandling som anpassas efter dina behov.';
+$types_title = 'HydraFacial och tillval';
+$types_description = 'Med hjälp av våra tillval anpassar vi behandingen för just dina behov..';
 $big_types = array(
     new Service(
-        title: 'Dermabrasion',
+        title: 'HydraFacial',
         duration: '40 min',
         price: null,
-        content: '<p class="p200">Vår dermabrasion-behandling är en effektiv lösning för att förbättra hudens utseende och struktur. Denna behandling är lämplig för många hudtyper och fokuserar på att varsamt slipa bort det yttersta hudlagret. Processen börjar med en grundlig rengöring för att förbereda huden, vilket är avgörande för behandlingens framgång.</p>
-        <p class="p200 mt-m">Efter rengöringen påbörjas själva dermabrasionen, där vi använder specialutrustning för att försiktigt men effektivt exfoliera huden. Detta hjälper till att avlägsna döda hudceller och stimulerar hudens förnyelseprocess, vilket kan minska synligheten av ärr, fina linjer och hyperpigmenteringar. Denna metod är djupgående och bidrar till en jämnare och mer strålande hudton.</p>
-        <p class="p200 mt-m">Behandlingen avslutas med en återfuktande och lugnande behandling för att återställa och skydda huden. Efter dermabrasionen är det viktigt att huden får den vård den behöver för att optimera och förlänga resultaten av behandlingen. Vi erbjuder en skräddarsydd eftervårdsplan för att säkerställa att din hud får den näring och skydd den behöver.</p>',
+        content: '<p class="p200">HydraFacial hos AcneSpecialisten är en mångsidig och effektiv hudvårdsbehandling som passar en mängd olika hudtyper. Behandlingen fokuserar på djupgående rengöring, hydrering och förnyelse av hudens yta, vilket ger en fräsch och strålande lyster.</p>
+        <p class="p200 mt-m">Behandlingen inleds med en varsam men grundlig rengöring som förbereder huden för HydraFacialens nästa steg. Därefter används en specialapparat för att utföra en mild exfoliering, som tar bort döda hudceller och rengör porerna på djupet. Samtidigt tillförs närande och fuktgivande serum som är skräddarsydda efter din hudtyp och dina behov.</p>
+        <p class="p200 mt-m">Efter den exfolierande fasen följer en infusion av antioxidanter och hyaluronsyra som djupt återfuktar huden och bidrar till dess vitalitet och utstrålning. Behandlingen avslutas med en lugnande fas där huden får extra vård och skydd för att bevara de långvariga effekterna av HydraFacial.</p>
+        <p class="p200 mt-m">På AcneSpecialisten ger vi dig en skräddarsydd behandling och eftervård som maximerar fördelarna av HydraFacial. Denna behandling är idealisk för dig som söker en omfattande lösning för att förbättra din hudhälsa och utstrålning.</p>',
         image_small: 'https://via.placeholder.com/358x274.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Klassisk',
-        image_title: 'Klassisk',
+        image_alt: 'HydraFacial',
+        image_title: 'HydraFacial',
         consultation_url: 'hudkonsultation',
         consultation_url_label: 'Boka tid för hudkonsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka klassisk behandling',
-        booking_url_title: 'Boka klassisk behandling',
+        booking_url_label: 'Boka HydraFacial behandling',
+        booking_url_title: 'Boka HydraFacial behandling',
         icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
         procedures: array(
             new Procedure(
@@ -136,22 +138,22 @@ $big_types = array(
         )
     ),
     new Service(
-        title: 'Dermabrasion - Dermabuilder Serum - Boost & Glow',
+        title: 'HydraFacial - Dermabuilder Serum - Boost & Glow',
         duration: '40 min',
         price: null,
-        content: '<p class="p200">För att ge mogen hud ett riktigt lyft, inkluderar vi Dermabuilder serum i vår behandling. Detta specialserum är en riktig kraftkälla, särskilt utvecklad för att vitalisera och förstärka huden inifrån. Med en potentiell blandning av två aktiva peptider stimulerar det hudens naturliga proteinproduktion, vilket är avgörande för att bibehålla hudens elasticitet och fasthet.</p>
-        <p class="p200 mt-m">Under behandlingen slussas Dermabuilder serum djupt in i huden, där det arbetar för att återuppbygga och förstärka hudstrukturen. Denna process bidrar till att fylla ut och reducera uppkomsten av rynkor och fina linjer, vilket ger ansiktet en mer ungdomlig och fast kontur. Det är en idealisk behandling för dig som vill återskapa hudens ungdomliga glöd och vitalitet.</p>
-        <p class="p200 mt-m">Resultatet är inte bara en synligt jämnare och slätare hud, utan även en förstärkt och mer motståndskraftig hudkvalitet. Vårt Dermabuilder serum ger en effektiv boost och glow, och är en perfekt lösning för dem som vill ge sin mogen hud den extra vård och uppmärksamhet den förtjänar.</p>',
+        content: '<p class="p200">HydraFacial-behandlingen med Dermabuilder Serum hos AcneSpecialisten är en exceptionell upplevelse för den mogna huden. Detta avancerade serum är särskilt framtaget för att djupt vitalisera och stärka huden. Med en kraftfull blandning av två aktiva peptider, arbetar serumet för att stimulera produktionen av hudens egna proteiner, vilket är avgörande för hudens elasticitet och fasthet.</p>
+        <p class="p200 mt-m">I denna behandling tränger Dermabuilder Serum in i hudens djupare lager för att effektivt bygga upp och stärka hudstrukturen inifrån. Detta bidrar till att synbart minska rynkor och fina linjer, och ger ansiktet en fastare och mer ungdomlig profil. Behandlingen är perfekt för dig som vill återställa och bevara hudens ungdomliga utstrålning och vitalitet.</p>
+        <p class="p200 mt-m">Med HydraFacial och Dermabuilder Serum får du inte bara en slätare och jämnare hud, utan också en mer motståndskraftig och välvårdad hudkvalitet. Detta serum är en idealisk lösning för att ge din mogen hud en omedelbar boost.</p>',
         image_small: 'https://via.placeholder.com/358x274.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Klassisk',
-        image_title: 'Klassisk',
+        image_alt: 'HydraFacial',
+        image_title: 'HydraFacial',
         consultation_url: 'hudkonsultation',
         consultation_url_label: 'Boka tid för hudkonsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka klassisk behandling',
-        booking_url_title: 'Boka klassisk behandling',
+        booking_url_label: 'Boka HydraFacial behandling',
+        booking_url_title: 'Boka HydraFacial behandling',
         icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
         procedures: array(
             new Procedure(
@@ -175,22 +177,22 @@ $big_types = array(
         )
     ),
     new Service(
-        title: 'Dermabrasion - Glycal Acid Peel - Mot Pormaskar',
+        title: 'HydraFacial - Glycal Acid Peel - Mot Pormaskar',
         duration: '40 min',
         price: null,
-        content: '<p class="p200">För att effektivt ta itu med problemhud som pormaskar och finnar, erbjuder vi en specialiserad hydrafacial med Glycal Acid Peel. Denna behandling är speciellt utformad för att djuprengöra huden och hantera överproduktionen av talg, vilket ofta ligger bakom dessa hudproblem.</p>
-        <p class="p200 mt-m">Vår Glycal Acid Peel kombinerar kraften av två aktiva syror för att penetrera huden på djupet. Denna intensiva peelingprocess hjälper till att lösa upp och avlägsna orenheter, vilket resulterar i en grundlig rengöring av porerna. Denna metod är effektiv för att minska uppkomsten av pormaskar och finnar, samtidigt som den bidrar till en klarare och mer balanserad hudton.</p>
-        <p class="p200 mt-m">Behandlingen är idealisk för dig som kämpar med problemhy och söker en lösning som inte bara rengör på ytan, utan även arbetar aktivt på djupet. Med Glycal Acid Peel får du en rengjord och förnyad hud, fri från de vanligaste orsakerna till problemhy.</p>',
+        content: '<p class="p200">HydraFacial-behandlingen hos AcneSpecialisten, förstärkt med Glycal Acid Peel, är skräddarsydd för att effektivt hantera hud med pormaskar och finnar. Denna specialanpassade behandling fokuserar på att djuprengöra huden och adressera överproduktionen av talg, en vanlig orsak till dessa hudtillstånd.</p>
+        <p class="p200 mt-m">Glycal Acid Peel är en kraftfull kombination av aktiva syror som tränger djupt in i hudlagren för att lösgöra och avlägsna inbyggda orenheter. Denna intensiva exfolieringsprocess renar effektivt porerna, vilket minskar synligheten av pormaskar och finnar och bidrar till en klarare och jämnare hudton.</p>
+        <p class="p200 mt-m">Denna behandling är idealisk för dig som söker en djupgående lösning på problemhy. Med vår Glycal Acid Peel får du inte bara en yttre rengöring, utan en behandling som aktivt arbetar för att rena huden på djupet. Resultatet är en ren, förnyad hud som är fri från de vanligaste orsakerna till problemhy.</p>',
         image_small: 'https://via.placeholder.com/358x274.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Klassisk',
-        image_title: 'Klassisk',
+        image_alt: 'HydraFacial',
+        image_title: 'HydraFacial',
         consultation_url: 'hudkonsultation',
         consultation_url_label: 'Boka tid för hudkonsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka klassisk behandling',
-        booking_url_title: 'Boka klassisk behandling',
+        booking_url_label: 'Boka HydraFacial behandling',
+        booking_url_title: 'Boka HydraFacial behandling',
         icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
         procedures: array(
             new Procedure(
@@ -216,31 +218,25 @@ $big_types = array(
 );
 
 $bottom_articles = array('aftercare' => new Article(
-    title: 'Eftervård för Dermabrasion',
+    title: 'Eftervård för HydraFacial',
     image_small: 'https://via.placeholder.com/358x272.webp',
     image_large: 'https://via.placeholder.com/872x456.webp',
-    image_alt: 'Eftervård för Dermabrasion',
-    image_title: 'Eftervård för Dermabrasion',
-    content: '<p class="p200">Efter din dermabrasion-behandling är det avgörande att följa rätt eftervårdsrutiner för att säkerställa och förlänga resultaten. Det är viktigt att vara extra försiktig med huden direkt efter behandlingen. Undvik direkt exponering för solen och applicera solskydd med hög SPF för att skydda den behandlade huden. Det är också klokt att avstå från att använda irriterande hudprodukter under de första 24 timmarna.</p>
-    <p class="p200 mt-m">För att främja läkning och bibehålla hudens kondition, rekommenderar vi att du återfuktar huden regelbundet med de produkter som din hudterapeut har rådgivit. Om din behandling inkluderade en kemisk peeling eller intensiv exfoliering, bör du vara försiktig och undvika att skrubba eller plocka på huden, även om du upplever några mindre orenheter. Det är även viktigt att upprätthålla en god vätskebalans genom att dricka mycket vatten och hålla en hälsosam kost för att stödja huden från insidan. Om du har några ytterligare frågor eller funderingar kring din eftervård, är du alltid välkommen att kontakta oss för skräddarsydda råd.</p>',
+    image_alt: 'Eftervård för HydraFacial',
+    image_title: 'Eftervård för HydraFacial',
+    content: '<p class="p200">Efter din HydraFacial-behandling hos AcneSpecialisten är det viktigt att noggrant följa eftervårdsinstruktioner för att bibehålla och förlänga behandlingens positiva effekter. Direkt efter behandlingen ska huden behandlas varsamt. Undvik stark sol och använd ett högkvalitativt solskydd med hög SPF för att skydda huden från UV-strålar.</p>
+    <p class="p200 mt-m">För att stödja huden i dess återhämtningsprocess, är det viktigt att regelbundet återfukta med lämpliga hudvårdsprodukter, som rekommenderats av din hudterapeut. Om din behandling inkluderade en kemisk peeling eller en djup exfoliering, bör du undvika att skrubba eller irritera huden och låta eventuella mindre orenheter läka på egen hand. Det är även viktigt att hålla en god hydrering genom att dricka tillräckligt med vatten och upprätthålla en näringsrik kost för att stödja huden inifrån. Tveka inte att kontakta oss på AcneSpecialisten för ytterligare råd eller frågor om din eftervård.</p>',
     tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
 
-$service_brands_title = 'Märken för Dermabrasion';
-$service_brands_text = '<p class="p200">Vi utför dermabrasion med HydraFacial och Micro Dermabrasion vilket är de modernaste och mest effektiva metoderna på markanden.</p>';
+$service_brands_title = 'Andra märken för Dermabrasion';
+$service_brands_text = '<p class="p200">Utöver HydraFacial jobbar vi även med Microdermabrasion.</p>';
 $service_brands = array(
 
     new Brand(
-        label: 'HydraFacial',
-        image: 'images/brands/hydrafacial.svg',
-        image_alt: 'HydraFacial',
-        image_title: 'HydraFacial'
-    ),
-    new Brand(
-        label: 'Micro Dermabrasion',
-        image: 'images/brands/micro-dermabrasion.svg',
-        image_alt: 'Micro Dermabrasion',
-        image_title: 'Micro Dermabrasion'
+        label: 'Microdermabrasion',
+        image: 'images/brands/microdermabrasion.svg',
+        image_alt: 'Microdermabrasion',
+        image_title: 'Microdermabrasion',
     ),
 );
 
@@ -336,20 +332,20 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Hur många dermabrasion-behandlingar krävs för att se resultat?',
-            text: 'Antalet dermabrasion-behandlingar som krävs varierar från person till person, beroende på hudtyp och de specifika hudproblem som ska adresseras. Oftast rekommenderas en serie av behandlingar för att uppnå önskade resultat, med regelbundna underhållsbehandlingar för att bibehålla hudens förbättrade tillstånd.'
+            title: 'Hur lång tid tar det att se resultat efter en HydraFacial?',
+            text: 'Resultaten från en HydraFacial kan ofta ses omedelbart efter behandlingen, där många upplever en mer strålande och jämn hudton. För att uppnå och upprätthålla optimala resultat rekommenderas regelbundna behandlingar anpassade efter individens hudbehov.'
         ),
         new Question(
-            title: 'Hur ofta bör jag genomgå dermabrasion?',
-            text: 'Det rekommenderas att genomgå dermabrasion regelbundet för att upprätthålla resultat. För de flesta är en behandling var fjärde till sjätte vecka idealisk, men frekvensen kan anpassas efter individuella behov och hudens respons på behandlingen.'
+            title: 'Är det säkert att göra HydraFacial regelbundet?',
+            text: 'Ja, HydraFacial är en säker och skonsam behandling som kan utföras regelbundet. Den är utformad för att vara skonsam mot huden samtidigt som den erbjuder effektiva resultat, vilket gör den till en idealisk lösning för kontinuerlig hudvård och underhåll.'
         ),
         new Question(
-            title: 'Vad kan jag förvänta mig efter en dermabrasion-behandling?',
-            text: 'Efter en dermabrasion-behandling kan du uppleva en viss rodnad och en känsla av mjukhet i huden. Det är viktigt att följa eftervårdsinstruktionerna för att främja läkning och optimera resultatet. Vid mer intensiva behandlingar kan hudens reaktion vara mer märkbar, såsom lätt svullnad eller känslighet.'
+            title: 'Kan HydraFacial hjälpa mot specifika hudproblem?',
+            text: 'Ja, HydraFacial är effektiv för en mängd olika hudproblem, inklusive torrhet, fina linjer, acne och hyperpigmentering. Behandlingen är anpassningsbar, vilket gör det möjligt att rikta in sig på specifika problemområden och hudtillstånd.'
         ),
         new Question(
-            title: 'Krävs särskild vård efter en dermabrasion-behandling?',
-            text: 'Ja, eftervård är viktig för att underhålla resultaten av en dermabrasion-behandling. Detta inkluderar användning av solskydd, undvikande av direkta solstrålar, och att hålla sig till en mild hudvårdsrutin. Undvik även att använda irriterande eller exfolierande produkter under de första dagarna efter behandlingen.'
+            title: 'Vilka är de främsta fördelarna med HydraFacial jämfört med andra hudvårdsbehandlingar?',
+            text: 'HydraFacial utmärker sig genom sin förmåga att djuprengöra, exfoliera och återfukta huden på ett skonsamt sätt. Dess unika teknik och anpassningsförmåga gör den effektiv för en rad olika hudtyper och problem, med mindre risk för irritation jämfört med mer aggressiva behandlingar.'
         ),
     )
 );

@@ -50,8 +50,8 @@ $top_articles = array(
         title: 'Förberedelse inför dermabrasion',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Förberedelse inför klassiska ansiktsbehandlingar',
-        image_title: 'Förberedelse inför klassiska ansiktsbehandlingar',
+        image_alt: 'Förberedelse inför dermabrasion',
+        image_title: 'Förberedelse inför dermabrasion',
         content: '<p class="p200">Inför din dermabrasion-behandling på AcneSpecialisten är det viktigt att förbereda huden för att maximera resultatet. Vi rekommenderar att du undviker att använda starka hudvårdsprodukter, såsom exfolierande syror, några dagar innan behandlingen. Detta för att minska risken för irritation och göra huden mer mottaglig för behandlingen.</p>
         <p class="p200 mt-m">Det är också klokt att skydda din hud från stark sol och undvika solbränna innan din session. Solbränd hud kan vara mer känslig och kan påverka resultatet av dermabrasion. Om du tar mediciner som påverkar huden, eller om du har några hudrelaterade tillstånd, informera oss gärna om detta i förväg så att vi kan anpassa behandlingen efter dina behov. Kom ihåg att det är viktigt att du känner dig trygg och bekväm, så tveka inte att ställa frågor eller uttrycka dina önskemål när du kommer till oss på AcneSpecialisten för din behandling.</p>',
         tags: array(new ArticleTag(
@@ -105,14 +105,14 @@ $big_types = array(
         <p class="p200 mt-m">Behandlingen avslutas med en återfuktande och lugnande behandling för att återställa och skydda huden. Efter dermabrasionen är det viktigt att huden får den vård den behöver för att optimera och förlänga resultaten av behandlingen. Vi erbjuder en skräddarsydd eftervårdsplan för att säkerställa att din hud får den näring och skydd den behöver.</p>',
         image_small: 'https://via.placeholder.com/358x274.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Klassisk',
-        image_title: 'Klassisk',
+        image_alt: 'Dermabrasion',
+        image_title: 'Dermabrasion',
         consultation_url: 'hudkonsultation',
         consultation_url_label: 'Boka tid för hudkonsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka klassisk behandling',
-        booking_url_title: 'Boka klassisk behandling',
+        booking_url_label: 'Boka behandling',
+        booking_url_title: 'Boka behandling',
         icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
         procedures: array(
             new Procedure(
@@ -144,14 +144,14 @@ $big_types = array(
         <p class="p200 mt-m">Resultatet är inte bara en synligt jämnare och slätare hud, utan även en förstärkt och mer motståndskraftig hudkvalitet. Vårt Dermabuilder serum ger en effektiv boost och glow, och är en perfekt lösning för dem som vill ge sin mogen hud den extra vård och uppmärksamhet den förtjänar.</p>',
         image_small: 'https://via.placeholder.com/358x274.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Klassisk',
-        image_title: 'Klassisk',
+        image_alt: 'Dermabrasion - Dermabuilder Serum - Boost & Glow',
+        image_title: 'Dermabrasion - Dermabuilder Serum - Boost & Glow',
         consultation_url: 'hudkonsultation',
         consultation_url_label: 'Boka tid för hudkonsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka klassisk behandling',
-        booking_url_title: 'Boka klassisk behandling',
+        booking_url_label: 'Boka behandling',
+        booking_url_title: 'Boka behandling',
         icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
         procedures: array(
             new Procedure(
@@ -183,14 +183,14 @@ $big_types = array(
         <p class="p200 mt-m">Behandlingen är idealisk för dig som kämpar med problemhy och söker en lösning som inte bara rengör på ytan, utan även arbetar aktivt på djupet. Med Glycal Acid Peel får du en rengjord och förnyad hud, fri från de vanligaste orsakerna till problemhy.</p>',
         image_small: 'https://via.placeholder.com/358x274.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Klassisk',
-        image_title: 'Klassisk',
+        image_alt: 'Dermabrasion - Glycal Acid Peel - Mot Pormaskar',
+        image_title: 'Dermabrasion - Glycal Acid Peel - Mot Pormaskar',
         consultation_url: 'hudkonsultation',
         consultation_url_label: 'Boka tid för hudkonsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka klassisk behandling',
-        booking_url_title: 'Boka klassisk behandling',
+        booking_url_label: 'Boka behandling',
+        booking_url_title: 'Boka behandling',
         icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
         procedures: array(
             new Procedure(
@@ -227,7 +227,7 @@ $bottom_articles = array('aftercare' => new Article(
 ));
 
 $service_brands_title = 'Märken för Dermabrasion';
-$service_brands_text = '<p class="p200">Vi utför dermabrasion med HydraFacial och Micro Dermabrasion vilket är de modernaste och mest effektiva metoderna på markanden.</p>';
+$service_brands_text = '<p class="p200">Vi utför dermabrasion med HydraFacial och Microdermabrasion vilket är de modernaste och mest effektiva metoderna på markanden.</p>';
 $service_brands = array(
 
     new Brand(
@@ -237,10 +237,10 @@ $service_brands = array(
         image_title: 'HydraFacial'
     ),
     new Brand(
-        label: 'Micro Dermabrasion',
-        image: 'images/brands/micro-dermabrasion.svg',
-        image_alt: 'Micro Dermabrasion',
-        image_title: 'Micro Dermabrasion'
+        label: 'Microdermabrasion',
+        image: 'images/brands/microdermabrasion.svg',
+        image_alt: 'Microdermabrasion',
+        image_title: 'Microdermabrasion'
     ),
 );
 
