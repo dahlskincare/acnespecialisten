@@ -3,22 +3,22 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Alma Rejuve Dye-VL: Specialiserad IPL-teknik för Hudförbättring | AcneSpecialisten';
-$seo_description = 'På AcneSpecialisten introducerar vi Alma Rejuve Dye-VL, en avancerad version av IPL-tekniken, specialdesignad för att effektivt behandla pigmentfläckar, ytliga blodkärl och rosacea. Dye-VL-tekniken använder en unik ljusvåglängd som är optimal för att selektivt rikta sig mot och behandla hudens ojämnheter, vilket leder till en betydande förbättring i hudens ton och textur för en klarare och mer enhetlig hudton.';
-$seo_keywords = 'Alma Rejuve Dye-VL, specialiserad IPL-behandling, pigmentfläckar behandling, reducera ytliga blodkärl, rosacea-behandling, Dye-VL teknik, hudförbättring, avancerad hudföryngring, jämn hudton, AcneSpecialisten';
+$seo_title = 'Laser mot Problemhy - Effektiva Resultat | AcneSpecialisten';
+$seo_description = 'AcneSpecialisten erbjuder avancerade laserbehandlingar för att effektivt hantera problemhy. Våra CO2-laserbehandlingar är speciellt designade för att behandla acneärr, ojämn hudton och textur. Upplev förbättrad hudkvalitet och reduktion av hudproblem med vår expertis inom laserterapi.';
+$seo_keywords = 'CO2-laser, laserbehandling, problemhy, acneärr, förbättrad hudton, hudtextur, avancerad hudvård, AcneSpecialisten, effektiv hudbehandling, hudförnyelse';
 
-$seo_image = 'images/treatments/large/alma-rejuve-dye-vl.jpg';
-
+$seo_image = 'images/treatments/large/laser-mot-problemhy.jpg';
 
 $model = new Service(
-    title: 'Alma Rejuve Dye-VL',
+    title: 'Laser mot problemhy',
     duration: null,
-    price: 'Från 2332 kr',
-    content: '<p class="p200">Alma Rejuve Dye-VL är den optimala lösningen för dig som önskar en jämnare hudton och vill reducera pigmenteringar, ytliga blodkärl eller lindra symtomen på rosacea. Denna avancerade IPL-teknik är skräddarsydd för att passa dina specifika hudbehov. Med sin unika Dye-VL-teknologi stimulerar Alma Rejuve effektivt hudens naturliga läkningsprocesser och bidrar till en markant förbättring av hudens övergripande kvalitet och utseende.</p>',
+    price: 'Från 4595 kr',
+    content: '<p class="p200">På AcneSpecialisten erbjuder vi fraktionerad CO2-laserbehandling, en avancerad metod för att effektivt behandla problemhy. Denna laserterapi är särskilt effektiv mot acneärr, ojämn hudton och textur, och ger märkbara förbättringar i hudkvaliteten. Med vår expertis inom laserbehandling och individuellt anpassade behandlingsplaner kan du förvänta dig konkreta resultat i din strävan efter en klarare och jämnare hud.</p>
+    <p class="p200 mt-m">Vår CO2-laserbehandling fungerar genom att försiktigt och kontrollerat skapa mikroskopiska skador i hudens övre lager, vilket stimulerar hudens naturliga läkningsprocess och främjar ny kollagenproduktion. Denna process bidrar till att minska synligheten av ärr och förbättrar hudens övergripande struktur och ton. CO2-laser är ett utmärkt alternativ för dig som söker en effektiv behandling mot problemhy utan lång återhämtningstid.</p>',
     image_small: 'https://via.placeholder.com/358x274.webp',
     image_large: 'https://via.placeholder.com/424x456.webp',
-    image_alt: 'IPL',
-    image_title: 'IPL',
+    image_alt: 'Ansiktsbehandlingar för problemhy',
+    image_title: 'Ansiktsbehandlingar för problemhy',
     consultation_url: 'https://bokadirekt.se',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
@@ -28,7 +28,7 @@ $model = new Service(
 );
 
 $nav_buttons = array(
-    'about' => 'Om Rejuve Dye-VL',
+    'about' => 'Om laser mot problemhy',
     'preparing' => 'Förberedelser',
     'process' => 'Processen',
     'types' => 'Typer',
@@ -42,19 +42,21 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Vad är Alma Rejuve Dye-VL?';
-$description_text = '<p class="p200">Alma Rejuve Dye-VL representerar en specialiserad form av IPL (Intensivt Pulserande Ljus)-teknik, utvecklad för att förbättra hudens ton och textur. Denna avancerade version av IPL använder en unik Dye-VL-teknologi, vilken är optimal för att effektivt behandla hudtillstånd genom att målinrikta melanin i pigmentfläckar och hemoglobin i blodkärl. Detta gör Dye-VL särskilt effektivt för att reducera pigmentfläckar, ytliga blodkärl och symtom på rosacea.</p>
-    <p class="p200 mt-m">Alma Rejuve Dye-VL skiljer sig från traditionella IPL-behandlingar genom sin förmåga att mer specifikt och effektivt behandla olika hudproblem. Med sin anpassningsbara teknologi kan den skräddarsys för individuella hudförhållanden, vilket ger en precis och skonsam behandling med minimala biverkningar. Patienter kan återgå till sina dagliga aktiviteter snabbt efter behandlingen. Alma Rejuve Dye-VL är idealisk för att uppnå en jämnare hudton, minska synliga hudproblem och förbättra den övergripande hudkvaliteten.</p>';
+$description_title = 'Vad är laser mot problemhy?';
+$description_text = '<p class="p200">Vår fraktionerade CO2-laserbehandling på AcneSpecialisten sträcker sig även till att effektivt behandla stora porer, ett vanligt hudproblem som många upplever. Denna avancerade lasermetod är idealisk för att förfina hudens textur och minska synligheten av förstorade porer. Genom att målinriktat behandla de drabbade områdena, arbetar lasern för att stimulera hudens naturliga förnyelseprocess och därigenom förbättra hudens struktur.</p>
+<p class="p200 mt-m">Genom att exfoliera det yttre hudlagret och stimulera kollagenproduktionen under huden, bidrar behandlingen till att dra åt och minimera storleken på porerna. Detta leder inte bara till en synlig förbättring av porernas utseende utan även till en övergripande jämnare och klarare hudton. Vår fraktionerade CO2-laser är således en utmärkt behandlingsmetod för dig som vill uppnå en förfinad hudtextur och en minskning av stora porer, samtidigt som du behandlar andra hudproblem som ärrbildning, rynkor och fina linjer.</p>
+<p class="p200 mt-m">Oavsett dina hudproblem, vårt mål på AcneSpecialisten är att erbjuda effektiva och skräddarsydda behandlingar som förbättrar din hudkvalitet och ger dig en mer ungdomlig och fräsch utstrålning.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelser inför Rejuve Dye-VL',
+        title: 'Förberedelser inför laser mot problemhy',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Förberedelser inför Rejuve Dye-VL',
-        image_title: 'Förberedelser inför Rejuve Dye-VL',
-        content: '<p class="p200">Förberedelserna inför en Rejuve Dye-VL-behandling är avgörande för att din hud ska vara i optimalt skick för behandlingen. Det första steget är en konsultation med en erfaren hudterapeut, där din hudtyp och specifika behov noggrant analyseras. Här skapas en personligt anpassad behandlingsplan med Dye-VL-tekniken för att säkerställa bästa möjliga resultat.</p>
-        <p class="p200 mt-m">För att förbereda din hud, bör du undvika solning och användning av självbrunande produkter minst två veckor innan behandlingen. Detta minskar risken för pigmentförändringar eftersom Dye-VL-behandlingen kräver att huden är i sin mest naturliga ton för effektivt riktad behandling av pigment och blodkärl. Undvik även hudvårdsprodukter som innehåller kraftiga exfolierande ingredienser veckan före din behandling. Din hudterapeut kommer att ge dig detaljerade instruktioner om ytterligare förberedelser och råd om hur du tar hand om din hud både före och efter din Rejuve Dye-VL-session, för att garantera en säker behandling och effektiv läkningsprocess.</p>',
+        image_alt: 'Förberedelser inför laser mot problemhy',
+        image_title: 'Förberedelser inför laser mot problemhy',
+        content: '<p class="p200">Inför din laserbehandling mot problemhy på AcneSpecialisten, är det viktigt att noggrant förbereda huden. Detta inkluderar att undvika solbränna och att inte exponera huden för stark sol under veckorna före behandlingen, då solbränd hud kan vara mer känslig och detta kan påverka behandlingens effektivitet och säkerhet.</p>
+        <p class="p200 mt-m">Det är också rekommenderat att undvika hudvårdsprodukter med starka ingredienser som retinol eller exfolierande syror minst en vecka före din behandling. Dessa produkter kan göra huden mer känslig och öka risken för irritation under och efter behandlingen. Vi erbjuder en personlig konsultation för att gå igenom alla förberedelser och svara på eventuella frågor du kan ha. Under konsultationen kommer vi att diskutera din hudhistorik och eventuella mediciner som kan påverka huden och behandlingen.</p>
+        <p class="p200 mt-m">Din säkerhet och komfort är vår prioritet, och därför är det viktigt att du informerar oss om alla hudrelaterade tillstånd eller bekymmer inför behandlingen. Vi ser till att anpassa varje behandling efter dina unika behov och ser fram emot att hjälpa dig uppnå dina hudvårds mål med vår laserbehandling.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -70,14 +72,14 @@ $top_articles = array(
         ))
     ),
     'process' => new Article(
-        title: 'Hur går en Rejuve Dye-VL behandling till?',
+        title: 'Hur går laser mot problemhy till?',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Hur går en Rejuve Dye-VL behandling till?',
-        image_title: 'Hur går en Rejuve Dye-VL behandling till?',
-        content: '<p class="p200">Rejuve Dye-VL-behandling är en framstående metod för att förbättra hudens utseende, speciellt anpassad för att korrigera problem som pigmentfläckar, ytliga blodkärl och rosacea. När du anländer till vår klinik börjar vi med att rengöra din hud grundligt för att avlägsna alla spår av makeup och orenheter. Ett speciellt skydd placeras över dina ögon för att skydda dem från det intensiva ljuset under behandlingen.</p>
-        <p class="p200 mt-m">Vår Rejuve Dye-VL-enhet justeras sedan noggrant för att matcha ljuspulsernas intensitet och våglängd med ditt unika hudtillstånd och de specifika områdena som ska behandlas. Behandlingen involverar korta, intensiva ljuspulser som tränger in i huden. Dessa pulser är precist riktade för att behandla pigmentfläckar och blodkärl, där ljusenergin omvandlas till värme för att effektivt bryta ner det oönskade pigmentet eller minska blodkärlen, utan att skada omgivande hud.</p>
-        <p class="p200 mt-m">Efter behandlingen är det normalt att känna en lätt rodnad och uppleva en värmande känsla i huden, liknande en mild solbränna. Dessa symptom är övergående och avtar vanligtvis snabbt. Resultaten från en Rejuve Dye-VL-behandling utvecklas gradvis. Du kan förvänta dig att se en kontinuerlig förbättring av din hud, med minskade ojämnheter, en jämnare hudton och förbättrad övergripande hudkvalitet. Efter behandlingen ger din hudterapeut dig skräddarsydda råd för eftervård för att maximera resultatet och främja snabb läkning.</p>',
+        image_alt: 'Hur går laser mot problemhy till?',
+        image_title: 'Hur går laser mot problemhy till?',
+        content: '<p class="p200">När du kommer till AcneSpecialisten för en laserbehandling mot problemhy, startar vi med en noggrann rengöring av ditt behandlingsområde. Detta är en viktig del i processen för att säkerställa att huden är fri från smuts och oljor, vilket gör behandlingen mer effektiv.</p>
+        <p class="p200 mt-m">Vår fraktionerade CO2-laserbehandling involverar användning av avancerad laser-teknologi för att rikta in sig på djupet av huden. Lasern skapar mikroskopiska "zoner" av skada i huden, vilket stimulerar hudens naturliga läkningsprocess och främjar kollagen- och elastinproduktion. Denna process hjälper till att minska synligheten av ärr, inklusive acneärr, operationsärr, och bristningar. Den är även effektiv för att behandla rynkor och fina linjer, samt utföra huduppfräschning och hudresurfacing.</p>
+        <p class="p200 mt-m">Under behandlingen kan du känna en värmande känsla, men vi använder kylsystem och bedövningsmedel för att göra upplevelsen så bekväm som möjligt. Efter behandlingen kan det uppstå rodnad och svullnad, vilket är en normal reaktion och en del av läkningsprocessen. Vi ger dig noggranna instruktioner för eftervård för att säkerställa en snabb och smidig läkningsprocess. Resultaten från behandlingen utvecklas över tid, när huden gradvis förnyas och förbättras från insidan.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -94,81 +96,199 @@ $top_articles = array(
     ),
 );
 
-$types_title = 'Hudtillstånd behandlade med Rejuve Dye-VL';
-$types_description = 'Alma Rejuve Dye-VL erbjuder en högspecialiserad form av IPL (Intensivt Pulserande Ljus)-behandling, anpassad för att effektivt hantera en mängd olika hudproblem. Upptäck vilka hudtillstånd som kan förbättras och behandlas framgångsrikt med vår avancerade Dye-VL-teknologi.';
+$types_title = 'Hudproblem som behandlas med laser';
+$types_description = '<p class="p200">Vår laserbehandling är effektiv för en rad olika hudproblem, tack vare dess förmåga att stimulera hudens egen läkningsprocess och kollagenproduktion. Nedan listar vi de hudproblem som vi effektivt behandlar med vår lasermetod.</p>';
 $types = array(
     new Service(
-        title: 'Rejuve Dye-VL behandling för Rosacea',
-        duration: '30 minuter',
-        price: '1995 kr',
-        content: 'Utnyttja kraften i Rejuve Dye-VL för att effektivt behandla rosacea. Denna specialiserade IPL-metod fokuserar på att mildra rodnad och andra symtom associerade med rosacea, för att skapa en jämnare hudton och förbättra hudens kvalitet.',
+        title: 'Laserbehandling för Acneärr',
+        duration: '90 minuter',
+        price: '4595 kr',
+        content: 'Vår laserbehandling är särskilt effektiv för att minska synligheten av acneärr. Genom att använda fraktionerad CO2-laser stimuleras hudens naturliga läkningsprocess, vilket bidrar till en jämnare hudstruktur och minskning av ärr.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Rejuve Dye-VL behandling för Rosacea',
-        image_title: 'Rejuve Dye-VL behandling för Rosacea',
-        consultation_url: 'konsultation-rosacea',
-        consultation_url_label: 'Boka konsultation för Rejuve Dye-VL behandling av rosacea',
-        consultation_url_title: 'Boka konsultation för Rejuve Dye-VL behandling av rosacea',
+        image_alt: 'Laserbehandling för Acneärr',
+        image_title: 'Laserbehandling för Acneärr',
+        consultation_url: 'konsultation-acnearr',
+        consultation_url_label: 'Boka gratis konsultation',
+        consultation_url_title: 'Boka gratis konsultation',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka Rejuve Dye-VL behandling för rosacea',
-        booking_url_title: 'Boka Rejuve Dye-VL behandling för rosacea',
+        booking_url_label: 'Boka laserbehandling',
+        booking_url_title: 'Boka laserbehandling',
     ),
 
     new Service(
-        title: 'Rejuve Dye-VL behandling för Ytliga Blodkärl',
-        duration: '30 minuter',
-        price: '1995 kr',
-        content: 'Rejuve Dye-VL erbjuder en skonsam och effektiv lösning för att minska synligheten av ytliga blodkärl. Denna behandling är idealisk för att selektivt målriktad och behandla drabbade områden, vilket resulterar i en klarare och jämnare hudton.',
+        title: 'Laserbehandling för Rynkor och Fina Linjer',
+        duration: '90 minuter',
+        price: '4595 kr',
+        content: 'Denna laserbehandling syftar till att föryngra huden genom att minska uppkomsten av rynkor och fina linjer. Med hjälp av fraktionerad CO2-laser stimuleras kollagenproduktionen, vilket resulterar i en fastare och mer ungdomlig hud.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Rejuve Dye-VL behandling för Ytliga Blodkärl',
-        image_title: 'Rejuve Dye-VL behandling för Ytliga Blodkärl',
-        consultation_url: 'konsultation-ytliga-blodkarl',
-        consultation_url_label: 'Boka konsultation för Rejuve Dye-VL behandling av ytliga blodkärl',
-        consultation_url_title: 'Boka konsultation för Rejuve Dye-VL behandling av ytliga blodkärl',
+        image_alt: 'Laserbehandling för Rynkor och Fina Linjer',
+        image_title: 'Laserbehandling för Rynkor och Fina Linjer',
+        consultation_url: 'konsultation-rynkor-fina-linjer',
+        consultation_url_label: 'Boka gratis konsultation',
+        consultation_url_title: 'Boka gratis konsultation',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka Rejuve Dye-VL behandling för ytliga blodkärl',
-        booking_url_title: 'Boka Rejuve Dye-VL behandling för ytliga blodkärl',
+        booking_url_label: 'Boka laserbehandling',
+        booking_url_title: 'Boka laserbehandling',
     ),
 
     new Service(
-        title: 'Rejuve Dye-VL behandling för Pigmentfläckar',
-        duration: '30 minuter',
-        price: '1995 kr',
-        content: 'Använd fördelarna med Rejuve Dye-VL för att effektivt minska och ljusa upp pigmentfläckar. Denna metod är idealisk för att målriktat behandla mörka fläckar och ojämnheter i hudtonen, vilket ger en jämnare och strålande hud.',
+        title: 'Laserbehandling för Bristningar',
+        duration: '90 minuter',
+        price: '4595 kr',
+        content: 'Vår laserbehandling erbjuder en effektiv lösning för att reducera synligheten av bristningar. Genom att använda fraktionerad CO2-laser, behandlas de berörda områdena för att främja hudens naturliga läkningsprocess och förbättra hudens textur.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Rejuve Dye-VL behandling för Pigmentfläckar',
-        image_title: 'Rejuve Dye-VL behandling för Pigmentfläckar',
+        image_alt: 'Laserbehandling för Bristningar',
+        image_title: 'Laserbehandling för Bristningar',
+        consultation_url: 'konsultation-bristningar',
+        consultation_url_label: 'Boka gratis konsultation',
+        consultation_url_title: 'Boka gratis konsultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka laserbehandling',
+        booking_url_title: 'Boka laserbehandling',
+    ),
+
+    new Service(
+        title: 'Laserbehandling för Ärr (Skade- och Operationsärr)',
+        duration: '30 minuter',
+        price: '2995 kr',
+        content: 'Denna laserbehandling är speciellt anpassad för att minska synligheten av skade- och operationsärr. Genom att använda avancerad CO2-laser stimuleras hudens förnyelseprocess för att mjuka upp och släta ut ärrvävnad.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Laserbehandling för Ärr',
+        image_title: 'Laserbehandling för Ärr',
+        consultation_url: 'konsultation-arr',
+        consultation_url_label: 'Boka gratis konsultation',
+        consultation_url_title: 'Boka gratis konsultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka laserbehandling',
+        booking_url_title: 'Boka laserbehandling',
+    ),
+
+    new Service(
+        title: 'Laserbehandling för Pigmentfläckar',
+        duration: '50 minuter',
+        price: '2595 kr',
+        content: 'Vår laserbehandling riktar sig mot pigmentfläckar och ojämn hudton. Med fraktionerad CO2-laser behandlas områden med hyperpigmentering för att jämna ut hudtonen och återställa en naturlig lyster i huden.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Laserbehandling för Pigmentfläckar',
+        image_title: 'Laserbehandling för Pigmentfläckar',
         consultation_url: 'konsultation-pigmentflackar',
-        consultation_url_label: 'Boka konsultation för Rejuve Dye-VL behandling av pigmentfläckar',
-        consultation_url_title: 'Boka konsultation för Rejuve Dye-VL behandling av pigmentfläckar',
+        consultation_url_label: 'Boka gratis konsultation',
+        consultation_url_title: 'Boka gratis konsultation',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka Rejuve Dye-VL behandling för pigmentfläckar',
-        booking_url_title: 'Boka Rejuve Dye-VL behandling för pigmentfläckar',
+        booking_url_label: 'Boka laserbehandling',
+        booking_url_title: 'Boka laserbehandling',
     ),
 
     new Service(
-        title: 'Rejuve Dye-VL behandling för Melasma',
-        duration: '30 minuter',
-        price: '1995 kr',
-        content: 'Med Rejuve Dye-VL kan du effektivt behandla melasma. Denna teknik hjälper till att ljusa upp och jämna ut hudtonen genom att selektivt rikta in sig på hyperpigmenterade områden, vilket bidrar till en märkbar förbättring av hudens utseende.',
+        title: 'Laserbehandling för Melasma',
+        duration: '50 minuter',
+        price: '2595 kr',
+        content: 'Vår laserbehandling mot melasma använder CO2-laser för att effektivt ljusa upp och behandla mörka fläckar orsakade av melasma, vilket leder till en mer jämn och klar hudton.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Rejuve Dye-VL behandling för Melasma',
-        image_title: 'Rejuve Dye-VL behandling för Melasma',
+        image_alt: 'Laserbehandling för Melasma',
+        image_title: 'Laserbehandling för Melasma',
         consultation_url: 'konsultation-melasma',
-        consultation_url_label: 'Boka konsultation för Rejuve Dye-VL behandling av melasma',
-        consultation_url_title: 'Boka konsultation för Rejuve Dye-VL behandling av melasma',
+        consultation_url_label: 'Boka gratis konsultation',
+        consultation_url_title: 'Boka gratis konsultation',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka Rejuve Dye-VL behandling för melasma',
-        booking_url_title: 'Boka Rejuve Dye-VL behandling för melasma',
+        booking_url_label: 'Boka laserbehandling',
+        booking_url_title: 'Boka laserbehandling',
     ),
 
+    new Service(
+        title: 'Laserbehandling för Ytliga Blodkärl',
+        duration: '50 minuter',
+        price: '2595 kr',
+        content: 'Effektiv behandling av ytliga blodkärl med vår fraktionerad CO2-laser. Denna metod fokuserar på att minska synligheten av ytliga blodkärl och förbättra hudens övergripande utseende.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Laserbehandling för Ytliga Blodkärl',
+        image_title: 'Laserbehandling för Ytliga Blodkärl',
+        consultation_url: 'konsultation-ytliga-blodkarl',
+        consultation_url_label: 'Boka gratis konsultation',
+        consultation_url_title: 'Boka gratis konsultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka laserbehandling',
+        booking_url_title: 'Boka laserbehandling',
+    ),
+
+    new Service(
+        title: 'Laserbehandling för Rosacea',
+        duration: '50 minuter',
+        price: '2595 kr',
+        content: 'Avancerad laserbehandling som effektivt reducerar symtomen av rosacea. Fraktionerad CO2-laser används för att lugna huden och minska rodnad och inflammation associerad med detta tillstånd.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Laserbehandling för Rosacea',
+        image_title: 'Laserbehandling för Rosacea',
+        consultation_url: 'konsultation-rosacea',
+        consultation_url_label: 'Boka gratis konsultation',
+        consultation_url_title: 'Boka gratis konsultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka laserbehandling',
+        booking_url_title: 'Boka laserbehandling',
+    ),
+
+    new Service(
+        title: 'Laserbehandling för Aktiv Acne',
+        duration: '50 minuter',
+        price: '2595 kr',
+        content: 'Vår laserbehandling för aktiv acne använder fraktionerad CO2-laser för att effektivt behandla acneutbrott. Denna metod riktar sig mot bakterier som orsakar acne och minskar inflammation, vilket leder till en minskning av acne och förhindrar nya utbrott.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Laserbehandling för Aktiv Acne',
+        image_title: 'Laserbehandling för Aktiv Acne',
+        consultation_url: 'konsultation-aktiv-acne',
+        consultation_url_label: 'Boka gratis konsultation',
+        consultation_url_title: 'Boka gratis konsultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka laserbehandling',
+        booking_url_title: 'Boka laserbehandling',
+    ),
+
+    new Service(
+        title: 'Laserbehandling för Stora Porer',
+        duration: '50 minuter',
+        price: '2595 kr',
+        content: 'Denna behandling är inriktad på att förminska och förbättra utseendet av stora porer. Genom att använda fraktionerad CO2-laser stimuleras huden för att dra ihop porerna, vilket resulterar i en mer jämn och förfinad hudtextur.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Laserbehandling för Stora Porer',
+        image_title: 'Laserbehandling för Stora Porer',
+        consultation_url: 'konsultation-stora-porer',
+        consultation_url_label: 'Boka gratis konsultation',
+        consultation_url_title: 'Boka gratis konsultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka laserbehandling',
+        booking_url_title: 'Boka laserbehandling',
+    ),
+
+    new Service(
+        title: 'Laserbehandling för Hudutväxter',
+        duration: '50 minuter',
+        price: '2595 kr',
+        content: 'Fraktionerad CO2-laserbehandling för säker och effektiv borttagning av hudutväxter. Denna metod ger en skonsam behandling som minimerar risken för ärrbildning och ger ett slätt, jämnt resultat.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Laserbehandling för Hudutväxter',
+        image_title: 'Laserbehandling för Hudutväxter',
+        consultation_url: 'konsultation-hudutvaxter',
+        consultation_url_label: 'Boka gratis konsultation',
+        consultation_url_title: 'Boka gratis konsultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka laserbehandling',
+        booking_url_title: 'Boka laserbehandling',
+    ),
 );
 
-$treatment_areas_title = 'Behandlingsområden för Rejuve Dye-VL';
-$treatment_areas_text = '<p class="p200">Rejuve Dye-VL, en avancerad form av IPL (Intensivt Pulserande Ljus), erbjuder mångsidig behandling för olika områden på kroppen. Denna specialiserade teknik är särskilt effektiv för ansikte, hals, händer och bröst, där den kan målriktat behandla hudproblem som pigmentfläckar, ytliga blodkärl och ojämn hudton.</p>';
+$treatment_areas_title = 'Behandlingsområden för Laser';
+$treatment_areas_text = '<p class="p200">Vår laserbehandling är anpassningsbar för en rad olika områden, vilket gör den idealisk för att adressera specifika hudproblem på olika delar av kroppen. Vi använder fraktionerad CO2-laser för att behandla hudområden som ansikte, hals, dekolletage, rygg och händer, samt specifika ansiktsområden som panna, näsa, kinder, överläpp och haka. Denna teknik möjliggör precisionsbehandling för att förbättra hudens kvalitet och utseende, oavsett område.</p>';
 $treatment_areas = array(
     new TreatmentArea(
         image_small: 'https://via.placeholder.com/361x274.webm',
@@ -176,74 +296,75 @@ $treatment_areas = array(
         image_alt: 'Ansikte',
         image_title: 'Ansikte',
         title: 'Ansikte',
-        description: '<p class="p200">Rejuve Dye-VL kan utföras i hela ansiktet eller på utvalda zoner.</p>',
+        description: '<p class="p200">Vi behandlar både hela och delar av ansiktet med laser.</p>',
         items: array(
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: 'https://via.placeholder.com/94x72.webp',
                 image_alt: 'Ansikte',
                 image_title: 'Ansikte',
-                title: 'Rejuve Dye-VL för Ansikte',
-                duration: '50 min',
-                price: '2595 kr',
+                title: 'Ansikte',
+                duration: '90 min',
+                price: '4595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för Rejuve Dye-VL-behandling av ansiktet'
+                url_title: 'Boka tid för ansiktsbehandling'
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/94x72.webp',
                 image_alt: 'Panna',
                 image_title: 'Panna',
-                title: 'Rejuve Dye-VL för Panna',
-                duration: '30 min',
+                title: 'Panna',
+                duration: '20 min',
                 price: '1595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för Rejuve Dye-VL-behandling av pannan'
+                url_title: 'Boka tid för behandling i pannan'
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/94x72.webp',
                 image_alt: 'Näsa',
                 image_title: 'Näsa',
-                title: 'Rejuve Dye-VL för Näsa',
-                duration: '30 min',
+                title: 'Näsa',
+                duration: '20 min',
                 price: '1595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för Rejuve Dye-VL-behandling av näsan'
+                url_title: 'Boka tid för näsbehandling'
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/94x72.webp',
                 image_alt: 'Kinder',
                 image_title: 'Kinder',
-                title: 'Rejuve Dye-VL för Kinder',
-                duration: '30 min',
+                title: 'Kinder',
+                duration: '20 min',
                 price: '1595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för Rejuve Dye-VL-behandling av kinderna'
+                url_title: 'Boka tid för kindbehandling'
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/94x72.webp',
                 image_alt: 'Överläpp',
                 image_title: 'Överläpp',
-                title: 'Rejuve Dye-VL för Överläpp',
-                duration: '30 min',
+                title: 'Överläpp',
+                duration: '20 min',
                 price: '1595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för Rejuve Dye-VL-behandling av överläppen'
+                url_title: 'Boka tid för överläppsbehandling'
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/94x72.webp',
                 image_alt: 'Haka',
                 image_title: 'Haka',
-                title: 'Rejuve Dye-VL för Haka',
-                duration: '30 min',
+                title: 'Haka',
+                duration: '20 min',
                 price: '1595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för Rejuve Dye-VL-behandling av hakan'
+                url_title: 'Boka tid för hakbehandling'
             ),
+
         )
     ),
     new TreatmentArea(
@@ -252,40 +373,51 @@ $treatment_areas = array(
         image_alt: 'Kropp',
         image_title: 'Kropp',
         title: 'Kropp',
-        description: '<p class="p200">Rejuve Dye-VL kan behandla flera olika delar av kroppen.</p>',
+        description: '<p class="p200">Vi behandlar flera olika delar av kroppen.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webp',
                 image_alt: 'Hals',
                 image_title: 'Hals',
-                title: 'Rejuve Dye-VL för Hals',
-                duration: '30 min',
-                price: '1895 kr',
+                title: 'Hals',
+                duration: '90 min',
+                price: '4595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för Rejuve Dye-VL-behandling av halsen'
+                url_title: 'Boka tid för halsbehandling'
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webp',
                 image_alt: 'Dekolletage',
                 image_title: 'Dekolletage',
-                title: 'Rejuve Dye-VL för Dekolletage',
-                duration: '40 min',
-                price: '2295 kr',
+                title: 'Dekolletage',
+                duration: '90 min',
+                price: '4595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för Rejuve Dye-VL-behandling av dekolletaget'
+                url_title: 'Boka tid för dekolletagebehandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: 'Rygg',
+                image_title: 'Rygg',
+                title: 'Rygg',
+                duration: '90 min',
+                price: '4595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för ryggbehandling'
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webp',
                 image_alt: 'Händer',
                 image_title: 'Händer',
-                title: 'Rejuve Dye-VL för Händer',
-                duration: '30 min',
-                price: '1895 kr',
+                title: 'Händer',
+                duration: '90 min',
+                price: '4595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
-                url_title: 'Boka tid för Rejuve Dye-VL-behandling av händerna'
+                url_title: 'Boka tid för handbehandling'
             ),
         )
     ),
@@ -295,37 +427,15 @@ $treatment_areas = array(
         image_alt: 'Kombinera områden',
         image_title: 'Kombinera områden',
         title: 'Kombinera områden',
-        description: '<p class="p200">Behandlingen fungerar även utmärkt om du vill kombinera flera olika områden.</p>',
+        description: '<p class="p200">Kombinera flera områden för bättre effekt..</p>',
         items: array(
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
-                image_alt: '1x zon',
-                image_title: '1x zon',
-                title: '1x zon',
-                duration: '20 min',
-                price: '1595 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling av 1 zon.'
-            ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
-                image_alt: '2x zoner',
-                image_title: '2x zoner',
-                title: '2x zoner',
-                duration: '30 min',
-                price: '1995 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling av 2x zoner.'
-            ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webp',
                 image_alt: '1x område',
                 image_title: '1x område',
                 title: '1x område',
-                duration: '50 min',
-                price: '2595 kr',
+                duration: '90 min',
+                price: '4595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 1 område.'
@@ -335,8 +445,8 @@ $treatment_areas = array(
                 image_alt: '2x områden',
                 image_title: '2x områden',
                 title: '2x områden',
-                duration: '60 min',
-                price: '3595 kr',
+                duration: '90 min',
+                price: '5595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 2 områden.'
@@ -346,8 +456,8 @@ $treatment_areas = array(
                 image_alt: '3x områden',
                 image_title: '3x områden',
                 title: '3x områden',
-                duration: '70 min',
-                price: '4595 kr',
+                duration: '90 min',
+                price: '6595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 3 områden.'
@@ -357,21 +467,33 @@ $treatment_areas = array(
 );
 
 $bottom_articles = array('aftercare' => new Article(
-    title: 'Efter behandling med Rejuve Dye-VL',
+    title: 'Eftervård för laserbehandling',
     image_small: 'https://via.placeholder.com/358x272.webp',
     image_large: 'https://via.placeholder.com/872x456.webp',
-    image_alt: 'Efter behandling med Rejuve Dye-VL',
-    image_title: 'Efter behandling med Rejuve Dye-VL',
-    content: '<p class="p200">Eftervården är en viktig del av processen efter en Rejuve Dye-VL-behandling för att uppnå optimala resultat och en smidig läkningsprocess. Det är vanligt att uppleva en viss rodnad och svullnad i det behandlade området direkt efter sessionen. För att minimera risken för irritation och infektioner är det viktigt att inte röra området med smutsiga händer och att undvika att applicera makeup eller parfymerade produkter under de första 24 timmarna.</p>
-    <p class="p200 mt-m">Under de första dagarna efter din Alma Rejuve Dye-VL-behandling är det rekommenderat att undvika intensiva fysiska aktiviteter, bastu och långa varma duschar, eftersom dessa kan öka svullnad och irritation. Regelbunden användning av solskydd med hög SPF är essentiellt för att skydda huden mot UV-strålning, särskilt på de behandlade områdena. Vi råder också att använda milda och återfuktande hudvårdsprodukter utan starka ingredienser för att främja läkningsprocessen och bibehålla hudens fuktbalans.</p>
-    <p class="p200 mt-m">Det är viktigt att du följer de specifika eftervårdsinstruktionerna som ges av din behandlare noggrant. Om du har några frågor eller oro kring din eftervård, tveka inte att kontakta kliniken. Ytterligare behandlingar kan rekommenderas baserat på din huds respons för att uppnå och bibehålla de bästa resultaten från din behandling med Alma Rejuve Dye-VL.</p>',
+    image_alt: 'Eftervård för laserbehandling',
+    image_title: 'Eftervård för laserbehandling',
+    content: '<p class="p200">Eftervård är en avgörande del av din laserbehandlingsprocess för att säkerställa bästa möjliga resultat och snabb återhämtning. Omedelbart efter din laserbehandling kan du uppleva rodnad och viss svullnad i det behandlade området, vilket är normalt. Det är viktigt att inte röra området med orena händer och att undvika att applicera makeup under de första 24 timmarna för att förhindra irritation och infektioner.</p>
+    <p class="p200 mt-m">Under återhämtningsperioden, undvik intensiv fysisk aktivitet, heta duschar och bastu, då detta kan förvärra svullnad och rodnad. Användning av hög SPF-solskydd är avgörande för att skydda den känsliga huden från solskador. Välj milda, återfuktande hudvårdsprodukter utan parfym eller irriterande ämnen för att hjälpa till med läkningsprocessen och bevara hudens fuktighet.</p>
+    <p class="p200 mt-m">Följ de specifika eftervårdsinstruktionerna som ges av din hudterapeut noggrant. Om du har några frågor eller funderingar efter din behandling, tveka inte att kontakta din klinik för råd. Regelbundna uppföljningar och ytterligare behandlingar kan rekommenderas baserat på din hudtyp och de mål du har för din hudvård.</p>',
     tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
 
-$service_brands_title = 'Andra märken för IPL';
-$service_brands_text = '<p class="p200">Utöver Rejuve DyeVL använder vi även Alma Harmony XL och Photonova som är de bästa maskinerna på marknaden för IPL.</p>';
+$service_brands_title = 'Märken för laser mot problemhy';
+$service_brands_text = '<p class="p200">Vi har ett stort utbud av lasermaskiner för att kunna välja rätt metod för just dina behov.</p>';
 $service_brands = array(
 
+    new Brand(
+        label: 'Alma Hybrid',
+        image: 'images/brands/alma-hybrid.svg',
+        image_alt: 'Alma HybridL',
+        image_title: 'Alma Hybrid',
+    ),
+    new Brand(
+        label: 'Alma Rejuve DyeVL',
+        image: 'images/brands/alma-rejuve-dyevl.svg',
+        image_alt: 'Alma Rejuve DyeVL',
+        image_title: 'Alma Rejuve DyeVL',
+    ),
     new Brand(
         label: 'Alma Harmony XL',
         image: 'images/brands/alma-harmony-xl.svg',
@@ -478,16 +600,20 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Hur många behandlingar med Rejuve Dye-VL krävs vanligtvis?',
-            text: 'Antalet behandlingar med Rejuve Dye-VL som behövs varierar beroende på individens unika hudtillstånd och de önskade målen. Vanligtvis kan det krävas mellan 3-8 sessioner med cirka 4 veckors mellanrum för att uppnå bästa möjliga resultat. En skräddarsydd behandlingsplan utformas under din initiala konsultation, anpassad efter dina specifika hudbehov.'
+            title: 'Hur många laserbehandlingar mot problemhy krävs?',
+            text: 'Antalet laserbehandlingar för problemhy varierar beroende på individens specifika hudtillstånd och mål. Ofta rekommenderas en serie av 3-5 behandlingar med några veckors mellanrum. En individuell behandlingsplan och rekommendationer kommer att ges under en konsultation.'
         ),
         new Question(
-            title: 'Kan hudproblem återkomma efter en Rejuve Dye-VL-behandling?',
-            text: 'Även om Rejuve Dye-VL är effektiv för att behandla befintliga hudproblem som pigmentfläckar, ytliga blodkärl och rosacea, kan nya problem uppstå på grund av externa faktorer såsom åldrande och solskador. Regelbunden hudvård och solskydd är avgörande för att underhålla resultaten. Ytterligare Rejuve Dye-VL-behandlingar kan rekommenderas för att bevara effekterna över tid.'
+            title: 'Är resultaten från laserbehandling mot problemhy bestående?',
+            text: 'Laserbehandlingar kan ge långsiktiga förbättringar, men det är viktigt att komma ihåg att hudens åldrande och yttre faktorer kan påverka hållbarheten av resultaten. En kontinuerlig hudvårdsrutin och eventuellt periodiska uppföljningsbehandlingar kan behövas för att bibehålla effekterna.'
         ),
         new Question(
-            title: 'Hur snabbt ser jag resultat efter en Rejuve Dye-VL-behandling?',
-            text: 'Resultaten från en Rejuve Dye-VL-behandling varierar mellan individer. Många ser en förbättring efter den första behandlingen, men de mest påtagliga resultaten framträder ofta efter en fullständig serie av behandlingar. Förbättringar i hudens utseende och kvalitet fortsätter vanligtvis att utvecklas både under behandlingsförloppet och efter avslutade sessioner.'
+            title: 'Vad kan jag förvänta mig direkt efter en laserbehandling mot problemhy?',
+            text: 'Efter en laserbehandling mot problemhy kan du uppleva viss rodnad, svullnad eller känslighet i det behandlade området. Dessa reaktioner är normala och bör avta inom några dagar. Det är viktigt att följa eftervårdsinstruktionerna och skydda huden mot solen.'
+        ),
+        new Question(
+            title: 'Behöver jag speciell eftervård efter en laserbehandling mot problemhy?',
+            text: 'Eftervård är viktig för att upprätthålla resultaten av din laserbehandling. Det innefattar användning av solskydd, undvikande av direkt solstrålning och användning av milda hudvårdsprodukter. Din hudterapeut kommer att ge dig specifika råd baserade på din behandling och hudtyp.'
         ),
     )
 );
