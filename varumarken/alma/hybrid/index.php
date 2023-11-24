@@ -377,16 +377,16 @@ $types = array(
     ),
 );
 
-$treatment_areas_title = 'Behandlingsområden för Laser';
-$treatment_areas_text = '<p class="p200">Vår laserbehandling är anpassningsbar för en rad olika områden, vilket gör den idealisk för att adressera specifika hudproblem på olika delar av kroppen. Vi använder fraktionerad CO2-laser för att behandla hudområden som ansikte, hals, dekolletage, rygg och händer, samt specifika ansiktsområden som panna, näsa, kinder, överläpp och haka. Denna teknik möjliggör precisionsbehandling för att förbättra hudens kvalitet och utseende, oavsett område.</p>';
+$treatment_areas_title = 'Behandlingsområden med Alma Hybrid';
+$treatment_areas_text = '<p class="p200">Alma Hybrid är en mångsidig laserbehandling som är effektiv för att behandla en rad olika hudområden. Vi använder denna avancerade teknik för att behandla specifika områden såsom ansikte, hals, dekolletage, rygg och händer.</p>';
 $treatment_areas = array(
     new TreatmentArea(
         image_small: 'https://via.placeholder.com/361x274.webm',
         image_large: 'https://via.placeholder.com/872x456.webm',
-        image_alt: 'Ansikte',
-        image_title: 'Ansikte',
-        title: 'Ansikte',
-        description: '<p class="p200">Vi behandlar både hela och delar av ansiktet med laser.</p>',
+        image_alt: 'Ansikte & Kropp',
+        image_title: 'Ansikte & Kropp',
+        title: 'Ansikte & Kropp',
+        description: '<p class="p200">Vi behandlar flera områden på kroppen..</p>',
         items: array(
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/94x72.webp',
@@ -399,72 +399,6 @@ $treatment_areas = array(
                 url_label: 'Boka',
                 url_title: 'Boka tid för ansiktsbehandling'
             ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webp',
-                image_alt: 'Panna',
-                image_title: 'Panna',
-                title: 'Panna',
-                duration: '20 min',
-                price: '1595 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling i pannan'
-            ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webp',
-                image_alt: 'Näsa',
-                image_title: 'Näsa',
-                title: 'Näsa',
-                duration: '20 min',
-                price: '1595 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för näsbehandling'
-            ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webp',
-                image_alt: 'Kinder',
-                image_title: 'Kinder',
-                title: 'Kinder',
-                duration: '20 min',
-                price: '1595 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för kindbehandling'
-            ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webp',
-                image_alt: 'Överläpp',
-                image_title: 'Överläpp',
-                title: 'Överläpp',
-                duration: '20 min',
-                price: '1595 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för överläppsbehandling'
-            ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webp',
-                image_alt: 'Haka',
-                image_title: 'Haka',
-                title: 'Haka',
-                duration: '20 min',
-                price: '1595 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för hakbehandling'
-            ),
-
-        )
-    ),
-    new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
-        image_alt: 'Kropp',
-        image_title: 'Kropp',
-        title: 'Kropp',
-        description: '<p class="p200">Vi behandlar flera olika delar av kroppen.</p>',
-        items: array(
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webp',
                 image_alt: 'Hals',
@@ -509,6 +443,7 @@ $treatment_areas = array(
                 url_label: 'Boka',
                 url_title: 'Boka tid för handbehandling'
             ),
+
         )
     ),
     new TreatmentArea(
@@ -517,7 +452,7 @@ $treatment_areas = array(
         image_alt: 'Kombinera områden',
         image_title: 'Kombinera områden',
         title: 'Kombinera områden',
-        description: '<p class="p200">Kombinera flera områden för bättre effekt..</p>',
+        description: '<p class="p200">Kombinera flera områden för bättre effekt.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webp',
