@@ -30,7 +30,8 @@ $where = "flow.url = '" . mysqli_real_escape_string($conn, $_GET['id']) . "'";
 
 // Get flow steps
 $query = "
-    SELECT flow.id, flow.name_$language AS name,
+    SELECT flow.id, flow.name_$language AS name, flow.boosted_title_$language AS boosted_title, 
+    flow.boosted_subtitle_$language AS boosted_subtitle, flow.boosted_description_$language AS boosted_description, flow.boosted_image,
     step1.id AS step1_id, step2.id AS step2_id, step3.id AS step3_id, step4.id AS step4_id,
     step1.title_$language AS step1_title, step2.title_$language AS step2_title, step3.title_$language AS step3_title, step4.title_$language AS step4_title,
     step1.consultation_banner AS step1_consultation_banner, step2.consultation_banner AS step2_consultation_banner, step3.consultation_banner AS step3_consultation_banner, step4.consultation_banner AS step4_consultation_banner,
@@ -89,9 +90,25 @@ foreach ($result as $row) {
     $funnels[] = $row;
 }
 
+
+if (isset($rs['boosted_image']) && isset($rs['boosted_title']) && isset($rs['boosted_subtitle']) && isset($rs['boosted_description'])) {
+    $boost = array(
+        'title' => $rs['boosted_title'],
+        'subtitle' => $rs['boosted_subtitle'],
+        'description' => $rs['boosted_description'],
+        'image' => $rs['boosted_image']
+    );
+} else {
+    $boost = null;
+}
+
+
+
+
 echo json_encode(array(
     'id' => $rs['id'],
     'name' => $rs['name'],
     'steps' => $steps,
-    'funnels' => $funnels
+    'funnels' => $funnels,
+    'boost' => $boost,
 ), JSON_UNESCAPED_SLASHES | JSON_NUMERIC_CHECK | JSON_UNESCAPED_UNICODE);
