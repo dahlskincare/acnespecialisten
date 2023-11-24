@@ -619,20 +619,20 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Hur många laserbehandlingar mot problemhy krävs?',
-            text: 'Antalet laserbehandlingar för problemhy varierar beroende på individens specifika hudtillstånd och mål. Ofta rekommenderas en serie av 3-5 behandlingar med några veckors mellanrum. En individuell behandlingsplan och rekommendationer kommer att ges under en konsultation.'
+            title: 'Hur många Alma Hybrid-behandlingar behövs för bästa resultat?',
+            text: 'Antalet Alma Hybrid-behandlingar varierar beroende på dina specifika hudproblem och önskade resultat. Vanligtvis rekommenderas en serie av 3-5 behandlingar med intervaller på några veckor. En skräddarsydd behandlingsplan kommer att utformas under din konsultation för att möta dina unika behov.'
         ),
         new Question(
-            title: 'Är resultaten från laserbehandling mot problemhy bestående?',
-            text: 'Laserbehandlingar kan ge långsiktiga förbättringar, men det är viktigt att komma ihåg att hudens åldrande och yttre faktorer kan påverka hållbarheten av resultaten. En kontinuerlig hudvårdsrutin och eventuellt periodiska uppföljningsbehandlingar kan behövas för att bibehålla effekterna.'
+            title: 'Hur långvariga är effekterna av Alma Hybrid-behandlingar?',
+            text: 'Effekterna från Alma Hybrid-behandlingar kan vara långvariga, men det är viktigt att notera att yttre faktorer som solens strålar och hudens naturliga åldrande kan påverka resultaten över tid. Regelbundna underhållsbehandlingar och en noggrann hudvårdsrutin kan hjälpa till att bevara de positiva resultaten.'
         ),
         new Question(
-            title: 'Vad kan jag förvänta mig direkt efter en laserbehandling mot problemhy?',
-            text: 'Efter en laserbehandling mot problemhy kan du uppleva viss rodnad, svullnad eller känslighet i det behandlade området. Dessa reaktioner är normala och bör avta inom några dagar. Det är viktigt att följa eftervårdsinstruktionerna och skydda huden mot solen.'
+            title: 'Vad kan jag förvänta mig efter en Alma Hybrid-behandling?',
+            text: 'Efter en Alma Hybrid-behandling kan du förvänta dig en viss rodnad, svullnad och känslighet i det behandlade området. Dessa är vanliga reaktioner och brukar avta inom några dagar. Följ eftervårdsinstruktionerna noggrant och skydda huden väl mot solen för att stödja läkningsprocessen.'
         ),
         new Question(
-            title: 'Behöver jag speciell eftervård efter en laserbehandling mot problemhy?',
-            text: 'Eftervård är viktig för att upprätthålla resultaten av din laserbehandling. Det innefattar användning av solskydd, undvikande av direkt solstrålning och användning av milda hudvårdsprodukter. Din hudterapeut kommer att ge dig specifika råd baserade på din behandling och hudtyp.'
+            title: 'Krävs det särskild eftervård efter Alma Hybrid-behandling?',
+            text: 'Efter en Alma Hybrid-behandling är det viktigt med korrekt eftervård för att maximera resultatet. Detta inkluderar användning av solskydd, undvikande av direkt solljus och användning av mjuka, återfuktande hudvårdsprodukter. Din hudterapeut kommer att ge dig skräddarsydda råd för din hudtyp och behandling.'
         ),
     )
 );
