@@ -73,7 +73,9 @@ for ($i = 1; $i < 5; $i++) {
 
 $query = "
     SELECT 
-    fun.name_$language AS name, fun.option1_id, fun.option2_id, fun.option3_id, fun.option4_id, fun.duration, fun.url_sodermalm, fun.url_sundbyberg, fun.url_ostermalm
+    fun.name_$language AS name, fun.option1_id, fun.option2_id, fun.option3_id, fun.option4_id, fun.duration, 
+    fun.url_sodermalm, fun.url_sundbyberg, fun.url_ostermalm, 
+    fun.boost_url_sodermalm, fun.boost_url_sundbyberg, fun.boost_url_ostermalm
     FROM t_funnel fun    
     WHERE fun.flow_id = '" . $rs['id'] . "'
     ORDER BY fun.id ASC LIMIT 99999";
