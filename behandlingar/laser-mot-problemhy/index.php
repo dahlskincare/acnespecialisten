@@ -485,7 +485,7 @@ $service_brands = array(
     new Brand(
         label: 'Alma Hybrid',
         image: 'images/brands/alma-hybrid.svg',
-        image_alt: 'Alma HybridL',
+        image_alt: 'Alma Hybrid',
         image_title: 'Alma Hybrid',
     ),
     new Brand(
