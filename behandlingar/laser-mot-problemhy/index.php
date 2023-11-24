@@ -285,23 +285,6 @@ $types = array(
         booking_url_label: 'Boka laserbehandling för hudutväxter',
         booking_url_title: 'Boka laserbehandling för hudutväxter',
     ),
-
-    new Service(
-        title: 'Laser Hårborttagning',
-        duration: 'Varierar beroende på område',
-        price: 'Pris varierar beroende på område',
-        content: 'Effektiv och långvarig hårborttagning med fraktionerad CO2-laser. Denna metod erbjuder en snabb och säker lösning för att minska oönskad hårväxt på olika delar av kroppen.',
-        image_small: 'https://via.placeholder.com/102x102.jpg',
-        image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Laser Hårborttagning',
-        image_title: 'Laser Hårborttagning',
-        consultation_url: 'konsultation-harborttagning',
-        consultation_url_label: 'Boka konsultation för laser hårborttagning',
-        consultation_url_title: 'Boka konsultation för laser hårborttagning',
-        booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka laser hårborttagning',
-        booking_url_title: 'Boka laser hårborttagning',
-    ),
 );
 
 $treatment_areas_title = 'Behandlingsområden för Laser';
