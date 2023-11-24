@@ -97,11 +97,134 @@ $top_articles = array(
     ),
 );
 
+$types_title = 'Alma Hybrid signaturbehadnlingar';
+$types_description = 'Här hittar du Alma Hybrids signaturbehandlingar som presenterar de 3 egenskaper lasermaskinen är mest effektiv inom. Dessa är reducering av olika typer av ärr, att ge huden en effektiv hudförnyelse samt en mildare huduppfräschning med minimal återhämtningstid.';
+$big_types = array(
+    new Service(
+        title: 'Hybrid oScar - Behandling av ärr',
+        duration: '90 min',
+        price: null,
+        content: '<p class="p200">På AcneSpecialisten erbjuder vi OScar-behandlingen, en specialiserad metod för att effektivt behandla olika typer av ärr, inklusive acneärr, trauma- och kirurgiska ärr. Denna avancerade behandling utnyttjar den senaste tekniken genom att kombinera CO2 och 1570nm laservåglängder för att nå optimal penetration i hudens dermisskikt.</p>
+        <p class="p200 mt-m">Behandlingsprocessen för OScar anpassas noggrant för att passa varje unik klient och ärrtyp. Genom att justera penetrationsdjup, koagulationsbredd och densitet kan vi skräddarsy behandlingen för att uppnå bästa möjliga resultat. Denna precisa metod stimulerar hudens naturliga läkningsprocess och kollagenproduktion, vilket är avgörande för att minska synligheten och djupet av ärrbildningar.</p>
+        <p class="p200 mt-m">Efter laserbehandlingen kompletterar vi med Impact-serum för att ytterligare förbättra behandlingens effektivitet. Impact hjälper till att säkerställa att serumet når de djupare hudlagren, vilket bidrar till en förbättrad läkning och förnyelse av huden. OScar-behandlingen är en idealisk lösning för dig som söker en omfattande och effektiv lösning för att dramatiskt minska synligheten av ärr och förbättra hudens övergripande utseende och textur.</p>',
+        image_small: 'https://via.placeholder.com/358x274.webp',
+        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_alt: 'Hybrid oScar',
+        image_title: 'Hybrid oScar',
+        consultation_url: 'hudkonsultation',
+        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka Hybrid oScar',
+        booking_url_title: 'Boka Hybrid oScar',
+        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
+        procedures: array(
+            new Procedure(
+                label: '1 behandling',
+                price: '4595 kr',
+                savings: null,
+                booking_url: 'https://www.bokadirekt.se'
+            ),
+            new Procedure(
+                label: '3 behandlingar',
+                price: '10995 kr',
+                savings: 'Spara 2790 kr',
+                booking_url: 'https://www.bokadirekt.se'
+            ),
+            new Procedure(
+                label: '5 behandlingar',
+                price: '15995 kr',
+                savings: 'Spara 6980 kr',
+                booking_url: 'https://www.bokadirekt.se'
+            )
+        )
+    ),
+    new Service(
+        title: 'HybridLift - Hudresurfacing (Over-the-weekend behandling)',
+        duration: '90 min',
+        price: null,
+        content: '<p class="p200">På AcneSpecialisten introducerar vi HybridLift, en banbrytande hudresurfacingbehandling som kombinerar ablativa och termiska lasermetoder med avancerad produktleverans för att skapa enastående resultat med minimal återhämtningstid. HybridLift är idealisk för dig som söker en effektiv lösning för att snabbt förbättra hudens utseende över en helg.</p>
+        <p class="p200 mt-m">Denna unika behandling utnyttjar en kombination av CO2- och 1570nm-lasrar. Det specialutformade scanningsmönstret skapar en hudsammandragande effekt som effektivt minskar fina linjer och djupare rynkor, samtidigt som det skalar bort solpigmenteringar. Denna process stimulerar hudens egen förnyelse och hjälper till att ge en mer ungdomlig och jämn hudton.</p>
+        <p class="p200 mt-m">Efter laserbehandlingen applicerar vi Impact-ultraljudsteknik för att förbättra penetrationen av hudvårdande produkter djupt in i huden. Denna metod säkerställer att aktiva ingredienser når de nivåer där de är mest effektiva, vilket ytterligare förbättrar hudens textur och lyster. HybridLift är den ultimata over-the-weekend behandlingen för dig som önskar synliga förbättringar på kort tid och med minimal återhämtning.</p>',
+        image_small: 'https://via.placeholder.com/358x274.webp',
+        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_alt: 'HybridLift',
+        image_title: 'HybridLift',
+        consultation_url: 'hudkonsultation',
+        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka HybridLift',
+        booking_url_title: 'Boka HybridLift',
+        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
+        procedures: array(
+            new Procedure(
+                label: '1 behandling',
+                price: '4595 kr',
+                savings: null,
+                booking_url: 'https://www.bokadirekt.se'
+            ),
+            new Procedure(
+                label: '3 behandlingar',
+                price: '10995 kr',
+                savings: 'Spara 2790 kr',
+                booking_url: 'https://www.bokadirekt.se'
+            ),
+            new Procedure(
+                label: '5 behandlingar',
+                price: '15995 kr',
+                savings: 'Spara 6980 kr',
+                booking_url: 'https://www.bokadirekt.se'
+            )
+        )
+    ),
+    new Service(
+        title: 'SoftLift - huduppfräschning (Lunch-time behandling)',
+        duration: '60 min',
+        price: null,
+        content: '<p class="p200">AcneSpecialisten presenterar nu SoftLift, en innovativ huduppfräschande behandling utformad för att ge synliga resultat med minimal återhämtningstid. SoftLift är perfekt för dig som önskar en snabb och effektiv förbättring av din hudton, minskning av fina linjer och rynkor, samt reparation av hudskador inklusive akneärr, allt under en lunchrast.</p>
+        <p class="p200 mt-m">Denna skonsamma men kraftfulla behandling använder en icke-ablativ 1570nm-laser som skapar en betydande termisk effekt. Den främjar neokollagenes och regenererar den extracellulära matrisen som stöder hudcellerna, vilket bidrar till en mer ungdomlig och strålande hud. Samtidigt lämnas epidermis intakt, vilket minimerar återhämtningstiden.</p>
+        <p class="p200 mt-m">SoftLift är en idealisk behandling för de som vill ha snabba resultat utan att behöva ta ledigt från vardagsaktiviteter. Behandlingen är särskilt effektiv för att förbättra hudtonen och strukturen, strama upp huden och återställa dess ungdomliga utseende. Med SoftLift uppnår du en jämnare och fräschare hud snabbt och enkelt, vilket gör den till det perfekta valet för en snabb och effektiv huduppfräschning.</p>',
+        image_small: 'https://via.placeholder.com/358x274.webp',
+        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_alt: 'SoftLift',
+        image_title: 'SoftLift',
+        consultation_url: 'hudkonsultation',
+        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka SoftLift',
+        booking_url_title: 'Boka SoftLift',
+        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
+        procedures: array(
+            new Procedure(
+                label: '1 behandling',
+                price: '3595 kr',
+                savings: null,
+                booking_url: 'https://www.bokadirekt.se'
+            ),
+            new Procedure(
+                label: '3 behandlingar',
+                price: '8995 kr',
+                savings: 'Spara 1790 kr',
+                booking_url: 'https://www.bokadirekt.se'
+            ),
+            new Procedure(
+                label: '5 behandlingar',
+                price: '12995 kr',
+                savings: 'Spara 4980 kr',
+                booking_url: 'https://www.bokadirekt.se'
+            )
+        )
+    ),
+
+);
+
 $types_title = 'Hudproblem som behandlas med Alma Hybrid';
-$types_description = '<p class="p200">Vår laserbehandling är effektiv för en rad olika hudproblem, tack vare dess förmåga att stimulera hudens egen läkningsprocess och kollagenproduktion. Nedan listar vi de hudproblem som vi effektivt behandlar med vår lasermetod.</p>';
+$types_description = '<p class="p200">På AcneSpecialisten använder vi Alma Hybrid för att effektivt behandla en rad olika hudproblem.</p>';
 $types = array(
     new Service(
-        title: 'Laserbehandling för Acneärr',
+        title: 'Alma Hybrid mot Acneärr',
         duration: '90 minuter',
         price: '4595 kr',
         content: 'Vår laserbehandling är särskilt effektiv för att minska synligheten av acneärr. Genom att använda fraktionerad CO2-laser stimuleras hudens naturliga läkningsprocess, vilket bidrar till en jämnare hudstruktur och minskning av ärr.',
@@ -170,8 +293,8 @@ $types = array(
 
     new Service(
         title: 'Laserbehandling för Pigmentfläckar',
-        duration: '50 minuter',
-        price: '2595 kr',
+        duration: '950 minuter',
+        price: '4595 kr',
         content: 'Vår laserbehandling riktar sig mot pigmentfläckar och ojämn hudton. Med fraktionerad CO2-laser behandlas områden med hyperpigmentering för att jämna ut hudtonen och återställa en naturlig lyster i huden.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
@@ -186,60 +309,9 @@ $types = array(
     ),
 
     new Service(
-        title: 'Laserbehandling för Melasma',
-        duration: '50 minuter',
-        price: '2595 kr',
-        content: 'Vår laserbehandling mot melasma använder CO2-laser för att effektivt ljusa upp och behandla mörka fläckar orsakade av melasma, vilket leder till en mer jämn och klar hudton.',
-        image_small: 'https://via.placeholder.com/102x102.jpg',
-        image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Laserbehandling för Melasma',
-        image_title: 'Laserbehandling för Melasma',
-        consultation_url: 'konsultation-melasma',
-        consultation_url_label: 'Boka gratis konsultation',
-        consultation_url_title: 'Boka gratis konsultation',
-        booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka laserbehandling',
-        booking_url_title: 'Boka laserbehandling',
-    ),
-
-    new Service(
-        title: 'Laserbehandling för Ytliga Blodkärl',
-        duration: '50 minuter',
-        price: '2595 kr',
-        content: 'Effektiv behandling av ytliga blodkärl med vår fraktionerad CO2-laser. Denna metod fokuserar på att minska synligheten av ytliga blodkärl och förbättra hudens övergripande utseende.',
-        image_small: 'https://via.placeholder.com/102x102.jpg',
-        image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Laserbehandling för Ytliga Blodkärl',
-        image_title: 'Laserbehandling för Ytliga Blodkärl',
-        consultation_url: 'konsultation-ytliga-blodkarl',
-        consultation_url_label: 'Boka gratis konsultation',
-        consultation_url_title: 'Boka gratis konsultation',
-        booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka laserbehandling',
-        booking_url_title: 'Boka laserbehandling',
-    ),
-
-    new Service(
-        title: 'Laserbehandling för Rosacea',
-        duration: '50 minuter',
-        price: '2595 kr',
-        content: 'Avancerad laserbehandling som effektivt reducerar symtomen av rosacea. Fraktionerad CO2-laser används för att lugna huden och minska rodnad och inflammation associerad med detta tillstånd.',
-        image_small: 'https://via.placeholder.com/102x102.jpg',
-        image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Laserbehandling för Rosacea',
-        image_title: 'Laserbehandling för Rosacea',
-        consultation_url: 'konsultation-rosacea',
-        consultation_url_label: 'Boka gratis konsultation',
-        consultation_url_title: 'Boka gratis konsultation',
-        booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka laserbehandling',
-        booking_url_title: 'Boka laserbehandling',
-    ),
-
-    new Service(
         title: 'Laserbehandling för Aktiv Acne',
-        duration: '50 minuter',
-        price: '2595 kr',
+        duration: '60 minuter',
+        price: '3595 kr',
         content: 'Vår laserbehandling för aktiv acne använder fraktionerad CO2-laser för att effektivt behandla acneutbrott. Denna metod riktar sig mot bakterier som orsakar acne och minskar inflammation, vilket leder till en minskning av acne och förhindrar nya utbrott.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
@@ -255,8 +327,8 @@ $types = array(
 
     new Service(
         title: 'Laserbehandling för Stora Porer',
-        duration: '50 minuter',
-        price: '2595 kr',
+        duration: '60 minuter',
+        price: '3595 kr',
         content: 'Denna behandling är inriktad på att förminska och förbättra utseendet av stora porer. Genom att använda fraktionerad CO2-laser stimuleras huden för att dra ihop porerna, vilket resulterar i en mer jämn och förfinad hudtextur.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
@@ -272,9 +344,26 @@ $types = array(
 
     new Service(
         title: 'Laserbehandling för Hudutväxter',
-        duration: '50 minuter',
-        price: '2595 kr',
+        duration: '30 minuter',
+        price: '1595 kr',
         content: 'Fraktionerad CO2-laserbehandling för säker och effektiv borttagning av hudutväxter. Denna metod ger en skonsam behandling som minimerar risken för ärrbildning och ger ett slätt, jämnt resultat.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Laserbehandling för Hudutväxter',
+        image_title: 'Laserbehandling för Hudutväxter',
+        consultation_url: 'konsultation-hudutvaxter',
+        consultation_url_label: 'Boka gratis konsultation',
+        consultation_url_title: 'Boka gratis konsultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka laserbehandling',
+        booking_url_title: 'Boka laserbehandling',
+    ),
+
+    new Service(
+        title: 'Laserbehandling för Hudförynrging (Skin Rejuvenation)',
+        duration: '90 minuter',
+        price: '4595 kr',
+        content: 'Förnyar och fräschar upp huden med hjälp av freaktionerad laser.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
         image_alt: 'Laserbehandling för Hudutväxter',

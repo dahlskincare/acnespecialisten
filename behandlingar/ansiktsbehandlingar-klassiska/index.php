@@ -128,8 +128,8 @@ $big_types = array(
             ),
             new Procedure(
                 label: '5 behandlingar',
-                savings: '2595 kr',
-                price: '799 kr per besök',
+                price: '2595 kr',
+                savings: '799 kr per besök',
                 booking_url: 'https://www.bokadirekt.se'
             )
         )
