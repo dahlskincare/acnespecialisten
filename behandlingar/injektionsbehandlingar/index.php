@@ -3,19 +3,19 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Klassiska Ansiktsbehandlingar - Professionell Hudvård | AcneSpecialisten';
-$seo_description = 'Upptäck AcneSpecialistens klassiska ansiktsbehandlingar för optimal hudvård. Med vår expertis ger vi din hud den bästa omvårdnaden den förtjänar. Professionella behandlingar och rådgivning endast ett steg bort.';
-$seo_keywords = 'klassiska ansiktsbehandlingar, hudvård, förebyggande hudvård, professionell hudvård, hudförbättring, återfuktning, hudrengöring, AcneSpecialisten';
+$seo_title = 'Injektionsbehandlingar för Hudförbättring | AcneSpecialisten';
+$seo_description = 'Utforska AcneSpecialistens injektionsbehandlingar för att uppnå en ungdomligare och fräschare hud. Våra erfarna utövare använder avancerade tekniker för att försiktigt behandla linjer, rynkor och återställa hudens volym, med resultat som ser naturliga ut.';
+$seo_keywords = 'injektionsbehandlingar, hudföryngring, rynkreducering, volymåterställning, professionell hudvård, ansiktskonturering, AcneSpecialisten, estetiska behandlingar';
 
-
-$seo_image = 'images/treatments/large/ansiktsbehandlingar-klassiska.jpg';
+$seo_image = 'images/treatments/large/injektionsbehandlingar.jpg';
 
 
 $model = new Service(
-    title: 'Klassiska ansiktsbehandlingar',
+    title: 'Injektionsbehandlingar',
     duration: null,
-    price: 'Från 799 kr',
-    content: '<p class="p200">Hos oss på AcneSpecialisten erbjuder vi ett brett utbud av klassiska ansiktsbehandlingar anpassade för varje individs unika behov. Oavsett om du befinner dig på Östermalm, Södermalm eller i Sundbyberg, kan du välja den behandling som bäst matchar din hudtyp och dina önskemål. Vare sig du är ute efter att ge din mogen hy lite extra omsorg, vill återfukta huden eller bara vill unna dig själv en stunds lyx – vi har något för alla.</p>',
+    price: 'Från 2595 kr',
+    content: '<p class="p200">På AcneSpecialisten erbjuder vi specialiserade injektionsbehandlingar för att förbättra hudens utseende och textur. Dessa behandlingar är utformade för att försiktigt minska synliga linjer och rynkor samt återställa hudens volym och konturer. Våra erfarna hudterapeuter arbetar noggrant för att skapa naturliga och estetiskt tilltalande resultat.</p>
+    <p class="p200 mt-m">Våra injektionsbehandlingar är idealiska för dig som vill uppnå en mer ungdomlig look eller förbättra specifika områden i ansiktet, såsom kinder, läppar eller panna. Vi tar oss tid att förstå dina specifika behov och önskemål, och erbjuder skräddarsydda behandlingsplaner för att uppnå bästa möjliga resultat. Oavsett om du är ute efter att ge din hy en uppfräschning eller vill hantera specifika åldersrelaterade förändringar, är våra injektionsbehandlingar en effektiv lösning för att förbättra din hudhälsa och ditt utseende.</p>',
     image_small: 'https://via.placeholder.com/358x274.webp',
     image_large: 'https://via.placeholder.com/424x456.webp',
     image_alt: 'Ansiktsbehandlingar för problemhy',
@@ -29,7 +29,7 @@ $model = new Service(
 );
 
 $nav_buttons = array(
-    'about' => 'Om ansiktsbehandlingar mot problemhy',
+    'about' => 'Om injektionsbehandlingar',
     'preparing' => 'Förberedelser',
     'process' => 'Processen',
     'types' => 'Typer',
