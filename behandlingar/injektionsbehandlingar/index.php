@@ -43,17 +43,18 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Vad är klassiska ansiktsbehandlingar?';
-$description_text = '<p class="p200">Klassiska ansiktsbehandlingar är en grundsten inom hudvård och erbjuder en upplevelse av avkoppling samtidigt som huden får den vård den behöver. Behandlingarna går ut på att rengöra, återfukta, balansera och revitalisera huden, samt att hantera specifika hudproblem.</p>
-<p class="p200 mt-m">Hos oss på AcneSpecialisten kan du välja mellan flera typer av klassiska ansiktsbehandlingar. Vi erbjuder allt från den traditionella Klassisk ansiktsbehandling till Antistress, där fokus ligger på avslappning. Hudterapeutens val anpassas helt efter dina behov, medan Peel, Boost & Glow siktar på att ge huden en extra boost. För den som vill ha det lilla extra erbjuder vi Lyx behandlingen. Oavsett vilken behandling du väljer, är vårt mål att ge din hud den bästa möjliga omsorgen.</p>';
+$description_title = 'Vad är Injektionsbehandlingar?';
+$description_text = '<p class="p200">Injektionsbehandlingar på AcneSpecialisten innefattar icke-kirurgiska metoder för att förbättra hudens utseende och struktur. Dessa behandlingar involverar användning av speciella preparat som injiceras i huden för att minska synliga linjer, rynkor och för att återställa eller förbättra hudens volym och konturer.</p>
+<p class="p200 mt-m">Vår metod fokuserar på att skapa en naturlig och förfinad estetik, anpassad efter varje klients unika ansiktsdrag och behov. Vi använder en rad tekniker för att behandla områden som kinder, läppar, panna och andra delar av ansiktet där tecken på åldrande eller volymförlust kan vara synliga. Varje behandling är skräddarsydd för att uppnå de mest naturliga och tillfredsställande resultaten.</p>
+<p class="p200 mt-m">Våra injektionsbehandlingar erbjuder en säker och effektiv lösning för de som önskar en omedelbar förbättring av hudens utseende utan behov av kirurgiska ingrepp. Med vårt team av erfarna hudterapeuter och användning av högkvalitativa produkter, strävar vi efter att ge dig en förbättrad hudhälsa och förnyat självförtroende.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelse inför klassiska ansiktsbehandlingar',
+        title: 'Förberedelse inför injektionsbehandlingar',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Förberedelse inför klassiska ansiktsbehandlingar',
-        image_title: 'Förberedelse inför klassiska ansiktsbehandlingar',
+        image_alt: 'Förberedelse inför injektionsbehandlingar',
+        image_title: 'Förberedelse inför injektionsbehandlingar',
         content: '<p class="p200">Hos AcneSpecialisten är vårt främsta mål att du ska känna dig bekväm och väl omhändertagen. Om du vill kan du vidta vissa förberedande åtgärder innan din ansiktsbehandling, såsom att undvika starka hudprodukter eller direkt solljus. Men det är viktigt att betona att du alltid kan komma precis som du är. Vi förstår att varje individ är unik, och vi anpassar varje behandling efter dina specifika behov och önskemål.</p>
         <p class="p200 mt-m">Om du har några specifika bekymmer eller frågor inför din behandling, tveka inte att meddela oss. Vår prioritet är din komfort och att leverera den bästa möjliga behandlingen för dig. Välkommen till en avslappnande och förnyande upplevelse hos oss på AcneSpecialisten!</p>',
         tags: array(new ArticleTag(
