@@ -261,6 +261,316 @@ $big_types = array(
 
 );
 
+$treatment_areas_title = 'Behandlingsområden för Injektionsbehandlingar';
+$treatment_areas_text = '<p class="p200">Vi behandlar både specifika problem och områden effektivt.</p>';
+$treatment_areas = array(
+    new TreatmentArea(
+        image_small: 'https://via.placeholder.com/361x274.webm',
+        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_alt: 'Problem',
+        image_title: 'Problem',
+        title: 'Problem',
+        description: '<p class="p200">Här hittar du alla våra behandlingar för specifika problem.</p>',
+        items: array(
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webp',
+                image_alt: 'Gabella (Arga rynkan)',
+                image_title: 'Gabella (Arga rynkan)',
+                title: 'Gabella (Arga rynkan)',
+                duration: '30 min',
+                price: '2595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för glabella'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webp',
+                image_alt: 'Bekymmersrynka',
+                image_title: 'Bekymmersrynka',
+                title: 'Bekymmersrynka',
+                duration: '30 min',
+                price: '2595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för bekymmersrynka'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webp',
+                image_alt: 'Pannrynkor',
+                image_title: 'Pannrynkor',
+                title: 'Pannrynkor',
+                duration: '30 min',
+                price: '2595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för pannrynkor'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webp',
+                image_alt: 'Kråksparkar',
+                image_title: 'Kråksparkar',
+                title: 'Kråksparkar',
+                duration: '30 min',
+                price: '2595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för kråksparkar'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webp',
+                image_alt: 'Skrattrynkor',
+                image_title: 'Skrattrynkor',
+                title: 'Skrattrynkor',
+                duration: '30 min',
+                price: '2595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för skrattrynkor'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webp',
+                image_alt: 'Sura Mungipor',
+                image_title: 'Sura Mungipor',
+                title: 'Sura Mungipor',
+                duration: '30 min',
+                price: '2595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för sura mungipor'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webp',
+                image_alt: 'Resting Bitch Face',
+                image_title: 'Resting Bitch Face',
+                title: 'Resting Bitch Face',
+                duration: '30 min',
+                price: '2595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för Resting Bitch Face'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webp',
+                image_alt: 'DAO',
+                image_title: 'DAO',
+                title: 'DAO',
+                duration: '30 min',
+                price: '2595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för DAO'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webp',
+                image_alt: 'Bunnylines',
+                image_title: 'Bunnylines',
+                title: 'Bunnylines',
+                duration: '30 min',
+                price: '2595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för Bunnylines'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webp',
+                image_alt: 'Näsrynkor',
+                image_title: 'Näsrynkor',
+                title: 'Näsrynkor',
+                duration: '30 min',
+                price: '2595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för näsrynkor'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webp',
+                image_alt: 'Ögonbrynslyft',
+                image_title: 'Ögonbrynslyft',
+                title: 'Ögonbrynslyft',
+                duration: '30 min',
+                price: '2595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för ögonbrynslyft'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webp',
+                image_alt: 'Lipflip',
+                image_title: 'Lipflip',
+                title: 'Lipflip',
+                duration: '30 min',
+                price: '2595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för lipflip'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webp',
+                image_alt: 'Läpplyft',
+                image_title: 'Läpplyft',
+                title: 'Läpplyft',
+                duration: '30 min',
+                price: '2595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för läpplyft'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webp',
+                image_alt: 'Läpprynkor',
+                image_title: 'Läpprynkor',
+                title: 'Läpprynkor',
+                duration: '30 min',
+                price: '2595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för läpprynkor'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webp',
+                image_alt: 'Rökrynkor',
+                image_title: 'Rökrynkor',
+                title: 'Rökrynkor',
+                duration: '30 min',
+                price: '2595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för rökrynkor'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webp',
+                image_alt: 'Munrynkor',
+                image_title: 'Munrynkor',
+                title: 'Munrynkor',
+                duration: '30 min',
+                price: '2595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för munrynkor'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webp',
+                image_alt: 'Apelsinhaka',
+                image_title: 'Apelsinhaka',
+                title: 'Apelsinhaka',
+                duration: '30 min',
+                price: '2595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för apelsinhaka'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webp',
+                image_alt: 'Gummy Smile',
+                image_title: 'Gummy Smile',
+                title: 'Gummy Smile',
+                duration: '30 min',
+                price: '2595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för Gummy Smile'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/94x72.webp',
+                image_alt: 'Tandköttsvisning',
+                image_title: 'Tandköttsvisning',
+                title: 'Tandköttsvisning',
+                duration: '30 min',
+                price: '2595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för tandköttsvisning'
+            ),
+        )
+    ),
+    new TreatmentArea(
+        image_small: 'https://via.placeholder.com/361x274.webm',
+        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_alt: 'Kropp',
+        image_title: 'Kropp',
+        title: 'Kropp',
+        description: '<p class="p200">Med microneedling kan vi behandla flera olika delar av kroppen.</p>',
+        items: array(
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: 'Hals',
+                image_title: 'Hals',
+                title: 'Hals',
+                duration: '50 min',
+                price: '2595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för halsbehandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: 'Dekolletage',
+                image_title: 'Dekolletage',
+                title: 'Dekolletage',
+                duration: '50 min',
+                price: '2595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för dekolletagebehandling'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: 'Rygg',
+                image_title: 'Rygg',
+                title: 'Rygg',
+                duration: '50 min',
+                price: '2595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för ryggbehandling'
+            ),
+        )
+    ),
+    new TreatmentArea(
+        image_small: 'https://via.placeholder.com/361x274.webm',
+        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_alt: 'Kombinera områden',
+        image_title: 'Kombinera områden',
+        title: 'Kombinera områden',
+        description: '<p class="p200">Behandlingen fungerar även utmärkt om du vill kombinera flera olika områden.</p>',
+        items: array(
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: '1x område',
+                image_title: '1x område',
+                title: '1x område',
+                duration: '50 min',
+                price: '2595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling av 1 område.'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: '2x områden',
+                image_title: '2x områden',
+                title: '2x områden',
+                duration: '70 min',
+                price: '3595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling av 2 områden.'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: '3x områden',
+                image_title: '3x områden',
+                title: '3x områden',
+                duration: '90 min',
+                price: '4595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling av 3 områden.'
+            ),
+        )
+    ),
+);
+
 $bottom_articles = array('aftercare' => new Article(
     title: 'Eftervård och underhåll',
     image_small: 'https://via.placeholder.com/358x272.webp',
