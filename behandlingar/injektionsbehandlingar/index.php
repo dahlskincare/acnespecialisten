@@ -55,9 +55,10 @@ $top_articles = array(
         image_large: 'https://via.placeholder.com/872x456.webp',
         image_alt: 'Förberedelse inför injektionsbehandlingar',
         image_title: 'Förberedelse inför injektionsbehandlingar',
-        content: '<p class="p200">Hos AcneSpecialisten är vårt främsta mål att du ska känna dig bekväm och väl omhändertagen. Om du vill kan du vidta vissa förberedande åtgärder innan din ansiktsbehandling, såsom att undvika starka hudprodukter eller direkt solljus. Men det är viktigt att betona att du alltid kan komma precis som du är. Vi förstår att varje individ är unik, och vi anpassar varje behandling efter dina specifika behov och önskemål.</p>
-        <p class="p200 mt-m">Om du har några specifika bekymmer eller frågor inför din behandling, tveka inte att meddela oss. Vår prioritet är din komfort och att leverera den bästa möjliga behandlingen för dig. Välkommen till en avslappnande och förnyande upplevelse hos oss på AcneSpecialisten!</p>',
-        tags: array(new ArticleTag(
+        content: '<p class="p200">På AcneSpecialisten är en grundlig konsultation ett essentiellt första steg inför din injektionsbehandling. Denna process, som inkluderar en 48 timmars betänketid, är avgörande för att säkerställa att behandlingen är anpassad efter dina specifika behov och önskemål. Under konsultationen diskuterar vi dina mål, förväntningar och eventuella tidigare erfarenheter av liknande behandlingar.</p>
+        <p class="p200 mt-m">För att förbereda dig för din behandling rekommenderar vi att du undviker vissa aktiviteter och produkter. Det är bra att inte exponera huden för starkt solljus och att undvika att använda hudirriterande produkter som retinol eller exfolierande syror några dagar före din behandling. Dessa åtgärder minimerar risken för eventuell hudirritation. Vi betonar vikten av att du kommer till din behandling med en god förståelse för processen och med realistiska förväntningar på resultatet.</p>
+        <p class="p200 mt-m">Vårt team på AcneSpecialisten är här för att stödja dig genom hela processen. Vi värdesätter din komfort och strävar efter att erbjuda en säker, skonsam och effektiv behandling. Tveka inte att ställa frågor eller uttrycka dina funderingar under konsultationen. Vi ser fram emot att välkomna dig och bistå dig på din resa mot förbättrad hudhälsa och skönhet.</p>',
+                tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
         ), new ArticleTag(
@@ -72,13 +73,14 @@ $top_articles = array(
         ))
     ),
     'process' => new Article(
-        title: 'Processen för klassiska ansiktsbehandlingar',
+        title: 'Hur går injektionsbehandlingar till?',
     image_small: 'https://via.placeholder.com/358x272.webp',
     image_large: 'https://via.placeholder.com/872x456.webp',
-    image_alt: 'Processen för klassiska ansiktsbehandlingar',
-    image_title: 'Processen för klassiska ansiktsbehandlingar',
-    content: '<p class="p200">Hos AcneSpecialisten anpassas varje ansiktsbehandling efter den specifika behandling du väljer, men det finns vissa gemensamma steg som ingår i de flesta av våra klassiska ansiktsbehandlingar. Behandlingen inleds alltid med en rengöring av huden för att avlägsna smuts, talg och orenheter. Detta förbereder huden för de följande stegen och säkerställer att den kan dra nytta av de produkter och metoder som används.</p>
-    <p class="p200 mt-m">Efter rengöringen kan en exfoliering genomföras för att ta bort döda hudceller och främja cellförnyelse. En ångbehandling kan också inkluderas för att öppna upp porerna och underlätta extraktion av pormaskar och akne. Därefter kan individuellt anpassade masker och serum appliceras baserat på hudens behov. Behandlingen avslutas ofta med en fuktighetskräm eller solskydd. Genom hela processen prioriteras din huds välbefinnande och komfort, och varje steg är skräddarsytt för att ge optimala resultat.</p>',
+    image_alt: 'Hur går injektionsbehandlingar till?',
+    image_title: 'Hur går injektionsbehandlingar till?',
+    content: '<p class="p200">På AcneSpecialisten är processen för injektionsbehandlingar noggrant utformad för att uppnå bästa möjliga resultat. Det första steget är alltid en personlig konsultation, där vi diskuterar dina mål och granskar din hud för att skapa en skräddarsydd behandlingsplan. Denna konsultation följs av en 48 timmars betänketid för att ge dig möjlighet att överväga behandlingen fullt ut.</p>
+    <p class="p200 mt-m">När du bestämt dig för att fortsätta, börjar själva behandlingsdagen med en noggrann rengöring av det område som ska behandlas. Därefter markerar vår erfarna personal de specifika områdena som ska behandlas för att säkerställa precision och effektivitet. Behandlingen utförs med största noggrannhet, där vi använder injektionstekniker som syftar till att uppfylla dina estetiska önskemål samtidigt som vi minimerar obehag.</p>
+    <p class="p200 mt-m">Efter behandlingen får du detaljerade instruktioner om eftervård för att säkerställa optimal läkning och resultat. Det är vanligt att uppleva mild rodnad eller svullnad i det behandlade området, men detta bör avta inom kort. Vi erbjuder också uppföljningssessioner för att bedöma resultaten och göra eventuella justeringar om det behövs. Vår prioritet är din tillfredsställelse och säkerhet genom hela processen.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -95,12 +97,12 @@ $top_articles = array(
     ),
 );
 
-$types_title = 'Våra klassiska ansiktsbehandlingar';
-$types_description = 'Här hittar du vårt utbud av klassiska ansiktsbehandlingar.';
+$types_title = 'Våra Injektionsbehandlingar';
+$types_description = 'Här hittar du vårt utbud av injektionsbehandlingar.';
 $big_types = array(
     new Service(
-        title: 'Klassisk',
-        duration: '60 min',
+        title: 'Områden',
+        duration: '30 min',
         price: null,
         content: '<p class="p200">Vår klassiska ansiktsbehandling är idealisk för alla, oavsett hudtyp. Den rengör, vårdar och återfuktar huden för att ge den ny lyster. Behandlingsprocessen inleds med rengöring, följt av en exfoliering som tar bort döda hudceller. Efter en varsam ångprocess som öppnar porerna, utför vi en försiktig porrengöring och brynplockning. Slutligen appliceras en närande ansiktsmask och en återfuktande dagkräm, skräddarsydd för just din hud.</p>',
         image_small: 'https://via.placeholder.com/358x274.webp',
@@ -131,182 +133,6 @@ $big_types = array(
                 label: '5 behandlingar',
                 price: '2595 kr',
                 savings: '799 kr per besök',
-                booking_url: 'https://www.bokadirekt.se'
-            )
-        )
-    ),
-    new Service(
-        title: 'Ansiktsbehandling - Antistress',
-        duration: '60 min',
-        price: null,
-        content: '<p class="p200">Unna dig en paus från vardagens hektik med vår Ansiktsbehandling Antistress. Den börjar med en lätt rengöring för att varsamt fräscha upp huden. Den vitaliserande oljemassagen ger en känsla av avkoppling och balans. Behandlingen avslutas med vår skräddarsydda LED-ljusterapi och en närande kräm, allt för att säkerställa en total känsla av välbefinnande.</p>',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Ansiktsbehandling - Antistress',
-        image_title: 'Ansiktsbehandling - Antistress',
-        consultation_url: 'hudkonsultation',
-        consultation_url_label: 'Boka tid för hudkonsultation',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka en Antistress ansiktsbehandling',
-        booking_url_title: 'Boka en Antistress ansiktsbehandling',
-        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
-        procedures: array(
-            new Procedure(
-                label: '1 behandling',
-                price: '1295 kr',
-                savings: null,
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-        )
-    ),
-    new Service(
-        title: 'Hudterapeutens val',
-        duration: '60 min',
-        price: null,
-        content: '<p class="p200">En ansiktsbehandling som skräddarsys helt efter dina behov och vår hudterapeuts rekommendationer. Behandlingen inkluderar en Lumafuse med LED-mask och kompletteras med olika moment som bäst passar din hudtyp. Exempelvis kan detta inkludera en djuprengöring med peel, boost & glow, brynstyling samt olika masker och serum som är särskilt utvalda för dig.</p>',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Hudterapeutens val',
-        image_title: 'Hudterapeutens val',
-        consultation_url: 'hudkonsultation',
-        consultation_url_label: 'Boka tid för hudkonsultation',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka en behandling enligt hudterapeutens val',
-        booking_url_title: 'Boka en behandling enligt hudterapeutens val',
-        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
-        procedures: array(
-            new Procedure(
-                label: '1 behandling',
-                price: '1595 kr',
-                savings: null,
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '3 behandlingar',
-                price: '3995 kr',
-                savings: 'spara 790 kr',
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '5 behandlingar',
-                price: '5995 kr',
-                savings: 'spara 1980 kr',
-                booking_url: 'https://www.bokadirekt.se'
-            )
-        )
-    ),
-    new Service(
-        title: 'Peel, Boost & Glow',
-        duration: '60 min',
-        price: null,
-         content: '<p class="p200">För en uppfriskande och lystergivande upplevelse, prova vår Peel, Boost & Glow behandling. Den här sessionen är idealisk för dig som söker en intensiv fuktboost kombinerat med en omedelbar lyster. Vi använder oss av avancerade syrabaserade produkter för att noggrant rena huden och minimera porerna. Brynplock ingår också i behandlingen för att fullända din look. Avslutningsvis applicerar vi en djupt återfuktande sheetmask och använder LED-ljusteknik för att främja anti-age effekter och förbättra mikrocirkulationen i huden.</p>',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Peel, Boost & Glow',
-        image_title: 'Peel, Boost & Glow',
-        consultation_url: 'hudkonsultation',
-        consultation_url_label: 'Boka tid för hudkonsultation',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka Peel, Boost & Glow behandling',
-        booking_url_title: 'Boka Peel, Boost & Glow behandling',
-        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
-        procedures: array(
-            new Procedure(
-                label: '1 behandling',
-                price: '1595 kr',
-                savings: null,
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '3 behandlingar',
-                price: '3995 kr',
-                savings: 'spara 790 kr',
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '5 behandlingar',
-                price: '5995 kr',
-                savings: 'spara 1980 kr',
-                booking_url: 'https://www.bokadirekt.se'
-            )
-        )
-    ),
-    new Service(
-        title: 'Luxury',
-        duration: '90 min',
-        price: null,
-        content: '<p class="p200">Unna dig vår mest exklusiva och avkopplande ansiktsbehandling – Luxury Facial. Denna omfattande session börjar med en grundlig djuprengöring av huden, följd av en avslappnande massage för ansikte och dekolletage med en närande ansiktsolja som stimulerar cellförnyelsen och förbättrar kollagensyntesen. En lyxig exfoliering med syra förfinar huden och förbättrar dess elasticitet, fasthet och ton. Ögonbrynen och fransarna får också extra omsorg med en professionell färgning och formning som passar ditt ansikte. Behandlingen avslutas med en intensivt återfuktande sheetmask och en avancerad LED-mask som stimulerar blodcirkulationen, främjar hudens naturliga reparationsprocess och verkar anti-inflammatoriskt. Det är en fulländad upplevelse som inte bara förskönar utan också ger djup avslappning.</p>',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Ansiktsbehandling Lyx',
-        image_title: 'Ansiktsbehandling Lyx',
-        consultation_url: 'hudkonsultation',
-        consultation_url_label: 'Boka Ansiktsbehandling Lyx',
-        consultation_url_title: 'Boka Ansiktsbehandling Lyx',
-        booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka Ansiktsbehandling Lyx',
-        booking_url_title: 'Boka Ansiktsbehandling Lyx',
-        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
-        procedures: array(
-            new Procedure(
-                label: '1 behandling',
-                price: '1995 kr',
-                savings: null,
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '3 behandlingar',
-                price: '4995 kr',
-                savings: 'spara 990 kr',
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '5 behandlingar',
-                price: '7995 kr',
-                savings: 'spara 1980 kr',
-                booking_url: 'https://www.bokadirekt.se'
-            )
-        )
-    ),
-    new Service(
-        title: 'Porrengöring',
-        duration: '60 min',
-        price: null,
-        content: '<p class="p200">Vår porrengöringsbehandling är speciellt framtagen för att effektivt rensa tilltäppta porer och främja en klarare hud. Behandlingen börjar med en djupgående rengöring som förbereder huden för exfoliering. Efter exfolieringen tillämpas en mjukgörande ångprocess för att öppna upp och mjuka upp porerna. Noggrann manuell porrengöring följer för att varsamt avlägsna orenheter och komedoner. Vi avslutar med en lugnande ansiktsmask och lägger på en återfuktande kräm som är anpassad för din hudtyp.</p>',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Porrengöring',
-        image_title: 'Porrengöring',
-        consultation_url: 'hudkonsultation',
-        consultation_url_label: 'Boka tid för hudkonsultation',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka porrengöringsbehandling',
-        booking_url_title: 'Boka porrengöringsbehandling',
-        icons: array(
-            'who-teenagers' => 'Teenagers',
-            'who-adults' => 'Adults'
-        ),
-        procedures: array(
-            new Procedure(
-                label: '1 porrengöringsbehandling',
-                price: '1095 kr',
-                savings: null,
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '3 porrengöringsbehandlingar',
-                price: '2995 kr',
-                savings: '795 kr per besök',
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '5 porrengöringsbehandlingar',
-                price: '4795 kr',
-                savings: '1199 kr per besök',
                 booking_url: 'https://www.bokadirekt.se'
             )
         )
