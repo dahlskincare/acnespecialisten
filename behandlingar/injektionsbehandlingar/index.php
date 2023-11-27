@@ -104,7 +104,30 @@ $big_types = array(
         title: 'Områden',
         duration: '30 min',
         price: null,
-        content: '<p class="p200">Vår klassiska ansiktsbehandling är idealisk för alla, oavsett hudtyp. Den rengör, vårdar och återfuktar huden för att ge den ny lyster. Behandlingsprocessen inleds med rengöring, följt av en exfoliering som tar bort döda hudceller. Efter en varsam ångprocess som öppnar porerna, utför vi en försiktig porrengöring och brynplockning. Slutligen appliceras en närande ansiktsmask och en återfuktande dagkräm, skräddarsydd för just din hud.</p>',
+        content: '<p class="p200">På AcneSpecialisten erbjuder vi injektionsbehandlingar för en rad olika områden för att förbättra och föryngra ansiktets utseende. Dessa behandlingar är skräddarsydda för att effektivt adressera specifika områden och bekymmer. Vi behandlar följande områden:</p>
+        <ul>
+            <li>Glabella (argrynkan): För att minska vertikala linjer mellan ögonbrynen.</li>
+            <li>Bekymmersrynka: För att reducera horisontella linjer i pannan.</li>
+            <li>Pannrynkor: Att jämna ut pannans yta för en slätare hud.</li>
+            <li>Kråksparkar: För att mildra de fina linjerna vid ögonens yttre hörn.</li>
+            <li>Skrattrynkor: Att sudda ut linjer som uppstår vid leende och skratt.</li>
+            <li>Sura Mungipor: För att lyfta nedåtriktade mungipor.</li>
+            <li>Resting Bitch Face: För att mjuka upp ett strängt eller argt ansiktsuttryck.</li>
+            <li>DAO: Behandling av depressor anguli oris för att balansera nedre ansiktets uttryck.</li>
+            <li>Bunnylines: För att reducera linjer på näsroten och sidorna av näsan.</li>
+            <li>Näsrynkor: Att släta ut linjer på och runt näsan.</li>
+            <li>Ögonbrynslyft: För att skapa ett mer öppet och upplyft utseende.</li>
+            <li>Trötta Ögon: Behandling för att ge ögonen ett mer vaket och fräscht utseende.</li>
+            <li>Lipflip: För att ge läpparna en subtil volym och definition.</li>
+            <li>Läpplyft: För att lyfta och framhäva läppkonturerna.</li>
+            <li>Läpprynkor: Att reducera fina linjer runt munnen.</li>
+            <li>Rökrynkor: För att behandla linjer som orsakats av rökning.</li>
+            <li>Munrynkor: För att jämna ut linjer runt munnen.</li>
+            <li>Apelsinhaka: För att släta ut huden på hakan.</li>
+            <li>Gummy Smile: Att reducera tandköttsvisning vid leende.</li>
+            <li>Tandköttsvisning: Behandling för att minska synligheten av tandköttet vid leende.</li>
+        </ul>
+        <p class="p200">Varje behandlingsområde är noggrant övervägt för att säkerställa en naturlig och harmonisk förbättring av ditt utseende. Våra experter på AcneSpecialisten är här för att hjälpa dig att uppnå de resultat du önskar och känna dig ditt bästa jag.</p>',
         image_small: 'https://via.placeholder.com/358x274.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
         image_alt: 'Klassisk',
