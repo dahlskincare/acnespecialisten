@@ -486,60 +486,17 @@ $treatment_areas = array(
     new TreatmentArea(
         image_small: 'https://via.placeholder.com/361x274.webm',
         image_large: 'https://via.placeholder.com/872x456.webm',
-        image_alt: 'Kropp',
-        image_title: 'Kropp',
-        title: 'Kropp',
-        description: '<p class="p200">Med microneedling kan vi behandla flera olika delar av kroppen.</p>',
-        items: array(
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
-                image_alt: 'Hals',
-                image_title: 'Hals',
-                title: 'Hals',
-                duration: '50 min',
-                price: '2595 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för halsbehandling'
-            ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
-                image_alt: 'Dekolletage',
-                image_title: 'Dekolletage',
-                title: 'Dekolletage',
-                duration: '50 min',
-                price: '2595 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för dekolletagebehandling'
-            ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
-                image_alt: 'Rygg',
-                image_title: 'Rygg',
-                title: 'Rygg',
-                duration: '50 min',
-                price: '2595 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för ryggbehandling'
-            ),
-        )
-    ),
-    new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
-        image_alt: 'Kombinera områden',
-        image_title: 'Kombinera områden',
-        title: 'Kombinera områden',
-        description: '<p class="p200">Behandlingen fungerar även utmärkt om du vill kombinera flera olika områden.</p>',
+        image_alt: 'Områden',
+        image_title: 'Områden',
+        title: 'Områden',
+        description: '<p class="p200">Lägg till flera områden för endast 500 kronor styck.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webp',
                 image_alt: '1x område',
                 image_title: '1x område',
                 title: '1x område',
-                duration: '50 min',
+                duration: '30 min',
                 price: '2595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
@@ -550,8 +507,8 @@ $treatment_areas = array(
                 image_alt: '2x områden',
                 image_title: '2x områden',
                 title: '2x områden',
-                duration: '70 min',
-                price: '3595 kr',
+                duration: '30 min',
+                price: '2995 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 2 områden.'
@@ -561,24 +518,157 @@ $treatment_areas = array(
                 image_alt: '3x områden',
                 image_title: '3x områden',
                 title: '3x områden',
-                duration: '90 min',
-                price: '4595 kr',
+                duration: '30 min',
+                price: '3595 kr',
                 url: 'https://bokadirekt.se',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 3 områden.'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: '4x områden',
+                image_title: '4x områden',
+                title: '4x områden',
+                duration: '30 min',
+                price: '3995 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling av 4 områden.'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: '5x områden',
+                image_title: '5x områden',
+                title: '5x områden',
+                duration: '30 min',
+                price: '4595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling av 5 områden.'
+            ),
+    ),
+    new TreatmentArea(
+        image_small: 'https://via.placeholder.com/361x274.webm',
+        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_alt: 'Kombinera områden',
+        image_title: 'Kombinera områden',
+        title: 'Kombinera områden',
+        description: '<p class="p200">Kombinera injektionsbehandling med fillers.</p>',
+        items: array(
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: 'Injektion 1x område + Fillers 1 ml',
+                image_title: 'Injektion 1x område + Fillers 1 ml',
+                title: 'Injektion 1x område + Fillers 1 ml',
+                duration: '50 min',
+                price: '5595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för Injektion 1x område + Fillers 1 ml.'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: 'Injektion 1x område + Fillers 2 ml',
+                image_title: 'Injektion 1x område + Fillers 2 ml',
+                title: 'Injektion 1x område + Fillers 2 ml',
+                duration: '50 min',
+                price: '8495 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för Injektion 1x område + Fillers 2 ml.'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: 'Injektion 1x område + Fillers 3 ml',
+                image_title: 'Injektion 1x område + Fillers 3 ml',
+                title: 'Injektion 1x område + Fillers 3 ml',
+                duration: '50 min',
+                price: '11395 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för Injektion 1x område + Fillers 3 ml.'
+            ),
+
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: 'Injektion 2x områden + Fillers 1 ml',
+                image_title: 'Injektion 2x områden + Fillers 1 ml',
+                title: 'Injektion 2x områden + Fillers 1 ml',
+                duration: '50 min',
+                price: '8495 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för Injektion 2x områden + Fillers 1 ml.'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: 'Injektion 2x områden + Fillers 2 ml',
+                image_title: 'Injektion 2x områden + Fillers 2 ml',
+                title: 'Injektion 2x områden + Fillers 2 ml',
+                duration: '50 min',
+                price: '8995 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för Injektion 2x områden + Fillers 2 ml.'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: 'Injektion 2x områden + Fillers 3 ml',
+                image_title: 'Injektion 2x områden + Fillers 3 ml',
+                title: 'Injektion 2x områden + Fillers 3 ml',
+                duration: '70 min',
+                price: '11895 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för Injektion 2x områden + Fillers 3 ml.'
+            ),
+
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: 'Injektion 3x områden + Fillers 1 ml',
+                image_title: 'Injektion 3x områden + Fillers 1 ml',
+                title: 'Injektion 3x områden + Fillers 1 ml',
+                duration: '50 min',
+                price: '6595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för Injektion 3x områden + Fillers 1 ml.'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: 'Injektion 3x områden + Fillers 2 ml',
+                image_title: 'Injektion 3x områden + Fillers 2 ml',
+                title: 'Injektion 3x områden + Fillers 2 ml',
+                duration: '50 min',
+                price: '9495 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för Injektion 3x områden + Fillers 2 ml.'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: 'Injektion 3x områden + Fillers 3 ml',
+                image_title: 'Injektion 3x områden + Fillers 3 ml',
+                title: 'Injektion 3x områden + Fillers 3 ml',
+                duration: '70 min',
+                price: '12395 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för Injektion 3x områden + Fillers 3 ml.'
             ),
         )
     ),
 );
 
 $bottom_articles = array('aftercare' => new Article(
-    title: 'Eftervård och underhåll',
+    title: 'Eftervård och underhåll efter injektionsbehandlingar',
     image_small: 'https://via.placeholder.com/358x272.webp',
     image_large: 'https://via.placeholder.com/872x456.webp',
-    image_alt: 'Eftervård och underhåll',
-    image_title: 'Eftervård och underhåll',
-    content: '<p class="p200">Våra klassiska ansiktsbehandlingar erbjuder en grundlig rengöring och uppfräschning av huden. Efter din behandling är det viktigt att följa några enkla eftervårdsinstruktioner för att bibehålla resultatet. Undvik starkt solsken och använd en hög SPF för att skydda huden. Vi rekommenderar också att du undviker tung makeup och hudirriterande ämnen de första 24 timmarna efter behandlingen. Fortsätt att återfukta huden väl och använd de produkter som rekommenderats av din hudterapeut för att stödja hudens läkning och förbättring.</p>
-    <p class="p200 mt-m">För dig som gjort en lite mer resultatinriktad behandling är det viktigt att komma ihåg att inte plocka eller skrapa på huden om det skulle uppstå några orenheter efter behandlingen. Om du fick en kemisk peeling eller exfoliering, se till att vara extra varsam med huden och undvik exfolierande produkter ett tag. Drick mycket vatten och fortsätt med en balanserad kost för att stödja huden inifrån och ut. Om du har några frågor om din eftervård, tveka inte att kontakta oss för personliga råd.</p>',
+    image_alt: 'Eftervård och underhåll efter injektionsbehandlingar',
+    image_title: 'Eftervård och underhåll efter injektionsbehandlingar',
+    content: '<p class="p200">Efter din injektionsbehandling hos AcneSpecialisten är det viktigt att du följer några grundläggande eftervårdsanvisningar för att upprätthålla och maximera resultatet. Direkt efter behandlingen bör du undvika intensiv sol och använda solskydd med hög SPF för att skydda behandlingsområdet. Det är också rekommenderat att undvika tung makeup och produkter som kan irritera huden under de första 24 timmarna.</p>
+    <p class="p200 mt-m">Efter en injektionsbehandling kan det uppstå mindre svullnad eller blåmärken, vilket är normalt. Det är viktigt att inte röra eller massera behandlingsområdet under de första dagarna. Om du upplever någon obehag, kan en kall kompress hjälpa till att minska svullnad. För att stödja läkningen, fortsätt att återfukta huden med lämpliga hudvårdsprodukter som rekommenderats av din hudterapeut.</p>
+    <p class="p200 mt-m">Ett balanserat intag av vatten och näringsrik kost är också viktigt för att stödja din huds hälsa inifrån och ut. Undvik att dricka alkohol och begränsa användningen av blodförtunnande medel som kan öka risken för blåmärken. För att upprätthålla resultatet av din behandling, kan regelbundna uppföljningsbehandlingar rekommenderas av din hudterapeut. Om du har några frågor eller funderingar kring din eftervård, tveka inte att kontakta oss på AcneSpecialisten för personlig rådgivning och stöd.</p>',
     tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
 
@@ -674,21 +764,21 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Hur många behandlingar behövs?',
-            text: 'Antalet behandlingar kan variera beroende på individens hudtyp och hudens tillstånd. Generellt rekommenderas en serie av behandlingar för bästa möjliga resultat och sedan underhållsbehandlingar för långsiktig effekt.'
+            title: 'Hur ofta behöver jag genomföra injektionsbehandlingar?',
+            text: 'Antalet injektionsbehandlingar varierar beroende på individuella mål och hudens reaktion. Oftast rekommenderas initiala behandlingar med uppföljande underhållsbehandlingar var tredje till sjätte månad för att upprätthålla resultatet.'
         ),
         new Question(
-            title: 'Hur ofta ska jag boka en klassisk ansiktsbehandling?',
-            text: 'För att upprätthålla resultat och hudens hälsa, rekommenderar vi en klassisk ansiktsbehandling var fjärde till sjätte vecka. Det kan justeras beroende på personliga behov och hudens tillstånd.'
+            title: 'Vad kan jag förvänta mig efter en injektionsbehandling?',
+            text: 'Efter en injektionsbehandling kan du uppleva lätt svullnad eller rodnad i behandlingsområdet. Dessa symtom är vanligtvis milda och tillfälliga. Resultaten blir synliga efter några dagar när svullnaden har lagt sig.'
         ),
         new Question(
-            title: 'Vad kan jag förvänta mig direkt efter behandlingen?',
-            text: 'Efter en klassisk ansiktsbehandling kan huden vara lite rosig och kännas extra mjuk och återfuktad. Det är viktigt att följa eftervårdsinstruktionerna för att maximera behandlingens effekt. I de fall där en mer resultatinriktad behandling gjorts kan upplevelsen av huden variera.'
+            title: 'När kan jag återgå till mina normala aktiviteter efter en injektionsbehandling?',
+            text: 'De flesta kan återgå till sina normala aktiviteter direkt efter behandlingen. Vi rekommenderar dock att undvika ansträngande fysisk aktivitet och direkt solstrålning under de första 24 timmarna för att minimera svullnad och blåmärken.'
         ),
         new Question(
-            title: 'Behövs speciell eftervård efter en klassisk ansiktsbehandling?',
-            text: 'Eftervård är viktigt för att bevara resultatet av din ansiktsbehandling. Det innefattar solskydd, mild hudvård, och att undvika starka hudirriterande ämnen ett par dagar efter behandlingen.'
-        )
+            title: 'Behöver jag någon speciell eftervård efter en injektionsbehandling?',
+            text: 'Efter injektionsbehandlingar är det viktigt att undvika att röra vid behandlingsområdet under de första timmarna. Använd solskydd och milda hudvårdsprodukter för att skydda och lugna huden. Vi ger dig detaljerade eftervårdsinstruktioner beroende på din specifika behandling.'
+        ),
     )
 );
 
