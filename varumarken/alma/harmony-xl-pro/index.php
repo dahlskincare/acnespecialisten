@@ -3,18 +3,18 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Alma Hybrid - Avancerad Laserbehandling för Hudförnyelse | AcneSpecialisten';
-$seo_description = 'AcneSpecialisten introducerar Alma Hybrid, en banbrytande laserbehandling som kombinerar CO2 och non-ablative lasrar för att effektivt hantera ett brett spektrum av hudproblem. Idealisk för acneärr, ojämn hudton, rynkor och fina linjer, erbjuder Alma Hybrid en omfattande lösning för hudföryngring och texturutjämning.';
-$seo_keywords = 'Alma Hybrid, laserbehandling, hudföryngring, acneärr, hudton, hudtextur, avancerad hudvård, AcneSpecialisten, effektiv hudbehandling, hudförnyelse';
+$seo_title = 'Harmony XL Pro - Mångsidig Laserbehandling | AcneSpecialisten';
+$seo_description = 'Upptäck AcneSpecialistens Harmony XL Pro, en mångsidig och avancerad laserteknik för behandling av diverse hudåkommor. Denna teknologi är särskilt effektiv för hudföryngring, pigmentering, aknehantering, hårborttagning, vaskulära behandlingar och tatueringsborttagning. Harmony XL Pro erbjuder skräddarsydda behandlingar för att möta dina unika hudvårdsbehov.';
+$seo_keywords = 'Harmony XL Pro, mångsidig laserbehandling, hudföryngring, pigmentering, aknebehandling, hårborttagning, vaskulära behandlingar, tatueringsborttagning, AcneSpecialisten, anpassad hudvård';
 
-$seo_image = 'images/treatments/large/alma-hybrid.jpg';
+$seo_image = 'images/treatments/large/alma-harmony-xl-pro.jpg';
 
 $model = new Service(
-    title: 'Alma Hybrid',
+    title: 'Alma Harmony XL Pro',
     duration: null,
     price: 'Från 4595 kr',
-    content: '<p class="p200">Alma Hybrid hos AcneSpecialisten representerar nästa generation av laserbehandlingar, kombinerar effektiviteten av CO2-laser med mångsidigheten hos non-ablative lasrar. Denna innovativa behandling är utformad för att effektivt hantera en rad hudproblem, inklusive acneärr, rynkor, fina linjer och ojämn hudton. Med Alma Hybrid upplever du en betydande förbättring av hudens textur och lyster.</p>
-    <p class="p200 mt-m">Vår Alma Hybrid-teknik arbetar genom att noggrant och kontrollerat skapa mikroskopiska skador i hudens yttre lager, vilket stimulerar hudens naturliga läkningsprocess och kollagenproduktion. Denna process resulterar i en märkbar föryngring av huden, vilket minskar synligheten av ärr och förbättrar hudens övergripande struktur och utseende. Alma Hybrid är det perfekta valet för dem som söker en omfattande och avancerad lösning för hudföryngring och förbättring av hudkvalitet.</p>',
+    content: '<p class="p200">På AcneSpecialisten erbjuder vi Harmony XL Pro, en avancerad och mångsidig laserteknik som är idealisk för en rad olika hudbehandlingar. Harmony XL Pro är utmärkt för allt från hudföryngring och pigmentkorrigering till effektiv aknehantering och hårborttagning. Denna teknik ger också framstående resultat i behandling av vaskulära problem och tatueringsborttagning.</p>
+    <p class="p200 mt-m">Harmony XL Pro använder en rad olika lasermoduler och ljusbaserade tekniker för att skräddarsy behandlingen efter dina specifika hudvårdsbehov. Detta system erbjuder skonsamma och effektiva behandlingar, vilket gör det möjligt att uppnå märkbara förbättringar med minimal återhämtningstid. Vare sig du vill förbättra hudens textur, reducera synliga ålders- och solskador eller ta bort oönskat hår, erbjuder Harmony XL Pro en säker och effektiv lösning för dina hudvårdsutmaningar.</p>',
     image_small: 'https://via.placeholder.com/358x274.webp',
     image_large: 'https://via.placeholder.com/424x456.webp',
     image_alt: 'Ansiktsbehandlingar för problemhy',
