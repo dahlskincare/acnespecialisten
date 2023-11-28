@@ -116,7 +116,7 @@ $service_categories = array(
         image_title: 'Ansiktsbehandlingar för problemhy',
         services: array(
             new Service(
-                url: 'behandlingar/ansiktsbehandlingar-problemhy/acne-treatment',
+                url: 'behandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-akne',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om acnebehandling',
                 title: 'Acne treatment',
@@ -135,7 +135,7 @@ $service_categories = array(
                 booking_url_title: 'Boka tid för acnebehandling',
             ),
             new Service(
-                url: 'behandlingar/ansiktsbehandlingar-problemhy/pore-cleanse',
+                url: 'behandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-pormaskar',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om porrengöring',
                 title: 'Pore cleanse',
@@ -154,7 +154,7 @@ $service_categories = array(
                 booking_url_title: 'Boka tid för porrengöring',
             ),
             new Service(
-                url: 'behandlingar/ansiktsbehandlingar-problemhy/milier-treatment',
+                url: 'behandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-milier',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om milierbehandling',
                 title: 'Milier treatment',
@@ -173,7 +173,7 @@ $service_categories = array(
                 booking_url_title: 'Boka tid för milierbehandling',
             ),
             new Service(
-                url: 'behandlingar/ansiktsbehandlingar-problemhy/rosacea-treatment',
+                url: 'behandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-rosacea',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om rosaceabehandling',
                 title: 'Rosacea treatment',
@@ -209,7 +209,7 @@ $service_categories = array(
         image_title: 'Classic facials',
         services: array(
             new Service(
-                url: 'behandlingar/ansiktsbehandlingar-klassiska/skin-therapist-choice',
+                url: 'behandlingar/ansiktsbehandlingar-klassiska/hudterapeutens-val',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om hudterapeutens val',
                 title: 'Skin therapist choice',
@@ -245,7 +245,7 @@ $service_categories = array(
         image_title: 'Microneedling',
         services: array(
             new Service(
-                url: 'behandlingar/ansiktsbehandlingar-microneedling/dermapen',
+                url: '/varumarken/dermapen',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om dermapen',
                 title: 'Dermapen',
@@ -264,7 +264,7 @@ $service_categories = array(
                 booking_url_title: 'Boka tid för dermapen',
             ),
             new Service(
-                url: 'behandlingar/ansiktsbehandlingar-microneedling/micro-injector',
+                url: '/varumarken/micro-injector',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om micro injector',
                 title: 'Micro injector',
