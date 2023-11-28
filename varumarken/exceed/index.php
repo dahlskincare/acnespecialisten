@@ -115,7 +115,7 @@ $top_articles = array(
 );
 
 $types_title = 'Hudåkommor som Exceed kan adressera';
-$types_description = 'Exceed systematiskt tar itu med en bred spektrum av hudutmaningar genom att initiera hudens inre läkningsmekanismer med dess mikronålsteknologi. Denna metod framkallar små, precisa perforeringar i huden, vilket kickstartar kroppens egna reparerande processer och stimulerar produktionen av kollagen och elastin. Exceeds förmåga att penetrera hudens djupare lager gör det möjligt att signifikant förbättra olika typer av hudproblem. Upptäck de hudåkommor som Exceed effektivt kan minska och föryngra här.'
+$types_description = 'Exceed systematiskt tar itu med en bred spektrum av hudutmaningar genom att initiera hudens inre läkningsmekanismer med dess mikronålsteknologi. Denna metod framkallar små, precisa perforeringar i huden, vilket kickstartar kroppens egna reparerande processer och stimulerar produktionen av kollagen och elastin. Exceeds förmåga att penetrera hudens djupare lager gör det möjligt att signifikant förbättra olika typer av hudproblem. Upptäck de hudåkommor som Exceed effektivt kan minska och föryngra här.';
 $types = array(
     new Service(
         title: 'Exceed för Aktiv Acne',
