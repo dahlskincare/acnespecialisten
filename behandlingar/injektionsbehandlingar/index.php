@@ -387,6 +387,71 @@ $treatment_areas = array(
     new TreatmentArea(
         image_small: 'https://via.placeholder.com/361x274.webm',
         image_large: 'https://via.placeholder.com/872x456.webm',
+        image_alt: 'Fillers',
+        image_title: 'Fillers',
+        title: 'Fillers',
+        description: '<p class="p200">Vi utför även fillers, lägg till 2000 kronor per mililiter.</p>',
+        items: array(
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: 'Fillers 1 ml',
+                image_title: 'Fillers 1 ml',
+                title: 'Fillers 1 ml',
+                duration: '40 min',
+                price: '3595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling med 1 ml.'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: 'Fillers 2 ml',
+                image_title: 'Fillers 2 ml',
+                title: 'Fillers 2 ml',
+                duration: '40 min',
+                price: '5595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling med 2 ml.'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: 'Fillers 3 ml',
+                image_title: 'Fillers 3 ml',
+                title: 'Fillers 3 ml',
+                duration: '60 min',
+                price: '7595 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling med 3 ml.'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: 'Fillers 4 ml',
+                image_title: 'Fillers 4 ml',
+                title: 'Fillers 4 ml',
+                duration: '90 min',
+                price: '9995 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling med 4 ml.'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: 'Fillers 5 ml',
+                image_title: 'Fillers 5 ml',
+                title: 'Fillers 5 ml',
+                duration: '90 min',
+                price: '12995 kr',
+                url: 'https://bokadirekt.se',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling med 5 ml.'
+            ),
+        ),
+    ),
+    new TreatmentArea(
+        image_small: 'https://via.placeholder.com/361x274.webm',
+        image_large: 'https://via.placeholder.com/872x456.webm',
         image_alt: 'Kombinera områden',
         image_title: 'Kombinera områden',
         title: 'Kombinera områden',
