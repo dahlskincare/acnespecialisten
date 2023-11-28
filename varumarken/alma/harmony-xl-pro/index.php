@@ -77,10 +77,10 @@ $top_articles = array(
         image_large: 'https://via.placeholder.com/872x456.webp',
         image_alt: 'Hur går behandling med Harmony XL Pro till?',
         image_title: 'Hur går behandling med Harmony XL Pro till?',
-        content: '<p class="p200">Att genomgå en Harmony XL Pro-behandling hos AcneSpecialisten innebär en noggrann och avancerad process för att effektivt behandla problemhy. Behandlingen inleds med en grundlig rengöring av det område som ska behandlas för att säkerställa att huden är optimalt förberedd för laserterapin.</p>
-        <p class="p200 mt-m">Harmony XL Pro använder en unik kombination av laser-teknologier för att målinriktat behandla olika hudproblem. Under behandlingen använder vi fraktionerad CO2-laser som arbetar genom att skapa små mikroskopiska skador i hudens lager. Denna process stimulerar hudens naturliga läkning och tillväxt av nytt kollagen och elastin, vilket är avgörande för hudens hälsa och ungdomlighet.</p>
-        <p class="p200 mt-m">Behandlingen är speciellt effektiv för att minska synligheten av olika typer av ärr, inklusive acneärr och operationsärr. Den är också idealisk för att behandla rynkor, fina linjer och för att utföra huduppfräschning och hudresurfacing. Värmen från lasern kan upplevas som en värmande känsla på huden, men vi använder effektiva kylmetoder och bedövning för att göra behandlingen så behaglig som möjligt.</p>
-        <p class="p200 mt-m">Efter behandlingen är det normalt att uppleva viss rodnad och svullnad. Detta är en del av kroppens naturliga läkningsprocess. Vi ger dig detaljerade instruktioner om eftervård för att maximera återhämtningen och säkerställa att din hud läker ordentligt. Resultaten från Harmony XL Pro-behandlingen utvecklas gradvis, och du kan förvänta dig att se en kontinuerlig förbättring av din hudkvalitet över tid.</p>',
+        content: '<p class="p200">Harmony XL Pro-behandlingen på AcneSpecialisten är en sofistikerad metod för att effektivt adressera och behandla en rad hudåkommor. Din session börjar med en grundlig rengöring av huden för att optimera förberedelserna inför laserns applicering.</p>
+        <p class="p200 mt-m">Denna avancerade behandling kombinerar olika lasertekniker för att målinriktat och skonsamt behandla ditt hudtillstånd. Med Harmony XL Pro-teknologin använder vi fraktionerad CO2-laser för att skapa mikroskopiska skador i hudens yttre lager. Denna process aktiverar kroppens naturliga läkningsmekanismer och främjar nybildning av kollagen och elastin, vitala komponenter för en frisk och ungdomlig hud.</p>
+        <p class="p200 mt-m">Denna laserbehandling är särskilt effektiv för att behandla och reducera ärr, som acneärr och kirurgiska ärr, samt att jämna ut rynkor och fina linjer. Behandlingen bidrar även till huduppfräschning och förbättring av hudens övergripande textur. Du kan känna en mild värme under behandlingen, men vi använder olika metoder för att minimera obehag och säkerställa en behaglig upplevelse.</p>
+        <p class="p200 mt-m">Efter behandlingen kan viss rodnad och svullnad förekomma, vilket är en normal reaktion och en del av läkningsprocessen. Vi ger dig omfattande instruktioner för eftervård för att stödja din hud under återhämtningsprocessen. Resultaten från Harmony XL Pro-behandlingarna utvecklas över tid, vilket ger en gradvis och varaktig förbättring av din hudkvalitet.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -97,288 +97,165 @@ $top_articles = array(
     ),
 );
 
-$types_title = 'Harmony XL Pro signaturbehadnlingar';
-$types_description = 'Här hittar du Harmony XL Pros signaturbehandlingar som presenterar de 3 egenskaper lasermaskinen är mest effektiv inom. Dessa är reducering av olika typer av ärr, att ge huden en effektiv hudförnyelse samt en mildare huduppfräschning med minimal återhämtningstid.';
-$big_types = array(
-    new Service(
-        title: 'Hybrid oScar - Behandling av ärr',
-        duration: '90 min',
-        price: null,
-        content: '<p class="p200">På AcneSpecialisten erbjuder vi OScar-behandlingen, en specialiserad metod för att effektivt behandla olika typer av ärr, inklusive acneärr, trauma- och kirurgiska ärr. Denna avancerade behandling utnyttjar den senaste tekniken genom att kombinera CO2 och 1570nm laservåglängder för att nå optimal penetration i hudens dermisskikt.</p>
-        <p class="p200 mt-m">Behandlingsprocessen för OScar anpassas noggrant för att passa varje unik klient och ärrtyp. Genom att justera penetrationsdjup, koagulationsbredd och densitet kan vi skräddarsy behandlingen för att uppnå bästa möjliga resultat. Denna precisa metod stimulerar hudens naturliga läkningsprocess och kollagenproduktion, vilket är avgörande för att minska synligheten och djupet av ärrbildningar.</p>
-        <p class="p200 mt-m">Efter laserbehandlingen kompletterar vi med Impact-serum för att ytterligare förbättra behandlingens effektivitet. Impact hjälper till att säkerställa att serumet når de djupare hudlagren, vilket bidrar till en förbättrad läkning och förnyelse av huden. OScar-behandlingen är en idealisk lösning för dig som söker en omfattande och effektiv lösning för att dramatiskt minska synligheten av ärr och förbättra hudens övergripande utseende och textur.</p>',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Hybrid oScar',
-        image_title: 'Hybrid oScar',
-        consultation_url: 'hudkonsultation',
-        consultation_url_label: 'Boka tid för hudkonsultation',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka Hybrid oScar',
-        booking_url_title: 'Boka Hybrid oScar',
-        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
-        procedures: array(
-            new Procedure(
-                label: '1 behandling',
-                price: '4595 kr',
-                savings: null,
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '3 behandlingar',
-                price: '10995 kr',
-                savings: 'Spara 2790 kr',
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '5 behandlingar',
-                price: '15995 kr',
-                savings: 'Spara 6980 kr',
-                booking_url: 'https://www.bokadirekt.se'
-            )
-        )
-    ),
-    new Service(
-        title: 'HybridLift - Hudresurfacing (Over-the-weekend behandling)',
-        duration: '90 min',
-        price: null,
-        content: '<p class="p200">På AcneSpecialisten introducerar vi HybridLift, en banbrytande hudresurfacingbehandling som kombinerar ablativa och termiska lasermetoder med avancerad produktleverans för att skapa enastående resultat med minimal återhämtningstid. HybridLift är idealisk för dig som söker en effektiv lösning för att snabbt förbättra hudens utseende över en helg.</p>
-        <p class="p200 mt-m">Denna unika behandling utnyttjar en kombination av CO2- och 1570nm-lasrar. Det specialutformade scanningsmönstret skapar en hudsammandragande effekt som effektivt minskar fina linjer och djupare rynkor, samtidigt som det skalar bort solpigmenteringar. Denna process stimulerar hudens egen förnyelse och hjälper till att ge en mer ungdomlig och jämn hudton.</p>
-        <p class="p200 mt-m">Efter laserbehandlingen applicerar vi Impact-ultraljudsteknik för att förbättra penetrationen av hudvårdande produkter djupt in i huden. Denna metod säkerställer att aktiva ingredienser når de nivåer där de är mest effektiva, vilket ytterligare förbättrar hudens textur och lyster. HybridLift är den ultimata over-the-weekend behandlingen för dig som önskar synliga förbättringar på kort tid och med minimal återhämtning.</p>',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'HybridLift',
-        image_title: 'HybridLift',
-        consultation_url: 'hudkonsultation',
-        consultation_url_label: 'Boka tid för hudkonsultation',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka HybridLift',
-        booking_url_title: 'Boka HybridLift',
-        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
-        procedures: array(
-            new Procedure(
-                label: '1 behandling',
-                price: '4595 kr',
-                savings: null,
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '3 behandlingar',
-                price: '10995 kr',
-                savings: 'Spara 2790 kr',
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '5 behandlingar',
-                price: '15995 kr',
-                savings: 'Spara 6980 kr',
-                booking_url: 'https://www.bokadirekt.se'
-            )
-        )
-    ),
-    new Service(
-        title: 'SoftLift - huduppfräschning (Lunch-time behandling)',
-        duration: '60 min',
-        price: null,
-        content: '<p class="p200">AcneSpecialisten presenterar nu SoftLift, en innovativ huduppfräschande behandling utformad för att ge synliga resultat med minimal återhämtningstid. SoftLift är perfekt för dig som önskar en snabb och effektiv förbättring av din hudton, minskning av fina linjer och rynkor, samt reparation av hudskador inklusive akneärr, allt under en lunchrast.</p>
-        <p class="p200 mt-m">Denna skonsamma men kraftfulla behandling använder en icke-ablativ 1570nm-laser som skapar en betydande termisk effekt. Den främjar neokollagenes och regenererar den extracellulära matrisen som stöder hudcellerna, vilket bidrar till en mer ungdomlig och strålande hud. Samtidigt lämnas epidermis intakt, vilket minimerar återhämtningstiden.</p>
-        <p class="p200 mt-m">SoftLift är en idealisk behandling för de som vill ha snabba resultat utan att behöva ta ledigt från vardagsaktiviteter. Behandlingen är särskilt effektiv för att förbättra hudtonen och strukturen, strama upp huden och återställa dess ungdomliga utseende. Med SoftLift uppnår du en jämnare och fräschare hud snabbt och enkelt, vilket gör den till det perfekta valet för en snabb och effektiv huduppfräschning.</p>',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'SoftLift',
-        image_title: 'SoftLift',
-        consultation_url: 'hudkonsultation',
-        consultation_url_label: 'Boka tid för hudkonsultation',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka SoftLift',
-        booking_url_title: 'Boka SoftLift',
-        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
-        procedures: array(
-            new Procedure(
-                label: '1 behandling',
-                price: '3595 kr',
-                savings: null,
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '3 behandlingar',
-                price: '8995 kr',
-                savings: 'Spara 1790 kr',
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '5 behandlingar',
-                price: '12995 kr',
-                savings: 'Spara 4980 kr',
-                booking_url: 'https://www.bokadirekt.se'
-            )
-        )
-    ),
-
-);
-
 $types_title = 'Hudproblem som behandlas med Harmony XL Pro';
-$types_description = '<p class="p200">På AcneSpecialisten använder vi Harmony XL Pro för att effektivt behandla en rad olika hudproblem.</p>';
+$types_description = '<p class="p200">med Harmony XL Pro behandlar vi en rad olika hudproblem effektivt.</p>';
 $types = array(
     new Service(
         title: 'Harmony XL Pro mot Acneärr',
         duration: '90 minuter',
         price: '4595 kr',
-        content: 'Effektiv behandling av acneärr med Harmony XL Pro-laser. Denna teknik minskar ärr och förbättrar hudens textur genom att stimulera kollagenproduktion och hudens läkningsprocess.',
+        content: 'Harmony XL Pro-lasern reducerar effektivt acneärr och förbättrar hudens textur genom att stimulera kollagenproduktion och främja hudens läkning, vilket resulterar i en jämnare och mer föryngrad hud.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Laserbehandling för Acneärr',
-        image_title: 'Laserbehandling för Acneärr',
+        image_alt: 'Harmony XL Pro mot Acneärr',
+        image_title: 'Harmony XL Pro mot Acneärr',
         consultation_url: 'konsultation-acnearr',
         consultation_url_label: 'Boka gratis konsultation',
         consultation_url_title: 'Boka gratis konsultation',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka laserbehandling',
-        booking_url_title: 'Boka laserbehandling',
+        booking_url_label: 'Boka Harmony XL Pro mot Acneärr',
+        booking_url_title: 'Boka Harmony XL Pro mot Acneärr',
     ),
 
     new Service(
         title: 'Harmony XL Pro mot Rynkor och Fina Linjer',
         duration: '90 minuter',
         price: '4595 kr',
-        content: 'Vår Harmony XL Pro-laser fokuserar på att minska rynkor och fina linjer, återställer hudens ungdomliga utseende genom att stimulera kollagen och elastinproduktion.',
+        content: 'Harmony XL Pro-lasern fokuserar på att mjuka upp rynkor och fina linjer, vilket bidrar till att återställa hudens ungdomliga utseende och elasticitet genom stimulering av kollagen- och elastinproduktion.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Laserbehandling för Rynkor och Fina Linjer',
-        image_title: 'Laserbehandling för Rynkor och Fina Linjer',
+        image_alt: 'Harmony XL Pro mot Rynkor och Fina Linjer',
+        image_title: 'Harmony XL Pro mot Rynkor och Fina Linjer',
         consultation_url: 'konsultation-rynkor-fina-linjer',
         consultation_url_label: 'Boka gratis konsultation',
         consultation_url_title: 'Boka gratis konsultation',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka laserbehandling',
-        booking_url_title: 'Boka laserbehandling',
+        booking_url_label: 'Boka Harmony XL Pro mot Rynkor och Fina Linjer',
+        booking_url_title: 'Boka Harmony XL Pro mot Rynkor och Fina Linjer',
     ),
 
     new Service(
         title: 'Harmony XL Pro mot Bristningar',
         duration: '90 minuter',
         price: '4595 kr',
-        content: 'Behandlingen med Harmony XL Pro-laser erbjuder en effektiv metod för att minska bristningar. Denna teknik förbättrar hudens textur och elasticitet, vilket ger en jämnare hudton.',
+        content: 'Denna laserbehandling med Harmony XL Pro är effektiv för att reducera bristningar och förbättra hudens textur och elasticitet, vilket ger en slätare och mer enhetlig hudton.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Laserbehandling för Bristningar',
-        image_title: 'Laserbehandling för Bristningar',
+        image_alt: 'Harmony XL Pro mot Bristningar',
+        image_title: 'Harmony XL Pro mot Bristningar',
         consultation_url: 'konsultation-bristningar',
         consultation_url_label: 'Boka gratis konsultation',
         consultation_url_title: 'Boka gratis konsultation',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka laserbehandling',
-        booking_url_title: 'Boka laserbehandling',
+        booking_url_label: 'Boka Harmony XL Pro mot Bristningar',
+        booking_url_title: 'Boka Harmony XL Pro mot Bristningar',
     ),
 
     new Service(
         title: 'Harmony XL Pro mot Ärr (Skade- och Operationsärr)',
         duration: '30 minuter',
         price: '2995 kr',
-        content: 'Specialiserad laserbehandling för att reducera synligheten av skade- och operationsärr. Harmony XL Pro stimulerar hudens naturliga regenereringsprocess för slätare och jämnare hud.',
+        content: 'Harmony XL Pro-lasern erbjuder en specialiserad behandling för att effektivt minska synligheten av skade- och operationsärr, och stimulerar samtidigt hudens naturliga regenereringsprocess.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Laserbehandling för Ärr',
-        image_title: 'Laserbehandling för Ärr',
+        image_alt: 'Harmony XL Pro mot Ärr (Skade- och Operationsärr)',
+        image_title: 'Harmony XL Pro mot Ärr (Skade- och Operationsärr)',
         consultation_url: 'konsultation-arr',
         consultation_url_label: 'Boka gratis konsultation',
         consultation_url_title: 'Boka gratis konsultation',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka laserbehandling',
-        booking_url_title: 'Boka laserbehandling',
+        booking_url_label: 'Boka Harmony XL Pro mot Ärr (Skade- och Operationsärr)',
+        booking_url_title: 'Boka Harmony XL Pro mot Ärr (Skade- och Operationsärr)',
     ),
 
     new Service(
         title: 'Harmony XL Pro mot Pigmentfläckar',
         duration: '950 minuter',
         price: '4595 kr',
-        content: 'Målriktad laserbehandling för att ljusa upp och reducera pigmentfläckar. Harmony XL Pro jämnar ut hudtonen och återställer hudens naturliga lyster.',
+        content: 'Denna målinriktade laserbehandling med Harmony XL Pro arbetar för att ljusa upp och reducera pigmentfläckar, och jämnar ut hudtonen samtidigt som den återställer hudens naturliga lyster.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Laserbehandling för Pigmentfläckar',
-        image_title: 'Laserbehandling för Pigmentfläckar',
+        image_alt: 'Harmony XL Pro mot Pigmentfläckar',
+        image_title: 'Harmony XL Pro mot Pigmentfläckar',
         consultation_url: 'konsultation-pigmentflackar',
         consultation_url_label: 'Boka gratis konsultation',
         consultation_url_title: 'Boka gratis konsultation',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka laserbehandling',
-        booking_url_title: 'Boka laserbehandling',
+        booking_url_label: 'Boka Harmony XL Pro mot Pigmentfläckar',
+        booking_url_title: 'Boka Harmony XL Pro mot Pigmentfläckar',
     ),
 
     new Service(
         title: 'Harmony XL Pro mot Aktiv Acne',
         duration: '60 minuter',
         price: '3595 kr',
-        content: 'Innovativ behandling för aktiv acne med Harmony XL Pro-laser. Denna teknik angriper acnebakterier och minskar inflammation, vilket leder till en klarare och friskare hud.',
+        content: 'Harmony XL Pro-lasern behandlar aktiv acne genom att angripa acnebakterier och minska inflammation, vilket resulterar i en klarare och friskare hud.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Laserbehandling för Aktiv Acne',
-        image_title: 'Laserbehandling för Aktiv Acne',
+        image_alt: 'Harmony XL Pro mot Aktiv Acne',
+        image_title: 'Harmony XL Pro mot Aktiv Acne',
         consultation_url: 'konsultation-aktiv-acne',
         consultation_url_label: 'Boka gratis konsultation',
         consultation_url_title: 'Boka gratis konsultation',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka laserbehandling',
-        booking_url_title: 'Boka laserbehandling',
+        booking_url_label: 'Boka Harmony XL Pro mot Aktiv Acne',
+        booking_url_title: 'Boka Harmony XL Pro mot Aktiv Acne',
     ),
 
     new Service(
         title: 'Harmony XL Pro mot Stora Porer',
         duration: '60 minuter',
         price: '3595 kr',
-        content: 'Effektiv behandling för att minska storleken på stora porer. Harmony XL Pro-laser förfinar hudens struktur, ger en jämnare hudton och förbättrar hudens övergripande utseende.',
+        content: 'Harmony XL Pro-laserbehandling minskar effektivt storleken på stora porer och förfinar hudens struktur, vilket bidrar till en jämnare hudton och ett förbättrat utseende.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Laserbehandling för Stora Porer',
-        image_title: 'Laserbehandling för Stora Porer',
+        image_alt: 'Harmony XL Pro mot Stora Porer',
+        image_title: 'Harmony XL Pro mot Stora Porer',
         consultation_url: 'konsultation-stora-porer',
         consultation_url_label: 'Boka gratis konsultation',
         consultation_url_title: 'Boka gratis konsultation',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka laserbehandling',
-        booking_url_title: 'Boka laserbehandling',
+        booking_url_label: 'Boka Harmony XL Pro mot Stora Porer',
+        booking_url_title: 'Boka Harmony XL Pro mot Stora Porer',
     ),
 
     new Service(
         title: 'Harmony XL Pro mot Hudutväxter',
         duration: '30 minuter',
         price: '1595 kr',
-        content: 'Säker och skonsam borttagning av hudutväxter med Harmony XL Pro-laser. Denna metod erbjuder en effektiv behandling med minimal risk för ärrbildning.',
+        content: 'Harmony XL Pro-lasern erbjuder en säker och skonsam metod för att effektivt ta bort hudutväxter, med minimal risk för ärrbildning och med en snabb återhämtning.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Laserbehandling för Hudutväxter',
-        image_title: 'Laserbehandling för Hudutväxter',
+        image_alt: 'Harmony XL Pro mot Hudutväxter',
+        image_title: 'Harmony XL Pro mot Hudutväxter',
         consultation_url: 'konsultation-hudutvaxter',
         consultation_url_label: 'Boka gratis konsultation',
         consultation_url_title: 'Boka gratis konsultation',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka laserbehandling',
-        booking_url_title: 'Boka laserbehandling',
+        booking_url_label: 'Boka Harmony XL Pro mot Hudutväxter',
+        booking_url_title: 'Boka Harmony XL Pro mot Hudutväxter',
     ),
 
     new Service(
-        title: 'Harmony XL Pro mot Hudförynrging (Skin Rejuvenation)',
-        duration: '90 minuter',
-        price: '4595 kr',
-        content: 'Harmony XL Pro-laser ger en omfattande förnyelse och uppfräschning av huden. Denna behandling reducerar ålderstecken och återställer hudens naturliga lyster och vitalitet.',
+        title: 'Harmony XL Pro för Hudföryngring (Skin Rejuvenation)',
+        duration: '60 minuter',
+        price: '4000 kr',
+        content: 'Harmony XL Pro-laserbehandling erbjuder en avancerad lösning för hudföryngring. Denna behandling syftar till att minska ålderstecken, förbättra hudton och textur, och återställa hudens ungdomliga lyster och vitalitet. Perfekt för dem som önskar en synlig uppfräschning av huden med långvariga resultat.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Laserbehandling för Hudutväxter',
-        image_title: 'Laserbehandling för Hudutväxter',
-        consultation_url: 'konsultation-hudutvaxter',
-        consultation_url_label: 'Boka gratis konsultation',
-        consultation_url_title: 'Boka gratis konsultation',
+        image_alt: 'Harmony XL Pro-behandling för hudföryngring',
+        image_title: 'Harmony XL Pro-behandling för hudföryngring',
+        consultation_url: 'konsultation-hudforyngring',
+        consultation_url_label: 'Boka gratis konsultation för hudföryngring',
+        consultation_url_title: 'Boka gratis konsultation för hudföryngring',
         booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka laserbehandling',
-        booking_url_title: 'Boka laserbehandling',
+        booking_url_label: 'Boka Harmony XL Pro för hudföryngring',
+        booking_url_title: 'Boka Harmony XL Pro för hudföryngring',
     ),
 );
 
-$treatment_areas_title = 'Behandlingsområden med Harmony XL Pro';
-$treatment_areas_text = '<p class="p200">Harmony XL Pro är en mångsidig laserbehandling som är effektiv för att behandla en rad olika hudområden. Vi använder denna avancerade teknik för att behandla specifika områden såsom ansikte, hals, dekolletage, rygg och händer.</p>';
+$treatment_areas_title = 'Behandlingsområden för Harmony XL Pro';
+$treatment_areas_text = '<p class="p200">Den mångsidiga Harmony XL Pro-tekniken behandlar effektivt en rad olika hudområden.</p>';
 $treatment_areas = array(
     new TreatmentArea(
         image_small: 'https://via.placeholder.com/361x274.webm',
@@ -386,7 +263,7 @@ $treatment_areas = array(
         image_alt: 'Ansikte & Kropp',
         image_title: 'Ansikte & Kropp',
         title: 'Ansikte & Kropp',
-        description: '<p class="p200">Vi behandlar flera områden på kroppen..</p>',
+        description: '<p class="p200">Vi behandlar dessutom flera områden på kroppen.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/94x72.webp',
@@ -452,7 +329,7 @@ $treatment_areas = array(
         image_alt: 'Kombinera områden',
         image_title: 'Kombinera områden',
         title: 'Kombinera områden',
-        description: '<p class="p200">Kombinera flera områden för bättre effekt.</p>',
+        description: '<p class="p200">Utöka effekten genom att behandla flera områden.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webp',
@@ -497,9 +374,9 @@ $bottom_articles = array('aftercare' => new Article(
     image_large: 'https://via.placeholder.com/872x456.webp',
     image_alt: 'Eftervård för Harmony XL Pro',
     image_title: 'Eftervård för Harmony XL Pro',
-    content: '<p class="p200">Efter din Harmony XL Pro-laserbehandling är det viktigt att noggrant följa våra eftervårdsinstruktioner för att främja en snabb och effektiv läkningsprocess. Du kan förvänta dig en viss rodnad och svullnad i det behandlade området, vilket är en normal reaktion på behandlingen. För att undvika irritation och infektioner, bör du undvika att röra området med orena händer och avstå från att använda makeup under de första 24 timmarna.</p>
-    <p class="p200 mt-m">Under de första dagarna efter behandlingen är det viktigt att du undviker fysisk ansträngning, heta duschar och bastu, eftersom dessa kan förvärra svullnaden och rodnaden. Solskydd är kritiskt; applicera en hög SPF för att skydda den känsliga huden från solens strålar. Vi rekommenderar att du använder milda och återfuktande hudvårdsprodukter som är fria från parfymer och andra irriterande ingredienser för att stödja hudens läkningsprocess och bibehålla fuktbalansen.</p>
-    <p class="p200 mt-m">Det är viktigt att du följer de eftervårdsinstruktioner som ges av din hudterapeut. Om du har några frågor eller oro efter din behandling, tveka inte att kontakta oss för rådgivning. Regelbundna uppföljningar och eventuellt ytterligare behandlingar kan rekommenderas beroende på din hudtyp och de hudvårdsresultat du önskar uppnå.</p>',
+    content: '<p class="p200">Att följa rätt eftervård är avgörande för att maximera effekten av din Harmony XL Pro-laserbehandling hos AcneSpecialisten. Efter behandlingen är det normalt att uppleva en viss rodnad och svullnad i det behandlade området. Vi råder dig att inte röra området med orena händer och att undvika makeup under de första 24 timmarna för att minska risken för irritation och infektioner.</p>
+    <p class="p200 mt-m">Under återhämtningen är det viktigt att undvika aktiviteter som kan öka svullnad och rodnad, såsom intensiv träning, heta duschar och bastu. Användning av solskydd med hög SPF är essentiellt för att skydda den känsliga huden från solens UV-strålar. Vi rekommenderar också att du använder milda och återfuktande hudvårdsprodukter utan starka dofter eller irriterande ingredienser för att främja en smidig läkningsprocess och upprätthålla hudens fuktbalans.</p>
+    <p class="p200 mt-m">Om du har några frågor eller bekymmer efter din behandling, är vi alltid här för att erbjuda råd och stöd. Regelbundna uppföljningar och eventuella ytterligare behandlingar kan diskuteras och planeras utifrån din individuella hudtyp och de specifika mål du har för din hudvård. Vårt mål på AcneSpecialisten är att du ska känna dig trygg och nöjd med dina behandlingsresultat.</p>',
     tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
 
@@ -514,10 +391,10 @@ $service_brands = array(
         image_title: 'Alma Rejuve DyeVL',
     ),
     new Brand(
-        label: 'Alma Harmony XL',
-        image: 'images/brands/alma-harmony-xl.svg',
-        image_alt: 'Alma Harmony XL',
-        image_title: 'Alma Harmony XL',
+        label: 'Alma Hybrid',
+        image: 'images/brands/alma-hybrid.svg',
+        image_alt: 'Alma Hybrid',
+        image_title: 'Alma Hybrid',
     ),
     new Brand(
         label: 'Powerlite Photonova',
@@ -620,19 +497,19 @@ $faq_categories = array(
     '' => array(
         new Question(
             title: 'Hur många Harmony XL Pro-behandlingar behövs för bästa resultat?',
-            text: 'Antalet Harmony XL Pro-behandlingar varierar beroende på dina specifika hudproblem och önskade resultat. Vanligtvis rekommenderas en serie av 3-5 behandlingar med intervaller på några veckor. En skräddarsydd behandlingsplan kommer att utformas under din konsultation för att möta dina unika behov.'
+            text: 'Antalet Harmony XL Pro-behandlingar som behövs varierar individuellt, beroende på dina hudproblem och önskade resultat. Generellt rekommenderas en serie av 3-5 behandlingar med några veckors mellanrum. Under konsultationen skapar vi en anpassad behandlingsplan som passar just dina behov.'
         ),
         new Question(
             title: 'Hur långvariga är effekterna av Harmony XL Pro-behandlingar?',
-            text: 'Effekterna från Harmony XL Pro-behandlingar kan vara långvariga, men det är viktigt att notera att yttre faktorer som solens strålar och hudens naturliga åldrande kan påverka resultaten över tid. Regelbundna underhållsbehandlingar och en noggrann hudvårdsrutin kan hjälpa till att bevara de positiva resultaten.'
+            text: 'Resultaten från Harmony XL Pro-behandlingar kan vara långvariga, men det är viktigt att underhålla huden och skydda den från yttre påverkan som sol och åldrande. Regelbundna uppföljningsbehandlingar och en skräddarsydd hudvårdsrutin rekommenderas för att bevara effekterna.'
         ),
         new Question(
             title: 'Vad kan jag förvänta mig efter en Harmony XL Pro-behandling?',
-            text: 'Efter en Harmony XL Pro-behandling kan du förvänta dig en viss rodnad, svullnad och känslighet i det behandlade området. Dessa är vanliga reaktioner och brukar avta inom några dagar. Följ eftervårdsinstruktionerna noggrant och skydda huden väl mot solen för att stödja läkningsprocessen.'
+            text: 'Efter en Harmony XL Pro-behandling är det vanligt med rodnad, svullnad och en viss känslighet i det behandlade området. Dessa symtom är normala och börjar avta efter några dagar. Följ alltid eftervårdsinstruktionerna och skydda huden mot solen för att främja en smidig läkningsprocess.'
         ),
         new Question(
             title: 'Krävs det särskild eftervård efter Harmony XL Pro-behandling?',
-            text: 'Efter en Harmony XL Pro-behandling är det viktigt med korrekt eftervård för att maximera resultatet. Detta inkluderar användning av solskydd, undvikande av direkt solljus och användning av mjuka, återfuktande hudvårdsprodukter. Din hudterapeut kommer att ge dig skräddarsydda råd för din hudtyp och behandling.'
+            text: 'Ja, korrekt eftervård är avgörande efter en Harmony XL Pro-behandling. Detta innefattar att regelbundet använda solskydd, undvika direkt solljus, och använda milda, återfuktande hudvårdsprodukter. Följ de eftervårdsråd som ges av din hudterapeut för bästa möjliga resultat och läkning.'
         ),
     )
 );

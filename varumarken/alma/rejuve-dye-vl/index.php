@@ -373,10 +373,10 @@ $service_brands_text = '<p class="p200">Utöver Rejuve DyeVL använder vi även 
 $service_brands = array(
 
     new Brand(
-        label: 'Alma Harmony XL',
-        image: 'images/brands/alma-harmony-xl.svg',
-        image_alt: 'Alma Harmony XL',
-        image_title: 'Alma Harmony XL',
+        label: 'Alma Harmony XL Pro',
+        image: 'images/brands/alma-harmony-xl-pro.svg',
+        image_alt: 'Alma Harmony XL Pro',
+        image_title: 'Alma Harmony XL Pro',
     ),
     new Brand(
         label: 'Powerlite Photonova',
