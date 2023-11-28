@@ -317,7 +317,7 @@ $treatment_areas = array(
                 url_label: 'Boka',
                 url_title: 'Boka tid för tandköttsvisning'
             ),
-        )
+        ),
     ),
     new TreatmentArea(
         image_small: 'https://via.placeholder.com/361x274.webm',
@@ -382,6 +382,7 @@ $treatment_areas = array(
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 5 områden.'
             ),
+        ),
     ),
     new TreatmentArea(
         image_small: 'https://via.placeholder.com/361x274.webm',
@@ -492,7 +493,7 @@ $treatment_areas = array(
                 url_label: 'Boka',
                 url_title: 'Boka tid för Injektion 3x områden + Fillers 3 ml.'
             ),
-        )
+        ),
     ),
 );
 
