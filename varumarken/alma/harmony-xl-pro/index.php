@@ -17,8 +17,8 @@ $model = new Service(
     <p class="p200 mt-m">Harmony XL Pro använder en rad olika lasermoduler och ljusbaserade tekniker för att skräddarsy behandlingen efter dina specifika hudvårdsbehov. Detta system erbjuder skonsamma och effektiva behandlingar, vilket gör det möjligt att uppnå märkbara förbättringar med minimal återhämtningstid. Vare sig du vill förbättra hudens textur, reducera synliga ålders- och solskador eller ta bort oönskat hår, erbjuder Harmony XL Pro en säker och effektiv lösning för dina hudvårdsutmaningar.</p>',
     image_small: 'https://via.placeholder.com/358x274.webp',
     image_large: 'https://via.placeholder.com/424x456.webp',
-    image_alt: 'Ansiktsbehandlingar för problemhy',
-    image_title: 'Ansiktsbehandlingar för problemhy',
+    image_alt: 'Alma Harmony XL Pro',
+    image_title: 'Alma Harmony XL Pro',
     consultation_url: 'https://bokadirekt.se',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
@@ -28,7 +28,7 @@ $model = new Service(
 );
 
 $nav_buttons = array(
-    'about' => 'Om Alma Hybrid',
+    'about' => 'Om Alma Harmony XL Pro',
     'preparing' => 'Förberedelser',
     'process' => 'Processen',
     'types' => 'Typer',
@@ -42,21 +42,21 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Vad är Alma Hybrid?';
-$description_text = '<p class="p200">Alma Hybrid på AcneSpecialisten representerar en banbrytande teknik inom laserbehandling, som kombinerar den fraktionerade, ablativa CO2-lasern med icke-ablativ laserteknik. Denna avancerade metod erbjuder en omfattande och mångsidig lösning för ett brett spektrum av hudproblem, inklusive acneärr, rynkor, bristningar, ojämn hudton och stora porer. Genom att kombinera dessa två lasertekniker uppnår vi överlägsna resultat med minskad återhämtningstid.</p>
-<p class="p200 mt-m">CO2-lasern arbetar genom att skapa kontrollerade mikroskopiska skador i hudens yttre lager, vilket främjar hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. Denna process hjälper till att förbättra hudens struktur, minska ärr och rynkor, och ge en övergripande hudföryngring. Samtidigt arbetar den icke-ablativa lasertekniken med att förbättra hudens elasticitet och textur på ett djupare plan, utan att skada hudens yttre lager. Detta möjliggör en effektiv behandling med minimal återhämtningstid.</p>
-<p class="p200 mt-m">Alma Hybrid är känd för sin förmåga att leverera snabba och synliga resultat redan efter en session, vilket gör den till en idealisk lösning för dem som söker en effektiv och tidsbesparande behandling. Dessutom är säkerheten alltid en prioritet, med förbättrade säkerhetsåtgärder som säkerställer en trygg och behaglig upplevelse. Våra skräddarsydda Alma Hybrid-behandlingar på AcneSpecialisten erbjuder en effektiv väg mot en fräschare, jämnare och mer vital hud.</p>';
+$description_title = 'Vad är Harmony XL Pro?';
+$description_text = '<p class="p200">Harmony XL Pro på AcneSpecialisten är en avancerad och mångsidig laserplattform som erbjuder skräddarsydda lösningar för en mängd hudproblem. Denna innovativa teknik kombinerar olika lasermoduler och ljusbaserade behandlingar för att ge en anpassad och effektiv hudvårdsupplevelse.</p>
+<p class="p200 mt-m">Med Harmony XL Pro kan vi adressera en rad hudtillstånd, inklusive hudföryngring, pigmentkorrigering, aknebehandling, vaskulära problem, och även tatueringsborttagning. Den unika mångsidigheten hos denna plattform gör det möjligt för oss att skapa skonsamma men kraftfulla behandlingsprotokoll, anpassade efter varje klients individuella behov och hudtyp.</p>
+<p class="p200 mt-m">Denna teknik är känd för sin förmåga att leverera märkbara resultat med minimal återhämtningstid. Harmony XL Pro är idealisk för de som söker en icke-invasiv, men effektiv, lösning på sina hudvårdsproblem. Vår användning av Harmony XL Pro på AcneSpecialisten innebär att vi kan erbjuda en hög nivå av personlig anpassning i våra behandlingar, vilket leder till optimala resultat och förbättrad hudhälsa.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelser inför Alma Hybrid',
+        title: 'Förberedelser inför Harmony XL Pro',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Förberedelser inför laser mot problemhy',
-        image_title: 'Förberedelser inför laser mot problemhy',
-        content: '<p class="p200">Inför din Alma Hybrid-behandling hos AcneSpecialisten, erbjuder vi en kostnadsfri konsultation. Under denna session kommer vi att gå igenom behandlingsprocessen i detalj och skapa en personlig behandlingsplan för att uppnå bästa möjliga resultat. Det är ett viktigt steg för att säkerställa att du är fullständigt informerad och bekväm med behandlingen.</p>
-        <p class="p200 mt-m">Under konsultationen diskuterar vi också specifika förberedelser som är nödvändiga för just din hudtyp och ditt individuella tillstånd. Vi betonar vikten av att undvika solbränna och stark sol några veckor före behandlingen, då detta kan påverka hudens känslighet och behandlingens effektivitet. Vidare rekommenderas att du undviker hudvårdsprodukter med starka aktiva ingredienser som exfolierande syror minst en vecka före behandlingen.</p>
-        <p class="p200 mt-m">Under konsultationen tar vi även upp din hudhistorik som kan påverka behandlingen. Detta är en viktig del av processen för att skräddarsy behandlingen efter dina behov och för att säkerställa att du får den mest effektiva och säkra behandlingen. Vi ser fram emot att arbeta tillsammans med dig och hjälpa dig att uppnå din önskade hudkvalitet med Alma Hybrid-behandling.</p>',
+        image_alt: 'Förberedelser inför Alma Harmony XL Pro',
+        image_title: 'Förberedelser inför Alma Harmony XL Pro',
+        content: '<p class="p200">Inför din Harmony XL Pro-behandling på AcneSpecialisten är det viktigt att förbereda din hud för att optimera behandlingens effekt. Vi inleder processen med en kostnadsfri konsultation, där vi noggrant går igenom behandlingen och skapar en anpassad behandlingsplan utifrån dina unika hudbehov.</p>
+        <p class="p200 mt-m">För att förbereda dig inför behandlingen rekommenderar vi att du undviker direkt solstrålning och solarium under veckorna före din session. Detta är för att minska risken för överkänslighet och för att optimera hudens tillstånd för behandlingen. Du bör också undvika att använda hudvårdsprodukter som innehåller starka aktiva ingredienser, såsom exfolierande syror, åtminstone en vecka före din behandling.</p>
+        <p class="p200 mt-m">Under konsultationen kommer vi att granska din hudhistorik och eventuella tidigare behandlingar för att fullständigt anpassa Harmony XL Pro-behandlingen till dina behov. Vårt mål är att du ska känna dig trygg och informerad genom hela behandlingsprocessen. Vi ser fram emot att hjälpa dig att uppnå en förbättrad hudkvalitet och ett strålande utseende med hjälp av Harmony XL Pro.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -72,15 +72,15 @@ $top_articles = array(
         ))
     ),
     'process' => new Article(
-        title: 'Hur går behandling med Alma Hybrid till?',
+        title: 'Hur går behandling med Harmony XL Pro till?',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Hur går behandling med Alma Hybrid till?',
-        image_title: 'Hur går behandling med Alma Hybrid till?',
-        content: '<p class="p200">Att genomgå en Alma Hybrid-behandling hos AcneSpecialisten innebär en noggrann och avancerad process för att effektivt behandla problemhy. Behandlingen inleds med en grundlig rengöring av det område som ska behandlas för att säkerställa att huden är optimalt förberedd för laserterapin.</p>
-        <p class="p200 mt-m">Alma Hybrid använder en unik kombination av laser-teknologier för att målinriktat behandla olika hudproblem. Under behandlingen använder vi fraktionerad CO2-laser som arbetar genom att skapa små mikroskopiska skador i hudens lager. Denna process stimulerar hudens naturliga läkning och tillväxt av nytt kollagen och elastin, vilket är avgörande för hudens hälsa och ungdomlighet.</p>
+        image_alt: 'Hur går behandling med Harmony XL Pro till?',
+        image_title: 'Hur går behandling med Harmony XL Pro till?',
+        content: '<p class="p200">Att genomgå en Harmony XL Pro-behandling hos AcneSpecialisten innebär en noggrann och avancerad process för att effektivt behandla problemhy. Behandlingen inleds med en grundlig rengöring av det område som ska behandlas för att säkerställa att huden är optimalt förberedd för laserterapin.</p>
+        <p class="p200 mt-m">Harmony XL Pro använder en unik kombination av laser-teknologier för att målinriktat behandla olika hudproblem. Under behandlingen använder vi fraktionerad CO2-laser som arbetar genom att skapa små mikroskopiska skador i hudens lager. Denna process stimulerar hudens naturliga läkning och tillväxt av nytt kollagen och elastin, vilket är avgörande för hudens hälsa och ungdomlighet.</p>
         <p class="p200 mt-m">Behandlingen är speciellt effektiv för att minska synligheten av olika typer av ärr, inklusive acneärr och operationsärr. Den är också idealisk för att behandla rynkor, fina linjer och för att utföra huduppfräschning och hudresurfacing. Värmen från lasern kan upplevas som en värmande känsla på huden, men vi använder effektiva kylmetoder och bedövning för att göra behandlingen så behaglig som möjligt.</p>
-        <p class="p200 mt-m">Efter behandlingen är det normalt att uppleva viss rodnad och svullnad. Detta är en del av kroppens naturliga läkningsprocess. Vi ger dig detaljerade instruktioner om eftervård för att maximera återhämtningen och säkerställa att din hud läker ordentligt. Resultaten från Alma Hybrid-behandlingen utvecklas gradvis, och du kan förvänta dig att se en kontinuerlig förbättring av din hudkvalitet över tid.</p>',
+        <p class="p200 mt-m">Efter behandlingen är det normalt att uppleva viss rodnad och svullnad. Detta är en del av kroppens naturliga läkningsprocess. Vi ger dig detaljerade instruktioner om eftervård för att maximera återhämtningen och säkerställa att din hud läker ordentligt. Resultaten från Harmony XL Pro-behandlingen utvecklas gradvis, och du kan förvänta dig att se en kontinuerlig förbättring av din hudkvalitet över tid.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'
@@ -97,8 +97,8 @@ $top_articles = array(
     ),
 );
 
-$types_title = 'Alma Hybrid signaturbehadnlingar';
-$types_description = 'Här hittar du Alma Hybrids signaturbehandlingar som presenterar de 3 egenskaper lasermaskinen är mest effektiv inom. Dessa är reducering av olika typer av ärr, att ge huden en effektiv hudförnyelse samt en mildare huduppfräschning med minimal återhämtningstid.';
+$types_title = 'Harmony XL Pro signaturbehadnlingar';
+$types_description = 'Här hittar du Harmony XL Pros signaturbehandlingar som presenterar de 3 egenskaper lasermaskinen är mest effektiv inom. Dessa är reducering av olika typer av ärr, att ge huden en effektiv hudförnyelse samt en mildare huduppfräschning med minimal återhämtningstid.';
 $big_types = array(
     new Service(
         title: 'Hybrid oScar - Behandling av ärr',
@@ -220,14 +220,14 @@ $big_types = array(
 
 );
 
-$types_title = 'Hudproblem som behandlas med Alma Hybrid';
-$types_description = '<p class="p200">På AcneSpecialisten använder vi Alma Hybrid för att effektivt behandla en rad olika hudproblem.</p>';
+$types_title = 'Hudproblem som behandlas med Harmony XL Pro';
+$types_description = '<p class="p200">På AcneSpecialisten använder vi Harmony XL Pro för att effektivt behandla en rad olika hudproblem.</p>';
 $types = array(
     new Service(
-        title: 'Alma Hybrid mot Acneärr',
+        title: 'Harmony XL Pro mot Acneärr',
         duration: '90 minuter',
         price: '4595 kr',
-        content: 'Effektiv behandling av acneärr med Alma Hybrid-laser. Denna teknik minskar ärr och förbättrar hudens textur genom att stimulera kollagenproduktion och hudens läkningsprocess.',
+        content: 'Effektiv behandling av acneärr med Harmony XL Pro-laser. Denna teknik minskar ärr och förbättrar hudens textur genom att stimulera kollagenproduktion och hudens läkningsprocess.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
         image_alt: 'Laserbehandling för Acneärr',
@@ -241,10 +241,10 @@ $types = array(
     ),
 
     new Service(
-        title: 'Alma Hybrid mot Rynkor och Fina Linjer',
+        title: 'Harmony XL Pro mot Rynkor och Fina Linjer',
         duration: '90 minuter',
         price: '4595 kr',
-        content: 'Vår Alma Hybrid-laser fokuserar på att minska rynkor och fina linjer, återställer hudens ungdomliga utseende genom att stimulera kollagen och elastinproduktion.',
+        content: 'Vår Harmony XL Pro-laser fokuserar på att minska rynkor och fina linjer, återställer hudens ungdomliga utseende genom att stimulera kollagen och elastinproduktion.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
         image_alt: 'Laserbehandling för Rynkor och Fina Linjer',
@@ -258,10 +258,10 @@ $types = array(
     ),
 
     new Service(
-        title: 'Alma Hybrid mot Bristningar',
+        title: 'Harmony XL Pro mot Bristningar',
         duration: '90 minuter',
         price: '4595 kr',
-        content: 'Behandlingen med Alma Hybrid-laser erbjuder en effektiv metod för att minska bristningar. Denna teknik förbättrar hudens textur och elasticitet, vilket ger en jämnare hudton.',
+        content: 'Behandlingen med Harmony XL Pro-laser erbjuder en effektiv metod för att minska bristningar. Denna teknik förbättrar hudens textur och elasticitet, vilket ger en jämnare hudton.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
         image_alt: 'Laserbehandling för Bristningar',
@@ -275,10 +275,10 @@ $types = array(
     ),
 
     new Service(
-        title: 'Alma Hybrid mot Ärr (Skade- och Operationsärr)',
+        title: 'Harmony XL Pro mot Ärr (Skade- och Operationsärr)',
         duration: '30 minuter',
         price: '2995 kr',
-        content: 'Specialiserad laserbehandling för att reducera synligheten av skade- och operationsärr. Alma Hybrid stimulerar hudens naturliga regenereringsprocess för slätare och jämnare hud.',
+        content: 'Specialiserad laserbehandling för att reducera synligheten av skade- och operationsärr. Harmony XL Pro stimulerar hudens naturliga regenereringsprocess för slätare och jämnare hud.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
         image_alt: 'Laserbehandling för Ärr',
@@ -292,10 +292,10 @@ $types = array(
     ),
 
     new Service(
-        title: 'Alma Hybrid mot Pigmentfläckar',
+        title: 'Harmony XL Pro mot Pigmentfläckar',
         duration: '950 minuter',
         price: '4595 kr',
-        content: 'Målriktad laserbehandling för att ljusa upp och reducera pigmentfläckar. Alma Hybrid jämnar ut hudtonen och återställer hudens naturliga lyster.',
+        content: 'Målriktad laserbehandling för att ljusa upp och reducera pigmentfläckar. Harmony XL Pro jämnar ut hudtonen och återställer hudens naturliga lyster.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
         image_alt: 'Laserbehandling för Pigmentfläckar',
@@ -309,10 +309,10 @@ $types = array(
     ),
 
     new Service(
-        title: 'Alma Hybrid mot Aktiv Acne',
+        title: 'Harmony XL Pro mot Aktiv Acne',
         duration: '60 minuter',
         price: '3595 kr',
-        content: 'Innovativ behandling för aktiv acne med Alma Hybrid-laser. Denna teknik angriper acnebakterier och minskar inflammation, vilket leder till en klarare och friskare hud.',
+        content: 'Innovativ behandling för aktiv acne med Harmony XL Pro-laser. Denna teknik angriper acnebakterier och minskar inflammation, vilket leder till en klarare och friskare hud.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
         image_alt: 'Laserbehandling för Aktiv Acne',
@@ -326,10 +326,10 @@ $types = array(
     ),
 
     new Service(
-        title: 'Alma Hybrid mot Stora Porer',
+        title: 'Harmony XL Pro mot Stora Porer',
         duration: '60 minuter',
         price: '3595 kr',
-        content: 'Effektiv behandling för att minska storleken på stora porer. Alma Hybrid-laser förfinar hudens struktur, ger en jämnare hudton och förbättrar hudens övergripande utseende.',
+        content: 'Effektiv behandling för att minska storleken på stora porer. Harmony XL Pro-laser förfinar hudens struktur, ger en jämnare hudton och förbättrar hudens övergripande utseende.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
         image_alt: 'Laserbehandling för Stora Porer',
@@ -343,10 +343,10 @@ $types = array(
     ),
 
     new Service(
-        title: 'Alma Hybrid mot Hudutväxter',
+        title: 'Harmony XL Pro mot Hudutväxter',
         duration: '30 minuter',
         price: '1595 kr',
-        content: 'Säker och skonsam borttagning av hudutväxter med Alma Hybrid-laser. Denna metod erbjuder en effektiv behandling med minimal risk för ärrbildning.',
+        content: 'Säker och skonsam borttagning av hudutväxter med Harmony XL Pro-laser. Denna metod erbjuder en effektiv behandling med minimal risk för ärrbildning.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
         image_alt: 'Laserbehandling för Hudutväxter',
@@ -360,10 +360,10 @@ $types = array(
     ),
 
     new Service(
-        title: 'Alma Hybrid mot Hudförynrging (Skin Rejuvenation)',
+        title: 'Harmony XL Pro mot Hudförynrging (Skin Rejuvenation)',
         duration: '90 minuter',
         price: '4595 kr',
-        content: 'Alma Hybrid-laser ger en omfattande förnyelse och uppfräschning av huden. Denna behandling reducerar ålderstecken och återställer hudens naturliga lyster och vitalitet.',
+        content: 'Harmony XL Pro-laser ger en omfattande förnyelse och uppfräschning av huden. Denna behandling reducerar ålderstecken och återställer hudens naturliga lyster och vitalitet.',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
         image_alt: 'Laserbehandling för Hudutväxter',
@@ -377,8 +377,8 @@ $types = array(
     ),
 );
 
-$treatment_areas_title = 'Behandlingsområden med Alma Hybrid';
-$treatment_areas_text = '<p class="p200">Alma Hybrid är en mångsidig laserbehandling som är effektiv för att behandla en rad olika hudområden. Vi använder denna avancerade teknik för att behandla specifika områden såsom ansikte, hals, dekolletage, rygg och händer.</p>';
+$treatment_areas_title = 'Behandlingsområden med Harmony XL Pro';
+$treatment_areas_text = '<p class="p200">Harmony XL Pro är en mångsidig laserbehandling som är effektiv för att behandla en rad olika hudområden. Vi använder denna avancerade teknik för att behandla specifika områden såsom ansikte, hals, dekolletage, rygg och händer.</p>';
 $treatment_areas = array(
     new TreatmentArea(
         image_small: 'https://via.placeholder.com/361x274.webm',
@@ -492,19 +492,19 @@ $treatment_areas = array(
 );
 
 $bottom_articles = array('aftercare' => new Article(
-    title: 'Eftervård för Alma Hybrid',
+    title: 'Eftervård för Harmony XL Pro',
     image_small: 'https://via.placeholder.com/358x272.webp',
     image_large: 'https://via.placeholder.com/872x456.webp',
-    image_alt: 'Eftervård för Alma Hybrid',
-    image_title: 'Eftervård för Alma Hybrid',
-    content: '<p class="p200">Efter din Alma Hybrid-laserbehandling är det viktigt att noggrant följa våra eftervårdsinstruktioner för att främja en snabb och effektiv läkningsprocess. Du kan förvänta dig en viss rodnad och svullnad i det behandlade området, vilket är en normal reaktion på behandlingen. För att undvika irritation och infektioner, bör du undvika att röra området med orena händer och avstå från att använda makeup under de första 24 timmarna.</p>
+    image_alt: 'Eftervård för Harmony XL Pro',
+    image_title: 'Eftervård för Harmony XL Pro',
+    content: '<p class="p200">Efter din Harmony XL Pro-laserbehandling är det viktigt att noggrant följa våra eftervårdsinstruktioner för att främja en snabb och effektiv läkningsprocess. Du kan förvänta dig en viss rodnad och svullnad i det behandlade området, vilket är en normal reaktion på behandlingen. För att undvika irritation och infektioner, bör du undvika att röra området med orena händer och avstå från att använda makeup under de första 24 timmarna.</p>
     <p class="p200 mt-m">Under de första dagarna efter behandlingen är det viktigt att du undviker fysisk ansträngning, heta duschar och bastu, eftersom dessa kan förvärra svullnaden och rodnaden. Solskydd är kritiskt; applicera en hög SPF för att skydda den känsliga huden från solens strålar. Vi rekommenderar att du använder milda och återfuktande hudvårdsprodukter som är fria från parfymer och andra irriterande ingredienser för att stödja hudens läkningsprocess och bibehålla fuktbalansen.</p>
     <p class="p200 mt-m">Det är viktigt att du följer de eftervårdsinstruktioner som ges av din hudterapeut. Om du har några frågor eller oro efter din behandling, tveka inte att kontakta oss för rådgivning. Regelbundna uppföljningar och eventuellt ytterligare behandlingar kan rekommenderas beroende på din hudtyp och de hudvårdsresultat du önskar uppnå.</p>',
     tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
 
 $service_brands_title = 'Andra märken för laser';
-$service_brands_text = '<p class="p200">Utöver Alma Hybrid har vi ett bredd utbud av moderna och effektiva lasermaskiner.</p>';
+$service_brands_text = '<p class="p200">Utöver Harmony XL Pro har vi ett bredd utbud av moderna och effektiva lasermaskiner.</p>';
 $service_brands = array(
 
     new Brand(
@@ -619,20 +619,20 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Hur många Alma Hybrid-behandlingar behövs för bästa resultat?',
-            text: 'Antalet Alma Hybrid-behandlingar varierar beroende på dina specifika hudproblem och önskade resultat. Vanligtvis rekommenderas en serie av 3-5 behandlingar med intervaller på några veckor. En skräddarsydd behandlingsplan kommer att utformas under din konsultation för att möta dina unika behov.'
+            title: 'Hur många Harmony XL Pro-behandlingar behövs för bästa resultat?',
+            text: 'Antalet Harmony XL Pro-behandlingar varierar beroende på dina specifika hudproblem och önskade resultat. Vanligtvis rekommenderas en serie av 3-5 behandlingar med intervaller på några veckor. En skräddarsydd behandlingsplan kommer att utformas under din konsultation för att möta dina unika behov.'
         ),
         new Question(
-            title: 'Hur långvariga är effekterna av Alma Hybrid-behandlingar?',
-            text: 'Effekterna från Alma Hybrid-behandlingar kan vara långvariga, men det är viktigt att notera att yttre faktorer som solens strålar och hudens naturliga åldrande kan påverka resultaten över tid. Regelbundna underhållsbehandlingar och en noggrann hudvårdsrutin kan hjälpa till att bevara de positiva resultaten.'
+            title: 'Hur långvariga är effekterna av Harmony XL Pro-behandlingar?',
+            text: 'Effekterna från Harmony XL Pro-behandlingar kan vara långvariga, men det är viktigt att notera att yttre faktorer som solens strålar och hudens naturliga åldrande kan påverka resultaten över tid. Regelbundna underhållsbehandlingar och en noggrann hudvårdsrutin kan hjälpa till att bevara de positiva resultaten.'
         ),
         new Question(
-            title: 'Vad kan jag förvänta mig efter en Alma Hybrid-behandling?',
-            text: 'Efter en Alma Hybrid-behandling kan du förvänta dig en viss rodnad, svullnad och känslighet i det behandlade området. Dessa är vanliga reaktioner och brukar avta inom några dagar. Följ eftervårdsinstruktionerna noggrant och skydda huden väl mot solen för att stödja läkningsprocessen.'
+            title: 'Vad kan jag förvänta mig efter en Harmony XL Pro-behandling?',
+            text: 'Efter en Harmony XL Pro-behandling kan du förvänta dig en viss rodnad, svullnad och känslighet i det behandlade området. Dessa är vanliga reaktioner och brukar avta inom några dagar. Följ eftervårdsinstruktionerna noggrant och skydda huden väl mot solen för att stödja läkningsprocessen.'
         ),
         new Question(
-            title: 'Krävs det särskild eftervård efter Alma Hybrid-behandling?',
-            text: 'Efter en Alma Hybrid-behandling är det viktigt med korrekt eftervård för att maximera resultatet. Detta inkluderar användning av solskydd, undvikande av direkt solljus och användning av mjuka, återfuktande hudvårdsprodukter. Din hudterapeut kommer att ge dig skräddarsydda råd för din hudtyp och behandling.'
+            title: 'Krävs det särskild eftervård efter Harmony XL Pro-behandling?',
+            text: 'Efter en Harmony XL Pro-behandling är det viktigt med korrekt eftervård för att maximera resultatet. Detta inkluderar användning av solskydd, undvikande av direkt solljus och användning av mjuka, återfuktande hudvårdsprodukter. Din hudterapeut kommer att ge dig skräddarsydda råd för din hudtyp och behandling.'
         ),
     )
 );
