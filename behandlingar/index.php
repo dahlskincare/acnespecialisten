@@ -291,8 +291,8 @@ $service_categories = array(
         consultation_url_label: 'Boka hudkonsultation'
     ),
     new ServiceCategory(
-        id: 'injections',
-        label: 'Injections',
+        id: 'injektionsbehandlingar',
+        label: 'Injektionsbehandlingar',
         content: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...',
         image_small: 'https://via.placeholder.com/200x200',
         image_large: 'https://via.placeholder.com/424x324.jpg',
@@ -300,26 +300,7 @@ $service_categories = array(
         image_title: 'Injections',
         services: array(
             new Service(
-                url: 'behandlingar/injections/botox',
-                url_label: 'Läs mer',
-                url_title: 'Läs mer om botox',
-                title: 'Botox',
-                duration: '50 min',
-                price: '100 kr',
-                content: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...',
-                image_small: 'https://via.placeholder.com/200x200.jpg',
-                image_large: 'https://via.placeholder.com/424x324.jpg',
-                image_alt: 'Botox',
-                image_title: 'Botox',
-                consultation_url: 'hudkonsultation',
-                consultation_url_label: 'Boka tid för hudkonsultation',
-                consultation_url_title: 'Boka tid för hudkonsultation',
-                booking_url: 'https://bokadirekt.se',
-                booking_url_label: 'Boka tid för botox',
-                booking_url_title: 'Boka tid för botox',
-            ),
-            new Service(
-                url: 'behandlingar/injections/fillers',
+                url: '/varumarken/fillers',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om fillers',
                 title: 'Fillers',
@@ -346,8 +327,8 @@ $service_categories = array(
         consultation_url_label: 'Boka hudkonsultation'
     ),
     new ServiceCategory(
-        id: 'freeze-treat',
-        label: 'FreezeTreat',
+        id: 'frysbehandling',
+        label: 'Frysbehandling',
         content: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...',
         image_small: 'https://via.placeholder.com/200x200',
         image_large: 'https://via.placeholder.com/424x324.jpg',
@@ -355,7 +336,7 @@ $service_categories = array(
         image_title: 'FreezeTreat',
         services: array(
             new Service(
-                url: 'behandlingar/freeze-treat/cryopen',
+                url: '/varumarken/cryopen',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om cryopen',
                 title: 'Cryopen',
@@ -391,6 +372,63 @@ $service_categories = array(
         image_title: 'IPL',
         services: array(
             new Service(
+                url: 'behandlingar/ipl/ipl-rosacea',
+                url_label: 'Läs mer',
+                url_title: 'Läs mer om IPL Rosacea',
+                title: 'IPL Rosacea',
+                duration: '50 min',
+                price: '100 kr',
+                content: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...',
+                image_small: 'https://via.placeholder.com/200x200.jpg',
+                image_large: 'https://via.placeholder.com/424x324.jpg',
+                image_alt: 'Alma Rejuve',
+                image_title: 'Alma Rejuve',
+                consultation_url: 'hudkonsultation',
+                consultation_url_label: 'Boka tid för hudkonsultation',
+                consultation_url_title: 'Boka tid för hudkonsultation',
+                booking_url: 'https://bokadirekt.se',
+                booking_url_label: 'Boka tid för IPL Rosacea',
+                booking_url_title: 'Boka tid för IPL Rosacea',
+            ),
+            new Service(
+                url: 'behandlingar/ipl/ipl-ytliga-blodkarl',
+                url_label: 'Läs mer',
+                url_title: 'Läs mer om IPL Ytliga Blodkärl',
+                title: 'IPL Ytliga Blodkärl',
+                duration: '50 min',
+                price: '100 kr',
+                content: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...',
+                image_small: 'https://via.placeholder.com/200x200.jpg',
+                image_large: 'https://via.placeholder.com/424x324.jpg',
+                image_alt: 'Alma Rejuve',
+                image_title: 'Alma Rejuve',
+                consultation_url: 'hudkonsultation',
+                consultation_url_label: 'Boka tid för hudkonsultation',
+                consultation_url_title: 'Boka tid för hudkonsultation',
+                booking_url: 'https://bokadirekt.se',
+                booking_url_label: 'Boka tid för IPL Ytliga Blodkärl',
+                booking_url_title: 'Boka tid för IPL Ytliga Blodkärl',
+            ),
+            new Service(
+                url: 'behandlingar/ipl/ipl-pigmentflackar',
+                url_label: 'Läs mer',
+                url_title: 'Läs mer om IPL Pigmentfläckar',
+                title: 'IPL Pigmentfläckar',
+                duration: '50 min',
+                price: '100 kr',
+                content: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...',
+                image_small: 'https://via.placeholder.com/200x200.jpg',
+                image_large: 'https://via.placeholder.com/424x324.jpg',
+                image_alt: 'Alma Rejuve',
+                image_title: 'Alma Rejuve',
+                consultation_url: 'hudkonsultation',
+                consultation_url_label: 'Boka tid för hudkonsultation',
+                consultation_url_title: 'Boka tid för hudkonsultation',
+                booking_url: 'https://bokadirekt.se',
+                booking_url_label: 'Boka tid för IPL Pigmentfläckar',
+                booking_url_title: 'Boka tid för IPL Pigmentfläckar',
+            ),
+            /*new Service(
                 url: 'behandlingar/ipl/alma-rejuve',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om Alma Rejuve',
@@ -427,7 +465,7 @@ $service_categories = array(
                 booking_url: 'https://bokadirekt.se',
                 booking_url_label: 'Boka tid för PhotoNova / Powerlight',
                 booking_url_title: 'Boka tid för PhotoNova / Powerlight',
-            ),
+            ),*/
         ),
         booking_url: 'treatment-booking?service=ipl',
         booking_url_title: 'Boka tid för ansiktsbehandling',
@@ -437,8 +475,8 @@ $service_categories = array(
         consultation_url_label: 'Boka hudkonsultation'
     ),
     new ServiceCategory(
-        id: 'laser-for-hair-removal',
-        label: 'Laser for hair removal',
+        id: 'permanent-harborttagning',
+        label: 'Permanent Hårborttagning',
         content: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...',
         image_small: 'https://via.placeholder.com/200x200',
         image_large: 'https://via.placeholder.com/424x324.jpg',
@@ -683,7 +721,7 @@ $service_categories = array(
                 description: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
                 description_extended: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
                 button_url: 'hudkonsultation',
-                button_label: 'Gör en gratis konsultation'
+                button_label: 'Boka en gratis konsultation'
             );
             include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/green_header_banner.php');
             ?>
