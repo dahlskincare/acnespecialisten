@@ -416,20 +416,23 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Hur ofta behöver jag genomföra injektionsbehandlingar?',
-            text: 'Antalet injektionsbehandlingar varierar beroende på individuella mål och hudens reaktion. Oftast rekommenderas initiala behandlingar med uppföljande underhållsbehandlingar var tredje till sjätte månad för att upprätthålla resultatet.'
+            title: 'Hur ofta bör jag genomföra fillersbehandlingar?',
+            text: 'Frekvensen för fillersbehandlingar beror på dina individuella estetiska mål och hur din hud reagerar på behandlingen. Vanligtvis rekommenderas en initial behandlingsserie följt av underhållsbehandlingar var 3-6 månader för att bibehålla och förstärka resultatet.'
         ),
+
         new Question(
-            title: 'Vad kan jag förvänta mig efter en injektionsbehandling?',
-            text: 'Efter en injektionsbehandling kan du uppleva lätt svullnad eller rodnad i behandlingsområdet. Dessa symtom är vanligtvis milda och tillfälliga. Resultaten blir synliga efter några dagar när svullnaden har lagt sig.'
+            title: 'Vilka omedelbara effekter kan jag förvänta mig efter fillersbehandling?',
+            text: 'Efter en fillersbehandling kan du märka omedelbara effekter som lätt svullnad och kanske lite rodnad i det behandlade området. Dessa reaktioner är vanligen milda och övergående. De slutgiltiga resultaten framträder tydligare när eventuell svullnad lagt sig, oftast inom några dagar.'
         ),
+
         new Question(
-            title: 'När kan jag återgå till mina normala aktiviteter efter en injektionsbehandling?',
-            text: 'De flesta kan återgå till sina normala aktiviteter direkt efter behandlingen. Vi rekommenderar dock att undvika ansträngande fysisk aktivitet och direkt solstrålning under de första 24 timmarna för att minimera svullnad och blåmärken.'
+            title: 'När är det säkert att återuppta mina vanliga aktiviteter efter fillersbehandling?',
+            text: 'De flesta klienter kan återgå till sitt normala liv direkt efter en fillersbehandling. Vi rekommenderar dock att du undviker kraftig fysisk aktivitet och direkt exponering för solen under de första 24 timmarna efter behandlingen för att minska risken för svullnad och blåmärken.'
         ),
+
         new Question(
-            title: 'Behöver jag någon speciell eftervård efter en injektionsbehandling?',
-            text: 'Efter injektionsbehandlingar är det viktigt att undvika att röra vid behandlingsområdet under de första timmarna. Använd solskydd och milda hudvårdsprodukter för att skydda och lugna huden. Vi ger dig detaljerade eftervårdsinstruktioner beroende på din specifika behandling.'
+            title: 'Finns det några speciella eftervårdsinstruktioner jag bör följa efter fillersbehandling?',
+            text: 'Efter din fillersbehandling är det viktigt att följa specifika eftervårdsinstruktioner för optimal läkning. Det innefattar att inte röra behandlingsområdet och att använda solskydd samt milda hudvårdsprodukter för att skydda och lugna huden. Vi kommer att ge dig detaljerade instruktioner anpassade efter din behandling.'
         ),
     )
 );
