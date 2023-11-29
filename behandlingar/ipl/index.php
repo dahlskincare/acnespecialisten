@@ -485,33 +485,33 @@ $faq_categories = array(
     'Vanliga Frågor' => array(
         new Question(
             title: 'Hur många IPL-behandlingar behövs vanligtvis?',
-            text: 'Antalet IPL-behandlingar som krävs varierar beroende på individens specifika hudtillstånd och de mål som satts upp. Generellt sett kan man behöva 3-8 behandlingar med ungefär 4 veckors mellanrum för att uppnå optimala resultat. En individuell behandlingsplan upprättas under din initiala konsultation baserat på dina unika hudbehov.'
+            text: '<p class="p200">Antalet IPL-behandlingar som krävs varierar beroende på individens specifika hudtillstånd och de mål som satts upp. Generellt sett kan man behöva 3-8 behandlingar med ungefär 4 veckors mellanrum för att uppnå optimala resultat. En individuell behandlingsplan upprättas under din initiala konsultation baserat på dina unika hudbehov.</p>'
         ),
         new Question(
             title: 'Kan mina hudproblem återkomma efter en IPL-behandling?',
-            text: 'IPL-behandlingar är mycket effektiva för att adressera befintliga hudproblem som pigmentfläckar, ytliga blodkärl och rosacea. Men det är viktigt att notera att nya hudproblem kan uppstå på grund av faktorer som åldrande och solskador. En regelbunden hudvårdsrutin och skydd mot solen är viktigt för att underhålla resultaten, och ytterligare behandlingar kan behövas för att upprätthålla effekterna över tid.'
+            text: '<p class="p200">IPL-behandlingar är mycket effektiva för att adressera befintliga hudproblem som pigmentfläckar, ytliga blodkärl och rosacea. Men det är viktigt att notera att nya hudproblem kan uppstå på grund av faktorer som åldrande och solskador. En regelbunden hudvårdsrutin och skydd mot solen är viktigt för att underhålla resultaten, och ytterligare behandlingar kan behövas för att upprätthålla effekterna över tid.</p>'
         ),
         new Question(
             title: 'Hur snabbt kan jag se resultat efter en IPL-behandling?',
-            text: 'Resultaten från en IPL-behandling kan variera från person till person. Många upplever en synlig förbättring redan efter den första behandlingen, men de fullständiga effekterna blir ofta tydligare efter en serie behandlingar. Förändringar i hudens utseende och kvalitet fortsätter vanligtvis att utvecklas och förbättras under veckorna mellan behandlingarna och efter behandlingsserien är avslutad.'
+            text: '<p class="p200">Resultaten från en IPL-behandling kan variera från person till person. Många upplever en synlig förbättring redan efter den första behandlingen, men de fullständiga effekterna blir ofta tydligare efter en serie behandlingar. Förändringar i hudens utseende och kvalitet fortsätter vanligtvis att utvecklas och förbättras under veckorna mellan behandlingarna och efter behandlingsserien är avslutad.</p>'
         ),
     ),
     'Kontraindikationer' => array(
         new Question(
             title: 'Graviditet och amning',
-            text: 'IPL-behandlingar rekommenderas inte under graviditet eller amning då säkerheten för dessa tillstånd inte är tillräckligt studerad.'
+            text: '<p class="p200">IPL-behandlingar rekommenderas inte under graviditet eller amning då säkerheten för dessa tillstånd inte är tillräckligt studerad.</p>'
         ),
         new Question(
             title: 'Ljuskänsliggörande mediciner',
-            text: 'Personer som tar mediciner som ökar hudens ljuskänslighet, som vissa antibiotika eller retinoider, bör undvika IPL-behandlingar.'
+            text: '<p class="p200">Personer som tar mediciner som ökar hudens ljuskänslighet, som vissa antibiotika eller retinoider, bör undvika IPL-behandlingar.</p>'
         ),
         new Question(
             title: 'Aktiv solbränna eller nyligen solariumanvändning',
-            text: 'IPL-behandlingar är inte lämpliga för nyligen solbränd hud eller hud som exponerats för UV-strålar i solarium.'
+            text: '<p class="p200">IPL-behandlingar är inte lämpliga för nyligen solbränd hud eller hud som exponerats för UV-strålar i solarium.</p>'
         ),
         new Question(
             title: 'Historik av keloidärrbildning eller onormal ärrbildning',
-            text: 'Personer med en historik av keloider eller onormal ärrbildning bör undvika IPL-behandlingar på grund av risken för ytterligare ärrbildning.'
+            text: '<p class="p200">Personer med en historik av keloider eller onormal ärrbildning bör undvika IPL-behandlingar på grund av risken för ytterligare ärrbildning.</p>'
         ),
     ),
 );
