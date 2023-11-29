@@ -138,7 +138,8 @@ $service = new Service(
 
 $headline02 = "02. Behandla oönskat hår";
 
-$services = new Service(
+$services = array(
+      new Service(
             title: 'Laser för hårborttagning',
             duration: '50 min',
             price: '2595 kr',
@@ -160,6 +161,7 @@ $services = new Service(
             booking_url_label: 'Boka tid för laserbehandling för hårborttagning',
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/hairspecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/h%C3%A5rborttagning-konsultation-1643922',
             booking_url_title: 'Klicka för att boka tid för en laserbehandling för hårborttagning'
+      )
 );
 
 
