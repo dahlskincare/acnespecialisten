@@ -6,10 +6,10 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 
 <head>
     <!-- TODO: Set title and meta tags -->
-    <title class="l10n">Acnespecialisten | About</title>
-    <meta name="description" content="" class="l10n">
-    <meta name="title" content="" class="l10n">
-    <meta name="keywords" content="" class="l10n">
+    <title class="l10n">Om Oss - AcneSpecialisten | Din Partner i Hudvård</title>
+    <meta name="description" content="AcneSpecialisten är din dedikerade partner i kampen mot acne och andra hudproblem. Med en kombination av expertkunskap, skräddarsydda behandlingar och en holistisk syn på hudvård, strävar vi efter att förbättra din hudhälsa och ditt välbefinnande." class="l10n">
+    <meta name="title" content="AcneSpecialisten - Expertis inom Hudvård och Behandling av Acne" class="l10n">
+    <meta name="keywords" content="Acnebehandling, Hudvårdspecialister, Hudproblem, Ansiktsbehandling, Personlig hudvård, Hudhälsa, AcneSpecialisten" class="l10n">
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
 
@@ -32,23 +32,23 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
         <div class="container">
             <div id="content">
                 <section id="title">
-                    <h1 class="h600 l10n">About us</h1>
-                    <p class="p200 l10n">At Acnespecialisten there is an experienced and well-educated group of doctors with specialist skills and broad experience from the aesthetic and reconstructive industry.</p>
+                    <h1 class="h600 l10n">Om AcneSpecialisten</h1>
+                    <p class="p200 l10n">På AcneSpecialisten har vi under 30 år utvecklat en unik och effektiv trestegsmetod för att behandla problemhy. Vårt engagerade team av experter följer dig genom hela behandlingsprocessen, från noggrann analys till personligt anpassade behandlingar. Vi erbjuder skräddarsydda hudvårdsrutiner som främjar din huds naturliga balans och hälsa, utan att kompromissa med kroppens välbefinnande. Med vår långa erfarenhet och metodik står vi redo att hjälpa dig uppnå och bibehålla en frisk och balanserad hud.</p>
                 </section>
                 <section id="plant">
                     <picture>
                         <source media="(max-width: 799px)" srcset="om-oss/images/about-plant.jpg">
                         <source media="(min-width: 800px)" srcset="om-oss/images/about-plant-large.jpg">
-                        <img src="images/about/about-plant.jpg" alt="About us" title="About us" width="360" height="274" />
+                        <img src="images/about/about-plant.jpg" alt="Om AcneSpecialisten" title="Om AcneSpecialisten" width="360" height="274" />
                     </picture>
                 </section>
                 <section id="segments" class="large-margin">
-                    <h2 class="h500 mb-l is-hidden-tablet l10n">What does our three-step method entail?</h2>
+                    <h2 class="h500 mb-l is-hidden-tablet l10n">Vad innebär vår trestegsmetod?</h2>
                     <div id="segments-flex">
                         <div id="s-first-two">
                             <div id="s-first-two-text" class="is-hidden-mobile">
-                                <h2 class="h500 l10n">What does our three-step method entail?</h2>
-                                <p class="p200 l10n">Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments.</p>
+                                <h2 class="h500 l10n">Vad innebär vår trestegsmetod?</h2>
+                                <p class="p200 l10n">På AcneSpecialisten använder vi en omfattande trestegsmetod för att effektivt hantera din problemhy. Först identifierar vi kärnan till dina hudproblem genom noggrann analys. Därefter skräddarsyr vi behandlingar för att direkt åtgärda dessa problem. Slutligen fokuserar vi på att bibehålla och skydda de uppnådda resultaten, för att försäkra långsiktig hudhälsa. Genom hela din hudvårdsresa är vi tillgängliga för dig via din personliga profil, så att du alltid kan känna dig trygg och stöttad i din hudvårdsprocess.</p>
                             </div>
                             <div id="s-first-images">
                                 <picture>
@@ -71,45 +71,45 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
                             </picture>
                         </div>
                     </div>
-                    <p class="mt-xl p200 is-hidden-tablet l10n">Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments.</p>
+                    <p class="mt-xl p200 is-hidden-tablet l10n">På AcneSpecialisten använder vi en omfattande trestegsmetod för att effektivt hantera din problemhy. Först identifierar vi kärnan till dina hudproblem genom noggrann analys. Därefter skräddarsyr vi behandlingar för att direkt åtgärda dessa problem. Slutligen fokuserar vi på att bibehålla och skydda de uppnådda resultaten, för att försäkra långsiktig hudhälsa. Genom hela din hudvårdsresa är vi tillgängliga för dig via din personliga profil, så att du alltid kan känna dig trygg och stöttad i din hudvårdsprocess.</p>
                 </section>
                 <section id="hands" class="large-margin">
-                    <h2 class="h500 l10n">We are aiming for the goal!</h2>
-                    <p class="mt-m p200 l10n is-hidden-mobile">Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments. We hereby present our new department Nordiska Kliniken Hud Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery.</p>
+                    <h2 class="h500 l10n">Vi siktar mot målet!</h2>
+                    <p class="mt-m p200 l10n is-hidden-mobile">På AcneSpecialisten är ditt nöjda leende och synliga hudförbättringar vårt främsta mål. Med fyra välplacerade salonger i Stockholmsregionen, står vi redo att välkomna dig på din resa mot en klarare och friskare hy. Vår expertis och engagemang speglas i de förstklassiga behandlingar och högkvalitativa produkter vi erbjuder, alla noggrant utvalda och beprövade för sin effektivitet. Vi ser fram emot att hjälpa dig uppnå din drömhud och ge dig den uppmärksamhet och vård du förtjänar.</p>
                     <picture>
                         <source media="(max-width: 799px)" srcset="om-oss/images/about-hands.jpg">
                         <source media="(min-width: 800px)" srcset="om-oss/images/about-hands-large.jpg">
-                        <img src="images/about/about-hands.jpg" alt="Aiming for the goal" title="Aiming for the goal" width="358" height="274" />
+                        <img src="images/about/about-hands.jpg" alt="Vi siktar mot målet!" title="Vi siktar mot målet!" width="358" height="274" />
                     </picture>
-                    <p class="p200 mt-xl l10n is-hidden-tablet">Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments. We hereby present our new department Nordiska Kliniken Hud Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery.</p>
+                    <p class="p200 mt-xl l10n is-hidden-tablet">På AcneSpecialisten är ditt nöjda leende och synliga hudförbättringar vårt främsta mål. Med fyra välplacerade salonger i Stockholmsregionen, står vi redo att välkomna dig på din resa mot en klarare och friskare hy. Vår expertis och engagemang speglas i de förstklassiga behandlingar och högkvalitativa produkter vi erbjuder, alla noggrant utvalda och beprövade för sin effektivitet. Vi ser fram emot att hjälpa dig uppnå din drömhud och ge dig den uppmärksamhet och vård du förtjänar.</p>
                 </section>
                 <section id="bullets" class="large-margin">
                     <div class="columns">
                         <div class="column">
                             <div class="flex-row align-center">
                                 <?php icon('star') ?>
-                                <h3 class="h200 ml-s l10n">Unique solution</h3>
+                                <h3 class="h200 ml-s l10n">Unik helhetslösning</h3>
                             </div>
                             <p class="bullet-desc l10n">
-                                In a personal meeting with a skin specialist, your skin type is examined and identified.
+                                På AcneSpecialisten är vi dedikerade till att ge dig en omfattande lösning för din hud. Vår beprövade metod innebär att vi inte bara identifierar och behandlar dina hudproblem, utan även hjälper dig att bibehålla en frisk och balanserad hud på lång sikt. Genom hela processen står vi vid din sida, och vi tillhandahåller en skräddarsydd hudvårdsrutin som är anpassad specifikt för din unika hudtyp.
                             </p>
                         </div>
                         <div class="column">
                             <div class="flex-row align-center">
                                 <?php icon('star') ?>
-                                <h3 class="h200 ml-s l10n">25 years</h3>
+                                <h3 class="h200 ml-s l10n">30 års erfarenhet</h3>
                             </div>
                             <p class="bullet-desc l10n">
-                                In a personal meeting with a skin specialist, your skin type is examined and identified.
+                                Sedan vår grundläggning 1994 har vi stolt hjälpt över 100.000 kunder att uppnå en bättre hudhälsa. Vår resa som AcneSpecialisten har varit fylld av kontinuerlig lärande och förfining av vår kunskap inom problemhy och hudvård. Vår långa erfarenhet ger oss en unik förmåga att ständigt utveckla och förbättra våra behandlingar och tjänster.
                             </p>
                         </div>
                         <div class="column">
                             <div class="flex-row align-center">
                                 <?php icon('star') ?>
-                                <h3 class="h200 ml-s l10n">Unique solution</h3>
+                                <h3 class="h200 ml-s l10n">Diplomerade hudspecialister</h3>
                             </div>
                             <p class="bullet-desc l10n">
-                                In a personal meeting with a skin specialist, your skin type is examined and identified.
+                                Varje medlem i vårt team är en certifierad hudterapeut med specialutbildning inom de behandlingar vi erbjuder. Detta garanterar att alla behandlingar utförs med högsta möjliga kvalitet och precision, enligt branschstandarder och bästa praxis. Vårt engagemang för kvalitet och kunskap säkerställer att du får den mest effektiva och säkra hudvården.
                             </p>
                         </div>
                     </div>
