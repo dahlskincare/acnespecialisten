@@ -142,6 +142,7 @@ $treatment_steps = array(
 
 $treatment_link = '<a href="problem/mogen-hy/behandla-mogen-hy" title="Utforska effektiva behandlingar mot mogen hy" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot mogen hy</a>';
 
+/*
 $types_title = 'Olika typer av mogen hy';
 
 $type_categories = array(
@@ -398,7 +399,7 @@ $symptoms = array(
             image_title: 'Minskad lyster'
       ),
 );
-
+*/
 $headline01 = "01. Utforska din mogen hy";
 
 $service = new Service(

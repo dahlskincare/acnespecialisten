@@ -132,7 +132,7 @@ $treatment_steps = array(
 
 );
 $treatment_link = '<a href="problem/rosacea/rosaceabehandling" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra rosaceabehandlingar</a>';
-
+/*
 $types_title = 'Olika typer av rosacea';
 
 $type_categories = array(
@@ -163,7 +163,7 @@ $type_categories = array(
                   ),
             )
       ),
-      /*new BasedTypeCategory(
+      new BasedTypeCategory(
             title: 'Yttre faktorer som förvärrar rosacea',
             content: '<p class="p200">Rosacea kan förvärras eller till och med utlösas av en rad yttre faktorer. Genom att förstå och hantera dessa faktorer kan individer potentiellt minska frekvensen och svårighetsgraden av deras rosacea-utbrott.</p>',
             types: array(
@@ -217,10 +217,10 @@ $type_categories = array(
                         subtitle: '',
                   ),
             )
-      ),*/
+      ),
 
 );
-
+*/
 $symptoms_title = 'Rosacea symptom';
 
 $symptoms = array(

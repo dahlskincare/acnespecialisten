@@ -129,7 +129,7 @@ $treatment_steps = array(
 
 );
 $treatment_link = '<a href="problem/pormaskar/pormaskbehandling" title="Utforska effektiv portömning" class="mt-xl button b200 outline expand auto-width">Läs mer om vår portömning</a>';
-
+/*
 $types_title = 'Olika typer av pormaskar';
 
 $type_categories = array(
@@ -208,13 +208,6 @@ $type_categories = array(
                         subtitle: 'UV-strålar kan förvärra hudproblem och potentiellt förvärra pormaskar.',
                   ),
                   new BasedType(
-                        image_url: 'images/problems/102x102/kost.webp',
-                        image_alt: 'Bild av fet mat',
-                        image_title: 'Fet mat och socker',
-                        title: 'Kläder och utrustning',
-                        subtitle: 'Täta hattar, hjälmar och tajta kläder kan leda till svett och olja som kan täppa till porerna.',
-                  ),
-                  new BasedType(
                         image_url: 'images/problems/102x102/stress.webp',
                         image_alt: 'Bild av stress',
                         image_title: 'Stress',
@@ -261,7 +254,7 @@ $type_categories = array(
       ),
 
 );
-
+*/
 $symptoms_title = 'Pormaskar symptom';
 
 $symptoms = array(

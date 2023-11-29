@@ -131,7 +131,7 @@ $treatment_steps = array(
             url_title: 'Utforska våra specialanpassade behandlingar för operations- och skadeärr'
       ),
 );
-
+/*
 $types_title = 'Olika typer av operations- och skadeärr';
 
 $type_categories = array(
@@ -228,7 +228,7 @@ $type_categories = array(
       ),
 
 );
-
+*/
 $headline01 = "01. Identifiera ditt ärr";
 
 $service = new Service(

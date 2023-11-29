@@ -123,7 +123,7 @@ $treatment_steps = array(
             url_title: 'Utforska våra skräddarsydda behandlingar för ytliga blodkärl'
       ),
 );
-
+/*
 $types_title = 'Olika typer av ytliga blodkärl';
 
 $type_categories = array(
@@ -345,7 +345,7 @@ $symptoms = array(
             image_title: 'Ytliga Blodkärl är Vanligtvis Smärtfria'
       ),
 );
-
+*/
 $headline01 = "01. Identifiera dina ytliga blodkärl";
 
 $service = new Service(
