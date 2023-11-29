@@ -165,13 +165,13 @@ $services = new Service(
 
 $articles = array(
       new Article(
-            title: 'Varför AcneSpecialisten?!',
+            title: 'Varför AcneSpecialisten?',
             content: '<p class="p200">Du som vill ha det som är bäst mot akne bör välja Acnespecialisten eftersom vi är experter på att behandla akne och har över 30 års erfarenhet av att ha arbetat med olika typer av akne. Vi lever upp till vårt namn genom att erbjuda personlig och professionell hjälp för att hjälpa dig att uppnå en klar och frisk hud. Vi skräddarsyr behandlingar baserade på dina individuella problem och behov, vi rekommenderar de bästa akneprodukterna för att förebygga och behandla din hud och akne. </p><p class="p200 mt-m">Genom att välja Acnespecialisten får du den mest effektiva behandlingen för ditt specifika fall och en hudvårdspartner som stöttar dig genom hela processen.</p>',
 
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'Varför AcneSpecialisten?!',
-            image_title: 'Varför AcneSpecialisten?!',
+            image_alt: 'Varför AcneSpecialisten?',
+            image_title: 'Varför AcneSpecialisten?',
       ),
       new Article(
             title: 'När ska jag besöka AcneSpecialisten?',

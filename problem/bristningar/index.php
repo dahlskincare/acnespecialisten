@@ -1039,7 +1039,7 @@ $brands_url_title = "Varumärken för behandling av bristningar";
                                                 </div>
                                           <?php } ?>
                                     </div>
-                                    <?php echo $types_url ?>
+                                    <!--<?php echo $types_url ?>-->
                               </section>
                         <?php } ?>
                         <?php if (sizeof($symptoms) > 0) { ?>

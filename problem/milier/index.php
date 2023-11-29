@@ -856,7 +856,7 @@ $brands_url_title = "Varumärken för Milierbehandling";
                                                 </div>
                                           <?php } ?>
                                     </div>
-                                    <?php echo $types_url ?>
+                                    <!--<?php echo $types_url ?>-->
                               </section>
                         <?php } ?>
                         <?php if (sizeof($symptoms) > 0) { ?>

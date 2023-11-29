@@ -163,7 +163,7 @@ $type_categories = array(
                   ),
             )
       ),
-      new BasedTypeCategory(
+      /*new BasedTypeCategory(
             title: 'Yttre faktorer som förvärrar rosacea',
             content: '<p class="p200">Rosacea kan förvärras eller till och med utlösas av en rad yttre faktorer. Genom att förstå och hantera dessa faktorer kan individer potentiellt minska frekvensen och svårighetsgraden av deras rosacea-utbrott.</p>',
             types: array(
@@ -217,7 +217,7 @@ $type_categories = array(
                         subtitle: '',
                   ),
             )
-      ),
+      ),*/
 
 );
 
