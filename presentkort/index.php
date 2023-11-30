@@ -22,7 +22,7 @@ if (form_completed()) {
     $file_tmp_name = $file['tmp_name'];
     $file_content = file_get_contents($file_tmp_name);
     $from = 'Acnespecialisten <auto@acnespecialisten.com>';
-    $to = "patrick.minougue@gmail.com"; //"kund@acnespecialisten.se";
+    $to = "patrick.minogue@gmail.com"; //"kund@acnespecialisten.se";
     $subject = "Acnespecialisten gift card";
     $boundary = uniqid('np');  // Boundary string for multipart message
     $headers = "From: $from\r\n";
