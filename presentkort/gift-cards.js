@@ -19,8 +19,20 @@ function onFileDrop(e) {
         }
     }
 }
-function onPhysicalChange() {
-    console.log('hej');
+var physical = false;
+function onPhysicalChange(e) {
+    var input = e.parentElement.querySelector('input');
+    physical = !physical;
+    input.value = physical ? 'on' : 'off';
+    console.log(input.value);
+    document.querySelectorAll('.physicalAddressDetails').forEach(function (el) {
+        if (input.value == 'on') {
+            el.classList.remove('is-hidden');
+        }
+        else {
+            el.classList.add('is-hidden');
+        }
+    });
 }
 function onAmountChange(event) {
     var select = event.target;

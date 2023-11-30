@@ -20,8 +20,20 @@ function onFileDrop(e: DragEvent) {
     }
 }
 
-function onPhysicalChange() {
-    console.log('hej');
+let physical = false;
+
+function onPhysicalChange(e: HTMLElement) {
+    let input = e.parentElement.querySelector('input');
+    physical = !physical;
+    input.value = physical ? 'on' : 'off';
+    console.log(input.value);
+    document.querySelectorAll('.physicalAddressDetails').forEach((el) => {
+        if (input.value == 'on') {
+            el.classList.remove('is-hidden');
+        } else {
+            el.classList.add('is-hidden');
+        }
+    });
 }
 
 function onAmountChange(event: Event) {

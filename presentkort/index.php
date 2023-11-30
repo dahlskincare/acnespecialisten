@@ -15,6 +15,10 @@ if (form_completed()) {
     $email = $_POST['email'];
     $phone = $_POST['phone'];
     $physical = array_key_exists('physical', $_POST) ? 'yes' : 'no';
+    $street1 = array_key_exists('street1', $_POST) ? $_POST['street1'] : '';
+    $street2 = array_key_exists('street2', $_POST) ? $_POST['street2'] : '';
+    $zip = array_key_exists('zip', $_POST) ? $_POST['zip'] : '';
+    $city = array_key_exists('city', $_POST) ? $_POST['city'] : '';
     $file = $_FILES['file'];
     $file_type = $file['type'];
     $file_name = $file['name'];
@@ -22,7 +26,7 @@ if (form_completed()) {
     $file_tmp_name = $file['tmp_name'];
     $file_content = file_get_contents($file_tmp_name);
     $from = 'Acnespecialisten <auto@acnespecialisten.com>';
-    $to = "patrick.minogue@gmail.com"; //"kund@acnespecialisten.se";
+    $to = "kund@acnespecialisten.se";
     $subject = "Acnespecialisten gift card";
     $boundary = uniqid('np');  // Boundary string for multipart message
     $headers = "From: $from\r\n";
@@ -51,6 +55,21 @@ if (form_completed()) {
                                 <td>Physical card:</td>
                                 <td>" . $physical . "</td>
                             </tr>    
+                            <tr>
+                                <td>Address line 1:</td>
+                                <td>" . $street1 . "</td>
+                            </tr>
+                            <tr>
+                                <td>Address line 2:</td>
+                                <td>" . $street2 . "</td>
+                            </tr>
+                            <tr>
+                                <td>Postal code:</td>
+                                <td>" . $zip . "</td>
+                            </tr>
+                            <tr>
+                                <td>Town or city:</td>
+                                <td>" . $city . "</td>
                         </table>
                     </body>
                     </html>
@@ -223,7 +242,7 @@ if (form_completed()) {
                                     <input type="email" name="email" placeholder="example@email.com" required />
                                     <label for="phone" class="mt-xl l10">Phone number</label>
                                     <input type="phone" name="phone" placeholder="08 123 456" />
-                                    <label for="" class="mt-xl" id="screenshot-label">
+                                    <label class="mt-xl" id="screenshot-label">
                                         <span class="l10n">Payment screenshot</span>
                                         <span class="color-deep-sea-400">*</span>
                                     </label>
@@ -231,10 +250,39 @@ if (form_completed()) {
                                     <input class="button outline mt-m expand" type="file" required accept="image/png, image/jpeg" name="file" />
                                     <hr />
                                     <label class="checkbox">
-                                        <span onclick="onPhysicalChange()">I want a physical card also</span>
+                                        <span onclick="onPhysicalChange(this)">I want a physical card also</span>
                                         <input type="checkbox" name="physical" />
-                                        <span class="check" onclick="onPhysicalChange()"></span>
+                                        <span class="check" onclick="onPhysicalChange(this)"></span>
                                     </label>
+                                    <div class="physicalAddressDetails is-hidden">
+                                        <div class="physicalAddressDetails is-hidden">
+                                            <label for="street1" class="mt-xl">
+                                                <span class="l10n">Address line 1</span>
+                                                <span class="color-deep-sea-400">*</span>
+                                            </label>
+                                            <input type="text" name="street1" placeholder="Street, house, apartment..." />
+                                            <label for="street2" class="mt-xl">
+                                                <span class="l10n">Address line 2</span>
+                                            </label>
+                                            <input type="text" name="street2" placeholder="Office number, floor, room..." />
+                                            <div class="columns is-variable is-3">
+                                                <div class="column">
+                                                    <label for="zip" class="mt-xl">
+                                                        <span class="l10n">Postal code</span>
+                                                        <span class="color-deep-sea-400">*</span>
+                                                    </label>
+                                                    <input type="text" name="zip" placeholder="12345" />
+                                                </div>
+                                                <div class="column">
+                                                    <label for="city" class="mt-xl">
+                                                        <span class="l10n">Town or city</span>
+                                                        <span class="color-deep-sea-400">*</span>
+                                                    </label>
+                                                    <input type="text" name="city" placeholder="Black" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                     <hr />
                                     <input type="submit" class="button b200 expand" value="Send confirmation" />
                                 </form>
@@ -325,10 +373,37 @@ if (form_completed()) {
                                     </div>
                                     <hr />
                                     <label class="checkbox">
-                                        <span onclick="onPhysicalChange()">I want a physical card also</span>
+                                        <span onclick="onPhysicalChange(this)">I want a physical card also</span>
                                         <input type="checkbox" name="physical" />
-                                        <span class="check" onclick="onPhysicalChange()"></span>
+                                        <span class="check" onclick="onPhysicalChange(this)"></span>
                                     </label>
+                                    <div class="physicalAddressDetails is-hidden">
+                                        <label for="street1" class="mt-xl">
+                                            <span class="l10n">Address line 1</span>
+                                            <span class="color-deep-sea-400">*</span>
+                                        </label>
+                                        <input type="text" name="street1" placeholder="Street, house, apartment..." />
+                                        <label for="street2" class="mt-xl">
+                                            <span class="l10n">Address line 2</span>
+                                        </label>
+                                        <input type="text" name="street2" placeholder="Office number, floor, room..." />
+                                        <div class="columns is-variable is-3">
+                                            <div class="column">
+                                                <label for="zip" class="mt-xl">
+                                                    <span class="l10n">Postal code</span>
+                                                    <span class="color-deep-sea-400">*</span>
+                                                </label>
+                                                <input type="text" name="zip" placeholder="12345" />
+                                            </div>
+                                            <div class="column">
+                                                <label for="city" class="mt-xl">
+                                                    <span class="l10n">Town or city</span>
+                                                    <span class="color-deep-sea-400">*</span>
+                                                </label>
+                                                <input type="text" name="city" placeholder="Black" />
+                                            </div>
+                                        </div>
+                                    </div>
                                     <hr />
                                     <input type="submit" class="button b200" value="Send confirmation" />
                                 </form>
