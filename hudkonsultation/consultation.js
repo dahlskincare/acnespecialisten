@@ -4,7 +4,7 @@ var Consultation;
     function toggleContent(element) {
         var content = element.querySelector('.ib-content');
         var icon = element.querySelector('.icon');
-        content.classList.toggle('is-hidden');
+        content.classList.toggle('zero-size');
         icon.classList.toggle('is-open');
     }
     Consultation.toggleContent = toggleContent;
