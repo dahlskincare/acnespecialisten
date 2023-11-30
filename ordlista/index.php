@@ -13,14 +13,14 @@ $glossary_items = array(
         new GlossaryItem(
             title: 'Acnebehandling',
             description: '<p class="p200">Detta är en behandling anpassad för acnehy och finnar och ger en riktigt bra start på behandlingen av huden. Under acnebehandlingen rengörs huden på djupet med hjälp av en vapozon som ångar upp huden. Hudterapeuten tar även hand om både finnar och pormaskar för att få bort talg och andra orenheter.
-                <a class="b200 underline color-deep-sea-400" href="acnebehandling.php">Läs mer och boka en Acnebehandling</a></p>',
+                <a class="b200 underline color-deep-sea-400" href="/problem/akne/aknebehandling">Läs mer och boka en Acnebehandling</a></p>',
         ),
     ),
     'b' => array(
         new GlossaryItem(
             title: 'Bota Problemhy',
-            description: '<p class="p200">Tyvärr går det inte att bota problemhy, det är därför viktigt att använda produkter som effektivt behandlar och tar hand om huden och inte bara attackerar problemhyn. Roaccutan och andra preparat mot problemhy såsom acne ger temporär lindring och slutar verka så snart huden vänjer sig. </p>',
-            description_extended: '<p class="p200">Vi på AcneSpecialisten erbjuder en effektiv behandling mot problemhy och med hjälp av hudvårdsprodukterna kan du få din hud i balans för att effektivt bli av med problemhyn och motverka att problemet återuppstår.
+            description: '<p class="p200">Tyvärr går det inte att bota problemhy, det är därför viktigt att använda produkter som effektivt behandlar och tar hand om huden och inte bara attackerar problemhyn. Roaccutan och andra preparat mot problemhy såsom acne ger temporär lindring och slutar verka så snart huden vänjer sig. </p>
+                <p class="p200">Vi på AcneSpecialisten erbjuder en effektiv behandling mot problemhy och med hjälp av hudvårdsprodukterna kan du få din hud i balans för att effektivt bli av med problemhyn och motverka att problemet återuppstår.
                 <a class="b200 underline color-deep-sea-400" href="gratis-hudkonsultation.php">Läs mer om Gratis Hudkonsultation</a></p>',
         ),
         
@@ -112,7 +112,7 @@ $glossary_items = array(
                                     <h2><?php echo $item->title ?></h2>
                                     <p><?php echo $item->description ?></p>
                                     <?php if (isset($item->description_extended)) { ?>
-                                        <div class="button text compact l10n" onclick="Glossary.onShowMoreClick(this)">Read more</div>
+                                        <div class="button text compact l10n" onclick="Glossary.onShowMoreClick(this)">Läs mer</div>
                                         <p class="extended zero-size"><?php echo $item->description_extended ?></p>
                                     <?php } ?>
                                 </div>
