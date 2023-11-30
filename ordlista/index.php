@@ -11,9 +11,14 @@ $glossary_items = array(
             description_extended: "Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments. We hereby present our new department Nordiska Kliniken Hud Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments. We hereby present our new department Nordiska Kliniken Hud..."
         ),*/
         new GlossaryItem(
-            title: 'Acnebehandling',
+            title: 'Aknebehandling',
             description: '<p class="p200">Detta är en behandling anpassad för acnehy och finnar och ger en riktigt bra start på behandlingen av huden. Under acnebehandlingen rengörs huden på djupet med hjälp av en vapozon som ångar upp huden. Hudterapeuten tar även hand om både finnar och pormaskar för att få bort talg och andra orenheter.
                 <a class="b200 underline color-deep-sea-400" href="/problem/akne/aknebehandling">Läs mer och boka en Acnebehandling</a></p>',
+        ),
+        new GlossaryItem(
+            title: 'Aknebölder',
+            description: '<p class="p200">Dessa bölder kan förekomma hos hy med svår acne och uppstår när hårsäcken brister inåt. En stor böld uppstår då under huden som kan vara öm och smärtsam att ta bort. Du bör inte sticka eller skära i bölder då detta kan skapa ärr.
+                <a class="b200 underline color-deep-sea-400" href="/problem/akne">Läs mer om Akne</a></p>',
         ),
     ),
     'b' => array(
