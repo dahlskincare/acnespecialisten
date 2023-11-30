@@ -31,22 +31,22 @@
         <div class="container">
             <div id="content">
                 <section id="title">
-                    <h1 class="l10n">Cancellation policy</h1>
-                    <p class="l10n">At Acnespecialisten there is an experienced and well-educated group of doctors with specialist skills and broad experience from the aesthetic and reconstructive industry.</p>
+                    <h1 class="l10n">Avbokningspolicy</h1>
+                    <p class="l10n">Här kan du läsa mer om vår avbokningspolicy.</p>
                 </section>
                 <section id="alert-banner">
-                    <div id="alert-text" class="l10n">Don't forget to cancel at least 24 hours before the treatment.</div>
+                    <div id="alert-text" class="l10n">Kom ihåg att avboka minst 24 timmar innan den bokade tiden.</div>
                     <!-- TOOD: set link -->
-                    <a href="#" title="Cancel" class="is-hidden-touch l10n">Cancel my appointment</a>
-                    <a href="#" title="Cancel" class="is-hidden-desktop button outline expand l10n">Cancel my appointment</a>
+                    <a href="https://www.bokadirekt.se/cancel" title="Till Avbokning" class="is-hidden-touch l10n">Till Avbokning</a>
+                    <a href="https://www.bokadirekt.se/cancel" title="Till Avbokning" class="is-hidden-desktop button outline expand l10n">Till Avbokning</a>
                 </section>
                 <section id="questions">
                     <?php
                     $faq_categories = array(
                         '' => array(
-                            new Question('Cancellation policy', 'lorem ipsum ...'),
-                            new Question('How do I cancel my appointment?', 'lorem ipsum ...'),
-                            new Question('How is a missed visit charged?', 'lorem ipsum ...'),
+                            new Question('Avbokningspolicy', '<p class="p200">Avbokning skall göras senast 24 tim innan avtalad tid. För sent avbokad tid eller uteblivet besök debiteras hela behandlingskostnaden upp till 1000kr. Detta gäller även vid sjukdom samma dag. På grund av smittorisk tar vi ej emot dig som är sjuk. Vid utebliven konsultation eller återbesök debiteras 250kr. OBS! Ingen avbokning via telefonsvararen.</p>'),
+                            new Question('Hur avbokar jag min tid?', '<p class="p200">Du avbokar enklast din tid genom att använda avbokningssidan där du fyller i din avbokningskod. Avbokningskoden hittar du på din bokningsbekräftelse som skickat ut via e-post och SMS. Om du avbokar genom att kontakta oss är det viktigt att inkludera fullständig bokningsinformation så att vi kan identifiera den bokade tiden.'),
+                            new Question('Hur debiteras ett uteblivet besök?', '<p class="p200">Debitering sker via Billogram Faktura, denna faktura skickas via e-post och SMS.</p>'),
                         )
                     );
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php');
