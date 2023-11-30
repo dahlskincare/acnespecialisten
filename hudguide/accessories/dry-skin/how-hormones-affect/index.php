@@ -3,6 +3,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $article = new SkinGuideArticle(
+    url: 'https://acnespecialisten-staging.minoch.com/hudguide/accessories/dry-skin/how-hormones-affect/',
     url_title: 'How hormones effect?',
     title: 'How hormones effect?',
     subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
@@ -28,7 +29,7 @@ $article = new SkinGuideArticle(
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
-    <link rel="stylesheet" href="/skin-guide/category/subcategory/article/article.css">
+    <link rel="stylesheet" href="/hudguide/category/subcategory/article/article.css">
 </head>
 
 <body>
@@ -662,7 +663,7 @@ $article = new SkinGuideArticle(
         </div>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
-    <script src="skin-guide/category/subcategory/article/article.js"></script>
+    <script src="hudguide/category/subcategory/article/article.js"></script>
 </body>
 
 </html>
