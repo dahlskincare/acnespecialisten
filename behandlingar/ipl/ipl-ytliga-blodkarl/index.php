@@ -14,7 +14,7 @@ $model = new Service(
     title: 'IPL mot ytliga blodkärl',
     duration: null,
     price: 'Från 2332 kr',
-    content: '<p class="p200">IPL är en idealisk lösning för dig som söker en jämnare hudton genom att reducera pigmenteringar och ytliga blodkärl eller strävar efter att lindra symtomen på rosacea. Våra behandlingar är skräddarsydda och anpassade efter dina specifika hudbehov, och utformade för att effektivt stimulera hudens egna läkningsmekanismer och förbättra hudens övergripande kondition.</p>',
+    content: '<p class="p200">Med vår IPL-behandling kan du effektivt minska synligheten av ytliga blodkärl och uppnå en jämnare hudton. Denna ljusbaserade terapi är skonsam men kraftfull och riktar in sig specifikt på blodkärlen, vilket gör den särskilt lämplig för behandling av rosacea och relaterade hudtillstånd. Genom att skräddarsy varje session efter dina unika hudbehov, ser vi till att ge din hud den vård och uppmärksamhet den förtjänar för optimala resultat.</p>',
     image_small: 'https://via.placeholder.com/358x274.webp',
     image_large: 'https://via.placeholder.com/424x456.webp',
     image_alt: 'IPL mot ytliga blodkärl',
