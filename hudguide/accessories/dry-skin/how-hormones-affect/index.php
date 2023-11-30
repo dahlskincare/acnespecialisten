@@ -3,7 +3,6 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $article = new SkinGuideArticle(
-    id: 'how-hormones-effect',
     url_title: 'How hormones effect?',
     title: 'How hormones effect?',
     subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
