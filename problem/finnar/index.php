@@ -139,7 +139,7 @@ $treatment_steps = array(
 );
 
 $treatment_link = '<a href="problem/finnar/behandla-finnar" title="Utforska effektiva behandlingar mot finnar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
-
+/*
 $types_title = 'Olika typer av Finnar';
 
 $type_categories = array(
@@ -305,7 +305,7 @@ $type_categories = array(
 
 $types_url = '<a href="finnar/typer" title="Lär dig mer om olika typer av finnar och deras behandling" class="mt-xl button b200 outline expand l10n is-hidden-tablet">Läs mer om olika typer av finnar</a>
               <a href="finnar/typer" title="Lär dig mer om olika typer av finnar och deras behandling" class="mt-xl button b200 outline l10n is-hidden-mobile">Läs mer om olikta typer av finnar</a>';
-
+*/
 $symptoms_title = 'Finnar symptom';
 
 $symptoms = array(

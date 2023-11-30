@@ -133,7 +133,7 @@ $treatment_steps = array(
       )
 
 );
-
+/*
 $types_title = 'Olika typer av torr & känslig hy';
 
 $type_categories = array(
@@ -473,7 +473,7 @@ $symptoms = array(
       ),
 
 );
-
+*/
 $headline01 = "01. Identifiera din torra och känsliga hy";
 
 $service = new Service(

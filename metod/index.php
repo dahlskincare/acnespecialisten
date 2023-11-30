@@ -4,36 +4,36 @@ include_once('models/step/step.php');
 
 $steps = array(
     new StepModel(
-        title: '01. Free skin consultation',
-        content: "Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments. We hereby present our new department Nordiska Kliniken Hud Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery.",
+        title: '01. Identifiera',
+        content: "På Acnespecialisten inleder vi din hudvårdsresa med en gratis hudkonsultation. Under denna session identifierar våra experter din hudtyp och eventuella hudproblem. Denna noggranna analys är grunden för att skapa en effektiv och personligt anpassad behandlingsplan.",
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/424x526.webp',
         url: 'konsultation',
-        url_label: 'Get a free consultation'
+        url_label: 'Boka en gratis konsultation'
     ),
     new StepModel(
-        title: '02. Get rid of active problem',
-        content: "Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments. We hereby present our new department Nordiska Kliniken Hud Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery.",
+        title: '02. Behandla',
+        content: "Efter identifieringen av dina hudproblem, tar vi nästa steg mot att behandla dem direkt. Våra specialister använder avancerade tekniker och behandlingsmetoder för att effektivt hantera dina specifika hudproblem och uppnå synliga resultat.",
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/424x526.webp',
         url: 'problem',
-        url_label: 'View problems list'
+        url_label: 'Se våra behandlingar'
     ),
     new StepModel(
-        title: '03. Prevent problems',
-        content: "Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments. We hereby present our new department Nordiska Kliniken Hud Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery.",
+        title: '03. Förebygga',
+        content: "För att säkerställa långsiktiga resultat fokuserar vi på att förebygga framtida hudproblem. Vi ger dig skräddarsydda råd och rekommenderar högkvalitativa hudvårdsprodukter som är anpassade för att skydda och upprätthålla din huds hälsa.",
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/424x526.webp',
         url: 'https://dahlskincare.com',
-        url_label: 'View products'
+        url_label: 'Upptäck våra produkter'
     ),
     new StepModel(
-        title: '04. Take care of post problem',
-        content: "Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments. We hereby present our new department Nordiska Kliniken Hud Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery.",
+        title: '04. Reparera',
+        content: "I det sista steget i vår metod tar vi hand om eventuella återstående effekter av hudproblem, såsom ärr och pigmentförändringar. Vi erbjuder behandlingar och vård för att reparera och återställa huden, och ge dig en hälsosam och strålande hy.",
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/424x526.webp',
         url: 'problem',
-        url_label: 'View problems list'
+        url_label: 'Läs mer om eftervård'
     ),
 );
 ?>
@@ -42,10 +42,10 @@ $steps = array(
 
 <head>
     <!-- TODO: Set title and meta tags -->
-    <title class="l10n">Acnespecialisten | Our approach</title>
-    <meta name="description" content="" class="l10n">
-    <meta name="title" content="" class="l10n">
-    <meta name="keywords" content="" class="l10n">
+    <title class="l10n">Acnespecialisten | Vår Metod</title>
+    <meta name="description" content="Upptäck Acnespecialistens unika fyrastegsmetod för effektiv hudvård. Vår metod kombinerar personlig konsultation, skräddarsydda behandlingar och kontinuerligt stöd för att nå optimala hudvårdsresultat." class="l10n">
+    <meta name="title" content="Acnespecialisten - Expertis och Innovation inom Hudvård" class="l10n">
+    <meta name="keywords" content="Acnespecialisten, hudvård, trestegsmetod, personlig konsultation, skräddarsydda behandlingar, hudhälsa" class="l10n">
     <meta property="og:title" content="Acnespecialisten" />
     <meta property="og:description" content="" class="l10n" />
     <meta property="og:image" content="images/about-desktop.jpg" />
@@ -72,8 +72,8 @@ $steps = array(
         <div class="container">
             <div id="content">
                 <section id="title">
-                    <h1 class="l10n">Your alternative to a dermatologist</h1>
-                    <p class="l10n">At Acnespecialisten there is an experienced and well-educated group of doctors with specialist skills and broad experience from the aesthetic and reconstructive industry.</p>
+                    <h1 class="l10n">Ditt alternativ till hudläkare</h1>
+                    <p class="l10n">Vi på Acnespecialisten har utvecklat en unik metod i fyra steg där kundens problemhy står i fokus. Vi är ditt alternativ till en hudläkare, men utan remisser och långa köer. På våra hudmottagningar arbetar vi med att identifiera problemet, behandla det och sedan hjälpa dig att bibehålla den balans som vi påbörjat arbetet med att återställa. Vi vill vara ditt enkla och självklara val mot en problemfri hy!</p>
                 </section>
                 <section id="image">
                     <picture>
@@ -88,27 +88,27 @@ $steps = array(
                             <div class="bullet">
                                 <div class="bullet-label">
                                     <?php icon('star'); ?>
-                                    <span class="l10n">25 years</span>
+                                    <span class="l10n">Unik helhetslösning</span>
                                 </div>
-                                <div class="bullet-content l10n">In a personal meeting with a skin specialist, your skin type is examined and identified.</div>
+                                <div class="bullet-content l10n">AcneSpecialisten erbjuder en unik helhetslösning för din hud. Vår metodik sträcker sig från att identifiera till att långsiktigt hantera hudproblem. Vi erbjuder personlig rådgivning och skräddarsydda hudvårdsrutiner, anpassade efter just din hudtyp.</div>
                             </div>
                         </div>
                         <div class="column">
                             <div class="bullet">
                                 <div class="bullet-label">
                                     <?php icon('star'); ?>
-                                    <span class="l10n">Unique solution</span>
+                                    <span class="l10n">30 års erfarenhet</span>
                                 </div>
-                                <div class="bullet-content l10n">In a personal meeting with a skin specialist, your skin type is examined and identified.</div>
+                                <div class="bullet-content l10n">Med över 30 års erfarenhet och över 100.000 nöjda kunder, har AcneSpecialisten en djupgående kunskap inom problemhy och hudvård. Vi är ständigt i utveckling, allt för att ge dig den bästa möjliga behandlingen.</div>
                             </div>
                         </div>
                         <div class="column">
                             <div class="bullet">
                                 <div class="bullet-label">
                                     <?php icon('star'); ?>
-                                    <span class="l10n">Bullet #3</span>
+                                    <span class="l10n">Diplomerade hudspecialister</span>
                                 </div>
-                                <div class="bullet-content l10n">In a personal meeting with a skin specialist, your skin type is examined and identified.</div>
+                                <div class="bullet-content l10n">Vårt team består av diplomutbildade hudterapeuter, specialiserade inom våra behandlingsområden. Du kan lita på att vi levererar högkvalitativa och säkra hudvårdsbehandlingar, med precision och omsorg.</div>
                             </div>
                         </div>
                     </div>
@@ -121,11 +121,11 @@ $steps = array(
             </div>
             <section id="cta" class="large-margin">
                 <div id="cta-banner-texts">
-                    <div class="l10n" id="cta-banner-header">Want to identify your problem?</div>
-                    <div class="p200 l10n" id="cta-banner-content">In a personal meeting with a skin specialist, your skin type is examined and identified.</div>
+                    <div class="l10n" id="cta-banner-header">Vill du ha hjälp med din hy?</div>
+                    <div class="p200 l10n" id="cta-banner-content">Boka en gratis hudkonsultation hos en av våra erfarna hudterapeuter.</div>
                 </div>
                 <div>
-                    <a href="<?php echo $consultation_url ?>" class="button white expand l10n" title="Get a free consultation">Get a free consultation</a>
+                    <a href="<?php echo $consultation_url ?>" class="button white expand l10n" title="Boka en gratis hudkonsultation">Boka en gratis hudkonsultation</a>
                 </div>
             </section>
             <section id="results" class="large-margin">

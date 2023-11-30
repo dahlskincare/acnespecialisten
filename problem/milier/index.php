@@ -127,7 +127,7 @@ $treatment_steps = array(
             url_title: 'Utforska våra skräddarsydda behandlingar för milier'
       ),
 );
-
+/*
 $types_title = 'Olika typer av milier';
 
 $type_categories = array(
@@ -296,7 +296,7 @@ $symptoms = array(
                   image_title: 'Långvarig'
             ),
 );
-
+*/
 $headline01 = "01. Identifiera dina milier";
 
 $service = new Service(
@@ -856,7 +856,7 @@ $brands_url_title = "Varumärken för Milierbehandling";
                                                 </div>
                                           <?php } ?>
                                     </div>
-                                    <?php echo $types_url ?>
+                                    <!--<?php echo $types_url ?>-->
                               </section>
                         <?php } ?>
                         <?php if (sizeof($symptoms) > 0) { ?>

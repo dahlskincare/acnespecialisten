@@ -135,7 +135,7 @@ $treatment_steps = array(
             url_title: 'Hitta de bästa produkterna för att förebygga perioral dermatit',
       ),
 );
-
+/*
 $types_title = 'Olika typer av perioral dermatit';
 
 $type_categories = array(
@@ -395,7 +395,7 @@ $symptoms = array(
           image_title: 'Hudirritation från Kosmetika'
       ),
 );
-
+*/
 $headline01 = "01. Identifiera din perioral dermatit";
 
 $service = new Service(
