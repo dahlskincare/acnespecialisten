@@ -6,7 +6,7 @@ $glossary_items = array(
         new GlossaryItem(
             title: 'Acnebehandling',
             description: '<p class="p200">Detta är en behandling anpassad för acnehy och finnar och ger en riktigt bra start på behandlingen av huden. Under acnebehandlingen rengörs huden på djupet med hjälp av en vapozon som ångar upp huden. Hudterapeuten tar även hand om både finnar och pormaskar för att få bort talg och andra orenheter.
-                    <a href="acnebehandling.php">Läs mer och boka en Acenbehandling</a></p>',
+                <a href="acnebehandling.php">Läs mer och boka en Acenbehandling</a></p>',
         ),
         new GlossaryItem(
             title: 'Acne treatment',
