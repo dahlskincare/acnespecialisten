@@ -83,12 +83,12 @@ $salons = array(
                             <strong class="l10n">Telefon&nbsp;</strong>
                             <span>08 29 61 01</span>
                         </div>
-                        <a href="tel:08-29 61 01" class="button b200 outline expand l10n" title="Call us">Ring oss</a>
+                        <a href="tel:08-29 61 01" class="button b200 outline expand l10n" title="Ring oss">Ring oss</a>
                         <div class="p200">
                             <strong class="l10n">E-post&nbsp;</strong>
                             <span>kund@acnespecialisten.se</span>
                         </div>
-                        <a href="mailto:kund@acnespecialisten.se" class="button b200 outline expand l10n" title="Send an email">Skicka ett mejl</a>
+                        <a href="mailto:kund@acnespecialisten.se" class="button b200 outline expand l10n" title="Skicka ett mejl">Skicka ett mejl</a>
                     </div>
                     <div class="is-hidden-touch flex-row mt-xl">
                         <div>
