@@ -21,7 +21,7 @@ $glossary_items = array(
             title: 'Bota Problemhy',
             description: '<p class="p200">Tyvärr går det inte att bota problemhy, det är därför viktigt att använda produkter som effektivt behandlar och tar hand om huden och inte bara attackerar problemhyn. Roaccutan och andra preparat mot problemhy såsom acne ger temporär lindring och slutar verka så snart huden vänjer sig. </p>
                 <p class="p200">Vi på AcneSpecialisten erbjuder en effektiv behandling mot problemhy och med hjälp av hudvårdsprodukterna kan du få din hud i balans för att effektivt bli av med problemhyn och motverka att problemet återuppstår.
-                <a class="b200 underline color-deep-sea-400" href="gratis-hudkonsultation.php">Läs mer om Gratis Hudkonsultation</a></p>',
+                <a class="b200 underline color-deep-sea-400" href="/behandlingar/gratis-hudkonsultation">Läs mer om Gratis Hudkonsultation</a></p>',
         ),
         
     ),
