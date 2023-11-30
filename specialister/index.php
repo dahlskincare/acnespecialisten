@@ -59,10 +59,10 @@ $specialists = array(
 
 <head>
     <!-- TODO: Set title and meta tags -->
-    <title class="l10n">Acnespecialisten | Specialists</title>
-    <meta name="description" content="" class="l10n">
-    <meta name="title" content="" class="l10n">
-    <meta name="keywords" content="" class="l10n">
+    <title class="l10n">Möt Våra Expert-Hudterapeuter | AcneSpecialisten</title>
+    <meta name="description" content="På AcneSpecialisten har vi ett team av dedikerade och erfarna hudterapeuter, redo att erbjuda dig personlig och expertbaserad hudvård." class="l10n">
+    <meta name="title" content="Experter på Hudvård | AcneSpecialistens Hudterapeuter" class="l10n">
+    <meta name="keywords" content="Hudterapeuter, Expertbaserad hudvård, AcneSpecialisten, Personlig hudvård, Hudvårdspecialister" class="l10n">
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
     <link rel="stylesheet" href="/specialister/specialists.css">
@@ -82,8 +82,8 @@ $specialists = array(
         </section>
         <div class="container">
             <section id="title" class="large-margin">
-                <h1 class="l10n">Our specialists</h1>
-                <div class="p200 mt-s l10n">At Acnespecialisten there is an experienced and well-educated group of doctors with specialist skills and broad experience from the aesthetic and reconstructive industry.</div>
+                <h1 class="l10n">Våra Specialister</h1>
+                <div class="p200 mt-s l10n">På AcneSpecialisten har vi ett team av professionella och välutbildade hudterapeuter. Våra specialister har gedigen erfarenhet och expertis inom estetisk hudvård och problemlösning. De är engagerade i att erbjuda skräddarsydd och effektiv vård för varje unik hudtyp och behov.</div>
             </section>
             <section id="cards">
                 <div class="columns is-3 is-variable is-multiline">
