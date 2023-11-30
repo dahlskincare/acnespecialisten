@@ -221,7 +221,7 @@ $pages = sizeof($results_per_page);
                     <?php include('../widgets/result_customer_card/result_customer_card.php'); ?>
                 <?php } ?>
                 <div id="paginator">
-                    <?php include('../../skin-guide/widgets/paginator/paginator.php'); ?>
+                    <?php include('../../hudguide/widgets/paginator/paginator.php'); ?>
                 </div>
             </section>
             <section id="cta-banner" class="large-margin">
