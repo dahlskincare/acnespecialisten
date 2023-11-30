@@ -4,8 +4,9 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 $glossary_items = array(
     'a' => array(
         new GlossaryItem(
-            title: 'Acne treatment',
-            description: "Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments. We hereby present our new department Nordiska Kliniken Hud Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments. We hereby present our new department Nordiska Kliniken Hud...",
+            title: 'Acnebehandling',
+            description: '<p class="p200">Detta är en behandling anpassad för acnehy och finnar och ger en riktigt bra start på behandlingen av huden. Under acnebehandlingen rengörs huden på djupet med hjälp av en vapozon som ångar upp huden. Hudterapeuten tar även hand om både finnar och pormaskar för att få bort talg och andra orenheter.
+                    <a href="acnebehandling.php">Läs mer och boka en Acenbehandling</a></p>',
         ),
         new GlossaryItem(
             title: 'Acne treatment',
