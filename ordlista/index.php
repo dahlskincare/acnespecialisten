@@ -85,7 +85,7 @@ $glossary_items = array(
         <div class="container">
             <div id="content">
                 <section id="title">
-                    <h1 class="h600 l10n">Glossary</h1>
+                    <h1 class="h600 l10n">Ordlista</h1>
                 </section>
                 <section id="letters">
                     <div id="letter-selector-scroller">
