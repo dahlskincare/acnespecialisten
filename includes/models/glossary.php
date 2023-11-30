@@ -1,7 +1,7 @@
 <?php
 class GlossaryItem
 {
-    public function __construct($title, $description, $description_extended, $image_small = null, $image_large = null)
+    public function __construct($title, $description, $description_extended = null, $image_small = null, $image_large = null)
     {
         $this->title = $title;
         $this->description = $description;
@@ -12,7 +12,7 @@ class GlossaryItem
 
     public string $title;
     public string $description;
-    public string $description_extended;
+    public ?string $description_extended;
     public ?string $image_small;
     public ?string $image_large;
 }

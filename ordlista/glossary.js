@@ -2,7 +2,7 @@ var Glossary;
 (function (Glossary) {
     function onShowMoreClick(button) {
         button.classList.add('is-hidden');
-        button.parentElement.querySelector('.extended').classList.remove('is-hidden');
+        button.parentElement.querySelector('.extended').classList.remove('zero-size');
     }
     Glossary.onShowMoreClick = onShowMoreClick;
     var letterSelectorScroller = document.querySelector('#letter-selector-scroller');

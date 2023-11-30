@@ -6,7 +6,6 @@ $glossary_items = array(
         new GlossaryItem(
             title: 'Acne treatment',
             description: "Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments. We hereby present our new department Nordiska Kliniken Hud Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments. We hereby present our new department Nordiska Kliniken Hud...",
-            description_extended: "Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments. We hereby present our new department Nordiska Kliniken Hud Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments. We hereby present our new department Nordiska Kliniken Hud..."
         ),
         new GlossaryItem(
             title: 'Acne treatment',
@@ -111,8 +110,10 @@ $glossary_items = array(
                                     <?php } ?>
                                     <h2><?php echo $item->title ?></h2>
                                     <p><?php echo $item->description ?></p>
-                                    <div class="button text compact l10n" onclick="Glossary.onShowMoreClick(this)">Read more</div>
-                                    <p class="extended zero-size"><?php echo $item->description_extended ?></p>
+                                    <?php if (isset($item->description_extended)) { ?>
+                                        <div class="button text compact l10n" onclick="Glossary.onShowMoreClick(this)">Read more</div>
+                                        <p class="extended zero-size"><?php echo $item->description_extended ?></p>
+                                    <?php } ?>
                                 </div>
                             <?php } ?>
                         </div>
