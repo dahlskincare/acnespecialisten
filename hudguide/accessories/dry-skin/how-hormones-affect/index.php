@@ -28,7 +28,7 @@ $article = new SkinGuideArticle(
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
-    <link rel="stylesheet" href="/hudguide/category/subcategory/article/article.css">
+    <link rel="stylesheet" href="/skin-guide/category/subcategory/article/article.css">
 </head>
 
 <body>
@@ -585,13 +585,13 @@ $article = new SkinGuideArticle(
             <section id="skin-guide">
                 <div class="flex-row align-end justify-space-between">
                     <div class="h500 large-margin l10n">Other articles</div>
-                    <a href="hudguide" class="button compact text is-hidden-mobile">
+                    <a href="skin-guide" class="button compact text is-hidden-mobile">
                         <span class="l10n">View all articles</span>
                         <?php icon('navigate-next') ?>
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="hudguide" title="View all articles">View all articles</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="skin-guide" title="View all articles">View all articles</a>
             </section>
             <section class="large-margin" id="cta-banner">
                 <div id="cta-banner-texts">
@@ -662,7 +662,7 @@ $article = new SkinGuideArticle(
         </div>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
-    <script src="hudguide/category/subcategory/article/article.js"></script>
+    <script src="skin-guide/category/subcategory/article/article.js"></script>
 </body>
 
 </html>

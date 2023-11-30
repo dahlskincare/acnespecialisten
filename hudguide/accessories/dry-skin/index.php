@@ -22,7 +22,7 @@ $subcategory = new SkinGuideSubCategory(
 $articles_per_page = array(
     1 => array(
         new SkinGuideArticle(
-            url: 'hudguide/category-here/subcategory-here/how-hormones-effect',
+            url: 'hudguiden/category-here/subcategory-here/how-hormones-effect',
             url_title: 'How hormones effect?',
             title: 'How hormones effect?',
             subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
@@ -34,7 +34,7 @@ $articles_per_page = array(
             image_title: 'Hormones effect',
         ),
         new SkinGuideArticle(
-            url: 'hudguide/category-here/subcategory-here/how-hormones-effect',
+            url: 'hudguiden/category-here/subcategory-here/how-hormones-effect',
             url_title: 'How hormones effect?',
             title: 'How hormones effect?',
             subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
@@ -47,7 +47,7 @@ $articles_per_page = array(
         ),
     ),
     2 => new SkinGuideArticle(
-        url: 'hudguide/category-here/subcategory-here/how-hormones-effect',
+        url: 'hudguiden/category-here/subcategory-here/how-hormones-effect',
         url_title: 'How hormones effect?',
         title: 'How hormones effect?',
         subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
@@ -80,7 +80,7 @@ $pages = sizeof($articles_per_page);
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
 
     <link rel="stylesheet" href="/styles/default-layout.css">
-    <link rel="stylesheet" href="/hudguide/category/subcategory/subcategory.css">
+    <link rel="stylesheet" href="/hudguiden/category/subcategory/subcategory.css">
 </head>
 
 <body>
