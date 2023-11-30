@@ -12,8 +12,6 @@ $article = new SkinGuideArticle(
     image_large: 'https://via.placeholder.com/872x456.jpg',
     image_alt: 'Hormones effect',
     image_title: 'Hormones effect',
-    category_id: 'category-here',
-    subcategory_id: 'subcategory-here'
 );
 ?>
 <!DOCTYPE html>
