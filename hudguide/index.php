@@ -12,51 +12,51 @@ $consultation_url = 'hudkonsultation';
 
 $categories = array(
     new SkinGuideCategory(
-        url: 'skin-guide/accessories',
+        url: 'hudguiden/accessories',
         name: 'Accessories',
     ),
     new SkinGuideCategory(
-        url: 'skin-guide/age',
+        url: 'hudguiden/age',
         name: 'Age',
     ),
     new SkinGuideCategory(
-        url: 'skin-guide/areas',
+        url: 'hudguiden/areas',
         name: 'Areas',
     ),
     new SkinGuideCategory(
-        url: 'skin-guide/brands',
+        url: 'hudguiden/brands',
         name: 'Brands',
     ),
     new SkinGuideCategory(
-        url: 'skin-guide/gender',
+        url: 'hudguiden/gender',
         name: 'Gender',
     ),
     new SkinGuideCategory(
-        url: 'skin-guide/personal-care',
+        url: 'hudguiden/personal-care',
         name: 'Personal care',
     ),
     new SkinGuideCategory(
-        url: 'skin-guide/products',
+        url: 'hudguiden/products',
         name: 'Products',
     ),
     new SkinGuideCategory(
-        url: 'skin-guide/routine',
+        url: 'hudguiden/routine',
         name: 'Routine',
     ),
     new SkinGuideCategory(
-        url: 'skin-guide/skin-conditions',
+        url: 'hudguiden/skin-conditions',
         name: 'Skin conditions',
     ),
     new SkinGuideCategory(
-        url: 'skin-guide/skin-problems',
+        url: 'hudguiden/skin-problems',
         name: 'Skin problems',
     ),
     new SkinGuideCategory(
-        url: 'skin-guide/skin-tones',
+        url: 'hudguiden/skin-tones',
         name: 'Skin tones',
     ),
     new SkinGuideCategory(
-        url: 'skin-guide/tools',
+        url: 'hudguiden/tools',
         name: 'Tools',
     ),
 );
@@ -64,47 +64,47 @@ $categories = array(
 $subcategories = array(
     new SkinGuideSubCategory(
         id: 'dry-skin',
-        url: 'skin-guide/skin-problems/dry-skin',
+        url: 'hudguiden/skin-problems/dry-skin',
         name: 'Dry skin',
     ),
     new SkinGuideSubCategory(
         id: 'subtopic-1',
-        url: 'skin-guide/skin-problems/dry-skin',
+        url: 'hudguiden/skin-problems/dry-skin',
         name: 'Subtopic 1',
     ),
     new SkinGuideSubCategory(
         id: 'subtopic-2',
-        url: 'skin-guide/skin-problems/dry-skin',
+        url: 'hudguiden/skin-problems/dry-skin',
         name: 'Subtopic 2',
     ),
     new SkinGuideSubCategory(
         id: 'subtopic-3',
-        url: 'skin-guide/skin-problems/dry-skin',
+        url: 'hudguiden/skin-problems/dry-skin',
         name: 'Subtopic 3',
     ),
     new SkinGuideSubCategory(
         id: 'subtopic-4',
-        url: 'skin-guide/skin-problems/dry-skin',
+        url: 'hudguiden/skin-problems/dry-skin',
         name: 'Subtopic 4',
     ),
     new SkinGuideSubCategory(
         id: 'subtopic-5',
-        url: 'skin-guide/skin-problems/dry-skin',
+        url: 'hudguiden/skin-problems/dry-skin',
         name: 'Subtopic 5',
     ),
     new SkinGuideSubCategory(
         id: 'subtopic-6',
-        url: 'skin-guide/skin-problems/dry-skin',
+        url: 'hudguiden/skin-problems/dry-skin',
         name: 'Subtopic 6',
     ),
     new SkinGuideSubCategory(
         id: 'subtopic-7',
-        url: 'skin-guide/skin-problems/dry-skin',
+        url: 'hudguiden/skin-problems/dry-skin',
         name: 'Subtopic 7',
     ),
     new SkinGuideSubCategory(
         id: 'subtopic-8',
-        url: 'skin-guide/skin-problems/dry-skin',
+        url: 'hudguiden/skin-problems/dry-skin',
         name: 'Subtopic 8',
     ),
 );
@@ -112,7 +112,7 @@ $subcategories = array(
 $articles_per_page = array(
     1 => array(
         new SkinGuideArticle(
-            url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
+            url: 'hudguiden/category-here/subcategory-here/how-hormones-effect',
             url_title: 'How hormones effect?',
             title: 'How hormones effect?',
             subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
@@ -124,7 +124,7 @@ $articles_per_page = array(
             image_title: 'Hormones effect',
         ),
         new SkinGuideArticle(
-            url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
+            url: 'hudguiden/category-here/subcategory-here/how-hormones-effect',
             url_title: 'How hormones effect?',
             title: 'How hormones effect?',
             subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
@@ -136,7 +136,7 @@ $articles_per_page = array(
             image_title: 'Hormones effect',
         ),
         new SkinGuideArticle(
-            url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
+            url: 'hudguiden/category-here/subcategory-here/how-hormones-effect',
             url_title: 'How hormones effect?',
             title: 'How hormones effect?',
             subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
@@ -150,7 +150,7 @@ $articles_per_page = array(
     ),
     2 => array(
         new SkinGuideArticle(
-            url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
+            url: 'hudguiden/category-here/subcategory-here/how-hormones-effect',
             url_title: 'How hormones effect?',
             title: 'How hormones effect?',
             subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
@@ -178,7 +178,7 @@ $pages = sizeof($articles_per_page);
     <meta name="keywords" content="" class="l10n">
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
-    <link rel="stylesheet" href="/skin-guide/skin-guide.css">
+    <link rel="stylesheet" href="/hudguiden/skin-guide.css">
 </head>
 
 <body>
@@ -327,7 +327,7 @@ $pages = sizeof($articles_per_page);
         </div>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
-    <script src="skin-guide/skin-guide.js"></script>
+    <script src="hudguiden/skin-guide.js"></script>
 </body>
 
 </html>

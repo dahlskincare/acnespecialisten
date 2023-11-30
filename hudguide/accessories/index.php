@@ -12,7 +12,7 @@ $meta_description = '';
 $meta_title = '';
 
 $category = new SkinGuideCategory(
-    url: 'skin-guide/accessories',
+    url: 'hudguiden/accessories',
     name: 'Accessories',
     description: 'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. He…',
     description_extended: 'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat.',
@@ -22,17 +22,17 @@ $category = new SkinGuideCategory(
 $subcategories = array(
     new SkinGuideSubCategory(
         id: 'subcategory-1',
-        url: 'skin-guide/accessories/subcategory-1',
+        url: 'hudguiden/accessories/subcategory-1',
         name: 'Subcategory 1',
     ),
     new SkinGuideSubCategory(
         id: 'subcategory-2',
-        url: 'skin-guide/accessories/subcategory-2',
+        url: 'hudguiden/accessories/subcategory-2',
         name: 'Subcategory 2',
     ),
     new SkinGuideSubCategory(
         id: 'subcategory-3',
-        url: 'skin-guide/accessories/subcategory-3',
+        url: 'hudguiden/accessories/subcategory-3',
         name: 'Subcategory 3',
     ),
 );
@@ -40,7 +40,7 @@ $subcategories = array(
 $articles_per_page = array(
     1 => array(
         new SkinGuideArticle(
-            url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
+            url: 'hudguiden/category-here/subcategory-here/how-hormones-effect',
             url_title: 'How hormones effect?',
             title: 'How hormones effect?',
             subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
@@ -52,7 +52,7 @@ $articles_per_page = array(
             image_title: 'Hormones effect',
         ),
         new SkinGuideArticle(
-            url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
+            url: 'hudguiden/category-here/subcategory-here/how-hormones-effect',
             url_title: 'How hormones effect?',
             title: 'How hormones effect?',
             subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
@@ -66,7 +66,7 @@ $articles_per_page = array(
     ),
     2 => array(
         new SkinGuideArticle(
-            url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
+            url: 'hudguiden/category-here/subcategory-here/how-hormones-effect',
             url_title: 'How hormones effect?',
             title: 'How hormones effect?',
             subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
@@ -94,7 +94,7 @@ $pages = sizeof($articles_per_page);
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
-    <link rel="stylesheet" href="/skin-guide/category/category.css">
+    <link rel="stylesheet" href="/hudguiden/category/category.css">
 </head>
 
 <body>
@@ -226,7 +226,7 @@ $pages = sizeof($articles_per_page);
         </div>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
-    <script src="/skin-guide/category/category.js"></script>
+    <script src="/hudguiden/category/category.js"></script>
 </body>
 
 </html>
