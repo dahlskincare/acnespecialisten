@@ -172,7 +172,7 @@ $pages = sizeof($articles_per_page);
 
 <head>
     <!-- TODO: Set title and meta tags -->
-    <title class="l10n">Acnespecialisten | Skin guide</title>
+    <title class="l10n">Acnespecialisten | Hudguiden</title>
     <meta name="description" content="" class="l10n">
     <meta name="title" content="" class="l10n">
     <meta name="keywords" content="" class="l10n">
