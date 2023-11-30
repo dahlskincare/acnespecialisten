@@ -20,6 +20,10 @@ function onFileDrop(e: DragEvent) {
     }
 }
 
+function onPhysicalChange() {
+    console.log('hej');
+}
+
 function onAmountChange(event: Event) {
     const select = event.target as HTMLSelectElement;
     // reload url with new amount

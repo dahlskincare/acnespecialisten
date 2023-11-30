@@ -19,6 +19,9 @@ function onFileDrop(e) {
         }
     }
 }
+function onPhysicalChange() {
+    console.log('hej');
+}
 function onAmountChange(event) {
     var select = event.target;
     // reload url with new amount

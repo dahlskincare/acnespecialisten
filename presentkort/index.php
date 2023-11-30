@@ -22,7 +22,7 @@ if (form_completed()) {
     $file_tmp_name = $file['tmp_name'];
     $file_content = file_get_contents($file_tmp_name);
     $from = 'Acnespecialisten <auto@acnespecialisten.com>';
-    $to = "kund@acnespecialisten.se";
+    $to = "patrick.minougue@gmail.com"; //"kund@acnespecialisten.se";
     $subject = "Acnespecialisten gift card";
     $boundary = uniqid('np');  // Boundary string for multipart message
     $headers = "From: $from\r\n";
@@ -231,9 +231,9 @@ if (form_completed()) {
                                     <input class="button outline mt-m expand" type="file" required accept="image/png, image/jpeg" name="file" />
                                     <hr />
                                     <label class="checkbox">
-                                        <span>I want a physical card also</span>
+                                        <span onclick="onPhysicalChange()">I want a physical card also</span>
                                         <input type="checkbox" name="physical" />
-                                        <span class="check"></span>
+                                        <span class="check" onclick="onPhysicalChange()"></span>
                                     </label>
                                     <hr />
                                     <input type="submit" class="button b200 expand" value="Send confirmation" />
@@ -325,9 +325,9 @@ if (form_completed()) {
                                     </div>
                                     <hr />
                                     <label class="checkbox">
-                                        <span>I want a physical card also</span>
+                                        <span onclick="onPhysicalChange()">I want a physical card also</span>
                                         <input type="checkbox" name="physical" />
-                                        <span class="check"></span>
+                                        <span class="check" onclick="onPhysicalChange()"></span>
                                     </label>
                                     <hr />
                                     <input type="submit" class="button b200" value="Send confirmation" />
