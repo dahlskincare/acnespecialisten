@@ -115,7 +115,7 @@ $treatment_steps = array(
             title: 'Diagnostisera',
             content: 'På AcneSpecialisten tar en erfaren hudterapeut hand om dig, undersöker dina hudproblem och identifierar specifika ärr från finnar som gropar och fläckar. Vi tar hänsyn till dina unika behov och skapar en skräddarsydd behandlingsplan för att ge dig de bästa resultaten.',
             url_label: 'Boka en gratis konsultation',
-            url: 'hudkonsultation',
+            url: 'gratis-hudkonsultation',
             url_title: 'Boka din kostnadsfria konsultation om ärr från finnar idag'
       ),
       new TreatmentStep(
@@ -244,7 +244,7 @@ $service = new Service(
       booking_url: null,
       booking_url_label: null,
       booking_url_title: null,
-      url: 'hudkonsultation',
+      url: 'gratis-hudkonsultation',
       url_label: 'Läs mer om vår konsultation för ärr från finnar',
       url_title: 'Klicka här för att läsa mer om gratis konsultation för ärr från finnar'
 );

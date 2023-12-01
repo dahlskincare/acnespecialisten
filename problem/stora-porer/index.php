@@ -117,7 +117,7 @@ $treatment_steps = array(
             content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera problemet med dina stora porer och skapar en individuell behandlingsplan.',
 
             url_label: 'Få gratis konsultation',
-            url: 'hudkonsultation',
+            url: 'gratis-hudkonsultation',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
@@ -152,57 +152,57 @@ $symptoms_title = 'Stora porer symptom';
 
 $symptoms = array(
       new Symptom(
-          name: 'Förstorade öppningar',
-          aka: 'Kända som stora porer',
-          content: 'Det mest uppenbara tecknet på stora porer är synligt större poröppningar, särskilt i områdena kring näsan, kinderna och pannan.',
+            name: 'Förstorade öppningar',
+            aka: 'Kända som stora porer',
+            content: 'Det mest uppenbara tecknet på stora porer är synligt större poröppningar, särskilt i områdena kring näsan, kinderna och pannan.',
 
-          url_label: 'Läs mer om förstorade öppningar',
-          url: 'problem/stora-porer/typer/forstorade-oppningar',
-          url_title: 'Läs mer om synliga tecken på stora porer',
+            url_label: 'Läs mer om förstorade öppningar',
+            url: 'problem/stora-porer/typer/forstorade-oppningar',
+            url_title: 'Läs mer om synliga tecken på stora porer',
 
-          image: 'images/symptoms/102x102/forstorade-oppningar.webp',
-          image_alt: 'Bild av synligt förstorade porer',
-          image_title: 'Synligt förstorade porer'
+            image: 'images/symptoms/102x102/forstorade-oppningar.webp',
+            image_alt: 'Bild av synligt förstorade porer',
+            image_title: 'Synligt förstorade porer'
       ),
 
       new Symptom(
-          name: 'Ojämn hudtextur',
-          content: 'Huden kan kännas ojämn eller gropig till följd av de utvidgade porerna.',
+            name: 'Ojämn hudtextur',
+            content: 'Huden kan kännas ojämn eller gropig till följd av de utvidgade porerna.',
 
-          url_label: 'Läs mer om ojämn hudtextur',
-          url: 'problem/stora-porer/typer/ojamn-hudtextur',
-          url_title: 'Läs mer om hur stora porer påverkar hudens textur',
+            url_label: 'Läs mer om ojämn hudtextur',
+            url: 'problem/stora-porer/typer/ojamn-hudtextur',
+            url_title: 'Läs mer om hur stora porer påverkar hudens textur',
 
-          image: 'images/symptoms/102x102/ojamn-hudtextur.webp',
-          image_alt: 'Bild som illustrerar en ojämn hudtextur',
-          image_title: 'Ojämn hudtextur'
+            image: 'images/symptoms/102x102/ojamn-hudtextur.webp',
+            image_alt: 'Bild som illustrerar en ojämn hudtextur',
+            image_title: 'Ojämn hudtextur'
       ),
 
       new Symptom(
-          name: 'Ökad oljeproduktion',
-          content: 'Stora porer är ofta förknippade med fet hud eftersom talgkörtlarna producerar mer olja, vilket kan leda till att porerna vidgas.',
+            name: 'Ökad oljeproduktion',
+            content: 'Stora porer är ofta förknippade med fet hud eftersom talgkörtlarna producerar mer olja, vilket kan leda till att porerna vidgas.',
 
-          url_label: 'Läs mer om ökad oljeproduktion',
-          url: 'problem/stora-porer/typer/okad-oljeproduktion',
-          url_title: 'Läs mer om talgproduktion och dess relation till stora porer',
+            url_label: 'Läs mer om ökad oljeproduktion',
+            url: 'problem/stora-porer/typer/okad-oljeproduktion',
+            url_title: 'Läs mer om talgproduktion och dess relation till stora porer',
 
-          image: 'images/symptoms/102x102/okad-oljeproduktion.webp',
-          image_alt: 'Bild av fet hud med ökad oljeproduktion',
-          image_title: 'Ökad oljeproduktion'
+            image: 'images/symptoms/102x102/okad-oljeproduktion.webp',
+            image_alt: 'Bild av fet hud med ökad oljeproduktion',
+            image_title: 'Ökad oljeproduktion'
       ),
 
       new Symptom(
-          name: 'Pormaskar och komedoner',
-          aka: 'Kända som tilltäppta porer',
-          content: 'Förstorade porer kan lätt bli tilltäppta av olja, smuts och döda hudceller, vilket kan resultera i svarta eller vita pormaskar.',
+            name: 'Pormaskar och komedoner',
+            aka: 'Kända som tilltäppta porer',
+            content: 'Förstorade porer kan lätt bli tilltäppta av olja, smuts och döda hudceller, vilket kan resultera i svarta eller vita pormaskar.',
 
-          url_label: 'Läs mer om pormaskar och komedoner',
-          url: 'problem/stora-porer/typer/pormaskar-komedoner',
-          url_title: 'Läs mer om hur pormaskar och komedoner utvecklas',
+            url_label: 'Läs mer om pormaskar och komedoner',
+            url: 'problem/stora-porer/typer/pormaskar-komedoner',
+            url_title: 'Läs mer om hur pormaskar och komedoner utvecklas',
 
-          image: 'images/symptoms/102x102/pormaskar-komedoner.webp',
-          image_alt: 'Bild av pormaskar och komedoner',
-          image_title: 'Pormaskar och komedoner'
+            image: 'images/symptoms/102x102/pormaskar-komedoner.webp',
+            image_alt: 'Bild av pormaskar och komedoner',
+            image_title: 'Pormaskar och komedoner'
       ),
 
 );
@@ -472,20 +472,20 @@ $faq_categories = array(
                   text: '<p class="p200">Det finns flera behandlingsalternativ tillgängliga för stora porer. Traditionella ansiktsbehandlingar kan vara till stor hjälp för att djuprengöra huden och dra samman porerna. Microneedling, även känd som kollageninduktionsterapi, involverar användning av små nålar för att skapa mikroskador i huden, vilket uppmuntrar produktionen av kollagen och kan förbättra hudens textur och minska porstorleken. Laserbehandlingar använder ljusenergi för att effektivt minska porernas storlek och stimulera produktionen av kollagen, vilket ger en jämnare hudton. Kemiska peelingar, som använder syror för att exfoliera huden, kan också rensa ut porerna och stimulera kollagenproduktion, vilket resulterar i mindre och mindre framstående porer. Med rätt behandlingsalternativ kan stora porer behandlas effektivt och ge en klarare, jämnare hudton.</p>'
             ),
             new Question(
-                title: 'Hur ofta bör jag genomgå ansiktsbehandlingar, microneedling, laser och kemisk peeling?',
-                text: '<p class="p200">Frekvensen för behandlingarna varierar beroende på vilken typ du väljer. Regelbundna ansiktsbehandlingar kan rekommenderas månatligen, medan microneedling kan kräva färre sessioner med några veckors mellanrum. Laserbehandlingar kan vara ännu mer sällsynta beroende på intensiteten, och kemiska peelingar kan kräva varierande tidsintervall beroende på styrkan av peelingen. Rådgör alltid med en hudterapeut för att avgöra vad som passar bäst för din hudtyp och dina individuella behov.</p>'
+                  title: 'Hur ofta bör jag genomgå ansiktsbehandlingar, microneedling, laser och kemisk peeling?',
+                  text: '<p class="p200">Frekvensen för behandlingarna varierar beroende på vilken typ du väljer. Regelbundna ansiktsbehandlingar kan rekommenderas månatligen, medan microneedling kan kräva färre sessioner med några veckors mellanrum. Laserbehandlingar kan vara ännu mer sällsynta beroende på intensiteten, och kemiska peelingar kan kräva varierande tidsintervall beroende på styrkan av peelingen. Rådgör alltid med en hudterapeut för att avgöra vad som passar bäst för din hudtyp och dina individuella behov.</p>'
             ),
             new Question(
-                title: 'Är resultaten från ansiktsbehandlingar, microneedling, laser och kemisk peeling permanenta?',
-                text: '<p class="p200">Ingen behandling erbjuder permanenta resultat eftersom huden naturligt förändras med tiden och påverkas av olika faktorer. Men regelbunden behandling och rätt hudvård kan förlänga effekterna av varje session. Medan vissa tekniker, som laserbehandling, kan ge mer långvariga resultat, kommer upprepade behandlingar förmodligen att behövas över tid.</p>'
+                  title: 'Är resultaten från ansiktsbehandlingar, microneedling, laser och kemisk peeling permanenta?',
+                  text: '<p class="p200">Ingen behandling erbjuder permanenta resultat eftersom huden naturligt förändras med tiden och påverkas av olika faktorer. Men regelbunden behandling och rätt hudvård kan förlänga effekterna av varje session. Medan vissa tekniker, som laserbehandling, kan ge mer långvariga resultat, kommer upprepade behandlingar förmodligen att behövas över tid.</p>'
             ),
             new Question(
-                title: 'Vilka biverkningar kan jag förvänta mig efter ansiktsbehandlingar, microneedling, laser och kemisk peeling?',
-                text: '<p class="p200">Efter ansiktsbehandlingar kan man uppleva lätt rodnad. Microneedling kan leda till svullnad och rodnad. Laserbehandlingar kan orsaka rodnad, svullnad och i sällsynta fall skorpor. Kemiska peelingar kan orsaka rodnad, torrhet, flagning eller i intensiva fall skälning av huden. Det är viktigt att diskutera och förstå alla potentiella biverkningar med din hudspecialist innan du påbörjar någon behandling.</p>'
+                  title: 'Vilka biverkningar kan jag förvänta mig efter ansiktsbehandlingar, microneedling, laser och kemisk peeling?',
+                  text: '<p class="p200">Efter ansiktsbehandlingar kan man uppleva lätt rodnad. Microneedling kan leda till svullnad och rodnad. Laserbehandlingar kan orsaka rodnad, svullnad och i sällsynta fall skorpor. Kemiska peelingar kan orsaka rodnad, torrhet, flagning eller i intensiva fall skälning av huden. Det är viktigt att diskutera och förstå alla potentiella biverkningar med din hudspecialist innan du påbörjar någon behandling.</p>'
             ),
             new Question(
-                title: 'Hur länge behöver jag vänta mellan sessioner av ansiktsbehandlingar, microneedling, laser och kemisk peeling?',
-                text: '<p class="p200">Väntetiden mellan sessioner varierar. Ansiktsbehandlingar kan oftast utföras månatligen. Microneedling kan kräva några veckors mellanrum, medan laserbehandlingar kan behöva flera månader beroende på hudens respons och behandlingens intensitet. Kemiska peelingar har också varierande väntetider beroende på deras styrka. En hudspecialist kommer att ge dig en detaljerad plan baserad på den specifika behandlingen och dina huds behov.</p>'
+                  title: 'Hur länge behöver jag vänta mellan sessioner av ansiktsbehandlingar, microneedling, laser och kemisk peeling?',
+                  text: '<p class="p200">Väntetiden mellan sessioner varierar. Ansiktsbehandlingar kan oftast utföras månatligen. Microneedling kan kräva några veckors mellanrum, medan laserbehandlingar kan behöva flera månader beroende på hudens respons och behandlingens intensitet. Kemiska peelingar har också varierande väntetider beroende på deras styrka. En hudspecialist kommer att ge dig en detaljerad plan baserad på den specifika behandlingen och dina huds behov.</p>'
             ),
       ),
 );

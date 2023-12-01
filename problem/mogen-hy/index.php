@@ -111,7 +111,7 @@ $treatment_steps = array(
             content: 'Hos AcneSpecialisten kopplas du till en personlig hudterapeut som hjälper dig att identifiera tecknen på mogen hy och skapar en skräddarsydd behandlingsplan för dina specifika behov.',
 
             url_label: 'Få gratis konsultation',
-            url: 'hudkonsultation',
+            url: 'gratis-hudkonsultation',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
@@ -562,7 +562,7 @@ $reviews = array(
             title: 'Supernöjd',
             text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
             signature: 'Sofia',
-            stars: 5,            
+            stars: 5,
             logo_url: 'images/brands/trustpilot.svg'
 
       ),
@@ -592,46 +592,46 @@ $review_url_title = "AcneSpecialisten Omdömen";
 $faq_categories = array(
       'Generellt om mogen hy' => array(
             new Question(
-                title: 'Vad menas med termen "mogen hy"?',
-                text: '<p class="p200">Mogen hy hänvisar till huden som börjar visa tecken på åldrande. Dessa tecken kan inkludera rynkor, fina linjer, förlust av elasticitet, förtunning av huden, ojämn hudton, pigmentförändringar och minskad fuktighet. Medan åldrande är en naturlig process, kan yttre faktorer som solexponering, kost, och livsstilsval också påverka hudens åldrande.</p>'
+                  title: 'Vad menas med termen "mogen hy"?',
+                  text: '<p class="p200">Mogen hy hänvisar till huden som börjar visa tecken på åldrande. Dessa tecken kan inkludera rynkor, fina linjer, förlust av elasticitet, förtunning av huden, ojämn hudton, pigmentförändringar och minskad fuktighet. Medan åldrande är en naturlig process, kan yttre faktorer som solexponering, kost, och livsstilsval också påverka hudens åldrande.</p>'
             ),
             new Question(
-                title: 'Vid vilken ålder börjar huden oftast klassificeras som mogen?',
-                text: '<p class="p200">Det finns ingen exakt ålder där huden börjar klassificeras som "mogen", eftersom åldrande är en individuell process. Men många människor börjar märka förändringar i sin hud runt 40-årsåldern. Dessa förändringar kan vara mer eller mindre framträdande beroende på genetik, livsstil och hudvårdsvanor.</p>'
+                  title: 'Vid vilken ålder börjar huden oftast klassificeras som mogen?',
+                  text: '<p class="p200">Det finns ingen exakt ålder där huden börjar klassificeras som "mogen", eftersom åldrande är en individuell process. Men många människor börjar märka förändringar i sin hud runt 40-årsåldern. Dessa förändringar kan vara mer eller mindre framträdande beroende på genetik, livsstil och hudvårdsvanor.</p>'
             ),
             new Question(
-                title: 'Hur påverkar hormonella förändringar, såsom menopaus, mogen hy?',
-                text: '<p class="p200">Menopaus och de hormonella förändringar som följer med den kan ha en märkbar inverkan på huden. Östrogen, ett hormon som minskar under menopaus, spelar en viktig roll i produktionen av kollagen och hudens naturliga oljor. När nivåerna av östrogen minskar, kan huden bli torrare, mindre elastisk, och mer benägen för rynkor och fina linjer.</p>'
+                  title: 'Hur påverkar hormonella förändringar, såsom menopaus, mogen hy?',
+                  text: '<p class="p200">Menopaus och de hormonella förändringar som följer med den kan ha en märkbar inverkan på huden. Östrogen, ett hormon som minskar under menopaus, spelar en viktig roll i produktionen av kollagen och hudens naturliga oljor. När nivåerna av östrogen minskar, kan huden bli torrare, mindre elastisk, och mer benägen för rynkor och fina linjer.</p>'
             ),
             new Question(
-                title: 'Vilken roll spelar genetik i hur och när huden blir mogen?',
-                text: '<p class="p200">Genetik spelar en betydande roll i hudens åldrande process. Om dina föräldrar eller nära släktingar har en huds som åldras långsamt eller visa tecken på åldrande vid en högre ålder, kan du också ha en genetisk benägenhet att uppleva samma saker. Detta betyder dock inte att externa faktorer som solexponering och livsstilsval inte kommer att ha någon inverkan.</p>'
+                  title: 'Vilken roll spelar genetik i hur och när huden blir mogen?',
+                  text: '<p class="p200">Genetik spelar en betydande roll i hudens åldrande process. Om dina föräldrar eller nära släktingar har en huds som åldras långsamt eller visa tecken på åldrande vid en högre ålder, kan du också ha en genetisk benägenhet att uppleva samma saker. Detta betyder dock inte att externa faktorer som solexponering och livsstilsval inte kommer att ha någon inverkan.</p>'
             ),
             new Question(
-                title: 'Vilken inverkan har kost och näring på mogen hy?',
-                text: '<p class="p200">Kost och näring spelar en avgörande roll för huden. En balanserad kost rik på antioxidanter, omega-3-fettsyror, vitaminer och mineraler kan bidra till en hälsosam hud. Mat som är rik på vitamin C och E, till exempel, kan hjälpa till att bekämpa fria radikaler och skydda huden från oxidativ stress.</p>'
+                  title: 'Vilken inverkan har kost och näring på mogen hy?',
+                  text: '<p class="p200">Kost och näring spelar en avgörande roll för huden. En balanserad kost rik på antioxidanter, omega-3-fettsyror, vitaminer och mineraler kan bidra till en hälsosam hud. Mat som är rik på vitamin C och E, till exempel, kan hjälpa till att bekämpa fria radikaler och skydda huden från oxidativ stress.</p>'
             ),
             new Question(
-                title: 'Kan miljöfaktorer, som luftfuktighet och föroreningar, påverka mogen hy mer än yngre hy?',
-                text: '<p class="p200">Ja, mogen hy kan vara mer känslig för yttre påverkan som luftfuktighet och föroreningar. Denna hudtyp har ofta en minskad förmåga att hålla kvar fukt, vilket gör den mer sårbar för torrhet i låg luftfuktighet. Föroreningar kan också påskynda åldringsprocessen genom att orsaka oxidativ stress, vilket kan vara mer skadligt för en redan åldrande hud.</p>'
+                  title: 'Kan miljöfaktorer, som luftfuktighet och föroreningar, påverka mogen hy mer än yngre hy?',
+                  text: '<p class="p200">Ja, mogen hy kan vara mer känslig för yttre påverkan som luftfuktighet och föroreningar. Denna hudtyp har ofta en minskad förmåga att hålla kvar fukt, vilket gör den mer sårbar för torrhet i låg luftfuktighet. Föroreningar kan också påskynda åldringsprocessen genom att orsaka oxidativ stress, vilket kan vara mer skadligt för en redan åldrande hud.</p>'
             ),
             new Question(
-                title: 'Är det möjligt att förhindra vissa tecken på åldrande, eller handlar det mest om att hantera dem när de uppstår?',
-                text: '<p class="p200">Medan vissa tecken på åldrande är oundvikliga på grund av genetik och den naturliga åldringsprocessen, kan många yttre tecken på åldrande förebyggas eller minimeras. Regelbunden hudvård, solskydd, en balanserad kost, och en hälsosam livsstil kan alla bidra till att minska eller fördröja tecknen på hudens åldrande. När tecknen väl dyker upp finns det behandlingar och produkter som kan hjälpa till att hantera dem.</p>'
+                  title: 'Är det möjligt att förhindra vissa tecken på åldrande, eller handlar det mest om att hantera dem när de uppstår?',
+                  text: '<p class="p200">Medan vissa tecken på åldrande är oundvikliga på grund av genetik och den naturliga åldringsprocessen, kan många yttre tecken på åldrande förebyggas eller minimeras. Regelbunden hudvård, solskydd, en balanserad kost, och en hälsosam livsstil kan alla bidra till att minska eller fördröja tecknen på hudens åldrande. När tecknen väl dyker upp finns det behandlingar och produkter som kan hjälpa till att hantera dem.</p>'
             ),
       ),
       'Behandling mot mogen hy' => array(
             new Question(
-                title: 'Vilka typer av behandlingar rekommenderas oftast för mogen hy?',
-                text: '<p class="p200">För mogen hy rekommenderas ofta behandlingar som fokuserar på återfuktning, återställande av hudens elasticitet och reduktion av fina linjer och rynkor. Detta kan inkludera mikroneedling, kemiska peelingar och laserbehandlingar. Det är också vanligt att rekommendera produkter med aktiva ingredienser som retinol, hyaluronsyra och antioxidanter.</p>'
+                  title: 'Vilka typer av behandlingar rekommenderas oftast för mogen hy?',
+                  text: '<p class="p200">För mogen hy rekommenderas ofta behandlingar som fokuserar på återfuktning, återställande av hudens elasticitet och reduktion av fina linjer och rynkor. Detta kan inkludera mikroneedling, kemiska peelingar och laserbehandlingar. Det är också vanligt att rekommendera produkter med aktiva ingredienser som retinol, hyaluronsyra och antioxidanter.</p>'
             ),
             new Question(
-                title: 'Vilken roll spelar hemmavård i behandlingen av mogen hy?',
-                text: '<p class="p200">Hemmavård är avgörande för att upprätthålla resultaten av professionella behandlingar och för att stödja hudens hälsa. Detta innebär att använda kvalitativa produkter som är lämpliga för mogen hy och att följa en regelbunden hudvårdsrutin som rengöring, toning, återfuktning och solskydd.</p>'
+                  title: 'Vilken roll spelar hemmavård i behandlingen av mogen hy?',
+                  text: '<p class="p200">Hemmavård är avgörande för att upprätthålla resultaten av professionella behandlingar och för att stödja hudens hälsa. Detta innebär att använda kvalitativa produkter som är lämpliga för mogen hy och att följa en regelbunden hudvårdsrutin som rengöring, toning, återfuktning och solskydd.</p>'
             ),
             new Question(
-                title: 'Finns det några specifika ingredienser jag bör leta efter i produkter för mogen hy?',
-                text: '<p class="p200">Absolut, för mogen hy är det fördelaktigt att leta efter produkter som innehåller retinol, hyaluronsyra, peptider, ceramider, antioxidanter (som vitamin C och E) och solskyddsfaktor. Dessa ingredienser hjälper till att återställa hudens elasticitet, återfukta, skydda mot fria radikaler och förebygga ytterligare åldrande.</p>'
+                  title: 'Finns det några specifika ingredienser jag bör leta efter i produkter för mogen hy?',
+                  text: '<p class="p200">Absolut, för mogen hy är det fördelaktigt att leta efter produkter som innehåller retinol, hyaluronsyra, peptider, ceramider, antioxidanter (som vitamin C och E) och solskyddsfaktor. Dessa ingredienser hjälper till att återställa hudens elasticitet, återfukta, skydda mot fria radikaler och förebygga ytterligare åldrande.</p>'
             ),
       ),
 );

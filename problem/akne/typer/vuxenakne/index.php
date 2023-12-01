@@ -74,7 +74,7 @@ $service = new Service(
     image_large: 'https://via.placeholder.com/200x200.jpg',
     image_alt: 'Consultation',
     image_title: 'Consultation',
-    consultation_url: 'hudkonsultation',
+    consultation_url: 'gratis-hudkonsultation',
     consultation_url_label: 'Läs mer',
     consultation_url_title: 'Consultation',
     booking_url: null,
@@ -91,7 +91,7 @@ $solutions = array(
         image_large: 'https://via.placeholder.com/200x200.jpg',
         image_alt: 'Chemical peeling',
         image_title: 'Chemical peeling',
-        consultation_url: 'hudkonsultation',
+        consultation_url: 'gratis-hudkonsultation',
         consultation_url_label: 'Läs mer',
         consultation_url_title: 'Consultation',
         booking_url: 'https://www.bokadirekt.se/',
@@ -107,7 +107,7 @@ $solutions = array(
         image_large: 'https://via.placeholder.com/200x200.jpg',
         image_alt: 'Laser',
         image_title: 'Laser',
-        consultation_url: 'hudkonsultation',
+        consultation_url: 'gratis-hudkonsultation',
         consultation_url_label: 'Läs mer',
         consultation_url_title: 'Consultation',
         booking_url: 'https://www.bokadirekt.se/',
@@ -123,7 +123,7 @@ $solutions = array(
         image_large: 'https://via.placeholder.com/200x200.jpg',
         image_alt: 'IPL',
         image_title: 'IPL',
-        consultation_url: 'hudkonsultation',
+        consultation_url: 'gratis-hudkonsultation',
         consultation_url_label: 'Läs mer',
         consultation_url_title: 'Consultation',
         booking_url: 'https://www.bokadirekt.se/',
@@ -139,7 +139,7 @@ $solutions = array(
         image_large: 'https://via.placeholder.com/200x200.jpg',
         image_alt: 'FreezeTreat',
         image_title: 'FreezeTreat',
-        consultation_url: 'hudkonsultation',
+        consultation_url: 'gratis-hudkonsultation',
         consultation_url_label: 'Läs mer',
         consultation_url_title: 'Consultation',
         booking_url: 'https://www.bokadirekt.se/',
@@ -196,7 +196,7 @@ $specialists = array(
                             <div class="mt-xl">
                                 <div class="columns is-2 is-variable">
                                     <div class="column">
-                                        <a href="hudkonsultation" class="button white expand l10n" title="Get a free consultation">Get a free consultation</a>
+                                        <a href="gratis-hudkonsultation" class="button white expand l10n" title="Get a free consultation">Get a free consultation</a>
                                     </div>
                                     <div class="column">
                                         <a href="https://bokadirekt.se" class="button white expand l10n" title="Book a treatment">Book a treatment</a>
@@ -222,7 +222,7 @@ $specialists = array(
                         <div class="mt-xl">
                             <div class="columns is-mobile">
                                 <div class="column is-half">
-                                    <a href="hudkonsultation" class="button b200 white expand l10n" title="Free consultation">Free consultation</a>
+                                    <a href="gratis-hudkonsultation" class="button b200 white expand l10n" title="Free consultation">Free consultation</a>
                                 </div>
                                 <div class="column is-half">
                                     <a href="https://bokadirekt.se" class="button b200 white expand l10n" title="Book a treatment">Book a treatment</a>
@@ -249,7 +249,7 @@ $specialists = array(
                                 <?php echo $header_description ?>
                             </p>
                             <div class="mt-xl flex-row" id="book-buttons">
-                                <a href="hudkonsultation" class="button b200 white l10n" title="Get a free consultation">Get a free consultation</a>
+                                <a href="gratis-hudkonsultation" class="button b200 white l10n" title="Get a free consultation">Get a free consultation</a>
                                 <a href="https://bokadirekt.se" class="button b200 white l10n" title="Book a treatment">Book a treatment</a>
                             </div>
                         </div>

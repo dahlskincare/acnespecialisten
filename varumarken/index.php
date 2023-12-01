@@ -7,7 +7,7 @@ $green_banner_content = new GreenBannerContent(
       title: 'Brands we work with',
       description: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
       description_extended: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
-      button_url: 'hudkonsultation',
+      button_url: 'gratis-hudkonsultation',
       button_label: 'Få gratis konsultation'
 );
 
@@ -192,7 +192,7 @@ $brand_cards = array(
             url_title: 'Alma',
             booking_url: 'https://bokadirekt.se',
             booking_url_title: 'Boka tid',
-            consultation_url: 'hudkonsultation',
+            consultation_url: 'gratis-hudkonsultation',
             consultation_url_title: 'Hudkonsultation',
       ),
       new Brand(
@@ -210,7 +210,7 @@ $brand_cards = array(
             url_title: 'Alma',
             booking_url: 'https://bokadirekt.se',
             booking_url_title: 'Boka tid',
-            consultation_url: 'hudkonsultation',
+            consultation_url: 'gratis-hudkonsultation',
             consultation_url_title: 'Hudkonsultation',
       ),
       new Brand(
@@ -228,7 +228,7 @@ $brand_cards = array(
             url_title: 'Alma',
             booking_url: 'https://bokadirekt.se',
             booking_url_title: 'Boka tid',
-            consultation_url: 'hudkonsultation',
+            consultation_url: 'gratis-hudkonsultation',
             consultation_url_title: 'Hudkonsultation',
       ),
       new Brand(
@@ -246,7 +246,7 @@ $brand_cards = array(
             url_title: 'Alma',
             booking_url: 'https://bokadirekt.se',
             booking_url_title: 'Boka tid',
-            consultation_url: 'hudkonsultation',
+            consultation_url: 'gratis-hudkonsultation',
             consultation_url_title: 'Hudkonsultation',
       ),
       new Brand(
@@ -264,7 +264,7 @@ $brand_cards = array(
             url_title: 'Alma',
             booking_url: 'https://bokadirekt.se',
             booking_url_title: 'Boka tid',
-            consultation_url: 'hudkonsultation',
+            consultation_url: 'gratis-hudkonsultation',
             consultation_url_title: 'Hudkonsultation',
       ),
 );

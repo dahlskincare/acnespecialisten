@@ -98,7 +98,7 @@ $services = array(
         price: '1295 kr',
         icons: array('who-infants' => 'Exfolierande', 'who-elders' => 'Förnyande', 'who-teenagers' => 'Uppfräschande', 'who-adults' => 'Ljusande'),
         content: '<p class="p200">Kemisk peeling för operations- och skadeärr hos Acnespecialisten är en process där en speciellt formulerad lösning appliceras på huden för att noggrant avlägsna skadade yttre hudskikt. Genom att avlägsna dessa lager avslöjas en ny, friskare och jämnare hud underifrån. Behandlingen fokuserar inte bara på att ta bort det skadade ytskiktet, utan också på att stimulera hudens naturliga förnyelseprocess. Således hjälper det till att reducera ärrbildningens utseende och förbättrar signifikant hudens övergripande textur, lyster och ton.</p>',
-        consultation_url: 'hudkonsultation',
+        consultation_url: 'gratis-hudkonsultation',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för kemisk peeling mot operations- och skadeärr',
         url: 'behandlingar/kemisk-peeling-mot-operationar',

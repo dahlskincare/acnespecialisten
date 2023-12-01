@@ -32,7 +32,7 @@
                               <h1 class="h700 l10n">Hudspecialisterna</h1>
                         </div>
                   </div>
-                  <a href="hudkonsultation" title="hudkonsultation">
+                  <a href="gratis-hudkonsultation" title="hudkonsultation">
                         <div class="container">
                               <div class="banner-bar elevation-medium is-hidden-desktop" id="banner-bar-small">
                                     <button class="white">
@@ -193,7 +193,7 @@
                                     title: 'Identifiera',
                                     content: 'Vi erbjuder alltid gratis konsultation, där du får en personlig hudterapeut och en individuell behandlingsplan baserad på din hudanalys. Förebilder tas för att jämföra resultat före och efter behandling.',
                                     button_label: 'Få en gratis konsultation',
-                                    button_url: 'hudkonsultation'
+                                    button_url: 'gratis-hudkonsultation'
                               ),
                               new ApproachCard(
                                     number: '02',

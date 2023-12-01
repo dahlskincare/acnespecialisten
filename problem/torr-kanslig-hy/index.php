@@ -112,7 +112,7 @@ $treatment_steps = array(
             content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig att identifiera din hudtyp som torr och känslig, samt skapar en individuell behandlingsplan för dig.',
 
             url_label: 'Få gratis konsultation',
-            url: 'hudkonsultation',
+            url: 'gratis-hudkonsultation',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
@@ -617,7 +617,7 @@ $reviews = array(
             title: 'Supernöjd',
             text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
             signature: 'Sofia',
-            stars: 5,            
+            stars: 5,
             logo_url: 'images/brands/trustpilot.svg'
 
       ),
@@ -668,7 +668,7 @@ $faq_categories = array(
             ),
             new Question(
                   title: 'Hur kan man differentiera mellan torr hud och andra hudåkommor som eksem eller psoriasis?',
-                    text: '<p class="p200">Det kan vara svårt att differentiera mellan torr hud och andra hudåkommor som eksem eller psoriasis utan professionell diagnos. Torr hud är generellt sett karakteriserad av torrhet och skalning, medan eksem och psoriasis oftast innefattar rodnad, inflammation och ibland klåda. Om du är osäker, är det bäst att söka professionell rådgivning för att fastställa den exakta orsaken och få en anpassad behandlingsplan.</p>'
+                  text: '<p class="p200">Det kan vara svårt att differentiera mellan torr hud och andra hudåkommor som eksem eller psoriasis utan professionell diagnos. Torr hud är generellt sett karakteriserad av torrhet och skalning, medan eksem och psoriasis oftast innefattar rodnad, inflammation och ibland klåda. Om du är osäker, är det bäst att söka professionell rådgivning för att fastställa den exakta orsaken och få en anpassad behandlingsplan.</p>'
             ),
       ),
       'Behandling mot akne' => array(

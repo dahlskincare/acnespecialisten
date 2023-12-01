@@ -112,7 +112,7 @@ $treatment_steps = array(
             title: 'Identifiera',
             content: 'Hos AcneSpecialisten blir du omhändertagen av en personlig hudterapeut som noga undersöker och identifierar dina akneärr. Tillsammans kartlägger vi din unika ärrtyp och skapar en individuell behandlingsplan, skräddarsydd för just dina behov.',
             url_label: 'Få gratis konsultation',
-            url: 'hudkonsultation',
+            url: 'gratis-hudkonsultation',
             url_title: 'Boka din kostnadsfria ärrkonsultation idag'
       ),
       new TreatmentStep(
@@ -242,7 +242,7 @@ $service = new Service(
       booking_url: null,
       booking_url_label: null,
       booking_url_title: null,
-      url: 'hudkonsultation',
+      url: 'gratis-hudkonsultation',
       url_label: 'Läs mer om vår konsultation för akneärr',
       url_title: 'Klicka här för att läsa mer om gratis konsultation för akneärr'
 

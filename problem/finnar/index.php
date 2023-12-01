@@ -112,7 +112,7 @@ $treatment_steps = array(
             title: 'Identifiera',
             content: 'Hos FinnarSpecialisten blir du kopplad till en expert hudterapeut som analyserar din finnartyp och skapar en unik behandlingsplan. Vare sig du lider av milda eller allvarliga finnar, hjälper vi dig att förstå orsakerna och den bästa vägen framåt.',
             url_label: 'Få gratis konsultation',
-            url: 'hudkonsultation',
+            url: 'gratis-hudkonsultation',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
@@ -395,7 +395,7 @@ $service = new Service(
       booking_url: null,
       booking_url_label: null,
       booking_url_title: null,
-      url: 'hudkonsultation',
+      url: 'gratis-hudkonsultation',
       url_label: 'Läs mer om vår konsultation för finnar',
       url_title: 'Klicka här för att lära dig mer om vår kostnadsfria konsultation för finnar'
 

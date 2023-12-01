@@ -77,7 +77,7 @@ $trivias = array(
             prefix: 'Vad',
             title: 'är blandhy?',
             content: '<p class="p200">Blandhy är en hudtyp som kännetecknas av att ha både torra och oljiga områden på ansiktet. Typiskt för blandhy är att T-zonen, som inkluderar panna, näsa och haka, tenderar att vara oljig medan kinderna kan vara torra eller normala. Detta medför att porerna i T-zonen ofta är förstorade medan de kan vara mindre synliga på kinderna.</p>',
-            
+
             extended_content: '<p class="p200 mt-xl">En person med blandhy kan uppleva både glansighet i de oljigare områdena och en stram känsla i de torra partierna. Det kan även förekomma finnar eller pormaskar i de oljiga områdena.</p> 
             
             <p class="p200 mt-xl">Trots dessa varierande egenskaper hos blandhy, är det viktigt att komma ihåg att varje individs hud är unik. Vissa kan ha tydligare oljiga områden medan andra upplever mer torrhet. Detta betyder att hudvårdsrutinen bör anpassas individuellt för att möta varje persons unika behov och för att upprätthålla en balanserad hudhälsa.</p>',
@@ -88,7 +88,7 @@ $trivias = array(
             prefix: 'Varför',
             title: 'får man blandhy?',
             content: '<p class="p200">Blandhy kan härledas till en kombination av genetik, hormonella svängningar och yttre miljöfaktorer. En obalans mellan torra och oljiga områden uppstår när vissa delar av huden producerar en optimal mängd talg medan andra delar underproducerar. Denna ojämnhet kan förstärkas genom genetiska predispositioner där familjemedlemmar också har haft liknande hudmönster.</p>',
-            
+
             extended_content: '<p class="p200 mt-xl">Hormonella förändringar, som de som inträffar under puberteten, graviditet eller menstruationscykeln, kan också spela en stor roll i uppkomsten av blandhy. Hormonförändringarna kan leda till att vissa delar av huden, som T-zonen, producerar mer talg än normalt. Yttre faktorer som klimat, årstidens växlingar och luftfuktighet kan också påverka hudens talgproduktion och fuktighetsnivå. Till exempel kan kalla vintermånader leda till torra kinder samtidigt som inomhusuppvärmning kan öka oljighet i T-zonen.</p>
             
             <p class="p200 mt-xl">Det är väsentligt att förstå de underliggande orsakerna till blandhy för att kunna anpassa en skräddarsydd hudvårdsrutin. Genom att identifiera dessa faktorer kan vi bättre adressera och balansera huden, vilket leder till en mer jämn och hälsosam hudton. Hos oss får du vägledning om vilka produkter och rutiner som passar bäst för att balansera din unika blandning av hudförhållanden.</p>',
@@ -96,18 +96,18 @@ $trivias = array(
             icons: array('who-infants' => 'Hormoner', 'who-teenagers' => 'Genetik', 'who-adults' => 'Klimat', 'who-elders' => 'Yttre miljöfaktorer')
       ),
 
-new ProblemTrivia(
+      new ProblemTrivia(
             prefix: 'Vem',
             title: 'får blandhy?',
             content: '<p class="p200">Blandhy är en av de mest förekommande hudtyperna och kan drabba människor i alla åldrar, oavsett kön och etnicitet. Det är inte ovanligt att ungdomar upplever blandhy när hormoner börjar fluktuera under puberteten, vilket leder till att vissa delar av ansiktet blir oljigare medan andra förblir torra. Denna kombination av torra och oljiga områden, ofta med oljig T-zon (panna, näsa och haka) och torra kinder, kan vara en källa till frustration för många.</p>',
-            
+
             extended_content: '<p class="p200 mt-xl">Medan blandhy ofta förknippas med tonåringar, kan det fortsätta eller till och med börja under vuxen ålder. Hormonella förändringar som de under graviditet, menstruationscykeln eller menopaus kan också leda till en uppkomst av blandhy hos vuxna kvinnor. Män kan också uppleva blandhy, särskilt om de har en genetisk predisposition för det.</p>
             
             <p class="p200 mt-xl">Externa faktorer som klimat, miljö och hudvård kan också påverka hudtypen. Personer som bor i områden med skiftande årstider kan märka att deras hud känns oljigare på sommaren och torrare på vintern. För att adressera de specifika behoven hos blandhy rekommenderar vi en individuell hudvårdsrutin som tar hänsyn till de olika zonerna i ansiktet och balanserar dem effektivt.</p>',
-            
+
             icons: array('who-infants' => 'Ungdomar', 'who-teenagers' => 'Tonåringar', 'who-adults' => 'Vuxna', 'who-elders' => 'Män & Kvinnor')
       ),
-new ProblemTrivia(
+      new ProblemTrivia(
             prefix: 'Var',
             title: 'får man blandhy?',
 
@@ -116,7 +116,7 @@ new ProblemTrivia(
             extended_content: '<p class="p200 mt-xl">När det gäller blandhy är ansiktets T-zon en av de mest talande indikatorerna. Den här zonen har en högre koncentration av talgkörtlar, vilket kan förklara varför den blir oljig snabbare. Kinderna, å andra sidan, kan kännas torra eftersom de har färre talgkörtlar. Detta kan skapa en känsla av obalans i huden, där vissa områden behöver fukt och andra behöver kontrollera överproduktion av olja.</p>
 
             <p class="p200 mt-xl">Det är också värt att notera att andra delar av kroppen, som nacke eller décolletage, kan visa tecken på blandhy, särskilt om man använder produkter som är oljebaserade. Medan blandhy främst observeras i ansiktet, kan den unika kombinationen av torra och oljiga områden dyka upp var som helst. För att adressera de specifika behoven hos blandhy rekommenderar vi att du konsulterar med en hudspecialist för att skräddarsy en hudvårdsrutin som ger balans och välbefinnande till din hud.</p>',
-            
+
             icons: array('who-infants' => 'T-zonen', 'who-teenagers' => 'Kinderna', 'who-adults' => 'Nacken', 'who-elders' => 'Décolletage')
       ),
 
@@ -127,7 +127,7 @@ $treatment_steps = array(
             content: 'Vid din första konsultation hos AcneSpecialisten bedömer en hudterapeut din hud och identifierar tecknen på blandhy. Genom att förstå din unika kombination av oljiga och torra zoner kan vi skräddarsy en behandlingsplan just för dig.',
 
             url_label: 'Boka konsultation',
-            url: 'hudkonsultation',
+            url: 'gratis-hudkonsultation',
             url_title: 'Boka din gratis konsultation för blandhy idag'
       ),
       new TreatmentStep(
@@ -197,7 +197,7 @@ $symptoms = array(
             url_label: null,
             url: null,
             url_title: null,
-            
+
             image: 'images/symptoms/102x102/papler.webp',
             image_alt: 'Bild av papler (röda finnar)',
             image_title: 'Papler (röda finnar)'
@@ -490,7 +490,7 @@ $reviews = array(
             title: 'Supernöjd',
             text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
             signature: 'Sofia',
-            stars: 5,            
+            stars: 5,
             logo_url: 'images/brands/trustpilot.svg'
 
       ),

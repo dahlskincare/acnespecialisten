@@ -100,7 +100,7 @@ $services = array(
         price: '1295 kr',
         icons: array('who-infants' => 'Exfolierande', 'who-elders' => 'Förnyande', 'who-teenagers' => 'Uppfräschande', 'who-adults' => 'Ljusande'),
         content: '<p class="p200">Kemisk peeling för ärr från finnar på Acnespecialisten använder en speciell lösning som appliceras på huden för att avlägsna skadade yttre skikt, vilket ger plats åt ny, jämnare hud att växa fram. Detta bidrar till att reducera utseendet av ärrbildning och förbättrar hudens textur.</p>',
-        consultation_url: 'hudkonsultation',
+        consultation_url: 'gratis-hudkonsultation',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för kemisk peeling mot ärr från finnar',
         url: 'behandlingar/kemisk-peeling-mot-arren-fran-finnar',

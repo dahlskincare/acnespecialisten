@@ -8,7 +8,7 @@ if (isset($_GET['page']) && $_GET['page'] > 0) {
     $page = 1;
 }
 
-$consultation_url = 'hudkonsultation';
+$consultation_url = 'gratis-hudkonsultation';
 
 $categories = array(
     new SkinGuideCategory(
@@ -190,7 +190,7 @@ $pages = sizeof($articles_per_page);
                 title: 'Skin guide',
                 description: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified In a personal meeting with a skin specialist, your skinonal...',
                 description_extended: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified In a personal meeting with a skin specialist, your skinonal...',
-                button_url: 'hudkonsultation',
+                button_url: 'gratis-hudkonsultation',
                 button_label: 'Gör en gratis konsultation'
             );
             include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/green_header_banner.php');

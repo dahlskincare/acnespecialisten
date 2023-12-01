@@ -119,7 +119,7 @@ $treatment_steps = array(
             content: 'Hos AcneSpecialisten kopplas du ihop med en specialist inom ärrbehandling. De hjälper dig att identifiera typen av operations- och skadeärr och sätter upp en individuell behandlingsplan anpassad för dina behov.',
 
             url_label: 'Få gratis konsultation',
-            url: 'hudkonsultation',
+            url: 'gratis-hudkonsultation',
             url_title: 'Boka din kostnadsfria konsultation gällande ärrbehandling idag'
       ),
       new TreatmentStep(
@@ -332,22 +332,22 @@ $services = array(
 
 $articles = array(
       new Article(
-          title: 'När ska jag söka hjälp med mina operations- och skadeärr?',
-          image_small: 'https://via.placeholder.com/358x272.webp',
-          image_large: 'https://via.placeholder.com/872x456.webp',
-          image_alt: 'När ska jag söka hjälp med mina operations- och skadeärr?',
-          image_title: 'När ska jag söka hjälp med mina operations- och skadeärr?',
-          content: '<p class="p200">Operations- och skadeärr kan uppstå efter skador på huden, operationer, brännskador eller andra trauma. Även om de flesta ärr är ofarliga, kan de orsaka estetiska bekymmer, obehag eller rörelsebegränsning. Om du känner att ditt ärr börjar påverka ditt välbefinnande, eller om det ger fysiska besvär, kan det vara dags att söka professionell hjälp. Det finns ingen "minsta gräns" för när det är lämpligt att söka professionell vård för dina ärr.</p>
+            title: 'När ska jag söka hjälp med mina operations- och skadeärr?',
+            image_small: 'https://via.placeholder.com/358x272.webp',
+            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_alt: 'När ska jag söka hjälp med mina operations- och skadeärr?',
+            image_title: 'När ska jag söka hjälp med mina operations- och skadeärr?',
+            content: '<p class="p200">Operations- och skadeärr kan uppstå efter skador på huden, operationer, brännskador eller andra trauma. Även om de flesta ärr är ofarliga, kan de orsaka estetiska bekymmer, obehag eller rörelsebegränsning. Om du känner att ditt ärr börjar påverka ditt välbefinnande, eller om det ger fysiska besvär, kan det vara dags att söka professionell hjälp. Det finns ingen "minsta gräns" för när det är lämpligt att söka professionell vård för dina ärr.</p>
           <p class="p200 mt-m">Hos en hudterapeut kan du få en personlig konsultation och behandlingsplan som är skräddarsydd för just ditt ärr. Experter kan analysera ditt ärr, diskutera möjliga behandlingsalternativ och rekommendera den mest effektiva metoden för dig. Behandlingsmetoder kan variera från laserbehandling, kemisk peeling och microneedling. Om du känner att dina ärr på något sätt påverkar ditt liv negativt, tveka inte att söka professionell hjälp. Det är aldrig för tidigt eller för sent att ta steget mot en bättre hudkvalitet och ökat välbefinnande.</p>',
       ),
 
       new Article(
-          title: 'Varför ska jag besöka AcneSpecialisten för mina operations- och skadeärr?',
-          image_small: 'https://via.placeholder.com/358x272.webp',
-          image_large: 'https://via.placeholder.com/872x456.webp',
-          image_alt: 'Varför ska jag besöka AcneSpecialisten för mina operations- och skadeärr?',
-          image_title: 'Varför ska jag besöka AcneSpecialisten för mina operations- och skadeärr?',
-          content: '<p class="p200">Om du söker en effektiv och långsiktig lösning för dina operations- och skadeärr, är AcneSpecialisten det självklara valet. Vi har över 30 års erfarenhet inom hud och udvård med en specialisering i att behandla ärr. Oavsett om du har mindre skadeärr eller mer omfattande operationsärr, kan vi erbjuda en skräddarsydd lösning för dig.</p>
+            title: 'Varför ska jag besöka AcneSpecialisten för mina operations- och skadeärr?',
+            image_small: 'https://via.placeholder.com/358x272.webp',
+            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_alt: 'Varför ska jag besöka AcneSpecialisten för mina operations- och skadeärr?',
+            image_title: 'Varför ska jag besöka AcneSpecialisten för mina operations- och skadeärr?',
+            content: '<p class="p200">Om du söker en effektiv och långsiktig lösning för dina operations- och skadeärr, är AcneSpecialisten det självklara valet. Vi har över 30 års erfarenhet inom hud och udvård med en specialisering i att behandla ärr. Oavsett om du har mindre skadeärr eller mer omfattande operationsärr, kan vi erbjuda en skräddarsydd lösning för dig.</p>
           <p class="p200 mt-m">Vi använder de senaste metoderna och teknologierna inom hudvård för att ge dig bästa möjliga resultat. Vårt team av hudterapeuter är redo att erbjuda en individuell behandlingsplan och att stötta dig genom hela processen, med regelbundna uppföljningar och anpassade behandlingsplaner säkerställer vi en långvarig förbättring av ditt ärrs utseende.</p>
           <p class="p200 mt-m">Att välja AcneSpecialisten innebär att du får tillgång till den mest avancerade och effektiva behandlingen för dina operations- och skadeärr. Men det är inte allt. Vi ser dig som en partner i din hudvårdsresa och är dedikerade till att hjälpa dig. Vårt engagemang, kunskap och erfarenhet gör oss till ditt bästa val för behandling av ärr.</p>',
       ),
@@ -422,40 +422,40 @@ $review_url_title = "AcneSpecialisten Omdömen";
 $faq_categories = array(
       'Generellt om operations- och skadeärr' => array(
             new Question(
-                title: 'Kan ärr blekna över tid?',
-                text: '<p class="p200">Ärr kan definitivt blekna över tid. Faktorer som ålder, hudens placering, storlek och typ av skada påverkar alla tiden det tar för ett ärr att blekna. Generellt kan ärr på ansiktet blekna snabbare jämfört med de på kroppen. Yngre hud har också en tendens att läka snabbare än äldre hud. Även om vissa ärr kan blekna betydligt inom några månader, kan andra ta flera år och vissa kan aldrig helt försvinna utan behandling. Regelbunden återfuktning och solskydd kan hjälpa till att påskynda blekningsprocessen.</p>'
+                  title: 'Kan ärr blekna över tid?',
+                  text: '<p class="p200">Ärr kan definitivt blekna över tid. Faktorer som ålder, hudens placering, storlek och typ av skada påverkar alla tiden det tar för ett ärr att blekna. Generellt kan ärr på ansiktet blekna snabbare jämfört med de på kroppen. Yngre hud har också en tendens att läka snabbare än äldre hud. Även om vissa ärr kan blekna betydligt inom några månader, kan andra ta flera år och vissa kan aldrig helt försvinna utan behandling. Regelbunden återfuktning och solskydd kan hjälpa till att påskynda blekningsprocessen.</p>'
             ),
             new Question(
-                title: 'Finns det olika typer av ärr?',
-                text: '<p class="p200">Ja, det finns flera olika typer av ärr, var och en med sina egna egenskaper. Keloidärr är tjocka, upphöjda ärr som bildas när kroppen överproducerar kollagen efter en hudskada. Dessa kan växa större än såret och kan vara klåda eller smärtsamt. Hypertrofiska ärr liknar keloider men växer inte utanför sårets gränser. De är upphöjda, röda och kan också vara smärtsamma. Atrofiska ärr är försänkta ärr som ofta kommer från akne eller vattkoppor. De har en gropig yta och kan likna små kratrar. Kontrakturärr är ett resultat av förlust av ett stort hudområde, oftast från brännskador och kan begränsa rörelseförmågan på grund av hudens sammandragning.</p>'
+                  title: 'Finns det olika typer av ärr?',
+                  text: '<p class="p200">Ja, det finns flera olika typer av ärr, var och en med sina egna egenskaper. Keloidärr är tjocka, upphöjda ärr som bildas när kroppen överproducerar kollagen efter en hudskada. Dessa kan växa större än såret och kan vara klåda eller smärtsamt. Hypertrofiska ärr liknar keloider men växer inte utanför sårets gränser. De är upphöjda, röda och kan också vara smärtsamma. Atrofiska ärr är försänkta ärr som ofta kommer från akne eller vattkoppor. De har en gropig yta och kan likna små kratrar. Kontrakturärr är ett resultat av förlust av ett stort hudområde, oftast från brännskador och kan begränsa rörelseförmågan på grund av hudens sammandragning.</p>'
             ),
             new Question(
-                title: 'Hur kan genetik påverka ärrbildningen?',
-                text: '<p class="p200">Genetik spelar en viktig roll i ärrbildning och kan påverka hur en person läker. Vissa genetiska faktorer kan göra en person mer benägen att utveckla tjocka, upphöjda ärr som keloider eller hypertrofiska ärr. Etnicitet kan också spela en roll, med vissa befolkningar som har en högre risk att utveckla dessa typer av ärr. Förståelse av familjens ärrhistoria kan ge insikt i hur en person kan förväntas läka efter en skada.</p>'
+                  title: 'Hur kan genetik påverka ärrbildningen?',
+                  text: '<p class="p200">Genetik spelar en viktig roll i ärrbildning och kan påverka hur en person läker. Vissa genetiska faktorer kan göra en person mer benägen att utveckla tjocka, upphöjda ärr som keloider eller hypertrofiska ärr. Etnicitet kan också spela en roll, med vissa befolkningar som har en högre risk att utveckla dessa typer av ärr. Förståelse av familjens ärrhistoria kan ge insikt i hur en person kan förväntas läka efter en skada.</p>'
             ),
             new Question(
-                title: 'Kan solen påverka hur ett ärr läker eller dess utseende över tid?',
-                text: '<p class="p200">Solen har en signifikant inverkan på ärrs läkning och utseende. Direkt sol exponering kan leda till att nybildade ärr mörknar eller hyperpigmenterar, vilket kan göra dem mer framträdande. Solskador på ärr kan också minska hudens elasticitet, vilket kan förvärra ärrbildningens textur och kvalitet. Det är därför avgörande att använda solskydd, som solkräm eller kläder, för att skydda ärret från solen, särskilt under dess tidiga läkningsfaser.</p>'
+                  title: 'Kan solen påverka hur ett ärr läker eller dess utseende över tid?',
+                  text: '<p class="p200">Solen har en signifikant inverkan på ärrs läkning och utseende. Direkt sol exponering kan leda till att nybildade ärr mörknar eller hyperpigmenterar, vilket kan göra dem mer framträdande. Solskador på ärr kan också minska hudens elasticitet, vilket kan förvärra ärrbildningens textur och kvalitet. Det är därför avgörande att använda solskydd, som solkräm eller kläder, för att skydda ärret från solen, särskilt under dess tidiga läkningsfaser.</p>'
             ),
             new Question(
-                title: 'Är det vanligt att känna smärta eller obehag runt ett ärr?',
-                text: '<p class="p200">Ja, många individer upplever smärta, klåda eller obehag i och runt ärrvävnaden. Särskilt under de tidiga stadierna av läkning kan kollagenfibrerna bli strama, vilket ger en dragande eller klämmande känsla. Smärta eller obehag kan också vara kopplat till nervskada, irritation eller inflammation i området. Med tiden tenderar dessa känslor att minska för de flesta ärr, men om smärtan kvarstår eller är svår, bör medicinsk rådgivning sökas.</p>'
+                  title: 'Är det vanligt att känna smärta eller obehag runt ett ärr?',
+                  text: '<p class="p200">Ja, många individer upplever smärta, klåda eller obehag i och runt ärrvävnaden. Särskilt under de tidiga stadierna av läkning kan kollagenfibrerna bli strama, vilket ger en dragande eller klämmande känsla. Smärta eller obehag kan också vara kopplat till nervskada, irritation eller inflammation i området. Med tiden tenderar dessa känslor att minska för de flesta ärr, men om smärtan kvarstår eller är svår, bör medicinsk rådgivning sökas.</p>'
             ),
       ),
       'Behandling mot operations- och skadeärr' => array(
             new Question(
-                title: 'Vilka är de vanligaste behandlingsmetoderna för operations- och skadeärr?',
-                text: '<p class="p200">Det finns flera behandlingsalternativ för operations- och skadeärr, och valet av metod beror på ärrets typ, placering och den enskilda patientens behov. De mest populära metoderna inkluderar laserbehandling, som bryter ner ärrvävnaden och stimulerar hudens naturliga läkningsprocess; microneedling, där små nålar används för att skapa mikroskopiska sår i huden vilket aktiverar kollagenproduktionen; och kemisk peeling, där syror appliceras för att ta bort de yttersta hudlagren och främja ny hudtillväxt.</p>'
+                  title: 'Vilka är de vanligaste behandlingsmetoderna för operations- och skadeärr?',
+                  text: '<p class="p200">Det finns flera behandlingsalternativ för operations- och skadeärr, och valet av metod beror på ärrets typ, placering och den enskilda patientens behov. De mest populära metoderna inkluderar laserbehandling, som bryter ner ärrvävnaden och stimulerar hudens naturliga läkningsprocess; microneedling, där små nålar används för att skapa mikroskopiska sår i huden vilket aktiverar kollagenproduktionen; och kemisk peeling, där syror appliceras för att ta bort de yttersta hudlagren och främja ny hudtillväxt.</p>'
             ),
 
             new Question(
-                title: 'Är laserbehandlingar effektiva för operations- och skadeärr?',
-                text: '<p class="p200">Laserbehandlingar har visat sig vara mycket effektiva för att behandla operations- och skadeärr. De fungerar genom att rikta in ljusenergi på ärrvävnaden, vilket kan hjälpa till att bryta ner ärrvävnaden och stimulera produktionen av nytt kollagen. Olika typer av lasrar kan användas beroende på ärrets djup, färg och placering. Förutom att förbättra hudens textur kan laserbehandlingar också minska rodnad och förbättra ärrfärgen. Emellertid kräver de flesta patienter flera behandlingssessioner för att uppnå önskade resultat, och det finns en återhämtningsperiod efter varje session.</p>'
+                  title: 'Är laserbehandlingar effektiva för operations- och skadeärr?',
+                  text: '<p class="p200">Laserbehandlingar har visat sig vara mycket effektiva för att behandla operations- och skadeärr. De fungerar genom att rikta in ljusenergi på ärrvävnaden, vilket kan hjälpa till att bryta ner ärrvävnaden och stimulera produktionen av nytt kollagen. Olika typer av lasrar kan användas beroende på ärrets djup, färg och placering. Förutom att förbättra hudens textur kan laserbehandlingar också minska rodnad och förbättra ärrfärgen. Emellertid kräver de flesta patienter flera behandlingssessioner för att uppnå önskade resultat, och det finns en återhämtningsperiod efter varje session.</p>'
             ),
 
             new Question(
-                title: 'Vilka är de potentiella biverkningarna av ärrbehandling?',
-                text: '<p class="p200">Biverkningarna av ärrbehandling kan variera beroende på vilken specifik metod som används. Allmänna biverkningar inkluderar rodnad, svullnad, obehag eller klåda på behandlingsstället. Dessa symtom är oftast tillfälliga och lindras inom några dagar. Andra potentiella biverkningar kan inkludera blåmärken, förändringar i hudfärgen, infektion, ärrförvärring eller till och med ärrbildning som ett resultat av behandlingen. I sällsynta fall kan patienter uppleva allergiska reaktioner på de produkter eller anordningar som används under behandlingen. Därför är det avgörande att diskutera alla potentiella biverkningar med en kvalificerad specialist innan man påbörjar en behandlingsregim.</p>'
+                  title: 'Vilka är de potentiella biverkningarna av ärrbehandling?',
+                  text: '<p class="p200">Biverkningarna av ärrbehandling kan variera beroende på vilken specifik metod som används. Allmänna biverkningar inkluderar rodnad, svullnad, obehag eller klåda på behandlingsstället. Dessa symtom är oftast tillfälliga och lindras inom några dagar. Andra potentiella biverkningar kan inkludera blåmärken, förändringar i hudfärgen, infektion, ärrförvärring eller till och med ärrbildning som ett resultat av behandlingen. I sällsynta fall kan patienter uppleva allergiska reaktioner på de produkter eller anordningar som används under behandlingen. Därför är det avgörande att diskutera alla potentiella biverkningar med en kvalificerad specialist innan man påbörjar en behandlingsregim.</p>'
             ),
 
       ),

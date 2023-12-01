@@ -137,7 +137,7 @@ $treatment_steps = array(
     new TreatmentStep(
         title: 'Define',
         content: 'Lorem ipsum dolor sit amet, <a href="#" class="b200 underline" title="consectetur">consectetur</a> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-        url: 'hudkonsultation',
+        url: 'gratis-hudkonsultation',
         url_label: 'Get a free consultation',
         url_title: 'Get a free consultation'
     ),

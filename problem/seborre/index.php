@@ -106,7 +106,7 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
             content: 'På AcneSpecialisten kopplar vi dig med en erfaren hudterapeut som hjälper dig att korrekt identifiera din seborré och utformar en individuell seborrébehandlingsplan speciellt för dig.',
-            url: 'hudkonsultation',
+            url: 'gratis-hudkonsultation',
             url_label: 'Boka din gratis konsultation nu',
             url_title: 'Boka en tid för gratis seborré konsultation',
       ),
@@ -192,7 +192,7 @@ $service = new Service(
       booking_url: null,
       booking_url_label: null,
       booking_url_title: null,
-      url: 'hudkonsultation',
+      url: 'gratis-hudkonsultation',
       url_label: 'Läs mer om vår hudkonsultation',
       url_title: 'Klicka här för att läsa mer om gratis hudkonsultation'
 

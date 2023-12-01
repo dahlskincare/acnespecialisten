@@ -204,27 +204,27 @@ $bottom_articles = array(
 );
 
 $treatment_steps = array(
-      new TreatmentStep(
-            title: 'Identifiera',
-            content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera dina pormaskar och skapar en individuell behandlingsplan.',
-            url: 'hudkonsultation',
-            url_label: 'Få gratis konsultation',
-            url_title: 'Boka din kostnadsfria hudkonsultation idag'
-      ),
-      new TreatmentStep(
-            title: 'Behandla',
-            content: 'Vi utför skonsamma och effektiva portömning anpassade för dina pormaskar, så att du snabbt och säkert blir av med problemet.',
-            url: 'behandlingar/pormaskar',
-            url_label: 'Se portömning',
-            url_title: 'Utforska våra skräddarsydda portömning'
-      ),
-      new TreatmentStep(
-            title: 'Förebygga',
-            content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga nya pormaskar och hålla din hud i balans.',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/pormaskar',
-            url_label: 'Se produkter',
-            url_title: 'Hitta de bästa produkterna för att förebygga pormaskar'
-      ),
+    new TreatmentStep(
+        title: 'Identifiera',
+        content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera dina pormaskar och skapar en individuell behandlingsplan.',
+        url: 'gratis-hudkonsultation',
+        url_label: 'Få gratis konsultation',
+        url_title: 'Boka din kostnadsfria hudkonsultation idag'
+    ),
+    new TreatmentStep(
+        title: 'Behandla',
+        content: 'Vi utför skonsamma och effektiva portömning anpassade för dina pormaskar, så att du snabbt och säkert blir av med problemet.',
+        url: 'behandlingar/pormaskar',
+        url_label: 'Se portömning',
+        url_title: 'Utforska våra skräddarsydda portömning'
+    ),
+    new TreatmentStep(
+        title: 'Förebygga',
+        content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga nya pormaskar och hålla din hud i balans.',
+        url: 'https://dahlskincare.se/produktkategorier/produktpaket/pormaskar',
+        url_label: 'Se produkter',
+        url_title: 'Hitta de bästa produkterna för att förebygga pormaskar'
+    ),
 
 );
 
@@ -319,22 +319,22 @@ $reviews_view_more = 'Se alla omdömen';
 $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
-            new Question(
-                title: 'Hur ofta bör jag genomgå en portömning?',
-                text: 'Frekvensen av portömningar varierar beroende på din hudtyp och graden av pormaskar. Ofta behöver ett kortare interval i början och därefter underhålls huden med en behandling varannan månad. För att skapa en anpassad behandlingsplan rekommenderar vi att du genomgår en konsultation med en hudspecialist.'
-            ),
-            new Question(
-                title: 'Kommer pormaskarna tillbaka efter en portömning?',
-                text: 'Portömning är effektivt för att ta bort befintliga pormaskar, men det kan inte förhindra nya från att bildas. Det är avgörande att upprätthålla en god hudvårdsrutin efter behandlingen för att minimera risken för nya pormaskar.'
-            ),
-            new Question(
-                title: 'Hur snabbt kan jag se resultat från portömning?',
-                text: 'Många kunder ser en förbättring direkt efter första behandlingen, men för att uppnå bästa möjliga resultat kan det krävas flera sessioner över en tidsperiod. Kombinationen av regelbundna portömningar och rätt hemvård är nyckeln till långsiktiga resultat.'
-            ),
-            new Question(
-                title: 'Behöver jag en portömning även om jag bara har några få pormaskar?',
-                text: 'Ja, även ett fåtal pormaskar kan behandlas med portömning. Det finns ingen minimumgräns för antalet pormaskar som krävs för att dra nytta av behandlingen. Varje hudtillstånd är unikt och kan gagnas av en personligt anpassad hudvårdsstrategi.'
-            ),
+        new Question(
+            title: 'Hur ofta bör jag genomgå en portömning?',
+            text: 'Frekvensen av portömningar varierar beroende på din hudtyp och graden av pormaskar. Ofta behöver ett kortare interval i början och därefter underhålls huden med en behandling varannan månad. För att skapa en anpassad behandlingsplan rekommenderar vi att du genomgår en konsultation med en hudspecialist.'
+        ),
+        new Question(
+            title: 'Kommer pormaskarna tillbaka efter en portömning?',
+            text: 'Portömning är effektivt för att ta bort befintliga pormaskar, men det kan inte förhindra nya från att bildas. Det är avgörande att upprätthålla en god hudvårdsrutin efter behandlingen för att minimera risken för nya pormaskar.'
+        ),
+        new Question(
+            title: 'Hur snabbt kan jag se resultat från portömning?',
+            text: 'Många kunder ser en förbättring direkt efter första behandlingen, men för att uppnå bästa möjliga resultat kan det krävas flera sessioner över en tidsperiod. Kombinationen av regelbundna portömningar och rätt hemvård är nyckeln till långsiktiga resultat.'
+        ),
+        new Question(
+            title: 'Behöver jag en portömning även om jag bara har några få pormaskar?',
+            text: 'Ja, även ett fåtal pormaskar kan behandlas med portömning. Det finns ingen minimumgräns för antalet pormaskar som krävs för att dra nytta av behandlingen. Varje hudtillstånd är unikt och kan gagnas av en personligt anpassad hudvårdsstrategi.'
+        ),
     )
 );
 $faq_view_more = 'Se alla frågor & svar';
@@ -637,11 +637,11 @@ $all_brands = array(
                                 </picture>
                             <? } ?>
                             <?php if (isset($treatment_area->title)) { ?>
-                            <h3 class="h300 mt-xl"><?php echo $treatment_area->title ?></h3>
+                                <h3 class="h300 mt-xl"><?php echo $treatment_area->title ?></h3>
                             <?php } ?>
                             <?php if (isset($treatment_area->description)) { ?>
-                            <div class="mb-xl"><?php echo $treatment_area->description ?></div>
-                            <?php } ?>  
+                                <div class="mb-xl"><?php echo $treatment_area->description ?></div>
+                            <?php } ?>
                         <?php
                             foreach ($treatment_area->items as $treatment_area_item) {
                                 include('../../widgets/treatment-area-item-card/treatment-area-item-card.php');
@@ -704,15 +704,15 @@ $all_brands = array(
                     </section>
                 <?php } ?>
                 <section id="approach">
-                      <h2 class="h500 l10n">Metoden</h2>
-                      <hr class="mt-xl mb-xl3 is-hidden-mobile">
-                      <div class="columns is-variable is-2">
-                            <?php for ($i = 0; $i < sizeof($treatment_steps); $i++) {
-                                  echo '<div class="column">';
-                                  include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/treatment_step_card/treatment_step_card.php');
-                                  echo '</div>';
-                            } ?>
-                      </div>
+                    <h2 class="h500 l10n">Metoden</h2>
+                    <hr class="mt-xl mb-xl3 is-hidden-mobile">
+                    <div class="columns is-variable is-2">
+                        <?php for ($i = 0; $i < sizeof($treatment_steps); $i++) {
+                            echo '<div class="column">';
+                            include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/treatment_step_card/treatment_step_card.php');
+                            echo '</div>';
+                        } ?>
+                    </div>
                 </section>
                 <section id="results" class="large-margin">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php') ?>

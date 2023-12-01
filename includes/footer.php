@@ -5,7 +5,7 @@
             <div class="container">
                 <h2 class="big l10n">Redo att sätta igång?</h2>
                 <p class="p200 l10n">Boka tid för en kostnadsfri konsultation.</p>
-                <a href="hudkonsultation" class="button white expand l10n">
+                <a href="gratis-hudkonsultation" class="button white expand l10n">
                     Få gratis hudkonsultation
                 </a>
             </div>
@@ -84,7 +84,7 @@
                         <h2>Discover</h2>
                         <ul>
                             <li>
-                                <a href="hudkonsultation" class="button text grey compact l10n" title="Gratis hudkonsultation">Gratis hudkonsultation</a>
+                                <a href="gratis-hudkonsultation" class="button text grey compact l10n" title="Gratis hudkonsultation">Gratis hudkonsultation</a>
                             </li>
                             <li>
                                 <a href="problem" class="button text grey compact l10n" title="Problem">Problem</a>
@@ -165,7 +165,7 @@
                     </div>
                 </div>
                 <div id="footer-consultation-button-container">
-                    <a href="hudkonsultation" id="consultation-button" class="button expand l10n">
+                    <a href="gratis-hudkonsultation" id="consultation-button" class="button expand l10n">
                         Få gratis konsultation
                     </a>
                     <div id="legends">
@@ -329,7 +329,7 @@
                                     <h2>Upptäck</h2>
                                     <ul>
                                         <li>
-                                            <a href="hudkonsultation" class="button text grey compact l10n" title="Gratis konsultation">Gratis konsultation</a>
+                                            <a href="gratis-hudkonsultation" class="button text grey compact l10n" title="Gratis konsultation">Gratis konsultation</a>
                                         </li>
                                         <li>
                                             <a href="problem" class="button text grey compact l10n" title="Problem">Problem</a>

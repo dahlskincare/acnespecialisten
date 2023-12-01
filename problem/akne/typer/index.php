@@ -276,7 +276,7 @@ $specialists = array(
                         <div class="mt-xl">
                             <div class="columns is-2 is-variable">
                                 <div class="column">
-                                    <a href="hudkonsultation" class="button white expand l10n" title="Get a free consultation">Get a free consultation</a>
+                                    <a href="gratis-hudkonsultation" class="button white expand l10n" title="Get a free consultation">Get a free consultation</a>
                                 </div>
                                 <div class="column">
                                     <a href="https://bokadirekt.se" class="button white expand l10n" title="Book a treatment">Book a treatment</a>
@@ -302,7 +302,7 @@ $specialists = array(
                     <div class="mt-xl">
                         <div class="columns is-mobile">
                             <div class="column is-half">
-                                <a href="hudkonsultation" class="button b200 white expand l10n" title="Free consultation">Free consultation</a>
+                                <a href="gratis-hudkonsultation" class="button b200 white expand l10n" title="Free consultation">Free consultation</a>
                             </div>
                             <div class="column is-half">
                                 <a href="https://bokadirekt.se" class="button b200 white expand l10n" title="Book a treatment">Book a treatment</a>
@@ -329,7 +329,7 @@ $specialists = array(
                             <?php echo $header_description ?>
                         </p>
                         <div class="mt-xl flex-row" id="book-buttons">
-                            <a href="hudkonsultation" class="button b200 white l10n" title="Get a free consultation">Get a free consultation</a>
+                            <a href="gratis-hudkonsultation" class="button b200 white l10n" title="Get a free consultation">Get a free consultation</a>
                             <a href="https://bokadirekt.se" class="button b200 white l10n" title="Book a treatment">Book a treatment</a>
                         </div>
                     </div>
@@ -379,7 +379,7 @@ $specialists = array(
                             title: 'Define',
                             content: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.',
                             button_label: 'Get a free consultation',
-                            button_url: 'hudkonsultation'
+                            button_url: 'gratis-hudkonsultation'
                         ),
                         new ApproachCard(
                             number: '02',

@@ -107,7 +107,7 @@ $big_types = array(
         image_large: 'https://via.placeholder.com/872x456.webp',
         image_alt: 'Hudterapeutens val',
         image_title: 'Hudterapeutens val',
-        consultation_url: 'hudkonsultation',
+        consultation_url: 'gratis-hudkonsultation',
         consultation_url_label: 'Boka tid för hudkonsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
         booking_url: 'https://www.bokadirekt.se/',
@@ -241,22 +241,22 @@ $reviews_view_more = 'Se alla omdömen';
 $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
-            new Question(
-                title: 'Hur ofta bör jag boka in för hudterapeutens val ansiktsbehandling?',
-                text: 'Frekvensen för hudterapeutens val ansiktsbehandlingar anpassas efter dina specifika hudbehov. Vissa kan dra nytta av månatliga sessioner, medan andra kanske behöver komma mer sällan. Din hudterapeut kommer att hjälpa dig att bestämma en behandlingsplan baserad på en initial bedömning av din huds hälsotillstånd och dina individuella mål.'
-            ),
-            new Question(
-                title: 'Kommer mina hudproblem att komma tillbaka efter hudterapeutens val ansiktsbehandling?',
-                text: 'Även om hudterapeutens val ansiktsbehandling är skräddarsydd för att adressera dina hudproblem, är det viktigt att följa en regelbunden hemvårdsrutin för att upprätthålla resultaten. Livsstilsval och genetiska faktorer kan också påverka din huds tillstånd över tid, så regelbunden kommunikation med din hudterapeut för påföljande behandlingar och justeringar i din hudvård är rekommenderat.'
-            ),
-            new Question(
-                title: 'Hur snabbt kan jag se resultat från hudterapeutens val ansiktsbehandling?',
-                text: 'Många klienter märker förbättring direkt efter behandlingen, men beroende på dina individuella hudbehov kan det ibland krävas fler sessioner för att nå dina hudvårdsmål. Hudterapeuten kommer att arbeta med dig för att skapa en plan som ger de bästa långsiktiga resultaten.'
-            ),
-            new Question(
-                title: 'Behöver jag hudterapeutens val ansiktsbehandling även om jag inte har stora hudproblem?',
-                text: 'Ja, hudterapeutens val ansiktsbehandling är utformad för att vara förebyggande samt att behandla befintliga hudproblem. Oavsett om din hud redan är i gott skick eller om du bara har mindre hudbekymmer, kan behandlingen anpassas för att bibehålla och förbättra hudens hälsa och utseende.'
-            ),
+        new Question(
+            title: 'Hur ofta bör jag boka in för hudterapeutens val ansiktsbehandling?',
+            text: 'Frekvensen för hudterapeutens val ansiktsbehandlingar anpassas efter dina specifika hudbehov. Vissa kan dra nytta av månatliga sessioner, medan andra kanske behöver komma mer sällan. Din hudterapeut kommer att hjälpa dig att bestämma en behandlingsplan baserad på en initial bedömning av din huds hälsotillstånd och dina individuella mål.'
+        ),
+        new Question(
+            title: 'Kommer mina hudproblem att komma tillbaka efter hudterapeutens val ansiktsbehandling?',
+            text: 'Även om hudterapeutens val ansiktsbehandling är skräddarsydd för att adressera dina hudproblem, är det viktigt att följa en regelbunden hemvårdsrutin för att upprätthålla resultaten. Livsstilsval och genetiska faktorer kan också påverka din huds tillstånd över tid, så regelbunden kommunikation med din hudterapeut för påföljande behandlingar och justeringar i din hudvård är rekommenderat.'
+        ),
+        new Question(
+            title: 'Hur snabbt kan jag se resultat från hudterapeutens val ansiktsbehandling?',
+            text: 'Många klienter märker förbättring direkt efter behandlingen, men beroende på dina individuella hudbehov kan det ibland krävas fler sessioner för att nå dina hudvårdsmål. Hudterapeuten kommer att arbeta med dig för att skapa en plan som ger de bästa långsiktiga resultaten.'
+        ),
+        new Question(
+            title: 'Behöver jag hudterapeutens val ansiktsbehandling även om jag inte har stora hudproblem?',
+            text: 'Ja, hudterapeutens val ansiktsbehandling är utformad för att vara förebyggande samt att behandla befintliga hudproblem. Oavsett om din hud redan är i gott skick eller om du bara har mindre hudbekymmer, kan behandlingen anpassas för att bibehålla och förbättra hudens hälsa och utseende.'
+        ),
 
     )
 );
@@ -621,15 +621,15 @@ $all_brands = array(
                     </section>
                 <?php } ?>
                 <section id="approach">
-                      <h2 class="h500 l10n">Metoden</h2>
-                      <hr class="mt-xl mb-xl3 is-hidden-mobile">
-                      <div class="columns is-variable is-2">
-                            <?php for ($i = 0; $i < sizeof($treatment_steps); $i++) {
-                                  echo '<div class="column">';
-                                  include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/treatment_step_card/treatment_step_card.php');
-                                  echo '</div>';
-                            } ?>
-                      </div>
+                    <h2 class="h500 l10n">Metoden</h2>
+                    <hr class="mt-xl mb-xl3 is-hidden-mobile">
+                    <div class="columns is-variable is-2">
+                        <?php for ($i = 0; $i < sizeof($treatment_steps); $i++) {
+                            echo '<div class="column">';
+                            include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/treatment_step_card/treatment_step_card.php');
+                            echo '</div>';
+                        } ?>
+                    </div>
                 </section>
                 <section id="results" class="large-margin">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php') ?>

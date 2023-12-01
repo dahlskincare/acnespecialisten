@@ -118,7 +118,7 @@ $treatment_steps = array(
             content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera omfattningen och typen av dina bristningar och skapar en individuell behandlingsplan.',
 
             url_label: 'Få gratis konsultation',
-            url: 'hudkonsultation',
+            url: 'gratis-hudkonsultation',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
@@ -650,43 +650,43 @@ $review_url_title = "AcneSpecialisten Omdömen";
 $faq_categories = array(
       'Generellt om bristningar' => array(
             new Question(
-                title: 'Vilka är de vanligaste områdena på kroppen som är mer benägna att utveckla bristningar?',
-                text: '<p class="p200">Bristningar kan uppträda på olika delar av kroppen, men de vanligaste områdena där de uppträder är buken, brösten, höfterna, skinkorna och låren. Dessa områden är mer mottagliga för bristningar på grund av deras större potentiella tillväxt och utsträckning, särskilt under perioder som graviditet, snabb viktökning eller intensiv muskeltillväxt.</p>'
+                  title: 'Vilka är de vanligaste områdena på kroppen som är mer benägna att utveckla bristningar?',
+                  text: '<p class="p200">Bristningar kan uppträda på olika delar av kroppen, men de vanligaste områdena där de uppträder är buken, brösten, höfterna, skinkorna och låren. Dessa områden är mer mottagliga för bristningar på grund av deras större potentiella tillväxt och utsträckning, särskilt under perioder som graviditet, snabb viktökning eller intensiv muskeltillväxt.</p>'
             ),
             new Question(
-                title: 'Är det vanligt att man får bristningar under graviditet?',
-                text: '<p class="p200">Ja, det är mycket vanligt att kvinnor utvecklar bristningar under graviditet. Detta beror på den snabba utsträckning av huden, särskilt på buken, samt hormonella förändringar som kan påverka hudens elasticitet. Många kvinnor upplever att bristningarna uppträder under tredje trimestern när den snabbaste tillväxten av magen sker.</p>'
+                  title: 'Är det vanligt att man får bristningar under graviditet?',
+                  text: '<p class="p200">Ja, det är mycket vanligt att kvinnor utvecklar bristningar under graviditet. Detta beror på den snabba utsträckning av huden, särskilt på buken, samt hormonella förändringar som kan påverka hudens elasticitet. Många kvinnor upplever att bristningarna uppträder under tredje trimestern när den snabbaste tillväxten av magen sker.</p>'
             ),
             new Question(
-                title: 'Kan både män och kvinnor få bristningar?',
-                text: '<p class="p200">Ja, både män och kvinnor kan utveckla bristningar. Även om det är mer vanligt hos kvinnor, särskilt under graviditet, kan män också få bristningar, särskilt vid snabb viktökning, snabb muskeltillväxt eller vid hormonella obalanser.</p>'
+                  title: 'Kan både män och kvinnor få bristningar?',
+                  text: '<p class="p200">Ja, både män och kvinnor kan utveckla bristningar. Även om det är mer vanligt hos kvinnor, särskilt under graviditet, kan män också få bristningar, särskilt vid snabb viktökning, snabb muskeltillväxt eller vid hormonella obalanser.</p>'
             ),
             new Question(
-                title: 'Förändras bristningarnas utseende över tid?',
-                text: '<p class="p200">Ja, bristningarnas utseende kan förändras över tiden. När de först uppträder kan de vara röda, lila eller rosa, men med tiden bleknar de ofta till en ljusare, pärlemorfärg eller till en vit eller silveraktig nyans. Även om de inte helt försvinner kan de bli mindre framträdande över åren.</p>'
+                  title: 'Förändras bristningarnas utseende över tid?',
+                  text: '<p class="p200">Ja, bristningarnas utseende kan förändras över tiden. När de först uppträder kan de vara röda, lila eller rosa, men med tiden bleknar de ofta till en ljusare, pärlemorfärg eller till en vit eller silveraktig nyans. Även om de inte helt försvinner kan de bli mindre framträdande över åren.</p>'
             ),
             new Question(
-                title: 'Vilka faktorer kan öka risken för att utveckla bristningar?',
-                text: '<p class="p200">Flera faktorer kan öka risken att utveckla bristningar. Dessa inkluderar genetik, snabb viktökning, graviditet, användning av vissa mediciner.</p>'
+                  title: 'Vilka faktorer kan öka risken för att utveckla bristningar?',
+                  text: '<p class="p200">Flera faktorer kan öka risken att utveckla bristningar. Dessa inkluderar genetik, snabb viktökning, graviditet, användning av vissa mediciner.</p>'
             ),
             new Question(
-                title: 'Är bristningar farliga eller skadliga för hälsan?',
-                text: '<p class="p200">Nej, bristningar är inte farliga eller skadliga för hälsan. De är mestadels en estetisk bekymmer för många människor. Även om de kan vara irriterande eller orsaka obehag, särskilt när de först uppträder, representerar de inget hot mot personens hälsa.</p>'
+                  title: 'Är bristningar farliga eller skadliga för hälsan?',
+                  text: '<p class="p200">Nej, bristningar är inte farliga eller skadliga för hälsan. De är mestadels en estetisk bekymmer för många människor. Även om de kan vara irriterande eller orsaka obehag, särskilt när de först uppträder, representerar de inget hot mot personens hälsa.</p>'
             ),
 
       ),
       'Behandling mot bristningar' => array(
             new Question(
-                title: 'Vilka behandlingsalternativ finns tillgängliga för bristningar?',
-                text: '<p class="p200">Det finns olika behandlingsalternativ för att ta itu med bristningar, bland dessa är laserterapi, kemisk peeling och microneedling de mest populära. Laserterapi fungerar genom att stimulera produktionen av kollagen och elastin i huden, vilket kan förbättra bristningens utseende. Kemisk peeling använder syror för att exfoliera det översta hudlagret, vilket kan minska synligheten av yngre bristningar. Microneedling, å andra sidan, skapar mikroskopiska sår i huden för att stimulera hudens naturliga läkningsprocess och öka kollagenproduktionen. Valet av behandlingsmetod beror på individens specifika behov, bristningens ålder och svårighetsgrad, samt andra faktorer. En konsultation med en hudterapeut rekommenderas för att bestämma den bästa behandlingsplanen.</p>'
+                  title: 'Vilka behandlingsalternativ finns tillgängliga för bristningar?',
+                  text: '<p class="p200">Det finns olika behandlingsalternativ för att ta itu med bristningar, bland dessa är laserterapi, kemisk peeling och microneedling de mest populära. Laserterapi fungerar genom att stimulera produktionen av kollagen och elastin i huden, vilket kan förbättra bristningens utseende. Kemisk peeling använder syror för att exfoliera det översta hudlagret, vilket kan minska synligheten av yngre bristningar. Microneedling, å andra sidan, skapar mikroskopiska sår i huden för att stimulera hudens naturliga läkningsprocess och öka kollagenproduktionen. Valet av behandlingsmetod beror på individens specifika behov, bristningens ålder och svårighetsgrad, samt andra faktorer. En konsultation med en hudterapeut rekommenderas för att bestämma den bästa behandlingsplanen.</p>'
             ),
             new Question(
-                title: 'Hur effektiv är laserbehandling för bristningar?',
-                text: '<p class="p200">Laserbehandling kan vara mycket effektivt för vissa typer av bristningar, särskilt de som är nyare och har en röd eller lila färg. Laserterapi fungerar genom att stimulera produktionen av kollagen och elastin i huden, vilket kan hjälpa till att återställa hudens struktur och minska utseendet av bristningarna. Äldre, blekta bristningar kan vara svårare att behandla med laser, men vissa förbättringar kan fortfarande ses. Som alltid är det viktigt att ha realistiska förväntningar och rådgöra med en hudterapeut för att bestämma den bästa behandlingsplanen.</p>'
+                  title: 'Hur effektiv är laserbehandling för bristningar?',
+                  text: '<p class="p200">Laserbehandling kan vara mycket effektivt för vissa typer av bristningar, särskilt de som är nyare och har en röd eller lila färg. Laserterapi fungerar genom att stimulera produktionen av kollagen och elastin i huden, vilket kan hjälpa till att återställa hudens struktur och minska utseendet av bristningarna. Äldre, blekta bristningar kan vara svårare att behandla med laser, men vissa förbättringar kan fortfarande ses. Som alltid är det viktigt att ha realistiska förväntningar och rådgöra med en hudterapeut för att bestämma den bästa behandlingsplanen.</p>'
             ),
             new Question(
-                title: 'Hur lång tid tar det att se resultat efter en bristningsbehandling?',
-                text: '<p class="p200">Tiden det tar att se resultat efter en bristningsbehandling kan variera beroende på typen av behandling och individens specifika hudkarakteristik. Generellt sett kan det ta flera veckor till månader innan fulla resultat syns, särskilt med behandlingar som stimulerar kollagenproduktionen som laser eller mikronålning. För vissa behandlingar, som mikrodermabrasion eller kemiska peelingar, kan man se snabbare förbättringar. Det är viktigt att följa alla eftervårdsinstruktioner och att ha tålamod eftersom hudförnyelse kan ta tid.</p>'
+                  title: 'Hur lång tid tar det att se resultat efter en bristningsbehandling?',
+                  text: '<p class="p200">Tiden det tar att se resultat efter en bristningsbehandling kan variera beroende på typen av behandling och individens specifika hudkarakteristik. Generellt sett kan det ta flera veckor till månader innan fulla resultat syns, särskilt med behandlingar som stimulerar kollagenproduktionen som laser eller mikronålning. För vissa behandlingar, som mikrodermabrasion eller kemiska peelingar, kan man se snabbare förbättringar. Det är viktigt att följa alla eftervårdsinstruktioner och att ha tålamod eftersom hudförnyelse kan ta tid.</p>'
             ),
 
       ),

@@ -23,7 +23,7 @@ $problems = array(
         image_large: 'https://via.placeholder.com/200x200.webp',
         image_alt: 'Akne',
         image_title: 'Akne',
-        consultation_url: 'hudkonsultation',
+        consultation_url: 'gratis-hudkonsultation',
         consultation_url_label: 'Boka hundkonsultation',
         consultation_url_title: 'Hudkonsultation',
         booking_url: 'bokadirekt',
@@ -39,7 +39,7 @@ $problems = array(
         image_large: 'https://via.placeholder.com/200x200.webp',
         image_alt: 'Akne',
         image_title: 'Akne',
-        consultation_url: 'hudkonsultation',
+        consultation_url: 'gratis-hudkonsultation',
         consultation_url_label: 'Boka hundkonsultation',
         consultation_url_title: 'Hudkonsultation',
         booking_url: 'bokadirekt',
@@ -55,7 +55,7 @@ $problems = array(
         image_large: 'https://via.placeholder.com/200x200.webp',
         image_alt: 'Akne',
         image_title: 'Akne',
-        consultation_url: 'hudkonsultation',
+        consultation_url: 'gratis-hudkonsultation',
         consultation_url_label: 'Boka hundkonsultation',
         consultation_url_title: 'Hudkonsultation',
         booking_url: 'bokadirekt',
@@ -324,7 +324,7 @@ $specialists = array(
                         <div class="mt-xl">
                             <div class="columns is-2 is-variable">
                                 <div class="column">
-                                    <a href="hudkonsultation" class="button white expand l10n" title="Free consultation">Free consultation</a>
+                                    <a href="gratis-hudkonsultation" class="button white expand l10n" title="Free consultation">Free consultation</a>
                                 </div>
                                 <div class="column">
                                     <a href="https://bokadirekt.se" class="button white expand l10n" title="Book a treatment">Book a treatment</a>
@@ -348,7 +348,7 @@ $specialists = array(
                     <div class="mt-xl">
                         <div class="columns is-mobile">
                             <div class="column is-half">
-                                <a href="hudkonsultation" class="button b200 white expand l10n" title="Free consultation">Free consultation</a>
+                                <a href="gratis-hudkonsultation" class="button b200 white expand l10n" title="Free consultation">Free consultation</a>
                             </div>
                             <div class="column is-half">
                                 <a href="bokadirekt" class="button b200 white expand l10n" title="Book a treatment">Book a treatment</a>
@@ -371,7 +371,7 @@ $specialists = array(
                         <h1 class="h600 l10n">Alma - Hybrid (C02)</h1>
                         <div class="mt-s l10n p200">In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified In a personal meeting with a skin specialist, your skinonal... read more</div>
                         <div class="mt-xl flex-row" id="book-buttons">
-                            <a href="hudkonsultation" class="button b200 white l10n" title="Get a free consultation">Get a free consultation</a>
+                            <a href="gratis-hudkonsultation" class="button b200 white l10n" title="Get a free consultation">Get a free consultation</a>
                             <a href="bokadirekt" class="button b200 white l10n" title="Book a treatment">Book a treatment</a>
                         </div>
                     </div>

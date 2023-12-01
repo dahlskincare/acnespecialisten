@@ -166,7 +166,7 @@ $article = new SkinGuideArticle(
                                 In a personal meeting with a skin specialist, your skin type is examined and identified.
                             </div>
                             <div>
-                                <a href="hudkonsultation" class="button white expand l10n" title="Get a free consultation">Get a free consultation</a>
+                                <a href="gratis-hudkonsultation" class="button white expand l10n" title="Get a free consultation">Get a free consultation</a>
                             </div>
                         </div>
                     </div>
@@ -266,7 +266,7 @@ $article = new SkinGuideArticle(
                             </p>
                             <a class="button outline expand" href="" title="View more about consultation">View more about consultation</a>
                             <hr />
-                            <a class="button expand" href="hudkonsultation" title="Get a free consultation">Get a free consultation</a>
+                            <a class="button expand" href="gratis-hudkonsultation" title="Get a free consultation">Get a free consultation</a>
                         </div>
                         <div class="service-banner-touch">
                             <div class="banner-info">
@@ -281,7 +281,7 @@ $article = new SkinGuideArticle(
                             </p>
                             <a class="button outline expand" href="" title="View more about service">View more about service</a>
                             <hr />
-                            <a class="button expand" href="hudkonsultation" title="Get a free consultation">Get a free consultation</a>
+                            <a class="button expand" href="gratis-hudkonsultation" title="Get a free consultation">Get a free consultation</a>
                             <a class="mt-s button expand" href="https://bokadirekt.se" title="Book a treatment">Book a treatment</a>
                         </div>
                     </div>
@@ -301,7 +301,7 @@ $article = new SkinGuideArticle(
                                 </div>
                             </div>
                             <div class="banner-buttons">
-                                <a class="button expand" href="hudkonsultation" title="Get a free consultation">Get a free consultation</a>
+                                <a class="button expand" href="gratis-hudkonsultation" title="Get a free consultation">Get a free consultation</a>
                             </div>
                         </div>
                         <div class="service-banner-desktop">
@@ -317,8 +317,8 @@ $article = new SkinGuideArticle(
                                 </div>
                             </div>
                             <div class="banner-buttons">
-                                <a class="button expand" href="hudkonsultation" title="Get a free consultation">Get a free consultation</a>
-                                <a class="button expand" href="hudkonsultation" title="Book a treatment">Book a treatment</a>
+                                <a class="button expand" href="gratis-hudkonsultation" title="Get a free consultation">Get a free consultation</a>
+                                <a class="button expand" href="gratis-hudkonsultation" title="Book a treatment">Book a treatment</a>
                             </div>
                         </div>
                     </div>

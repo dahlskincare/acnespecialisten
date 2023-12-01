@@ -48,7 +48,7 @@
                 <div class="ep-content">
                     <a href="resultat" class="l10n" title="Resultat">Resultat</a>
                     <a href="presentkort" class="l10n" title="Presentkort">Presentkort</a>
-                    <a href="hudkonsultation" class="l10n" title="Gratis konsultation">Gratis konsultation</a>
+                    <a href="gratis-hudkonsultation" class="l10n" title="Gratis konsultation">Gratis konsultation</a>
                 </div>
             </div>
         </div>
@@ -143,7 +143,7 @@
                 </nav>
             </div>
             <div id="actions">
-                <a class="button text l10n" href="hudkonsultation" title="Boka gratis konsultation">Boka gratis konsultation</a>
+                <a class="button text l10n" href="gratis-hudkonsultation" title="Boka gratis konsultation">Boka gratis konsultation</a>
                 <div onclick="HeaderDesktop.toggleMenu()">
                     <?php icon("bars") ?>
                 </div>

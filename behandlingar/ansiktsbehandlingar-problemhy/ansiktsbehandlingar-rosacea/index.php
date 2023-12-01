@@ -108,7 +108,7 @@ $big_types = array(
         image_large: 'https://via.placeholder.com/872x456.webp',
         image_alt: 'Ansiktsbehandling mot rosacea',
         image_title: 'Ansiktsbehandling mot rosacea',
-        consultation_url: 'hudkonsultation',
+        consultation_url: 'gratis-hudkonsultation',
         consultation_url_label: 'Boka tid för hudkonsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
         booking_url: 'https://www.bokadirekt.se/',
@@ -173,34 +173,34 @@ $bottom_articles = array(
 );
 
 $treatment_steps = array(
-      new TreatmentStep(
-            title: 'Identifiera',
-            content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din rosacea och skapar en individuell behandlingsplan.',
-            url_label: 'Få gratis konsultation',
-            url: 'hudkonsultation',
-            url_title: 'Boka din kostnadsfria hudkonsultation idag'
-      ),
-      new TreatmentStep(
-            title: 'Behandla',
-            content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika rosacea, så att du snabbt och säkert blir av med problemet.',
-            url_label: 'Se behandlingar',
-            url: 'behandlingar/rosacea',
-            url_title: 'Utforska våra skräddarsydda rosaceabehandlingar'
-      ),
-      new TreatmentStep(
-            title: 'Förebygga',
-            content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny rosacea och hålla din hud i balans.',
-            url_label: 'Se produkter',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/rosacea',
-            url_title: 'Hitta de bästa produkterna för att förebygga rosacea'
-      ),
-      new TreatmentStep(
-            title: 'Reparera',
-            content: 'När rosacean är borta fokuserar vi på att reducera eventuella ytliga blodkärl med behandlingsmetoder som IPL för en jämn och problemfri hud.',
-            url_label: 'Se IPL-behandlingar',
-            url: 'behandlingar/rosacea',
-            url_title: 'Upptäck effektiva behandlingar för ytliga blodkärl'
-      ),
+    new TreatmentStep(
+        title: 'Identifiera',
+        content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din rosacea och skapar en individuell behandlingsplan.',
+        url_label: 'Få gratis konsultation',
+        url: 'gratis-hudkonsultation',
+        url_title: 'Boka din kostnadsfria hudkonsultation idag'
+    ),
+    new TreatmentStep(
+        title: 'Behandla',
+        content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika rosacea, så att du snabbt och säkert blir av med problemet.',
+        url_label: 'Se behandlingar',
+        url: 'behandlingar/rosacea',
+        url_title: 'Utforska våra skräddarsydda rosaceabehandlingar'
+    ),
+    new TreatmentStep(
+        title: 'Förebygga',
+        content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny rosacea och hålla din hud i balans.',
+        url_label: 'Se produkter',
+        url: 'https://dahlskincare.se/produktkategorier/produktpaket/rosacea',
+        url_title: 'Hitta de bästa produkterna för att förebygga rosacea'
+    ),
+    new TreatmentStep(
+        title: 'Reparera',
+        content: 'När rosacean är borta fokuserar vi på att reducera eventuella ytliga blodkärl med behandlingsmetoder som IPL för en jämn och problemfri hud.',
+        url_label: 'Se IPL-behandlingar',
+        url: 'behandlingar/rosacea',
+        url_title: 'Upptäck effektiva behandlingar för ytliga blodkärl'
+    ),
 
 );
 
@@ -295,22 +295,22 @@ $reviews_view_more = 'Se alla omdömen';
 $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
-            new Question(
-                title: 'Hur ofta bör jag genomgå en ansiktsbehandling mot rosacea?',
-                text: 'Frekvensen för ansiktsbehandlingar mot rosacea bör anpassas individuellt. Vissa kan behöva regelbundna sessioner medan andra kanske bara behöver sporadiska underhållsbehandlingar. Det bästa är att konsultera med din hudterapeut för att utarbeta en plan som är skräddarsydd för din huds behov och din rosaceas svårighetsgrad.'
-            ),
-            new Question(
-                title: 'Kan ansiktsbehandlingar mot rosacea helt eliminera min rodnad?',
-                text: 'Ansiktsbehandlingar kan avsevärt minska rodnaden och andra symptom associerade med rosacea, men det är en pågående tillstånd som ofta kräver kontinuerlig behandling. Genom att följa din skräddarsydda hudvårdsrutin kan du upprätthålla resultatet och minimera framtida utbrott.'
-            ),
-            new Question(
-                title: 'Hur snabbt kan jag förvänta mig att se resultat efter en ansiktsbehandling för rosacea?',
-                text: 'Resultaten kan variera beroende på individens hud och svårighetsgraden av rosacea. Men med rätt kombination av behandlingar och produkter ser många en förbättring redan inom några veckor. Kontinuerlig vård och regelbundna behandlingar rekommenderas för bästa långsiktiga resultat.'
-            ),
-            new Question(
-                title: 'Är ansiktsbehandlingar mot rosacea nödvändiga även för milda fall?',
-                text: 'Även mild rosacea kan dra nytta av anpassade ansiktsbehandlingar för att hantera symtom och förhindra försämring. Det är viktigt att konsultera med en hudterapeut för att bedöma dina behov och bestämma den bästa behandlingsstrategin för din hud.'
-            ),
+        new Question(
+            title: 'Hur ofta bör jag genomgå en ansiktsbehandling mot rosacea?',
+            text: 'Frekvensen för ansiktsbehandlingar mot rosacea bör anpassas individuellt. Vissa kan behöva regelbundna sessioner medan andra kanske bara behöver sporadiska underhållsbehandlingar. Det bästa är att konsultera med din hudterapeut för att utarbeta en plan som är skräddarsydd för din huds behov och din rosaceas svårighetsgrad.'
+        ),
+        new Question(
+            title: 'Kan ansiktsbehandlingar mot rosacea helt eliminera min rodnad?',
+            text: 'Ansiktsbehandlingar kan avsevärt minska rodnaden och andra symptom associerade med rosacea, men det är en pågående tillstånd som ofta kräver kontinuerlig behandling. Genom att följa din skräddarsydda hudvårdsrutin kan du upprätthålla resultatet och minimera framtida utbrott.'
+        ),
+        new Question(
+            title: 'Hur snabbt kan jag förvänta mig att se resultat efter en ansiktsbehandling för rosacea?',
+            text: 'Resultaten kan variera beroende på individens hud och svårighetsgraden av rosacea. Men med rätt kombination av behandlingar och produkter ser många en förbättring redan inom några veckor. Kontinuerlig vård och regelbundna behandlingar rekommenderas för bästa långsiktiga resultat.'
+        ),
+        new Question(
+            title: 'Är ansiktsbehandlingar mot rosacea nödvändiga även för milda fall?',
+            text: 'Även mild rosacea kan dra nytta av anpassade ansiktsbehandlingar för att hantera symtom och förhindra försämring. Det är viktigt att konsultera med en hudterapeut för att bedöma dina behov och bestämma den bästa behandlingsstrategin för din hud.'
+        ),
     )
 );
 $faq_view_more = 'Se alla frågor & svar';
@@ -651,15 +651,15 @@ $all_brands = array(
                     </section>
                 <?php } ?>
                 <section id="approach">
-                      <h2 class="h500 l10n">Metoden</h2>
-                      <hr class="mt-xl mb-xl3 is-hidden-mobile">
-                      <div class="columns is-variable is-2">
-                            <?php for ($i = 0; $i < sizeof($treatment_steps); $i++) {
-                                  echo '<div class="column">';
-                                  include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/treatment_step_card/treatment_step_card.php');
-                                  echo '</div>';
-                            } ?>
-                      </div>
+                    <h2 class="h500 l10n">Metoden</h2>
+                    <hr class="mt-xl mb-xl3 is-hidden-mobile">
+                    <div class="columns is-variable is-2">
+                        <?php for ($i = 0; $i < sizeof($treatment_steps); $i++) {
+                            echo '<div class="column">';
+                            include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/treatment_step_card/treatment_step_card.php');
+                            echo '</div>';
+                        } ?>
+                    </div>
                 </section>
                 <section id="results" class="large-margin">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php') ?>

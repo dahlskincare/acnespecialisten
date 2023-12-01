@@ -111,7 +111,7 @@ $treatment_steps = array(
             content: 'Hos AcneSpecialisten kopplas du till en personlig hudterapeut som hjälper dig identifiera de ytliga blodkärlen i ditt ansikte och skapar en individuell behandlingsplan.',
 
             url_label: 'Få gratis konsultation',
-            url: 'hudkonsultation',
+            url: 'gratis-hudkonsultation',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
@@ -366,7 +366,7 @@ $service = new Service(
       consultation_url_label: 'Boka tid för hudkonsultation',
       consultation_url: 'consultation-booking?problem=ytliga-blodkarl',
       consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ytliga blodkärl',
-      
+
       booking_url_label: null,
       booking_url: null,
       booking_url_title: null,
@@ -460,7 +460,7 @@ $reviews = array(
             title: 'Supernöjd',
             text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
             signature: 'Sofia',
-            stars: 5,            
+            stars: 5,
             logo_url: 'images/brands/trustpilot.svg'
 
       ),

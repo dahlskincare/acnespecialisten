@@ -106,7 +106,7 @@ $big_types = array(
         image_large: 'https://via.placeholder.com/872x456.webp',
         image_alt: 'Milierbehandling',
         image_title: 'Milierbehandling',
-        consultation_url: 'hudkonsultation',
+        consultation_url: 'gratis-hudkonsultation',
         consultation_url_label: 'Boka tid för hudkonsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
         booking_url: 'https://www.bokadirekt.se/',
@@ -149,22 +149,22 @@ $bottom_articles = array(
 );
 
 $treatment_steps = array(
-      new TreatmentStep(
-            title: 'Identifiera',
-            content: 'Hos AcneSpecialisten matchas du med en personlig hudterapeut som hjälper dig att identifierar dina milier och skapar en individuell behandlingsplan.',
+    new TreatmentStep(
+        title: 'Identifiera',
+        content: 'Hos AcneSpecialisten matchas du med en personlig hudterapeut som hjälper dig att identifierar dina milier och skapar en individuell behandlingsplan.',
 
-            url_label: 'Få gratis konsultation',
-            url: 'hudkonsultation',
-            url_title: 'Boka din kostnadsfria hudkonsultation idag'
-      ),
-      new TreatmentStep(
-            title: 'Behandla',
-            content: 'Vi erbjuder målinriktade och effektiva behandlingar för milier, anpassade till din hud och dess unika behov. Vårt mål är att du ska kunna bli av med dina milier på ett säkert och effektivt sätt.',
+        url_label: 'Få gratis konsultation',
+        url: 'gratis-hudkonsultation',
+        url_title: 'Boka din kostnadsfria hudkonsultation idag'
+    ),
+    new TreatmentStep(
+        title: 'Behandla',
+        content: 'Vi erbjuder målinriktade och effektiva behandlingar för milier, anpassade till din hud och dess unika behov. Vårt mål är att du ska kunna bli av med dina milier på ett säkert och effektivt sätt.',
 
-            url_label: 'Se milierbehandlingar',
-            url: 'behandlingar/milier',
-            url_title: 'Utforska våra skräddarsydda behandlingar för milier'
-      ),
+        url_label: 'Se milierbehandlingar',
+        url: 'behandlingar/milier',
+        url_title: 'Utforska våra skräddarsydda behandlingar för milier'
+    ),
 );
 
 $results = array(
@@ -258,22 +258,22 @@ $reviews_view_more = 'Se alla omdömen';
 $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
-            new Question(
-                title: 'Hur ofta bör jag genomgå en milierbehandling?',
-                text: 'Frekvensen av milierbehandlingar kan variera beroende på din hudtyp och hur benägen din hud är för att utveckla milier. I början kan behandlingar behövas oftare för att komma till rätta med befintliga milier, men efter det kan regelbundna underhållsbehandlingar var tredje till var sjätte månad vara tillräckligt. En individuell konsultation med en hudvårdsexpert kan ge en mer skräddarsydd behandlingsplan.'
-            ),
-            new Question(
-                title: 'Kommer milier att komma tillbaka efter behandling?',
-                text: 'Milierbehandling tar bort de milier som för närvarande finns, men det finns alltid en möjlighet att nya milier kan utvecklas. Det är viktigt med en adekvat hemvårdsrutin och potentiellt livsstilsförändringar för att minimera återkomsten av milier.'
-            ),
-            new Question(
-                title: 'Hur snabbt kan jag se resultat från milierbehandling?',
-                text: 'Resultatet är omedelbart då vi manuellt tömmer milierna, men ibland kan det krävas upprepade sessioner för att hantera mer ihållande eller omfattande milier. Kontinuerliga behandlingar, i kombination med en anpassad hudvårdsrutin, bidrar till de bästa långsiktiga resultaten.'
-            ),
-            new Question(
-                title: 'Är milierbehandling nödvändig även om jag bara har några milier?',
-                text: 'Ja, milierbehandling kan vara fördelaktigt även om du bara har några få milier. Det är inte antalet milier som är avgörande utan önskan om att förbättra hudens utseende. En behandling kan anpassas för att rikta sig specifikt mot de milier du har, oavsett antal.'
-),
+        new Question(
+            title: 'Hur ofta bör jag genomgå en milierbehandling?',
+            text: 'Frekvensen av milierbehandlingar kan variera beroende på din hudtyp och hur benägen din hud är för att utveckla milier. I början kan behandlingar behövas oftare för att komma till rätta med befintliga milier, men efter det kan regelbundna underhållsbehandlingar var tredje till var sjätte månad vara tillräckligt. En individuell konsultation med en hudvårdsexpert kan ge en mer skräddarsydd behandlingsplan.'
+        ),
+        new Question(
+            title: 'Kommer milier att komma tillbaka efter behandling?',
+            text: 'Milierbehandling tar bort de milier som för närvarande finns, men det finns alltid en möjlighet att nya milier kan utvecklas. Det är viktigt med en adekvat hemvårdsrutin och potentiellt livsstilsförändringar för att minimera återkomsten av milier.'
+        ),
+        new Question(
+            title: 'Hur snabbt kan jag se resultat från milierbehandling?',
+            text: 'Resultatet är omedelbart då vi manuellt tömmer milierna, men ibland kan det krävas upprepade sessioner för att hantera mer ihållande eller omfattande milier. Kontinuerliga behandlingar, i kombination med en anpassad hudvårdsrutin, bidrar till de bästa långsiktiga resultaten.'
+        ),
+        new Question(
+            title: 'Är milierbehandling nödvändig även om jag bara har några milier?',
+            text: 'Ja, milierbehandling kan vara fördelaktigt även om du bara har några få milier. Det är inte antalet milier som är avgörande utan önskan om att förbättra hudens utseende. En behandling kan anpassas för att rikta sig specifikt mot de milier du har, oavsett antal.'
+        ),
 
     )
 );
@@ -638,15 +638,15 @@ $all_brands = array(
                     </section>
                 <?php } ?>
                 <section id="approach">
-                      <h2 class="h500 l10n">Metoden</h2>
-                      <hr class="mt-xl mb-xl3 is-hidden-mobile">
-                      <div class="columns is-variable is-2">
-                            <?php for ($i = 0; $i < sizeof($treatment_steps); $i++) {
-                                  echo '<div class="column">';
-                                  include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/treatment_step_card/treatment_step_card.php');
-                                  echo '</div>';
-                            } ?>
-                      </div>
+                    <h2 class="h500 l10n">Metoden</h2>
+                    <hr class="mt-xl mb-xl3 is-hidden-mobile">
+                    <div class="columns is-variable is-2">
+                        <?php for ($i = 0; $i < sizeof($treatment_steps); $i++) {
+                            echo '<div class="column">';
+                            include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/treatment_step_card/treatment_step_card.php');
+                            echo '</div>';
+                        } ?>
+                    </div>
                 </section>
                 <section id="results" class="large-margin">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php') ?>

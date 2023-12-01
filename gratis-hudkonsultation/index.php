@@ -83,7 +83,7 @@ $categories = array(
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
-    <link rel="stylesheet" href="/hudkonsultation/consultation.css">
+    <link rel="stylesheet" href="/gratis-hudkonsultation/consultation.css">
 </head>
 
 <body>
@@ -274,8 +274,8 @@ $categories = array(
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
     <script src="includes/scripts/floating-image.js"></script>
-    <script src="hudkonsultation/widgets/consultation_category/consultation_category.js"></script>
-    <script src="hudkonsultation/consultation.js"></script>
+    <script src="/gratis-hudkonsultation/widgets/consultation_category/consultation_category.js"></script>
+    <script src="/gratis-hudkonsultation/consultation.js"></script>
 </body>
 
 </html>

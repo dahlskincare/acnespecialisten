@@ -115,7 +115,7 @@ $treatment_steps = array(
             content: 'Hos AcneSpecialisten får du träffa en erfaren hudterapeut som hjälper dig identifiera din specifika typ av perioral dermatit och utvecklar en personlig behandlingsplan just för dig.',
 
             url_label: 'Få gratis konsultation',
-            url: 'hudkonsultation',
+            url: 'gratis-hudkonsultation',
             url_title: 'Boka din kostnadsfria hudkonsultation för perioral dermatit idag'
       ),
       new TreatmentStep(
@@ -410,7 +410,7 @@ $service = new Service(
       image_title: 'Konsultation för behandling av perioral dermatit',
 
       url_label: 'Läs mer om vår konsultation',
-      url: 'hudkonsultation',
+      url: 'gratis-hudkonsultation',
       url_title: 'Klicka här för att läsa mer om gratis hudkonsultation',
 
       consultation_url_label: 'Boka tid för konsultation ',
@@ -540,7 +540,7 @@ $reviews = array(
             title: 'Supernöjd',
             text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
             signature: 'Sofia',
-            stars: 5,            
+            stars: 5,
             logo_url: 'images/brands/trustpilot.svg'
 
       ),
