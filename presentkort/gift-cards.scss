@@ -108,6 +108,10 @@ div#content {
         }
 
         .is-hidden-desktop {
+            #step-2-small {
+                scroll-margin-top: 90px;
+            }
+
             .gift-card-step {
                 margin-top: $xl;
                 padding: $xl;
@@ -137,6 +141,10 @@ div#content {
         }
 
         .is-hidden-touch {
+            #step-2-large {
+                scroll-margin-top: 120px;
+            }
+
             .gift-card-step {
                 margin-top: $xl;
                 padding: $xl;

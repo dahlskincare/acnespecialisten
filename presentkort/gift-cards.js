@@ -68,4 +68,14 @@ if (window.location.search.includes('paid')) {
         document.querySelector('#step-2-small').scrollIntoView();
     }
 }
+if (window.location.search.includes('sent')) {
+    if (window.innerWidth >= 1024) {
+        document.querySelector('#step-2-large').scrollIntoView();
+        openConfirmForm(document.querySelector('#large-form-button'), '#large-form');
+    }
+    else {
+        document.querySelector('#step-2-small').scrollIntoView();
+        openConfirmForm(document.querySelector('#small-form-button'), '#small-form');
+    }
+}
 //# sourceMappingURL=gift-cards.js.map

@@ -194,20 +194,22 @@ if (form_completed()) {
                                 <h2 class="l10n">Swish money</h2>
                             </div>
                             <div class="gc-text l10n">Send us any amount you want to put on the gift card or buy some procedure.</div>
-                            <form class="mt-xs">
-                                <div class="select-wrapper">
-                                    <select name="swish-amount" id="swish-amount" onchange="onAmountChange(event)" value="<?php echo $amount ?>">
-                                        <option value="500" <?php if ($amount == "500") echo "selected" ?>>500 kr</option>
-                                        <option value="1000" <?php if ($amount == "1000") echo "selected" ?>>1000 kr</option>
-                                        <option value="1500" <?php if ($amount == "1500") echo "selected" ?>>1500 kr</option>
-                                        <option value="2000" <?php if ($amount == "2000") echo "selected" ?>>2000 kr</option>
-                                        <option value="2500" <?php if ($amount == "2500") echo "selected" ?>>2500 kr</option>
-                                        <option value="3000" <?php if ($amount == "3000") echo "selected" ?>>3000 kr</option>
-                                    </select>
-                                </div>
-                            </form>
-                            <hr />
-                            <a href="swish://paymentrequest?token=<?php echo $client->createPaymentRequest($pr)->paymentRequestToken ?>&callbackurl=https%3A%2F%2Facnespecialisten.com%2Fpresentkort%3Fpaid%3D1" class="button outline expand l10n" title="Open Swish app">Open Swish app</a>
+                            <?php if (!form_completed()) { ?>
+                                <form class="mt-xs">
+                                    <div class="select-wrapper">
+                                        <select name="swish-amount" id="swish-amount" onchange="onAmountChange(event)" value="<?php echo $amount ?>">
+                                            <option value="500" <?php if ($amount == "500") echo "selected" ?>>500 kr</option>
+                                            <option value="1000" <?php if ($amount == "1000") echo "selected" ?>>1000 kr</option>
+                                            <option value="1500" <?php if ($amount == "1500") echo "selected" ?>>1500 kr</option>
+                                            <option value="2000" <?php if ($amount == "2000") echo "selected" ?>>2000 kr</option>
+                                            <option value="2500" <?php if ($amount == "2500") echo "selected" ?>>2500 kr</option>
+                                            <option value="3000" <?php if ($amount == "3000") echo "selected" ?>>3000 kr</option>
+                                        </select>
+                                    </div>
+                                </form>
+                                <hr />
+                                <a href="swish://paymentrequest?token=<?php echo $client->createPaymentRequest($pr)->paymentRequestToken ?>&callbackurl=https%3A%2F%2Facnespecialisten.com%2Fpresentkort%3Fpaid%3D1" class="button outline expand l10n" title="Open Swish app">Open Swish app</a>
+                            <?php } ?>
                         </div>
                         <div class="gift-card-step" id="step-2-small">
                             <div class="flex-row align-center">
@@ -222,7 +224,7 @@ if (form_completed()) {
                                 </div>
                             <?php } else { ?>
                                 <div class="gc-text l10n">Fill in your info and attach a screenshot with payment details.</div>
-                                <button class="mt-m outline expand l10n" onclick="openConfirmForm(this, '#small-form')">Confirm</button>
+                                <button class="mt-m outline expand l10n" id="small-form-button" onclick="openConfirmForm(this, '#small-form')">Confirm</button>
                                 <form action="presentkort/?sent=1" enctype="multipart/form-data" method="POST" class="is-hidden" id="small-form">
                                     <hr />
                                     <label for="firstname">
@@ -278,7 +280,7 @@ if (form_completed()) {
                                                         <span class="l10n">Town or city</span>
                                                         <span class="color-deep-sea-400">*</span>
                                                     </label>
-                                                    <input type="text" name="city" placeholder="Black" />
+                                                    <input type="text" name="city" placeholder="City" />
                                                 </div>
                                             </div>
                                         </div>
@@ -304,10 +306,12 @@ if (form_completed()) {
                                     <h2 class="l10n">Swish money</h2>
                                     <div class="l10n">Send us any amount you want to put on the gift card or buy some procedure.</div>
                                 </div>
-                                <div id="qr-image">
-                                    <img src="<?php echo $qr_image_desktop ?>" alt="QR" title="QR">
-                                    <div class="mt-s h200">123 08 866 89</div>
-                                </div>
+                                <?php if (!form_completed()) { ?>
+                                    <div id="qr-image">
+                                        <img src="<?php echo $qr_image_desktop ?>" alt="QR" title="QR">
+                                        <div class="mt-s h200">123 08 866 89</div>
+                                    </div>
+                                <?php } ?>
                             </div>
                         </div>
                         <div class=" gift-card-step" id="step-2-large">
@@ -319,7 +323,7 @@ if (form_completed()) {
                                 </div>
                                 <?php if (!form_completed()) { ?>
                                     <div class="gc-info">
-                                        <button class="outline b200 l10n" onclick="openConfirmForm(this, '#large-form')">Confirm</button>
+                                        <button class="outline b200 l10n" id="large-form-button" onclick="openConfirmForm(this, '#large-form')">Confirm</button>
                                     </div>
                                 <?php } ?>
                             </div>
