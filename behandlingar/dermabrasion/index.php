@@ -55,7 +55,7 @@ $top_articles = array(
         image_alt: 'Förberedelse inför dermabrasion',
         image_title: 'Förberedelse inför dermabrasion',
         content: '<p class="p200">Inför din dermabrasion-behandling på AcneSpecialisten är det viktigt att förbereda huden för att maximera resultatet. Vi rekommenderar att du undviker att använda starka hudvårdsprodukter, såsom exfolierande syror, några dagar innan behandlingen. Detta för att minska risken för irritation och göra huden mer mottaglig för behandlingen.</p>
-        <p class="p200 mt-m">Det är också klokt att skydda din hud från stark sol och undvika solbränna innan din session. Solbränd hud kan vara mer känslig och kan påverka resultatet av dermabrasion. Om du tar mediciner som påverkar huden, eller om du har några hudrelaterade tillstånd, informera oss gärna om detta i förväg så att vi kan anpassa behandlingen efter dina behov. Kom ihåg att det är viktigt att du känner dig trygg och bekväm, så tveka inte att ställa frågor eller uttrycka dina önskemål när du kommer till oss på AcneSpecialisten för din behandling.</p>',
+        <p class="p200 mt-m">Det är också klokt att skydda din hud från stark sol och undvika solbränna innan din session. Solbränd hud kan vara mer känslig och kan påverka resultatet av dermabrasion. Om du tar mediciner som påverkar huden, eller om du har några hudrelaterade tillstånd, informera oss gärna om detta i förväg så att vi kan anpassa behandlingen efter dina behov. Kom ihåg att det är viktigt att du känner dig trygg och bekväm, så tveka inte boka en kostnadsfri dermabrasion konsultation hos oss.</p>',
         tags: array(new ArticleTag(
             icon: 'article-tag-steam',
             label: 'Steam'

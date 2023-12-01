@@ -194,7 +194,7 @@ $categories = array(
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about" class="large-margin">
-                    <h2 class="h500 l10n">What is skin consultation?</h2>
+                    <h2 class="h500 l10n">Vad är en hudkonsultation?</h2>
                     <picture>
                         <source media="(max-width: 799px)" srcset="https://via.placeholder.com/358x272.webp">
                         <source media="(min-width: 800px)" srcset="https://via.placeholder.com/872x456.webp">
@@ -202,22 +202,21 @@ $categories = array(
                     </picture>
                     <div class="infobox">
                         <div class="ib-header" onclick="Consultation.toggleContent(this.parentElement)">
-                            <div class="l10n">The consultation is absolutely free, if you have not missed the scheduled visit.</div>
+                            <div class="l10n">Vi erbjuder alltid gratis hudkonsultation! (Värde 600 kronor)</div>
                             <?php icon('add'); ?>
                         </div>
                         <div class="ib-content zero-size">
-                            <p class="p200 l10n">More consultation info here ...</p>
+                            <p class="p200 l10n">Våra konsultationer är gratis om man kommer på det bokade besöket. Vid uteblivet besök som inte avbokas senast 24 timmar innan den bokade tiden debiterar vi 500 kronor.</p>
                         </div>
                     </div>
                     <div class="mt-xl l10n">
-                        This is a treatment adapted for acne skin and <a title="pimples">pimples</a> and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the <a title="acne treatment">acne treatment</a>, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.
-                    </div>
-                    <div class="mt-xl l10n">
-                        This is a treatment adapted for acne skin and <a title="pimples">pimples</a> and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.
+                        <p class="p200">Upptäck nyckeln till en strålande och frisk hy med vår skräddarsydda hudkonsultation på AcneSpecialisten. Denna kostnadsfria tjänst är inte bara en analys av din hudtyp, utan ett omfattande första steg för att skräddarsy en behandlingsplan som är rätt för dig. Under konsultationen utforskar vi din hud i detalj - vi identifierar din hudtyp, eventuella hudproblem som acne eller känslighet, och skräddarsyr en behandling som är effektiv och anpassad för just dig.</p>
+                        <p class="p200 mt-m">Vår expertis sträcker sig bortom grundläggande hudvård. Vi tar en helhetssyn på din hudhälsa och erbjuder råd och lösningar som omfattar allt från våra beprövade metoder till de senaste innovationerna inom hudvård. Vi introducerar dig till de mest effektiva produkterna och varumärkena i vår portfolio, noggrant utvalda för att matcha dina specifika behov.</p>
+                        <p class="p200 mt-m">Boka din gratis hudkonsultation idag och ta det första steget mot en klarare, friskare hy. Kontakta oss på AcneSpecialisten eller använd vårt smidiga bokningssystem för att hitta en tid som passar dig. Vår dedikerade personal väntar på att ge dig en personlig upplevelse och hjälpa dig på din resa mot en problemfri hy.</p>
                     </div>
                 </section>
                 <section id="types" class="large-margin">
-                    <h2 class="h500 mb-xs l10n">Consultation types</h2>
+                    <h2 class="h500 mb-xs l10n">Konsultations typer</h2>
                     <hr class="is-hidden-desktop" />
                     <?php foreach ($categories as $category) { ?>
                         <?php include('widgets/consultation_category/consultation_category.php') ?>
