@@ -175,9 +175,9 @@ if (form_completed()) {
         <div class="container">
             <div id="content">
                 <section id="title">
-                    <h1 class="l10n">Gift cards</h1>
-                    <p class="l10n">Buy gift card and give as a gift to someone you care about. Gift cards are valid for all procedures in all our clinics and are valid for 1 year from the date of receipt.</p>
-                    <div class="button b200 expand" onclick="document.querySelector('#steps').scrollIntoView()">Order a gift card</div>
+                    <h1 class="l10n">Presentkort</h1>
+                    <p class="l10n">Ge bort en omtänksam gåva med ett presentkort från Acnespecialisten. Nu kan du enkelt skicka en uppskattad present utan att besöka kliniken. Swisha oss det valda beloppet eller ange önskad behandling, och vi skickar ett vackert utformat presentkort direkt till dig eller mottagaren. Våra presentkort är en flexibel gåva som ger mottagaren friheten att välja bland våra många hudvårdsbehandlingar eller kvalitetsprodukter, perfekt för att visa att du bryr dig.</p>
+                    <div class="button b200 expand" onclick="document.querySelector('#steps').scrollIntoView()">Köp ett presentkort</div>
                 </section>
                 <section id="image">
                     <picture>
@@ -191,9 +191,9 @@ if (form_completed()) {
                         <div class="gift-card-step" id="step-1-small">
                             <div class="flex-row align-center">
                                 <div class="gc-number">01</div>
-                                <h2 class="l10n">Swish money</h2>
+                                <h2 class="l10n">Swish beloppet</h2>
                             </div>
-                            <div class="gc-text l10n">Send us any amount you want to put on the gift card or buy some procedure.</div>
+                            <div class="gc-text l10n">Skicka valfritt belopp som du vill sätta in på presentkortet.</div>
                             <?php if (!form_completed()) { ?>
                                 <form class="mt-xs">
                                     <div class="select-wrapper">
@@ -208,76 +208,76 @@ if (form_completed()) {
                                     </div>
                                 </form>
                                 <hr />
-                                <a href="swish://paymentrequest?token=<?php echo $client->createPaymentRequest($pr)->paymentRequestToken ?>&callbackurl=https%3A%2F%2Facnespecialisten.com%2Fpresentkort%3Fpaid%3D1" class="button outline expand l10n" title="Open Swish app">Open Swish app</a>
+                                <a href="swish://paymentrequest?token=<?php echo $client->createPaymentRequest($pr)->paymentRequestToken ?>&callbackurl=https%3A%2F%2Facnespecialisten.com%2Fpresentkort%3Fpaid%3D1" class="button outline expand l10n" title="Open Swish app">Öppna Swish-appen</a>
                             <?php } ?>
                         </div>
                         <div class="gift-card-step" id="step-2-small">
                             <div class="flex-row align-center">
                                 <div class="gc-number">02</div>
-                                <h2 class="l10n">Confirmation</h2>
+                                <h2 class="l10n">Bekräftelse</h2>
                             </div>
                             <?php if (form_completed()) { ?>
                                 <div class="confirmation-banner mt-m">
-                                    <div class="h400 l10n">Your confirmation has been sent</div>
-                                    <div class="p200 mt-xxs l10n">We will contact you as soon as possible.</div>
-                                    <a href="presentkort" class="button white outline expand mt-xl" title="Resend">Resend</a>
+                                    <div class="h400 l10n">Din bekräftelse har skickats</div>
+                                    <div class="p200 mt-xxs l10n">Vi skickar presentkortet så snart vi kan.</div>
+                                    <a href="presentkort" class="button white outline expand mt-xl" title="Skicka igen">Skicka igen</a>
                                 </div>
                             <?php } else { ?>
-                                <div class="gc-text l10n">Fill in your info and attach a screenshot with payment details.</div>
+                                <div class="gc-text l10n">Fyll i din information och bifoga en skärmbild på Swish bekräftelsen.</div>
                                 <button class="mt-m outline expand l10n" id="small-form-button" onclick="openConfirmForm(this, '#small-form')">Confirm</button>
                                 <form action="presentkort/?sent=1" enctype="multipart/form-data" method="POST" class="is-hidden" id="small-form">
                                     <hr />
                                     <label for="firstname">
-                                        <span class="l10n">First name</span>
+                                        <span class="l10n">Förnamn</span>
                                         <span class="color-deep-sea-400">*</span>
                                     </label>
                                     <input type="text" name="firstname" placeholder="Anette" required />
                                     <label for="lastname" class="mt-xl">
-                                        <span class="l10n">Last name</span>
+                                        <span class="l10n">Efternamn</span>
                                         <span class="color-deep-sea-400">*</span>
                                     </label>
                                     <input type="text" name="lastname" placeholder="Black " required />
                                     <label for="email" class="mt-xl">
-                                        <span class="l10n">Recipient email</span>
+                                        <span class="l10n">E-post</span>
                                         <span class="color-deep-sea-400">*</span>
                                     </label>
-                                    <input type="email" name="email" placeholder="example@email.com" required />
-                                    <label for="phone" class="mt-xl l10">Phone number</label>
+                                    <input type="email" name="email" placeholder="din@epost.se" required />
+                                    <label for="phone" class="mt-xl l10">Telefonnummer</label>
                                     <input type="phone" name="phone" placeholder="08 123 456" />
                                     <label class="mt-xl" id="screenshot-label">
-                                        <span class="l10n">Payment screenshot</span>
+                                        <span class="l10n">Betalningsbekräftelse</span>
                                         <span class="color-deep-sea-400">*</span>
                                     </label>
-                                    <div class="p100">Add a screenshot of your money transfer.</div>
+                                    <div class="p100">Skicka en skärmbild på din Swish bekräftelse.</div>
                                     <input class="button outline mt-m expand" type="file" required accept="image/png, image/jpeg" name="file" />
                                     <hr />
                                     <label class="checkbox">
-                                        <span onclick="onPhysicalChange(this)">I want a physical card also</span>
+                                        <span onclick="onPhysicalChange(this)">Jag vill även ha ett fysiskt presentkort</span>
                                         <input type="checkbox" name="physical" />
                                         <span class="check" onclick="onPhysicalChange(this)"></span>
                                     </label>
                                     <div class="physicalAddressDetails is-hidden">
                                         <div class="physicalAddressDetails is-hidden">
                                             <label for="street1" class="mt-xl">
-                                                <span class="l10n">Address line 1</span>
+                                                <span class="l10n">Adress 1</span>
                                                 <span class="color-deep-sea-400">*</span>
                                             </label>
                                             <input type="text" name="street1" placeholder="Street, house, apartment..." />
                                             <label for="street2" class="mt-xl">
-                                                <span class="l10n">Address line 2</span>
+                                                <span class="l10n">Adress 2</span>
                                             </label>
                                             <input type="text" name="street2" placeholder="Office number, floor, room..." />
                                             <div class="columns is-variable is-3">
                                                 <div class="column">
                                                     <label for="zip" class="mt-xl">
-                                                        <span class="l10n">Postal code</span>
+                                                        <span class="l10n">Postkod</span>
                                                         <span class="color-deep-sea-400">*</span>
                                                     </label>
                                                     <input type="text" name="zip" placeholder="12345" />
                                                 </div>
                                                 <div class="column">
                                                     <label for="city" class="mt-xl">
-                                                        <span class="l10n">Town or city</span>
+                                                        <span class="l10n">Stad</span>
                                                         <span class="color-deep-sea-400">*</span>
                                                     </label>
                                                     <input type="text" name="city" placeholder="City" />
@@ -293,9 +293,9 @@ if (form_completed()) {
                         <div class="gift-card-step">
                             <div class="flex-row align-center">
                                 <div class="gc-number">03</div>
-                                <h2 class="l10n">Get your gift card</h2>
+                                <h2 class="l10n">Få ditt presentkort</h2>
                             </div>
-                            <div class="gc-text l10n">We will send you an electronic version of the gift card on your email and, if you wish, a physical gift card to your address, usually it takes up to 2 days.</div>
+                            <div class="gc-text l10n">Vi skickar ett digitalt presentkort till dig inom 1 dag. Vi skickar även presentkortet fysiskt via posten enligt önskemål, detta tar normalt 2-3 dagar.</div>
                         </div>
                     </div>
                     <div class="is-hidden-touch">
