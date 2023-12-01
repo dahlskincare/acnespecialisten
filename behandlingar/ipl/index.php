@@ -27,7 +27,7 @@ $model = new Service(
     booking_url_title: 'Boka tid för behandling',
 );
 
-$floating_box = 'Kort beskrivning om IPL';
+$floating_box = 'Effektiv ljusbehandling för en rad olika hudproblem såsom pigmenteringar, ytliga blodkärl och rosacea.';
 
 $nav_buttons = array(
     'about' => 'Om IPL',

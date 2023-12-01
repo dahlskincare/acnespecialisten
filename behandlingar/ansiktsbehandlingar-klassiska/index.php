@@ -28,6 +28,8 @@ $model = new Service(
     booking_url_title: 'Boka tid för behandling',
 );
 
+$floating_box = 'Klassiska ansiktsbehandlingar som passar alla.';
+
 $nav_buttons = array(
     'about' => 'Om ansiktsbehandlingar mot problemhy',
     'preparing' => 'Förberedelser',
