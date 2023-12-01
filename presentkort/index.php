@@ -224,7 +224,7 @@ if (form_completed()) {
                                 </div>
                             <?php } else { ?>
                                 <div class="gc-text l10n">Fyll i din information och bifoga en skärmbild på Swish bekräftelsen.</div>
-                                <button class="mt-m outline expand l10n" id="small-form-button" onclick="openConfirmForm(this, '#small-form')">Confirm</button>
+                                <button class="mt-m outline expand l10n" id="small-form-button" onclick="openConfirmForm(this, '#small-form')">Bekräfta</button>
                                 <form action="presentkort/?sent=1" enctype="multipart/form-data" method="POST" class="is-hidden" id="small-form">
                                     <hr />
                                     <label for="firstname">

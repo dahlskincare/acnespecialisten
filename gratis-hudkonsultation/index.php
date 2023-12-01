@@ -3,8 +3,8 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once('models.php');
 
 $nav_buttons = array(
-    'about' => 'Overview',
-    'types' => 'Types',
+    'about' => 'Översikt',
+    'types' => 'Typer',
 );
 
 $categories = array(
@@ -70,10 +70,10 @@ $categories = array(
 <html lang="<?php echo $lang ?>">
 
 <head>
-    <title class="l10n">Acnespecialisten | Hudkonsultation</title>
-    <meta name="description" content="" class="l10n">
-    <meta name="title" content="" class="l10n">
-    <meta name="keywords" content="" class="l10n">
+    <title class="l10n">Acnespecialisten | Gratis Hudkonsultation</title>
+    <meta name="description" content="Upptäck fördelarna med en personlig hudkonsultation hos AcneSpecialisten. Våra erfarna hudterapeuter analyserar din hudtyp och skräddarsyr en behandlingsplan just för dig." class="l10n">
+    <meta name="title" content="Gratis Hudkonsultation hos AcneSpecialisten - Din väg till en bättre hud" class="l10n">
+    <meta name="keywords" content="hudkonsultation, AcneSpecialisten, gratis hudanalys, personlig hudvårdsplan, hudterapeuter, hudvård, problemhy, skräddarsydd behandling" class="l10n">
     <meta property="og:title" content="Acnespecialisten" />
     <meta property="og:description" content="" class="l10n" />
     <meta property="og:image" content="images/about-desktop.jpg" />
@@ -94,8 +94,8 @@ $categories = array(
                 <div id="overlay">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
                     <div>
-                        <h2 class="h600 l10n">Gratis konsultation</h2>
-                        <h3 class="mt-m h200 l10n">Duration: 20 min</h3>
+                        <h2 class="h600 l10n">Gratis hudkonsultation</h2>
+                        <h3 class="mt-m h200 l10n">Längd: 20 min</h3>
                         <p class="mt-m p200 l10n">Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat.</p>
                         <div class="mt-xl">
                             <div class="columns is-2 is-variable">
