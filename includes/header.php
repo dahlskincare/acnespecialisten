@@ -92,7 +92,7 @@
                             <li class="l10n">Community</li>
                             <li><a href="resultat" class="l10n" title="Resultat">Resultat</a></li>
                             <li><a href="presentkort" class="l10n" title="Presentkort">Presentkort</a></li>
-                            <li><a href="konsultation" class="l10n" title="Gratis konsultation">Gratis konsultation</a></li>
+                            <li><a href="gratis-hudkonsultation" class="l10n" title="Gratis konsultation">Gratis konsultation</a></li>
                         </ul>
                     </div>
                     <div class="column">
