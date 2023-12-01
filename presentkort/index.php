@@ -191,7 +191,7 @@ if (form_completed()) {
                         <div class="gift-card-step" id="step-1-small">
                             <div class="flex-row align-center">
                                 <div class="gc-number">01</div>
-                                <h2 class="l10n">Swish beloppet</h2>
+                                <h2 class="l10n">Swisha önskat belopp</h2>
                             </div>
                             <div class="gc-text l10n">Skicka valfritt belopp som du vill sätta in på presentkortet.</div>
                             <?php if (!form_completed()) { ?>
@@ -218,7 +218,7 @@ if (form_completed()) {
                             </div>
                             <?php if (form_completed()) { ?>
                                 <div class="confirmation-banner mt-m">
-                                    <div class="h400 l10n">Din bekräftelse har skickats</div>
+                                    <div class="h400 l10n">Din beställning har skickats</div>
                                     <div class="p200 mt-xxs l10n">Vi skickar presentkortet så snart vi kan.</div>
                                     <a href="presentkort" class="button white outline expand mt-xl" title="Skicka igen">Skicka igen</a>
                                 </div>
@@ -252,7 +252,7 @@ if (form_completed()) {
                                     <input class="button outline mt-m expand" type="file" required accept="image/png, image/jpeg" name="file" />
                                     <hr />
                                     <label class="checkbox">
-                                        <span onclick="onPhysicalChange(this)">Jag vill även ha ett fysiskt presentkort</span>
+                                        <span onclick="onPhysicalChange(this)">Jag vill ha ett fysiskt presentkort</span>
                                         <input type="checkbox" name="physical" />
                                         <span class="check" onclick="onPhysicalChange(this)"></span>
                                     </label>
@@ -303,8 +303,8 @@ if (form_completed()) {
                             <div class="flex-row align-center">
                                 <div class="gc-number">01</div>
                                 <div class="gc-texts">
-                                    <h2 class="l10n">Swish money</h2>
-                                    <div class="l10n">Send us any amount you want to put on the gift card or buy some procedure.</div>
+                                    <h2 class="l10n">Swisha önskat belopp</h2>
+                                    <div class="l10n">Skicka valfritt belopp som du vill sätta in på presentkortet.</div>
                                 </div>
                                 <?php if (!form_completed()) { ?>
                                     <div id="qr-image">
@@ -318,12 +318,12 @@ if (form_completed()) {
                             <div class="flex-row align-center">
                                 <div class="gc-number">02</div>
                                 <div class="gc-texts">
-                                    <h2 class="l10n">Confirmation</h2>
-                                    <div class="gc-text l10n">Fill in your info and attach a screenshot with payment details.</div>
+                                    <h2 class="l10n">Bekräftelse</h2>
+                                    <div class="gc-text l10n">Fyll i din information och bifoga en skärmbild på Swish bekräftelsen.</div>
                                 </div>
                                 <?php if (!form_completed()) { ?>
                                     <div class="gc-info">
-                                        <button class="outline b200 l10n" id="large-form-button" onclick="openConfirmForm(this, '#large-form')">Confirm</button>
+                                        <button class="outline b200 l10n" id="large-form-button" onclick="openConfirmForm(this, '#large-form')">Bekräfta</button>
                                     </div>
                                 <?php } ?>
                             </div>
@@ -332,10 +332,10 @@ if (form_completed()) {
                                 <div class="confirmation-banner">
                                     <div class="flex-row align-center justify-space-between">
                                         <div>
-                                            <div class="h400 l10n">Your confirmation has been sent</div>
-                                            <div class="p200 mt-xxs l10n">We will contact you as soon as possible.</div>
+                                            <div class="h400 l10n">Din beställning har skickats</div>
+                                            <div class="p200 mt-xxs l10n">Vi skickar presentkortet så snart vi kan.</div>
                                         </div>
-                                        <a href="presentkort" class="button white outline" title="Resend">Resend</a>
+                                        <a href="presentkort" class="button white outline" title="Skicka igen">Skicka igen</a>
                                     </div>
                                 </div>
                             <?php } else { ?>
@@ -344,64 +344,64 @@ if (form_completed()) {
                                     <div class="columns is-variable is-3">
                                         <div class="column">
                                             <label for="firstname">
-                                                <span class="l10n">First name</span>
+                                                <span class="l10n">Förnamn</span>
                                                 <span class="color-deep-sea-400">*</span>
                                             </label>
                                             <input type="text" name="firstname" placeholder="Annette" required />
                                         </div>
                                         <div class="column">
                                             <label for="lastname">
-                                                <span class="l10n">Last name</span>
+                                                <span class="l10n">Efternamn</span>
                                                 <span class="color-deep-sea-400">*</span>
                                             </label>
                                             <input type="text" name="lastname" placeholder="Black" required />
                                         </div>
                                     </div>
                                     <label for="email" class="mt-xl">
-                                        <span class="l10n">Recipient email</span>
+                                        <span class="l10n">E-post</span>
                                         <span class="color-deep-sea-400">*</span>
                                     </label>
                                     <input type="email" name="email" placeholder="example@email.com" required />
-                                    <label for="phone" class="mt-xl l10">Phone number</label>
+                                    <label for="phone" class="mt-xl l10">Telefonnummer</label>
                                     <input type="phone" name="phone" placeholder="08 123 456" />
                                     <label for="" class="mt-xl" id="screenshot-label">
-                                        <span class="l10n">Payment screenshot</span>
+                                        <span class="l10n">Betalningsbekräftelse</span>
                                         <span class="color-deep-sea-400">*</span>
                                     </label>
                                     <div id="upload-area" ondrop="onFileDrop(event)" ondragover="event.preventDefault()">
-                                        <div class="p100 l10n">Add a screenshot of your money transfer.</div>
+                                        <div class="p100 l10n">Skicka en skärmbild på din Swish bekräftelse.</div>
                                         <div>
-                                            <div class="button outline l10n" id="upload-button" onclick="document.querySelector('#upload-input').click()">Upload a photo</div>
+                                            <div class="button outline l10n" id="upload-button" onclick="document.querySelector('#upload-input').click()">Ladda upp en skärmbild</div>
                                             <input type="file" id="upload-input" onchange="onFileChange(event)" required accept="image/png, image/jpeg" name="file" />
                                         </div>
                                     </div>
                                     <hr />
                                     <label class="checkbox">
-                                        <span onclick="onPhysicalChange(this)">I want a physical card also</span>
+                                        <span onclick="onPhysicalChange(this)">Jag vill ha ett fysiskt presentkort</span>
                                         <input type="checkbox" name="physical" />
                                         <span class="check" onclick="onPhysicalChange(this)"></span>
                                     </label>
                                     <div class="physicalAddressDetails is-hidden">
                                         <label for="street1" class="mt-xl">
-                                            <span class="l10n">Address line 1</span>
+                                            <span class="l10n">Adressrad 1</span>
                                             <span class="color-deep-sea-400">*</span>
                                         </label>
                                         <input type="text" name="street1" placeholder="Street, house, apartment..." />
                                         <label for="street2" class="mt-xl">
-                                            <span class="l10n">Address line 2</span>
+                                            <span class="l10n">Adressrad 2</span>
                                         </label>
                                         <input type="text" name="street2" placeholder="Office number, floor, room..." />
                                         <div class="columns is-variable is-3">
                                             <div class="column">
                                                 <label for="zip" class="mt-xl">
-                                                    <span class="l10n">Postal code</span>
+                                                    <span class="l10n">Postkod</span>
                                                     <span class="color-deep-sea-400">*</span>
                                                 </label>
                                                 <input type="text" name="zip" placeholder="12345" />
                                             </div>
                                             <div class="column">
                                                 <label for="city" class="mt-xl">
-                                                    <span class="l10n">Town or city</span>
+                                                    <span class="l10n">Stad</span>
                                                     <span class="color-deep-sea-400">*</span>
                                                 </label>
                                                 <input type="text" name="city" placeholder="Black" />
@@ -417,8 +417,8 @@ if (form_completed()) {
                             <div class="flex-row align-center">
                                 <div class="gc-number">03</div>
                                 <div class="gc-texts">
-                                    <h2 class="l10n">Get your gift card</h2>
-                                    <div class="l10n">We will send you an electronic version of the gift card on your email and, if you wish, a physical gift card to your address, usually it takes up to 2 days.</div>
+                                    <h2 class="l10n">Få ditt presentkort</h2>
+                                    <div class="l10n">Vi skickar ett digitalt presentkort till dig inom 1 dag. Vi skickar även presentkortet fysiskt via posten enligt önskemål, detta tar normalt 2-3 dagar.</div>
                                 </div>
                             </div>
                         </div>
@@ -426,34 +426,35 @@ if (form_completed()) {
                 </section>
                 <section id="flyers">
                     <div class="gift-card-flyer">
-                        <div class="h500 is-hidden-desktop l10n">Gift to someone you <br />care about</div>
+                        <div class="h500 is-hidden-desktop l10n">Ge ett presentkort <br />till någon som du bryr dig om</div>
                         <picture>
                             <source media="(max-width: 1023px)" srcset="https://via.placeholder.com/358x272.webp">
                             <source media="(min-width: 1024px)" srcset="https://via.placeholder.com/424x526.webp">
                             <img src="https://via.placeholder.com/358x272.webp" alt="Gift to someone" title="Gift to someone" width="358" height="272" />
                         </picture>
                         <div>
-                            <div class="gcf-header is-hidden-touch l10n">Gift to someone <br />you care about</div>
+                            <div class="gcf-header is-hidden-touch l10n">Välj Belopp eller Behandling</div>
                             <div class="gcf-text l10n">
-                                Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments. We hereby present our new department Nordiska Kliniken Hud Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery.
+                                På AcneSpecialisten ger vi dig flexibiliteten att skräddarsy ditt presentkort. Du kan välja att antingen ange ett specifikt belopp eller namnge en särskild behandling som du önskar ge bort. Detta gör våra presentkort till en personlig och uppskattad gåva, anpassad efter mottagarens behov och önskemål. Oavsett om det är en lyxig ansiktsbehandling eller ett bidrag till deras favoritprodukter, blir ditt presentkort en tankefull gest.
                             </div>
-                            <button class="outline b200 expand l10n" onclick="document.querySelector('#steps').scrollIntoView()">Order a gift card</button>
+                            <button class="outline b200 expand l10n" onclick="document.querySelector('#steps').scrollIntoView()">Beställ ett presentkort</button>
                         </div>
 
                     </div>
                     <div class="gift-card-flyer">
-                        <div class="h500 is-hidden-desktop l10n">Gift to someone you <br />care about</div>
+                        <div class="h500 is-hidden-desktop l10n">Gift to someone you care about</div>
                         <picture>
                             <source media="(max-width: 1023px)" srcset="https://via.placeholder.com/358x272.webp">
                             <source media="(min-width: 1024px)" srcset="https://via.placeholder.com/424x526.webp">
                             <img src="https://via.placeholder.com/358x272.webp" alt="Gift to someone" title="Gift to someone" width="358" height="272" />
                         </picture>
                         <div>
-                            <div class="gcf-header is-hidden-touch l10n">Gift to someone <br />you care about</div>
+                            <div class="gcf-header is-hidden-touch l10n">Fungerar på Alla Våra Kliniker</div>
                             <div class="gcf-text l10n">
-                                Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments. We hereby present our new department Nordiska Kliniken Hud Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery.
+                                Våra presentkort är utformade för ultimat flexibilitet och kan användas på alla AcneSpecialistens kliniker. Oavsett vilken av våra lokaler mottagaren väljer att besöka, kan presentkortet lösas in hos någon av våra kvalificerade hudterapeuter. Presentkortet kan användas för både våra expertbehandlingar och vårt sortiment av högkvalitativa hudvårdsprodukter, vilket ger mottagaren friheten att välja den upplevelse som passar dem bäst.
                             </div>
-                            <button class="outline b200 expand l10n" onclick="document.querySelector('#steps').scrollIntoView()">Order a gift card</button>
+
+                            <button class="outline b200 expand l10n" onclick="document.querySelector('#steps').scrollIntoView()">Beställ ett presentkort</button>
                         </div>
 
                     </div>
@@ -461,11 +462,11 @@ if (form_completed()) {
             </div>
             <section id="cta" class="large-margin">
                 <div id="cta-banner-texts">
-                    <div class="l10n" id="cta-banner-header">Want to identify your problem?</div>
-                    <div class="p200 l10n" id="cta-banner-content">In a personal meeting with a skin specialist, your skin type is examined and identified.</div>
+                    <div class="l10n" id="cta-banner-header">Vill du ha hjälp med din hy?</div>
+                    <div class="p200 l10n" id="cta-banner-content">Boka en gratis hudkonsultation hos en av våra erfarna hudterapeuter.</div>
                 </div>
                 <div>
-                    <a href="<?php echo $consultation_url ?>" class="button white expand l10n" title="Get a free consultation">Get a free consultation</a>
+                    <a href="<?php echo $consultation_url ?>" class="button white expand l10n" title="Boka en gratis hudkonsultation">Boka en gratis hudkonsultation</a>
                 </div>
             </section>
             <section id="results" class="large-margin">
