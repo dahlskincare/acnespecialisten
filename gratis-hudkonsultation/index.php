@@ -100,10 +100,10 @@ $categories = array(
                         <div class="mt-xl">
                             <div class="columns is-2 is-variable">
                                 <div class="column">
-                                    <a href="consultation-booking?type=clinic" class="button white expand l10n" title="Book a clinict visit">Book a clinict visit</a>
+                                    <a href="consultation-booking?type=clinic" class="button white expand l10n" title="Book a clinict visit">Boka ett klinikbesök</a>
                                 </div>
                                 <div class="column">
-                                    <a href="consultation-booking?type=online" class="button white expand l10n" title="Book an online call">Book an online call</a>
+                                    <a href="consultation-booking?type=online" class="button white expand l10n" title="Book an online call">Boka online konsultation</a>
                                 </div>
                             </div>
                         </div>
