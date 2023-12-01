@@ -10,8 +10,8 @@ $nav_buttons = array(
 $categories = array(
     new ConsultationCategory(
         id: 'problem-skin-consultation',
-        name: 'Problem skin consultation',
-        description: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth.',
+        name: 'Problemhy Konsultation',
+        description: 'Här hittar du våra konsultationer som är anpassade för ditt hudproblem. Vi analyserar din hy och tar fram en behandlingsplan med rätt behandlingar och produkter för just din hudtyp.',
         types: array(
             new ConsultationType(
                 title: 'Acne',
@@ -39,8 +39,8 @@ $categories = array(
     ),
     new ConsultationCategory(
         id: 'service-consultation',
-        name: 'Service consultation',
-        description: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth.',
+        name: 'Behandlings konsultation',
+        description: 'Dessa konsultationer är för dig som redan vet vilken metod du är intresserad av att höra mer och komma igång med behandlingen av huden. Vi kommer att analysera huden noga och ta fram en skräddarsydd behandlingsplan för just din hy.',
         types: array(
             new ConsultationType(
                 title: 'Problem skin facials',
@@ -62,7 +62,33 @@ $categories = array(
             ),
         ),
         button_label: 'View services list',
-    )
+    ),
+    new ConsultationCategory(
+        id: 'brand-consultation',
+        name: 'Varumärkes konsultation',
+        description: 'Våra varumärkes konsultationer är för dig som hört om ett specifikt märke eller maskin och är intresserad av att höra mer om hur den kan hjäpla dig att uppnå dina hudvårdsmål.',
+        types: array(
+            new ConsultationType(
+                title: 'Problem skin facials',
+                image: 'https://via.placeholder.com/102x102.webp',
+                url: 'behandlingar/ansiktsbehandlingar-problemhy/chemical-peeling/',
+                consultation_url: 'consultation-booking?service=chemicalPeeling'
+            ),
+            new ConsultationType(
+                title: 'Classic facials',
+                image: 'https://via.placeholder.com/102x102.webp',
+                url: 'behandlingar/ansiktsbehandlingar-problemhy/chemical-peeling/',
+                consultation_url: 'consultation-booking?service=chemicalPeeling'
+            ),
+            new ConsultationType(
+                title: 'Microneedling',
+                image: 'https://via.placeholder.com/102x102.webp',
+                url: 'behandlingar/ansiktsbehandlingar-problemhy/chemical-peeling/',
+                consultation_url: 'consultation-booking?service=chemicalPeeling'
+            ),
+        ),
+        button_label: 'View services list',
+    ),
 );
 
 ?>
@@ -96,7 +122,7 @@ $categories = array(
                     <div>
                         <h2 class="h600 l10n">Gratis hudkonsultation</h2>
                         <h3 class="mt-m h200 l10n">Längd: 20 min</h3>
-                        <p class="mt-m p200 l10n">Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat.</p>
+                        <p class="mt-m p200 l10n">Vår kostnadsfria hudkonsultation passar alla. Vi identifierar din hudtyp och vilken problemhy du har med hjälp av vår hudanalys.</p>
                         <div class="mt-xl">
                             <div class="columns is-2 is-variable">
                                 <div class="column">
@@ -118,15 +144,15 @@ $categories = array(
                 <div class="container">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
                     <h1 class="h600 l10n">Gratis hudkonsultation</h1>
-                    <h3 class="mt-xs h200 l10n">Duration: 20 min</h3>
-                    <p class="mt-xs p200">Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat.</p>
+                    <h3 class="mt-xs h200 l10n">Längd: 20 min</h3>
+                    <p class="mt-xs p200">Vår kostnadsfria hudkonsultation passar alla. Vi identifierar din hudtyp och vilken problemhy du har med hjälp av vår hudanalys.</p>
                     <div class="mt-xl">
                         <div class="columns is-mobile">
                             <div class="column is-half">
-                                <a href="consultation-booking?type=clinic" class="button b200 white expand l10n" title="Book a clinic visit">Book a clinic visit</a>
+                                <a href="consultation-booking?type=clinic" class="button b200 white expand l10n" title="Book a clinic visit">Boka ett klinikbesök</a>
                             </div>
                             <div class="column is-half">
-                                <a href="consultation-booking?type=online" class="button b200 white expand l10n" title="Book an online call">Book an online call</a>
+                                <a href="consultation-booking?type=online" class="button b200 white expand l10n" title="Book an online call">Boka online konsultation</a>
                             </div>
                         </div>
                     </div>
@@ -146,11 +172,11 @@ $categories = array(
                     </div>
                     <div id="green-header-large-text" class="mt-xxs">
                         <h1 class="h600 l10n">Gratis hudkonsultation</h1>
-                        <h3 class="mt-s h200 l10n">Duration: 20 min</h3>
-                        <p class="mt-s p200 l10n">Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat.</p>
+                        <h3 class="mt-s h200 l10n">Längd: 20 min</h3>
+                        <p class="mt-s p200 l10n">Vår kostnadsfria hudkonsultation passar alla. Vi identifierar din hudtyp och vilken problemhy du har med hjälp av vår hudanalys.</p>
                         <div class="mt-xl flex-row" id="book-buttons">
-                            <a href="consultation-booking?type=clinic" class="button b200 white l10n" title="Book a clinic visit">Book a clinic visit</a>
-                            <a href="consultation-booking?type=online" class="button b200 white l10n" title="Book an online call">Book an online call</a>
+                            <a href="consultation-booking?type=clinic" class="button b200 white l10n" title="Book a clinic visit">Boka ett klinikbesök</a>
+                            <a href="consultation-booking?type=online" class="button b200 white l10n" title="Book an online call">Boka online konsultation</a>
                         </div>
                     </div>
                 </div>
