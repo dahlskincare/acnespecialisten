@@ -4,7 +4,7 @@ include_once('models.php');
 
 $nav_buttons = array(
     'about' => 'Översikt',
-    'types' => 'Typer',
+    'types' => 'Våra konsultationer',
 );
 
 $categories = array(
@@ -35,7 +35,7 @@ $categories = array(
                 consultation_url: 'consultation-booking?problem=chemicalPeeling'
             ),
         ),
-        button_label: 'View problems list',
+        button_label: 'Se problmehy konsultationer',
     ),
     new ConsultationCategory(
         id: 'service-consultation',
@@ -61,7 +61,7 @@ $categories = array(
                 consultation_url: 'consultation-booking?service=chemicalPeeling'
             ),
         ),
-        button_label: 'View services list',
+        button_label: 'Se behandlings listan',
     ),
     new ConsultationCategory(
         id: 'brand-consultation',
@@ -87,7 +87,7 @@ $categories = array(
                 consultation_url: 'consultation-booking?service=chemicalPeeling'
             ),
         ),
-        button_label: 'View services list',
+        button_label: 'Se varumärkes listan',
     ),
 );
 
