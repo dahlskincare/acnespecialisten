@@ -328,7 +328,7 @@ $problems['oonskat-har'] = new Problem(
 $default_problems = new ProblemArea(
       label: '',
       icon: '',
-      problem_ids: array('akne', 'aknearr', 'rosacea', 'finnar', 'arr-fran-finnar', 'pigmentflackar'),
+      problem_ids: array('akne', 'aknearr', 'rosacea', 'pormaskar', 'stora-porer', 'milier', 'blandhy', 'finnar', 'arr-fran-finnar', 'perioral-dermatit', 'seborre', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar', 'mogen-hy', 'bristningar', 'hudforandringar', 'operations-arr', 'oonskad-harvaxt'),
 );
 
 $problem_areas = array(
