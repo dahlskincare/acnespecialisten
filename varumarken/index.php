@@ -122,15 +122,15 @@ $link_brands = array(
       new BrandCategory(
             label: 'Laser for problem skin',
             services: array(
-                  "varumarken/alma/hybrid-c02" => "Alma - Hybrid (CO2)",
-                  "varumarken/alma/harmony-xl" => "Alma - Harmony XL"
+                  "varumarken/alma/hybrid" => "Alma - Hybrid",
+                  "varumarken/alma/harmony-xl-pro" => "Alma - Harmony XL"
             )
       ),
       new BrandCategory(
-            label: 'Laser for hair removal',
+            label: 'Permanent Hårborttagning',
             services: array(
-                  "varumarken/alma/soprano-ice" => "Alma - Soprano Ice",
-                  "varumarken/lumenis/splendor-x" => "Lumenis - Splendor X",
+                  "varumarken/soprano-ice" => "Alma - Soprano Ice",
+                  "varumarken/splendor-x" => "Lumenis - Splendor X",
             )
       ),
       new BrandCategory(
