@@ -53,8 +53,7 @@ $problems['akne'] = new Problem(
       booking_url_title: 'Boka',
       image: 'images/problems/424x324/akne.webp',
       image_alt: 'Bild på akne i ansiktet',
-      image_title: 'Akne i ansiktet, den vanligaste hudsjukdomen',
-      info: 'Akne är den allra vanligaste typen av hudproblem och identifieras av finnar i ansiktet eller på andra delar av kroppen. Det påverkar människor i alla åldrar och orsakas av inflammation i hårsäckarna och talgkörtlarna. Det kan leda till finnar, pormaskar och ibland ärr. Behandla och förebygga akne effektivt genom skräddarsydda behandlingar och en korrekt hudvårdsrutin.'
+      image_title: 'En vanlig hudsjukdom som involverar inflammation i talgkörtlarna, vilket leder till bildandet av pormaskar, finnar och ibland smärtsamma knölar. Det är ett resultat av en kombination av överproduktion av talg, tilltäppning av hårfolliklar och bakterietillväxt. Akne kan vara emotionellt påfrestande och variera i svårighetsgrad, ofta påverkad av hormonella förändringar, stress, diet och genetiska faktorer.'
 );
 $problems['aknearr'] = new Problem(
       label: 'Akneärr',
@@ -67,7 +66,7 @@ $problems['aknearr'] = new Problem(
       image: 'images/problems/424x324/acnearr.webp',
       image_alt: 'Akneärr',
       image_title: 'Akneärr',
-      info: 'Acneärr uppstår när inflammerade finnar skadar hudens vävnad och lämnar bestående märken. Ärrtyper varierar från gropiga, ojämna ytor till missfärgade områden. Även om ärr kan vara svåra att helt eliminera, finns det behandlingar som avsevärt kan förbättra deras utseende och struktur, såsom Laser, IPL, Miceoneedling och kemiska peelingar. '
+      info: 'Dessa ärr är en vanlig följd av svår akne och består av texturförändringar i huden efter läkning av akne. De kan vara gropiga, kantiga eller upphöjda och variera i storlek och djup. Ärrbildningen är ett resultat av kroppens läkningsprocess och kan påverka både hudens utseende och struktur, ofta krävande längre tid för att blekna eller förbättras.'
 );
 $problems['arr-fran-finnar'] = new Problem(
       label: 'Ärr från finnar',
@@ -80,7 +79,7 @@ $problems['arr-fran-finnar'] = new Problem(
       image: 'images/problems/424x324/arr-fran-finnar.webp',
       image_alt: 'Ärr från finnar',
       image_title: 'Ärr från finnar',
-      info: 'Ärr från finnar, även kallade akneärr, uppstår när huden läker efter inflammation orsakad av finnar och pormaskar. Dessa ärr kan variera i form och storlek, från små gropar till större ojämnheter i huden. Behandling av akneärr syftar till att reducera synligheten och förbättra hudens utseende och textur.'
+      info: 'Ärr som bildas när inflammerade finnar läker och lämnar permanenta märken eller fördjupningar i huden. Dessa ärr kan variera i storlek och form och påverka hudens släthet och jämnhet. Ärrbildningen beror på hur huden läker efter inflammationen och kan påverka personens självkänsla.'
 );
 $problems['blandhy'] = new Problem(
       label: 'Blandhy',
@@ -93,7 +92,7 @@ $problems['blandhy'] = new Problem(
       image: 'images/problems/424x324/blandhy.webp',
       image_alt: 'Blandhy',
       image_title: 'Blandhy',
-      info: 'Blandhy är en hudtyp som kombinerar element av både torr och fet hud. Den kännetecknas av varierande oljighet och torrhet i olika delar av ansiktet, där den så kallade T-zonen (panna, näsa och haka) ofta är fetare medan kinderna kan vara normala eller torra. Personer med blandhy kan uppleva pormaskar, finnar och glansighet i de oljigare områdena, samtidigt som torra områden kan kännas strama och fjälla'
+      info: 'En hudtyp där vissa områden, speciellt T-zonen (panna, näsa, haka), är oljiga, medan kinderna och andra delar av ansiktet kan vara normala eller torra. Denna blandning av hudtyper kräver en balanserad hudvårdsrutin som kan hantera både torrhet och överproduktion av talg. Blandhy kan vara särskilt utmanande att sköta eftersom olika områden kräver olika typer av vård.'
 );
 $problems['bristningar'] = new Problem(
       label: 'Bristningar',
@@ -106,7 +105,7 @@ $problems['bristningar'] = new Problem(
       image: 'images/problems/424x324/bristningar.webp',
       image_alt: 'Bristningar',
       image_title: 'Bristningar',
-      info: 'Bristningar, även kallade striae, är linjära ärr som uppträder på huden när den snabbt sträcks ut, exempelvis under graviditet, snabb viktökning eller tillväxtspurtar. De börjar ofta som röda eller lila streck och bleknar över tiden till en ljusare nyans. Bristningar förekommer vanligtvis på områden som buken, brösten, låren och höfterna. Även om de inte kan elimineras helt, finns det behandlingar för att förbättra deras utseende, såsom laserterapi, kemisk peeling och mikroneedling.'
+      info: 'Dessa är linjer eller band på huden som uppstår när huden sträcks snabbt, som under graviditet, pubertet eller snabb viktökning. De börjar ofta som röda eller lila linjer och bleknar över tid till en mer silvervit färg. Bristningar är ett resultat av bristningar i hudens kollagen och elastin, vilket minskar hudens elasticitet och styrka.'
 );
 $problems['finnar'] = new Problem(
       label: 'Finnar',
@@ -119,7 +118,7 @@ $problems['finnar'] = new Problem(
       image: 'images/problems/424x324/finnar.webp',
       image_alt: 'Finnar',
       image_title: 'Finnar',
-      info: 'Finnar är en vanlig hudåkomma som drabbar människor i alla åldrar. De orsakas ofta av tilltäppta porer på grund av överproduktion av talg, döda hudceller och bakterier. Finnar kan variera i storlek, färg och svårighetsgrad, och kan uppträda som pormaskar, vita plitor, papler och pustler. Behandlingar för finnar inkluderar rengöring, exfoliering, samt produkter och metoder som reglerar talgproduktionen och bekämpar inflammation.'
+      info: 'Små inflammerade blemmor på huden, ofta fyllda med var, som är en del av akne. Finnar orsakas av inflammation i hårfolliklar och talgkörtlar, ofta förvärrade av bakterier. De kan uppstå i ansiktet, på ryggen, bröstet och axlarna och kan variera i storlek och svårighetsgrad. Regelbunden hudvård och undvikande av att irritera området är viktigt för att hantera finnar.'
 
 );
 $problems['hudforandringar'] = new Problem(
@@ -133,7 +132,7 @@ $problems['hudforandringar'] = new Problem(
       image: 'images/problems/424x324/hudforandringar.webp',
       image_alt: 'Hudförändringar',
       image_title: 'Hudförändringar',
-      info: 'Hudförändringar kan uppstå av olika anledningar och variera i utseende och omfattning. Solskador, åldrande, genetik och hormonella obalanser kan bidra till ojämn hudton, fläckar och upphöjningar. Acnespecialisten erbjuder skräddarsydda behandlingar för att minska hudförändringar och förbättra hudens utseende.'
+      info: 'Detta är en bred kategori som innefattar alla typer av synliga förändringar i huden, inklusive åldersfläckar, rynkor, födelsemärken och förändringar som kan vara indikatorer på hudsjukdomar. Dessa förändringar kan bero på en rad faktorer som åldrande, solskador, genetiska predispositioner och miljöpåverkan.'
 );
 $problems['milier'] = new Problem(
       label: 'Milier',
@@ -146,7 +145,7 @@ $problems['milier'] = new Problem(
       image: 'images/problems/424x324/milier.webp',
       image_alt: 'Milier',
       image_title: 'Milier',
-      info: 'Milier, även kallade "milk spots" eller "vitkorn", är små, fasta, vita eller gulaktiga knölar som vanligtvis uppträder på ansiktet, särskilt runt ögonen och kinderna. De består av små ansamlingar av keratin (ett protein) inneslutet under hudytan och är vanligtvis ofarliga och icke-smittsamma. Milier kan förekomma hos personer i alla åldrar och är inte direkt kopplade till akne eller andra hudåkommor. Behandling av milier kan omfatta professionell borttagning genom en hudterapeut eller läkare, som använder sterila verktyg för att säkert öppna och tömma knölarna.'
+      info: 'Dessa är små, fasta, vita cystor som består av ansamlingar av keratin, vanligtvis lokaliserade under huden runt ögonen, kinderna och på näsan. De är vanliga hos både barn och vuxna och betraktas ofta som ofarliga. Milier utvecklas när döda hudceller blir inneslutna i små fickor på hudytan.'
 );
 $problems['mogen-hy'] = new Problem(
       label: 'Mogen Hy',
@@ -159,7 +158,7 @@ $problems['mogen-hy'] = new Problem(
       image: 'images/problems/424x324/mogen-hy.webp',
       image_alt: 'Mogen Hy',
       image_title: 'Mogen Hy',
-      info: 'Mogen hy är en hudtyp som vanligtvis upplever naturliga ålderstecken som rynkor, linjer, minskad elasticitet och förlust av volym på grund av åldrandet och kollagenminskning. Mogen hy kan också vara mer benägen för torrhet och känslighet. Behandlingar för mogen hy bör fokusera på att främja hudens naturliga kollagenproduktion, återfukta, stärka hudbarriären och förbättra hudens lyster. Användning av antioxidanter, peptider och retinoider i hudvårdsprodukter kan vara fördelaktigt. Professionella behandlingar såsom ansiktsbehandlingar med fokus på återfuktning, exfoliering och stimulering av kollagenproduktionen, samt mikrodermabrasion och kemiska peelingar kan hjälpa till att förbättra hudens utseende och motverka ålderstecken.'
+      info: 'Detta refererar till hud som uppvisar tecken på åldrande, som rynkor, fina linjer, minskad fasthet och torrhet. Hudens förmåga att behålla fukt och dess naturliga oljeproduktion minskar ofta med åldern, vilket kan leda till en känsla av stramhet och en synlig förlust av hudens ungdomliga lyster. Ytterligare faktorer som solskador och livsstilsval kan påverka hur snabbt huden åldras.'
 );
 $problems['oonskat-har'] = new Problem(
       label: 'Oönskat hår',
@@ -172,7 +171,7 @@ $problems['oonskat-har'] = new Problem(
       image: 'images/problems/424x324/oonskat-har.webp',
       image_alt: 'Oönskat hår',
       image_title: 'Oönskat hår',
-      info: 'Oönskad hårväxt är en vanlig problematik som drabbar både män och kvinnor, och involverar hår som växer på icke-önskade områden såsom ansiktet, armarna, benen eller ryggen. För att effektivt och permanent behandla oönskad hårväxt använder vi oss av laserhårborttagning, vilket ger långvariga och tillfredsställande resultat.'
+      info: 'Detta innebär överdriven hårväxt på kroppen eller ansiktet, vilket kan vara ett resultat av hormonella obalanser, genetik, vissa mediciner eller medicinska tillstånd. Denna typ av hårväxt kan uppfattas som kosmetiskt störande och varierar i intensitet och distribution över kroppen.'
 );
 $problems['operations-skadearr'] = new Problem(
       label: 'Operations & Skadeärr',
@@ -185,7 +184,7 @@ $problems['operations-skadearr'] = new Problem(
       image: 'images/problems/424x324/arr.webp',
       image_alt: 'Operations & Skadeärr',
       image_title: 'Operations & Skadeärr',
-      info: 'Ärr och skadeärr är resultatet av hudens naturliga läkningsprocess efter skador, såsom skärsår, brännskador eller akne. Dessa ärr kan variera i form, storlek och färg och kan påverka både utseendet och självkänslan hos den drabbade. På Acnespecialisten erbjuder vi effektiva behandlingsmetoder för att reducera och ta bort ärr, inklusive laserterapi, kemiska peelingar och mikroneedling.'
+      info: 'Dessa ärr är resultatet av kirurgiska ingrepp och kan variera mycket i utseende, beroende på operationens omfattning, placeringen av snittet, och individens läkningsförmåga. De kan vara upphöjda, röda, eller ha en annorlunda textur jämfört med omgivande hud.'
 );
 $problems['perioral-dermatit'] = new Problem(
       label: 'Perioral dermatit',
@@ -198,7 +197,7 @@ $problems['perioral-dermatit'] = new Problem(
       image: 'images/problems/424x324/perioral-dermatit.webp',
       image_alt: 'Perioral dermatit',
       image_title: 'Perioral dermatit',
-      info: 'Perioral dermatit är en hudåkomma med röda, inflammerade knottror och fjällande hud kring munnen, hakan och näsan. Vanligast hos kvinnor i åldern 20-50 år, kan orsakas av steroidkrämer, starka hudvårdsprodukter, hormonella förändringar eller stress.'
+      info: 'Detta är ett inflammatoriskt hudtillstånd som påverkar området runt munnen, vilket resulterar i utslag, rodnad och ibland små blåsor eller knölar. Tillståndet kan påverkas av flera faktorer, inklusive hormonella förändringar, hudirriterande ämnen och långvarig användning av topiska steroider.'
 
 );
 $problems['pigmentflackar'] = new Problem(
@@ -212,7 +211,7 @@ $problems['pigmentflackar'] = new Problem(
       image: 'images/problems/424x324/pigmentflackar.webp',
       image_alt: 'Pigmentfläckar',
       image_title: 'Pigmentfläckar',
-      info: 'Pigmentfläckar är ojämna områden på huden där det finns en större mängd melanin, vilket ger huden dess färg. De kan vara ljusa till mörka i färgen och variera i storlek och form. Pigmentfläckar kan orsakas av flera faktorer, såsom solskador, hormonella förändringar, åldrande eller genetik. De är vanliga på områden som är mest exponerade för solen, som ansikte, händer och armar. Behandlingar syftar till att reducera synligheten av pigmentfläckar och jämna ut hudtonen.'
+      info: 'Detta är mörka områden på huden som uppstår när melanin, det pigment som ger hud dess färg, produceras i överflöd. Dessa fläckar kan vara resultatet av olika faktorer, inklusive solskador, hormonella förändringar som de som uppstår under graviditet eller genom användning av vissa mediciner, och är vanligare med stigande ålder.'
 );
 $problems['pormaskar'] = new Problem(
       label: 'Pormaskar',
@@ -225,7 +224,7 @@ $problems['pormaskar'] = new Problem(
       image: 'images/problems/424x324/pormaskar.webp',
       image_alt: 'Pormaskar',
       image_title: 'Pormaskar',
-      info: 'Pormaskar är små pluggar av talg och döda hudceller som täpper till hårsäckar. De finns i två typer: öppna (svarta) och stängda (vita) pormaskar. För att förebygga och behandla pormaskar är det viktigt att rengöra huden noggrant, exfoliera regelbundet och använda icke-komedogena produkter.'
+      info: 'Dessa är små, mörka lesioner på huden, oftast förekommande i ansiktet. De uppstår när porerna i huden blir tilltäppta med en kombination av talg och döda hudceller. Pormaskar kan vara antingen öppna (svarta) eller stängda (vita) och är ofta ett av de första tecknen på akne.'
 
 );
 $problems['rosacea'] = new Problem(
@@ -239,7 +238,7 @@ $problems['rosacea'] = new Problem(
       image: 'images/problems/424x324/rosacea.webp',
       image_alt: 'Rosacea',
       image_title: 'Rosacea',
-      info: 'Rosacea är en kronisk inflammatorisk hudsjukdom som främst påverkar ansiktet. Den kännetecknas av rodnad, synliga blodkärl, svullnad och små knottriga utslag. Rosacea kan förväxlas med akne, men orsakas av olika faktorer. Vanliga utlösare kan vara solljus, stress, värme och kryddstark mat. Behandlingen fokuserar på att eliminera problemet genom att undvika utlösare och använda skonsamma metoder som laserterapi eller IPL-behandlingar. En anpassad hudvårdsrutin för känslig hy är också viktig för att hantera rosacea effektivt.'
+      info: 'Ett kroniskt hudtillstånd som kännetecknas av episoder av rodnad och ibland små, pusfyllda knölar. Det kan också involvera brännande eller stickande känsla i huden och ökad känslighet. Tillståndet är vanligast i centrala delar av ansiktet och dess exakta orsak är fortfarande okänd.'
 );
 $problems['seborre'] = new Problem(
       label: 'Seborré',
@@ -252,8 +251,7 @@ $problems['seborre'] = new Problem(
       image: 'images/problems/424x324/seborre.webp',
       image_alt: 'Seborré',
       image_title: 'Seborré',
-      info: 'Seborré är en hudåkomma där huden producerar för mycket talg (olja), vilket leder till fet och fjällande hud. Det påverkar oftast områden där talgkörtlar är rikligt förekommande, som ansikte, hårbotten och överkropp. Symtom innefattar klåda, rodnad, oljig hud och fjällning. Orsaker till seborré kan vara genetiska, hormonella eller miljömässiga, och behandlingar syftar till att kontrollera symtomen och balansera hudens oljeproduktion.'
-
+      info: 'Detta tillstånd är karakteriserat av överdriven produktion av talg, vilket leder till en oljig hudton och ibland tillstånd som mjäll. Det kan påverka olika områden av kroppen, inklusive skalpen, ansiktet och bröstet, och varierar i svårighetsgrad.'
 );
 $problems['stora-porer'] = new Problem(
       label: 'Stora porer',
@@ -266,7 +264,7 @@ $problems['stora-porer'] = new Problem(
       image: 'images/problems/424x324/stora-porer.webp',
       image_alt: 'Stora porer',
       image_title: 'Stora porer',
-      info: 'Stora porer är en vanlig hudåkomma där porerna i huden syns tydligare på grund av deras storlek. De är ofta ett resultat av överaktiv talgproduktion, genetik, åldrande och förlust av hudens elasticitet. Stora porer kan leda till ojämn hudstruktur, ökad synlighet av pormaskar och en fetare hud. Behandlingar syftar till att rengöra och minska porstorlek, samt balansera hudens oljeproduktion för att förbättra hudens utseende och struktur.'
+      info: 'Dessa är porer som ser större ut än vanligt, ofta märkbara på näsan, kinderna och pannan. Stora porer kan vara resultatet av genetiska faktorer, åldrande, frekvent sol exponering, ökad talgproduktion eller tidigare hudskador.'
 );
 $problems['torr-kanslig-hy'] = new Problem(
       label: 'Torr & Känslig hy',
@@ -279,7 +277,7 @@ $problems['torr-kanslig-hy'] = new Problem(
       image: 'images/problems/424x324/torr-kanslig-hy.webp',
       image_alt: 'Torr & Känslig hy',
       image_title: 'Torr & Känslig hy',
-      info: 'Torr och känslig hy är en hudtyp som ofta upplever brist på fukt och en skyddande fet hinna, vilket gör huden mer mottaglig för irritation och yttre påverkan. Symptom inkluderar stramhet, rodnad, fjällning och klåda. För att behandla denna hudtyp krävs det extra omsorg och professionella behandlingar som fokuserar på att skydda och stärka hudbarriären. Det är viktigt att välja behandlingar som är skonsamma mot huden och syftar till att återfukta, lugna och återuppbygga den känsliga hudbarriären'
+      info: 'Denna hudtyp är benägen att bli torr, stram, röd och irriterad och kan reagera negativt på vissa hudvårdsprodukter, klimatförändringar eller föroreningar. Torr och känslig hud kräver särskilt skonsam vård för att bibehålla dess barriärfunktion och förhindra ytterligare irritation.'
 );
 $problems['ytliga-blodkarl'] = new Problem(
       label: 'Ytliga Blodkärl',
@@ -292,7 +290,7 @@ $problems['ytliga-blodkarl'] = new Problem(
       image: 'images/problems/424x324/ytliga-blodkarl.webp',
       image_alt: 'Ytliga Blodkärl',
       image_title: 'Ytliga Blodkärl',
-      info: 'Ytliga blodkärl, även kallade kärlbristningar eller telangiektasier, är små, vidgade blodkärl som syns på hudytan, ofta i ansiktet eller benen. De kan vara röda, lila eller blå och uppträda som fina linjer eller spindelvener. Orsaker kan vara genetik, solskador, hormonella förändringar, åldrande eller rosacea. Behandlingar som kan reducera deras synlighet inkluderar laserterapi, IPL'
+      info: 'Dessa synliga blodkärl, ofta kallade "spindelvener" eller telangiektasier, är små, utvidgade blodkärl som ligger nära hudytan. De är vanligast i ansiktet och på benen och kan vara resultatet av genetiska faktorer, solskador, hormonförändringar eller hudtillstånd som rosacea.'
 );
 
 $default_problems = new ProblemArea(
