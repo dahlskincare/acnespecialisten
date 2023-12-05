@@ -56,21 +56,6 @@ $problems['akne'] = new Problem(
       image_title: 'Akne i ansiktet, den vanligaste hudsjukdomen',
       info: 'Akne är den allra vanligaste typen av hudproblem och identifieras av finnar i ansiktet eller på andra delar av kroppen. Det påverkar människor i alla åldrar och orsakas av inflammation i hårsäckarna och talgkörtlarna. Det kan leda till finnar, pormaskar och ibland ärr. Behandla och förebygga akne effektivt genom skräddarsydda behandlingar och en korrekt hudvårdsrutin.'
 );
-
-$problems['akne-rygg'] = new Problem(
-      label: 'Akne',
-      url: 'problem/akne-rygg',
-      url_title: 'Akne',
-      consultation_url: 'gratis-hudkonsultation',
-      consultation_url_title: 'Boka en hudkonsultation',
-      booking_url: 'https://www.bokadirekt.se',
-      booking_url_title: 'Boka',
-      image: 'images/problems/424x324/akne.webp',
-      image_alt: 'Akne på ryggen',
-      image_title: 'Akne på ryggen',
-      info: 'Akne är den allra vanligaste typen av hudproblem och identifieras av finnar i ansiktet eller på andra delar av kroppen. Det påverkar människor i alla åldrar och orsakas av inflammation i hårsäckarna och talgkörtlarna. Det kan leda till finnar, pormaskar och ibland ärr. Behandla och förebygga akne effektivt genom skräddarsydda behandlingar och en korrekt hudvårdsrutin.'
-);
-
 $problems['aknearr'] = new Problem(
       label: 'Akneärr',
       url: 'problem/aknearr',
@@ -82,65 +67,20 @@ $problems['aknearr'] = new Problem(
       image: 'images/problems/424x324/acnearr.webp',
       image_alt: 'Akneärr',
       image_title: 'Akneärr',
-      info: 'Acneärr uppstår när inflammerade finnar skadar hudens vävnad och lämnar bestående märken. Ärrtyper varierar från gropiga, ojämna ytor till missfärgade områden. Även om ärr kan vara svåra att helt eliminera, finns det behandlingar som avsevärt kan förbättra deras utseende och struktur, såsom Laser, IPL, Miceoneedling och kemiska peelingar. Acneärr kräver ofta flera behandlingssessioner för optimala resultat.'
-
+      info: 'Acneärr uppstår när inflammerade finnar skadar hudens vävnad och lämnar bestående märken. Ärrtyper varierar från gropiga, ojämna ytor till missfärgade områden. Även om ärr kan vara svåra att helt eliminera, finns det behandlingar som avsevärt kan förbättra deras utseende och struktur, såsom Laser, IPL, Miceoneedling och kemiska peelingar. '
 );
-$problems['rosacea'] = new Problem(
-      label: 'Rosacea',
-      url: 'problem/rosacea',
-      url_title: 'Rosacea',
+$problems['arr-fran-finnar'] = new Problem(
+      label: 'Ärr från finnar',
+      url: 'problem/arr-fran-finnar',
+      url_title: 'Ärr från finnar',
       consultation_url: 'gratis-hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
       consultation_url_title: 'Boka en hudkonsultation',
       booking_url_title: 'Boka',
-      image: 'images/problems/424x324/rosacea.webp',
-      image_alt: 'Rosacea',
-      image_title: 'Rosacea',
-      info: 'Rosacea är en kronisk inflammatorisk hudsjukdom som främst påverkar ansiktet. Den kännetecknas av rodnad, synliga blodkärl, svullnad och små knottriga utslag. Rosacea kan förväxlas med akne, men orsakas av olika faktorer. Vanliga utlösare kan vara solljus, stress, värme och kryddstark mat. Behandlingen fokuserar på att eliminera problemet genom att undvika utlösare och använda skonsamma metoder som laserterapi eller IPL-behandlingar. En anpassad hudvårdsrutin för känslig hy är också viktig för att hantera rosacea effektivt.'
-
-
-);
-$problems['pormaskar'] = new Problem(
-      label: 'Pormaskar',
-      url: 'problem/pormaskar',
-      url_title: 'Pormaskar',
-      consultation_url: 'gratis-hudkonsultation',
-      booking_url: 'https://www.bokadirekt.se',
-      consultation_url_title: 'Boka en hudkonsultation',
-      booking_url_title: 'Boka',
-      image: 'images/problems/424x324/pormaskar.webp',
-      image_alt: 'Pormaskar',
-      image_title: 'Pormaskar',
-      info: 'Pormaskar är små pluggar av talg och döda hudceller som täpper till hårsäckar. De finns i två typer: öppna (svarta) och stängda (vita) pormaskar. För att förebygga och behandla pormaskar är det viktigt att rengöra huden noggrant, exfoliera regelbundet och använda icke-komedogena produkter.'
-
-);
-$problems['stora-porer'] = new Problem(
-      label: 'Stora porer',
-      url: 'problem/stora-porer',
-      url_title: 'Stora porer',
-      consultation_url: 'gratis-hudkonsultation',
-      booking_url: 'https://www.bokadirekt.se',
-      consultation_url_title: 'Boka en hudkonsultation',
-      booking_url_title: 'Boka',
-      image: 'images/problems/424x324/stora-porer.webp',
-      image_alt: 'Stora porer',
-      image_title: 'Stora porer',
-      info: 'Stora porer är en vanlig hudåkomma där porerna i huden syns tydligare på grund av deras storlek. De är ofta ett resultat av överaktiv talgproduktion, genetik, åldrande och förlust av hudens elasticitet. Stora porer kan leda till ojämn hudstruktur, ökad synlighet av pormaskar och en fetare hud. Behandlingar syftar till att rengöra och minska porstorlek, samt balansera hudens oljeproduktion för att förbättra hudens utseende och struktur.'
-
-);
-$problems['milier'] = new Problem(
-      label: 'Milier',
-      url: 'problem/milier',
-      url_title: 'Milier',
-      consultation_url: 'gratis-hudkonsultation',
-      booking_url: 'https://www.bokadirekt.se',
-      consultation_url_title: 'Boka en hudkonsultation',
-      booking_url_title: 'Boka',
-      image: 'images/problems/424x324/milier.webp',
-      image_alt: 'Milier',
-      image_title: 'Milier',
-      info: 'Milier, även kallade "milk spots" eller "vitkorn", är små, fasta, vita eller gulaktiga knölar som vanligtvis uppträder på ansiktet, särskilt runt ögonen och kinderna. De består av små ansamlingar av keratin (ett protein) inneslutet under hudytan och är vanligtvis ofarliga och icke-smittsamma. Milier kan förekomma hos personer i alla åldrar och är inte direkt kopplade till akne eller andra hudåkommor. Behandling av milier kan omfatta professionell borttagning genom en hudterapeut eller läkare, som använder sterila verktyg för att säkert öppna och tömma knölarna.'
-
+      image: 'images/problems/424x324/arr-fran-finnar.webp',
+      image_alt: 'Ärr från finnar',
+      image_title: 'Ärr från finnar',
+      info: 'Ärr från finnar, även kallade akneärr, uppstår när huden läker efter inflammation orsakad av finnar och pormaskar. Dessa ärr kan variera i form och storlek, från små gropar till större ojämnheter i huden. Behandling av akneärr syftar till att reducera synligheten och förbättra hudens utseende och textur.'
 );
 $problems['blandhy'] = new Problem(
       label: 'Blandhy',
@@ -154,7 +94,19 @@ $problems['blandhy'] = new Problem(
       image_alt: 'Blandhy',
       image_title: 'Blandhy',
       info: 'Blandhy är en hudtyp som kombinerar element av både torr och fet hud. Den kännetecknas av varierande oljighet och torrhet i olika delar av ansiktet, där den så kallade T-zonen (panna, näsa och haka) ofta är fetare medan kinderna kan vara normala eller torra. Personer med blandhy kan uppleva pormaskar, finnar och glansighet i de oljigare områdena, samtidigt som torra områden kan kännas strama och fjälla'
-
+);
+$problems['bristningar'] = new Problem(
+      label: 'Bristningar',
+      url: 'problem/bristningar',
+      url_title: 'Bristningar',
+      consultation_url: 'gratis-hudkonsultation',
+      booking_url: 'https://www.bokadirekt.se',
+      consultation_url_title: 'Boka en hudkonsultation',
+      booking_url_title: 'Boka',
+      image: 'images/problems/424x324/bristningar.webp',
+      image_alt: 'Bristningar',
+      image_title: 'Bristningar',
+      info: 'Bristningar, även kallade striae, är linjära ärr som uppträder på huden när den snabbt sträcks ut, exempelvis under graviditet, snabb viktökning eller tillväxtspurtar. De börjar ofta som röda eller lila streck och bleknar över tiden till en ljusare nyans. Bristningar förekommer vanligtvis på områden som buken, brösten, låren och höfterna. Även om de inte kan elimineras helt, finns det behandlingar för att förbättra deras utseende, såsom laserterapi, kemisk peeling och mikroneedling.'
 );
 $problems['finnar'] = new Problem(
       label: 'Finnar',
@@ -170,19 +122,70 @@ $problems['finnar'] = new Problem(
       info: 'Finnar är en vanlig hudåkomma som drabbar människor i alla åldrar. De orsakas ofta av tilltäppta porer på grund av överproduktion av talg, döda hudceller och bakterier. Finnar kan variera i storlek, färg och svårighetsgrad, och kan uppträda som pormaskar, vita plitor, papler och pustler. Behandlingar för finnar inkluderar rengöring, exfoliering, samt produkter och metoder som reglerar talgproduktionen och bekämpar inflammation.'
 
 );
-$problems['arr-fran-finnar'] = new Problem(
-      label: 'Ärr från finnar',
-      url: 'problem/arr-fran-finnar',
-      url_title: 'Ärr från finnar',
+$problems['hudforandringar'] = new Problem(
+      label: 'Hudförändringar',
+      url: 'problem/hudforandringar',
+      url_title: 'Hudförändringar',
       consultation_url: 'gratis-hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
       consultation_url_title: 'Boka en hudkonsultation',
       booking_url_title: 'Boka',
-      image: 'images/problems/424x324/arr-fran-finnar.webp',
-      image_alt: 'Ärr från finnar',
-      image_title: 'Ärr från finnar',
-      info: 'Ärr från finnar, även kallade akneärr, uppstår när huden läker efter inflammation orsakad av finnar och pormaskar. Dessa ärr kan variera i form och storlek, från små gropar till större ojämnheter i huden. Behandling av akneärr syftar till att reducera synligheten och förbättra hudens utseende och textur.'
-
+      image: 'images/problems/424x324/hudforandringar.webp',
+      image_alt: 'Hudförändringar',
+      image_title: 'Hudförändringar',
+      info: 'Hudförändringar kan uppstå av olika anledningar och variera i utseende och omfattning. Solskador, åldrande, genetik och hormonella obalanser kan bidra till ojämn hudton, fläckar och upphöjningar. Acnespecialisten erbjuder skräddarsydda behandlingar för att minska hudförändringar och förbättra hudens utseende.'
+);
+$problems['milier'] = new Problem(
+      label: 'Milier',
+      url: 'problem/milier',
+      url_title: 'Milier',
+      consultation_url: 'gratis-hudkonsultation',
+      booking_url: 'https://www.bokadirekt.se',
+      consultation_url_title: 'Boka en hudkonsultation',
+      booking_url_title: 'Boka',
+      image: 'images/problems/424x324/milier.webp',
+      image_alt: 'Milier',
+      image_title: 'Milier',
+      info: 'Milier, även kallade "milk spots" eller "vitkorn", är små, fasta, vita eller gulaktiga knölar som vanligtvis uppträder på ansiktet, särskilt runt ögonen och kinderna. De består av små ansamlingar av keratin (ett protein) inneslutet under hudytan och är vanligtvis ofarliga och icke-smittsamma. Milier kan förekomma hos personer i alla åldrar och är inte direkt kopplade till akne eller andra hudåkommor. Behandling av milier kan omfatta professionell borttagning genom en hudterapeut eller läkare, som använder sterila verktyg för att säkert öppna och tömma knölarna.'
+);
+$problems['mogen-hy'] = new Problem(
+      label: 'Mogen Hy',
+      url: 'problem/mogen-hy',
+      url_title: 'Mogen Hy',
+      consultation_url: 'gratis-hudkonsultation',
+      booking_url: 'https://www.bokadirekt.se',
+      consultation_url_title: 'Boka en hudkonsultation',
+      booking_url_title: 'Boka',
+      image: 'images/problems/424x324/mogen-hy.webp',
+      image_alt: 'Mogen Hy',
+      image_title: 'Mogen Hy',
+      info: 'Mogen hy är en hudtyp som vanligtvis upplever naturliga ålderstecken som rynkor, linjer, minskad elasticitet och förlust av volym på grund av åldrandet och kollagenminskning. Mogen hy kan också vara mer benägen för torrhet och känslighet. Behandlingar för mogen hy bör fokusera på att främja hudens naturliga kollagenproduktion, återfukta, stärka hudbarriären och förbättra hudens lyster. Användning av antioxidanter, peptider och retinoider i hudvårdsprodukter kan vara fördelaktigt. Professionella behandlingar såsom ansiktsbehandlingar med fokus på återfuktning, exfoliering och stimulering av kollagenproduktionen, samt mikrodermabrasion och kemiska peelingar kan hjälpa till att förbättra hudens utseende och motverka ålderstecken.'
+);
+$problems['oonskat-har'] = new Problem(
+      label: 'Oönskat hår',
+      url: 'problem/oonskat-har',
+      url_title: 'Oönskat hår',
+      consultation_url: 'gratis-hudkonsultation',
+      booking_url: 'https://www.bokadirekt.se',
+      consultation_url_title: 'Boka en hudkonsultation',
+      booking_url_title: 'Boka',
+      image: 'images/problems/424x324/oonskat-har.webp',
+      image_alt: 'Oönskat hår',
+      image_title: 'Oönskat hår',
+      info: 'Oönskad hårväxt är en vanlig problematik som drabbar både män och kvinnor, och involverar hår som växer på icke-önskade områden såsom ansiktet, armarna, benen eller ryggen. För att effektivt och permanent behandla oönskad hårväxt använder vi oss av laserhårborttagning, vilket ger långvariga och tillfredsställande resultat.'
+);
+$problems['operations-skadearr'] = new Problem(
+      label: 'Operations & Skadeärr',
+      url: 'problem/operations-skadearr',
+      url_title: 'Operations & Skadeärr',
+      consultation_url: 'gratis-hudkonsultation',
+      booking_url: 'https://www.bokadirekt.se',
+      consultation_url_title: 'Boka en hudkonsultation',
+      booking_url_title: 'Boka',
+      image: 'images/problems/424x324/arr.webp',
+      image_alt: 'Operations & Skadeärr',
+      image_title: 'Operations & Skadeärr',
+      info: 'Ärr och skadeärr är resultatet av hudens naturliga läkningsprocess efter skador, såsom skärsår, brännskador eller akne. Dessa ärr kan variera i form, storlek och färg och kan påverka både utseendet och självkänslan hos den drabbade. På Acnespecialisten erbjuder vi effektiva behandlingsmetoder för att reducera och ta bort ärr, inklusive laserterapi, kemiska peelingar och mikroneedling.'
 );
 $problems['perioral-dermatit'] = new Problem(
       label: 'Perioral dermatit',
@@ -198,6 +201,46 @@ $problems['perioral-dermatit'] = new Problem(
       info: 'Perioral dermatit är en hudåkomma med röda, inflammerade knottror och fjällande hud kring munnen, hakan och näsan. Vanligast hos kvinnor i åldern 20-50 år, kan orsakas av steroidkrämer, starka hudvårdsprodukter, hormonella förändringar eller stress.'
 
 );
+$problems['pigmentflackar'] = new Problem(
+      label: 'Pigmentfläckar',
+      url: 'problem/pigmentflackar',
+      url_title: 'Pigmentfläckar',
+      consultation_url: 'gratis-hudkonsultation',
+      booking_url: 'https://www.bokadirekt.se',
+      consultation_url_title: 'Boka en hudkonsultation',
+      booking_url_title: 'Boka',
+      image: 'images/problems/424x324/pigmentflackar.webp',
+      image_alt: 'Pigmentfläckar',
+      image_title: 'Pigmentfläckar',
+      info: 'Pigmentfläckar är ojämna områden på huden där det finns en större mängd melanin, vilket ger huden dess färg. De kan vara ljusa till mörka i färgen och variera i storlek och form. Pigmentfläckar kan orsakas av flera faktorer, såsom solskador, hormonella förändringar, åldrande eller genetik. De är vanliga på områden som är mest exponerade för solen, som ansikte, händer och armar. Behandlingar syftar till att reducera synligheten av pigmentfläckar och jämna ut hudtonen.'
+);
+$problems['pormaskar'] = new Problem(
+      label: 'Pormaskar',
+      url: 'problem/pormaskar',
+      url_title: 'Pormaskar',
+      consultation_url: 'gratis-hudkonsultation',
+      booking_url: 'https://www.bokadirekt.se',
+      consultation_url_title: 'Boka en hudkonsultation',
+      booking_url_title: 'Boka',
+      image: 'images/problems/424x324/pormaskar.webp',
+      image_alt: 'Pormaskar',
+      image_title: 'Pormaskar',
+      info: 'Pormaskar är små pluggar av talg och döda hudceller som täpper till hårsäckar. De finns i två typer: öppna (svarta) och stängda (vita) pormaskar. För att förebygga och behandla pormaskar är det viktigt att rengöra huden noggrant, exfoliera regelbundet och använda icke-komedogena produkter.'
+
+);
+$problems['rosacea'] = new Problem(
+      label: 'Rosacea',
+      url: 'problem/rosacea',
+      url_title: 'Rosacea',
+      consultation_url: 'gratis-hudkonsultation',
+      booking_url: 'https://www.bokadirekt.se',
+      consultation_url_title: 'Boka en hudkonsultation',
+      booking_url_title: 'Boka',
+      image: 'images/problems/424x324/rosacea.webp',
+      image_alt: 'Rosacea',
+      image_title: 'Rosacea',
+      info: 'Rosacea är en kronisk inflammatorisk hudsjukdom som främst påverkar ansiktet. Den kännetecknas av rodnad, synliga blodkärl, svullnad och små knottriga utslag. Rosacea kan förväxlas med akne, men orsakas av olika faktorer. Vanliga utlösare kan vara solljus, stress, värme och kryddstark mat. Behandlingen fokuserar på att eliminera problemet genom att undvika utlösare och använda skonsamma metoder som laserterapi eller IPL-behandlingar. En anpassad hudvårdsrutin för känslig hy är också viktig för att hantera rosacea effektivt.'
+);
 $problems['seborre'] = new Problem(
       label: 'Seborré',
       url: 'problem/seborre',
@@ -212,6 +255,19 @@ $problems['seborre'] = new Problem(
       info: 'Seborré är en hudåkomma där huden producerar för mycket talg (olja), vilket leder till fet och fjällande hud. Det påverkar oftast områden där talgkörtlar är rikligt förekommande, som ansikte, hårbotten och överkropp. Symtom innefattar klåda, rodnad, oljig hud och fjällning. Orsaker till seborré kan vara genetiska, hormonella eller miljömässiga, och behandlingar syftar till att kontrollera symtomen och balansera hudens oljeproduktion.'
 
 );
+$problems['stora-porer'] = new Problem(
+      label: 'Stora porer',
+      url: 'problem/stora-porer',
+      url_title: 'Stora porer',
+      consultation_url: 'gratis-hudkonsultation',
+      booking_url: 'https://www.bokadirekt.se',
+      consultation_url_title: 'Boka en hudkonsultation',
+      booking_url_title: 'Boka',
+      image: 'images/problems/424x324/stora-porer.webp',
+      image_alt: 'Stora porer',
+      image_title: 'Stora porer',
+      info: 'Stora porer är en vanlig hudåkomma där porerna i huden syns tydligare på grund av deras storlek. De är ofta ett resultat av överaktiv talgproduktion, genetik, åldrande och förlust av hudens elasticitet. Stora porer kan leda till ojämn hudstruktur, ökad synlighet av pormaskar och en fetare hud. Behandlingar syftar till att rengöra och minska porstorlek, samt balansera hudens oljeproduktion för att förbättra hudens utseende och struktur.'
+);
 $problems['torr-kanslig-hy'] = new Problem(
       label: 'Torr & Känslig hy',
       url: 'problem/torr-kanslig-hy',
@@ -224,7 +280,6 @@ $problems['torr-kanslig-hy'] = new Problem(
       image_alt: 'Torr & Känslig hy',
       image_title: 'Torr & Känslig hy',
       info: 'Torr och känslig hy är en hudtyp som ofta upplever brist på fukt och en skyddande fet hinna, vilket gör huden mer mottaglig för irritation och yttre påverkan. Symptom inkluderar stramhet, rodnad, fjällning och klåda. För att behandla denna hudtyp krävs det extra omsorg och professionella behandlingar som fokuserar på att skydda och stärka hudbarriären. Det är viktigt att välja behandlingar som är skonsamma mot huden och syftar till att återfukta, lugna och återuppbygga den känsliga hudbarriären'
-
 );
 $problems['ytliga-blodkarl'] = new Problem(
       label: 'Ytliga Blodkärl',
@@ -238,91 +293,6 @@ $problems['ytliga-blodkarl'] = new Problem(
       image_alt: 'Ytliga Blodkärl',
       image_title: 'Ytliga Blodkärl',
       info: 'Ytliga blodkärl, även kallade kärlbristningar eller telangiektasier, är små, vidgade blodkärl som syns på hudytan, ofta i ansiktet eller benen. De kan vara röda, lila eller blå och uppträda som fina linjer eller spindelvener. Orsaker kan vara genetik, solskador, hormonella förändringar, åldrande eller rosacea. Behandlingar som kan reducera deras synlighet inkluderar laserterapi, IPL'
-
-
-);
-$problems['pigmentflackar'] = new Problem(
-      label: 'Pigmentfläckar',
-      url: 'problem/pigmentflackar',
-      url_title: 'Pigmentfläckar',
-      consultation_url: 'gratis-hudkonsultation',
-      booking_url: 'https://www.bokadirekt.se',
-      consultation_url_title: 'Boka en hudkonsultation',
-      booking_url_title: 'Boka',
-      image: 'images/problems/424x324/pigmentflackar.webp',
-      image_alt: 'Pigmentfläckar',
-      image_title: 'Pigmentfläckar',
-      info: 'Pigmentfläckar är ojämna områden på huden där det finns en större mängd melanin, vilket ger huden dess färg. De kan vara ljusa till mörka i färgen och variera i storlek och form. Pigmentfläckar kan orsakas av flera faktorer, såsom solskador, hormonella förändringar, åldrande eller genetik. De är vanliga på områden som är mest exponerade för solen, som ansikte, händer och armar. Behandlingar syftar till att reducera synligheten av pigmentfläckar och jämna ut hudtonen.'
-
-
-);
-$problems['mogen-hy'] = new Problem(
-      label: 'Mogen Hy',
-      url: 'problem/mogen-hy',
-      url_title: 'Mogen Hy',
-      consultation_url: 'gratis-hudkonsultation',
-      booking_url: 'https://www.bokadirekt.se',
-      consultation_url_title: 'Boka en hudkonsultation',
-      booking_url_title: 'Boka',
-      image: 'images/problems/424x324/mogen-hy.webp',
-      image_alt: 'Mogen Hy',
-      image_title: 'Mogen Hy',
-      info: 'Mogen hy är en hudtyp som vanligtvis upplever naturliga ålderstecken som rynkor, linjer, minskad elasticitet och förlust av volym på grund av åldrandet och kollagenminskning. Mogen hy kan också vara mer benägen för torrhet och känslighet. Behandlingar för mogen hy bör fokusera på att främja hudens naturliga kollagenproduktion, återfukta, stärka hudbarriären och förbättra hudens lyster. Användning av antioxidanter, peptider och retinoider i hudvårdsprodukter kan vara fördelaktigt. Professionella behandlingar såsom ansiktsbehandlingar med fokus på återfuktning, exfoliering och stimulering av kollagenproduktionen, samt mikrodermabrasion och kemiska peelingar kan hjälpa till att förbättra hudens utseende och motverka ålderstecken.'
-
-
-);
-$problems['hudforandringar'] = new Problem(
-      label: 'Hudförändringar',
-      url: 'problem/hudforandringar',
-      url_title: 'Hudförändringar',
-      consultation_url: 'gratis-hudkonsultation',
-      booking_url: 'https://www.bokadirekt.se',
-      consultation_url_title: 'Boka en hudkonsultation',
-      booking_url_title: 'Boka',
-      image: 'images/problems/424x324/hudforandringar.webp',
-      image_alt: 'Hudförändringar',
-      image_title: 'Hudförändringar',
-      info: 'Hudförändringar kan uppstå av olika anledningar och variera i utseende och omfattning. Solskador, åldrande, genetik och hormonella obalanser kan bidra till ojämn hudton, fläckar och upphöjningar. Acnespecialisten erbjuder skräddarsydda behandlingar för att minska hudförändringar och förbättra hudens utseende.'
-
-);
-$problems['bristningar'] = new Problem(
-      label: 'Bristningar',
-      url: 'problem/bristningar',
-      url_title: 'Bristningar',
-      consultation_url: 'gratis-hudkonsultation',
-      booking_url: 'https://www.bokadirekt.se',
-      consultation_url_title: 'Boka en hudkonsultation',
-      booking_url_title: 'Boka',
-      image: 'images/problems/424x324/bristningar.webp',
-      image_alt: 'Bristningar',
-      image_title: 'Bristningar',
-      info: 'Bristningar, även kallade striae, är linjära ärr som uppträder på huden när den snabbt sträcks ut, exempelvis under graviditet, snabb viktökning eller tillväxtspurtar. De börjar ofta som röda eller lila streck och bleknar över tiden till en ljusare nyans. Bristningar förekommer vanligtvis på områden som buken, brösten, låren och höfterna. Även om de inte kan elimineras helt, finns det behandlingar för att förbättra deras utseende, såsom laserterapi, kemisk peeling och mikroneedling.'
-);
-$problems['operations-skadearr'] = new Problem(
-      label: 'Operations & Skadeärr',
-      url: 'problem/operations-skadearr',
-      url_title: 'Operations & Skadeärr',
-      consultation_url: 'gratis-hudkonsultation',
-      booking_url: 'https://www.bokadirekt.se',
-      consultation_url_title: 'Boka en hudkonsultation',
-      booking_url_title: 'Boka',
-      image: 'images/problems/424x324/arr.webp',
-      image_alt: 'Operations & Skadeärr',
-      image_title: 'Operations & Skadeärr',
-      info: 'Ärr och skadeärr är resultatet av hudens naturliga läkningsprocess efter skador, såsom skärsår, brännskador eller akne. Dessa ärr kan variera i form, storlek och färg och kan påverka både utseendet och självkänslan hos den drabbade. På Acnespecialisten erbjuder vi effektiva behandlingsmetoder för att reducera och ta bort ärr, inklusive laserterapi, kemiska peelingar och mikroneedling.'
-);
-$problems['oonskat-har'] = new Problem(
-      label: 'Oönskat hår',
-      url: 'problem/oonskat-har',
-      url_title: 'Oönskat hår',
-      consultation_url: 'gratis-hudkonsultation',
-      booking_url: 'https://www.bokadirekt.se',
-      consultation_url_title: 'Boka en hudkonsultation',
-      booking_url_title: 'Boka',
-      image: 'images/problems/424x324/oonskat-har.webp',
-      image_alt: 'Oönskat hår',
-      image_title: 'Oönskat hår',
-      info: 'Oönskad hårväxt är en vanlig problematik som drabbar både män och kvinnor, och involverar hår som växer på icke-önskade områden såsom ansiktet, armarna, benen eller ryggen. För att effektivt och permanent behandla oönskad hårväxt använder vi oss av laserhårborttagning, vilket ger långvariga och tillfredsställande resultat.'
 );
 
 $default_problems = new ProblemArea(
