@@ -340,47 +340,47 @@ $problem_areas = array(
       new ProblemArea(
             label: 'Kropp',
             icon: 'area-face',
-            problem_ids: array('akne-rygg', 'aknearr', 'pormaskar', 'stora-porer', 'pigmentflackar', 'ytliga-blodkarl', 'hudforandringar', 'finnar', 'bristningar', 'operations-arr', 'oonskad-harvaxt', 'arr-fran-finnar')
+            problem_ids: array('akne', 'aknearr', 'rosacea', 'pormaskar', 'stora-porer', 'milier', 'blandhy', 'finnar', 'arr-fran-finnar', 'perioral-dermatit', 'seborre', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar', 'mogen-hy', 'bristningar', 'hudforandringar', 'operations-arr', 'oonskad-harvaxt')
       ),
       new ProblemArea(
             label: 'Rygg',
             icon: 'area-face',
-            problem_ids: array('akne-rygg', 'aknearr', 'pormaskar', 'rosacea', 'seborre', 'perioral-dermatit', 'stora-porer', 'pigmentflackar', 'blandhy', 'torr-kanslig-hy', 'mogen-hy', 'milier', 'ytliga-blodkarl', 'hudforandringar', 'finnar', 'bristningar', 'operations-arr', 'oonskad-harvaxt', 'arr-fran-finnar')
+            problem_ids: array('akne', 'aknearr', 'rosacea', 'pormaskar', 'stora-porer', 'milier', 'blandhy', 'finnar', 'arr-fran-finnar', 'perioral-dermatit', 'seborre', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar', 'mogen-hy', 'bristningar', 'hudforandringar', 'operations-arr', 'oonskad-harvaxt')
       ),
       new ProblemArea(
             label: 'Bröst',
             icon: 'area-face',
-            problem_ids: array('akne', 'aknearr', 'pormaskar', 'rosacea', 'seborre', 'perioral-dermatit', 'stora-porer', 'pigmentflackar', 'blandhy', 'torr-kanslig-hy', 'mogen-hy', 'milier', 'ytliga-blodkarl', 'hudforandringar', 'finnar', 'bristningar', 'operations-arr', 'oonskad-harvaxt', 'arr-fran-finnar')
+            problem_ids: array('akne', 'aknearr', 'rosacea', 'pormaskar', 'stora-porer', 'milier', 'blandhy', 'finnar', 'arr-fran-finnar', 'perioral-dermatit', 'seborre', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar', 'mogen-hy', 'bristningar', 'hudforandringar', 'operations-arr', 'oonskad-harvaxt')
       ),
       new ProblemArea(
             label: 'Runt munnen',
             icon: 'area-face',
-            problem_ids: array('akne', 'aknearr', 'pormaskar', 'rosacea', 'seborre', 'perioral-dermatit', 'stora-porer', 'pigmentflackar', 'blandhy', 'torr-kanslig-hy', 'mogen-hy', 'milier', 'ytliga-blodkarl', 'hudforandringar', 'finnar', 'bristningar', 'operations-arr', 'oonskad-harvaxt', 'arr-fran-finnar')
+            problem_ids: array('akne', 'aknearr', 'rosacea', 'pormaskar', 'stora-porer', 'milier', 'blandhy', 'finnar', 'arr-fran-finnar', 'perioral-dermatit', 'seborre', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar', 'mogen-hy', 'bristningar', 'hudforandringar', 'operations-arr', 'oonskad-harvaxt')
       ),
       new ProblemArea(
             label: 'Näsa',
             icon: 'area-face',
-            problem_ids: array('operations-arr')
+            problem_ids: array('akne', 'aknearr', 'rosacea', 'pormaskar', 'stora-porer', 'milier', 'blandhy', 'finnar', 'arr-fran-finnar', 'perioral-dermatit', 'seborre', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar', 'mogen-hy', 'bristningar', 'hudforandringar', 'operations-arr', 'oonskad-harvaxt')
       ),
       new ProblemArea(
             label: 'Kinder',
             icon: 'area-face',
-            problem_ids: array('akne', 'aknearr', 'pormaskar', 'rosacea', 'seborre', 'perioral-dermatit', 'stora-porer', 'pigmentflackar', 'blandhy', 'torr-kanslig-hy', 'mogen-hy', 'milier', 'ytliga-blodkarl', 'hudforandringar', 'finnar', 'bristningar', 'operations-arr', 'oonskad-harvaxt', 'arr-fran-finnar')
+            problem_ids: array('akne', 'aknearr', 'rosacea', 'pormaskar', 'stora-porer', 'milier', 'blandhy', 'finnar', 'arr-fran-finnar', 'perioral-dermatit', 'seborre', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar', 'mogen-hy', 'bristningar', 'hudforandringar', 'operations-arr', 'oonskad-harvaxt')
       ),
       new ProblemArea(
             label: 'Haka',
             icon: 'area-face',
-            problem_ids: array('akne', 'aknearr', 'pormaskar', 'rosacea', 'seborre', 'perioral-dermatit', 'stora-porer', 'pigmentflackar', 'blandhy', 'torr-kanslig-hy', 'mogen-hy', 'milier', 'ytliga-blodkarl', 'hudforandringar', 'finnar', 'bristningar', 'operations-arr', 'oonskad-harvaxt', 'arr-fran-finnar')
+            problem_ids: array('akne', 'aknearr', 'rosacea', 'pormaskar', 'stora-porer', 'milier', 'blandhy', 'finnar', 'arr-fran-finnar', 'perioral-dermatit', 'seborre', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar', 'mogen-hy', 'bristningar', 'hudforandringar', 'operations-arr', 'oonskad-harvaxt')
       ),
       new ProblemArea(
             label: 'Läppar',
             icon: 'area-face',
-            problem_ids: array('akne', 'aknearr', 'pormaskar', 'rosacea', 'seborre', 'perioral-dermatit', 'stora-porer', 'pigmentflackar', 'blandhy', 'torr-kanslig-hy', 'mogen-hy', 'milier', 'ytliga-blodkarl', 'hudforandringar', 'finnar', 'bristningar', 'operations-arr', 'oonskad-harvaxt', 'arr-fran-finnar')
+            problem_ids: array('akne', 'aknearr', 'rosacea', 'pormaskar', 'stora-porer', 'milier', 'blandhy', 'finnar', 'arr-fran-finnar', 'perioral-dermatit', 'seborre', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar', 'mogen-hy', 'bristningar', 'hudforandringar', 'operations-arr', 'oonskad-harvaxt')
       ),
       new ProblemArea(
             label: 'Käklinje',
             icon: 'area-face',
-            problem_ids: array('akne', 'aknearr', 'pormaskar', 'rosacea', 'seborre', 'perioral-dermatit', 'stora-porer', 'pigmentflackar', 'blandhy', 'torr-kanslig-hy', 'mogen-hy', 'milier', 'ytliga-blodkarl', 'hudforandringar', 'finnar', 'bristningar', 'operations-arr', 'oonskad-harvaxt', 'arr-fran-finnar')
+            problem_ids: array('akne', 'aknearr', 'rosacea', 'pormaskar', 'stora-porer', 'milier', 'blandhy', 'finnar', 'arr-fran-finnar', 'perioral-dermatit', 'seborre', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar', 'mogen-hy', 'bristningar', 'hudforandringar', 'operations-arr', 'oonskad-harvaxt')
       ),
 );
 
