@@ -137,41 +137,40 @@ $link_brands = array(
             label: 'IPL',
             services: array(
                   "varumarken/alma/rejuve" => "Alma - Rejuve Dye VL",
-                  "varumarken/powerlight/photonova" => "Powerlight - PhotoNova PLS3",
                   "varumarken/alma/harmony-xl" => "Alma - Harmony XL",
+                  "varumarken/powerlite-photonova" => "Powerlight - PhotoNova PLS3",
             )
       ),
       new BrandCategory(
             label: 'Dermabration',
             services: array(
-                  "URL HÄR" => "Hydrafacial (HydroDermabration)",
-                  "URL HÄR" => "Mimass - MicroDermabration",
+                  "varumarken/hydrafacial" => "HydraFacial",
+                  "varumarken/microdemabrasion" => "Mimass - MicroDermabrasion",
             )
       ),
       new BrandCategory(
-            label: 'Chemical peeling',
+            label: 'Kemisk Peeling',
             services: array(
-                  "URL HÄR" => "Skintech",
-                  "URL HÄR" => "PRX-T33",
+                  "varumarken/skin-tech" => "Skin Tech",
+                  "varumarken/prx-t33" => "PRX-T33",
             )
       ),
       new BrandCategory(
             label: 'FreezeTreat',
             services: array(
-                  "URL HÄR" => "CryoPen",
+                  "varumarken/cryopen" => "CryoPen",
             )
       ),
       new BrandCategory(
             label: 'Skinbooster',
             services: array(
-                  "infuzion" => "Infuzion",
-                  "profhilo" => "Profhilo",
+                  "varumarken/infuzion" => "Infuzion",
             )
       ),
       new BrandCategory(
             label: 'Microneedling',
             services: array(
-                  "dermapen4" => "Dermapen 4"
+                  "varumarken/dermapen" => "Dermapen"
             )
       ),
 );
