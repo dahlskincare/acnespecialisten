@@ -98,7 +98,7 @@ class ServiceCombo
 
 class ServiceComboItem
 {
-    public function __construct($title, $price, $savings)
+    public function __construct($title, $price, $savings = null)
     {
         $this->title = $title;
         $this->price = $price;
@@ -107,5 +107,5 @@ class ServiceComboItem
 
     public string $title;
     public string $price;
-    public string $savings;
+    public ?string $savings;
 }

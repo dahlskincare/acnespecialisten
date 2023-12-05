@@ -111,12 +111,10 @@ $combos = array(
             new ServiceComboItem(
                 title: 'Bikinilinje',
                 price: '1595 kr',
-                savings: null,
             ),
             new ServiceComboItem(
                 title: 'Hela ben',
                 price: '2595 kr',
-                savings: null,
             )
         )
     ),
