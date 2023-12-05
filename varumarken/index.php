@@ -129,7 +129,7 @@ $link_brands = array(
       new BrandCategory(
             label: 'Permanent Hårborttagning',
             services: array(
-                  "varumarken/soprano-ice" => "Alma - Soprano Ice",
+                  "varumarken/alma/soprano-ice" => "Alma - Soprano Ice",
                   "varumarken/splendor-x" => "Lumenis - Splendor X",
             )
       ),

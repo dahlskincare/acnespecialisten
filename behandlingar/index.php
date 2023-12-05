@@ -503,7 +503,7 @@ $service_categories = array(
                 booking_url_title: 'Boka tid för Splendor X',
             ),
             new Service(
-                url: '/varumarken/soprano-ice',
+                url: '/varumarken/alma/soprano-ice',
                 url_label: 'Läs mer',
                 url_title: 'Läs mer om Soprano Ice',
                 title: 'Soprano Ice',
