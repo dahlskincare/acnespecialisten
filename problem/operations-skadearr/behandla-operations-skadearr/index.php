@@ -165,48 +165,34 @@ $results = array(
 $show_all_results_label = "Se fler resultat mot operations- och skadeärr";
 $show_all_results_title = "Resultat mot operations- och skadeärr";
 
-
 $reviews = array(
-    new Review(
-        stars: 5,
-        brand: 'Trustpilot',
-        logo_url: 'images/brands/trustpilot.svg',
-        title: 'Allt gick jätte bra!',
-        text: "Allt gick jätte bra, personal var snäll och trevlig med min dotter. Min dotter var orolig för behandling hur ska det vara därför har det varit så lång tid innan vi kommit tillbaka och börjat med behandling. Det var inte lätt för henne men hon är jätte nöjd och glad när hon såg bra resultat /ändring på hennes ansikte. Tack så jätte mycket!!",
-        signature: 'Emily'
-    ),
-    new Review(
-        stars: 5,
-        brand: 'Google',
-        logo_url: 'images/brands/trustpilot.svg',
-        title: 'Man behöver inte klä av sig',
-        text: "Man behöver inte klä av sig för behandling. Behandlaren känns inte stressad, sitter kvar utan att springa iväg för att uträtta annat! Frågar inte ut en. Försöker inte pracka på en produkter. Är trevlig och hjälpsam",
-        signature: 'Emily'
-    ),
-    new Review(
-        stars: 5,
-        brand: 'Trustpilot',
-        logo_url: 'images/brands/trustpilot.svg',
-        title: 'Otroligt nöjd',
-        text: "Efter bara tre månader hos bästa Emma har min hud blivit så mycket bättre! Efter en graviditet och en kombination av hormonell och bakteriell acne så har jag äntligen börjar komma tillbaks till min gamla hy. Är verkligen så himla nöjd. Har gjort ansiktsbehandling mot acne samt kört acnespecialistens produkter och kan bara säga gott om dem!",
-        signature: 'Emily'
-    ),
-    new Review(
-        stars: 5,
-        brand: 'Google',
-        logo_url: 'images/brands/trustpilot.svg',
-        title: 'Nöjd',
-        text: "Ett första besök som absolut kommer leda till ett till. Bra och tydlig information om vad som skulle vara bäst för min hy.",
-        signature: 'Emily'
-    ),
-    new Review(
-        stars: 5,
-        brand: 'Trustpilot',
-        logo_url: 'images/brands/trustpilot.svg',
-        title: 'Kunniga och bra!',
-        text: "Mina tonårsdöttrar har båda gått till acnespecialisten under flera år med både mindre och större problemområden. Vi har alltid fått professionell och kunnig behandling, bra produkter och bra råd, som också hjälper fint!",
-        signature: 'Emily'
-    ),
+      new Review(
+            brand: 'Trustpilot',
+            title: 'Supernöjd',
+            text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
+            signature: 'Sofia',
+            stars: 5,
+            logo_url: 'images/brands/trustpilot.svg'
+
+      ),
+      new Review(
+            brand: 'Google',
+            title: 'Jag är mycket nöjd..',
+            text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och aknen är betydligt mildare",
+            signature: 'Lovisa',
+            stars: 5,
+            logo_url: 'images/brands/google-small.svg'
+
+      ),
+      new Review(
+            brand: 'Bokadirekt',
+            title: 'Rekommenderar varmt!',
+            text: "Det enda som fungerat mot min akne med synliga resultat. Jättetrevlig och kunnig behandlare!",
+            signature: 'Emily',
+            stars: 5,
+            logo_url: 'images/brands/bokadirekt-small.svg'
+      ),
+
 );
 
 $review_url_label = "Läs fler omdömen";
