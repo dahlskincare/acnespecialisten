@@ -8,157 +8,46 @@ html {
 }
 
 section#banner {
+    div#treatments {
+        margin-top: $m;
+        background-color: $white-500;
+        border: 1px solid $light-200;
+        border-radius: $radius-l;
+        overflow: hidden;
+        box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.06);
+
+        div.treatment {
+            text-align: center;
+            border: 1px solid $light-200;
+            height: 72px;
+            margin-left: -1px;
+            margin-top: -1px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        div.treatment:nth-child(6n) {
+            border-right: 0;
+        }
+    }
+
     @include desktop {
         .green-header-banner-widget {
-            padding-bottom: 102px;
+            padding-bottom: 140px;
+        }
+
+        div#treatments {
+
+            margin-top: -72px;
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+
         }
     }
 
 
-    #filters-touch-container {
-        overflow-x: scroll;
-        padding-bottom: $m;
-
-        #filters-touch {
-            border: 1px solid $light-200;
-            border-radius: $radius-l;
-            background-color: $white-500;
-            @include elevation-medium();
-
-            display: inline-flex;
-            scrollbar-width: none;
-            -ms-overflow-style: none;
-
-            #filters-touch::-webkit-scrollbar {
-                width: 0;
-                height: 0;
-            }
-
-
-            .filter-item {
-                padding: 17.5px 0;
-                flex: 1;
-                width: 104px;
-                text-align: center;
-                cursor: pointer;
-                border-left: 1px solid $light-200;
-
-                .icon {
-                    width: $xxl;
-                    height: $xxl;
-                }
-
-                .filter-item-label {
-                    margin-top: $xs;
-                    color: $deep-sea-500;
-                }
-            }
-
-            .filter-item:not(.highlight):hover {
-                .filter-item-label {
-                    color: $deep-sea-300;
-                }
-            }
-
-            .filter-item.highlight {
-                background-color: $light-25;
-
-                .filter-item-label {
-                    color: $black-500;
-                }
-            }
-
-            .filter-item:first-child {
-                border-left: 1px solid transparent;
-            }
-        }
-    }
-
-
-
-
-    @media screen and (min-width: $desktop) {
-        #filters-desktop {
-            position: relative;
-            border: 1px solid $light-200;
-            border-radius: $radius-l;
-            overflow: hidden;
-            margin-top: -2*$xl;
-            background-color: $white-500;
-            @include elevation-medium();
-
-            div#filter-items {
-                position: relative;
-                display: flex;
-                overflow-y: auto;
-                scroll-behavior: smooth;
-                scrollbar-width: none;
-                -ms-overflow-style: none;
-            }
-
-            div#filter-items::-webkit-scrollbar {
-                width: 0;
-                height: 0;
-            }
-
-            div.filter-button {
-                background-color: $white-500;
-                position: absolute;
-                top: 0;
-                height: 100%;
-                padding: $xl;
-                box-sizing: border-box;
-            }
-
-            div.filter-button#filter-button-previous {
-                background: linear-gradient(90deg, $white-500 70%, rgba(255, 255, 255, 0) 100%);
-                padding-right: $xl*2;
-            }
-
-            div.filter-button#filter-button-next {
-                background: linear-gradient(270deg, $white-500 70%, rgba(255, 255, 255, 0) 100%);
-                padding-left: $xl*2;
-                right: 0;
-            }
-
-            .filter-item {
-                padding: 17.5px 0;
-                flex: 1 0 132px;
-                text-align: center;
-                cursor: pointer;
-                border-left: 1px solid $light-200;
-
-                .icon {
-                    width: $xxl;
-                    height: $xxl;
-                }
-
-                .filter-item-label {
-                    margin-top: $xs;
-                    color: $deep-sea-500;
-                }
-            }
-
-            .filter-item:not(.highlight):hover {
-                .filter-item-label {
-                    color: $deep-sea-300;
-                }
-            }
-
-            .filter-item.highlight {
-                background-color: $light-25;
-
-                .filter-item-label {
-                    color: $black-500;
-                }
-            }
-
-            .filter-item:first-child {
-                border-left: 1px solid transparent;
-            }
-        }
-
-    }
 }
 
 section#links {
@@ -178,101 +67,23 @@ section#consultation-banner {
 }
 
 section#links {
-    div#item-container {
-        .item {
-            margin-top: $l;
+    #psf-title {
+        margin-top: $xxl;
+        margin-bottom: $m;
+    }
 
-            p {
-                margin-top: $xxs;
-                text-align: center;
-                padding: 14px;
-                background-color: $light-50;
-            }
-        }
+    // People search for..
+    div#psf {
+        display: flex;
+        flex-wrap: wrap;
 
-
-
-        @media screen and (min-width: $tablet) {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            grid-template-rows: repeat(3, 1fr);
-            gap: $xxs;
-            justify-items: stretch;
-            align-items: stretch;
-
-            .item {
-                margin-top: 0;
-                background-color: $light-50;
-                border-radius: $radius-s;
-                padding: $xl;
-
-                p {
-                    margin-top: 0;
-                    text-align: left;
-                    padding: 0;
-                }
-
-                .service-label {
-                    margin-top: $m;
-                    color: $dark-200;
-                }
-            }
-
-            #item-0 {
-                grid-column-start: 1;
-                grid-row-start: 1;
-                grid-row-end: 3;
-            }
-
-            #item-1 {
-                grid-column-start: 1;
-                grid-row-start: 3;
-            }
-
-            #item-2 {
-                grid-column-start: 2;
-                grid-row-start: 1;
-            }
-
-            #item-3 {
-                grid-column-start: 2;
-                grid-row-start: 2;
-            }
-
-            #item-4 {
-                grid-column-start: 2;
-                grid-row-start: 3;
-            }
-
-            #item-5 {
-                grid-column-start: 3;
-                grid-row-start: 1;
-            }
-
-            #item-6 {
-                grid-column-start: 3;
-                grid-row-start: 2;
-            }
-
-            #item-7 {
-                grid-column-start: 3;
-                grid-row-start: 3;
-            }
-
-            #item-8 {
-                grid-column-start: 4;
-                grid-row-start: 1;
-            }
-
-            #item-9 {
-                grid-column-start: 4;
-                grid-row-start: 2;
-            }
-
-            #item-10 {
-                grid-column-start: 4;
-                grid-row-start: 3;
-            }
+        .psf-treatment {
+            padding: 10px $m;
+            background-color: $light-50;
+            margin-right: $xxs;
+            margin-bottom: $xxs;
+            border-radius: $radius-s;
+            @include h200;
         }
     }
 }

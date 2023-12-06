@@ -1,73 +1,18 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
-class ProblemArea
+class Treatment
 {
-    public function __construct($label, $icon, $problem_ids)
+    public function __construct($label, $url, $url_title)
     {
         $this->label = $label;
-        $this->icon = $icon;
-        $this->problem_ids = $problem_ids;
+        $this->url = $url;
+        $this->url_title = $url_title;
     }
-
     public string $label;
-    public string $icon;
-    public array $problem_ids;
+    public string $url;
+    public string $url_title;
 }
-
-$problem_areas = array(
-    new ProblemArea(
-        label: 'Ansikte',
-        icon: 'area-face',
-        problem_ids: array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples')
-    ),
-    new ProblemArea(
-        label: 'Kropp',
-        icon: 'area-body',
-        problem_ids: array('acne', 'acne-scars', 'comedones')
-    ),
-    new ProblemArea(
-        label: 'Bröst',
-        icon: 'area-chest',
-        problem_ids: array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples')
-    ),
-    new ProblemArea(
-        label: 'Ögon',
-        icon: 'area-eyes',
-        problem_ids: array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples')
-    ),
-    new ProblemArea(
-        label: 'Läppar',
-        icon: 'area-lips',
-        problem_ids: array('unwanted-hair')
-    ),
-    new ProblemArea(
-        label: 'Hår',
-        icon: 'area-hair',
-        problem_ids: array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples')
-    ),
-    new ProblemArea(
-        label: 'Rygg',
-        icon: 'area-back',
-        problem_ids: array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples')
-    ),
-    new ProblemArea(
-        label: 'Axlar',
-        icon: 'area-shoulders',
-        problem_ids: array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples')
-    ),
-    new ProblemArea(
-        label: 'Käklinje',
-        icon: 'area-neckline',
-        problem_ids: array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples')
-    ),
-    new ProblemArea(
-        label: 'Nacke',
-        icon: 'area-neck',
-        problem_ids: array('acne', 'acne-scars', 'comedones', 'rosacea', 'seborrhea', 'perioral-dermatitis', 'large-pores', 'pigmentation', 'oily-combination-skin', 'dry-and-sensitive-skin', 'mature-skin', 'milier', 'visible-blood-vessels', 'skin-imperfections', 'pimples', 'stretch-marks', 'operational-marks', 'unwanted-hair', 'scars-from-pimples')
-    )
-);
-
 class ServiceCategory
 {
     public function __construct($id, $label, $content, $image_small, $image_large, $image_alt, $image_title, $services, $booking_url, $booking_url_title, $consultation_url, $consultation_url_title, $consultation_url_label = '', $booking_url_label = '', $read_more_label = 'Läs mer')
@@ -104,6 +49,143 @@ class ServiceCategory
     public string $consultation_url_label;
     public string $read_more_label;
 }
+
+$green_banner_content = new GreenBannerContent(
+    title: 'Behandlingar',
+    description: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
+    description_extended: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
+    button_url: 'gratis-hudkonsultation',
+    button_label: 'Boka en gratis konsultation'
+);
+
+$treatments = array(
+    new Treatment(
+        label: 'Problem skin facials',
+        url: 'behandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-akne',
+        url_title: 'Läs mer om acnebehandling'
+    ),
+    new Treatment(
+        label: 'TODO',
+        url: 'TODO',
+        url_title: 'TODO'
+    ),
+    new Treatment(
+        label: 'TODO',
+        url: 'TODO',
+        url_title: 'TODO'
+    ),
+    new Treatment(
+        label: 'TODO',
+        url: 'TODO',
+        url_title: 'TODO'
+    ),
+    new Treatment(
+        label: 'TODO',
+        url: 'TODO',
+        url_title: 'TODO'
+    ),
+    new Treatment(
+        label: 'TODO',
+        url: 'TODO',
+        url_title: 'TODO'
+    ),
+    new Treatment(
+        label: 'TODO',
+        url: 'TODO',
+        url_title: 'TODO'
+    ),
+    new Treatment(
+        label: 'TODO',
+        url: 'TODO',
+        url_title: 'TODO'
+    ),
+    new Treatment(
+        label: 'TODO',
+        url: 'TODO',
+        url_title: 'TODO'
+    ),
+    new Treatment(
+        label: 'TODO',
+        url: 'TODO',
+        url_title: 'TODO'
+    ),
+    new Treatment(
+        label: 'TODO',
+        url: 'TODO',
+        url_title: 'TODO'
+    ),
+    new Treatment(
+        label: 'TODO',
+        url: 'TODO',
+        url_title: 'TODO'
+    ),
+);
+
+$people_search_for_title = "People also search";
+
+$people_search_for = array(
+    new Treatment(
+        label: 'Acne Treatment',
+        url: 'behandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-akne',
+        url_title: 'Läs mer om acnebehandling'
+    ),
+    new Treatment(
+        label: 'TODO',
+        url: 'TODO',
+        url_title: 'TODO'
+    ),
+    new Treatment(
+        label: 'TODO',
+        url: 'TODO',
+        url_title: 'TODO'
+    ),
+    new Treatment(
+        label: 'TODO',
+        url: 'TODO',
+        url_title: 'TODO'
+    ),
+    new Treatment(
+        label: 'TODO',
+        url: 'TODO',
+        url_title: 'TODO'
+    ),
+    new Treatment(
+        label: 'TODO',
+        url: 'TODO',
+        url_title: 'TODO'
+    ),
+    new Treatment(
+        label: 'TODO',
+        url: 'TODO',
+        url_title: 'TODO'
+    ),
+    new Treatment(
+        label: 'TODO',
+        url: 'TODO',
+        url_title: 'TODO'
+    ),
+    new Treatment(
+        label: 'TODO',
+        url: 'TODO',
+        url_title: 'TODO'
+    ),
+    new Treatment(
+        label: 'TODO',
+        url: 'TODO',
+        url_title: 'TODO'
+    ),
+    new Treatment(
+        label: 'TODO',
+        url: 'TODO',
+        url_title: 'TODO'
+    ),
+    new Treatment(
+        label: 'TODO',
+        url: 'TODO',
+        url_title: 'TODO'
+    ),
+);
+
 
 $service_categories = array(
     new ServiceCategory(
@@ -754,52 +836,24 @@ $service_categories = array(
     <main>
         <section id="banner" class="sticky-badges-target">
             <?php
-            $green_banner_content = new GreenBannerContent(
-                title: 'Behandlingar',
-                description: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
-                description_extended: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
-                button_url: 'gratis-hudkonsultation',
-                button_label: 'Boka en gratis konsultation'
-            );
             include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/green_header_banner.php');
             ?>
             <div class="container">
-                <div id="filters-desktop" class="is-hidden-touch">
-                    <div id="filter-items">
-                        <?php foreach ($problem_areas as $problem_area) { ?>
-                            <div class="filter-item">
-                                <?php icon($problem_area->icon) ?>
-                                <div class="b100 filter-item-label l10n">
-                                    <?php echo $problem_area->label ?>
-                                </div>
-                            </div>
-                        <?php } ?>
-                    </div>
-                    <div class="filter-button is-hidden" id="filter-button-previous">
-                        <button class="round-large grey">
-                            <?php icon('arrow-left') ?>
-                        </button>
-                    </div>
-                    <div class="filter-button is-hidden" id="filter-button-next">
-                        <button class="round-large grey">
-                            <?php icon('arrow-right') ?>
-                        </button>
-                    </div>
+                <div id="treatments">
+                    <?php foreach ($treatments as $treatment) { ?>
+                        <div class="treatment">
+                            <a class="b200" href="<?php echo $treatment->url ?>" title="<?php echo $treatment->url_title ?>"><?php echo $treatment->label ?></a>
+                        </div>
+                    <?php } ?>
                 </div>
             </div>
         </section>
         <section id="links">
             <div class="container">
-                <div id="item-container">
-                    <?php for ($i = 0; $i < count($service_categories); $i++) { ?>
-                        <div class="item" id="item-<?php echo $i ?>">
-                            <p>
-                                <a class="h200" href="behandlingar/<?php echo $service_categories[$i]->id ?>" title="<?php echo $service_categories[$i]->label ?>"><?php echo $service_categories[$i]->label ?></a>
-                            </p>
-                            <?php foreach ($service_categories[$i]->services as $service) { ?>
-                                <p class="p200 service-label"><a href="<?php echo $service->url ?>" title="<?php echo $service->url_title ?>" title="<?php echo $service->title ?>"><?php echo $service->title ?></a></p>
-                            <?php } ?>
-                        </div>
+                <p class="p100" id="psf-title"><?php echo $people_search_for_title ?></p>
+                <div id="psf">
+                    <?php foreach ($people_search_for as $treatment) { ?>
+                        <a class="psf-treatment" href="<?php echo $treatment->url ?>" title="<?php echo $treatment->url_title ?>"><?php echo $treatment->label ?></a>
                     <?php } ?>
                 </div>
             </div>
@@ -923,7 +977,6 @@ $service_categories = array(
         </section>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
-    <script src="behandlingar/services.js"></script>
 </body>
 
 </html>
