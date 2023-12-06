@@ -31,7 +31,7 @@ $specialists = array(
     new Specialist(
         name: 'Georgina Youkhana',
         title: 'Hudterapeut sedan 2023',
-        image: '/images/specialists/large/hudterapeut-bild-saknas.php',
+        image: '/images/specialists/large/hudterapeut-bild-saknas.jpg',
         image_alt: 'Georgina Youkhana',
         image_title: 'Georgina Youkhana',
         city: 'Sundbyberg',
@@ -67,7 +67,7 @@ $specialists = array(
     new Specialist(
         name: 'Fanny Eklund',
         title: 'Hudterapeut sedan 2023',
-        image: '/images/specialists/large/hudterapeut-bild-saknas.php',
+        image: '/images/specialists/large/hudterapeut-bild-saknas.jpg',
         image_alt: 'Fanny Eklund',
         image_title: 'Fanny Eklund',
         city: 'Sundbyberg',
