@@ -6,52 +6,100 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 $specialists = array(
     new Specialist(
         name: 'Cazzandra Lindberg',
-        title: 'Hudterapeut sedan 2015',
+        title: 'Hudterapeut sedan 2018',
         image: '/images/specialists/large/hudterapeut-cazzandra.webp',
         image_alt: 'Cazzandra Lindberg',
         image_title: 'Cazzandra Lindberg',
-        city: 'Stockholm',
-        description: 'DESCRIPTION HERE',
-        rating: 4.9,
-        num_treatments: 123,
-        since_year: 2010
+        city: 'Sundbyberg',
+        description: '',
+        rating: 4.8,
+        num_treatments: 795,
+        since_year: 2018,
     ),
     new Specialist(
         name: 'Veronika Benedik',
-        title: 'Hudterapeut sedan 1999',
+        title: 'Hudterapeut sedan 2010',
         image: '/images/specialists/large/hudterapeut-veronika.webp',
         image_alt: 'Veronika Benedik',
         image_title: 'Veronika Benedik',
         city: 'Stockholm',
-        description: 'DESCRIPTION HERE',
-        rating: 4.9,
-        num_treatments: 123,
-        since_year: 2010
+        description: '',
+        rating: 4.7,
+        num_treatments: 941,
+        since_year: 2010,
     ),
     new Specialist(
-        name: 'Amira Maqboul',
-        title: 'Hudterapeut sedan 2017',
-        image: '/images/specialists/large/hudterapeut-amira.webp',
-        image_alt: 'Amira Maqboul',
-        image_title: 'Amira Maqboul',
-        city: 'Stockholm',
-        description: 'DESCRIPTION HERE',
-        rating: 4.9,
-        num_treatments: 123,
-        since_year: 2010
+        name: 'Georgina Youkhana',
+        title: 'Hudterapeut sedan 2023',
+        image: '/images/specialists/large/hudterapeut-bild-saknas.php',
+        image_alt: 'Georgina Youkhana',
+        image_title: 'Georgina Youkhana',
+        city: 'Sundbyberg',
+        description: '',
+        rating: 4.5,
+        num_treatments: 259,
+        since_year: 2023,
+    ),
+    new Specialist(
+        name: 'Julia Eklund',
+        title: 'Hudterapeut sedan 2021',
+        image: '/images/specialists/large/hudterapeut-julia.webp',
+        image_alt: 'Julia Eklund',
+        image_title: 'Julia Eklund',
+        city: 'Södermalm',
+        description: '',
+        rating: 4.8,
+        num_treatments: 669,
+        since_year: 2021,
+    ),
+    new Specialist(
+        name: 'Sally Johansson',
+        title: 'Hudterapeut sedan 2022',
+        image: '/images/specialists/large/hudterapeut-sally.webp',
+        image_alt: 'Sally Johansson',
+        image_title: 'Sally Johansson',
+        city: 'Södermalm',
+        description: '',
+        rating: 4.7,
+        num_treatments: 529,
+        since_year: 2022,
+    ),
+    new Specialist(
+        name: 'Fanny Eklund',
+        title: 'Hudterapeut sedan 2023',
+        image: '/images/specialists/large/hudterapeut-bild-saknas.php',
+        image_alt: 'Fanny Eklund',
+        image_title: 'Fanny Eklund',
+        city: 'Sundbyberg',
+        description: '',
+        rating: 4.6,
+        num_treatments: 322,
+        since_year: 2023,
     ),
     new Specialist(
         name: 'Vilma Libom',
-        title: 'Hudterapeut sedan 2019',
+        title: 'Hudterapeut sedan 2022',
         image: '/images/specialists/large/hudterapeut-vilma.webp',
         image_alt: 'Vilma Libom',
         image_title: 'Vilma Libom',
-        city: 'Stockholm',
-        description: 'DESCRIPTION HERE',
-        rating: 4.9,
-        num_treatments: 123,
-        since_year: 2010
-    )
+        city: 'Östermalm',
+        description: '',
+        rating: 4.8,
+        num_treatments: 803,
+        since_year: 2022,
+    ),
+    new Specialist(
+        name: 'Jennifer Messner',
+        title: 'Hudterapeut sedan 2022',
+        image: '/images/specialists/large/hudterapeut-jennifer.webp',
+        image_alt: 'Jennifer Messner',
+        image_title: 'Jennifer Messner',
+        city: 'Östermalm',
+        description: '',
+        rating: 4.7,
+        num_treatments: 288,
+        since_year: 2022,
+    ),
 );
 ?>
 <!DOCTYPE html>
@@ -100,7 +148,7 @@ $specialists = array(
             </section>
             <section id="reviews" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
-                    <div class="h500 l10n">Reviews</div>
+                    <div class="h500 l10n">Omdömen</div>
                     <div class="flex-row is-hidden-mobile">
                         <div class="step-buttons">
                             <button class="round-large grey" onclick="Reviews.scroll(-1)">
@@ -111,47 +159,37 @@ $specialists = array(
                             </button>
                         </div>
                         <a href="https://se.trustpilot.com/review/acnespecialisten.se" class="ml-l button compact text">
-                            <span class="l10n">View all reviews</span>
+                            <span class="l10n">Se alla omdömen</span>
                             <?php icon('navigate-next') ?>
                         </a>
                     </div>
 
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="View all reviews">View all reviews</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="Se alla omdömen">Se alla omdömen</a>
             </section>
             <section id="faq" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
-                    <h2 class="big l10n">Questions & answers</h2>
+                    <h2 class="big l10n">Frågor & svar</h2>
                     <a href="faq" class="button compact text is-hidden-mobile">
-                        <span class="l10n">View all questions</span>
+                        <span class="l10n">Se alla frågor</span>
                         <?php icon('navigate-next') ?>
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="faq" title="View all questions">View all questions</a>
+                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="faq" title="Se alla frågor">Se alla frågor</a>
             </section>
-            <section id="skin-guide" class="large-margin">
-                <div class="flex-row align-end justify-space-between">
-                    <div class="h500 l10n">Skin guide</div>
-                    <a href="skin-guide" class="button compact text is-hidden-mobile">
-                        <span class="l10n">View all articles</span>
-                        <?php icon('navigate-next') ?>
-                    </a>
-                </div>
-                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="skin-guide" title="View all articles">View all articles</a>
-            </section>
+            <!--Hudguide-->
             <section id="brands" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
-                    <div class="h500 l10n">Brands we use</div>
+                    <div class="h500 l10n">Varumärken</div>
                     <a href="varumarken" class="button compact text is-hidden-mobile">
-                        <span class="l10n">View all brands</span>
+                        <span class="l10n">Se alla varumärken</span>
                         <?php icon('navigate-next') ?>
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="varumarken" title="View all brands">View all brands</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="varumarken" title="Se alla varumärken">Se alla varumärken</a>
             </section>
         </div>
     </main>
