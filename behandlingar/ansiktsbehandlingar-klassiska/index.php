@@ -827,28 +827,14 @@ $all_brands = array(
                     $reviews_narrow = true;
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                     ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="View all reviews"><?php echo $reviews_view_more ?></a>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="Se alla omdömen"><?php echo $reviews_view_more ?></a>
                 </section>
                 <section id="faq" class="large-margin">
                     <h2 class="big l10n"><?php echo $faq_title ?></h2>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="faq" title="View all questions"><?php echo $faq_view_more ?></a>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" href="faq" title="Se alla frågor"><?php echo $faq_view_more ?></a>
                 </section>
-                <section id="skin-guide" class="large-margin">
-                    <div class="flex-row justify-space-between">
-                        <h2 class="big l10n"><?php echo $skin_guide_title ?></h2>
-                        <div class="is-hidden-touch">
-                            <button class="round-large grey" onclick="scrollSkinGuide(-1)">
-                                <?php icon('arrow-left') ?>
-                            </button>
-                            <button class="round-large grey" onclick="scrollSkinGuide(1)">
-                                <?php icon('arrow-right') ?>
-                            </button>
-                        </div>
-                    </div>
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide_narrow.php'); ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="skin-guide" title="View all articles"><?php echo $faq_view_more ?></a>
-                </section>
+                <!--Hudguide-->
                 <section id="specialists" class="large-margin">
                     <div class="flex-row justify-space-between">
                         <h2 class="big l10n"><?php echo $specialists_title ?></h2>
@@ -862,14 +848,14 @@ $all_brands = array(
                         </div>
                     </div>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="specialister" title="View all specialists"><?php echo $specialists_view_more ?></a>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" href="specialister" title="Se alla specilaister"><?php echo $specialists_view_more ?></a>
                 </section>
             </div>
             <section id="brands">
                 <div class="flex-row align-end justify-space-between">
                     <h2 class="big l10n"><?php echo $brands_title ?></h2>
                     <a href="varumarken" class="button compact text is-hidden-mobile">
-                        <span class="l10n">Se alla märken</span>
+                        <span class="l10n">Se alla varumärken</span>
                         <?php icon('navigate-next') ?>
                     </a>
                 </div>
@@ -877,7 +863,7 @@ $all_brands = array(
                 $brands = $all_brands;
                 include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php');
                 ?>
-                <a class="mt-xl button b200 outline expand auto-width is-hidden-desktop l10n" href="varumarken" title="View all brands">View all brands</a>
+                <a class="mt-xl button b200 outline expand auto-width is-hidden-desktop l10n" href="varumarken" title="Se alla varumärken">Se alla varumärken</a>
             </section>
         </div>
     </main>
