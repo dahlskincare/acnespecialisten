@@ -828,7 +828,7 @@ $service_categories = array(
         <section id="reviews">
             <div class="container">
                 <div class="flex-row align-end justify-space-between">
-                    <h2 class="big l10n">Reviews</h2>
+                    <h2 class="big l10n">Omdömen</h2>
                     <div class="flex-row is-hidden-mobile">
                         <div class="step-buttons">
                             <button class="round-large grey" onclick="Reviews.scroll(-1)">
@@ -839,36 +839,36 @@ $service_categories = array(
                             </button>
                         </div>
                         <a href="https://se.trustpilot.com/review/acnespecialisten.se" class="ml-l button compact text">
-                            <span class="l10n">View all reviews</span>
+                            <span class="l10n">Se alla omdömen</span>
                             <?php icon('navigate-next') ?>
                         </a>
                     </div>
 
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="View all reviews">View all reviews</a>
+                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="View all reviews">Se alla omdömen</a>
             </div>
         </section>
         <section id="faq">
             <div class="container">
                 <div class="flex-row align-end justify-space-between">
-                    <h2 class="big l10n">Questions & answers</h2>
+                    <h2 class="big l10n">Frågor & svar</h2>
                     <a href="faq" class="button compact text is-hidden-mobile">
-                        <span class="l10n">View all questions</span>
+                        <span class="l10n">Se alla frågor</span>
                         <?php icon('navigate-next') ?>
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="faq" title="View all questions">View all questions</a>
+                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="faq" title="View all questions">Se alla frågor</a>
             </div>
         </section>
         <!--Hudguide-->
         <section id="specialists">
             <div class="container">
                 <div class="flex-row align-end justify-space-between">
-                    <h2 class="big l10n">Our specialists</h2>
+                    <h2 class="big l10n">Våra specialister</h2>
                     <a href="specialister" class="button compact text is-hidden-mobile">
-                        <span class="l10n">View all specialists</span>
+                        <span class="l10n">Se alla våra specialister</span>
                         <?php icon('navigate-next') ?>
                     </a>
                 </div>
@@ -891,9 +891,9 @@ $service_categories = array(
                     new Specialist(
                         name: 'Amira Maqboul',
                         title: 'Hudterapeut sedan 2017',
-                        image: 'images/specialists/large/hudterapeut-amira.webp',
-                        image_alt: 'Amira Maqboul',
-                        image_title: 'Amira Maqboul',
+                        image: 'images/specialists/large/hudterapeut-julia.webp',
+                        image_alt: 'Julia Eklund',
+                        image_title: 'Julia Eklund',
                     ),
                     new Specialist(
                         name: 'Vilma Libom',
@@ -905,20 +905,20 @@ $service_categories = array(
                 );
                 include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
                 ?>
-                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialists" title="View all specialists">View all specialists</a>
+                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialists" title="View all specialists">Se alla våra specialister</a>
             </div>
         </section>
         <section id="brands">
             <div class="container">
                 <div class="flex-row align-end justify-space-between">
-                    <h2 class="big l10n">Brands we use</h2>
+                    <h2 class="big l10n">Varumärken</h2>
                     <a href="varumarken" class="button compact text is-hidden-mobile">
-                        <span class="l10n">View all brands</span>
+                        <span class="l10n">Se alla varumärken</span>
                         <?php icon('navigate-next') ?>
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="varumarken" title="View all brands">View all brands</a>
+                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="varumarken" title="View all brands">Se alla varumärken</a>
             </div>
         </section>
     </main>
