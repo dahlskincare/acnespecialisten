@@ -14,8 +14,7 @@ $model = new Service(
     title: 'Microneedling',
     duration: null,
     price: 'Från 2332 kr',
-    content: '<p class="p200">Som ledande experter på microneedling i Sverige, erbjuder vi toppmodern behandling för att revitalisera din hud. Oavsett var du är, från Östermalm till Södermalm eller Sundbyberg, har du tillgång till denna effektiva metod som genom en kontrollerad process stimulerar huden att reparera sig själv. Detta uppnås genom att försiktigt och strategiskt inducera mikroskopiska skador i hudens yttre lager, vilket kickstartar produktionen av kollagen – ett avgörande protein för att upprätthålla hudens styrka och smidighet.</p>
-    <p class="p200">Microneedling är idealiskt för dig som önskar att förbättra hudens ton och textur, reducera ärr och fina linjer eller helt enkelt öka hudens vitalitet och lyster. Våra behandlingar är skräddarsydda för att matcha en rad olika hudtillstånd och är specifikt utformade för att maximera hudens egen förmåga till förnyelse och förbättring.</p>',
+    content: '<p class="p200">Som ledande experter på microneedling i Sverige, erbjuder vi toppmodern behandling för att revitalisera din hud. Oavsett var du är, från Östermalm till Södermalm eller Sundbyberg, har du tillgång till denna effektiva metod som genom en kontrollerad process stimulerar huden att reparera sig själv. Detta uppnås genom att försiktigt och strategiskt inducera mikroskopiska skador i hudens yttre lager, vilket kickstartar produktionen av kollagen – ett avgörande protein för att upprätthålla hudens styrka och smidighet.</p>',
     image_small: 'https://via.placeholder.com/358x274.webp',
     image_large: 'https://via.placeholder.com/424x456.webp',
     image_alt: 'Ansiktsbehandlingar för problemhy',
@@ -54,7 +53,7 @@ $model = new Service(
     ),
 );
 
-$floating_box = '"Microneedling är en innovativ och effektiv behandling för att förbättra hudens kvalitet och adressera en mängd hudproblem.';
+$floating_box = 'Microneedling är en innovativ och effektiv behandling för att förbättra hudens kvalitet och adressera en mängd hudproblem.';
 
 $nav_buttons = array(
     'about' => 'Om microneedling',
