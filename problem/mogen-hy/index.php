@@ -1084,21 +1084,7 @@ $brands_url_title = "Varumärken för behandling av mogen hy";
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
                               <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $faq_url_title ?>" href="faq"><?php echo $faq_url_label ?></a>
                         </section>
-                        <section id="skin-guide">
-                              <div class="flex-row justify-space-between">
-                                    <h2 class="big l10n">Hudguide</h2>
-                                    <div class="is-hidden-touch">
-                                          <button class="round-large grey" onclick="scrollSkinGuide(-1)">
-                                                <?php icon('arrow-left') ?>
-                                          </button>
-                                          <button class="round-large grey" onclick="scrollSkinGuide(1)">
-                                                <?php icon('arrow-right') ?>
-                                          </button>
-                                    </div>
-                              </div>
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide_narrow.php'); ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" href="skin-guide" title="<?php echo $skinguide_url_title ?>"><?php echo $skinguide_url_label ?></a>
-                        </section>
+                        <!--Hudguide-->
                         <section id="specialists">
                               <div class="flex-row justify-space-between">
                                     <h2 class="big l10n">Våra specialister</h2>
