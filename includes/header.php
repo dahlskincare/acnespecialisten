@@ -36,7 +36,7 @@
                 <div class="ep-content">
                     <a href="faq" class="l10n" title="Frågor & Svar">Frågor & Svar</a>
                     <a href="ordlista" class="l10n" title="Ordlista">Ordlista</a>
-                    <a href="hudguide" class="l10n" title="Hudguide">Hudguide</a>
+                    <!--<a href="hudguide" class="l10n" title="Hudguide">Hudguide</a>-->
                     <a href="kontakt" class="l10n" title="Kontakt">Kontakt</a>
                 </div>
             </div>
@@ -83,7 +83,7 @@
                             <li><a href="faq" class="l10n" title="Frågor & Svar">Frågor & Svar</a></li>
                             <li><a href="avbokningspolicy" class="l10n" title="Avbokning">Avbokning</a></li>
                             <li><a href="ordlista" class="l10n" title="Ordlista">Ordlista</a></li>
-                            <li><a href="hudguide" class="l10n" title="Hudguide">Hudguide</a></li>
+                            <!--<li><a href="hudguide" class="l10n" title="Hudguide">Hudguide</a></li>-->
                             <li><a href="kontakt" class="l10n" title="Kontakt">Kontakt</a></li>
                         </ul>
                     </div>
