@@ -53,8 +53,8 @@ $problems['akne'] = new Problem(
       booking_url_title: 'Boka',
       image: 'images/problems/424x324/akne.webp',
       image_alt: 'Bild på akne i ansiktet',
-      image_title: 'En vanlig hudsjukdom som involverar inflammation i talgkörtlarna, vilket leder till bildandet av pormaskar, finnar och ibland smärtsamma knölar. Det är ett resultat av en kombination av överproduktion av talg, tilltäppning av hårfolliklar och bakterietillväxt. Akne kan vara emotionellt påfrestande och variera i svårighetsgrad, ofta påverkad av hormonella förändringar, stress, diet och genetiska faktorer.',
-      info: '',
+      image_title: 'Akne',
+      info: 'En vanlig hudsjukdom som involverar inflammation i talgkörtlarna, vilket leder till bildandet av pormaskar, finnar och ibland smärtsamma knölar. Det är ett resultat av en kombination av överproduktion av talg, tilltäppning av hårfolliklar och bakterietillväxt. Akne kan vara emotionellt påfrestande och variera i svårighetsgrad, ofta påverkad av hormonella förändringar, stress, diet och genetiska faktorer.',
 );
 $problems['aknearr'] = new Problem(
       label: 'Akneärr',
