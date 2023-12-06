@@ -453,6 +453,10 @@
                                       title: 'Är alla konsultationer kostnadsfria på AcneSpecialisten?',
                                       text: 'Ja, vi erbjuder alltid kostnadsfria konsultationer för våra kunder, förutsatt att de närvarar vid den bokade tiden.'
                                   ),
+                                  new Question(
+                                      title: 'Vad kan jag förvänta mig under en konsultation hos AcneSpecialisten?',
+                                      text: 'Under konsultationen kommer en av våra hudspecialister att noggrant analysera din hudtyp och diskutera dina hudproblem. Vi kommer även att gå igenom din nuvarande hudvårdsrutin och ge personliga rekommendationer för behandlingar och produkter som bäst passar dina behov.'
+                                  ),
                               ),
                               'Produkter' => array(
                                   new Question(
@@ -471,7 +475,12 @@
                                       title: 'Hur kan jag ta reda på priserna för era behandlingar?',
                                       text: 'Våra behandlingspriser finns listade på vår hemsida. För varje specifik behandling hittar du detaljerad prisinformation som hjälper dig att planera ditt besök.'
                                   ),
+                                  new Question(
+                                      title: 'Erbjuder ni några paketpriser eller rabatter för flera behandlingar?',
+                                      text: 'Ja, vi erbjuder ibland paketpriser eller rabatter vid bokning av flera behandlingar. Detta är ett utmärkt sätt att få en omfattande behandling till ett reducerat pris. För mer information om aktuella erbjudanden, besök vår hemsida eller kontakta oss direkt.'
+                                  ),
                               ),
+
                         );
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
                         <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" title="FAQ" href="faq">Se fler frågor & svar</a>
