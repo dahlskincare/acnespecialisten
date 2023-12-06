@@ -228,7 +228,7 @@ $categories = array(
                 </section>
                 <section id="reviews" class="large-margin">
                     <div class="flex-row align-end justify-space-between">
-                        <h2 class="big l10n">Reviews</h2>
+                        <h2 class="big l10n">Omdömen</h2>
                         <div class="flex-row is-hidden-mobile">
                             <div class="step-buttons">
                                 <button class="round-large grey" onclick="Reviews.scroll(-1)">
@@ -244,31 +244,17 @@ $categories = array(
                     $reviews_narrow = true;
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                     ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="View all reviews">View all reviews</a>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="Se alla omdömen">Se alla omdömen</a>
                 </section>
                 <section id="faq" class="large-margin">
-                    <h2 class="big l10n">Questions & answers</h2>
+                    <h2 class="big l10n">Frågor & svar</h2>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="faq" title="View all questions">View all questions</a>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" href="faq" title="Se alla frågor">Se alla frågor</a>
                 </section>
-                <section id="skin-guide" class="large-margin">
+                <!--Hudguide-->
+                <section id="specialister" class="large-margin">
                     <div class="flex-row justify-space-between">
-                        <h2 class="big l10n">Skin guide</h2>
-                        <div class="is-hidden-touch">
-                            <button class="round-large grey" onclick="scrollSkinGuide(-1)">
-                                <?php icon('arrow-left') ?>
-                            </button>
-                            <button class="round-large grey" onclick="scrollSkinGuide(1)">
-                                <?php icon('arrow-right') ?>
-                            </button>
-                        </div>
-                    </div>
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide_narrow.php'); ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="skin-guide" title="View all articles">View all articles</a>
-                </section>
-                <section id="specialists" class="large-margin">
-                    <div class="flex-row justify-space-between">
-                        <h2 class="big l10n">Our specialists</h2>
+                        <h2 class="big l10n">Våra specialister</h2>
                         <div class="is-hidden-touch">
                             <button class="round-large grey" onclick="scrollSpecialists(-1)">
                                 <?php icon('arrow-left') ?>
@@ -281,19 +267,19 @@ $categories = array(
                     <?php
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php');
                     ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="specialister" title="View all specialists">View all specialists</a>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" href="specialister" title="Se alla specialister">Se alla specialister</a>
                 </section>
             </div>
             <section id="brands" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
-                    <h2 class="big l10n">Brands we use</h2>
+                    <h2 class="big l10n">Varumärken</h2>
                     <a href="varumarken" class="button compact text is-hidden-mobile">
-                        <span class="l10n">View all brands</span>
+                        <span class="l10n">Se alla varumärken</span>
                         <?php icon('navigate-next') ?>
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                <a class="mt-xl button b200 outline expand auto-width is-hidden-desktop l10n" href="varumarken" title="View all brands">View all brands</a>
+                <a class="mt-xl button b200 outline expand auto-width is-hidden-desktop l10n" href="varumarken" title="Se alla varumärken">Se alla varumärken</a>
             </section>
         </div>
     </main>

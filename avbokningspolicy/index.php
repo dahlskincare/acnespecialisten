@@ -4,10 +4,9 @@
 
 <head>
     <!-- TODO: Set title and meta tags -->
-    <title class="l10n">Acnespecialisten | Cancellation policy</title>
-    <meta name="description" content="" class="l10n">
-    <meta name="title" content="" class="l10n">
-    <meta name="keywords" content="" class="l10n">
+    <title>Avbokningspolicy | AcneSpecialisten – Hudvård i Stockholm</title>
+    <meta name="description" content="Läs om AcneSpecialistens avbokningspolicy. Avboka din tid senast 24 timmar innan ditt planerade besök för att undvika avgifter. Vi erbjuder expertis inom acne och hudvård i Stockholm.">
+    <meta name="keywords" content="Avbokningspolicy, AcneSpecialisten, Hudvårdstidning, Avboka Tid, Hudvård Stockholm, Hudvårdsbokning, Hudvårdsavbokning, Hudvårdsklinik Stockholm, Hudvårdsexpert, Hudbehandling, Hudkonsultation">
 
     <!-- Default imports (metadata, fonts, google analytics etc) -->
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
@@ -76,13 +75,13 @@
 
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="View all reviews">Se alla omdömen</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="Se alla omdömen">Se alla omdömen</a>
             </section>
             <section id="faq" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
                     <h2 class="big l10n">Frågor & Svar</h2>
                     <a href="faq" class="button compact text is-hidden-mobile">
-                        <span class="l10n">se alla frågor</span>
+                        <span class="l10n">Se alla frågor</span>
                         <?php icon('navigate-next') ?>
                     </a>
                 </div>
@@ -90,29 +89,19 @@
                 $faq_categories = null;
                 include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php');
                 ?>
-                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="faq" title="View all questions">Se alal frågor</a>
+                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="faq" title="Se alla frågor">Se alla frågor</a>
             </section>
-            <section id="skin-guide" class="large-margin">
-                <div class="flex-row align-end justify-space-between">
-                    <div class="h500 l10n">Hudguide</div>
-                    <a href="skin-guide" class="button compact text is-hidden-mobile">
-                        <span class="l10n">Se alla artiklar</span>
-                        <?php icon('navigate-next') ?>
-                    </a>
-                </div>
-                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="skin-guide" title="View all articles">Se alla artiklar</a>
-            </section>
+            <!--Hudguide-->
             <section id="specialists" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
                     <h2 class="big l10n">Våra specialsiter</h2>
                     <a href="specialister" class="button compact text is-hidden-mobile">
-                        <span class="l10n">Våra specialister</span>
+                        <span class="l10n">Se alla specialister</span>
                         <?php icon('navigate-next') ?>
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php'); ?>
-                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialists" title="View all specialists">Våra specialister</a>
+                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialister" title="Se alla specialister">Se alla specialister</a>
             </section>
             <section id="brands" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
@@ -123,7 +112,7 @@
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="varumarken" title="View all brands">Se alla varumärken</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="varumarken" title="Se alla varumärken">Se alla varumärken</a>
             </section>
         </div>
     </main>

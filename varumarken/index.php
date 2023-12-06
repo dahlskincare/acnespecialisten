@@ -349,101 +349,102 @@ $brand_cards = array(
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results.php') ?>
                         </div>
                   </section>
-                  <section id="reviews" class="large-margin">
+                  <section id="reviews">
                         <div class="container">
-                              <div class="flex-row align-end justify-space-between">
-                                    <h2 class="big l10n">Reviews</h2>
-                                    <div class="flex-row is-hidden-mobile">
-                                          <div class="step-buttons">
-                                                <button class="round-large grey" onclick="Reviews.scroll(-1)">
-                                                      <?php icon('arrow-left') ?>
-                                                </button>
-                                                <button class="round-large grey" onclick="Reviews.scroll(1)">
-                                                      <?php icon('arrow-right') ?>
-                                                </button>
-                                          </div>
-                                          <a href="https://se.trustpilot.com/review/acnespecialisten.se" class="ml-l button compact text">
-                                                <span class="l10n">View all reviews</span>
-                                                <?php icon('navigate-next') ?>
-                                          </a>
+                            <div class="flex-row align-end justify-space-between">
+                                <h2 class="big l10n">Omdömen</h2>
+                                <div class="flex-row is-hidden-mobile">
+                                    <div class="step-buttons">
+                                        <button class="round-large grey" onclick="Reviews.scroll(-1)">
+                                            <?php icon('arrow-left') ?>
+                                        </button>
+                                        <button class="round-large grey" onclick="Reviews.scroll(1)">
+                                            <?php icon('arrow-right') ?>
+                                        </button>
                                     </div>
+                                    <a href="https://se.trustpilot.com/review/acnespecialisten.se" class="ml-l button compact text">
+                                        <span class="l10n">Se alla omdömen</span>
+                                        <?php icon('navigate-next') ?>
+                                    </a>
+                                </div>
 
-                              </div>
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                              <a class="mt-xl button outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="View all reviews">View all reviews</a>
+                            </div>
+                            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
+                            <a class="mt-xl button outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="View all reviews">Se alla omdömen</a>
                         </div>
-                  </section>
-                  <section id="faq" class="large-margin">
+                    </section>
+                    <section id="faq">
                         <div class="container">
-                              <div class="flex-row align-end justify-space-between">
-                                    <h2 class="big l10n">Questions & answers</h2>
-                                    <a href="faq" class="button compact text is-hidden-mobile">
-                                          <span class="l10n">View all questions</span>
-                                          <?php icon('navigate-next') ?>
-                                    </a>
-                              </div>
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                              <a class="mt-xl button outline expand is-hidden-tablet l10n" href="faq" title="View all questions">View all questions</a>
+                            <div class="flex-row align-end justify-space-between">
+                                <h2 class="big l10n">Frågor & svar</h2>
+                                <a href="faq" class="button compact text is-hidden-mobile">
+                                    <span class="l10n">Se alla frågor</span>
+                                    <?php icon('navigate-next') ?>
+                                </a>
+                            </div>
+                            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
+                            <a class="mt-xl button outline expand is-hidden-tablet l10n" href="faq" title="Se alla frågor">Se alla frågor</a>
                         </div>
-                  </section>
-                  <section id="skin-guide" class="large-margin">
+                    </section>
+                    <!--Hudguide-->
+                    <section id="specialists">
                         <div class="container">
-                              <div class="flex-row align-end justify-space-between">
-                                    <h2 class="big l10n">Skin guide</h2>
-                                    <a href="skin-guide" class="button compact text is-hidden-mobile">
-                                          <span class="l10n">View all articles</span>
-                                          <?php icon('navigate-next') ?>
-                                    </a>
-                              </div>
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php'); ?>
-                              <a class="mt-xl button outline expand is-hidden-tablet l10n" href="skin-guide" title="View all articles">View all articles</a>
+                            <div class="flex-row align-end justify-space-between">
+                                <h2 class="big l10n">Våra specialister</h2>
+                                <a href="specialister" class="button compact text is-hidden-mobile">
+                                    <span class="l10n">Se alla våra specialister</span>
+                                    <?php icon('navigate-next') ?>
+                                </a>
+                            </div>
+                            <?php
+                            $specialists = array(
+                                new Specialist(
+                                    name: 'Cazzandra Lindberg',
+                                    title: 'Hudterapeut sedan 2015',
+                                    image: 'images/specialists/large/hudterapeut-cazzandra.webp',
+                                    image_alt: 'Cazzandra Lindberg',
+                                    image_title: 'Cazzandra Lindberg'
+                                ),
+                                new Specialist(
+                                    name: 'Veronika Benedik',
+                                    title: 'Hudterapeut sedan 1999',
+                                    image: 'images/specialists/large/hudterapeut-veronika.webp',
+                                    image_alt: 'Veronika Benedik',
+                                    image_title: 'Veronika Benedik'
+                                ),
+                                new Specialist(
+                                    name: 'Julia Eklund',
+                                    title: 'Hudterapeut sedan 2017',
+                                    image: 'images/specialists/large/hudterapeut-julia.webp',
+                                    image_alt: 'Julia Eklund',
+                                    image_title: 'Julia Eklund',
+                                ),
+                                new Specialist(
+                                    name: 'Vilma Libom',
+                                    title: 'Hudterapeut sedan 2019',
+                                    image: 'images/specialists/large/hudterapeut-vilma.webp',
+                                    image_alt: 'Vilma Libom',
+                                    image_title: 'Vilma Libom'
+                                )
+                            );
+                            include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
+                            ?>
+                            <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialists" title="Se alla våra specialister">Se alla våra specialister</a>
                         </div>
-                  </section>
-                  <section id="specialists" class="large-margin">
+                    </section>
+                    <section id="brands">
                         <div class="container">
-                              <div class="flex-row align-end justify-space-between">
-                                    <h2 class="big l10n">Our specialists</h2>
-                                    <a href="specialister" class="button compact text is-hidden-mobile">
-                                          <span class="l10n">View all specialists</span>
-                                          <?php icon('navigate-next') ?>
-                                    </a>
-                              </div>
-                              <?php
-                              $specialists = array(
-                                    new Specialist(
-                                          name: 'Cazzandra Lindberg',
-                                          title: 'Hudterapeut sedan 2015',
-                                          image: 'images/specialists/large/hudterapeut-cazzandra.webp',
-                                          image_alt: 'Cazzandra Lindberg',
-                                          image_title: 'Cazzandra Lindberg',
-                                    ),
-                                    new Specialist(
-                                          name: 'Veronika Benedik',
-                                          title: 'Hudterapeut sedan 1999',
-                                          image: 'images/specialists/large/hudterapeut-veronika.webp',
-                                          image_alt: 'Veronika Benedik',
-                                          image_title: 'Veronika Benedik',
-                                    ),
-                                    new Specialist(
-                                          name: 'Amira Maqboul',
-                                          title: 'Hudterapeut sedan 2017',
-                                          image: 'images/specialists/large/hudterapeut-amira.webp',
-                                          image_alt: 'Amira Maqboul',
-                                          image_title: 'Amira Maqboul',
-                                    ),
-                                    new Specialist(
-                                          name: 'Vilma Libom',
-                                          title: 'Hudterapeut sedan 2019',
-                                          image: 'images/specialists/large/hudterapeut-vilma.webp',
-                                          image_alt: 'Vilma Libom',
-                                          image_title: 'Vilma Libom',
-                                    )
-                              );
-                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
-                              ?>
-                              <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialists" title="View all specialists">View all specialists</a>
+                            <div class="flex-row align-end justify-space-between">
+                                <h2 class="big l10n">Varumärken</h2>
+                                <a href="varumarken" class="button compact text is-hidden-mobile">
+                                    <span class="l10n">Se alla varumärken</span>
+                                    <?php icon('navigate-next') ?>
+                                </a>
+                            </div>
+                            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
+                            <a class="mt-xl button outline expand is-hidden-tablet l10n" href="varumarken" title="Se alla varumärken">Se alla varumärken</a>
                         </div>
-                  </section>
+                    </section>
             </div>
       </main>
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
