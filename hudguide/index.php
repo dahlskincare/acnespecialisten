@@ -20,7 +20,7 @@ $categories = array(
         name: 'Routine',
     ),
     
-    /*new SkinGuideCategory(
+    new SkinGuideCategory(
         url: 'hudguide/accessories',
         name: 'Accessories',
     ),
@@ -67,10 +67,10 @@ $categories = array(
     new SkinGuideCategory(
         url: 'hudguide/varumarken',
         name: 'Varumärken',
-    ),*/
+    ),
 );
 
-/*$subcategories = array(
+$subcategories = array(
     new SkinGuideSubCategory(
         id: 'dry-skin',
         url: 'hudguide/skin-problems/dry-skin',
@@ -116,7 +116,7 @@ $categories = array(
         url: 'hudguide/skin-problems/dry-skin',
         name: 'Subtopic 8',
     ),
-);*/
+);
 
 $articles_per_page = array(
     1 => array(
@@ -201,7 +201,7 @@ $pages = sizeof($articles_per_page);
                 description: 'Välkommen till AcneSpecialistens Hudguide – din omfattande resurs för allt inom hudvård. I denna guide samlar vi över 30 års expertis och erfarenhet för att ge dig den mest aktuella och praktiska informationen om hudvård, behandlingar och hudhälsa.',
                 description_extended: 'Här hittar du artiklar om en mängd hudvårdsämnen, från grundläggande hudvårdstips till avancerad information om specifika hudtillstånd som acne, rosacea, och mycket mer. Vårt mål är att tillhandahålla pålitlig, vetenskapligt underbyggd information som hjälper dig att förstå din hud bättre och ta hand om den på bästa möjliga sätt.',
                 button_url: 'gratis-hudkonsultation',
-                button_label: 'Gör en gratis konsultation'
+                button_label: 'Boka en gratis hudkonsultation'
             );
             include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/green_header_banner.php');
             ?>
