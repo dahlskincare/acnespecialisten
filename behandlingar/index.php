@@ -841,9 +841,7 @@ $service_categories = array(
             <div class="container">
                 <div id="treatments">
                     <?php foreach ($treatments as $treatment) { ?>
-                        <div class="treatment">
-                            <a class="b200" href="<?php echo $treatment->url ?>" title="<?php echo $treatment->url_title ?>"><?php echo $treatment->label ?></a>
-                        </div>
+                        <a class="treatment b200" href="<?php echo $treatment->url ?>" title="<?php echo $treatment->url_title ?>"><?php echo $treatment->label ?></a>
                     <?php } ?>
                 </div>
             </div>

@@ -16,7 +16,7 @@ section#banner {
         overflow: hidden;
         box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.06);
 
-        div.treatment {
+        .treatment {
             text-align: center;
             border: 1px solid $light-200;
             height: 72px;
@@ -27,7 +27,7 @@ section#banner {
             justify-content: center;
         }
 
-        div.treatment:nth-child(6n) {
+        .treatment:nth-child(6n) {
             border-right: 0;
         }
     }
