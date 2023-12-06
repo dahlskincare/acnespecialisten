@@ -485,61 +485,7 @@
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
                         <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" title="FAQ" href="faq">Se fler frågor & svar</a>
                   </section>
-                  <section id="skin-guide">
-                        <div class="flex-row align-end justify-space-between">
-                              <div class="h500 l10n">Hudguide</div>
-                              <a href="skin-guide" title="Hudguide" class="button compact text is-hidden-mobile">
-                                    <span class="l10n">Se fler guider</span>
-                                    <?php icon('navigate-next') ?>
-                              </a>
-                        </div>
-                        <?php
-                        $skin_guide_articles = array(
-                              new SkinGuideArticle(
-                                    url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
-                                    url_title: 'How hormones effect?',
-                                    title: 'How hormones effect?',
-                                    problem: 'Acne',
-                                    image_small: 'https://via.placeholder.com/426x324.webp',
-                                    image_large: 'https://via.placeholder.com/872x456.jpg',
-                                    image_alt: 'Hormones effect',
-                                    image_title: 'Hormones effect',
-                              ),
-                              new SkinGuideArticle(
-                                    url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
-                                    url_title: 'How hormones effect?',
-                                    title: 'How hormones effect?',
-                                    problem: 'Acne',
-                                    image_small: 'https://via.placeholder.com/426x324.webp',
-                                    image_large: 'https://via.placeholder.com/872x456.jpg',
-                                    image_alt: 'Hormones effect',
-                                    image_title: 'Hormones effect',
-                              ),
-                              new SkinGuideArticle(
-                                    url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
-                                    url_title: 'How hormones effect?',
-                                    title: 'How hormones effect?',
-                                    problem: 'Acne',
-                                    image_small: 'https://via.placeholder.com/426x324.webp',
-                                    image_large: 'https://via.placeholder.com/872x456.jpg',
-                                    image_alt: 'Hormones effect',
-                                    image_title: 'Hormones effect',
-                              ),
-                              new SkinGuideArticle(
-                                    url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
-                                    url_title: 'How hormones effect?',
-                                    title: 'How hormones effect?',
-                                    problem: 'Acne',
-                                    image_small: 'https://via.placeholder.com/426x324.webp',
-                                    image_large: 'https://via.placeholder.com/872x456.jpg',
-                                    image_alt: 'Hormones effect',
-                                    image_title: 'Hormones effect',
-                              ),
-                        );
-                        include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php');
-                        ?>
-                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" title="Hudguide" href="skin-guide">Se fler guider</a>
-                  </section>
+                  <!--Hudguide-->
                   <section id="about-us">
                         <div id="about-text-wrapper">
                               <div id="about-text">

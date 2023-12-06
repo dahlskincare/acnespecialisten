@@ -297,17 +297,6 @@
                         <div id="footer-salon-cards-large">
                             <div class="salon-card">
                                 <div class="flex-row">
-                                    <img src="images/salons/profile-sundbyberg.jpg" alt="Sundbyberg" title="Sundbyberg" width="72" height="72">
-                                    <div>
-                                        <h2>Sundbyberg</h2>
-                                        <p class="p200">Sturegatan 32, 172 31 Sundbyberg</p>
-                                        <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-sundbyberg-19300" target="_blank" rel="nofollow" class="button b200 compact text l10n" title="Boka tid">Boka tid</a>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="salon-card">
-                                <div class="flex-row">
                                     <img src="images/salons/profile-ostermalm.jpg" alt="Östermalm" title="Östermalm" width=" 72" height="72">
                                     <div>
                                         <h2>Östermalm</h2>
@@ -325,6 +314,17 @@
                                         <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-s%C3%B6dermalm-19301" target="_blank" rel="nofollow" class="button b200 compact text l10n" title="Boka tid">Boka tid</a>
                                     </div>
                                 </div>
+                            </div>
+                            <div class="salon-card">
+                                <div class="flex-row">
+                                    <img src="images/salons/profile-sundbyberg.jpg" alt="Sundbyberg" title="Sundbyberg" width="72" height="72">
+                                    <div>
+                                        <h2>Sundbyberg</h2>
+                                        <p class="p200">Sturegatan 32, 172 31 Sundbyberg</p>
+                                        <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-sundbyberg-19300" target="_blank" rel="nofollow" class="button b200 compact text l10n" title="Boka tid">Boka tid</a>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
