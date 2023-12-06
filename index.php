@@ -192,7 +192,7 @@
                                     number: '01',
                                     title: 'Identifiera',
                                     content: 'Vi erbjuder alltid gratis konsultation, där du får en personlig hudterapeut och en individuell behandlingsplan baserad på din hudanalys. Förebilder tas för att jämföra resultat före och efter behandling.',
-                                    button_label: 'Få en gratis konsultation',
+                                    button_label: 'Boka gratis hudkonsultation',
                                     button_url: 'gratis-hudkonsultation'
                               ),
                               new ApproachCard(
@@ -427,50 +427,50 @@
                         </div>
                         <?php $faq_categories = array(
                               'Behandlingar' => array(
-                                    new Question(
-                                          title: 'Vilka typer av behandlingar erbjuder Acnespecialisten för olika hudproblem?',
-                                          text: 'Acnespecialisten erbjuder en rad olika behandlingar för hudproblem, inklusive acnebehandling, rosaceabehandling och portömning.'
-                                    ),
-                                    new Question(
-                                          title: 'Hur lång tid tar en behandling hos Acnespecialisten?',
-                                          text: 'En behandling hos AcneSpecialisten tar vanligtvis cirka 60 - 90 minuter.'
-                                    ),
-                                    new Question(
-                                          title: 'Hur många behandlingar behövs för att se resultat?',
-                                          text: 'Antalet behandlingar som behövs för att se resultat varierar beroende på ditt specifika hudproblem och din hudtyp. Genomsnittligt antal behandlingar är mellan 2-4 stycken.'
-                                    ),
-                                    new Question(
-                                          title: 'Är behandlingarna smärtsamma?',
-                                          text: 'Behandlingarna hos AcneSpecialisten är utformade för att minimera obehag. När vi behandlar inflammerade områden och utför extraktioner kan det dock uppstå en tillfällig smärta. Denna känsla är dock övergående och försvinner snabbt, så du kan känna dig trygg under behandlingen.'
-                                    ),
-                                    new Question(
-                                          title: 'Kan alla hudtyper behandlas hos AcneSpecialisten?',
-                                          text: 'Ja, AcneSpecialisten erbjuder behandlingar som passar alla hudtyper.'
-                                    ),
+                                  new Question(
+                                      title: 'Vilka behandlingar erbjuder AcneSpecialisten för olika hudproblem?',
+                                      text: 'På AcneSpecialisten erbjuder vi ett brett utbud av behandlingar anpassade för specifika hudproblem, inklusive avancerad acnebehandling, skonsam rosaceabehandling och noggrann portömning, samt andra specialbehandlingar för olika hudtillstånd.'
+                                  ),
+                                  new Question(
+                                      title: 'Vad är den genomsnittliga tidsåtgången för en behandling?',
+                                      text: 'En typisk behandling hos AcneSpecialisten tar mellan 60 och 90 minuter, beroende på behandlingens art och dina individuella hudvårdsbehov.'
+                                  ),
+                                  new Question(
+                                      title: 'Hur många behandlingar rekommenderas för att uppnå synliga resultat?',
+                                      text: 'Antalet rekommenderade behandlingar varierar beroende på individens hudproblem och hudtyp. I genomsnitt ser kunderna betydande förbättringar efter 2-4 behandlingssessioner.'
+                                  ),
+                                  new Question(
+                                      title: 'Är behandlingarna hos AcneSpecialisten smärtsamma?',
+                                      text: 'Vi strävar efter att göra våra behandlingar så bekväma som möjligt. Viss lätt smärta kan upplevas under behandling av inflammerade områden eller vid extraktioner, men denna känsla är övergående och hanteras med största omsorg för din komfort.'
+                                  ),
+                                  new Question(
+                                      title: 'Anpassar ni behandlingarna för olika hudtyper?',
+                                      text: 'Absolut, på AcneSpecialisten anpassar vi våra behandlingar för att passa en mängd olika hudtyper, från mycket känslig till oljig hy, för att säkerställa den mest effektiva och skonsamma behandlingen.'
+                                  ),
                               ),
                               'Konsultationer' => array(
-                                    new Question(
-                                          title: 'Är era konsultationer alltid gratis?',
-                                          text: 'Ja, våra konsultationer är alltid gratis om man kommer på det bokade besöket.'
-                                    ),
+                                  new Question(
+                                      title: 'Är alla konsultationer kostnadsfria på AcneSpecialisten?',
+                                      text: 'Ja, vi erbjuder alltid kostnadsfria konsultationer för våra kunder, förutsatt att de närvarar vid den bokade tiden.'
+                                  ),
                               ),
                               'Produkter' => array(
-                                    new Question(
-                                          title: 'Hur vet jag vilka produkter som passar mig?',
-                                          text: 'Att hitta rätt produkter för just din hy kan vara svår, därför erbjuder vi alltid en kostnadsfri hudkonsultation där vi hjälper dig att hitta rätt produkter för just din hy!'
-                                    ),
+                                  new Question(
+                                      title: 'Hur kan jag hitta de rätta produkterna för min hudtyp?',
+                                      text: 'För att hitta de produkter som passar just din hudtyp bäst, erbjuder vi kostnadsfria hudkonsultationer där våra experter analyserar din hud och rekommenderar produkter anpassade efter dina unika behov och hudtillstånd.'
+                                  ),
                               ),
                               'Skötselråd och rutiner' => array(
-                                    new Question(
-                                          title: 'Vad ska jag tänka på efter en behandling?',
-                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-                                    ),
+                                  new Question(
+                                      title: 'Vilka eftervårdstips bör jag följa efter en behandling?',
+                                      text: 'Efter en behandling rekommenderar vi specifika eftervårdstips för att maximera behandlingens effektivitet och stödja din huds läkningsprocess. Detta kan inkludera råd om fuktgivande, solskydd och hur du undviker vissa produkter eller aktiviteter under en viss tid.'
+                                  ),
                               ),
                               'Priser och betalning' => array(
-                                    new Question(
-                                          title: 'Var hittar jag era priser?',
-                                          text: 'Under varje behandling hittar du behandlingens pris.'
-                                    ),
+                                  new Question(
+                                      title: 'Hur kan jag ta reda på priserna för era behandlingar?',
+                                      text: 'Våra behandlingspriser finns listade på vår hemsida. För varje specifik behandling hittar du detaljerad prisinformation som hjälper dig att planera ditt besök.'
+                                  ),
                               ),
                         );
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
