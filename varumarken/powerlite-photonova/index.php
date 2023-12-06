@@ -457,21 +457,31 @@ $results = array(
 $reviews_title = 'Omdömen';
 $reviews = array(
     new Review(
-        stars: 5,
         brand: 'Trustpilot',
-        logo_url: 'images/brands/trustpilot.svg',
-        title: 'Got rid of my pigment spots on',
-        text: "Got rid of my pigment spots on my face completely after two treatments. I received treatment from Amira who is warm, pleasant, caring and very professional. I am very pleased for the fine job you have done. I did't think",
-        signature: 'Emily'
-    ),
-    new Review(
+        title: 'Supernöjd',
+        text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
+        signature: 'Sofia',
         stars: 5,
-        brand: 'Trustpilot',
-        logo_url: 'images/brands/trustpilot.svg',
-        title: 'Got rid of my pigment spots on',
-        text: "Got rid of my pigment spots on my face completely after two treatments. I received treatment from Amira who is warm, pleasant, caring and very professional. I am very pleased for the fine job you have done. I did't think",
-        signature: 'Emily'
-    )
+        logo_url: 'images/brands/trustpilot.svg'
+
+      ),
+      new Review(
+        brand: 'Google',
+        title: 'Jag är mycket nöjd..',
+        text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och aknen är betydligt mildare",
+        signature: 'Lovisa',
+        stars: 5,
+        logo_url: 'images/brands/google-small.svg'
+
+      ),
+      new Review(
+        brand: 'Bokadirekt',
+        title: 'Rekommenderar varmt!',
+        text: "Det enda som fungerat mot min akne med synliga resultat. Jättetrevlig och kunnig behandlare!",
+        signature: 'Emily',
+        stars: 5,
+        logo_url: 'images/brands/bokadirekt-small.svg'
+      ),
 );
 $reviews_view_more = 'Se alla omdömen';
 

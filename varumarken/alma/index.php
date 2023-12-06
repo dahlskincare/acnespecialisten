@@ -124,45 +124,31 @@ $results = array(
 );
 $reviews = array(
     new Review(
-        stars: 5,
         brand: 'Trustpilot',
-        logo_url: 'images/brands/trustpilot.svg',
         title: 'Supernöjd',
         text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
-        signature: 'Sofia'
-    ),
-    new Review(
+        signature: 'Sofia',
         stars: 5,
+        logo_url: 'images/brands/trustpilot.svg'
+
+      ),
+      new Review(
         brand: 'Google',
-        logo_url: 'images/brands/trustpilot.svg',
-        title: 'Rekommenderar varmt Acne Specialisten',
-        text: "Trevlig och proffsig personal. Personalen har ett trevligt bemötande och är kunniga inom sitt område. Trevliga, fräscha lokaler.",
-        signature: 'Gabriela'
-    ),
-    new Review(
+        title: 'Jag är mycket nöjd..',
+        text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och aknen är betydligt mildare",
+        signature: 'Lovisa',
         stars: 5,
-        brand: 'Trustpilot',
-        logo_url: 'images/brands/trustpilot.svg',
-        title: 'Underbar service och väldigt…Stort tack att ni finns',
-        text: "nderbar service och väldigt professionell hudterapeut Julia. Acne specialister håller högsta standarden och alltid ta hand om sina kunder och bryr sig om kunders upplevelse efter behandlingen. Stort tack att ni finns",
-        signature: 'Emily'
-    ),
-    new Review(
+        logo_url: 'images/brands/google-small.svg'
+
+      ),
+      new Review(
+        brand: 'Bokadirekt',
+        title: 'Rekommenderar varmt!',
+        text: "Det enda som fungerat mot min akne med synliga resultat. Jättetrevlig och kunnig behandlare!",
+        signature: 'Emily',
         stars: 5,
-        brand: 'Google',
-        logo_url: 'images/brands/trustpilot.svg',
-        title: 'Nöjd',
-        text: "Ett första besök som absolut kommer leda till ett till. Bra och tydlig information om vad som skulle vara bäst för min hy.",
-        signature: 'Emily'
-    ),
-    new Review(
-        stars: 5,
-        brand: 'Trustpilot',
-        logo_url: 'images/brands/trustpilot.svg',
-        title: 'Kunniga och bra!',
-        text: "Mina tonårsdöttrar har båda gått till acnespecialisten under flera år med både mindre och större problemområden. Vi har alltid fått professionell och kunnig behandling, bra produkter och bra råd, som också hjälper fint!",
-        signature: 'Emily'
-    ),
+        logo_url: 'images/brands/bokadirekt-small.svg'
+      ),
 );
 $faq_categories = array(
     'Generellt om akne' => array(
