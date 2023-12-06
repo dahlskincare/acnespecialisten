@@ -12,6 +12,15 @@ $consultation_url = 'gratis-hudkonsultation';
 
 $categories = array(
     new SkinGuideCategory(
+        url: 'hudguide/problemhy',
+        name: 'Problemhy',
+    ),
+    new SkinGuideCategory(
+        url: 'hudguide/routine',
+        name: 'Routine',
+    ),
+    
+    /*new SkinGuideCategory(
         url: 'hudguide/accessories',
         name: 'Accessories',
     ),
@@ -22,10 +31,6 @@ $categories = array(
     new SkinGuideCategory(
         url: 'hudguide/areas',
         name: 'Areas',
-    ),
-    new SkinGuideCategory(
-        url: 'hudguide/brands',
-        name: 'Brands',
     ),
     new SkinGuideCategory(
         url: 'hudguide/gender',
@@ -44,8 +49,8 @@ $categories = array(
         name: 'Routine',
     ),
     new SkinGuideCategory(
-        url: 'hudguide/skin-conditions',
-        name: 'Skin conditions',
+        url: 'hudguide/problemhy',
+        name: 'Problemhy',
     ),
     new SkinGuideCategory(
         url: 'hudguide/skin-problems',
@@ -59,9 +64,13 @@ $categories = array(
         url: 'hudguide/tools',
         name: 'Tools',
     ),
+    new SkinGuideCategory(
+        url: 'hudguide/varumarken',
+        name: 'Varumärken',
+    ),*/
 );
 
-$subcategories = array(
+/*$subcategories = array(
     new SkinGuideSubCategory(
         id: 'dry-skin',
         url: 'hudguide/skin-problems/dry-skin',
@@ -107,7 +116,7 @@ $subcategories = array(
         url: 'hudguide/skin-problems/dry-skin',
         name: 'Subtopic 8',
     ),
-);
+);*/
 
 $articles_per_page = array(
     1 => array(
@@ -160,8 +169,8 @@ $articles_per_page = array(
             image_large: 'https://via.placeholder.com/872x456.jpg',
             image_alt: 'Hormones effect',
             image_title: 'Hormones effect',
-        )
-    )
+        ),
+    ),
 );
 
 $pages = sizeof($articles_per_page);
@@ -172,10 +181,11 @@ $pages = sizeof($articles_per_page);
 
 <head>
     <!-- TODO: Set title and meta tags -->
-    <title class="l10n">Acnespecialisten | Hudguiden</title>
-    <meta name="description" content="" class="l10n">
-    <meta name="title" content="" class="l10n">
-    <meta name="keywords" content="" class="l10n">
+    <title>AcneSpecialisten Hudguide | Din Resurs för Allt inom Hudvård</title>
+    <meta name="description" content="Upptäck AcneSpecialistens Hudguide – din ultimata källa för information om hudvård. Med över 30 års erfarenhet erbjuder vi djupgående artiklar, tips och råd om acnebehandling, hudvårdstrender och mycket mer. Utforska vår kunskapsbank idag och ta kontroll över din hudhälsa.">
+    <meta name="keywords" content="Hudvårdsguide, Hudvårdstips, AcneSpecialisten, Hudvårdsartiklar, Hudproblem, Acnebehandling, Hudvårdstrender, Hudhälsa, Hudvårdsråd, Stockholm hudvård, Hudvårdsexpertis">
+
+
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
     <link rel="stylesheet" href="/hudguide/skin-guide.css">
@@ -187,9 +197,9 @@ $pages = sizeof($articles_per_page);
         <section id="banner">
             <?php
             $green_banner_content = new GreenBannerContent(
-                title: 'Skin guide',
-                description: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified In a personal meeting with a skin specialist, your skinonal...',
-                description_extended: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified In a personal meeting with a skin specialist, your skinonal...',
+                title: 'Hudguide',
+                description: 'Välkommen till AcneSpecialistens Hudguide – din omfattande resurs för allt inom hudvård. I denna guide samlar vi över 30 års expertis och erfarenhet för att ge dig den mest aktuella och praktiska informationen om hudvård, behandlingar och hudhälsa.',
+                description_extended: 'Här hittar du artiklar om en mängd hudvårdsämnen, från grundläggande hudvårdstips till avancerad information om specifika hudtillstånd som acne, rosacea, och mycket mer. Vårt mål är att tillhandahålla pålitlig, vetenskapligt underbyggd information som hjälper dig att förstå din hud bättre och ta hand om den på bästa möjliga sätt.',
                 button_url: 'gratis-hudkonsultation',
                 button_label: 'Gör en gratis konsultation'
             );
@@ -258,13 +268,13 @@ $pages = sizeof($articles_per_page);
             <section id="paginator">
                 <?php include('widgets/paginator/paginator.php'); ?>
             </section>
-            <section id="cta-banner" class="large-margin">
+            <section id="cta" class="large-margin">
                 <div id="cta-banner-texts">
-                    <div class="l10n" id="cta-banner-header">Want to identify your problem?</div>
-                    <div class="p200 l10n" id="cta-banner-content">In a personal meeting with a skin specialist, your skin type is examined and identified.</div>
+                    <div class="l10n" id="cta-banner-header">Vill du ha hjälp med din hy?</div>
+                    <div class="p200 l10n" id="cta-banner-content">Boka en gratis hudkonsultation hos en av våra erfarna hudterapeuter.</div>
                 </div>
                 <div>
-                    <a href="<?php echo $consultation_url ?>" class="button white expand l10n" title="Get a free consultation">Get a free consultation</a>
+                    <a href="<?php echo $consultation_url ?>" class="button white expand l10n" title="Boka en gratis hudkonsultation">Boka en gratis hudkonsultation</a>
                 </div>
             </section>
             <section id="results" class="large-margin">
