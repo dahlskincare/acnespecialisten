@@ -4,10 +4,10 @@
 
 <head>
       <!-- TODO: Set title and meta tags -->
-      <title class="l10n">AcneSpecialisten | Erfarna Hudspecialister inom Hudvård i Stockholm</title>
-      <meta name="description" content="Med över 25 års erfarenhet, erbjuder AcneSpecialisten expertis inom behandling av acne och hudproblem i Stockholm. Boka en kostnadsfri konsultation idag och upplev skillnaden med personligt anpassad hudvård." class="l10n">
-      <meta name="title" content="Acnespecialisten" class="l10n">
-      <meta name="keywords" content="Hudspecialist, Hudspecialist stockholm, Hudvård Stockholm, Acnespecialisten, Hudvårdsexpert, Acnebehandling, Hudproblem, AcneSpecialisten, Personlig hudvård, Hudvårdsklinik Stockholm, Acne konsultation" class="l10n">
+      <title>AcneSpecialisten | Erfarna Hudspecialister inom Hudvård i Stockholm</title>
+      <meta name="description" content="Med över 25 års erfarenhet, erbjuder AcneSpecialisten expertis inom behandling av acne och hudproblem i Stockholm. Boka en kostnadsfri konsultation idag och upplev skillnaden med personligt anpassad hudvård.">
+      <meta name="keywords" content="Hudspecialist, Hudspecialist stockholm, Hudvård Stockholm, Acnespecialisten, Hudvårdsexpert, Acnebehandling, Hudproblem, AcneSpecialisten, Personlig hudvård, Hudvårdsklinik Stockholm, Acne konsultation">
+
       <meta property="og:title" content="Acnespecialisten" />
       <meta property="og:description" content="Acnespecialisten is the best etc.." class="l10n" />
       <meta property="og:image" content="images/about-desktop.jpg" />
