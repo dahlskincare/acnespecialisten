@@ -393,7 +393,7 @@ $brand_cards = array(
                             <div class="flex-row align-end justify-space-between">
                                 <h2 class="big l10n">Våra specialister</h2>
                                 <a href="specialister" class="button compact text is-hidden-mobile">
-                                    <span class="l10n">Se alla våra specialister</span>
+                                    <span class="l10n">Se alla specialister</span>
                                     <?php icon('navigate-next') ?>
                                 </a>
                             </div>
@@ -430,7 +430,7 @@ $brand_cards = array(
                             );
                             include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
                             ?>
-                            <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialists" title="Se alla våra specialister">Se alla våra specialister</a>
+                            <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialists" title="Se alla specialister">Se alla specialister</a>
                         </div>
                     </section>
                     <section id="brands">
