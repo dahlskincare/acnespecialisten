@@ -4,10 +4,10 @@
 
 <head>
       <!-- TODO: Set title and meta tags -->
-      <title class="l10n">AcneSpecialisten | Experten på Behandling av Problemhy</title>
-      <meta name="description" content="AcneSpecialisten erbjuder skräddarsydda lösningar för alla typer av acne och problemhud. Upptäck våra behandlingar och produkter anpassade för just dina behov." class="l10n">
-      <meta name="title" content="AcneSpecialisten - Din Partner i Kampen mot Acne" class="l10n">
-      <meta name="keywords" content="Acne, Hudvård, Problemhud, Hudbehandlingar, Acnebehandling, Hudspecialist, Akneärr, Finnar, Pormaskar, Hudvårdsprodukter" class="l10n">
+      <title class="l10n">AcneSpecialisten | Erfarna Hudspecialister inom Hudvård i Stockholm</title>
+      <meta name="description" content="Med över 25 års erfarenhet, erbjuder AcneSpecialisten expertis inom behandling av acne och hudproblem i Stockholm. Boka en kostnadsfri konsultation idag och upplev skillnaden med personligt anpassad hudvård." class="l10n">
+      <meta name="title" content="Acnespecialisten" class="l10n">
+      <meta name="keywords" content="Hudspecialist, Hudspecialist stockholm, Hudvård Stockholm, Acnespecialisten, Hudvårdsexpert, Acnebehandling, Hudproblem, AcneSpecialisten, Personlig hudvård, Hudvårdsklinik Stockholm, Acne konsultation" class="l10n">
       <meta property="og:title" content="Acnespecialisten" />
       <meta property="og:description" content="Acnespecialisten is the best etc.." class="l10n" />
       <meta property="og:image" content="images/about-desktop.jpg" />
@@ -433,7 +433,7 @@
                                     ),
                                     new Question(
                                           title: 'Hur lång tid tar en behandling hos Acnespecialisten?',
-                                          text: 'En behandling hos Acnespecialisten tar vanligtvis cirka 60 - 90 minuter.'
+                                          text: 'En behandling hos AcneSpecialisten tar vanligtvis cirka 60 - 90 minuter.'
                                     ),
                                     new Question(
                                           title: 'Hur många behandlingar behövs för att se resultat?',
@@ -441,99 +441,35 @@
                                     ),
                                     new Question(
                                           title: 'Är behandlingarna smärtsamma?',
-                                          text: 'Behandlingarna hos Acnespecialisten är utformade för att minimera obehag. När vi behandlar inflammerade områden och utför extraktioner kan det dock uppstå en tillfällig smärta. Denna känsla är dock övergående och försvinner snabbt, så du kan känna dig trygg under behandlingen.'
+                                          text: 'Behandlingarna hos AcneSpecialisten är utformade för att minimera obehag. När vi behandlar inflammerade områden och utför extraktioner kan det dock uppstå en tillfällig smärta. Denna känsla är dock övergående och försvinner snabbt, så du kan känna dig trygg under behandlingen.'
                                     ),
                                     new Question(
-                                          title: 'Kan alla hudtyper behandlas hos Acnespecialisten?',
-                                          text: 'Ja, Acnespecialisten erbjuder behandlingar som passar alla hudtyper.'
+                                          title: 'Kan alla hudtyper behandlas hos AcneSpecialisten?',
+                                          text: 'Ja, AcneSpecialisten erbjuder behandlingar som passar alla hudtyper.'
                                     ),
                               ),
                               'Konsultationer' => array(
                                     new Question(
-                                          title: 'Hur bokar jag en konsultation hos Acnespecialisten?',
-                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-                                    ),
-                                    new Question(
-                                          title: 'Vad kan jag förvänta mig under en konsultation?',
-                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-                                    ),
-                                    new Question(
-                                          title: 'Är konsultationen gratis?',
-                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-                                    ),
-                                    new Question(
-                                          title: 'Hur lång tid tar en konsultation?',
-                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-                                    ),
-                                    new Question(
-                                          title: 'Kan jag boka en konsultation online?',
-                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                                          title: 'Är era konsultationer alltid gratis?',
+                                          text: 'Ja, våra konsultationer är alltid gratis om man kommer på det bokade besöket.'
                                     ),
                               ),
                               'Produkter' => array(
                                     new Question(
-                                          title: 'Hur bokar jag en konsultation hos Acnespecialisten?',
-                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-                                    ),
-                                    new Question(
-                                          title: 'Vad kan jag förvänta mig under en konsultation?',
-                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-                                    ),
-                                    new Question(
-                                          title: 'Är konsultationen gratis?',
-                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-                                    ),
-                                    new Question(
-                                          title: 'Hur lång tid tar en konsultation?',
-                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-                                    ),
-                                    new Question(
-                                          title: 'Kan jag boka en konsultation online?',
-                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                                          title: 'Hur vet jag vilka produkter som passar mig?',
+                                          text: 'Att hitta rätt produkter för just din hy kan vara svår, därför erbjuder vi alltid en kostnadsfri hudkonsultation där vi hjälper dig att hitta rätt produkter för just din hy!'
                                     ),
                               ),
                               'Skötselråd och rutiner' => array(
                                     new Question(
-                                          title: 'Hur bokar jag en konsultation hos Acnespecialisten?',
-                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-                                    ),
-                                    new Question(
-                                          title: 'Vad kan jag förvänta mig under en konsultation?',
-                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-                                    ),
-                                    new Question(
-                                          title: 'Är konsultationen gratis?',
-                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-                                    ),
-                                    new Question(
-                                          title: 'Hur lång tid tar en konsultation?',
-                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-                                    ),
-                                    new Question(
-                                          title: 'Kan jag boka en konsultation online?',
+                                          title: 'Vad ska jag tänka på efter en behandling?',
                                           text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
                                     ),
                               ),
                               'Priser och betalning' => array(
                                     new Question(
-                                          title: 'Hur bokar jag en konsultation hos Acnespecialisten?',
-                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-                                    ),
-                                    new Question(
-                                          title: 'Vad kan jag förvänta mig under en konsultation?',
-                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-                                    ),
-                                    new Question(
-                                          title: 'Är konsultationen gratis?',
-                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-                                    ),
-                                    new Question(
-                                          title: 'Hur lång tid tar en konsultation?',
-                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-                                    ),
-                                    new Question(
-                                          title: 'Kan jag boka en konsultation online?',
-                                          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                                          title: 'Var hittar jag era priser?',
+                                          text: 'Under varje behandling hittar du behandlingens pris.'
                                     ),
                               ),
                         );
