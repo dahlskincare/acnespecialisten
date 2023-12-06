@@ -7,7 +7,7 @@ $specialists = array(
     new Specialist(
         name: 'Cazzandra Lindberg',
         title: 'Hudterapeut sedan 2015',
-        image: 'images/specialists/large/hudterapeut-cazzandra.webp',
+        image: '/images/specialists/large/hudterapeut-cazzandra.webp',
         image_alt: 'Cazzandra Lindberg',
         image_title: 'Cazzandra Lindberg',
         city: 'Stockholm',
@@ -19,7 +19,7 @@ $specialists = array(
     new Specialist(
         name: 'Veronika Benedik',
         title: 'Hudterapeut sedan 1999',
-        image: 'images/specialists/large/hudterapeut-veronika.webp',
+        image: '/images/specialists/large/hudterapeut-veronika.webp',
         image_alt: 'Veronika Benedik',
         image_title: 'Veronika Benedik',
         city: 'Stockholm',
@@ -31,7 +31,7 @@ $specialists = array(
     new Specialist(
         name: 'Amira Maqboul',
         title: 'Hudterapeut sedan 2017',
-        image: 'images/specialists/large/hudterapeut-amira.webp',
+        image: '/images/specialists/large/hudterapeut-amira.webp',
         image_alt: 'Amira Maqboul',
         image_title: 'Amira Maqboul',
         city: 'Stockholm',
@@ -43,7 +43,7 @@ $specialists = array(
     new Specialist(
         name: 'Vilma Libom',
         title: 'Hudterapeut sedan 2019',
-        image: 'images/specialists/large/hudterapeut-vilma.webp',
+        image: '/images/specialists/large/hudterapeut-vilma.webp',
         image_alt: 'Vilma Libom',
         image_title: 'Vilma Libom',
         city: 'Stockholm',
@@ -59,10 +59,10 @@ $specialists = array(
 
 <head>
     <!-- TODO: Set title and meta tags -->
-    <title class="l10n">Möt Våra Expert-Hudterapeuter | AcneSpecialisten</title>
-    <meta name="description" content="På AcneSpecialisten har vi ett team av dedikerade och erfarna hudterapeuter, redo att erbjuda dig personlig och expertbaserad hudvård." class="l10n">
-    <meta name="title" content="Experter på Hudvård | AcneSpecialistens Hudterapeuter" class="l10n">
-    <meta name="keywords" content="Hudterapeuter, Expertbaserad hudvård, AcneSpecialisten, Personlig hudvård, Hudvårdspecialister" class="l10n">
+    <title>Möt Våra Hudexperter | AcneSpecialisten i Stockholm</title>
+    <meta name="description" content="Träffa vårt team av professionella hudterapeuter på AcneSpecialisten. Med gedigen erfarenhet inom estetisk hudvård, erbjuder våra specialister personligt anpassade lösningar för alla hudtyper och behov.">
+    <meta name="keywords" content="Hudterapeuter, Hudspecialister, Estetisk hudvård, Hudvårdsexperter, AcneSpecialisten Team, Hudvård Stockholm, Professionell hudvård, Skräddarsydd hudvård, Hudproblem lösningar, Hudvårdsklinik Stockholm">
+
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
     <link rel="stylesheet" href="/specialister/specialists.css">
