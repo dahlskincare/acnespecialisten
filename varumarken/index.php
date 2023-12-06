@@ -170,7 +170,8 @@ $link_brands = array(
       new BrandCategory(
             label: 'Microneedling',
             services: array(
-                  "varumarken/dermapen" => "Dermapen"
+                  "varumarken/dermapen" => "Dermapen",
+                  "varumarken/exceed" => "Exceed"
             )
       ),
 );
