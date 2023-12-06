@@ -889,7 +889,7 @@ $service_categories = array(
                         image_title: 'Veronika Benedik'
                     ),
                     new Specialist(
-                        name: 'Amira Maqboul',
+                        name: 'Julia Eklund',
                         title: 'Hudterapeut sedan 2017',
                         image: 'images/specialists/large/hudterapeut-julia.webp',
                         image_alt: 'Julia Eklund',
