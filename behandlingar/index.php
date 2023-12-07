@@ -192,7 +192,7 @@ $service_categories = array(
             ),
             new Service(
                 url: 'behandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-rosacea',
-                url_label: 'Mor Rosacea',
+                url_label: 'Mot Rosacea',
                 url_title: 'Läs mer om rosaceabehandling',
                 title: 'Rosacea treatment',
                 duration: '50 min',
@@ -283,7 +283,7 @@ $service_categories = array(
         services: array(
             new Service(
                 url: '/varumarken/hydrafacial',
-                url_label: 'Läs mer',
+                url_label: 'HydraFacial',
                 url_title: 'Läs mer om Hydrafacial',
                 title: 'Hydrafacial',
                 duration: '50 min',
@@ -302,7 +302,7 @@ $service_categories = array(
             ),
             new Service(
                 url: '/varumarken/microdermabrasion',
-                url_label: 'Läs mer',
+                url_label: 'Microdermabrasion',
                 url_title: 'Läs mer om Microdermabrasion',
                 title: 'Microdermabrasion',
                 duration: '50 min',
@@ -338,7 +338,7 @@ $service_categories = array(
         services: array(
             new Service(
                 url: '/varumarken/cryopen',
-                url_label: 'Läs mer',
+                url_label: 'CryoPen',
                 url_title: 'Läs mer om cryopen',
                 title: 'Cryopen',
                 duration: '50 min',
@@ -374,7 +374,7 @@ $service_categories = array(
         services: array(
             new Service(
                 url: '/varumarken/fillers',
-                url_label: 'Läs mer',
+                url_label: 'Fillers',
                 url_title: 'Läs mer om fillers',
                 title: 'Fillers',
                 duration: '50 min',
@@ -410,7 +410,7 @@ $service_categories = array(
         services: array(
             new Service(
                 url: 'behandlingar/ipl/ipl-rosacea',
-                url_label: 'Läs mer',
+                url_label: 'Mot Rosacea',
                 url_title: 'Läs mer om IPL Rosacea',
                 title: 'IPL Rosacea',
                 duration: '50 min',
@@ -429,7 +429,7 @@ $service_categories = array(
             ),
             new Service(
                 url: 'behandlingar/ipl/ipl-ytliga-blodkarl',
-                url_label: 'Läs mer',
+                url_label: 'Mot Ytliga Blodkärl',
                 url_title: 'Läs mer om IPL Ytliga Blodkärl',
                 title: 'IPL Ytliga Blodkärl',
                 duration: '50 min',
@@ -448,7 +448,7 @@ $service_categories = array(
             ),
             new Service(
                 url: 'behandlingar/ipl/ipl-pigmentflackar',
-                url_label: 'Läs mer',
+                url_label: 'Mot Pigmentfläckar',
                 url_title: 'Läs mer om IPL Pigmentfläckar',
                 title: 'IPL Pigmentfläckar',
                 duration: '50 min',
@@ -743,7 +743,7 @@ $service_categories = array(
         services: array(
             new Service(
                 url: '/varumarken/infuzion',
-                url_label: 'Läs mer',
+                url_label: 'Infuzion',
                 url_title: 'Läs mer om Infuzion',
                 title: 'Infuzion',
                 duration: '50 min',
@@ -778,23 +778,7 @@ $service_categories = array(
         image_title: 'Gratis Hudkonsultation',
         services: array(
             new Service(
-                url: 'gratis-hudkonsultation',
-                url_label: 'Kostnadsfri',
-                url_title: 'Läs mer om Infuzion',
-                title: 'Infuzion',
-                duration: '50 min',
-                price: '100 kr',
-                content: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...',
-                image_small: 'https://via.placeholder.com/200x200.jpg',
-                image_large: 'https://via.placeholder.com/424x324.jpg',
-                image_alt: 'Infuzion',
-                image_title: 'Infuzion',
-                consultation_url: 'gratis-hudkonsultation',
-                consultation_url_label: 'Boka tid för hudkonsultation',
-                consultation_url_title: 'Boka tid för hudkonsultation',
-                booking_url: 'https://bokadirekt.se',
-                booking_url_label: 'Boka tid för Infuzion',
-                booking_url_title: 'Boka tid för Infuzion',
+                
             ),
         ),
         booking_url: 'treatment-booking?service=skinBooster',
