@@ -15,8 +15,8 @@ $model = new Service(
     price: 'Från 3595 kr',
     content: '<p class="p200">På AcneSpecialisten erbjuder vi avancerade fillersbehandlingar för att elegant förbättra ditt ansiktes naturliga skönhet. Dessa behandlingar är noggrant utformade för att smidigt reducera fina linjer och rynkor samt återge och förbättra ansiktets volym och konturer på ett naturligt sätt. Vårt team av experter inom estetisk hudvård är specialiserade på att skapa harmoniska och balanserade resultat.</p>
     <p class="p200 mt-m">Våra fillersbehandlingar är särskilt lämpade för dig som önskar att framhäva din naturliga skönhet, vare sig det gäller att ge läpparna en fylligare form, definiera kindbenen eller mjuka upp uttryckslinjer. Vi tar oss tid att förstå varje klients unika behov och målsättningar, och varje behandling anpassas för att uppnå individuella önskemål. Oavsett om ditt mål är att föryngra din hud eller skapa en mer definierad ansiktskontur, erbjuder våra fillersbehandlingar en skonsam och effektiv metod för att förhöja ditt utseende.</p>',
-    image_small: 'https://via.placeholder.com/358x274.webp',
-    image_large: 'https://via.placeholder.com/424x456.webp',
+    image_small: 'bilder/behandlingar/358x274/injektionsbehandlingar.webp',
+    image_large: 'bilder/behandlingar/424x456/injektionsbehandlingar.webp',
     image_alt: 'Ansiktsbehandlingar för problemhy',
     image_title: 'Ansiktsbehandlingar för problemhy',
     consultation_url: 'https://bokadirekt.se',

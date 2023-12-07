@@ -16,8 +16,8 @@ $model = new Service(
     price: 'Från 2595 kr',
     content: '<p class="p200">På AcneSpecialisten erbjuder vi specialiserade injektionsbehandlingar för att förbättra hudens utseende och textur. Dessa behandlingar är utformade för att försiktigt minska synliga linjer och rynkor samt återställa hudens volym och konturer. Våra erfarna hudterapeuter arbetar noggrant för att skapa naturliga och estetiskt tilltalande resultat.</p>
     <p class="p200 mt-m">Våra injektionsbehandlingar är idealiska för dig som vill uppnå en mer ungdomlig look eller förbättra specifika områden i ansiktet, såsom kinder, läppar eller panna. Vi tar oss tid att förstå dina specifika behov och önskemål, och erbjuder skräddarsydda behandlingsplaner för att uppnå bästa möjliga resultat. Oavsett om du är ute efter att ge din hy en uppfräschning eller vill hantera specifika åldersrelaterade förändringar, är våra injektionsbehandlingar en effektiv lösning för att förbättra din hudhälsa och ditt utseende.</p>',
-    image_small: 'https://via.placeholder.com/358x274.webp',
-    image_large: 'https://via.placeholder.com/424x456.webp',
+    image_small: 'bilder/behandlingar/358x274/injektionsbehandlingar.webp',
+    image_large: 'bilder/behandlingar/424x456/injektionsbehandlingar.webp',
     image_alt: 'Ansiktsbehandlingar för problemhy',
     image_title: 'Ansiktsbehandlingar för problemhy',
     consultation_url: 'https://bokadirekt.se',
