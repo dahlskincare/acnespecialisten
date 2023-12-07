@@ -60,64 +60,64 @@ $green_banner_content = new GreenBannerContent(
 
 $treatments = array(
     new Treatment(
-        label: 'Ansiktsbehandlingar mot problemhy',
+        label: 'Ansiktsbehandlingar mot Problemhy',
         url: 'behandlingar/ansiktsbehandlingar-problemhy',
         url_title: 'Läs mer om ansiktsbehandlingar mot problemhy'
     ),
     new Treatment(
-        label: 'Klassiska ansiktsbehandlingar',
+        label: 'Klassiska Ansiktsbehandlingar',
         url: 'behandlingar/ansiktsbehandlingar-klassiska',
         url_title: 'TODO'
     ),
     new Treatment(
-        label: 'TODO',
-        url: 'TODO',
-        url_title: 'TODO'
+        label: 'Microdemabrasion',
+        url: 'behandlingar/microdemabrasion',
+        url_title: 'Läs mer om microdemabrasion'
     ),
     new Treatment(
-        label: 'TODO',
-        url: 'TODO',
-        url_title: 'TODO'
+        label: 'Frysbehandling',
+        url: 'behandlingar/frysbehandling',
+        url_title: 'Läs mer om frysbehandling'
     ),
     new Treatment(
-        label: 'TODO',
-        url: 'TODO',
-        url_title: 'TODO'
+        label: 'Injektionsbehandlingar',
+        url: 'behandlingar/injektionsbehandlingar',
+        url_title: 'Läs mer om injektionsbehandlingar'
     ),
     new Treatment(
-        label: 'TODO',
-        url: 'TODO',
-        url_title: 'TODO'
+        label: 'IPL',
+        url: 'behandlingar/ipl',
+        url_title: 'Läs mer om ipl'
     ),
     new Treatment(
-        label: 'TODO',
-        url: 'TODO',
-        url_title: 'TODO'
+        label: 'Kemisk Peeling',
+        url: 'behandlingar/kemisk-peeling',
+        url_title: 'Läs mer om kemisk peeling'
     ),
     new Treatment(
-        label: 'TODO',
-        url: 'TODO',
-        url_title: 'TODO'
+        label: 'Laser mot Problemhy',
+        url: 'behandlingar/laser-mot-problemhy',
+        url_title: 'Läs mer om'
     ),
     new Treatment(
-        label: 'TODO',
-        url: 'TODO',
-        url_title: 'TODO'
+        label: 'Microneedling',
+        url: 'behandlingar/microneedling',
+        url_title: 'Läs mer om microneedling'
     ),
     new Treatment(
-        label: 'TODO',
-        url: 'TODO',
-        url_title: 'TODO'
+        label: 'Permanent Hårborttagning',
+        url: 'behandlingar/permanent-harborttagning',
+        url_title: 'Läs mer om Permanent Hårobrttagning'
     ),
     new Treatment(
-        label: 'TODO',
-        url: 'TODO',
-        url_title: 'TODO'
+        label: 'Skinbooster',
+        url: 'behandlingar/skinbooster',
+        url_title: 'Läs mer om skinbooster'
     ),
     new Treatment(
-        label: 'TODO',
-        url: 'TODO',
-        url_title: 'TODO'
+        label: 'Gratis Hudkonsultation',
+        url: 'gratis-hudkonsultation',
+        url_title: 'Läs mer om gratis hudkonsultation'
     ),
 );
 
