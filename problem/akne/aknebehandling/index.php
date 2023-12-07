@@ -646,7 +646,7 @@ $brands_url_title = "Varumärken för Aknebehandling";
         </div>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
-    <script src="includes/scripts/floating-image.js"></script>
+    <script src="/includes/scripts/floating-image.js"></script>
 </body>
 
 </html>
