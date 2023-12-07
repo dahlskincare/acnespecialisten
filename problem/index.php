@@ -199,7 +199,6 @@ $problems['perioral-dermatit'] = new Problem(
       image_alt: 'Perioral dermatit',
       image_title: 'Perioral dermatit',
       info: 'Detta är ett inflammatoriskt hudtillstånd som påverkar området runt munnen, vilket resulterar i utslag, rodnad och ibland små blåsor eller knölar. Tillståndet kan påverkas av flera faktorer, inklusive hormonella förändringar, hudirriterande ämnen och långvarig användning av topiska steroider.'
-
 );
 $problems['pigmentflackar'] = new Problem(
       label: 'Pigmentfläckar',
@@ -297,59 +296,59 @@ $problems['ytliga-blodkarl'] = new Problem(
 $default_problems = new ProblemArea(
       label: '',
       icon: '',
-      problem_ids: array('akne', 'aknearr', 'rosacea', 'pormaskar', 'stora-porer', 'milier', 'blandhy', 'finnar', 'arr-fran-finnar', 'perioral-dermatit', 'seborre', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar', 'mogen-hy', 'bristningar', 'hudforandringar', 'operations-arr', 'oonskad-harvaxt'),
+      problem_ids: array('akne', 'aknearr', 'arr-fran-finnar', 'bristningar', 'finnar', 'hudforandringar', 'milier', 'mogen-hy', 'oonskad-har', 'operation-skadearr', 'rosacea', 'pormaskar', 'stora-porer', 'blandhy', 'perioral-dermatit', 'seborre', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar',),
 );
 
 $problem_areas = array(
       new ProblemArea(
             label: 'Ansikte',
             icon: 'area-face',
-            problem_ids: array('akne', 'aknearr', 'rosacea', 'pormaskar', 'stora-porer', 'milier', 'blandhy', 'finnar', 'arr-fran-finnar', 'perioral-dermatit', 'seborre', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar', 'mogen-hy', 'bristningar', 'hudforandringar', 'operations-arr', 'oonskad-harvaxt')
+            problem_ids: array('akne', 'aknearr', 'arr-fran-finnar', 'bristningar', 'finnar', 'hudforandringar', 'milier', 'mogen-hy', 'oonskad-har', 'operation-skadearr', 'rosacea', 'pormaskar', 'stora-porer', 'blandhy', 'perioral-dermatit', 'seborre', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar',)
       ),
       new ProblemArea(
             label: 'Kropp',
             icon: 'area-face',
-            problem_ids: array('akne', 'aknearr', 'rosacea', 'pormaskar', 'stora-porer', 'milier', 'blandhy', 'finnar', 'arr-fran-finnar', 'perioral-dermatit', 'seborre', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar', 'mogen-hy', 'bristningar', 'hudforandringar', 'operations-arr', 'oonskad-harvaxt')
+            problem_ids: array('akne', 'aknearr', 'arr-fran-finnar', 'bristningar', 'finnar', 'hudforandringar', 'milier', 'mogen-hy', 'oonskad-har', 'operation-skadearr', 'rosacea', 'pormaskar', 'stora-porer', 'blandhy', 'perioral-dermatit', 'seborre', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar',)
       ),
       new ProblemArea(
             label: 'Rygg',
             icon: 'area-face',
-            problem_ids: array('akne', 'aknearr', 'rosacea', 'pormaskar', 'stora-porer', 'milier', 'blandhy', 'finnar', 'arr-fran-finnar', 'perioral-dermatit', 'seborre', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar', 'mogen-hy', 'bristningar', 'hudforandringar', 'operations-arr', 'oonskad-harvaxt')
+            problem_ids: array('akne', 'aknearr', 'arr-fran-finnar', 'bristningar', 'finnar', 'hudforandringar', 'milier', 'mogen-hy', 'oonskad-har', 'operation-skadearr', 'rosacea', 'pormaskar', 'stora-porer', 'blandhy', 'perioral-dermatit', 'seborre', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar',)
       ),
       new ProblemArea(
             label: 'Bröst',
             icon: 'area-face',
-            problem_ids: array('akne', 'aknearr', 'rosacea', 'pormaskar', 'stora-porer', 'milier', 'blandhy', 'finnar', 'arr-fran-finnar', 'perioral-dermatit', 'seborre', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar', 'mogen-hy', 'bristningar', 'hudforandringar', 'operations-arr', 'oonskad-harvaxt')
+            problem_ids: array('akne', 'aknearr', 'arr-fran-finnar', 'bristningar', 'finnar', 'hudforandringar', 'milier', 'mogen-hy', 'oonskad-har', 'operation-skadearr', 'rosacea', 'pormaskar', 'stora-porer', 'blandhy', 'perioral-dermatit', 'seborre', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar',)
       ),
       new ProblemArea(
             label: 'Runt munnen',
             icon: 'area-face',
-            problem_ids: array('akne', 'aknearr', 'rosacea', 'pormaskar', 'stora-porer', 'milier', 'blandhy', 'finnar', 'arr-fran-finnar', 'perioral-dermatit', 'seborre', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar', 'mogen-hy', 'bristningar', 'hudforandringar', 'operations-arr', 'oonskad-harvaxt')
+            problem_ids: array('akne', 'aknearr', 'arr-fran-finnar', 'bristningar', 'finnar', 'hudforandringar', 'milier', 'mogen-hy', 'oonskad-har', 'operation-skadearr', 'rosacea', 'pormaskar', 'stora-porer', 'blandhy', 'perioral-dermatit', 'seborre', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar',)
       ),
       new ProblemArea(
             label: 'Näsa',
             icon: 'area-face',
-            problem_ids: array('akne', 'aknearr', 'rosacea', 'pormaskar', 'stora-porer', 'milier', 'blandhy', 'finnar', 'arr-fran-finnar', 'perioral-dermatit', 'seborre', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar', 'mogen-hy', 'bristningar', 'hudforandringar', 'operations-arr', 'oonskad-harvaxt')
+            problem_ids: array('akne', 'aknearr', 'arr-fran-finnar', 'bristningar', 'finnar', 'hudforandringar', 'milier', 'mogen-hy', 'oonskad-har', 'operation-skadearr', 'rosacea', 'pormaskar', 'stora-porer', 'blandhy', 'perioral-dermatit', 'seborre', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar',)
       ),
       new ProblemArea(
             label: 'Kinder',
             icon: 'area-face',
-            problem_ids: array('akne', 'aknearr', 'rosacea', 'pormaskar', 'stora-porer', 'milier', 'blandhy', 'finnar', 'arr-fran-finnar', 'perioral-dermatit', 'seborre', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar', 'mogen-hy', 'bristningar', 'hudforandringar', 'operations-arr', 'oonskad-harvaxt')
+            problem_ids: array('akne', 'aknearr', 'arr-fran-finnar', 'bristningar', 'finnar', 'hudforandringar', 'milier', 'mogen-hy', 'oonskad-har', 'operation-skadearr', 'rosacea', 'pormaskar', 'stora-porer', 'blandhy', 'perioral-dermatit', 'seborre', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar',)
       ),
       new ProblemArea(
             label: 'Haka',
             icon: 'area-face',
-            problem_ids: array('akne', 'aknearr', 'rosacea', 'pormaskar', 'stora-porer', 'milier', 'blandhy', 'finnar', 'arr-fran-finnar', 'perioral-dermatit', 'seborre', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar', 'mogen-hy', 'bristningar', 'hudforandringar', 'operations-arr', 'oonskad-harvaxt')
+            problem_ids: array('akne', 'aknearr', 'arr-fran-finnar', 'bristningar', 'finnar', 'hudforandringar', 'milier', 'mogen-hy', 'oonskad-har', 'operation-skadearr', 'rosacea', 'pormaskar', 'stora-porer', 'blandhy', 'perioral-dermatit', 'seborre', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar',)
       ),
       new ProblemArea(
             label: 'Läppar',
             icon: 'area-face',
-            problem_ids: array('akne', 'aknearr', 'rosacea', 'pormaskar', 'stora-porer', 'milier', 'blandhy', 'finnar', 'arr-fran-finnar', 'perioral-dermatit', 'seborre', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar', 'mogen-hy', 'bristningar', 'hudforandringar', 'operations-arr', 'oonskad-harvaxt')
+            problem_ids: array('akne', 'aknearr', 'arr-fran-finnar', 'bristningar', 'finnar', 'hudforandringar', 'milier', 'mogen-hy', 'oonskad-har', 'operation-skadearr', 'rosacea', 'pormaskar', 'stora-porer', 'blandhy', 'perioral-dermatit', 'seborre', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar',)
       ),
       new ProblemArea(
             label: 'Käklinje',
             icon: 'area-face',
-            problem_ids: array('akne', 'aknearr', 'rosacea', 'pormaskar', 'stora-porer', 'milier', 'blandhy', 'finnar', 'arr-fran-finnar', 'perioral-dermatit', 'seborre', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar', 'mogen-hy', 'bristningar', 'hudforandringar', 'operations-arr', 'oonskad-harvaxt')
+            problem_ids: array('akne', 'aknearr', 'arr-fran-finnar', 'bristningar', 'finnar', 'hudforandringar', 'milier', 'mogen-hy', 'oonskad-har', 'operation-skadearr', 'rosacea', 'pormaskar', 'stora-porer', 'blandhy', 'perioral-dermatit', 'seborre', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar',)
       ),
 );
 
