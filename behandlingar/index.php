@@ -731,7 +731,7 @@ $service_categories = array(
         consultation_url_label: 'Boka hudkonsultation',
     ),
     new ServiceCategory(
-        id: 'gratis-hudkonsultation',
+        id: '/gratis-hudkonsultation',
         label: 'Gratis Hudkonsultation',
         content: 'En gratis hudkonsultation ger en möjlighet att träffa en hudvårdsexpert och diskutera dina hudvårdsbehov och mål. Under konsultationen kan du få anpassade rekommendationer för behandlingar och produkter som passar just din hudtyp.',
         image_small: 'bilder/behandlingar/200x200/gratis-hudkonsultation.webp',
