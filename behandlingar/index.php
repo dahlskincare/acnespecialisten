@@ -465,44 +465,6 @@ $service_categories = array(
                 booking_url_label: 'Boka tid för IPL Pigmentfläckar',
                 booking_url_title: 'Boka tid för IPL Pigmentfläckar',
             ),
-            new Service(
-                url: '/varumarken/rejuve-dye-vl',
-                url_label: 'Läs mer',
-                url_title: 'Läs mer om Alma Rejuve',
-                title: 'Alma Rejuve',
-                duration: '50 min',
-                price: '100 kr',
-                content: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...',
-                image_small: 'https://via.placeholder.com/200x200.jpg',
-                image_large: 'https://via.placeholder.com/424x324.jpg',
-                image_alt: 'Alma Rejuve',
-                image_title: 'Alma Rejuve',
-                consultation_url: 'gratis-hudkonsultation',
-                consultation_url_label: 'Boka tid för hudkonsultation',
-                consultation_url_title: 'Boka tid för hudkonsultation',
-                booking_url: 'https://bokadirekt.se',
-                booking_url_label: 'Boka tid för Alma Rejuve',
-                booking_url_title: 'Boka tid för Alma Rejuve',
-            ),
-            new Service(
-                url: '/varumarken/powerlite-photonova',
-                url_label: 'Läs mer',
-                url_title: 'Läs mer om PhotoNova / Powerlight',
-                title: 'PhotoNova / Powerlight',
-                duration: '50 min',
-                price: '100 kr',
-                content: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist,  In a personal personal meeting with a skin specialist...',
-                image_small: 'https://via.placeholder.com/200x200.jpg',
-                image_large: 'https://via.placeholder.com/424x324.jpg',
-                image_alt: 'PhotoNova / Powerlight',
-                image_title: 'PhotoNova / Powerlight',
-                consultation_url: 'gratis-hudkonsultation',
-                consultation_url_label: 'Boka tid för hudkonsultation',
-                consultation_url_title: 'Boka tid för hudkonsultation',
-                booking_url: 'https://bokadirekt.se',
-                booking_url_label: 'Boka tid för PhotoNova / Powerlight',
-                booking_url_title: 'Boka tid för PhotoNova / Powerlight',
-            ),
         ),
         booking_url: 'treatment-booking?service=ipl',
         booking_url_title: 'Boka tid för ansiktsbehandling',
@@ -522,7 +484,7 @@ $service_categories = array(
         services: array(
             new Service(
                 url: '/varumarken/skin-tech',
-                url_label: 'Läs mer',
+                url_label: 'Skin Tech',
                 url_title: 'Läs mer om Skin Tech',
                 title: 'Skin Tech',
                 duration: '50 min',
@@ -541,7 +503,7 @@ $service_categories = array(
             ),
             new Service(
                 url: '/varumarken/prx-t33',
-                url_label: 'Läs mer',
+                url_label: 'PRX-T33',
                 url_title: 'Läs mer om PRX-T33',
                 title: 'PRX-T33',
                 duration: '50 min',
@@ -577,7 +539,7 @@ $service_categories = array(
         services: array(
             new Service(
                 url: '/varumarken/alma/hybrid',
-                url_label: 'Läs mer',
+                url_label: 'Alma Hybrid',
                 url_title: 'Läs mer om Alma Hybrid',
                 title: 'Alma Hybrid',
                 duration: '50 min',
@@ -596,7 +558,7 @@ $service_categories = array(
             ),
             new Service(
                 url: '/varumarken/alma/harmony-xl-pro',
-                url_label: 'Läs mer',
+                url_label: 'Alma Harmony XL Pro',
                 url_title: 'Läs mer om Alma Harmony XL Pro',
                 title: 'Alma Harmony XL Pro',
                 duration: '50 min',
@@ -632,7 +594,7 @@ $service_categories = array(
         services: array(
             new Service(
                 url: '/varumarken/dermapen',
-                url_label: 'Läs mer',
+                url_label: 'Dermapen',
                 url_title: 'Läs mer om dermapen',
                 title: 'Dermapen',
                 duration: '50 min',
@@ -651,7 +613,7 @@ $service_categories = array(
             ),
             new Service(
                 url: '/varumarken/exceed',
-                url_label: 'Läs mer',
+                url_label: 'Exceed',
                 url_title: 'Läs mer om exceed',
                 title: 'Exceed',
                 duration: '50 min',
@@ -688,7 +650,7 @@ $service_categories = array(
         services: array(
             new Service(
                 url: '/varumarken/splendor-x',
-                url_label: 'Läs mer',
+                url_label: 'Splendor X',
                 url_title: 'Läs mer om Splendor X',
                 title: 'Splendor X',
                 duration: '50 min',
@@ -707,7 +669,7 @@ $service_categories = array(
             ),
             new Service(
                 url: '/varumarken/alma/soprano-ice',
-                url_label: 'Läs mer',
+                url_label: 'Soprano Ice',
                 url_title: 'Läs mer om Soprano Ice',
                 title: 'Soprano Ice',
                 duration: '50 min',
