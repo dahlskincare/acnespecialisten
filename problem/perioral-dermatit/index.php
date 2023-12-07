@@ -11,8 +11,8 @@ $seo_keywords = 'perioral dermatit, behandling av perioral dermatit, orsaker til
 
 $title = 'Perioral Dermatit';
 
-$image_small = 'images/problems/424x324/perioral_dermatit.webp';
-$image_large = 'images/problems/424x456/perioral_dermatit.webp';
+$image_small = 'bilder/problem/424x324/perioral-dermatit.webp';
+$image_large = 'bilder/problem/424x456/perioral-dermatit.webp';
 $image_title = 'Visar en hud med perioral dermatit';
 $image_alt = 'Bild som illustrerar hur perioral dermatit ser ut på huden';
 $description = 'Här förklarar vi vad som kännetecknar perioral dermatit, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av perioral dermatit, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';

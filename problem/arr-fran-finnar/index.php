@@ -14,8 +14,8 @@ $seo_keywords = 'ärr från finnar, behandling av ärr från finnar, orsaker til
 
 $title = 'Ärr från Finnar';
 
-$image_small = 'images/problems/424x324/finnar.webp';
-$image_large = 'images/problems/424x456/finnar.webp';
+$image_small = 'bilder/problem/424x324/arr-fran-finnar.webp';
+$image_large = 'bilder/problem/424x456/arr-fran-finnar.webp';
 $image_title = 'Visar en hud med ärr från finnar';
 $image_alt = 'Bild som illustrerar hur ärr från finnar ser ut på huden';
 $description = 'Har du problem med ärr som uppstått från finnar? Vi förstår frustrationen och vill hjälpa dig. Här förklarar vi vad som kännetecknar dessa ärr, hur de kan uppstå, och hur Acnespecialisten kan stödja dig i en personligt anpassad behandlingsprocess. Vårt mål är att återställa din huds släthet och utseende. Tveka inte att boka en tid hos oss för en individuell konsultation och ta steget mot en klarare och friskare hud.';

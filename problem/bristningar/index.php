@@ -15,8 +15,8 @@ $seo_image = 'images/treatments/large/bristningar.jpg';
 
 $title = 'Bristningar';
 
-$image_small = 'images/problems/424x324/bristningar.webp';
-$image_large = 'images/problems/424x456/bristningar.webp';
+$image_small = 'bilder/problem/424x324/bristningar.webp';
+$image_large = 'bilder/problem/424x456/bristningar.webp';
 $image_title = 'Visar en hud med bristningar';
 $image_alt = 'Bild som illustrerar hur bristningar ser ut på huden';
 $description = 'Här förklarar vi vad som kännetecknar bristningar, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av bristningar, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';

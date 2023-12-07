@@ -11,8 +11,8 @@ $seo_keywords = 'pormaskar, behandling av pormaskar, orsaker till pormaskar, fö
 
 $title = 'Pormaskar';
 
-$image_small = 'images/problems/424x324/pormaskar.webp';
-$image_large = 'images/problems/424x456/pormaskar.webp';
+$image_small = 'bilder/problem/424x324/pormaskar.webp';
+$image_large = 'bilder/problem/424x456/pormaskar.webp';
 $image_title = 'Visar en hud med pormaskar';
 $image_alt = 'Bild som illustrerar hur pormaskar ser ut på huden';
 

@@ -13,8 +13,8 @@ $seo_keywords = 'akneärr, behandling av akneärr, orsaker till akneärr, föreb
 
 $title = 'Akneärr';
 
-$image_small = 'images/problems/424x324/akne.webp';
-$image_large = 'images/problems/424x456/akne.webp';
+$image_small = 'bilder/problem/424x324/aknearr.webp';
+$image_large = 'bilder/problem/424x456/aknearr.webp';
 $image_title = 'Visar en hud med akneärr';
 $image_alt = 'Bild som illustrerar hur akneärr ser ut på huden';
 $description = 'Här förklarar vi vad som kännetecknar akneärr, hur dessa ärr kan uppstå efter akne och hur vi kan hjälpa dig med behandling för att reducera dem. Vi går även igenom hur vi identifierar olika typer av akneärr, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess för att återställa hudens släthet och utseende.';

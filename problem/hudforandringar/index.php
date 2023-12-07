@@ -14,8 +14,8 @@ $seo_image = 'images/treatments/large/hudforandringar.jpg';
 
 $title = 'Hudförändringar';
 
-$image_small = 'images/problems/424x324/hudforandringar.webp';
-$image_large = 'images/problems/424x456/hudforandringar.webp';
+$image_small = 'bilder/problem/424x324/hudforandringar.webp';
+$image_large = 'bilder/problem/424x456/hudforandringar.webp';
 $image_title = 'Olika typer av hudförändringar';
 $image_alt = 'Bild som illustrerar olika typer av hudförändringar';
 $description = 'Här förklarar vi vad som kännetecknar olika typer av hudförändringar, varför de kan uppstå, och hur man kan hantera dem. Vi går även igenom hur vi på Acnespecialisten kan stödja dig i din process att förstå och ta hand om dina hudförändringar.';

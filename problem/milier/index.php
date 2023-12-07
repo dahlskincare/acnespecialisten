@@ -11,8 +11,8 @@ $seo_keywords = 'milier, behandling av milier, orsaker till milier, förebygga m
 
 $title = 'Milier';
 
-$image_small = 'images/problems/424x324/milier.webp';
-$image_large = 'images/problems/424x456/milier.webp';
+$image_small = 'bilder/problem/424x324/milier.webp';
+$image_large = 'bilder/problem/424x456/milier.webp';
 $image_title = 'Visar en hud med milier';
 $image_alt = 'Bild som illustrerar hur milier ser ut på huden';
 $description = 'Här förklarar vi vad som kännetecknar milier, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av milier, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';

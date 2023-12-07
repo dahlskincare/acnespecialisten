@@ -11,12 +11,12 @@ $seo_keywords = 'akne, aknebehandling, orsaker till akne, förebygga akne, ta bo
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
-$seo_image = 'images/treatments/large/acne-scars.jpg';
+$seo_image = 'bilder/problem/424x456/akne.webp';
 
 $title = 'Akne';
 
-$image_small = 'images/problems/424x324/akne.webp';
-$image_large = 'images/problems/424x456/akne.webp';
+$image_small = 'bilder/problem/424x324/akne.webp';
+$image_large = 'bilder/problem/424x456/akne.webp';
 $image_title = 'Visar en hud med akne';
 $image_alt = 'Bild som illustrerar hur akne ser ut på huden';
 $description = 'Här förklarar vi vad som kännetecknar akne, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av akne, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';

@@ -13,8 +13,8 @@ $seo_image = 'images/treatments/large/oonskat-harjpg';
 
 $title = 'Oönskat Hår';
 
-$image_small = 'images/problems/424x324/oonskat-har.webp';
-$image_large = 'images/problems/424x456/oonskat-har.webp';
+$image_small = 'bilder/problem/424x324/oonskat-har-man.webp';
+$image_large = 'bilder/problem/424x456/oonskat-har-man.webp';
 $image_title = 'Visar en hud med oönskat hår';
 $image_alt = 'Bild som illustrerar hur oönskat hår ser ut på huden';
 $description = 'Här förklarar vi vad som kännetecknar oönskat hår, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av oönskat hår, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';

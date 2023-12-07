@@ -11,8 +11,8 @@ $seo_keywords = 'rosacea, rosaceabehandling, orsaker till rosacea, förebygga ro
 
 $title = 'Rosacea';
 
-$image_small = 'images/problems/424x324/rosacea.webp';
-$image_large = 'images/problems/424x456/rosacea.webp';
+$image_small = 'bilder/problem/424x324/rosacea.webp';
+$image_large = 'bilder/problem/424x456/rosacea.webp';
 $image_title = 'Visar en hud med rosacea';
 $image_alt = 'Bild som illustrerar hur rosacea ser ut på huden';
 

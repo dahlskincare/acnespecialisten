@@ -15,8 +15,8 @@ $seo_image = 'images/treatments/large/stora-porer.jpg';
 
 $title = 'Stora Porer';
 
-$image_small = 'images/problems/424x324/stora-porer.webp';
-$image_large = 'images/problems/424x456/stora-porer.webp';
+$image_small = 'bilder/problem/424x324/stora-porer.webp';
+$image_large = 'bilder/problem/424x456/stora-porer.webp';
 $image_title = 'Visar en hud med stora porer';
 $image_alt = 'Bild som illustrerar hur stora porer ser ut på huden';
 $description = 'Här förklarar vi vad som kännetecknar stora porer, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom orsakerna bakom vidgade eller förstorade porer och hur vi på Acnespecialisten kan stödja dig i din behandlingsprocess.';

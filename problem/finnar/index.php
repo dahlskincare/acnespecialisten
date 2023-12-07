@@ -11,8 +11,8 @@ $seo_keywords = 'finnar, finnarbehandling, orsaker till finnar, förebygga finna
 
 $title = 'Finnar';
 
-$image_small = 'images/problems/424x324/finnar.webp';
-$image_large = 'images/problems/424x456/finnar.webp';
+$image_small = 'bilder/problem/424x324/finnar.webp';
+$image_large = 'bilder/problem/424x456/finnar.webp';
 $image_title = 'Visar en hud med finnar';
 $image_alt = 'Bild som illustrerar hur finnar kan se ut på huden';
 $description = 'Här förklarar vi vad som kännetecknar finnar, varför dessa irriterande hudutslag uppstår, och hur vi kan hjälpa dig med effektiv behandling. Vi går även igenom de vanligaste orsakerna bakom finnar, inklusive hormonella förändringar och stress, samt hur vi kan stödja dig i din behandlingsprocess för att uppnå en klarare och friskare hud.';

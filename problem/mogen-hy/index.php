@@ -11,8 +11,8 @@ $seo_keywords = 'mogen hy, behandling av mogen hy, orsaker till mogen hy, föreb
 
 $title = 'Mogen Hy';
 
-$image_small = 'images/problems/424x324/mogen-hy.webp';
-$image_large = 'images/problems/424x456/mogen-hy.webp';
+$image_small = 'bilder/problem/424x324/mogen-hy.webp';
+$image_large = 'bilder/problem/424x456/mogen-hy.webp';
 $image_title = 'Visar en hud med tecken på åldrande';
 $image_alt = 'Bild som illustrerar hur mogen hy ser ut';
 $description = 'Här förklarar vi vad som kännetecknar mogen hy, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika tecken på åldrande, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';

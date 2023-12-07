@@ -11,8 +11,8 @@ $seo_keywords = 'ytliga blodkärl, behandling av ytliga blodkärl, orsaker till 
 
 $title = 'Ytliga Blodkärl';
 
-$image_small = 'images/problems/424x324/ytliga_blodkarl.webp';
-$image_large = 'images/problems/424x456/ytliga_blodkarl.webp';
+$image_small = 'bilder/problem/424x324/ytliga-blodkarl.webp';
+$image_large = 'bilder/problem/424x456/ytliga-blodkarl.webp';
 $image_title = 'Visar en hud med ytliga blodkärl';
 $image_alt = 'Bild som illustrerar hur ytliga blodkärl ser ut på huden';
 $description = 'Här förklarar vi vad som kännetecknar ytliga blodkärl, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av ytliga blodkärl, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';
