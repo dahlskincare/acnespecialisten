@@ -739,9 +739,6 @@ $service_categories = array(
         image_alt: 'Gratis Hudkonsultation',
         image_title: 'Gratis Hudkonsultation',
         services: array(
-            new Service(
-                
-            ),
         ),
         booking_url: 'treatment-booking?service=skinBooster',
         booking_url_title: 'Boka tid för skinbooster',
