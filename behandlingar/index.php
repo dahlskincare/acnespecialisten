@@ -60,13 +60,13 @@ $green_banner_content = new GreenBannerContent(
 
 $treatments = array(
     new Treatment(
-        label: 'Problem skin facials',
-        url: 'behandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-akne',
-        url_title: 'Läs mer om acnebehandling'
+        label: 'Ansiktsbehandlingar mot problemhy',
+        url: 'behandlingar/ansiktsbehandlingar-problemhy',
+        url_title: 'Läs mer om ansiktsbehandlingar mot problemhy'
     ),
     new Treatment(
-        label: 'TODO',
-        url: 'TODO',
+        label: 'Klassiska ansiktsbehandlingar',
+        url: 'behandlingar/ansiktsbehandlingar-klassiska',
         url_title: 'TODO'
     ),
     new Treatment(
@@ -121,68 +121,23 @@ $treatments = array(
     ),
 );
 
-$people_search_for_title = "People also search";
+$people_search_for_title = "Populära alternativ";
 
 $people_search_for = array(
     new Treatment(
-        label: 'Acne Treatment',
+        label: 'Ansiktsbehandling mot akne',
         url: 'behandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-akne',
-        url_title: 'Läs mer om acnebehandling'
+        url_title: 'Läs mer om ansiktsbehandling mot akne'
     ),
     new Treatment(
-        label: 'TODO',
-        url: 'TODO',
-        url_title: 'TODO'
+        label: 'Splendor X',
+        url: 'varumarken/splendor-x',
+        url_title: 'Läs mer om Splendor X'
     ),
     new Treatment(
-        label: 'TODO',
-        url: 'TODO',
-        url_title: 'TODO'
-    ),
-    new Treatment(
-        label: 'TODO',
-        url: 'TODO',
-        url_title: 'TODO'
-    ),
-    new Treatment(
-        label: 'TODO',
-        url: 'TODO',
-        url_title: 'TODO'
-    ),
-    new Treatment(
-        label: 'TODO',
-        url: 'TODO',
-        url_title: 'TODO'
-    ),
-    new Treatment(
-        label: 'TODO',
-        url: 'TODO',
-        url_title: 'TODO'
-    ),
-    new Treatment(
-        label: 'TODO',
-        url: 'TODO',
-        url_title: 'TODO'
-    ),
-    new Treatment(
-        label: 'TODO',
-        url: 'TODO',
-        url_title: 'TODO'
-    ),
-    new Treatment(
-        label: 'TODO',
-        url: 'TODO',
-        url_title: 'TODO'
-    ),
-    new Treatment(
-        label: 'TODO',
-        url: 'TODO',
-        url_title: 'TODO'
-    ),
-    new Treatment(
-        label: 'TODO',
-        url: 'TODO',
-        url_title: 'TODO'
+        label: 'Soprano Ice',
+        url: 'varumarken/alma/soprano-ice',
+        url_title: 'Läs mer om Soprano Ice'
     ),
 );
 
