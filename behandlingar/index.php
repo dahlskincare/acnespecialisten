@@ -147,8 +147,8 @@ $service_categories = array(
         id: 'ansiktsbehandlingar-problemhy',
         label: 'Ansiktsbehandlingar mot problemhy',
         content: 'Dessa ansiktsbehandlingar är specialutformade för att ta itu med problemhy, såsom acne, rosacea och blandhy. Genom att använda noggrant utvalda produkter och tekniker, hjälper dessa behandlingar till att rengöra, lugna och återställa huden, samtidigt som de förebygger framtida hudproblem.',
-        image_small: 'https://via.placeholder.com/200x200',
-        image_large: 'https://via.placeholder.com/424x324.jpg',
+        image_small: 'bilder/behandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
+        image_large: 'bilder/behandlingar/424x324/ansiktsbehandlingar-mot-problemhy.webp',
         image_alt: 'Ansiktsbehandlingar för problemhy',
         image_title: 'Ansiktsbehandlingar för problemhy',
         services: array(
