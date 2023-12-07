@@ -70,9 +70,9 @@ $treatments = array(
         url_title: 'TODO'
     ),
     new Treatment(
-        label: 'Microdemabrasion',
-        url: 'behandlingar/microdemabrasion',
-        url_title: 'Läs mer om microdemabrasion'
+        label: 'Demabrasion',
+        url: 'behandlingar/demabrasion',
+        url_title: 'Läs mer om demabrasion'
     ),
     new Treatment(
         label: 'Frysbehandling',
