@@ -4,7 +4,7 @@ include_once('models.php');
 
 $nav_buttons = array(
     'about' => 'Översikt',
-    'types' => 'Våra konsultationer',
+    'types' => 'Konsultationer',
 );
 
 $categories = array(
@@ -116,7 +116,7 @@ $categories = array(
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
     <div class="is-hidden-touch is-hidden-desktop-only transition" id="floater">
         <div class="container">
-            <div id="floating-picture" style="background-image: url('images/problems/carousel/large/acne-scars.jpg')">
+            <div id="floating-picture" style="background-image: url('bilder/behandlingar/424x456//gratis-hudkonsultation.webp')">
                 <div id="overlay">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
                     <div>
@@ -188,7 +188,7 @@ $categories = array(
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
                 </section>
                 <section id="image" class="is-hidden-desktop">
-                    <img src="https://via.placeholder.com/358x274.webp" alt="Akne" title="Akne" width="358" height="274" />
+                    <img src="bilder/behandlingar/358x274/gratis-hudkonsultation" alt="Gratis Hudkonsultation" title="Gratis Hudkonsultation" width="358" height="274" />
                 </section>
                 <section id="nav-buttons">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
