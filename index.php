@@ -59,11 +59,11 @@
                                           <div class="flex-aligner">
                                                 <span class="label-large">4,8</span>
                                                 <div>
-                                                      <?php icon('trustpilot') ?>
-                                                      <?php icon('trustpilot') ?>
-                                                      <?php icon('trustpilot') ?>
-                                                      <?php icon('trustpilot') ?>
-                                                      <?php icon('trustpilot') ?>
+                                                      <?php icon('trustpilot-white') ?>
+                                                      <?php icon('trustpilot-white') ?>
+                                                      <?php icon('trustpilot-white') ?>
+                                                      <?php icon('trustpilot-white') ?>
+                                                      <?php icon('trustpilot-white') ?>
                                                       <div class="p200 l10n">På Trustpilot</div>
                                                 </div>
                                           </div>
