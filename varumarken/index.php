@@ -14,7 +14,7 @@ $green_banner_content = new GreenBannerContent(
 $header_brands = array(
       new Brand(
             label: 'Alma',
-            image: 'https://via.placeholder.com/94x34.webp',
+            image: 'bilder/varumarken/alma.svg',
             image_alt: 'Alma',
             image_title: 'Alma',
             url: 'varumarken/alma',
