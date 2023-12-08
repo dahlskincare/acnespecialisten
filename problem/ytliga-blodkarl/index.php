@@ -849,7 +849,7 @@ $brands_url_title = "Varumärken för behandling av ytliga blodkärl";
                               <hr class="mt-xl3 is-hidden-mobile">
 
                         </section>
-                        <?php if (sizeof($type_categories) > 0) { ?>
+                        <?php if (isset($type_categories) && sizeof($type_categories) > 0) { ?>
                               <section id="types">
                                     <h2 class="h500 l10n"><?php echo $types_title ?></h2>
                                     <div class="is-hidden-tablet">

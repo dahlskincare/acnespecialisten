@@ -98,7 +98,7 @@ $trivias = array(
             extended_content: '<p class="p200 mt-xl">Ett annat viktigt faktum är att personer med vissa hudtyper och hudtillstånd, såsom akne eller eksem, kan vara mer benägna att utveckla milier. Om du redan har en hudåkomma som innebär ökad talgproduktion eller hudirritation, kan detta öka chansen för att du får milier. Ytterligare en faktor som kan spela in är livsstil och skönhetsvanor.</p>
             <p class="p200 mt-xl">Slutligen bör vi inte förbise de genetiska faktorerna. Om det finns en historia av milier i din familj, kan du vara genetiskt predisponerad att utveckla dem. Detta kan förklara varför vissa personer, trots att ta väl hand om sin hud och undvika kända utlösande faktorer, ändå utvecklar milier. Sammanfattningsvis kan milier drabba i princip vem som helst, men det finns vissa grupper och livsstilar som ökar sannolikheten för att utveckla denna hudåkomma. Oavsett din ålder eller bakgrund, om du är orolig över milier, är det alltid en god idé att konsultera en hudspecialist för att identifiera problemet och skräddarsy behandling.</p>',
 
-            icons: array('man-kvinna' => 'Män & Kvinnor', 'barn' => 'Barn','vuxna' => 'Vuxna', 'aldre' => 'Äldre')
+            icons: array('man-kvinna' => 'Män & Kvinnor', 'barn' => 'Barn', 'vuxna' => 'Vuxna', 'aldre' => 'Äldre')
       ),
       new ProblemTrivia(
             prefix: 'Var',
@@ -818,7 +818,7 @@ $brands_url_title = "Varumärken för Milierbehandling";
                               <hr class="mt-xl3 is-hidden-mobile">
 
                         </section>
-                        <?php if (sizeof($type_categories) > 0) { ?>
+                        <?php if (isset($type_categories) && sizeof($type_categories) > 0) { ?>
                               <section id="types">
                                     <h2 class="h500 l10n"><?php echo $types_title ?></h2>
                                     <div class="is-hidden-tablet">
