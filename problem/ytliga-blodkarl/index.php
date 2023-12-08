@@ -94,7 +94,7 @@ $trivias = array(
             extended_content: '<p class="p200 mt-xl">Livsstilsval som rökning och alkoholkonsumtion kan bidra till utvecklingen av ytliga blodkärl. Dessa faktorer påverkar blodcirkulationen och kan göra blodkärlen mer synliga. Likaså kan långvarig exponering för solen utan adekvat solskydd förvärra tillståndet. Yrkesgrupper som är utsatta för extrema väderförhållanden, som byggarbetare eller utomhusidrottare, löper också en ökad risk. Stress och högt blodtryck har också varit knutna till utvecklingen av ytliga blodkärl.</p>
             <p class="p200 mt-xl">Det är också viktigt att notera att vissa medicinska tillstånd och behandlingar kan göra dig mer benägen att utveckla ytliga blodkärl. Personer med rosacea, en kronisk inflammatorisk hudsjukdom, har högre förekomst av ytliga blodkärl. Detsamma gäller för personer som har genomgått strålbehandling. Sammanfattningsvis är ytliga blodkärl i ansiktet inte diskriminerande när det kommer till vem de drabbar, men vissa grupper har en högre riskfaktor på grund av genetik, ålder, livsstilsval och medicinska tillstånd. Om du tillhör någon av dessa riskgrupper och är orolig för ytliga blodkärl, är det rekommenderat att söka rådgivning från en hudspecialist.</p>',
 
-            icons: array('man-kvinna' => 'Män & Kvinnor', 'Vuxna' => 'Vuxna', 'aldre' => 'Äldre')
+            icons: array('man-kvinna' => 'Män & Kvinnor', 'vuxna' => 'Vuxna', 'aldre' => 'Äldre')
       ),
       new ProblemTrivia(
             prefix: 'Var',
