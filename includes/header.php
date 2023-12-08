@@ -136,6 +136,7 @@
                         <li><a href="problem" class="h100 l10n" title="Problem">Problem</a></li>
                         <li><a href="behandlingar" class="h100 l10n" title="Behandlingar">Behandlingar</a></li>
                         <li><a href="varumarken" class="h100 l10n" title="Varumärken">Varumärken</a></li>
+                        <li><a href="resultat" class="h100 l10n" title="Resultat">Resultat</a></li>
                         <li><a href="om-oss" class="h100 l10n" title="Om oss">Om oss</a></li>
                         <!--<li><a href="priser" class="h100 l10n" title="Priser">Priser</a></li>-->
                         <li><a href="kontakt" class="h100 l10n" title="Kontakt">Kontakt</a></li>
