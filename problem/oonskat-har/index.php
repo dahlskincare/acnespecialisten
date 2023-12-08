@@ -558,10 +558,6 @@ $brands_url_title = "Varumärken för Aknebehandling";
                               <div>
                                     <h2 class="h600"><?php echo $title ?></h2>
                                     <div class="mt-m aka">
-                                          <span class="p200 l10n">Även kallat</span>
-                                          <?php foreach ($akas as $aka) { ?>
-                                                <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="b200 underline aka"><?php echo $aka->label ?></a>
-                                          <?php } ?>
                                           <div class="mt-xl">
                                                 <div class="columns is-2 is-variable">
                                                       <div class="column">
@@ -584,15 +580,6 @@ $brands_url_title = "Varumärken för Aknebehandling";
                         <div class="container">
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
                               <h1 class="h600"><?php echo $title ?></h1>
-                              <h3 class="mt-xs p100 l10n">Även känt som:</h3>
-
-                              <!--<?php foreach ($akas as $aka) { ?>-->
-                                    <div>
-                                          <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="mt-xs button b50 bright">
-                                                <?php echo $aka->label ?>
-                                          </a>
-                                    </div>
-                              <?php } ?>
                               <hr class="mt-xl" />
                               <p class="mt-m p200">
                                     <?php echo $description ?>
@@ -623,12 +610,6 @@ $brands_url_title = "Varumärken för Aknebehandling";
                               </div>
                               <div id="green-header-large-text" class="mt-xxs">
                                     <h1 class="h600"><?php echo $title ?></h1>
-                                    <div class="mt-s">
-                                          <span class="h200 l10n">Även känt som:</span>
-                                          <?php foreach ($akas as $aka) { ?>
-                                                <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="b200 underline aka"><?php echo $aka->label ?></a>
-                                          <?php } ?>
-                                    </div>
                                     <p class="mt-s p200"><?php echo $description ?></p>
                                     <div class="mt-xl flex-row" id="book-buttons">
                                           <a href="<?php echo $consultation_url ?>" title="<?php echo $consultation_url_title ?>" class="button b200 white l10n"><?php echo $consultation_url_label ?></a>
