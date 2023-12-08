@@ -85,7 +85,7 @@ $trivias = array(
             extended_content: '<p class="p200 mt-xl">Det är också viktigt att notera att personer med en familjehistoria av rosacea eller andra hudsjukdomar, som akne, har en högre risk att utveckla sjukdomen. Dessa individer bör vara särskilt medvetna om symtomen på rosacea och söka professionell hjälp om de misstänker att de har tillståndet.</p>
 
             <p class="p200 mt-xl">På AcneSpecialisten är vi väl medvetna om att rosacea påverkar individer på olika sätt. Vi arbetar för att skapa en skräddarsydd behandlingsplan som är anpassad till din hudtyp, din livsstil och dina specifika symtom. Vi vill hjälpa dig att hantera din rosacea på bästa möjliga sätt.</p>',
-            icons: array('man-kvinna' => 'Män & Kvinnor', 'Vuxna' => 'Vuxna')
+            icons: array('man-kvinna' => 'Män & Kvinnor', 'vuxna' => 'Vuxna')
       ),
       new ProblemTrivia(
             prefix: 'Var',
