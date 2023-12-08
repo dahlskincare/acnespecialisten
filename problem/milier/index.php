@@ -98,14 +98,14 @@ $trivias = array(
             extended_content: '<p class="p200 mt-xl">Ett annat viktigt faktum är att personer med vissa hudtyper och hudtillstånd, såsom akne eller eksem, kan vara mer benägna att utveckla milier. Om du redan har en hudåkomma som innebär ökad talgproduktion eller hudirritation, kan detta öka chansen för att du får milier. Ytterligare en faktor som kan spela in är livsstil och skönhetsvanor.</p>
             <p class="p200 mt-xl">Slutligen bör vi inte förbise de genetiska faktorerna. Om det finns en historia av milier i din familj, kan du vara genetiskt predisponerad att utveckla dem. Detta kan förklara varför vissa personer, trots att ta väl hand om sin hud och undvika kända utlösande faktorer, ändå utvecklar milier. Sammanfattningsvis kan milier drabba i princip vem som helst, men det finns vissa grupper och livsstilar som ökar sannolikheten för att utveckla denna hudåkomma. Oavsett din ålder eller bakgrund, om du är orolig över milier, är det alltid en god idé att konsultera en hudspecialist för att identifiera problemet och skräddarsy behandling.</p>',
 
-            icons: array('who-infants' => 'Barn', 'who-teenagers' => 'Ungdommar', 'who-adults' => 'Vuxna', 'who-elders' => 'Män & Kvinnor')
+            icons: array('man-kvinna' => 'Män & Kvinnor', 'barn' => 'Barn','vuxna' => 'Vuxna', 'aldre' => 'Äldre')
       ),
       new ProblemTrivia(
             prefix: 'Var',
             title: 'får man milier?',
             content: '<p class="p200">Milier kan uppträda på olika delar av kroppen, men de är mest framträdande i ansiktet, speciellt runt ögonen, kinderna och på näsan. De små, vita eller gula cystorna kan också ses på andra områden och detta kommer att utforskas ytterligare här. I ansiktet är områdena runt ögonen och på kindbenen särskilt känsliga för milier eftersom huden här är tunnare och mindre utsatt för naturlig exfoliering genom friktion. Detta gör det lättare för keratin och andra hudceller att bli instängda, vilket leder till utvecklingen av milier. Människor som ofta använder ögonkräm eller tung makeup i dessa områden kan vara mer mottagliga.</p>',
             extended_content: '<p class="p200 mt-xl">Bortom ansiktet kan milier även dyka upp på halsen, bröstet och andra områden. Milier kan även uppträda på ögonlocken, en plats där huden är särskilt tunn och känslig. Sammanfattningsvis kan milier uppträda på en rad olika områden av kroppen, men de är särskilt vanliga i ansiktet och på andra känsliga eller tunna hudområden. Oavsett var de dyker upp är det viktigt att förstå de underliggande orsakerna och att vidta lämpliga åtgärder för att behandla och förhindra dem.</p>',
-            icons: array('who-infants' => 'Ansiktet', 'who-teenagers' => 'Ryggen', 'who-adults' => 'Bröstet', 'who-elders' => 'Axlarna')
+            icons: array('ansikte' => 'Ansiktet', 'ogon' => 'Runt ögonen', 'kinder' => 'På Kinderna')
       ),
 );
 

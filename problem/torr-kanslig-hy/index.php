@@ -88,22 +88,21 @@ $trivias = array(
             title: 'får man torr och känslig hy?',
             content: '<p class="p200">Det finns flera faktorer som kan bidra till utvecklingen av torr och känslig hy. Klimatförhållanden såsom kyla under vintern med låg luftfuktighet kan avsevärt minska hudens fuktighetsnivåer. Inomhusförhållanden, såsom centralvärme och luftkonditionering, kan också torka ut huden. Hudvårdsprodukter irriterande ämnen kan störa hudens naturliga pH-balans och därmed förvärra tillståndet. Vidare kan hudsjukdomar som psoriasis och eksem, bidra till problemet. Vissa produkter och behandlingar kan också påverka hudens fuktbalans.</p>',
             extended_content: '<p class="p200 mt-xl">Livsstilsfaktorer som dålig kost och brist på vattenintag kan också spela en roll. En diet som är låg i essentiella fettsyror och vitaminer som vitamin E kan påverka hudens förmåga att behålla fukt. Stress och brist på sömn har också visat sig förvärra hudens känslighet och kan leda till ytterligare uttorkning och irritation. Det är viktigt att förstå att en kombination av dessa faktorer oftast ligger bakom problemet, och därför kan en holistisk ansats till behandling och förebyggande vara mest effektiv.</p>',
-            icons: array('who-infants' => 'Hormoner', 'who-teenagers' => 'Stress', 'who-adults' => 'Genetik', 'who-elders' => 'Livsstil')
+            icons: array('genetik' => 'Genetik', 'hormoner' => 'Hormoner', 'stress' => 'Stress', 'klimat' => 'Klimat', 'graviditet' => 'Graviditet')
       ),
       new ProblemTrivia(
             prefix: 'Vem',
             title: 'får torr och känslig hy?',
             content: '<p class="p200">Torr och känslig hy är inte begränsad till en specifik demografisk grupp; den kan drabba personer i alla åldrar och kön. Det är dock viktigt att förstå att vissa faktorer gör vissa människor mer benägna att utveckla denna hudtyp. Ålder är en av de mest framstående faktorerna. Med åldern minskar hudens naturliga oljeproduktion och dess förmåga att behålla fukt, vilket gör äldre personer mer mottagliga för torr och känslig hud.</p>',
             extended_content: '<p class="p200 mt-xl">Individer med tillstånd som eksem, rosacea eller psoriasis är också särskilt utsatta, eftersom de ofta medför en kronisk torrhet och känslighet i huden. Hormonella förändringar som sker under graviditet, menopaus eller menstruationscykler påverka hudens tillstånd och göra den mer känslig eller torr. Yrkesmässig exponering för kemiska ämnen, eller jobb som kräver frekvent handtvätt eller användning av handskar, kan också förvärra problemet.</p>',
-
-            icons: array('who-infants' => 'Barn', 'who-teenagers' => 'Ungdommar', 'who-adults' => 'Vuxna', 'who-elders' => 'Män & Kvinnor')
+           icons: array('man-kvinna' => 'Män & Kvinnor', 'barn' => 'Barn', 'tonaringar' => 'Tonåringar', 'vuxna' => 'Vuxna')
       ),
       new ProblemTrivia(
             prefix: 'Var',
             title: 'får man torr och känslig hy?',
             content: '<p class="p200">Medan torr och känslig hy kan drabba hela kroppen, finns det vissa områden som är extra utsatta. Ansiktet är ofta det mest drabbade området, och det är också här som symptomen vanligtvis är mest synliga. Specifika delar av ansiktet som ögonområdet och runt munnen har särskilt tunn hud och är mer känsliga för torrhet och irritation. Händerna är också ett kritiskt område och är extra utsatta på grund av den ständiga exponeringen för vatten, tvål och desinfektionsmedel, särskilt i en pandemi-präglad värld. Händernas hud kan bli så torr att den flagnar, spricker och i värsta fall blöder, vilket inte bara är obehagligt utan också utgör en potentiell infektionsrisk.</p>',
             extended_content: '<p class="p200 mt-xl">Armbågar och knän är andra vanliga områden där torr hud ofta förekommer, delvis på grund av konstant friktion från kläder och den tunnare huden på dessa ställen. Fötterna, särskilt hälar, kan också utveckla extrem torrhet och sprickor, särskilt under de kallare månaderna när huden är mindre utsatt för fukt. Områden som regelbundet rakas, som ben eller ansiktet för män, kan också bli extra känsliga och torra. Detta är ofta resultatet av att rakprodukter och tekniker inte är anpassade till en torr och känslig hudtyp, vilket resulterar i en försvagad hudbarriär och ytterligare uttorkning och irritation.</p>',
-            icons: array('who-infants' => 'Ansiktet', 'who-teenagers' => 'Ryggen', 'who-adults' => 'Bröstet', 'who-elders' => 'Axlarna')
+            icons: array('ansikte' => 'Ansiktet', 'kinder' => 'Kinder', 'panna' => 'Panna')
       ),
 );
 $treatment_steps = array(

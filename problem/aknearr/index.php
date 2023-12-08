@@ -85,8 +85,7 @@ $trivias = array(
             content: '<p class="p200">Akneärr uppstår som en följd av aktiv acne som bryter ner huden. Aggressiv fettsyra som skapas i varje finne fräter på huden och orsakar sår, vilket inledningsvis skapar en missfärgning. Denna mörka fläck i huden finns kvar efter att finnen försvunnit. Om problemet pågår under en längre period, kan hudstrukturen skadas och leda till gropar. Vidare kan allvarlig akne som cystor och noduler tränga djupt in i huden och orsaka skador på vävnaden nedanför, vilket leder till ärrbildning.</p>',
             extended_content: '<p class="p200 mt-xl">För mycket eller för lite kollagen på skadestället kan leda till upphöjda ärr eller gropar i huden. Felaktig hantering av akne, såsom att peta och klämma på finnar, kan också förvärra ärrbildningen, och felaktig behandling kan leda till permanenta märken och fläckar. Förebyggande åtgärder, som tidig behandling av akne och rätt hudvård, kan minska risken för ärrbildning.</p>
             <p class="p200 mt-xl">På Acnespecialisten fokuserar vi på att förstå ditt unika tillstånd och behov. Med 30 års erfarenhet och med de bästa metoderna för att behandla akneärr, arbetar vi med att minska och förhindra permanenta märken på din hud. Att ta första steget med en kostnadsfri acneärr konsultation hos oss kan vara starten på din väg till en sund och klar hud. Förståelse för ens egen hudtyp och att arbeta tillsammans med en av våra hudvårdsexperter kan hjälpa till att utforma en effektiv behandlingsplan.</p>',
-
-            icons: array('who-infants' => 'Inflammerad akne', 'who-teenagers' => 'Stress', 'who-adults' => 'Pillande', 'who-elders' => 'Felaktig behandling')
+            icons: array()
       ),
 
       new ProblemTrivia(
@@ -95,7 +94,7 @@ $trivias = array(
             content: '<p class="p200">Personer som har eller har haft allvarlig akne är mest benägna att utveckla akneärr. Det är inte begränsat till en viss ålder eller kön, utan kan påverka människor genom hela livet. Genetik, ålder och kön spelar också en roll, och om familjemedlemmar har akneärr, kan risken öka. Om problemet pågår under en längre period, kan det skada hudstrukturen och leda till gropar i huden. Mörkare hudtoner kan vara mer benägna att uppleva postinflammatorisk hyperpigmentering.</p>',
             extended_content: '<p class="p200 mt-xl">Livsstilsfaktorer och hudvård spelar också en viktig roll. En sund livsstil och tidig behandling av akne kan förhindra både akne och efterföljande ärrbildning. Det är också viktigt att notera att livsstilsfaktorer som stress kan påverka akne, och därmed även risken för ärrbildning. På Acnespecialisten förstår vi att varje individ är unik och erbjuder anpassade behandlingsplaner med din personliga hudterapeut vid din sida.</p>
             <p class="p200 mt-xl">Acnespecialisten har en omfattande erfarenhet av att behandla olika hudtyper och akneärr. Med vår expertis och förståelse för din hud kan vi erbjuda skräddarsydda lösningar som passar dig. Vi ser fram emot att börja din resa mot en klar och sund hud med en kostnadsfri hudkonsultation. Att ta steget att engagera sig i en sund livsstil tillsammans med rätt hudvård kan vara avgörande för att förhindra både akne och efterföljande ärrbildning.</p>',
-            icons: array('who-infants' => 'Kvinnor', 'who-teenagers' => 'Män', 'who-adults' => 'Ungdommar', 'who-elders' => 'Vuxna')
+            icons: array('man-kvinna' => 'Män & Kvinnor', 'tonaringar' => 'Tonåringar', 'vuxna' => 'Vuxna')
       ),
 
       new ProblemTrivia(
@@ -104,7 +103,7 @@ $trivias = array(
             content: '<p class="p200">Akneärr kan bildas på alla områden där akne har uppstått. De är mest vanliga i ansiktet, särskilt på kinderna, pannan och hakan, men de kan också uppträda på ryggen, bröstet, axlarna och nacken. Även om de oftast finns på dessa områden, är de inte begränsade till dem och kan förekomma på andra delar av kroppen också.</p>',
             extended_content: '<p class="p200 mt-xl">Beroende på typen och omfattningen av ärrbildningen kan olika behandlingsmetoder vara nödvändiga. Detta kan inkludera allt från laserbehandlingar och kemiska peelingar till mer invasiva kirurgiska metoder. Hos Acnespecialisten erbjuder vi omfattande behandlingar som tar itu med akneärr oavsett var de befinner sig på kroppen. Behandlingsval beror på individens unika behov och måste göras med en kvalificerad hudvårdsexpert.</p>
             <p class="p200 mt-xl">Det är också viktigt att betona att behandlingen av akneärr är en process som kan ta tid. Även om vissa metoder kan ge omedelbara förbättringar, kräver ärrbehandling ofta en långsiktig strategi och tålamod från patientens sida. Samarbete med en erfaren specialist, som Acnespecialisten, kan säkerställa att processen skräddarsys för att möta individens behov och mål. Kontakta oss för en kostnadsfri konsultation och börja din resa mot en hälsosam och klar hud idag!</p>',
-            icons: array('who-infants' => 'Ansiktet', 'who-teenagers' => 'Ryggen', 'who-adults' => 'Bröstet', 'who-elders' => 'Axlar & Nacke')
+            icons: array('ansikte' => 'Ansiktet', 'brost' => 'Bröst', 'rygg' => 'Rygg')
       ),
 );
 $treatment_steps = array(

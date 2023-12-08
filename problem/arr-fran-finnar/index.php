@@ -89,7 +89,7 @@ $trivias = array(
             content: '<p class="p200">Ärr från finnar kan uppstå när en finne orsakar en inflammation som fräter på huden. Såren som skapas kan leda till missfärgningar och, om de fortsätter att skada huden under en längre tid, kan de förändra hudstrukturen och orsaka gropar. Inflammerade finnar som tränger djupt in i huden kan också skada vävnaden nedanför, vilket leder till ärrbildning i form av både gropar och fläckar.</p>',
             extended_content: '<p class="p200 mt-xl">Både för mycket och för lite kollagen vid läkningen kan resultera i olika typer av ärr. Felaktig hantering av finnar, som att peta och klämma, kan förvärra ärrbildningen, och felaktig behandling kan orsaka permanenta ärr. Förebyggande åtgärder, som rätt hudvård och tidig behandling, kan minska risken för ärrbildning.</p>
             <p class="p200 mt-xl">På Acnespecialisten koncentrerar vi oss på att förstå ditt specifika behov och hudtillstånd. Med 30 års erfarenhet och de mest effektiva metoderna för att behandla ärr från finnar, arbetar vi för att minimera och förebygga permanenta märken på din hud. Att ta första steget med en kostnadsfri konsultation hos oss kan vara starten på din väg till en sund och klar hud. Våra hudvårdsexperter arbetar tillsammans med dig för att skapa en behandlingsplan som passar just din hud.</p>',
-            icons: array('who-infants' => 'Inflammerade finnar', 'who-teenagers' => 'Stress', 'who-adults' => 'Pillande', 'who-elders' => 'Felaktig behandling')
+            icons: array()
       ),
 
 
@@ -99,7 +99,7 @@ $trivias = array(
             content: '<p class="p200">Ärr från finnar är inte begränsat till en viss ålder eller hudtyp. Det kan påverka både män och kvinnor i alla åldrar. Genetik kan spela en roll, och individer med familjemedlemmar som har sådana ärr kan vara mer mottagliga. Mörkare hudtoner kan också vara mer benägna att uppleva postinflammatorisk hyperpigmentering, vilket kan leda till missfärgningar och gropar.</p>',
             extended_content: '<p class="p200 mt-xl">Livsstilsfaktorer som stress och hudvård spelar en nyckelroll i utvecklingen av ärr från finnar. Att upprätthålla en sund livsstil och tidig behandling av finnar kan förhindra både ärrbildning och hyperpigmentering. På Acnespecialisten ser vi varje individ som unik och erbjuder anpassade behandlingsplaner tillsammans med din personliga hudterapeut.</p>
             <p class="p200 mt-xl">Med en omfattande erfarenhet av behandling av olika hudtyper och ärr från finnar, kan Acnespecialisten erbjuda lösningar som är anpassade för dig. Vi ser fram emot att börja din resa mot en klar och sund hud med en kostnadsfri hudkonsultation. Att ta steget mot en sund livsstil och rätt hudvård kan vara avgörande för att förhindra sådana ärr och fläckar. Boka din tid hos oss redan idag!</p>',
-            icons: array('who-infants' => 'Kvinnor', 'who-teenagers' => 'Män', 'who-adults' => 'Ungdommar', 'who-elders' => 'Vuxna')
+            icons: array('man-kvinna' => 'Män & Kvinnor', 'tonaringar' => 'Tonåringar', 'vuxna' => 'Vuxna')
       ),
       new ProblemTrivia(
             prefix: 'Var',
@@ -107,7 +107,7 @@ $trivias = array(
             content: '<p class="p200">Ärr från finnar kan uppstå på områden som har påverkats av finnar. Dessa ärr är vanligast i ansiktet, som kinderna, pannan och hakan, men kan också finnas på ryggen, bröstet, axlarna och nacken. De är inte begränsade till dessa områden och kan uppstå på andra delar av kroppen.</p>',
             extended_content: '<p class="p200 mt-xl">Behandlingen av ärr från finnar kan variera beroende på dess typ och plats. Det kan innefatta allt från laserbehandlingar till kemiska peelingar och microneedling. Hos Acnespecialisten erbjuder vi behandlingar som riktar sig mot ärr oavsett var de befinner sig på kroppen, och vi anpassar behandlingsval efter din unika hudtyp och behov.</p>
             <p class="p200 mt-xl">Att behandla ärr från finnar är en process som kan kräva tid och tålamod. Med stöd från Acnespecialisten kan du förvänta dig en personlig och effektiv behandlingsplan. Vi arbetar för att uppfylla dina behov och mål, och vi bjuder in dig till en kostnadsfri konsultation för att börja din resa mot en jämn och vacker hud. Boka din tid hos oss och ta första steget mot en ärrfri hud idag!</p>',
-            icons: array('who-infants' => 'Ansiktet', 'who-teenagers' => 'Ryggen', 'who-adults' => 'Bröstet', 'who-elders' => 'Axlar & Nacke')
+            icons: array('ansikte' => 'Ansiktet', 'brost' => 'Bröst', 'rygg' => 'Rygg')
       ),
 );
 $treatment_steps = array(
