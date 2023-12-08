@@ -42,7 +42,7 @@
             </div>
             <div class="expansion-panel">
                 <div class="ep-head" onclick="HeaderTouch.toggleExpanded(this)">
-                    <div class="ep-label l10n">Community</div>
+                    <div class="ep-label l10n">Övrigt</div>
                     <?php icon('arrow-down') ?>
                 </div>
                 <div class="ep-content">
@@ -89,7 +89,7 @@
                     </div>
                     <div class="column">
                         <ul>
-                            <li class="l10n">Community</li>
+                            <li class="l10n">Övrigt</li>
                             <li><a href="resultat" class="l10n" title="Resultat">Resultat</a></li>
                             <li><a href="presentkort" class="l10n" title="Presentkort">Presentkort</a></li>
                             <li><a href="gratis-hudkonsultation" class="l10n" title="Gratis konsultation">Gratis konsultation</a></li>

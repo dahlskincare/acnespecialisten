@@ -141,7 +141,7 @@
                             </ul>
                         </div>
                         <div class="column">
-                            <h2>Community</h2>
+                            <h2>Övrigt</h2>
                             <ul>
                                 <li>
                                     <a href="resultat" class="button text grey compact l10n" title="Resultat">Resultat</a>
@@ -389,7 +389,7 @@
                                     </ul>
                                 </div>
                                 <div class="column">
-                                    <h2>Community</h2>
+                                    <h2>Övrigt</h2>
                                     <ul>
                                         <li>
                                             <a href="resultat" class="button text grey compact l10n" title="Resultat">Resultat</a>
