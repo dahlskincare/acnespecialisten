@@ -4,9 +4,9 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 include_once('models.php');
 
 $green_banner_content = new GreenBannerContent(
-      title: 'Brands we work with',
-      description: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
-      description_extended: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
+      title: 'Varumärken',
+      description: 'På AcneSpecialisten är vi dedikerade till att behandla och förbättra hudproblem som akne, rosacea, pormaskar och finnar, och detta åstadkommer vi genom att använda ledande varumärken och tekniker inom hudvård. Våra samarbetspartners inkluderar Alma, Dermapen, CryoPen, HydraFacial, Infuzion, Splendor X och Soprano Ice, som alla erbjuder banbrytande lösningar för en rad hudtillstånd. Genom dessa innovativa behandlingsmetoder och vår expertis, skapar vi skräddarsydda behandlingsplaner för att möta dina individuella hudvårdsbehov.',
+      description_extended: 'Om du är osäker på ditt hudtillstånd eller vilken behandling som passar dig bäst, rekommenderar vi en kostnadsfri hudkonsultation hos AcneSpecialisten. Våra erfarna hudterapeuter använder sig av tekniker och produkter från välrenommerade varumärken som Alma, Dermapen, CryoPen, HydraFacial, Infuzion, Splendor X och Soprano Ice för att noggrant analysera din hud och rekommendera en anpassad behandlingsplan. Boka din gratis konsultation idag för att påbörja din resa mot en friskare och mer strålande hud.',
       button_url: 'gratis-hudkonsultation',
       button_label: 'Få gratis konsultation'
 );
