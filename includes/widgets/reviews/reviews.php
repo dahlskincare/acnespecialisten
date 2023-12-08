@@ -63,7 +63,7 @@
                     <?php icon('star') ?>
                     <span class="ml-xs h200">5.0 / 5</span>
                 </div>
-                <p>96 reviews</p>
+                <p>366 omdömen</p>
             </div>
 
         </div>
@@ -74,7 +74,7 @@
                     <?php icon('star') ?>
                     <span class="ml-xs h200">4.7 / 5</span>
                 </div>
-                <p>492 reviews</p>
+                <p>565 omdömen</p>
             </div>
         </div>
         <div class="review-brand">
@@ -84,7 +84,7 @@
                     <?php icon('star') ?>
                     <span class="ml-xs h200">4.7 / 5</span>
                 </div>
-                <p>8240 reviews</p>
+                <p>11 171 omdömen</p>
             </div>
         </div>
     </div>
