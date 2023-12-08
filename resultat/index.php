@@ -4,10 +4,10 @@
 
 <head>
     <!-- TODO: Set title and meta tags -->
-    <title class="l10n">Acnespecialisten | Customer results</title>
-    <meta name="description" content="" class="l10n">
-    <meta name="title" content="" class="l10n">
-    <meta name="keywords" content="" class="l10n">
+    <title>Resultat hos AcneSpecialisten | Se Våra Framgångar i Hudvård</title>
+    <meta name="description" content="Utforska framgångsrika resultat hos AcneSpecialisten, där vi använder vår expertis inom hudvård för att effektivt bekämpa acne och andra hudproblem. Våra kundcase visar tydligt hur våra skräddarsydda behandlingar leder till förbättrad hudhälsa och ökat välbefinnande.">
+    <meta name="keywords" content="Acnebehandling resultat, Hudvårdsframgångar, AcneSpecialisten kundcase, Förbättrad hudhälsa, Effektiv hudvård, Resultatdriven behandling, Hudvårdsresultat">
+
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
     <link rel="stylesheet" href="/resultat/style.css">
@@ -31,11 +31,11 @@ $specialists = array(
         image_title: 'Veronika Benedik'
     ),
     new Specialist(
-        name: 'Amira Maqboul',
+        name: 'Julia Eklund',
         title: 'Hudterapeut sedan 2017',
-        image: 'images/specialists/large/hudterapeut-amira.webp',
-        image_alt: 'Amira Maqboul',
-        image_title: 'Amira Maqboul'
+        image: 'images/specialists/large/hudterapeut-julia.webp',
+        image_alt: 'Julia Eklund',
+        image_title: 'Julia Eklund'
     ),
     new Specialist(
         name: 'Vilma Libom',
@@ -49,9 +49,11 @@ $specialists = array(
 $result_category =
     new ResultCategory(
         id: '',
-        title: 'Customer results',
-        description_1: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
-        description_2: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
+        title: 'Resultat',
+        description_1: 'Här hittar du resultaten från några av våra kunder som har kämpat med olika typer av problemhy. Vi har samlat före- och efterbilder som tydligt visar de märkbara förändringarna som våra skräddarsydda hudvårdsbehandlingar och produkter åstadkommer.',
+
+        description_2: 'Om du är redo att förändra din hud och uppleva hur vi kan göra skillnad, boka din kostnadsfria konsultation idag. Påbörja din resa mot en problemfri hy!'
+
     );
 
 $category_links = array(

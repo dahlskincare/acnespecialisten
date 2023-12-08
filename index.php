@@ -577,19 +577,19 @@
                                     image_title: 'Veronika Benedik'
                               ),
                               new Specialist(
-                                    name: 'Amira Maqboul',
+                                    name: 'Julia Eklund',
                                     title: 'Hudterapeut sedan 2017',
-                                    image: 'images/specialists/large/hudterapeut-amira.webp',
-                                    image_alt: 'Amira Maqboul',
-                                    image_title: 'Amira Maqboul'
-                              ),
+                                    image: 'images/specialists/large/hudterapeut-julia.webp',
+                                    image_alt: 'Julia Eklund',
+                                    image_title: 'Julia Eklund'
+                                ),
                               new Specialist(
                                     name: 'Vilma Libom',
                                     title: 'Hudterapeut sedan 2019',
                                     image: 'images/specialists/large/hudterapeut-vilma.webp',
                                     image_alt: 'Vilma Libom',
                                     image_title: 'Vilma Libom'
-                              )
+                              ),
                         );
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
                         ?>
