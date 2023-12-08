@@ -213,11 +213,16 @@ html {
             }
         }
 
-        section#cards {
+        section#cards,
+        section#results,
+        section#reviews,
+        section#faq,
+        section#specialists,
+        section#brands {
             margin-top: $xl;
 
             @include desktop {
-                margin-top: $m;
+                margin-top: $xl4;
             }
         }
     }
