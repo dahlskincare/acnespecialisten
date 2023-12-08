@@ -95,9 +95,9 @@
                             <li>
                                 <a href="varumarken" class="button text grey compact l10n" title="Varumärken">Varumärken</a>
                             </li>
-                            <li>
+                            <!--<li>
                                 <a href="priser" class="button text grey compact l10n" title="Priser">Priser</a>
-                            </li>
+                            </li>-->
                         </ul>
                     </div>
                     <div class="column">
@@ -346,9 +346,9 @@
                                         <li>
                                             <a href="varumarken" class="button text grey compact l10n" title="Varumärken">Varumärken</a>
                                         </li>
-                                        <li>
+                                        <!--<li>
                                             <a href="priser" class="button text grey compact l10n" title="Priser">Priser</a>
-                                        </li>
+                                        </li>-->
                                     </ul>
                                 </div>
                                 <div class="column">
