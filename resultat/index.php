@@ -59,7 +59,14 @@ $result_category =
 $category_links = array(
     'akne' => 'Akne',
     'aknearr' => 'Akneärr',
+    'blandhy' => 'Blandhy',
+    'dermapen-aknearr' => 'Dermapen Akneärr',
+    'finnar-arr' => 'Ärr från Finnar',
+    'finnar' => 'Finnar',
+    'microneedling-aknearr' => 'Microneedling Akneärr',
     'pormaskar' => 'Pormaskar',
+    'rosacea' => 'Rosacea',
+    'ytliga-blodkarl' => 'Ytliga Blodkärl',
 );
 
 if (isset($_GET['page']) && $_GET['page'] > 0) {
