@@ -87,25 +87,25 @@ $results_per_page = array(
             image_alt: 'Resultat',
             image_title: 'Resultat',
             age: 18,
-            gender: 'Female',
-            problem: 'Acne',
-            type: 'Severe',
+            gender: 'Kvinna',
+            problem: 'Akne',
+            type: 'Svår',
             treatment: new ResultTreatment(
                 duration: '3 months',
                 procedures: array(
                     new ResultProcedure(
                         image: 'https://via.placeholder.com/102x102.webm',
-                        name: 'Problem skin facials',
-                        count: '3 times'
+                        name: 'Aknebehandlingar',
+                        count: '3 tillfällen'
                     ),
                 ),
                 product: new ResultProduct(
                     image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Product bundle for light acne',
+                    name: 'Produktpaket mot svår akne',
                 ),
                 employee: new ResultEmployee(
                     image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Patrick Minogue'
+                    name: 'Cazzandra Lindberg'
                 ),
             )
         ),
