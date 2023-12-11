@@ -110,13 +110,13 @@
     </nav>
 </div>
 <header>
-    <!--<div id="important-notice">
+    <div id="important-notice">
         <div>
-            <span class="important-notice-highlight">-15%</span>
-            <span>for all our services until April 1.</span>
-            <a href="behandlingar" title="behandlingar">View services</a>
+            <!--<span class="important-notice-highlight">-15%</span>-->
+            <span>Besök oss för en Gratis Hudkonsultation</span>
+            <a href="/gratis-hudkonsultation" title="behandlingar">Boka här</a>
         </div>
-    </div>-->
+    </div>
     <div class="container">
         <div class="is-hidden-desktop" id="header-small">
             <a href="/">
