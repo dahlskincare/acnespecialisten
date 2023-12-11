@@ -15,11 +15,11 @@
         <div class="h300 l10n">Kund</div>
         <div class="customer-details">
             <div>
-                <div class="p200 l10n">Age</div>
+                <div class="p200 l10n">Ålder</div>
                 <div class="mt-xxs h200"><?php echo $result_customer->age ?></div>
             </div>
             <div>
-                <div class="p200 l10n">Gender</div>
+                <div class="p200 l10n">Kön</div>
                 <div class="mt-xxs h200"><?php echo $result_customer->gender ?></div>
             </div>
             <div>
@@ -27,7 +27,7 @@
                 <div class="mt-xxs h200"><?php echo $result_customer->problem ?></div>
             </div>
             <div>
-                <div class="p200 l10n">Type</div>
+                <div class="p200 l10n">Typ</div>
                 <div class="mt-xxs h200"><?php echo $result_customer->type ?></div>
             </div>
         </div>

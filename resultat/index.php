@@ -91,7 +91,7 @@ $results_per_page = array(
             problem: 'Akne',
             type: 'Svår',
             treatment: new ResultTreatment(
-                duration: '3 months',
+                duration: '3 månader',
                 procedures: array(
                     new ResultProcedure(
                         image: 'https://via.placeholder.com/102x102.webm',
