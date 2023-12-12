@@ -282,9 +282,6 @@ $pages = sizeof($results_per_page);
                     <a href="<?php echo $consultation_url ?>" class="button white expand l10n" title="Boka en gratis hudkonsultation">Boka en gratis hudkonsultation</a>
                 </div>
             </section>
-            <section id="results" class="large-margin">
-                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results.php') ?>
-            </section>
             <section id="reviews" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
                     <div class="h500 l10n">Omdömens</div>
