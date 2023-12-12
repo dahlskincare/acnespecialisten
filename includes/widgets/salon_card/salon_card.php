@@ -12,17 +12,17 @@
             <div class="salon-desc"><?php echo $salon->description ?></div>
             <div class="salon-opening-hours">
                 <div>
-                    <div class="salon-hour-labels l10n">Monday - Friday</div>
+                    <div class="salon-hour-labels l10n">Måndag - Fredag</div>
                     <div class="salon-hour-values"><?php echo $salon->opening_hours_weekdays ?></div>
                 </div>
                 <div>
-                    <div class="salon-hour-labels l10n">Saturday - Sunday</div>
+                    <div class="salon-hour-labels l10n">Lördag - Söndag</div>
                     <div class="salon-hour-values"><?php echo $salon->opening_hours_weekends ?></div>
                 </div>
             </div>
             <div class="salon-buttons">
-                <a href="tel: <?php echo $salon->phone ?>" class="button b200 outline expand l10n" title="Call us">Call us</a>
-                <a href="mailto: <?php echo $salon->email ?>" class="button b200 outline expand l10n" title="Send an email">Send an email</a>
+                <a href="tel: <?php echo $salon->phone ?>" class="button b200 outline expand l10n" title="Ring oss">Ring oss</a>
+                <a href="mailto: <?php echo $salon->email ?>" class="button b200 outline expand l10n" title="Mejla oss">Mejla oss</a>
             </div>
         </div>
     </div>

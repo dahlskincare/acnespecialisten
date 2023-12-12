@@ -29,6 +29,18 @@ $specialists = array(
         since_year: 2010,
     ),
     new Specialist(
+        name: 'Amira Maqboul',
+        title: 'Hudterapeut sedan 2017',
+        image: '/images/specialists/large/hudterapeut-amira.webp',
+        image_alt: 'Amira Maqboul',
+        image_title: 'Amira Maqboul',
+        city: 'Sundbyberg',
+        description: '',
+        rating: 4.6,
+        num_treatments: 1024,
+        since_year: 2017,
+    ),
+    new Specialist(
         name: 'Georgina Youkhana',
         title: 'Hudterapeut sedan 2023',
         image: '/images/specialists/large/hudterapeut-bild-saknas.jpg',
