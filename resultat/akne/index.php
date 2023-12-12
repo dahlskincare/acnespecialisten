@@ -63,138 +63,70 @@ if (isset($_GET['page']) && $_GET['page'] > 0) {
 $results_per_page = array(
     1 => array(
         new ResultCustomer(
-            url: 'resultat/details-1',
-            image_before_small: 'https://via.placeholder.com/178x238.webm',
-            image_after_small: 'https://via.placeholder.com/178x238.webm',
-            image_before_large: 'https://via.placeholder.com/372x496.webm',
-            image_after_large: 'https://via.placeholder.com/372x496.webm',
-            url_title: 'Resultat',
-            image_alt: 'Resultat',
-            image_title: 'Resultat',
-            age: 18,
-            gender: 'Female',
-            problem: 'Acne',
-            type: 'Severe',
+            url: '',
+            image_before_small: '/bilder/resultat/178x238/resultat-akne-fore-1.jpg',
+            image_after_small: '/bilder/resultat/178x238/resultat-akne-efter-1.jpg',
+            image_before_large: '/bilder/resultat/372x496/resultat-akne-fore-1.jpg',
+            image_after_large: '/bilder/resultat/372x496/resultat-akne-efter-1.jpg',
+            url_title: 'Akne resultat',
+            image_alt: 'Akne resultat',
+            image_title: 'Akne resultat',
+            age: 21,
+            gender: 'Kvinna',
+            problem: 'Akne',
+            type: 'Svår',
             treatment: new ResultTreatment(
-                duration: '3 months',
+                duration: '3 månader',
                 procedures: array(
                     new ResultProcedure(
                         image: 'https://via.placeholder.com/102x102.webm',
-                        name: 'Problem skin facials',
-                        count: '3 times'
+                        name: 'Aknebehandlingar',
+                        count: '5 tillfällen',
                     ),
                 ),
                 product: new ResultProduct(
                     image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Product bundle for light acne',
+                    name: 'Produktpaket mot svår akne',
                 ),
                 employee: new ResultEmployee(
                     image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Patrick Minogue'
+                    name: 'Cazzandra Lindberg',
                 ),
             )
         ),
         new ResultCustomer(
-            url: 'resultat/details-1',
-            image_before_small: 'https://via.placeholder.com/178x238.webm',
-            image_after_small: 'https://via.placeholder.com/178x238.webm',
-            image_before_large: 'https://via.placeholder.com/372x496.webm',
-            image_after_large: 'https://via.placeholder.com/372x496.webm',
-            url_title: 'Resultat',
-            image_alt: 'Resultat',
-            image_title: 'Resultat',
+            url: '',
+            image_before_small: '/bilder/resultat/178x238/resultat-akne-fore-2.jpg',
+            image_after_small: '/bilder/resultat/178x238/resultat-akne-efter-2.jpg',
+            image_before_large: '/bilder/resultat/372x496/resultat-akne-fore-2.jpg',
+            image_after_large: '/bilder/resultat/372x496/resultat-akne-efter-2.jpg',
+            url_title: 'Akne resultat',
+            image_alt: 'Akne resultat',
+            image_title: 'Akne resultat',
             age: 18,
-            gender: 'Female',
-            problem: 'Acne',
-            type: 'Severe',
+            gender: 'Kvinna',
+            problem: 'Akne',
+            type: 'Svår',
             treatment: new ResultTreatment(
-                duration: '3 months',
+                duration: '2 månader',
                 procedures: array(
                     new ResultProcedure(
                         image: 'https://via.placeholder.com/102x102.webm',
-                        name: 'Problem skin facials',
-                        count: '3 times'
+                        name: 'Aknebehandlingar',
+                        count: '3 tillfällen',
                     ),
                 ),
                 product: new ResultProduct(
                     image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Product bundle for light acne',
+                    name: 'Produktpaket mot svår akne',
                 ),
                 employee: new ResultEmployee(
                     image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Patrick Minogue'
+                    name: 'Julia Eklund',
                 ),
             )
         ),
     ),
-    2 => array(
-        new ResultCustomer(
-            url: 'resultat/details-1',
-            image_before_small: 'https://via.placeholder.com/178x238.webm',
-            image_after_small: 'https://via.placeholder.com/178x238.webm',
-            image_before_large: 'https://via.placeholder.com/372x496.webm',
-            image_after_large: 'https://via.placeholder.com/372x496.webm',
-            url_title: 'Resultat',
-            image_alt: 'Resultat',
-            image_title: 'Resultat',
-            age: 18,
-            gender: 'Female',
-            problem: 'Acne',
-            type: 'Severe',
-            treatment: new ResultTreatment(
-                duration: '3 months',
-                procedures: array(
-                    new ResultProcedure(
-                        image: 'https://via.placeholder.com/102x102.webm',
-                        name: 'Problem skin facials',
-                        count: '3 times'
-                    ),
-                ),
-                product: new ResultProduct(
-                    image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Product bundle for light acne',
-                ),
-                employee: new ResultEmployee(
-                    image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Patrick Minogue'
-                ),
-            )
-        ),
-    ),
-    3 => array(
-        new ResultCustomer(
-            url: 'resultat/details-1',
-            image_before_small: 'https://via.placeholder.com/178x238.webm',
-            image_after_small: 'https://via.placeholder.com/178x238.webm',
-            image_before_large: 'https://via.placeholder.com/372x496.webm',
-            image_after_large: 'https://via.placeholder.com/372x496.webm',
-            url_title: 'Resultat',
-            image_alt: 'Resultat',
-            image_title: 'Resultat',
-            age: 18,
-            gender: 'Female',
-            problem: 'Acne',
-            type: 'Severe',
-            treatment: new ResultTreatment(
-                duration: '3 months',
-                procedures: array(
-                    new ResultProcedure(
-                        image: 'https://via.placeholder.com/102x102.webm',
-                        name: 'Problem skin facials',
-                        count: '3 times'
-                    ),
-                ),
-                product: new ResultProduct(
-                    image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Product bundle for light acne',
-                ),
-                employee: new ResultEmployee(
-                    image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Patrick Minogue'
-                ),
-            )
-        ),
-    )
 );
 
 $pages = sizeof($results_per_page);
