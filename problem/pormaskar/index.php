@@ -424,27 +424,39 @@ $articles = array(
             <p class="p200 mt-m">Att välja AcneSpecialisten innebär att du får tillgång till den mest avancerade och effektiva behandlingen för dina pormaskar. Men det är inte allt. Vi ser dig som en partner i din hudvårdsresa och är dedikerade till att hjälpa dig att uppnå och bibehålla en klar och frisk hud. Vårt engagemang, kunskap och erfarenhet gör oss till ditt bästa val för behandling av pormaskar.</p>',
       ),
 );
+
 $results = array(
       new ResultCustomer(
-            image_before_small: 'https://via.placeholder.com/358x358.webm',
-            image_after_small: 'https://via.placeholder.com/358x358.webm',
-            image_before_large: 'https://via.placeholder.com/424x424.webm',
-            image_after_large: 'https://via.placeholder.com/424x424.webm',
-            image_alt: 'Resultat',
-            image_title: 'Resultat',
+            image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.jpg',
+            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
+            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
+            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
+            image_alt: 'Akne resultat',
+            image_title: 'Akne resultat',
             treatment: new ResultTreatment(
-                  duration: 'Efter 3 månaders <a href="behandlingar/pormaskar" title="Pormaskar"">behandlingar mot pormaskar</a>'
-            ),
+                  duration: '3 månader',
+            )
       ),
       new ResultCustomer(
-            image_before_small: 'https://via.placeholder.com/358x358.webm',
-            image_after_small: 'https://via.placeholder.com/358x358.webm',
-            image_before_large: 'https://via.placeholder.com/424x424.webm',
-            image_after_large: 'https://via.placeholder.com/424x424.webm',
-            image_alt: 'Resultat',
-            image_title: 'Resultat',
+            image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.jpg',
+            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
+            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
+            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
+            image_alt: 'Akne resultat',
+            image_title: 'Akne resultat',
             treatment: new ResultTreatment(
-                  duration: 'Efter 3 månaders <a href="behandlingar/pormaskar" title="Pormaskar">behandlingar mot pormaskar</a>',
+                  duration: '2 månader',
+            )
+      ),
+      new ResultCustomer(
+            image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.jpg',
+            image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
+            image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
+            image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
+            image_alt: 'Rosacea resultat',
+            image_title: 'Rosacea resultat',
+            treatment: new ResultTreatment(
+                  duration: '4 månader',
             )
       ),
 );
