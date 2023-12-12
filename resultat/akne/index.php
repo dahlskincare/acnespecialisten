@@ -4,10 +4,9 @@
 
 <head>
     <!-- TODO: Set title and meta tags -->
-    <title class="l10n">Acnespecialisten | Acne results</title>
-    <meta name="description" content="" class="l10n">
-    <meta name="title" content="" class="l10n">
-    <meta name="keywords" content="" class="l10n">
+    <title>Akne Resultat hos AcneSpecialisten | Framgångshistorier och Transformationer</title>
+    <meta name="description" content="Upptäck AcneSpecialistens framgångar i behandling av akne genom våra kundcase. Se hur vår expertis och skräddarsydda behandlingsmetoder transformerar hudhälsa och bidrar till en klarare hud och förbättrat välbefinnande. Våra före- och efterbilder illustrerar den effektiva bekämpningen av akne och andra hudproblem.">
+    <meta name="keywords" content="Aknebehandling resultat, AcneSpecialisten framgångar, Hudtransformation, Klar hud, Bekämpa akne, Kundcase akne, Resultatdriven aknebehandling, Hudhälsans förbättring, Akneföre- och efterbilder">
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
     <link rel="stylesheet" href="/resultat/category.css">
@@ -47,10 +46,12 @@ $specialists = array(
 );
 $result_category =
     new ResultCategory(
-        id: 'acne',
-        title: 'Acne results',
-        description_1: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
-        description_2: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
+        id: 'akne',
+        title: 'Akne resultat',
+        description_1: 'Utforska våra kunders transformationsresor mot akne och problemhy. Denna sida visar en serie av före- och efterbilder som demonstrerar den effektiva påverkan av våra specialanpassade hudvårdsbehandlingar och produkter, vilka ger tydliga och märkbara förbättringar i hudens utseende och hälsa.',
+
+        description_2: 'Är du redo att ta kontroll över din akne och uppnå en klarare hud? Boka en kostnadsfri konsultation hos oss och ta det första steget mot en synbart förbättrad och hälsosammare hy. Låt oss visa dig vägen till effektiva resultat.',
+
     );
 
 if (isset($_GET['page']) && $_GET['page'] > 0) {

@@ -50,11 +50,11 @@ $specialists = array(
 
 $result_category =
     new ResultCategory(
-        id: '',
+        id: 'resultat',
         title: 'Resultat',
         description_1: 'Här hittar du resultaten från några av våra kunder som har kämpat med olika typer av problemhy. Vi har samlat före- och efterbilder som tydligt visar de märkbara förändringarna som våra skräddarsydda hudvårdsbehandlingar och produkter åstadkommer.',
 
-        description_2: 'Om du är redo att förändra din hud och uppleva hur vi kan göra skillnad, boka din kostnadsfria konsultation idag. Påbörja din resa mot en problemfri hy!'
+        description_2: 'Om du är redo att förändra din hud och uppleva hur vi kan göra skillnad, boka din kostnadsfria konsultation idag. Påbörja din resa mot en problemfri hy!',
 
     );
 
@@ -78,15 +78,15 @@ if (isset($_GET['page']) && $_GET['page'] > 0) {
 $results_per_page = array(
     1 => array(
         new ResultCustomer(
-            url: 'resultat/details-1',
+            url: '',
             image_before_small: '/bilder/resultat/178x238/resultat-akne-fore-1.jpg',
             image_after_small: '/bilder/resultat/178x238/resultat-akne-efter-1.jpg',
             image_before_large: '/bilder/resultat/372x496/resultat-akne-fore-1.jpg',
             image_after_large: '/bilder/resultat/372x496/resultat-akne-efter-1.jpg',
-            url_title: 'Resultat',
-            image_alt: 'Resultat',
-            image_title: 'Resultat',
-            age: 18,
+            url_title: 'Akne resultat',
+            image_alt: 'Akne resultat',
+            image_title: 'Akne resultat',
+            age: 21,
             gender: 'Kvinna',
             problem: 'Akne',
             type: 'Svår',
@@ -96,7 +96,7 @@ $results_per_page = array(
                     new ResultProcedure(
                         image: 'https://via.placeholder.com/102x102.webm',
                         name: 'Aknebehandlingar',
-                        count: '3 tillfällen'
+                        count: '5 tillfällen'
                     ),
                 ),
                 product: new ResultProduct(
@@ -110,102 +110,158 @@ $results_per_page = array(
             )
         ),
         new ResultCustomer(
-            url: 'resultat/details-1',
-            image_before_small: 'https://via.placeholder.com/178x238.webm',
-            image_after_small: 'https://via.placeholder.com/178x238.webm',
-            image_before_large: 'https://via.placeholder.com/372x496.webm',
-            image_after_large: 'https://via.placeholder.com/372x496.webm',
-            url_title: 'Resultat',
-            image_alt: 'Resultat',
-            image_title: 'Resultat',
+            url: '',
+            image_before_small: '/bilder/resultat/178x238/resultat-akne-fore-2.jpg',
+            image_after_small: '/bilder/resultat/178x238/resultat-akne-efter-2.jpg',
+            image_before_large: '/bilder/resultat/372x496/resultat-akne-fore-2.jpg',
+            image_after_large: '/bilder/resultat/372x496/resultat-akne-efter-2.jpg',
+            url_title: 'Akne resultat',
+            image_alt: 'Akne resultat',
+            image_title: 'Akne resultat',
             age: 18,
-            gender: 'Female',
-            problem: 'Acne',
-            type: 'Severe',
+            gender: 'Kvinna',
+            problem: 'Akne',
+            type: 'Svår',
             treatment: new ResultTreatment(
-                duration: '3 months',
+                duration: '2 månader',
                 procedures: array(
                     new ResultProcedure(
                         image: 'https://via.placeholder.com/102x102.webm',
-                        name: 'Problem skin facials',
-                        count: '3 times'
+                        name: 'Aknebehandlingar',
+                        count: '3 tillfällen'
                     ),
                 ),
                 product: new ResultProduct(
                     image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Product bundle for light acne',
+                    name: 'Produktpaket mot svår akne',
                 ),
                 employee: new ResultEmployee(
                     image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Patrick Minogue'
+                    name: 'Julia Eklund'
                 ),
             )
         ),
     ),
     2 => array(
         new ResultCustomer(
-            url: 'resultat/details-1',
-            image_before_small: 'https://via.placeholder.com/178x238.webm',
-            image_after_small: 'https://via.placeholder.com/178x238.webm',
-            image_before_large: 'https://via.placeholder.com/372x496.webm',
-            image_after_large: 'https://via.placeholder.com/372x496.webm',
-            url_title: 'Resultat',
-            image_alt: 'Resultat',
-            image_title: 'Resultat',
-            age: 18,
-            gender: 'Female',
-            problem: 'Acne',
-            type: 'Severe',
+            url: '',
+            image_before_small: '/bilder/resultat/178x238/resultat-aknearr-fore.jpg',
+            image_after_small: '/bilder/resultat/178x238/resultat-aknearr-efter.jpg',
+            image_before_large: '/bilder/resultat/372x496/resultat-aknearr-fore.jpg',
+            image_after_large: '/bilder/resultat/372x496/resultat-aknearr-efter.jpg',
+            url_title: 'Akneärr resultat',
+            image_alt: 'Akneärr resultat',
+            image_title: 'Akneärr resultat',
+            age: 24,
+            gender: 'Kvinna',
+            problem: 'Akneärr',
+            type: 'Mellan',
             treatment: new ResultTreatment(
-                duration: '3 months',
+                duration: '6 månader',
                 procedures: array(
                     new ResultProcedure(
                         image: 'https://via.placeholder.com/102x102.webm',
-                        name: 'Problem skin facials',
-                        count: '3 times'
+                        name: 'Aknebehandlingar',
+                        count: '6 tillfällen'
                     ),
-                ),
-                product: new ResultProduct(
-                    image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Product bundle for light acne',
                 ),
                 employee: new ResultEmployee(
                     image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Patrick Minogue'
+                    name: 'Amira Maqboul'
+                ),
+            )
+        ),
+        new ResultCustomer(
+            url: '',
+            image_before_small: '/bilder/resultat/178x238/resultat-arr-fran-finnar-fore.jpg',
+            image_after_small: '/bilder/resultat/178x238/resultat-arr-fran-finnar-efter.jpg',
+            image_before_large: '/bilder/resultat/372x496/resultat-arr-fran-finnar-fore.jpg',
+            image_after_large: '/bilder/resultat/372x496/resultat-arr-fran-finnar-efter.jpg',
+            url_title: 'Ärr från finnar resultat',
+            image_alt: 'Ärr från finnar resultat',
+            image_title: 'Ärr från finnar resultat',
+            age: 22,
+            gender: 'Kvinna',
+            problem: 'Ärr från finnar',
+            type: 'Mellan',
+            treatment: new ResultTreatment(
+                duration: '5 månader',
+                procedures: array(
+                    new ResultProcedure(
+                        image: 'https://via.placeholder.com/102x102.webm',
+                        name: 'Aknebehandlingar',
+                        count: '4 tillfällen'
+                    ),
+                ),
+                employee: new ResultEmployee(
+                    image: 'https://via.placeholder.com/102x102.webm',
+                    name: 'Julia Eklund'
                 ),
             )
         ),
     ),
     3 => array(
         new ResultCustomer(
-            url: 'resultat/details-1',
-            image_before_small: 'https://via.placeholder.com/178x238.webm',
-            image_after_small: 'https://via.placeholder.com/178x238.webm',
-            image_before_large: 'https://via.placeholder.com/372x496.webm',
-            image_after_large: 'https://via.placeholder.com/372x496.webm',
-            url_title: 'Resultat',
-            image_alt: 'Resultat',
-            image_title: 'Resultat',
+            url: '',
+            image_before_small: '/bilder/resultat/178x238/resultat-finnar-fore.jpg',
+            image_after_small: '/bilder/resultat/178x238/resultat-finnar-efter.jpg',
+            image_before_large: '/bilder/resultat/372x496/resultat-finnar-fore.jpg',
+            image_after_large: '/bilder/resultat/372x496/resultat-finnar-efter.jpg',
+            url_title: 'Resultat mot finnar',
+            image_alt: 'Resultat mot finnar',
+            image_title: 'Resultat mot finnar',
             age: 18,
-            gender: 'Female',
-            problem: 'Acne',
-            type: 'Severe',
+            gender: 'Kvinna',
+            problem: 'Finnar',
+            type: 'Mellan',
             treatment: new ResultTreatment(
-                duration: '3 months',
+                duration: '3 månader',
                 procedures: array(
                     new ResultProcedure(
                         image: 'https://via.placeholder.com/102x102.webm',
-                        name: 'Problem skin facials',
-                        count: '3 times'
+                        name: 'Aknebehandlingar',
+                        count: '3 tillfällen'
                     ),
                 ),
                 product: new ResultProduct(
                     image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Product bundle for light acne',
+                    name: 'Produktpaket mot mellan Finnar',
                 ),
                 employee: new ResultEmployee(
                     image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Patrick Minogue'
+                    name: 'Sally Johansson'
+                ),
+            )
+        ),
+        new ResultCustomer(
+            url: '',
+            image_before_small: '/bilder/resultat/178x238/resultat-blandhy-fore.jpg',
+            image_after_small: '/bilder/resultat/178x238/resultat-blandhy-efter.jpg',
+            image_before_large: '/bilder/resultat/372x496/resultat-blandhy-fore.jpg',
+            image_after_large: '/bilder/resultat/372x496/resultat-blandhy-efter.jpg',
+            url_title: 'Blandhy resultat',
+            image_alt: 'Blandhy resultat',
+            image_title: 'Blandhy resultat',
+            age: 19,
+            gender: 'Kvinna',
+            problem: 'Blandhy',
+            type: 'Mellan',
+            treatment: new ResultTreatment(
+                duration: '3 månader',
+                procedures: array(
+                    new ResultProcedure(
+                        image: 'https://via.placeholder.com/102x102.webm',
+                        name: 'Aknebehandlingar',
+                        count: '3 tillfällen'
+                    ),
+                ),
+                product: new ResultProduct(
+                    image: 'https://via.placeholder.com/102x102.webm',
+                    name: 'Startpaket mot mellan Blandhy',
+                ),
+                employee: new ResultEmployee(
+                    image: 'https://via.placeholder.com/102x102.webm',
+                    name: 'Vilma Libom'
                 ),
             )
         ),
