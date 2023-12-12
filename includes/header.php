@@ -114,7 +114,7 @@
     <div id="important-notice">
         <div>
             <span class="important-notice-highlight">0 kronor</span>
-            <span>Besök oss för en Gratis Hudkonsultation</span>
+            <span>Boka en Gratis Hudkonsultation</span>
             <a href="/gratis-hudkonsultation" title="behandlingar">Boka här</a>
         </div>
     </div>
