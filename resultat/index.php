@@ -265,14 +265,6 @@ $pages = sizeof($results_per_page);
             </div>
         </section>
         <div class="container">
-            <section id="cards">
-                <?php foreach ($results_per_page[$page] as $result_customer) { ?>
-                    <?php include('widgets/result_customer_card/result_customer_card.php'); ?>
-                <?php } ?>
-                <div id="paginator">
-                    <?php include('../hudguide/widgets/paginator/paginator.php'); ?>
-                </div>
-            </section>
             <section id="cta" class="large-margin">
                 <div id="cta-banner-texts">
                     <div class="l10n" id="cta-banner-header">Vill du ha hjälp med din hy?</div>
@@ -281,9 +273,6 @@ $pages = sizeof($results_per_page);
                 <div>
                     <a href="<?php echo $consultation_url ?>" class="button white expand l10n" title="Boka en gratis hudkonsultation">Boka en gratis hudkonsultation</a>
                 </div>
-            </section>
-            <section id="results" class="large-margin">
-                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results.php') ?>
             </section>
             <section id="reviews" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
