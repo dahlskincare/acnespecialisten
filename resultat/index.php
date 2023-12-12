@@ -273,7 +273,7 @@ $pages = sizeof($results_per_page);
                     <?php include('../hudguide/widgets/paginator/paginator.php'); ?>
                 </div>
             </section>
-            <section id="cta" class="large-margin">
+            <section id="cta-banner" class="large-margin">
                 <div id="cta-banner-texts">
                     <div class="l10n" id="cta-banner-header">Vill du ha hjälp med din hy?</div>
                     <div class="p200 l10n" id="cta-banner-content">Boka en gratis hudkonsultation hos en av våra erfarna hudterapeuter.</div>
