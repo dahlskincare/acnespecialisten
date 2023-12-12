@@ -15,6 +15,8 @@
 
 <?php
 
+$consultation_url = 'gratis-hudkonsultation';
+
 $specialists = array(
     new Specialist(
         name: 'Cazzandra Lindberg',
@@ -222,7 +224,7 @@ $pages = sizeof($results_per_page);
                 title: $result_category->title,
                 description: $result_category->description_1,
                 description_extended: $result_category->description_2,
-                button_url: 'gratis-hudkonsultation',
+                button_url: $consultation_url,
                 button_label: 'Boka en gratis konsultation'
             );
             include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/green_header_banner.php');
@@ -263,7 +265,7 @@ $pages = sizeof($results_per_page);
             </div>
         </section>
         <div class="container">
-            <section id="cta" class="large-margin">
+            <section id="cta-banner" class="large-margin">
                 <div id="cta-banner-texts">
                     <div class="l10n" id="cta-banner-header">Vill du ha hjälp med din hy?</div>
                     <div class="p200 l10n" id="cta-banner-content">Boka en gratis hudkonsultation hos en av våra erfarna hudterapeuter.</div>
