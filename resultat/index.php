@@ -79,10 +79,10 @@ $results_per_page = array(
     1 => array(
         new ResultCustomer(
             url: 'resultat/details-1',
-            image_before_small: '/bilder/resultat/178x238/resultat-akne-fore-1',
-            image_after_small: '/bilder/resultat/178x238/resultat-akne-efter-1',
-            image_before_large: '/bilder/resultat/372x496/resultat-akne-fore-1',
-            image_after_large: '/bilder/resultat/372x496/resultat-akne-efter-1',
+            image_before_small: '/bilder/resultat/178x238/resultat-akne-fore-1.jpg',
+            image_after_small: '/bilder/resultat/178x238/resultat-akne-efter-1.jpg',
+            image_before_large: '/bilder/resultat/372x496/resultat-akne-fore-1.jpg',
+            image_after_large: '/bilder/resultat/372x496/resultat-akne-efter-1.jpg',
             url_title: 'Resultat',
             image_alt: 'Resultat',
             image_title: 'Resultat',
