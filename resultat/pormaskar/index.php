@@ -4,9 +4,9 @@
 
 <head>
     <!-- TODO: Set title and meta tags -->
-    <title>Finnar Resultat hos AcneSpecialisten | Effektiva Hudförbättringar</title>
-    <meta name="description" content="Utforska hur AcneSpecialisten framgångsrikt behandlar finnar genom våra kundcase. Se den tydliga effekten av våra specialanpassade behandlingar som reducerar finnar och förbättrar hudens utseende. Våra före- och efterbilder visar hur vi effektivt bekämpar finnar och uppnår en klarare och friskare hud.">
-    <meta name="keywords" content="Finnar behandling resultat, AcneSpecialisten framgångar, Effektiv finnarbehandling, Klar hud, Bekämpa finnar, Kundcase finnar, Resultatdriven finnarbehandling, Hudhälsans förbättring, Finnar före- och efterbilder">
+    <title>Pormaskar Resultat hos AcneSpecialisten | Effektiva Hudförändringar</title>
+    <meta name="description" content="Utforska framgångsrika behandlingsresultat för pormaskar hos AcneSpecialisten. Se hur våra skräddarsydda behandlingar effektivt rengör och minskar pormaskar, vilket leder till en klarare och jämnare hudton. Våra före- och efterbilder visar hur vi effektivt tar hand om pormaskar och förbättrar hudens utseende.">
+    <meta name="keywords" content="Pormaskar behandling resultat, AcneSpecialisten framgångar, Effektiv pormaskbehandling, Rengörande hudvård, Bekämpa pormaskar, Kundcase pormaskar, Resultatdriven pormaskbehandling, Förbättrad hudhälsa, Pormaskar före- och efterbilder">
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
     <link rel="stylesheet" href="/resultat/category.css">
@@ -46,11 +46,11 @@ $specialists = array(
 );
 $result_category =
     new ResultCategory(
-        id: 'finnar',
-        title: 'Finnar Resultat',
-        description_1: 'Upptäck hur AcneSpecialisten framgångsrikt behandlar finnar. Denna sida presenterar en samling av före- och efterbilder som visar effekten av våra anpassade behandlingar. Bevittna hur vi effektivt minskar finnar och förbättrar hudens klarhet och hälsa, vilket resulterar i en mer strålande och enhetlig hudton.',
+        id: 'pormaskar',
+        title: 'Pormaskar Resultat',
+        description_1: 'Upptäck framstegen vi gör hos AcneSpecialisten i behandlingen av pormaskar. Denna sida visar en samling av före- och efterbilder som demonstrerar den märkbara effekten av våra skräddarsydda behandlingar. Bevittna hur vi noggrant rengör och minskar pormaskar, vilket bidrar till en klarare och jämnare hud.',
 
-        description_2: 'Är du redo att ta kontroll över dina finnar och uppleva en märkbar förändring? Boka en kostnadsfri konsultation hos AcneSpecialisten för att börja din resa mot en klarare hud. Vi erbjuder skräddarsydda behandlingsplaner, speciellt utformade för att effektivt behandla finnar och förbättra din hudhälsa.',
+        description_2: 'Är du redo att effektivt hantera dina pormaskar och se verkliga resultat? Genom att boka en kostnadsfri konsultation hos AcneSpecialisten, tar du det första steget mot en renare och mer strålande hud. Våra anpassade behandlingsplaner är utformade för att målinriktat angripa och minska pormaskar, vilket förbättrar både hudens utseende och dess hälsa.',
     );
 
 if (isset($_GET['page']) && $_GET['page'] > 0) {
@@ -63,33 +63,33 @@ $results_per_page = array(
     1 => array(
         new ResultCustomer(
             url: '',
-            image_before_small: '/bilder/resultat/178x238/resultat-finnar-fore.jpg',
-            image_after_small: '/bilder/resultat/178x238/resultat-finnar-efter.jpg',
-            image_before_large: '/bilder/resultat/372x496/resultat-finnar-fore.jpg',
-            image_after_large: '/bilder/resultat/372x496/resultat-finnar-efter.jpg',
-            url_title: 'Resultat mot finnar',
-            image_alt: 'Resultat mot finnar',
-            image_title: 'Resultat mot finnar',
-            age: 18,
+            image_before_small: '/bilder/resultat/178x238/resultat-pormaskar-fore.jpg',
+            image_after_small: '/bilder/resultat/178x238/resultat-pormaskar-efter.jpg',
+            image_before_large: '/bilder/resultat/372x496/resultat-pormaskar-fore.jpg',
+            image_after_large: '/bilder/resultat/372x496/resultat-pormaskar-efter.jpg',
+            url_title: 'Resultat mot pormaskar',
+            image_alt: 'Resultat mot pormaskar',
+            image_title: 'Resultat mot pormaskar',
+            age: 24,
             gender: 'Kvinna',
-            problem: 'Finnar',
+            problem: 'Pormaskar',
             type: 'Mellan',
             treatment: new ResultTreatment(
                 duration: '3 månader',
                 procedures: array(
                     new ResultProcedure(
                         image: 'https://via.placeholder.com/102x102.webm',
-                        name: 'Ansiktsbehandling mot finnar',
+                        name: 'Portömning',
                         count: '3 tillfällen',
                     ),
                 ),
                 product: new ResultProduct(
                     image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Produktpaket mot mellan Finnar',
+                    name: 'Produktpaket mot mellan Pormaskar',
                 ),
                 employee: new ResultEmployee(
                     image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Sally Johansson',
+                    name: 'Jennifer Messner',
                 ),
             )
         ),
