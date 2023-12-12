@@ -96,7 +96,7 @@ $results_per_page = array(
                     new ResultProcedure(
                         image: 'https://via.placeholder.com/102x102.webm',
                         name: 'Aknebehandlingar',
-                        count: '5 tillfällen'
+                        count: '5 tillfällen',
                     ),
                 ),
                 product: new ResultProduct(
@@ -105,7 +105,7 @@ $results_per_page = array(
                 ),
                 employee: new ResultEmployee(
                     image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Cazzandra Lindberg'
+                    name: 'Cazzandra Lindberg',
                 ),
             )
         ),
@@ -128,7 +128,7 @@ $results_per_page = array(
                     new ResultProcedure(
                         image: 'https://via.placeholder.com/102x102.webm',
                         name: 'Aknebehandlingar',
-                        count: '3 tillfällen'
+                        count: '3 tillfällen',
                     ),
                 ),
                 product: new ResultProduct(
@@ -137,7 +137,67 @@ $results_per_page = array(
                 ),
                 employee: new ResultEmployee(
                     image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Julia Eklund'
+                    name: 'Julia Eklund',
+                ),
+            )
+        ),
+        new ResultCustomer(
+            url: '',
+            image_before_small: '/bilder/resultat/178x238/resultat-rosacea-fore.jpg',
+            image_after_small: '/bilder/resultat/178x238/resultat-rosacea-efter.jpg',
+            image_before_large: '/bilder/resultat/372x496/resultat-rosacea-fore.jpg',
+            image_after_large: '/bilder/resultat/372x496/resultat-rosacea-efter.jpg',
+            url_title: 'Rosacea resultat',
+            image_alt: 'Rosacea resultat',
+            image_title: 'Rosacea resultat',
+            age: 33,
+            gender: 'Kvinna',
+            problem: 'Rosacea',
+            type: 'Svår',
+            treatment: new ResultTreatment(
+                duration: '4 månader',
+                procedures: array(
+                    new ResultProcedure(
+                        image: 'https://via.placeholder.com/102x102.webm',
+                        name: 'Rosaceabehandlingar',
+                        count: '3 tillfällen',
+                    ),
+                ),
+                product: new ResultProduct(
+                    image: 'https://via.placeholder.com/102x102.webm',
+                    name: 'Produktpaket mot svår Rosacea',
+                ),
+                employee: new ResultEmployee(
+                    image: 'https://via.placeholder.com/102x102.webm',
+                    name: 'Julia Eklund',
+                ),
+            )
+        ),
+        new ResultCustomer(
+            url: '',
+            image_before_small: '/bilder/resultat/178x238/resultat-ytliga-blodkarl-fore.jpg',
+            image_after_small: '/bilder/resultat/178x238/resultat-ytliga-blodkarl-efter.jpg',
+            image_before_large: '/bilder/resultat/372x496/resultat-ytliga-blodkarl-fore.jpg',
+            image_after_large: '/bilder/resultat/372x496/resultat-ytliga-blodkarl-efter.jpg',
+            url_title: 'Ytliga Blodkärl resultat',
+            image_alt: 'Ytliga Blodkärl resultat',
+            image_title: 'Ytliga Blodkärl resultat',
+            age: 57,
+            gender: 'Kvinna',
+            problem: 'Ytliga Blodkärl',
+            type: 'Mellan',
+            treatment: new ResultTreatment(
+                duration: '4 månader',
+                procedures: array(
+                    new ResultProcedure(
+                        image: 'https://via.placeholder.com/102x102.webm',
+                        name: 'IPL mot Ytliga Blodkärl',
+                        count: '5 tillfällen'
+                    ),
+                ),
+                employee: new ResultEmployee(
+                    image: 'https://via.placeholder.com/102x102.webm',
+                    name: 'Cazzandra Lindberg',
                 ),
             )
         ),
@@ -161,13 +221,13 @@ $results_per_page = array(
                 procedures: array(
                     new ResultProcedure(
                         image: 'https://via.placeholder.com/102x102.webm',
-                        name: 'Aknebehandlingar',
-                        count: '6 tillfällen'
+                        name: 'Microneedling',
+                        count: '6 tillfällen',
                     ),
                 ),
                 employee: new ResultEmployee(
                     image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Amira Maqboul'
+                    name: 'Amira Maqboul',
                 ),
             )
         ),
@@ -189,18 +249,48 @@ $results_per_page = array(
                 procedures: array(
                     new ResultProcedure(
                         image: 'https://via.placeholder.com/102x102.webm',
-                        name: 'Aknebehandlingar',
-                        count: '4 tillfällen'
+                        name: 'Dermapen',
+                        count: '4 tillfällen',
                     ),
                 ),
                 employee: new ResultEmployee(
                     image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Julia Eklund'
+                    name: 'Julia Eklund',
                 ),
             )
         ),
-    ),
-    3 => array(
+        new ResultCustomer(
+            url: '',
+            image_before_small: '/bilder/resultat/178x238/resultat-pormaskar-fore.jpg',
+            image_after_small: '/bilder/resultat/178x238/resultat-pormaskar-efter.jpg',
+            image_before_large: '/bilder/resultat/372x496/resultat-pormaskar-fore.jpg',
+            image_after_large: '/bilder/resultat/372x496/resultat-pormaskar-efter.jpg',
+            url_title: 'Resultat mot pormaskar',
+            image_alt: 'Resultat mot pormaskar',
+            image_title: 'Resultat mot pormaskar',
+            age: 24,
+            gender: 'Kvinna',
+            problem: 'Pormaskar',
+            type: 'Mellan',
+            treatment: new ResultTreatment(
+                duration: '3 månader',
+                procedures: array(
+                    new ResultProcedure(
+                        image: 'https://via.placeholder.com/102x102.webm',
+                        name: 'Portömning',
+                        count: '3 tillfällen',
+                    ),
+                ),
+                product: new ResultProduct(
+                    image: 'https://via.placeholder.com/102x102.webm',
+                    name: 'Produktpaket mot mellan Pormaskar',
+                ),
+                employee: new ResultEmployee(
+                    image: 'https://via.placeholder.com/102x102.webm',
+                    name: 'Jennifer Messner',
+                ),
+            )
+        ),
         new ResultCustomer(
             url: '',
             image_before_small: '/bilder/resultat/178x238/resultat-finnar-fore.jpg',
@@ -219,8 +309,8 @@ $results_per_page = array(
                 procedures: array(
                     new ResultProcedure(
                         image: 'https://via.placeholder.com/102x102.webm',
-                        name: 'Aknebehandlingar',
-                        count: '3 tillfällen'
+                        name: 'Ansiktsbehandling mot finnar',
+                        count: '3 tillfällen',
                     ),
                 ),
                 product: new ResultProduct(
@@ -229,10 +319,12 @@ $results_per_page = array(
                 ),
                 employee: new ResultEmployee(
                     image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Sally Johansson'
+                    name: 'Sally Johansson',
                 ),
             )
         ),
+    ),
+    3 => array(
         new ResultCustomer(
             url: '',
             image_before_small: '/bilder/resultat/178x238/resultat-blandhy-fore.jpg',
@@ -251,8 +343,8 @@ $results_per_page = array(
                 procedures: array(
                     new ResultProcedure(
                         image: 'https://via.placeholder.com/102x102.webm',
-                        name: 'Aknebehandlingar',
-                        count: '3 tillfällen'
+                        name: 'Portömning',
+                        count: '3 tillfällen',
                     ),
                 ),
                 product: new ResultProduct(
@@ -261,7 +353,7 @@ $results_per_page = array(
                 ),
                 employee: new ResultEmployee(
                     image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Vilma Libom'
+                    name: 'Vilma Libom',
                 ),
             )
         ),
