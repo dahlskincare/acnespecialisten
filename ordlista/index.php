@@ -34,7 +34,7 @@ $glossary_items = array(
         new GlossaryItem(
             title: 'Dermapen Akneärr',
             description: '<p class="p200">Här hittar du våra resultat för Dermapen mot Akneärr
-                <a class="b200 underline color-deep-sea-400" href="/resultat/dermapen-aknearr">Dermapen Resultat</a></p>',
+                <a class="b200 underline color-deep-sea-400" href="/resultat/aknearr-dermapen">Dermapen Resultat</a></p>',
         ),
         
     ),
@@ -50,7 +50,7 @@ $glossary_items = array(
         new GlossaryItem(
             title: 'Microneedling Akneärr',
             description: '<p class="p200">Här hittar du våra resultat för Microneedling mot Akneärr
-                <a class="b200 underline color-deep-sea-400" href="/resultat/microneedling-aknearr">Microneedling Resultat</a></p>',
+                <a class="b200 underline color-deep-sea-400" href="/resultat/aknearr-microneedling">Microneedling Resultat</a></p>',
         ),
         
     ),
