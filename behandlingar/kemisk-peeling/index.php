@@ -18,10 +18,10 @@ $model = new Service(
     image_large: 'bilder/behandlingar/424x456/kemisk-peeling.webp',
     image_alt: 'Kemisk peeling behandlingar',
     image_title: 'Kemisk peeling behandlingar',
-    consultation_url: 'https://bokadirekt.se',
+    consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
-    booking_url: 'https://bokadirekt.se',
+    booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
 );
@@ -106,10 +106,10 @@ $big_types = array(
         image_large: 'https://via.placeholder.com/872x456.webp',
         image_alt: 'Skin Tech Easy Phytic Peel',
         image_title: 'Skin Tech Easy Phytic Peel',
-        consultation_url: 'gratis-hudkonsultation',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
         consultation_url_label: 'Boka tid för hudkonsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/',
+        booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyPhytic',
         booking_url_label: 'Boka Skin Tech Easy Phytic Peel',
         booking_url_title: 'Boka Skin Tech Easy Phytic Peel',
         icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
@@ -118,19 +118,19 @@ $big_types = array(
                 label: '1 behandling',
                 price: '1595 kr',
                 savings: null,
-                booking_url: 'https://www.bokadirekt.se'
+                booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyPhytic&procedures=PriceClass_A_Procedure_1'
             ),
             new Procedure(
                 label: '4 behandlingar',
                 price: '5595 kr',
                 savings: 'Spara 785 kr',
-                booking_url: 'https://www.bokadirekt.se'
+                booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyPhytic&procedures=PriceClass_A_Procedure_4'
             ),
             new Procedure(
                 label: '6 behandlingar',
                 price: '7595 kr',
                 savings: 'Spara 1975 kr',
-                booking_url: 'https://www.bokadirekt.se'
+                booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyPhytic&procedures=PriceClass_A_Procedure_6'
             ),
         )
     ),
@@ -144,10 +144,10 @@ $big_types = array(
         image_large: 'https://via.placeholder.com/872x456.webp',
         image_alt: 'Skin Tech Easy Droxy Versicolor Peel',
         image_title: 'Skin Tech Easy Droxy Versicolor Peel',
-        consultation_url: 'gratis-hudkonsultation',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
         consultation_url_label: 'Boka tid för hudkonsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/',
+        booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyDroxyVersicolor',
         booking_url_label: 'Boka Skin Tech Easy Droxy Versicolor Peel',
         booking_url_title: 'Boka Skin Tech Easy Droxy Versicolor Peel',
         icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
@@ -156,19 +156,19 @@ $big_types = array(
                 label: '1 behandling',
                 price: '1595 kr',
                 savings: null,
-                booking_url: 'https://www.bokadirekt.se'
+                booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyDroxyVersicolor&procedures=PriceClass_A_Procedure_1'
             ),
             new Procedure(
                 label: '4 behandlingar',
                 price: '5595 kr',
                 savings: 'Spara 785 kr',
-                booking_url: 'https://www.bokadirekt.se'
+                booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyDroxyVersicolor&procedures=PriceClass_A_Procedure_4'
             ),
             new Procedure(
                 label: '6 behandlingar',
                 price: '7595 kr',
                 savings: 'Spara 1975 kr',
-                booking_url: 'https://www.bokadirekt.se'
+                booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyDroxyVersicolor&procedures=PriceClass_A_Procedure_6'
             ),
         )
     ),
@@ -180,33 +180,33 @@ $big_types = array(
         <p class="p200 mt-m">Under behandlingen appliceras Easy TCA Pain Control varsamt för att behandla hudens djupare lager, vilket stimulerar cellförnyelse och kollagenproduktion. Denna process bidrar till att dramatiskt reducera synliga tecken på åldrande som fina linjer och rynkor, och hjälper till att jämnar ut hudtonen och strukturen. En av de stora fördelarna med Easy TCA Pain Control är dess förmåga att kontrollera obehag under behandlingen, vilket säkerställer en bekvämare upplevelse för patienten. Efter peelingen får huden nödvändig vård för att återhämta sig och för att maximera behandlingseffekten. Skin Tech Easy TCA Pain Control är idealisk för de som önskar en djup och effektiv behandling för att återställa hudens ungdomliga glöd.</p>',
         image_small: 'https://via.placeholder.com/358x274.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Skin Tech Easy Droxy Versicolor Peel',
-        image_title: 'Skin Tech Easy Droxy Versicolor Peel',
-        consultation_url: 'gratis-hudkonsultation',
+        image_alt: 'Skin Tech Easy TCA Pain Control',
+        image_title: 'Skin Tech Easy TCA Pain Control',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
         consultation_url_label: 'Boka tid för hudkonsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka Skin Tech Easy Droxy Versicolor Peel',
-        booking_url_title: 'Boka Skin Tech Easy Droxy Versicolor Peel',
+        booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyTCA',
+        booking_url_label: 'Boka Skin Tech Easy TCA Pain Control',
+        booking_url_title: 'Boka Skin Tech Easy TCA Pain Control',
         icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
         procedures: array(
             new Procedure(
                 label: '1 behandling',
                 price: '1995 kr',
                 savings: null,
-                booking_url: 'https://www.bokadirekt.se'
+                booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyTCA&procedures=PriceClass_B_Procedure_1'
             ),
             new Procedure(
                 label: '4 behandlingar',
                 price: '6995 kr',
                 savings: 'Spara 785 kr',
-                booking_url: 'https://www.bokadirekt.se'
+                booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyTCA&procedures=PriceClass_B_Procedure_4'
             ),
             new Procedure(
                 label: '6 behandlingar',
                 price: '8995 kr',
                 savings: 'Spara 2975 kr',
-                booking_url: 'https://www.bokadirekt.se'
+                booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyTCA&procedures=PriceClass_B_Procedure_6'
             ),
         )
     ),
@@ -221,10 +221,10 @@ $big_types = array(
         image_large: 'https://via.placeholder.com/872x456.webp',
         image_alt: 'PRX-T33',
         image_title: 'PRX-T33',
-        consultation_url: 'gratis-hudkonsultation',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
         consultation_url_label: 'Boka tid för hudkonsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/',
+        booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_PRX',
         booking_url_label: 'Boka PRX-T33',
         booking_url_title: 'Boka PRX-T33',
         icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
@@ -233,19 +233,19 @@ $big_types = array(
                 label: '1 behandling',
                 price: '1995 kr',
                 savings: null,
-                booking_url: 'https://www.bokadirekt.se'
+                booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_PRX&procedures=PriceClass_B_Procedure_1'
             ),
             new Procedure(
                 label: '4 behandlingar',
                 price: '6995 kr',
                 savings: 'Spara 785 kr',
-                booking_url: 'https://www.bokadirekt.se'
+                booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_PRX&procedures=PriceClass_B_Procedure_4'
             ),
             new Procedure(
                 label: '6 behandlingar',
                 price: '8995 kr',
                 savings: 'Spara 2975 kr',
-                booking_url: 'https://www.bokadirekt.se'
+                booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_PRX&procedures=PriceClass_B_Procedure_6'
             ),
         )
     ),
@@ -264,10 +264,10 @@ $types = array(
         image_large: 'https://via.placeholder.com/200x200.jpg',
         image_alt: 'Kemisk Peeling för Melasma',
         image_title: 'Kemisk Peeling för Melasma',
-        consultation_url: 'hudkonsultation-melasma',
+        consultation_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_Melasma',
         consultation_url_label: 'Boka tid för konsultation om Melasma',
         consultation_url_title: 'Boka tid för konsultation om Melasma',
-        booking_url: 'https://www.bokadirekt.se/',
+        booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Melasma',
         booking_url_label: 'Boka Kemisk Peeling för Melasma',
         booking_url_title: 'Boka Kemisk Peeling för Melasma',
     ),
@@ -280,10 +280,10 @@ $types = array(
         image_large: 'https://via.placeholder.com/200x200.jpg',
         image_alt: 'Kemisk Peeling mot Pigmentfläckar',
         image_title: 'Kemisk Peeling mot Pigmentfläckar',
-        consultation_url: 'hudkonsultation-pigmentflackar',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
         consultation_url_label: 'Boka tid för konsultation om Pigmentfläckar',
         consultation_url_title: 'Boka tid för konsultation om Pigmentfläckar',
-        booking_url: 'https://www.bokadirekt.se/',
+        booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_PigmentationSpots',
         booking_url_label: 'Boka Kemisk Peeling mot Pigmentfläckar',
         booking_url_title: 'Boka Kemisk Peeling mot Pigmentfläckar',
     ),
@@ -296,10 +296,10 @@ $types = array(
         image_large: 'https://via.placeholder.com/200x200.jpg',
         image_alt: 'Kemisk Peeling mot Bristningar',
         image_title: 'Kemisk Peeling mot Bristningar',
-        consultation_url: 'hudkonsultation-bristningar',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
         consultation_url_label: 'Boka tid för konsultation om Bristningar',
         consultation_url_title: 'Boka tid för konsultation om Bristningar',
-        booking_url: 'https://www.bokadirekt.se/',
+        booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_StrechMarks',
         booking_url_label: 'Boka Kemisk Peeling mot Bristningar',
         booking_url_title: 'Boka Kemisk Peeling mot Bristningar',
     ),
@@ -312,10 +312,10 @@ $types = array(
         image_large: 'https://via.placeholder.com/200x200.jpg',
         image_alt: 'Kemisk Peeling mot Rynkor och Fina Linjer',
         image_title: 'Kemisk Peeling mot Rynkor och Fina Linjer',
-        consultation_url: 'hudkonsultation-rynkor',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
         consultation_url_label: 'Boka tid för konsultation om Rynkor och Fina Linjer',
         consultation_url_title: 'Boka tid för konsultation om Rynkor och Fina Linjer',
-        booking_url: 'https://www.bokadirekt.se/',
+        booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_Wrinkles',
         booking_url_label: 'Boka Kemisk Peeling mot Rynkor och Fina Linjer',
         booking_url_title: 'Boka Kemisk Peeling mot Rynkor och Fina Linjer',
     ),
@@ -328,10 +328,10 @@ $types = array(
         image_large: 'https://via.placeholder.com/200x200.jpg',
         image_alt: 'Kemisk Peeling mot Solskadad Hy',
         image_title: 'Kemisk Peeling mot Solskadad Hy',
-        consultation_url: 'hudkonsultation-solskadadhy',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
         consultation_url_label: 'Boka tid för konsultation om Solskadad Hy',
         consultation_url_title: 'Boka tid för konsultation om Solskadad Hy',
-        booking_url: 'https://www.bokadirekt.se/',
+        booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_SunDamage',
         booking_url_label: 'Boka Kemisk Peeling mot Solskadad Hy',
         booking_url_title: 'Boka Kemisk Peeling mot Solskadad Hy',
     ),
@@ -344,10 +344,10 @@ $types = array(
         image_large: 'https://via.placeholder.com/200x200.jpg',
         image_alt: 'Kemisk peeling mot acneärr',
         image_title: 'Kemisk peeling mot acneärr',
-        consultation_url: 'gratis-hudkonsultation',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
         consultation_url_label: 'Boka tid för hudkonsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/',
+        booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_AcneScars',
         booking_url_label: 'Boka kemisk peeling mot acneärr',
         booking_url_title: 'Boka kemisk peeling mot acneärr',
     ),
@@ -360,10 +360,10 @@ $types = array(
         image_large: 'https://via.placeholder.com/200x200.jpg',
         image_alt: 'Kemisk Peeling för Aktiv Akne',
         image_title: 'Kemisk Peeling för Aktiv Akne',
-        consultation_url: 'hudkonsultation-aktivakne',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
         consultation_url_label: 'Boka tid för konsultation om Aktiv Akne',
         consultation_url_title: 'Boka tid för konsultation om Aktiv Akne',
-        booking_url: 'https://www.bokadirekt.se/',
+        booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_Acne',
         booking_url_label: 'Boka Kemisk Peeling för Aktiv Akne',
         booking_url_title: 'Boka Kemisk Peeling för Aktiv Akne',
     ),
@@ -376,10 +376,10 @@ $types = array(
         image_large: 'https://via.placeholder.com/200x200.jpg',
         image_alt: 'Kemisk Peeling för Pormaskar och Stora Porer',
         image_title: 'Kemisk Peeling för Pormaskar och Stora Porer',
-        consultation_url: 'hudkonsultation-pormaskar',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
         consultation_url_label: 'Boka tid för konsultation om Pormaskar och Stora Porer',
         consultation_url_title: 'Boka tid för konsultation om Pormaskar och Stora Porer',
-        booking_url: 'https://www.bokadirekt.se/',
+        booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_LargePores',
         booking_url_label: 'Boka Kemisk Peeling för Pormaskar och Stora Porer',
         booking_url_title: 'Boka Kemisk Peeling för Pormaskar och Stora Porer',
     ),
@@ -403,7 +403,7 @@ $treatment_areas = array(
                 title: 'Ansikte',
                 duration: '30 min',
                 price: '1995 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=SKIP&area=ChemicalPeeling_Face',
                 url_label: 'Boka',
                 url_title: 'Boka tid för ansiktsbehandling'
             ),
@@ -414,7 +414,7 @@ $treatment_areas = array(
                 title: 'Hals',
                 duration: '30 min',
                 price: '1995 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=SKIP&area=ChemicalPeeling_Neck',
                 url_label: 'Boka',
                 url_title: 'Boka tid för halsbehandling'
             ),
@@ -425,14 +425,14 @@ $treatment_areas = array(
                 title: 'Dekolletage',
                 duration: '30 min',
                 price: '1995 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=SKIP&area=ChemicalPeeling_Decolletage',
                 url_label: 'Boka',
                 url_title: 'Boka tid för dekolletagebehandling'
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webp',
                 image_alt: 'Rygg',
-                image_title: 'Rygg',
+                image_title: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=SKIP&area=ChemicalPeeling_Back',
                 title: 'Rygg',
                 duration: '30 min',
                 price: '1995 kr',
