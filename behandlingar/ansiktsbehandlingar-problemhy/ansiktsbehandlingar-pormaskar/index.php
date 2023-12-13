@@ -18,10 +18,10 @@ $model = new Service(
     image_large: 'bilder/behandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp',
     image_alt: 'Ansiktsbehandlingar mot pormaskar',
     image_title: 'Ansiktsbehandlingar mot pormaskar',
-    consultation_url: 'https://bokadirekt.se',
+    consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
-    booking_url: 'https://bokadirekt.se',
+    booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones&area=Facial_Face',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
     procedures: array(
@@ -29,7 +29,7 @@ $model = new Service(
             label: '1 behandling',
             price: '995 kr',
             savings: null,
-            booking_url: 'https://bokadirekt.se',
+            booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones&area=Facial_Face&procedures=PriceClass_1_Procedure_1',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
         ),
@@ -37,7 +37,7 @@ $model = new Service(
             label: '3 behandlingar',
             price: '2595 kr',
             savings: '865 kr per behandling',
-            booking_url: 'https://bokadirekt.se',
+            booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones&area=Facial_Chest&procedures=PriceClass_1_Procedure_1',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
         ),
@@ -45,7 +45,7 @@ $model = new Service(
             label: '5 behandlingar',
             price: '3995 kr',
             savings: '799 kr per behandling',
-            booking_url: 'https://bokadirekt.se',
+            booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones&area=Facial_Back&procedures=PriceClass_1_Procedure_1',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
         )
@@ -115,7 +115,7 @@ $treatment_areas = array(
                 title: 'Ansikte',
                 duration: '60 min',
                 price: '995 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones&area=Facial_Face&procedures=PriceClass_1_Procedure_1',
                 url_label: 'Boka',
                 url_title: 'Boka tid för portömning i ansiktet'
             ),
@@ -126,7 +126,7 @@ $treatment_areas = array(
                 title: 'Bröst',
                 duration: '60 min',
                 price: '995 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones&area=Facial_Chest&procedures=PriceClass_1_Procedure_1',
                 url_label: 'Boka',
                 url_title: 'Boka tid för portömning på bröstet'
             ),
@@ -137,7 +137,7 @@ $treatment_areas = array(
                 title: 'Rygg',
                 duration: '60 min',
                 price: '995 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones&area=Facial_Back&procedures=PriceClass_1_Procedure_1',
                 url_label: 'Boka',
                 url_title: 'Boka tid för portömning på ryggen'
             ),

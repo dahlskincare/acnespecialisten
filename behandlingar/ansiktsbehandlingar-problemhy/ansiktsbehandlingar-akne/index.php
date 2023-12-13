@@ -19,10 +19,10 @@ $model = new Service(
     image_large: 'bilder/behandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp',
     image_alt: 'Ansiktsbehandlingar mot akne',
     image_title: 'Ansiktsbehandlingar mot akne',
-    consultation_url: 'https://bokadirekt.se',
+    consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
-    booking_url: 'https://bokadirekt.se',
+    booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
     procedures: array(
@@ -30,7 +30,7 @@ $model = new Service(
             label: '1 behandling',
             price: '995 kr',
             savings: null,
-            booking_url: 'https://bokadirekt.se',
+            booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne&area=Facial_Face&procedures=PriceClass_1_Procedure_1',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
         ),
@@ -38,7 +38,7 @@ $model = new Service(
             label: '3 behandlingar',
             price: '2595 kr',
             savings: '865 kr per behandling',
-            booking_url: 'https://bokadirekt.se',
+            booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne&area=Facial_Face',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
         ),
@@ -46,7 +46,7 @@ $model = new Service(
             label: '5 behandlingar',
             price: '3995 kr',
             savings: '799 kr per behandling',
-            booking_url: 'https://bokadirekt.se',
+            booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne&area=Facial_Face',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
         )
@@ -115,7 +115,7 @@ $treatment_areas = array(
                 title: 'Ansikte',
                 duration: '60 min',
                 price: '995 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne&area=Facial_Face',
                 url_label: 'Boka',
                 url_title: 'Boka tid för ansiktsbehandling mot akne'
             ),
@@ -126,7 +126,7 @@ $treatment_areas = array(
                 title: 'Bröst',
                 duration: '60 min',
                 price: '995 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne&area=Facial_Chest',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling mot akne på bröstet'
             ),
@@ -137,7 +137,7 @@ $treatment_areas = array(
                 title: 'Rygg',
                 duration: '60 min',
                 price: '995 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne&area=Facial_Back',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling mot akne på ryggen'
             ),

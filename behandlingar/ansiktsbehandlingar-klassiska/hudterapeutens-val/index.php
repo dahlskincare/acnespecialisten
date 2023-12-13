@@ -21,7 +21,7 @@ $model = new Service(
     consultation_url: 'https://acnespecialisten.se/book?flow=consultation',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
-    booking_url: 'https://bokadirekt.se',
+    booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_TherapistsChoice',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
     procedures: array(
@@ -29,25 +29,25 @@ $model = new Service(
             label: '1 behandling',
             price: '1595 kr',
             savings: null,
-            booking_url: 'https://bokadirekt.se',
+            booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_TherapistsChoice&procedures=PriceClass_3_Procedure_1',
             booking_url_label: 'Boka tid för behandling',
-            booking_url_title: 'Boka tid för behandling'
+            booking_url_title: 'Boka tid för behandling',
         ),
         new Procedure(
             label: '3 behandlingar',
             price: '3995 kr',
             savings: 'Spara 790 kr',
-            booking_url: 'https://bokadirekt.se',
+            booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_TherapistsChoice&procedures=PriceClass_3_Procedure_3',
             booking_url_label: 'Boka tid för behandling',
-            booking_url_title: 'Boka tid för behandling'
+            booking_url_title: 'Boka tid för behandling',
         ),
         new Procedure(
             label: '5 behandlingar',
             price: '5995 kr',
             savings: 'Spara 1980 kr',
-            booking_url: 'https://bokadirekt.se',
+            booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_TherapistsChoice&procedures=PriceClass_3_Procedure_5',
             booking_url_label: 'Boka tid för behandling',
-            booking_url_title: 'Boka tid för behandling'
+            booking_url_title: 'Boka tid för behandling',
         )
     ),
 );
@@ -107,10 +107,10 @@ $big_types = array(
         image_large: 'https://via.placeholder.com/872x456.webp',
         image_alt: 'Hudterapeutens val',
         image_title: 'Hudterapeutens val',
-        consultation_url: 'gratis-hudkonsultation',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation',
         consultation_url_label: 'Boka tid för hudkonsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/',
+        booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_TherapistsChoice',
         booking_url_label: 'Boka Hudterapeutens val',
         booking_url_title: 'Boka Hudterapeutens val',
         icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),

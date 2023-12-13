@@ -21,7 +21,7 @@ $model = new Service(
     consultation_url: 'https://bokadirekt.se',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
-    booking_url: 'https://bokadirekt.se',
+    booking_url: 'https://acnespecialisten.se/book?flow=dermabrasion',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
 );

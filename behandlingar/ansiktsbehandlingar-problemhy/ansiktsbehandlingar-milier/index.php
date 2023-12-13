@@ -18,38 +18,12 @@ $model = new Service(
     image_large: 'bilder/behandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp',
     image_alt: 'Ansiktsbehandlingar mot pormaskar',
     image_title: 'Ansiktsbehandlingar mot pormaskar',
-    consultation_url: 'https://bokadirekt.se',
+    consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Milia',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
-    booking_url: 'https://bokadirekt.se',
+    booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Milia',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
-    procedures: array(
-        new Procedure(
-            label: '1 behandling',
-            price: '1295 kr',
-            savings: null,
-            booking_url: 'https://bokadirekt.se',
-            booking_url_label: 'Boka tid för behandling',
-            booking_url_title: 'Boka tid för behandling'
-        ),
-        new Procedure(
-            label: '3 behandlingar',
-            price: '2595 kr',
-            savings: '865 kr per behandling',
-            booking_url: 'https://bokadirekt.se',
-            booking_url_label: 'Boka tid för behandling',
-            booking_url_title: 'Boka tid för behandling'
-        ),
-        new Procedure(
-            label: '5 behandlingar',
-            price: '3995 kr',
-            savings: '799 kr per behandling',
-            booking_url: 'https://bokadirekt.se',
-            booking_url_label: 'Boka tid för behandling',
-            booking_url_title: 'Boka tid för behandling'
-        )
-    ),
 );
 
 $nav_buttons = array(
@@ -106,33 +80,13 @@ $big_types = array(
         image_large: 'https://via.placeholder.com/872x456.webp',
         image_alt: 'Milierbehandling',
         image_title: 'Milierbehandling',
-        consultation_url: 'gratis-hudkonsultation',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation',
         consultation_url_label: 'Boka tid för hudkonsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/',
+        booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Milia',
         booking_url_label: 'Boka Milierbehandling',
         booking_url_title: 'Boka Milierbehandling',
         icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
-        procedures: array(
-            new Procedure(
-                label: '1 behandling',
-                price: '1295 kr',
-                savings: null,
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '3 behandlingar',
-                price: '2595 kr',
-                savings: '865 kr per besök',
-                booking_url: 'https://www.bokadirekt.se'
-            ),
-            new Procedure(
-                label: '5 behandlingar',
-                savings: '2595 kr',
-                price: '799 kr per besök',
-                booking_url: 'https://www.bokadirekt.se'
-            )
-        )
     ),
 );
 
