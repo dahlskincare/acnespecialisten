@@ -14,8 +14,7 @@ $model = new Service(
     title: 'Injektionsbehandlingar',
     duration: null,
     price: 'Från 2595 kr',
-    content: '<p class="p200">På AcneSpecialisten erbjuder vi specialiserade injektionsbehandlingar för att förbättra hudens utseende och textur. Dessa behandlingar är utformade för att försiktigt minska synliga linjer och rynkor samt återställa hudens volym och konturer.</p>
-    <p class="p200 mt-m">Våra injektionsbehandlingar är idealiska för dig som vill förbättra specifika områden i ansiktet, såsom kinder, läppar eller panna. Oavsett om du är ute efter att ge din hy en uppfräschning eller vill hantera specifika åldersrelaterade förändringar, är våra injektionsbehandlingar en effektiv lösning för att förbättra din hudhälsa och ditt utseende.</p>',
+    content: '<p class="p200">Vi erbjuder specialiserade injektionsbehandlingar för att förbättra hudens utseende och textur. Dessa behandlingar är utformade för att försiktigt minska synliga linjer och rynkor samt återställa hudens volym och konturer. Våra injektionsbehandlingar är idealiska för dig som vill förbättra specifika områden i ansiktet, såsom kinder, läppar eller panna. Oavsett om du är ute efter att ge din hy en uppfräschning eller vill hantera specifika åldersrelaterade förändringar, är våra injektionsbehandlingar en effektiv lösning.</p>',
     image_small: 'bilder/behandlingar/358x274/injektionsbehandlingar.webp',
     image_large: 'bilder/behandlingar/424x456/injektionsbehandlingar.webp',
     image_alt: 'Ansiktsbehandlingar för problemhy',
