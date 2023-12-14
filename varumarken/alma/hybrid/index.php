@@ -19,10 +19,10 @@ $model = new Service(
     image_large: 'https://via.placeholder.com/424x456.webp',
     image_alt: 'Alma Hybrid',
     image_title: 'Alma Hybrid',
-    consultation_url: 'https://bokadirekt.se',
+    consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_HybridCO2',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
-    booking_url: 'https://bokadirekt.se',
+    booking_url: 'https://acnespecialisten.se/book?flow=almahybrid',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
 );
@@ -113,7 +113,7 @@ $big_types = array(
         image_large: 'https://via.placeholder.com/872x456.webp',
         image_alt: 'Hybrid oScar',
         image_title: 'Hybrid oScar',
-        consultation_url: 'gratis-hudkonsultation',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_HybridCO2',
         consultation_url_label: 'Boka tid för hudkonsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
         booking_url: 'https://www.bokadirekt.se/',
@@ -125,19 +125,19 @@ $big_types = array(
                 label: '1 behandling',
                 price: '4595 kr',
                 savings: null,
-                booking_url: 'https://www.bokadirekt.se'
+                booking_url: 'https://acnespecialisten.se/book?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_oScar&procedures=PriceClass_9_Procedure_1'
             ),
             new Procedure(
                 label: '3 behandlingar',
                 price: '10995 kr',
                 savings: 'Spara 2790 kr',
-                booking_url: 'https://www.bokadirekt.se'
+                booking_url: 'https://acnespecialisten.se/book?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_oScar&procedures=PriceClass_9_Procedure_3'
             ),
             new Procedure(
                 label: '5 behandlingar',
                 price: '15995 kr',
                 savings: 'Spara 6980 kr',
-                booking_url: 'https://www.bokadirekt.se'
+                booking_url: 'https://acnespecialisten.se/book?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_oScar&procedures=PriceClass_9_Procedure_5'
             )
         )
     ),
@@ -152,7 +152,7 @@ $big_types = array(
         image_large: 'https://via.placeholder.com/872x456.webp',
         image_alt: 'HybridLift',
         image_title: 'HybridLift',
-        consultation_url: 'gratis-hudkonsultation',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_HybridCO2',
         consultation_url_label: 'Boka tid för hudkonsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
         booking_url: 'https://www.bokadirekt.se/',
@@ -164,19 +164,19 @@ $big_types = array(
                 label: '1 behandling',
                 price: '4595 kr',
                 savings: null,
-                booking_url: 'https://www.bokadirekt.se'
+                booking_url: 'https://acnespecialisten.se/book?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_HybridLift&procedures=PriceClass_9_Procedure_1'
             ),
             new Procedure(
                 label: '3 behandlingar',
                 price: '10995 kr',
                 savings: 'Spara 2790 kr',
-                booking_url: 'https://www.bokadirekt.se'
+                booking_url: 'https://acnespecialisten.se/book?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_HybridLift&procedures=PriceClass_9_Procedure_3'
             ),
             new Procedure(
                 label: '5 behandlingar',
                 price: '15995 kr',
                 savings: 'Spara 6980 kr',
-                booking_url: 'https://www.bokadirekt.se'
+                booking_url: 'https://acnespecialisten.se/book?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_HybridLift&procedures=PriceClass_9_Procedure_5'
             )
         )
     ),
@@ -191,7 +191,7 @@ $big_types = array(
         image_large: 'https://via.placeholder.com/872x456.webp',
         image_alt: 'SoftLift',
         image_title: 'SoftLift',
-        consultation_url: 'gratis-hudkonsultation',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_HybridCO2',
         consultation_url_label: 'Boka tid för hudkonsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
         booking_url: 'https://www.bokadirekt.se/',
@@ -203,19 +203,19 @@ $big_types = array(
                 label: '1 behandling',
                 price: '3595 kr',
                 savings: null,
-                booking_url: 'https://www.bokadirekt.se'
+                booking_url: 'https://acnespecialisten.se/book?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_SoftLift&procedures=PriceClass_7_Procedure_1'
             ),
             new Procedure(
                 label: '3 behandlingar',
                 price: '8995 kr',
                 savings: 'Spara 1790 kr',
-                booking_url: 'https://www.bokadirekt.se'
+                booking_url: 'https://acnespecialisten.se/book?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_SoftLift&procedures=PriceClass_7_Procedure_3'
             ),
             new Procedure(
                 label: '5 behandlingar',
                 price: '12995 kr',
                 savings: 'Spara 4980 kr',
-                booking_url: 'https://www.bokadirekt.se'
+                booking_url: 'https://acnespecialisten.se/book?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_SoftLift&procedures=PriceClass_7_Procedure_5'
             )
         )
     ),
@@ -234,10 +234,10 @@ $types = array(
         image_large: 'https://via.placeholder.com/200x200.jpg',
         image_alt: 'Alma Hybrid mot Acneärr',
         image_title: 'Alma Hybrid mot Acneärr',
-        consultation_url: 'konsultation-acnearr',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_HybridCO2',
         consultation_url_label: 'Boka gratis konsultation',
         consultation_url_title: 'Boka gratis konsultation',
-        booking_url: 'https://www.bokadirekt.se/',
+        booking_url: 'https://acnespecialisten.se/book?flow=almahybrid&skipable_problem=Problem_AcneScars',
         booking_url_label: 'Boka Alma Hybrid mot Acneärr',
         booking_url_title: 'Boka Alma Hybrid mot Acneärr',
     ),
@@ -251,10 +251,10 @@ $types = array(
         image_large: 'https://via.placeholder.com/200x200.jpg',
         image_alt: 'Alma Hybrid mot Rynkor och Fina Linjer',
         image_title: 'Alma Hybrid mot Rynkor och Fina Linjer',
-        consultation_url: 'konsultation-rynkor-fina-linjer',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_HybridCO2',
         consultation_url_label: 'Boka gratis konsultation',
         consultation_url_title: 'Boka gratis konsultation',
-        booking_url: 'https://www.bokadirekt.se/',
+        booking_url: 'https://acnespecialisten.se/book?flow=almahybrid&skipable_problem=Problem_Wrinkles',
         booking_url_label: 'Boka Alma Hybrid mot Rynkor och Fina Linjer',
         booking_url_title: 'Boka Alma Hybrid mot Rynkor och Fina Linjer',
     ),
@@ -268,10 +268,10 @@ $types = array(
         image_large: 'https://via.placeholder.com/200x200.jpg',
         image_alt: 'Alma Hybrid mot Bristningar',
         image_title: 'Alma Hybrid mot Bristningar',
-        consultation_url: 'konsultation-bristningar',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_HybridCO2',
         consultation_url_label: 'Boka gratis konsultation',
         consultation_url_title: 'Boka gratis konsultation',
-        booking_url: 'https://www.bokadirekt.se/',
+        booking_url: 'https://acnespecialisten.se/book?flow=almahybrid&skipable_problem=Problem_StrechMarks',
         booking_url_label: 'Boka Alma Hybrid mot Bristningar',
         booking_url_title: 'Boka Alma Hybrid mot Bristningar',
     ),
@@ -285,10 +285,10 @@ $types = array(
         image_large: 'https://via.placeholder.com/200x200.jpg',
         image_alt: 'Alma Hybrid mot Ärr (Skade- och Operationsärr)',
         image_title: 'Alma Hybrid mot Ärr (Skade- och Operationsärr)',
-        consultation_url: 'konsultation-arr',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_HybridCO2',
         consultation_url_label: 'Boka gratis konsultation',
         consultation_url_title: 'Boka gratis konsultation',
-        booking_url: 'https://www.bokadirekt.se/',
+        booking_url: 'https://acnespecialisten.se/book?flow=almahybrid&skipable_problem=Problem_Scars',
         booking_url_label: 'Boka Alma Hybrid mot Ärr (Skade- och Operationsärr)',
         booking_url_title: 'Boka Alma Hybrid mot Ärr (Skade- och Operationsärr)',
     ),
@@ -302,10 +302,10 @@ $types = array(
         image_large: 'https://via.placeholder.com/200x200.jpg',
         image_alt: 'Alma Hybrid  mot Pigmentfläckar',
         image_title: 'Alma Hybrid mot Pigmentfläckar',
-        consultation_url: 'konsultation-pigmentflackar',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_HybridCO2',
         consultation_url_label: 'Boka gratis konsultation',
         consultation_url_title: 'Boka gratis konsultation',
-        booking_url: 'https://www.bokadirekt.se/',
+        booking_url: 'https://acnespecialisten.se/book?flow=almahybrid&skipable_problem=Problem_PigmentationSpots',
         booking_url_label: 'Boka Alma Hybrid mot Pigmentfläckar',
         booking_url_title: 'Boka Alma Hybrid mot Pigmentfläckar',
     ),
@@ -319,10 +319,10 @@ $types = array(
         image_large: 'https://via.placeholder.com/200x200.jpg',
         image_alt: 'Alma Hybrid mot Aktiv Acne',
         image_title: 'Alma Hybrid mot Aktiv Acne',
-        consultation_url: 'konsultation-aktiv-acne',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_HybridCO2',
         consultation_url_label: 'Boka gratis konsultation',
         consultation_url_title: 'Boka gratis konsultation',
-        booking_url: 'https://www.bokadirekt.se/',
+        booking_url: 'https://acnespecialisten.se/book?flow=almahybrid&skipable_problem=Problem_Acne',
         booking_url_label: 'Boka Alma Hybrid mot Aktiv Acne',
         booking_url_title: 'Boka Alma Hybrid mot Aktiv Acne',
     ),
@@ -336,10 +336,10 @@ $types = array(
         image_large: 'https://via.placeholder.com/200x200.jpg',
         image_alt: 'Alma Hybrid mot Stora Porer',
         image_title: 'Alma Hybrid mot Stora Porer',
-        consultation_url: 'konsultation-stora-porer',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_HybridCO2',
         consultation_url_label: 'Boka gratis konsultation',
         consultation_url_title: 'Boka gratis konsultation',
-        booking_url: 'https://www.bokadirekt.se/',
+        booking_url: 'https://acnespecialisten.se/book?flow=almahybrid&skipable_problem=Problem_LargePores',
         booking_url_label: 'Boka Alma Hybrid mot Stora Porer',
         booking_url_title: 'Boka Alma Hybrid mot Stora Porer',
     ),
@@ -353,7 +353,7 @@ $types = array(
         image_large: 'https://via.placeholder.com/200x200.jpg',
         image_alt: 'Alma Hybrid mot Hudutväxter',
         image_title: 'Alma Hybrid mot Hudutväxter',
-        consultation_url: 'konsultation-hudutvaxter',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_HybridCO2',
         consultation_url_label: 'Boka gratis konsultation',
         consultation_url_title: 'Boka gratis konsultation',
         booking_url: 'https://www.bokadirekt.se/',
@@ -370,7 +370,7 @@ $types = array(
         image_large: 'https://via.placeholder.com/200x200.jpg',
         image_alt: 'Alma Hybrid för Hudföryngring (Skin Rejuvenation)',
         image_title: 'Alma Hybrid för Hudföryngring (Skin Rejuvenation)',
-        consultation_url: 'konsultation-hudutvaxter',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_HybridCO2',
         consultation_url_label: 'Boka gratis konsultation',
         consultation_url_title: 'Boka gratis konsultation',
         booking_url: 'https://www.bokadirekt.se/',
