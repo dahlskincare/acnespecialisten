@@ -50,27 +50,6 @@ $models = array(
     ),
 );
 
-$types_title = 'Hudproblem som behandlas med Harmony XL Pro';
-$types_description = '<p class="p200">med Harmony XL Pro behandlar vi en rad olika hudproblem effektivt.</p>';
-$types = array(
-    new Service(
-        title: 'Harmony XL Pro mot Acneärr',
-        duration: '90 minuter',
-        price: '4595 kr',
-        content: 'Harmony XL Pro-lasern reducerar effektivt acneärr och förbättrar hudens textur genom att stimulera kollagenproduktion och främja hudens läkning, vilket resulterar i en jämnare och mer föryngrad hud.',
-        image_small: 'https://via.placeholder.com/102x102.jpg',
-        image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Harmony XL Pro mot Acneärr',
-        image_title: 'Harmony XL Pro mot Acneärr',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_HarmonyXLPRO',
-        consultation_url_label: 'Boka gratis konsultation',
-        consultation_url_title: 'Boka gratis konsultation',
-        booking_url: 'https://acnespecialisten.se/book?flow=almaharmony&skipable_problem=Problem_AcneScars',
-        booking_url_label: 'Boka Harmony XL Pro mot Acneärr',
-        booking_url_title: 'Boka Harmony XL Pro mot Acneärr',
-    ),
-);
-
 $results = array(
     new ResultCustomer(
         url: '',
@@ -446,14 +425,6 @@ $all_brands = array(
                             </div>
                         <?php } ?>
                     </div>
-                </section>
-                <section id="problems" class="large-margin">
-                    <h2 class="h500 l10n">Problem vi behandlar med Alma</h2>
-                    <hr class="divider is-hidden-touch" />
-                    <?php foreach ($problems as $service) { ?>
-                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
-                        <hr class="divider is-hidden-touch" />
-                    <?php } ?>
                 </section>
                 <section id="results" class="large-margin">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php') ?>
