@@ -38,7 +38,7 @@ $header_brands = array(
       ),
       new Brand(
             label: 'Exceed',
-            image: 'bilder/varumarken/exceed.svg',
+            image: 'bilder/varumarken/exceed.png',
             image_alt: 'Exceed',
             image_title: 'Exceed',
             url: 'varumarken/exceed',
@@ -62,7 +62,7 @@ $header_brands = array(
       ),
       new Brand(
             label: 'Microdermabrasion',
-            image: 'bilder/varumarken/microdermabrasion.svg',
+            image: 'bilder/varumarken/microdermabrasion.png',
             image_alt: 'Microdermabrasion',
             image_title: 'Microdermabrasion',
             url: 'varumarken/microdermabrasion',
@@ -94,11 +94,19 @@ $header_brands = array(
       ),
       new Brand(
             label: 'Splendor X',
-            image: 'bilder/varumarken/splendor-x.svg',
+            image: 'bilder/varumarken/splendor-x.png',
             image_alt: 'Splendor X',
             image_title: 'Splendor X',
             url: 'varumarken/splendor-x',
             url_title: 'Splendor X',
+      ),
+      new Brand(
+            label: 'Soprano Ice',
+            image: 'bilder/varumarken/soprano-ice.png',
+            image_alt: 'Soprano Ice',
+            image_title: 'Soprano Ice',
+            url: 'varumarken/alma/soprano-ice',
+            url_title: 'Soprano Ice',
       ),
 );
 

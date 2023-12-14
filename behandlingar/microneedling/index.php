@@ -405,7 +405,7 @@ $service_brands = array(
     ),
     new Brand(
         label: 'Exceed',
-        image: 'images/brands/exceed.svg',
+        image: 'images/brands/exceed.png',
         image_alt: 'Exceed',
         image_title: 'Exceed'
     ),

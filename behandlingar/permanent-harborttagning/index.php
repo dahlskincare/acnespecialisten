@@ -472,13 +472,13 @@ $service_brands = array(
 
     new Brand(
         label: 'Splendor X',
-        image: 'images/brands/splendor-x.svg',
+        image: 'images/brands/splendor-x.png',
         image_alt: 'Splendor X',
         image_title: 'Splendor X',
     ),
     new Brand(
         label: 'Soprano Ice',
-        image: 'images/brands/soprano-ice.svg',
+        image: 'images/brands/soprano-ice.png',
         image_alt: 'Soprano Ice',
         image_title: 'Soprano Ice',
     ),
