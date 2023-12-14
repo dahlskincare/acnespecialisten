@@ -52,8 +52,8 @@ class ServiceCategory
 
 $green_banner_content = new GreenBannerContent(
     title: 'Behandlingar',
-    description: 'Vi erbjuder ett brett utbud av behandlingar anpassade för alla typer av hudproblem. Våra tjänster inkluderar ansiktsbehandlingar som djuprengör och återupplivar huden, avancerade kemiska peelingar för hudföryngring, och skonsamma frysbehandlingar för att effektivt hantera hudtillstånd. Dessutom tillhandahåller vi IPL-behandlingar för hudförbättring, permanent hårborttagning för en slät hud, samt laserbehandlingar speciellt riktade mot problemhy. Vår microneedling-teknik är utformad för att stimulera hudens naturliga läkningsprocess och främja en fräschare hud.',
-    description_extended: 'Vi förstår att varje hud är unik. Därför erbjuder vi skräddarsydda behandlingar för att uppfylla dina specifika behov. Oavsett om du söker lösningar för acne, åldrande, oönskad hårväxt eller bara vill förbättra din hudhälsa, har vi rätt behandling för dig. Våra erfarna specialister använder de senaste teknikerna och metoderna för att ge dig de bästa möjliga resultaten. Boka en tid hos oss för att upptäcka hur vi kan hjälpa dig att uppnå den hud du alltid drömt om.',
+    description: 'Vi erbjuder ett brett utbud av behandlingar anpassade för alla typer av hudproblem. Våra tjänster inkluderar ansiktsbehandlingar som djuprengör och återupplivar huden, avancerade kemiska peelingar för hudföryngring, och skonsamma frysbehandlingar för att effektivt hantera hudtillstånd.',
+    description_extended: 'Vi förstår att varje hud är unik. Därför erbjuder vi skräddarsydda behandlingar för att uppfylla dina specifika behov. Våra erfarna specialister använder de senaste teknikerna och metoderna för att ge dig de bästa möjliga resultaten. Boka en tid hos oss för att upptäcka hur vi kan hjälpa dig.',
     button_url: 'gratis-hudkonsultation',
     button_label: 'Boka en gratis konsultation'
 );

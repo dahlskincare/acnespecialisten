@@ -417,7 +417,7 @@ $all_brands = array(
                 </section>
                 <section id="models" class="large-margin">
                     <h2 class="h500 l10n">Alma maskiner</h2>
-                    <p class="p200 mt-xs l10n">På AcneSpecialisten använder vi fyra avancerade maskiner från Alma Lasers för att erbjuda ett brett spektrum av hudbehandlingar. Dessa inkluderar Alma Hybrid CO2, Harmony XL Pro, Rejuve Dye VL och Soprano Ice, var och en med sina unika egenskaper och fördelar. Alma Hybrid CO2 är en toppmodern laser för hudföryngring och ärrbehandling, medan Harmony XL Pro erbjuder mångsidiga lösningar för en rad hudtillstånd från akne till pigmentering. Rejuve Dye VL är specialiserad på att behandla rodnad och vaskulära lesioner, och Soprano Ice är känt för sin effektiva och bekväma laserhårborttagning. Varje system är utformat för att ge säkra och effektiva resultat, vilket gör dem till en vital del av våra hudvårdslösningar.</p>
+                    <p class="p200 mt-xs l10n">På AcneSpecialisten använder vi fyra avancerade maskiner från Alma Lasers för att erbjuda ett brett spektrum av hudbehandlingar. Dessa inkluderar Alma Hybrid CO2, Harmony XL Pro, Rejuve Dye VL och Soprano Ice, var och en med sina unika egenskaper och fördelar.</p>
                     <div class="columns is-multiline is-variable is-3">
                         <?php foreach ($models as $model) { ?>
                             <div class="column is-half">
