@@ -4,16 +4,17 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 include_once('../widgets/brand_model_card/brand_model.php');
 
 $nav_buttons = array(
-    'about' => 'Overview',
-    'models' => 'Models',
-    'problems' => 'Problems',
-    'results' => 'Results',
-    'reviews' => 'Reviews',
+    'about' => 'Om Alma',
+    'models' => 'Modeller',
+    'problems' => 'Problem',
+    'results' => 'Resultats',
+    'reviews' => 'Omdömnen',
     'faq' => 'FAQ',
-    'skin-guide' => 'Skin guide',
-    'specialists' => 'Facials specialists',
-    'brands' => 'Brands',
+    'skin-guide' => 'Hudguide',
+    'specialists' => 'Specialister',
+    'service-brands' => 'Märken',
 );
+
 $models = array(
     new BrandModel(
         image: 'https://via.placeholder.com/102x102.webp',
@@ -312,10 +313,9 @@ $specialists = array(
 
 <head>
     <!-- TODO: Set title and meta tags -->
-    <title class="l10n">Acnespecialisten | Alma</title>
-    <meta name="description" content="" class="l10n">
-    <meta name="title" content="" class="l10n">
-    <meta name="keywords" content="" class="l10n">
+    <title>Alma Laser hos AcneSpecialisten | Avancerad Hudvårdsteknologi</title>
+    <meta name="description" content="På AcneSpecialisten använder vi Alma Lasers högteknologiska system för att erbjuda banbrytande behandlingar. Upptäck våra Alma-lösningar, inklusive Hybrid CO2, Harmony XL Pro, Rejuve Dye VL och Soprano Ice, designade för att effektivt hantera en mängd hudproblem och förbättra hudhälsa.">
+    <meta name="keywords" content="Alma Lasers, Avancerad hudvårdsteknologi, Hybrid CO2, Harmony XL Pro, Rejuve Dye VL, Soprano Ice, AcneSpecialisten behandlingar, Hudföryngring, Laserhårborttagning, Hudproblem lösningar, Estetisk hudvård">
     <meta property="og:title" content="Acnespecialisten" />
     <meta property="og:description" content="" class="l10n" />
     <meta property="og:image" content="images/about-desktop.jpg" />
@@ -341,14 +341,14 @@ $specialists = array(
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
                     <div>
                         <h2 class="h600 l10n">Alma</h2>
-                        <p class="mt-m p200 l10n">A method that suits everyone. We identify your skin type and which problem skin you have with the help of our skin analysis.</p>
+                        <p class="mt-m p200 l10n">Alma erbjuder de modernaste och mest avancerade maskinerna inom skönhet och hudvård.</p>
                         <div class="mt-xl">
                             <div class="columns is-2 is-variable">
                                 <div class="column">
-                                    <a href="gratis-hudkonsultation" class="button white expand l10n" title="Free consultation">Free consultation</a>
+                                    <a href="gratis-hudkonsultation" class="button white expand l10n" title="Boka konsultation">Boka konsultation</a>
                                 </div>
                                 <div class="column">
-                                    <a href="https://bokadirekt.se" class="button white expand l10n" title="Book a treatment">Book a treatment</a>
+                                    <a href="https://bokadirekt.se" class="button white expand l10n" title="Boka behandling">Boka behandling</a>
                                 </div>
                             </div>
                         </div>
@@ -364,15 +364,15 @@ $specialists = array(
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
                     <h1 class="mt-xs h600 l10n">Alma</h1>
                     <div class="mt-xs l10n">
-                        Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we.
+                        Alma är en ledande innovatör inom estetisk laserbehandling. Vårt utbud omfattar fyra av Almas toppmoderna system: Alma Hybrid CO2, Harmony XL Pro, Rejuve Dye VL och Soprano Ice. Dessa avancerade maskiner erbjuder en bred palett av behandlingar, från hudföryngring och pigmentkorrigering till effektiv hårborttagning och behandling av vaskulära problem. Varje system är designat för att ge säkra, skonsamma och effektiva lösningar för en mängd olika hudtillstånd, vilket gör det möjligt för oss att skräddarsy behandlingar efter dina unika hudvårdsbehov.
                     </div>
                     <div class="mt-xl">
                         <div class="columns is-mobile">
                             <div class="column is-half">
-                                <a href="gratis-hudkonsultation" class="button b200 white expand l10n" title="Free consultation">Free consultation</a>
+                                <a href="gratis-hudkonsultation" class="button b200 white expand l10n" title="Boka konsultation">Boka konsultation</a>
                             </div>
                             <div class="column is-half">
-                                <a href="bokadirekt" class="button b200 white expand l10n" title="Book a treatment">Book a treatment</a>
+                                <a href="bokadirekt" class="button b200 white expand l10n" title="Boka behandling">Boka behandling</a>
                             </div>
                         </div>
                     </div>
@@ -390,10 +390,10 @@ $specialists = array(
                     </div>
                     <div id="green-header-large-text" class="mt-xxs">
                         <h1 class="h600 l10n">Alma</h1>
-                        <div class="mt-s l10n p200">In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified In a personal meeting with a skin specialist, your skinonal... read more</div>
+                        <div class="mt-s l10n p200">Alma är en ledande innovatör inom estetisk laserbehandling. Vårt utbud omfattar fyra av Almas toppmoderna system: Alma Hybrid CO2, Harmony XL Pro, Rejuve Dye VL och Soprano Ice. Dessa avancerade maskiner erbjuder en bred palett av behandlingar, från hudföryngring och pigmentkorrigering till effektiv hårborttagning och behandling av vaskulära problem. Varje system är designat för att ge säkra, skonsamma och effektiva lösningar för en mängd olika hudtillstånd, vilket gör det möjligt för oss att skräddarsy behandlingar efter dina unika hudvårdsbehov.</div>
                         <div class="mt-xl flex-row" id="book-buttons">
-                            <a href="gratis-hudkonsultation" class="button b200 white l10n" title="Get a free consultation">Get a free consultation</a>
-                            <a href="bokadirekt" class="button b200 white l10n" title="Book a treatment">Book a treatment</a>
+                            <a href="gratis-hudkonsultation" class="button b200 white l10n" title="Boka konsultation">Boka konsultation</a>
+                            <a href="bokadirekt" class="button b200 white l10n" title="Boka behandling">Boka behandling</a>
                         </div>
                     </div>
                 </div>
@@ -415,14 +415,14 @@ $specialists = array(
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about" class="large-margin">
-                    <h2 class="h500 l10n">What is Alma?</h2>
-                    <p class="p200 mt-xl l10n">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p>
-                    <p class="p200 mt-xl l10n">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>
+                    <h2 class="h500 l10n">Vad är Alma?</h2>
+                    <p class="p200 mt-xl l10n">Alma är ledande inom utveckling och tillverkning av innovativa estetiska behandlingssystem. Företaget, grundat i början av 2000-talet, har specialiserat sig på att producera avancerad medicinsk utrustning för en mängd olika hudvårdsbehandlingar. Alma's teknologi är känd för sin mångsidighet och effektivitet och används för behandlingar som hudföryngring, hårborttagning, minskning av akneärr, samt behandling av ytliga blodkärl och pigmentförändringar.</p>
+                    <p class="p200 mt-xl l10n">Almas utrustning, som Alma Hybrid CO2, Harmony XL Pro, Rejuve Dye VL och Soprano Ice, utnyttjar avancerade laser-, ljus- och ultraljudsbaserade teknologier. Dessa system är designade för att erbjuda skonsamma, icke-invasiva behandlingar som ger effektiva resultat med minimal återhämtningstid. Alma Lasers är synonymt med innovation, säkerhet och kvalitet, vilket gör deras utrustning till bland de bästa på marknaden.</p>
 
                 </section>
                 <section id="models" class="large-margin">
-                    <h2 class="h500 l10n">Alma models</h2>
-                    <p class="p200 mt-xs l10n">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>
+                    <h2 class="h500 l10n">Alma maskiner</h2>
+                    <p class="p200 mt-xs l10n">På AcneSpecialisten använder vi fyra avancerade maskiner från Alma Lasers för att erbjuda ett brett spektrum av hudbehandlingar. Dessa inkluderar Alma Hybrid CO2, Harmony XL Pro, Rejuve Dye VL och Soprano Ice, var och en med sina unika egenskaper och fördelar. Alma Hybrid CO2 är en toppmodern laser för hudföryngring och ärrbehandling, medan Harmony XL Pro erbjuder mångsidiga lösningar för en rad hudtillstånd från akne till pigmentering. Rejuve Dye VL är specialiserad på att behandla rodnad och vaskulära lesioner, och Soprano Ice är känt för sin effektiva och bekväma laserhårborttagning. Varje system är utformat för att ge säkra och effektiva resultat, vilket gör dem till en vital del av våra hudvårdslösningar.</p>
                     <div class="columns is-multiline is-variable is-3">
                         <?php foreach ($models as $model) { ?>
                             <div class="column is-half">
@@ -432,7 +432,7 @@ $specialists = array(
                     </div>
                 </section>
                 <section id="problems" class="large-margin">
-                    <h2 class="h500 l10n">Problems treated with Alma</h2>
+                    <h2 class="h500 l10n">Problem vi behandlar med Alma</h2>
                     <hr class="divider is-hidden-touch" />
                     <?php foreach ($problems as $service) { ?>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
