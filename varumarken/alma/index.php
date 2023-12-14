@@ -49,6 +49,28 @@ $models = array(
         url_label: 'Läs mer',
     ),
 );
+
+$types_title = 'Hudproblem som behandlas med Harmony XL Pro';
+$types_description = '<p class="p200">med Harmony XL Pro behandlar vi en rad olika hudproblem effektivt.</p>';
+$types = array(
+    new Service(
+        title: 'Harmony XL Pro mot Acneärr',
+        duration: '90 minuter',
+        price: '4595 kr',
+        content: 'Harmony XL Pro-lasern reducerar effektivt acneärr och förbättrar hudens textur genom att stimulera kollagenproduktion och främja hudens läkning, vilket resulterar i en jämnare och mer föryngrad hud.',
+        image_small: 'https://via.placeholder.com/102x102.jpg',
+        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_alt: 'Harmony XL Pro mot Acneärr',
+        image_title: 'Harmony XL Pro mot Acneärr',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_HarmonyXLPRO',
+        consultation_url_label: 'Boka gratis konsultation',
+        consultation_url_title: 'Boka gratis konsultation',
+        booking_url: 'https://acnespecialisten.se/book?flow=almaharmony&skipable_problem=Problem_AcneScars',
+        booking_url_label: 'Boka Harmony XL Pro mot Acneärr',
+        booking_url_title: 'Boka Harmony XL Pro mot Acneärr',
+    ),
+);
+
 $results = array(
     new ResultCustomer(
         url: '',
@@ -147,6 +169,8 @@ $results = array(
         )
     ),
 );
+
+$reviews_title = 'Omdömen';
 $reviews = array(
     new Review(
         brand: 'Trustpilot',
@@ -175,6 +199,9 @@ $reviews = array(
         logo_url: 'images/brands/bokadirekt-small.svg'
       ),
 );
+$reviews_view_more = 'Se alla omdömen';
+
+$faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
@@ -195,6 +222,9 @@ $faq_categories = array(
         ),
     )
 );
+$faq_view_more = 'Se alla frågor & svar';
+
+$skin_guide_title = 'Hudguiden';
 $skin_guide_articles = array(
     new SkinGuideArticle(
         url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
@@ -206,66 +236,92 @@ $skin_guide_articles = array(
         image_alt: 'Hormones effect',
         image_title: 'Hormones effect',
     ),
-    new SkinGuideArticle(
-        url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
-        url_title: 'How hormones effect?',
-        title: 'How hormones effect?',
-        problem: 'Acne',
-        image_small: 'https://via.placeholder.com/426x324.webp',
-        image_large: 'https://via.placeholder.com/872x456.jpg',
-        image_alt: 'Hormones effect',
-        image_title: 'Hormones effect',
-    ),
-    new SkinGuideArticle(
-        url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
-        url_title: 'How hormones effect?',
-        title: 'How hormones effect?',
-        problem: 'Acne',
-        image_small: 'https://via.placeholder.com/426x324.webp',
-        image_large: 'https://via.placeholder.com/872x456.jpg',
-        image_alt: 'Hormones effect',
-        image_title: 'Hormones effect',
-    ),
-    new SkinGuideArticle(
-        url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
-        url_title: 'How hormones effect?',
-        title: 'How hormones effect?',
-        problem: 'Acne',
-        image_small: 'https://via.placeholder.com/426x324.webp',
-        image_large: 'https://via.placeholder.com/872x456.jpg',
-        image_alt: 'Hormones effect',
-        image_title: 'Hormones effect',
-    ),
 );
+$skin_guide_view_more = 'Se alla artiklar';
+
+$specialists_title = 'Våra hudterpaueter';
 $specialists = array(
     new Specialist(
         name: 'Cazzandra Lindberg',
         title: 'Hudterapeut sedan 2015',
         image: 'images/specialists/large/hudterapeut-cazzandra.webp',
         image_alt: 'Cazzandra Lindberg',
-        image_title: 'Cazzandra Lindberg',
+        image_title: 'Cazzandra Lindberg'
     ),
     new Specialist(
         name: 'Veronika Benedik',
         title: 'Hudterapeut sedan 1999',
         image: 'images/specialists/large/hudterapeut-veronika.webp',
         image_alt: 'Veronika Benedik',
-        image_title: 'Veronika Benedik',
+        image_title: 'Veronika Benedik'
     ),
     new Specialist(
         name: 'Amira Maqboul',
         title: 'Hudterapeut sedan 2017',
         image: 'images/specialists/large/hudterapeut-amira.webp',
         image_alt: 'Amira Maqboul',
-        image_title: 'Amira Maqboul',
+        image_title: 'Amira Maqboul'
     ),
     new Specialist(
         name: 'Vilma Libom',
         title: 'Hudterapeut sedan 2019',
         image: 'images/specialists/large/hudterapeut-vilma.webp',
         image_alt: 'Vilma Libom',
-        image_title: 'Vilma Libom',
+        image_title: 'Vilma Libom'
     )
+);
+$specialists_view_more = 'Se alla hudterapeuter';
+
+$brands_title = 'Märken vi jobbar med';
+$all_brands = array(
+    new Brand(
+        label: 'Powerlite',
+        image: 'images/brands/powerlite.svg',
+        image_alt: 'Powerlite',
+        image_title: 'Powerlite',
+    ),
+    new Brand(
+        label: 'Dermapen4',
+        image: 'images/brands/dermapen4.svg',
+        image_alt: 'Dermapen4',
+        image_title: 'Dermapen4',
+    ),
+    new Brand(
+        label: 'Cryopen',
+        image: 'images/brands/cryopen.svg',
+        image_alt: 'Cryopen',
+        image_title: 'Cryopen',
+    ),
+    new Brand(
+        label: 'Lumenis',
+        image: 'images/brands/lumenis.svg',
+        image_alt: 'Lumenis',
+        image_title: 'Lumenis',
+    ),
+    new Brand(
+        label: 'Alma',
+        image: 'images/brands/alma.svg',
+        image_alt: 'Alma',
+        image_title: 'Alma',
+    ),
+    new Brand(
+        label: 'PRXT',
+        image: 'images/brands/prxt.svg',
+        image_alt: 'PRXT',
+        image_title: 'PRXT',
+    ),
+    new Brand(
+        label: 'Hydrafacial',
+        image: 'images/brands/hydrafacial.svg',
+        image_alt: 'Hydrafacial',
+        image_title: 'Hydrafacial',
+    ),
+    new Brand(
+        label: 'IP infusion',
+        image: 'images/brands/ipinfusion.svg',
+        image_alt: 'IP infusion',
+        image_title: 'IP infusion',
+    ),
 );
 ?>
 <!DOCTYPE html>
