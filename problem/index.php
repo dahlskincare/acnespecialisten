@@ -302,53 +302,53 @@ $default_problems = new ProblemArea(
 $problem_areas = array(
       new ProblemArea(
             label: 'Ansikte',
-            icon: '/bilder/ikoner/omraden/ansikte.svg',
+            icon: 'bilder/ikoner/omraden/ansikte.',
             problem_ids: array('akne', 'aknearr', 'arr-fran-finnar', 'finnar', 'hudforandringar', 'milier', 'mogen-hy', 'oonskat-har', 'operations-skadearr', 'rosacea', 'pormaskar', 'stora-porer', 'blandhy', 'perioral-dermatit', 'seborre', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar',)
       ),
       new ProblemArea(
             label: 'Kropp',
-            icon: '/bilder/ikoner/omraden/kropp.svg',
+            icon: 'bilder/ikoner/omraden/kropp',
             problem_ids: array('akne', 'aknearr', 'arr-fran-finnar', 'bristningar', 'finnar', 'hudforandringar', 'mogen-hy', 'oonskat-har', 'operations-skadearr', 'pormaskar', 'stora-porer', 'blandhy', 'pigmentflackar',)
       ),
       new ProblemArea(
             label: 'Rygg',
-            icon: '/bilder/ikoner/omraden/rygg.svg',
+            icon: 'bilder/ikoner/omraden/rygg.',
             problem_ids: array('akne', 'aknearr', 'arr-fran-finnar', 'bristningar', 'finnar', 'hudforandringar', 'mogen-hy', 'oonskat-har', 'operations-skadearr', 'pormaskar', 'stora-porer', 'blandhy', 'pigmentflackar',)
       ),
       new ProblemArea(
             label: 'Bröst',
-            icon: '/bilder/ikoner/omraden/brost.svg',
+            icon: 'bilder/ikoner/omraden/brost',
             problem_ids: array('akne', 'aknearr', 'arr-fran-finnar', 'bristningar', 'finnar', 'hudforandringar', 'mogen-hy', 'oonskat-har', 'operations-skadearr', 'pormaskar', 'stora-porer', 'blandhy', 'pigmentflackar',)
       ),
       new ProblemArea(
             label: 'Panna',
-            icon: '/bilder/ikoner/omraden/panna.svg',
+            icon: 'bilder/ikoner/omraden/panna',
             problem_ids: array('akne', 'aknearr', 'arr-fran-finnar', 'finnar', 'hudforandringar', 'milier', 'mogen-hy', 'oonskat-har', 'operations-skadearr', 'rosacea', 'pormaskar', 'stora-porer', 'blandhy', 'perioral-dermatit', 'seborre', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar',)
       ),
       new ProblemArea(
             label: 'Kinder',
-            icon: '/bilder/ikoner/omraden/kinder.svg',
+            icon: 'bilder/ikoner/omraden/kinder',
             problem_ids: array('akne', 'aknearr', 'arr-fran-finnar', 'finnar', 'hudforandringar', 'milier', 'mogen-hy', 'operations-skadearr', 'rosacea', 'pormaskar', 'stora-porer', 'blandhy', 'perioral-dermatit', 'seborre', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar',)
       ),
       new ProblemArea(
             label: 'Näsa',
-            icon: '/bilder/ikoner/omraden/nasa.svg',
+            icon: 'bilder/ikoner/omraden/nasa',
             problem_ids: array('akne', 'finnar', 'mogen-hy', 'rosacea', 'pormaskar', 'stora-porer', 'blandhy', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar',)
       ),
       new ProblemArea(
             label: 'Runt munnen',
-            icon: '/bilder/ikoner/omraden/mun.svg',
+            icon: 'bilder/ikoner/omraden/mun',
             problem_ids: array('akne', 'aknearr', 'arr-fran-finnar', 'finnar', 'mogen-hy', 'oonskat-har', 'blandhy', 'perioral-dermatit', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar',)
       ),
       new ProblemArea(
             label: 'Haka',
-            icon: '/bilder/ikoner/omraden/haka.svg',
+            icon: 'bilder/ikoner/omraden/haka',
             problem_ids: array('akne', 'aknearr', 'arr-fran-finnar', 'finnar', 'mogen-hy', 'oonskat-har', 'operations-skadearr', 'pormaskar', 'stora-porer', 'blandhy', 'perioral-dermatit', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar',)
       ),
       
       new ProblemArea(
             label: 'Käklinje',
-            icon: 'kaklinje',
+            icon: 'bilder/ikoner/omraden/kaklinje',
             problem_ids: array('akne', 'aknearr', 'arr-fran-finnar', 'bristningar', 'finnar', 'hudforandringar', 'mogen-hy', 'oonskat-har', 'operations-skadearr', 'pormaskar', 'stora-porer', 'blandhy', 'seborre', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar',)
       ),
 );
