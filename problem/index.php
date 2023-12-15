@@ -312,7 +312,7 @@ $problem_areas = array(
       ),
       new ProblemArea(
             label: 'Rygg',
-            icon: 'rygg.',
+            icon: 'rygg',
             problem_ids: array('akne', 'aknearr', 'arr-fran-finnar', 'bristningar', 'finnar', 'hudforandringar', 'mogen-hy', 'oonskat-har', 'operations-skadearr', 'pormaskar', 'stora-porer', 'blandhy', 'pigmentflackar',)
       ),
       new ProblemArea(
