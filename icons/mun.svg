@@ -1,1 +1,9 @@
-<svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="#000" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none" color="#000"> <title>bars</title> <rect width="18" height="18" x="3" y="3"/> <path stroke-linecap="round" d="M21 21L3 3 21 21zM21 3L3 21 21 3z"/> </svg>
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<ellipse opacity="0.2" cx="32.0045" cy="28.9898" rx="16.7467" ry="11.3436" fill="#81C7B5"/>
+<path d="M7.75026 12.8234C7.75026 12.8234 7.75 15.7679 7.75026 17.8426C7.75026 27.1551 13.5371 35.1815 18.1861 40.127C21.6482 43.81 26.6438 45.3787 31.6986 45.3787V45.3787" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M15.75 37.4908V53.2491" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M56.25 12.8234C56.25 12.8234 56.25 14.9273 56.25 17.8426C56.25 27.1552 50.4631 35.1815 45.8142 40.127C42.352 43.81 37.3564 45.3787 32.3017 45.3787V45.3787H31.1042" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M48.25 37.4467V53.25" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M27.3047 32.1315V32.1315C28.6744 32.9019 30.2194 33.3066 31.7908 33.3066H32.2198C33.7913 33.3066 35.3363 32.9019 36.7059 32.1315V32.1315" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M24.9531 28.0184L27.4329 26.6014C28.4187 26.0381 29.6485 26.134 30.5351 26.8432V26.8432C31.4217 27.5525 32.6516 27.6484 33.6374 27.0851L34.0606 26.8432C35.3018 26.134 36.8503 26.2547 37.9667 27.1477L39.055 28.0184" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+</svg>
