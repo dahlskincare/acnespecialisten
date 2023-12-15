@@ -21,31 +21,42 @@
         new Specialist(
             name: 'Cazzandra Lindberg',
             title: 'Hudterapeut sedan 2015',
-            image: 'images/specialists/large/hudterapeut-cazzandra.webp'
+            image: 'images/specialists/large/hudterapeut-cazzandra.webp',
+            image_alt: 'Cazzandra Lindberg',
+            image_title: 'Cazzandra Lindberg',
         ),
         new Specialist(
             name: 'Veronika Benedik',
             title: 'Hudterapeut sedan 1999',
-            image: 'images/specialists/large/hudterapeut-veronika.webp'
+            image: 'images/specialists/large/hudterapeut-veronika.webp',
+            image_alt: 'Veronika Benedik',
+            image_title: 'Veronika Benedik'
         ),
         new Specialist(
             name: 'Amira Maqboul',
             title: 'Hudterapeut sedan 2017',
-            image: 'images/specialists/large/hudterapeut-amira.webp'
+            image: 'images/specialists/large/hudterapeut-amira.webp',
+            image_alt: 'Amira Maqboul',
+            image_title: 'Amira Maqboul'
         ),
         new Specialist(
             name: 'Vilma Libom',
             title: 'Hudterapeut sedan 2019',
-            image: 'images/specialists/large/hudterapeut-vilma.webp'
+            image: 'images/specialists/large/hudterapeut-vilma.webp',
+            image_alt: 'Vilma Libom',
+            image_title: 'Vilma Libom'
         )
     );
 
     $result = new ResultCustomer(
-        id: '4',
+        url: 'resultat/details-1',
         image_before_small: 'https://via.placeholder.com/175x235.webm',
         image_after_small: 'https://via.placeholder.com/175x235.webm',
         image_before_large: 'https://via.placeholder.com/296x394.webm',
         image_after_large: 'https://via.placeholder.com/296x394.webm',
+        url_title: 'Resultat',
+        image_alt: 'Resultat',
+        image_title: 'Resultat',
         age: 18,
         gender: 'Female',
         problem: 'Acne',
@@ -294,9 +305,9 @@
                             <div class="vc-title"><?php echo $visit->title ?></div>
                             <div class="vc-text"><?php echo $visit->description ?></div>
                             <?php if (str_starts_with($visit->read_more_url, 'http')) { ?>
-                                <a href="<?php echo $visit->read_more_url ?>" class="button b200 vc-button expand l10n"><?php echo $visit->read_more_label ?></a>
+                                <a href="<?php echo $visit->read_more_url ?>" class="button b200 vc-button expand l10n" title="<?php echo $visit->read_more_label ?>"><?php echo $visit->read_more_label ?></a>
                             <?php } else { ?>
-                                <a href="<?php echo $visit->read_more_url ?>" class="button b200 vc-button outline expand l10n"><?php echo $visit->read_more_label ?></a>
+                                <a href="<?php echo $visit->read_more_url ?>" class="button b200 vc-button outline expand l10n" title="<?php echo $visit->read_more_label ?>"><?php echo $visit->read_more_label ?></a>
                             <?php } ?>
                         </div>
                     </div>
@@ -340,7 +351,7 @@
                         </div>
                     </div>
                 </div>
-                <a href="/resultat/" class="button b200 outline expand l10n">View all cases</a>
+                <a href="/resultat/" class="button b200 outline expand l10n" title="View all cases">View all cases</a>
             </section>
             <section id="cta-banner" class="large-margin">
                 <div id="cta-banner-texts">
@@ -348,7 +359,7 @@
                     <div class="p200 l10n" id="cta-banner-content">In a personal meeting with a skin specialist, your skin type is examined and identified.</div>
                 </div>
                 <div>
-                    <a href="<?php echo $consultation_url ?>" class="button white expand l10n">Get a free consultation</a>
+                    <a href="<?php echo $consultation_url ?>" class="button white expand l10n" title="Get a free consultation">Get a free consultation</a>
                 </div>
             </section>
             <section id="reviews" class="large-margin">
@@ -371,7 +382,7 @@
 
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se">View all reviews</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="View all reviews">View all reviews</a>
             </section>
             <section id="faq" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
@@ -382,7 +393,7 @@
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="faq">View all questions</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="faq" title="View all questions">View all questions</a>
             </section>
             <section id="skin-guide" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
@@ -393,7 +404,7 @@
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="skin-guide">View all articles</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="skin-guide" title="View all articles">View all articles</a>
             </section>
             <section id="specialists" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
@@ -404,18 +415,18 @@
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="specialister">View all specialists</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="specialister" title="View all specialists">View all specialists</a>
             </section>
             <section id="brands" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
                     <div class="h500 l10n">Brands we use</div>
-                    <a href="brands" class="button compact text is-hidden-mobile">
+                    <a href="varumarken" class="button compact text is-hidden-mobile">
                         <span class="l10n">View all brands</span>
                         <?php icon('navigate-next') ?>
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="brands">View all brands</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="varumarken" title="View all brands">View all brands</a>
             </section>
         </div>
     </main>

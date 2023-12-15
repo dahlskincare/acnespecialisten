@@ -3,7 +3,7 @@
         <div class="circle"><?php echo $approach_card->number ?></div>
         <h3 class="h300"><?php echo $approach_card->title ?></h3>
     </div>
-    <div class="p200">
+    <div class="p200 approach-card-content">
         <?php echo $approach_card->content ?>
     </div>
     <a href="<?php echo $approach_card->button_url ?>" class="button compact text is-hidden-mobile">

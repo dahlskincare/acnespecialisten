@@ -1,7 +1,7 @@
 .devcontainer
 *.css*
 
-Dockerfile
+#Dockerfile
 
 node_modules
 

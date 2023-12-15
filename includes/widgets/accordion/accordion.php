@@ -6,10 +6,10 @@
                     continue;
                 } ?>
                 <div class="column is-one-third">
-                    <a href="<?php echo $accordion[$i]->url; ?>">
+                    <a href="<?php echo $accordion[$i]->url; ?>" title="<?php echo $accordion[$i]->url_title ?>">
                         <div class="accordion-card">
                             <div class="image">
-                                <img src="<?php echo $accordion[$i]->image_small; ?>" width="114" height="140" alt="<?php echo $accordion[$i]->label ?>" title="<?php echo $accordion[$i]->label ?>">
+                                <img src="<?php echo $accordion[$i]->image_small; ?>" width="114" height="140" alt="<?php echo $accordion[$i]->image_alt ?>" title="<?php echo $accordion[$i]->image_title ?>">
                             </div>
                             <div class="bottom">
                                 <button class="text compact black l10n">
@@ -36,7 +36,7 @@
                         <div class="background-image" style="background-image: url('<?php echo $accordion[$i]->image_large ?>')"></div>
                     </a>
                 <?php } else { ?>
-                    <a href="<?php echo $accordion[$i]->url ?>" class="accordion-card accordion-card-last">
+                    <a href="<?php echo $accordion[$i]->url ?>" title="<?php echo $accordion[$i]->url_title ?>" class="accordion-card accordion-card-last">
                         <div class="button white text black l10n">
                             <?php echo $accordion[$i]->label ?>
                             <?php icon('navigate-next') ?>

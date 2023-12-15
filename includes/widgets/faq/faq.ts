@@ -12,18 +12,18 @@ namespace FAQ {
         target.classList.add('selected');
         let questionCategories = host.querySelectorAll('.faq-question-category');
         for (var i = 0; i < questionCategories.length; i++) {
-            questionCategories[i].classList.add('is-hidden');
+            questionCategories[i].classList.add('zero-size');
         }
         if (targetIndex >= 0) {
-            questionCategories[targetIndex].classList.remove('is-hidden');
+            questionCategories[targetIndex].classList.remove('zero-size');
         }
     }
     export function toggleQuestionExpanded(target: Element): void {
         let textElement = target.parentElement.children[1];
-        if (textElement.classList.contains('is-hidden')) {
-            textElement.classList.remove('is-hidden');
+        if (textElement.classList.contains('zero-size')) {
+            textElement.classList.remove('zero-size');
         } else {
-            textElement.classList.add('is-hidden');
+            textElement.classList.add('zero-size');
         }
     }
 }

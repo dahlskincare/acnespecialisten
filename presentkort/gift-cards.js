@@ -19,6 +19,21 @@ function onFileDrop(e) {
         }
     }
 }
+var physical = false;
+function onPhysicalChange(e) {
+    var input = e.parentElement.querySelector('input');
+    physical = !physical;
+    input.value = physical ? 'on' : 'off';
+    console.log(input.value);
+    document.querySelectorAll('.physicalAddressDetails').forEach(function (el) {
+        if (input.value == 'on') {
+            el.classList.remove('is-hidden');
+        }
+        else {
+            el.classList.add('is-hidden');
+        }
+    });
+}
 function onAmountChange(event) {
     var select = event.target;
     // reload url with new amount
@@ -51,6 +66,16 @@ if (window.location.search.includes('paid')) {
     }
     else {
         document.querySelector('#step-2-small').scrollIntoView();
+    }
+}
+if (window.location.search.includes('sent')) {
+    if (window.innerWidth >= 1024) {
+        document.querySelector('#step-2-large').scrollIntoView();
+        openConfirmForm(document.querySelector('#large-form-button'), '#large-form');
+    }
+    else {
+        document.querySelector('#step-2-small').scrollIntoView();
+        openConfirmForm(document.querySelector('#small-form-button'), '#small-form');
     }
 }
 //# sourceMappingURL=gift-cards.js.map

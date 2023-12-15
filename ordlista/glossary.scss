@@ -46,7 +46,7 @@ div#content {
 
     section#letters {
         position: sticky;
-        top: $xl4;
+        top: $header-height;
         background-color: $white-500;
         z-index: 2;
 
@@ -87,7 +87,7 @@ div#content {
         }
 
         @include desktop {
-            top: 72px;
+            top: $header-height-large;
 
             #letter-selector-scroller {
                 #letter-selector {
@@ -105,7 +105,7 @@ div#content {
 
     section#glossary-items {
         .item-category {
-            scroll-margin-top: 140px;
+            scroll-margin-top: $header-height + 80px;
 
             .item {
                 padding-bottom: $xl3;
@@ -134,7 +134,7 @@ div#content {
 
             @include desktop {
 
-                scroll-margin-top: 150px;
+                scroll-margin-top: $header-height-large + 80px;
 
                 .item {
                     img {

@@ -16,7 +16,6 @@
 </head>
 
 <?php
-$type_name = 'Sun spots';
 $header_title = 'Sun spots';
 $header_description = 'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat.';
 $image_small = 'https://via.placeholder.com/358x274.jpg';
@@ -40,17 +39,19 @@ $about_description = '<p class="p200">This is a treatment adapted for acne skin 
 
 $articles = array(
     new Article(
-        id: 'pigmentation-causes-and-risk-factors',
         title: 'Acne scars causes and risks factors',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
+        image_alt: 'Acne scars causes and risks factors',
+        image_title: 'Acne scars causes and risks factors',
         content: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>'
     ),
     new Article(
-        id: 'when-to-see-your-pigmentation-specialist',
         title: 'When to see your acne scars specialist?',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
+        image_alt: 'When to see your acne scars specialist?',
+        image_title: 'When to see your acne scars specialist?',
         content: '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-m">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>'
     ),
 );
@@ -62,62 +63,88 @@ $area_icons = array(
     'area-back' => 'Back',
 
 );
-$areas_text = '<p class="p200">This is a treatment adapted for acne skin and <a class="h200 underline">pimples</a> and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-xl">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the <a class="h200 underline">acne treatment</a>, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>';
+$areas_text = '<p class="p200">This is a treatment adapted for acne skin and <a class="h200 underline" title="pimples">pimples</a> and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="p200 mt-xl">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the <a class="h200 underline" title="acne treatment">acne treatment</a>, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>';
+
 $service = new Service(
-    id: 'sun-spots-consultation',
     title: 'Consultation',
     duration: '30 min',
     price: '1295 kr',
     content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
     image_small: 'https://via.placeholder.com/102x102.jpg',
     image_large: 'https://via.placeholder.com/200x200.jpg',
-    consultation_url: 'hudkonsultation',
-    booking_url: null
+    image_alt: 'Consultation',
+    image_title: 'Consultation',
+    consultation_url: 'gratis-hudkonsultation',
+    consultation_url_label: 'Läs mer',
+    consultation_url_title: 'Consultation',
+    booking_url: null,
+    booking_url_label: null,
+    booking_url_title: null,
 );
 $solutions = array(
     new Service(
-        id: 'chemical-peeling-pigmentation',
         title: 'Chemical peeling',
         duration: '30 min',
         price: '1295 kr',
         content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        consultation_url: 'hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/'
+        image_alt: 'Chemical peeling',
+        image_title: 'Chemical peeling',
+        consultation_url: 'gratis-hudkonsultation',
+        consultation_url_label: 'Läs mer',
+        consultation_url_title: 'Consultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka',
+        booking_url_title: 'Book',
     ),
     new Service(
-        id: 'laser-pigmentation',
         title: 'Laser',
         duration: '30 min',
         price: '1295 kr',
         content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        consultation_url: 'hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/'
+        image_alt: 'Laser',
+        image_title: 'Laser',
+        consultation_url: 'gratis-hudkonsultation',
+        consultation_url_label: 'Läs mer',
+        consultation_url_title: 'Consultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka',
+        booking_url_title: 'Book',
     ),
     new Service(
-        id: 'ipl-pigmentation',
         title: 'IPL',
         duration: '30 min',
         price: '1295 kr',
         content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        consultation_url: 'hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/'
+        image_alt: 'IPL',
+        image_title: 'IPL',
+        consultation_url: 'gratis-hudkonsultation',
+        consultation_url_label: 'Läs mer',
+        consultation_url_title: 'Consultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka',
+        booking_url_title: 'Book',
     ),
     new Service(
-        id: 'freezetreat-pigmentation',
         title: 'FreezeTreat',
         duration: '30 min',
         price: '1295 kr',
         content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
         image_small: 'https://via.placeholder.com/102x102.jpg',
         image_large: 'https://via.placeholder.com/200x200.jpg',
-        consultation_url: 'hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/'
+        image_alt: 'FreezeTreat',
+        image_title: 'FreezeTreat',
+        consultation_url: 'gratis-hudkonsultation',
+        consultation_url_label: 'Läs mer',
+        consultation_url_title: 'Consultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka',
+        booking_url_title: 'Book',
     )
 
 );
@@ -125,22 +152,30 @@ $specialists = array(
     new Specialist(
         name: 'Cazzandra Lindberg',
         title: 'Hudterapeut sedan 2015',
-        image: 'images/specialists/large/hudterapeut-cazzandra.webp'
+        image: 'images/specialists/large/hudterapeut-cazzandra.webp',
+        image_alt: 'Cazzandra Lindberg',
+        image_title: 'Cazzandra Lindberg'
     ),
     new Specialist(
         name: 'Veronika Benedik',
         title: 'Hudterapeut sedan 1999',
-        image: 'images/specialists/large/hudterapeut-veronika.webp'
+        image: 'images/specialists/large/hudterapeut-veronika.webp',
+        image_alt: 'Veronika Benedik',
+        image_title: 'Veronika Benedik'
     ),
     new Specialist(
         name: 'Amira Maqboul',
         title: 'Hudterapeut sedan 2017',
-        image: 'images/specialists/large/hudterapeut-amira.webp'
+        image: 'images/specialists/large/hudterapeut-amira.webp',
+        image_alt: 'Amira Maqboul',
+        image_title: 'Amira Maqboul'
     ),
     new Specialist(
         name: 'Vilma Libom',
         title: 'Hudterapeut sedan 2019',
-        image: 'images/specialists/large/hudterapeut-vilma.webp'
+        image: 'images/specialists/large/hudterapeut-vilma.webp',
+        image_alt: 'Vilma Libom',
+        image_title: 'Vilma Libom'
     )
 );
 ?>
@@ -161,10 +196,10 @@ $specialists = array(
                             <div class="mt-xl">
                                 <div class="columns is-2 is-variable">
                                     <div class="column">
-                                        <a href="hudkonsultation" class="button white expand l10n">Get a free consultation</a>
+                                        <a href="gratis-hudkonsultation" class="button white expand l10n" title="Get a free consultation">Get a free consultation</a>
                                     </div>
                                     <div class="column">
-                                        <a href="https://bokadirekt.se" class="button white expand l10n">Book a treatment</a>
+                                        <a href="https://bokadirekt.se" class="button white expand l10n" title="Book a treatment">Book a treatment</a>
                                     </div>
                                 </div>
                             </div>
@@ -187,10 +222,10 @@ $specialists = array(
                         <div class="mt-xl">
                             <div class="columns is-mobile">
                                 <div class="column is-half">
-                                    <a href="hudkonsultation" class="button b200 white expand l10n">Free consultation</a>
+                                    <a href="gratis-hudkonsultation" class="button b200 white expand l10n" title="Free consultation">Free consultation</a>
                                 </div>
                                 <div class="column is-half">
-                                    <a href="https://bokadirekt.se" class="button b200 white expand l10n">Book a treatment</a>
+                                    <a href="https://bokadirekt.se" class="button b200 white expand l10n" title="Book a treatment">Book a treatment</a>
                                 </div>
                             </div>
                         </div>
@@ -214,8 +249,8 @@ $specialists = array(
                                 <?php echo $header_description ?>
                             </p>
                             <div class="mt-xl flex-row" id="book-buttons">
-                                <a href="hudkonsultation" class="button b200 white l10n">Get a free consultation</a>
-                                <a href="https://bokadirekt.se" class="button b200 white l10n">Book a treatment</a>
+                                <a href="gratis-hudkonsultation" class="button b200 white l10n" title="Get a free consultation">Get a free consultation</a>
+                                <a href="https://bokadirekt.se" class="button b200 white l10n" title="Book a treatment">Book a treatment</a>
                             </div>
                         </div>
                     </div>
@@ -262,8 +297,8 @@ $specialists = array(
                         </a>
                     </section>
                     <section id="areas">
-                        <h2>
-                            <span class="h500"><?php echo $type_name ?>&nbsp;</span><span class="h500 l10n">areas</span>
+                        <h2 class="h500 l10n">
+                            Sun spots areas
                         </h2>
                         <div class="columns is-mobile is-multiline area-icons mt-s">
                             <?php foreach ($area_icons as $area_icon => $label) { ?>
@@ -284,26 +319,18 @@ $specialists = array(
                         } ?>
                     </section>
                     <section id="define">
-                        <h2>
-                            <span class="h500 l10n">Define</span>&nbsp;<span class="h500 lowercase"><?php echo $type_name ?></span>
+                        <h2 class="h500 l10n">
+                            Define sun spots
                         </h2>
                         <hr class="is-hidden-mobile mt-xl mb-xxl">
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
                         <hr class="is-hidden-mobile mt-xxl">
                     </section>
                     <section id="solutions">
-                        <h2>
-                            <span class="h500"><?php echo $type_name ?>&nbsp;</span><span class="h500 l10n">treatment solutions</span>
-                        </h2>
-                        <div class="mt-m is-hidden-tablet solution-buttons">
-                            <?php foreach ($solutions as $service) { ?>
-                                <a href="javascript:;" onclick="scrollToElement('#service-<?php echo $service->id ?>')" class="button grey "><?php echo $service->title ?>
-                                </a>
-                            <?php } ?>
-                        </div>
+                        <h2 class="h500 l10n">Sun spots treatment solutions</h2>
                         <hr class="is-hidden-mobile mt-xl">
                         <?php foreach ($solutions as $service) { ?>
-                            <div class="mt-xxl" id="service-<?php echo $service->id ?>">
+                            <div class="mt-xxl">
                                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
                                 <hr class="is-hidden-mobile mt-xxl">
                             </div>
@@ -330,36 +357,36 @@ $specialists = array(
                         $reviews_narrow = true;
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                         ?>
-                        <a class="mt-xl button outline expand auto-width l10n" href="https://se.trustpilot.com/review/acnespecialisten.se">View all reviews</a>
+                        <a class="mt-xl button outline expand auto-width l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="View all reviews">View all reviews</a>
                     </section>
                     <section id="faq">
                         <h2 class="big l10n">Questions & answers</h2>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                        <a class="mt-xl button outline expand auto-width l10n" href="faq">View all questions</a>
+                        <a class="mt-xl button outline expand auto-width l10n" href="faq" title="View all questions">View all questions</a>
                     </section>
                     <section id="skin-guide">
                         <h2 class="big l10n">Skin guide</h2>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide_narrow.php'); ?>
-                        <a class="mt-xl button outline expand auto-width l10n" href="skin-guide">View all articles</a>
+                        <a class="mt-xl button outline expand auto-width l10n" href="skin-guide" title="View all articles">View all articles</a>
                     </section>
                     <section id="specialists">
                         <h2 class="big l10n">Our specialists</h2>
                         <?php
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php');
                         ?>
-                        <a class="mt-xl button outline expand auto-width l10n" href="specialister">View all specialists</a>
+                        <a class="mt-xl button outline expand auto-width l10n" href="specialister" title="View all specialists">View all specialists</a>
                     </section>
                 </div>
                 <section id="brands">
                     <div class="flex-row align-end justify-space-between">
                         <h2 class="big l10n">Brands we use</h2>
-                        <a href="brands" class="button compact text is-hidden-mobile">
+                        <a href="varumarken" class="button compact text is-hidden-mobile">
                             <span class="l10n">View all brands</span>
                             <?php icon('navigate-next') ?>
                         </a>
                     </div>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                    <a class="mt-xl button outline expand auto-width is-hidden-desktop l10n" href="brands">View all brands</a>
+                    <a class="mt-xl button outline expand auto-width is-hidden-desktop l10n" href="varumarken" title="View all brands">View all brands</a>
                 </section>
             </div>
         </main>

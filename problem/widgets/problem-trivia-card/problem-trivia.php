@@ -16,4 +16,3 @@ class ProblemTrivia
     public $extended_content;
     public $icons;
 }
-?>

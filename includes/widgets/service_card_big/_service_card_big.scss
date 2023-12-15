@@ -58,11 +58,22 @@
             border-top: 1px solid $light-200;
         }
 
-        .service-duration {
+        .service-info {
             margin-top: $xxs;
             color: $dark-200;
             @include p200;
+            display: flex;
+            align-items: center;
+
+            .service-dot {
+                width: 5px;
+                height: 5px;
+                border-radius: 5px;
+                background-color: $dark-25;
+                margin: 0 $xs;
+            }
         }
+
 
         .service-card-procedures {
             margin-top: $m;
@@ -78,9 +89,9 @@
                     color: $dark-200;
                 }
 
-                .full-price {
+                .savings {
                     color: $dark-200;
-                    text-decoration: line-through;
+                    margin-left: $xs;
                 }
 
                 .price {
@@ -94,6 +105,7 @@
             box-sizing: border-box;
             width: 100%;
             margin-top: $m;
+            margin-right: $xs;
         }
     }
 
@@ -140,7 +152,7 @@
                     .procedure-price {
                         flex: auto;
                         text-align: right;
-                        margin-right: $m;
+                        margin-right: $s;
                     }
                 }
             }

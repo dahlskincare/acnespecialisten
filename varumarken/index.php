@@ -4,78 +4,109 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 include_once('models.php');
 
 $green_banner_content = new GreenBannerContent(
-      title: 'Brands we work with',
-      description: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
-      description_extended: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
-      button_url: 'hudkonsultation',
-      button_label: 'Få gratis konsultation'
+      title: 'Varumärken',
+      description: 'På AcneSpecialisten är vi dedikerade till att behandla och förbättra hudproblem som akne, rosacea, pormaskar och finnar, och detta åstadkommer vi genom att använda ledande varumärken och tekniker inom hudvård. Våra samarbetspartners inkluderar Alma, Dermapen, CryoPen, HydraFacial, Infuzion, Splendor X och Soprano Ice, som alla erbjuder banbrytande lösningar för en rad hudtillstånd.',
+      description_extended: 'Genom dessa innovativa behandlingsmetoder och vår expertis, skapar vi skräddarsydda behandlingsplaner för att möta dina individuella hudvårdsbehov. Om du är osäker på ditt hudtillstånd eller vilken behandling som passar dig bäst, rekommenderar vi en kostnadsfri hudkonsultation hos oss.',
+      button_url: 'gratis-hudkonsultation',
+      button_label: 'Boka en gratis konsultation'
 );
 
 $header_brands = array(
       new Brand(
             label: 'Alma',
-            image: 'https://via.placeholder.com/94x34.webp',
+            image: 'bilder/varumarken/alma.svg',
+            image_alt: 'Alma',
+            image_title: 'Alma',
             url: 'varumarken/alma',
+            url_title: 'Alma',
       ),
       new Brand(
-            label: 'Powerlite',
-            image: 'https://via.placeholder.com/94x34.webp',
-            url: 'varumarken/powerlite',
-      ),
-      new Brand(
-            label: 'Dermapen',
-            image: 'https://via.placeholder.com/94x34.webp',
-            url: 'varumarken/dermapen',
-      ),
-      new Brand(
-            label: 'Dermapen',
-            image: 'https://via.placeholder.com/94x34.webp',
-            url: 'varumarken/dermapen',
+            label: 'CryoPen',
+            image: 'bilder/varumarken/cryopen.svg',
+            image_alt: 'CryoPen',
+            image_title: 'CryoPen',
+            url: 'varumarken/cryopen',
+            url_title: 'CryoPen',
       ),
       new Brand(
             label: 'Dermapen',
-            image: 'https://via.placeholder.com/94x34.webp',
+            image: 'bilder/varumarken/dermapen.svg',
+            image_alt: 'Dermapen',
+            image_title: 'Dermapen',
             url: 'varumarken/dermapen',
+            url_title: 'Dermapen',
       ),
       new Brand(
-            label: 'Dermapen',
-            image: 'https://via.placeholder.com/94x34.webp',
-            url: 'varumarken/dermapen',
+            label: 'Exceed',
+            image: 'bilder/varumarken/exceed.png',
+            image_alt: 'Exceed',
+            image_title: 'Exceed',
+            url: 'varumarken/exceed',
+            url_title: 'Exceedn',
       ),
       new Brand(
-            label: 'Dermapen',
-            image: 'https://via.placeholder.com/94x34.webp',
-            url: 'varumarken/dermapen',
+            label: 'HydraFacial',
+            image: 'bilder/varumarken/hydrafacial.svg',
+            image_alt: 'HydraFacial',
+            image_title: 'HydraFacial',
+            url: 'varumarken/hydrafacial',
+            url_title: 'HydraFacial',
       ),
       new Brand(
-            label: 'Dermapen',
-            image: 'https://via.placeholder.com/94x34.webp',
-            url: 'varumarken/dermapen',
+            label: 'Infuzion',
+            image: 'bilder/varumarken/infuzion.svg',
+            image_alt: 'Infuzion',
+            image_title: 'Infuzion',
+            url: 'varumarken/infuzion',
+            url_title: 'Infuzion',
       ),
       new Brand(
-            label: 'Dermapen',
-            image: 'https://via.placeholder.com/94x34.webp',
-            url: 'varumarken/dermapen',
+            label: 'Microdermabrasion',
+            image: 'bilder/varumarken/microdermabrasion.png',
+            image_alt: 'Microdermabrasion',
+            image_title: 'Microdermabrasion',
+            url: 'varumarken/microdermabrasion',
+            url_title: 'Microdermabrasion',
       ),
       new Brand(
-            label: 'Dermapen',
-            image: 'https://via.placeholder.com/94x34.webp',
-            url: 'varumarken/dermapen',
+            label: 'Powerlite Photonova',
+            image: 'bilder/varumarken/powerlite-photonova.svg',
+            image_alt: 'Powerlite Photonova',
+            image_title: 'Powerlite Photonova',
+            url: 'varumarken/powerlite-photonova',
+            url_title: 'Powerlite Photonova',
       ),
       new Brand(
-            label: 'Dermapen',
-            image: 'https://via.placeholder.com/94x34.webp',
-            url: 'varumarken/dermapen',
+            label: 'PRX-T33',
+            image: 'bilder/varumarken/prx-t33.svg',
+            image_alt: 'PRX-T33n',
+            image_title: 'PRX-T33',
+            url: 'varumarken/prx-t33',
+            url_title: 'PRX-T33',
       ),
       new Brand(
-            label: 'Dermapen',
-            image: 'https://via.placeholder.com/94x34.webp',
-            url: 'varumarken/dermapen',
+            label: 'Skin Tech',
+            image: 'bilder/varumarken/skin-tech.svg',
+            image_alt: 'Skin Tech',
+            image_title: 'Skin Tech',
+            url: 'varumarken/skin-tech',
+            url_title: 'Skin Tech',
       ),
       new Brand(
-            label: 'Dermapen',
-            image: 'https://via.placeholder.com/94x34.webp',
-            url: 'varumarken/dermapen',
+            label: 'Splendor X',
+            image: 'bilder/varumarken/splendor-x.png',
+            image_alt: 'Splendor X',
+            image_title: 'Splendor X',
+            url: 'varumarken/splendor-x',
+            url_title: 'Splendor X',
+      ),
+      new Brand(
+            label: 'Soprano Ice',
+            image: 'bilder/varumarken/soprano-ice.png',
+            image_alt: 'Soprano Ice',
+            image_title: 'Soprano Ice',
+            url: 'varumarken/alma/soprano-ice',
+            url_title: 'Soprano Ice',
       ),
 );
 
@@ -83,56 +114,56 @@ $link_brands = array(
       new BrandCategory(
             label: 'Laser for problem skin',
             services: array(
-                  "varumarken/alma/hybrid-c02" => "Alma - Hybrid (CO2)",
-                  "varumarken/alma/harmony-xl" => "Alma - Harmony XL"
+                  "varumarken/alma/hybrid" => "Alma - Hybrid",
+                  "varumarken/alma/harmony-xl-pro" => "Alma - Harmony XL"
             )
       ),
       new BrandCategory(
-            label: 'Laser for hair removal',
+            label: 'Permanent Hårborttagning',
             services: array(
                   "varumarken/alma/soprano-ice" => "Alma - Soprano Ice",
-                  "varumarken/lumenis/splendor-x" => "Lumenis - Splendor X",
+                  "varumarken/splendor-x" => "Lumenis - Splendor X",
             )
       ),
       new BrandCategory(
             label: 'IPL',
             services: array(
                   "varumarken/alma/rejuve" => "Alma - Rejuve Dye VL",
-                  "varumarken/powerlight/photonova" => "Powerlight - PhotoNova PLS3",
                   "varumarken/alma/harmony-xl" => "Alma - Harmony XL",
+                  "varumarken/powerlite-photonova" => "Powerlight - PhotoNova PLS3",
             )
       ),
       new BrandCategory(
             label: 'Dermabration',
             services: array(
-                  "URL HÄR" => "Hydrafacial (HydroDermabration)",
-                  "URL HÄR" => "Mimass - MicroDermabration",
+                  "varumarken/hydrafacial" => "HydraFacial",
+                  "varumarken/microdemabrasion" => "Mimass - MicroDermabrasion",
             )
       ),
       new BrandCategory(
-            label: 'Chemical peeling',
+            label: 'Kemisk Peeling',
             services: array(
-                  "URL HÄR" => "Skintech",
-                  "URL HÄR" => "PRX-T33",
+                  "varumarken/skin-tech" => "Skin Tech",
+                  "varumarken/prx-t33" => "PRX-T33",
             )
       ),
       new BrandCategory(
             label: 'FreezeTreat',
             services: array(
-                  "URL HÄR" => "CryoPen",
+                  "varumarken/cryopen" => "CryoPen",
             )
       ),
       new BrandCategory(
             label: 'Skinbooster',
             services: array(
-                  "infuzion" => "Infuzion",
-                  "profhilo" => "Profhilo",
+                  "varumarken/infuzion" => "Infuzion",
             )
       ),
       new BrandCategory(
             label: 'Microneedling',
             services: array(
-                  "dermapen4" => "Dermapen 4"
+                  "varumarken/dermapen" => "Dermapen",
+                  "varumarken/exceed" => "Exceed"
             )
       ),
 );
@@ -141,57 +172,92 @@ $brand_cards = array(
       new Brand(
             label: 'Alma',
             image: 'https://via.placeholder.com/116x80.webp',
+            image_alt: 'Alma',
+            image_title: 'Alma',
             photo: 'https://via.placeholder.com/424x324.webp',
+            photo_alt: 'Alma',
+            photo_title: 'Alma',
             title: 'Alma - Hybrid (CO2)',
             subtitle: 'Laser for problem skin',
             description: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal personal meeting with a skin specialist, your skin...',
             url: 'brands/alma',
+            url_title: 'Alma',
             booking_url: 'https://bokadirekt.se',
-            consultation_url: 'hudkonsultation'
+            booking_url_title: 'Boka tid',
+            consultation_url: 'gratis-hudkonsultation',
+            consultation_url_title: 'Hudkonsultation',
       ),
       new Brand(
             label: 'Alma',
             image: 'https://via.placeholder.com/116x80.webp',
+            image_alt: 'Alma',
+            image_title: 'Alma',
             photo: 'https://via.placeholder.com/424x324.webp',
+            photo_alt: 'Alma',
+            photo_title: 'Alma',
             title: 'Alma - Hybrid (CO2)',
             subtitle: 'Laser for problem skin',
             description: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal personal meeting with a skin specialist, your skin...',
             url: 'brands/alma',
+            url_title: 'Alma',
             booking_url: 'https://bokadirekt.se',
-            consultation_url: 'hudkonsultation'
+            booking_url_title: 'Boka tid',
+            consultation_url: 'gratis-hudkonsultation',
+            consultation_url_title: 'Hudkonsultation',
       ),
       new Brand(
             label: 'Alma',
             image: 'https://via.placeholder.com/116x80.webp',
+            image_alt: 'Alma',
+            image_title: 'Alma',
             photo: 'https://via.placeholder.com/424x324.webp',
+            photo_alt: 'Alma',
+            photo_title: 'Alma',
             title: 'Alma - Hybrid (CO2)',
             subtitle: 'Laser for problem skin',
             description: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal personal meeting with a skin specialist, your skin...',
             url: 'brands/alma',
+            url_title: 'Alma',
             booking_url: 'https://bokadirekt.se',
-            consultation_url: 'hudkonsultation'
+            booking_url_title: 'Boka tid',
+            consultation_url: 'gratis-hudkonsultation',
+            consultation_url_title: 'Hudkonsultation',
       ),
       new Brand(
             label: 'Alma',
             image: 'https://via.placeholder.com/116x80.webp',
+            image_alt: 'Alma',
+            image_title: 'Alma',
             photo: 'https://via.placeholder.com/424x324.webp',
+            photo_alt: 'Alma',
+            photo_title: 'Alma',
             title: 'Alma - Hybrid (CO2)',
             subtitle: 'Laser for problem skin',
             description: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal personal meeting with a skin specialist, your skin...',
             url: 'brands/alma',
+            url_title: 'Alma',
             booking_url: 'https://bokadirekt.se',
-            consultation_url: 'hudkonsultation'
+            booking_url_title: 'Boka tid',
+            consultation_url: 'gratis-hudkonsultation',
+            consultation_url_title: 'Hudkonsultation',
       ),
       new Brand(
             label: 'Alma',
             image: 'https://via.placeholder.com/116x80.webp',
+            image_alt: 'Alma',
+            image_title: 'Alma',
             photo: 'https://via.placeholder.com/424x324.webp',
+            photo_alt: 'Alma',
+            photo_title: 'Alma',
             title: 'Alma - Hybrid (CO2)',
             subtitle: 'Laser for problem skin',
             description: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal personal meeting with a skin specialist, your skin...',
             url: 'brands/alma',
+            url_title: 'Alma',
             booking_url: 'https://bokadirekt.se',
-            consultation_url: 'hudkonsultation'
+            booking_url_title: 'Boka tid',
+            consultation_url: 'gratis-hudkonsultation',
+            consultation_url_title: 'Hudkonsultation',
       ),
 );
 ?>
@@ -248,7 +314,7 @@ $brand_cards = array(
                                     <div class="item" id="item-<?php echo $i ?>">
                                           <p class="p200"><?php echo $link_brands[$i]->label ?></p>
                                           <?php foreach ($link_brands[$i]->services as $url => $label) { ?>
-                                                <p class="p200 service-label"><a href="<?php echo $url ?>"><?php echo $label ?></a></p>
+                                                <p class="p200 service-label"><a href="<?php echo $url ?>" title="<?php echo $label ?>"><?php echo $label ?></a></p>
                                           <?php } ?>
                                     </div>
                               <?php } ?>
@@ -276,10 +342,10 @@ $brand_cards = array(
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results.php') ?>
                         </div>
                   </section>
-                  <section id="reviews" class="large-margin">
+                  <section id="reviews">
                         <div class="container">
                               <div class="flex-row align-end justify-space-between">
-                                    <h2 class="big l10n">Reviews</h2>
+                                    <h2 class="big l10n">Omdömen</h2>
                                     <div class="flex-row is-hidden-mobile">
                                           <div class="step-buttons">
                                                 <button class="round-large grey" onclick="Reviews.scroll(-1)">
@@ -290,48 +356,36 @@ $brand_cards = array(
                                                 </button>
                                           </div>
                                           <a href="https://se.trustpilot.com/review/acnespecialisten.se" class="ml-l button compact text">
-                                                <span class="l10n">View all reviews</span>
+                                                <span class="l10n">Se alla omdömen</span>
                                                 <?php icon('navigate-next') ?>
                                           </a>
                                     </div>
 
                               </div>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                              <a class="mt-xl button outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se">View all reviews</a>
+                              <a class="mt-xl button outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="View all reviews">Se alla omdömen</a>
                         </div>
                   </section>
-                  <section id="faq" class="large-margin">
+                  <section id="faq">
                         <div class="container">
                               <div class="flex-row align-end justify-space-between">
-                                    <h2 class="big l10n">Questions & answers</h2>
+                                    <h2 class="big l10n">Frågor & svar</h2>
                                     <a href="faq" class="button compact text is-hidden-mobile">
-                                          <span class="l10n">View all questions</span>
+                                          <span class="l10n">Se alla frågor</span>
                                           <?php icon('navigate-next') ?>
                                     </a>
                               </div>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                              <a class="mt-xl button outline expand is-hidden-tablet l10n" href="faq">View all questions</a>
+                              <a class="mt-xl button outline expand is-hidden-tablet l10n" href="faq" title="Se alla frågor">Se alla frågor</a>
                         </div>
                   </section>
-                  <section id="skin-guide" class="large-margin">
+                  <!--Hudguide-->
+                  <section id="specialists">
                         <div class="container">
                               <div class="flex-row align-end justify-space-between">
-                                    <h2 class="big l10n">Skin guide</h2>
-                                    <a href="skin-guide" class="button compact text is-hidden-mobile">
-                                          <span class="l10n">View all articles</span>
-                                          <?php icon('navigate-next') ?>
-                                    </a>
-                              </div>
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php'); ?>
-                              <a class="mt-xl button outline expand is-hidden-tablet l10n" href="skin-guide">View all articles</a>
-                        </div>
-                  </section>
-                  <section id="specialists" class="large-margin">
-                        <div class="container">
-                              <div class="flex-row align-end justify-space-between">
-                                    <h2 class="big l10n">Our specialists</h2>
+                                    <h2 class="big l10n">Våra specialister</h2>
                                     <a href="specialister" class="button compact text is-hidden-mobile">
-                                          <span class="l10n">View all specialists</span>
+                                          <span class="l10n">Se alla specialister</span>
                                           <?php icon('navigate-next') ?>
                                     </a>
                               </div>
@@ -340,27 +394,48 @@ $brand_cards = array(
                                     new Specialist(
                                           name: 'Cazzandra Lindberg',
                                           title: 'Hudterapeut sedan 2015',
-                                          image: 'images/specialists/large/hudterapeut-cazzandra.webp'
+                                          image: 'images/specialists/large/hudterapeut-cazzandra.webp',
+                                          image_alt: 'Cazzandra Lindberg',
+                                          image_title: 'Cazzandra Lindberg'
                                     ),
                                     new Specialist(
                                           name: 'Veronika Benedik',
                                           title: 'Hudterapeut sedan 1999',
-                                          image: 'images/specialists/large/hudterapeut-veronika.webp'
+                                          image: 'images/specialists/large/hudterapeut-veronika.webp',
+                                          image_alt: 'Veronika Benedik',
+                                          image_title: 'Veronika Benedik'
                                     ),
                                     new Specialist(
-                                          name: 'Amira Maqboul',
+                                          name: 'Julia Eklund',
                                           title: 'Hudterapeut sedan 2017',
-                                          image: 'images/specialists/large/hudterapeut-amira.webp'
+                                          image: 'images/specialists/large/hudterapeut-julia.webp',
+                                          image_alt: 'Julia Eklund',
+                                          image_title: 'Julia Eklund',
                                     ),
                                     new Specialist(
                                           name: 'Vilma Libom',
                                           title: 'Hudterapeut sedan 2019',
-                                          image: 'images/specialists/large/hudterapeut-vilma.webp'
+                                          image: 'images/specialists/large/hudterapeut-vilma.webp',
+                                          image_alt: 'Vilma Libom',
+                                          image_title: 'Vilma Libom'
                                     )
                               );
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
                               ?>
-                              <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialists">View all specialists</a>
+                              <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialists" title="Se alla specialister">Se alla specialister</a>
+                        </div>
+                  </section>
+                  <section id="brands">
+                        <div class="container">
+                              <div class="flex-row align-end justify-space-between">
+                                    <h2 class="big l10n">Varumärken</h2>
+                                    <a href="varumarken" class="button compact text is-hidden-mobile">
+                                          <span class="l10n">Se alla varumärken</span>
+                                          <?php icon('navigate-next') ?>
+                                    </a>
+                              </div>
+                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
+                              <a class="mt-xl button outline expand is-hidden-tablet l10n" href="varumarken" title="Se alla varumärken">Se alla varumärken</a>
                         </div>
                   </section>
             </div>

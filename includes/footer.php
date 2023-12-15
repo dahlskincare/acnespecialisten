@@ -5,7 +5,7 @@
             <div class="container">
                 <h2 class="big l10n">Redo att sätta igång?</h2>
                 <p class="p200 l10n">Boka tid för en kostnadsfri konsultation.</p>
-                <a href="hudkonsultation" class="button white expand l10n">
+                <a href="gratis-hudkonsultation" class="button white expand l10n">
                     Få gratis hudkonsultation
                 </a>
             </div>
@@ -37,7 +37,7 @@
             <div id="footer-contact">
                 <h2>Acnespecialisten</h2>
                 <div class="p200" id="phone-dot-email">
-                    <a href="tel:+4608296101">+46 (0) 8-29 61 01</a>
+                    <a href="tel:+4608296101" title="+46 (0) 8-29 61 01">+46 (0) 8-29 61 01</a>
                     <div class="dot"></div>
                     <a class="l10n" href="mailto:hej@acnespecialisten.se" title="email">hej@acnespecialisten.se</a>
                 </div>
@@ -49,23 +49,13 @@
             <div id="footer-salon-cards">
                 <div class="salon-card">
                     <div class="flex-row">
-                        <img src="images/salons/profile-sundbyberg.jpg" alt="Sundbyberg" title="Sundbyberg" width="102" height="102">
-                        <div>
-                            <h2>Sundbyberg</h2>
-                            <p class="p200">Sturegatan 32, 172 31 Sundbyberg</p>
-                        </div>
-                    </div>
-                    <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-sundbyberg-19300" target="_blank" rel="nofollow" class="button grey expand l10n">Book a visit</a>
-                </div>
-                <div class="salon-card">
-                    <div class="flex-row">
                         <img src="images/salons/profile-ostermalm.jpg" alt="Östermalm" title="Östermalm" width="102" height="102" />
                         <div>
                             <h2>Östermalm</h2>
                             <p class="p200">Strandvägen 7, 114 51 Stockholm</p>
                         </div>
                     </div>
-                    <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559" target="_blank" rel="nofollow" class="button grey expand l10n">Book a visit</a>
+                    <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559" target="_blank" rel="nofollow" class="button grey expand l10n" title="Book a visit">Boka ett besök</a>
                 </div>
                 <div class="salon-card">
                     <div class="flex-row">
@@ -75,42 +65,52 @@
                             <p class="p200">Hornsgatan 47, 118 49 Stockholm</p>
                         </div>
                     </div>
-                    <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-s%C3%B6dermalm-19301" target="_blank" rel="nofollow" class="button grey expand l10n">Book a visit</a>
+                    <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-s%C3%B6dermalm-19301" target="_blank" rel="nofollow" class="button grey expand l10n" title="Book a visit">Boka ett besök</a>
                 </div>
             </div>
+            <div class="salon-card">
+                    <div class="flex-row">
+                        <img src="images/salons/profile-sundbyberg.jpg" alt="Sundbyberg" title="Sundbyberg" width="102" height="102">
+                        <div>
+                            <h2>Sundbyberg</h2>
+                            <p class="p200">Sturegatan 32, 172 31 Sundbyberg</p>
+                        </div>
+                    </div>
+                    <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-sundbyberg-19300" target="_blank" rel="nofollow" class="button grey expand l10n" title="Book a visit">Boka ett besök</a>
+                </div>
             <div id="footer-links">
                 <div class="columns is-mobile is-gapless">
                     <div class="column">
-                        <h2>Discover</h2>
+                        <h2>Upptäck</h2>
                         <ul>
                             <li>
-                                <a href="hudkonsultation" class="button text grey compact l10n">Gratis hudkonsultation</a>
+                                <a href="gratis-hudkonsultation" class="button text grey compact l10n" title="Gratis hudkonsultation">Gratis hudkonsultation</a>
                             </li>
                             <li>
-                                <a href="problem" class="button text grey compact l10n">Problem</a>
+                                <a href="problem" class="button text grey compact l10n" title="Problem">Problem</a>
                             </li>
                             <li>
-                                <a href="behandlingar" class="button text grey compact l10n">Behandlingar</a>
+                                <a href="behandlingar" class="button text grey compact l10n" title="Behandlingar">Behandlingar</a>
                             </li>
                             <li>
-                                <a href="varumarken" class="button text grey compact l10n">Varumärken</a>
+                                <a href="varumarken" class="button text grey compact l10n" title="Varumärken">Varumärken</a>
                             </li>
-                            <li>
-                                <a href="priser" class="button text grey compact l10n">Priser</a>
-                            </li>
+                            <!--<li>
+                                <a href="priser" class="button text grey compact l10n" title="Priser">Priser</a>
+                            </li>-->
                         </ul>
                     </div>
                     <div class="column">
                         <h2 class="l10n">Företag</h2>
                         <ul>
                             <li>
-                                <a href="om-oss" class="button text grey compact l10n">Om oss</a>
+                                <a href="om-oss" class="button text grey compact l10n" title="Om oss">Om oss</a>
                             </li>
                             <li>
-                                <a href="metod" class="button text grey compact l10n">Vår metod</a>
+                                <a href="metod" class="button text grey compact l10n" title="Vår metod">Vår metod</a>
                             </li>
                             <li>
-                                <a href="specialister" class="button text grey compact l10n">Våra specialsiter</a>
+                                <a href="specialister" class="button text grey compact l10n" title="Våra specialsiter">Våra specialsiter</a>
                             </li>
                             <li>
                                 <a href="https://skonhetsgruppen.teamtailor.com" target="_blank" title="Teamtailor" rel="nofollow" class="button text grey compact l10n">Karriär</a>
@@ -124,27 +124,33 @@
                             <h2>Kundtjänst</h2>
                             <ul>
                                 <li>
-                                    <a href="faq" class="button text grey compact l10n">Frågor & Svar</a>
+                                    <a href="faq" class="button text grey compact l10n" title="Frågor & Svar">Frågor & Svar</a>
                                 </li>
                                 <li>
-                                    <a href="avbokningspolicy" class="button text grey compact l10n">Avbokning</a>
+                                    <a href="avbokningspolicy" class="button text grey compact l10n" title="Avbokning">Avbokning</a>
                                 </li>
                                 <li>
-                                    <a href="ordlista" class="button text grey compact l10n">Ordlista</a>
+                                    <a href="ordlista" class="button text grey compact l10n" title="Ordlista">Ordlista</a>
+                                </li>
+                                <!--<li>
+                                    <a href="hudguide" class="button text grey compact l10n" title="Hudguide">Hudguide</a>
+                                </li>-->
+                                <li>
+                                    <a href="kontakt" class="button text grey compact l10n" title="Kontakt">Kontakt</a>
                                 </li>
                             </ul>
                         </div>
                         <div class="column">
-                            <h2>Community</h2>
+                            <h2>Övrigt</h2>
                             <ul>
                                 <li>
-                                    <a href="resultat" class="button text grey compact l10n">Resultat</a>
+                                    <a href="resultat" class="button text grey compact l10n" title="Resultat">Resultat</a>
                                 </li>
                                 <li>
-                                    <a href="presentkort" class="button text grey compact l10n">Presentkort</a>
+                                    <a href="presentkort" class="button text grey compact l10n" title="Presentkort">Presentkort</a>
                                 </li>
                                 <li>
-                                    <a href="https://dahlskincare.com/profile/start" class="button text grey compact l10n">Logga in</a>
+                                    <a href="https://dahlskincare.com/profile/start" class="button text grey compact l10n" title="Logga in">Logga in</a>
                                 </li>
                             </ul>
                         </div>
@@ -156,7 +162,7 @@
                     <p>&copy;
                         <?php echo date('Y') ?> Acnespecialisten
                     </p>
-                    <a href="cookies" class="button b100 compact text l10n">Cookie policy</a>
+                    <a href="cookies" class="button b100 compact text l10n" title="Cookie policy">Cookie policy</a>
                     <div id="language-selector">
                         <?php icon("intl") ?>
                         <span class="button b100 compact text l10n">
@@ -165,7 +171,7 @@
                     </div>
                 </div>
                 <div id="footer-consultation-button-container">
-                    <a href="hudkonsultation" id="consultation-button" class="button expand l10n">
+                    <a href="gratis-hudkonsultation" id="consultation-button" class="button expand l10n">
                         Få gratis konsultation
                     </a>
                     <div id="legends">
@@ -203,7 +209,7 @@
                             </div>
                             <div class="column">
                                 <div class="aligner">
-                                    <?php icon('pin') ?>
+                                    <?php icon('pin-white') ?>
                                     <div>
                                         <button class="b200 white l10n">Konsultation på klinik </button>
                                     </div>
@@ -284,29 +290,18 @@
                     <div class="column">
                         <h2>Acnespecialisten</h2>
                         <div class="flex-row" id="phone-dot-email-large">
-                            <a href="tel:+4608296101" class="button b200 compact text">+46 (0) 8-29 61 01</a>
+                            <a href="tel:+4608296101" class="button b200 compact text" title="+46 (0) 8-29 61 01">+46 (0) 8-29 61 01</a>
                             <div class="dot"></div>
                             <a class="button b200 compact text l10n" href="mailto:hej@acnespecialisten.se" title="Skicka mail">hej@acnespecialisten.se</a>
                         </div>
                         <div id="footer-salon-cards-large">
                             <div class="salon-card">
                                 <div class="flex-row">
-                                    <img src="images/salons/profile-sundbyberg.jpg" alt="Sundbyberg" title="Sundbyberg" width="72" height="72">
-                                    <div>
-                                        <h2>Sundbyberg</h2>
-                                        <p class="p200">Sturegatan 32, 172 31 Sundbyberg</p>
-                                        <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-sundbyberg-19300" target="_blank" rel="nofollow" class="button b200 compact text l10n">Boka tid</a>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="salon-card">
-                                <div class="flex-row">
-                                    <img src="images/salons/profile-ostermalm.jpg" alt="Östermalm" title="Östermalm"" width=" 72" height="72">
+                                    <img src="images/salons/profile-ostermalm.jpg" alt="Östermalm" title="Östermalm" width=" 72" height="72">
                                     <div>
                                         <h2>Östermalm</h2>
                                         <p class="p200">Strandvägen 7, 114 51 Stockholm</p>
-                                        <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559" target="_blank" rel="nofollow" class="button b200 compact text l10n">Boka tid</a>
+                                        <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559" target="_blank" rel="nofollow" class="button b200 compact text l10n" title="Boka tid">Boka tid</a>
                                     </div>
                                 </div>
                             </div>
@@ -316,9 +311,20 @@
                                     <div>
                                         <h2>Södermalm</h2>
                                         <p class="p200">Hornsgatan 47, 118 49 Stockholm</p>
-                                        <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-s%C3%B6dermalm-19301" target="_blank" rel="nofollow" class="button b200 compact text l10n">Boka tid</a>
+                                        <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-s%C3%B6dermalm-19301" target="_blank" rel="nofollow" class="button b200 compact text l10n" title="Boka tid">Boka tid</a>
                                     </div>
                                 </div>
+                            </div>
+                            <div class="salon-card">
+                                <div class="flex-row">
+                                    <img src="images/salons/profile-sundbyberg.jpg" alt="Sundbyberg" title="Sundbyberg" width="72" height="72">
+                                    <div>
+                                        <h2>Sundbyberg</h2>
+                                        <p class="p200">Sturegatan 32, 172 31 Sundbyberg</p>
+                                        <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-sundbyberg-19300" target="_blank" rel="nofollow" class="button b200 compact text l10n" title="Boka tid">Boka tid</a>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -329,33 +335,33 @@
                                     <h2>Upptäck</h2>
                                     <ul>
                                         <li>
-                                            <a href="hudkonsultation" class="button text grey compact l10n">Gratis konsultation</a>
+                                            <a href="gratis-hudkonsultation" class="button text grey compact l10n" title="Gratis konsultation">Gratis konsultation</a>
                                         </li>
                                         <li>
-                                            <a href="problem" class="button text grey compact l10n">Problem</a>
+                                            <a href="problem" class="button text grey compact l10n" title="Problem">Problem</a>
                                         </li>
                                         <li>
-                                            <a href="behandlingar" class="button text grey compact l10n">Behandlingar</a>
+                                            <a href="behandlingar" class="button text grey compact l10n" title="Behandlingar">Behandlingar</a>
                                         </li>
                                         <li>
-                                            <a href="varumarken" class="button text grey compact l10n">Varumärken</a>
+                                            <a href="varumarken" class="button text grey compact l10n" title="Varumärken">Varumärken</a>
                                         </li>
-                                        <li>
-                                            <a href="priser" class="button text grey compact l10n">Priser</a>
-                                        </li>
+                                        <!--<li>
+                                            <a href="priser" class="button text grey compact l10n" title="Priser">Priser</a>
+                                        </li>-->
                                     </ul>
                                 </div>
                                 <div class="column">
                                     <h2 class="l10n">Företag</h2>
                                     <ul>
                                         <li>
-                                            <a href="om-oss" class="button text grey compact l10n">Om oss</a>
+                                            <a href="om-oss" class="button text grey compact l10n" title="Om oss">Om oss</a>
                                         </li>
                                         <li>
-                                            <a href="metod" class="button text grey compact l10n">Vår metod</a>
+                                            <a href="metod" class="button text grey compact l10n" title="Vår metod">Vår metod</a>
                                         </li>
                                         <li>
-                                            <a href="specialister" class="button text grey compact l10n">Våra specialister</a>
+                                            <a href="specialister" class="button text grey compact l10n" title="Våra specialister">Våra specialister</a>
                                         </li>
                                         <li>
                                             <a href="https://skonhetsgruppen.teamtailor.com" target="_blank" title="Teamtailor" rel="nofollow" class="button text grey compact l10n">Karriär</a>
@@ -366,27 +372,33 @@
                                     <h2>Kundtjänst</h2>
                                     <ul>
                                         <li>
-                                            <a href="faq" class="button text grey compact l10n">Frågor & Svar</a>
+                                            <a href="faq" class="button text grey compact l10n" title="Frågor & Svar">Frågor & Svar</a>
                                         </li>
                                         <li>
-                                            <a href="avbokningspolicy" class="button text grey compact l10n">Avbokning</a>
+                                            <a href="avbokningspolicy" class="button text grey compact l10n" title="Avbokning">Avbokning</a>
                                         </li>
                                         <li>
-                                            <a href="ordlista" class="button text grey compact l10n">Ordlista</a>
+                                            <a href="ordlista" class="button text grey compact l10n" title="Ordlista">Ordlista</a>
+                                        </li>
+                                        <!--<li>
+                                            <a href="hudguide" class="button text grey compact l10n" title="Hudguide">Hudguide</a>
+                                        </li>-->
+                                        <li>
+                                            <a href="kontakt" class="button text grey compact l10n" title="Kontakt">Kontakt</a>
                                         </li>
                                     </ul>
                                 </div>
                                 <div class="column">
-                                    <h2>Community</h2>
+                                    <h2>Övrigt</h2>
                                     <ul>
                                         <li>
-                                            <a href="resultat" class="button text grey compact l10n">Resultat</a>
+                                            <a href="resultat" class="button text grey compact l10n" title="Resultat">Resultat</a>
                                         </li>
                                         <li>
-                                            <a href="presentkort" class="button text grey compact l10n">Presentkort</a>
+                                            <a href="presentkort" class="button text grey compact l10n" title="Presentkort">Presentkort</a>
                                         </li>
                                         <li>
-                                            <a href="https://dahlskincare.com/profile/start" class="button text grey compact l10n">Login</a>
+                                            <a href="https://dahlskincare.com/profile/start" class="button text grey compact l10n" title="Login">Till inloggning</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -401,7 +413,7 @@
                         <?php echo date('Y') ?> Acnespecialisten
                     </p>
                     <div class="flex-row">
-                        <a href="cookies" class="button b100 compact text l10n">Cookie policy</a>
+                        <a href="cookies" class="button b100 compact text l10n" title="Cookie policy">Cookie policy</a>
                         <div id="language-selector">
                             <?php icon("intl") ?>
                             <span class="button b100 compact text l10n">English</span>
@@ -481,7 +493,7 @@
 </style>
 
 <div id="cookies-popup">
-    <div class="l10n">By using our website, you agree to our <a href="cookies">Cookie policy</a>.</div>
+    <div class="l10n">Genom att använda vår hemsida godkänner du våra villkor <a href="cookies" title="Cookie policy">Cookie policy</a>.</div>
     <button class="grey expand l10n">Accept</button>
 </div>
 

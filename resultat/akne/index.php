@@ -4,10 +4,9 @@
 
 <head>
     <!-- TODO: Set title and meta tags -->
-    <title class="l10n">Acnespecialisten | Acne results</title>
-    <meta name="description" content="" class="l10n">
-    <meta name="title" content="" class="l10n">
-    <meta name="keywords" content="" class="l10n">
+    <title>Akne Resultat hos AcneSpecialisten | Framgångshistorier och Transformationer</title>
+    <meta name="description" content="Upptäck AcneSpecialistens framgångar i behandling av akne genom våra kundcase. Se hur vår expertis och skräddarsydda behandlingsmetoder transformerar hudhälsa och bidrar till en klarare hud och förbättrat välbefinnande. Våra före- och efterbilder illustrerar den effektiva bekämpningen av akne och andra hudproblem.">
+    <meta name="keywords" content="Aknebehandling resultat, AcneSpecialisten framgångar, Hudtransformation, Klar hud, Bekämpa akne, Kundcase akne, Resultatdriven aknebehandling, Hudhälsans förbättring, Akneföre- och efterbilder">
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
     <link rel="stylesheet" href="/resultat/category.css">
@@ -19,30 +18,40 @@ $specialists = array(
     new Specialist(
         name: 'Cazzandra Lindberg',
         title: 'Hudterapeut sedan 2015',
-        image: 'images/specialists/large/hudterapeut-cazzandra.webp'
+        image: 'images/specialists/large/hudterapeut-cazzandra.webp',
+        image_alt: 'Cazzandra Lindberg',
+        image_title: 'Cazzandra Lindberg',
     ),
     new Specialist(
         name: 'Veronika Benedik',
         title: 'Hudterapeut sedan 1999',
-        image: 'images/specialists/large/hudterapeut-veronika.webp'
+        image: 'images/specialists/large/hudterapeut-veronika.webp',
+        image_alt: 'Veronika Benedik',
+        image_title: 'Veronika Benedik'
     ),
     new Specialist(
         name: 'Amira Maqboul',
         title: 'Hudterapeut sedan 2017',
-        image: 'images/specialists/large/hudterapeut-amira.webp'
+        image: 'images/specialists/large/hudterapeut-amira.webp',
+        image_alt: 'Amira Maqboul',
+        image_title: 'Amira Maqboul'
     ),
     new Specialist(
         name: 'Vilma Libom',
         title: 'Hudterapeut sedan 2019',
-        image: 'images/specialists/large/hudterapeut-vilma.webp'
+        image: 'images/specialists/large/hudterapeut-vilma.webp',
+        image_alt: 'Vilma Libom',
+        image_title: 'Vilma Libom'
     )
 );
 $result_category =
     new ResultCategory(
-        id: 'acne',
-        title: 'Acne results',
-        description_1: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
-        description_2: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
+        id: 'akne',
+        title: 'Akne resultat',
+        description_1: 'Utforska våra kunders transformationsresor mot akne och problemhy. Denna sida visar en serie av före- och efterbilder som demonstrerar den effektiva påverkan av våra specialanpassade hudvårdsbehandlingar och produkter, vilka ger tydliga och märkbara förbättringar i hudens utseende och hälsa.',
+
+        description_2: 'Är du redo att ta kontroll över din akne och uppnå en klarare hud? Boka en kostnadsfri konsultation hos oss och ta det första steget mot en synbart förbättrad och hälsosammare hy. Låt oss visa dig vägen till effektiva resultat.',
+
     );
 
 if (isset($_GET['page']) && $_GET['page'] > 0) {
@@ -54,126 +63,70 @@ if (isset($_GET['page']) && $_GET['page'] > 0) {
 $results_per_page = array(
     1 => array(
         new ResultCustomer(
-            id: '1',
-            image_before_small: 'https://via.placeholder.com/178x238.webm',
-            image_after_small: 'https://via.placeholder.com/178x238.webm',
-            image_before_large: 'https://via.placeholder.com/372x496.webm',
-            image_after_large: 'https://via.placeholder.com/372x496.webm',
-            age: 18,
-            gender: 'Female',
-            problem: 'Acne',
-            type: 'Severe',
+            url: '',
+            image_before_small: '/bilder/resultat/178x238/resultat-akne-fore-1.jpg',
+            image_after_small: '/bilder/resultat/178x238/resultat-akne-efter-1.jpg',
+            image_before_large: '/bilder/resultat/372x496/resultat-akne-fore-1.jpg',
+            image_after_large: '/bilder/resultat/372x496/resultat-akne-efter-1.jpg',
+            url_title: 'Akne resultat',
+            image_alt: 'Akne resultat',
+            image_title: 'Akne resultat',
+            age: 21,
+            gender: 'Kvinna',
+            problem: 'Akne',
+            type: 'Svår',
             treatment: new ResultTreatment(
-                duration: '3 months',
+                duration: '3 månader',
                 procedures: array(
                     new ResultProcedure(
                         image: 'https://via.placeholder.com/102x102.webm',
-                        name: 'Problem skin facials',
-                        count: '3 times'
+                        name: 'Aknebehandlingar',
+                        count: '5 tillfällen',
                     ),
                 ),
                 product: new ResultProduct(
                     image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Product bundle for light acne',
+                    name: 'Produktpaket mot svår akne',
                 ),
                 employee: new ResultEmployee(
                     image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Patrick Minogue'
+                    name: 'Cazzandra Lindberg',
                 ),
             )
         ),
         new ResultCustomer(
-            id: '2',
-            image_before_small: 'https://via.placeholder.com/178x238.webm',
-            image_after_small: 'https://via.placeholder.com/178x238.webm',
-            image_before_large: 'https://via.placeholder.com/372x496.webm',
-            image_after_large: 'https://via.placeholder.com/372x496.webm',
+            url: '',
+            image_before_small: '/bilder/resultat/178x238/resultat-akne-fore-2.jpg',
+            image_after_small: '/bilder/resultat/178x238/resultat-akne-efter-2.jpg',
+            image_before_large: '/bilder/resultat/372x496/resultat-akne-fore-2.jpg',
+            image_after_large: '/bilder/resultat/372x496/resultat-akne-efter-2.jpg',
+            url_title: 'Akne resultat',
+            image_alt: 'Akne resultat',
+            image_title: 'Akne resultat',
             age: 18,
-            gender: 'Female',
-            problem: 'Acne',
-            type: 'Severe',
+            gender: 'Kvinna',
+            problem: 'Akne',
+            type: 'Svår',
             treatment: new ResultTreatment(
-                duration: '3 months',
+                duration: '2 månader',
                 procedures: array(
                     new ResultProcedure(
                         image: 'https://via.placeholder.com/102x102.webm',
-                        name: 'Problem skin facials',
-                        count: '3 times'
+                        name: 'Aknebehandlingar',
+                        count: '3 tillfällen',
                     ),
                 ),
                 product: new ResultProduct(
                     image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Product bundle for light acne',
+                    name: 'Produktpaket mot svår akne',
                 ),
                 employee: new ResultEmployee(
                     image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Patrick Minogue'
+                    name: 'Julia Eklund',
                 ),
             )
         ),
     ),
-    2 => array(
-        new ResultCustomer(
-            id: '3',
-            image_before_small: 'https://via.placeholder.com/178x238.webm',
-            image_after_small: 'https://via.placeholder.com/178x238.webm',
-            image_before_large: 'https://via.placeholder.com/372x496.webm',
-            image_after_large: 'https://via.placeholder.com/372x496.webm',
-            age: 18,
-            gender: 'Female',
-            problem: 'Acne',
-            type: 'Severe',
-            treatment: new ResultTreatment(
-                duration: '3 months',
-                procedures: array(
-                    new ResultProcedure(
-                        image: 'https://via.placeholder.com/102x102.webm',
-                        name: 'Problem skin facials',
-                        count: '3 times'
-                    ),
-                ),
-                product: new ResultProduct(
-                    image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Product bundle for light acne',
-                ),
-                employee: new ResultEmployee(
-                    image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Patrick Minogue'
-                ),
-            )
-        ),
-    ),
-    3 => array(
-        new ResultCustomer(
-            id: '4',
-            image_before_small: 'https://via.placeholder.com/178x238.webm',
-            image_after_small: 'https://via.placeholder.com/178x238.webm',
-            image_before_large: 'https://via.placeholder.com/372x496.webm',
-            image_after_large: 'https://via.placeholder.com/372x496.webm',
-            age: 18,
-            gender: 'Female',
-            problem: 'Acne',
-            type: 'Severe',
-            treatment: new ResultTreatment(
-                duration: '3 months',
-                procedures: array(
-                    new ResultProcedure(
-                        image: 'https://via.placeholder.com/102x102.webm',
-                        name: 'Problem skin facials',
-                        count: '3 times'
-                    ),
-                ),
-                product: new ResultProduct(
-                    image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Product bundle for light acne',
-                ),
-                employee: new ResultEmployee(
-                    image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Patrick Minogue'
-                ),
-            )
-        ),
-    )
 );
 
 $pages = sizeof($results_per_page);
@@ -189,8 +142,8 @@ $pages = sizeof($results_per_page);
                 title: $result_category->title,
                 description: $result_category->description_1,
                 description_extended: $result_category->description_2,
-                button_url: 'hudkonsultation',
-                button_label: 'Gör en gratis konsultation'
+                button_url: 'gratis-hudkonsultation',
+                button_label: 'Boka en gratis konsultation'
             );
             include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/green_header_banner.php');
             ?>
@@ -201,21 +154,21 @@ $pages = sizeof($results_per_page);
                     <?php include('../widgets/result_customer_card/result_customer_card.php'); ?>
                 <?php } ?>
                 <div id="paginator">
-                    <?php include('../../skin-guide/widgets/paginator/paginator.php'); ?>
+                    <?php include('../../hudguide/widgets/paginator/paginator.php'); ?>
                 </div>
             </section>
             <section id="cta-banner" class="large-margin">
                 <div id="cta-banner-texts">
-                    <div class="l10n" id="cta-banner-header">Ready to start your own journey?</div>
-                    <div class="p200 l10n" id="cta-banner-content">In a personal meeting with a skin specialist, your skin type is examined and identified.</div>
+                    <div class="l10n" id="cta-banner-header">Vill du ha hjälp med din hy?</div>
+                    <div class="p200 l10n" id="cta-banner-content">Boka en gratis hudkonsultation hos en av våra erfarna hudterapeuter.</div>
                 </div>
                 <div>
-                    <a href="hudkonsultation" class="button white expand l10n">Get a free consultation</a>
+                    <a href="gratis-hudkonsultation" class="button white expand l10n" title="Boka en gratis hudkonsultation">Boka en gratis hudkonsultation</a>
                 </div>
             </section>
             <section id="reviews" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
-                    <div class="h500 l10n">Reviews</div>
+                    <div class="h500 l10n">Omdömens</div>
                     <div class="flex-row is-hidden-mobile">
                         <div class="step-buttons">
                             <button class="round-large grey" onclick="Reviews.scroll(-1)">
@@ -226,58 +179,50 @@ $pages = sizeof($results_per_page);
                             </button>
                         </div>
                         <a href="https://se.trustpilot.com/review/acnespecialisten.se" class="ml-l button compact text">
-                            <span class="l10n">View all reviews</span>
+                            <span class="l10n">Se alla omdömen</span>
                             <?php icon('navigate-next') ?>
                         </a>
                     </div>
-
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se">View all reviews</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="Se alla omdömen">Se alla omdömen</a>
             </section>
             <section id="faq" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
-                    <div class="h500 l10n">Questions & answers</div>
+                    <h2 class="big l10n">Frågor & svar</h2>
                     <a href="faq" class="button compact text is-hidden-mobile">
-                        <span class="l10n">View all questions</span>
+                        <span class="l10n">Se alla frågor</span>
                         <?php icon('navigate-next') ?>
                     </a>
                 </div>
-                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="faq">View all questions</a>
+                <?php
+                $faq_categories = null;
+                include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php');
+                ?>
+                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="faq" title="Se alla frågor">Se alla frågor</a>
             </section>
-            <section id="skin-guide" class="large-margin">
-                <div class="flex-row align-end justify-space-between">
-                    <div class="h500 l10n">Skin guide</div>
-                    <a href="skin-guide" class="button compact text is-hidden-mobile">
-                        <span class="l10n">View all articles</span>
-                        <?php icon('navigate-next') ?>
-                    </a>
-                </div>
-                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="skin-guide">View all articles</a>
-            </section>
+            <!--Hudguide-->
             <section id="specialists" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
-                    <div class="h500 l10n">Our specialists</div>
-                    <a href="specialists" class="button compact text is-hidden-mobile">
-                        <span class="l10n">View all specialists</span>
+                    <h2 class="big l10n">Våra specialister</h2>
+                    <a href="specialister" class="button compact text is-hidden-mobile">
+                        <span class="l10n">Se alla specialister</span>
                         <?php icon('navigate-next') ?>
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="specialister">View all specialists</a>
+                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialister" title="Se alla specialister">Se alla specialister</a>
             </section>
             <section id="brands" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
-                    <div class="h500 l10n">Brands we use</div>
-                    <a href="brands" class="button compact text is-hidden-mobile">
-                        <span class="l10n">View all brands</span>
+                    <div class="h500 l10n">Varumärken</div>
+                    <a href="varumarken" class="button compact text is-hidden-mobile">
+                        <span class="l10n">Se alla varumärken</span>
                         <?php icon('navigate-next') ?>
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="brands">View all brands</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="varumarken" title="Se alla varumärken">Se alla varumärken</a>
             </section>
         </div>
     </main>

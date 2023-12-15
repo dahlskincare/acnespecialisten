@@ -11,7 +11,7 @@
     </div>
     <div id="nav-buttons-scroller">
         <?php foreach ($nav_buttons as $id => $label) { ?>
-            <a class="nav-button" href="javascript:;" data-id="<?php echo $id ?>" onclick="NavButtons.setActive(this);"><?php echo $label ?></a>
+            <a class="nav-button" href="javascript:;" data-id="<?php echo $id ?>" onclick="NavButtons.setActive(this);" title="<?php echo $label ?>"><?php echo $label ?></a>
         <?php } ?>
     </div>
 </div>

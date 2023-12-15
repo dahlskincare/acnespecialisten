@@ -30,7 +30,7 @@ $service_categories = array(
                 new ServiceInfo(
                     name: '2x Areas',
                     price: '1895 kr',
-                    full_price: '2485 kr',
+                    savings: 'save 1000 kr',
                     booking_url: ''
                 )
             ),
@@ -44,12 +44,12 @@ $service_categories = array(
                         new ServiceInfoComboItem(
                             name: 'Label',
                             price: '995 kr',
-                            full_price: '1485 kr'
+                            savings: 'save 1000 kr',
                         ),
                         new ServiceInfoComboItem(
                             name: 'Label',
                             price: '995 kr',
-                            full_price: '1485 kr'
+                            savings: 'save 1000 kr',
                         ),
                         new ServiceInfoComboItem(
                             name: 'Label',
@@ -93,7 +93,7 @@ $service_categories = array(
                 title: 'Priser behandlingar',
                 description: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
                 description_extended: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type.',
-                button_url: 'hudkonsultation',
+                button_url: 'gratis-hudkonsultation',
                 button_label: 'Gör en gratis konsultation'
             );
             include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/green_header_banner.php');
@@ -107,72 +107,111 @@ $service_categories = array(
                                 new Brand(
                                     label: 'Powerlite',
                                     image: 'https://via.placeholder.com/94x34.webp',
+                                    image_alt: 'Powerlite',
+                                    image_title: 'Powerlite',
                                     url: 'priser/powerlite',
+                                    url_title: 'Powerlite',
                                 ),
                                 new Brand(
                                     label: 'Dermapen',
                                     image: 'https://via.placeholder.com/94x34.webp',
+                                    image_alt: 'Dermapen',
+                                    image_title: 'Dermapen',
                                     url: 'priser/dermapen',
+                                    url_title: 'Dermapen',
                                 ),
                                 new Brand(
                                     label: 'Dermapen',
                                     image: 'https://via.placeholder.com/94x34.webp',
+                                    image_alt: 'Dermapen',
+                                    image_title: 'Dermapen',
                                     url: 'priser/dermapen',
+                                    url_title: 'Dermapen',
                                 ),
                                 new Brand(
                                     label: 'Dermapen',
                                     image: 'https://via.placeholder.com/94x34.webp',
+                                    image_alt: 'Dermapen',
+                                    image_title: 'Dermapen',
                                     url: 'priser/dermapen',
+                                    url_title: 'Dermapen',
                                 ),
                                 new Brand(
                                     label: 'Dermapen',
                                     image: 'https://via.placeholder.com/94x34.webp',
+                                    image_alt: 'Dermapen',
+                                    image_title: 'Dermapen',
                                     url: 'priser/dermapen',
+                                    url_title: 'Dermapen',
                                 ),
                                 new Brand(
                                     label: 'Dermapen',
                                     image: 'https://via.placeholder.com/94x34.webp',
+                                    image_alt: 'Dermapen',
+                                    image_title: 'Dermapen',
                                     url: 'priser/dermapen',
+                                    url_title: 'Dermapen',
                                 ),
                                 new Brand(
                                     label: 'Dermapen',
                                     image: 'https://via.placeholder.com/94x34.webp',
+                                    image_alt: 'Dermapen',
+                                    image_title: 'Dermapen',
                                     url: 'priser/dermapen',
+                                    url_title: 'Dermapen',
                                 ),
                                 new Brand(
                                     label: 'Dermapen',
                                     image: 'https://via.placeholder.com/94x34.webp',
+                                    image_alt: 'Dermapen',
+                                    image_title: 'Dermapen',
                                     url: 'priser/dermapen',
+                                    url_title: 'Dermapen',
                                 ),
                                 new Brand(
                                     label: 'Dermapen',
                                     image: 'https://via.placeholder.com/94x34.webp',
+                                    image_alt: 'Dermapen',
+                                    image_title: 'Dermapen',
                                     url: 'priser/dermapen',
+                                    url_title: 'Dermapen',
                                 ),
                                 new Brand(
                                     label: 'Dermapen',
                                     image: 'https://via.placeholder.com/94x34.webp',
+                                    image_alt: 'Dermapen',
+                                    image_title: 'Dermapen',
                                     url: 'priser/dermapen',
+                                    url_title: 'Dermapen',
                                 ),
                                 new Brand(
                                     label: 'Dermapen',
                                     image: 'https://via.placeholder.com/94x34.webp',
+                                    image_alt: 'Dermapen',
+                                    image_title: 'Dermapen',
                                     url: 'priser/dermapen',
+                                    url_title: 'Dermapen'
                                 ),
                                 new Brand(
                                     label: 'Dermapen',
                                     image: 'https://via.placeholder.com/94x34.webp',
+                                    image_alt: 'Dermapen',
+                                    image_title: 'Dermapen',
                                     url: 'priser/dermapen',
+                                    url_title: 'Dermapen'
                                 ),
                                 new Brand(
                                     label: 'Dermapen',
                                     image: 'https://via.placeholder.com/94x34.webp',
+                                    image_alt: 'Dermapen',
+                                    image_title: 'Dermapen',
                                     url: 'priser/dermapen',
+                                    url_title: 'Dermapen'
                                 ),
                             );
                             foreach ($brands as $brand) { ?>
                                 <a href="<?php echo $brand->url ?>">
-                                    <img src="<?php echo $brand->image ?>" alt="<?php echo $brand->title ?>" title="<?php echo $brand->title ?>" width="94" height="34" class="brand" />
+                                    <img src="<?php echo $brand->image ?>" alt="<?php echo $brand->image_alt ?>" title="<?php echo $brand->image_title ?>" width="94" height="34" class="brand" />
                                 </a>
                             <?php } ?>
                         </div>
@@ -195,7 +234,7 @@ $service_categories = array(
                 <div class="columns is-multiline is-variable is-1">
                     <?php foreach ($service_categories as $service_category) { ?>
                         <div class="column is-one-fifth">
-                            <a href="<?php echo $service_category->url ?>" class="button b200 grey expand"><?php echo $service_category->name ?></a>
+                            <a href="<?php echo $service_category->url ?>" class="button b200 grey expand" title="<?php echo $service_category->name ?>"><?php echo $service_category->name ?></a>
                         </div>
                     <?php } ?>
                 </div>
@@ -237,7 +276,7 @@ $service_categories = array(
 
                     </div>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                    <a class="mt-xl button outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se">View all reviews</a>
+                    <a class="mt-xl button outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="View all reviews">View all reviews</a>
                 </div>
             </section>
             <section id="faq" class="large-margin">
@@ -250,7 +289,7 @@ $service_categories = array(
                         </a>
                     </div>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                    <a class="mt-xl button outline expand is-hidden-tablet l10n" href="faq">View all questions</a>
+                    <a class="mt-xl button outline expand is-hidden-tablet l10n" href="faq" title="View all questions">View all questions</a>
                 </div>
             </section>
             <section id="skin-guide" class="large-margin">
@@ -263,7 +302,7 @@ $service_categories = array(
                         </a>
                     </div>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php'); ?>
-                    <a class="mt-xl button outline expand is-hidden-tablet l10n" href="skin-guide">View all articles</a>
+                    <a class="mt-xl button outline expand is-hidden-tablet l10n" href="skin-guide" title="View all articles">View all articles</a>
                 </div>
             </section>
             <section id="specialists" class="large-margin">
@@ -280,40 +319,48 @@ $service_categories = array(
                         new Specialist(
                             name: 'Cazzandra Lindberg',
                             title: 'Hudterapeut sedan 2015',
-                            image: 'images/specialists/large/hudterapeut-cazzandra.webp'
+                            image: 'images/specialists/large/hudterapeut-cazzandra.webp',
+                            image_alt: 'Cazzandra Lindberg',
+                            image_title: 'Cazzandra Lindberg'
                         ),
                         new Specialist(
                             name: 'Veronika Benedik',
                             title: 'Hudterapeut sedan 1999',
-                            image: 'images/specialists/large/hudterapeut-veronika.webp'
+                            image: 'images/specialists/large/hudterapeut-veronika.webp',
+                            image_alt: 'Veronika Benedik',
+                            image_title: 'Veronika Benedik'
                         ),
                         new Specialist(
                             name: 'Amira Maqboul',
                             title: 'Hudterapeut sedan 2017',
-                            image: 'images/specialists/large/hudterapeut-amira.webp'
+                            image: 'images/specialists/large/hudterapeut-amira.webp',
+                            image_alt: 'Amira Maqboul',
+                            image_title: 'Amira Maqboul'
                         ),
                         new Specialist(
                             name: 'Vilma Libom',
                             title: 'Hudterapeut sedan 2019',
-                            image: 'images/specialists/large/hudterapeut-vilma.webp'
+                            image: 'images/specialists/large/hudterapeut-vilma.webp',
+                            image_alt: 'Vilma Libom',
+                            image_title: 'Vilma Libom'
                         )
                     );
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
                     ?>
-                    <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialists">View all specialists</a>
+                    <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialists" title="View all specialists">View all specialists</a>
                 </div>
             </section>
             <section id="brands" class="large-margin">
                 <div class="container">
                     <div class="flex-row align-end justify-space-between">
                         <h2 class="big l10n">Brands we use</h2>
-                        <a href="brands" class="button compact text is-hidden-mobile">
+                        <a href="varumarken" class="button compact text is-hidden-mobile">
                             <span class="l10n">View all brands</span>
                             <?php icon('navigate-next') ?>
                         </a>
                     </div>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                    <a class="mt-xl button outline expand is-hidden-tablet l10n" href="brands">View all brands</a>
+                    <a class="mt-xl button outline expand is-hidden-tablet l10n" href="varumarken" title="View all brands">View all brands</a>
                 </div>
             </section>
         </div>

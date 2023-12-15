@@ -15,7 +15,7 @@ function showProblems(problems) {
         var column = columns[i];
         var card = cards[i].parentElement;
         var index = problemIds.indexOf(column.dataset.id);
-        if (problems === 'ALL' || index >= 0) {
+        if (index >= 0) {
             column.classList.remove('is-hidden');
             column.classList.remove('first');
             column.classList.remove('last');
@@ -73,5 +73,5 @@ if (document.body.clientWidth > 800) {
         buttonNext_1.classList.remove('is-hidden');
     }
 }
-showProblems('ALL');
+//showProblems('ALL');
 //# sourceMappingURL=problems.js.map

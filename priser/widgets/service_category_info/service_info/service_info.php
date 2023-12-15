@@ -11,14 +11,14 @@
                     <div>
                         <div class="tiw-service-name"><?php echo $service->name ?></div>
                         <div class="tiw-service-price">
-                            <?php if (isset($service->full_price)) { ?>
-                                <span class="tiw-service-full-price"><?php echo $service->full_price ?></span>
-                            <?php } ?>
                             <span><?php echo $service->price ?></span>
+                            <?php if (isset($service->savings)) { ?>
+                                <span class="tiw-service-savings"><?php echo $service->savings ?></span>
+                            <?php } ?>
                         </div>
                     </div>
                 </div>
-                <a href="<?php echo $service->booking_url ?>" class="button l10n">Book</a>
+                <a href="<?php echo $service->booking_url ?>" class="button l10n" title="Book">Book</a>
             </div>
             <?php if (isset($service->combo_items)) { ?>
                 <div class="tiw-combo-items">
@@ -26,10 +26,10 @@
                         <div class="tiw-combo-item">
                             <div class="tiw-combo-item-label"><?php echo $combo_item->name ?></div>
                             <div class="tiw-combo-item-prices">
-                                <?php if (isset($combo_item->full_price)) { ?>
-                                    <span class="tiw-combo-item-fullprice"><?php echo $combo_item->full_price ?></span>
-                                <?php } ?>
                                 <span class="tiw-combo-item-price"><?php echo $combo_item->price ?></span>
+                                <?php if (isset($combo_item->savings)) { ?>
+                                    <span class="tiw-combo-item-savings"><?php echo $combo_item->savings ?></span>
+                                <?php } ?>
                             </div>
                         </div>
                     <?php } ?>

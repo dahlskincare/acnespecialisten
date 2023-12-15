@@ -1,7 +1,7 @@
 <?php
-$consultation_banner_title = 'Want to identify your problem?';
-$consultation_banner_description = 'In a personal meeting with a skin specialist, your skin type is examined';
-$consultation_banner_button_label = 'Get a free consultation';
+$consultation_banner_title = 'Vill du ha hjälp med din hy?';
+$consultation_banner_description = 'Boka en gratis hudkonsultation hos en av våra erfarna hudterapeuter.';
+$consultation_banner_button_label = 'Boka en gratis hudkonsultation';
 ?>
 
 
@@ -16,7 +16,7 @@ $consultation_banner_button_label = 'Get a free consultation';
             </p>
         </div>
         <div class="column">
-            <a href="hudkonsultation" class="button b200 white l10n"><?php echo $consultation_banner_button_label ?></a>
+            <a href="gratis-hudkonsultation" class="button b200 white l10n" title="<?php echo $consultation_banner_button_label ?>"><?php echo $consultation_banner_button_label ?></a>
         </div>
     </div>
 </div>

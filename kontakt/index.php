@@ -4,28 +4,40 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $salons = array(
     new Salon(
-        title: 'Sundbyberg',
+        title: 'Strandvägen',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/424x526.webp',
-        address: 'Sturegatan 32, 172 31 Sundbyberg',
-        description: "Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments.",
+        address: 'Strandvägen 7, 114 51 Stockholm',
+        description: 'Belägen i en av Stockholms mest exklusiva och natursköna områden, vår klinik på Strandvägen erbjuder en avkopplande miljö där du kan njuta av våra behandlingar. Omringad av den klassiska arkitekturen och nära till vattnet, ger denna plats en lugnande upplevelse för våra kunder.',
         opening_hours_weekdays: '07:00 - 21:00',
-        opening_hours_weekends: 'According to booking',
-        email: 'sundbyberg@acnespecialisten.se',
-        phone: '123456',
-        coordinates: '1231231212312312'
+        opening_hours_weekends: 'Enligt bokning',
+        email: 'kund@acnespecialisten.se',
+        phone: '08296101',
+        coordinates: '',
+    ),
+    new Salon(
+        title: 'Södermalm',
+        image_small: 'https://via.placeholder.com/358x272.webp',
+        image_large: 'https://via.placeholder.com/424x526.webp',
+        address: 'Hornsgatan 47, 118 49 Stockholm',
+        description: 'Vår klinik på Hornsgatan är perfekt placerad i hjärtat av det livfulla Södermalm. Här kombinerar vi högklassig hudvård med den energiska atmosfären i en av Stockholms mest kreativa och dynamiska stadsdelar.',
+        opening_hours_weekdays: '07:00 - 21:00',
+        opening_hours_weekends: 'Enligt bokning',
+        email: 'kund@acnespecialisten.se',
+        phone: '08296101',
+        coordinates: '',
     ),
     new Salon(
         title: 'Sundbyberg',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/424x526.webp',
         address: 'Sturegatan 32, 172 31 Sundbyberg',
-        description: "Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments.",
+        description: 'Mitt i det charmiga Sundbyberg, erbjuder vår klinik på Sturegatan en lugn och välkomnande miljö. Här kan du dra nytta av våra expertbehandlingar samtidigt som du njuter av småstadskänslan, med nära tillgång till lokala caféer och butiker.',
         opening_hours_weekdays: '07:00 - 21:00',
-        opening_hours_weekends: 'According to booking',
-        email: 'sundbyberg@acnespecialisten.se',
-        phone: '123456',
-        coordinates: '1231231212312312'
+        opening_hours_weekends: 'Enligt bokning',
+        email: 'kund@acnespecialisten.se',
+        phone: '08296101',
+        coordinates: '',
     ),
 );
 
@@ -36,10 +48,10 @@ $salons = array(
 
 <head>
     <!-- TODO: Set title and meta tags -->
-    <title class="l10n">Acnespecialisten | Contact us</title>
-    <meta name="description" content="" class="l10n">
-    <meta name="title" content="" class="l10n">
-    <meta name="keywords" content="" class="l10n">
+    <title class="l10n">AcneSpecialisten | Kontakt</title>
+    <meta name="description" content="Kontakta Acnespecialisten för professionell hudvård och rådgivning. Våra experter är redo att hjälpa dig med dina hudvårdsbehov på våra kliniker i Stockholm. Besök oss eller kontakta oss idag." class="l10n">
+    <meta name="title" content="Kontakta Acnespecialisten | Expertis inom Hudvård" class="l10n">
+    <meta name="keywords" content="kontakta Acnespecialisten, hudvårdsexperter, hudklinik, professionell hudvård, Acnespecialisten Stockholm, hudvårdsrådgivning" class="l10n">
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
@@ -62,30 +74,30 @@ $salons = array(
         <div class="container">
             <div id="content">
                 <section id="title">
-                    <h1 class="l10n">Contact us</h1>
-                    <p class="l10n">At Acnespecialisten there is an experienced and well-educated group of doctors with specialist skills and broad experience from the aesthetic and reconstructive industry.</p>
+                    <h1 class="l10n">Kontakt</h1>
+                    <p class="l10n">Vi på AcneSpecialisten har under 30 års tid utvecklat en unik behandlingsmetod för att effektivt behandla många olika sorters problemhy.</p>
                 </section>
                 <section id="contact-details">
                     <div class="is-hidden-desktop">
                         <div class="p200">
-                            <strong class="l10n">Phone&nbsp;</strong>
+                            <strong class="l10n">Telefon&nbsp;</strong>
                             <span>08 29 61 01</span>
                         </div>
-                        <a href="tel:08-29 61 01" class="button b200 outline expand l10n">Call us</a>
+                        <a href="tel:08-29 61 01" class="button b200 outline expand l10n" title="Ring oss">Ring oss</a>
                         <div class="p200">
-                            <strong class="l10n">Email&nbsp;</strong>
+                            <strong class="l10n">E-post&nbsp;</strong>
                             <span>kund@acnespecialisten.se</span>
                         </div>
-                        <a href="mailto:kund@acnespecialisten.se" class="button b200 outline expand l10n">Send an email</a>
+                        <a href="mailto:kund@acnespecialisten.se" class="button b200 outline expand l10n" title="Skicka ett mejl">Skicka ett mejl</a>
                     </div>
                     <div class="is-hidden-touch flex-row mt-xl">
                         <div>
-                            <strong class="h200 l10n">Phone&nbsp;</strong>
-                            <a class="h200 color-deep-sea-400" href="tel: 08 29 61 01">08 29 61 01</a>
+                            <strong class="h200 l10n">Telefon&nbsp;</strong>
+                            <a class="h200 color-deep-sea-400" href="tel: 08 29 61 01" title="08 29 61 01">08 29 61 01</a>
                         </div>
                         <div class="ml-xxl">
-                            <strong class="h200 l10n">Email&nbsp;</strong>
-                            <a class="h200 color-deep-sea-400" href="mailto:kund@acnespecialisten.se">kund@acnespecialisten.se</a>
+                            <strong class="h200 l10n">E-post&nbsp;</strong>
+                            <a class="h200 color-deep-sea-400" href="mailto:kund@acnespecialisten.se" title="kund@acnespecialisten.se">kund@acnespecialisten.se</a>
                         </div>
                     </div>
                 </section>
@@ -132,11 +144,11 @@ $salons = array(
                     <section id="confirmation">
                         <div id="confirmation-banner">
                             <div>
-                                <div class="h400 l10n">Your message has been sent</div>
-                                <div class="p200 mt-xxs l10n">We will contact you as soon as possible.</div>
+                                <div class="h400 l10n">Ditt meddelande har skickats</div>
+                                <div class="p200 mt-xxs l10n">Vi kommer att svara dig så snart vi kan.</div>
                             </div>
-                            <a href="kontakt" class="is-hidden-touch">Resend</a>
-                            <a href="kontakt" class="is-hidden-desktop button outline white expand mt-xl">Resend</a>
+                            <a href="kontakt" class="is-hidden-touch" title="Resend">Skicka igen</a>
+                            <a href="kontakt" class="is-hidden-desktop button outline white expand mt-xl" title="Resend">Skicka igen</a>
                         </div>
                     </section>
                 <?php } else {  ?>
@@ -145,66 +157,66 @@ $salons = array(
                         <div class="is-hidden-desktop">
                             <form action="">
                                 <label for="category">
-                                    <span class="l10n">What do you need help with?</span>
+                                    <span class="l10n">Vad vill du ha hjälp med?</span>
                                     <span class="color-deep-sea-400">*</span>
                                 </label>
                                 <div class="select-wrapper">
                                     <select name="category">
-                                        <option value="new_booking" class="l10n">New booking</option>
-                                        <option value="treatment" class="l10n">Questions about treatment</option>
-                                        <option value="collaborations" class="l10n">Collaborations</option>
-                                        <option value="cancel" class="l10n">Change / Cancel treatment</option>
-                                        <option value="urgent" class="l10n">Urgent matters</option>
-                                        <option value="other" class="l10n">Other</option>
+                                        <option value="new_booking" class="l10n">Ny bokning</option>
+                                        <option value="treatment" class="l10n">Frågor om behandling</option>
+                                        <option value="collaborations" class="l10n">Samarbete</option>
+                                        <option value="cancel" class="l10n">Bokning/Avbokning</option>
+                                        <option value="urgent" class="l10n">Brådskande</option>
+                                        <option value="other" class="l10n">Annat</option>
                                     </select>
                                 </div>
                                 <label for="name" class="mt-xl">
-                                    <span class="l10n">Full name</span>
+                                    <span class="l10n">Namn</span>
                                     <span class="color-deep-sea-400">*</span>
                                 </label>
-                                <input type="text" name="name" placeholder="Your name" required />
+                                <input type="text" name="name" placeholder="Ditt namn" required />
                                 <label for="email" class="mt-xl">
-                                    <span class="l10n">Email</span>
+                                    <span class="l10n">E-post</span>
                                     <span class="color-deep-sea-400">*</span>
                                 </label>
-                                <input type="email" name="email" placeholder="your@email.com" required />
+                                <input type="email" name="email" placeholder="din@epost.se" required />
                                 <label for="phone" class="mt-xl">
-                                    <span class="l10n">Phone</span>
+                                    <span class="l10n">Telefonnummer</span>
                                 </label>
-                                <input type="phone" name="phone" placeholder="084 123 456" />
+                                <input type="phone" name="phone" placeholder="070 123 45 67" />
                                 <label for="message" class="mt-xl">
-                                    <span class="l10n">Message</span>
+                                    <span class="l10n">Meddelande</span>
                                     <span class="color-deep-sea-400">*</span>
                                 </label>
-                                <textarea class="l10n" name="message" rows="8" placeholder="Your message" required></textarea>
-                                <input type="submit" class="button b200 expand" value="Send a message" />
+                                <textarea class="l10n" name="message" rows="8" placeholder="Ditt meddelande" required></textarea>
+                                <input type="submit" class="button b200 expand" value="Skicka meddelande" />
                             </form>
                         </div>
                         <!-- DESKTOP -->
                         <div class="is-hidden-touch">
                             <form action="">
                                 <label for="category">
-                                    <span class="l10n">What do you need help with?</span>
+                                    <span class="l10n">Vad vill du ha hjälp med?</span>
                                     <span class="color-deep-sea-400">*</span>
                                 </label>
                                 <div class="columns">
                                     <div class="column is-one-third">
                                         <label class="radio">
-                                            <span class="l10n">New booking</span>
+                                            <span class="l10n">Ny bokning</span>
                                             <input type="radio" name="category" value="new_booking" />
                                             <span class="check"></span>
                                         </label>
                                     </div>
                                     <div class="column is-one-third">
                                         <label class="radio">
-                                            <span class="l10n">Questions about treatment</span>
+                                            <span class="l10n">Frågor om behandling</span>
                                             <input type="radio" name="category" value="treatment" />
                                             <span class="check"></span>
                                         </label>
                                     </div>
                                     <div class="column is-one-third">
                                         <label class="radio">
-                                            <span class="l10n">Collaborations</span>
+                                            <span class="l10n">Samarbete</span>
                                             <input type="radio" name="category" value="collaborations" />
                                             <span class="check"></span>
                                         </label>
@@ -214,21 +226,21 @@ $salons = array(
                                     <div class="columns">
                                         <div class="column is-one-third">
                                             <label class="radio">
-                                                <span class="l10n">Change / Cancel treatment</span>
+                                                <span class="l10n">Bokning/Avbokning</span>
                                                 <input type="radio" name="category" value="cancel" />
                                                 <span class="check"></span>
                                             </label>
                                         </div>
                                         <div class="column is-one-third">
                                             <label class="radio">
-                                                <span class="l10n">Urgent matters</span>
+                                                <span class="l10n">Brådskande</span>
                                                 <input type="radio" name="category" value="urgent" />
                                                 <span class="check"></span>
                                             </label>
                                         </div>
                                         <div class="column is-one-third">
                                             <label class="radio">
-                                                <span class="l10n">Other</span>
+                                                <span class="l10n">Annat</span>
                                                 <input type="radio" name="category" value="other" />
                                                 <span class="check"></span>
                                             </label>
@@ -236,31 +248,31 @@ $salons = array(
                                     </div>
                                 </div>
                                 <label for="name" class="mt-xl">
-                                    <span class="l10n">Full name</span>
+                                    <span class="l10n">Namn</span>
                                     <span class="color-deep-sea-400">*</span>
                                 </label>
-                                <input type="text" name="name" placeholder="Your name" required />
+                                <input type="text" name="name" placeholder="Ditt namn" required />
                                 <div class="columns is-variable is-3">
                                     <div class="column">
                                         <label for="email" class="mt-xl">
-                                            <span class="l10n">Email</span>
+                                            <span class="l10n">E-post</span>
                                             <span class="color-deep-sea-400">*</span>
                                         </label>
-                                        <input type="email" name="email" placeholder="your@email.com" required />
+                                        <input type="email" name="email" placeholder="din@epost.se" required />
                                     </div>
                                     <div class="column">
                                         <label for="phone" class="mt-xl">
-                                            <span class="l10n">Phone</span>
+                                            <span class="l10n">Telefonnummer</span>
                                         </label>
-                                        <input type="phone" name="phone" placeholder="084 123 456" />
+                                        <input type="phone" name="phone" placeholder="070 123 45 67" />
                                     </div>
                                 </div>
                                 <label for="message" class="mt-xl">
-                                    <span class="l10n">Message</span>
+                                    <span class="l10n">Meddelande</span>
                                     <span class="color-deep-sea-400">*</span>
                                 </label>
-                                <textarea class="l10n" name="message" rows="8" placeholder="Your message" required></textarea>
-                                <input type="submit" class="button b200" value="Send a message" />
+                                <textarea class="l10n" name="message" rows="8" placeholder="Ditt meddelande" required></textarea>
+                                <input type="submit" class="button b200" value="Skicka meddelande" />
                             </form>
                         </div>
                     </section>
@@ -278,7 +290,7 @@ $salons = array(
             </section>
             <section id="reviews" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
-                    <div class="h500 l10n">Reviews</div>
+                    <div class="h500 l10n">Omdömen</div>
                     <div class="flex-row is-hidden-mobile">
                         <div class="step-buttons">
                             <button class="round-large grey" onclick="Reviews.scroll(-1)">
@@ -289,58 +301,48 @@ $salons = array(
                             </button>
                         </div>
                         <a href="https://se.trustpilot.com/review/acnespecialisten.se" class="ml-l button compact text">
-                            <span class="l10n">View all reviews</span>
+                            <span class="l10n">Se alla omdömen</span>
                             <?php icon('navigate-next') ?>
                         </a>
                     </div>
 
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se">View all reviews</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="Se alla omdömen">Se alla omdömen</a>
             </section>
             <section id="faq" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
-                    <h2 class="big l10n">Questions & answers</h2>
+                    <h2 class="big l10n">Frågor & Svar</h2>
                     <a href="faq" class="button compact text is-hidden-mobile">
-                        <span class="l10n">View all questions</span>
+                        <span class="l10n">Se alla frågor</span>
                         <?php icon('navigate-next') ?>
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="faq">View all questions</a>
+                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="faq" title="Se alla frågor">Se alla frågor</a>
             </section>
-            <section id="skin-guide" class="large-margin">
-                <div class="flex-row align-end justify-space-between">
-                    <div class="h500 l10n">Skin guide</div>
-                    <a href="skin-guide" class="button compact text is-hidden-mobile">
-                        <span class="l10n">View all articles</span>
-                        <?php icon('navigate-next') ?>
-                    </a>
-                </div>
-                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="skin-guide">View all articles</a>
-            </section>
+            <!--Hudguide-->
             <section id="specialists" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
-                    <h2 class="big l10n">Our specialists</h2>
+                    <h2 class="big l10n">Våra specialister</h2>
                     <a href="specialists" class="button compact text is-hidden-mobile">
-                        <span class="l10n">View all specialists</span>
+                        <span class="l10n">Se alla specialister</span>
                         <?php icon('navigate-next') ?>
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php'); ?>
-                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialister">View all specialists</a>
+                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialister" title="Se alla specialister">Se alla specialister</a>
             </section>
             <section id="brands" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
-                    <div class="h500 l10n">Brands we use</div>
-                    <a href="brands" class="button compact text is-hidden-mobile">
-                        <span class="l10n">View all brands</span>
+                    <div class="h500 l10n">Varumärken</div>
+                    <a href="varumarken" class="button compact text is-hidden-mobile">
+                        <span class="l10n">Se alla varumärken</span>
                         <?php icon('navigate-next') ?>
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="brands">View all brands</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="varumarken" title="Se alla varumärken">Se alla varumärken</a>
             </section>
         </div>
     </main>

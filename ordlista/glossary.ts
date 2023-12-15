@@ -1,7 +1,7 @@
 namespace Glossary {
     export function onShowMoreClick(button: HTMLElement) {
         button.classList.add('is-hidden');
-        button.parentElement.querySelector('.extended').classList.remove('is-hidden');
+        button.parentElement.querySelector('.extended').classList.remove('zero-size');
     }
 
 

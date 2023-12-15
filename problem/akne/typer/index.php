@@ -26,56 +26,81 @@ $about_title = 'What is acne scar types?';
 $about_description = '<p class="p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p><p class="mt-m p200">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>';
 $based_type_categories = array(
     new BasedTypeCategory(
-        id: '',
         title: 'Based on age',
         content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>',
         types: array(
             new BasedType(
                 url: 'problem/akne/typer/vuxenakne',
+                url_title: 'Vuxenakne',
                 image_url: 'https://via.placeholder.com/102x102.jpg',
+                image_alt: 'Vuxenakne',
+                image_title: 'Vuxenakne',
                 title: 'Vuxenakne',
                 subtitle: 'Also called scars stains',
                 content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>',
             ),
             new BasedType(
                 url: 'problem/akne/typer/teen-acne',
+                url_title: 'Teen acne',
                 image_url: 'https://via.placeholder.com/102x102.jpg',
+                image_alt: 'Teen acne',
+                image_title: 'Teen acne',
                 title: 'Teen acne',
                 subtitle: 'Also called scars stains',
                 content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
             ),
-            new BasedType('kids-acne', 'https://via.placeholder.com/102x102.jpg', 'Kids acne', 'Also called scars stains', '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>')
+            new BasedType(
+                url: 'problem/akne/typer/barnakne',
+                url_title: 'Kids acne',
+                image_url: 'https://via.placeholder.com/102x102.jpg',
+                image_alt: 'Kids acne',
+                image_title: 'Kids acne',
+                title: 'Kids acne',
+                subtitle: 'Also called scars stains',
+                content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
+            )
         )
     ),
     new BasedTypeCategory(
-        id: 'category-severity',
         title: 'Based on severity',
         content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>',
         types: array(
             new BasedType(
                 url: 'problem/akne/typer/pormaskar',
+                url_title: 'Comedones',
                 image_url: 'https://via.placeholder.com/102x102.jpg',
+                image_alt: 'Comedones',
+                image_title: 'Comedones',
                 title: 'Comedones',
                 subtitle: 'Also called scars stains',
                 content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
             ),
             new BasedType(
                 url: 'problem/akne/typer/pimples',
+                url_title: 'Pimples',
                 image_url: 'https://via.placeholder.com/102x102.jpg',
+                image_alt: 'Pimples',
+                image_title: 'Pimples',
                 title: 'Pimples',
                 subtitle: 'Also called scars stains',
                 content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
             ),
             new BasedType(
                 url: 'problem/akne/typer/cystic-acne',
+                url_title: 'Cystic acne',
                 image_url: 'https://via.placeholder.com/102x102.jpg',
+                image_alt: 'Cystic acne',
+                image_title: 'Cystic acne',
                 title: 'Cystic acne',
                 subtitle: 'Also called scars stains',
                 content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
             ),
             new BasedType(
                 url: 'problem/akne/typer/acne-conblogata',
+                url_title: 'Acne conblogata',
                 image_url: 'https://via.placeholder.com/102x102.jpg',
+                image_alt: 'Acne conblogata',
+                image_title: 'Acne conblogata',
                 title: 'Acne conblogata',
                 subtitle: 'Also called scars stains',
                 content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
@@ -83,55 +108,75 @@ $based_type_categories = array(
         )
     ),
     new BasedTypeCategory(
-        id: 'category-reason',
         title: 'Based on reason',
         content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>',
         types: array(
             new BasedType(
                 url: 'problem/akne/typer/mallorca-acne',
+                url_title: 'Mallorca acne',
                 image_url: 'https://via.placeholder.com/102x102.jpg',
+                image_alt: 'Mallorca acne',
+                image_title: 'Mallorca acne',
                 title: 'Mallorca acne',
                 subtitle: 'Also called scars stains',
                 content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
             ),
             new BasedType(
                 url: 'problem/akne/typer/hormonal-acne',
+                url_title: 'Hormonal acne',
                 image_url: 'https://via.placeholder.com/102x102.jpg',
+                image_alt: 'Hormonal acne',
+                image_title: 'Hormonal acne',
                 title: 'Hormonal acne',
                 subtitle: 'Also called scars stains',
                 content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
             ),
             new BasedType(
                 url: 'problem/akne/typer/cosmetic-acne',
+                url_title: 'Cosmetic acne',
                 image_url: 'https://via.placeholder.com/102x102.jpg',
+                image_alt: 'Cosmetic acne',
+                image_title: 'Cosmetic acne',
                 title: 'Cosmetic acne',
                 subtitle: 'Also called scars stains',
                 content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
             ),
             new BasedType(
                 url: 'problem/akne/typer/acne-exoriee',
+                url_title: 'Acne exoriee',
                 image_url: 'https://via.placeholder.com/102x102.jpg',
+                image_alt: 'Acne exoriee',
+                image_title: 'Acne exoriee',
                 title: 'Acne exoriee',
                 subtitle: 'Also called scars stains',
                 content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
             ),
             new BasedType(
                 url: 'problem/akne/typer/acne-mechanics',
+                url_title: 'Acne mechanics',
                 image_url: 'https://via.placeholder.com/102x102.jpg',
+                image_alt: 'Acne mechanics',
+                image_title: 'Acne mechanics',
                 title: 'Acne mechanics',
                 subtitle: 'Also called scars stains',
                 content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
             ),
             new BasedType(
                 url: 'problem/akne/typer/acne-medicamentosa',
+                url_title: 'Acne medicamentosa',
                 image_url: 'https://via.placeholder.com/102x102.jpg',
+                image_alt: 'Acne medicamentosa',
+                image_title: 'Acne medicamentosa',
                 title: 'Acne medicamentosa',
                 subtitle: 'Also called scars stains',
                 content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
             ),
             new BasedType(
                 url: 'problem/akne/typer/fungal-acne',
+                url_title: 'Fungal acne',
                 image_url: 'https://via.placeholder.com/102x102.jpg',
+                image_alt: 'Fungal acne',
+                image_title: 'Fungal acne',
                 title: 'Fungal acne',
                 subtitle: 'Also called scars stains',
                 content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
@@ -139,20 +184,25 @@ $based_type_categories = array(
         )
     ),
     new BasedTypeCategory(
-        id: 'category-area',
         title: 'Based on area',
         content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>',
         types: array(
             new BasedType(
                 url: 'problem/akne/typer/acne-on-face',
+                url_title: 'Acne on face',
                 image_url: 'https://via.placeholder.com/102x102.jpg',
+                image_alt: 'Acne on face',
+                image_title: 'Acne on face',
                 title: 'Acne on face',
                 subtitle: 'Also called scars stains',
                 content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
             ),
             new BasedType(
                 url: 'problem/akne/typer/acne-on-body',
+                url_title: 'Acne on body',
                 image_url: 'https://via.placeholder.com/102x102.jpg',
+                image_alt: 'Acne on body',
+                image_title: 'Acne on body',
                 title: 'Acne on body',
                 subtitle: 'Also called scars stains',
                 content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
@@ -165,22 +215,30 @@ $specialists = array(
     new Specialist(
         name: 'Cazzandra Lindberg',
         title: 'Hudterapeut sedan 2015',
-        image: 'images/specialists/large/hudterapeut-cazzandra.webp'
+        image: 'images/specialists/large/hudterapeut-cazzandra.webp',
+        image_alt: 'Cazzandra Lindberg',
+        image_title: 'Cazzandra Lindberg'
     ),
     new Specialist(
         name: 'Veronika Benedik',
         title: 'Hudterapeut sedan 1999',
-        image: 'images/specialists/large/hudterapeut-veronika.webp'
+        image: 'images/specialists/large/hudterapeut-veronika.webp',
+        image_alt: 'Veronika Benedik',
+        image_title: 'Veronika Benedik'
     ),
     new Specialist(
         name: 'Amira Maqboul',
         title: 'Hudterapeut sedan 2017',
-        image: 'images/specialists/large/hudterapeut-amira.webp'
+        image: 'images/specialists/large/hudterapeut-amira.webp',
+        image_alt: 'Amira Maqboul',
+        image_title: 'Amira Maqboul'
     ),
     new Specialist(
         name: 'Vilma Libom',
         title: 'Hudterapeut sedan 2019',
-        image: 'images/specialists/large/hudterapeut-vilma.webp'
+        image: 'images/specialists/large/hudterapeut-vilma.webp',
+        image_alt: 'Vilma Libom',
+        image_title: 'Vilma Libom'
     )
 );
 ?>
@@ -218,10 +276,10 @@ $specialists = array(
                         <div class="mt-xl">
                             <div class="columns is-2 is-variable">
                                 <div class="column">
-                                    <a href="hudkonsultation" class="button white expand l10n">Get a free consultation</a>
+                                    <a href="gratis-hudkonsultation" class="button white expand l10n" title="Get a free consultation">Get a free consultation</a>
                                 </div>
                                 <div class="column">
-                                    <a href="https://bokadirekt.se" class="button white expand l10n">Book a treatment</a>
+                                    <a href="https://bokadirekt.se" class="button white expand l10n" title="Book a treatment">Book a treatment</a>
                                 </div>
                             </div>
                         </div>
@@ -244,10 +302,10 @@ $specialists = array(
                     <div class="mt-xl">
                         <div class="columns is-mobile">
                             <div class="column is-half">
-                                <a href="hudkonsultation" class="button b200 white expand l10n">Free consultation</a>
+                                <a href="gratis-hudkonsultation" class="button b200 white expand l10n" title="Free consultation">Free consultation</a>
                             </div>
                             <div class="column is-half">
-                                <a href="https://bokadirekt.se" class="button b200 white expand l10n">Book a treatment</a>
+                                <a href="https://bokadirekt.se" class="button b200 white expand l10n" title="Book a treatment">Book a treatment</a>
                             </div>
                         </div>
                     </div>
@@ -271,8 +329,8 @@ $specialists = array(
                             <?php echo $header_description ?>
                         </p>
                         <div class="mt-xl flex-row" id="book-buttons">
-                            <a href="hudkonsultation" class="button b200 white l10n">Get a free consultation</a>
-                            <a href="https://bokadirekt.se" class="button b200 white l10n">Book a treatment</a>
+                            <a href="gratis-hudkonsultation" class="button b200 white l10n" title="Get a free consultation">Get a free consultation</a>
+                            <a href="https://bokadirekt.se" class="button b200 white l10n" title="Book a treatment">Book a treatment</a>
                         </div>
                     </div>
                 </div>
@@ -321,7 +379,7 @@ $specialists = array(
                             title: 'Define',
                             content: 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.',
                             button_label: 'Get a free consultation',
-                            button_url: 'hudkonsultation'
+                            button_url: 'gratis-hudkonsultation'
                         ),
                         new ApproachCard(
                             number: '02',
@@ -378,36 +436,36 @@ $specialists = array(
                     $reviews_narrow = true;
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                     ?>
-                    <a class="mt-xl button outline expand auto-width l10n" href="https://se.trustpilot.com/review/acnespecialisten.se">View all reviews</a>
+                    <a class="mt-xl button outline expand auto-width l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="View all reviews">View all reviews</a>
                 </section>
                 <section id="faq">
                     <h2 class="big l10n">Questions & answers</h2>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                    <a href="faq" class="mt-xl button outline expand auto-width l10n">View all questions</a>
+                    <a href="faq" class="mt-xl button outline expand auto-width l10n" title="View all questions">View all questions</a>
                 </section>
                 <section id="skin-guide">
                     <h2 class="big l10n">Skin guide</h2>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide_narrow.php'); ?>
-                    <a class="mt-xl button outline expand auto-width l10n" href="skin-guide">View all articles</a>
+                    <a class="mt-xl button outline expand auto-width l10n" href="skin-guide" title="View all articles">View all articles</a>
                 </section>
                 <section id="specialists">
                     <h2 class="big l10n">Our specialists</h2>
                     <?php
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php');
                     ?>
-                    <a class="mt-xl button outline expand auto-width l10n" href="specialister">View all specialists</a>
+                    <a class="mt-xl button outline expand auto-width l10n" href="specialister" title="View all specialists">View all specialists</a>
                 </section>
             </div>
             <section id="brands">
                 <div class="flex-row align-end justify-space-between">
                     <h2 class="big l10n">Brands we use</h2>
-                    <a href="brands" class="button compact text is-hidden-mobile">
+                    <a href="varumarken" class="button compact text is-hidden-mobile">
                         <span class="l10n">View all brands</span>
                         <?php icon('navigate-next') ?>
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                <a class="mt-xl button outline expand auto-width is-hidden-desktop l10n" href="brands">View all brands</a>
+                <a class="mt-xl button outline expand auto-width is-hidden-desktop l10n" href="varumarken" title="View all brands">View all brands</a>
             </section>
         </div>
     </main>

@@ -1,5 +1,5 @@
 <div class="specialist-card-widget">
-    <img src="<?php echo $specialist->image_large ?>" alt="<?php echo $specialist->name ?>" title="<?php echo $specialist->name ?>" width="358" height="358" />
+    <img src="<?php echo $specialist->image ?>" alt="<?php echo $specialist->name ?>" title="<?php echo $specialist->name ?>" width="358" height="358" />
     <div class="specialist-card-content">
         <div class="specialist-card-title">
             <div>
@@ -14,18 +14,18 @@
                     <?php icon('star') ?>
                     <span><?php echo $specialist->rating ?></span>
                 </div>
-                <div class="sct-rating-where">on bokadirekt</div>
+                <div class="sct-rating-where">på Bokadirekt</div>
             </div>
         </div>
         <div class="specialist-card-info">
             <strong><?php echo $specialist->num_treatments ?>&nbsp;</strong>
-            <span class="l10n">treatments</span>
+            <span class="l10n">omdömen</span>
             <div class="dot"></div>
-            <span class="l10n">Therapist&nbsp;</span>
-            <strong class="l10n">since&nbsp;</strong>
+            <span class="l10n">Hudterapeut&nbsp;</span>
+            <strong class="l10n">sedan&nbsp;</strong>
             <strong><?php echo $specialist->since_year ?></strong>
         </div>
         <div class="specialist-card-description"><?php echo $specialist->description ?></div>
-        <a href="" class="button outline expand l10n">Book an appointment</a>
+        <a href="" class="button outline expand l10n" title="Boka behandling">Boka behandling</a>
     </div>
 </div>

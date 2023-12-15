@@ -14,7 +14,7 @@ function showProblems(problems: String) {
         let column = columns[i] as HTMLElement;
         let card = cards[i].parentElement as HTMLElement;
         let index = problemIds.indexOf(column.dataset.id);
-        if (problems === 'ALL' || index >= 0) {
+        if (index >= 0) {
             column.classList.remove('is-hidden');
             column.classList.remove('first');
             column.classList.remove('last');
@@ -81,4 +81,4 @@ if (document.body.clientWidth > 800) {
     }
 }
 
-showProblems('ALL');
+//showProblems('ALL');

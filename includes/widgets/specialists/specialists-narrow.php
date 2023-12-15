@@ -4,22 +4,30 @@ if (!isset($specialists)) {
         new Specialist(
             name: 'Cazzandra Lindberg',
             title: 'Hudterapeut sedan 2015',
-            image: 'images/specialists/large/hudterapeut-cazzandra.webp'
+            image: 'images/specialists/large/hudterapeut-cazzandra.webp',
+            image_alt: 'Cazzandra Lindberg',
+            image_title: 'Cazzandra Lindberg'
         ),
         new Specialist(
             name: 'Veronika Benedik',
             title: 'Hudterapeut sedan 1999',
-            image: 'images/specialists/large/hudterapeut-veronika.webp'
+            image: 'images/specialists/large/hudterapeut-veronika.webp',
+            image_alt: 'Veronika Benedik',
+            image_title: 'Veronika Benedik'
         ),
         new Specialist(
             name: 'Amira Maqboul',
             title: 'Hudterapeut sedan 2017',
-            image: 'images/specialists/large/hudterapeut-amira.webp'
+            image: 'images/specialists/large/hudterapeut-amira.webp',
+            image_alt: 'Amira Maqboul',
+            image_title: 'Amira Maqboul'
         ),
         new Specialist(
             name: 'Vilma Libom',
             title: 'Hudterapeut sedan 2019',
-            image: 'images/specialists/large/hudterapeut-vilma.webp'
+            image: 'images/specialists/large/hudterapeut-vilma.webp',
+            image_alt: 'Vilma Libom',
+            image_title: 'Vilma Libom'
         )
     );
 }
@@ -30,7 +38,7 @@ if (!isset($specialists)) {
     <div class="specialists-small is-hidden-tablet">
         <?php foreach ($specialists as $specialist) { ?>
             <div class="specialist">
-                <img src="<?php echo $specialist->image ?>" alt="<?php echo $specialist->name ?>" title="<?php echo $specialist->name ?>" width="240" height="240" />
+                <img src="<?php echo $specialist->image ?>" alt="<?php echo $specialist->image_alt ?>" title="<?php echo $specialist->image_title ?>" width="240" height="240" />
                 <h3>
                     <?php echo $specialist->name ?>
                 </h3>
@@ -44,7 +52,7 @@ if (!isset($specialists)) {
         <?php foreach ($specialists as $specialist) { ?>
             <div class="column is-one-third">
                 <div class="specialist">
-                    <img src="<?php echo $specialist->image ?>" alt="<?php echo $specialist->name ?>" title="<?php echo $specialist->name ?>" width="312" height="312" />
+                    <img src="<?php echo $specialist->image ?>" alt="<?php echo $specialist->image_alt ?>" title="<?php echo $specialist->image_title ?>" width="312" height="312" />
                     <h3>
                         <?php echo $specialist->name ?>
                     </h3>

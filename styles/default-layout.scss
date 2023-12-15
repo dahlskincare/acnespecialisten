@@ -7,6 +7,7 @@
 
 $mobile-nav-width: 350px;
 $large-header-height: 72px;
+$important-notice-height: 38px;
 
 html {
     body {
@@ -28,6 +29,36 @@ html {
             top: 0;
             z-index: 99;
             border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+
+            #important-notice {
+                height: $important-notice-height;
+                padding: $xs 0;
+                box-sizing: border-box;
+                text-align: center;
+                background-color: $deep-sea-400;
+                color: $white-500;
+
+                span.important-notice-highlight {
+                    background-color: $white-500;
+                    color: $deep-sea-400;
+                    border-radius: 36px;
+                    padding: 2px $xxs;
+                    margin-right: 2px;
+                    font-weight: bold;
+                    font-size: 12px;
+
+                }
+
+                span {
+                    @include p100;
+                }
+
+                a {
+                    @include p100;
+                    color: $white-500;
+                    text-decoration: underline;
+                }
+            }
 
             #header-small {
                 display: flex;
@@ -245,7 +276,7 @@ html {
 
         div#desktop-nav-overlay {
             position: fixed;
-            top: $large-header-height;
+            top: $large-header-height + $important-notice-height;
             border-top: 1px solid $light-200;
             z-index: 100;
             width: 0;
@@ -330,14 +361,21 @@ html {
         main {
             flex: auto;
 
+            section {
+                scroll-margin-top: $header-height + 80px;
+            }
 
             section.large-margin {
                 margin-top: 72px;
-                scroll-margin-top: 130px;
+            }
 
-                @include desktop {
+            @include desktop {
+                section {
+                    scroll-margin-top: $header-height-large + 80px;
+                }
+
+                section.large-margin {
                     margin-top: 104px;
-                    scroll-margin-top: 140px;
                 }
             }
 

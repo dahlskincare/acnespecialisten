@@ -1,40 +1,34 @@
 .service-combo-widget {
     display: block;
 
-    div.image {
-        position: relative;
-        font-size: 0;
 
-        img {
-            width: 100%;
-            height: auto;
-        }
+    img {
+        border-radius: $radius-l;
     }
 
-    div.image:after {
-        box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.05);
-        content: '';
-        display: block;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        width: 100%;
-    }
 
     div.service-combo-small {
         @include elevation-low();
         border-radius: $radius-l;
+        border: 1px solid $light-200;
+        padding: $xl;
 
-        div.image {
+        div.service-combo-info {
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid $light-200;
+            padding-bottom: $xl;
+
             img {
-                border-top-left-radius: $radius-l;
-                border-top-right-radius: $radius-l;
+                margin-right: $m;
+            }
+
+            .p200 {
+                color: $dark-200;
             }
         }
 
         div.service-combo-content {
-            padding: $xl;
-            border: 1px solid $light-200;
             border-top: 0;
             border-bottom-left-radius: $radius-l;
             border-bottom-right-radius: $radius-l;
@@ -45,29 +39,10 @@
                 justify-content: space-between;
                 padding-bottom: $m;
                 border-bottom: 1px solid $light-200;
-            }
 
-            .service-combo-item:first-child {
-                margin-top: 0;
-            }
-
-            .service-combo-info {
-                margin-top: $m;
-                display: flex;
-                justify-content: space-between;
-
-                .service-combo-duration {
-                    @include p200;
-                }
-
-                .service-combo-full-price {
-                    @include p200;
-                    text-decoration: line-through;
+                .savings {
+                    color: $dark-200;
                     margin-right: $xs;
-                }
-
-                .service-combo-price {
-                    @include h200;
                 }
             }
         }
@@ -79,38 +54,21 @@
         align-items: flex-start;
         border-top: 1px solid $light-200;
         border-bottom: 1px solid $light-200;
-        cursor: pointer;
 
-        div.image {
-            img {
-                border-radius: $radius-l;
-            }
-        }
-
-        ;
 
         div.service-combo-content {
             margin-left: $xl;
             flex: 1;
-
-            .service-combo-items {
-                border-radius: $radius-l;
-                overflow: hidden;
-
-                .service-combo-item {
-                    display: flex;
-                    justify-content: space-between;
-                    background-color: $light-50;
-                    padding: $m;
-                    margin-bottom: 1px;
-                }
-            }
 
             .service-combo-info {
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
                 margin-top: $m;
+
+                .p200 {
+                    color: $dark-200;
+                }
 
                 .service-combo-duration {
                     span {
@@ -132,6 +90,27 @@
                     margin-left: $m;
                 }
             }
+
+            .service-combo-items {
+                border-radius: $radius-l;
+                overflow: hidden;
+                margin-top: $xxl;
+
+                .service-combo-item {
+                    display: flex;
+                    justify-content: space-between;
+                    background-color: $light-50;
+                    padding: $m;
+                    margin-bottom: 1px;
+
+                    .p200.savings {
+                        color: $dark-200;
+                        margin-right: $xs;
+                    }
+                }
+            }
+
+
         }
     }
 }

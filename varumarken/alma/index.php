@@ -4,308 +4,303 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 include_once('../widgets/brand_model_card/brand_model.php');
 
 $nav_buttons = array(
-    'about' => 'Overview',
-    'models' => 'Models',
-    'problems' => 'Problems',
-    'results' => 'Results',
-    'reviews' => 'Reviews',
+    'about' => 'Om Alma',
+    'models' => 'Modeller',
+    'problems' => 'Problem',
+    'results' => 'Resultats',
+    'reviews' => 'Omdömnen',
     'faq' => 'FAQ',
-    'skin-guide' => 'Skin guide',
-    'specialists' => 'Facials specialists',
-    'brands' => 'Brands',
+    'skin-guide' => 'Hudguide',
+    'specialists' => 'Specialister',
+    'service-brands' => 'Märken',
 );
+
 $models = array(
     new BrandModel(
         image: 'https://via.placeholder.com/102x102.webp',
-        title: 'Hybrid (C02)',
-        subtitle: 'Laser for problem skin',
-        content: 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity...',
+        title: 'Hybrid (CO2)',
+        subtitle: 'Avancerad laser för problemhy och ärr',
+        content: 'Alma Hybrid CO2 laser är en innovativ lösning för behandling av problemhy och ärr. Denna laser kombinerar CO2-teknik med andra våglängder för att effektivt behandla akneärr och förbättra hudens textur och utseende. Idealisk för djupare hudförnyelse och ärrminskning, erbjuder Hybrid CO2 precisionsbehandling med snabb återhämtning.',
         url: 'varumarken/alma/hybrid-c02',
-        url_label: 'Read more'
+        url_label: 'Läs mer',
     ),
     new BrandModel(
         image: 'https://via.placeholder.com/102x102.webp',
         title: 'Harmony XL',
-        subtitle: 'Laser for problem skin & IPL',
-        content: 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity...',
+        subtitle: 'Mångsidig laser och IPL-system',
+        content: 'Harmony XL från Alma är ett mångsidigt system som erbjuder både laser- och IPL-behandlingar. Perfekt för en rad hudtillstånd inklusive akne, pigmentfläckar och ytliga blodkärl. Denna plattform ger skräddarsydda lösningar för både hudföryngring och specifika hudproblem, med olika handstycken för att passa olika behandlingsbehov.',
         url: 'varumarken/alma/harmony-xl',
-        url_label: 'Read more'
+        url_label: 'Läs mer',
     ),
     new BrandModel(
         image: 'https://via.placeholder.com/102x102.webp',
         title: 'Soprano ICE',
-        subtitle: 'Laser for hair removal',
-        content: 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity...',
+        subtitle: 'Effektiv laser för permanent hårborttagning',
+        content: 'Soprano ICE är Alma Lasers banbrytande system för permanent hårborttagning. Denna laser är känd för sin effektivitet, komfort och säkerhet, och är lämplig för alla hudtyper. Med sin unika teknik ger Soprano ICE en nästan smärtfri behandlingserfarenhet och är idealisk för att minska oönskat hår på lång sikt.',
         url: 'varumarken/alma/soprano-ice',
-        url_label: 'Read more'
+        url_label: 'Läs mer',
     ),
     new BrandModel(
         image: 'https://via.placeholder.com/102x102.webp',
         title: 'Rejuve Dye VL',
-        subtitle: 'IPL',
-        content: 'Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity...',
+        subtitle: 'IPL för hudtonsförbättring',
+        content: 'Rejuve Dye VL är en del av Harmony XL-plattformen och fokuserar på IPL-behandlingar. Det är speciellt effektivt för att hantera hudrodnad, pigmentering och ytliga blodkärl. Denna teknik ger skonsamma men effektiva behandlingar för att förbättra hudtonen och ge en jämnare hudfärg.',
         url: 'varumarken/alma/rejuve-dye-vl',
-        url_label: 'Read more'
-    )
-);
-$problems = array(
-    new Service(
-        id: 'akne',
-        title: 'Akne',
-        duration: 'Also called acne scars',
-        price: null,
-        content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
-        image_small: 'https://via.placeholder.com/102x102.webp',
-        image_large: 'https://via.placeholder.com/200x200.webp',
-        consultation_url: 'hudkonsultation',
-        booking_url: 'bokadirekt',
-    ),
-    new Service(
-        id: 'akne',
-        title: 'Akne',
-        duration: 'Also called acne scars',
-        price: null,
-        content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
-        image_small: 'https://via.placeholder.com/102x102.webp',
-        image_large: 'https://via.placeholder.com/200x200.webp',
-        consultation_url: 'hudkonsultation',
-        booking_url: 'bokadirekt',
-    ),
-    new Service(
-        id: 'akne',
-        title: 'Akne',
-        duration: 'Also called acne scars',
-        price: null,
-        content: 'This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin... ',
-        image_small: 'https://via.placeholder.com/102x102.webp',
-        image_large: 'https://via.placeholder.com/200x200.webp',
-        consultation_url: 'hudkonsultation',
-        booking_url: 'bokadirekt',
+        url_label: 'Läs mer',
     ),
 );
+
 $results = array(
     new ResultCustomer(
-        id: '1',
-        image_before_small: 'https://via.placeholder.com/358x358.webm',
-        image_after_small: 'https://via.placeholder.com/358x358.webm',
-        image_before_large: 'https://via.placeholder.com/424x424.webm',
-        image_after_large: 'https://via.placeholder.com/424x424.webm',
-        age: 18,
-        gender: 'Female',
+        url: '',
+        image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.jpg',
+        image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
+        image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
+        image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
+        url_title: 'Akne resultat',
+        image_alt: 'Akne resultat',
+        image_title: 'Akne resultat',
+        age: 21,
+        gender: 'Kvinna',
         problem: 'Akne',
-        type: 'Severe',
+        type: 'Svår',
         treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders <a href="behandlingar/akne">behandlingar mot akne</a>',
+            duration: 'Efter 3 månaders behandling av <a href="/problme/akne/aknebehandling" title="akne">akne</a>',
+            procedures: array(
+                new ResultProcedure(
+                    image: 'https://via.placeholder.com/102x102.webm',
+                    name: 'Aknebehandling',
+                    count: '5 tillfällen'
+                ),
+            ),
+            product: new ResultProduct(
+                image: 'https://via.placeholder.com/102x102.webm',
+                name: 'Produktpaket mot svår akne',
+            ),
+            employee: new ResultEmployee(
+                image: 'https://via.placeholder.com/102x102.webm',
+                name: 'Cazzandra Lindberg'
+            ),
         )
     ),
     new ResultCustomer(
-        id: '2',
-        image_before_small: 'https://via.placeholder.com/358x358.webm',
-        image_after_small: 'https://via.placeholder.com/358x358.webm',
-        image_before_large: 'https://via.placeholder.com/424x424.webm',
-        image_after_large: 'https://via.placeholder.com/424x424.webm',
+        url: '',
+        image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.jpg',
+        image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
+        image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
+        image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
+        url_title: 'Akne resultat',
+        image_alt: 'Akne resultat',
+        image_title: 'Akne resultat',
         age: 18,
-        gender: 'Female',
+        gender: 'Kvinna',
         problem: 'Akne',
-        type: 'Severe',
+        type: 'Svår',
         treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders <a href="behandlingar/akne">behandlingar mot akne</a>',
+            duration: 'Efter 2 månaders behandling av <a href="/problme/akne/aknebehandling" title="akne">akne</a>',
+            procedures: array(
+                new ResultProcedure(
+                    image: 'https://via.placeholder.com/102x102.webm',
+                    name: 'Aknebehandling',
+                    count: '3 tillfällen'
+                ),
+            ),
+            product: new ResultProduct(
+                image: 'https://via.placeholder.com/102x102.webm',
+                name: 'Produktpaket mot svår akne',
+            ),
+            employee: new ResultEmployee(
+                image: 'https://via.placeholder.com/102x102.webm',
+                name: 'Julia Eklund'
+            ),
+        )
+    ),
+    new ResultCustomer(
+        url: '',
+        image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.jpg',
+        image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
+        image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
+        image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
+        url_title: 'Rosacea resultat',
+        image_alt: 'Rosacea resultat',
+        image_title: 'Rosacea resultat',
+        age: 33,
+        gender: 'Kvinna',
+        problem: 'Rosacea',
+        type: 'Svår',
+        treatment: new ResultTreatment(
+            duration: 'Efter 4 månaders behandling av <a href="/problme/rosacea/rosaceabehandling" title="akne">akne</a>',
+            procedures: array(
+                new ResultProcedure(
+                    image: 'https://via.placeholder.com/102x102.webm',
+                    name: 'Rosaceabehandling',
+                    count: '3 tillfällen'
+                ),
+            ),
+            product: new ResultProduct(
+                image: 'https://via.placeholder.com/102x102.webm',
+                name: 'Produktpaket mot svår rosacea',
+            ),
+            employee: new ResultEmployee(
+                image: 'https://via.placeholder.com/102x102.webm',
+                name: 'Julia Eklund'
+            ),
         )
     ),
 );
+
+$reviews_title = 'Omdömen';
 $reviews = array(
     new Review(
-        stars: 5,
         brand: 'Trustpilot',
-        logo_url: 'images/brands/trustpilot.svg',
         title: 'Supernöjd',
         text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
-        signature: 'Sofia'
-    ),
-    new Review(
+        signature: 'Sofia',
         stars: 5,
+        logo_url: 'images/brands/trustpilot.svg'
+
+      ),
+      new Review(
         brand: 'Google',
-        logo_url: 'images/brands/trustpilot.svg',
-        title: 'Rekommenderar varmt Acne Specialisten',
-        text: "Trevlig och proffsig personal. Personalen har ett trevligt bemötande och är kunniga inom sitt område. Trevliga, fräscha lokaler.",
-        signature: 'Gabriela'
-    ),
-    new Review(
+        title: 'Jag är mycket nöjd..',
+        text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och aknen är betydligt mildare",
+        signature: 'Lovisa',
         stars: 5,
-        brand: 'Trustpilot',
-        logo_url: 'images/brands/trustpilot.svg',
-        title: 'Underbar service och väldigt…Stort tack att ni finns',
-        text: "nderbar service och väldigt professionell hudterapeut Julia. Acne specialister håller högsta standarden och alltid ta hand om sina kunder och bryr sig om kunders upplevelse efter behandlingen. Stort tack att ni finns",
-        signature: 'Emily'
-    ),
-    new Review(
+        logo_url: 'images/brands/google-small.svg'
+
+      ),
+      new Review(
+        brand: 'Bokadirekt',
+        title: 'Rekommenderar varmt!',
+        text: "Det enda som fungerat mot min akne med synliga resultat. Jättetrevlig och kunnig behandlare!",
+        signature: 'Emily',
         stars: 5,
-        brand: 'Google',
-        logo_url: 'images/brands/trustpilot.svg',
-        title: 'Nöjd',
-        text: "Ett första besök som absolut kommer leda till ett till. Bra och tydlig information om vad som skulle vara bäst för min hy.",
-        signature: 'Emily'
-    ),
-    new Review(
-        stars: 5,
-        brand: 'Trustpilot',
-        logo_url: 'images/brands/trustpilot.svg',
-        title: 'Kunniga och bra!',
-        text: "Mina tonårsdöttrar har båda gått till acnespecialisten under flera år med både mindre och större problemområden. Vi har alltid fått professionell och kunnig behandling, bra produkter och bra råd, som också hjälper fint!",
-        signature: 'Emily'
-    ),
+        logo_url: 'images/brands/bokadirekt-small.svg'
+      ),
 );
+$reviews_view_more = 'Se alla omdömen';
+
+$faq_title = 'Frågor & Svar';
 $faq_categories = array(
-    'Generellt om akne' => array(
+    '' => array(
         new Question(
-            title: 'Hur blir jag av med min akne snabbt?',
-            text: 'Att bli av med akne snabbt är en utmaning, eftersom det inte finns någon quickfix när det gäller akne. Effektiv behandling kräver att du tar hand om din hud genom att använda rätt behandlingar och produkter som passar din specifika hudtyp och akne. För att få en skräddarsydd behandlingsplan som hjälper dig att bli av med aknen så snabbt som möjligt, rekommenderar vi att du bokar en kostnadsfri hudkonsultation hos oss. Under konsultationen kommer vi att analysera din hud och hjälpa dig att utforma en anpassad behandlingsrutin som ger dig de bästa förutsättningarna för att snabbt och effektivt behandla din akne.'
+            title: 'Vilka typer av behandlingar erbjuder Alma Lasers maskiner?',
+            text: 'Alma Lasers maskiner, som inkluderar Alma Hybrid CO2, Harmony XL Pro, Rejuve Dye VL och Soprano Ice, erbjuder ett brett utbud av behandlingar. Dessa omfattar hudföryngring, aknebehandling, hårborttagning, behandling av ytliga blodkärl och pigmentering, samt tatueringsborttagning. Varje maskin använder avancerad teknologi anpassad för specifika hudvårdsbehov.'
         ),
         new Question(
-            title: 'Har jag akne även om jag bara har en finne?',
-            text: 'ja, du har tekniskt sett akne även om du bara har en enstaka finne. Akne kan ta sig många olika former och innefattar alla typer av finnar, oavsett om det är enstaka eller flera, stora eller små, papler eller pustler. Många tror att de inte har akne om de endast upplever enstaka finnar då och då, men faktum är att alla dessa fall kategoriseras som akne.'
+            title: 'Hur säkra är behandlingarna med Alma Lasers maskiner?',
+            text: 'Behandlingar med Alma Lasers maskiner är mycket säkra. Dessa system är kliniskt testade och designade för att ge effektiva resultat med hög säkerhetsstandard. Varje maskin erbjuder skonsamma behandlingsalternativ som minimerar risker och biverkningar, vilket gör dem lämpliga för en rad olika hudtyper och tillstånd.'
         ),
         new Question(
-            title: 'Ska jag klämma mina finnar?',
-            text: '
-            <p class="p200">Vi på Acnespecialisten rekommenderar att du inte klämmer finnar själv, eftersom felaktig teknik kan leda till ärrbildning och förvärra inflammationen genom att införa bakterier från dina fingrar. Det är dock sant att finnar kan behöva klämmas, men det måste göras på rätt sätt för att undvika skador på huden. Om du undviker att klämma helt kan ärrbildning också uppstå, eftersom fettsyran i finnen fortsätter att fräta på huden.</p>
-            <p class="p200 mt-m">För att klämma finnar korrekt krävs både rätt utrustning och teknik. På Acnespecialisten har vi erfarna hudterapeuter som kan hjälpa dig att behandla dina finnar på ett säkert och effektivt sätt. Genom att vända dig till oss får du den expertis och omsorg du behöver för att hantera din akne på bästa sätt. Du kan läsa mer om våra aknebehandlingar och hur de kan hjälpa dig här.</p>'
+            title: 'Vad skiljer Alma Lasers Soprano Ice från andra hårborttagningsmaskiner?',
+            text: 'Alma Lasers Soprano Ice skiljer sig från andra hårborttagningsmaskiner genom sin unika SHR-teknik (Super Hair Removal), som ger en nästan smärtfri upplevelse. Den är effektiv på alla hudtyper och hårfärger och erbjuder snabba behandlingar med minimal risk för biverkningar, vilket gör den till en av de mest föredragna metoderna för permanent hårborttagning.'
         ),
         new Question(
-            title: 'Försvinner aknen efter tonåren?',
-            text: '
-            <p class="p200">Det är svårt att ge ett entydigt svar på den frågan eftersom det varierar från person till person. För vissa kan akne vara ett tonårsproblem som försvinner när de blir äldre, medan det för andra kan övergå till vuxenakne. Det är inte säkert att aknen försvinner efter tonåren, och det kan variera beroende på individuella faktorer som hormoner, genetik och livsstil.</p>
-            <p class="p200 mt-m">Akne kan uppstå i olika faser av livet och dess svårighetsgrad varierar från person till person. Vissa individer upplever akne under tonåren, som sedan försvinner när de når vuxen ålder. Andra kan vara aknefria under tonåren, men drabbas av akne som vuxna. Den mest besvärliga situationen är när någon drabbas av akne under tonåren som sedan övergår till vuxenakne.</p>
-            <p class="p200 mt-m">När man når vuxen ålder och aknen fortfarande inte har försvunnit, är det stor risk att aknen har lett till ärrbildning. Det är därför viktigt att behandla akne i alla åldrar för att förebygga och minimera risken för att drabbas av acneärr. Oavsett ålder och fas av akne, bör man söka hjälp för att behandla och kontrollera sitt tillstånd, för att minska risken för långsiktiga hudproblem som ärrbildning.</p>'
+            title: 'Är Alma Lasers utrustning lämplig för alla hudtyper?',
+            text: 'Ja, Alma Lasers utrustning är designad för att vara lämplig för alla hudtyper. System som Harmony XL Pro och Soprano Ice har inställningar som kan anpassas för olika hudtoner och känslighetsnivåer, vilket säkerställer både effektivitet och säkerhet för en bred användargrupp.'
         ),
-        new Question(
-            title: 'Kan jag ha akne även om jag är vuxen?',
-            text: '
-            <p class="p200">Ja, akne kan drabba vuxna och det är faktiskt ganska vanligt. Vuxenakne drabbar cirka 12-22% av alla kvinnor och 3% av alla män. Den kan uppkomma vid 20-, 30- och 40-årsåldern, och ibland ännu senare. Det kallas då för vuxenakne och har också med hormonerna i din kropp att göra, men faktorerna som triggar igång din akne är lite annorlunda än vid tonårsakne.</p>
-            <p class="p200 mt-m">Vid tonårsakne ökar produktionen av det manliga könshormonet i din kropp. Det, i kombination med fettproduktionen, kan leda till att du drabbas av akne. Vid vuxen ålder däremot, kan aknen bero på sådant som graviditet, menstruation, alkohol, stress och preventivmedel. Alltså, yttre faktorer som triggar igång dina hormoner och får aknen att blomma upp.</p>
-            <p class="p200 mt-m">Vuxenakne kan orsakas av flera faktorer, såsom hormonella förändringar, stress, genetik och användning av olämpliga hudvårdsprodukter. Hos kvinnor kan akne ofta vara kopplad till menstruationscykeln eller hormonella förändringar i samband med graviditet och menopaus.</p>
-            <p class="p200 mt-m">Sammanfattningsvis kan akne drabba personer i alla åldrar, och det är viktigt att vara medveten om att akne inte bara är ett tonårsproblem.</p>'
-        ),
-        new Question(
-            title: 'Förvärras min akne av att jag äter choklad?',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-        ),
-        new Question(
-            title: 'Vad kan jag göra för att bli av med min akne?',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-        ),
-        new Question(
-            title: 'Försvinner aknen efter tonåren?',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-        )
-    ),
-    'Behandling mot akne' => array(
-        new Question(
-            title: 'Hur många behandlingar behövs?',
-            text: '
-            <p class="p200">Antalet behandlingar som behövs varierar från person till person och beror på flera faktorer, som din hudtyp, svårighetsgraden av din akne och din respons på behandlingen. Vanligtvis kan du se en förbättring efter 1 till 3 veckors regelbunden behandling.</p>
-            <p class="p200 mt-m">Det är viktigt att påpeka att behandlingen hos oss inte fungerar i isolering. En väsentlig del av din framgång ligger i den dagliga användningen av de rekommenderade produkterna hemma. Det är kombinationen av professionell behandling och hemmavård som ger bästa möjliga resultat.</p>
-            <p class="p200 mt-m">Om du inte upplever de förväntade förbättringarna efter en tid, uppmanar vi dig att ta kontakt med din personliga hudterapeut. Tillsammans kan vi se över dina hudvårdsrutiner och de produkter du använder, för att optimera din behandlingsplan.</p>'
-        ),
-        new Question(
-            title: 'Finns det en risk att min akne återkommer?',
-            text: '
-            <p class="p200">Ja, det finns en risk att akne återkommer, eftersom akne kan påverkas av flera faktorer såsom genetik, hormoner, livsstil och hudvård. Personer med en genetisk benägenhet för akne kan uppleva att aknen återkommer, särskilt under perioder av hormonella förändringar som pubertet, graviditet eller menstruation. Även faktorer som stress, kost och användning av olämpliga hudvårdsprodukter kan bidra till att aknen återkommer.</p>                 
-            <p class="p200 mt-m">Det är dock viktigt att komma ihåg att regelbunden och korrekt hudvård kan hålla aknen i schack. Precis som vi borstar tänderna varje dag för att hålla karies borta, behöver vi underhålla vår hud för att hålla aknen borta. Det innebär att följa en anpassad hudvårdsrutin, hantera stress och upprätthålla en hälsosam livsstil. Så länge du tar hand om din hud regelbundet och på rätt sätt, kan du förhindra att aknen återkommer.</p>'
-        ),
-        new Question(
-            title: 'Vilken är den bästa behandlingen mot akne?',
-            text: 'Vilken behandling som är bäst för akne varierar beroende på individens hudtyp, aknens svårighetsgrad och orsaker till akne. Den bästa behandlingen är en skräddarsydd behandlingsplan som kombinerar rätt behandlingar, produkter och rutiner för att effektivt ta itu med den aktiva aknen och förhindra att nya utbrott uppstår. Genom att först behandla och bli av med den aktiva aknen kan du uppnå en klarare hud. Därefter är det viktigt att bibehålla resultaten med lämpliga produkter och rutiner för att motverka att nya finnar uppstår och hålla aknen under kontroll. Det rekommenderas att konsultera en av våra specialister för att få en personlig och effektiv behandlingsplan som passar just din hud och akne.'
-        ),
-        new Question(
-            title: 'Gör aknebehandlingen ont?',
-            text: 'vi strävar efter att göra aknebehandlingen så behaglig som möjligt för våra klienter. Det är sant att akne ibland innebär inflammation i porerna och kan göra ont när de öppnas upp och töms. Men vi vill påpeka att smärtupplevelsen kan variera från person till person och bero på behandlingsmetoden som används. Vår erfarna personal är välutbildad och tar stor hänsyn till din komfort under behandlingen. Om du känner någon obehag, tveka inte att informera din acnespecialist så att de kan justera behandlingen efter dina behov.'
-        ),
-        new Question(
-            title: 'Vad ska jag tänka på innan behandlingen?',
-            text: 'Vi vill att din behandling ska vara så smidig och bekväm som möjligt, och vi strävar efter att göra processen enkel för dig. Du behöver inte förbereda något särskilt inför ditt besök hos oss. Kom precis som du är, och vi tar hand om resten. Vi kommer att genomföra en grundlig hudanalys och skräddarsy en behandlingsplan som passar just dig och din hudtyp. Så, du kan lita på oss och bara slappna av inför din aknebehandling.'
-        ),
-        new Question(
-            title: 'Vad ska jag tänka på efter behandling?',
-            text: '
-            <p class="p200">Efter din aknebehandling hos Acnespecialisten kan du uppleva att huden blir något röd och irriterad. Detta är helt normalt och en del av hudens naturliga läkningsprocess. Rödheten och irritationen kommer att avta under dagarna efter behandlingen. Det är viktigt att du fortsätter att följa den hudvårdsrutin och de produktrekommendationer vi gett dig för att stödja hudens återhämtning och maximera resultaten av behandlingen.</p>                      
-            <p class="p200 mt-m">Undvik att peta eller klämma på behandlade områden för att undvika eventuell ärrbildning och infektion. Dessutom är det bra att skydda huden från solen, då den kan vara extra känslig efter behandling. Använd solskyddsmedel och undvik direkt solljus så mycket som möjligt. Kom ihåg att vi på Acnespecialisten alltid finns här för dig om du har några frågor eller funderingar efter din behandling.</p>'
-        ),
-        new Question(
-            title: 'Eftervård efter behandlingen?',
-            text: '
-            <p class="p200">Eftervården efter en aknebehandling hos Acnespecialisten är lika viktig som själva behandlingen. När aknen är utklämd och borta är det viktigt att förebygga uppkomsten av ny akne. Om du inte följer din eftervårdsplan kommer du att få resultat, men det kommer inte vara bestående, eftersom akneproduktionen sätter igång igen kort tid efter behandlingen.</p>
-            <p class="p200 mt-m">För att hålla huden i kontroll och balans är det viktigt att följa de råd och rekommendationer vi ger dig angående hudvårdsrutin och produkter. Kontinuerlig behandling och förebyggande åtgärder är avgörande för att uppnå och bibehålla en klar och frisk hud. Kom ihåg att vi på Acnespecialisten alltid finns här för att hjälpa och stötta dig genom hela processen, både under och efter din behandling.</p>',
-        ),
-    ),
-);
-$skin_guide_articles = array(
-    new SkinGuideArticle(
-        id: 'how-hormones-effect',
-        title: 'How hormones effect?',
-        subtitle: '',
-        problem: 'Acne',
-        description: "",
-        image_small: 'https://via.placeholder.com/426x324.webp',
-        image_large: 'https://via.placeholder.com/872x456.jpg',
-        category_id: 'category-here',
-        subcategory_id: 'subcategory-here'
-    ),
-    new SkinGuideArticle(
-        id: 'how-hormones-effect',
-        title: 'How hormones effect?',
-        subtitle: '',
-        problem: 'Acne',
-        description: "",
-        image_small: 'https://via.placeholder.com/426x324.webp',
-        image_large: 'https://via.placeholder.com/872x456.jpg',
-        category_id: 'category-here',
-        subcategory_id: 'subcategory-here'
-    ),
-    new SkinGuideArticle(
-        id: 'how-hormones-effect',
-        title: 'How hormones effect?',
-        subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
-        problem: 'Acne',
-        description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
-        image_small: 'https://via.placeholder.com/426x324.webp',
-        image_large: 'https://via.placeholder.com/872x456.jpg',
-        category_id: 'category-here',
-        subcategory_id: 'subcategory-here'
-    ),
-    new SkinGuideArticle(
-        id: 'how-hormones-effect',
-        title: 'How hormones effect?',
-        subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
-        problem: 'Acne',
-        description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
-        image_small: 'https://via.placeholder.com/426x324.webp',
-        image_large: 'https://via.placeholder.com/872x456.jpg',
-        category_id: 'category-here',
-        subcategory_id: 'subcategory-here'
     )
 );
+$faq_view_more = 'Se alla frågor & svar';
+
+$skin_guide_title = 'Hudguiden';
+$skin_guide_articles = array(
+    new SkinGuideArticle(
+        url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
+        url_title: 'How hormones effect?',
+        title: 'How hormones effect?',
+        problem: 'Acne',
+        image_small: 'https://via.placeholder.com/426x324.webp',
+        image_large: 'https://via.placeholder.com/872x456.jpg',
+        image_alt: 'Hormones effect',
+        image_title: 'Hormones effect',
+    ),
+);
+$skin_guide_view_more = 'Se alla artiklar';
+
+$specialists_title = 'Våra hudterpaueter';
 $specialists = array(
     new Specialist(
         name: 'Cazzandra Lindberg',
         title: 'Hudterapeut sedan 2015',
-        image: 'images/specialists/large/hudterapeut-cazzandra.webp'
+        image: 'images/specialists/large/hudterapeut-cazzandra.webp',
+        image_alt: 'Cazzandra Lindberg',
+        image_title: 'Cazzandra Lindberg'
     ),
     new Specialist(
         name: 'Veronika Benedik',
         title: 'Hudterapeut sedan 1999',
-        image: 'images/specialists/large/hudterapeut-veronika.webp'
+        image: 'images/specialists/large/hudterapeut-veronika.webp',
+        image_alt: 'Veronika Benedik',
+        image_title: 'Veronika Benedik'
     ),
     new Specialist(
         name: 'Amira Maqboul',
         title: 'Hudterapeut sedan 2017',
-        image: 'images/specialists/large/hudterapeut-amira.webp'
+        image: 'images/specialists/large/hudterapeut-amira.webp',
+        image_alt: 'Amira Maqboul',
+        image_title: 'Amira Maqboul'
     ),
     new Specialist(
         name: 'Vilma Libom',
         title: 'Hudterapeut sedan 2019',
-        image: 'images/specialists/large/hudterapeut-vilma.webp'
+        image: 'images/specialists/large/hudterapeut-vilma.webp',
+        image_alt: 'Vilma Libom',
+        image_title: 'Vilma Libom'
     )
+);
+$specialists_view_more = 'Se alla hudterapeuter';
+
+$brands_title = 'Märken vi jobbar med';
+$all_brands = array(
+    new Brand(
+        label: 'Powerlite',
+        image: 'images/brands/powerlite.svg',
+        image_alt: 'Powerlite',
+        image_title: 'Powerlite',
+    ),
+    new Brand(
+        label: 'Dermapen4',
+        image: 'images/brands/dermapen4.svg',
+        image_alt: 'Dermapen4',
+        image_title: 'Dermapen4',
+    ),
+    new Brand(
+        label: 'Cryopen',
+        image: 'images/brands/cryopen.svg',
+        image_alt: 'Cryopen',
+        image_title: 'Cryopen',
+    ),
+    new Brand(
+        label: 'Lumenis',
+        image: 'images/brands/lumenis.svg',
+        image_alt: 'Lumenis',
+        image_title: 'Lumenis',
+    ),
+    new Brand(
+        label: 'Alma',
+        image: 'images/brands/alma.svg',
+        image_alt: 'Alma',
+        image_title: 'Alma',
+    ),
+    new Brand(
+        label: 'PRXT',
+        image: 'images/brands/prxt.svg',
+        image_alt: 'PRXT',
+        image_title: 'PRXT',
+    ),
+    new Brand(
+        label: 'Hydrafacial',
+        image: 'images/brands/hydrafacial.svg',
+        image_alt: 'Hydrafacial',
+        image_title: 'Hydrafacial',
+    ),
+    new Brand(
+        label: 'IP infusion',
+        image: 'images/brands/ipinfusion.svg',
+        image_alt: 'IP infusion',
+        image_title: 'IP infusion',
+    ),
 );
 ?>
 <!DOCTYPE html>
@@ -313,10 +308,9 @@ $specialists = array(
 
 <head>
     <!-- TODO: Set title and meta tags -->
-    <title class="l10n">Acnespecialisten | Alma</title>
-    <meta name="description" content="" class="l10n">
-    <meta name="title" content="" class="l10n">
-    <meta name="keywords" content="" class="l10n">
+    <title>Alma Laser hos AcneSpecialisten | Avancerad Hudvårdsteknologi</title>
+    <meta name="description" content="På AcneSpecialisten använder vi Alma Lasers högteknologiska system för att erbjuda banbrytande behandlingar. Upptäck våra Alma-lösningar, inklusive Hybrid CO2, Harmony XL Pro, Rejuve Dye VL och Soprano Ice, designade för att effektivt hantera en mängd hudproblem och förbättra hudhälsa.">
+    <meta name="keywords" content="Alma Lasers, Avancerad hudvårdsteknologi, Hybrid CO2, Harmony XL Pro, Rejuve Dye VL, Soprano Ice, AcneSpecialisten behandlingar, Hudföryngring, Laserhårborttagning, Hudproblem lösningar, Estetisk hudvård">
     <meta property="og:title" content="Acnespecialisten" />
     <meta property="og:description" content="" class="l10n" />
     <meta property="og:image" content="images/about-desktop.jpg" />
@@ -342,14 +336,14 @@ $specialists = array(
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
                     <div>
                         <h2 class="h600 l10n">Alma</h2>
-                        <p class="mt-m p200 l10n">A method that suits everyone. We identify your skin type and which problem skin you have with the help of our skin analysis.</p>
+                        <p class="mt-m p200 l10n">Alma erbjuder de modernaste och mest avancerade maskinerna inom skönhet och hudvård.</p>
                         <div class="mt-xl">
                             <div class="columns is-2 is-variable">
                                 <div class="column">
-                                    <a href="hudkonsultation" class="button white expand l10n">Free consultation</a>
+                                    <a href="gratis-hudkonsultation" class="button white expand l10n" title="Boka konsultation">Boka konsultation</a>
                                 </div>
                                 <div class="column">
-                                    <a href="https://bokadirekt.se" class="button white expand l10n">Book a treatment</a>
+                                    <a href="https://bokadirekt.se" class="button white expand l10n" title="Boka behandling">Boka behandling</a>
                                 </div>
                             </div>
                         </div>
@@ -365,15 +359,15 @@ $specialists = array(
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
                     <h1 class="mt-xs h600 l10n">Alma</h1>
                     <div class="mt-xs l10n">
-                        Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we.
+                        Alma är en ledande innovatör inom estetisk laserbehandling. Vårt utbud omfattar fyra av Almas toppmoderna system: Alma Hybrid CO2, Harmony XL Pro, Rejuve Dye VL och Soprano Ice. Dessa avancerade maskiner erbjuder en bred palett av behandlingar, från hudföryngring och pigmentkorrigering till effektiv hårborttagning och behandling av vaskulära problem. Varje system är designat för att ge säkra, skonsamma och effektiva lösningar för en mängd olika hudtillstånd, vilket gör det möjligt för oss att skräddarsy behandlingar efter dina unika hudvårdsbehov.
                     </div>
                     <div class="mt-xl">
                         <div class="columns is-mobile">
                             <div class="column is-half">
-                                <a href="hudkonsultation" class="button b200 white expand l10n">Free consultation</a>
+                                <a href="gratis-hudkonsultation" class="button b200 white expand l10n" title="Boka konsultation">Boka konsultation</a>
                             </div>
                             <div class="column is-half">
-                                <a href="bokadirekt" class="button b200 white expand l10n">Book a treatment</a>
+                                <a href="bokadirekt" class="button b200 white expand l10n" title="Boka behandling">Boka behandling</a>
                             </div>
                         </div>
                     </div>
@@ -391,10 +385,10 @@ $specialists = array(
                     </div>
                     <div id="green-header-large-text" class="mt-xxs">
                         <h1 class="h600 l10n">Alma</h1>
-                        <div class="mt-s l10n p200">In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend. In a personal meeting with a skin specialist, your skin type is examined and identified In a personal meeting with a skin specialist, your skinonal... read more</div>
+                        <div class="mt-s l10n p200">Alma är en ledande innovatör inom estetisk laserbehandling. Vårt utbud omfattar fyra av Almas toppmoderna system: Alma Hybrid CO2, Harmony XL Pro, Rejuve Dye VL och Soprano Ice. Dessa avancerade maskiner erbjuder en bred palett av behandlingar, från hudföryngring och pigmentkorrigering till effektiv hårborttagning och behandling av vaskulära problem. Varje system är designat för att ge säkra, skonsamma och effektiva lösningar för en mängd olika hudtillstånd, vilket gör det möjligt för oss att skräddarsy behandlingar efter dina unika hudvårdsbehov.</div>
                         <div class="mt-xl flex-row" id="book-buttons">
-                            <a href="hudkonsultation" class="button b200 white l10n">Get a free consultation</a>
-                            <a href="bokadirekt" class="button b200 white l10n">Book a treatment</a>
+                            <a href="gratis-hudkonsultation" class="button b200 white l10n" title="Boka konsultation">Boka konsultation</a>
+                            <a href="bokadirekt" class="button b200 white l10n" title="Boka behandling">Boka behandling</a>
                         </div>
                     </div>
                 </div>
@@ -416,14 +410,14 @@ $specialists = array(
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about" class="large-margin">
-                    <h2 class="h500 l10n">What is Alma?</h2>
-                    <p class="p200 mt-xl l10n">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p>
-                    <p class="p200 mt-xl l10n">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>
+                    <h2 class="h500 l10n">Vad är Alma?</h2>
+                    <p class="p200 mt-xl l10n">Alma är ledande inom utveckling och tillverkning av innovativa estetiska behandlingssystem. Företaget, grundat i början av 2000-talet, har specialiserat sig på att producera avancerad medicinsk utrustning för en mängd olika hudvårdsbehandlingar. Alma's teknologi är känd för sin mångsidighet och effektivitet och används för behandlingar som hudföryngring, hårborttagning, minskning av akneärr, samt behandling av ytliga blodkärl och pigmentförändringar.</p>
+                    <p class="p200 mt-xl l10n">Almas utrustning, som Alma Hybrid CO2, Harmony XL Pro, Rejuve Dye VL och Soprano Ice, utnyttjar avancerade laser-, ljus- och ultraljudsbaserade teknologier. Dessa system är designade för att erbjuda skonsamma, icke-invasiva behandlingar som ger effektiva resultat med minimal återhämtningstid. Alma Lasers är synonymt med innovation, säkerhet och kvalitet, vilket gör deras utrustning till bland de bästa på marknaden.</p>
 
                 </section>
                 <section id="models" class="large-margin">
-                    <h2 class="h500 l10n">Alma models</h2>
-                    <p class="p200 mt-xs l10n">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>
+                    <h2 class="h500 l10n">Alma maskiner</h2>
+                    <p class="p200 mt-xs l10n">På AcneSpecialisten använder vi fyra avancerade maskiner från Alma Lasers för att erbjuda ett brett spektrum av hudbehandlingar. Dessa inkluderar Alma Hybrid CO2, Harmony XL Pro, Rejuve Dye VL och Soprano Ice, var och en med sina unika egenskaper och fördelar.</p>
                     <div class="columns is-multiline is-variable is-3">
                         <?php foreach ($models as $model) { ?>
                             <div class="column is-half">
@@ -432,20 +426,12 @@ $specialists = array(
                         <?php } ?>
                     </div>
                 </section>
-                <section id="problems" class="large-margin">
-                    <h2 class="h500 l10n">Problems treated with Alma</h2>
-                    <hr class="divider is-hidden-touch" />
-                    <?php foreach ($problems as $service) { ?>
-                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
-                        <hr class="divider is-hidden-touch" />
-                    <?php } ?>
-                </section>
                 <section id="results" class="large-margin">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php') ?>
                 </section>
                 <section id="reviews" class="large-margin">
                     <div class="flex-row align-end justify-space-between">
-                        <h2 class="big l10n">Reviews</h2>
+                        <h2 class="big l10n"><?php echo $reviews_title ?></h2>
                         <div class="flex-row is-hidden-mobile">
                             <div class="step-buttons">
                                 <button class="round-large grey" onclick="Reviews.scroll(-1)">
@@ -461,31 +447,17 @@ $specialists = array(
                     $reviews_narrow = true;
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                     ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="https://se.trustpilot.com/review/acnespecialisten.se">View all reviews</a>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="Se alla omdömen"><?php echo $reviews_view_more ?></a>
                 </section>
                 <section id="faq" class="large-margin">
-                    <h2 class="big l10n">Questions & answers</h2>
+                    <h2 class="big l10n"><?php echo $faq_title ?></h2>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="faq">View all questions</a>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" href="faq" title="Se alla frågor"><?php echo $faq_view_more ?></a>
                 </section>
-                <section id="skin-guide" class="large-margin">
-                    <div class="flex-row justify-space-between">
-                        <h2 class="big l10n">Skin guide</h2>
-                        <div class="is-hidden-touch">
-                            <button class="round-large grey" onclick="scrollSkinGuide(-1)">
-                                <?php icon('arrow-left') ?>
-                            </button>
-                            <button class="round-large grey" onclick="scrollSkinGuide(1)">
-                                <?php icon('arrow-right') ?>
-                            </button>
-                        </div>
-                    </div>
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide_narrow.php'); ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="skin-guide">View all articles</a>
-                </section>
+                <!--Hudguide-->
                 <section id="specialists" class="large-margin">
                     <div class="flex-row justify-space-between">
-                        <h2 class="big l10n">Our specialists</h2>
+                        <h2 class="big l10n"><?php echo $specialists_title ?></h2>
                         <div class="is-hidden-touch">
                             <button class="round-large grey" onclick="scrollSpecialists(-1)">
                                 <?php icon('arrow-left') ?>
@@ -495,27 +467,28 @@ $specialists = array(
                             </button>
                         </div>
                     </div>
-                    <?php
-                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php');
-                    ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="specialister">View all specialists</a>
+                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" href="specialister" title="Se alla specialister"><?php echo $specialists_view_more ?></a>
                 </section>
             </div>
-            <section id="brands" class="large-margin">
+            <section id="brands">
                 <div class="flex-row align-end justify-space-between">
-                    <h2 class="big l10n">Brands we use</h2>
-                    <a href="brands" class="button compact text is-hidden-mobile">
-                        <span class="l10n">View all brands</span>
+                    <h2 class="big l10n"><?php echo $brands_title ?></h2>
+                    <a href="varumarken" class="button compact text is-hidden-mobile">
+                        <span class="l10n">Se alla varumärken</span>
                         <?php icon('navigate-next') ?>
                     </a>
                 </div>
-                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                <a class="mt-xl button b200 outline expand auto-width is-hidden-desktop l10n" href="brands">View all brands</a>
+                <?php
+                $brands = $all_brands;
+                include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php');
+                ?>
+                <a class="mt-xl button b200 outline expand auto-width is-hidden-desktop l10n" href="varumarken" title="Se alla varumärken">Se alla varumärken</a>
             </section>
         </div>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
-    <script src="includes/scripts/floating-image.js"></script>
+    <script src="/includes/scripts/floating-image.js"></script>
 </body>
 
 </html>
