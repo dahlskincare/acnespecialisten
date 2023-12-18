@@ -763,7 +763,7 @@ $service_categories = array(
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
-    <link rel="stylesheet" href="behandlingar/style.css">
+    <link rel="stylesheet" href="/behandlingar/style.css">
 </head>
 
 <body>
@@ -796,7 +796,7 @@ $service_categories = array(
                 <div class="columns is-multiline is-variable is-3">
                     <?php foreach ($service_categories as $category) { ?>
                         <div class="column is-one-third">
-                            <?php include('widgets/service-category-card/service-category-card.php') ?>
+                            <?php include('behandlingar/widgets/service-category-card/service-category-card.php') ?>
                         </div>
                     <?php } ?>
                 </div>

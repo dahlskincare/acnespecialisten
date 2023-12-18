@@ -1,6 +1,6 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
-include_once('models/step/step.php');
+include_once('metod/models/step/step.php');
 
 $steps = array(
     new StepModel(
@@ -115,7 +115,7 @@ $steps = array(
                 </section>
                 <section id="steps">
                     <?php foreach ($steps as $step) {
-                        include('widgets/step/step.php');
+                        include('metod/widgets/step/step.php');
                     } ?>
                 </section>
             </div>

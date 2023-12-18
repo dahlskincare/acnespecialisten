@@ -1,8 +1,8 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
-include_once('../widgets/problem-trivia-card/problem-trivia.php');
-include_once('../widgets/symptom-card/symptom.php');
-include_once('../widgets/related-problem-card/related-problem.php');
+include_once('problem/widgets/problem-trivia-card/problem-trivia.php');
+include_once('problem/widgets/symptom-card/symptom.php');
+include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Allt om Mogen Hy - Orsaker, Behandling och Förebyggande | Acnespecialisten';
@@ -964,7 +964,7 @@ $brands_url_title = "Varumärken för behandling av mogen hy";
                               <h2 class="h500 l10n"><?php echo $about_title ?></h2>
                               <?php foreach ($trivias as $trivia) {
                                     echo '<hr>';
-                                    include('../widgets/problem-trivia-card/problem-trivia-card.php');
+                                    include('problem/widgets/problem-trivia-card/problem-trivia-card.php');
                               } ?>
                               <hr>
                         </section>
@@ -999,7 +999,7 @@ $brands_url_title = "Varumärken för behandling av mogen hy";
                                                       <div class="mt-xxs type-category-content"><?php echo $type_category->content ?></div>
                                                       <div class="type-category-cards">
                                                             <?php foreach ($type_category->types as $type) {
-                                                                  include('../widgets/type-card/type-card.php');
+                                                                  include('problem/widgets/type-card/type-card.php');
                                                             } ?>
                                                       </div>
                                                 </div>
@@ -1013,7 +1013,7 @@ $brands_url_title = "Varumärken för behandling av mogen hy";
                                                       <div class="columns is-3 is-variable is-multiline type-category-large-cards">
                                                             <?php foreach ($type_category->types as $type) { ?>
                                                                   <div class="column is-one-third">
-                                                                        <?php include('../widgets/type-card/type-card-large.php') ?>
+                                                                        <?php include('problem/widgets/type-card/type-card-large.php') ?>
                                                                   </div>
                                                             <?php } ?>
                                                       </div>
@@ -1023,7 +1023,7 @@ $brands_url_title = "Varumärken för behandling av mogen hy";
                                     <?php echo $types_url ?>
                               </section>
                         <?php } ?>
-                        <?php if (sizeof($symptoms) > 0) { ?>
+                        <?php if (isset($symptoms) && sizeof($symptoms) > 0) { ?>
                               <section id="symptoms">
                                     <h2 class="h500"><?php echo $symptoms_title ?></h2>
                                     <div class="mt-m is-hidden-tablet" id="symptom-buttons">
@@ -1036,7 +1036,7 @@ $brands_url_title = "Varumärken för behandling av mogen hy";
                                     <div class="columns is-multiline is-variable is-3" id="symptom-cards">
                                           <?php foreach ($symptoms as $symptom) { ?>
                                                 <div class="column is-half">
-                                                      <?php include('../widgets/symptom-card/symptom-card.php'); ?>
+                                                      <?php include('problem/widgets/symptom-card/symptom-card.php'); ?>
                                                 </div>
                                           <?php } ?>
                                     </div>
@@ -1113,7 +1113,7 @@ $brands_url_title = "Varumärken för behandling av mogen hy";
                               <dig class="columns is-variable is-0-mobile is-3-tablet is-multiline">
                                     <?php foreach ($related_problems as $problem) { ?>
                                           <div class="column is-half">
-                                                <?php include('../widgets/related-problem-card/related-problem-card.php'); ?>
+                                                <?php include('problem/widgets/related-problem-card/related-problem-card.php'); ?>
                                           </div>
                                     <?php } ?>
                               </dig>

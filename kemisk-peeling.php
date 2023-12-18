@@ -803,7 +803,7 @@ $all_brands = array(
             <div id="green-header-small" class="is-hidden-desktop">
                 <div class="container">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
-                    <h1 class="mt-xs h600">
+                    <h1 class="h600">
                         <?php echo $model->title ?>
                     </h1>
                     <?php if (isset($model->duration)) { ?>
@@ -956,7 +956,7 @@ $all_brands = array(
                             <div class="mb-xl"><?php echo $treatment_area->description ?></div>
                         <?php
                             foreach ($treatment_area->items as $treatment_area_item) {
-                                include('../widgets/treatment-area-item-card/treatment-area-item-card.php');
+                                include('behandlingar/widgets/treatment-area-item-card/treatment-area-item-card.php');
                             }
                         } ?>
                     </section>
