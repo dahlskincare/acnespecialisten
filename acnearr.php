@@ -1,8 +1,8 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
-include_once('../widgets/problem-trivia-card/problem-trivia.php');
-include_once('../widgets/symptom-card/symptom.php');
-include_once('../widgets/related-problem-card/related-problem.php');
+include_once('problem/widgets/problem-trivia-card/problem-trivia.php');
+include_once('problem/widgets/symptom-card/symptom.php');
+include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Allt om Akneärr - Behandling, Orsaker och Förebyggande | Acnespecialisten';
@@ -136,7 +136,7 @@ $symptoms = array(
             url: 'problem/aknearr/postinflammatorisk-hyperpigmentering',
             url_title: 'Läs mer om postinflammatorisk hyperpigmentering',
             url_label: 'Läs mer',
-            image: 'images/symptoms/102x102/postinflammatorisk_hyperpigmentering.webp',
+            image: 'bilder/symptoms/102x102/postinflammatorisk_hyperpigmentering.webp',
             image_alt: 'Bild av postinflammatorisk hyperpigmentering',
             image_title: 'Postinflammatorisk hyperpigmentering'
       ),
@@ -147,7 +147,7 @@ $symptoms = array(
             url: 'problem/aknearr/atrofiska-arr',
             url_title: 'Läs mer om atrofiska "ice-pick" ärr',
             url_label: 'Läs mer',
-            image: 'images/symptoms/102x102/atrofiska-icepick-ar.webp',
+            image: 'bilder/symptoms/102x102/atrofiska-icepick-ar.webp',
             image_alt: 'Bild av atrofiska "ice-pick" ärr',
             image_title: 'Atrofiska "ice-pick" ärr'
       ),
@@ -158,7 +158,7 @@ $symptoms = array(
             url: 'problem/aknearr/postinflammatorisk-hyperpigmentering',
             url_title: 'Läs mer om postinflammatorisk erytem',
             url_label: 'Läs mer',
-            image: 'images/symptoms/102x102/postinflammatorisk-erytem.webp',
+            image: 'bilder/symptoms/102x102/postinflammatorisk-erytem.webp',
             image_alt: 'Bild av postinflammatorisk erytem',
             image_title: 'Postinflammatorisk erytem (rosa/lila fläckar)'
       ),
@@ -170,7 +170,7 @@ $symptoms = array(
             url: 'problem/aknearr/atrofiska-arr',
             url_title: 'Läs mer om atrofiska "Boxcar" ärr',
             url_label: 'Läs mer',
-            image: 'images/symptoms/102x102/boxcar.webp',
+            image: 'bilder/symptoms/102x102/boxcar.webp',
             image_alt: 'Bild av atrofiska "Boxcar" ärr',
             image_title: 'Atrofiska "Boxcar" ärr (gropar)'
 
@@ -182,7 +182,7 @@ $symptoms = array(
             url: 'problem/aknearr/postinflammatorisk-hyperpigmentering',
             url_title: 'Läs mer om postinflammatorisk hypopigmentering',
             url_label: 'Läs mer',
-            image: 'images/symptoms/102x102/hypopigmentering.webp',
+            image: 'bilder/symptoms/102x102/hypopigmentering.webp',
             image_alt: 'Bild av postinflammatorisk hypopigmentering',
             image_title: 'Postinflammatorisk hypopigmentering (vita fläckar)'
       ),
@@ -193,7 +193,7 @@ $symptoms = array(
             url: 'problem/aknearr/atrofiska-arr',
             url_title: 'Läs mer om atrofiska "rolling" ärr',
             url_label: 'Läs mer',
-            image: 'images/symptoms/102x102/rolling-scars.webp',
+            image: 'bilder/symptoms/102x102/rolling-scars.webp',
             image_alt: 'Bild av atrofiska "rolling" ärr',
             image_title: 'Atrofiska "rolling" ärr (gropar)'
       ),
@@ -205,7 +205,7 @@ $symptoms = array(
             url: 'problem/aknearr/hypertrfiska-arr',
             url_title: 'Läs mer om hypertrofiska ärr',
             url_label: 'Läs mer',
-            image: 'images/symptoms/102x102/hypertrophic-scars.webp',
+            image: 'bilder/symptoms/102x102/hypertrophic-scars.webp',
             image_alt: 'Bild av hypertrofiska ärr',
             image_title: 'Hypertrofiska ärr (keloid ärr)'
       ),
@@ -217,7 +217,7 @@ $symptoms = array(
             url: 'problem/aknearr/atrofiska-arr',
             url_title: 'Läs mer om atrofiska ärr (gropar)',
             url_label: 'Läs mer',
-            image: 'images/symptoms/102x102/atrofiska-arr.webp',
+            image: 'bilder/symptoms/102x102/atrofiska-arr.webp',
             image_alt: 'Bild av atrofiska ärr (gropar)',
             image_title: 'Atrofiska ärr (gropar)'
       ),
@@ -231,8 +231,8 @@ $service = new Service(
       duration: '20 min',
       price: 'Kostnadsfri',
       content: 'Vid ett personligt möte med en specialist inom akneärr utförs en noggrann undersökning av dina ärr. Vi tar före-bilder på de drabbade områdena och diskuterar dina mål och förväntningar. En skräddarsydd behandlingsplan anpassad efter dina individuella behov och ärrets typ rekommenderas.',
-      image_small: 'images/services/200x200/aknearr-konsultation.webp',
-      image_large: 'images/services/200x200/aknearr-konsultation.webp',
+      image_small: 'bilder/services/200x200/aknearr-konsultation.webp',
+      image_large: 'bilder/services/200x200/aknearr-konsultation.webp',
       image_alt: 'Bild av en konsultation för akneärrbehandling',
       image_title: 'Konsultation för akneärrbehandling',
       consultation_url: 'consultation-booking?problem=acneScars',
@@ -256,8 +256,8 @@ $services = array(
             duration: '90 min',
             price: '4595 kr',
             content: 'Laserbehandling mot akneärr är en effektiv metod som använder koncentrerade ljusstrålar för att behandla och minska ärr som orsakats av akne. Genom att stimulera hudens naturliga kollagenproduktion och ta bort skadade hudceller, kan denna behandling jämna ut hudens textur och minska framträdandet av ärr.',
-            image_small: 'images/services/200x200/laserbehandling-aknearr.webp',
-            image_large: 'images/services/200x200/laserbehandling-aknearr.webp',
+            image_small: 'bilder/services/200x200/laserbehandling-aknearr.webp',
+            image_large: 'bilder/services/200x200/laserbehandling-aknearr.webp',
             image_alt: 'Bild av en laserbehandling mot akneärr',
             image_title: 'Laserbehandling mot akneärr',
             consultation_url: 'consultation-booking?problem=acneScars&service=laser',
@@ -275,8 +275,8 @@ $services = array(
             duration: '30 min',
             price: '1995 kr',
             content: 'Kemisk peeling mot akneärr är en framstående behandlingsmetod som används för att förbättra hudens utseende och textur. Denna behandling är särskilt effektiv för ärrtypen fläckar och verkar genom att applicera en kemisk lösning som exfolierar och tar bort det yttersta hudlagret. Detta främjar hudens förnyelse och kan avsevärt minska framträdandet av ärr och fläckar.',
-            image_small: 'images/services/200x200/kemisk-peeling-aknearr.webp',
-            image_large: 'images/services/200x200/kemisk-peeling-aknearr.webp',
+            image_small: 'bilder/services/200x200/kemisk-peeling-aknearr.webp',
+            image_large: 'bilder/services/200x200/kemisk-peeling-aknearr.webp',
             image_alt: 'Bild av en kemisk peeling mot akneärr',
             image_title: 'Kemisk peeling mot akneärr',
             consultation_url: 'consultation-booking?problem=acneScars&service=chemicalPeeling',
@@ -294,8 +294,8 @@ $services = array(
             duration: '60 min',
             price: '2995 kr',
             content: 'Microneedling mot akneärr är en innovativ behandling som särskilt riktar sig till atrofiska ärr. Med hjälp av små, fina nålar skapas kontrollerade mikroskador i huden, vilket stimulerar hudens naturliga läkningsprocess och kollagenproduktion. Detta leder till en jämnare hudtextur och minskat framträdande av atrofiska ärr.',
-            image_small: 'images/services/200x200/microneedling-aknearr.webp',
-            image_large: 'images/services/200x200/microneedling-aknearr.webp',
+            image_small: 'bilder/services/200x200/microneedling-aknearr.webp',
+            image_large: 'bilder/services/200x200/microneedling-aknearr.webp',
             image_alt: 'Bild av en microneedling-behandling mot akneärr',
             image_title: 'Microneedling mot akneärr',
             consultation_url: 'consultation-booking?problem=acneScars&service=microneedling',
@@ -376,7 +376,7 @@ $reviews = array(
       new Review(
             stars: 5,
             brand: 'Trustpilot',
-            logo_url: 'images/brands/trustpilot.svg',
+            logo_url: 'bilder/varumarken/trustpilot.svg',
             title: 'Lasern gjorde susen',
             text: "Var först lite osäker på laserbehandling, men det behövde jag inte vara. Allt förklarades noggrant, och det gjorde inte alls ont. Nu, några veckor senare, är mina akneärr nästan helt borta. Jag är så nöjd och glad över mitt beslut att testa lasern. Tack AcneSpecialisten!",
             signature: 'Lena'
@@ -384,7 +384,7 @@ $reviews = array(
       new Review(
             stars: 5,
             brand: 'Google',
-            logo_url: 'images/brands/google-small.svg',
+            logo_url: 'bilder/varumarken/google-small.svg',
             title: 'Gropar är ett minne blott!',
             text: "Har länge haft problem med gropar i ansiktet från gamla akneärr. Här kände jag mig direkt trygg och omhändertagen. Personalen förklarade allt och resultatet har varit fantastiskt. Jag känner knappt igen mig själv i spegeln. Så tacksam!",
             signature: 'Fredrik'
@@ -392,7 +392,7 @@ $reviews = array(
       new Review(
             stars: 5,
             brand: 'Bokadirekt',
-            logo_url: 'images/brands/bokadirekt-small.svg',
+            logo_url: 'bilder/varumarken/bokadirekt-small.svg',
             title: 'Fläckfri och glad',
             text: "Ingen har kunnat ta hand om mina aknefläckar som AcneSpecialisten. Efter bara några besök märker jag redan stor skillnad. Det är så skönt att veta att jag lämnar salongen med en renare och fräschare hy varje gång. Supertrevlig personal dessutom!",
             signature: 'Gustav'
@@ -490,28 +490,28 @@ $specialists = array(
       new Specialist(
             name: 'Cazzandra Lindberg',
             title: 'Hudterapeut med fokus på akneärr sedan 2015',
-            image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
+            image: 'bilder/specialists/312x312/hudterapeut-cazzandra.webp',
             image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i akneärrbehandling',
             image_title: 'Cazzandra Lindberg - Expert på akneärrbehandling'
       ),
       new Specialist(
             name: 'Veronika Benedik',
             title: 'Hudterapeut med specialisering i akneärr sedan 1999',
-            image: 'images/specialists/312x312/hudterapeut-veronika.webp',
+            image: 'bilder/specialists/312x312/hudterapeut-veronika.webp',
             image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på akneärr',
             image_title: 'Veronika Benedik - Specialist inom akneärrvård'
       ),
       new Specialist(
             name: 'Amira Maqboul',
             title: 'Hudterapeut med inriktning mot akneärr sedan 2017',
-            image: 'images/specialists/312x312/hudterapeut-amira.webp',
+            image: 'bilder/specialists/312x312/hudterapeut-amira.webp',
             image_alt: 'Amira Maqboul, hudterapeut specialiserad på akneärrhantering',
             image_title: 'Amira Maqboul - Hudterapeut specialiserad på akneärr'
       ),
       new Specialist(
             name: 'Vilma Libom',
             title: 'Hudterapeut med specialisering i akneärr sedan 2019',
-            image: 'images/specialists/312x312/hudterapeut-vilma.webp',
+            image: 'bilder/specialists/312x312/hudterapeut-vilma.webp',
             image_alt: 'Vilma Libom, hudterapeut med inriktning mot akneärrbehandling',
             image_title: 'Vilma Libom - Expert inom akneärrbehandling'
       )
@@ -525,7 +525,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Aktiv Akne',
             aka: 'Finnar',
-            image: 'images/problems/102x102/akne.webp',
+            image: 'bilder/problems/102x102/akne.webp',
             image_alt: 'Bild som visar aktiv akne, en vanlig hudåkomma',
             image_title: 'Aktiv Akne - en vanlig hudåkomma',
             url: 'problem/akne',
@@ -535,7 +535,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Rosacea',
             aka: 'ansiktsrodnad',
-            image: 'images/problems/200x200/rosacea.webp',
+            image: 'bilder/problems/200x200/rosacea.webp',
             image_alt: 'Bild som illustrerar rosacea, ett hudtillstånd som kan förväxlas med akne',
             image_title: 'Rosacea - en hudsjukdom som ofta förväxlas med akne',
             url: 'problem/rosacea',
@@ -544,7 +544,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Perioral dermatit',
             aka: 'akne runt munnen',
-            image: 'images/problems/200x200/perioral-dermatit.webp',
+            image: 'bilder/problems/200x200/perioral-dermatit.webp',
             image_alt: 'Bild som skildrar perioral dermatit, en hudåkomma som kan förväxlas med akne',
             image_title: 'Perioral dermatit (acne runt munnen) ett hudproblem liknande akne',
             url: 'perioral-dermatit',
@@ -554,7 +554,7 @@ $related_problems = array(
 $brands = array(
       new Brand(
             label: 'Alma Hybrid CO2',
-            image: 'images/brands/powerlite.svg',
+            image: 'bilder/varumarken/powerlite.svg',
             image_alt: 'Alma hybrid CO2 Laser logo',
             image_title: 'Powerlite - IPL och Laser Teknologi för Hudvård',
             url: 'varumarken/alma-hybrid-co2',
@@ -562,7 +562,7 @@ $brands = array(
       ),
       new Brand(
             label: 'Alma Harmony XL PRO',
-            image: 'images/brands/dermapen4.svg',
+            image: 'bilder/varumarken/dermapen4.svg',
             image_alt: 'Dermapen Brand Logo',
             image_title: 'Dermapen4 - Microneedling Verktyg för Hudföryngring',
             url: 'varumarken/dermapen4',
@@ -570,7 +570,7 @@ $brands = array(
       ),
       new Brand(
             label: 'SkinTech',
-            image: 'images/brands/cryopen.svg',
+            image: 'bilder/varumarken/cryopen.svg',
             image_alt: 'Cryopen Brand Logo',
             image_title: 'Cryopen - Kryoterapi Verktyg för Hudbehandlingar',
             url: 'varumarken/cryopen',
@@ -578,7 +578,7 @@ $brands = array(
       ),
       new Brand(
             label: 'Dermapen',
-            image: 'images/brands/dermapen4.svg',
+            image: 'bilder/varumarken/dermapen4.svg',
             image_alt: 'Dermapen Brand Logo',
             image_title: 'Dermapen4 - Microneedling Verktyg för Hudföryngring',
             url: 'varumarken/dermapen4',
@@ -586,7 +586,7 @@ $brands = array(
       ),
       new Brand(
             label: 'Alma',
-            image: 'images/brands/alma.svg',
+            image: 'bilder/varumarken/alma.svg',
             image_alt: 'Alma Brand Logo',
             image_title: 'Alma - Laser, IPL och RF (Radiofrekvens) Teknologi för Hudföryngring',
             url: 'varumarken/alma',
@@ -594,7 +594,7 @@ $brands = array(
       ),
       new Brand(
             label: 'PRX-T33',
-            image: 'images/brands/prxt.svg',
+            image: 'bilder/varumarken/prxt.svg',
             image_alt: 'PRX-T33 Brand Logo',
             image_title: 'PRX-T33 - Bio-revitaliserande Hudbehandlingsteknik',
             url: 'varumarken/prxt',
@@ -602,7 +602,7 @@ $brands = array(
       ),
       new Brand(
             label: 'Hydrafacial',
-            image: 'images/brands/hydrafacial.svg',
+            image: 'bilder/varumarken/hydrafacial.svg',
             image_alt: 'Hydrafacial Brand Logo',
             image_title: 'Hydrafacial - Intensiv Hydrering och Rengöring Behandlingar för Hudvård',
             url: 'varumarken/hydrafacial',
@@ -610,7 +610,7 @@ $brands = array(
       ),
       new Brand(
             label: 'Infuzion',
-            image: 'images/brands/ipinfusion.svg',
+            image: 'bilder/varumarken/ipinfusion.svg',
             image_alt: 'Infuzion Brand Logo',
             image_title: 'Infuzion - Hudföryngring och Näringsinfusion System för Hudvård',
             url: 'varumarken/infuzion',
@@ -753,7 +753,7 @@ $brands_url_title = "Varumärken för akneärr";
                               <h2 class="h500 l10n"><?php echo $about_title ?></h2>
                               <?php foreach ($trivias as $trivia) {
                                     echo '<hr>';
-                                    include('../widgets/problem-trivia-card/problem-trivia-card.php');
+                                    include('problem/widgets/problem-trivia-card/problem-trivia-card.php');
                               } ?>
                               <hr>
                         </section>
@@ -785,7 +785,7 @@ $brands_url_title = "Varumärken för akneärr";
                                     <div class="columns is-multiline is-variable is-3" id="symptom-cards">
                                           <?php foreach ($symptoms as $symptom) { ?>
                                                 <div class="column is-half">
-                                                      <?php include('../widgets/symptom-card/symptom-card.php'); ?>
+                                                      <?php include('problem/widgets/symptom-card/symptom-card.php'); ?>
                                                 </div>
                                           <?php } ?>
                                     </div>
@@ -868,7 +868,7 @@ $brands_url_title = "Varumärken för akneärr";
                               <dig class="columns is-variable is-0-mobile is-3-tablet is-multiline">
                                     <?php foreach ($related_problems as $problem) { ?>
                                           <div class="column is-half">
-                                                <?php include('../widgets/related-problem-card/related-problem-card.php'); ?>
+                                                <?php include('problem/widgets/related-problem-card/related-problem-card.php'); ?>
                                           </div>
                                     <?php } ?>
                               </dig>
