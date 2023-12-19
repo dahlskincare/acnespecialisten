@@ -18,7 +18,7 @@ $model = new Service(
     image_large: 'bilder/behandlingar/424x456/dermabrasion.webp',
     image_alt: 'Dermabrasion',
     image_title: 'Dermabrasion',
-    consultation_url: 'https://bokadirekt.se',
+    consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Dermabrasion',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
     booking_url: 'https://acnespecialisten.se/book?flow=dermabrasion',
@@ -99,6 +99,44 @@ $types_title = 'Dermabrasion och tillval';
 $types_description = 'Dermabrasion är en effektiv behandling som anpassas efter dina behov.';
 $big_types = array(
     new Service(
+        title: 'MicroDermabrasion',
+        duration: '40 min',
+        price: null,
+        content: '<p class="p200">Vår microdermabrasion-behandling är en effektiv metod för att förbättra hudens utseende och struktur. Anpassad för flera hudtyper, använder denna behandling varsam exfoliering för att ta bort döda hudceller från det yttersta hudlagret. Genom att stimulera hudens förnyelseprocess, kan behandlingen minska synligheten av ärr, fina linjer och hyperpigmentering, och lämnar huden jämnare och mer strålande.</p>
+        <p class="p200 mt-m">Behandlingen inleds med en grundlig rengöring, följt av exfoliering med specialutrustning och avslutas med en återfuktande och lugnande eftervård. Vi erbjuder också en skräddarsydd eftervårdsplan för att maximera och förlänga effekterna av behandlingen.</p>',
+        image_small: 'https://via.placeholder.com/358x274.webp',
+        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_alt: 'Dermabrasion',
+        image_title: 'Dermabrasion',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_MicroDermabrasion',
+        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://acnespecialisten.se/book?flow=dermabrasion&method=Method_MicroDermabrasion',
+        booking_url_label: 'Boka behandling',
+        booking_url_title: 'Boka behandling',
+        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
+        procedures: array(
+            new Procedure(
+                label: '1 behandling',
+                price: '1595 kr',
+                savings: null,
+                booking_url: 'https://acnespecialisten.se/book?flow=dermabrasion&method=Method_MicroDermabrasion&type=Microdermabrasion_1xArea&procedures=PriceClass_5_Procedure_1'
+            ),
+            new Procedure(
+                label: '3 behandlingar',
+                price: '3995 kr',
+                savings: 'Spara 790 kr',
+                booking_url: 'https://acnespecialisten.se/book?flow=dermabrasion&method=Method_MicroDermabrasion&type=Microdermabrasion_1xArea&procedures=PriceClass_5_Procedure_3'
+            ),
+            new Procedure(
+                label: '5 behandlingar',
+                savings: '5995 kr',
+                price: 'Spara 1980 kr',
+                booking_url: 'https://acnespecialisten.se/book?flow=dermabrasion&method=Method_MicroDermabrasion&type=Microdermabrasion_1xArea&procedures=PriceClass_5_Procedure_5'
+            )
+        )
+    ),
+    new Service(
         title: 'Dermabrasion',
         duration: '40 min',
         price: null,
@@ -109,10 +147,10 @@ $big_types = array(
         image_large: 'https://via.placeholder.com/872x456.webp',
         image_alt: 'Dermabrasion',
         image_title: 'Dermabrasion',
-        consultation_url: 'gratis-hudkonsultation',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Dermabrasion',
         consultation_url_label: 'Boka tid för hudkonsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/',
+        booking_url: 'https://acnespecialisten.se/book?flow=dermabrasion&method=Brand_HydraFacial&type=Hydrafacial_Standard',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka behandling',
         icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
@@ -121,19 +159,19 @@ $big_types = array(
                 label: '1 behandling',
                 price: '1595 kr',
                 savings: null,
-                booking_url: 'https://www.bokadirekt.se'
+                booking_url: 'https://acnespecialisten.se/book?flow=dermabrasion&method=Brand_HydraFacial&type=Hydrafacial_Standard&procedures=PriceClass_4_Procedure_1'
             ),
             new Procedure(
                 label: '3 behandlingar',
                 price: '3995 kr',
                 savings: 'Spara 790 kr',
-                booking_url: 'https://www.bokadirekt.se'
+                booking_url: 'https://acnespecialisten.se/book?flow=dermabrasion&method=Brand_HydraFacial&type=Hydrafacial_Standard&procedures=PriceClass_4_Procedure_3'
             ),
             new Procedure(
                 label: '5 behandlingar',
                 savings: '5995 kr',
                 price: 'Spara 1980 kr',
-                booking_url: 'https://www.bokadirekt.se'
+                booking_url: 'https://acnespecialisten.se/book?flow=dermabrasion&method=Brand_HydraFacial&type=Hydrafacial_Standard&procedures=PriceClass_4_Procedure_5'
             )
         )
     ),
@@ -148,10 +186,10 @@ $big_types = array(
         image_large: 'https://via.placeholder.com/872x456.webp',
         image_alt: 'Dermabrasion - Dermabuilder Serum - Boost & Glow',
         image_title: 'Dermabrasion - Dermabuilder Serum - Boost & Glow',
-        consultation_url: 'gratis-hudkonsultation',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_HydroDermabrasion',
         consultation_url_label: 'Boka tid för hudkonsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/',
+        booking_url: 'https://acnespecialisten.se/book?flow=dermabrasion&method=Brand_HydraFacial&type=Hydrafacial_Boost_Glow',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka behandling',
         icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
@@ -160,19 +198,19 @@ $big_types = array(
                 label: '1 behandling',
                 price: '1995 kr',
                 savings: null,
-                booking_url: 'https://www.bokadirekt.se'
+                booking_url: 'https://acnespecialisten.se/book?flow=dermabrasion&method=Brand_HydraFacial&type=Hydrafacial_Boost_Glow&procedures=PriceClass_5_Procedure_1'
             ),
             new Procedure(
                 label: '3 behandlingar',
                 price: '4995 kr',
                 savings: 'Spara 990 kr',
-                booking_url: 'https://www.bokadirekt.se'
+                booking_url: 'https://acnespecialisten.se/book?flow=dermabrasion&method=Brand_HydraFacial&type=Hydrafacial_Boost_Glow&procedures=PriceClass_5_Procedure_3'
             ),
             new Procedure(
                 label: '5 behandlingar',
                 savings: '7995 kr',
                 price: 'Spara 1980 kr',
-                booking_url: 'https://www.bokadirekt.se'
+                booking_url: 'https://acnespecialisten.se/book?flow=dermabrasion&method=Brand_HydraFacial&type=Hydrafacial_Boost_Glow&procedures=PriceClass_5_Procedure_5'
             )
         )
     ),
@@ -187,10 +225,10 @@ $big_types = array(
         image_large: 'https://via.placeholder.com/872x456.webp',
         image_alt: 'Dermabrasion - Glycal Acid Peel - Mot Pormaskar',
         image_title: 'Dermabrasion - Glycal Acid Peel - Mot Pormaskar',
-        consultation_url: 'gratis-hudkonsultation',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_HydroDermabrasion',
         consultation_url_label: 'Boka tid för hudkonsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/',
+        booking_url: 'https://acnespecialisten.se/book?flow=dermabrasion&method=Brand_HydraFacial&type=Hydrafacial_Pore_Minimizer',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka behandling',
         icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
@@ -199,19 +237,19 @@ $big_types = array(
                 label: '1 behandling',
                 price: '1995 kr',
                 savings: null,
-                booking_url: 'https://www.bokadirekt.se'
+                booking_url: 'https://acnespecialisten.se/book?flow=dermabrasion&method=Brand_HydraFacial&type=Hydrafacial_Pore_Minimizer'
             ),
             new Procedure(
                 label: '3 behandlingar',
                 price: '4995 kr',
                 savings: 'Spara 990 kr',
-                booking_url: 'https://www.bokadirekt.se'
+                booking_url: 'https://acnespecialisten.se/book?flow=dermabrasion&method=Brand_HydraFacial&type=Hydrafacial_Pore_Minimizer'
             ),
             new Procedure(
                 label: '5 behandlingar',
                 savings: '7995 kr',
                 price: 'Spara 1980 kr',
-                booking_url: 'https://www.bokadirekt.se'
+                booking_url: 'https://acnespecialisten.se/book?flow=dermabrasion&method=Brand_HydraFacial&type=Hydrafacial_Pore_Minimizer'
             )
         )
     ),

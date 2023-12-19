@@ -111,7 +111,7 @@ $types = array(
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_FreezeTreatment',
         consultation_url_label: 'Boka konsultation för behandling av ansiktsvårtor',
         consultation_url_title: 'Boka konsultation för behandling av ansiktsvårtor',
-        booking_url: 'https://www.bokadirekt.se/',
+        booking_url: 'https://acnespecialisten.se/book?flow=cryopen&problem=Problem_nevus',
         booking_url_label: 'Boka frysbehandling för ansiktsvårtor',
         booking_url_title: 'Boka frysbehandling för ansiktsvårtor',
     ),
@@ -346,7 +346,7 @@ $treatment_areas = array(
                 title: 'Återbesökt',
                 duration: '20 min',
                 price: 'Från 250 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=cryopen&skipable_problem=Cryopen_aterbesok',
                 url_label: 'Boka',
                 url_title: 'Boka tid förfrysbehandling'
             ),
