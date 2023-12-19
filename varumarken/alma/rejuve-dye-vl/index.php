@@ -306,7 +306,7 @@ $treatment_areas = array(
                 title: '1x zon',
                 duration: '20 min',
                 price: '1595 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=almarejuve&skipable_problem=SKIP&area=IPL_1xZone',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 1 zon.'
             ),
@@ -328,7 +328,7 @@ $treatment_areas = array(
                 title: '1x område',
                 duration: '50 min',
                 price: '2595 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=almarejuve&skipable_problem=SKIP&area=IPL_1xArea',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 1 område.'
             ),

@@ -222,23 +222,6 @@ $types = array(
     ),
 
     new Service(
-        title: 'Harmony XL Pro mot Hudutväxter',
-        duration: '30 minuter',
-        price: '1595 kr',
-        content: 'Harmony XL Pro-lasern erbjuder en säker och skonsam metod för att effektivt ta bort hudutväxter, med minimal risk för ärrbildning och med en snabb återhämtning.',
-        image_small: 'https://via.placeholder.com/102x102.jpg',
-        image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Harmony XL Pro mot Hudutväxter',
-        image_title: 'Harmony XL Pro mot Hudutväxter',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_HarmonyXLPRO',
-        consultation_url_label: 'Boka gratis konsultation',
-        consultation_url_title: 'Boka gratis konsultation',
-        booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka Harmony XL Pro mot Hudutväxter',
-        booking_url_title: 'Boka Harmony XL Pro mot Hudutväxter',
-    ),
-
-    new Service(
         title: 'Harmony XL Pro för Hudföryngring (Skin Rejuvenation)',
         duration: '60 minuter',
         price: '4000 kr',
@@ -250,7 +233,7 @@ $types = array(
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_HarmonyXLPRO',
         consultation_url_label: 'Boka gratis konsultation för hudföryngring',
         consultation_url_title: 'Boka gratis konsultation för hudföryngring',
-        booking_url: 'https://www.bokadirekt.se/',
+        booking_url: 'https://acnespecialisten.se/book?flow=almaharmony&skipable_problem=SKIP&area=Service_Laser_Harmony_Skin_Rejuvenation',
         booking_url_label: 'Boka Harmony XL Pro för hudföryngring',
         booking_url_title: 'Boka Harmony XL Pro för hudföryngring',
     ),
@@ -274,7 +257,7 @@ $treatment_areas = array(
                 title: 'Ansikte',
                 duration: '90 min',
                 price: '4595 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=almaharmony&skipable_problem=SKIP&area=IPL_Face',
                 url_label: 'Boka',
                 url_title: 'Boka tid för ansiktsbehandling'
             ),
@@ -285,7 +268,7 @@ $treatment_areas = array(
                 title: 'Hals',
                 duration: '90 min',
                 price: '4595 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=almaharmony&skipable_problem=SKIP&area=IPL_Neck',
                 url_label: 'Boka',
                 url_title: 'Boka tid för halsbehandling'
             ),
@@ -296,7 +279,7 @@ $treatment_areas = array(
                 title: 'Dekolletage',
                 duration: '90 min',
                 price: '4595 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=almaharmony&skipable_problem=SKIP&area=IPL_Decolletage',
                 url_label: 'Boka',
                 url_title: 'Boka tid för dekolletagebehandling'
             ),
@@ -307,7 +290,7 @@ $treatment_areas = array(
                 title: 'Rygg',
                 duration: '90 min',
                 price: '4595 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=almaharmony&skipable_problem=SKIP&area=Laser_Back',
                 url_label: 'Boka',
                 url_title: 'Boka tid för ryggbehandling'
             ),
@@ -318,7 +301,7 @@ $treatment_areas = array(
                 title: 'Händer',
                 duration: '90 min',
                 price: '4595 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=almaharmony&skipable_problem=SKIP&area=IPL_Hands',
                 url_label: 'Boka',
                 url_title: 'Boka tid för handbehandling'
             ),
@@ -340,7 +323,7 @@ $treatment_areas = array(
                 title: '1x område',
                 duration: '90 min',
                 price: '4595 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=almaharmony&skipable_problem=SKIP&area=Laser_1xArea',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 1 område.'
             ),
@@ -351,7 +334,7 @@ $treatment_areas = array(
                 title: '2x områden',
                 duration: '100 min',
                 price: '5595 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=almaharmony&skipable_problem=SKIP&area=IPL_2xAreas',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 2 områden.'
             ),
@@ -362,7 +345,7 @@ $treatment_areas = array(
                 title: '3x områden',
                 duration: '110 min',
                 price: '6595 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=almaharmony&skipable_problem=SKIP&area=IPL_3xAreas',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 3 områden.'
             ),

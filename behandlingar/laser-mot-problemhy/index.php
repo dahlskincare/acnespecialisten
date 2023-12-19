@@ -437,7 +437,7 @@ $treatment_areas = array(
                 title: '1x område',
                 duration: '90 min',
                 price: '4595 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=SKIP&area=Laser_1xArea',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 1 område.'
             ),

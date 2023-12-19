@@ -350,7 +350,7 @@ $treatment_areas = array(
                 title: '1x områdes',
                 duration: '50 min',
                 price: '2595 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=SKIP&area=Microneedling_1xArea',
                 url_label: 'Boka',
                 url_title: 'Boka tid för halsbehandling'
             ),
