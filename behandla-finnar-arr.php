@@ -420,7 +420,7 @@ $brands_url_title = "Varumärken för behandling av ärr från finnar";
             <div id="green-header-small" class="is-hidden-desktop">
                 <div class="container">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
-                    <h1 class="mt-xs h600">
+                    <h1 class="h600">
                         <?php echo $title ?>
                     </h1>
                     <p class="mt-xs">
@@ -505,20 +505,6 @@ $brands_url_title = "Varumärken för behandling av ärr från finnar";
                         } ?>
                     </section>
                 <?php } ?>
-                <section id="repair">
-                    <h2 class="h500 l10n"><?php echo $headline04 ?></h2>
-                    <picture>
-                        <source media="(max-width: 799px)" srcset="<?php echo $repair_image_small ?>">
-                        <source media="(min-width: 800px)" srcset="<?php echo $repair_image_large ?>">
-                        <img src="<?php echo $repair_image_large ?>" alt="<?php echo $repair_title ?>" title="<?php echo $repair_title ?>" class=" mt-xl" width="872" height="456" />
-                    </picture>
-                    <div class="mt-xl"><?php echo $repair_content ?></div>
-                    <a href="<?php echo $repair_url ?>" title="<?php echo $repair_url_title ?>" class="mt-xl button outline b200 expand is-hidden-tablet l10n"><?php echo $repair_url_label ?></a>
-                    <a href="<?php echo $repair_url ?>" title="<?php echo $repair_url_title ?>" class="mt-xl button compact text b200 is-hidden-mobile">
-                        <span class="l10n"><?php echo $repair_url_label ?></span>
-                        <?php icon('navigate-next'); ?>
-                    </a>
-                </section>
                 <section id="results">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php'); ?>
                 </section>

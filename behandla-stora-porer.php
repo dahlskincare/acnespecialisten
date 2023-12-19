@@ -454,7 +454,7 @@ $brands_url_title = "Varumärken för behandling av Stora porer";
             <div id="green-header-small" class="is-hidden-desktop">
                 <div class="container">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
-                    <h1 class="mt-xs h600">
+                    <h1 class="h600">
                         <?php echo $title ?>
                     </h1>
                     <p class="mt-xs">
@@ -535,7 +535,7 @@ $brands_url_title = "Varumärken för behandling av Stora porer";
                     <section id="prevent">
                         <h2 class="h500 l10n"><?php echo $headline03 ?></h2>
                         <?php foreach ($products as $product) {
-                            include('../../widgets/product-card/product-card.php');
+                            include('problem/widgets/product-card/product-card.php');
                         } ?>
                     </section>
                 <?php } ?>

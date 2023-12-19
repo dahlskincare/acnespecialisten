@@ -151,10 +151,10 @@ $pages = sizeof($results_per_page);
         <div class="container">
             <section id="cards">
                 <?php foreach ($results_per_page[$page] as $result_customer) { ?>
-                    <?php include('../widgets/result_customer_card/result_customer_card.php'); ?>
+                    <?php include('resultat/widgets/result_customer_card/result_customer_card.php'); ?>
                 <?php } ?>
                 <div id="paginator">
-                    <?php include('../../hudguide/widgets/paginator/paginator.php'); ?>
+                    <?php include('hudguide/widgets/paginator/paginator.php'); ?>
                 </div>
             </section>
             <section id="cta-banner" class="large-margin">

@@ -1,8 +1,8 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
-include_once('../widgets/problem-trivia-card/problem-trivia.php');
-include_once('../widgets/symptom-card/symptom.php');
-include_once('../widgets/related-problem-card/related-problem.php');
+include_once('problem/widgets/problem-trivia-card/problem-trivia.php');
+include_once('problem/widgets/symptom-card/symptom.php');
+include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Allt om Ärr från Finnar - Behandlingsmetoder, Orsaker och Hur Man Förebygger | Acnespecialisten';
@@ -759,7 +759,7 @@ $brands_url_title = "Varumärken för ärr";
                               <h2 class="h500 l10n"><?php echo $about_title ?></h2>
                               <?php foreach ($trivias as $trivia) {
                                     echo '<hr>';
-                                    include('../widgets/problem-trivia-card/problem-trivia-card.php');
+                                    include('problem/widgets/problem-trivia-card/problem-trivia-card.php');
                               } ?>
                               <hr>
                         </section>
@@ -791,7 +791,7 @@ $brands_url_title = "Varumärken för ärr";
                                     <div class="columns is-multiline is-variable is-3" id="symptom-cards">
                                           <?php foreach ($symptoms as $symptom) { ?>
                                                 <div class="column is-half">
-                                                      <?php include('../widgets/symptom-card/symptom-card.php'); ?>
+                                                      <?php include('problem/widgets/symptom-card/symptom-card.php'); ?>
                                                 </div>
                                           <?php } ?>
                                     </div>
@@ -874,7 +874,7 @@ $brands_url_title = "Varumärken för ärr";
                               <dig class="columns is-variable is-0-mobile is-3-tablet is-multiline">
                                     <?php foreach ($related_problems as $problem) { ?>
                                           <div class="column is-half">
-                                                <?php include('../widgets/related-problem-card/related-problem-card.php'); ?>
+                                                <?php include('problem/widgets/related-problem-card/related-problem-card.php'); ?>
                                           </div>
                                     <?php } ?>
                               </dig>

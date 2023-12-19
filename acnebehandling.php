@@ -363,7 +363,7 @@ $specialists = array(
     )
 );
 
-$specialist_url_label = "Se alla specialister hej hej hej";
+$specialist_url_label = "Se alla specialister";
 $specialist_url_title = "Akne Specialiserade Hudterapeuter";
 
 $brands = array(
@@ -559,7 +559,7 @@ $brands_url_title = "Varumärken för Aknebehandling";
                     <section id="prevent">
                         <h2 class="h500 l10n"><?php echo $headline03 ?></h2>
                         <?php foreach ($products as $product) {
-                            include('../../widgets/product-card/product-card.php');
+                            include('problem/widgets/product-card/product-card.php');
                         } ?>
                     </section>
                 <?php } ?>

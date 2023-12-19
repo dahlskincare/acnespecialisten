@@ -1,6 +1,6 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
-include_once('models.php');
+include_once('gratis-hudkonsultation/models.php');
 
 $nav_buttons = array(
     'about' => 'Översikt',
@@ -219,7 +219,7 @@ $categories = array(
                     <h2 class="h500 mb-xs l10n">Konsultations typer</h2>
                     <hr class="is-hidden-desktop" />
                     <?php foreach ($categories as $category) { ?>
-                        <?php include('widgets/consultation_category/consultation_category.php') ?>
+                        <?php include('gratis-hudkonsultation/widgets/consultation_category/consultation_category.php') ?>
                         <hr class="is-hidden-desktop" />
                     <?php } ?>
                 </section>

@@ -1,8 +1,8 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
-include_once('../widgets/problem-trivia-card/problem-trivia.php');
-include_once('../widgets/symptom-card/symptom.php');
-include_once('../widgets/related-problem-card/related-problem.php');
+include_once('problem/widgets/problem-trivia-card/problem-trivia.php');
+include_once('problem/widgets/symptom-card/symptom.php');
+include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Allt om Stora Porer - Orsaker, Behandling och Råd | Acnespecialisten';
@@ -810,7 +810,7 @@ $brands_url_title = "Varumärken för behandling av stora porer";
                               <h2 class="h500 l10n"><?php echo $about_title ?></h2>
                               <?php foreach ($trivias as $trivia) {
                                     echo '<hr>';
-                                    include('../widgets/problem-trivia-card/problem-trivia-card.php');
+                                    include('problem/widgets/problem-trivia-card/problem-trivia-card.php');
                               } ?>
                               <hr>
                         </section>
@@ -841,7 +841,7 @@ $brands_url_title = "Varumärken för behandling av stora porer";
                                     <div class="columns is-multiline is-variable is-3" id="symptom-cards">
                                           <?php foreach ($symptoms as $symptom) { ?>
                                                 <div class="column is-half">
-                                                      <?php include('../widgets/symptom-card/symptom-card.php'); ?>
+                                                      <?php include('problem/widgets/symptom-card/symptom-card.php'); ?>
                                                 </div>
                                           <?php } ?>
                                     </div>
@@ -865,14 +865,6 @@ $brands_url_title = "Varumärken för behandling av stora porer";
                               <h2 class="h500"><?php echo $headline03 ?></h2>
                               <hr class="is-hidden-mobile mt-xl">
                               <?php foreach ($products as $service) { ?>
-                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
-                                    <hr class="is-hidden-mobile mb-xxl">
-                              <?php } ?>
-                        </section>
-                        <section id="treatment-solutions">
-                              <h2 class="h500"><?php echo $headline04 ?></h2>
-                              <hr class="is-hidden-mobile mt-xl">
-                              <?php foreach ($procedures as $service) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
                                     <hr class="is-hidden-mobile mb-xxl">
                               <?php } ?>
@@ -934,7 +926,7 @@ $brands_url_title = "Varumärken för behandling av stora porer";
                               <dig class="columns is-variable is-0-mobile is-3-tablet is-multiline">
                                     <?php foreach ($related_problems as $problem) { ?>
                                           <div class="column is-half">
-                                                <?php include('../widgets/related-problem-card/related-problem-card.php'); ?>
+                                                <?php include('problem/widgets/related-problem-card/related-problem-card.php'); ?>
                                           </div>
                                     <?php } ?>
                               </dig>

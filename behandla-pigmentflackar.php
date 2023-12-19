@@ -419,7 +419,7 @@ $brands_url_title = "Varumärken för pigmentfläcksbehandling";
             <div id="green-header-small" class="is-hidden-desktop">
                 <div class="container">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
-                    <h1 class="mt-xs h600">
+                    <h1 class="h600">
                         <?php echo $title ?>
                     </h1>
                     <p class="mt-xs">
