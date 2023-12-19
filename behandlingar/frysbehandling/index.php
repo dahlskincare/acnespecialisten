@@ -291,7 +291,7 @@ $treatment_areas = array(
                 title: '2 - 3 st',
                 duration: '20 min',
                 price: '1595 kr',
-                url: 'https://acnespecialisten.se/book?flow=cryopen&problem=SKIP&quantity=PriceClass_Skin_Imperfections_2-3',
+                url: 'https://acnespecialisten.se/book?flow=cryopen&problem=SKIP&quantity=PriceClass_Skin_Imperfections_1',
                 url_label: 'Boka',
                 url_title: 'Boka tid förfrysbehandling'
             ),

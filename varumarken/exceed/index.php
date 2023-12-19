@@ -19,7 +19,7 @@ $model = new Service(
     image_large: 'https://via.placeholder.com/424x456.webp',
     image_alt: 'Ansiktsbehandlingar för problemhy',
     image_title: 'Ansiktsbehandlingar för problemhy',
-    consultation_url: 'https://bokadirekt.se',
+    consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Exceed',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
     booking_url: 'https://bokadirekt.se',
@@ -116,225 +116,9 @@ $top_articles = array(
     ),
 );
 
-$types_title = 'Hudåkommor som Exceed kan adressera';
-$types_description = 'Exceed systematiskt tar itu med en bred spektrum av hudutmaningar genom att initiera hudens inre läkningsmekanismer med dess mikronålsteknologi. Denna metod framkallar små, precisa perforeringar i huden, vilket kickstartar kroppens egna reparerande processer och stimulerar produktionen av kollagen och elastin. Exceeds förmåga att penetrera hudens djupare lager gör det möjligt att signifikant förbättra olika typer av hudproblem. Upptäck de hudåkommor som Exceed effektivt kan minska och föryngra här.';
-$types = array(
-    new Service(
-        title: 'Exceed för Aktiv Acne',
-        duration: '50 minuter',
-        price: '2595 kr',
-        content: 'Genom en innovativ användning av mikronålar aktiverar Exceed behandlingen hudens självläkande mekanismer, vilket minskar inflammationen som är förknippad med aktiv acne och bidrar till att förebygga nya utbrott.',
-        image_small: 'https://via.placeholder.com/102x102.jpg',
-        image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Exceed för Aktiv Acne',
-        image_title: 'Exceed för Aktiv Acne',
-        consultation_url: 'konsultation-aktiv-acne',
-        consultation_url_label: 'Boka konsultation för behandling av aktiv acne',
-        consultation_url_title: 'Boka konsultation för behandling av aktiv acne',
-        booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka Exceed för aktiv acne',
-        booking_url_title: 'Boka Exceed för aktiv acne',
-    ),
-
-    new Service(
-        title: 'Exceed för Acneärr',
-        duration: '50 minuter',
-        price: '2595 kr',
-        content: 'Exceed-terapi för acneärr använder precisionsmikronålar för att inducera minimala hudskador, vilket startar kroppens läkande processer och stimulerar ny kollagenbildning för att mjuka upp ärrvävnad och förbättra hudens textur.',
-        image_small: 'https://via.placeholder.com/102x102.jpg',
-        image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Exceed för Acneärr',
-        image_title: 'Exceed för Acneärr',
-        consultation_url: 'konsultation-acnearr',
-        consultation_url_label: 'Boka konsultation för behandling av acneärr',
-        consultation_url_title: 'Boka konsultation för behandling av acneärr',
-        booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka Exceed för acneärr',
-        booking_url_title: 'Boka Exceed för acneärr',
-    ),
-
-    new Service(
-        title: 'Exceed för Rynkor & Fina Linjer',
-        duration: '50 minuter',
-        price: '2595 kr',
-        content: 'Exceed-behandling för rynkor och fina linjer tillämpar mikronålingsteknik för att kickstarta hudens föryngringsmekanismer, vilket leder till en förhöjd kollagenproduktion och ger en slätare, föryngrad hud.',
-        image_small: 'https://via.placeholder.com/102x102.jpg',
-        image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Exceed för Rynkor & Fina Linjer',
-        image_title: 'Exceed för Rynkor & Fina Linjer',
-        consultation_url: 'konsultation-rynkor-fina-linjer',
-        consultation_url_label: 'Boka konsultation för behandling av rynkor och fina linjer',
-        consultation_url_title: 'Boka konsultation för behandling av rynkor och fina linjer',
-        booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka Exceed för rynkor & fina linjer',
-        booking_url_title: 'Boka Exceed för rynkor & fina linjer',
-    ),
-
-    new Service(
-        title: 'Exceed för Stora Porer',
-        duration: '50 minuter',
-        price: '2595 kr',
-        content: 'Exceed-metoden för stora porer riktar sig in på hudens djupare lager för att stimulera kollagenförnyelse, vilket effektivt kan minska synligheten av stora porer och förfina hudens övergripande struktur.',
-        image_small: 'https://via.placeholder.com/102x102.jpg',
-        image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Exceed för Stora Porer',
-        image_title: 'Exceed för Stora Porer',
-        consultation_url: 'konsultation-stora-porer',
-        consultation_url_label: 'Boka konsultation för behandling av stora porer',
-        consultation_url_title: 'Boka konsultation för behandling av stora porer',
-        booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka Exceed för stora porer',
-        booking_url_title: 'Boka Exceed för stora porer',
-    ),
-
-    new Service(
-        title: 'Exceed för Pigmentfläckar',
-        duration: '50 minuter',
-        price: '2595 kr',
-        content: 'Exceed-behandling för pigmentfläckar optimerar hudens naturliga förnyelsecykel och stödjer nedbrytningen av pigmentkoncentrationer, vilket resulterar i en jämnare hudton och ljusare pigmentfläckar.',
-        image_small: 'https://via.placeholder.com/102x102.jpg',
-        image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Exceed för Pigmentfläckar',
-        image_title: 'Exceed för Pigmentfläckar',
-        consultation_url: 'konsultation-pigmentflackar',
-        consultation_url_label: 'Boka konsultation för behandling av pigmentfläckar',
-        consultation_url_title: 'Boka konsultation för behandling av pigmentfläckar',
-        booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka Exceed för pigmentfläckar',
-        booking_url_title: 'Boka Exceed för pigmentfläckar',
-    ),
-
-    new Service(
-        title: 'Exceed för Bristningar',
-        duration: '50 minuter',
-        price: '2595 kr',
-        content: 'Exceed-behandling mot bristningar vitaliserar hudens egen reparationsförmåga och kollagen- samt elastinproduktion, vilket effektivt kan minska synligheten av bristningar och förbättra hudens textur och elasticitet.',
-        image_small: 'https://via.placeholder.com/102x102.jpg',
-        image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Exceed för Bristningar',
-        image_title: 'Exceed för Bristningar',
-        consultation_url: 'konsultation-bristningar',
-        consultation_url_label: 'Boka konsultation för behandling av bristningar',
-        consultation_url_title: 'Boka konsultation för behandling av bristningar',
-        booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka Exceed för bristningar',
-        booking_url_title: 'Boka Exceed för bristningar',
-    ),
-
-);
-
 $treatment_areas_title = 'Områden som förbättras med Exceed';
 $treatment_areas_text = '<p class="p200">Exceed erbjuder anpassningsbar behandling för diverse områden inklusive ansiktet, nacken, dekolletaget och andra kroppsdelar. Denna teknik är expert på att förbättra hudens textur och ge en ökad lyster genom att aktivera kollagenproduktionen och stödja naturliga läkningsprocesser, skräddarsydd för varje specifikt hudområde.</p>';
 $treatment_areas = array(
-    new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
-        image_alt: 'Ansikte',
-        image_title: 'Ansikte',
-        title: 'Ansikte',
-        description: '<p class="p200">Exceed förfinar och revitaliserar ansiktshuden och kan appliceras över hela ansiktet eller riktas mot specifika områden efter behov.</p>',
-        items: array(
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webp',
-                image_alt: 'Ansikte',
-                image_title: 'Ansikte',
-                title: 'Ansikte',
-                duration: '50 min',
-                price: '2595 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för ansiktsbehandling'
-            ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webp',
-                image_alt: 'Näsa',
-                image_title: 'Näsa',
-                title: 'Näsa',
-                duration: '30 min',
-                price: '1295 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för näsbehandling'
-            ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webp',
-                image_alt: 'Kinder',
-                image_title: 'Kinder',
-                title: 'Kinder',
-                duration: '30 min',
-                price: '1295 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för kindbehandling'
-            ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webp',
-                image_alt: 'Överläpp',
-                image_title: 'Överläpp',
-                title: 'Överläpp',
-                duration: '30 min',
-                price: '1295 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för överläppsbehandling'
-            ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webp',
-                image_alt: 'Haka',
-                image_title: 'Haka',
-                title: 'Haka',
-                duration: '30 min',
-                price: '1295 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för hakbehandling'
-            ),
-
-        )
-    ),
-    new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
-        image_alt: 'Kropp',
-        image_title: 'Kropp',
-        title: 'Kropp',
-        description: '<p class="p200">Exceed är flexibel och kan skräddarsys för att behandla många olika delar av kroppen.</p>',
-        items: array(
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
-                image_alt: 'Hals',
-                image_title: 'Hals',
-                title: 'Hals',
-                duration: '50 min',
-                price: '2595 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för halsbehandling'
-            ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
-                image_alt: 'Dekolletage',
-                image_title: 'Dekolletage',
-                title: 'Dekolletage',
-                duration: '50 min',
-                price: '2595 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för dekolletagebehandling'
-            ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
-                image_alt: 'Rygg',
-                image_title: 'Rygg',
-                title: 'Rygg',
-                duration: '50 min',
-                price: '2595 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för ryggbehandling'
-            ),
-        )
-    ),
     new TreatmentArea(
         image_small: 'https://via.placeholder.com/361x274.webm',
         image_large: 'https://via.placeholder.com/872x456.webm',
@@ -345,14 +129,36 @@ $treatment_areas = array(
         items: array(
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: '1x zon',
+                image_title: '1x zon',
+                title: '1x zon',
+                duration: '20 min',
+                price: '1595 kr',
+                url: 'https://acnespecialisten.se/book?flow=exceed&area=Microneedling_1xZone',
+                url_label: 'Boka',
+                url_title: 'Boka tid för 1 zon'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
+                image_alt: '2x zon',
+                image_title: '2x zon',
+                title: '2x zon',
+                duration: '30 min',
+                price: '1995 kr',
+                url: 'https://acnespecialisten.se/book?flow=exceed&area=Microneedling_2xZones',
+                url_label: 'Boka',
+                url_title: 'Boka tid för 2 zoner'
+            ),
+            new TreatmentAreaItem(
+                image: 'https://via.placeholder.com/102x102.webp',
                 image_alt: '1x område',
                 image_title: '1x område',
-                title: '1x områdes',
+                title: '1x område',
                 duration: '50 min',
                 price: '2595 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=exceed&area=Microneedling_1xArea',
                 url_label: 'Boka',
-                url_title: 'Boka tid för halsbehandling'
+                url_title: 'Boka tid för 1 område'
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webp',
@@ -361,9 +167,9 @@ $treatment_areas = array(
                 title: '2x områden',
                 duration: '70 min',
                 price: '3595 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=exceed&area=Microneedling_2xAreas',
                 url_label: 'Boka',
-                url_title: 'Boka tid för dekolletagebehandling'
+                url_title: 'Boka tid för 2 områden'
             ),
             new TreatmentAreaItem(
                 image: 'https://via.placeholder.com/102x102.webp',
@@ -372,9 +178,9 @@ $treatment_areas = array(
                 title: '3x områden',
                 duration: '90 min',
                 price: '4595 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=exceed&area=Microneedling_3xAreas',
                 url_label: 'Boka',
-                url_title: 'Boka tid för ryggbehandling'
+                url_title: 'Boka tid för 3 områden'
             ),
         )
     ),
