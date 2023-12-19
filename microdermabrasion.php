@@ -18,10 +18,10 @@ $model = new Service(
     image_large: 'https://via.placeholder.com/424x456.webp',
     image_alt: 'Microdermabrasion',
     image_title: 'Microdermabrasion',
-    consultation_url: 'https://bokadirekt.se',
+    consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_MicroDermabrasion',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
-    booking_url: 'https://bokadirekt.se',
+    booking_url: 'https://acnespecialisten.se/book?flow=microdermabrasion',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
     procedures: array(
@@ -29,7 +29,7 @@ $model = new Service(
             label: '1 procedure',
             price: '2595 kr',
             savings: null,
-            booking_url: 'https://bokadirekt.se',
+            booking_url: 'https://acnespecialisten.se/book?flow=microdermabrasion&area=Microdermabrasion_1xArea&procedures=PriceClass_5_Procedure_1',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
         ),
@@ -37,7 +37,7 @@ $model = new Service(
             label: '3 procedures',
             price: '3995 kr',
             savings: 'Spara 790 kr',
-            booking_url: 'https://bokadirekt.se',
+            booking_url: 'https://acnespecialisten.se/book?flow=microdermabrasion&area=Microdermabrasion_1xArea&procedures=PriceClass_5_Procedure_3',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
         ),
@@ -45,7 +45,7 @@ $model = new Service(
             label: '5 procedures',
             price: '5995 kr',
             savings: 'Spara 1980 kr',
-            booking_url: 'https://bokadirekt.se',
+            booking_url: 'https://acnespecialisten.se/book?flow=microdermabrasion&area=Microdermabrasion_1xArea&procedures=PriceClass_5_Procedure_5',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
         )
