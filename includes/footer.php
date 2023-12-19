@@ -87,10 +87,10 @@
                                 <a href="gratis-hudkonsultation" class="button text grey compact l10n" title="Gratis hudkonsultation">Gratis hudkonsultation</a>
                             </li>
                             <li>
-                                <a href="problem" class="button text grey compact l10n" title="Problem">Problem</a>
+                                <a href="problem.php" class="button text grey compact l10n" title="Problem">Problem</a>
                             </li>
                             <li>
-                                <a href="behandlingar" class="button text grey compact l10n" title="Behandlingar">Behandlingar</a>
+                                <a href="behandlingar.php" class="button text grey compact l10n" title="Behandlingar">Behandlingar</a>
                             </li>
                             <li>
                                 <a href="varumarken" class="button text grey compact l10n" title="Varumärken">Varumärken</a>
@@ -104,10 +104,10 @@
                         <h2 class="l10n">Företag</h2>
                         <ul>
                             <li>
-                                <a href="om-oss" class="button text grey compact l10n" title="Om oss">Om oss</a>
+                                <a href="om-oss.php" class="button text grey compact l10n" title="Om oss">Om oss</a>
                             </li>
                             <li>
-                                <a href="metod" class="button text grey compact l10n" title="Vår metod">Vår metod</a>
+                                <a href="metod.php" class="button text grey compact l10n" title="Vår metod">Vår metod</a>
                             </li>
                             <li>
                                 <a href="specialister" class="button text grey compact l10n" title="Våra specialsiter">Våra specialsiter</a>
@@ -124,19 +124,19 @@
                             <h2>Kundtjänst</h2>
                             <ul>
                                 <li>
-                                    <a href="faq" class="button text grey compact l10n" title="Frågor & Svar">Frågor & Svar</a>
+                                    <a href="fragor-svar.php" class="button text grey compact l10n" title="Frågor & Svar">Frågor & Svar</a>
                                 </li>
                                 <li>
-                                    <a href="avbokningspolicy" class="button text grey compact l10n" title="Avbokning">Avbokning</a>
+                                    <a href="avbokningspolicy.php" class="button text grey compact l10n" title="Avbokning">Avbokning</a>
                                 </li>
                                 <li>
-                                    <a href="ordlista" class="button text grey compact l10n" title="Ordlista">Ordlista</a>
+                                    <a href="ordlista.php" class="button text grey compact l10n" title="Ordlista">Ordlista</a>
                                 </li>
                                 <!--<li>
                                     <a href="hudguide" class="button text grey compact l10n" title="Hudguide">Hudguide</a>
                                 </li>-->
                                 <li>
-                                    <a href="kontakt" class="button text grey compact l10n" title="Kontakt">Kontakt</a>
+                                    <a href="kontakt.php" class="button text grey compact l10n" title="Kontakt">Kontakt</a>
                                 </li>
                             </ul>
                         </div>
@@ -144,10 +144,10 @@
                             <h2>Övrigt</h2>
                             <ul>
                                 <li>
-                                    <a href="resultat" class="button text grey compact l10n" title="Resultat">Resultat</a>
+                                    <a href="resultat.php" class="button text grey compact l10n" title="Resultat">Resultat</a>
                                 </li>
                                 <li>
-                                    <a href="presentkort" class="button text grey compact l10n" title="Presentkort">Presentkort</a>
+                                    <a href="presentkort.php" class="button text grey compact l10n" title="Presentkort">Presentkort</a>
                                 </li>
                                 <li>
                                     <a href="https://dahlskincare.com/profile/start" class="button text grey compact l10n" title="Logga in">Logga in</a>
@@ -335,13 +335,13 @@
                                     <h2>Upptäck</h2>
                                     <ul>
                                         <li>
-                                            <a href="gratis-hudkonsultation" class="button text grey compact l10n" title="Gratis konsultation">Gratis konsultation</a>
+                                            <a href="gratis-hudkonsultation.php" class="button text grey compact l10n" title="Gratis konsultation">Gratis konsultation</a>
                                         </li>
                                         <li>
-                                            <a href="problem" class="button text grey compact l10n" title="Problem">Problem</a>
+                                            <a href="proble.php" class="button text grey compact l10n" title="Problem">Problem</a>
                                         </li>
                                         <li>
-                                            <a href="behandlingar" class="button text grey compact l10n" title="Behandlingar">Behandlingar</a>
+                                            <a href="behandlingar.php" class="button text grey compact l10n" title="Behandlingar">Behandlingar</a>
                                         </li>
                                         <li>
                                             <a href="varumarken" class="button text grey compact l10n" title="Varumärken">Varumärken</a>
@@ -355,10 +355,10 @@
                                     <h2 class="l10n">Företag</h2>
                                     <ul>
                                         <li>
-                                            <a href="om-oss" class="button text grey compact l10n" title="Om oss">Om oss</a>
+                                            <a href="om-oss.php" class="button text grey compact l10n" title="Om oss">Om oss</a>
                                         </li>
                                         <li>
-                                            <a href="metod" class="button text grey compact l10n" title="Vår metod">Vår metod</a>
+                                            <a href="metod.php" class="button text grey compact l10n" title="Vår metod">Vår metod</a>
                                         </li>
                                         <li>
                                             <a href="specialister" class="button text grey compact l10n" title="Våra specialister">Våra specialister</a>
@@ -372,19 +372,19 @@
                                     <h2>Kundtjänst</h2>
                                     <ul>
                                         <li>
-                                            <a href="faq" class="button text grey compact l10n" title="Frågor & Svar">Frågor & Svar</a>
+                                            <a href="fragor-svar.php" class="button text grey compact l10n" title="Frågor & Svar">Frågor & Svar</a>
                                         </li>
                                         <li>
-                                            <a href="avbokningspolicy" class="button text grey compact l10n" title="Avbokning">Avbokning</a>
+                                            <a href="avbokningspolicy.php" class="button text grey compact l10n" title="Avbokning">Avbokning</a>
                                         </li>
                                         <li>
-                                            <a href="ordlista" class="button text grey compact l10n" title="Ordlista">Ordlista</a>
+                                            <a href="ordlista.php" class="button text grey compact l10n" title="Ordlista">Ordlista</a>
                                         </li>
                                         <!--<li>
                                             <a href="hudguide" class="button text grey compact l10n" title="Hudguide">Hudguide</a>
                                         </li>-->
                                         <li>
-                                            <a href="kontakt" class="button text grey compact l10n" title="Kontakt">Kontakt</a>
+                                            <a href="kontakt.php" class="button text grey compact l10n" title="Kontakt">Kontakt</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -392,10 +392,10 @@
                                     <h2>Övrigt</h2>
                                     <ul>
                                         <li>
-                                            <a href="resultat" class="button text grey compact l10n" title="Resultat">Resultat</a>
+                                            <a href="resultat.php" class="button text grey compact l10n" title="Resultat">Resultat</a>
                                         </li>
                                         <li>
-                                            <a href="presentkort" class="button text grey compact l10n" title="Presentkort">Presentkort</a>
+                                            <a href="presentkort.php" class="button text grey compact l10n" title="Presentkort">Presentkort</a>
                                         </li>
                                         <li>
                                             <a href="https://dahlskincare.com/profile/start" class="button text grey compact l10n" title="Login">Till inloggning</a>
