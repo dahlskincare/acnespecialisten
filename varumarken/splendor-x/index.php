@@ -18,10 +18,10 @@ $model = new Service(
     image_large: 'https://via.placeholder.com/424x456.webp',
     image_alt: 'Permanent Hårborttagning',
     image_title: 'Permanent Hårborttagning',
-    consultation_url: 'https://bokadirekt.se',
+    consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_SplendorX',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
-    booking_url: 'https://bokadirekt.se',
+    booking_url: 'https://acnespecialisten.se/book?flow=permanent_harborttagning_SX',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
 );
@@ -141,7 +141,7 @@ $treatment_areas = array(
                 title: 'Hela Ansiktet',
                 duration: '30 min',
                 price: '1995 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=permanent_harborttagning_SX&area_ms=UnwantedHair_Face',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
@@ -152,7 +152,7 @@ $treatment_areas = array(
                 title: 'Öron',
                 duration: '20 min',
                 price: '995 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=permanent_harborttagning_SX&area_ms=UnwantedHair_Ears',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
@@ -163,7 +163,7 @@ $treatment_areas = array(
                 title: 'Kinder',
                 duration: '20 min',
                 price: '995 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=permanent_harborttagning_SX&area_ms=UnwantedHair_Cheeks',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
@@ -174,7 +174,7 @@ $treatment_areas = array(
                 title: 'Överläpp',
                 duration: '20 min',
                 price: '995 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=permanent_harborttagning_SX&area_ms=UnwantedHair_UpperLip',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
@@ -185,18 +185,7 @@ $treatment_areas = array(
                 title: 'Haka',
                 duration: '20 min',
                 price: '995 kr',
-                url: 'https://bokadirekt.se',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling'
-            ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webm',
-                image_alt: 'Skägglinje',
-                image_title: 'Skägglinje',
-                title: 'Skägglinje',
-                duration: '20 min',
-                price: '995 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=permanent_harborttagning_SX&area_ms=UnwantedHair_Chin',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
@@ -217,7 +206,7 @@ $treatment_areas = array(
                 title: 'Axlar',
                 duration: '30 min',
                 price: '1595 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=permanent_harborttagning_SX&area_ms=UnwantedHair_Shoulders',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
@@ -228,7 +217,7 @@ $treatment_areas = array(
                 title: 'Armhålor',
                 duration: '30 min',
                 price: '1595 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=permanent_harborttagning_SX&area_ms=UnwantedHair_Armpits',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
@@ -239,7 +228,7 @@ $treatment_areas = array(
                 title: 'Bröst',
                 duration: '30 min',
                 price: '1595 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=permanent_harborttagning_SX&area_ms=UnwantedHair_Chest',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
@@ -250,7 +239,7 @@ $treatment_areas = array(
                 title: 'Mage',
                 duration: '30 min',
                 price: '1595 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=permanent_harborttagning_SX&area_ms=UnwantedHair_Stomach',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
@@ -261,7 +250,7 @@ $treatment_areas = array(
                 title: 'Rygg',
                 duration: '40 min',
                 price: '2595 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=permanent_harborttagning_SX&area_ms=UnwantedHair_Back',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
@@ -272,7 +261,7 @@ $treatment_areas = array(
                 title: 'Svank',
                 duration: '30 min',
                 price: '1595 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=permanent_harborttagning_SX&area_ms=UnwantedHair_LowerBack',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
@@ -283,7 +272,7 @@ $treatment_areas = array(
                 title: 'Armar',
                 duration: '40 min',
                 price: '1995 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=permanent_harborttagning_SX&area_ms=UnwantedHair_Arms',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
@@ -294,7 +283,7 @@ $treatment_areas = array(
                 title: 'Händer & Fingrar',
                 duration: '30 min',
                 price: '1595 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=permanent_harborttagning_SX&area_ms=UnwantedHair_Hands',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
@@ -315,7 +304,7 @@ $treatment_areas = array(
                 title: 'Bikinilinje',
                 duration: '30 min',
                 price: '1595 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=permanent_harborttagning_SX&area_ms=UnwantedHair_BikiniLine',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
@@ -326,7 +315,7 @@ $treatment_areas = array(
                 title: 'String',
                 duration: '30 min',
                 price: '1595 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=permanent_harborttagning_SX&area_ms=UnwantedHair_ThongLine',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
@@ -337,7 +326,7 @@ $treatment_areas = array(
                 title: 'Brasiliansk + Runt Anus',
                 duration: '40 min',
                 price: '2595 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=permanent_harborttagning_SX&area_ms=UnwantedHair_BrazilianAnus',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
@@ -348,7 +337,7 @@ $treatment_areas = array(
                 title: 'Runt Anus',
                 duration: '30 min',
                 price: '1595 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=permanent_harborttagning_SX&area_ms=UnwantedHair_Anus',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
@@ -369,7 +358,7 @@ $treatment_areas = array(
                 title: 'Konsultation - Manzilian',
                 duration: '20 min',
                 price: 'Gratis',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_SplendorX',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
@@ -380,7 +369,7 @@ $treatment_areas = array(
                 title: 'Manzillian',
                 duration: '60 min',
                 price: '2595 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=permanent_harborttagning_SX&area_ms=UnwantedHair_Manzilian',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
@@ -391,7 +380,7 @@ $treatment_areas = array(
                 title: 'Manzillian + Runt Anus',
                 duration: '60 min',
                 price: '2995 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=permanent_harborttagning_SX&area_ms=UnwantedHair_Manzilian_Anus',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
@@ -402,7 +391,7 @@ $treatment_areas = array(
                 title: 'Runt Anus',
                 duration: '40 min',
                 price: '1995 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=permanent_harborttagning_SX&area_ms=UnwantedHair_Anus_Male',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
@@ -423,7 +412,7 @@ $treatment_areas = array(
                 title: 'Halva Ben',
                 duration: '40 min',
                 price: '1995 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=permanent_harborttagning_SX&area_ms=UnwantedHair_LegsHalf',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
@@ -434,7 +423,7 @@ $treatment_areas = array(
                 title: 'Hela Ben',
                 duration: '60 min',
                 price: '2595 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=permanent_harborttagning_SX&area_ms=UnwantedHair_LegsFull',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
@@ -445,7 +434,7 @@ $treatment_areas = array(
                 title: 'Fötter & Tår',
                 duration: '30 min',
                 price: '1295 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=permanent_harborttagning_SX&area_ms=UnwantedHair_Feet',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
@@ -930,14 +919,6 @@ $all_brands = array(
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card_big/service_card_big.php') ?>
                                 </div>
                             <?php } ?>
-                        <?php } ?>
-                    </section>
-                <?php } ?>
-                <?php if (isset($combos) && isset($combos_title)) { ?>
-                    <section id="combos" class="large-margin">
-                        <h2 class="big l10n"><?php echo $combos_title ?></h2>
-                        <?php foreach ($combos as $combo) { ?>
-                            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_combo/service_combo.php') ?>
                         <?php } ?>
                     </section>
                 <?php } ?>
