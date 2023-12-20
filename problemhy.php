@@ -45,7 +45,7 @@ class Problem
 
 $problems['akne'] = new Problem(
       label: 'Akne',
-      url: 'problem/akne',
+      url: 'akne.php',
       url_title: 'Läs mer om detaljerd information om Akne',
       consultation_url: 'gratis-hudkonsultation',
       consultation_url_title: 'Boka en hudkonsultation',
@@ -58,7 +58,7 @@ $problems['akne'] = new Problem(
 );
 $problems['aknearr'] = new Problem(
       label: 'Akneärr',
-      url: 'problem/aknearr',
+      url: 'aknearr.php',
       url_title: 'Akneärr',
       consultation_url: 'gratis-hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
@@ -71,7 +71,7 @@ $problems['aknearr'] = new Problem(
 );
 $problems['arr-fran-finnar'] = new Problem(
       label: 'Ärr från finnar',
-      url: 'problem/arr-fran-finnar',
+      url: 'finnar-arr.php',
       url_title: 'Ärr från finnar',
       consultation_url: 'gratis-hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
@@ -84,7 +84,7 @@ $problems['arr-fran-finnar'] = new Problem(
 );
 $problems['blandhy'] = new Problem(
       label: 'Blandhy',
-      url: 'problem/blandhy',
+      url: 'blandhy.php',
       url_title: 'Blandhy',
       consultation_url: 'gratis-hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
@@ -97,7 +97,7 @@ $problems['blandhy'] = new Problem(
 );
 $problems['bristningar'] = new Problem(
       label: 'Bristningar',
-      url: 'problem/bristningar',
+      url: 'bristningar.php',
       url_title: 'Bristningar',
       consultation_url: 'gratis-hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
@@ -110,7 +110,7 @@ $problems['bristningar'] = new Problem(
 );
 $problems['finnar'] = new Problem(
       label: 'Finnar',
-      url: 'problem/finnar',
+      url: 'finnar.php',
       url_title: 'Finnar',
       consultation_url: 'gratis-hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
@@ -124,7 +124,7 @@ $problems['finnar'] = new Problem(
 );
 $problems['hudforandringar'] = new Problem(
       label: 'Hudförändringar',
-      url: 'problem/hudforandringar',
+      url: 'hudforandringar.php',
       url_title: 'Hudförändringar',
       consultation_url: 'gratis-hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
@@ -137,7 +137,7 @@ $problems['hudforandringar'] = new Problem(
 );
 $problems['milier'] = new Problem(
       label: 'Milier',
-      url: 'problem/milier',
+      url: 'milier.php',
       url_title: 'Milier',
       consultation_url: 'gratis-hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
@@ -150,7 +150,7 @@ $problems['milier'] = new Problem(
 );
 $problems['mogen-hy'] = new Problem(
       label: 'Mogen Hy',
-      url: 'problem/mogen-hy',
+      url: 'mogen-hy.php',
       url_title: 'Mogen Hy',
       consultation_url: 'gratis-hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
@@ -163,7 +163,7 @@ $problems['mogen-hy'] = new Problem(
 );
 $problems['oonskat-har'] = new Problem(
       label: 'Oönskat hår',
-      url: 'problem/oonskat-har',
+      url: 'oonskat-har.php',
       url_title: 'Oönskat hår',
       consultation_url: 'gratis-hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
@@ -176,7 +176,7 @@ $problems['oonskat-har'] = new Problem(
 );
 $problems['operations-skadearr'] = new Problem(
       label: 'Operations & Skadeärr',
-      url: 'problem/operations-skadearr',
+      url: 'operations-skadearr.php',
       url_title: 'Operations & Skadeärr',
       consultation_url: 'gratis-hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
@@ -189,7 +189,7 @@ $problems['operations-skadearr'] = new Problem(
 );
 $problems['perioral-dermatit'] = new Problem(
       label: 'Perioral dermatit',
-      url: 'problem/perioral-dermatit',
+      url: 'perioral-dermatit.php',
       url_title: 'Perioral dermatit',
       consultation_url: 'gratis-hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
@@ -202,7 +202,7 @@ $problems['perioral-dermatit'] = new Problem(
 );
 $problems['pigmentflackar'] = new Problem(
       label: 'Pigmentfläckar',
-      url: 'problem/pigmentflackar',
+      url: 'pigmentflackar.php',
       url_title: 'Pigmentfläckar',
       consultation_url: 'gratis-hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
@@ -215,7 +215,7 @@ $problems['pigmentflackar'] = new Problem(
 );
 $problems['pormaskar'] = new Problem(
       label: 'Pormaskar',
-      url: 'problem/pormaskar',
+      url: 'pormaska',
       url_title: 'Pormaskar',
       consultation_url: 'gratis-hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
@@ -229,7 +229,7 @@ $problems['pormaskar'] = new Problem(
 );
 $problems['rosacea'] = new Problem(
       label: 'Rosacea',
-      url: 'problem/rosacea',
+      url: 'rosacea.php',
       url_title: 'Rosacea',
       consultation_url: 'gratis-hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
@@ -242,7 +242,7 @@ $problems['rosacea'] = new Problem(
 );
 $problems['seborre'] = new Problem(
       label: 'Seborré',
-      url: 'problem/seborre',
+      url: 'seborre.php',
       url_title: 'Seborré',
       consultation_url: 'gratis-hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
@@ -255,7 +255,7 @@ $problems['seborre'] = new Problem(
 );
 $problems['stora-porer'] = new Problem(
       label: 'Stora porer',
-      url: 'problem/stora-porer',
+      url: 'stora-porer.php',
       url_title: 'Stora porer',
       consultation_url: 'gratis-hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
@@ -268,7 +268,7 @@ $problems['stora-porer'] = new Problem(
 );
 $problems['torr-kanslig-hy'] = new Problem(
       label: 'Torr & Känslig hy',
-      url: 'problem/torr-kanslig-hy',
+      url: 'torr-hy.php',
       url_title: 'Torr & Känslig hy',
       consultation_url: 'gratis-hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
@@ -281,7 +281,7 @@ $problems['torr-kanslig-hy'] = new Problem(
 );
 $problems['ytliga-blodkarl'] = new Problem(
       label: 'Ytliga Blodkärl',
-      url: 'problem/ytliga-blodkarl',
+      url: 'ytliga-blodkarl.php',
       url_title: 'Ytliga Blodkärl',
       consultation_url: 'gratis-hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',

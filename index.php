@@ -101,7 +101,7 @@
                                     image_large: 'images/problems/424x324/akne.webp',
                                     image_title: 'Information om Akne - Acnespecialisten',
                                     image_alt: 'Bild som illustrerar akne',
-                                    url: 'problem/akne',
+                                    url: 'akne.php',
                                     url_title: 'Läs mer om Akne',
                                     show_on_large: true,
                                     show_on_small: true
@@ -112,7 +112,7 @@
                                     image_large: 'images/problems/424x324/acnearr.webp',
                                     image_title: 'Akneärr',
                                     image_alt: 'Akneärr',
-                                    url: 'problem/aknearr',
+                                    url: 'aknearr.php',
                                     url_title: 'Akneärr',
                                     show_on_large: true,
                                     show_on_small: true
@@ -123,7 +123,7 @@
                                     image_large: 'images/problems/424x324/rosacea.webp',
                                     image_title: 'Rosacea',
                                     image_alt: 'Rosacea',
-                                    url: 'problem/rosacea',
+                                    url: 'rosacea.php',
                                     url_title: 'Rosacea',
                                     show_on_large: true,
                                     show_on_small: true
@@ -134,7 +134,7 @@
                                     image_large: 'images/problems/424x324/blandhy.webp',
                                     image_title: 'Blandhy',
                                     image_alt: 'Blandhy',
-                                    url: 'problem/blandhy',
+                                    url: 'blandhy.php',
                                     url_title: 'Blandhy',
                                     show_on_large: true,
                                     show_on_small: true
@@ -145,7 +145,7 @@
                                     image_large: 'images/problems/424x324/finnar.webp',
                                     image_title: 'Finnar',
                                     image_alt: 'Finnar',
-                                    url: 'problem/finnar',
+                                    url: 'finnar.php',
                                     url_title: 'Finnar',
                                     show_on_large: true,
                                     show_on_small: true
@@ -156,7 +156,7 @@
                                     image_large: 'images/problems/424x324/pormaskar.webp',
                                     image_title: 'Pormaskar',
                                     image_alt: 'Pormaskar',
-                                    url: 'problem/pormaskar',
+                                    url: 'pormaskar.php',
                                     url_title: 'Pormaskar',
                                     show_on_large: false,
                                     show_on_small: true
@@ -167,7 +167,7 @@
                                     image_large: 'images/problems/carousel/large/other.jpg',
                                     image_title: 'Se alla problem',
                                     image_alt: 'Se alla problem',
-                                    url: 'problem',
+                                    url: 'problemhy.php',
                                     url_title: 'Se alla problem',
                                     show_on_large: true,
                                     show_on_small: false
@@ -193,28 +193,28 @@
                                     title: 'Identifiera',
                                     content: 'Vi erbjuder alltid gratis konsultation, där du får en personlig hudterapeut och en individuell behandlingsplan baserad på din hudanalys. Förebilder tas för att jämföra resultat före och efter behandling.',
                                     button_label: 'Boka gratis hudkonsultation',
-                                    button_url: 'gratis-hudkonsultation'
+                                    button_url: 'gratis-hudkonsultation.php'
                               ),
                               new ApproachCard(
                                     number: '02',
                                     title: 'Behandla',
                                     content: 'Vi erbjuder skräddarsydda behandlingar som åtgärdar hudproblem och förbättrar hudens utseende. Våra hudspecialister säkerställer att behandlingarna är effektiva och säkra för din hudtyp.',
                                     button_label: 'Våra behandlingar',
-                                    button_url: 'behandlingar'
+                                    button_url: 'behandlingar.php'
                               ),
                               new ApproachCard(
                                     number: '03',
                                     title: 'Förebygga',
                                     content: 'För att förebygga framtida hudproblem och bibehålla resultatet av behandlingarna rekommenderar vi produkter och rutiner som är anpassade efter din hudtyp och specifika problem.',
                                     button_label: 'Se produkter',
-                                    button_url: 'produkter'
+                                    button_url: 'https://dahlskincare.com'
                               ),
                               new ApproachCard(
                                     number: '04',
                                     title: 'Reparera',
                                     content: 'Efter att det aktiva problemet åtgärdats fokuserar vi på att reparera ärr och bygga upp skyddsbarriären med hjälp av maskinbehandlingar som microneedling, laser och IPL för att förbättra hudens struktur.',
                                     button_label: 'Se behandlingar',
-                                    button_url: 'behandlingar'
+                                    button_url: 'behandlingar.php'
                               )
                         );
                         ?>
@@ -339,7 +339,7 @@
                                     image_large: 'images/service-categories/large/facials.jpg',
                                     image_alt: 'Facials',
                                     image_title: 'Facials',
-                                    url: 'behandlingar/facials',
+                                    url: 'ansiktsbehandlingar-klassiska.php',
                                     url_title: 'Facials',
                                     show_on_large: true,
                                     show_on_small: true
@@ -350,7 +350,7 @@
                                     image_large: 'images/service-categories/large/ipl.jpg',
                                     image_title: 'IPL',
                                     image_alt: 'IPL',
-                                    url: 'behandlingar/ipl',
+                                    url: 'ipl.php',
                                     url_title: 'IPL',
                                     show_on_large: true,
                                     show_on_small: true
@@ -361,7 +361,7 @@
                                     image_large: 'images/service-categories/large/laser-problem-skin.jpg',
                                     image_title: 'Laser',
                                     image_alt: 'Laser',
-                                    url: 'behandlingar/laser',
+                                    url: 'behandlingar/laser-mot-problemhy',
                                     url_title: 'Laser',
                                     show_on_large: true,
                                     show_on_small: true,
@@ -372,7 +372,7 @@
                                     image_large: 'images/service-categories/large/dermabration.jpg',
                                     image_title: 'Portömning',
                                     image_alt: 'Portömning',
-                                    url: 'behandlingar/dermabration',
+                                    url: 'portomning.php',
                                     url_title: 'Portömning',
                                     show_on_large: true,
                                     show_on_small: true
@@ -383,7 +383,7 @@
                                     image_large: 'images/service-categories/large/microneedling.jpg',
                                     image_title: 'Microneedling',
                                     image_alt: 'Microneedling',
-                                    url: 'behandlingar/microneedling',
+                                    url: 'microneedling.php',
                                     url_title: 'Microneedling',
                                     show_on_large: true,
                                     show_on_small: true
@@ -394,7 +394,7 @@
                                     image_large: 'images/service-categories/large/injections.jpg',
                                     image_title: 'Kemisk Peeling',
                                     image_alt: 'Kemisk Peeling',
-                                    url: 'behandlingar/injection',
+                                    url: 'kemisk-peeling.php',
                                     url_title: 'Kemisk Peeling',
                                     show_on_large: false,
                                     show_on_small: true
@@ -405,7 +405,7 @@
                                     image_large: 'images/service-categories/large/luxury.jpg',
                                     image_title: 'Se alla behandlingar',
                                     image_alt: 'Se alla behandlingar',
-                                    url: 'behandlingar',
+                                    url: 'behandlingar.php',
                                     url_title: 'Se alla behandlingar',
                                     show_on_large: true,
                                     show_on_small: false
@@ -541,7 +541,7 @@
                                                 </p>
                                           </div>
                                     </div>
-                                    <a href="om-oss" title="Om oss" class="button b200 outline expand l10n">Läs mer om oss</a>
+                                    <a href="om-oss.php" title="Om oss" class="button b200 outline expand l10n">Läs mer om oss</a>
                               </div>
                         </div>
                         <div id="about-image-desktop">
