@@ -87,7 +87,7 @@
                                 <a href="gratis-hudkonsultation" class="button text grey compact l10n" title="Gratis hudkonsultation">Gratis hudkonsultation</a>
                             </li>
                             <li>
-                                <a href="problem.php" class="button text grey compact l10n" title="Problem">Problem</a>
+                                <a href="problemhy.php" class="button text grey compact l10n" title="Problem">Problem</a>
                             </li>
                             <li>
                                 <a href="behandlingar.php" class="button text grey compact l10n" title="Behandlingar">Behandlingar</a>

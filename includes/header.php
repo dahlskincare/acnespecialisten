@@ -134,7 +134,7 @@
                 </a>
                 <nav>
                     <ul>
-                        <li><a href="problem.php" class="h100 l10n" title="Problem">Problem</a></li>
+                        <li><a href="problemhy.php" class="h100 l10n" title="Problem">Problem</a></li>
                         <li><a href="behandlingar.php" class="h100 l10n" title="Behandlingar">Behandlingar</a></li>
                         <li><a href="varumarken" class="h100 l10n" title="Varumärken">Varumärken</a></li>
                         <li><a href="resultat.php" class="h100 l10n" title="Resultat">Resultat</a></li>
