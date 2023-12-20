@@ -317,7 +317,7 @@ $specialist_url_title = "Rosacea Specialiserade Hudterapeuter";
 
 $brands = array(
       new Brand(
-            label: 'Powerlite',
+            label: 'Powerlite Photonova',
             image: 'images/brands/powerlite.svg',
             image_alt: 'Powerlite Brand Logo',
             image_title: 'Powerlite - IPL och Laser Teknologi för Hudvård',
@@ -328,17 +328,17 @@ $brands = array(
             label: 'Dermapen',
             image: 'images/brands/dermapen4.svg',
             image_alt: 'Dermapen Brand Logo',
-            image_title: 'Dermapen4 - Microneedling Verktyg för Hudföryngring',
+            image_title: 'Dermapen - Microneedling Verktyg för Hudföryngring',
             url: 'dermapen.php',
             url_title: 'Läs mer om Dermapen Microneedling Hudvårdslösningar',
       ),
       new Brand(
-            label: 'Cryopen',
+            label: 'CryoPen',
             image: 'images/brands/cryopen.svg',
-            image_alt: 'Cryopen Brand Logo',
-            image_title: 'Cryopen - Kryoterapi Verktyg för Hudbehandlingar',
+            image_alt: 'CryoPen Brand Logo',
+            image_title: 'CryoPen - Kryoterapi Verktyg för Hudbehandlingar',
             url: 'cryopen.php',
-            url_title: 'Läs mer om Cryopen Kryoterapi Hudbehandlingar',
+            url_title: 'Läs mer om CryoPen Kryoterapi Hudbehandlingar',
       ),
       new Brand(
             label: 'Alma',
@@ -350,7 +350,7 @@ $brands = array(
       ),
       new Brand(
             label: 'PRX-T33',
-            image: 'images/brands/prxt.svg',
+            image: 'images/brands/prx-t33.svg',
             image_alt: 'PRX-T33 Brand Logo',
             image_title: 'PRX-T33 - Bio-revitaliserande Hudbehandlingsteknik',
             url: 'prx-t33.php',
@@ -565,7 +565,7 @@ $brands_url_title = "Varumärken för Rosaceabehandling";
                 <section id="faq">
                     <div class="flex-row align-end justify-space-between">
                         <h2 class="big l10n">Frågor & Svar</h2>
-                        <a href="faq" title="FAQ" class="button compact text is-hidden-mobile">
+                        <a href="fragor-svar.php" title="FAQ" class="button compact text is-hidden-mobile">
                             <span class="l10n">Läs fler frågor & svar</span>
                             <?php icon('navigate-next') ?>
                         </a>

@@ -192,7 +192,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
             <section id="faq" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
                     <h2 class="big l10n">Frågor & svar</h2>
-                    <a href="faq" class="button compact text is-hidden-mobile">
+                    <a href="fragor-svar.php" class="button compact text is-hidden-mobile">
                         <span class="l10n">Se alla frågor</span>
                         <?php icon('navigate-next') ?>
                     </a>

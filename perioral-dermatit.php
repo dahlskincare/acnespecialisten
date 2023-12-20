@@ -717,7 +717,7 @@ $related_problems = array(
             image: 'images/problems/102x102/acnearr.webp',
             image_alt: 'Bild som visar acneärr, en typ av hudproblem som ofta följer efter akne',
             image_title: 'Acneärr - en vanlig följd av akne',
-            url: '/problem/acnearr',
+            url: 'acnearr.php',
             url_title: 'Acneärr'
       ),
       new RelatedProblem(
@@ -726,7 +726,7 @@ $related_problems = array(
             image: 'images/problems/200x200/rosacea.webp',
             image_alt: 'Bild som illustrerar rosacea, ett hudtillstånd som kan förväxlas med akne',
             image_title: 'Rosacea - en hudsjukdom som ofta förväxlas med akne',
-            url: 'problem/rosacea',
+            url: 'rosacea.php',
             url_title: 'Rosacea'
       ),
       new RelatedProblem(
@@ -735,42 +735,34 @@ $related_problems = array(
             image: 'images/problems/200x200/perioral-dermatit.webp',
             image_alt: 'Bild som skildrar perioral dermatit, en hudåkomma som kan förväxlas med akne',
             image_title: 'Perioral dermatit (acne runt munnen) ett hudproblem liknande akne',
-            url: 'perioral-dermatit',
+            url: 'perioral-dermatit.php',
             url_title: 'Perioral dermatit',
       ),
 );
 $brands = array(
       new Brand(
-            label: 'Powerlite',
+            label: 'Powerlite Photonova',
             image: 'images/brands/powerlite.svg',
             image_alt: 'Powerlite Brand Logo',
             image_title: 'Powerlite - IPL och Laser Teknologi för Hudvård',
-            url: 'varumarken/powerlite',
+            url: 'varumarken/powerlite-photonova',
             url_title: 'Läs mer om Powerlite IPL och Laser Hudvårdsteknologi'
       ),
       new Brand(
             label: 'Dermapen',
             image: 'images/brands/dermapen4.svg',
             image_alt: 'Dermapen Brand Logo',
-            image_title: 'Dermapen4 - Microneedling Verktyg för Hudföryngring',
-            url: 'varumarken/dermapen4',
+            image_title: 'Dermapen - Microneedling Verktyg för Hudföryngring',
+            url: 'dermapen.php',
             url_title: 'Läs mer om Dermapen Microneedling Hudvårdslösningar',
       ),
       new Brand(
-            label: 'Cryopen',
+            label: 'CryoPen',
             image: 'images/brands/cryopen.svg',
-            image_alt: 'Cryopen Brand Logo',
-            image_title: 'Cryopen - Kryoterapi Verktyg för Hudbehandlingar',
-            url: 'varumarken/cryopen',
-            url_title: 'Läs mer om Cryopen Kryoterapi Hudbehandlingar',
-      ),
-      new Brand(
-            label: 'Lumenis',
-            image: 'images/brands/lumenis.svg',
-            image_alt: 'Lumenis Brand Logo',
-            image_title: 'Lumenis - Laser och Intensivt Pulserat Ljus (IPL) Teknologi för Hudvård',
-            url: 'varumarken/lumenis',
-            url_title: 'Läs mer om Lumenis Laser och IPL Hudvårdslösningar',
+            image_alt: 'CryoPen Brand Logo',
+            image_title: 'CryoPen - Kryoterapi Verktyg för Hudbehandlingar',
+            url: 'cryopen.php',
+            url_title: 'Läs mer om CryoPen Kryoterapi Hudbehandlingar',
       ),
       new Brand(
             label: 'Alma',
@@ -782,10 +774,10 @@ $brands = array(
       ),
       new Brand(
             label: 'PRX-T33',
-            image: 'images/brands/prxt.svg',
+            image: 'images/brands/prx-t33.svg',
             image_alt: 'PRX-T33 Brand Logo',
             image_title: 'PRX-T33 - Bio-revitaliserande Hudbehandlingsteknik',
-            url: 'varumarken/prxt',
+            url: 'prx-t33.php',
             url_title: 'Läs mer om PRX-T33 Bio-revitaliserande Hudbehandlingar',
       ),
       new Brand(
@@ -793,7 +785,7 @@ $brands = array(
             image: 'images/brands/hydrafacial.svg',
             image_alt: 'Hydrafacial Brand Logo',
             image_title: 'Hydrafacial - Intensiv Hydrering och Rengöring Behandlingar för Hudvård',
-            url: 'varumarken/hydrafacial',
+            url: 'hydrafacial.php',
             url_title: 'Läs mer om Hydrafacial Hudvårdsbehandlingar',
       ),
       new Brand(
@@ -801,7 +793,7 @@ $brands = array(
             image: 'images/brands/ipinfusion.svg',
             image_alt: 'Infuzion Brand Logo',
             image_title: 'Infuzion - Hudföryngring och Näringsinfusion System för Hudvård',
-            url: 'varumarken/infuzion',
+            url: 'infuzion.php',
             url_title: 'Läs mer om Infuzion Hudföryngringslösningar'
       ),
 );
@@ -1074,7 +1066,7 @@ $brands_url_title = "Varumärken för behandling av perioral dermatit";
                         <section id="faq">
                               <h2 class="big l10n">Frågor & Svar</h2>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $faq_url_title ?>" href="faq"><?php echo $faq_url_label ?></a>
+                              <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $faq_url_title ?>" href="fragor-svar.php"><?php echo $faq_url_label ?></a>
                         </section>
                         <!--Hudguide-->
                         <section id="specialists">

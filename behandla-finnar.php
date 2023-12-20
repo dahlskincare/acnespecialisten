@@ -361,28 +361,22 @@ $specialist_url_title = "Hudterapeuter Specialiserade på finnar";
 
 $brands = array(
     new Brand(
-        label: 'Powerlite',
-        image: 'images/brands/powerlite.svg',
-        image_alt: 'Powerlite',
-        image_title: 'Powerlite',
+        label: 'Powerlite Photonova',
+        image: 'images/brands/powerlite-photonova.svg',
+        image_alt: 'Powerlite Photonova',
+        image_title: 'Powerlite Photonova',
     ),
     new Brand(
-        label: 'Dermapen4',
-        image: 'images/brands/dermapen4.svg',
-        image_alt: 'Dermapen4',
-        image_title: 'Dermapen4',
+        label: 'Dermapen',
+        image: 'images/brands/dermapen.svg',
+        image_alt: 'Dermapen',
+        image_title: 'Dermapen',
     ),
     new Brand(
-        label: 'Cryopen',
+        label: 'CryoPen',
         image: 'images/brands/cryopen.svg',
-        image_alt: 'Cryopen',
-        image_title: 'Cryopen',
-    ),
-    new Brand(
-        label: 'Lumenis',
-        image: 'images/brands/lumenis.svg',
-        image_alt: 'Lumenis',
-        image_title: 'Lumenis',
+        image_alt: 'CryoPen',
+        image_title: 'CryoPen',
     ),
     new Brand(
         label: 'Alma',
@@ -391,22 +385,22 @@ $brands = array(
         image_title: 'Alma',
     ),
     new Brand(
-        label: 'PRXT',
-        image: 'images/brands/prxt.svg',
-        image_alt: 'PRXT',
-        image_title: 'PRXT',
+        label: 'PRX-T33',
+        image: 'images/brands/prx-t33.svg',
+        image_alt: 'PRX-T33',
+        image_title: 'PRX-T33',
     ),
     new Brand(
-        label: 'Hydrafacial',
+        label: 'HydraFacial',
         image: 'images/brands/hydrafacial.svg',
-        image_alt: 'Hydrafacial',
-        image_title: 'Hydrafacial',
+        image_alt: 'HydraFacial',
+        image_title: 'HydraFacial',
     ),
     new Brand(
-        label: 'IP infusion',
-        image: 'images/brands/ipinfusion.svg',
-        image_alt: 'IP infusion',
-        image_title: 'IP infusion',
+        label: 'Infuzion',
+        image: 'images/brands/infuzion.svg',
+        image_alt: 'Infuzion',
+        image_title: 'Infuzion',
     ),
 );
 
@@ -601,7 +595,7 @@ $brands_url_title = "Varumärken för behandling av finnar";
                 <section id="faq">
                     <div class="flex-row align-end justify-space-between">
                         <h2 class="big l10n">Frågor & Svar</h2>
-                        <a href="faq" title="FAQ" class="button compact text is-hidden-mobile">
+                        <a href="fragor-svar.php" title="FAQ" class="button compact text is-hidden-mobile">
                             <span class="l10n">Läs fler frågor & svar</span>
                             <?php icon('navigate-next') ?>
                         </a>

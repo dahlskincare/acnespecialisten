@@ -528,7 +528,7 @@ $related_problems = array(
             image: 'bilder/problems/102x102/akne.webp',
             image_alt: 'Bild som visar aktiv akne, en vanlig hudåkomma',
             image_title: 'Aktiv Akne - en vanlig hudåkomma',
-            url: 'problem/akne',
+            url: 'akne.php',
             url_title: 'Akne'
       ),
 
@@ -538,7 +538,7 @@ $related_problems = array(
             image: 'bilder/problems/200x200/rosacea.webp',
             image_alt: 'Bild som illustrerar rosacea, ett hudtillstånd som kan förväxlas med akne',
             image_title: 'Rosacea - en hudsjukdom som ofta förväxlas med akne',
-            url: 'problem/rosacea',
+            url: 'rosacea.php',
             url_title: 'Rosacea'
       ),
       new RelatedProblem(
@@ -547,46 +547,38 @@ $related_problems = array(
             image: 'bilder/problems/200x200/perioral-dermatit.webp',
             image_alt: 'Bild som skildrar perioral dermatit, en hudåkomma som kan förväxlas med akne',
             image_title: 'Perioral dermatit (acne runt munnen) ett hudproblem liknande akne',
-            url: 'perioral-dermatit',
+            url: 'perioral-dermatit.php',
             url_title: 'Perioral dermatit',
       ),
 );
 $brands = array(
       new Brand(
-            label: 'Alma Hybrid CO2',
-            image: 'bilder/varumarken/powerlite.svg',
-            image_alt: 'Alma hybrid CO2 Laser logo',
+            label: 'Powerlite Photonova',
+            image: 'images/brands/powerlite.svg',
+            image_alt: 'Powerlite Brand Logo',
             image_title: 'Powerlite - IPL och Laser Teknologi för Hudvård',
-            url: 'varumarken/alma-hybrid-co2',
-            url_title: 'Läs mer om Alma hybrid CO2 Laser'
-      ),
-      new Brand(
-            label: 'Alma Harmony XL PRO',
-            image: 'bilder/varumarken/dermapen4.svg',
-            image_alt: 'Dermapen Brand Logo',
-            image_title: 'Dermapen4 - Microneedling Verktyg för Hudföryngring',
-            url: 'varumarken/dermapen4',
-            url_title: 'Läs mer om Dermapen Microneedling Hudvårdslösningar',
-      ),
-      new Brand(
-            label: 'SkinTech',
-            image: 'bilder/varumarken/cryopen.svg',
-            image_alt: 'Cryopen Brand Logo',
-            image_title: 'Cryopen - Kryoterapi Verktyg för Hudbehandlingar',
-            url: 'varumarken/cryopen',
-            url_title: 'Läs mer om Cryopen Kryoterapi Hudbehandlingar',
+            url: 'varumarken/powerlite-photonova',
+            url_title: 'Läs mer om Powerlite IPL och Laser Hudvårdsteknologi'
       ),
       new Brand(
             label: 'Dermapen',
-            image: 'bilder/varumarken/dermapen4.svg',
+            image: 'images/brands/dermapen4.svg',
             image_alt: 'Dermapen Brand Logo',
-            image_title: 'Dermapen4 - Microneedling Verktyg för Hudföryngring',
-            url: 'varumarken/dermapen4',
+            image_title: 'Dermapen - Microneedling Verktyg för Hudföryngring',
+            url: 'dermapen.php',
             url_title: 'Läs mer om Dermapen Microneedling Hudvårdslösningar',
       ),
       new Brand(
+            label: 'CryoPen',
+            image: 'images/brands/cryopen.svg',
+            image_alt: 'CryoPen Brand Logo',
+            image_title: 'CryoPen - Kryoterapi Verktyg för Hudbehandlingar',
+            url: 'cryopen.php',
+            url_title: 'Läs mer om CryoPen Kryoterapi Hudbehandlingar',
+      ),
+      new Brand(
             label: 'Alma',
-            image: 'bilder/varumarken/alma.svg',
+            image: 'images/brands/alma.svg',
             image_alt: 'Alma Brand Logo',
             image_title: 'Alma - Laser, IPL och RF (Radiofrekvens) Teknologi för Hudföryngring',
             url: 'varumarken/alma',
@@ -594,26 +586,26 @@ $brands = array(
       ),
       new Brand(
             label: 'PRX-T33',
-            image: 'bilder/varumarken/prxt.svg',
+            image: 'images/brands/prx-t33.svg',
             image_alt: 'PRX-T33 Brand Logo',
             image_title: 'PRX-T33 - Bio-revitaliserande Hudbehandlingsteknik',
-            url: 'varumarken/prxt',
+            url: 'prx-t33.php',
             url_title: 'Läs mer om PRX-T33 Bio-revitaliserande Hudbehandlingar',
       ),
       new Brand(
             label: 'Hydrafacial',
-            image: 'bilder/varumarken/hydrafacial.svg',
+            image: 'images/brands/hydrafacial.svg',
             image_alt: 'Hydrafacial Brand Logo',
             image_title: 'Hydrafacial - Intensiv Hydrering och Rengöring Behandlingar för Hudvård',
-            url: 'varumarken/hydrafacial',
+            url: 'hydrafacial.php',
             url_title: 'Läs mer om Hydrafacial Hudvårdsbehandlingar',
       ),
       new Brand(
             label: 'Infuzion',
-            image: 'bilder/varumarken/ipinfusion.svg',
+            image: 'images/brands/ipinfusion.svg',
             image_alt: 'Infuzion Brand Logo',
             image_title: 'Infuzion - Hudföryngring och Näringsinfusion System för Hudvård',
-            url: 'varumarken/infuzion',
+            url: 'infuzion.php',
             url_title: 'Läs mer om Infuzion Hudföryngringslösningar'
       ),
 );
@@ -844,7 +836,7 @@ $brands_url_title = "Varumärken för akneärr";
                         <section id="faq">
                               <h2 class="big l10n">Frågor & Svar</h2>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $faq_url_title ?>" href="faq"><?php echo $faq_url_label ?></a>
+                              <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $faq_url_title ?>" href="fragor-svar.php"><?php echo $faq_url_label ?></a>
                         </section>
 
                         <!--Hudguide-->

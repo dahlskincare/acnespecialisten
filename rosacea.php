@@ -642,7 +642,7 @@ $related_problems = array(
             image: 'images/problems/102x102/ytliga-blodkarl.webp',
             image_alt: 'Bild som visar ytliga blodkärl som röda linjer i huden',
             image_title: 'Ytliga blodkärl - vanligt på näsa och kinder',
-            url: 'problem/ytliga-blodkarl',
+            url: 'ytliga-blodkarl.php',
             url_title: 'Ytliga blodkärl'
       ),
       new RelatedProblem(
@@ -651,7 +651,7 @@ $related_problems = array(
             image: 'images/problems/200x200/akne.webp',
             image_alt: 'Bild som skildrar akne, en hudåkomma som drabbar många ungdomar och vuxna',
             image_title: 'Akne - ett vanligt hudproblem bland både ungdomar och vuxna',
-            url: 'akne',
+            url: 'akne.php',
             url_title: 'Akne'
       ),
       new RelatedProblem(
@@ -660,13 +660,13 @@ $related_problems = array(
             image: 'images/problems/200x200/finnar.webp',
             image_alt: 'Bild som visar finnar, små inflammationer i huden',
             image_title: 'Finnar - vanliga små hudinflammationer',
-            url: 'finnar',
+            url: 'finnar.php',
             url_title: 'Finnar'
       ),
 );
 $brands = array(
       new Brand(
-            label: 'Powerlite',
+            label: 'Powerlite Photonova',
             image: 'images/brands/powerlite.svg',
             image_alt: 'Powerlite Brand Logo',
             image_title: 'Powerlite - IPL och Laser Teknologi för Hudvård',
@@ -677,17 +677,17 @@ $brands = array(
             label: 'Dermapen',
             image: 'images/brands/dermapen4.svg',
             image_alt: 'Dermapen Brand Logo',
-            image_title: 'Dermapen4 - Microneedling Verktyg för Hudföryngring',
+            image_title: 'Dermapen - Microneedling Verktyg för Hudföryngring',
             url: 'dermapen.php',
             url_title: 'Läs mer om Dermapen Microneedling Hudvårdslösningar',
       ),
       new Brand(
-            label: 'Cryopen',
+            label: 'CryoPen',
             image: 'images/brands/cryopen.svg',
-            image_alt: 'Cryopen Brand Logo',
-            image_title: 'Cryopen - Kryoterapi Verktyg för Hudbehandlingar',
+            image_alt: 'CryoPen Brand Logo',
+            image_title: 'CryoPen - Kryoterapi Verktyg för Hudbehandlingar',
             url: 'cryopen.php',
-            url_title: 'Läs mer om Cryopen Kryoterapi Hudbehandlingar',
+            url_title: 'Läs mer om CryoPen Kryoterapi Hudbehandlingar',
       ),
       new Brand(
             label: 'Alma',
@@ -699,7 +699,7 @@ $brands = array(
       ),
       new Brand(
             label: 'PRX-T33',
-            image: 'images/brands/prxt.svg',
+            image: 'images/brands/prx-t33.svg',
             image_alt: 'PRX-T33 Brand Logo',
             image_title: 'PRX-T33 - Bio-revitaliserande Hudbehandlingsteknik',
             url: 'prx-t33.php',

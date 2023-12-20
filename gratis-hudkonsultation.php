@@ -249,7 +249,7 @@ $categories = array(
                 <section id="faq" class="large-margin">
                     <h2 class="big l10n">Frågor & svar</h2>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="faq" title="Se alla frågor">Se alla frågor</a>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" href="fragor-svar.php" title="Se alla frågor">Se alla frågor</a>
                 </section>
                 <!--Hudguide-->
                 <section id="specialister" class="large-margin">

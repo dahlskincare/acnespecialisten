@@ -145,7 +145,7 @@ $glossary_items = array(
                     <div class="p200 l10n" id="cta-banner-content">Boka en gratis hudkonsultation hos en av våra erfarna hudterapeuter.</div>
                 </div>
                 <div>
-                    <a href="<?php echo $consultation_url ?>" class="button white expand l10n" title="Boka en gratis hudkonsultation">Boka en gratis hudkonsultation</a>
+                    <a href="gratis-hudkonsultation.php" class="button white expand l10n" title="Boka en gratis hudkonsultation">Boka en gratis hudkonsultation</a>
                 </div>
             </section>
             <section id="results" class="large-margin">
@@ -175,7 +175,7 @@ $glossary_items = array(
             <section id="faq" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
                     <h2 class="big l10n">Frågor & svar</h2>
-                    <a href="faq" class="button compact text is-hidden-mobile">
+                    <a href="fragor-svar.php" class="button compact text is-hidden-mobile">
                         <span class="l10n">Se alla frågor</span>
                         <?php icon('navigate-next') ?>
                     </a>
