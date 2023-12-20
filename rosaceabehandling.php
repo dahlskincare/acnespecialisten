@@ -316,54 +316,62 @@ $specialist_url_label = "Se alla specialister";
 $specialist_url_title = "Rosacea Specialiserade Hudterapeuter";
 
 $brands = array(
-    new Brand(
-        label: 'Powerlite',
-        image: 'images/brands/powerlite.svg',
-        image_alt: 'Powerlite',
-        image_title: 'Powerlite',
-    ),
-    new Brand(
-        label: 'Dermapen4',
-        image: 'images/brands/dermapen4.svg',
-        image_alt: 'Dermapen4',
-        image_title: 'Dermapen4',
-    ),
-    new Brand(
-        label: 'Cryopen',
-        image: 'images/brands/cryopen.svg',
-        image_alt: 'Cryopen',
-        image_title: 'Cryopen',
-    ),
-    new Brand(
-        label: 'Lumenis',
-        image: 'images/brands/lumenis.svg',
-        image_alt: 'Lumenis',
-        image_title: 'Lumenis',
-    ),
-    new Brand(
-        label: 'Alma',
-        image: 'images/brands/alma.svg',
-        image_alt: 'Alma',
-        image_title: 'Alma',
-    ),
-    new Brand(
-        label: 'PRXT',
-        image: 'images/brands/prxt.svg',
-        image_alt: 'PRXT',
-        image_title: 'PRXT',
-    ),
-    new Brand(
-        label: 'Hydrafacial',
-        image: 'images/brands/hydrafacial.svg',
-        image_alt: 'Hydrafacial',
-        image_title: 'Hydrafacial',
-    ),
-    new Brand(
-        label: 'IP infusion',
-        image: 'images/brands/ipinfusion.svg',
-        image_alt: 'IP infusion',
-        image_title: 'IP infusion',
-    ),
+      new Brand(
+            label: 'Powerlite',
+            image: 'images/brands/powerlite.svg',
+            image_alt: 'Powerlite Brand Logo',
+            image_title: 'Powerlite - IPL och Laser Teknologi för Hudvård',
+            url: 'varumarken/powerlite-photonova',
+            url_title: 'Läs mer om Powerlite IPL och Laser Hudvårdsteknologi'
+      ),
+      new Brand(
+            label: 'Dermapen',
+            image: 'images/brands/dermapen4.svg',
+            image_alt: 'Dermapen Brand Logo',
+            image_title: 'Dermapen4 - Microneedling Verktyg för Hudföryngring',
+            url: 'dermapen.php',
+            url_title: 'Läs mer om Dermapen Microneedling Hudvårdslösningar',
+      ),
+      new Brand(
+            label: 'Cryopen',
+            image: 'images/brands/cryopen.svg',
+            image_alt: 'Cryopen Brand Logo',
+            image_title: 'Cryopen - Kryoterapi Verktyg för Hudbehandlingar',
+            url: 'cryopen.php',
+            url_title: 'Läs mer om Cryopen Kryoterapi Hudbehandlingar',
+      ),
+      new Brand(
+            label: 'Alma',
+            image: 'images/brands/alma.svg',
+            image_alt: 'Alma Brand Logo',
+            image_title: 'Alma - Laser, IPL och RF (Radiofrekvens) Teknologi för Hudföryngring',
+            url: 'varumarken/alma',
+            url_title: 'Läs mer om Alma Laser, IPL och RF Hudvårdsteknologi',
+      ),
+      new Brand(
+            label: 'PRX-T33',
+            image: 'images/brands/prxt.svg',
+            image_alt: 'PRX-T33 Brand Logo',
+            image_title: 'PRX-T33 - Bio-revitaliserande Hudbehandlingsteknik',
+            url: 'prx-t33.php',
+            url_title: 'Läs mer om PRX-T33 Bio-revitaliserande Hudbehandlingar',
+      ),
+      new Brand(
+            label: 'Hydrafacial',
+            image: 'images/brands/hydrafacial.svg',
+            image_alt: 'Hydrafacial Brand Logo',
+            image_title: 'Hydrafacial - Intensiv Hydrering och Rengöring Behandlingar för Hudvård',
+            url: 'hydrafacial.php',
+            url_title: 'Läs mer om Hydrafacial Hudvårdsbehandlingar',
+      ),
+      new Brand(
+            label: 'Infuzion',
+            image: 'images/brands/ipinfusion.svg',
+            image_alt: 'Infuzion Brand Logo',
+            image_title: 'Infuzion - Hudföryngring och Näringsinfusion System för Hudvård',
+            url: 'infuzion.php',
+            url_title: 'Läs mer om Infuzion Hudföryngringslösningar'
+      ),
 );
 
 $brands_url_label = "Se alla varumärken";
@@ -563,7 +571,7 @@ $brands_url_title = "Varumärken för Rosaceabehandling";
                         </a>
                     </div>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $faq_url_title ?>" href="faq"><?php echo $faq_url_label ?></a>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $faq_url_title ?>" href="fragor-svar.php"><?php echo $faq_url_label ?></a>
                 </section>
                 <!--Hudguide-->
                 <section id="specialists">

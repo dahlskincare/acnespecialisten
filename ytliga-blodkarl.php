@@ -111,7 +111,7 @@ $treatment_steps = array(
             content: 'Hos AcneSpecialisten kopplas du till en personlig hudterapeut som hjälper dig identifiera de ytliga blodkärlen i ditt ansikte och skapar en individuell behandlingsplan.',
 
             url_label: 'Få gratis konsultation',
-            url: 'gratis-hudkonsultation',
+            url: 'gratis-hudkonsultation.php',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
@@ -119,7 +119,7 @@ $treatment_steps = array(
             content: 'Vi utför skonsamma och effektiva behandlingar för ytliga blodkärl, anpassade till din specifika hudtyp och problemområden, så att du snabbt och säkert kan förbättra hudens utseende.',
 
             url_label: 'Se behandlingar för ytliga blodkärl',
-            url: 'behandlingar/ytliga-blodkarl',
+            url: 'ipl-ytliga-blodkarl.php',
             url_title: 'Utforska våra skräddarsydda behandlingar för ytliga blodkärl'
       ),
 );
@@ -634,7 +634,7 @@ $related_problems = array(
             image: 'images/problems/200x200/rosacea.webp',
             image_alt: 'Bild som illustrerar rosacea',
             image_title: 'Rosacea - en hudsjukdom som ofta associeras med ytliga blodkärl',
-            url: 'problem/rosacea',
+            url: 'rosacea.php',
             url_title: 'Rosacea'
       ),
 );
@@ -644,7 +644,7 @@ $brands = array(
             image: 'images/brands/powerlite.svg',
             image_alt: 'Powerlite Brand Logo',
             image_title: 'Powerlite - IPL och Laser Teknologi för Hudvård',
-            url: 'varumarken/powerlite',
+            url: 'varumarken/powerlite-photonova',
             url_title: 'Läs mer om Powerlite IPL och Laser Hudvårdsteknologi'
       ),
       new Brand(
@@ -652,7 +652,7 @@ $brands = array(
             image: 'images/brands/dermapen4.svg',
             image_alt: 'Dermapen Brand Logo',
             image_title: 'Dermapen4 - Microneedling Verktyg för Hudföryngring',
-            url: 'varumarken/dermapen4',
+            url: 'dermapen.php',
             url_title: 'Läs mer om Dermapen Microneedling Hudvårdslösningar',
       ),
       new Brand(
@@ -660,16 +660,8 @@ $brands = array(
             image: 'images/brands/cryopen.svg',
             image_alt: 'Cryopen Brand Logo',
             image_title: 'Cryopen - Kryoterapi Verktyg för Hudbehandlingar',
-            url: 'varumarken/cryopen',
+            url: 'cryopen.php',
             url_title: 'Läs mer om Cryopen Kryoterapi Hudbehandlingar',
-      ),
-      new Brand(
-            label: 'Lumenis',
-            image: 'images/brands/lumenis.svg',
-            image_alt: 'Lumenis Brand Logo',
-            image_title: 'Lumenis - Laser och Intensivt Pulserat Ljus (IPL) Teknologi för Hudvård',
-            url: 'varumarken/lumenis',
-            url_title: 'Läs mer om Lumenis Laser och IPL Hudvårdslösningar',
       ),
       new Brand(
             label: 'Alma',
@@ -684,7 +676,7 @@ $brands = array(
             image: 'images/brands/prxt.svg',
             image_alt: 'PRX-T33 Brand Logo',
             image_title: 'PRX-T33 - Bio-revitaliserande Hudbehandlingsteknik',
-            url: 'varumarken/prxt',
+            url: 'prx-t33.php',
             url_title: 'Läs mer om PRX-T33 Bio-revitaliserande Hudbehandlingar',
       ),
       new Brand(
@@ -692,7 +684,7 @@ $brands = array(
             image: 'images/brands/hydrafacial.svg',
             image_alt: 'Hydrafacial Brand Logo',
             image_title: 'Hydrafacial - Intensiv Hydrering och Rengöring Behandlingar för Hudvård',
-            url: 'varumarken/hydrafacial',
+            url: 'hydrafacial.php',
             url_title: 'Läs mer om Hydrafacial Hudvårdsbehandlingar',
       ),
       new Brand(
@@ -700,7 +692,7 @@ $brands = array(
             image: 'images/brands/ipinfusion.svg',
             image_alt: 'Infuzion Brand Logo',
             image_title: 'Infuzion - Hudföryngring och Näringsinfusion System för Hudvård',
-            url: 'varumarken/infuzion',
+            url: 'infuzion.php',
             url_title: 'Läs mer om Infuzion Hudföryngringslösningar'
       ),
 );
@@ -965,7 +957,7 @@ $brands_url_title = "Varumärken för behandling av ytliga blodkärl";
                         <section id="faq">
                               <h2 class="big l10n">Frågor & Svar</h2>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $faq_url_title ?>" href="faq"><?php echo $faq_url_label ?></a>
+                              <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $faq_url_title ?>" href="fragor-svar.php"><?php echo $faq_url_label ?></a>
                         </section>
                         <!--Hudguide-->
                         <section id="specialists">
