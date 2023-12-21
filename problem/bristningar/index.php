@@ -468,9 +468,9 @@ $service = new Service(
       image_alt: 'Bild av en konsultation för bristningsbehandling',
       image_title: 'Konsultation för bristningsbehandling',
 
-      url_label: null,
-      url: null,
-      url_title: null,
+      url_label: '',
+      url: '',
+      url_title: '',
 
       consultation_url_label: 'Boka konsultation',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_StrechMarks',
