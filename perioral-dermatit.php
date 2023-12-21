@@ -36,11 +36,11 @@ $akas = [
 ];
 
 $consultation_url_label = "Få gratis konsultation";
-$consultation_url = "consultation-booking?problem=perioral-dermatit";
+$consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_PerioralDermatitis";
 $consultation_url_title = "Gratis Konsultation för Perioral Dermatit";
 
 $booking_url_label = "Boka behandling";
-$booking_url = "treatment-booking?problem=perioral-dermatit";
+$booking_url = "https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_PerioralDermatitis";
 $booking_url_title = "Boka Perioral Dermatitbehandling";
 
 $mobile_consultation_url_label = "Få gratis konsultation";

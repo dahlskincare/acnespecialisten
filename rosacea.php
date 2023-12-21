@@ -19,11 +19,11 @@ $image_alt = 'Bild som illustrerar hur rosacea ser ut på huden';
 $description = 'Här förklarar vi vad som kännetecknar rosacea, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av rosacea, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';
 
 
-$consultation_url = "consultation-booking?problem=rosacea";
+$consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea";
 $consultation_url_label = "Få gratis konsultation";
 $consultation_url_title = "Gratis Konsultation för Rosacea";
 
-$booking_url = "treatment-booking?problem=rosacea";
+$booking_url = "https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Rosacea";
 $booking_url_label = "Boka behandling";
 $booking_url_title = "Boka Aknebehandling";
 

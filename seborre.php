@@ -30,11 +30,11 @@ $akas = [
       ),
 ];
 
-$consultation_url = "consultation-booking?problem=seborre";
+$consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Seborrea";
 $consultation_url_label = "Få gratis konsultation";
 $consultation_url_title = "Gratis Konsultation för Seborré";
 
-$booking_url = "treatment-booking?problem=seborre";
+$booking_url = "https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Seborrea";
 $booking_url_label = "Boka behandling";
 $booking_url_title = "Boka din tid för behandling av seborré";
 

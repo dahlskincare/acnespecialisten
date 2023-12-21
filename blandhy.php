@@ -35,11 +35,11 @@ $akas = [
 ];
 
 $consultation_url_label = "Få gratis konsultation";
-$consultation_url = "consultation-booking?problem=combination-skin";
+$consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin";
 $consultation_url_title = "Gratis Konsultation för Blandhy";
 
 $booking_url_label = "Boka behandling";
-$booking_url = "treatment-booking?problem=combination-skin";
+$booking_url = "https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_CombinationSkin";
 $booking_url_title = "Boka Behandling för Blandhy";
 
 $mobile_consultation_url_label = "Få gratis konsultation";

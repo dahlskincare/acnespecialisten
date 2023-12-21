@@ -31,11 +31,11 @@ $akas = [
 ];
 
 $consultation_url_label = "Få gratis konsultation";
-$consultation_url = "consultation-booking?problem=mature-skin";
+$consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Wrinkles";
 $consultation_url_title = "Gratis Konsultation för Mogen Hy";
 
 $booking_url_label = "Boka behandling";
-$booking_url = "treatment-booking?problem=mature-skin";
+$booking_url = "https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Wrinkles";
 $booking_url_title = "Boka Behandling för Mogen Hy";
 
 $mobile_consultation_url_label = "Få gratis konsultation";

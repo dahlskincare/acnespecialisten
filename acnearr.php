@@ -33,11 +33,11 @@ $akas = [
       ),
 ];
 
-$consultation_url = "consultation-booking?problem=acneScars";
+$consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars";
 $consultation_url_label = "Få gratis konsultation";
 $consultation_url_title = "Gratis Konsultation för Akneärr";
 
-$booking_url = "treatment-booking?problem=acneScars";
+$booking_url = "https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_AcneScars";
 $booking_url_label = "Boka behandling";
 $booking_url_title = "Boka behandling mot akneärr";
 

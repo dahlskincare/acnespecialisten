@@ -31,11 +31,11 @@ $akas = [
 ];
 
 $consultation_url_label = "Få gratis konsultation";
-$consultation_url = "consultation-booking?problem=ytliga-blodkarl";
+$consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_BloodVessels";
 $consultation_url_title = "Gratis Konsultation för Ytliga Blodkärl";
 
 $booking_url_label = "Boka behandling";
-$booking_url = "treatment-booking?problem=ytliga-blodkarl";
+$booking_url = "https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_BloodVessels";
 $booking_url_title = "Boka Behandling för Ytliga Blodkärl";
 
 $mobile_consultation_url_label = "Få gratis konsultation";

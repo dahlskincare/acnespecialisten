@@ -36,11 +36,11 @@ $akas = [
 ];
 
 $consultation_url_label = "Få gratis konsultation";
-$consultation_url = "consultation-booking?problem=torr-kanslig-hy";
+$consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_DrySensetiveSkin";
 $consultation_url_title = "Gratis Konsultation för Torr och Känslig Hy";
 
 $booking_url_label = "Boka behandling";
-$booking_url = "treatment-booking?problem=torr-kanslig-hy";
+$booking_url = "https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_DrySensetiveSkin";
 $booking_url_title = "Boka Behandling för Torr och Känslig Hy";
 
 $mobile_consultation_url_label = "Få gratis konsultation";

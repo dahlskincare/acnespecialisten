@@ -37,11 +37,11 @@ $akas = [
 ];
 
 $consultation_url_label = "Få gratis konsultation";
-$consultation_url = "consultation-booking?problem=milier";
+$consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Milia";
 $consultation_url_title = "Gratis Konsultation för Milier";
 
 $booking_url_label = "Boka behandling";
-$booking_url = "treatment-booking?problem=milier";
+$booking_url = "https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Milia";
 $booking_url_title = "Boka Milierbehandling";
 
 $mobile_consultation_url_label = "Få gratis konsultation";
