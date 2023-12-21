@@ -111,7 +111,7 @@ $treatment_steps = array(
             content: 'Hos AcneSpecialisten kopplas du till en personlig hudterapeut som hjälper dig identifiera de ytliga blodkärlen i ditt ansikte och skapar en individuell behandlingsplan.',
 
             url_label: 'Få gratis konsultation',
-            url: 'gratis-hudkonsultation.php',
+            url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_BloodVessels',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(

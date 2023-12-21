@@ -103,14 +103,14 @@ $treatment_steps = array(
             title: 'Identifiera',
             content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din rosacea och skapar en individuell behandlingsplan.',
             url_label: 'Få gratis konsultation',
-            url: 'gratis-hudkonsultation',
+            url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
             content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika rosacea, så att du snabbt och säkert blir av med problemet.',
             url_label: 'Se behandlingar',
-            url: 'behandlingar/rosacea',
+            url: 'rosaceabehandling.php',
             url_title: 'Utforska våra skräddarsydda rosaceabehandlingar'
       ),
       new TreatmentStep(
@@ -124,7 +124,7 @@ $treatment_steps = array(
             title: 'Reparera',
             content: 'När rosacean är borta fokuserar vi på att reducera eventuella ytliga blodkärl med behandlingsmetoder som IPL för en jämn och problemfri hud.',
             url_label: 'Se IPL-behandlingar',
-            url: 'behandlingar/rosacea',
+            url: 'ipl-rosacea.php',
             url_title: 'Upptäck effektiva behandlingar för ytliga blodkärl'
       ),
 

@@ -118,7 +118,7 @@ $treatment_steps = array(
             content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din aknetyp och skapar en individuell behandlingsplan.',
 
             url_label: 'Få gratis konsultation',
-            url: 'gratis-hudkonsultation',
+            url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
@@ -126,7 +126,7 @@ $treatment_steps = array(
             content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika aknetyp, så att du snabbt och säkert blir av med problemet.',
 
             url_label: 'Se aknebehandlingar',
-            url: 'behandlingar/akne',
+            url: 'acnebehandling.php',
             url_title: 'Utforska våra skräddarsydda aknebehandlingar'
       ),
       new TreatmentStep(
@@ -142,12 +142,12 @@ $treatment_steps = array(
             content: 'När aknen är borta fokuserar vi på att reducera eventuella ärr med behandlingsmetoder som laser, microneedling och kemisk peeling för en jämn och problemfri hud.',
 
             url_label: 'Se ärrbehandlingar',
-            url: 'behandlingar/aknearr',
+            url: 'behandla-acnearr.php',
             url_title: 'Upptäck effektiva behandlingar för akneärr'
       ),
 
 );
-$treatment_link = '<a href="problem/akne/aknebehandling" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra aknebehandlingar</a>';
+$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra aknebehandlingar</a>';
 
 $types_title = 'Olika typer av akne';
 

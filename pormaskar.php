@@ -108,14 +108,14 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
             content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera dina pormaskar och skapar en individuell behandlingsplan.',
-            url: 'gratis-hudkonsultation',
+            url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
             url_label: 'Få gratis konsultation',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
             content: 'Vi utför skonsamma och effektiva portömning anpassade för dina pormaskar, så att du snabbt och säkert blir av med problemet.',
-            url: 'behandlingar/pormaskar',
+            url: 'problemhy/pormaskar/pormaskbehandling',
             url_label: 'Se portömning',
             url_title: 'Utforska våra skräddarsydda portömning'
       ),

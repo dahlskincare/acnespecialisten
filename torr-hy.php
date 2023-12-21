@@ -111,7 +111,7 @@ $treatment_steps = array(
             content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig att identifiera din hudtyp som torr och känslig, samt skapar en individuell behandlingsplan för dig.',
 
             url_label: 'Få gratis konsultation',
-            url: 'gratis-hudkonsultation',
+            url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_DrySensetiveSkin',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
@@ -119,7 +119,7 @@ $treatment_steps = array(
             content: 'Vi erbjuder milda och effektiva behandlingar specialanpassade för torr och känslig hud, som syftar till att återfukta och lugna din hud på ett säkert och effektivt sätt.',
 
             url_label: 'Se behandlingar',
-            url: 'behandlingar/torrochkanslig',
+            url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_DrySensetiveSkin',
             url_title: 'Utforska våra skräddarsydda behandlingar för torr och känslig hud'
       ),
       new TreatmentStep(
@@ -127,7 +127,7 @@ $treatment_steps = array(
             content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som är anpassade för torr och känslig hud, för att förhindra framtida hudproblem och behålla hudens balans.',
 
             url_label: 'Se produkter',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/torrochkanslig',
+            url: 'https://dahlskincare.se/produktkategorier/produktpaket/day-n-night-duo',
             url_title: 'Hitta de bästa produkterna för att förebygga hudproblem för torr och känslig hud'
       )
 

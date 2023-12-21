@@ -117,7 +117,7 @@ $treatment_steps = array(
             content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera problemet med dina stora porer och skapar en individuell behandlingsplan.',
 
             url_label: 'Få gratis konsultation',
-            url: 'gratis-hudkonsultation',
+            url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_LargePores',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
@@ -125,7 +125,7 @@ $treatment_steps = array(
             content: 'Vi utför skonsamma och effektiva behandlingar för stora porer, anpassade för din specifika hudtyp, så att du snabbt och säkert kan minska deras framträdande.',
 
             url_label: 'Se behandlingar för stora porer',
-            url: 'behandlingar/stora-porer',
+            url: 'behandla-stora-porer.php',
             url_title: 'Utforska våra skräddarsydda behandlingar för stora porer'
       ),
       new TreatmentStep(
@@ -141,7 +141,7 @@ $treatment_steps = array(
             content: 'När dina porer har minskat i storlek fokuserar vi på att ytterligare förbättra hudens struktur med behandlingsmetoder som laser, microneedling och kemisk peeling för en slät och strålande hud.',
 
             url_label: 'Se förbättringsbehandlingar',
-            url: 'behandlingar/porforbattring',
+            url: 'behandla-stora-porer.php',
             url_title: 'Upptäck effektiva behandlingar för att förbättra hudens struktur'
       ),
 

@@ -124,7 +124,7 @@ $treatment_steps = array(
             content: 'Vid din första konsultation hos AcneSpecialisten bedömer en hudterapeut din hud och identifierar tecknen på blandhy. Genom att förstå din unika kombination av oljiga och torra zoner kan vi skräddarsy en behandlingsplan just för dig.',
 
             url_label: 'Boka konsultation',
-            url: 'gratis-hudkonsultation',
+            url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin',
             url_title: 'Boka din gratis konsultation för blandhy idag'
       ),
       new TreatmentStep(
@@ -132,7 +132,7 @@ $treatment_steps = array(
             content: 'Oavsett om det är oljiga fläckar, torrhet eller båda, erbjuder vi specialiserade behandlingar som tar itu med dina specifika problemområden, för att återställa balansen i din hud.',
 
             url_label: 'Utforska behandlingar',
-            url: 'behandlingar/blandhy',
+            url: 'behandlingar/blandhy/blandhybehandling',
             url_title: 'Ta reda på vilka behandlingar som passar din blandhy'
       ),
       new TreatmentStep(
@@ -148,7 +148,7 @@ $treatment_steps = array(
             content: 'Blandhy kan också lämna efter sig oönskade märken som fläckar eller ojämn hudstruktur. Vi erbjuder avancerade behandlingsmetoder för att återställa hudens jämnhet och lyster, som laserterapi, microneedling och kemisk peeling.',
 
             url_label: 'Ärrbehandlingar',
-            url: 'behandlingar/blandhyarr',
+            url: 'behandla-acnearr.php',
             url_title: 'Se våra behandlingsalternativ för ärr orsakade av blandhy'
       ),
 

@@ -111,19 +111,19 @@ $treatment_steps = array(
             title: 'Identifiera',
             content: 'Hos AcneSpecialisten blir du omhändertagen av en personlig hudterapeut som noga undersöker och identifierar dina akneärr. Tillsammans kartlägger vi din unika ärrtyp och skapar en individuell behandlingsplan, skräddarsydd för just dina behov.',
             url_label: 'Få gratis konsultation',
-            url: 'gratis-hudkonsultation',
+            url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars',
             url_title: 'Boka din kostnadsfria ärrkonsultation idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
             content: 'Med målinriktade och effektiva akneärrbehandlingar, skräddarsyr vi en lösning som är perfekt anpassad för din specifika ärrtyp. Vår expertis säkerställer en snabb och säker förbättring av hudens utseende, så att du kan känna dig trygg och nöjd med ditt resultat.',
             url_label: 'Se ärrbehandlingar',
-            url: 'behandlingar/aknearr',
+            url: 'behandla-acnearr.php',
             url_title: 'Utforska våra skräddarsydda behandlingar för akneärr'
       ),
 );
 
-$treatment_link = '<a href="problem/aknearr/aknearrbehandling" title="Utforska effektiva behandlingar för akneärr" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar för akneärr</a>';
+$treatment_link = '<a href="behandla-acnearr.php" title="Utforska effektiva behandlingar för akneärr" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar för akneärr</a>';
 
 
 $symptoms_title = 'Olika typer av akneärr';

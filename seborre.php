@@ -106,14 +106,14 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
             content: 'På AcneSpecialisten kopplar vi dig med en erfaren hudterapeut som hjälper dig att korrekt identifiera din seborré och utformar en individuell seborrébehandlingsplan speciellt för dig.',
-            url: 'gratis-hudkonsultation',
+            url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Seborrea',
             url_label: 'Boka din gratis konsultation nu',
             url_title: 'Boka en tid för gratis seborré konsultation',
       ),
       new TreatmentStep(
             title: 'Behandla',
             content: 'Vi erbjuder en rad skonsamma och effektiva seborrébehandlingar anpassade till din specifika typ av seborré, vilket säkerställer att du snabbt och säkert kan bli av med ditt seborréproblem.',
-            url: 'behandlingar/seborre',
+            url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Seborrea',
             url_label: 'Utforska våra seborrébehandlingar',
             url_title: 'Utforska alla våra effektiva seborrébehandlingar',
       ),

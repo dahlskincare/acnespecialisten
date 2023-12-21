@@ -115,7 +115,7 @@ $treatment_steps = array(
             content: 'Hos AcneSpecialisten matchas du med en personlig hudterapeut som hjälper dig att identifierar dina milier och skapar en individuell behandlingsplan.',
 
             url_label: 'Få gratis konsultation',
-            url: 'gratis-hudkonsultation',
+            url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Milia',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
@@ -123,7 +123,7 @@ $treatment_steps = array(
             content: 'Vi erbjuder målinriktade och effektiva behandlingar för milier, anpassade till din hud och dess unika behov. Vårt mål är att du ska kunna bli av med dina milier på ett säkert och effektivt sätt.',
 
             url_label: 'Se milierbehandlingar',
-            url: 'behandlingar/milier',
+            url: 'milierbehandling.php',
             url_title: 'Utforska våra skräddarsydda behandlingar för milier'
       ),
 );

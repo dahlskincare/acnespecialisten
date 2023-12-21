@@ -110,7 +110,7 @@ $treatment_steps = array(
             content: 'Hos AcneSpecialisten kopplas du till en personlig hudterapeut som hjälper dig att identifiera tecknen på mogen hy och skapar en skräddarsydd behandlingsplan för dina specifika behov.',
 
             url_label: 'Få gratis konsultation',
-            url: 'gratis-hudkonsultation',
+            url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Skin_Consultation',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
@@ -118,7 +118,7 @@ $treatment_steps = array(
             content: 'Vi utför skonsamma och effektiva behandlingar särskilt anpassade för mogen hy. Våra metoder är designade för att ge din hud förnyad lyster, minska fina linjer och förbättra hudens elasticitet.',
 
             url_label: 'Se behandlingar för mogen hy',
-            url: 'behandlingar/mogenhy',
+            url: 'behandlingar/mogenhy/behandla-mogen-hy',
             url_title: 'Utforska våra skräddarsydda behandlingar för mogen hy'
       ),
       new TreatmentStep(

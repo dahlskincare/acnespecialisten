@@ -112,14 +112,14 @@ $treatment_steps = array(
             title: 'Identifiera',
             content: 'Hos FinnarSpecialisten blir du kopplad till en expert hudterapeut som analyserar din finnartyp och skapar en unik behandlingsplan. Vare sig du lider av milda eller allvarliga finnar, hjälper vi dig att förstå orsakerna och den bästa vägen framåt.',
             url_label: 'Få gratis konsultation',
-            url: 'gratis-hudkonsultation',
+            url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
             content: 'Vi erbjuder målinriktade och effektiva behandlingar för dina finnar, anpassade efter din hudtyp och finnarnas svårighetsgrad. Genom säkra metoder säkerställer vi att du snabbt får kontroll över ditt problem.',
             url_label: 'Se behandlingar mot finnar',
-            url: 'behandlingar',
+            url: 'behandla-finnar.php',
             url_title: 'Utforska våra skräddarsydda behandlingar mot finnar'
       ),
       new TreatmentStep(
@@ -133,7 +133,7 @@ $treatment_steps = array(
             title: 'Reparera',
             content: 'Om finnarna har lämnat ärr eller annan skada, fokuserar vi på att reparera din hud med avancerade behandlingsmetoder som laser, microneedling och kemisk peeling. Målet är en jämn, vacker och problemfri hud.',
             url_label: 'Se ärrbehandlingar',
-            url: 'behandlingar/finnar-behandling',
+            url: 'behandla-finnar-arr.php',
             url_title: 'Upptäck effektiva behandlingar för ärr orsakade av finnar'
       ),
 );

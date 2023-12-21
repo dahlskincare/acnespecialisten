@@ -113,14 +113,14 @@ $treatment_steps = array(
             title: 'Identifiera',
             content: 'På AcneSpecialisten börjar din behandling med en gratis konsultation. En erfaren hudterapeut undersöker dina hudproblem, identifierar dina specifika pigmentfläckar och skapar en skräddarsydd behandlingsplan anpassad till dina unika behov.',
             url_label: 'Boka en gratis konsultation',
-            url: 'gratis-hudkonsultation',
+            url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_PigmentationSpots',
             url_title: 'Boka din kostnadsfria konsultation om pigmentfläckar idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
             content: 'Med din personliga behandlingsplan i hand använder AcneSpecialisten specialiserade metoder för att effektivt behandla dina pigmentfläckar. Vår expertis säkerställer att du snabbt ser resultat och känner dig nöjd med din hud.',
             url_label: 'Utforska våra behandlingar för pigmentfläckar',
-            url: 'behandlingar/pigmentflackar',
+            url: 'behandla-pigmentflackar.php',
             url_title: 'Upptäck våra unika och effektiva behandlingar för pigmentfläckar'
       ),
 );
