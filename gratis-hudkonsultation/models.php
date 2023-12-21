@@ -1,7 +1,7 @@
 <?php
 class ConsultationCategory
 {
-    function __construct($id, $name, $description, $types, $button_label = 'View problems list')
+    function __construct($id, $name, $description, $types, $button_label = 'Se lista')
     {
         $this->id = $id;
         $this->name = $name;
@@ -19,7 +19,7 @@ class ConsultationCategory
 
 class ConsultationType
 {
-    function __construct($title, $image, $url, $consultation_url, $subtitle = null, $url_label = 'View problem details', $consultation_url_label = 'Get a free consultation')
+    function __construct($title, $image, $url, $consultation_url, $subtitle = null, $url_label = 'Läs mer', $consultation_url_label = 'Boka')
     {
         $this->title = $title;
         $this->image = $image;

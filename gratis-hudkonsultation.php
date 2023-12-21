@@ -14,25 +14,144 @@ $categories = array(
         description: 'Här hittar du våra konsultationer som är anpassade för ditt hudproblem. Vi analyserar din hy och tar fram en behandlingsplan med rätt behandlingar och produkter för just din hudtyp.',
         types: array(
             new ConsultationType(
-                title: 'Acne',
+                title: 'Akne',
                 subtitle: '',
                 image: '',
                 url: '',
-                consultation_url: 'consultation-booking?problem=acneScars'
+                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne'
             ),
             new ConsultationType(
-                title: 'Acne scars',
-                subtitle: 'Also called acne',
-                image: 'https://via.placeholder.com/102x102.webp',
-                url: 'behandlingar/ansiktsbehandlingar-problemhy/chemical-peeling/',
-                consultation_url: 'consultation-booking?problem=chemicalPeeling'
+                title: 'Akneärr',
+                subtitle: '',
+                image: '',
+                url: '',
+                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars'
             ),
             new ConsultationType(
-                title: 'Comedones',
-                subtitle: 'Also called scars stains',
-                image: 'https://via.placeholder.com/102x102.webp',
-                url: 'behandlingar/ansiktsbehandlingar-problemhy/chemical-peeling/',
-                consultation_url: 'consultation-booking?problem=chemicalPeeling'
+                title: 'Finnar',
+                subtitle: '',
+                image: '',
+                url: '',
+                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples'
+            ),
+            new ConsultationType(
+                title: 'Blandhy',
+                subtitle: '',
+                image: '',
+                url: '',
+                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin'
+            ),
+            new ConsultationType(
+                title: 'Pormaskar',
+                subtitle: '',
+                image: '',
+                url: '',
+                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones'
+            ),
+            new ConsultationType(
+                title: 'Rosacea',
+                subtitle: '',
+                image: '',
+                url: '',
+                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea'
+            ),
+            new ConsultationType(
+                title: 'Milier',
+                subtitle: '',
+                image: '',
+                url: '',
+                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Milia'
+            ),
+            new ConsultationType(
+                title: 'Perioral Dermatit',
+                subtitle: '',
+                image: '',
+                url: '',
+                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_PerioralDermatitis'
+            ),
+            new ConsultationType(
+                title: 'Seborré',
+                subtitle: '',
+                image: '',
+                url: '',
+                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Seborrea'
+            ),
+            new ConsultationType(
+                title: 'Bristningar',
+                subtitle: '',
+                image: '',
+                url: '',
+                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_StrechMarks'
+            ),
+            new ConsultationType(
+                title: 'Födelsemärken',
+                subtitle: '',
+                image: '',
+                url: '',
+                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Moles'
+            ),
+            new ConsultationType(
+                title: 'Pigmentfläckar',
+                subtitle: '',
+                image: '',
+                url: '',
+                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_PigmentationSpots'
+            ),
+            new ConsultationType(
+                title: 'Mogen hy',
+                subtitle: '',
+                image: '',
+                url: '',
+                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Wrinkles'
+            ),
+            new ConsultationType(
+                title: 'Rodnad',
+                subtitle: '',
+                image: '',
+                url: '',
+                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Redness'
+            ),
+            new ConsultationType(
+                title: 'Stora porer',
+                subtitle: '',
+                image: '',
+                url: '',
+                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_LargePores'
+            ),
+            new ConsultationType(
+                title: 'Torr & känslig hy',
+                subtitle: '',
+                image: '',
+                url: '',
+                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_DrySensetiveSkin'
+            ),
+            new ConsultationType(
+                title: 'Ytliga Blodkärl',
+                subtitle: '',
+                image: '',
+                url: '',
+                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_BloodVessels'
+            ),
+            new ConsultationType(
+                title: 'Operations- och skadeärr',
+                subtitle: '',
+                image: '',
+                url: '',
+                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars'
+            ),
+            new ConsultationType(
+                title: 'Melasma',
+                subtitle: '',
+                image: '',
+                url: '',
+                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Melasma'
+            ),
+            new ConsultationType(
+                title: 'Oönskat hår',
+                subtitle: '',
+                image: '',
+                url: '',
+                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserHairRemoval'
             ),
         ),
         button_label: 'Se problemhy konsultationer',
