@@ -496,16 +496,16 @@ $services = array(
             image_alt: 'Bild av laserbehandling mot bristningar',
             image_title: 'Laserbehandling mot bristningar',
 
-            url_label: 'Läs mer om laser mot bristningar',
-            url: 'behandlingar/laser-bristningar',
-            url_title: 'Klicka här för att läsa mer om laserbehandling mot bristningar',
+            url_label: '',
+            url: '',
+            url_title: '',
 
-            consultation_url_label: 'Boka tid för konsultation',
-            consultation_url: 'consultation-booking?problem=stretchmarks&service=laser',
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_StrechMarks',
             consultation_url_title: 'Klicka för att boka tid för en konsultation för laserbehandling mot bristningar',
 
-            booking_url_label: 'Boka tid för laserbehandling mot bristningar',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/bristningsspecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/bristning-konsultation-1643922',
+            booking_url_label: 'Boka behandling',
+            booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_StrechMarks',
             booking_url_title: 'Klicka för att boka tid för en laserbehandling mot bristningar'
       ),
       new Service(
@@ -519,16 +519,16 @@ $services = array(
             image_alt: 'Bild av kemisk peeling mot bristningar',
             image_title: 'Kemisk peeling mot bristningar',
 
-            url: 'behandlingar/kemisk-peeling-bristningar',
-            url_label: 'Läs mer om kemisk peeling mot bristningar',
-            url_title: 'Klicka här för att läsa mer om kemisk peeling mot bristningar',
+            url_label: '',
+            url: '',
+            url_title: '',
 
-            consultation_url: 'consultation-booking?problem=stretchmarks&service=chemicalPeeling',
-            consultation_url_label: 'Boka tid för konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_StrechMarks',
+            consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka för att boka tid för en konsultation för kemisk peeling mot bristningar',
 
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/bristningsspecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/bristning-konsultation-1643922',
-            booking_url_label: 'Boka tid för kemisk peeling mot bristningar',
+            booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_StrechMarks',
+            booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en kemisk peeling mot bristningar behandling'
       ),
       new Service(
@@ -542,16 +542,16 @@ $services = array(
             image_alt: 'Bild av microneedling mot bristningar',
             image_title: 'Microneedling mot bristningar',
 
-            url: 'behandlingar/microneedling-bristningar',
-            url_label: 'Läs mer om microneedling mot bristningar',
-            url_title: 'Klicka här för att läsa mer om microneedling mot bristningar',
+            url_label: '',
+            url: '',
+            url_title: '',
 
-            consultation_url_label: 'Boka tid för konsultation',
-            consultation_url: 'consultation-booking?problem=stretchmarks&service=microneedling',
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_StrechMarks',
             consultation_url_title: 'Klicka för att boka tid för en konsultation för microneedling mot bristningar',
 
-            booking_url_label: 'Boka tid för microneedling mot bristningar',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/bristningsspecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/bristning-konsultation-1643922',
+            booking_url_label: 'Boka behandling',
+            booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_StrechMarks',
             booking_url_title: 'Klicka för att boka tid för en microneedling mot bristningar behandling'
       ),
 );
