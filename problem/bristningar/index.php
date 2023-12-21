@@ -468,9 +468,9 @@ $service = new Service(
       image_alt: 'Bild av en konsultation för bristningsbehandling',
       image_title: 'Konsultation för bristningsbehandling',
 
-      url_label: 'Läs mer om vår konsultation',
-      url: 'konsultation',
-      url_title: 'Klicka här för att läsa mer om gratis hudkonsultation',
+      url_label: null,
+      url: null,
+      url_title: null,
 
       consultation_url_label: 'Boka tid för hudkonsultation',
       consultation_url: 'consultation-booking?problem=stretchmarks',
