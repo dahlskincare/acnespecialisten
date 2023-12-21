@@ -14,17 +14,17 @@ $categories = array(
         description: 'Här hittar du våra konsultationer som är anpassade för ditt hudproblem. Vi analyserar din hy och tar fram en behandlingsplan med rätt behandlingar och produkter för just din hudtyp.',
         types: array(
             new ConsultationType(
-                title: 'Acne',
-                subtitle: 'Also called acne scars',
-                image: 'https://via.placeholder.com/102x102.webp',
-                url: 'behandlingar/ansiktsbehandlingar-problemhy/chemical-peeling/',
+                title: 'Akne',
+                subtitle: '',
+                image: '',
+                url: '',
                 consultation_url: 'consultation-booking?problem=acneScars'
             ),
             new ConsultationType(
                 title: 'Acne scars',
-                subtitle: 'Also called acne',
-                image: 'https://via.placeholder.com/102x102.webp',
-                url: 'behandlingar/ansiktsbehandlingar-problemhy/chemical-peeling/',
+                subtitle: null,
+                image: null,
+                url: null,
                 consultation_url: 'consultation-booking?problem=chemicalPeeling'
             ),
             new ConsultationType(
@@ -35,7 +35,7 @@ $categories = array(
                 consultation_url: 'consultation-booking?problem=chemicalPeeling'
             ),
         ),
-        button_label: 'Se problmehy konsultationer',
+        button_label: 'Se problemhy konsultationer',
     ),
     new ConsultationCategory(
         id: 'service-consultation',
@@ -126,10 +126,10 @@ $categories = array(
                         <div class="mt-xl">
                             <div class="columns is-2 is-variable">
                                 <div class="column">
-                                    <a href="consultation-booking?type=clinic" class="button white expand l10n" title="Book a clinict visit">Boka ett klinikbesök</a>
+                                    <a href="https://acnespecialisten.se/book?flow=consultation" class="button white expand l10n" title="Book a clinict visit">Boka ett klinikbesök</a>
                                 </div>
                                 <div class="column">
-                                    <a href="consultation-booking?type=online" class="button white expand l10n" title="Book an online call">Boka online konsultation</a>
+                                    <a href="https://acnespecialisten.se/book?flow=consultation" class="button white expand l10n" title="Book an online call">Boka online konsultation</a>
                                 </div>
                             </div>
                         </div>
@@ -149,10 +149,10 @@ $categories = array(
                     <div class="mt-xl">
                         <div class="columns is-mobile">
                             <div class="column is-half">
-                                <a href="consultation-booking?type=clinic" class="button b200 white expand l10n" title="Book a clinic visit">Boka ett klinikbesök</a>
+                                <a href="https://acnespecialisten.se/book?flow=consultation" class="button b200 white expand l10n" title="Book a clinic visit">Boka ett klinikbesök</a>
                             </div>
                             <div class="column is-half">
-                                <a href="consultation-booking?type=online" class="button b200 white expand l10n" title="Book an online call">Boka online konsultation</a>
+                                <a href="https://acnespecialisten.se/book?flow=consultation" class="button b200 white expand l10n" title="Book an online call">Boka online konsultation</a>
                             </div>
                         </div>
                     </div>
@@ -175,8 +175,8 @@ $categories = array(
                         <h3 class="mt-s h200 l10n">Längd: 20 min</h3>
                         <p class="mt-s p200 l10n">Vår kostnadsfria hudkonsultation passar alla. Vi identifierar din hudtyp och vilken problemhy du har med hjälp av vår hudanalys.</p>
                         <div class="mt-xl flex-row" id="book-buttons">
-                            <a href="consultation-booking?type=clinic" class="button b200 white l10n" title="Book a clinic visit">Boka ett klinikbesök</a>
-                            <a href="consultation-booking?type=online" class="button b200 white l10n" title="Book an online call">Boka online konsultation</a>
+                            <a href="https://acnespecialisten.se/book?flow=consultation" class="button b200 white l10n" title="Book a clinic visit">Boka ett klinikbesök</a>
+                            <a href="https://acnespecialisten.se/book?flow=consultation" class="button b200 white l10n" title="Book an online call">Boka online konsultation</a>
                         </div>
                     </div>
                 </div>

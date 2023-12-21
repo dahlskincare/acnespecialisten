@@ -479,11 +479,11 @@ $service = new Service(
       image_title: 'Konsultation för aknebehandling',
 
       url_label: 'Läs mer om vår hudkonsultation',
-      url: 'gratis-hudkonsultation',
+      url: 'gratis-hudkonsultation.php',
       url_title: 'Klicka här för att läsa mer om gratis hudkonsultation',
 
       consultation_url_label: 'Boka tid för hudkonsultation',
-      consultation_url: 'consultation-booking?problem=acne',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Skin_Consultation',
       consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för akne',
 
       booking_url_label: null,
