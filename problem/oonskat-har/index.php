@@ -20,11 +20,11 @@ $image_alt = 'Bild som illustrerar hur oönskat hår ser ut på huden';
 $description = 'Här förklarar vi vad som kännetecknar oönskat hår, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av oönskat hår, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';
 
 $consultation_url_label = "Få gratis konsultation";
-$consultation_url = "consultation-booking?problem=oonskat-har";
+$consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserHairRemoval";
 $consultation_url_title = "Gratis Konsultation för Oönskat Hår";
 
 $booking_url_label = "Boka behandling";
-$booking_url = "treatment-booking?problem=oonskat-har";
+$booking_url = "https://acnespecialisten.se/book?flow=permanent_harborttagning";
 $booking_url_title = "Boka Behandling för Oönskat Hår";
 
 $mobile_consultation_url_label = "Få gratis konsultation";

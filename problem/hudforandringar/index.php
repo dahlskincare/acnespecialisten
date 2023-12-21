@@ -39,11 +39,11 @@ $akas = [
 ];
 
 $consultation_url_label = "Få gratis konsultation";
-$consultation_url = "consultation-booking?problem=hudforandringar";
+$consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen";
 $consultation_url_title = "Gratis Konsultation för Hudförändringar";
 
 $booking_url_label = "Boka behandling";
-$booking_url = "treatment-booking?problem=hudforandringar";
+$booking_url = "https://acnespecialisten.se/book?flow=cryopen";
 $booking_url_title = "Boka Aknebehandling";
 
 $mobile_consultation_url_label = "Få gratis konsultation";

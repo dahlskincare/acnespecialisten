@@ -40,11 +40,11 @@ $akas = [
 ];
 
 $consultation_url_label = "Få gratis konsultation";
-$consultation_url = "consultation-booking?problem=bristningar";
+$consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_StrechMarks";
 $consultation_url_title = "Gratis Konsultation för Bristningar";
 
 $booking_url_label = "Boka behandling";
-$booking_url = "treatment-booking?problem=bristningar";
+$booking_url = "https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_StrechMarks";
 $booking_url_title = "Boka Bristningsbehandling";
 
 $mobile_consultation_url_label = "Få gratis konsultation";
