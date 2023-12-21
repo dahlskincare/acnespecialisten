@@ -45,7 +45,7 @@ class Problem
 
 $problems['akne'] = new Problem(
       label: 'Akne',
-      url: 'akne.php',
+      url: 'acne.php',
       url_title: 'Läs mer om detaljerd information om Akne',
       consultation_url: 'gratis-hudkonsultation',
       consultation_url_title: 'Boka en hudkonsultation',
@@ -58,7 +58,7 @@ $problems['akne'] = new Problem(
 );
 $problems['aknearr'] = new Problem(
       label: 'Akneärr',
-      url: 'aknearr.php',
+      url: 'acnearr.php',
       url_title: 'Akneärr',
       consultation_url: 'gratis-hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
@@ -97,7 +97,7 @@ $problems['blandhy'] = new Problem(
 );
 $problems['bristningar'] = new Problem(
       label: 'Bristningar',
-      url: 'bristningar.php',
+      url: 'bristningar',
       url_title: 'Bristningar',
       consultation_url: 'gratis-hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
@@ -124,7 +124,7 @@ $problems['finnar'] = new Problem(
 );
 $problems['hudforandringar'] = new Problem(
       label: 'Hudförändringar',
-      url: 'hudforandringar.php',
+      url: 'hudforandringar',
       url_title: 'Hudförändringar',
       consultation_url: 'gratis-hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
@@ -163,7 +163,7 @@ $problems['mogen-hy'] = new Problem(
 );
 $problems['oonskat-har'] = new Problem(
       label: 'Oönskat hår',
-      url: 'oonskat-har.php',
+      url: 'oonskat-har',
       url_title: 'Oönskat hår',
       consultation_url: 'gratis-hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
@@ -176,7 +176,7 @@ $problems['oonskat-har'] = new Problem(
 );
 $problems['operations-skadearr'] = new Problem(
       label: 'Operations & Skadeärr',
-      url: 'operations-skadearr.php',
+      url: 'operations-skadearr',
       url_title: 'Operations & Skadeärr',
       consultation_url: 'gratis-hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',
