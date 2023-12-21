@@ -154,7 +154,7 @@ $categories = array(
                 consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserHairRemoval'
             ),
         ),
-        button_label: 'Se problemhy konsultationer',
+        button_label: 'Se alternativ',
     ),
     new ConsultationCategory(
         id: 'service-consultation',
@@ -162,25 +162,63 @@ $categories = array(
         description: 'Dessa konsultationer är för dig som redan vet vilken metod du är intresserad av att höra mer och komma igång med behandlingen av huden. Vi kommer att analysera huden noga och ta fram en skräddarsydd behandlingsplan för just din hy.',
         types: array(
             new ConsultationType(
-                title: 'Problem skin facials',
-                image: 'https://via.placeholder.com/102x102.webp',
-                url: 'behandlingar/ansiktsbehandlingar-problemhy/chemical-peeling/',
-                consultation_url: 'consultation-booking?service=chemicalPeeling'
-            ),
-            new ConsultationType(
-                title: 'Classic facials',
-                image: 'https://via.placeholder.com/102x102.webp',
-                url: 'behandlingar/ansiktsbehandlingar-problemhy/chemical-peeling/',
-                consultation_url: 'consultation-booking?service=chemicalPeeling'
+                title: 'Kemisk Peeling',
+                subtitle: '',
+                image: '',
+                url: '',
+                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling'
             ),
             new ConsultationType(
                 title: 'Microneedling',
-                image: 'https://via.placeholder.com/102x102.webp',
-                url: 'behandlingar/ansiktsbehandlingar-problemhy/chemical-peeling/',
-                consultation_url: 'consultation-booking?service=chemicalPeeling'
+                subtitle: '',
+                image: '',
+                url: '',
+                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling'
+            ),
+            new ConsultationType(
+                title: 'Laser mot problmehy',
+                subtitle: '',
+                image: '',
+                url: '',
+                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem'
+            ),
+            new ConsultationType(
+                title: 'Permanent hårborttagning',
+                subtitle: '',
+                image: '',
+                url: '',
+                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserHairRemoval'
+            ),
+            new ConsultationType(
+                title: 'IPL',
+                subtitle: '',
+                image: '',
+                url: '',
+                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_IPL'
+            ),
+            new ConsultationType(
+                title: 'Microdemabrasion',
+                subtitle: '',
+                image: '',
+                url: '',
+                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_MicroDermabrasion'
+            ),
+            new ConsultationType(
+                title: 'Hydrodermabrasion',
+                subtitle: '',
+                image: '',
+                url: '',
+                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_HydroDermabrasion'
+            ),
+            new ConsultationType(
+                title: 'Dermabrasion',
+                subtitle: '',
+                image: '',
+                url: '',
+                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Dermabrasion'
             ),
         ),
-        button_label: 'Se behandlings listan',
+        button_label: 'Se alternativ',
     ),
     new ConsultationCategory(
         id: 'brand-consultation',
@@ -188,25 +226,105 @@ $categories = array(
         description: 'Våra varumärkes konsultationer är för dig som hört om ett specifikt märke eller maskin och är intresserad av att höra mer om hur den kan hjäpla dig att uppnå dina hudvårdsmål.',
         types: array(
             new ConsultationType(
-                title: 'Problem skin facials',
-                image: 'https://via.placeholder.com/102x102.webp',
-                url: 'behandlingar/ansiktsbehandlingar-problemhy/chemical-peeling/',
-                consultation_url: 'consultation-booking?service=chemicalPeeling'
+                title: 'Skin Tech',
+                subtitle: '',
+                image: '',
+                url: '',
+                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_SkinTech'
             ),
             new ConsultationType(
-                title: 'Classic facials',
-                image: 'https://via.placeholder.com/102x102.webp',
-                url: 'behandlingar/ansiktsbehandlingar-problemhy/chemical-peeling/',
-                consultation_url: 'consultation-booking?service=chemicalPeeling'
+                title: 'Powerlite Photonova',
+                subtitle: '',
+                image: '',
+                url: '',
+                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_PowerLite'
             ),
             new ConsultationType(
-                title: 'Microneedling',
-                image: 'https://via.placeholder.com/102x102.webp',
-                url: 'behandlingar/ansiktsbehandlingar-problemhy/chemical-peeling/',
-                consultation_url: 'consultation-booking?service=chemicalPeeling'
+                title: 'HydraFacial',
+                subtitle: '',
+                image: '',
+                url: '',
+                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_HydraFacial'
+            ),
+            new ConsultationType(
+                title: 'Infuzion',
+                subtitle: '',
+                image: '',
+                url: '',
+                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Infuzion'
+            ),
+            new ConsultationType(
+                title: 'Dermapen',
+                subtitle: '',
+                image: '',
+                url: '',
+                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Dermapen'
+            ),
+            new ConsultationType(
+                title: 'PRX-T33',
+                subtitle: '',
+                image: '',
+                url: '',
+                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_PRXT33'
+            ),
+            new ConsultationType(
+                title: 'Hybrid CO2',
+                subtitle: '',
+                image: '',
+                url: '',
+                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_HybridCO2'
+            ),
+            new ConsultationType(
+                title: 'Soprano Ice',
+                subtitle: '',
+                image: '',
+                url: '',
+                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_SopranoIce'
+            ),
+            new ConsultationType(
+                title: 'Harmony XL Pro',
+                subtitle: '',
+                image: '',
+                url: '',
+                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_HarmonyXLPRO'
+            ),
+            new ConsultationType(
+                title: 'Rejuve Dye-VL',
+                subtitle: '',
+                image: '',
+                url: '',
+                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Rejuve'
+            ),
+            new ConsultationType(
+                title: 'Splendor X',
+                subtitle: '',
+                image: '',
+                url: '',
+                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_SplendorX'
+            ),
+            new ConsultationType(
+                title: 'Photonova Powerlite',
+                subtitle: '',
+                image: '',
+                url: '',
+                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Photonova'
+            ),
+            new ConsultationType(
+                title: 'CryoPen',
+                subtitle: '',
+                image: '',
+                url: '',
+                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen'
+            ),
+            new ConsultationType(
+                title: 'Exceed',
+                subtitle: '',
+                image: '',
+                url: '',
+                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Exceed'
             ),
         ),
-        button_label: 'Se varumärkes listan',
+        button_label: 'Se alternativ',
     ),
 );
 
