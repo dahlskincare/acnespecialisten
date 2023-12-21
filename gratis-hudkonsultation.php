@@ -14,7 +14,7 @@ $categories = array(
         description: 'Här hittar du våra konsultationer som är anpassade för ditt hudproblem. Vi analyserar din hy och tar fram en behandlingsplan med rätt behandlingar och produkter för just din hudtyp.',
         types: array(
             new ConsultationType(
-                title: 'Akne',
+                title: 'Acne',
                 subtitle: '',
                 image: '',
                 url: '',
@@ -22,9 +22,9 @@ $categories = array(
             ),
             new ConsultationType(
                 title: 'Acne scars',
-                subtitle: null,
-                image: null,
-                url: null,
+                subtitle: 'Also called acne',
+                image: 'https://via.placeholder.com/102x102.webp',
+                url: 'behandlingar/ansiktsbehandlingar-problemhy/chemical-peeling/',
                 consultation_url: 'consultation-booking?problem=chemicalPeeling'
             ),
             new ConsultationType(
