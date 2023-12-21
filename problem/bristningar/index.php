@@ -472,8 +472,8 @@ $service = new Service(
       url: null,
       url_title: null,
 
-      consultation_url_label: 'Boka tid för hudkonsultation',
-      consultation_url: 'consultation-booking?problem=stretchmarks',
+      consultation_url_label: 'Boka konsultation',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_StrechMarks',
       consultation_url_title: 'Klicka för att boka tid för en konsultation för bristningar',
 
       booking_url_label: null,
