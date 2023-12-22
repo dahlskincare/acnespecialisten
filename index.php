@@ -32,7 +32,7 @@
                               <h1 class="h700 l10n">Hudspecialisterna</h1>
                         </div>
                   </div>
-                  <a href="gratis-hudkonsultation" title="hudkonsultation">
+                  <a href="gratis-hudkonsultation.php" title="hudkonsultation">
                         <div class="container">
                               <div class="banner-bar elevation-medium is-hidden-desktop" id="banner-bar-small">
                                     <button class="white">
