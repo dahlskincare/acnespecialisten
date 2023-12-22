@@ -66,8 +66,8 @@ $treatments = array(
     ),
     new Treatment(
         label: 'Klassiska Ansiktsbehandlingar',
-        url: 'behandlingar/ansiktsbehandlingar-klassiska',
-        url_title: 'TODO'
+        url: 'ansiktsbehandlingar-klassiska.php',
+        url_title: 'Läs mer om klassiska ansiktsbehandlingar'
     ),
     new Treatment(
         label: 'Dermabrasion',
@@ -80,18 +80,13 @@ $treatments = array(
         url_title: 'Läs mer om frysbehandling'
     ),
     new Treatment(
-        label: 'Injektionsbehandlingar',
-        url: 'behandlingar/injektionsbehandlingar',
-        url_title: 'Läs mer om injektionsbehandlingar'
-    ),
-    new Treatment(
         label: 'IPL',
-        url: 'behandlingar/ipl',
+        url: 'ipl.php',
         url_title: 'Läs mer om ipl'
     ),
     new Treatment(
         label: 'Kemisk Peeling',
-        url: 'behandlingar/kemisk-peeling',
+        url: 'kemisk-peeling.php',
         url_title: 'Läs mer om kemisk peeling'
     ),
     new Treatment(
@@ -101,13 +96,8 @@ $treatments = array(
     ),
     new Treatment(
         label: 'Microneedling',
-        url: 'behandlingar/microneedling',
+        url: 'microneedling.php',
         url_title: 'Läs mer om microneedling'
-    ),
-    new Treatment(
-        label: 'Permanent Hårborttagning',
-        url: 'behandlingar/permanent-harborttagning',
-        url_title: 'Läs mer om Permanent Hårobrttagning'
     ),
     new Treatment(
         label: 'Skinbooster',
@@ -115,8 +105,13 @@ $treatments = array(
         url_title: 'Läs mer om skinbooster'
     ),
     new Treatment(
+        label: 'Permanent Hårborttagning',
+        url: 'permanent-harborttagning.php',
+        url_title: 'Läs mer om Permanent Hårobrttagning'
+    ),
+    new Treatment(
         label: 'Gratis Hudkonsultation',
-        url: 'gratis-hudkonsultation',
+        url: 'gratis-hudkonsultation.php',
         url_title: 'Läs mer om gratis hudkonsultation'
     ),
 );
@@ -172,7 +167,7 @@ $service_categories = array(
                 booking_url_title: '',
             ),
             new Service(
-                url: 'behandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-pormaskar',
+                url: 'portomning.php',
                 url_label: 'Mot Pormaskar',
                 url_title: 'Läs mer om porrengöring',
                 title: '',
@@ -210,7 +205,7 @@ $service_categories = array(
                 booking_url_title: '',
             ),
             new Service(
-                url: 'behandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-milier',
+                url: 'milierbehandling.php',
                 url_label: 'Mot Milier',
                 url_title: 'Läs mer om milierbehandling',
                 title: '',
@@ -282,7 +277,7 @@ $service_categories = array(
         image_title: 'Dermabration',
         services: array(
             new Service(
-                url: '/varumarken/hydrafacial',
+                url: 'hydrafacial.php',
                 url_label: 'HydraFacial',
                 url_title: 'Läs mer om Hydrafacial',
                 title: '',
@@ -301,7 +296,7 @@ $service_categories = array(
                 booking_url_title: '',
             ),
             new Service(
-                url: '/varumarken/microdermabrasion',
+                url: 'microdermabrasion.php',
                 url_label: 'Microdermabrasion',
                 url_title: 'Läs mer om Microdermabrasion',
                 title: '',
@@ -337,7 +332,7 @@ $service_categories = array(
         image_title: 'FreezeTreat',
         services: array(
             new Service(
-                url: '/varumarken/cryopen',
+                url: 'cryopen.php',
                 url_label: 'CryoPen',
                 url_title: 'Läs mer om cryopen',
                 title: '',
@@ -364,42 +359,6 @@ $service_categories = array(
         consultation_url_label: 'Boka hudkonsultation'
     ),
     new ServiceCategory(
-        id: 'injektionsbehandlingar',
-        label: 'Injektionsbehandlingar',
-        content: 'Injektionsbehandlingar minskar rynkor och fina linjer, samt ge volym och kontur till ansiktet. Dessa behandlingar erbjuder snabba och märkbara resultat med minimal återhämtningstid.',
-        image_small: 'bilder/behandlingar/200x200/injektionsbehandlingar.webp',
-        image_large: 'bilder/behandlingar/424x324/injektionsbehandlingar.webp',
-        image_alt: 'Injections',
-        image_title: 'Injections',
-        services: array(
-            new Service(
-                url: '/varumarken/fillers',
-                url_label: 'Fillers',
-                url_title: 'Läs mer om fillers',
-                title: '',
-                duration: '',
-                price: '',
-                content: '',
-                image_small: '',
-                image_large: '',
-                image_alt: '',
-                image_title: '',
-                consultation_url: '',
-                consultation_url_label: '',
-                consultation_url_title: '',
-                booking_url: '',
-                booking_url_label: '',
-                booking_url_title: '',
-            ),
-        ),
-        booking_url: 'treatment-booking?service=injections',
-        booking_url_title: 'Boka tid för ansiktsbehandling',
-        consultation_url: 'consultation-booking?service=injections',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url_label: 'Boka tid',
-        consultation_url_label: 'Boka hudkonsultation'
-    ),
-    new ServiceCategory(
         id: 'ipl',
         label: 'IPL',
         content: 'IPL-behandlingar använder intensivt pulserande ljus för att behandla en rad hudproblem, inklusive pigmentfläckar, ytliga blodkärl och rosacea. Denna teknik kan också förbättra hudens övergripande textur och ton.',
@@ -409,7 +368,7 @@ $service_categories = array(
         image_title: 'IPL',
         services: array(
             new Service(
-                url: 'behandlingar/ipl/ipl-rosacea',
+                url: 'ipl-rosacea.php',
                 url_label: 'Mot Rosacea',
                 url_title: 'Läs mer om IPL Rosacea',
                 title: '',
@@ -428,7 +387,7 @@ $service_categories = array(
                 booking_url_title: '',
             ),
             new Service(
-                url: 'behandlingar/ipl/ipl-ytliga-blodkarl',
+                url: 'ipl-ytliga-blodkarl.php',
                 url_label: 'Mot Ytliga Blodkärl',
                 url_title: 'Läs mer om IPL Ytliga Blodkärl',
                 title: '',
@@ -447,7 +406,7 @@ $service_categories = array(
                 booking_url_title: '',
             ),
             new Service(
-                url: 'behandlingar/ipl/ipl-pigmentflackar',
+                url: 'ipl-pigmentflackar.php',
                 url_label: 'Mot Pigmentfläckar',
                 url_title: 'Läs mer om IPL Pigmentfläckar',
                 title: '',
@@ -502,7 +461,7 @@ $service_categories = array(
                 booking_url_title: '',
             ),
             new Service(
-                url: '/varumarken/prx-t33',
+                url: 'prx-t33.php',
                 url_label: 'PRX-T33',
                 url_title: 'Läs mer om PRX-T33',
                 title: '',
@@ -593,7 +552,7 @@ $service_categories = array(
         image_title: 'Microneedling',
         services: array(
             new Service(
-                url: '/varumarken/dermapen',
+                url: 'dermapen.php',
                 url_label: 'Dermapen',
                 url_title: 'Läs mer om dermapen',
                 title: '',
@@ -704,7 +663,7 @@ $service_categories = array(
         image_title: 'Skinbooster',
         services: array(
             new Service(
-                url: '/varumarken/infuzion',
+                url: 'infuzion.php',
                 url_label: 'Infuzion',
                 url_title: 'Läs mer om Infuzion',
                 title: '',
@@ -731,7 +690,7 @@ $service_categories = array(
         consultation_url_label: 'Boka hudkonsultation',
     ),
     new ServiceCategory(
-        id: '/gratis-hudkonsultation',
+        id: 'gratis-hudkonsultation',
         label: 'Gratis Hudkonsultation',
         content: 'En gratis hudkonsultation ger en möjlighet att träffa en hudvårdsexpert och diskutera dina hudvårdsbehov och mål. Under konsultationen kan du få anpassade rekommendationer för behandlingar och produkter som passar just din hudtyp.',
         image_small: 'bilder/behandlingar/200x200/gratis-hudkonsultation.webp',
