@@ -25,7 +25,7 @@ $header_brands = array(
             image: 'bilder/varumarken/cryopen.svg',
             image_alt: 'CryoPen',
             image_title: 'CryoPen',
-            url: 'varumarken/cryopen',
+            url: 'cryopen.php',
             url_title: 'CryoPen',
       ),
       new Brand(
@@ -33,7 +33,7 @@ $header_brands = array(
             image: 'bilder/varumarken/dermapen.svg',
             image_alt: 'Dermapen',
             image_title: 'Dermapen',
-            url: 'varumarken/dermapen',
+            url: 'dermapen.php',
             url_title: 'Dermapen',
       ),
       new Brand(
@@ -49,7 +49,7 @@ $header_brands = array(
             image: 'bilder/varumarken/hydrafacial.svg',
             image_alt: 'HydraFacial',
             image_title: 'HydraFacial',
-            url: 'varumarken/hydrafacial',
+            url: 'hydrafacial.php',
             url_title: 'HydraFacial',
       ),
       new Brand(
@@ -57,7 +57,7 @@ $header_brands = array(
             image: 'bilder/varumarken/infuzion.svg',
             image_alt: 'Infuzion',
             image_title: 'Infuzion',
-            url: 'varumarken/infuzion',
+            url: 'infuzion.php',
             url_title: 'Infuzion',
       ),
       new Brand(
@@ -65,7 +65,7 @@ $header_brands = array(
             image: 'bilder/varumarken/microdermabrasion.png',
             image_alt: 'Microdermabrasion',
             image_title: 'Microdermabrasion',
-            url: 'varumarken/microdermabrasion',
+            url: 'microdermabrasion.php',
             url_title: 'Microdermabrasion',
       ),
       new Brand(
@@ -81,7 +81,7 @@ $header_brands = array(
             image: 'bilder/varumarken/prx-t33.svg',
             image_alt: 'PRX-T33n',
             image_title: 'PRX-T33',
-            url: 'varumarken/prx-t33',
+            url: 'prx-t33.php',
             url_title: 'PRX-T33',
       ),
       new Brand(
