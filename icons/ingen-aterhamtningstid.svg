@@ -1,1 +1,6 @@
-<svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="#000" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none" color="#000"> <title>bars</title> <rect width="18" height="18" x="3" y="3"/> <path stroke-linecap="round" d="M21 21L3 3 21 21zM21 3L3 21 21 3z"/> </svg>
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M25.5 3.5L36.5 14.5" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+<rect x="22.75" y="0.748077" width="16.5038" height="16.5038" rx="8.25192" stroke="black" stroke-width="1.5"/>
+<path d="M19 9.04475C18.0301 8.85128 17.027 8.7498 16.0002 8.7498C7.57775 8.7498 0.75 15.5775 0.75 24C0.75 32.4225 7.57775 39.2502 16.0002 39.2502C24.4227 39.2502 31.2504 32.4225 31.2504 24C31.2504 22.9731 31.1489 21.97 30.9554 21" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M15.75 15V24L24.0002 28" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

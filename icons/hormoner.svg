@@ -1,1 +1,5 @@
-<svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="#000" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none" color="#000"> <title>bars</title> <rect width="18" height="18" x="3" y="3"/> <path stroke-linecap="round" d="M21 21L3 3 21 21zM21 3L3 21 21 3z"/> </svg>
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M37.25 23.1494V31.8055L28.625 37.1356L20 31.8055V23.1494M37.25 31.3181V22.6621L28.625 17.3319L20 22.6621V31.3181" stroke="black" stroke-width="1.5"/>
+<path d="M20 23.1494V31.8055L11.375 37.1356L2.75 31.8055V23.1494M20 31.3181V22.6621L11.375 17.3319L2.75 22.6621V31.3181" stroke="black" stroke-width="1.5"/>
+<path d="M28.625 8.68186V17.3379L20 22.6681L11.375 17.3379V8.68186M28.625 16.8506V8.19455L20 2.86438L11.375 8.19455V16.8506" stroke="black" stroke-width="1.5"/>
+</svg>
