@@ -516,7 +516,7 @@ $services = array(
 
             booking_url_label: 'Boka behandling',
             booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne',
-            booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling mot akne'
+            booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling mot akne',
       ),
       new Service(
             title: 'Laser mot akne',
@@ -539,7 +539,7 @@ $services = array(
 
             booking_url_label: 'Boka behandling',
             booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Acne',
-            booking_url_title: 'Klicka för att boka tid för en laserbehandling mot akne'
+            booking_url_title: 'Klicka för att boka tid för en laserbehandling mot akne',
       ),
       new Service(
             title: 'Kemisk peeling mot akne',
@@ -562,7 +562,7 @@ $services = array(
 
             booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_Acne',
             booking_url_label: 'Boka behandling',
-            booking_url_title: 'Klicka för att boka tid för en kemisk peeling mot akne behandling'
+            booking_url_title: 'Klicka för att boka tid för en kemisk peeling mot akne behandling',
 
       ),
 
@@ -587,7 +587,7 @@ $services = array(
 
             booking_url_label: 'Boka behandling',
             booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_Acne',
-            booking_url_title: 'Klicka för att boka tid för en microneedling mot akne behandling'
+            booking_url_title: 'Klicka för att boka tid för en microneedling mot akne behandling',
       ),
 );
 
@@ -615,7 +615,7 @@ $products = array(
 
             booking_url_label: 'Köp produkter',
             booking_url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
-            booking_url_title: 'Klicka för att köpa produktpaket mot akne'
+            booking_url_title: 'Klicka för att köpa produktpaket mot akne',
       )
 );
 
@@ -643,7 +643,7 @@ $procedures = array(
 
             booking_url_label: 'Boka behandling',
             booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_AcneScars',
-            booking_url_title: 'Klicka för att boka tid för en microneedling mot akne behandling'
+            booking_url_title: 'Klicka för att boka tid för en microneedling mot akne behandling',
 
       ),
 );
