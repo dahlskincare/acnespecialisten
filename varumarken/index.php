@@ -171,7 +171,7 @@ $link_brands = array(
 $brand_cards = array(
       new Brand(
             label: 'Alma',
-            image: 'bilder/logotyper/alma.webp',
+            image: 'bilder/logotyper/alma.svg',
             image_alt: 'Alma',
             image_title: 'Alma',
             photo: 'bilder/varumarken/424x324/alma-hybrid-co2.webp',
