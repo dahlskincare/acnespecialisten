@@ -491,8 +491,8 @@ $services = array(
             price: '2595 kr',
             content: 'En avancerad laserbehandling mot bristningar erbjuder en effektiv lösning för att behandla och minska utseendet av bristningar. Lasertekniken stimulerar kollagenproduktionen i huden, vilket hjälper till att förbättra hudens struktur och minska synligheten av bristningar.',
 
-            image_small: 'images/services/200x200/laser-bristningar.webp',
-            image_large: 'images/services/200x200/laser-bristningar.webp',
+            image_small: 'images/services/200x200/laser.webp',
+            image_large: 'images/services/200x200/laser.webp',
             image_alt: 'Bild av laserbehandling mot bristningar',
             image_title: 'Laserbehandling mot bristningar',
 
@@ -514,8 +514,8 @@ $services = array(
             price: '1595 kr',
             content: 'Kemisk peeling är en effektiv metod för att behandla bristningar. Genom att exfoliera huden, främjar kemisk peeling cellförnyelse och ökar kollagenproduktionen. Detta kan hjälpa till att förbättra hudens struktur och minska synligheten av bristningar. Kemisk peeling är en enkel och effektiv strategi för att förbättra utseendet av dina bristningar.',
 
-            image_small: 'images/services/200x200/kemisk-peeling-bristningar.webp',
-            image_large: 'images/services/200x200/kemisk-peeling-bristningar.webp',
+            image_small: 'images/services/200x200/kemisk-peeling.webp',
+            image_large: 'images/services/200x200/kemisk-peeling.webp',
             image_alt: 'Bild av kemisk peeling mot bristningar',
             image_title: 'Kemisk peeling mot bristningar',
 
@@ -537,8 +537,8 @@ $services = array(
             price: '2595 kr',
             content: 'Microneedling är en innovativ behandlingsmetod för bristningar. Genom att skapa små mikroskopiska kanaler i huden stimuleras hudens naturliga läkningsprocess och kollagenproduktionen ökar. Denna behandling kan effektivt förbättra hudens struktur och minska synligheten av bristningar. Microneedling är en säker och effektiv strategi för att förbättra utseendet av dina bristningar.',
 
-            image_small: 'images/services/200x200/microneedling-bristningar.webp',
-            image_large: 'images/services/200x200/microneedling-bristningar.webp',
+            image_small: 'images/services/200x200/microneedling.webp',
+            image_large: 'images/services/200x200/microneedling.webp',
             image_alt: 'Bild av microneedling mot bristningar',
             image_title: 'Microneedling mot bristningar',
 

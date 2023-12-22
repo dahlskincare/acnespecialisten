@@ -123,12 +123,12 @@ $service = new Service(
       image_alt: 'Bild av en konsultation för hårborttagning med laser',
       image_title: 'Konsultation för hårborttagning med laser',
 
-      url_label: 'Läs mer om vår hårborttagningskonsultation',
-      url: 'harkonsultation',
-      url_title: 'Klicka här för att läsa mer om gratis konsultation för hårborttagning',
+      url_label: '',
+      url: '',
+      url_title: '',
 
-      consultation_url_label: 'Boka tid för hårborttagningskonsultation',
-      consultation_url: 'consultation-booking?problem=unwanted-hair',
+      consultation_url_label: 'Boka konsultation',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserHairRemoval',
       consultation_url_title: 'Klicka för att boka tid för en konsultation för hårborttagning',
 
       booking_url_label: null,
@@ -150,16 +150,16 @@ $services = array(
             image_alt: 'Bild av laserbehandling för hårborttagning',
             image_title: 'Laserbehandling för hårborttagning',
 
-            url_label: 'Läs mer om laser för hårborttagning',
-            url: 'behandlingar/laser-hair',
-            url_title: 'Klicka här för att läsa mer om laserbehandling för hårborttagning',
+            url_label: '',
+            url: '',
+            url_title: '',
 
-            consultation_url_label: 'Boka tid för hårborttagningskonsultation',
-            consultation_url: 'consultation-booking?problem=unwanted-hair&service=laser',
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserHairRemoval',
             consultation_url_title: 'Klicka för att boka tid för en konsultation för laserbehandling för hårborttagning',
 
-            booking_url_label: 'Boka tid för laserbehandling för hårborttagning',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/hairspecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/h%C3%A5rborttagning-konsultation-1643922',
+            booking_url_label: 'Boka behandling',
+            booking_url: 'https://acnespecialisten.se/book?flow=permanent_harborttagning',
             booking_url_title: 'Klicka för att boka tid för en laserbehandling för hårborttagning'
       )
 );

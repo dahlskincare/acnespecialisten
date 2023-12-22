@@ -241,12 +241,12 @@ $service = new Service(
       image_alt: 'Bild av en konsultation för ärrbehandling',
       image_title: 'Konsultation för ärrbehandling',
 
-      url_label: 'Läs mer om vår ärrkonsultation',
-      url: 'arrkonsultation',
-      url_title: 'Klicka här för att läsa mer om gratis ärrkonsultation',
+      url_label: '',
+      url: '',
+      url_title: '',
 
-      consultation_url_label: 'Boka tid för ärrkonsultation',
-      consultation_url: 'consultation-booking?problem=scarring',
+      consultation_url_label: 'Boka konsultation',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
       consultation_url_title: 'Klicka för att boka tid för en ärrkonsultation',
 
       booking_url_label: null,
@@ -268,16 +268,16 @@ $services = array(
             image_alt: 'Bild av laserbehandling för ärr',
             image_title: 'Laserbehandling för ärr',
 
-            url_label: 'Läs mer om laserbehandling för ärr',
-            url: 'behandlingar/laser-arr',
-            url_title: 'Klicka här för att läsa mer om laserbehandling för ärr',
+            url_label: '',
+            url: '',
+            url_title: '',
 
-            consultation_url_label: 'Boka tid för konsultation',
-            consultation_url: 'consultation-booking?problem=scarring&service=laser',
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
             consultation_url_title: 'Klicka för att boka tid för en konsultation för laserbehandling av ärr',
 
-            booking_url_label: 'Boka tid för laserbehandling av ärr',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/arr-konsultation-1643922',
+            booking_url_label: 'Boka behandling',
+            booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars',
             booking_url_title: 'Klicka för att boka tid för en laserbehandling av ärr'
       ),
       new Service(
@@ -291,16 +291,16 @@ $services = array(
             image_alt: 'Bild av kemisk peeling för ärr',
             image_title: 'Kemisk peeling för ärr behandling',
 
-            url: 'behandlingar/kemisk-peeling-arr',
-            url_label: 'Läs mer om kemisk peeling för ärr',
-            url_title: 'Klicka här för att läsa mer om kemisk peeling för ärr',
+            url: '',
+            url_label: '',
+            url_title: '',
 
-            consultation_url: 'consultation-booking?problem=scarring&service=chemicalPeeling',
-            consultation_url_label: 'Boka tid för konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
+            consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka för att boka tid för en konsultation för kemisk peeling av ärr',
 
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/arr-konsultation-1643922',
-            booking_url_label: 'Boka tid för kemisk peeling av ärr',
+            booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_AcneScars',
+            booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en kemisk peeling av ärr behandling'
       ),
 
@@ -315,16 +315,16 @@ $services = array(
             image_alt: 'Bild av microneedling för ärr',
             image_title: 'Microneedling för ärr behandling',
 
-            url: 'behandlingar/microneedling-arr',
-            url_label: 'Läs mer om microneedling för ärr',
-            url_title: 'Klicka här för att läsa mer om microneedling för ärr',
+            url: '',
+            url_label: '',
+            url_title: '',
 
-            consultation_url_label: 'Boka tid för konsultation',
-            consultation_url: 'consultation-booking?problem=scarring&service=microneedling',
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
             consultation_url_title: 'Klicka för att boka tid för en konsultation för microneedling av ärr',
 
-            booking_url_label: 'Boka tid för microneedling av ärr',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/arr-konsultation-1643922',
+            booking_url_label: 'Boka behandling',
+            booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_AcneScars',
             booking_url_title: 'Klicka för att boka tid för en microneedling av ärr behandling'
       ),
 );

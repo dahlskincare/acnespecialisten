@@ -296,12 +296,12 @@ $service = new Service(
       image_alt: 'Bild av en konsultation för hudförändringsbehandling',
       image_title: 'Konsultation för behandling av hudförändringar',
 
-      url_label: 'Läs mer om vår hudkonsultation för hudförändringar',
-      url: 'gratis-hudkonsultation',
-      url_title: 'Klicka här för att läsa mer om gratis hudkonsultation för hudförändringar',
+      url_label: '',
+      url: '',
+      url_title: '',
 
       consultation_url_label: 'Boka tid för hudkonsultation för hudförändringar',
-      consultation_url: 'consultation-booking?problem=hudforandring',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen',
       consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för hudförändringar',
 
       booking_url_label: null,
@@ -323,16 +323,16 @@ $services = array(
             image_alt: 'Bild av en Cryopen behandling',
             image_title: 'Behandling av hudförändringar med Cryopen',
 
-            url: 'behandlingar/cryopen',
-            url_label: 'Läs mer om behandling med Cryopen',
-            url_title: 'Klicka här för att läsa mer om Cryopen behandling',
+            url: '',
+            url_label: '',
+            url_title: '',
 
             consultation_url_label: 'Boka tid för konsultation för Cryopen behandling',
-            consultation_url: 'consultation-booking?problem=hudforandring&service=cryopen',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen',
             consultation_url_title: 'Klicka för att boka tid för en konsultation för Cryopen behandling',
 
             booking_url_label: 'Boka tid för behandling med Cryopen',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/hudspecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43560/cryopen-behandling-1653923',
+            booking_url: 'https://acnespecialisten.se/book?flow=cryopen',
             booking_url_title: 'Klicka för att boka tid för en behandling med Cryopen'
       ),
 );
