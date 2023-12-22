@@ -228,7 +228,7 @@ $brand_cards = array(
 
       new Brand(
           label: 'Exceed',
-          image: 'bilder/logotyper/exceed.svg',
+          image: 'bilder/logotyper/exceed.png',
           image_alt: 'Exceed Logo',
           image_title: 'Exceed',
           photo: 'bilder/varumarken/424x324/exceed.webp',
@@ -285,7 +285,7 @@ $brand_cards = array(
 
       new Brand(
           label: 'Microdermabrasion',
-          image: 'bilder/logotyper/microdermabrasion.svg',
+          image: 'bilder/logotyper/microdermabrasion.png',
           image_alt: 'Microdermabrasion Logo',
           image_title: 'Microdermabrasion',
           photo: 'bilder/varumarken/424x324/microdermabrasion.webp',
@@ -361,7 +361,7 @@ $brand_cards = array(
 
       new Brand(
           label: 'Splendor X',
-          image: 'bilder/logotyper/splendor-x.svg',
+          image: 'bilder/logotyper/splendor-x.png',
           image_alt: 'Splendor X Logo',
           image_title: 'Splendor X',
           photo: 'bilder/varumarken/424x324/splendor-x.webp',
@@ -380,7 +380,7 @@ $brand_cards = array(
 
       new Brand(
           label: 'Soprano Ice',
-          image: 'bilder/logotyper/soprano-ice.svg',
+          image: 'bilder/logotyper/soprano-ice.png',
           image_alt: 'Soprano Ice Logo',
           image_title: 'Soprano Ice',
           photo: 'bilder/varumarken/424x324/soprano-ice.webp',
