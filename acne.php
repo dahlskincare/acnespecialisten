@@ -611,7 +611,7 @@ $products = array(
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling mot akne',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för hudvårdsprodukter mot akne',
 
             booking_url_label: 'Köp produkter',
             booking_url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',

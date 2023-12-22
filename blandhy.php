@@ -248,17 +248,17 @@ $service = new Service(
       price: 'Kostnadsfri',
       content: 'Vi börjar med ett personligt möte med en hudterapeut från AcneSpecialisten utförs en undersökning av din blandhy. Vi tar före-bilder på din hud och rekommenderar rätt behandlingsmetod för just din hy samt tar fram en skräddarsydd behandlingsplan för just dig.',
 
-      image_small: 'images/services/200x200/konsultation_blandhy.webp',
-      image_large: 'images/services/200x200/konsultation_blandhy.webp',
+      image_small: 'images/services/200x200/konsultation.webp',
+      image_large: 'images/services/200x200/konsultation.webp',
       image_alt: 'Bild av en konsultation för blandhy',
       image_title: 'Konsultation för blandhy',
 
-      url_label: 'Läs mer om vår konsultation för blandhy',
-      url: 'hudkonsultation-blandhy',
-      url_title: 'Klicka här för att läsa mer om konsultation för blandhy',
+      url_label: '',
+      url: '',
+      url_title: '',
 
-      consultation_url_label: 'Boka tid för konsultation om blandhy',
-      consultation_url: 'consultation-booking?problem=blandhy',
+      consultation_url_label: 'Boka konsultation',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin',
       consultation_url_title: 'Klicka för att boka tid för en konsultation om blandhy',
 
       booking_url_label: null,
@@ -276,21 +276,21 @@ $services = array(
             price: '995 kr',
             content: 'Denna skräddarsydda ansiktsbehandling för blandhy tar sikte på hudens specifika behov, särskilt de torra och oljiga partierna. Genom djup rengöring, rätt exfoliering och intensiv återfuktning ger behandlingen huden en harmoniserad känsla, förbättrad textur och en naturlig lyster.',
 
-            image_small: 'images/services/200x200/ansiktsbehandling-blandhy.webp',
-            image_large: 'images/services/200x200/ansiktsbehandling-blandhy.webp',
+            image_small: 'images/services/200x200/ansiktsbehandling.webp',
+            image_large: 'images/services/200x200/ansiktsbehandling.webp',
             image_alt: 'Bild av en ansiktsbehandling för blandhy',
             image_title: 'Ansiktsbehandling för blandhy',
 
-            url: 'behandlingar/ansiktsbehandling-blandhy',
-            url_label: 'Läs mer om ansiktsbehandling för blandhy',
-            url_title: 'Klicka här för att läsa mer om ansiktsbehandling för blandhy',
+            url: '',
+            url_label: '',
+            url_title: '',
 
-            consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url: 'consultation-booking?problem=blandhy&service=classicFacials',
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling för blandhy',
 
-            booking_url_label: 'Boka tid för ansiktsbehandling för blandhy',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/blandhy-konsultation',
+            booking_url_label: 'Boka behandling',
+            booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones',
             booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling för blandhy'
       ),
       new Service(
@@ -299,21 +299,21 @@ $services = array(
             price: '2595 kr',
             content: 'Laserbehandling för blandhy utnyttjar avancerad laserteknik för att specifikt adressera hudens ojämnheter. Den arbetar målinriktat för att reducera överproduktion av talg samtidigt som den boostar fuktnivåerna i torra partier. Efter behandlingen framstår huden mer balanserad med en förnyad lyster och jämnare yta.',
 
-            image_small: 'images/services/200x200/laser-blandhy.webp',
-            image_large: 'images/services/200x200/laser-blandhy.webp',
+            image_small: 'images/services/200x200/laser.webp',
+            image_large: 'images/services/200x200/laser.webp',
             image_alt: 'Bild av laserbehandling för blandhy',
             image_title: 'Laserbehandling för blandhy',
 
-            url_label: 'Läs mer om laser för blandhy',
-            url: 'behandlingar/laser-blandhy',
-            url_title: 'Klicka här för att läsa mer om laserbehandling för blandhy',
+            url: '',
+            url_label: '',
+            url_title: '',
 
-            consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url: 'consultation-booking?problem=blandhy&service=laser',
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling för blandhy',
 
-            booking_url_label: 'Boka tid för laserbehandling för blandhy',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/blandhy-laser-konsultation',
+            booking_url_label: 'Boka behandling',
+            booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=SKIP',
             booking_url_title: 'Klicka för att boka tid för en laserbehandling för blandhy'
       ),
 
@@ -323,21 +323,21 @@ $services = array(
             price: '1595 kr',
             content: 'Kemisk peeling anpassad för blandhy använder sig av en unik lösning designad för att exfoliera och återfukta hudens särskilda behov. Den främjar en accelererad cellförnyelse, vilket bidrar till att balansera både oljiga och torra partier av huden.',
 
-            image_small: 'images/services/200x200/kemisk-peeling-blandhy.webp',
-            image_large: 'images/services/200x200/kemisk-peeling-blandhy.webp',
+            image_small: 'images/services/200x200/kemisk-peeling.webp',
+            image_large: 'images/services/200x200/kemisk-peeling.webp',
             image_alt: 'Bild av kemisk peeling för blandhy',
             image_title: 'Kemisk peeling för blandhy behandling',
 
-            url: 'behandlingar/kemisk-peeling-blandhy',
-            url_label: 'Läs mer om kemisk peeling för blandhy',
-            url_title: 'Klicka här för att läsa mer om kemisk peeling för blandhy',
+            url: '',
+            url_label: '',
+            url_title: '',
 
-            consultation_url: 'consultation-booking?problem=blandhy&service=chemicalPeeling',
-            consultation_url_label: 'Boka tid för hudkonsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
+            consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för kemisk peeling för blandhy',
 
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/blandhy-peeling-konsultation',
-            booking_url_label: 'Boka tid för kemisk peeling för blandhy',
+            booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=SKIP',
+            booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en kemisk peeling för blandhy behandling'
 
       ),
@@ -348,21 +348,21 @@ $services = array(
             price: '2595 kr',
             content: 'Microneedling för blandhy är en banbrytande teknik som direkt adresserar hudens komplexa behov. Genom att skapa fina kanaler i huden, boostar behandlingen hudens förmåga att läka samt stimulerar kollagenproduktion. Denna process hjälper till att jämna ut både torra och oljiga regioner, vilket förbättrar hudens yta och återställer en naturliga balans.',
 
-            image_small: 'images/services/200x200/microneedling-blandhy.webp',
-            image_large: 'images/services/200x200/microneedling-blandhy.webp',
+            image_small: 'images/services/200x200/microneedling.webp',
+            image_large: 'images/services/200x200/microneedling.webp',
             image_alt: 'Bild av microneedling för blandhy',
             image_title: 'Microneedling för blandhy behandling',
 
-            url: 'behandlingar/microneedling-blandhy',
-            url_label: 'Läs mer om microneedling för blandhy',
-            url_title: 'Klicka här för att läsa mer om microneedling för blandhy',
+            url: '',
+            url_label: '',
+            url_title: '',
 
-            consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url: 'consultation-booking?problem=blandhy&service=microneedling',
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling för blandhy',
 
-            booking_url_label: 'Boka tid för microneedling för blandhy',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/blandhy-microneedling-konsultation',
+            booking_url_label: 'Boka behandling',
+            booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=SKIP',
             booking_url_title: 'Klicka för att boka tid för en microneedling för blandhy behandling'
       ),
 
@@ -382,17 +382,17 @@ $products = array(
             image_alt: 'Bild av produkter designade för behandling av blandhy',
             image_title: 'Effektiva produkter för balansering av blandhy',
 
-            url_label: 'Läs mer om produkter för blandhy',
-            url: 'https://dahlskincare.se',
-            url_title: 'Klicka här för att läsa mer om produkter för blandhy',
+            url_label: '',
+            url: '',
+            url_title: '',
 
-            consultation_url_label: null,
-            consultation_url: null,
-            consultation_url_title: null,
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för hudvårdsprodukter mot blandhy',
 
-            booking_url_label: null,
-            booking_url: null,
-            booking_url_title: null,
+            booking_url_label: 'Köp produkter',
+            booking_url: 'https://dahlskincare.se/produktkategorier/produktpaket/blandhy',
+            booking_url_title: 'Klicka för att köpa produktpaket mot blandhy',
       )
 );
 
@@ -414,13 +414,13 @@ $procedures = array(
             url: 'behandlingar/ojamnhud',
             url_title: 'Klicka här för att läsa mer om våra behandlingar för ojämn hudstruktur',
 
-            consultation_url_label: null,
-            consultation_url: null,
-            consultation_url_title: null,
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling för blandhy',
 
-            booking_url_label: null,
-            booking_url: null,
-            booking_url_title: null,
+            booking_url_label: 'Boka behandling',
+            booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=SKIP',
+            booking_url_title: 'Klicka för att boka tid för en microneedling för blandhy behandling'
       ),
 );
 
