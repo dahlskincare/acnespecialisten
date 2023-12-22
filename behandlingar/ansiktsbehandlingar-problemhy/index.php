@@ -80,16 +80,16 @@ $top_articles = array(
         <p class="p200 mt-m">Varje behandling inleds med en noggrann rengöring för att avlägsna inkapslingar och tilltäpptheter. Därefter används en vapozone för att varsamt öppna upp huden och göra porerna mer mottagliga. Efter detta steg genomför vi en detaljerad extraktion där vi noggrant tömmer porerna på oönskade finnar, pormaskar och andra orenheter. För att lugna huden och minska eventuell rodnad eller irritation appliceras sedan en lugnande mask. Slutligen avslutas behandlingen med en intensiv återfuktning, vilket hjälper din hud att återhämta sig och känna sig förnyad.</p>',
 
         tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
+            icon: 'anga',
             label: 'Ånga'
         ), new ArticleTag(
-            icon: 'article-tag-extraction',
+            icon: 'extraktion',
             label: 'Extraktion'
         ), new ArticleTag(
-            icon: 'article-tag-mask',
+            icon: 'mask',
             label: 'Mask'
         ), new ArticleTag(
-            icon: 'article-tag-cleansing',
+            icon: 'rengoring',
             label: 'Rengöring'
         ))
     ),
