@@ -14,7 +14,7 @@ $green_banner_content = new GreenBannerContent(
 $header_brands = array(
       new Brand(
             label: 'Alma',
-            image: 'bilder/varumarken/alma.svg',
+            image: 'bilder/logotyper/alma.svg',
             image_alt: 'Alma',
             image_title: 'Alma',
             url: 'varumarken/alma',
@@ -22,7 +22,7 @@ $header_brands = array(
       ),
       new Brand(
             label: 'CryoPen',
-            image: 'bilder/varumarken/cryopen.svg',
+            image: 'bilder/logotyper/cryopen.svg',
             image_alt: 'CryoPen',
             image_title: 'CryoPen',
             url: 'cryopen.php',
@@ -30,7 +30,7 @@ $header_brands = array(
       ),
       new Brand(
             label: 'Dermapen',
-            image: 'bilder/varumarken/dermapen.svg',
+            image: 'bilder/logotyper/dermapen.svg',
             image_alt: 'Dermapen',
             image_title: 'Dermapen',
             url: 'dermapen.php',
@@ -38,7 +38,7 @@ $header_brands = array(
       ),
       new Brand(
             label: 'Exceed',
-            image: 'bilder/varumarken/exceed.png',
+            image: 'bilder/logotyper/exceed.png',
             image_alt: 'Exceed',
             image_title: 'Exceed',
             url: 'varumarken/exceed',
@@ -46,7 +46,7 @@ $header_brands = array(
       ),
       new Brand(
             label: 'HydraFacial',
-            image: 'bilder/varumarken/hydrafacial.svg',
+            image: 'bilder/logotyper/hydrafacial.svg',
             image_alt: 'HydraFacial',
             image_title: 'HydraFacial',
             url: 'hydrafacial.php',
@@ -54,7 +54,7 @@ $header_brands = array(
       ),
       new Brand(
             label: 'Infuzion',
-            image: 'bilder/varumarken/infuzion.svg',
+            image: 'bilder/logotyper/infuzion.svg',
             image_alt: 'Infuzion',
             image_title: 'Infuzion',
             url: 'infuzion.php',
@@ -62,7 +62,7 @@ $header_brands = array(
       ),
       new Brand(
             label: 'Microdermabrasion',
-            image: 'bilder/varumarken/microdermabrasion.png',
+            image: 'bilder/logotyper/microdermabrasion.png',
             image_alt: 'Microdermabrasion',
             image_title: 'Microdermabrasion',
             url: 'microdermabrasion.php',
@@ -70,7 +70,7 @@ $header_brands = array(
       ),
       new Brand(
             label: 'Powerlite Photonova',
-            image: 'bilder/varumarken/powerlite-photonova.svg',
+            image: 'bilder/logotyper/powerlite-photonova.svg',
             image_alt: 'Powerlite Photonova',
             image_title: 'Powerlite Photonova',
             url: 'varumarken/powerlite-photonova',
@@ -78,7 +78,7 @@ $header_brands = array(
       ),
       new Brand(
             label: 'PRX-T33',
-            image: 'bilder/varumarken/prx-t33.svg',
+            image: 'bilder/logotyper/prx-t33.svg',
             image_alt: 'PRX-T33n',
             image_title: 'PRX-T33',
             url: 'prx-t33.php',
@@ -86,7 +86,7 @@ $header_brands = array(
       ),
       new Brand(
             label: 'Skin Tech',
-            image: 'bilder/varumarken/skin-tech.svg',
+            image: 'bilder/logotyper/skin-tech.svg',
             image_alt: 'Skin Tech',
             image_title: 'Skin Tech',
             url: 'varumarken/skin-tech',
@@ -94,7 +94,7 @@ $header_brands = array(
       ),
       new Brand(
             label: 'Splendor X',
-            image: 'bilder/varumarken/splendor-x.png',
+            image: 'bilder/logotyper/splendor-x.png',
             image_alt: 'Splendor X',
             image_title: 'Splendor X',
             url: 'varumarken/splendor-x',
@@ -102,7 +102,7 @@ $header_brands = array(
       ),
       new Brand(
             label: 'Soprano Ice',
-            image: 'bilder/varumarken/soprano-ice.png',
+            image: 'bilder/logotyper/soprano-ice.png',
             image_alt: 'Soprano Ice',
             image_title: 'Soprano Ice',
             url: 'varumarken/alma/soprano-ice',
