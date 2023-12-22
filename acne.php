@@ -478,12 +478,12 @@ $service = new Service(
       image_alt: 'Bild av en konsultation för aknebehandling',
       image_title: 'Konsultation för aknebehandling',
 
-      url_label: 'Läs mer om vår hudkonsultation',
-      url: 'gratis-hudkonsultation.php',
-      url_title: 'Klicka här för att läsa mer om gratis hudkonsultation',
+      url_label: '',
+      url: '',
+      url_title: '',
 
-      consultation_url_label: 'Boka tid för hudkonsultation',
-      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Skin_Consultation',
+      consultation_url_label: 'Boka hudkonsultation',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
       consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för akne',
 
       booking_url_label: null,
@@ -501,21 +501,21 @@ $services = array(
             price: '995 kr',
             content: 'En effektiv ansiktsbehandling mot akne fokuserar på att noggrant extrahera orenheter som orsakar inflammation och skador i huden. Genom att försiktigt klämma ut akne och pormaskar kan behandlingen bidra till att förebygga ärrbildning och främja en snabbare läkning.',
 
-            image_small: 'images/services/200x200/ansiktsbehandling-akne.webp',
-            image_large: 'images/services/200x200/ansiktsbehandling-akne.webp',
+            image_small: 'images/services/200x200/ansiktsbehandling.webp',
+            image_large: 'images/services/200x200/ansiktsbehandling.webp',
             image_alt: 'Bild av en ansiktsbehandling mot akne',
             image_title: 'Ansiktsbehandling mot akne',
 
-            url: 'behandlingar/ansiktsbehandling-acne',
-            url_label: 'Läs mer om ansiktsbehandling mot akne',
-            url_title: 'Klicka här för att läsa mer om ansiktsbehandling mot akne',
+            url: '',
+            url_label: '',
+            url_title: '',
 
-            consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url: 'consultation-booking?problem=acne&service=classicFacials',
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling mot akne',
 
-            booking_url_label: 'Boka tid för ansiktsbehandling mot akne',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
+            booking_url_label: 'Boka behandling',
+            booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne',
             booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling mot akne'
       ),
       new Service(
@@ -524,21 +524,21 @@ $services = array(
             price: '2595 kr',
             content: 'En avancerad laserbehandling mot akne erbjuder en effektiv lösning för att bekämpa aktiv akne och ärr som kan uppstå efter utbrott. Lasertekniken riktar sig mot de bakterier som orsakar inflammation och hjälper till att minska produktionen av talg, vilket minskar risken för framtida utbrott.',
 
-            image_small: 'images/services/200x200/laser-akne.webp',
-            image_large: 'images/services/200x200/laser-akne.webp',
+            image_small: 'images/services/200x200/laser.webp',
+            image_large: 'images/services/200x200/laser.webp',
             image_alt: 'Bild av laserbehandling mot akne',
             image_title: 'Laserbehandling mot akne',
 
-            url_label: 'Läs mer om laser mot akne',
-            url: 'behandlingar/laser-akne',
-            url_title: 'Klicka här för att läsa mer om laserbehandling mot akne',
+            url: '',
+            url_label: '',
+            url_title: '',
 
-            consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url: 'consultation-booking?problem=acne&service=laser',
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling mot akne',
 
-            booking_url_label: 'Boka tid för laserbehandling mot akne',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
+            booking_url_label: 'Boka behandling',
+            booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Acne',
             booking_url_title: 'Klicka för att boka tid för en laserbehandling mot akne'
       ),
       new Service(
@@ -547,21 +547,21 @@ $services = array(
             price: '1595 kr',
             content: 'Kemisk peeling är en effektiv metod för att behandla akne. Genom att använda en speciellt framtagen lösning för att exfoliera huden, främjar kemisk peeling cellförnyelse, rensar tilltäppta porer och minskar inflammation. Resultatet är en jämnare hudton, mindre utbrott och färre synliga ärr. Det är en enkel och effektiv strategi för att ta kontroll över din akne och förbättra din hudhälsa.',
 
-            image_small: 'images/services/200x200/kemisk-peeling-akne.webp',
-            image_large: 'images/services/200x200/kemisk-peeling-akne.webp',
+            image_small: 'images/services/200x200/kemisk-peeling.webp',
+            image_large: 'images/services/200x200/kemisk-peeling.webp',
             image_alt: 'Bild av kemisk peeling mot akne',
             image_title: 'Kemisk peeling mot akne behandling',
 
-            url: 'behandlingar/kemisk-peeling-akne',
-            url_label: 'Läs mer om kemisk peeling mot akne',
-            url_title: 'Klicka här för att läsa mer om kemisk peeling mot akne',
+            url: '',
+            url_label: '',
+            url_title: '',
 
-            consultation_url: 'consultation-booking?problem=acne&service=chemicalPeeling',
-            consultation_url_label: 'Boka tid för hudkonsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
+            consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för kemisk peeling mot akne',
 
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
-            booking_url_label: 'Boka tid för kemisk peeling mot akne',
+            booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_Acne',
+            booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en kemisk peeling mot akne behandling'
 
       ),
@@ -572,21 +572,21 @@ $services = array(
             price: '2595 kr',
             content: 'Microneedling är en innovativ behandlingsmetod för akne. Detta utförs genom att skapa små mikroskopiska kanaler i huden vilket främjar hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. Denna behandling kan effektivt minska utbrott av akne, förbättra hudens struktur och minska synligheten av akneärr. Microneedling är en säker och effektiv strategi för att ta kontroll över din akne och förbättra din hudhälsa.',
 
-            image_small: 'images/services/200x200/kemisk-peeling-akne.webp',
-            image_large: 'images/services/200x200/kemisk-peeling-akne.webp',
+            image_small: 'images/services/200x200/microneedling.webp',
+            image_large: 'images/services/200x200/microneedling.webp',
             image_alt: 'Bild av microneedling mot akne',
             image_title: 'Microneedling mot akne behandling',
 
-            url: 'behandlingar/microneedling-akne',
-            url_label: 'Läs mer om microneedling mot akne',
-            url_title: 'Klicka här för att läsa mer om microneedling mot akne',
+            url: '',
+            url_label: '',
+            url_title: '',
 
-            consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url: 'consultation-booking?problem=acne&service=microneedling',
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling mot akne',
 
-            booking_url_label: 'Boka tid för microneedling mot akne',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/acne%C3%A4rr-konsultation-1643922',
+            booking_url_label: 'Boka behandling',
+            booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_Acne',
             booking_url_title: 'Klicka för att boka tid för en microneedling mot akne behandling'
       ),
 );
@@ -600,22 +600,22 @@ $products = array(
             price: 'Pris från 1495 kr',
             content: 'För att effektivt bekämpa och förebygga akne är daglig behandling med rätt produkter avgörande. Våra akneprodukter är speciellt utformade för att hålla din hud i balans och förhindra att ny akne uppstår.',
 
-            image_small: 'images/services/200x200/produkter-akne.webp',
-            image_large: 'images/services/200x200/produkter-akne.webp',
+            image_small: 'images/services/200x200/produkter.webp',
+            image_large: 'images/services/200x200/produkter.webp',
             image_alt: 'Bild av produkter designade för behandling av akne',
             image_title: 'Effektiva produkter för bekämpning och förebyggande av akne',
 
-            url_label: 'Läs mer om produkter mot akne',
-            url: 'https://dahlskincare.se',
-            url_title: 'Klicka här för att läsa mer om produkter mot akne',
+            url: '',
+            url_label: '',
+            url_title: '',
 
-            consultation_url_label: null,
-            consultation_url: null,
-            consultation_url_title: null,
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling mot akne',
 
-            booking_url_label: null,
-            booking_url: null,
-            booking_url_title: null,
+            booking_url_label: 'Köp produkter',
+            booking_url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
+            booking_url_title: 'Klicka för att köpa produktpaket mot akne'
       )
 );
 
@@ -628,22 +628,22 @@ $procedures = array(
             price: null,
             content: 'Efter aktiv akne kan man uppleva post-akne, vilket innebär ärr i form av gropar i olika former och fläckar i olika färger på huden där aknen tidigare varit. Olika typer av ärr behandlas med olika metoder. Klicka här för att läsa mer om hur du kan reparera din hud och ta hand om post-akne.',
 
-            image_small: 'images/services/200x200/microneedling-aknearr.webp',
-            image_large: 'images/services/200x200/microneedling-aknearr.webp',
+            image_small: 'images/services/200x200/microneedling.webp',
+            image_large: 'images/services/200x200/microneedling.webp',
             image_alt: 'Reparera acneärr',
             image_title: 'Reparera acneärr',
 
-            url_label: 'Läs mer om behandlingar mot akneärr',
-            url: 'behandlingar/aknearr',
-            url_title: 'Klicka här för att läsa mer om våra behandlingar mot akneärr',
+            url_label: '',
+            url: '',
+            url_title: '',
 
-            consultation_url_label: null,
-            consultation_url: null,
-            consultation_url_title: null,
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling mot akne',
 
-            booking_url_label: null,
-            booking_url: null,
-            booking_url_title: null,
+            booking_url_label: 'Boka behandling',
+            booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_AcneScars',
+            booking_url_title: 'Klicka för att boka tid för en microneedling mot akne behandling'
 
       ),
 );
