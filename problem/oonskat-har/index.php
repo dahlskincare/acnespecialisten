@@ -145,8 +145,8 @@ $services = array(
             price: '2595 kr',
             content: 'Avancerad laserbehandling för hårborttagning erbjuder en effektiv lösning för att ta bort oönskat hår permanent. Lasertekniken riktar sig mot hårstrånens melanin, vilket förstör hårsäcken och förhindrar framtida hårväxt.',
 
-            image_small: 'images/services/200x200/laser-hair.webp',
-            image_large: 'images/services/200x200/laser-hair.webp',
+            image_small: 'images/services/200x200/permanent-harborttagning.webp',
+            image_large: 'images/services/200x200/permanent-harborttagning.webp',
             image_alt: 'Bild av laserbehandling för hårborttagning',
             image_title: 'Laserbehandling för hårborttagning',
 

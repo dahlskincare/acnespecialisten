@@ -236,8 +236,8 @@ $service = new Service(
       price: 'Kostnadsfri',
       content: 'Vid ett personligt möte med en ärrspecialist utförs en undersökning av ditt ärr. Vi tar före-bilder på det drabbade området och rekommenderar en lämplig behandlingsmetod, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
 
-      image_small: 'images/services/200x200/arrkonsultation.webp',
-      image_large: 'images/services/200x200/arrkonsultation.webp',
+      image_small: 'images/services/200x200/konsultation.webp',
+      image_large: 'images/services/200x200/konsultation.webp',
       image_alt: 'Bild av en konsultation för ärrbehandling',
       image_title: 'Konsultation för ärrbehandling',
 
@@ -263,8 +263,8 @@ $services = array(
             price: '2595 kr',
             content: 'Laserbehandling för ärr erbjuder en effektiv metod för att minska ärrbildning och förbättra hudens struktur. Lasertekniken stimulerar kollagenproduktionen och cellförnyelse, vilket leder till att ärr blir mindre framträdande och hudens textur förbättras.',
 
-            image_small: 'images/services/200x200/laser-arr.webp',
-            image_large: 'images/services/200x200/laser-arr.webp',
+            image_small: 'images/services/200x200/laser.webp',
+            image_large: 'images/services/200x200/laser.webp',
             image_alt: 'Bild av laserbehandling för ärr',
             image_title: 'Laserbehandling för ärr',
 
@@ -286,8 +286,8 @@ $services = array(
             price: '1595 kr',
             content: 'Kemisk peeling kan effektivt behandla och minska ärrbildning. Genom att exfoliera huden främjar kemisk peeling cellförnyelse, vilket leder till att ärr och ojämn hudton förbättras. Det är en effektiv strategi för att förbättra din hudhälsa och reducera ärr.',
 
-            image_small: 'images/services/200x200/kemisk-peeling-arr.webp',
-            image_large: 'images/services/200x200/kemisk-peeling-arr.webp',
+            image_small: 'images/services/200x200/kemisk-peeling.webp',
+            image_large: 'images/services/200x200/kemisk-peeling.webp',
             image_alt: 'Bild av kemisk peeling för ärr',
             image_title: 'Kemisk peeling för ärr behandling',
 
@@ -310,8 +310,8 @@ $services = array(
             price: '2595 kr',
             content: 'Microneedling är en effektiv behandlingsmetod för ärr. Genom att skapa små mikroskopiska kanaler i huden stimuleras hudens naturliga läkningsprocess och kollagenproduktionen. Denna behandling kan effektivt minska ärrbildning, förbättra hudens struktur och textur. Microneedling är en säker och effektiv metod för att förbättra din hudhälsa och reducera ärr.',
 
-            image_small: 'images/services/200x200/microneedling-arr.webp',
-            image_large: 'images/services/200x200/microneedling-arr.webp',
+            image_small: 'images/services/200x200/microneedling.webp',
+            image_large: 'images/services/200x200/microneedling.webp',
             image_alt: 'Bild av microneedling för ärr',
             image_title: 'Microneedling för ärr behandling',
 

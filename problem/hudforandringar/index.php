@@ -291,8 +291,8 @@ $service = new Service(
       price: 'Kostnadsfri',
       content: 'Vid ett personligt möte med en hudspecialist utförs en undersökning av din hudförändring. Vi tar före-bilder på det berörda området och rekommenderar en lämplig behandling med Cryopen, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
 
-      image_small: 'images/services/200x200/konsultation-hudforandring.webp',
-      image_large: 'images/services/200x200/konsultation-hudforandring.webp',
+      image_small: 'images/services/200x200/konsultation.webp',
+      image_large: 'images/services/200x200/konsultation.webp',
       image_alt: 'Bild av en konsultation för hudförändringsbehandling',
       image_title: 'Konsultation för behandling av hudförändringar',
 
@@ -318,8 +318,8 @@ $services = array(
             price: '1295 kr',
             content: 'Cryopen är en avancerad behandling som snabbt och effektivt behandlar hudförändringar genom att frysa det drabbade området. Detta kan hjälpa till att minska eller eliminera utseendet på olika typer av hudförändringar.',
 
-            image_small: 'images/services/200x200/cryopen-behandling.webp',
-            image_large: 'images/services/200x200/cryopen-behandling.webp',
+            image_small: 'images/services/200x200/cryopen.webp',
+            image_large: 'images/services/200x200/cryopen.webp',
             image_alt: 'Bild av en Cryopen behandling',
             image_title: 'Behandling av hudförändringar med Cryopen',
 
