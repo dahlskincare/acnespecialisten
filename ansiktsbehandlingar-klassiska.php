@@ -58,19 +58,6 @@ $top_articles = array(
         image_title: 'Förberedelse inför klassiska ansiktsbehandlingar',
         content: '<p class="p200">Hos AcneSpecialisten är vårt främsta mål att du ska känna dig bekväm och väl omhändertagen. Om du vill kan du vidta vissa förberedande åtgärder innan din ansiktsbehandling, såsom att undvika starka hudprodukter eller direkt solljus. Men det är viktigt att betona att du alltid kan komma precis som du är. Vi förstår att varje individ är unik, och vi anpassar varje behandling efter dina specifika behov och önskemål.</p>
         <p class="p200 mt-m">Om du har några specifika bekymmer eller frågor inför din behandling, tveka inte att meddela oss. Vår prioritet är din komfort och att leverera den bästa möjliga behandlingen för dig. Välkommen till en avslappnande och förnyande upplevelse hos oss på AcneSpecialisten!</p>',
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Steam'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraction'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Cleansing'
-        ))
     ),
     'process' => new Article(
         title: 'Processen för klassiska ansiktsbehandlingar',
