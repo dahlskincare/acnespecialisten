@@ -101,6 +101,27 @@ $treatment_steps = array(
 );
 $treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra aknebehandlingar</a>';
 
+$top_articles = array(
+    'process' => new Article(
+        title: 'Processen för klassiska ansiktsbehandlingar',
+        content: '<p class="p200">Hos AcneSpecialisten anpassas varje ansiktsbehandling efter den specifika behandling du väljer, men det finns vissa gemensamma steg som ingår i de flesta av våra klassiska ansiktsbehandlingar. Behandlingen inleds alltid med en rengöring av huden för att avlägsna smuts, talg och orenheter. Detta förbereder huden för de följande stegen och säkerställer att den kan dra nytta av de produkter och metoder som används.</p>
+    <p class="p200 mt-m">Efter rengöringen kan en exfoliering genomföras för att ta bort döda hudceller och främja cellförnyelse. En ångbehandling kan också inkluderas för att öppna upp porerna och underlätta extraktion av pormaskar och akne. Därefter kan individuellt anpassade masker och serum appliceras baserat på hudens behov. Behandlingen avslutas ofta med en fuktighetskräm eller solskydd. Genom hela processen prioriteras din huds välbefinnande och komfort, och varje steg är skräddarsytt för att ge optimala resultat.</p>',
+        tags: array(new ArticleTag(
+            icon: 'article-tag-steam',
+            label: 'Steam'
+        ), new ArticleTag(
+            icon: 'article-tag-extraction',
+            label: 'Extraction'
+        ), new ArticleTag(
+            icon: 'article-tag-mask',
+            label: 'Mask'
+        ), new ArticleTag(
+            icon: 'article-tag-cleansing',
+            label: 'Cleansing'
+        ))
+    ),
+);
+
 $articles = array(
       new Article(
             title: 'Varför AcneSpecialisten?!',
@@ -772,6 +793,13 @@ $brands_url_title = "Varumärken för Aknebehandling";
                               <?php echo $treatment_link ?>
 
                         </section>
+                        <?php foreach ($top_articles as $id => $article) { ?>
+                          <section id="<?php echo $id ?>">
+                              <?php
+                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
+                              ?>
+                          </section>
+                      <?php } ?>
                         <section id="articles">
                               <?php foreach ($articles as $article) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php'); ?>
