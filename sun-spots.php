@@ -21,7 +21,7 @@ $image_title = 'Visar en hud med akne';
 $image_alt = 'Bild som illustrerar hur akne ser ut på huden';
 $description = 'Här förklarar vi vad som kännetecknar akne, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av akne, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';
 
-
+$floating_box = 'Text på floating box';
 
 $consultation_url_label = "Få gratis konsultation";
 $consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne";
@@ -104,10 +104,10 @@ $treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva aknebe
 $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelser inför Dermapen-behandling',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Förberedelser inför Dermapen-behandling',
-        image_title: 'Förberedelser inför Dermapen-behandling',
+        image_small: '',
+        image_large: '',
+        image_alt: '',
+        image_title: '',
         content: '<p class="p200">Att förbereda sig för en Dermapen-behandling innebär att först genomgå en detaljerad konsultation med en av våra hudspecialister. Under konsultationen utförs en noggrann bedömning av din hud för att identifiera individuella behov och särskilda hudproblem. Denna initiala analys är kritisk för att utforma en personlig behandlingsplan som är perfekt anpassad för dina unika hudvårdsbehov.</p>
         <p class="p200 mt-m">För optimala resultat bör huden inte vara solskadad vid tidpunkten för behandlingen. Vi rekommenderar också att du avstår från att använda hudirriterande produkter som innehåller starka syror några dagar före behandlingen. Vår hudterapeut kommer att ge dig fullständig vägledning för att förbereda din hud inför behandlingen med Dermapen, för att säkerställa en effektiv och trygg upplevelse.</p>',
         tags: array(new ArticleTag(
@@ -701,7 +701,7 @@ $brands_url_title = "Varumärken för Aknebehandling";
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
                               <div>
                                     <h2 class="h600"><?php echo $title ?></h2>
-                                    <div class="mt-m aka">
+                                    <div class="mt-m aka"><div class="mt-m"><?php echo $floating_box ?></div>
                                           <div class="mt-xl">
                                                 <div class="columns is-2 is-variable">
                                                       <div class="column">
