@@ -102,46 +102,26 @@ $treatment_steps = array(
 $treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra aknebehandlingar</a>';
 
 $types_title = 'Alma Hybrid signaturbehandlingar';
-$types_description = 'Här hittar du Alma Hybrids signaturbehandlingar som presenterar de 3 egenskaper lasermaskinen är mest effektiv inom. Dessa är reducering av olika typer av ärr, att ge huden en effektiv hudförnyelse samt en mildare huduppfräschning med minimal återhämtningstid.';
+$types_description = '';
 $big_types = array(
     new Service(
-        title: 'Hybrid oScar - Behandling av ärr',
-        duration: '90 min',
+        title: '',
+        duration: '',
         price: null,
         content: '<p class="p200">På AcneSpecialisten erbjuder vi OScar-behandlingen, en specialiserad metod för att effektivt behandla olika typer av ärr, inklusive acneärr, trauma- och kirurgiska ärr. Denna avancerade behandling utnyttjar den senaste tekniken genom att kombinera CO2 och 1570nm laservåglängder för att nå optimal penetration i hudens dermisskikt.</p>
         <p class="p200 mt-m">Behandlingsprocessen för OScar anpassas noggrant för att passa varje unik klient och ärrtyp. Genom att justera penetrationsdjup, koagulationsbredd och densitet kan vi skräddarsy behandlingen för att uppnå bästa möjliga resultat. Denna precisa metod stimulerar hudens naturliga läkningsprocess och kollagenproduktion, vilket är avgörande för att minska synligheten och djupet av ärrbildningar.</p>
         <p class="p200 mt-m">Efter laserbehandlingen kompletterar vi med Impact-serum för att ytterligare förbättra behandlingens effektivitet. Impact hjälper till att säkerställa att serumet når de djupare hudlagren, vilket bidrar till en förbättrad läkning och förnyelse av huden. OScar-behandlingen är en idealisk lösning för dig som söker en omfattande och effektiv lösning för att dramatiskt minska synligheten av ärr och förbättra hudens övergripande utseende och textur.</p>',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Hybrid oScar',
-        image_title: 'Hybrid oScar',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_HybridCO2',
-        consultation_url_label: 'Boka tid för hudkonsultation',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/',
-        booking_url_label: 'Boka Hybrid oScar',
-        booking_url_title: 'Boka Hybrid oScar',
+        image_small: '',
+        image_large: '',
+        image_alt: '',
+        image_title: '',
+        consultation_url: '',
+        consultation_url_label: '',
+        consultation_url_title: '',
+        booking_url: '',
+        booking_url_label: '',
+        booking_url_title: '',
         icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
-        procedures: array(
-            new Procedure(
-                label: '1 behandling',
-                price: '4595 kr',
-                savings: null,
-                booking_url: 'https://acnespecialisten.se/book?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_oScar&procedures=PriceClass_9_Procedure_1'
-            ),
-            new Procedure(
-                label: '3 behandlingar',
-                price: '10995 kr',
-                savings: 'Spara 2790 kr',
-                booking_url: 'https://acnespecialisten.se/book?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_oScar&procedures=PriceClass_9_Procedure_3'
-            ),
-            new Procedure(
-                label: '5 behandlingar',
-                price: '15995 kr',
-                savings: 'Spara 6980 kr',
-                booking_url: 'https://acnespecialisten.se/book?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_oScar&procedures=PriceClass_9_Procedure_5'
-            )
-        )
     ),
 );
 
