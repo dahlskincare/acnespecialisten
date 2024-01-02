@@ -13,7 +13,7 @@ $seo_keywords = 'akne, aknebehandling, orsaker till akne, förebygga akne, ta bo
 
 $seo_image = 'bilder/problem/424x456/akne.webp';
 
-$title = 'Akne';
+$title = 'Sun Spots';
 
 $image_small = 'bilder/problem/424x324/akne.webp';
 $image_large = 'bilder/problem/424x456/akne.webp';
@@ -21,23 +21,7 @@ $image_title = 'Visar en hud med akne';
 $image_alt = 'Bild som illustrerar hur akne ser ut på huden';
 $description = 'Här förklarar vi vad som kännetecknar akne, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av akne, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';
 
-$akas = [
-      new Link(
-            label: 'Finnar',
-            url: 'problem/finnar',
-            title: 'Allt du behöver veta om finnar och deras behandling'
-      ),
-      new Link(
-            label: 'Vuxenakne',
-            url: 'problem/vuxenakne',
-            title: 'Utforska orsaker, symptom och behandlingar av vuxenakne'
-      ),
-      new Link(
-            label: 'Tonårsakne',
-            url: 'problem/tonarsakne',
-            title: 'Komplett guide om tonårsakne: orsaker, förebyggande och lösningar'
-      ),
-];
+
 
 $consultation_url_label = "Få gratis konsultation";
 $consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne";
@@ -1040,10 +1024,6 @@ $brands_url_title = "Varumärken för Aknebehandling";
                               <div>
                                     <h2 class="h600"><?php echo $title ?></h2>
                                     <div class="mt-m aka">
-                                          <span class="p200 l10n">Även kallat</span>
-                                          <?php foreach ($akas as $aka) { ?>
-                                                <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="b200 underline aka"><?php echo $aka->label ?></a>
-                                          <?php } ?>
                                           <div class="mt-xl">
                                                 <div class="columns is-2 is-variable">
                                                       <div class="column">
