@@ -334,6 +334,17 @@ $type_categories = array(
                         url: 'problem/akne/typer/fungal-akne',
                         url_title: 'Lär dig mer om hur svamp relateras till akne'
                   )
+                  new BasedType(
+                        title: 'Inflammerad Akne',
+                        subtitle: 'Även kallat acne papulopustulosa',
+
+                        image_url: 'images/problems/102x102/svamp-akne.webp',
+                        image_alt: 'Bild av svampakne',
+                        image_title: 'Exempel på svampakne',
+
+                        url: 'problem/akne/typer/fungal-akne',
+                        url_title: 'Lär dig mer om hur svamp relateras till akne'
+                  )
             )
       ),
       new BasedTypeCategory(
