@@ -99,7 +99,7 @@ $top_articles = array(
     ),
 );
 
-$types_title = 'Alma Hybrid signaturbehadnlingar';
+$types_title = 'Alma Hybrid signaturbehandlingar';
 $types_description = 'Här hittar du Alma Hybrids signaturbehandlingar som presenterar de 3 egenskaper lasermaskinen är mest effektiv inom. Dessa är reducering av olika typer av ärr, att ge huden en effektiv hudförnyelse samt en mildare huduppfräschning med minimal återhämtningstid.';
 $big_types = array(
     new Service(

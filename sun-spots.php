@@ -101,7 +101,7 @@ $treatment_steps = array(
 );
 $treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra aknebehandlingar</a>';
 
-$types_title = 'Alma Hybrid signaturbehadnlingar';
+$types_title = 'Alma Hybrid signaturbehandlingar';
 $types_description = 'Här hittar du Alma Hybrids signaturbehandlingar som presenterar de 3 egenskaper lasermaskinen är mest effektiv inom. Dessa är reducering av olika typer av ärr, att ge huden en effektiv hudförnyelse samt en mildare huduppfräschning med minimal återhämtningstid.';
 $big_types = array(
     new Service(
