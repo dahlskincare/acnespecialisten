@@ -839,6 +839,11 @@ $brands_url_title = "Varumärken för Aknebehandling";
                               <?php } ?>
                           </section>
                         <?php } ?>
+                        <section id="articles">
+                              <?php foreach ($articles as $article) { ?>
+                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php'); ?>
+                              <?php } ?>
+                        </section>
                         <section id="define">
                               <h2 class="h500 l10n"><?php echo $headline01 ?></h2>
                               <hr class="is-hidden-mobile">
