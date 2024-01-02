@@ -21,6 +21,24 @@ $image_title = 'Visar en hud med akne';
 $image_alt = 'Bild som illustrerar hur akne ser ut på huden';
 $description = 'Här förklarar vi vad som kännetecknar akne, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av akne, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';
 
+$akas = [
+      new Link(
+            label: 'Finnar',
+            url: 'problem/finnar',
+            title: 'Allt du behöver veta om finnar och deras behandling'
+      ),
+      new Link(
+            label: 'Vuxenakne',
+            url: 'problem/vuxenakne',
+            title: 'Utforska orsaker, symptom och behandlingar av vuxenakne'
+      ),
+      new Link(
+            label: 'Tonårsakne',
+            url: 'problem/tonarsakne',
+            title: 'Komplett guide om tonårsakne: orsaker, förebyggande och lösningar'
+      ),
+];
+
 $floating_box = 'Text på floating box';
 
 $consultation_url_label = "Få gratis konsultation";
@@ -699,7 +717,12 @@ $brands_url_title = "Varumärken för Aknebehandling";
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
                               <div>
                                     <h2 class="h600"><?php echo $title ?></h2>
-                                    <div class="mt-m aka"><div class="mt-m"><?php echo $floating_box ?></div>
+                                    <div class="mt-m aka">
+                                          <span class="p200 l10n">Även kallat</span>
+                                          <?php foreach ($akas as $aka) { ?>
+                                                <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="b200 underline aka"><?php echo $aka->label ?></a>
+                                          <?php } ?>
+                                          <div class="mt-m"><?php echo $floating_box ?></div>
                                           <div class="mt-xl">
                                                 <div class="columns is-2 is-variable">
                                                       <div class="column">
@@ -722,6 +745,15 @@ $brands_url_title = "Varumärken för Aknebehandling";
                         <div class="container">
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
                               <h1 class="h600"><?php echo $title ?></h1>
+                              <h3 class="mt-xs p100 l10n">Även känt som:</h3>
+
+                              <?php foreach ($akas as $aka) { ?>
+                                    <div>
+                                          <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="mt-xs button b50 bright">
+                                                <?php echo $aka->label ?>
+                                          </a>
+                                    </div>
+                              <?php } ?>
 
                               <hr class="mt-xl" />
                               <p class="mt-m p200">
