@@ -104,10 +104,10 @@ $treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva aknebe
 $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelser inför Dermapen-behandling',
-        image_small: null,
-        image_large: null,
-        image_alt: null,
-        image_title: null,
+        image_small: 'https://via.placeholder.com/358x272.webp',
+        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_alt: 'Förberedelser inför Dermapen-behandling',
+        image_title: 'Förberedelser inför Dermapen-behandling',
         content: '<p class="p200">Att förbereda sig för en Dermapen-behandling innebär att först genomgå en detaljerad konsultation med en av våra hudspecialister. Under konsultationen utförs en noggrann bedömning av din hud för att identifiera individuella behov och särskilda hudproblem. Denna initiala analys är kritisk för att utforma en personlig behandlingsplan som är perfekt anpassad för dina unika hudvårdsbehov.</p>
         <p class="p200 mt-m">För optimala resultat bör huden inte vara solskadad vid tidpunkten för behandlingen. Vi rekommenderar också att du avstår från att använda hudirriterande produkter som innehåller starka syror några dagar före behandlingen. Vår hudterapeut kommer att ge dig fullständig vägledning för att förbereda din hud inför behandlingen med Dermapen, för att säkerställa en effektiv och trygg upplevelse.</p>',
         tags: array(new ArticleTag(
@@ -247,7 +247,6 @@ $services = array(
             booking_url_title: 'Klicka för att boka tid för en kemisk peeling mot akne behandling',
 
       ),
-
       new Service(
             title: 'Microneedling mot akne',
             duration: '50 min',
