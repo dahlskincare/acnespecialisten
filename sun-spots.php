@@ -101,29 +101,7 @@ $treatment_steps = array(
 );
 $treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra aknebehandlingar</a>';
 
-$types_title = 'Alma Hybrid signaturbehandlingar';
-$types_description = '';
-$big_types = array(
-    new Service(
-        title: '',
-        duration: '',
-        price: null,
-        content: '<p class="p200">På AcneSpecialisten erbjuder vi OScar-behandlingen, en specialiserad metod för att effektivt behandla olika typer av ärr, inklusive acneärr, trauma- och kirurgiska ärr. Denna avancerade behandling utnyttjar den senaste tekniken genom att kombinera CO2 och 1570nm laservåglängder för att nå optimal penetration i hudens dermisskikt.</p>
-        <p class="p200 mt-m">Behandlingsprocessen för OScar anpassas noggrant för att passa varje unik klient och ärrtyp. Genom att justera penetrationsdjup, koagulationsbredd och densitet kan vi skräddarsy behandlingen för att uppnå bästa möjliga resultat. Denna precisa metod stimulerar hudens naturliga läkningsprocess och kollagenproduktion, vilket är avgörande för att minska synligheten och djupet av ärrbildningar.</p>
-        <p class="p200 mt-m">Efter laserbehandlingen kompletterar vi med Impact-serum för att ytterligare förbättra behandlingens effektivitet. Impact hjälper till att säkerställa att serumet når de djupare hudlagren, vilket bidrar till en förbättrad läkning och förnyelse av huden. OScar-behandlingen är en idealisk lösning för dig som söker en omfattande och effektiv lösning för att dramatiskt minska synligheten av ärr och förbättra hudens övergripande utseende och textur.</p>',
-        image_small: '',
-        image_large: '',
-        image_alt: '',
-        image_title: '',
-        consultation_url: '',
-        consultation_url_label: '',
-        consultation_url_title: '',
-        booking_url: '',
-        booking_url_label: '',
-        booking_url_title: '',
-        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
-    ),
-);
+
 
 $articles = array(
       new Article(
@@ -796,29 +774,7 @@ $brands_url_title = "Varumärken för Aknebehandling";
                               <?php echo $treatment_link ?>
 
                         </section>
-                        <?php if (isset($types_title)) { ?>
-                          <section id="types" class="large-margin">
-                              <h2 class="h500"><?php echo $types_title; ?></h2>
-                              <?php if (isset($types_description)) { ?>
-                                  <p class="p200 mt-xs"><?php echo $types_description ?></p>
-                              <?php } ?>
-                              <div class="mt-xl"></div>
-                              <?php if (isset($types)) { ?>
-                                  <?php foreach ($types as $service) { ?>
-                                      <hr class="is-hidden-touch" />
-                                      <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
-                                  <?php } ?>
-                                  <hr class="is-hidden-touch" />
-                              <?php } ?>
-                              <?php if (isset($big_types)) { ?>
-                                  <?php foreach ($big_types as $service) { ?>
-                                      <div class="big-type">
-                                          <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card_big/service_card_big.php') ?>
-                                      </div>
-                                  <?php } ?>
-                              <?php } ?>
-                          </section>
-                        <?php } ?>
+                        
                         <section id="articles">
                               <?php foreach ($articles as $article) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php'); ?>
