@@ -101,24 +101,45 @@ $treatment_steps = array(
 );
 $treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra aknebehandlingar</a>';
 
-$top_articles = array(
-    'process' => new Article(
-        title: 'Processen för klassiska ansiktsbehandlingar',
-        content: '<p class="p200">Hos AcneSpecialisten anpassas varje ansiktsbehandling efter den specifika behandling du väljer, men det finns vissa gemensamma steg som ingår i de flesta av våra klassiska ansiktsbehandlingar. Behandlingen inleds alltid med en rengöring av huden för att avlägsna smuts, talg och orenheter. Detta förbereder huden för de följande stegen och säkerställer att den kan dra nytta av de produkter och metoder som används.</p>
-    <p class="p200 mt-m">Efter rengöringen kan en exfoliering genomföras för att ta bort döda hudceller och främja cellförnyelse. En ångbehandling kan också inkluderas för att öppna upp porerna och underlätta extraktion av pormaskar och akne. Därefter kan individuellt anpassade masker och serum appliceras baserat på hudens behov. Behandlingen avslutas ofta med en fuktighetskräm eller solskydd. Genom hela processen prioriteras din huds välbefinnande och komfort, och varje steg är skräddarsytt för att ge optimala resultat.</p>',
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Steam'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraction'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Cleansing'
-        ))
+$big_types = array(
+    new Service(
+        title: 'Hybrid oScar - Behandling av ärr',
+        duration: '90 min',
+        price: null,
+        content: '<p class="p200">På AcneSpecialisten erbjuder vi OScar-behandlingen, en specialiserad metod för att effektivt behandla olika typer av ärr, inklusive acneärr, trauma- och kirurgiska ärr. Denna avancerade behandling utnyttjar den senaste tekniken genom att kombinera CO2 och 1570nm laservåglängder för att nå optimal penetration i hudens dermisskikt.</p>
+        <p class="p200 mt-m">Behandlingsprocessen för OScar anpassas noggrant för att passa varje unik klient och ärrtyp. Genom att justera penetrationsdjup, koagulationsbredd och densitet kan vi skräddarsy behandlingen för att uppnå bästa möjliga resultat. Denna precisa metod stimulerar hudens naturliga läkningsprocess och kollagenproduktion, vilket är avgörande för att minska synligheten och djupet av ärrbildningar.</p>
+        <p class="p200 mt-m">Efter laserbehandlingen kompletterar vi med Impact-serum för att ytterligare förbättra behandlingens effektivitet. Impact hjälper till att säkerställa att serumet når de djupare hudlagren, vilket bidrar till en förbättrad läkning och förnyelse av huden. OScar-behandlingen är en idealisk lösning för dig som söker en omfattande och effektiv lösning för att dramatiskt minska synligheten av ärr och förbättra hudens övergripande utseende och textur.</p>',
+        image_small: 'https://via.placeholder.com/358x274.webp',
+        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_alt: 'Hybrid oScar',
+        image_title: 'Hybrid oScar',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_HybridCO2',
+        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://www.bokadirekt.se/',
+        booking_url_label: 'Boka Hybrid oScar',
+        booking_url_title: 'Boka Hybrid oScar',
+        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
+        procedures: array(
+            new Procedure(
+                label: '1 behandling',
+                price: '4595 kr',
+                savings: null,
+                booking_url: 'https://acnespecialisten.se/book?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_oScar&procedures=PriceClass_9_Procedure_1'
+            ),
+            new Procedure(
+                label: '3 behandlingar',
+                price: '10995 kr',
+                savings: 'Spara 2790 kr',
+                booking_url: 'https://acnespecialisten.se/book?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_oScar&procedures=PriceClass_9_Procedure_3'
+            ),
+            new Procedure(
+                label: '5 behandlingar',
+                price: '15995 kr',
+                savings: 'Spara 6980 kr',
+                booking_url: 'https://acnespecialisten.se/book?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_oScar&procedures=PriceClass_9_Procedure_5'
+            )
+        )
     ),
 );
 
@@ -793,18 +814,29 @@ $brands_url_title = "Varumärken för Aknebehandling";
                               <?php echo $treatment_link ?>
 
                         </section>
-                        <?php foreach ($top_articles as $id => $article) { ?>
-                          <section id="<?php echo $id ?>">
-                              <?php
-                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
-                              ?>
+                        <?php if (isset($types_title)) { ?>
+                          <section id="types" class="large-margin">
+                              <h2 class="h500"><?php echo $types_title; ?></h2>
+                              <?php if (isset($types_description)) { ?>
+                                  <p class="p200 mt-xs"><?php echo $types_description ?></p>
+                              <?php } ?>
+                              <div class="mt-xl"></div>
+                              <?php if (isset($types)) { ?>
+                                  <?php foreach ($types as $service) { ?>
+                                      <hr class="is-hidden-touch" />
+                                      <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
+                                  <?php } ?>
+                                  <hr class="is-hidden-touch" />
+                              <?php } ?>
+                              <?php if (isset($big_types)) { ?>
+                                  <?php foreach ($big_types as $service) { ?>
+                                      <div class="big-type">
+                                          <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card_big/service_card_big.php') ?>
+                                      </div>
+                                  <?php } ?>
+                              <?php } ?>
                           </section>
                       <?php } ?>
-                        <section id="articles">
-                              <?php foreach ($articles as $article) { ?>
-                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php'); ?>
-                              <?php } ?>
-                        </section>
                         <section id="define">
                               <h2 class="h500 l10n"><?php echo $headline01 ?></h2>
                               <hr class="is-hidden-mobile">
