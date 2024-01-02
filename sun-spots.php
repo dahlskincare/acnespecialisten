@@ -101,7 +101,30 @@ $treatment_steps = array(
 );
 $treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra aknebehandlingar</a>';
 
-
+$top_articles = array(
+    'preparing' => new Article(
+        title: 'Förberedelser inför Dermapen-behandling',
+        image_small: 'https://via.placeholder.com/358x272.webp',
+        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_alt: 'Förberedelser inför Dermapen-behandling',
+        image_title: 'Förberedelser inför Dermapen-behandling',
+        content: '<p class="p200">Att förbereda sig för en Dermapen-behandling innebär att först genomgå en detaljerad konsultation med en av våra hudspecialister. Under konsultationen utförs en noggrann bedömning av din hud för att identifiera individuella behov och särskilda hudproblem. Denna initiala analys är kritisk för att utforma en personlig behandlingsplan som är perfekt anpassad för dina unika hudvårdsbehov.</p>
+        <p class="p200 mt-m">För optimala resultat bör huden inte vara solskadad vid tidpunkten för behandlingen. Vi rekommenderar också att du avstår från att använda hudirriterande produkter som innehåller starka syror några dagar före behandlingen. Vår hudterapeut kommer att ge dig fullständig vägledning för att förbereda din hud inför behandlingen med Dermapen, för att säkerställa en effektiv och trygg upplevelse.</p>',
+        tags: array(new ArticleTag(
+            icon: 'article-tag-steam',
+            label: 'Steam'
+        ), new ArticleTag(
+            icon: 'article-tag-extraction',
+            label: 'Extraction'
+        ), new ArticleTag(
+            icon: 'article-tag-mask',
+            label: 'Mask'
+        ), new ArticleTag(
+            icon: 'article-tag-cleansing',
+            label: 'Cleansing'
+        ))
+    ),
+);
 
 $articles = array(
       new Article(
@@ -774,7 +797,15 @@ $brands_url_title = "Varumärken för Aknebehandling";
                               <?php echo $treatment_link ?>
 
                         </section>
-                        
+
+                        <?php foreach ($top_articles as $id => $article) { ?>
+                          <section id="<?php echo $id ?>">
+                              <?php
+                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
+                              ?>
+                          </section>
+                      <?php } ?>
+
                         <section id="articles">
                               <?php foreach ($articles as $article) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php'); ?>
