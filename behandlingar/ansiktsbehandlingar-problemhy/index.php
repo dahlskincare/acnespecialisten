@@ -55,19 +55,6 @@ $top_articles = array(
         image_alt: 'Förberedelser inför ansiktsbehandlingar för problemhy',
         image_title: 'Förberedelser inför ansiktsbehandlingar för problemhy',
         content: '<p class="p200">Inför din ansiktsbehandling för problemhy hos oss behöver du inte tänka på något särskilt. Kom som du är, och vi tar hand om resten. Om du vill förbereda dig lite extra kan du tänka på följande: undvik att exfoliera huden dagen innan och undvik att sola några dagar innan behandlingen. Det kan också vara bra att komma med ett rent ansikte, utan smink. Informera gärna din hudterapeut i förväg om du tar några mediciner eller har några aktiva hudåkommor, så att behandlingen kan anpassas efter dina behov. Men det viktigaste är att du känner dig bekväm, så välj det som känns bäst för dig.</p>',
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Ånga'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraktion'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Rengöring'
-        ))
     ),
     'process' => new Article(
         title: 'Hur går en ansiktsbehandling för problemhy till?',
