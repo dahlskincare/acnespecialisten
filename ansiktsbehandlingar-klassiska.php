@@ -101,7 +101,7 @@ $big_types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Classic',
         booking_url_label: 'Boka klassisk behandling',
         booking_url_title: 'Boka klassisk behandling',
-        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
+        icons: array('rengoring' => 'Rengöring', 'anga' => 'Ånga', 'extraktion' => 'Extraktion', 'mask' => 'Mask'),
         procedures: array(
             new Procedure(
                 label: '1 behandling',
@@ -138,7 +138,7 @@ $big_types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_AntiStress',
         booking_url_label: 'Boka en Antistress ansiktsbehandling',
         booking_url_title: 'Boka en Antistress ansiktsbehandling',
-        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
+        icons: array('rengoring' => 'Rengöring', 'anga' => 'Ånga', 'extraktion' => 'Extraktion', 'mask' => 'Mask'),
         procedures: array(
             new Procedure(
                 label: '1 behandling',
@@ -163,7 +163,7 @@ $big_types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_TherapistsChoice',
         booking_url_label: 'Boka en behandling enligt hudterapeutens val',
         booking_url_title: 'Boka en behandling enligt hudterapeutens val',
-        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
+        icons: array('rengoring' => 'Rengöring', 'anga' => 'Ånga', 'extraktion' => 'Extraktion', 'mask' => 'Mask'),
         procedures: array(
             new Procedure(
                 label: '1 behandling',
@@ -200,7 +200,7 @@ $big_types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_PeelBoostGlow',
         booking_url_label: 'Boka Peel, Boost & Glow behandling',
         booking_url_title: 'Boka Peel, Boost & Glow behandling',
-        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
+        icons: array('rengoring' => 'Rengöring', 'anga' => 'Ånga', 'extraktion' => 'Extraktion', 'mask' => 'Mask'),
         procedures: array(
             new Procedure(
                 label: '1 behandling',
@@ -237,7 +237,7 @@ $big_types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Luxury',
         booking_url_label: 'Boka Ansiktsbehandling Lyx',
         booking_url_title: 'Boka Ansiktsbehandling Lyx',
-        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
+        icons: array('rengoring' => 'Rengöring', 'anga' => 'Ånga', 'extraktion' => 'Extraktion', 'mask' => 'Mask'),
         procedures: array(
             new Procedure(
                 label: '1 behandling',
@@ -274,10 +274,7 @@ $big_types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=facialClassic',
         booking_url_label: 'Boka porrengöringsbehandling',
         booking_url_title: 'Boka porrengöringsbehandling',
-        icons: array(
-            'who-teenagers' => 'Teenagers',
-            'who-adults' => 'Adults'
-        ),
+        icons: array('rengoring' => 'Rengöring', 'anga' => 'Ånga', 'extraktion' => 'Extraktion', 'mask' => 'Mask'),
         procedures: array(
             new Procedure(
                 label: '1 porrengöringsbehandling',
