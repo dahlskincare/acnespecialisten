@@ -176,7 +176,7 @@ $problems['oonskat-har'] = new Problem(
 );
 $problems['operations-skadearr'] = new Problem(
       label: 'Operations & Skadeärr',
-      url: 'operations-skadearr',
+      url: 'problemhy/operations-skadearr',
       url_title: 'Operations & Skadeärr',
       consultation_url: 'gratis-hudkonsultation',
       booking_url: 'https://www.bokadirekt.se',

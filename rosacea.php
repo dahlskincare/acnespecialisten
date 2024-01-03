@@ -75,7 +75,7 @@ $trivias = array(
             extended_content: '<p class="p200 mt-xl">Människor med rosacea har dessutom ofta en högre koncentration av en typ av hårsäckskvalster, kallad demodex, än de utan sjukdomen. Dessa kvalster kan orsaka inflammatoriska reaktioner som leder till utslag och andra hudsymptom. Hudens skyddsbarriär kan också vara störd hos personer med rosacea, vilket resulterar i ökad känslighet och reaktivitet mot olika yttre och inre triggande faktorer.</p>
 
             <p class="p200 mt-xl">En annan tänkbar bidragande faktor till rosacea är en överreaktion från kroppens immunsystem, vilket kan bidra till inflammation och rodnad i huden. Trots att det finns flera tänkbara utlösande faktorer, ligger den genetiska predispositionen för rosacea till grund för sjukdomen och inget man kan drabbas av om man inte har anlagen. Men varje individs upplevelse av rosacea är unik, och det är därför en anpassad behandlingsplan är nödvändig. På AcneSpecialisten hjälper vi dig att hitta den bästa behandlingen utifrån dina unika behov och utmaningar.</p>',
-            icons: array('genetik' => 'Genetik', 'hormoner' => 'Hormoner', 'stress' => 'Stress', 'klimat' => 'Klimat', 'kyla' => 'Kyla', 'varme' => 'varme', 'mat-dryck' => 'Mat & Dryck')
+            icons: array('genetik' => 'Genetik', 'hormoner' => 'Hormoner', 'kyla-varme' => 'Kyla & Värme', 'mat-dryck' => 'Mat & Dryck')
       ),
       new ProblemTrivia(
             prefix: 'Vem',
@@ -85,7 +85,7 @@ $trivias = array(
             extended_content: '<p class="p200 mt-xl">Det är också viktigt att notera att personer med en familjehistoria av rosacea eller andra hudsjukdomar, som akne, har en högre risk att utveckla sjukdomen. Dessa individer bör vara särskilt medvetna om symtomen på rosacea och söka professionell hjälp om de misstänker att de har tillståndet.</p>
 
             <p class="p200 mt-xl">På AcneSpecialisten är vi väl medvetna om att rosacea påverkar individer på olika sätt. Vi arbetar för att skapa en skräddarsydd behandlingsplan som är anpassad till din hudtyp, din livsstil och dina specifika symtom. Vi vill hjälpa dig att hantera din rosacea på bästa möjliga sätt.</p>',
-            icons: array('man-kvinna' => 'Män & Kvinnor', 'vuxna' => 'Vuxna')
+            icons: array('man-kvinna' => 'Män & Kvinnor', '30+' => 'Vuxna')
       ),
       new ProblemTrivia(
             prefix: 'Var',
