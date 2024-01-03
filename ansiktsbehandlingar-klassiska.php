@@ -67,19 +67,6 @@ $top_articles = array(
         image_title: 'Processen för klassiska ansiktsbehandlingar',
         content: '<p class="p200">Hos AcneSpecialisten anpassas varje ansiktsbehandling efter den specifika behandling du väljer, men det finns vissa gemensamma steg som ingår i de flesta av våra klassiska ansiktsbehandlingar. Behandlingen inleds alltid med en rengöring av huden för att avlägsna smuts, talg och orenheter. Detta förbereder huden för de följande stegen och säkerställer att den kan dra nytta av de produkter och metoder som används.</p>
     <p class="p200 mt-m">Efter rengöringen kan en exfoliering genomföras för att ta bort döda hudceller och främja cellförnyelse. En ångbehandling kan också inkluderas för att öppna upp porerna och underlätta extraktion av pormaskar och akne. Därefter kan individuellt anpassade masker och serum appliceras baserat på hudens behov. Behandlingen avslutas ofta med en fuktighetskräm eller solskydd. Genom hela processen prioriteras din huds välbefinnande och komfort, och varje steg är skräddarsytt för att ge optimala resultat.</p>',
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Steam'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraction'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Cleansing'
-        ))
     ),
 );
 
@@ -125,7 +112,7 @@ $big_types = array(
     ),
     new Service(
         title: 'Ansiktsbehandling - Antistress',
-        duration: '60 min',
+        duration: '40 min',
         price: null,
         content: '<p class="p200">Unna dig en paus från vardagens hektik med vår Ansiktsbehandling Antistress. Den börjar med en lätt rengöring för att varsamt fräscha upp huden. Den vitaliserande oljemassagen ger en känsla av avkoppling och balans. Behandlingen avslutas med vår skräddarsydda LED-ljusterapi och en närande kräm, allt för att säkerställa en total känsla av välbefinnande.</p>',
         image_small: 'https://via.placeholder.com/358x274.webp',
@@ -138,7 +125,7 @@ $big_types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_AntiStress',
         booking_url_label: 'Boka en Antistress ansiktsbehandling',
         booking_url_title: 'Boka en Antistress ansiktsbehandling',
-        icons: array('rengoring' => 'Rengöring', 'anga' => 'Ånga', 'extraktion' => 'Extraktion', 'mask' => 'Mask'),
+        icons: array('rengoring' => 'Lätt rengöring', 'mild' => 'Ansiktsmassage', 'produkter' => 'Närande kräm', 'led' => 'LED'),
         procedures: array(
             new Procedure(
                 label: '1 behandling',
