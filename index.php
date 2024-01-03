@@ -101,7 +101,7 @@
                                     image_large: 'images/problems/424x324/akne.webp',
                                     image_title: 'Information om Akne - Acnespecialisten',
                                     image_alt: 'Bild som illustrerar akne',
-                                    url: 'akne.php',
+                                    url: 'acne.php',
                                     url_title: 'Läs mer om Akne',
                                     show_on_large: true,
                                     show_on_small: true
@@ -112,7 +112,7 @@
                                     image_large: 'images/problems/424x324/acnearr.webp',
                                     image_title: 'Akneärr',
                                     image_alt: 'Akneärr',
-                                    url: 'aknearr.php',
+                                    url: 'acnearr.php',
                                     url_title: 'Akneärr',
                                     show_on_large: true,
                                     show_on_small: true
@@ -350,7 +350,7 @@
                                     image_large: 'images/service-categories/large/ipl.jpg',
                                     image_title: 'IPL',
                                     image_alt: 'IPL',
-                                    url: 'ipl.php',
+                                    url: 'behandlingar/ipl',
                                     url_title: 'IPL',
                                     show_on_large: true,
                                     show_on_small: true
@@ -415,12 +415,12 @@
                         $more_count = 17;
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/accordion/accordion.php')
                         ?>
-                        <a href="behandlingar" title="Behandlingar" class="mt-xl button b200 outline is-hidden-desktop expand">Se alla behandlingar</a>
+                        <a href="behandlingar.php" title="Behandlingar" class="mt-xl button b200 outline is-hidden-desktop expand">Se alla behandlingar</a>
                   </section>
                   <section id="faq">
                         <div class="flex-row align-end justify-space-between">
                               <div class="h500 l10n">Frågor & Svar</div>
-                              <a href="faq" title="FAQ" class="button compact text is-hidden-mobile">
+                              <a href="fragor-svar.php" title="FAQ" class="button compact text is-hidden-mobile">
                                     <span class="l10n">Se fler frågor & svar</span>
                                     <?php icon('navigate-next') ?>
                               </a>
