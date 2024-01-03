@@ -501,7 +501,7 @@
                                     <div class="columns is-4 is-variable">
                                           <div class="column">
                                                 <div class="flex-row about-header">
-                                                      <?php icon('star') ?>
+                                                      <?php icon('erfarenhet') ?>
                                                       <div class="h200 l10n">30 års erfarenhet</div>
                                                 </div>
                                                 <p class="p200 mt-xxs l10n">
@@ -511,7 +511,7 @@
                                           </div>
                                           <div class="column">
                                                 <div class="flex-row about-header">
-                                                      <?php icon('star') ?>
+                                                      <?php icon('unik') ?>
                                                       <div class="h200 l10n">Unik helhetslösning</div>
                                                 </div>
                                                 <p class="p200 mt-xxs l10n">
@@ -523,7 +523,7 @@
                                     <div class="columns is-4 is-variable">
                                           <div class="column">
                                                 <div class="flex-row about-header">
-                                                      <?php icon('star') ?>
+                                                      <?php icon('certifierad') ?>
                                                       <div class="h200 l10n">Diplomerade hudspecialister</div>
                                                 </div>
                                                 <p class="p200 mt-xxs l10n">
@@ -533,7 +533,7 @@
                                           </div>
                                           <div class="column">
                                                 <div class="flex-row about-header">
-                                                      <?php icon('star') ?>
+                                                      <?php icon('kliniker') ?>
                                                       <div class="h200 l10n">3 Kliniker</div>
                                                 </div>
                                                 <p class="p200 mt-xxs l10n">

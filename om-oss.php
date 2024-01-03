@@ -86,7 +86,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
                     <div class="columns">
                         <div class="column">
                             <div class="flex-row align-center">
-                                <?php icon('star') ?>
+                                <?php icon('unik') ?>
                                 <h3 class="h200 ml-s l10n">Unik helhetslösning</h3>
                             </div>
                             <p class="bullet-desc l10n">
@@ -95,7 +95,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
                         </div>
                         <div class="column">
                             <div class="flex-row align-center">
-                                <?php icon('star') ?>
+                                <?php icon('erfarenhet') ?>
                                 <h3 class="h200 ml-s l10n">30 års erfarenhet</h3>
                             </div>
                             <p class="bullet-desc l10n">
@@ -104,7 +104,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
                         </div>
                         <div class="column">
                             <div class="flex-row align-center">
-                                <?php icon('star') ?>
+                                <?php icon('certifierad') ?>
                                 <h3 class="h200 ml-s l10n">Diplomerade hudspecialister</h3>
                             </div>
                             <p class="bullet-desc l10n">
