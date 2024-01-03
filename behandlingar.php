@@ -232,7 +232,7 @@ $service_categories = array(
         consultation_url_label: 'Boka hudkonsultation'
     ),
     new ServiceCategory(
-        id: '/ansiktsbehandlingar-klassiska.php',
+        id: 'ansiktsbehandlingar-klassiska.php',
         label: 'Klassiska ansiktsbehandlingar',
         content: 'Klassiska ansiktsbehandlingar är tidlösa och grundläggande skönhetsbehandlingar som främjar allmän hudhälsa. De inkluderar rengöring, exfoliering, ånga, masker och massage, och är anpassade för att passa olika hudtyper och behov.',
         image_small: 'bilder/behandlingar/200x200/klassiska-ansiktsbehandlingar.webp',
@@ -433,7 +433,7 @@ $service_categories = array(
         consultation_url_label: 'Boka hudkonsultation'
     ),
     new ServiceCategory(
-        id: '/kemisk-peeling.php',
+        id: 'kemisk-peeling.php',
         label: 'Kemisk Peeling',
         content: 'Kemisk peeling innebär applicering av en kemisk lösning på huden för att avlägsna de döda hudcellerna från ytan. Detta stimulerar hudens förnyelseprocess, vilket leder till mjukare, klarare och jämnare hud.',
         image_small: 'bilder/behandlingar/200x200/kemisk-peeling.webp',
@@ -543,7 +543,7 @@ $service_categories = array(
         consultation_url_label: 'Boka hudkonsultation'
     ),
     new ServiceCategory(
-        id: '/microneedling.php',
+        id: 'microneedling.php',
         label: 'Microneedling',
         content: 'Microneedling är en procedur där små nålar används för att skapa mikroskopiska punkteringar i huden, vilket stimulerar hudens naturliga läkningsprocess och kollagenproduktion. Detta leder till en fastare, jämnare och fräschare hud.',
         image_small: 'bilder/behandlingar/200x200/microneedling.webp',
@@ -599,7 +599,7 @@ $service_categories = array(
     ),
     
     new ServiceCategory(
-        id: '/permanent-harborttagning.php',
+        id: 'permanent-harborttagning.php',
         label: 'Permanent Hårborttagning',
         content: 'Permanent hårborttagning erbjuder en långvarig lösning för att minska oönskad hårväxt på kroppen. Denna behandling är effektiv för olika hud- och hårfärger och ger en slät och hårfri hud.',
         image_small: 'bilder/behandlingar/200x200/permanent-harborttagning.webp',
@@ -690,7 +690,7 @@ $service_categories = array(
         consultation_url_label: 'Boka hudkonsultation',
     ),
     new ServiceCategory(
-        id: '/gratis-hudkonsultation.php',
+        id: 'gratis-hudkonsultation.php',
         label: 'Gratis Hudkonsultation',
         content: 'En gratis hudkonsultation ger en möjlighet att träffa en hudvårdsexpert och diskutera dina hudvårdsbehov och mål. Under konsultationen kan du få anpassade rekommendationer för behandlingar och produkter som passar just din hudtyp.',
         image_small: 'bilder/behandlingar/200x200/gratis-hudkonsultation.webp',
