@@ -432,11 +432,11 @@ $categories = array(
                 </section>
                 <section id="about" class="large-margin">
                     <h2 class="h500 l10n">Vad är en hudkonsultation?</h2>
-                    <picture>
+                    <!--<picture>
                         <source media="(max-width: 799px)" srcset="https://via.placeholder.com/358x272.webp">
                         <source media="(min-width: 800px)" srcset="https://via.placeholder.com/872x456.webp">
                         <img src="https://via.placeholder.com/358x272.webp" alt="What is skin consultation?" title="What is skin consultation?" width="358" height="272" />
-                    </picture>
+                    </picture>-->
                     <div class="infobox">
                         <div class="ib-header" onclick="Consultation.toggleContent(this.parentElement)">
                             <div class="l10n">Vi erbjuder alltid gratis hudkonsultation! (Värde 600 kronor)</div>
