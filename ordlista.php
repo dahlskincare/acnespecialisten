@@ -58,7 +58,14 @@ $glossary_items = array(
     'o' => array(),
     'p' => array(),
     'q' => array(),
-    'r' => array(),
+    'r' => array(
+        new GlossaryItem(
+            title: 'Rhinophyma Rosacea',
+            description: '<p class="p200">Här hittar du med information om rhinophyma rosacea.
+                <a class="b200 underline color-deep-sea-400" href="/rhinophyma-rosacea.php">Rhinophyma Rosacea</a></p>',
+        ),
+        
+    ),
     's' => array(),
     't' => array(),
     'u' => array(),
