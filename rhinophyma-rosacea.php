@@ -98,13 +98,20 @@ $treatment_link = '<a href="problem/rosacea/rosaceabehandling" title="Utforska e
 
 $top_articles = array(
     'omraden' => new Article(
-        title: 'Rhinophyma Rosacea',
+        title: 'Rhinophyma Rosacea områden',
         image_small: '',
         image_large: '',
         image_alt: '',
         image_title: '',
-        content: '<p class="p200">Rhinophyma rosacea är en särskild och avancerad form av rosacea som främst påverkar näsan. Det kännetecknas av en betydande förtjockning och rödhet av näshuden, och kan resultera i en knölig, ojämn yta. Denna tillstånd uppträder uteslutande på näsan och är känt för att gradvis förändra dess form och storlek. Rhinophyma utvecklas över tid och är oftare sett hos män än hos kvinnor. Även om det är en sällsyntare manifestation av rosacea, är det viktigt att korrekt identifiera och behandla rhinophyma för att förhindra ytterligare progression och förbättra patientens livskvalitet.</p>
-      <p class="p200 mt-m">För att förstå ditt specifika tillstånd och utforska behandlingsalternativ, är en konsultation med en hudspecialist nödvändig. En specialist kan ge en personlig bedömning och rekommendera en behandlingsplan anpassad för dina behov. Med rätt vård och behandling kan personer med rhinophyma uppleva förbättringar i både utseende och komfort.</p>',
+        content: '<p class="p200">Rhinophyma rosacea är en särskild och avancerad form av rosacea som påverkar näsan. Det kännetecknas av en betydande förtjockning och rödhet av näshuden, och kan resultera i en knölig, ojämn yta. Denna tillstånd uppträder uteslutande på näsan och är känt för att gradvis förändra dess form och storlek. Rhinophyma utvecklas över tid och är oftare sett hos män än hos kvinnor. Även om det är en sällsyntare manifestation av rosacea, är det viktigt att korrekt identifiera och behandla rhinophyma för att förhindra ytterligare progression och förbättra patientens livskvalitet.</p>
+      <p class="p200 mt-m">För att förstå ditt specifika tillstånd och utforska behandlingsalternativ, är en konsultation med en hudterapeut nödvändig. En hudterapeut kan ge en personlig bedömning och rekommendera en behandlingsplan anpassad för dina behov.</p>',
+      tags: array(new ArticleTag(
+            icon: 'man',
+            label: 'Män'
+        ), new ArticleTag(
+            icon: 'nasa',
+            label: 'Näsa'
+        ))
     ),
 );
 
