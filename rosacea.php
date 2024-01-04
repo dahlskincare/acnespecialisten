@@ -324,7 +324,7 @@ $service = new Service(
       booking_url: null,
       booking_url_label: null,
       booking_url_title: null,
-      url: 'gratis-hudkonsultation',
+      url: 'gratis-hudkonsultation.php',
       url_label: 'Läs mer om vår hudkonsultation',
       url_title: 'Klicka här för att läsa mer om gratis hudkonsultation'
 );
@@ -347,7 +347,7 @@ $services = array(
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/rosacea-konsultation-1643922',
             booking_url_label: 'Boka tid för ansiktsbehandling mot rosacea',
             booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling mot rosacea',
-            url: 'problem/rosacea/behandling',
+            url: 'rosaceabehandling.php',
             url_label: 'Läs mer om ansiktsbehandling för rosacea',
             url_title: 'Läs mer om ansiktsbehandling för rosacea'
       ),
@@ -395,7 +395,7 @@ $procedures = array(
             booking_url: null,
             booking_url_label: null,
             booking_url_title: null,
-            url: 'behandlingar/ipl-rosacea',
+            url: 'ipl-rosacea.php',
             url_label: 'Läs mer om behandlingar mot ytliga blodkärl',
             url_title: 'Klicka här för att läsa mer om våra behandlingar mot ytliga blodkärl'
       ),

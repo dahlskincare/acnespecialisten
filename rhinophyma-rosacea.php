@@ -17,11 +17,11 @@ $title = 'Rhinophyma Rosacea';
 
 $image_small = 'bilder/problem/424x324/rosacea.webp';
 $image_large = 'bilder/problem/424x456/rosacea.webp';
-$image_title = 'Visar en hud med rosacea';
-$image_alt = 'Bild som illustrerar hur rosacea ser ut på huden';
-$description = 'Här förklarar vi vad som kännetecknar rosacea, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av rosacea, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';
+$image_title = 'Visar en hud med rhinophyma rosacea';
+$image_alt = 'Bild som illustrerar hur rhinophyma rosacea ser ut på huden';
+$description = 'Utforska vad som kännetecknar rhinophyma rosacea, ett tillstånd som involverar kronisk inflammation och förtjockning av huden på näsan. Vi diskuterar varför tillståndet uppstår och hur AcneSpecialisten kan stödja dig genom behandlingsprocessen.';
 
-$floating_box = 'Text på floating box';
+$floating_box = 'En översikt om rhinophyma rosacea och dess behandling';
 
 $consultation_url_label = "Få gratis konsultation";
 $consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne";
@@ -59,71 +59,42 @@ $nav_buttons = array(
       'related-problems' => 'Relaterade problem',
 );
 
-$description_title = 'Vad är Sun Spots?';
-$description_text = '<p class="p200">Klassiska ansiktsbehandlingar är en grundsten inom hudvård och erbjuder en upplevelse av avkoppling samtidigt som huden får den vård den behöver. Behandlingarna går ut på att rengöra, återfukta, balansera och revitalisera huden, samt att hantera specifika hudproblem.</p>
-<p class="p200 mt-m">Hos oss på AcneSpecialisten kan du välja mellan flera typer av klassiska ansiktsbehandlingar. Vi erbjuder allt från den traditionella Klassisk ansiktsbehandling till Antistress, där fokus ligger på avslappning. Hudterapeutens val anpassas helt efter dina behov, medan Peel, Boost & Glow siktar på att ge huden en extra boost. För den som vill ha det lilla extra erbjuder vi Lyx behandlingen. Oavsett vilken behandling du väljer, är vårt mål att ge din hud den bästa möjliga omsorgen.</p>';
+$description_title = 'Vad är rhinophyma rosacea?';
+$description_text = '<p class="p200">Rhinophyma rosacea är en särskilt svår form av rosacea som huvudsakligen påverkar näsan. Det kännetecknas av en signifikant förtjockning och rödhet av huden, ofta med en ojämn, knölig yta. Tillståndet utvecklas vanligtvis över tid och är mer frekvent hos män, särskilt de som är mitt i livet eller äldre.</p>
+<p class="p200 mt-m">Orsaken till rhinophyma rosacea är genetiskto och även om tillståndet främst är estetiskt störande kan det i allvarligare fall leda till andningssvårigheter. Hos AcneSpecialisten fokuserar vi på att förstå varje individs unika situation och erbjuda skräddarsydda behandlingsplaner.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din rosaceatyp och skapar en individuell behandlingsplan.',
-
+            content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din rhinophyma rosacea och skapar en individuell behandlingsplan.',
             url_label: 'Få gratis konsultation',
-            url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
+            url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi utför skonsamma och effektiva rosaceabehandlingar anpassade för din specifika rosaceatyp, så att du snabbt och säkert blir av med problemet.',
-
-            url_label: 'Se rosaceabehandlingar',
-            url: 'acnebehandling.php',
+            content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika rhinophyma rosacea, så att du snabbt och säkert blir av med problemet.',
+            url_label: 'Se behandlingar',
+            url: 'rosaceabehandling.php',
             url_title: 'Utforska våra skräddarsydda rosaceabehandlingar'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny rosacea och hålla din hud i balans.',
-
+            content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny rhinophyma rosacea och hålla din hud i balans.',
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/rosacea',
             url_title: 'Hitta de bästa produkterna för att förebygga rosacea'
       ),
       new TreatmentStep(
             title: 'Reparera',
-            content: 'När rosacean är borta fokuserar vi på att reducera eventuella ärr med behandlingsmetoder som laser, microneedling och kemisk peeling för en jämn och problemfri hud.',
-
-            url_label: 'Se ärrbehandlingar',
-            url: 'behandla-acnearr.php',
-            url_title: 'Upptäck effektiva behandlingar för rosaceaärr'
+            content: 'När rosacean är borta fokuserar vi på att reducera eventuella ytliga blodkärl med behandlingsmetoder som IPL för en jämn och problemfri hud.',
+            url_label: 'Se IPL-behandlingar',
+            url: 'ipl-rosacea.php',
+            url_title: 'Upptäck effektiva behandlingar för ytliga blodkärl'
       ),
 
 );
-$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva rosaceabehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra rosaceabehandlingar</a>';
-
-$top_articles = array(
-    'omraden' => new Article(
-        title: 'Sun Spot Areas',
-        image_small: '',
-        image_large: '',
-        image_alt: '',
-        image_title: '',
-        content: '<p class="p200">Att förbereda sig för en Dermapen-behandling innebär att först genomgå en detaljerad konsultation med en av våra hudspecialister. Under konsultationen utförs en noggrann bedömning av din hud för att identifiera individuella behov och särskilda hudproblem. Denna initiala analys är kritisk för att utforma en personlig behandlingsplan som är perfekt anpassad för dina unika hudvårdsbehov.</p>
-        <p class="p200 mt-m">För optimala resultat bör huden inte vara solskadad vid tidpunkten för behandlingen. Vi rekommenderar också att du avstår från att använda hudirriterande produkter som innehåller starka syror några dagar före behandlingen. Vår hudterapeut kommer att ge dig fullständig vägledning för att förbereda din hud inför behandlingen med Dermapen, för att säkerställa en effektiv och trygg upplevelse.</p>',
-        tags: array(new ArticleTag(
-            icon: 'anga',
-            label: 'Ånga'
-        ), new ArticleTag(
-            icon: 'extraktion',
-            label: 'Extraktion'
-        ), new ArticleTag(
-            icon: 'mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'rengoring',
-            label: 'Rengöring'
-        ))
-    ),
-);
+$treatment_link = '<a href="problem/rosacea/rosaceabehandling" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra rosaceabehandlingar</a>';
 
 $articles = array(
       new Article(
@@ -152,25 +123,20 @@ $service = new Service(
       title: 'Konsultation',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Vid ett personligt möte med en acnespecialist utförs en undersökning av din rosacea. Vi tar före-bilder på din hud och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
-
+      content: 'Vid ett personligt möte med en specialist på rosacea utförs en undersökning av din hud. Vi tar före-bilder på din hud och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
       image_small: 'images/services/200x200/konsultation.webp',
       image_large: 'images/services/200x200/konsultation.webp',
       image_alt: 'Bild av en konsultation för rosaceabehandling',
       image_title: 'Konsultation för rosaceabehandling',
-
-      url_label: '',
-      url: '',
-      url_title: '',
-
-      consultation_url_label: 'Boka hudkonsultation',
-      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
+      consultation_url: 'consultation-booking?problem=rosacea',
+      consultation_url_label: 'Boka tid för hudkonsultation',
       consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för rosacea',
-
-      booking_url_label: null,
       booking_url: null,
+      booking_url_label: null,
       booking_url_title: null,
-
+      url: 'gratis-hudkonsultation.php',
+      url_label: 'Läs mer om vår hudkonsultation',
+      url_title: 'Klicka här för att läsa mer om gratis hudkonsultation'
 );
 
 $headline02 = "02. Behandla aktiv rosacea";
@@ -180,94 +146,20 @@ $services = array(
             title: 'Ansiktsbehandling mot rosacea',
             duration: '60 min',
             price: '995 kr',
-            content: 'En effektiv ansiktsbehandling mot rosacea fokuserar på att noggrant extrahera orenheter som orsakar inflammation och skador i huden. Genom att försiktigt klämma ut rosacea och pormaskar kan behandlingen bidra till att förebygga ärrbildning och främja en snabbare läkning.',
-
-            image_small: 'images/services/200x200/ansiktsbehandling.webp',
-            image_large: 'images/services/200x200/ansiktsbehandling.webp',
+            content: 'En effektiv ansiktsbehandling mot rosacea fokuserar på att lindra rodnad och inflammation. Genom att använda specialanpassade produkter och tekniker kan denna behandling bidra till att förbättra hudens textur och utseende.',
+            image_small: 'images/services/200x200/ansiktsbehandling-rosacea.webp',
+            image_large: 'images/services/200x200/ansiktsbehandling-rosacea.webp',
             image_alt: 'Bild av en ansiktsbehandling mot rosacea',
             image_title: 'Ansiktsbehandling mot rosacea',
-
-            url: '',
-            url_label: '',
-            url_title: '',
-
-            consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
+            consultation_url: 'consultation-booking?problem=rosacea&service=classicFacials',
+            consultation_url_label: 'Boka tid för hudkonsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling mot rosacea',
-
-            booking_url_label: 'Boka behandling',
-            booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne',
+            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/rosacea-konsultation-1643922',
+            booking_url_label: 'Boka tid för ansiktsbehandling mot rosacea',
             booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling mot rosacea',
-      ),
-      new Service(
-            title: 'Laser mot rosacea',
-            duration: '50 min',
-            price: '2595 kr',
-            content: 'En avancerad laserbehandling mot rosacea erbjuder en effektiv lösning för att bekämpa aktiv rosacea och ärr som kan uppstå efter utbrott. Lasertekniken riktar sig mot de bakterier som orsakar inflammation och hjälper till att minska produktionen av talg, vilket minskar risken för framtida utbrott.',
-
-            image_small: 'images/services/200x200/laser.webp',
-            image_large: 'images/services/200x200/laser.webp',
-            image_alt: 'Bild av laserbehandling mot rosacea',
-            image_title: 'Laserbehandling mot rosacea',
-
-            url: '',
-            url_label: '',
-            url_title: '',
-
-            consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling mot rosacea',
-
-            booking_url_label: 'Boka behandling',
-            booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Acne',
-            booking_url_title: 'Klicka för att boka tid för en laserbehandling mot rosacea',
-      ),
-      new Service(
-            title: 'Kemisk peeling mot rosacea',
-            duration: '30 min',
-            price: '1595 kr',
-            content: 'Kemisk peeling är en effektiv metod för att behandla rosacea. Genom att använda en speciellt framtagen lösning för att exfoliera huden, främjar kemisk peeling cellförnyelse, rensar tilltäppta porer och minskar inflammation. Resultatet är en jämnare hudton, mindre utbrott och färre synliga ärr. Det är en enkel och effektiv strategi för att ta kontroll över din rosacea och förbättra din hudhälsa.',
-
-            image_small: 'images/services/200x200/kemisk-peeling.webp',
-            image_large: 'images/services/200x200/kemisk-peeling.webp',
-            image_alt: 'Bild av kemisk peeling mot rosacea',
-            image_title: 'Kemisk peeling mot rosacea behandling',
-
-            url: '',
-            url_label: '',
-            url_title: '',
-
-            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
-            consultation_url_label: 'Boka konsultation',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för kemisk peeling mot rosacea',
-
-            booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_Acne',
-            booking_url_label: 'Boka behandling',
-            booking_url_title: 'Klicka för att boka tid för en kemisk peeling mot rosacea behandling',
-
-      ),
-      new Service(
-            title: 'Microneedling mot rosacea',
-            duration: '50 min',
-            price: '2595 kr',
-            content: 'Microneedling är en innovativ behandlingsmetod för rosacea. Detta utförs genom att skapa små mikroskopiska kanaler i huden vilket främjar hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. Denna behandling kan effektivt minska utbrott av rosacea, förbättra hudens struktur och minska synligheten av rosaceaärr. Microneedling är en säker och effektiv strategi för att ta kontroll över din rosacea och förbättra din hudhälsa.',
-
-            image_small: 'images/services/200x200/microneedling.webp',
-            image_large: 'images/services/200x200/microneedling.webp',
-            image_alt: 'Bild av microneedling mot rosacea',
-            image_title: 'Microneedling mot rosacea behandling',
-
-            url: '',
-            url_label: '',
-            url_title: '',
-
-            consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling mot rosacea',
-
-            booking_url_label: 'Boka behandling',
-            booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_Acne',
-            booking_url_title: 'Klicka för att boka tid för en microneedling mot rosacea behandling',
+            url: 'rosaceabehandling.php',
+            url_label: 'Läs mer om ansiktsbehandling för rosacea',
+            url_title: 'Läs mer om ansiktsbehandling för rosacea'
       ),
 );
 
@@ -278,24 +170,20 @@ $products = array(
             title: 'Produkter mot rosacea',
             duration: null,
             price: 'Pris från 1495 kr',
-            content: 'För att effektivt bekämpa och förebygga rosacea är daglig behandling med rätt produkter avgörande. Våra rosaceaprodukter är speciellt utformade för att hålla din hud i balans och förhindra att ny rosacea uppstår.',
-
-            image_small: 'images/services/200x200/produkter.webp',
-            image_large: 'images/services/200x200/produkter.webp',
+            content: 'För att effektivt behandla och förebygga rosacea är daglig behandling med rätt produkter avgörande. Våra rosacea-produkter är speciellt utformade för att hålla din hud i balans och förhindra att nya rosacea-flare-ups uppstår.',
+            image_small: 'images/services/200x200/produkter-rosacea.webp',
+            image_large: 'images/services/200x200/produkter-rosacea.webp',
             image_alt: 'Bild av produkter designade för behandling av rosacea',
-            image_title: 'Effektiva produkter för bekämpning och förebyggande av rosacea',
-
-            url: '',
-            url_label: '',
-            url_title: '',
-
-            consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för hudvårdsprodukter mot rosacea',
-
-            booking_url_label: 'Köp produkter',
-            booking_url: 'https://dahlskincare.se/produktkategorier/produktpaket/rosacea',
-            booking_url_title: 'Klicka för att köpa produktpaket mot rosacea',
+            image_title: 'Effektiva produkter för behandling och förebyggande av rosacea',
+            consultation_url: null,
+            consultation_url_label: null,
+            consultation_url_title: null,
+            booking_url: null,
+            booking_url_label: null,
+            booking_url_title: null,
+            url: 'https://dahlskincare.se/produktkategorier/produktpaket/rosacea',
+            url_label: 'Läs mer om produkter mot rosacea',
+            url_title: 'Klicka här för att läsa mer om produkter mot rosacea'
       )
 );
 
@@ -303,28 +191,23 @@ $headline04 = "04. Reparera post-rosacea";
 
 $procedures = array(
       new Service(
-            title: 'Reparera acneärr',
-            duration: '4 behandlingsmetoder',
-            price: null,
-            content: 'Efter aktiv rosacea kan man uppleva post-rosacea, vilket innebär ärr i form av gropar i olika former och fläckar i olika färger på huden där rosacean tidigare varit. Olika typer av ärr behandlas med olika metoder. Klicka här för att läsa mer om hur du kan reparera din hud och ta hand om post-rosacea.',
-
-            image_small: 'images/services/200x200/microneedling.webp',
-            image_large: 'images/services/200x200/microneedling.webp',
-            image_alt: 'Reparera acneärr',
-            image_title: 'Reparera acneärr',
-
-            url_label: '',
-            url: '',
-            url_title: '',
-
-            consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling mot rosacea',
-
-            booking_url_label: 'Boka behandling',
-            booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_AcneScars',
-            booking_url_title: 'Klicka för att boka tid för en microneedling mot rosacea behandling',
-
+            title: 'Reparerar ytliga blodkärl',
+            duration: '60 minuter',
+            price: 'Pris från 1595 kr',
+            content: 'Rosacea är en kronisk hudåkomma som kan leda till rodnad, utslag, och i vissa fall svullnad i ansiktet. Intense Pulsed Light (IPL) kan användas för att effektivt behandla rosacea genom att minska rodnad och synliga blodkärl. Klicka här för att läsa mer om hur du kan behandla din rosacea med IPL.',
+            image_small: 'images/services/200x200/ipl-rosacea.webp',
+            image_large: 'images/services/200x200/ipl-rosacea.webp',
+            image_alt: 'Behandla rosacea med IPL',
+            image_title: 'Behandla rosacea med IPL',
+            consultation_url: null,
+            consultation_url_label: null,
+            consultation_url_title: null,
+            booking_url: null,
+            booking_url_label: null,
+            booking_url_title: null,
+            url: 'ipl-rosacea.php',
+            url_label: 'Läs mer om behandlingar mot ytliga blodkärl',
+            url_title: 'Klicka här för att läsa mer om våra behandlingar mot ytliga blodkärl'
       ),
 );
 
