@@ -96,33 +96,41 @@ $treatment_steps = array(
 );
 $treatment_link = '<a href="problem/rosacea/rosaceabehandling" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra rosaceabehandlingar</a>';
 
+$top_articles = array(
+    'omraden' => new Article(
+        title: 'Rhinophyma Rosacea',
+        image_small: '',
+        image_large: '',
+        image_alt: '',
+        image_title: '',
+        content: '<p class="p200">Rhinophyma rosacea är en särskild och avancerad form av rosacea som främst påverkar näsan. Det kännetecknas av en betydande förtjockning och rödhet av näshuden, och kan resultera i en knölig, ojämn yta. Denna tillstånd uppträder uteslutande på näsan och är känt för att gradvis förändra dess form och storlek. Rhinophyma utvecklas över tid och är oftare sett hos män än hos kvinnor. Även om det är en sällsyntare manifestation av rosacea, är det viktigt att korrekt identifiera och behandla rhinophyma för att förhindra ytterligare progression och förbättra patientens livskvalitet.</p>
+      <p class="p200 mt-m">För att förstå ditt specifika tillstånd och utforska behandlingsalternativ, är en konsultation med en hudspecialist nödvändig. En specialist kan ge en personlig bedömning och rekommendera en behandlingsplan anpassad för dina behov. Med rätt vård och behandling kan personer med rhinophyma uppleva förbättringar i både utseende och komfort.</p>',
+    ),
+);
+
 $articles = array(
+
       new Article(
-            title: 'Varför AcneSpecialisten?',
+            title: 'När ska jag söka hjälp med min rhinophyma rosacea?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'Varför AcneSpecialisten?',
-            image_title: 'Varför AcneSpecialisten?',
-            content: '<p class="p200">Om du har problem med rosacea och letar efter den bästa lösning, är AcneSpecialisten ditt självklara val. Med över 30 års erfarenhet inom området har vi utvecklat en djup förståelse för denna hudåkomma, dess olika typer och de mest effektiva behandlingsmetoderna. Vi är mer än bara en klinik, vi är din partner i kampen mot rosacea.</p>
-
-                  <p class="p200 mt-m">Vi tar oss tid att förstå just dina behov och skräddarsyr en behandlingsplan som passar just dig. Vår expertis inom rosacea gör att vi kan identifiera de mest effektiva produkterna för att förebygga och behandla din rosacea, samtidigt som vi ser till att de passar din individuella hudtyp och livsstil. </p>
-
-                  <p class="p200 mt-m">AcneSpecialisten erbjuder mer än bara behandling. Vi erbjuder ett omfattande stöd genom hela din resa, från första konsultation till uppföljning och underhåll. Vi vet att att hantera rosacea kan vara en utmaning och därför är vi här för att ge dig den hjälp och de verktyg du behöver för att hantera dina symptom och förbättra din livskvalitet. </p>
-
-                  <p class="p200 mt-m">Genom att välja AcneSpecialisten kan du lita på att du får den mest effektiva, individanpassade och stöttande behandlingen för din rosacea. Vi är här för att hjälpa dig uppnå klar och frisk hud. Välkommen till AcneSpecialisten - din partner i rosaceavård.</p>',
+            image_alt: 'När ska jag söka hjälp med min rhinophyma rosacea?',
+            image_title: 'När ska jag söka hjälp med min rhinophyma rosacea?',
+            content: '<p class="p200">Om du upplever några tecken på rhinophyma rosacea, såsom en gradvis förtjockning eller förändring i formen på näsan, är det viktigt att omedelbart söka professionell hjälp. Tidiga stadier kan vara svåra att skilja från vanlig rosacea, men att ignorera symtomen kan leda till att tillståndet förvärras och blir svårare att behandla.</p>
+            <p class="p200 mt-m">En tidig konsultation hos en hudterapeut är avgörande för att bedöma tillståndet och diskutera de bästa behandlingsalternativen. Ju tidigare du identifierar problemet och påbörjar lämplig behandling, desto större är chansen att effektivt hantera tillståndet och förhindra ytterligare progression. Att söka behandling snabbt kan också bidra till att minska eventuella psykologiska påfrestningar och förbättra din livskvalitet. Oavsett om rhinophyma är i ett tidigt eller mer avancerat skede, är professionell rådgivning och behandling nyckeln till att hantera detta tillstånd effektivt.</p>',
       ),
+
       new Article(
-            title: 'När ska jag besöka AcneSpecialisten?',
+            title: 'Varför ska jag besöka AcneSpecialisten för min rhinophyma rosacea?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'När ska jag besöka AcneSpecialisten?',
-            image_title: 'När ska jag besöka AcneSpecialisten?',
-            content: '<p class="p200">Om du känner att din rosacea hindrar dig från att leva fullt ut, eller om du har testat olika behandlingar och produkter som inte ger någon långvarig förbättring, är det dags att vända dig till AcneSpecialisten. Ju tidigare du tar itu med din rosacea, desto större chans har du att förebygga ärrbildning och permanenta hudförändringar. Oavsett om du lider av mild, måttlig eller svår rosacea, kan vi på AcneSpecialisten ge dig den expertis och de skräddarsydda behandlingsplaner du behöver. Vi bjuder in dig till en kostnadsfri konsultation där vi kan börja din resa mot en klarare, friskare hud.</p>
-
-                  <p class="p200 mt-m">Innan du överväger att uppsöka en läkare för din rosacea, överväg AcneSpecialisten. Vi erbjuder en kostnadsfri konsultation där vi noggrant utvärderar din rosacea och föreslår en individanpassad behandlingsplan. Våra specialister har omfattande erfarenhet av att behandla rosacea och kan ge dig råd om de mest effektiva produkterna och behandlingarna för just din hud. Genom att vända dig till AcneSpecialisten först, kan du undvika att behöva förlita dig på kraftfulla läkemedel som kan ha biverkningar och påverka hela kroppen. Med en kostnadsfri konsultation kan du se vad vi kan göra för din hud, innan du tar steget att uppsöka läkarvård.</p>
-
-                  <p class="p200 mt-m">AcneSpecialisten är mer än bara en klinik - vi är en partner i din rosacea-vård. Vårt team av experter står vid din sida genom varje steg av din behandlingsresa, från den första konsultationen till underhållsbehandlingar och uppföljningar. Vi är engagerade i att hjälpa dig att återfå din livskvalitet och att ge dig den friska och klara hud du förtjänar.</p>',
+            image_alt: 'Varför ska jag besöka AcneSpecialisten för min rhinophyma rosacea?',
+            image_title: 'Varför ska jag besöka AcneSpecialisten för min rhinophyma rosacea?',
+            content: '<p class="p200">Om du söker en expert på behandling av rhinophyma rosacea, är AcneSpecialisten det självklara valet. Med vårt engagemang för kvalitet och vår omfattande erfarenhet inom avancerad hudvård, står vi redo att erbjuda dig den expertis som krävs för att hantera detta komplexa tillstånd effektivt.</p>
+            <p class="p200 mt-m">På AcneSpecialisten använder vi oss av de senaste och mest avancerade behandlingsmetoderna och teknologierna specifikt anpassade för rhinophyma. Vårt team av kvalificerade hudterapeuter är utbildade att noggrant utvärdera och behandla rhinophyma rosacea, med ett fokus på att minimera symptomen och förbättra både utseendet och funktionen av din hud.</p>
+            <p class="p200 mt-m">När du väljer att besöka AcneSpecialisten för din rhinophyma får du inte bara tillgång till skräddarsydda behandlingsplaner, utan också en partner i din hudvårdsresa. Vi tror på en holistisk behandlingsansats, vilket innebär att vi erbjuder support och vägledning genom hela processen, från första konsultationen till uppföljning och underhåll. Vårt mål är att du ska känna dig informerad, omhändertagen och säker på att du får den bästa möjliga vård för din hud.</p>',
       ),
+
 );
 
 $headline01 = "01. Identifiera din rosacea";
