@@ -639,7 +639,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Ytliga blodkärl',
             aka: 'Spindelvener',
-            image: 'images/problems/102x102/ytliga-blodkarl.webp',
+            image: 'bilder/problem/200x200/ytliga-blodkarl.webp',
             image_alt: 'Bild som visar ytliga blodkärl som röda linjer i huden',
             image_title: 'Ytliga blodkärl - vanligt på näsa och kinder',
             url: 'ytliga-blodkarl.php',
@@ -648,7 +648,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Akne',
             aka: 'Papler & Pustler',
-            image: 'images/problems/200x200/akne.webp',
+            image: 'bilder/problem/200x200/akne.webp',
             image_alt: 'Bild som skildrar akne, en hudåkomma som drabbar många ungdomar och vuxna',
             image_title: 'Akne - ett vanligt hudproblem bland både ungdomar och vuxna',
             url: 'akne.php',
@@ -657,7 +657,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Finnar',
             aka: 'Plitor & Inkapslingar',
-            image: 'images/problems/200x200/finnar.webp',
+            image: 'bilder/problem/200x200/finnar.webp',
             image_alt: 'Bild som visar finnar, små inflammationer i huden',
             image_title: 'Finnar - vanliga små hudinflammationer',
             url: 'finnar.php',

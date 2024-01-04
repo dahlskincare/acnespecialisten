@@ -221,23 +221,23 @@ $procedures = array(
 
 $results = array(
       new ResultCustomer(
-            image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore-1.jpg',
-            image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter-1.jpg',
-            image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore-1.jpg',
-            image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter-1.jpg',
-            image_alt: 'rosacea resultat',
-            image_title: 'rosacea resultat',
+            image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.jpg',
+            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
+            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
+            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
+            image_alt: 'Akne resultat',
+            image_title: 'Akne resultat',
             treatment: new ResultTreatment(
                   duration: '3 månader',
             )
       ),
       new ResultCustomer(
-            image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore-2.jpg',
-            image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter-2.jpg',
-            image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore-2.jpg',
-            image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter-2.jpg',
-            image_alt: 'rosacea resultat',
-            image_title: 'rosacea resultat',
+            image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.jpg',
+            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
+            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
+            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
+            image_alt: 'Akne resultat',
+            image_title: 'Akne resultat',
             treatment: new ResultTreatment(
                   duration: '2 månader',
             )
@@ -431,7 +431,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Rosacea',
             aka: 'ansiktsrodnad',
-            image: 'images/problems/200x200/rosacea.webp',
+            image: 'bilder/problem/200x200/rosacea.webp',
             image_alt: 'Bild som illustrerar rosacea, ett hudtillstånd som kan förväxlas med rosacea',
             image_title: 'Rosacea - en hudsjukdom som ofta förväxlas med rosacea',
             url: 'rosacea.php',

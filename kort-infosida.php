@@ -597,7 +597,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Acneärr',
             aka: 'gropar & Fläckar',
-            image: 'images/problems/102x102/acnearr.webp',
+            image: 'bilder/problem/200x200/acnearr.webp',
             image_alt: 'Bild som visar acneärr, en typ av hudproblem som ofta följer efter akne',
             image_title: 'Acneärr - en vanlig följd av akne',
             url: 'acnearr.php',
@@ -606,7 +606,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Rosacea',
             aka: 'ansiktsrodnad',
-            image: 'images/problems/200x200/rosacea.webp',
+            image: 'bilder/problem/200x200/rosacea.webp',
             image_alt: 'Bild som illustrerar rosacea, ett hudtillstånd som kan förväxlas med akne',
             image_title: 'Rosacea - en hudsjukdom som ofta förväxlas med akne',
             url: 'rosacea.php',
@@ -615,13 +615,14 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Perioral dermatit',
             aka: 'akne runt munnen',
-            image: 'images/problems/200x200/perioral-dermatit.webp',
+            image: 'bilder/problem/200x200/perioral-dermatit.webp',
             image_alt: 'Bild som skildrar perioral dermatit, en hudåkomma som kan förväxlas med akne',
             image_title: 'Perioral dermatit (acne runt munnen) ett hudproblem liknande akne',
             url: 'perioral-dermatit.php',
             url_title: 'Perioral dermatit',
       ),
 );
+
 $brands = array(
       new Brand(
             label: 'Powerlite Photonova',
