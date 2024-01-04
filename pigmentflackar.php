@@ -615,7 +615,7 @@ $related_problems = array(
 $brands = array(
       new Brand(
             label: 'Powerlite Photonova',
-            image: 'images/brands/powerlite.svg',
+            image: 'bilder/logotyper/powerlite-photonova.svg',
             image_alt: 'Powerlite Brand Logo',
             image_title: 'Powerlite - IPL och Laser Teknologi för Hudvård',
             url: 'varumarken/powerlite-photonova',
@@ -623,7 +623,7 @@ $brands = array(
       ),
       new Brand(
             label: 'Dermapen',
-            image: 'images/brands/dermapen4.svg',
+            image: 'bilder/logotyper/dermapen.svg',
             image_alt: 'Dermapen Brand Logo',
             image_title: 'Dermapen - Microneedling Verktyg för Hudföryngring',
             url: 'dermapen.php',
@@ -631,7 +631,7 @@ $brands = array(
       ),
       new Brand(
             label: 'CryoPen',
-            image: 'images/brands/cryopen.svg',
+            image: 'bilder/logotyper/cryopen.svg',
             image_alt: 'CryoPen Brand Logo',
             image_title: 'CryoPen - Kryoterapi Verktyg för Hudbehandlingar',
             url: 'cryopen.php',
@@ -639,7 +639,7 @@ $brands = array(
       ),
       new Brand(
             label: 'Alma',
-            image: 'images/brands/alma.svg',
+            image: 'bilder/logotyper/alma.svg',
             image_alt: 'Alma Brand Logo',
             image_title: 'Alma - Laser, IPL och RF (Radiofrekvens) Teknologi för Hudföryngring',
             url: 'varumarken/alma',
@@ -647,7 +647,7 @@ $brands = array(
       ),
       new Brand(
             label: 'PRX-T33',
-            image: 'images/brands/prx-t33.svg',
+            image: 'bilder/logotyper/prx-t33.svg',
             image_alt: 'PRX-T33 Brand Logo',
             image_title: 'PRX-T33 - Bio-revitaliserande Hudbehandlingsteknik',
             url: 'prx-t33.php',
@@ -655,7 +655,7 @@ $brands = array(
       ),
       new Brand(
             label: 'Hydrafacial',
-            image: 'images/brands/hydrafacial.svg',
+            image: 'bilder/logotyper/hydrafacial.svg',
             image_alt: 'Hydrafacial Brand Logo',
             image_title: 'Hydrafacial - Intensiv Hydrering och Rengöring Behandlingar för Hudvård',
             url: 'hydrafacial.php',
@@ -663,14 +663,13 @@ $brands = array(
       ),
       new Brand(
             label: 'Infuzion',
-            image: 'images/brands/ipinfusion.svg',
+            image: 'bilder/logotyper/infuzion.svg',
             image_alt: 'Infuzion Brand Logo',
             image_title: 'Infuzion - Hudföryngring och Näringsinfusion System för Hudvård',
             url: 'infuzion.php',
             url_title: 'Läs mer om Infuzion Hudföryngringslösningar'
       ),
 );
-
 
 $brands_url_label = "Se alla varumärken";
 $brands_url_title = "Varumärken för ärr";
