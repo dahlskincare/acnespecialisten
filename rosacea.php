@@ -40,7 +40,7 @@ $floating_booking_url_label = "Boka behandling";
 $floating_booking_url_title = "Boka Rosaceabehandling";
 
 $nav_buttons = array(
-      'about' => 'Om akne',
+      'about' => 'Om rosacea',
       'approach' => 'Metoden',
       'types' => 'Typer',
       'symptoms' => 'Symptom',
