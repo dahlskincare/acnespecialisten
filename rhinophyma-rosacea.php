@@ -248,7 +248,7 @@ $results = array(
 );
 
 $show_all_results_label = "Se fler resultat";
-$show_all_results_title = "se flera rosaceabehandlingsresultat";
+$show_all_results_title = "se flera behandlingsresultat";
 
 
 $reviews = array(
@@ -285,92 +285,53 @@ $review_url_label = "Läs fler omdömen";
 $review_url_title = "AcneSpecialisten Omdömen";
 
 $faq_categories = array(
-      'Generellt om rosacea' => array(
+      'Generellt om rhinophyma rosacea' => array(
             new Question(
-                  title: 'Hur blir jag av med min rosacea snabbt?',
-                  text: '<p class="p200">Att bli av med rosacea snabbt är en utmaning, eftersom det inte finns någon quickfix när det gäller rosacea. Effektiv behandling kräver att du tar hand om din hud genom att använda rätt behandlingar och produkter som passar din specifika hudtyp och rosacea. För att få en skräddarsydd behandlingsplan som hjälper dig att bli av med rosacean så snabbt som möjligt, rekommenderar vi att du bokar en kostnadsfri hudkonsultation hos oss. Under konsultationen kommer vi att analysera din hud och hjälpa dig att utforma en anpassad behandlingsrutin som ger dig de bästa förutsättningarna för att snabbt och effektivt behandla din rosacea.</p>'
+                title: 'Vilka är de vanligaste symtomen på rhinophyma?',
+                text: '<p class="p200">De vanligaste symtomen på rhinophyma inkluderar en markant förtjockning av huden på näsan, en röd, svullen och knölig yta, samt förstorade porer och talgkörtlar. Detta kan leda till en synlig deformation av näsan och i vissa fall orsaka andningsproblem. Symtomen utvecklas gradvis och kan förvärras utan behandling.</p>'
             ),
+
             new Question(
-                  title: 'Har jag rosacea även om jag bara har en finne?',
-                  text: '<p class="p200">Ja, du har tekniskt sett rosacea även om du bara har en enstaka finne. rosacea kan ta sig många olika former och innefattar alla typer av finnar, oavsett om det är enstaka eller flera, stora eller små, papler eller pustler. Många tror att de inte har rosacea om de endast upplever enstaka finnar då och då, men faktum är att alla dessa fall kategoriseras som rosacea.</p>'
+                title: 'Är rhinophyma ärftligt?',
+                text: '<p class="p200">Även om den exakta orsaken till rhinophyma inte är fullständigt känd, finns det bevis som tyder på att genetiska faktorer kan spela en roll. Personer med en familjehistoria av rosacea eller rhinophyma kan vara mer benägna att utveckla tillståndet.</p>'
             ),
-            new Question(
-                  title: 'Ska jag klämma mina finnar?',
-                  text: '<p class="p200">Vi på Acnespecialisten rekommenderar att du inte klämmer finnar själv, eftersom felaktig teknik kan leda till ärrbildning och förvärra inflammationen genom att införa bakterier från dina fingrar. Det är dock sant att finnar kan behöva klämmas, men det måste göras på rätt sätt för att undvika skador på huden. Om du undviker att klämma helt kan ärrbildning också uppstå, eftersom fettsyran i finnen fortsätter att fräta på huden.</p>
 
-                        <p class="p200 mt-m">För att klämma finnar korrekt krävs både rätt utrustning och teknik. På Acnespecialisten har vi erfarna hudterapeuter som kan hjälpa dig att behandla dina finnar på ett säkert och effektivt sätt. Genom att vända dig till oss får du den expertis och omsorg du behöver för att hantera din rosacea på bästa sätt. Du kan läsa mer om våra rosaceabehandlingar och hur de kan hjälpa dig här.</p>'
+            new Question(
+                title: 'Hur kan jag skydda min hud från solen om jag har rhinophyma?',
+                text: '<p class="p200">Skydd mot solen är avgörande om du har rhinophyma. Använd en bredspektrum solskyddskräm dagligen, bär skyddande kläder och hatt, och undvik att vara ute i starkt solljus, särskilt mitt på dagen. Detta hjälper inte bara till att skydda huden utan också till att förebygga förvärring av symtomen.</p>'
             ),
+
             new Question(
-                  title: 'Försvinner rosacean efter tonåren?',
-                  text: '<p class="p200">Det är svårt att ge ett entydigt svar på den frågan eftersom det varierar från person till person. För vissa kan rosacea vara ett tonårsproblem som försvinner när de blir äldre, medan det för andra kan övergå till vuxenrosacea. Det är inte säkert att rosacean försvinner efter tonåren, och det kan variera beroende på individuella faktorer som hormoner, genetik och livsstil.</p>
-
-                        <p class="p200 mt-m">rosacea kan uppstå i olika faser av livet och dess svårighetsgrad varierar från person till person. Vissa individer upplever rosacea under tonåren, som sedan försvinner när de når vuxen ålder. Andra kan vara rosaceafria under tonåren, men drabbas av rosacea som vuxna. Den mest besvärliga situationen är när någon drabbas av rosacea under tonåren som sedan övergår till vuxenrosacea.</p>
-
-                        <p class="p200 mt-m">När man når vuxen ålder och rosacean fortfarande inte har försvunnit, är det stor risk att rosacean har lett till ärrbildning. Det är därför viktigt att behandla rosacea i alla åldrar för att förebygga och minimera risken för att drabbas av acneärr. Oavsett ålder och fas av rosacea, bör man söka hjälp för att behandla och kontrollera sitt tillstånd, för att minska risken för långsiktiga hudproblem som ärrbildning.</p>'
+                title: 'På vilka sätt skiljer sig rhinophyma från andra hudtillstånd som påverkar näsan?',
+                text: '<p class="p200">Rhinophyma är unikt genom sin uttalade förtjockning och grovhet av huden på näsan, vilket inte ses i andra hudtillstånd. Till skillnad från akne, som också kan påverka näsan, karaktäriseras rhinophyma av en permanent förändring av hudens struktur snarare än temporära utbrott.</p>'
             ),
+
             new Question(
-                  title: 'Kan jag ha rosacea även om jag är vuxen?',
-                  text: '<p class="p200">Ja, rosacea kan drabba vuxna och det är faktiskt ganska vanligt. Vuxenrosacea drabbar cirka 12-22% av alla kvinnor och 3% av alla män. Den kan uppkomma vid 20-, 30- och 40-årsåldern, och ibland ännu senare. Det kallas då för vuxenrosacea och har också med hormonerna i din kropp att göra, men faktorerna som triggar igång din rosacea är lite annorlunda än vid tonårsrosacea.</p>
-
-                        <p class="p200 mt-m">Vid tonårsrosacea ökar produktionen av det manliga könshormonet i din kropp. Det, i kombination med fettproduktionen, kan leda till att du drabbas av rosacea. Vid vuxen ålder däremot, kan rosacean bero på sådant som graviditet, menstruation, alkohol, stress och preventivmedel. Alltså, yttre faktorer som triggar igång dina hormoner och får rosacean att blomma upp.</p>
-
-                       <p class="p200 mt-m">Vuxenrosacea kan orsakas av flera faktorer, såsom hormonella förändringar, stress, genetik och användning av olämpliga hudvårdsprodukter. Hos kvinnor kan rosacea ofta vara kopplad till menstruationscykeln eller hormonella förändringar i samband med graviditet och menopaus.</p>
-
-                       <p class="p200 mt-m">Sammanfattningsvis kan rosacea drabba personer i alla åldrar, och det är viktigt att vara medveten om att rosacea inte bara är ett tonårsproblem.</p>'
+                title: 'Finns det några kända triggers som kan förvärra rhinophyma?',
+                text: '<p class="p200">Ja, vissa faktorer kan förvärra rhinophyma, inklusive stark sol, extrema temperaturer, stark mat och alkohol, stress och vissa hudvårdsprodukter. Att undvika dessa triggers kan hjälpa till att hantera tillståndet och förhindra att det förvärras.</p>'
             ),
-            new Question(
-                  title: 'Förvärras min rosacea av att jag äter choklad?',
-                  text: '<p class="p200">Nej, det är en myt att choklad direkt skulle leda till rosacea. Ingen vetenskaplig forskning har tydligt påvisat ett direkt samband mellan chokladkonsumtion och uppkomsten av finnar. Det som potentiellt kan påverka din rosacea är stress. Om du upplever stress över att du ätit choklad, kan det i sin tur bidra till rosaceautbrott. Men en bit choklad då och då bör inte orsaka rosaceautbrott hos de flesta människor.</p>'
-            ),
-            new Question(
-                  title: 'Vad kan jag göra för att bli av med min rosacea?',
-                  text: '<p class="p200">Att bekämpa rosacea effektivt kräver en individuellt anpassad strategi som kombinerar lämpliga behandlingar och hudvårdsprodukter, utformade för att passa dina unika behov och din huds specifika tillstånd. På Acnespecialisten, erbjuder vi kostnadsfria hudkonsultationer där vi kan utvärdera ditt specifika fall av rosacea och hjälpa till att skräddarsy en effektiv behandlingsrutin.</p>'
-            )
       ),
       'Behandling mot rosacea' => array(
             new Question(
-                  title: 'Hur många behandlingar behövs?',
-                  text: '<p class="p200">Antalet behandlingar som behövs varierar från person till person och beror på flera faktorer, som din hudtyp, svårighetsgraden av din rosacea och din respons på behandlingen. Vanligtvis kan du se en förbättring efter 1 till 3 veckors regelbunden behandling.</p>
+                title: 'Vilka är de mest effektiva behandlingarna för rhinophyma?',
+                text: '<p class="p200">De mest effektiva behandlingarna för rhinophyma innefattar en kombination av rätt hudvårdsprodukter och behandlignar som behandlar och balanserar huden. Dessa behandlingar syftar till att jämna ut hudens yta och förbättra näsans utseende.</p>'
+            ),
 
-                       <p class="p200 mt-m">Det är viktigt att påpeka att behandlingen hos oss inte fungerar i isolering. En väsentlig del av din framgång ligger i den dagliga användningen av de rekommenderade produkterna hemma. Det är kombinationen av professionell behandling och hemmavård som ger bästa möjliga resultat.</p>
+            new Question(
+                title: 'Vad är de potentiella riskerna och biverkningarna av rhinophyma?',
+                text: '<p class="p200">De potentiella riskerna och biverkningarna av rhinophyma-behandlingar kan inkludera infektion, ärrbildning, pigmentförändringar och ojämnheter i hudens textur. En noggrann konsultation och uppföljning med erfaren hudspecialist är avgörande för att minimera dessa risker.</p>'
+            ),
 
-                        <p class="p200 mt-m">Om du inte upplever de förväntade förbättringarna efter en tid, uppmanar vi dig att ta kontakt med din personliga hudterapeut. Tillsammans kan vi se över dina hudvårdsrutiner och de produkter du använder, för att optimera din behandlingsplan.</p>'
-            ),
             new Question(
-                  title: 'Finns det en risk att min rosacea återkommer?',
-                  text: '<p class="p200">Ja, det finns en risk att rosacea återkommer, eftersom rosacea kan påverkas av flera faktorer såsom genetik, hormoner, livsstil och hudvård. Personer med en genetisk benägenhet för rosacea kan uppleva att rosacean återkommer, särskilt under perioder av hormonella förändringar som pubertet, graviditet eller menstruation. Även faktorer som stress, kost och användning av olämpliga hudvårdsprodukter kan bidra till att rosacean återkommer.</p>
-                       
-                       <p class="p200 mt-m">Det är dock viktigt att komma ihåg att regelbunden och korrekt hudvård kan hålla rosacean i schack. Precis som vi borstar tänderna varje dag för att hålla karies borta, behöver vi underhålla vår hud för att hålla rosacean borta. Det innebär att följa en anpassad hudvårdsrutin, hantera stress och upprätthålla en hälsosam livsstil. Så länge du tar hand om din hud regelbundet och på rätt sätt, kan du förhindra att rosacean återkommer.</p>'
+                title: 'Finns det något jag kan göra för att förhindra att mitt rhinophyma blir värre?',
+                text: '<p class="p200">Först och främst är det viktigt att identifiera och behandla problemet tidigt innan de hinner utvecklas och bli värre. När det väl brutit ut är det viktigt att förhindra att rhinophyma blir värre är det viktigt att skydda huden mot solen, undvika kända triggers som stark mat och alkohol, och följa en skonsam hudvårdsrutin. Regelbundna hudkonsultationer och tidig behandling av rosaceasymtom kan också bidra till att förebygga utvecklingen av rhinophyma.</p>'
             ),
-            new Question(
-                  title: 'Vilken är den bästa behandlingen mot rosacea?',
-                  text: '<p class="p200">Vilken behandling som är bäst för rosacea varierar beroende på individens hudtyp, rosaceans svårighetsgrad och orsaker till rosacea. Den bästa behandlingen är en skräddarsydd behandlingsplan som kombinerar rätt behandlingar, produkter och rutiner för att effektivt ta itu med den aktiva rosacean och förhindra att nya utbrott uppstår. Genom att först behandla och bli av med den aktiva rosacean kan du uppnå en klarare hud. Därefter är det viktigt att bibehålla resultaten med lämpliga produkter och rutiner för att motverka att nya finnar uppstår och hålla rosacean under kontroll. Det rekommenderas att konsultera en av våra specialister för att få en personlig och effektiv behandlingsplan som passar just din hud och rosacea.</p>'
-            ),
-            new Question(
-                  title: 'Gör rosaceabehandlingen ont?',
-                  text: '<p class="p200">Vi strävar efter att göra rosaceabehandlingen så behaglig som möjligt för våra klienter. Det är sant att rosacea ibland innebär inflammation i porerna och kan göra ont när de öppnas upp och töms. Men vi vill påpeka att smärtupplevelsen kan variera från person till person och bero på behandlingsmetoden som används. Vår erfarna personal är välutbildad och tar stor hänsyn till din komfort under behandlingen. Om du känner någon obehag, tveka inte att informera din acnespecialist så att de kan justera behandlingen efter dina behov.</p>'
-            ),
-            new Question(
-                  title: 'Vad ska jag tänka på innan behandlingen?',
-                  text: '<p class="p200">Vi vill att din behandling ska vara så smidig och bekväm som möjligt, och vi strävar efter att göra processen enkel för dig. Du behöver inte förbereda något särskilt inför ditt besök hos oss. Kom precis som du är, och vi tar hand om resten. Vi kommer att genomföra en grundlig hudanalys och skräddarsy en behandlingsplan som passar just dig och din hudtyp. Så, du kan lita på oss och bara slappna av inför din rosaceabehandling.</p>'
-            ),
-            new Question(
-                  title: 'Vad ska jag tänka på efter behandling?',
-                  text: '<p class="p200">Efter din rosaceabehandling hos Acnespecialisten kan du uppleva att huden blir något röd och irriterad. Detta är helt normalt och en del av hudens naturliga läkningsprocess. Rödheten och irritationen kommer att avta under dagarna efter behandlingen. Det är viktigt att du fortsätter att följa den hudvårdsrutin och de produktrekommendationer vi gett dig för att stödja hudens återhämtning och maximera resultaten av behandlingen.</p>
-                        
-                        <p class="p200 mt-m">Undvik att peta eller klämma på behandlade områden för att undvika eventuell ärrbildning och infektion. Dessutom är det bra att skydda huden från solen, då den kan vara extra känslig efter behandling. Använd solskyddsmedel och undvik direkt solljus så mycket som möjligt. Kom ihåg att vi på Acnespecialisten alltid finns här för dig om du har några frågor eller funderingar efter din behandling.</p>'
-            ),
-            new Question(
-                  title: 'Eftervård efter behandlingen?',
-                  text: '<p class="p200">Eftervården efter en rosaceabehandling hos Acnespecialisten är lika viktig som själva behandlingen. När rosacean är utklämd och borta är det viktigt att förebygga uppkomsten av ny rosacea. Om du inte följer din eftervårdsplan kommer du att få resultat, men det kommer inte vara bestående, eftersom rosaceaproduktionen sätter igång igen kort tid efter behandlingen.</p>
 
-                  <p class="p200 mt-m">För att hålla huden i kontroll och balans är det viktigt att följa de råd och rekommendationer vi ger dig angående hudvårdsrutin och produkter. Kontinuerlig behandling och förebyggande åtgärder är avgörande för att uppnå och bibehålla en klar och frisk hud. Kom ihåg att vi på Acnespecialisten alltid finns här för att hjälpa och stötta dig genom hela processen, både under och efter din behandling.</p>',
-            ),
       ),
 );
 
 $faq_url_label = "Läs fler frågor & svar";
-$faq_url_title = "läs flera frågor relaterat till rosacea";
+$faq_url_title = "läs flera frågor relaterat till rhinophyma rosacea";
 
 $skin_guide_articles = array(
       new SkinGuideArticle(
@@ -422,7 +383,7 @@ $skin_guide_articles = array(
 );
 
 $skinguide_url_label = "Läs fler guider";
-$skinguide_url_title = "Läs fler guider om rosacea";
+$skinguide_url_title = "Läs fler guider om rhinophyma rosacea";
 
 $specialists = array(
       new Specialist(
@@ -456,18 +417,9 @@ $specialists = array(
 );
 
 $specialist_url_label = "Se alla specialister";
-$specialist_url_title = "rosacea Specialiserade Hudterapeuter";
+$specialist_url_title = "rhinophyma rosacea Specialiserade Hudterapeuter";
 
 $related_problems = array(
-      new RelatedProblem(
-            name: 'Acneärr',
-            aka: 'gropar & Fläckar',
-            image: 'images/problems/102x102/acnearr.webp',
-            image_alt: 'Bild som visar acneärr, en typ av hudproblem som ofta följer efter rosacea',
-            image_title: 'Acneärr - en vanlig följd av rosacea',
-            url: 'acnearr.php',
-            url_title: 'Acneärr'
-      ),
       new RelatedProblem(
             name: 'Rosacea',
             aka: 'ansiktsrodnad',
@@ -476,15 +428,6 @@ $related_problems = array(
             image_title: 'Rosacea - en hudsjukdom som ofta förväxlas med rosacea',
             url: 'rosacea.php',
             url_title: 'Rosacea'
-      ),
-      new RelatedProblem(
-            name: 'Perioral dermatit',
-            aka: 'rosacea runt munnen',
-            image: 'images/problems/200x200/perioral-dermatit.webp',
-            image_alt: 'Bild som skildrar perioral dermatit, en hudåkomma som kan förväxlas med rosacea',
-            image_title: 'Perioral dermatit (acne runt munnen) ett hudproblem liknande rosacea',
-            url: 'perioral-dermatit.php',
-            url_title: 'Perioral dermatit',
       ),
 );
 $brands = array(
@@ -547,7 +490,7 @@ $brands = array(
 );
 
 $brands_url_label = "Se alla varumärken";
-$brands_url_title = "Varumärken för rosaceabehandling";
+$brands_url_title = "Varumärken för rhinophyma rosaceabehandling";
 
 ?>
 
