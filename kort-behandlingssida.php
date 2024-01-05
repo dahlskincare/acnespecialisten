@@ -56,7 +56,7 @@ $model = new Service(
 $floating_box = 'Effektiv nålbehandling som förbättrar hudens struktur.';
 
 $nav_buttons = array(
-    'about' => 'Om Dermapen mot Acneärr',
+    'about' => 'Om dermapen mot acneärr',
     'preparing' => 'Förberedelser',
     'process' => 'Processen',
     'types' => 'Typer',
@@ -70,30 +70,9 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Vad är klassiska ansiktsbehandlingar?';
+$description_title = 'Vad är Dermapen för acneärr?';
 $description_text = '<p class="p200">Klassiska ansiktsbehandlingar är en grundsten inom hudvård och erbjuder en upplevelse av avkoppling samtidigt som huden får den vård den behöver. Behandlingarna går ut på att rengöra, återfukta, balansera och revitalisera huden, samt att hantera specifika hudproblem.</p>
 <p class="p200 mt-m">Hos oss på AcneSpecialisten kan du välja mellan flera typer av klassiska ansiktsbehandlingar. Vi erbjuder allt från den traditionella Klassisk ansiktsbehandling till Antistress, där fokus ligger på avslappning. Hudterapeutens val anpassas helt efter dina behov, medan Peel, Boost & Glow siktar på att ge huden en extra boost. För den som vill ha det lilla extra erbjuder vi Lyx behandlingen. Oavsett vilken behandling du väljer, är vårt mål att ge din hud den bästa möjliga omsorgen.</p>';
-
-$top_articles = array(
-    'preparing' => new Article(
-        title: 'Förberedelse inför klassiska ansiktsbehandlingar',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Förberedelse inför klassiska ansiktsbehandlingar',
-        image_title: 'Förberedelse inför klassiska ansiktsbehandlingar',
-        content: '<p class="p200">Hos AcneSpecialisten är vårt främsta mål att du ska känna dig bekväm och väl omhändertagen. Om du vill kan du vidta vissa förberedande åtgärder innan din ansiktsbehandling, såsom att undvika starka hudprodukter eller direkt solljus. Men det är viktigt att betona att du alltid kan komma precis som du är. Vi förstår att varje individ är unik, och vi anpassar varje behandling efter dina specifika behov och önskemål.</p>
-        <p class="p200 mt-m">Om du har några specifika bekymmer eller frågor inför din behandling, tveka inte att meddela oss. Vår prioritet är din komfort och att leverera den bästa möjliga behandlingen för dig. Välkommen till en avslappnande och förnyande upplevelse hos oss på AcneSpecialisten!</p>',
-    ),
-    'process' => new Article(
-        title: 'Processen för klassiska ansiktsbehandlingar',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Processen för klassiska ansiktsbehandlingar',
-        image_title: 'Processen för klassiska ansiktsbehandlingar',
-        content: '<p class="p200">Hos AcneSpecialisten anpassas varje ansiktsbehandling efter den specifika behandling du väljer, men det finns vissa gemensamma steg som ingår i de flesta av våra klassiska ansiktsbehandlingar. Behandlingen inleds alltid med en rengöring av huden för att avlägsna smuts, talg och orenheter. Detta förbereder huden för de följande stegen och säkerställer att den kan dra nytta av de produkter och metoder som används.</p>
-    <p class="p200 mt-m">Efter rengöringen kan en exfoliering genomföras för att ta bort döda hudceller och främja cellförnyelse. En ångbehandling kan också inkluderas för att öppna upp porerna och underlätta extraktion av pormaskar och akne. Därefter kan individuellt anpassade masker och serum appliceras baserat på hudens behov. Behandlingen avslutas ofta med en fuktighetskräm eller solskydd. Genom hela processen prioriteras din huds välbefinnande och komfort, och varje steg är skräddarsytt för att ge optimala resultat.</p>',
-    ),
-);
 
 $types_title = 'Våra klassiska ansiktsbehandlingar';
 $types_description = 'Här hittar du vårt utbud av klassiska ansiktsbehandlingar.';
@@ -135,192 +114,8 @@ $big_types = array(
             )
         )
     ),
-    new Service(
-        title: 'Ansiktsbehandling - Antistress',
-        duration: '40 min',
-        price: null,
-        content: '<p class="p200">Unna dig en paus från vardagens hektik med vår Ansiktsbehandling Antistress. Den börjar med en lätt rengöring för att varsamt fräscha upp huden. Den vitaliserande oljemassagen ger en känsla av avkoppling och balans. Behandlingen avslutas med vår skräddarsydda LED-ljusterapi och en närande kräm, allt för att säkerställa en total känsla av välbefinnande.</p>',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Ansiktsbehandling - Antistress',
-        image_title: 'Ansiktsbehandling - Antistress',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation',
-        consultation_url_label: 'Boka tid för hudkonsultation',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_AntiStress',
-        booking_url_label: 'Boka en Antistress ansiktsbehandling',
-        booking_url_title: 'Boka en Antistress ansiktsbehandling',
-        icons: array('rengoring' => 'Lätt rengöring', 'mild' => 'Ansiktsmassage', 'produkter' => 'Närande kräm', 'led' => 'LED'),
-        procedures: array(
-            new Procedure(
-                label: '1 behandling',
-                price: '1295 kr',
-                savings: null,
-                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Classic&procedures=PriceClass_1_Procedure_5'
-            ),
-        )
-    ),
-    new Service(
-        title: 'Hudterapeutens val',
-        duration: '60 min',
-        price: null,
-        content: '<p class="p200">En ansiktsbehandling som skräddarsys helt efter dina behov och vår hudterapeuts rekommendationer. Behandlingen inkluderar en Lumafuse med LED-mask och kompletteras med olika moment som bäst passar din hudtyp. Exempelvis kan detta inkludera en djuprengöring med peel, boost & glow, brynstyling samt olika masker och serum som är särskilt utvalda för dig.</p>',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Hudterapeutens val',
-        image_title: 'Hudterapeutens val',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation',
-        consultation_url_label: 'Boka tid för hudkonsultation',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_TherapistsChoice',
-        booking_url_label: 'Boka en behandling enligt hudterapeutens val',
-        booking_url_title: 'Boka en behandling enligt hudterapeutens val',
-        icons: array('rengoring' => 'Rengöring', 'anga' => 'Ånga', 'extraktion' => 'Extraktion', 'mask' => 'Mask'),
-        procedures: array(
-            new Procedure(
-                label: '1 behandling',
-                price: '1595 kr',
-                savings: null,
-                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_TherapistsChoice&procedures=PriceClass_3_Procedure_1'
-            ),
-            new Procedure(
-                label: '3 behandlingar',
-                price: '3995 kr',
-                savings: 'spara 790 kr',
-                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_TherapistsChoice&procedures=PriceClass_3_Procedure_3'
-            ),
-            new Procedure(
-                label: '5 behandlingar',
-                price: '5995 kr',
-                savings: 'spara 1980 kr',
-                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_TherapistsChoice&procedures=PriceClass_3_Procedure_5'
-            )
-        )
-    ),
-    new Service(
-        title: 'Peel, Boost & Glow',
-        duration: '60 min',
-        price: null,
-        content: '<p class="p200">För en uppfriskande och lystergivande upplevelse, prova vår Peel, Boost & Glow behandling. Den här sessionen är idealisk för dig som söker en intensiv fuktboost kombinerat med en omedelbar lyster. Vi använder oss av avancerade syrabaserade produkter för att noggrant rena huden och minimera porerna. Brynplock ingår också i behandlingen för att fullända din look. Avslutningsvis applicerar vi en djupt återfuktande sheetmask och använder LED-ljusteknik för att främja anti-age effekter och förbättra mikrocirkulationen i huden.</p>',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Peel, Boost & Glow',
-        image_title: 'Peel, Boost & Glow',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation',
-        consultation_url_label: 'Boka tid för hudkonsultation',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_PeelBoostGlow',
-        booking_url_label: 'Boka Peel, Boost & Glow behandling',
-        booking_url_title: 'Boka Peel, Boost & Glow behandling',
-        icons: array('rengoring' => 'Rengöring', 'anga' => 'Ånga', 'extraktion' => 'Extraktion', 'mask' => 'Mask'),
-        procedures: array(
-            new Procedure(
-                label: '1 behandling',
-                price: '1595 kr',
-                savings: null,
-                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_PeelBoostGlow&procedures=PriceClass_3_Procedure_1'
-            ),
-            new Procedure(
-                label: '3 behandlingar',
-                price: '3995 kr',
-                savings: 'spara 790 kr',
-                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_PeelBoostGlow&procedures=PriceClass_3_Procedure_3'
-            ),
-            new Procedure(
-                label: '5 behandlingar',
-                price: '5995 kr',
-                savings: 'spara 1980 kr',
-                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_PeelBoostGlow&procedures=PriceClass_3_Procedure_5'
-            )
-        )
-    ),
-    new Service(
-        title: 'Luxury',
-        duration: '90 min',
-        price: null,
-        content: '<p class="p200">Unna dig vår mest exklusiva och avkopplande ansiktsbehandling – Luxury Facial. Denna omfattande session börjar med en grundlig djuprengöring av huden, följd av en avslappnande massage för ansikte och dekolletage med en närande ansiktsolja som stimulerar cellförnyelsen och förbättrar kollagensyntesen. En lyxig exfoliering med syra förfinar huden och förbättrar dess elasticitet, fasthet och ton. Ögonbrynen och fransarna får också extra omsorg med en professionell färgning och formning som passar ditt ansikte. Behandlingen avslutas med en intensivt återfuktande sheetmask och en avancerad LED-mask som stimulerar blodcirkulationen, främjar hudens naturliga reparationsprocess och verkar anti-inflammatoriskt. Det är en fulländad upplevelse som inte bara förskönar utan också ger djup avslappning.</p>',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Ansiktsbehandling Lyx',
-        image_title: 'Ansiktsbehandling Lyx',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation',
-        consultation_url_label: 'Boka tid för hudkonsultation',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Luxury',
-        booking_url_label: 'Boka Ansiktsbehandling Lyx',
-        booking_url_title: 'Boka Ansiktsbehandling Lyx',
-        icons: array('rengoring' => 'Rengöring', 'anga' => 'Ånga', 'extraktion' => 'Extraktion', 'mask' => 'Mask'),
-        procedures: array(
-            new Procedure(
-                label: '1 behandling',
-                price: '1995 kr',
-                savings: null,
-                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Luxury&procedures=PriceClass_4_Procedure_1'
-            ),
-            new Procedure(
-                label: '3 behandlingar',
-                price: '4995 kr',
-                savings: 'spara 990 kr',
-                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Luxury&procedures=PriceClass_4_Procedure_3'
-            ),
-            new Procedure(
-                label: '5 behandlingar',
-                price: '7995 kr',
-                savings: 'spara 1980 kr',
-                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Luxury&procedures=PriceClass_4_Procedure_5'
-            )
-        )
-    ),
-    new Service(
-        title: 'Porrengöring',
-        duration: '60 min',
-        price: null,
-        content: '<p class="p200">Vår porrengöringsbehandling är speciellt framtagen för att effektivt rensa tilltäppta porer och främja en klarare hud. Behandlingen börjar med en djupgående rengöring som förbereder huden för exfoliering. Efter exfolieringen tillämpas en mjukgörande ångprocess för att öppna upp och mjuka upp porerna. Noggrann manuell porrengöring följer för att varsamt avlägsna orenheter och komedoner. Vi avslutar med en lugnande ansiktsmask och lägger på en återfuktande kräm som är anpassad för din hudtyp.</p>',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Porrengöring',
-        image_title: 'Porrengöring',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation',
-        consultation_url_label: 'Boka tid för hudkonsultation',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://acnespecialisten.se/book?flow=facialClassic',
-        booking_url_label: 'Boka porrengöringsbehandling',
-        booking_url_title: 'Boka porrengöringsbehandling',
-        icons: array('rengoring' => 'Rengöring', 'anga' => 'Ånga', 'extraktion' => 'Extraktion', 'mask' => 'Mask'),
-        procedures: array(
-            new Procedure(
-                label: '1 porrengöringsbehandling',
-                price: '1095 kr',
-                savings: null,
-                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_PoreCleansing'
-            ),
-            new Procedure(
-                label: '3 porrengöringsbehandlingar',
-                price: '2995 kr',
-                savings: '795 kr per besök',
-                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_PoreCleansing'
-            ),
-            new Procedure(
-                label: '5 porrengöringsbehandlingar',
-                price: '4795 kr',
-                savings: '1199 kr per besök',
-                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_PoreCleansing'
-            )
-        )
-    ),
 
 );
-
-$bottom_articles = array('aftercare' => new Article(
-    title: 'Eftervård och underhåll',
-    image_small: 'https://via.placeholder.com/358x272.webp',
-    image_large: 'https://via.placeholder.com/872x456.webp',
-    image_alt: 'Eftervård och underhåll',
-    image_title: 'Eftervård och underhåll',
-    content: '<p class="p200">Våra klassiska ansiktsbehandlingar erbjuder en grundlig rengöring och uppfräschning av huden. Efter din behandling är det viktigt att följa några enkla eftervårdsinstruktioner för att bibehålla resultatet. Undvik starkt solsken och använd en hög SPF för att skydda huden. Vi rekommenderar också att du undviker tung makeup och hudirriterande ämnen de första 24 timmarna efter behandlingen. Fortsätt att återfukta huden väl och använd de produkter som rekommenderats av din hudterapeut för att stödja hudens läkning och förbättring.</p>
-    <p class="p200 mt-m">För dig som gjort en lite mer resultatinriktad behandling är det viktigt att komma ihåg att inte plocka eller skrapa på huden om det skulle uppstå några orenheter efter behandlingen. Om du fick en kemisk peeling eller exfoliering, se till att vara extra varsam med huden och undvik exfolierande produkter ett tag. Drick mycket vatten och fortsätt med en balanserad kost för att stödja huden inifrån och ut. Om du har några frågor om din eftervård, tveka inte att kontakta oss för personliga råd.</p>',
-    tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
-));
 
 $results = array(
     new ResultCustomer(
@@ -743,13 +538,6 @@ $all_brands = array(
                     <div class="mt-xl"><?php echo $description_text ?></div>
                 </section>
 
-                <?php foreach ($top_articles as $id => $article) { ?>
-                    <section id="<?php echo $id ?>">
-                        <?php
-                        include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
-                        ?>
-                    </section>
-                <?php } ?>
                 <?php if (isset($types_title)) { ?>
                     <section id="types" class="large-margin">
                         <h2 class="h500"><?php echo $types_title; ?></h2>
@@ -804,13 +592,6 @@ $all_brands = array(
                         } ?>
                     </section>
 
-                <?php } ?>
-                <?php foreach ($bottom_articles as $id => $article) { ?>
-                    <section id="<?php echo $id ?>">
-                        <?php
-                        include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
-                        ?>
-                    </section>
                 <?php } ?>
                 <?php if (isset($service_brands)) { ?>
                     <section id="service-brands" class="large-margin">
