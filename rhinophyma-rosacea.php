@@ -94,7 +94,7 @@ $treatment_steps = array(
       ),
 
 );
-$treatment_link = '<a href="problem/rosacea/rosaceabehandling" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra rosaceabehandlingar</a>';
+$treatment_link = '<a href="rosaceabehandling.php" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra rosaceabehandlingar</a>';
 
 $top_articles = array(
     'omraden' => new Article(
@@ -152,7 +152,7 @@ $service = new Service(
       image_alt: 'Bild av en konsultation för rosaceabehandling',
       image_title: 'Konsultation för rosaceabehandling',
       consultation_url: 'consultation-booking?problem=rosacea',
-      consultation_url_label: 'Boka tid för hudkonsultation',
+      consultation_url_label: 'Boka konsultation',
       consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för rosacea',
       booking_url: null,
       booking_url_label: null,
@@ -178,7 +178,7 @@ $services = array(
             consultation_url_label: 'Boka tid för hudkonsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling mot rosacea',
             booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/rosacea-konsultation-1643922',
-            booking_url_label: 'Boka tid för ansiktsbehandling mot rosacea',
+            booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling mot rosacea',
             url: 'rosaceabehandling.php',
             url_label: 'Läs mer om ansiktsbehandling för rosacea',

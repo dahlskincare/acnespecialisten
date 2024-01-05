@@ -373,7 +373,7 @@ $service_brands = array(
 
     new Brand(
         label: 'Frysbehandling',
-        image: 'images/metoder/frysbehandling.svg',
+        image: 'bilder/logotyper/cryopen.svg',
         image_alt: 'Frysbehandling',
         image_title: 'Frysbehandling',
     ),
