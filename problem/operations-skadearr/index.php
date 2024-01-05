@@ -43,7 +43,7 @@ $consultation_url = "https://acnespecialisten.se/book?flow=consultation&Consulta
 $consultation_url_title = "Gratis Konsultation för Ärr";
 
 $booking_url_label = "Boka behandling";
-$booking_url = "https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_AcneScars";
+$booking_url = "https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars";
 $booking_url_title = "Boka Ärrbehandling";
 
 $mobile_consultation_url_label = "Få gratis konsultation";
