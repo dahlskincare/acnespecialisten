@@ -3,34 +3,35 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Dermapen - Effektiv hudföryngring | Acnespecialisten';
-$seo_description = 'Upptäck AcneSpecialistens Dermapen-behandlingar, den ledande tekniken inom hudföryngring som aktivt bekämpar åldrande och texturförändringar. Med expertis och skräddarsydda behandlingsprogram, stimulerar vi din hud att självläka och återfå sin spänst och lyster.';
-$seo_keywords = 'Dermapen, hudföryngring, behandla texturförändringar, reducera ålderslinjer, stimulera kollagen, hudförbättring, förfinad hudstruktur, jämna ut hudton, öka hudens elasticitet, föryngra huden';
+$seo_title = 'Klassiska Ansiktsbehandlingar - Professionell Hudvård | AcneSpecialisten';
+$seo_description = 'Upptäck AcneSpecialistens klassiska ansiktsbehandlingar för optimal hudvård. Med vår expertis ger vi din hud den bästa omvårdnaden den förtjänar. Professionella behandlingar och rådgivning endast ett steg bort.';
+$seo_keywords = 'klassiska ansiktsbehandlingar, hudvård, förebyggande hudvård, professionell hudvård, hudförbättring, återfuktning, hudrengöring, AcneSpecialisten';
 
-$seo_image = 'images/treatments/large/dermapen.jpg';
+
+$seo_image = 'images/treatments/large/ansiktsbehandlingar-klassiska.jpg';
 
 
 $model = new Service(
-    title: 'Dermapen',
+    title: 'Klassiska ansiktsbehandlingar',
     duration: null,
-    price: 'Från 2332 kr',
-    content: '<p class="p200">Dermapen är optimal för dig som vill förbättra hudens struktur och elasticitet, minska synligheten av ärr, rynkor och linjer, samt återskapa hudens naturliga vitalitet och glöd. Våra Dermapen-behandlingar är personligt anpassade för att möta en mängd hudbehov och är omsorgsfullt utformade för att maximera hudens potential till regenerering och föryngring.</p>',
-    image_small: 'bilder/varumarken/358x274/dermapen.webp',
-    image_large: 'bilder/varumarken/424x456/dermapen.webp',
-    image_alt: 'Dermapen',
-    image_title: 'Dermapen',
-    consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Dermapen',
+    price: 'Från 799 kr',
+    content: '<p class="p200">Hos oss på AcneSpecialisten erbjuder vi ett brett utbud av klassiska ansiktsbehandlingar anpassade för varje individs unika behov. Oavsett om du befinner dig på Östermalm, Södermalm eller i Sundbyberg, kan du välja den behandling som bäst matchar din hudtyp och dina önskemål. Vare sig du är ute efter att ge din mogen hy lite extra omsorg, vill återfukta huden eller bara vill unna dig själv en stunds lyx – vi har något för alla.</p>',
+    image_small: 'bilder/behandlingar/358x274/klassiska-ansiktsbehandlingar.webp',
+    image_large: 'bilder/behandlingar/424x456/klassiska-ansiktsbehandlingar.webp',
+    image_alt: 'Ansiktsbehandlingar för problemhy',
+    image_title: 'Ansiktsbehandlingar för problemhy',
+    consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Skin_Consultation',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
-    booking_url: 'https://acnespecialisten.se/book?flow=dermapen',
+    booking_url: 'https://acnespecialisten.se/book?flow=facialClassic',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
 );
 
-$floating_box = 'Effektiv nålbehandling som förbättrar hudens struktur.';
+$floating_box = 'Klassiska ansiktsbehandlingar som passar alla.';
 
 $nav_buttons = array(
-    'about' => 'Om Dermapen',
+    'about' => 'Om ansiktsbehandlingar mot problemhy',
     'preparing' => 'Förberedelser',
     'process' => 'Processen',
     'types' => 'Typer',
@@ -44,365 +45,257 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Dermapen - en innovativ hudföryngringsteknik';
-$description_text = '<p class="p200">Dermapen är en framstående och skonsam behandlingsmetod som är lämplig för alla hudtyper, inriktad på att vitalisera och föryngra huden. Med en patenterad teknologi använder Dermapen avancerade mikronålar för att skapa fina, precisionsinriktade mikrokanaler i huden. Detta underlättar djupgående absorption av aktiva serum som är rika på näringsämnen och stimulerar hudens kollagenproduktion och naturliga läkningsprocess.</p>
-    <p class="p200 mt-m">Denna digitala och kontrollerade microneedling-teknik erbjuder en nästan smärtfri upplevelse i jämförelse med äldre metoder. Dermapen är mångsidig och kan effektivt behandla en rad hudåkommor, inklusive rynkor, ärr, ojämn hudton och struktur. Genom att stimulera hudens egna reparationsprocesser förbättras dess elasticitet, lyster och övergripande hälsa, vilket ger en märkbart yngre och mer strålande hud.</p>';
+$description_title = 'Vad är klassiska ansiktsbehandlingar?';
+$description_text = '<p class="p200">Klassiska ansiktsbehandlingar är en grundsten inom hudvård och erbjuder en upplevelse av avkoppling samtidigt som huden får den vård den behöver. Behandlingarna går ut på att rengöra, återfukta, balansera och revitalisera huden, samt att hantera specifika hudproblem.</p>
+<p class="p200 mt-m">Hos oss på AcneSpecialisten kan du välja mellan flera typer av klassiska ansiktsbehandlingar. Vi erbjuder allt från den traditionella Klassisk ansiktsbehandling till Antistress, där fokus ligger på avslappning. Hudterapeutens val anpassas helt efter dina behov, medan Peel, Boost & Glow siktar på att ge huden en extra boost. För den som vill ha det lilla extra erbjuder vi Lyx behandlingen. Oavsett vilken behandling du väljer, är vårt mål att ge din hud den bästa möjliga omsorgen.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelser inför Dermapen-behandling',
+        title: 'Förberedelse inför klassiska ansiktsbehandlingar',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Förberedelser inför Dermapen-behandling',
-        image_title: 'Förberedelser inför Dermapen-behandling',
-        content: '<p class="p200">Att förbereda sig för en Dermapen-behandling innebär att först genomgå en detaljerad konsultation med en av våra hudspecialister. Under konsultationen utförs en noggrann bedömning av din hud för att identifiera individuella behov och särskilda hudproblem. Denna initiala analys är kritisk för att utforma en personlig behandlingsplan som är perfekt anpassad för dina unika hudvårdsbehov.</p>
-        <p class="p200 mt-m">För optimala resultat bör huden inte vara solskadad vid tidpunkten för behandlingen. Vi rekommenderar också att du avstår från att använda hudirriterande produkter som innehåller starka syror några dagar före behandlingen. Vår hudterapeut kommer att ge dig fullständig vägledning för att förbereda din hud inför behandlingen med Dermapen, för att säkerställa en effektiv och trygg upplevelse.</p>',
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Steam'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraction'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Cleansing'
-        ))
+        image_alt: 'Förberedelse inför klassiska ansiktsbehandlingar',
+        image_title: 'Förberedelse inför klassiska ansiktsbehandlingar',
+        content: '<p class="p200">Hos AcneSpecialisten är vårt främsta mål att du ska känna dig bekväm och väl omhändertagen. Om du vill kan du vidta vissa förberedande åtgärder innan din ansiktsbehandling, såsom att undvika starka hudprodukter eller direkt solljus. Men det är viktigt att betona att du alltid kan komma precis som du är. Vi förstår att varje individ är unik, och vi anpassar varje behandling efter dina specifika behov och önskemål.</p>
+        <p class="p200 mt-m">Om du har några specifika bekymmer eller frågor inför din behandling, tveka inte att meddela oss. Vår prioritet är din komfort och att leverera den bästa möjliga behandlingen för dig. Välkommen till en avslappnande och förnyande upplevelse hos oss på AcneSpecialisten!</p>',
     ),
     'process' => new Article(
-        title: 'Dermapen behandlingsprocess',
+        title: 'Processen för klassiska ansiktsbehandlingar',
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Dermapen behandlingsprocess',
-        image_title: 'Dermapen behandlingsprocess',
-        content: '<p class="p200">En Dermapen-behandling är en effektiv procedur för hudföryngring som använder avancerad teknik för att förbättra hudens utseende och struktur. När du kommer till kliniken börjar behandlingen med en grundlig rengöring av ditt ansikte för att ta bort smink och smuts.</p>
-        <p class="p200 mt-m">Dermapen-apparaten, utrustad med små, fina, sterila nålar, glider över huden för att punktera den med mikroskopiska hål. Dessa mikro-skador stimulerar hudens egen läkningsförmåga och leder till nyproduktion av kollagen och elastin. Under behandlingen appliceras även specialanpassade serum för att ge näring och främja en effektiv läkning. Efter proceduren är det vanligt med en viss rodnad och svullnad, men detta är ett tecken på att återhämtningsprocessen har startat. Resultatet över tid blir en märkbart slätare, fastare och mer lysterrik hud.</p>',
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Steam'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraction'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Cleansing'
-        ))
-    ),
-    'boost' => new Article(
-        title: 'Boosta din Dermapen-behandling med PRX-T33-behandling',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Boosta Dermapen-behandling effekten med PRX-T33',
-        image_title: 'Dermapen-behandling effekten med PRX-T33',
-        content: '<p class="p200">För att ta din Dermapen-behandling till nästa nivå erbjuder vi en specialiserad booster med PRX-T33, en nyskapande behandling som intensifierar hudföryngringseffekten. Denna kombination är idealisk för dig som vill utöka resultatet utan den längre återhämtning som andra behandlingar kräver. PRX-T33 är en icke-invasiv behandling som inte använder nålar och som därmed kompletterar Dermapen perfekt genom att förstärka och förlänga dess fördelaktiga effekter. Den kombinerade behandlingen lovar en synlig förbättring av hudens ton och textur samt en avsevärd minskning av fina linjer och ojämnheter, för en jämnare och mer ungdomlig hud.</p>',
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Steam'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraction'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Cleansing'
-        ))
+        image_alt: 'Processen för klassiska ansiktsbehandlingar',
+        image_title: 'Processen för klassiska ansiktsbehandlingar',
+        content: '<p class="p200">Hos AcneSpecialisten anpassas varje ansiktsbehandling efter den specifika behandling du väljer, men det finns vissa gemensamma steg som ingår i de flesta av våra klassiska ansiktsbehandlingar. Behandlingen inleds alltid med en rengöring av huden för att avlägsna smuts, talg och orenheter. Detta förbereder huden för de följande stegen och säkerställer att den kan dra nytta av de produkter och metoder som används.</p>
+    <p class="p200 mt-m">Efter rengöringen kan en exfoliering genomföras för att ta bort döda hudceller och främja cellförnyelse. En ångbehandling kan också inkluderas för att öppna upp porerna och underlätta extraktion av pormaskar och akne. Därefter kan individuellt anpassade masker och serum appliceras baserat på hudens behov. Behandlingen avslutas ofta med en fuktighetskräm eller solskydd. Genom hela processen prioriteras din huds välbefinnande och komfort, och varje steg är skräddarsytt för att ge optimala resultat.</p>',
     ),
 );
 
-$types_title = 'Hudproblem som Dermapen kan förbättra';
-$types_description = 'Dermapen är en innovativ behandlingsmetod som effektivt angriper en mängd hudproblem genom att skapa mikroskopiska perforeringar i huden. Dessa små punkteringar sätter igång kroppens naturliga reparation och regenereringsprocesser, vilket stimulerar nybildningen av kollagen och elastin. Tack vare sin förmåga att målriktat påverka hudens djupare skikt, kan Dermapen hjälpa till att avsevärt förbättra många olika hudåkommor. Utforska vilka hudproblem som kan behandlas och lindras med Dermapen här.';
-$types = array(
+$types_title = 'Våra klassiska ansiktsbehandlingar';
+$types_description = 'Här hittar du vårt utbud av klassiska ansiktsbehandlingar.';
+$big_types = array(
     new Service(
-        title: 'Dermapen för Aktiv Acne',
-        duration: '50 minuter',
-        price: '2595 kr',
-        content: 'Dermapen behandlar aktiv acne genom att använda mikronålar för att stimulera hudens egen läkningsförmåga, vilket reducerar inflammation och hjälper till att förebygga framtida utbrott.',
-        image_small: 'https://via.placeholder.com/102x102.jpg',
-        image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Dermapen för Aktiv Acne',
-        image_title: 'Dermapen för Aktiv Acne',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Dermapen',
-        consultation_url_label: 'Boka konsultation för behandling av aktiv acne',
-        consultation_url_title: 'Boka konsultation för behandling av aktiv acne',
-        booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_Acne',
-        booking_url_label: 'Boka Dermapen för aktiv acne',
-        booking_url_title: 'Boka Dermapen för aktiv acne',
-    ),
-
-    new Service(
-        title: 'Dermapen för Acneärr',
-        duration: '50 minuter',
-        price: '2595 kr',
-        content: 'Dermapen mot acneärr använder mikronålar för att skapa små skador i huden, vilket kickstartar kroppens naturliga läkning och kollagenbildning, vilket jämnar ut ärr och förbättrar hudens struktur.',
-        image_small: 'https://via.placeholder.com/102x102.jpg',
-        image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Dermapen för Acneärr',
-        image_title: 'Dermapen för Acneärr',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Dermapen',
-        consultation_url_label: 'Boka konsultation för behandling av acneärr',
-        consultation_url_title: 'Boka konsultation för behandling av acneärr',
-        booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_AcneScars',
-        booking_url_label: 'Boka Dermapen för acneärr',
-        booking_url_title: 'Boka Dermapen för acneärr',
-    ),
-
-    new Service(
-        title: 'Dermapen för Rynkor & Fina Linjer',
-        duration: '50 minuter',
-        price: '2595 kr',
-        content: 'Dermapen mot rynkor och fina linjer använder mikronålning för att stimulera hudens föryngringsprocess, vilket resulterar i ökad kollagenproduktion och en slätare, mer ungdomlig hudtextur.',
-        image_small: 'https://via.placeholder.com/102x102.jpg',
-        image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Dermapen för Rynkor & Fina Linjer',
-        image_title: 'Dermapen för Rynkor & Fina Linjer',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Dermapen',
-        consultation_url_label: 'Boka konsultation för behandling av rynkor och fina linjer',
-        consultation_url_title: 'Boka konsultation för behandling av rynkor och fina linjer',
-        booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_Wrinkles',
-        booking_url_label: 'Boka Dermapen för rynkor & fina linjer',
-        booking_url_title: 'Boka Dermapen för rynkor & fina linjer',
-    ),
-
-    new Service(
-        title: 'Dermapen för Stora Porer',
-        duration: '50 minuter',
-        price: '2595 kr',
-        content: 'Dermapen för stora porer stimulerar huden på djupet för att öka kollagenproduktionen, vilket kan bidra till att dra åt och minska utseendet av förstorade porer, och ger en jämnare hudstruktur.',
-        image_small: 'https://via.placeholder.com/102x102.jpg',
-        image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Dermapen för Stora Porer',
-        image_title: 'Dermapen för Stora Porer',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Dermapen',
-        consultation_url_label: 'Boka konsultation för behandling av stora porer',
-        consultation_url_title: 'Boka konsultation för behandling av stora porer',
-        booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_LargePores',
-        booking_url_label: 'Boka Dermapen för stora porer',
-        booking_url_title: 'Boka Dermapen för stora porer',
-    ),
-
-    new Service(
-        title: 'Dermapen för Pigmentfläckar',
-        duration: '50 minuter',
-        price: '2595 kr',
-        content: 'Dermapen för pigmentfläckar främjar hudens förnyelseprocess och hjälper till att bryta ned pigmentansamlingar, vilket leder till en mer enhetlig hudton och minskade pigmenteringar.',
-        image_small: 'https://via.placeholder.com/102x102.jpg',
-        image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Dermapen för Pigmentfläckar',
-        image_title: 'Dermapen för Pigmentfläckar',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Dermapen',
-        consultation_url_label: 'Boka konsultation för behandling av pigmentfläckar',
-        consultation_url_title: 'Boka konsultation för behandling av pigmentfläckar',
-        booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_PigmentationSpots',
-        booking_url_label: 'Boka Dermapen för pigmentfläckar',
-        booking_url_title: 'Boka Dermapen för pigmentfläckar',
-    ),
-
-    new Service(
-        title: 'Dermapen för Bristningar',
-        duration: '50 minuter',
-        price: '2595 kr',
-        content: 'Dermapen stimulerar hudens förmåga att läka och producera nytt kollagen och elastin, vilket kan minska utseendet av bristningar genom att förbättra hudens struktur och elasticitet.',
-        image_small: 'https://via.placeholder.com/102x102.jpg',
-        image_large: 'https://via.placeholder.com/200x200.jpg',
-        image_alt: 'Dermapen för Bristningar',
-        image_title: 'Dermapen för Bristningar',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Dermapen',
-        consultation_url_label: 'Boka konsultation för behandling av bristningar',
-        consultation_url_title: 'Boka konsultation för behandling av bristningar',
-        booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_StrechMarks',
-        booking_url_label: 'Boka Dermapen för bristningar',
-        booking_url_title: 'Boka Dermapen för bristningar',
-    ),
-
-);
-
-$treatment_areas_title = 'Behandlingsområden för Dermapen';
-$treatment_areas_text = '<p class="p200">Dermapen är en mångsidig behandling lämplig för ansikte, axlar, rygg och bröst. Den förbättrar hudens struktur och lyster genom att stimulera kollagenproduktion och läkning, anpassad efter varje unikt hudtillstånd och område.</p>';
-$treatment_areas = array(
-    new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
-        image_alt: 'Ansikte',
-        image_title: 'Ansikte',
-        title: 'Ansikte',
-        description: '<p class="p200">Dermapen behandlar och förbättrar huden i ansiktet och kan utföras i hela ansiktet eller på utvalda zoner.</p>',
-        items: array(
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webp',
-                image_alt: 'Ansikte',
-                image_title: 'Ansikte',
-                title: 'Ansikte',
-                duration: '50 min',
+        title: 'Klassisk',
+        duration: '60 min',
+        price: null,
+        content: '<p class="p200">Vår klassiska ansiktsbehandling är idealisk för alla, oavsett hudtyp. Den rengör, vårdar och återfuktar huden för att ge den ny lyster. Behandlingsprocessen inleds med rengöring, följt av en exfoliering som tar bort döda hudceller. Efter en varsam ångprocess som öppnar porerna, utför vi en försiktig porrengöring och brynplockning. Slutligen appliceras en närande ansiktsmask och en återfuktande dagkräm, skräddarsydd för just din hud.</p>',
+        image_small: 'https://via.placeholder.com/358x274.webp',
+        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_alt: 'Klassisk',
+        image_title: 'Klassisk',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation',
+        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Classic',
+        booking_url_label: 'Boka klassisk behandling',
+        booking_url_title: 'Boka klassisk behandling',
+        icons: array('rengoring' => 'Rengöring', 'anga' => 'Ånga', 'extraktion' => 'Extraktion', 'mask' => 'Mask'),
+        procedures: array(
+            new Procedure(
+                label: '1 behandling',
+                price: '995 kr',
+                savings: null,
+                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Classic&procedures=PriceClass_1_Procedure_1'
+            ),
+            new Procedure(
+                label: '3 behandlingar',
                 price: '2595 kr',
-                url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=SKIP&area=Microneedling_Face',
-                url_label: 'Boka',
-                url_title: 'Boka tid för ansiktsbehandling'
+                savings: '865 kr per besök',
+                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Classic&procedures=PriceClass_1_Procedure_3'
             ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webp',
-                image_alt: 'Näsa',
-                image_title: 'Näsa',
-                title: 'Näsa',
-                duration: '30 min',
-                price: '1295 kr',
-                url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=SKIP&area=Microneedling_Nose',
-                url_label: 'Boka',
-                url_title: 'Boka tid för näsbehandling'
-            ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webp',
-                image_alt: 'Kinder',
-                image_title: 'Kinder',
-                title: 'Kinder',
-                duration: '30 min',
-                price: '1295 kr',
-                url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=SKIP&area=Microneedling_Cheeks',
-                url_label: 'Boka',
-                url_title: 'Boka tid för kindbehandling'
-            ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webp',
-                image_alt: 'Överläpp',
-                image_title: 'Överläpp',
-                title: 'Överläpp',
-                duration: '30 min',
-                price: '1295 kr',
-                url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=SKIP&area=Microneedling_UpperLip',
-                url_label: 'Boka',
-                url_title: 'Boka tid för överläppsbehandling'
-            ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webp',
-                image_alt: 'Haka',
-                image_title: 'Haka',
-                title: 'Haka',
-                duration: '30 min',
-                price: '1295 kr',
-                url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=SKIP&area=Microneedling_Chin',
-                url_label: 'Boka',
-                url_title: 'Boka tid för hakbehandling'
-            ),
-
+            new Procedure(
+                label: '5 behandlingar',
+                price: '2595 kr',
+                savings: '799 kr per besök',
+                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Classic&procedures=PriceClass_1_Procedure_5'
+            )
         )
     ),
-    new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
-        image_alt: 'Kropp',
-        image_title: 'Kropp',
-        title: 'Kropp',
-        description: '<p class="p200">Dermapen är anpassningsbar för behandling av olika kroppsdelar.</p>',
-        items: array(
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
-                image_alt: 'Hals',
-                image_title: 'Hals',
-                title: 'Hals',
-                duration: '50 min',
-                price: '2595 kr',
-                url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=SKIP&area=Microneedling_Neck',
-                url_label: 'Boka',
-                url_title: 'Boka tid för halsbehandling'
-            ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
-                image_alt: 'Dekolletage',
-                image_title: 'Dekolletage',
-                title: 'Dekolletage',
-                duration: '50 min',
-                price: '2595 kr',
-                url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=SKIP&area=Microneedling_Decolletage',
-                url_label: 'Boka',
-                url_title: 'Boka tid för dekolletagebehandling'
-            ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
-                image_alt: 'Rygg',
-                image_title: 'Rygg',
-                title: 'Rygg',
-                duration: '50 min',
-                price: '2595 kr',
-                url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=SKIP&area=Microneedling_Back',
-                url_label: 'Boka',
-                url_title: 'Boka tid för ryggbehandling'
+    new Service(
+        title: 'Ansiktsbehandling - Antistress',
+        duration: '40 min',
+        price: null,
+        content: '<p class="p200">Unna dig en paus från vardagens hektik med vår Ansiktsbehandling Antistress. Den börjar med en lätt rengöring för att varsamt fräscha upp huden. Den vitaliserande oljemassagen ger en känsla av avkoppling och balans. Behandlingen avslutas med vår skräddarsydda LED-ljusterapi och en närande kräm, allt för att säkerställa en total känsla av välbefinnande.</p>',
+        image_small: 'https://via.placeholder.com/358x274.webp',
+        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_alt: 'Ansiktsbehandling - Antistress',
+        image_title: 'Ansiktsbehandling - Antistress',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation',
+        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_AntiStress',
+        booking_url_label: 'Boka en Antistress ansiktsbehandling',
+        booking_url_title: 'Boka en Antistress ansiktsbehandling',
+        icons: array('rengoring' => 'Lätt rengöring', 'mild' => 'Ansiktsmassage', 'produkter' => 'Närande kräm', 'led' => 'LED'),
+        procedures: array(
+            new Procedure(
+                label: '1 behandling',
+                price: '1295 kr',
+                savings: null,
+                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Classic&procedures=PriceClass_1_Procedure_5'
             ),
         )
     ),
-    new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
-        image_alt: 'Kombinera områden',
-        image_title: 'Kombinera områden',
-        title: 'Kombinera områden',
-        description: '<p class="p200">Dermapen är effektiv för att samtidigt behandla mångfaldiga områden.</p>',
-        items: array(
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
-                image_alt: '1x område',
-                image_title: '1x område',
-                title: '1x områdes',
-                duration: '50 min',
-                price: '2595 kr',
-                url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=SKIP&area=Microneedling_1xArea',
-                url_label: 'Boka',
-                url_title: 'Boka tid för halsbehandling'
+    new Service(
+        title: 'Hudterapeutens val',
+        duration: '60 min',
+        price: null,
+        content: '<p class="p200">En ansiktsbehandling som skräddarsys helt efter dina behov och vår hudterapeuts rekommendationer. Behandlingen inkluderar en Lumafuse med LED-mask och kompletteras med olika moment som bäst passar din hudtyp. Exempelvis kan detta inkludera en djuprengöring med peel, boost & glow, brynstyling samt olika masker och serum som är särskilt utvalda för dig.</p>',
+        image_small: 'https://via.placeholder.com/358x274.webp',
+        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_alt: 'Hudterapeutens val',
+        image_title: 'Hudterapeutens val',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation',
+        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_TherapistsChoice',
+        booking_url_label: 'Boka en behandling enligt hudterapeutens val',
+        booking_url_title: 'Boka en behandling enligt hudterapeutens val',
+        icons: array('rengoring' => 'Rengöring', 'anga' => 'Ånga', 'extraktion' => 'Extraktion', 'mask' => 'Mask'),
+        procedures: array(
+            new Procedure(
+                label: '1 behandling',
+                price: '1595 kr',
+                savings: null,
+                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_TherapistsChoice&procedures=PriceClass_3_Procedure_1'
             ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
-                image_alt: '2x områden',
-                image_title: '2x områden',
-                title: '2x områden',
-                duration: '70 min',
-                price: '3595 kr',
-                url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=SKIP&area=Microneedling_2xAreas',
-                url_label: 'Boka',
-                url_title: 'Boka tid för dekolletagebehandling'
+            new Procedure(
+                label: '3 behandlingar',
+                price: '3995 kr',
+                savings: 'spara 790 kr',
+                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_TherapistsChoice&procedures=PriceClass_3_Procedure_3'
             ),
-            new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
-                image_alt: '3x områden',
-                image_title: '3x områden',
-                title: '3x områden',
-                duration: '90 min',
-                price: '4595 kr',
-                url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=SKIP&area=Microneedling_3xAreas',
-                url_label: 'Boka',
-                url_title: 'Boka tid för ryggbehandling'
-            ),
+            new Procedure(
+                label: '5 behandlingar',
+                price: '5995 kr',
+                savings: 'spara 1980 kr',
+                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_TherapistsChoice&procedures=PriceClass_3_Procedure_5'
+            )
         )
     ),
+    new Service(
+        title: 'Peel, Boost & Glow',
+        duration: '60 min',
+        price: null,
+        content: '<p class="p200">För en uppfriskande och lystergivande upplevelse, prova vår Peel, Boost & Glow behandling. Den här sessionen är idealisk för dig som söker en intensiv fuktboost kombinerat med en omedelbar lyster. Vi använder oss av avancerade syrabaserade produkter för att noggrant rena huden och minimera porerna. Brynplock ingår också i behandlingen för att fullända din look. Avslutningsvis applicerar vi en djupt återfuktande sheetmask och använder LED-ljusteknik för att främja anti-age effekter och förbättra mikrocirkulationen i huden.</p>',
+        image_small: 'https://via.placeholder.com/358x274.webp',
+        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_alt: 'Peel, Boost & Glow',
+        image_title: 'Peel, Boost & Glow',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation',
+        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_PeelBoostGlow',
+        booking_url_label: 'Boka Peel, Boost & Glow behandling',
+        booking_url_title: 'Boka Peel, Boost & Glow behandling',
+        icons: array('rengoring' => 'Rengöring', 'anga' => 'Ånga', 'extraktion' => 'Extraktion', 'mask' => 'Mask'),
+        procedures: array(
+            new Procedure(
+                label: '1 behandling',
+                price: '1595 kr',
+                savings: null,
+                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_PeelBoostGlow&procedures=PriceClass_3_Procedure_1'
+            ),
+            new Procedure(
+                label: '3 behandlingar',
+                price: '3995 kr',
+                savings: 'spara 790 kr',
+                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_PeelBoostGlow&procedures=PriceClass_3_Procedure_3'
+            ),
+            new Procedure(
+                label: '5 behandlingar',
+                price: '5995 kr',
+                savings: 'spara 1980 kr',
+                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_PeelBoostGlow&procedures=PriceClass_3_Procedure_5'
+            )
+        )
+    ),
+    new Service(
+        title: 'Luxury',
+        duration: '90 min',
+        price: null,
+        content: '<p class="p200">Unna dig vår mest exklusiva och avkopplande ansiktsbehandling – Luxury Facial. Denna omfattande session börjar med en grundlig djuprengöring av huden, följd av en avslappnande massage för ansikte och dekolletage med en närande ansiktsolja som stimulerar cellförnyelsen och förbättrar kollagensyntesen. En lyxig exfoliering med syra förfinar huden och förbättrar dess elasticitet, fasthet och ton. Ögonbrynen och fransarna får också extra omsorg med en professionell färgning och formning som passar ditt ansikte. Behandlingen avslutas med en intensivt återfuktande sheetmask och en avancerad LED-mask som stimulerar blodcirkulationen, främjar hudens naturliga reparationsprocess och verkar anti-inflammatoriskt. Det är en fulländad upplevelse som inte bara förskönar utan också ger djup avslappning.</p>',
+        image_small: 'https://via.placeholder.com/358x274.webp',
+        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_alt: 'Ansiktsbehandling Lyx',
+        image_title: 'Ansiktsbehandling Lyx',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation',
+        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Luxury',
+        booking_url_label: 'Boka Ansiktsbehandling Lyx',
+        booking_url_title: 'Boka Ansiktsbehandling Lyx',
+        icons: array('rengoring' => 'Rengöring', 'anga' => 'Ånga', 'extraktion' => 'Extraktion', 'mask' => 'Mask'),
+        procedures: array(
+            new Procedure(
+                label: '1 behandling',
+                price: '1995 kr',
+                savings: null,
+                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Luxury&procedures=PriceClass_4_Procedure_1'
+            ),
+            new Procedure(
+                label: '3 behandlingar',
+                price: '4995 kr',
+                savings: 'spara 990 kr',
+                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Luxury&procedures=PriceClass_4_Procedure_3'
+            ),
+            new Procedure(
+                label: '5 behandlingar',
+                price: '7995 kr',
+                savings: 'spara 1980 kr',
+                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Luxury&procedures=PriceClass_4_Procedure_5'
+            )
+        )
+    ),
+    new Service(
+        title: 'Porrengöring',
+        duration: '60 min',
+        price: null,
+        content: '<p class="p200">Vår porrengöringsbehandling är speciellt framtagen för att effektivt rensa tilltäppta porer och främja en klarare hud. Behandlingen börjar med en djupgående rengöring som förbereder huden för exfoliering. Efter exfolieringen tillämpas en mjukgörande ångprocess för att öppna upp och mjuka upp porerna. Noggrann manuell porrengöring följer för att varsamt avlägsna orenheter och komedoner. Vi avslutar med en lugnande ansiktsmask och lägger på en återfuktande kräm som är anpassad för din hudtyp.</p>',
+        image_small: 'https://via.placeholder.com/358x274.webp',
+        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_alt: 'Porrengöring',
+        image_title: 'Porrengöring',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation',
+        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://acnespecialisten.se/book?flow=facialClassic',
+        booking_url_label: 'Boka porrengöringsbehandling',
+        booking_url_title: 'Boka porrengöringsbehandling',
+        icons: array('rengoring' => 'Rengöring', 'anga' => 'Ånga', 'extraktion' => 'Extraktion', 'mask' => 'Mask'),
+        procedures: array(
+            new Procedure(
+                label: '1 porrengöringsbehandling',
+                price: '1095 kr',
+                savings: null,
+                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_PoreCleansing'
+            ),
+            new Procedure(
+                label: '3 porrengöringsbehandlingar',
+                price: '2995 kr',
+                savings: '795 kr per besök',
+                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_PoreCleansing'
+            ),
+            new Procedure(
+                label: '5 porrengöringsbehandlingar',
+                price: '4795 kr',
+                savings: '1199 kr per besök',
+                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_PoreCleansing'
+            )
+        )
+    ),
+
 );
 
 $bottom_articles = array('aftercare' => new Article(
-    title: 'Efter Dermapen behandling',
+    title: 'Eftervård och underhåll',
     image_small: 'https://via.placeholder.com/358x272.webp',
     image_large: 'https://via.placeholder.com/872x456.webp',
-    image_alt: 'Efter Dermapen behandling',
-    image_title: 'Efter Dermapen behandling',
-    content: '<p class="p200">Eftervården spelar en stor roll för framgången med din Dermapenbehandling. Det är helt normalt att uppleva rödhet och svullnad efter behandlingen. Det är essentiellt att hålla behandlingsområdet rent och avstå från att applicera makeup under det första dygnet för att minska risken för infektioner och irritation.</p>
-    <p class="p200 mt-m">För att underlätta läkningen bör du undvika intensiv träning, bastubad, och varma duschar de första dagarna som kan förvärra svullnad och irritation. Vikten av solskydd kan inte understrykas nog; använd ett högkvalitativt solskyddsfaktor dagligen för att skydda den nybehandlade huden mot solens strålar.</p>
-    <p class="p200 mt-m">Följ de instruktioner för eftervård du får från din behandlare noggrant. Om du har några frågor eller bekymmer, är du alltid välkommen att kontakta din klinik. Baserat på hur din hud reagerar kan ytterligare uppföljning och behandlingar vara nödvändiga för att uppnå dina hudvårdsambitioner.</p>',
+    image_alt: 'Eftervård och underhåll',
+    image_title: 'Eftervård och underhåll',
+    content: '<p class="p200">Våra klassiska ansiktsbehandlingar erbjuder en grundlig rengöring och uppfräschning av huden. Efter din behandling är det viktigt att följa några enkla eftervårdsinstruktioner för att bibehålla resultatet. Undvik starkt solsken och använd en hög SPF för att skydda huden. Vi rekommenderar också att du undviker tung makeup och hudirriterande ämnen de första 24 timmarna efter behandlingen. Fortsätt att återfukta huden väl och använd de produkter som rekommenderats av din hudterapeut för att stödja hudens läkning och förbättring.</p>
+    <p class="p200 mt-m">För dig som gjort en lite mer resultatinriktad behandling är det viktigt att komma ihåg att inte plocka eller skrapa på huden om det skulle uppstå några orenheter efter behandlingen. Om du fick en kemisk peeling eller exfoliering, se till att vara extra varsam med huden och undvik exfolierande produkter ett tag. Drick mycket vatten och fortsätt med en balanserad kost för att stödja huden inifrån och ut. Om du har några frågor om din eftervård, tveka inte att kontakta oss för personliga råd.</p>',
     tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
-
-$service_brands_title = 'Andra märken för microneedling';
-$service_brands_text = '<p class="p200">Utför Dermapen utför vi även microneedling med Exceed.</p>';
-$service_brands = array(
-
-    new Brand(
-        label: 'Exceed',
-        image: 'images/brands/exceed.png',
-        image_alt: 'Exceed',
-        image_title: 'Exceed'
-    ),
-);
 
 $results = array(
     new ResultCustomer(
@@ -505,32 +398,33 @@ $results = array(
 
 $reviews_title = 'Omdömen';
 $reviews = array(
-    new Review(
-        brand: 'Trustpilot',
-        title: 'Supernöjd',
-        text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
-        signature: 'Sofia',
-        stars: 5,
-        logo_url: 'images/brands/trustpilot.svg'
+      new Review(
+            brand: 'Trustpilot',
+            title: 'Supernöjd',
+            text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
+            signature: 'Sofia',
+            stars: 5,
+            logo_url: 'images/brands/trustpilot.svg'
 
       ),
       new Review(
-        brand: 'Google',
-        title: 'Jag är mycket nöjd..',
-        text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och aknen är betydligt mildare",
-        signature: 'Lovisa',
-        stars: 5,
-        logo_url: 'images/brands/google-small.svg'
+            brand: 'Google',
+            title: 'Jag är mycket nöjd..',
+            text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och aknen är betydligt mildare",
+            signature: 'Lovisa',
+            stars: 5,
+            logo_url: 'images/brands/google-small.svg'
 
       ),
       new Review(
-        brand: 'Bokadirekt',
-        title: 'Rekommenderar varmt!',
-        text: "Det enda som fungerat mot min akne med synliga resultat. Jättetrevlig och kunnig behandlare!",
-        signature: 'Emily',
-        stars: 5,
-        logo_url: 'images/brands/bokadirekt-small.svg'
+            brand: 'Bokadirekt',
+            title: 'Rekommenderar varmt!',
+            text: "Det enda som fungerat mot min akne med synliga resultat. Jättetrevlig och kunnig behandlare!",
+            signature: 'Emily',
+            stars: 5,
+            logo_url: 'images/brands/bokadirekt-small.svg'
       ),
+
 );
 $reviews_view_more = 'Se alla omdömen';
 
@@ -538,19 +432,24 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Vilket är det rekommenderade antalet Dermapen sessioner?',
-            text: 'Det optimala antalet Dermapen sessioner är individuellt och baseras på hudens skick samt önskade mål. Vanligtvis föreslås en behandlingsserie bestående av 3 till 8 sessioner, med pauser på 4 till 6 veckor emellan, för att uppnå de bästa resultaten. En anpassad behandlingsplan utarbetas efter din första konsultation.'
+            title: 'Hur många behandlingar behövs?',
+            text: 'Antalet behandlingar kan variera beroende på individens hudtyp och hudens tillstånd. Generellt rekommenderas en serie av behandlingar för bästa möjliga resultat och sedan underhållsbehandlingar för långsiktig effekt.'
         ),
         new Question(
-            title: 'Är det en risk att hudproblemen återvänder efter en Dermapen session?',
-            text: 'Dermapen är effektivt för att behandla och förbättra nuvarande hudtillstånd, men kan inte motverka att nya problem inte uppstår. För att bevara resultatet och förebygga framtida hudproblem är en regelbunden hudvårdsrutin, kompletterad med rätt produkter och eventuella uppföljningsbehandlingar, att rekommendera.'
+            title: 'Hur ofta ska jag boka en klassisk ansiktsbehandling?',
+            text: 'För att upprätthålla resultat och hudens hälsa, rekommenderar vi en klassisk ansiktsbehandling var fjärde till sjätte vecka. Det kan justeras beroende på personliga behov och hudens tillstånd.'
         ),
         new Question(
-            title: 'När kan jag förvänta mig resultat från min Dermapen behandling?',
-            text: 'Tidsramen för synliga resultat efter en Dermapen behandling skiljer sig åt mellan individer. Medan vissa noterar förbättring inom några få dagar, kan andra behöva vänta flera veckor för att uppleva fullständig effekt. Kollagenproduktionen och hudförbättringen kan fortsätta att utvecklas under månaderna efter behandlingen.'
+            title: 'Vad kan jag förvänta mig direkt efter behandlingen?',
+            text: 'Efter en klassisk ansiktsbehandling kan huden vara lite rosig och kännas extra mjuk och återfuktad. Det är viktigt att följa eftervårdsinstruktionerna för att maximera behandlingens effekt. I de fall där en mer resultatinriktad behandling gjorts kan upplevelsen av huden variera.'
         ),
+        new Question(
+            title: 'Behövs speciell eftervård efter en klassisk ansiktsbehandling?',
+            text: 'Eftervård är viktigt för att bevara resultatet av din ansiktsbehandling. Det innefattar solskydd, mild hudvård, och att undvika starka hudirriterande ämnen ett par dagar efter behandlingen.'
+        )
     )
 );
+
 $faq_view_more = 'Se alla frågor & svar';
 
 $skin_guide_title = 'Hudguiden';
@@ -875,7 +774,7 @@ $all_brands = array(
                             <div class="mb-xl"><?php echo $treatment_area->description ?></div>
                         <?php
                             foreach ($treatment_area->items as $treatment_area_item) {
-                                include('behandlingar/widgets/treatment-area-item-card/treatment-area-item-card.php');
+                                include('../widgets/treatment-area-item-card/treatment-area-item-card.php');
                             }
                         } ?>
                     </section>
@@ -946,7 +845,7 @@ $all_brands = array(
                         </div>
                     </div>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="specialister" title="Se alla specialister"><?php echo $specialists_view_more ?></a>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" href="specialister" title="Se alla specilaister"><?php echo $specialists_view_more ?></a>
                 </section>
             </div>
             <section id="brands">
