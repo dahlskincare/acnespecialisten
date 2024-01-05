@@ -12,10 +12,10 @@ $seo_image = 'images/treatments/large/ansiktsbehandlingar-klassiska.jpg';
 
 
 $model = new Service(
-    title: 'Klassiska ansiktsbehandlingar',
+    title: 'Dermapen mot acneärr',
     duration: null,
     price: 'Från 799 kr',
-    content: '<p class="p200">Hos oss på AcneSpecialisten erbjuder vi ett brett utbud av klassiska ansiktsbehandlingar anpassade för varje individs unika behov. Oavsett om du befinner dig på Östermalm, Södermalm eller i Sundbyberg, kan du välja den behandling som bäst matchar din hudtyp och dina önskemål. Vare sig du är ute efter att ge din mogen hy lite extra omsorg, vill återfukta huden eller bara vill unna dig själv en stunds lyx – vi har något för alla.</p>',
+    content: '',
     image_small: 'bilder/behandlingar/358x274/klassiska-ansiktsbehandlingar.webp',
     image_large: 'bilder/behandlingar/424x456/klassiska-ansiktsbehandlingar.webp',
     image_alt: 'Ansiktsbehandlingar för problemhy',
@@ -26,6 +26,32 @@ $model = new Service(
     booking_url: 'https://acnespecialisten.se/book?flow=facialClassic',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
+    procedures: array(
+        new Procedure(
+            label: '1 procedure',
+            price: '2595 kr',
+            savings: null,
+            booking_url: 'https://bokadirekt.se',
+            booking_url_label: 'Boka tid för behandling',
+            booking_url_title: 'Boka tid för behandling'
+        ),
+        new Procedure(
+            label: '3 procedures',
+            price: '6995 kr',
+            savings: 'Spara 790 kr',
+            booking_url: 'https://bokadirekt.se',
+            booking_url_label: 'Boka tid för behandling',
+            booking_url_title: 'Boka tid för behandling'
+        ),
+        new Procedure(
+            label: '5 procedures',
+            price: '9995 kr',
+            savings: 'Spara 2980 kr',
+            booking_url: 'https://bokadirekt.se',
+            booking_url_label: 'Boka tid för behandling',
+            booking_url_title: 'Boka tid för behandling'
+        )
+    ),
 );
 
 $floating_box = 'Klassiska ansiktsbehandlingar som passar alla.';
