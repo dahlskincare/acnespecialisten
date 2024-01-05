@@ -20,7 +20,7 @@ $model = new Service(
     image_large: 'bilder/behandlingar/424x456/klassiska-ansiktsbehandlingar.webp',
     image_alt: 'Ansiktsbehandlingar för problemhy',
     image_title: 'Ansiktsbehandlingar för problemhy',
-    consultation_url: 'https://acnespecialisten.se/book?flow=consultation',
+    consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Skin_Consultation',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
     booking_url: 'https://acnespecialisten.se/book?flow=facialClassic',

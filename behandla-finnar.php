@@ -18,9 +18,9 @@ $image_title = 'Behandling av finnar';
 $title = 'Behandlingar för Finnar';
 $description = 'Här har vi samlat de mest effektiva metoderna för behandling av finnar som hjälper dig att effektivt bli av med finnarna oavsett typ. Oavsett ditt specifika behov, har vi rätt lösning för dig. Är du osäker på vilken <a href="https://www.acnespecialisten.se">behandling för finnar</a> som bäst passar din hudtyp för att bli av med finnarna? Oroa dig inte, boka en kostnadsfri konsultation hos oss på AcneSpecialisten så hjälper vi dig vidare mot en klarare och friskare hy.';
 
-$booking_link = 'rätt bokningslänk här';
+$booking_link = 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Pimples';
 $booking_link_title = 'Boka behandling';
-$consultation_link = 'rätt konsultationslänk här';
+$consultation_link = 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples';
 $consultation_link_title = 'Boka hudkonsultation';
 
 $nav_buttons = array(

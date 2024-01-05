@@ -18,9 +18,9 @@ $image_title = 'Bild av effektiv rosaceabehandling';
 $title = 'Rosaceabehandlingar';
 $description = 'Här har vi samlat de mest effektiva metoderna för rosaceabehandling som hjälper dig att hantera och lindra dina symptom. Oavsett ditt specifika behov, har vi rätt lösning för dig. Är du osäker på vilken <a href="https://www.acnespecialisten.se">rosaceabehandling</a> som bäst passar din hudtyp? Oroa dig inte, boka en kostnadsfri konsultation hos oss på Acnespecialisten så hjälper vi dig vidare mot en lugnare och jämnare hy.';
 
-$booking_link = 'rätt bokningslänk här';
+$booking_link = 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Rosacea';
 $booking_link_title = 'Boka behandling';
-$consultation_link = 'rätt konsultationslänk här';
+$consultation_link = 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea';
 $consultation_link_title = 'Boka hudkonsultation';
 
 
