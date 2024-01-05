@@ -3,27 +3,26 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Klassiska Ansiktsbehandlingar - Professionell Hudvård | AcneSpecialisten';
-$seo_description = 'Upptäck AcneSpecialistens klassiska ansiktsbehandlingar för optimal hudvård. Med vår expertis ger vi din hud den bästa omvårdnaden den förtjänar. Professionella behandlingar och rådgivning endast ett steg bort.';
-$seo_keywords = 'klassiska ansiktsbehandlingar, hudvård, förebyggande hudvård, professionell hudvård, hudförbättring, återfuktning, hudrengöring, AcneSpecialisten';
+$seo_title = 'Dermapen - Effektiv hudföryngring | Acnespecialisten';
+$seo_description = 'Upptäck AcneSpecialistens Dermapen-behandlingar, den ledande tekniken inom hudföryngring som aktivt bekämpar åldrande och texturförändringar. Med expertis och skräddarsydda behandlingsprogram, stimulerar vi din hud att självläka och återfå sin spänst och lyster.';
+$seo_keywords = 'Dermapen, hudföryngring, behandla texturförändringar, reducera ålderslinjer, stimulera kollagen, hudförbättring, förfinad hudstruktur, jämna ut hudton, öka hudens elasticitet, föryngra huden';
 
-
-$seo_image = 'images/treatments/large/ansiktsbehandlingar-klassiska.jpg';
+$seo_image = 'images/treatments/large/dermapen.jpg';
 
 
 $model = new Service(
     title: 'Dermapen mot acneärr',
     duration: null,
-    price: 'Från 799 kr',
+    price: 'Från 2332 kr',
     content: '',
-    image_small: 'bilder/behandlingar/358x274/klassiska-ansiktsbehandlingar.webp',
-    image_large: 'bilder/behandlingar/424x456/klassiska-ansiktsbehandlingar.webp',
-    image_alt: 'Ansiktsbehandlingar för problemhy',
-    image_title: 'Ansiktsbehandlingar för problemhy',
-    consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Skin_Consultation',
+    image_small: 'bilder/varumarken/358x274/dermapen.webp',
+    image_large: 'bilder/varumarken/424x456/dermapen.webp',
+    image_alt: 'Dermapen',
+    image_title: 'Dermapen',
+    consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Dermapen',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
-    booking_url: 'https://acnespecialisten.se/book?flow=facialClassic',
+    booking_url: 'https://acnespecialisten.se/book?flow=dermapen',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
     procedures: array(
@@ -54,10 +53,10 @@ $model = new Service(
     ),
 );
 
-$floating_box = 'Klassiska ansiktsbehandlingar som passar alla.';
+$floating_box = 'Effektiv nålbehandling som förbättrar hudens struktur.';
 
 $nav_buttons = array(
-    'about' => 'Om ansiktsbehandlingar mot problemhy',
+    'about' => 'Om Dermapen mot Acneärr',
     'preparing' => 'Förberedelser',
     'process' => 'Processen',
     'types' => 'Typer',
