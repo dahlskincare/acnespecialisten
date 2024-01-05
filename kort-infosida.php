@@ -119,7 +119,7 @@ $treatment_steps = array(
 $treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra aknebehandlingar</a>';
 
 $top_articles = array(
-    'omraden' => new Article(
+    'areas' => new Article(
         title: 'Sun Spot Areas',
         image_small: '',
         image_large: '',

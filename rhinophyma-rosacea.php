@@ -97,7 +97,7 @@ $treatment_steps = array(
 $treatment_link = '<a href="rosaceabehandling.php" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra rosaceabehandlingar</a>';
 
 $top_articles = array(
-    'omraden' => new Article(
+    'areas' => new Article(
         title: 'Rhinophyma Rosacea områden',
         image_small: '',
         image_large: '',
