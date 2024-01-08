@@ -255,7 +255,7 @@ $type_categories = array(
                         image_title: 'Exempel på Mallorca akne',
 
                         url: 'problem/akne/typer/mallorca-akne',
-                        url_title: 'Läs mer om hur solen kan orsaka Mallorca akne'
+                        url_title: 'Läs mer om hur solen kan orsaka Mallorca akne',
                   ),
                   new BasedType(
                         title: 'Hormonell akne',
@@ -266,7 +266,7 @@ $type_categories = array(
                         image_title: 'Exempel på hormonell akne',
 
                         url: 'problem/akne/typer/hormonell-akne',
-                        url_title: 'Utforska mer om hur hormoner kan framkalla akne'
+                        url_title: 'Utforska mer om hur hormoner kan framkalla akne',
                   ),
                   new BasedType(
                         title: 'kosmetika akne',
@@ -277,7 +277,7 @@ $type_categories = array(
                         image_title: 'Exempel på kosmetika akne',
 
                         url: 'problem/akne/typer/kosmetika-akne',
-                        url_title: 'Lär dig mer om hur kosmetika kan ge akne'
+                        url_title: 'Lär dig mer om hur kosmetika kan ge akne',
                   ),
                   new BasedType(
                         title: 'Akne från pillande',
@@ -288,7 +288,7 @@ $type_categories = array(
                         image_title: 'Exempel på pill akne',
 
                         url: 'problem/akne/typer/acne-exoriee',
-                        url_title: 'Läs mer om hur pillande kan leda till akne'
+                        url_title: 'Läs mer om hur pillande kan leda till akne',
                   ),
                   new BasedType(
                         title: 'Friktionsakne',
@@ -299,7 +299,7 @@ $type_categories = array(
                         image_title: 'Exempel på friktions akne',
 
                         url: 'problem/akne/typer/akne-mekanisk',
-                        url_title: 'Utforska mer om hur friktion kan orsaka akne'
+                        url_title: 'Utforska mer om hur friktion kan orsaka akne',
                   ),
                   new BasedType(
                         title: 'Läkemedelsakne',
@@ -310,7 +310,7 @@ $type_categories = array(
                         image_title: 'Exempel på läkemedelsakne',
 
                         url: 'problem/akne/typer/lakemedelsakne',
-                        url_title: 'Lär dig mer om hur läkemedel kan orsaka akne'
+                        url_title: 'Lär dig mer om hur läkemedel kan orsaka akne',
                   ),
                   new BasedType(
                         title: 'Kontaktakne',
@@ -321,7 +321,7 @@ $type_categories = array(
                         image_title: 'Exempel på kontaktakne',
 
                         url: 'problem/akne/typer/kontakt-akne',
-                        url_title: 'Utforska mer om hur direktkontakt kan påverka akne'
+                        url_title: 'Utforska mer om hur direktkontakt kan påverka akne',
                   ),
                   new BasedType(
                         title: 'Svampakne',
@@ -332,8 +332,8 @@ $type_categories = array(
                         image_title: 'Exempel på svampakne',
 
                         url: 'problem/akne/typer/fungal-akne',
-                        url_title: 'Lär dig mer om hur svamp relateras till akne'
-                  )
+                        url_title: 'Lär dig mer om hur svamp relateras till akne',
+                  ),
                   new BasedType(
                         title: 'Inflammerad Akne',
                         subtitle: 'Även kallat acne papulopustulosa',
@@ -343,8 +343,8 @@ $type_categories = array(
                         image_title: 'Exempel på svampakne',
 
                         url: 'problem/akne/typer/fungal-akne',
-                        url_title: 'Lär dig mer om hur svamp relateras till akne'
-                  )
+                        url_title: 'Lär dig mer om hur svamp relateras till akne',
+                  ),
             )
       ),
       new BasedTypeCategory(
