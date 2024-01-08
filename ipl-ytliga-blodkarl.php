@@ -51,8 +51,8 @@ $description_text = '<p class="p200">IPL, som betyder Intensivt Pulserande Ljus,
 $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelser inför behandling med IPL mot Ytliga Blodkärl',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Förberedelser inför behandling med IPL mot Ytliga Blodkärl',
         image_title: 'Förberedelser inför behandling med IPL mot Ytliga Blodkärl',
         content: '<p class="p200">Att förbereda sig inför en IPL-behandling för ytliga blodkärl innebär att följa vissa steg för att maximera behandlingens effektivitet och säkerhet. Det börjar med en detaljerad konsultation med en erfaren hudterapeut som utvärderar din hudtyp och de områden där ytliga blodkärl är framträdande. Under denna konsultation skapas en behandlingsplan anpassad efter dina unika behov.</p>
