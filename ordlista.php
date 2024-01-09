@@ -31,10 +31,18 @@ $glossary_items = array(
     ),
     'c' => array(),
     'd' => array(
+         new GlossaryItem(
+            title: 'Dermapen Alternativ',
+            description: '<p class="p200">Vi erbjuder Dermapen mot flera olika hudproblem, här hittar du några.
+                <a class="b200 underline color-deep-sea-400" href="/resultat/dermapen">Dermapen Resultat</a></p>',
+        ),
         new GlossaryItem(
             title: 'Dermapen Resultat',
-            description: '<p class="p200">Här hittar du våra resultat för Dermapen.
-                <a class="b200 underline color-deep-sea-400" href="/resultat/dermapen">Dermapen Resultat</a></p>',
+            description: '<p class="p200">Här hittar du våra resultat för Dermapen.</p>
+                <a class="b200 underline color-deep-sea-400" href="/dermapen-acne.php">Dermapen Acne</a>
+                <a class="b200 underline color-deep-sea-400" href="/dermapen-acnearr.php">Dermapen Acneärr</a>
+                <a class="b200 underline color-deep-sea-400" href="/dermapen-finnar.php">Dermapen Finnar</a>
+                <a class="b200 underline color-deep-sea-400" href="/dermapen-stora-porer.php">Dermapen Stora Porer</a>',
         ),
         
     ),
