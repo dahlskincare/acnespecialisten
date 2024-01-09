@@ -12,10 +12,10 @@ class Article
         $this->tags = $tags;
     }
     public string $title;
-    public string $image_small;
-    public string $image_large;
-    public string $image_alt;
-    public string $image_title;
+    public ?string $image_small;
+    public ?string $image_large;
+    public ?string $image_alt;
+    public ?string $image_title;
     public string $content;
     public array $tags;
 }

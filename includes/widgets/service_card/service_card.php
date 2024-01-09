@@ -1,13 +1,15 @@
 <div class="service-card-widget">
     <div class="is-hidden-tablet" id="mobile">
         <div class="flex-row">
-            <div class="image">
-                <picture>
-                    <source media="(max-width: 799px)" srcset="<?php echo $service->image_small ?>">
-                    <source media="(min-width: 800px)" srcset="<?php echo $service->image_large ?>">
-                    <img src="<?php echo $service->image_large ?>" alt="<?php echo $service->image_alt ?>" title="<?php echo $service->image_title ?>" width="102" height="102" />
-                </picture>
-            </div>
+            <?php if (isset($service->image_large) && isset($service->image_small)) { ?>
+                <div class="image">
+                    <picture>
+                        <source media="(max-width: 799px)" srcset="<?php echo $service->image_small ?>">
+                        <source media="(min-width: 800px)" srcset="<?php echo $service->image_large ?>">
+                        <img src="<?php echo $service->image_large ?>" alt="<?php echo $service->image_alt ?>" title="<?php echo $service->image_title ?>" width="102" height="102" />
+                    </picture>
+                </div>
+            <?php } ?>
             <div class="ml-m">
                 <h3 class="h200">
                     <?php echo $service->title ?>

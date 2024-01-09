@@ -1,10 +1,12 @@
 <div class="service-card-big-widget">
     <div class="service-card-image">
-        <picture>
-            <source media="(max-width: 799px)" srcset="<?php echo $service->image_small ?>">
-            <source media="(min-width: 800px)" srcset="<?php echo $service->image_large ?>">
-            <img src="<?php echo $image_large ?>" alt="<?php echo $service->image_alt ?>" title="<?php echo $service->image_title ?>" width="872" height="456" />
-        </picture>
+        <?php if (isset($service->image_small) && isset($service->image_large)) { ?>
+            <picture>
+                <source media="(max-width: 799px)" srcset="<?php echo $service->image_small ?>">
+                <source media="(min-width: 800px)" srcset="<?php echo $service->image_large ?>">
+                <img src="<?php echo $image_large ?>" alt="<?php echo $service->image_alt ?>" title="<?php echo $service->image_title ?>" width="872" height="456" />
+            </picture>
+        <?php } ?>
     </div>
     <div class="service-card-big-content">
         <div class="service-card-title"><?php echo $service->title ?></div>
