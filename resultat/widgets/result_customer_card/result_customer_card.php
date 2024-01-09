@@ -18,15 +18,15 @@
                 <div class="p200 l10n">Ålder</div>
                 <div class="mt-xxs h200"><?php echo $result_customer->age ?></div>
             </div>
-            <div>
+            <div class="ml-xxl">
                 <div class="p200 l10n">Kön</div>
                 <div class="mt-xxs h200"><?php echo $result_customer->gender ?></div>
             </div>
-            <div>
+            <div class="ml-xxl">
                 <div class="p200 l10n">Problem</div>
                 <div class="mt-xxs h200"><?php echo $result_customer->problem ?></div>
             </div>
-            <div>
+            <div class="ml-xxl">
                 <div class="p200 l10n">Typ</div>
                 <div class="mt-xxs h200"><?php echo $result_customer->type ?></div>
             </div>
