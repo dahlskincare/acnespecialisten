@@ -1,8 +1,12 @@
 <div class="brand-card-widget">
-  <img class="bc-img-background" src="<?php echo $brand->photo ?>" alt="<?php echo $brand->image_alt ?>" title="<?php echo $brand->image_title ?>" width="424" height="324">
+  <a href="<?php echo $brand->url ?>" class="l10n" title="Läs mer">
+    <img class="bc-img-background" src="<?php echo $brand->photo ?>" alt="<?php echo $brand->image_alt ?>" title="<?php echo $brand->image_title ?>" width="424" height="324">
+  </a>
   <div class="bc-content">
     <div class="flex-row justify-end">
-      <img src="<?php echo $brand->image ?>" class="overlay" alt="<?php echo $brand->image_alt ?>" title="<?php echo $brand->image_title ?>" width="116" height="80">
+      <div class="overlay">
+        <img src="<?php echo $brand->image ?>" alt="<?php echo $brand->image_alt ?>" title="<?php echo $brand->image_title ?>">
+      </div>
     </div>
     <div class="subtitle"><?php echo $brand->subtitle ?></div>
     <div class="title"><?php echo $brand->title ?></div>
