@@ -13,24 +13,25 @@ div.article-widget {
 
     div.article-tags {
         display: flex;
-        flex-wrap: wrap;
+        justify-content: space-between;
 
         div.article-tag {
             margin-top: $xl;
-            flex: 1 0 50%;
-            display: flex;
-            align-items: center;
+            text-align: center;
 
             .icon {
-                margin-right: $s;
-                width: $xxl;
-                height: $xxl;
+                height: $xl4;
             }
 
-            @include desktop {
-                flex: 0;
+        }
+
+        @include desktop {
+            justify-content: flex-start;
+
+            div.article-tag {
                 margin-right: $xxl;
             }
+
         }
     }
 

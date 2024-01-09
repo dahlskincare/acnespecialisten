@@ -8,7 +8,7 @@
                 <div class="trivia-icon">
                     <?php
                     icon($icon);
-                    echo '<span>' . $label . '</span>';
+                    echo '<div>' . $label . '</div>';
                     ?>
                 </div>
             <?php } ?>
