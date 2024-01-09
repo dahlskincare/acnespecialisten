@@ -4,6 +4,7 @@
 @import "util/sizes";
 @import "util/colors";
 @import "util/mixins";
+@import "hamburger";
 
 $mobile-nav-width: 350px;
 $large-header-height: 72px;
@@ -58,6 +59,7 @@ html {
                     color: $white-500;
                     text-decoration: underline;
                 }
+
             }
 
             #header-small {
@@ -287,6 +289,8 @@ html {
             nav {
                 background-color: $white-500;
                 overflow: hidden;
+                opacity: 0;
+                transition: opacity 200ms ease;
 
                 .container {
                     #desktop-nav-overlay-content {
@@ -356,6 +360,10 @@ html {
         div#desktop-nav-overlay.active {
             background-color: rgba(0, 0, 0, 0.5);
             width: 100%;
+
+            nav {
+                opacity: 1;
+            }
         }
 
         main {

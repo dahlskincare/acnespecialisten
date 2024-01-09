@@ -23,6 +23,9 @@ namespace HeaderTouch {
 
 namespace HeaderDesktop {
     export function toggleMenu() {
+        const button = document.querySelector('#hamburger-button');
+        button.classList.toggle('active');
+        button.classList.toggle('not-active');
         const overlay = document.querySelector('#desktop-nav-overlay');
         if (overlay.classList.contains('active')) {
             overlay.classList.remove('active');

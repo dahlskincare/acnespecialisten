@@ -146,7 +146,13 @@
             <div id="actions">
                 <a class="button text l10n" href="gratis-hudkonsultation.php" title="Boka gratis konsultation">Boka gratis konsultation</a>
                 <div onclick="HeaderDesktop.toggleMenu()">
-                    <?php icon("bars") ?>
+                    <div id="hamburger">
+                        <div class="btn not-active" id="hamburger-button">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

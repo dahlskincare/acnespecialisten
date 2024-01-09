@@ -26,6 +26,9 @@ var HeaderTouch;
 var HeaderDesktop;
 (function (HeaderDesktop) {
     function toggleMenu() {
+        var button = document.querySelector('#hamburger-button');
+        button.classList.toggle('active');
+        button.classList.toggle('not-active');
         var overlay = document.querySelector('#desktop-nav-overlay');
         if (overlay.classList.contains('active')) {
             overlay.classList.remove('active');
