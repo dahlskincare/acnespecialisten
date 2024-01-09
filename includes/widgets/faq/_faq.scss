@@ -60,6 +60,16 @@
                 span {
                     pointer-events: none;
                 }
+
+                .icon-expand {
+                    transition: transform 0.2s ease-in-out;
+                }
+            }
+
+            .faq-question-header.expanded {
+                .icon-expand {
+                    transform: rotate(-180deg);
+                }
             }
 
             .faq-question-content {
@@ -134,6 +144,15 @@
 
                     span.icon {
                         margin-left: $s;
+                        transition: transform 0.2s ease-in-out;
+                    }
+
+
+                }
+
+                .faq-question-header.expanded {
+                    .icon-expand {
+                        transform: rotate(-180deg);
                     }
                 }
 
