@@ -17,7 +17,7 @@
             <?php foreach ($article->tags as $tag) { ?>
                 <div class="article-tag">
                     <?php icon($tag->icon) ?>
-                    <span class="h200"><?php echo $tag->label ?></span>
+                    <div class="h200"><?php echo $tag->label ?></div>
                 </div>
             <?php } ?>
         </div>
