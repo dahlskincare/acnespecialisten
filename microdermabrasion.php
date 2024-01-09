@@ -26,7 +26,7 @@ $model = new Service(
     booking_url_title: 'Boka tid för behandling',
     procedures: array(
         new Procedure(
-            label: '1 procedure',
+            label: '1 behandling',
             price: '2595 kr',
             savings: null,
             booking_url: 'https://acnespecialisten.se/book?flow=microdermabrasion&area=Microdermabrasion_1xArea&procedures=PriceClass_5_Procedure_1',
@@ -34,7 +34,7 @@ $model = new Service(
             booking_url_title: 'Boka tid för behandling'
         ),
         new Procedure(
-            label: '3 procedures',
+            label: '3 behandlingar',
             price: '3995 kr',
             savings: 'Spara 790 kr',
             booking_url: 'https://acnespecialisten.se/book?flow=microdermabrasion&area=Microdermabrasion_1xArea&procedures=PriceClass_5_Procedure_3',
@@ -42,7 +42,7 @@ $model = new Service(
             booking_url_title: 'Boka tid för behandling'
         ),
         new Procedure(
-            label: '5 procedures',
+            label: '5 behandlingar',
             price: '5995 kr',
             savings: 'Spara 1980 kr',
             booking_url: 'https://acnespecialisten.se/book?flow=microdermabrasion&area=Microdermabrasion_1xArea&procedures=PriceClass_5_Procedure_5',

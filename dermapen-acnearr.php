@@ -3,9 +3,9 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Dermapen - Effektiv hudföryngring | Acnespecialisten';
-$seo_description = 'Upptäck AcneSpecialistens Dermapen-behandlingar, den ledande tekniken inom hudföryngring som aktivt bekämpar åldrande och texturförändringar. Med expertis och skräddarsydda behandlingsprogram, stimulerar vi din hud att självläka och återfå sin spänst och lyster.';
-$seo_keywords = 'Dermapen, hudföryngring, behandla texturförändringar, reducera ålderslinjer, stimulera kollagen, hudförbättring, förfinad hudstruktur, jämna ut hudton, öka hudens elasticitet, föryngra huden';
+$seo_title = 'Dermapen mot Acneärr - Effektiv Behandling | Acnespecialisten';
+$seo_description = 'Upptäck kraften i AcneSpecialistens Dermapen-behandlingar för acneärr. Denna banbrytande teknik effektiviserar hudens återhämtning, minskar synligheten av acneärr och förbättrar hudens övergripande textur. Genom att stimulera hudens naturliga kollagenproduktion, bidrar våra skräddarsydda behandlingar till att återskapa en slät och jämn hudton.';
+$seo_keywords = 'Dermapen, behandling av acneärr, hudåterhämtning, reducera acneärr, stimulera kollagen, förbättrad hudtextur, slät hudton, kollagenproduktion, hudförfining, microneedling';
 
 $seo_image = 'images/treatments/large/dermapen.jpg';
 
@@ -20,9 +20,9 @@ $model = new Service(
     image_alt: 'Dermapen',
     image_title: 'Dermapen',
     consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Dermapen',
-    consultation_url_label: 'Boka hudkonsultation',
-    consultation_url_title: 'Boka hudkonsultation',
-    booking_url: 'https://acnespecialisten.se/book?flow=dermapen',
+    consultation_url_label: 'Boka konsultation',
+    consultation_url_title: 'Boka konsultation',
+    booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_AcneScars',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka behandling',
     procedures: array(
@@ -30,30 +30,30 @@ $model = new Service(
             label: '1 behandling',
             price: '2595 kr',
             savings: null,
-            booking_url: 'https://bokadirekt.se',
-            booking_url_label: 'Boka tid för behandling',
-            booking_url_title: 'Boka tid för behandling'
+            booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_AcneScars&area=Microneedling_Face&procedures=PriceClass_5_Procedure_1',
+            booking_url_label: 'Boka behandling',
+            booking_url_title: 'Boka behandling'
         ),
         new Procedure(
             label: '3 behandlingar',
             price: '6995 kr',
             savings: 'Spara 790 kr',
-            booking_url: 'https://bokadirekt.se',
-            booking_url_label: 'Boka tid för behandling',
-            booking_url_title: 'Boka tid för behandling'
+            booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_AcneScars&area=Microneedling_Face&procedures=PriceClass_5_Procedure_3',
+            booking_url_label: 'Boka behandling',
+            booking_url_title: 'Boka behandling'
         ),
         new Procedure(
             label: '5 behandlingar',
             price: '9995 kr',
             savings: 'Spara 2980 kr',
-            booking_url: 'https://bokadirekt.se',
-            booking_url_label: 'Boka tid för behandling',
-            booking_url_title: 'Boka tid för behandling'
+            booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_AcneScars&area=Microneedling_Face&procedures=PriceClass_5_Procedure_5',
+            booking_url_label: 'Boka behandling',
+            booking_url_title: 'Boka behandling'
         )
     ),
 );
 
-$floating_box = 'Effektiv nålbehandling som förbättrar hudens struktur.';
+$floating_box = 'Behandlar och reducerar acneärr.';
 
 $nav_buttons = array(
     'about' => 'Om dermapen mot acneärr',
@@ -67,46 +67,45 @@ $nav_buttons = array(
 );
 
 $description_title = 'Vad är Dermapen mot acneärr?';
-$description_text = '<p class="p200">Klassiska ansiktsbehandlingar är en grundsten inom hudvård och erbjuder en upplevelse av avkoppling samtidigt som huden får den vård den behöver. Behandlingarna går ut på att rengöra, återfukta, balansera och revitalisera huden, samt att hantera specifika hudproblem.</p>
-<p class="p200 mt-m">Hos oss på AcneSpecialisten kan du välja mellan flera typer av klassiska ansiktsbehandlingar. Vi erbjuder allt från den traditionella Klassisk ansiktsbehandling till Antistress, där fokus ligger på avslappning. Hudterapeutens val anpassas helt efter dina behov, medan Peel, Boost & Glow siktar på att ge huden en extra boost. För den som vill ha det lilla extra erbjuder vi Lyx behandlingen. Oavsett vilken behandling du väljer, är vårt mål att ge din hud den bästa möjliga omsorgen.</p>';
+$description_text = '<p class="p200">Dermapen mot acneärr är en avancerad behandlingsmetod som använder mikronålar för att stimulera hudens naturliga läkningsprocess och kollagenproduktion. Genom att skapa mikroskopiska punkteringar i huden, uppmuntrar Dermapen till ny celltillväxt och reparation, vilket effektivt minskar synligheten av acneärr.</p>
+<p class="p200 mt-m">På AcneSpecialisten erbjuder vi Dermapen-behandlingar anpassade för att behandla olika typer av acneärr. Behandlingen är skonsam men effektiv och kan anpassas för att möta dina individuella hudvårdsbehov. Efter behandlingar med Dermapen kan du förvänta dig en jämnare hudton, förbättrad hudtextur och en övergripande förfining av ditt hudutseende. Vår målsättning är att hjälpa dig att uppnå en slätare och mer strålande hud, fri från tecken på tidigare acne.</p>';
 
-$types_title = 'Våra klassiska ansiktsbehandlingar';
-$types_description = 'Här hittar du vårt utbud av klassiska ansiktsbehandlingar.';
+$types_title = '';
+$types_description = '';
 $big_types = array(
     new Service(
-        title: 'Klassisk',
-        duration: '60 min',
+        title: 'Dermapen mot Acneärr',
+        duration: '50 min',
         price: null,
-        content: '<p class="p200">Vår klassiska ansiktsbehandling är idealisk för alla, oavsett hudtyp. Den rengör, vårdar och återfuktar huden för att ge den ny lyster. Behandlingsprocessen inleds med rengöring, följt av en exfoliering som tar bort döda hudceller. Efter en varsam ångprocess som öppnar porerna, utför vi en försiktig porrengöring och brynplockning. Slutligen appliceras en närande ansiktsmask och en återfuktande dagkräm, skräddarsydd för just din hud.</p>',
+        content: '<p class="p200">Dermapen mot acneärr börjar med en skonsam rengöring, följt av en mikronålsbehandling som stimulerar hudens läkning och kollagenproduktion. Denna process minskar synligen acneärr och förbättrar hudtexturen. Efter behandlingen appliceras en lugnande kräm för att minska eventuell rodnad eller ömhet och främja läkning. Resultatet är en slätare hudton och en minskad synlighet av ärr.</p>',
         image_small: 'https://via.placeholder.com/358x274.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Klassisk',
-        image_title: 'Klassisk',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation',
-        consultation_url_label: 'Boka hudkonsultation',
-        consultation_url_title: 'Boka hudkonsultation',
-        booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Classic',
+        image_alt: 'Dermapen mot Acneärr',
+        image_title: 'Dermapen mot Acneärr',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Dermapen',
+        consultation_url_label: 'Boka konsultation',
+        consultation_url_title: 'Boka konsultation',
+        booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_AcneScars',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka behandling',
-        icons: array('rengoring' => 'Rengöring', 'anga' => 'Ånga', 'extraktion' => 'Extraktion', 'mask' => 'Mask'),
         procedures: array(
             new Procedure(
                 label: '1 behandling',
-                price: '995 kr',
+                price: '2595 kr',
                 savings: null,
-                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Classic&procedures=PriceClass_1_Procedure_1'
+                booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_AcneScars&area=Microneedling_Face&procedures=PriceClass_5_Procedure_1'
             ),
             new Procedure(
                 label: '3 behandlingar',
-                price: '2595 kr',
-                savings: '865 kr per besök',
-                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Classic&procedures=PriceClass_1_Procedure_3'
+                price: '6995 kr',
+                savings: 'Spara 790 kr',
+                booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_AcneScars&area=Microneedling_Face&procedures=PriceClass_5_Procedure_3'
             ),
             new Procedure(
                 label: '5 behandlingar',
-                price: '2595 kr',
-                savings: '799 kr per besök',
-                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Classic&procedures=PriceClass_1_Procedure_5'
+                price: '9995 kr',
+                savings: 'Spara 2980 kr',
+                booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_AcneScars&area=Microneedling_Face&procedures=PriceClass_5_Procedure_5'
             )
         )
     ),
@@ -252,7 +251,7 @@ $faq_categories = array(
             text: 'Antalet behandlingar kan variera beroende på individens hudtyp och hudens tillstånd. Generellt rekommenderas en serie av behandlingar för bästa möjliga resultat och sedan underhållsbehandlingar för långsiktig effekt.'
         ),
         new Question(
-            title: 'Hur ofta ska jag boka en klassisk ansiktsbehandling?',
+            title: 'Hur ofta ska jag boka en ansiktsbehandling?',
             text: 'För att upprätthålla resultat och hudens hälsa, rekommenderar vi en klassisk ansiktsbehandling var fjärde till sjätte vecka. Det kan justeras beroende på personliga behov och hudens tillstånd.'
         ),
         new Question(
