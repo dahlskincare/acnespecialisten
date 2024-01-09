@@ -13,6 +13,12 @@ $seo_keywords = 'akne, aknebehandling, orsaker till akne, förebygga akne, ta bo
 
 $seo_image = 'bilder/problem/424x456/akne.webp';
 
+
+$path_segments = array(
+      new PathSegment('Problem', '/problem'),
+      new PathSegment('Akne', '/problem/akne'),
+);
+
 $title = 'Akne';
 
 $image_small = 'bilder/problem/424x324/akne.webp';
