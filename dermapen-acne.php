@@ -77,7 +77,7 @@ $big_types = array(
         title: 'Dermapen mot Acne',
         duration: '50 min',
         price: null,
-        content: '<p class="p200">Dermapen mot acneärr börjar med en skonsam rengöring, följt av en mikronålsbehandling som stimulerar hudens läkning och kollagenproduktion. Denna process minskar synligen acneärr och förbättrar hudtexturen. Efter behandlingen appliceras en lugnande kräm för att minska eventuell rodnad eller ömhet och främja läkning. Resultatet är en slätare hudton och en minskad synlighet av ärr.</p>',
+        content: '<p class="p200">Dermapen mot acne innebär en skonsam rengöring följt av mikronålsbehandling som stimulerar hudens naturliga läkningsprocess och kollagenproduktion. Denna metod är effektiv för att minska acne och förbättra hudens textur. Efter behandlingen appliceras en lugnande kräm för att minska rodnad och främja läkning. Resultatet är en klarare hudton och minskade acneutbrott.</p>',
         image_small: 'https://via.placeholder.com/358x274.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
         image_alt: 'Dermapen mot Acneärr',
