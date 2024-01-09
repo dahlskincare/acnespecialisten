@@ -15,8 +15,8 @@ $seo_image = 'images/treatments/large/hudforandringar.jpg';
 
 $title = 'Behandling av Blodprickar';
 
-$image_small = 'bilder/problem/424x324/hudforandringar.webp';
-$image_large = 'bilder/problem/424x456/hudforandringar.webp';
+$image_small = 'bilder/problem/424x324/blodprickar.webp';
+$image_large = 'bilder/problem/424x456/blodprickar.webp';
 $image_title = 'Effektiv behandling av blodprickar';
 $image_alt = 'Bild som illustrerar behandling av blodprickar';
 $description = 'Blodprickar, även kända som cherry angiomas, är små, röda hudförändringar som ofta uppkommer med åldern. I detta avsnitt förklarar vi hur blodprickar uppstår och de mest effektiva behandlingsmetoderna för att ta bort dem. På Acnespecialisten använder vi avancerade tekniker för att säkert och effektivt behandla blodprickar, vilket ger dig en jämnare och klarare hudton.';
