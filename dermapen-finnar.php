@@ -3,15 +3,15 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Dermapen mot Acne - Avancerad Behandling | Acnespecialisten';
-$seo_description = 'Upptäck effektiviteten i AcneSpecialistens Dermapen-behandlingar för acne. Denna innovativa teknik hjälper till att bekämpa aktiv acne genom att främja hudens läkning och reducera inflammation. Genom att stimulera kollagenproduktionen och hudens naturliga reparationsprocesser, hjälper Dermapen-behandlingar till att minska utbrott och förbättra hudens klarhet och hälsa.';
-$seo_keywords = 'Dermapen, acnebehandling, hudläkning, bekämpa acne, kollagenstimulering, hudhälsa, minska inflammation, förbättrad hudklarhet, microneedling, hudreparation';
+$seo_title = 'Dermapen mot Finnar - Effektiv Acnebehandling | Acnespecialisten';
+$seo_description = 'Acnespecialisten presenterar Dermapen som en revolutionerande behandling för finnar. Denna metod bekämpar effektivt finnar genom att stimulera hudens egen läkningsförmåga och minska inflammation. Dermapen främjar kollagenproduktion och hudens reparationsmekanismer, vilket hjälper till att minska finnar och förbättra hudens klarhet och övergripande hälsa.';
+$seo_keywords = 'Dermapen, finnar, acnebehandling, hudläkning, reducera finnar, kollagenproduktion, hudhälsa, inflammation, klar hud, microneedling, hudåterhämtning';
 
 $seo_image = 'images/treatments/large/dermapen.jpg';
 
 
 $model = new Service(
-    title: 'Dermapen mot acne',
+    title: 'Dermapen mot finnar',
     duration: null,
     price: 'Från 2332 kr',
     content: '',
@@ -53,10 +53,10 @@ $model = new Service(
     ),
 );
 
-$floating_box = 'Behandlar och reducerar acne.';
+$floating_box = 'Behandlar och reducerar finnar.';
 
 $nav_buttons = array(
-    'about' => 'Om dermapen mot acne',
+    'about' => 'Om dermapen mot finnare',
     'types' => 'Typer',
     'results' => 'Resultat',
     'reviews' => 'Omdömen',
@@ -66,22 +66,22 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Vad är Dermapen mot acne?';
-$description_text = '<p class="p200">Dermapen mot acne är en innovativ behandlingsmetod som använder mikronålar för att aktivt bekämpa acne och förbättra hudens övergripande hälsa. Genom att skapa mikroskopiska punkteringar i huden stimulerar Dermapen hudens naturliga läkningsprocess och hjälper till att reducera inflammation och utbrott av acne.</p>
-<p class="p200 mt-m">På AcneSpecialisten erbjuder vi Dermapen-behandlingar anpassade för att effektivt hantera både aktiv acne och förebygga framtida utbrott. Behandlingen är skonsam och kan anpassas efter din specifika hudtyp och acne-problem. Efter behandlingar med Dermapen kan du se fram emot en klarare hudton, minskade utbrott och en förbättrad hudkvalitet. Vårt mål är att ge dig en hälsosam och balanserad hud med hjälp av denna avancerade teknik.</p>';
+$description_title = 'Vad är Dermapen mot finnar?';
+$description_text = '<p class="p200">Dermapen mot finnar är en framstående behandlingsmetod som använder mikronålar för att direkt bekämpa finnar och förbättra hudens tillstånd. Denna teknik skapar små punkteringar i huden, vilket stimulerar hudens egen läkningsprocess och bidrar till att minska inflammation samt förebygga nya finnar.</p>
+<p class="p200 mt-m">Hos AcneSpecialisten anpassar vi Dermapen-behandlingar för att effektivt behandla och kontrollera finnar. Denna skonsamma, men kraftfulla metod är lämplig för olika hudtyper och acne-tillstånd. Genom behandlingarna med Dermapen kan du förvänta dig en märkbar förbättring av din hud, med en klarare hudton och minskade finnar. Vårt mål är att hjälpa dig uppnå en frisk och jämn hud, och vi är dedikerade till att erbjuda den bästa möjliga vård för dina specifika hudbehov.</p>';
 
 $types_title = '';
 $types_description = '';
 $big_types = array(
     new Service(
-        title: 'Dermapen mot Acne',
+        title: 'Dermapen mot finnar',
         duration: '50 min',
         price: null,
-        content: '<p class="p200">Dermapen mot acne innebär en skonsam rengöring följt av mikronålsbehandling som stimulerar hudens naturliga läkningsprocess och kollagenproduktion. Denna metod är effektiv för att minska acne och förbättra hudens textur. Efter behandlingen appliceras en lugnande kräm för att minska rodnad och främja läkning. Resultatet är en klarare hudton och minskade acneutbrott.</p>',
+        content: '<p class="p200">Dermapen mot finnar startar med en försiktig rengöring, följd av mikronålsbehandling som aktiverar hudens egen reparationsförmåga och kollagenproduktion. Denna teknik är särskilt effektiv för att reducera finnar och förbättra hudstrukturen. Efter behandlingen appliceras en lugnande kräm för att mildra eventuell rodnad och understödja läkningsprocessen. Resultatet blir en friskare hudton och en synlig minskning av finnar.</p>',
         image_small: 'https://via.placeholder.com/358x274.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Dermapen mot Acneärr',
-        image_title: 'Dermapen mot Acneärr',
+        image_alt: 'Dermapen mot finnar',
+        image_title: 'Dermapen mot finnar',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Dermapen',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka konsultation',

@@ -3,15 +3,15 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Dermapen mot Acne - Avancerad Behandling | Acnespecialisten';
-$seo_description = 'Upptäck effektiviteten i AcneSpecialistens Dermapen-behandlingar för acne. Denna innovativa teknik hjälper till att bekämpa aktiv acne genom att främja hudens läkning och reducera inflammation. Genom att stimulera kollagenproduktionen och hudens naturliga reparationsprocesser, hjälper Dermapen-behandlingar till att minska utbrott och förbättra hudens klarhet och hälsa.';
-$seo_keywords = 'Dermapen, acnebehandling, hudläkning, bekämpa acne, kollagenstimulering, hudhälsa, minska inflammation, förbättrad hudklarhet, microneedling, hudreparation';
+$seo_title = 'Dermapen mot Stora Porer - Förfinad Hudstruktur | Acnespecialisten';
+$seo_description = 'Utforska effekten av AcneSpecialistens Dermapen-behandlingar för att minska stora porer. Genom att använda mikronålsteknik stimulerar vi hudens kollagenproduktion och förbättrar hudtexturen, vilket bidrar till att göra stora porer mindre framträdande och ger huden en jämnare och mer raffinerad utseende.';
+$seo_keywords = 'Dermapen, behandling av stora porer, minska porer, förbättrad hudstruktur, jämn hudton, stimulera kollagen, hudföryngring, mikroneedling, hudförfining, porminskning';
 
 $seo_image = 'images/treatments/large/dermapen.jpg';
 
 
 $model = new Service(
-    title: 'Dermapen mot acne',
+    title: 'Dermapen mot stora porer',
     duration: null,
     price: 'Från 2332 kr',
     content: '',
@@ -22,7 +22,7 @@ $model = new Service(
     consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Dermapen',
     consultation_url_label: 'Boka konsultation',
     consultation_url_title: 'Boka konsultation',
-    booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_Acne',
+    booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_LargePores',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka behandling',
     procedures: array(
@@ -30,7 +30,7 @@ $model = new Service(
             label: '1 behandling',
             price: '2595 kr',
             savings: null,
-            booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_Acne&area=Microneedling_Face&procedures=PriceClass_5_Procedure_1',
+            booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_LargePores&area=EMPTY&procedures=PriceClass_5_Procedure_1',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Boka behandling'
         ),
@@ -38,7 +38,7 @@ $model = new Service(
             label: '3 behandlingar',
             price: '6995 kr',
             savings: 'Spara 790 kr',
-            booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_Acne&area=Microneedling_Face&procedures=PriceClass_5_Procedure_3',
+            booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_LargePores&area=EMPTY&procedures=PriceClass_5_Procedure_3',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Boka behandling'
         ),
@@ -46,17 +46,17 @@ $model = new Service(
             label: '5 behandlingar',
             price: '9995 kr',
             savings: 'Spara 2980 kr',
-            booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_Acne&area=Microneedling_Face&procedures=PriceClass_5_Procedure_5',
+            booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_LargePores&area=EMPTY&procedures=PriceClass_5_Procedure_5',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Boka behandling'
         )
     ),
 );
 
-$floating_box = 'Behandlar och reducerar acne.';
+$floating_box = 'Behandlar och reducerar stora porer.';
 
 $nav_buttons = array(
-    'about' => 'Om dermapen mot acne',
+    'about' => 'Om dermapen mot stora porer',
     'types' => 'Typer',
     'results' => 'Resultat',
     'reviews' => 'Omdömen',
@@ -66,26 +66,27 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Vad är Dermapen mot acne?';
-$description_text = '<p class="p200">Dermapen mot acne är en innovativ behandlingsmetod som använder mikronålar för att aktivt bekämpa acne och förbättra hudens övergripande hälsa. Genom att skapa mikroskopiska punkteringar i huden stimulerar Dermapen hudens naturliga läkningsprocess och hjälper till att reducera inflammation och utbrott av acne.</p>
-<p class="p200 mt-m">På AcneSpecialisten erbjuder vi Dermapen-behandlingar anpassade för att effektivt hantera både aktiv acne och förebygga framtida utbrott. Behandlingen är skonsam och kan anpassas efter din specifika hudtyp och acne-problem. Efter behandlingar med Dermapen kan du se fram emot en klarare hudton, minskade utbrott och en förbättrad hudkvalitet. Vårt mål är att ge dig en hälsosam och balanserad hud med hjälp av denna avancerade teknik.</p>';
+$description_title = 'Vad är Dermapen mot stora porer?';
+$description_text = '<p class="p200">Dermapen mot stora porer är en effektiv behandlingsmetod som använder mikronålar för att förfina hudens textur och minska synligheten av stora porer. Genom att skapa fina punkteringar i huden, stimulerar Dermapen hudens förmåga att självläka och ökar kollagenproduktionen, vilket leder till en stramare och jämnare hudstruktur.</p>
+<p class="p200 mt-m">På AcneSpecialisten erbjuder vi skräddarsydda Dermapen-behandlingar för att effektivt minska stora porer och förbättra hudens övergripande utseende. Denna behandling är idealisk för att ge huden en mer jämn och förfinad ton. Genom regelbundna behandlingar kan du förvänta dig en tydlig förbättring av hudens kvalitet, med mindre och mindre synliga porer. Vårt mål är att erbjuda dig den bästa lösningen för en slätare och mer enhetlig hud.</p>';
+
 
 $types_title = '';
 $types_description = '';
 $big_types = array(
     new Service(
-        title: 'Dermapen mot Acne',
+        title: 'Dermapen mot stora porer',
         duration: '50 min',
         price: null,
-        content: '<p class="p200">Dermapen mot acne innebär en skonsam rengöring följt av mikronålsbehandling som stimulerar hudens naturliga läkningsprocess och kollagenproduktion. Denna metod är effektiv för att minska acne och förbättra hudens textur. Efter behandlingen appliceras en lugnande kräm för att minska rodnad och främja läkning. Resultatet är en klarare hudton och minskade acneutbrott.</p>',
+        content: '<p class="p200">Dermapen mot stora porer inleds med en försiktig rengöring, följd av mikronålsbehandling som aktiverar hudens naturliga reparationsprocess och kollagenproduktion. Denna behandling är särskilt effektiv för att minska synligheten av stora porer och förbättra hudens yta. Efter behandlingen appliceras en lugnande kräm som hjälper till att reducera eventuell rodnad och stödja hudens återhämtning. Det slutgiltiga resultatet är en finare och jämnare hudstruktur med mindre framträdande porer.</p>',
         image_small: 'https://via.placeholder.com/358x274.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Dermapen mot Acne',
-        image_title: 'Dermapen mot Acne',
+        image_alt: 'Dermapen mot stora porer',
+        image_title: 'Dermapen mot stora porer',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Dermapen',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka konsultation',
-        booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_AcneScars',
+        booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_LargePores',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka behandling',
         procedures: array(
@@ -93,19 +94,19 @@ $big_types = array(
                 label: '1 behandling',
                 price: '2595 kr',
                 savings: null,
-                booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_Acne&area=Microneedling_Face&procedures=PriceClass_5_Procedure_1'
+                booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_LargePores&area=EMPTY&procedures=PriceClass_5_Procedure_1'
             ),
             new Procedure(
                 label: '3 behandlingar',
                 price: '6995 kr',
                 savings: 'Spara 790 kr',
-                booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_Acne&area=Microneedling_Face&procedures=PriceClass_5_Procedure_3'
+                booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_LargePores&area=EMPTY&procedures=PriceClass_5_Procedure_3'
             ),
             new Procedure(
                 label: '5 behandlingar',
                 price: '9995 kr',
                 savings: 'Spara 2980 kr',
-                booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_Acne&area=Microneedling_Face&procedures=PriceClass_5_Procedure_5'
+                booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_LargePores&area=EMPTY&procedures=PriceClass_5_Procedure_5'
             )
         )
     ),
