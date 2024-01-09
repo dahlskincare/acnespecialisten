@@ -37,7 +37,6 @@ $based_type_categories = array(
                 image_title: 'Vuxenakne',
                 title: 'Vuxenakne',
                 subtitle: 'Also called scars stains',
-                content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>',
             ),
             new BasedType(
                 url: 'problem/akne/typer/teen-acne',
@@ -47,7 +46,6 @@ $based_type_categories = array(
                 image_title: 'Teen acne',
                 title: 'Teen acne',
                 subtitle: 'Also called scars stains',
-                content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>',
             ),
             new BasedType(
                 url: 'problem/akne/typer/barnakne',
@@ -57,7 +55,6 @@ $based_type_categories = array(
                 image_title: 'Kids acne',
                 title: 'Kids acne',
                 subtitle: 'Also called scars stains',
-                content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>',
             ),
         )
     ),
@@ -73,7 +70,6 @@ $based_type_categories = array(
                 image_title: 'Comedones',
                 title: 'Comedones',
                 subtitle: 'Also called scars stains',
-                content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
             ),
             new BasedType(
                 url: 'problem/akne/typer/pimples',
@@ -83,7 +79,6 @@ $based_type_categories = array(
                 image_title: 'Pimples',
                 title: 'Pimples',
                 subtitle: 'Also called scars stains',
-                content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
             ),
             new BasedType(
                 url: 'problem/akne/typer/cystic-acne',
@@ -93,7 +88,6 @@ $based_type_categories = array(
                 image_title: 'Cystic acne',
                 title: 'Cystic acne',
                 subtitle: 'Also called scars stains',
-                content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
             ),
             new BasedType(
                 url: 'problem/akne/typer/acne-conblogata',
@@ -103,7 +97,6 @@ $based_type_categories = array(
                 image_title: 'Acne conblogata',
                 title: 'Acne conblogata',
                 subtitle: 'Also called scars stains',
-                content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
             )
         )
     ),
@@ -119,7 +112,6 @@ $based_type_categories = array(
                 image_title: 'Mallorca acne',
                 title: 'Mallorca acne',
                 subtitle: 'Also called scars stains',
-                content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
             ),
             new BasedType(
                 url: 'problem/akne/typer/hormonal-acne',
@@ -129,7 +121,6 @@ $based_type_categories = array(
                 image_title: 'Hormonal acne',
                 title: 'Hormonal acne',
                 subtitle: 'Also called scars stains',
-                content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
             ),
             new BasedType(
                 url: 'problem/akne/typer/cosmetic-acne',
@@ -139,7 +130,6 @@ $based_type_categories = array(
                 image_title: 'Cosmetic acne',
                 title: 'Cosmetic acne',
                 subtitle: 'Also called scars stains',
-                content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
             ),
             new BasedType(
                 url: 'problem/akne/typer/acne-exoriee',
@@ -149,7 +139,6 @@ $based_type_categories = array(
                 image_title: 'Acne exoriee',
                 title: 'Acne exoriee',
                 subtitle: 'Also called scars stains',
-                content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
             ),
             new BasedType(
                 url: 'problem/akne/typer/acne-mechanics',
@@ -159,7 +148,6 @@ $based_type_categories = array(
                 image_title: 'Acne mechanics',
                 title: 'Acne mechanics',
                 subtitle: 'Also called scars stains',
-                content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
             ),
             new BasedType(
                 url: 'problem/akne/typer/acne-medicamentosa',
@@ -169,7 +157,6 @@ $based_type_categories = array(
                 image_title: 'Acne medicamentosa',
                 title: 'Acne medicamentosa',
                 subtitle: 'Also called scars stains',
-                content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
             ),
             new BasedType(
                 url: 'problem/akne/typer/fungal-acne',
@@ -179,7 +166,6 @@ $based_type_categories = array(
                 image_title: 'Fungal acne',
                 title: 'Fungal acne',
                 subtitle: 'Also called scars stains',
-                content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
             )
         )
     ),
@@ -195,7 +181,6 @@ $based_type_categories = array(
                 image_title: 'Acne on face',
                 title: 'Acne on face',
                 subtitle: 'Also called scars stains',
-                content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
             ),
             new BasedType(
                 url: 'problem/akne/typer/acne-on-body',
@@ -205,7 +190,6 @@ $based_type_categories = array(
                 image_title: 'Acne on body',
                 title: 'Acne on body',
                 subtitle: 'Also called scars stains',
-                content: '<p class="p200">Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.</p>'
             )
         )
     )
