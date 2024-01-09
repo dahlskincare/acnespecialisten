@@ -9,12 +9,12 @@ $seo_title = 'Behandling av Födelsemärken - Skonsamma Metoder | Acnespecialist
 $seo_description = 'Acnespecialisten erbjuder expertis inom behandling av födelsemärken. Med våra skonsamma och avancerade metoder kan vi effektivt hantera och ta bort olika typer av födelsemärken, vilket bidrar till en mer enhetlig hudton och förbättrat hudutseende.';
 $seo_keywords = 'födelsemärken, behandling av födelsemärken, hudförändringar, jämna ut hudton, ta bort födelsemärken, hudvård, Acnespecialisten, effektiv behandling, hudhälsa';
 
-$seo_image = 'images/treatments/large/fodelsemarken.jpg';
+$seo_image = 'images/treatments/large/hudforandringar.jpg';
 
 $title = 'Behandling av Födelsemärken';
 
-$image_small = 'bilder/problem/424x324/fodelsemarken.webp';
-$image_large = 'bilder/problem/424x456/fodelsemarken.webp';
+$image_small = 'bilder/problem/424x324/hudforandringar.webp';
+$image_large = 'bilder/problem/424x456/hudforandringar.webp';
 $image_title = 'Skonsam och effektiv behandling av födelsemärken';
 $image_alt = 'Bild som illustrerar behandling av födelsemärken';
 $description = 'Födelsemärken är pigmenterade hudförändringar som kan variera i storlek, form och färg. Denna sida förklarar hur födelsemärken uppstår och de mest effektiva metoderna för att hantera dem. På Acnespecialisten använder vi skonsamma och avancerade tekniker för att säkert behandla födelsemärken, vilket hjälper till att förbättra hudens övergripande utseende och textur.';
