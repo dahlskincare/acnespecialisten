@@ -1,5 +1,5 @@
-<div class="service-category-card" id="card-<?php echo $category->id ?>">
-    <a href="behandlingar/<?php echo $category->id ?>" title="<?php echo $category->read_more_label ?>">
+<div class="service-category-card">
+    <a href="<?php echo $category->url ?>" title="<?php echo $category->read_more_label ?>">
         <picture>
             <source media="(max-width: 799px)" srcset="<?php echo $category->image_small ?>">
             <source media="(min-width: 800px)" srcset="<?php echo $category->image_large ?>">
@@ -21,13 +21,13 @@
             <?php echo $category->content ?>
         </p>
         <div class="is-hidden-tablet">
-            <a href="behandlingar/<?php echo $category->id ?>" class="mt-m button outline expand" title="<?php echo $category->read_more_label ?>"><?php echo $category->read_more_label ?></a>
+            <a href="<?php echo $category->url ?>" class="mt-m button outline expand" title="<?php echo $category->read_more_label ?>"><?php echo $category->read_more_label ?></a>
             <hr>
             <a href="<?php echo $category->consultation_url ?>" title="<?php echo $category->consultation_url_title ?>" class="button expand"><?php echo $category->consultation_url_label ?></a>
             <a href="<?php echo $category->booking_url ?>" title="<?php echo $category->booking_url_title ?>" class="mt-s button expand"><?php echo $category->booking_url_label ?></a>
         </div>
         <div class="is-hidden-mobile">
-            <a href="behandlingar/<?php echo $category->id ?>" class="mt-m button text compact" title="<?php echo $category->read_more_label ?>"><?php echo $category->read_more_label ?></a>
+            <a href="behandlingar/<?php echo $category->url ?>" class="mt-m button text compact" title="<?php echo $category->read_more_label ?>"><?php echo $category->read_more_label ?></a>
             <hr>
             <div class="columns is-multiline">
                 <div class="column mt-xxs is-full is-half-widescreen">

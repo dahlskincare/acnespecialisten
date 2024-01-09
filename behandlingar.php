@@ -15,9 +15,9 @@ class Treatment
 }
 class ServiceCategory
 {
-    public function __construct($id, $label, $content, $image_small, $image_large, $image_alt, $image_title, $services, $booking_url, $booking_url_title, $consultation_url, $consultation_url_title, $consultation_url_label = '', $booking_url_label = '', $read_more_label = 'Läs mer')
+    public function __construct($url, $label, $content, $image_small, $image_large, $image_alt, $image_title, $services, $booking_url, $booking_url_title, $consultation_url, $consultation_url_title, $consultation_url_label = '', $booking_url_label = '', $read_more_label = 'Läs mer')
     {
-        $this->id = $id;
+        $this->url = $url;
         $this->label = $label;
         $this->content = $content;
         $this->image_small = $image_small;
@@ -33,7 +33,7 @@ class ServiceCategory
         $this->booking_url_label = $booking_url_label;
         $this->read_more_label = $read_more_label;
     }
-    public string $id;
+    public string $url;
     public string $label;
     public string $content;
     public string $image_small;
@@ -139,7 +139,7 @@ $people_search_for = array(
 
 $service_categories = array(
     new ServiceCategory(
-        id: 'ansiktsbehandlingar-problemhy',
+        url: 'ansiktsbehandlingar-problemhy',
         label: 'Ansiktsbehandlingar mot problemhy',
         content: 'Dessa ansiktsbehandlingar är specialutformade för att ta itu med problemhy, såsom acne, rosacea och blandhy. Genom att använda noggrant utvalda produkter och tekniker, hjälper dessa behandlingar till att rengöra, lugna och återställa huden, samtidigt som de förebygger framtida hudproblem.',
         image_small: 'bilder/behandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
@@ -232,7 +232,7 @@ $service_categories = array(
         consultation_url_label: 'Boka hudkonsultation'
     ),
     new ServiceCategory(
-        id: 'ansiktsbehandlingar-klassiska.php',
+        url: 'ansiktsbehandlingar-klassiska',
         label: 'Klassiska ansiktsbehandlingar',
         content: 'Klassiska ansiktsbehandlingar är tidlösa och grundläggande skönhetsbehandlingar som främjar allmän hudhälsa. De inkluderar rengöring, exfoliering, ånga, masker och massage, och är anpassade för att passa olika hudtyper och behov.',
         image_small: 'bilder/behandlingar/200x200/klassiska-ansiktsbehandlingar.webp',
@@ -268,7 +268,7 @@ $service_categories = array(
         consultation_url_label: 'Boka hudkonsultation'
     ),
     new ServiceCategory(
-        id: 'dermabrasion',
+        url: 'dermabrasion',
         label: 'Dermabrasion',
         content: 'Microdermabrasion är en icke-invasiv behandling som använder mikrokristaller för att försiktigt exfoliera hudens yttre lager. Denna process främjar hudens förnyelse, minskar fina linjer, och ger en jämnare hudton och textur.',
         image_small: 'bilder/behandlingar/200x200/dermabrasion.webp',
@@ -323,7 +323,7 @@ $service_categories = array(
         consultation_url_label: 'Boka hudkonsultation'
     ),
     new ServiceCategory(
-        id: 'frysbehandling',
+        url: 'frysbehandling',
         label: 'Frysbehandling',
         content: 'Frysbehandling, eller kryoterapi, innebär att man använder extrema kyla för att behandla olika hudproblem, inklusive födelsemärken och fibrom.',
         image_small: 'bilder/behandlingar/200x200/frysbehandling.webp',
@@ -359,7 +359,7 @@ $service_categories = array(
         consultation_url_label: 'Boka hudkonsultation'
     ),
     new ServiceCategory(
-        id: 'ipl',
+        url: 'ipl',
         label: 'IPL',
         content: 'IPL-behandlingar använder intensivt pulserande ljus för att behandla en rad hudproblem, inklusive pigmentfläckar, ytliga blodkärl och rosacea. Denna teknik kan också förbättra hudens övergripande textur och ton.',
         image_small: 'bilder/behandlingar/200x200/ipl.webp',
@@ -433,7 +433,7 @@ $service_categories = array(
         consultation_url_label: 'Boka hudkonsultation'
     ),
     new ServiceCategory(
-        id: 'kemisk-peeling.php',
+        url: 'kemisk-peeling',
         label: 'Kemisk Peeling',
         content: 'Kemisk peeling innebär applicering av en kemisk lösning på huden för att avlägsna de döda hudcellerna från ytan. Detta stimulerar hudens förnyelseprocess, vilket leder till mjukare, klarare och jämnare hud.',
         image_small: 'bilder/behandlingar/200x200/kemisk-peeling.webp',
@@ -488,7 +488,7 @@ $service_categories = array(
         consultation_url_label: 'Boka hudkonsultation'
     ),
     new ServiceCategory(
-        id: 'laser-mot-problemhy',
+        url: 'laser-mot-problemhy',
         label: 'Laser mot Problemhy',
         content: 'Laserbehandlingar mot problemhy använder koncentrerade ljusstrålar för att målriktat behandla hudproblem som acneärr, hyperpigmentering och texturproblem. Dessa behandlingar kan ge dramatiska förbättringar i hudens utseende.',
         image_small: 'bilder/behandlingar/200x200/laser-mot-problemhy.webp',
@@ -543,7 +543,7 @@ $service_categories = array(
         consultation_url_label: 'Boka hudkonsultation'
     ),
     new ServiceCategory(
-        id: 'microneedling.php',
+        url: 'microneedling.php',
         label: 'Microneedling',
         content: 'Microneedling är en procedur där små nålar används för att skapa mikroskopiska punkteringar i huden, vilket stimulerar hudens naturliga läkningsprocess och kollagenproduktion. Detta leder till en fastare, jämnare och fräschare hud.',
         image_small: 'bilder/behandlingar/200x200/microneedling.webp',
@@ -597,9 +597,9 @@ $service_categories = array(
         booking_url_label: 'Boka tid',
         consultation_url_label: 'Boka hudkonsultation'
     ),
-    
+
     new ServiceCategory(
-        id: 'permanent-harborttagning.php',
+        url: 'permanent-harborttagning.php',
         label: 'Permanent Hårborttagning',
         content: 'Permanent hårborttagning erbjuder en långvarig lösning för att minska oönskad hårväxt på kroppen. Denna behandling är effektiv för olika hud- och hårfärger och ger en slät och hårfri hud.',
         image_small: 'bilder/behandlingar/200x200/permanent-harborttagning.webp',
@@ -654,7 +654,7 @@ $service_categories = array(
         consultation_url_label: 'Boka hudkonsultation'
     ),
     new ServiceCategory(
-        id: 'skinbooster',
+        url: 'skinbooster',
         label: 'Skinbooster',
         content: 'Skinboosters är injektionsbehandlingar som ger intensiv återfuktning och näring till huden. De innehåller hyaluronsyra och andra aktiva ingredienser som förbättrar hudens elasticitet, struktur och lyster.',
         image_small: 'bilder/behandlingar/200x200/skinbooster.webp',
@@ -690,15 +690,14 @@ $service_categories = array(
         consultation_url_label: 'Boka hudkonsultation',
     ),
     new ServiceCategory(
-        id: 'gratis-hudkonsultation.php',
+        url: 'gratis-hudkonsultation',
         label: 'Gratis Hudkonsultation',
         content: 'En gratis hudkonsultation ger en möjlighet att träffa en hudvårdsexpert och diskutera dina hudvårdsbehov och mål. Under konsultationen kan du få anpassade rekommendationer för behandlingar och produkter som passar just din hudtyp.',
         image_small: 'bilder/behandlingar/200x200/gratis-hudkonsultation.webp',
         image_large: 'bilder/behandlingar/424x324/gratis-hudkonsultation.webp',
         image_alt: 'Gratis Hudkonsultation',
         image_title: 'Gratis Hudkonsultation',
-        services: array(
-        ),
+        services: array(),
         booking_url: 'treatment-booking?service=skinBooster',
         booking_url_title: 'Boka tid för skinbooster',
         booking_url_label: 'Boka tid',
