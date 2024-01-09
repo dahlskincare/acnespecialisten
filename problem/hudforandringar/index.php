@@ -44,13 +44,13 @@ $consultation_url_title = "Gratis Konsultation för Hudförändringar";
 
 $booking_url_label = "Boka behandling";
 $booking_url = "https://acnespecialisten.se/book?flow=cryopen";
-$booking_url_title = "Boka Aknebehandling";
+$booking_url_title = "Boka behandling";
 
 $mobile_consultation_url_label = "Få gratis konsultation";
 $mobile_consultation_url_title = "Gratis Konsultation för Hudförändringar";
 
 $mobile_booking_url_label = "Boka behandling";
-$mobile_booking_url_title = "Boka Aknebehandling";
+$mobile_booking_url_title = "Boka behandling";
 
 $floating_consultation_url_label = "Få gratis konsultation";
 $floating_consultation_url_title = "Gratis Konsultation för Hudförändringar";

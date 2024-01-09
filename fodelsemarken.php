@@ -5,64 +5,52 @@ include_once('problem/widgets/symptom-card/symptom.php');
 include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Behandling av Blodprickar - Effektiva Metoder | Acnespecialisten';
-$seo_description = 'Upptäck Acnespecialistens expertis inom behandling av blodprickar. Vi erbjuder skräddarsydda lösningar för att säkert och effektivt ta hand om dessa vanliga hudförändringar. Med våra avancerade metoder och tekniker kan du uppnå en klarare och jämnare hudton utan synliga blodprickar.';
-$seo_keywords = 'blodprickar, behandling av blodprickar, hudförändringar, klar hud, jämn hudton, avlägsna blodprickar, hudvård, Acnespecialisten, effektiv behandling, hudhälsa';
+$seo_title = 'Behandling av Födelsemärken - Skonsamma Metoder | Acnespecialisten';
+$seo_description = 'Acnespecialisten erbjuder expertis inom behandling av födelsemärken. Med våra skonsamma och avancerade metoder kan vi effektivt hantera och ta bort olika typer av födelsemärken, vilket bidrar till en mer enhetlig hudton och förbättrat hudutseende.';
+$seo_keywords = 'födelsemärken, behandling av födelsemärken, hudförändringar, jämna ut hudton, ta bort födelsemärken, hudvård, Acnespecialisten, effektiv behandling, hudhälsa';
 
-// här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
+$seo_image = 'images/treatments/large/fodelsemarken.jpg';
 
-$seo_image = 'images/treatments/large/hudforandringar.jpg';
+$title = 'Behandling av Födelsemärken';
 
-$title = 'Behandling av Blodprickar';
-
-$image_small = 'bilder/problem/424x324/blodprickar.webp';
-$image_large = 'bilder/problem/424x456/blodprickar.webp';
-$image_title = 'Effektiv behandling av blodprickar';
-$image_alt = 'Bild som illustrerar behandling av blodprickar';
-$description = 'Blodprickar, även kända som cherry angiomas, är små, röda hudförändringar som ofta uppkommer med åldern. I detta avsnitt förklarar vi hur blodprickar uppstår och de mest effektiva behandlingsmetoderna för att ta bort dem. På Acnespecialisten använder vi avancerade tekniker för att säkert och effektivt behandla blodprickar, vilket ger dig en jämnare och klarare hudton.';
+$image_small = 'bilder/problem/424x324/fodelsemarken.webp';
+$image_large = 'bilder/problem/424x456/fodelsemarken.webp';
+$image_title = 'Skonsam och effektiv behandling av födelsemärken';
+$image_alt = 'Bild som illustrerar behandling av födelsemärken';
+$description = 'Födelsemärken är pigmenterade hudförändringar som kan variera i storlek, form och färg. Denna sida förklarar hur födelsemärken uppstår och de mest effektiva metoderna för att hantera dem. På Acnespecialisten använder vi skonsamma och avancerade tekniker för att säkert behandla födelsemärken, vilket hjälper till att förbättra hudens övergripande utseende och textur.';
 
 $akas = [
       new Link(
-            label: 'Smultronmärken',
+            label: 'Leverfläckar',
             url: null,
-            title: 'Smultronmärken',
-      ),
-      new Link(
-            label: 'Jordgubbsmärke',
-            url: null,
-            title: 'Jordgubbsmärke',
-      ),
-      new Link(
-            label: 'Hemangiom',
-            url: null,
-            title: 'Hemangiom',
+            title: 'Leverfläckar',
       ),
 ];
 
-$floating_box = 'Vi behandlar blodprickar effektivt';
+$floating_box = 'Vi behandlar födelsemärken effektivt och skonsamt';
 
 $consultation_url_label = "Få gratis konsultation";
 $consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen";
-$consultation_url_title = "Gratis Konsultation för Hudförändringar";
+$consultation_url_title = "Gratis Konsultation för Födelsemärken";
 
 $booking_url_label = "Boka behandling";
 $booking_url = "https://acnespecialisten.se/book?flow=cryopen";
-$booking_url_title = "Boka Aknebehandling";
+$booking_url_title = "Boka behandling";
 
 $mobile_consultation_url_label = "Få gratis konsultation";
-$mobile_consultation_url_title = "Gratis Konsultation för Hudförändringar";
+$mobile_consultation_url_title = "Gratis Konsultation för Födelsemärken";
 
 $mobile_booking_url_label = "Boka behandling";
-$mobile_booking_url_title = "Boka Aknebehandling";
+$mobile_booking_url_title = "Boka behandling";
 
 $floating_consultation_url_label = "Få gratis konsultation";
-$floating_consultation_url_title = "Gratis Konsultation för Hudförändringar";
+$floating_consultation_url_title = "Gratis Konsultation för Födelsemärken";
 
 $floating_booking_url_label = "Boka behandling";
 $floating_booking_url_title = "Boka Behandling";
 
 $nav_buttons = array(
-      'about' => 'Om blodprickar',
+      'about' => 'Om födelsemärken',
       'approach' => 'Metoden',
       'areas' => 'Områden',
       'define' => 'Konsultation',
@@ -77,118 +65,120 @@ $nav_buttons = array(
       'related-problems' => 'Relaterade problem',
 );
 
-$description_title = 'Vad är Blodprickar?';
-$description_text = '<p class="p200">Blodprickar, även kända som cherry angiomas, är små, runda och röda hudutväxter som vanligtvis uppstår på grund av ansamlingar av små blodkärl. De är ofarliga och förekommer oftare med åldrande, men storlek och antal kan variera från person till person. Blodprickar kan förekomma var som helst på kroppen men ses vanligtvis på överkroppen, armar och axlar.</p>
-<p class="p200 mt-m">På AcneSpecialisten erbjuder vi behandlingar för att säkert och effektivt ta bort blodprickar, vilket ger en förbättring av hudens utseende. Våra behandlingsmetoder varierar beroende på individens behov och kan inkludera laserteknik eller andra avancerade hudvårdsmetoder. Målet med behandlingen är att minska synligheten av dessa hudförändringar och återställa en jämnare hudton.</p>';
+$description_title = 'Vad är Födelsemärken?';
+$description_text = '<p class="p200">Födelsemärken är pigmenterade hudförändringar som kan variera i storlek, form och färg. Dessa hudmärken är ofta medfödda eller utvecklas under tidiga levnadsår. De kan vara helt ofarliga, men vissa typer av födelsemärken kan kräva uppmärksamhet, särskilt om de förändras över tid.</p>
+<p class="p200 mt-m">På AcneSpecialisten erbjuder vi expertbedömning och behandlingar för att säkert hantera födelsemärken. Våra metoder kan inkludera laserbehandling eller andra avancerade tekniker för att effektivt minska eller ta bort födelsemärken, vilket bidrar till en jämnare och mer enhetlig hudton.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
-            title: 'Identifiera Blodprickar',
-            content: 'Vid ditt första besök får du en konsultation med en av våra erfarna hudterapeuter, som noggrant identifierar och bedömer dina blodprickar. Vi diskuterar dina önskemål och skapar en individuell behandlingsplan anpassad för din specifika situation.',
+            title: 'Identifiera Födelsemärken',
+            content: 'Under din första konsultation med en av våra hudterapeuter görs en detaljerad bedömning av dina födelsemärken. Vi diskuterar dina behov och utformar en personlig behandlingsplan baserad på dina födelsemärkens karaktär och ditt hudtillstånd.',
 
             url_label: 'Boka gratis konsultation',
-            url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen',
-            url_title: 'Boka din kostnadsfria konsultation för blodprickar idag'
+            url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Fodelsemarken',
+            url_title: 'Boka din kostnadsfria konsultation för födelsemärken idag'
       ),
       new TreatmentStep(
-            title: 'Behandla Blodprickar',
-            content: 'Vi erbjuder effektiva och skonsamma behandlingsalternativ för blodprickar, inklusive laser och andra moderna metoder. Våra behandlingar är anpassade för att ge optimala resultat samtidigt som din hudkomfort prioriteras.',
+            title: 'Behandla Födelsemärken',
+            content: 'Vi erbjuder skräddarsydda behandlingsalternativ för födelsemärken, anpassade efter dina individuella behov och hudtyp. Dessa kan innefatta laserterapi och andra moderna behandlingsmetoder, designade för att ge dig en säker och effektiv behandling.',
 
-            url_label: 'Se behandlingar för blodprickar',
-            url: 'behandlingar/hudforandringar/behandla-hudforandringar',
-            url_title: 'Läs mer om behandlingar för blodprickar'
+            url_label: 'Se behandlingar för födelsemärken',
+            url: 'behandlingar/hudforandringar/behandla-fodelsemarken',
+            url_title: 'Läs mer om våra behandlingar för födelsemärken'
       ),
 );
 
-$treatment_link = '<a href="problem/hudforandringar/behandla-hudforandringar" title="Utforska effektiva behandlingar mot blodprickar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot blodprickar</a>';
+$treatment_link = '<a href="problem/hudforandringar/behandla-fodelsemarken" title="Utforska effektiva behandlingar mot födelsemärken" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot födelsemärken</a>';
 
 $top_articles = array(
     'areas' => new Article(
-        title: 'Områden för blodprickar',
+        title: 'Områden för födelsemärken',
         image_small: '',
         image_large: '',
         image_alt: '',
         image_title: '',
-        content: '<p class="p200">Blodprickar, eller cherry angiomas, är små, röda hudförändringar som ofta uppstår på grund av ansamlingar av små blodkärl. De är vanliga och kan förekomma hos personer i alla åldersgrupper, men blir oftare mer frekventa och märkbara med åldrandet. Blodprickar kan dyka upp var som helst på kroppen, men är vanligast på överkroppen, inklusive bröstet, ryggen, armar och axlar.</p>
-      <p class="p200 mt-m">Orsaken till bildandet av blodprickar är inte helt klarlagd, men de anses vara relaterade till genetiska faktorer och åldrande. Även om de i de flesta fall är ofarliga och inte kräver behandling, kan vissa personer välja att ta bort dem av estetiska skäl eller om de orsakar obehag. På AcneSpecialisten erbjuder vi skonsamma och effektiva behandlingsalternativ för att säkert ta bort blodprickar och ge huden ett jämnare utseende.</p>',
+        content: '<p class="p200">Födelsemärken är vanligt förekommande hudförändringar som kan uppstå var som helst på kroppen. De varierar i storlek, form och färg och kan vara platta eller upphöjda. De flesta födelsemärken är ofarliga, men det är viktigt att hålla koll på eventuella förändringar som kan tyda på hudproblem.</p>
+      <p class="p200 mt-m">Vissa födelsemärken kan behöva medicinsk uppmärksamhet, speciellt om de förändras i storlek, form eller färg. AcneSpecialisten erbjuder professionell rådgivning och behandling för att hantera födelsemärken som kan vara av medicinsk eller estetisk betydelse.</p>',
     ),
 );
 
 $articles = array(
       new Article(
-            title: 'När ska jag söka hjälp med mina blodprickar?',
+            title: 'När ska jag söka hjälp för mina födelsemärken?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'När ska jag söka hjälp med mina blodprickar?',
-            image_title: 'När ska jag söka hjälp med mina blodprickar?',
-            content: '<p class="p200">Blodprickar, även kända som cherry angiomas, är små röda hudförändringar som ofta är ofarliga. De kan dock orsaka estetisk obehag eller bekymmer. Om dina blodprickar börjar förändra sig i storlek, form eller färg, eller om du helt enkelt vill ta bort dem av kosmetiska skäl, kan det vara lämpligt att söka professionell hjälp. Det finns ingen "minsta gräns" för när det är lämpligt att söka professionell vård för blodprickar.</p>
-            <p class="p200 mt-m">Hos AcneSpecialisten erbjuder vi konsultationer där vi kan bedöma dina blodprickar och rekommendera lämpliga behandlingsalternativ. Våra metoder inkluderar laserbehandling och andra skonsamma tekniker för att säkert och effektivt ta bort blodprickar, vilket ger dig en klarare och jämnare hudton.</p>',
+            image_alt: 'När ska jag söka hjälp för mina födelsemärken?',
+            image_title: 'När ska jag söka hjälp för mina födelsemärken?',
+            content: '<p class="p200">Födelsemärken är vanligtvis ofarliga, men det är viktigt att hålla koll på dem för eventuella förändringar. Om du märker några förändringar i storlek, form, färg eller om födelsemärken orsakar obehag, bör du söka professionell hjälp. En hudspecialist kan bedöma dina födelsemärken och rekommendera lämplig behandling om det behövs.</p>
+            <p class="p200 mt-m">Hos AcneSpecialisten erbjuder vi konsultationer för att bedöma dina födelsemärken och rekommendera behandlingsalternativ, inklusive skonsamma och effektiva metoder som laser eller kirurgiska ingrepp för att säkert hantera födelsemärken.</p>',
       ),
 
       new Article(
-            title: 'Varför ska jag besöka AcneSpecialisten för mina blodprickar?',
+            title: 'Varför ska jag besöka AcneSpecialisten för mina födelsemärken?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'Varför ska jag besöka AcneSpecialisten för mina blodprickar?',
-            image_title: 'Varför ska jag besöka AcneSpecialisten för mina blodprickar?',
-            content: '<p class="p200">På AcneSpecialisten är vi experter på att behandla blodprickar och andra hudförändringar. Med vår erfarenhet och tillgång till avancerad teknologi erbjuder vi säkra och effektiva behandlingar. Vi förstår att varje klients behov är unika, och vi anpassar därför våra behandlingar för att passa just dina önskemål och hudtillstånd.</p>
-            <p class="p200 mt-m">Vårt team av kvalificerade hudterapeuter använder skonsamma metoder för att säkerställa att din upplevelse är bekväm och att resultaten är varaktiga. Vi erbjuder också skräddarsydda råd och hemmavårdsprogram för att hjälpa dig att upprätthålla resultatet och bibehålla en hälsosam hud. Välj AcneSpecialisten för en kompetent och omsorgsfull behandling av dina blodprickar.</p>',
+            image_alt: 'Varför ska jag besöka AcneSpecialisten för mina födelsemärken?',
+            image_title: 'Varför ska jag besöka AcneSpecialisten för mina födelsemärken?',
+            content: '<p class="p200">På AcneSpecialisten är vi specialiserade på att behandla födelsemärken och andra hudförändringar. Vi erbjuder säkra och effektiva behandlingsalternativ för att hjälpa dig att hantera dina födelsemärken, oavsett om de är av medicinsk eller estetisk betydelse.</p>
+            <p class="p200 mt-m">Vårt team av erfarna hudterapeuter använder de senaste teknologierna och metoderna för att ge dig bästa möjliga behandling. Vi erbjuder också råd och stöd för att hjälpa dig att upprätthålla resultatet och bibehålla en hälsosam hud. Välj AcneSpecialisten för en professionell och omtänksam behandling av dina födelsemärken.</p>',
       ),
 );
 
-$headline01 = "01. Identifiera dina blodprickar";
+
+$headline01 = "01. Identifiera dina födelsemärken";
 
 $service = new Service(
-      title: 'Konsultation för blodprickar',
+      title: 'Konsultation för födelsemärken',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Under en personlig konsultation med en hudspecialist utförs en grundlig bedömning av dina blodprickar. Vi tar före-bilder och diskuterar lämpliga behandlingsalternativ, inklusive möjligheten att använda Cryopen, för att skräddarsy en behandlingsplan som passar dina specifika behov.',
+      content: 'Under en personlig konsultation med en hudspecialist genomförs en noggrann bedömning av dina födelsemärken. Vi tar före-bilder och diskuterar olika behandlingsalternativ, inklusive möjligheten att använda Cryopen eller andra metoder, för att skräddarsy en behandlingsplan som passar dina specifika behov.',
 
       image_small: 'images/services/200x200/konsultation.webp',
       image_large: 'images/services/200x200/konsultation.webp',
-      image_alt: 'Bild av en konsultation för behandling av blodprickar',
-      image_title: 'Konsultation för behandling av blodprickar',
+      image_alt: 'Bild av en konsultation för behandling av födelsemärken',
+      image_title: 'Konsultation för behandling av födelsemärken',
 
       url_label: '',
       url: '',
       url_title: '',
 
-      consultation_url_label: 'Boka tid för hudkonsultation för blodprickar',
+      consultation_url_label: 'Boka tid för hudkonsultation för födelsemärken',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen',
-      consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för blodprickar',
+      consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för födelsemärken',
 
       booking_url_label: null,
       booking_url: null,
       booking_url_title: null,
 );
 
-$headline02 = "02. Behandla blodprickar med Cryopen";
+$headline02 = "02. Behandla födelsemärken med Cryopen";
 
 $services = array(
       new Service(
-            title: 'Behandling av blodprickar med Cryopen',
+            title: 'Behandling av födelsemärken med Cryopen',
             duration: '45 min',
             price: '1295 kr',
-            content: 'Cryopen är en effektiv behandlingsmetod som använder extrem kyla för att målinriktat behandla och ta bort blodprickar. Behandlingen är snabb och ger minimalt obehag, vilket gör den till ett effektivt sätt att minska synligheten av blodprickar.',
+            content: 'Cryopen är en avancerad och skonsam behandlingsmetod som använder extrem kyla för att målinriktat behandla och ta bort födelsemärken. Denna behandling är snabb, effektiv och orsakar minimalt obehag, vilket gör den idealisk för att minska synligheten av födelsemärken.',
 
             image_small: 'images/services/200x200/cryopen.webp',
             image_large: 'images/services/200x200/cryopen.webp',
-            image_alt: 'Bild av Cryopen behandling för blodprickar',
-            image_title: 'Cryopen behandling för blodprickar',
+            image_alt: 'Bild av Cryopen behandling för födelsemärken',
+            image_title: 'Cryopen behandling för födelsemärken',
 
             url: '',
             url_label: '',
             url_title: '',
 
-            consultation_url_label: 'Boka tid för konsultation för Cryopen behandling av blodprickar',
+            consultation_url_label: 'Boka tid för konsultation för Cryopen behandling av födelsemärken',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen',
-            consultation_url_title: 'Klicka för att boka tid för en konsultation för Cryopen behandling av blodprickar',
+            consultation_url_title: 'Klicka för att boka tid för en konsultation för Cryopen behandling av födelsemärken',
 
-            booking_url_label: 'Boka tid för behandling med Cryopen för blodprickar',
+            booking_url_label: 'Boka tid för behandling med Cryopen för födelsemärken',
             booking_url: 'https://acnespecialisten.se/book?flow=cryopen',
-            booking_url_title: 'Klicka för att boka tid för en behandling med Cryopen för blodprickar'
+            booking_url_title: 'Klicka för att boka tid för en behandling med Cryopen för födelsemärken'
       ),
 );
+
 
 $results = array(
       new ResultCustomer(
@@ -435,7 +425,7 @@ $brands = array(
 );
 
 $brands_url_label = "Se alla varumärken";
-$brands_url_title = "Varumärken för Aknebehandling";
+$brands_url_title = "Se alla varumärken";
 
 ?>
 
