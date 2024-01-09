@@ -48,10 +48,10 @@ class Service
     public string $title;
     public ?string $duration;
     public ?string $price;
-    public string $image_small;
-    public string $image_large;
-    public string $image_alt;
-    public string $image_title;
+    public ?string $image_small;
+    public ?string $image_large;
+    public ?string $image_alt;
+    public ?string $image_title;
     public string $content;
     public ?string $consultation_url;
     public ?string $consultation_url_label;

@@ -50,10 +50,10 @@ $description_text = '<p class="p200">Kemisk peeling hos AcneSpecialisten innefat
 $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelser inför kemisk peeling',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Förberedelser inför kemisk peeling',
-        image_title: 'Förberedelser inför kemisk peeling',
+        image_small: null,
+        image_large: null,
+        image_alt: null,
+        image_title: null,
         content: '<p class="p200">När du förbereder dig för en kemisk peeling hos AcneSpecialisten finns det några enkla steg du kan följa för att optimera din behandlingsupplevelse. För det första är det bra att undvika att exfoliera huden några dagar före din behandling, då själva peelingen kommer att ta hand om detta. Det är också viktigt att inte sola eller använda brun-utan-sol-produkter veckan innan behandlingen för att minska risken för hudirritationer.</p>
         <p class="p200 mt-m">Dessutom är det viktigt att informera din hudterapeut om eventuella mediciner du tar eller om du har aktiva hudåkommor, så att vi kan anpassa behandlingen på bästa sätt. Kom ihåg att det viktigaste är att du känner dig bekväm och trygg, så om du har några frågor eller funderingar, därför rekommenderar vi alltid att du börjar med en kostnadsfri konsultation.</p>',
         tags: array(new ArticleTag(
@@ -72,10 +72,10 @@ $top_articles = array(
     ),
     'process' => new Article(
         title: 'Hur går kemisk peeling behandlingar till?',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Hur går kemisk peeling behandlingar till?',
-        image_title: 'Hur går kemisk peeling behandlingar till?',
+        image_small: null,
+        image_large: null,
+        image_alt: null,
+        image_title: null,
         content: '<p class="p200">På AcneSpecialisten erbjuder vi specialiserade kemiska peelingbehandlingar som är anpassade för att möta en mängd olika hudproblem. Vi förstår att varje persons hud är unik och skräddarsyr därför varje behandling för att passa just dina individuella behov och hudtillstånd. Våra erfarna hudterapeuter använder sin expertis och djupgående kunskap för att ge dig den bästa möjliga vård och resultat.</p>
         <p class="p200 mt-m">Varje kemisk peelingbehandling inleds med en grundlig rengöring för att förbereda huden. Detta följs av appliceringen av en specifikt utvald peelinglösning, som är anpassad efter din hudtyp och de hudproblem som ska behandlas. Denna lösning arbetar för att exfoliera de övre hudlagren och stimulerar hudens naturliga förnyelseprocess. Beroende på behandlingens intensitet, kan du uppleva en lätt stickande känsla under denna fas. Efter att peelingen har verkat tillräckligt länge neutraliseras den noggrant för att säkerställa din komfort och säkerhet. Avslutningsvis appliceras en lugnande och återfuktande mask för att lugna huden och minska eventuell rodnad eller irritation. Behandlingen avslutas med en återfuktande kräm som hjälper din hud att känna sig återupplivad och förnyad.</p>',
 
@@ -102,10 +102,10 @@ $big_types = array(
         price: null,
         content: '<p class="p200">Skin Tech Easy Phytic Peel är perfekt för dig som vill behandla orenheter, igentäppt hy och pigmenteringar, då den passar för alla hudtyper. Denna milda peeling ger en fördjupad rengöring och förbättrar hudens övergripande utseende utan att kräva en lång återhämtningsperiod. Den unika formulan i Easy Phytic Peel exfolierar försiktigt hudens yttre lager, vilket bidrar till en minskning av synliga ojämnheter och en förnyelse av hudcellerna.</p>
         <p class="p200 mt-m">Efter appliceringen av peelingen får huden en chans att återhämta sig med en lugnande behandling som återinför fukt och lindrar eventuell rodnad. En av de största fördelarna med Easy Phytic Peel är att den inte kräver neutralisering eller avtvättning, vilket gör behandlingsprocessen smidig och enkel. Resultatet är en betydligt klarare, jämnare och mer strålande hud. Skin Tech Easy Phytic Peel är perfekt för dig som söker en effektiv lösning på hudproblem utan att kompromissa med hudens känslighet eller komfort.</p>',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Skin Tech Easy Phytic Peel',
-        image_title: 'Skin Tech Easy Phytic Peel',
+        image_small: null,
+        image_large: null,
+        image_alt: null,
+        image_title: null,
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
         consultation_url_label: 'Boka tid för hudkonsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
@@ -574,32 +574,32 @@ $results = array(
 
 $reviews_title = 'Reviews';
 $reviews = array(
-      new Review(
-            brand: 'Trustpilot',
-            title: 'Supernöjd',
-            text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
-            signature: 'Sofia',
-            stars: 5,
-            logo_url: 'images/brands/trustpilot.svg'
+    new Review(
+        brand: 'Trustpilot',
+        title: 'Supernöjd',
+        text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
+        signature: 'Sofia',
+        stars: 5,
+        logo_url: 'images/brands/trustpilot.svg'
 
-      ),
-      new Review(
-            brand: 'Google',
-            title: 'Jag är mycket nöjd..',
-            text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och aknen är betydligt mildare",
-            signature: 'Lovisa',
-            stars: 5,
-            logo_url: 'images/brands/google-small.svg'
+    ),
+    new Review(
+        brand: 'Google',
+        title: 'Jag är mycket nöjd..',
+        text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och aknen är betydligt mildare",
+        signature: 'Lovisa',
+        stars: 5,
+        logo_url: 'images/brands/google-small.svg'
 
-      ),
-      new Review(
-            brand: 'Bokadirekt',
-            title: 'Rekommenderar varmt!',
-            text: "Det enda som fungerat mot min akne med synliga resultat. Jättetrevlig och kunnig behandlare!",
-            signature: 'Emily',
-            stars: 5,
-            logo_url: 'images/brands/bokadirekt-small.svg'
-      ),
+    ),
+    new Review(
+        brand: 'Bokadirekt',
+        title: 'Rekommenderar varmt!',
+        text: "Det enda som fungerat mot min akne med synliga resultat. Jättetrevlig och kunnig behandlare!",
+        signature: 'Emily',
+        stars: 5,
+        logo_url: 'images/brands/bokadirekt-small.svg'
+    ),
 
 );
 $reviews_view_more = 'Se alla omdömen';

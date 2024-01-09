@@ -19,6 +19,7 @@ namespace FAQ {
         }
     }
     export function toggleQuestionExpanded(target: Element): void {
+        target.classList.toggle('expanded');
         let textElement = target.parentElement.children[1];
         if (textElement.classList.contains('zero-size')) {
             textElement.classList.remove('zero-size');

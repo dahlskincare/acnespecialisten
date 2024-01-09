@@ -21,6 +21,7 @@ var FAQ;
     }
     FAQ.selectCategory = selectCategory;
     function toggleQuestionExpanded(target) {
+        target.classList.toggle('expanded');
         var textElement = target.parentElement.children[1];
         if (textElement.classList.contains('zero-size')) {
             textElement.classList.remove('zero-size');
