@@ -83,12 +83,12 @@ $treatment_steps = array(
             content: 'Vi erbjuder skräddarsydda behandlingsalternativ för födelsemärken, anpassade efter dina individuella behov och hudtyp. Dessa kan innefatta laserterapi och andra moderna behandlingsmetoder, designade för att ge dig en säker och effektiv behandling.',
 
             url_label: 'Se behandlingar för födelsemärken',
-            url: 'behandlingar/hudforandringar/behandla-fodelsemarken',
+            url: 'behandlingar/hudforandringar/behandla-hudforandringar',
             url_title: 'Läs mer om våra behandlingar för födelsemärken'
       ),
 );
 
-$treatment_link = '<a href="problem/hudforandringar/behandla-fodelsemarken" title="Utforska effektiva behandlingar mot födelsemärken" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot födelsemärken</a>';
+$treatment_link = '<a href="problem/hudforandringar/behandla-hudforandringar" title="Utforska effektiva behandlingar mot födelsemärken" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot födelsemärken</a>';
 
 $top_articles = array(
     'areas' => new Article(
@@ -109,8 +109,7 @@ $articles = array(
             image_large: 'https://via.placeholder.com/872x456.webp',
             image_alt: 'När ska jag söka hjälp för mina födelsemärken?',
             image_title: 'När ska jag söka hjälp för mina födelsemärken?',
-            content: '<p class="p200">Födelsemärken är vanligtvis ofarliga, men det är viktigt att hålla koll på dem för eventuella förändringar. Om du märker några förändringar i storlek, form, färg eller om födelsemärken orsakar obehag, bör du söka professionell hjälp. En hudspecialist kan bedöma dina födelsemärken och rekommendera lämplig behandling om det behövs.</p>
-            <p class="p200 mt-m">Hos AcneSpecialisten erbjuder vi konsultationer för att bedöma dina födelsemärken och rekommendera behandlingsalternativ, inklusive skonsamma och effektiva metoder som laser eller kirurgiska ingrepp för att säkert hantera födelsemärken.</p>',
+            content: '<p class="p200">Födelsemärken är vanligtvis ofarliga, men det är viktigt att hålla koll på dem för eventuella förändringar. Om du märker några förändringar i storlek, form, färg eller om födelsemärken orsakar obehag, bör du söka professionell hjälp. En hudspecialist kan bedöma dina födelsemärken och rekommendera lämplig behandling om det behövs.</p>',
       ),
 
       new Article(
@@ -119,8 +118,7 @@ $articles = array(
             image_large: 'https://via.placeholder.com/872x456.webp',
             image_alt: 'Varför ska jag besöka AcneSpecialisten för mina födelsemärken?',
             image_title: 'Varför ska jag besöka AcneSpecialisten för mina födelsemärken?',
-            content: '<p class="p200">På AcneSpecialisten är vi specialiserade på att behandla födelsemärken och andra hudförändringar. Vi erbjuder säkra och effektiva behandlingsalternativ för att hjälpa dig att hantera dina födelsemärken, oavsett om de är av medicinsk eller estetisk betydelse.</p>
-            <p class="p200 mt-m">Vårt team av erfarna hudterapeuter använder de senaste teknologierna och metoderna för att ge dig bästa möjliga behandling. Vi erbjuder också råd och stöd för att hjälpa dig att upprätthålla resultatet och bibehålla en hälsosam hud. Välj AcneSpecialisten för en professionell och omtänksam behandling av dina födelsemärken.</p>',
+            content: '<p class="p200">På AcneSpecialisten är vi specialiserade på att behandla födelsemärken och andra hudförändringar. Vi erbjuder säkra och effektiva behandlingsalternativ för att hjälpa dig att hantera dina födelsemärken.</p>',
       ),
 );
 
@@ -156,8 +154,8 @@ $headline02 = "02. Behandla födelsemärken med Cryopen";
 $services = array(
       new Service(
             title: 'Behandling av födelsemärken med Cryopen',
-            duration: '45 min',
-            price: '1295 kr',
+            duration: '20 min',
+            price: '995 kr',
             content: 'Cryopen är en avancerad och skonsam behandlingsmetod som använder extrem kyla för att målinriktat behandla och ta bort födelsemärken. Denna behandling är snabb, effektiv och orsakar minimalt obehag, vilket gör den idealisk för att minska synligheten av födelsemärken.',
 
             image_small: 'images/services/200x200/cryopen.webp',

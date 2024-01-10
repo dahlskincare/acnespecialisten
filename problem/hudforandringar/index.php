@@ -314,8 +314,8 @@ $headline02 = "02. Behandla hudförändringar med Cryopen";
 $services = array(
       new Service(
             title: 'Behandling med Cryopen',
-            duration: '45 min',
-            price: '1295 kr',
+            duration: '20 min',
+            price: '995 kr',
             content: 'Cryopen är en avancerad behandling som snabbt och effektivt behandlar hudförändringar genom att frysa det drabbade området. Detta kan hjälpa till att minska eller eliminera utseendet på olika typer av hudförändringar.',
 
             image_small: 'images/services/200x200/cryopen.webp',

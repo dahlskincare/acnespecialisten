@@ -5,52 +5,52 @@ include_once('problem/widgets/symptom-card/symptom.php');
 include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Behandling av Födelsemärken - Skonsamma Metoder | Acnespecialisten';
-$seo_description = 'Acnespecialisten erbjuder expertis inom behandling av födelsemärken. Med våra skonsamma och avancerade metoder kan vi effektivt hantera och ta bort olika typer av födelsemärken, vilket bidrar till en mer enhetlig hudton och förbättrat hudutseende.';
-$seo_keywords = 'födelsemärken, behandling av födelsemärken, hudförändringar, jämna ut hudton, ta bort födelsemärken, hudvård, Acnespecialisten, effektiv behandling, hudhälsa';
+$seo_title = 'Behandling av Hudflikar - Skonsamma och Effektiva Metoder | Acnespecialisten';
+$seo_description = 'Upptäck Acnespecialistens expertis inom behandling av hudflikar. Med våra skonsamma och avancerade metoder erbjuder vi effektiva lösningar för att ta bort hudflikar, vilket bidrar till en slätare och mer enhetlig hudton.';
+$seo_keywords = 'hudflikar, behandling av hudflikar, hudförändringar, jämna ut hudton, ta bort hudflikar, hudvård, Acnespecialisten, effektiv behandling, hudhälsa';
 
 $seo_image = 'images/treatments/large/hudforandringar.jpg';
 
-$title = 'Behandling av Födelsemärken';
+$title = 'Behandling av Hudflikar';
 
 $image_small = 'bilder/problem/424x324/hudforandringar.webp';
 $image_large = 'bilder/problem/424x456/hudforandringar.webp';
-$image_title = 'Skonsam och effektiv behandling av födelsemärken';
-$image_alt = 'Bild som illustrerar behandling av födelsemärken';
-$description = 'Födelsemärken är pigmenterade hudförändringar som kan variera i storlek, form och färg. Denna sida förklarar hur födelsemärken uppstår och de mest effektiva metoderna för att hantera dem. På Acnespecialisten använder vi skonsamma och avancerade tekniker för att säkert behandla födelsemärken, vilket hjälper till att förbättra hudens övergripande utseende och textur.';
+$image_title = 'Skonsam och effektiv behandling av hudflikar';
+$image_alt = 'Bild som illustrerar behandling av hudflikar';
+$description = 'Hudflikar är små utväxter på huden som ofta förekommer i hudveck eller områden med friktion. På Acnespecialisten förklarar vi hur hudflikar kan behandlas effektivt. Vi använder skonsamma och avancerade tekniker för att säkert ta bort hudflikar, vilket hjälper till att förbättra hudens utseende och textur.';
 
 $akas = [
       new Link(
-            label: 'Leverfläckar',
+            label: 'Skintags',
             url: null,
-            title: 'Leverfläckar',
+            title: 'Skintags',
       ),
 ];
 
-$floating_box = 'Vi behandlar födelsemärken effektivt och skonsamt';
+$floating_box = 'Vi behandlar hudflikar effektivt och skonsamt';
 
 $consultation_url_label = "Få gratis konsultation";
 $consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen";
-$consultation_url_title = "Gratis Konsultation för Födelsemärken";
+$consultation_url_title = "Gratis Konsultation för hudflikar";
 
 $booking_url_label = "Boka behandling";
-$booking_url = "https://acnespecialisten.se/book?flow=cryopen";
+$booking_url = "https://acnespecialisten.se/book?flow=cryopen&skipable_problem=Problem_skintags";
 $booking_url_title = "Boka behandling";
 
 $mobile_consultation_url_label = "Få gratis konsultation";
-$mobile_consultation_url_title = "Gratis Konsultation för Födelsemärken";
+$mobile_consultation_url_title = "Gratis Konsultation för hudflikar";
 
 $mobile_booking_url_label = "Boka behandling";
 $mobile_booking_url_title = "Boka behandling";
 
 $floating_consultation_url_label = "Få gratis konsultation";
-$floating_consultation_url_title = "Gratis Konsultation för Födelsemärken";
+$floating_consultation_url_title = "Gratis Konsultation för hudflikar";
 
 $floating_booking_url_label = "Boka behandling";
 $floating_booking_url_title = "Boka Behandling";
 
 $nav_buttons = array(
-      'about' => 'Om födelsemärken',
+      'about' => 'Om hudflikar',
       'approach' => 'Metoden',
       'areas' => 'Områden',
       'define' => 'Konsultation',
@@ -65,118 +65,107 @@ $nav_buttons = array(
       'related-problems' => 'Relaterade problem',
 );
 
-$description_title = 'Vad är Födelsemärken?';
-$description_text = '<p class="p200">Födelsemärken är pigmenterade hudförändringar som kan variera i storlek, form och färg. Dessa hudmärken är ofta medfödda eller utvecklas under tidiga levnadsår. De kan vara helt ofarliga, men vissa typer av födelsemärken kan kräva uppmärksamhet, särskilt om de förändras över tid.</p>
-<p class="p200 mt-m">På AcneSpecialisten erbjuder vi expertbedömning och behandlingar för att säkert hantera födelsemärken. Våra metoder kan inkludera laserbehandling eller andra avancerade tekniker för att effektivt minska eller ta bort födelsemärken, vilket bidrar till en jämnare och mer enhetlig hudton.</p>';
+$description_title = 'Vad är Hudflikar?';
+$description_text = '<p class="p200">Hudflikar, även kända som skintags, är små, mjuka hudutväxter som ofta uppkommer i områden med friktion, såsom halsen, armhålorna, och under brösten. De är ofarliga men kan orsaka irritation eller obehag, särskilt om de gnids mot kläder eller smycken.</p>
+<p class="p200 mt-m">På AcneSpecialisten erbjuder vi behandlingar för att säkert och effektivt ta bort hudflikar. Våra metoder inkluderar Cryopen, laserbehandling eller kirurgiska metoder som skräddarsys efter varje enskild klient för att uppnå bästa möjliga resultat och minimera obehag.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
-            title: 'Identifiera Födelsemärken',
-            content: 'Under din första konsultation med en av våra hudterapeuter görs en detaljerad bedömning av dina födelsemärken. Vi diskuterar dina behov och utformar en personlig behandlingsplan baserad på dina födelsemärkens karaktär och ditt hudtillstånd.',
+            title: 'Identifiera Hudflikar',
+            content: 'Vid din första konsultation hos AcneSpecialisten utförs en grundlig bedömning av dina hudflikar för att avgöra den mest lämpliga behandlingsmetoden. Vi diskuterar dina behov och förväntningar för att utforma en personlig behandlingsplan.',
 
             url_label: 'Boka gratis konsultation',
-            url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Fodelsemarken',
-            url_title: 'Boka din kostnadsfria konsultation för födelsemärken idag'
+            url: 'https://acnespecialisten.se/book?flow=cryopen&skipable_problem=Problem_skintags',
+            url_title: 'Boka din kostnadsfria konsultation för hudflikar idag'
       ),
       new TreatmentStep(
-            title: 'Behandla Födelsemärken',
-            content: 'Vi erbjuder skräddarsydda behandlingsalternativ för födelsemärken, anpassade efter dina individuella behov och hudtyp. Dessa kan innefatta laserterapi och andra moderna behandlingsmetoder, designade för att ge dig en säker och effektiv behandling.',
+            title: 'Behandla Hudflikar',
+            content: 'Vi erbjuder olika behandlingsalternativ för att effektivt och skonsamt ta bort hudflikar. Våra metoder är anpassade efter dina specifika behov och hudtyp, och syftar till att ge en smärtfri upplevelse med minimal återhämtningsperiod.',
 
-            url_label: 'Se behandlingar för födelsemärken',
-            url: 'behandlingar/hudforandringar/behandla-fodelsemarken',
-            url_title: 'Läs mer om våra behandlingar för födelsemärken'
+            url_label: 'Se behandlingar för hudflikar',
+            url: 'behandlingar/hudforandringar/behandla-hudforandringar',
+            url_title: 'Läs mer om våra behandlingar för hudflikar'
       ),
 );
 
-$treatment_link = '<a href="problem/hudforandringar/behandla-fodelsemarken" title="Utforska effektiva behandlingar mot födelsemärken" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot födelsemärken</a>';
+$treatment_link = '<a href="problem/hudforandringar/behandla-hudforandringar" title="Utforska effektiva behandlingar mot hudflikar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot hudflikar</a>';
 
 $top_articles = array(
     'areas' => new Article(
-        title: 'Områden för födelsemärken',
+        title: 'Områden för hudflikar',
         image_small: '',
         image_large: '',
         image_alt: '',
         image_title: '',
-        content: '<p class="p200">Födelsemärken är vanligt förekommande hudförändringar som kan uppstå var som helst på kroppen. De varierar i storlek, form och färg och kan vara platta eller upphöjda. De flesta födelsemärken är ofarliga, men det är viktigt att hålla koll på eventuella förändringar som kan tyda på hudproblem.</p>
-      <p class="p200 mt-m">Vissa födelsemärken kan behöva medicinsk uppmärksamhet, speciellt om de förändras i storlek, form eller färg. AcneSpecialisten erbjuder professionell rådgivning och behandling för att hantera födelsemärken som kan vara av medicinsk eller estetisk betydelse.</p>',
+        content: '<p class="p200">Hudflikar, även kända som skintags, är små hudutväxter som ofta bildas i områden med mycket friktion eller hud-mot-hud kontakt, såsom hals, armhålor och under brösten. Dessa ofarliga utväxter varierar i storlek och färg och är vanligen mjuka och rörliga vid beröring.</p>
+      <p class="p200 mt-m">Hudflikar är vanligen ofarliga men kan kräva uppmärksamhet om de orsakar irritation eller om de förändras. På AcneSpecialisten erbjuder vi expertbedömning och behandlingar för hudflikar, anpassade efter dina individuella behov och önskemål.</p>',
     ),
 );
 
 $articles = array(
-      new Article(
-            title: 'När ska jag söka hjälp för mina födelsemärken?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'När ska jag söka hjälp för mina födelsemärken?',
-            image_title: 'När ska jag söka hjälp för mina födelsemärken?',
-            content: '<p class="p200">Födelsemärken är vanligtvis ofarliga, men det är viktigt att hålla koll på dem för eventuella förändringar. Om du märker några förändringar i storlek, form, färg eller om födelsemärken orsakar obehag, bör du söka professionell hjälp. En hudspecialist kan bedöma dina födelsemärken och rekommendera lämplig behandling om det behövs.</p>
-            <p class="p200 mt-m">Hos AcneSpecialisten erbjuder vi konsultationer för att bedöma dina födelsemärken och rekommendera behandlingsalternativ, inklusive skonsamma och effektiva metoder som laser eller kirurgiska ingrepp för att säkert hantera födelsemärken.</p>',
-      ),
+    new Article(
+        title: 'När är det dags att söka hjälp för hudflikar?',
+        image_small: 'https://via.placeholder.com/358x272.webp',
+        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_alt: 'När är det dags att söka hjälp för hudflikar?',
+        image_title: 'När är det dags att söka hjälp för hudflikar?',
+        content: '<p class="p200">Hudflikar är vanligtvis ofarliga men bör övervakas. Om du upplever irritation, obehag eller märker förändringar i storlek, form eller färg, är det lämpligt att konsultera en specialist.</p>',
+    ),
 
-      new Article(
-            title: 'Varför ska jag besöka AcneSpecialisten för mina födelsemärken?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'Varför ska jag besöka AcneSpecialisten för mina födelsemärken?',
-            image_title: 'Varför ska jag besöka AcneSpecialisten för mina födelsemärken?',
-            content: '<p class="p200">På AcneSpecialisten är vi specialiserade på att behandla födelsemärken och andra hudförändringar. Vi erbjuder säkra och effektiva behandlingsalternativ för att hjälpa dig att hantera dina födelsemärken, oavsett om de är av medicinsk eller estetisk betydelse.</p>
-            <p class="p200 mt-m">Vårt team av erfarna hudterapeuter använder de senaste teknologierna och metoderna för att ge dig bästa möjliga behandling. Vi erbjuder också råd och stöd för att hjälpa dig att upprätthålla resultatet och bibehålla en hälsosam hud. Välj AcneSpecialisten för en professionell och omtänksam behandling av dina födelsemärken.</p>',
-      ),
+    new Article(
+        title: 'Fördelar med att besöka AcneSpecialisten för hudflikar',
+        image_small: 'https://via.placeholder.com/358x272.webp',
+        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_alt: 'Fördelar med att besöka AcneSpecialisten för hudflikar',
+        image_title: 'Fördelar med att besöka AcneSpecialisten för hudflikar',
+        content: '<p class="p200">AcneSpecialisten är experter på att behandla hudflikar, och erbjuder skräddarsydda lösningar. Våra behandlingar är både säkra och effektiva, och vi använder de senaste teknikerna för att uppnå bästa möjliga resultat. Vårt team av specialiserade hudterapeuter tillhandahåller professionell rådgivning och behandling, och hjälper dig att uppnå en slätare och jämnare hudton.</p>',
+    ),
 );
 
-
-$headline01 = "01. Identifiera dina födelsemärken";
+$headline01 = "01. Identifiera dina hudflikar";
 
 $service = new Service(
-      title: 'Konsultation för födelsemärken',
-      duration: '20 min',
-      price: 'Kostnadsfri',
-      content: 'Under en personlig konsultation med en hudspecialist genomförs en noggrann bedömning av dina födelsemärken. Vi tar före-bilder och diskuterar olika behandlingsalternativ, inklusive möjligheten att använda Cryopen eller andra metoder, för att skräddarsy en behandlingsplan som passar dina specifika behov.',
+    title: 'Konsultation för hudflikar',
+    duration: '20 min',
+    price: 'Kostnadsfri',
+    content: 'Under vår konsultation utför vi en detaljerad utvärdering av dina hudflikar. Våra specialister analyserar hudtillståndet, tar före-bilder och diskuterar de mest effektiva behandlingsalternativen, inklusive användning av Cryopen eller andra metoder, för att skapa en behandlingsplan som är anpassad efter dina behov och önskemål.',
 
-      image_small: 'images/services/200x200/konsultation.webp',
-      image_large: 'images/services/200x200/konsultation.webp',
-      image_alt: 'Bild av en konsultation för behandling av födelsemärken',
-      image_title: 'Konsultation för behandling av födelsemärken',
+    image_small: 'images/services/200x200/konsultation.webp',
+    image_large: 'images/services/200x200/konsultation.webp',
+    image_alt: 'Bild av en konsultation för behandling av hudflikar',
+    image_title: 'Konsultation för behandling av hudflikar',
 
-      url_label: '',
-      url: '',
-      url_title: '',
+    consultation_url_label: 'Boka konsultation',
+    consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen',
+    consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för hudflikar',
 
-      consultation_url_label: 'Boka konsultation',
-      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen',
-      consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för födelsemärken',
-
-      booking_url_label: null,
-      booking_url: null,
-      booking_url_title: null,
+    booking_url_label: null,
+    booking_url: null,
+    booking_url_title: null,
 );
 
-$headline02 = "02. Behandla födelsemärken med Cryopen";
+$headline02 = "02. Behandla hudflikar med Cryopen";
 
 $services = array(
-      new Service(
-            title: 'Behandling av födelsemärken med Cryopen',
-            duration: '45 min',
-            price: '1295 kr',
-            content: 'Cryopen är en avancerad och skonsam behandlingsmetod som använder extrem kyla för att målinriktat behandla och ta bort födelsemärken. Denna behandling är snabb, effektiv och orsakar minimalt obehag, vilket gör den idealisk för att minska synligheten av födelsemärken.',
+    new Service(
+        title: 'Behandling av hudflikar med Cryopen',
+        duration: '20 min',
+        price: '995 kr',
+        content: 'Med Cryopen-tekniken erbjuder vi en snabb och skonsam behandling för att effektivt reducera och ta bort hudflikar. Cryopen använder extrem kyla för att noggrant och säkert behandla det drabbade området, vilket ger en snabb återhämtning och minimalt obehag.',
 
-            image_small: 'images/services/200x200/cryopen.webp',
-            image_large: 'images/services/200x200/cryopen.webp',
-            image_alt: 'Bild av Cryopen behandling för födelsemärken',
-            image_title: 'Cryopen behandling för födelsemärken',
+        image_small: 'images/services/200x200/cryopen.webp',
+        image_large: 'images/services/200x200/cryopen.webp',
+        image_alt: 'Bild av Cryopen behandling för hudflikar',
+        image_title: 'Cryopen behandling för hudflikar',
 
-            url: '',
-            url_label: '',
-            url_title: '',
+        consultation_url_label: 'Boka konsultation',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen',
+        consultation_url_title: 'Klicka för att boka tid för en konsultation för Cryopen behandling av hudflikar',
 
-            consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen',
-            consultation_url_title: 'Klicka för att boka tid för en konsultation för Cryopen behandling av födelsemärken',
-
-            booking_url_label: 'Boka behandling',
-            booking_url: 'https://acnespecialisten.se/book?flow=cryopen',
-            booking_url_title: 'Klicka för att boka tid för en behandling med Cryopen för födelsemärken'
-      ),
+        booking_url_label: 'Boka behandling',
+        booking_url: 'https://acnespecialisten.se/book?flow=cryopen',
+        booking_url_title: 'Klicka för att boka tid för en behandling med Cryopen för hudflikar'
+    ),
 );
 
 

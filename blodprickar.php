@@ -121,8 +121,7 @@ $articles = array(
             image_large: 'https://via.placeholder.com/872x456.webp',
             image_alt: 'När ska jag söka hjälp med mina blodprickar?',
             image_title: 'När ska jag söka hjälp med mina blodprickar?',
-            content: '<p class="p200">Blodprickar, även kända som cherry angiomas, är små röda hudförändringar som ofta är ofarliga. De kan dock orsaka estetisk obehag eller bekymmer. Om dina blodprickar börjar förändra sig i storlek, form eller färg, eller om du helt enkelt vill ta bort dem av kosmetiska skäl, kan det vara lämpligt att söka professionell hjälp. Det finns ingen "minsta gräns" för när det är lämpligt att söka professionell vård för blodprickar.</p>
-            <p class="p200 mt-m">Hos AcneSpecialisten erbjuder vi konsultationer där vi kan bedöma dina blodprickar och rekommendera lämpliga behandlingsalternativ. Våra metoder inkluderar laserbehandling och andra skonsamma tekniker för att säkert och effektivt ta bort blodprickar, vilket ger dig en klarare och jämnare hudton.</p>',
+            content: '<p class="p200">Blodprickar, även kända som cherry angiomas, är små röda hudförändringar som ofta är ofarliga. De kan dock orsaka estetisk obehag eller bekymmer. Om dina blodprickar börjar förändra sig i storlek, form eller färg, eller om du helt enkelt vill ta bort dem av kosmetiska skäl, kan det vara lämpligt att söka professionell hjälp. Det finns ingen "minsta gräns" för när det är lämpligt att söka professionell vård för blodprickar.</p>',
       ),
 
       new Article(
@@ -131,8 +130,7 @@ $articles = array(
             image_large: 'https://via.placeholder.com/872x456.webp',
             image_alt: 'Varför ska jag besöka AcneSpecialisten för mina blodprickar?',
             image_title: 'Varför ska jag besöka AcneSpecialisten för mina blodprickar?',
-            content: '<p class="p200">På AcneSpecialisten är vi experter på att behandla blodprickar och andra hudförändringar. Med vår erfarenhet och tillgång till avancerad teknologi erbjuder vi säkra och effektiva behandlingar. Vi förstår att varje klients behov är unika, och vi anpassar därför våra behandlingar för att passa just dina önskemål och hudtillstånd.</p>
-            <p class="p200 mt-m">Vårt team av kvalificerade hudterapeuter använder skonsamma metoder för att säkerställa att din upplevelse är bekväm och att resultaten är varaktiga. Vi erbjuder också skräddarsydda råd och hemmavårdsprogram för att hjälpa dig att upprätthålla resultatet och bibehålla en hälsosam hud. Välj AcneSpecialisten för en kompetent och omsorgsfull behandling av dina blodprickar.</p>',
+            content: '<p class="p200">På AcneSpecialisten är vi experter på att behandla blodprickar och andra hudförändringar. Med vår erfarenhet och tillgång till avancerad teknologi erbjuder vi säkra och effektiva behandlingar. Vi förstår att varje klients behov är unika, och vi anpassar därför våra behandlingar för att passa just dina önskemål och hudtillstånd.</p>',
       ),
 );
 
@@ -167,8 +165,8 @@ $headline02 = "02. Behandla blodprickar med Cryopen";
 $services = array(
       new Service(
             title: 'Behandling av blodprickar med Cryopen',
-            duration: '45 min',
-            price: '1295 kr',
+            duration: '20 min',
+            price: '995 kr',
             content: 'Cryopen är en effektiv behandlingsmetod som använder extrem kyla för att målinriktat behandla och ta bort blodprickar. Behandlingen är snabb och ger minimalt obehag, vilket gör den till ett effektivt sätt att minska synligheten av blodprickar.',
 
             image_small: 'images/services/200x200/cryopen.webp',
