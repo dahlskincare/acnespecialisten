@@ -142,7 +142,7 @@ $service = new Service(
       url: '',
       url_title: '',
 
-      consultation_url_label: 'Boka tid för hudkonsultation för födelsemärken',
+      consultation_url_label: 'Boka konsultation',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen',
       consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för födelsemärken',
 
@@ -169,11 +169,11 @@ $services = array(
             url_label: '',
             url_title: '',
 
-            consultation_url_label: 'Boka tid för konsultation för Cryopen behandling av födelsemärken',
+            consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen',
             consultation_url_title: 'Klicka för att boka tid för en konsultation för Cryopen behandling av födelsemärken',
 
-            booking_url_label: 'Boka tid för behandling med Cryopen för födelsemärken',
+            booking_url_label: 'Boka behandling',
             booking_url: 'https://acnespecialisten.se/book?flow=cryopen',
             booking_url_title: 'Klicka för att boka tid för en behandling med Cryopen för födelsemärken'
       ),
@@ -364,6 +364,18 @@ $specialists = array(
 
 $specialist_url_label = "Se alla specialister";
 $specialist_url_title = "Specialiserade Hudterapeuter";
+
+$related_problems = array(
+      new RelatedProblem(
+            name: 'Hudförändringar',
+            aka: 'gropar & Fläckar',
+            image: 'images/problems/102x102/hudforandringar.webp',
+            image_alt: 'Bild som visar hudforändringar',
+            image_title: 'Hudförändringar',
+            url: 'hudforandringar.php',
+            url_title: 'Hudförändringar'
+      ),
+);
 
 $brands = array(
       new Brand(

@@ -572,6 +572,18 @@ $specialists = array(
 $specialist_url_label = "Se alla specialister";
 $specialist_url_title = "Hudterapeuter specialisterade på hudförändringar";
 
+$related_problems = array(
+      new RelatedProblem(
+            name: 'Hudförändringar',
+            aka: 'gropar & Fläckar',
+            image: 'images/problems/102x102/hudforandringar.webp',
+            image_alt: 'Bild som visar hudforändringar',
+            image_title: 'Hudförändringar',
+            url: 'hudforandringar.php',
+            url_title: 'Hudförändringar'
+      ),
+);
+
 $brands = array(
       new Brand(
             label: 'Powerlite Photonova',
