@@ -73,7 +73,7 @@ $description_text = '<p class="p200">Fet hy kännetecknas av ökad sebumprodukti
 
 $treatment_steps = array(
       new TreatmentStep(
-            title: 'Identifiera Fet Hy',
+            title: 'Identifiera',
             content: 'Under din första konsultation hos AcneSpecialisten analyserar en hudterapeut din hud för att identifiera tecken på fet hy. Vi skapar en anpassad behandlingsplan baserad på din huds specifika behov.',
 
             url_label: 'Boka konsultation',
@@ -81,7 +81,7 @@ $treatment_steps = array(
             url_title: 'Boka din gratis konsultation för fet hy idag'
       ),
       new TreatmentStep(
-            title: 'Behandla Fet Hy',
+            title: 'Behandla',
             content: 'Vi erbjuder behandlingar som är specifikt utformade för att hantera utmaningarna med fet hy, inklusive djuprengöring, reglering av oljeproduktion och minimering av acne. Våra behandlingar syftar till att återställa balansen och förbättra hudens hälsa.',
 
             url_label: 'Utforska behandlingar',
@@ -89,7 +89,7 @@ $treatment_steps = array(
             url_title: 'Ta reda på vilka behandlingar som passar din fet hy'
       ),
       new TreatmentStep(
-            title: 'Förebygg Problem med Fet Hy',
+            title: 'Förebygg',
             content: 'Vi ger råd om hudvårdsrutiner och produkter som är idealiska för fet hy, för att hjälpa dig att förebygga framtida hudproblem och bibehålla en hälsosam hudton.',
 
             url_label: 'Se produkter',
