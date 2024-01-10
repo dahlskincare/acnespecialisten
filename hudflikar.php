@@ -71,7 +71,7 @@ $description_text = '<p class="p200">Hudflikar, även kända som skintags, är s
 
 $treatment_steps = array(
       new TreatmentStep(
-            title: 'Identifiera Hudflikar',
+            title: 'Identifiera',
             content: 'Vid din första konsultation hos AcneSpecialisten utförs en grundlig bedömning av dina hudflikar för att avgöra den mest lämpliga behandlingsmetoden. Vi diskuterar dina behov och förväntningar för att utforma en personlig behandlingsplan.',
 
             url_label: 'Boka gratis konsultation',
@@ -79,7 +79,7 @@ $treatment_steps = array(
             url_title: 'Boka din kostnadsfria konsultation för hudflikar idag'
       ),
       new TreatmentStep(
-            title: 'Behandla Hudflikar',
+            title: 'Behandla',
             content: 'Vi erbjuder olika behandlingsalternativ för att effektivt och skonsamt ta bort hudflikar. Våra metoder är anpassade efter dina specifika behov och hudtyp, och syftar till att ge en smärtfri upplevelse med minimal återhämtningsperiod.',
 
             url_label: 'Se behandlingar för hudflikar',

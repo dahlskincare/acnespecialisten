@@ -71,7 +71,7 @@ $description_text = '<p class="p200">Födelsemärken är pigmenterade hudförän
 
 $treatment_steps = array(
       new TreatmentStep(
-            title: 'Identifiera Födelsemärken',
+            title: 'Identifiera',
             content: 'Under din första konsultation med en av våra hudterapeuter görs en detaljerad bedömning av dina födelsemärken. Vi diskuterar dina behov och utformar en personlig behandlingsplan baserad på dina födelsemärkens karaktär och ditt hudtillstånd.',
 
             url_label: 'Boka gratis konsultation',
@@ -79,7 +79,7 @@ $treatment_steps = array(
             url_title: 'Boka din kostnadsfria konsultation för födelsemärken idag'
       ),
       new TreatmentStep(
-            title: 'Behandla Födelsemärken',
+            title: 'Behandla',
             content: 'Vi erbjuder skräddarsydda behandlingsalternativ för födelsemärken, anpassade efter dina individuella behov och hudtyp. Dessa kan innefatta laserterapi och andra moderna behandlingsmetoder, designade för att ge dig en säker och effektiv behandling.',
 
             url_label: 'Se behandlingar för födelsemärken',

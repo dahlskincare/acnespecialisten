@@ -83,7 +83,7 @@ $description_text = '<p class="p200">Blodprickar, även kända som cherry angiom
 
 $treatment_steps = array(
       new TreatmentStep(
-            title: 'Identifiera Blodprickar',
+            title: 'Identifiera',
             content: 'Vid ditt första besök får du en konsultation med en av våra erfarna hudterapeuter, som noggrant identifierar och bedömer dina blodprickar. Vi diskuterar dina önskemål och skapar en individuell behandlingsplan anpassad för din specifika situation.',
 
             url_label: 'Boka gratis konsultation',
@@ -91,7 +91,7 @@ $treatment_steps = array(
             url_title: 'Boka din kostnadsfria konsultation för blodprickar idag'
       ),
       new TreatmentStep(
-            title: 'Behandla Blodprickar',
+            title: 'Behandla',
             content: 'Vi erbjuder effektiva och skonsamma behandlingsalternativ för blodprickar, inklusive laser och andra moderna metoder. Våra behandlingar är anpassade för att ge optimala resultat samtidigt som din hudkomfort prioriteras.',
 
             url_label: 'Se behandlingar för blodprickar',
