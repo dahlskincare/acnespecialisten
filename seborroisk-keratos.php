@@ -5,52 +5,52 @@ include_once('problem/widgets/symptom-card/symptom.php');
 include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Behandling av Födelsemärken - Skonsamma Metoder | Acnespecialisten';
-$seo_description = 'Acnespecialisten erbjuder expertis inom behandling av födelsemärken. Med våra skonsamma och avancerade metoder kan vi effektivt hantera och ta bort olika typer av födelsemärken, vilket bidrar till en mer enhetlig hudton och förbättrat hudutseende.';
-$seo_keywords = 'födelsemärken, behandling av födelsemärken, hudförändringar, jämna ut hudton, ta bort födelsemärken, hudvård, Acnespecialisten, effektiv behandling, hudhälsa';
+$seo_title = 'Behandling av Seborroisk Keratos - Effektiva Metoder | Acnespecialisten';
+$seo_description = 'Acnespecialisten är experter på behandling av seborroisk keratos. Vi erbjuder skonsamma och avancerade metoder för att effektivt hantera dessa hudtillväxter, vilket bidrar till en förbättrad hudhälsa och ett jämnare hudutseende.';
+$seo_keywords = 'seborroisk keratos, behandling av seborroisk keratos, hudförändringar, jämn hudton, hudvård, Acnespecialisten, effektiv behandling, hudhälsa';
 
 $seo_image = 'images/treatments/large/hudforandringar.jpg';
 
-$title = 'Behandling av Födelsemärken';
+$title = 'Behandling av Seborroisk Keratos';
 
 $image_small = 'bilder/problem/424x324/hudforandringar.webp';
 $image_large = 'bilder/problem/424x456/hudforandringar.webp';
-$image_title = 'Skonsam och effektiv behandling av födelsemärken';
-$image_alt = 'Bild som illustrerar behandling av födelsemärken';
-$description = 'Födelsemärken är pigmenterade hudförändringar som kan variera i storlek, form och färg. Denna sida förklarar hur födelsemärken uppstår och de mest effektiva metoderna för att hantera dem. På Acnespecialisten använder vi skonsamma och avancerade tekniker för att säkert behandla födelsemärken, vilket hjälper till att förbättra hudens övergripande utseende och textur.';
+$image_title = 'Skonsam och effektiv behandling av seborroisk keratos';
+$image_alt = 'Bild som illustrerar behandling av seborroisk keratos';
+$description = 'Seborroisk keratos är godartade hudtillväxter som kan variera i storlek och utseende. På denna sida går vi igenom vad seborroisk keratos är och de mest effektiva behandlingsmetoderna. På Acnespecialisten använder vi skonsamma och moderna tekniker för att säkert behandla seborroisk keratos, vilket kan förbättra hudens utseende och textur utan att orsaka obehag.';
 
 $akas = [
       new Link(
-            label: 'Leverfläckar',
+            label: 'Hudförändringar',
             url: null,
-            title: 'Leverfläckar',
+            title: 'Hudförändringar',
       ),
 ];
 
-$floating_box = 'Vi behandlar födelsemärken effektivt och skonsamt';
+$floating_box = 'Vi behandlar seborroisk keratos effektivt och skonsamt';
 
 $consultation_url_label = "Få gratis konsultation";
 $consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen";
-$consultation_url_title = "Gratis Konsultation för Födelsemärken";
+$consultation_url_title = "Gratis Konsultation för seborroisk keratos";
 
 $booking_url_label = "Boka behandling";
 $booking_url = "https://acnespecialisten.se/book?flow=cryopen";
 $booking_url_title = "Boka behandling";
 
 $mobile_consultation_url_label = "Få gratis konsultation";
-$mobile_consultation_url_title = "Gratis Konsultation för Födelsemärken";
+$mobile_consultation_url_title = "Gratis Konsultation för seborroisk keratos";
 
 $mobile_booking_url_label = "Boka behandling";
 $mobile_booking_url_title = "Boka behandling";
 
 $floating_consultation_url_label = "Få gratis konsultation";
-$floating_consultation_url_title = "Gratis Konsultation för Födelsemärken";
+$floating_consultation_url_title = "Gratis Konsultation för seborroisk keratos";
 
 $floating_booking_url_label = "Boka behandling";
 $floating_booking_url_title = "Boka Behandling";
 
 $nav_buttons = array(
-      'about' => 'Om födelsemärken',
+      'about' => 'Om seborroisk keratos',
       'approach' => 'Metoden',
       'areas' => 'Områden',
       'define' => 'Konsultation',
@@ -65,118 +65,108 @@ $nav_buttons = array(
       'related-problems' => 'Relaterade problem',
 );
 
-$description_title = 'Vad är Födelsemärken?';
-$description_text = '<p class="p200">Födelsemärken är pigmenterade hudförändringar som kan variera i storlek, form och färg. Dessa hudmärken är ofta medfödda eller utvecklas under tidiga levnadsår. De kan vara helt ofarliga, men vissa typer av födelsemärken kan kräva uppmärksamhet, särskilt om de förändras över tid.</p>
-<p class="p200 mt-m">På AcneSpecialisten erbjuder vi expertbedömning och behandlingar för att säkert hantera födelsemärken. Våra metoder kan inkludera laserbehandling eller andra avancerade tekniker för att effektivt minska eller ta bort födelsemärken, vilket bidrar till en jämnare och mer enhetlig hudton.</p>';
+$description_title = 'Vad är seborroisk keratos?';
+$description_text = '<p class="p200">Seborroisk keratos, även känd som åldersvårtor, är godartade hudtillväxter som ofta uppstår hos äldre individer. Dessa vårtliknande hudförändringar varierar i färg från ljusbrun till mörkbrun och har en upphöjd, skrovlig yta. De är helt ofarliga men kan ibland orsaka kosmetisk oro eller irritation.</p>
+<p class="p200 mt-m">På AcneSpecialisten erbjuder vi behandling av seborroisk keratos. Med hjälp av moderna tekniker som CryoPen kan vi effektivt reducera eller ta bort dessa hudförändringar, vilket leder till en förbättrad hudton och texturen på huden.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
-            title: 'Identifiera Födelsemärken',
-            content: 'Under din första konsultation med en av våra hudterapeuter görs en detaljerad bedömning av dina födelsemärken. Vi diskuterar dina behov och utformar en personlig behandlingsplan baserad på dina födelsemärkens karaktär och ditt hudtillstånd.',
+            title: 'Identifiera seborroisk keratos',
+            content: 'Vid din första konsultation hos AcneSpecialisten utförs en grundlig bedömning av dina seborroisk keratos. Våra erfarna hudterapeuter kommer att analysera hudtillväxterna och rekommendera en behandlingsplan som är anpassad efter dina behov och hudtillstånd.',
 
             url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Fodelsemarken',
-            url_title: 'Boka din kostnadsfria konsultation för födelsemärken idag'
+            url_title: 'Boka din kostnadsfria konsultation för seborroisk keratos idag'
       ),
       new TreatmentStep(
-            title: 'Behandla Födelsemärken',
-            content: 'Vi erbjuder skräddarsydda behandlingsalternativ för födelsemärken, anpassade efter dina individuella behov och hudtyp. Dessa kan innefatta laserterapi och andra moderna behandlingsmetoder, designade för att ge dig en säker och effektiv behandling.',
+            title: 'Behandla seborroisk keratos',
+            content: 'AcneSpecialisten erbjuder en rad behandlingsalternativ för seborroisk keratos, inklusive laserterapi och andra icke-invasiva metoder. Vår målsättning är att ge dig en skonsam, säker och effektiv behandling som minimerar hudförändringarna och förbättrar hudens utseende.',
 
-            url_label: 'Se behandlingar för födelsemärken',
-            url: 'behandlingar/hudforandringar/behandla-hudforandringar',
-            url_title: 'Läs mer om våra behandlingar för födelsemärken'
+            url_label: 'Se behandlingar för seborroisk keratos',
+            url: 'problem/hudforandringar/behandla-hudforandringar',
+            url_title: 'Läs mer om våra behandlingar för seborroisk keratos'
       ),
 );
 
-$treatment_link = '<a href="problem/hudforandringar/behandla-hudforandringar" title="Utforska effektiva behandlingar mot födelsemärken" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot födelsemärken</a>';
+$treatment_link = '<a href="problem/hudforandringar/behandla-hudforandringar" title="Utforska effektiva behandlingar mot seborroisk keratos" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot seborroisk keratos</a>';
 
 $top_articles = array(
     'areas' => new Article(
-        title: 'Områden för födelsemärken',
+        title: 'Områden för seborroisk keratos',
         image_small: '',
         image_large: '',
         image_alt: '',
         image_title: '',
-        content: '<p class="p200">Födelsemärken är vanligt förekommande hudförändringar som kan uppstå var som helst på kroppen. De varierar i storlek, form och färg och kan vara platta eller upphöjda. De flesta födelsemärken är ofarliga, men det är viktigt att hålla koll på eventuella förändringar som kan tyda på hudproblem.</p>
-      <p class="p200 mt-m">Vissa födelsemärken kan behöva medicinsk uppmärksamhet, speciellt om de förändras i storlek, form eller färg. AcneSpecialisten erbjuder professionell rådgivning och behandling för att hantera födelsemärken som kan vara av medicinsk eller estetisk betydelse.</p>',
+        content: '<p class="p200">Seborroisk keratos, även känd som åldersvårtor, är en typ av hudförändringar som ofta uppträder på områden som är utsatta för solen, såsom ansikte, bröst, rygg och armar. Dessa förändringar kännetecknas av en upphöjd, skrovlig yta och kan variera i färg från ljus till mörkbrun.</p>
+      <p class="p200 mt-m">Medan seborroisk keratos vanligen är ofarliga, är det viktigt att övervaka för eventuella förändringar i storlek eller färg som kan signalera hudproblem. AcneSpecialisten erbjuder professionell konsultation och behandling för att säkert hantera seborroisk keratos, oavsett om det är av estetiska skäl eller hälsorelaterade orsaker.</p>',
     ),
 );
 
 $articles = array(
       new Article(
-            title: 'När ska jag söka hjälp för mina födelsemärken?',
+            title: 'När ska jag söka hjälp för mina seborroisk keratos?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'När ska jag söka hjälp för mina födelsemärken?',
-            image_title: 'När ska jag söka hjälp för mina födelsemärken?',
-            content: '<p class="p200">Födelsemärken är vanligtvis ofarliga, men det är viktigt att hålla koll på dem för eventuella förändringar. Om du märker några förändringar i storlek, form, färg eller om födelsemärken orsakar obehag, bör du söka professionell hjälp. En hudspecialist kan bedöma dina födelsemärken och rekommendera lämplig behandling om det behövs.</p>',
+            image_alt: 'När ska jag söka hjälp för mina seborroisk keratos?',
+            image_title: 'När ska jag söka hjälp för mina seborroisk keratos?',
+            content: '<p class="p200">Även om seborroisk keratos oftast är ofarliga, är det viktigt att vara uppmärksam på förändringar i utseende. Om du märker att en seborroisk keratos förändrar färg, storlek, form, eller börjar blöda, är det viktigt att söka professionell bedömning.</p>',
       ),
 
       new Article(
-            title: 'Varför ska jag besöka AcneSpecialisten för mina födelsemärken?',
+            title: 'Varför ska jag besöka AcneSpecialisten för mina seborroisk keratos?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'Varför ska jag besöka AcneSpecialisten för mina födelsemärken?',
-            image_title: 'Varför ska jag besöka AcneSpecialisten för mina födelsemärken?',
-            content: '<p class="p200">På AcneSpecialisten är vi specialiserade på att behandla födelsemärken och andra hudförändringar. Vi erbjuder säkra och effektiva behandlingsalternativ för att hjälpa dig att hantera dina födelsemärken.</p>',
+            image_alt: 'Varför ska jag besöka AcneSpecialisten för mina seborroisk keratos?',
+            image_title: 'Varför ska jag besöka AcneSpecialisten för mina seborroisk keratos?',
+            content: '<p class="p200">AcneSpecialisten erbjuder avancerade behandlingar för seborroisk keratos, inklusive laserterapi och kryoterapi, för att effektivt och säkert behandla dessa hudförändringar. Vårt team av erfarna hudspecialister arbetar för att ge dig en personligt anpassad behandlingsplan som passar dina specifika behov och hudtillstånd.</p>',
       ),
 );
 
-
-$headline01 = "01. Identifiera dina födelsemärken";
+$headline01 = "01. Identifiera dina seborroisk keratos";
 
 $service = new Service(
-      title: 'Konsultation för födelsemärken',
+      title: 'Konsultation för seborroisk keratos',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Under en personlig konsultation med en hudspecialist genomförs en noggrann bedömning av dina födelsemärken. Vi tar före-bilder och diskuterar olika behandlingsalternativ, inklusive möjligheten att använda Cryopen eller andra metoder, för att skräddarsy en behandlingsplan som passar dina specifika behov.',
+      content: 'Vid en konsultation hos AcneSpecialisten utförs en undersökning av dina seborroisk keratos. Våra hudexperter tar före-bilder och diskuterar med dig de mest lämpliga behandlingsalternativen, som kan inkludera Cryopen eller andra skonsamma metoder, för att skapa en individanpassad behandlingsplan som passar dina unika behov.',
 
       image_small: 'images/services/200x200/konsultation.webp',
       image_large: 'images/services/200x200/konsultation.webp',
-      image_alt: 'Bild av en konsultation för behandling av födelsemärken',
-      image_title: 'Konsultation för behandling av födelsemärken',
-
-      url_label: '',
-      url: '',
-      url_title: '',
+      image_alt: 'Bild av en konsultation för behandling av seborroisk keratos',
+      image_title: 'Konsultation för behandling av seborroisk keratos',
 
       consultation_url_label: 'Boka konsultation',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen',
-      consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för födelsemärken',
+      consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för seborroisk keratos',
 
       booking_url_label: null,
       booking_url: null,
       booking_url_title: null,
 );
 
-$headline02 = "02. Behandla födelsemärken med Cryopen";
+$headline02 = "02. Behandla seborroisk keratos med Cryopen";
 
 $services = array(
       new Service(
-            title: 'Behandling av födelsemärken med Cryopen',
+            title: 'Behandling av seborroisk keratos med Cryopen',
             duration: '20 min',
             price: '995 kr',
-            content: 'Cryopen är en avancerad och skonsam behandlingsmetod som använder extrem kyla för att målinriktat behandla och ta bort födelsemärken. Denna behandling är snabb, effektiv och orsakar minimalt obehag, vilket gör den idealisk för att minska synligheten av födelsemärken.',
+            content: 'Cryopen är en innovativ behandling som använder kryoterapi för att målinriktat och skonsamt behandla seborroisk keratos. Denna snabba och effektiva metod minimerar obehag och är utmärkt för att reducera synligheten av seborroisk keratos, vilket ger en jämnare och förbättrad hudton.',
 
             image_small: 'images/services/200x200/cryopen.webp',
             image_large: 'images/services/200x200/cryopen.webp',
-            image_alt: 'Bild av Cryopen behandling för födelsemärken',
-            image_title: 'Cryopen behandling för födelsemärken',
-
-            url: '',
-            url_label: '',
-            url_title: '',
+            image_alt: 'Bild av Cryopen behandling för seborroisk keratos',
+            image_title: 'Cryopen behandling för seborroisk keratos',
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen',
-            consultation_url_title: 'Klicka för att boka tid för en konsultation för Cryopen behandling av födelsemärken',
+            consultation_url_title: 'Klicka för att boka tid för en konsultation för Cryopen behandling av seborroisk keratos',
 
             booking_url_label: 'Boka behandling',
             booking_url: 'https://acnespecialisten.se/book?flow=cryopen',
-            booking_url_title: 'Klicka för att boka tid för en behandling med Cryopen för födelsemärken'
+            booking_url_title: 'Klicka för att boka tid för en behandling med Cryopen för seborroisk keratos'
       ),
 );
-
 
 $results = array(
       new ResultCustomer(

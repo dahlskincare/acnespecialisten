@@ -132,7 +132,7 @@ $treatment_steps = array(
             content: 'Oavsett om det är oljiga fläckar, torrhet eller båda, erbjuder vi specialiserade behandlingar som tar itu med dina specifika problemområden, för att återställa balansen i din hud.',
 
             url_label: 'Utforska behandlingar',
-            url: 'behandlingar/blandhy/blandhybehandling',
+            url: 'problem/blandhy/blandhybehandling',
             url_title: 'Ta reda på vilka behandlingar som passar din blandhy'
       ),
       new TreatmentStep(

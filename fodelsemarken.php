@@ -83,7 +83,7 @@ $treatment_steps = array(
             content: 'Vi erbjuder skräddarsydda behandlingsalternativ för födelsemärken, anpassade efter dina individuella behov och hudtyp. Dessa kan innefatta laserterapi och andra moderna behandlingsmetoder, designade för att ge dig en säker och effektiv behandling.',
 
             url_label: 'Se behandlingar för födelsemärken',
-            url: 'behandlingar/hudforandringar/behandla-hudforandringar',
+            url: 'problem/hudforandringar/behandla-hudforandringar',
             url_title: 'Läs mer om våra behandlingar för födelsemärken'
       ),
 );
@@ -129,7 +129,7 @@ $service = new Service(
       title: 'Konsultation för födelsemärken',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Under en personlig konsultation med en hudspecialist genomförs en noggrann bedömning av dina födelsemärken. Vi tar före-bilder och diskuterar olika behandlingsalternativ, inklusive möjligheten att använda Cryopen eller andra metoder, för att skräddarsy en behandlingsplan som passar dina specifika behov.',
+      content: 'Under en personlig konsultation med en hudspecialist genomförs en noggrann undersökning av dina födelsemärken. Vi tar före-bilder och diskuterar olika behandlingsalternativ, inklusive möjligheten att använda Cryopen eller andra metoder, för att skräddarsy en behandlingsplan som passar dina specifika behov.',
 
       image_small: 'images/services/200x200/konsultation.webp',
       image_large: 'images/services/200x200/konsultation.webp',

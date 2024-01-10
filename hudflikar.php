@@ -83,7 +83,7 @@ $treatment_steps = array(
             content: 'Vi erbjuder olika behandlingsalternativ för att effektivt och skonsamt ta bort hudflikar. Våra metoder är anpassade efter dina specifika behov och hudtyp, och syftar till att ge en smärtfri upplevelse med minimal återhämtningsperiod.',
 
             url_label: 'Se behandlingar för hudflikar',
-            url: 'behandlingar/hudforandringar/behandla-hudforandringar',
+            url: 'problem/hudforandringar/behandla-hudforandringar',
             url_title: 'Läs mer om våra behandlingar för hudflikar'
       ),
 );

@@ -115,14 +115,14 @@ $treatment_steps = array(
             title: 'Diagnostisera',
             content: 'På AcneSpecialisten tar en erfaren hudterapeut hand om dig, undersöker dina hudproblem och identifierar specifika ärr från finnar som gropar och fläckar. Vi tar hänsyn till dina unika behov och skapar en skräddarsydd behandlingsplan för att ge dig de bästa resultaten.',
             url_label: 'Boka en gratis konsultation',
-            url: 'gratis-hudkonsultation',
+            url: 'gratis-hudkonsultation.php',
             url_title: 'Boka din kostnadsfria konsultation om ärr från finnar idag'
       ),
       new TreatmentStep(
             title: 'Behandlingsprocess',
             content: 'Genom att använda specialiserade metoder för behandling av ärr från finnar, erbjuder vi lösningar som är perfekt anpassade till dina specifika behov. Vår expertis ger en effektiv förbättring av hudens utseende, så att du snabbt kan se resultat och känna dig nöjd med din hud.',
             url_label: 'Utforska våra ärrbehandlingar',
-            url: 'behandlingar/arr-fran-finnar',
+            url: 'behandla-finnar-arr.php',
             url_title: 'Upptäck våra unika och effektiva behandlingar för ärr från finnar'
       ),
 );

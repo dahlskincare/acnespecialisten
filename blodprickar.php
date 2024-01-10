@@ -95,7 +95,7 @@ $treatment_steps = array(
             content: 'Vi erbjuder effektiva och skonsamma behandlingsalternativ för blodprickar, inklusive laser och andra moderna metoder. Våra behandlingar är anpassade för att ge optimala resultat samtidigt som din hudkomfort prioriteras.',
 
             url_label: 'Se behandlingar för blodprickar',
-            url: 'behandlingar/hudforandringar/behandla-hudforandringar',
+            url: 'problem/hudforandringar/behandla-hudforandringar',
             url_title: 'Läs mer om behandlingar för blodprickar'
       ),
 );
@@ -140,7 +140,7 @@ $service = new Service(
       title: 'Konsultation för blodprickar',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Under en personlig konsultation med en hudspecialist utförs en grundlig bedömning av dina blodprickar. Vi tar före-bilder och diskuterar lämpliga behandlingsalternativ, inklusive möjligheten att använda Cryopen, för att skräddarsy en behandlingsplan som passar dina specifika behov.',
+      content: 'Under en personlig konsultation med en hudspecialist utförs en grundlig undersökning av dina blodprickar. Vi tar före-bilder och diskuterar lämpliga behandlingsalternativ, inklusive möjligheten att använda Cryopen, för att skräddarsy en behandlingsplan som passar dina specifika behov.',
 
       image_small: 'images/services/200x200/konsultation.webp',
       image_large: 'images/services/200x200/konsultation.webp',
