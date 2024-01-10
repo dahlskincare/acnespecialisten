@@ -5,21 +5,21 @@ include_once('problem/widgets/symptom-card/symptom.php');
 include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Allt om Fet Hy - Orsaker, Behandling och Vård | Acnespecialisten';
-$seo_description = 'Upptäck allt om fet hy och hur du bäst hanterar den. Få experttips och skräddarsydda lösningar från Acnespecialisten för en klarare och friskare hud.';
-$seo_keywords = 'fet hy, behandling av fet hy, orsaker till fet hy, hudvård, balansera fet hy, hudproblem, hudvårdsexpert, Acnespecialisten, ansiktsvård, hudhälsa';
+$seo_title = 'Allt om Oljig Hy - Orsaker, Behandling och Vård | Acnespecialisten';
+$seo_description = 'Utforska allt om oljig hy och de bästa sätten att hantera den. Få expertråd och anpassade lösningar från Acnespecialisten för en balanserad och frisk hud.';
+$seo_keywords = 'oljig hy, behandling av oljig hy, orsaker till oljig hy, hudvård, kontrollera oljig hy, hudproblem, hudvårdsexpert, Acnespecialisten, ansiktsvård, hudhälsa';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamedier eller sms
 
 $seo_image = 'bilder/problem/424x456/blandhy.webp';
 
-$title = 'Fet Hy';
+$title = 'oljig hy';
 
 $image_small = 'bilder/problem/424x324/blandhy.webp';
 $image_large = 'bilder/problem/424x456/blandhy.webp';
-$image_title = 'Visar en hud med fet hy';
-$image_alt = 'Bild som illustrerar utseendet av fet hy';
-$description = 'I denna avsnittet förklarar vi vad som kännetecknar fet hy, varför det uppstår och hur Acnespecialisten kan hjälpa dig att hantera och behandla ditt hudtillstånd. Vi diskuterar orsaker till fet hy, hur den skiljer sig från andra hudtyper, och hur vi kan stödja dig genom din personliga hudvårdsresa.';
+$image_title = 'Visar en hud med oljig hy';
+$image_alt = 'Bild som illustrerar utseendet av oljig hy';
+$description = 'I detta avsnittet går vi igenom vad som utmärker oljig hy, varför det uppstår och hur Acnespecialisten kan bistå dig i att hantera och behandla denna hudtyp. Vi utforskar de specifika orsakerna till oljig hy, hur den skiljer sig från andra hudtyper, och hur vi kan stödja dig i din individuella hudvårdsresa.';
 
 $akas = [
       new Link(
@@ -29,24 +29,24 @@ $akas = [
       ),
 ];
 
-$floating_box = 'Behandling av fet hy.';
+$floating_box = 'Behandling av oljig hy.';
 
 $consultation_url_label = "Få gratis konsultation";
 $consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin";
-$consultation_url_title = "Gratis Konsultation för fet hy";
+$consultation_url_title = "Gratis Konsultation för oljig hy";
 
 $booking_url_label = "Boka behandling";
 $booking_url = "https://acnespecialisten.se/book?flow=problem&problem=Problem_CombinationSkin";
 $booking_url_title = "Boka behandling";
 
 $mobile_consultation_url_label = "Få gratis konsultation";
-$mobile_consultation_url_title = "Gratis Konsultation för fet hy";
+$mobile_consultation_url_title = "Gratis Konsultation för oljig hy";
 
 $mobile_booking_url_label = "Boka behandling";
 $mobile_booking_url_title = "Boka behandling";
 
 $floating_consultation_url_label = "Få gratis konsultation";
-$floating_consultation_url_title = "Gratis Konsultation för fet hy";
+$floating_consultation_url_title = "Gratis Konsultation för oljig hy";
 
 $floating_booking_url_label = "Boka behandling";
 $floating_booking_url_title = "Boka behandling";
@@ -67,59 +67,60 @@ $nav_buttons = array(
       'related-problems' => 'Relaterade problem',
 );
 
-$description_title = 'Vad är Fet Hy?';
-$description_text = '<p class="p200">Fet hy kännetecknas av ökad talgproduktion vilket ger en oljig yta och kan leda till tilltäppta porer och acne. Det är viktigt att hantera fet hy med rätt produkter och behandlingar för att balansera oljeproduktionen och bibehålla en klar hudton.</p>
-<p class="p200 mt-m">På AcneSpecialisten erbjuder vi anpassade behandlingar för fet hy. Detta inkluderar djuprengörande ansiktsbehandlingar, användning av specialprodukter för att reglera oljeproduktionen, och behandlingar som effektivt tar itu med acne och andra hudproblem som ofta förekommer hos personer med fet hy. Vårt mål är att hjälpa dig uppnå en balanserad, klar och frisk hud.</p>';
+$description_title = 'Vad är oljig hy?';
+$description_text = '<p class="p200">Oljig hy kännetecknas av en ökad produktion av talg, vilket resulterar i en glansig, oljig yta. Denna hudtyp kan bidra till problem såsom tilltäppta porer, acne och en ojämn hudton. En effektiv hantering av oljig hy kräver en kombination av rätt hudvårdsprodukter och professionella behandlingar för att reglera oljeproduktionen.</p>
+<p class="p200 mt-m">Hos Acnespecialisten erbjuder vi skräddarsydda behandlingar speciellt utformade för oljig hy. Våra tjänster inkluderar grundliga, djuprengörande ansiktsbehandlingar som effektivt avlägsnar överflödigt talg och orenheter. Vi använder också speciellt utvalda produkter som hjälper till att kontrollera oljeproduktionen och behandla vanligt förekommande hudproblem associerade med oljig hy, såsom acne. Vårt mål är att erbjuda dig en skräddarsydd hudvårdsplan som leder till en balanserad, klar och frisk hud.</p>';
+
 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Under din första konsultation hos AcneSpecialisten analyserar en hudterapeut din hud för att identifiera tecken på fet hy. Vi skapar en anpassad behandlingsplan baserad på din huds specifika behov.',
+            content: 'Under din första konsultation hos AcneSpecialisten analyserar en hudterapeut din hud för att identifiera tecken på oljig hy. Vi skapar en anpassad behandlingsplan baserad på din huds specifika behov.',
 
             url_label: 'Boka konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin',
-            url_title: 'Boka din gratis konsultation för fet hy idag'
+            url_title: 'Boka din gratis konsultation för oljig hy idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi erbjuder behandlingar som är specifikt utformade för att hantera utmaningarna med fet hy, inklusive djuprengöring, reglering av oljeproduktion och minimering av acne. Våra behandlingar syftar till att återställa balansen och förbättra hudens hälsa.',
+            content: 'Vi erbjuder behandlingar som är specifikt utformade för att hantera utmaningarna med oljig hy, inklusive djuprengöring, reglering av oljeproduktion och minimering av acne. Våra behandlingar syftar till att återställa balansen och förbättra hudens hälsa.',
 
             url_label: 'Utforska behandlingar',
             url: 'problem/fet-hy/fet-hybehandling',
-            url_title: 'Ta reda på vilka behandlingar som passar din fet hy'
+            url_title: 'Ta reda på vilka behandlingar som passar din oljig hy'
       ),
       new TreatmentStep(
             title: 'Förebygg',
-            content: 'Vi ger råd om hudvårdsrutiner och produkter som är idealiska för fet hy, för att hjälpa dig att förebygga framtida hudproblem och bibehålla en hälsosam hudton.',
+            content: 'Vi ger råd om hudvårdsrutiner och produkter som är idealiska för oljig hy, för att hjälpa dig att förebygga framtida hudproblem och bibehålla en hälsosam hudton.',
 
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/blandhy',
-            url_title: 'Bläddra bland våra produkter för fet hy'
+            url_title: 'Bläddra bland våra produkter för oljig hy'
       ),
 );
 
-$treatment_link = '<a href="problem/blandhy/blandhybehandling" title="Utforska effektiv fet hy-behandling" class="mt-xl button b200 outline expand auto-width">Läs mer om vår behandling för fet hy</a>';
+$treatment_link = '<a href="problem/blandhy/blandhybehandling" title="Utforska effektiv oljig hy-behandling" class="mt-xl button b200 outline expand auto-width">Läs mer om vår behandling för oljig hy</a>';
 
 $top_articles = array(
     'areas' => new Article(
-        title: 'Fet hy områden',
+        title: 'oljig hy områden',
         image_small: '',
         image_large: '',
         image_alt: '',
         image_title: '',
-        content: '<p class="p200">Fet hy kännetecknas ofta av en ökad oljeproduktion i specifika områden av ansiktet, särskilt i T-zonen som inkluderar pannan, näsan och hakan. Dessa områden har en högre koncentration av talgkörtlar, vilket kan leda till en mer oljig hudton jämfört med andra delar av ansiktet.</p>
-      <p class="p200 mt-m">Orsaken till fet hy i dessa områden kan variera och inkluderar faktorer som genetik, hormonella förändringar och yttre miljöpåverkan. Att förstå de specifika orsakerna och hur de påverkar din hud är avgörande för att kunna välja rätt behandlingsmetoder och hudvårdsprodukter. Hos AcneSpecialisten genomför vi en noggrann hudanalys för att identifiera dina unika hudbehov och utforma en personlig behandlingsplan för att hantera fet hy effektivt.</p>',
+        content: '<p class="p200">oljig hy kännetecknas ofta av en ökad oljeproduktion i specifika områden av ansiktet, särskilt i T-zonen som inkluderar pannan, näsan och hakan. Dessa områden har en högre koncentration av talgkörtlar, vilket kan leda till en mer oljig hudton jämfört med andra delar av ansiktet.</p>
+      <p class="p200 mt-m">Orsaken till oljig hy i dessa områden kan variera och inkluderar faktorer som genetik, hormonella förändringar och yttre miljöpåverkan. Stress och kost kan också spela en roll i utvecklingen av oljig hy. Att förstå de specifika orsakerna och hur de påverkar din hud är avgörande för att kunna välja rätt behandlingsmetoder och hudvårdsprodukter. Hos AcneSpecialisten genomför vi en noggrann hudanalys för att identifiera dina unika hudbehov och utforma en personlig behandlingsplan för att hantera oljig hy effektivt.</p>',
     ),
 );
 
 $articles = array(
       new Article(
-            title: 'När ska jag söka hjälp med fet hy?',
+            title: 'När ska jag söka hjälp med oljig hy?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'När ska jag söka hjälp med fet hy?',
-            image_title: 'När ska jag söka hjälp med fet hy?',
-            content: '<p class="p200">Fet hy är en vanlig hudåkomma som kan påverka individer i alla åldrar. Detta tillstånd, som kännetecknas av ökad oljeproduktion, kan leda till en glansig hud och ökad benägenhet för acneutbrott. Om du märker att din fet hy bidrar till hudproblem eller om du har försökt hantera det med olika produkter utan framgång, kan det vara dags att överväga professionell hjälp. Kom ihåg, det är lämpligt att söka hjälp oavsett om du upplever milda eller allvarliga symptom.</p>',
+            image_alt: 'När ska jag söka hjälp med oljig hy?',
+            image_title: 'När ska jag söka hjälp med oljig hy?',
+            content: '<p class="p200">oljig hy är en vanlig hudåkomma som kan påverka individer i alla åldrar. Detta tillstånd, som kännetecknas av ökad oljeproduktion, kan leda till en glansig hud och ökad benägenhet för acneutbrott. Om du märker att din oljig hy bidrar till hudproblem eller om du har försökt hantera det med olika produkter utan framgång, kan det vara dags att överväga professionell hjälp. Kom ihåg, det är lämpligt att söka hjälp oavsett om du upplever milda eller allvarliga symptom.</p>',
       ),
 
       new Article(
@@ -128,23 +129,23 @@ $articles = array(
             image_large: 'https://via.placeholder.com/872x456.webp',
             image_alt: 'Varför ska jag besöka AcneSpecialisten?',
             image_title: 'Varför ska jag besöka AcneSpecialisten?',
-            content: '<p class="p200">Om du söker en effektiv och hållbar lösning för din fet hy, är AcneSpecialisten det självklara valet. Med över 30 års erfarenhet inom hudvård och en specialisering i behandling av fet hy, har vi den expertis som behövs för att anpassa behandlingen efter dina unika behov.</p>
-          <p class="p200 mt-m">Vi använder oss av de senaste metoderna och teknologierna inom hudvård för att säkerställa de bästa möjliga resultaten för din hud. Vårt team av erfarna hudterapeuter är beredda att skapa en individuellt anpassad behandlingsplan och ge dig stöd genom hela din hudvårdsresa. Med regelbundna uppföljningar och skräddarsydda hemmavårdsprogram ser vi till att din fet hy får en varaktig förbättring.</p>',
+            content: '<p class="p200">Om du söker en effektiv och hållbar lösning för din oljig hy, är AcneSpecialisten det självklara valet. Med över 30 års erfarenhet inom hudvård och en specialisering i behandling av oljig hy, har vi den expertis som behövs för att anpassa behandlingen efter dina unika behov.</p>
+          <p class="p200 mt-m">Vi använder oss av de senaste metoderna och teknologierna inom hudvård för att säkerställa de bästa möjliga resultaten för din hud. Vårt team av erfarna hudterapeuter är beredda att skapa en individuellt anpassad behandlingsplan och ge dig stöd genom hela din hudvårdsresa. Med regelbundna uppföljningar och skräddarsydda hemmavårdsprogram ser vi till att din oljig hy får en varaktig förbättring.</p>',
       ),
 );
 
-$headline01 = "01. Identifiera fet hy";
+$headline01 = "01. Identifiera oljig hy";
 
 $service = new Service(
-      title: 'Konsultation för fet hy',
+      title: 'Konsultation för oljig hy',
       duration: '20 min',
       price: 'Kostnadsfri',
       content: 'Din resa mot en balanserad hud börjar med en personlig konsultation hos AcneSpecialisten. Under mötet analyserar en erfaren hudterapeut din feta hy, tar före-bilder, och diskuterar med dig för att förstå din huds unika behov. Vi rekommenderar den mest effektiva behandlingsmetoden för din hudtyp och utformar en anpassad behandlingsplan specifikt för dig.',
 
       image_small: 'images/services/200x200/konsultation.webp',
       image_large: 'images/services/200x200/konsultation.webp',
-      image_alt: 'Bild av en konsultation för fet hy',
-      image_title: 'Konsultation för fet hy',
+      image_alt: 'Bild av en konsultation för oljig hy',
+      image_title: 'Konsultation för oljig hy',
 
       url_label: '',
       url: '',
@@ -152,26 +153,26 @@ $service = new Service(
 
       consultation_url_label: 'Boka konsultation',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin',
-      consultation_url_title: 'Klicka för att boka tid för en konsultation om fet hy',
+      consultation_url_title: 'Klicka för att boka tid för en konsultation om oljig hy',
 
       booking_url_label: null,
       booking_url: null,
       booking_url_title: null,
 );
 
-$headline02 = "02. Behandla fet hy";
+$headline02 = "02. Behandla oljig hy";
 
 $services = array(
       new Service(
-            title: 'Ansiktsbehandling för fet hy',
+            title: 'Ansiktsbehandling för oljig hy',
             duration: '60 min',
             price: '995 kr',
-            content: 'Denna anpassade ansiktsbehandling är särskilt utvecklad för att möta de unika utmaningarna med fet hy. Vi fokuserar på att noggrant rengöra huden för att ta bort överflödig olja och föroreningar, samtidigt som vi använder specialiserade exfolieringsmetoder för att förebygga tilltäppta porer. Behandlingen syftar även till att återställa hudens naturliga balans, vilket minskar oönskad glans och ger en förbättrad hudtextur och en hälsosam lyster.',
+            content: 'Denna anpassade ansiktsbehandling är särskilt utvecklad för att möta de unika utmaningarna med oljig hy. Vi fokuserar på att noggrant rengöra huden för att ta bort överflödig olja och föroreningar, samtidigt som vi använder specialiserade exfolieringsmetoder för att förebygga tilltäppta porer. Behandlingen syftar även till att återställa hudens naturliga balans, vilket minskar oönskad glans och ger en förbättrad hudtextur och en hälsosam lyster.',
 
             image_small: 'images/services/200x200/ansiktsbehandling.webp',
             image_large: 'images/services/200x200/ansiktsbehandling.webp',
-            image_alt: 'Bild av en ansiktsbehandling för fet hy',
-            image_title: 'Ansiktsbehandling för fet hy',
+            image_alt: 'Bild av en ansiktsbehandling för oljig hy',
+            image_title: 'Ansiktsbehandling för oljig hy',
 
             url: '',
             url_label: '',
@@ -179,27 +180,27 @@ $services = array(
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling för fet hy',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling för oljig hy',
 
             booking_url_label: 'Boka behandling',
             booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones',
-            booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling för fet hy'
+            booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling för oljig hy'
       ),
 );
 
-$headline03 = "03. Förebygg uppkomsten av ny fet hy";
+$headline03 = "03. Förebygg uppkomsten av ny oljig hy";
 
 $products = array(
       new Service(
-            title: 'Produkter mot fet hy',
+            title: 'Produkter mot oljig hy',
             duration: null,
             price: 'Pris från 1495 kr',
-            content: 'Att hantera fet hy kräver en noggrann urval av produkter som effektivt kan reglera och balansera talgproduktionen utan att överdriva huden. Genom daglig användning av våra specialutformade produkter för fet hy kan du uppnå en mer balanserad hudton, minskad oljighet och förbättrad hudhälsa. Dessa produkter är utvecklade för att ge en ren, fräsch känsla och en klarare hud.',
+            content: 'Att hantera oljig hy kräver en noggrann urval av produkter som effektivt kan reglera och balansera talgproduktionen utan att överdriva huden. Genom daglig användning av våra specialutformade produkter för oljig hy kan du uppnå en mer balanserad hudton, minskad oljighet och förbättrad hudhälsa. Dessa produkter är utvecklade för att ge en ren, fräsch känsla och en klarare hud.',
 
             image_small: 'images/services/200x200/produkter.webp',
             image_large: 'images/services/200x200/produkter.webp',
-            image_alt: 'Bild av produkter designade för behandling av fet hy',
-            image_title: 'Effektiva produkter för att hantera fet hy',
+            image_alt: 'Bild av produkter designade för behandling av oljig hy',
+            image_title: 'Effektiva produkter för att hantera oljig hy',
 
             url_label: '',
             url: '',
@@ -207,11 +208,11 @@ $products = array(
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för hudvårdsprodukter mot fet hy',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för hudvårdsprodukter mot oljig hy',
 
             booking_url_label: 'Köp produkter',
             booking_url: 'https://dahlskincare.se/produktkategorier/produktpaket/blandhy',
-            booking_url_title: 'Klicka för att köpa produktpaket mot fet hy',
+            booking_url_title: 'Klicka för att köpa produktpaket mot oljig hy',
       )
 );
 
@@ -260,7 +261,7 @@ $reviews = array(
       new Review(
             brand: 'Trustpilot',
             title: 'Supernöjd',
-            text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all fet hy efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
+            text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all oljig hy efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
             signature: 'Sofia',
             stars: 5,
             logo_url: 'images/brands/trustpilot.svg'
@@ -269,7 +270,7 @@ $reviews = array(
       new Review(
             brand: 'Google',
             title: 'Jag är mycket nöjd..',
-            text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och fet hyn är betydligt mildare",
+            text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och oljig hyn är betydligt mildare",
             signature: 'Lovisa',
             stars: 5,
             logo_url: 'images/brands/google-small.svg'
@@ -278,7 +279,7 @@ $reviews = array(
       new Review(
             brand: 'Bokadirekt',
             title: 'Rekommenderar varmt!',
-            text: "Det enda som fungerat mot min fet hy med synliga resultat. Jättetrevlig och kunnig behandlare!",
+            text: "Det enda som fungerat mot min oljig hy med synliga resultat. Jättetrevlig och kunnig behandlare!",
             signature: 'Emily',
             stars: 5,
             logo_url: 'images/brands/bokadirekt-small.svg'
@@ -399,15 +400,15 @@ $specialists = array(
 );
 
 $specialist_url_label = "Se alla specialister";
-$specialist_url_title = "fet hy Specialiserade Hudterapeuter";
+$specialist_url_title = "oljig hy Specialiserade Hudterapeuter";
 
 $related_problems = array(
       new RelatedProblem(
             name: 'Acneärr',
             aka: 'gropar & Fläckar',
             image: 'bilder/problem/200x200/acnearr.webp',
-            image_alt: 'Bild som visar acneärr, en typ av hudproblem som ofta följer efter fet hy',
-            image_title: 'Acneärr - en vanlig följd av fet hy',
+            image_alt: 'Bild som visar acneärr, en typ av hudproblem som ofta följer efter oljig hy',
+            image_title: 'Acneärr - en vanlig följd av oljig hy',
             url: 'acnearr.php',
             url_title: 'Acneärr'
       ),
@@ -415,17 +416,17 @@ $related_problems = array(
             name: 'Rosacea',
             aka: 'ansiktsrodnad',
             image: 'bilder/problem/200x200/rosacea.webp',
-            image_alt: 'Bild som illustrerar rosacea, ett hudtillstånd som kan förväxlas med fet hy',
-            image_title: 'Rosacea - en hudsjukdom som ofta förväxlas med fet hy',
+            image_alt: 'Bild som illustrerar rosacea, ett hudtillstånd som kan förväxlas med oljig hy',
+            image_title: 'Rosacea - en hudsjukdom som ofta förväxlas med oljig hy',
             url: 'rosacea.php',
             url_title: 'Rosacea'
       ),
       new RelatedProblem(
             name: 'Perioral dermatit',
-            aka: 'fet hy runt munnen',
+            aka: 'oljig hy runt munnen',
             image: 'bilder/problem/200x200/perioral-dermatit.webp',
-            image_alt: 'Bild som skildrar perioral dermatit, en hudåkomma som kan förväxlas med fet hy',
-            image_title: 'Perioral dermatit (acne runt munnen) ett hudproblem liknande fet hy',
+            image_alt: 'Bild som skildrar perioral dermatit, en hudåkomma som kan förväxlas med oljig hy',
+            image_title: 'Perioral dermatit (acne runt munnen) ett hudproblem liknande oljig hy',
             url: 'perioral-dermatit.php',
             url_title: 'Perioral dermatit',
       ),
