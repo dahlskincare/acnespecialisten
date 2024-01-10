@@ -5,21 +5,21 @@ include_once('problem/widgets/symptom-card/symptom.php');
 include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Allt om Akne - Orsaker, Behandling och Förebyggande | Acnespecialisten';
-$seo_description = 'Lär dig allt om akne, från dess orsaker till hur man behandlar och förebygger det. Skräddarsydda lösningar och expertis från Acnespecialisten.';
-$seo_keywords = 'akne, aknebehandling, orsaker till akne, förebygga akne, ta bort akne, vuxenakne, tonårsakne, akneärr, finnar, pormaskar';
+$seo_title = 'Allt om Fet Hy - Orsaker, Behandling och Vård | Acnespecialisten';
+$seo_description = 'Upptäck allt om fet hy och hur du bäst hanterar den. Få experttips och skräddarsydda lösningar från Acnespecialisten för en klarare och friskare hud.';
+$seo_keywords = 'fet hy, behandling av fet hy, orsaker till fet hy, hudvård, balansera fet hy, hudproblem, hudvårdsexpert, Acnespecialisten, ansiktsvård, hudhälsa';
 
-// här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
+// här lägger du bild som du vill skall synas när du länkar i socialamedier eller sms
 
 $seo_image = 'bilder/problem/424x456/blandhy.webp';
 
-$title = 'Blandhy';
+$title = 'Fet Hy';
 
 $image_small = 'bilder/problem/424x324/blandhy.webp';
 $image_large = 'bilder/problem/424x456/blandhy.webp';
-$image_title = 'Visar en hud med akne';
-$image_alt = 'Bild som illustrerar hur akne ser ut på huden';
-$description = 'Här förklarar vi vad som kännetecknar akne, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av akne, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';
+$image_title = 'Visar en hud med fet hy';
+$image_alt = 'Bild som illustrerar utseendet av fet hy';
+$description = 'I denna avsnittet förklarar vi vad som kännetecknar fet hy, varför det uppstår och hur Acnespecialisten kan hjälpa dig att hantera och behandla ditt hudtillstånd. Vi diskuterar orsaker till fet hy, hur den skiljer sig från andra hudtyper, och hur vi kan stödja dig genom din personliga hudvårdsresa.';
 
 $akas = [
       new Link(
@@ -29,27 +29,27 @@ $akas = [
       ),
 ];
 
-$floating_box = 'Text på floating box';
+$floating_box = 'Behandling av fet hy.';
 
 $consultation_url_label = "Få gratis konsultation";
-$consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne";
-$consultation_url_title = "Gratis Konsultation för Akne";
+$consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin";
+$consultation_url_title = "Gratis Konsultation för fet hy";
 
 $booking_url_label = "Boka behandling";
-$booking_url = "https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne";
-$booking_url_title = "Boka Aknebehandling";
+$booking_url = "https://acnespecialisten.se/book?flow=problem&problem=Problem_CombinationSkin";
+$booking_url_title = "Boka behandling";
 
 $mobile_consultation_url_label = "Få gratis konsultation";
-$mobile_consultation_url_title = "Gratis Konsultation för Akne";
+$mobile_consultation_url_title = "Gratis Konsultation för fet hy";
 
 $mobile_booking_url_label = "Boka behandling";
-$mobile_booking_url_title = "Boka Aknebehandling";
+$mobile_booking_url_title = "Boka behandling";
 
 $floating_consultation_url_label = "Få gratis konsultation";
-$floating_consultation_url_title = "Gratis Konsultation för Akne";
+$floating_consultation_url_title = "Gratis Konsultation för fet hy";
 
 $floating_booking_url_label = "Boka behandling";
-$floating_booking_url_title = "Boka Aknebehandling";
+$floating_booking_url_title = "Boka behandling";
 
 $nav_buttons = array(
       'about' => 'Om Blandhy',
@@ -67,82 +67,59 @@ $nav_buttons = array(
       'related-problems' => 'Relaterade problem',
 );
 
-$description_title = 'Vad är Blandhy?';
-$description_text = '<p class="p200">Klassiska ansiktsbehandlingar är en grundsten inom hudvård och erbjuder en upplevelse av avkoppling samtidigt som huden får den vård den behöver. Behandlingarna går ut på att rengöra, återfukta, balansera och revitalisera huden, samt att hantera specifika hudproblem.</p>
-<p class="p200 mt-m">Hos oss på AcneSpecialisten kan du välja mellan flera typer av klassiska ansiktsbehandlingar. Vi erbjuder allt från den traditionella Klassisk ansiktsbehandling till Antistress, där fokus ligger på avslappning. Hudterapeutens val anpassas helt efter dina behov, medan Peel, Boost & Glow siktar på att ge huden en extra boost. För den som vill ha det lilla extra erbjuder vi Lyx behandlingen. Oavsett vilken behandling du väljer, är vårt mål att ge din hud den bästa möjliga omsorgen.</p>';
+$description_title = 'Vad är Fet Hy?';
+$description_text = '<p class="p200">Fet hy kännetecknas av ökad sebumproduktion vilket ger en oljig yta och kan leda till tilltäppta porer och acne. Det är viktigt att hantera fet hy med rätt produkter och behandlingar för att balansera oljeproduktionen och bibehålla en klar hudton.</p>
+<p class="p200 mt-m">På AcneSpecialisten erbjuder vi anpassade behandlingar för fet hy. Detta inkluderar djuprengörande ansiktsbehandlingar, användning av specialprodukter för att reglera oljeproduktionen, och behandlingar som effektivt tar itu med acne och andra hudproblem som ofta förekommer hos personer med fet hy. Vårt mål är att hjälpa dig uppnå en balanserad, klar och frisk hud.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
-            title: 'Identifiera',
-            content: 'Vid din första konsultation hos AcneSpecialisten bedömer en hudterapeut din hud och identifierar tecknen på blandhy. Genom att förstå din unika kombination av oljiga och torra zoner kan vi skräddarsy en behandlingsplan just för dig.',
+            title: 'Identifiera Fet Hy',
+            content: 'Under din första konsultation hos AcneSpecialisten analyserar en hudterapeut din hud för att identifiera tecken på fet hy. Vi skapar en anpassad behandlingsplan baserad på din huds specifika behov.',
 
             url_label: 'Boka konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin',
-            url_title: 'Boka din gratis konsultation för blandhy idag'
+            url_title: 'Boka din gratis konsultation för fet hy idag'
       ),
       new TreatmentStep(
-            title: 'Behandla',
-            content: 'Oavsett om det är oljiga fläckar, torrhet eller båda, erbjuder vi specialiserade behandlingar som tar itu med dina specifika problemområden, för att återställa balansen i din hud.',
+            title: 'Behandla Fet Hy',
+            content: 'Vi erbjuder behandlingar som är specifikt utformade för att hantera utmaningarna med fet hy, inklusive djuprengöring, reglering av oljeproduktion och minimering av acne. Våra behandlingar syftar till att återställa balansen och förbättra hudens hälsa.',
 
             url_label: 'Utforska behandlingar',
-            url: 'problem/blandhy/blandhybehandling',
-            url_title: 'Ta reda på vilka behandlingar som passar din blandhy'
+            url: 'problem/fet-hy/fet-hybehandling',
+            url_title: 'Ta reda på vilka behandlingar som passar din fet hy'
       ),
       new TreatmentStep(
-            title: 'Förebygg',
-            content: 'För att bibehålla resultaten av behandlingarna är det viktigt med rätt hudvård hemma. Vi rekommenderar produkter som är speciellt anpassade för blandhy, som hjälper till att hålla huden återfuktad och oljebalansen i schack.',
+            title: 'Förebygg Problem med Fet Hy',
+            content: 'Vi ger råd om hudvårdsrutiner och produkter som är idealiska för fet hy, för att hjälpa dig att förebygga framtida hudproblem och bibehålla en hälsosam hudton.',
 
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/blandhy',
-            url_title: 'Bläddra bland våra produkter för blandhy'
+            url_title: 'Bläddra bland våra produkter för fet hy'
       ),
-      new TreatmentStep(
-            title: 'Reparera',
-            content: 'Blandhy kan också lämna efter sig oönskade märken som fläckar eller ojämn hudstruktur. Vi erbjuder avancerade behandlingsmetoder för att återställa hudens jämnhet och lyster, som laserterapi, microneedling och kemisk peeling.',
-
-            url_label: 'Ärrbehandlingar',
-            url: 'behandla-acnearr.php',
-            url_title: 'Se våra behandlingsalternativ för ärr orsakade av blandhy'
-      ),
-
 );
 
-$treatment_link = '<a href="problem/blandhy/blandhybehandling" title="Utforska effektiv blandhybehandling" class="mt-xl button b200 outline expand auto-width">Läs mer om vår blandhybehandling</a>';
+$treatment_link = '<a href="problem/blandhy/blandhybehandling" title="Utforska effektiv fet hy-behandling" class="mt-xl button b200 outline expand auto-width">Läs mer om vår behandling för fet hy</a>';
 
 $top_articles = array(
     'areas' => new Article(
-        title: 'Sun Spot Areas',
+        title: 'Fet hy områden',
         image_small: '',
         image_large: '',
         image_alt: '',
         image_title: '',
-        content: '<p class="p200">Att förbereda sig för en Dermapen-behandling innebär att först genomgå en detaljerad konsultation med en av våra hudspecialister. Under konsultationen utförs en noggrann bedömning av din hud för att identifiera individuella behov och särskilda hudproblem. Denna initiala analys är kritisk för att utforma en personlig behandlingsplan som är perfekt anpassad för dina unika hudvårdsbehov.</p>
-        <p class="p200 mt-m">För optimala resultat bör huden inte vara solskadad vid tidpunkten för behandlingen. Vi rekommenderar också att du avstår från att använda hudirriterande produkter som innehåller starka syror några dagar före behandlingen. Vår hudterapeut kommer att ge dig fullständig vägledning för att förbereda din hud inför behandlingen med Dermapen, för att säkerställa en effektiv och trygg upplevelse.</p>',
-        tags: array(new ArticleTag(
-            icon: 'anga',
-            label: 'Ånga'
-        ), new ArticleTag(
-            icon: 'extraktion',
-            label: 'Extraktion'
-        ), new ArticleTag(
-            icon: 'mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'rengoring',
-            label: 'Rengöring'
-        ))
+        content: '<p class="p200">Fet hy kännetecknas ofta av en ökad oljeproduktion i specifika områden av ansiktet, särskilt i T-zonen som inkluderar pannan, näsan och hakan. Dessa områden har en högre koncentration av talgkörtlar, vilket kan leda till en mer oljig hudton jämfört med andra delar av ansiktet.</p>
+      <p class="p200 mt-m">Orsaken till fet hy i dessa områden kan variera och inkluderar faktorer som genetik, hormonella förändringar och yttre miljöpåverkan. Stress och kost kan också spela en roll i utvecklingen av fet hy. Att förstå de specifika orsakerna och hur de påverkar din hud är avgörande för att kunna välja rätt behandlingsmetoder och hudvårdsprodukter. Hos AcneSpecialisten genomför vi en noggrann hudanalys för att identifiera dina unika hudbehov och utforma en personlig behandlingsplan för att hantera fet hy effektivt.</p>',
     ),
 );
 
 $articles = array(
       new Article(
-            title: 'När ska jag söka hjälp med mina pormaskar?',
+            title: 'När ska jag söka hjälp med fet hy?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'När ska jag söka hjälp med mina pormaskar?',
-            image_title: 'När ska jag söka hjälp med mina pormaskar?',
-            content: '<p class="p200">Pormaskar är en av de mest förekommande hudåkommorna och kan drabba personer i alla åldrar. Även om de i många fall är ofarliga och mestadels en estetisk bekymmer, kan de påverka självkänslan och orsaka obehag. Om du märker att dina pormaskar börjar påverka ditt välbefinnande, eller om du har provat olika produkter och hemmabehandlingar utan framgång, kan det vara dags att söka professionell hjälp. Det är viktigt att komma ihåg att alla kan söka hjälp, oavsett om du har enstaka pormaskar eller ett mer utbrett problem. Det finns ingen "minsta gräns" för när det är lämpligt att söka professionell vård.</p>
-            <p class="p200 mt-m">Hos en hudspecialist kan du få en personlig konsultation och behandlingsplan som är skräddarsydd för just ditt hudproblem. En expert kan analysera din hudtyp, diskutera möjliga orsaker till dina pormaskar och rekommendera den mest effektiva behandlingsmetoden för dig. Detta kan inkludera allt från djuprengöring och portömning till mer avancerade hudvårdsprodukter. Så, om du känner att dina pormaskar har blivit en belastning eller om du helt enkelt vill ha en problemfri hy, tveka inte att söka professionell hjälp. Det är aldrig för tidigt eller för sent att ta steget mot bättre hy.</p>',
+            image_alt: 'När ska jag söka hjälp med fet hy?',
+            image_title: 'När ska jag söka hjälp med fet hy?',
+            content: '<p class="p200">Fet hy är en vanlig hudåkomma som kan påverka individer i alla åldrar. Detta tillstånd, som kännetecknas av ökad oljeproduktion, kan leda till en glansig hud och ökad benägenhet för acneutbrott. Om du märker att din fet hy bidrar till hudproblem eller om du har försökt hantera det med olika produkter utan framgång, kan det vara dags att överväga professionell hjälp. Kom ihåg, det är lämpligt att söka hjälp oavsett om du upplever milda eller allvarliga symptom.</p>',
       ),
 
       new Article(
@@ -151,24 +128,23 @@ $articles = array(
             image_large: 'https://via.placeholder.com/872x456.webp',
             image_alt: 'Varför ska jag besöka AcneSpecialisten?',
             image_title: 'Varför ska jag besöka AcneSpecialisten?',
-            content: '<p class="p200">Om du är ute efter en effektiv och långsiktig lösning på dina pormaskar, är AcneSpecialisten det självklara valet. Vi har över 30 års erfarenhet inom hudvård och en specialisering i att behandla pormaskar. Oavsett om du har enstaka pormaskar eller en mer utbredd problematik, kan vi erbjuda en skräddarsydd lösning som passar just dig.</p>
-            <p class="p200 mt-m">Vi använder de senaste metoderna och teknologierna inom hudvård för att du ska få bästa möjliga resultat. Vårt team av hudterapeuter står redo att erbjuda en individuellt anpassad behandlingsplan och att stötta dig genom hela processen. Med regelbundna uppföljningar och anpassade hemmavårdsprogram ser vi till att du får en långvarig förbättring.</p>
-            <p class="p200 mt-m">Att välja AcneSpecialisten innebär att du får tillgång till den mest avancerade och effektiva behandlingen för dina pormaskar. Men det är inte allt. Vi ser dig som en partner i din hudvårdsresa och är dedikerade till att hjälpa dig att uppnå och bibehålla en klar och frisk hud. Vårt engagemang, kunskap och erfarenhet gör oss till ditt bästa val för behandling av pormaskar.</p>',
+            content: '<p class="p200">Om du söker en effektiv och hållbar lösning för din fet hy, är AcneSpecialisten det självklara valet. Med över 30 års erfarenhet inom hudvård och en specialisering i behandling av fet hy, har vi den expertis som behövs för att anpassa behandlingen efter dina unika behov.</p>
+          <p class="p200 mt-m">Vi använder oss av de senaste metoderna och teknologierna inom hudvård för att säkerställa de bästa möjliga resultaten för din hud. Vårt team av erfarna hudterapeuter är beredda att skapa en individuellt anpassad behandlingsplan och ge dig stöd genom hela din hudvårdsresa. Med regelbundna uppföljningar och skräddarsydda hemmavårdsprogram ser vi till att din fet hy får en varaktig förbättring.</p>',
       ),
 );
 
-$headline01 = "01. Identifiera din blandhy";
+$headline01 = "01. Identifiera fet hy";
 
 $service = new Service(
-      title: 'Konsultation för blandhy',
+      title: 'Konsultation för fet hy',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Vi börjar med ett personligt möte med en hudterapeut från AcneSpecialisten utförs en undersökning av din blandhy. Vi tar före-bilder på din hud och rekommenderar rätt behandlingsmetod för just din hy samt tar fram en skräddarsydd behandlingsplan för just dig.',
+      content: 'Din resa mot en balanserad hud börjar med en personlig konsultation hos AcneSpecialisten. Under mötet analyserar en erfaren hudterapeut din feta hy, tar före-bilder, och diskuterar med dig för att förstå din huds unika behov. Vi rekommenderar den mest effektiva behandlingsmetoden för din hudtyp och utformar en anpassad behandlingsplan specifikt för dig.',
 
       image_small: 'images/services/200x200/konsultation.webp',
       image_large: 'images/services/200x200/konsultation.webp',
-      image_alt: 'Bild av en konsultation för blandhy',
-      image_title: 'Konsultation för blandhy',
+      image_alt: 'Bild av en konsultation för fet hy',
+      image_title: 'Konsultation för fet hy',
 
       url_label: '',
       url: '',
@@ -176,27 +152,26 @@ $service = new Service(
 
       consultation_url_label: 'Boka konsultation',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin',
-      consultation_url_title: 'Klicka för att boka tid för en konsultation om blandhy',
+      consultation_url_title: 'Klicka för att boka tid för en konsultation om fet hy',
 
       booking_url_label: null,
       booking_url: null,
       booking_url_title: null,
-
 );
 
-$headline02 = "02. Behandla blandhy";
+$headline02 = "02. Behandla fet hy";
 
 $services = array(
       new Service(
-            title: 'Ansiktsbehandling för blandhy',
+            title: 'Ansiktsbehandling för fet hy',
             duration: '60 min',
             price: '995 kr',
-            content: 'Denna skräddarsydda ansiktsbehandling för blandhy tar sikte på hudens specifika behov, särskilt de torra och oljiga partierna. Genom djup rengöring, rätt exfoliering och intensiv återfuktning ger behandlingen huden en harmoniserad känsla, förbättrad textur och en naturlig lyster.',
+            content: 'Denna anpassade ansiktsbehandling är särskilt utvecklad för att möta de unika utmaningarna med fet hy. Vi fokuserar på att noggrant rengöra huden för att ta bort överflödig olja och föroreningar, samtidigt som vi använder specialiserade exfolieringsmetoder för att förebygga tilltäppta porer. Behandlingen syftar även till att återställa hudens naturliga balans, vilket minskar oönskad glans och ger en förbättrad hudtextur och en hälsosam lyster.',
 
             image_small: 'images/services/200x200/ansiktsbehandling.webp',
             image_large: 'images/services/200x200/ansiktsbehandling.webp',
-            image_alt: 'Bild av en ansiktsbehandling för blandhy',
-            image_title: 'Ansiktsbehandling för blandhy',
+            image_alt: 'Bild av en ansiktsbehandling för fet hy',
+            image_title: 'Ansiktsbehandling för fet hy',
 
             url: '',
             url_label: '',
@@ -204,28 +179,27 @@ $services = array(
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling för blandhy',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling för fet hy',
 
             booking_url_label: 'Boka behandling',
             booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones',
-            booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling för blandhy'
+            booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling för fet hy'
       ),
-
 );
 
-$headline03 = "03. Förebygg uppkomsten av ny blandhy";
+$headline03 = "03. Förebygg uppkomsten av ny fet hy";
 
 $products = array(
       new Service(
-            title: 'Produkter mot blandhy',
+            title: 'Produkter mot fet hy',
             duration: null,
             price: 'Pris från 1495 kr',
-            content: 'Att hantera blandhy kräver speciellt utvalda produkter som kan balansera huden och ta hand om både dess torra och oljiga delar. Med daglig användning av våra produkter för blandhy kan du uppnå en balanserad hud som både känns och ser bättre ut.',
+            content: 'Att hantera fet hy kräver en noggrann urval av produkter som effektivt kan reglera och balansera sebumproduktionen utan att överdriva huden. Genom daglig användning av våra specialutformade produkter för fet hy kan du uppnå en mer balanserad hudton, minskad oljighet och förbättrad hudhälsa. Dessa produkter är utvecklade för att ge en ren, fräsch känsla och en klarare hud.',
 
-            image_small: 'images/services/200x200/produkter-blandhy.webp',
-            image_large: 'images/services/200x200/produkter-blandhy.webp',
-            image_alt: 'Bild av produkter designade för behandling av blandhy',
-            image_title: 'Effektiva produkter för balansering av blandhy',
+            image_small: 'images/services/200x200/produkter.webp',
+            image_large: 'images/services/200x200/produkter.webp',
+            image_alt: 'Bild av produkter designade för behandling av fet hy',
+            image_title: 'Effektiva produkter för att hantera fet hy',
 
             url_label: '',
             url: '',
@@ -233,12 +207,49 @@ $products = array(
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för hudvårdsprodukter mot blandhy',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för hudvårdsprodukter mot fet hy',
 
             booking_url_label: 'Köp produkter',
             booking_url: 'https://dahlskincare.se/produktkategorier/produktpaket/blandhy',
-            booking_url_title: 'Klicka för att köpa produktpaket mot blandhy',
+            booking_url_title: 'Klicka för att köpa produktpaket mot fet hy',
       )
+);
+
+
+$results = array(
+      new ResultCustomer(
+            image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.jpg',
+            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
+            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
+            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
+            image_alt: 'Akne resultat',
+            image_title: 'Akne resultat',
+            treatment: new ResultTreatment(
+                  duration: '3 månader',
+            )
+      ),
+      new ResultCustomer(
+            image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.jpg',
+            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
+            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
+            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
+            image_alt: 'Akne resultat',
+            image_title: 'Akne resultat',
+            treatment: new ResultTreatment(
+                  duration: '2 månader',
+            )
+      ),
+      new ResultCustomer(
+            image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.jpg',
+            image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
+            image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
+            image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
+            image_alt: 'Rosacea resultat',
+            image_title: 'Rosacea resultat',
+            treatment: new ResultTreatment(
+                  duration: '4 månader',
+            )
+      ),
 );
 
 $show_all_results_label = "Se fler resultat";
@@ -249,7 +260,7 @@ $reviews = array(
       new Review(
             brand: 'Trustpilot',
             title: 'Supernöjd',
-            text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
+            text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all fet hy efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
             signature: 'Sofia',
             stars: 5,
             logo_url: 'images/brands/trustpilot.svg'
@@ -258,7 +269,7 @@ $reviews = array(
       new Review(
             brand: 'Google',
             title: 'Jag är mycket nöjd..',
-            text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och aknen är betydligt mildare",
+            text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och fet hyn är betydligt mildare",
             signature: 'Lovisa',
             stars: 5,
             logo_url: 'images/brands/google-small.svg'
@@ -267,7 +278,7 @@ $reviews = array(
       new Review(
             brand: 'Bokadirekt',
             title: 'Rekommenderar varmt!',
-            text: "Det enda som fungerat mot min akne med synliga resultat. Jättetrevlig och kunnig behandlare!",
+            text: "Det enda som fungerat mot min fet hy med synliga resultat. Jättetrevlig och kunnig behandlare!",
             signature: 'Emily',
             stars: 5,
             logo_url: 'images/brands/bokadirekt-small.svg'
@@ -388,15 +399,15 @@ $specialists = array(
 );
 
 $specialist_url_label = "Se alla specialister";
-$specialist_url_title = "Akne Specialiserade Hudterapeuter";
+$specialist_url_title = "fet hy Specialiserade Hudterapeuter";
 
 $related_problems = array(
       new RelatedProblem(
             name: 'Acneärr',
             aka: 'gropar & Fläckar',
             image: 'bilder/problem/200x200/acnearr.webp',
-            image_alt: 'Bild som visar acneärr, en typ av hudproblem som ofta följer efter akne',
-            image_title: 'Acneärr - en vanlig följd av akne',
+            image_alt: 'Bild som visar acneärr, en typ av hudproblem som ofta följer efter fet hy',
+            image_title: 'Acneärr - en vanlig följd av fet hy',
             url: 'acnearr.php',
             url_title: 'Acneärr'
       ),
@@ -404,17 +415,17 @@ $related_problems = array(
             name: 'Rosacea',
             aka: 'ansiktsrodnad',
             image: 'bilder/problem/200x200/rosacea.webp',
-            image_alt: 'Bild som illustrerar rosacea, ett hudtillstånd som kan förväxlas med akne',
-            image_title: 'Rosacea - en hudsjukdom som ofta förväxlas med akne',
+            image_alt: 'Bild som illustrerar rosacea, ett hudtillstånd som kan förväxlas med fet hy',
+            image_title: 'Rosacea - en hudsjukdom som ofta förväxlas med fet hy',
             url: 'rosacea.php',
             url_title: 'Rosacea'
       ),
       new RelatedProblem(
             name: 'Perioral dermatit',
-            aka: 'akne runt munnen',
+            aka: 'fet hy runt munnen',
             image: 'bilder/problem/200x200/perioral-dermatit.webp',
-            image_alt: 'Bild som skildrar perioral dermatit, en hudåkomma som kan förväxlas med akne',
-            image_title: 'Perioral dermatit (acne runt munnen) ett hudproblem liknande akne',
+            image_alt: 'Bild som skildrar perioral dermatit, en hudåkomma som kan förväxlas med fet hy',
+            image_title: 'Perioral dermatit (acne runt munnen) ett hudproblem liknande fet hy',
             url: 'perioral-dermatit.php',
             url_title: 'Perioral dermatit',
       ),

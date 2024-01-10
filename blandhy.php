@@ -377,8 +377,8 @@ $products = array(
             price: 'Pris från 1495 kr',
             content: 'Att hantera blandhy kräver speciellt utvalda produkter som kan balansera huden och ta hand om både dess torra och oljiga delar. Med daglig användning av våra produkter för blandhy kan du uppnå en balanserad hud som både känns och ser bättre ut.',
 
-            image_small: 'images/services/200x200/produkter-blandhy.webp',
-            image_large: 'images/services/200x200/produkter-blandhy.webp',
+            image_small: 'images/services/200x200/produkter.webp',
+            image_large: 'images/services/200x200/produkter.webp',
             image_alt: 'Bild av produkter designade för behandling av blandhy',
             image_title: 'Effektiva produkter för balansering av blandhy',
 
@@ -405,8 +405,8 @@ $procedures = array(
             price: null,
             content: 'Med blandhy kan det ibland uppkomma fläckar och en ojämn hudstruktur. För att hantera dessa utmaningar har vi olika behandlingsmetoder som effektivt riktar sig mot både pigmentfläckar och ojämn hudstruktur. Klicka här för att läsa mer om hur du kan förbättra din hud med våra skräddarsydda behandlingar.',
 
-            image_small: 'images/services/200x200/behandlingar-ojamnhud.webp',
-            image_large: 'images/services/200x200/behandlingar-ojamnhud.webp',
+            image_small: 'images/services/200x200/behandlingar.webp',
+            image_large: 'images/services/200x200/behandlingar.webp',
             image_alt: 'Behandlingar för fläckar och ojämn hudstruktur',
             image_title: 'Behandlingar för en jämnare hudton',
 
