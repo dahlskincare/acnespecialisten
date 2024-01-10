@@ -11,31 +11,21 @@ $seo_keywords = 'akne, aknebehandling, orsaker till akne, förebygga akne, ta bo
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
-$seo_image = 'bilder/problem/424x456/akne.webp';
+$seo_image = 'bilder/problem/424x456/blandhy.webp';
 
-$title = 'Sun Spots';
+$title = 'Blandhy';
 
-$image_small = 'bilder/problem/424x324/akne.webp';
-$image_large = 'bilder/problem/424x456/akne.webp';
+$image_small = 'bilder/problem/424x324/blandhy.webp';
+$image_large = 'bilder/problem/424x456/blandhy.webp';
 $image_title = 'Visar en hud med akne';
 $image_alt = 'Bild som illustrerar hur akne ser ut på huden';
 $description = 'Här förklarar vi vad som kännetecknar akne, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av akne, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';
 
 $akas = [
       new Link(
-            label: 'Finnar',
-            url: 'problem/finnar',
-            title: 'Allt du behöver veta om finnar och deras behandling'
-      ),
-      new Link(
-            label: 'Vuxenakne',
-            url: 'problem/vuxenakne',
-            title: 'Utforska orsaker, symptom och behandlingar av vuxenakne'
-      ),
-      new Link(
-            label: 'Tonårsakne',
-            url: 'problem/tonarsakne',
-            title: 'Komplett guide om tonårsakne: orsaker, förebyggande och lösningar'
+            label: 'Blandhy',
+            url: 'blandhy.php',
+            title: 'Blandhy'
       ),
 ];
 
@@ -62,7 +52,7 @@ $floating_booking_url_label = "Boka behandling";
 $floating_booking_url_title = "Boka Aknebehandling";
 
 $nav_buttons = array(
-      'about' => 'Om Sun Spots',
+      'about' => 'Om Blandhy',
       'approach' => 'Metoden',
       'areas' => 'Områden',
       'define' => 'Konsultation',
@@ -77,46 +67,47 @@ $nav_buttons = array(
       'related-problems' => 'Relaterade problem',
 );
 
-$description_title = 'Vad är Sun Spots?';
+$description_title = 'Vad är Blandhy?';
 $description_text = '<p class="p200">Klassiska ansiktsbehandlingar är en grundsten inom hudvård och erbjuder en upplevelse av avkoppling samtidigt som huden får den vård den behöver. Behandlingarna går ut på att rengöra, återfukta, balansera och revitalisera huden, samt att hantera specifika hudproblem.</p>
 <p class="p200 mt-m">Hos oss på AcneSpecialisten kan du välja mellan flera typer av klassiska ansiktsbehandlingar. Vi erbjuder allt från den traditionella Klassisk ansiktsbehandling till Antistress, där fokus ligger på avslappning. Hudterapeutens val anpassas helt efter dina behov, medan Peel, Boost & Glow siktar på att ge huden en extra boost. För den som vill ha det lilla extra erbjuder vi Lyx behandlingen. Oavsett vilken behandling du väljer, är vårt mål att ge din hud den bästa möjliga omsorgen.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din aknetyp och skapar en individuell behandlingsplan.',
+            content: 'Vid din första konsultation hos AcneSpecialisten bedömer en hudterapeut din hud och identifierar tecknen på blandhy. Genom att förstå din unika kombination av oljiga och torra zoner kan vi skräddarsy en behandlingsplan just för dig.',
 
-            url_label: 'Få gratis konsultation',
-            url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
-            url_title: 'Boka din kostnadsfria hudkonsultation idag'
+            url_label: 'Boka konsultation',
+            url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin',
+            url_title: 'Boka din gratis konsultation för blandhy idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika aknetyp, så att du snabbt och säkert blir av med problemet.',
+            content: 'Oavsett om det är oljiga fläckar, torrhet eller båda, erbjuder vi specialiserade behandlingar som tar itu med dina specifika problemområden, för att återställa balansen i din hud.',
 
-            url_label: 'Se aknebehandlingar',
-            url: 'acnebehandling.php',
-            url_title: 'Utforska våra skräddarsydda aknebehandlingar'
+            url_label: 'Utforska behandlingar',
+            url: 'problem/blandhy/blandhybehandling',
+            url_title: 'Ta reda på vilka behandlingar som passar din blandhy'
       ),
       new TreatmentStep(
-            title: 'Förebygga',
-            content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny akne och hålla din hud i balans.',
+            title: 'Förebygg',
+            content: 'För att bibehålla resultaten av behandlingarna är det viktigt med rätt hudvård hemma. Vi rekommenderar produkter som är speciellt anpassade för blandhy, som hjälper till att hålla huden återfuktad och oljebalansen i schack.',
 
             url_label: 'Se produkter',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
-            url_title: 'Hitta de bästa produkterna för att förebygga akne'
+            url: 'https://dahlskincare.se/produktkategorier/produktpaket/blandhy',
+            url_title: 'Bläddra bland våra produkter för blandhy'
       ),
       new TreatmentStep(
             title: 'Reparera',
-            content: 'När aknen är borta fokuserar vi på att reducera eventuella ärr med behandlingsmetoder som laser, microneedling och kemisk peeling för en jämn och problemfri hud.',
+            content: 'Blandhy kan också lämna efter sig oönskade märken som fläckar eller ojämn hudstruktur. Vi erbjuder avancerade behandlingsmetoder för att återställa hudens jämnhet och lyster, som laserterapi, microneedling och kemisk peeling.',
 
-            url_label: 'Se ärrbehandlingar',
+            url_label: 'Ärrbehandlingar',
             url: 'behandla-acnearr.php',
-            url_title: 'Upptäck effektiva behandlingar för akneärr'
+            url_title: 'Se våra behandlingsalternativ för ärr orsakade av blandhy'
       ),
 
 );
-$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra aknebehandlingar</a>';
+
+$treatment_link = '<a href="problem/blandhy/blandhybehandling" title="Utforska effektiv blandhybehandling" class="mt-xl button b200 outline expand auto-width">Läs mer om vår blandhybehandling</a>';
 
 $top_articles = array(
     'areas' => new Article(
@@ -166,26 +157,26 @@ $articles = array(
       ),
 );
 
-$headline01 = "01. Identifiera din akne";
+$headline01 = "01. Identifiera din blandhy";
 
 $service = new Service(
-      title: 'Konsultation',
+      title: 'Konsultation för blandhy',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Vid ett personligt möte med en acnespecialist utförs en undersökning av din akne. Vi tar före-bilder på din hud och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
+      content: 'Vi börjar med ett personligt möte med en hudterapeut från AcneSpecialisten utförs en undersökning av din blandhy. Vi tar före-bilder på din hud och rekommenderar rätt behandlingsmetod för just din hy samt tar fram en skräddarsydd behandlingsplan för just dig.',
 
       image_small: 'images/services/200x200/konsultation.webp',
       image_large: 'images/services/200x200/konsultation.webp',
-      image_alt: 'Bild av en konsultation för aknebehandling',
-      image_title: 'Konsultation för aknebehandling',
+      image_alt: 'Bild av en konsultation för blandhy',
+      image_title: 'Konsultation för blandhy',
 
       url_label: '',
       url: '',
       url_title: '',
 
-      consultation_url_label: 'Boka hudkonsultation',
-      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
-      consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för akne',
+      consultation_url_label: 'Boka konsultation',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin',
+      consultation_url_title: 'Klicka för att boka tid för en konsultation om blandhy',
 
       booking_url_label: null,
       booking_url: null,
@@ -193,195 +184,61 @@ $service = new Service(
 
 );
 
-$headline02 = "02. Behandla aktiv akne";
+$headline02 = "02. Behandla blandhy";
 
 $services = array(
       new Service(
-            title: 'Ansiktsbehandling mot akne',
+            title: 'Ansiktsbehandling för blandhy',
             duration: '60 min',
             price: '995 kr',
-            content: 'En effektiv ansiktsbehandling mot akne fokuserar på att noggrant extrahera orenheter som orsakar inflammation och skador i huden. Genom att försiktigt klämma ut akne och pormaskar kan behandlingen bidra till att förebygga ärrbildning och främja en snabbare läkning.',
+            content: 'Denna skräddarsydda ansiktsbehandling för blandhy tar sikte på hudens specifika behov, särskilt de torra och oljiga partierna. Genom djup rengöring, rätt exfoliering och intensiv återfuktning ger behandlingen huden en harmoniserad känsla, förbättrad textur och en naturlig lyster.',
 
             image_small: 'images/services/200x200/ansiktsbehandling.webp',
             image_large: 'images/services/200x200/ansiktsbehandling.webp',
-            image_alt: 'Bild av en ansiktsbehandling mot akne',
-            image_title: 'Ansiktsbehandling mot akne',
+            image_alt: 'Bild av en ansiktsbehandling för blandhy',
+            image_title: 'Ansiktsbehandling för blandhy',
 
             url: '',
             url_label: '',
             url_title: '',
 
             consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling mot akne',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling för blandhy',
 
             booking_url_label: 'Boka behandling',
-            booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne',
-            booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling mot akne',
+            booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones',
+            booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling för blandhy'
       ),
-      new Service(
-            title: 'Laser mot akne',
-            duration: '50 min',
-            price: '2595 kr',
-            content: 'En avancerad laserbehandling mot akne erbjuder en effektiv lösning för att bekämpa aktiv akne och ärr som kan uppstå efter utbrott. Lasertekniken riktar sig mot de bakterier som orsakar inflammation och hjälper till att minska produktionen av talg, vilket minskar risken för framtida utbrott.',
 
-            image_small: 'images/services/200x200/laser.webp',
-            image_large: 'images/services/200x200/laser.webp',
-            image_alt: 'Bild av laserbehandling mot akne',
-            image_title: 'Laserbehandling mot akne',
-
-            url: '',
-            url_label: '',
-            url_title: '',
-
-            consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling mot akne',
-
-            booking_url_label: 'Boka behandling',
-            booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Acne',
-            booking_url_title: 'Klicka för att boka tid för en laserbehandling mot akne',
-      ),
-      new Service(
-            title: 'Kemisk peeling mot akne',
-            duration: '30 min',
-            price: '1595 kr',
-            content: 'Kemisk peeling är en effektiv metod för att behandla akne. Genom att använda en speciellt framtagen lösning för att exfoliera huden, främjar kemisk peeling cellförnyelse, rensar tilltäppta porer och minskar inflammation. Resultatet är en jämnare hudton, mindre utbrott och färre synliga ärr. Det är en enkel och effektiv strategi för att ta kontroll över din akne och förbättra din hudhälsa.',
-
-            image_small: 'images/services/200x200/kemisk-peeling.webp',
-            image_large: 'images/services/200x200/kemisk-peeling.webp',
-            image_alt: 'Bild av kemisk peeling mot akne',
-            image_title: 'Kemisk peeling mot akne behandling',
-
-            url: '',
-            url_label: '',
-            url_title: '',
-
-            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
-            consultation_url_label: 'Boka konsultation',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för kemisk peeling mot akne',
-
-            booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_Acne',
-            booking_url_label: 'Boka behandling',
-            booking_url_title: 'Klicka för att boka tid för en kemisk peeling mot akne behandling',
-
-      ),
-      new Service(
-            title: 'Microneedling mot akne',
-            duration: '50 min',
-            price: '2595 kr',
-            content: 'Microneedling är en innovativ behandlingsmetod för akne. Detta utförs genom att skapa små mikroskopiska kanaler i huden vilket främjar hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. Denna behandling kan effektivt minska utbrott av akne, förbättra hudens struktur och minska synligheten av akneärr. Microneedling är en säker och effektiv strategi för att ta kontroll över din akne och förbättra din hudhälsa.',
-
-            image_small: 'images/services/200x200/microneedling.webp',
-            image_large: 'images/services/200x200/microneedling.webp',
-            image_alt: 'Bild av microneedling mot akne',
-            image_title: 'Microneedling mot akne behandling',
-
-            url: '',
-            url_label: '',
-            url_title: '',
-
-            consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling mot akne',
-
-            booking_url_label: 'Boka behandling',
-            booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_Acne',
-            booking_url_title: 'Klicka för att boka tid för en microneedling mot akne behandling',
-      ),
 );
 
-$headline03 = "03. Förebygg uppkomsten av ny akne";
+$headline03 = "03. Förebygg uppkomsten av ny blandhy";
 
 $products = array(
       new Service(
-            title: 'Produkter mot akne',
+            title: 'Produkter mot blandhy',
             duration: null,
             price: 'Pris från 1495 kr',
-            content: 'För att effektivt bekämpa och förebygga akne är daglig behandling med rätt produkter avgörande. Våra akneprodukter är speciellt utformade för att hålla din hud i balans och förhindra att ny akne uppstår.',
+            content: 'Att hantera blandhy kräver speciellt utvalda produkter som kan balansera huden och ta hand om både dess torra och oljiga delar. Med daglig användning av våra produkter för blandhy kan du uppnå en balanserad hud som både känns och ser bättre ut.',
 
-            image_small: 'images/services/200x200/produkter.webp',
-            image_large: 'images/services/200x200/produkter.webp',
-            image_alt: 'Bild av produkter designade för behandling av akne',
-            image_title: 'Effektiva produkter för bekämpning och förebyggande av akne',
+            image_small: 'images/services/200x200/produkter-blandhy.webp',
+            image_large: 'images/services/200x200/produkter-blandhy.webp',
+            image_alt: 'Bild av produkter designade för behandling av blandhy',
+            image_title: 'Effektiva produkter för balansering av blandhy',
 
-            url: '',
             url_label: '',
+            url: '',
             url_title: '',
 
             consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för hudvårdsprodukter mot akne',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för hudvårdsprodukter mot blandhy',
 
             booking_url_label: 'Köp produkter',
-            booking_url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
-            booking_url_title: 'Klicka för att köpa produktpaket mot akne',
+            booking_url: 'https://dahlskincare.se/produktkategorier/produktpaket/blandhy',
+            booking_url_title: 'Klicka för att köpa produktpaket mot blandhy',
       )
-);
-
-$headline04 = "04. Reparera post-akne";
-
-$procedures = array(
-      new Service(
-            title: 'Reparera acneärr',
-            duration: '4 behandlingsmetoder',
-            price: null,
-            content: 'Efter aktiv akne kan man uppleva post-akne, vilket innebär ärr i form av gropar i olika former och fläckar i olika färger på huden där aknen tidigare varit. Olika typer av ärr behandlas med olika metoder. Klicka här för att läsa mer om hur du kan reparera din hud och ta hand om post-akne.',
-
-            image_small: 'images/services/200x200/microneedling.webp',
-            image_large: 'images/services/200x200/microneedling.webp',
-            image_alt: 'Reparera acneärr',
-            image_title: 'Reparera acneärr',
-
-            url_label: '',
-            url: '',
-            url_title: '',
-
-            consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling mot akne',
-
-            booking_url_label: 'Boka behandling',
-            booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_AcneScars',
-            booking_url_title: 'Klicka för att boka tid för en microneedling mot akne behandling',
-
-      ),
-);
-
-$results = array(
-      new ResultCustomer(
-            image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.jpg',
-            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
-            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
-            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
-            image_alt: 'Akne resultat',
-            image_title: 'Akne resultat',
-            treatment: new ResultTreatment(
-                  duration: '3 månader',
-            )
-      ),
-      new ResultCustomer(
-            image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.jpg',
-            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
-            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
-            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
-            image_alt: 'Akne resultat',
-            image_title: 'Akne resultat',
-            treatment: new ResultTreatment(
-                  duration: '2 månader',
-            )
-      ),
-      new ResultCustomer(
-            image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.jpg',
-            image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
-            image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
-            image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
-            image_alt: 'Rosacea resultat',
-            image_title: 'Rosacea resultat',
-            treatment: new ResultTreatment(
-                  duration: '4 månader',
-            )
-      ),
 );
 
 $show_all_results_label = "Se fler resultat";
@@ -800,14 +657,6 @@ $brands_url_title = "Se alla varumärken";
                               <h2 class="h500"><?php echo $headline03 ?></h2>
                               <hr class="is-hidden-mobile mt-xl">
                               <?php foreach ($products as $service) { ?>
-                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
-                                    <hr class="is-hidden-mobile mb-xxl">
-                              <?php } ?>
-                        </section>
-                        <section id="treatment-solutions">
-                              <h2 class="h500"><?php echo $headline04 ?></h2>
-                              <hr class="is-hidden-mobile mt-xl">
-                              <?php foreach ($procedures as $service) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
                                     <hr class="is-hidden-mobile mb-xxl">
                               <?php } ?>

@@ -9,7 +9,7 @@ $seo_title = 'Blandhy - Förståelse, Behandling och Råd | Acnespecialisten';
 $seo_description = 'Dyk djupt in i blandhyens karaktär med Acnespecialisten. Lär dig hur man hanterar både torra och oljiga partier för att uppnå en harmoniserad hudbalans.';
 $seo_keywords = 'blandhy, hudbalans, behandla blandhy, råd för blandhy, torra och oljiga partier, fet hy, Acnespecialistens tips, oljig hy';
 
-
+$seo_image = 'bilder/problem/424x456/blandhy.webp';
 
 $title = 'Blandhy';
 
