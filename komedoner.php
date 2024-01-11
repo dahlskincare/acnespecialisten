@@ -23,9 +23,9 @@ $description = 'I denna sektion utforskar vi vad komedoner är, varför de uppst
 
 $akas = [
       new Link(
-            url: 'komedoner.php',
-            label: 'komedoner',
-            title: 'Allt du behöver veta om komedoner'
+            url: 'pormaskar.php',
+            label: 'Pormaskar',
+            title: 'Allt du behöver veta om pormaskar'
       ),
       new Link(
             url: 'stora-porer.php',
@@ -34,7 +34,7 @@ $akas = [
       ),
 ];
 
-$floating_box = 'Text på floating box';
+$floating_box = 'Vi behandlar komedoner effektivt';
 
 $consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones";
 $consultation_url_label = "Få gratis konsultation";
@@ -73,8 +73,8 @@ $nav_buttons = array(
 );
 
 $description_title = 'Vad är Komedoner?';
-$description_text = '<p class="p200">Komedoner, ofta kända som hudormar, uppstår när porer täpps till av sebum och döda hudceller. De kan manifestera sig som svarta eller vita prickar på huden, ofta i områden som ansiktet, näsan och pannan. Komedoner kan vara ett tecken på oren hud och kan leda till ytterligare hudproblem om de inte behandlas korrekt.</p>
-<p class="p200 mt-m">Hos AcneSpecialisten erbjuder vi effektiva behandlingar för att hantera komedoner, inklusive djuprengöring och specifika ansiktsbehandlingar. Våra behandlingsmetoder är utformade för att noggrant rengöra porerna och ta bort ansamlingar av sebum och hudceller. Genom att kombinera professionella behandlingar med rätt hemmavårdsrutiner, strävar vi efter att ge dig en klarare och friskare hud med färre synliga komedoner.</p>';
+$description_text = '<p class="p200">Komedoner uppstår när porer täpps till av talg och döda hudceller. De kan manifestera sig som svarta eller vita prickar på huden, ofta i områden som ansiktet, näsan och pannan. Komedoner kan vara ett tecken på oren hud och kan leda till ytterligare hudproblem om de inte behandlas korrekt.</p>
+<p class="p200 mt-m">Hos AcneSpecialisten erbjuder vi effektiva behandlingar för att hantera komedoner, inklusive djuprengöring och specifika ansiktsbehandlingar. Våra behandlingsmetoder är utformade för att noggrant rengöra porerna och ta bort ansamlingar av talg och hudceller. Genom att kombinera professionella behandlingar med rätt hemmavårdsrutiner, strävar vi efter att ge dig en klarare och friskare hud med färre synliga komedoner.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(

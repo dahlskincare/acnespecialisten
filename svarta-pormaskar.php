@@ -5,27 +5,27 @@ include_once('problem/widgets/symptom-card/symptom.php');
 include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Allt om Komedoner - Orsaker, Behandling och Förebyggande | Acnespecialisten';
-$seo_description = 'Upptäck allt om komedoner, från vad de är till hur man effektivt behandlar och förebygger dem. Få anpassade lösningar och expertis från Acnespecialisten.';
-$seo_keywords = 'komedoner, behandling av komedoner, orsaker till komedoner, förebygga komedoner, eliminera komedoner, hudvård, ansiktsrengöring, porrengöring';
+$seo_title = 'Allt om Svarta Pormaskar - Orsaker, Behandling och Förebyggande | Acnespecialisten';
+$seo_description = 'Utforska allt om svarta pormaskar, från deras uppkomst till effektiva behandlingar och förebyggande strategier. Få skräddarsydda lösningar och expertis från Acnespecialisten.';
+$seo_keywords = 'svarta pormaskar, behandla svarta pormaskar, orsaker till svarta pormaskar, förebygga svarta pormaskar, eliminera svarta pormaskar, hudvård, ansiktsrengöring, djuprengöring av porer';
 
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
 $seo_image = 'bilder/problem/424x456/pormaskar.webp';
 
-$title = 'Pormaskar';
+$title = 'Svarta pormaskar';
 
 $image_small = 'bilder/problem/424x324/pormaskar.webp';
 $image_large = 'bilder/problem/424x456/pormaskar.webp';
-$image_alt = 'Bild som illustrerar komedoner på huden';
-$description = 'I denna sektion utforskar vi vad komedoner är, varför de uppstår och hur Acnespecialisten kan bistå dig med effektiv behandling. Vi diskuterar de bakomliggande orsakerna till komedoner och hur vi kan hjälpa dig genom hela behandlingsprocessen för att uppnå en klarare och friskare hud.';
+$image_alt = 'Bild som illustrerar svarta pormaskar på huden';
+$description = 'I denna sektion utforskar vi naturen av svarta pormaskar, deras orsaker och hur Acnespecialisten kan bistå dig med effektiv behandling. Vi diskuterar hur svarta pormaskar bildas och vilka steg du kan ta för att minska dem och förbättra din hudhälsa.';
 
 $akas = [
       new Link(
-            url: 'komedoner.php',
-            label: 'komedoner',
-            title: 'Allt du behöver veta om komedoner'
+            url: 'pormaskar.php',
+            label: 'Pormaskar',
+            title: 'Allt du behöver veta om pormaskar'
       ),
       new Link(
             url: 'stora-porer.php',
@@ -34,30 +34,30 @@ $akas = [
       ),
 ];
 
-$floating_box = 'Text på floating box';
+$floating_box = 'Vi behandlar pormaskar effektivt';
 
 $consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones";
 $consultation_url_label = "Få gratis konsultation";
-$consultation_url_title = "Gratis konsultation för behandling av komedoner";
+$consultation_url_title = "Gratis konsultation för behandling av svarta pormaskar";
 
 $booking_url = "https://acnespecialisten.se/book?flow=problem&problem=Problem_Comedones&method=Service_Facial_PoreExtraction";
 $booking_url_label = "Boka behandling";
-$booking_url_title = "Boka din tid för behandling av komedoner";
+$booking_url_title = "Boka din tid för behandling av svarta pormaskar";
 
 $mobile_consultation_url_label = "Få gratis konsultation";
-$mobile_consultation_url_title = "Gratis konsultation för komedoner";
+$mobile_consultation_url_title = "Gratis konsultation för svarta pormaskar";
 
 $mobile_booking_url_label = "Boka behandling";
-$mobile_booking_url_title = "Boka din tid för behandling av komedoner";
+$mobile_booking_url_title = "Boka din tid för behandling av svarta pormaskar";
 
 $floating_consultation_url_label = "Få gratis konsultation";
-$floating_consultation_url_title = "Gratis konsultation för komedoner";
+$floating_consultation_url_title = "Gratis konsultation för svarta pormaskar";
 
 $floating_booking_url_label = "Boka behandling";
-$floating_booking_url_title = "Boka din tid för behandling av komedoner";
+$floating_booking_url_title = "Boka din tid för behandling av svarta pormaskar";
 
 $nav_buttons = array(
-      'about' => 'Om komedoner',
+      'about' => 'Om svarta pormaskar',
       'approach' => 'Metoden',
       'areas' => 'Områden',
       'define' => 'Konsultation',
@@ -72,56 +72,56 @@ $nav_buttons = array(
       'related-problems' => 'Relaterade problem',
 );
 
-$description_title = 'Vad är Komedoner?';
-$description_text = '<p class="p200">Komedoner, ofta kända som hudormar, uppstår när porer täpps till av sebum och döda hudceller. De kan manifestera sig som svarta eller vita prickar på huden, ofta i områden som ansiktet, näsan och pannan. Komedoner kan vara ett tecken på oren hud och kan leda till ytterligare hudproblem om de inte behandlas korrekt.</p>
-<p class="p200 mt-m">Hos AcneSpecialisten erbjuder vi effektiva behandlingar för att hantera komedoner, inklusive djuprengöring och specifika ansiktsbehandlingar. Våra behandlingsmetoder är utformade för att noggrant rengöra porerna och ta bort ansamlingar av sebum och hudceller. Genom att kombinera professionella behandlingar med rätt hemmavårdsrutiner, strävar vi efter att ge dig en klarare och friskare hud med färre synliga komedoner.</p>';
+$description_title = 'Vad är Svarta Pormaskar?';
+$description_text = '<p class="p200">Svarta pormaskar, tekniskt kända som öppna komedoner, bildas när porer blir tilltäppta med en kombination av sebum och döda hudceller. Denna ansamling oxiderar och blir mörk vid kontakt med luft, vilket ger upphov till deras karaktäristiska svarta färg. De förekommer ofta på områden som ansiktet, särskilt näsan och pannan, och kan vara ett tecken på behovet av en bättre hudvårdsrutin.</p>
+<p class="p200 mt-m">På AcneSpecialisten erbjuder vi skräddarsydda behandlingar för att effektivt adressera och minska svarta pormaskar. Våra metoder inkluderar djuprengöring, speciella ansiktsbehandlingar och noggrann porrengöring. Dessa behandlingar, i kombination med rätt hudvårdsrutiner hemma, hjälper till att rensa porerna och förebygga framtida uppkomst av svarta pormaskar, vilket resulterar i en klarare och mer strålande hud.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'På AcneSpecialisten blir du matchad med en erfaren hudterapeut som hjälper dig att noggrant identifiera dina komedoner. Tillsammans utarbetar ni en skräddarsydd behandlingsplan för att specifikt adressera och hantera dina komedoner.',
+            content: 'På AcneSpecialisten möter du en erfaren hudterapeut som hjälper dig att noggrant identifiera dina svarta pormaskar. Tillsammans utvecklar ni en skräddarsydd behandlingsplan som är inriktad specifikt på att adressera och behandla dina svarta pormaskar.',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
             url_label: 'Få gratis konsultation',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vår behandling av komedoner involverar skonsamma men effektiva metoder för portömning, anpassade efter dina specifika hudbehov. Målet är att säkert och effektivt eliminera komedoner och förbättra hudens utseende.',
+            content: 'Vi erbjuder skonsamma men effektiva behandlingar för att avlägsna svarta pormaskar, anpassade efter dina unika hudbehov. Behandlingen syftar till att säkert och effektivt eliminera svarta pormaskar och ge din hud ett friskare och renare utseende.',
             url: 'problemhy/pormaskar/pormaskbehandling',
             url_label: 'Se portömning',
             url_title: 'Utforska våra skräddarsydda portömning'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'För att förhindra nya komedoner, hjälper vi dig att etablera en anpassad hudvårdsrutin. Vi väljer ut produkter som är idealiska för din hudtyp för att effektivt förebygga komedoner och upprätthålla en hälsosam hudbalans.',
+            content: 'Vi hjälper dig att utveckla en anpassad hudvårdsrutin för att förebygga uppkomsten av nya svarta pormaskar. Genom att välja ut produkter som passar just din hudtyp, strävar vi efter att hjälpa dig upprätthålla en hälsosam hudbalans och förebygga framtida hudproblem.',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/pormaskar',
             url_label: 'Se produkter',
-            url_title: 'Hitta de bästa produkterna för att förebygga komedoner'
+            url_title: 'Hitta de bästa produkterna för att förebygga svarta pormaskar'
       ),
 );
 $treatment_link = '<a href="problem/pormaskar/pormaskbehandling" title="Utforska effektiv portömning" class="mt-xl button b200 outline expand auto-width">Läs mer om vår portömning</a>';
 
 $top_articles = array(
     'areas' => new Article(
-        title: 'Var uppstår komedoner?',
+        title: 'Var uppstår svarta pormaskar?',
         image_small: null,
         image_large: null,
         image_alt: '',
         image_title: '',
-        content: '<p class="p200">Att förstå uppkomsten av komedoner är viktigt för att effektivt behandla och förebygga dem. En noggrann hudanalys är en avgörande del av konsultationen hos AcneSpecialisten. Under denna initiala bedömning identifierar vi områden med komedoner och analyserar orsakerna bakom dessa hudproblem. Denna förståelse är central för att utforma en individuellt anpassad behandlingsplan för dina specifika hudvårdsbehov.</p>
-      <p class="p200 mt-m">Komedoner, ofta kända som pormaskar, uppstår vanligtvis i områden med ökad talgproduktion, såsom ansiktet, näsan och pannan. De orsakas av en kombination av överproduktion av hudolja och ansamling av döda hudceller som blockerar porerna. För att undvika förvärring av komedoner är det viktigt att undvika hudirriterande produkter och att skydda huden från skadliga miljöpåverkan, såsom solskador. Våra hudterapeuter ger dig vägledning för att förbereda och vårda din hud inför och efter behandlingar som syftar till att minska komedoner, såsom Dermapen, för att säkerställa en effektiv och trygg behandlingsupplevelse.</p>',
+        content: '<p class="p200">Att förstå uppkomsten av svarta pormaskar är viktigt för att effektivt behandla och förebygga dem. En noggrann hudanalys är en avgörande del av konsultationen hos AcneSpecialisten. Under denna initiala bedömning identifierar vi områden med svarta pormaskar och analyserar orsakerna bakom dessa hudproblem. Denna förståelse är central för att utforma en individuellt anpassad behandlingsplan för dina specifika hudvårdsbehov.</p>
+      <p class="p200 mt-m">svarta pormaskar, ofta kända som pormaskar, uppstår vanligtvis i områden med ökad talgproduktion, såsom ansiktet, näsan och pannan. De orsakas av en kombination av överproduktion av hudolja och ansamling av döda hudceller som blockerar porerna. För att undvika förvärring av svarta pormaskar är det viktigt att undvika hudirriterande produkter och att skydda huden från skadliga miljöpåverkan, såsom solskador. Våra hudterapeuter ger dig vägledning för att förbereda och vårda din hud inför och efter behandlingar som syftar till att minska svarta pormaskar, såsom Dermapen, för att säkerställa en effektiv och trygg behandlingsupplevelse.</p>',
     ),
 );
 
 $articles = array(
       new Article(
-            title: 'När ska jag söka hjälp med mina komedoner?',
+            title: 'När ska jag söka hjälp med mina svarta pormaskar?',
             image_small: null,
             image_large: null,
-            image_alt: 'När ska jag söka hjälp med mina komedoner?',
-            image_title: 'När ska jag söka hjälp med mina komedoner?',
-            content: '<p class="p200">komedoner är en av de mest förekommande hudåkommorna och kan drabba personer i alla åldrar. Även om de i många fall är ofarliga och mestadels en estetisk bekymmer, kan de påverka självkänslan och orsaka obehag. Om du märker att dina komedoner börjar påverka ditt välbefinnande, eller om du har provat olika produkter och hemmabehandlingar utan framgång, kan det vara dags att söka professionell hjälp. Det är viktigt att komma ihåg att alla kan söka hjälp, oavsett om du har enstaka komedoner eller ett mer utbrett problem. Det finns ingen "minsta gräns" för när det är lämpligt att söka professionell vård.</p>
-            <p class="p200 mt-m">Hos en hudspecialist kan du få en personlig konsultation och behandlingsplan som är skräddarsydd för just ditt hudproblem. En expert kan analysera din hudtyp, diskutera möjliga orsaker till dina komedoner och rekommendera den mest effektiva behandlingsmetoden för dig. Detta kan inkludera allt från djuprengöring och portömning till mer avancerade hudvårdsprodukter. Så, om du känner att dina komedoner har blivit en belastning eller om du helt enkelt vill ha en problemfri hy, tveka inte att söka professionell hjälp. Det är aldrig för tidigt eller för sent att ta steget mot bättre hy.</p>',
+            image_alt: 'När ska jag söka hjälp med mina svarta pormaskar?',
+            image_title: 'När ska jag söka hjälp med mina svarta pormaskar?',
+            content: '<p class="p200">svarta pormaskar är en av de mest förekommande hudåkommorna och kan drabba personer i alla åldrar. Även om de i många fall är ofarliga och mestadels en estetisk bekymmer, kan de påverka självkänslan och orsaka obehag. Om du märker att dina svarta pormaskar börjar påverka ditt välbefinnande, eller om du har provat olika produkter och hemmabehandlingar utan framgång, kan det vara dags att söka professionell hjälp. Det är viktigt att komma ihåg att alla kan söka hjälp, oavsett om du har enstaka svarta pormaskar eller ett mer utbrett problem. Det finns ingen "minsta gräns" för när det är lämpligt att söka professionell vård.</p>
+            <p class="p200 mt-m">Hos en hudspecialist kan du få en personlig konsultation och behandlingsplan som är skräddarsydd för just ditt hudproblem. En expert kan analysera din hudtyp, diskutera möjliga orsaker till dina svarta pormaskar och rekommendera den mest effektiva behandlingsmetoden för dig. Detta kan inkludera allt från djuprengöring och portömning till mer avancerade hudvårdsprodukter. Så, om du känner att dina svarta pormaskar har blivit en belastning eller om du helt enkelt vill ha en problemfri hy, tveka inte att söka professionell hjälp. Det är aldrig för tidigt eller för sent att ta steget mot bättre hy.</p>',
       ),
 
       new Article(
@@ -130,26 +130,26 @@ $articles = array(
             image_large: null,
             image_alt: 'Varför ska jag besöka AcneSpecialisten?',
             image_title: 'Varför ska jag besöka AcneSpecialisten?',
-            content: '<p class="p200">Om du är ute efter en effektiv och långsiktig lösning på dina komedoner, är AcneSpecialisten det självklara valet. Vi har över 30 års erfarenhet inom hudvård och en specialisering i att behandla komedoner. Oavsett om du har enstaka komedoner eller en mer utbredd problematik, kan vi erbjuda en skräddarsydd lösning som passar just dig.</p>
+            content: '<p class="p200">Om du är ute efter en effektiv och långsiktig lösning på dina svarta pormaskar, är AcneSpecialisten det självklara valet. Vi har över 30 års erfarenhet inom hudvård och en specialisering i att behandla svarta pormaskar. Oavsett om du har enstaka svarta pormaskar eller en mer utbredd problematik, kan vi erbjuda en skräddarsydd lösning som passar just dig.</p>
             <p class="p200 mt-m">Vi använder de senaste metoderna och teknologierna inom hudvård för att du ska få bästa möjliga resultat. Vårt team av hudterapeuter står redo att erbjuda en individuellt anpassad behandlingsplan och att stötta dig genom hela processen. Med regelbundna uppföljningar och anpassade hemmavårdsprogram ser vi till att du får en långvarig förbättring.</p>
-            <p class="p200 mt-m">Att välja AcneSpecialisten innebär att du får tillgång till den mest avancerade och effektiva behandlingen för dina komedoner. Men det är inte allt. Vi ser dig som en partner i din hudvårdsresa och är dedikerade till att hjälpa dig att uppnå och bibehålla en klar och frisk hud. Vårt engagemang, kunskap och erfarenhet gör oss till ditt bästa val för behandling av komedoner.</p>',
+            <p class="p200 mt-m">Att välja AcneSpecialisten innebär att du får tillgång till den mest avancerade och effektiva behandlingen för dina svarta pormaskar. Men det är inte allt. Vi ser dig som en partner i din hudvårdsresa och är dedikerade till att hjälpa dig att uppnå och bibehålla en klar och frisk hud. Vårt engagemang, kunskap och erfarenhet gör oss till ditt bästa val för behandling av svarta pormaskar.</p>',
       ),
 );
 
-$headline01 = "01. Identifiera dina komedoner";
+$headline01 = "01. Identifiera dina svarta pormaskar";
 
 $service = new Service(
       title: 'Konsultation',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Vid ett personligt möte med en AcneSpecialist utförs en undersökning av dina komedoner. Vi tar före-bilder på din hud och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
+      content: 'Vid ett personligt möte med en AcneSpecialist utförs en undersökning av dina svarta pormaskar. Vi tar före-bilder på din hud och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
       image_small: 'images/services/200x200/konsultation.webp',
       image_large: 'images/services/200x200/konsultation.webp',
-      image_alt: 'Bild av en konsultation för komedoner',
-      image_title: 'Konsultation för komedoner',
+      image_alt: 'Bild av en konsultation för svarta pormaskar',
+      image_title: 'Konsultation för svarta pormaskar',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
       consultation_url_label: 'Boka tid för hudkonsultation',
-      consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för komedoner',
+      consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för svarta pormaskar',
       booking_url: null,
       booking_url_label: null,
       booking_url_title: null,
@@ -159,7 +159,7 @@ $service = new Service(
 
 );
 
-$headline02 = "02. Behandla komedoner";
+$headline02 = "02. Behandla svarta pormaskar";
 
 $services = array(
 
@@ -167,11 +167,11 @@ $services = array(
             title: 'Portömning',
             duration: '60 min',
             price: '995 kr',
-            content: 'Portömning är en specialiserad ansiktsbehandling som syftar till att effektivt rensa porer från talg och orenheter. Behandlingen utförs genom en försiktig extrahering av komedoner och kan leda till minskad inflammation och förstorade porer. Detta kan inte bara förbättra hudens textur utan även minska risken för framtida akneutbrott.',
+            content: 'Portömning är en specialiserad ansiktsbehandling som syftar till att effektivt rensa porer från talg och orenheter. Behandlingen utförs genom en försiktig extrahering av svarta pormaskar och kan leda till minskad inflammation och förstorade porer. Detta kan inte bara förbättra hudens textur utan även minska risken för framtida akneutbrott.',
             image_small: 'bilder/behandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
             image_large: 'bilder/behandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
             image_alt: 'Bild av en portömning',
-            image_title: 'Portömning som behandling för komedoner',
+            image_title: 'Portömning som behandling för svarta pormaskar',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
             consultation_url_label: 'Boka tid för hudkonsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för portömning',
@@ -185,18 +185,18 @@ $services = array(
 
 );
 
-$headline03 = "03. Förebygg uppkomsten av nya komedoner";
+$headline03 = "03. Förebygg uppkomsten av nya svarta pormaskar";
 
 $products = array(
       new Service(
-            title: 'Produkter mot komedoner',
+            title: 'Produkter mot svarta pormaskar',
             duration: null,
             price: 'Pris från 1495 kr',
-            content: 'För att effektivt bekämpa och förebygga komedoner är daglig behandling med rätt produkter avgörande. Våra akneprodukter är speciellt utformade för att hålla din hud i balans och förhindra att nya komedoner uppstår.',
+            content: 'För att effektivt bekämpa och förebygga svarta pormaskar är daglig behandling med rätt produkter avgörande. Våra akneprodukter är speciellt utformade för att hålla din hud i balans och förhindra att nya svarta pormaskar uppstår.',
             image_small: 'bilder/behandlingar/200x200/produkter.webp',
             image_large: 'bilder/behandlingar/200x200/produkter.webp',
-            image_alt: 'Bild av produkter designade för behandling av komedoner',
-            image_title: 'Effektiva produkter för bekämpning och förebyggande av komedoner',
+            image_alt: 'Bild av produkter designade för behandling av svarta pormaskar',
+            image_title: 'Effektiva produkter för bekämpning och förebyggande av svarta pormaskar',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
             consultation_url_label: 'Boka tid för hudkonsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för portömning',
