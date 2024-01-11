@@ -395,7 +395,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Pormaskar',
             aka: 'Vita & Svarta pormaskar',
-            image: 'images/problems/200x200/pormaskar.webp',
+            image: 'bilder/problem/200x200/pormaskar.webp',
             image_alt: 'Bild som skildrar pormaskar',
             image_title: 'Pormaskar - ett vanligt hudproblem bland både ungdomar och vuxna',
             url: 'pormaskar.php',
