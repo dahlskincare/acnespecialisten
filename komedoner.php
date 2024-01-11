@@ -197,12 +197,12 @@ $products = array(
             image_large: 'bilder/behandlingar/200x200/produkter.webp',
             image_alt: 'Bild av produkter designade för behandling av komedoner',
             image_title: 'Effektiva produkter för bekämpning och förebyggande av komedoner',
-            consultation_url: null,
-            consultation_url_label: null,
-            consultation_url_title: null,
-            booking_url: null,
-            booking_url_label: null,
-            booking_url_title: null
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
+            consultation_url_label: 'Boka tid för hudkonsultation',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för portömning',
+            booking_url_label: 'Köp produkter',
+            booking_url: 'https://dahlskincare.se/produktkategorier/produktpaket/pormaskar',
+            booking_url_title: 'Klicka för att köpa produktpaket mot pormaskar',
       )
 );
 
