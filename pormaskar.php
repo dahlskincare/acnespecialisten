@@ -20,22 +20,22 @@ $description = 'Här förklarar vi vad som kännetecknar pormaskar, varför prob
 
 $akas = [
       new Link(
-            url: 'problem/komedoner',
+            url: 'komedoner.php',
             label: 'Komedoner',
             title: 'Allt du behöver veta om komedoner (öppna och stängda pormaskar) och deras behandling'
       ),
       new Link(
-            url: 'problem/stora-porer',
+            url: 'stora-porer.php',
             label: 'Stora porer',
             title: 'Utforska orsaker, symptom och behandlingar av stora porer'
       ),
 ];
 
-$consultation_url = "consultation-booking?problem=comedones";
+$consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones";
 $consultation_url_label = "Få gratis konsultation";
 $consultation_url_title = "Gratis konsultation för behandling av pormaskar";
 
-$booking_url = "treatment-booking?problem=comedones";
+$booking_url = "https://acnespecialisten.se/book?flow=problem&problem=Problem_Comedones&method=Service_Facial_PoreExtraction";
 $booking_url_label = "Boka behandling";
 $booking_url_title = "Boka din tid för behandling av pormaskar";
 
@@ -349,7 +349,7 @@ $service = new Service(
       booking_url: null,
       booking_url_label: null,
       booking_url_title: null,
-      url: 'gratis-hudkonsultation',
+      url: 'gratis-hudkonsultation.php',
       url_label: 'Läs mer om vår hudkonsultation',
       url_title: 'Klicka här för att läsa mer om gratis hudkonsultation'
 
@@ -364,17 +364,17 @@ $services = array(
             duration: '60 min',
             price: '995 kr',
             content: 'Portömning är en specialiserad ansiktsbehandling som syftar till att effektivt rensa porer från talg och orenheter. Behandlingen utförs genom en försiktig extrahering av pormaskar och kan leda till minskad inflammation och förstorade porer. Detta kan inte bara förbättra hudens textur utan även minska risken för framtida akneutbrott.',
-            image_small: 'images/services/200x200/portomning-small.webp',
-            image_large: 'images/services/200x200/portomning-large.webp',
+            image_small: 'bilder/behandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
+            image_large: 'bilder/behandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
             image_alt: 'Bild av en portömning',
             image_title: 'Portömning som behandling för pormaskar',
-            consultation_url: 'consultation-booking?problem=comedones&service=portomning',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
             consultation_url_label: 'Boka tid för hudkonsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för portömning',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/skönhetsspecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/port%C3%B6mning-konsultation-1643922',
+            booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Comedones&method=Service_Facial_PoreExtraction',
             booking_url_label: 'Boka tid för portömning',
             booking_url_title: 'Klicka för att boka tid för en portömning',
-            url: 'portomning-behandling',
+            url: 'portomning.php',
             url_label: 'Läs mer om portömning som behandling för pormaskar',
             url_title: 'Läs mer om portömning som behandling för pormaskar'
       ),
@@ -389,8 +389,8 @@ $products = array(
             duration: null,
             price: 'Pris från 1495 kr',
             content: 'För att effektivt bekämpa och förebygga pormaskar är daglig behandling med rätt produkter avgörande. Våra akneprodukter är speciellt utformade för att hålla din hud i balans och förhindra att nya pormaskar uppstår.',
-            image_small: 'images/services/200x200/produkter-pormaskar.webp',
-            image_large: 'images/services/200x200/produkter-pormaskar.webp',
+            image_small: 'bilder/behandlingar/200x200/produkter.webp',
+            image_large: 'bilder/behandlingar/200x200/produkter.webp',
             image_alt: 'Bild av produkter designade för behandling av pormaskar',
             image_title: 'Effektiva produkter för bekämpning och förebyggande av pormaskar',
             consultation_url: null,
@@ -794,7 +794,7 @@ $brands_url_title = "Varumärken förpormaskar";
                                                 <a href="<?php echo $consultation_url ?>" title="<?php echo $mobile_consultation_url_title ?>" class="button b200 white expand l10n"><?php echo $mobile_consultation_url_label ?></a>
                                           </div>
                                           <div class="column is-half">
-                                                <a href="<?php echo $booking_url ?>" title="<?php echo $mobile_booking_url_title ?>" class="button b200 white expand l10n"><?php echo $mobile_booking_url_label ?>?></a>
+                                                <a href="<?php echo $booking_url ?>" title="<?php echo $mobile_booking_url_title ?>" class="button b200 white expand l10n"><?php echo $mobile_booking_url_label ?></a>
                                           </div>
                                     </div>
                               </div>

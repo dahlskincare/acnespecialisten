@@ -138,7 +138,7 @@
                         <li><a href="behandlingar.php" class="h100 l10n" title="Behandlingar">Behandlingar</a></li>
                         <li><a href="varumarken" class="h100 l10n" title="Varumärken">Varumärken</a></li>
                         <li><a href="resultat.php" class="h100 l10n" title="Resultat">Resultat</a></li>
-                        <li><a href="om-oss.php" class="h100 l10n" title="Om ossr">Om oss</a></li>
+                        <li><a href="om-oss.php" class="h100 l10n" title="Om oss">Om oss</a></li>
                         <li><a href="kontakt.php" class="h100 l10n" title="Kontakt">Kontakt</a></li>
                     </ul>
                 </nav>
