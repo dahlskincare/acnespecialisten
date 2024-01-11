@@ -678,10 +678,9 @@ $all_brands = array(
                             <?php } ?>
                             <?php if (isset($treatment_area->description)) { ?>
                                 <div class="mb-xl"><?php echo $treatment_area->description ?></div>
-                            <?php } ?>
-                        <?php
+                        <?php }
                             foreach ($treatment_area->items as $treatment_area_item) {
-                                include('behandlingar/widgets/treatment-area-item-card/treatment-area-item-card.php');
+                                //include('behandlingar/widgets/treatment-area-item-card/treatment-area-item-card.php');
                             }
                         } ?>
                     </section>
