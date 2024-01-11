@@ -3,26 +3,27 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Dermapen mot Stora Porer - Förfinad Hudstruktur | Acnespecialisten';
-$seo_description = 'Utforska effekten av AcneSpecialistens Dermapen-behandlingar för att minska stora porer. Genom att använda mikronålsteknik stimulerar vi hudens kollagenproduktion och förbättrar hudtexturen, vilket bidrar till att göra stora porer mindre framträdande och ger huden en jämnare och mer raffinerad utseende.';
-$seo_keywords = 'Dermapen, behandling av stora porer, minska porer, förbättrad hudstruktur, jämn hudton, stimulera kollagen, hudföryngring, mikroneedling, hudförfining, porminskning';
+$seo_title = 'Microneedling mot Stora Porer - Uppnå Finare Hudstruktur | Acnespecialisten';
+$seo_description = 'Upptäck hur AcneSpecialistens microneedling-behandlingar effektivt kan minska synligheten av stora porer. Genom att använda avancerad mikronålsteknik aktiverar vi hudens naturliga kollagenproduktion, vilket leder till en förbättrad hudtextur. Resultatet är mindre märkbara porer och en slätare, mer raffinerad hud.';
+$seo_keywords = 'microneedling, behandla stora porer, minska porstorlek, finare hudstruktur, jämn hudton, kollagenstimulering, hudföryngring, mikroneedling, hudförädling, porminskning';
 
-$seo_image = 'images/treatments/large/dermapen.jpg';
+
+$seo_image = 'images/treatments/large/microneedling.jpg';
 
 
 $model = new Service(
-    title: 'Dermapen mot stora porer',
+    title: 'Microneedling mot stora porer',
     duration: null,
     price: 'Från 2332 kr',
     content: '',
-    image_small: 'bilder/varumarken/358x274/dermapen.webp',
-    image_large: 'bilder/varumarken/424x456/dermapen.webp',
-    image_alt: 'Dermapen',
-    image_title: 'Dermapen',
-    consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Dermapen',
+    image_small: 'bilder/varumarken/358x274/microneedling.webp',
+    image_large: 'bilder/varumarken/424x456/microneedling.webp',
+    image_alt: 'Microneedling',
+    image_title: 'Microneedling',
+    consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
     consultation_url_label: 'Boka konsultation',
     consultation_url_title: 'Boka konsultation',
-    booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_LargePores',
+    booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_LargePores',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka behandling',
     procedures: array(
@@ -30,7 +31,7 @@ $model = new Service(
             label: '1 behandling',
             price: '2595 kr',
             savings: null,
-            booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_LargePores&area=EMPTY&procedures=PriceClass_5_Procedure_1',
+            booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_LargePores&area=EMPTY&procedures=PriceClass_5_Procedure_1',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Boka behandling'
         ),
@@ -38,7 +39,7 @@ $model = new Service(
             label: '3 behandlingar',
             price: '6995 kr',
             savings: 'Spara 790 kr',
-            booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_LargePores&area=EMPTY&procedures=PriceClass_5_Procedure_3',
+            booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_LargePores&area=EMPTY&procedures=PriceClass_5_Procedure_3',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Boka behandling'
         ),
@@ -46,7 +47,7 @@ $model = new Service(
             label: '5 behandlingar',
             price: '9995 kr',
             savings: 'Spara 2980 kr',
-            booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_LargePores&area=EMPTY&procedures=PriceClass_5_Procedure_5',
+            booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_LargePores&area=EMPTY&procedures=PriceClass_5_Procedure_5',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Boka behandling'
         )
@@ -56,7 +57,7 @@ $model = new Service(
 $floating_box = 'Behandlar och reducerar stora porer.';
 
 $nav_buttons = array(
-    'about' => 'Om dermapen mot stora porer',
+    'about' => 'Om microneedling mot stora porer',
     'types' => 'Typer',
     'results' => 'Resultat',
     'reviews' => 'Omdömen',
@@ -66,27 +67,27 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Vad är Dermapen mot stora porer?';
-$description_text = '<p class="p200">Dermapen mot stora porer är en effektiv behandlingsmetod som använder mikronålar för att förfina hudens textur och minska synligheten av stora porer. Genom att skapa fina punkteringar i huden, stimulerar Dermapen hudens förmåga att självläka och ökar kollagenproduktionen, vilket leder till en stramare och jämnare hudstruktur.</p>
-<p class="p200 mt-m">På AcneSpecialisten erbjuder vi skräddarsydda Dermapen-behandlingar för att effektivt minska stora porer och förbättra hudens övergripande utseende. Denna behandling är idealisk för att ge huden en mer jämn och förfinad ton. Genom regelbundna behandlingar kan du förvänta dig en tydlig förbättring av hudens kvalitet, med mindre och mindre synliga porer. Vårt mål är att erbjuda dig den bästa lösningen för en slätare och mer enhetlig hud.</p>';
 
+$description_title = 'Vad är microneedling för behandling av stora porer?';
+$description_text = '<p class="p200">Microneedling för behandling av stora porer är en framstående metod som använder fina mikronålar för att förfina hudens textur och minska synligheten av stora porer. Denna teknik innebär att skapa små mikroskopiska kanaler i huden, vilket stimulerar hudens naturliga läkningsprocess och främjar ökad kollagenproduktion. Resultatet är en fastare och jämnare hudstruktur.</p>
+<p class="p200 mt-m">På AcneSpecialisten erbjuder vi anpassade microneedling-behandlingar som specifikt riktar sig mot stora porer, vilket effektivt förbättrar hudens övergripande utseende. Denna behandlingsmetod är perfekt för att uppnå en mer jämn och förfinad hudton. Med regelbunden behandling kommer du att märka en betydande förbättring i hudens kvalitet, med porer som blir mindre synliga. Vårt mål är att ge dig en lösning för en slätare och mer enhetlig hud.</p>';
 
 $types_title = '';
 $types_description = '';
 $big_types = array(
     new Service(
-        title: 'Dermapen mot stora porer',
+        title: 'microneedling mot stora porer',
         duration: '50 min',
         price: null,
-        content: '<p class="p200">Dermapen mot stora porer inleds med en försiktig rengöring, följd av mikronålsbehandling som aktiverar hudens naturliga reparationsprocess och kollagenproduktion. Denna behandling är särskilt effektiv för att minska synligheten av stora porer och förbättra hudens yta. Efter behandlingen appliceras en lugnande kräm som hjälper till att reducera eventuell rodnad och stödja hudens återhämtning. Det slutgiltiga resultatet är en finare och jämnare hudstruktur med mindre framträdande porer.</p>',
+        content: '<p class="p200">Microneedling-behandling mot stora porer börjar med en noggrann rengöring av huden, följt av själva mikronålsproceduren som aktiverar hudens egna reparationssystem och stimulerar kollagenproduktionen. Denna teknik är särskilt effektiv för att minska storleken på porer och förbättra hudens yta. Efter behandlingen appliceras en lugnande kräm som minimerar eventuell rodnad och underlättar hudens återhämtning. Slutresultatet är en hud med förfinad struktur och mindre framträdande porer.</p>',
         image_small: 'https://via.placeholder.com/358x274.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Dermapen mot stora porer',
-        image_title: 'Dermapen mot stora porer',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Dermapen',
+        image_alt: 'microneedling mot stora porer',
+        image_title: 'microneedling mot stora porer',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka konsultation',
-        booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_LargePores',
+        booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_LargePores',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka behandling',
         procedures: array(
@@ -94,19 +95,19 @@ $big_types = array(
                 label: '1 behandling',
                 price: '2595 kr',
                 savings: null,
-                booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_LargePores&area=EMPTY&procedures=PriceClass_5_Procedure_1'
+                booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_LargePores&area=EMPTY&procedures=PriceClass_5_Procedure_1'
             ),
             new Procedure(
                 label: '3 behandlingar',
                 price: '6995 kr',
                 savings: 'Spara 790 kr',
-                booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_LargePores&area=EMPTY&procedures=PriceClass_5_Procedure_3'
+                booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_LargePores&area=EMPTY&procedures=PriceClass_5_Procedure_3'
             ),
             new Procedure(
                 label: '5 behandlingar',
                 price: '9995 kr',
                 savings: 'Spara 2980 kr',
-                booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_LargePores&area=EMPTY&procedures=PriceClass_5_Procedure_5'
+                booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_LargePores&area=EMPTY&procedures=PriceClass_5_Procedure_5'
             )
         )
     ),
@@ -327,10 +328,10 @@ $all_brands = array(
         image_title: 'Powerlite Photonova',
     ),
     new Brand(
-        label: 'Dermapen',
-        image: 'images/brands/dermapen.svg',
-        image_alt: 'Dermapen',
-        image_title: 'Dermapen',
+        label: 'microneedling',
+        image: 'images/brands/microneedling.svg',
+        image_alt: 'microneedling',
+        image_title: 'microneedling',
     ),
     new Brand(
         label: 'CryoPen',
