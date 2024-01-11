@@ -179,8 +179,8 @@ $services = array(
             booking_url_label: 'Boka tid för portömning',
             booking_url_title: 'Klicka för att boka tid för en portömning',
             url: 'portomning.php',
-            url_label: 'Läs mer om portömning som behandling för komedoner',
-            url_title: 'Läs mer om portömning som behandling för komedoner'
+            url_label: 'Läs mer om portömning',
+            url_title: 'Läs mer om portömning'
       ),
 
 );
@@ -658,14 +658,6 @@ $brands_url_title = "Se alla varumärken";
                               <h2 class="h500"><?php echo $headline03 ?></h2>
                               <hr class="is-hidden-mobile mt-xl">
                               <?php foreach ($products as $service) { ?>
-                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
-                                    <hr class="is-hidden-mobile mb-xxl">
-                              <?php } ?>
-                        </section>
-                        <section id="treatment-solutions">
-                              <h2 class="h500"><?php echo $headline04 ?></h2>
-                              <hr class="is-hidden-mobile mt-xl">
-                              <?php foreach ($procedures as $service) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
                                     <hr class="is-hidden-mobile mb-xxl">
                               <?php } ?>
