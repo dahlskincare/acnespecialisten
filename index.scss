@@ -86,7 +86,8 @@ section#banner {
             margin-top: $m;
 
             .icon-trustpilot {
-                margin-left: $s;
+                margin-left: $xxs;
+                display: inline-block;
             }
         }
     }
