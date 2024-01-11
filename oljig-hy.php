@@ -13,7 +13,7 @@ $seo_keywords = 'oljig hy, behandling av oljig hy, orsaker till oljig hy, hudvå
 
 $seo_image = 'bilder/problem/424x456/blandhy.webp';
 
-$title = 'oljig hy';
+$title = 'Oljig hy';
 
 $image_small = 'bilder/problem/424x324/blandhy.webp';
 $image_large = 'bilder/problem/424x456/blandhy.webp';
@@ -75,7 +75,7 @@ $description_text = '<p class="p200">Oljig hy kännetecknas av en ökad produkti
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Under din första konsultation hos AcneSpecialisten analyserar en hudterapeut din hud för att identifiera tecken på oljig hy. Vi skapar en anpassad behandlingsplan baserad på din huds specifika behov.',
+            content: 'Under din första konsultation hos AcneSpecialisten utforskar vi din hud för att identifiera tecken på oljig hy. En anpassad behandlingsplan utformas baserat på din huds unika egenskaper och behov, vilket är ett avgörande steg i hanteringen av oljig hy.',
 
             url_label: 'Boka konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin',
@@ -83,15 +83,15 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi erbjuder behandlingar som är specifikt utformade för att hantera utmaningarna med oljig hy, inklusive djuprengöring, reglering av oljeproduktion och minimering av acne. Våra behandlingar syftar till att återställa balansen och förbättra hudens hälsa.',
+            content: 'Specialiserade behandlingar för oljig hy hos AcneSpecialisten inkluderar djuprengöring för att avlägsna överflödig olja, samt tekniker för att reglera oljeproduktionen och minska förekomsten av acne. Dessa behandlingar är inriktade på att återställa hudens balans och främja dess hälsa.',
 
             url_label: 'Utforska behandlingar',
-            url: 'problem/fet-hy/fet-hybehandling',
+            url: 'problem/blandhy/blandhybehandling',
             url_title: 'Ta reda på vilka behandlingar som passar din oljig hy'
       ),
       new TreatmentStep(
             title: 'Förebygg',
-            content: 'Vi ger råd om hudvårdsrutiner och produkter som är idealiska för oljig hy, för att hjälpa dig att förebygga framtida hudproblem och bibehålla en hälsosam hudton.',
+            content: 'För att underlätta långsiktig skötsel av oljig hy, ger vi råd om dagliga hudvårdsrutiner och rekommenderar produkter anpassade för denna hudtyp. Vårt mål är att hjälpa dig att förebygga framtida hudproblem och upprätthålla en hälsosam och balanserad hudton.',
 
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/blandhy',
@@ -103,34 +103,34 @@ $treatment_link = '<a href="problem/blandhy/blandhybehandling" title="Utforska e
 
 $top_articles = array(
     'areas' => new Article(
-        title: 'oljig hy områden',
+        title: 'Områden med Oljig Hy',
         image_small: '',
         image_large: '',
         image_alt: '',
         image_title: '',
-        content: '<p class="p200">oljig hy kännetecknas ofta av en ökad oljeproduktion i specifika områden av ansiktet, särskilt i T-zonen som inkluderar pannan, näsan och hakan. Dessa områden har en högre koncentration av talgkörtlar, vilket kan leda till en mer oljig hudton jämfört med andra delar av ansiktet.</p>
-      <p class="p200 mt-m">Orsaken till oljig hy i dessa områden kan variera och inkluderar faktorer som genetik, hormonella förändringar och yttre miljöpåverkan. Stress och kost kan också spela en roll i utvecklingen av oljig hy. Att förstå de specifika orsakerna och hur de påverkar din hud är avgörande för att kunna välja rätt behandlingsmetoder och hudvårdsprodukter. Hos AcneSpecialisten genomför vi en noggrann hudanalys för att identifiera dina unika hudbehov och utforma en personlig behandlingsplan för att hantera oljig hy effektivt.</p>',
+        content: '<p class="p200">Oljig hy kännetecknas ofta av en ökad talgproduktion i specifika områden av ansiktet, särskilt i T-zonen som inkluderar pannan, näsan och hakan. Dessa områden har en högre koncentration av talgkörtlar, vilket kan leda till en mer oljig hudton jämfört med andra delar av ansiktet.</p>
+      <p class="p200 mt-m">Faktorer som påverkar utvecklingen av oljig hy i dessa områden kan vara genetik, hormonella förändringar, miljöpåverkan samt livsstilsfaktorer såsom stress. Att förstå dessa orsaker är kritiskt för att välja effektiva behandlingsmetoder och hudvårdsprodukter. Hos AcneSpecialisten utförs en grundlig hudanalys för att identifiera dina unika hudbehov och utforma en personlig behandlingsplan för effektiv hantering av oljig hy.</p>',
     ),
 );
 
 $articles = array(
       new Article(
-            title: 'När ska jag söka hjälp med oljig hy?',
+            title: 'När ska jag söka hjälp för oljig hy?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'När ska jag söka hjälp med oljig hy?',
-            image_title: 'När ska jag söka hjälp med oljig hy?',
-            content: '<p class="p200">oljig hy är en vanlig hudåkomma som kan påverka individer i alla åldrar. Detta tillstånd, som kännetecknas av ökad oljeproduktion, kan leda till en glansig hud och ökad benägenhet för acneutbrott. Om du märker att din oljig hy bidrar till hudproblem eller om du har försökt hantera det med olika produkter utan framgång, kan det vara dags att överväga professionell hjälp. Kom ihåg, det är lämpligt att söka hjälp oavsett om du upplever milda eller allvarliga symptom.</p>',
+            image_alt: 'När ska jag söka hjälp för oljig hy?',
+            image_title: 'När ska jag söka hjälp för oljig hy?',
+            content: '<p class="p200">Oljig hy är en vanlig hudåkomma som drabbar människor i alla åldrar. Kännetecknat av en ökad sebumproduktion, kan detta tillstånd leda till glansig hud och gör en mer benägen för acne. Om du märker att din oljiga hy leder till hudproblem eller om du inte har haft framgång med att hantera den med vanliga produkter, kan det vara läge att söka professionell hjälp. Det är viktigt att komma ihåg att det är lämpligt att söka hjälp oavsett om symtomen är milda eller svåra.</p>',
       ),
 
       new Article(
-            title: 'Varför ska jag besöka AcneSpecialisten?',
+            title: 'Varför ska jag välja AcneSpecialisten för oljig hy?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'Varför ska jag besöka AcneSpecialisten?',
-            image_title: 'Varför ska jag besöka AcneSpecialisten?',
-            content: '<p class="p200">Om du söker en effektiv och hållbar lösning för din oljig hy, är AcneSpecialisten det självklara valet. Med över 30 års erfarenhet inom hudvård och en specialisering i behandling av oljig hy, har vi den expertis som behövs för att anpassa behandlingen efter dina unika behov.</p>
-          <p class="p200 mt-m">Vi använder oss av de senaste metoderna och teknologierna inom hudvård för att säkerställa de bästa möjliga resultaten för din hud. Vårt team av erfarna hudterapeuter är beredda att skapa en individuellt anpassad behandlingsplan och ge dig stöd genom hela din hudvårdsresa. Med regelbundna uppföljningar och skräddarsydda hemmavårdsprogram ser vi till att din oljig hy får en varaktig förbättring.</p>',
+            image_alt: 'Varför ska jag välja AcneSpecialisten?',
+            image_title: 'Varför ska jag välja AcneSpecialisten?',
+            content: '<p class="p200">Om du är ute efter en effektiv och långvarig lösning på problem med oljig hy, är AcneSpecialisten ditt bästa val. Med mer än 30 års erfarenhet inom hudvård och en specialisering på oljig hy, erbjuder vi den expertis som krävs för att skräddarsy en behandling som passar just dina behov.</p>
+          <p class="p200 mt-m">Vi utnyttjar de senaste metoderna och teknologierna inom hudvård för att ge dig de bästa resultaten. Vårt team av kunniga hudterapeuter arbetar för att skapa en individuellt anpassad behandlingsplan och stödjer dig genom hela din hudvårdsresa. Genom regelbundna uppföljningar och skräddarsydda program för hemmavård ser vi till att din oljiga hy behandlas effektivt och med varaktiga resultat.</p>',
       ),
 );
 
@@ -140,7 +140,7 @@ $service = new Service(
       title: 'Konsultation för oljig hy',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Din resa mot en balanserad hud börjar med en personlig konsultation hos AcneSpecialisten. Under mötet analyserar en erfaren hudterapeut din feta hy, tar före-bilder, och diskuterar med dig för att förstå din huds unika behov. Vi rekommenderar den mest effektiva behandlingsmetoden för din hudtyp och utformar en anpassad behandlingsplan specifikt för dig.',
+      content: 'Ditt första steg mot en mer balanserad hud är en personlig konsultation hos AcneSpecialisten. Under denna konsultation kommer en av våra erfarna hudterapeuter att noggrant analysera din oljiga hy, ta före-bilder och diskutera dina specifika hudvårdsbehov. Vi kommer att rekommendera den mest effektiva behandlingsmetoden för just din hudtyp och utforma en skräddarsydd behandlingsplan för att hantera din oljiga hy.',
 
       image_small: 'images/services/200x200/konsultation.webp',
       image_large: 'images/services/200x200/konsultation.webp',
@@ -167,7 +167,7 @@ $services = array(
             title: 'Ansiktsbehandling för oljig hy',
             duration: '60 min',
             price: '995 kr',
-            content: 'Denna anpassade ansiktsbehandling är särskilt utvecklad för att möta de unika utmaningarna med oljig hy. Vi fokuserar på att noggrant rengöra huden för att ta bort överflödig olja och föroreningar, samtidigt som vi använder specialiserade exfolieringsmetoder för att förebygga tilltäppta porer. Behandlingen syftar även till att återställa hudens naturliga balans, vilket minskar oönskad glans och ger en förbättrad hudtextur och en hälsosam lyster.',
+            content: 'Vår specialanpassade ansiktsbehandling för oljig hy är utformad för att effektivt tackla de utmaningar som kommer med denna hudtyp. Fokus ligger på djuprengöring för att avlägsna överflödig olja och föroreningar, samt specialiserade exfolieringstekniker för att minska risken för tilltäppta porer. Behandlingen strävar även efter att återställa hudens naturliga balans, minska oljig glans och förbättra hudens textur och utstrålning.',
 
             image_small: 'images/services/200x200/ansiktsbehandling.webp',
             image_large: 'images/services/200x200/ansiktsbehandling.webp',
@@ -195,7 +195,7 @@ $products = array(
             title: 'Produkter mot oljig hy',
             duration: null,
             price: 'Pris från 1495 kr',
-            content: 'Att hantera oljig hy kräver en noggrann urval av produkter som effektivt kan reglera och balansera talgproduktionen utan att överdriva huden. Genom daglig användning av våra specialutformade produkter för oljig hy kan du uppnå en mer balanserad hudton, minskad oljighet och förbättrad hudhälsa. Dessa produkter är utvecklade för att ge en ren, fräsch känsla och en klarare hud.',
+            content: 'För att effektivt hantera oljig hy är det viktigt att välja rätt produkter som kan hjälpa till att kontrollera och balansera talgproduktionen, utan att torka ut huden. Vårt sortiment av produkter designade för oljig hy innehåller ingredienser som är noggrant utvalda för att minska glans och förbättra hudens allmänna tillstånd, bidragande till en fräschare och klarare hud.',
 
             image_small: 'images/services/200x200/produkter.webp',
             image_large: 'images/services/200x200/produkter.webp',
@@ -215,6 +215,7 @@ $products = array(
             booking_url_title: 'Klicka för att köpa produktpaket mot oljig hy',
       )
 );
+
 
 
 $results = array(

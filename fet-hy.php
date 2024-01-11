@@ -85,7 +85,7 @@ $treatment_steps = array(
             content: 'Vi erbjuder behandlingar som är specifikt utformade för att hantera utmaningarna med fet hy, inklusive djuprengöring, reglering av oljeproduktion och minimering av acne. Våra behandlingar syftar till att återställa balansen och förbättra hudens hälsa.',
 
             url_label: 'Utforska behandlingar',
-            url: 'problem/fet-hy/fet-hybehandling',
+            url: 'problem/blandhy/blandhybehandling',
             url_title: 'Ta reda på vilka behandlingar som passar din fet hy'
       ),
       new TreatmentStep(
@@ -182,7 +182,7 @@ $services = array(
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling för fet hy',
 
             booking_url_label: 'Boka behandling',
-            booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones',
+            booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_CombinationSkin&method=Method_FacialProblem',
             booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling för fet hy'
       ),
 );

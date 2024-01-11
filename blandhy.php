@@ -290,7 +290,7 @@ $services = array(
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling för blandhy',
 
             booking_url_label: 'Boka behandling',
-            booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones',
+            booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_CombinationSkin&method=Method_FacialProblem',
             booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling för blandhy'
       ),
       new Service(
