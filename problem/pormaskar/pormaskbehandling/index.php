@@ -535,7 +535,7 @@ $brands_url_title = "Varumärken för pormaskbehandling";
                     <section id="prevent">
                         <h2 class="h500 l10n"><?php echo $headline03 ?></h2>
                         <?php foreach ($products as $product) {
-                            include('problem/widgets/product-card/product-card.php');
+                            include('/problem/widgets/product-card/product-card.php');
                         } ?>
                     </section>
                 <?php } ?>

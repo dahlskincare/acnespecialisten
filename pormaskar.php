@@ -378,6 +378,76 @@ $services = array(
             url_label: 'Läs mer om portömning som behandling för pormaskar',
             url_title: 'Läs mer om portömning som behandling för pormaskar'
       ),
+      new Service(
+            title: 'Laser mot Pormaskar',
+            duration: '50 min',
+            price: '2595 kr',
+            content: 'Vår avancerade laserbehandling är en effektiv metod för att minska pormaskar. Denna teknik använder lasrar för att försiktigt rengöra porerna och minska talgproduktionen. Det hjälper till att rensa pormaskarna och förebygga nya utbrott, vilket ger en klarare och mer ren hud.',
+
+            image_small: 'images/services/200x200/laser.webp',
+            image_large: 'images/services/200x200/laser.webp',
+            image_alt: 'Bild av laserbehandling mot pormaskar',
+            image_title: 'Laserbehandling mot pormaskar',
+
+            url: '',
+            url_label: '',
+            url_title: '',
+
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling mot pormaskar',
+
+            booking_url_label: 'Boka behandling',
+            booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_LargePores',
+            booking_url_title: 'Klicka för att boka tid för en laserbehandling mot pormaskar',
+      ),
+      new Service(
+            title: 'Kemisk peeling mot Pormaskar',
+            duration: '30 min',
+            price: '1595 kr',
+            content: 'Kemisk peeling är en utmärkt behandling för att effektivt rengöra porer och minska pormaskar. Genom att använda speciella lösningar som exfolierar huden, rengör vi tilltäppta porer och främjar cellförnyelse, vilket leder till en klarare hud med färre synliga pormaskar.',
+
+            image_small: 'images/services/200x200/kemisk-peeling.webp',
+            image_large: 'images/services/200x200/kemisk-peeling.webp',
+            image_alt: 'Bild av kemisk peeling mot pormaskar',
+            image_title: 'Kemisk peeling mot pormaskar',
+
+            url: '',
+            url_label: '',
+            url_title: '',
+
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
+            consultation_url_label: 'Boka konsultation',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för kemisk peeling mot pormaskar',
+
+            booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_LargePores',
+            booking_url_label: 'Boka behandling',
+            booking_url_title: 'Klicka för att boka tid för en kemisk peeling mot pormaskar',
+
+      ),
+      new Service(
+            title: 'Microneedling mot Pormaskar',
+            duration: '50 min',
+            price: '2595 kr',
+            content: 'Microneedling är en effektiv metod för att minska synligheten av pormaskar. Genom att skapa små mikroskopiska kanaler i huden, stimulerar denna behandling hudens naturliga läkningsprocess och främjar ny kollagenproduktion. Detta bidrar till att rensa och förfina porerna, vilket reducerar pormaskarnas storlek och förbättrar hudens övergripande textur. Microneedling är en säker och skonsam lösning för att minska pormaskar och förbättra hudens utseende och hälsa.',
+
+            image_small: 'images/services/200x200/microneedling.webp',
+            image_large: 'images/services/200x200/microneedling.webp',
+            image_alt: 'Bild av microneedling mot pormaskar',
+            image_title: 'Microneedling mot pormaskar',
+
+            url: '',
+            url_label: '',
+            url_title: '',
+
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling mot pormaskar',
+
+            booking_url_label: 'Boka behandling',
+            booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_LargePores',
+            booking_url_title: 'Klicka för att boka tid för en microneedling mot pormaskar behandling',
+      ),
 
 );
 

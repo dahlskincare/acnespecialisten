@@ -73,7 +73,7 @@ $nav_buttons = array(
 );
 
 $description_title = 'Vad är Svarta Pormaskar?';
-$description_text = '<p class="p200">Svarta pormaskar, tekniskt kända som öppna komedoner, bildas när porer blir tilltäppta med en kombination av sebum och döda hudceller. Denna ansamling oxiderar och blir mörk vid kontakt med luft, vilket ger upphov till deras karaktäristiska svarta färg. De förekommer ofta på områden som ansiktet, särskilt näsan och pannan, och kan vara ett tecken på behovet av en bättre hudvårdsrutin.</p>
+$description_text = '<p class="p200">Svarta pormaskar, tekniskt kända som öppna komedoner, bildas när porer blir tilltäppta med en kombination av talg och döda hudceller. Denna ansamling oxiderar och blir mörk vid kontakt med luft, vilket ger upphov till deras karaktäristiska svarta färg. De förekommer ofta på områden som ansiktet, särskilt näsan och pannan, och kan vara ett tecken på behovet av en bättre hudvårdsrutin.</p>
 <p class="p200 mt-m">På AcneSpecialisten erbjuder vi skräddarsydda behandlingar för att effektivt adressera och minska svarta pormaskar. Våra metoder inkluderar djuprengöring, speciella ansiktsbehandlingar och noggrann porrengöring. Dessa behandlingar, i kombination med rätt hudvårdsrutiner hemma, hjälper till att rensa porerna och förebygga framtida uppkomst av svarta pormaskar, vilket resulterar i en klarare och mer strålande hud.</p>';
 
 $treatment_steps = array(
@@ -103,36 +103,34 @@ $treatment_link = '<a href="problem/pormaskar/pormaskbehandling" title="Utforska
 
 $top_articles = array(
     'areas' => new Article(
-        title: 'Var uppstår svarta pormaskar?',
+        title: 'Var och varför uppstår svarta pormaskar?',
         image_small: null,
         image_large: null,
         image_alt: '',
         image_title: '',
-        content: '<p class="p200">Att förstå uppkomsten av svarta pormaskar är viktigt för att effektivt behandla och förebygga dem. En noggrann hudanalys är en avgörande del av konsultationen hos AcneSpecialisten. Under denna initiala bedömning identifierar vi områden med svarta pormaskar och analyserar orsakerna bakom dessa hudproblem. Denna förståelse är central för att utforma en individuellt anpassad behandlingsplan för dina specifika hudvårdsbehov.</p>
-      <p class="p200 mt-m">svarta pormaskar, ofta kända som pormaskar, uppstår vanligtvis i områden med ökad talgproduktion, såsom ansiktet, näsan och pannan. De orsakas av en kombination av överproduktion av hudolja och ansamling av döda hudceller som blockerar porerna. För att undvika förvärring av svarta pormaskar är det viktigt att undvika hudirriterande produkter och att skydda huden från skadliga miljöpåverkan, såsom solskador. Våra hudterapeuter ger dig vägledning för att förbereda och vårda din hud inför och efter behandlingar som syftar till att minska svarta pormaskar, såsom Dermapen, för att säkerställa en effektiv och trygg behandlingsupplevelse.</p>',
+        content: '<p class="p200">Svarta pormaskar, även kända som öppna komedoner, bildas oftast i områden med hög talgproduktion som ansiktet, särskilt näsan och pannan. De uppstår när porer täpps till av en blandning av talg och döda hudceller. När denna blandning utsätts för luft oxiderar den och blir mörk, vilket resulterar i de karaktäristiska svarta prickarna. Faktorer som bidrar till ökad talgproduktion och tilltäppning av porer inkluderar hormonella förändringar, kost, vissa hudvårdsprodukter och miljöpåverkan som föroreningar och solskador.</p>
+      <p class="p200">För att effektivt hantera och förebygga svarta pormaskar är det viktigt att följa en skräddarsydd hudvårdsrutin och undvika produkter som kan irritera huden eller förvärra tillståndet. På AcneSpecialisten erbjuder vi anpassade behandlingar och rådgivning för att minska och förebygga svarta pormaskar, vilket ger dig en klarare och mer strålande hud.</p>',
     ),
 );
 
 $articles = array(
       new Article(
-            title: 'När ska jag söka hjälp med mina svarta pormaskar?',
+            title: 'När ska jag söka hjälp för mina svarta pormaskar?',
             image_small: null,
             image_large: null,
-            image_alt: 'När ska jag söka hjälp med mina svarta pormaskar?',
-            image_title: 'När ska jag söka hjälp med mina svarta pormaskar?',
-            content: '<p class="p200">svarta pormaskar är en av de mest förekommande hudåkommorna och kan drabba personer i alla åldrar. Även om de i många fall är ofarliga och mestadels en estetisk bekymmer, kan de påverka självkänslan och orsaka obehag. Om du märker att dina svarta pormaskar börjar påverka ditt välbefinnande, eller om du har provat olika produkter och hemmabehandlingar utan framgång, kan det vara dags att söka professionell hjälp. Det är viktigt att komma ihåg att alla kan söka hjälp, oavsett om du har enstaka svarta pormaskar eller ett mer utbrett problem. Det finns ingen "minsta gräns" för när det är lämpligt att söka professionell vård.</p>
-            <p class="p200 mt-m">Hos en hudspecialist kan du få en personlig konsultation och behandlingsplan som är skräddarsydd för just ditt hudproblem. En expert kan analysera din hudtyp, diskutera möjliga orsaker till dina svarta pormaskar och rekommendera den mest effektiva behandlingsmetoden för dig. Detta kan inkludera allt från djuprengöring och portömning till mer avancerade hudvårdsprodukter. Så, om du känner att dina svarta pormaskar har blivit en belastning eller om du helt enkelt vill ha en problemfri hy, tveka inte att söka professionell hjälp. Det är aldrig för tidigt eller för sent att ta steget mot bättre hy.</p>',
+            image_alt: 'När ska jag söka hjälp för mina svarta pormaskar?',
+            image_title: 'När ska jag söka hjälp för mina svarta pormaskar?',
+            content: '<p class="p200">Svarta pormaskar är vanliga hudproblem som kan påverka personer i alla åldrar. Dessa öppna komedoner uppstår när porer blockeras av talg och döda hudceller, vilket kan påverka hudens utseende och känsla. Om dina svarta pormaskar påverkar ditt välbefinnande eller om du inte har lyckats behandla dem med vanliga metoder, kan det vara läge att söka professionell hjälp. Det är viktigt att veta att oavsett omfattningen av dina svarta pormaskar, finns det ingen "minsta gräns" för att söka vård.</p>',
       ),
 
       new Article(
-            title: 'Varför ska jag besöka AcneSpecialisten?',
+            title: 'Varför ska jag välja AcneSpecialisten för mina svarta pormaskar?',
             image_small: null,
             image_large: null,
-            image_alt: 'Varför ska jag besöka AcneSpecialisten?',
-            image_title: 'Varför ska jag besöka AcneSpecialisten?',
-            content: '<p class="p200">Om du är ute efter en effektiv och långsiktig lösning på dina svarta pormaskar, är AcneSpecialisten det självklara valet. Vi har över 30 års erfarenhet inom hudvård och en specialisering i att behandla svarta pormaskar. Oavsett om du har enstaka svarta pormaskar eller en mer utbredd problematik, kan vi erbjuda en skräddarsydd lösning som passar just dig.</p>
-            <p class="p200 mt-m">Vi använder de senaste metoderna och teknologierna inom hudvård för att du ska få bästa möjliga resultat. Vårt team av hudterapeuter står redo att erbjuda en individuellt anpassad behandlingsplan och att stötta dig genom hela processen. Med regelbundna uppföljningar och anpassade hemmavårdsprogram ser vi till att du får en långvarig förbättring.</p>
-            <p class="p200 mt-m">Att välja AcneSpecialisten innebär att du får tillgång till den mest avancerade och effektiva behandlingen för dina svarta pormaskar. Men det är inte allt. Vi ser dig som en partner i din hudvårdsresa och är dedikerade till att hjälpa dig att uppnå och bibehålla en klar och frisk hud. Vårt engagemang, kunskap och erfarenhet gör oss till ditt bästa val för behandling av svarta pormaskar.</p>',
+            image_alt: 'Varför ska jag välja AcneSpecialisten?',
+            image_title: 'Varför ska jag välja AcneSpecialisten?',
+            content: '<p class="p200">För en effektiv och långvarig lösning på dina svarta pormaskar är AcneSpecialisten det bästa valet. Med vår omfattande erfarenhet och specialisering i behandling av svarta pormaskar, har vi de kunskaper och verktyg som behövs för att tackla ditt hudproblem, oavsett dess omfattning.</p>
+            <p class="p200 mt-m">Vi använder oss av de senaste behandlingarna och teknikerna inom hudvård för att ge dig bästa möjliga resultat. Vårt team av hudterapeuter arbetar med dig för att skapa en personligt anpassad behandlingsplan och ger stöd under hela din hudvårdsresa. Genom regelbundna uppföljningar och anpassade hemvårdsprogram strävar vi efter att ge dig en varaktig förbättring av din hudhälsa.</p>',
       ),
 );
 
