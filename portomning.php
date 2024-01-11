@@ -665,25 +665,26 @@ $all_brands = array(
                         <?php if (isset($treatment_areas_text)) { ?>
                             <div class="mt-xs"><?php echo $treatment_areas_text ?></div>
                         <?php } ?>
-                        <?php foreach ($treatment_areas as $treatment_area) { ?>
-                            <?php if (isset($treatment_area->image_small)) { ?>
-                                <picture>
-                                    <source media="(max-width: 799px)" srcset="<?php echo $treatment_area->image_small ?>">
-                                    <source media="(min-width: 800px)" srcset="<?php echo $treatment_area->image_large ?>">
-                                    <img class="treatment-area-image" src="<?php echo $treatment_area->image_small ?>" alt="<?php echo $treatment_area->image_alt ?>" title="<?php echo $treatment_area->image_title ?>" width="364" height="364" />
-                                </picture>
-                            <? } ?>
-                            <?php if (isset($treatment_area->title)) { ?>
-                                <h3 class="h300 mt-xl"><?php echo $treatment_area->title ?></h3>
-                            <?php } ?>
-                            <?php if (isset($treatment_area->description)) { ?>
-                                <div class="mb-xl"><?php echo $treatment_area->description ?></div>
-                            <?php } ?>
-                        <?php
-                            foreach ($treatment_area->items as $treatment_area_item) {
-                                include('behandlingar/widgets/treatment-area-item-card/treatment-area-item-card.php');
-                            }
-                        } ?>
+                        <div class="mt-m">
+                            <?php foreach ($treatment_areas as $treatment_area) {
+                                if (isset($treatment_area->image_small)) { ?>
+                                    <picture>
+                                        <source media="(max-width: 799px)" srcset="<?php echo $treatment_area->image_small ?>">
+                                        <source media="(min-width: 800px)" srcset="<?php echo $treatment_area->image_large ?>">
+                                        <img class="treatment-area-image" src="<?php echo $treatment_area->image_small ?>" alt="<?php echo $treatment_area->image_alt ?>" title="<?php echo $treatment_area->image_title ?>" width="364" height="364" />
+                                    </picture>
+                                <? }
+                                if (isset($treatment_area->title)) { ?>
+                                    <h3 class="h300 mt-xl"><?php echo $treatment_area->title ?></h3>
+                                <?php }
+                                if (isset($treatment_area->description)) { ?>
+                                    <div class="mb-xl"><?php echo $treatment_area->description ?></div>
+                            <?php }
+                                foreach ($treatment_area->items as $treatment_area_item) {
+                                    include('behandlingar/widgets/treatment-area-item-card/treatment-area-item-card.php');
+                                }
+                            } ?>
+                        </div>
                     </section>
                 <?php } ?>
                 <?php if (isset($types_title)) { ?>
