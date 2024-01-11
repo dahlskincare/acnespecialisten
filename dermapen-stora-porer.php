@@ -246,24 +246,26 @@ $reviews_view_more = 'Se alla omdömen';
 
 $faq_title = 'Frågor & Svar';
 $faq_categories = array(
-    '' => array(
-        new Question(
-            title: 'Hur många behandlingar behövs?',
-            text: 'Antalet behandlingar kan variera beroende på individens hudtyp och hudens tillstånd. Generellt rekommenderas en serie av behandlingar för bästa möjliga resultat och sedan underhållsbehandlingar för långsiktig effekt.'
-        ),
-        new Question(
-            title: 'Hur ofta ska jag boka en ansiktsbehandling?',
-            text: 'För att upprätthålla resultat och hudens hälsa, rekommenderar vi en klassisk ansiktsbehandling var fjärde till sjätte vecka. Det kan justeras beroende på personliga behov och hudens tillstånd.'
-        ),
-        new Question(
-            title: 'Vad kan jag förvänta mig direkt efter behandlingen?',
-            text: 'Efter en klassisk ansiktsbehandling kan huden vara lite rosig och kännas extra mjuk och återfuktad. Det är viktigt att följa eftervårdsinstruktionerna för att maximera behandlingens effekt. I de fall där en mer resultatinriktad behandling gjorts kan upplevelsen av huden variera.'
-        ),
-        new Question(
-            title: 'Behövs speciell eftervård efter en klassisk ansiktsbehandling?',
-            text: 'Eftervård är viktigt för att bevara resultatet av din ansiktsbehandling. Det innefattar solskydd, mild hudvård, och att undvika starka hudirriterande ämnen ett par dagar efter behandlingen.'
-        )
-    )
+      'Generella frågor' => array(
+            new Question(
+              title: 'Är alla konsultationer kostnadsfria på AcneSpecialisten?',
+              text: 'Ja, vi erbjuder alltid kostnadsfria konsultationer för våra kunder, förutsatt att de närvarar vid den bokade tiden.'
+            ),
+            new Question(
+              title: 'Vad kan jag förvänta mig under en konsultation hos AcneSpecialisten?',
+              text: 'Under konsultationen kommer en av våra hudterapeuter att noggrant analysera din hudtyp och diskutera dina hudproblem. Vi kommer även att gå igenom din nuvarande hudvårdsrutin och ge personliga rekommendationer för behandlingar och produkter som bäst passar dina behov.'
+            ),
+      ),
+      'Frågor om behandling' => array(
+            new Question(
+              title: 'Vilka behandlingar erbjuder AcneSpecialisten för olika hudproblem?',
+              text: 'På AcneSpecialisten erbjuder vi ett brett utbud av behandlingar anpassade för specifika hudproblem, inklusive avancerad acnebehandling, skonsam rosaceabehandling och noggrann portömning, samt andra specialbehandlingar för olika hudtillstånd.'
+            ),
+            new Question(
+              title: 'Anpassar ni behandlingarna för olika hudtyper?',
+              text: 'Absolut, på AcneSpecialisten anpassar vi våra behandlingar för att passa en mängd olika hudtyper, från mycket känslig till oljig hy, för att säkerställa den mest effektiva och skonsamma behandlingen.'
+            ),
+      ),
 );
 
 $faq_view_more = 'Se alla frågor & svar';

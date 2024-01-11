@@ -5,64 +5,59 @@ include_once('problem/widgets/symptom-card/symptom.php');
 include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Behandling av Blodprickar - Effektiva Metoder | Acnespecialisten';
-$seo_description = 'Upptäck Acnespecialistens expertis inom behandling av blodprickar. Vi erbjuder skräddarsydda lösningar för att säkert och effektivt ta hand om dessa vanliga hudförändringar. Med våra avancerade metoder och tekniker kan du uppnå en klarare och jämnare hudton utan synliga blodprickar.';
-$seo_keywords = 'blodprickar, behandling av blodprickar, hudförändringar, klar hud, jämn hudton, avlägsna blodprickar, hudvård, Acnespecialisten, effektiv behandling, hudhälsa';
+$seo_title = 'Allt om Mjälleksem - Orsaker, Behandling och Förebyggande | Acnespecialisten';
+$seo_description = 'Utforska allt om mjälleksem, från dess orsaker till effektiva behandlingsmetoder och förebyggande åtgärder. Få expertis och skräddarsydda lösningar från Acnespecialisten.';
+$seo_keywords = 'mjälleksem, behandling av mjälleksem, orsaker till mjälleksem, förebygga mjälleksem, seborroisk dermatit, skalpmjälleksem, ansiktsmjälleksem, flagnande hud, oljig hud';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
-$seo_image = 'images/treatments/large/hudforandringar.jpg';
+$seo_image = 'bilder/problem/424x456/seborre.webp';
 
-$title = 'Behandling av Blodprickar';
+$title = 'Mjälleksem';
 
-$image_small = 'bilder/problem/424x324/hudforandringar.webp';
-$image_large = 'bilder/problem/424x456/hudforandringar.webp';
-$image_title = 'Effektiv behandling av blodprickar';
-$image_alt = 'Bild som illustrerar behandling av blodprickar';
-$description = 'Blodprickar, även kända som cherry angiomas, är små, röda hudförändringar som ofta uppkommer med åldern. I detta avsnitt förklarar vi hur blodprickar uppstår och de mest effektiva behandlingsmetoderna för att ta bort dem. På Acnespecialisten använder vi avancerade tekniker för att säkert och effektivt behandla blodprickar, vilket ger dig en jämnare och klarare hudton.';
+$image_small = 'bilder/problem/424x324/seborre.webp';
+$image_large = 'bilder/problem/424x456/seborre.webp';
+$image_title = 'Visar en hud med seborre';
+$image_alt = 'Bild som illustrerar mjälleksem på huden';
+$description = 'I den här sektionen utforskar vi vad mjälleksem innebär, varför det uppstår och hur Acnespecialisten kan hjälpa dig med behandling. Vi diskuterar orsakerna till mjälleksem, hur det skiljer sig från andra hudtillstånd och hur vi kan stödja dig genom din behandlingsprocess.';
 
 $akas = [
       new Link(
-            label: 'Smultronmärken',
+            label: 'Seborre',
             url: null,
-            title: 'Smultronmärken',
+            title: null,
       ),
       new Link(
-            label: 'Jordgubbsmärke',
+            label: 'Seborroiskt Eksem',
             url: null,
-            title: 'Jordgubbsmärke',
-      ),
-      new Link(
-            label: 'Hemangiom',
-            url: null,
-            title: 'Hemangiom',
+            title: null,
       ),
 ];
 
-$floating_box = 'Vi behandlar blodprickar effektivt';
+$floating_box = 'Text på floating box';
 
 $consultation_url_label = "Få gratis konsultation";
-$consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen";
-$consultation_url_title = "Gratis Konsultation för Hudförändringar";
+$consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne";
+$consultation_url_title = "Gratis Konsultation för mjalleksem";
 
 $booking_url_label = "Boka behandling";
-$booking_url = "https://acnespecialisten.se/book?flow=cryopen";
-$booking_url_title = "Boka behandling";
+$booking_url = "https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne";
+$booking_url_title = "Boka mjalleksembehandling";
 
 $mobile_consultation_url_label = "Få gratis konsultation";
-$mobile_consultation_url_title = "Gratis Konsultation för Hudförändringar";
+$mobile_consultation_url_title = "Gratis Konsultation för mjalleksem";
 
 $mobile_booking_url_label = "Boka behandling";
-$mobile_booking_url_title = "Boka behandling";
+$mobile_booking_url_title = "Boka mjalleksembehandling";
 
 $floating_consultation_url_label = "Få gratis konsultation";
-$floating_consultation_url_title = "Gratis Konsultation för Hudförändringar";
+$floating_consultation_url_title = "Gratis Konsultation för mjalleksem";
 
 $floating_booking_url_label = "Boka behandling";
-$floating_booking_url_title = "Boka Behandling";
+$floating_booking_url_title = "Boka mjalleksembehandling";
 
 $nav_buttons = array(
-      'about' => 'Om blodprickar',
+      'about' => 'Om mjälleksem',
       'approach' => 'Metoden',
       'areas' => 'Områden',
       'define' => 'Konsultation',
@@ -77,136 +72,158 @@ $nav_buttons = array(
       'related-problems' => 'Relaterade problem',
 );
 
-$description_title = 'Vad är Blodprickar?';
-$description_text = '<p class="p200">Blodprickar, även kända som cherry angiomas, är små, runda och röda hudutväxter som vanligtvis uppstår på grund av ansamlingar av små blodkärl. De är ofarliga och förekommer oftare med åldrande, men storlek och antal kan variera från person till person. Blodprickar kan förekomma var som helst på kroppen men ses vanligtvis på överkroppen, armar och axlar.</p>
-<p class="p200 mt-m">På AcneSpecialisten erbjuder vi behandlingar för att säkert och effektivt ta bort blodprickar, vilket ger en förbättring av hudens utseende. Våra behandlingsmetoder varierar beroende på individens behov och kan inkludera laserteknik eller andra avancerade hudvårdsmetoder. Målet med behandlingen är att minska synligheten av dessa hudförändringar och återställa en jämnare hudton.</p>';
+$description_title = 'Vad är Mjälleksem?';
+$description_text = '<p class="p200">Mjälleksem, även känt som seborroisk dermatit, är en vanlig hudåkomma som kännetecknas av röda, flagnande och ofta oljiga hudpartier. Det drabbar vanligtvis skalpen, ansiktet och andra oljerika områden på kroppen. Även om det är en kronisk tillstånd, finns det flera effektiva behandlingar som kan lindra symtomen.</p>
+<p class="p200 mt-m">På AcneSpecialisten erbjuder vi specialiserade behandlingar för mjälleksem. Våra behandlingar är anpassade för att lugna huden, minska inflammation och flagnande samt att kontrollera överproduktionen av hudolja. Genom en noggrann analys av ditt hudtillstånd och livsstil, utformar vi en personlig behandlingsplan som inte bara behandlar symptomen, utan också tar itu med de bakomliggande orsakerna.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Vid ditt första besök får du en konsultation med en av våra erfarna hudterapeuter, som noggrant identifierar och bedömer dina blodprickar. Vi diskuterar dina önskemål och skapar en individuell behandlingsplan anpassad för din specifika situation.',
-
-            url_label: 'Boka gratis konsultation',
-            url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen',
-            url_title: 'Boka din kostnadsfria konsultation för blodprickar idag'
+            content: 'På AcneSpecialisten kopplar vi dig med en erfaren hudterapeut som hjälper dig att korrekt identifiera ditt mjälleksem och utformar en individuell behandlingsplan speciellt för dig. Att förstå din specifika form av mjälleksem är avgörande för en effektiv behandling.',
+            url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Seborrea',
+            url_label: 'Boka din gratis konsultation nu',
+            url_title: 'Boka en tid för gratis mjälleksem konsultation',
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi erbjuder effektiva och skonsamma behandlingsalternativ för blodprickar, inklusive laser och andra moderna metoder. Våra behandlingar är anpassade för att ge optimala resultat samtidigt som din hudkomfort prioriteras.',
-
-            url_label: 'Se behandlingar för blodprickar',
-            url: 'problem/hudforandringar/behandla-hudforandringar',
-            url_title: 'Läs mer om behandlingar för blodprickar'
+            content: 'Vi erbjuder en rad skonsamma men effektiva behandlingar anpassade för din specifika typ av mjälleksem, vilket säkerställer att du på ett tryggt och effektivt sätt kan hantera ditt mjälleksem.',
+            url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Seborrea',
+            url_label: 'Utforska våra mjälleksembehandlingar',
+            url_title: 'Utforska alla våra effektiva mjälleksembehandlingar',
+      ),
+      new TreatmentStep(
+            title: 'Förebygga',
+            content: 'På AcneSpecialisten hjälper vi dig att hitta en skräddarsydd hudvårdsrutin och produkter specifikt för att förebygga mjälleksem, och att hålla din hud frisk, balanserad och fri från mjälleksem.',
+            url: 'https://dahlskincare.se/produktkategorier/produktpaket/seborre',
+            url_label: 'Upptäck produkterna',
+            url_title: 'Se produkterna för att förebygga mjälleksem',
       ),
 );
 
-$treatment_link = '<a href="problem/hudforandringar/behandla-hudforandringar" title="Utforska effektiva behandlingar mot blodprickar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot blodprickar</a>';
 
 $top_articles = array(
     'areas' => new Article(
-        title: 'Områden för blodprickar',
+        title: 'Var uppstår mjälleksem?',
         image_small: '',
         image_large: '',
         image_alt: '',
         image_title: '',
-        content: '<p class="p200">Blodprickar, eller cherry angiomas, är små, röda hudförändringar som ofta uppstår på grund av ansamlingar av små blodkärl. De är vanliga och kan förekomma hos personer i alla åldersgrupper, men blir oftare mer frekventa och märkbara med åldrandet. Blodprickar kan dyka upp var som helst på kroppen, men är vanligast på överkroppen, inklusive bröstet, ryggen, armar och axlar.</p>
-      <p class="p200 mt-m">Orsaken till bildandet av blodprickar är inte helt klarlagd, men de anses vara relaterade till genetiska faktorer och åldrande. Även om de i de flesta fall är ofarliga och inte kräver behandling, kan vissa personer välja att ta bort dem av estetiska skäl eller om de orsakar obehag. På AcneSpecialisten erbjuder vi skonsamma och effektiva behandlingsalternativ för att säkert ta bort blodprickar och ge huden ett jämnare utseende.</p>',
+        content: '<p class="p200">När det gäller mjälleksem, är det viktigt att förstå varför och var det vanligtvis uppstår för att kunna hantera det effektivt. Mjälleksem, även känt som seborroisk dermatit, drabbar ofta områden med hög densitet av talgkörtlar som skalpen, ansiktet (särskilt näsan och ögonbrynen), öronkanalerna och bröstet. Under din konsultation hos AcneSpecialisten, utförs en noggrann hudanalys för att identifiera dessa problemområden och förstå de underliggande orsakerna till ditt mjälleksem.</p>
+      <p class="p200 mt-m">Det är viktigt att skydda dessa känsliga områden från ytterligare irritation. Vi rekommenderar att undvika hudirriterande produkter och starka syror, särskilt i de drabbade områdena. Dessa förberedelser är avgörande för att säkerställa att eventuella behandlingar blir så effektiva och skonsamma som möjligt. Våra hudterapeuter kommer att ge dig skräddarsydda råd och vägledning för att förbereda och behandla ditt mjälleksem på bästa sätt.</p>',
     ),
 );
 
 $articles = array(
       new Article(
-            title: 'När ska jag söka hjälp med mina blodprickar?',
+            title: 'När ska jag söka hjälp för mitt mjälleksem?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'När ska jag söka hjälp med mina blodprickar?',
-            image_title: 'När ska jag söka hjälp med mina blodprickar?',
-            content: '<p class="p200">Blodprickar, även kända som cherry angiomas, är små röda hudförändringar som ofta är ofarliga. De kan dock orsaka estetisk obehag eller bekymmer. Om dina blodprickar börjar förändra sig i storlek, form eller färg, eller om du helt enkelt vill ta bort dem av kosmetiska skäl, kan det vara lämpligt att söka professionell hjälp. Det finns ingen "minsta gräns" för när det är lämpligt att söka professionell vård för blodprickar.</p>',
+            image_alt: 'När ska jag söka hjälp för mitt mjälleksem?',
+            image_title: 'När ska jag söka hjälp för mitt mjälleksem?',
+            content: '<p class="p200">Mjälleksem är en hudåkomma som kan påverka både vuxna och barn, kännetecknat av röd, inflammerad och flagnande hud, ofta i hårbotten eller andra oljerika områden. Om du upplever att ditt mjälleksem orsakar obehag, påverkar din livskvalitet, eller om du har provat olika produkter och hemmabehandlingar utan framgång, kan det vara dags att söka professionell hjälp. Det är viktigt att förstå att hjälp finns tillgänglig, oavsett om ditt mjälleksem är mild eller svår.</p>
+            <p class="p200 mt-m">Genom att besöka en hudterapeut kan du få en skräddarsydd behandlingsplan anpassad efter dina unika behov. En expert kan analysera din hudtyp, diskutera de möjliga orsakerna till ditt mjälleksem och rekommendera de mest effektiva behandlingsmetoderna. Dessa kan inkludera specialiserade hudvårdsprodukter eller andra behandlingar som är anpassade för att hantera mjälleksem effektivt. Att ta hand om din hud och få professionell hjälp är avgörande för att kontrollera symtomen och förbättra din hudhälsa.</p>',
       ),
 
       new Article(
-            title: 'Varför ska jag besöka AcneSpecialisten för mina blodprickar?',
+            title: 'Varför ska jag välja AcneSpecialisten för mitt mjälleksem?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'Varför ska jag besöka AcneSpecialisten för mina blodprickar?',
-            image_title: 'Varför ska jag besöka AcneSpecialisten för mina blodprickar?',
-            content: '<p class="p200">På AcneSpecialisten är vi experter på att behandla blodprickar och andra hudförändringar. Med vår erfarenhet och tillgång till avancerad teknologi erbjuder vi säkra och effektiva behandlingar. Vi förstår att varje klients behov är unika, och vi anpassar därför våra behandlingar för att passa just dina önskemål och hudtillstånd.</p>',
+            image_alt: 'Varför ska jag välja AcneSpecialisten?',
+            image_title: 'Varför ska jag välja AcneSpecialisten?',
+            content: '<p class="p200">För en effektiv och långsiktig lösning på mjälleksem, är AcneSpecialisten det självklara valet. Med vår gedigna erfarenhet inom hudvård och specialisering inom behandling av mjälleksem, är vi välutrustade för att hantera din specifika situation.</p>
+            <p class="p200 mt-m">Vi använder oss av de senaste metoderna och teknologierna inom hudvård för att ge dig bästa möjliga resultat. Vårt team av erfarna hudterapeuter är redo att skapa en personligt anpassad behandlingsplan och stötta dig genom hela din hudvårdsresa. Med regelbundna uppföljningar och anpassade hudvårdsprogram ser vi till att ditt mjälleksem hanteras effektivt och att du uppnår en långvarig förbättring av din hud.</p>',
       ),
 );
 
-$headline01 = "01. Identifiera dina blodprickar";
+$headline01 = "01. Identifiera ditt mjälleksem";
 
 $service = new Service(
-      title: 'Konsultation för blodprickar',
+      title: 'Mjälleksem Konsultation',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Under en personlig konsultation med en hudspecialist utförs en grundlig undersökning av dina blodprickar. Vi tar före-bilder och diskuterar lämpliga behandlingsalternativ, inklusive möjligheten att använda Cryopen, för att skräddarsy en behandlingsplan som passar dina specifika behov.',
-
+      content: 'Under ett personligt möte med en av våra AcneSpecialister utförs en noggrann undersökning av din hud för att identifiera och förstå ditt mjälleksem. Vi tar före-bilder på din hud och utifrån denna undersökning rekommenderar vi den mest lämpliga behandlingen för dig, och skräddarsyr en individuell behandlingsplan som bäst passar dina specifika behov och livsstil.',
       image_small: 'images/services/200x200/konsultation.webp',
       image_large: 'images/services/200x200/konsultation.webp',
-      image_alt: 'Bild av en konsultation för behandling av blodprickar',
-      image_title: 'Konsultation för behandling av blodprickar',
-
-      url_label: '',
-      url: '',
-      url_title: '',
-
-      consultation_url_label: 'Boka tid för hudkonsultation för blodprickar',
-      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen',
-      consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för blodprickar',
-
-      booking_url_label: null,
+      image_alt: 'Mjälleksem Konsultation',
+      image_title: 'Mjälleksem Konsultation',
+      consultation_url: 'consultation-booking?problem=seborrhea',
+      consultation_url_label: 'Boka din gratis mjälleksem konsultation nu',
+      consultation_url_title: 'Boka din gratis mjälleksem konsultation nu',
       booking_url: null,
+      booking_url_label: null,
       booking_url_title: null,
+      url: 'gratis-hudkonsultation',
+      url_label: 'Läs mer om vår hudkonsultation',
+      url_title: 'Klicka här för att läsa mer om gratis hudkonsultation'
 );
 
-$headline02 = "02. Behandla blodprickar med Cryopen";
+$headline02 = "02. Behandla mjälleksem";
 
 $services = array(
       new Service(
-            title: 'Behandling av blodprickar med Cryopen',
-            duration: '20 min',
+            title: 'Ansiktsbehandling mot mjälleksem',
+            duration: '60 min',
             price: '995 kr',
-            content: 'Cryopen är en effektiv behandlingsmetod som använder extrem kyla för att målinriktat behandla och ta bort blodprickar. Behandlingen är snabb och ger minimalt obehag, vilket gör den till ett effektivt sätt att minska synligheten av blodprickar.',
-
-            image_small: 'images/services/200x200/cryopen.webp',
-            image_large: 'images/services/200x200/cryopen.webp',
-            image_alt: 'Bild av Cryopen behandling för blodprickar',
-            image_title: 'Cryopen behandling för blodprickar',
-
-            url: '',
-            url_label: '',
-            url_title: '',
-
-            consultation_url_label: 'Boka tid för konsultation för Cryopen behandling av blodprickar',
-            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen',
-            consultation_url_title: 'Klicka för att boka tid för en konsultation för Cryopen behandling av blodprickar',
-
-            booking_url_label: 'Boka tid för behandling med Cryopen för blodprickar',
-            booking_url: 'https://acnespecialisten.se/book?flow=cryopen',
-            booking_url_title: 'Klicka för att boka tid för en behandling med Cryopen för blodprickar'
+            content: 'Vår ansiktsbehandling mot mjälleksem innefattar en grundlig djuprengöring av huden för att effektivt hantera överflödigt talg och döda hudceller. Behandlingen inkluderar antiinflammatoriska och lugnande moment för att lindra inflammation och rodnad, vilket i sin tur hjälper till att lugna huden och minska symtom på mjälleksem.',
+            image_small: 'images/services/200x200/ansiktsbehandling.webp',
+            image_large: 'images/services/200x200/ansiktsbehandling.webp',
+            image_alt: 'Ansiktsbehandling mot mjälleksem',
+            image_title: 'Ansiktsbehandling mot mjälleksem',
+            consultation_url: 'consultation-booking?problem=seborrhea&service=classicFacials',
+            consultation_url_label: 'Boka gratis konsultation',
+            consultation_url_title: 'Boka gratis konsultation',
+            booking_url: null,
+            booking_url_label: 'Boka din ansiktsbehandling mot mjälleksem',
+            booking_url_title: 'Boka din ansiktsbehandling mot mjälleksem',
+            url: null,
+            url_label: 'Läs mer om ansiktsbehandling mot mjälleksem',
+            url_title: 'Klicka här för att läsa mer om ansiktsbehandling mot mjälleksem'
       ),
+);
+
+$headline03 = "03. Förebygg uppkomsten av nytt mjälleksem";
+
+$products = array(
+      new Service(
+            title: 'Produkter mot mjälleksem',
+            duration: null,
+            price: 'Pris från 1295 kr',
+            content: 'För att effektivt bekämpa och förebygga mjälleksem krävs daglig behandling med rätt produkter. Vårt sortiment av mjälleksemsprodukter är speciellt utformat för att hjälpa till att återställa och upprätthålla balansen i din hud samt förebygga uppkomsten av nytt mjälleksem.',
+            image_small: 'images/services/200x200/produkter.webp',
+            image_large: 'images/services/200x200/produkter.webp',
+            image_alt: 'Produkter mot mjälleksem',
+            image_title: 'Produkter mot mjälleksem',
+            consultation_url: null,
+            consultation_url_label: null,
+            consultation_url_title: null,
+            booking_url: null,
+            booking_url_label: null,
+            booking_url_title: null,
+            url: 'https://dahlskincare.se/produktkategorier/produktpaket/seborre',
+            url_label: 'Köp produkter mot mjälleksem',
+            url_title: 'Köp produkter mot mjälleksem',
+      )
 );
 
 $results = array(
       new ResultCustomer(
-            image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.jpg',
-            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
-            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
-            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
-            image_alt: 'Akne resultat',
-            image_title: 'Akne resultat',
+            image_before_small: '/bilder/resultat/358x358/resultat-mjalleksem-fore-1.jpg',
+            image_after_small: '/bilder/resultat/358x358/resultat-mjalleksem-efter-1.jpg',
+            image_before_large: '/bilder/resultat/424x424/resultat-mjalleksem-fore-1.jpg',
+            image_after_large: '/bilder/resultat/424x424/resultat-mjalleksem-efter-1.jpg',
+            image_alt: 'mjalleksem resultat',
+            image_title: 'mjalleksem resultat',
             treatment: new ResultTreatment(
                   duration: '3 månader',
             )
       ),
       new ResultCustomer(
-            image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.jpg',
-            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
-            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
-            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
-            image_alt: 'Akne resultat',
-            image_title: 'Akne resultat',
+            image_before_small: '/bilder/resultat/358x358/resultat-mjalleksem-fore-2.jpg',
+            image_after_small: '/bilder/resultat/358x358/resultat-mjalleksem-efter-2.jpg',
+            image_before_large: '/bilder/resultat/424x424/resultat-mjalleksem-fore-2.jpg',
+            image_after_large: '/bilder/resultat/424x424/resultat-mjalleksem-efter-2.jpg',
+            image_alt: 'mjalleksem resultat',
+            image_title: 'mjalleksem resultat',
             treatment: new ResultTreatment(
                   duration: '2 månader',
             )
@@ -232,7 +249,7 @@ $reviews = array(
       new Review(
             brand: 'Trustpilot',
             title: 'Supernöjd',
-            text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
+            text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all mjalleksem efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
             signature: 'Sofia',
             stars: 5,
             logo_url: 'images/brands/trustpilot.svg'
@@ -241,7 +258,7 @@ $reviews = array(
       new Review(
             brand: 'Google',
             title: 'Jag är mycket nöjd..',
-            text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och aknen är betydligt mildare",
+            text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och mjalleksemn är betydligt mildare",
             signature: 'Lovisa',
             stars: 5,
             logo_url: 'images/brands/google-small.svg'
@@ -250,7 +267,7 @@ $reviews = array(
       new Review(
             brand: 'Bokadirekt',
             title: 'Rekommenderar varmt!',
-            text: "Det enda som fungerat mot min akne med synliga resultat. Jättetrevlig och kunnig behandlare!",
+            text: "Det enda som fungerat mot min mjalleksem med synliga resultat. Jättetrevlig och kunnig behandlare!",
             signature: 'Emily',
             stars: 5,
             logo_url: 'images/brands/bokadirekt-small.svg'
@@ -371,17 +388,35 @@ $specialists = array(
 );
 
 $specialist_url_label = "Se alla specialister";
-$specialist_url_title = "Specialiserade Hudterapeuter";
+$specialist_url_title = "mjalleksem Specialiserade Hudterapeuter";
 
 $related_problems = array(
       new RelatedProblem(
-            name: 'Hudförändringar',
+            name: 'Acneärr',
             aka: 'gropar & Fläckar',
-            image: 'images/problems/102x102/hudforandringar.webp',
-            image_alt: 'Bild som visar hudforändringar',
-            image_title: 'Hudförändringar',
-            url: 'hudforandringar.php',
-            url_title: 'Hudförändringar'
+            image: 'bilder/problem/200x200/acnearr.webp',
+            image_alt: 'Bild som visar acneärr, en typ av hudproblem som ofta följer efter mjalleksem',
+            image_title: 'Acneärr - en vanlig följd av mjalleksem',
+            url: 'acnearr.php',
+            url_title: 'Acneärr'
+      ),
+      new RelatedProblem(
+            name: 'Rosacea',
+            aka: 'ansiktsrodnad',
+            image: 'bilder/problem/200x200/rosacea.webp',
+            image_alt: 'Bild som illustrerar rosacea, ett hudtillstånd som kan förväxlas med mjalleksem',
+            image_title: 'Rosacea - en hudsjukdom som ofta förväxlas med mjalleksem',
+            url: 'rosacea.php',
+            url_title: 'Rosacea'
+      ),
+      new RelatedProblem(
+            name: 'Perioral dermatit',
+            aka: 'mjalleksem runt munnen',
+            image: 'bilder/problem/200x200/perioral-dermatit.webp',
+            image_alt: 'Bild som skildrar perioral dermatit, en hudåkomma som kan förväxlas med mjalleksem',
+            image_title: 'Perioral dermatit (acne runt munnen) ett hudproblem liknande mjalleksem',
+            url: 'perioral-dermatit.php',
+            url_title: 'Perioral dermatit',
       ),
 );
 
@@ -587,7 +622,6 @@ $brands_url_title = "Se alla varumärken";
                                     } ?>
                               </div>
                               <hr class="mt-xl3 is-hidden-mobile">
-                              <?php echo $treatment_link ?>
 
                         </section>
 
@@ -614,6 +648,14 @@ $brands_url_title = "Se alla varumärken";
                               <h2 class="h500"><?php echo $headline02 ?></h2>
                               <hr class="is-hidden-mobile mt-xl">
                               <?php foreach ($services as $service) { ?>
+                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
+                                    <hr class="is-hidden-mobile mb-xxl">
+                              <?php } ?>
+                        </section>
+                        <section id="products">
+                              <h2 class="h500"><?php echo $headline03 ?></h2>
+                              <hr class="is-hidden-mobile mt-xl">
+                              <?php foreach ($products as $service) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
                                     <hr class="is-hidden-mobile mb-xxl">
                               <?php } ?>

@@ -250,7 +250,7 @@ $faq_categories = array(
             ),
             new Question(
               title: 'Vad kan jag förvänta mig under en konsultation hos AcneSpecialisten?',
-              text: 'Under konsultationen kommer en av våra hudspecialister att noggrant analysera din hudtyp och diskutera dina hudproblem. Vi kommer även att gå igenom din nuvarande hudvårdsrutin och ge personliga rekommendationer för behandlingar och produkter som bäst passar dina behov.'
+              text: 'Under konsultationen kommer en av våra hudterapeuter att noggrant analysera din hudtyp och diskutera dina hudproblem. Vi kommer även att gå igenom din nuvarande hudvårdsrutin och ge personliga rekommendationer för behandlingar och produkter som bäst passar dina behov.'
             ),
       ),
       'Frågor om behandling' => array(
