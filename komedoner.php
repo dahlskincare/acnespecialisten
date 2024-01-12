@@ -40,7 +40,7 @@ $consultation_url = "https://acnespecialisten.se/book?flow=consultation&Consulta
 $consultation_url_label = "Boka konsultation";
 $consultation_url_title = "Gratis konsultation för behandling av komedoner";
 
-$booking_url = "https://acnespecialisten.se/book?flow=problem&problem=Problem_Comedones&method=Service_Facial_PoreExtraction";
+$booking_url = "https://acnespecialisten.se/book?flow=problem&problem=Problem_Comedones";
 $booking_url_label = "Boka behandling";
 $booking_url_title = "Boka din tid för behandling av komedoner";
 
