@@ -5,21 +5,21 @@ include_once('problem/widgets/symptom-card/symptom.php');
 include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Allt om Åldersfläckar - Behandlingar, Orsaker och Förebyggande Tips | Acnespecialisten';
-$seo_description = 'Upptäck allt du behöver veta om åldersfläckar, inklusive orsakerna bakom dem, effektiva behandlingsmetoder och hur du kan förebygga dem. Få expertvägledning och skräddarsydda lösningar för att hantera åldersfläckar och relaterade hudproblem från Acnespecialisten.';
-$seo_keywords = 'åldersfläckar, behandling av åldersfläckar, orsaker till åldersfläckar, förebygga åldersfläckar, minska åldersfläckar, hyperpigmentering, hudfläckar, behandling av hyperpigmentering, hudens åldrande';
+$seo_title = 'Allt om Solskadad Hy - Behandlingsmetoder, Orsaker och Förebyggande | Acnespecialisten';
+$seo_description = 'Utforska allt om solskadad hy, dess orsaker, effektiva behandlingar och förebyggande åtgärder. Få expertvägledning och skräddarsydda lösningar från Acnespecialisten för att hantera och reparera solskadad hy.';
+$seo_keywords = 'solskadad hy, behandla solskadad hy, orsaker till solskadad hy, förebygga solskador, minska solskador, solskador på huden, behandling av solskador, hudens återhämtning efter solen';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
 $seo_image = 'bilder/problem/424x456/pigmentflackar.webp';
 
-$title = 'Åldersfläckar';
+$title = 'Solskadad hy';
 
 $image_small = 'bilder/problem/424x324/pigmentflackar.webp';
 $image_large = 'bilder/problem/424x456/pigmentflackar.webp';
-$image_title = 'Visar en hud med åldersfläckar';
-$image_alt = 'Bild som visar åldersfläckar på huden';
-$description = 'Har du märkt av åldersfläckar, också kända som solfläckar eller leverfläckar, på din hud? Vi förstår dessa utmaningar och har effektiva lösningar för dig. Upptäck mer om dessa fläckar, varför de uppstår, och hur våra specialister kan skräddarsy en behandling specifikt för dina behov. Boka en kostnadsfri konsultation idag och starta din resa mot en jämnare och friskare hud.';
+$image_title = 'Visar en hud med solskadad hy';
+$image_alt = 'Bild som illustrerar effekterna av solskadad hy';
+$description = 'Om du har märkt av tecken på solskadad hy, såsom solfläckar eller förändrad hudtextur, är du inte ensam. Vi på Acnespecialisten har djupgående kunskap om dessa utmaningar och erbjuder effektiva behandlingar. Upptäck hur vi kan skräddarsy en behandlingsplan som passar just dina behov, och boka en kostnadsfri konsultation idag för att påbörja din väg mot en återhämtad och friskare hud.';
 
 $akas = [
       new Link(
@@ -35,34 +35,32 @@ $akas = [
 
 ];
 
-$floating_box = 'Vi behandlar åldersfläckar effektivt';
+$floating_box = 'Vi behandlar solskadad hy effektivt';
 
 $consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_PigmentationSpots";
 $consultation_url_label = "Få gratis konsultation";
-$consultation_url_title = "Gratis konsultation för behandling av åldersfläckar";
+$consultation_url_title = "Gratis konsultation för behandling av solskadad hy";
 
 $booking_url = "https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots";
 $booking_url_label = "Boka behandling";
-$booking_url_title = "Boka din tid för behandling av hudförändringar";
+$booking_url_title = "Boka din tid för behandling av solskadad hy";
 
 $mobile_consultation_url_label = "Få gratis konsultation";
-$mobile_consultation_url_title = "Gratis konsultation för pigmenteringar";
+$mobile_consultation_url_title = "Gratis konsultation för solskadad hy";
 
 $mobile_booking_url_label = "Boka behandling";
-$mobile_booking_url_title = "Boka din tid för behandling av pigmentförändringar";
+$mobile_booking_url_title = "Boka din tid för behandling av solskadad hy";
 
 $floating_consultation_url_label = "Få gratis konsultation";
-$floating_consultation_url_title = "Gratis konsultation för hyperpigmentering";
+$floating_consultation_url_title = "Gratis konsultation för solskadad hy";
 
 $floating_booking_url_label = "Boka behandling";
-$floating_booking_url_title = "Boka din tid för behandling av hudfläckar";
+$floating_booking_url_title = "Boka din tid för behandling av solskadad hy";
 
 $nav_buttons = array(
-      'about' => 'Om åldersfläckar',
+      'about' => 'Om solskadad hy',
       'approach' => 'Metoden',
       'areas' => 'Områden',
-      'define' => 'Konsultation',
-      'treatments' => 'Behandling',
       'articles' => 'När?',
       'articles' => 'Varför er?',
       'results' => 'Resultat',
@@ -73,60 +71,60 @@ $nav_buttons = array(
       'related-problems' => 'Relaterade problem',
 );
 
-$description_title = 'Vad är Åldersfläckar?';
-$description_text = '<p class="p200">Åldersfläckar, ofta ett resultat av huden som åldras och långvarig exponering för solen, är små, mörka områden på huden. De är vanligast hos personer över 50 år men kan också dyka upp hos yngre individer som spenderar mycket tid i solen.</p>
-<p class="p200 mt-m">På AcneSpecialisten erbjuder vi en rad behandlingar för att hantera åldersfläckar. Våra metoder inkluderar allt från ljusbaserade behandlingar till kemiska peelingar och mikrodermabrasion. Dessa behandlingar är utformade för att minska synligheten av åldersfläckar och ge din hud en mer jämn ton. Vi erbjuder också råd om hur du kan förebygga nya åldersfläckar och hålla din hud hälsosam och strålande.</p>';
+$description_title = 'Förklaring av Solskadad Hy';
+$description_text = '<p class="p200">Solskadad hy kännetecknas ofta av mörka fläckar, ojämn hudton och ibland förtjockad eller läderartad textur. Detta är resultatet av långvarig och upprepad exponering för solens skadliga UV-strålar. Solskador på huden kan drabba människor i alla åldrar, men är vanligare hos äldre individer eller de som ofta vistas i starkt solsken.</p>
+<p class="p200 mt-m">På AcneSpecialisten erbjuder vi flera behandlingsalternativ för solskadad hy, inklusive ljusbaserade behandlingar, kemiska peelingar och mikrodermabrasion. Dessa metoder hjälper till att minska synliga tecken på solskador och förbättra hudens övergripande utseende och hälsa. Vi ger också råd om hur du kan skydda din hud från framtida solskador och upprätthålla en hälsosam och strålande hud.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Din resa mot en klarare hud börjar på AcneSpecialisten med en grundlig konsultation. Våra erfarna hudterapeuter undersöker noggrant din hud för att identifiera åldersfläckar och skapar en behandlingsplan som är specialanpassad för dina behov och hudtyp.',
+            content: 'Din resa mot en klarare hud börjar på AcneSpecialisten med en grundlig konsultation. Våra erfarna hudterapeuter undersöker noggrant din hud för att identifiera solskadad hy och skapar en behandlingsplan som är specialanpassad för dina behov och hudtyp.',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_PigmentationSpots',
             url_label: 'Boka en gratis konsultation',
-            url_title: 'Boka din kostnadsfria konsultation om åldersfläckar idag'
+            url_title: 'Boka din kostnadsfria konsultation om solskadad hy idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Med en skräddarsydd behandlingsplan från AcneSpecialisten, får du tillgång till avancerade och effektiva metoder för att minska dina åldersfläckar. Våra specialiserade behandlingar är utformade för att ge dig synliga resultat och återställa hudens naturliga utstrålning.',
+            content: 'Med en skräddarsydd behandlingsplan från AcneSpecialisten, får du tillgång till avancerade och effektiva metoder för att minska dina solskadad hy. Våra specialiserade behandlingar är utformade för att ge dig synliga resultat och återställa hudens naturliga utstrålning.',
             url: 'behandla-pigmentflackar.php',
-            url_label: 'Utforska våra behandlingar för åldersfläckar',
-            url_title: 'Upptäck våra unika och effektiva behandlingar för åldersfläckar'
+            url_label: 'Utforska våra behandlingar för solskadad hy',
+            url_title: 'Upptäck våra unika och effektiva behandlingar för solskadad hy'
       ),
 );
 
-$treatment_link = '<a href="problem/pigmentflackar/behandla-pigmentflackar" title="Utforska effektiva behandlingar mot åldersfläckar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot åldersfläckar</a>';
+$treatment_link = '<a href="problem/pigmentflackar/behandla-pigmentflackar" title="Utforska effektiva behandlingar mot solskadad hy" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot solskadad hy</a>';
 
 
 $top_articles = array(
     'areas' => new Article(
-        title: 'Var uppstår åldersfläckar och varför?',
+        title: 'Var uppstår solskadad hy och varför?',
         image_small: '',
         image_large: '',
         image_alt: '',
         image_title: '',
-        content: '<p class="p200">Åldersfläckar uppstår vanligtvis på hudområden som ofta exponeras för solen, såsom ansiktet, händerna och armarna. Dessa fläckar är resultatet av en överproduktion av melanin, hudens pigment, vilket ofta är en reaktion på långvarig exponering för UV-strålar från solen. Även åldrandet spelar en roll, eftersom huden med tiden förlorar sin förmåga att återhämta sig från solskador.</p>
-        <p class="p200 mt-m">För att minska risken för åldersfläckar är det viktigt att skydda huden mot solen genom att använda solskydd med hög SPF, bära skyddande kläder och undvika solen under dess starkaste timmar. Regelbunden hudvård och behandlingar kan också bidra till att minska uppkomsten av åldersfläckar och förbättra hudens övergripande utseende och hälsa.</p>',
+        content: '<p class="p200">solskadad hy uppstår vanligtvis på hudområden som ofta exponeras för solen, såsom ansiktet, händerna och armarna. Dessa fläckar är resultatet av en överproduktion av melanin, hudens pigment, vilket ofta är en reaktion på långvarig exponering för UV-strålar från solen. Även åldrandet spelar en roll, eftersom huden med tiden förlorar sin förmåga att återhämta sig från solskador.</p>
+        <p class="p200 mt-m">För att minska risken för solskadad hy är det viktigt att skydda huden mot solen genom att använda solskydd med hög SPF, bära skyddande kläder och undvika solen under dess starkaste timmar. Regelbunden hudvård och behandlingar kan också bidra till att minska uppkomsten av solskadad hy och förbättra hudens övergripande utseende och hälsa.</p>',
     ),
 );
 
 $articles = array(
       new Article(
-            title: 'När är det dags att söka hjälp för åldersfläckar?',
+            title: 'När är det dags att söka hjälp för solskadad hy?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'När är det dags att söka hjälp för åldersfläckar?',
-            image_title: 'När är det dags att söka hjälp för åldersfläckar?',
-            content: '<p class="p200">Åldersfläckar är vanliga tecken på hudens åldrande och kan vara en kosmetisk oro för många. Om du börjar märka att dina åldersfläckar påverkar ditt självförtroende eller om du är orolig över deras utseende, kan det vara dags att söka professionell hjälp. Även om åldersfläckar i sig inte är skadliga, är det viktigt att få dem utvärderade för att utesluta andra hudtillstånd. Dessutom kan en expert ge dig råd om effektiva behandlingar och förebyggande åtgärder.</p>',
+            image_alt: 'När är det dags att söka hjälp för solskadad hy?',
+            image_title: 'När är det dags att söka hjälp för solskadad hy?',
+            content: '<p class="p200">solskadad hy är vanliga tecken på hudens åldrande och kan vara en kosmetisk oro för många. Om du börjar märka att dina solskadad hy påverkar ditt självförtroende eller om du är orolig över deras utseende, kan det vara dags att söka professionell hjälp. Även om solskadad hy i sig inte är skadliga, är det viktigt att få dem utvärderade för att utesluta andra hudtillstånd. Dessutom kan en expert ge dig råd om effektiva behandlingar och förebyggande åtgärder.</p>',
       ),
 
       new Article(
-            title: 'Varför välja AcneSpecialisten för behandling av åldersfläckar?',
+            title: 'Varför välja AcneSpecialisten för behandling av solskadad hy?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'Varför välja AcneSpecialisten för behandling av åldersfläckar?',
-            image_title: 'Varför välja AcneSpecialisten för behandling av åldersfläckar?',
-            content: '<p class="p200">AcneSpecialisten är en ledande expert inom hudvård med särskild expertis inom behandling av åldersfläckar. Med vår erfarenhet och tillgång till de senaste behandlingsmetoderna erbjuder vi skräddarsydda lösningar för varje klient. Vårt mål är att inte bara behandla de synliga tecknen på åldrande utan också att förebygga framtida hudproblem.</p>
-            <p class="p200 mt-m">Våra behandlingar för åldersfläckar är baserade på en djup förståelse av hudens behov och den modernaste tekniken. Vi använder avancerade tekniker och högkvalitativa produkter för att säkerställa att du får bästa möjliga resultat. Genom individuellt anpassade behandlingsplaner och personligt engagemang ser vi till att varje kund uppnår de resultat de önskar.</p>',
+            image_alt: 'Varför välja AcneSpecialisten för behandling av solskadad hy?',
+            image_title: 'Varför välja AcneSpecialisten för behandling av solskadad hy?',
+            content: '<p class="p200">AcneSpecialisten är en ledande expert inom hudvård med särskild expertis inom behandling av solskadad hy. Med vår erfarenhet och tillgång till de senaste behandlingsmetoderna erbjuder vi skräddarsydda lösningar för varje klient. Vårt mål är att inte bara behandla de synliga tecknen på åldrande utan också att förebygga framtida hudproblem.</p>
+            <p class="p200 mt-m">Våra behandlingar för solskadad hy är baserade på en djup förståelse av hudens behov och den modernaste tekniken. Vi använder avancerade tekniker och högkvalitativa produkter för att säkerställa att du får bästa möjliga resultat. Genom individuellt anpassade behandlingsplaner och personligt engagemang ser vi till att varje kund uppnår de resultat de önskar.</p>',
       ),
 );
 
