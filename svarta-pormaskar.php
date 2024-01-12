@@ -60,8 +60,6 @@ $nav_buttons = array(
       'about' => 'Om svarta pormaskar',
       'approach' => 'Metoden',
       'areas' => 'Områden',
-      'define' => 'Konsultation',
-      'treatments' => 'Behandling',
       'articles' => 'När?',
       'articles' => 'Varför er?',
       'results' => 'Resultat',
@@ -132,76 +130,6 @@ $articles = array(
             content: '<p class="p200">För en effektiv och långvarig lösning på dina svarta pormaskar är AcneSpecialisten det bästa valet. Med vår omfattande erfarenhet och specialisering i behandling av svarta pormaskar, har vi de kunskaper och verktyg som behövs för att tackla ditt hudproblem, oavsett dess omfattning.</p>
             <p class="p200 mt-m">Vi använder oss av de senaste behandlingarna och teknikerna inom hudvård för att ge dig bästa möjliga resultat. Vårt team av hudterapeuter arbetar med dig för att skapa en personligt anpassad behandlingsplan och ger stöd under hela din hudvårdsresa. Genom regelbundna uppföljningar och anpassade hemvårdsprogram strävar vi efter att ge dig en varaktig förbättring av din hudhälsa.</p>',
       ),
-);
-
-$headline01 = "01. Identifiera dina svarta pormaskar";
-
-$service = new Service(
-      title: 'Konsultation',
-      duration: '20 min',
-      price: 'Kostnadsfri',
-      content: 'Vid ett personligt möte med en AcneSpecialist utförs en undersökning av dina svarta pormaskar. Vi tar före-bilder på din hud och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
-      image_small: 'images/services/200x200/konsultation.webp',
-      image_large: 'images/services/200x200/konsultation.webp',
-      image_alt: 'Bild av en konsultation för svarta pormaskar',
-      image_title: 'Konsultation för svarta pormaskar',
-      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
-      consultation_url_label: 'Boka tid för hudkonsultation',
-      consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för svarta pormaskar',
-      booking_url: null,
-      booking_url_label: null,
-      booking_url_title: null,
-      url: 'gratis-hudkonsultation.php',
-      url_label: 'Läs mer om vår hudkonsultation',
-      url_title: 'Klicka här för att läsa mer om gratis hudkonsultation'
-
-);
-
-$headline02 = "02. Behandla svarta pormaskar";
-
-$services = array(
-
-      new Service(
-            title: 'Portömning',
-            duration: '60 min',
-            price: '995 kr',
-            content: 'Portömning är en specialiserad ansiktsbehandling som syftar till att effektivt rensa porer från talg och orenheter. Behandlingen utförs genom en försiktig extrahering av svarta pormaskar och kan leda till minskad inflammation och förstorade porer. Detta kan inte bara förbättra hudens textur utan även minska risken för framtida akneutbrott.',
-            image_small: 'bilder/behandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
-            image_large: 'bilder/behandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
-            image_alt: 'Bild av en portömning',
-            image_title: 'Portömning som behandling för svarta pormaskar',
-            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
-            consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för portömning',
-            booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Comedones&method=Service_Facial_PoreExtraction',
-            booking_url_label: 'Boka tid för portömning',
-            booking_url_title: 'Klicka för att boka tid för en portömning',
-            url: 'portomning.php',
-            url_label: 'Läs mer om portömning',
-            url_title: 'Läs mer om portömning'
-      ),
-
-);
-
-$headline03 = "03. Förebygg uppkomsten av nya svarta pormaskar";
-
-$products = array(
-      new Service(
-            title: 'Produkter mot svarta pormaskar',
-            duration: null,
-            price: 'Pris från 1495 kr',
-            content: 'För att effektivt bekämpa och förebygga svarta pormaskar är daglig behandling med rätt produkter avgörande. Våra akneprodukter är speciellt utformade för att hålla din hud i balans och förhindra att nya svarta pormaskar uppstår.',
-            image_small: 'bilder/behandlingar/200x200/produkter.webp',
-            image_large: 'bilder/behandlingar/200x200/produkter.webp',
-            image_alt: 'Bild av produkter designade för behandling av svarta pormaskar',
-            image_title: 'Effektiva produkter för bekämpning och förebyggande av svarta pormaskar',
-            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
-            consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för portömning',
-            booking_url_label: 'Köp produkter',
-            booking_url: 'https://dahlskincare.se/produktkategorier/produktpaket/pormaskar',
-            booking_url_title: 'Klicka för att köpa produktpaket mot pormaskar',
-      )
 );
 
 $results = array(
@@ -618,28 +546,6 @@ $brands_url_title = "Se alla varumärken";
                         <section id="articles">
                               <?php foreach ($articles as $article) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php'); ?>
-                              <?php } ?>
-                        </section>
-                        <section id="define">
-                              <h2 class="h500 l10n"><?php echo $headline01 ?></h2>
-                              <hr class="is-hidden-mobile">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
-                              <hr class="is-hidden-mobile">
-                        </section>
-                        <section id="treatments">
-                              <h2 class="h500"><?php echo $headline02 ?></h2>
-                              <hr class="is-hidden-mobile mt-xl">
-                              <?php foreach ($services as $service) { ?>
-                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
-                                    <hr class="is-hidden-mobile mb-xxl">
-                              <?php } ?>
-                        </section>
-                        <section id="products">
-                              <h2 class="h500"><?php echo $headline03 ?></h2>
-                              <hr class="is-hidden-mobile mt-xl">
-                              <?php foreach ($products as $service) { ?>
-                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
-                                    <hr class="is-hidden-mobile mb-xxl">
                               <?php } ?>
                         </section>
                         
