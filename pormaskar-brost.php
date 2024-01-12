@@ -5,21 +5,21 @@ include_once('problem/widgets/symptom-card/symptom.php');
 include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Komplett Guide till Pormaskar i Ansiktet - Orsaker, Behandling, Förebyggande | Acnespecialisten';
-$seo_description = 'Lär dig allt om pormaskar i ansiktet, deras uppkomst, effektiva behandlingar och hur du kan förebygga dem. Upptäck Acnespecialistens skräddarsydda lösningar och expertis.';
-$seo_keywords = 'pormaskar i ansiktet, behandla pormaskar i ansiktet, orsaker till pormaskar i ansiktet, förebygga pormaskar i ansiktet, reducera pormaskar i ansiktet, hudvård, ansiktsrengöring, effektiv porrengöring';
+$seo_title = 'Allt om Pormaskar på Bröstet - Orsaker, Behandling, Förebyggande | Acnespecialisten';
+$seo_description = 'Få insikter om pormaskar på bröstet, varför de uppstår, effektiva behandlingsmetoder och hur du kan förebygga dem. Utforska Acnespecialistens expertlösningar.';
+$seo_keywords = 'pormaskar på bröstet, behandla pormaskar på bröstet, orsaker till pormaskar på bröstet, förebygga pormaskar på bröstet, reducera pormaskar på bröstet, hudvård, bröstrengöring, djuprengöring av porer';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
 $seo_image = 'bilder/problem/424x456/pormaskar.webp';
 
-$title = 'Pormaskar i ansiktet';
+$title = 'Pormaskar på bröstet';
 
 $image_small = 'bilder/problem/424x324/pormaskar.webp';
 $image_large = 'bilder/problem/424x456/pormaskar.webp';
-$image_alt = 'Bild som illustrerar pormaskar i ansiktet på huden';
-$image_alt = 'Bild på pormaskar i ansiktshuden';
-$description = 'Denna sektion utforskar pormaskar i ansiktet, deras ursprung och Acnespecialistens effektiva behandlingar. Vi diskuterar hur pormaskar bildas i ansiktet och erbjuder råd för att minska dem och förbättra din hudhälsa.';
+$image_alt = 'Bild som illustrerar pormaskar på bröstet på huden';
+$image_alt = 'Bild på pormaskar på bröstet';
+$description = 'I denna sektion tar vi en närmare titt på pormaskar på bröstet, deras uppkomst och hur Acnespecialisten kan erbjuda effektiva behandlingar. Vi diskuterar hur pormaskar bildas på bröstet och ger råd för att reducera dem och förbättra hudens hälsa.';
 
 $akas = [
       new Link(
@@ -34,30 +34,31 @@ $akas = [
       ),
 ];
 
-$floating_box = 'Vi behandlar pormaskar i ansiktet effektivt';
+
+$floating_box = 'Vi behandlar pormaskar på bröstet effektivt';
 
 $consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones";
 $consultation_url_label = "Få gratis konsultation";
-$consultation_url_title = "Gratis konsultation för behandling av pormaskar i ansiktet";
+$consultation_url_title = "Gratis konsultation för behandling av pormaskar på bröstet";
 
 $booking_url = "https://acnespecialisten.se/book?flow=problem&problem=Problem_Comedones";
 $booking_url_label = "Boka behandling";
-$booking_url_title = "Boka din tid för behandling av pormaskar i ansiktet";
+$booking_url_title = "Boka din tid för behandling av pormaskar på bröstet";
 
 $mobile_consultation_url_label = "Få gratis konsultation";
-$mobile_consultation_url_title = "Gratis konsultation för pormaskar i ansiktet";
+$mobile_consultation_url_title = "Gratis konsultation för pormaskar på bröstet";
 
 $mobile_booking_url_label = "Boka behandling";
-$mobile_booking_url_title = "Boka din tid för behandling av pormaskar i ansiktet";
+$mobile_booking_url_title = "Boka din tid för behandling av pormaskar på bröstet";
 
 $floating_consultation_url_label = "Få gratis konsultation";
-$floating_consultation_url_title = "Gratis konsultation för pormaskar i ansiktet";
+$floating_consultation_url_title = "Gratis konsultation för pormaskar på bröstet";
 
 $floating_booking_url_label = "Boka behandling";
-$floating_booking_url_title = "Boka din tid för behandling av pormaskar i ansiktet";
+$floating_booking_url_title = "Boka din tid för behandling av pormaskar på bröstet";
 
 $nav_buttons = array(
-      'about' => 'Om pormaskar i ansiktet',
+      'about' => 'Om pormaskar på bröstet',
       'approach' => 'Metoden',
       'areas' => 'Områden',
       'articles' => 'När?',
@@ -70,44 +71,44 @@ $nav_buttons = array(
       'related-problems' => 'Relaterade problem',
 );
 
-$description_title = 'Djupdykning i Pormaskar i Ansiktet';
-$description_text = '<p class="p200">Pormaskar i ansiktet, även kända som öppna komedoner, uppstår när porerna blir igensatta med talg och döda hudceller. Denna ackumulering oxiderar och mörknar vid kontakt med luft, vilket ger upphov till deras distinkta utseende. De förekommer ofta i ansiktsregioner som näsan och pannan, vilket kan tyda på ett behov av att förbättra hudvårdsrutinerna.</p>
-<p class="p200 mt-m">På AcneSpecialisten erbjuder vi skräddarsydda behandlingar för att effektivt hantera och minska pormaskar i ansiktet. Våra metoder inkluderar djuprengöring, specialanpassade ansiktsbehandlingar och detaljerad porrengöring. Dessa behandlingar, kombinerade med lämpliga hudvårdsrutiner hemma, hjälper till att hålla porerna rena och förebygga nya pormaskar i ansiktet, vilket leder till en friskare och mer strålande hud.</p>';
+$description_title = 'Utforska Pormaskar på Bröstet';
+$description_text = '<p class="p200">Pormaskar på bröstet, kända som öppna komedoner, bildas när porer täpps igen med en kombination av talg och döda hudceller. Denna ansamling oxiderar och blir mörk vid luftkontakt, vilket ger pormaskarna deras karaktäristiska utseende. De kan uppkomma på bröstet på grund av faktorer som hormonella förändringar, olämplig hudvård, och svett, vilket är vanligt för områden under kläder.</p>
+<p class="p200 mt-m">Acnespecialisten erbjuder specialanpassade behandlingar för att effektivt hantera och minska pormaskar på bröstet. Behandlingarna inkluderar noggrann rengöring och specialiserade behandlingsmetoder anpassade efter dina specifika hudbehov. Dessa behandlingar, i kombination med rätt hudvårdsrutiner, bidrar till att rena porerna och förebygga uppkomsten av nya pormaskar på bröstet, vilket främjar en sund och välmående hud.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Din behandlingsresa hos AcneSpecialisten inleds med en professionell hudanalys. Våra erfarna hudterapeuter genomför en detaljerad utvärdering för att identifiera pormaskar i ansiktet och skapar en skräddarsydd behandlingsplan som är specifikt riktad mot dina unika hudbehov.',
+            content: 'Din resa mot en klarare hud med AcneSpecialisten inleds med en detaljerad hudanalys. Våra experter analyserar noggrant din hud för att identifiera pormaskar på bröstet och tar fram en personligt anpassad behandlingsplan, skräddarsydd för att möta dina specifika hudvårdsbehov.',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
             url_label: 'Få gratis konsultation',
             url_title: 'Boka din kostnadsfria hudkonsultation idag',
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi erbjuder skonsamma, men kraftfulla, behandlingsalternativ för att effektivt avlägsna pormaskar i ansiktet. Varje behandling är noga anpassad efter din hudtyp och hudens specifika behov, med målet att noggrant rensa pormaskarna och återställa din huds naturliga lyster.',
+            content: 'Vår målsättning är att erbjuda effektiva och skonsamma behandlingsmetoder för att eliminera pormaskar på bröstet. Behandlingarna är individuellt anpassade efter dina behov och syftar till att djuprengöra och revitalisera din hud, återställandes dess naturliga lyster och hälsa.',
             url: 'problem/pormaskar/pormaskbehandling',
             url_label: 'Se portömning',
-            url_title: 'Upptäck våra skräddarsydda behandlingar för portömning',
+            url_title: 'Upptäck våra specialanpassade behandlingar för portömning',
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'Vi hjälper dig att utforma en individanpassad hudvårdsrutin som effektivt kan förebygga uppkomsten av nya pormaskar i ansiktet. Genom att använda produkter som är idealiska för din hudtyp, strävar vi efter att upprätthålla en optimal hudhälsa och förhindra framtida hudproblem.',
+            content: 'För att minska risken för nya pormaskar på bröstet, hjälper vi dig att skapa en skräddarsydd hudvårdsrutin. Genom att använda rätt produkter för din hudtyp, arbetar vi tillsammans för att bevara din huds hälsa och förebygga framtida hudproblem.',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/pormaskar',
             url_label: 'Se produkter',
-            url_title: 'Utforska de bästa produkterna för att förebygga pormaskar i ansiktet',
+            url_title: 'Hitta effektiva produkter för att förebygga pormaskar på bröstet',
       ),
 );
 $treatment_link = '<a href="problem/pormaskar/pormaskbehandling" title="Läs mer om vår specialiserade portömning" class="mt-xl button b200 outline expand auto-width">Mer information om vår portömning</a>';
 
 $top_articles = array(
     'areas' => new Article(
-        title: 'Varför Uppstår Pormaskar i Ansiktet?',
+        title: 'Om pormaskar på bröstet',
         image_small: null,
         image_large: null,
         image_alt: '',
         image_title: '',
-        content: '<p class="p200">Pormaskar i ansiktet, ofta koncentrerade i områden med hög talgproduktion, uppstår främst på näsan och i pannan. De bildas när porerna blir igensatta med en mix av talg och döda hudceller. När denna mix kommer i kontakt med luft, oxiderar den och resulterar i de karakteristiska mörka punkterna som är synliga på huden. De vanligaste drivkrafterna bakom ökad talgproduktion och pormaskbildning är hormonella förändringar, kost, användning av vissa hudvårdsprodukter och yttre miljöfaktorer som luftföroreningar och exponering för solens UV-strålar.</p>
-      <p class="p200 mt-m">För att effektivt hantera och förebygga pormaskar i ansiktet är det viktigt med en anpassad hudvårdsrutin. Detta innefattar att undvika produkter som kan irritera huden eller förvärra problemet. På AcneSpecialisten erbjuder vi skräddarsydda behandlingar och expertisrådgivning för att minska och förebygga pormaskar, vilket bidrar till en friskare och mer strålande hud.</p>',
+        content: '<p class="p200">Pormaskar på bröstet kan uppstå i områden där talgkörtlar är aktiva. Till skillnad från ansiktet, där pormaskar främst bildas i områden som näsan och pannan, kan pormaskar på bröstet vara ett resultat av faktorer som tättsittande kläder, svett och otillräcklig rengöring. Dessa pormaskar bildas när porerna täpps till med talg och döda hudceller, vilket, när det exponeras för luft, oxiderar och skapar synliga mörka punkter på huden.</p>
+      <p class="p200 mt-m">För att effektivt hantera och förebygga pormaskar på bröstet är det viktigt att använda hudvårdsprodukter som är lämpliga för kroppens hud. Det är också viktigt att välja kläder som andas och undvika de som skapar friktion mot huden. AcneSpecialisten erbjuder personligt anpassade behandlingar och rådgivning för att hjälpa dig att minska och förebygga pormaskar på bröstet, vilket leder till en friskare och mer strålande hud.</p>',
     ),
 );
 
