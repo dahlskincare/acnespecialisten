@@ -5,21 +5,21 @@ include_once('problem/widgets/symptom-card/symptom.php');
 include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Allt om Vita Pormaskar - Orsaker, Behandlingar, Prevention | Acnespecialisten';
-$seo_description = 'Upptäck djupgående information om vita pormaskar, deras bildning, effektiva behandlingsalternativ och preventionsstrategier. Få tillgång till Acnespecialistens skräddarsydda lösningar och expertkunskaper.';
-$seo_keywords = 'vita pormaskar, hantering av vita pormaskar, vita pormaskars orsaker, förebyggande av vita pormaskar, eliminering av vita pormaskar, hudvårdsrutiner, ansiktsrengöring, djuprengöring av porer';
+$seo_title = 'Allt om pormaskar i ansiktet - Orsaker, Behandlingar, Prevention | Acnespecialisten';
+$seo_description = 'Upptäck djupgående information om pormaskar i ansiktet, deras bildning, effektiva behandlingsalternativ och preventionsstrategier. Få tillgång till Acnespecialistens skräddarsydda lösningar och expertkunskaper.';
+$seo_keywords = 'pormaskar i ansiktet, hantering av pormaskar i ansiktet, pormaskar i ansiktets orsaker, förebyggande av pormaskar i ansiktet, eliminering av pormaskar i ansiktet, hudvårdsrutiner, ansiktsrengöring, djuprengöring av porer';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
 $seo_image = 'bilder/problem/424x456/pormaskar.webp';
 
-$title = 'Vita pormaskar';
+$title = 'Pormaskar i ansiktet';
 
 $image_small = 'bilder/problem/424x324/pormaskar.webp';
 $image_large = 'bilder/problem/424x456/pormaskar.webp';
-$image_alt = 'Bild som illustrerar vita pormaskar på huden';
-$image_alt = 'Visuell representation av vita pormaskar på huden';
-$description = 'I denna del granskar vi detaljerna kring vita pormaskar, deras uppkomst och hur Acnespecialisten kan erbjuda effektiva behandlingsmetoder. Vi tar upp processen bakom bildandet av vita pormaskar och ger råd om hur du kan minska dem och därmed förbättra din hy.';
+$image_alt = 'Bild som illustrerar pormaskar i ansiktet på huden';
+$image_alt = 'Visuell representation av pormaskar i ansiktet på huden';
+$description = 'I denna del granskar vi detaljerna kring pormaskar i ansiktet, deras uppkomst och hur Acnespecialisten kan erbjuda effektiva behandlingsmetoder. Vi tar upp processen bakom bildandet av pormaskar i ansiktet och ger råd om hur du kan minska dem och därmed förbättra din hy.';
 
 $akas = [
       new Link(
@@ -34,30 +34,30 @@ $akas = [
       ),
 ];
 
-$floating_box = 'Vi behandlar vita pormaskar effektivt';
+$floating_box = 'Vi behandlar pormaskar i ansiktet effektivt';
 
 $consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones";
 $consultation_url_label = "Få gratis konsultation";
-$consultation_url_title = "Gratis konsultation för behandling av vita pormaskar";
+$consultation_url_title = "Gratis konsultation för behandling av pormaskar i ansiktet";
 
 $booking_url = "https://acnespecialisten.se/book?flow=problem&problem=Problem_Comedones";
 $booking_url_label = "Boka behandling";
-$booking_url_title = "Boka din tid för behandling av vita pormaskar";
+$booking_url_title = "Boka din tid för behandling av pormaskar i ansiktet";
 
 $mobile_consultation_url_label = "Få gratis konsultation";
-$mobile_consultation_url_title = "Gratis konsultation för vita pormaskar";
+$mobile_consultation_url_title = "Gratis konsultation för pormaskar i ansiktet";
 
 $mobile_booking_url_label = "Boka behandling";
-$mobile_booking_url_title = "Boka din tid för behandling av vita pormaskar";
+$mobile_booking_url_title = "Boka din tid för behandling av pormaskar i ansiktet";
 
 $floating_consultation_url_label = "Få gratis konsultation";
-$floating_consultation_url_title = "Gratis konsultation för vita pormaskar";
+$floating_consultation_url_title = "Gratis konsultation för pormaskar i ansiktet";
 
 $floating_booking_url_label = "Boka behandling";
-$floating_booking_url_title = "Boka din tid för behandling av vita pormaskar";
+$floating_booking_url_title = "Boka din tid för behandling av pormaskar i ansiktet";
 
 $nav_buttons = array(
-      'about' => 'Om vita pormaskar',
+      'about' => 'Om pormaskar i ansiktet',
       'approach' => 'Metoden',
       'areas' => 'Områden',
       'articles' => 'När?',
@@ -70,44 +70,44 @@ $nav_buttons = array(
       'related-problems' => 'Relaterade problem',
 );
 
-$description_title = 'Förstå Vita Pormaskar';
-$description_text = '<p class="p200">Vita pormaskar, även kända som öppna komedoner, uppkommer när porer blockeras av sebum och döda hudceller. Denna ackumulation leder till oxidation och mörknar när den exponeras för luft, vilket resulterar i den karakteristiska vita färgen. De är vanligast i ansiktsområden som näsa och panna, och kan signalera ett behov av att förbättra din hudvårdsrutin.</p>
-<p class="p200 mt-m">Hos AcneSpecialisten erbjuder vi anpassade behandlingar för att effektivt hantera och minska förekomsten av vita pormaskar. Våra behandlingsmetoder omfattar djuprengöring, specialiserade ansiktsbehandlingar och noggrann porrengöring. Genom dessa behandlingar, i kombination med rätt hudvårdsrutiner hemma, kan du uppnå rengjorda porer och förebygga framtida vita pormaskar, för en klarare och hälsosammare hud.</p>';
+$description_title = 'Förstå pormaskar i ansiktet';
+$description_text = '<p class="p200">pormaskar i ansiktet, även kända som öppna komedoner, uppkommer när porer blockeras av sebum och döda hudceller. Denna ackumulation leder till oxidation och mörknar när den exponeras för luft, vilket resulterar i den karakteristiska vita färgen. De är vanligast i ansiktsområden som näsa och panna, och kan signalera ett behov av att förbättra din hudvårdsrutin.</p>
+<p class="p200 mt-m">Hos AcneSpecialisten erbjuder vi anpassade behandlingar för att effektivt hantera och minska förekomsten av pormaskar i ansiktet. Våra behandlingsmetoder omfattar djuprengöring, specialiserade ansiktsbehandlingar och noggrann porrengöring. Genom dessa behandlingar, i kombination med rätt hudvårdsrutiner hemma, kan du uppnå rengjorda porer och förebygga framtida pormaskar i ansiktet, för en klarare och hälsosammare hud.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'På AcneSpecialisten börjar din resa med en expertkonsultation. Vår kvalificerade hudterapeut utvärderar noggrant din hud för att identifiera vita pormaskar och utformar en personligt anpassad behandlingsplan specifikt riktad mot dina hudproblem.',
+            content: 'På AcneSpecialisten börjar din resa med en expertkonsultation. Vår kvalificerade hudterapeut utvärderar noggrant din hud för att identifiera pormaskar i ansiktet och utformar en personligt anpassad behandlingsplan specifikt riktad mot dina hudproblem.',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
             url_label: 'Få gratis konsultation',
             url_title: 'Boka din kostnadsfria hudkonsultation idag',
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vårt fokus ligger på att erbjuda milda men effektiva behandlingsmetoder för att ta bort vita pormaskar, anpassade till dina hudbehov. Målet är att varsamt men effektivt rensa bort vita pormaskar för att ge din hud ett fräschare och mer välmående utseende.',
+            content: 'Vårt fokus ligger på att erbjuda milda men effektiva behandlingsmetoder för att ta bort pormaskar i ansiktet, anpassade till dina hudbehov. Målet är att varsamt men effektivt rensa bort pormaskar i ansiktet för att ge din hud ett fräschare och mer välmående utseende.',
             url: 'problem/pormaskar/pormaskbehandling',
             url_label: 'Se portömning',
             url_title: 'Upptäck våra anpassade behandlingar för portömning',
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'Vårt team hjälper dig att skräddarsy en hudvårdsrutin för att effektivt förhindra nya vita pormaskar. Genom att noga välja ut produkter som matchar din hudtyp, arbetar vi för att bibehålla en sund hudbalans och förebygga framtida hudutmaningar.',
+            content: 'Vårt team hjälper dig att skräddarsy en hudvårdsrutin för att effektivt förhindra nya pormaskar i ansiktet. Genom att noga välja ut produkter som matchar din hudtyp, arbetar vi för att bibehålla en sund hudbalans och förebygga framtida hudutmaningar.',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/pormaskar',
             url_label: 'Se produkter',
-            url_title: 'Utforska de bästa produkterna för att förebygga vita pormaskar',
+            url_title: 'Utforska de bästa produkterna för att förebygga pormaskar i ansiktet',
       ),
 );
 $treatment_link = '<a href="problem/pormaskar/pormaskbehandling" title="Läs mer om vår specialiserade portömning" class="mt-xl button b200 outline expand auto-width">Mer information om vår portömning</a>';
 
 $top_articles = array(
     'areas' => new Article(
-        title: 'Förståelse av Vita Pormaskars Uppkomst och Orsaker',
+        title: 'Förståelse av pormaskar i ansiktets Uppkomst och Orsaker',
         image_small: null,
         image_large: null,
         image_alt: '',
         image_title: '',
-        content: '<p class="p200">Vita pormaskar uppstår vanligtvis i områden med riklig talgproduktion, som ansiktet, framför allt på näsan och i pannregionen. Dessa bildas när porer blockeras av en blandning av talg och döda hudceller. Denna blandning genomgår en oxidationsprocess när den exponeras för luft, vilket leder till de distinkta vita prickarna som karakteriserar vita pormaskar. Faktorer som stimulerar ökad talgproduktion och blockering av porer omfattar hormonella förändringar, diet, vissa hudvårdsprodukter och externa miljöeffekter såsom luftföroreningar och UV-strålning.</p>
-      <p class="p200 mt-m">För att hantera och förebygga vita pormaskar effektivt är det essentiellt att följa en skräddarsydd hudvårdsrutin och att undvika hudvårdsprodukter som kan irritera eller förvärra hudtillståndet. På AcneSpecialisten erbjuder vi individanpassade behandlingar och professionell rådgivning för att hjälpa dig att minska och förebygga vita pormaskar, vilket leder till en klarare och mer strålande hud.</p>',
+        content: '<p class="p200">pormaskar i ansiktet uppstår vanligtvis i områden med riklig talgproduktion, som ansiktet, framför allt på näsan och i pannregionen. Dessa bildas när porer blockeras av en blandning av talg och döda hudceller. Denna blandning genomgår en oxidationsprocess när den exponeras för luft, vilket leder till de distinkta vita prickarna som karakteriserar pormaskar i ansiktet. Faktorer som stimulerar ökad talgproduktion och blockering av porer omfattar hormonella förändringar, diet, vissa hudvårdsprodukter och externa miljöeffekter såsom luftföroreningar och UV-strålning.</p>
+      <p class="p200 mt-m">För att hantera och förebygga pormaskar i ansiktet effektivt är det essentiellt att följa en skräddarsydd hudvårdsrutin och att undvika hudvårdsprodukter som kan irritera eller förvärra hudtillståndet. På AcneSpecialisten erbjuder vi individanpassade behandlingar och professionell rådgivning för att hjälpa dig att minska och förebygga pormaskar i ansiktet, vilket leder till en klarare och mer strålande hud.</p>',
     ),
 );
 
