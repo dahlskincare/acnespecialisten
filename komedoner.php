@@ -14,7 +14,7 @@ $seo_keywords = 'komedoner, behandling av komedoner, orsaker till komedoner, fö
 
 $seo_image = 'bilder/problem/424x456/pormaskar.webp';
 
-$title = 'Pormaskar';
+$title = 'Komedoner';
 
 $image_small = 'bilder/problem/424x324/pormaskar.webp';
 $image_large = 'bilder/problem/424x456/pormaskar.webp';

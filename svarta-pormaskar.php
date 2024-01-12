@@ -107,7 +107,7 @@ $top_articles = array(
         image_alt: '',
         image_title: '',
         content: '<p class="p200">Svarta pormaskar, även kända som öppna komedoner, bildas oftast i områden med hög talgproduktion som ansiktet, särskilt näsan och pannan. De uppstår när porer täpps till av en blandning av talg och döda hudceller. När denna blandning utsätts för luft oxiderar den och blir mörk, vilket resulterar i de karaktäristiska svarta prickarna. Faktorer som bidrar till ökad talgproduktion och tilltäppning av porer inkluderar hormonella förändringar, kost, vissa hudvårdsprodukter och miljöpåverkan som föroreningar och solskador.</p>
-      <p class="p200">För att effektivt hantera och förebygga svarta pormaskar är det viktigt att följa en skräddarsydd hudvårdsrutin och undvika produkter som kan irritera huden eller förvärra tillståndet. På AcneSpecialisten erbjuder vi anpassade behandlingar och rådgivning för att minska och förebygga svarta pormaskar, vilket ger dig en klarare och mer strålande hud.</p>',
+      <p class="p200 mt-m">För att effektivt hantera och förebygga svarta pormaskar är det viktigt att följa en skräddarsydd hudvårdsrutin och undvika produkter som kan irritera huden eller förvärra tillståndet. På AcneSpecialisten erbjuder vi anpassade behandlingar och rådgivning för att minska och förebygga svarta pormaskar, vilket ger dig en klarare och mer strålande hud.</p>',
     ),
 );
 
