@@ -3,9 +3,9 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Ansiktsbehandlingar mot Pormaskar - Portömning | AcneSpecialisten';
-$seo_description = 'AcneSpecialisten erbjuder specialiserade porrengöringsbehandlingar riktade mot pormaskar och orenheter. Våra skräddarsydda behandlingar renar porerna och bidrar till en jämnare hudtextur. Få professionell hjälp och skräddarsydda hudvårdsråd för att uppnå en sundare hud och reducera synligheten av pormaskar.';
-$seo_keywords = 'ansiktsbehandlingar mot pormaskar, portömning, rengöring av pormaskar, behandling av pormaskar, pormaskrengöring, hudvård, klara porer, AcneSpecialisten, djuprengöring av huden, förebygga pormaskar, minska pormaskar, rena porer';
+$seo_title = 'Porrengöring och Behandling av Pormaskar | AcneSpecialisten';
+$seo_description = 'Upptäck AcneSpecialistens expertbehandlingar för porrengöring, idealiska för att hantera pormaskar och hudorenheter. Våra individuellt anpassade behandlingar rensar effektivt ut porerna och förbättrar hudens textur. Vi erbjuder professionell vägledning och personligt anpassade hudvårdslösningar för att främja en friskare hud och minska pormaskarnas synlighet.';
+$seo_keywords = 'porrengöring, behandling av pormaskar, effektiv portömning, hudvårdsbehandlingar, pormaskar, AcneSpecialisten, djuprengöring, klar hud, frisk hud, minska synligheten av pormaskar, rena porer, skräddarsydd hudvård';
 
 $seo_image = 'images/treatments/large/ansiktsbehandlingar-pormaskar.jpg';
 
@@ -17,8 +17,8 @@ $model = new Service(
     content: '',
     image_small: 'bilder/behandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp',
     image_large: 'bilder/behandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp',
-    image_alt: 'Ansiktsbehandlingar mot pormaskar',
-    image_title: 'Ansiktsbehandlingar mot pormaskar',
+    image_alt: 'Porrengöring',
+    image_title: 'Porrengöring',
     consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
@@ -66,9 +66,10 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Vad är ansiktsbehandlingar mot pormaskar?';
-$description_text = '<p class="p200">Våra ansiktsbehandlingar är specialanpassade för att målmedvetet angripa och reducera pormaskar, och ge dig en långvarig behandlingsmetod för en problemfri hy. Genom specialicerade tekniker som vapozone använder vi ånga för att varsamt öppna upp porerna, vilket möjliggör en djup och effektiv rengöring speciellt inriktad på borttagning av pormaskar och andra tilltäpptheter.</p>
-    <p class="p200 mt-m">Dessa behandlingar är skräddarsydda för olika hudtyper som är benägna till pormaskar, oavsett om din hud är oljig, torr eller en kombination. Vårt mål är att förbättra hudens övergripande tillstånd och återställa en naturlig balans, samtidigt som vi tillhandahåller den med näring och omsorg som krävs för att förebygga framtida tilltäpptheter och uppkomsten av nya pormaskar.</p>';
+$description_title = 'Vad innebär porrengöring i våra behandlingar?';
+$description_text = '<p class="p200">Våra porrengöringsbehandlingar är skräddarsydda för att effektivt ta itu med och minska pormaskar, och erbjuder en djupgående lösning för att uppnå en klarare och mer problemfri hud. Med avancerade tekniker, inklusive ånganvändning, öppnar vi försiktigt upp porerna för att möjliggöra en grundlig och riktad rengöring. Denna process är särskilt effektiv för att avlägsna pormaskar och rensa tilltäppningar.</p>
+    <p class="p200 mt-m">Varje behandling är unikt utformad för att passa olika hudtyper som är benägna till pormaskar, oavsett om din hud är oljig, torr eller en blandhud. Vårt fokus ligger på att förbättra hudens hälsa och återställa dess naturliga balans, samtidigt som vi ger nödvändig näring och vård för att förebygga framtida hudproblem, inklusive uppkomsten av nya pormaskar.</p>';
+
 
 $types_title = '';
 $types_description = '';
@@ -77,7 +78,7 @@ $big_types = array(
         title: 'Porrengöring',
         duration: '60 min',
         price: null,
-        content: '<p class="p200">Vår klassiska ansiktsbehandling är idealisk för alla, oavsett hudtyp. Den rengör, vårdar och återfuktar huden för att ge den ny lyster. Behandlingsprocessen inleds med rengöring, följt av en exfoliering som tar bort döda hudceller. Efter en varsam ångprocess som öppnar porerna, utför vi en försiktig porrengöring och brynplockning. Slutligen appliceras en närande ansiktsmask och en återfuktande dagkräm, skräddarsydd för just din hud.</p>',
+        content: '<p class="p200">Vår porrengöringsbehandling börjar med en skonsam rengöring för att avlägsna smuts och talg. Därefter används en ångbehandling för att mjuka upp huden och underlätta borttagning av pormaskar. Med varsam teknik rengör terapeuten porerna djupt och effektivt.</p><p class="p200 mt-m">Behandlingen avslutas med en lugnande lermask som minskar rodnad och stramar åt porerna, följt av en återfuktande kräm. Denna process hjälper till att återställa hudens balans och ger en slät, ren yta.</p>',
         image_small: 'https://via.placeholder.com/358x274.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
         image_alt: 'Porrengöring',
