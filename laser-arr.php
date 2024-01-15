@@ -3,60 +3,60 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Dermapen - Effektiv hudföryngring | Acnespecialisten';
-$seo_description = 'Upptäck AcneSpecialistens Dermapen-behandlingar, den ledande tekniken inom hudföryngring som aktivt bekämpar åldrande och texturförändringar. Med expertis och skräddarsydda behandlingsprogram, stimulerar vi din hud att självläka och återfå sin spänst och lyster.';
-$seo_keywords = 'Dermapen, hudföryngring, behandla texturförändringar, reducera ålderslinjer, stimulera kollagen, hudförbättring, förfinad hudstruktur, jämna ut hudton, öka hudens elasticitet, föryngra huden';
+$seo_title = 'Laserbehandling mot Operations- och Skadeärr | AcneSpecialisten';
+$seo_description = 'Lär dig om laserbehandling som en effektiv metod för att reducera ärr efter operationer och skador. AcneSpecialisten erbjuder skräddarsydd expertis och behandlingar för att förbättra utseendet på dina ärr.';
+$seo_keywords = 'laserbehandling för ärr, operationsärr behandling, skadeärr behandling, reducera ärr med laser, effektiv ärrbehandling, microneedling för ärr, kemisk peeling för ärr';
 
-$seo_image = 'images/treatments/large/dermapen.jpg';
+$seo_image = 'images/treatments/large/operations-skadearr.jpg';
 
 
 $model = new Service(
-    title: 'Dermapen mot acneärr',
+    title: 'Laser mot ärr',
     duration: null,
-    price: 'Från 2332 kr',
+    price: 'Från 4595 kr',
     content: '',
-    image_small: 'bilder/varumarken/358x274/dermapen.webp',
-    image_large: 'bilder/varumarken/424x456/dermapen.webp',
-    image_alt: 'Dermapen',
-    image_title: 'Dermapen',
-    consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Dermapen',
+    image_small: 'bilder/varumarken/358x274/operations-skadearr.webp',
+    image_large: 'bilder/varumarken/424x456/operations-skadearr.webp',
+    image_alt: 'Laser mot ärr',
+    image_title: 'Laser mot ärr',
+    consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka hudkonsultation',
-    booking_url: 'https://acnespecialisten.se/book?flow=dermapen',
+    booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka behandling',
     procedures: array(
         new Procedure(
             label: '1 behandling',
-            price: '2595 kr',
+            price: '4595 kr',
             savings: null,
-            booking_url: 'https://bokadirekt.se',
+            booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars&area=EMPTY&procedures=PriceClass_6_Procedure_1',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
         ),
         new Procedure(
             label: '3 behandlingar',
-            price: '6995 kr',
-            savings: 'Spara 790 kr',
-            booking_url: 'https://bokadirekt.se',
+            price: '7995 kr',
+            savings: 'Spara 990 kr',
+            booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars&area=EMPTY&procedures=PriceClass_6_Procedure_3',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
         ),
         new Procedure(
             label: '5 behandlingar',
-            price: '9995 kr',
-            savings: 'Spara 2980 kr',
-            booking_url: 'https://bokadirekt.se',
+            price: '10995 kr',
+            savings: 'Spara 3980 kr',
+            booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars&area=EMPTY&procedures=PriceClass_6_Procedure_5',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
         )
     ),
 );
 
-$floating_box = 'Effektiv nålbehandling som förbättrar hudens struktur.';
+$floating_box = 'Effektiv laserbehandling som förbättrar hudens struktur.';
 
 $nav_buttons = array(
-    'about' => 'Om dermapen mot acneärr',
+    'about' => 'Om laser mot acneärr',
     'types' => 'Typer',
     'results' => 'Resultat',
     'reviews' => 'Omdömen',
@@ -66,47 +66,46 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Vad är Dermapen mot acneärr?';
-$description_text = '<p class="p200">Klassiska ansiktsbehandlingar är en grundsten inom hudvård och erbjuder en upplevelse av avkoppling samtidigt som huden får den vård den behöver. Behandlingarna går ut på att rengöra, återfukta, balansera och revitalisera huden, samt att hantera specifika hudproblem.</p>
-<p class="p200 mt-m">Hos oss på AcneSpecialisten kan du välja mellan flera typer av klassiska ansiktsbehandlingar. Vi erbjuder allt från den traditionella Klassisk ansiktsbehandling till Antistress, där fokus ligger på avslappning. Hudterapeutens val anpassas helt efter dina behov, medan Peel, Boost & Glow siktar på att ge huden en extra boost. För den som vill ha det lilla extra erbjuder vi Lyx behandlingen. Oavsett vilken behandling du väljer, är vårt mål att ge din hud den bästa möjliga omsorgen.</p>';
+$description_title = 'aserbehandling mot ärr';
+$description_text = '<p class="p200">Laserbehandling är en avancerad metod för att effektivt minska synligheten av ärr orsakade av operationer och skador. Denna teknik använder koncentrerat ljus för att försiktigt ta bort ärrvävnad och stimulera hudens naturliga läkningsprocess, vilket resulterar i en jämnare och mer enhetlig hudton.</p>
+<p class="p200 mt-m">På AcneSpecialisten erbjuder vi laserbehandling som en del av vår omfattande ärrbehandlingsportfölj. Våra specialister anpassar behandlingen efter varje individs unika hudtyp och ärrbildning, med målet att uppnå optimala resultat. Utöver laserbehandlingar inkluderar våra behandlingsmetoder även microneedling och kemisk peeling, vilka kompletterar och förstärker effekten av laser.</p>';
 
-$types_title = 'Våra klassiska ansiktsbehandlingar';
-$types_description = 'Här hittar du vårt utbud av klassiska ansiktsbehandlingar.';
+$types_title = '';
+$types_description = '';
 $big_types = array(
     new Service(
-        title: 'Klassisk',
-        duration: '60 min',
+        title: 'Laser mot ärr',
+        duration: '30 min',
         price: null,
-        content: '<p class="p200">Vår klassiska ansiktsbehandling är idealisk för alla, oavsett hudtyp. Den rengör, vårdar och återfuktar huden för att ge den ny lyster. Behandlingsprocessen inleds med rengöring, följt av en exfoliering som tar bort döda hudceller. Efter en varsam ångprocess som öppnar porerna, utför vi en försiktig porrengöring och brynplockning. Slutligen appliceras en närande ansiktsmask och en återfuktande dagkräm, skräddarsydd för just din hud.</p>',
+        content: '<p class="p200">Laserbehandling mot ärr är en effektiv process anpassad för att minska synligheten av ärr, oavsett om de är från skador eller operationer. Behandlingen inleds med en grundlig hudanalys för att utvärdera ärrets egenskaper och din hudtyp. Denna analys är avgörande för att skräddarsy behandlingen efter dina specifika behov. Processen fortsätter med själva laserbehandlingen, där fokuserat ljus används för att selektivt bryta ner ärrvävnaden. Detta stimulerar hudens naturliga läkningsprocess och främjar cellförnyelse.</p>',
         image_small: 'https://via.placeholder.com/358x274.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Klassisk',
-        image_title: 'Klassisk',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation',
+        image_alt: 'Laser mot ärr',
+        image_title: 'Laser mot ärr',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
         consultation_url_label: 'Boka hudkonsultation',
         consultation_url_title: 'Boka hudkonsultation',
-        booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Classic',
+        booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka behandling',
-        icons: array('rengoring' => 'Rengöring', 'anga' => 'Ånga', 'extraktion' => 'Extraktion', 'mask' => 'Mask'),
         procedures: array(
             new Procedure(
                 label: '1 behandling',
-                price: '995 kr',
+                price: '4595 kr',
                 savings: null,
-                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Classic&procedures=PriceClass_1_Procedure_1'
+                booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars&area=EMPTY&procedures=PriceClass_6_Procedure_1'
             ),
             new Procedure(
                 label: '3 behandlingar',
-                price: '2595 kr',
-                savings: '865 kr per besök',
-                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Classic&procedures=PriceClass_1_Procedure_3'
+                price: '7995 kr',
+                savings: 'Spara 990 kr',
+                booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars&area=EMPTY&procedures=PriceClass_6_Procedure_3'
             ),
             new Procedure(
                 label: '5 behandlingar',
-                price: '2595 kr',
-                savings: '799 kr per besök',
-                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Classic&procedures=PriceClass_1_Procedure_5'
+                price: '10995 kr',
+                savings: 'Spara 3980 kr',
+                booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars&area=EMPTY&procedures=PriceClass_6_Procedure_5'
             )
         )
     ),
