@@ -78,21 +78,21 @@ $description_text = '<p class="p200">Åldersfläckar, ofta ett resultat av huden
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Din resa mot en klarare hud börjar på AcneSpecialisten med en grundlig konsultation. Våra erfarna hudterapeuter undersöker noggrant din hud för att identifiera åldersfläckar och skapar en behandlingsplan som är specialanpassad för dina behov och hudtyp.',
+            content: 'På AcneSpecialisten startar din väg till en sundare hud med en grundlig konsultation. Våra kunniga hudterapeuter utför en detaljerad hudanalys för att fastställa graden och omfattningen av din solskadade hud. Denna initiala bedömning är avgörande för att kunna skapa en effektiv och personlig behandlingsplan, anpassad för just dina behov.',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_PigmentationSpots',
             url_label: 'Boka en gratis konsultation',
-            url_title: 'Boka din kostnadsfria konsultation om åldersfläckar idag'
+            url_title: 'Boka din kostnadsfria konsultation om solskadad hy idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Med en skräddarsydd behandlingsplan från AcneSpecialisten, får du tillgång till avancerade och effektiva metoder för att minska dina åldersfläckar. Våra specialiserade behandlingar är utformade för att ge dig synliga resultat och återställa hudens naturliga utstrålning.',
+            content: 'Efter att ha identifierat dina specifika behov erbjuder AcneSpecialisten skräddarsydda behandlingsalternativ för att aktivt åtgärda solskadad hy. Våra behandlingsmetoder omfattar avancerade tekniker som är speciellt utformade för att adressera och reducera tecken på solskador, såsom hyperpigmentering och ojämn hudton, och arbetar för att förbättra hudens struktur och utseende.',
             url: 'behandla-pigmentflackar.php',
-            url_label: 'Utforska våra behandlingar för åldersfläckar',
-            url_title: 'Upptäck våra unika och effektiva behandlingar för åldersfläckar'
+            url_label: 'Utforska våra behandlingar för solskadad hy',
+            url_title: 'Upptäck våra unika och effektiva behandlingar för solskadad hy'
       ),
 );
 
-$treatment_link = '<a href="problem/pigmentflackar/behandla-pigmentflackar" title="Utforska effektiva behandlingar mot åldersfläckar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot åldersfläckar</a>';
+$treatment_link = '<a href="problem/pigmentflackar/behandla-pigmentflackar" title="Utforska effektiva behandlingar mot solskadad hy" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot solskadad hy</a>';
 
 
 $top_articles = array(
@@ -102,29 +102,28 @@ $top_articles = array(
         image_large: '',
         image_alt: '',
         image_title: '',
-        content: '<p class="p200">Åldersfläckar uppstår vanligtvis på hudområden som ofta exponeras för solen, såsom ansiktet, händerna och armarna. Dessa fläckar är resultatet av en överproduktion av melanin, hudens pigment, vilket ofta är en reaktion på långvarig exponering för UV-strålar från solen. Även åldrandet spelar en roll, eftersom huden med tiden förlorar sin förmåga att återhämta sig från solskador.</p>
-        <p class="p200 mt-m">För att minska risken för åldersfläckar är det viktigt att skydda huden mot solen genom att använda solskydd med hög SPF, bära skyddande kläder och undvika solen under dess starkaste timmar. Regelbunden hudvård och behandlingar kan också bidra till att minska uppkomsten av åldersfläckar och förbättra hudens övergripande utseende och hälsa.</p>',
+        content: '<p class="p200">Åldersfläckar tenderar att bildas på de delar av kroppen som mest frekvent exponeras för solen, såsom ansiktet, händerna och armarna. Dessa fläckar är ett resultat av ökad melaninproduktion, det pigment som ger hud dess färg, vilket ofta orsakas av långvarig exponering för UV-strålar från solen. Hudens naturliga åldringsprocess bidrar också, då dess förmåga att återhämta sig från solskador minskar över tiden.</p>',
     ),
 );
 
 $articles = array(
       new Article(
-            title: 'När är det dags att söka hjälp för åldersfläckar?',
+            title: 'När ska du överväga att få hjälp med åldersfläckar?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'När är det dags att söka hjälp för åldersfläckar?',
-            image_title: 'När är det dags att söka hjälp för åldersfläckar?',
-            content: '<p class="p200">Åldersfläckar är vanliga tecken på hudens åldrande och kan vara en kosmetisk oro för många. Om du börjar märka att dina åldersfläckar påverkar ditt självförtroende eller om du är orolig över deras utseende, kan det vara dags att söka professionell hjälp. Även om åldersfläckar i sig inte är skadliga, är det viktigt att få dem utvärderade för att utesluta andra hudtillstånd. Dessutom kan en expert ge dig råd om effektiva behandlingar och förebyggande åtgärder.</p>',
+            image_alt: 'När ska du överväga att få hjälp med åldersfläckar?',
+            image_title: 'När ska du överväga att få hjälp med åldersfläckar?',
+            content: '<p class="p200">Åldersfläckar är en naturlig del av hudens åldrande och kan orsaka kosmetiska bekymmer. Om dina åldersfläckar börjar påverka ditt självförtroende eller om du har bekymmer över hur de ser ut, kan det vara läge att söka expertis. Medan åldersfläckar oftast är ofarliga, är det viktigt att få dem bedömda för att utesluta andra hudförhållanden. En specialist kan erbjuda vägledning om effektiva behandlingar och förebyggande strategier.</p>',
       ),
 
       new Article(
-            title: 'Varför välja AcneSpecialisten för behandling av åldersfläckar?',
+            title: 'Fördelarna med att välja AcneSpecialisten för åldersfläcksbehandling',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'Varför välja AcneSpecialisten för behandling av åldersfläckar?',
-            image_title: 'Varför välja AcneSpecialisten för behandling av åldersfläckar?',
-            content: '<p class="p200">AcneSpecialisten är en ledande expert inom hudvård med särskild expertis inom behandling av åldersfläckar. Med vår erfarenhet och tillgång till de senaste behandlingsmetoderna erbjuder vi skräddarsydda lösningar för varje klient. Vårt mål är att inte bara behandla de synliga tecknen på åldrande utan också att förebygga framtida hudproblem.</p>
-            <p class="p200 mt-m">Våra behandlingar för åldersfläckar är baserade på en djup förståelse av hudens behov och den modernaste tekniken. Vi använder avancerade tekniker och högkvalitativa produkter för att säkerställa att du får bästa möjliga resultat. Genom individuellt anpassade behandlingsplaner och personligt engagemang ser vi till att varje kund uppnår de resultat de önskar.</p>',
+            image_alt: 'Fördelarna med att välja AcneSpecialisten för åldersfläcksbehandling',
+            image_title: 'Fördelarna med att välja AcneSpecialisten för åldersfläcksbehandling',
+            content: '<p class="p200">AcneSpecialisten har lång erfarenhet av åldersfläcksbehandling. Tack vare vår gedigna erfarenhet och tillgång till de senaste metoderna, erbjuder vi personligt anpassade behandlingar för varje klient. Vårt mål sträcker sig bortom att bara behandla åldrandets synliga effekter; vi siktar också på att förebygga framtida hudproblem.</p>
+                  <p class="p200 mt-m">Vi tillämpar behandlingar som är grundade på en omfattande förståelse för hudens unika behov och använder oss av avancerade tekniker och förstklassiga produkter. Detta säkerställer optimala resultat för dig som kund. Med individuellt anpassade behandlingsplaner och ett engagerat förhållningssätt ser vi till att våra kunder når sina önskade hudvårdsresultat.</p>',
       ),
 );
 
