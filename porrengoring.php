@@ -11,7 +11,7 @@ $seo_image = 'images/treatments/large/ansiktsbehandlingar-pormaskar.jpg';
 
 
 $model = new Service(
-    title: 'Ansiktsbehandlingar mot pormaskar',
+    title: 'Porrengöring',
     duration: '60 min',
     price: 'Från 799 kr',
     content: '',
@@ -82,10 +82,10 @@ $big_types = array(
         image_large: 'https://via.placeholder.com/872x456.webp',
         image_alt: 'Porrengöring',
         image_title: 'Porrengöring',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
         consultation_url_label: 'Boka hudkonsultation',
         consultation_url_title: 'Boka hudkonsultation',
-        booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Classic',
+        booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones&area=Facial_Face',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka behandling',
         icons: array('rengoring' => 'Rengöring', 'anga' => 'Ånga', 'extraktion' => 'Extraktion', 'mask' => 'Mask'),
