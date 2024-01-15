@@ -23,14 +23,14 @@ $description = 'Har du märkt av åldersfläckar, också kända som solfläckar 
 
 $akas = [
       new Link(
-            label: 'Pigmentförändringar',
-            url: 'problem/arr-fran-finnar/postinflammatorisk-hyperpigmentering',
-            title: 'Utforska orsakerna, symptomen och de effektiva behandlingarna för postinflammatorisk hyperpigmentering i form av fläckar från finnar'
+            label: 'Pigmentfläckar',
+            url: 'pigmentflackar.php',
+            title: 'Pigmentfläckar'
       ),
       new Link(
-            label: 'Hudfläckar',
-            url: 'problem/arr-fran-finnar/atrofiska-arr',
-            title: 'Lär dig mer om atrofiska ärr i form av gropar som uppstått från finnar och upptäck våra specialiserade behandlingsalternativ'
+            label: 'Pigmenteringar',
+            url: null,
+            title: 'Pigmenteringar'
       ),
 
 ];

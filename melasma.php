@@ -5,21 +5,21 @@ include_once('problem/widgets/symptom-card/symptom.php');
 include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Allt om Solskadad Hy - Behandlingsmetoder, Orsaker och Förebyggande | Acnespecialisten';
-$seo_description = 'Utforska allt om solskadad hy, dess orsaker, effektiva behandlingar och förebyggande åtgärder. Få expertvägledning och skräddarsydda lösningar från Acnespecialisten för att hantera och reparera solskadad hy.';
-$seo_keywords = 'solskadad hy, behandla solskadad hy, orsaker till solskadad hy, förebygga solskador, minska solskador, solskador på huden, behandling av solskador, hudens återhämtning efter solen';
+$seo_title = 'Melasma – Behandling, Orsaker & Förebyggande | AcneSpecialisten';
+$seo_description = 'Utforska allt kring melasma: dess orsaker, effektiva behandlingsalternativ och förebyggande strategier. Få professionell hjälp och anpassade lösningar från AcneSpecialisten för att hantera melasma och liknande hudproblem.';
+$seo_keywords = 'melasma, behandla melasma, orsaker till melasma, förebyggande av melasma, minska melasma, hyperpigmentering, hudfläckar, behandling av hyperpigmentering, hudens hälsa';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
 $seo_image = 'bilder/problem/424x456/pigmentflackar.webp';
 
-$title = 'Solskadad hy';
+$title = 'Melasma';
 
 $image_small = 'bilder/problem/424x324/pigmentflackar.webp';
 $image_large = 'bilder/problem/424x456/pigmentflackar.webp';
-$image_title = 'Visar en hud med solskadad hy';
-$image_alt = 'Bild som illustrerar effekterna av solskadad hy';
-$description = 'Om du har märkt av tecken på solskadad hy, såsom solfläckar eller förändrad hudtextur, är du inte ensam. Vi på Acnespecialisten har djupgående kunskap om dessa utmaningar och erbjuder effektiva behandlingar. Upptäck hur vi kan skräddarsy en behandlingsplan som passar just dina behov, och boka en kostnadsfri konsultation idag för att påbörja din väg mot en återhämtad och friskare hud.';
+$image_title = 'Visar en hud med melasma';
+$image_alt = 'Bild som visar melasma på huden';
+$description = 'Har du upplevt melasma – även känd som solfläckar eller "leverfläckar" – på din hud? Vi känner till dessa utmaningar och erbjuder effektiva behandlingsmetoder. Lär dig mer om dessa hudfläckar, varför de uppstår, och hur våra experter kan utforma en behandlingsplan som passar just dina behov. Boka en gratis konsultation idag för att påbörja din väg mot en jämnare och sundare hud.';
 
 $akas = [
       new Link(
@@ -35,30 +35,30 @@ $akas = [
 
 ];
 
-$floating_box = 'Vi behandlar solskadad hy effektivt';
+$floating_box = 'Vi behandlar melasma effektivt';
 
 $consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_PigmentationSpots";
 $consultation_url_label = "Få gratis konsultation";
-$consultation_url_title = "Gratis konsultation för behandling av solskadad hy";
+$consultation_url_title = "Gratis konsultation för behandling av melasma";
 
 $booking_url = "https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots";
 $booking_url_label = "Boka behandling";
-$booking_url_title = "Boka din tid för behandling av solskadad hy";
+$booking_url_title = "Boka din tid för behandling av melasma";
 
 $mobile_consultation_url_label = "Få gratis konsultation";
-$mobile_consultation_url_title = "Gratis konsultation för solskadad hy";
+$mobile_consultation_url_title = "Gratis konsultation för melasma";
 
 $mobile_booking_url_label = "Boka behandling";
-$mobile_booking_url_title = "Boka din tid för behandling av solskadad hy";
+$mobile_booking_url_title = "Boka din tid för behandling av melasma";
 
 $floating_consultation_url_label = "Få gratis konsultation";
-$floating_consultation_url_title = "Gratis konsultation för solskadad hy";
+$floating_consultation_url_title = "Gratis konsultation för melasma";
 
 $floating_booking_url_label = "Boka behandling";
-$floating_booking_url_title = "Boka din tid för behandling av solskadad hy";
+$floating_booking_url_title = "Boka din tid för behandling av melasma";
 
 $nav_buttons = array(
-      'about' => 'Om solskadad hy',
+      'about' => 'Om melasma',
       'approach' => 'Metoden',
       'areas' => 'Områden',
       'articles' => 'När?',
@@ -71,61 +71,60 @@ $nav_buttons = array(
       'related-problems' => 'Relaterade problem',
 );
 
-$description_title = 'Förklaring av Solskadad Hy';
-$description_text = '<p class="p200">Solskadad hy kännetecknas ofta av mörka fläckar, ojämn hudton och ibland förtjockad eller läderartad textur. Detta är resultatet av långvarig och upprepad exponering för solens skadliga UV-strålar. Solskador på huden kan drabba människor i alla åldrar, men är vanligare hos äldre individer eller de som ofta vistas i starkt solsken.</p>
-<p class="p200 mt-m">På AcneSpecialisten erbjuder vi flera behandlingsalternativ för solskadad hy, inklusive ljusbaserade behandlingar, kemiska peelingar och mikrodermabrasion. Dessa metoder hjälper till att minska synliga tecken på solskador och förbättra hudens övergripande utseende och hälsa. Vi ger också råd om hur du kan skydda din hud från framtida solskador och upprätthålla en hälsosam och strålande hud.</p>';
+$description_title = 'Information om melasma';
+$description_text = '<p class="p200">Melasma, som ofta är kopplat till hudens åldrande och utdragen sol exponering, visar sig som små, mörka områden på huden. Det är vanligare hos personer över 50 år men kan även förekomma hos yngre som spenderar mycket tid i solen.</p>
+<p class="p200 mt-m">Hos AcneSpecialisten erbjuder vi olika behandlingar för att tackla melasma. Våra metoder sträcker sig från ljusbaserade terapier till kemiska peelingar och mikrodermabrasion, alla utformade för att minska synligheten av melasma och ge en jämnare hudton. Vi tillhandahåller också tips för att förebygga ny melasma och upprätthålla en frisk och lysterrik hud.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
-            title: 'Identifiera',
-            content: 'Din resa mot en klarare hud börjar på AcneSpecialisten med en grundlig konsultation. Våra erfarna hudterapeuter undersöker noggrant din hud för att identifiera solskadad hy och skapar en behandlingsplan som är specialanpassad för dina behov och hudtyp.',
+            title: 'Diagnostisera',
+            content: 'Din resa mot en friskare hud börjar hos AcneSpecialisten med en omfattande konsultation. Våra erfarna hudterapeuter genomför en noggrann hudanalys för att bedöma omfattningen av din melasma. Denna inledande utvärdering är kritisk för att kunna utveckla en skräddarsydd behandlingsplan, skräddarsydd för dina unika hudvårdsbehov.',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_PigmentationSpots',
-            url_label: 'Boka en gratis konsultation',
-            url_title: 'Boka din kostnadsfria konsultation om solskadad hy idag'
+            url_label: 'Boka en kostnadsfri konsultation',
+            url_title: 'Boka din kostnadsfria konsultation för melasma idag',
       ),
       new TreatmentStep(
-            title: 'Behandla',
-            content: 'Med en skräddarsydd behandlingsplan från AcneSpecialisten, får du tillgång till avancerade och effektiva metoder för att minska dina solskadad hy. Våra specialiserade behandlingar är utformade för att ge dig synliga resultat och återställa hudens naturliga utstrålning.',
+            title: 'Behandlingsalternativ',
+            content: 'Baserat på din individuella diagnos erbjuder AcneSpecialisten en rad anpassade behandlingsalternativ för melasma. Våra metoder inkluderar avancerade tekniker speciellt utvecklade för att hantera och minska tecken på melasma, som hyperpigmentering och ojämn hudton, och arbetar mot att förbättra både hudens struktur och dess övergripande utseende.',
             url: 'behandla-pigmentflackar.php',
-            url_label: 'Utforska våra behandlingar för solskadad hy',
-            url_title: 'Upptäck våra unika och effektiva behandlingar för solskadad hy'
+            url_label: 'Upptäck våra behandlingsalternativ för melasma',
+            url_title: 'Upptäck våra unika och effektiva behandlingar för solskadad hy',
       ),
 );
 
-$treatment_link = '<a href="problem/pigmentflackar/behandla-pigmentflackar" title="Utforska effektiva behandlingar mot solskadad hy" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot solskadad hy</a>';
+$treatment_link = '<a href="problem/pigmentflackar/behandla-pigmentflackar" title="Utforska effektiva behandlingar mot melasma" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot melasma</a>';
 
 
 $top_articles = array(
     'areas' => new Article(
-        title: 'Var uppstår solskadad hy och varför?',
+        title: 'Var uppstår melasma och varför?',
         image_small: '',
         image_large: '',
         image_alt: '',
         image_title: '',
-        content: '<p class="p200">Solskadad hud är vanligast på områden som ofta utsätts för sol, exempelvis ansikte, händer och armar. Skadorna manifesterar sig i form av pigmentförändringar som beror på överproduktion av melanin, hudens naturliga färgämne. Denna överproduktion är ofta ett resultat av långvarig UV-exponering från solen. Ytterligare faktorer såsom hudens åldrande bidrar också, då den över tid blir mindre effektiv på att reparera skador orsakade av solen.</p>
-      <p class="p200 mt-m">För att förebygga solskadad hud är det kritiskt att använda solskydd med hög SPF, klä sig i solskyddande kläder och undvika solen när den är som starkast. Kontinuerlig hudvård och specifika behandlingar är också avgörande för att minska risken för solskador, samtidigt som de förbättrar hudens totala utseende och hälsa.</p>',
+        content: '<p class="p200">Melasma uppstår ofta på hudområden som regelbundet utsätts för sol, såsom ansikte, händer och armar. Denna typ av hyperpigmentering uppstår på grund av en ökning i melaninproduktionen, det naturliga pigmentet som färgar huden. Ofta är detta en reaktion på långvarig exponering för solens UV-strålar. Dessutom spelar hudens åldringsprocess en roll i melasmas utveckling, eftersom hudens förmåga att återhämta sig från och reparera solskador minskar med åldern.</p>',
     ),
 );
 
 $articles = array(
       new Article(
-            title: 'När är det dags att söka hjälp för solskadad hy?',
+            title: 'När bör du söka hjälp för Melasma?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'När är det dags att söka hjälp för solskadad hy?',
-            image_title: 'När är det dags att söka hjälp för solskadad hy?',
-            content: '<p class="p200">Solskadad hud är ett vanligt ålderstecken och kan orsaka estetiska bekymmer. Om du upplever att din solskadade hud påverkar ditt självförtroende eller om du är bekymrad över dess tillstånd, kan det vara lämpligt att söka professionell hjälp. Även om solskador i sig inte alltid är farliga, är det viktigt att få en korrekt bedömning för att utesluta andra hudproblem. En hudterapeut kan även erbjuda rådgivning kring effektiva behandlingar och förebyggande åtgärder.</p>',
+            image_alt: 'När bör du söka hjälp för Melasma?',
+            image_title: 'När bör du söka hjälp för Melasma?',
+            content: '<p class="p200">Melasma kan vara en naturlig del av hudens åldrande och orsaka estetiska bekymmer. Om du känner att din melasma påverkar ditt självförtroende eller om du är bekymrad över dess utseende, kan det vara dags att söka professionell hjälp. Även om melasma i sig inte är farligt, är det viktigt att få en korrekt diagnos för att utesluta andra hudtillstånd. En hudterapeut kan ge dig råd om effektiva behandlingar och strategier för att förebygga melasma.</p>',
       ),
 
       new Article(
-            title: 'Varför välja AcneSpecialisten för behandling av solskadad hy?',
+            title: 'Varför AcneSpecialisten är ditt bästa val för behandling av Melasma',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'Varför välja AcneSpecialisten för behandling av solskadad hy?',
-            image_title: 'Varför välja AcneSpecialisten för behandling av solskadad hy?',
-            content: '<p class="p200">AcneSpecialisten utmärker sig som en föregångare inom hudvårdsbranschen, särskilt inom området för behandling av solskadad hud. Med vår omfattande erfarenhet och till gång till toppmoderna behandlingsmetoder, erbjuder vi individuellt anpassade behandlingsprogram för varje kund. Vår ambition är att inte bara adressera de synliga tecknen på solskador, utan också att förebygga framtida problem med huden.</p>
-            <p class="p200 mt-m">Behandlingar hos AcneSpecialisten för solskadad hud baseras på en djupgående förståelse för hudens särskilda behov och användning av den senaste teknologin. Vi använder avancerade metoder och högkvalitativa produkter för att säkerställa optimala resultat. Med personligt anpassade behandlingsplaner och ett dedikerat tillvägagångssätt strävar vi efter att varje kund ska uppnå sina hudvårdsönskemål.</p>',
-      ),    
+            image_alt: 'Varför AcneSpecialisten är ditt bästa val för behandling av Melasma',
+            image_title: 'Varför AcneSpecialisten är ditt bästa val för behandling av Melasma',
+            content: '<p class="p200">AcneSpecialisten är välrenommerad för sin expertis inom behandling av melasma. Med vår djupa förståelse och erfarenhet, samt tillgång till de senaste behandlingsteknikerna, erbjuder vi individuellt anpassade behandlingsstrategier för varje klient. Vårt mål är inte enbart att behandla de yttre tecknen på melasma, utan även att proaktivt arbeta mot att förebygga framtida hudproblem.</p>
+            <p class="p200 mt-m">Vi använder behandlingsmetoder som baseras på en grundlig förståelse för hudens särskilda krav och tillämpar avancerade tekniker och högkvalitativa produkter. Detta för att uppnå bästa möjliga resultat för våra kunder.</p>',
+      ),
 );
 
 $results = array(
