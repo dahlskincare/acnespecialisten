@@ -4,8 +4,8 @@
 
 <head>
       <!-- TODO: Set title and meta tags -->
-      <title>AcneSpecialisten | Erfarna Hudspecialister inom Hudvård i Stockholm</title>
-      <meta name="description" content="Med över 30 års erfarenhet, erbjuder AcneSpecialisten expertis inom behandling av acne och hudproblem i Stockholm. Boka en kostnadsfri konsultation idag och upplev skillnaden med personligt anpassad hudvård.">
+      <title>AcneSpecialisten | Erfarna Hudspecialister inom hudproblem i Stockholm</title>
+      <meta name="description" content="Med över 30 års erfarenhet, erbjuder AcneSpecialisten expertis inom behandling av hudproblem i Stockholm. Boka en kostnadsfri hudkonsultation idag och upplev skillnaden med personligt anpassad hudvård.">
       <meta name="keywords" content="Hudspecialist, Hudspecialist stockholm, Hudvård Stockholm, Acnespecialisten, Hudvårdsexpert, Acnebehandling, Hudproblem, AcneSpecialisten, Personlig hudvård, Hudvårdsklinik Stockholm, Acne konsultation">
 
       <meta property="og:title" content="Acnespecialisten" />
@@ -32,7 +32,7 @@
                               <h1 class="h700 l10n">Hudspecialisterna</h1>
                         </div>
                   </div>
-                  <a href="gratis-hudkonsultation.php" title="hudkonsultation">
+                  <a href="gratis-hudkonsultation.php" title="Boka Gratis Hudkonsultation">
                         <div class="container">
                               <div class="banner-bar elevation-medium is-hidden-desktop" id="banner-bar-small">
                                     <button class="white">
@@ -46,7 +46,7 @@
                                           </div>
                                           <div>
                                                 <span class="h500">30+</span>
-                                                <div class="p200 l10n">år</div>
+                                                <div class="p200 l10n">års erfarenhet</div>
                                           </div>
                                           <div>
                                                 <span class="h500">200k+</span>
@@ -70,15 +70,15 @@
                                           <div class="flex-aligner">
                                                 <span class="label-large">30+</span>
                                                 <div>
-                                                      <div class="h400 l10n">år</div>
-                                                      <div class="p200 l10n">i branchen</div>
+                                                      <div class="h400 l10n">års</div>
+                                                      <div class="p200 l10n">erfarenhet</div>
                                                 </div>
                                           </div>
                                           <div class="flex-aligner">
                                                 <span class="label-large">200k+</span>
                                                 <div>
                                                       <div class="h400 l10n">Personer</div>
-                                                      <div class="p200 l10n">som blivit problemfria</div>
+                                                      <div class="p200 l10n">fri från hudproblem</div>
                                                 </div>
                                           </div>
                                           <div class="button white l10n">
