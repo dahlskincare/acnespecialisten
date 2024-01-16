@@ -5,21 +5,21 @@ include_once('problem/widgets/symptom-card/symptom.php');
 include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Gravid Finnar - Förståelse, Behandling och Skötsel | Acnespecialisten';
-$seo_description = 'Utforska allt om gravid finnar – från orsaker till säker behandling och skötsel under graviditeten. Acnespecialisten ger skräddarsydda råd och lösningar.';
-$seo_keywords = 'gravid finnar, hudvård under graviditet, behandla finnar under graviditet, säker hudvård för gravida, förebygga finnar under graviditet, hormonell akne, graviditet och hudvård';
+$seo_title = 'Tonårsfinnar - Förståelse, Behandling och Skötsel | Acnespecialisten';
+$seo_description = 'Upptäck allt om tonårsfinnar – från orsaker och effekter till skonsamma och effektiva behandlingar. Acnespecialisten erbjuder experttips och skräddarsydda lösningar.';
+$seo_keywords = 'tonårsfinnar, behandling av tonårsakne, skötsel av tonårshud, hormonella förändringar och akne, effektiv aknebehandling, ungdomshudvård';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
 $seo_image = 'bilder/problem/424x456/akne.webp';
 
-$title = 'Gravid Finnar';
+$title = '%onårsfinnar';
 
 $image_small = 'bilder/problem/424x324/akne.webp';
 $image_large = 'bilder/problem/424x456/akne.webp';
-$image_title = 'Visar en hud med gravid finnar';
-$image_alt = 'Bild som illustrerar hud med gravid finnar';
-$description = 'I denna sektion förklarar vi hur gravid finnar skiljer sig från andra typer av akne, varför det uppstår under graviditeten och hur Acnespecialisten kan stödja dig med säkra behandlingar. Vi diskuterar även hormonella förändringar under graviditeten och hur de påverkar huden.';
+$image_title = 'Visar en hud med tonårsfinnar';
+$image_alt = 'Bild som illustrerar hud med tonårsfinnar';
+$description = 'I denna sektion utforskar vi tonårsfinnars unika natur, dess vanligaste orsaker och hur Acnespecialisten effektivt kan behandla dessa utan att skada den känsliga ungdomshuden. Vi diskuterar även hormonella förändringar som ofta är en bidragande faktor och ger råd för optimal hudvård under tonåren.';
 
 $akas = [
       new Link(
@@ -34,35 +34,35 @@ $akas = [
       ),
       new Link(
             label: 'Tonårsfinnar',
-            url: 'tonarsfinnar.php',
+            url: 'tonårsfinnar.php',
             title: 'Komplett guide om tonårsfinnar: orsaker, förebyggande och lösningar'
       ),
 ];
 
-$floating_box = 'Behandla dina gravid finnar effektivt.';
+$floating_box = 'Behandla dina tonårsfinnar effektivt.';
 
 $consultation_url_label = "Få gratis konsultation";
 $consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples";
-$consultation_url_title = "Gratis Konsultation för gravid finnar";
+$consultation_url_title = "Gratis Konsultation för tonårsfinnar";
 
 $booking_url_label = "Boka behandling";
 $booking_url = "https://acnespecialisten.se/book?flow=problem&problem=Problem_Pimples";
 $booking_url_title = "Boka behandling";
 
 $mobile_consultation_url_label = "Få gratis konsultation";
-$mobile_consultation_url_title = "Gratis Konsultation för gravid finnar";
+$mobile_consultation_url_title = "Gratis Konsultation för tonårsfinnar";
 
 $mobile_booking_url_label = "Boka behandling";
 $mobile_booking_url_title = "Boka behandling";
 
 $floating_consultation_url_label = "Få gratis konsultation";
-$floating_consultation_url_title = "Gratis Konsultation för gravid finnar";
+$floating_consultation_url_title = "Gratis Konsultation för tonårsfinnar";
 
 $floating_booking_url_label = "Boka behandling";
 $floating_booking_url_title = "Boka behandling";
 
 $nav_buttons = array(
-      'about' => 'Om gravid finnar',
+      'about' => 'Om tonårsfinnar',
       'approach' => 'Metoden',
       'areas' => 'Områden',
       'articles' => 'När?',
@@ -75,14 +75,14 @@ $nav_buttons = array(
       'related-problems' => 'Relaterade problem',
 );
 
-$description_title = 'Vad är gravid finnar?';
-$description_text = '<p class="p200">Gravid finnar är en vanlig hudåkomma som drabbar kvinnor under graviditeten på grund av hormonella förändringar. Våra behandlingar fokuserar på att skonsamt rengöra och balansera huden, med särskilt hänsyn till de förändrade behoven under graviditeten. Vi erbjuder en rad säkra och anpassade behandlingsalternativ för att ta hand om huden utan att riskera moder eller barn.</p>
-<p class="p200 mt-m">Vid AcneSpecialisten förstår vi vikten av individuellt anpassade hudvårdsrutiner under graviditeten. Från milda rengöringsmetoder till återfuktande och lugnande behandlingar, våra hudterapeuter är utbildade att ge den mest skonsamma och effektiva vård för graviditetsrelaterade hudproblem.</p>';
+$description_title = 'Vad är tonårsfinnar?';
+$description_text = '<p class="p200">Tonårsfinnar är en vanlig hudåkomma som främst drabbar ungdomar på grund av hormonella förändringar och ökad talgproduktion. På Acnespecialisten lägger vi fokus på att skonsamt rengöra och balansera huden, med metoder specifikt anpassade för tonårens utmaningar. Vi erbjuder en rad skräddarsydda behandlingsalternativ som effektivt bekämpar akne utan att skada den känsliga ungdomshuden.</p>
+<p class="p200 mt-m">Hos Acnespecialisten förstår vi betydelsen av att anpassa hudvårdsrutiner till tonårens specifika behov. Från noggranna rengöringsrutiner till försiktigt valda behandlingar som återfuktar och lugnar, våra hudterapeuter är expertutbildade för att ge den mest effektiva och samtidigt skonsamma vård för tonårsrelaterade hudproblem.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Med en specialiserad konsultation hos AcneSpecialisten kan du identifiera hur gravid finnar påverkar din hud och få en skräddarsydd behandlingsplan. Vår expertis sträcker sig till att hantera hudförändringar under graviditeten.',
+            content: 'Genom en specialiserad konsultation hos AcneSpecialisten kan du få en noggrann bedömning av dina tonårsfinnar och en skräddarsydd behandlingsplan. Vår expertis är inriktad på att hantera de unika utmaningarna med tonårshud.',
 
             url_label: 'Få gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples',
@@ -90,7 +90,7 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Våra behandlingar för gravid finnar är säkra och skonsamma, anpassade för att effektivt ta hand om din känsliga hud under graviditeten utan att kompromissa med säkerheten.',
+            content: 'Våra behandlingar för tonårsfinnar är både säkra och effektiva, specifikt utformade för att skonsamt men effektivt ta hand om huden.',
 
             url_label: 'Se aknebehandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Pimples',
@@ -98,7 +98,7 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'Vi erbjuder specialanpassade hudvårdsprodukter och rutiner som är säkra under graviditeten för att effektivt förebygga gravid finnar och underhålla en sund hudbalans.',
+            content: 'Vi erbjuder specialanpassade hudvårdsprodukter och rutiner för tonåringar för att effektivt förebygga tonårsfinnar och upprätthålla en hälsosam hudbalans.',
 
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
@@ -106,46 +106,46 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Reparera',
-            content: 'Efter graviditeten kan vi även hjälpa till med att minska och behandla eventuella hudförändringar eller ärr som uppstått, med säkra och effektiva metoder.',
+            content: 'Vi hjälper även till med att minska och behandla eventuella ärr eller hudförändringar orsakade av tonårsfinnar, med metoder som är både säkra och effektiva för ungdomar.',
 
             url_label: 'Se ärrbehandlingar',
             url: 'behandla-finnar-arr.php',
             url_title: 'Upptäck effektiva behandlingar för akneärr'
       ),
 );
+
 $treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra aknebehandlingar</a>';
 
 $top_articles = array(
     'areas' => new Article(
-        title: 'Var och varför uppstår gravid finnar?',
+        title: 'Var och varför uppstår tonårsfinnar?',
         image_small: '',
         image_large: '',
         image_alt: '',
         image_title: '',
-        content: '<p class="p200">Gravid finnar uppstår ofta på grund av hormonella förändringar under graviditeten, vilket kan öka hudens talgproduktion och leda till tilltäppta porer. Dessa förändringar är vanligast i ansiktet, men kan även påverka andra delar av kroppen. Vår expertis på AcneSpecialisten innebär att vi noggrant analyserar din hud och dess förändringar under graviditeten, för att identifiera de mest effektiva behandlingsmetoderna.</p>
-            <p class="p200 mt-m">För att hantera gravid finnar effektivt är det viktigt att anpassa hudvården under graviditeten. Det inkluderar att undvika vissa hudvårdsprodukter som kan vara irriterande eller skadliga under graviditeten. Våra hudterapeuter kommer att ge dig skräddarsydda råd och rekommendationer för säker och skonsam hudvård som stödjer din huds hälsa och balans under denna speciella tid.</p>',
+        content: '<p class="p200">Tonårsfinnar uppstår ofta på grund av hormonella förändringar under tonåren, vilket kan leda till ökad talgproduktion och tilltäppta porer. Dessa förändringar påverkar vanligtvis ansiktet, men kan också förekomma på andra delar av kroppen som rygg och bröst. Hos AcneSpecialisten fokuserar vi på att noggrant analysera din hudtyp och dess specifika behov under tonåren, för att identifiera de mest effektiva behandlingsmetoderna.</p>
+            <p class="p200 mt-m">För att effektivt hantera tonårsfinnar är det viktigt att anpassa hudvårdsrutinen till tonårshudens unika egenskaper. Detta innebär att välja produkter som är skonsamma men effektiva för att undvika irritation och stödja hudens naturliga balans. Våra hudterapeuter på AcneSpecialisten erbjuder skräddarsydda råd och rekommendationer för en säker och skonsam hudvård som främjar en hälsosam hud under tonåren.</p>',
     ),
 );
 
 $articles = array(
       new Article(
-            title: 'När ska jag söka hjälp för gravid finnar?',
+            title: 'När ska jag söka hjälp för tonårsfinnar?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'När ska jag söka hjälp för gravid finnar?',
-            image_title: 'När ska jag söka hjälp för gravid finnar?',
-            content: '<p class="p200">Gravid finnar kan vara både fysiskt och emotionellt påfrestande. Om du upplever en ökad frekvens eller svårighetsgrad av utbrott under graviditeten, och vanliga hudvårdsprodukter inte ger lindring, kan det vara läge att söka professionell hjälp.</p>
-            <p class="p200 mt-m">En konsultation med en hudspecialist kan ge dig en skräddarsydd behandlingsplan som tar hänsyn till de unika behoven och utmaningarna med hudvård under graviditeten. Våra experter kan analysera din hudtyp, diskutera de specifika utmaningarna med gravid finnar och rekommendera säkra och effektiva behandlingsmetoder.</p>',
+            image_alt: 'När ska jag söka hjälp för tonårsfinnar?',
+            image_title: 'När ska jag söka hjälp för tonårsfinnar?',
+            content: '<p class="p200">Tonårsfinnar kan vara både fysiskt och emotionellt påfrestande. Om du upplever en ökad frekvens eller svårighetsgrad av utbrott, och vanliga hudvårdsprodukter inte ger lindring, kan det vara dags att söka professionell hjälp. Det är viktigt att börja behandla finnarna så tidigt som möjligt för att undvika att ärr uppstår.</p>',
       ),
 
       new Article(
-            title: 'Varför ska jag välja AcneSpecialisten för gravid finnar?',
+            title: 'Varför ska jag välja AcneSpecialisten för tonårsfinnar?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'Varför ska jag välja AcneSpecialisten för gravid finnar?',
-            image_title: 'Varför ska jag välja AcneSpecialisten för gravid finnar?',
-            content: '<p class="p200">När det gäller att hantera gravid finnar, är AcneSpecialisten experten du kan lita på. Med över 30 års erfarenhet inom hudvård och en djup förståelse för de unika utmaningarna som graviditet kan medföra för huden, erbjuder vi specialiserade lösningar för att hantera din hud på ett säkert och effektivt sätt under denna speciella tid.</p>
-            <p class="p200 mt-m">Med en individuellt anpassad behandlingsplan och stöd genom hela din graviditet. Vi ser dig som en partner i din hudvårdsresa under graviditeten och är engagerade i att hjälpa dig att uppnå och bibehålla en sund och vacker hud. Med vårt engagemang och kunskap är vi det självklara valet för att ta hand om dina gravid finnar på bästa möjliga sätt.</p>',
+            image_alt: 'Varför ska jag välja AcneSpecialisten för tonårsfinnar?',
+            image_title: 'Varför ska jag välja AcneSpecialisten för tonårsfinnar?',
+            content: '<p class="p200">För effektiv hantering av tonårsfinnar är AcneSpecialisten rätt val för dig. Med över 30 års erfarenhet inom hudvård och en djup förståelse för de unika ut maningarna som tonårsakne medför, erbjuder vi specialiserade lösningar för att hantera din hud på ett säkert och effektivt sätt.</p>
+            <p class="p200 mt-m">Vi erbjuder en individuellt anpassad behandlingsplan som tar hänsyn till tonårshudens specifika behov. Vi ser varje kund som en unik individ i sin hudvårdsresa och är engagerade i att hjälpa dig att uppnå och bibehålla en sund och vacker hud. Med vårt engagemang och expertis är vi det självklara valet för att ta hand om dina tonårsfinnar på bästa möjliga sätt.</p>',
       ),
 );
 

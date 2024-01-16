@@ -42,11 +42,11 @@ $akas = [
 $floating_box = 'Behandla dina stress finnar effektivt.';
 
 $consultation_url_label = "Få gratis konsultation";
-$consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne";
+$consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples";
 $consultation_url_title = "Gratis Konsultation för stress finnar";
 
 $booking_url_label = "Boka behandling";
-$booking_url = "https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne";
+$booking_url = "https://acnespecialisten.se/book?flow=problem&problem=Problem_Pimples";
 $booking_url_title = "Boka behandling";
 
 $mobile_consultation_url_label = "Få gratis konsultation";
@@ -85,7 +85,7 @@ $treatment_steps = array(
             content: 'Genom en konsultation hos AcneSpecialisten kan du få hjälp att identifiera hur stress finnar påverkar just din hud och utveckla en skräddarsydd behandlingsplan. Vi är experter på att identifiera och hantera de hudförändringar som kan uppstå på grund av stress.',
 
             url_label: 'Få gratis konsultation',
-            url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
+            url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
@@ -93,7 +93,7 @@ $treatment_steps = array(
             content: 'Våra behandlingar för stress finnar är skonsamma och anpassade för att effektivt hantera de unika utmaningarna som stressrelaterade hudproblem medför. Vi använder tekniker och produkter som är effektiva mot stress finnar samtidigt som de är skonsamma mot huden.',
 
             url_label: 'Se aknebehandlingar',
-            url: 'acnebehandling.php',
+            url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Pimples',
             url_title: 'Utforska våra skräddarsydda aknebehandlingar'
       ),
       new TreatmentStep(
@@ -108,7 +108,7 @@ $treatment_steps = array(
             title: 'Reparera',
             content: 'Vi kan också hjälpa till med att behandla och reducera hudförändringar eller ärr som kan ha orsakats av stress finnar, med hjälp av säkra och effektiva behandlingsmetoder. Våra metoder fokuserar på att återställa hudens naturliga utseende och lindra de långsiktiga effekterna av stress på huden.',
             url_label: 'Se ärrbehandlingar',
-            url: 'behandla-acnearr.php',
+            url: 'behandla-finnar-arr.php',
             url_title: 'Upptäck effektiva behandlingar för akneärr'
   ),
 );
