@@ -5,59 +5,59 @@ include_once('problem/widgets/symptom-card/symptom.php');
 include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Komplett Guide till Pormaskar i Ansiktet - Orsaker, Behandling, Förebyggande | Acnespecialisten';
-$seo_description = 'Lär dig allt om pormaskar i ansiktet, deras uppkomst, effektiva behandlingar och hur du kan förebygga dem. Upptäck Acnespecialistens skräddarsydda lösningar och expertis.';
-$seo_keywords = 'pormaskar i ansiktet, behandla pormaskar i ansiktet, orsaker till pormaskar i ansiktet, förebygga pormaskar i ansiktet, reducera pormaskar i ansiktet, hudvård, ansiktsrengöring, effektiv porrengöring';
+$seo_title = 'Vuxenfinnar - Förståelse, Behandling och Skötsel | Acnespecialisten';
+$seo_description = 'Utforska allt om vuxenfinnar – från orsaker till effektiva behandlingsmetoder. Acnespecialisten erbjuder experttips och skräddarsydda lösningar för vuxna med akne.';
+$seo_keywords = 'vuxenfinnar, behandling av vuxenakne, hudvård för vuxna, hormonella förändringar och akne, effektiv aknebehandling för vuxna';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
-$seo_image = 'bilder/problem/424x456/pormaskar.webp';
+$seo_image = 'bilder/problem/424x456/akne.webp';
 
-$title = 'Pormaskar i ansiktet';
+$title = 'Vuxenfinnar';
 
-$image_small = 'bilder/problem/424x324/pormaskar.webp';
-$image_large = 'bilder/problem/424x456/pormaskar.webp';
-$image_alt = 'Bild som illustrerar pormaskar i ansiktet på huden';
-$image_alt = 'Bild på pormaskar i ansiktshuden';
-$description = 'Denna sektion utforskar pormaskar i ansiktet, deras ursprung och Acnespecialistens effektiva behandlingar. Vi diskuterar hur pormaskar bildas i ansiktet och erbjuder råd för att minska dem och förbättra din hudhälsa.';
+$image_small = 'bilder/problem/424x324/akne.webp';
+$image_large = 'bilder/problem/424x456/akne.webp';
+$image_title = 'Visar en hud med vuxenfinnar';
+$image_alt = 'Bild som illustrerar hud med vuxenfinnar';
+$description = 'I denna sektion utforskar vi vuxenfinnars unika natur, dess vanligaste orsaker, inklusive hormonella förändringar och stress, och hur Acnespecialisten kan erbjuda effektiv behandling för dessa. Vi ger även råd för optimal hudvård anpassad för vuxna.';
 
 $akas = [
       new Link(
-            url: 'pormaskar.php',
-            label: 'Pormaskar',
-            title: 'Allt du behöver veta om pormaskar'
+            label: 'Finnar',
+            url: 'finnar.php',
+            title: 'Allt du behöver veta om finnar och deras behandling'
       ),
       new Link(
-            url: 'stora-porer.php',
-            label: 'Stora porer',
-            title: 'Utforska orsaker, symptom och behandlingar av stora porer'
+            label: 'Tonårsfinnar',
+            url: 'tonarsfinnar.php',
+            title: 'Komplett guide om tonårsfinnar: orsaker, förebyggande och lösningar'
       ),
 ];
 
-$floating_box = 'Vi behandlar pormaskar i ansiktet effektivt';
+$floating_box = 'Behandla dina vuxenfinnar effektivt.';
 
-$consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones";
 $consultation_url_label = "Få gratis konsultation";
-$consultation_url_title = "Gratis konsultation för behandling av pormaskar i ansiktet";
+$consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples";
+$consultation_url_title = "Gratis Konsultation för vuxenfinnar";
 
-$booking_url = "https://acnespecialisten.se/book?flow=problem&problem=Problem_Comedones";
 $booking_url_label = "Boka behandling";
-$booking_url_title = "Boka din tid för behandling av pormaskar i ansiktet";
+$booking_url = "https://acnespecialisten.se/book?flow=problem&problem=Problem_Pimples";
+$booking_url_title = "Boka behandling";
 
 $mobile_consultation_url_label = "Få gratis konsultation";
-$mobile_consultation_url_title = "Gratis konsultation för pormaskar i ansiktet";
+$mobile_consultation_url_title = "Gratis Konsultation för vuxenfinnar";
 
 $mobile_booking_url_label = "Boka behandling";
-$mobile_booking_url_title = "Boka din tid för behandling av pormaskar i ansiktet";
+$mobile_booking_url_title = "Boka behandling";
 
 $floating_consultation_url_label = "Få gratis konsultation";
-$floating_consultation_url_title = "Gratis konsultation för pormaskar i ansiktet";
+$floating_consultation_url_title = "Gratis Konsultation för vuxenfinnar";
 
 $floating_booking_url_label = "Boka behandling";
-$floating_booking_url_title = "Boka din tid för behandling av pormaskar i ansiktet";
+$floating_booking_url_title = "Boka behandling";
 
 $nav_buttons = array(
-      'about' => 'Om pormaskar i ansiktet',
+      'about' => 'Om vuxenfinnar',
       'approach' => 'Metoden',
       'areas' => 'Områden',
       'articles' => 'När?',
@@ -70,45 +70,74 @@ $nav_buttons = array(
       'related-problems' => 'Relaterade problem',
 );
 
-$description_title = 'Djupdykning i Pormaskar i Ansiktet';
-$description_text = '<p class="p200">Pormaskar i ansiktet, även kända som öppna komedoner, uppstår när porerna blir igensatta med talg och döda hudceller. Denna ackumulering oxiderar och mörknar vid kontakt med luft, vilket ger upphov till deras distinkta utseende. De förekommer ofta i ansiktsregioner som näsan och pannan, vilket kan tyda på ett behov av att förbättra hudvårdsrutinerna.</p>
-<p class="p200 mt-m">På AcneSpecialisten erbjuder vi skräddarsydda behandlingar för att effektivt hantera och minska pormaskar i ansiktet. Våra metoder inkluderar djuprengöring, specialanpassade ansiktsbehandlingar och detaljerad porrengöring. Dessa behandlingar, kombinerade med lämpliga hudvårdsrutiner hemma, hjälper till att hålla porerna rena och förebygga nya pormaskar i ansiktet, vilket leder till en friskare och mer strålande hud.</p>';
+$description_title = 'Vad är vuxenfinnar?';
+$description_text = '<p class="p200">Vuxenfinnar är en hudåkomma som ofta drabbar individer även efter tonåren, vanligtvis på grund av faktorer som hormonella förändringar och stress. På Acnespecialisten fokuserar vi på att skonsamt rengöra och balansera huden med metoder specifikt anpassade för vuxna. Vi erbjuder en rad skräddarsydda behandlingsalternativ som effektivt bekämpar akne, samtidigt som de tar hänsyn till vuxen hud och dess särskilda behov.</p>
+<p class="p200 mt-m">Hos Acnespecialisten förstår vi vikten av individuellt anpassade hudvårdsrutiner för vuxna. Från noggranna rengöringsmetoder till skräddarsydda behandlingar som balanserar och lugnar huden, våra hudterapeuter är expertutbildade för att ge den mest effektiva och samtidigt skonsamma vård för hudproblem relaterade till vuxenakne.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Din behandlingsresa hos AcneSpecialisten inleds med en professionell hudanalys. Våra erfarna hudterapeuter genomför en detaljerad utvärdering för att identifiera pormaskar i ansiktet och skapar en skräddarsydd behandlingsplan som är specifikt riktad mot dina unika hudbehov.',
-            url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
+            content: 'Med en specialiserad konsultation hos AcneSpecialisten kan du identifiera de specifika egenskaperna hos dina vuxenfinnar och få en skräddarsydd behandlingsplan. Vi är experter på att hantera de komplexa faktorer som bidrar till akne hos vuxna.',
             url_label: 'Få gratis konsultation',
-            url_title: 'Boka din kostnadsfria hudkonsultation idag',
+            url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples',
+            url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi erbjuder skonsamma, men kraftfulla, behandlingsalternativ för att effektivt avlägsna pormaskar i ansiktet. Varje behandling är noga anpassad efter din hudtyp och hudens specifika behov, med målet att noggrant rensa pormaskarna och återställa din huds naturliga lyster.',
-            url: 'problem/pormaskar/pormaskbehandling',
-            url_label: 'Se portömning',
-            url_title: 'Upptäck våra skräddarsydda behandlingar för portömning',
+            content: 'Våra behandlingar för vuxenfinnar är skräddarsydda för att effektivt och skonsamt behandla vuxen hud. Vi erbjuder en rad olika alternativ, anpassade efter din huds specifika behov och tillstånd.',
+            url_label: 'Se aknebehandlingar',
+            url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Pimples',
+            url_title: 'Utforska våra skräddarsydda aknebehandlingar'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'Vi hjälper dig att utforma en individanpassad hudvårdsrutin som effektivt kan förebygga uppkomsten av nya pormaskar i ansiktet. Genom att använda produkter som är idealiska för din hudtyp, strävar vi efter att upprätthålla en optimal hudhälsa och förhindra framtida hudproblem.',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/pormaskar',
+            content: 'För att effektivt förebygga vuxenfinnar erbjuder vi skräddarsydda hudvårdsprodukter och rutiner. Dessa är speciellt utformade för att upprätthålla en hälsosam hudbalans och förhindra nya utbrott.',
             url_label: 'Se produkter',
-            url_title: 'Utforska de bästa produkterna för att förebygga pormaskar i ansiktet',
+            url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
+            url_title: 'Hitta de bästa produkterna för att förebygga akne'
       ),
+      new TreatmentStep(
+            title: 'Reparera',
+            content: 'Vi erbjuder behandlingar för att reparera huden efter vuxenfinnar utbrott, såsom att minska ärr och förbättra hudens textur. Våra metoder är effektiva för vuxen hud och skapar långsiktiga resultat.',
+            url_label: 'Se ärrbehandlingar',
+            url: 'behandla-finnar-arr.php',
+            url_title: 'Upptäck effektiva behandlingar för akneärr'
+        ),
 );
-$treatment_link = '<a href="problem/pormaskar/pormaskbehandling" title="Läs mer om vår specialiserade portömning" class="mt-xl button b200 outline expand auto-width">Mer information om vår portömning</a>';
+
+$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra aknebehandlingar</a>';
 
 $top_articles = array(
     'areas' => new Article(
-        title: 'Varför Uppstår Pormaskar i Ansiktet?',
-        image_small: null,
-        image_large: null,
+        title: 'Var och varför uppstår vuxenfinnar?',
+        image_small: '',
+        image_large: '',
         image_alt: '',
         image_title: '',
-        content: '<p class="p200">Pormaskar i ansiktet, ofta koncentrerade i områden med hög talgproduktion, uppstår främst på näsan och i pannan. De bildas när porerna blir igensatta med en mix av talg och döda hudceller. När denna mix kommer i kontakt med luft, oxiderar den och resulterar i de karakteristiska mörka punkterna som är synliga på huden. De vanligaste drivkrafterna bakom ökad talgproduktion och pormaskbildning är hormonella förändringar, kost, användning av vissa hudvårdsprodukter och yttre miljöfaktorer som luftföroreningar och exponering för solens UV-strålar.</p>
-      <p class="p200 mt-m">För att effektivt hantera och förebygga pormaskar i ansiktet är det viktigt med en anpassad hudvårdsrutin. Detta innefattar att undvika produkter som kan irritera huden eller förvärra problemet. På AcneSpecialisten erbjuder vi skräddarsydda behandlingar och expertisrådgivning för att minska och förebygga pormaskar, vilket bidrar till en friskare och mer strålande hud.</p>',
+        content: '<p class="p200">Vuxenfinnar uppstår ofta på grund av en kombination av faktorer som hormonella förändringar och stress, vilket kan leda till ökad talgproduktion och tilltäppta porer. Dessa problem påverkar vanligtvis ansiktet, men kan även förekomma på andra delar av kroppen som rygg och bröst. Hos AcneSpecialisten fokuserar vi på att noggrant analysera din hudtyp och dess specifika behov som vuxen, för att identifiera de mest effektiva behandlingsmetoderna.</p>
+            <p class="p200 mt-m">För att effektivt hantera vuxenfinnar är det viktigt att anpassa hudvårdsrutinen till vuxen hud och dess unika krav. Det innebär att välja produkter som är skonsamma men effektiva, för att undvika irritation och samtidigt stödja hudens naturliga balans. Våra hudterapeuter på AcneSpecialisten erbjuder skräddarsydda råd och rekommendationer för en säker och skonsam hudvård som främjar en hälsosam hud för vuxna.</p>',
     ),
+);
+
+$articles = array(
+      new Article(
+            title: 'När ska jag söka hjälp för vuxenfinnar?',
+            image_small: 'https://via.placeholder.com/358x272.webp',
+            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_alt: 'När ska jag söka hjälp för vuxenfinnar?',
+            image_title: 'När ska jag söka hjälp för vuxenfinnar?',
+            content: '<p class="p200">Vuxenfinnar kan vara mer än bara ett kosmetiskt problem – de kan också vara en källa till fysisk och emotionell stress. Om du märker att dina finnar är ihållande eller blir värre är det dags att överväga professionell hjälp. Att hantera finnarna tidigt är avgörande för att minska risken för ärrbildning och andra långsiktiga effekter på huden. Professionell rådgivning kan inte bara hjälpa till att behandla befintliga utbrott, utan också ge insikt i förebyggande åtgärder och skräddarsydda hudvårdsrutiner.</p>',
+      ),
+
+      new Article(
+            title: 'Varför ska jag välja AcneSpecialisten för vuxenfinnar?',
+            image_small: 'https://via.placeholder.com/358x272.webp',
+            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_alt: 'Varför ska jag välja AcneSpecialisten för vuxenfinnar?',
+            image_title: 'Varför ska jag välja AcneSpecialisten för vuxenfinnar?',
+            content: '<p class="p200">AcneSpecialisten står ut som en ledande expert inom området för vuxenfinnar. Med över 30 års erfarenhet och en djupgående förståelse för hudens komplexitet, erbjuder vi avancerade behandlingsmetoder anpassade specifikt för vuxna. Skillnaden i hudstruktur, hormonella förändringar och stress hos vuxna kräver en annorlunda tillvägagångssätt än för tonårsakne.</p>
+            <p class="p200 mt-m">Vår individuellt anpassade behandlingsplan innefattar allt från milda men effektiva rengöringsrutiner till avancerade terapier för att behandla akne och dess eftereffekter. Vi fokuserar inte bara på att behandla nuvarande hudproblem, utan också på att utbilda våra klienter om hur de kan upprätthålla en sund hudhälsa över tid. Vårt mål är att du ska känna dig självsäker och nöjd med din hud, och med vår expertis och engagemang är AcneSpecialisten det självklara valet för att ta hand om dina vuxenfinnar på bästa möjliga sätt.</p>',
+      ),
 );
 
 $results = array(
@@ -298,13 +327,31 @@ $specialist_url_title = "Akne Specialiserade Hudterapeuter";
 
 $related_problems = array(
       new RelatedProblem(
-            name: 'Pormaskar',
-            aka: 'Vita & svarta pormaskar',
-            image: 'bilder/problem/200x200/pormaskar.webp',
-            image_alt: 'Bild som skildrar pormaskar',
-            image_title: 'Pormaskar - ett vanligt hudproblem bland både ungdomar och vuxna',
-            url: 'pormaskar.php',
-            url_title: 'Pormaskar'
+            name: 'Acneärr',
+            aka: 'gropar & Fläckar',
+            image: 'bilder/problem/200x200/acnearr.webp',
+            image_alt: 'Bild som visar acneärr, en typ av hudproblem som ofta följer efter akne',
+            image_title: 'Acneärr - en vanlig följd av akne',
+            url: 'acnearr.php',
+            url_title: 'Acneärr'
+      ),
+      new RelatedProblem(
+            name: 'Rosacea',
+            aka: 'ansiktsrodnad',
+            image: 'bilder/problem/200x200/rosacea.webp',
+            image_alt: 'Bild som illustrerar rosacea, ett hudtillstånd som kan förväxlas med akne',
+            image_title: 'Rosacea - en hudsjukdom som ofta förväxlas med akne',
+            url: 'rosacea.php',
+            url_title: 'Rosacea'
+      ),
+      new RelatedProblem(
+            name: 'Perioral dermatit',
+            aka: 'akne runt munnen',
+            image: 'bilder/problem/200x200/perioral-dermatit.webp',
+            image_alt: 'Bild som skildrar perioral dermatit, en hudåkomma som kan förväxlas med akne',
+            image_title: 'Perioral dermatit (acne runt munnen) ett hudproblem liknande akne',
+            url: 'perioral-dermatit.php',
+            url_title: 'Perioral dermatit',
       ),
 );
 
@@ -521,6 +568,12 @@ $brands_url_title = "Se alla varumärken";
                               ?>
                           </section>
                       <?php } ?>
+
+                        <section id="articles">
+                              <?php foreach ($articles as $article) { ?>
+                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php'); ?>
+                              <?php } ?>
+                        </section>
                         
                         <section id="results">
                               <?php
