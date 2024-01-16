@@ -82,7 +82,7 @@ $description_text = '<p class="p200">Finnar i ansiktet är en hudutmaning som in
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Med en specialiserad konsultation hos AcneSpecialisten kan du identifiera de specifika egenskaperna hos dina finnar i ansiktet och få en skräddarsydd behandlingsplan. Vi är experter på att hantera de komplexa faktorer som bidrar till akne hos vuxna.',
+            content: 'Med en specialiserad konsultation hos AcneSpecialisten kan du identifiera de specifika egenskaperna hos dina finnar i ansiktet och få en skräddarsydd behandlingsplan. Vi är experter på att hantera de komplexa faktorer som bidrar till finnar hos vuxna.',
             url_label: 'Få gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
@@ -90,37 +90,39 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Behandla',
             content: 'Våra behandlingar för finnar i ansiktet är skräddarsydda för att effektivt och skonsamt behandla vuxen hud. Vi erbjuder en rad olika alternativ, anpassade efter din huds specifika behov och tillstånd.',
-            url_label: 'Se aknebehandlingar',
+            url_label: 'Se finnarbehandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Pimples',
-            url_title: 'Utforska våra skräddarsydda aknebehandlingar'
+            url_title: 'Utforska våra skräddarsydda finnarbehandlingar'
       ),
       new TreatmentStep(
             title: 'Förebygga',
             content: 'För att effektivt förebygga finnar i ansiktet erbjuder vi skräddarsydda hudvårdsprodukter och rutiner. Dessa är speciellt utformade för att upprätthålla en hälsosam hudbalans och förhindra nya utbrott.',
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
-            url_title: 'Hitta de bästa produkterna för att förebygga akne'
+            url_title: 'Hitta de bästa produkterna för att förebygga finnar'
       ),
       new TreatmentStep(
             title: 'Reparera',
-            content: 'Vi erbjuder behandlingar för att reparera huden efter finnar i ansiktet utbrott, såsom att minska ärr och förbättra hudens textur. Våra metoder är effektiva för vuxen hud och skapar långsiktiga resultat.',
+            content: 'Vi erb
+
+            juder behandlingar för att reparera huden efter utbrott av finnar i ansiktet, såsom att minska ärr och förbättra hudens textur. Våra metoder är effektiva för vuxen hud och skapar långsiktiga resultat.',
             url_label: 'Se ärrbehandlingar',
             url: 'behandla-finnar-arr.php',
-            url_title: 'Upptäck effektiva behandlingar för akneärr'
-        ),
+            url_title: 'Upptäck effektiva behandlingar för ärr från finnar'
+      ),
 );
 
-$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra aknebehandlingar</a>';
+$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot finnar</a>';
 
 $top_articles = array(
     'areas' => new Article(
-        title: 'Var och varför uppstår finnar i ansiktet?',
+        title: 'Varför uppstår finnar i ansiktet?',
         image_small: '',
         image_large: '',
         image_alt: '',
         image_title: '',
-        content: '<p class="p200">finnar i ansiktet uppstår ofta på grund av en kombination av faktorer som hormonella förändringar och stress, vilket kan leda till ökad talgproduktion och tilltäppta porer. Dessa problem påverkar vanligtvis ansiktet, men kan även förekomma på andra delar av kroppen som rygg och bröst. Hos AcneSpecialisten fokuserar vi på att noggrant analysera din hudtyp och dess specifika behov som vuxen, för att identifiera de mest effektiva behandlingsmetoderna.</p>
-            <p class="p200 mt-m">För att effektivt hantera finnar i ansiktet är det viktigt att anpassa hudvårdsrutinen till vuxen hud och dess unika krav. Det innebär att välja produkter som är skonsamma men effektiva, för att undvika irritation och samtidigt stödja hudens naturliga balans. Våra hudterapeuter på AcneSpecialisten erbjuder skräddarsydda råd och rekommendationer för en säker och skonsam hudvård som främjar en hälsosam hud för vuxna.</p>',
+        content: '<p class="p200">Finnar i ansiktet kan ofta uppstå som ett resultat av flera samverkande faktorer. Hormonella förändringar, särskilt vanliga under vuxenlivet, kan orsaka en ökad produktion av talg, vilket i sin tur kan leda till tilltäppta porer. Stress är en annan bidragande faktor som kan förvärra tillståndet. Även om finnar främst uppträder i ansiktet, är det inte ovanligt att de även dyker upp på andra delar av kroppen som rygg och bröst. På AcneSpecialisten lägger vi stor vikt vid att förstå din unika hudtyp och dess behov, för att kunna erbjuda de mest effektiva behandlingsalternativen för vuxen hud.</p>
+            <p class="p200 mt-m">Att hantera finnar i ansiktet kräver en hudvårdsrutin som är anpassad till de specifika kraven hos vuxen hud. Det är viktigt att välja hudvårdsprodukter som är både skonsamma och effektiva, för att minska irritation samtidigt som hudens naturliga balans stöds. På AcneSpecialisten finns våra erfarna hudterapeuter redo att ge personliga råd och rekommendationer för att skapa en hudvårdsrutin som främjar en frisk och balanserad hud för vuxna.</p>',
     ),
 );
 
