@@ -8,10 +8,10 @@ $seo_keywords = 'finnar, behandling av finnar, orsaker till finnar, förebygga f
 
 // här lägger du bild som du vill skall synas när du länkar i sociala medier eller sms
 
-$seo_image = 'images/treatments/large/acne-scars.jpg';
+$seo_image = 'images/treatments/large/acne.jpg';
 
-$image_large = 'images/treatments/large/acne-scars.jpg';
-$image_small = 'images/treatments/small/acne-scars.jpg';
+$image_large = 'images/treatments/large/acne.jpg';
+$image_small = 'images/treatments/small/acne.jpg';
 $image_alt = 'Bild på behandling av finnar';
 $image_title = 'Behandling av finnar';
 
