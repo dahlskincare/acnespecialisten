@@ -28,7 +28,7 @@ $akas = [
             title: 'Allt du behöver veta om finnar och deras behandling'
       ),
       new Link(
-            label: 'Vuxennfinnar',
+            label: 'Vuxenfinnar',
             url: 'vuxenfinnar.php',
             title: 'Utforska orsaker, symptom och behandlingar av vuxenfinnar'
       ),

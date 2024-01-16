@@ -5,21 +5,21 @@ include_once('problem/widgets/symptom-card/symptom.php');
 include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Tonårsfinnar - Förståelse, Behandling och Skötsel | Acnespecialisten';
-$seo_description = 'Upptäck allt om tonårsfinnar – från orsaker och effekter till skonsamma och effektiva behandlingar. Acnespecialisten erbjuder experttips och skräddarsydda lösningar.';
-$seo_keywords = 'tonårsfinnar, behandling av tonårsakne, skötsel av tonårshud, hormonella förändringar och akne, effektiv aknebehandling, ungdomshudvård';
+$seo_title = 'Vuxenfinnar - Förståelse, Behandling och Skötsel | Acnespecialisten';
+$seo_description = 'Utforska allt om vuxenfinnar – från orsaker till effektiva behandlingsmetoder. Acnespecialisten erbjuder experttips och skräddarsydda lösningar för vuxna med akne.';
+$seo_keywords = 'vuxenfinnar, behandling av vuxenakne, hudvård för vuxna, hormonella förändringar och akne, effektiv aknebehandling för vuxna';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
 $seo_image = 'bilder/problem/424x456/akne.webp';
 
-$title = 'Tonårsfinnar';
+$title = 'Vuxenfinnar';
 
 $image_small = 'bilder/problem/424x324/akne.webp';
 $image_large = 'bilder/problem/424x456/akne.webp';
-$image_title = 'Visar en hud med tonårsfinnar';
-$image_alt = 'Bild som illustrerar hud med tonårsfinnar';
-$description = 'I denna sektion utforskar vi tonårsfinnars unika natur, dess vanligaste orsaker och hur Acnespecialisten effektivt kan behandla dessa utan att skada den känsliga ungdomshuden. Vi diskuterar även hormonella förändringar som ofta är en bidragande faktor och ger råd för optimal hudvård under tonåren.';
+$image_title = 'Visar en hud med vuxenfinnar';
+$image_alt = 'Bild som illustrerar hud med vuxenfinnar';
+$description = 'I denna sektion utforskar vi vuxenfinnars unika natur, dess vanligaste orsaker, inklusive hormonella förändringar och stress, och hur Acnespecialisten kan erbjuda effektiv behandling för dessa. Vi ger även råd för optimal hudvård anpassad för vuxna.';
 
 $akas = [
       new Link(
@@ -28,36 +28,36 @@ $akas = [
             title: 'Allt du behöver veta om finnar och deras behandling'
       ),
       new Link(
-            label: 'Vuxenfinnar',
-            url: 'vuxenfinnar.php',
-            title: 'Utforska orsaker, symptom och behandlingar av vuxenfinnar'
+            label: 'Tonårsfinnar',
+            url: 'tonarsfinnar.php',
+            title: 'Komplett guide om tonårsfinnar: orsaker, förebyggande och lösningar'
       ),
 ];
 
-$floating_box = 'Behandla dina tonårsfinnar effektivt.';
+$floating_box = 'Behandla dina vuxenfinnar effektivt.';
 
 $consultation_url_label = "Få gratis konsultation";
 $consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples";
-$consultation_url_title = "Gratis Konsultation för tonårsfinnar";
+$consultation_url_title = "Gratis Konsultation för vuxenfinnar";
 
 $booking_url_label = "Boka behandling";
 $booking_url = "https://acnespecialisten.se/book?flow=problem&problem=Problem_Pimples";
 $booking_url_title = "Boka behandling";
 
 $mobile_consultation_url_label = "Få gratis konsultation";
-$mobile_consultation_url_title = "Gratis Konsultation för tonårsfinnar";
+$mobile_consultation_url_title = "Gratis Konsultation för vuxenfinnar";
 
 $mobile_booking_url_label = "Boka behandling";
 $mobile_booking_url_title = "Boka behandling";
 
 $floating_consultation_url_label = "Få gratis konsultation";
-$floating_consultation_url_title = "Gratis Konsultation för tonårsfinnar";
+$floating_consultation_url_title = "Gratis Konsultation för vuxenfinnar";
 
 $floating_booking_url_label = "Boka behandling";
 $floating_booking_url_title = "Boka behandling";
 
 $nav_buttons = array(
-      'about' => 'Om tonårsfinnar',
+      'about' => 'Om vuxenfinnar',
       'approach' => 'Metoden',
       'areas' => 'Områden',
       'articles' => 'När?',
@@ -70,77 +70,73 @@ $nav_buttons = array(
       'related-problems' => 'Relaterade problem',
 );
 
-$description_title = 'Vad är tonårsfinnar?';
-$description_text = '<p class="p200">Tonårsfinnar är en vanlig hudåkomma som främst drabbar ungdomar på grund av hormonella förändringar och ökad talgproduktion. På Acnespecialisten lägger vi fokus på att skonsamt rengöra och balansera huden, med metoder specifikt anpassade för tonårens utmaningar. Vi erbjuder en rad skräddarsydda behandlingsalternativ som effektivt bekämpar akne utan att skada den känsliga ungdomshuden.</p>
-<p class="p200 mt-m">Hos Acnespecialisten förstår vi betydelsen av att anpassa hudvårdsrutiner till tonårens specifika behov. Från noggranna rengöringsrutiner till försiktigt valda behandlingar som återfuktar och lugnar, våra hudterapeuter är expertutbildade för att ge den mest effektiva och samtidigt skonsamma vård för tonårsrelaterade hudproblem.</p>';
+$description_title = 'Vad är vuxenfinnar?';
+$description_text = '<p class="p200">Vuxenfinnar är en hudåkomma som ofta drabbar individer även efter tonåren, vanligtvis på grund av faktorer som hormonella förändringar och stress. På Acnespecialisten fokuserar vi på att skonsamt rengöra och balansera huden med metoder specifikt anpassade för vuxna. Vi erbjuder en rad skräddarsydda behandlingsalternativ som effektivt bekämpar akne, samtidigt som de tar hänsyn till vuxen hud och dess särskilda behov.</p>
+<p class="p200 mt-m">Hos Acnespecialisten förstår vi vikten av individuellt anpassade hudvårdsrutiner för vuxna. Från noggranna rengöringsmetoder till skräddarsydda behandlingar som balanserar och lugnar huden, våra hudterapeuter är expertutbildade för att ge den mest effektiva och samtidigt skonsamma vård för hudproblem relaterade till vuxenakne.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Genom en specialiserad konsultation hos AcneSpecialisten kan du få en noggrann bedömning av dina tonårsfinnar och en skräddarsydd behandlingsplan. Vår expertis är inriktad på att hantera de unika utmaningarna med tonårshud.',
-
+            content: 'Med en specialiserad konsultation hos AcneSpecialisten kan du identifiera de specifika egenskaperna hos dina vuxenfinnar och få en skräddarsydd behandlingsplan. Vi är experter på att hantera de komplexa faktorer som bidrar till akne hos vuxna.',
             url_label: 'Få gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Våra behandlingar för tonårsfinnar är både säkra och effektiva, specifikt utformade för att skonsamt men effektivt ta hand om huden.',
-
+            content: 'Våra behandlingar för vuxenfinnar är skräddarsydda för att effektivt och skonsamt behandla vuxen hud. Vi erbjuder en rad olika alternativ, anpassade efter din huds specifika behov och tillstånd.',
             url_label: 'Se aknebehandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Pimples',
             url_title: 'Utforska våra skräddarsydda aknebehandlingar'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'Vi erbjuder specialanpassade hudvårdsprodukter och rutiner för tonåringar för att effektivt förebygga tonårsfinnar och upprätthålla en hälsosam hudbalans.',
-
+            content: 'För att effektivt förebygga vuxenfinnar erbjuder vi skräddarsydda hudvårdsprodukter och rutiner. Dessa är speciellt utformade för att upprätthålla en hälsosam hudbalans och förhindra nya utbrott.',
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
             url_title: 'Hitta de bästa produkterna för att förebygga akne'
       ),
       new TreatmentStep(
             title: 'Reparera',
-            content: 'Vi hjälper även till med att minska och behandla eventuella ärr eller hudförändringar orsakade av tonårsfinnar, med metoder som är både säkra och effektiva för ungdomar.',
-
+            content: 'Vi erbjuder behandlingar för att reparera huden efter vuxenfinnar utbrott, såsom att minska ärr och förbättra hudens textur. Våra metoder är effektiva för vuxen hud och skapar långsiktiga resultat.',
             url_label: 'Se ärrbehandlingar',
             url: 'behandla-finnar-arr.php',
             url_title: 'Upptäck effektiva behandlingar för akneärr'
-      ),
+        ),
 );
 
 $treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra aknebehandlingar</a>';
 
 $top_articles = array(
     'areas' => new Article(
-        title: 'Var och varför uppstår tonårsfinnar?',
+        title: 'Var och varför uppstår vuxenfinnar?',
         image_small: '',
         image_large: '',
         image_alt: '',
         image_title: '',
-        content: '<p class="p200">Tonårsfinnar uppstår ofta på grund av hormonella förändringar under tonåren, vilket kan leda till ökad talgproduktion och tilltäppta porer. Dessa förändringar påverkar vanligtvis ansiktet, men kan också förekomma på andra delar av kroppen som rygg och bröst. Hos AcneSpecialisten fokuserar vi på att noggrant analysera din hudtyp och dess specifika behov under tonåren, för att identifiera de mest effektiva behandlingsmetoderna.</p>
-            <p class="p200 mt-m">För att effektivt hantera tonårsfinnar är det viktigt att anpassa hudvårdsrutinen till tonårshudens unika egenskaper. Detta innebär att välja produkter som är skonsamma men effektiva för att undvika irritation och stödja hudens naturliga balans. Våra hudterapeuter på AcneSpecialisten erbjuder skräddarsydda råd och rekommendationer för en säker och skonsam hudvård som främjar en hälsosam hud under tonåren.</p>',
+        content: '<p class="p200">Vuxenfinnar uppstår ofta på grund av en kombination av faktorer som hormonella förändringar och stress, vilket kan leda till ökad talgproduktion och tilltäppta porer. Dessa problem påverkar vanligtvis ansiktet, men kan även förekomma på andra delar av kroppen som rygg och bröst. Hos AcneSpecialisten fokuserar vi på att noggrant analysera din hudtyp och dess specifika behov som vuxen, för att identifiera de mest effektiva behandlingsmetoderna.</p>
+            <p class="p200 mt-m">För att effektivt hantera vuxenfinnar är det viktigt att anpassa hudvårdsrutinen till vuxen hud och dess unika krav. Det innebär att välja produkter som är skonsamma men effektiva, för att undvika irritation och samtidigt stödja hudens naturliga balans. Våra hudterapeuter på AcneSpecialisten erbjuder skräddarsydda råd och rekommendationer för en säker och skonsam hudvård som främjar en hälsosam hud för vuxna.</p>',
     ),
 );
 
 $articles = array(
       new Article(
-            title: 'När ska jag söka hjälp för tonårsfinnar?',
+            title: 'När ska jag söka hjälp för vuxenfinnar?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'När ska jag söka hjälp för tonårsfinnar?',
-            image_title: 'När ska jag söka hjälp för tonårsfinnar?',
-            content: '<p class="p200">Tonårsfinnar kan vara både fysiskt och emotionellt påfrestande. Om du upplever en ökad frekvens eller svårighetsgrad av utbrott, och vanliga hudvårdsprodukter inte ger lindring, kan det vara dags att söka professionell hjälp. Det är viktigt att börja behandla finnarna så tidigt som möjligt för att undvika att ärr uppstår.</p>',
+            image_alt: 'När ska jag söka hjälp för vuxenfinnar?',
+            image_title: 'När ska jag söka hjälp för vuxenfinnar?',
+            content: '<p class="p200">Vuxenfinnar kan vara mer än bara ett kosmetiskt problem – de kan också vara en källa till fysisk och emotionell stress. Om du märker att dina finnar är ihållande eller blir värre är det dags att överväga professionell hjälp. Att hantera finnarna tidigt är avgörande för att minska risken för ärrbildning och andra långsiktiga effekter på huden. Professionell rådgivning kan inte bara hjälpa till att behandla befintliga utbrott, utan också ge insikt i förebyggande åtgärder och skräddarsydda hudvårdsrutiner.</p>',
       ),
 
       new Article(
-            title: 'Varför ska jag välja AcneSpecialisten för tonårsfinnar?',
+            title: 'Varför ska jag välja AcneSpecialisten för vuxenfinnar?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'Varför ska jag välja AcneSpecialisten för tonårsfinnar?',
-            image_title: 'Varför ska jag välja AcneSpecialisten för tonårsfinnar?',
-            content: '<p class="p200">För effektiv hantering av tonårsfinnar är AcneSpecialisten rätt val för dig. Med över 30 års erfarenhet inom hudvård och en djup förståelse för de unika ut maningarna som tonårsakne medför, erbjuder vi specialiserade lösningar för att hantera din hud på ett säkert och effektivt sätt.</p>
-            <p class="p200 mt-m">Vi erbjuder en individuellt anpassad behandlingsplan som tar hänsyn till tonårshudens specifika behov. Vi ser varje kund som en unik individ i sin hudvårdsresa och är engagerade i att hjälpa dig att uppnå och bibehålla en sund och vacker hud. Med vårt engagemang och expertis är vi det självklara valet för att ta hand om dina tonårsfinnar på bästa möjliga sätt.</p>',
+            image_alt: 'Varför ska jag välja AcneSpecialisten för vuxenfinnar?',
+            image_title: 'Varför ska jag välja AcneSpecialisten för vuxenfinnar?',
+            content: '<p class="p200">AcneSpecialisten står ut som en ledande expert inom området för vuxenfinnar. Med över 30 års erfarenhet och en djupgående förståelse för hudens komplexitet, erbjuder vi avancerade behandlingsmetoder anpassade specifikt för vuxna. Skillnaden i hudstruktur, hormonella förändringar och stress hos vuxna kräver en annorlunda tillvägagångssätt än för tonårsakne.</p>
+            <p class="p200 mt-m">Vår individuellt anpassade behandlingsplan innefattar allt från milda men effektiva rengöringsrutiner till avancerade terapier för att behandla akne och dess eftereffekter. Vi fokuserar inte bara på att behandla nuvarande hudproblem, utan också på att utbilda våra klienter om hur de kan upprätthålla en sund hudhälsa över tid. Vårt mål är att du ska känna dig självsäker och nöjd med din hud, och med vår expertis och engagemang är AcneSpecialisten det självklara valet för att ta hand om dina vuxenfinnar på bästa möjliga sätt.</p>',
       ),
 );
 
