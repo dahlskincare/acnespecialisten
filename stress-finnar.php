@@ -5,21 +5,21 @@ include_once('problem/widgets/symptom-card/symptom.php');
 include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Gravid Finnar - Förståelse, Behandling och Skötsel | Acnespecialisten';
-$seo_description = 'Utforska allt om gravid finnar – från orsaker till säker behandling och skötsel under graviditeten. Acnespecialisten ger skräddarsydda råd och lösningar.';
-$seo_keywords = 'gravid finnar, hudvård under graviditet, behandla finnar under graviditet, säker hudvård för gravida, förebygga finnar under graviditet, hormonell akne, graviditet och hudvård';
+$seo_title = 'Stress Finnar - Förståelse, Behandling och Förebyggande | Acnespecialisten';
+$seo_description = 'Utforska allt om stress finnar – deras orsaker, effektiva behandlingsmetoder och förebyggande strategier. Acnespecialisten erbjuder skräddarsydda lösningar.';
+$seo_keywords = 'stress finnar, stressrelaterad akne, behandla finnar orsakade av stress, förebygga stress finnar, hantera stressakne, hudvård vid stress';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
 $seo_image = 'bilder/problem/424x456/akne.webp';
 
-$title = 'Gravid Finnar';
+$title = 'Stress finnar';
 
 $image_small = 'bilder/problem/424x324/akne.webp';
 $image_large = 'bilder/problem/424x456/akne.webp';
-$image_title = 'Visar en hud med gravid finnar';
-$image_alt = 'Bild som illustrerar hud med gravid finnar';
-$description = 'I denna sektion förklarar vi hur gravid finnar skiljer sig från andra typer av akne, varför det uppstår under graviditeten och hur Acnespecialisten kan stödja dig med säkra behandlingar. Vi diskuterar även hormonella förändringar under graviditeten och hur de påverkar huden.';
+$image_title = 'Visar en hud med stress finnar';
+$image_alt = 'Bild som illustrerar hud påverkad av stress finnar';
+$description = 'I denna sektion förklarar vi vad stress finnar är, hur de skiljer sig från andra aknetyper, och hur Acnespecialisten kan stödja dig med effektiva behandlingar. Vi diskuterar även hur stress påverkar huden och strategier för att hantera detta.';
 
 $akas = [
       new Link(
@@ -39,30 +39,30 @@ $akas = [
       ),
 ];
 
-$floating_box = 'Behandla dina gravid finnar effektivt.';
+$floating_box = 'Behandla dina stress finnar effektivt.';
 
 $consultation_url_label = "Få gratis konsultation";
 $consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne";
-$consultation_url_title = "Gratis Konsultation för gravid finnar";
+$consultation_url_title = "Gratis Konsultation för stress finnar";
 
 $booking_url_label = "Boka behandling";
 $booking_url = "https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne";
 $booking_url_title = "Boka behandling";
 
 $mobile_consultation_url_label = "Få gratis konsultation";
-$mobile_consultation_url_title = "Gratis Konsultation för gravid finnar";
+$mobile_consultation_url_title = "Gratis Konsultation för stress finnar";
 
 $mobile_booking_url_label = "Boka behandling";
 $mobile_booking_url_title = "Boka behandling";
 
 $floating_consultation_url_label = "Få gratis konsultation";
-$floating_consultation_url_title = "Gratis Konsultation för gravid finnar";
+$floating_consultation_url_title = "Gratis Konsultation för stress finnar";
 
 $floating_booking_url_label = "Boka behandling";
 $floating_booking_url_title = "Boka behandling";
 
 $nav_buttons = array(
-      'about' => 'Om finnar',
+      'about' => 'Om stress finnar',
       'approach' => 'Metoden',
       'areas' => 'Områden',
       'articles' => 'När?',
@@ -75,14 +75,14 @@ $nav_buttons = array(
       'related-problems' => 'Relaterade problem',
 );
 
-$description_title = 'Vad är gravid finnar?';
-$description_text = '<p class="p200">Gravid finnar är en vanlig hudåkomma som drabbar kvinnor under graviditeten på grund av hormonella förändringar. Våra behandlingar fokuserar på att skonsamt rengöra och balansera huden, med särskilt hänsyn till de förändrade behoven under graviditeten. Vi erbjuder en rad säkra och anpassade behandlingsalternativ för att ta hand om huden utan att riskera moder eller barn.</p>
-<p class="p200 mt-m">Vid AcneSpecialisten förstår vi vikten av individuellt anpassade hudvårdsrutiner under graviditeten. Från milda rengöringsmetoder till återfuktande och lugnande behandlingar, våra hudterapeuter är utbildade att ge den mest skonsamma och effektiva vård för graviditetsrelaterade hudproblem.</p>';
+$description_title = 'Vad är stress finnar?';
+$description_text = '<p class="p200">stress finnar är en hudåkomma som ofta uppstår till följd av höga stressnivåer, vilket kan påverka huden genom hormonella förändringar. Våra behandlingar syftar till att skonsamt rengöra, balansera och lugna huden, med särskild inriktning på stressrelaterade hudproblem. Vi erbjuder anpassade behandlingsalternativ för att effektivt hantera finnar orsakade av stress utan att irritera huden.</p>
+<p class="p200 mt-m">Hos AcneSpecialisten förstår vi behovet av en anpassad hudvårdsrutin för att hantera stressrelaterade hudproblem. Genom att kombinera milda rengöringsmetoder med lugnande och återfuktande behandlingar, är våra hudterapeuter utrustade för att ge den mest effektiva och skonsamma vård för din stresspåverkade hud. Vi fokuserar även på att lära dig strategier för att hantera stress och dess inverkan på huden, för att förebygga framtida utbrott.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Med en specialiserad konsultation hos AcneSpecialisten kan du identifiera hur gravid finnar påverkar din hud och få en skräddarsydd behandlingsplan. Vår expertis sträcker sig till att hantera hudförändringar under graviditeten.',
+            content: 'Genom en konsultation hos AcneSpecialisten kan du få hjälp att identifiera hur stress finnar påverkar just din hud och utveckla en skräddarsydd behandlingsplan. Vi är experter på att identifiera och hantera de hudförändringar som kan uppstå på grund av stress.',
 
             url_label: 'Få gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
@@ -90,7 +90,7 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Våra behandlingar för gravid finnar är säkra och skonsamma, anpassade för att effektivt ta hand om din känsliga hud under graviditeten utan att kompromissa med säkerheten.',
+            content: 'Våra behandlingar för stress finnar är skonsamma och anpassade för att effektivt hantera de unika utmaningarna som stressrelaterade hudproblem medför. Vi använder tekniker och produkter som är effektiva mot stress finnar samtidigt som de är skonsamma mot huden.',
 
             url_label: 'Se aknebehandlingar',
             url: 'acnebehandling.php',
@@ -98,7 +98,7 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'Vi erbjuder specialanpassade hudvårdsprodukter och rutiner som är säkra under graviditeten för att effektivt förebygga gravid finnar och underhålla en sund hudbalans.',
+            content: 'Vi erbjuder skräddarsydda hudvårdsrutiner och produkter som är utformade för att förebygga uppkomsten av stress finnar och upprätthålla en hälsosam hudbalans. Detta inkluderar råd om stresshantering och livsstilsförändringar.',
 
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
@@ -106,46 +106,44 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Reparera',
-            content: 'Efter graviditeten kan vi även hjälpa till med att minska och behandla eventuella hudförändringar eller ärr som uppstått, med säkra och effektiva metoder.',
-
+            content: 'Vi kan också hjälpa till med att behandla och reducera hudförändringar eller ärr som kan ha orsakats av stress finnar, med hjälp av säkra och effektiva behandlingsmetoder. Våra metoder fokuserar på att återställa hudens naturliga utseende och lindra de långsiktiga effekterna av stress på huden.',
             url_label: 'Se ärrbehandlingar',
             url: 'behandla-acnearr.php',
             url_title: 'Upptäck effektiva behandlingar för akneärr'
-      ),
+  ),
 );
 $treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra aknebehandlingar</a>';
 
 $top_articles = array(
     'areas' => new Article(
-        title: 'Var och varför uppstår gravidfinnar?',
+        title: 'Var och varför uppstår stress finnar?',
         image_small: '',
         image_large: '',
         image_alt: '',
         image_title: '',
-        content: '<p class="p200">Gravidfinnar uppstår ofta på grund av hormonella förändringar under graviditeten, vilket kan öka hudens talgproduktion och leda till tilltäppta porer. Dessa förändringar är vanligast i ansiktet, men kan även påverka andra delar av kroppen. Vår expertis på AcneSpecialisten innebär att vi noggrant analyserar din hud och dess förändringar under graviditeten, för att identifiera de mest effektiva behandlingsmetoderna.</p>
-            <p class="p200 mt-m">För att hantera gravidfinnar effektivt är det viktigt att anpassa hudvården under graviditeten. Det inkluderar att undvika vissa hudvårdsprodukter som kan vara irriterande eller skadliga under graviditeten. Våra hudterapeuter kommer att ge dig skräddarsydda råd och rekommendationer för säker och skonsam hudvård som stödjer din huds hälsa och balans under denna speciella tid.</p>',
+        content: '<p class="p200">stress finnar uppstår ofta somen reaktion på de fysiska och hormonella förändringar som stress kan orsaka i kroppen. När vi är stressade, producerar kroppen mer androgener (en typ av hormon), vilket kan leda till ökad talgproduktion och inflammation i huden. Detta resulterar ofta i att porerna blir tilltäppta och skapar en gynnsam miljö för akne.</p>
+            <p class="p200 mt-m">stress finnar är vanliga i ansiktet, särskilt runt munnen, käken och pannan, men kan också dyka upp på kroppen. Hantering av stress finnar kräver en kombination av stresshanteringstekniker och skräddarsydd hudvård. Våra hudterapeuter på AcneSpecialisten ger råd om hur man balanserar huden med rätt produkter och behandlingar samtidigt som man implementerar livsstilsförändringar för att minska stressnivåerna.</p>',
     ),
 );
 
 $articles = array(
       new Article(
-            title: 'När ska jag söka hjälp för gravidfinnar?',
+            title: 'När ska man söka hjälp med sina stress finnar?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'När ska jag söka hjälp för gravidfinnar?',
-            image_title: 'När ska jag söka hjälp för gravidfinnar?',
-            content: '<p class="p200">Gravidfinnar kan vara både fysiskt och emotionellt påfrestande. Om du upplever en ökad frekvens eller svårighetsgrad av utbrott under graviditeten, och vanliga hudvårdsprodukter inte ger lindring, kan det vara läge att söka professionell hjälp.</p>
-            <p class="p200 mt-m">En konsultation med en hudspecialist kan ge dig en skräddarsydd behandlingsplan som tar hänsyn till de unika behoven och utmaningarna med hudvård under graviditeten. Våra experter kan analysera din hudtyp, diskutera de specifika utmaningarna med gravidfinnar och rekommendera säkra och effektiva behandlingsmetoder.</p>',
+            image_alt: 'När ska man söka hjälp med sina stress finnar?',
+            image_title: 'När ska man söka hjälp med sina stress finnar?',
+            content: '<p class="p200">Stress finnar kan vara en stor utmaning och påverka både hudens tillstånd och ditt emotionella välbefinnande. Om du märker att din hud reagerar starkt på stress, med ökad akneaktivitet, och de vanliga hudvårdsprodukterna inte ger önskad effekt, är det viktigt att överväga professionell hjälp. En konsultation hos en hudterapeut kan erbjuda skräddarsydda lösningar.</p>',
       ),
 
       new Article(
-            title: 'Varför ska jag välja AcneSpecialisten för gravidfinnar?',
+            title: 'Varför ska jag välja AcneSpecialisten för behandling av stress finnar?',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'Varför ska jag välja AcneSpecialisten för gravidfinnar?',
-            image_title: 'Varför ska jag välja AcneSpecialisten för gravidfinnar?',
-            content: '<p class="p200">När det gäller att hantera gravidfinnar, är AcneSpecialisten experten du kan lita på. Med över 30 års erfarenhet inom hudvård och en djup förståelse för de unika utmaningarna som graviditet kan medföra för huden, erbjuder vi specialiserade lösningar för att hantera din hud på ett säkert och effektivt sätt under denna speciella tid.</p>
-            <p class="p200 mt-m">Med en individuellt anpassad behandlingsplan och stöd genom hela din graviditet. Vi ser dig som en partner i din hudvårdsresa under graviditeten och är engagerade i att hjälpa dig att uppnå och bibehålla en sund och vacker hud. Med vårt engagemang och kunskap är vi det självklara valet för att ta hand om dina gravidfinnar på bästa möjliga sätt.</p>',
+            image_alt: 'Varför ska jag välja AcneSpecialisten för behandling av stress finnar?',
+            image_title: 'Varför ska jag välja AcneSpecialisten för behandling av stress finnar?',
+            content: '<p class="p200">Att hantera stress finnar kräver expertis och en förståelse för hur stress påverkar huden. Hos AcneSpecialisten är vi specialiserade på att hantera just denna typ av hudproblem. Med över 30 års erfarenhet och en djupgående förståelse för stressrelaterade hudtillstånd, erbjuder vi behandlingsmetoder som är både säkra och effektiva.</p
+            <p class="p200 mt-m">Vår individuellt anpassade behandlingsplan tar hänsyn till dina unika hudbehov. Vi ser varje kund som en unik individ och strävar efter att erbjuda personligt anpassad vård och stöd. Vår expertis och engagemang gör oss till det självklara valet för att hantera dina stress finnar och hjälpa dig att återfå en hälsosam och strålande hud.</p>',
       ),
 );
 

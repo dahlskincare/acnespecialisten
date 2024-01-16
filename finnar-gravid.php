@@ -62,7 +62,7 @@ $floating_booking_url_label = "Boka behandling";
 $floating_booking_url_title = "Boka behandling";
 
 $nav_buttons = array(
-      'about' => 'Om finnar',
+      'about' => 'Om gravid finnar',
       'approach' => 'Metoden',
       'areas' => 'Områden',
       'articles' => 'När?',
