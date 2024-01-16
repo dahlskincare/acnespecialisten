@@ -28,7 +28,7 @@
                 <?php foreach ($service->icons as $key => $label) { ?>
                     <div class="service-card-icon">
                         <?php icon($key) ?>
-                        <span><?php echo $label ?></span>
+                        <div><?php echo $label ?></div>
                     </div>
                 <?php } ?>
             </div>
