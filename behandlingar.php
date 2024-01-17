@@ -139,7 +139,7 @@ $people_search_for = array(
 
 $service_categories = array(
     new ServiceCategory(
-        url: 'ansiktsbehandlingar-problemhy.php',
+        url: 'behandlingar/ansiktsbehandlingar-problemhy',
         label: 'Ansiktsbehandlingar mot problemhy',
         content: 'Dessa ansiktsbehandlingar är specialutformade för att ta itu med problemhy, såsom acne, rosacea och blandhy. Genom att använda noggrant utvalda produkter och tekniker, hjälper dessa behandlingar till att rengöra, lugna och återställa huden, samtidigt som de förebygger framtida hudproblem.',
         image_small: 'bilder/behandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
@@ -268,7 +268,7 @@ $service_categories = array(
         consultation_url_label: 'Boka hudkonsultation'
     ),
     new ServiceCategory(
-        url: 'dermabrasion.php',
+        url: 'behandlingar/dermabrasion',
         label: 'Dermabrasion',
         content: 'Microdermabrasion är en icke-invasiv behandling som använder mikrokristaller för att försiktigt exfoliera hudens yttre lager. Denna process främjar hudens förnyelse, minskar fina linjer, och ger en jämnare hudton och textur.',
         image_small: 'bilder/behandlingar/200x200/dermabrasion.webp',
@@ -323,7 +323,7 @@ $service_categories = array(
         consultation_url_label: 'Boka hudkonsultation'
     ),
     new ServiceCategory(
-        url: 'behandlingar/frysbehandling.ph',
+        url: 'behandlingar/frysbehandling',
         label: 'Frysbehandling',
         content: 'Frysbehandling, eller kryoterapi, innebär att man använder extrema kyla för att behandla olika hudproblem, inklusive födelsemärken och fibrom.',
         image_small: 'bilder/behandlingar/200x200/frysbehandling.webp',
@@ -359,7 +359,7 @@ $service_categories = array(
         consultation_url_label: 'Boka hudkonsultation'
     ),
     new ServiceCategory(
-        url: 'behandlingar/ipl',
+        url: 'ipl.php',
         label: 'IPL',
         content: 'IPL-behandlingar använder intensivt pulserande ljus för att behandla en rad hudproblem, inklusive pigmentfläckar, ytliga blodkärl och rosacea. Denna teknik kan också förbättra hudens övergripande textur och ton.',
         image_small: 'bilder/behandlingar/200x200/ipl.webp',
