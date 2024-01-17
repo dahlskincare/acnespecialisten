@@ -5,21 +5,21 @@ include_once('problem/widgets/symptom-card/symptom.php');
 include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Finnar i Ansiktet: Orsaker, Behandling och Vård | Acnespecialisten';
-$seo_description = 'Upptäck orsaker till och effektiva behandlingsstrategier för finnar i ansiktet för alla åldrar. Acnespecialisten erbjuder experttips och personligt anpassade lösningar.';
-$seo_keywords = 'finnar i ansiktet';
+$seo_title = 'Bekämpa Finnar på Bröstet: Experttips och Behandling | Acnespecialisten';
+$seo_description = 'Utforska skräddarsydda metoder för att hantera finnar på bröstet med Acnespecialisten. Få insikt i orsaker och specialanpassade behandlingsalternativ för varje hudtyp.';
+$seo_keywords = 'bekämpa finnar på bröstet';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
 $seo_image = 'bilder/problem/424x456/akne.webp';
 
-$title = 'Finnar i ansiktet';
+$title = 'Finnar på bröstet';
 
 $image_small = 'bilder/problem/424x324/akne.webp';
 $image_large = 'bilder/problem/424x456/akne.webp';
-$image_title = 'Visar en hud med finnar i ansiktet';
-$image_alt = 'Bild som visar hudproblem med finnar i ansiktet';
-$description = 'Denna sektion ger en ingående titt på finnar i ansiktet, dess huvudsakliga orsaker som hormonella förändringar, stress och andra faktorer, samt hur Acnespecialisten erbjuder målinriktade behandlingar för detta hudtillstånd. Dessutom delar vi med oss av skräddarsydda hudvårdsråd lämpliga för personer i alla åldersgrupper.';
+$image_title = 'Visar en hud med finnar på bröstet';
+$image_alt = 'Bild av hudproblem med finnar på bröstet';
+$description = 'I denna sektion utforskar vi djupare finnar på bröstet - deras vanligaste orsaker som hormonella faktorer och stress, och hur Acnespecialisten ger målmedvetna behandlingar för att effektivt hantera detta hudproblem. Vi delar också med oss av personligt anpassade hudvårdsråd för personer i alla åldersgrupper.';
 
 $akas = [
       new Link(
@@ -39,30 +39,30 @@ $akas = [
       ),
 ];
 
-$floating_box = 'Behandla dina finnar i ansiktet effektivt.';
+$floating_box = 'Behandla dina finnar på bröstet effektivt.';
 
 $consultation_url_label = "Få gratis konsultation";
 $consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples";
-$consultation_url_title = "Gratis Konsultation för finnar i ansiktet";
+$consultation_url_title = "Gratis Konsultation för finnar på bröstet";
 
 $booking_url_label = "Boka behandling";
 $booking_url = "https://acnespecialisten.se/book?flow=problem&problem=Problem_Pimples";
 $booking_url_title = "Boka behandling";
 
 $mobile_consultation_url_label = "Få gratis konsultation";
-$mobile_consultation_url_title = "Gratis Konsultation för finnar i ansiktet";
+$mobile_consultation_url_title = "Gratis Konsultation för finnar på bröstet";
 
 $mobile_booking_url_label = "Boka behandling";
 $mobile_booking_url_title = "Boka behandling";
 
 $floating_consultation_url_label = "Få gratis konsultation";
-$floating_consultation_url_title = "Gratis Konsultation för finnar i ansiktet";
+$floating_consultation_url_title = "Gratis Konsultation för finnar på bröstet";
 
 $floating_booking_url_label = "Boka behandling";
 $floating_booking_url_title = "Boka behandling";
 
 $nav_buttons = array(
-      'about' => 'Om finnar i ansiktet',
+      'about' => 'Om finnar på bröstet',
       'approach' => 'Metoden',
       'areas' => 'Områden',
       'articles' => 'När?',
@@ -75,75 +75,72 @@ $nav_buttons = array(
       'related-problems' => 'Relaterade problem',
 );
 
-$description_title = 'Finnar i Ansiktet: Orsaker och Behandlingar';
-$description_text = '<p class="p200">Finnar i ansiktet är en hudutmaning som inte enbart drabbar tonåringar utan även individer i alla åldrar, ofta påverkat av faktorer som hormonella förändringar, stress och livsstil. På Acnespecialisten inriktar vi oss på att noggrant rengöra och balansera huden med metoder som är lämpliga för olika åldrar och hudtyper. Vi erbjuder ett brett utbud av anpassade behandlingar som aktivt bekämpar finnar och är skonsamma mot huden.</p>
-<p class="p200 mt-m">Vår expertis på Acnespecialisten innefattar skräddarsydda hudvårdsprogram som möter de unika behoven hos varje individ. Från precisa rengöringsstrategier till specialanpassade behandlingar som vårdar och lugnar, är våra hudterapeuter utrustade med kunskap och färdigheter för att erbjuda den mest effektiva och samtidigt skonsamma vård för alla typer av hudproblem.</p>';
+$description_title = 'Information om finnar på bröstet';
+$description_text = '<p class="p200">Finnar på bröstet kan påverka personer i alla åldrar, ofta som ett resultat av hormonella förändringar och stress. Hos Acnespecialisten fokuserar vi på att djuprengöra och återställa balansen i huden med metoder som passar olika åldersgrupper och hudtyper. Vårt utbud av skräddarsydda behandlingar är utformade för att aktivt motverka finnar samtidigt som de är milda mot huden.</p>
+<p class="p200 mt-m">På Acnespecialisten har vi expertis inom individanpassade hudvårdsprogram som svarar mot varje klients unika behov. Från noggranna rengöringsrutiner till specialutformade behandlingar som vårdar och lugnar, våra hudterapeuter har den nödvändiga kunskapen och erfarenheten för att ge den mest effektiva och skonsamma behandlingen för alla typer av hudproblem.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Med en specialiserad konsultation hos AcneSpecialisten kan du identifiera de specifika egenskaperna hos dina finnar i ansiktet och få en skräddarsydd behandlingsplan. Vi är experter på att hantera de komplexa faktorer som bidrar till finnar.',
+            content: 'Genom en personlig konsultation hos AcneSpecialisten kartlägger vi de unika egenskaperna hos dina finnar på bröstet. Du får en individanpassad behandlingsplan baserad på vår expertis om finnar.',
             url_label: 'Få gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Våra behandlingar för finnar i ansiktet är skräddarsydda för att effektivt behandla huden. Vi erbjuder en rad olika alternativ, anpassade efter din huds specifika behov och tillstånd.',
+            content: 'Våra behandlingar mot finnar på bröstet är noggrant anpassade för finnar på bröstet och fokuserar på både effektivitet och skonsamhet. Vi erbjuder en mängd olika alternativ, specialutformade för din huds behov och kondition.',
             url_label: 'Se finnarbehandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Pimples',
-            url_title: 'Utforska våra skräddarsydda finnarbehandlingar'
+            url_title: 'Utforska våra anpassade finnarbehandlingar'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'För att effektivt förebygga finnar i ansiktet erbjuder vi skräddarsydda hudvårdsprodukter och rutiner. Dessa är speciellt utformade för att upprätthålla en hälsosam hudbalans och förhindra nya utbrott.',
+            content: 'För att motverka finnar på bröstet erbjuder vi specialutvecklade hudvårdsprodukter och rutiner. Dessa är framtagna för att bibehålla en sund hudbalans och förebygga framtida utbrott.',
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
             url_title: 'Hitta de bästa produkterna för att förebygga finnar'
       ),
       new TreatmentStep(
             title: 'Reparera',
-            content: 'Vi erbjuder behandlingar för att reparera huden efter utbrott av finnar i ansiktet, såsom att minska ärr och förbättra hudens textur. Våra metoder är effektiva för finnar i ansiktet skapar långsiktiga resultat.',
+            content: 'Vi erbjuder behandlingar som fokuserar på att reparera huden efter finnar på bröstet, inklusive att reducera ärr och förbättra hudens struktur. Våra metoder är särskilt anpassade för finnar på bröstet och ger långvariga resultat.',
             url_label: 'Se ärrbehandlingar',
             url: 'behandla-finnar-arr.php',
             url_title: 'Upptäck effektiva behandlingar för ärr från finnar'
       ),
 );
 
-$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva abehandlingar mot finnar i ansiktet" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot finnar</a>';
+$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar mot finnar på bröstet" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot finnar</a>';
 
 $top_articles = array(
     'areas' => new Article(
-        title: 'Varför uppstår finnar i ansiktet?',
+        title: 'Varför uppstår finnar på bröstet?',
         image_small: '',
         image_large: '',
         image_alt: '',
         image_title: '',
-        content: '<p class="p200">Finnar i ansiktet kan ofta uppstå som ett resultat av flera samverkande faktorer. Hormonella förändringar kan orsaka en ökad produktion av talg, vilket i sin tur kan leda till tilltäppta porer. Stress är en annan bidragande faktor som kan förvärra tillståndet. Även om finnar främst uppträder i ansiktet, är det inte ovanligt att de även dyker upp på andra delar av kroppen som rygg och bröst. På AcneSpecialisten lägger vi stor vikt vid att förstå din unika hudtyp och dess behov, för att kunna erbjuda de mest effektiva behandlingsalternativen för finnar i ansiktet.</p>
-            <p class="p200 mt-m">Att hantera finnar i ansiktet kräver en hudvårdsrutin som är anpassad till de specifika kraven som finnar i ansiktet har. Det är viktigt att välja hudvårdsprodukter som är både skonsamma och effektiva, för att minska irritation samtidigt som hudens naturliga balans stöds. På AcneSpecialisten finns våra erfarna hudterapeuter redo att ge personliga råd och rekommendationer för att skapa en hudvårdsrutin som främjar en frisk och balanserad hud för ansiktet.</p>',
+        content: '<p class="p200">Finnar på bröstet beror ofta på en kombination av faktorer. Hormonella förändringar kan leda till ökad talgproduktion och därmed tilltäppta porer. Stress kan också spela en stor roll genom att förvärra hudtillståndet. Även om finnarna vanligtvis koncentreras till bröstet, är det inte ovanligt att de sprider sig till andra områden som ryggen. Hos AcneSpecialisten tar vi hänsyn till din unika hudtyp och dess behov för att erbjuda skräddarsydda behandlingar som är effektiva för finnar på bröstet.</p>
+      <p class="p200 mt-m">En skräddarsydd hudvårdsrutin är avgörande för att hantera finnar på bröstet, särskilt för finnar på bröstet. Att välja produkter som är både milda och effektiva är viktigt för att minska irritation och samtidigt stödja hudens naturliga balans. På AcneSpecialisten står våra kunniga hudterapeuter redo att ge personlig vägledning och rekommendationer, för att hjälpa dig utveckla en hudvårdsrutin som främjar en sund och välmående hud.</p>',
     ),
 );
 
 $articles = array(
       new Article(
-            title: 'När ska jag söka hjälp för finnar i ansiktet?',
+            title: 'Viktiga tecken på att du bör söka hjälp för finnar på bröstet',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'När ska jag söka hjälp för finnar i ansiktet?',
-            image_title: 'När ska jag söka hjälp för finnar i ansiktet?',
-            content: '<p class="p200">finnar i ansiktet kan vara mer än bara ett kosmetiskt problem – de kan också vara en källa till fysisk och emotionell stress. Om du märker att dina finnar är ihållande eller blir värre är det dags att överväga professionell hjälp. Att hantera finnarna tidigt är avgörande för att minska risken för ärrbildning och andra långsiktiga effekter på huden. Professionell rådgivning kan inte bara hjälpa till att behandla befintliga utbrott, utan också ge insikt i förebyggande åtgärder och skräddarsydda hudvårdsrutiner.</p>',
+            image_alt: 'Tecken på att söka hjälp för bröstfinnar',
+            image_title: 'Tecken på att söka hjälp för bröstfinnar',
+            content: '<p class="p200">Finnar på bröstet kan vara mer än bara ett estetiskt problem – de kan även vara en källa till obehag och emotionell oro. Om du upptäcker att dina finnar är återkommande eller försämras, är det dags att överväga professionell hjälp. Tidig intervention är viktig för att förhindra ärrbildning och andra långsiktiga hudproblem. Genom att söka professionell rådgivning kan du få hjälp med att behandla befintliga utbrott och lära dig förebyggande strategier och skapa en effektiv hudvårdsrutin.</p>',
       ),
-
-      new Article(
-            title: 'Varför ska jag välja AcneSpecialisten för finnar i ansiktet?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'Varför ska jag välja AcneSpecialisten för finnar i ansiktet?',
-            image_title: 'Varför ska jag välja AcneSpecialisten för finnar i ansiktet?',
-            content: '<p class="p200">Vi på AcneSpecialisten har behandlat finnar i ansiktet i över 30 års erfarenhet. Vår unika expertis i hudens komplexitet ger oss möjligheten att erbjuda skräddarsydda behandlingsmetoder.</p>
-            <p class="p200 mt-m">På AcneSpecialisten skapar vi en personligt anpassad behandlingsplan för varje kund. Vi engagerar oss inte endast i att lindra dina nuvarande hudproblem, utan också i att undervisa dig i hur du kan bevara en långsiktigt problemfri. Vårt engagemang och vår expertis gör oss till det uppenbara valet för den som söker en varaktig lösning på problem med finnar i ansiktet, och vårt mål är att du ska känna dig trygg och nöjd med din hudvård.</p>',
-      ),
-);
+  new Article(
+        title: 'Varför välja AcneSpecialisten för behandling av finnar på bröstet?',
+        image_small: 'https://via.placeholder.com/358x272.webp',
+        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_alt: 'Anledningar att välja AcneSpecialisten för bröstfinnar',
+        image_title: 'Anledningar att välja AcneSpecialisten för bröstfinnar',
+        content: '<p class="p200">Vår expertis möjliggör skräddarsydda behandlingsplaner anpassade till varje individs unika behov. På AcneSpecialisten fokuserar vi inte bara på att behandla dina nuvarande hudproblem, utan också på att utbilda dig i hur du kan bibehålla en hälsosam hud på lång sikt. Vårt engagemang och vår kunskap gör oss till det bästa valet för dem som söker en varaktig lösning på sina hudproblem, och vi strävar efter att du ska känna dig säker och nöjd med din hudvård.</p>',
+  ),
 
 $results = array(
       new ResultCustomer(

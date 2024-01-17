@@ -5,21 +5,21 @@ include_once('problem/widgets/symptom-card/symptom.php');
 include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Finnar i Ansiktet: Orsaker, Behandling och Vård | Acnespecialisten';
-$seo_description = 'Upptäck orsaker till och effektiva behandlingsstrategier för finnar i ansiktet för alla åldrar. Acnespecialisten erbjuder experttips och personligt anpassade lösningar.';
-$seo_keywords = 'finnar i ansiktet';
+$seo_title = 'Behandla Finnar på Ryggen: Experttips från Acnespecialisten';
+$seo_description = 'Utforska orsaker och skräddarsydda behandlingar för finnar på ryggen med Acnespecialisten. Vi erbjuder anpassade lösningar för alla åldrar.';
+$seo_keywords = 'finnar på ryggen';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
 $seo_image = 'bilder/problem/424x456/akne.webp';
 
-$title = 'Finnar i ansiktet';
+$title = 'Finnar på ryggen';
 
 $image_small = 'bilder/problem/424x324/akne.webp';
 $image_large = 'bilder/problem/424x456/akne.webp';
-$image_title = 'Visar en hud med finnar i ansiktet';
-$image_alt = 'Bild som visar hudproblem med finnar i ansiktet';
-$description = 'Denna sektion ger en ingående titt på finnar i ansiktet, dess huvudsakliga orsaker som hormonella förändringar, stress och andra faktorer, samt hur Acnespecialisten erbjuder målinriktade behandlingar för detta hudtillstånd. Dessutom delar vi med oss av skräddarsydda hudvårdsråd lämpliga för personer i alla åldersgrupper.';
+$image_title = 'Visar en hud med finnar på ryggen';
+$image_alt = 'Bild som visar hudproblem med finnar på ryggen';
+$description = 'Denna sektion utforskar finnar på ryggen, deras vanligaste orsaker som hormonella förändringar och stress, samt AcneSpecialistens specialanpassade behandlingsmetoder för detta hudproblem. Vi delar också med oss av individuellt anpassade hudvårdsråd för alla åldersgrupper.';
 
 $akas = [
       new Link(
@@ -39,30 +39,30 @@ $akas = [
       ),
 ];
 
-$floating_box = 'Behandla dina finnar i ansiktet effektivt.';
+$floating_box = 'Behandla dina finnar på ryggen effektivt.';
 
 $consultation_url_label = "Få gratis konsultation";
 $consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples";
-$consultation_url_title = "Gratis Konsultation för finnar i ansiktet";
+$consultation_url_title = "Gratis Konsultation för finnar på ryggen";
 
 $booking_url_label = "Boka behandling";
 $booking_url = "https://acnespecialisten.se/book?flow=problem&problem=Problem_Pimples";
 $booking_url_title = "Boka behandling";
 
 $mobile_consultation_url_label = "Få gratis konsultation";
-$mobile_consultation_url_title = "Gratis Konsultation för finnar i ansiktet";
+$mobile_consultation_url_title = "Gratis Konsultation för finnar på ryggen";
 
 $mobile_booking_url_label = "Boka behandling";
 $mobile_booking_url_title = "Boka behandling";
 
 $floating_consultation_url_label = "Få gratis konsultation";
-$floating_consultation_url_title = "Gratis Konsultation för finnar i ansiktet";
+$floating_consultation_url_title = "Gratis Konsultation för finnar på ryggen";
 
 $floating_booking_url_label = "Boka behandling";
 $floating_booking_url_title = "Boka behandling";
 
 $nav_buttons = array(
-      'about' => 'Om finnar i ansiktet',
+      'about' => 'Om finnar på ryggen',
       'approach' => 'Metoden',
       'areas' => 'Områden',
       'articles' => 'När?',
@@ -75,73 +75,73 @@ $nav_buttons = array(
       'related-problems' => 'Relaterade problem',
 );
 
-$description_title = 'Finnar i Ansiktet: Orsaker och Behandlingar';
-$description_text = '<p class="p200">Finnar i ansiktet är en hudutmaning som inte enbart drabbar tonåringar utan även individer i alla åldrar, ofta påverkat av faktorer som hormonella förändringar, stress och livsstil. På Acnespecialisten inriktar vi oss på att noggrant rengöra och balansera huden med metoder som är lämpliga för olika åldrar och hudtyper. Vi erbjuder ett brett utbud av anpassade behandlingar som aktivt bekämpar finnar och är skonsamma mot huden.</p>
-<p class="p200 mt-m">Vår expertis på Acnespecialisten innefattar skräddarsydda hudvårdsprogram som möter de unika behoven hos varje individ. Från precisa rengöringsstrategier till specialanpassade behandlingar som vårdar och lugnar, är våra hudterapeuter utrustade med kunskap och färdigheter för att erbjuda den mest effektiva och samtidigt skonsamma vård för alla typer av hudproblem.</p>';
+$description_title = 'Finnar på Ryggen: Förståelse och Anpassade Behandlingar';
+$description_text = '<p class="p200">Finnar på ryggen är ett vanligt hudproblem som drabbar personer i alla åldrar, ofta relaterat till faktorer såsom hormonella förändringar, stress och specifika livsstilsval. Acnespecialisten är dedikerad till att noggrant rengöra och balansera huden, med behandlingsmetoder anpassade för olika åldersgrupper och hudtyper. Vi erbjuder ett brett spektrum av behandlingar som effektivt hanterar akne samtidigt som de är skonsamma mot huden.</p>
+
+<p class="p200 mt-m">På Acnespecialisten har vi specialiserat oss på att utforma individuella hudvårdsprogram som uppfyller varje klients specifika behov. Våra strategier sträcker sig från noggranna rengöringsmetoder till specifika behandlingar som både vårdar och lugnar. Vårt team av hudterapeuter har både kunskapen och erfarenheten för att erbjuda effektiv och samtidigt skonsam vård för alla typer av hudåkommor.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Med en specialiserad konsultation hos AcneSpecialisten kan du identifiera de specifika egenskaperna hos dina finnar i ansiktet och få en skräddarsydd behandlingsplan. Vi är experter på att hantera de komplexa faktorer som bidrar till finnar.',
+            content: 'I en personlig konsultation hos AcneSpecialisten kartlägger vi de unika dragen hos dina finnar på ryggen och tar fram en behandlingsplan skräddarsydd för dig. Vår expertis ligger i att förstå och hantera de mångfacetterade orsakerna till finnar på ryggen.',
             url_label: 'Få gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Våra behandlingar för finnar i ansiktet är skräddarsydda för att effektivt behandla huden. Vi erbjuder en rad olika alternativ, anpassade efter din huds specifika behov och tillstånd.',
+            content: 'Vi erbjuder målinriktade behandlingar för finnar på ryggen, skräddarsydda för att effektivt hantera ditt hudtillstånd. Vårt utbud av behandlingsalternativ är anpassat till din huds unika behov och kondition.',
             url_label: 'Se finnarbehandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Pimples',
-            url_title: 'Utforska våra skräddarsydda finnarbehandlingar'
+            url_title: 'Utforska våra specialanpassade finnarbehandlingar'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'För att effektivt förebygga finnar i ansiktet erbjuder vi skräddarsydda hudvårdsprodukter och rutiner. Dessa är speciellt utformade för att upprätthålla en hälsosam hudbalans och förhindra nya utbrott.',
+            content: 'Vi tillhandahåller skräddarsydda hudvårdsprodukter och rutiner för att effektivt förebygga framtida utbrott av finnar på ryggen. Dessa produkter är utvecklade för att bevara en sund hudbalans och förhindra nya finnar.',
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
-            url_title: 'Hitta de bästa produkterna för att förebygga finnar'
+            url_title: 'Hitta de bästa produkterna för att förebygga finnar på ryggen'
       ),
       new TreatmentStep(
             title: 'Reparera',
-            content: 'Vi erbjuder behandlingar för att reparera huden efter utbrott av finnar i ansiktet, såsom att minska ärr och förbättra hudens textur. Våra metoder är effektiva för finnar i ansiktet skapar långsiktiga resultat.',
+            content: 'För att återställa huden efter finnar på ryggen erbjuder vi behandlingar som minskar ärr och förbättrar hudtexturen. Dessa metoder är speciellt effektiva för finnar på ryggen och skapar varaktiga förbättringar.',
             url_label: 'Se ärrbehandlingar',
             url: 'behandla-finnar-arr.php',
-            url_title: 'Upptäck effektiva behandlingar för ärr från finnar'
+            url_title: 'Upptäck effektiva behandlingar för ärr från finnar på ryggen'
       ),
 );
 
-$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva abehandlingar mot finnar i ansiktet" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot finnar</a>';
+$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar mot finnar på ryggen" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot finnar på ryggen</a>';
 
 $top_articles = array(
     'areas' => new Article(
-        title: 'Varför uppstår finnar i ansiktet?',
+        title: 'Varför uppstår finnar på ryggen?',
         image_small: '',
         image_large: '',
         image_alt: '',
         image_title: '',
-        content: '<p class="p200">Finnar i ansiktet kan ofta uppstå som ett resultat av flera samverkande faktorer. Hormonella förändringar kan orsaka en ökad produktion av talg, vilket i sin tur kan leda till tilltäppta porer. Stress är en annan bidragande faktor som kan förvärra tillståndet. Även om finnar främst uppträder i ansiktet, är det inte ovanligt att de även dyker upp på andra delar av kroppen som rygg och bröst. På AcneSpecialisten lägger vi stor vikt vid att förstå din unika hudtyp och dess behov, för att kunna erbjuda de mest effektiva behandlingsalternativen för finnar i ansiktet.</p>
-            <p class="p200 mt-m">Att hantera finnar i ansiktet kräver en hudvårdsrutin som är anpassad till de specifika kraven som finnar i ansiktet har. Det är viktigt att välja hudvårdsprodukter som är både skonsamma och effektiva, för att minska irritation samtidigt som hudens naturliga balans stöds. På AcneSpecialisten finns våra erfarna hudterapeuter redo att ge personliga råd och rekommendationer för att skapa en hudvårdsrutin som främjar en frisk och balanserad hud för ansiktet.</p>',
+        content: '<p class="p200">Finnar på ryggen kan ofta uppstå genom en samverkan av flera faktorer, inklusive hormonella förändringar som ökar talgproduktionen och leder till tilltäppta porer. En annan betydande bidragande faktor är stress, som kan förvärra hudens tillstånd. Dessutom kan friktion från kläder och sportutrustning, som till exempel skydd vid hockey, skapa ett miljö som främjar utvecklingen av finnar genom ökad svettning och irritation av huden. Även om finnar främst uppträder på ryggen, är det inte ovanligt att de också dyker upp på andra kroppsområden som bröstet. På AcneSpecialisten betonar vi vikten av att förstå din specifika hudtyp och dess behov för att kunna erbjuda de mest effektiva behandlingsalternativen för finnar på ryggen.</p>
+            <p class="p200 mt-m">För att effektivt hantera finnar på ryggen är det viktigt att anpassa hudvårdsrutinen till de särskilda utmaningarna som denna typ av finnar innebär. Det är viktigt att välja hudvårdsprodukter som är både skonsamma och effektiva, för att minska irritation och samtidigt upprätthålla hudens naturliga balans. Hos AcneSpecialisten är våra erfarna hudterapeuter redo att ge dig personliga råd och rekommendationer för att skapa en hudvårdsrutin som främjar en hälsosam och balanserad hud, och tar hänsyn till de unika förhållanden som finnar på ryggen kräver.</p>',
     ),
 );
 
 $articles = array(
       new Article(
-            title: 'När ska jag söka hjälp för finnar i ansiktet?',
+            title: 'Tecken på att det är dags att söka hjälp för finnar på ryggen',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'När ska jag söka hjälp för finnar i ansiktet?',
-            image_title: 'När ska jag söka hjälp för finnar i ansiktet?',
-            content: '<p class="p200">finnar i ansiktet kan vara mer än bara ett kosmetiskt problem – de kan också vara en källa till fysisk och emotionell stress. Om du märker att dina finnar är ihållande eller blir värre är det dags att överväga professionell hjälp. Att hantera finnarna tidigt är avgörande för att minska risken för ärrbildning och andra långsiktiga effekter på huden. Professionell rådgivning kan inte bara hjälpa till att behandla befintliga utbrott, utan också ge insikt i förebyggande åtgärder och skräddarsydda hudvårdsrutiner.</p>',
+            image_alt: 'Tecken på att det är dags att söka hjälp för finnar på ryggen',
+            image_title: 'Tecken på att det är dags att söka hjälp för finnar på ryggen',
+            content: '<p class="p200">Finnar på ryggen kan vara mer än ett estetiskt bekymmer - de kan också vara en källa till både fysiskt och emotionellt obehag. Om dina finnar är ihållande eller förvärras, kan det vara dags att söka professionell hjälp. Tidig behandling är central för att förebygga ärrbildning och andra bestående effekter på huden. Genom att söka professionell rådgivning får du inte bara hjälp med att behandla nuvarande utbrott, utan även värdefulla insikter i förebyggande metoder och anpassade hudvårdsrutiner.</p>',
       ),
 
       new Article(
-            title: 'Varför ska jag välja AcneSpecialisten för finnar i ansiktet?',
+            title: 'Anledningar att välja AcneSpecialisten för behandling av finnar på ryggen',
             image_small: 'https://via.placeholder.com/358x272.webp',
             image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'Varför ska jag välja AcneSpecialisten för finnar i ansiktet?',
-            image_title: 'Varför ska jag välja AcneSpecialisten för finnar i ansiktet?',
-            content: '<p class="p200">Vi på AcneSpecialisten har behandlat finnar i ansiktet i över 30 års erfarenhet. Vår unika expertis i hudens komplexitet ger oss möjligheten att erbjuda skräddarsydda behandlingsmetoder.</p>
-            <p class="p200 mt-m">På AcneSpecialisten skapar vi en personligt anpassad behandlingsplan för varje kund. Vi engagerar oss inte endast i att lindra dina nuvarande hudproblem, utan också i att undervisa dig i hur du kan bevara en långsiktigt problemfri. Vårt engagemang och vår expertis gör oss till det uppenbara valet för den som söker en varaktig lösning på problem med finnar i ansiktet, och vårt mål är att du ska känna dig trygg och nöjd med din hudvård.</p>',
+            image_alt: 'Anledningar att välja AcneSpecialisten för behandling av finnar på ryggen',
+            image_title: 'Anledningar att välja AcneSpecialisten för behandling av finnar på ryggen',
+            content: '<p class="p200">Vi på AcneSpecialisten utformar individuellt anpassade behandlingsplaner för varje kund. Vår målsättning är inte bara att lindra dina aktuella hudproblem, utan även att ge dig kunskapen att upprätthålla en hälsosam hud över tid. Vårt engagemang och expertis gör oss till det självklara valet för dem som söker långsiktiga lösningar på finnar på ryggen, och vi strävar efter att du ska känna dig trygg och tillfreds med din hudvård.</p>',
       ),
 );
 
