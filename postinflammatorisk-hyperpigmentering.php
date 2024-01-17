@@ -66,8 +66,9 @@ $nav_buttons = array(
 );
 
 $description_title = 'Om Postinflammatorisk Hyperpigmentering';
-$description_text = '<p class="p200">Postinflammatorisk hyperpigmentering är mörkare hudområden som uppstår efter en inflammation, såsom akne, och är resultatet av en överproduktion av melanin. Detta tillstånd kan visa sig som fläckar eller större områden av missfärgning på huden.</p>
-<p class="p200 mt-m">På Acnespecialisten erbjuder vi olika behandlingsalternativ för postinflammatorisk hyperpigmentering, inklusive speciella ljusbehandlingar och kemiska peelingar. Dessa behandlingar syftar till att jämna ut hudtonen och minska synligheten av missfärgning. Våra erfarna hudterapeuter anpassar varje behandlingsplan till dina individuella behov och arbetar för att hjälpa dig att uppnå en klarare och mer jämn hudton.</p>';
+$description_text = '<p class="p200">Postinflammatorisk hyperpigmentering (PIH) uppstår när huden producerar mer melanin, hudens naturliga pigment, som svar på vissa inflammatoriska tillstånd såsom akne. PIH visar sig som mörkare fläckar eller partier på huden och kan variera i färg från ljusbrun till nästan svart, beroende på din hudton och inflammationens intensitet.</p>
+<p class="p200 mt-m">På Acnespecialisten fokuserar vi på att behandla och minska synligheten av postinflammatorisk hyperpigmentering genom individuellt anpassade metoder. Våra behandlingar, som ljusbehandlingar och kemiska peelingar, är utformade för att jämna ut hudtonen och främja en mer enhetlig hudfärg, med målet att ge dig en klarare och mer jämn hudton.</p>';
+
 
 $treatment_steps = array(
       new TreatmentStep(
@@ -87,18 +88,6 @@ $treatment_steps = array(
 );
 
 $treatment_link = '<a href="behandla-acnearr.php" title="Utforska effektiva behandlingar för postinflammatorisk hyperpigmentering" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar för postinflammatorisk hyperpigmentering</a>';
-
-$top_articles = array(
-    'areas' => new Article(
-        title: 'Var och varför uppstår postinflammatorisk hyperpigmentering?',
-        image_small: '',
-        image_large: '',
-        image_alt: '',
-        image_title: '',
-        content: '<p class="p200">postinflammatorisk hyperpigmentering, som ofta uppstår efter akne, är resultatet av en skada som lämnar huden med otillräcklig mängd kollagen. När huden läker kan den inte alltid återskapa dess ursprungliga jämnhet och fasthet, vilket leder till att dessa indragna ärr bildas. Att förstå din huds unika historia och nuvarande tillstånd är avgörande för att effektivt behandla postinflammatorisk hyperpigmentering.</p>
-      <p class="p200 mt-m">Under en initial konsultation kommer våra hudterapeuter att utföra en noggrann bedömning av dina ärr. Vi undersöker de specifika egenskaperna hos dina ärr, såsom deras djup och placering, för att skapa en skräddarsydd behandlingsplan. För att säkerställa bästa möjliga resultat från behandlingen, är det viktigt att din hud är i optimalt skick. Det innebär att undvika solskador och att inte använda starka eller irriterande hudvårdsprodukter innan behandlingen. Vår erfarna hudterapeut kommer att ge dig anpassade råd för att förbereda din hud inför behandling av dina postinflammatorisk hyperpigmentering, för en säker och effektiv upplevelse.</p>',
-    ),
-);
 
 $results = array(
       new ResultCustomer(
@@ -520,14 +509,6 @@ $brands_url_title = "Se alla varumärken";
                               <?php echo $treatment_link ?>
 
                         </section>
-
-                        <?php foreach ($top_articles as $id => $article) { ?>
-                          <section id="<?php echo $id ?>">
-                              <?php
-                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
-                              ?>
-                          </section>
-                      <?php } ?>
                         
                         <section id="results">
                               <?php
