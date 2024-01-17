@@ -5,9 +5,9 @@ include_once('problem/widgets/symptom-card/symptom.php');
 include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Allt om Akneärr - Behandling, Orsaker och Förebyggande | Acnespecialisten';
-$seo_description = 'Utforska allt om akneärr, från de underliggande orsakerna till effektiva behandlingsmetoder och förebyggande åtgärder. Få professionell hjälp och individuella lösningar från Acnespecialisten.';
-$seo_keywords = 'akneärr, behandling av akneärr, orsaker till akneärr, förebygga akneärr, ta bort akneärr, ärrreducering, hudförnyelse, ärrbehandling';
+$seo_title = 'Atrofiska Ärr: Behandling och Förståelse | Acnespecialisten';
+$seo_description = 'Lär dig om atrofiska ärr, deras orsaker och effektiva behandlingsalternativ. Acnespecialisten ger professionell hjälp och skräddarsydda lösningar för ärrminskning.';
+$seo_keywords = 'atrofiska ärr, orsaker till atrofiska ärr';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
@@ -17,9 +17,9 @@ $title = 'Atrofiska ärr';
 
 $image_small = 'bilder/problem/424x324/aknearr.webp';
 $image_large = 'bilder/problem/424x456/aknearr.webp';
-$image_title = 'Visar en hud med akneärr';
-$image_alt = 'Bild som illustrerar hur akneärr ser ut på huden';
-$description = 'Här förklarar vi vad som kännetecknar akneärr, hur dessa ärr kan uppstå efter akne och hur vi kan hjälpa dig med behandling för att reducera dem. Vi går även igenom hur vi identifierar olika typer av akneärr, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess för att återställa hudens släthet och utseende.';
+$image_title = 'Visar hud med atrofiska ärr';
+$image_alt = 'Bild som illustrerar atrofiska ärr på huden';
+$description = 'I denna sektion förklarar vi vad atrofiska ärr är, hur de kan uppstå som resultat av akne, och hur vi på Acnespecialisten kan hjälpa dig med behandlingar för att minska dessa ärr. Vi diskuterar också hur vi identifierar olika typer av atrofiska ärr, de bakomliggande orsakerna, och hur vi kan stödja dig genom behandlingsprocessen för att förbättra hudens textur och utseende.';
 
 $akas = [
       new Link(
@@ -55,8 +55,6 @@ $nav_buttons = array(
       'about' => 'Om atrofiska ärr',
       'approach' => 'Metoden',
       'areas' => 'Områden',
-      'define' => 'Konsultation',
-      'treatments' => 'Behandling',
       'articles' => 'När?',
       'articles' => 'Varför er?',
       'results' => 'Resultat',
@@ -67,75 +65,39 @@ $nav_buttons = array(
       'related-problems' => 'Relaterade problem',
 );
 
-$description_title = 'Vad är atrofiska ärr?';
-$description_text = '<p class="p200">Klassiska ansiktsbehandlingar är en grundsten inom hudvård och erbjuder en upplevelse av avkoppling samtidigt som huden får den vård den behöver. Behandlingarna går ut på att rengöra, återfukta, balansera och revitalisera huden, samt att hantera specifika hudproblem.</p>
-<p class="p200 mt-m">Hos oss på AcneSpecialisten kan du välja mellan flera typer av klassiska ansiktsbehandlingar. Vi erbjuder allt från den traditionella Klassisk ansiktsbehandling till Antistress, där fokus ligger på avslappning. Hudterapeutens val anpassas helt efter dina behov, medan Peel, Boost & Glow siktar på att ge huden en extra boost. För den som vill ha det lilla extra erbjuder vi Lyx behandlingen. Oavsett vilken behandling du väljer, är vårt mål att ge din hud den bästa möjliga omsorgen.</p>';
+$description_title = 'Om atrofiska ärr';
+$description_text = '<p class="p200">Atrofiska ärr kännetecknas av fördjupningar eller gropar i huden och är ofta resultatet av akne. Dessa ärr uppstår när huden inte kan återskapa tillräckligt med kollagen under läkningsprocessen efter en akneutbrott. Detta leder till att ärrvävnad bildas under hudens normala ytnivå.</p>
+<p class="p200 mt-m">På Acnespecialisten erbjuder vi olika behandlingar för atrofiska ärr, inklusive laserterapi, mikroneedling och kemiska peelingar. Dessa behandlingar är utformade för att stimulera hudens kollagenproduktion och därmed minska ärrvävnadens synlighet. Våra hudterapeuter skräddarsyr varje behandling efter dina specifika behov för att uppnå bästa möjliga resultat och hjälper dig att återställa en jämnare hudtextur och förbättrat utseende.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Hos AcneSpecialisten blir du omhändertagen av en personlig hudterapeut som noga undersöker och identifierar dina akneärr. Tillsammans kartlägger vi din unika ärrtyp och skapar en individuell behandlingsplan, skräddarsydd för just dina behov.',
+            content: 'På AcneSpecialisten får du personlig hjälp från en erfaren hudterapeut som specialiserar sig på atrofiska ärr. Vi genomför en noggrann analys av dina ärr och tar fram en skräddarsydd behandlingsplan anpassad efter just dina behov och din ärrtyp.',
             url_label: 'Få gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars',
-            url_title: 'Boka din kostnadsfria ärrkonsultation idag'
+            url_title: 'Boka din kostnadsfria konsultation för atrofiska ärr'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Med målinriktade och effektiva akneärrbehandlingar, skräddarsyr vi en lösning som är perfekt anpassad för din specifika ärrtyp. Vår expertis säkerställer en snabb och säker förbättring av hudens utseende, så att du kan känna dig trygg och nöjd med ditt resultat.',
-            url_label: 'Se ärrbehandlingar',
-            url: 'behandla-acnearr.php',
-            url_title: 'Utforska våra skräddarsydda behandlingar för akneärr'
+            content: 'Vi erbjuder specialiserade behandlingar för atrofiska ärr som är både effektiva och skonsamma. Med vår expertis och målinriktade metoder arbetar vi för att förbättra hudens struktur och utseende, så att du kan känna dig säker och nöjd med ditt hudtillstånd.',
+            url_label: 'Se behandlingar för atrofiska ärr',
+            url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_AcneScars',
+            url_title: 'Upptäck våra anpassade behandlingar för atrofiska ärr'
       ),
 );
 
-$treatment_link = '<a href="behandla-acnearr.php" title="Utforska effektiva behandlingar för akneärr" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar för akneärr</a>';
+$treatment_link = '<a href="behandla-acnearr.php" title="Utforska effektiva behandlingar för atrofiska ärr" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar för atrofiska ärr</a>';
 
 $top_articles = array(
     'areas' => new Article(
-        title: 'Sun Spot Areas',
+        title: 'Var och varför uppstår atrofiska ärr?',
         image_small: '',
         image_large: '',
         image_alt: '',
         image_title: '',
-        content: '<p class="p200">Att förbereda sig för en Dermapen-behandling innebär att först genomgå en detaljerad konsultation med en av våra hudspecialister. Under konsultationen utförs en noggrann bedömning av din hud för att identifiera individuella behov och särskilda hudproblem. Denna initiala analys är kritisk för att utforma en personlig behandlingsplan som är perfekt anpassad för dina unika hudvårdsbehov.</p>
-        <p class="p200 mt-m">För optimala resultat bör huden inte vara solskadad vid tidpunkten för behandlingen. Vi rekommenderar också att du avstår från att använda hudirriterande produkter som innehåller starka syror några dagar före behandlingen. Vår hudterapeut kommer att ge dig fullständig vägledning för att förbereda din hud inför behandlingen med Dermapen, för att säkerställa en effektiv och trygg upplevelse.</p>',
-        tags: array(new ArticleTag(
-            icon: 'anga',
-            label: 'Ånga'
-        ), new ArticleTag(
-            icon: 'extraktion',
-            label: 'Extraktion'
-        ), new ArticleTag(
-            icon: 'mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'rengoring',
-            label: 'Rengöring'
-        ))
+        content: '<p class="p200">Atrofiska ärr, som ofta uppstår efter akne, är resultatet av en skada som lämnar huden med otillräcklig mängd kollagen. När huden läker kan den inte alltid återskapa dess ursprungliga jämnhet och fasthet, vilket leder till att dessa indragna ärr bildas. Att förstå din huds unika historia och nuvarande tillstånd är avgörande för att effektivt behandla atrofiska ärr.</p>
+      <p class="p200 mt-m">Under en initial konsultation kommer våra hudterapeuter att utföra en noggrann bedömning av dina ärr. Vi undersöker de specifika egenskaperna hos dina ärr, såsom deras djup och placering, för att skapa en skräddarsydd behandlingsplan. För att säkerställa bästa möjliga resultat från behandlingen, är det viktigt att din hud är i optimalt skick. Det innebär att undvika solskador och att inte använda starka eller irriterande hudvårdsprodukter innan behandlingen. Vår erfarna hudterapeut kommer att ge dig anpassade råd för att förbereda din hud inför behandling av dina atrofiska ärr, för en säker och effektiv upplevelse.</p>',
     ),
-);
-
-$articles = array(
-      new Article(
-            title: 'När ska jag söka hjälp med mina pormaskar?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'När ska jag söka hjälp med mina pormaskar?',
-            image_title: 'När ska jag söka hjälp med mina pormaskar?',
-            content: '<p class="p200">Pormaskar är en av de mest förekommande hudåkommorna och kan drabba personer i alla åldrar. Även om de i många fall är ofarliga och mestadels en estetisk bekymmer, kan de påverka självkänslan och orsaka obehag. Om du märker att dina pormaskar börjar påverka ditt välbefinnande, eller om du har provat olika produkter och hemmabehandlingar utan framgång, kan det vara dags att söka professionell hjälp. Det är viktigt att komma ihåg att alla kan söka hjälp, oavsett om du har enstaka pormaskar eller ett mer utbrett problem. Det finns ingen "minsta gräns" för när det är lämpligt att söka professionell vård.</p>
-            <p class="p200 mt-m">Hos en hudspecialist kan du få en personlig konsultation och behandlingsplan som är skräddarsydd för just ditt hudproblem. En expert kan analysera din hudtyp, diskutera möjliga orsaker till dina pormaskar och rekommendera den mest effektiva behandlingsmetoden för dig. Detta kan inkludera allt från djuprengöring och portömning till mer avancerade hudvårdsprodukter. Så, om du känner att dina pormaskar har blivit en belastning eller om du helt enkelt vill ha en problemfri hy, tveka inte att söka professionell hjälp. Det är aldrig för tidigt eller för sent att ta steget mot bättre hy.</p>',
-      ),
-
-      new Article(
-            title: 'Varför ska jag besöka AcneSpecialisten?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'Varför ska jag besöka AcneSpecialisten?',
-            image_title: 'Varför ska jag besöka AcneSpecialisten?',
-            content: '<p class="p200">Om du är ute efter en effektiv och långsiktig lösning på dina pormaskar, är AcneSpecialisten det självklara valet. Vi har över 30 års erfarenhet inom hudvård och en specialisering i att behandla pormaskar. Oavsett om du har enstaka pormaskar eller en mer utbredd problematik, kan vi erbjuda en skräddarsydd lösning som passar just dig.</p>
-            <p class="p200 mt-m">Vi använder de senaste metoderna och teknologierna inom hudvård för att du ska få bästa möjliga resultat. Vårt team av hudterapeuter står redo att erbjuda en individuellt anpassad behandlingsplan och att stötta dig genom hela processen. Med regelbundna uppföljningar och anpassade hemmavårdsprogram ser vi till att du får en långvarig förbättring.</p>
-            <p class="p200 mt-m">Att välja AcneSpecialisten innebär att du får tillgång till den mest avancerade och effektiva behandlingen för dina pormaskar. Men det är inte allt. Vi ser dig som en partner i din hudvårdsresa och är dedikerade till att hjälpa dig att uppnå och bibehålla en klar och frisk hud. Vårt engagemang, kunskap och erfarenhet gör oss till ditt bästa val för behandling av pormaskar.</p>',
-      ),
 );
 
 $results = array(
@@ -566,42 +528,6 @@ $brands_url_title = "Se alla varumärken";
                               ?>
                           </section>
                       <?php } ?>
-
-                        <section id="articles">
-                              <?php foreach ($articles as $article) { ?>
-                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php'); ?>
-                              <?php } ?>
-                        </section>
-                        <section id="define">
-                              <h2 class="h500 l10n"><?php echo $headline01 ?></h2>
-                              <hr class="is-hidden-mobile">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
-                              <hr class="is-hidden-mobile">
-                        </section>
-                        <section id="treatments">
-                              <h2 class="h500"><?php echo $headline02 ?></h2>
-                              <hr class="is-hidden-mobile mt-xl">
-                              <?php foreach ($services as $service) { ?>
-                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
-                                    <hr class="is-hidden-mobile mb-xxl">
-                              <?php } ?>
-                        </section>
-                        <section id="products">
-                              <h2 class="h500"><?php echo $headline03 ?></h2>
-                              <hr class="is-hidden-mobile mt-xl">
-                              <?php foreach ($products as $service) { ?>
-                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
-                                    <hr class="is-hidden-mobile mb-xxl">
-                              <?php } ?>
-                        </section>
-                        <section id="treatment-solutions">
-                              <h2 class="h500"><?php echo $headline04 ?></h2>
-                              <hr class="is-hidden-mobile mt-xl">
-                              <?php foreach ($procedures as $service) { ?>
-                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
-                                    <hr class="is-hidden-mobile mb-xxl">
-                              <?php } ?>
-                        </section>
                         
                         <section id="results">
                               <?php
