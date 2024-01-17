@@ -3,16 +3,16 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Microneedling mot Stora Porer - Uppnå Finare Hudstruktur | Acnespecialisten';
-$seo_description = 'Upptäck hur AcneSpecialistens microneedling-behandlingar effektivt kan minska synligheten av stora porer. Genom att använda avancerad mikronålsteknik aktiverar vi hudens naturliga kollagenproduktion, vilket leder till en förbättrad hudtextur. Resultatet är mindre märkbara porer och en slätare, mer raffinerad hud.';
-$seo_keywords = 'microneedling, behandla stora porer, minska porstorlek, finare hudstruktur, jämn hudton, kollagenstimulering, hudföryngring, mikroneedling, hudförädling, porminskning';
+$seo_title = 'Microneedling mot Akne - Reducera akne effektivt | Acnespecialisten';
+$seo_description = 'Utforska hur AcneSpecialistens microneedling-behandlingar effektivt kan behandla akne och förbättra huden Vår mikronålsteknik stimulerar hudens naturliga läkningsprocess och kollagenproduktion, vilket resulterar i en klarare och mer hälsosam hud.';
+$seo_keywords = 'microneedling, aknebehandling, förbättra hudkvalitet, jämn hudton, kollagenstimulering, hudföryngring, mikroneedling mot akne, hudhälsa, minskning av akne';
 
 
 $seo_image = 'images/treatments/large/microneedling.jpg';
 
 
 $model = new Service(
-    title: 'Microneedling mot stora porer',
+    title: 'Microneedling mot akne',
     duration: null,
     price: 'Från 2332 kr',
     content: '',
@@ -23,7 +23,7 @@ $model = new Service(
     consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
     consultation_url_label: 'Boka konsultation',
     consultation_url_title: 'Boka konsultation',
-    booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_LargePores',
+    booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=Method_Microneedling',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka behandling',
     procedures: array(
@@ -31,7 +31,7 @@ $model = new Service(
             label: '1 behandling',
             price: '2595 kr',
             savings: null,
-            booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_LargePores&area=EMPTY&procedures=PriceClass_5_Procedure_1',
+            booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=Method_Microneedling&area=Microneedling_Face&procedures=PriceClass_5_Procedure_1',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Boka behandling'
         ),
@@ -39,7 +39,7 @@ $model = new Service(
             label: '3 behandlingar',
             price: '6995 kr',
             savings: 'Spara 790 kr',
-            booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_LargePores&area=EMPTY&procedures=PriceClass_5_Procedure_3',
+            booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=Method_Microneedling&area=Microneedling_Face&procedures=PriceClass_5_Procedure_3',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Boka behandling'
         ),
@@ -47,17 +47,17 @@ $model = new Service(
             label: '5 behandlingar',
             price: '9995 kr',
             savings: 'Spara 2980 kr',
-            booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_LargePores&area=EMPTY&procedures=PriceClass_5_Procedure_5',
+            booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=Method_Microneedling&area=Microneedling_Face&procedures=PriceClass_5_Procedure_5',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Boka behandling'
         )
     ),
 );
 
-$floating_box = 'Behandlar och reducerar stora porer.';
+$floating_box = 'Behandlar och reducerar akne.';
 
 $nav_buttons = array(
-    'about' => 'Om microneedling mot stora porer',
+    'about' => 'Om microneedling mot akne',
     'types' => 'Typer',
     'results' => 'Resultat',
     'reviews' => 'Omdömen',
@@ -67,27 +67,26 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-
-$description_title = 'Vad är microneedling för behandling av stora porer?';
-$description_text = '<p class="p200">Microneedling för behandling av stora porer är en framstående metod som använder fina mikronålar för att förfina hudens textur och minska synligheten av stora porer. Denna teknik innebär att skapa små mikroskopiska kanaler i huden, vilket stimulerar hudens naturliga läkningsprocess och främjar ökad kollagenproduktion. Resultatet är en fastare och jämnare hudstruktur.</p>
-<p class="p200 mt-m">På AcneSpecialisten erbjuder vi anpassade microneedling-behandlingar som specifikt riktar sig mot stora porer, vilket effektivt förbättrar hudens övergripande utseende. Denna behandlingsmetod är perfekt för att uppnå en mer jämn och förfinad hudton. Med regelbunden behandling kommer du att märka en betydande förbättring i hudens kvalitet, med porer som blir mindre synliga. Vårt mål är att ge dig en lösning för en slätare och mer enhetlig hud.</p>';
+$description_title = 'Om microneedling mot akne';
+$description_text = '<p class="p200">Microneedling som en behandling för akne hos AcneSpecialisten utnyttjar fina mikronålar för att skapa små kanaler i huden, vilket inte bara förbättrar hudens textur utan också aktivt bekämpar akne. Genom att stimulera hudens naturliga läkningsprocess och kollagenproduktion, hjälper denna behandling till att reglera talgproduktionen och minska inflammationen som ofta är associerad med akne.</p>
+<p class="p200 mt-m">Vår anpassade microneedling-behandling är specifikt inriktad mot att behandla akne och dess relaterade hudproblem. Genom regelbundna behandlingar kan du uppleva en klarare hudton, minskade utbrott av akne och en generell förbättring av hudens utseende. Denna metod är idealisk för att uppnå en hälsosammare och mer balanserad hud, med synligt minskade porer och en jämnare hudstruktur. Vårt mål är att erbjuda dig en effektiv lösning för att hantera din akne och förbättra din hudhälsa.</p>';
 
 $types_title = '';
 $types_description = '';
 $big_types = array(
     new Service(
-        title: 'Microneedling mot stora porer',
+        title: 'Microneedling mot akne',
         duration: '50 min',
         price: null,
-        content: '<p class="p200">Microneedling-behandling mot stora porer börjar med en noggrann rengöring av huden, följt av själva mikronålsproceduren som aktiverar hudens egna reparationssystem och stimulerar kollagenproduktionen. Denna teknik är särskilt effektiv för att minska storleken på porer och förbättra hudens yta. Efter behandlingen appliceras en lugnande kräm som minimerar eventuell rodnad och underlättar hudens återhämtning. Slutresultatet är en hud med förfinad struktur och mindre framträdande porer.</p>',
+        content: '<p class="p200">Microneedling-behandling mot akne hos AcneSpecialisten inleds med en grundlig rengöring av huden för att avlägsna smuts och oljor som kan påverka behandlingens effektivitet. Därefter genomförs själva microneedling-proceduren där ett specialiserat verktyg med små, fina nålar varsamt skapar mikroskopiska punkteringar i hudens ytskikt. Efter proceduren appliceras en lugnande och återfuktande kräm på huden för att minska eventuell rodnad och främja snabbare läkning. Det är normalt att uppleva en viss rodnad och känslighet direkt efter behandlingen.</p>',
         image_small: 'https://via.placeholder.com/358x274.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'microneedling mot stora porer',
-        image_title: 'microneedling mot stora porer',
+        image_alt: 'microneedling mot akne',
+        image_title: 'microneedling mot akne',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka konsultation',
-        booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_LargePores',
+        booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=Method_Microneedling',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka behandling',
         procedures: array(
@@ -95,19 +94,19 @@ $big_types = array(
                 label: '1 behandling',
                 price: '2595 kr',
                 savings: null,
-                booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_LargePores&area=EMPTY&procedures=PriceClass_5_Procedure_1'
+                booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=Method_Microneedling&area=Microneedling_Face&procedures=PriceClass_5_Procedure_1'
             ),
             new Procedure(
                 label: '3 behandlingar',
                 price: '6995 kr',
                 savings: 'Spara 790 kr',
-                booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_LargePores&area=EMPTY&procedures=PriceClass_5_Procedure_3'
+                booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=Method_Microneedling&area=Microneedling_Face&procedures=PriceClass_5_Procedure_3'
             ),
             new Procedure(
                 label: '5 behandlingar',
                 price: '9995 kr',
                 savings: 'Spara 2980 kr',
-                booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_LargePores&area=EMPTY&procedures=PriceClass_5_Procedure_5'
+                booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=Method_Microneedling&area=Microneedling_Face&procedures=PriceClass_5_Procedure_5'
             )
         )
     ),

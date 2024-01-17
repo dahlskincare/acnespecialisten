@@ -3,60 +3,60 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Laserbehandling mot Operations- och Skadeärr | AcneSpecialisten';
-$seo_description = 'Lär dig om laserbehandling som en effektiv metod för att reducera ärr efter operationer och skador. AcneSpecialisten erbjuder skräddarsydd expertis och behandlingar för att förbättra utseendet på dina ärr.';
-$seo_keywords = 'laserbehandling för ärr, operationsärr behandling, skadeärr behandling, reducera ärr med laser, effektiv ärrbehandling, microneedling för ärr, kemisk peeling för ärr';
+$seo_title = 'Laserbehandling mot Akne | AcneSpecialisten';
+$seo_description = 'Upptäck AcneSpecialistens avancerade laserbehandlingar för akne. Våra skräddarsydda behandlingar använder laserljus för att effektivt reducera akne och förbättra hudens hälsa.';
+$seo_keywords = 'laserbehandling för akne, behandla akne med laser, effektiv aknebehandling, laser mot akne, aknebehandling, avancerad hudvård';
 
-$seo_image = 'images/treatments/large/operations-skadearr.jpg';
+$seo_image = 'images/treatments/large/laser-mot-problemhy.jpg';
 
 
 $model = new Service(
-    title: 'Laser mot ärr',
+    title: 'Laser mot akne',
     duration: null,
-    price: 'Från 4595 kr',
+    price: 'Från 2995 kr',
     content: '',
     image_small: 'bilder/varumarken/358x274/operations-skadearr.webp',
     image_large: 'bilder/varumarken/424x456/operations-skadearr.webp',
-    image_alt: 'Laser mot ärr',
-    image_title: 'Laser mot ärr',
-    consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
+    image_alt: 'Laser mot akne',
+    image_title: 'Laser mot akne',
+    consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka hudkonsultation',
-    booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars',
+    booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=Method_LaserProblem',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka behandling',
     procedures: array(
         new Procedure(
             label: '1 behandling',
-            price: '4595 kr',
+            price: '2995 kr',
             savings: null,
-            booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars&area=EMPTY&procedures=PriceClass_6_Procedure_1',
+            booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=Method_LaserProblem&area=Laser_Acne_Face&procedures=PriceClass_5_Procedure_1',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
         ),
         new Procedure(
             label: '3 behandlingar',
-            price: '7995 kr',
-            savings: 'Spara 990 kr',
-            booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars&area=EMPTY&procedures=PriceClass_6_Procedure_3',
+            price: '6995 kr',
+            savings: 'Spara 790 kr',
+            booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=Method_LaserProblem&area=Laser_Acne_Face&procedures=PriceClass_5_Procedure_3',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
         ),
         new Procedure(
             label: '5 behandlingar',
-            price: '10995 kr',
-            savings: 'Spara 3980 kr',
-            booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars&area=EMPTY&procedures=PriceClass_6_Procedure_5',
+            price: '9995 kr',
+            savings: 'Spara 2980 kr',
+            booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=Method_LaserProblem&area=Laser_Acne_Face&procedures=PriceClass_5_Procedure_5',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
         )
     ),
 );
 
-$floating_box = 'Effektiv laserbehandling som förbättrar hudens struktur.';
+$floating_box = 'Effektiv laserbehandling mot akne.';
 
 $nav_buttons = array(
-    'about' => 'Om laser mot acneärr',
+    'about' => 'Om laser mot akne',
     'types' => 'Typer',
     'results' => 'Resultat',
     'reviews' => 'Omdömen',
@@ -66,46 +66,46 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Laserbehandling mot ärr';
-$description_text = '<p class="p200">Laserbehandling är en avancerad metod för att effektivt minska synligheten av ärr orsakade av operationer och skador. Denna teknik använder koncentrerat ljus för att försiktigt ta bort ärrvävnad och stimulera hudens naturliga läkningsprocess, vilket resulterar i en jämnare och mer enhetlig hudton.</p>
-<p class="p200 mt-m">På AcneSpecialisten erbjuder vi laserbehandling som en del av vår omfattande ärrbehandlingsportfölj. Våra specialister anpassar behandlingen efter varje individs unika hudtyp och ärrbildning, med målet att uppnå optimala resultat. Utöver laserbehandlingar inkluderar våra behandlingsmetoder även microneedling och kemisk peeling, vilka kompletterar och förstärker effekten av laser.</p>';
+$description_title = 'Laserbehandling mot Akne';
+$description_text = '<p class="p200">Laserbehandling är en innovativ och effektiv metod för att bekämpa akne. Genom att använda speciellt utformade laserljus, riktas behandlingen mot de bakterier som orsakar akne samt minskar inflammationen i huden. Denna teknik hjälper till att kontrollera akneutbrott och bidrar till en klarare hudton.</p>
+<p class="p200 mt-m">Hos AcneSpecialisten anpassar vi våra laserbehandlingar för att möta de unika behoven hos varje individ med akneproblem. Vår metod inte bara behandlar befintlig akne, utan jobbar även på att förebygga framtida utbrott. Genom att kombinera laserbehandling med en personlig hudvårdsrutin och eventuellt kompletterande behandlingar, strävar vi efter att ge dig en långvarigt friskare och klarare hud.</p>';
 
 $types_title = '';
 $types_description = '';
 $big_types = array(
     new Service(
-        title: 'Laser mot ärr',
-        duration: '30 min',
+        title: 'Laser mot akne',
+        duration: '60 min',
         price: null,
-        content: '<p class="p200">Laserbehandling mot ärr är en effektiv process anpassad för att minska synligheten av ärr, oavsett om de är från skador eller operationer. Behandlingen inleds med en grundlig hudanalys för att utvärdera ärrets egenskaper och din hudtyp. Denna analys är avgörande för att skräddarsy behandlingen efter dina specifika behov. Processen fortsätter med själva laserbehandlingen, där fokuserat ljus används för att selektivt bryta ner ärrvävnaden. Detta stimulerar hudens naturliga läkningsprocess och främjar cellförnyelse.</p>',
+        content: '<p class="p200">Behandlingar går ut på att speciellt kalibrerat ljus används för att rikta in sig på och behandla akne. Lasern verkar genom att minska talgproduktionen och eliminera bakterier som bidrar till akne, samtidigt som den främjar hudens naturliga läkningsprocess och cellförnyelse. Detta bidrar till en märkbar förbättring i hudens utseende och minskning av aktiva akneutbrott.</p>',
         image_small: 'https://via.placeholder.com/358x274.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Laser mot ärr',
-        image_title: 'Laser mot ärr',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
+        image_alt: 'Laser mot akne',
+        image_title: 'Laser mot akne',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
         consultation_url_label: 'Boka hudkonsultation',
         consultation_url_title: 'Boka hudkonsultation',
-        booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars',
+        booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=Method_LaserProblem',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka behandling',
         procedures: array(
             new Procedure(
                 label: '1 behandling',
-                price: '4595 kr',
+                price: '2995 kr',
                 savings: null,
-                booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars&area=EMPTY&procedures=PriceClass_6_Procedure_1'
+                booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=Method_LaserProblem&area=Laser_Acne_Face&procedures=PriceClass_5_Procedure_1'
             ),
             new Procedure(
                 label: '3 behandlingar',
-                price: '7995 kr',
-                savings: 'Spara 990 kr',
-                booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars&area=EMPTY&procedures=PriceClass_6_Procedure_3'
+                price: '6995 kr',
+                savings: 'Spara 790 kr',
+                booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=Method_LaserProblem&area=Laser_Acne_Face&procedures=PriceClass_5_Procedure_3'
             ),
             new Procedure(
                 label: '5 behandlingar',
-                price: '10995 kr',
-                savings: 'Spara 3980 kr',
-                booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars&area=EMPTY&procedures=PriceClass_6_Procedure_5'
+                price: '9995 kr',
+                savings: 'Spara 2980 kr',
+                booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=Method_LaserProblem&area=Laser_Acne_Face&procedures=PriceClass_5_Procedure_5'
             )
         )
     ),

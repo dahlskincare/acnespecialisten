@@ -3,61 +3,60 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Microneedling mot Stora Porer - Uppnå Finare Hudstruktur | Acnespecialisten';
-$seo_description = 'Upptäck hur AcneSpecialistens microneedling-behandlingar effektivt kan minska synligheten av stora porer. Genom att använda avancerad mikronålsteknik aktiverar vi hudens naturliga kollagenproduktion, vilket leder till en förbättrad hudtextur. Resultatet är mindre märkbara porer och en slätare, mer raffinerad hud.';
-$seo_keywords = 'microneedling, behandla stora porer, minska porstorlek, finare hudstruktur, jämn hudton, kollagenstimulering, hudföryngring, mikroneedling, hudförädling, porminskning';
+$seo_title = 'Kemisk Peeling mot akne | AcneSpecialisten';
+$seo_description = 'Utforska AcneSpecialistens effektiva kemiska peelings särskilt utvecklade för aknebehandling. Våra specialanpassade peelingar reducerar akne och förbättrar hudens övergripande hälsa och utseende.';
+$seo_keywords = 'kemisk peeling mot akne, behandla akne, exfoliering';
 
-
-$seo_image = 'images/treatments/large/microneedling.jpg';
+$seo_image = 'images/treatments/large/kemisk-peeling.jpg';
 
 
 $model = new Service(
-    title: 'Microneedling mot stora porer',
+    title: 'Kemisk peeling mot akne',
     duration: null,
-    price: 'Från 2332 kr',
+    price: 'Från 2995 kr',
     content: '',
-    image_small: 'bilder/behandlingar/358x274/microneedling.webp',
-    image_large: 'bilder/behandlingar/424x456/microneedling.webp',
-    image_alt: 'Microneedling',
-    image_title: 'Microneedling',
-    consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
-    consultation_url_label: 'Boka konsultation',
-    consultation_url_title: 'Boka konsultation',
-    booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_LargePores',
+    image_small: 'bilder/behandlingar/358x274/kemisk-peeling.webp',
+    image_large: 'bilder/behandlingar/424x456/kemisk-peeling.webp',
+    image_alt: 'Kemisk peeling behandlingar',
+    image_title: 'Kemisk peeling behandlingar',
+    consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
+    consultation_url_label: 'Boka hudkonsultation',
+    consultation_url_title: 'Boka tid för hudkonsultation',
+    booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=Method_ChemicalPeeling',
     booking_url_label: 'Boka behandling',
-    booking_url_title: 'Boka behandling',
+    booking_url_title: 'Boka tid för behandling',
     procedures: array(
         new Procedure(
             label: '1 behandling',
-            price: '2595 kr',
+            price: '1595 kr',
             savings: null,
-            booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_LargePores&area=EMPTY&procedures=PriceClass_5_Procedure_1',
-            booking_url_label: 'Boka behandling',
-            booking_url_title: 'Boka behandling'
+            booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=Method_ChemicalPeeling&area=ChemicalPeeling_Face&procedures=PriceClass_A_Procedure_1',
+            booking_url_label: 'Boka tid för behandling',
+            booking_url_title: 'Boka tid för behandling'
         ),
         new Procedure(
             label: '3 behandlingar',
-            price: '6995 kr',
-            savings: 'Spara 790 kr',
-            booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_LargePores&area=EMPTY&procedures=PriceClass_5_Procedure_3',
-            booking_url_label: 'Boka behandling',
-            booking_url_title: 'Boka behandling'
+            price: '5595 kr',
+            savings: 'Spara 785 kr',
+            booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=Method_ChemicalPeeling&area=ChemicalPeeling_Face&procedures=PriceClass_A_Procedure_4',
+            booking_url_label: 'Boka tid för behandling',
+            booking_url_title: 'Boka tid för behandling'
         ),
         new Procedure(
             label: '5 behandlingar',
-            price: '9995 kr',
-            savings: 'Spara 2980 kr',
-            booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_LargePores&area=EMPTY&procedures=PriceClass_5_Procedure_5',
-            booking_url_label: 'Boka behandling',
-            booking_url_title: 'Boka behandling'
+            price: '7595 kr',
+            savings: 'Spara 1975 kr',
+            booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=Method_ChemicalPeeling&area=ChemicalPeeling_Face&procedures=PriceClass_A_Procedure_6',
+            booking_url_label: 'Boka tid för behandling',
+            booking_url_title: 'Boka tid för behandling'
         )
     ),
 );
 
-$floating_box = 'Behandlar och reducerar stora porer.';
+$floating_box = 'Effektiv kemisk peeling mot akne.';
 
 $nav_buttons = array(
-    'about' => 'Om microneedling mot stora porer',
+    'about' => 'Om kemisk peeling mot akne',
     'types' => 'Typer',
     'results' => 'Resultat',
     'reviews' => 'Omdömen',
@@ -67,48 +66,47 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-
-$description_title = 'Vad är microneedling för behandling av stora porer?';
-$description_text = '<p class="p200">Microneedling för behandling av stora porer är en framstående metod som använder fina mikronålar för att förfina hudens textur och minska synligheten av stora porer. Denna teknik innebär att skapa små mikroskopiska kanaler i huden, vilket stimulerar hudens naturliga läkningsprocess och främjar ökad kollagenproduktion. Resultatet är en fastare och jämnare hudstruktur.</p>
-<p class="p200 mt-m">På AcneSpecialisten erbjuder vi anpassade microneedling-behandlingar som specifikt riktar sig mot stora porer, vilket effektivt förbättrar hudens övergripande utseende. Denna behandlingsmetod är perfekt för att uppnå en mer jämn och förfinad hudton. Med regelbunden behandling kommer du att märka en betydande förbättring i hudens kvalitet, med porer som blir mindre synliga. Vårt mål är att ge dig en lösning för en slätare och mer enhetlig hud.</p>';
+$description_title = 'Hur Kemisk Peeling Behandlar Akne';
+$description_text = '<p class="p200">Kemisk peeling hos AcneSpecialisten är en effektiv metod för att bekämpa akne och förbättra hudens kvalitet. Våra specialanpassade behandlingar använder effektiva syror för att varsamt exfoliera huden, rensa porer och minska överproduktionen av talg som ofta orsakar akne. Dessa peelingar stimulerar även hudens förnyelseprocess, vilket leder till en klarare och jämnare hudton.</p>
+<p class="p200 mt-m">Vi erbjuder olika typer av kemiska peelingar som är skräddarsydda för att hantera de specifika utmaningarna och behoven hos aknebenägen hud. Dessa behandlingar kan inkludera ingredienser som salicylsyra, glykolsyra och andra specialkomponenter, som effektivt riktar sig mot akne och bidrar till en friskare hud. Genom att regelbundet genomgå dessa behandlingar kan du uppleva en betydande minskning av akne, förbättrad hudtextur och en övergripande förbättring av hudens utseende.</p>';
 
 $types_title = '';
 $types_description = '';
 $big_types = array(
     new Service(
-        title: 'Microneedling mot stora porer',
-        duration: '50 min',
+        title: 'Kemisk peeling mot akne',
+        duration: '60 min',
         price: null,
-        content: '<p class="p200">Microneedling-behandling mot stora porer börjar med en noggrann rengöring av huden, följt av själva mikronålsproceduren som aktiverar hudens egna reparationssystem och stimulerar kollagenproduktionen. Denna teknik är särskilt effektiv för att minska storleken på porer och förbättra hudens yta. Efter behandlingen appliceras en lugnande kräm som minimerar eventuell rodnad och underlättar hudens återhämtning. Slutresultatet är en hud med förfinad struktur och mindre framträdande porer.</p>',
+        content: '<p class="p200">Kemisk peeling mot akne hos AcneSpecialisten involverar en noggrant utvald kombination av syror som appliceras på huden för att behandla akne. Efter applicering av de aktiva ingredienserna får peelingslösningen verka under en kontrollerad tid för att säkerställa optimal penetration och effektivitet. Därefter neutraliseras peelingen och tvättas bort, vilket avslutar behandlingsprocessen. Resultatet är en friskare hud med minskade akneutbrott och en förbättrad övergripande hudton och textur. Regelbunden behandling bidrar till långsiktiga förbättringar och kan vara en viktig del i en omfattande aknebehandlingsplan.</p>',
         image_small: 'https://via.placeholder.com/358x274.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'microneedling mot stora porer',
-        image_title: 'microneedling mot stora porer',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
-        consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka konsultation',
-        booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_LargePores',
+        image_alt: 'Kemisk peeling mot akne',
+        image_title: 'Kemisk peeling mot akne',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
+        consultation_url_label: 'Boka hudkonsultation',
+        consultation_url_title: 'Boka hudkonsultation',
+        booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=Method_ChemicalPeeling',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka behandling',
         procedures: array(
             new Procedure(
                 label: '1 behandling',
-                price: '2595 kr',
+                price: '1595 kr',
                 savings: null,
-                booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_LargePores&area=EMPTY&procedures=PriceClass_5_Procedure_1'
+                booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=Method_ChemicalPeeling&area=ChemicalPeeling_Face&procedures=PriceClass_A_Procedure_1'
             ),
             new Procedure(
-                label: '3 behandlingar',
-                price: '6995 kr',
-                savings: 'Spara 790 kr',
-                booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_LargePores&area=EMPTY&procedures=PriceClass_5_Procedure_3'
+                label: '4 behandlingar',
+                price: '5595 kr',
+                savings: 'Spara 785 kr',
+                booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=Method_ChemicalPeeling&area=ChemicalPeeling_Face&procedures=PriceClass_A_Procedure_4'
             ),
             new Procedure(
-                label: '5 behandlingar',
-                price: '9995 kr',
-                savings: 'Spara 2980 kr',
-                booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_LargePores&area=EMPTY&procedures=PriceClass_5_Procedure_5'
-            )
+                label: '6 behandlingar',
+                price: '7595 kr',
+                savings: 'Spara 1975 kr',
+                booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=Method_ChemicalPeeling&area=ChemicalPeeling_Face&procedures=PriceClass_A_Procedure_6'
+            ),
         )
     ),
 
@@ -247,26 +245,24 @@ $reviews_view_more = 'Se alla omdömen';
 
 $faq_title = 'Frågor & Svar';
 $faq_categories = array(
-      'Generella frågor' => array(
-            new Question(
-              title: 'Är alla konsultationer kostnadsfria på AcneSpecialisten?',
-              text: 'Ja, vi erbjuder alltid kostnadsfria konsultationer för våra kunder, förutsatt att de närvarar vid den bokade tiden.'
-            ),
-            new Question(
-              title: 'Vad kan jag förvänta mig under en konsultation hos AcneSpecialisten?',
-              text: 'Under konsultationen kommer en av våra hudterapeuter att noggrant analysera din hudtyp och diskutera dina hudproblem. Vi kommer även att gå igenom din nuvarande hudvårdsrutin och ge personliga rekommendationer för behandlingar och produkter som bäst passar dina behov.'
-            ),
-      ),
-      'Frågor om behandling' => array(
-            new Question(
-              title: 'Vilka behandlingar erbjuder AcneSpecialisten för olika hudproblem?',
-              text: 'På AcneSpecialisten erbjuder vi ett brett utbud av behandlingar anpassade för specifika hudproblem, inklusive avancerad acnebehandling, skonsam rosaceabehandling och noggrann portömning, samt andra specialbehandlingar för olika hudtillstånd.'
-            ),
-            new Question(
-              title: 'Anpassar ni behandlingarna för olika hudtyper?',
-              text: 'Absolut, på AcneSpecialisten anpassar vi våra behandlingar för att passa en mängd olika hudtyper, från mycket känslig till oljig hy, för att säkerställa den mest effektiva och skonsamma behandlingen.'
-            ),
-      ),
+    '' => array(
+        new Question(
+            title: 'Hur många behandlingar behövs?',
+            text: 'Antalet behandlingar kan variera beroende på individens hudtyp och hudens tillstånd. Generellt rekommenderas en serie av behandlingar för bästa möjliga resultat och sedan underhållsbehandlingar för långsiktig effekt.'
+        ),
+        new Question(
+            title: 'Hur ofta ska jag boka en klassisk ansiktsbehandling?',
+            text: 'För att upprätthålla resultat och hudens hälsa, rekommenderar vi en klassisk ansiktsbehandling var fjärde till sjätte vecka. Det kan justeras beroende på personliga behov och hudens tillstånd.'
+        ),
+        new Question(
+            title: 'Vad kan jag förvänta mig direkt efter behandlingen?',
+            text: 'Efter en klassisk ansiktsbehandling kan huden vara lite rosig och kännas extra mjuk och återfuktad. Det är viktigt att följa eftervårdsinstruktionerna för att maximera behandlingens effekt. I de fall där en mer resultatinriktad behandling gjorts kan upplevelsen av huden variera.'
+        ),
+        new Question(
+            title: 'Behövs speciell eftervård efter en klassisk ansiktsbehandling?',
+            text: 'Eftervård är viktigt för att bevara resultatet av din ansiktsbehandling. Det innefattar solskydd, mild hudvård, och att undvika starka hudirriterande ämnen ett par dagar efter behandlingen.'
+        )
+    )
 );
 
 $faq_view_more = 'Se alla frågor & svar';
@@ -328,10 +324,10 @@ $all_brands = array(
         image_title: 'Powerlite Photonova',
     ),
     new Brand(
-        label: 'microneedling',
-        image: 'images/brands/microneedling.svg',
-        image_alt: 'microneedling',
-        image_title: 'microneedling',
+        label: 'Dermapen',
+        image: 'images/brands/dermapen.svg',
+        image_alt: 'Dermapen',
+        image_title: 'Dermapen',
     ),
     new Brand(
         label: 'CryoPen',
