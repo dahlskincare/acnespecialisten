@@ -3,26 +3,27 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Dermapen mot Acneärr - Effektiv Behandling | Acnespecialisten';
-$seo_description = 'Upptäck kraften i AcneSpecialistens Dermapen-behandlingar för acneärr. Denna banbrytande teknik effektiviserar hudens återhämtning, minskar synligheten av acneärr och förbättrar hudens övergripande textur. Genom att stimulera hudens naturliga kollagenproduktion, bidrar våra skräddarsydda behandlingar till att återskapa en slät och jämn hudton.';
-$seo_keywords = 'Dermapen, behandling av acneärr, hudåterhämtning, reducera acneärr, stimulera kollagen, förbättrad hudtextur, slät hudton, kollagenproduktion, hudförfining, microneedling';
+$seo_title = 'Microneedling mot akneärr - Uppnå Finare Hudstruktur | Acnespecialisten';
+$seo_description = 'Utforska Acnespecialistens microneedling-behandlingar för akneärr. Vår avancerade mikronålsteknik främjar hudens egen kollagenproduktion och bidrar till en märkbart förbättrad hudtextur. Upplev en hud med mindre synliga akneärr och en jämnare hudton.';
+$seo_keywords = 'microneedling, behandling av akneärr, förbättrad hudstruktur, jämn hudton, kollagenproduktion, hudföryngring, minskning av akneärr, förfinad hud, porminskning, hudförbättring';
 
-$seo_image = 'images/treatments/large/dermapen.jpg';
+
+$seo_image = 'images/treatments/large/microneedling.jpg';
 
 
 $model = new Service(
-    title: 'Dermapen mot acneärr',
+    title: 'Microneedling mot akneärr',
     duration: null,
     price: 'Från 2332 kr',
     content: '',
-    image_small: 'bilder/varumarken/358x274/dermapen.webp',
-    image_large: 'bilder/varumarken/424x456/dermapen.webp',
-    image_alt: 'Dermapen',
-    image_title: 'Dermapen',
-    consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Dermapen',
+    image_small: 'bilder/behandlingar/358x274/microneedling.webp',
+    image_large: 'bilder/behandlingar/424x456/microneedling.webp',
+    image_alt: 'Microneedling',
+    image_title: 'Microneedling',
+    consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
     consultation_url_label: 'Boka konsultation',
     consultation_url_title: 'Boka konsultation',
-    booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_AcneScars',
+    booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_AcneScars',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka behandling',
     procedures: array(
@@ -30,7 +31,7 @@ $model = new Service(
             label: '1 behandling',
             price: '2595 kr',
             savings: null,
-            booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_AcneScars&area=Microneedling_Face&procedures=PriceClass_5_Procedure_1',
+            booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_LargePores&area=EMPTY&procedures=PriceClass_5_Procedure_1',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Boka behandling'
         ),
@@ -38,7 +39,7 @@ $model = new Service(
             label: '3 behandlingar',
             price: '6995 kr',
             savings: 'Spara 790 kr',
-            booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_AcneScars&area=Microneedling_Face&procedures=PriceClass_5_Procedure_3',
+            booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_LargePores&area=EMPTY&procedures=PriceClass_5_Procedure_3',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Boka behandling'
         ),
@@ -46,17 +47,17 @@ $model = new Service(
             label: '5 behandlingar',
             price: '9995 kr',
             savings: 'Spara 2980 kr',
-            booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_AcneScars&area=Microneedling_Face&procedures=PriceClass_5_Procedure_5',
+            booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_LargePores&area=EMPTY&procedures=PriceClass_5_Procedure_5',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Boka behandling'
         )
     ),
 );
 
-$floating_box = 'Behandlar och reducerar acneärr.';
+$floating_box = 'Behandlar och reducerar akneärr.';
 
 $nav_buttons = array(
-    'about' => 'Om dermapen mot acneärr',
+    'about' => 'Om microneedling mot akneärr',
     'types' => 'Typer',
     'results' => 'Resultat',
     'reviews' => 'Omdömen',
@@ -66,26 +67,27 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Vad är Dermapen mot acneärr?';
-$description_text = '<p class="p200">Dermapen mot acneärr är en avancerad behandlingsmetod som använder mikronålar för att stimulera hudens naturliga läkningsprocess och kollagenproduktion. Genom att skapa mikroskopiska punkteringar i huden, uppmuntrar Dermapen till ny celltillväxt och reparation, vilket effektivt minskar synligheten av acneärr.</p>
-<p class="p200 mt-m">På AcneSpecialisten erbjuder vi Dermapen-behandlingar anpassade för att behandla olika typer av acneärr. Behandlingen är skonsam men effektiv och kan anpassas för att möta dina individuella hudvårdsbehov. Efter behandlingar med Dermapen kan du förvänta dig en jämnare hudton, förbättrad hudtextur och en övergripande förfining av ditt hudutseende. Vår målsättning är att hjälpa dig att uppnå en slätare och mer strålande hud, fri från tecken på tidigare acne.</p>';
+
+$description_title = 'Vad är microneedling mot akneärr?';
+$description_text = '<p class="p200">Microneedling är en effektiv behandlingsmetod mot akneärr som använder sig av precisionsutformade mikronålar för att förbättra hudens textur och minska akneärr. Genom att skapa små, nästan omärkliga punkteringar i huden, stimulerar denna teknik hudens egen läkningsmekanism och ökar produktionen av kollagen. Detta resulterar i en synbart fastare och mer enhetlig hudstruktur.</p>
+<p class="p200 mt-m">På Acnespecialisten anpassar vi varje microneedling-behandling till dina individuella hudbehov, speciellt när det gäller akneärr. Denna metod är idealisk för att uppnå en jämnare hudton och för att reducera synligheten av ärr. Med konsekventa behandlingar kommer du att uppleva en betydande förbättring av din hud, inklusive minskade porer. Vårt främsta mål är att hjälpa dig att uppnå en mjukare och jämnare hy.</p>';
 
 $types_title = '';
 $types_description = '';
 $big_types = array(
     new Service(
-        title: 'Dermapen mot Acneärr',
+        title: 'Microneedling mot akneärr',
         duration: '50 min',
         price: null,
-        content: '<p class="p200">Dermapen mot acneärr börjar med en skonsam rengöring, följt av en mikronålsbehandling som stimulerar hudens läkning och kollagenproduktion. Denna process minskar synligen acneärr och förbättrar hudtexturen. Efter behandlingen appliceras en lugnande kräm för att minska eventuell rodnad eller ömhet och främja läkning. Resultatet är en slätare hudton och en minskad synlighet av ärr.</p>',
+        content: '<p class="p200">En microneedling-behandling mot akneärr på Acnespecialisten inleds med att huden rengörs grundligt för att säkerställa en ren yta. Därefter genomförs själva microneedling-proceduren, där en specialiserad enhet med fina nålar varsamt punkterar hudens yta. Proceduren är precist kontrollerad för att säkerställa minimal obehag och maximal effektivitet, speciellt i områden med akneärr. Efter behandlingen tillämpas en lugnande och återfuktande kräm för att minska eventuell rodnad och påskynda återhämtningsprocessen.</p>',
         image_small: 'https://via.placeholder.com/358x274.webp',
         image_large: 'https://via.placeholder.com/872x456.webp',
-        image_alt: 'Dermapen mot Acneärr',
-        image_title: 'Dermapen mot Acneärr',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Dermapen',
+        image_alt: 'microneedling mot akneärr',
+        image_title: 'microneedling mot akneärr',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka konsultation',
-        booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_AcneScars',
+        booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_AcneScars',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka behandling',
         procedures: array(
@@ -93,19 +95,19 @@ $big_types = array(
                 label: '1 behandling',
                 price: '2595 kr',
                 savings: null,
-                booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_AcneScars&area=Microneedling_Face&procedures=PriceClass_5_Procedure_1'
+                booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_AcneScars&area=Microneedling_Face&procedures=PriceClass_5_Procedure_1'
             ),
             new Procedure(
                 label: '3 behandlingar',
                 price: '6995 kr',
                 savings: 'Spara 790 kr',
-                booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_AcneScars&area=Microneedling_Face&procedures=PriceClass_5_Procedure_3'
+                booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_AcneScars&area=Microneedling_Face&procedures=PriceClass_5_Procedure_3'
             ),
             new Procedure(
                 label: '5 behandlingar',
                 price: '9995 kr',
                 savings: 'Spara 2980 kr',
-                booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_AcneScars&area=Microneedling_Face&procedures=PriceClass_5_Procedure_5'
+                booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_AcneScars&area=Microneedling_Face&procedures=PriceClass_5_Procedure_5'
             )
         )
     ),
@@ -326,10 +328,10 @@ $all_brands = array(
         image_title: 'Powerlite Photonova',
     ),
     new Brand(
-        label: 'Dermapen',
-        image: 'images/brands/dermapen.svg',
-        image_alt: 'Dermapen',
-        image_title: 'Dermapen',
+        label: 'microneedling',
+        image: 'images/brands/microneedling.svg',
+        image_alt: 'microneedling',
+        image_title: 'microneedling',
     ),
     new Brand(
         label: 'CryoPen',
