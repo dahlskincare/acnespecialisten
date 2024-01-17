@@ -5,115 +5,145 @@ include_once('problem/widgets/symptom-card/symptom.php');
 include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Everything about Acne Scars - Treatment, Causes, and Prevention | Acnespecialisten';
-$seo_description = 'Explore everything about acne scars, from their underlying causes to effective treatment methods and preventive measures. Receive professional help and individual solutions from Acnespecialisten.';
-$seo_keywords = 'acne scars, acne scar treatment, causes of acne scars, preventing acne scars, acne scar removal, scar reduction, skin renewal, scar treatment';
+$seo_title = 'Akne på Ryggen - Information och  Behandling | Acnespecialisten';
+$seo_description = 'Utforska allt om akne på ryggen, dess orsaker, och upptäck personligt anpassade behandlingar hos Acnespecialisten för alla hudtyper och åldersgrupper.';
+$seo_keywords = 'akne på ryggen, ryggakne behandling, hudvård för ryggakne';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
-$seo_image = 'bilder/problem/424x456/aknearr.webp';
+$seo_image = 'bilder/problem/424x456/akne.webp';
 
-$title = 'Acne Scars';
+$title = 'Akne på ryggen';
 
-$image_small = 'bilder/problem/424x324/aknearr.webp';
-$image_large = 'bilder/problem/424x456/aknearr.webp';
-$image_title = 'Showing skin with Acne Scars';
-$image_alt = 'Image illustrating the appearance of acne scars on the skin';
-$description = 'In this section, we explain the characteristics of acne scars, how these scars can develop after acne, and how we can assist you with treatments to reduce them. We also cover how we identify different types of acne scars, the causes behind them, and how we can support you in your treatment process to restore your skin’s smoothness and appearance.';
+$image_small = 'bilder/problem/424x324/akne.webp';
+$image_large = 'bilder/problem/424x456/akne.webp';
+$image_title = 'Effektiv Behandling av Ryggakne';
+$image_alt = 'Bild som illustrerar behandling och vård av akne på ryggen';
+$description = 'Denna sektion ger dig en omfattande översikt över akne på ryggen, dess vanligaste orsaker som hormonella obalanser, stress och miljöfaktorer, samt Acnespecialistens anpassade behandlingsmetoder. Vi erbjuder också individuellt anpassade hudvårdsråd för att effektivt stödja personer med akne på ryggen i olika åldrar.';
 
 $akas = [
       new Link(
-            label: 'Pits',
-            url: 'atrofiska-arr.php',
-            title: 'About acne scars in the form of pits'
+            label: 'Akne',
+            url: 'acne.php',
+            title: 'Allt du behöver veta om akne och deras behandling'
       ),
       new Link(
-            label: 'Spots',
-            url: 'postinflammatorisk-hyperpigmentering.php',
-            title: 'About acne scars in the form of spots'
+            label: 'Vuxenakne',
+            url: 'vuxenakne.php',
+            title: 'Utforska orsaker, symptom och behandlingar av vuxenakne'
+      ),
+      new Link(
+            label: 'Tonårsakne',
+            url: 'tonarsakne.php',
+            title: 'Komplett guide om tonårsakne: orsaker, förebyggande och lösningar'
       ),
 ];
-$floating_box = 'Reduce acne scars effectively';
 
-$consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars";
-$consultation_url_label = "Free consultation";
-$consultation_url_title = "Free consultation for acne scars";
+$floating_box = 'Behandla dina akne på ryggen effektivt.';
 
-$booking_url = "https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_AcneScars";
-$booking_url_label = "Book treatment";
-$booking_url_title = "Book treatment for acne scars";
+$consultation_url_label = "Få gratis konsultation";
+$consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne";
+$consultation_url_title = "Gratis Konsultation för akne på ryggen";
 
-$mobile_consultation_url_label = "Free consultation";
-$mobile_consultation_url_title = "Free consultation for acne scars";
+$booking_url_label = "Boka behandling";
+$booking_url = "https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne";
+$booking_url_title = "Boka behandling";
 
-$mobile_booking_url_label = "Book treatment";
-$mobile_booking_url_title = "Book treatment for acne scars";
+$mobile_consultation_url_label = "Få gratis konsultation";
+$mobile_consultation_url_title = "Gratis Konsultation för akne på ryggen";
 
-$floating_consultation_url_label = "Free consultation";
-$floating_consultation_url_title = "Free consultation for acne scars";
+$mobile_booking_url_label = "Boka behandling";
+$mobile_booking_url_title = "Boka behandling";
 
-$floating_booking_url_label = "Book treatment";
-$floating_booking_url_title = "Book treatment for acne scars";
+$floating_consultation_url_label = "Få gratis konsultation";
+$floating_consultation_url_title = "Gratis Konsultation för akne på ryggen";
+
+$floating_booking_url_label = "Boka behandling";
+$floating_booking_url_title = "Boka behandling";
 
 $nav_buttons = array(
-      'about' => 'About acne scars',
-      'approach' => 'Method',
-      'areas' => 'Areas',
-      'articles' => 'When?',
-      'articles' => 'Why?',
-      'results' => 'Results',
-      'reviews' => 'Reviews',
+      'about' => 'Om akne på ryggen',
+      'approach' => 'Metoden',
+      'areas' => 'Områden',
+      'articles' => 'När?',
+      'articles' => 'Varför er?',
+      'results' => 'Resultat',
+      'reviews' => 'Omdömen',
       'faq' => 'FAQ',
-      'skin-guide' => 'Skinguide',
-      'specialists' => 'Specialists',
-      'related-problems' => 'Related problems',
+      'skin-guide' => 'Hudguide',
+      'specialists' => 'Specialister',
+      'related-problems' => 'Relaterade problem',
 );
 
-$description_title = 'Understanding Acne Scars';
-$description_text = '<p class="p200">Acne scars are a common aftermath of severe or improperly treated acne. These scars can manifest in various forms, including pits, raised tissue, and discoloration of the skin. Understanding the type of acne scars you have is crucial in determining the most effective treatment approach.</p>
-<p class="p200 mt-m">At Acnespecialisten, we offer a range of treatments tailored to the specific types of acne scars. From laser therapy and chemical peels to microdermabrasion and specialized skincare regimens, our goal is to reduce the visibility of scars and improve your skin’s overall texture and appearance. Each treatment is customized to your skin’s needs, ensuring the best possible care and results.</p>';
+$description_title = 'Förstå och Behandla akne på ryggen';
+$description_text = '<p class="p200">Akne på ryggen är en vanlig hudåkomma som drabbar människor i alla åldrar, påverkad av olika faktorer såsom hormonella förändringar och stress. Hos Acnespecialisten fokuserar vi på att identifiera de unika orsakerna till din bröstakne och erbjuder skräddarsydda behandlingar och hudvårdsstrategier. Vår mångsidiga behandlingsmetod innefattar allt från skonsamma djuprengörande procedurer till avancerade behandlingar för att effektivt minska akne och dess effekter på huden.</p>
+<p class="p200 mt-m">Med vår expertis utvecklar vi individuella hudvårdsplaner som omfattar både behandlingar och dagliga hudvårdsrutiner anpassade för din hudtyp och akneintensitet. Våra behandlingsprogram är utformade för att lugna huden, minska inflammation och främja en hälsosam hudbalans, vilket bidrar till en klarare och jämnare hudton över tiden.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
-            title: 'Identify',
-            content: 'At Acnespecialisten, you will be paired with a personal skin therapist who helps you identify your type of acne and creates an individual treatment plan.',
-            url_label: 'Get a free consultation',
-            url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
-            url_title: 'Book your free skin consultation today'
+            title: 'Identifiera',
+            content: 'Vår specialiserade konsultation på AcneSpecialisten är skräddarsydd för att analysera de unika egenskaperna hos din akne på ryggen. Genom vår expertanalys identifierar vi de bakomliggande faktorerna och tar fram en personlig behandlingsurint för din akne.',
+            url_label: 'Få gratis konsultation',
+            url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne_Back',
+            url_title: 'Boka din kostnadsfria hudkonsultation för akne på ryggen idag'
       ),
       new TreatmentStep(
-            title: 'Treat',
-            content: 'We perform gentle and effective acne treatments tailored to your specific type of acne, helping you quickly and safely eliminate the problem.',
-            url_label: 'See acne treatments',
-            url: 'acnebehandling.php',
-            url_title: 'Explore our customized acne treatments'
-        ),
-        new TreatmentStep(
-            title: 'Prevent',
-            content: 'We assist you in finding a skincare routine and products that suit your skin type to prevent new acne and keep your skin balanced.',
-            url_label: 'See products',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
-            url_title: 'Find the best products to prevent acne'
-        ),
-        new TreatmentStep(
-            title: 'Repair',
-            content: 'Once the acne is resolved, we focus on reducing any scars with treatment methods like laser, microneedling, and chemical peels for smooth and scar-free skin.',
-            url_label: 'See scar treatments',
-            url: 'behandla-acnearr.php',
-            url_title: 'Discover effective treatments for acne scars'
-        ),
+            title: 'Behandla',
+            content: 'Varje behandling för akne på ryggen anpassas utifrån din huds specifika behov. Vi erbjuder ett brett spektrum av behandlingar, från mild exfoliering till djuprengörande metoder, för att effektivt bekämpa akne på ryggen och främja en klarare hud.',
+            url_label: 'Se ryggaknebehandlingar',
+            url: 'https://acnespecialisten.se/book?flow=backProblem&problem=Problem_Acne_Back',
+            url_title: 'Utforska våra skräddarsydda behandlingar för ryggakne'
+      ),
+      new TreatmentStep(
+            title: 'Förebygga',
+            content: 'För att förhindra framtida utbrott av ryggakne, erbjuder vi skräddarsydda hudvårdsprodukter och rutiner. Dessa produkter är specialutformade för att balansera din hud och motverka de faktorer som bidrar till akne, vilket hjälper till att hålla din hud hälsosam och ren.',
+            url_label: 'Se produkter',
+            url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne_rygg',
+            url_title: 'Hitta de bästa produkterna för att förebygga ryggakne'
+      ),
+      new TreatmentStep(
+            title: 'Reparera',
+            content: 'Efter behandling av aktiv ryggakne, inriktar vi oss på att reparera och förbättra hudens textur. Vi erbjuder behandlingsmetoder som minskar ärrbildning och förbättrar hudens tillstånd, vilket ger långsiktiga resultat för en jämn och fräsch hudton.',
+            url_label: 'Se ärrbehandlingar',
+            url: 'behandla-acnearr_rygg.php',
+            url_title: 'Upptäck effektiva behandlingar för ärr från ryggakne'
+      ),
 );
-$treatment_link = '<a href="behandla-acnearr.php" title="Explore effective acne scar treatments" class="mt-xl button b200 outline expand auto-width">Learn more about our acne scar treatments</a>';
+
+$treatment_link = '<a href="acnebehandling_rygg.php" title="Utforska effektiva behandlingar mot akne på ryggen" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot ryggakne</a>';
+
 
 $top_articles = array(
     'areas' => new Article(
-        title: 'Why and where does acne scars appear?',
+        title: 'Varför uppstår akne på ryggen?',
         image_small: '',
         image_large: '',
         image_alt: '',
         image_title: '',
-        content: '<p class="p200">Understanding the origins and typical locations of acne scars is essential for effective treatment. Acne scars often form as a result of severe acne, particularly when it causes deep inflammation in the skin. This can lead to the breakdown of skin tissue, which, upon healing, might result in uneven collagen production. Excessive collagen leads to raised scars, while insufficient collagen can create depressions or pits in the skin. Acne scars commonly appear in areas with higher concentrations of sebaceous glands, such as the face, back, chest, and shoulders. A comprehensive consultation with our skin specialists is crucial for identifying these scarring issues and tailoring a personalized treatment plan to your specific skin needs.</p>',
+        content: '<p class="p200">Akne på ryggen kan uppstå genom en kombination av faktorer, där hormonella förändringar ofta spelar en stor roll. Dessa förändringar kan leda till ökad talgproduktion och därmed tilltäppta porer, en primär orsak till akne. Stress är en annan betydande faktor som kan förvärra hudens tillstånd genom att påverka hormonbalansen. Ytterligare en orsak kan vara friktion från kläder och sportutrustning, som exempelvis skydd vid olika sportaktiviteter, vilket kan bidra till aknes uppkomst genom ökad svettning och irritation av huden. akne kan dyka upp inte bara på ryggen utan även på andra delar av kroppen, som bröstet.</p>
+            <p class="p200 mt-m">Att hantera akne på ryggen effektivt kräver en hudvårdsrutin som är specifikt anpassad till de utmaningar som denna typ av akne medför. Det är viktigt att välja produkter som är skonsamma men effektiva för att minska irritation och samtidigt bevara hudens naturliga balans. Hos AcneSpecialisten står våra erfarna hudterapeuter redo att ge dig personlig rådgivning och rekommendationer, och skapa en hudvårdsrutin som stödjer en balanserad hud. Vi tar hänsyn till de speciella förutsättningarna som krävs för att effektivt hantera akne på ryggen.</p>',
     ),
+);
+
+$articles = array(
+      new Article(
+            title: 'När är det dags att söka professionell hjälp för akne på ryggen?',
+            image_small: 'https://via.placeholder.com/358x272.webp',
+            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_alt: 'När är det dags att söka professionell hjälp för akne på ryggen?',
+            image_title: 'När är det dags att söka professionell hjälp för akne på ryggen?',
+            content: '<p class="p200">Ryggakne kan uppstå av flera olika anledningar, där en kombination av faktorer som hormonella förändringar och stress spelar en stor roll. Dessa kan leda till ökad talgproduktion och tilltäppta porer. Att identifiera när det är dags att söka professionell hjälp är viktigt för att förhindra långsiktiga effekter på huden. På AcneSpecialisten erbjuder vi en helhetsorienterad metod för att effektivt hantera din ryggakne. En personligt anpassad hudvårdsrutin är central, där val av produkter som är både effektiva och skonsamma är avgörande för att förebygga ytterligare hudirritation och upprätthålla en hälsosam hudmiljö.</p>',
+      ),
+
+      new Article(
+            title: 'Varför AcneSpecialisten är det bästa valet för behandling av din akne på ryggen',
+            image_small: 'https://via.placeholder.com/358x272.webp',
+            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_alt: 'Varför AcneSpecialisten är det bästa valet för behandling av din akne på ryggen',
+            image_title: 'Varför AcneSpecialisten är det bästa valet för behandling av din akne på ryggen',
+            content: '<p class="p200">Med över 30 års erfarenhet inom behandling av akne på ryggen, har AcneSpecialisten utvecklat en djup förståelse för hudens komplexitet och behov. Vi erbjuder unika, skräddarsydda behandlingar anpassade för varje enskild klients unika situation.</p>
+            <p class="p200 mt-m">Vårt team på AcneSpecialisten utvecklar personliga behandlingsplaner, inriktade på att behandla aktuella hudproblem samt utbilda kunder om hur man bibehåller en hälsosam hud över tid. Vårt engagemang och vår expertis gör oss till det självklara valet för de som söker effektiva och hållbara lösningar på sin ryggakne.</p>',
+      ),
 );
 
 $results = array(
@@ -544,6 +574,12 @@ $brands_url_title = "Se alla varumärken";
                               ?>
                           </section>
                       <?php } ?>
+
+                        <section id="articles">
+                              <?php foreach ($articles as $article) { ?>
+                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php'); ?>
+                              <?php } ?>
+                        </section>
                         
                         <section id="results">
                               <?php

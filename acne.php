@@ -30,17 +30,17 @@ $description = 'Här förklarar vi vad som kännetecknar akne, varför problemet
 $akas = [
       new Link(
             label: 'Finnar',
-            url: 'problem/finnar',
+            url: 'finnar.php',
             title: 'Allt du behöver veta om finnar och deras behandling'
       ),
       new Link(
             label: 'Vuxenakne',
-            url: 'problem/vuxenakne',
+            url: 'vuxenakne.php',
             title: 'Utforska orsaker, symptom och behandlingar av vuxenakne'
       ),
       new Link(
             label: 'Tonårsakne',
-            url: 'problem/tonarsakne',
+            url: 'tonarsakne.php',
             title: 'Komplett guide om tonårsakne: orsaker, förebyggande och lösningar'
       ),
 ];

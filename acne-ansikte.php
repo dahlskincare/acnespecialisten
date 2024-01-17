@@ -5,115 +5,145 @@ include_once('problem/widgets/symptom-card/symptom.php');
 include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Everything about Acne Scars - Treatment, Causes, and Prevention | Acnespecialisten';
-$seo_description = 'Explore everything about acne scars, from their underlying causes to effective treatment methods and preventive measures. Receive professional help and individual solutions from Acnespecialisten.';
-$seo_keywords = 'acne scars, acne scar treatment, causes of acne scars, preventing acne scars, acne scar removal, scar reduction, skin renewal, scar treatment';
+$seo_title = 'Akne i Ansiktet - Förståelse och Behandling| Acnespecialisten';
+$seo_description = 'Utforska djupgående insikter om akne i ansiktet, dess orsaker och skräddarsydda behandlingsmetoder hos Acnespecialisten för alla hudtyper och åldrar.';
+$seo_keywords = 'akne i ansiktet, ansiktsakne behandling, hudvård för ansiktsakne';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
-$seo_image = 'bilder/problem/424x456/aknearr.webp';
+$seo_image = 'bilder/problem/424x456/akne.webp';
 
-$title = 'Acne Scars';
+$title = 'Akne i ansiktet';
 
-$image_small = 'bilder/problem/424x324/aknearr.webp';
-$image_large = 'bilder/problem/424x456/aknearr.webp';
-$image_title = 'Showing skin with Acne Scars';
-$image_alt = 'Image illustrating the appearance of acne scars on the skin';
-$description = 'In this section, we explain the characteristics of acne scars, how these scars can develop after acne, and how we can assist you with treatments to reduce them. We also cover how we identify different types of acne scars, the causes behind them, and how we can support you in your treatment process to restore your skin’s smoothness and appearance.';
+$image_small = 'bilder/problem/424x324/akne.webp';
+$image_large = 'bilder/problem/424x456/akne.webp';
+$image_title = 'Behandling av ansiktsakne';
+$image_alt = 'Bild som illustrerar ansiktsakne och dess behandling';
+$description = 'Denna avdelning erbjuder en detaljerad översikt över akne i ansiktet, dess vanligaste orsaker som hormonella obalanser, stress och miljöfaktorer, samt Acnespecialistens effektiva behandlingar. Vi delar också med oss av individuellt anpassade hudvårdsråd för att stödja personer med ansiktsakne i olika åldrar.';
 
 $akas = [
       new Link(
-            label: 'Pits',
-            url: 'atrofiska-arr.php',
-            title: 'About acne scars in the form of pits'
+            label: 'Akne',
+            url: 'acne.php',
+            title: 'Allt du behöver veta om akne och deras behandling'
       ),
       new Link(
-            label: 'Spots',
-            url: 'postinflammatorisk-hyperpigmentering.php',
-            title: 'About acne scars in the form of spots'
+            label: 'Vuxenakne',
+            url: 'vuxenakne.php',
+            title: 'Utforska orsaker, symptom och behandlingar av vuxenakne'
+      ),
+      new Link(
+            label: 'Tonårsakne',
+            url: 'tonarsakne.php',
+            title: 'Komplett guide om tonårsakne: orsaker, förebyggande och lösningar'
       ),
 ];
-$floating_box = 'Reduce acne scars effectively';
 
-$consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars";
-$consultation_url_label = "Free consultation";
-$consultation_url_title = "Free consultation for acne scars";
+$floating_box = 'Behandla dina akne i ansiktet effektivt.';
 
-$booking_url = "https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_AcneScars";
-$booking_url_label = "Book treatment";
-$booking_url_title = "Book treatment for acne scars";
+$consultation_url_label = "Få gratis konsultation";
+$consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne";
+$consultation_url_title = "Gratis Konsultation för akne i ansiktet";
 
-$mobile_consultation_url_label = "Free consultation";
-$mobile_consultation_url_title = "Free consultation for acne scars";
+$booking_url_label = "Boka behandling";
+$booking_url = "https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne";
+$booking_url_title = "Boka behandling";
 
-$mobile_booking_url_label = "Book treatment";
-$mobile_booking_url_title = "Book treatment for acne scars";
+$mobile_consultation_url_label = "Få gratis konsultation";
+$mobile_consultation_url_title = "Gratis Konsultation för akne i ansiktet";
 
-$floating_consultation_url_label = "Free consultation";
-$floating_consultation_url_title = "Free consultation for acne scars";
+$mobile_booking_url_label = "Boka behandling";
+$mobile_booking_url_title = "Boka behandling";
 
-$floating_booking_url_label = "Book treatment";
-$floating_booking_url_title = "Book treatment for acne scars";
+$floating_consultation_url_label = "Få gratis konsultation";
+$floating_consultation_url_title = "Gratis Konsultation för akne i ansiktet";
+
+$floating_booking_url_label = "Boka behandling";
+$floating_booking_url_title = "Boka behandling";
 
 $nav_buttons = array(
-      'about' => 'About acne scars',
-      'approach' => 'Method',
-      'areas' => 'Areas',
-      'articles' => 'When?',
-      'articles' => 'Why?',
-      'results' => 'Results',
-      'reviews' => 'Reviews',
+      'about' => 'Om akne i ansiktet',
+      'approach' => 'Metoden',
+      'areas' => 'Områden',
+      'articles' => 'När?',
+      'articles' => 'Varför er?',
+      'results' => 'Resultat',
+      'reviews' => 'Omdömen',
       'faq' => 'FAQ',
-      'skin-guide' => 'Skinguide',
-      'specialists' => 'Specialists',
-      'related-problems' => 'Related problems',
+      'skin-guide' => 'Hudguide',
+      'specialists' => 'Specialister',
+      'related-problems' => 'Relaterade problem',
 );
 
-$description_title = 'Understanding Acne Scars';
-$description_text = '<p class="p200">Acne scars are a common aftermath of severe or improperly treated acne. These scars can manifest in various forms, including pits, raised tissue, and discoloration of the skin. Understanding the type of acne scars you have is crucial in determining the most effective treatment approach.</p>
-<p class="p200 mt-m">At Acnespecialisten, we offer a range of treatments tailored to the specific types of acne scars. From laser therapy and chemical peels to microdermabrasion and specialized skincare regimens, our goal is to reduce the visibility of scars and improve your skin’s overall texture and appearance. Each treatment is customized to your skin’s needs, ensuring the best possible care and results.</p>';
+$description_title = 'Förstå och Behandla Akne i Ansiktet';
+$description_text = '<p class="p200">Akne i ansiktet är en vanlig hudåkomma som drabbar människor i alla åldersgrupper, påverkad av en rad olika faktorer som hormonella förändringar och stress. På Acnespecialisten fokuserar vi på att förstå de unika orsakerna till din ansiktsakne och tillhandahåller personligt anpassade behandlingar och hudvårdsstrategier. Vår mångsidiga behandlingsmetodik omfattar allt från skonsamma, djuprengörande procedurer till avancerade behandlingar för att effektivt minska akne och dess påverkan på huden.</p>
+<p class="p200 mt-m">Med vår expertis skapar vi individuella hudvårdsplaner som inkluderar både behandlingar och dagliga hudvårdsrutiner anpassade efter din hudtyp och akneintensitet. Våra behandlingsprogram syftar till att lugna huden, minska inflammation och främja hudens balans, vilket bidrar till en klarare och mer jämn hudton över tid.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
-            title: 'Identify',
-            content: 'At Acnespecialisten, you will be paired with a personal skin therapist who helps you identify your type of acne and creates an individual treatment plan.',
-            url_label: 'Get a free consultation',
+            title: 'Identifiera',
+            content: 'Vår specialiserade konsultation på AcneSpecialisten är utformad för att kartlägga de unika egenskaperna hos din ansiktsakne. Genom vår expertis identifierar vi de bakomliggande faktorerna och utvecklar en personlig behandlingsplan för att effektivt hantera dina hudproblem.',
+            url_label: 'Få gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
-            url_title: 'Book your free skin consultation today'
+            url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
-            title: 'Treat',
-            content: 'We perform gentle and effective acne treatments tailored to your specific type of acne, helping you quickly and safely eliminate the problem.',
-            url_label: 'See acne treatments',
-            url: 'acnebehandling.php',
-            url_title: 'Explore our customized acne treatments'
-        ),
-        new TreatmentStep(
-            title: 'Prevent',
-            content: 'We assist you in finding a skincare routine and products that suit your skin type to prevent new acne and keep your skin balanced.',
-            url_label: 'See products',
+            title: 'Behandla',
+            content: 'Vi anpassar varje behandling för akne i ansiktet baserat på din huds individuella behov. Med vårt breda utbud av behandlingar, från milt exfolierande till djuprengörande metoder, erbjuder vi effektiva lösningar för att bekämpa akne och främja en klarare hud.',
+            url_label: 'Se aknebehandlingar',
+            url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne',
+            url_title: 'Utforska våra skräddarsydda aknebehandlingar'
+      ),
+      new TreatmentStep(
+            title: 'Förebygga',
+            content: 'För att förebygga framtida utbrott av akne i ansiktet, erbjuder vi skräddarsydda hudvårdsprodukter och rutiner. Dessa är specifikt utformade för att balansera din hud och motverka faktorer som bidrar till akne, hållande din hud hälsosam och ren.',
+            url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
-            url_title: 'Find the best products to prevent acne'
-        ),
-        new TreatmentStep(
-            title: 'Repair',
-            content: 'Once the acne is resolved, we focus on reducing any scars with treatment methods like laser, microneedling, and chemical peels for smooth and scar-free skin.',
-            url_label: 'See scar treatments',
+            url_title: 'Hitta de bästa produkterna för att förebygga akne'
+      ),
+      new TreatmentStep(
+            title: 'Reparera',
+            content: 'Efter att ha behandlat aktiv akne fokuserar vi på att reparera huden. Våra behandlingar inkluderar metoder för att minska ärrbildning och förbättra hudens textur, bidragande till en jämn och fräsch hudton för långsiktiga resultat.',
+            url_label: 'Se ärrbehandlingar',
             url: 'behandla-acnearr.php',
-            url_title: 'Discover effective treatments for acne scars'
-        ),
+            url_title: 'Upptäck effektiva behandlingar för ärr från akne'
+      ),
 );
-$treatment_link = '<a href="behandla-acnearr.php" title="Explore effective acne scar treatments" class="mt-xl button b200 outline expand auto-width">Learn more about our acne scar treatments</a>';
+
+$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar mot akne i ansiktet" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot akne</a>';
+
 
 $top_articles = array(
     'areas' => new Article(
-        title: 'Why and where does acne scars appear?',
+        title: 'Varför uppstår akne i ansiktet?',
         image_small: '',
         image_large: '',
         image_alt: '',
         image_title: '',
-        content: '<p class="p200">Understanding the origins and typical locations of acne scars is essential for effective treatment. Acne scars often form as a result of severe acne, particularly when it causes deep inflammation in the skin. This can lead to the breakdown of skin tissue, which, upon healing, might result in uneven collagen production. Excessive collagen leads to raised scars, while insufficient collagen can create depressions or pits in the skin. Acne scars commonly appear in areas with higher concentrations of sebaceous glands, such as the face, back, chest, and shoulders. A comprehensive consultation with our skin specialists is crucial for identifying these scarring issues and tailoring a personalized treatment plan to your specific skin needs.</p>',
+        content: '<p class="p200">Orsakerna till akne i ansiktet är mångfacetterade och involverar ofta en kombination av faktorer. En primär orsak är hormonella förändringar som kan stimulera överproduktion av talg, vilket leder till tilltäppta porer och akneutbrott. Stress har också visat sig kunna förvärra akne genom att påverka hormonbalansen och öka hudens talgproduktion. På AcneSpecialisten fokuserar vi på en helhetssyn av dina hudproblem för att effektivt adressera akne i ansiktet.</p>
+            <p class="p200 mt-m">Ett riktat tillvägagångssätt för att hantera akne i ansiktet kräver en noga anpassad hudvårdsrutin. Det är avgörande att välja produkter som är effektiva men samtidigt skonsamma mot huden för att undvika ytterligare irritation. På AcneSpecialisten arbetar vi nära med dig för att skapa en personligt anpassad hudvårdsrutin som stärker och balanserar din hud, och bidrar till att förebygga framtida akneutbrott och främja en hälsosam hudmiljö.</p>',
     ),
+);
+
+$articles = array(
+      new Article(
+            title: 'När är det dags att söka professionell hjälp för akne i ansiktet?',
+            image_small: 'https://via.placeholder.com/358x272.webp',
+            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_alt: 'När är det dags att söka professionell hjälp för akne i ansiktet?',
+            image_title: 'När är det dags att söka professionell hjälp för akne i ansiktet?',
+            content: '<p class="p200">Akne i ansiktet kan vara mer än bara ett hudproblem – det kan även leda till emotionellt obehag. Om du upplever att din akne är ihållande eller förvärras, är det en signal om att det kan vara läge att söka professionell hjälp. Tidig behandling är nyckeln till att förebygga ärr och andra långsiktiga hudproblem. Genom professionell rådgivning kan du få hjälp med att behandla nuvarande utbrott samt råd om förebyggande åtgärder och anpassade hudvårdsrutiner för att bevara en frisk hud.</p>',
+      ),
+
+      new Article(
+            title: 'Varför välja AcneSpecialisten för din aknebehandling i ansiktet?',
+            image_small: 'https://via.placeholder.com/358x272.webp',
+            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_alt: 'Varför välja AcneSpecialisten för din aknebehandling i ansiktet?',
+            image_title: 'Varför välja AcneSpecialisten för din aknebehandling i ansiktet?',
+            content: '<p class="p200">AcneSpecialisten står ut med över 30 års erfarenhet av att behandla akne i ansiktet. Vår djupa förståelse för hudens komplexitet och behov gör att vi kan erbjuda unika, skräddarsydda behandlingar anpassade efter varje individs situation.</p>
+            <p class="p200 mt-m">Vi på AcneSpecialisten utvecklar personliga behandlingsplaner för varje kund, med fokus på att inte bara lindra nuvarande hudproblem utan också utbilda om hur man upprätthåller en hälsosam hud långsiktigt. Vårt engagemang och vår kunskap gör oss till det självklara valet för dem som söker hållbara lösningar för akne i ansiktet.</p>',
+      ),
 );
 
 $results = array(
@@ -544,6 +574,12 @@ $brands_url_title = "Se alla varumärken";
                               ?>
                           </section>
                       <?php } ?>
+
+                        <section id="articles">
+                              <?php foreach ($articles as $article) { ?>
+                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php'); ?>
+                              <?php } ?>
+                        </section>
                         
                         <section id="results">
                               <?php
