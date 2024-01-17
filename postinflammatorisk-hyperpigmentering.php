@@ -5,21 +5,21 @@ include_once('problem/widgets/symptom-card/symptom.php');
 include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Atrofiska Ärr: Behandling och Förståelse | Acnespecialisten';
-$seo_description = 'Lär dig om atrofiska ärr, deras orsaker och effektiva behandlingsalternativ. Acnespecialisten ger professionell hjälp och skräddarsydda lösningar för ärrminskning.';
-$seo_keywords = 'atrofiska ärr, orsaker till atrofiska ärr';
+$seo_title = 'Postinflammatorisk Hyperpigmentering: Behandling och Förståelse | Acnespecialisten';
+$seo_description = 'Upptäck allt om postinflammatorisk hyperpigmentering, dess orsaker och effektiva behandlingar. Acnespecialisten erbjuder professionell hjälp och individuellt anpassade lösningar.';
+$seo_keywords = 'postinflammatorisk hyperpigmentering, behandling av hyperpigmentering';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
 $seo_image = 'bilder/problem/424x456/aknearr.webp';
 
-$title = 'Atrofiska ärr';
+$title = 'Postinflammatorisk Hyperpigmentering';
 
 $image_small = 'bilder/problem/424x324/aknearr.webp';
 $image_large = 'bilder/problem/424x456/aknearr.webp';
-$image_title = 'Visar hud med atrofiska ärr';
-$image_alt = 'Bild som illustrerar atrofiska ärr på huden';
-$description = 'I denna sektion förklarar vi vad atrofiska ärr är, hur de kan uppstå som resultat av akne, och hur vi på Acnespecialisten kan hjälpa dig med behandlingar för att minska dessa ärr. Vi diskuterar också hur vi identifierar olika typer av atrofiska ärr, de bakomliggande orsakerna, och hur vi kan stödja dig genom behandlingsprocessen för att förbättra hudens textur och utseende.';
+$image_title = 'Exempel på postinflammatorisk hyperpigmentering';
+$image_alt = 'Bild som visar effekterna av postinflammatorisk hyperpigmentering på huden';
+$description = 'I denna sektion utforskar vi vad postinflammatorisk hyperpigmentering är, hur det kan uppkomma som ett resultat av inflammationer såsom akne, och hur Acnespecialisten kan bistå dig med behandlingar för att reducera dessa pigmentförändringar. Vi diskuterar även hur vi identifierar olika former av hyperpigmentering, de bakomliggande faktorerna, och hur vi kan guida dig genom behandlingsprocessen för att återställa en mer enhetlig hudton och förbättra hudens övergripande utseende.';
 
 $akas = [
       new Link(
@@ -29,30 +29,30 @@ $akas = [
       ),
 ];
 
-$floating_box = 'Information om atrofiska ärr';
+$floating_box = 'Information om postinflammatorisk hyperpigmentering';
 
 $consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars";
 $consultation_url_label = "Få gratis konsultation";
-$consultation_url_title = "Gratis Konsultation för atrofiska ärr";
+$consultation_url_title = "Gratis Konsultation för postinflammatorisk hyperpigmentering";
 
 $booking_url = "https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_AcneScars";
 $booking_url_label = "Boka behandling";
-$booking_url_title = "Boka behandling mot atrofiska ärr";
+$booking_url_title = "Boka behandling mot postinflammatorisk hyperpigmentering";
 
 $mobile_consultation_url_label = "Få gratis konsultation";
-$mobile_consultation_url_title = "Gratis Konsultation för atrofiska ärr";
+$mobile_consultation_url_title = "Gratis Konsultation för postinflammatorisk hyperpigmentering";
 
 $mobile_booking_url_label = "Boka behandling";
-$mobile_booking_url_title = "Boka atrofiska ärr behandling";
+$mobile_booking_url_title = "Boka postinflammatorisk hyperpigmentering-behandling";
 
 $floating_consultation_url_label = "Få gratis konsultation";
-$floating_consultation_url_title = "Gratis Konsultation för atrofiska ärr";
+$floating_consultation_url_title = "Gratis Konsultation för postinflammatorisk hyperpigmentering";
 
 $floating_booking_url_label = "Boka behandling";
-$floating_booking_url_title = "Boka behandling mot atrofiska ärr";
+$floating_booking_url_title = "Boka behandling mot postinflammatorisk hyperpigmentering";
 
 $nav_buttons = array(
-      'about' => 'Om atrofiska ärr',
+      'about' => 'Om postinflammatorisk hyperpigmentering',
       'approach' => 'Metoden',
       'areas' => 'Områden',
       'articles' => 'När?',
@@ -65,38 +65,38 @@ $nav_buttons = array(
       'related-problems' => 'Relaterade problem',
 );
 
-$description_title = 'Om atrofiska ärr';
-$description_text = '<p class="p200">Atrofiska ärr kännetecknas av fördjupningar eller gropar i huden och är ofta resultatet av akne. Dessa ärr uppstår när huden inte kan återskapa tillräckligt med kollagen under läkningsprocessen efter en akneutbrott. Detta leder till att ärrvävnad bildas under hudens normala ytnivå.</p>
-<p class="p200 mt-m">På Acnespecialisten erbjuder vi olika behandlingar för atrofiska ärr, inklusive laserterapi, mikroneedling och kemiska peelingar. Dessa behandlingar är utformade för att stimulera hudens kollagenproduktion och därmed minska ärrvävnadens synlighet. Våra hudterapeuter skräddarsyr varje behandling efter dina specifika behov för att uppnå bästa möjliga resultat och hjälper dig att återställa en jämnare hudtextur och förbättrat utseende.</p>';
+$description_title = 'Om Postinflammatorisk Hyperpigmentering';
+$description_text = '<p class="p200">Postinflammatorisk hyperpigmentering är mörkare hudområden som uppstår efter en inflammation, såsom akne, och är resultatet av en överproduktion av melanin. Detta tillstånd kan visa sig som fläckar eller större områden av missfärgning på huden.</p>
+<p class="p200 mt-m">På Acnespecialisten erbjuder vi olika behandlingsalternativ för postinflammatorisk hyperpigmentering, inklusive speciella ljusbehandlingar och kemiska peelingar. Dessa behandlingar syftar till att jämna ut hudtonen och minska synligheten av missfärgning. Våra erfarna hudterapeuter anpassar varje behandlingsplan till dina individuella behov och arbetar för att hjälpa dig att uppnå en klarare och mer jämn hudton.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'På AcneSpecialisten får du personlig hjälp från en erfaren hudterapeut som specialiserar sig på atrofiska ärr. Vi genomför en noggrann analys av dina ärr och tar fram en skräddarsydd behandlingsplan anpassad efter just dina behov och din ärrtyp.',
+            content: 'Hos AcneSpecialisten får du professionell hjälp av en hudterapeut som är expert på postinflammatorisk hyperpigmentering. Vi utför en grundlig analys av din hud för att identifiera områden med hyperpigmentering och skapar en behandlingsplan som är unikt anpassad för din hudtyp och dina specifika behov.',
             url_label: 'Få gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars',
-            url_title: 'Boka din kostnadsfria konsultation för atrofiska ärr'
+            url_title: 'Boka din kostnadsfria konsultation för postinflammatorisk hyperpigmentering'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi erbjuder specialiserade behandlingar för atrofiska ärr som är både effektiva och skonsamma. Med vår expertis och målinriktade metoder arbetar vi för att förbättra hudens struktur och utseende, så att du kan känna dig säker och nöjd med ditt hudtillstånd.',
-            url_label: 'Se behandlingar för atrofiska ärr',
+            content: 'Vi erbjuder avancerade behandlingar för postinflammatorisk hyperpigmentering, anpassade för att effektivt minska mörka fläckar och förbättra hudens ton och utseende. Våra behandlingsmetoder inkluderar speciella ljusbehandlingar, kemiska peelingar och topiska produkter, alla utvalda för att ge bästa möjliga resultat för din hud.',
+            url_label: 'Se behandlingar för postinflammatorisk hyperpigmentering',
             url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_AcneScars',
-            url_title: 'Upptäck våra anpassade behandlingar för atrofiska ärr'
+            url_title: 'Upptäck våra anpassade behandlingar för postinflammatorisk hyperpigmentering'
       ),
 );
 
-$treatment_link = '<a href="behandla-acnearr.php" title="Utforska effektiva behandlingar för atrofiska ärr" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar för atrofiska ärr</a>';
+$treatment_link = '<a href="behandla-acnearr.php" title="Utforska effektiva behandlingar för postinflammatorisk hyperpigmentering" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar för postinflammatorisk hyperpigmentering</a>';
 
 $top_articles = array(
     'areas' => new Article(
-        title: 'Var och varför uppstår atrofiska ärr?',
+        title: 'Var och varför uppstår postinflammatorisk hyperpigmentering?',
         image_small: '',
         image_large: '',
         image_alt: '',
         image_title: '',
-        content: '<p class="p200">Atrofiska ärr, som ofta uppstår efter akne, är resultatet av en skada som lämnar huden med otillräcklig mängd kollagen. När huden läker kan den inte alltid återskapa dess ursprungliga jämnhet och fasthet, vilket leder till att dessa indragna ärr bildas. Att förstå din huds unika historia och nuvarande tillstånd är avgörande för att effektivt behandla atrofiska ärr.</p>
-      <p class="p200 mt-m">Under en initial konsultation kommer våra hudterapeuter att utföra en noggrann bedömning av dina ärr. Vi undersöker de specifika egenskaperna hos dina ärr, såsom deras djup och placering, för att skapa en skräddarsydd behandlingsplan. För att säkerställa bästa möjliga resultat från behandlingen, är det viktigt att din hud är i optimalt skick. Det innebär att undvika solskador och att inte använda starka eller irriterande hudvårdsprodukter innan behandlingen. Vår erfarna hudterapeut kommer att ge dig anpassade råd för att förbereda din hud inför behandling av dina atrofiska ärr, för en säker och effektiv upplevelse.</p>',
+        content: '<p class="p200">postinflammatorisk hyperpigmentering, som ofta uppstår efter akne, är resultatet av en skada som lämnar huden med otillräcklig mängd kollagen. När huden läker kan den inte alltid återskapa dess ursprungliga jämnhet och fasthet, vilket leder till att dessa indragna ärr bildas. Att förstå din huds unika historia och nuvarande tillstånd är avgörande för att effektivt behandla postinflammatorisk hyperpigmentering.</p>
+      <p class="p200 mt-m">Under en initial konsultation kommer våra hudterapeuter att utföra en noggrann bedömning av dina ärr. Vi undersöker de specifika egenskaperna hos dina ärr, såsom deras djup och placering, för att skapa en skräddarsydd behandlingsplan. För att säkerställa bästa möjliga resultat från behandlingen, är det viktigt att din hud är i optimalt skick. Det innebär att undvika solskador och att inte använda starka eller irriterande hudvårdsprodukter innan behandlingen. Vår erfarna hudterapeut kommer att ge dig anpassade råd för att förbereda din hud inför behandling av dina postinflammatorisk hyperpigmentering, för en säker och effektiv upplevelse.</p>',
     ),
 );
 
