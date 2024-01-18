@@ -5,21 +5,21 @@ include_once('problem/widgets/symptom-card/symptom.php');
 include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Acne Vulgaris - Djupgående Förståelse och Effektiv Behandling | Acnespecialisten';
-$seo_description = 'Utforska insikter om acne vulgaris, dess orsaker och Acnespecialistens skräddarsydda behandlingsmetoder för alla hudtyper och åldersgrupper.';
-$seo_keywords = 'acne vulgaris, behandling av acne vulgaris, hudvård för acne vulgaris';
+$seo_title = 'Mallorca akne - Förståelse och Effektiv Behandling | Acnespecialisten';
+$seo_description = 'Lär dig om Mallorca akne, dess orsaker, inklusive exponering för sol, och upptäck Acnespecialistens anpassade behandlingsmetoder.';
+$seo_keywords = 'Mallorca akne, behandling av Mallorca akne, hudvård för Mallorca akne';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
 $seo_image = 'bilder/problem/424x456/akne.webp';
 
-$title = 'Acne Vulgaris';
+$title = 'Mallorca akne';
 
 $image_small = 'bilder/problem/424x324/akne.webp';
 $image_large = 'bilder/problem/424x456/akne.webp';
-$image_title = 'Effektiv Behandling av acne vulgaris';
-$image_alt = 'Bild som visar acne vulgaris och dess behandlingsmetoder';
-$description = 'I denna sektion får du en omfattande översikt över acne vulgaris, dess vanligaste orsaker såsom hormonella obalanser, stress och miljöfaktorer, samt Acnespecialistens anpassade behandlingsmetoder. Vi erbjuder också individuellt anpassade hudvårdsråd för att stödja personer med acne vulgaris i olika åldrar.';
+$image_title = 'Effektiv Behandling av Mallorca akne';
+$image_alt = 'Bild som illustrerar behandlingsmetoder för Mallorca akne';
+$description = 'Denna sektion erbjuder en översikt över Mallorca akne, en hudåkomma som ofta påverkas av exponering för solen och användning av vissa hudvårdsprodukter under solsemester. Acnespecialisten tillhandahåller anpassade behandlingsmetoder för denna specifika aknetyp.';
 
 $akas = [
       new Link(
@@ -39,30 +39,30 @@ $akas = [
       ),
 ];
 
-$floating_box = 'Behandla dina acne vulgaris effektivt.';
+$floating_box = 'Behandla dina Mallorca akne effektivt.';
 
 $consultation_url_label = "Få gratis konsultation";
 $consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne";
-$consultation_url_title = "Gratis Konsultation för acne vulgaris";
+$consultation_url_title = "Gratis Konsultation för Mallorca akne";
 
 $booking_url_label = "Boka behandling";
 $booking_url = "https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne";
 $booking_url_title = "Boka behandling";
 
 $mobile_consultation_url_label = "Få gratis konsultation";
-$mobile_consultation_url_title = "Gratis Konsultation för acne vulgaris";
+$mobile_consultation_url_title = "Gratis Konsultation för Mallorca akne";
 
 $mobile_booking_url_label = "Boka behandling";
 $mobile_booking_url_title = "Boka behandling";
 
 $floating_consultation_url_label = "Få gratis konsultation";
-$floating_consultation_url_title = "Gratis Konsultation för acne vulgaris";
+$floating_consultation_url_title = "Gratis Konsultation för Mallorca akne";
 
 $floating_booking_url_label = "Boka behandling";
 $floating_booking_url_title = "Boka behandling";
 
 $nav_buttons = array(
-      'about' => 'Om acne vulgaris',
+      'about' => 'Om Mallorca akne',
       'approach' => 'Metoden',
       'areas' => 'Områden',
       'articles' => 'När?',
@@ -75,54 +75,42 @@ $nav_buttons = array(
       'related-problems' => 'Relaterade problem',
 );
 
-$description_title = 'Förstå och effektivt behandla acne vulgaris';
-$description_text = '<p class="p200">Acne vulgaris är en vanlig hudåkomma som drabbar personer i alla åldrar, påverkad av faktorer såsom hormonella förändringar och stress. På Acnespecialisten lägger vi stor vikt vid att förstå de unika orsakerna bakom din acne vulgaris och erbjuder skräddarsydda behandlingar och hudvårdsstrategier. Våra behandlingsmetoder varierar från milda, djuprengörande procedurer till avancerade terapier för att effektivt minska akne och dess påverkan på huden.</p>
-<p class="p200 mt-m">Genom vår expertis utvecklar vi individuella hudvårdsplaner som omfattar både specialbehandlingar och dagliga hudvårdsrutiner anpassade efter din hudtyp och aknes svårighetsgrad. Våra behandlingsprogram är inriktade på att lugna huden, minska inflammation och främja en hälsosam hudbalans, vilket bidrar till en klarare och jämnare hudton över tid.</p>';
+$description_title = 'Förstå och Behandla Mallorca akne Effektivt';
+$description_text = '<p class="p200">Mallorca akne, ibland kallad semesterakne, är en hudåkomma som oftast uppträder efter exponering för stark sol och användning av vissa hudvårdsprodukter som kan irritera huden. Denna form av akne kan påverka personer i alla åldrar under eller efter en semester i soliga klimat. På Acnespecialisten fokuserar vi på att identifiera orsakerna till din Mallorca akne och erbjuder behandlingar och hudvårdsstrategier som är specifikt anpassade för att behandla och förebygga denna typ av akne.</p>
+<p class="p200 mt-m">Våra behandlingsmetoder inkluderar skonsamma, djuprengörande procedurer och rådgivning kring solskyddsprodukter och hudvård under soliga förhållanden. Vårt mål är att lugna huden, minska eventuell inflammation och främja en balanserad hud, vilket hjälper till att förebygga framtida utbrott av Mallorca akne.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Vår specialiserade konsultation på AcneSpecialisten är inriktad på att kartlägga de unika egenskaperna hos din acne vulgaris. Genom noggrann analys identifierar vi de bakomliggande orsakerna och tar fram en anpassad behandlingsplan för att effektivt hantera ditt hudtillstånd.',
+            content: 'Genom vår specialiserade konsultation på AcneSpecialisten undersöker vi de unika egenskaperna hos din Mallorca akne. Vi utför en detaljerad analys för att fastställa de specifika orsakerna till ditt hudproblem, såsom reaktioner på solen eller vissa hudvårdsprodukter, och skapar en anpassad behandlingsplan för att effektivt hantera din Mallorca akne.',
             url_label: 'Få gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
-            url_title: 'Boka din kostnadsfria hudkonsultation för acne vulgaris idag'
+            url_title: 'Boka din kostnadsfria hudkonsultation för Mallorca akne idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Varje behandling för acne vulgaris anpassas efter din unika hudtyp och behov. Från milda exfolierande behandlingar till djuprengörande metoder, erbjuder vi skräddarsydda lösningar för att effektivt hantera akne och främja en klarare hud.',
-            url_label: 'Se acne vulgaris-behandlingar',
+            content: 'Vår behandling för Mallorca akne är anpassad efter din hudtyp och de specifika behoven hos din hud. Vi erbjuder ett brett spektrum av behandlingsmetoder, från skonsam exfoliering till djuprengöring, för att effektivt adressera akne som orsakas av solen och hjälpa till att återställa en klar och frisk hud.',
+            url_label: 'Se Mallorca akne-behandlingar',
             url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne',
-            url_title: 'Utforska våra behandlingar för acne vulgaris'
+            url_title: 'Utforska våra behandlingar för Mallorca akne'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'För att förhindra framtida utbrott av acne vulgaris, erbjuder vi specialutformade hudvårdsprodukter och rutiner. Dessa är utvecklade för att balansera huden och bekämpa de faktorer som orsakar akne, för att hålla din hud hälsosam och ren.',
-            url_label: 'Se produkter',
+            content: 'För att förebygga framtida utbrott av Mallorca akne erbjuder vi skräddarsydda hudvårdsprodukter och rutiner. Dessa är särskilt utformade för att balansera huden och motverka de faktorer som bidrar till akne, såsom felaktig användning av solskyddsprodukter eller exponering för intensiv sol.',
+            url_label: 'Se produkter för Mallorca akne',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
-            url_title: 'Hitta de bästa produkterna för att förebygga acne vulgaris'
+            url_title: 'Hitta de bästa produkterna för att förebygga Mallorca akne'
       ),
       new TreatmentStep(
             title: 'Reparera',
-            content: 'Efter behandling av aktiv acne vulgaris fokuserar vi på att reparera och förbättra hudens tillstånd. Våra behandlingsmetoder inkluderar strategier för att minska ärrbildning och förbättra hudens textur, vilket leder till en jämnare och fräschare hudton för långsiktiga resultat.',
-            url_label: 'Se ärrbehandlingar',
+            content: 'Efter att ha behandlat den aktiva Mallorca aknen, fokuserar vi på att reparera och förbättra hudens tillstånd. Våra metoder inkluderar behandlingar för att minska ärrbildning och förbättra hudens textur, vilket bidrar till en jämnare och fräschare hudton som varar över tid.',
+            url_label: 'Se ärrbehandlingar för Mallorca akne',
             url: 'behandla-acnearr.php',
-            url_title: 'Upptäck våra effektiva behandlingar för ärr orsakade av acne vulgaris'
+            url_title: 'Upptäck våra effektiva behandlingar för ärr orsakade av Mallorca akne'
       ),
 );
 
-$treatment_link = '<a href="acnebehandling_vulgaris.php" title="Utforska effektiva behandlingar mot acne vulgaris" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot acne vulgaris</a>';
-
-$top_articles = array(
-    'areas' => new Article(
-        title: 'Var och varför uppstår acne vulgaris?',
-        image_small: '',
-        image_large: '',
-        image_alt: '',
-        image_title: '',
-        content: '<p class="p200">Orsakerna bakom acne vulgaris beror ofta på en samverkan av flera faktorer. Hormonella förändringar är en av de främsta orsakerna, då de kan leda till överproduktion av talg och resultera i tilltäppta porer och akne. Stress är en annan betydande faktor som kan förvärra akne genom att störa hormonbalansen och öka talgproduktionen i huden. På AcneSpecialisten lägger vi stor vikt vid en helhetssyn på dina hudproblem för att effektivt behandla och hantera acne vulgaris.</p>
-            <p class="p200 mt-m">En effektiv strategi för att hantera acne vulgaris innebär en skräddarsydd hudvårdsrutin. Det är viktigt att välja hudvårdsprodukter som inte bara är effektiva, utan också skonsamma, för att undvika att irritera huden ytterligare. Hos AcneSpecialisten samarbetar vi med dig för att utforma en personlig hudvårdsplan som stärker och balanserar din hud. Detta bidrar till att förebygga framtida utbrott av akne och främjar en långsiktigt hälsosam hudmiljö.</p>',
-    ),
-);
+$treatment_link = '<a href="acnebehandling_vulgaris.php" title="Utforska effektiva behandlingar mot Mallorca akne" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot Mallorca akne</a>';
 
 $results = array(
       new ResultCustomer(
@@ -544,14 +532,6 @@ $brands_url_title = "Se alla varumärken";
                               <?php echo $treatment_link ?>
 
                         </section>
-
-                        <?php foreach ($top_articles as $id => $article) { ?>
-                          <section id="<?php echo $id ?>">
-                              <?php
-                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
-                              ?>
-                          </section>
-                        <?php } ?>
                         
                         <section id="results">
                               <?php

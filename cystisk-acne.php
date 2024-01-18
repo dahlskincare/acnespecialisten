@@ -552,12 +552,6 @@ $brands_url_title = "Se alla varumärken";
                               ?>
                           </section>
                         <?php } ?>
-
-                        <section id="articles">
-                              <?php foreach ($articles as $article) { ?>
-                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php'); ?>
-                              <?php } ?>
-                        </section>
                         
                         <section id="results">
                               <?php

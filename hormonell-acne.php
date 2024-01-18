@@ -82,28 +82,28 @@ $description_text = '<p class="p200">Hormonell akne är en utmanande hudåkomma 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Vår specialiserade konsultation på AcneSpecialisten är avsedd att djupdyka i de unika egenskaperna hos din hormonella akne. Genom en omfattande analys identifierar vi de bakomliggande orsakerna till ditt specifika hudproblem och skapar en behandlingsplan som är skräddarsydd för att effektivt hantera din hormonella akne.',
+            content: 'Vår specialiserade konsultation på AcneSpecialisten är avsedd att djupdyka i de unika egenskaperna hos din hormonella akne.',
             url_label: 'Få gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
             url_title: 'Boka din kostnadsfria hudkonsultation för hormonell akne idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Våra behandlingar för hormonell akne är skräddarsydda för att passa just din hudtyp och dess unika behov. Vi erbjuder en rad behandlingsmetoder, från milda till intensiva, för att effektivt ta itu med problemen som hormonell akne medför, och arbetar mot målet att uppnå en hälsosammare och klarare hud.',
+            content: 'Våra behandlingar för hormonell akne är skräddarsydda för att passa just din hudtyp och dess unika behov.',
             url_label: 'Se behandlingar för hormonell akne',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
             url_title: 'Utforska våra behandlingar för hormonell akne'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'För att förebygga framtida utbrott av hormonell akne, erbjuder vi specialdesignade hudvårdsprodukter och rutiner. Dessa produkter och rutiner är noggrant utformade för att balansera din hud och bekämpa de faktorer som bidrar till uppkomsten av hormonell akne, vilket leder till en mer hälsosam och ren hud över tid.',
+            content: 'För att förebygga framtida utbrott av hormonell akne, erbjuder vi specialdesignade hudvårdsprodukter och rutiner.',
             url_label: 'Se produkter för hormonell akne',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
             url_title: 'Hitta de bästa produkterna för att förebygga hormonell akne'
       ),
       new TreatmentStep(
             title: 'Reparera',
-            content: 'När vi har behandlat den aktiva hormonella aknen, inriktar vi oss på att reparera och förbättra hudens kvalitet. Våra behandlingar fokuserar på att minska ärrbildning och förbättra hudens textur, vilket resulterar i en jämnare och mer strålande hudton.',
+            content: 'När vi har behandlat den aktiva hormonella aknen, inriktar vi oss på att reparera och förbättra hudens kvalitet.',
             url_label: 'Se ärrbehandlingar för hormonell akne',
             url: 'behandla-acnearr.php',
             url_title: 'Upptäck våra effektiva behandlingar för ärr orsakade av hormonell akne'
@@ -551,12 +551,6 @@ $brands_url_title = "Se alla varumärken";
                               ?>
                           </section>
                         <?php } ?>
-
-                        <section id="articles">
-                              <?php foreach ($articles as $article) { ?>
-                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php'); ?>
-                              <?php } ?>
-                        </section>
                         
                         <section id="results">
                               <?php

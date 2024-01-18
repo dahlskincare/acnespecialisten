@@ -5,21 +5,22 @@ include_once('problem/widgets/symptom-card/symptom.php');
 include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Acne Vulgaris - Djupgående Förståelse och Effektiv Behandling | Acnespecialisten';
-$seo_description = 'Utforska insikter om acne vulgaris, dess orsaker och Acnespecialistens skräddarsydda behandlingsmetoder för alla hudtyper och åldersgrupper.';
-$seo_keywords = 'acne vulgaris, behandling av acne vulgaris, hudvård för acne vulgaris';
+$seo_title = 'Inflammatorisk Akne - Omfattande Behandling och Expertkunskap | Acnespecialisten';
+$seo_description = 'Utforska grundläggande information om inflammatorisk akne, dess orsaker och Acnespecialistens anpassade behandlingsmetoder för alla hudtyper och åldrar.';
+$seo_keywords = 'inflammatorisk akne, behandling av inflammatorisk akne, hudvård för inflammatorisk akne';
+
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
 $seo_image = 'bilder/problem/424x456/akne.webp';
 
-$title = 'Acne Vulgaris';
+$title = 'Inflammation akne';
 
 $image_small = 'bilder/problem/424x324/akne.webp';
 $image_large = 'bilder/problem/424x456/akne.webp';
-$image_title = 'Effektiv Behandling av acne vulgaris';
-$image_alt = 'Bild som visar acne vulgaris och dess behandlingsmetoder';
-$description = 'I denna sektion får du en omfattande översikt över acne vulgaris, dess vanligaste orsaker såsom hormonella obalanser, stress och miljöfaktorer, samt Acnespecialistens anpassade behandlingsmetoder. Vi erbjuder också individuellt anpassade hudvårdsråd för att stödja personer med acne vulgaris i olika åldrar.';
+$image_title = 'Effektiv Behandling av Inflammatorisk Akne';
+$image_alt = 'Bild som visar inflammatorisk akne';
+$description = 'Denna sektion ger en djupgående översikt över inflammatorisk akne, dess främsta orsaker såsom hormonella obalanser och stress, samt Acnespecialistens anpassade behandlingsmetoder. Vi erbjuder också skräddarsydda hudvårdsråd för att effektivt stödja personer med inflammatorisk akne i alla åldrar.';
 
 $akas = [
       new Link(
@@ -39,30 +40,30 @@ $akas = [
       ),
 ];
 
-$floating_box = 'Behandla dina acne vulgaris effektivt.';
+$floating_box = 'Behandla dina inflammation akne effektivt.';
 
 $consultation_url_label = "Få gratis konsultation";
 $consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne";
-$consultation_url_title = "Gratis Konsultation för acne vulgaris";
+$consultation_url_title = "Gratis Konsultation för inflammation akne";
 
 $booking_url_label = "Boka behandling";
-$booking_url = "https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne";
+$booking_url = "https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne";
 $booking_url_title = "Boka behandling";
 
 $mobile_consultation_url_label = "Få gratis konsultation";
-$mobile_consultation_url_title = "Gratis Konsultation för acne vulgaris";
+$mobile_consultation_url_title = "Gratis Konsultation för inflammation akne";
 
 $mobile_booking_url_label = "Boka behandling";
 $mobile_booking_url_title = "Boka behandling";
 
 $floating_consultation_url_label = "Få gratis konsultation";
-$floating_consultation_url_title = "Gratis Konsultation för acne vulgaris";
+$floating_consultation_url_title = "Gratis Konsultation för inflammation akne";
 
 $floating_booking_url_label = "Boka behandling";
 $floating_booking_url_title = "Boka behandling";
 
 $nav_buttons = array(
-      'about' => 'Om acne vulgaris',
+      'about' => 'Om inflammation akne',
       'approach' => 'Metoden',
       'areas' => 'Områden',
       'articles' => 'När?',
@@ -75,52 +76,51 @@ $nav_buttons = array(
       'related-problems' => 'Relaterade problem',
 );
 
-$description_title = 'Förstå och effektivt behandla acne vulgaris';
-$description_text = '<p class="p200">Acne vulgaris är en vanlig hudåkomma som drabbar personer i alla åldrar, påverkad av faktorer såsom hormonella förändringar och stress. På Acnespecialisten lägger vi stor vikt vid att förstå de unika orsakerna bakom din acne vulgaris och erbjuder skräddarsydda behandlingar och hudvårdsstrategier. Våra behandlingsmetoder varierar från milda, djuprengörande procedurer till avancerade terapier för att effektivt minska akne och dess påverkan på huden.</p>
-<p class="p200 mt-m">Genom vår expertis utvecklar vi individuella hudvårdsplaner som omfattar både specialbehandlingar och dagliga hudvårdsrutiner anpassade efter din hudtyp och aknes svårighetsgrad. Våra behandlingsprogram är inriktade på att lugna huden, minska inflammation och främja en hälsosam hudbalans, vilket bidrar till en klarare och jämnare hudton över tid.</p>';
+$description_title = 'Om Inflammatorisk Akne';
+$description_text = '<p class="p200">Inflammatorisk akne kännetecknas av röda, inflammerade blemmor som ofta är smärtsamma. Denna typ av akne uppstår när bakterier och överflödig talg orsakar en inflammation i talgkörtlar och hårfolliklar. Behandlingen av inflammatorisk akne hos Acnespecialisten är mångfacetterad och inkluderar både specialbehandlingar och dagliga hudvårdsrutiner. Våra behandlingsmetoder är utformade för att effektivt minska inflammation, djuprengöra porerna och bekämpa bakterier. Dessutom lägger vi fokus på att skapa en hudvårdsrutin som balanserar huden och förebygger framtida utbrott. Genom denna kombinerade ansats strävar vi efter att uppnå en klarare och friskare hud över tid.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Vår specialiserade konsultation på AcneSpecialisten är inriktad på att kartlägga de unika egenskaperna hos din acne vulgaris. Genom noggrann analys identifierar vi de bakomliggande orsakerna och tar fram en anpassad behandlingsplan för att effektivt hantera ditt hudtillstånd.',
+            content: 'I vår specialiserade konsultation på AcneSpecialisten fokuserar vi på att analysera de unika egenskaperna hos din inflammatoriska akne. Genom att identifiera de bakomliggande orsakerna, utformar vi en skräddarsydd behandlingsplan som är anpassad för att effektivt hantera din specifika situation med inflammatorisk akne.',
             url_label: 'Få gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
-            url_title: 'Boka din kostnadsfria hudkonsultation för acne vulgaris idag'
+            url_title: 'Boka din kostnadsfria hudkonsultation för inflammatorisk akne idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Varje behandling för acne vulgaris anpassas efter din unika hudtyp och behov. Från milda exfolierande behandlingar till djuprengörande metoder, erbjuder vi skräddarsydda lösningar för att effektivt hantera akne och främja en klarare hud.',
-            url_label: 'Se acne vulgaris-behandlingar',
-            url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne',
-            url_title: 'Utforska våra behandlingar för acne vulgaris'
+            content: 'Vi anpassar våra behandlingar för inflammatorisk akne efter din hudtyp och unika behov. Vårt utbud av behandlingsmetoder inkluderar allt från milda till djupgående terapier, utformade för att effektivt adressera och behandla inflammationen i din hud, och strävar efter att återställa en frisk och klar hud.',
+            url_label: 'Se behandlingar för inflammatorisk akne',
+            url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
+            url_title: 'Utforska våra behandlingar för inflammatorisk akne'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'För att förhindra framtida utbrott av acne vulgaris, erbjuder vi specialutformade hudvårdsprodukter och rutiner. Dessa är utvecklade för att balansera huden och bekämpa de faktorer som orsakar akne, för att hålla din hud hälsosam och ren.',
-            url_label: 'Se produkter',
+            content: 'För att förebygga framtida utbrott av inflammatorisk akne, erbjuder vi specialutvecklade hudvårdsprodukter och rutiner. Dessa är utformade för att balansera din hud och motverka de faktorer som orsakar inflammation, vilket bidrar till en långsiktigt hälsosam och ren hud.',
+            url_label: 'Se produkter för inflammatorisk akne',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
-            url_title: 'Hitta de bästa produkterna för att förebygga acne vulgaris'
+            url_title: 'Hitta de bästa produkterna för att förebygga inflammatorisk akne'
       ),
       new TreatmentStep(
             title: 'Reparera',
-            content: 'Efter behandling av aktiv acne vulgaris fokuserar vi på att reparera och förbättra hudens tillstånd. Våra behandlingsmetoder inkluderar strategier för att minska ärrbildning och förbättra hudens textur, vilket leder till en jämnare och fräschare hudton för långsiktiga resultat.',
-            url_label: 'Se ärrbehandlingar',
+            content: 'Efter att ha behandlat aktiv inflammatorisk akne, fokuserar vi på att reparera och förbättra hudens kvalitet. Våra metoder inkluderar behandlingar för att minska ärrbildning och förbättra hudens textur, vilket bidrar till en jämnare och mer strålande hudton över tid.',
+            url_label: 'Se ärrbehandlingar för inflammatorisk akne',
             url: 'behandla-acnearr.php',
-            url_title: 'Upptäck våra effektiva behandlingar för ärr orsakade av acne vulgaris'
+            url_title: 'Upptäck våra effektiva behandlingar för ärr orsakade av inflammatorisk akne'
       ),
 );
 
-$treatment_link = '<a href="acnebehandling_vulgaris.php" title="Utforska effektiva behandlingar mot acne vulgaris" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot acne vulgaris</a>';
+$treatment_link = '<a href="acnebehandling_vulgaris.php" title="Utforska effektiva behandlingar mot inflammatorisk akne" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot inflammatorisk akne</a>';
 
 $top_articles = array(
     'areas' => new Article(
-        title: 'Var och varför uppstår acne vulgaris?',
+        title: 'Var uppstår inflammatorisk akne och varför?',
         image_small: '',
         image_large: '',
         image_alt: '',
         image_title: '',
-        content: '<p class="p200">Orsakerna bakom acne vulgaris beror ofta på en samverkan av flera faktorer. Hormonella förändringar är en av de främsta orsakerna, då de kan leda till överproduktion av talg och resultera i tilltäppta porer och akne. Stress är en annan betydande faktor som kan förvärra akne genom att störa hormonbalansen och öka talgproduktionen i huden. På AcneSpecialisten lägger vi stor vikt vid en helhetssyn på dina hudproblem för att effektivt behandla och hantera acne vulgaris.</p>
-            <p class="p200 mt-m">En effektiv strategi för att hantera acne vulgaris innebär en skräddarsydd hudvårdsrutin. Det är viktigt att välja hudvårdsprodukter som inte bara är effektiva, utan också skonsamma, för att undvika att irritera huden ytterligare. Hos AcneSpecialisten samarbetar vi med dig för att utforma en personlig hudvårdsplan som stärker och balanserar din hud. Detta bidrar till att förebygga framtida utbrott av akne och främjar en långsiktigt hälsosam hudmiljö.</p>',
+        content: '<p class="p200">Inflammatorisk akne uppstår när hårfolliklar och talgkörtlar i huden blir inflammerade. Denna typ av akne är ofta mer smärtsam och synlig än icke-inflammatorisk akne, och kännetecknas av röda, svullna utslag. Orsakerna till inflammatorisk akne är mångfacetterade och inkluderar hormonella förändringar som leder till ökad talgproduktion, vilket kan kombineras med bakterier och döda hudceller för att blockera porerna och orsaka inflammation.</p>
+      <p class="p200">Faktorer som stress, diet, och vissa hudvårdsprodukter kan också bidra till eller förvärra inflammatorisk akne. Dessutom kan vissa personer ha en genetisk benägenhet till denna typ av akne. Oavsett var på kroppen den uppträder – vare sig det är på ansiktet, ryggen, bröstet eller någon annan del med hög koncentration av talgkörtlar – är det viktigt att hantera inflammatorisk akne varsamt för att minska risken för ärrbildning och andra långsiktiga hudproblem.</p>',
     ),
 );
 
