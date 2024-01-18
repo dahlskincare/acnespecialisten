@@ -29,7 +29,7 @@ $faq_categories = array(
     <!-- TODO: Set title and meta tags -->
     <title class="l10n">Acnespecialisten | Acne myter</title>
     <meta name="description" content="Här hittar du svar på några av de vanigaste acne myterna." class="l10n">
-    <meta name="title" content="VAcne myter - AcneSpecialisten" class="l10n">
+    <meta name="title" content="Acne myter - AcneSpecialisten" class="l10n">
     <meta name="keywords" content="Acne myter" class="l10n">
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
