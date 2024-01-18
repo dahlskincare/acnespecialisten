@@ -3,16 +3,16 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $article = new SkinGuideArticle(
-    url: 'https://acnespecialisten-staging.minoch.com/hudguide/accessories/dry-skin/how-hormones-affect/',
-    url_title: 'How hormones effect?',
-    title: 'How hormones effect?',
-    subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
-    problem: 'Acne',
-    description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
+    url: 'roaccutan.php',
+    url_title: 'Roaccutan',
+    title: 'Roaccutan',
+    subtitle: 'Här förklarar vi vad roaccutan är, varför det används och synliggör för- och nackdelar med medicinen.',
+    problem: 'Roaccutan',
+    description: "Här förklarar vi vad roaccutan är, varför det används och synliggör för- och nackdelar med medicinen.",
     image_small: 'https://via.placeholder.com/426x324.webp',
     image_large: 'https://via.placeholder.com/872x456.jpg',
-    image_alt: 'Hormones effect',
-    image_title: 'Hormones effect',
+    image_alt: 'Roaccutan',
+    image_title: 'Roaccutan',
 );
 ?>
 <!DOCTYPE html>
@@ -20,10 +20,10 @@ $article = new SkinGuideArticle(
 
 <head>
     <!-- TODO: Set title and meta tags -->
-    <title class="l10n">Acnespecialisten</title>
-    <meta name="description" content="" class="l10n">
-    <meta name="title" content="" class="l10n">
-    <meta name="keywords" content="" class="l10n">
+    <title class="l10n">Information om acnemedicinen Roaccutan | AcneSpecialisten</title>
+    <meta name="description" content="Roaccutan är en acne medicin. Här hittar du mer information om roaccutan och dess biverkningar, vi erbjuder effektiv behandling utan roaccutan." class="l10n">
+    <meta name="title" content="Information om acnemedicinen Roaccutan | AcneSpecialisten" class="l10n">
+    <meta name="keywords" content="Roaccutan, Roaccutan biverkningar, Acne medicin roaccutan, Acne medicin" class="l10n">
 
     <!-- Optional: Set canonical version of this page (https://support.google.com/webmasters/answer/10347851) -->
 
@@ -79,24 +79,24 @@ $article = new SkinGuideArticle(
                 </section>
                 <section id="content">
                     <!-- TODO: content here -->
-                    <h2 class="nav-anchor">Overview</h2>
-                    <h3>The Harmful Effects of Makeup</h3>
+                    <h2 class="nav-anchor">Översikt</h2>
+                    <h3>Vad är roaccutan?</h3>
                     <p>
-                        For the first time ever, fans from around the world can explore the faraway lands of their favorite holiday films with an exclusive overnight stay at the original Hobbiton™ Movie Set. Russell Alexander is inviting guests to his family’s property to live like Bilbo Baggins and retreat to The Shire™ for an overnight stay at Hobbiton, as featured in the famed The Lord of the Rings and The Hobbit film trilogies.
+                        Acnemedicinen roaccutan tillhör en grupp av läkemedel som kallas för retinoider. De är besläktade med A-vitamin, ett vitamin som du bär på naturligt och är därför viktigt för både huden och kroppen i viss mängd. Läkemedlet roaccutan används främst vid mycket svår acne och är ett av de få läkemedel som faktiskt visat sig ha effekt på acnebenägen hy. Det lanserades av Hoffman-La Roche under 1980-talet.
                     </p>
                     <p>
-                        Nestled in the picturesque pastures of New Zealand’s Waikato region on a 2,500 acre working farm, the property’s rolling, green hills – bear a striking similarity to The Shire™ as described by J. R. R. Tolkien in The Lord of the Rings, and captivated Sir Peter Jackson’s movie scouts more than two decades ago. The team quickly realized the Hobbits had found their home – and this holiday season, it could be yours.
+                        En behandling pågår normalt mellan 16 och 24 veckor. Medicinen är paketerad i form av röd-bruna gelatinkapslar som du äter dagligen. Roaccutan är inte receptfritt utan skrivs ut av legitimerade läkare under särskilda förhållanden.
                     </p>
-                    <h3>Premature Aging</h3>
+                    <h3>Vilken effekt har roaccutan?</h3>
                     <ol>
                         <li>
-                            Donations totalling almost €10 million to heritage associations across Europe to boost heritage tourism and help restore some of the continent’s most important historical attractions and homes. Donations have been made in France, the UK, Spain, Italy and Germany.
+                            Roaccutans exakta påverkan när det kommer till cellnivå är fortfarande okänd. Däremot visar flera studier att det framkallar något som heter apoptos, alltså celldöd, i bland annat cellerna som finns i dina talgkörtlar. Men det är inte bara dina celler som påverkas av acnemedicinen roaccutan. Anledningen till att den är så effektiv mot just acne, är för att den klarar av att påverka alla de faktorer som gör att acne bildas i huden. <a href="acne.php">Här kan du läsa mer om acne.</a>
                         </li>
                         <li>
-                            The restoration of a traditional townhouse in the historic town of Sambuca, bringing an abandoned ‘1 euro house’ back to life with the aim of boosting tourism as part of a wider commitment to support rural communities and cultural heritage in Europe.
+                            Med medicinen roaccutan minskar talgkörtlarnas storlek och då i sin tur också talgproduktionen. Eftersom talgproduktionen reduceras minskar också antalet av den bakterie, propionibacterium acnes, som resulterar i acne. Den kan nämligen inte leva utan talg. Preparatet har också en antiinflammatorisk effekt och är starkt avfjällande på huden. A-vitamin må vara viktigt för din kropp och din hud, men den torkar också ut rejält.
                         </li>
                         <li>
-                            Showcasing Europe’s rich architectural heritage by offering guests the opportunity to stay in landmark heritage buildings such as Weissenstein Palace in Germany and Villa Balbiano in Italy.
+                            Med tanke på preparatets positiva resultat när det kommer till att reducera acne så låter väl inte roaccutan som en allt för tokig idé kanske. Vad man däremot bör veta är att medicinen inte är vidare snäll mot resten av kroppen. I processen att bli kvitt acnen med roaccutan tillkommer det en rad biverkningar.
                         </li>
                     </ol>
                     <h3>Dry or Oily Skin</h3>
