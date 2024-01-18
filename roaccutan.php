@@ -99,408 +99,21 @@ $article = new SkinGuideArticle(
                             Med tanke på preparatets positiva resultat när det kommer till att reducera acne så låter väl inte roaccutan som en allt för tokig idé kanske. Vad man däremot bör veta är att medicinen inte är vidare snäll mot resten av kroppen. I processen att bli kvitt acnen med roaccutan tillkommer det en rad biverkningar.
                         </li>
                     </ol>
-                    <h3>Dry or Oily Skin</h3>
+                    <h3>Användande av roaccutan</h3>
                     <ul>
                         <li>
-                            Donations totalling almost €10 million to heritage associations across Europe to boost heritage tourism and help restore some of the continent’s most important historical attractions and homes. Donations have been made in France, the UK, Spain, Italy and Germany.
+                            Det är mot alla rekommendationer att använda roaccutan i fall om graviditet. Läkemedlet orsakar svåra fosterskador vilket också kan resultera i kroppsliga missbildningar och hjärnskada på barnet.  Inom både EU och USA finns det därför krav på att fertila kvinnor måste använda sig av minst ett effektivt preventivmedel som kan hämma ägglossningen. Däremot kan det inte överföras från män vid befruktning. Det skadar alltså inte männens spermie-produktion eller dess kvalité. Varken män eller kvinnor som använder roaccutan är tillåtna att donera blod under behandlingen.
                         </li>
                         <li>
-                            The restoration of a traditional townhouse in the historic town of Sambuca, bringing an abandoned ‘1 euro house’ back to life with the aim of boosting tourism as part of a wider commitment to support rural communities and cultural heritage in Europe.
+                            Roccutan är fettlösligt och lagras därför i kroppens fettdepåer i upp till en månad efter att du avslutat din behandling. Det gör att risken för att drabbas av en eller flera av de kända biverkningarna blir ännu större. I vissa sällsynta fall kan biverkningarna bli permanenta. 
                         </li>
                         <li>
-                            Showcasing Europe’s rich architectural heritage by offering guests the opportunity to stay in landmark heritage buildings such as Weissenstein Palace in Germany and Villa Balbiano in Italy.
+                            Eftersom acne inte går att bota är risken även stor att din acne kommer åter - trots att du gått på roaccutan en eller flera gånger. Därför vore det allra bästa att hitta ett hållbart alternativ som på sikt inte bara reducerar acnen utan även håller den borta utan en rad negativa biverkningar. Vi rekommenderar därför att du provar vår metod i första hand, eller om du redan provat roaccutan med upplevt att acnen kommit tillbaka. Vi arbetar med en unik trestegs-metod som bygger på att identifiera och reducera hudproblem och långsiktigt arbeta med en hudvårdsrutin som håller problemen borta. Och det gör vi utan allvarliga biverkningar.
+                        </li>
+                        <li>
+                            Börja med att <a href="gratis-hudkonsultation.php">boka en kostnadsfri hudkonsultation</a> hos oss, så tar vi tillsammans det första steget mot en för dig problemfri hy.
                         </li>
                     </ul>
-                    <img class="banner-image" src="https://via.placeholder.com/872x456.jpg" alt="Banner" title="Banner" with="874" height="476" />
-                    <h3>The Harmful Effects of Makeup</h3>
-                    <p>
-                        For the first time ever, fans from around the world can explore the faraway lands of their favorite holiday films with an exclusive overnight stay at the original Hobbiton™ Movie Set. Russell Alexander is inviting guests to his family’s property to live like Bilbo Baggins and retreat to The Shire™ for an overnight stay at Hobbiton, as featured in the famed The Lord of the Rings and The Hobbit film trilogies.
-                    </p>
-                    <p>
-                        Nestled in the picturesque pastures of New Zealand’s Waikato region on a 2,500 acre working farm, the property’s rolling, green hills – bear a striking similarity to The Shire™ as described by J. R. R. Tolkien in The Lord of the Rings, and captivated Sir Peter Jackson’s movie scouts more than two decades ago. The team quickly realized the Hobbits had found their home – and this holiday season, it could be yours.
-                    </p>
-
-                    <!-- Problem skin cards -->
-                    <div class="columns is-2 is-variable">
-                        <div class="column">
-                            <a class="article-card" href="">
-                                <img src="https://via.placeholder.com/426x324.webp" alt="Problem skin" title="Problem skin" width="426" height="324" />
-                                <div class="ac-content">
-                                    <div class="ac-category">Problem skin</div>
-                                    <div class="ac-name">How hormones effect?</div>
-                                    <div class="ac-desc">
-                                        In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.
-                                    </div>
-                                    <div class="ac-link">Read more</div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="column">
-                            <a class="article-card" href="">
-                                <img src="https://via.placeholder.com/426x324.webp" alt="Problem skin" title="Problem skin" width="426" height="324" />
-                                <div class="ac-content">
-                                    <div class="ac-category">Problem skin</div>
-                                    <div class="ac-name">How hormones effect?</div>
-                                    <div class="ac-desc">
-                                        In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.
-                                    </div>
-                                    <div class="ac-link">Read more</div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-                    <h2>Subtitle #2</h2>
-                    <p>
-                        For the first time ever, fans from around the world can explore the faraway lands of their favorite holiday films with an exclusive overnight stay at the original Hobbiton™ Movie Set. Russell Alexander is inviting guests to his family’s property to live like Bilbo Baggins and retreat to The Shire™ for an overnight stay at Hobbiton, as featured in the famed The Lord of the Rings and The Hobbit film trilogies.
-                    </p>
-                    <p>
-                        Nestled in the picturesque pastures of New Zealand’s Waikato region on a 2,500 acre working farm, the property’s rolling, green hills – bear a striking similarity to The Shire™ as described by J. R. R. Tolkien in The Lord of the Rings, and captivated Sir Peter Jackson’s movie scouts more than two decades ago. The team quickly realized the Hobbits had found their home – and this holiday season, it could be yours.
-                    </p>
-
-                    <!-- Call to action banner -->
-                    <div class="cta-banner">
-                        <div class="cta-banner-texts">
-                            <div class="cta-banner-header">Want to identify your problem?</div>
-                            <div class="cta-banner-content">
-                                In a personal meeting with a skin specialist, your skin type is examined and identified.
-                            </div>
-                            <div>
-                                <a href="gratis-hudkonsultation" class="button white expand l10n" title="Get a free consultation">Get a free consultation</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <h2>Subtitle #3</h2>
-                    <p>
-                        For the first time ever, fans from around the world can explore the faraway lands of their favorite holiday films with an exclusive overnight stay at the original Hobbiton™ Movie Set. Russell Alexander is inviting guests to his family’s property to live like Bilbo Baggins and retreat to The Shire™ for an overnight stay at Hobbiton, as featured in the famed The Lord of the Rings and The Hobbit film trilogies.
-                    </p>
-                    <p>
-                        Nestled in the picturesque pastures of New Zealand’s Waikato region on a 2,500 acre working farm, the property’s rolling, green hills – bear a striking similarity to The Shire™ as described by J. R. R. Tolkien in The Lord of the Rings, and captivated Sir Peter Jackson’s movie scouts more than two decades ago. The team quickly realized the Hobbits had found their home – and this holiday season, it could be yours.
-                    </p>
-
-                    <!-- Quote -->
-                    <figure>
-                        <blockquote>
-                            For more than two decades, we’ve welcomed millions of passionate fans to Hobbiton Movie Set, but never before has anyone had the opportunity to spend a night in Middle-earth. I am delighted
-                            to share the beauty of my family’s farm and pleased to be hosting this iconic location on Airbnb for fans from around the world.
-                        </blockquote>
-                        <figcaption>Russel Alexander</figcaption>
-                    </figure>
-
-                    <h2>Subtitle #4</h2>
-                    <p>
-                        For the first time ever, fans from around the world can explore the faraway lands of their favorite holiday films with an exclusive overnight stay at the original Hobbiton™ Movie Set. Russell Alexander is inviting guests to his family’s property to live like Bilbo Baggins and retreat to The Shire™ for an overnight stay at Hobbiton, as featured in the famed The Lord of the Rings and The Hobbit film trilogies.
-                    </p>
-                    <p>
-                        Nestled in the picturesque pastures of New Zealand’s Waikato region on a 2,500 acre working farm, the property’s rolling, green hills – bear a striking similarity to The Shire™ as described by J. R. R. Tolkien in The Lord of the Rings, and captivated Sir Peter Jackson’s movie scouts more than two decades ago. The team quickly realized the Hobbits had found their home – and this holiday season, it could be yours.
-                    </p>
-
-
-                    <!-- Problem skin cards -->
-                    <div class="columns is-2 is-variable">
-                        <div class="column">
-                            <div class="article-card">
-                                <img src="https://via.placeholder.com/426x324.webp" alt="Problem skin" title="Problem skin" width="426" height="324" />
-                                <div class="ac-content">
-                                    <div class="ac-name">Classic facials</div>
-                                    <div class="ac-desc">
-                                        In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.
-                                    </div>
-                                    <a class="ac-link" href="" title="View more about service">View more about service</a>
-                                    <hr />
-                                    <div class="columns">
-                                        <div class="column">
-                                            <a class="button expand" href="" title="Get a free consultation">Get a free consultation</a>
-                                        </div>
-                                        <div class="column">
-                                            <a class="button expand" href="" title="Book a treatment">Book a treatment</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div class="article-card">
-                                <img src="https://via.placeholder.com/426x324.webp" alt="Problem skin" title="Problem skin" width="426" height="324" />
-                                <div class="ac-content">
-                                    <div class="ac-name">Classic facials</div>
-                                    <div class="ac-desc">
-                                        In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.
-                                    </div>
-                                    <a class="ac-link" href="" title="View more about service">View more about service</a>
-                                    <hr />
-                                    <div class="columns">
-                                        <div class="column">
-                                            <a class="button expand" href="" title="Get a free consultation">Get a free consultation</a>
-                                        </div>
-                                        <div class="column">
-                                            <a class="button expand" href="" title="Book a treatment">Book a treatment</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <h2>Subtitle #5</h2>
-                    <p>
-                        For the first time ever, fans from around the world can explore the faraway lands of their favorite holiday films with an exclusive overnight stay at the original Hobbiton™ Movie Set. Russell Alexander is inviting guests to his family’s property to live like Bilbo Baggins and retreat to The Shire™ for an overnight stay at Hobbiton, as featured in the famed The Lord of the Rings and The Hobbit film trilogies.
-                    </p>
-                    <p>
-                        Nestled in the picturesque pastures of New Zealand’s Waikato region on a 2,500 acre working farm, the property’s rolling, green hills – bear a striking similarity to The Shire™ as described by J. R. R. Tolkien in The Lord of the Rings, and captivated Sir Peter Jackson’s movie scouts more than two decades ago. The team quickly realized the Hobbits had found their home – and this holiday season, it could be yours.
-                    </p>
-
-                    <!-- Service banners (touch) -->
-                    <div class="mt-xl3 is-hidden-desktop">
-                        <div class="service-banner-touch">
-                            <div class="banner-info">
-                                <img src="https://via.placeholder.com/200x200.webp" width="200" height="200" alt="Consultation" title="Consultation" />
-                                <div>
-                                    <h4>Consultation</h4>
-                                    <p>15 min<span class="dot"></span>Free</p>
-                                </div>
-                            </div>
-                            <p class="banner-text">
-                                This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin...
-                            </p>
-                            <a class="button outline expand" href="" title="View more about consultation">View more about consultation</a>
-                            <hr />
-                            <a class="button expand" href="gratis-hudkonsultation" title="Get a free consultation">Get a free consultation</a>
-                        </div>
-                        <div class="service-banner-touch">
-                            <div class="banner-info">
-                                <img src="https://via.placeholder.com/200x200.webp" width="200" height="200" alt="Consultation" title="Consultation" />
-                                <div>
-                                    <h4>IPL for acne</h4>
-                                    <p>30 min<span class="dot"></span>From 1295 kr</p>
-                                </div>
-                            </div>
-                            <p class="banner-text">
-                                This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin...
-                            </p>
-                            <a class="button outline expand" href="" title="View more about service">View more about service</a>
-                            <hr />
-                            <a class="button expand" href="gratis-hudkonsultation" title="Get a free consultation">Get a free consultation</a>
-                            <a class="mt-s button expand" href="https://bokadirekt.se" title="Book a treatment">Book a treatment</a>
-                        </div>
-                    </div>
-
-                    <!-- Service banners (desktop) -->
-                    <div class="mt-xl3 is-hidden-touch">
-                        <div class="service-banner-desktop">
-                            <div>
-                                <img src="https://via.placeholder.com/200x200.webp" width="200" height="200" alt="Consultation" title="Consultation" />
-                            </div>
-                            <div class="banner-info">
-                                <h4>Consultation</h4>
-                                <p class="banner-price">15 min<span class="dot"></span>Free</p>
-                                <div>
-                                    <p class="banner-text">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin...</p>
-                                    <a class="button text b200" href="services/acne-treatment" title="View more about consultation">View more about consultation</a>
-                                </div>
-                            </div>
-                            <div class="banner-buttons">
-                                <a class="button expand" href="gratis-hudkonsultation" title="Get a free consultation">Get a free consultation</a>
-                            </div>
-                        </div>
-                        <div class="service-banner-desktop">
-                            <div>
-                                <img src="https://via.placeholder.com/200x200.webp" width="200" height="200" alt="Consultation" title="Consultation" />
-                            </div>
-                            <div class="banner-info">
-                                <h4>IPL for acne</h4>
-                                <p class="banner-price">30 - 60 min<span class="dot"></span>Price from 1925 kr</p>
-                                <div>
-                                    <p class="banner-text">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin...</p>
-                                    <a class="button text b200" href="services/acne-treatment" title="View more about service">View more about service</a>
-                                </div>
-                            </div>
-                            <div class="banner-buttons">
-                                <a class="button expand" href="gratis-hudkonsultation" title="Get a free consultation">Get a free consultation</a>
-                                <a class="button expand" href="gratis-hudkonsultation" title="Book a treatment">Book a treatment</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <h2>Subtitle #6</h2>
-                    <p>
-                        For the first time ever, fans from around the world can explore the faraway lands of their favorite holiday films with an exclusive overnight stay at the original Hobbiton™ Movie Set. Russell Alexander is inviting guests
-                        to his family’s property to live like Bilbo Baggins and retreat to The Shire™ for an overnight stay at Hobbiton, as featured in the famed The Lord of the Rings and The Hobbit film trilogies.
-                    </p>
-                    <p>
-                        Nestled in the picturesque pastures of New Zealand’s Waikato region on a 2,500 acre working farm, the property’s rolling, green hills – bear a striking similarity to The Shire™ as described by J. R. R. Tolkien in The
-                        Lord of the Rings, and captivated Sir Peter Jackson’s movie scouts more than two decades ago. The team quickly realized the Hobbits had found their home – and this holiday season, it could be yours.
-                    </p>
-
-                    <!-- Result overlay (before and after images) -->
-                    <div class="columns is-variable is-2">
-                        <div class="column">
-                            <div class="result-overlay">
-                                <div class="ro-images">
-                                    <img src="https://via.placeholder.com/424x424.webp" alt="Before" title="Before" width="424" height="424" />
-                                    <img src="https://via.placeholder.com/848x848.webp" alt="After" title="After" width="424" height="424" />
-                                    <div class="ro-slider">
-                                        <div class="ro-slider-button">
-                                            <div class="ro-icon-left"></div>
-                                            <div class="ro-icon-right"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ro-info">
-                                    After 2 months of <a href="behandlingar/ansiktsbehandlingar-problemhy/akne" title="acne treatment">acne treatment</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div class="result-overlay">
-                                <div class="ro-images">
-                                    <img src="https://via.placeholder.com/424x424.webp" alt="Before" title="Before" width="424" height="424" />
-                                    <img src="https://via.placeholder.com/848x848.webp" alt="After" title="After" width="424" height="424" />
-                                    <div class="ro-slider">
-                                        <div class="ro-slider-button">
-                                            <div class="ro-icon-left"></div>
-                                            <div class="ro-icon-right"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ro-info">
-                                    After 2 months of <a href="behandlingar/ansiktsbehandlingar-problemhy/akne" title="acne treatment">acne treatment</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <h2>Subtitle #7</h2>
-                    <p>
-                        For the first time ever, fans from around the world can explore the faraway lands of their favorite holiday films with an exclusive overnight stay at the original Hobbiton™ Movie Set. Russell Alexander is inviting guests
-                        to his family’s property to live like Bilbo Baggins and retreat to The Shire™ for an overnight stay at Hobbiton, as featured in the famed The Lord of the Rings and The Hobbit film trilogies.
-                    </p>
-                    <p>
-                        Nestled in the picturesque pastures of New Zealand’s Waikato region on a 2,500 acre working farm, the property’s rolling, green hills – bear a striking similarity to The Shire™ as described by J. R. R. Tolkien in The
-                        Lord of the Rings, and captivated Sir Peter Jackson’s movie scouts more than two decades ago. The team quickly realized the Hobbits had found their home – and this holiday season, it could be yours.
-                    </p>
-
-
-                    <div class="mt-xl">
-                        <div class="columns is-2 is-variable is-multiline">
-                            <div class="column is-half">
-                                <div class="problem-card">
-                                    <div class="pc-details">
-                                        <img src="https://via.placeholder.com/102x102.webp" alt="Hyperpigmentation" title="Hyperpigmentation" width="102" height="102" />
-                                        <div>
-                                            <div class="pc-title">Post inflammatory hyperpigmentation</div>
-                                            <div class="pc-subtitle">Also called scars stains</div>
-                                        </div>
-                                    </div>
-                                    <div class="pc-content">
-                                        Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you
-                                        can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.
-                                    </div>
-                                    <a href="problem/akne" class="is-hidden-desktop button outline expand" title="View more">View more</a>
-                                    <a href="problem/akne" class="is-hidden-touch button compact text" title="View more">View more</a>
-                                </div>
-                            </div>
-                            <div class="column is-half">
-                                <div class="problem-card">
-                                    <div class="pc-details">
-                                        <img src="https://via.placeholder.com/102x102.webp" alt="Cystic acne" title="Cystic acne" width="102" height="102">
-                                        <div>
-                                            <div class="pc-title">Cystic acne</div>
-                                            <div class="pc-subtitle">Also called scars stains</div>
-                                        </div>
-                                    </div>
-                                    <div class="pc-content">
-                                        Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you
-                                        can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.
-                                    </div>
-                                    <a href="problem/akne" class="is-hidden-desktop button outline expand" title="View more">View more</a>
-                                    <a href="problem/akne" class="is-hidden-touch button compact text" title="View more">View more</a>
-                                </div>
-                            </div>
-                            <div class="column is-half">
-                                <div class="problem-card">
-                                    <div class="pc-details">
-                                        <img src="https://via.placeholder.com/102x102.webp" alt="Hyperpigmentation" title="Hyperpigmentation" width="102" height="102">
-                                        <div>
-                                            <div class="pc-title">Post inflammatory hyperpigmentation</div>
-                                            <div class="pc-subtitle">Also called scars stains</div>
-                                        </div>
-                                    </div>
-                                    <div class="pc-content">
-                                        Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you
-                                        can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.
-                                    </div>
-                                    <a href="problem/akne" class="is-hidden-desktop button outline expand" title="View more">View more</a>
-                                    <a href="problem/akne" class="is-hidden-touch button compact text" title="View more">View more</a>
-                                </div>
-                            </div>
-                            <div class="column is-half">
-                                <div class="problem-card">
-                                    <div class="pc-details">
-                                        <img src="https://via.placeholder.com/102x102.webp" alt="Hyperpigmentation" title="Hyperpigmentation" width="102" height="102">
-                                        <div>
-                                            <div class="pc-title">Post inflammatory hyperpigmentation</div>
-                                            <div class="pc-subtitle">Also called scars stains</div>
-                                        </div>
-                                    </div>
-                                    <div class="pc-content">
-                                        Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you
-                                        can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.
-                                    </div>
-                                    <a href="problem/aknearr" class="is-hidden-desktop button outline expand" title="View more">View more</a>
-                                    <a href="problem/aknearr" class="is-hidden-touch button compact text" title="View more">View more</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <h2>Subtitle #8</h2>
-                    <p>
-                        For the first time ever, fans from around the world can explore the faraway lands of their favorite holiday films with an exclusive overnight stay at the original Hobbiton™ Movie Set. Russell Alexander is inviting guests
-                        to his family’s property to live like Bilbo Baggins and retreat to The Shire™ for an overnight stay at Hobbiton, as featured in the famed The Lord of the Rings and The Hobbit film trilogies.
-                    </p>
-                    <p>
-                        Nestled in the picturesque pastures of New Zealand’s Waikato region on a 2,500 acre working farm, the property’s rolling, green hills – bear a striking similarity to The Shire™ as described by J. R. R. Tolkien in The
-                        Lord of the Rings, and captivated Sir Peter Jackson’s movie scouts more than two decades ago. The team quickly realized the Hobbits had found their home – and this holiday season, it could be yours.
-                    </p>
-
-
-                    <!-- Product banner (touch) -->
-                    <div class="mt-xl3 is-hidden-desktop">
-                        <div class="service-banner-touch">
-                            <div class="banner-info">
-                                <img src="https://via.placeholder.com/200x200.webp" width="200" height="200" alt="Products for acne" title="Products for acne" />
-                                <div>
-                                    <h4>Products for acne</h4>
-                                    <p>Price from 995 kr</p>
-                                </div>
-                            </div>
-                            <p class="banner-text">
-                                This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin...
-                            </p>
-                            <a class="button outline expand" href="behandlingar" title="View product details">View product details</a>
-                        </div>
-                    </div>
-
-
-
-                    <!-- Product banner (desktop) -->
-                    <div class="mt-xl3 is-hidden-touch">
-                        <div class="service-banner-desktop">
-                            <div>
-                                <img src="https://via.placeholder.com/200x200.webp" width="200" height="200" alt="Consultation" title="Consultation" />
-                            </div>
-                            <div class="banner-info">
-                                <h4>Products for acne</h4>
-                                <p class="banner-price">Price from 995 kr</p>
-                                <div>
-                                    <p class="banner-text">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin...</p>
-                                    <a class="button text b200" href="behandlingar/ansiktsbehandlingar-problemhy" title="View product details">View product details</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
                     <h2>Subtitle #9</h2>
                     <p>
@@ -551,56 +164,16 @@ $article = new SkinGuideArticle(
                             </div>
                         </div>
                     </div>
-
-                    <h2>Subtitle #10</h2>
-                    <p>
-                        For the first time ever, fans from around the world can explore the faraway lands of their favorite holiday films with an exclusive overnight stay at the original Hobbiton™ Movie Set. Russell Alexander is inviting guests
-                        to his family’s property to live like Bilbo Baggins and retreat to The Shire™ for an overnight stay at Hobbiton, as featured in the famed The Lord of the Rings and The Hobbit film trilogies.
-                    </p>
-                    <p>
-                        Nestled in the picturesque pastures of New Zealand’s Waikato region on a 2,500 acre working farm, the property’s rolling, green hills – bear a striking similarity to The Shire™ as described by J. R. R. Tolkien in The
-                        Lord of the Rings, and captivated Sir Peter Jackson’s movie scouts more than two decades ago. The team quickly realized the Hobbits had found their home – and this holiday season, it could be yours.
-                    </p>
-
-                    <div class="brands">
-                        <div class="columns is-mobile is-multiline">
-                            <div class="column is-6-mobile is-3-tablet is-2-desktop">
-                                <div class="brand">
-                                    <img src="https://via.placeholder.com/116x41.webp" alt="Powerlite" title="Powerlite" width="116" height="41" />
-                                </div>
-                            </div>
-                            <div class="column is-6-mobile is-3-tablet is-2-desktop">
-                                <div class="brand">
-                                    <img src="https://via.placeholder.com/116x41.webp" alt="Dermapen" title="Dermapen" width="116" height="41" />
-                                </div>
-                            </div>
-                            <div class="column is-6-mobile is-3-tablet is-2-desktop">
-                                <div class="brand">
-                                    <img src="https://via.placeholder.com/116x41.webp" alt="Cryopen" title="Cryopen" width="116" height="41" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </section>
             </div>
-            <section id="skin-guide">
-                <div class="flex-row align-end justify-space-between">
-                    <div class="h500 large-margin l10n">Other articles</div>
-                    <a href="skin-guide" class="button compact text is-hidden-mobile">
-                        <span class="l10n">View all articles</span>
-                        <?php icon('navigate-next') ?>
-                    </a>
-                </div>
-                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="skin-guide" title="View all articles">View all articles</a>
-            </section>
-            <section class="large-margin" id="cta-banner">
+            <section id="cta" class="large-margin">
                 <div id="cta-banner-texts">
-                    <div class="l10n" id="cta-banner-header">Want to identify your problem?</div>
-                    <div class="p200 l10n" id="cta-banner-content">In a personal meeting with a skin specialist, your skin type is examined and identified.</div>
+                    <div class="l10n" id="cta-banner-header">Vill du ha hjälp med din hy?</div>
+                    <div class="p200 l10n" id="cta-banner-content">Boka en gratis hudkonsultation hos en av våra erfarna hudterapeuter.</div>
                 </div>
                 <div>
-                    <a href="<?php echo $consultation_url ?>" class="button white expand l10n" title="Get a free consultation">Get a free consultation</a>
+                    <a href="<?php echo $consultation_url ?>" class="button white expand l10n" title="Boka en gratis hudkonsultation">Boka en gratis hudkonsultation</a>
                 </div>
             </section>
             <section id="results" class="large-margin">
@@ -608,7 +181,7 @@ $article = new SkinGuideArticle(
             </section>
             <section id="reviews" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
-                    <div class="h500 l10n">Reviews</div>
+                    <div class="h500 l10n">Omdömen</div>
                     <div class="flex-row is-hidden-mobile">
                         <div class="step-buttons">
                             <button class="round-large grey" onclick="Reviews.scroll(-1)">
@@ -619,41 +192,41 @@ $article = new SkinGuideArticle(
                             </button>
                         </div>
                         <a href="https://se.trustpilot.com/review/acnespecialisten.se" class="ml-l button compact text">
-                            <span class="l10n">View all reviews</span>
+                            <span class="l10n">Se alla omdömen</span>
                             <?php icon('navigate-next') ?>
                         </a>
                     </div>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="View all reviews">View all reviews</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="Se alla omdömen">Se alla omdömen</a>
             </section>
             <section id="faq" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
-                    <div class="h500 l10n">Questions & answers</div>
+                    <div class="h500 l10n">Frågor & svar</div>
                     <a href="faq" class="button compact text is-hidden-mobile">
-                        <span class="l10n">View all questions</span>
+                        <span class="l10n">Se alla frågor</span>
                         <?php icon('navigate-next') ?>
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="faq" title="View all questions">View all questions</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="fragor-svar.php" title="Se alla frågor">Se alla frågor</a>
             </section>
             <section id="specialists" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
-                    <div class="h500 l10n">Our specialists</div>
-                    <a href="specialists" class="button compact text is-hidden-mobile">
-                        <span class="l10n">View all specialists</span>
+                    <div class="h500 l10n">Våra hudterapeuter</div>
+                    <a href="specialister" class="button compact text is-hidden-mobile">
+                        <span class="l10n">Se alla hudterapeuter</span>
                         <?php icon('navigate-next') ?>
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="specialister" title="View all specialists">View all specialists</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="specialister" title="Se alla hudterapeuter">Se alla hudterapeuter</a>
             </section>
             <section id="brands" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
-                    <div class="h500 l10n">Brands we use</div>
+                    <div class="h500 l10n">Varumärken</div>
                     <a href="varumarken" class="button compact text is-hidden-mobile">
-                        <span class="l10n">View all brands</span>
+                        <span class="l10n">Se alla varumärken</span>
                         <?php icon('navigate-next') ?>
                     </a>
                 </div>
