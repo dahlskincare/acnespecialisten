@@ -52,8 +52,8 @@ $faq_categories = array(
         </section>
         <div class="container">
             <section id="title">
-                <h1 class="h600 l10n">Acne myter</h1>
-                <p class="mt-s p200 l10n">Här hittar du svaren på några av de vanligaste acne myterna.</p>
+                <h1 class="h600 l10n">Akne myter</h1>
+                <p class="mt-s p200 l10n">Här hittar du svaren på några av de vanligaste akne myterna.</p>
             </section>
             <section id="faq">
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
