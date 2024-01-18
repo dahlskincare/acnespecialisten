@@ -5,21 +5,21 @@ include_once('problem/widgets/symptom-card/symptom.php');
 include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Akne i Ansiktet - Förståelse och Behandling| Acnespecialisten';
-$seo_description = 'Utforska djupgående insikter om akne i ansiktet, dess orsaker och skräddarsydda behandlingsmetoder hos Acnespecialisten för alla hudtyper och åldrar.';
-$seo_keywords = 'akne i ansiktet, ansiktsakne behandling, hudvård för ansiktsakne';
+$seo_title = 'Hormonell Akne - Djupgående Förståelse och Skräddarsydd Behandling | Acnespecialisten';
+$seo_description = 'Lär dig allt om hormonell akne, dess orsaker och upptäck Acnespecialistens effektiva, anpassade behandlingsmetoder för alla hudtyper och åldrar.';
+$seo_keywords = 'hormonell akne, behandling av hormonell akne, hudvård för hormonell akne';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
 $seo_image = 'bilder/problem/424x456/akne.webp';
 
-$title = 'Akne i ansiktet';
+$title = 'Hormonell akne';
 
 $image_small = 'bilder/problem/424x324/akne.webp';
 $image_large = 'bilder/problem/424x456/akne.webp';
-$image_title = 'Behandling av ansiktsakne';
-$image_alt = 'Bild som illustrerar ansiktsakne och dess behandling';
-$description = 'Denna avdelning erbjuder en detaljerad översikt över akne i ansiktet, dess vanligaste orsaker som hormonella obalanser, stress och miljöfaktorer, samt Acnespecialistens effektiva behandlingar. Vi delar också med oss av individuellt anpassade hudvårdsråd för att stödja personer med ansiktsakne i olika åldrar.';
+$image_title = 'Effektiv Behandling av hormonell akne';
+$image_alt = 'Bild som visar behandlingsmetoder för hormonell akne';
+$description = 'I denna sektion får du en omfattande översikt över hormonell akne, dess huvudsakliga orsaker som hormonella obalanser och stressfaktorer, samt Acnespecialistens skräddarsydda behandlingsmetoder. Vi erbjuder också individuellt anpassade hudvårdsråd för att effektivt stödja personer med hormonell akne i olika åldrar.';
 
 $akas = [
       new Link(
@@ -39,30 +39,30 @@ $akas = [
       ),
 ];
 
-$floating_box = 'Behandla dina akne i ansiktet effektivt.';
+$floating_box = 'Behandla dina hormonell akne effektivt.';
 
 $consultation_url_label = "Få gratis konsultation";
 $consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne";
-$consultation_url_title = "Gratis Konsultation för akne i ansiktet";
+$consultation_url_title = "Gratis Konsultation för hormonell akne";
 
 $booking_url_label = "Boka behandling";
 $booking_url = "https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne";
 $booking_url_title = "Boka behandling";
 
 $mobile_consultation_url_label = "Få gratis konsultation";
-$mobile_consultation_url_title = "Gratis Konsultation för akne i ansiktet";
+$mobile_consultation_url_title = "Gratis Konsultation för hormonell akne";
 
 $mobile_booking_url_label = "Boka behandling";
 $mobile_booking_url_title = "Boka behandling";
 
 $floating_consultation_url_label = "Få gratis konsultation";
-$floating_consultation_url_title = "Gratis Konsultation för akne i ansiktet";
+$floating_consultation_url_title = "Gratis Konsultation för hormonell akne";
 
 $floating_booking_url_label = "Boka behandling";
 $floating_booking_url_title = "Boka behandling";
 
 $nav_buttons = array(
-      'about' => 'Om akne i ansiktet',
+      'about' => 'Om hormonell akne',
       'approach' => 'Metoden',
       'areas' => 'Områden',
       'articles' => 'När?',
@@ -75,75 +75,52 @@ $nav_buttons = array(
       'related-problems' => 'Relaterade problem',
 );
 
-$description_title = 'Förstå och Behandla Akne i Ansiktet';
-$description_text = '<p class="p200">Akne i ansiktet är en vanlig hudåkomma som drabbar människor i alla åldersgrupper, påverkad av en rad olika faktorer som hormonella förändringar och stress. På Acnespecialisten fokuserar vi på att förstå de unika orsakerna till din ansiktsakne och tillhandahåller personligt anpassade behandlingar och hudvårdsstrategier. Vår mångsidiga behandlingsmetodik omfattar allt från skonsamma, djuprengörande procedurer till avancerade behandlingar för att effektivt minska akne och dess påverkan på huden.</p>
-<p class="p200 mt-m">Med vår expertis skapar vi individuella hudvårdsplaner som inkluderar både behandlingar och dagliga hudvårdsrutiner anpassade efter din hudtyp och akneintensitet. Våra behandlingsprogram syftar till att lugna huden, minska inflammation och främja hudens balans, vilket bidrar till en klarare och mer jämn hudton över tid.</p>';
+$description_title = 'Om hormonell akne';
+$description_text = '<p class="p200">Hormonell akne är en utmanande hudåkomma som påverkar individer i alla åldrar, ofta drivet av hormonella förändringar och stress. På Acnespecialisten fokuserar vi på att förstå de specifika orsakerna till din hormonella akne och erbjuder skräddarsydda behandlingsalternativ och hudvårdsstrategier. Våra behandlingsmetoder omfattar allt från avancerade terapier till djuprengörande procedurer, anpassade för att effektivt minska akne och dess effekter på huden.</p>
+<p class="p200 mt-m">Genom vår expertis skapar vi personliga hudvårdsplaner som inkluderar både specialbehandlingar och dagliga hudvårdsrutiner, skräddarsydda efter din hudtyp och aknes svårighetsgrad. Våra behandlingsprogram är utformade för att lugna huden, minska inflammation och främja en balanserad hudhälsa, vilket leder till en klarare och friskare hudton över tid.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Vår specialiserade konsultation på AcneSpecialisten är utformad för att kartlägga de unika egenskaperna hos din ansiktsakne. Genom vår expertis identifierar vi de bakomliggande faktorerna och utvecklar en personlig behandlingsplan för att effektivt hantera dina hudproblem.',
+            content: 'Vår specialiserade konsultation på AcneSpecialisten är avsedd att djupdyka i de unika egenskaperna hos din hormonella akne. Genom en omfattande analys identifierar vi de bakomliggande orsakerna till ditt specifika hudproblem och skapar en behandlingsplan som är skräddarsydd för att effektivt hantera din hormonella akne.',
             url_label: 'Få gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
-            url_title: 'Boka din kostnadsfria hudkonsultation idag'
+            url_title: 'Boka din kostnadsfria hudkonsultation för hormonell akne idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi anpassar varje behandling för akne i ansiktet baserat på din huds individuella behov. Med vårt breda utbud av behandlingar, från milt exfolierande till djuprengörande metoder, erbjuder vi effektiva lösningar för att bekämpa akne och främja en klarare hud.',
-            url_label: 'Se aknebehandlingar',
+            content: 'Våra behandlingar för hormonell akne är skräddarsydda för att passa just din hudtyp och dess unika behov. Vi erbjuder en rad behandlingsmetoder, från milda till intensiva, för att effektivt ta itu med problemen som hormonell akne medför, och arbetar mot målet att uppnå en hälsosammare och klarare hud.',
+            url_label: 'Se behandlingar för hormonell akne',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
-            url_title: 'Utforska våra skräddarsydda aknebehandlingar'
+            url_title: 'Utforska våra behandlingar för hormonell akne'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'För att förebygga framtida utbrott av akne i ansiktet, erbjuder vi skräddarsydda hudvårdsprodukter och rutiner. Dessa är specifikt utformade för att balansera din hud och motverka faktorer som bidrar till akne, hållande din hud hälsosam och ren.',
-            url_label: 'Se produkter',
+            content: 'För att förebygga framtida utbrott av hormonell akne, erbjuder vi specialdesignade hudvårdsprodukter och rutiner. Dessa produkter och rutiner är noggrant utformade för att balansera din hud och bekämpa de faktorer som bidrar till uppkomsten av hormonell akne, vilket leder till en mer hälsosam och ren hud över tid.',
+            url_label: 'Se produkter för hormonell akne',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
-            url_title: 'Hitta de bästa produkterna för att förebygga akne'
+            url_title: 'Hitta de bästa produkterna för att förebygga hormonell akne'
       ),
       new TreatmentStep(
             title: 'Reparera',
-            content: 'Efter att ha behandlat aktiv akne fokuserar vi på att reparera huden. Våra behandlingar inkluderar metoder för att minska ärrbildning och förbättra hudens textur, bidragande till en jämn och fräsch hudton för långsiktiga resultat.',
-            url_label: 'Se ärrbehandlingar',
+            content: 'När vi har behandlat den aktiva hormonella aknen, inriktar vi oss på att reparera och förbättra hudens kvalitet. Våra behandlingar fokuserar på att minska ärrbildning och förbättra hudens textur, vilket resulterar i en jämnare och mer strålande hudton.',
+            url_label: 'Se ärrbehandlingar för hormonell akne',
             url: 'behandla-acnearr.php',
-            url_title: 'Upptäck effektiva behandlingar för ärr från akne'
+            url_title: 'Upptäck våra effektiva behandlingar för ärr orsakade av hormonell akne'
       ),
 );
 
-$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar mot akne i ansiktet" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot akne</a>';
-
+$treatment_link = '<a href="acnebehandling_vulgaris.php" title="Utforska effektiva behandlingar mot hormonell akne" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot hormonell akne</a>';
 
 $top_articles = array(
     'areas' => new Article(
-        title: 'Varför uppstår akne i ansiktet?',
+        title: 'Var uppstår hormonell akne?',
         image_small: '',
         image_large: '',
         image_alt: '',
         image_title: '',
-        content: '<p class="p200">Orsakerna till akne i ansiktet är mångfacetterade och involverar ofta en kombination av faktorer. En primär orsak är hormonella förändringar som kan stimulera överproduktion av talg, vilket leder till tilltäppta porer och akneutbrott. Stress har också visat sig kunna förvärra akne genom att påverka hormonbalansen och öka hudens talgproduktion. På AcneSpecialisten fokuserar vi på en helhetssyn av dina hudproblem för att effektivt adressera akne i ansiktet.</p>
-            <p class="p200 mt-m">Ett riktat tillvägagångssätt för att hantera akne i ansiktet kräver en noga anpassad hudvårdsrutin. Det är avgörande att välja produkter som är effektiva men samtidigt skonsamma mot huden för att undvika ytterligare irritation. På AcneSpecialisten arbetar vi nära med dig för att skapa en personligt anpassad hudvårdsrutin som stärker och balanserar din hud, och bidrar till att förebygga framtida akneutbrott och främja en hälsosam hudmiljö.</p>',
+        content: '<p class="p200">Det är viktigt att förstå att platsen där akne uppstår inte nödvändigtvis indikerar att det är hormonell akne. I själva verket är all akne i grund och botten relaterad till hormonella förändringar i kroppen och kan uppstå på vilken del av huden som helst där akne tenderar att framträda. Akne orsakas av en överproduktion av talg från talgkörtlar, vilket ofta är resultatet av hormonella förändringar. Dessa förändringar kan vara ett resultat av faktorer som pubertet, menstruationscykler, graviditet, menopaus eller vissa medicinska tillstånd. Akne kan manifestera sig på flera platser på kroppen, inklusive ansikte, nacke, rygg, bröst och axlar, vilka alla har en hög koncentration av talgkörtlar.</p>',
     ),
-);
-
-$articles = array(
-      new Article(
-            title: 'När är det dags att söka professionell hjälp för akne i ansiktet?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'När är det dags att söka professionell hjälp för akne i ansiktet?',
-            image_title: 'När är det dags att söka professionell hjälp för akne i ansiktet?',
-            content: '<p class="p200">Akne i ansiktet kan vara mer än bara ett hudproblem – det kan även leda till emotionellt obehag. Om du upplever att din akne är ihållande eller förvärras, är det en signal om att det kan vara läge att söka professionell hjälp. Tidig behandling är nyckeln till att förebygga ärr och andra långsiktiga hudproblem. Genom professionell rådgivning kan du få hjälp med att behandla nuvarande utbrott samt råd om förebyggande åtgärder och anpassade hudvårdsrutiner för att bevara en frisk hud.</p>',
-      ),
-
-      new Article(
-            title: 'Varför välja AcneSpecialisten för din aknebehandling i ansiktet?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'Varför välja AcneSpecialisten för din aknebehandling i ansiktet?',
-            image_title: 'Varför välja AcneSpecialisten för din aknebehandling i ansiktet?',
-            content: '<p class="p200">AcneSpecialisten står ut med över 30 års erfarenhet av att behandla akne i ansiktet. Vår djupa förståelse för hudens komplexitet och behov gör att vi kan erbjuda unika, skräddarsydda behandlingar anpassade efter varje individs situation.</p>
-            <p class="p200 mt-m">Vi på AcneSpecialisten utvecklar personliga behandlingsplaner för varje kund, med fokus på att inte bara lindra nuvarande hudproblem utan också utbilda om hur man upprätthåller en hälsosam hud långsiktigt. Vårt engagemang och vår kunskap gör oss till det självklara valet för dem som söker hållbara lösningar för akne i ansiktet.</p>',
-      ),
 );
 
 $results = array(

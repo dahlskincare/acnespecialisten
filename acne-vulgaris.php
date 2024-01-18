@@ -5,21 +5,21 @@ include_once('problem/widgets/symptom-card/symptom.php');
 include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Akne i Ansiktet - Förståelse och Behandling| Acnespecialisten';
-$seo_description = 'Utforska djupgående insikter om akne i ansiktet, dess orsaker och skräddarsydda behandlingsmetoder hos Acnespecialisten för alla hudtyper och åldrar.';
-$seo_keywords = 'akne i ansiktet, ansiktsakne behandling, hudvård för ansiktsakne';
+$seo_title = 'Akne Vulgaris - Djupgående Förståelse och Effektiv Behandling | Acnespecialisten';
+$seo_description = 'Utforska insikter om akne vulgaris, dess orsaker och Acnespecialistens skräddarsydda behandlingsmetoder för alla hudtyper och åldersgrupper.';
+$seo_keywords = 'akne vulgaris, behandling av akne vulgaris, hudvård för akne vulgaris';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
 $seo_image = 'bilder/problem/424x456/akne.webp';
 
-$title = 'Akne i ansiktet';
+$title = 'Acne Vulgaris';
 
 $image_small = 'bilder/problem/424x324/akne.webp';
 $image_large = 'bilder/problem/424x456/akne.webp';
-$image_title = 'Behandling av ansiktsakne';
-$image_alt = 'Bild som illustrerar ansiktsakne och dess behandling';
-$description = 'Denna avdelning erbjuder en detaljerad översikt över akne i ansiktet, dess vanligaste orsaker som hormonella obalanser, stress och miljöfaktorer, samt Acnespecialistens effektiva behandlingar. Vi delar också med oss av individuellt anpassade hudvårdsråd för att stödja personer med ansiktsakne i olika åldrar.';
+$image_title = 'Effektiv Behandling av Akne Vulgaris';
+$image_alt = 'Bild som visar akne vulgaris och dess behandlingsmetoder';
+$description = 'I denna sektion får du en omfattande översikt över akne vulgaris, dess vanligaste orsaker såsom hormonella obalanser, stress och miljöfaktorer, samt Acnespecialistens anpassade behandlingsmetoder. Vi erbjuder också individuellt anpassade hudvårdsråd för att stödja personer med akne vulgaris i olika åldrar.';
 
 $akas = [
       new Link(
@@ -39,30 +39,30 @@ $akas = [
       ),
 ];
 
-$floating_box = 'Behandla dina akne i ansiktet effektivt.';
+$floating_box = 'Behandla dina acne vulgaris effektivt.';
 
 $consultation_url_label = "Få gratis konsultation";
 $consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne";
-$consultation_url_title = "Gratis Konsultation för akne i ansiktet";
+$consultation_url_title = "Gratis Konsultation för acne vulgaris";
 
 $booking_url_label = "Boka behandling";
-$booking_url = "https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne";
+$booking_url = "https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne";
 $booking_url_title = "Boka behandling";
 
 $mobile_consultation_url_label = "Få gratis konsultation";
-$mobile_consultation_url_title = "Gratis Konsultation för akne i ansiktet";
+$mobile_consultation_url_title = "Gratis Konsultation för acne vulgaris";
 
 $mobile_booking_url_label = "Boka behandling";
 $mobile_booking_url_title = "Boka behandling";
 
 $floating_consultation_url_label = "Få gratis konsultation";
-$floating_consultation_url_title = "Gratis Konsultation för akne i ansiktet";
+$floating_consultation_url_title = "Gratis Konsultation för acne vulgaris";
 
 $floating_booking_url_label = "Boka behandling";
 $floating_booking_url_title = "Boka behandling";
 
 $nav_buttons = array(
-      'about' => 'Om akne i ansiktet',
+      'about' => 'Om acne vulgaris',
       'approach' => 'Metoden',
       'areas' => 'Områden',
       'articles' => 'När?',
@@ -75,75 +75,53 @@ $nav_buttons = array(
       'related-problems' => 'Relaterade problem',
 );
 
-$description_title = 'Förstå och Behandla Akne i Ansiktet';
-$description_text = '<p class="p200">Akne i ansiktet är en vanlig hudåkomma som drabbar människor i alla åldersgrupper, påverkad av en rad olika faktorer som hormonella förändringar och stress. På Acnespecialisten fokuserar vi på att förstå de unika orsakerna till din ansiktsakne och tillhandahåller personligt anpassade behandlingar och hudvårdsstrategier. Vår mångsidiga behandlingsmetodik omfattar allt från skonsamma, djuprengörande procedurer till avancerade behandlingar för att effektivt minska akne och dess påverkan på huden.</p>
-<p class="p200 mt-m">Med vår expertis skapar vi individuella hudvårdsplaner som inkluderar både behandlingar och dagliga hudvårdsrutiner anpassade efter din hudtyp och akneintensitet. Våra behandlingsprogram syftar till att lugna huden, minska inflammation och främja hudens balans, vilket bidrar till en klarare och mer jämn hudton över tid.</p>';
+$description_title = 'Förstå och effektivt behandla akne vulgaris';
+$description_text = '<p class="p200">Akne vulgaris är en vanlig hudåkomma som drabbar personer i alla åldrar, påverkad av faktorer såsom hormonella förändringar och stress. På Acnespecialisten lägger vi stor vikt vid att förstå de unika orsakerna bakom din akne vulgaris och erbjuder skräddarsydda behandlingar och hudvårdsstrategier. Våra behandlingsmetoder varierar från milda, djuprengörande procedurer till avancerade terapier för att effektivt minska akne och dess påverkan på huden.</p>
+<p class="p200 mt-m">Genom vår expertis utvecklar vi individuella hudvårdsplaner som omfattar både specialbehandlingar och dagliga hudvårdsrutiner anpassade efter din hudtyp och aknes svårighetsgrad. Våra behandlingsprogram är inriktade på att lugna huden, minska inflammation och främja en hälsosam hudbalans, vilket bidrar till en klarare och jämnare hudton över tid.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Vår specialiserade konsultation på AcneSpecialisten är utformad för att kartlägga de unika egenskaperna hos din ansiktsakne. Genom vår expertis identifierar vi de bakomliggande faktorerna och utvecklar en personlig behandlingsplan för att effektivt hantera dina hudproblem.',
+            content: 'Vår specialiserade konsultation på AcneSpecialisten är inriktad på att kartlägga de unika egenskaperna hos din akne vulgaris. Genom noggrann analys identifierar vi de bakomliggande orsakerna och tar fram en anpassad behandlingsplan för att effektivt hantera ditt hudtillstånd.',
             url_label: 'Få gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
-            url_title: 'Boka din kostnadsfria hudkonsultation idag'
+            url_title: 'Boka din kostnadsfria hudkonsultation för akne vulgaris idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi anpassar varje behandling för akne i ansiktet baserat på din huds individuella behov. Med vårt breda utbud av behandlingar, från milt exfolierande till djuprengörande metoder, erbjuder vi effektiva lösningar för att bekämpa akne och främja en klarare hud.',
-            url_label: 'Se aknebehandlingar',
-            url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
-            url_title: 'Utforska våra skräddarsydda aknebehandlingar'
+            content: 'Varje behandling för akne vulgaris anpassas efter din unika hudtyp och behov. Från milda exfolierande behandlingar till djuprengörande metoder, erbjuder vi skräddarsydda lösningar för att effektivt hantera akne och främja en klarare hud.',
+            url_label: 'Se akne vulgaris-behandlingar',
+            url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne',
+            url_title: 'Utforska våra behandlingar för akne vulgaris'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'För att förebygga framtida utbrott av akne i ansiktet, erbjuder vi skräddarsydda hudvårdsprodukter och rutiner. Dessa är specifikt utformade för att balansera din hud och motverka faktorer som bidrar till akne, hållande din hud hälsosam och ren.',
+            content: 'För att förhindra framtida utbrott av akne vulgaris, erbjuder vi specialutformade hudvårdsprodukter och rutiner. Dessa är utvecklade för att balansera huden och bekämpa de faktorer som orsakar akne, för att hålla din hud hälsosam och ren.',
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
-            url_title: 'Hitta de bästa produkterna för att förebygga akne'
+            url_title: 'Hitta de bästa produkterna för att förebygga akne vulgaris'
       ),
       new TreatmentStep(
             title: 'Reparera',
-            content: 'Efter att ha behandlat aktiv akne fokuserar vi på att reparera huden. Våra behandlingar inkluderar metoder för att minska ärrbildning och förbättra hudens textur, bidragande till en jämn och fräsch hudton för långsiktiga resultat.',
+            content: 'Efter behandling av aktiv akne vulgaris fokuserar vi på att reparera och förbättra hudens tillstånd. Våra behandlingsmetoder inkluderar strategier för att minska ärrbildning och förbättra hudens textur, vilket leder till en jämnare och fräschare hudton för långsiktiga resultat.',
             url_label: 'Se ärrbehandlingar',
             url: 'behandla-acnearr.php',
-            url_title: 'Upptäck effektiva behandlingar för ärr från akne'
+            url_title: 'Upptäck våra effektiva behandlingar för ärr orsakade av akne vulgaris'
       ),
 );
 
-$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar mot akne i ansiktet" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot akne</a>';
-
+$treatment_link = '<a href="acnebehandling_vulgaris.php" title="Utforska effektiva behandlingar mot akne vulgaris" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot akne vulgaris</a>';
 
 $top_articles = array(
     'areas' => new Article(
-        title: 'Varför uppstår akne i ansiktet?',
+        title: 'Var och varför uppstår acne vulgaris?',
         image_small: '',
         image_large: '',
         image_alt: '',
         image_title: '',
-        content: '<p class="p200">Orsakerna till akne i ansiktet är mångfacetterade och involverar ofta en kombination av faktorer. En primär orsak är hormonella förändringar som kan stimulera överproduktion av talg, vilket leder till tilltäppta porer och akneutbrott. Stress har också visat sig kunna förvärra akne genom att påverka hormonbalansen och öka hudens talgproduktion. På AcneSpecialisten fokuserar vi på en helhetssyn av dina hudproblem för att effektivt adressera akne i ansiktet.</p>
-            <p class="p200 mt-m">Ett riktat tillvägagångssätt för att hantera akne i ansiktet kräver en noga anpassad hudvårdsrutin. Det är avgörande att välja produkter som är effektiva men samtidigt skonsamma mot huden för att undvika ytterligare irritation. På AcneSpecialisten arbetar vi nära med dig för att skapa en personligt anpassad hudvårdsrutin som stärker och balanserar din hud, och bidrar till att förebygga framtida akneutbrott och främja en hälsosam hudmiljö.</p>',
+        content: '<p class="p200">Orsakerna bakom acne vulgaris beror ofta på en samverkan av flera faktorer. Hormonella förändringar är en av de främsta orsakerna, då de kan leda till överproduktion av talg och resultera i tilltäppta porer och akne. Stress är en annan betydande faktor som kan förvärra akne genom att störa hormonbalansen och öka talgproduktionen i huden. På AcneSpecialisten lägger vi stor vikt vid en helhetssyn på dina hudproblem för att effektivt behandla och hantera acne vulgaris.</p>
+            <p class="p200 mt-m">En effektiv strategi för att hantera acne vulgaris innebär en skräddarsydd hudvårdsrutin. Det är viktigt att välja hudvårdsprodukter som inte bara är effektiva, utan också skonsamma, för att undvika att irritera huden ytterligare. Hos AcneSpecialisten samarbetar vi med dig för att utforma en personlig hudvårdsplan som stärker och balanserar din hud. Detta bidrar till att förebygga framtida utbrott av akne och främjar en långsiktigt hälsosam hudmiljö.</p>',
     ),
-);
-
-$articles = array(
-      new Article(
-            title: 'När är det dags att söka professionell hjälp för akne i ansiktet?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'När är det dags att söka professionell hjälp för akne i ansiktet?',
-            image_title: 'När är det dags att söka professionell hjälp för akne i ansiktet?',
-            content: '<p class="p200">Akne i ansiktet kan vara mer än bara ett hudproblem – det kan även leda till emotionellt obehag. Om du upplever att din akne är ihållande eller förvärras, är det en signal om att det kan vara läge att söka professionell hjälp. Tidig behandling är nyckeln till att förebygga ärr och andra långsiktiga hudproblem. Genom professionell rådgivning kan du få hjälp med att behandla nuvarande utbrott samt råd om förebyggande åtgärder och anpassade hudvårdsrutiner för att bevara en frisk hud.</p>',
-      ),
-
-      new Article(
-            title: 'Varför välja AcneSpecialisten för din aknebehandling i ansiktet?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'Varför välja AcneSpecialisten för din aknebehandling i ansiktet?',
-            image_title: 'Varför välja AcneSpecialisten för din aknebehandling i ansiktet?',
-            content: '<p class="p200">AcneSpecialisten står ut med över 30 års erfarenhet av att behandla akne i ansiktet. Vår djupa förståelse för hudens komplexitet och behov gör att vi kan erbjuda unika, skräddarsydda behandlingar anpassade efter varje individs situation.</p>
-            <p class="p200 mt-m">Vi på AcneSpecialisten utvecklar personliga behandlingsplaner för varje kund, med fokus på att inte bara lindra nuvarande hudproblem utan också utbilda om hur man upprätthåller en hälsosam hud långsiktigt. Vårt engagemang och vår kunskap gör oss till det självklara valet för dem som söker hållbara lösningar för akne i ansiktet.</p>',
-      ),
 );
 
 $results = array(
@@ -566,14 +544,6 @@ $brands_url_title = "Se alla varumärken";
                               <?php echo $treatment_link ?>
 
                         </section>
-
-                        <?php foreach ($top_articles as $id => $article) { ?>
-                          <section id="<?php echo $id ?>">
-                              <?php
-                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
-                              ?>
-                          </section>
-                        <?php } ?>
 
                         <section id="articles">
                               <?php foreach ($articles as $article) { ?>

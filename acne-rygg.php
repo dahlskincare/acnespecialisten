@@ -46,7 +46,7 @@ $consultation_url = "https://acnespecialisten.se/book?flow=consultation&Consulta
 $consultation_url_title = "Gratis Konsultation för akne på ryggen";
 
 $booking_url_label = "Boka behandling";
-$booking_url = "https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne";
+$booking_url = "https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne";
 $booking_url_title = "Boka behandling";
 
 $mobile_consultation_url_label = "Få gratis konsultation";
@@ -91,7 +91,7 @@ $treatment_steps = array(
             title: 'Behandla',
             content: 'Varje behandling för akne på ryggen anpassas utifrån din huds specifika behov. Vi erbjuder ett brett spektrum av behandlingar, från mild exfoliering till djuprengörande metoder, för att effektivt bekämpa akne på ryggen och främja en klarare hud.',
             url_label: 'Se ryggaknebehandlingar',
-            url: 'https://acnespecialisten.se/book?flow=backProblem&problem=Problem_Acne_Back',
+            url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
             url_title: 'Utforska våra skräddarsydda behandlingar för ryggakne'
       ),
       new TreatmentStep(

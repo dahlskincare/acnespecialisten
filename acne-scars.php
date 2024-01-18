@@ -83,25 +83,11 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Treat',
-            content: 'We perform gentle and effective acne treatments tailored to your specific type of acne, helping you quickly and safely eliminate the problem.',
-            url_label: 'See acne treatments',
-            url: 'acnebehandling.php',
-            url_title: 'Explore our customized acne treatments'
-        ),
-        new TreatmentStep(
-            title: 'Prevent',
-            content: 'We assist you in finding a skincare routine and products that suit your skin type to prevent new acne and keep your skin balanced.',
-            url_label: 'See products',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
-            url_title: 'Find the best products to prevent acne'
-        ),
-        new TreatmentStep(
-            title: 'Repair',
-            content: 'Once the acne is resolved, we focus on reducing any scars with treatment methods like laser, microneedling, and chemical peels for smooth and scar-free skin.',
+             content: 'Once the acne is resolved, we focus on reducing any scars with treatment methods like laser, microneedling, and chemical peels for smooth and scar-free skin.',
             url_label: 'See scar treatments',
             url: 'behandla-acnearr.php',
             url_title: 'Discover effective treatments for acne scars'
-        ),
+      ),
 );
 $treatment_link = '<a href="behandla-acnearr.php" title="Explore effective acne scar treatments" class="mt-xl button b200 outline expand auto-width">Learn more about our acne scar treatments</a>';
 
@@ -544,6 +530,26 @@ $brands_url_title = "Se alla varumärken";
                               ?>
                           </section>
                       <?php } ?>
+
+                        <section id="articles">
+                              <?php foreach ($articles as $article) { ?>
+                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php'); ?>
+                              <?php } ?>
+                        </section>
+                        <section id="define">
+                              <h2 class="h500 l10n"><?php echo $headline01 ?></h2>
+                              <hr class="is-hidden-mobile">
+                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
+                              <hr class="is-hidden-mobile">
+                        </section>
+                        <section id="treatments">
+                              <h2 class="h500"><?php echo $headline02 ?></h2>
+                              <hr class="is-hidden-mobile mt-xl">
+                              <?php foreach ($services as $service) { ?>
+                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
+                                    <hr class="is-hidden-mobile mb-xxl">
+                              <?php } ?>
+                        </section>
                         
                         <section id="results">
                               <?php

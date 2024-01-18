@@ -5,21 +5,21 @@ include_once('problem/widgets/symptom-card/symptom.php');
 include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Akne i Ansiktet - Förståelse och Behandling| Acnespecialisten';
-$seo_description = 'Utforska djupgående insikter om akne i ansiktet, dess orsaker och skräddarsydda behandlingsmetoder hos Acnespecialisten för alla hudtyper och åldrar.';
-$seo_keywords = 'akne i ansiktet, ansiktsakne behandling, hudvård för ansiktsakne';
+$seo_title = 'Cystisk Akne - Omfattande Behandling och Expertis | Acnespecialisten';
+$seo_description = 'Utforska allt om cystisk akne, dess orsaker och effektiva behandlingsmetoder från Acnespecialisten, anpassade för alla hudtyper och åldrar.';
+$seo_keywords = 'cystisk akne, behandling av cystisk akne, hudvård för cystisk akne';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
 $seo_image = 'bilder/problem/424x456/akne.webp';
 
-$title = 'Akne i ansiktet';
+$title = 'Cystisk akne';
 
 $image_small = 'bilder/problem/424x324/akne.webp';
 $image_large = 'bilder/problem/424x456/akne.webp';
-$image_title = 'Behandling av ansiktsakne';
-$image_alt = 'Bild som illustrerar ansiktsakne och dess behandling';
-$description = 'Denna avdelning erbjuder en detaljerad översikt över akne i ansiktet, dess vanligaste orsaker som hormonella obalanser, stress och miljöfaktorer, samt Acnespecialistens effektiva behandlingar. Vi delar också med oss av individuellt anpassade hudvårdsråd för att stödja personer med ansiktsakne i olika åldrar.';
+$image_title = 'Effektiv Behandling av Cystisk Akne';
+$image_alt = 'Bild som visar behandling av cystisk akne';
+$description = 'Denna sektion ger dig en djupgående översikt över cystisk akne, dess vanligaste orsaker såsom hormonella obalanser och stress, samt Acnespecialistens skräddarsydda behandlingsmetoder. Vi tillhandahåller även individuellt anpassade hudvårdsråd för att stödja personer med cystisk akne i olika åldrar.';
 
 $akas = [
       new Link(
@@ -39,30 +39,30 @@ $akas = [
       ),
 ];
 
-$floating_box = 'Behandla dina akne i ansiktet effektivt.';
+$floating_box = 'Behandla dina cystisk akne effektivt.';
 
 $consultation_url_label = "Få gratis konsultation";
 $consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne";
-$consultation_url_title = "Gratis Konsultation för akne i ansiktet";
+$consultation_url_title = "Gratis Konsultation för Cystisk akne";
 
 $booking_url_label = "Boka behandling";
 $booking_url = "https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne";
 $booking_url_title = "Boka behandling";
 
 $mobile_consultation_url_label = "Få gratis konsultation";
-$mobile_consultation_url_title = "Gratis Konsultation för akne i ansiktet";
+$mobile_consultation_url_title = "Gratis Konsultation för cystisk akne";
 
 $mobile_booking_url_label = "Boka behandling";
 $mobile_booking_url_title = "Boka behandling";
 
 $floating_consultation_url_label = "Få gratis konsultation";
-$floating_consultation_url_title = "Gratis Konsultation för akne i ansiktet";
+$floating_consultation_url_title = "Gratis Konsultation för cystisk akne";
 
 $floating_booking_url_label = "Boka behandling";
 $floating_booking_url_title = "Boka behandling";
 
 $nav_buttons = array(
-      'about' => 'Om akne i ansiktet',
+      'about' => 'Om cystisk akne',
       'approach' => 'Metoden',
       'areas' => 'Områden',
       'articles' => 'När?',
@@ -75,75 +75,53 @@ $nav_buttons = array(
       'related-problems' => 'Relaterade problem',
 );
 
-$description_title = 'Förstå och Behandla Akne i Ansiktet';
-$description_text = '<p class="p200">Akne i ansiktet är en vanlig hudåkomma som drabbar människor i alla åldersgrupper, påverkad av en rad olika faktorer som hormonella förändringar och stress. På Acnespecialisten fokuserar vi på att förstå de unika orsakerna till din ansiktsakne och tillhandahåller personligt anpassade behandlingar och hudvårdsstrategier. Vår mångsidiga behandlingsmetodik omfattar allt från skonsamma, djuprengörande procedurer till avancerade behandlingar för att effektivt minska akne och dess påverkan på huden.</p>
-<p class="p200 mt-m">Med vår expertis skapar vi individuella hudvårdsplaner som inkluderar både behandlingar och dagliga hudvårdsrutiner anpassade efter din hudtyp och akneintensitet. Våra behandlingsprogram syftar till att lugna huden, minska inflammation och främja hudens balans, vilket bidrar till en klarare och mer jämn hudton över tid.</p>';
+$description_title = 'Förstå och effektivt behandla cystisk akne';
+$description_text = '<p class="p200">Cystisk akne är en svårare form av akne, som drabbar individer i alla åldrar och ofta är påverkad av faktorer såsom hormonella förändringar och stress. På Acnespecialisten fokuserar vi på att förstå de unika orsakerna till din cystiska akne och erbjuder skräddarsydda behandlingsalternativ och hudvårdsstrategier. Våra behandlingsmetoder sträcker sig från avancerade terapier till djuprengörande procedurer, utformade för att effektivt hantera akne och dess inverkan på huden.</p>
+<p class="p200 mt-m">Med vår expertis utformar vi personliga hudvårdsplaner som innefattar både specialbehandlingar och dagliga hudvårdsrutiner, anpassade efter din hudtyp och aknes svårighetsgrad. Våra program är inriktade på att lugna huden, minska inflammation och främja en hälsosam hudbalans, vilket bidrar till en klarare och mer välmående hudton över tid.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Vår specialiserade konsultation på AcneSpecialisten är utformad för att kartlägga de unika egenskaperna hos din ansiktsakne. Genom vår expertis identifierar vi de bakomliggande faktorerna och utvecklar en personlig behandlingsplan för att effektivt hantera dina hudproblem.',
+            content: 'Genom vår specialiserade konsultation på AcneSpecialisten fokuserar vi på att förstå de unika egenskaperna hos din cystiska akne. Vi genomför en detaljerad analys för att identifiera de underliggande orsakerna och utarbeta en skräddarsydd behandlingsplan för att effektivt hantera ditt hudtillstånd.',
             url_label: 'Få gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
-            url_title: 'Boka din kostnadsfria hudkonsultation idag'
+            url_title: 'Boka din kostnadsfria hudkonsultation för cystisk akne idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi anpassar varje behandling för akne i ansiktet baserat på din huds individuella behov. Med vårt breda utbud av behandlingar, från milt exfolierande till djuprengörande metoder, erbjuder vi effektiva lösningar för att bekämpa akne och främja en klarare hud.',
-            url_label: 'Se aknebehandlingar',
+            content: 'Behandlingar för cystisk akne hos AcneSpecialisten anpassas individuellt efter din hudtyp och dess specifika behov. Vi använder oss av både milda och intensiva behandlingsmetoder för att hantera denna svåra form av akne och arbetar för att uppnå en klarare och friskare hud.',
+            url_label: 'Se behandlingar för cystisk akne',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
-            url_title: 'Utforska våra skräddarsydda aknebehandlingar'
+            url_title: 'Utforska våra behandlingar för cystisk akne'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'För att förebygga framtida utbrott av akne i ansiktet, erbjuder vi skräddarsydda hudvårdsprodukter och rutiner. Dessa är specifikt utformade för att balansera din hud och motverka faktorer som bidrar till akne, hållande din hud hälsosam och ren.',
-            url_label: 'Se produkter',
+            content: 'För att förebygga framtida utbrott av cystisk akne erbjuder vi specialanpassade hudvårdsprodukter och rutiner. Dessa är utformade för att hjälpa till att balansera huden och bekämpa de faktorer som kan orsaka akne, bidragande till en långvarigt hälsosam och ren hud.',
+            url_label: 'Se produkter för cystisk akne',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
-            url_title: 'Hitta de bästa produkterna för att förebygga akne'
+            url_title: 'Hitta de bästa produkterna för att förebygga cystisk akne'
       ),
       new TreatmentStep(
             title: 'Reparera',
-            content: 'Efter att ha behandlat aktiv akne fokuserar vi på att reparera huden. Våra behandlingar inkluderar metoder för att minska ärrbildning och förbättra hudens textur, bidragande till en jämn och fräsch hudton för långsiktiga resultat.',
-            url_label: 'Se ärrbehandlingar',
+            content: 'Efter att ha behandlat den aktiva cystiska aknen, fokuserar vi på att reparera och förbättra hudens övergripande tillstånd. Våra metoder inkluderar behandlingar för att minska ärrbildning och förbättra hudens textur, vilket leder till en jämnare och mer vital hudton.',
+            url_label: 'Se ärrbehandlingar för cystisk akne',
             url: 'behandla-acnearr.php',
-            url_title: 'Upptäck effektiva behandlingar för ärr från akne'
+            url_title: 'Upptäck våra effektiva behandlingar för ärr orsakade av cystisk akne'
       ),
 );
 
-$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar mot akne i ansiktet" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot akne</a>';
-
+$treatment_link = '<a href="acnebehandling_vulgaris.php" title="Utforska effektiva behandlingar mot cystisk akne" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot cystisk akne</a>';
 
 $top_articles = array(
     'areas' => new Article(
-        title: 'Varför uppstår akne i ansiktet?',
+        title: 'Var och varför uppstår Cystisk akne?',
         image_small: '',
         image_large: '',
         image_alt: '',
         image_title: '',
-        content: '<p class="p200">Orsakerna till akne i ansiktet är mångfacetterade och involverar ofta en kombination av faktorer. En primär orsak är hormonella förändringar som kan stimulera överproduktion av talg, vilket leder till tilltäppta porer och akneutbrott. Stress har också visat sig kunna förvärra akne genom att påverka hormonbalansen och öka hudens talgproduktion. På AcneSpecialisten fokuserar vi på en helhetssyn av dina hudproblem för att effektivt adressera akne i ansiktet.</p>
-            <p class="p200 mt-m">Ett riktat tillvägagångssätt för att hantera akne i ansiktet kräver en noga anpassad hudvårdsrutin. Det är avgörande att välja produkter som är effektiva men samtidigt skonsamma mot huden för att undvika ytterligare irritation. På AcneSpecialisten arbetar vi nära med dig för att skapa en personligt anpassad hudvårdsrutin som stärker och balanserar din hud, och bidrar till att förebygga framtida akneutbrott och främja en hälsosam hudmiljö.</p>',
+        content: '<p class="p200">Orsakerna till cystisk akne är ofta en sammansättning av flera faktorer. En av de primära drivkrafterna bakom cystisk akne är hormonella förändringar, som kan stimulera en överproduktion av talg. Denna överproduktion kan i sin tur leda till att porerna blir tilltäppta och aknebildningar uppstår. Stress är också en viktig bidragande faktor, eftersom det kan rubba hormonbalansen och öka talgproduktionen, vilket förvärrar akne.</p>
+            <p class="p200 mt-m">Att hantera cystisk akne kräver en noggrant anpassad hudvårdsrutin. Det är avgörande att använda hudvårdsprodukter som är effektiva men samtidigt milda för att inte förvärra hudens tillstånd. På AcneSpecialisten arbetar vi tillsammans med dig för att utveckla en personlig hudvårdsplan som inte bara behandlar befintliga hudproblem, utan även stärker och balanserar huden för att förebygga framtida akneutbrott och stödja en långsiktigt hälsosam hud.</p>',
     ),
-);
-
-$articles = array(
-      new Article(
-            title: 'När är det dags att söka professionell hjälp för akne i ansiktet?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'När är det dags att söka professionell hjälp för akne i ansiktet?',
-            image_title: 'När är det dags att söka professionell hjälp för akne i ansiktet?',
-            content: '<p class="p200">Akne i ansiktet kan vara mer än bara ett hudproblem – det kan även leda till emotionellt obehag. Om du upplever att din akne är ihållande eller förvärras, är det en signal om att det kan vara läge att söka professionell hjälp. Tidig behandling är nyckeln till att förebygga ärr och andra långsiktiga hudproblem. Genom professionell rådgivning kan du få hjälp med att behandla nuvarande utbrott samt råd om förebyggande åtgärder och anpassade hudvårdsrutiner för att bevara en frisk hud.</p>',
-      ),
-
-      new Article(
-            title: 'Varför välja AcneSpecialisten för din aknebehandling i ansiktet?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
-            image_alt: 'Varför välja AcneSpecialisten för din aknebehandling i ansiktet?',
-            image_title: 'Varför välja AcneSpecialisten för din aknebehandling i ansiktet?',
-            content: '<p class="p200">AcneSpecialisten står ut med över 30 års erfarenhet av att behandla akne i ansiktet. Vår djupa förståelse för hudens komplexitet och behov gör att vi kan erbjuda unika, skräddarsydda behandlingar anpassade efter varje individs situation.</p>
-            <p class="p200 mt-m">Vi på AcneSpecialisten utvecklar personliga behandlingsplaner för varje kund, med fokus på att inte bara lindra nuvarande hudproblem utan också utbilda om hur man upprätthåller en hälsosam hud långsiktigt. Vårt engagemang och vår kunskap gör oss till det självklara valet för dem som söker hållbara lösningar för akne i ansiktet.</p>',
-      ),
 );
 
 $results = array(
