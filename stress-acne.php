@@ -5,27 +5,27 @@ include_once('problem/widgets/symptom-card/symptom.php');
 include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Acne Vulgaris - Djupgående Förståelse och Effektiv Behandling | Acnespecialisten';
-$seo_description = 'Utforska insikter om acne vulgaris, dess orsaker och Acnespecialistens skräddarsydda behandlingsmetoder för alla hudtyper och åldersgrupper.';
-$seo_keywords = 'acne vulgaris, behandling av acne vulgaris, hudvård för acne vulgaris';
+$seo_title = 'Stress akne - Förståelse, Behandling och Förebyggande | Acnespecialisten';
+$seo_description = 'Lär dig om stressrelaterad akne, dess orsaker och hur Acnespecialisten kan hjälpa med skräddarsydda behandlingsmetoder och förebyggande strategier.';
+$seo_keywords = 'stressrelaterad akne, behandling av stressakne, förebygga stressakne, hantera akne orsakad av stress, hudvård vid stress';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
 $seo_image = 'bilder/problem/424x456/akne.webp';
 
-$title = 'Acne Vulgaris';
+$title = 'Stress akne';
 
 $image_small = 'bilder/problem/424x324/akne.webp';
 $image_large = 'bilder/problem/424x456/akne.webp';
-$image_title = 'Effektiv Behandling av acne vulgaris';
-$image_alt = 'Bild som visar acne vulgaris och dess behandlingsmetoder';
-$description = 'I denna sektion får du en omfattande översikt över acne vulgaris, dess vanligaste orsaker såsom hormonella obalanser, stress och miljöfaktorer, samt Acnespecialistens anpassade behandlingsmetoder. Vi erbjuder också individuellt anpassade hudvårdsråd för att stödja personer med acne vulgaris i olika åldrar.';
+$image_title = 'Behandling och Förståelse av Stressrelaterad Akne';
+$image_alt = 'Bild som illustrerar hud påverkad av stressrelaterad akne';
+$description = 'Denna sektion ger insikt i stressrelaterad akne, dess unika egenskaper jämfört med andra aknetyper, och hur Acnespecialisten kan stödja dig med skräddarsydda behandlingar och strategier för att hantera stressens effekter på huden.';
 
 $akas = [
       new Link(
-            label: 'Akne',
-            url: 'acne.php',
-            title: 'Allt du behöver veta om akne och deras behandling'
+            label: 'Finnar',
+            url: 'finnar.php',
+            title: 'Allt du behöver veta om finnar och deras behandling'
       ),
       new Link(
             label: 'Vuxenakne',
@@ -39,30 +39,30 @@ $akas = [
       ),
 ];
 
-$floating_box = 'Behandla dina acne vulgaris effektivt.';
+$floating_box = 'Behandla dina stress akne effektivt.';
 
 $consultation_url_label = "Få gratis konsultation";
-$consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne";
-$consultation_url_title = "Gratis Konsultation för acne vulgaris";
+$consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples";
+$consultation_url_title = "Gratis Konsultation för stress akne";
 
 $booking_url_label = "Boka behandling";
-$booking_url = "https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne";
+$booking_url = "https://acnespecialisten.se/book?flow=problem&problem=Problem_Pimples";
 $booking_url_title = "Boka behandling";
 
 $mobile_consultation_url_label = "Få gratis konsultation";
-$mobile_consultation_url_title = "Gratis Konsultation för acne vulgaris";
+$mobile_consultation_url_title = "Gratis Konsultation för stress akne";
 
 $mobile_booking_url_label = "Boka behandling";
 $mobile_booking_url_title = "Boka behandling";
 
 $floating_consultation_url_label = "Få gratis konsultation";
-$floating_consultation_url_title = "Gratis Konsultation för acne vulgaris";
+$floating_consultation_url_title = "Gratis Konsultation för stress akne";
 
 $floating_booking_url_label = "Boka behandling";
 $floating_booking_url_title = "Boka behandling";
 
 $nav_buttons = array(
-      'about' => 'Om acne vulgaris',
+      'about' => 'Om stress akne',
       'approach' => 'Metoden',
       'areas' => 'Områden',
       'articles' => 'När?',
@@ -75,53 +75,73 @@ $nav_buttons = array(
       'related-problems' => 'Relaterade problem',
 );
 
-$description_title = 'Förstå och effektivt behandla acne vulgaris';
-$description_text = '<p class="p200">Acne vulgaris är en vanlig hudåkomma som drabbar personer i alla åldrar, påverkad av faktorer såsom hormonella förändringar och stress. På Acnespecialisten lägger vi stor vikt vid att förstå de unika orsakerna bakom din acne vulgaris och erbjuder skräddarsydda behandlingar och hudvårdsstrategier. Våra behandlingsmetoder varierar från milda, djuprengörande procedurer till avancerade terapier för att effektivt minska akne och dess påverkan på huden.</p>
-<p class="p200 mt-m">Genom vår expertis utvecklar vi individuella hudvårdsplaner som omfattar både specialbehandlingar och dagliga hudvårdsrutiner anpassade efter din hudtyp och aknes svårighetsgrad. Våra behandlingsprogram är inriktade på att lugna huden, minska inflammation och främja en hälsosam hudbalans, vilket bidrar till en klarare och jämnare hudton över tid.</p>';
+$description_title = 'Om stress akne';
+$description_text = '<p class="p200">Stressrelaterad akne uppstår ofta som ett resultat av höga stressnivåer, vilket leder till hormonella förändringar och påverkar huden. Dessa hormonella förändringar kan öka talgproduktionen och orsaka akneutbrott. På Acnespecialisten fokuserar vi på att skonsamt rengöra, balansera och lugna huden, och erbjuder anpassade behandlingsalternativ som effektivt hanterar akne utan att irritera huden.</p>
+<p class="p200 mt-m">Vi förstår vikten av en anpassad hudvårdsrutin för att effektivt hantera stressrelaterade hudproblem. Genom att kombinera milda rengöringsmetoder med lugnande och återfuktande behandlingar, strävar våra hudterapeuter efter att erbjuda skonsam och effektiv vård för stresspåverkad hud. Vi lägger även fokus på att lära ut strategier för att hantera stress och dess effekter på huden, för att hjälpa till att förebygga framtida utbrott av stressakne.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Vår specialiserade konsultation på AcneSpecialisten är inriktad på att kartlägga de unika egenskaperna hos din acne vulgaris. Genom noggrann analys identifierar vi de bakomliggande orsakerna och tar fram en anpassad behandlingsplan för att effektivt hantera ditt hudtillstånd.',
+            content: 'På AcneSpecialisten erbjuder vi specialiserade konsultationer för att identifiera stressrelaterad akne. Genom att analysera hur din livsstil och stressnivåer påverkar huden, utformar vi en personlig behandlingsplan för att effektivt hantera din situation.',
             url_label: 'Få gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
-            url_title: 'Boka din kostnadsfria hudkonsultation för acne vulgaris idag'
+            url_title: 'Boka din kostnadsfria hudkonsultation för stress akne idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Varje behandling för acne vulgaris anpassas efter din unika hudtyp och behov. Från milda exfolierande behandlingar till djuprengörande metoder, erbjuder vi skräddarsydda lösningar för att effektivt hantera akne och främja en klarare hud.',
-            url_label: 'Se acne vulgaris-behandlingar',
+            content: 'Vi erbjuder anpassade behandlingar för stress akne som fokuserar på skonsamma men effektiva metoder. Våra tekniker syftar till att lugna huden och hantera de utbrott som orsakas av stress.',
+            url_label: 'Se aknebehandlingar',
             url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne',
-            url_title: 'Utforska våra behandlingar för acne vulgaris'
+            url_title: 'Utforska våra skräddarsydda aknebehandlingar'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'För att förhindra framtida utbrott av acne vulgaris, erbjuder vi specialutformade hudvårdsprodukter och rutiner. Dessa är utvecklade för att balansera huden och bekämpa de faktorer som orsakar akne, för att hålla din hud hälsosam och ren.',
+            content: 'För att minska risken för framtida stress akne, erbjuder vi hudvårdsprodukter och rutiner som hjälper till att upprätthålla en hälsosam hudbalans och hantera stressorsaker.',
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
-            url_title: 'Hitta de bästa produkterna för att förebygga acne vulgaris'
+            url_title: 'Hitta de bästa produkterna för att förebygga stress akne'
       ),
       new TreatmentStep(
             title: 'Reparera',
-            content: 'Efter behandling av aktiv acne vulgaris fokuserar vi på att reparera och förbättra hudens tillstånd. Våra behandlingsmetoder inkluderar strategier för att minska ärrbildning och förbättra hudens textur, vilket leder till en jämnare och fräschare hudton för långsiktiga resultat.',
+            content: 'Våra behandlingsstrategier för stress akne inkluderar även metoder för att reparera hudskador orsakade av akne, som att minska ärrbildning och förbättra hudens textur för en jämnare hudton.',
             url_label: 'Se ärrbehandlingar',
-            url: 'behandla-acnearr.php',
-            url_title: 'Upptäck våra effektiva behandlingar för ärr orsakade av acne vulgaris'
+            url: 'behandla-finnar-arr.php',
+            url_title: 'Upptäck effektiva behandlingar för akneärr'
       ),
 );
 
-$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar mot acne vulgaris" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot acne vulgaris</a>';
+$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra aknebehandlingar</a>';
 
 $top_articles = array(
     'areas' => new Article(
-        title: 'Var och varför uppstår acne vulgaris?',
+        title: 'Var uppstår stress akne?',
         image_small: '',
         image_large: '',
         image_alt: '',
         image_title: '',
-        content: '<p class="p200">Orsakerna bakom acne vulgaris beror ofta på en samverkan av flera faktorer. Hormonella förändringar är en av de främsta orsakerna, då de kan leda till överproduktion av talg och resultera i tilltäppta porer och akne. Stress är en annan betydande faktor som kan förvärra akne genom att störa hormonbalansen och öka talgproduktionen i huden. På AcneSpecialisten lägger vi stor vikt vid en helhetssyn på dina hudproblem för att effektivt behandla och hantera acne vulgaris.</p>
-            <p class="p200 mt-m">En effektiv strategi för att hantera acne vulgaris innebär en skräddarsydd hudvårdsrutin. Det är viktigt att välja hudvårdsprodukter som inte bara är effektiva, utan också skonsamma, för att undvika att irritera huden ytterligare. Hos AcneSpecialisten samarbetar vi med dig för att utforma en personlig hudvårdsplan som stärker och balanserar din hud. Detta bidrar till att förebygga framtida utbrott av akne och främjar en långsiktigt hälsosam hudmiljö.</p>',
+        content: '<p class="p200">Stressakne uppstår ofta som en reaktion på de fysiska och hormonella förändringar som kroppen genomgår under stress. Detta kan leda till inflammation och tilltäppta porer, vilket skapar en gynnsam miljö för utveckling av akne.</p>
+            <p class="p200 mt-m">Denna typ av akne tenderar att visa sig i ansiktet, särskilt i områden som runt munnen, käken och pannan. Det är dock inte ovanligt att stressakne även uppträder på andra delar av kroppen. Effektiv hantering av stressakne kräver både anpassade hudvårdsstrategier och tekniker för stresshantering. På AcneSpecialisten fokuserar vi på att hjälpa dig att hitta balansen i din hudvård, samtidigt som vi erbjuder vägledning för att minska stressnivåer genom positiva livsstilsförändringar.</p>',
     ),
+);
+
+$articles = array(
+      new Article(
+            title: 'När är det dags att söka professionell hjälp för stressrelaterad akne?',
+            image_small: 'https://via.placeholder.com/358x272.webp',
+            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_alt: 'När är det dags att söka professionell hjälp för stressrelaterad akne?',
+            image_title: 'När är det dags att söka professionell hjälp för stressrelaterad akne?',
+            content: '<p class="p200">Stressrelaterad akne kan vara utmanande och påverka både hudens hälsa och ditt emotionella välbefinnande. Om din akne förvärras av stress och inte förbättras med vanlig hudvård, kan det vara dags att söka professionell hjälp. En hudterapeut kan erbjuda skräddarsydda behandlingar och råd som är anpassade efter din hudtyp och dina specifika problem.</p>',
+      ),
+
+      new Article(
+            title: 'Varför välja AcneSpecialisten för din stressrelaterade akne?',
+            image_small: 'https://via.placeholder.com/358x272.webp',
+            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_alt: 'Varför välja AcneSpecialisten för din stressrelaterade akne?',
+            image_title: 'Varför välja AcneSpecialisten för din stressrelaterade akne?',
+            content: '<p class="p200">På AcneSpecialisten har vi specialkompetens inom hantering av stressrelaterad akne. Med vår erfarenhet och kunskap om hur stress påverkar huden, erbjuder vi säkra och effektiva behandlingsmetoder. Våra anpassade behandlingsplaner tar hänsyn till dina individuella hudbehov och vårt mål är att erbjuda en personlig och stödjande vård. Vi är engagerade i att hjälpa dig att uppnå en frisk och strålande hud trots utmaningarna med stressrelaterad akne.</p>',
+      ),
 );
 
 $results = array(
@@ -551,7 +571,13 @@ $brands_url_title = "Se alla varumärken";
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
                               ?>
                           </section>
-                        <?php } ?>
+                      <?php } ?>
+
+                        <section id="articles">
+                              <?php foreach ($articles as $article) { ?>
+                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php'); ?>
+                              <?php } ?>
+                        </section>
                         
                         <section id="results">
                               <?php
