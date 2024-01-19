@@ -5,8 +5,8 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 $salons = array(
     new Salon(
         title: 'Strandvägen',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/424x526.webp',
+        image_small: 'bilder/kliniker/358x272/strandvagen.jpg',
+        image_large: 'bilder/kliniker/424x526/strandvagen.jpg',
         address: 'Strandvägen 7, 114 51 Stockholm',
         description: 'Belägen i en av Stockholms mest exklusiva och natursköna områden, vår klinik på Strandvägen erbjuder en avkopplande miljö där du kan njuta av våra behandlingar. Omringad av den klassiska arkitekturen och nära till vattnet, ger denna plats en lugnande upplevelse för våra kunder.',
         opening_hours_weekdays: '07:00 - 21:00',
@@ -17,8 +17,8 @@ $salons = array(
     ),
     new Salon(
         title: 'Södermalm',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/424x526.webp',
+        image_small: 'bilder/kliniker/358x272/sodermalm.jpg',
+        image_large: 'bilder/kliniker/424x526/sodermalm.jpg',
         address: 'Hornsgatan 47, 118 49 Stockholm',
         description: 'Vår klinik på Hornsgatan är perfekt placerad i hjärtat av det livfulla Södermalm. Här kombinerar vi högklassig hudvård med den energiska atmosfären i en av Stockholms mest kreativa och dynamiska stadsdelar.',
         opening_hours_weekdays: '07:00 - 21:00',
@@ -29,8 +29,8 @@ $salons = array(
     ),
     new Salon(
         title: 'Sundbyberg',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/424x526.webp',
+        image_small: 'bilder/kliniker/358x272/sundbyberg.jpg',
+        image_large: 'bilder/kliniker/424x526/sundbyberg.jpg',
         address: 'Sturegatan 32, 172 31 Sundbyberg',
         description: 'Mitt i det charmiga Sundbyberg, erbjuder vår klinik på Sturegatan en lugn och välkomnande miljö. Här kan du dra nytta av våra expertbehandlingar samtidigt som du njuter av småstadskänslan, med nära tillgång till lokala caféer och butiker.',
         opening_hours_weekdays: '07:00 - 21:00',
