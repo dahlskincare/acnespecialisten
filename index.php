@@ -180,7 +180,7 @@
                   </section>
                   <section id="our-approach">
                         <div class="flex-row align-end justify-space-between">
-                              <div class="h500 l10n">Metod</div>
+                              <div class="h500 l10n">Metoden</div>
                               <a href="metoded.php" title="metoded" class="button compact text is-hidden-mobile">
                                     <span class="l10n">Läs mer om metoden</span>
                                     <?php icon('navigate-next') ?>
