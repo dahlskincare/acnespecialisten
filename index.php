@@ -163,8 +163,8 @@
                               ),
                               new AccordionItem(
                                     label: 'Se alla problem',
-                                    image_small: 'bilder/problem/400x348/ytliga-blodkarl.webp',
-                                    image_large: 'bilder/problem/400x348/ytliga-blodkarl.webp',
+                                    image_small: 'bilder/problem/114x140/ytliga-blodkarl.webp',
+                                    image_large: 'bilder/problem/424x324/ytliga-blodkarl.webp',
                                     image_title: 'Person med problemhy',
                                     image_alt: 'Närbild på person som har problemhy i ansiktet.',
                                     url: 'problemhy.php',
