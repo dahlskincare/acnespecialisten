@@ -100,7 +100,7 @@ $article = new SkinGuideArticle(
                         </li>
                     </ol>
 
-                    <h2>De vanligaste biverkningarna</h2>
+                    <h2 class="nav-anchor">De vanligaste biverkningarna</h2>
 
                     <!-- FAQ -->
                     <div class="faq">
@@ -178,7 +178,7 @@ $article = new SkinGuideArticle(
                         </div>
                     </div>
 
-                    <h3>Användande av roaccutan</h3>
+                    <h3 class="nav-anchor">Användande av roaccutan</h3>
                     <ul>
                         <li>
                             Det är mot alla rekommendationer att använda roaccutan i fall om graviditet. Läkemedlet orsakar svåra fosterskador vilket också kan resultera i kroppsliga missbildningar och hjärnskada på barnet.  Inom både EU och USA finns det därför krav på att fertila kvinnor måste använda sig av minst ett effektivt preventivmedel som kan hämma ägglossningen. Däremot kan det inte överföras från män vid befruktning. Det skadar alltså inte männens spermie-produktion eller dess kvalité. Varken män eller kvinnor som använder roaccutan är tillåtna att donera blod under behandlingen.
@@ -194,7 +194,7 @@ $article = new SkinGuideArticle(
                         </li>
                     </ul>
 
-                    <h2>Andra biverkningar</h2>
+                    <h2 class="nav-anchor">Andra biverkningar</h2>
 
                     <!-- FAQ -->
                     <div class="faq">
@@ -245,7 +245,7 @@ $article = new SkinGuideArticle(
                         </div>
                     </div>
 
-                    <h2>Vanliga frågor</h2>
+                    <h2 class="nav-anchor">Vanliga frågor</h2>
 
                     <!-- FAQ -->
                     <div class="faq">
