@@ -129,13 +129,13 @@
                                     show_on_small: true
                               ),
                               new AccordionItem(
-                                    label: 'Blandhy',
-                                    image_small: 'images/problems/114x140/blandhy.webp',
-                                    image_large: 'images/problems/424x324/blandhy.webp',
-                                    image_title: 'Blandhy',
-                                    image_alt: 'Blandhy',
-                                    url: 'blandhy.php',
-                                    url_title: 'Blandhy',
+                                    label: 'Pigmentfläckar',
+                                    image_small: 'images/problems/114x140/pigmentflackar.webp',
+                                    image_large: 'images/problems/424x324/pigmentflackar.webp',
+                                    image_title: 'Pigmentfläckar',
+                                    image_alt: 'Pigmentfläckar',
+                                    url: 'pigmentflackar.php',
+                                    url_title: 'Pigmentfläckar',
                                     show_on_large: true,
                                     show_on_small: true
                               ),
