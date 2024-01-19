@@ -138,7 +138,7 @@ if (!isset($results)) {
     <div class="is-hidden-touch" id="results-large">
         <div class="flex-row align-end justify-space-between">
             <div class="h500"><?php echo $results_title ?></div>
-            <a href="resultat" class="button compact text">
+            <a href="resultat.php" class="button compact text">
                 <span><?php echo $show_all_results_label ?></span>
                 <?php icon('navigate-next') ?>
             </a>

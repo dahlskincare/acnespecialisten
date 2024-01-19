@@ -213,7 +213,7 @@
                                     number: '04',
                                     title: 'Reparera',
                                     content: 'Efter att det aktiva problemet åtgärdats fokuserar vi på att reparera eventuella ärr med hjälp av maskinbehandlingar som microneedling, laser och IPL för att förbättra hudens struktur.',
-                                    button_label: 'Se ärrbehandlingar',
+                                    button_label: 'Våra ärrbehandlingar',
                                     button_url: 'behandla-acnearr.php'
                               )
                         );
