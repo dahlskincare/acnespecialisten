@@ -181,7 +181,7 @@
                   <section id="our-approach">
                         <div class="flex-row align-end justify-space-between">
                               <div class="h500 l10n">Metod</div>
-                              <a href="metod" title="metod" class="button compact text is-hidden-mobile">
+                              <a href="metoded.php" title="metod" class="button compact text is-hidden-mobile">
                                     <span class="l10n">Läs mer om metoden</span>
                                     <?php icon('navigate-next') ?>
                               </a>
