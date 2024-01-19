@@ -165,7 +165,7 @@
                                     label: 'Se alla problem',
                                     image_small: 'bilder/problem/114x140/ytliga-blodkarl.webp',
                                     image_large: 'bilder/problem/424x324/ytliga-blodkarl.webp',
-                                    image_title: 'Person med problemhy',
+                                    image_title: 'Person med ytliga blodkärl',
                                     image_alt: 'Närbild på person som har ytliga blodkärl i ansiktet.',
                                     url: 'problemhy.php',
                                     url_title: 'Läs mer information om alla typer av hudproblem.',
@@ -237,10 +237,10 @@
                                     image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
                                     image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
                                     image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
-                                    image_alt: 'Akne resultat',
-                                    image_title: 'Akne resultat',
+                                    image_title: 'Person som har akne',
+                                    image_alt: 'Ansiktet på en person som behandlat svår akne, före och efterbild',
                                     treatment: new ResultTreatment(
-                                          duration: '3 månader',
+                                          duration: 'Svår akne',
                                     )
                               ),
                               new ResultCustomer(
@@ -248,10 +248,10 @@
                                     image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
                                     image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
                                     image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
-                                    image_alt: 'Akne resultat',
-                                    image_title: 'Akne resultat',
+                                    image_title: 'Person som har akne',
+                                    image_alt: 'Ansiktet på en person som behandlat akne, före och efterbild',
                                     treatment: new ResultTreatment(
-                                          duration: '2 månader',
+                                          duration: 'Akne',
                                     )
                               ),
                               new ResultCustomer(
@@ -259,10 +259,10 @@
                                     image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
                                     image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
                                     image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
-                                    image_alt: 'Rosacea resultat',
-                                    image_title: 'Rosacea resultat',
+                                    image_title: 'Person som har rosacea',
+                                    image_alt: 'Ansiktet på en person som behandlat rosacea, före och efterbild',
                                     treatment: new ResultTreatment(
-                                          duration: '4 månader',
+                                          duration: 'Rosacea',
                                     )
                               ),
                         );
@@ -277,7 +277,7 @@
                                           <button class="round-large grey" onclick="Reviews.scroll(-1)"><?php icon('arrow-left') ?></button>
                                           <button class="round-large grey" onclick="Reviews.scroll(1)"><?php icon('arrow-right') ?></button>
                                     </div>
-                                    <a href="https://se.trustpilot.com/review/acnespecialisten.se" title="Omdömen" class="ml-l button compact text">
+                                    <a href="omdomen.php" title="Läs fler omdömen" class="ml-l button compact text">
                                           <span class="l10n">Läs fler omdömen</span>
                                           <?php icon('navigate-next') ?>
                                     </a>
@@ -335,8 +335,8 @@
                         $accordion = array(
                               new AccordionItem(
                                     label: 'Ansiktsbehandlingar',
-                                    image_small: 'https://via.placeholder.com/114x140.jpg',
-                                    image_large: 'images/service-categories/large/facials.jpg',
+                                    image_small: 'bilder/behandlingar/114x140/ytliga-blodkarl.webp',
+                                    image_large: 'bilder/behandlingar/424x324/ytliga-blodkarl.webp',
                                     image_alt: 'Facials',
                                     image_title: 'Facials',
                                     url: 'ansiktsbehandlingar-klassiska.php',
