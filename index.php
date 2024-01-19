@@ -335,19 +335,19 @@
                         $accordion = array(
                               new AccordionItem(
                                     label: 'Ansiktsbehandlingar',
-                                    image_small: 'bilder/behandlingar/114x140/ytliga-blodkarl.webp',
-                                    image_large: 'bilder/behandlingar/424x324/ytliga-blodkarl.webp',
-                                    image_alt: 'Facials',
+                                    image_small: 'bilder/behandlingar/114x140/ansiktsbehandlingar-mot-problemhy.webp',
+                                    image_large: 'bilder/behandlingar/424x324/ansiktsbehandlingar-mot-problemhy.webp',
                                     image_title: 'Facials',
+                                    image_alt: 'Facials',
                                     url: 'ansiktsbehandlingar-klassiska.php',
                                     url_title: 'Facials',
                                     show_on_large: true,
                                     show_on_small: true
                               ),
                               new AccordionItem(
-                                    label: 'IPL',
-                                    image_small: 'https://via.placeholder.com/114x140.jpg',
-                                    image_large: 'images/service-categories/large/ipl.jpg',
+                                    label: 'Laser',
+                                    image_small: 'bilder/behandlingar/114x140/laser-mot-problemhy.webp',
+                                    image_large: 'bilder/behandlingar/424x324/laser-mot-problemhy.webp',
                                     image_title: 'IPL',
                                     image_alt: 'IPL',
                                     url: 'behandlingar/ipl',
@@ -356,9 +356,9 @@
                                     show_on_small: true
                               ),
                               new AccordionItem(
-                                    label: 'Laser',
-                                    image_small: 'https://via.placeholder.com/114x140.jpg',
-                                    image_large: 'images/service-categories/large/laser-problem-skin.jpg',
+                                    label: 'IPL',
+                                    image_small: 'bilder/behandlingar/114x140/ipl.webp',
+                                    image_large: 'bilder/behandlingar/424x324/ipl.webp',
                                     image_title: 'Laser',
                                     image_alt: 'Laser',
                                     url: 'behandlingar/laser-mot-problemhy',
@@ -367,9 +367,9 @@
                                     show_on_small: true,
                               ),
                               new AccordionItem(
-                                    label: 'Portömning',
-                                    image_small: 'https://via.placeholder.com/114x140.jpg',
-                                    image_large: 'images/service-categories/large/dermabration.jpg',
+                                    label: 'Microneedling',
+                                    image_small: 'bilder/behandlingar/114x140/microneedling.webp',
+                                    image_large: 'bilder/behandlingar/424x324/microneedling.webp',
                                     image_title: 'Portömning',
                                     image_alt: 'Portömning',
                                     url: 'portomning.php',
@@ -378,9 +378,9 @@
                                     show_on_small: true
                               ),
                               new AccordionItem(
-                                    label: 'Microneedling',
-                                    image_small: 'https://via.placeholder.com/114x140.jpg',
-                                    image_large: 'images/service-categories/large/microneedling.jpg',
+                                    label: 'Kemisk Peeling',
+                                    image_small: 'bilder/behandlingar/114x140/kemisk-peeling.webp',
+                                    image_large: 'bilder/behandlingar/424x324/kemisk-peeling.webp',
                                     image_title: 'Microneedling',
                                     image_alt: 'Microneedling',
                                     url: 'microneedling.php',
@@ -389,9 +389,9 @@
                                     show_on_small: true
                               ),
                               new AccordionItem(
-                                    label: 'Kemisk Peeling ',
-                                    image_small: 'https://via.placeholder.com/114x140.jpg',
-                                    image_large: 'images/service-categories/large/injections.jpg',
+                                    label: 'Dermabrasion',
+                                    image_small: 'bilder/behandlingar/114x140/dermabrasion.webp',
+                                    image_large: 'bilder/behandlingar/424x324/dermabrasion.webp',
                                     image_title: 'Kemisk Peeling',
                                     image_alt: 'Kemisk Peeling',
                                     url: 'kemisk-peeling.php',
@@ -401,8 +401,8 @@
                               ),
                               new AccordionItem(
                                     label: 'Se alla behandlingar',
-                                    image_small: 'https://via.placeholder.com/114x140.jpg',
-                                    image_large: 'images/service-categories/large/luxury.jpg',
+                                    image_small: 'bilder/behandlingar/114x140/klassiska-ansiktsbehandlingar.webp',
+                                    image_large: 'bilder/behandlingar/424x324/klassiska-ansiktsbehandlingar.webp',
                                     image_title: 'Se alla behandlingar',
                                     image_alt: 'Se alla behandlingar',
                                     url: 'behandlingar.php',
