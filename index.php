@@ -92,7 +92,7 @@
             </section>
             <div class="container">
                   <section id="problems">
-                        <div class="h500 l10n">Problem</div>
+                        <div class="h500 l10n">Hudproblem</div>
                         <?php
                         $accordion = array(
                               new AccordionItem(
