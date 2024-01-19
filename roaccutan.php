@@ -9,8 +9,8 @@ $article = new SkinGuideArticle(
     subtitle: 'Här förklarar vi vad roaccutan är, varför det används och synliggör för- och nackdelar med medicinen.',
     problem: 'Roaccutan',
     description: "Här förklarar vi vad roaccutan är, varför det används och synliggör för- och nackdelar med medicinen.",
-    image_small: 'https://via.placeholder.com/426x324.webp',
-    image_large: 'https://via.placeholder.com/872x456.jpg',
+    image_small: 'bilder/hudguide/426x324/roaccutan.jpg',
+    image_large: 'bilder/hudguide/872x456/roaccutan.jpg',
     image_alt: 'Roaccutan',
     image_title: 'Roaccutan',
 );
@@ -99,6 +99,85 @@ $article = new SkinGuideArticle(
                             Med tanke på preparatets positiva resultat när det kommer till att reducera acne så låter väl inte roaccutan som en allt för tokig idé kanske. Vad man däremot bör veta är att medicinen inte är vidare snäll mot resten av kroppen. I processen att bli kvitt acnen med roaccutan tillkommer det en rad biverkningar.
                         </li>
                     </ol>
+
+                    <h2>De vanligaste biverkningarna</h2>
+
+                    <!-- FAQ -->
+                    <div class="faq">
+                        <div class="faq-category">
+                            <div class="faq-title">
+                                <span>Mycket torr hud</span>
+                                <span>+</span>
+                            </div>
+                            <div class="faq-content zero-size">
+                                A-vitamin torkar ut huden.
+                            </div>
+                        </div>
+                        <div class="faq-category">
+                            <div class="faq-title">
+                                <span>Ömtålig hud</span>
+                                <span>+</span>
+                            </div>
+                            <div class="faq-content zero-size">
+                                Du skall undvika vaxning och annan kraftfullare behandling av huden i ett halvår efter avslutad roaccutankur.
+                            </div>
+                        </div>
+                        <div class="faq-category">
+                            <div class="faq-title">
+                                <span>Ljuskänslig hud</span>
+                                <span>+</span>
+                            </div>
+                            <div class="faq-content zero-size">
+                                Du bör hålla dig försiktig i närheten av stark solexponering.
+                            </div>
+                        </div>
+                        <div class="faq-category">
+                            <div class="faq-title">
+                                <span>Torra slemhinnor</span>
+                                <span>+</span>
+                            </div>
+                            <div class="faq-content zero-size">
+                                Även synsvårigheter kan förekomma.
+                            </div>
+                        </div>
+                        <div class="faq-category">
+                            <div class="faq-title">
+                                <span>Ögoninflammationer</span>
+                                <span>+</span>
+                            </div>
+                            <div class="faq-content zero-size">
+                                Även synsvårigheter kan förekomma.
+                            </div>
+                        </div>
+                        <div class="faq-category">
+                            <div class="faq-title">
+                                <span>Försämrat mörkerseende</span>
+                                <span>+</span>
+                            </div>
+                            <div class="faq-content zero-size">
+                                Kan inträffa plötsligt och bilkörning eller användande av tex. maskiner på natten kan påverkas.
+                            </div>
+                        </div>
+                        <div class="faq-category">
+                            <div class="faq-title">
+                                <span>Förhöjning av triglycerid nivåerna.</span>
+                                <span>+</span>
+                            </div>
+                            <div class="faq-content zero-size">
+                                Alltså fettet i blodet. Läkare håller koll på detta via blodprov både innan och under kuren.
+                            </div>
+                        </div>
+                        <div class="faq-category">
+                            <div class="faq-title">
+                                <span>Mag- och tarm-påverkan </span>
+                                <span>+</span>
+                            </div>
+                            <div class="faq-content zero-size">
+                                Du kan drabbas av bland annat kräkningar och ändtarms-inflammationer
+                            </div>
+                        </div>
+                    </div>
+
                     <h3>Användande av roaccutan</h3>
                     <ul>
                         <li>
@@ -115,59 +194,94 @@ $article = new SkinGuideArticle(
                         </li>
                     </ul>
 
-                    <h2>Subtitle #9</h2>
-                    <p>
-                        For the first time ever, fans from around the world can explore the faraway lands of their favorite holiday films with an exclusive overnight stay at the original Hobbiton™ Movie Set. Russell Alexander is inviting guests
-                        to his family’s property to live like Bilbo Baggins and retreat to The Shire™ for an overnight stay at Hobbiton, as featured in the famed The Lord of the Rings and The Hobbit film trilogies.
-                    </p>
-                    <p>
-                        Nestled in the picturesque pastures of New Zealand’s Waikato region on a 2,500 acre working farm, the property’s rolling, green hills – bear a striking similarity to The Shire™ as described by J. R. R. Tolkien in The
-                        Lord of the Rings, and captivated Sir Peter Jackson’s movie scouts more than two decades ago. The team quickly realized the Hobbits had found their home – and this holiday season, it could be yours.
-                    </p>
+                    <h2>Andra biverkningar</h2>
 
                     <!-- FAQ -->
                     <div class="faq">
                         <div class="faq-category">
                             <div class="faq-title">
-                                <span>How many treatments are needed?</span>
+                                <span>Led och muskelvärk</span>
                                 <span>+</span>
                             </div>
                             <div class="faq-content zero-size">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                Din normala träningsrutin kan komma att påverkas och du kanske inte klarar av samma saker som innan.
                             </div>
                         </div>
                         <div class="faq-category">
                             <div class="faq-title">
-                                <span>Can my acne come back?</span>
+                                <span>Neurologiska biverkningar</span>
                                 <span>+</span>
                             </div>
                             <div class="faq-content zero-size">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                Huvudvärk och yrsel.
                             </div>
                         </div>
                         <div class="faq-category">
                             <div class="faq-title">
-                                <span>How do I get rid of my acne fast?</span>
+                                <span>Leverskador</span>
                                 <span>+</span>
                             </div>
                             <div class="faq-content zero-size">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                Preparatet roaccutan bryts ned i levern. Man bör därför undvika alkohol under behandlingen.
                             </div>
                         </div>
                         <div class="faq-category">
                             <div class="faq-title">
-                                <span>Do I have acne even if I only have one pimple?</span>
+                                <span>Förhöjt blodsocker</span>
                                 <span>+</span>
                             </div>
                             <div class="faq-content zero-size">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                I sällsynta fall kan det orsaka diabetes.
+                            </div>
+                        </div>
+                        <div class="faq-category">
+                            <div class="faq-title">
+                                <span>Depression</span>
+                                <span>+</span>
+                            </div>
+                            <div class="faq-content zero-size">
+                                I sällsynta fall även självmordstankar.
+                            </div>
+                        </div>
+                    </div>
+
+                    <h2>Vanliga frågor</h2>
+
+                    <!-- FAQ -->
+                    <div class="faq">
+                        <div class="faq-category">
+                            <div class="faq-title">
+                                <span>Är roaccutan farligt?</span>
+                                <span>+</span>
+                            </div>
+                            <div class="faq-content zero-size">
+                                Det finns ingenting som garanterar att du inte drabbas av någon eller några biverkningar. Roaccutan har en rad negativa biverkningar som man bör läsa igenom, och noggrant överväga, innan man börjar använda medicinen.
+                            </div>
+                        </div>
+                        <div class="faq-category">
+                            <div class="faq-title">
+                                <span>Hjälper medicinen roaccutan mot acne?</span>
+                                <span>+</span>
+                            </div>
+                            <div class="faq-content zero-size">
+                                Roaccutan har visat sig vara ett av få läkemedel som har en positiv effekt på acnebenägen hy. Däremot finns det ingenting som garanterar att acnen kommer hålla sig borta för alltid bara för att du använt roaccutan en eller flera gånger. Acne beror på anlagoch ingenting man kan bota. Därför kan acnen komma tillbaka senare i livet efter att man är färdig med sin roaccutankur.
+                            </div>
+                        </div>
+                        <div class="faq-category">
+                            <div class="faq-title">
+                                <span>Varför ska man använda er metod istället?</span>
+                                <span>+</span>
+                            </div>
+                            <div class="faq-content zero-size">
+                                Roaccutan har visat sig vara ett av få läkemedel som har en positiv effekt på acnebenägen hy. Däremot finns det ingenting som garanterar att acnen kommer hålla sig borta för alltid bara för att du använt roaccutan en eller flera gånger. Acne beror på anlagoch ingenting man kan bota. Därför kan acnen komma tillbaka senare i livet efter att man är färdig med sin roaccutankur.
                             </div>
                         </div>
                     </div>
                     
                 </section>
             </div>
-            <section id="cta" class="large-margin">
+
+            <section class="large-margin" id="cta-banner">
                 <div id="cta-banner-texts">
                     <div class="l10n" id="cta-banner-header">Vill du ha hjälp med din hy?</div>
                     <div class="p200 l10n" id="cta-banner-content">Boka en gratis hudkonsultation hos en av våra erfarna hudterapeuter.</div>
