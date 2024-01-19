@@ -129,17 +129,6 @@
                                     show_on_small: true
                               ),
                               new AccordionItem(
-                                    label: 'Pigmentfläckar',
-                                    image_small: 'bilder/problem/114x140/pigmentflackar.webp',
-                                    image_large: 'bilder/problem/424x324/pigmentflackar.webp',
-                                    image_title: 'Person med pigmentfläckar',
-                                    image_alt: 'Närbild på person som har pigmentfläckar i ansiktet.',
-                                    url: 'pigmentflackar.php',
-                                    url_title: 'Läs mer information om pigmentfläckar',
-                                    show_on_large: true,
-                                    show_on_small: true
-                              ),
-                              new AccordionItem(
                                     label: 'Finnar',
                                     image_small: 'bilder/problem/114x140/finnar.webp',
                                     image_large: 'bilder/problem/424x324/finnar.webp',
@@ -151,13 +140,24 @@
                                     show_on_small: true
                               ),
                               new AccordionItem(
-                                    label: 'Pormaskar',
-                                    image_small: 'bilder/problem/114x140/pormaskar.webp',
-                                    image_large: 'bilder/problem/424x324/pormaskar.webp',
-                                    image_title: 'Person med pormaskar',
-                                    image_alt: 'Närbild på person som har pormaskar i ansiktet.',
-                                    url: 'pormaskar.php',
-                                    url_title: 'Läs mer information om pormaskar',
+                                    label: 'Pigmentfläckar',
+                                    image_small: 'bilder/problem/114x140/pigmentflackar.webp',
+                                    image_large: 'bilder/problem/424x324/pigmentflackar.webp',
+                                    image_title: 'Person med pigmentfläckar',
+                                    image_alt: 'Närbild på person som har pigmentfläckar i ansiktet.',
+                                    url: 'pigmentflackar.php',
+                                    url_title: 'Läs mer information om pigmentfläckar',
+                                    show_on_large: true,
+                                    show_on_small: true
+                              ),
+                              new AccordionItem(
+                                    label: 'Ytliga blodkärl',
+                                    image_small: 'bilder/problem/114x140/ytliga-blodkarl.webp',
+                                    image_large: 'bilder/problem/424x324/ytliga-blodkarl.webp',
+                                    image_title: 'Person med ytliga blodkärl',
+                                    image_alt: 'Närbild på person som har ytliga blodkärl i ansiktet.',
+                                    url: 'ytliga-blodkarl.php',
+                                    url_title: 'Läs mer information om ytliga blodkärl',
                                     show_on_large: false,
                                     show_on_small: true
                               ),
@@ -166,7 +166,7 @@
                                     image_small: 'bilder/problem/114x140/ytliga-blodkarl.webp',
                                     image_large: 'bilder/problem/424x324/ytliga-blodkarl.webp',
                                     image_title: 'Person med problemhy',
-                                    image_alt: 'Närbild på person som har problemhy i ansiktet.',
+                                    image_alt: 'Närbild på person som har ytliga blodkärl i ansiktet.',
                                     url: 'problemhy.php',
                                     url_title: 'Läs mer information om alla typer av hudproblem.',
                                     show_on_large: true,
