@@ -181,7 +181,7 @@
                   <section id="our-approach">
                         <div class="flex-row align-end justify-space-between">
                               <div class="h500 l10n">Metoden</div>
-                              <a href="metoded.php" title="metoded" class="button compact text is-hidden-mobile">
+                              <a href="metoden.php" title="metoded" class="button compact text is-hidden-mobile">
                                     <span class="l10n">Läs mer om metoden</span>
                                     <?php icon('navigate-next') ?>
                               </a>
@@ -191,7 +191,7 @@
                               new ApproachCard(
                                     number: '01',
                                     title: 'Identifiera',
-                                    content: 'Vi erbjuder alltid gratis konsultation, där du får en personlig hudterapeut och en individuell behandlingsplan baserad på din hudanalys. Förebilder tas för att jämföra resultat före och efter behandling.',
+                                    content: 'Vi erbjuder alltid gratis konsultation där du får en personlig hudterapeut och en individuell behandlingsplan baserad på din hudanalys. Förebilder tas för att jämföra resultat före och efter behandling.',
                                     button_label: 'Boka gratis hudkonsultation',
                                     button_url: 'gratis-hudkonsultation.php'
                               ),
@@ -227,7 +227,7 @@
                                     </div>
                               <?php } ?>
                         </div>
-                        <a href="metoded.php" title="Metoded" class="button b200 outline expand mt-xl l10n is-hidden-desktop">Läs mer om metoden</a>
+                        <a href="metoden.php" title="Metoded" class="button b200 outline expand mt-xl l10n is-hidden-desktop">Läs mer om metoden</a>
                   </section>
                   <section id="results">
                         <?php
