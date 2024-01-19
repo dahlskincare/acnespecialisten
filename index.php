@@ -339,7 +339,7 @@
                                     image_large: 'bilder/behandlingar/424x324/ansiktsbehandlingar-mot-problemhy.webp',
                                     image_title: 'Ansiktsbehandling',
                                     image_alt: 'Kvinna som får ansiktsbehandling i ansiktet.',
-                                    url: 'behandlingar/ansiktsbehandlingar-mot-problemhy',
+                                    url: 'behandlingar/ansiktsbehandlingar-problemhy',
                                     url_title: 'Läs mer och boka tid för ansiktsbehandling.',
                                     show_on_large: true,
                                     show_on_small: true
