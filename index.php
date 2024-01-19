@@ -181,7 +181,7 @@
                   <section id="our-approach">
                         <div class="flex-row align-end justify-space-between">
                               <div class="h500 l10n">Metod</div>
-                              <a href="metoded.php" title="metod" class="button compact text is-hidden-mobile">
+                              <a href="metoded.php" title="metoded" class="button compact text is-hidden-mobile">
                                     <span class="l10n">Läs mer om metoden</span>
                                     <?php icon('navigate-next') ?>
                               </a>
@@ -227,7 +227,7 @@
                                     </div>
                               <?php } ?>
                         </div>
-                        <a href="metod" title="Metod" class="button b200 outline expand mt-xl l10n is-hidden-desktop">Läs mer om metoden</a>
+                        <a href="metoded.php" title="Metoded" class="button b200 outline expand mt-xl l10n is-hidden-desktop">Läs mer om metoden</a>
                   </section>
                   <section id="results">
                         <?php
