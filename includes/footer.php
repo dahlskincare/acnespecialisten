@@ -219,7 +219,7 @@
                             </div>
                             <div class="column">
                                 <div class="aligner">
-                                    <?php icon('zoom') ?>
+                                    <?php icon('facetime') ?>
                                     <div>
                                         <button class="b200 white l10n">Konsultation online</button>
                                     </div>
