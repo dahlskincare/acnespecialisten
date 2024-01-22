@@ -103,9 +103,9 @@
                             <li>
                                 <a href="resultat.php" class="button text grey compact l10n" title="Se våra kunders före- och efterbilder">Resultat</a>
                             </li>
-                            <!--<li>
+                            <li>
                                 <a href="hudguide" class="button text grey compact l10n" title="Läs mer om allt inom hudvård">Hudguide</a>
-                            </li>-->
+                            </li>
                             <li>
                                 <a href="ordlista.php" class="button text grey compact l10n" title="Lär dig med om hudvård från A till Ö">Ordlista</a>
                             </li>
@@ -126,9 +126,9 @@
                                 <li>
                                     <a href="presentkort.php" class="button text grey compact l10n" title="Köp presentkort hos oss">Presentkort</a>
                                 </li>
-                                <!--<li>
+                                <li>
                                     <a href="priser" class="button text grey compact l10n" title="Här hittar du vår prislista">Priser</a>
-                                </li>-->
+                                </li>
                                 <li>
                                     <a href="avbokningspolicy.php" class="button text grey compact l10n" title="Läs mer om vår avbokningspolicy">Avbokning</a>
                                 </li>
@@ -351,9 +351,9 @@
                                         <li>
                                             <a href="resultat.php" class="button text grey compact l10n" title="Se våra kunders före- och efterbilder">Resultat</a>
                                         </li>
-                                        <!--<li>
+                                        <li>
                                             <a href="hudguide" class="button text grey compact l10n" title="Läs mer om allt inom hudvård">Hudguide</a>
-                                        </li>-->
+                                        </li>
                                         <li>
                                             <a href="ordlista.php" class="button text grey compact l10n" title="Lär dig med om hudvård från A till Ö">Ordlista</a>
                                         </li>
@@ -371,9 +371,9 @@
                                         <li>
                                             <a href="presentkort.php" class="button text grey compact l10n" title="Köp presentkort hos oss">Presentkort</a>
                                         </li>
-                                        <!--<li>
+                                        <li>
                                             <a href="priser" class="button text grey compact l10n" title="Här hittar du vår prislista">Priser</a>
-                                        </li>-->
+                                        </li>
                                         <li>
                                             <a href="avbokningspolicy.php" class="button text grey compact l10n" title="Läs mer om vår avbokningspolicy">Avbokning</a>
                                         </li>
