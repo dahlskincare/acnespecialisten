@@ -570,7 +570,7 @@
                   <section id="brands">
                         <div class="flex-row align-end justify-space-between">
                               <div class="h500 l10n">Varumärken</div>
-                              <a href="varumarken" title="Varumärken" class="button compact text is-hidden-mobile">
+                              <a href="varumarken" title="Läs mer om de varumärken vi jobbar med" class="button compact text is-hidden-mobile">
                                     <span class="l10n">Se alla varumärken</span>
                                     <?php icon('navigate-next') ?>
                               </a>
