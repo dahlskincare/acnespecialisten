@@ -420,7 +420,7 @@
                   <section id="faq">
                         <div class="flex-row align-end justify-space-between">
                               <div class="h500 l10n">Frågor & Svar</div>
-                              <a href="fragor-svar.php" title="FAQ" class="button compact text is-hidden-mobile">
+                              <a href="fragor-svar.php" title="Läs alla våra frågor och svar" class="button compact text is-hidden-mobile">
                                     <span class="l10n">Se fler frågor & svar</span>
                                     <?php icon('navigate-next') ?>
                               </a>
@@ -455,7 +455,7 @@
 
                         );
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" title="FAQ" href="faq">Se fler frågor & svar</a>
+                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" title="Läs alla våra frågor och svar" href="fragor-svar.php">Se fler frågor & svar</a>
                   </section>
                   <!--Hudguide-->
                   <section id="about-us">
