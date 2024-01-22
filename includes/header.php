@@ -18,14 +18,14 @@
         <div id="mobile-expansion-panels">
             <div class="expansion-panel">
                 <div class="ep-head" onclick="HeaderTouch.toggleExpanded(this)">
-                    <div class="ep-label l10n">Företag</div>
+                    <div class="ep-label l10n">Information</div>
                     <?php icon('arrow-down') ?>
                 </div>
                 <div class="ep-content">
-                    <a href="om-oss.php" class="l10n" title="Om oss">Om oss</a>
-                    <a href="metod.php" class="l10n" title="Vår metod">Vår metod</a>
-                    <a href="specialister" class="l10n" title="Våra specialister">Våra specialister</a>
-                    <a href="https://skonhetsgruppen.teamtailor.com" rel="nofollow" title="Teamtailor" target="_blank" class="l10n">Karriär</a>
+                    <a href="resultat.php" class="l10n" title="Se våra kunders före- och efterbilder">Resultat</a>
+                    <a href="hudguide" class="l10n" title="Läs mer om allt inom hudvård">Hudguide</a>
+                    <a href="ordlista.php" class="l10n" title="Lär dig med om hudvård från A till Ö">Ordlista</a>
+                    <a href="fragor-svar.php" class="l10n" title="Populära frågor & svar från våra kunder">Frågor & Svar</a>
                 </div>
             </div>
             <div class="expansion-panel">
@@ -34,21 +34,23 @@
                     <?php icon('arrow-down') ?>
                 </div>
                 <div class="ep-content">
-                    <a href="fragor-svar.php" class="l10n" title="Frågor & Svar">Frågor & Svar</a>
-                    <a href="ordlista.php" class="l10n" title="Ordlista">Ordlista</a>
-                    <!--<a href="hudguide" class="l10n" title="Hudguide">Hudguide</a>-->
-                    <a href="kontakt.php" class="l10n" title="Kontakt">Kontakt</a>
+                    <a href="kontakt.php" class="l10n" title="Kontakta oss via chatt, e-post eller telefon">Kontakt</a>
+                    <a href="presentkort.php" class="l10n" title="Köp presentkort hos oss">Presentkort</a>
+                    <a href="priser.php" class="l10n" title="Här hittar du vår prislista">Priser</a>
+                    <a href="avbokningspolicy.php" class="l10n" title="Läs mer om vår avbokningspolicy">Avbokning</a>
+
                 </div>
             </div>
             <div class="expansion-panel">
                 <div class="ep-head" onclick="HeaderTouch.toggleExpanded(this)">
-                    <div class="ep-label l10n">Övrigt</div>
+                    <div class="ep-label l10n">Företag</div>
                     <?php icon('arrow-down') ?>
                 </div>
                 <div class="ep-content">
-                    <a href="resultat.php" class="l10n" title="Resultat">Resultat</a>
-                    <a href="presentkort.php" class="l10n" title="Presentkort">Presentkort</a>
-                    <a href="gratis-hudkonsultation.php" class="l10n" title="Gratis konsultation">Gratis konsultation</a>
+                    <a href="om-oss.php" class="l10n" title="Mer information om oss på AcneSpecialisten">Om oss</a>
+                    <a href="metod.php" class="l10n" title="Lär dig mer om hur vår metod går till">Vår metod</a>
+                    <a href="specialister" class="l10n" title="Se alla våra specialister och hudterapeuter">Våra specialister</a>
+                    <a href="https://skonhetsgruppen.teamtailor.com" rel="nofollow" title="Se våra lediga tjänster" target="_blank" class="l10n">Karriär</a>
                 </div>
             </div>
         </div>
@@ -70,29 +72,30 @@
                 <div class="columns">
                     <div class="column">
                         <ul>
-                            <li class="l10n">Företag</li>
-                            <li><a href="om-oss.php" class="l10n" title="Om oss">Om oss</a></li>
-                            <li><a href="metod.php" class="l10n" title="Vår metod">Vår metod</a></li>
-                            <li><a href="specialister" class="l10n" title="Våra specialister">Våra specialister</a></li>
-                            <li><a href="https://skonhetsgruppen.teamtailor.com" target="_blank" rel="nofollow" title="Teamtailor" class="l10n">Karriär</a></li>
+                            <li class="l10n">Infomration</li>
+                            <li><a href="resultat.php" class="l10n" title="Se våra kunders före- och efterbilder">Resultat</a></li>
+                            <li><a href="hudguide" class="l10n" title="Läs mer om allt inom hudvård">Hudguide</a></li>
+                            <li><a href="ordlista.php" class="l10n" title="Lär dig med om hudvård från A till Ö">Ordlista</a></li>
+                            <li><a href="fragor-svar.php" class="l10n" title="Populära frågor & svar från våra kunder">Frågor & Svar</a></li>
+                            
                         </ul>
                     </div>
                     <div class="column">
                         <ul>
                             <li class="l10n">Kundtjänst</li>
-                            <li><a href="fragor-svar.php" class="l10n" title="Frågor & Svar">Frågor & Svar</a></li>
-                            <li><a href="avbokningspolicy.php" class="l10n" title="Avbokning">Avbokning</a></li>
-                            <li><a href="ordlista.php" class="l10n" title="Ordlista">Ordlista</a></li>
-                            <!--<li><a href="hudguide" class="l10n" title="Hudguide">Hudguide</a></li>-->
-                            <li><a href="kontakt.php" class="l10n" title="Kontakt">Kontakt</a></li>
+                            <li><a href="kontakt.php" class="l10n" title="Kontakta oss via chatt, e-post eller telefon">Kontakt</a></li>
+                            <li><a href="presentkort.php" class="l10n" title="Köp presentkort hos oss">Presentkort</a></li>
+                            <li><a href="priser.php" class="l10n" title="Här hittar du vår prislista">Priser</a></li>
+                            <li><a href="avbokningspolicy.php" class="l10n" title="Läs mer om vår avbokningspolicy">Avbokning</a></li>
                         </ul>
                     </div>
                     <div class="column">
                         <ul>
-                            <li class="l10n">Övrigt</li>
-                            <li><a href="resultat.php" class="l10n" title="Resultat">Resultat</a></li>
-                            <li><a href="presentkort.php" class="l10n" title="Presentkort">Presentkort</a></li>
-                            <li><a href="gratis-hudkonsultation.php" class="l10n" title="Gratis konsultation">Gratis konsultation</a></li>
+                            <li class="l10n">Företag</li>
+                            <li><a href="om-oss.php" class="l10n" title="Mer information om oss på AcneSpecialisten">Om oss</a></li>
+                            <li><a href="metod.php" class="l10n" title="Lär dig mer om hur vår metod går till">Vår metod</a></li>
+                            <li><a href="specialister" class="l10n" title="Se alla våra specialister och hudterapeuter">Våra specialister</a></li>
+                            <li><a href="https://skonhetsgruppen.teamtailor.com" target="_blank" rel="nofollow" title="Se våra lediga tjänster" class="l10n">Karriär</a></li>
                         </ul>
                     </div>
                     <div class="column">
