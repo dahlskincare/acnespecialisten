@@ -66,7 +66,7 @@ $treatments = array(
     ),
     new Treatment(
         label: 'Klassiska Ansiktsbehandlingar',
-        url: 'ansiktsbehandlingar-klassiska.php',
+        url: 'ansiktsbehandlingar.php',
         url_title: 'Läs mer om klassiska ansiktsbehandlingar'
     ),
     new Treatment(
@@ -169,7 +169,7 @@ $service_categories = array(
             new Service(
                 url: 'portomning.php',
                 url_label: 'Mot Pormaskar',
-                url_title: 'Läs mer om porrengöring',
+                url_title: 'Läs mer om portömning',
                 title: '',
                 duration: '',
                 price: '',
@@ -232,7 +232,7 @@ $service_categories = array(
         consultation_url_label: 'Boka hudkonsultation'
     ),
     new ServiceCategory(
-        url: 'ansiktsbehandlingar-klassiska.php',
+        url: 'ansiktsbehandlingar.php',
         label: 'Klassiska ansiktsbehandlingar',
         content: 'Klassiska ansiktsbehandlingar är tidlösa och grundläggande skönhetsbehandlingar som främjar allmän hudhälsa. De inkluderar rengöring, exfoliering, ånga, masker och massage, och är anpassade för att passa olika hudtyper och behov.',
         image_small: 'bilder/behandlingar/200x200/klassiska-ansiktsbehandlingar.webp',
@@ -497,7 +497,7 @@ $service_categories = array(
         image_title: 'Laser mot Problemhy',
         services: array(
             new Service(
-                url: '/varumarken/alma/hybrid',
+                url: 'alma-hybrid-co2-laser.php',
                 url_label: 'Alma Hybrid',
                 url_title: 'Läs mer om Alma Hybrid',
                 title: '',
@@ -516,7 +516,7 @@ $service_categories = array(
                 booking_url_title: '',
             ),
             new Service(
-                url: '/varumarken/alma/harmony-xl-pro',
+                url: 'alma-harmony-xl-pro.php',
                 url_label: 'Alma Harmony XL Pro',
                 url_title: 'Läs mer om Alma Harmony XL Pro',
                 title: '',
