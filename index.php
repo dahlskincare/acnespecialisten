@@ -428,28 +428,28 @@
                         <?php $faq_categories = array(
                               'Generella frågor och svar' => array(
                                   new Question(
-                                      title: 'Vilka behandlingar erbjuder AcneSpecialisten för olika hudproblem?',
-                                      text: 'På AcneSpecialisten erbjuder vi ett brett utbud av behandlingar anpassade för specifika hudproblem, inklusive avancerad acnebehandling, skonsam rosaceabehandling och noggrann portömning, samt andra specialbehandlingar för olika hudtillstånd.'
+                                      title: 'Behandlar Acnespecialisten enbart akne?',
+                                      text: 'Nej, vår expertis sträcker sig bortom behandling av enbart akne. Vi hanterar en bred variation av hudproblem, inklusive akne, rosacea, pormaskar, pigmentfläckar, ytliga blodkärl och mycket mer. För en fullständig översikt över de hudproblem vi behandlar, besök vår <a href="problemhy.php>problemsida</a>. Om du är osäker på vilket hudproblem du har, erbjuder vi en kostnadsfri konsultation där våra erfarna hudspecialister kan ge dig råd och vägledning.'
                                   ),
                                   new Question(
-                                      title: 'Vad är den genomsnittliga tidsåtgången för en behandling?',
-                                      text: 'En typisk behandling hos AcneSpecialisten tar mellan 60 och 90 minuter, beroende på behandlingens art och dina individuella hudvårdsbehov.'
+                                      title: 'Kan jag besöka Acnespecialisten även för mindre hudproblem?',
+                                      text: 'Absolut, vi välkomnar alla, oavsett hur litet eller stort ditt hudproblem är. Även en enstaka finne är värd vår uppmärksamhet. Vi erbjuder kostnadsfria hudkonsultationer, som kan genomföras antingen via videosamtal eller på någon av våra tre kliniker i Stockholm.'
                                   ),
                                   new Question(
-                                      title: 'Hur många behandlingar rekommenderas för att uppnå synliga resultat?',
-                                      text: 'Antalet rekommenderade behandlingar varierar beroende på individens hudproblem och hudtyp. I genomsnitt ser kunderna betydande förbättringar efter 2-4 behandlingssessioner.'
+                                      title: 'Varför erbjuder Acnespecialisten gratis konsultationer?',
+                                      text: 'Vi erbjuder gratis konsultationer för att ge dig en djupare förståelse för din hudtyp och de mest effektiva metoderna för att behandla den. Vår prioritet är att du får omfattande information om behandlingsprocessen och hur vi kan hjälpa dig i att uppnå önskade resultat med rätt behandlingar och produkter.'
                                   ),
                                   new Question(
-                                      title: 'Är behandlingarna hos AcneSpecialisten smärtsamma?',
-                                      text: 'Vi strävar efter att göra våra behandlingar så bekväma som möjligt. Viss lätt smärta kan upplevas under behandling av inflammerade områden eller vid extraktioner, men denna känsla är övergående och hanteras med största omsorg för din komfort.'
+                                      title: 'Finns Acnespecialisten endast i Stockholm?',
+                                      text: 'Just nu har vi enbart fysiska kliniker i Stockholm. Men oavsett var du befinner dig, kan vi erbjuda hjälp genom vår onlinekonsultation. Genom denna service får du möta en av våra erfarna hudterapeuter digitalt. För många hudproblem kan effektiva lösningar implementeras hemma. Skulle det krävas ett personligt besök på kliniken, kan det vara värt resan för att få den rätta behandlingen efter en initial onlinekonsultation.'
                                   ),
                                   new Question(
-                                      title: 'Anpassar ni behandlingarna för olika hudtyper?',
-                                      text: 'Absolut, på AcneSpecialisten anpassar vi våra behandlingar för att passa en mängd olika hudtyper, från mycket känslig till oljig hy, för att säkerställa den mest effektiva och skonsamma behandlingen.'
+                                      title: 'Är personalen på Acnespecialisten hudläkare?',
+                                      text: 'Vi är professionella hudterapeuter, inte hudläkare. Vår personal har lång erfarenhet och expertis i att behandla problemhud med de senaste metoderna och teknikerna. Vi är specialiserade på att erbjuda effektiva hudvårdsbehandlingar och rådgivning.'
                                   ),
                                   new Question(
-                                      title: 'Anpassar ni behandlingarna för olika hudtyper?',
-                                      text: 'Absolut, på AcneSpecialisten anpassar vi våra behandlingar för att passa en mängd olika hudtyper, från mycket känslig till oljig hy, för att säkerställa den mest effektiva och skonsamma behandlingen.'
+                                      title: 'Vilken utbildning har hudterapeuterna hos Acnespecialisten?',
+                                      text: 'Alla våra hudterapeuter har genomgått utbildning vid en av Sveriges Hudterapeuters Riksorganisations (SHR) godkända skolor. Många av dem är dessutom CIDESCO-certifierade, vilket är en internationellt erkänd kvalifikation. Denna höga utbildningsstandard säkerställer att vi är väl förberedda för att effektivt hjälpa personer med olika hudproblem.'
                                   ),
                               ),
 
