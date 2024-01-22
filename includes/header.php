@@ -72,7 +72,7 @@
                 <div class="columns">
                     <div class="column">
                         <ul>
-                            <li class="l10n">Infomration</li>
+                            <li class="l10n">Information</li>
                             <li><a href="resultat.php" class="l10n" title="Se våra kunders före- och efterbilder">Resultat</a></li>
                             <li><a href="hudguide" class="l10n" title="Läs mer om allt inom hudvård">Hudguide</a></li>
                             <li><a href="ordlista.php" class="l10n" title="Lär dig med om hudvård från A till Ö">Ordlista</a></li>
