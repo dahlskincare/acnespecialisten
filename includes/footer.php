@@ -43,7 +43,7 @@
                 </div>
                 <div id="buttons">
                     <button class="grey l10n">Ring</button>
-                    <button class="grey l10n">Mail</button>
+                    <button class="grey l10n">Melja</button>
                 </div>
             </div>
             <div id="footer-salon-cards">
@@ -84,16 +84,16 @@
                         <h2>Upptäck</h2>
                         <ul>
                             <li>
-                                <a href="gratis-hudkonsultation.php" class="button text grey compact l10n" title="Gratis hudkonsultation">Gratis hudkonsultation</a>
+                                <a href="gratis-hudkonsultation.php" class="button text grey compact l10n" title="Läs mer om vår gratis hudkonsultation">Gratis hudkonsultation</a>
                             </li>
                             <li>
-                                <a href="problemhy.php" class="button text grey compact l10n" title="Problem">Problem</a>
+                                <a href="problemhy.php" class="button text grey compact l10n" title="Läs mer om olika hudproblem vi behandlar">Problem</a>
                             </li>
                             <li>
-                                <a href="behandlingar.php" class="button text grey compact l10n" title="Behandlingar">Behandlingar</a>
+                                <a href="behandlingar.php" class="button text grey compact l10n" title="Läs mer om de behandlingar vi utför">Behandlingar</a>
                             </li>
                             <li>
-                                <a href="varumarken" class="button text grey compact l10n" title="Varumärken">Varumärken</a>
+                                <a href="varumarken" class="button text grey compact l10n" title="Läs mer om de varumärken vi jobbar med">Varumärken</a>
                             </li>
                         </ul>
                     </div>
@@ -101,16 +101,16 @@
                         <h2 class="l10n">Information</h2>
                         <ul>
                             <li>
-                                <a href="resultat.php" class="button text grey compact l10n" title="Resultat">Resultat</a>
+                                <a href="resultat.php" class="button text grey compact l10n" title="Se våra kunders före- och efterbilder">Resultat</a>
                             </li>
                             <!--<li>
-                                <a href="hudguide" class="button text grey compact l10n" title="Hudguide">Hudguide</a>
+                                <a href="hudguide" class="button text grey compact l10n" title="Läs mer om allt inom hudvård">Hudguide</a>
                             </li>-->
                             <li>
-                                <a href="ordlista.php" class="button text grey compact l10n" title="Ordlista">Ordlista</a>
+                                <a href="ordlista.php" class="button text grey compact l10n" title="Lär dig med om hudvård från A till Ö">Ordlista</a>
                             </li>
                             <li>
-                                <a href="fragor-svar.php" class="button text grey compact l10n" title="Frågor & Svar">Frågor & Svar</a>
+                                <a href="fragor-svar.php" class="button text grey compact l10n" title="Populära frågor & svar från våra kunder">Frågor & Svar</a>
                             </li>
                         </ul>
                     </div>
@@ -121,16 +121,16 @@
                             <h2>Kundtjänst</h2>
                             <ul>
                                 <li>
-                                    <a href="kontakt.php" class="button text grey compact l10n" title="Kontakt">Kontakt</a>
+                                    <a href="kontakt.php" class="button text grey compact l10n" title="Kontakta oss via chatt, e-post eller telefon">Kontakt</a>
                                 </li>
                                 <li>
-                                    <a href="presentkort.php" class="button text grey compact l10n" title="Presentkort">Presentkort</a>
+                                    <a href="presentkort.php" class="button text grey compact l10n" title="Köp presentkort hos oss">Presentkort</a>
                                 </li>
                                 <!--<li>
-                                    <a href="priser" class="button text grey compact l10n" title="Priser">Priser</a>
+                                    <a href="priser" class="button text grey compact l10n" title="Här hittar du vår prislista">Priser</a>
                                 </li>-->
                                 <li>
-                                    <a href="avbokningspolicy.php" class="button text grey compact l10n" title="Avbokning">Avbokning</a>
+                                    <a href="avbokningspolicy.php" class="button text grey compact l10n" title="Läs mer om vår avbokningspolicy">Avbokning</a>
                                 </li>
                             </ul>
                         </div>
@@ -138,16 +138,16 @@
                             <h2>Företag</h2>
                             <ul>
                                 <li>
-                                    <a href="om-oss.php" class="button text grey compact l10n" title="Om oss">Om oss</a>
+                                    <a href="om-oss.php" class="button text grey compact l10n" title="Mer information om oss på AcneSpecialisten">Om oss</a>
                                 </li>
                                 <li>
-                                    <a href="metoden.php" class="button text grey compact l10n" title="Vår metod">Vår metod</a>
+                                    <a href="metoden.php" class="button text grey compact l10n" title="Lär dig mer om hur vår metod går till">Vår metod</a>
                                 </li>
                                 <li>
-                                    <a href="specialister" class="button text grey compact l10n" title="Våra specialsiter">Våra specialsiter</a>
+                                    <a href="specialister" class="button text grey compact l10n" title="Se alla våra specialister och hudterapeuter">Våra specialsiter</a>
                                 </li>
                                 <li>
-                                    <a href="https://skonhetsgruppen.teamtailor.com" target="_blank" title="Teamtailor" rel="nofollow" class="button text grey compact l10n">Karriär</a>
+                                    <a href="https://skonhetsgruppen.teamtailor.com" target="_blank" title="Se våra lediga tjänster" rel="nofollow" class="button text grey compact l10n">Karriär</a>
                                 </li>
                             </ul>
                         </div>
@@ -289,7 +289,7 @@
                         <div class="flex-row" id="phone-dot-email-large">
                             <a href="tel:+4608296101" class="button b200 compact text" title="+46 (0) 8-29 61 01">+46 (0) 8-29 61 01</a>
                             <div class="dot"></div>
-                            <a class="button b200 compact text l10n" href="mailto:hej@acnespecialisten.se" title="Skicka mail">hej@acnespecialisten.se</a>
+                            <a class="button b200 compact text l10n" href="mailto:hej@acnespecialisten.se" title="Skicka e-post">hej@acnespecialisten.se</a>
                         </div>
                         <div id="footer-salon-cards-large">
                             <div class="salon-card">
@@ -332,36 +332,33 @@
                                     <h2>Upptäck</h2>
                                     <ul>
                                         <li>
-                                            <a href="gratis-hudkonsultation.php" class="button text grey compact l10n" title="Gratis konsultation">Gratis konsultation</a>
+                                            <a href="gratis-hudkonsultation.php" class="button text grey compact l10n" title="Läs mer om vår gratis hudkonsultation">Gratis hudkonsultation</a>
                                         </li>
                                         <li>
-                                            <a href="proble.php" class="button text grey compact l10n" title="Problem">Problem</a>
+                                            <a href="problemhy.php" class="button text grey compact l10n" title="Läs mer om olika hudproblem vi behandlar">Problem</a>
                                         </li>
                                         <li>
-                                            <a href="behandlingar.php" class="button text grey compact l10n" title="Behandlingar">Behandlingar</a>
+                                            <a href="behandlingar.php" class="button text grey compact l10n" title="Läs mer om de behandlingar vi utför">Behandlingar</a>
                                         </li>
                                         <li>
-                                            <a href="varumarken" class="button text grey compact l10n" title="Varumärken">Varumärken</a>
+                                            <a href="varumarken" class="button text grey compact l10n" title="Läs mer om de varumärken vi jobbar med">Varumärken</a>
                                         </li>
-                                        <!--<li>
-                                            <a href="priser" class="button text grey compact l10n" title="Priser">Priser</a>
-                                        </li>-->
                                     </ul>
                                 </div>
                                 <div class="column">
-                                    <h2 class="l10n">Företag</h2>
+                                    <h2 class="l10n">Information</h2>
                                     <ul>
                                         <li>
-                                            <a href="om-oss.php" class="button text grey compact l10n" title="Om oss">Om oss</a>
+                                            <a href="resultat.php" class="button text grey compact l10n" title="Se våra kunders före- och efterbilder">Resultat</a>
+                                        </li>
+                                        <!--<li>
+                                            <a href="hudguide" class="button text grey compact l10n" title="Läs mer om allt inom hudvård">Hudguide</a>
+                                        </li>-->
+                                        <li>
+                                            <a href="ordlista.php" class="button text grey compact l10n" title="Lär dig med om hudvård från A till Ö">Ordlista</a>
                                         </li>
                                         <li>
-                                            <a href="metoden.php" class="button text grey compact l10n" title="Vår metod">Vår metod</a>
-                                        </li>
-                                        <li>
-                                            <a href="specialister" class="button text grey compact l10n" title="Våra specialister">Våra specialister</a>
-                                        </li>
-                                        <li>
-                                            <a href="https://skonhetsgruppen.teamtailor.com" target="_blank" title="Teamtailor" rel="nofollow" class="button text grey compact l10n">Karriär</a>
+                                            <a href="fragor-svar.php" class="button text grey compact l10n" title="Populära frågor & svar från våra kunder">Frågor & Svar</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -369,33 +366,33 @@
                                     <h2>Kundtjänst</h2>
                                     <ul>
                                         <li>
-                                            <a href="fragor-svar.php" class="button text grey compact l10n" title="Frågor & Svar">Frågor & Svar</a>
+                                            <a href="kontakt.php" class="button text grey compact l10n" title="Kontakta oss via chatt, e-post eller telefon">Kontakt</a>
                                         </li>
                                         <li>
-                                            <a href="avbokningspolicy.php" class="button text grey compact l10n" title="Avbokning">Avbokning</a>
-                                        </li>
-                                        <li>
-                                            <a href="ordlista.php" class="button text grey compact l10n" title="Ordlista">Ordlista</a>
+                                            <a href="presentkort.php" class="button text grey compact l10n" title="Köp presentkort hos oss">Presentkort</a>
                                         </li>
                                         <!--<li>
-                                            <a href="hudguide" class="button text grey compact l10n" title="Hudguide">Hudguide</a>
+                                            <a href="priser" class="button text grey compact l10n" title="Här hittar du vår prislista">Priser</a>
                                         </li>-->
                                         <li>
-                                            <a href="kontakt.php" class="button text grey compact l10n" title="Kontakt">Kontakt</a>
+                                            <a href="avbokningspolicy.php" class="button text grey compact l10n" title="Läs mer om vår avbokningspolicy">Avbokning</a>
                                         </li>
                                     </ul>
                                 </div>
                                 <div class="column">
-                                    <h2>Övrigt</h2>
+                                    <h2>Företag</h2>
                                     <ul>
                                         <li>
-                                            <a href="resultat.php" class="button text grey compact l10n" title="Resultat">Resultat</a>
+                                            <a href="om-oss.php" class="button text grey compact l10n" title="Mer information om oss på AcneSpecialisten">Om oss</a>
                                         </li>
                                         <li>
-                                            <a href="presentkort.php" class="button text grey compact l10n" title="Presentkort">Presentkort</a>
+                                            <a href="metoden.php" class="button text grey compact l10n" title="Lär dig mer om hur vår metod går till">Vår metod</a>
                                         </li>
                                         <li>
-                                            <a href="https://dahlskincare.com/profile/start" class="button text grey compact l10n" title="Login">Till inloggning</a>
+                                            <a href="specialister" class="button text grey compact l10n" title="Se alla våra specialister och hudterapeuter">Våra specialsiter</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://skonhetsgruppen.teamtailor.com" target="_blank" title="Se våra lediga tjänster" rel="nofollow" class="button text grey compact l10n">Karriär</a>
                                         </li>
                                     </ul>
                                 </div>
