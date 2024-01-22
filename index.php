@@ -463,7 +463,7 @@
                               <div id="about-text">
                                     <div class="h500 l10n">Kort om oss</div>
                                     <div class="h200 mt-m l10n">
-                                          AcneSpecialisten är en del av Sveriges Skönhetscenter som har valt att fokusera helt på acne och problemhy. Genom att specialisera oss inom detta område kan vi erbjuda expertis, behandlingar och produkter anpassade specifikt för att hantera och förbättra hudens hälsa hos dem som lider av acne och andra hudproblem.
+                                          AcneSpecialisten är en del av Sveriges Skönhetscenter som har valt att fokusera helt på hudproblem. Genom att specialisera oss inom detta område kan vi erbjuda expertis, behandlingar och produkter anpassade specifikt för att hantera och förbättra hudens hälsa hos dem som lider av akne och andra hudproblem.
                                     </div>
                                     <picture class="is-hidden-tablet">
                                           <source media="(max-width: 799px)" srcset="images/about-mobile.jpg">
@@ -477,7 +477,7 @@
                                                       <div class="h200 l10n">30 års erfarenhet</div>
                                                 </div>
                                                 <p class="p200 mt-xxs l10n">
-                                                      Sedan 1994 har vi hjälpt över 100 000 kunder med problemhy och hudvård, ständigt utvecklande vår verksamhet.
+                                                      Sedan 1994 har vi hjälpt över 200 000 kunder med hudproblem och hudvård, och är idag det självklara valet mot problemhy.
                                                 </p>
                                                 <div class="divider"></div>
                                           </div>
