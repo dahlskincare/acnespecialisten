@@ -73,7 +73,7 @@
                         <h2>Upptäck</h2>
                         <ul>
                             <li>
-                                <a href="gratis-hudkonsultation" class="button text grey compact l10n" title="Gratis hudkonsultation">Gratis hudkonsultation</a>
+                                <a href="gratis-hudkonsultation.php" class="button text grey compact l10n" title="Gratis hudkonsultation">Gratis hudkonsultation</a>
                             </li>
                             <li>
                                 <a href="problemhy.php" class="button text grey compact l10n" title="Problem">Problem</a>
@@ -96,7 +96,7 @@
                                 <a href="om-oss.php" class="button text grey compact l10n" title="Om oss">Om oss</a>
                             </li>
                             <li>
-                                <a href="metod.php" class="button text grey compact l10n" title="Vår metod">Vår metod</a>
+                                <a href="metoden.php" class="button text grey compact l10n" title="Vår metod">Vår metod</a>
                             </li>
                             <li>
                                 <a href="specialister" class="button text grey compact l10n" title="Våra specialsiter">Våra specialsiter</a>
@@ -335,7 +335,7 @@
                                             <a href="om-oss.php" class="button text grey compact l10n" title="Om oss">Om oss</a>
                                         </li>
                                         <li>
-                                            <a href="metod.php" class="button text grey compact l10n" title="Vår metod">Vår metod</a>
+                                            <a href="metoden.php" class="button text grey compact l10n" title="Vår metod">Vår metod</a>
                                         </li>
                                         <li>
                                             <a href="specialister" class="button text grey compact l10n" title="Våra specialister">Våra specialister</a>
