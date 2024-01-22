@@ -513,14 +513,14 @@
                                                 </p>
                                           </div>
                                     </div>
-                                    <a href="om-oss.php" title="Om oss" class="button b200 outline expand l10n">Läs mer om oss</a>
+                                    <a href="om-oss.php" title="Läs mer om AcneSpecialisten" class="button b200 outline expand l10n">Läs mer om oss</a>
                               </div>
                         </div>
                         <div id="about-image-desktop">
                               <picture>
                                     <source media="(max-width: 799px)" srcset="images/about-mobile.jpg">
                                     <source media="(min-width: 800px)" srcset="images/about-desktop.jpg">
-                                    <img src="images/about-desktop.jpg" alt="About us" title="About us" width="632" height="632" />
+                                    <img src="images/about-desktop.jpg" alt="Vit logotype i en grön växtvägg på kliniken." title="Logotyp i växtvägg" width="632" height="632" />
                               </picture>
                         </div>
                   </section>
@@ -538,34 +538,34 @@
                                     name: 'Cazzandra Lindberg',
                                     title: 'Hudterapeut sedan 2015',
                                     image: 'images/specialists/large/hudterapeut-cazzandra.webp',
-                                    image_alt: 'Cazzandra Lindberg',
-                                    image_title: 'Cazzandra Lindberg'
+                                    image_title: 'Hudterapeut Cazzandra Lindberg',
+                                    image_alt: 'Porträttbild på hudterapeuten Cazzandra Lindberg',
                               ),
                               new Specialist(
                                     name: 'Veronika Benedik',
                                     title: 'Hudterapeut sedan 1999',
                                     image: 'images/specialists/large/hudterapeut-veronika.webp',
-                                    image_alt: 'Veronika Benedik',
-                                    image_title: 'Veronika Benedik'
+                                    image_title: 'Hudterapeut Veronika Benedik',
+                                    image_alt: 'Porträttbild på hudterapeuten Veronika Benedik',
                               ),
                               new Specialist(
                                     name: 'Julia Eklund',
                                     title: 'Hudterapeut sedan 2017',
                                     image: 'images/specialists/large/hudterapeut-julia.webp',
-                                    image_alt: 'Julia Eklund',
-                                    image_title: 'Julia Eklund'
+                                    image_title: 'Hudterapeut Julia Eklund',
+                                    image_alt: 'Porträttbild på hudterapeuten Julia Eklund',
                                 ),
                               new Specialist(
                                     name: 'Vilma Libom',
                                     title: 'Hudterapeut sedan 2019',
                                     image: 'images/specialists/large/hudterapeut-vilma.webp',
-                                    image_alt: 'Vilma Libom',
-                                    image_title: 'Vilma Libom'
+                                    image_title: 'Hudterapeut Vilma Libom',
+                                    image_alt: 'Porträttbild på hudterapeuten Vilma Libom',
                               ),
                         );
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
                         ?>
-                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" title="Specialister" href="specialists">Se alla specialister</a>
+                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" title="Se alla AcneSpecialistens hudterapeuter" href="specialists">Se alla specialister</a>
                   </section>
                   <section id="brands">
                         <div class="flex-row align-end justify-space-between">
