@@ -30,7 +30,7 @@
                 <a href="https://www.shr.nu" target="_blank" rel="nofollow">
                     <img src="images/brands/brand-icon-shr.png" alt="Shr" title="Shr" width="40" height="40" />
                 </a>
-                <a href="https://ww.bokadirekt.se" target="_blank" rel="nofollow">
+                <a href="https://www.bokadirekt.se/AcneSpecialisten/var" target="_blank" rel="nofollow">
                     <img src="images/brands/brand-icon-bokadirekt.png" alt="Bokadirekt" title="Bokadirekt" width="40" height="40" />
                 </a>
             </div>
@@ -95,25 +95,22 @@
                             <li>
                                 <a href="varumarken" class="button text grey compact l10n" title="Varumärken">Varumärken</a>
                             </li>
-                            <!--<li>
-                                <a href="priser" class="button text grey compact l10n" title="Priser">Priser</a>
-                            </li>-->
                         </ul>
                     </div>
                     <div class="column">
-                        <h2 class="l10n">Företag</h2>
+                        <h2 class="l10n">Information</h2>
                         <ul>
                             <li>
-                                <a href="om-oss.php" class="button text grey compact l10n" title="Om oss">Om oss</a>
+                                <a href="resultat.php" class="button text grey compact l10n" title="Resultat">Resultat</a>
+                            </li>
+                            <!--<li>
+                                <a href="hudguide" class="button text grey compact l10n" title="Hudguide">Hudguide</a>
+                            </li>-->
+                            <li>
+                                <a href="ordlista.php" class="button text grey compact l10n" title="Ordlista">Ordlista</a>
                             </li>
                             <li>
-                                <a href="metoden.php" class="button text grey compact l10n" title="Vår metod">Vår metod</a>
-                            </li>
-                            <li>
-                                <a href="specialister" class="button text grey compact l10n" title="Våra specialsiter">Våra specialsiter</a>
-                            </li>
-                            <li>
-                                <a href="https://skonhetsgruppen.teamtailor.com" target="_blank" title="Teamtailor" rel="nofollow" class="button text grey compact l10n">Karriär</a>
+                                <a href="fragor-svar.php" class="button text grey compact l10n" title="Frågor & Svar">Frågor & Svar</a>
                             </li>
                         </ul>
                     </div>
@@ -124,33 +121,33 @@
                             <h2>Kundtjänst</h2>
                             <ul>
                                 <li>
-                                    <a href="fragor-svar.php" class="button text grey compact l10n" title="Frågor & Svar">Frågor & Svar</a>
-                                </li>
-                                <li>
-                                    <a href="avbokningspolicy.php" class="button text grey compact l10n" title="Avbokning">Avbokning</a>
-                                </li>
-                                <li>
-                                    <a href="ordlista.php" class="button text grey compact l10n" title="Ordlista">Ordlista</a>
-                                </li>
-                                <!--<li>
-                                    <a href="hudguide" class="button text grey compact l10n" title="Hudguide">Hudguide</a>
-                                </li>-->
-                                <li>
                                     <a href="kontakt.php" class="button text grey compact l10n" title="Kontakt">Kontakt</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="column">
-                            <h2>Övrigt</h2>
-                            <ul>
-                                <li>
-                                    <a href="resultat.php" class="button text grey compact l10n" title="Resultat">Resultat</a>
                                 </li>
                                 <li>
                                     <a href="presentkort.php" class="button text grey compact l10n" title="Presentkort">Presentkort</a>
                                 </li>
+                                <!--<li>
+                                    <a href="priser" class="button text grey compact l10n" title="Priser">Priser</a>
+                                </li>-->
                                 <li>
-                                    <a href="https://dahlskincare.com/profile/start" class="button text grey compact l10n" title="Logga in">Logga in</a>
+                                    <a href="avbokningspolicy.php" class="button text grey compact l10n" title="Avbokning">Avbokning</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <h2>Företag</h2>
+                            <ul>
+                                <li>
+                                    <a href="om-oss.php" class="button text grey compact l10n" title="Om oss">Om oss</a>
+                                </li>
+                                <li>
+                                    <a href="metoden.php" class="button text grey compact l10n" title="Vår metod">Vår metod</a>
+                                </li>
+                                <li>
+                                    <a href="specialister" class="button text grey compact l10n" title="Våra specialsiter">Våra specialsiter</a>
+                                </li>
+                                <li>
+                                    <a href="https://skonhetsgruppen.teamtailor.com" target="_blank" title="Teamtailor" rel="nofollow" class="button text grey compact l10n">Karriär</a>
                                 </li>
                             </ul>
                         </div>
@@ -162,7 +159,7 @@
                     <p>&copy;
                         <?php echo date('Y') ?> Acnespecialisten
                     </p>
-                    <a href="cookies" class="button b100 compact text l10n" title="Cookie policy">Cookie policy</a>
+                    <a href="cookies.php" class="button b100 compact text l10n" title="Cookie policy">Cookie policy</a>
                     <div id="language-selector">
                         <?php icon("intl") ?>
                         <span class="button b100 compact text l10n">
@@ -278,7 +275,7 @@
                     <div>
                         <div class="flex-row justify-end">
                             <span class="h200 l10n">Bokadirekt</span>
-                            <a href="https://ww.bokadirekt.se" target="_blank" rel="nofollow">
+                            <a href="https://www.bokadirekt.se/AcneSpecialisten/var" target="_blank" rel="nofollow">
                                 <img src="images/brands/brand-icon-bokadirekt.png" alt="Bokadirekt" title="Bokadirekt" width="40" height="40" />
                             </a>
                         </div>
@@ -413,10 +410,10 @@
                         <?php echo date('Y') ?> Acnespecialisten
                     </p>
                     <div class="flex-row">
-                        <a href="cookies" class="button b100 compact text l10n" title="Cookie policy">Cookie policy</a>
+                        <a href="cookies.php" class="button b100 compact text l10n" title="Cookie policy">Cookie policy</a>
                         <div id="language-selector">
                             <?php icon("intl") ?>
-                            <span class="button b100 compact text l10n">English</span>
+                            <span class="button b100 compact text l10n">English (Coming soon)</span>
                         </div>
                     </div>
                 </div>
@@ -493,7 +490,7 @@
 </style>
 
 <div id="cookies-popup">
-    <div class="l10n">Genom att använda vår hemsida godkänner du våra villkor <a href="cookies" title="Cookie policy">Cookie policy</a>.</div>
+    <div class="l10n">Genom att använda vår hemsida godkänner du våra villkor <a href="cookies.php" title="Cookie policy">Cookie policy</a>.</div>
     <button class="grey expand l10n">Accept</button>
 </div>
 
