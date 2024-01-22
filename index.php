@@ -487,7 +487,7 @@
                                                       <div class="h200 l10n">Unik helhetslösning</div>
                                                 </div>
                                                 <p class="p200 mt-xxs l10n">
-                                                      Vi erbjuder unika helhetslösningar för att identifiera, behandla och kontrollera problemhy med anpassade behandlingar.
+                                                      Vi erbjuder unika helhetslösningar för att identifiera, behandla och kontrollera hudproblem med anpassade behandlingar.
                                                 </p>
                                                 <div class="divider"></div>
                                           </div>
@@ -509,7 +509,7 @@
                                                       <div class="h200 l10n">3 Kliniker</div>
                                                 </div>
                                                 <p class="p200 mt-xxs l10n">
-                                                      Tre kliniker i Stockholm – Östermalm, Södermalm, Sundbyberg – för bekväm, professionell hudvård i huvudstaden.
+                                                      Tre kliniker i Stockholm – Östermalm, Södermalm, Sundbyberg – för service, kvalité och resultat.
                                                 </p>
                                           </div>
                                     </div>
