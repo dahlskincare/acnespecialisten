@@ -114,8 +114,8 @@ $link_brands = array(
       new BrandCategory(
             label: 'Laser for problem skin',
             services: array(
-                  "varumarken/alma/hybrid" => "Alma - Hybrid",
-                  "varumarken/alma/harmony-xl-pro" => "Alma - Harmony XL"
+                  "alma-hybrid-co2-laser.php" => "Alma - Hybrid",
+                  "alma-harmony-xl-pro.php" => "Alma - Harmony XL"
             )
       ),
       new BrandCategory(
@@ -128,41 +128,41 @@ $link_brands = array(
       new BrandCategory(
             label: 'IPL',
             services: array(
-                  "varumarken/alma/rejuve" => "Alma - Rejuve Dye VL",
-                  "varumarken/alma/harmony-xl" => "Alma - Harmony XL",
+                  "varumarken/alma/rejuve-dye-vl" => "Alma - Rejuve Dye VL",
+                  "alma-harmony-xl-pro.php" => "Alma - Harmony XL",
                   "varumarken/powerlite-photonova" => "Powerlight - PhotoNova PLS3",
             )
       ),
       new BrandCategory(
             label: 'Dermabration',
             services: array(
-                  "varumarken/hydrafacial" => "HydraFacial",
-                  "varumarken/microdemabrasion" => "Mimass - MicroDermabrasion",
+                  "hydrafacial.php" => "HydraFacial",
+                  "microdemabrasion.php" => "Mimass - MicroDermabrasion",
             )
       ),
       new BrandCategory(
             label: 'Kemisk Peeling',
             services: array(
                   "varumarken/skin-tech" => "Skin Tech",
-                  "varumarken/prx-t33" => "PRX-T33",
+                  "prx-t33.php" => "PRX-T33",
             )
       ),
       new BrandCategory(
             label: 'FreezeTreat',
             services: array(
-                  "varumarken/cryopen" => "CryoPen",
+                  "cryopen.php" => "CryoPen",
             )
       ),
       new BrandCategory(
             label: 'Skinbooster',
             services: array(
-                  "varumarken/infuzion" => "Infuzion",
+                  "infuzion.php" => "Infuzion",
             )
       ),
       new BrandCategory(
             label: 'Microneedling',
             services: array(
-                  "varumarken/dermapen" => "Dermapen",
+                  "dermapen.php" => "Dermapen",
                   "varumarken/exceed" => "Exceed"
             )
       ),

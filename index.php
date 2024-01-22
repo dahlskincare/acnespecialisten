@@ -447,6 +447,10 @@
                                       title: 'Anpassar ni behandlingarna för olika hudtyper?',
                                       text: 'Absolut, på AcneSpecialisten anpassar vi våra behandlingar för att passa en mängd olika hudtyper, från mycket känslig till oljig hy, för att säkerställa den mest effektiva och skonsamma behandlingen.'
                                   ),
+                                  new Question(
+                                      title: 'Anpassar ni behandlingarna för olika hudtyper?',
+                                      text: 'Absolut, på AcneSpecialisten anpassar vi våra behandlingar för att passa en mängd olika hudtyper, från mycket känslig till oljig hy, för att säkerställa den mest effektiva och skonsamma behandlingen.'
+                                  ),
                               ),
 
                         );
