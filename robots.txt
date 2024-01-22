@@ -1,3 +1,3 @@
 User-agent: *
-Disallow: /widgets/
+Disallow: /includes/
 Disallow /node_modules/
