@@ -296,16 +296,16 @@ $problems['oonskat-har'] = new Problem(
 
 
 $problems['akne-ansikte'] = new Problem(
-      label: 'Akne - Ansikte',
+      label: 'Akne i ansiktet',
       url: 'acne-ansikte.php',
-      url_title: 'Läs mer information om Akne',
+      url_title: 'Läs mer information om Akne i ansiktet',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
       consultation_url_title: 'Boka konsultation',
       booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
       booking_url_title: 'Boka behandling',
       image: 'images/problems/424x324/akne.webp',
       image_alt: 'Ansikte med hudproblemet akne',
-      image_title: 'Akne',
+      image_title: 'Akne i ansiktet',
       info: 'Den vanligaste hudsjukdom som involverar inflammation i talgkörtlarna, vilket leder till bildandet av finnar i form av papler och pustler. Det är ett resultat av en kombination av överproduktion av talg, tilltäppning av hårfolliklar och bakterietillväxt. Akne kan vara emotionellt påfrestande och variera i svårighetsgrad, ofta påverkad av hormonella förändringar, stress, och genetiska faktorer.',
 );
 
@@ -321,7 +321,7 @@ $problem_areas = array(
       new ProblemArea(
             label: 'Ansikte',
             icon: 'ansikte',
-            problem_ids: array('akne-ansikte', 'aknearr-ansikte', 'finnar-ansikte', 'arr-fran-finnar-ansikte', 'rosacea-ansikte', 'ytliga-blodkarl-ansikte', 'pormaskar-ansikte', 'stora-porer-ansikte', 'blandhy-ansikte', 'pigmentflackar-ansikte', 'perioral-dermatit-ansikte',  'seborre-ansikte', 'milier-ansikte', 'hudforandringar-ansikte',  'mogen-hy-ansikte', 'torr-kanslig-hy-ansikte', 'operations-skadearr-ansikte', 'oonskat-har-ansikte',)
+            problem_ids: array('akne-ansikte', 'aknearr-ansikte', 'finnar-ansikte', 'arr-fran-finnar-ansikte', 'rosacea-ansikte', 'ytliga-blodkarl-ansikte', 'pormaskar-ansikte', 'stora-porer-ansikte', 'blandhy-ansikte', 'pigmentflackar-ansikte', 'perioral-dermatit-ansikte', 'seborre-ansikte', 'milier-ansikte', 'hudforandringar-ansikte',  'mogen-hy-ansikte', 'torr-kanslig-hy-ansikte', 'operations-skadearr-ansikte', 'oonskat-har-ansikte',)
       ),
       new ProblemArea(
             label: 'Kropp',
