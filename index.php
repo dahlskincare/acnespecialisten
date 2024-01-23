@@ -227,7 +227,7 @@
                                     </div>
                               <?php } ?>
                         </div>
-                        <a href="metoden.php" title="Metoded" class="button b200 outline expand mt-xl l10n is-hidden-desktop">Läs mer om metoden</a>
+                        <a href="metoden.php" title="Metoded" class="button b200 outline expand mt-xl l10n is-hidden-desktop">Läs mer om vår metod</a>
                   </section>
                   <section id="results">
                         <?php
@@ -334,7 +334,7 @@
                         <?php
                         $accordion = array(
                               new AccordionItem(
-                                    label: 'Ansiktsbehandlingar',
+                                    label: 'Ansiktsbehandling',
                                     image_small: 'bilder/behandlingar/114x140/ansiktsbehandlingar-mot-problemhy.webp',
                                     image_large: 'bilder/behandlingar/424x324/ansiktsbehandlingar-mot-problemhy.webp',
                                     image_title: 'Ansiktsbehandling',
