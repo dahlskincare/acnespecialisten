@@ -176,7 +176,7 @@
                         $more_count = 17;
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/accordion/accordion.php')
                         ?>
-                        <a href="problem" title="problem" class="mt-xl button outline is-hidden-desktop expand l10n">Se alla problem</a>
+                        <a href="problemhy.php" title="Se alla hudproblem" class="mt-xl button outline is-hidden-desktop expand l10n">Se alla hudproblem</a>
                   </section>
                   <section id="our-approach">
                         <div class="flex-row align-end justify-space-between">
