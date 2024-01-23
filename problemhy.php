@@ -43,10 +43,6 @@ class Problem
       public string $info;
 }
 
-$path_segments = array(
-      new PathSegment('Problem', '/problemhy.php'),
-);
-
 $problems['akne'] = new Problem(
       label: 'Akne',
       url: 'acne.php',
@@ -355,6 +351,10 @@ $problem_areas = array(
             icon: 'kaklinje',
             problem_ids: array('akne', 'aknearr', 'arr-fran-finnar', 'bristningar', 'finnar', 'hudforandringar', 'mogen-hy', 'oonskat-har', 'operations-skadearr', 'pormaskar', 'stora-porer', 'blandhy', 'seborre', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar',)
       ),
+);
+
+$path_segments = array(
+      new PathSegment('Problem', '/problemhy.php'),
 );
 
 ?>
