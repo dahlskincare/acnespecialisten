@@ -15,7 +15,7 @@ $seo_image = 'bilder/problem/424x456/akne.webp';
 
 
 $path_segments = array(
-      new PathSegment('Problem', '/problem.php'),
+      new PathSegment('Problem', '/problemhy.php'),
       new PathSegment('Akne', '/acne.php'),
 );
 
