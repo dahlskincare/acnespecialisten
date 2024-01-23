@@ -69,7 +69,7 @@ $problems['aknearr'] = new Problem(
       image: 'images/problems/424x324/acnearr.webp',
       image_alt: 'Akneärr',
       image_title: 'Akneärr',
-      info: 'Dessa ärr är en vanlig följd av svår akne och består av texturförändringar i huden efter läkning av akne. De kan vara gropiga, kantiga eller upphöjda och variera i storlek och djup. Ärrbildningen är ett resultat av kroppens läkningsprocess och kan påverka både hudens utseende och struktur, ofta krävande längre tid för att blekna eller förbättras.'
+      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av akne. De kan vara gropiga eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur, ofta krävande längre tid för att blekna eller förbättras.'
 );
 $problems['arr-fran-finnar'] = new Problem(
       label: 'Ärr från finnar',
