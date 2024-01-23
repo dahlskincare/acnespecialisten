@@ -121,7 +121,7 @@ $problems['finnar'] = new Problem(
       image: 'images/problems/424x324/finnar.webp',
       image_alt: 'Ansikte med hudproblemet Finnar',
       image_title: 'Finnar',
-      info: 'Inflammerade Små inflammerade blemmor på huden, ofta fyllda med var, som är en del av akne. Finnar orsakas av inflammation i hårfolliklar och talgkörtlar, ofta förvärrade av bakterier. De kan uppstå i ansiktet, på ryggen, bröstet och axlarna och kan variera i storlek och svårighetsgrad. Regelbunden hudvård och undvikande av att irritera området är viktigt för att hantera finnar.'
+      info: 'Små inflammerade röda på finnar på huden, ofta fyllda med var, som är en del av akne.'
 );
 $problems['hudforandringar'] = new Problem(
       label: 'Hudförändringar',
@@ -134,7 +134,7 @@ $problems['hudforandringar'] = new Problem(
       image: 'images/problems/424x324/hudforandringar.webp',
       image_alt: 'Rygg med hudproblemet Hudförändringar',
       image_title: 'Hudförändringar',
-      info: 'Detta är en bred kategori som innefattar alla typer av synliga förändringar i huden, inklusive åldersfläckar, rynkor, födelsemärken och förändringar som kan vara indikatorer på hudsjukdomar. Dessa förändringar kan bero på en rad faktorer som åldrande, solskador, genetiska predispositioner och miljöpåverkan.'
+      info: 'Detta är en bred kategori som innefattar alla typer av synliga förändringar i huden.'
 );
 $problems['milier'] = new Problem(
       label: 'Milier',
@@ -147,7 +147,7 @@ $problems['milier'] = new Problem(
       image: 'images/problems/424x324/milier.webp',
       image_alt: 'Ansikte med hudproblemet Milier',
       image_title: 'Milier',
-      info: 'Dessa är små, fasta, vita cystor som består av ansamlingar av keratin, vanligtvis lokaliserade under huden runt ögonen, kinderna och på näsan. De är vanliga hos både barn och vuxna och betraktas ofta som ofarliga. Milier utvecklas när döda hudceller blir inneslutna i små fickor på hudytan.'
+      info: 'Små, fasta, vita cystor som består av ansamlingar av keratin, vanligtvis lokaliserade runt ögonen och på kinderna.'
 );
 $problems['mogen-hy'] = new Problem(
       label: 'Mogen Hy',
