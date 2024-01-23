@@ -1,5 +1,7 @@
-<?php include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php'); ?>
 <?php
+include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
+include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
+
 class ProblemArea
 {
       public function __construct($label, $icon, $problem_ids)
@@ -352,7 +354,6 @@ $problem_areas = array(
             problem_ids: array('akne', 'aknearr', 'arr-fran-finnar', 'bristningar', 'finnar', 'hudforandringar', 'mogen-hy', 'oonskat-har', 'operations-skadearr', 'pormaskar', 'stora-porer', 'blandhy', 'seborre', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar',)
       ),
 );
-require_once("includes/models/path_segment.php");
 $path_segments = array(
       new PathSegment('Problem', '/problemhy.php'),
 );
