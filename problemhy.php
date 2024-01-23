@@ -160,7 +160,7 @@ $problems['mogen-hy'] = new Problem(
       image: 'images/problems/424x324/mogen-hy.webp',
       image_alt: 'Ansikte med hudproblemet Mogen Hy',
       image_title: 'Mogen Hy',
-      info: 'Detta refererar till hud som uppvisar tecken på åldrande, som rynkor, fina linjer, minskad fasthet och torrhet. Hudens förmåga att behålla fukt och dess naturliga oljeproduktion minskar ofta med åldern, vilket kan leda till en känsla av stramhet och en synlig förlust av hudens ungdomliga lyster. Ytterligare faktorer som solskador och livsstilsval kan påverka hur snabbt huden åldras.'
+      info: 'Detta refererar till hud som uppvisar tecken på åldrande, som rynkor, fina linjer, minskad fasthet och torrhet.'
 );
 $problems['oonskat-har'] = new Problem(
       label: 'Oönskat hår',
@@ -173,7 +173,7 @@ $problems['oonskat-har'] = new Problem(
       image: 'images/problems/424x324/oonskat-har.webp',
       image_alt: 'Bröst med hudproblemet Oönskat hår',
       image_title: 'Oönskat hår',
-      info: 'Detta innebär överdriven hårväxt på kroppen eller ansiktet, vilket kan vara ett resultat av hormonella obalanser, genetik, vissa mediciner eller medicinska tillstånd. Denna typ av hårväxt kan uppfattas som kosmetiskt störande och varierar i intensitet och distribution över kroppen.'
+      info: ' Hårväxt på kroppen eller i ansiktet som upplevs som kosmetiskt störande.'
 );
 $problems['operations-skadearr'] = new Problem(
       label: 'Operations & Skadeärr',
@@ -186,7 +186,7 @@ $problems['operations-skadearr'] = new Problem(
       image: 'images/problems/424x324/arr.webp',
       image_alt: 'Mage med hudproblemet Operations & Skadeärr',
       image_title: 'Operations & Skadeärr',
-      info: 'Dessa ärr är resultatet av kirurgiska ingrepp och kan variera mycket i utseende, beroende på operationens omfattning, placeringen av snittet, och individens läkningsförmåga. De kan vara upphöjda, röda, eller ha en annorlunda textur jämfört med omgivande hud.'
+      info: 'Dessa ärr är resultatet av kirurgiska ingrepp eller skador.'
 );
 $problems['perioral-dermatit'] = new Problem(
       label: 'Perioral dermatit',
@@ -199,7 +199,7 @@ $problems['perioral-dermatit'] = new Problem(
       image: 'images/problems/424x324/perioral-dermatit.webp',
       image_alt: 'Ansikte med hudproblemet Perioral dermatit',
       image_title: 'Perioral dermatit',
-      info: 'Detta är ett inflammatoriskt hudtillstånd som påverkar området runt munnen, vilket resulterar i utslag, rodnad och ibland små blåsor eller knölar. Tillståndet kan påverkas av flera faktorer, inklusive hormonella förändringar, hudirriterande ämnen och långvarig användning av topiska steroider.'
+      info: 'Inflammatoriskt hudtillstånd som påverkar området runt munnen, vilket resulterar i utslag, rodnad och ibland små blåsor.'
 );
 $problems['pigmentflackar'] = new Problem(
       label: 'Pigmentfläckar',
@@ -212,7 +212,7 @@ $problems['pigmentflackar'] = new Problem(
       image: 'images/problems/424x324/pigmentflackar.webp',
       image_alt: 'Ansikte med hudproblemet Pigmentfläckar',
       image_title: 'Pigmentfläckar',
-      info: 'Detta är mörka områden på huden som uppstår när melanin, det pigment som ger hud dess färg, produceras i överflöd. Dessa fläckar kan vara resultatet av olika faktorer, inklusive solskador, hormonella förändringar som de som uppstår under graviditet eller genom användning av vissa mediciner, och är vanligare med stigande ålder.'
+      info: 'Mörka områden på huden som uppstår när melanin, det pigment som ger hud dess färg, produceras i överflöd.'
 );
 $problems['pormaskar'] = new Problem(
       label: 'Pormaskar',
@@ -225,7 +225,7 @@ $problems['pormaskar'] = new Problem(
       image: 'images/problems/424x324/pormaskar.webp',
       image_alt: 'Ansikte med hudproblemet Pormaskar',
       image_title: 'Pormaskar',
-      info: 'Dessa är små, mörka lesioner på huden, oftast förekommande i ansiktet. De uppstår när porerna i huden blir tilltäppta med en kombination av talg och döda hudceller. Pormaskar kan vara antingen öppna (svarta) eller stängda (vita) och är ofta ett av de första tecknen på akne.'
+      info: 'Små, svarta eller vita pormaskar på huden, oftast förekommande i ansiktet.'
 
 );
 $problems['rosacea'] = new Problem(
@@ -239,7 +239,7 @@ $problems['rosacea'] = new Problem(
       image: 'images/problems/424x324/rosacea.webp',
       image_alt: 'Ansikte med hudproblemet Rosacea',
       image_title: 'Rosacea',
-      info: 'Ett kroniskt hudtillstånd som kännetecknas av episoder av rodnad och ibland små, pusfyllda knölar. Det kan också involvera brännande eller stickande känsla i huden och ökad känslighet. Tillståndet är vanligast i centrala delar av ansiktet och dess exakta orsak är fortfarande okänd.'
+      info: 'Kroniskt hudtillstånd som kännetecknas av rodnad och en stickande eller brännande känsla i huden.'
 );
 $problems['seborre'] = new Problem(
       label: 'Seborré',
