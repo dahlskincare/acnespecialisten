@@ -132,7 +132,7 @@ if (!isset($results)) {
                 <?php } ?>
             </div>
         </div>
-        <a class="mt-xl button b200 outline expand" href="resultat" title="<?php echo $show_all_results_title ?>"><?php echo $show_all_results_label ?></a>
+        <a class="mt-xl button b200 outline expand" href="/resultat.php" title="<?php echo $show_all_results_title ?>"><?php echo $show_all_results_label ?></a>
     </div>
 
     <div class="is-hidden-touch" id="results-large">
