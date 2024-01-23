@@ -35,7 +35,7 @@
                 </a>
             </div>
             <div id="footer-contact">
-                <h2>Acnespecialisten</h2>
+                <h2>AcneSpecialisten</h2>
                 <div class="p200" id="phone-dot-email">
                     <a href="tel:+4608296101" title="+46 (0) 8-29 61 01">+46 (0) 8-29 61 01</a>
                     <div class="dot"></div>
@@ -157,7 +157,7 @@
             <div id="footer-bottom">
                 <div class="copy-n-cookies">
                     <p>&copy;
-                        <?php echo date('Y') ?> Acnespecialisten
+                        <?php echo date('Y') ?> AcneSpecialisten Sverige AB
                     </p>
                     <a href="cookies.php" class="button b100 compact text l10n" title="Cookie policy">Cookie policy</a>
                     <div id="language-selector">
