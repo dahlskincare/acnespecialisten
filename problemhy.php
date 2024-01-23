@@ -95,7 +95,7 @@ $problems['blandhy'] = new Problem(
       image: 'images/problems/424x324/blandhy.webp',
       image_alt: 'Ansikte med hudproblemet Blandhy',
       image_title: 'Blandhy',
-      info: 'En hudtyp där vissa områden, speciellt T-zonen (panna, näsa, haka), är oljiga, medan kinderna och andra delar av ansiktet kan vara normala eller torra. Denna blandning av hudtyper kräver en balanserad hudvårdsrutin som kan hantera både torrhet och överproduktion av talg. Blandhy kan vara särskilt utmanande att sköta eftersom olika områden kräver olika typer av vård.'
+      info: 'En hudtyp där vissa områden, speciellt T-zonen (panna, näsa, haka), är oljiga, medan kinderna och andra delar av ansiktet kan vara normala eller torra. Denna blandning av hudtyper kräver en balanserad hudvårdsrutin som kan hantera både torrhet och överproduktion av talg.'
 );
 $problems['bristningar'] = new Problem(
       label: 'Bristningar',
