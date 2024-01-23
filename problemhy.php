@@ -356,7 +356,7 @@ $problem_areas = array(
 );
 
 $path_segments = array(
-      new PathSegment('Problem', '/problemhy.php'),
+      new PathSegment('Hudproblem', '/problemhy.php'),
 );
 
 ?>
