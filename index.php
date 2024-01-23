@@ -457,6 +457,75 @@
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
                         <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" title="Läs alla våra frågor och svar" href="fragor-svar.php">Se fler frågor & svar</a>
                   </section>
+
+                  <section id="faq">
+                        <div class="flex-row align-end justify-space-between">
+                              <div class="h500 l10n">Frågor & Svar</div>
+                              <a href="fragor-svar.php" title="FAQ" class="button compact text is-hidden-mobile">
+                                    <span class="l10n">Se fler frågor & svar</span>
+                                    <?php icon('navigate-next') ?>
+                              </a>
+                        </div>
+                        <?php $faq_categories = array(
+                              'Behandlingar' => array(
+                                  new Question(
+                                      title: 'Vilka behandlingar erbjuder AcneSpecialisten för olika hudproblem?',
+                                      text: 'På AcneSpecialisten erbjuder vi ett brett utbud av behandlingar anpassade för specifika hudproblem, inklusive avancerad acnebehandling, skonsam rosaceabehandling och noggrann portömning, samt andra specialbehandlingar för olika hudtillstånd.'
+                                  ),
+                                  new Question(
+                                      title: 'Vad är den genomsnittliga tidsåtgången för en behandling?',
+                                      text: 'En typisk behandling hos AcneSpecialisten tar mellan 60 och 90 minuter, beroende på behandlingens art och dina individuella hudvårdsbehov.'
+                                  ),
+                                  new Question(
+                                      title: 'Hur många behandlingar rekommenderas för att uppnå synliga resultat?',
+                                      text: 'Antalet rekommenderade behandlingar varierar beroende på individens hudproblem och hudtyp. I genomsnitt ser kunderna betydande förbättringar efter 2-4 behandlingssessioner.'
+                                  ),
+                                  new Question(
+                                      title: 'Är behandlingarna hos AcneSpecialisten smärtsamma?',
+                                      text: 'Vi strävar efter att göra våra behandlingar så bekväma som möjligt. Viss lätt smärta kan upplevas under behandling av inflammerade områden eller vid extraktioner, men denna känsla är övergående och hanteras med största omsorg för din komfort.'
+                                  ),
+                                  new Question(
+                                      title: 'Anpassar ni behandlingarna för olika hudtyper?',
+                                      text: 'Absolut, på AcneSpecialisten anpassar vi våra behandlingar för att passa en mängd olika hudtyper, från mycket känslig till oljig hy, för att säkerställa den mest effektiva och skonsamma behandlingen.'
+                                  ),
+                              ),
+                              'Konsultationer' => array(
+                                  new Question(
+                                      title: 'Är alla konsultationer kostnadsfria på AcneSpecialisten?',
+                                      text: 'Ja, vi erbjuder alltid kostnadsfria konsultationer för våra kunder, förutsatt att de närvarar vid den bokade tiden.'
+                                  ),
+                                  new Question(
+                                      title: 'Vad kan jag förvänta mig under en konsultation hos AcneSpecialisten?',
+                                      text: 'Under konsultationen kommer en av våra hudspecialister att noggrant analysera din hudtyp och diskutera dina hudproblem. Vi kommer även att gå igenom din nuvarande hudvårdsrutin och ge personliga rekommendationer för behandlingar och produkter som bäst passar dina behov.'
+                                  ),
+                              ),
+                              'Produkter' => array(
+                                  new Question(
+                                      title: 'Hur kan jag hitta de rätta produkterna för min hudtyp?',
+                                      text: 'För att hitta de produkter som passar just din hudtyp bäst, erbjuder vi kostnadsfria hudkonsultationer där våra experter analyserar din hud och rekommenderar produkter anpassade efter dina unika behov och hudtillstånd.'
+                                  ),
+                              ),
+                              'Skötselråd och rutiner' => array(
+                                  new Question(
+                                      title: 'Vilka eftervårdstips bör jag följa efter en behandling?',
+                                      text: 'Efter en behandling rekommenderar vi specifika eftervårdstips för att maximera behandlingens effektivitet och stödja din huds läkningsprocess. Detta kan inkludera råd om fuktgivande, solskydd och hur du undviker vissa produkter eller aktiviteter under en viss tid.'
+                                  ),
+                              ),
+                              'Priser och betalning' => array(
+                                  new Question(
+                                      title: 'Hur kan jag ta reda på priserna för era behandlingar?',
+                                      text: 'Våra behandlingspriser finns listade på vår hemsida. För varje specifik behandling hittar du detaljerad prisinformation som hjälper dig att planera ditt besök.'
+                                  ),
+                                  new Question(
+                                      title: 'Erbjuder ni några paketpriser eller rabatter för flera behandlingar?',
+                                      text: 'Ja, vi erbjuder ibland paketpriser eller rabatter vid bokning av flera behandlingar. Detta är ett utmärkt sätt att få en omfattande behandling till ett reducerat pris. För mer information om aktuella erbjudanden, besök vår hemsida eller kontakta oss direkt.'
+                                  ),
+                              ),
+
+                        );
+                        include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
+                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" title="Läs alla våra frågor och svar" href="fragor-svar.php">Se fler frågor & svar</a>
+                  </section>
                   <!--Hudguide-->
                   <section id="about-us">
                         <div id="about-text-wrapper">
