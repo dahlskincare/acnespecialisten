@@ -8,11 +8,11 @@
       <meta name="description" content="Med över 30 års erfarenhet, erbjuder AcneSpecialisten expertis inom behandling av hudproblem i Stockholm. Boka en kostnadsfri hudkonsultation idag och upplev skillnaden med personligt anpassad hudvård.">
       <meta name="keywords" content="Hudspecialist, Hudspecialist stockholm, Hudvård Stockholm, Acnespecialisten, Hudvårdsexpert, Acnebehandling, Hudproblem, AcneSpecialisten, Personlig hudvård, Hudvårdsklinik Stockholm, Acne konsultation">
 
-      <meta property="og:title" content="Acnespecialisten" />
-      <meta property="og:description" content="Acnespecialisten is the best etc.." class="l10n" />
+      <meta property="og:title" content="AcneSpecialisten | Erfarna Hudspecialister inom hudproblem i Stockholm" />
+      <meta property="og:description" content="Med över 30 års erfarenhet, erbjuder AcneSpecialisten expertis inom behandling av hudproblem i Stockholm. Boka en kostnadsfri hudkonsultation idag och upplev skillnaden med personligt anpassad hudvård." class="l10n" />
       <meta property="og:image" content="images/about-desktop.jpg" />
-      <meta property="twitter:title" content="Acnespecialisten" />
-      <meta property="twitter:description" content="Acnespecialisten is the best etc.." class="l10n" />
+      <meta property="twitter:title" content="AcneSpecialisten | Erfarna Hudspecialister inom hudproblem i Stockholm" />
+      <meta property="twitter:description" content="Med över 30 års erfarenhet, erbjuder AcneSpecialisten expertis inom behandling av hudproblem i Stockholm. Boka en kostnadsfri hudkonsultation idag och upplev skillnaden med personligt anpassad hudvård." class="l10n" />
       <meta property="twitter:image" content="images/about-desktop.jpg" />
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="preload" as="image" href="images/banner-desktop.jpg" media="(min-width: 984px)">
@@ -469,7 +469,7 @@
                                     <picture class="is-hidden-tablet">
                                           <source media="(max-width: 799px)" srcset="images/about-mobile.jpg">
                                           <source media="(min-width: 800px)" srcset="images/about-desktop.jpg">
-                                          <img src="images/about-mobile.jpg" alt="About us" title="About us" width="364" height="364" />
+                                          <img src="images/about-mobile.jpg" alt="Vit logotype i en grön växtvägg på kliniken." title="AcneSpecialisten och Sveriges Skönhetscenter" width="364" height="364" />
                                     </picture>
                                     <div class="columns is-4 is-variable">
                                           <div class="column">
@@ -521,7 +521,7 @@
                               <picture>
                                     <source media="(max-width: 799px)" srcset="images/about-mobile.jpg">
                                     <source media="(min-width: 800px)" srcset="images/about-desktop.jpg">
-                                    <img src="images/about-desktop.jpg" alt="Vit logotype i en grön växtvägg på kliniken." title="Logotyp i växtvägg" width="632" height="632" />
+                                    <img src="images/about-desktop.jpg" alt="Vit logotype i en grön växtvägg på kliniken." title="AcneSpecialisten och Sveriges Skönhetscenter" width="632" height="632" />
                               </picture>
                         </div>
                   </section>

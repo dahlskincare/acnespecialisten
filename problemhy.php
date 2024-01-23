@@ -365,7 +365,6 @@ $problem_areas = array(
       <meta name="title" content="Behandling av Hudproblem | Acnespecialisten">
       <meta name="keywords" content="hudproblem, aknebehandling, rosaceabehandling, torr hud, fet hud, oren hud, ärrbehandling, akneärr, hudspecialist, hudklinik, hudvårdsrutiner">
 
-
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="stylesheet" href="/styles/default-layout.css">
       <link rel="stylesheet" href="problem/problems.css">
