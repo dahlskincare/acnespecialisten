@@ -135,7 +135,7 @@ $problems['hudforandringar'] = new Problem(
       image: 'images/problems/424x324/hudforandringar.webp',
       image_alt: 'Rygg med hudproblemet Hudförändringar',
       image_title: 'Hudförändringar',
-      info: 'Detta är en bred kategori som innefattar alla typer av synliga förändringar i huden, inklusive åldersfläckar, rynkor, födelsemärken och förändringar som kan vara indikatorer på hudsjukdomar. Dessa förändringar kan bero på en rad faktorer som åldrande, solskador, genetiska predispositioner och miljöpåverkan.'
+      info: 'Detta är en bred kategori som innefattar alla typer av synliga förändringar i huden, inklusive födelsemärken, leverfläckar och hudflikar. Dessa förändringar kan bero på en rad faktorer som åldrande, solskador, genetiska predispositioner och livsstil.'
 );
 $problems['milier'] = new Problem(
       label: 'Milier',
@@ -148,7 +148,7 @@ $problems['milier'] = new Problem(
       image: 'images/problems/424x324/milier.webp',
       image_alt: 'Ansikte med hudproblemet Milier',
       image_title: 'Milier',
-      info: 'Dessa är små, fasta, vita cystor som består av ansamlingar av keratin, vanligtvis lokaliserade under huden runt ögonen, kinderna och på näsan. De är vanliga hos både barn och vuxna och betraktas ofta som ofarliga. Milier utvecklas när döda hudceller blir inneslutna i små fickor på hudytan.'
+      info: 'Dessa är små, fasta, vita cystor som består av ansamlingar av keratin, vanligtvis lokaliserade under huden runt ögonen och på kinderna. De är vanliga hos både barn och vuxna och betraktas ofta som ofarliga. Milier utvecklas när döda hudceller blir inneslutna i små fickor på hudytan.'
 );
 $problems['mogen-hy'] = new Problem(
       label: 'Mogen Hy',
@@ -187,7 +187,7 @@ $problems['operations-skadearr'] = new Problem(
       image: 'images/problems/424x324/arr.webp',
       image_alt: 'Mage med hudproblemet Operations & Skadeärr',
       image_title: 'Operations & Skadeärr',
-      info: 'Dessa ärr är resultatet av kirurgiska ingrepp och kan variera mycket i utseende, beroende på operationens omfattning, placeringen av snittet, och individens läkningsförmåga. De kan vara upphöjda, röda, eller ha en annorlunda textur jämfört med omgivande hud.'
+      info: 'Dessa ärr är resultatet av kirurgiska ingrepp eller skador och kan variera mycket i utseende, beroende på operationens omfattning, placeringen av snittet, och individens läkningsförmåga. De kan vara upphöjda, röda, eller ha en annorlunda textur jämfört med omgivande hud.'
 );
 $problems['perioral-dermatit'] = new Problem(
       label: 'Perioral dermatit',
@@ -200,7 +200,7 @@ $problems['perioral-dermatit'] = new Problem(
       image: 'images/problems/424x324/perioral-dermatit.webp',
       image_alt: 'Ansikte med hudproblemet Perioral dermatit',
       image_title: 'Perioral dermatit',
-      info: 'Detta är ett inflammatoriskt hudtillstånd som påverkar området runt munnen, vilket resulterar i utslag, rodnad och ibland små blåsor eller knölar. Tillståndet kan påverkas av flera faktorer, inklusive hormonella förändringar, hudirriterande ämnen och långvarig användning av topiska steroider.'
+      info: 'Detta är ett inflammatoriskt hudtillstånd som påverkar området runt munnen, vilket resulterar i utslag, rodnad och ibland små blåsor eller finnar. Tillståndet kan påverkas av flera faktorer, inklusive hormonella förändringar och hudirriterande ämnen.'
 );
 $problems['pigmentflackar'] = new Problem(
       label: 'Pigmentfläckar',
