@@ -122,7 +122,6 @@ $problems['finnar'] = new Problem(
       image_alt: 'Ansikte med hudproblemet Finnar',
       image_title: 'Finnar',
       info: 'Små inflammerade blemmor på huden, ofta fyllda med var, som är en del av akne. Finnar orsakas av inflammation i hårfolliklar och talgkörtlar, ofta förvärrade av bakterier. De kan uppstå i ansiktet, på ryggen, bröstet och axlarna och kan variera i storlek och svårighetsgrad.'
-
 );
 $problems['arr-fran-finnar'] = new Problem(
       label: 'Ärr från finnar',
@@ -297,7 +296,7 @@ $problems['torr-kanslig-hy'] = new Problem(
 $default_problems = new ProblemArea(
       label: '',
       icon: '',
-      problem_ids: array('akne', 'aknearr', 'arr-fran-finnar', 'bristningar', 'finnar', 'hudforandringar', 'milier', 'mogen-hy', 'oonskat-har', 'operations-skadearr', 'rosacea', 'pormaskar', 'stora-porer', 'blandhy', 'perioral-dermatit', 'seborre', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar',),
+      problem_ids: array('aknearr', 'akne', 'arr-fran-finnar', 'bristningar', 'finnar', 'hudforandringar', 'milier', 'mogen-hy', 'oonskat-har', 'operations-skadearr', 'rosacea', 'pormaskar', 'stora-porer', 'blandhy', 'perioral-dermatit', 'seborre', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar',),
 );
 
 $problem_areas = array(
