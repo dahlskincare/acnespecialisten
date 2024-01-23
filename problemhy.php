@@ -56,7 +56,7 @@ $problems['akne'] = new Problem(
       image: 'images/problems/424x324/akne.webp',
       image_alt: 'Ansikte med hudproblemet akne',
       image_title: 'Akne',
-      info: 'Den vanligaste hudsjukdom som involverar inflammation i talgkörtlarna, vilket leder till bildandet av finnar i form av papler och pustler.',
+      info: 'En vanlig hudsjukdom som involverar inflammation i talgkörtlarna, vilket leder till bildandet av finnar i form av papler och pustler. Det är ett resultat av en kombination av överproduktion av talg, tilltäppning av hårfolliklar och bakterietillväxt. Akne kan vara emotionellt påfrestande och variera i svårighetsgrad, ofta påverkad av hormonella förändringar, stress, och genetiska faktorer.',
 );
 $problems['aknearr'] = new Problem(
       label: 'Akneärr',
@@ -69,7 +69,7 @@ $problems['aknearr'] = new Problem(
       image: 'images/problems/424x324/acnearr.webp',
       image_alt: 'Ansikte med hudproblemet Akneärr',
       image_title: 'Akneärr',
-      info: 'Vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av akne. De kan vara gropar eller fläckar och variera i storlek och djup.'
+      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av akne. De kan vara gropiga eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur, ofta krävande längre tid för att blekna eller förbättras.'
 );
 $problems['arr-fran-finnar'] = new Problem(
       label: 'Ärr från finnar',
@@ -82,7 +82,7 @@ $problems['arr-fran-finnar'] = new Problem(
       image: 'images/problems/424x324/arr-fran-finnar.webp',
       image_alt: 'Ansikte med hudproblemet Ärr från finnar',
       image_title: 'Ärr från finnar',
-      info: 'Ärr som bildas när inflammerade finnar läker och lämnar permanenta märken eller fördjupningar i huden. Varierar i storlek och form och påverka hudens släthet och jämnhet.'
+      info: 'Ärr som bildas när inflammerade finnar läker och lämnar permanenta märken eller fördjupningar i huden. Dessa ärr kan variera i storlek och form och påverka hudens släthet och jämnhet. Ärrbildningen beror på hur huden läker efter inflammationen och kan påverka personens självkänsla.'
 );
 $problems['blandhy'] = new Problem(
       label: 'Blandhy',
@@ -95,7 +95,7 @@ $problems['blandhy'] = new Problem(
       image: 'images/problems/424x324/blandhy.webp',
       image_alt: 'Ansikte med hudproblemet Blandhy',
       image_title: 'Blandhy',
-      info: 'En blanding av olika hudproblem som finnar, pormaskar och torr eller oljig hy.'
+      info: 'En hudtyp där vissa områden, speciellt T-zonen (panna, näsa, haka), är oljiga, medan kinderna och andra delar av ansiktet kan vara normala eller torra. Denna blandning av hudtyper kräver en balanserad hudvårdsrutin som kan hantera både torrhet och överproduktion av talg. Blandhy kan vara särskilt utmanande att sköta eftersom olika områden kräver olika typer av vård.'
 );
 $problems['bristningar'] = new Problem(
       label: 'Bristningar',
@@ -108,7 +108,7 @@ $problems['bristningar'] = new Problem(
       image: 'images/problems/424x324/bristningar.webp',
       image_alt: 'Mage med hudproblemet Bristningar',
       image_title: 'Bristningar',
-      info: 'Uppstår till följd av att huden sträcks ut snabbt under bland annat graviditet, pubertet eller viktökning.'
+      info: 'Dessa är linjer eller band på huden som uppstår när huden sträcks snabbt, som under graviditet, pubertet eller snabb viktökning. De börjar ofta som röda eller lila linjer och bleknar över tid till en mer silvervit färg. Bristningar är ett resultat av bristningar i hudens kollagen och elastin, vilket minskar hudens elasticitet och styrka.'
 );
 $problems['finnar'] = new Problem(
       label: 'Finnar',
@@ -121,7 +121,8 @@ $problems['finnar'] = new Problem(
       image: 'images/problems/424x324/finnar.webp',
       image_alt: 'Ansikte med hudproblemet Finnar',
       image_title: 'Finnar',
-      info: 'Små inflammerade röda på finnar på huden, ofta fyllda med var, som är en del av akne.'
+      info: 'Små inflammerade blemmor på huden, ofta fyllda med var, som är en del av akne. Finnar orsakas av inflammation i hårfolliklar och talgkörtlar, ofta förvärrade av bakterier. De kan uppstå i ansiktet, på ryggen, bröstet och axlarna och kan variera i storlek och svårighetsgrad. Regelbunden hudvård och undvikande av att irritera området är viktigt för att hantera finnar.'
+
 );
 $problems['hudforandringar'] = new Problem(
       label: 'Hudförändringar',
@@ -134,7 +135,7 @@ $problems['hudforandringar'] = new Problem(
       image: 'images/problems/424x324/hudforandringar.webp',
       image_alt: 'Rygg med hudproblemet Hudförändringar',
       image_title: 'Hudförändringar',
-      info: 'Detta är en bred kategori som innefattar alla typer av synliga förändringar i huden.'
+      info: 'Detta är en bred kategori som innefattar alla typer av synliga förändringar i huden, inklusive åldersfläckar, rynkor, födelsemärken och förändringar som kan vara indikatorer på hudsjukdomar. Dessa förändringar kan bero på en rad faktorer som åldrande, solskador, genetiska predispositioner och miljöpåverkan.'
 );
 $problems['milier'] = new Problem(
       label: 'Milier',
@@ -147,7 +148,7 @@ $problems['milier'] = new Problem(
       image: 'images/problems/424x324/milier.webp',
       image_alt: 'Ansikte med hudproblemet Milier',
       image_title: 'Milier',
-      info: 'Små, fasta, vita cystor som består av ansamlingar av keratin, vanligtvis lokaliserade runt ögonen och på kinderna.'
+      info: 'Dessa är små, fasta, vita cystor som består av ansamlingar av keratin, vanligtvis lokaliserade under huden runt ögonen, kinderna och på näsan. De är vanliga hos både barn och vuxna och betraktas ofta som ofarliga. Milier utvecklas när döda hudceller blir inneslutna i små fickor på hudytan.'
 );
 $problems['mogen-hy'] = new Problem(
       label: 'Mogen Hy',
@@ -160,7 +161,7 @@ $problems['mogen-hy'] = new Problem(
       image: 'images/problems/424x324/mogen-hy.webp',
       image_alt: 'Ansikte med hudproblemet Mogen Hy',
       image_title: 'Mogen Hy',
-      info: 'Detta refererar till hud som uppvisar tecken på åldrande, som rynkor, fina linjer, minskad fasthet och torrhet.'
+      info: 'Detta refererar till hud som uppvisar tecken på åldrande, som rynkor, fina linjer, minskad fasthet och torrhet. Hudens förmåga att behålla fukt och dess naturliga oljeproduktion minskar ofta med åldern, vilket kan leda till en känsla av stramhet och en synlig förlust av hudens ungdomliga lyster. Ytterligare faktorer som solskador och livsstilsval kan påverka hur snabbt huden åldras.'
 );
 $problems['oonskat-har'] = new Problem(
       label: 'Oönskat hår',
@@ -173,7 +174,7 @@ $problems['oonskat-har'] = new Problem(
       image: 'images/problems/424x324/oonskat-har.webp',
       image_alt: 'Bröst med hudproblemet Oönskat hår',
       image_title: 'Oönskat hår',
-      info: ' Hårväxt på kroppen eller i ansiktet som upplevs som kosmetiskt störande.'
+      info: 'Detta innebär överdriven hårväxt på kroppen eller ansiktet, vilket kan vara ett resultat av hormonella obalanser, genetik, vissa mediciner eller medicinska tillstånd. Denna typ av hårväxt kan uppfattas som kosmetiskt störande och varierar i intensitet och distribution över kroppen.'
 );
 $problems['operations-skadearr'] = new Problem(
       label: 'Operations & Skadeärr',
@@ -186,7 +187,7 @@ $problems['operations-skadearr'] = new Problem(
       image: 'images/problems/424x324/arr.webp',
       image_alt: 'Mage med hudproblemet Operations & Skadeärr',
       image_title: 'Operations & Skadeärr',
-      info: 'Dessa ärr är resultatet av kirurgiska ingrepp eller skador.'
+      info: 'Dessa ärr är resultatet av kirurgiska ingrepp och kan variera mycket i utseende, beroende på operationens omfattning, placeringen av snittet, och individens läkningsförmåga. De kan vara upphöjda, röda, eller ha en annorlunda textur jämfört med omgivande hud.'
 );
 $problems['perioral-dermatit'] = new Problem(
       label: 'Perioral dermatit',
@@ -199,7 +200,7 @@ $problems['perioral-dermatit'] = new Problem(
       image: 'images/problems/424x324/perioral-dermatit.webp',
       image_alt: 'Ansikte med hudproblemet Perioral dermatit',
       image_title: 'Perioral dermatit',
-      info: 'Inflammatoriskt hudtillstånd som påverkar området runt munnen, vilket resulterar i utslag, rodnad och ibland små blåsor.'
+      info: 'Detta är ett inflammatoriskt hudtillstånd som påverkar området runt munnen, vilket resulterar i utslag, rodnad och ibland små blåsor eller knölar. Tillståndet kan påverkas av flera faktorer, inklusive hormonella förändringar, hudirriterande ämnen och långvarig användning av topiska steroider.'
 );
 $problems['pigmentflackar'] = new Problem(
       label: 'Pigmentfläckar',
@@ -212,7 +213,7 @@ $problems['pigmentflackar'] = new Problem(
       image: 'images/problems/424x324/pigmentflackar.webp',
       image_alt: 'Ansikte med hudproblemet Pigmentfläckar',
       image_title: 'Pigmentfläckar',
-      info: 'Mörka områden på huden som uppstår när melanin, det pigment som ger hud dess färg, produceras i överflöd.'
+      info: 'Detta är mörka områden på huden som uppstår när melanin, det pigment som ger hud dess färg, produceras i överflöd. Dessa fläckar kan vara resultatet av olika faktorer, inklusive solskador, hormonella förändringar som de som uppstår under graviditet eller genom användning av vissa mediciner, och är vanligare med stigande ålder.'
 );
 $problems['pormaskar'] = new Problem(
       label: 'Pormaskar',
@@ -225,7 +226,7 @@ $problems['pormaskar'] = new Problem(
       image: 'images/problems/424x324/pormaskar.webp',
       image_alt: 'Ansikte med hudproblemet Pormaskar',
       image_title: 'Pormaskar',
-      info: 'Små, svarta eller vita pormaskar på huden, oftast förekommande i ansiktet.'
+      info: 'Dessa är små, mörka lesioner på huden, oftast förekommande i ansiktet. De uppstår när porerna i huden blir tilltäppta med en kombination av talg och döda hudceller. Pormaskar kan vara antingen öppna (svarta) eller stängda (vita) och är ofta ett av de första tecknen på akne.'
 
 );
 $problems['rosacea'] = new Problem(
@@ -239,7 +240,7 @@ $problems['rosacea'] = new Problem(
       image: 'images/problems/424x324/rosacea.webp',
       image_alt: 'Ansikte med hudproblemet Rosacea',
       image_title: 'Rosacea',
-      info: 'Kroniskt hudtillstånd som kännetecknas av rodnad och en stickande eller brännande känsla i huden.'
+      info: 'Ett kroniskt hudtillstånd som kännetecknas av episoder av rodnad och ibland små, pusfyllda knölar. Det kan också involvera brännande eller stickande känsla i huden och ökad känslighet. Tillståndet är vanligast i centrala delar av ansiktet och dess exakta orsak är fortfarande okänd.'
 );
 $problems['seborre'] = new Problem(
       label: 'Seborré',
@@ -455,18 +456,18 @@ $path_segments = array(
                                                       <div class="is-hidden-tablet">
                                                             <a href="<?php echo $problem->url ?>" title="<?php echo $problem->url_title ?>" class="mt-m button outline expand l10n" title="Läs mer">Läs mer</a>
                                                             <hr>
-                                                            <a href="<?php echo $problem->consultation_url ?>" title="<?php echo $problem->consultation_url_title ?>" class="button expand l10n" title="Boka konsultation">Boka Konsultation</a>
-                                                            <a href="<?php echo $problem->booking_url ?>" title="<?php echo $problem->booking_url_title ?>" class="mt-s button expand l10n" title="Boka behandling">Boka Behandling</a>
+                                                            <a href="<?php echo $problem->consultation_url ?>" title="<?php echo $problem->consultation_url_title ?>" class="button expand l10n" title="Boka konsultation">Boka konsultation</a>
+                                                            <a href="<?php echo $problem->booking_url ?>" title="<?php echo $problem->booking_url_title ?>" class="mt-s button expand l10n" title="Boka behandling">Boka behandling</a>
                                                       </div>
                                                       <div class="is-hidden-mobile">
                                                             <a href="<?php echo $problem->url ?>" title="<?php echo $problem->url_title ?>" class="mt-m button text compact l10n" title="Läs mer">Läs mer</a>
                                                             <hr>
                                                             <div class="columns is-multiline">
                                                                   <div class="column mt-xxs is-full is-half-widescreen">
-                                                                        <a href="<?php echo $problem->consultation_url ?>" title="<?php echo $problem->consultation_url_title ?>" class="button expand l10n" title="Boka konsultation">Boka Konsultation</a>
+                                                                        <a href="<?php echo $problem->consultation_url ?>" title="<?php echo $problem->consultation_url_title ?>" class="button expand l10n" title="Boka konsultation">Boka konsultation</a>
                                                                   </div>
                                                                   <div class="column mt-xxs is-full is-half-widescreen">
-                                                                        <a href="<?php echo $problem->booking_url ?>" title="<?php echo $problem->booking_url_title ?>" class="button expand l10n" title="Boka behandling">Boka Behandling</a>
+                                                                        <a href="<?php echo $problem->booking_url ?>" title="<?php echo $problem->booking_url_title ?>" class="button expand l10n" title="Boka behandling">Boka behandling</a>
                                                                   </div>
                                                             </div>
                                                       </div>
