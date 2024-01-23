@@ -71,45 +71,6 @@ $problems['aknearr'] = new Problem(
       image_title: 'Akneärr',
       info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av akne. De kan vara gropar eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
 );
-$problems['rosacea'] = new Problem(
-      label: 'Rosacea',
-      url: 'rosacea.php',
-      url_title: 'Läs mer information om Rosacea',
-      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea',
-      booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Rosacea',
-      consultation_url_title: 'Boka konsultation',
-      booking_url_title: 'Boka behandling',
-      image: 'images/problems/424x324/rosacea.webp',
-      image_alt: 'Ansikte med hudproblemet Rosacea',
-      image_title: 'Rosacea',
-      info: 'Ett kroniskt hudtillstånd som kännetecknas av episoder av rodnad och ibland små, varfyllda bölder. Det kan också involvera hettande eller stickande känsla i huden och ökad känslighet. Tillståndet är vanligast i centrala delar av ansiktet på kinderna och nästan.'
-);
-$problems['ytliga-blodkarl'] = new Problem(
-      label: 'Ytliga Blodkärl',
-      url: 'ytliga-blodkarl.php',
-      url_title: 'Läs mer information om Ytliga Blodkärl',
-      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_BloodVessels',
-      booking_url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_BloodVessels',
-      consultation_url_title: 'Boka konsultation',
-      booking_url_title: 'Boka behandling',
-      image: 'images/problems/424x324/ytliga-blodkarl.webp',
-      image_alt: 'Ansikte med hudproblemet Ytliga Blodkärl',
-      image_title: 'Ytliga Blodkärl',
-      info: 'Dessa synliga blodkärl, ofta kallade "spindelvener" eller telangiektasier, är små, synliga blodkärl som ligger nära hudytan. De är vanligast i ansiktet och kan vara resultatet av genetiska faktorer, solskador, hormonförändringar eller hudtillstånd som rosacea.'
-);
-$problems['pigmentflackar'] = new Problem(
-      label: 'Pigmentfläckar',
-      url: 'pigmentflackar.php',
-      url_title: 'Läs mer information om Pigmentfläckar',
-      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_PigmentationSpots',
-      booking_url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots',
-      consultation_url_title: 'Boka konsultation',
-      booking_url_title: 'Boka behandling',
-      image: 'images/problems/424x324/pigmentflackar.webp',
-      image_alt: 'Ansikte med hudproblemet Pigmentfläckar',
-      image_title: 'Pigmentfläckar',
-      info: 'Detta är mörka områden på huden som uppstår när melanin, det pigment som ger hud dess färg, produceras i överflöd. Dessa fläckar kan vara resultatet av olika faktorer, inklusive solskador, hormonella förändringar som de som uppstår under graviditet eller genom användning av vissa mediciner, och är vanligare med stigande ålder.'
-);
 $problems['finnar'] = new Problem(
       label: 'Finnar',
       url: 'finnar.php',
@@ -136,83 +97,31 @@ $problems['arr-fran-finnar'] = new Problem(
       image_title: 'Ärr från finnar',
       info: 'Ärr som bildas när inflammerade finnar läker och lämnar permanenta märken eller fördjupningar i huden. Dessa ärr kan variera i storlek och form och påverka hudens släthet och jämnhet. Ärrbildningen beror på hur huden läker efter inflammationen.'
 );
-$problems['blandhy'] = new Problem(
-      label: 'Blandhy',
-      url: 'blandhy.php',
-      url_title: 'Läs mer information om Blandhy',
-      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin',
-      booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_CombinationSkin',
+$problems['rosacea'] = new Problem(
+      label: 'Rosacea',
+      url: 'rosacea.php',
+      url_title: 'Läs mer information om Rosacea',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea',
+      booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Rosacea',
       consultation_url_title: 'Boka konsultation',
       booking_url_title: 'Boka behandling',
-      image: 'images/problems/424x324/blandhy.webp',
-      image_alt: 'Ansikte med hudproblemet Blandhy',
-      image_title: 'Blandhy',
-      info: 'En hudtyp där vissa områden, speciellt T-zonen (panna, näsa, haka), är oljiga, medan kinderna och andra delar av ansiktet kan vara normala eller torra. Denna blandning av hudtyper kräver en balanserad hudvårdsrutin som kan hantera både torrhet och överproduktion av talg.'
+      image: 'images/problems/424x324/rosacea.webp',
+      image_alt: 'Ansikte med hudproblemet Rosacea',
+      image_title: 'Rosacea',
+      info: 'Ett kroniskt hudtillstånd som kännetecknas av episoder av rodnad och ibland små, varfyllda bölder. Det kan också involvera hettande eller stickande känsla i huden och ökad känslighet. Tillståndet är vanligast i centrala delar av ansiktet på kinderna och nästan.'
 );
-$problems['bristningar'] = new Problem(
-      label: 'Bristningar',
-      url: 'problem/bristningar',
-      url_title: 'Läs mer information om Bristningar',
-      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_StrechMarks',
-      booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_StrechMarks',
+$problems['ytliga-blodkarl'] = new Problem(
+      label: 'Ytliga Blodkärl',
+      url: 'ytliga-blodkarl.php',
+      url_title: 'Läs mer information om Ytliga Blodkärl',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_BloodVessels',
+      booking_url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_BloodVessels',
       consultation_url_title: 'Boka konsultation',
       booking_url_title: 'Boka behandling',
-      image: 'images/problems/424x324/bristningar.webp',
-      image_alt: 'Mage med hudproblemet Bristningar',
-      image_title: 'Bristningar',
-      info: 'Dessa är linjer eller märken på huden som uppstår när huden sträcks snabbt, som under graviditet, pubertet eller snabb viktökning. De börjar ofta som röda eller lila linjer och bleknar över tid till en mer silvervit färg. Bristningar är ett resultat av bristningar i hudens kollagen och elastin, vilket minskar hudens elasticitet och styrka.'
-);
-$problems['operations-skadearr'] = new Problem(
-      label: 'Operations & Skadeärr',
-      url: 'problemhy/operations-skadearr',
-      url_title: 'Läs mer information om Operations & Skadeärr',
-      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
-      booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars',
-      consultation_url_title: 'Boka konsultation',
-      booking_url_title: 'Boka behandling',
-      image: 'images/problems/424x324/arr.webp',
-      image_alt: 'Mage med hudproblemet Operations & Skadeärr',
-      image_title: 'Operations & Skadeärr',
-      info: 'Dessa ärr är resultatet av kirurgiska ingrepp eller skador och kan variera mycket i utseende, beroende på operationens omfattning, placeringen av snittet, och individens läkningsförmåga. De kan vara upphöjda, röda, eller ha en annorlunda textur jämfört med omgivande hud.'
-);
-$problems['hudforandringar'] = new Problem(
-      label: 'Hudförändringar',
-      url: 'problem/hudforandringar',
-      url_title: 'Läs mer information om Hudförändringar',
-      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Moles',
-      booking_url: 'https://acnespecialisten.se/book?flow=cryopen',
-      consultation_url_title: 'Boka konsultation',
-      booking_url_title: 'Boka behandling',
-      image: 'images/problems/424x324/hudforandringar.webp',
-      image_alt: 'Rygg med hudproblemet Hudförändringar',
-      image_title: 'Hudförändringar',
-      info: 'Detta är en bred kategori som innefattar alla typer av synliga förändringar i huden, inklusive födelsemärken, leverfläckar och hudflikar. Dessa förändringar kan bero på en rad faktorer som åldrande, solskador, genetiska predispositioner och livsstil.'
-);
-$problems['oonskat-har'] = new Problem(
-      label: 'Oönskat hår',
-      url: 'problem/oonskat-har',
-      url_title: 'Läs mer information om Oönskat hår',
-      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserHairRemoval',
-      booking_url: 'https://acnespecialisten.se/book?flow=permanent_harborttagning',
-      consultation_url_title: 'Boka konsultation',
-      booking_url_title: 'Boka behandling',
-      image: 'images/problems/424x324/oonskat-har.webp',
-      image_alt: 'Bröst med hudproblemet Oönskat hår',
-      image_title: 'Oönskat hår',
-      info: 'Detta innebär överdriven hårväxt på kroppen eller ansiktet, vilket kan vara ett resultat av hormonella obalanser, genetik, vissa mediciner eller medicinska tillstånd. Denna typ av hårväxt kan uppfattas som kosmetiskt störande och varierar i intensitet och distribution över kroppen.'
-);
-$problems['milier'] = new Problem(
-      label: 'Milier',
-      url: 'milier.php',
-      url_title: 'Läs mer information om Milier',
-      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Milia',
-      booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Milia',
-      consultation_url_title: 'Boka konsultation',
-      booking_url_title: 'Boka behandling',
-      image: 'images/problems/424x324/milier.webp',
-      image_alt: 'Ansikte med hudproblemet Milier',
-      image_title: 'Milier',
-      info: 'Dessa är små, fasta, vita cystor som består av ansamlingar av keratin, vanligtvis lokaliserade under huden runt ögonen och på kinderna. De är vanliga hos både barn och vuxna och betraktas ofta som ofarliga. Milier utvecklas när döda hudceller blir inneslutna i små fickor på hudytan.'
+      image: 'images/problems/424x324/ytliga-blodkarl.webp',
+      image_alt: 'Ansikte med hudproblemet Ytliga Blodkärl',
+      image_title: 'Ytliga Blodkärl',
+      info: 'Dessa synliga blodkärl, ofta kallade "spindelvener" eller telangiektasier, är små, synliga blodkärl som ligger nära hudytan. De är vanligast i ansiktet och kan vara resultatet av genetiska faktorer, solskador, hormonförändringar eller hudtillstånd som rosacea.'
 );
 $problems['pormaskar'] = new Problem(
       label: 'Pormaskar',
@@ -240,6 +149,32 @@ $problems['stora-porer'] = new Problem(
       image_title: 'Stora porer',
       info: 'Dessa är porer som ser större ut än vanligt, ofta märkbara på näsan, kinderna och pannan. Stora porer kan vara resultatet av genetiska faktorer, åldrande, frekvent sol exponering, ökad talgproduktion eller tidigare hudskador.'
 );
+$problems['blandhy'] = new Problem(
+      label: 'Blandhy',
+      url: 'blandhy.php',
+      url_title: 'Läs mer information om Blandhy',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin',
+      booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_CombinationSkin',
+      consultation_url_title: 'Boka konsultation',
+      booking_url_title: 'Boka behandling',
+      image: 'images/problems/424x324/blandhy.webp',
+      image_alt: 'Ansikte med hudproblemet Blandhy',
+      image_title: 'Blandhy',
+      info: 'En hudtyp där vissa områden, speciellt T-zonen (panna, näsa, haka), är oljiga, medan kinderna och andra delar av ansiktet kan vara normala eller torra. Denna blandning av hudtyper kräver en balanserad hudvårdsrutin som kan hantera både torrhet och överproduktion av talg.'
+);
+$problems['pigmentflackar'] = new Problem(
+      label: 'Pigmentfläckar',
+      url: 'pigmentflackar.php',
+      url_title: 'Läs mer information om Pigmentfläckar',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_PigmentationSpots',
+      booking_url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots',
+      consultation_url_title: 'Boka konsultation',
+      booking_url_title: 'Boka behandling',
+      image: 'images/problems/424x324/pigmentflackar.webp',
+      image_alt: 'Ansikte med hudproblemet Pigmentfläckar',
+      image_title: 'Pigmentfläckar',
+      info: 'Detta är mörka områden på huden som uppstår när melanin, det pigment som ger hud dess färg, produceras i överflöd. Dessa fläckar kan vara resultatet av olika faktorer, inklusive solskador, hormonella förändringar som de som uppstår under graviditet eller genom användning av vissa mediciner, och är vanligare med stigande ålder.'
+);
 $problems['perioral-dermatit'] = new Problem(
       label: 'Perioral dermatit',
       url: 'perioral-dermatit.php',
@@ -265,6 +200,32 @@ $problems['seborre'] = new Problem(
       image_alt: 'Ansikte med hudproblemet Seborré',
       image_title: 'Seborré',
       info: 'Detta tillstånd är karakteriserat av överdriven produktion av talg, vilket leder till en oljig hudton och ibland tillstånd som mjäll. Det kan påverka olika områden av kroppen, inklusive hårbotten, ansiktet och bröstet, och varierar i svårighetsgrad.'
+);
+$problems['milier'] = new Problem(
+      label: 'Milier',
+      url: 'milier.php',
+      url_title: 'Läs mer information om Milier',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Milia',
+      booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Milia',
+      consultation_url_title: 'Boka konsultation',
+      booking_url_title: 'Boka behandling',
+      image: 'images/problems/424x324/milier.webp',
+      image_alt: 'Ansikte med hudproblemet Milier',
+      image_title: 'Milier',
+      info: 'Dessa är små, fasta, vita cystor som består av ansamlingar av keratin, vanligtvis lokaliserade under huden runt ögonen och på kinderna. De är vanliga hos både barn och vuxna och betraktas ofta som ofarliga. Milier utvecklas när döda hudceller blir inneslutna i små fickor på hudytan.'
+);
+$problems['hudforandringar'] = new Problem(
+      label: 'Hudförändringar',
+      url: 'problem/hudforandringar',
+      url_title: 'Läs mer information om Hudförändringar',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Moles',
+      booking_url: 'https://acnespecialisten.se/book?flow=cryopen',
+      consultation_url_title: 'Boka konsultation',
+      booking_url_title: 'Boka behandling',
+      image: 'images/problems/424x324/hudforandringar.webp',
+      image_alt: 'Rygg med hudproblemet Hudförändringar',
+      image_title: 'Hudförändringar',
+      info: 'Detta är en bred kategori som innefattar alla typer av synliga förändringar i huden, inklusive födelsemärken, leverfläckar och hudflikar. Dessa förändringar kan bero på en rad faktorer som åldrande, solskador, genetiska predispositioner och livsstil.'
 );
 $problems['mogen-hy'] = new Problem(
       label: 'Mogen Hy',
@@ -292,11 +253,50 @@ $problems['torr-kanslig-hy'] = new Problem(
       image_title: 'Torr & Känslig hy',
       info: 'Denna hudtyp är benägen att bli torr, stram, röd och irriterad och kan reagera negativt på vissa hudvårdsprodukter, klimatförändringar eller föroreningar. Torr och känslig hud kräver särskilt skonsam vård för att bibehålla dess barriärfunktion och förhindra ytterligare irritation.'
 );
+$problems['bristningar'] = new Problem(
+      label: 'Bristningar',
+      url: 'problem/bristningar',
+      url_title: 'Läs mer information om Bristningar',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_StrechMarks',
+      booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_StrechMarks',
+      consultation_url_title: 'Boka konsultation',
+      booking_url_title: 'Boka behandling',
+      image: 'images/problems/424x324/bristningar.webp',
+      image_alt: 'Mage med hudproblemet Bristningar',
+      image_title: 'Bristningar',
+      info: 'Dessa är linjer eller märken på huden som uppstår när huden sträcks snabbt, som under graviditet, pubertet eller snabb viktökning. De börjar ofta som röda eller lila linjer och bleknar över tid till en mer silvervit färg. Bristningar är ett resultat av bristningar i hudens kollagen och elastin, vilket minskar hudens elasticitet och styrka.'
+);
+$problems['operations-skadearr'] = new Problem(
+      label: 'Operations & Skadeärr',
+      url: 'problemhy/operations-skadearr',
+      url_title: 'Läs mer information om Operations & Skadeärr',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
+      booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars',
+      consultation_url_title: 'Boka konsultation',
+      booking_url_title: 'Boka behandling',
+      image: 'images/problems/424x324/arr.webp',
+      image_alt: 'Mage med hudproblemet Operations & Skadeärr',
+      image_title: 'Operations & Skadeärr',
+      info: 'Dessa ärr är resultatet av kirurgiska ingrepp eller skador och kan variera mycket i utseende, beroende på operationens omfattning, placeringen av snittet, och individens läkningsförmåga. De kan vara upphöjda, röda, eller ha en annorlunda textur jämfört med omgivande hud.'
+);
+$problems['oonskat-har'] = new Problem(
+      label: 'Oönskat hår',
+      url: 'problem/oonskat-har',
+      url_title: 'Läs mer information om Oönskat hår',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserHairRemoval',
+      booking_url: 'https://acnespecialisten.se/book?flow=permanent_harborttagning',
+      consultation_url_title: 'Boka konsultation',
+      booking_url_title: 'Boka behandling',
+      image: 'images/problems/424x324/oonskat-har.webp',
+      image_alt: 'Bröst med hudproblemet Oönskat hår',
+      image_title: 'Oönskat hår',
+      info: 'Detta innebär överdriven hårväxt på kroppen eller ansiktet, vilket kan vara ett resultat av hormonella obalanser, genetik, vissa mediciner eller medicinska tillstånd. Denna typ av hårväxt kan uppfattas som kosmetiskt störande och varierar i intensitet och distribution över kroppen.'
+);
 
 $default_problems = new ProblemArea(
       label: '',
       icon: '',
-      problem_ids: array('aknearr', 'akne', 'arr-fran-finnar', 'bristningar', 'finnar', 'hudforandringar', 'milier', 'mogen-hy', 'oonskat-har', 'operations-skadearr', 'rosacea', 'pormaskar', 'stora-porer', 'blandhy', 'perioral-dermatit', 'seborre', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar',),
+      problem_ids: array('akne', 'aknearr', 'arr-fran-finnar', 'bristningar', 'finnar', 'hudforandringar', 'milier', 'mogen-hy', 'oonskat-har', 'operations-skadearr', 'rosacea', 'pormaskar', 'stora-porer', 'blandhy', 'perioral-dermatit', 'seborre', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar',),
 );
 
 $problem_areas = array(
