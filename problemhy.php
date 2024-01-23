@@ -69,7 +69,7 @@ $problems['aknearr'] = new Problem(
       image: 'images/problems/424x324/acnearr.webp',
       image_alt: 'Ansikte med hudproblemet Akneärr',
       image_title: 'Akneärr',
-      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av akne. De kan vara gropar eller fläckar och variera i storlek och djup.'
+      info: 'Vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av akne. De kan vara gropar eller fläckar och variera i storlek och djup.'
 );
 $problems['arr-fran-finnar'] = new Problem(
       label: 'Ärr från finnar',
@@ -95,7 +95,7 @@ $problems['blandhy'] = new Problem(
       image: 'images/problems/424x324/blandhy.webp',
       image_alt: 'Ansikte med hudproblemet Blandhy',
       image_title: 'Blandhy',
-      info: 'En hudtyp där vissa områden, speciellt T-zonen (panna, näsa, haka), är oljiga, medan kinderna och andra delar av ansiktet kan vara normala eller torra. Denna blandning av hudtyper kräver en balanserad hudvårdsrutin som kan hantera både torrhet och överproduktion av talg. Blandhy kan vara särskilt utmanande att sköta eftersom olika områden kräver olika typer av vård.'
+      info: 'En blanding av olika hudproblem som finnar, pormaskar och torr eller oljig hy.'
 );
 $problems['bristningar'] = new Problem(
       label: 'Bristningar',
