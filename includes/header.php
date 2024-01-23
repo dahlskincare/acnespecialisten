@@ -8,12 +8,12 @@
             <div onclick="HeaderTouch.toggleMenu()"><?php icon('close') ?></div>
         </div>
         <div id="mobile-nav-links">
-            <a href="problem" class="mobile-nav-link l10n" title="Problem">Problem</a>
-            <a href="behandlingar" class="mobile-nav-link l10n" title="Behandlingar">Behandlingar</a>
-            <a href="resultat" class="mobile-nav-link l10n" title="Resultat">Resultat</a>
+            <a href="problemhy.php" class="mobile-nav-link l10n" title="Problem">Problem</a>
+            <a href="behandlingar.php" class="mobile-nav-link l10n" title="Behandlingar">Behandlingar</a>
+            <a href="resultat.php" class="mobile-nav-link l10n" title="Resultat">Resultat</a>
             <a href="varumarken" class="mobile-nav-link l10n" title="Varumärken">Varumärken</a>
-            <a href="om-oss" class="mobile-nav-link l10n" title="Om oss">Om oss</a>
-            <a href="kontakt" class="mobile-nav-link l10n" title="Kontakt">Kontakt</a>
+            <a href="om-oss.php" class="mobile-nav-link l10n" title="Om oss">Om oss</a>
+            <a href="kontakt.php" class="mobile-nav-link l10n" title="Kontakt">Kontakt</a>
         </div>
         <div id="mobile-expansion-panels">
             <div class="expansion-panel">
@@ -25,7 +25,7 @@
                     <a href="resultat.php" class="l10n" title="Se våra kunders före- och efterbilder">Resultat</a>
                     <a href="hudguide" class="l10n" title="Läs mer om allt inom hudvård">Hudguide</a>
                     <a href="ordlista.php" class="l10n" title="Lär dig med om hudvård från A till Ö">Ordlista</a>
-                    <a href="priser.php" class="l10n" title="Här hittar du vår prislista">Priser</a>
+                    <a href="priser" class="l10n" title="Här hittar du vår prislista">Priser</a>
                 </div>
             </div>
             <div class="expansion-panel">
@@ -48,7 +48,7 @@
                 </div>
                 <div class="ep-content">
                     <a href="om-oss.php" class="l10n" title="Mer information om oss på AcneSpecialisten">Om oss</a>
-                    <a href="metod.php" class="l10n" title="Lär dig mer om hur vår metod går till">Vår metod</a>
+                    <a href="metoden.php" class="l10n" title="Lär dig mer om hur vår metod går till">Vår metod</a>
                     <a href="specialister" class="l10n" title="Se alla våra specialister och hudterapeuter">Våra specialister</a>
                     <a href="https://skonhetsgruppen.teamtailor.com" rel="nofollow" title="Se våra lediga tjänster" target="_blank" class="l10n">Karriär</a>
                 </div>
@@ -76,7 +76,7 @@
                             <li><a href="resultat.php" class="l10n" title="Se våra kunders före- och efterbilder">Resultat</a></li>
                             <li><a href="hudguide" class="l10n" title="Läs mer om allt inom hudvård">Hudguide</a></li>
                             <li><a href="ordlista.php" class="l10n" title="Lär dig med om hudvård från A till Ö">Ordlista</a></li>
-                            <li><a href="priser.php" class="l10n" title="Här hittar du vår prislista">Priser</a></li>
+                            <li><a href="priser" class="l10n" title="Här hittar du vår prislista">Priser</a></li>
                             
                         </ul>
                     </div>
@@ -93,7 +93,7 @@
                         <ul>
                             <li class="l10n">Företag</li>
                             <li><a href="om-oss.php" class="l10n" title="Mer information om oss på AcneSpecialisten">Om oss</a></li>
-                            <li><a href="metod.php" class="l10n" title="Lär dig mer om hur vår metod går till">Vår metod</a></li>
+                            <li><a href="metoden.php" class="l10n" title="Lär dig mer om hur vår metod går till">Vår metod</a></li>
                             <li><a href="specialister" class="l10n" title="Se alla våra specialister och hudterapeuter">Våra specialister</a></li>
                             <li><a href="https://skonhetsgruppen.teamtailor.com" target="_blank" rel="nofollow" title="Se våra lediga tjänster" class="l10n">Karriär</a></li>
                         </ul>

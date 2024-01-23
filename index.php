@@ -577,7 +577,7 @@
                               </a>
                         </div>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" title="Varumärken" href="varumarken">Se alla varumärken</a>
+                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" title="Se alla varumärken vi jobbar med" href="varumarken">Se alla varumärken</a>
                   </section>
             </div>
       </main>
