@@ -108,7 +108,7 @@ $problems['bristningar'] = new Problem(
       image: 'images/problems/424x324/bristningar.webp',
       image_alt: 'Mage med hudproblemet Bristningar',
       image_title: 'Bristningar',
-      info: 'Dessa är linjer eller band på huden som uppstår när huden sträcks snabbt, som under graviditet, pubertet eller snabb viktökning. De börjar ofta som röda eller lila linjer och bleknar över tid till en mer silvervit färg. Bristningar är ett resultat av bristningar i hudens kollagen och elastin, vilket minskar hudens elasticitet och styrka.'
+      info: 'Dessa är linjer eller märken på huden som uppstår när huden sträcks snabbt, som under graviditet, pubertet eller snabb viktökning. De börjar ofta som röda eller lila linjer och bleknar över tid till en mer silvervit färg. Bristningar är ett resultat av bristningar i hudens kollagen och elastin, vilket minskar hudens elasticitet och styrka.'
 );
 $problems['finnar'] = new Problem(
       label: 'Finnar',
