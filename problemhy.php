@@ -534,6 +534,470 @@ $problems['oonskat-har-ansikte'] = new Problem(
 
 
 
+
+
+$problems['pigmentflackar-kropp'] = new Problem(
+      label: 'Pigmentfläckar på kroppen',
+      url: 'pigmentflackar.php',
+      url_title: 'Läs mer information om Pigmentfläckar på kroppen',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_PigmentationSpots',
+      booking_url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots',
+      consultation_url_title: 'Boka konsultation mot pigmentfläckar på kroppen',
+      booking_url_title: 'Boka behandling mot pigmentfläckar på kroppen',
+      image: 'images/problems/424x324/pigmentflackar.webp',
+      image_alt: 'Ansikte med hudproblemet Pigmentfläckar',
+      image_title: 'Pigmentfläckar på kroppen',
+      info: 'Detta är mörka områden på huden som uppstår när melanin, det pigment som ger hud dess färg, produceras i överflöd. Dessa fläckar kan vara resultatet av olika faktorer, inklusive solskador, hormonella förändringar som de som uppstår under graviditet eller genom användning av vissa mediciner, och är vanligare med stigande ålder.'
+);
+$problems['hudforandringar-kropp'] = new Problem(
+      label: 'Hudförändringar på kroppen',
+      url: 'problem/hudforandringar',
+      url_title: 'Läs mer information om Hudförändringar på kroppen',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Moles',
+      booking_url: 'https://acnespecialisten.se/book?flow=cryopen',
+      consultation_url_title: 'Boka konsultation mot hudförändringar på kroppen',
+      booking_url_title: 'Boka behandling mot hudförändringar på kroppen',
+      image: 'images/problems/424x324/hudforandringar.webp',
+      image_alt: 'Rygg med hudproblemet Hudförändringar',
+      image_title: 'Hudförändringar på kroppen',
+      info: 'Detta är en bred kategori som innefattar alla typer av synliga förändringar i huden, inklusive födelsemärken, leverfläckar och hudflikar. Dessa förändringar kan bero på en rad faktorer som åldrande, solskador, genetiska predispositioner och livsstil.'
+);
+$problems['bristningar-kropp'] = new Problem(
+      label: 'Bristningar på kroppen',
+      url: 'problem/bristningar',
+      url_title: 'Läs mer information om Bristningar på kroppen',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_StrechMarks',
+      booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_StrechMarks',
+      consultation_url_title: 'Boka konsultation mot bristningar på kroppen',
+      booking_url_title: 'Boka behandling mot bristningar på kroppen',
+      image: 'images/problems/424x324/bristningar.webp',
+      image_alt: 'Mage med hudproblemet Bristningar',
+      image_title: 'Bristningar på kroppen',
+      info: 'Dessa är linjer eller märken på huden som uppstår när huden sträcks snabbt, som under graviditet, pubertet eller snabb viktökning. De börjar ofta som röda eller lila linjer och bleknar över tid till en mer silvervit färg. Bristningar är ett resultat av bristningar i hudens kollagen och elastin, vilket minskar hudens elasticitet och styrka.'
+);
+$problems['operations-skadearr-kropp'] = new Problem(
+      label: 'Operations & Skadeärr på kroppen',
+      url: 'problemhy/operations-skadearr',
+      url_title: 'Läs mer information om Operations & Skadeärr på kroppen',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
+      booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars',
+      consultation_url_title: 'Boka konsultation operations & skadeärr på kroppen',
+      booking_url_title: 'Boka behandlingoperations & skadeärr på kroppen',
+      image: 'images/problems/424x324/arr.webp',
+      image_alt: 'Mage med hudproblemet Operations & Skadeärr',
+      image_title: 'Operations & Skadeärr på kroppen',
+      info: 'Dessa ärr är resultatet av kirurgiska ingrepp eller skador och kan variera mycket i utseende, beroende på operationens omfattning, placeringen av snittet, och individens läkningsförmåga. De kan vara upphöjda, röda, eller ha en annorlunda textur jämfört med omgivande hud.'
+);
+$problems['oonskat-har-kropp'] = new Problem(
+      label: 'Oönskat hår på kroppen',
+      url: 'problem/oonskat-har',
+      url_title: 'Läs mer information om Oönskat hår på kroppen',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserHairRemoval',
+      booking_url: 'https://acnespecialisten.se/book?flow=permanent_harborttagning',
+      consultation_url_title: 'Boka konsultation mot oönskat hår på kroppen',
+      booking_url_title: 'Boka behandling mot oönskat hår på kroppen',
+      image: 'images/problems/424x324/oonskat-har.webp',
+      image_alt: 'Bröst med hudproblemet Oönskat hår',
+      image_title: 'Oönskat hår på kroppen',
+      info: 'Detta innebär överdriven hårväxt på kroppen eller ansiktet, vilket kan vara ett resultat av hormonella obalanser, genetik, vissa mediciner eller medicinska tillstånd. Denna typ av hårväxt kan uppfattas som kosmetiskt störande och varierar i intensitet och distribution över kroppen.'
+);
+
+
+
+
+
+$problems['akne-rygg'] = new Problem(
+      label: 'Akne på ryggen',
+      url: 'acne-rygg.php',
+      url_title: 'Läs mer information om Akne på ryggen',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
+      consultation_url_title: 'Boka konsultation mot akne på ryggen',
+      booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
+      booking_url_title: 'Boka behandling mot akne på ryggen',
+      image: 'images/problems/424x324/akne.webp',
+      image_alt: 'Ansikte med hudproblemet akne',
+      image_title: 'Akne på ryggen',
+      info: 'Den vanligaste hudsjukdom som involverar inflammation i talgkörtlarna, vilket leder till bildandet av finnar i form av papler och pustler. Det är ett resultat av en kombination av överproduktion av talg, tilltäppning av hårfolliklar och bakterietillväxt. Akne kan vara emotionellt påfrestande och variera i svårighetsgrad, ofta påverkad av hormonella förändringar, stress, och genetiska faktorer.',
+);
+$problems['aknearr-rygg'] = new Problem(
+      label: 'Akneärr på ryggen',
+      url: 'acnearr.php',
+      url_title: 'Läs mer information om Akneärr på ryggen',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars',
+      booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_AcneScars',
+      consultation_url_title: 'Boka en konsultation mot akneärr på ryggen',
+      booking_url_title: 'Boka behandling mot akneärr på ryggen',
+      image: 'images/problems/424x324/acnearr.webp',
+      image_alt: 'Ansikte med hudproblemet Akneärr',
+      image_title: 'Akneärr på ryggen',
+      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av akne. De kan vara gropar eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
+);
+$problems['finnar-rygg'] = new Problem(
+      label: 'Finnar på ryggen',
+      url: 'finnar-rygg.php',
+      url_title: 'Läs mer information om Finnar på ryggen',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples',
+      booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Pimples',
+      consultation_url_title: 'Boka konsultation mot finnar på ryggen',
+      booking_url_title: 'Boka behandling mot finnar på ryggen',
+      image: 'images/problems/424x324/finnar.webp',
+      image_alt: 'Ansikte med hudproblemet Finnar',
+      image_title: 'Finnar på ryggen',
+      info: 'Små inflammerade blemmor på huden, ofta fyllda med var, som är en del av akne. Finnar orsakas av inflammation i hårfolliklar och talgkörtlar, ofta förvärrade av bakterier. De kan uppstå i ansiktet, på ryggen, bröstet och axlarna och kan variera i storlek och svårighetsgrad.'
+);
+$problems['arr-fran-finnar-rygg'] = new Problem(
+      label: 'Ärr från finnar på ryggen',
+      url: 'finnar-arr.php',
+      url_title: 'Läs mer information om Ärr från finnar på ryggen',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars',
+      booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_PimpleScars',
+      consultation_url_title: 'Boka konsultation mot ärr från finnar på ryggen',
+      booking_url_title: 'Boka behandling mot ärr från finnar på ryggen',
+      image: 'images/problems/424x324/arr-fran-finnar.webp',
+      image_alt: 'Ansikte med hudproblemet Ärr från finnar',
+      image_title: 'Ärr från finnar på ryggen',
+      info: 'Ärr som bildas när inflammerade finnar läker och lämnar permanenta märken eller fördjupningar i huden. Dessa ärr kan variera i storlek och form och påverka hudens släthet och jämnhet. Ärrbildningen beror på hur huden läker efter inflammationen.'
+);
+$problems['pormaskar-rygg'] = new Problem(
+      label: 'Pormaskar på ryggen',
+      url: 'pormaskar-rygg.php',
+      url_title: 'Läs mer information om Pormaskar på ryggen',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
+      booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Comedones',
+      consultation_url_title: 'Boka konsultation mot pormaskar på ryggen',
+      booking_url_title: 'Boka behandling mot pormaskar på ryggen',
+      image: 'images/problems/424x324/pormaskar.webp',
+      image_alt: 'Ansikte med hudproblemet Pormaskar',
+      image_title: 'Pormaskar på ryggen',
+      info: 'Dessa är små, mörka lesioner på huden, oftast förekommande i ansiktet. De uppstår när porerna i huden blir tilltäppta med en kombination av talg och döda hudceller. Pormaskar kan vara antingen öppna (svarta) eller stängda (vita) och är ofta ett av de första tecknen på akne.'
+);
+$problems['stora-porer-rygg'] = new Problem(
+      label: 'Stora porer på ryggen',
+      url: 'stora-porer.php',
+      url_title: 'Läs mer information om Stora porer på ryggen',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_LargePores',
+      booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_LargePores',
+      consultation_url_title: 'Boka konsultation mot stora porer på ryggen',
+      booking_url_title: 'Boka behandling mot stora porer på ryggen',
+      image: 'images/problems/424x324/stora-porer.webp',
+      image_alt: 'Ansikte med hudproblemet Stora porer',
+      image_title: 'Stora porer på ryggen',
+      info: 'Dessa är porer som ser större ut än vanligt, ofta märkbara på näsan, kinderna och pannan. Stora porer kan vara resultatet av genetiska faktorer, åldrande, frekvent sol exponering, ökad talgproduktion eller tidigare hudskador.'
+);
+$problems['hudforandringar-rygg'] = new Problem(
+      label: 'Hudförändringar på ryggen',
+      url: 'problem/hudforandringar',
+      url_title: 'Läs mer information om Hudförändringar på ryggen',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Moles',
+      booking_url: 'https://acnespecialisten.se/book?flow=cryopen',
+      consultation_url_title: 'Boka konsultation mot hudförändringar på ryggen',
+      booking_url_title: 'Boka behandling mot hudförändringar på ryggen',
+      image: 'images/problems/424x324/hudforandringar.webp',
+      image_alt: 'Rygg med hudproblemet Hudförändringar',
+      image_title: 'Hudförändringar på ryggen',
+      info: 'Detta är en bred kategori som innefattar alla typer av synliga förändringar i huden, inklusive födelsemärken, leverfläckar och hudflikar. Dessa förändringar kan bero på en rad faktorer som åldrande, solskador, genetiska predispositioner och livsstil.'
+);
+$problems['operations-skadearr-rygg'] = new Problem(
+      label: 'Operations & Skadeärr på ryggen',
+      url: 'problemhy/operations-skadearr',
+      url_title: 'Läs mer information om Operations & Skadeärr på ryggen',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
+      booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars',
+      consultation_url_title: 'Boka konsultation operations & skadeärr på ryggen',
+      booking_url_title: 'Boka behandlingoperations & skadeärr på ryggen',
+      image: 'images/problems/424x324/arr.webp',
+      image_alt: 'Mage med hudproblemet Operations & Skadeärr',
+      image_title: 'Operations & Skadeärr på ryggen',
+      info: 'Dessa ärr är resultatet av kirurgiska ingrepp eller skador och kan variera mycket i utseende, beroende på operationens omfattning, placeringen av snittet, och individens läkningsförmåga. De kan vara upphöjda, röda, eller ha en annorlunda textur jämfört med omgivande hud.'
+);
+$problems['oonskat-har-rygg'] = new Problem(
+      label: 'Oönskat hår på ryggen',
+      url: 'problem/oonskat-har',
+      url_title: 'Läs mer information om Oönskat hår på ryggen',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserHairRemoval',
+      booking_url: 'https://acnespecialisten.se/book?flow=permanent_harborttagning',
+      consultation_url_title: 'Boka konsultation mot oönskat hår på ryggen',
+      booking_url_title: 'Boka behandling mot oönskat hår på ryggen',
+      image: 'images/problems/424x324/oonskat-har.webp',
+      image_alt: 'Bröst med hudproblemet Oönskat hår',
+      image_title: 'Oönskat hår på ryggen',
+      info: 'Detta innebär överdriven hårväxt på kroppen eller ansiktet, vilket kan vara ett resultat av hormonella obalanser, genetik, vissa mediciner eller medicinska tillstånd. Denna typ av hårväxt kan uppfattas som kosmetiskt störande och varierar i intensitet och distribution över kroppen.'
+);
+
+
+
+
+
+$problems['akne-brost'] = new Problem(
+      label: 'Akne på bröstet',
+      url: 'acne-brost.php',
+      url_title: 'Läs mer information om Akne på bröstet',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
+      consultation_url_title: 'Boka konsultation mot akne på bröstet',
+      booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
+      booking_url_title: 'Boka behandling mot akne på bröstet',
+      image: 'images/problems/424x324/akne.webp',
+      image_alt: 'Ansikte med hudproblemet akne',
+      image_title: 'Akne på bröstet',
+      info: 'Den vanligaste hudsjukdom som involverar inflammation i talgkörtlarna, vilket leder till bildandet av finnar i form av papler och pustler. Det är ett resultat av en kombination av överproduktion av talg, tilltäppning av hårfolliklar och bakterietillväxt. Akne kan vara emotionellt påfrestande och variera i svårighetsgrad, ofta påverkad av hormonella förändringar, stress, och genetiska faktorer.',
+);
+$problems['aknearr-brost'] = new Problem(
+      label: 'Akneärr på bröstet',
+      url: 'acnearr.php',
+      url_title: 'Läs mer information om Akneärr på bröstet',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars',
+      booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_AcneScars',
+      consultation_url_title: 'Boka en konsultation mot akneärr på bröstet',
+      booking_url_title: 'Boka behandling mot akneärr på bröstet',
+      image: 'images/problems/424x324/acnearr.webp',
+      image_alt: 'Ansikte med hudproblemet Akneärr',
+      image_title: 'Akneärr på bröstet',
+      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av akne. De kan vara gropar eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
+);
+$problems['finnar-brost'] = new Problem(
+      label: 'Finnar på bröstet',
+      url: 'finnar-brost.php',
+      url_title: 'Läs mer information om Finnar på bröstet',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples',
+      booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Pimples',
+      consultation_url_title: 'Boka konsultation mot finnar på bröstet',
+      booking_url_title: 'Boka behandling mot finnar på bröstet',
+      image: 'images/problems/424x324/finnar.webp',
+      image_alt: 'Ansikte med hudproblemet Finnar',
+      image_title: 'Finnar på bröstet',
+      info: 'Små inflammerade blemmor på huden, ofta fyllda med var, som är en del av akne. Finnar orsakas av inflammation i hårfolliklar och talgkörtlar, ofta förvärrade av bakterier. De kan uppstå i ansiktet, på ryggen, bröstet och axlarna och kan variera i storlek och svårighetsgrad.'
+);
+$problems['arr-fran-finnar-brost'] = new Problem(
+      label: 'Ärr från finnar på bröstet',
+      url: 'finnar-arr.php',
+      url_title: 'Läs mer information om Ärr från finnar på bröstet',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars',
+      booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_PimpleScars',
+      consultation_url_title: 'Boka konsultation mot ärr från finnar på bröstet',
+      booking_url_title: 'Boka behandling mot ärr från finnar på bröstet',
+      image: 'images/problems/424x324/arr-fran-finnar.webp',
+      image_alt: 'Ansikte med hudproblemet Ärr från finnar',
+      image_title: 'Ärr från finnar på bröstet',
+      info: 'Ärr som bildas när inflammerade finnar läker och lämnar permanenta märken eller fördjupningar i huden. Dessa ärr kan variera i storlek och form och påverka hudens släthet och jämnhet. Ärrbildningen beror på hur huden läker efter inflammationen.'
+);
+$problems['pormaskar-brost'] = new Problem(
+      label: 'Pormaskar på bröstet',
+      url: 'pormaskar-brost.php',
+      url_title: 'Läs mer information om Pormaskar på bröstet',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
+      booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Comedones',
+      consultation_url_title: 'Boka konsultation mot pormaskar på bröstet',
+      booking_url_title: 'Boka behandling mot pormaskar på bröstet',
+      image: 'images/problems/424x324/pormaskar.webp',
+      image_alt: 'Ansikte med hudproblemet Pormaskar',
+      image_title: 'Pormaskar på bröstet',
+      info: 'Dessa är små, mörka lesioner på huden, oftast förekommande i ansiktet. De uppstår när porerna i huden blir tilltäppta med en kombination av talg och döda hudceller. Pormaskar kan vara antingen öppna (svarta) eller stängda (vita) och är ofta ett av de första tecknen på akne.'
+);
+$problems['stora-porer-brost'] = new Problem(
+      label: 'Stora porer på bröstet',
+      url: 'stora-porer.php',
+      url_title: 'Läs mer information om Stora porer på bröstet',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_LargePores',
+      booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_LargePores',
+      consultation_url_title: 'Boka konsultation mot stora porer på bröstet',
+      booking_url_title: 'Boka behandling mot stora porer på bröstet',
+      image: 'images/problems/424x324/stora-porer.webp',
+      image_alt: 'Ansikte med hudproblemet Stora porer',
+      image_title: 'Stora porer på bröstet',
+      info: 'Dessa är porer som ser större ut än vanligt, ofta märkbara på näsan, kinderna och pannan. Stora porer kan vara resultatet av genetiska faktorer, åldrande, frekvent sol exponering, ökad talgproduktion eller tidigare hudskador.'
+);
+$problems['hudforandringar-brost'] = new Problem(
+      label: 'Hudförändringar på bröstet',
+      url: 'problem/hudforandringar',
+      url_title: 'Läs mer information om Hudförändringar på bröstet',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Moles',
+      booking_url: 'https://acnespecialisten.se/book?flow=cryopen',
+      consultation_url_title: 'Boka konsultation mot hudförändringar på bröstet',
+      booking_url_title: 'Boka behandling mot hudförändringar på bröstet',
+      image: 'images/problems/424x324/hudforandringar.webp',
+      image_alt: 'Rygg med hudproblemet Hudförändringar',
+      image_title: 'Hudförändringar på bröstet',
+      info: 'Detta är en bred kategori som innefattar alla typer av synliga förändringar i huden, inklusive födelsemärken, leverfläckar och hudflikar. Dessa förändringar kan bero på en rad faktorer som åldrande, solskador, genetiska predispositioner och livsstil.'
+);
+$problems['operations-skadearr-brost'] = new Problem(
+      label: 'Operations & Skadeärr på bröstet',
+      url: 'problemhy/operations-skadearr',
+      url_title: 'Läs mer information om Operations & Skadeärr på bröstet',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
+      booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars',
+      consultation_url_title: 'Boka konsultation operations & skadeärr på bröstet',
+      booking_url_title: 'Boka behandlingoperations & skadeärr på bröstet',
+      image: 'images/problems/424x324/arr.webp',
+      image_alt: 'Mage med hudproblemet Operations & Skadeärr',
+      image_title: 'Operations & Skadeärr på bröstet',
+      info: 'Dessa ärr är resultatet av kirurgiska ingrepp eller skador och kan variera mycket i utseende, beroende på operationens omfattning, placeringen av snittet, och individens läkningsförmåga. De kan vara upphöjda, röda, eller ha en annorlunda textur jämfört med omgivande hud.'
+);
+$problems['oonskat-har-brost'] = new Problem(
+      label: 'Oönskat hår på bröstet',
+      url: 'problem/oonskat-har',
+      url_title: 'Läs mer information om Oönskat hår på bröstet',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserHairRemoval',
+      booking_url: 'https://acnespecialisten.se/book?flow=permanent_harborttagning',
+      consultation_url_title: 'Boka konsultation mot oönskat hår på bröstet',
+      booking_url_title: 'Boka behandling mot oönskat hår på bröstet',
+      image: 'images/problems/424x324/oonskat-har.webp',
+      image_alt: 'Bröst med hudproblemet Oönskat hår',
+      image_title: 'Oönskat hår på bröstet',
+      info: 'Detta innebär överdriven hårväxt på kroppen eller ansiktet, vilket kan vara ett resultat av hormonella obalanser, genetik, vissa mediciner eller medicinska tillstånd. Denna typ av hårväxt kan uppfattas som kosmetiskt störande och varierar i intensitet och distribution över kroppen.'
+);
+
+
+
+
+
+$problems['akne-panna'] = new Problem(
+      label: 'Akne i pannan',
+      url: 'acne.php',
+      url_title: 'Läs mer information om Akne i pannan',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
+      consultation_url_title: 'Boka konsultation mot akne i pannan',
+      booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
+      booking_url_title: 'Boka behandling mot akne i pannan',
+      image: 'images/problems/424x324/akne.webp',
+      image_alt: 'Ansikte med hudproblemet akne',
+      image_title: 'Akne i pannan',
+      info: 'Den vanligaste hudsjukdom som involverar inflammation i talgkörtlarna, vilket leder till bildandet av finnar i form av papler och pustler. Det är ett resultat av en kombination av överproduktion av talg, tilltäppning av hårfolliklar och bakterietillväxt. Akne kan vara emotionellt påfrestande och variera i svårighetsgrad, ofta påverkad av hormonella förändringar, stress, och genetiska faktorer.',
+);
+$problems['aknearr-panna'] = new Problem(
+      label: 'Akneärr i pannan',
+      url: 'acnearr.php',
+      url_title: 'Läs mer information om Akneärr i pannan',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars',
+      booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_AcneScars',
+      consultation_url_title: 'Boka en konsultation mot akneärr i pannan',
+      booking_url_title: 'Boka behandling mot akneärr i pannan',
+      image: 'images/problems/424x324/acnearr.webp',
+      image_alt: 'Ansikte med hudproblemet Akneärr',
+      image_title: 'Akneärr i pannan',
+      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av akne. De kan vara gropar eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
+);
+$problems['finnar-panna'] = new Problem(
+      label: 'Finnar i pannan',
+      url: 'finnar.php',
+      url_title: 'Läs mer information om Finnar i pannan',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples',
+      booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Pimples',
+      consultation_url_title: 'Boka konsultation mot finnar i pannan',
+      booking_url_title: 'Boka behandling mot finnar i pannan',
+      image: 'images/problems/424x324/finnar.webp',
+      image_alt: 'Ansikte med hudproblemet Finnar',
+      image_title: 'Finnar i pannan',
+      info: 'Små inflammerade blemmor på huden, ofta fyllda med var, som är en del av akne. Finnar orsakas av inflammation i hårfolliklar och talgkörtlar, ofta förvärrade av bakterier. De kan uppstå i ansiktet, på ryggen, bröstet och axlarna och kan variera i storlek och svårighetsgrad.'
+);
+$problems['arr-fran-finnar-panna'] = new Problem(
+      label: 'Ärr från finnar i pannan',
+      url: 'finnar-arr.php',
+      url_title: 'Läs mer information om Ärr från finnar i pannan',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars',
+      booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_PimpleScars',
+      consultation_url_title: 'Boka konsultation mot ärr från finnar i pannan',
+      booking_url_title: 'Boka behandling mot ärr från finnar i pannan',
+      image: 'images/problems/424x324/arr-fran-finnar.webp',
+      image_alt: 'Ansikte med hudproblemet Ärr från finnar',
+      image_title: 'Ärr från finnar i pannan',
+      info: 'Ärr som bildas när inflammerade finnar läker och lämnar permanenta märken eller fördjupningar i huden. Dessa ärr kan variera i storlek och form och påverka hudens släthet och jämnhet. Ärrbildningen beror på hur huden läker efter inflammationen.'
+);
+$problems['pormaskar-panna'] = new Problem(
+      label: 'Pormaskar i pannan',
+      url: 'pormaskar.php',
+      url_title: 'Läs mer information om Pormaskar i pannan',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
+      booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Comedones',
+      consultation_url_title: 'Boka konsultation mot pormaskar i pannan',
+      booking_url_title: 'Boka behandling mot pormaskar i pannan',
+      image: 'images/problems/424x324/pormaskar.webp',
+      image_alt: 'Ansikte med hudproblemet Pormaskar',
+      image_title: 'Pormaskar i pannan',
+      info: 'Dessa är små, mörka lesioner på huden, oftast förekommande i ansiktet. De uppstår när porerna i huden blir tilltäppta med en kombination av talg och döda hudceller. Pormaskar kan vara antingen öppna (svarta) eller stängda (vita) och är ofta ett av de första tecknen på akne.'
+);
+$problems['stora-porer-panna'] = new Problem(
+      label: 'Stora porer i pannan',
+      url: 'stora-porer.php',
+      url_title: 'Läs mer information om Stora porer i pannan',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_LargePores',
+      booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_LargePores',
+      consultation_url_title: 'Boka konsultation mot stora porer i pannan',
+      booking_url_title: 'Boka behandling mot stora porer i pannan',
+      image: 'images/problems/424x324/stora-porer.webp',
+      image_alt: 'Ansikte med hudproblemet Stora porer',
+      image_title: 'Stora porer i pannan',
+      info: 'Dessa är porer som ser större ut än vanligt, ofta märkbara på näsan, kinderna och pannan. Stora porer kan vara resultatet av genetiska faktorer, åldrande, frekvent sol exponering, ökad talgproduktion eller tidigare hudskador.'
+);
+$problems['blandhy-panna'] = new Problem(
+      label: 'Blandhy i pannan',
+      url: 'blandhy.php',
+      url_title: 'Läs mer information om Blandhy i pannan',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin',
+      booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_CombinationSkin',
+      consultation_url_title: 'Boka konsultation mot blandhy i pannan',
+      booking_url_title: 'Boka behandling mot blandhy i pannan',
+      image: 'images/problems/424x324/blandhy.webp',
+      image_alt: 'Ansikte med hudproblemet Blandhy',
+      image_title: 'Blandhy i pannan',
+      info: 'En hudtyp där vissa områden, speciellt T-zonen (panna, näsa, haka), är oljiga, medan kinderna och andra delar av ansiktet kan vara normala eller torra. Denna blandning av hudtyper kräver en balanserad hudvårdsrutin som kan hantera både torrhet och överproduktion av talg.'
+);
+$problems['pigmentflackar-panna'] = new Problem(
+      label: 'Pigmentfläckar i pannan',
+      url: 'pigmentflackar.php',
+      url_title: 'Läs mer information om Pigmentfläckar i pannan',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_PigmentationSpots',
+      booking_url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots',
+      consultation_url_title: 'Boka konsultation mot pigmentfläckar i pannan',
+      booking_url_title: 'Boka behandling mot pigmentfläckar i pannan',
+      image: 'images/problems/424x324/pigmentflackar.webp',
+      image_alt: 'Ansikte med hudproblemet Pigmentfläckar',
+      image_title: 'Pigmentfläckar i pannan',
+      info: 'Detta är mörka områden på huden som uppstår när melanin, det pigment som ger hud dess färg, produceras i överflöd. Dessa fläckar kan vara resultatet av olika faktorer, inklusive solskador, hormonella förändringar som de som uppstår under graviditet eller genom användning av vissa mediciner, och är vanligare med stigande ålder.'
+);
+$problems['hudforandringar-panna'] = new Problem(
+      label: 'Hudförändringar i pannan',
+      url: 'problem/hudforandringar',
+      url_title: 'Läs mer information om Hudförändringar i pannan',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Moles',
+      booking_url: 'https://acnespecialisten.se/book?flow=cryopen',
+      consultation_url_title: 'Boka konsultation mot hudförändringar i pannan',
+      booking_url_title: 'Boka behandling mot hudförändringar i pannan',
+      image: 'images/problems/424x324/hudforandringar.webp',
+      image_alt: 'Rygg med hudproblemet Hudförändringar',
+      image_title: 'Hudförändringar i pannan',
+      info: 'Detta är en bred kategori som innefattar alla typer av synliga förändringar i huden, inklusive födelsemärken, leverfläckar och hudflikar. Dessa förändringar kan bero på en rad faktorer som åldrande, solskador, genetiska predispositioner och livsstil.'
+);
+$problems['mogen-hy-panna'] = new Problem(
+      label: 'Mogen Hy i pannan',
+      url: 'mogen-hy.php',
+      url_title: 'Läs mer information om Mogen Hy i pannan',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Wrinkles',
+      booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Wrinkles',
+      consultation_url_title: 'Boka konsultation mot mogen hy i pannan',
+      booking_url_title: 'Boka behandling mot mogen hy i pannan',
+      image: 'images/problems/424x324/mogen-hy.webp',
+      image_alt: 'Ansikte med hudproblemet Mogen Hy',
+      image_title: 'Mogen Hy i pannan',
+      info: 'Detta refererar till hud som uppvisar tecken på åldrande, som rynkor, fina linjer, minskad fasthet och torrhet. Hudens förmåga att behålla fukt och dess naturliga oljeproduktion minskar ofta med åldern, vilket kan leda till en känsla av stramhet och en synlig förlust av hudens ungdomliga lyster. Ytterligare faktorer som solskador och livsstilsval kan påverka hur snabbt huden åldras.'
+);
+$problems['operations-skadearr-panna'] = new Problem(
+      label: 'Operations & Skadeärr i pannan',
+      url: 'problemhy/operations-skadearr',
+      url_title: 'Läs mer information om Operations & Skadeärr i pannan',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
+      booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars',
+      consultation_url_title: 'Boka konsultation operations & skadeärr i pannan',
+      booking_url_title: 'Boka behandlingoperations & skadeärr i pannan',
+      image: 'images/problems/424x324/arr.webp',
+      image_alt: 'Mage med hudproblemet Operations & Skadeärr',
+      image_title: 'Operations & Skadeärr i pannan',
+      info: 'Dessa ärr är resultatet av kirurgiska ingrepp eller skador och kan variera mycket i utseende, beroende på operationens omfattning, placeringen av snittet, och individens läkningsförmåga. De kan vara upphöjda, röda, eller ha en annorlunda textur jämfört med omgivande hud.'
+);
+
+
+
+
+
 $default_problems = new ProblemArea(
       label: '',
       icon: '',
@@ -564,7 +1028,7 @@ $problem_areas = array(
       new ProblemArea(
             label: 'Panna',
             icon: 'panna',
-            problem_ids: array('akne-panna', 'aknearr-panna', 'finnar-panna', 'arr-fran-finnar-panna', 'pormaskar-panna', 'stora-porer-panna', 'blandhy-panna', 'pigmentflackar-panna', 'hudforandringar-panna', 'operations-skadearr-panna',)
+            problem_ids: array('akne-panna', 'aknearr-panna', 'finnar-panna', 'arr-fran-finnar-panna', 'pormaskar-panna', 'stora-porer-panna', 'blandhy-panna', 'pigmentflackar-panna', 'hudforandringar-panna','mogen-hy-panna',)
       ),
       new ProblemArea(
             label: 'Kinder',
