@@ -43,6 +43,10 @@ class Problem
       public string $info;
 }
 
+$path_segments = array(
+      new PathSegment('Problem', '/problemhy.php'),
+);
+
 $problems['akne'] = new Problem(
       label: 'Akne',
       url: 'acne.php',
