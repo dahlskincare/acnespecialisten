@@ -467,7 +467,7 @@
                               </a>
                         </div>
                         <?php $faq_categories = array(
-                              'Generella frågor och svar' => array(
+                              'Frågor och svar' => array(
                                   new Question(
                                       title: 'Behandlar Acnespecialisten enbart akne?',
                                       text: 'Nej, vår expertis sträcker sig bortom behandling av enbart akne. Vi hanterar en bred variation av hudproblem, inklusive akne, rosacea, pormaskar, pigmentfläckar, ytliga blodkärl och mycket mer. För en fullständig översikt över de hudproblem vi behandlar, besök vår <a href="problemhy.php>problemsida</a>. Om du är osäker på vilket hudproblem du har, erbjuder vi en kostnadsfri konsultation där våra erfarna hudspecialister kan ge dig råd och vägledning.'
