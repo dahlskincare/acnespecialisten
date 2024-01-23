@@ -928,19 +928,6 @@ $problems['stora-porer-panna'] = new Problem(
       image_title: 'Stora porer i pannan',
       info: 'Dessa är porer som ser större ut än vanligt, ofta märkbara på näsan, kinderna och pannan. Stora porer kan vara resultatet av genetiska faktorer, åldrande, frekvent sol exponering, ökad talgproduktion eller tidigare hudskador.'
 );
-$problems['blandhy-panna'] = new Problem(
-      label: 'Blandhy i pannan',
-      url: 'blandhy.php',
-      url_title: 'Läs mer information om Blandhy i pannan',
-      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin',
-      booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_CombinationSkin',
-      consultation_url_title: 'Boka konsultation mot blandhy i pannan',
-      booking_url_title: 'Boka behandling mot blandhy i pannan',
-      image: 'images/problems/424x324/blandhy.webp',
-      image_alt: 'Ansikte med hudproblemet Blandhy',
-      image_title: 'Blandhy i pannan',
-      info: 'En hudtyp där vissa områden, speciellt T-zonen (panna, näsa, haka), är oljiga, medan kinderna och andra delar av ansiktet kan vara normala eller torra. Denna blandning av hudtyper kräver en balanserad hudvårdsrutin som kan hantera både torrhet och överproduktion av talg.'
-);
 $problems['pigmentflackar-panna'] = new Problem(
       label: 'Pigmentfläckar i pannan',
       url: 'pigmentflackar.php',
@@ -966,19 +953,6 @@ $problems['hudforandringar-panna'] = new Problem(
       image_alt: 'Rygg med hudproblemet Hudförändringar',
       image_title: 'Hudförändringar i pannan',
       info: 'Detta är en bred kategori som innefattar alla typer av synliga förändringar i huden, inklusive födelsemärken, leverfläckar och hudflikar. Dessa förändringar kan bero på en rad faktorer som åldrande, solskador, genetiska predispositioner och livsstil.'
-);
-$problems['mogen-hy-panna'] = new Problem(
-      label: 'Mogen Hy i pannan',
-      url: 'mogen-hy.php',
-      url_title: 'Läs mer information om Mogen Hy i pannan',
-      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Wrinkles',
-      booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Wrinkles',
-      consultation_url_title: 'Boka konsultation mot mogen hy i pannan',
-      booking_url_title: 'Boka behandling mot mogen hy i pannan',
-      image: 'images/problems/424x324/mogen-hy.webp',
-      image_alt: 'Ansikte med hudproblemet Mogen Hy',
-      image_title: 'Mogen Hy i pannan',
-      info: 'Detta refererar till hud som uppvisar tecken på åldrande, som rynkor, fina linjer, minskad fasthet och torrhet. Hudens förmåga att behålla fukt och dess naturliga oljeproduktion minskar ofta med åldern, vilket kan leda till en känsla av stramhet och en synlig förlust av hudens ungdomliga lyster. Ytterligare faktorer som solskador och livsstilsval kan påverka hur snabbt huden åldras.'
 );
 $problems['operations-skadearr-panna'] = new Problem(
       label: 'Operations & Skadeärr i pannan',
@@ -1028,7 +1002,7 @@ $problem_areas = array(
       new ProblemArea(
             label: 'Panna',
             icon: 'panna',
-            problem_ids: array('akne-panna', 'aknearr-panna', 'finnar-panna', 'arr-fran-finnar-panna', 'pormaskar-panna', 'stora-porer-panna', 'blandhy-panna', 'pigmentflackar-panna', 'hudforandringar-panna','mogen-hy-panna',)
+            problem_ids: array('akne-panna', 'aknearr-panna', 'finnar-panna', 'arr-fran-finnar-panna', 'pormaskar-panna', 'stora-porer-panna', 'pigmentflackar-panna', 'hudforandringar-panna',)
       ),
       new ProblemArea(
             label: 'Kinder',
