@@ -296,7 +296,7 @@ $problems['oonskat-har'] = new Problem(
 
 
 $problems['akne-ansikte'] = new Problem(
-      label: 'Akne ansikte',
+      label: 'Akne - Ansikte',
       url: 'acne-ansikte.php',
       url_title: 'Läs mer information om Akne',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
