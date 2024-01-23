@@ -293,6 +293,24 @@ $problems['oonskat-har'] = new Problem(
       info: 'Detta innebär överdriven hårväxt på kroppen eller ansiktet, vilket kan vara ett resultat av hormonella obalanser, genetik, vissa mediciner eller medicinska tillstånd. Denna typ av hårväxt kan uppfattas som kosmetiskt störande och varierar i intensitet och distribution över kroppen.'
 );
 
+
+
+$problems['akne-ansikte'] = new Problem(
+      label: 'Akne ansikte',
+      url: 'acne-ansikte.php',
+      url_title: 'Läs mer information om Akne',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
+      consultation_url_title: 'Boka konsultation',
+      booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
+      booking_url_title: 'Boka behandling',
+      image: 'images/problems/424x324/akne.webp',
+      image_alt: 'Ansikte med hudproblemet akne',
+      image_title: 'Akne',
+      info: 'Den vanligaste hudsjukdom som involverar inflammation i talgkörtlarna, vilket leder till bildandet av finnar i form av papler och pustler. Det är ett resultat av en kombination av överproduktion av talg, tilltäppning av hårfolliklar och bakterietillväxt. Akne kan vara emotionellt påfrestande och variera i svårighetsgrad, ofta påverkad av hormonella förändringar, stress, och genetiska faktorer.',
+);
+
+
+
 $default_problems = new ProblemArea(
       label: '',
       icon: '',
