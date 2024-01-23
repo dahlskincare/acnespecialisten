@@ -108,7 +108,7 @@ $problems['bristningar'] = new Problem(
       image: 'images/problems/424x324/bristningar.webp',
       image_alt: 'Mage med hudproblemet Bristningar',
       image_title: 'Bristningar',
-      info: 'Dessa är linjer eller band på huden som uppstår när huden sträcks snabbt, som under graviditet, pubertet eller snabb viktökning. De börjar ofta som röda eller lila linjer och bleknar över tid till en mer silvervit färg. Bristningar är ett resultat av bristningar i hudens kollagen och elastin, vilket minskar hudens elasticitet och styrka.'
+      info: 'Uppstår till följd av att huden sträcks ut snabbt under bland annat graviditet, pubertet eller viktökning.'
 );
 $problems['finnar'] = new Problem(
       label: 'Finnar',
@@ -121,8 +121,7 @@ $problems['finnar'] = new Problem(
       image: 'images/problems/424x324/finnar.webp',
       image_alt: 'Ansikte med hudproblemet Finnar',
       image_title: 'Finnar',
-      info: 'Små inflammerade blemmor på huden, ofta fyllda med var, som är en del av akne. Finnar orsakas av inflammation i hårfolliklar och talgkörtlar, ofta förvärrade av bakterier. De kan uppstå i ansiktet, på ryggen, bröstet och axlarna och kan variera i storlek och svårighetsgrad. Regelbunden hudvård och undvikande av att irritera området är viktigt för att hantera finnar.'
-
+      info: 'Inflammerade Små inflammerade blemmor på huden, ofta fyllda med var, som är en del av akne. Finnar orsakas av inflammation i hårfolliklar och talgkörtlar, ofta förvärrade av bakterier. De kan uppstå i ansiktet, på ryggen, bröstet och axlarna och kan variera i storlek och svårighetsgrad. Regelbunden hudvård och undvikande av att irritera området är viktigt för att hantera finnar.'
 );
 $problems['hudforandringar'] = new Problem(
       label: 'Hudförändringar',
@@ -456,18 +455,18 @@ $path_segments = array(
                                                       <div class="is-hidden-tablet">
                                                             <a href="<?php echo $problem->url ?>" title="<?php echo $problem->url_title ?>" class="mt-m button outline expand l10n" title="Läs mer">Läs mer</a>
                                                             <hr>
-                                                            <a href="<?php echo $problem->consultation_url ?>" title="<?php echo $problem->consultation_url_title ?>" class="button expand l10n" title="Boka konsultation">Boka konsultation</a>
-                                                            <a href="<?php echo $problem->booking_url ?>" title="<?php echo $problem->booking_url_title ?>" class="mt-s button expand l10n" title="Boka behandling">Boka behandling</a>
+                                                            <a href="<?php echo $problem->consultation_url ?>" title="<?php echo $problem->consultation_url_title ?>" class="button expand l10n" title="Boka konsultation">Boka Konsultation</a>
+                                                            <a href="<?php echo $problem->booking_url ?>" title="<?php echo $problem->booking_url_title ?>" class="mt-s button expand l10n" title="Boka behandling">Boka Behandling</a>
                                                       </div>
                                                       <div class="is-hidden-mobile">
                                                             <a href="<?php echo $problem->url ?>" title="<?php echo $problem->url_title ?>" class="mt-m button text compact l10n" title="Läs mer">Läs mer</a>
                                                             <hr>
                                                             <div class="columns is-multiline">
                                                                   <div class="column mt-xxs is-full is-half-widescreen">
-                                                                        <a href="<?php echo $problem->consultation_url ?>" title="<?php echo $problem->consultation_url_title ?>" class="button expand l10n" title="Boka konsultation">Boka konsultation</a>
+                                                                        <a href="<?php echo $problem->consultation_url ?>" title="<?php echo $problem->consultation_url_title ?>" class="button expand l10n" title="Boka konsultation">Boka Konsultation</a>
                                                                   </div>
                                                                   <div class="column mt-xxs is-full is-half-widescreen">
-                                                                        <a href="<?php echo $problem->booking_url ?>" title="<?php echo $problem->booking_url_title ?>" class="button expand l10n" title="Boka behandling">Boka behandling</a>
+                                                                        <a href="<?php echo $problem->booking_url ?>" title="<?php echo $problem->booking_url_title ?>" class="button expand l10n" title="Boka behandling">Boka Behandling</a>
                                                                   </div>
                                                             </div>
                                                       </div>
