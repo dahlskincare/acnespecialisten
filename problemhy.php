@@ -56,7 +56,7 @@ $problems['akne'] = new Problem(
       image: 'images/problems/424x324/akne.webp',
       image_alt: 'Bild på akne i ansiktet',
       image_title: 'Akne',
-      info: 'En vanlig hudsjukdom som involverar inflammation i talgkörtlarna, vilket leder till bildandet av finnar i form av papler och pustler. Det är ett resultat av en kombination av överproduktion av talg, tilltäppning av hårfolliklar och bakterietillväxt. Akne kan vara emotionellt påfrestande och variera i svårighetsgrad, ofta påverkad av hormonella förändringar, stress, och genetiska faktorer.',
+      info: 'Den vanligaste hudsjukdom som involverar inflammation i talgkörtlarna, vilket leder till bildandet av finnar i form av papler och pustler.',
 );
 $problems['aknearr'] = new Problem(
       label: 'Akneärr',
@@ -69,7 +69,7 @@ $problems['aknearr'] = new Problem(
       image: 'images/problems/424x324/acnearr.webp',
       image_alt: 'Akneärr',
       image_title: 'Akneärr',
-      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av akne. De kan vara gropiga eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur, ofta krävande längre tid för att blekna eller förbättras.'
+      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av akne. De kan vara gropar eller fläckar och variera i storlek och djup.'
 );
 $problems['arr-fran-finnar'] = new Problem(
       label: 'Ärr från finnar',
