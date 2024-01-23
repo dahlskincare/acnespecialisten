@@ -110,7 +110,7 @@
                                 <a href="ordlista.php" class="button text grey compact l10n" title="Lär dig med om hudvård från A till Ö">Ordlista</a>
                             </li>
                             <li>
-                                <a href="fragor-svar.php" class="button text grey compact l10n" title="Populära frågor & svar från våra kunder">Frågor & Svar</a>
+                                <a href="priser" class="button text grey compact l10n" title="Här hittar du vår prislista">Priser</a>
                             </li>
                         </ul>
                     </div>
@@ -124,10 +124,10 @@
                                     <a href="kontakt.php" class="button text grey compact l10n" title="Kontakta oss via chatt, e-post eller telefon">Kontakt</a>
                                 </li>
                                 <li>
-                                    <a href="presentkort.php" class="button text grey compact l10n" title="Köp presentkort hos oss">Presentkort</a>
+                                    <a href="fragor-svar.php" class="button text grey compact l10n" title="Populära frågor & svar från våra kunder">Frågor & Svar</a>
                                 </li>
                                 <li>
-                                    <a href="priser" class="button text grey compact l10n" title="Här hittar du vår prislista">Priser</a>
+                                    <a href="presentkort.php" class="button text grey compact l10n" title="Köp presentkort hos oss">Presentkort</a>
                                 </li>
                                 <li>
                                     <a href="avbokningspolicy.php" class="button text grey compact l10n" title="Läs mer om vår avbokningspolicy">Avbokning</a>
@@ -358,7 +358,7 @@
                                             <a href="ordlista.php" class="button text grey compact l10n" title="Lär dig med om hudvård från A till Ö">Ordlista</a>
                                         </li>
                                         <li>
-                                            <a href="fragor-svar.php" class="button text grey compact l10n" title="Populära frågor & svar från våra kunder">Frågor & Svar</a>
+                                            <a href="priser" class="button text grey compact l10n" title="Här hittar du vår prislista">Priser</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -369,10 +369,10 @@
                                             <a href="kontakt.php" class="button text grey compact l10n" title="Kontakta oss via chatt, e-post eller telefon">Kontakt</a>
                                         </li>
                                         <li>
-                                            <a href="presentkort.php" class="button text grey compact l10n" title="Köp presentkort hos oss">Presentkort</a>
+                                            <a href="fragor-svar.php" class="button text grey compact l10n" title="Populära frågor & svar från våra kunder">Frågor & Svar</a>
                                         </li>
                                         <li>
-                                            <a href="priser" class="button text grey compact l10n" title="Här hittar du vår prislista">Priser</a>
+                                            <a href="presentkort.php" class="button text grey compact l10n" title="Köp presentkort hos oss">Presentkort</a>
                                         </li>
                                         <li>
                                             <a href="avbokningspolicy.php" class="button text grey compact l10n" title="Läs mer om vår avbokningspolicy">Avbokning</a>

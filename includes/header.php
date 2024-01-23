@@ -25,7 +25,7 @@
                     <a href="resultat.php" class="l10n" title="Se våra kunders före- och efterbilder">Resultat</a>
                     <a href="hudguide" class="l10n" title="Läs mer om allt inom hudvård">Hudguide</a>
                     <a href="ordlista.php" class="l10n" title="Lär dig med om hudvård från A till Ö">Ordlista</a>
-                    <a href="fragor-svar.php" class="l10n" title="Populära frågor & svar från våra kunder">Frågor & Svar</a>
+                    <a href="priser.php" class="l10n" title="Här hittar du vår prislista">Priser</a>
                 </div>
             </div>
             <div class="expansion-panel">
@@ -35,8 +35,8 @@
                 </div>
                 <div class="ep-content">
                     <a href="kontakt.php" class="l10n" title="Kontakta oss via chatt, e-post eller telefon">Kontakt</a>
+                    <a href="fragor-svar.php" class="l10n" title="Populära frågor & svar från våra kunder">Frågor & Svar</a>
                     <a href="presentkort.php" class="l10n" title="Köp presentkort hos oss">Presentkort</a>
-                    <a href="priser.php" class="l10n" title="Här hittar du vår prislista">Priser</a>
                     <a href="avbokningspolicy.php" class="l10n" title="Läs mer om vår avbokningspolicy">Avbokning</a>
 
                 </div>
@@ -76,7 +76,7 @@
                             <li><a href="resultat.php" class="l10n" title="Se våra kunders före- och efterbilder">Resultat</a></li>
                             <li><a href="hudguide" class="l10n" title="Läs mer om allt inom hudvård">Hudguide</a></li>
                             <li><a href="ordlista.php" class="l10n" title="Lär dig med om hudvård från A till Ö">Ordlista</a></li>
-                            <li><a href="fragor-svar.php" class="l10n" title="Populära frågor & svar från våra kunder">Frågor & Svar</a></li>
+                            <li><a href="priser.php" class="l10n" title="Här hittar du vår prislista">Priser</a></li>
                             
                         </ul>
                     </div>
@@ -84,8 +84,8 @@
                         <ul>
                             <li class="l10n">Kundtjänst</li>
                             <li><a href="kontakt.php" class="l10n" title="Kontakta oss via chatt, e-post eller telefon">Kontakt</a></li>
+                            <li><a href="fragor-svar.php" class="l10n" title="Populära frågor & svar från våra kunder">Frågor & Svar</a></li>
                             <li><a href="presentkort.php" class="l10n" title="Köp presentkort hos oss">Presentkort</a></li>
-                            <li><a href="priser.php" class="l10n" title="Här hittar du vår prislista">Priser</a></li>
                             <li><a href="avbokningspolicy.php" class="l10n" title="Läs mer om vår avbokningspolicy">Avbokning</a></li>
                         </ul>
                     </div>
