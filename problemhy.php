@@ -240,7 +240,7 @@ $problems['rosacea'] = new Problem(
       image: 'images/problems/424x324/rosacea.webp',
       image_alt: 'Ansikte med hudproblemet Rosacea',
       image_title: 'Rosacea',
-      info: 'Ett kroniskt hudtillstånd som kännetecknas av episoder av rodnad och ibland små, pusfyllda knölar. Det kan också involvera brännande eller stickande känsla i huden och ökad känslighet. Tillståndet är vanligast i centrala delar av ansiktet och dess exakta orsak är fortfarande okänd.'
+      info: 'Ett kroniskt hudtillstånd som kännetecknas av episoder av rodnad och ibland små, varfyllda bölder. Det kan också involvera hettande eller stickande känsla i huden och ökad känslighet. Tillståndet är vanligast i centrala delar av ansiktet och dess exakta orsak är fortfarande okänd.'
 );
 $problems['seborre'] = new Problem(
       label: 'Seborré',
