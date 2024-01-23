@@ -82,7 +82,7 @@ $problems['arr-fran-finnar'] = new Problem(
       image: 'images/problems/424x324/arr-fran-finnar.webp',
       image_alt: 'Ansikte med hudproblemet Ärr från finnar',
       image_title: 'Ärr från finnar',
-      info: 'Ärr som bildas när inflammerade finnar läker och lämnar permanenta märken eller fördjupningar i huden. Dessa ärr kan variera i storlek och form och påverka hudens släthet och jämnhet.'
+      info: 'Ärr som bildas när inflammerade finnar läker och lämnar permanenta märken eller fördjupningar i huden. Varierar i storlek och form och påverka hudens släthet och jämnhet.'
 );
 $problems['blandhy'] = new Problem(
       label: 'Blandhy',
