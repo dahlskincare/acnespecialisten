@@ -253,7 +253,7 @@ $problems['seborre'] = new Problem(
       image: 'images/problems/424x324/seborre.webp',
       image_alt: 'Ansikte med hudproblemet Seborré',
       image_title: 'Seborré',
-      info: 'Detta tillstånd är karakteriserat av överdriven produktion av talg, vilket leder till en oljig hudton och ibland tillstånd som mjäll. Det kan påverka olika områden av kroppen, inklusive skalpen, ansiktet och bröstet, och varierar i svårighetsgrad.'
+      info: 'Detta tillstånd är karakteriserat av överdriven produktion av talg, vilket leder till en oljig hudton och ibland tillstånd som mjäll. Det kan påverka olika områden av kroppen, inklusive hårbotten, ansiktet och bröstet, och varierar i svårighetsgrad.'
 );
 $problems['stora-porer'] = new Problem(
       label: 'Stora porer',
@@ -292,7 +292,7 @@ $problems['ytliga-blodkarl'] = new Problem(
       image: 'images/problems/424x324/ytliga-blodkarl.webp',
       image_alt: 'Ansikte med hudproblemet Ytliga Blodkärl',
       image_title: 'Ytliga Blodkärl',
-      info: 'Dessa synliga blodkärl, ofta kallade "spindelvener" eller telangiektasier, är små, utvidgade blodkärl som ligger nära hudytan. De är vanligast i ansiktet och på benen och kan vara resultatet av genetiska faktorer, solskador, hormonförändringar eller hudtillstånd som rosacea.'
+      info: 'Dessa synliga blodkärl, ofta kallade "spindelvener" eller telangiektasier, är små, synliga blodkärl som ligger nära hudytan. De är vanligast i ansiktet och kan vara resultatet av genetiska faktorer, solskador, hormonförändringar eller hudtillstånd som rosacea.'
 );
 
 $default_problems = new ProblemArea(
