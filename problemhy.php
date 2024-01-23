@@ -268,19 +268,6 @@ $problems['stora-porer'] = new Problem(
       image_title: 'Stora porer',
       info: 'Dessa är porer som ser större ut än vanligt, ofta märkbara på näsan, kinderna och pannan. Stora porer kan vara resultatet av genetiska faktorer, åldrande, frekvent sol exponering, ökad talgproduktion eller tidigare hudskador.'
 );
-$problems['torr-kanslig-hy'] = new Problem(
-      label: 'Torr & Känslig hy',
-      url: 'torr-hy.php',
-      url_title: 'Läs mer information om Torr & Känslig hy',
-      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_DrySensetiveSkin',
-      booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_DrySensetiveSkin',
-      consultation_url_title: 'Boka konsultation',
-      booking_url_title: 'Boka behandling',
-      image: 'images/problems/424x324/torr-kanslig-hy.webp',
-      image_alt: 'Ansikte med hudproblemet Torr & Känslig hy',
-      image_title: 'Torr & Känslig hy',
-      info: 'Denna hudtyp är benägen att bli torr, stram, röd och irriterad och kan reagera negativt på vissa hudvårdsprodukter, klimatförändringar eller föroreningar. Torr och känslig hud kräver särskilt skonsam vård för att bibehålla dess barriärfunktion och förhindra ytterligare irritation.'
-);
 $problems['ytliga-blodkarl'] = new Problem(
       label: 'Ytliga Blodkärl',
       url: 'ytliga-blodkarl.php',
@@ -294,11 +281,24 @@ $problems['ytliga-blodkarl'] = new Problem(
       image_title: 'Ytliga Blodkärl',
       info: 'Dessa synliga blodkärl, ofta kallade "spindelvener" eller telangiektasier, är små, synliga blodkärl som ligger nära hudytan. De är vanligast i ansiktet och kan vara resultatet av genetiska faktorer, solskador, hormonförändringar eller hudtillstånd som rosacea.'
 );
+$problems['torr-kanslig-hy'] = new Problem(
+      label: 'Torr & Känslig hy',
+      url: 'torr-hy.php',
+      url_title: 'Läs mer information om Torr & Känslig hy',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_DrySensetiveSkin',
+      booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_DrySensetiveSkin',
+      consultation_url_title: 'Boka konsultation',
+      booking_url_title: 'Boka behandling',
+      image: 'images/problems/424x324/torr-kanslig-hy.webp',
+      image_alt: 'Ansikte med hudproblemet Torr & Känslig hy',
+      image_title: 'Torr & Känslig hy',
+      info: 'Denna hudtyp är benägen att bli torr, stram, röd och irriterad och kan reagera negativt på vissa hudvårdsprodukter, klimatförändringar eller föroreningar. Torr och känslig hud kräver särskilt skonsam vård för att bibehålla dess barriärfunktion och förhindra ytterligare irritation.'
+);
 
 $default_problems = new ProblemArea(
       label: '',
       icon: '',
-      problem_ids: array('akne', 'aknearr', 'arr-fran-finnar', 'bristningar', 'finnar', 'hudforandringar', 'milier', 'mogen-hy', 'oonskat-har', 'operations-skadearr', 'rosacea', 'pormaskar', 'stora-porer', 'blandhy', 'perioral-dermatit', 'seborre', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar',),
+      problem_ids: array('aknearr', 'akne', 'arr-fran-finnar', 'bristningar', 'finnar', 'hudforandringar', 'milier', 'mogen-hy', 'oonskat-har', 'operations-skadearr', 'rosacea', 'pormaskar', 'stora-porer', 'blandhy', 'perioral-dermatit', 'seborre', 'torr-kanslig-hy', 'ytliga-blodkarl', 'pigmentflackar',),
 );
 
 $problem_areas = array(
