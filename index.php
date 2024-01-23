@@ -566,7 +566,7 @@
                         );
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
                         ?>
-                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" title="Se alla AcneSpecialistens hudterapeuter" href="specialists">Se alla specialister</a>
+                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" title="Se alla AcneSpecialistens hudterapeuter" href="specialister">Se alla specialister</a>
                   </section>
                   <section id="brands">
                         <div class="flex-row align-end justify-space-between">
