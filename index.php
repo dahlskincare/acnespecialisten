@@ -46,7 +46,7 @@
                                           </div>
                                           <div>
                                                 <span class="h500">30+</span>
-                                                <div class="p200 l10n">års erfarenhet</div>
+                                                <div class="p200 l10n">Års erfarenhet</div>
                                           </div>
                                           <div>
                                                 <span class="h500">200k+</span>
@@ -70,7 +70,7 @@
                                           <div class="flex-aligner">
                                                 <span class="label-large">30+</span>
                                                 <div>
-                                                      <div class="h400 l10n">års</div>
+                                                      <div class="h400 l10n">Års</div>
                                                       <div class="p200 l10n">erfarenhet</div>
                                                 </div>
                                           </div>
