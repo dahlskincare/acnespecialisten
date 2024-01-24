@@ -179,7 +179,7 @@
                         </div>
                         <div>
                             <strong>30+</strong>
-                            <span class="l10n">År</span>
+                            <span class="l10n">Års erfarenhet</span>
                         </div>
                         <div>
                             <strong>200k+</strong>
