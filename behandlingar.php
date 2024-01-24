@@ -81,7 +81,7 @@ $treatments = array(
     ),
     new Treatment(
         label: 'IPL',
-        url: 'ipl.php',
+        url: 'behandlingar/ipl',
         url_title: 'Läs mer om ipl'
     ),
     new Treatment(
@@ -228,8 +228,8 @@ $service_categories = array(
         booking_url_title: 'Boka tid för ansiktsbehandling',
         consultation_url: 'consultation-booking?problem=acne',
         consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url_label: 'Boka tid',
-        consultation_url_label: 'Boka hudkonsultation'
+        booking_url_label: 'Boka Behandling',
+        consultation_url_label: 'Boka Konsultation'
     ),
     new ServiceCategory(
         url: 'ansiktsbehandlingar.php',
@@ -264,8 +264,8 @@ $service_categories = array(
         booking_url_title: 'Boka tid för ansiktsbehandling',
         consultation_url: 'consultation-booking?service=classicFacials',
         consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url_label: 'Boka tid',
-        consultation_url_label: 'Boka hudkonsultation'
+        booking_url_label: 'Boka Behandling',
+        consultation_url_label: 'Boka Konsultation'
     ),
     new ServiceCategory(
         url: 'behandlingar/dermabrasion',
@@ -319,8 +319,8 @@ $service_categories = array(
         booking_url_title: 'Boka tid för dermabration',
         consultation_url: 'consultation-booking?service=dermabration',
         consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url_label: 'Boka tid',
-        consultation_url_label: 'Boka hudkonsultation'
+        booking_url_label: 'Boka Behandling',
+        consultation_url_label: 'Boka Konsultation'
     ),
     new ServiceCategory(
         url: 'behandlingar/frysbehandling',
@@ -355,11 +355,11 @@ $service_categories = array(
         booking_url_title: 'Boka tid för ansiktsbehandling',
         consultation_url: 'consultation-booking?service=freezeTreat',
         consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url_label: 'Boka tid',
-        consultation_url_label: 'Boka hudkonsultation'
+        booking_url_label: 'Boka Behandling',
+        consultation_url_label: 'Boka Konsultation'
     ),
     new ServiceCategory(
-        url: 'ipl.php',
+        url: 'behandlingar/ipl',
         label: 'IPL',
         content: 'IPL-behandlingar använder intensivt pulserande ljus för att behandla en rad hudproblem, inklusive pigmentfläckar, ytliga blodkärl och rosacea. Denna teknik kan också förbättra hudens övergripande textur och ton.',
         image_small: 'bilder/behandlingar/200x200/ipl.webp',
@@ -429,8 +429,8 @@ $service_categories = array(
         booking_url_title: 'Boka tid för ansiktsbehandling',
         consultation_url: 'consultation-booking?service=ipl',
         consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url_label: 'Boka tid',
-        consultation_url_label: 'Boka hudkonsultation'
+        booking_url_label: 'Boka Behandling',
+        consultation_url_label: 'Boka Konsultation'
     ),
     new ServiceCategory(
         url: 'kemisk-peeling.php',
@@ -484,8 +484,8 @@ $service_categories = array(
         booking_url_title: 'Boka tid för kemisk peeling',
         consultation_url: 'consultation-booking?service=chemicalPeeling',
         consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url_label: 'Boka tid',
-        consultation_url_label: 'Boka hudkonsultation'
+        booking_url_label: 'Boka Behandling',
+        consultation_url_label: 'Boka Konsultation'
     ),
     new ServiceCategory(
         url: 'behandlingar/laser-mot-problemhy',
@@ -539,8 +539,8 @@ $service_categories = array(
         booking_url_title: 'Boka tid för problemhud',
         consultation_url: 'consultation-booking?service=laser',
         consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url_label: 'Boka tid',
-        consultation_url_label: 'Boka hudkonsultation'
+        booking_url_label: 'Boka Behandling',
+        consultation_url_label: 'Boka Konsultation'
     ),
     new ServiceCategory(
         url: 'microneedling.php',
@@ -594,8 +594,8 @@ $service_categories = array(
         booking_url_title: 'Boka tid för ansiktsbehandling',
         consultation_url: 'consultation-booking?service=microneedling',
         consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url_label: 'Boka tid',
-        consultation_url_label: 'Boka hudkonsultation'
+        booking_url_label: 'Boka Behandling',
+        consultation_url_label: 'Boka Konsultation'
     ),
 
     new ServiceCategory(
@@ -650,8 +650,8 @@ $service_categories = array(
         booking_url_title: 'Boka tid för hårborttagning',
         consultation_url: 'consultation-booking?service=laser',
         consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url_label: 'Boka tid',
-        consultation_url_label: 'Boka hudkonsultation'
+        booking_url_label: 'Boka Behandling',
+        consultation_url_label: 'Boka Konsultation'
     ),
     new ServiceCategory(
         url: 'behandlingar/skinbooster',
@@ -684,10 +684,10 @@ $service_categories = array(
         ),
         booking_url: 'treatment-booking?service=skinBooster',
         booking_url_title: 'Boka tid för skinbooster',
-        booking_url_label: 'Boka tid',
+        booking_url_label: 'Boka behandling',
         consultation_url: 'consultation-booking?service=skinBooster',
         consultation_url_title: 'Boka tid för hudkonsultation',
-        consultation_url_label: 'Boka hudkonsultation',
+        consultation_url_label: 'Boka Konsultation',
     ),
     new ServiceCategory(
         url: 'gratis-hudkonsultation.php',
@@ -700,10 +700,10 @@ $service_categories = array(
         services: array(),
         booking_url: 'treatment-booking?service=skinBooster',
         booking_url_title: 'Boka tid för skinbooster',
-        booking_url_label: 'Boka tid',
+        booking_url_label: 'Boka Behandling',
         consultation_url: 'consultation-booking?service=skinBooster',
         consultation_url_title: 'Boka tid för hudkonsultation',
-        consultation_url_label: 'Boka hudkonsultation',
+        consultation_url_label: 'Boka konsultation',
     ),
 );
 
