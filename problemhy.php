@@ -1708,7 +1708,7 @@ $problem_areas = array(
       new ProblemArea(
             label: 'Runt munnen',
             icon: 'mun',
-            problem_ids: array('akne-runt-munnen', 'finnar-munnen', 'pormaskar-munnen', 'pigmentflackar-munnen', 'perioral-dermatit-munnen', 'seborre-munnen', 'hudforandringar-munnen', 'oonskat-har-munnen',)
+            problem_ids: array('akne-runt-munnen', 'finnar-runt-munnen', 'pormaskar-runt-munnen', 'pigmentflackar-runt-munnen', 'perioral-dermatit-runt-munnen', 'seborre-runt-munnen', 'hudforandringar-runt-munnen', 'oonskat-har-runt-munnen',)
       ),
       new ProblemArea(
             label: 'Haka',
