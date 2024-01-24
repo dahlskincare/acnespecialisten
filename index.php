@@ -537,7 +537,7 @@
                         $specialists = array(
                               new Specialist(
                                     name: 'Cazzandra Lindberg',
-                                    title: 'Hudterapeut sedan 2015',
+                                    title: 'Hudterapeut sedan 2018',
                                     image: 'images/specialists/large/hudterapeut-cazzandra.webp',
                                     image_title: 'Hudterapeut Cazzandra Lindberg',
                                     image_alt: 'Porträttbild på hudterapeuten Cazzandra Lindberg',
@@ -551,14 +551,14 @@
                               ),
                               new Specialist(
                                     name: 'Julia Eklund',
-                                    title: 'Hudterapeut sedan 2017',
+                                    title: 'Hudterapeut sedan 2021',
                                     image: 'images/specialists/large/hudterapeut-julia.webp',
                                     image_title: 'Hudterapeut Julia Eklund',
                                     image_alt: 'Porträttbild på hudterapeuten Julia Eklund',
                                 ),
                               new Specialist(
                                     name: 'Vilma Libom',
-                                    title: 'Hudterapeut sedan 2019',
+                                    title: 'Hudterapeut sedan 2022',
                                     image: 'images/specialists/large/hudterapeut-vilma.webp',
                                     image_title: 'Hudterapeut Vilma Libom',
                                     image_alt: 'Porträttbild på hudterapeuten Vilma Libom',
