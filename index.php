@@ -5,6 +5,7 @@
 <head>
       <!-- TODO: Set title and meta tags -->
       <title>AcneSpecialisten | Erfarna Hudspecialister inom hudproblem i Stockholm</title>
+      <meta name="title" content="AcneSpecialisten | Erfarna Hudspecialister inom hudproblem i Stockholm">
       <meta name="description" content="Med över 30 års erfarenhet, erbjuder AcneSpecialisten expertis inom behandling av hudproblem i Stockholm. Boka en kostnadsfri hudkonsultation idag och upplev skillnaden med personligt anpassad hudvård.">
       <meta name="keywords" content="Hudspecialist, Hudspecialist stockholm, Hudvård Stockholm, Acnespecialisten, Hudvårdsexpert, Acnebehandling, Hudproblem, AcneSpecialisten, Personlig hudvård, Hudvårdsklinik Stockholm, Acne konsultation">
 

@@ -1030,6 +1030,7 @@ $brands_url_title = "Varumärken för Aknebehandling";
 
 <head>
       <title><?php echo $seo_title ?></title>
+      <meta name="title" content="<?php echo $seo_title ?>">
       <meta name="description" content="<?php echo $seo_description ?>">
       <meta name="keywords" content="<?php echo $seo_keywords ?>">
 
