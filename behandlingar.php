@@ -714,10 +714,10 @@ $service_categories = array(
 
 <head>
     <!-- TODO: Set title and meta tags -->
-    <title class="l10n">Acnespecialisten | Services</title>
-    <meta name="description" content="" class="l10n">
-    <meta name="title" content="" class="l10n">
-    <meta name="keywords" content="" class="l10n">
+    <title>Hudvårdsbehandlingar i Stockholm | AcneSpecialisten</title>
+    <meta name="title" content="Hudvårdsbehandlingar i Stockholm | AcneSpecialisten">
+    <meta name="description" content="AcneSpecialistens hudvårdsbehandlingar är utvecklade för dig med problemhy. Boka en kostnadsfri konsultation så kan vi hjälpa dig med rätt hudbehandling.">
+    <meta name="keywords" content="Hudvårdsbehandlingar, Skönhetsbehandlingar, Hudbehandlingar">
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
