@@ -1733,10 +1733,10 @@ $path_segments = array(
 
 <head>
       <!-- TODO: Set title and meta tags -->
-      <title>Information och behandling av Hudproblem | Acnespecialisten</title>
-      <meta name="description" content="På Acnespecialisten erbjuder vi effektiva behandlingar mot en rad olika hudproblem, inklusive akne, rosacea, torr hud, och mer. Kontakta oss idag för en konsultation och ta det första steget mot en friskare och mer strålande hud.">
-      <meta name="title" content="Behandling av Hudproblem | Acnespecialisten">
-      <meta name="keywords" content="hudproblem, aknebehandling, rosaceabehandling, torr hud, fet hud, oren hud, ärrbehandling, akneärr, hudspecialist, hudklinik, hudvårdsrutiner">
+      <title class="l10n">Information och behandling av Hudproblem | AcneSpecialisten</title>
+      <meta name="title" content="Information och behandling av Hudproblem | AcneSpecialisten" class="l10n">
+      <meta name="description" content="Läsa mer om olika hudproblem och hur du effektivt behandlar dem. Hos oss på AcneSpecialisten får du alltid gratis hudkonsultation med hudterapeut." class="l10n">
+      <meta name="keywords" content="hudproblem, akne, akneärr, finnar, ärr från finnar, rosacea, ytliga blodkärl, pormaskar, stora porer, blandhy, pigmentfläckar, perioral dermatit, seborré, milier, hudförändringar, mogen hy, torr & känslig hy, bristningar, operations & skadeärr, oönskat hår" class="l10n">
 
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="stylesheet" href="/styles/default-layout.css">
