@@ -16,7 +16,7 @@ $consultation_banner_button_label = 'Boka en gratis hudkonsultation';
             </p>
         </div>
         <div class="column">
-            <a href="gratis-hudkonsultation" class="button b200 white l10n" title="<?php echo $consultation_banner_button_label ?>"><?php echo $consultation_banner_button_label ?></a>
+            <a href="gratis-hudkonsultation.php" class="button b200 white l10n" title="<?php echo $consultation_banner_button_label ?>"><?php echo $consultation_banner_button_label ?></a>
         </div>
     </div>
 </div>
