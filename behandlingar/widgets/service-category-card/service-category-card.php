@@ -27,7 +27,7 @@
             <a href="<?php echo $category->booking_url ?>" title="<?php echo $category->booking_url_title ?>" class="mt-s button expand"><?php echo $category->booking_url_label ?></a>
         </div>
         <div class="is-hidden-mobile">
-            <a href="behandlingar/<?php echo $category->url ?>" class="mt-m button text compact" title="<?php echo $category->read_more_label ?>"><?php echo $category->read_more_label ?></a>
+            <a href="<?php echo $category->url ?>" class="mt-m button text compact" title="<?php echo $category->read_more_label ?>"><?php echo $category->read_more_label ?></a>
             <hr>
             <div class="columns is-multiline">
                 <div class="column mt-xxs is-full is-half-widescreen">
