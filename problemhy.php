@@ -1891,28 +1891,24 @@ $path_segments = array(
                 <?php $faq_categories = array(
                         'Generellt' => array(
                             new Question(
-                                title: 'Behandlar Acnespecialisten enbart akne?',
-                                text: '<p class="p200">Nej, vår expertis sträcker sig bortom behandling av enbart akne. Vi hanterar en bred variation av hudproblem, inklusive akne, rosacea, pormaskar, pigmentfläckar, ytliga blodkärl och mycket mer. För en fullständig översikt över de hudproblem vi behandlar, besök vår <a class="b200 underline color-deep-sea-400" href="problemhy.php">problemsida</a> Om du är osäker på vilket hudproblem du har, erbjuder vi en kostnadsfri konsultation där våra erfarna hudspecialister kan ge dig råd och vägledning.</p>'
+                                title: 'Vad ska jag göra om jag är osäker på vilket hudproblem jag har?',
+                                text: '<p class="p200">Om du är osäker på vilket hudproblem du upplever, rekommenderar vi en kostnadsfri hudkonsultation med en av våra erfarna hudterapeuter. De kan ge dig en professionell bedömning och en personlig behandlingsplan baserat på din hudtyp och dess specifika problem.</p>'
                             ),
                             new Question(
-                                title: 'Kan jag besöka Acnespecialisten även för mindre hudproblem?',
-                                text: '<p class="p200">Absolut, vi välkomnar alla, oavsett hur litet eller stort ditt hudproblem är. Även en enstaka finne är värd vår uppmärksamhet. Vi erbjuder kostnadsfria hudkonsultationer, som kan genomföras antingen via videosamtal eller på någon av våra tre kliniker i Stockholm.</p>'
+                                title: 'Behandlar AcneSpecialisten alla typer av hudproblem?',
+                                text: '<p class="p200">AcneSpecialisten har en bred expertis inom många olika hudproblem, inklusive men inte begränsat till akne, rosacea, pormaskar och de andra hudtyper som listas på den här sidan. Vi erbjuder skräddarsydda behandlingar och råd för en mängd olika hudtillstånd. Boka en konsultation hos oss så berättar vi mer om hur vi kan hjäpla dig.</p>'
                             ),
                             new Question(
-                                title: 'Varför erbjuder Acnespecialisten gratis konsultationer?',
-                                text: '<p class="p200">Vi erbjuder gratis konsultationer för att ge dig en djupare förståelse för din hudtyp och de mest effektiva metoderna för att behandla den. Vår prioritet är att du får omfattande information om behandlingsprocessen och hur vi kan hjälpa dig i att uppnå önskade resultat med rätt behandlingar och produkter.</p>'
+                                title: 'Hur går jag tillväga för att behandla mitt hudproblem?',
+                                text: '<p class="p200">För att hitta den mest effektiva behandlingen för ditt specifika hudproblem, börjar vi med en grundlig hudanalys under en konsultation. Utifrån denna analys kan vi sedan rekommendera en anpassad behandlingsplan och hudvårdssrutiner som är skräddarsydda för din huds unika behov.</p>'
                             ),
                             new Question(
-                                title: 'Finns Acnespecialisten endast i Stockholm?',
-                                text: '<p class="p200">Just nu har vi enbart fysiska kliniker i Stockholm. Men oavsett var du befinner dig, kan vi erbjuda hjälp genom vår onlinekonsultation. Genom denna service får du möta en av våra erfarna hudterapeuter digitalt. För många hudproblem kan effektiva lösningar implementeras hemma. Skulle det krävas ett personligt besök på kliniken, kan det vara värt resan för att få den rätta behandlingen efter en initial onlinekonsultation.</p>'
+                                title: 'Vad kan jag göra om jag plötsligt utvecklar problemhy?',
+                                text: '<p class="p200">Om du plötsligt börjar uppleva hudproblem, är det viktigt att först identifiera orsaken. Detta kan göras genom en professionell hudanalys hos en av våra hudterapeuter. De kan också ge dig skräddarsydda råd och behandlingsalternativ för att effektivt hantera ditt specifika hudtillstånd.</p>'
                             ),
                             new Question(
-                                title: 'Är personalen på Acnespecialisten hudläkare?',
-                                text: '<p class="p200">Vi är professionella hudterapeuter, inte hudläkare. Vår personal har lång erfarenhet och expertis i att behandla problemhud med de senaste metoderna och teknikerna. Vi är specialiserade på att erbjuda effektiva hudvårdsbehandlingar och rådgivning.</p>'
-                            ),
-                            new Question(
-                                title: 'Vilken utbildning har hudterapeuterna hos Acnespecialisten?',
-                                text: '<p class="p200">Alla våra hudterapeuter har genomgått utbildning vid en av Sveriges Hudterapeuters Riksorganisations (SHR) godkända skolor. Många av dem är dessutom CIDESCO-certifierade, vilket är en internationellt erkänd kvalifikation. Denna höga utbildningsstandard säkerställer att vi är väl förberedda för att effektivt hjälpa personer med olika hudproblem.</p>'
+                                title: 'Vad händer om mitt hudproblem inte finns listat på er hemsida?',
+                                text: '<p class="p200">Om ditt specifika hudproblem inte finns listat på vår hemsida, tveka inte att kontakta oss för en personlig konsultation. Våra hudterapeuter har bred erfarenhet och kan ofta erbjuda hjälp och rådgivning även för ovanliga eller sällsynta hudtillstånd. Vi är här för att hjälpa dig med alla dina hudvårdsbehov.</p>'
                             ),
                         ),
 
