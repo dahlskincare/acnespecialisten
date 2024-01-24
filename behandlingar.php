@@ -803,7 +803,32 @@ $service_categories = array(
                         <?php icon('navigate-next') ?>
                     </a>
                 </div>
-                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
+                <?php $faq_categories = array(
+                        'Generellt' => array(
+                            new Question(
+                                title: 'Vad ska jag göra om jag är osäker på vilket hudproblem jag har?',
+                                text: '<p class="p200">Om du är osäker på vilket hudproblem du upplever, rekommenderar vi en kostnadsfri hudkonsultation med en av våra erfarna hudterapeuter. De kan ge dig en professionell bedömning och en personlig behandlingsplan baserat på din hudtyp och dess specifika problem.</p>'
+                            ),
+                            new Question(
+                                title: 'Behandlar AcneSpecialisten alla typer av hudproblem?',
+                                text: '<p class="p200">AcneSpecialisten har en bred expertis inom många olika hudproblem, inklusive men inte begränsat till akne, rosacea, pormaskar och de andra hudtyper som listas på den här sidan. Vi erbjuder skräddarsydda behandlingar och råd för en mängd olika hudtillstånd. Boka en konsultation hos oss så berättar vi mer om hur vi kan hjäpla dig.</p>'
+                            ),
+                            new Question(
+                                title: 'Hur går jag tillväga för att behandla mitt hudproblem?',
+                                text: '<p class="p200">För att hitta den mest effektiva behandlingen för ditt specifika hudproblem, börjar vi med en grundlig hudanalys under en konsultation. Utifrån denna analys kan vi sedan rekommendera en anpassad behandlingsplan med behandlingar och hudvårdssrutiner som är skräddarsydda för din huds unika behov.</p>'
+                            ),
+                            new Question(
+                                title: 'Vad kan jag göra om jag plötsligt utvecklar problemhy?',
+                                text: '<p class="p200">Om du plötsligt börjar uppleva hudproblem, är det viktigt att först identifiera orsaken. Detta kan göras genom en professionell hudanalys hos en av våra hudterapeuter. De kan också ge dig skräddarsydd rådgivning och behandlingsalternativ för att effektivt hantera ditt specifika hudtillstånd.</p>'
+                            ),
+                            new Question(
+                                title: 'Vad händer om mitt hudproblem inte finns listat på er hemsida?',
+                                text: '<p class="p200">Om ditt specifika hudproblem inte finns listat på vår hemsida, tveka inte att kontakta oss för en personlig konsultation. Våra hudterapeuter har bred erfarenhet och kan ofta erbjuda hjälp och rådgivning även för ovanliga eller sällsynta hudtillstånd. Vi är här för att hjälpa dig med alla dina hudvårdsbehov.</p>'
+                            ),
+                        ),
+
+                  );
+                  include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
                 <a class="mt-xl button outline expand is-hidden-tablet l10n" href="fragor-svar.php" title="Se alla frågor">Se alla frågor</a>
             </div>
         </section>
@@ -820,33 +845,33 @@ $service_categories = array(
                 <?php
                 $specialists = array(
                     new Specialist(
-                        name: 'Cazzandra Lindberg',
-                        title: 'Hudterapeut sedan 2015',
-                        image: 'images/specialists/large/hudterapeut-cazzandra.webp',
-                        image_alt: 'Cazzandra Lindberg',
-                        image_title: 'Cazzandra Lindberg'
-                    ),
-                    new Specialist(
-                        name: 'Veronika Benedik',
-                        title: 'Hudterapeut sedan 1999',
-                        image: 'images/specialists/large/hudterapeut-veronika.webp',
-                        image_alt: 'Veronika Benedik',
-                        image_title: 'Veronika Benedik'
-                    ),
-                    new Specialist(
-                        name: 'Julia Eklund',
-                        title: 'Hudterapeut sedan 2017',
-                        image: 'images/specialists/large/hudterapeut-julia.webp',
-                        image_alt: 'Julia Eklund',
-                        image_title: 'Julia Eklund',
-                    ),
-                    new Specialist(
-                        name: 'Vilma Libom',
-                        title: 'Hudterapeut sedan 2019',
-                        image: 'images/specialists/large/hudterapeut-vilma.webp',
-                        image_alt: 'Vilma Libom',
-                        image_title: 'Vilma Libom'
-                    )
+                            name: 'Cazzandra Lindberg',
+                            title: 'Hudterapeut sedan 2018',
+                            image: 'images/specialists/large/hudterapeut-cazzandra.webp',
+                            image_title: 'Hudterapeut Cazzandra Lindberg',
+                            image_alt: 'Porträttbild på hudterapeuten Cazzandra Lindberg',
+                      ),
+                      new Specialist(
+                            name: 'Veronika Benedik',
+                            title: 'Hudterapeut sedan 1999',
+                            image: 'images/specialists/large/hudterapeut-veronika.webp',
+                            image_title: 'Hudterapeut Veronika Benedik',
+                            image_alt: 'Porträttbild på hudterapeuten Veronika Benedik',
+                      ),
+                      new Specialist(
+                            name: 'Julia Eklund',
+                            title: 'Hudterapeut sedan 2021',
+                            image: 'images/specialists/large/hudterapeut-julia.webp',
+                            image_title: 'Hudterapeut Julia Eklund',
+                            image_alt: 'Porträttbild på hudterapeuten Julia Eklund',
+                        ),
+                      new Specialist(
+                            name: 'Vilma Libom',
+                            title: 'Hudterapeut sedan 2022',
+                            image: 'images/specialists/large/hudterapeut-vilma.webp',
+                            image_title: 'Hudterapeut Vilma Libom',
+                            image_alt: 'Porträttbild på hudterapeuten Vilma Libom',
+                      ),
                 );
                 include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
                 ?>
