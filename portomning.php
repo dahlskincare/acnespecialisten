@@ -75,25 +75,12 @@ $description_text = '<p class="p200">Våra ansiktsbehandlingar är specialanpass
 $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelser inför portömning',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Förberedelser inför portömning',
         image_title: 'Förberedelser inför portömning',
         content: '<p class="p200">Du är alltid välkommen att komma som du är till en portömning hos oss på AcneSpecialisten. Dock kan några enkla förberedelser optimera effekten av din behandling. Vi råder dig att, om möjligt, undvika hudvårdsprodukter med starka ingredienser eller exfolierande syror några dagar före din behandling för att minska risken för irritation och göra din hud mer mottaglig för behandlingen.</p>
             <p class="p200 mt-m">Vi har inte heller några krav på att du ska komma osminkad utan detta kan vi hjäpla dig att tvätta bort i samband med att behandlingen inleds. Vi ser fram emot att ta emot dig och erbjuda en skräddarsydd behandlingsplan, anpassad efter dina behov, oavsett om det är för pormaskar i ansiktet, på bröstet eller ryggen.</p>',
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Steam'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraction'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Cleansing'
-        ))
     ),
 );
 
@@ -148,53 +135,27 @@ $treatment_areas = array(
 $bottom_articles = array(
     'process' => new Article(
         title: 'Hur går en portömning till?',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Hur går en portömning till?',
         image_title: 'Hur går en portömning till?',
         content: '<p class="p200">Portömning är en noggrann rengöringsprocess med målet att djuprengöra porerna och avlägsna orenheter som pormaskar, vilket bidrar till en jämnare hudton och textur. Behandlingen påbörjas med att huden varsamt rengörs för att tvätta bort yttre orenheter såsom talg och smuts, följt av en peelingtvätt som exfolierar och tar bort döda hudceller. Denna exfoliering är viktig då den förbereder huden genom att öppna upp porerna, vilket gör dem redo för den följande djuprengöringen.</p>
         <p class="p200 mt-m">Efter peelingen tillämpas en mild ångbehandling med hjälp av en Vapozon. Ångan mjukar upp huden och öppnar porerna ytterligare, vilket gör det enklare att ta bort pormaskar och andra blockeringar. Detta steg är avgörande eftersom det förbereder huden för den manuella portömningen där en terapeut varsamt tömmer porerna. För de mest envisa tilltäppningarna kan en lansett användas för att försiktigt göra en öppning och möjliggöra en mer effektiv rengöring.</p>
         <p class="p200 mt-m">Efter den manuella rengöringen lugnas huden med en specialanpassad lermask, som har förmågan att minska rodnad och dra ihop porerna, vilket efterlämnar en slät och jämn hud. Avslutningsvis återfuktas huden med en närande dagkräm. Denna sista fas av behandlingen är viktig för hudens återhämtning och för att skapa en skyddande barriär mot yttre miljöfaktorer. Genom hela processen är målet inte bara att rengöra porerna utan också att återställa hudens naturliga balans och förebygga framtida hudproblem.</p>',
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Steam'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraction'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Cleansing'
-        ))
     ),
     'boost' => new Article(
         title: 'Boosta din portömning med laser',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Förbättra portömning med laser',
         image_title: 'Förbättra portömning med laser',
         content: '<p class="p200">I strävan att förbättra och maximera effekten av portömningar erbjuder vi på vår klinik en banbrytande kombination av traditionell rengöring och avancerad laserbehandling. Genom att integrera en lasersession med din portömning, intensifieras behandlingen vilket leder till en djupare rening och kan bidra till att effektivt minska synligheten av pormaskar och fina linjer, samt främja en slätare och mer jämn hudton.</p>
         <p class="p200 mt-m">För att förbereda din hud för denna kraftfulla behandling, rekommenderar vi att du undviker produkter som kan irritera huden, som de som innehåller exfolierande syror och retinol, innan din session. Medan det inte är ett krav att du anländer utan makeup, så hjälper ett omakeupat ansikte oss att utföra en omedelbar och grundlig hudanalys. Vårt team är här för att ge dig en personligt anpassad upplevelse som inte bara rengör dina porer på djupet utan också använder laserens kraft för att ge din hud en extra boost och därmed tackla dina hudbekymmer mer heltäckande, vare sig det är på ansiktet, bröstet eller ryggen.</p>',
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Steam'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraction'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Cleansing'
-        ))
     ),
     'aftercare' => new Article(
         title: 'Eftervård och underhåll efter porrengöring',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Eftervård och underhåll',
         image_title: 'Eftervård och underhåll',
         content: '<p class="p200">Efter en noggrann portömning hos Acnespecialisten är rätt eftervård avgörande för att upprätthålla resultaten och främja hudens läkning. Vi rekommenderar att efter behandlingen fortsätter du med en daglig hudvårdsrutin som omfattar produkter särskilt anpassade för att vårda och balansera porerna efter tömning. För detta ändamål rekommenderar vi produkter från DAHL Skincare, som stöder balansen i din hud och arbetar för att avlägsna och minimera pormaskar.</p>
@@ -204,29 +165,30 @@ $bottom_articles = array(
 );
 
 $treatment_steps = array(
-    new TreatmentStep(
-        title: 'Identifiera',
-        content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera dina pormaskar och skapar en individuell behandlingsplan.',
-        url: 'gratis-hudkonsultation',
-        url_label: 'Få gratis konsultation',
-        url_title: 'Boka din kostnadsfria hudkonsultation idag'
-    ),
-    new TreatmentStep(
-        title: 'Behandla',
-        content: 'Vi utför skonsamma och effektiva portömning anpassade för dina pormaskar, så att du snabbt och säkert blir av med problemet.',
-        url: 'behandlingar/pormaskar',
-        url_label: 'Se portömning',
-        url_title: 'Utforska våra skräddarsydda portömning'
-    ),
-    new TreatmentStep(
-        title: 'Förebygga',
-        content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga nya pormaskar och hålla din hud i balans.',
-        url: 'https://dahlskincare.se/produktkategorier/produktpaket/pormaskar',
-        url_label: 'Se produkter',
-        url_title: 'Hitta de bästa produkterna för att förebygga pormaskar'
-    ),
+      new TreatmentStep(
+            title: 'Identifiera',
+            content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera dina pormaskar och skapar en individuell behandlingsplan.',
+            url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
+            url_label: 'Få gratis konsultation',
+            url_title: 'Boka din kostnadsfria hudkonsultation idag'
+      ),
+      new TreatmentStep(
+            title: 'Behandla',
+            content: 'Vi utför skonsamma och effektiva portömning anpassade för dina pormaskar, så att du snabbt och säkert blir av med problemet.',
+            url: 'problem/pormaskar/pormaskbehandling',
+            url_label: 'Se portömning',
+            url_title: 'Utforska våra skräddarsydda portömning'
+      ),
+      new TreatmentStep(
+            title: 'Förebygga',
+            content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga nya pormaskar och hålla din hud i balans.',
+            url: 'https://dahlskincare.se/produktkategorier/produktpaket/pormaskar',
+            url_label: 'Se produkter',
+            url_title: 'Hitta de bästa produkterna för att förebygga pormaskar'
+      ),
 
 );
+$treatment_link = '<a href="problem/pormaskar/pormaskbehandling" title="Utforska effektiv portömning" class="mt-xl button b200 outline expand auto-width">Läs mer om vår pormaskbehandling</a>';
 
 $results = array(
     new ResultCustomer(
@@ -778,7 +740,7 @@ $all_brands = array(
                 <section id="fragor-svar.php" class="large-margin">
                     <h2 class="big l10n"><?php echo $faq_title ?></h2>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="faq" title="Se alla frågor"><?php echo $faq_view_more ?></a>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" href="fragor-svar.php" title="Se alla frågor"><?php echo $faq_view_more ?></a>
                 </section>
                 <!--Hudguide-->
                 <section id="specialists" class="large-margin">
