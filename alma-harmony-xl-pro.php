@@ -370,7 +370,7 @@ $service_brands = array(
 
     new Brand(
         label: 'Alma Rejuve DyeVL',
-        image: 'images/brands/alma-rejuve-dyevl.svg',
+        image: 'images/brands/rejuve-dyevl.svg',
         image_alt: 'Alma Rejuve DyeVL',
         image_title: 'Alma Rejuve DyeVL',
     ),

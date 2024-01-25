@@ -349,13 +349,13 @@ $service_brands = array(
 
     new Brand(
         label: 'Alma Rejuve DyeVL',
-        image: 'images/brands/alma-rejuve-dyevl.svg',
+        image: 'images/brands/rejuve-dyevl.svg',
         image_alt: 'Alma Rejuve DyeVL',
         image_title: 'Alma Rejuve DyeVL',
     ),
     new Brand(
         label: 'Alma Harmony XL Pro',
-        image: 'images/brands/alma-harmony-xl-pro.svg',
+        image: 'images/brands/alma-harmony-xl-pro.png',
         image_alt: 'Alma Harmony XL Pro',
         image_title: 'Alma Harmony XL Pro',
     ),
