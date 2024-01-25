@@ -13,8 +13,7 @@ $model = new Service(
     title: 'PRX-T33',
     duration: '30 min',
     price: null,
-    content: '<p class="p200">På AcneSpecialisten är vi stolta över att erbjuda PRX-T33, en avancerad form av kemisk peeling som specialiserar sig på att effektivt förbättra hudens utseende och kvalitet. Denna innovativa behandling är särskilt lämplig för dig som vill adressera hudproblem såsom acneärr, bristningar, melasma, pigmentfläckar, pormaskar, stora porer, samt rynkor och fina linjer. Vår PRX-T33-behandling är utformad för att vara både skonsam och kraftfull, vilket möjliggör en betydande förbättring av hudens struktur och ton utan den avskalning som ofta förekommer vid traditionell kemisk peeling.</p>
-    <p class="p200 mt-m">Varje PRX-T33-behandling på AcneSpecialisten är anpassad efter klientens individuella hudbehov, med målet att erbjuda en säker och icke-invasiv väg till en klarare, mer jämn och strålande hud. Vårt engagemang för expertis och kvalitet garanterar att varje klient upplever en märkbar förbättring i sin hudkvalitet, tack vare våra effektiva och professionellt genomförda behandlingar.</p>',
+    content: '<p class="p200">På AcneSpecialisten är vi stolta över att erbjuda PRX-T33, en avancerad form av kemisk peeling som specialiserar sig på att effektivt förbättra hudens utseende och kvalitet. Denna innovativa behandling är särskilt lämplig för dig som vill adressera hudproblem såsom acneärr, bristningar, melasma, pigmentfläckar, pormaskar, stora porer, samt rynkor och fina linjer. Vår PRX-T33-behandling är utformad för att vara både skonsam och kraftfull, vilket möjliggör en betydande förbättring av hudens struktur och ton utan den avskalning som ofta förekommer vid traditionell kemisk peeling.</p>',
     image_small: 'bilder/varumarken/358x274/prx-t33.webp',
     image_large: 'bilder/varumarken/424x456/prx-t33.webp',
     image_alt: 'PRX-T33 behandlingar',
@@ -53,6 +52,8 @@ $model = new Service(
     ),
 );
 
+$floating_box = 'Effektiv nålbehandling som förbättrar hudens struktur.';
+
 $nav_buttons = array(
     'about' => 'Om PRX-T33',
     'preparing' => 'Förberedelser',
@@ -75,49 +76,22 @@ $description_text = '<p class="p200">PRX-T33, som erbjuds hos AcneSpecialisten, 
 $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelser inför PRX-T33-behandling',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Förberedelser inför PRX-T33-behandling',
         image_title: 'Förberedelser inför PRX-T33-behandling',
         content: '<p class="p200">För att förbereda dig optimalt för din PRX-T33-behandling hos AcneSpecialisten, rekommenderar vi att du följer några enkla men viktiga steg. Börja med att undvika exfoliering av huden några dagar före din behandling. Eftersom PRX-T33 agerar djupt på huden, är det bäst att låta huden vara så orörd som möjligt innan peelingen.</p>
         <p class="p200 mt-m">Det är också viktigt att skydda din hud mot solen och undvika att använda brun-utan-sol-produkter veckan före din behandling. Denna försiktighetsåtgärd minskar risken för oönskade reaktioner och säkerställer att din hud är i bästa skick för att ta emot behandlingen. Vidare, informera din hudterapeut om eventuella mediciner du använder eller om du har några aktuella hudtillstånd, så att behandlingen kan anpassas på ett säkert och effektivt sätt. Tveka inte att kontakta oss om du har några frågor eller oro inför din PRX-T33-behandling – vi är här för att se till att din upplevelse blir så bekväm och givande som möjligt.</p>',
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Ånga'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraktion'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Rengöring'
-        ))
     ),
     'process' => new Article(
         title: 'Hur går behandling med PRX-T33 till?',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Hur går behandling med PRX-T33 till?',
         image_title: 'Hur går behandling med PRX-T33 till?',
         content: '<p class="p200">På AcneSpecialisten tar vi hudvården till nästa nivå med PRX-T33, en innovativ kemisk peeling som är skräddarsydd för att återuppliva och förbättra din hud. Vi förstår att varje persons hud är unik, och därför är varje PRX-T33-behandling noggrant anpassad efter dina specifika behov och hudtillstånd.</p>
         <p class="p200 mt-m">Behandlingen inleds med en noggrann rengöring av huden för att skapa en optimal grund för peelingen. Därefter appliceras PRX-T33-lösningen varsamt på huden. Denna unika formula är utformad för att djupgående exfoliera utan att orsaka den avskalning som traditionella kemiska peelings kan ge. Du kan känna en mild stickande känsla, men processen är i stort sett smärtfri tack vare PRX-T33:s avancerade sammansättning.</p>
         <p class="p200 mt-m">Efter att peelingen har verkat i rätt tid, följer en lugnande fas där vi applicerar en återfuktande och lugnande mask för att maximera komforten och minimera eventuell rodnad. Slutligen avslutas behandlingen med en närande kräm som hjälper till att återställa hudens fuktbalans och ger en omedelbar lyster. Med PRX-T33-behandlingen hos AcneSpecialisten kan du förvänta dig en snabb och effektiv förbättring av hudens textur och utseende, utan den nedtid som associeras med traditionell kemisk peeling.</p>',
-
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Ånga'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraktion'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Rengöring'
-        ))
     ),
 );
 
@@ -129,8 +103,8 @@ $big_types = array(
         content: '<p class="p200">PRX-T33 är en innovativ kemisk peeling som erbjuder exceptionella resultat för att bekämpa tecken på åldrande, som rynkor, fina linjer, pigmenteringar och bristningar. Denna avancerade behandling är utformad för att ge intensiv förnyelse och förbättring av hudens struktur och ton utan den avskalning som traditionella peelings kan medföra.</p>
         <p class="p200 mt-m">Under PRX-T33-behandlingen appliceras en speciell lösning som verkar djupt in i huden för att stimulera kollagenproduktionen och förnya hudcellerna. Detta bidrar till att effektivt minska tecken på åldrande och förbättra hudens övergripande utseende. Unikt för PRX-T33 är dess förmåga att ge dramatiska resultat utan längre återhämtningstid, vilket gör den idealisk för de som önskar snabba, märkbara förbättringar.</p>
         <p class="p200 mt-m">PRX-T33 är särskilt lämplig för de som vill återställa hudens lyster och ungdomliga utstrålning. Dess skonsamma men effektiva formula säkerställer en behaglig behandlingsupplevelse, vilket gör den till ett utmärkt val för de som söker en kraftfull men icke-invasiv lösning för att förbättra hudens kvalitet.</p>',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'PRX-T33',
         image_title: 'PRX-T33',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_PRXT33',
@@ -139,7 +113,6 @@ $big_types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_PRX',
         booking_url_label: 'Boka PRX-T33',
         booking_url_title: 'Boka PRX-T33',
-        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
         procedures: array(
             new Procedure(
                 label: '1 behandling',
@@ -173,8 +146,8 @@ $types = array(
         duration: '30 min',
         price: '1995 kr',
         content: 'Effektiv behandling för att ljusa upp och behandla melasma, vilket ger en jämnare och klarare hudton.',
-        image_small: 'https://via.placeholder.com/102x102.jpg',
-        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_small: 'bilder/problem/102x102/melasma.jpg',
+        image_large: 'bilder/problem/200x200/melasma.jpg',
         image_alt: 'Kemisk Peeling mot Melasma',
         image_title: 'Kemisk Peeling mot Melasma',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_PRXT33',
@@ -189,8 +162,8 @@ $types = array(
         duration: '30 min',
         price: '1995 kr',
         content: 'Denna behandling riktar sig mot pigmentfläckar, vilket hjälper till att jämföra hudton och reducera synliga fläckar.',
-        image_small: 'https://via.placeholder.com/102x102.jpg',
-        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_small: 'bilder/problem/102x102/pigmentflackar.jpg',
+        image_large: 'bilder/problem/200x200/pigmentflackar.jpg',
         image_alt: 'Kemisk Peeling mot Pigmentfläckar',
         image_title: 'Kemisk Peeling mot Pigmentfläckar',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_PRXT33',
@@ -205,8 +178,8 @@ $types = array(
         duration: '30 min',
         price: '1995 kr',
         content: 'Denna peelingbehandling hjälper till att minska synligheten av bristningar, vilket förbättrar hudens struktur och utseende.',
-        image_small: 'https://via.placeholder.com/102x102.jpg',
-        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_small: 'bilder/problem/102x102/bristningar.jpg',
+        image_large: 'bilder/problem/200x200/bristningar.jpg',
         image_alt: 'Kemisk Peeling mot Bristningar',
         image_title: 'Kemisk Peeling mot Bristningar',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_PRXT33',
@@ -221,8 +194,8 @@ $types = array(
         duration: '30 min',
         price: '1995 kr',
         content: 'Anpassad för att behandla åldrande hud, denna peeling minskar rynkor och fina linjer, vilket ger en mer ungdomlig och slät hud.',
-        image_small: 'https://via.placeholder.com/102x102.jpg',
-        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_small: 'bilder/problem/102x102/mogen-hy.jpg',
+        image_large: 'bilder/problem/200x200/mogen-hy.jpg',
         image_alt: 'Kemisk Peeling mot Rynkor och Fina Linjer',
         image_title: 'Kemisk Peeling mot Rynkor och Fina Linjer',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_PRXT33',
@@ -237,8 +210,8 @@ $types = array(
         duration: '30 min',
         price: null,
         content: 'Vår specialanpassade kemiska peeling är utformad för att effektivt behandla och minska synligheten av acneärr. Denna behandling arbetar på djupet för att jämna ut både ytan och hudtonen där ärrbildning har skett.',
-        image_small: 'https://via.placeholder.com/102x102.jpg',
-        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_small: 'bilder/problem/102x102/acnearr.jpg',
+        image_large: 'bilder/problem/200x200/acnearr.jpg',
         image_alt: 'Kemisk peeling mot acneärr',
         image_title: 'Kemisk peeling mot acneärr',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_PRXT33',
@@ -253,8 +226,8 @@ $types = array(
         duration: '30 min',
         price: '1595 kr',
         content: 'Specialiserad peeling för att behandla aktiv akne. Hjälper till att rengöra porer, minska inflammation och förhindra framtida utbrott.',
-        image_small: 'https://via.placeholder.com/102x102.jpg',
-        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_small: 'bilder/problem/102x102/acne.jpg',
+        image_large: 'bilder/problem/200x200/acne.jpg',
         image_alt: 'Kemisk Peeling mot Aktiv Akne',
         image_title: 'Kemisk Peeling mot Aktiv Akne',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_PRXT33',
@@ -269,8 +242,8 @@ $types = array(
         duration: '30 min',
         price: '1595 kr',
         content: 'Denna behandling är idealisk för att djuprengöra huden, minska synligheten av pormaskar och förminska stora porer, vilket bidrar till en jämnare hudton och textur.',
-        image_small: 'https://via.placeholder.com/102x102.jpg',
-        image_large: 'https://via.placeholder.com/200x200.jpg',
+        image_small: 'bilder/problem/102x102/stora-porer.jpg',
+        image_large: 'bilder/problem/200x200/stora-porer.jpg',
         image_alt: 'Kemisk Peeling mot Pormaskar och Stora Porer',
         image_title: 'Kemisk Peeling mot Pormaskar och Stora Porer',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_PRXT33',
@@ -661,9 +634,7 @@ $all_brands = array(
                                 <span class="p200 l10n">Längd: <?php echo $model->duration ?></span>
                             </div>
                         <?php } ?>
-                        <?php if (strlen($model->content) > 0) { ?>
-                            <div class="mt-m"><?php echo $model->content ?></div>
-                        <?php } ?>
+                        <div class="mt-m"><?php echo $floating_box ?></div>
                         <?php if (isset($model->procedures)) { ?>
                             <div id="floating-procedures" class="mt-xl">
                                 <?php foreach ($model->procedures as $procedure) { ?>
