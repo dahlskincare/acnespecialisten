@@ -151,10 +151,10 @@ $types = array(
         image_alt: 'Kemisk Peeling mot Melasma',
         image_title: 'Kemisk Peeling mot Melasma',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_PRXT33',
-        consultation_url_label: 'Boka tid för konsultation om Melasma',
+        consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka tid för konsultation om Melasma',
         booking_url: 'https://acnespecialisten.se/book?flow=prx&skipable_problem=Problem_Melasma',
-        booking_url_label: 'Boka Kemisk Peeling för Melasma',
+        booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Kemisk Peeling för Melasma',
     ),
     new Service(
@@ -167,10 +167,10 @@ $types = array(
         image_alt: 'Kemisk Peeling mot Pigmentfläckar',
         image_title: 'Kemisk Peeling mot Pigmentfläckar',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_PRXT33',
-        consultation_url_label: 'Boka tid för konsultation om Pigmentfläckar',
+        consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka tid för konsultation om Pigmentfläckar',
         booking_url: 'https://acnespecialisten.se/book?flow=prx&skipable_problem=Problem_PigmentationSpots',
-        booking_url_label: 'Boka Kemisk Peeling mot Pigmentfläckar',
+        booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Kemisk Peeling mot Pigmentfläckar',
     ),
     new Service(
@@ -183,10 +183,10 @@ $types = array(
         image_alt: 'Kemisk Peeling mot Bristningar',
         image_title: 'Kemisk Peeling mot Bristningar',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_PRXT33',
-        consultation_url_label: 'Boka tid för konsultation om Bristningar',
+        consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka tid för konsultation om Bristningar',
         booking_url: 'https://acnespecialisten.se/book?flow=prx&skipable_problem=Problem_StrechMarks',
-        booking_url_label: 'Boka Kemisk Peeling mot Bristningar',
+        booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Kemisk Peeling mot Bristningar',
     ),
     new Service(
@@ -199,10 +199,10 @@ $types = array(
         image_alt: 'Kemisk Peeling mot Rynkor och Fina Linjer',
         image_title: 'Kemisk Peeling mot Rynkor och Fina Linjer',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_PRXT33',
-        consultation_url_label: 'Boka tid för konsultation om Rynkor och Fina Linjer',
+        consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka tid för konsultation om Rynkor och Fina Linjer',
         booking_url: 'https://acnespecialisten.se/book?flow=prx&skipable_problem=Problem_Wrinkles',
-        booking_url_label: 'Boka Kemisk Peeling mot Rynkor och Fina Linjer',
+        booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Kemisk Peeling mot Rynkor och Fina Linjer',
     ),
     new Service(
@@ -215,10 +215,10 @@ $types = array(
         image_alt: 'Kemisk peeling mot acneärr',
         image_title: 'Kemisk peeling mot acneärr',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_PRXT33',
-        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
         booking_url: 'https://acnespecialisten.se/book?flow=prx&skipable_problem=Problem_AcneScars',
-        booking_url_label: 'Boka kemisk peeling mot acneärr',
+        booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka kemisk peeling mot acneärr',
     ),
     new Service(
@@ -231,10 +231,10 @@ $types = array(
         image_alt: 'Kemisk Peeling mot Aktiv Akne',
         image_title: 'Kemisk Peeling mot Aktiv Akne',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_PRXT33',
-        consultation_url_label: 'Boka tid för konsultation om Aktiv Akne',
+        consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka tid för konsultation om Aktiv Akne',
         booking_url: 'https://acnespecialisten.se/book?flow=prx&skipable_problem=Problem_Acne',
-        booking_url_label: 'Boka Kemisk Peeling mot Aktiv Akne',
+        booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Kemisk Peeling mot Aktiv Akne',
     ),
     new Service(
@@ -247,10 +247,10 @@ $types = array(
         image_alt: 'Kemisk Peeling mot Pormaskar och Stora Porer',
         image_title: 'Kemisk Peeling mot Pormaskar och Stora Porer',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_PRXT33',
-        consultation_url_label: 'Boka tid för konsultation om Pormaskar och Stora Porer',
+        consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka tid för konsultation om Pormaskar och Stora Porer',
         booking_url: 'https://acnespecialisten.se/book?flow=prx&skipable_problem=Problem_LargePores',
-        booking_url_label: 'Boka Kemisk Peeling mot Pormaskar och Stora Porer',
+        booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Kemisk Peeling mot Pormaskar och Stora Porer',
     ),
 );
@@ -259,8 +259,8 @@ $treatment_areas_title = 'Behandlingsområden för PRX-T33';
 $treatment_areas_text = '<p class="p200">PRX-T33 är en avancerad form av kemisk peeling som effektivt används för att behandla och förbättra hudens tillstånd i olika områden. Denna unika behandling är särskilt lämplig för ansiktet, halsen, dekolletaget och ryggen, där den kan bidra till att förbättra hudens textur och utseende.</p>';
 $treatment_areas = array(
     new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_small: null,
+        image_large: null,
         image_alt: 'Ansikte & kropp',
         image_title: 'Ansikte & kropp',
         title: 'Ansikte & kropp',
@@ -327,8 +327,8 @@ $treatment_areas = array(
 
 $bottom_articles = array('aftercare' => new Article(
     title: 'Eftervård vid PRX-T33',
-    image_small: 'https://via.placeholder.com/358x272.webp',
-    image_large: 'https://via.placeholder.com/872x456.webp',
+    image_small: null,
+    image_large: null,
     image_alt: 'Eftervård vid PRX-T33',
     image_title: 'Eftervård vid PRX-T33',
     content: '<p class="p200"><p class="p200">Eftervård är avgörande för att maximera resultaten av din kemiska peeling. För att underhålla och förbättra din hudkvalitet efter behandlingen, är det viktigt att följa en skräddarsydd hudvårdsrutin. Det innebär inte bara att använda rätt produkter, utan också att följa en rutin som är anpassad för din specifika hudtyp och de behov som uppstått efter peelingen.</p>
