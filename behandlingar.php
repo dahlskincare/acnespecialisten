@@ -115,7 +115,7 @@ $treatments = array(
         url_title: 'Läs mer om skinbooster'
     ),
     new Treatment(
-        label: 'Gratis Hudkonsultation',
+        label: 'Hudkonsultation',
         url: 'gratis-hudkonsultation.php',
         url_title: 'Läs mer om gratis hudkonsultation'
     ),
