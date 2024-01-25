@@ -243,8 +243,8 @@ $services = array(
             price: '995 kr',
             content: 'Denna behandling är utformad för att minska synligheten av stora porer och förbättra hudens textur. Genom djup rengöring, exfoliering och hydrering kan huden se mer jämn och fräsch ut.',
 
-            image_small: 'images/services/200x200/ansiktsbehandling-stora-porer.webp',
-            image_large: 'images/services/200x200/ansiktsbehandling-stora-porer.webp',
+            image_small: 'images/services/200x200/ansiktsbehandling.webp',
+            image_large: 'images/services/200x200/ansiktsbehandling.webp',
             image_alt: 'Bild av en ansiktsbehandling för stora porer',
             image_title: 'Ansiktsbehandling för stora porer',
 
@@ -266,8 +266,8 @@ $services = array(
             price: '2595 kr',
             content: 'Med hjälp av avancerad laserteknik kan denna behandling effektivt minska synligheten av stora porer och förbättra hudens textur. Lasern stimulerar kollagenproduktionen och elastinet i huden vilket resulterar i en jämnare och slätare hudstruktur.',
 
-            image_small: 'images/services/200x200/laser-stora-porer.webp',
-            image_large: 'images/services/200x200/laser-stora-porer.webp',
+            image_small: 'images/services/200x200/laser.webp',
+            image_large: 'images/services/200x200/laser.webp',
             image_alt: 'Bild av laserbehandling för stora porer',
             image_title: 'Laserbehandling för stora porer',
 
@@ -289,8 +289,8 @@ $services = array(
             price: '1595 kr',
             content: 'Kemisk peeling är en effektiv metod för att behandla och minska synligheten av stora porer. Genom att använda en speciellt framtagen lösning för att exfoliera huden främjar kemisk peeling cellförnyelse och rensar tilltäppta porer. Resultatet är en jämnare hudton och en förbättrad hudstruktur med mindre synliga porer. Det är en enkel och effektiv strategi för att förbättra din hudhälsa och reducera stora porer.',
 
-            image_small: 'images/services/200x200/kemisk-peeling-stora-porer.webp',
-            image_large: 'images/services/200x200/kemisk-peeling-stora-porer.webp',
+            image_small: 'images/services/200x200/kemisk-peeling.webp',
+            image_large: 'images/services/200x200/kemisk-peeling.webp',
             image_alt: 'Bild av kemisk peeling för stora porer',
             image_title: 'Kemisk peeling för stora porer behandling',
 
@@ -314,8 +314,8 @@ $services = array(
             price: '2595 kr',
             content: 'Microneedling är en innovativ behandlingsmetod för att reducera synligheten av stora porer. Genom att skapa små mikroskopiska kanaler i huden främjar detta hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. Denna behandling kan effektivt förbättra hudens struktur och minska synligheten av stora porer. Microneedling är en säker och effektiv strategi för att förbättra din hudhälsa och hantera stora porer.',
 
-            image_small: 'images/services/200x200/microneedling-stora-porer.webp',
-            image_large: 'images/services/200x200/microneedling-stora-porer.webp',
+            image_small: 'images/services/200x200/microneedling.webp',
+            image_large: 'images/services/200x200/microneedling.webp',
             image_alt: 'Bild av microneedling för stora porer',
             image_title: 'Microneedling för stora porer behandling',
 
@@ -343,8 +343,8 @@ $products = array(
             price: 'Pris från 1495 kr',
             content: 'För att effektivt hantera och förebygga stora porer är daglig behandling med rätt produkter avgörande. Våra produkter för stora porer är speciellt utformade för att hålla din hud i balans och minska porernas synlighet.',
 
-            image_small: 'images/services/200x200/produkter-stora-porer.webp',
-            image_large: 'images/services/200x200/produkter-stora-porer.webp',
+            image_small: 'images/services/200x200/produkter.webp',
+            image_large: 'images/services/200x200/produkter.webp',
             image_alt: 'Bild av produkter designade för att minska synligheten av stora porer',
             image_title: 'Effektiva produkter för hantering och förebyggande av stora porer',
 
@@ -365,8 +365,8 @@ $products = array(
 $articles = array(
       new Article(
             title: 'När ska jag söka hjälp med mina stora porer?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'När ska jag söka hjälp med mina stora porer?',
             image_title: 'När ska jag söka hjälp med mina stora porer?',
             content: '<p class="p200">Stora porer är en vanlig hudbekymmer som kan drabba personer i alla åldrar. Även om de mestadels ses som en estetisk utmaning, kan de påverka självkänslan och ge upphov till obehag. Om du upplever att dina stora porer börjar påverka ditt välbefinnande, eller om du har provat olika produkter och behandlingar utan framgång, kan det vara dags att söka professionell hjälp. Det är viktigt att komma ihåg att alla kan söka hjälp, oavsett om problemet med stora porer är lätt eller mer utbrett. Det finns ingen "minsta gräns" för när det är lämpligt att söka professionell vård.</p>
@@ -375,8 +375,8 @@ $articles = array(
 
       new Article(
             title: 'Varför ska jag besöka AcneSpecialisten för mina stora porer?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'Varför ska jag besöka AcneSpecialisten för mina stora porer?',
             image_title: 'Varför ska jag besöka AcneSpecialisten för mina stora porer?',
             content: '<p class="p200">Om du är ute efter en effektiv och långsiktig lösning på dina stora porer, är AcneSpecialisten det självklara valet. Vi har över 30 års erfarenhet inom hudvård, inklusive en djup specialisering i att behandla stora porer. Oavsett om du har några enstaka stora porer eller ett mer omfattande problem, kan vi erbjuda en skräddarsydd lösning som passar just dina behov.</p>

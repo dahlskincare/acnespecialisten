@@ -481,8 +481,8 @@ $service = new Service(
       price: 'Kostnadsfri',
       content: 'Vid ett personligt möte med en specialist inom torr och känslig hy utförs en omfattande hudanalys. Vi tar före-bilder på din hud och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina unika behov och hudtyp.',
 
-      image_small: 'images/services/200x200/konsultation_torr-kanslig-hy.webp',
-      image_large: 'images/services/200x200/konsultation_torr-kanslig-hy.webp',
+      image_small: 'images/services/200x200/konsultation.webp',
+      image_large: 'images/services/200x200/konsultation.webp',
       image_alt: 'Bild av en konsultation för behandling av torr och känslig hy',
       image_title: 'Konsultation för Torr och Känslig Hy',
 
@@ -509,8 +509,8 @@ $services = array(
             price: '995 kr',
             content: 'Denna ansiktsbehandling är specialdesignad för att lindra torr och känslig hud. Behandlingen innehåller djup rengöring, fuktgivande masker och serum som hjälper till att återställa hudens naturliga fuktbalans och minska irritation.',
 
-            image_small: 'images/services/200x200/ansiktsbehandling-torr-kanslig-hy.webp',
-            image_large: 'images/services/200x200/ansiktsbehandling-torr-kanslig-hy.webp',
+            image_small: 'images/services/200x200/ansiktsbehandling.webp',
+            image_large: 'images/services/200x200/ansiktsbehandling.webp',
             image_alt: 'Bild av en ansiktsbehandling för torr och känslig hy',
             image_title: 'Ansiktsbehandling för torr och känslig hy',
 
@@ -538,8 +538,8 @@ $products = array(
             price: 'Pris från 1495 kr',
             content: 'För att effektivt lindra symtom av torr och känslig hud är det viktigt med en daglig hudvårdsrutin med rätt produkter. Våra produkter för torr och känslig hy är speciellt utformade för att återfukta huden, minska irritation och återställa hudens naturliga barriär.',
 
-            image_small: 'images/services/200x200/produkter-torr-kanslig-hy.webp',
-            image_large: 'images/services/200x200/produkter-torr-kanslig-hy.webp',
+            image_small: 'images/services/200x200/produkter.webp',
+            image_large: 'images/services/200x200/produkter.webp',
             image_alt: 'Bild av produkter designade för behandling av torr och känslig hy',
             image_title: 'Effektiva produkter för lindring och vård av torr och känslig hy',
 
@@ -560,8 +560,8 @@ $products = array(
 $articles = array(
       new Article(
             title: 'När ska jag söka hjälp för min torra och känsliga hy?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'När ska jag söka hjälp för min torra och känsliga hy?',
             image_title: 'När ska jag söka hjälp för min torra och känsliga hy?',
             content: '<p class="p200">Torr och känslig hud är en utmaning som många människor brottas med. Denna hudtyp kan kännas obekväm, stram och kan även flagna eller bli röd. Även om dessa symtom i många fall kan hanteras med rätt hudvårdsrutin, kan det för vissa bli en källa till stress eller obehag. Om du känner att din hud inte svarar väl på de produkter du använder, eller om din hudrutin inte verkar göra någon skillnad, kan det vara dags att överväga professionell hjälp.</p>

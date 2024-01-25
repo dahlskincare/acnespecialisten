@@ -110,8 +110,8 @@ $treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva aknebe
 $top_articles = array(
     'areas' => new Article(
         title: 'Var och varför uppstår vuxenakne?',
-        image_small: '',
-        image_large: '',
+        image_small: null,
+        image_large: null,
         image_alt: '',
         image_title: '',
         content: '<p class="p200">Vuxenakne kan uppstå av flera orsaker, bland annat hormonella förändringar och stress. Dessa faktorer kan leda till en ökad talgproduktion, vilket i sin tur kan orsaka tilltäppta porer och akneutbrott. Detta hudtillstånd påverkar oftast ansiktet, men är inte ovanligt även på andra kroppsområden som rygg och bröst där talgkörtlar är aktiva.</p>
@@ -122,8 +122,8 @@ $top_articles = array(
 $articles = array(
       new Article(
             title: 'När bör du söka professionell hjälp för vuxenakne?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'När bör du söka professionell hjälp för vuxenakne?',
             image_title: 'När bör du söka professionell hjälp för vuxenakne?',
             content: '<p class="p200">Vuxenakne kan vara en stor påfrestning både fysiskt och känslomässigt. Om du upplever ihållande eller förvärrande akne, är det viktigt att överväga professionell hjälp. Tidig behandling kan förhindra ärrbildning och andra långsiktiga hudproblem, och experter kan ge dig råd om skräddarsydda hudvårdsrutiner och förebyggande metoder.</p>',
@@ -131,8 +131,8 @@ $articles = array(
 
       new Article(
             title: 'Varför välja AcneSpecialisten för hantering av vuxenakne?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'Varför välja AcneSpecialisten för hantering av vuxenakne?',
             image_title: 'Varför välja AcneSpecialisten för hantering av vuxenakne?',
             content: '<p class="p200">På AcneSpecialisten är vi experter på att hantera vuxenakne med över 30 års erfarenhet. Vi erbjuder avancerade och skräddarsydda behandlingsmetoder som är särskilt anpassade för vuxnas unika hudbehov. Med vårt personliga tillvägagångssätt tar vi hand om både nuvarande hudproblem och ger råd för långsiktig hudhälsa, vilket gör oss till ett utmärkt val för alla som vill hantera sin vuxenakne på ett effektivt och skonsamt sätt.</p>',

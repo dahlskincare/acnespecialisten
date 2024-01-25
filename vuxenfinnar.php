@@ -110,8 +110,8 @@ $treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva aknebe
 $top_articles = array(
     'areas' => new Article(
         title: 'Var och varför uppstår vuxenfinnar?',
-        image_small: '',
-        image_large: '',
+        image_small: null,
+        image_large: null,
         image_alt: '',
         image_title: '',
         content: '<p class="p200">Vuxenfinnar uppstår ofta på grund av en kombination av faktorer som hormonella förändringar och stress, vilket kan leda till ökad talgproduktion och tilltäppta porer. Dessa problem påverkar vanligtvis ansiktet, men kan även förekomma på andra delar av kroppen som rygg och bröst. Hos AcneSpecialisten fokuserar vi på att noggrant analysera din hudtyp och dess specifika behov som vuxen, för att identifiera de mest effektiva behandlingsmetoderna.</p>
@@ -122,8 +122,8 @@ $top_articles = array(
 $articles = array(
       new Article(
             title: 'När ska jag söka hjälp för vuxenfinnar?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'När ska jag söka hjälp för vuxenfinnar?',
             image_title: 'När ska jag söka hjälp för vuxenfinnar?',
             content: '<p class="p200">Vuxenfinnar kan vara mer än bara ett kosmetiskt problem – de kan också vara en källa till fysisk och emotionell stress. Om du märker att dina finnar är ihållande eller blir värre är det dags att överväga professionell hjälp. Att hantera finnarna tidigt är avgörande för att minska risken för ärrbildning och andra långsiktiga effekter på huden. Professionell rådgivning kan inte bara hjälpa till att behandla befintliga utbrott, utan också ge insikt i förebyggande åtgärder och skräddarsydda hudvårdsrutiner.</p>',
@@ -131,8 +131,8 @@ $articles = array(
 
       new Article(
             title: 'Varför ska jag välja AcneSpecialisten för vuxenfinnar?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'Varför ska jag välja AcneSpecialisten för vuxenfinnar?',
             image_title: 'Varför ska jag välja AcneSpecialisten för vuxenfinnar?',
             content: '<p class="p200">AcneSpecialisten står ut som en ledande expert inom området för vuxenfinnar. Med över 30 års erfarenhet och en djupgående förståelse för hudens komplexitet, erbjuder vi avancerade behandlingsmetoder anpassade specifikt för vuxna. Skillnaden i hudstruktur, hormonella förändringar och stress hos vuxna kräver en annorlunda tillvägagångssätt än för tonårsakne.</p>

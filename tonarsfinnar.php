@@ -114,8 +114,8 @@ $treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva aknebe
 $top_articles = array(
     'areas' => new Article(
         title: 'Var och varför uppstår tonårsfinnar?',
-        image_small: '',
-        image_large: '',
+        image_small: null,
+        image_large: null,
         image_alt: '',
         image_title: '',
         content: '<p class="p200">Tonårsfinnar uppstår ofta på grund av hormonella förändringar under tonåren, vilket kan leda till ökad talgproduktion och tilltäppta porer. Dessa förändringar påverkar vanligtvis ansiktet, men kan också förekomma på andra delar av kroppen som rygg och bröst. Hos AcneSpecialisten fokuserar vi på att noggrant analysera din hudtyp och dess specifika behov under tonåren, för att identifiera de mest effektiva behandlingsmetoderna.</p>
@@ -126,8 +126,8 @@ $top_articles = array(
 $articles = array(
       new Article(
             title: 'När ska jag söka hjälp för tonårsfinnar?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'När ska jag söka hjälp för tonårsfinnar?',
             image_title: 'När ska jag söka hjälp för tonårsfinnar?',
             content: '<p class="p200">Tonårsfinnar kan vara både fysiskt och emotionellt påfrestande. Om du upplever en ökad frekvens eller svårighetsgrad av utbrott, och vanliga hudvårdsprodukter inte ger lindring, kan det vara dags att söka professionell hjälp. Det är viktigt att börja behandla finnarna så tidigt som möjligt för att undvika att ärr uppstår.</p>',
@@ -135,8 +135,8 @@ $articles = array(
 
       new Article(
             title: 'Varför ska jag välja AcneSpecialisten för tonårsfinnar?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'Varför ska jag välja AcneSpecialisten för tonårsfinnar?',
             image_title: 'Varför ska jag välja AcneSpecialisten för tonårsfinnar?',
             content: '<p class="p200">För effektiv hantering av tonårsfinnar är AcneSpecialisten rätt val för dig. Med över 30 års erfarenhet inom hudvård och en djup förståelse för de unika ut maningarna som tonårsakne medför, erbjuder vi specialiserade lösningar för att hantera din hud på ett säkert och effektivt sätt.</p>

@@ -115,8 +115,8 @@ $treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva aknebe
 $top_articles = array(
     'areas' => new Article(
         title: 'Var uppstår stress akne?',
-        image_small: '',
-        image_large: '',
+        image_small: null,
+        image_large: null,
         image_alt: '',
         image_title: '',
         content: '<p class="p200">Stressakne uppstår ofta som en reaktion på de fysiska och hormonella förändringar som kroppen genomgår under stress. Detta kan leda till inflammation och tilltäppta porer, vilket skapar en gynnsam miljö för utveckling av akne.</p>
@@ -127,8 +127,8 @@ $top_articles = array(
 $articles = array(
       new Article(
             title: 'När är det dags att söka professionell hjälp för stressrelaterad akne?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'När är det dags att söka professionell hjälp för stressrelaterad akne?',
             image_title: 'När är det dags att söka professionell hjälp för stressrelaterad akne?',
             content: '<p class="p200">Stressrelaterad akne kan vara utmanande och påverka både hudens hälsa och ditt emotionella välbefinnande. Om din akne förvärras av stress och inte förbättras med vanlig hudvård, kan det vara dags att söka professionell hjälp. En hudterapeut kan erbjuda skräddarsydda behandlingar och råd som är anpassade efter din hudtyp och dina specifika problem.</p>',
@@ -136,8 +136,8 @@ $articles = array(
 
       new Article(
             title: 'Varför välja AcneSpecialisten för din stressrelaterade akne?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'Varför välja AcneSpecialisten för din stressrelaterade akne?',
             image_title: 'Varför välja AcneSpecialisten för din stressrelaterade akne?',
             content: '<p class="p200">På AcneSpecialisten har vi specialkompetens inom hantering av stressrelaterad akne. Med vår erfarenhet och kunskap om hur stress påverkar huden, erbjuder vi säkra och effektiva behandlingsmetoder. Våra anpassade behandlingsplaner tar hänsyn till dina individuella hudbehov och vårt mål är att erbjuda en personlig och stödjande vård. Vi är engagerade i att hjälpa dig att uppnå en frisk och strålande hud trots utmaningarna med stressrelaterad akne.</p>',

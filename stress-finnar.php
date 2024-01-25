@@ -117,8 +117,8 @@ $treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva aknebe
 $top_articles = array(
     'areas' => new Article(
         title: 'Var och varför uppstår stress finnar?',
-        image_small: '',
-        image_large: '',
+        image_small: null,
+        image_large: null,
         image_alt: '',
         image_title: '',
         content: '<p class="p200">stress finnar uppstår ofta somen reaktion på de fysiska och hormonella förändringar som stress kan orsaka i kroppen. När vi är stressade, producerar kroppen mer androgener (en typ av hormon), vilket kan leda till ökad talgproduktion och inflammation i huden. Detta resulterar ofta i att porerna blir tilltäppta och skapar en gynnsam miljö för akne.</p>
@@ -129,8 +129,8 @@ $top_articles = array(
 $articles = array(
       new Article(
             title: 'När ska man söka hjälp med sina stress finnar?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'När ska man söka hjälp med sina stress finnar?',
             image_title: 'När ska man söka hjälp med sina stress finnar?',
             content: '<p class="p200">Stress finnar kan vara en stor utmaning och påverka både hudens tillstånd och ditt emotionella välbefinnande. Om du märker att din hud reagerar starkt på stress, med ökad akneaktivitet, och de vanliga hudvårdsprodukterna inte ger önskad effekt, är det viktigt att överväga professionell hjälp. En konsultation hos en hudterapeut kan erbjuda skräddarsydda lösningar.</p>',
@@ -138,8 +138,8 @@ $articles = array(
 
       new Article(
             title: 'Varför ska jag välja AcneSpecialisten för behandling av stress finnar?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'Varför ska jag välja AcneSpecialisten för behandling av stress finnar?',
             image_title: 'Varför ska jag välja AcneSpecialisten för behandling av stress finnar?',
             content: '<p class="p200">Att hantera stress finnar kräver expertis och en förståelse för hur stress påverkar huden. Hos AcneSpecialisten är vi specialiserade på att hantera just denna typ av hudproblem. Med över 30 års erfarenhet och en djupgående förståelse för stressrelaterade hudtillstånd, erbjuder vi behandlingsmetoder som är både säkra och effektiva.</p

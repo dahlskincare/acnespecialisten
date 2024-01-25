@@ -98,8 +98,8 @@ $treatment_link = '<a href="problem/pigmentflackar/behandla-pigmentflackar" titl
 $top_articles = array(
     'areas' => new Article(
         title: 'Var uppstår solskadad hy och varför?',
-        image_small: '',
-        image_large: '',
+        image_small: null,
+        image_large: null,
         image_alt: '',
         image_title: '',
         content: '<p class="p200">Solskadad hud är vanligast på områden som ofta utsätts för sol, exempelvis ansikte, händer och armar. Skadorna manifesterar sig i form av pigmentförändringar som beror på överproduktion av melanin, hudens naturliga färgämne. Denna överproduktion är ofta ett resultat av långvarig UV-exponering från solen. Ytterligare faktorer såsom hudens åldrande bidrar också, då den över tid blir mindre effektiv på att reparera skador orsakade av solen.</p>
@@ -110,8 +110,8 @@ $top_articles = array(
 $articles = array(
       new Article(
             title: 'När är det dags att söka hjälp för solskadad hy?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'När är det dags att söka hjälp för solskadad hy?',
             image_title: 'När är det dags att söka hjälp för solskadad hy?',
             content: '<p class="p200">Solskadad hud är ett vanligt ålderstecken och kan orsaka estetiska bekymmer. Om du upplever att din solskadade hud påverkar ditt självförtroende eller om du är bekymrad över dess tillstånd, kan det vara lämpligt att söka professionell hjälp. Även om solskador i sig inte alltid är farliga, är det viktigt att få en korrekt bedömning för att utesluta andra hudproblem. En hudterapeut kan även erbjuda rådgivning kring effektiva behandlingar och förebyggande åtgärder.</p>',
@@ -119,8 +119,8 @@ $articles = array(
 
       new Article(
             title: 'Varför välja AcneSpecialisten för behandling av solskadad hy?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'Varför välja AcneSpecialisten för behandling av solskadad hy?',
             image_title: 'Varför välja AcneSpecialisten för behandling av solskadad hy?',
             content: '<p class="p200">AcneSpecialisten utmärker sig som en föregångare inom hudvårdsbranschen, särskilt inom området för behandling av solskadad hud. Med vår omfattande erfarenhet och till gång till toppmoderna behandlingsmetoder, erbjuder vi individuellt anpassade behandlingsprogram för varje kund. Vår ambition är att inte bara adressera de synliga tecknen på solskador, utan också att förebygga framtida problem med huden.</p>

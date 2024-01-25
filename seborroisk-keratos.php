@@ -93,8 +93,8 @@ $treatment_link = '<a href="problem/hudforandringar/behandla-hudforandringar" ti
 $top_articles = array(
     'areas' => new Article(
         title: 'Områden för seborroisk keratos',
-        image_small: '',
-        image_large: '',
+        image_small: null,
+        image_large: null,
         image_alt: '',
         image_title: '',
         content: '<p class="p200">Seborroisk keratos, även känd som åldersvårtor, är en typ av hudförändringar som ofta uppträder på områden som är utsatta för solen, såsom ansikte, bröst, rygg och armar. Dessa förändringar kännetecknas av en upphöjd, skrovlig yta och kan variera i färg från ljus till mörkbrun.</p>
@@ -105,8 +105,8 @@ $top_articles = array(
 $articles = array(
       new Article(
             title: 'När ska jag söka hjälp för mina seborroisk keratos?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'När ska jag söka hjälp för mina seborroisk keratos?',
             image_title: 'När ska jag söka hjälp för mina seborroisk keratos?',
             content: '<p class="p200">Även om seborroisk keratos oftast är ofarliga, är det viktigt att vara uppmärksam på förändringar i utseende. Om du märker att en seborroisk keratos förändrar färg, storlek, form, eller börjar blöda, är det viktigt att söka professionell bedömning.</p>',
@@ -114,8 +114,8 @@ $articles = array(
 
       new Article(
             title: 'Varför ska jag besöka AcneSpecialisten för mina seborroisk keratos?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'Varför ska jag besöka AcneSpecialisten för mina seborroisk keratos?',
             image_title: 'Varför ska jag besöka AcneSpecialisten för mina seborroisk keratos?',
             content: '<p class="p200">AcneSpecialisten erbjuder avancerade behandlingar för seborroisk keratos, inklusive laserterapi och kryoterapi, för att effektivt och säkert behandla dessa hudförändringar. Vårt team av erfarna hudspecialister arbetar för att ge dig en personligt anpassad behandlingsplan som passar dina specifika behov och hudtillstånd.</p>',

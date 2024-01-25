@@ -110,8 +110,8 @@ $treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva aknebe
 $top_articles = array(
     'areas' => new Article(
         title: 'Var och varför uppstår tonårsakne?',
-        image_small: '',
-        image_large: '',
+        image_small: null,
+        image_large: null,
         image_alt: '',
         image_title: '',
         content: '<p class="p200">Tonårsakne är vanligtvis ett resultat av de hormonella förändringar som sker under tonåren, vilket kan leda till ökad talgproduktion och därmed tilltäppta porer. Denna typ av akne påverkar ofta ansiktet men kan också dyka upp på andra delar av kroppen som rygg och bröst, där talgkörtlar är mer aktiva. På Acnespecialisten lägger vi stor vikt vid att förstå de unika utmaningarna med tonårshud och erbjuder behandlingar som är anpassade för att effektivt hantera tonårsakne.</p>
@@ -122,8 +122,8 @@ $top_articles = array(
 $articles = array(
       new Article(
             title: 'När är det dags att söka professionell hjälp för tonårsakne?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'När är det dags att söka professionell hjälp för tonårsakne?',
             image_title: 'När är det dags att söka professionell hjälp för tonårsakne?',
             content: '<p class="p200">Tonårsakne kan vara både fysiskt och känslomässigt utmanande. Om du ser att akneutbrotten blir alltmer frekventa eller svåra och vanlig hudvård inte ger effekt, kan det vara läge att söka professionell hjälp. Tidig intervention är nyckeln till att förebygga ärrbildning och andra långsiktiga hudproblem.</p>',
@@ -131,8 +131,8 @@ $articles = array(
 
       new Article(
             title: 'Fördelarna med att välja AcneSpecialisten för hantering av tonårsakne',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'Fördelarna med att välja AcneSpecialisten för hantering av tonårsakne',
             image_title: 'Fördelarna med att välja AcneSpecialisten för hantering av tonårsakne',
             content: '<p class="p200">AcneSpecialisten är en ledande expert på behandling av tonårsakne, med över 30 års erfarenhet. Vi förstår de specifika utmaningar tonårsakne medför och erbjuder anpassade behandlingar för att hantera dessa effektivt och säkert.</p>
