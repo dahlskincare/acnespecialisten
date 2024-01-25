@@ -65,31 +65,6 @@ $treatments = array(
         url_title: 'Läs mer om ansiktsbehandlingar mot problemhy'
     ),
     new Treatment(
-        label: 'Klassiska Ansiktsbehandlingar',
-        url: 'ansiktsbehandlingar.php',
-        url_title: 'Läs mer om klassiska ansiktsbehandlingar'
-    ),
-    new Treatment(
-        label: 'Dermabrasion',
-        url: 'behandlingar/dermabrasion',
-        url_title: 'Läs mer om dermabrasion'
-    ),
-    new Treatment(
-        label: 'Frysbehandling',
-        url: 'behandlingar/frysbehandling',
-        url_title: 'Läs mer om frysbehandling'
-    ),
-    new Treatment(
-        label: 'IPL',
-        url: 'behandlingar/ipl',
-        url_title: 'Läs mer om ipl'
-    ),
-    new Treatment(
-        label: 'Kemisk Peeling',
-        url: 'kemisk-peeling.php',
-        url_title: 'Läs mer om kemisk peeling'
-    ),
-    new Treatment(
         label: 'Laser mot Problemhy',
         url: 'behandlingar/laser-mot-problemhy',
         url_title: 'Läs mer om'
@@ -100,9 +75,34 @@ $treatments = array(
         url_title: 'Läs mer om microneedling'
     ),
     new Treatment(
-        label: 'Skinbooster',
-        url: 'behandlingar/skinbooster',
-        url_title: 'Läs mer om skinbooster'
+        label: 'Frysbehandling',
+        url: 'behandlingar/frysbehandling',
+        url_title: 'Läs mer om frysbehandling'
+    ),
+    new Treatment(
+        label: 'Kemisk Peeling',
+        url: 'kemisk-peeling.php',
+        url_title: 'Läs mer om kemisk peeling'
+    ),
+    new Treatment(
+        label: 'Injektionsbehandlingar',
+        url: 'behandlingar/injektionsbehandlingar',
+        url_title: 'Läs mer om Injektionsbehandlingar'
+    ),
+    new Treatment(
+        label: 'Klassiska Ansiktsbehandlingar',
+        url: 'ansiktsbehandlingar.php',
+        url_title: 'Läs mer om klassiska ansiktsbehandlingar'
+    ),
+    new Treatment(
+        label: 'IPL',
+        url: 'behandlingar/ipl',
+        url_title: 'Läs mer om ipl'
+    ),
+    new Treatment(
+        label: 'Dermabrasion',
+        url: 'behandlingar/dermabrasion',
+        url_title: 'Läs mer om dermabrasion'
     ),
     new Treatment(
         label: 'Permanent Hårborttagning',
@@ -110,9 +110,9 @@ $treatments = array(
         url_title: 'Läs mer om Permanent Hårobrttagning'
     ),
     new Treatment(
-        label: 'Injektionsbehandlingar',
-        url: 'behandlingar/injektionsbehandlingar',
-        url_title: 'Läs mer om Injektionsbehandlingar'
+        label: 'Skinbooster',
+        url: 'behandlingar/skinbooster',
+        url_title: 'Läs mer om skinbooster'
     ),
     new Treatment(
         label: 'Gratis Hudkonsultation',
