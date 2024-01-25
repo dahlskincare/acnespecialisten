@@ -85,7 +85,7 @@ $treatments = array(
         url_title: 'Läs mer om kemisk peeling'
     ),
     new Treatment(
-        label: 'Injektionsbehandlingar',
+        label: 'Injektioner',
         url: 'behandlingar/injektionsbehandlingar',
         url_title: 'Läs mer om Injektionsbehandlingar'
     ),
