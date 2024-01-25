@@ -110,6 +110,11 @@ $treatments = array(
         url_title: 'Läs mer om Permanent Hårobrttagning'
     ),
     new Treatment(
+        label: 'Injektionsbehandlingar',
+        url: 'behandlingar/injektionsbehandlingar',
+        url_title: 'Läs mer om Injektionsbehandlingar'
+    ),
+    new Treatment(
         label: 'Gratis Hudkonsultation',
         url: 'gratis-hudkonsultation.php',
         url_title: 'Läs mer om gratis hudkonsultation'
