@@ -73,11 +73,11 @@ $services = array(
         icons: array('rengoring' => 'Rengöring', 'anga' => 'Ånga', 'extraktion' => 'Extraktion', 'mask' => 'Mask'),
         content: '<p class="p200">Ansiktsbehandling mot rosacea på Acnespecialisten syftar till att lugna huden, minska rodnad och inflammation. Behandlingen inleds med en skonsam rengöring, följt av behandlingar som är anpassade för att stärka hudens barriär och minska symtomen av rosacea. Behandlingen avslutas med en lugnande mask och fuktgivande kräm speciellt anpassad för känslig hud eller hud med rosacea.</p>',
 
-        consultation_url: 'boka-hudkonsultation-rosacea',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka Hudkonsultation för Rosacea på Acnespecialisten',
 
-        booking_url: 'boka-behandling-rosacea',
+        booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Rosacea',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Din Ansiktsbehandling mot Rosacea på Acnespecialisten',
 
@@ -97,10 +97,10 @@ $services = array(
         duration: '30-60 min',
         price: '1295 kr',
         content: '<p class="p200">IPL-behandling för rosacea hos Acnespecialisten fungerar genom att använda ljuspulser för att minska rodnad och små blodkärl som ofta förknippas med rosacea. Ljuspulserna riktar sig specifikt mot de röda områdena, vilket minskar inflammationen och förbättrar hudens utseende.</p>',
-        consultation_url: 'konsultation-ipl',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_IPL',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för IPL-behandling mot rosacea',
-        booking_url: 'boka-iplbehandling',
+        booking_url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_Rosacea',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka din IPL-behandling mot rosacea nu',
         url: 'behandlingar/iplbehandling-mot-rosacea',
@@ -121,7 +121,7 @@ $products = array(
         image_title: 'Acnespecialistens effektiva hudvårdsprodukter mot rosacea',
         image_alt: 'Bild på Acnespecialistens hudvårdsprodukter mot rosacea',
 
-        url: 'produkter/mot-rosacea',
+        url: 'https://dahlskincare.se/produktkategorier/produktpaket/rosacea',
         url_label: 'Utforska våra hudvårdsprodukter mot rosacea',
         url_title: 'Information om Acnespecialistens hudvårdsprodukter mot rosacea',
         price: 'Acnespecialistens hudvårdsprodukter mot rosacea - Pris från 1295 kr',
@@ -131,8 +131,8 @@ $products = array(
 
 $headline04 = '04. Behandla Ytliga Blodkärl';
 
-$repair_image_small = null;
-$repair_image_large = null;
+$repair_image_small = '';
+$repair_image_large = '';
 
 $repair_content = '<p class="p200">Ytliga blodkärl, även kända som spindelkärl eller brustna blodkärl, kan uppstå av flera orsaker och ge ett rodnat och fläckigt utseende på huden. På Acnespecialisten kan vi hjälpa dig att behandla dessa blodkärl med moderna tekniker som laserteknik och IPL (Intense Pulsed Light). Dessa metoder riktar sig direkt till blodkärlen, vilket får dem att kollapsa och successivt försvinna. Med oss vid din sida kan du känna dig trygg i att du får den bästa möjliga behandlingen och rådgivningen för att återställa en jämn hudton utan störande blodkärl.</p>';
 
