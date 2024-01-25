@@ -235,8 +235,8 @@ $types = array(
 
 $bottom_articles = array('aftercare' => new Article(
     title: 'Eftervård och omhändertagande',
-    image_small: 'https://via.placeholder.com/358x272.webp',
-    image_large: 'https://via.placeholder.com/872x456.webp',
+    image_small: null,
+    image_large: null,
     image_alt: 'Eftervård och omhändertagande',
     image_title: 'Eftervård och omhändertagande',
     content: '<p class="p200">Efter en ansiktsbehandling är det viktigt med rätt eftervård för att behandla och bibehålla hudens skick. Genom att fortsätta ta hand om huden med rätt hemmavård kan du förlänga och förstärka effekterna av behandlingen. Det handlar inte bara om att använda produkter utan också om att följa rätt behandlingsrutiner för just ditt behov.</p>
