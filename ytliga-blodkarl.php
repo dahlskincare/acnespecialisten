@@ -381,8 +381,8 @@ $services = array(
             price: '2595 kr',
             content: 'IPL (Intensivt Pulserande Ljus) är en effektiv metod för att behandla ytliga blodkärl. Tekniken använder ljusvågor av olika längder för att värma upp och skada blodkärlen, vilket får dem att krympa och försvinna eller bli mindre framträdande. IPL-behandling är en skonsam metod som minskar synligheten av ytliga blodkärl utan att skada den omgivande huden.',
 
-            image_small: 'images/services/200x200/ipl-ytliga-blodkarl.webp',
-            image_large: 'images/services/200x200/ipl-ytliga-blodkarl.webp',
+            image_small: 'images/services/200x200/ipl.webp',
+            image_large: 'images/services/200x200/ipl.webp',
             image_alt: 'Bild av IPL-behandling mot ytliga blodkärl',
             image_title: 'IPL-behandling mot Ytliga Blodkärl',
 
@@ -403,8 +403,8 @@ $services = array(
 $articles = array(
       new Article(
             title: 'När ska jag söka hjälp för mina ytliga blodkärl?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'När ska jag söka hjälp för mina ytliga blodkärl?',
             image_title: 'När ska jag söka hjälp för mina ytliga blodkärl?',
             content: '<p class="p200">Ytliga blodkärl är en vanlig hudåkomma som kan drabba personer i alla åldrar. För många är det ett kosmetiskt problem som kan påverka självkänslan och det sociala välbefinnandet. Om du känner att dina ytliga blodkärl börjar påverka ditt liv negativt, eller om du har försökt olika behandlingar utan framgång, kan det vara dags att söka professionell hjälp.</p>
@@ -412,8 +412,8 @@ $articles = array(
       ),
       new Article(
             title: 'Varför ska jag besöka AcneSpecialisten för mina ytliga blodkärl?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'Varför ska jag besöka AcneSpecialisten för mina ytliga blodkärl?',
             image_title: 'Varför ska jag besöka AcneSpecialisten för mina ytliga blodkärl?',
             content: '<p class="p200">Om du letar efter en effektiv och långsiktig lösning på problemet med ytliga blodkärl, är AcneSpecialisten det självklara valet. Trots namnet har vi en bred erfarenhet inom hudvård, inklusive behandling av ytliga blodkärl. Vi erbjuder skräddarsydda lösningar baserade på ditt individuella behov och hudtyp.</p>
