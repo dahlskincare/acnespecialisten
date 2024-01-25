@@ -15,8 +15,8 @@ $model = new Service(
     price: null,
     content: '<p class="p200">På AcneSpecialisten är vi stolta över att erbjuda PRX-T33, en avancerad form av kemisk peeling som specialiserar sig på att effektivt förbättra hudens utseende och kvalitet. Denna innovativa behandling är särskilt lämplig för dig som vill adressera hudproblem såsom acneärr, bristningar, melasma, pigmentfläckar, pormaskar, stora porer, samt rynkor och fina linjer. Vår PRX-T33-behandling är utformad för att vara både skonsam och kraftfull, vilket möjliggör en betydande förbättring av hudens struktur och ton utan den avskalning som ofta förekommer vid traditionell kemisk peeling.</p>
     <p class="p200 mt-m">Varje PRX-T33-behandling på AcneSpecialisten är anpassad efter klientens individuella hudbehov, med målet att erbjuda en säker och icke-invasiv väg till en klarare, mer jämn och strålande hud. Vårt engagemang för expertis och kvalitet garanterar att varje klient upplever en märkbar förbättring i sin hudkvalitet, tack vare våra effektiva och professionellt genomförda behandlingar.</p>',
-    image_small: 'https://via.placeholder.com/358x274.webp',
-    image_large: 'https://via.placeholder.com/424x456.webp',
+    image_small: 'bilder/varumarken/358x274/prx-t33.webp',
+    image_large: 'bilder/varumarken/424x456/prx-t33.webp',
     image_alt: 'PRX-T33 behandlingar',
     image_title: 'PRX-T33 behandlingar',
     consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_PRXT33',
